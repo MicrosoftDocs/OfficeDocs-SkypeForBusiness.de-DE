@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61fbce79fc528f4b69baed9c08a8dabc9d40ed4a
-ms.sourcegitcommit: 76fc38fe1fbbd93bf2815c57e66fc479df34d929
+ms.openlocfilehash: b37fcadb89c0ae88e48c20ab669aa91aef6d2f02
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "49002197"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757770"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in die richtlinienbasierte Aufzeichnung von Teams für Anrufe & Besprechungen
 
 Mithilfe einer richtlinienbasierten Aufzeichnung können Organisationen, die Microsoft Teams für Anrufe und Besprechungen übernehmen, unter Verwendung einer Verwaltungsrichtlinie festlegen, wann Anrufe und Onlinebesprechungen automatisch aufgezeichnet und für die spätere Verarbeitung und Aufbewahrung erfasst werden sollen, wie dies in den entsprechenden Unternehmens-oder Aufsichtsrichtlinien erforderlich ist.
 
-Teams wurden verbessert, um die Integration von Drittanbieter-Aufzeichnungslösungen zu unterstützen, einschließlich der Plattformfunktionen, Benutzer Erfahrungen und administrativen Schnittstellen, die für die Bereitstellung einer End-to-End-Lösung für die Konfiguration, Verwaltung, Aufzeichnung, Speicherung und Analyse von Teams-Kommunikationen erforderlich sind. Dazu gehören Kommunikationsplattform-APIs und Ereignisse für die Aufzeichnung, die Folgendes bietet:
+Teams wurden verbessert, um die Integration von Drittanbieter-Aufzeichnungslösungen zu unterstützen, einschließlich der Plattformfunktionen, Benutzer Erfahrungen und administrativen Schnittstellen, die für die Bereitstellung einer End-to-End-Lösung für die Konfiguration, Verwaltung, Aufzeichnung, Speicherung und Analyse von Teams-Kommunikationen erforderlich sind. Zu den Verbesserungen gehören Kommunikationsplattform-APIs und Ereignisse für die Aufzeichnung, die Folgendes bietet:
 
 - Nahtlose, qualitativ hochwertige Medien Erfassung auf allen Geräten und alle unterstützten Endpunkte für Audio, Video, Bildschirmfreigabe und Chat.
 
@@ -42,7 +42,7 @@ Teams wurden verbessert, um die Integration von Drittanbieter-Aufzeichnungslösu
 
 Die Konformitäts Aufzeichnung kann für Benutzer von Microsoft 365 a3/A5/E3/E5/Business Premium und Office 365 a3/A5/E3/E5 aktiviert werden. 
 
-Die Integrationsfunktionen der Kompatibilitäts Aufzeichnung wurden auch bei Ignite 2019 in der [<span class="underline">Sitzung Compliance Recording und Microsoft Teams</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)überprüft.
+Die Integrationsfunktionen der Kompatibilitäts Aufzeichnung wurden auch bei Ignite 2019 in der [<span class="underline">Sitzung Compliance Recording und Microsoft Teams</span>](https://myignite.microsoft.com/archives/IG19-VCE40)überprüft.
 
 ## <a name="teams-interaction-recording-overview"></a>Übersicht über die Interaktions Aufzeichnung für Teams
 
@@ -52,14 +52,14 @@ Anwendungsfälle für die Interaktions Aufzeichnung können effektiv in vier pri
 
 Jede der Kategorien umfasst unterschiedliche Anforderungen für die Art und Weise, wie Aufzeichnungen initiiert werden, was aufgezeichnet wird, wo Aufzeichnungen gespeichert werden, wer benachrichtigt wird, wer den Zugriff steuert und wie die Aufbewahrung gehandhabt wird.
 
-| Typ                   | Komfort        | Funktions         | Org-allgemein      | Org-reguliert | Rechtmäßiger Abschnitt   |
-| ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
-| Initiator              | Benutzer               | App/Lösung       | Administrator (System)     | Administrator (System)  | Lea                |
-|  Target                 | Pro Anruf/Besprechung | Pro Anruf/Besprechung | Pro Anruf/Besprechung | Pro Benutzer        | Pro Endpunkt/did |
-| Speicher Besitzer          | Benutzer               | App                | Admin              | Compliance      | Lea                |
-| Benachrichtigung erforderlich? | Ja                | Ja                | Ja                | Ja             | Nein                 |
-| Zugriffs Besitzer           | Benutzer               | App                | Admin              | Compliance      | Lea                |
-| Aufbewahrungsrichtlinie?      | Optional           | Ja                | Ja                | Ja             | Ja                |
+| Typ                   | Bequemlichkeit (reguläre Teams aufzeichnen) | Org-reguliert (Konformitäts Aufzeichnung) |
+| ---------------------- | ------------------ | --------------- |
+| Initiator              | Benutzer               | Administrator (System)  |
+|  Target                 | Pro Anruf/Besprechung | Benutzerspezifische Richtlinie        |
+| Speicher Besitzer          | Benutzer               | Compliance      |
+| Benachrichtigung erforderlich? | Ja                | Ja             |
+| Zugriffs Besitzer           | Benutzer               | Compliance      |
+| Aufbewahrungsrichtlinie?      | Optional           | Ja             |
 
 Teams bietet verschiedene Funktionen für die [<span class="underline">bequeme</span>](https://docs.microsoft.com/microsoftteams/cloud-recording) und funktionelle Aufzeichnung für Besprechungen und Live-Events. Die organisatorische Aufzeichnung bedeutet, dass Organisationen, die Teams für Anrufe und Besprechungen einführen, in einer administrativen Richtlinie festlegen können, ob Anrufe und Onlinebesprechungen automatisch aufgezeichnet und für die spätere Verarbeitung und Aufbewahrung nach Maßgabe der einschlägigen Unternehmens-oder Aufsichtsrichtlinien festgelegt werden sollen. Benutzern, die dieser Richtlinie unterliegen, ist bewusst, dass Ihre digitalen Interaktionen mit Teams aufgezeichnet werden, Sie aber nicht in der Lage sind, die Aufzeichnung zu deaktivieren, und nach Abschluss der Interaktion keinen Zugriff auf die Aufzeichnung hat. Die Aufzeichnung wird Teil des Organisations Archivs, das Compliance-und juristischen Personen für eDiscovery, rechtliche Aufbewahrung und andere Unternehmens Aufbewahrungszwecke zur Verfügung steht.
 
@@ -212,6 +212,7 @@ Die folgenden Partner haben Ihre Lösung für Microsoft Teams zertifiziert.
 
 |Partner|Lösungs Website |
 |:--|:--|
+|AudioCodes |[https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360](https://www.audiocodes.com/solutions-products/voiceai/meetings-and-recording/smarttap-360) |
 |Schön |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 
 
@@ -220,7 +221,6 @@ Die folgenden Partner sind dabei, Ihre Lösung für Microsoft Teams zu zertifizi
 |Partner|Lösungs Website |
 |:--|:--|
 |ASC-Technologien |[https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html](https://www.asctechnologies.com/english/ASC_Recording_Insights_Compliance_Recording_for_Microsoft_Teams.html) |
-|AudioCodes |[https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/smarttap-360-recording) |
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |

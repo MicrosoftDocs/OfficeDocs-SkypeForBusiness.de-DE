@@ -1,8 +1,8 @@
 ---
-title: Media Bypass (Planning Tool)
+title: Medienumgehung (Planungstool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Medienumgehung bezieht sich auf das Entfernen des Vermittlungsservers aus dem Medienpfad, wenn möglich, für Anrufe, deren Signalisierung den Vermittlungsserver durchquert. Weitere Informationen finden Sie unter Planen der medienumgehung in Skype for Business.
-ms.openlocfilehash: 7e28c5f699be99319d77753b6463a9733375ba83
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Bei der Medienumgehung wird für Anrufe, deren Signaldaten über den Vermittlungsserver verarbeitet werden, der Vermittlungsserver nach Möglichkeit aus dem Medienpfad entfernt. Weitere Informationen finden Sie unter "Planen der Medienumgehung in Skype for Business".
+ms.openlocfilehash: c20a755a150ee4755b0b3805b6999e0386936456
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797146"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836075"
 ---
-# <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
+# <a name="media-bypass-planning-tool"></a>Medienumgehung (Planungstool)
  
-Medienumgehung bezieht sich auf das Entfernen des Vermittlungsservers aus dem Medienpfad, wenn möglich, für Anrufe, deren Signalisierung den Vermittlungsserver durchquert. Weitere Informationen finden Sie unter [Planen der medienumgehung in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Bei der Medienumgehung wird für Anrufe, deren Signaldaten über den Vermittlungsserver verarbeitet werden, der Vermittlungsserver nach Möglichkeit aus dem Medienpfad entfernt. Weitere Informationen finden Sie unter ["Planen der Medienumgehung in Skype for Business".](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
 

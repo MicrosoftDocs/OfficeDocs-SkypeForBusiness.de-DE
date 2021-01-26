@@ -1,8 +1,8 @@
 ---
-title: Konfigurieren der medienumgehung in Skype for Business Server, um den Vermittlungsserver immer zu umgehen
+title: Konfigurieren der Medienumgehung in Skype for Business Server, um den Vermittlungsserver immer zu umgehen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: Aktivieren Sie die medienumgehung, um den Vermittlungsserver in Skype for Business Server Enterprise Voice immer zu umgehen.
-ms.openlocfilehash: cde2a1bff41016e05ac6c74978fa65b45f11a1e7
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Aktivieren Sie die Medienumgehung, um den Vermittlungsserver in Skype for Business Server immer Enterprise-VoIP.
+ms.openlocfilehash: 23d3100e355d100e3dea1932639d70f9290e7ea4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768268"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804215"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Konfigurieren der medienumgehung in Skype for Business Server, um den Vermittlungsserver immer zu umgehen
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Konfigurieren der Medienumgehung in Skype for Business Server, um den Vermittlungsserver immer zu umgehen
  
-Aktivieren Sie die medienumgehung, um den Vermittlungsserver in Skype for Business Server Enterprise Voice immer zu umgehen. 
+Aktivieren Sie die Medienumgehung, um den Vermittlungsserver in Skype for Business Server immer Enterprise-VoIP. 
   
- Wenn Sie die Schritte in diesem Thema zum Konfigurieren globaler Einstellungen für die medienumgehung verwenden, besteht die Annahme, dass Sie über eine gute Verbindung zwischen den Endpunkten von Skype for Business und allen Peers verfügen, für die Sie die medienumgehung für die trunk-Verbindung konfiguriert haben.
+ Wenn Sie die globalen Einstellungen für die Medienumgehung mithilfe der Schritte in diesem Thema konfigurieren, wird davon ausgegangen, dass Sie über eine gute Konnektivität zwischen Skype for Business-Endpunkten und jedem Peer verfügen, für den Sie die Medienumgehung für die Trunkverbindung konfiguriert haben.
   
-Wenn Sie keine gute Verbindung zwischen Skype for Business-Endpunkten und allen Peers mit dem Vermittlungs Server haben, deren jeweilige trunk-Verbindungen für die medienumgehung aktiviert wurden, müssen Sie die globalen Einstellungen für die medienumgehung so konfigurieren, dass die Website-und Regionsinformationen verwendet werden. bei Verwendung der medienumgehung. Auf diese Weise können Sie festlegen, wann Medien den Vermittlungs Server umgeht. Führen Sie dazu die Schritte unter Konfigurieren der [globalen Einstellungen für medienumgehung in Skype for Business Server aus, um Website-und Regionsinformationen zu verwenden](use-site-and-region-information.md) und stattdessen [ein Subnetz mit einer Netzwerk Website zu verknüpfen](deploy-network.md#BKMK_AssociateSubnets) .
+Wenn Sie keine gute Konnektivität zwischen Skype for Business-Endpunkten und allen Peers zum Vermittlungsserver haben, dessen entsprechende Trunkverbindungen für die Medienumgehung aktiviert wurden, müssen Sie globale Einstellungen für die Medienumgehung so konfigurieren, dass Standort- und Regioneninformationen verwendet werden, wenn Sie die Medienumgehung verwenden. Auf diese Weise kann die Umgehung der Mediendatenverarbeitung durch den Vermittlungsserver besser gesteuert werden. Führen Sie dazu die Schritte unter "Konfigurieren der globalen Einstellungen für die Medienumgehung [in Skype for Business Server"](use-site-and-region-information.md) aus, um Standort- und Regioneninformationen zu verwenden, und ordnen Sie stattdessen ein Subnetz einem [Netzwerkstandort zu.](deploy-network.md#BKMK_AssociateSubnets)
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>So aktivieren Sie die Medienumgehung global zur dauerhaften Umgehung des Vermittlungsservers
 
@@ -43,11 +43,11 @@ Wenn Sie keine gute Verbindung zwischen Skype for Business-Endpunkten und allen 
     
 5. Klicken Sie auf **Immer umgehen**.
     
-6. Klicken Sie auf **Commit ausführen**.
+6. Klicken Sie auf **Commit**.
     
 ## <a name="see-also"></a>Siehe auch
 
-[Planen der medienumgehung in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[Planen der Medienumgehung in Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[Bereitstellen der medienumgehung in Skype for Business Server](deploy-media-bypass.md)
+[Bereitstellen der Medienumgehung in Skype for Business Server](deploy-media-bypass.md)
 

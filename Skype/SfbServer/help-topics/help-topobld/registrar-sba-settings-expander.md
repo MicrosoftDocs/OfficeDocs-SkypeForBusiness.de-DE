@@ -1,8 +1,8 @@
 ---
 title: SBA-Einstellungen der Registrierungsstelle – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren die folgenden Eigenschaften:'
-ms.openlocfilehash: 6424b43ea7c56760bb8d58ee35d9804c49c435dd
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e85bc8fd1ff3beb745fa494db6e77b5ca6d407a5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217216"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823575"
 ---
-# <a name="registrar-sba-settings-expander"></a>SBA-Einstellungen der Registrierungsstelle – Erweiterung
+# <a name="registrar-sba-settings-expander"></a>SBA-Einstellungen der Registrierungsstelle – Erweiterung
 
 Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren die folgenden Eigenschaften:
 
@@ -41,6 +41,6 @@ Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren die fo
 
   **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Planung für die Ausfallsicherheit von Enterprise-VoIP](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[Planen von Enterprise-VoIP A0](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

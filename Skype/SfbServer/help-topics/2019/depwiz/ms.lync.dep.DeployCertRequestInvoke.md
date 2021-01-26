@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Aufruf)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite "Befehle ausführen" wird ein Aufgabenstatus Bereich angezeigt, während die Befehle für die Generierung der Zertifikatanforderung ausgeführt werden. Nachdem die Aufgaben abgeschlossen sind, enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste der Protokolldateien. Verwenden Sie die Dropdownliste, um eine anzuzeigende Protokolldatei auszuwählen, und klicken Sie dann auf Protokoll anzeigen. Internet Explorer startet und zeigt die Protokolldatei an. Im Fall einer fehlgeschlagenen Anforderung sollten Sie die Protokolldatei (en) überprüfen, um die Ursache des Fehlers zu ermitteln. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben und das in der Protokolldatei angegebene Problem zu beheben. Fahren Sie mit den Zertifikat Anforderungs Seiten fort, und fordern Sie das Zertifikat erneut an.
-ms.openlocfilehash: 983ebce3a26429706a5518817e81b42cdc22cfd9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Auf der Seite Befehle ausführen wird eine Statuszusammenfassung der Befehle angezeigt, die zur Erstellung der Zertifikatanforderung ausgeführt wurden. Nach Abschluss der Aufgaben enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste mit Protokolldateien. Wählen Sie in der Dropdownliste eine Protokolldatei aus, die angezeigt werden soll, und klicken Sie dann auf "Protokoll anzeigen". Die Protokolldatei wird in Internet Explorer angezeigt. Überprüfen Sie bei einer nicht erfolgreichen Anforderung die Protokolldatei(en), um die Fehlerursache zu bestimmen. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben, und das in der Protokolldatei angegebene Problem beheben. Fahren Sie mit den Zertifikatanforderungsseiten fort, und fordern Sie das Zertifikat erneut an.
+ms.openlocfilehash: 0f2f1dd8c23e5c0fb36a0cabc4dca022277141c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796696"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836845"
 ---
 # <a name="certificate-request-invoke"></a>Zertifikatanforderung (Aufruf)
  
-Auf der Seite " **Befehle ausführen** " wird ein Aufgabenstatus Bereich angezeigt, während die Befehle für die Generierung der Zertifikatanforderung ausgeführt werden. Nachdem die Aufgaben abgeschlossen sind, enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste der Protokolldateien. Verwenden Sie die Dropdownliste, um eine anzuzeigende Protokolldatei auszuwählen, und klicken Sie dann auf **Protokoll anzeigen**. Internet Explorer startet und zeigt die Protokolldatei an. Im Fall einer fehlgeschlagenen Anforderung sollten Sie die Protokolldatei (en) überprüfen, um die Ursache des Fehlers zu ermitteln. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben und das in der Protokolldatei angegebene Problem zu beheben. Fahren Sie mit den Zertifikat Anforderungs Seiten fort, und fordern Sie das Zertifikat erneut an.
+Auf der Seite **Befehle ausführen** wird eine Statuszusammenfassung der Befehle angezeigt, die zur Erstellung der Zertifikatanforderung ausgeführt wurden. Nach Abschluss der Aufgaben enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste mit Protokolldateien. Wählen Sie in der Dropdownliste eine Protokolldatei aus, die angezeigt werden soll, und klicken Sie dann **auf "Protokoll anzeigen".** Die Protokolldatei wird in Internet Explorer angezeigt. Überprüfen Sie bei einer nicht erfolgreichen Anforderung die Protokolldatei(en), um die Fehlerursache zu bestimmen. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben, und das in der Protokolldatei angegebene Problem beheben. Fahren Sie mit den Zertifikatanforderungsseiten fort, und fordern Sie das Zertifikat erneut an.
   
 

@@ -1,7 +1,7 @@
 ---
-title: Definieren von Ergebnissen und Erfolg bei der Einführung von Microsoft Teams – Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Definieren von Ergebnissen und Erfolg für die Einführung von Microsoft Teams – Microsoft Teams
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -18,133 +18,133 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie die Ergebnisse und den Erfolg ihrer umfassenden Aktivierung von Teams ermitteln können.
+description: Erfahren Sie, wie Sie die Ergebnisse und den Erfolg Ihrer umfassenden Aktivierung von Teams messen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a51caae2e8d8e9005aad3d8e669eead3b7a0765
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 6f53c39611e28bde40ccf8bab0f92635383b11e5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350139"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834195"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
-Für jedes Business-Szenario oder jeden Dienst, den Sie modernisieren, ist es wichtig, zu definieren, welche Erfolge für Ihr Unternehmen aussehen. Sie haben diese Informationen für Ihre anfänglichen Szenarien gesammelt, während Sie Sie in Ihrer vorherigen Phase zugeordnet haben. Wenn Sie sich auf die Skalierungs Implementierung vorbereiten, müssen Sie diese wichtigen Erfolgskriterien erneut überarbeiten und erweitern.
+Für jedes Geschäftsszenario oder jeden Dienst, das bzw. den Sie modernisieren, ist es wichtig zu definieren, wie der Erfolg für Ihr Unternehmen aussieht. Sie haben diese Informationen für ihre anfänglichen Szenarien gesammelt, während Sie sie in der vorherigen Phase zugeordnet haben. Während Sie sich auf die Skalierungsimplementierung vorbereiten, müssen Sie diese wichtigen Erfolgskriterien erneut aufbereiten und erweitern.
   
-Es folgt eine empfohlene Strategie für die Zuordnung dieser Kriterien. Es gibt viele gültige Ansätze für diesen Schritt. Sie können unserem Leitfaden folgen oder dem Leitfaden des Microsoft-Partners folgen, mit dem Sie möglicherweise arbeiten. Unabhängig davon, welche Methode Sie wählen, stellen Sie sicher, dass Ihre geschäftlichen Ergebnisse von der technischen Implementierung ihrer Dienste und den allgemeinen Zielen Ihrer Organisation unterstützt werden.
+Im Folgenden wird eine Strategie zur Zuordnung dieser Kriterien empfohlen. Für diesen Schritt gibt es viele gültige Ansätze. Sie können unserem Leitfaden folgen oder dem Leitfaden des Microsoft-Partners folgen, mit dem Sie möglicherweise zusammenarbeiten. Stellen Sie unabhängig von der von Ihnen verwendeten Methode sicher, dass Ihre Unternehmensergebnisse von der technischen Implementierung Ihrer Dienste und den Gesamtzielen Ihrer Organisation unterstützt werden.
   
-Es gibt vier Kategorien von Ergebnissen, die für Ihr Unternehmen priorisiert werden können. Sie sind miteinander verbunden und bilden die Grundlage für die Modernisierung und digitale Transformation, die einzelne Mitarbeiter erleben werden.  
+Es gibt vier Kategorien von Ergebnissen, die für Ihr Unternehmen priorisiert werden können. Sie sind miteinander verbunden und bilden die Grundlage für die veränderungens- und digitale Transformation, die einzelne Mitarbeiter erleben werden.  
 
-![Diagramm, das die vier Ergebniskategorien veranschaulicht](media/teams-adoption-outcomes.png)
+![Diagramm mit vier Ergebniskategorien](media/teams-adoption-outcomes.png)
 
-Beispiel für Ergebnisse in jeder Kategorie:
+Beispiele für Die Ergebnisse in den einzelnen Kategorien sind:
 
-- **Organisations**
+- **Organisationsstruktur**
    - Kulturelle Transformation
    - Mitarbeiterbindung
-   - Talent Akquisition
+   - Talentakquise
    - Soziales Engagement
-   - Operative Agilität 
+   - Betriebliche Flexibilität 
 
 - **Kultur**
-   - Einschätzung des Mitarbeiters
+   - Mitarbeiterstimmung
    - Mitarbeiterempfehlungen
    - Kundenfeedback
-   - Innovationsmaßnahmen (beispielsweise Beiträge zu idea-Forums, Hackathons, Produktinnovation-Engagements)
+   - Innovationsmaßnahmen (z. B. Ideenforumsbeiträge, Hackathons, Produkt-Innovationen-Engagements)
 
-- **Greifbare**
-   - Auswirkungen auf die Kundenerfahrung (schneller Service, Reduzierung von Service-Vorfällen, Teilnahme an Kundenempfehlungen/Loyalitätsprogramm)
+- **Greifbar**
+   - Auswirkungen auf die Benutzererfahrung (schnellerer Service, Verringerung von Servicevorfällen, Teilnahme am Kundenempfehlungs-/Kundentreueprogramm)
    - Kosteneinsparungen
    - Umsatzgenerierung
    - Datensicherheit
    - Vereinfachung des Prozesses
-   - Ruhestand von Legacysystemen
+   - Veraltete Systeme werden nicht mehr unterstützt
    
-- **Einzelnen**
-   - Verwendung der gewünschten Tools
-   - Mitarbeitermoral
-   - Mitarbeiterproduktivität
-   - Mitarbeiterengagement
+- **Einzelperson**
+   - Verwenden der gewünschten Tools
+   - Arbeits arbeitsg.
+   - Produktivität der Mitarbeiter
+   - Mitarbeitereinsatz
    - Ideengenerierung
  
-Im Allgemeinen sollten Sie sich diese Measures als Aggregation vorstellen, um einen Änderungs Quotienten für Ihr Unternehmen auf diese Weise zu erstellen:
+Im Allgemeinen sollten Sie sich diese Measures aggregieren lassen, um einen Änderungs quotient für Ihr Unternehmen auf die folgenden Weise zu erstellen:
 
-![Greifbare Maßnahmen dividiert durch individuelles Sentiment = Änderungs Quotient](media/teams-adoption-change-quotient.png)
+![Teilung der Maße durch einzelne Stimmungen = Änderungs quotient](media/teams-adoption-change-quotient.png)
 
-## <a name="select-a-service-enablement-strategy"></a>Auswählen einer Dienst Aktivierungsstrategie
+## <a name="select-a-service-enablement-strategy"></a>Auswählen einer Strategie zur Aktivierung von Dienstleistungen
 
-Teams ist eine transformative Technologie, und abhängig von der Größe Ihrer Organisation und Ihren vorhandenen Technologien können Sie verschiedene Ansätze Unternehmen. Sehen Sie sich diese Strategien an:
+Teams ist eine transformative Technologie, daher können Sie je nach Größe Ihrer Organisation und Ihren vorhandenen Technologien unterschiedliche Ansätze verfolgen. Betrachten Sie diese Strategien:
 
-| Teams zuerst | Team-Core | Teams gehen groß | Skype nebeneinander | Migration |
+| Teams First | Teams Core | Teams werden groß | Skype nebeneinander | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
-| Führen der Cloud-Bereitstellung mit Teams | Lead Zusammenarbeitsszenario-Aktivierung mit Teams | Alle Mitarbeiter in Teams und organisationsweiten Teams | Aktivieren von Teams und Skype for Business | Migrieren von Benutzern von Skype for Business zu Teams |
-| -Anwendbar auf neue oder niedrige Nutzung von Microsoft 365-oder Office 365-Kunden <br/>-Führen mit Teams in kundenspezifischem Szenario <br/>– Integrierte Benutzeroberfläche und schnellere Wertschöpfung für Microsoft 365 oder Office 365 <br/>-Durchführen einer Zusammenarbeit zur Vermeidung der seriellen Implementierung | -Aktivieren von Teams zusammen mit OneDrive und SharePoint Online <br/>-Erstellen eines Unternehmensintranets zum Freigeben von Nachrichten Ressourcen und Videos mit Microsoft Stream<br/>**Besser zusammen**: <br/>Teams<br/>SharePoint<br/>Jammern<br/>Planner<br/>PowerApps |-Für Kunden mit weniger als 5000 Plätzen (aktuelle Beschränkung)<br/>– Aktivieren der organisationsübergreifenden Zusammenarbeit mit einem Team für alle<br/>-Automatisieren allgemeiner Aufgaben (Urlaubsanfragen, Mitarbeiterbefragungen, Executive-Engagement) |-Einsatz von Teams-Core-Taktiken zur Beschleunigung der Zusammenarbeit<br/>– Hervorheben von Szenarien für Besprechungen auf der Grundlage der erforderlichen Größe und Funktionsgruppe</br>-Nutzung von Skype for Business für Anrufe in Unternehmen, Interoperabilität und Hybrid Szenarien<br/>– Verwenden der öffentlichen Roadmap für die Planung von Funktionen |-Planen des Umzugs in Teams von Skype for Business durch Erstellen einer Service Strategy-Roadmap für den Kunden<br/>-An Funktionsfreigabe Zeitplan anfügen<br/>-Empfehlen Sie, dass Sie den Übergang von Seite zu Seite und Teams Core erleichtern
+| Führen der Cloudbereitstellung mit Teams | Aktivieren des Szenarios "Lead Collaboration" mit Teams | Alle Mitarbeiter in Teams und organisationsweiten Teams | Aktivieren von Teams und Skype for Business | Migrieren von Benutzern von Skype for Business zu Teams |
+| – Gilt für neue oder niedrige Nutzung von Microsoft 365- oder Office 365-Kunden <br/>– Lead mit Teams in kundenspezifischem Szenario <br/>– Hervorheben der integrierten Benutzeroberfläche und beschleunigter Wertzeit für Microsoft 365 oder Office 365 <br/>– Planung der Arbeitsauslastung gemeinsam durchführen, um eine serielle Implementierung zu vermeiden | – Aktivieren von Teams zusammen mit OneDrive und SharePoint Online <br/>– Erstellen eines Unternehmensintranets, um Newsressourcen und Video mit Microsoft Stream zu teilen<br/>**Besseres Miteinander:** <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |– Für Kunden mit weniger als 5.000 Sitzen (aktuelle Einschränkung)<br/>– Organisationsübergreifende Zusammenarbeit mit einem Team für alle aktivieren<br/>– Automatisieren von allgemeinen Aufgaben (Urlaubsanträge, Mitarbeiterumfragen, Engagement der Geschäftsleitung) |– Verwenden von Kerntaktiken für Teams zur Beschleunigung der Zusammenarbeit<br/>- Hervorheben von Richtlinien für Besprechungsszenarien basierend auf der Größe und den erforderlichen Features</br>– Verwenden von Skype for Business für Unternehmensanrufe, Interoperabilität und Hybridszenarien<br/>– Verwenden Sie öffentliche Roadmap für die Funktionsplanung. |– Planen Sie den Umzug von Skype for Business zu Teams, indem Sie eine Roadmap für die Dienststrategie für den Kunden erstellen.<br/>– An den Veröffentlichungszeitplan von Features anfügen<br/>– Empfehlen sie die Einbeziehung von Side by Side und Teams Core, um den Umstieg zu erleichtern
 
-Die folgenden Empfehlungen gelten für die meisten Kundenorganisationen. Es gibt jedoch Ausnahmen. Wenn Sie Anleitungen für ein Szenario erhalten möchten, das hier nicht behandelt wird, stellen Sie Ihre Fragen in unserer Driving Adoption-Community, oder wenden Sie sich an das schnell Team oder das Microsoft-Partnernetzwerk.
+Im Folgenden finden Sie unsere Empfehlungen für die meisten Kundenorganisationen. Es gibt jedoch Ausnahmen. Stellen Sie Fragen in unserer Community zur Einführung von Driving, oder wenden Sie sich an das FastTrack-Team oder microsoft-Partnernetzwerk, um Eine Anleitung für alle nicht hier behandelten Szenarien zu erhalten.
 
-- **Wählen Sie Teams First oder Teams Core aus**: die meisten Organisationen verfügen über eine vorhandene Investition in die Microsoft-Technologie. Möglicherweise können Sie mehrere Arbeitslasten gleichzeitig aktivieren, wie etwa Exchange Online, OneDrive for Business oder SharePoint. In diesen Fällen ist das Auswählen von Teams First oder Teams Core eine kluge Wahl. Damit können Ihre Benutzer sich an die erweiterte Zusammenarbeit in Teams gewöhnen. Ihr Projektteam für Zusammenarbeit kann dann planen, zusätzliche Funktionen bereitzustellen und die erforderlichen Schulungen und Unterstützung für den erfolgreichen Abschluss bereitzustellen. 
+- **Wählen Sie "Teams First" oder "Teams Core"** aus: Die meisten Organisationen investieren bereits in Microsoft-Technologie. Möglicherweise aktivieren Sie mehrere Workloads gleichzeitig, z. B. Exchange Online, OneDrive for Business oder SharePoint. In diesen Fällen ist die Auswahl von Teams First oder Teams Core eine kluge Wahl. Sie ermöglicht es Ihren Benutzern, sich an die verbesserte Zusammenarbeit von Teams zu machen. Ihr Projektteam für die Zusammenarbeit kann dann das Rollout zusätzlicher Funktionen sowie der Schulungen und Unterstützung planen, die erforderlich sind, damit sie erfolgreich sind. 
 
-- **Wählen Sie Teams Go Big**: in neuen Microsoft 365-oder Office 365-Kundenorganisationen ist es oft am besten, einen Teams go-großen Ansatz zu nutzen, um die Ermüdung zu minimieren, die durch das mehrfache Erlernen neuer Technologien verursacht wird. Sie werden den größten Vorteil erzielen, indem Sie Teams für zentrale Zusammenarbeit und Besprechungen, SharePoint, OneDrive, Planner und andere Arbeitsauslastungen aktivieren und ihren Mitarbeitern ermöglichen, diese im Kontext Ihrer Team Bereitstellung zu erfahren. 
+- Wählen Sie **"Teams Go Big"** aus: In neuen Microsoft 365- oder Office 365-Kundenorganisationen empfiehlt es sich häufig, einen "Teams Go Big"-Ansatz zu wählen, um die Ermüdung von Änderungen zu minimieren, die durch das mehrfache Erlernen neuer Technologien verursacht wird. Sie erhalten den größten Vorteil, indem Sie Teams sowohl für die Kernzusammenarbeit als auch für Besprechungen, SharePoint, OneDrive, Planner und andere Workloads aktivieren und Ihren Mitarbeitern erlauben, im Kontext Ihrer #A0 mehr darüber zu erfahren. 
 
-    Teams Go Big ist auch die bevorzugte Enablement-Strategie für Organisationen unter 1.000-Mitarbeitern, die ihre Mitarbeiterkommunikation und-Engagement vereinfachen möchten. Die Verwendung des organisationsweiten Teams kann Personen zusammenbringen, um allgemeine Aufgaben und Initiativen auf jedem Gerät zu überprüfen. 
+    Teams Go Big ist auch die bevorzugte Aktivierungsstrategie für Organisationen unter 1.000 Mitarbeitern, die die Kommunikation und das Engagement der Mitarbeiter vereinfachen möchten. Die Verwendung des organisationsweiten Teams kann Personen zusammenbringen, um allgemeine Aufgaben und Initiativen auf jedem Gerät zu überprüfen. 
 
-- **Wählen Sie**nebeneinander aus: für Organisationen, die Skype for Business für Audiokonferenzen, Unterstützung für Konferenzraum Geräte oder Cloud-Sprachfunktionen verwenden, empfehlen wir, Teams und Skype nebeneinander auszuführen, um Ihre Mitarbeiter mit den wichtigsten Features für die Zusammenarbeit vertraut zu machen, während Sie die Migration von Skype for Business zu einem für Ihr Unternehmen günstigen Zeitpunkt planen. Beachten Sie, dass beide Clients nebeneinander ausgeführt werden können, um Verwirrung über das zu verwendende Tool zu vermitteln, daher empfehlen wir, diese Phase in ihrer Adoptions Reise kurz zu halten. 
+- Wählen Sie "Nebeneinander" **aus:** Organisationen, die Skype for Business für Audiokonferenzen, Unterstützung für Konferenzraumgeräte oder Cloud-Sprachfunktionen verwenden, empfehlen wir, Teams und Skype nebeneinander zu führen, um Ihre Mitarbeiter mit den Kernfunktionen für die Zusammenarbeit vertraut zu machen, während Sie die Migration von Skype for Business zu einem Zeitpunkt planen, der für Ihr Unternehmen bequem ist. Beachten Sie, dass die gleichzeitige Ausführung beider Clients zu Verwirrung bei dem Benutzer führen kann, welches Tool verwendet werden soll. Daher wird empfohlen, diese Phase kurz zu halten, um die Einführung zu kurz zu halten. 
 
-- **Wählen Sie Migration**: die Migration von Skype for Business zu Teams umfasst zusätzliche Komponenten aus technischer Sicht, aber die Benutzerakzeptanz-Reise hat die gleichen Komponenten wie eine große Implementierung von Teams. Darüber hinaus werden Sie Personen über die Erfahrungen und die Oberfläche der Teams, das neue Verhalten des beständigen Chats und andere Elemente der Erfahrung informieren, die sich von Skype for Business unterscheiden.
+- **Wählen Sie "Migration:** Migration von Skype for Business zu Teams" hat aus technischer Sicht zusätzliche Komponenten, aber die Akzeptanz durch die Benutzer enthält die gleichen Komponenten wie eine Implementierung von Teams Go Big. Darüber hinaus informieren Sie die Benutzer über die Teams-Besprechungserfahrung und -benutzeroberfläche, das verhalten des neuen beständigen Chats und andere Elemente der Benutzeroberfläche, die sich von Skype for Business unterscheiden.
 
-Für jede Aktivierungsstrategie ist es wichtig, eng mit Ihrem technischen Bereitschaftsteam zusammenzuarbeiten, um sicherzustellen, dass Ihre Umgebung eine hervorragende Mitarbeiter Erfahrung bereitstellt. 
+Für jede Aktivierungsstrategie ist es wichtig, dass Sie eng mit Ihrem technischen Bereitschaftsteam zusammenarbeiten, um sicherzustellen, dass Ihre Umgebung ein hervorragendes Arbeitserlebnis für die Mitarbeiter gewährleistet. 
 
-![Ein Symbol, das Entscheidungspunkte darstellt](media/teams-adoption-decision-icon.png) Entscheidung: Wählen Sie eine Aktivierungsstrategie aus, die Ihre geschäftlichen Ergebnisse für Microsoft Teams am besten unterstützt und von Ihrem technischen Implementierungsteam aktiviert werden kann. Hierbei handelt es sich um eine gemeinsame Entscheidung zwischen IT-Leiter, Programm Management-Leads und Spezialisten für die Benutzereinführung. Diese Entscheidung beruht häufig auf dem exekutiven Stakeholder, der der ultimative Erfolgs Besitzer für Microsoft Teams oder Collaboration Services in Ihrer Organisation ist.
+![Symbol zur Darstellung von Entscheidungspunkten](media/teams-adoption-decision-icon.png) Entscheidung: Wählen Sie eine Aktivierungsstrategie aus, die Ihre Unternehmensergebnisse für Microsoft Teams am besten unterstützt und von Ihrem technischen Implementierungsteam aktiviert werden kann. Dies ist eine gemeinsame Entscheidung zwischen IT-Führungskräften, Programmmanagement-Leads und Spezialisten zur Benutzeradzeptanz. Diese Entscheidung liegt häufig beim Geschäftsleitungs-Stakeholder, der der ultimative Erfolgsbesitzer für Microsoft Teams oder Zusammenarbeitsdienste in Ihrer Organisation ist.
 
-Bewährte Methode: aktivierungsstrategien können für eine bestimmte Phase des Projekt-oder Bereichs Implementierungszeitplans geeignet sein. Verwenden Sie wichtige Personas und deren Anforderungen, um eine Auswahl zu treffen. Arbeiten Sie eng mit Ihrem technischen Implementierungsteam zusammen, um eine hochwertige Benutzererfahrung zu gewährleisten.  
+Bewährte Methode: Aktivierungsstrategien können für eine bestimmte Phase des Projekt- oder Abteilungsimplementierungszeitplans geeignet sein. Verwenden Sie wichtige Personen und deren Anforderungen für die Auswahl. Arbeiten Sie eng mit Dem technischen Implementierungsteam zusammen, um eine hohe Benutzererfahrung sicherzustellen.  
 
-## <a name="engage-stakeholders"></a>Stakeholder einbeziehen
+## <a name="engage-stakeholders"></a>Beteiligte an der Projektbeteiligten
 
-Kommunikation und Verwaltung von Erwartungen sind wichtige Elemente in einem erfolgreichen Änderungsprojekt. Es ist wichtig, dass Sie ihren Stakeholdern und anderen Personen in Ihrer Organisation regelmäßig Ihre Gesamtvision und ihre Fortschritte in Bezug auf dieses Ziel vermitteln. 
+Kommunikation und Verwaltung von Erwartungen sind schlüsselelemente bei einem erfolgreichen Änderungsprojekt. Es ist wichtig, Dass Sie Ihre Gesamtvision und Ihren Fortschritt auf dem Weg zu diesem Ziel regelmäßig an die Projektbeteiligten und andere Personen in Ihrer Organisation kommunizieren. 
 
-![Ein Symbol, das Entscheidungspunkte darstellt](media/teams-adoption-decision-icon.png) Entscheidung: bestimmen Sie Ihren Rhythmus und Ihre Methode für die Kommunikation mit ihren Stakeholdern in Übereinstimmung mit Ihrer Unternehmenskultur. Richten Sie Ihre Kommunikation auf die verschiedenen Ebenen des Engagements und der Interessen in Ihrer Organisation aus. 
+![Symbol zur Darstellung von Entscheidungspunkten](media/teams-adoption-decision-icon.png) Entscheidung: Entscheiden Sie Ihren Rhythmus und die Methode für die Kommunikation mit den Projektbeteiligten im Ausrichtung auf Ihre Unternehmenskultur. Sie können Ihre Kommunikation auf die verschiedenen Ebenen des Engagements und des Interesses in der gesamten Organisation ausdringen. 
 
-Option: Wenn Sie eine fortlaufende Knowledge Base mit Informationen zu Ihrem Projekt erstellen möchten, sollten Sie die Verwendung von News Seiten auf Ihrer SharePoint-Kommunikationswebsite in Frage stellen. Ihre News-Seitenbibliothek (Website Seiten auf der SharePoint-Website, die Ihrem Planungsteam zugeordnet ist) kann veröffentlicht werden, damit Sie für alle interessierten Parteien freigegeben werden können.
+Option: Wenn Sie eine fortlaufende Wissensdatenbank mit Informationen zu Ihrem Projekt erstellen möchten, sollten Sie die Verwendung von Nachrichtenseiten auf Ihrer SharePoint-Kommunikationswebsite in Betracht ziehen. Ihre Nachrichtenseitenbibliothek (Websiteseiten auf der SharePoint-Website, die Ihrem Planungsteam zugeordnet ist) kann veröffentlicht werden, sodass sie für alle beteiligten Parteien freigegeben werden können.
 
-## <a name="expand-your-implementation-team"></a>Erweitern des Implementierungsteams
+## <a name="expand-your-implementation-team"></a>Erweitern Ihres Implementierungsteams
 
-In einer großen Organisation sollten Sie versuchen, viele verschiedene Rollen in Ihre umfassende Aktivierungsphase einzubeziehen. Dies kann zusätzliche Unternehmenssponsoren, Mitarbeiter des IT-Supports, zusätzliche Mitglieder in ihrer Champion-Community und in einigen Fällen formelles Change Management oder Schulungspersonal umfassen. Die nachstehende Abbildung zeigt ein großes Adoptions Team, das eine Trennung von Zöllen ermöglicht.
+In einer großen Organisation sollten Sie versuchen, viele verschiedene Rollen in ihre umfassende Aktivierungsphase zu integrieren. Dies kann zusätzliche geschäftliche Sponsoren, IT-Supportmitarbeiter, weitere Mitglieder in Ihrer Champions Community und in einigen Fällen formelles Change Management oder Schulungsmitarbeiter umfassen. Die folgende Abbildung zeigt ein großes Übernahmeteam, das eine Aufgabentrennung ermöglicht.
 
-![Abbildung des großräumigen Teams für die Einführung von Unternehmensmodellen](media/teams-adoption-large-scale-model.png)
+![Abbildung des Teamsmodells zur Einführung eines großen Unternehmens](media/teams-adoption-large-scale-model.png)
 
-In einer kleineren Organisation können mindestens eine dieser Rollen von einer einzelnen Person ausgeführt werden, die erforderlichen Qualifikationen bleiben jedoch erhalten.  Technische, kommunikative und Schulungsfähigkeiten sind in einem erfolgreichen Änderungsprojekt wichtig. 
+In einer kleineren Organisation kann eine oder mehrere dieser Rollen von einer einzelnen Person ausgeführt werden, die erforderlichen Fähigkeiten bleiben jedoch dieselben.  Technische, Kommunikations- und Schulungsfertigkeiten sind bei einem erfolgreichen Änderungsprojekt wichtig. 
 
-## <a name="expand-your-governance-and-information-management-policies"></a>Erweitern Ihrer Governance-und Informationsverwaltungsrichtlinien
+## <a name="expand-your-governance-and-information-management-policies"></a>Erweitern Ihrer Governance- und Informationsverwaltungsrichtlinien
 
-Nachdem Sie Ihre Aktivierungsstrategie ausgewählt haben, sind Sie bereit, die in Phase 1 getroffenen Governance-Entscheidungen erneut zu überdenken und zu skalieren. Überarbeiten Sie die Entscheidungen 1 bis 6 aus dem [Schnellstart von Governance](teams-adoption-governance-quick-start.md) , um diese Richtlinien in Übereinstimmung mit den Geschäftsbenutzern zu erweitern, die Teams verwenden werden. 
+Nachdem Sie Ihre Aktivierungsstrategie ausgewählt haben, sind Sie bereit, die in Phase 1 getroffenen Governanceentscheidungen erneut zu überarbeiten und zu skalieren. Über den Schnellstart zur Governance [](teams-adoption-governance-quick-start.md) sollten Sie die Entscheidungen 1 bis 6 erneut treffen, um diese Richtlinien in Übereinstimmung mit den Unternehmensbenutzern zu erweitern, die Teams verwenden werden. 
 
-| Team Ebene | Bereich/Zweck | Standard Mitgliedschaft | Dauer |
+| Teamebene | Umfang/Zweck | Standardmitgliedschaft | Dauer |
 |----------- | ------------- | ------------------- | -------- |
-|Ebene 1 | Das autorisierende Team für eine Abteilung oder Unternehmenseinheit | In der Regel auf offizielle Mitglieder dieser Division/Einheit beschränkt | Solange die Division vorhanden ist (beispielsweise IT-Abteilung, Personalwesen, Marketing)|
-| Stufe 2 | Projekt-, Dienstleistungs-oder Initiativteams mit einem kleineren Bereich |  In der Regel organisationsübergreifend und kann Gäste umfassen | Solange das Projekt oder der Dienst bearbeitet wird |
-| Stufe 3 | Point-in-Time-Projekte | Kleines enges, enges Team mit individuellem Umfang; kann Gäste umfassen | Kurzer Lebenszyklus an Core Deliverable gebunden |
+|Ebene 1 | Das autoritative Team für eine Abteilung oder ein Geschäftsbereich | In der Regel auf offizielle Mitglieder dieser Abteilung/Einheit beschränkt | Solange die Abteilung vorhanden ist (z. B. IT-Abteilung, Personalwesen, Marketing)|
+| Ebene 2 | Projekt-, Service- oder Initiativeteams mit kleinerem Umfang |  In der Regel organisationsübergreifendes Und möglicherweise Gäste enthalten | Solange an dem Projekt oder Dienst gearbeitet wird |
+| Ebene 3 | Point-in-Time-Projekte | Kleines enges Team mit individuellem Leistungsumfang; können Gäste enthalten | Kurzer Lebenszyklus, der an die Kernlieferumgemarke gebunden ist |
 
-Beispiele für bewährte Methoden für die Bereitstellung und Verwaltung auf Teamebene:
+Bewährte Methoden für die Bereitstellung und Verwaltung auf Teamebene:
 
-|Team Ebene | Wer erstellt? | Lavels und-Aufbewahrung | Überlegungen |
+|Teamebene | Wer erstellt? | Wiederverwenden und Aufbewahrung | Überlegungen |
 | --------- | ------------ | -------------------- | -------------- |
-| Ebene 1 – Teilbereich | IT oder Champion für diese Gruppe, um Sie richtig zu benennen | Vertraulich mit angewendeter Standardaufbewahrungsrichtlinie und 1 Jahr Verlängerungs Richtlinie | Denken Sie daran, wie das Reservieren eines Domänennamens. Sie möchten steuern, wie die Division Teams benannt sind und was enthalten ist.  Entwerfen Sie das Team, bevor Sie weitere Benutzer hinzufügen.|
-| Ebene 2 – Projekt/Dienst | Projektbesitzer oder-Champion | Vertraulich oder hochgradig vertraulich – je nach Inhalt. Möglicherweise gibt es eine Aufbewahrungsrichtlinie. 6 Monate Verlängerung. | Bevor Sie diese Aufgabe erstellen, müssen Sie die Grenze des Projekts oder Diensts überdenken, an dem Sie gerade arbeiten. Wäre es sinnvoller, Kräfte mit einem anderen Team zu kombinieren? Bemühen Sie sich, die Anzahl der Teams zu minimieren, die einzelne Benutzer besuchen müssen, wenn Sie an demselben Projekt oder Dienst arbeiten.|
-| Stufe 3 – kleines on-Demand-Projektteam | Jeder in der Organisation | Allgemeines Etikett mit Standardbeibehaltung und 6-monatiger Verlängerung. Kann Benennungskonvention (Präfix/Suffix) umfassen.| Self-Service-on-Demand-Teams. Reibungslose Bereitstellung. Diese ermöglichen eine reibungslose Zusammenarbeit und Kommunikation für kleine Projektteams, die den sofortigen Nutzen aus den von Unternehmen bereitgestellten Diensten erhalten. |
+| Ebene 1 – Divisional | It or Champion for that group to name it properly | Vertraulich mit angewendeter Standardaufbewahrungsrichtlinie und 1-Jahres-Verlängerungsrichtlinie | Sie können sich dies wie das Reservieren eines Domänennamens überlegen. Sie möchten steuern, wie Abteilungsteams benannt werden und was enthalten ist.  Entwerfen Sie das Team, bevor Sie weitere Benutzer hinzufügen.|
+| Ebene 2 – Projekt/Dienst | Projektbesitzer oder Champion | Je nach Inhalt vertraulich oder streng vertraulich. Möglicherweise gibt es eine Aufbewahrungsrichtlinie. Verlängerung um 6 Monate. | Denken Sie vor dem Erstellen dieses Projekts oder Diensts über die Grenzen des Projekts oder Diensts hinaus, an dem Sie arbeiten. Wäre es sinnvoller, Die Kräfte mit einem anderen Team zu kombinieren? Unternehmen Sie alles, um die Anzahl der Teams zu minimieren, die einzelne Benutzer besuchen müssen, wenn sie am gleichen Projekt oder Dienst arbeiten.|
+| Ebene 3 – Kleines Projektteam bei Bedarf | Jeder in der Organisation | Allgemeine Bezeichnung mit Standardaufbewahrung und 6-monatiger Verlängerung. Kann Benennungskonventionen (Präfix/Suffix) enthalten.| Self-Service-On-Demand-Teams. Reibungslose Bereitstellung. Diese ermöglichen eine reibungslose Zusammenarbeit und Kommunikation für kleine Projektteams, die von den vom Unternehmen bereitgestellten Diensten sofort von Nutzen sein wollen. |
 
-## <a name="streamline-business-engagement"></a>Optimieren des geschäftlichen Engagements
+## <a name="streamline-business-engagement"></a>Optimieren des Geschäftlichen Engagements
 
-Ein wesentlicher Bestandteil des Vorantreibens der digitalen Transformation und Nutzung in Microsoft Teams ist die Zusammenarbeit mit ihren Geschäftseinheiten, um zu verstehen, welche Anforderungen, Chancen und Schwierigkeiten Sie haben. Während Sie der traditionellen it-to-Business-Konversation ähnlich sind, sollten Sie sich auf das konzentrieren, was erforderlich ist. Hören Sie, bevor Sie zu technischen Anforderungen wechseln. In vielen Fällen erfüllen die Features in Microsoft Teams die Anforderungen Ihrer Organisation.   
+Ein wesentlicher Bestandteil der treibenden Kraft für die digitale Transformation und Nutzung in Microsoft Teams ist die Zusammenarbeit mit Ihren Geschäftseinheiten, um zu verstehen, welche Anforderungen, Möglichkeiten und Schwierigkeiten sie haben. Ähnlich wie bei herkömmlichen It-to-Business-Unterhaltungen sollten Sie sich aber auf das Konzentrieren konzentrieren, was benötigt wird. Hören Sie zu, bevor Sie sich den technischen Anforderungen zuhören. In vielen Fällen entsprechen die features von "Out-of-Box" in Teams den Anforderungen Ihrer Organisation.   
 
-Bewährte Methode: bevor Sie eine benutzerdefinierte Lösung entwickeln, sollten Sie sicherstellen, dass Ihre Organisation die Out-of-the-Box-Funktionen von Microsoft 365 oder Office 365 vollständig verwendet. Die Entwicklung von benutzerdefinierten Lösungen hat immer langfristige Kosten für Ihre IT-und Supportabteilungen.
+Bewährte Methode: Bevor Sie eine benutzerdefinierte Lösung entwickeln, sollten Sie sicherstellen, dass Ihre Organisation die integrierten Funktionen von Microsoft 365 oder Office 365 vollständig verwendet. Bei der Entwicklung von benutzerdefinierten Lösungen entstehen Ihren IT- und Supportabteilungen immer langfristige Kosten.
  
-Führen Sie die folgenden Schritte aus, um Ihre Arbeit mit Geschäftseinheiten zu optimieren.  Erkennen Sie, dass dieser Prozess in sehr großen, multinationalen Unternehmen lange nach der ersten großen Bereitstellung von Microsoft Teams fortgesetzt werden kann:
+Gehen Sie wie folgt vor, um Die Arbeit mit Geschäftseinheiten zu optimieren.  In sehr großen multinationalen Unternehmen kann dieser Prozess nach Ihrer ersten groß angelegten Bereitstellung von Microsoft Teams lange fortgesetzt werden:
 
-1. Treffen Sie sich mit wichtigen Beeinflussern innerhalb einer Unternehmenseinheit, bevor Sie die Führungskraft einbringen, um Einblicke und Ausrichtung zu erhalten.
-2. Grundlegendes zu den aktuellen Lösungen für häufige Szenarien (e-Mail, SharePoint, jammern und andere Produkte).
-3. Beginnen Sie klein, indem Sie Szenarien auswählen, die bei der Skalierung eine starke, niedrige/mittlere Schwierigkeit aufweisen,
-4. Erfassen von Feedback und entwickeln von Champions mit Geschäfts Einheits Wissen zur Unterstützung des Übergangs
-5. Richten Sie monatliche Prüfpunkte ein, um den Fortschritt zu besprechen und den Rückstand weiterer Projekte zu priorisieren.
+1. Treffen Sie sich mit wichtigen Influencern innerhalb eines Geschäftsbereichs, bevor Sie das Executive fesseln, um Einblicke und Ausrichtung zu erhalten.
+2. Hier erhalten Sie Informationen zu den aktuellen Lösungen für häufige Szenarien (E-Mail, SharePoint, Yammer und andere Produkte).
+3. Beginnen Sie klein, indem Sie Szenarien auswählen, die hohen Auswirkungen, geringen/mittleren Schwierigkeiten während der Skalierung 1000 bzw.
+4. Erfassen Sie Feedback, und entwickeln Sie Mitkenntnissen zu Geschäftsbereichen, um den Übergang zu unterstützen,
+5. Richten Sie monatliche Überprüfungspunkte ein, um den Fortschritt zu besprechen und den Backlog weiterer Projekte zu priorisieren.
 
-![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) als nächstes darstellt: [Optimieren von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)
+![Symbol für den nächsten ](media/teams-adoption-next-icon.png) Schritt: Optimieren [von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)

@@ -1,8 +1,8 @@
 ---
-title: AppSharingStream-Tabelle
+title: Tabelle "AppSharingStream"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,119 +12,119 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
-description: Die AppSharingStream-Tabelle enthält die Qualität der Erfahrungswerte für die netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: 1ebcfe16fe5863bcb3046e88ba5cdc2079f22a9c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die Tabelle "AppSharingStream" enthält Quality of Experience-Metriken für die Netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+ms.openlocfilehash: 675b4ef689b62577cbee1cef93a28865ca09abfe
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41811103"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809675"
 ---
-# <a name="appsharingstream-table"></a>AppSharingStream-Tabelle
+# <a name="appsharingstream-table"></a>Tabelle "AppSharingStream"
  
-Die AppSharingStream-Tabelle enthält die Qualität der Erfahrungswerte für die netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
+Die Tabelle "AppSharingStream" enthält Quality of Experience-Metriken für die Netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |DateTime  <br/> |Primär, fremd  <br/> |Das Datum und die Uhrzeit, zu der die Sitzung gestartet wurde.  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primär, fremd  <br/> |Sequenzielle Kennung, die verwendet wird, um zwischen Sitzungen zu unterscheiden, die am gleichen Datum und zur gleichen Zeit gestartet wurden.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primär, fremd  <br/> | Siehe [medialinie-Tabelle](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
-|**Datenstrom-Nr** <br/> |int  <br/> |Primary  <br/> |Eindeutiger Bezeichner des Anwendungsfreigabe Datenstroms.  <br/> |
-|**JitterInterArrival** <br/> |int  <br/> ||Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das „Zittern“ der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
-|**JitterInterArrivalMax** <br/> |int  <br/> ||Maximaler Jitter zwischen den Ankünften des RTP-Pakets. (Jitter ist ein Maß für die "Zittern" eines Anrufs.) Starke Jitterwerte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht, was zu verzerrten oder verlorenen Audiodaten führt.  <br/> |
-|**RoundTrip** <br/> |int  <br/> ||Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-Time Transport-Protokoll) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
-|**RoundTripMax** <br/> |int  <br/> ||Der Höchstbetrag (in Millisekunden), der für ein echt Zeit Transport Protokoll Paket erforderlich ist, um zu einem anderen Endpunkt zu wechseln und dann zurückzukehren. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
-|**PacketLossRate** <br/> |float  <br/> ||Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport-Protokoll; ein Protokoll für die Übertragung von Audio und Video über das Internet). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
-|**PacketLossRateMax** <br/> |float  <br/> ||Maximale Rate des RTP-Paketverlusts (Real-Time Transport Protocol). (Paketverlust tritt auf, wenn RTP-Pakete, ein Protokoll, das für die Übertragung von Audio und Video über das Internet verwendet wird, das Ziel nicht erreicht haben.) In der Regel sind die großen Verlustraten auf Engpässe zurückzuführen. mangelnde Bandbreite; WLAN-Überlastung oder Störungen; oder einen überladenen Medienserver. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**ConferenceDateTime** <br/> |dateTime  <br/> |Primär, Fremd  <br/> |Datum und Uhrzeit des Sitzungsbeginns.  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primär, Fremd  <br/> |Sequenzielle ID, anhand der zwischen Sitzungen unterschieden wird, die an denselben Tag und zur derselben Uhrzeit gestartet wurden.  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primär, Fremd  <br/> | Siehe [MediaLine Table](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**StreamID** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID des Anwendungsfreigabe-Datenstroms.  <br/> |
+|**JitterInterArrival** <br/> |int  <br/> ||Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das "Zittern" der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**JitterInterArrivalMax** <br/> |int  <br/> ||Der maximale Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das "Zittern" der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**RoundTrip** <br/> |int  <br/> ||Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-Time Transport-Protokoll) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
+|**RoundTripMax** <br/> |int  <br/> ||Die maximale Zeit (in Millisekunden), die ein RTP-Paket (Real-Time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
+|**PacketLossRate** <br/> |Gleitkommazahl  <br/> ||Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport-Protokoll; ein Protokoll für die Übertragung von Audio und Video über das Internet). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**PacketLossRateMax** <br/> |Gleitkommazahl  <br/> ||Die maximale Rate an RTP-Paketverlusten (Real-Time Transport-Protokoll). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**PacketUtilization** <br/> |int  <br/> ||Die Anzahl der gesendeten Pakete.  <br/> |
-|**Bandbreite** <br/> |int  <br/> ||Geschätzte einseitige Bandbreite, die am Ende der Sitzung zur Verfügung steht. In Bits pro Sekunde gemeldet.  <br/> |
-|**AppSharingPayloadDescription** <br/> |int  <br/> ||Beschreibung der Anwendungsfreigabe Nutzlast.  <br/> |
-|**RelativeOneWayTotal** <br/> |float  <br/> ||Gesamtzahl der unidirektionalen Latenzzeit. Die relative unidirektionale Latenz misst die Verzögerung zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayAverage** <br/> |float  <br/> ||Durchschnittliche Anzahl der unidirektionalen Latenzzeit. Die relative unidirektionale Latenz misst die Verzögerung zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayMax** <br/> |float  <br/> ||Maximale Anzahl von unidirektionalen Latenzzeiten. Die relative unidirektionale Latenz misst die Verzögerung zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Gesamtzahl der einseitigen Burst-Ereignisse. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||Totale unidirektionale Burst Dichte. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Gesamtdauer des einseitigen Bursts. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Gesamtanzahl der einseitigen Lücken. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayGapDensity** <br/> |float  <br/> ||Gesamtdichte für einseitigen Abstand. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayGapDuration** <br/> |float  <br/> ||Gesamtdauer der einseitigen Lücke Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**ApplicationSharingType** <br/> |varChar (256)  <br/> ||Anwendungsrolle (mitbenutzender oder Viewer) und Inhaltstyp.  <br/> |
-|**RDPTileProcessingLatencyTotal** <br/> |float  <br/> ||Gesamtverarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Eine höhere Gesamtsumme entspricht einer längeren Verzögerung bei der Anzeige.  <br/> |
-|**RDPTileProcessingLatencyAverage** <br/> |float  <br/> ||Durchschnittliche Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Eine höhere Gesamtsumme entspricht einer längeren Verzögerung bei der Anzeige.  <br/> |
-|**RDPTileProcessingLatencyMax** <br/> |float  <br/> ||Maximale Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Eine höhere Gesamtsumme entspricht einer längeren Verzögerung bei der Anzeige.  <br/> |
-|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Burst-Vorkommen in der Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen.  <br/> |
-|**RDPTileProcessingLatencyBurstDensity** <br/> |float  <br/> ||Burst Dichte in der Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen.  <br/> |
-|**RDPTileProcessingLatencyBurstDuration** <br/> |float  <br/> ||Burst Dauer in der Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen.  <br/> |
-|**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||Lücken Vorkommen in der Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol).  <br/> |
-|**RDPTileProcessingLatencyGapDensity** <br/> |float  <br/> ||Lücken Dichte in der Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Eine geringe Spalt Dichte entspricht einer besseren Anzeige Erfahrung.  <br/> |
-|**RDPTileProcessingLatencyGapDuration** <br/> |float  <br/> ||Lücken Dauer in der Verarbeitungszeit für RDP-Kacheln (Remote Desktop Protocol). Kurze Lücken dauern sind mit einer besseren Anzeige Erfahrung identisch.  <br/> |
-|**CaptureTileRateTotal** <br/> |float  <br/> ||Gesamtrate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateAverage** <br/> |float  <br/> ||Durchschnittliche Rate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateMax** <br/> |float  <br/> ||Maximale Rate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateBurstOccurrences** <br/> |in t  <br/> ||Burst-Vorkommen in der Rate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateBurstDensity** <br/> |float  <br/> ||Burst Dichte in der Rate der aufgenommenen Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateBurstDuration** <br/> |float  <br/> ||Burst Dauer in der Rate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateGapOccurrences** <br/> |int  <br/> ||Lücken Vorkommen in der Rate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateGapDensity** <br/> |float  <br/> ||Spalt Dichte in der Rate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**CaptureTileRateGapDuration** <br/> |float  <br/> ||Dauer der Lücke in der Rate der erfassten Kacheln (in Kacheln pro Sekunde)  <br/> |
-|**SpoiledTilePercentTotal** <br/> |float  <br/> ||Der Gesamtprozentsatz des Inhalts, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**SpoiledTilePercentAverage** <br/> |float  <br/> ||Der durchschnittliche Prozentsatz des Inhalts, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**SpoiledTilePercentMax** <br/> |float  <br/> ||Der maximale Prozentsatz des Inhalts, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**SpoiledTilePercentBurstOccurrences** <br/> |int  <br/> ||Burst-Vorkommen für den Inhalt, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**SpoiledTilePercentBurstDensity** <br/> |float  <br/> ||Burst Dichte für den Inhalt, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**SpoiledTilePercentBurstDuration** <br/> |float  <br/> ||Burst Dauer für den Inhalt, der den Betrachter nicht erreicht hat, aber stattdessen verworfen und durch neuen Inhalt überschrieben wurde.  <br/> |
-|**SpoiledTilePercentGapOccurrences** <br/> |int  <br/> ||Lücken auftreten für den Inhalt, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**SpoiledTilePercentGapDensity** <br/> |float  <br/> ||Lücken Dichte für den Inhalt, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**SpoiledTilePercentGapDuration** <br/> |float  <br/> ||Abstands Dauer für den Inhalt, der den Betrachter nicht erreicht hat, aber stattdessen von neuem Inhalt verworfen und überschrieben wurde.  <br/> |
-|**ScrapingFrameRateTotal** <br/> |float  <br/> ||Gesamtzahl der Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateAverage** <br/> |float  <br/> ||Die durchschnittliche Anzahl von Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateMax** <br/> |float  <br/> ||Die maximale Anzahl von Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateBurstOccurrences** <br/> |int  <br/> ||Burst-Vorkommen in den Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateBurstDensity** <br/> |float  <br/> ||Burst Dichte in den Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateBurstDuration** <br/> |float  <br/> ||Burst Dauer in den Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateGapOccurrences** <br/> |int  <br/> ||Lücken Vorkommen in den Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateGapDensity** <br/> |float  <br/> ||Spalt Dichte in den Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**ScrapingFrameRateGapDuration** <br/> |float  <br/> ||Lücken Dauer in den Frames, die aus der grafikquelle ausgekratzt wurden.  <br/> |
-|**IncomingTileRateTotal** <br/> |float  <br/> ||Gesamtzahl der eingehenden Bilder, wie Sie vom Betrachter empfangen wurden.  <br/> |
-|**IncomingTileRateAverage** <br/> |float  <br/> ||Durchschnittliche eingehende Frame-Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingTileRateMax** <br/> |float  <br/> ||Die maximale eingehende Kachel Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingTileRateBurstOccurrences** <br/> |int  <br/> ||Burst-Vorkommen in der eingehenden Kachel Rate, wie Sie vom Betrachter empfangen wurden.  <br/> |
-|**IncomingTileRateBurstDensity** <br/> |float  <br/> ||Burst Dichte in der eingehenden Kachel Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingTileRateBurstDuration** <br/> |float  <br/> ||Burst Dauer in der eingehenden Kachel Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingTileRateGapOccurrences** <br/> |int  <br/> ||Lücken Vorkommen in der eingehenden Kachel Rate, wie Sie vom Betrachter empfangen wurden.  <br/> |
-|**IncomingTileRateGapDensity** <br/> |float  <br/> ||Abstands Dichte in der eingehenden Kachel Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingTileRateGapDuration** <br/> |float  <br/> ||Lücken Dauer in der eingehenden Kachel Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingFrameRateTotal** <br/> |float  <br/> ||Gesamtzahl der eingehenden Bilder, wie Sie vom Betrachter empfangen wurden.  <br/> |
-|**IncomingFrameRateAverage** <br/> |float  <br/> ||Durchschnittliche eingehende Frame-Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingFrameRateMax** <br/> |float  <br/> ||Die maximale eingehende Frame-Rate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingFrameRateBurstOccurrences** <br/> |int  <br/> ||Burst-Vorkommen in der eingehenden Framerate, wie Sie vom Betrachter empfangen wurden.  <br/> |
-|**IncomingFrameRateBurstDensity** <br/> |float  <br/> ||Burst Dichte in der eingehenden Framerate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingFrameRateBurstDuration** <br/> |float  <br/> ||Burst Dauer in der eingehenden Framerate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingFrameRateGapOccurrences** <br/> |int  <br/> ||Lücken Vorkommen in der eingehenden Framerate, wie Sie vom Betrachter empfangen wurden.  <br/> |
-|**IncomingFrameRateGapDensity** <br/> |float  <br/> ||Abstands Dichte in der eingehenden Framerate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**IncomingFrameRateDuration** <br/> |float  <br/> ||Die Unterbrechungsdauer in der eingehenden Framerate, wie Sie vom Betrachter empfangen wurde.  <br/> |
-|**OutgoingTileRateTotal** <br/> |float  <br/> ||Gesamtanzahl der ausgehenden Kacheln für den Absender.  <br/> |
-|**OutgoingTileRateAverage** <br/> |float  <br/> ||Durchschnittliche Ausgangs Kachel Rate für den Absender.  <br/> |
-|**OutgoingTileRateMax** <br/> |float  <br/> ||Maximale Anzahl der ausgehenden Kacheln für den Absender.  <br/> |
-|**OutgoingTileRateBurstOccurrences** <br/> |int  <br/> ||Burst-Vorkommen in der ausgehenden Kachel Rate für den Absender.  <br/> |
-|**OutgoingTileRateBurstDensity** <br/> |float  <br/> ||Burst Dichte in der ausgehenden Kachel Rate für den Absender.  <br/> |
-|**OutgoingTileRateBurstDuration** <br/> |float  <br/> ||Burst Dauer in der ausgehenden Kachel Rate für den Absender.  <br/> |
-|**OutgoingTileRateGapOccurrences** <br/> |int  <br/> ||Lücken Vorkommen in der ausgehenden Kachel Rate für den Absender.  <br/> |
-|**OutgoingTileRateGapDensity** <br/> |float  <br/> ||Abstands Dichte in der ausgehenden Kachel Rate für den Absender.  <br/> |
-|**OutgoingTileRateGapDuration** <br/> |float  <br/> ||Abstands Dauer in der ausgehenden Kachel Rate für den Absender.  <br/> |
-|**OutgoingFrameRateTotal** <br/> |float  <br/> ||Die gesamte Ausgangsbildrate für den Absender.  <br/> |
-|**OutgoingFrameRateAverage** <br/> |float  <br/> ||durchschnittliche Ausgangsbildrate für den Absender.  <br/> |
-|**OutgoingFrameRateMax** <br/> |float  <br/> ||Maximale Ausgangsbildrate für den Absender.  <br/> |
-|**OutgoingFrameRateBurstOccurrences** <br/> |int  <br/> ||Burst-Vorkommen in der Ausgangsbildrate für den Absender.  <br/> |
-|**OutgoingFrameRateBurstDensity** <br/> |float  <br/> ||Burst Dichte in der Ausgangsbildrate für den Absender.  <br/> |
-|**OutgoingFrameRateBurstDuration** <br/> |float  <br/> ||Burst Dauer in der Ausgangsbildrate für den Absender.  <br/> |
-|**OutgoingFrameRateGapOccurrences** <br/> |int  <br/> ||Lücken Vorkommen in der ausgehenden Framerate für den Absender.  <br/> |
-|**OutgoingFrameRateGapDensity** <br/> |float  <br/> ||Abstands Dichte in der Ausgangsbildrate für den Absender.  <br/> |
-|**OutgoingFrameRateGapDuration** <br/> |float  <br/> ||Lücken Dauer in der ausgehenden Framerate für den Absender.  <br/> |
+|**BandwidthEst** <br/> |int  <br/> ||Die geschätzte unidirektionale Bandbreite, die am Ende der Sitzung verfügbar ist (in Bits pro Sekunde).  <br/> |
+|**AppSharingPayloadDescription** <br/> |int  <br/> ||Beschreibung der Anwendungsfreigabe-Nutzlast.  <br/> |
+|**RelativeOneWayTotal** <br/> |Gleitkommazahl  <br/> ||Gesamter Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
+|**RelativeOneWayAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittlicher Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
+|**RelativeOneWayMax** <br/> |Gleitkommazahl  <br/> ||Maximaler Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Gesamtanzahl der vorkommenden one-way-Lücken. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Lücken weisen auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayGapDensity** <br/> |Gleitkommazahl  <br/> ||Gesamtdichte für die einweg-lücke. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Lücken weisen auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayGapDuration** <br/> |Gleitkommazahl  <br/> ||Gesamtdauer der ein- und auswegsen Lücken. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Lücken weisen auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**ApplicationSharingType** <br/> |varChar(256)  <br/> ||Anwendungsrolle (Freigebender Benutzer oder Betrachter) und Inhaltstyp.  <br/> |
+|**RDPTileProcessingLatencyTotal** <br/> |Gleitkommazahl  <br/> ||Gesamte Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
+|**RDPTileProcessingLatencyAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
+|**RDPTileProcessingLatencyMax** <br/> |Gleitkommazahl  <br/> ||Maximale Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
+|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden.  <br/> |
+|**RDPTileProcessingLatencyBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden.  <br/> |
+|**RDPTileProcessingLatencyBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden.  <br/> |
+|**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP).  <br/> |
+|**RDPTileProcessingLatencyGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je geringer die Lückendichte, desto besser das Wiedergabeerlebnis.  <br/> |
+|**RDPTileProcessingLatencyGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je kürzer die Lückendauer, desto besser das Wiedergabeerlebnis.  <br/> |
+|**CaptureTileRateTotal** <br/> |Gleitkommazahl  <br/> ||Gesamtrate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateMax** <br/> |Gleitkommazahl  <br/> ||Maximale Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**CaptureTileRateGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Rate der aufgezeichneten Kacheln (in Kacheln pro Sekunde).  <br/> |
+|**SpoiledTilePercentTotal** <br/> |Gleitkommazahl  <br/> ||Gesamtprozentsatz des Inhalts, der nicht angezeigt, sondern stattdessen verworfen und durch aktuellen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittlicher Prozentsatz des Inhalts, der nicht angezeigt, sondern stattdessen verworfen und durch aktuellen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentMax** <br/> |Gleitkommazahl  <br/> ||Maximaler Prozentsatz des Inhalts, der nicht angezeigt, sondern stattdessen verworfen und durch aktuellen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen für den Inhalt, der nicht angezeigt, sondern stattdessen verworfen und durch aktuellen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte für den Inhalt, der nicht angezeigt, sondern stattdessen verworfen und durch neuen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer für den Inhalt, der nicht angezeigt, sondern stattdessen verworfen und durch neuen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen für den Inhalt, der nicht angezeigt, sondern stattdessen verworfen und durch neuen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte für den Inhalt, der nicht angezeigt, sondern stattdessen verworfen und durch neuen Inhalt überschrieben wurde.  <br/> |
+|**SpoiledTilePercentGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer für den Inhalt, der nicht angezeigt, sondern stattdessen verworfen und durch neuen Inhalt überschrieben wurde.  <br/> |
+|**ScrapingFrameRateTotal** <br/> |Gleitkommazahl  <br/> ||Gesamtanzahl der Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Anzahl der Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateMax** <br/> |Gleitkommazahl  <br/> ||Maximale Anzahl der Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in den Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in den Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in den Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in den Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in den Scrapingframes aus der Grafikquelle.  <br/> |
+|**ScrapingFrameRateGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in den Scrapingframes aus der Grafikquelle.  <br/> |
+|**IncomingTileRateTotal** <br/> |Gleitkommazahl  <br/> ||Rate eingehender Frames insgesamt, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateMax** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Rate eingehender Kacheln, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Rate eingehender Kacheln, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Rate eingehender Kacheln, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Rate eingehender Kacheln, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Rate eingehender Kacheln, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Rate eingehender Kacheln, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingTileRateGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Rate eingehender Kacheln, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateTotal** <br/> |Gleitkommazahl  <br/> ||Rate eingehender Frames insgesamt, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateMax** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**IncomingFrameRateDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Rate eingehender Frames, die vom Betrachter empfangen werden.  <br/> |
+|**OutgoingTileRateTotal** <br/> |Gleitkommazahl  <br/> ||Rate ausgehender Kacheln insgesamt für den Absender.  <br/> |
+|**OutgoingTileRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingTileRateMax** <br/> |Gleitkommazahl  <br/> ||Maximale Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingTileRateBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingTileRateBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingTileRateBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingTileRateGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingTileRateGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingTileRateGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Rate ausgehender Kacheln für den Absender.  <br/> |
+|**OutgoingFrameRateTotal** <br/> |Gleitkommazahl  <br/> ||Rate ausgehender Frames insgesamt für den Absender.  <br/> |
+|**OutgoingFrameRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Rate ausgehender Frames für den Absender.  <br/> |
+|**OutgoingFrameRateMax** <br/> |Gleitkommazahl  <br/> ||Maximale Rate ausgehender Frames für den Absender.  <br/> |
+|**OutgoingFrameRateBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Rate ausgehender Frames für den Absender.  <br/> |
+|**OutgoingFrameRateBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Rate ausgehender Frames für den Absender.  <br/> |
+|**OutgoingFrameRateBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Rate ausgehender Frames für den Absender.  <br/> |
+|**OutgoingFrameRateGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Rate ausgehender Frames für den Absender.  <br/> |
+|**OutgoingFrameRateGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Rate ausgehender Frames für den Absender.  <br/> |
+|**OutgoingFrameRateGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Rate ausgehender Frames für den Absender.  <br/> |
 |**AverageRectangleHeight** <br/> |int  <br/> ||Durchschnittliche Höhe der Videoauflösung in Pixeln.  <br/> |
 |**AverageRectangleWidth** <br/> |int  <br/> ||Durchschnittliche Breite der Videoauflösung in Pixeln.  <br/> |
-|**Inbound** <br/> |bit  <br/> ||Durchschnittliche Bildwiederholrate (in Frames pro Sekunde) für eingehende Übertragungen.  <br/> |
-|**Ausgehend** <br/> |bit  <br/> ||Durchschnittliche Bildwiederholrate (in Frames pro Sekunde) für ausgehende Übertragungen.  <br/> |
-|**SenderIsCallerPAI** <br/> |bit  <br/> ||1 bedeutet, dass die Datenstrom Richtung vom Aufrufer zu aufgerufen wird.  <br/> 0 bedeutet, dass die Datenstrom Richtung vom aufgerufenen zum Aufrufer ist.  <br/> |
+|**Eingehende Nachrichten** <br/> |bit  <br/> ||Durchschnittliche Framerate (in Frames pro Sekunde) für eingehende Übertragungen.  <br/> |
+|**Ausgehend** <br/> |bit  <br/> ||Durchschnittliche Framerate (in Frames pro Sekunde) für ausgehende Übertragungen.  <br/> |
+|**SenderIsCallerPAI** <br/> |bit  <br/> ||1 bedeutet, dass die Betrachter vom Anrufer zum Angerufenen verläuft.  <br/> 0 bedeutet, dass die Datenstromrichtung vom Angerufenen zum Anrufer verläuft.  <br/> |
    
 

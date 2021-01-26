@@ -1,8 +1,8 @@
 ---
 title: Dateispeichereinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'So bearbeiten Sie die Eigenschaften der definierten Dateispeicher:'
-ms.openlocfilehash: f4c88d7010876f9f71135dffe126a74883957948
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'So ändern Sie die Eigenschaften der definierten Dateispeicher:'
+ms.openlocfilehash: 87ba595ff15b6864ea162c4155fa84937aa13ed7
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793673"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819425"
 ---
-# <a name="file-store-settings-expander"></a>Dateispeichereinstellungen – Erweiterung
+# <a name="file-store-settings-expander"></a>Dateispeichereinstellungen – Erweiterung
  
-So bearbeiten Sie die Eigenschaften der definierten Dateispeicher:
+So ändern Sie die Eigenschaften der definierten Dateispeicher:
   
-Für den Dateifreigabe Namen können Sie den Namen einer neuen Freigabe definieren. Anschließend müssen Sie die Freigabe auf dem Server erstellen, der in der vollqualifizierten Domänennamen Eigenschaft (Fully Qualified Domain Name, FQDN) des Dateiservers benannt ist.
+Als Dateifreigabename können Sie den Namen einer neuen Freigabe festlegen. Sie müssen anschließend die Freigabe auf dem Server erstellen, der in der Eigenschaft "Vollqualifizierter Domänenname des Dateiservers" genannt ist.
   
 > [!NOTE]
-> Sie können den FQDN des Servers, der in der Eigenschaft "Dateiserver-FQDN" angegeben ist, nicht ändern. Wenn Sie die Dateispeicher Dateifreigabe auf einem anderen Server ablegen müssen, erstellen Sie einen neuen Dateispeicher Eintrag. 
+> Sie können den in dieser Eigenschaft angegebenen vollqualifizierten Domänennamen (FQDN) des Servers nicht ändern. Wenn Sie die Dateifreigabe mit dem Dateispeicher auf einem anderen Server ablegen möchten, müssen Sie einen neuen Dateispeichereintrag erstellen. 
   
 

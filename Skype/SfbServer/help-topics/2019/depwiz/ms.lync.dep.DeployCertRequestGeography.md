@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Geografie)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Seite "geographische Informationen" fordert zusätzliche Informationen für die Zertifikatanforderung an. Auf dieser Seite Wählen Sie Land aus, und geben Sie dann in ein Textfeld Bundesland/Kanton und Ort ein. Beachten Sie, dass Sie keine Abkürzungen verwenden und den vollständigen Namen des Bundesstaates/der Provinz und der Stadt/des Ortes buchstabieren sollten.
-ms.openlocfilehash: a23a7398479378d8289f139795c1e6cc5bec1047
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Die Seite Geografische Informationen enthält weitere Informationen für die Zertifikatanforderung. Auf dieser Seite wählen Sie Land und geben Bundesland/Kanton und Ort in ein Textfeld ein. Verwenden Sie keine Abkürzungen, und geben Sie die vollständigen Namen für "Bundesland/Kanton" und "Ort" ein.
+ms.openlocfilehash: 64e110126cac5a5e192f5d04383f3a85fcac58e6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796716"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808835"
 ---
 # <a name="certificate-request-geography"></a>Zertifikatanforderung (Geografie)
  
-Die Seite " **geographische Informationen** " fordert zusätzliche Informationen für die Zertifikatanforderung an. Auf dieser Seite Wählen Sie **Land**aus, und geben Sie dann in ein Textfeld Bundesland **/Kanton** **und Ort ein** . Beachten Sie, dass Sie keine Abkürzungen verwenden und den vollständigen Namen des Bundesstaates/der Provinz und der Stadt/des Ortes buchstabieren sollten.
+Die Seite **Geografische Informationen** enthält weitere Informationen für die Zertifikatanforderung. Auf dieser Seite wählen Sie **Land** und geben **Bundesland/Kanton** und **Ort** in ein Textfeld ein. Verwenden Sie keine Abkürzungen, und geben Sie die vollständigen Namen für "Bundesland/Kanton" und "Ort" ein.
   
 

@@ -1,8 +1,8 @@
 ---
-title: Veröffentlichen der Topologie – Seite "Spiegeldatenbanken erstellen"
+title: Veröffentlichen der Topologie – Seite „Spiegeldatenbank erstellen“
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
-description: Dies ist eine vorläufige Dokumentation und kann jederzeit geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
-ms.openlocfilehash: c60871e5ec094c878c9ed093022c88a714cbe3be
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: Dies ist vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
+ms.openlocfilehash: ce3cd66ae6b4d0cbb01eb058a357653124ce26b6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219116"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823705"
 ---
-# <a name="publish-topology-create-mirror-database-page"></a>Veröffentlichen der Topologie – Seite "Spiegeldatenbanken erstellen"
+# <a name="publish-topology-create-mirror-database-page"></a>Veröffentlichen der Topologie – Seite „Spiegeldatenbank erstellen“
  
-Dies ist eine vorläufige Dokumentation und kann jederzeit geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
+Dies ist vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
   
-Der Topologie-Generator analysiert alle Konfigurationseinstellungen in Ihrem definierten Topologie-Dokument. Wenn Sie gespiegelte SQL Server Datenbanken konfiguriert haben, wird ein Bildschirm angezeigt, der den Spiegel Speicher, den primären Speicher, den Dateifreigabepfad und die Datenbankpfade anzeigt. Sie können ein Kontrollkästchen aktivieren, das einem Daten Bank Spiegelungs Speicher zugeordnet ist, um die gespiegelte Datenbank und den Dateifreigabepfad zu erstellen. Sie können ein Kontrollkästchen für eine Datenbankspiegelung deaktivieren, wenn Sie die Datenbank nicht im definierten SQL Server erstellen und bereitstellen möchten.
+Der Topologie-Generator analysiert alle Konfigurationseinstellungen im definierten Topologiedokument. Wenn Sie gespiegelte SQL Server konfiguriert haben, wird ein Bildschirm angezeigt, auf dem der Spiegelspeicher, der primäre Speicher, der Dateifreigabepfad und die Datenbankpfade angezeigt werden. Sie aktivieren ein Kontrollkästchen, das einem Datenbankspiegelspeicher zugeordnet ist, um die gespiegelte Datenbank und den Dateifreigabepfad zu erstellen. Sie können ein Kontrollkästchen für einen Datenbankspiegel aktivieren, wenn Sie die Datenbank nicht erstellen und in der definierten Datenbank bereitstellen SQL Server.
   
- Wenn Sie auswählen, dass zu diesem Zeitpunkt keine oder alle dieser Datenbanken installiert werden sollen, deaktivieren Sie die Datenbanken, die Sie nicht installieren möchten. Zu einem späteren Zeitpunkt Wählen Sie die Option " **Datenbank installieren** " aus, indem Sie mit der rechten Maustaste auf die meisten Knoten Elemente im Topologie-Generator klicken.
+ Wenn Sie sich dafür entscheiden, zu diesem Zeitpunkt keine oder alle dieser Datenbanken zu installieren, löschen Sie die Datenbanken, die Sie nicht installieren möchten. Zu einem späteren Zeitpunkt wählen  Sie die Datenbank installieren, indem Sie mit der rechten Maustaste auf die meisten Knotenelemente im Topologie-Generator klicken.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Bereitstellen der SQL-Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[Bereitstellen SQL Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

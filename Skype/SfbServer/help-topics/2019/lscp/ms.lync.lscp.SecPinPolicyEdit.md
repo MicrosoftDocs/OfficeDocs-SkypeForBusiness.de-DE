@@ -1,8 +1,8 @@
 ---
-title: PIN-Richtlinie neue erstellen oder vorhandene bearbeiten
+title: ERSTELLEN einer neuen oder Bearbeiten einer vorhandenen PIN-Richtlinie
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 95459ed516095b00aeb620abc65f93a4557b79b6
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+ms.openlocfilehash: abfdafb3d51a2ecbfff542e5e0476fc2730dc01c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797506"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836495"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN-Richtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen PIN-Richtlinie
 
-Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
+Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
 - [Erstellen einer neuen PIN-Richtlinie in Skype for Business Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
@@ -32,11 +32,11 @@ Was möchten Sie tun? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführe
 
 - [Löschen einer PIN-Richtlinie in Skype for Business Server](../../../manage/authentication/delete-a-pin-policy.md)
 
-- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Erstellen oder Ändern der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Ändern der standardmäßigen Pineinstellungen für Einwahlkonferenzen](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Löschen der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 

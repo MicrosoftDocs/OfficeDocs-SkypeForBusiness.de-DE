@@ -1,8 +1,8 @@
 ---
 title: A/V MCUs – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: 'Unterhalb des Knotens A/V-Konferenzpools werden die A/V-Konferenzpools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 5eb8cdf18f4ae580cac180fcf9b5ba1b13d28149
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 42538978fcf03ea3b55c7f0c5ac05fc5af9c9a53
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216166"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833255"
 ---
-# <a name="av-mcus-scope-node"></a>A/V MCUs – Bereichsknoten
+# <a name="av-mcus-scope-node"></a>AV MCUs – Bereichsknoten
  
 Unterhalb des Knotens **A/V-Konferenzpools** werden die A/V-Konferenzpools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer A/V-Konferenzpool**. Startet den Assistenten zum Definieren eines neuen A/V-Konferenzpools****, mit dem Sie einen neuen A/V-Konferenzpool zur Topologie hinzufügen.
+- **Neuer A/V-Konferenzpool**. Startet den Assistenten zum Definieren eines neuen A/V-Konferenzpools, mit dem Sie einen neuen A/V-Konferenzpool zur Topologie hinzufügen.
     
 Zusätzlich zu den Optionen für A/V-Konferenzpools sind die folgenden allgemeinen Optionen verfügbar:
   

@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1cfcf52531e5a3a0cecafe5310304a299bf04c5
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682404"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757760"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -91,12 +91,12 @@ Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Refere
 | Sichtbarkeit für Teilnehmer | Teams-Produktion | Produktion externer Apps oder Geräte |
 |------------------------------|-----------------|----------------------|
 |Öffentlich (anonyme Benutzer)      |  Ja            |  Nein                  |
-|Gastbenutzer                   |  Ja            |  Nein                  |
+|Gastbenutzer                   |  Ja<sup>1</sup>            |  Nein                  |
 |Jeder im Unternehmen mit externem Zugriff (Partnerverbund) |  Ja<sup>1</sup>|  Nein                  |
 |Jeder im Unternehmen           |  Ja            |  Ja                 |
 |Bestimmte Gruppen/Personen      |  Ja            |  Ja                 |
 
-<sup>1</sup> Teilnehmer mit externem Zugriff (Verbundteilnehmer) können nur über „Personen & Gruppen“ eingeladen werden. <br>
+<sup>1</sup> Können nur über „Personen & Gruppen“ eingeladen werden <br>
 
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams-Liveereignisse und Skype Meeting Broadcast
 

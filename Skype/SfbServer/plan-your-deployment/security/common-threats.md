@@ -1,8 +1,8 @@
 ---
-title: Häufige Sicherheitsbedrohungen in der modernen EDV
+title: Häufige Sicherheitsbedrohungen in modernen Computern
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro
@@ -13,33 +13,33 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
-description: Da es sich bei Skype for Business Server um ein Kommunikationssystem auf Unternehmensniveau handelt, sollten Sie sich der allgemeinen Sicherheitsangriffe bewusst sein, die sich auf die Infrastruktur und die Kommunikation auswirken können.
-ms.openlocfilehash: 58141a735858d840acbd57e8039aa1c132dbeb8c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie sich der allgemeinen Sicherheitsangriffe bewusst sein, die sich auf die Infrastruktur und Kommunikation auswirken könnten.
+ms.openlocfilehash: d2eff9346c1c2d00af9fb0789f652dfe072702f0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815673"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832225"
 ---
-# <a name="common-security-threats-in-modern-day-computing"></a>Häufige Sicherheitsbedrohungen in der modernen EDV
+# <a name="common-security-threats-in-modern-day-computing"></a>Häufige Sicherheitsbedrohungen in modernen Computern
  
-Da es sich bei Skype for Business Server um ein Kommunikationssystem auf Unternehmensniveau handelt, sollten Sie sich der allgemeinen Sicherheitsangriffe bewusst sein, die sich auf die Infrastruktur und die Kommunikation auswirken können.
+Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie sich der allgemeinen Sicherheitsangriffe bewusst sein, die sich auf die Infrastruktur und Kommunikation auswirken könnten.
   
 ## <a name="compromised-key-attack"></a>Angriff mit kompromittierten Schlüsseln
 
-Ein Schlüssel ist ein geheimer Code oder eine geheime Nummer zur Verschlüsselung, Entschlüsselung oder Überprüfung geheimer Informationen. In der Public Key-Infrastruktur (PKI) werden zwei vertrauliche Schlüssel verwendet, die berücksichtigt werden müssen: 
+Ein Schlüssel ist ein geheimer Code oder eine geheime Nummer zur Verschlüsselung, Entschlüsselung oder Überprüfung geheimer Informationen. In der Public Key Infrastructure (PKI) werden zwei vertrauliche Schlüssel verwendet, die berücksichtigt werden müssen: 
   
-- Der private Schlüssel, der sich im Besitz des jeweiligen Zertifikatinhabers befindet
+- Der private Schlüssel, über den jeder Zertifikatinhaber verfügt
     
-- Der Sitzungsschlüssel, der nach der erfolgreichen Identifikation und dem Sitzungsschlüsselaustausch durch die Kommunikationspartner verwendet wird
+- Der Sitzungsschlüssel, der nach einem erfolgreichen Austausch von Identifikations- und Sitzungsschlüsseln durch die kommunizierenden Partner verwendet wird
     
 Ein Angriff mit kompromittierten Schlüsseln liegt vor, wenn der Angreifer den privaten Schlüssel oder den Sitzungsschlüssel ermittelt. Gelingt dem Angreifer die Ermittlung des Schlüssels, kann er den Schlüssel zum Entschlüsseln verschlüsselter Daten ohne Wissen des Absenders verwenden.
   
-Skype for Business Server verwendet die PKI-Features im Windows Server-Betriebssystem, um die für die Verschlüsselung verwendeten Schlüsseldaten für die TLS-Verbindungen (Transport Layer Security) zu schützen. Die für die Medienverschlüsselung verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
+Skype for Business Server verwendet die PKI-Funktionen im Windows Server-Betriebssystem, um die Schlüsseldaten zu schützen, die für die Verschlüsselung für die Transport Layer Security (TLS)-Verbindungen verwendet werden. Die für die Medienverschlüsselung verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
   
 ## <a name="network-denial-of-service-attack"></a>Denial-of-Service-Angriff auf das Netzwerk
 
-Ein Denial-of-Service-Angriff liegt vor, wenn der Angreifer die normale Netzwerknutzung durch gültige Nutzer verhindert. Hierbei überfluten Angreifer den Dienst mit legitimen Anforderungen, sodass er für die berechtigten Nutzer nicht mehr erreichbar ist. Bei einem Denial-of-Service-Angriff eröffnen sich den Angreifern folgende Möglichkeiten:
+Ein Denial-of-Service-Angriff liegt vor, wenn der Angreifer die normale Netzwerknutzung durch gültige Benutzer verhindert. Dies geschieht, wenn der Angreifer den Dienst mit legitimen Anforderungen überflutet, die die Nutzung des Diensts durch legitime Benutzer überfordern. Mithilfe eines Denial-of-Service-Angriffs kann der Angreifer folgendes tun:
   
 - Er kann ungültige Daten an Anwendungen und Dienste senden, die in dem angegriffenen Netzwerk ausgeführt werden, um ihre Funktionsweise zu beeinträchtigen.
     
@@ -49,53 +49,53 @@ Ein Denial-of-Service-Angriff liegt vor, wenn der Angreifer die normale Netzwerk
     
 - Er kann Benutzer vom Zugriff auf die Netzwerkressourcen abhalten.
     
-## <a name="eavesdropping-sniffing-snooping"></a>Abhöraktionen ("Sniffing", "Snooping")
+## <a name="eavesdropping-sniffing-snooping"></a>Abhören (Sniffing, Snooping)
 
-Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird. 
+Abhöraktionen sind Aktionen, bei denen ein Angreifer Zugriff auf den Datenpfad in einem Netzwerk erlangt und anschließend den Datenverkehr überwachen und lesen kann. Dies wird auch als "Schnüffeln" (auch Lauschangriff, englisch "Sniffing" oder "Snooping") bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, kann der Angreifer ihn lesen, sobald er Zugriff auf den Pfad hat. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird. 
   
-Die Standardempfehlung und-Einstellung für den Datenverkehr in Skype for Business Server besteht darin, MTLS (Mutual TLS) zwischen vertrauenswürdigen Servern und TLS vom Client zum Server zu verwenden. Diese Schutzmaßnahme macht einen derartigen Angriff innerhalb der Zeitspanne, in der eine Unterhaltung erfolgt, äußerst schwer oder unmöglich. Mit TLS werden alle Parteien authentifiziert und der gesamte Datenverkehr wird verschlüsselt. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
+Die Standardempfehlung und -einstellung für Datenverkehr in Skype for Business Server ist die Verwendung von MTLS (Mutual TLS) zwischen vertrauenswürdigen Servern und TLS von Client zu Server. Diese Schutzmaßnahme würde einen Angriff innerhalb des Zeitraums, in dem eine bestimmte Unterhaltung stattfindet, sehr schwierig oder unmöglich machen. TLS authentifiziert alle Parteien und verschlüsselt den datenverkehr. Dies verhindert keine Lauschangriffe, aber der Angreifer kann den Datenverkehr nur lesen, wenn die Verschlüsselung unterbrochen ist.
   
-Das TURN-Protokoll (Traversal Using Relay NAT) setzt keine Verschlüsselung des Datenverkehrs voraus. Die Daten, die darüber versendet werden, unterliegen dem Schutz durch die Nachrichtenintegrität. Es ist rein theoretisch möglich, sie abzuhören, aber die Informationen, die über das TURN-Protokoll gesendet werden (d. h. die IP-Adressen und der Port), können direkt extrahiert werden, indem die Quell- und Zieladressen der Pakete angezeigt werden. Der A/V-Edgedienst stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenintegrität der Nachricht mithilfe des Schlüssels überprüft, der von bestimmten Objekten abgeleitet wird. Dazu gehört auch ein TURN-Kennwort, das nie als Klartext gesendet wird. Wenn SRTP (Secure Real Time Protocol) verwendet wird, so wird auch der Mediendatenverkehr verschlüsselt.
+Das Traversal Using Relay NAT (TURN)-Protokoll sieht nicht vor, dass der Datenverkehr verschlüsselt wird und die gesendeten Informationen durch die Nachrichtenintegrität geschützt werden. Obwohl es für Lauschangriffe offen ist, können die gesendeten Informationen (d. h. die IP-Adressen und der Port) direkt extrahiert werden, indem einfach die Quell- und Zieladressen der Pakete betrachtet werden. Der A/V-Edgedienst stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenintegrität der Nachricht mithilfe des schlüssels überprüft, der von einigen wenigen Elementen abgeleitet wurde, einschließlich eines TURN-Kennworts, das nie als Klartext gesendet wird. Wenn SRTP (Secure Real Time Protocol) verwendet wird, wird auch der Mediendatenverkehr verschlüsselt.
   
-## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Spoofing von Identitäten (IP-Adresse und Spoofing der Rufnummernanzeige)
+## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Identitätss spoofing (IP-Adresse und Spoofing der Anrufer-ID)
 
-Identitäts Spoofing tritt auf, wenn der Angreifer eine Telefonnummer eines gültigen Benutzers (Rufnummernanzeige) oder eine IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermittelt und verwendet, ohne dafür autorisiert zu werden. Ein erfolgreicher Angriff ermöglicht es dem Angreifer, so zu arbeiten, als wäre der Angreifer die Entität, die normalerweise durch die Telefonnummer (Rufnummernanzeige) oder die IP-Adresse gekennzeichnet ist.
+Identitätss spoofing tritt auf, wenn der Angreifer eine Telefonnummer eines gültigen Benutzers (Anrufer-ID) oder eine IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermittelt und verwendet, ohne dazu autorisiert zu sein. Bei einem erfolgreichen Angriff kann der Angreifer so arbeiten, als ob es sich bei dem Angreifer um die Entität handelt, die normalerweise durch die Telefonnummer (Anrufer-ID) oder die IP-Adresse identifiziert wird.
 
-Im Kontext von Skype for Business Server wird die IP-Adressen-Spoofing nur dann wiedergegeben, wenn ein Administrator beide der folgenden Schritte ausgeführt hat:
+Im Kontext von Skype for Business Server kommt spoofing von IP-Adressen nur ins Spiel, wenn ein Administrator beide der folgenden Aufgaben ausgeführt hat:
   
-- Er hat Verbindungen konfiguriert, die nur TCP (Transmission Control Protocol) unterstützen. (Dies ist nicht zu empfehlen, da die TCP-Kommunikation unverschlüsselt ist.)
+- Konfigurierte Verbindungen, die nur TCP (Transmission Control Protocol) unterstützen (dies wird nicht empfohlen, da die TCP-Kommunikation unverschlüsselt ist).
     
-- Er hat die IP-Adressen dieser Verbindungen als vertrauenswürdige Hosts markiert.
+- Die IP-Adressen dieser Verbindungen wurden als vertrauenswürdige Hosts gekennzeichnet.
     
-Dies ist für TLS-Verbindungen (Transport Layer Security) weniger ein Problem, da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert Spoofingangriffe auf bestimmte Verbindungen (Mutual TLS-Verbindungen). Ein Angreifer kann aber weiterhin die Adresse des DNS-Servers spoofen, den Skype for Business Server verwendet. Da die Authentifizierung in Skype for Business jedoch mit Zertifikaten durchgeführt wird, verfügt ein Angreifer nicht über ein gültiges Zertifikat, das für die Spoofing einer der Parteien in der Kommunikation erforderlich ist.
+Dies ist weniger ein Problem für Transport Layer Security (TLS)-Verbindungen, da TLS alle Parteien authentifiziert und den datenverkehr verschlüsselt. Die Verwendung von TLS verhindert, dass ein Angreifer das Spoofing von IP-Adressen für eine bestimmte Verbindung (z. B. gegenseitige TLS-Verbindungen) ausführen kann. Ein Angreifer könnte aber dennoch die Adresse des von Skype for Business Server verwendeten DNS-Servers spoofing. Da die Authentifizierung in Skype for Business jedoch mit Zertifikaten erfolgt, hat ein Angreifer kein gültiges Zertifikat, das erforderlich ist, um eine der Kommunikationsparteien zu spoofieren.
 
-Auf der anderen Seite wird die Rufnummernanzeige-Spoofing ins Spiel gesetzt, wenn Sie einen SIP-Trunk zwischen einem Anbieter, einem PSTN-Gateway oder einem anderen PBX-System und einem Skype for Business-Server eingerichtet haben. In diesen Fällen bietet Skype for Business Server keinen Schutz vor Spoofing durch die Rufnummernanzeige. Dies bedeutet, dass ein Skype for Business-Benutzer einen Anruf vom SIP-Stamm mit einer gefälschten Rufnummernanzeige empfangen kann, die die Telefonnummer oder den Anzeigenamen (falls Reverse-Number-Lookup gilt) eines anderen Skype for Business-Benutzers anzeigt. Dieser Schutz sollte auf der Anbieterseite, dem PSTN-oder dem PBX-Gateway angewendet werden.
+Andererseits kommt Spoofing der Anrufer-ID ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, einem PSTN-Gateway oder einem anderen Nebenstellensystem und Skype for Business Server eingerichtet haben. In diesen Fällen bietet Skype for Business Server keinen Schutz gegen Spoofing von Anrufer-IDs. Dies bedeutet, dass ein Skype for Business-Benutzer einen Anruf vom SIP-Trunk mit einer gefälschten Anrufer-ID empfangen kann, die die Telefonnummer oder den Anzeigenamen eines anderen Skype for Business-Benutzers (falls eine umgekehrte Nummern-Suche vorkommt) angezeigt wird. Dieser Schutz sollte auf Anbieterseite, PSTN- oder Nebenstellenanlagengateway angewendet werden.
   
 ## <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
-Ein man-in-the-Middle-Angriff tritt auf, wenn ein Angreifer die Kommunikation zwischen zwei Benutzern über den Computer des Angreifers umleitet, ohne die beiden kommunizierenden Benutzer kennen zu müssen. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dies kann passieren, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie den DNS-Eintrag (Domain Name System) so ändern können, dass Clients auf ihrem Weg zum Server über den Computer der Angreifer geleitet werden. Ein Man-in-the-Middle-Angriff kann auch bei Mediendatenverkehr zwischen zwei Clients erfolgen, wobei jedoch in skype16_server_short Point-to-Point-Audio-, Video- und Anwendungsfreigabe-Datenströme mit dem Secure Real-Time Transport Protocol (SRTP) verschlüsselt werden. In der Skype for Business Server-Punkt-zu-Punkt-Audio-, Video-und Anwendungsfreigabe werden Streams jedoch mit SRTP verschlüsselt, wobei kryptografische Schlüssel verwendet werden, die zwischen den Peers ausgehandelt werden, die SIP (Session Initiation Protocol) über TLS verwenden. Server wie Gruppenchat nutzen HTTPS zur Erhöhung der Sicherheit des Webdatenverkehrs.
+Ein Man-in-the-Middle-Angriff tritt auf, wenn ein Angreifer die Kommunikation zwischen zwei Benutzern ohne Wissen der beiden kommunizierenden Benutzer über den Computer des Angreifers umgeleitet. Der Angreifer kann den Datenverkehr überwachen und lesen, bevor er an den vorgesehenen Empfänger gesendet wird. Jeder Benutzer in der Kommunikation sendet unwissentlich Datenverkehr an den Angreifer und empfängt ihn, während er davon aus ist, dass er nur mit dem beabsichtigten Benutzer kommuniziert. Dies kann passieren, wenn ein Angreifer Active Directory Domain Services ändern kann, um seinen Server als vertrauenswürdigen Server hinzuzufügen, oder dns (Domain Name System) so ändern kann, dass Clients über den Angreifer auf dem Weg zum Server eine Verbindung herstellen können. Ein Man-in-the-Middle-Angriff kann auch mit Mediendatenverkehr zwischen zwei Clients auftreten. In Skype for Business Server werden Datenströme in Punkt-zu-Punkt-Audio-, Video- und Anwendungsfreigaben jedoch mit SRTP verschlüsselt. Dabei werden kryptografische Schlüssel verwendet, die zwischen den Peers ausgehandelt werden, die SIP (Session Initiation Protocol) über TLS verwenden. Server wie Gruppenchat nutzen HTTPS, um die Sicherheit des Webdatenverkehrs zu erhöhen.
   
 ## <a name="rtp-replay-attack"></a>Angriff mit Aufzeichnungswiederholung (RTP-Datenverkehr)
 
-Ein Replay-Angriff liegt vor, wenn eine gültige Medienübertragung zwischen zwei Parteien abgefangen und für böswillige Zwecke erneut übertragen wird. SRTP, das in Verbindung mit einem sicheren Signalisierungsprotokoll verwendet wird, schützt Übertragungen vor Replay-Angriffen, indem es dem Empfänger ermöglicht, einen Index der bereits empfangenen RTP-Pakete beizubehalten und jedes neue Paket mit den bereits im Index aufgeführten zu vergleichen.
+Bei einem Angriff mit Aufzeichnungswiederholung wird in böswilliger Absicht eine gültige Medienübertragung zwischen zwei Parteien abgefangen und erneut übertragen. Durch die Verwendung von SRTP in Verbindung mit einem sicheren Signalübermittlungsprotokoll werden Übertragungen vor Angriffen mit Aufzeichnungswiederholung geschützt. Mit SRTP kann der Empfänger einen Index der bereits empfangenen RTP-Pakete erstellen und jedes neue Paket mit den bereits enthaltenen vergleichen.
   
-## <a name="spim"></a>SPIM (Spam over Instant Messaging)
+## <a name="spim"></a>Spim
 
-Unter SPIM sind unaufgeforderte Werbe-SMS oder Anwesenheitsabonnementanforderungen zu verstehen. Zwar wird das Netzwerk nicht unmittelbar beeinträchtigt, doch ist SPIM zumindest ärgerlich, kann die Ressourcenverfügbarkeit und die Produktivität reduzieren und möglicherweise zu einer Beeinträchtigung des Netzwerks führen. Ein Beispiel für Spimming sind Nutzer, die sich gegenseitig Anfragen zusenden. Nutzer können sich gegenseitig blockieren, um dies zu verhindern. Ein koordinierter Spimangriff im Partnerverbund kann jedoch schwer abzuwehren sein, wenn Sie den Verbund für den Partner nicht deaktivieren.
+Spim sind unerwünschte kommerzielle Chatnachrichten oder Anwesenheitsabonnements. Obwohl es sich nicht allein um eine Lästerung des Netzwerks handelt, ist es zumindest lästig, kann die Ressourcenverfügbarkeit und die Produktion reduzieren und möglicherweise zu einer Romittierung des Netzwerks führen. Ein Beispiel hierin sind Benutzer, die sich gegenseitig durch Senden von Anforderungen ausspionieren. Benutzer können sich gegenseitig blockieren, um dies zu verhindern. Wenn jedoch ein koordinierter Spimangriff eingerichtet wird, kann dies schwierig zu überwinden sein, es sei denn, Sie deaktivieren den Partnerverbund.
   
 ## <a name="viruses-and-worms"></a>Viren und Würmer
 
-Ein Virus ist eine Codeeinheit, deren Zweck die Reproduktion zusätzlicher, ähnlicher Codeeinheiten ist. Ein Virus benötigt, um zu funktionieren, einen Host, z. B. eine Datei, eine E-Mail oder ein Programm. Aworm ist eine Codeeinheit, deren Zweck darin besteht, zusätzliche, ähnliche Codeeinheiten zu reproduzieren, aber kein Host erforderlich ist. Viren und Würmer treten vor allem bei Dateiübertragungen zwischen Clients oder beim Versenden von URLs von anderen Benutzern auf. Wenn sich ein Virus auf Ihrem Computer befindet, kann er beispielsweise Ihre Identität verwenden und Sofortnachrichten in Ihrem Namen versenden.
+Ein Virus ist eine Codeeinheit, deren Zweck die Reproduzieren zusätzlicher, ähnlicher Codeeinheiten ist. Damit ein Virus funktioniert, benötigt er einen Host, z. B. eine Datei, eine E-Mail oder ein Programm. Ein Wurm ist eine Codeeinheit, deren Zweck es ist, zusätzliche, ähnliche Codeeinheiten zu reproduzieren, benötigt jedoch keinen Host. Viren und Würmer werden in erster Linie bei Dateiübertragungen zwischen Clients oder beim Versand von URLs von anderen Benutzern angezeigt. Wenn sich ein Virus auf Ihrem Computer befindet, kann er beispielsweise Ihre Identität verwenden und Chatnachrichten in Ihrem Auftrag senden.
   
 ## <a name="personally-identifiable-information"></a>Informationen zur Identifikation von Personen
 
-Skype for Business Server hat das Potenzial, Informationen über ein öffentliches Netzwerk offenzulegen, die möglicherweise mit einer Person verknüpft werden können. Bei diesen Informationen kann es sich um zwei Kategorien von Angaben handeln:
+Skype for Business Server kann Informationen über ein öffentliches Netzwerk offenlegen, die möglicherweise mit einer Einzelperson verknüpft werden können. Bei diesen Informationen kann es sich um zwei Kategorien von Angaben handeln:
   
-- **Erweiterte Anwesenheitsdaten** Erweiterte Anwesenheitsdaten sind Informationen, die ein Benutzer für die Freigabe oder nicht Freigabe über einen Link zu einem Föderationspartner oder mit Kontakten in einer Organisation auswählen kann. Diese Daten werden nicht an Benutzer in einem öffentlichen IM-Netzwerk weitergegeben. Client-Richtlinien und andere Client-Konfigurationen können dem Systemadministrator eine gewisse Kontrolle verschaffen. In Skype for Business Server kann der Erweiterte Anwesenheitsdaten Schutzmodus für einen einzelnen Benutzer so konfiguriert werden, dass Skype for Business-Benutzer nicht in der Kontaktliste des Benutzers die Anwesenheitsinformationen des Benutzers sehen können. Der Datenschutzmodus für erhöhte Anwesenheit verhindert nicht, dass Benutzer von Microsoft Office Communicator 2007 und Microsoft Office Communicator 2007 R2 die Anwesenheitsinformationen eines Benutzers sehen. Details zum Bereitstellen von Client und Anwesenheit finden Sie unter [Bereitstellen von Clients für Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md) und [Planen von Sofortnachrichten und Anwesenheit in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+- **Erweiterte Anwesenheitsdaten** Erweiterte Anwesenheitsdaten sind Informationen, die ein Benutzer über einen Link zu einem Verbundpartner oder mit Kontakten innerhalb einer Organisation freigeben kann. Diese Daten werden nicht für Benutzer in einem öffentlichen Impernetz freigegeben. Clientrichtlinien und andere Clientkonfigurationen können eine gewisse Kontrolle über den Systemadministrator haben. In Skype for Business Server kann der erweiterte Datenschutzmodus für Anwesenheitsinformationen für einen einzelnen Benutzer konfiguriert werden, um zu verhindern, dass Skype for Business-Benutzer, die nicht in der Kontaktliste des Benutzers enthalten sind, die Anwesenheitsinformationen des Benutzers sehen. Der erweiterte Datenschutzmodus für Anwesenheitsinformationen verhindert nicht, dass Benutzer von Microsoft Office Communicator 2007 und Microsoft Office Communicator 2007 R2 die Anwesenheitsinformationen eines Benutzers sehen. Weitere Informationen zum Bereitstellen des Clients und der Anwesenheit finden Sie unter "Bereitstellen von Clients für [Skype for Business Server"](../../deploy/deploy-clients/deploy-clients.md) und "Planen von Chat und Anwesenheit [in Skype for Business Server".](../../plan-your-deployment/instant-messaging-and-presence.md)
     
-- **Obligatorische Daten** Obligatorische Daten sind für den ordnungsgemäßen Betrieb des Servers oder des Clients erforderlich und unterliegen nicht der Kontrolle durch den Client oder die System Administration. Es handelt sich um Informationen, die auf Server- oder Netzwerkebene für das Routing, die Statuspflege und die Signalübermittlung erforderlich sind.
+- **Pflichtdaten** Erforderliche Daten sind für den ordnungsgemäßen Betrieb des Servers oder Clients erforderlich und werden nicht von der Client- oder Systemverwaltung kontrolliert. Es handelt sich um Informationen, die auf Server- oder Netzwerkebene für das Routing, die Statuspflege und die Signalübermittlung erforderlich sind.
     
-In den folgenden Tabellen wird angegeben, welche Daten über ein öffentliches Netzwerk offengelegt werden.
+In den folgenden Tabellen sind die Daten aufgeführt, die über ein öffentliches Netzwerk verfügbar gemacht werden.
   
 **Erweiterte Anwesenheitsdaten**
 
@@ -103,13 +103,13 @@ In den folgenden Tabellen wird angegeben, welche Daten über ein öffentliches N
 |:-----|:-----|
 |Persönliche Daten  <br/> |Name, Titel, Unternehmen, E-Mail-Adresse, Zeitzone  <br/> |
 |Telefonnummern  <br/> |Geschäftlich, mobil, privat  <br/> |
-|Kalenderdaten  <br/> |Frei/Gebucht, Abwesenheitsmitteilung, Besprechungsdetails (für Personen mit Zugriff auf Ihren Kalender)  <br/> |
+|Kalenderdaten  <br/> |Frei/Gebucht-Informationen, Benachrichtigungen zu Nicht-Ortsinformationen, Besprechungsdetails (für Personen, die Zugriff auf Ihren Kalender haben)  <br/> |
 |Anwesenheitsstatus  <br/> |Abwesend, verfügbar, gebucht, nicht stören, offline  <br/> |
    
 **Pflichtdaten**
 
 
-| **Offengelegte Daten** | **Beispieldaten**                            |
+| **Offengelegte Daten** | **Beispielinformationen**                            |
 |:-------------------|:---------------------------------------------------|
 | IP-Adresse  <br/>  | Tatsächliche Computer- oder NAT-Adresse  <br/> |
 | SIP-URI  <br/>     | jeremylos@litwareinc.com  <br/>                    |

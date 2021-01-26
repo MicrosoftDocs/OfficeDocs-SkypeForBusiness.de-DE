@@ -1,13 +1,13 @@
 ---
-title: PowerShell-Skript zum Testen der Verbindungen des direkten Routing Sitzung-Grenz Controllers
-author: LanaChin
-ms.author: v-lanac
+title: PowerShell script to test Direct Routing Session Border Controller connections
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: Verwenden Sie dieses PowerShell-Skriptbeispiel, um direkte Routing Sitzung-Grenz Controller Verbindungen in Microsoft Teams zu testen.
+description: Verwenden Sie dieses PowerShell-Skriptbeispiel, um Die Verbindungen des Direct Routing Session Border Controller in Microsoft Teams zu testen.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,29 +16,29 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d1514eff811461ac8b6ad73f7c2a215205f4e3
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c52febae3d734af49d1b23c7c65ceb0c2f746f7a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951260"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834275"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>PowerShell-Skript zum Testen der Verbindungen des direkten Routing Sitzung-Grenz Controllers
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>PowerShell script to test Direct Routing Session Border Controller connections
 
-Der SIP-Tester-Client ist ein Beispiel für ein PowerShell-Skript, das Sie zum Testen von SBC-Verbindungen (Direct Routing Session Border Controller) in Microsoft Teams verwenden können. Dieses Skript testet die grundlegenden Funktionen eines Kunden gekoppelten SIP-Trunks (Session Initiation Protocol) mit direktem Routing.
+Der SIP -Tester-Client ist ein PowerShell-Beispielskript, das Sie zum Testen von Direct Routing Session Border Controller (SBC)-Verbindungen in Microsoft Teams verwenden können. Dieses Skript testet die Grundlegenden Funktionen eines sip-koppelten Sip Protocol (Session Initiation Protocol)-Trunks mit Direct-Routing.
 
-Das Skript übermittelt einen SIP-Test an den Test Runner, wartet auf das Ergebnis und zeigt es dann in einem menschlich lesbaren Format an. Sie können dieses Skript verwenden, um die folgenden Szenarien zu testen:
+Das Skript übermittelt einen SIP-Test an den Testläufer, wartet auf das Ergebnis und zeigt es dann in einem lesbaren Format an. Mit diesem Skript können Sie die folgenden Szenarien testen:
 
 - Ausgehende und eingehende Anrufe
-- Simultaner Ring
-- Medien Eskalation
-- Beratende Übertragung
+- Gleichzeitiges Klingeln
+- Medieneskalation
+- Durch übertragene Funktion
 
 ## <a name="download-the-script-and-documentation"></a>Herunterladen des Skripts und der Dokumentation
 
-Laden Sie das [SIP Tester-Clientskript und die Dokumentation](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)herunter.
+Laden Sie das Clientskript [und die Dokumentation des SIP Testers herunter.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)
 
   > [!NOTE]
-  > Das SIP Tester-Clientskript unterstützt nur Adal.PS Version 3.19.8.1. Wenn eine neuere Version des Adal.PS verwendet wird, wird ein Fehler zurückgegeben.
+  > Das Clientskript für SIP Tester unterstützt nur adal.ps Version 3.19.8.1. Wenn eine neuere Version des Adal.ps verwendet wird, wird ein Fehler zurückgegeben.
   
   

@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c6019c72d54ad48406060178389a66f8cdd9cee7
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030801"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918681"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -43,7 +43,7 @@ Wenn Sie mehr über die Besprechungsumgebung für Ihre Benutzer erfahren möchte
 
 *Neu im April 2020*: Besprechungsorganisatoren können eine Besprechung für alle Besprechungsteilnehmer in Teams beenden, indem Sie in der Besprechung in den Besprechungssteuerelementen auf **Besprechung beenden** klicken.  
 
-*Neu im November 2019*: Sie können nun [den Ratgeber für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Der Ratgeber für Teams (Vorschau) führt Sie durch Ihre Einführung von Teams, einschließlich der Besprechungen und Konferenzen. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Besprechungen und Konferenzen in Teams erfolgreich durchführen können.
+*Neu im November 2019*: Sie können nun [den Advisor für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Der Advisor für Teams (Vorschau) führt Sie durch Ihre Einführung von Teams, einschließlich der Besprechungen und Konferenzen. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Besprechungen und Konferenzen in Teams erfolgreich durchführen können.
 
  > [!Note]
 > Mehr über Teams-Besprechungen und Konferenzen auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -56,7 +56,7 @@ Teams bietet ohne weitere Konfiguration eine hervorragende Erfahrung, und die me
 > Schauen Sie sich die folgende Sitzung an, um mehr über Besprechungen zu erfahren: [Einführung in Besprechungen in Microsoft Teams für IT-Experten](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings-and-conferencing-prerequisites"></a>Voraussetzungen für Besprechungen und Konferenzen 
+## <a name="meetings-and-conferencing-prerequisites"></a>Voraussetzungen für Besprechungen und Konferenzen
 
 Bevor Sie Ihre Besprechungsumgebung für Ihre gesamte Organisation skalieren, sollten Sie sich die Zeit nehmen, zu überprüfen und zu bestätigen, dass Ihre Umgebung dafür bereit ist, Benutzern eine bestmögliche Erfahrung zu bieten. Lesen Sie die folgenden Informationen durch, und nehmen Sie alle erforderlichen Änderungen an Ihrer Umgebung vor.
 
@@ -139,7 +139,10 @@ Je nach den Bedürfnissen und der Konfiguration Ihrer Organisation kann es sinnv
 
 ### <a name="bandwidth-planning"></a>Bandbreitenplanung 
 
-Mit der Bandbreitenplanung kann Ihre Organisationen die Bandbreite schätzen, die erforderlich ist, um Besprechungen in Weitverkehrsnetzen und Internetlinks zu unterstützen, damit bestätigt werden kann, dass das Netzwerk ordnungsgemäß bereitgestellt wurde, um einen skalierten Besprechungsdienst zu unterstützen. 
+Mit der Bandbreitenplanung kann Ihre Organisationen die Bandbreite schätzen, die erforderlich ist, um Besprechungen in Weitverkehrsnetzen und Internetlinks zu unterstützen, damit bestätigt werden kann, dass das Netzwerk ordnungsgemäß bereitgestellt wurde, um einen skalierten Besprechungsdienst zu unterstützen.
+
+> [!IMPORTANT]
+> In Teams können Benutzer keine Besprechungen oder Liveereignisse planen, wenn sie offline oder mit begrenzter Bandbreite ausgeführt werden. 
 
 | Frage | Aktion |
 |--------------|--------|
@@ -157,7 +160,7 @@ Weitere Informationen finden Sie unter [Aufzeichnung einer Teams-Cloudbesprechun
 
 | Frage | Aktion |
 |--------------|--------|
-| Soll ich den Transkriptionsdienst für Besprechungen einschalten?|Lesen Sie [Aktivieren oder Deaktivieren der Aufzeichnungstranskription](cloud-recording.md#turn-on-or-turn-off-recording-transcription).|
+| Soll ich den Transkriptionsdienst für Besprechungen einschalten?|Lesen Sie [Aktivieren oder Deaktivieren der Aufzeichnungstranskription](cloud-recording.md#turn-on-or-turn-off-cloud-recording).|
 |||
 
 

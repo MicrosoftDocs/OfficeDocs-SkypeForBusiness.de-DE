@@ -1,8 +1,8 @@
 ---
-title: Zertifikatsanforderung (Grundlagen)
+title: Zertifikatanforderung (Grundlagen)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Seite Name und Sicherheitseinstellungen enthält ein Textfeld zum Definieren eines Anzeigenamens, eine Dropdownliste für die Bit-Länge des Paars aus privatem und öffentlichem Schlüssel sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen können.
-ms.openlocfilehash: 26315f24dd14989bd2832d6f28e591a7ae38cc64
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Die Seite "Name und Sicherheitseinstellungen" enthält ein Textfeld zum Definieren eines Anzeigenamens, eine Dropdownliste für die Bitlänge des Privaten und des öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar markieren können.
+ms.openlocfilehash: 5ae91c6fbe1c84d0fee0486dec0ca2efd9717e10
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796766"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830415"
 ---
-# <a name="certificate-request-basic"></a>Zertifikatsanforderung (Grundlagen)
+# <a name="certificate-request-basic"></a>Zertifikatanforderung (Grundlagen)
  
-Die Seite **Name und Sicherheitseinstellungen** enthält ein Textfeld zum Definieren eines **Anzeigenamens**, eine Dropdownliste für die Bit- **Länge** des Paars aus privatem und öffentlichem Schlüssel sowie ein Kontrollkästchen, mit dem Sie **den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen**können.
+Die Seite "Name **und Sicherheitseinstellungen"** enthält ein Textfeld zum Definieren  eines Anzeigenamens, eine Dropdownliste für die Bitlänge des Privaten und des öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar markieren **können.**
   
 Beim Anzeigenamen (oder einfachen Namen) eines Zertifikats handelt es sich um einen benutzerfreundlichen und problemlos identifizierbaren Namen für den Benutzer, der das Zertifikat anzeigt.
   
 Für die Bitlänge des öffentlich-privaten Schlüsselpaars kann der Wert 1024, 2048 oder 4096 festgelegt werden.
   
-Wenn Sie das Kontrollkästchen für **den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen** aktivieren, können das Zertifikat und der private Schlüssel exportiert und auf einen anderen Computer oder Server verschoben werden. Dies ist nur erforderlich, wenn Sie einen Pool von Edgeserver für den Media Relay Authentication Service (MRAS) erstellen.
+Wenn Sie das Kontrollkästchen aktivieren, um den privaten Schlüssel des Zertifikats als **exportierbar** zu markieren, können das Zertifikat und der private Schlüssel exportiert und auf einen anderen Computer oder Server verschoben werden. Dies ist nur erforderlich, wenn Sie einen Pool von Edgeservern für den Media Relay-Authentifizierungsdienst (Media Relay Authentication Service, MRAS) erstellen.
   
 > [!CAUTION]
-> Um die Sicherheit des Zertifikats und des Schlüsselpaars zu gewährleisten, sollten Sie nur dann den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen auswählen, wenn dies unbedingt erforderlich ist. 
+> Um die Sicherheit des Zertifikats und des Schlüsselpaars zu gewährleisten, sollten Sie den privaten Schlüssel des Zertifikats nur dann als exportierbar markieren, wenn dies unbedingt erforderlich ist. 
   
 

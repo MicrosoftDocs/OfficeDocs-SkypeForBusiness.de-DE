@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3a4e827016622910aad0ee46318ba19c44aac0
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136055"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909149"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -77,7 +77,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **anonymousMeetingToggleMuted**: Die Anzahl, wie oft die Stummschalttaste ausgewählt wurde.
 - **anonymousMeetingToggleVideo**: Die Anzahl, wie oft die Videotaste ausgewählt wurde.
 - **appKilled**: Die Anwendung wird beendet.
-- **approveTimeOffRequest**: Wenn ein Manager von Mitarbeitern in Service und Produktion (FirstLine Worker, FLW) einen Antrag eines FLW auf arbeitsfreie Zeit genehmigt.
+- **approveTimeOffRequest**: Wenn ein Manager von Mitarbeitern in Service und Produktion (Frontline Worker, FLW) einen Antrag eines FLW auf arbeitsfreie Zeit genehmigt.
 - **assigneeChange**: Wird ausgelöst, wenn eine neue zugewiesene Person einem Aufgabenelement hinzugefügt wird.
 - **assignmentPickerClicked**: Die Schaltfläche **Zuweisen zu** ist ausgewählt und es wird eine Auswahlseite für die zugewiesene Person geöffnet.
 - **assignmentRemoved**: Wird ausgelöst, wenn eine zugewiesene Person aus einem Aufgabenelement entfernt wird, indem **x** ausgewählt wird (dies ist die einzige Möglichkeit zum Entfernen einer zugewiesenen Person).
@@ -133,7 +133,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **callControlsManualInvoke**: Anruf-Steuerelemente werden manuell aufgerufen.
 - **callHistoryItemExpand**: Anrufverlaufselement erweitert.
 - **callHistoryTab** - Registerkarte **CallHistory** ist in Anrufe ausgewählt.
-- **callInProgressShown**: Ein ***Aktiver Anruf**-Banner wird angezeigt.
+- **callInProgressShown**: Ein **_Aktiver Anruf_*-Banner wird angezeigt.
 - **callMePSTNConnected** - **Rückruf** ist erfolgreich.
 - **callOrMeetUpAddParticipants**: Ausgelöst in folgenden Fällen:
   - Schaltfläche „Teilnehmer hinzufügen“ wird auf einem 1:1-Anrufbildschirm angetippt.
@@ -182,7 +182,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Umklappen der Schaltfläche **Audio aus** im Begleiter-Join-Modus in einem Liveanruf oder einem Meetup.
   - Geräte-Audioschalter im PSTN.
 - **callOrMeetUpEnterDriveMode**: Manueller Wechsel in den Laufwerksmodus aus dem Menü **...**.
-- **callOrMeetupExitDriveMode** - Schaltfläche**Fahrmodus beenden** wird angetippt.
+- **callOrMeetupExitDriveMode** - Schaltfläche **Fahrmodus beenden** wird angetippt.
 - **callOrMeetUpHold**: Ausgelöst in folgenden Fällen:
   - Die Schaltfläche **Halten** wird während einer Live-Besprechung oder eines Anrufs angetippt.
   - „Anruf wird gehalten“ in PSTN.
@@ -379,7 +379,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Eine Schaltfläche **Bannerübertragung** oder **Banner wiederaufnehmen** ist ausgewählt.
 - **consumeVoiceMessage**: Sprachausgabe wird abgespielt.
 - **ContactCard_SeeMoreOOF**: Mehr anzeigen von einer langen Abwesenheitsnachricht.
-- **contactOrganizer**: **Kontaktorganisator**ausgewählt.
+- **contactOrganizer**: **Kontaktorganisator** ausgewählt.
 - **conversation, tabs**: Registerkarte ausgewählt.
 - **copyLink**: Kopieren Sie einen Link in einen Kanalbeitrag.
 - **contactActivity**: Wenn die Schaltfläche zum Anzeigen der Aktivität eines Benutzers auf der Visitenkarte aktiviert ist.

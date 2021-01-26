@@ -1,8 +1,8 @@
 ---
 title: Benutzermodelle in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,46 +12,46 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
-description: Die hier beschriebenen Benutzermodelle bilden die Grundlage für die Kapazitäts Planungs Maße und-Empfehlungen, die unter Kapazitätsplanung Benutzermodell Verwendung für Skype for Business Server beschrieben werden.
-ms.openlocfilehash: f1bf079fa425d98b3619eb4ccd975253784f4fbe
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die hier beschriebenen Benutzermodelle bieten die Grundlage für die Kapazitätsplanungsmessungen und Empfehlungen, die in der Kapazitätsplanung der Benutzermodellverwendung für Skype for Business Server beschrieben werden.
+ms.openlocfilehash: 65ff967c64f569d73d15de1493aa4d3667dbf7e2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816034"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827605"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Benutzermodelle in Skype for Business Server
  
-Die hier beschriebenen Benutzermodelle bilden die Grundlage für die Kapazitäts Planungs Maße und-Empfehlungen, die unter [Kapazitätsplanung Benutzermodell Verwendung für Skype for Business Server](user-model.md)beschrieben werden.
+Die hier beschriebenen Benutzermodelle bieten die Grundlage für die Kapazitätsplanungsmessungen und Empfehlungen, die in der Kapazitätsplanung der Benutzermodellverwendung [für Skype for Business Server beschrieben werden.](user-model.md)
   
-## <a name="skype-for-business-server-user-models"></a>Skype for Business Server-Benutzermodelle
+## <a name="skype-for-business-server-user-models"></a>Benutzermodelle für Skype for Business Server
 
-In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, Sofortnachrichten (im) und Anwesenheitsinformationen für Skype for Business Server beschrieben.
+In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, Chat und Anwesenheit für Skype for Business Server beschrieben.
   
 **Benutzermodell für Umgebung und Registrierung**
 
 |**Kategorie**|**Beschreibung**|
 |:-----|:-----|
 |Bereitstellungsgröße und Verteilung  <br/> |Es wird eine große Bereitstellung mit drei zentralen Standorten und einem Front-End-Pool pro Standort modelliert.  <br/> |
-|Prozentsatz der Active Directory-Benutzer  <br/> |Wir gehen davon aus, dass 70% aller Active Directory-Benutzer in der Organisation für Skype for Business Server aktiviert sind. 80% der aktivierten Benutzer sind täglich bei Skype for Business Server angemeldet (80% Parallelität). Die gleichzeitigen Benutzer sind die Grundlage für die weiteren Zahlenangaben in diesem Abschnitt.  <br/> |
-|Active Directory-Änderungen  <br/> |Wir gehen davon aus, dass pro Woche 0,5% der Gesamt Nutzer für Skype for Business in Active Directory erstellt und aktiviert werden und dass 0,5% der Gesamt Nutzer in Active Directory und von Skype for Business jede Woche deaktiviert sind. 5% der Benutzer haben mindestens ein Active Directory-Attribut, das jede Woche geändert wurde.  <br/> |
-|Active Directory-Verteilergruppen  <br/> |Wir gehen davon aus, dass die Anzahl der Active Directory-Verteilergruppen in der Organisation dreimal so hoch ist wie die Anzahl aller Benutzer in Active Directory. Die Verteilergruppen haben folgende Größen:  <br/> • 64% haben 2-30-Nutzer  <br/> • 13% haben 31-50-Nutzer  <br/> • 10% haben 51-100-Nutzer  <br/> • 13% haben 101-500-Nutzer  <br/> |
-|VoIP-Benutzer (Voice over IP)  <br/> |60% der Skype for Business Server-Benutzer sind für Unified Communications (UC) aktiviert (das heißt, ihre Telefonnummern sind Eigentum von Skype for Business Server).  <br/> |
-|Verteilung registrierter Clients  <br/> |65% der Clients führen eine Skype for Business-Software, einschließlich Skype for Business und lync Phone Edition.  <br/> 30% der Clients, die Client Software aus einer früheren lync-Version ausführen.  <br/> 5% der Kunden, die Skype for Business Web App verwenden.  <br/> Wenn die Mobilität aktiviert ist, wird davon ausgegangen, dass 40 % der Benutzer die Mobilität gleichzeitig mit anderen zuvor genannten registrierten Clientoptionen verwenden. In diesem Fall beträgt das MPOP-Verhältnis (Multiple Point Of Presence) für Clients 1:1,9. Wenn die Mobilität deaktiviert ist, beträgt das MPOP-Verhältnis 1:1,5.  <br/> |
-|Verteilung von Remotebenutzern  <br/> |70 % der Benutzer verbinden sich intern.  <br/> 30% der Benutzer, die eine Verbindung über einen Edge-Server herstellen (optional können Sie auch einen Director hier haben, aber nicht erforderlich).  <br/> |
-|Verteilung von Kontakten  <br/> |Die maximale Anzahl von Kontakten eines Benutzers beträgt 1.000. Weniger als 1 % der Benutzer verfügen über 1.000 Kontakte. Weniger als 25 % der Benutzer verfügen über 100 Kontakte oder mehr.  <br/> Benutzer, die mit einem öffentlichen Netz verbunden sind, verfügen über durchschnittlich 80 Kontakte. Für diese Benutzer gilt Folgendes:  <br/> • 50% der Kontakte sind innerhalb der Organisation. 10 % dieser Benutzer sind Remotebenutzer, die sich von außerhalb der Firewall verbinden.  <br/> • 40% der Kontakte sind Skype-Nutzer.  <br/> • 10% der Kontakte sind von Federated-Partnern.  <br/> Benutzer ohne Verbindung mit einem öffentlichen Netz verfügen über durchschnittlich 50 Kontakte. Für diese Benutzer gilt Folgendes:  <br/> • 80% der Kontakte sind innerhalb der Organisation. 10 % dieser Benutzer sind Remotebenutzer, die sich von außerhalb der Firewall verbinden.  <br/> • 20% der Kontakte sind von Federated-Partnern.  <br/> Jeder Benutzer weist 1 Verteilergruppe in seiner Kontaktliste auf. Für Leistungstest wird davon ausgegangen, dass Verteilergruppen immer erweitert werden.  <br/> |
-|Sitzungszeit  <br/> |Eine durchschnittliche Benutzeranmeldesitzung dauert 12 Stunden. Sämtliche Benutzer melden sich innerhalb von 120 Minuten nach dem Sitzungsstart an.  <br/> |
+|Prozentsatz an Active Directory-Benutzern  <br/> |Es wird davon ausgegangen, dass 70 % aller Active Directory-Benutzer in der Organisation für Skype for Business Server aktiviert sind. 80 % dieser aktivierten Benutzer sind täglich bei Skype for Business Server angemeldet (80 % Parallelität). Die gleichzeitigen Benutzer sind die Grundlage für die weiteren Zahlenangaben in diesem Abschnitt.  <br/> |
+|Active Directory-Änderungen  <br/> |Es wird davon ausgegangen, dass jede Woche 0,5 % der Gesamtzahl der Benutzer in Active Directory für Skype for Business erstellt und aktiviert werden und dass 0,5 % aller Benutzer jede Woche aus Active Directory und Skype for Business deaktiviert werden. Für 5 % der Benutzer wird jede Woche mindestens ein Active Directory-Attribut geändert.  <br/> |
+|Active Directory-Verteilergruppen  <br/> |Es wird davon ausgegangen, dass die Anzahl der Active Directory-Verteilergruppen in der Organisation dreimal die Anzahl aller Benutzer in Active Directory ist. Die Verteilergruppen haben folgende Größe:  <br/> • 64 % haben 2-30 Benutzer  <br/> • 13 % haben 31-50 Benutzer  <br/> • 10 % haben 51-100 Benutzer  <br/> • 13 % haben 101-500 Benutzer  <br/> |
+|VoIP-Benutzer (Voice over IP)  <br/> |60 % der Skype for Business Server-Benutzer sind für Unified Communications (UC) aktiviert (d. h., ihre Telefonnummern gehören Skype for Business Server).  <br/> |
+|Verteilung registrierter Clients  <br/> |65 % der Clients führen Skype for Business-Software aus, einschließlich Skype for Business und Lync Phone Edition.  <br/> 30 % der Clients mit Clientsoftware aus einer früheren Version von Lync.  <br/> 5 % der Clients verwenden Skype for Business Web App.  <br/> Wenn die Mobilität aktiviert ist, wird davon ausgegangen, dass 40 % der Benutzer die Mobilität gleichzeitig mit den anderen zuvor genannten registrierten Clientoptionen verwenden. In diesem Fall beträgt das Client-MPOP-Verhältnis (Multiple Point of Presence) 1:1,9. Wenn die Mobilität deaktiviert ist, beträgt das Verhältnis von MPOP 1:1,5.  <br/> |
+|Verteilung von Remotebenutzern  <br/> |70 % der Benutzer verbinden sich intern.  <br/> 30 % der Benutzer stellen eine Verbindung über einen Edgeserver her (optional verfügen Sie hier auch über einen Director, dies ist jedoch nicht erforderlich).  <br/> |
+|Verteilung von Kontakten  <br/> |Die maximale Anzahl von Kontakten eines Benutzers beträgt 1.000. Weniger als 1 % der Benutzer verfügen über 1.000 Kontakte. Weniger als 25 % der Benutzer verfügen über 100 Kontakte oder mehr.  <br/> Benutzer, die mit einem öffentlichen Netz verbunden sind, verfügen über durchschnittlich 80 Kontakte. Für diese Benutzer gilt Folgendes:  <br/> • 50 % der Kontakte befinden sich innerhalb der Organisation. 10 % dieser Benutzer sind Remotebenutzer, die sich von außerhalb der Firewall verbinden.  <br/> • 40 % der Kontakte sind Skype-Benutzer.  <br/> • 10 % der Kontakte kommen von Verbundpartnern.  <br/> Benutzer ohne Verbindung mit einem öffentlichen Netz verfügen über durchschnittlich 50 Kontakte. Für diese Benutzer gilt Folgendes:  <br/> • 80 % der Kontakte befinden sich innerhalb der Organisation. 10 % dieser Benutzer sind Remotebenutzer, die sich von außerhalb der Firewall verbinden.  <br/> • 20 % der Kontakte kommen von Verbundpartnern.  <br/> Jeder Benutzer weist 1 Verteilergruppe in seiner Kontaktliste auf. Für Leistungstest wird davon ausgegangen, dass Verteilergruppen immer erweitert werden.  <br/> |
+|Sitzungszeit  <br/> |Eine durchschnittliche Benutzeranmeldesitzung dauert 12 Stunden. Sämtliche Benutzer melden sich innerhalb von 120 Minuten nach dem Sitzungsstart an.  <br/> |
    
 **Benutzermodell für Chat und Anwesenheit**
 
 |**Kategorie**|**Beschreibung**|
 |:-----|:-----|
-|Peer-zu-Peer-Chatsitzungen  <br/> |Jeder Benutzer verfügt über durchschnittlich sechs Peer-zu-Peer-Chatsitzungen pro Tag.  <br/> 10 Chatnachrichten pro Sitzung.  <br/> Jede Nachricht wird durch zwei SIP-Info-Nachrichten und 2 SIP 200-OK-Nachrichten (für die\<Status\> anzeigen wie "Name wird eingegeben") abgeglichen.  <br/> |
-|Gruppenchatsitzungen  <br/> |Die durchschnittliche Anzahl der gesendeten Nachrichten in einer Gruppe, in der nur Sofortnachrichten verschickt werden können, liegt bei fünf Nachrichten pro Benutzer.  <br/> Die durchschnittliche Anzahl der im Chatteil einer AV-Konferenz versendeten Nachrichten liegt bei zwei Nachrichten pro Benutzer.  <br/> |
-|Abfrage von Anwesenheitsinformationen  <br/> |Insgesamt wird von durchschnittlich 60 Abfragen von Anwesenheitsinformationen pro Benutzer und Stunde ausgegangen. Für jeden Benutzer wird von folgenden Durchschnittswerten ausgegangen:  <br/> • Eine Umfrage pro Tag für das vorhanden sein von Benutzern auf der Registerkarte "Organisation" des Benutzers (aber nicht in der Kontaktliste). Die durchschnittliche Anzahl der nicht-Kontakte auf der Registerkarte "Organisation" des Benutzers beträgt 15 Benutzer. Zwei Anzeigevorgänge für Visitenkarten pro Tag.  <br/> • Eine Anwesenheits Abfrage, wenn der Benutzer auf einen anderen Benutzer klickt, um eine Unterhaltung zu beginnen, die pro Stunde geschätzt wird.  <br/> • Sechs Nutzer suchen pro Stunde. Jedes Mal, wenn eine Suche durchgeführt wird, wird eine Batchabfrage für alle Personen in der Suchergebnisliste gesendet. Wir gehen davon aus, dass die durchschnittliche Größe der Suchergebnisse 20 beträgt. Wenn die Suchergebnisse auf dem Bildschirm verbleiben, wird die Batchabfrage alle 5 Minuten aktualisiert. Wir gehen davon aus, dass es zwei solcher Aktualisierungen pro Stunde geben wird.  <br/> • Wenn der Benutzer eine e-Mail in Outlook öffnet oder in der Vorschau zeigt, wird eine Umfrage des Vorhandenseins von Benutzern in den Feldern "an:" und "cc:" der e-Mail mit einer Schätzung von fünf e-Mails pro Stunde und vier Benutzern pro e-Mail angezeigt.  <br/> |
-|Anwesenheitsabonnements  <br/> |Wenn ein Benutzer einen anderen Benutzer als Kontakt hinzufügt,  abonniert  der erste Benutzer fünf Kategorien von Informationen zum zweiten Benutzer. Aktualisierungen dieser Informationskategorien werden automatisch an den ersten Benutzer gesendet. <br/> Für jeden Client wird eine einzige Stapelabonnementanforderung gesendet, um den Anwesenheitsstatus von durchschnittlich 40 Kontakten abzurufen, mit zusätzlich 40 Dialogen zum Abrufen von Anwesenheitsinformationen für Partnerkontakte.  <br/> Die Anwesenheitsinformationen für Mitglieder einer erweiterten Verteilergruppe werden über beständige Anwesenheitsabonnements ermittelt, nicht über Abrufe, und werden als 1 Erweiterung pro Benutzer für jeweils 2 Stunden modelliert.  <br/> Kurze Abonnements treten auf, wenn sich ein Benutzer anmeldet, es gibt ein Stapelverarbeitungs Abonnement für alle Kontakte des Benutzers, und dann meldet sich der Benutzer bald ab. Es wird von 6 kurzen Abonnements pro Benutzer und Stunde ausgegangen, wobei jedes Abonnement 10 Minuten dauert. <br/> |
-|Veröffentlichung der Anwesenheit  <br/> |Der Anwesenheitsstatus wird durchschnittlich viermal pro Benutzer und Stunde veröffentlicht, mit einer maximalen Anzahl von 6 Veröffentlichungen pro Benutzer und Stunde.  <br/> |
-|Größe des Anwesenheitsdokuments  <br/> |Bei einem vollständigen Anwesenheitsdokument wird von einer durchschnittlichen Größe von 4 KB ausgegangen, mit einer maximalen Größe von 25 KB.  <br/> |
+|Peer-zu-Peer-Chatsitzungen  <br/> |Jeder Benutzer verfügt über durchschnittlich sechs Peer-zu-Peer-Chatsitzungen pro Tag.  <br/> 10 Chatnachrichten pro Sitzung.  <br/> Jede Nachricht wird durch zwei SIP -INFO-Nachrichten und 2 SIP 200 -OK-Nachrichten (für die Statusindikatoren wie " \<Name\> is Typing") übereinstimmen.  <br/> |
+|Gruppen-IM-Sitzungen  <br/> |Die durchschnittliche Anzahl von Nachrichten, die in einer Nur-Im-Mail-Sitzung einer Gruppe gesendet werden, beträgt 5 pro Benutzer.  <br/> Die durchschnittliche Anzahl von Nachrichten, die im Abschnitt mit Denknachrichten einer A/A-Konferenz gesendet werden, beträgt 2 pro Benutzer.  <br/> |
+|Abfrage von Anwesenheitsinformationen  <br/> |Insgesamt wird von durchschnittlich 60 Abfragen von Anwesenheitsinformationen pro Benutzer und Stunde ausgegangen. Für jeden Benutzer wird von folgenden Durchschnittswerten ausgegangen:  <br/> • Eine Abfrage pro Tag, wenn Benutzer auf der Registerkarte "Organisation" des Benutzers vorhanden sind (jedoch nicht auf der Kontaktliste). Die durchschnittliche Anzahl von Nichtkontakten auf der Registerkarte "Organisation" des Benutzers beträgt 15 Benutzer. Zwei Anzeigevorgänge für Visitenkarten pro Tag.  <br/> • Ein Anwesenheits poll jedes Mal, wenn der Benutzer auf einen anderen Benutzer klickt, um eine Unterhaltung zu starten, geschätzt auf einmal pro Stunde.  <br/> • Sechs Benutzersuchen pro Stunde. Jedes Mal, wenn eine Suche ausgeführt wird, wird eine Batchumfrage für alle In der Suchergebnisliste gesendet. Es wird davon ausgegangen, dass die durchschnittliche Größe der Suchergebnisse 20 beträgt. Wenn die Suchergebnisse auf dem Bildschirm bleiben, wird die Batchumfrage alle 5 Minuten aktualisiert. es wird davon ausgegangen, dass es zwei solche Aktualisierungen pro Stunde gibt.  <br/> • Wenn der Benutzer eine E-Mail in Outlook öffnet oder in der Vorschau öffnet, wird das Vorhandensein von Benutzern in den Feldern "An:" und "CC:" der E-Mail angezeigt, geschätzt auf fünf E-Mails pro Stunde und vier Benutzer pro E-Mail.  <br/> |
+|Anwesenheitsabonnements  <br/> |Wenn ein Benutzer einen anderen Benutzer als Kontakt hinzufügt, abonniert der erste Benutzer fünf Kategorien von Informationen zum zweiten Benutzer. Aktualisierungen dieser Informationskategorien werden automatisch an den ersten Benutzer gesendet. <br/> Für jeden Client wird eine einzige Stapelabonnementanforderung gesendet, um den Anwesenheitsstatus von durchschnittlich 40 Kontakten abzurufen, mit zusätzlich 40 Dialogen zum Abrufen von Anwesenheitsinformationen für Partnerkontakte.  <br/> Die Anwesenheitsinformationen für Mitglieder einer erweiterten Verteilergruppe werden über beständige Anwesenheitsabonnements ermittelt, nicht über Abrufe, und werden als 1 Erweiterung pro Benutzer für jeweils 2 Stunden modelliert.  <br/> Kurze Abonnements werden ausgeführt, wenn sich ein Benutzer anmeldet, es ein Batchabonnement für alle Kontakte des Benutzers gibt und der Benutzer sich bald abmeldet. Es wird von 6 kurzen Abonnements pro Benutzer und Stunde ausgegangen, wobei jedes Abonnement 10 Minuten dauert. <br/> |
+|Veröffentlichung der Anwesenheit  <br/> |Der Anwesenheitsstatus wird durchschnittlich viermal pro Benutzer und Stunde veröffentlicht, mit einer maximalen Anzahl von 6 Veröffentlichungen pro Benutzer und Stunde.  <br/> |
+|Größe des Anwesenheitsdokuments  <br/> |Bei einem vollständigen Anwesenheitsdokument wird von einer durchschnittlichen Größe von 4 KB ausgegangen, mit einer maximalen Größe von 25 KB.  <br/> |
    
 In der folgenden Tabelle wird das Benutzermodell für die Adressbuchverwendung beschrieben.
   
@@ -68,25 +68,25 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 
 |**Kategorie**|**Beschreibung**|
 |:-----|:-----|
-|Geplante Besprechungen im Vergleich zu Sofortbesprechungen  <br/> |60 % geplant, 40 % ungeplant.  <br/> Bei den geplanten Besprechungen wird von 80 % zugewiesenen Konferenzen ausgegangen, wobei es sich um Instanzen von wiederkehrenden Konferenzen handelt. 10 % sind einmalige offene Besprechungen, 8 % sind einmalige anonyme Besprechungen und 2 % sind einmalige geschlossene Besprechungen.  <br/> |
-|Verteilung von Konferenzclients  <br/> |Für geplante Besprechungen:  <br/> • 65% der Konferenz Nutzer nutzen Skype for Business 2016.  <br/> • 5% der Konferenz Nutzer nutzen Skype for Business Web App.  <br/> • 30% der Konferenzbenutzer verwenden frühere Clients, einschließlich lync 2013 und Microsoft lync 2010.  <br/> Für ungeplante Besprechungen:  <br/> • 70% der Konferenz Nutzer nutzen Skype for Business.  <br/> • 30% der Konferenzbenutzer verwenden frühere Clients, einschließlich lync 2013 und Microsoft lync 2010.  <br/> |
+|Geplante Besprechungen im Vergleich zu Sofortbesprechungen  <br/> |60 % geplant, 40 % ungeplant.  <br/> Bei den geplanten Besprechungen wird davon ausgegangen, dass 80 % Konferenzen zugewiesen sind, bei denen es sich um Besprechungsserien handelt. 10 % sind einmal geöffnete Besprechungen; 8 % sind einmal anonyme Besprechungen, und 2 % sind einmal geschlossene Besprechungen.  <br/> |
+|Verteilung von Konferenzclients  <br/> |Für geplante Besprechungen:  <br/> • 65 % der Konferenzbenutzer verwenden Skype for Business 2016.  <br/> • 5 % der Konferenzbenutzer verwenden Skype for Business Web App.  <br/> • 30 % der Konferenzbenutzer verwenden frühere Clients, einschließlich Lync 2013 und Microsoft Lync 2010.  <br/> Für ungeplante Besprechungen:  <br/> • 70 % der Konferenzbenutzer verwenden Skype for Business.  <br/> • 30 % der Konferenzbenutzer verwenden frühere Clients, einschließlich Lync 2013 und Microsoft Lync 2010.  <br/> |
 |Gleichzeitigkeit von Besprechungen  <br/> |5 % der Benutzer befinden sich während der Arbeitszeiten in Konferenzen. Bei einem Pool mit 80.000 Benutzern können sich daher bis zu 4.000 Benutzer gleichzeitig in Konferenzen befinden.  <br/> |
-|Verteilung der Audiofunktion in Besprechungen  <br/> |40 % Kombination aus VoIP-Audio- und Einwahlkonferenzen, mit einem Verhältnis von 3:1 von VoIP-Benutzern zu Einwahlbenutzern.  <br/> 35 % nur VoIP-Audio.  <br/> 15 % nur Audio bei Einwahlkonferenzen.  <br/> 10 % ohne Audio (reine Chatkonferenzen mit durchschnittlich fünf gesendeten Nachrichten pro Benutzer).  <br/> |
-|Medienmix für Konferenzen  <br/> |Bei 75 % der Konferenzen handelt es sich um Webkonferenzen mit Audio sowie einigen anderen Methoden für die Zusammenarbeit.  <br/> Für diesen Konferenzen werden die folgenden weiteren Methoden für die Zusammenarbeit genutzt:  <br/> **Hinweis:** Diese Zahlen betragen mehr als 100%, da eine Konferenz mehrere Methoden für die Zusammenarbeit aufweisen kann. <br/> • 50% Add Application Sharing. Es wird davon ausgegangen, dass ein Benutzer Daten mit maximal 1,1 MB pro Sekunde sendet.  <br/> • 50% fügen Chatnachrichten (mit durchschnittlich 2 Nachrichten pro Benutzer) hinzu.  <br/> • 20% fügen Datenzusammenarbeit, einschließlich PowerPoint oder Whiteboard, in diese ein, durchschnittlich 2 PowerPoint-Dateien, die pro Konferenz präsentiert werden, mit einer durchschnittlichen PowerPoint-Dateigröße von 10 MB (ohne eingebettetes Video) oder 30 MB (mit eingebettetem Video). Durchschnitt von 20 Anmerkungen pro Whiteboard.  <br/> • 20% Video hinzufügen. 70 % dieser Benutzer nehmen an Konferenzen teil, für die Mehrfachansicht-Video aktiviert ist, wobei jeder Benutzer 2 bis 3 Videostreams empfängt.  <br/> • 15% fügen Sie freigegebene Notizen hinzu.  <br/> |
+|Verteilung der Audiofunktion in Besprechungen  <br/> |40 % Kombination aus VoIP-Audio- und Einwahlkonferenzen, mit einem Verhältnis von 3:1 von VoIP-Benutzern zu Einwahlbenutzern.  <br/> 35 % nur VoIP-Audio.  <br/> 15 % nur Audio bei Einwahlkonferenzen.  <br/> 10 % ohne Audio (reine Chatkonferenzen mit durchschnittlich fünf gesendeten Nachrichten pro Benutzer).  <br/> |
+|Medienmix für Konferenzen  <br/> |Bei 75 % der Konferenzen handelt es sich um Webkonferenzen mit Audio sowie einigen anderen Methoden für die Zusammenarbeit.  <br/> Für diesen Konferenzen werden die folgenden weiteren Methoden für die Zusammenarbeit genutzt:  <br/> **Hinweis:** Diese Zahlen werden auf mehr als 100 % erhöht, da eine Konferenz mehrere Methoden für die Zusammenarbeit haben kann. <br/> • 50 % add application sharing. Es wird davon ausgegangen, dass ein Benutzer Daten mit maximal 1,1 MB pro Sekunde sendet.  <br/> • 50 % fügen Chat hinzu (mit durchschnittlich 2 Nachrichten pro Benutzer).  <br/> • 20 % add data collaboration, including PowerPoint or whiteboard In these, an average of 2 PowerPoint files presented per conference, with an average PowerPoint file size of 10 MB (without embedded video) or 30 MB (with embedded video). Durchschnittlich 20 Anmerkungen pro Whiteboard.  <br/> • 20 % video hinzufügen. 70 % dieser Benutzer nehmen an Konferenzen teil, für die Mehrfachansicht-Video aktiviert ist, wobei jeder Benutzer 2 bis 3 Videostreams empfängt.  <br/> • 15 % fügen freigegebene Notizen hinzu.  <br/> |
 |Verteilung der Konferenzteilnehmer  <br/> |50 % interne, authentifizierte Benutzer.  <br/> 25 % authentifizierte Benutzer mit Remotezugriff.  <br/> 15 % anonyme Benutzer.  <br/> 10 % Partnerbenutzer.  <br/> |
-|Verteilung für den Besprechungsbeitritt  <br/> |Für die Benutzer wird simuliert, dass sie der Besprechung innerhalb der ersten 5 Minuten beitreten.  <br/> |
+|Verteilung für den Besprechungsbeitritt  <br/> |Für die Benutzer wird simuliert, dass sie der Besprechung innerhalb der ersten 5 Minuten beitreten.  <br/> |
    
-In normalen Front-End-Pools verfügt Skype for Business Server über eine maximal unterstützte Besprechungsgröße von 250-Benutzern. Jeder Pool kann zu einem bestimmten Zeitpunkt eine Besprechung mit 250 Benutzern hosten. Während eine Besprechung dieser Größe stattfindet, kann der Pool zusätzlich weitere kleinere Konferenzen hosten. Darüber hinaus können Sie Besprechungen mit bis zu 1.000 Benutzern unterstützen, indem Sie einen Pool speziell zum Hosten dieser Besprechungen einrichten. Ausführliche Informationen finden Sie unter [Planen großer Besprechungen in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
+In regulären Front-End-Pools hat Skype for Business Server eine maximal unterstützte Besprechungsgröße von 250 Benutzern. Jeder Pool kann zu einem bestimmten Zeitpunkt eine Besprechung mit 250 Benutzern hosten. Während eine Besprechung dieser Größe stattfindet, kann der Pool zusätzlich weitere kleinere Konferenzen hosten. Darüber hinaus können Sie Besprechungen mit bis zu 1000 Benutzern unterstützen, indem Sie einen Pool speziell zum Hosten dieser Besprechungen einrichten. Weitere Informationen finden Sie unter ["Planen großer Besprechungen in Skype for Business Server".](../../plan-your-deployment/conferencing/large-meetings.md)
   
 Konferenzen wurden wie folgt simuliert:
   
-- 85 % der Konferenzen wiesen vier Teilnehmer auf.
+- 85 % der Konferenzen wiesen vier Teilnehmer auf.
     
-- 10 % der Konferenzen wiesen sechs Teilnehmer auf.
+- 10 % der Konferenzen wiesen sechs Teilnehmer auf.
     
-- 5 % der Konferenzen wiesen elf Teilnehmer auf.
+- 5 % der Konferenzen wiesen elf Teilnehmer auf.
     
-- Eine große Konferenz mit 250 Benutzern.
+- Eine große Konferenz mit 250 Benutzern.
     
 Die folgende Tabelle enthält ausführliche Informationen zum Benutzermodell für Konferenzen mit Einwahlbenutzern.
   
@@ -94,7 +94,7 @@ Die folgende Tabelle enthält ausführliche Informationen zum Benutzermodell fü
 
 |**Kategorie**|**Beschreibung**|
 |:-----|:-----|
-|Authentifiziert/anonym  <br/> |70 % der Anrufer treten anonym bei und werden zur Aufzeichnung ihres Namens aufgefordert. 30 % nehmen als authentifizierte Benutzer teil.  <br/> |
+|Authentifiziert/anonym  <br/> |70 % der Anrufer treten anonym bei und werden zur Aufzeichnung ihres Namens aufgefordert.  <br/> |
 |Anrufdauer und Wartemusik  <br/> |Durchschnittliche Anrufdauer ohne Wartemusik: 50 Sekunden.  <br/> Für 50 % der Einwahlbenutzer wird Wartemusik wiedergegeben (durchschnittlich 5 Minuten).  <br/> |
 |DTMF (Dual-Tone Multifrequency, Mehrfrequenzverfahren)  <br/> |15 % der Konferenzen, auf die ausschließlich per Einwahl zugegriffen wird, werden per Telefon geleitet. 10 % der gemischten Konferenzen, an denen Einwahlbenutzer teilnehmen, werden ebenfalls per Telefon geleitet.  <br/> 20 % der Konferenzleiter (per Telefon) nutzen 2 DTMF-Befehle pro Konferenz.  <br/> |
 |Sprache von Ansagen  <br/> |Bei Simulationen wird Englisch als Ansagensprache verwendet.  <br/> |
@@ -115,7 +115,7 @@ In der folgenden Tabelle ist das Benutzermodell für andere Peer-zu-Peer-Sitzung
 |**Kategorie**|**Beschreibung**|
 |:-----|:-----|
 |Anwendungsfreigabe  <br/> |Jeder Benutzer nimmt an fünf Peer-zu-Peer-Anwendungsfreigabesitzungen pro Monat teil (durchschnittlich 0,25 Sitzungen pro Tag).  <br/> |
-|Dateiübertragung  <br/> |Jeder Benutzer nimmt (im Rahmen einer Chatsitzung) an einer Peer-zu-Peer-Dateiübertragungssitzung pro Monat teil (durchschnittlich 0,05 Sitzungen pro Tag). Die durchschnittliche Größe der in einer Sitzung übertragenen Dateien beträgt 1 MB.  <br/> |
+|Dateiübertragung  <br/> |Jeder Benutzer nimmt (im Rahmen einer Chatsitzung) an einer Peer-zu-Peer-Dateiübertragungssitzung pro Monat teil (durchschnittlich 0,05 Sitzungen pro Tag). Die durchschnittliche Größe der in einer Sitzung übertragenen Dateien beträgt 1 MB.  <br/> |
    
 In der folgenden Tabelle wird das Benutzermodell für Richtlinien beschrieben.
   
@@ -124,7 +124,7 @@ In der folgenden Tabelle wird das Benutzermodell für Richtlinien beschrieben.
 |**Kategorie**|**Beschreibung**|
 |:-----|:-----|
 |Konferenz-, Anwesenheits- und Archivierungsrichtlinien  <br/> |Es wird von einer globalen Richtlinie, zehn Konferenzrichtlinien, vier Archivierungsrichtlinien und zehn Anwesenheitsrichtlinien ausgegangen.  <br/> |
-|VoIP-Richtlinie  <br/> |Es wird von einer globalen Richtlinie und zwei Richtlinien pro Standort ausgegangen. 100 % der Standorte verfügen über eine Standortrichtlinie, und 30 % der Benutzer ist eine benutzerbasierte Richtlinie zugewiesen. Pro Standort wird von einem Wählplan und zwei Routen ausgegangen.  <br/> |
+|VoIP-Richtlinie  <br/> |Es wird von einer globalen Richtlinie und zwei Richtlinien pro Standort ausgegangen. 100 % der Standorte verfügen über eine Standortrichtlinie, und 30 % der Benutzer ist eine benutzerbasierte Richtlinie zugewiesen. Pro Standort wird von einem Wählplan und zwei Routen ausgegangen.  <br/> |
    
 ## <a name="busy-hour"></a>Spitzenzeiten
 
@@ -136,30 +136,30 @@ Zur Simulation von Spitzenzeiten wurden in Leistungstests VoIP- und andere Peer-
   
 Für die Spitzenauslastung bei Konferenzen wird davon ausgegangen, dass 75 % aller Konferenzen an einem achtstündigen Arbeitstag innerhalb von vier Stunden zu Spitzenzeiten stattfinden. Für diese Spitzenzeiten wird das 1,5-Fache der durchschnittlichen Konferenzauslastung verzeichnet.
   
-## <a name="enterprise-voice-to-pstn-calls"></a>Enterprise-VoIP für PSTN-Anrufe
+## <a name="enterprise-voice-to-pstn-calls"></a>Enterprise-VoIP zu PSTN-Anrufen
 
-Die folgenden Annahmen gelten für Enterprise-VoIP-Anrufe:
+Die folgenden Annahmen gelten für Enterprise-VoIP Aufrufe:
   
-- 60% der Benutzer sind für Enterprise-VoIP aktiviert, und 60% dieser Benutzer sind für PSTN-Anrufe aktiviert.
+- 60 % der Benutzer sind für Enterprise-VoIP aktiviert, und 60 % dieser Benutzer sind für FESTNETZ-Anrufe aktiviert.
     
-- Jeder dieser Benutzer, für den PSTN-Anrufe aktiviert sind, tätigt 4 PSTN-Anrufe in Spitzenzeiten. Jeder Anruf dauert 3 Minuten.
+- Jeder dieser Benutzer, für den PSTN-Anrufe aktiviert sind, tätigt 4 PSTN-Anrufe in Spitzenzeiten. Jeder Anruf dauert 3 Minuten.
     
-- 65 % dieser PST-VoIP-Anrufe verwenden die Medienumgehung.
+- 65 % dieser PST-VoIP-Anrufe verwenden die Medienumgehung.
     
 ## <a name="mobility"></a>Mobilität
 
-Es wird davon ausgegangen, dass für 40 % der registrierten Benutzer die Mobilität aktiviert ist. Für jeden Benutzer mit aktivierter Mobilität wird davon ausgegangen, dass sich die Aktivität des mobilen Clients zur Aktivität der anderen MPOP-Instanzen für diesen Benutzer summiert. Mit Ausnahme von Konferenzinteraktionen, für die der Mobilitätsclient einfach ein weiterer Clienttyp ist, der für die Teilnahme an Konferenzen verwendet werden kann.
+Es wird davon ausgegangen, dass für 40 % der registrierten Benutzer die Mobilität aktiviert ist. Für jeden Benutzer mit aktivierter Mobilität wird davon ausgegangen, dass sich die Aktivität des mobilen Clients zur Aktivität der anderen MPOP-Instanzen für diesen Benutzer summiert. Mit Ausnahme von Konferenzinteraktionen, für die der Mobilitätsclient einfach ein weiterer Clienttyp ist, der für die Teilnahme an Konferenzen verwendet werden kann.
   
 ## <a name="persistent-chat"></a>Beständiger Chat
 
-Es wird davon ausgegangen, dass 25 % der registrierten Benutzer an Sitzungen für beständigen Chat beteiligt sind, wobei Folgendes gilt:
+Es wird davon ausgegangen, dass 25 % der registrierten Benutzer an Sitzungen für beständigen Chat beteiligt sind, wobei Folgendes gilt:
   
-- Durchschnittlich 1,5 Chatrooms pro Benutzer
+- Durchschnittlich 1,5 Chatrooms pro Benutzer
     
-- Jeder Chatroom führt zu 12 Abrufanforderungen pro Stunde, mit einem Zielwert von durchschnittlich je 10 Benutzern
+- Jeder Chatroom führt zu 12 Abrufanforderungen pro Stunde, mit einem Zielwert von durchschnittlich je 10 Benutzern
     
 ## <a name="response-group-and-call-park"></a>Reaktionsgruppe und Parken von Anrufen
 
-Es wird davon ausgegangen, dass 0,15 % der registrierten Benutzer Reaktionsgruppen angehören. Außerdem wird davon ausgegangen, dass 0,02 % der registrierten Benutzer zu einem bestimmten Zeitpunkt Anrufe parken.
+Es wird davon ausgegangen, dass 0,15 % der registrierten Benutzer Reaktionsgruppen angehören. Außerdem wird davon ausgegangen, dass 0,02 % der registrierten Benutzer zu einem bestimmten Zeitpunkt Anrufe parken.
   
 

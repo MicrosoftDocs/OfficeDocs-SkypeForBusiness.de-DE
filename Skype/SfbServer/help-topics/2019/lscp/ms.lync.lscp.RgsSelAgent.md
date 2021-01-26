@@ -1,8 +1,8 @@
 ---
 title: Auswählen von Agents
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,38 +14,38 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Agents sind Benutzer, die für Antwortgruppen Anrufe vorgesehen sind. Reaktionsgruppen müssen über eine zugewiesene Agentgruppe verfügen, in der die Agents angegeben sind, die Anrufe für die Reaktionsgruppe entgegennehmen können. Eine Möglichkeit zur Erstellung einer Agentgruppe ist die Definition einer benutzerdefinierten Gruppe, indem geeignete Benutzer ausgewählt werden. Berechtigte Benutzer sind für Skype for Business Server und Enterprise-VoIP aktiviert.
-ms.openlocfilehash: 0efc0c0afeff33472075c68cf4300bb5ecf51c66
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Agents sind Benutzer, die für die Beantwortung von Reaktionsgruppeanrufen bestimmt sind. Reaktionsgruppen müssen über eine zugewiesene Agentgruppe verfügen, in der die Agents angegeben sind, die Anrufe für die Reaktionsgruppe entgegennehmen können. Eine Möglichkeit zur Erstellung einer Agentgruppe ist die Definition einer benutzerdefinierten Gruppe, indem geeignete Benutzer ausgewählt werden. Berechtigte Benutzer sind für Skype for Business Server und Enterprise-VoIP.
+ms.openlocfilehash: b2eb4baa8f969c6395f51da8153c3c34f7c3684b
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793473"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824665"
 ---
 # <a name="select-agents"></a>Auswählen von Agents
 
-Agents sind Benutzer, die für Antwortgruppen Anrufe vorgesehen sind. Reaktionsgruppen müssen über eine zugewiesene Agentgruppe verfügen, in der die Agents angegeben sind, die Anrufe für die Reaktionsgruppe entgegennehmen können. Eine Möglichkeit zur Erstellung einer Agentgruppe ist die Definition einer benutzerdefinierten Gruppe, indem geeignete Benutzer ausgewählt werden. Berechtigte Benutzer sind für Skype for Business Server und Enterprise-VoIP aktiviert.
+Agents sind Benutzer, die für die Beantwortung von Reaktionsgruppeanrufen bestimmt sind. Reaktionsgruppen müssen über eine zugewiesene Agentgruppe verfügen, in der die Agents angegeben sind, die Anrufe für die Reaktionsgruppe entgegennehmen können. Eine Möglichkeit zur Erstellung einer Agentgruppe ist die Definition einer benutzerdefinierten Gruppe, indem geeignete Benutzer ausgewählt werden. Berechtigte Benutzer sind für Skype for Business Server und Enterprise-VoIP.
 
-Verwenden Sie das Dialogfeld **Agents auswählen**, um Benutzer auszuwählen, die einer Agentgruppe hinzugefügt werden.
+Sie verwenden das Dialogfeld **Agents auswählen**, um Benutzer auszuwählen, die einer Agentgruppe hinzugefügt werden.
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
-In der folgenden Liste werden die Steuerelemente des Dialogfelds **Agents auswählen** beschrieben.
+In der folgenden Liste sind die Steuerelemente des Dialogfelds **Agents auswählen** beschrieben.
 
-- **Finden Sie** Sucht nach der SIP-Adresse oder dem Anzeigenamen für einen Benutzer. Geben Sie die Adresse oder den Namen teilweise oder vollständig ein. Lassen Sie das Suchfeld leer, damit alle Benutzer angezeigt werden, die für Skype for Business Server und Enterprise-VoIP aktiviert sind.
+- **Suchen** Sucht nach der SIP-Adresse oder dem Anzeigenamen für einen Benutzer. Geben Sie die Adresse oder den Namen teilweise oder vollständig ein. Lassen Sie das Suchfeld leer, um alle Benutzer, die für Skype for Business Server und skype for business server aktiviert sind, Enterprise-VoIP.
 
-- **Maximal anzuzeigende Benutzer** Ändert die Anzahl der zurückgegebenen Ergebnisse, die angezeigt werden. Verwenden Sie diesen Wert, um die Suche zu begrenzen, falls eine hohe Zahl von Ergebnissen zu erwarten ist.
+- **Maximal zu anzeigede Benutzer** Ändert die Anzahl der zurückgegebenen Ergebnisse, die angezeigt werden. Verwenden Sie diesen Wert, um die Suche zu begrenzen, falls eine hohe Zahl von Ergebnissen zu erwarten ist.
 
-In der folgenden Liste werden die Felder des Dialogfelds **Agents auswählen** beschrieben.
+In der folgenden Liste sind die Felder des Dialogfelds **Agents auswählen** beschrieben.
 
 - **Agent** Zeigt die von der Suche zurückgegebenen Benutzernamen an.
 
-- **SIP-Adresse** Zeigt die von der Suche zurückgegebenen SIP-Adressen des Benutzers an.
+- **SIP-Adresse** Zeigt die von der Suche zurückgegebenen Benutzer-SIP-Adressen an.
 
-- **Telefonie** Zeigt den Wert des für benutzerdefinierten **Telefonie** -Felds an.
+- **Telefonie** Zeigt den Wert des **für** Benutzer definierten Telefoniefelds an.
 
-- **Aktiviert** Zeigt den Wert des Felds **Enabled für lync Server** an, das für Benutzerdefiniert ist.
+- **Aktiviert** Zeigt den Wert des Für **Lync Server aktivierten Felds** an, das für Benutzer definiert ist.
 
-Ausführliche Informationen zur Verwendung von Agentgruppen finden Sie in der Betriebsdokumentation unter [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx).
+Ausführliche Informationen zur Verwendung von Agentgruppen finden Sie unter [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
 
 

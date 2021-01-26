@@ -1,8 +1,8 @@
 ---
 title: Mobilitätsrichtlinie für Clients
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
-description: Auf der ClientsMobility-Richtlinienseite werden die mobilitätsrichtlinien angezeigt, die in Ihrer Bereitstellung zur Verfügung stehen.
-ms.openlocfilehash: 44a61af0da2026a96bdd422b3595869d5ad27966
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Auf der Seite Mobilitätsrichtlinie von Clients werden die unter der Bereitstellung verfügbaren Mobilitätsrichtlinien angezeigt.
+ms.openlocfilehash: 41dbe29e29d97f1b50ff818494ebca00a5870502
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823048"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807475"
 ---
 # <a name="clients-mobility-policy"></a>Clients: Mobilitätsrichtlinie
 
-Auf der Seite " **mobilitätsrichtlinien** für **Clients** " werden die mobilitätsrichtlinien angezeigt, die in Ihrer Bereitstellung verfügbar sind.
+Auf der Seite **"Mobilitätsrichtlinie** für Clients" werden die in Ihrer Bereitstellung verfügbaren Mobilitätsrichtlinien angezeigt. 
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der **mobilitätsrichtlinien** Seite können Sie die folgenden Aufgaben ausführen:
+Auf der Seite **Mobilitätsrichtlinie** können Sie die folgenden Aufgaben ausführen:
 
-- Anzeigen vorhandener mobilitätsrichtlinien
+- Anzeigen vorhandener Mobilitätsrichtlinien
 
 - Erstellen einer neuen Mobilitätsrichtlinie
 
@@ -43,16 +43,16 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 - **Suchfeld** Geben Sie eine Zeichenfolge in das Textfeld ein, um die angezeigten Richtlinien zu filtern.
 
-- **Neu** Klicken Sie auf **neu**, und wählen Sie dann entweder **Website** oder **Benutzer** aus, um eine neue Mobilitätsrichtlinie zu erstellen.
+- **Neu** Klicken **Sie auf**"Neu", und wählen Sie dann **"Standort"** oder **"Benutzer"** aus, um eine neue Mobilitätsrichtlinie zu erstellen.
 
-- **Bearbeiten** von Wählen Sie eine Richtlinie aus, und klicken Sie dann auf **Bearbeiten** , um die Eigenschaften der ausgewählten Richtlinie zu bearbeiten.
+- **Bearbeiten** Wählen Sie eine Richtlinie  aus, und klicken Sie dann auf "Bearbeiten", um die Eigenschaften der ausgewählten Richtlinie zu bearbeiten.
 
-- **Aktualisieren** Aktualisiert die Liste der angezeigten Richtlinien. Wenn Sie auf **Aktualisieren**klicken, wird die Suchfilterzeichenfolge gelöscht, und alle vorhandenen Richtlinien werden angezeigt.
+- **Aktualisieren** Aktualisiert die Liste der angezeigten Richtlinien. Wenn Sie auf **Aktualisieren** klicken, wird die Suchfilter-Zeichenfolge gelöscht, und es werden alle vorhandenen Richtlinien angezeigt.
 
-Weitere Informationen zum Konfigurieren von mobilitätsrichtlinien finden Sie unter [Konfigurieren von mobilitätsrichtlinien](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
+Ausführliche Informationen zur Konfiguration von Mobilitätsrichtlinien finden Sie unter [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Planen der Mobilität](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[Planung der Mobilität](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
 [Bereitstellen von Mobilität](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)

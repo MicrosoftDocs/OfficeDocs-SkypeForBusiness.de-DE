@@ -1,8 +1,8 @@
 ---
-title: Edge-Server-Szenarien in Skype for Business Server
+title: Edgeserverszenarien in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -15,84 +15,84 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 'Zusammenfassung: Überprüfen Sie diese Szenarien, damit Sie Ihre Edge-Server-Topologie in Skype for Business Server planen können.'
-ms.openlocfilehash: a1d721ffabb78985d90848784cd587bda96300d5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Überprüfen Sie diese Szenarien, um Ihre Edgeservertopologie in Skype for Business Server zu planen.'
+ms.openlocfilehash: cfcc1e8b34576fbec85464fb8d5e35903b47d8ef
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803355"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813791"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edge-Server-Szenarien in Skype for Business Server
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edgeserverszenarien in Skype for Business Server
  
-**Zusammenfassung:** Überprüfen Sie diese Szenarien, damit Sie Ihre Edge-Server-Topologie in Skype for Business Server planen können.
+**Zusammenfassung:** Überprüfen Sie diese Szenarien, um Ihre Edgeservertopologie in Skype for Business Server zu planen.
   
-Wir haben einige Szenarien-Diagramme, die Ihnen bei der Visualisierung und der Entscheidung helfen, welche Skype for Business Server-Edgeserver-Topologie Sie implementieren möchten. Sobald Sie einen geeigneten Kandidaten ausgewählt haben, können Sie sich über die Umgebungsanforderungen informieren, die Sie erfüllen müssen. Da das Folgende auf alle Szenarien zutrifft, erwähnen wir es zuerst.
+Wir haben einige Szenariendiagramme, die Sie bei der Visualisierung und Entscheidung für die Skype for Business Server Edge Server-Topologie unterstützen, die Sie implementieren möchten. Nachdem Sie einen guten Kandidaten ausgewählt haben, können Sie die Anforderungen an die Umgebung lesen, die Sie erfüllen müssen. Das Folgende gilt für jedes der Szenarien, daher erwähnen wir es zuerst.
   
-Diese Abbildungen, die nur zu Beispielzwecken verwendet werden (und als solche Beispiel-IPv4- und Beispiel-IPv6-Daten enthalten), stellen nicht den tatsächlichen Kommunikationsfluss dar, sondern eher eine allgemeine Darstellung Ihres möglichen Datenverkehrs. Portdetails können auch in den untenstehenden Portdiagrammen für jedes Szenario gefunden werden.
+Diese Abbildungen, die nur zu Beispielzwecken dargestellt werden (und als solche IPv4- und IPv6-Beispieldaten enthalten), stellen nicht den tatsächlichen Kommunikationsfluss dar, sondern eine hochrangige Ansicht des möglichen Datenverkehrs. Portdetails sind auch in den Portdiagrammen für jedes szenario unten zu sehen.
   
-In den Diagrammen wird .com für die externe Schnittstelle und .net für die interne angezeigt, welche auch Beispielmaterial ist; natürlich können Ihre eigenen Einträge vollkommen anders sein, wenn Sie Ihren eigenen endgültigen Edgeplan zusammenstellen.
+Die Diagramme zeigen .com für die externe Schnittstelle und .net für die interne, die auch Beispielmaterial ist; Ihre eigenen Einträge können natürlich ganz anders sein, wenn Sie Ihren eigenen endgültigen Edgeplan zusammenbringen.
   
-Der Director (eine optionale Komponente) ist in keinem der Diagramme enthalten, aber Sie können darüber separat lesen (er wird in anderen Planungsthemen erwähnt).
+Der Director (bei dem es sich um eine optionale Komponente handelt) wird in keines der Diagramme verwendet, sie können dies jedoch separat lesen (er wird in anderen Planungsthemen erwähnt).
   
-Wie bereits erwähnt, sind Beispiel-IPv6-Daten im Diagramm enthalten. Die meisten Dokumentationen in [Plan für Edge-Server-Bereitstellungen in Skype for Business Server](edge-server-deployments.md) beziehen sich auf IPv4, aber Sie werden sicherlich unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie IPv6-Adressen in Ihrem zugewiesenen Adressraum benötigen und dass diese wie mit IPv4-IPs mit interner und externer Adressierung funktionieren müssen. Dank Windows können Sie die Dualstapelfunktion verwenden, die ein separater und unabhängiger Netzwerkstapel für IPv4 und IPv6 ist. Dadurch können Sie bei Bedarf gleichzeitig IPv4- und IPv6-Adressen zuweisen.
+Wie oben erwähnt, sind in den Diagrammen Beispiel-IPv6-Daten enthalten. Der Großteil der Dokumentation in "Planen von Edgeserverbereitstellungen [in Skype for Business Server"](edge-server-deployments.md) bezieht sich auf IPv4, sie werden jedoch mit Sicherheit unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie in Ihrem zugewiesenen Adressraum IPv6-Adressen benötigen und wie bei IPv4-IPs mit interner und externer Adressierung arbeiten müssen. Dank Windows können Sie das Dualstapelfeature verwenden, bei dem es sich um einen separaten und unterschiedlichen Netzwerkstapel für IPv4 und IPv6 handelt. Auf diese Weise können Sie bei Bedarf IPv4- und IPv6-Adressen gleichzeitig zuweisen.
   
-Es gibt NAT-Geräte, die NAT64 (IPv6 to IPv4) und NAT66 (IPv6 to IPv6)) ermöglichen, und dies gilt für die Verwendung mit Skype for Business Server.
+Es gibt NAT-Geräte, die NAT64 (IPv6 zu IPv4) und NAT66 (IPv6 zu IPv6)) zulassen, und dies gilt für die Verwendung mit Skype for Business Server.
   
 > [!IMPORTANT]
-> Wenn Sie Anrufsteuerung (CAC) verwenden, müssen Sie IPv4 auf der internen Schnittstelle verwenden, damit diese funktionieren kann. 
+> Wenn Sie die Anrufsteuerung verwenden, müssen Sie IPv4 auf der internen Schnittstelle verwenden, damit es funktioniert. 
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Einzelner konsolidierter Skype for Business-Server-Edgeserver mit privaten IP-Adressen und NAT
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Einzelner konsolidierter Skype for Business Server-Edgeserver mit privaten IP-Adressen und NAT
 
-Bei diesem Szenario gibt es keine Option für hohe Verfügbarkeit. Das bedeutet, dass Sie weniger für Hardware ausgeben und die Bereitstellung einfacher ist. Wenn hohe Verfügbarkeit für Sie ein Muss ist, informieren Sie sich unten über die skalierten konsolidierten Szenarien.
+In diesem Szenario gibt es keine Option für hohe Verfügbarkeit. Dies bedeutet, dass Sie weniger für Hardware ausgeben und eine einfachere Bereitstellung haben. Wenn hohe Verfügbarkeit ein Muss ist, sehen Sie sich die folgenden skalierten konsolidierten Szenarien an.
   
-![Edge-Szenario für einzelnen konsolidierten Edge mit privater IP-Adresse mithilfe von NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![Edgeszenario für einen einzelnen konsolidierten Edge edge with Private IP using NAT](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
 Wir haben auch ein Diagramm für Ports für einzelne konsolidierte Edgeserver.
   
-![Netzwerk Perimeter für Edge-Szenario, einzelner konsolidierter Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Netzwerkperimeter für Edgeszenario mit einem einzelnen konsolidierten Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Einzelner konsolidierter Skype for Business-Server-Edgeserver mit öffentlichen IP-Adressen
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Einzelner konsolidierter Skype for Business Server-Edgeserver mit öffentlichen IP-Adressen
 
-Bei diesem Szenario gibt es keine Option für hohe Verfügbarkeit. Das bedeutet, dass Sie weniger für Hardware ausgeben und die Bereitstellung einfacher ist. Wenn hohe Verfügbarkeit für Sie ein Muss ist, informieren Sie sich unten über die skalierten konsolidierten Szenarien.
+In diesem Szenario gibt es keine Option für hohe Verfügbarkeit. Dies bedeutet, dass Sie weniger für Hardware ausgeben und eine einfachere Bereitstellung haben. Wenn hohe Verfügbarkeit ein Muss ist, sehen Sie sich die folgenden skalierten konsolidierten Szenarien an.
   
-![Edge-Szenario für einzelnen konsolidierten Edge mit öffentlicher IP-Adresse](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![Edgeszenario für einen einzelnen konsolidierten Edge edge mit öffentlicher IP](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
 Wir haben auch ein Diagramm für Ports für einzelne konsolidierte Edgeserver.
   
-![Netzwerk Perimeter für Edge-Szenario, einzelner konsolidierter Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Netzwerkperimeter für Edgeszenario mit einem einzelnen konsolidierten Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Skalierter konsolidierter Skype for Business Server-Edge-Pool mit DNS-Lastenausgleich und privaten IP-Adressen und NAT
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Skalierter konsolidierter Skype for Business Server-Edgepool mit DNS-Lastenausgleich, privaten IP-Adressen und NAT
 
-Mit diesem Szenario können Sie über hohe Verfügbarkeit in Ihrer Edgebereitstellung verfügen, wodurch Sie die Vorteile von Skalierbarkeit und Failoverunterstützung genießen können.
+In diesem Szenario können Sie eine hohe Verfügbarkeit in Ihrer Edgebereitstellung haben, wodurch Sie die Vorteile der Skalierbarkeit und der Failoverunterstützung nutzen können.
   
-![Edge-Szenario für skalierten konsolidierten Edge, DNS lb mit privater IP-Adresse mithilfe von NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![Edgeszenario für skalierten konsolidierten Edge, DNS-LB mit privater IP unter Verwendung von NAT](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
-Wir verfügen auch über ein Diagramm für skalierte konsolidierte Edge-Pools mit DNS-Lastenausgleich.
+Es gibt auch ein Diagramm für skalierte konsolidierte Edgepools mit DNS-Lastenausgleich.
   
-![Netzwerk Perimeter für Edge-Szenario, skalierte konsolidierte Kante mithilfe von DNS lb](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Netzwerkperimeter für Edgeszenario skalierter konsolidierter Edge mit DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Skalierter konsolidierter Skype for Business Server-Edge-Pool mit DNS-Lastenausgleich und öffentlichen IP-Adressen
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Skalierter konsolidierter Skype for Business Server-Edgepool mit DNS-Lastenausgleich und öffentlichen IP-Adressen
 
-Mit diesem Szenario können Sie über hohe Verfügbarkeit in Ihrer Edgebereitstellung verfügen, wodurch Sie die Vorteile von Skalierbarkeit und Failoverunterstützung genießen können.
+In diesem Szenario können Sie eine hohe Verfügbarkeit in Ihrer Edgebereitstellung haben, wodurch Sie die Vorteile der Skalierbarkeit und der Failoverunterstützung nutzen können.
   
-![Edge-Szenario für skalierten konsolidierten Edge, DNS lb mit öffentlicher IP-Adresse](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![Edgeszenario für skalierten konsolidierten Edge, DNS-LB mit öffentlicher IP](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>Portdiagramm
 
-Wir verfügen auch über ein Diagramm für skalierte konsolidierte Edge-Pools mit DNS-Lastenausgleich.
+Es gibt auch ein Diagramm für skalierte konsolidierte Edgepools mit DNS-Lastenausgleich.
   
-![Netzwerk Perimeter für Edge-Szenario, skalierte konsolidierte Kante mithilfe von DNS lb](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Netzwerkperimeter für Edgeszenario skalierter konsolidierter Edge mit DNS LB](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Skalierter konsolidierter Skype for Business Server-Edge-Pool mit Hardwarelastenausgleich
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Skalierter konsolidierter Skype for Business Server-Edgepool mit Hardwarelastenausgleich
 
-Mit diesem Szenario können Sie über hohe Verfügbarkeit in Ihrer Edgebereitstellung verfügen, wodurch Sie die Vorteile von Skalierbarkeit und Failoverunterstützung genießen können.
+In diesem Szenario können Sie eine hohe Verfügbarkeit in Ihrer Edgebereitstellung haben, wodurch Sie die Vorteile der Skalierbarkeit und der Failoverunterstützung nutzen können.
   
-![Edge-Szenario für skalierten konsolidierten Edge mit HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![Edgeszenario für skalierten konsolidierten Edge mit HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

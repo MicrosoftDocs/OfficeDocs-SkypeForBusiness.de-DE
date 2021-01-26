@@ -1,7 +1,7 @@
 ---
-title: Hinzufügen, ändern und Entfernen von Notfall Standorten
-author: lanachin
-ms.author: v-lanac
+title: Hinzufügen, Ändern und Entfernen von Notfallstandorten
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,70 +16,70 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Hier erfahren Sie, wie Sie im Microsoft Teams Admin Center einen Notfall Standort für Ihre Organisation hinzufügen, ändern oder entfernen. '
+description: 'Erfahren Sie, wie Sie einen Notfallstandort für Ihre Organisation im Microsoft Teams Admin Center hinzufügen, ändern oder entfernen. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 762246630d245acf92c16aff8df2c9392a307b07
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: a470a75d367bc47d4063a2a99171a4a09e052fca
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788569"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49799945"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
-Ein Notfall Standort muss einer Telefonnummer zugeordnet sein, aber wenn dies der Fall ist, kann dies zwischen Ländern und Regionen variieren. In den Vereinigten Staaten müssen Sie beispielsweise einen Notfall Standort zuordnen, wenn Sie dem Benutzer die Telefonnummer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer einen Notfall Standort zuordnen, wenn Sie die Telefonnummern von Microsoft 365 oder Office 365 erhalten oder Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen.
+Einem Notfallstandort muss eine Telefonnummer zugeordnet sein, aber wann dies geschieht, kann je nach Land und Region variieren. In den USA müssen Sie beispielsweise einen Notfallstandort zuordnen, wenn Sie dem Benutzer die Telefonnummer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer einen Notfallstandort zuordnen, wenn Sie die Telefonnummern von Microsoft 365 oder Office 365 erhalten oder Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen.
 
-Unabhängig davon, in welchem Land oder in welcher Region Sie sich befinden, können Sie einen Ort oder eine Stelle zu einem Notfall Standort hinzufügen und einen Notfall Standort entfernen. Je nach Anzahl der physikalischen Standorte in Ihrer Organisation können Sie Orte für Gebäude, Etagen und Büros erstellen. Siehe [Notfall Anruf verwalten](what-are-emergency-locations-addresses-and-call-routing.md).
+Unabhängig davon, in welchem Land bzw. in welcher Region Sie sich befinden, können Sie einen oder mehrere Orte zu einem Notfallstandort hinzufügen und einen Notfallstandort entfernen. Je nach Anzahl physischer Standorte in Ihrer Organisation können Sie Orte für Gebäude, Stockwerke und Büros erstellen. Weitere Informationen [finden Sie unter "Verwalten von Notrufen".](what-are-emergency-locations-addresses-and-call-routing.md)
   
-Informationen dazu, wie Sie einen Anrufplan erhalten und wie viel er kostet, finden Sie unter [Lizenzierung von Teams-Add-ons](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Informationen zum Erhalten eines Anrufplans und deren Kosten finden Sie unter [Teams-Add-On-Lizenzierung.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
-Sie können Notfall Speicherorte für Ihre Organisation im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten.
+Sie verwalten Notfallstandorte für Ihre Organisation im Microsoft Teams Admin Center oder mithilfe von PowerShell.
   
-## <a name="add-an-emergency-location"></a>Hinzufügen eines Notfall Standorts
+## <a name="add-an-emergency-location"></a>Hinzufügen eines Notfallstandorts
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Locations**  >  **Notfalladressen**für Standorte.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf Notfalladressen  >  **für Standorte.**
 2. Klicken Sie auf **Hinzufügen**.
-3. Geben Sie einen Namen und eine Beschreibung für den Ort ein.
+3. Geben Sie einen Namen und eine Beschreibung für den Speicherort ein.
 4. Wählen Sie das Land oder die Region aus, und geben Sie dann die Adresse ein.
 
    > [!NOTE]
-   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu verstehen, dass für eine erfolgreiche Aktivierung einer Telefonnummer in Microsoft 365 oder Office 365 die Adresse des Notfall Standorts, die zum Abrufen der Nummer verwendet wird, mit der Ortsvorwahl der Telefonnummer übereinstimmen muss.
+   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu wissen, dass die adresse, die für den Erwerb der Nummer verwendet wird, der Vorwahl der Telefonnummer entsprechen muss, um eine Telefonnummer in Microsoft 365 oder Office 365 erfolgreich zu aktivieren.
 
-5. Wenn die Adresse nicht gefunden wird und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie **die Option Adresse manuell bearbeiten**.
+5. Wenn die Adresse nicht gefunden wurde und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie **"Adresse manuell bearbeiten".**
 6. Klicken Sie auf **Speichern**.
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Weitere Informationen finden Sie unter [New-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress).
+Weitere Informationen finden Sie unter ["New-CsOnlineLisCi selbstAddress".](https://docs.microsoft.com/powershell/module/skype/new-csonlineliscivicaddress)
     
 ## <a name="change-an-emergency-location"></a>Ändern eines Notfallstandorts
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Locations**  >  **Notfalladressen**für Standorte.
-2. Wählen Sie in der Liste den Speicherort aus, den Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**.
-3. Nehmen Sie die gewünschten Änderungen vor.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf Notfalladressen  >  **für Standorte.**
+2. Wählen Sie in der Liste den Speicherort aus, den Sie ändern möchten, und klicken Sie dann auf **"Bearbeiten".**
+3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor.
 4. Klicken Sie auf **Speichern**.
 
 > [!NOTE]
-> Sie können die Adressinformationen für einen Speicherort nur ändern, wenn die Adresse nicht überprüft wurde. Wenn die Adresse bereits überprüft wurde und Sie die Adresse ändern müssen, löschen Sie den Speicherort, und erstellen Sie dann einen neuen Speicherort mit der richtigen Adresse.
+> Sie können die Adressinformationen für einen Ort nur ändern, wenn die Adresse nicht überprüft wurde. Wenn die Adresse bereits überprüft wurde und Sie die Adresse ändern müssen, löschen Sie den Ort, und erstellen Sie dann einen neuen Speicherort mit der richtigen Adresse.
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Weitere Informationen finden Sie unter [Satz-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress).
+Siehe ["Set-CsOnlineLisCi selbstAddress".](https://docs.microsoft.com/powershell/module/skype/set-csonlineliscivicaddress)
     
-## <a name="remove-an-emergency-location"></a>Entfernen eines Notfall Standorts
+## <a name="remove-an-emergency-location"></a>Entfernen eines Notfallstandorts
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Locations**  >  **Notfalladressen**für Standorte.
-2. Wählen Sie in der Liste den Speicherort aus, den Sie entfernen möchten, und klicken Sie dann auf **Löschen**.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf Notfalladressen  >  **für Standorte.**
+2. Wählen Sie in der Liste den Speicherort aus, den Sie entfernen möchten, und klicken Sie dann auf **"Löschen".**
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Siehe [Remove-CsOnlineLisCivicAddress](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress).
+Siehe ["Remove-CsOnlineLisCi selbstAddress".](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliscivicaddress)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

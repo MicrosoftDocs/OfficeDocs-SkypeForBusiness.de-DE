@@ -1,5 +1,5 @@
 ---
-title: Planen einer Cloud-Anrufwarteschlange
+title: Planen einer Cloudanrufwarteschleife
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -11,49 +11,45 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019.
-ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Übersicht über die Verwendung einer automatischen Cloud-Telefon attendant mit Skype for Business Server 2019.
+ms.openlocfilehash: 629c28e752b7316a3d2e7fda0acf7f457788d6a8
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221305"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918741"
 ---
 # <a name="plan-cloud-call-queues"></a>Planen von Cloud-Anrufwarteschlangen
 
-Cloud-Anrufwarteschlange ist ein Dienst, der Kundenanrufe akzeptiert, eine grußmeldung abgibt und diese Anrufe dann in einer Warteschlange platziert, während eine vorkonfigurierte Liste mit Agents durchsucht wird, um diese Anrufe zu beantworten. Sie können die Gruppe von Agents in e-Mail-aktivierten Verteilerlisten oder Sicherheitsgruppen definieren. Ihre Organisation kann eine oder mehrere Anrufwarteschlangen haben. Anrufwarteschlangen werden in der Regel in Kombination mit automatischen Telefonzentralen verwendet.
+Bei der Cloudanrufwarteschleife handelt es sich um einen Dienst, der Kundenanrufe akzeptiert, eine Begrüßungsnachricht abspielt und diese Anrufe dann in einer Warteschleife platziert, während eine vorkonfigurierte Liste von Agents zur Beantwortung dieser Anrufe durchsucht wird. Sie können die Gruppe von Agents in E-Mail-aktivierten Verteilerlisten oder Sicherheitsgruppen definieren. Ihre Organisation kann über eine oder mehrere Anrufwarteschleifen verfügen. Anrufwarteschleifen werden in der Regel in Kombination mit automatischen Telefon attendants verwendet.
 
-Darüber hinaus können Cloud-Anrufwarteschlangen Folgendes bieten:
+Darüber hinaus können Cloudanrufwarteschleifen:
 
-- Musik, während Anrufer auf die Warteschleife warten
-- Angepasste Einstellungen für maximale Größe, Timeout und Anruf Behandlungsoptionen für die Anrufwarteschlange
+- Musik, während Anrufer in der Warteschleife warten
+- Angepasste Einstellungen für maximale Größe, Timeout und Anrufbehandlungsoptionen für Anrufwarteschlangen
 
-Jeder Anrufwarteschlange wird ein **Ressourcenkonto** (siehe [Configure Resource Accounts](configure-onprem-ra.md)) auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer Anrufwarteschlange im Microsoft Teams Admin Center verknüpft wird. Weitere Informationen dazu, welche Anrufwarteschlangen und welche Optionen und Funktionen für Anrufwarteschlangen vorhanden sind, finden Sie unter [Erstellen einer Warteschlange für Cloud-Anrufe](/MicrosoftTeams/create-a-phone-system-call-queue) .
+Jeder Anrufwarteschleife wird ein Ressourcenkonto **(siehe** "Ressourcenkonten [konfigurieren")](configure-onprem-ra.md)auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer Anrufwarteschleife im Microsoft Teams Admin Center verknüpft wird. Weitere [Informationen dazu,](/MicrosoftTeams/create-a-phone-system-call-queue) was Anrufwarteschleifen sind und welche Optionen und Funktionen für Anrufwarteschleifen vorhanden sind, finden Sie unter "Erstellen einer Cloud-Anrufwarteschleife".
 
 > [!NOTE]
-> Sie können einer Anrufwarteschlange mehrere Telefonnummern zuweisen, Sie müssen jedoch Microsoft-Dienstnummern, direkte Routing Nummern oder Hybrid Nummern sein.
+> Sie können einer Anrufwarteschleife mehrere Telefonnummern zuweisen, dabei muss es sich jedoch um Microsoft-Servicenummern, Direktroutingnummern oder Hybridnummern befinden.
 
 ## <a name="requirements"></a>Anforderungen
 
-Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for Business Server 2019 in einer unterstützten Topologie bereitgestellt haben.  Ihre Anforderungen hängen von Ihrem Szenario ab:
+Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie Skype for Business Server 2019 bereits in einer unterstützten Topologie bereitgestellt haben.  Ihre Anforderungen hängen von Ihrem Szenario ab:
 
-- Für eine neue Konfiguration von Cloud-Anrufwarteschlangen führen Sie die unter [Configure Resource Accounts](configure-onprem-ra.md)beschriebenen Schritte aus. Sie müssen Ressourcenkonten entweder online oder in Skype for Business Server 2019 erstellen, und Sie müssen möglicherweise auch eine Telefonnummer der Anrufwarteschlange zuordnen.
+- Führen Sie für eine neue Konfiguration von Cloudanrufwarteschleifen die unter ["Konfigurieren von Ressourcenkonten" beschriebenen Schritte aus.](configure-onprem-ra.md) Sie müssen Ressourcenkonten entweder online oder in Skype for Business Server 2019 erstellen und der Anrufwarteschleife möglicherweise auch eine Telefonnummer zuordnen.
 
-Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anforderungen so konfiguriert werden, dass eine Verbindung mit dem Microsoft Cloud-Anrufwarteschlangen-Dienst hergestellt wird:
+Zusätzlich zu den oben genannten Anforderungen müssen die folgenden Anforderungen so konfiguriert werden, dass eine Verbindung mit dem Microsoft Cloud-Anrufwarteschleifendienst hergestellt wird:
 
-- Hybrid Konnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und Cloud-Anrufwarteschlangen für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass Sie eine hybride Konnektivität zwischen Ihren lokalen und Online-Umgebungen eingerichtet haben. Dies wird manchmal als geteilte Domänenkonfiguration bezeichnet.
+- Hybridkonnektivität. Wenn Sie Skype for Business Server bereits bereitgestellt haben und Cloudanrufwarteschlangen für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und der Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
 
-   Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md).
+   Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](plan-hybrid-connectivity.md) and [Configure hybrid connectivity between Skype for Business Server and Microsoft 365 or Office 365](configure-hybrid-connectivity.md).
 
-- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die virtuelle Benutzerlizenz für das ﻿kostenlose Telefon System verwenden. Dadurch werden Telefon System Funktionen für Telefonnummern auf Organisationsebene bereitgestellt, und Sie können eine automatische Telefonzentrale und Funktionen für die Anrufwarteschlange erstellen.
+- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die kostenlose virtuelle Benutzerlizenz des Telefonsystems verwenden. Dadurch werden Telefonsystemfunktionen für Telefonnummern auf Organisationsebene zur Verfügung gestellt, und Sie können Funktionen für automatische Telefonanrufe und Anrufwarteschleifen erstellen.
 
-- Erstellen Sie für jede Anrufwarteschlange ein lokales [Ressourcenkonto](configure-onprem-ra.md) , und weisen Sie bei Bedarf eine Lizenz und eine Telefonnummer zu.  
+- Erstellen Sie für [jede](configure-onprem-ra.md) Anrufwarteschleife ein lokales Ressourcenkonto, und weisen Sie bei Bedarf eine Lizenz und telefonnummer zu.  
 
-## <a name="additional-planning-resources"></a>Zusätzliche Planungsressourcen
-
-Das Lernprogramm mit dem Titel [Small Business Beispiel: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) durchläuft den Prozess der Erfassung von Informationen zu Benutzeranforderungen, der Planung einer Struktur von automatischen Telefonzentralen und Benutzern (und möglicherweise auch von Anrufwarteschlangen), dem Schreiben der Menüansagen und dem Implementieren des Plans im Online Admin Center. Lesen Sie das Lernprogramm, und verwenden Sie die Übungen dort t erstellen Sie Ihren Plan.
-
-Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entspricht, und ein Skript, das Kunden effizient leitet, fahren Sie mit [Konfigurieren von Ressourcenkonten](configure-onprem-ra.md)fort.
+Wenn Sie eine solide Struktur haben, die Ihren Anforderungen entspricht, und ein Skript, das Kunden effizient leitet, fahren Sie mit dem Konfigurieren [von Ressourcenkonten fort.](configure-onprem-ra.md)
 
 ## <a name="see-also"></a>Siehe auch
 
@@ -65,8 +61,8 @@ Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entsprich
 
 [Einrichten einer automatischen Cloudtelefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[Planen der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md)
+[Planen der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md)
 
-[Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md)
+[Konfigurieren der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md)
 
 [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts)

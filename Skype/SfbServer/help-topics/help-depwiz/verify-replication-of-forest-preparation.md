@@ -1,8 +1,8 @@
 ---
 title: Überprüfen der Replikation der Gesamtstrukturvorbereitung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,27 +14,27 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-description: 'Gehen Sie wie folgt vor, um zu bestätigen, dass die Replikation des globalen Katalogs und das Erstellen von Objekten während der Gesamtstrukturvorbereitung erfolgreich war:'
-ms.openlocfilehash: 5f02707b8a98ec9869aa2b2b4d867bb45351371b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Führen Sie die folgenden Aktionen aus, um die Replikation des globalen Katalogs und der bei der Vorbereitung der Gesamtstruktur erstellten Objekte zu überprüfen:'
+ms.openlocfilehash: 010cf3fbadf8e07b4ccb80c33c34057024dde896
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823279"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800555"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Überprüfen der Replikation der Gesamtstrukturvorbereitung
  
-Gehen Sie wie folgt vor, um zu bestätigen, dass die Replikation des globalen Katalogs und das Erstellen von Objekten während der Gesamtstrukturvorbereitung erfolgreich war:
+Führen Sie die folgenden Aktionen aus, um die Replikation des globalen Katalogs und der bei der Vorbereitung der Gesamtstruktur erstellten Objekte zu überprüfen:
   
-1. Öffnen Sie **Active Directory-Benutzer und -Computer** auf einem Domänencontroller (vorzugsweise an einem Remotestandort gegenüber den anderen Domänencontrollern) in der Gesamtstruktur, in der die Gesamtstrukturvorbereitung durchgeführt wurde.
+1. Öffnen Sie auf einem Domänencontroller (vorzugsweise an einem Remotestandort gegenüber den anderen Domänencontrollern) in der Gesamtstruktur, in der die Gesamtstrukturvorbereitung durchgeführt wurde, **Active Directory-Benutzer und -Computer**.
     
 2. Erweitern Sie in **Active Directory-Benutzer und -Computer** den Domänennamen Ihrer Gesamtstruktur oder einer untergeordneten Domäne.
     
-3. Klicken Sie im linken Bereich auf den Container **Benutzer** , und suchen Sie im rechten Bereich nach der universellen Gruppe CsAdministrator. Wenn CsAdministrator (unter acht anderen neuen universellen Gruppen, die mit CS beginnen) vorhanden ist, wurde die Replikation der Gesamtstrukturvorbereitung erfolgreich ausgeführt.
+3. Klicken Sie **im** linken Bereich auf den Container "Users", und suchen Sie im rechten Bereich nach der universellen Gruppe "CsAdministrator". Wenn "CsAdministrator" (neben acht weiteren neuen universellen Gruppen, die mit "Cs" beginnen) vorhanden ist, war die Replikation der Gesamtstrukturvorbereitung erfolgreich.
     
-4. Wenn die Gruppe (n) noch nicht vorhanden ist, können Sie die Replikation erzwingen oder 15 Minuten warten und den rechten Seitenbereich aktualisieren. Die Replikation ist abgeschlossen, wenn die Gruppen vorhanden sind.
+4. Wenn die Gruppe nicht vorhanden ist, können Sie die Replikation erzwingen oder 15 Minuten warten und den rechten Fensterbereich aktualisieren. Die Replikation ist abgeschlossen, wenn die Gruppen vorhanden sind.
     
 > [!TIP]
-> Wenn Sie die Protokolldateien überprüfen möchten, die vom Bereitstellungs-Assistenten für Skype for Business Server erstellt wurden, können Sie diese auf dem Computer finden, auf dem der Bereitstellungs-Assistent ausgeführt wurde, und zwar im Verzeichnis Benutzer des Active Directory-Domänendienste-Benutzers, der den Schritt ausgeführt hat. Wenn sich der Benutzer beispielsweise als Domänenadministrator im Domänen contoso.net angemeldet hat, befinden sich die Protokolldateien in: C:\users\administrator.Contoso\AppData\Local\Temp 
+> Wenn Sie die vom Skype for Business Server-Bereitstellungs-Assistenten erstellten Protokolldateien überprüfen möchten, finden Sie diese auf dem Computer, auf dem der Bereitstellungsassistent ausgeführt wurde, im Verzeichnis "Users" des Active Directory Domain Services-Benutzers, der den Schritt ausgeführt hat. Wenn sich der Benutzer beispielsweise als Domänenadministrator in der Domäne Contoso.net angemeldet hat, befinden sich die Protokolldateien unter: C:\Users\Administrator.Contoso\AppData\Local\Temp 
   
 

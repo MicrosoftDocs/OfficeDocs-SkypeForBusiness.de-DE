@@ -1,8 +1,8 @@
 ---
-title: Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
+title: Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -13,70 +13,70 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
-description: Nachdem Sie die Installation des Skype for Business Server-Planungstools abgeschlossen haben, sind Sie bereit, das Planungstool zu starten und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur zu beginnen.
-ms.openlocfilehash: 8c19551d2273b992b5148646e28d726f5aea5900
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Nachdem Sie das Skype for Business Server Planning Tool installiert haben, können Sie das Planungstool starten und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur beginnen.
+ms.openlocfilehash: 7de930de8d7e194f14145c1a976fbe6b96cf234a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816494"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834965"
 ---
-# <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
+# <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
 
-Nachdem Sie die Installation des Skype for Business Server-Planungstools abgeschlossen haben, sind Sie bereit, das Planungstool zu starten und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur zu beginnen.
+Nachdem Sie das Skype for Business Server Planning Tool installiert haben, können Sie mit dem Planungstool beginnen und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur beginnen.
 
 > [!NOTE]
->  Das Planungstool ist ein Assistenten gesteuertes Tool mit detaillierten Leitfäden, mit deren Hilfe Sie Ihre Entscheidungsfindung beim Entwerfen Ihrer Websites und Topologie unterrichten können. Dieses Thema ist nicht als umfassender Leitfaden zu verstehen, sondern dient lediglich dazu, Ihnen bei der Verwendung des Planungstools in ihren Entwurfs Sitzungen zu helfen.
+>  Das Planungstool ist ein assistentengesteuertes Tool mit detaillierten Anleitungen, mit dem Sie Ihre Entscheidungsfindung beim Entwerfen Ihrer Websites und Topologien unterstützen können. Dieses Thema ist nicht als vollständige Anleitung gedacht, sondern soll Ihnen lediglich dabei helfen, das Planungstool in Ihren Entwurfssitzungen zu verwenden.
 
-### <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>So beginnen Sie mit der Verwendung des Planungstools und Erstellen des anfänglichen Entwurfs
+### <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Erste Schritte mit dem Planungstool und Erstellen des anfänglichen Entwurfs
 
-1. Starten Sie das Planungstool für Skype for Business Server 2015: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Skype for Business Server 2015**, und klicken Sie dann auf **Planungstool**.
+1. Starten Sie das Skype for Business Server 2015-Planungstool: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business Server 2015"** und dann auf **"Planungstool".**
 
-2. Nach dem Start des Planungstools wird die Seite **Willkommen beim Planning Tool für Skype for Business Server 2015** angezeigt. Wählen Sie eine der folgenden Optionen, um zu beginnen:
+2. Nachdem das Planungstool gestartet wurde, wird die Seite "Willkommen beim **Planungstool für Skype for Business Server 2015"** angezeigt. Wählen Sie eine der folgenden Optionen aus, um mit dem Entwurf zu beginnen:
 
-   - **Option 1: Erste Schritte** Durch Klicken auf " **Erste Schritte" erhalten Sie** eine bestimmte Reihe von Interview Fragen mit relevanten Auswahlmöglichkeiten, um die Kriterien zu definieren. Fahren Sie nach Beantwortung der anfänglichen Fragen in **Erste Schritte** mit dem Abschnitt **Standorte entwerfen** fort, um die Architektur Ihres Standorts zu definieren. Fahren Sie mit Schritt 3 fort, um diese Option abzuschließen.
+   - **Option 1: Erste Schritte** Wenn Sie **auf "Erste Schritte"** klicken, erhalten Sie eine reihe von Fragen mit relevanten Auswahlen, um die Kriterien zu definieren. Nachdem Sie den ersten Abschnitt **"Erste** Schritte" abgeschlossen haben, fahren Sie mit **"Websites** entwerfen" fort, um Ihre Websitearchitektur zu definieren. Fahren Sie mit Schritt 3 fort, um diese Option zu vervollständigen.
 
-   - **Option 2: Entwerfen von Websites** Wenn Sie auf der Willkommensseite auf " **Websites entwerfen** " klicken, werden die im Abschnitt " **Erste Schritte** " vorgestellten Fragen im Interview umgangen. Die Informationen, die anhand der Fragen im Abschnitt **Erste Schritte** erfasst worden wären, werden bei Auswahl dieser Option auf Standardwerte gesetzt. Durch Klicken auf **Standorte entwerfen** können erfahrene Nutzer, die für den Entwurf verantwortlich sind, die anfänglichen Fragen umgehen und die Standardwerte nach Bedarf auf der Startseite für den Abschnitt **Zentrale Standorte** ändern. Überspringen Sie die Schritte 3–5, und beginnen Sie mit Schritt 6, um diese Option abzuschließen.
+   - **Option 2: Entwerfen von Websites** Wenn Sie **auf der Willkommensseite** auf "Websites entwerfen" klicken, werden die Fragen im Abschnitt **"Erste** Schritte" umgeht. Die Informationen, die durch Antworten auf die Fragen  im Abschnitt "Erste Schritte" gesammelt worden wären, werden mit dieser Option auf Standardwerte festgelegt. Durch Klicken auf **"Websites entwerfen"** kann der erfahrene Designer das erste Gespräch umgehen und die Standardwerte bei Bedarf auf der Startseite der zentralen **Standorte** ändern. Um diese Option zu vervollständigen, überspringen Sie die Schritte 3 bis 5, und beginnen Sie mit Schritt 6.
 
-   - **Option 3: Anzeigen der gespeicherten Topologie** Wenn Sie bereits eine Topologie durch die vorherige Verwendung des Planungstools abgeschlossen und gespeichert haben, können Sie die meisten dieser Schritte überspringen und beginnen, indem Sie die Topologie öffnen und anzeigen. Sie können die Topologie ändern, aktualisieren, erneut speichern und anschließend nach Microsoft Excel oder Microsoft Visio exportieren. Überspringen Sie die Schritte 3–12 und beginnen Sie mit Schritt 13, um diese Option abzuschließen.
+   - **Option 3: Anzeigen der gespeicherten Topologie** Wenn Sie eine Topologie bereits durch vorherige Verwendung des Planungstools abgeschlossen und gespeichert haben, können Sie die meisten dieser Schritte überspringen und mit dem Öffnen und Anzeigen der Topologie beginnen. Sie können auch Änderungen und Aktualisierungen an der Topologie vornehmen, sie erneut speichern und dann nach Microsoft Excel oder Microsoft Visio exportieren. Um diese Option zu vervollständigen, überspringen Sie die Schritte 3 bis 12, und beginnen Sie mit Schritt 13.
 
-3. Klicken Sie auf **Erste Schritte** , um mit dem Entwerfen Ihrer Skype for Business Server 2015-Topologie zu beginnen.
+3. Klicken **Sie auf "Erste Schritte",** um mit dem Entwerfen Ihrer Skype for Business Server 2015-Topologie zu beginnen.
 
-4. Beantworten Sie die Fragen in jedem Abschnitt, indem Sie die geeigneten Kriterien für Ihren Entwurf auswählen, und klicken Sie anschließend auf **Weiter**, um mit der nächsten Seite des Assistenten fortzufahren. Klicken Sie auf **Zurück**, um Änderungen auf vorherigen Seiten vorzunehmen.
+4. Beantworten Sie jeden Abschnitt, indem Sie die entsprechenden  Kriterien für Ihren Entwurf auswählen, und klicken Sie dann auf "Weiter", um mit der nächsten Assistentenseite fortzufahren. Klicken **Sie auf "Zurück",** um Änderungen auf vorherigen Seiten vorzunehmen.
 
     > [!TIP]
-    > Jede Seite bietet eine Beschreibung der Auswahlkriterien sowie Empfehlungen basierend auf bevorzugten Vorgehensweisen und der Kapazitätsplanung. Wenn Sie weitere Informationen benötigen **, klicken Sie auf Weitere Informationen** , um detaillierte Informationen aus der Skype for Business Server 2015-Planungsdokumentation auf der Microsoft-Website zu lesen. Sie müssen über eine Internet Verbindung verfügen, um auf die Microsoft-Website zugreifen zu können.
+    > Jede Seite enthält eine Beschreibung der Auswahlkriterien und Empfehlungen basierend auf bevorzugten Methoden und der Kapazitätsplanung. Wenn Sie zusätzliche Details  benötigen, klicken Sie auf "Weitere Informationen", um detaillierte Informationen aus der Planungsdokumentation für Skype for Business Server 2015 auf der Website von Microsoft zu erhalten. Sie müssen über eine Internetverbindung verfügen, um auf die Microsoft-Website zugreifen zu können.
 
-5. Wählen Sie die geeigneten Optionen für Ihren Entwurf. Nach der Definition der anfänglichen Kriterien werden Sie darüber informiert, dass die Funktionsübersicht vollständig ist.
+5. Wählen Sie die entsprechenden Optionen für Ihr Design aus. Nachdem die anfänglichen Kriterien definiert wurden, wird auf einer Seite bestätigt, dass die Übersicht über die Features vollständig ist.
 
-6. Klicken Sie auf **Websites entwerfen** , um Ihre zentrale Website zu definieren.
+6. Klicken **Sie auf "Standorte entwerfen",** um ihren zentralen Standort zu definieren.
 
     > [!NOTE]
-    > Jede Skype for Business Server 2015-Topologie verfügt über mindestens einen zentralen Standort. Ihr Entwurf kann eine einzige zentrale Website, einen zentralen Standort mit einer Reihe von Zweigstellen, eine Reihe von zentralen Standorten oder eine Reihe zentraler Standorte mit Verzweigungs Websites aufweisen, die jedem zentralen Standort zugeordnet sind.
+    > Jede Skype for Business Server 2015-Topologie hat mindestens einen zentralen Standort. Ihr Entwurf kann einen zentralen Standort, einen zentralen Standort mit einer Reihe von Zweigstellenstandorten, eine Reihe von zentralen Standorten oder eine Reihe von zentralen Standorten mit Zweigstellenstandorten haben, die jedem zentralen Standort zugeordnet sind.
 
-7. Geben Sie unter **Websitename**den Namen ein, der diese zentrale Website kennzeichnet.
+7. Geben **Sie im Standortnamen** den Namen ein, der diesen zentralen Standort identifiziert.
 
-8. Geben Sie in "Website-vernetzte **Benutzer**" die erwartete Anzahl von lokalen gleichzeitigen Benutzern ein, die an diesem zentralen Standort verwaltet werden sollen.
+8. Geben **Sie unter**"Benutzer von Standort" die erwartete Anzahl gleichzeitiger Benutzer ein, die an diesem zentralen Standort zu hause sein werden.
 
-9. Geben Sie in Cloud-vernetzten **Benutzern**die erwartete Anzahl von gleichzeitigen Online Benutzern ein, die in diesem zentralen Standort verwaltet werden sollen.
+9. Geben **Sie in "Cloud-homed Users"** die erwartete Anzahl gleichzeitiger Onlinebenutzer ein, die an diesem zentralen Standort zu hause sein werden.
 
-10. Ändern Sie nach Bedarf die Auswahl für Onlinezusammenarbeit, Benutzer, VoIP, zusätzliche Bereitstellungsoptionen oder Serveranwendungen.
+10. Ändern Sie bei Bedarf die Auswahl für Onlinezusammenarbeit, Benutzer, Sprache, zusätzliche Bereitstellungsoptionen oder Serveranwendungen.
 
     > [!IMPORTANT]
-    > Zu diesem Entwurfszeitpunkt können Sie Optionen für Ihre Bereitstellung nur auswählen oder deaktivieren. Sie können jedoch in einer späteren Phase des Planungstools weitere Optionen konfigurieren. Einige Optionen sind nicht verfügbar und können nicht deaktiviert werden. Darüber hinaus müssen Sie möglicherweise eine Option deaktivieren, um eine andere deaktivieren zu können. Wenn Sie zum Beispiel unter „VoIP“ die Option **Enterprise-VoIP** deaktivieren, sind unter „Serveranwendungen“ die Optionen **Reaktionsgruppe**, **Ankündigung** und **Anruf parken** deaktiviert.
+    > An diesem Punkt im Entwurf können Sie nur Optionen für Ihre Bereitstellung auswählen oder löschen. Sie können jedoch in einer späteren Phase des Planungstools weitere Optionen konfigurieren. Es gibt auch Optionen, die nicht verfügbar sind und nicht geräumt werden können. Darüber hinaus müssen Sie möglicherweise eine Option deaktivieren, um eine andere zu löschen. Wenn Sie beispielsweise die Option **Enterprise-VoIP** unter "Voice" deaktivieren, werden  auch die Optionen "Reaktionsgruppe", "Ansage" und "Anruf parken" unter "Serveranwendungen" (alle sind Features von Enterprise-VoIP) ebenfalls entfernt.
 
-11. Klicken Sie nach dem Definieren von Standortname und Nutzeranzahl auf **Weiter**.
+11. Klicken Sie nach dem Definieren eines Websitenamens und der Anzahl der Benutzer auf **"Weiter".**
 
-12. Auf den folgenden Seiten werden Informationen zu SIP-Domänen, Konferenzeinstellungen, Spracheinstellungen und-Infrastruktur, Exchange um-, externer Benutzer Zugriff, Einstellungen für beständigen Chat, Clienteinstellungen, Zusammenstellungsoptionen und Verzweigungs Websites verlangt. Geben Sie die entsprechenden Informationen an.
+12. Auf den folgenden Seiten werden Informationen zu SIP-Domänen, Konferenzeinstellungen, Spracheinstellungen und Infrastruktur, Exchange UM, externem Benutzerzugriff, Einstellungen für beständigen Chat, Clienteinstellungen, Kollokationsoptionen und Zweigstellenstandorten angezeigt. Beantworten Sie diese Fragen entsprechend.
 
-13. In der letzten Frage wird gefragt, ob Sie eine weitere zentrale Website erstellen möchten. Wenn Sie **Ja**auswählen, kehrt das Planungs Tool zur Seite "zentrale Websites" zurück. Wenn Sie **Nein** auswählen, klicken Sie auf **Weiter** und anschließend auf **Zeichnen**, um die allgemeine Übersicht über die globale Technologie anzuzeigen.
+13. Die letzte Frage stellt sich, ob Sie einen weiteren zentralen Standort erstellen möchten. Wenn Sie **"Ja"** auswählen, kehrt das Planungstool zur Seite "Zentrale Standorte" zurück. Wenn Sie **"Nein"** auswählen, klicken  Sie auf **"Weiter",** und klicken Sie dann auf "Zeichnen", um die globale Topologieansicht auf hoher Ebene anzeigen zu können.
 
-14. Klicken Sie zum Anzeigen einer vorhandenen Topologie auf **Anzeigen**.
+14. Klicken Sie auf "Anzeigen", um eine vorhandene **Topologie anzeigen zu können.**
 
-15. Klicken Sie auf die XML-Datei, welche die zuvor gespeicherte Topologie enthält, und klicken Sie auf **Öffnen**.
+15. Klicken Sie auf die XML-Datei, die die zuvor gespeicherte Topologie darstellt, und klicken Sie dann auf **Öffnen**.
 
-16. Das Planungs Tool zeigt die Seite globale Topologie an. Mit den im Planungs Tool verfügbaren Tools können Sie nun mit dem Bearbeiten, aktualisieren oder Ändern der Topologie beginnen.
+16. Das Planungstool zeigt die Seite "Globale Topologie" an. Sie können nun mit dem Bearbeiten, Aktualisieren oder Ändern der Topologie beginnen, indem Sie die im Planungstool verfügbaren Tools verwenden.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Bearbeiten des Entwurfs](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

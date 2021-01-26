@@ -1,7 +1,7 @@
 ---
-title: Skype Room System – Vertrauenswürdige Domänen
-ms.author: v-lanac
-author: lanachin
+title: Vertrauenswürdige Domänen von Skype Room System
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
-description: Lesen Sie dieses Thema und erfahren Sie, wie Sie vertrauenswürdige Domänen für Skype Room System und Skype for Business konfigurieren.
-ms.openlocfilehash: 618ea5ce6cd4e12cd1e6a811a065f7a29a5c9ced
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: In diesem Thema erfahren Sie, wie Sie vertrauenswürdige Domänen für Skype Room System und Skype for Business konfigurieren.
+ms.openlocfilehash: c7883ed0cbc2e805ee0ba3cddfb3b2cee1163c35
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768668"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834115"
 ---
-# <a name="skype-room-system-trusted-domains"></a>Skype Room System – Vertrauenswürdige Domänen
+# <a name="skype-room-system-trusted-domains"></a>Vertrauenswürdige Domänen von Skype Room System
  
-Lesen Sie dieses Thema und erfahren Sie, wie Sie vertrauenswürdige Domänen für Skype Room System und Skype for Business konfigurieren.
+In diesem Thema erfahren Sie, wie Sie vertrauenswürdige Domänen für Skype Room System und Skype for Business konfigurieren.
   
 ## <a name="trusted-domains"></a>Vertrauenswürdige Domänen
 
-Der Skype for Business-Client zeigt ein Dialogfeld an, in dem Benutzer das Zertifikat über den Skype for Business-Server akzeptieren können, wenn sich die SIP-Domäne des Benutzerkontos von dem Namen unterscheidet, der in dem Betreff oder dem Betreff-Alternativnamen des Zertifikats angezeigt wird. Wenn das für Skype for Business Server in Ihrer Organisation konfigurierte Zertifikat nicht über den SIP-Domänennamen des Skype Room-System Kontos in Betreff oder Betreff alt ist, müssen Sie die auf dem Zertifikat angezeigten Domänen unter den vertrauenswürdigen Domänen konfigurieren. Registrierungsschlüssel auf dem Skype Room System Console-Computer. In Ihrem Skype Room System-Administrator Handbuch wird erläutert, wie und wo vertrauenswürdige Domänen im Skype for Business-Client hinzugefügt werden. 
+Der Skype for Business-Client zeigt ein Dialogfeld an, in dem Benutzer das Zertifikat von Skype for Business Server akzeptieren können, wenn sich die SIP-Domäne des Benutzerkontos von dem Namen im Betreff- oder Alternativnamen des Zertifikats abhing. Wenn das für Skype for Business Server in Ihrer Organisation konfigurierte Zertifikat nicht den Sip-Domänennamen des Skype Room System-Kontos unter "Subject" oder "Subject Alt Name" hat, müssen Sie diese Domänen konfigurieren, die auf dem Zertifikat unter dem Registrierungsschlüssel "Vertrauenswürdige Domänen" auf dem Skype Room System-Konsolencomputer angezeigt werden. Das vom Skype Room System vom Hersteller bereitgestellte Skype Room System Administratorhandbuch erläutert, wie und wo vertrauenswürdige Domänen im Skype for Business-Client hinzugefügt werden können. 
   
-Nehmen wir beispielsweise an, dass die in Skype for Business Server konfigurierten Zertifikate einen Betreff/Betreff-Alternativnamen von "Contoso" aufweisen. LOCAL "und eine der SIP-Domänen, die einem Benutzer für die Anmeldeadresse des Skype-Chatrooms zugewiesen sind, lautet" confrm1@contoso.net ". Da contoso.net nicht im Zertifikat vorhanden ist, müssen Sie "contoso. local" auf dem Skype Room-System Computer als vertrauenswürdige Domäne in der Registrierung konfigurieren, wie dies in Ihrem Skype Room System-Administrator Handbuch erläutert wird. 
+Nehmen wir beispielsweise an, dass die in Skype for Business Server konfigurierten Zertifikate den Alternativnamen "Betreff/Betreff" "CONTOSO" haben. LOCAL" und eine der SIP-Domänen, die einem Benutzer für die Skype Room System-Anmeldeadresse zugewiesen sind, ist "confrm1@contoso.net". Da contoso.net sich nicht im Zertifikat befindet, müssen Sie auf dem Computer mit Skype Room System "contoso.local" als vertrauenswürdige Domäne in der Registrierung konfigurieren, wie im vom Skype Room System vom Hersteller bereitgestellten Skype Room System Administrator's Guide erläutert. 
   
 

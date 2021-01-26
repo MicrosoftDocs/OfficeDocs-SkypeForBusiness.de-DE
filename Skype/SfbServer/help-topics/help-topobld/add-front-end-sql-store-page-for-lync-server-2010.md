@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,28 +14,28 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
-description: Sie definieren die Eigenschaften der SQL Server Speicher für die neue Front-End-Pool, die Sie konfigurieren.
-ms.openlocfilehash: 1bc84723d61fd57d923fc56daca6191d6414512f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+description: Sie definieren die Eigenschaften der SQL Server für den neuen Front-End-Pool, den Sie konfigurieren.
+ms.openlocfilehash: 4a7dca6a9cb3d33a63d65e82459fb5cdab86703d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48527132"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49824065"
 ---
-# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
+# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
  
-Sie definieren die Eigenschaften der SQL Server Speicher für die neue Front-End-Pool, die Sie konfigurieren.
+Sie definieren die Eigenschaften der SQL Server für den neuen Front-End-Pool, den Sie konfigurieren.
   
 > [!IMPORTANT]
-> Wenn Sie ein Standard Edition-Server konfigurieren, wird dieses Dialogfeld angezeigt, aber Sie können die Einstellungen nicht konfigurieren. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+> Wenn Sie einen Standard Edition-Server konfigurieren, wird dieses Dialogfeld angezeigt, sie können jedoch keine Einstellungen konfigurieren. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
   
 Konfigurierbare Einstellungen:
   
-- **Verwenden eines zuvor definierten SQL Server Speichers**: Wählen Sie in der Liste für den Front-End-Pool Speicher einen vorhandenen SQL Server Speicher aus.
+- **Verwenden Sie einen zuvor definierten SQL Server:** Wählen Sie einen vorhandenen SQL Server aus der Liste für den Front-End-Poolspeicher aus.
     
-- Wählen Sie **define a New SQL Server Store** aus, um einen neuen SQL Server Store zu erstellen.
+- Wählen **Sie "Neuen SQL Server erstellen" aus,** um einen neuen SQL Server erstellen.
     
-    Geben Sie den vollqualifizierten Domänennamen des SQL Servers in **SQL Server FQDN** ein.
+    Geben Sie den vollqualifizierten Domänennamen des SQL Server in SQL Server **FQDN ein.**
     
     Standardmäßig ist die **Standardinstanz** angegeben. Wenn Sie eine Instanz definieren möchten, wählen Sie die Option **Benannte Instanz**, und geben Sie den Namen der Instanz ein, die Sie erstellen möchten.
     

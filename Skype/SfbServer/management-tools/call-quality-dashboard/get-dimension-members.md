@@ -1,8 +1,8 @@
 ---
 title: Abrufen von Dimensionselementen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen von Dimensionselementen. Der Vorgang zum Abrufen von Dimensionselementen ist Teil der Daten-API für das Dashboard für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 'Zusammenfassung: Informationen zum Get Dimension Members-Vorgang. Der Vorgang "Dimensionsmashboard abrufen" ist Teil der Daten-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: ffec3b02a3c876a003adb679a28b0e8f2edb91c2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888814"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832635"
 ---
 # <a name="get-dimension-members"></a>Abrufen von Dimensionselementen
  
-**Zusammenfassung:** Erfahren Sie mehr über den Vorgang zum Abrufen von Dimensionselementen. Der Vorgang zum Abrufen von Dimensionselementen ist Teil der Daten-API für das Dashboard für die Anrufqualität. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Dimension-Elemente erhalten". Der Vorgang "Dimensionsmashboard abrufen" ist Teil der Daten-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
   
-Der Vorgang zum Abrufen von Dimensionselementen ist Teil der Daten-API für das Dashboard für die Anrufqualität.
+Der Vorgang "Dimensionsmashboard abrufen" ist Teil der Daten-API für das Anrufqualitätsdashboard.
   
 ## <a name="get-dimension-members"></a>Abrufen von Dimensionselementen
 
-Der Vorgang zum Abrufen von Dimensionselementen gibt die Liste der Elemente einer bestimmten Dimension zurück. Darüber hinaus können Sie die Mitgliederliste Filtern und eine Teilmenge abrufen, um die Übertragungskosten zu reduzieren.
+Der Vorgang "Dimensionsmdimensionen" gibt die Liste der Elemente einer bestimmten Dimension zurück. Es bietet auch die Möglichkeit, die Mitgliederliste zu filtern und eine Teilmenge zu erhalten, um die Übertragungskosten zu reduzieren.
   
 
-|**Methode**|**Anforderungs-URI**|**HTTP-Version**|
+|**Methode**|**Anforderungs-URI**|**HTTP Version**|
 |:-----|:-----|:-----|
-|Bereitstellen  <br/> |https://\<-\>Portal/QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** -None.
+ **URI-Parameter** : Keine.
   
- **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
+ **Anforderungsheader** – Keine zusätzlichen Header.
   
- **Anforderungstext** – dieser enthält den Namen der Dimension, für die die Mitglieder angezeigt werden sollen. Außerdem können Sie die maximale Anzahl der zurückgegebenen Mitglieder angeben, indem Sie einige Filter angeben, um die zurückgegebenen Member zu begrenzen.
+ **Anforderungstext** : Enthält den Namen der Dimension, für die die Elemente verwendet werden soll. Außerdem können Sie eine maximale Anzahl von zurückgegebenen Mitgliedern angeben, neben der Sie einige Filter angeben können, um die zurückgegebenen Elemente zu begrenzen.
   
 ```json
 {
@@ -52,16 +52,16 @@ Der Vorgang zum Abrufen von Dimensionselementen gibt die Liste der Elemente eine
 }
 ```
 
- **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
+ **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
- **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
+ **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
- **Antwortheader** – keine zusätzlichen Überschriften.
+ **Antwortheader** : Keine zusätzlichen Header.
   
- **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON als Antwort auf eine Anforderung für "[StartDate]. [Month] "-Dimension.
+ **Antworttext** : Unten sehen Sie eine Beispielantwortnutzlast in JSON als Antwort auf eine Anforderung für "[StartDate]. [Month]"-Dimension.
   
 > [!NOTE]
-> In der Liste wird nur ein kleiner Teil der Liste angezeigt. 
+> Die Liste zeigt nur einen kleinen Teil der Liste an. 
   
 ```json
 {

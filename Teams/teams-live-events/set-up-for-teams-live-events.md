@@ -1,7 +1,7 @@
 ---
 title: Einrichtung für Liveereignisse in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - enabler-strategic
-description: Richten Sie für Live-Events in Teams ein, einschließlich Einrichten Ihres Netzwerks, Zuweisen von Lizenzen, Aktivieren von Live-Event-Features und-Planung sowie Video verteilungslösungen.
+description: Richten Sie Liveereignisse in Teams ein, einschließlich einrichten Ihres Netzwerks, Zuweisen von Lizenzen, Aktivieren von Liveereignisfeatures und -planung sowie Videoverteilungslösungen.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f12bc54fc4a2ad0e486ee141495f39e804838406
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+ms.openlocfilehash: 64a5bf471a79de73be3900e6b52fee38ebc12423
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130606"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809165"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -43,17 +43,17 @@ Stellen Sie sicher, dass Sie die korrekten Lizenzzuweisungen für [ haben, die L
 Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Organisation Liveereignisse abhalten kann und welche Funktionen in den von ihnen erstellten Ereignissen verfügbar sind. Sie können die Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Richtlinien für Liveereignisse erstellen. Nachdem Sie eine benutzerdefinierte Richtlinie erstellt haben, weisen Sie sie einem Benutzer oder Benutzergruppen in Ihrer Organisation zu.
 
 > [!NOTE]
-> Benutzer in Ihrer Organisation erhalten die globale (org-Wide Standard)-Richtlinie, sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen. Standardmäßig ist in der globalen Richtlinie die Planung von Liveereignissen für Teams-Benutzer aktiviert, Live-Untertitel und Untertitel (Transkription) sind deaktiviert, jeder in der Organisation kann an Liveereignissen teilnehmen, und die Aufzeichnungseinstellung ist so eingestellt, dass immer aufgezeichnet wird.
+> Die Benutzer in Ihrer Organisation erhalten die globale (organisationsweite Standardrichtlinie) – es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Standardmäßig ist in der globalen Richtlinie die Planung von Liveereignissen für Teams-Benutzer aktiviert, Live-Untertitel und Untertitel (Transkription) sind deaktiviert, jeder in der Organisation kann an Liveereignissen teilnehmen, und die Aufzeichnungseinstellung ist so eingestellt, dass immer aufgezeichnet wird.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Erstellen oder Bearbeiten einer Richtlinie für Liveereignisse
 
 <a name="bkcreatepolicy"> </a>
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den Richtlinien für **Besprechungen** mit  >  **Live Ereignissen**.
-2. Führen Sie eine der folgenden Optionen aus:
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **den Richtlinien** für  >  **Liveereignisse für Besprechungen.**
+2. Wählen Sie eine der folgenden Optionen aus:
 
     - Wenn Sie die vorhandene Standardrichtlinie bearbeiten möchten, wählen Sie **Global (organisationsweiter Standard)** aus.
-    - Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **Hinzufügen** aus.
+    - Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **"Hinzufügen" aus.**
     - Wenn Sie eine benutzerdefinierte Richtlinie bearbeiten möchten, markieren Sie die Richtlinie, und wählen Sie dann **Bearbeiten** aus.
 
     Hier sind die Einstellungen, die Sie ändern können, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
@@ -77,12 +77,12 @@ Wenn Sie eine benutzerdefinierte Richtlinie für Livereignisse erstellt haben, w
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Benutzern die Planung von Ereignissen ermöglichen, die mit einer externen App oder einem externen Gerät erstellt werden
 
-Damit Benutzerereignisse planen können, die mit einer externen APP oder einem Gerät erstellt wurden, müssen Sie auch die folgenden Schritte ausführen:
+Damit Benutzer Ereignisse planen können, die mit einer externen App oder einem externen Gerät erzeugt werden, müssen Sie auch die folgenden Schritte ausführen:
 
-1. Microsoft Stream für Benutzer in Ihrer Organisation aktivieren. Stream ist als Teil der berechtigten Microsoft 365-oder Office 365-Abonnements oder als eigenständiger Dienst verfügbar. Stream ist nicht in Business Essentials- oder Business Premium-Plänen enthalten. Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
+1. Microsoft Stream für Benutzer in Ihrer Organisation aktivieren. Stream ist als Teil berechtigter Microsoft 365- oder Office 365-Abonnements oder als eigenständiger Dienst verfügbar. Stream ist nicht in Business Essentials- oder Business Premium-Plänen enthalten. Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
 
    >[!Note]
-   > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen. Erfahren Sie mehr darüber, wie Sie [**Benutzern Lizenzen zuweisen**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Datenstrom zugreifen können. Stellen Sie sicher, dass Datenstrom nicht für die Benutzer blockiert ist, wie in [**diesem Artikel**](https://docs.microsoft.com/stream/disable-user-organization)definiert.
+   > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen. Erfahren Sie mehr darüber, wie [**Sie Benutzern Lizenzen zuweisen können,**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) damit benutzer auf Stream zugreifen können. Stellen Sie sicher, dass Stream nicht für die Benutzer blockiert wird, wie in diesem [**Artikel definiert.**](https://docs.microsoft.com/stream/disable-user-organization)
 
 2. Vergewissern Sie sich, dass die Benutzer über die Berechtigung zum Erstellen eines Liveereignisses in Stream verfügen. Administratoren können standardmäßig mit einer externen App oder einem externen Gerät Ereignisse erstellen. Ein Stream-Administrator kann in Stream [zusätzliche Benutzer für die Erstellung von Liveereignissen](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) aktivieren.
 
@@ -92,7 +92,7 @@ Damit Benutzerereignisse planen können, die mit einer externen APP oder einem G
 
 Bei der Wiedergabe von Liveereignisvideos wird Adaptive Bitrate Streaming (ABR) verwendet, aber es ist ein Unicast-Stream, was bedeutet, dass jeder Zuschauer einen eigenen Videostream aus dem Internet erhält. Bei Liveereignissen oder Videos, die an große Teile Ihrer Organisation gesendet werden, kann von den Zuschauern ein beträchtlicher Anteil der Internetbandbreite verbraucht werden. Bei Organisationen, die diesen Internetdatenverkehr für Liveereignisse reduzieren möchten, werden Lösungen für Liveereignisse mit den vertrauenswürdigen Videobereitstellungspartnern von Microsoft integriert, die softwaredefinierte Netzwerke (SDNs) oder Enterprise Content Delivery Networks (eCDNs) anbieten. Diese SDN-/eCDN-Plattformen ermöglichen Organisationen, die Netzwerkbandbreite zu optimieren, ohne das Videoerlebnis der Endbenutzer zu schmälern. Unsere Partner ermöglichen eine skalierbarere und effizientere Videoverteilung in Ihrem Unternehmensnetzwerk.
 
-**Erwerben und Einrichten Ihrer Lösung außerhalb von Teams** Lassen Sie sich beim Skalieren von Videobereitstellungen durch die vertrauenswürdigen Videobereitstellungspartner von Microsoft helfen. Bevor Sie die Verwendung eines Video Zustellungs Anbieters für Teams aktivieren können, müssen Sie die Sdn/ECDN-Lösung außerhalb von Teams kaufen und separat einrichten.
+**Erwerben und Einrichten Ihrer Lösung außerhalb von Teams** Lassen Sie sich beim Skalieren von Videobereitstellungen durch die vertrauenswürdigen Videobereitstellungspartner von Microsoft helfen. Bevor Sie einen Videozustellungsanbieter für die Verwendung mit Teams aktivieren können, müssen Sie die SDN/eCDN-Lösung außerhalb von Teams erwerben und einrichten.
 
 Die folgenden SDN-/eCDN-Lösungen sind vorintegriert und können für die Verwendung mit Stream eingerichtet werden.
 
@@ -102,7 +102,7 @@ Die folgenden SDN-/eCDN-Lösungen sind vorintegriert und können für die Verwen
 
 - **Ramp OmniCache** bietet Netzwerkverteilung der nächsten Generation und sorgt für eine reibungslose Bereitstellung von Videoinhalten über globale WANs hinweg. Dies hilft Produzenten von Ereignissen bei der Optimierung der Netzwerkbandbreite und Unterstützung von erfolgreichen Liveereignis-Übertragungen und On-Demand-Streaming. Die Unterstützung für Ramp OmniCache für in Teams produzierte Liveereignisse ist in Kürze verfügbar. [Weitere Informationen](https://rampecdn.com).
 
-- **Riverbed**, der Branchenstandard bei der Netzwerkoptimierung, erweitert seine Acceleration-Lösungen auf Microsoft Teams und Stream.  Microsoft 365-Kunden können nun 365-Datenverkehr, einschließlich Teams und Streams, mit einer Vielzahl anderer führender Unternehmens-SaaS-Services beschleunigen, um die Produktivität von überall aus zu steigern. Teams und Stream-Beschleunigungen können durch eine mühelose Einrichtung ermöglicht werden, die von der Weltklasse-Unterstützung von Riverbed und der laufenden Investition sichergestellt wird.
+- **Riverbed,** der Branchenstandard bei der Netzwerkoptimierung, erweitert seine Beschleunigungslösungen auf Microsoft Teams und Stream.  Jetzt können Microsoft 365-Kunden 365-Datenverkehr einschließlich Teams und Stream mit einer Fülle weiterer führender Unternehmens-SaaS-Dienste sicher beschleunigen, um die Produktivität der Mitarbeiter von überall aus zu steigern. Die Beschleunigung von Teams und Stream kann mithilfe eines mühelosen Setups aktiviert werden, das die Sicherheit der erstklassigen Unterstützung von Riverbed sowie fortlaufende Investitionen bietet.
 
 > [!NOTE]
 > Die von Ihnen ausgewählte SDN- oder eCDN-Lösung unterliegt den **Vertragsbedingungen und Datenschutzrichtlinien des gewählten Drittanbieters**, die die Nutzung der Lösung des Anbieters regeln. Ihre Nutzung der Anbieterlösung unterliegt nicht den Microsoft-Volumenlizenzierungsbedingungen oder den Nutzungsbedingungen für Online Services. Wenn Sie den **Vertragsbedingungen des Drittanbieters** nicht zustimmen, aktivieren Sie die Lösung nicht in Teams.
@@ -115,6 +115,6 @@ Gehen Sie zu [Konfigurieren der Einstellungen für Liveereignisse in Teams](conf
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-- [Was sind Live-Events in Teams?](what-are-teams-live-events.md)
+- [Was sind Liveereignisse in Teams?](what-are-teams-live-events.md)
 - [Planen von Teams-Liveereignissen](plan-for-teams-live-events.md)
 - [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)

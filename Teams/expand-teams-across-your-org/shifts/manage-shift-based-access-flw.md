@@ -1,124 +1,124 @@
 ---
-title: Verwalten des Schicht basierten Zugriffs für Mitarbeiter von First-work in Teams
-author: LanaChin
-ms.author: v-lanac
+title: Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Frontline in Teams
+author: cichur
+ms.author: v-cichur
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie den Schicht basierten Zugriff in Teams für First-worker in Ihrer Organisation verwalten können.
+description: Erfahren Sie, wie Sie den schichtbasierten Zugriff in Teams für Frontline Workers in Ihrer Organisation verwalten.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ec470422e402da07171bef627d1592c73d6c12f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 437902136bf72685dabf5bd6359dd6221c7467de
+ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48514132"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "49909469"
 ---
-# <a name="manage-shift-based-access-for-firstline-workers-in-teams"></a>Verwalten des Schicht basierten Zugriffs für Mitarbeiter von First-work in Teams
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Frontline in Teams
 
 > [!IMPORTANT]
-> Gültig 30. Juni 2020, Microsoft StaffHub wurde eingestellt. Einige StaffHub-Funktionen werden in Microsoft Teams integriert. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub funktionierte am 30. Juni 2020 nicht mehr für alle Benutzer. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, in der Sie zum Herunterladen von Teams geleitet werden. Weitere Informationen finden Sie unter [Microsoft StaffHub wurde eingestellt](microsoft-staffhub-to-be-retired.md).  
+> Microsoft StaffHub wurde am 30. Juni 2020 eingestellt. Einige StaffHub-Funktionen werden in Microsoft Teams integriert. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub funktioniert nicht mehr für alle Benutzer am 30. Juni 2020. Jeder, der staffHub zu öffnen versucht, wird in einer Meldung zum Herunterladen von Teams angezeigt. Weitere Informationen finden Sie unter [Microsoft StaffHub wurde eingestellt.](microsoft-staffhub-to-be-retired.md)  
 
 ## <a name="overview"></a>Übersicht
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Anwesenheit in Microsoft Teams zeigt die aktuelle Verfügbarkeit und den Status eines Benutzers für andere Benutzer an. Das vorhanden sein von First-work-Mitarbeitern ist oft weniger vorhersehbar als andere Mitarbeiter, da ihre Arbeitszeiten in der Regel nicht täglich identisch sind. Als Administrator können Sie Teams so konfigurieren, dass eine Reihe von Schicht basierten Anwesenheitsstatus für die Mitarbeiter der ersten Zeile in Ihrer Organisation angezeigt werden, um anzugeben, wann diese ein-und ausgeschaltet sind.
+Die Anwesenheit in Microsoft Teams zeigt anderen Benutzern die aktuelle Verfügbarkeit und den aktuellen Status eines Benutzers an. Das Vorhandensein von Mitarbeitern in der Front ist häufig weniger vorhersagbar als andere Mitarbeiter, da ihre Arbeitszeiten in der Regel nicht jeden Tag gleich sind. Als Administrator können Sie Teams so konfigurieren, dass eine Reihe schichtbasierter Anwesenheitszustände für die Frontline workers in Ihrer Organisation angezeigt werden, um anzugeben, wann sie in der Schicht ein- und ausgeschaltet sind.
 
-Diese Schicht basierten Anwesenheitsstatus zeigt ein vollständiges, &mdash; ![ grünes Häkchen, das bei UMSCHALT ](../../media/flw-presence-on-shift.png) **auf Schicht**, ![ grauer Kreis mit x, zeigt die UMSCHALT- ](../../media/flw-presence-off-shift.png) **aus-Schicht**, vollständiger ![ roter Kreis, zeigt an, dass beschäftigt ](../../media/flw-presence-busy.png) **beschäftigte** &mdash; getrennt von der [Standardgruppe der Anwesenheitsstatus](../../presence-admins.md) in Teams sind. Mit diesen zwei Gruppen von Anwesenheitsstatus können Sie unterschiedliche Erfahrungen für Personen in Ihrer Organisation basierend auf ihrer Rolle konfigurieren.
+Diese schichtbasierten Anwesenheitszustände sind einfarbig grün, kennzeichnen "Schicht bei Schicht", "Grauer Kreis" mit "x", "Aus Schicht aus", einfarbiger roter Kreis, der angibt, dass "Beschäftigt" von den Standardeinstellungen der &mdash; ![ ](../../media/flw-presence-on-shift.png) Anwesenheitszustände in Teams getrennt ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; ist. [](../../presence-admins.md) Mit diesen beiden Gruppen von Anwesenheitszuständen können Sie basierend auf ihrer Rolle verschiedene Benutzererfahrungen für Personen in Ihrer Organisation konfigurieren.
 
-Mit einem Schicht basierten Zugriff können Sie den Zugriff auf Teams verwalten, wenn die Arbeitszeiten von First-Worker deaktiviert sind. So können Sie beispielsweise Teams so einrichten, dass eine Meldung angezeigt wird, die Mitarbeiter von First-Worker bestätigen müssen, bevor Sie Teams verwenden können, wenn Sie sich nicht in einer geplanten Schicht befinden.  
+Mit schichtbasiertem Zugriff können Sie den Zugriff auf Teams verwalten, wenn Mitarbeiter an vorder frontline nicht in der Schicht sind. So können Sie beispielsweise in Teams festlegen, dass eine Meldung angezeigt wird, die die Mitarbeiter an der Frontline bestätigen müssen, bevor sie Teams verwenden können, wenn sie nicht an einer geplanten Schicht arbeiten.  
 
 ## <a name="scenario"></a>Szenario
 
-Im folgenden finden Sie ein Beispiel dafür, wie Ihre Organisation den Schicht basierten Zugriff verwalten kann.
+Hier ist ein Beispiel dafür, wie Ihre Organisation den schichtbasierten Zugriff verwalten kann.
 
-Sie haben Mitarbeiter in Ihrer Organisation, die nur Stunden lang bezahlt werden, wenn Sie an einer vom Manager geplanten und genehmigten Schicht arbeiten. Sie sollten nicht für die Zeit bezahlt werden, die außerhalb einer geplanten Schichtarbeit verbrachte, die die Verwendung der Teams-App umfasst. Sie richten eine benutzerdefinierte Nachricht ein, die besagt, dass "Ihre Zeit für Teams, wenn ein-aus-Schicht nicht zu den zu zahlenden Stunden gezählt wird", die angezeigt wird, wenn die Mitarbeiter von First-work versuchen, auf Teams zuzugreifen. Wenn Sie sich für die Verwendung von Teams entscheiden, klicken Sie auf **Ich akzeptiere** mit dem Verständnis, dass Sie für diese Zeit nicht bezahlt werden.
+In Ihrer Organisation gibt es Frontline-Mitarbeiter, die nur für Stunden bezahlt werden sollten, die sie an einer von ihrem Vorgesetzten geplanten und genehmigten Schicht arbeiten. Sie sollten nicht für Zeiten bezahlt werden, die außerhalb einer geplanten Schicht, einschließlich der Verwendung der Teams-App, verbracht wurden. Sie richten eine benutzerdefinierte Meldung ein, die lautet: "Ihre Zeit in Teams, wenn Sie sich nicht in Schichtbetrieb befindet, wird nicht auf die zu zahlenden Stunden angezählt", die angezeigt wird, wenn Mitarbeiter an vorderen Fronten versuchen, auf Teams zu zugreifen, wenn Sie nicht in der Schicht sind. Wenn sie sich für die  Verwendung von Teams entscheiden, klicken sie auf "Ich akzeptiere" mit dem Verständnis, dass sie für dieses Mal nicht bezahlt werden.
 
-Sie haben auch Informationsmitarbeiter in Ihrer Organisation, die Angestellte sind und keine Schichten arbeiten. Sie konfigurieren Ihre Information Worker so, dass Sie die Standard Anwesenheitsstatus in Teams verwenden, während Sie Ihren Mitarbeitern auf Schicht Basis eine schichtbasierte Anwesenheit geben.
+Außerdem gibt es in Ihrer Organisation Information Workers, die gelohnt werden und nicht in Schichten arbeiten. Sie konfigurieren Ihre Information Workers so, dass sie die standardmäßigen Anwesenheitszustände in Teams verwenden, während Sie Ihren Frontlinemitarbeitern schichtbasierte Anwesenheitsinformationen geben.
 
-## <a name="shift-based-presence-states"></a>Schichtbasierte Anwesenheitsstatus
+## <a name="shift-based-presence-states"></a>Schichtbasierte Anwesenheitszustände
 
-Hier sind die Schicht basierten Anwesenheitsstatus.
+Dies sind die schichtbasierten Anwesenheitszustände.
 
 |Durch die App konfiguriert |Benutzerdefiniert  |Weitere Informationen  |
 |---------|---------|---------|
-|![Vollständiges grünes Häkchen, zeigt die UMSCHALTTASTE an](../../media/flw-presence-on-shift.png) Bei Schicht     |         |Wird automatisch am Anfang einer Schicht gesetzt         |
-|![Grauer Kreis mit x, zeigt die UMSCHALTTASTE an](../../media/flw-presence-off-shift.png) Aus-Schicht     |         |Automatisches setzen am Ende einer Schicht         |
-|![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt      | ![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt         |Automatisch eingestellt. Kann auch manuell eingestellt werden, wenn sich die erste Arbeitskraft in der Schicht befindet.|
+|![Einfarbiges grünes Häkchen, zeigt "Bei Schicht" an](../../media/flw-presence-on-shift.png) Bei Schicht     |         |Automatisches Festlegen am Anfang einer Schicht         |
+|![Grauer Kreis mit "x", "Umschalt deaktiviert"](../../media/flw-presence-off-shift.png) Aus Schicht     |         |Automatisches Festlegen am Ende einer Schicht         |
+|![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt      | ![Ein gefüllter roter Kreis zeigt an: beschäftigt](../../media/flw-presence-busy.png) Beschäftigt         |Wird automatisch festgelegt. Kann auch manuell festgelegt werden, wenn sich der Frontline Worker in der Schicht befindet.|
 
-## <a name="off-shift-access-to-teams"></a>Off-Shift-Zugriff auf Teams
+## <a name="off-shift-access-to-teams"></a>Off shift access to Teams
 
-Mit diesem Feature können Sie den Zugriff auf Teams verwalten, wenn die Arbeit von Mitarbeitern in der ersten Schicht deaktiviert ist. Sie können Teams so einrichten, dass eine Nachricht angezeigt wird, wenn die Mitarbeiter auf Teams zugreifen, wenn Sie die UMSCHALTTASTE deaktivieren. First-Worker-Mitarbeiter müssen auf **Ich akzeptiere** klicken, um die Nachricht zu bestätigen, bevor Sie Teams verwenden können.
+Mit diesem Feature können Sie den Zugriff auf Teams verwalten, wenn Mitarbeiter an der Frontline nicht in der Schicht sind. Sie können in Teams festlegen, dass Frontlinemitarbeitern eine Meldung angezeigt wird, wenn sie in der Schicht auf Teams zugreifen. Mitarbeiter an vorderer Front müssen auf **"Ich** akzeptiere" klicken, um die Nachricht zu bestätigen, bevor sie Teams verwenden können.
 
-Sie können die Standardmeldung verwenden, aus einer Reihe vordefinierter Nachrichten auswählen oder die Nachricht anpassen, um den gewünschten Text anzuzeigen. Die folgende Standardmeldung lautet:
+Sie können die Standardnachricht verwenden, aus einer Reihe vordefinierter Nachrichten auswählen oder die Nachricht so anpassen, dass beliebiger Text angezeigt wird. Dies ist die Standardmeldung:
 
 ![Screenshot der Standardnachricht](../../media/shifts-presence-message.png)
 
-Sie können auch die Häufigkeit einstellen, wenn die Nachricht angezeigt wird, und einen Kulanzzeitraum zwischen dem Ende der ersten Schicht oder der letzten Schicht und dem Zugriff auf Teams einstellen.
+Sie können auch die Häufigkeit festlegen, mit der die Nachricht angezeigt wird, und eine Toleranzperiode zwischen dem Beginn der ersten oder letzten Schicht und dem Ende der letzten Schicht und dem eingeschränkten Zugriff auf Teams festlegen.
 
-## <a name="manage-shift-based-access"></a>Verwalten des Schicht basierten Zugriffs
+## <a name="manage-shift-based-access"></a>Verwalten des schichtbasierten Zugriffs
 
-Als Administrator verwenden Sie Richtlinien, um die schichtbasierte Anwesenheit für First-work-Mitarbeiter in Ihrer Organisation zu steuern. Sie verwalten diese Richtlinien mithilfe der folgenden PowerShell-Cmdlets:
+Als Administrator steuern Sie mithilfe von Richtlinien die schichtbasierte Anwesenheit für Frontline workers in Ihrer Organisation. Sie verwalten diese Richtlinien mithilfe der folgenden PowerShell-Cmdlets:
 
-- [Neu – CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
+- [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)
-- [Satz-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/set-csteamsshiftspolicy)
+- [Set-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/set-csteamsshiftspolicy)
 - [Grant-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/grant-csteamsshiftspolicy)
 - [Remove-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/remove-csteamsshiftspolicy)
 
-Verwenden Sie das New-CsTeamsShiftsPolicy-Cmdlet, um eine neue Richtlinie zu erstellen, die gewünschten Richtlinieneinstellungen festzulegen, und verwenden Sie dann das Cmdlet Grant-CsTeamsShiftsPolicy, um die Richtlinie Benutzern zuzuweisen.
+Verwenden Sie New-CsTeamsShiftsPolicy Cmdlet "New-CsTeamsShiftsPolicy", um eine neue Richtlinie zu erstellen, die zu verwendende Richtlinie und anschließend das Cmdlet Grant-CsTeamsShiftsPolicy zum Zuweisen der Richtlinie zu Benutzern fest.
 
-Hier sind einige Beispiele. Detaillierte Informationen zu den einzelnen Richtlinieneinstellungen und-Parametern, einschließlich der Liste der vordefinierten off-Schicht-Nachrichten, aus denen Sie auswählen können, finden Sie unter [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+Hier sind einige Beispiele. Ausführliche Informationen zu den einzelnen Richtlinieneinstellungen und -parametern, einschließlich der Liste der vordefinierten Deaktiviert-Schichtnachrichten, aus denen Sie auswählen können, finden Sie unter ["New-CsTeamsShiftsPolicy".](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-1"></a>Beispiel 1
 
-In diesem Beispiel erstellen wir eine neue Richtlinie mit dem Namen "aus Schicht Teams" auf Standardnachricht zugreifen. In dieser Richtlinie wird die Verschiebungs basierte Anwesenheit aktiviert, und die Standardmeldung wird jedes Mal angezeigt, wenn ein Benutzer, dem diese Richtlinie zugewiesen ist, bei ausgeschalteter Schicht auf Teams zugreift. Der Benutzer kann Teams verwenden, wenn die Umschaltfläche deaktiviert ist, wenn er die Nachricht akzeptiert, und die Nachfrist zwischen dem Beginn der ersten Schicht oder der letzten Schicht und dem Zeitpunkt, zu dem der Zugriff eingeschränkt ist, 10 Minuten beträgt.  
+In diesem Beispiel erstellen wir eine neue Richtlinie namens "Off Shift Teams Access Default Message". In dieser Richtlinie ist die schichtbasierte Anwesenheitsanzeige aktiviert, und die Standardmeldung wird jedes Mal angezeigt, wenn ein Benutzer, dem diese Richtlinie zugewiesen ist, auf Teams zutritt, wenn er die Schicht deaktiviert hat. Der Benutzer kann Teams in der Schicht deaktiviert verwenden, wenn er die Nachricht annimmt, und die Nachfrist zwischen dem Beginn der ersten oder letzten Schicht und dem eingeschränkten Zugriff beträgt 10 Minuten.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
 ```
 
 > [!NOTE]
-> Verwenden Sie den **ShiftNoticeMessageType** -Parameter, um die Nachricht festzulegen, die Sie anzeigen möchten. Eine Liste der vordefinierten Nachrichten, die Sie für diesen Parameter auswählen können, finden Sie unter [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+> Legen Sie die Meldung, die angezeigt werden soll, mithilfe des Parameters **ShiftNoticeMessageType** fest. Eine Liste der vordefinierten Nachrichten, aus der Sie für diesen Parameter auswählen können, finden Sie unter ["New-CsTeamsShiftsPolicy".](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-2"></a>Beispiel 2 
 
-In diesem Beispiel erstellen wir eine neue Richtlinie mit dem Namen "aus Schicht Teams Zugriff auf benutzerdefinierte Nachricht". In dieser Richtlinie wird die schichtbasierte Anwesenheit aktiviert, und es wird jedes Mal eine benutzerdefinierte Meldung angezeigt, wenn ein Benutzer, dem diese Richtlinie zugewiesen ist, bei ausgeschalteter Schicht auf Teams zugreift. Der Benutzer kann Teams verwenden, wenn die Umschaltfläche deaktiviert ist, wenn er die Nachricht akzeptiert, und die Nachfrist zwischen dem Beginn der ersten Schicht oder der letzten Schicht und dem Zeitpunkt, zu dem der Zugriff eingeschränkt ist, 15 Minuten beträgt.  
+In diesem Beispiel erstellen wir eine neue Richtlinie namens "Off Shift Teams Access Custom Message". In dieser Richtlinie ist die schichtbasierte Anwesenheitsanzeige aktiviert, und es wird immer eine benutzerdefinierte Meldung angezeigt, wenn ein Benutzer, dem diese Richtlinie zugewiesen ist, auf Teams zutritt, wenn er die Schicht deaktiviert hat. Der Benutzer kann Teams in der Schicht deaktiviert verwenden, wenn er die Nachricht annimmt, und die Nachfrist zwischen dem Beginn der ersten oder letzten Schicht und dem eingeschränkten Zugriff beträgt 15 Minuten.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
 > [!NOTE]
-> Verwenden Sie den **ShiftNoticeMessageType** -Parameter, um die Nachricht festzulegen, die Sie anzeigen möchten. Weitere Informationen finden Sie unter [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+> Legen Sie die Meldung, die angezeigt werden soll, mithilfe des Parameters **ShiftNoticeMessageType** fest. Weitere Informationen finden Sie unter ["New-CsTeamsShiftsPolicy".](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-3"></a>Beispiel 3
 
-In diesem Beispiel erstellen wir eine neue Richtlinie mit dem Namen off Shift Teams Access message1. In dieser Richtlinie wird die Verschiebungs basierte Anwesenheit aktiviert, und die folgende vordefinierte Meldung wird jedes Mal angezeigt, wenn ein Benutzer, dem diese Richtlinie zugewiesen ist, bei ausgeschalteter Schicht auf Teams zugreift.
+In diesem Beispiel erstellen wir eine neue Richtlinie namens "Off Shift Teams Access Message1". In dieser Richtlinie ist die schichtbasierte Anwesenheitsanzeige aktiviert, und die folgende vordefinierte Meldung wird jedes Mal angezeigt, wenn ein Benutzer, dem diese Richtlinie zugewiesen ist, auf Teams zutritt, wenn er schichtt.
 
-  "Ihr Arbeitgeber genehmigt oder genehmigt die Nutzung seines Netzwerks, seiner Anwendungen, Systeme oder Tools nicht durch nicht freigestellte oder stündliche Mitarbeiter während der arbeitsfreien Stunden. Durch die Annahme erkennen Sie an, dass Ihre Nutzung von Teams während der Verlagerung nicht autorisiert ist und Sie nicht kompensiert werden. " 
+  "Ihr Arbeitgeber autorisiert oder genehmigt nicht die Nutzung seines Netzwerks, seiner Anwendungen, Systeme oder Tools durch nicht ausgenommene oder stündlich angestellte Mitarbeiter während ihrer arbeitsfreie Zeit. Indem Sie annehmen, bestätigen Sie, dass Ihre Nutzung von Teams während der Schichtschaltung nicht autorisiert ist und Dass Sie nicht entschädigt werden." 
 
-Der Benutzer kann Teams verwenden, wenn die Umschaltfläche deaktiviert ist, wenn er die Nachricht akzeptiert, und die Nachfrist zwischen dem Beginn der ersten Schicht oder der letzten Schicht und dem Zeitpunkt, zu dem der Zugriff eingeschränkt ist, drei Minuten beträgt.  
+Der Benutzer kann Teams verwenden, wenn er die Nachricht annimmt, wenn er die Nachricht annimmt, während die Toleranzperiode zwischen dem Beginn der ersten oder letzten Schicht und dem eingeschränkten Zugriff drei Minuten beträgt.  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
 ```
 
 > [!NOTE]
-> Verwenden Sie den **ShiftNoticeMessageType** -Parameter, um die Nachricht festzulegen, die Sie anzeigen möchten. Eine Liste der vordefinierten Nachrichten, die Sie für diesen Parameter auswählen können, finden Sie unter [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy).
+> Legen Sie die Meldung, die angezeigt werden soll, mithilfe des Parameters **ShiftNoticeMessageType** fest. Eine Liste der vordefinierten Nachrichten, aus der Sie für diesen Parameter auswählen können, finden Sie unter ["New-CsTeamsShiftsPolicy".](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
 
 ### <a name="example-4"></a>Beispiel 4
 
-In diesem Beispiel weisen wir eine Richtlinie mit dem Namen "aus Schicht Teams Zugriff benutzerdefinierter Nachricht" auf einen Benutzer mit dem Namen "Remy@contoso.com" zu.
+In diesem Beispiel weisen wir einem Benutzer mit dem Namen "Remy@contoso.com" eine Richtlinie namens "Off Shift Teams Access Custom Message" remy@contoso.com.
 
 ```powershell
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"

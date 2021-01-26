@@ -1,8 +1,8 @@
 ---
 title: Erweitern vorhandener Microsoft 365-Gruppen
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d845dff067f23bc923b53a0dcf7ee6351a5d24c7
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6983a828ccb2a59aad4e12c46db0fe873d3bfef3
+ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582302"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757690"
 ---
 <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Erweitern vorhandener Microsoft 365-Gruppen mit Microsoft Teams
 =======================================================
 
 Microsoft Teams-Benutzer können eine vorhandene Microsoft 365-Gruppe mit Funktionen für Teams erweitern. Wenn Sie eine öffentliche Microsoft 365-Gruppe erweitern, können Benutzer dies tun, wenn die Anzahl der Mitglieder gleich oder kleiner als 5.000 ist.
 
-Zu diesem Zweck sollten Benutzer den Fluss des Erstellens eines neuen Teams über den Microsoft Teams-Client durchlaufen. Wählen Sie **aus**  >  **Microsoft 365-Gruppe**erstellen aus, und wählen Sie dann die vorhandene Gruppe aus, die Sie mit Teams verbessern möchten. Vorhandene Gruppenmitglieder werden dem Team automatisch als Mitglieder hinzugefügt.
+Zu diesem Zweck sollten Benutzer den Fluss des Erstellens eines neuen Teams über den Microsoft Teams-Client durchlaufen. Wählen Sie **aus**  >  **Microsoft 365-Gruppe** erstellen aus, und wählen Sie dann die vorhandene Gruppe aus, die Sie mit Teams verbessern möchten. Vorhandene Gruppenmitglieder werden dem Team automatisch als Mitglieder hinzugefügt.
 
 > [!IMPORTANT]
 > Nur Microsoft 365-Gruppenbesitzer verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Teams, und diese Gruppe muss weniger als 5.000 Benutzer enthalten. Teams, die bereits erweitert wurden, werden nicht in der Liste angezeigt.

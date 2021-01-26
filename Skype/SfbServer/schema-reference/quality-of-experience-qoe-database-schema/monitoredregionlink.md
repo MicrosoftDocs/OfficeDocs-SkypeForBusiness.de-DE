@@ -1,8 +1,8 @@
 ---
-title: MonitoredRegionLink-Tabelle
+title: Tabelle "MonitoredRegionLink"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
-description: Die Tabelle MonitoredRegionLink ist eine unterstützende Tabelle. Jeder Datensatz steht für einen Link zwischen zwei Ländern/Regionen.
-ms.openlocfilehash: a6b92460e2b097460681023f7d6877f02c046bdc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die Tabelle "MonitoredRegionLink" ist eine Tabelle mit Unterstützung. Jeder Datensatz stellt eine Verknüpfung zwischen zwei Ländern/Regionen dar.
+ms.openlocfilehash: f30ba249f89a2247e0e03c71fc97f05e69c59bcd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41807813"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806345"
 ---
-# <a name="monitoredregionlink-table"></a>MonitoredRegionLink-Tabelle
+# <a name="monitoredregionlink-table"></a>Tabelle "MonitoredRegionLink"
  
-Die Tabelle MonitoredRegionLink ist eine unterstützende Tabelle. Jeder Datensatz steht für einen Link zwischen zwei Ländern/Regionen.
+Die Tabelle "MonitoredRegionLink" ist eine Tabelle mit Unterstützung. Jeder Datensatz stellt eine Verknüpfung zwischen zwei Ländern/Regionen dar.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Region1Key** <br/> |int  <br/> |Primär, fremd  <br/> |Wird in der [Regions Tabelle](region.md)referenziert.  <br/> |
-|**Region2Key** <br/> |int  <br/> |Primär, fremd  <br/> |Wird in der [Regions Tabelle](region.md)referenziert.  <br/> |
+|**Region1Key** <br/> |int  <br/> |Primär, Fremd  <br/> |Referenziert aus der [Tabelle "Region".](region.md)  <br/> |
+|**Region2Key** <br/> |int  <br/> |Primär, Fremd  <br/> |Referenziert aus der [Tabelle "Region".](region.md)  <br/> |
    
 

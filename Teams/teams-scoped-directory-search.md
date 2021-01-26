@@ -12,51 +12,51 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie die Verzeichnissuche in Microsoft Teams verwenden, um angepasste Ansichten des Verzeichnisses bereitzustellen.
+description: Erfahren Sie, wie Sie mithilfe der mit Microsoft Teams begrenzten Verzeichnissuche benutzerdefinierte Ansichten des Verzeichnisses bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4152a2ac9ee50372dbc0fdb423d0d85c3026433
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: e4f478bba8c396f0f20b95f69f56c2ded556224d
+ms.sourcegitcommit: 2300595db7779da7a127ae9ee16e474452df02d3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584074"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "49779929"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Verwenden der Verzeichnissuche in Microsoft Teams
 
-Mithilfe der Verzeichnissuche in Microsoft Teams können Organisationen virtuelle Grenzen erstellen, die Steuern, wie Benutzer andere Benutzer in Ihrer Organisation finden und mit Ihnen kommunizieren können. 
+Mit der mit Microsoft Teams begrenzten Verzeichnissuche können Organisationen virtuelle Grenzen erstellen, die steuern, wie Benutzer andere Benutzer in ihrer Organisation finden und mit ihnen kommunizieren können. 
 
-In Microsoft Teams können Organisationen ihren Benutzern benutzerdefinierte Ansichten des Verzeichnisses zur Verfügung stellen. Microsoft Teams verwendet [Richtlinien für Informationsbarrieren](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) , um diese benutzerdefinierten Ansichten zu unterstützen. Sobald die Richtlinien aktiviert sind, werden die Ergebnisse, die von Suchvorgängen nach anderen Benutzern zurückgegeben wurden (beispielsweise zum Initiieren eines Chats oder zum Hinzufügen von Mitgliedern zu einem Team), entsprechend den konfigurierten Richtlinien zugewiesen. Benutzer können keine Teams durchsuchen oder entdecken, wenn die Bereichssuche aktiviert ist. 
+Mit Microsoft Teams können Organisationen ihren Benutzern benutzerdefinierte Ansichten des Verzeichnisses bereitstellen. Microsoft Teams verwendet [Informationsbarriererichtlinien, um](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) diese benutzerdefinierten Ansichten zu unterstützen. Nachdem die Richtlinien aktiviert wurden, werden die von suchten nach anderen Benutzern zurückgegebenen Ergebnisse (z. B. zum Starten eines Chats oder zum Hinzufügen von Mitgliedern zu einem Team) gemäß den konfigurierten Richtlinien begrenzt. Benutzer können Teams nicht durchsuchen oder entdecken, wenn die Suche mit Bereichsfunktion in Kraft ist. 
 
 > [!NOTE]
-> In Exchange-Hybrid Umgebungen funktioniert dieses Feature nur mit Exchange Online-Postfächern und nicht mit lokalen Postfächern.
+> In Exchange-Hybridumgebungen funktioniert dieses Feature nur mit Exchange Online-Postfächern, nicht mit lokalen Postfächern.
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>Wann sollten Sie Bereichs Verzeichnis suchen verwenden?
+## <a name="when-should-you-use-scoped-directory-searches"></a>Wann sollten Sie Verzeichnissuchen mit Bereichsbereich verwenden?
 
-Szenarien, die von umfangreicheren Verzeichnis suchen profitieren, ähneln den Szenarien für adressbuchrichtlinien. So können Sie beispielsweise die bereichsbezogene Verzeichnissuche in den folgenden Situationen verwenden:
+Szenarien, die von Bereichsverzeichnissuchen profitieren, ähneln Szenarien mit Adressbuchrichtlinien. So können Sie beispielsweise in den folgenden Situationen die Verzeichnissuche mit Bereichsbereich verwenden:
 
 - Der Mandant Ihrer Organisation enthält mehrere Unternehmen, die voneinander getrennt sein sollen. 
 - Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen. 
  
-Informationen zum Verwenden von adressbuchrichtlinien finden Sie [unter Richtlinien für Informationsbarrieren in Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
+Informationen zur Verwendung von Adressbuchrichtlinien finden Sie in den [Richtlinien zur Informationsbarriere in Exchange Online.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)
 
 > [!IMPORTANT]
-> Adressbuchrichtlinien bieten nur eine virtuelle Trennung von Benutzern aus der Verzeichnis Perspektive. Benutzer können die Kommunikation mit anderen Personen weiterhin initiieren, indem Sie vollständige e-Mail-Adressen angeben. Beachten Sie auch, dass alle Benutzerdaten, die bereits vor der Erzwingung neuer oder aktualisierter adressbuchrichtlinien zwischengespeichert wurden, für Benutzer bis zu 30 Tage verfügbar bleiben können.
+> Adressbuchrichtlinien ermöglichen nur eine virtuelle Trennung der Benutzer aus der Verzeichnisperspektive. Beachten Sie außerdem, dass alle Benutzerdaten, die vor der Erzwingung neuer oder aktualisierter Adressbuchrichtlinien bereits zwischengespeichert wurden, benutzern bis zu 30 Tage zur Verfügung stehen.
 
-## <a name="turn-on-scoped-directory-search"></a>Aktivieren der Bereich-Verzeichnissuche
+## <a name="turn-on-scoped-directory-search"></a>Aktivieren der Bereichsverzeichnissuche
 
-1. Verwenden Sie Richtlinien für Informationsbarrieren, um Ihre Organisation in virtuellen Untergruppen zu konfigurieren. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
+1. Verwenden Sie Informationsbarriererichtlinien, um Ihre Organisation in virtuelle Untergruppen zu konfigurieren. Weitere Informationen finden Sie unter ["Richtlinien für Informationsbarriere definieren".](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)
 
-2. Wählen Sie im Microsoft Teams Admin Center die Option **organisationsweite Einstellungen**  >  **Teams Einstellungen**aus.
+2. Wählen Sie im Microsoft Teams Admin Center **"Organisationsweite Einstellungen" aus.**  >  
 
-3. Aktivieren Sie unter **Suchen**neben **Bereichs Verzeichnissuche in Teams, die eine Exchange-adressbuchrichtlinie (ABP) verwenden**, **die Umschaltfläche**.
+3. Aktivieren **Sie unter "Suche"** neben der Bereichsverzeichnissuche in Teams mit einer Exchange-Adressbuchrichtlinie **(ABP)** die **Umschaltfunktion**.
 
-    ![Verzeichnissuche im Bereich "Bereich" im Microsoft Teams Admin Center](media/teams-scoped-directory-search-image1.png)
+    ![Bereichssuche im Microsoft Teams Admin Center](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]
-> Diese Änderung kann einige Stunden dauern, bis Sie repliziert wurde.
+> Es kann einige Stunden dauern, bis diese Änderung repliziert wurde.

@@ -1,8 +1,8 @@
 ---
-title: Verwalten von Status und Überwachung in Skype for Business Server
+title: Verwalten der Integrität und Überwachung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 'Zusammenfassung: erfahren Sie mehr über Überwachungs-und Integritäts Konfigurationsaufgaben in Skype for Business Server.'
-ms.openlocfilehash: 52f342fca5ccf6cc66e5d857118e5b18f3be0706
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über Überwachungs- und Integritätskonfigurationsaufgaben in Skype for Business Server.'
+ms.openlocfilehash: 443f3a959832c471142912a9f9fb36496a3432c4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817935"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49823515"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Verwalten von Status und Überwachung in Skype for Business Server
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Verwalten der Integrität und Überwachung in Skype for Business Server
 
-**Zusammenfassung:** Informieren Sie sich über Überwachungs-und Integritäts Konfigurationsaufgaben in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über Überwachungs- und Integritätskonfigurationsaufgaben in Skype for Business Server.
 
-Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren für Überwachungs-und Integritäts Konfigurationsaufgaben, die Sie in der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell ausführen können.
+Die Themen in diesem Abschnitt enthalten schrittweise Verfahren für Überwachungs- und Integritätskonfigurationsaufgaben, die Sie in der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell ausführen können.
 
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Anrufdetailaufzeichnung (CDR) in Skype for Business Server](call-detail-recording-cdr.md)
+- [Aufzeichnung von Anrufdetail (Call Detail Recording, CDR) in Skype for Business Server](call-detail-recording-cdr.md)
 
-- [Quality of Experience (QoE) in Skype for Business Server](quality-of-experience.md)
+- [QoE (Quality of Experience) in Skype for Business Server](quality-of-experience.md)
 
 - [Überwachen der Mobilität für die Leistung in Skype for Business Server](monitor-mobility-performance.md)
 
 - [Verwenden von Überwachungsberichten in Skype for Business Server](monitoring-reports.md)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 
 

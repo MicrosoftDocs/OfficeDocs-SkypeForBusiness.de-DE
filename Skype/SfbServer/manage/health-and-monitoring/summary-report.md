@@ -1,8 +1,8 @@
 ---
-title: Anruf Diagnose Zusammenfassungsbericht in Skype for Business Server
+title: Zusammenfassender Anrufdiagnosebericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Zusammenfassung: erfahren Sie mehr über den Bericht zur Anruf Diagnose Zusammenfassung, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 00925ca15ca053fc85ee5719c8154a92cfb35fb4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Anrufdiagnosebericht, der in Skype for Business Server verwendet wird.'
+ms.openlocfilehash: a0e024abfc083588a755a0d922c0eca23e526058
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817664"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49810155"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Anruf Diagnose Zusammenfassungsbericht in Skype for Business Server
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Zusammenfassender Anrufdiagnosebericht in Skype for Business Server
  
-**Zusammenfassung:** Informieren Sie sich über den Bericht zur Anruf Diagnose Zusammenfassung, der in Skype for Business Server verwendet wird.
+**Zusammenfassung:** Erfahren Sie mehr über den zusammenfassenden Anrufdiagnosebericht, der in Skype for Business Server verwendet wird.
   
-Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlgeschlagenen Peer-to-Peer- und Konferenzsitzungen. Der Bericht zeigt die Gesamtfehlerrate für beide Sitzungstypen und detaillierte Fehlerinformationen nach Sitzungsmodalitätstyp:
+Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlgeschlagenen Peer-zu-Peer- und Konferenzsitzungen. Der Bericht zeigt die Gesamtfehlerrate für beide Sitzungstypen und detaillierte Fehlerinformationen nach Sitzungsmodalitätstyp:
   
 - Sofortnachrichten
     
@@ -37,7 +37,7 @@ Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlge
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Zugriff auf den zusammenfassenden Anrufdiagnosebericht
 
-Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Im Bericht Anruf Diagnose Zusammenfassung können Sie auf den [Diagnosebericht Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, indem Sie im Abschnitt Peer-to-Peer-Sitzungszusammenfassung im Bericht auf die Fehlerrate-Metrik klicken. Sie können auch auf den [Konferenz Diagnosebericht in Skype for Business Server](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Konferenz Metriken klicken:
+Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Im zusammenfassenden Anrufdiagnosebericht können Sie auf den Diagnosebericht über [Peer-zu-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, indem Sie im Abschnitt "Peer-to-Peer-Sitzungszusammenfassung" des Berichts auf die Metrik "Fehlerrate" klicken. Sie können auch auf den [Diagnosebericht](conference-diagnostic-report.md) über die Konferenz in Skype for Business Server zugreifen, indem Sie auf eine der folgenden Konferenzmetriken klicken:
   
 - Sitzungsfehlerrate insgesamt
     
@@ -47,7 +47,7 @@ Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Start
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Optimale Verwendung des zusammenfassenden Anrufdiagnoseberichts
 
-Der Bericht zur Anruf Diagnose Zusammenfassung enthält Diagramme, die Fehlerraten für die verschiedenen in Skype for Business Server verwendeten Modalitäten vergleichen. Die Spalten in diesen Diagrammen sind tatsächlich Hotlinks; Wenn Sie beispielsweise auf die Spalte Instant Messaging für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts zur Peer-to-Peer-Aktivität in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)aus, einem Bericht, der zusätzliche Details zu allen Chat-Sitzungen enthält, die im Bericht zur Anruf Diagnose Zusammenfassung enthalten sind.
+Der zusammenfassende Anrufdiagnosebericht enthält Diagramme, die die Fehlerraten für die verschiedenen in Skype for Business Server verwendeten Modalitäten vergleichen. Die Spalten in diesen Diagrammen sind tatsächlich Hotlinks; Wenn Sie beispielsweise auf die Chatspalte für Peer-zu-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des Diagnoseberichts über [Peer-zu-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)durch, einem Bericht, der zusätzliche Details zu allen Chatsitzungen enthält, die im Zusammenfassenden Anrufdiagnosebericht enthalten sind.
   
 ## <a name="filters"></a>Filter
 
@@ -59,25 +59,25 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfasse
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**Von** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Intervall** <br/> | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Monatlich (maximal 12 Monate können angezeigt werden) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall „Täglich“ mit dem Startdatum 07.07.2015 und dem Enddatum 28.02.2015 ausgewählt haben, werden Daten für die Tage 07.08.2015 12:00 Uhr bis 07.09.2015 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage). <br/> |
-|**Pool** <br/> |Vollqualifizierter Domänenname (FQDN) des Registrar-Pools oder Edgeservers. Sie können einen einzelnen Pool auswählen oder auf **[Alle]** klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.<br/> |
+|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Intervall** <br/> | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Monatlich (maximal 12 Monate werden angezeigt) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie beispielsweise das Intervall "Täglich" mit dem Startdatum 7.7.2015 und dem Enddatum 28.02.2015 auswählen, werden Daten für die Tage 07.08.2015 00:00 Uhr bis 07.09.2015 00:00 Uhr angezeigt (d. h. Daten von insgesamt 31 Tagen). <br/> |
+|**Pool** <br/> |Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder des Edgeservers. Sie können entweder einen einzelnen Pool auswählen oder auf **[Alle]** klicken, um Daten für alle Pools anzuzeigen. Diese Dropdownliste wird automatisch anhand der Datensätze in der Datenbank aufgefüllt.<br/> |
    
-## <a name="metrics-for-peer-to-peer-sessions"></a>Metriken für Peer-to-Peer-Sitzungen
+## <a name="metrics-for-peer-to-peer-sessions"></a>Metriken für Peer-zu-Peer-Sitzungen
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Anrufdiagnosebericht für Peer-to-Peer-Sitzungen (d. h. für Sitzungen mit nur zwei Teilnehmern) angegeben werden.
+In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Anrufdiagnosebericht für Peer-zu-Peer-Sitzungen (d. h. für Sitzungen mit nur zwei Teilnehmern) angegeben werden.
   
-**Metriken für Peer-to-Peer-Sitzungen**
+**Metriken für Peer-zu-Peer-Sitzungen**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Sitzungen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Peer-to-Peer-Sitzungen, die stattgefunden haben.  <br/> |
-|**Fehlerrate** <br/> |Nein  <br/> |Der Prozentsatz der Peer-to-Peer-Sitzungen, bei denen ein Fehler aufgetreten ist. Wenn Sie auf dieses Element klicken, wird der Diagnosebericht über Peer-to-Peer-Aktivitäten angezeigt, der detailliertere Angaben zu den fehlgeschlagenen Peer-to-Peer-Sitzungen enthält.  <br/> |
+|**Sitzungen insgesamt** <br/> |Nein  <br/> |Die Gesamtzahl der Peer-zu-Peer-Sitzungen, die stattgefunden haben.  <br/> |
+|**Fehlerrate** <br/> |Nein  <br/> |Der Prozentsatz der Peer-zu-Peer-Sitzungen, bei denen ein Fehler aufgetreten ist. Wenn Sie auf dieses Element klicken, wird der Diagnosebericht über Peer-zu-Peer-Aktivitäten angezeigt, der detailliertere Angaben zu den fehlgeschlagenen Peer-zu-Peer-Sitzungen enthält.  <br/> |
    
 ## <a name="metrics-for-conferencing-sessions"></a>Metriken für Konferenzsitzungen
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Anrufdiagnosebericht für Konferenzsitzungen (d. h. für Sitzungen mit mindestens drei Teilnehmern) angegeben werden.
+In der folgenden Tabelle werden die Metriken aufgelistet, die im Zusammenfassenden Anrufdiagnosebericht für Konferenzsitzungen (d. h. für Sitzungen mit mindestens drei Teilnehmern) angegeben werden.
   
 **Metriken für Konferenzsitzungen**
 

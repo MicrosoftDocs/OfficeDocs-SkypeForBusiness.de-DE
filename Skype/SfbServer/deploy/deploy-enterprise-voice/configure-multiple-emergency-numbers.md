@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren mehrerer Notrufnummern in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,51 +15,51 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server konfigurieren.
-ms.openlocfilehash: 81d3dbed919c936eb8a656d123f5c44e445044d7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fe53e914eb0c406a4f7013df2f6ec106fa781f56
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027796"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804105"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Konfigurieren mehrerer Notrufnummern in Skype for Business
 
 In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server konfigurieren.
 
-Skype for Business Server unterstützt jetzt mehrere Notrufnummern für einen Client. Mehrere Notrufnummern sind ein neues Feature, das im kumulativen Update vom Juni 2016 eingeführt wurde. Bevor Sie Ihre Umgebung so konfigurieren, dass mehrere Notrufnummern unterstützt werden, sollten Sie den [Plan für mehrere Notrufnummern in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)lesen.
+Skype for Business Server unterstützt jetzt mehrere Notrufnummern für einen Client. Mehrere Notrufnummern sind eine neue Funktion, die im kumulativen Update vom Juni 2016 eingeführt wurde. Bevor Sie Ihre Umgebung für die Unterstützung mehrerer Notrufnummern konfigurieren, lesen Sie unbedingt ["Plan for multiple emergency numbers" in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
 
 > [!NOTE]
-> Wenn Sie noch nicht auf das kumulative Update vom November 2016 aktualisiert haben, lesen Sie [Updates für Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Mit dem kumulativen Update vom November 2016 steigt die Anzahl der Support Notrufnummern von 5 auf 100.
+> Wenn Sie noch nicht auf das kumulative Update vom November 2016 aktualisiert haben, lesen Sie [Die Updates für Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Mit dem kumulativen Update vom November 2016 erhöht sich die Anzahl der Supportnotrufnummern von 5 auf 100.
 
 ## <a name="configure-multiple-emergency-numbers"></a>Konfigurieren mehrerer Notrufnummern
 
-Um mehrere Notrufnummern zu konfigurieren, verwenden Sie das New-csemergencynumber "-Cmdlet, und geben Sie dann den Parameter" emergencynumbers "mit den Cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und [setCsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) an. Eine vollständige Beschreibung aller Standortrichtlinien Parameter, wie PSTN-Verwendung und-Speicherort erforderlich, finden Sie unter [Sets-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
+Zum Konfigurieren mehrerer Notrufnummern verwenden Sie das Cmdlet New-CsEmergencyNumber und geben dann den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy"](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und ["Set-CsLocationPolicy"](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) an. Eine vollständige Beschreibung aller Standortrichtlinienparameter, z. B. pstN-Verwendung und erforderlicher Standort, finden Sie unter [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
 
-Mit dem folgenden Befehl wird eine neue Notrufnummer mit Wählzeichenfolge 911 mithilfe des New-CsEmergency-Cmdlets erstellt:
+Mit dem folgenden Befehl wird eine neue Notrufnummer mit der Wählzeichenfolge 911 mithilfe des cmdlets New-CsEmergency erstellt:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911
 ```
 
-Der nächste Befehl ordnet die Nummer der angegebenen ortungsrichtlinie zu, indem der Parameter "emergencynumbers" im CmdletSet-CsLocationPolicy angegeben wird:
+Der nächste Befehl ordnet die Nummer der angegebenen Standortrichtlinie zu, indem der Parameter "EmergencyNumbers" im cmdlet Set-CsLocationPolicy wird:
 
 ```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a}
 ```
 
-Im nächsten Beispiel wird eine Notrufnummer mit einer einzigen Wähl Maske 112 erstellt:
+Im nächsten Beispiel wird eine Notrufnummer mit einer einzigen Wählmaske( 112) erstellt:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112
 ```
 
-Mit dem nächsten Befehl wird eine Notrufnummer mit mehreren Wähl Masken erstellt:
+Der nächste Befehl erstellt eine Notrufnummer mit mehreren Wählmasken:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 ```
 
-Im nächsten Beispiel werden mehrere Notrufnummern mit mehreren Wähl Masken hinzugefügt, und dann werden die Notrufnummern mit der angegebenen ortungsrichtlinie verknüpft:
+Das nächste Beispiel fügt mehrere Notrufnummern mit mehreren Wählmasken hinzu und ordnet die Notrufnummern dann der angegebenen Standortrichtlinie zu:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
@@ -67,7 +67,7 @@ Im nächsten Beispiel werden mehrere Notrufnummern mit mehreren Wähl Masken hin
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b}
 ```
 
-Im nächsten Beispiel werden mehrere Notrufnummern für Health Care Provider konfiguriert, die sowohl 911 als auch 450 verwenden:
+Im nächsten Beispiel werden mehrere Notrufnummern für Gesundheitsanbieter konfiguriert, die 911 und 450 verwenden:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911
@@ -92,7 +92,7 @@ Im nächsten Beispiel werden mehrere Notrufnummern für Indien konfiguriert:
 > Set-CsLocationPolicy -Identity India -EmergencyNumbers @{add=$a,$b,$c}
 ```
 
-Im nächsten Beispiel wird ein vorhandener Eintrag mit Wählzeichenfolge 911 und Wähl Masken 112 und 999 entfernt:
+Im nächsten Beispiel wird ein vorhandener Eintrag mit der Wählzeichenfolge 911 und den Wählmasken 112 und 999 entfernt:
 
 ```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999

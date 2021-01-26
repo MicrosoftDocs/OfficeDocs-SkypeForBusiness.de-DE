@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams zeigt
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -15,59 +15,59 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: Dieser Artikel enthält eine Übersicht über die von Microsoft Teams unterstützten Funktionen und Features.
-ms.openlocfilehash: 08dd61bceeaaae97e94a18ae5536a7810c062208
-ms.sourcegitcommit: e07b2d7470b93e52b9e85207db0d6fa3a136efd9
+description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams unterstützten Features.
+ms.openlocfilehash: ec2ea44272f29084a3130b591bb59ecd09406aba
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48787613"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825365"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams zeigt
 
-Microsoft Teams Displays sind eine Kategorie von all-in-One-Geräten für dedizierte Teams, die mit einem Ambient-Touchscreen und einer Freisprechfunktion, die von Cortana betrieben wird, ausgestattet sind. Dieser Artikel enthält eine Übersicht über die Anzeigen von Teams und kann Ihnen beim Planen, bereitstellen und Verwalten von Team anzeigen in Ihrer Organisation behilflich sein.
+Microsoft Teams displays are a category of all-in-one dedicated Teams devices that feature an ambient touchscreen and a hands-free experience powered by Cortana. Dieser Artikel bietet eine Übersicht über die Anzeigen von Teams und kann Ihnen helfen, anzeigende Teams in Ihrer Organisation zu planen, zu liefern und zu verwalten.
 
-Teams zeigt Ihre bevorzugten Teams mit &ndash; Chats, Besprechungen, anrufen, Kalendern und Dateien &ndash; auf einem einzigen Gerät an. Wenn Teams angezeigt werden, können Benutzer ein Mikrofon, eine Kamera und Lautsprecher (oder ein Bluetooth-Headset) für eine zuverlässige Anruf-und Besprechungs Erfahrung verwenden. Teams zeigt eine Integration in die Windows-PCs der Benutzer an, um eine Begleit Erfahrung zu ermöglichen, die eine nahtlose Geräteübergreifende Interaktion ermöglicht.
+Die Anzeigen in Teams bringen Chats, Besprechungen, Anrufe, Kalender und Dateien zu Ihren bevorzugten &ndash; Teams-Features auf &ndash; einem einzigen Gerät zusammen. Bei Anzeigen in Teams können Benutzer ein Mikrofon, eine Kamera und Lautsprecher (oder Bluetooth Headset) verwenden, um zuverlässige Anrufe und Besprechungen zu ermöglichen. Die Anzeige von Teams ist in die Windows-PCs der Benutzer integriert, um eine Begleiterfahrung zu bieten, die eine nahtlose geräteübergreifende Interaktion ermöglicht.
 
-Weitere Informationen finden Sie unter [Erste Schritte mit Teams wird angezeigt](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6).
+Weitere Informationen finden Sie unter ["Erste Schritte mit Teams".](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6)
 
-## <a name="features-supported-by-teams-displays"></a>Von Teams unterstützte Features
+## <a name="features-supported-by-teams-displays"></a>Von Teams unterstützte Features werden angezeigt.
 
-Zusätzlich zu den Features, die [von Teams-Smartphones unterstützt](phones-for-teams.md#features-supported-by-teams-phones)werden, sind die folgenden Features für Teams eindeutig:
+Zusätzlich zu den von Teams [Phones unterstützten](phones-for-teams.md#features-supported-by-teams-phones)Features sind die folgenden Features für Anzeigen in Teams eindeutig:
 
-- **Dedizierte anzeigen für Teams** Benutzer können auf alle Kernfunktionen von Teams zugreifen, einschließlich Chats, Besprechungen, Anrufe, Teams und Kanäle, Dateien und vieles mehr.
-- **Umgebungs Erfahrung** Benutzer können auf einfache Weise über ihre Arbeit mit Always-on-und flüchtigen Displays auf dem Laufenden bleiben, um wichtige Aktivitäten und Benachrichtigungen zu sehen, ohne dass Sie das primäre Arbeitsgerät kontextabhängig umschalten können. Benutzer können die Anzeige von Teams auch personalisieren, indem Sie den Hintergrund über Einstellungen anpassen.
-- **Hands-Free mit Cortana** Benutzer können mithilfe ihrer Stimme mit Teams interagieren, um mühelos an Besprechungen teilzunehmen, in Besprechungen vorzustellen, Antworten auf einen Teamchat zu diktieren, zu überprüfen, was im Kalender zu finden ist, und vieles mehr.
-- **Hinterlassen einer Notiz auf dem Sperrbildschirm** Gäste können wählen, ob Sie Audio-, Video-und Textnotizen hinterlassen möchten, und Benutzer können die von Gästen hinterlassenen Notizen überprüfen und sehen, wer von Ihnen angehalten wurde.  
+- **Dedizierte Anzeigen für Teams** Benutzer können auf alle grundlegenden Funktionen von Teams zugreifen, einschließlich Chat, Besprechungen, Anrufen, Teams und Kanälen, Dateien und mehr.
+- **Umgebungserlebnis** Benutzer können mit stets sichtbaren und gut sichtbaren Anzeigen ganz einfach über ihre Arbeit auf dem Bildschirm bleiben, um wichtige Aktivitäten und Benachrichtigungen anzuzeigen, ohne den Kontext auf ihrem primären Arbeitsgerät wechseln zu müssen. Benutzer können die Anzeigen von Teams auch personalisieren, indem sie den Hintergrund über Einstellungen anpassen.
+- **Freisprechen mit Cortana** Benutzer können mit den Teams-Anzeigen interagieren, indem sie mit ihrer Stimme mühelos an Besprechungen teilnehmen und sie präsentieren, Antworten auf einen Teams-Chat diktieren, überprüfen, was im Kalender angezeigt wird, und vieles mehr.
+- **Hinterlassen einer Notiz auf dem Sperrbildschirm** Gäste können auswählen, ob sie Audio-, Video- und Textnotizen hinterlassen, und Benutzer können die von Gästen hinterlassenen Notizen überprüfen und sehen, von wem sie angehalten wurden.  
 
 ## <a name="required-licenses"></a>Erforderliche Lizenzen
 
-Teams-Lizenzen können im Rahmen von [Microsoft 365-und Office 365-Abonnements](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)erworben werden. Wenn Sie mehr über die erforderlichen Lizenzen für die Verwendung von Teams erfahren möchten, lesen Sie [sprach-und Videoanrufe mit Microsoft Teams](https://products.office.com/microsoft-teams/voice-calling).
+Lizenzen für Microsoft Teams können im Rahmen von [Microsoft 365- und Office 365-Abonnements erworben werden.](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams-Anzeigen finden Sie unter Sprach- und [Videoanrufe mit Microsoft Teams.](https://products.office.com/microsoft-teams/voice-calling)
 
-Weitere Informationen zum Abrufen von Teams finden Sie unter wie erhalte [ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Weitere Informationen zum Erhalten von Microsoft Teams finden Sie [unter"Wie kann ich auf Microsoft Teams zugreifen?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="deploy-teams-displays-using-intune"></a>Bereitstellen von Teams zeigt die Verwendung von InTune an
+## <a name="deploy-teams-displays-using-intune"></a>Bereitstellen von Anzeigen in Teams mithilfe von Intune
 
-Weitere Informationen zum Bereitstellen von Teams mithilfe von InTune finden Sie unter [Bereitstellen von Teams für Telefone und Teams](phones-displays-deploy.md).
+Weitere Informationen zum Bereitstellen von Anzeigen in Teams mit Intune finden Sie unter ["Bereitstellen von Teams-Telefonen und -Anzeigen in Teams".](phones-displays-deploy.md)
 
-## <a name="manage-teams-displays-in-your-organization"></a>Verwalten von Teams in Ihrer Organisation
+## <a name="manage-teams-displays-in-your-organization"></a>Anzeigen "Teams verwalten" in Ihrer Organisation
 
-Wenn Sie Ihre Teams-Anzeigegeräte verwalten möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams angezeigt** . Hier können Sie das Geräte Konfigurationsprofil ändern, Updates verwalten, Geräte neu starten, Gerätekategorien hinzufügen und entfernen und vieles mehr. Weitere Informationen finden Sie unter [Verwalten von Geräten in Teams](device-management.md).
+Um Ihre Anzeigegeräte in Teams zu verwalten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Den Teams-Anzeigen.** Hier können Sie das Gerätekonfigurationsprofil ändern, Updates verwalten, Geräte neu starten, Gerätetags hinzufügen und entfernen und vieles mehr. Weitere Informationen finden Sie unter ["Verwalten Ihrer Geräte in Teams".](device-management.md)
 
-## <a name="upgrade-teams-phones-to-teams-displays"></a>Aktualisieren von Teams-Smartphones auf Teams-Displays
+## <a name="upgrade-teams-phones-to-teams-displays"></a>Aktualisieren von Telefonen in Teams auf die Anzeige von Teams
 
-Teams zeigt die Entwicklung von Teams-Smartphones. Sie können Teams-Telefone in Ihrer Organisation auf Teams anzeigen mit dem Microsoft Teams Admin Center aktualisieren. Diese Option steht nur für Telefone zur Verfügung, die ein Upgrade auf Teams-Displays unterstützen. Weitere Informationen finden Sie unter [Upgrade von Teams-Smartphones auf Teams-Displays](upgrade-phones-to-displays.md).
+Die Anzeige von Teams ist die Weiterentwicklung von Teams-Smartphones. Sie können die Microsoft Teams-Telefone in Ihrer Organisation mithilfe des Microsoft Teams Admin Centers auf Microsoft Teams-Anzeigen aktualisieren. Diese Option ist nur für Telefone verfügbar, die ein Upgrade auf Teams-Anzeigen unterstützen. Weitere Informationen finden Sie unter ["Aktualisieren von Teams-Telefonen auf Teams-Anzeigen".](upgrade-phones-to-displays.md)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
-[Einführung in Microsoft Teams-Displays](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
+[Einführung in Microsoft Teams Displays](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
 
-[Marketplace für Teams](https://office.com/teamsdevices)
+[Teams Marketplace](https://office.com/teamsdevices)
 
 [Telefone für Teams](phones-for-teams.md)
 
-[Für Microsoft Teams zertifizierte IP-Telefone](teams-ip-phones.md)
+[Für Microsoft Teams zertifizierte IP Phones](teams-ip-phones.md)
 
-[Aktualisieren von IP-Telefonen auf Teams zeigt](upgrade-phones-to-displays.md)
+[Aktualisieren von IP-Telefonen auf Anzeigen in Teams](upgrade-phones-to-displays.md)
 
-[Cortana-Sprachunterstützung in Teams](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)
+[Sprachunterstützung für Cortana in Teams](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)

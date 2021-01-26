@@ -1,8 +1,8 @@
 ---
 title: Administrator-Schulung für Microsoft Teams
 ms.reviewer: ''
-description: Besorgen Sie sich die Administratorschulungen und-Unterstützung, die Sie zum Verwalten von Microsoft Teams in Ihrer Organisation benötigen.
-author: lanachin
+description: Holen Sie sich die Administratorschulung und den Support, die Sie zum Verwalten von Microsoft Teams in Ihrer Organisation benötigen.
+author: cichur
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-lanac
-ms.openlocfilehash: 8fac3f019a4fb5379e11c6afd09c51363f598ad7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.author: v-cichur
+ms.openlocfilehash: 5e4c866935fe9ddb15f598ba6540fe8ed266f447
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48535173"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822715"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
-Hier erfahren Sie, wie Sie Teams für Ihre Organisation verwalten.
+Erfahren Sie, wie Sie Teams für Ihre Organisation verwalten.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ Hier erfahren Sie, wie Sie Teams für Ihre Organisation verwalten.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Neu: Schulung von Kursleitern für Teams</h3>
+                        <h3>NEU: Kursleiterunter leitung Schulung für Teams</h3>
                     </div>
                 </div>
             </div>

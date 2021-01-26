@@ -1,8 +1,8 @@
 ---
-title: ClientVersions-Tabelle in Skype for Business Server 2015
+title: Tabelle "ClientVersions" in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
-description: Die ClientVersions-Tabelle ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Clienttypen und-Versionen gespeichert ist, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle stellt eine Client Version dar.
-ms.openlocfilehash: c616f7d44d138732e96f2d71c7fdf0197c75ca5c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bei der ClientVersions-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und in der eine Liste der verschiedenen Clienttypen und -versionen gespeichert wird, die an in der Datenbank aufgezeichneten Sitzungen beteiligt sind. Jeder Datensatz in der Tabelle steht für eine Clientversion.
+ms.openlocfilehash: 9f72a640fa294a51e483f496cad9913177dfcd2c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815403"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813315"
 ---
-# <a name="clientversions-table-in-skype-for-business-server-2015"></a>ClientVersions-Tabelle in Skype for Business Server 2015
+# <a name="clientversions-table-in-skype-for-business-server-2015"></a>Tabelle "ClientVersions" in Skype for Business Server 2015
  
-Die ClientVersions-Tabelle ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Clienttypen und-Versionen gespeichert ist, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle stellt eine Client Version dar.
+Bei der ClientVersions-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und in der eine Liste der verschiedenen Clienttypen und -versionen gespeichert wird, die an in der Datenbank aufgezeichneten Sitzungen beteiligt sind. Jeder Datensatz in der Tabelle steht für eine Clientversion.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**VersionID** <br/> |**int** <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Clienttyp und die Version identifiziert.  <br/> |
-|**Version** <br/> |**nvarchar(256)** <br/> ||Versionsname.  <br/> |
-|**Clienttyp** <br/> |int  <br/> ||Gibt den Typ des in der Sitzung verwendeten Clients an. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle](useragentdef.md) . <br/> Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.  <br/> |
+|**VersionId** <br/> |**int** <br/> |Primary  <br/> |Eindeutige Zahl, die den Clienttyp und die Clientversion identifiziert.  <br/> |
+|**Version** <br/> |**nvarchar(256)** <br/> ||Versionsname  <br/> |
+|**ClientType** <br/> |int  <br/> ||Gibt den Typ des Clients an, der in der Sitzung verwendet wird. Weitere Informationen finden Sie in der Tabelle ["UserAgentDef".](useragentdef.md) <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
    
 

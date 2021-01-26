@@ -1,7 +1,7 @@
 ---
 title: Installieren von Teams mit Microsoft Endpoint Configuration Manager
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: 23bec0ff2e320da917fbdde122913a56f31b6d1c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030411"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802325"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
