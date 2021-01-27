@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über die Anforderungen für die Unterstützung von Microsoft Teams-Räumen, einschließlich der Auswahl des geeigneten Geräts, Mikrofone, Lautsprecher, Kameras und Displays.
+description: Erfahren Sie mehr über die Anforderungen für die Unterstützung von Microsoft Teams-Räumen, einschließlich der Auswahl des geeigneten Geräts, Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d14b551913b8120b9e62ad7c158ce3254429b530
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 19369ef2a20b3d0ff2c5f209ba43b3407c2656fc
+ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918951"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "49986401"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -38,7 +38,7 @@ Lesen Sie auch:
 > [!NOTE]
 > Microsoft Teams-Räume melden sich bei Microsoft Teams, Skype für Business Server 2019, Skype für Business Server 2015 oder Skype for Business Online an und können an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams Rooms wird in Microsoft 365 oder Office 365, betrieben von 21Vianet, oder in GCC-High- oder DoD-Umgebungen, nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams Rooms wird in Microsoft 365 oder Office 365, betrieben von 21Vianet, oder in GCC-High- oder DoD-Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
@@ -114,7 +114,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Umarmte IQ-Kamera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
-|[Jabra Panacast Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
+|[Jabra -Kamera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rallye](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -141,6 +141,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
+|[Yealink UVC40 All-in-One Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Tabelle Array Mic ](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 mit Intellimix Ceiling Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [MXN5W-C Ceiling speaker](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP: 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> MXN5W-C-Lautsprecher: 1.0.4 |
@@ -149,11 +150,11 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6-Deckenlautsprecher](https://www.biamp.com/products/tesira-speakers)| Audio FW Version: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Table Mic)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW Version: 3.15|
 |[ControlSpace EX-440C DSP von Bose + </br>P2600A AmpLink-Verstärker von Bose +</br> TCC2-Deckenmikrofon von Sennheiser + </br> EdgeMax EM180-Deckenlautsprecher von Bose ](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
-|[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink 1+Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
+|[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink Referent + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A ampLink(Abt.) +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 
-|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A ampLink Umfall+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
-|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power Vererbung SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC Column Surface mount Speakers AD-S402T](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) |Q-sys-Designer: 8.4.0 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> Nicht zutreffend </br>  <br>N1100v6.4.2.8 </br> Nicht zutreffend|
-|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power Vererbung SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC Column Surface mount Speakers AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) |Q-sys-Designer: 8.4.0 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> Nicht zutreffend </br>  <br>N1100v6.4.2.8 </br> Nicht zutreffend|
+|[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A ampLink 1</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
+|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power Vererbung SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC Column Surface mount Speakers AD-S402T](https://www.qsc.com/systems/products/loudspeakers/column-surface-mount-loudspeakers/acousticdesigntm-series-column-surface-mount/ad-s402t/) +</br> [QSC PTZ 20x60 Camera](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys-Designer: 8.4.0.1 </br> <br> TCC2 : 1.5.1 Dante 1.2.0 </br>  <br> Nicht zutreffend </br>  <br>N1100v6.4.2.8 </br> Nicht zutreffend </br> <br> 6.3.2.2|
+|[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power Vererbung SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC Column Surface mount Speakers AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [QSC PTZ 20x60 Camera](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys-Designer: 8.4.0.1 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> Nicht zutreffend </br>  <br>N1100v6.4.2.8 </br> Nicht zutreffend </br> <br> 6.3.2.2|
 
 
 &Dagger;-Kunden können entweder die Dante-Benutzeroberfläche oder den von Biamp/Sennheiser empfohlenen Netzwerkschalter für dieses Paket auswählen.
