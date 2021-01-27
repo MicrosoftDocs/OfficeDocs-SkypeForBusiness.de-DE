@@ -1155,8 +1155,12 @@
           href: edu-remote-low-bandwidth.md
         - name: Richtlinienassistent für "Teams für Education"
           href: easy-policy-setup-edu.md
-        - name: Erste Schritte mit Insights
-          href: class-insights.md
+        - name: Education Insights
+          items:
+            - name: Erste Schritte mit Insights
+              href: class-insights.md
+            - name: Synchronisieren von SIS-Daten mit Insights
+              href: education-insights-sis-data-sync.md
         - name: Aufgaben in Teams für Education
           href: expand-teams-across-your-org/assignments-in-teams.md
         - name: Teams-Ressourcen für Administratoren in Education
