@@ -30,7 +30,7 @@ ms.locfileid: "49731133"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Durchführen des Rollouts von Microsoft Teams mithilfe von Advisor für Teams
 
-Advisor für Teams führt Sie durch Ihren Rollout von Microsoft Teams. Er bewertet Ihre Microsoft 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt Advisor für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams-Dienstadministratoren und Office 365-Administratoren, Supportmitarbeitern und Ihrem Umstiegs- und Benutzerbereitschafts-Team. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
+Advisor für Teams führt Sie durch Ihren Rollout von Microsoft Teams. Die Funktion bewertet Ihre Microsoft 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt Advisor für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams-Dienstadministratoren und Office 365-Administratoren, Supportmitarbeitern und Ihrem Umstiegs- und Benutzerbereitschafts-Team. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
 
 Advisor für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Microsoft 365 Business Basic-Lizenz, damit Sie die Vorteile der Integration Advisor für Teams mit Forms und Planner nutzen können. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
 
@@ -46,10 +46,10 @@ Einen geführten Überblick über die Advisor für Teams-Oberfläche erhalten Si
 > [!IMPORTANT]
 > Wenn **Advisor für Teams** unter **Planung** im Team Admin Center nicht angezeigt wird, bedeutet dies, dass der Benutzer nicht für Teams lizenziert ist.
 
-Wenn Sie Advisor für Microsoft Teams zum ersten Mal verwenden, wird ein Bereitstellungsteam für Sie in Microsoft Teams erstellt. Für jede ausgewählte Workload wird ein Kanal hinzugefügt.
+Wenn Sie Advisor für Microsoft Teams zum ersten Mal verwenden, wird ein Bereitstellungsteam für Sie in Microsoft Teams erstellt. Für jeden ausgewählten Workload wird ein Kanal hinzugefügt.
 
 > [!IMPORTANT]
-> Wenn ein Bereitstellungsteam erstellt wurde und ein anderer Benutzer versucht, es zu erstellen, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, sich an das Supportteam zu wenden. Auf diese Weise wird verhindert, dass Teams versehentlich Informationen zu den vorhandenen Teams und deren Mitgliedern offenlegt. Bitten Sie den Besitzer des Bereitstellungsteams, Sie hinzuzufügen, oder wenden Sie sich an einen Supportmitarbeiter, um Hilfe zu erhalten.
+> Wenn ein Bereitstellungsteam erstellt wurde und ein anderer Benutzer versucht, es zu erstellen, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, sich an das Supportteam zu wenden. Auf diese Weise wird verhindert, dass Teams versehentlich den vorhandenen Teams und deren Mitgliedern Informationen offenlegt. Bitten Sie den Besitzer des Bereitstellungsteams, Sie hinzuzufügen, oder wenden Sie sich an einen Supportmitarbeiter, um Hilfe zu erhalten.
 
 ## <a name="available-advisor-for-teams-plans"></a>Verfügbare Pläne für Advisor für Teams
 
@@ -72,7 +72,7 @@ Advisor für Teams bietet zurzeit die folgenden Pläne:
     - Advisor für Teams-Bot
     - Der Skype for Business-Upgradeplan ist für Kunden gedacht, die zurzeit Skype for Business Online oder Skype for Business in lokalen Umgebungen verwenden, und hilft Ihnen, Unsicherheiten bei einem Upgrade zu beseitigen.  Der Plan basiert auf einem bewährten Gerüst für die erfolgreiche Implementierung von Änderungen und führt Sie schrittweise durch den Prozess, ganz gleich, ob Sie gerade erst mit Microsoft Teams beginnen, es bereits zusammen mit Skype for Business nutzen oder ein Upgrade vornehmen möchten. Der Plan bietet außerdem den Zugriff auf [Online-Leitfäden und bewährte Methoden](https://aka.ms/SkypeToTeams), [herunterladbare Ressourcen](https://aka.ms/UpgradeSuccessKit), [Live 1: viele Planungs-Workshops](https://aka.ms/UpgradeWorkshops) und weitere Ressourcen zur Unterstützung Ihres Erfolgs.
 
-Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
+Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um den nächsten Workload zu starten.
 
 ## <a name="tenant-assessment"></a>Mandantenbewertung
 
