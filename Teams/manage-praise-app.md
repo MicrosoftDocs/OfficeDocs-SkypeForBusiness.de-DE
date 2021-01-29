@@ -3,17 +3,18 @@ title: Verwalten der App "Lob" im Teams Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.reviewer: adotey
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: Informationen zu den Administratoreinstellungen in der App "Lob" im Microsoft Teams Admin Center
-ms.openlocfilehash: 122e7f0ffad914e62ede56ebd1811d1504f3fcd7
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: acb9d000aeec61daa35421c5ded389888032873f
+ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909189"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "50037851"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der App "Lob" im Microsoft Teams Admin Center
 
@@ -62,7 +63,7 @@ Wählen Sie **"Benutzerdefiniertes Signal erstellen" aus.** Von hier aus können
 2. Legen Sie die Signalfarben festgelegt. Zum Festlegen der Text- und Hintergrundfarben ihres Badges müssen Sie die Farben als hexadezimale Werte (hexadezimal) eingeben.
 
    > [!TIP]
-   > Wenn Sie mit Hexadezimalwerten noch [](#hex-colors-intro) nicht so genau zu erfahren sind, enthält dieser Artikel eine kurze Einführung, in der Sie erfahren, wie sie verwendet werden.
+   > Wenn Sie mit Hexadezimalwerten noch [](#hex-colors-intro) nicht so genau zu wissen sind, enthält dieser Artikel eine kurze Einführung, in der Sie erfahren, wie sie verwendet werden.
 
 3. Laden Sie ein Signalbild hoch. Der akzeptierte Dateityp ist . PNG. Die Bilddatei muss kleiner als 40 KB sein und maximal 216 x 216 Pixel groß sein.
 ![Signal mit Beschriftung für Hintergrund-, Text- und Bildfelder](media/praise-app-badge-fields.png)
@@ -86,18 +87,18 @@ Hexadezimalfarbwerte sind Zeichenfolgen mit sechs hexadezimalen Ziffern, die die
 
 Beispielsweise ist der Hexadezimalwert für die Farbe Rot #FF0000 da Rot auf den höchsten möglichen Wert festgelegt wird, FF sowie Grün und Blau jeweils auf den niedrigsten möglichen Wert , 00, festgelegt.
 
-Unterschiedliche Farben und deren Hexadezimalwerte erhalten Sie in [der Bing-Farbauswahl.](https://www.bing.com/search?q=color+picker)
+Unterschiedliche Farben und deren Hexadezimalwerte können Sie in der [Bing-Farbauswahl untersuchen.](https://www.bing.com/search?q=color+picker)
 
-Im Folgenden finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
+Unten finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
 
 |Farbe  |Hexadezimalwert|
 |-------|---------|
 |![Hexadezimalfarbenfarbe #FF6666](media/hexColor1.png)|  #FF6666   |
 |![Hexadezimalfarbe #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
 |![hexadezimal #FF75F0](media/hexColor3.png)|  #FF75F0   |
-|![Hexadezimalfarbe #00BFFF](media/hexColor4.png)|  #00BFFF   |
-|![Hexadezimalfarbe #800080](media/hexColor5.png)|  #800080   |
-|![Hexadezimalfarbe #000000](media/hexColor6.png)|  #000000   |
+|![Hexadezimalfarbenfarbe #00BFFF](media/hexColor4.png)|  #00BFFF   |
+|![Hexadezimalfarbenfarbe #800080](media/hexColor5.png)|  #800080   |
+|![Hexadezimalfarbfarbe #000000](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
