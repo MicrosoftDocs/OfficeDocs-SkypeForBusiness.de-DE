@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann sich über eine Liste bekannter Probleme für Microsoft Teams-Räume informieren, einschließlich Update, Benutzeroberfläche, Hardware, Einschränkungen und erwartetem Verhalten.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: afa1bf4a2a4fdd36bd45d8b237998ec461dcc1f4
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 63a646fa6fb404cb46de889c318181146cb44b2a
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865239"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055737"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
@@ -35,7 +35,7 @@ Dieser Artikel führt die bekannten Probleme für Microsoft Teams Rooms nach Fun
 |  Die Inhaltsfreigabe für SfB-Besprechungen wird nicht im Vollbildmodus angezeigt         |    In Skype for Business-Besprechungen können probleme auftreten, wenn für In-Besprechungsinhalte, die in einer Besprechung freigegeben wurden, der Vollbildmodus auf der Anzeige vor dem Raum angezeigt wird. Dies wird durch ein zugrunde liegendes Problem in der RDP-API (Remote Desktop Protocol) von Windows 10 verursacht. | Verwenden Sie die `<WinRTRdpEnabled>` XML-Einstellung, um die Windows 10 RDP-API zu deaktivieren, um dieses Problem zu beheben. Zum Deaktivieren müssen Sie den Wert als `false` angeben. Weitere Informationen finden Sie unter Verwalten [von Konsoleneinstellungen mit einer XML-Konfigurationsdatei.](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file) | Keine |
 |  App nicht mehr aktuell         |    Die Microsoft Teams Rooms-Konsole zeigt einen Fehler des Typs „Systemkonfiguration abgelaufen“ an.                |   [Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms](recovery-tool.md)             |  Keine |
 |  Gerät auf nicht unterstützte Version von Windows 10 aktualisiert   |    Windows 10-Gerät wurde von Version 1803 auf Version 1809 aktualisiert, was nicht unterstützt wird. Die unterstützte Version ist 1903. |   Dies kann geschehen, wenn die Einstellung "Gruppenrichtlinie" oder "MDM" für die Einstellung ["DeferFeatureUpdatesPeriodinDays",](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) mit der Sie Featureupdates für eine bestimmte Anzahl von Tagen zurück stellen können, auf den Höchstwert von 365 Tagen festgelegt ist. <br><br> Windows 10 Version 1809 wird von Microsoft Teams Rooms nicht unterstützt, während Version 1903 unterstützt wird. Ab dem 27. März 2020 ist Version 1809 jedoch mehr als 365 Tage alt. Wenn diese Einstellung nicht geändert wird, versucht Windows, Version 1809 zu installieren, was zu Problemen mit Microsoft Teams Rooms führen kann.<br><br>Um diese Situation zu vermeiden, **entfernen** Sie alle Gruppenrichtlinien- oder MDM-Einstellungen zum Zurückdringen von Updates. Dadurch kann Windows auf die neueste, unterstützte Betriebssystemversion aktualisieren. <br><br>**WICHTIG** Die Gruppenrichtlinie- oder MDM-Einstellung muss **entfernt** (links nicht konfiguriert) und nicht auf **"0" festgelegt werden.** Wenn die Richtlinie auf 0 festgelegt ist, verwendet Windows die neueste verfügbare Version, die möglicherweise nicht unterstützt wird. |  Keine |
-|  Cisco Room-Geräte können nicht an Einer Besprechung in Teams teilnehmen   |    Die Teilnahme an einer Teams-Besprechung über die direkte Gasteinwahl über ein Cisco Room-Gerät schlägt fehl und der Anruf endet, nachdem ein Benutzer "Teilnehmen" **ausgewählt hat.** |  Eine Änderung im Teams-Webclient, die Cisco Room-Geräten die Teilnahme an Teambesprechungen ermöglicht, hat diese Regression verursacht. Wir veröffentlichen eine Lösung für dieses Problem, die bis zum 15.01.2020 für alle Mandanten bereitgestellt wird. Cisco und Microsoft arbeiten zusammen, um ähnliche Probleme in Zukunft zu vermeiden.   |  Keine |
+
 
 
 <a name="OS-conflicts"> </a>  

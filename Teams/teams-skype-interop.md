@@ -1,7 +1,7 @@
 ---
 title: Interoperabilität von Teams und Skype
-author: cichur
-ms.author: v-cichur
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Erfahren Sie mehr über die Interoperabilitätsfunktionen zwischen den Teams-Benutzern in Ihrer Organisation und Skype (Consumer)-Benutzern.
 localization_priority: Normal
-ms.openlocfilehash: 9063fc0f13bab9d0168296f9e77c5136e760b7a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8bb6a83eddc60ff680d1a08c7266e082dd8b0188
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802355"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055647"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interoperabilität von Teams und Skype
 

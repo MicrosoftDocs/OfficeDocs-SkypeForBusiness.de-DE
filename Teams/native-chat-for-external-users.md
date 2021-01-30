@@ -1,7 +1,7 @@
 ---
-title: Systemeigene Chat-Umgebung für externe (Federated-) Benutzer in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: Native Chaterfahrung für externe Benutzer (Partnerbenutzer) in Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,38 +14,37 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Erfahren Sie mehr über die native Teams-Chat-Erfahrung für externe Access (Federated)-Benutzer in Microsoft Teams, die zwischen externen Benutzern verfügbar sind, bei denen sich beide Benutzer im TeamsOnly-Aktualisierungsmodus befinden.
-ms.openlocfilehash: d3ff414420f8d1d68965307e9303aed4b5cf00ff
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Erfahren Sie mehr über die native Chaterfahrung von Teams für externe Benutzer (Partnerbenutzer) in Microsoft Teams, bei denen sich beide Benutzer im Upgrademodus "TeamsOnly" befinden.
+ms.openlocfilehash: df9e1e41992e105937deacf898833995cdfb7714
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030601"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055657"
 ---
-<a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Systemeigene Chat-Umgebung für externe (Federated-) Benutzer in Microsoft Teams
-======================================
+# <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Native Chaterfahrung für externe Benutzer (Partnerbenutzer) in Microsoft Teams
 
-Wenn ein Microsoft Teams-Benutzer mit einem externen (Föderations-) Benutzer chattet, ist die Chat-Erfahrung auf Text begrenzt. Wenn sich jedoch sowohl der Benutzer Ihres Teams als auch der externe Benutzer im TeamsOnly-Upgrademodus befinden, können Sie eine "Native-Teams-Chat Erfahrung" verwenden, die Rich-Formatierung, @Mentions und andere Chat Features umfasst. Mit anderen Worten: Sie können dieselbe Rich-1:1-Team-Chat-Erfahrung mit berechtigten externen Benutzern haben, wie Sie dies bei Benutzern in Ihrer Organisation tun würden. Native Teams-Chats mit externen Benutzern sind weiterhin nur auf 1:1-Chats limitiert (externe Benutzer können keine Gruppen-Chats durchführen).
+Wenn ein Microsoft Teams-Benutzer mit einem externen (Partnerbenutzer) chatt, ist die Chaterfahrung auf Text beschränkt. Wenn sich jedoch sowohl ihr Benutzer als auch die Person in einer anderen Organisation im Upgrademodus "TeamsOnly" befinden, können Sie über eine "native Teams-Chaterfahrung" verfügen, die umfangreiche Formatierungen, @mentions und andere Chatfunktionen umfasst. Mit anderen Worten: Sie können über dieselbe umfangreiche 1:1 Teams-Chaterfahrung mit berechtigten Personen in anderen Organisationen verfügen wie mit Benutzern in Ihrer Organisation. Native Teams-Chats mit Personen in anderen Organisationen sind nur auf 1:1-Chats beschränkt.
 
-Die native Chat-Umgebung für externe Benutzer ist für alle Teams-Mandanten aktiviert, aber nicht alle Benutzer sind berechtigt. Um eine native Chat-Erfahrung anbieten zu können, müssen sowohl der Absender als auch der Empfänger für den TeamsOnly-Aktualisierungsmodus konfiguriert sein. Weitere Informationen zu Aktualisierungsrichtlinien finden Sie unter [Festlegen der Koexistenz-und Aktualisierungseinstellungen](setting-your-coexistence-and-upgrade-settings.md).
+Die native Chaterfahrung für Personen in anderen Organisationen ist für alle Teams-Mandanten aktiviert, aber nicht alle Personen sind berechtigt. Um eine systemeigene Chaterfahrung zu erhalten, müssen sowohl der Absender als auch der Empfänger für den Upgrademodus von TeamsOnly konfiguriert sein. Weitere Informationen zu Upgraderichtlinien finden Sie unter ["Festlegen der Koexistenz- und Upgradeeinstellungen".](setting-your-coexistence-and-upgrade-settings.md)
 
-Informationen zum Anzeigen einer Liste der Funktionen für Benutzer mit externem Zugriff in Teams finden Sie unter [Vergleichen von externem und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+Eine Liste der Funktionen für externe Zugriffsbenutzer in Teams finden Sie unter "Vergleich des [externen und des Gastzugriffs".](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)
 
-## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Wie kann ich feststellen, ob ich in einem nativen Chat bin?
+## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Wie kann ich wissen, ob ich in einem systemeigenen Chat bin?
 
-Wenn Sie nur Text in Ihrem Chat mit einem externen Benutzer austauschen können, befinden Sie sich in einem standardmäßigen externen Zugriff (Federated-Chat). Wenn Sie alle anderen Chat-Funktionen, einschließlich Formatierung, @Mentions, Emojis usw., haben, sind Sie in einem nativen Teams-Chat mit Ihrem externen Benutzer. 
+Wenn Sie in Ihrem Chat nur Text mit Personen in anderen Organisationen austauschen können, sind Sie in einem Standardchat mit externem Zugriff (Partnerchat) zu finden. Wenn Sie alle anderen Chatfunktionen, einschließlich Formatierung, @mentions, Emojis usw., haben, sind Sie in einem nativen Teams-Chat. 
 
-Teams überprüft in regelmäßigen Abständen den Upgrademodus für externe Benutzer, und wenn ein externer Benutzer Teams im TeamsOnly-Aktualisierungsmodus ausführt, werden Sie aufgefordert, zu einem nativen Teamchat zu wechseln und den ursprünglichen Chat zu sperren.
+Teams überprüft in regelmäßigen Abständen den Upgrademodus für Personen in anderen Organisationen, und wenn teams im Upgrademodus von Teams ausgeführt wird, werden Sie aufgefordert, zu einem nativen Teams-Chat zu wechseln und den ursprünglichen Chat zu sperren.
 
-Wenn Sie zu einem systemeigenen Teamchat wechseln, werden die beiden Konversationen nicht von Teams zusammengeführt. Stattdessen werden beide Chats in Ihrem Chat-Feed angezeigt. Der neue Chat in der systemeigenen Teams ist aktiv, aber der alte, nur-Text-Chat ist gesperrt.
-
+Wenn Sie zu einem nativen Teams-Chat wechseln, führt Teams die beiden Unterhaltungen nicht zusammen. Stattdessen werden beide Chats in Ihrem Chatfeed angezeigt. Der neue, native Chat in Teams ist aktiv, aber der alte Chat, der nur Text enthält, ist gesperrt.
 
 
-## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>Was passiert, wenn sich ein Benutzer nicht mehr im Modus "Teams" befindet?
 
-Wenn Sie einen eigenen Teams-Chat mit einem externen Nutzer führen und dann einer von Ihnen aus dem TeamsOnly-Upgrade-Modus ausgetauscht wird, sperrt Teams den Native Teams-Chat und gibt Ihnen einen Link zu einem limitierten, nur-Text-Chat. Sie können im Native Teams-Chat nicht fortfahren. Sie können immer noch den Chat in der systemeigenen Teams lesen, aber Sie können die Unterhaltung dort nicht fortsetzen.
+## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>Was geschieht, wenn sich ein Benutzer nicht mehr im Nur-Teams-Modus befindet?
 
-Wenn Teams einen alten, nur-Text-Chat mit diesem externen Nutzer findet, wird dieser Chat wieder belebt. Andernfalls erstellt Teams einen neuen, nur-Text-Chat.
+Wenn Sie einen nativen Teams-Chat mit Personen in anderen Organisationen unterhalten und dann einer von Ihnen aus dem Upgrademodus für TeamsOnly wechselt, sperrt Teams den nativen Teams-Chat und stellt Ihnen einen Link zu einem eingeschränkten, nur auf Text beschränkten Chat zur Verfügung. Sie können den nativen Teams-Chat nicht fortsetzen. Sie können den nativen Teams-Chat zwar weiterhin lesen, die Unterhaltung dort aber nicht fortsetzen.
+
+Wenn Teams einen alten Nur-Text-Chat mit dieser Person findet, wird dieser Chat angezeigt. Andernfalls erstellt Teams einen neuen Chat, der nur Text enthält.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

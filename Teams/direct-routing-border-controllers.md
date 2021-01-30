@@ -1,5 +1,5 @@
 ---
-title: Session Border Controllers certified for Direct Routing
+title: Für direktes Routing zertifizierte Session Border Controllers
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -16,14 +16,14 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Der Administrator kann erfahren, welche Session Border Controller (SBCs) für direct Routing zertifiziert wurden.
+description: Der Administrator kann erfahren, welche Session Border Controller (SBCs) für direktes Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9079701fdf34ff5b48aee5f127f9f0af4a8aae
-ms.sourcegitcommit: bf4dde013689bc3e76ffb03fe763cd9ff90e0add
+ms.openlocfilehash: ab409ccc93d08c20bb4498e39f26e1cd9bde6dcb
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "49992426"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055667"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -31,14 +31,14 @@ Microsoft arbeitet mit ausgewählten SBC-Anbietern (Session Border Controller) z
 
 Microsoft arbeitet mit jedem Anbieter zusammen, um: 
 
-- Arbeiten Sie gemeinsam an den Protokollen der SIP-Protokolle.
+- Arbeiten Sie gemeinsam an den Sip-Protokollen.
 - Führen Sie intensive Tests in einem Labor eines Drittanbieters durch. Nur Geräte, die die Tests bestehen, sind zertifiziert. 
 - Führen Sie tägliche Tests mit allen zertifizierten Geräten in Produktions- und Präproduktionsumgebungen durch. Die Validierung der Geräte in Präproduktionsumgebungen gewährleistet, dass neue Versionen des Codes für direktes Routing in der Cloud auf zertifizierten SBCs funktionieren. 
-- Richten Sie einen gemeinsamen Supportprozess mit den SBC-Anbietern ein.
+- Richten Sie einen gemeinsamen Supportprozess mit den Lieferanten von SBC ein.
 
 
   > [!NOTE]
-  > Microsoft unterstützt Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über Direct Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über direktes Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct -Routing-Problem eines Kunden mit dem SBC-Gerät eines Anbieters besteht, muss der Kunde den Anbieter von SBC um Unterstützung bekunden.
+  > Microsoft unterstützt Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über direktes Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über direktes Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct -Routing-Problem eines Kunden mit dem SBC-Gerät eines Anbieters besteht, muss der Kunde den Anbieter von SBC um Unterstützung bekunden.
 
 Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierten Geräte. (Informationen dazu, welche SBC-Anbieter die Optimierung lokaler Medien unterstützen, finden Sie unter "Konfigurieren der Optimierung lokaler [Medien für direktes Routing".)](direct-routing-media-optimization-configure.md)
 
@@ -74,10 +74,10 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Unterstützt 3.20 (empfohlen 4.0)        |  <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |  &#10004;   |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) für 1000 Series Integrated Services Router        |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam 17.2.1r (empfohlen 17.3.2)         |    <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
-|                                   |     Cisco Unified Border Element (CUBE) für 4000 Series Integrated Services Router        |     &#10004;   | &#10004; |   Unterstützte IOS XE Amsterdam 17.2.1r (empfohlen 17.3.2)         |   <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
+|                                   |     Cisco Unified Border Element (CUBE) für Router der Serie 4000 Integrated Services        |     &#10004;   | &#10004; |   Unterstützte IOS XE Amsterdam 17.2.1r (empfohlen 17.3.2)         |   <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
 |                                   |     Cisco Unified Border Element (CUBE) für 1000V Series Cloud Services Router       |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam 17.2.1r (empfohlen 17.3.2)         |    <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Cisco Unified Border Element (CUBE) für Router der 1000 Series Aggregation Services      |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam 17.2.1r (empfohlen 17.3.2)         |    <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
-|                                 |     Cisco Unified Border Element (CUBE) für Edgeplattformen im Rahmen von 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                                 |     Cisco Unified Border Element (CUBE) für Die Edgeplattformen 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |           |       Version 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      <ul> <li> [Bandwidth Dynamic Location Routing](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Internes Notfallgateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
@@ -85,6 +85,8 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Hyperlink    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      V10R1.2       |     |    | 
+
 
 <br/>
 <br/>
@@ -105,5 +107,5 @@ In der folgenden Tabelle sind geräte aufgeführt, die auf Interoperabilität zw
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode mit Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform Analog Telephone Adapter |     &#10004;     |
   
-Produktfeedback zu Teams, z. B. Ideen für neue Features, finden Sie unter [UserVoice.](https://microsoftteams.uservoice.com)
+Um uns Produktfeedback zu Teams zu geben, z. B. Ideen für neue Features, lesen Sie [Uservoice.](https://microsoftteams.uservoice.com)
 Beachten Sie die Für eine Hauptversion erteilte Zertifizierung. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.
