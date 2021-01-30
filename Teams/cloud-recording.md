@@ -18,12 +18,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 40fad38d8c77d8194d2bf24a451fb9438f10c586
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 5fb43635d8155d6fe98f02e561ea843ca8c74a4e
+ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918971"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50055637"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -55,7 +55,7 @@ Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss 
 > Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream, sondern stattdessen in Async Media Services (AMS) mit einer Beschränkung auf 21 Tage gespeichert werden, bevor sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
 
 > [!IMPORTANT]
-> Beachten Sie auch, dass die Aufzeichnungsaufbewahrungsdauer bei AmS von der Chatnachricht selbst betroffen ist. Ein Löschvorgang der ursprünglichen Chatnachricht "AMS-Aufzeichnung" verhindert, dass Benutzer auf die Aufzeichnung zugreifen können. Es gibt zwei Szenarien, die sich darauf auswirken können. 1) Der Benutzer löscht die Chatnachricht manuell. Wenn die ursprüngliche Nachricht in diesem Szenario nicht mehr angezeigt wird, können die Benutzer nicht mehr auf die Aufzeichnung zugreifen, und es sind keine weiteren Downloads mehr möglich. Die Aufzeichnung selbst bleibt jedoch möglicherweise für einen Bestimmten Zeitraum (nicht größer als die ursprünglichen 21 Tage) in den internen Systemen von Microsoft erhalten. 2) Das Aufzeichnen von Chatnachrichten wird durch die Aufbewahrungsrichtlinie für Chats gelöscht – DIE Aufzeichnungen von Chats sind direkt an die Aufbewahrungsrichtlinie für Chats gebunden. Obwohl Aufzeichnungen auf AMS standardmäßig 21 Tage lang aufbewahrt werden, bevor sie gelöscht werden, wird die Aufzeichnung auch gelöscht, wenn die Chatnachricht vor dem 21-Tage-Zeitraum aufgrund von Aufbewahrungsrichtlinien für Chatnachrichten gelöscht wird. Danach gibt es keine Möglichkeit zum Wiederherstellen der Aufzeichnung.
+> Beachten Sie auch, dass die Aufzeichnungsaufbewahrung bei AmS von der Chatnachricht selbst betroffen ist. Ein Löschvorgang der ursprünglichen Chatnachricht "AMS-Aufzeichnung" verhindert, dass Benutzer auf die Aufzeichnung zugreifen können. Es gibt zwei Szenarien, die sich darauf auswirken können. 1) Der Benutzer löscht die Chatnachricht manuell. Wenn die ursprüngliche Nachricht in diesem Szenario nicht mehr angezeigt wird, können die Benutzer nicht mehr auf die Aufzeichnung zugreifen, und es sind keine weiteren Downloads mehr möglich. Die Aufzeichnung selbst kann jedoch innerhalb der internen Systeme von Microsoft für einen Bestimmten Zeitraum aufbewahrt werden (nicht größer als der ursprüngliche Zeitraum von 21 Tagen). 2) Das Aufzeichnen von Chatnachrichten wird durch die Aufbewahrungsrichtlinie für Chats gelöscht – DIE Aufzeichnungen von Chats sind direkt an die Aufbewahrungsrichtlinie für Chats gebunden. Obwohl Aufzeichnungen auf AMS standardmäßig 21 Tage lang aufbewahrt werden, bevor sie gelöscht werden, wird die Aufzeichnung aufgrund von Aufbewahrungsrichtlinien für Chatnachrichten auch gelöscht, wenn die Chatnachricht vor dem 21-Tage-Zeitraum gelöscht wird. Danach gibt es keine Möglichkeit zum Wiederherstellen der Aufzeichnung.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten der Aufzeichnungsfunktion für Teams-Cloudmeetings für Benutzer in Ihrer Organisation
 
@@ -120,36 +120,37 @@ Verwenden Sie das folgende Cmdlet, um In-Region-Aufzeichnungen in der globalen R
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
 
-Here's a summary of what happens when you turn on meeting recording when this change takes effect:
+Nachfolgend finden Sie eine Zusammenfassung dessen, was passiert, wenn Sie die Besprechungsaufzeichnung aktivieren, wenn diese Änderung wirksam wird:
 
-|If you turn on meeting recordings...|Meeting recordings are stored... |
+|Wenn Sie Besprechungsaufzeichnungen aktivieren,|Werden Besprechungsaufzeichnungen folgendermaßen gespeichert: |
 |---|---|
-|Before Microsoft Stream is available in your in-country data residency region |In the nearest Microsoft Stream region|
-|After Microsoft Stream is available in your in-country data residency region |In your in-country data residency region|
+|Bevor Microsoft Stream in Ihrem lokalen Datenaufbewahrungsbereich zur Verfügung steht |In der nächstgelegenen Microsoft Stream-Region|
+|Nachdem Microsoft Stream in Ihrem lokalen Datenaufbewahrungsbereich zur Verfügung steht |In Ihrem lokalen Datenaufbewahrungsbereich|
 
-For new and existing tenants that haven't yet turned on meeting recording, new recordings are stored in-country after Microsoft Stream is available in the in-country data residency region. However, any tenant that enables meeting recording before Microsoft Stream is available in the in-country data residency region will continue to use the Microsoft Stream storage for existing and new recordings, even after Microsoft Stream is available in the in-country data residency region.
+Bei neuen und vorhandenen Mandanten, die die Besprechungsaufzeichnung noch nicht aktiviert haben, werden neue Aufzeichnungen lokal gespeichert, nachdem Microsoft Stream im lokalen Datenaufbewahrungsbereich zur Verfügung steht. Allerdings werden alle Mandanten, die die Aufzeichnung von Besprechungen aktivieren, bevor Microsoft Stream im inländischen Datenaufbewahrungsbereich zur Verfügung steht, weiterhin den Microsoft Stream-Speicher für vorhandene und neue Aufzeichnungen verwenden, auch wenn Microsoft Stream im inländischen Datenaufbewahrungsbereich verfügbar gemacht wird.
 
-To find the region where your Microsoft Stream data is stored, in Microsoft Stream, click **?** in the upper-right corner, click **About Microsoft Stream**, and then click **Your data is stored in**.  To learn more about the regions where Microsoft Stream stores data, see [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+Um herauszufinden, in welcher Region Ihre Microsoft Stream-Daten gespeichert werden, klicken Sie in Microsoft Stream auf **?** Klicken Sie in der oberen, rechten Ecke auf **Über Microsoft Stream** und dann auf **Ihre Daten werden gespeichert in**.  Um mehr über die Regionen zu erfahren, in denen Microsoft Stream Daten speichert, lesen Sie [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-To learn more about where data is stored across services in Microsoft 365 or Office 365, see [Where is your data located?](https://products.office.com/where-is-your-data-located?rtc=1)
+Um mehr darüber zu erfahren, wo die Daten der Dienste von Microsoft 365 oder Office 365 gespeichert werden, lesen Sie [Wo befinden sich Ihre Daten?](https://products.office.com/where-is-your-data-located?rtc=1)
 
-### Turn on or turn off recording transcription
+### <a name="turn-on-or-turn-off-recording-transcription"></a>Aufzeichnungstranskription ein- oder ausschalten
 
-This setting controls whether captions and transcription features are available during playback of meeting recordings. If you turn this off, the **Search** and **CC** options won't be available during playback of a meeting recording. The person who started the recording needs this setting turned on so that the recording also includes transcription.
+Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Option deaktivieren, stehen die Optionen **Suche** und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
 
 > [!NOTE]
-> That transcription for recorded meetings is currently only supported for users who have the language in Teams set to English and when English is spoken in the meeting. They are stored together with the meeting recordings in Microsoft Stream cloud storage.
+> Diese Transkription aufgezeichneter Besprechungen wird derzeit nur für Benutzer unterstützt, die die Sprache in Microsoft Teams auf Englisch festgelegt haben, und funktioniert nur, wenn in der Besprechung Englisch gesprochen wird. Die Transkriptionen werden zusammen mit Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert.
 
-You can use the Microsoft Teams admin center or PowerShell to set a Teams meeting policy to control whether the recording initiator gets a choice to transcribe the meeting recording.
+Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 
-In the Microsoft Teams admin center, turn on or turn off the **Allow transcription** setting in the meeting policy. To learn more, see [Manage meeting policies in Teams](meeting-policies-in-teams.md#allow-transcription).
+Schalten Sie im Microsoft Teams Admin-Center die Option **Transkription gestatten** in der Besprechungsrichtlinie ein oder aus. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md#allow-transcription).
 
-Using PowerShell, you configure the AllowTranscription setting in TeamsMeetingPolicy. To learn more, see [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) and [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowTranscription“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Unless you have assigned a custom policy to the users, users get the Global policy, which has AllowTranscription disabled by default.
+Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowTranscription standardmäßig deaktiviert ist.
 
-For a user to fall back to Global policy, use the following cmdlet to remove a specific policy assignment for a user:
+Wenn ein Benutzer auf die globale Richtlinie zurückgesetzt werden soll, verwenden Sie das folgende Cmdlet, um eine bestimmte Richtlinienzuweisung für einen Benutzer zu entfernen:
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
