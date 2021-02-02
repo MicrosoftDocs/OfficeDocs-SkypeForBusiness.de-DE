@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7570368a6b9bd889bc5ed632cd1d057d70ae791a
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986424"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067120"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren
 Je mehr Daten in [Education Insights](class-insights.md) eingespeist werden, desto besser können Dozenten Ihre Schüler/Studenten sowie Schulleiter ihre Dozenten unterstützen.
@@ -37,7 +37,7 @@ Insights funktioniert am besten unter Verwendung des [SDS V2-Dateiformats](https
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>Unterschiede zwischen den Dateiformaten SDS V1 und V2
 
-| Datentyp |   V1 | V2 (empfohlen) |
+| Datentyp |   V1 | V2 (empfohlen für neue Kunden) |
 |:--- |:--- |:--- |
 | **Benutzer** | Das V1-Format enthält **nur Dozenten**, sodass Sie zum Festlegen von Berechtigungen auf Organisationsebene für Ihre Schulleiter nach ihnen suchen und die Berechtigung für jeden einzelnen manuell festlegen müssen. | Das V2-Format enthält **alle Rollen**, sodass Sie rollenbasierte Berechtigungen zuweisen können. |
 | **Organisationen** | Das V1-Format enthält **nur Schulen**, sodass nur eine Aggregationsebene (alle Ihre Schulen) angezeigt wird. Sie können in eine bestimmte Schule hineinzoomen, indem Sie eine flache Liste verwenden. Diese Liste kann jedoch eine große Anzahl von Schulen oder verschiedene Schultypen enthalten, die schwer zu vergleichen sind (z. B. Grundschule mit Sekundarschule oder naturwissenschaftliche mit künstlerischer Schule).<br/><br/> Wenn eine Hierarchie vorhanden ist, können Sie sinnvolle Ebenen erstellen, wie z. B. eine Naturwissenschafts- oder Kunstabteilung.| Das V2-Format enthält **die vollständige Hierarchie Ihres Schulbezirks oder Ihrer Bildungseinrichtung**, einschließlich Universitäten, Fachhochschulen, Fakultäten, Campus, Regionen, Programmen und so weiter.<br/><br/> Mit einer Hierarchie können Sie relevante Aggregationen nach jeder Ebene der Hierarchie sehen, schnell zwischen Organisationseinheiten auf jeder Ebene vergleichen, bestimmten Ebenen Berechtigungen zuweisen, Ziele nach Organsationsebene setzen usw.|
@@ -112,7 +112,9 @@ Wenn die Option *Organisationsdaten aus SDS synchronisieren (Vorschau)* auf der 
 ### <a name="deploy-sds"></a>Bereitstellen von SDS
 **Wenn Sie SDS bereits verwenden**, empfiehlt es sich, unsere [bewährten Methoden](#best-practices) zu berücksichtigen. 
 
-Um Ihre aktuellen Profile mit Insights zu synchronisieren, gehen Sie zu Ihren **Synchronisierungsprofilen**, klicken Sie auf **Bearbeiten** und wählen Sie **Organisationsdaten aus SDS synchronisieren** aus. Für die erste Synchronisierung empfehlen wir, 24 Stunden zu warten, bis die Berichte nach dem Aktualisieren der Daten aus Ihrem SIS verfügbar sind.  
+Um Ihre aktuellen Profile mit Insights zu synchronisieren, gehen Sie zu Ihren **Synchronisierungsprofilen**, klicken Sie auf **Bearbeiten** und wählen Sie **Mit Insights synchronisieren** aus. Für die erste Synchronisierung empfehlen wir, 24 Stunden zu warten, bis die Berichte nach dem Aktualisieren der Daten aus Ihrem SIS verfügbar sind.  
+
+:::image type="content" source="media/insights-sds-profile-sync.png" alt-text="Umschalttaste "Profil mit Insights synchronisieren"":::
 
 **Wenn Sie SDS noch nicht verwenden**, müssen Sie es jetzt [bereitstellen](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync).
 
@@ -122,7 +124,7 @@ Während des Bereitstellungsprozesses können Sie entscheiden, ob Sie SDS für d
 > Wenn es Mitte des Jahres ist und Sie Teams bereits manuell erstellt haben, verwenden Sie SDS nur, um die Daten für Insights bereitzustellen, und erwägen Sie im nächsten Jahr, SDS auch für die Bereitstellung von Benutzern und Klassen in Teams zu verwenden.
 
 ### <a name="verify-the-sync-process"></a>Überprüfen des Synchronisierungsvorgangs
-Ein neuer Statusbereich wird neben „Organisationsdaten synchronisieren“ angezeigt – Vorschau auf der Einstellungsseite.
+Ein neuer Statusbereich wird neben "Organisationsdaten aus SDS synchronisieren (Vorschau)" auf der Einstellungsseite angezeigt.
  
 *   Wenn der Status **In Bearbeitung** lautet, warten Sie bitte bis zu 24 Stunden nach der Bereitstellung des SDS-Profils.
 

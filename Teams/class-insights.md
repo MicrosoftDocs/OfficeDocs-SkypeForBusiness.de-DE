@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd60e20d4218c9deaca84974b890280f942fe1be
-ms.sourcegitcommit: 086d27c9381fc1f1c6523d4c48dea275dea917b7
+ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49986391"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067130"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -174,7 +174,7 @@ Um Einblicke auf Organisationsebene bereitzustellen, müssen wir [School Data Sy
 
 Das Anzeigen von Insights auf Klassenebene als Dozent der Klasse erfordert dies *nicht*, weil wir die Klassenstruktur und Berechtigungen von Teams verwenden.
 
-Weitere Informationen finden Sie unter [SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren](education-insights-sis-data-sync.md).
+Weitere Informationen finden Sie unter [**SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Berechtigungen verwalten
 Sie müssen Berechtigungen erteilen an leitende akademische Beauftragte, Abteilungsleiter, Bezirksleiter, Schuldirektoren, Schulleiter, Beratungslehrer, Fachleiter, Programmleiter, Sozialarbeiter sowie Psychologen. Dozenten werden automatisch Berechtigungen erteilt, wenn sie ein Klassenteam besitzen.
@@ -208,19 +208,51 @@ Material für **Schulleiter** wird in Kürze veröffentlicht.
 ## <a name="turn-insights-off-or-on"></a>Insights deaktivieren oder aktivieren
 Insights ist standardmäßig aktiviert. Wenn Sie Insights deaktivieren, *löschen wir alle gesammelten Daten* für Insights. Wenn Sie Insights reaktivieren, beginnen wir mit der Datensammlung ab dem Zeitpunkt der Reaktivierung.
 
-### <a name="turn-insights-off-using-school-data-sync-sds"></a>Deaktivieren von Insights mit School Data Sync (SDS)
+### <a name="turn-off-insights-using-school-data-sync-sds"></a>Deaktivieren von Insights mit School Data Sync (SDS)
 School Data Sync (SDS) unterstützt bei der Automatisierung des Imports und der Synchronisierung von Schülerinformationssystem-(SIS-)Daten mit Teams.
 
-Die Verwendung von Insights erfordert *nicht* die Verwendung von SDS. Sie können jedoch jederzeit die Insights-Optionen deaktivieren. Öffnen Sie das SDS Admin Center und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Deaktivieren Sie **Daten für Insights sammeln**, um Insights zu deaktivieren. 
+Die Verwendung von Insights erfordert *nicht* die Verwendung von SDS. Sie können jedoch jederzeit die Insights-Optionen deaktivieren. Öffnen Sie das [SDS Admin Center](https://sds.microsoft.com) und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Deaktivieren Sie **Daten für Insights sammeln**, um Insights zu deaktivieren. 
 
 :::image type="content" source="media/insights-sds-settings.png" alt-text="Die Umschaltfläche zum Aktivieren oder Deaktivieren von Insights.":::
 
-### <a name="turn-insights-on"></a>Insights aktivieren
-Wenn Sie Insights deaktiviert haben, können Sie es schnell wieder aktivieren. Öffnen Sie das SDS Admin Center und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Aktivieren Sie **Daten für Insights sammeln**, um Insights zu aktivieren.
+### <a name="turn-on-insights"></a>Insights aktivieren
+Wenn Sie Insights deaktiviert haben, können Sie es schnell wieder aktivieren. Öffnen Sie das [SDS Admin Center](https://sds.microsoft.com) und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Aktivieren Sie **Daten für Insights sammeln**, um Insights zu aktivieren.
 
 ### <a name="how-to-delete-your-data"></a>So löschen Sie Ihre Daten
-Insights speichert die Aktionen von Schülern/Studenten und Lehrkräften, die im Zusammenhang mit einem Klassenteam durchgeführt wurden. Diese Daten werden als gemischter Datensatz betrachtet und daher nicht automatisch aus dem Dienst gelöscht, sobald die Benutzerkonten von Schülern oder Lehrkräften aus Ihrer Organisation gelöscht werden.
+Insights speichert die Aktionen von Schülern/Studenten und Lehrkräften, die im Zusammenhang mit einem Klassenteam durchgeführt wurden. Diese Daten werden als gemischter Datensatz betrachtet und daher nicht automatisch aus dem Dienst gelöscht, sobald die Benutzerkonten von Schülern/Studenten oder Lehrkräften aus Ihrer Organisation gelöscht werden.
 Hinweis: Das Löschen von Daten beeinträchtigt die Fähigkeit von Insights, das Engagement von Klassenteams im Zeitverlauf zu analysieren.
-* [Öffnen Sie ein Supportticket](https://edusupport.microsoft.com/support). Das Supportticket muss eindeutig die Anforderung für einen "GDPR Delete DSR"-Vorgang angeben und die zu löschende Benutzerobjekt-ID enthalten. Es gibt keine Möglichkeit, den Datensatz oder das Zeitfenster des Löschvorgangs zu begrenzen.
+* [Öffnen Sie ein Supportticket](https://aka.ms/edusupport). Das Supportticket muss eindeutig die Anforderung für einen "GDPR Delete DSR"-Vorgang angeben und die zu löschende Benutzerobjekt-ID enthalten. Es gibt keine Möglichkeit, den Datensatz oder das Zeitfenster des Löschvorgangs zu begrenzen.
 *   Nach dem Einreichen wartet das Supportticket eine Woche lang in der Warteschlange, um die Compliance-Richtlinie zur minimalen Aufbewahrung von Daten zu erfüllen. Sie haben während dieser Zeit die Möglichkeit, den Vorgang abzubrechen.
 *   Nach einer Woche ergreift das Education Insights-Team Maßnahmen, um sicherzustellen, dass alle Daten im Zusammenhang mit der Benutzer-ID aus dem Dienst gelöscht werden. Der Microsoft-Support überwacht das Ticket und benachrichtigt Sie, sobald der Löschvorgang abgeschlossen ist, spätestens nach 28 Tagen.
+
+## <a name="troubleshooting"></a>Problembehandlung
+### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>Warum sieht meine Einrichtung keine Daten in Insights?
+Wenn es sich um einen *neuen* Mandanten handelt und noch *nie* Daten in Insights angezeigt wurden, vergewissern Sie sich, dass Ihr Mandant für den Zugriff auf Insights als **Education-Mandant verifiziert** ist. Wenden Sie sich an Ihren Microsoft-Kundenbetreuer, und bitten Sie ihn zu prüfen, ob der Mandant korrekt konfiguriert ist.
+
+Wenn Sie keinen Kundenbetreuer haben, öffnen Sie bitte ein Ticket. Wechseln Sie zu [Office 365 Admin Center](https://admin.microsoft.com/AdminPortal/) > **Support** > **Neue Serviceanfrage**.  Schreiben Sie in den Titel des Tickets: "Unterstützung bei der Education-Verifizierung benötigt".
+ 
+Stellen Sie außerdem sicher, dass die Datenerfassung für Insights aktiviert ist. Die Funktion ist zwar standardmäßig aktiviert, es kann jedoch sein, dass der IT-Administrator sie deaktiviert und damit alle von Insights gespeicherten Daten gelöscht hat.
+
+Um dies zu überprüfen, öffnen Sie das [SDS Admin Center](https://sds.microsoft.com), und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Prüfen Sie den Status von "Daten für Insights sammeln".
+
+Wenn die Option deaktiviert ist, aktivieren Sie sie wieder.  Insights beginnt, Daten zu sammeln, aber es kann bis zu 24 Stunden dauern, bis diese in den Berichten angezeigt werden. 
+
+
+### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>Warum sehe ich Daten für einige Schüler/Studenten oder Klassen/Kurse, aber nicht für alle?
+Wir sammeln nur Daten für *lizensierte* Schüler/Studenten. Der wahrscheinlichste Grund ist also, dass Gasthörer an den Kursen teilnehmen, deren Daten nicht gesammelt werden. Sie sehen vielleicht die Namen, aber keine Daten.
+
+Überprüfen Sie den Status Ihrer Schüler/Studenten, um sicherzustellen, dass sie alle über Schülerlizenzen verfügen. 
+
+### <a name="why-dont-educators-see-meeting-data"></a>Warum sehen Lehrkräfte die Daten einer Besprechung nicht?
+Es dauert bis zu 24 Stunden, bis Besprechungsdaten in Insights-Berichten angezeigt werden. Prüfen Sie also, ob genügend Zeit vergangen ist.
+
+Überprüfen Sie auch, dass Schüler/Studenten *nicht* [ohne ein Teams-Konto an der Besprechung teilnehmen](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). In einem solchen Szenario wird die Aktivität der Schüler/Studenten nicht erfasst.
+
+> [!TIP]
+> Für Lehrkräfte, die die Anwesenheit der Schüler/Studenten verfolgen möchten, empfiehlt es sich, während der Besprechung eine Nachricht zu senden und die Schüler zu bitten, zu antworten. Dadurch wird ihre Anwesenheit innerhalb weniger Minuten registriert.
+
+> [!NOTE]
+> Wenn Ihre Frage noch unbeantwortet ist, [öffnen Sie bitte ein Supportticket](https://aka.ms/edusupport). Fügen Sie die relevanten Screenshots hinzu, die das Problem darstellen, sowie das Datum, an dem das Problem aufgetreten ist. Fügen Sie alle zusätzlichen Daten hinzu, von denen Sie denken, dass sie uns helfen könnten, das Problem zu lösen.
+
+
+
