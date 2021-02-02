@@ -12,181 +12,200 @@ search.appverid: MET150
 ms.reviewer: vikramju
 f1.keywords:
 - NOCSH
-description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie Sie sich auf Teams auswirken.
+description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie sich diese auf Teams auswirken können.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c545b6289cd1a40fdf9ca967ebd44cd2d781605d
-ms.sourcegitcommit: 950c04ce49064209ee04880e7c7473a4f931df50
+ms.openlocfilehash: 95c3c2e854a22ff3ff74595a56f84edaaeb1c5f1
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48996016"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067150"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
-Informationsbarrieren (IB) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. IB ist nützlich, wenn beispielsweise eine Abteilung Informationen verarbeitet, die nicht für andere Abteilungen freigegeben werden sollen, oder eine Gruppe verhindert oder isoliert werden muss, um mit Personen außerhalb dieser Gruppe zu kommunizieren.
+Informationsbarrieren (Information Barrieren, PSP) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. Psps sind z. B. hilfreich, wenn eine Abteilung Informationen verwendet, die nicht für andere Abteilungen freigegeben werden sollten. IBs sind auch nützlich, wenn eine Gruppe isoliert werden muss oder die Kommunikation mit Personen außerhalb dieser Gruppe verhindert werden muss.
 
 > [!NOTE]
-> - Gruppen für Informationsbarrieren können nicht für Mandanten erstellt werden.
-> - Die Verwendung von Bots, AAD-apps und einigen APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
-> - Private Kanäle sind mit Richtlinien für Informationsbarrieren kompatibel, die Sie konfigurieren.
-> - Neu: Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit Teams verbunden sind, finden Sie [hier](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+> - Gruppen mit Informationsbarriere (Information Barrier, IB) können nicht mandantenübergreifend erstellt werden.
+> - Die Verwendung von Bots, Azure Active Directory (Azure AD)-Apps und einigen APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
+> - Private Kanäle sind mit den von Ihnen konfigurierten RICHTLINIEN zur Einhaltung der Richtlinien zur Datenintehstung kompatibel.
+> - Neu: Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit Teams verbunden sind, finden Sie unter "Segmente", die [Microsoft Teams-Websites zugeordnet sind.](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
-Richtlinien für Informationsbarrieren verhindern auch Nachschlagevorgänge und Ermittlungen. Wenn Sie versuchen, mit einer Person zu kommunizieren, mit der Sie nicht kommunizieren sollten, finden Sie diesen Benutzer nicht in der Personenauswahl.
+AUßERDEM verhindern RICHTLINIEN für die Datenbereinigung Nachschlage- und Erkennungssuchen. Wenn Sie versuchen, mit einer Person zu kommunizieren, mit der Sie nicht kommunizieren sollten, finden Sie den Benutzer nicht in der Personenauswahl.
 
 ## <a name="background"></a>Hintergrund
 
-Der wichtigste Treiber für Informationsbarrieren ist die Finanzdienstleistungsbranche. Die Financial Industry Regulatory Authority ([FINRA]( http://www.finra.org)) überprüft Informationsbarrieren und Interessenkonflikte innerhalb von Mitgliedsunternehmen und bietet Anleitungen für die Verwaltung solcher Konflikte (FINRA 2241, [Debt Research Regulation Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
+Der primäre Treiber für BS stammt aus der Finanzdienstleisterbranche. Die Financial Industry Regulatory Authority[(FINRA)]( https://www.finra.org)überprüft IBs und Interessenskonflikte innerhalb von Mitgliedsunternehmen und bietet Anleitungen zur Verwaltung solcher Konflikte (FINRA 2241, [Debt Research Regulatory Notice 15-31).](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)
 
-Da jedoch Informationsbarrieren eingeführt wurden, haben viele andere Bereiche Sie als nützlich erwiesen. Weitere häufige Szenarien sind:
 
-- Bildung: Schüler in einer Schule können keine Kontaktinformationen für Schüler anderer Schulen nachschlagen.
-- Legal: Wahrung der Vertraulichkeit der Daten, die der Rechtsanwalt eines Mandanten erhalten hat, um von einem Rechtsanwalt für das gleiche Unternehmen, das einen anderen Mandanten darstellt, zugegriffen zu werden.
-- Regierung: Informationszugriff und-Steuerung sind über Abteilungen und Gruppen hinweg limitiert.
-- Professionelle Dienstleistungen: eine Gruppe von Personen in einem Unternehmen kann während eines Kundenengagements nur über Gastzugriff mit einem Kunden oder bestimmten Kunden chatten.
+Seit der Einführung von PSP-Codes sind sie jedoch in vielen anderen Bereichen hilfreich. Weitere häufige Szenarien sind:
 
-Zum Beispiel gehört Enrico zum Segment Banking, und Pradeep gehört zum Segment Financial Advisor. Enrico und Pradeep können nicht miteinander kommunizieren, weil die IB-Richtlinie der Organisation die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten blockiert. Allerdings können Enrico und Pradeep mit Lee in HR kommunizieren.
+- Bildung: Schüler einer Bildungs bildungseinrichtungen können keine Kontaktdetails für Schüler oder Studenten anderer Bildungseinrichtungen nachschauen.
+
+- Legal: Aufrechterhaltung der Vertraulichkeit von Daten, die durch die Pflege eines Kunden eingeholt werden, und verhindern, dass ein Kunde darauf zugreifen kann, wenn der gleiche Kunde einen anderen Kunden repräsentiert.
+
+- Behörden: Der Zugriff auf Informationen und die Kontrolle sind auf Abteilungen und Gruppen beschränkt.
+
+- Professionelle Dienste: Eine Gruppe von Personen in einem Unternehmen kann während eines Kundeneinsatzes nur über Gastzugriff mit einem Kunden oder einem bestimmten Kunden chatten.
+
+Beispielsweise gehört Enrico zum Segment "Banking" und Pradeep zum Segment "Finanzratgeber". Enrico und Pradeep können nicht miteinander kommunizieren, da die IB-Richtlinie des Unternehmens die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten blockiert. Enrico und Pradeep können jedoch mit Lee in der Personalabteilung kommunizieren.
 
 ![Beispiel mit Informationsbarrieren, die die Kommunikation zwischen Segmenten verhindern](media/information-barriers-example.png)
 
 ## <a name="when-to-use-information-barriers"></a>Verwendung von Informationsbarrieren
 
-Möglicherweise möchten Sie Informationsbarrieren in Situationen wie den folgenden verwenden:
+Möglicherweise möchten Sie IBs in Situationen wie den folgenden verwenden:
 
 - Ein Team muss daran gehindert werden, Daten mit einem bestimmten anderen Team zu kommunizieren oder zu teilen.
-- Ein Team darf keine Daten an Personen außerhalb des Teams weitergeben oder freigeben.
+- Ein Team darf keine Daten kommunizieren oder mit Personen außerhalb des Teams teilen.
 
-Der Evaluierungs Dienst für Informations Barriere-Richtlinien bestimmt, ob eine Kommunikation den Richtlinien für Informationsbarrieren entspricht.
+Der Auswertungsdienst für Informationsbarriererichtlinien bestimmt, ob eine Kommunikation den RICHTLINIEN des Dienstanbieters entspricht.
 
-## <a name="managing-information-barrier-policies"></a>Verwalten von Richtlinien für Informationsbarrieren
+## <a name="managing-information-barrier-policies"></a>Verwalten von Richtlinien zur Informationsbarriere
 
-Richtlinien für Informationsbarrieren werden im Microsoft 365 Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+IB-Richtlinien werden im Microsoft 365 Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter ["Definieren von Richtlinien für Informationsbarrieren".](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
 > [!IMPORTANT]
-> Bevor Sie Richtlinien einrichten oder definieren, **müssen Sie die Bereichs Verzeichnissuche in Microsoft Teams aktivieren**. Warten Sie mindestens ein paar Stunden nach der Aktivierung der Bereichs Verzeichnissuche, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. [Informieren Sie sich über die Voraussetzungen für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
+> Bevor Sie Richtlinien einrichten oder definieren, müssen Sie die Bereichsverzeichnissuche in Microsoft Teams aktivieren. Warten Sie nach dem Aktivieren der Bereichsverzeichnissuche mindestens einige Stunden, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. Weitere Informationen finden Sie unter ["Definieren von Richtlinien für Informationsbarrieren".](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)
 
-## <a name="information-barriers-administrator-role"></a>Administratorrolle für Informationsbarrieren
+## <a name="information-barriers-administrator-role"></a>Administratorrolle "Informationsbarrieren"
 
-Die IB-Compliance-Verwaltungsrolle ist für die Verwaltung von Richtlinien für Informationsbarrieren verantwortlich. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Microsoft 365 Compliance Center](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+Die Rolle "IB-Compliance-Verwaltung" ist verantwortlich für die Verwaltung von IB-Richtlinien. Weitere Informationen zu dieser Rolle finden Sie unter ["Berechtigungen" im Microsoft 365 Compliance Center.](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)
 
-## <a name="information-barrier-triggers"></a>Trigger für Informations Barriere
+## <a name="information-barrier-triggers"></a>Auslöser der Informationsbarriere
 
-Richtlinien für Informationsbarrieren werden aktiviert, wenn die folgenden Teams-Ereignisse stattfinden:
+IB-Richtlinien werden aktiviert, wenn die folgenden Teams-Ereignisse stattfinden:
 
-- **Mitglieder werden einem Team hinzugefügt** – Wenn Sie einen Benutzer zu einem Team hinzufügen, muss die Richtlinie des Benutzers mit den Richtlinien für Informationsbarrieren anderer Teammitglieder ausgewertet werden. Nachdem der Benutzer erfolgreich hinzugefügt wurde, kann der Benutzer alle Funktionen im Team ohne weitere Überprüfungen ausführen. Wenn die Richtlinie des Benutzers blockiert, dass Sie dem Team hinzugefügt wird, wird der Benutzer nicht in der Suche angezeigt.
+- **Mitglieder werden einem** Team hinzugefügt: Immer wenn Sie einen Benutzer zu einem Team hinzufügen, muss die Richtlinie des Benutzers anhand der RICHTLINIEN der ANDEREN Teammitglieder ausgewertet werden. Nachdem der Benutzer erfolgreich hinzugefügt wurde, kann er alle Funktionen im Team ohne weitere Überprüfungen ausführen. Wenn die Richtlinie des Benutzers das Hinzufügen zum Team blockiert, wird der Benutzer bei der Suche nicht angezeigt.
 
-    ![Screenshot mit Gruppen-Chat](media/information-barriers-add-members.png)
+    ![Screenshot der Suche nach einem neuen Mitglied, das zu einem Team hinzugefügt werden soll, und Suchen von Übereinstimmungen](media/information-barriers-add-members.png)
 
-- **Ein neuer Chat wird angefordert** – jedes Mal, wenn ein neuer Chat zwischen zwei oder mehr Benutzern angefordert wird, wird der Chat ausgewertet, um sicherzustellen, dass er keine Richtlinien für Informationsbarrieren verletzt. Wenn die Unterhaltung gegen eine Richtlinie für Informationsbarrieren verstößt, wird die Unterhaltung nicht initiiert.
+- **Es wird** ein neuer Chat angefordert: Jedes Mal, wenn ein Benutzer einen neuen Chat mit einem oder mehreren anderen Benutzern anfordert, wird der Chat ausgewertet, um sicherzustellen, dass er keine RICHTLINIEN des BSB verletzt. Wenn die Unterhaltung gegen eine RICHTLINIEN des ABC verstößt, wird die Unterhaltung nicht gestartet.
 
-    Hier ist ein Beispiel für einen 1:1-Chat.
+    Hier sehen Sie ein Beispiel für einen 1:1-Chat.
 
-     ![Screenshot mit blockierter Kommunikation in 1:1-Chat](media/information-barriers-one-one-chat.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot der blockierten Kommunikation in einem 1:1-Chat](media/information-barriers-one-one-chat.png)
 
-    Hier ist ein Beispiel für einen Gruppen-Chat.
+    Hier sehen Sie ein Beispiel für einen Gruppenchat.
 
-    ![Screenshot mit Gruppen-Chat](media/information-barriers-group-chat.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot eines Gruppenchats](media/information-barriers-group-chat.png)
 
-- **Ein Benutzer ist eingeladen, an einer Besprechung teilzunehmen** – wenn ein Benutzer zur Teilnahme an einer Besprechung eingeladen wird, wird die Richtlinie des Benutzers anhand der Richtlinien anderer Teammitglieder ausgewertet, und wenn ein Verstoß vorliegt, ist der Benutzer nicht berechtigt, an der Besprechung teilzunehmen.
+- **Ein Benutzer** wird zur Teilnahme an einer Besprechung eingeladen: Wenn ein Benutzer zur Teilnahme an einer Besprechung eingeladen wird, wird die für den Benutzer anwendbare IB-Richtlinie anhand der IB-Richtlinien ausgewertet, die für die anderen Teammitglieder gelten. Bei einem Verstoß kann der Benutzer nicht an der Besprechung teilnehmen.
 
-    ![Screenshot des Benutzers, der von einer Besprechung blockiert wurde](media/information-barriers-meeting.png)
+    ![Screenshot mit einem in der Besprechung blockierten Benutzer](media/information-barriers-meeting.png)
 
-- **Ein Bildschirm wird von zwei oder mehr Benutzern freigegeben** – wenn ein Bildschirm von zwei oder mehr Benutzern freigegeben wird, muss die Bildschirmfreigabe ausgewertet werden, um sicherzustellen, dass Sie die Richtlinien anderer Benutzer für Informationsbarrieren nicht verletzt. Wenn eine Richtlinie für Informationsbarrieren verletzt wird, ist die Bildschirmfreigabe nicht zulässig. 
+- **Ein Bildschirm wird** für zwei oder mehr Benutzer freigegeben: Wenn ein Benutzer einen Bildschirm für andere Benutzer teilt, muss die Freigabe ausgewertet werden, um sicherzustellen, dass sie nicht gegen die RICHTLINIEN anderer Benutzer verstößt. Wenn gegen eine IB-Richtlinie verstoßen wird, ist die Bildschirmfreigabe nicht zulässig. 
  
-    Hier ist ein Beispiel für die Bildschirmfreigabe, bevor die Richtlinie angewendet wird. 
+    Hier sehen Sie ein Beispiel für die Bildschirmfreigabe, bevor die Richtlinie angewendet wird. 
 
-    ![Screenshot mit einem Benutzer-Chat](media/ib-before-screen-share-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot eines Benutzerchats](media/ib-before-screen-share-policy.png)
 
-    Nachfolgend finden Sie ein Beispiel für die Bildschirmfreigabe, nachdem die Richtlinie angewendet wurde. Bildschirmfreigabe-und Anruf Symbole werden nicht angezeigt.
+    Hier sehen Sie ein Beispiel für die Bildschirmfreigabe, nachdem die Richtlinie angewendet wurde. Die Symbole "Bildschirmfreigabe" und "Anruf" sind nicht sichtbar.
 
-    ![Screenshot mit Benutzer-char mit blockierten Einstellungen](media/ib-after-screen-share-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot mit Benutzer zeichen mit blockierten Einstellungen](media/ib-after-screen-share-policy.png)
 
-- **Ein Benutzer platziert einen Telefonanruf (VoIP) in Teams** – wenn ein Sprachanruf von einem Benutzer an einen anderen Benutzer oder eine Gruppe von Benutzern initiiert wird, wird der Anruf ausgewertet, um sicherzustellen, dass er die Richtlinien anderer Teammitglieder gegen die Informations Barriere nicht verletzt. Bei Verstößen ist der Sprachanruf blockiert.
-- **Gastbenutzer in Teams** – Richtlinien für Informationsbarrieren gelten auch für Gastbenutzer in Teams. Wenn Gastbenutzer in der globalen Adressliste Ihrer Organisation auffindbar sein müssen, lesen Sie Verwalten des [Gastzugriffs in Microsoft 365-Gruppen](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Sobald Gastbenutzer auffindbar sind, können Sie [Richtlinien für Informationsbarrieren definieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- Ein Benutzer startet einen Telefonanruf **in Teams:** Immer wenn ein Benutzer einen Sprachanruf (über VOIP) für einen anderen Benutzer oder eine Benutzergruppe startet, wird der Anruf ausgewertet, um sicherzustellen, dass er nicht die RICHTLINIEN der anderen Teammitglieder verletzt. Liegt ein Verstoß vor, wird der Sprachanruf blockiert.
+
+- **Gäste in Teams** – IB-Richtlinien gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation zu finden sein müssen, lesen Sie "Verwalten des Gastzugriffs [in Microsoft 365-Gruppen".](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Sobald Gäste ermittelt werden können, können Sie [IB-Richtlinien definieren.](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Auswirkungen von Richtlinienänderungen auf vorhandene Chats
 
-Wenn der Administrator der Informations Barriere-Richtlinie Änderungen an einer Richtlinie vornimmt oder eine Richtlinienänderung aufgrund einer Änderung des Profils eines Benutzers (beispielsweise bei einer Auftragsänderung oder einem ähnlichen Grund) in Kraft tritt, durchsucht der Evaluierungs Dienst der Informations Barriere-Richtlinie automatisch die Mitglieder, um sicherzustellen, dass die Mitglieder des Teams keine Richtlinien verletzen.
+Wenn der ADMINISTRATOR der Sicherheitsrichtlinie Änderungen an einer Richtlinie vor nimmt oder eine Richtlinienänderung aufgrund einer Änderung am Profil eines Benutzers aktiviert wird (z. B. bei einer Jobänderung), durchsucht der Information Barrier Policy Evaluation Service automatisch die Mitglieder, um sicherzustellen, dass deren Mitgliedschaft im Team keine Richtlinien verletzt.
 
-Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist, eine neue Richtlinie festgesetzt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikation aus, um sicherzustellen, dass die Kommunikation weiterhin zulässig ist. 
+Wenn es einen bestehenden Chat oder eine andere Kommunikation zwischen Benutzern gibt und eine neue Richtlinie festgelegt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikationen aus, um sicherzustellen, dass die Kommunikation weiterhin zulässig ist. 
 
-- **1:1-Chat** – wenn die Kommunikation zwischen den beiden Benutzern nicht mehr zulässig ist (wenn eine Richtlinie, die die Kommunikation blockiert, auf einen oder beide Benutzer angewendet wird), wird die weitere Kommunikation blockiert, und die Chat Unterhaltung wird schreibgeschützt. 
+- **1:1-Chat:** Wenn die Kommunikation zwischen zwei Benutzern nicht mehr zulässig ist (aufgrund der Anwendung auf einen oder beide Benutzer einer Richtlinie, die die Kommunikation blockiert), wird die weitere Kommunikation blockiert. Die vorhandenen Chatunterhaltungen werden schreibgeschützt. 
 
     Hier ist ein Beispiel, das zeigt, dass der Chat sichtbar ist.
 
-    ![Screenshot mit Benutzer-Chat verfügbar](media/ib-before-1-1chat-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot, der zeigt, dass ein Benutzerchat verfügbar ist](media/ib-before-1-1chat-policy.png)
 
     Hier ist ein Beispiel, das zeigt, dass der Chat deaktiviert ist.
 
-    ![Screenshot, der zeigt, dass der Benutzer Chat deaktiviert ist](media/ib-after-1-1chat-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot, der zeigt, dass der Benutzerchat deaktiviert ist](media/ib-after-1-1chat-policy.png)
 
-- **Gruppen-Chat** – wenn die Kommunikation von einem Benutzer zur Gruppe nicht mehr zulässig ist (Wenn beispielsweise ein Benutzer die Arbeit wechselt), kann der Benutzer zusammen mit den anderen Benutzern, die gegen die Richtlinie verstoßen, aus dem Gruppen-Chat entfernt werden, und die weitere Kommunikation mit der Gruppe ist nicht zulässig. Der Benutzer kann weiterhin alte Konversationen (schreibgeschützt) sehen, aber nicht in der Lage sein, neue Konversationen mit der Gruppe zu sehen oder daran teilzunehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehr als einen Benutzer angewendet wird, werden die Benutzer, die von der Richtlinie betroffen sind, möglicherweise aus dem Gruppen-Chat entfernt. Sie können weiterhin alte Konversationen sehen.
+- **Gruppenchat:** Wenn die Kommunikation zwischen benutzern und gruppen nicht mehr zulässig ist (z. B. weil ein Benutzer Aufträge geändert hat), kann der Benutzer – zusammen mit den anderen Benutzern, deren Teilnahme gegen die Richtlinie verstößt – aus dem Gruppenchat entfernt werden, und weitere Kommunikation mit der Gruppe wird nicht mehr zugelassen. Der Benutzer kann weiterhin alte Unterhaltungen sehen, kann aber keine neuen Unterhaltungen mit der Gruppe sehen oder daran teilnehmen. Wenn die neue oder geänderte Richtlinie, die die Kommunikation verhindert, auf mehrere Benutzer angewendet wird, werden die von der Richtlinie betroffenen Benutzer möglicherweise aus dem Gruppenchat entfernt. Sie können weiterhin alte Unterhaltungen sehen.
 
-In diesem Beispiel zog Enrico zu einer anderen Abteilung innerhalb der Organisation und wird aus dem Gruppen-Chat entfernt.
+  In diesem Beispiel wurde Enrico in eine andere Abteilung innerhalb der Organisation verschoben und aus dem Gruppenchat entfernt.
 
-  ![Screenshot mit Gruppen-Chat](media/information-barriers-user-changes-job.png)
+  ![Screenshot eines Gruppenchats, aus dem ein Benutzer entfernt wurde](media/information-barriers-user-changes-job.png)
 
-Enrico kann keine Nachrichten mehr an den Gruppen-Chat senden.
+  Enrico kann keine Nachrichten mehr an den Gruppenchat senden.
 
-  ![Screenshot mit Gruppen-Chat](media/information-barriers-user-changes-job-2.png)
+  ![Screenshot, der zeigt, dass keine Nachrichten an einen Gruppenchat gesendet werden können, weil der Benutzer aus der Gruppe entfernt wurde](media/information-barriers-user-changes-job-2.png)
 
-- **Team** – alle Benutzer, die aus der Gruppe entfernt wurden, werden aus dem Team entfernt und können keine vorhandenen oder neuen Konversationen anzeigen oder daran teilnehmen.
+- **Team** – Alle Benutzer, die aus der Gruppe entfernt wurden, werden aus dem Team entfernt und können vorhandene oder neue Unterhaltungen nicht mehr sehen oder daran teilnehmen.
 
-## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>Szenario: ein Benutzer in einem vorhandenen Chat wird blockiert
+## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>Szenario: Ein Benutzer in einem vorhandenen Chat wird blockiert.
 
-Derzeit können Benutzer die folgenden Szenarien erleben, wenn eine Richtlinie für Informationsbarrieren einen anderen Benutzer blockiert:
+Derzeit kommt es bei Benutzern zu den folgenden Szenarien, wenn eine IB-Richtlinie einen anderen Benutzer blockiert:
 
-- **Registerkarte "Personen"** – Benutzer können auf der Registerkarte **Personen** keine blockierten Benutzer sehen.
-- **Personenauswahl** – blockierte Benutzer werden in der Personenauswahl nicht angezeigt.
+- **Registerkarte "Personen":** Ein Benutzer kann auf der Registerkarte "Personen" keine **blockierten Benutzer** sehen.
 
-    ![Screenshot mit Gruppen-Chat](media/information-barriers-people-picker.png)
+- **Personenauswahl** – Blockierte Benutzer werden in der Personenauswahl nicht angezeigt.
+
+    ![Screenshot von Teams, in dem der Benutzer darüber informiert wird, dass die Richtlinie die Anzeige von Informationen eines anderen Benutzers verhindert](media/information-barriers-people-picker.png)
     
-- **Registerkarte "Aktivität"** – wenn ein Benutzer die Registerkarte " **Aktivität** " eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf der Registerkarte **Aktivität** werden nur Kanal Beiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
+- **Registerkarte "Aktivität":** Wenn ein Benutzer die Registerkarte **"Aktivität"** eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf **der Registerkarte "Aktivität"** werden nur Kanalbeiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
 
-    Hier sehen Sie ein Beispiel für die blockierte Aktivitäts Registerkartenansicht.
+    Hier ist ein Beispiel für die Ansicht der Registerkarte "Aktivität", die blockiert ist.
 
-    ![Screenshot der blockierten Aktivitäten-Registerkarte](media/ib-after-activity-tab-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot der Registerkarte "Aktivität", die blockiert ist](media/ib-after-activity-tab-policy.png)
 
 
-- **Organigramme** : Wenn ein Benutzer auf ein Organigramm zugreift, auf dem ein blockierter Benutzer angezeigt wird, wird der blockierte Benutzer im Organigramm nicht angezeigt, und stattdessen wird eine Fehlermeldung angezeigt.
-- **Personen Karte** : Wenn ein Benutzer an einer Unterhaltung teilnimmt und der Benutzer anschließend blockiert wird, werden anderen Benutzern anstelle der Personen Karte eine Fehlermeldung angezeigt, wenn Sie den Mauszeiger über den Namen des blockierten Benutzers bewegen. Auf der Karte aufgelistete Aktionen (wie Anrufe und Chats) sind nicht verfügbar.
-- **Vorgeschlagene Kontakte** – blockierte Benutzer werden nicht in der Liste der vorgeschlagenen Kontakte angezeigt (die erste Kontaktliste, die für neue Benutzer angezeigt wird).
-- **Chat-Kontakte** : ein Benutzer kann blockierte Benutzer in der Chat-Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen. Der Benutzer kann auch darauf klicken, um seine frühere Konversation anzuzeigen.
-- **Anrufe an Kontakte** : ein Benutzer kann blockierte Benutzer in der Anruf Kontaktliste sehen, die blockierten Benutzer werden jedoch identifiziert, und die einzige Aktion, die der Benutzer ausführen kann, besteht darin, diese zu löschen.
+- **Organigramme:** Wenn ein Benutzer auf ein Organigramm zu zugegriffen hat, in dem ein blockierter Benutzer angezeigt wird, wird der blockierte Benutzer nicht im Organigramm angezeigt. Stattdessen wird eine Fehlermeldung angezeigt.
 
-    Hier ist ein Beispiel für einen blockierten Benutzer in der Kontaktliste "Anrufe".
+- **Karte** "Personen": Wenn ein Benutzer an einer Unterhaltung teilnimmt und der Benutzer später blockiert wird, wird anderen Benutzern anstelle der Personenkarte eine Fehlermeldung angezeigt, wenn sie auf den Namen des blockierten Benutzers zeigen. Aktionen, die auf der Karte aufgelistet sind (z. B. Anrufe und Chats), stehen nicht zur Verfügung.
 
-    ![Screenshot mit Benutzer-Chat](media/ib-before-chat-contacts-policy.png)
+- **Vorgeschlagene Kontakte** – Blockierte Benutzer werden nicht in der Liste der vorgeschlagenen Kontakte (der anfänglichen Kontaktliste, die für neue Benutzer angezeigt wird) angezeigt.
 
-    Im folgenden finden Sie ein Beispiel für die Deaktivierung des Chats für einen Benutzer in der Liste der Anruf Inhalte.
+- **Chatkontakte** – Ein Benutzer kann blockierte Benutzer in der Kontaktliste von Chats sehen, aber die blockierten Benutzer werden identifiziert. Die einzige Aktion, die der Benutzer für die blockierten Benutzer ausführen kann, besteht im Löschen der Benutzer. Der Benutzer kann auch auf den Benutzer klicken, um seine vergangene Unterhaltung zu sehen.
 
-    ![Screenshot des Benutzers, der im Chat blockiert ist](media/ib-after-chat-contacts-policy.png)
+- **Kontakte anrufen** – Ein Benutzer kann blockierte Benutzer in der Kontaktliste der Anrufe sehen, aber die blockierten Benutzer werden identifiziert. Die einzige Aktion, die der Benutzer für den Blockierten ausführen kann, besteht im Löschen der Benutzer.
 
-- **Migration von Skype zu Teams** – während einer Migration von Skype for Business zu Teams werden alle Benutzer, auch solche, die durch Richtlinien für Informationsbarrieren blockiert sind, in Teams migriert und dann wie oben beschrieben gehandhabt.
+    Hier ist ein Beispiel für einen blockierten Benutzer in der Kontaktliste für Anrufe.
 
-## <a name="teams-policies-and-sharepoint-sites"></a>Teamrichtlinien und SharePoint-Websites
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot eines Benutzerchats](media/ib-before-chat-contacts-policy.png)
 
-Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und Microsoft Teams für die Datei Oberfläche zugeordnet. Richtlinien für Informationsbarrieren werden auf dieser SharePoint-Website und den Dateien standardmäßig nicht berücksichtigt. Um Richtlinien für Informationsbarrieren zu aktivieren, hat der Administrator bereits ein Formular ausgefüllt, in dem Sie aufgefordert werden, die IB-Richtlinien auf SharePoint und OneDrive zu aktivieren (siehe *Voraussetzungen* für [Informationsbarrieren](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Wenn die Richtlinie für Informationsbarrieren in SharePoint und OneDrive aktiviert ist, funktionieren die IB-Richtlinien auf SharePoint-Websites, die bereitgestellt werden, wenn ein Team mit Microsoft Teams erstellt wird.
+    Hier ist ein Beispiel dafür, wie der Chat für einen Benutzer in der Anrufinhaltsliste deaktiviert wird.
 
-**Beispiel für IB-Richtlinien auf der SharePoint-Website eines Teams** : in der Contoso Bank Corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zur Segment Beratung. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
-Wenn der Benutzer Sesha ein Team für das Segment Investment Banking erstellt, sind das Team und die SharePoint-Website, die es zurückgibt, nur für Benutzer des Segments Investment Banking zugänglich. Benutzer Nikita kann nicht auf diese Website zugreifen, selbst wenn Sie über die Website Verknüpfung verfügt.
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot, der zeigt, dass der Benutzer den Chat blockiert hat](media/ib-after-chat-contacts-policy.png)
 
-Weitere Informationen finden Sie im Artikel [Informationen zu Barrieren](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites) .
+- **Skype-zu-Teams-Migration** – Während einer Migration von Skype for Business zu Teams werden alle Benutzer – auch diejenigen Benutzer, die von DEN RICHTLINIEN für die Richtlinien für das Softwareunternehmen (IB) gesperrt sind – zu Teams migriert. Diese Benutzer werden dann wie oben beschrieben behandelt.
+
+## <a name="teams-policies-and-sharepoint-sites"></a>Richtlinien für Teams und SharePoint-Websites
+
+Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und Microsoft Teams zugeordnet, um die Dateierfahrung zu ermöglichen. ESA-Richtlinien werden auf dieser SharePoint-Website und -Dateien standardmäßig nicht berücksichtigt. Um #A0 zu aktivieren, hat der Administrator bereits ein Formular ausgefüllt und die  Aktivierung von #A1 auf SharePoint und OneDrive anfordern (siehe Abschnitt "Voraussetzungen" in ["Informationsbarrieren").](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites) Wenn die #A0 in SharePoint und OneDrive aktiviert ist, funktionieren die #A1 auf SharePoint-Websites, die bereitgestellt werden, wenn ein Team mit Microsoft Teams erstellt wird.
+
+**Beispiel für IB-Richtlinien** auf der SharePoint-Website eines Teams: In der Contoso Bank corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment "Investment Banking", und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zum Segment "Advisory". Die IB-Richtlinie des Unternehmens blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
+Wenn Benutzer Sesha ein Team für das Segment "Investment Banking" erstellt, können nur Investment Banking-Benutzer auf das Team und die SharePoint-Website, von der das Team unterstützt wird, zugegriffen werden. BenutzerIn Hyperlinkta kann nicht auf diese Website zugreifen, auch wenn sie über den Websitelink verfügt.
+
+Weitere Informationen finden Sie unter ["Verwenden von Informationsbarrieren mit SharePoint".](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
-Weitere Informationen, einschließlich Pläne und Preise, finden Sie unter [Lizenzierungs Leit Faden](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+Weitere Informationen zu Lizenzen und Berechtigungen, einschließlich Plänen und Preisen, finden Sie unter [Microsoft 365-Lizenzierungsrichtlinien](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)für Sicherheit und & Compliance.
 
 ## <a name="known-issues"></a>Bekannte Probleme
-- **Benutzer können nicht an Ad-hoc-Besprechungen teilnehmen** : Wenn IB-Richtlinien aktiviert sind, können Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Besprechungsliste mehr als die [Grenzwerte für Besprechungs Besuche](limits-specifications-teams.md)ist. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Wenn Sie an einer Besprechung teilnehmen, wird dieser Benutzer dem Dienstplan hinzugefügt, sodass der Dienstplan für wiederkehrende Besprechungen schnell aufgefüllt wird. Sobald die [Obergrenze](limits-specifications-teams.md)für die Teilnahme an der Besprechung erreicht ist, dürfen keine weiteren Benutzer zur Besprechung Chat Liste hinzugefügt werden. Wenn IB für den Mandanten aktiviert ist und die Liste der Chats für eine Besprechung voll ist, sind neue Benutzer (die nicht bereits in der Liste vorhanden sind) nicht berechtigt, an der Besprechung teilzunehmen. Wenn IB für den Mandanten nicht aktiviert ist und die Liste der Besprechungs Chats voll ist, können neue Benutzer (die nicht bereits in der Liste vorhanden sind) an der Besprechung teilnehmen, obwohl die Chat-Option in der Besprechung nicht angezeigt wird. Eine kurzfristige Lösung besteht darin, inaktive Mitglieder aus der Liste der Besprechungs Chats zu entfernen, um Platz für neue Benutzer zu schaffen. Wir werden jedoch zu einem späteren Zeitpunkt die Größe von Besprechungs-Chat-Dienstplänen erhöhen.
+- **Benutzer können nicht an Ad-hoc-Besprechungen** teilnehmen: Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Teilnehmerliste der Besprechung größer ist als die Grenzwerte für die Teilnahme an [Besprechungen.](limits-specifications-teams.md) Die Ursache dafür ist, dass ESA-Prüfungen darauf beruhen, ob Benutzer zu einer Besprechungschatliste hinzugefügt werden können, und nur, wenn sie zur Liste hinzugefügt werden können, dürfen sie an der Besprechung teilnehmen. Ein Benutzer, der einer Besprechung beitritt, fügt den Benutzer einmal zur Liste hinzu. daher kann sich die Mannschaftsliste bei Besprechungsserien schnell füllen. Sobald die Chatliste die Teilnahmelimits für Besprechungen erreicht [hat,](limits-specifications-teams.md)können der Besprechung keine weiteren Benutzer hinzugefügt werden. Wenn IB für den Mandanten aktiviert ist und die Chatliste für eine Besprechung voll ist, können neue Benutzer (diejenigen Benutzer, die noch nicht in der Liste sind) nicht an der Besprechung teilnehmen. Wenn JEDOCH IB für den Mandanten nicht aktiviert ist und die Liste der Besprechungschats voll ist, können neue Benutzer (diejenigen Benutzer, die sich noch nicht in der Liste befinden) an der Besprechung teilnehmen, obwohl die Chatoption in der Besprechung nicht angezeigt wird. Eine kurzfristige Lösung besteht im Entfernen inaktiver Mitglieder aus der Liste der Besprechungschats, um Platz für neue Benutzer zu schaffen. Wir werden jedoch die Anzahl der Besprechungschats zu einem späteren Zeitpunkt erhöhen.
 
-- **Benutzer können nicht an Kanal Besprechungen teilnehmen** : Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Kanal Besprechungen teilnehmen, wenn Sie nicht Mitglied des Teams sind. Der Grund dafür ist, dass IB-Prüfungen davon abhängen, ob Benutzer zu einer Besprechungs-Chat Liste hinzugefügt werden können, und dass das Signal für die Teilnahme an Besprechungen für Benutzer ist. Der Chat-Thread in einer Kanal Besprechung steht nur Team-und Kanalmitgliedern zur Verfügung, und nicht Mitglieder können den Chat-Thread nicht sehen/zugreifen. Wenn IB für den Mandanten aktiviert ist und ein nicht-Teammitglied versucht, an einer Kanal Besprechung teilzunehmen, ist der Benutzer nicht berechtigt, an der Besprechung teilzunehmen. Wenn IB für den Mandanten nicht aktiviert ist und ein nicht-Teammitglied versucht, an einer Kanal Besprechung teilzunehmen, kann der Benutzer jedoch an der Besprechung teilnehmen, aber die Chat-Option wird in der Besprechung nicht angezeigt.
+- **Benutzer können nicht an** Kanalbesprechungen teilnehmen: Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Kanalbesprechungen teilnehmen, wenn sie kein Mitglied des Teams sind. Die Ursache dafür ist, dass IB-Prüfungen darauf beruhen, ob Benutzer zu einer Besprechungschatliste hinzugefügt werden können, und nur, wenn sie zur Liste hinzugefügt werden können, dürfen sie an der Besprechung teilnehmen. Der Chatthread in einer Kanalbe besprechung steht nur Mitgliedern des Teams/Kanals zur Verfügung, und Nichtmitglieder können den Chatthread nicht sehen oder darauf zugreifen. Wenn IB für den Mandanten aktiviert ist und ein Nichtteammitglied versucht, an einer Kanalbesprechung teilnehmen, darf dieser Benutzer nicht an der Besprechung teilnehmen. Wenn JEDOCH IB  für den Mandanten nicht aktiviert ist und ein Nicht-Teammitglied versucht, an einer Kanalbesprechung zu teilnehmen, kann der Benutzer an der Besprechung teilnehmen, aber die Chatoption wird in der Besprechung nicht angezeigt.
 
 ## <a name="more-information"></a>Weitere Informationen
 
-- Wenn Sie mehr über Informationsbarrieren erfahren möchten, lesen Sie [Informationen zu Barrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+- Weitere Informationen zu EBs finden Sie unter ["Informationsbarrieren".](https://docs.microsoft.com/office365/securitycompliance/information-barriers)
 
-- Informationen zum Einrichten von Richtlinien für Informationsbarrieren finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- Informationen zum Einrichten von IB-Richtlinien finden Sie unter ["Definieren von Richtlinien für Informationsbarrieren".](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
-- Informationen zum Bearbeiten oder Entfernen von Richtlinien für Informationsbarrieren finden Sie unter [Bearbeiten (oder entfernen) von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies).
+- Informationen zum Bearbeiten oder Entfernen von RICHTLINIEN zur Informationsbarriere finden Sie unter ["Bearbeiten (oder Entfernen) von Informationsbarriererichtlinien".](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies)

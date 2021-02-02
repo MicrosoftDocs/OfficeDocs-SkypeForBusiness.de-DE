@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Mandanten- und Gebäudedaten im Anrufqualitätsdashboard (CQD) hochladen.
-ms.openlocfilehash: a7f8b4a8d84429b752692cf05013dfba7321fd5e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
+ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909349"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "50067140"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Hochladen von Mandanten- und Gebäudedaten im Anrufqualitätsdashboard (CQD)
 
@@ -35,9 +35,9 @@ Um das Anrufqualitätsdashboard (CQD) in den besten 90 Jahren zu verwenden, empf
 
 Hier können Sie eine Beispielvorlage für Mandantendaten [herunterladen.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true) Hilfe zum Erstellen der Zuordnung finden Sie unter ["Erstellen einer Gebäudezuordnung für das CQD".](CQD-building-mapping.md)
 
-Wählen Sie im Dashboard "CQD-Zusammenfassungsberichte" im Menü "CQD-Einstellungen" (ein Zahnradsymbol am oberen Rand des AQD) die Option "Upload von Mandantendaten" aus.   Von hier aus können Administratoren die Gebäude- und Endpunktinformationen ihrer Organisation hochladen, z. B. die Zuordnung von IP-Adressen und geografischen Informationen, die Zuordnung der einzelnen Funkzugriffspunkt und deren MAC-Adresse usw.
+Wählen Sie im Dashboard "CQD-Zusammenfassungsberichte" im Menü "CQD-Einstellungen" (ein Zahnradsymbol am oberen Rand des AQD) die Option "Upload von Mandantendaten" aus.   Von hier aus können Administratoren die Gebäude- und Endpunktinformationen ihrer Organisation hochladen, z. B. Die Zuordnung von IP-Adressen und geografischen Informationen, die Zuordnung der einzelnen Funkzugriffspunkt und deren MAC-Adresse usw.
 
-1. Öffnen Sie das CQD (im Teams Admin Center oder unter), wählen Sie dann das Zahnradsymbol in der oberen rechten Ecke und dann auf der Seite "Zusammenfassungsberichte" die Option "Upload von Mandantendaten" [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) aus.  
+1. Öffnen Sie das CQD (im Teams Admin Center oder unter), wählen Sie dann das Zahnradsymbol in der oberen rechten Ecke und dann auf der Seite "Zusammenfassungsberichte" die Option [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) **"Upload** von Mandantendaten" aus. 
 
    ![Screenshot des Dialogfelds, das angezeigt wird, während Daten hochgeladen werden](media/qerguide-image-tenantdataupload.png)
     
@@ -56,7 +56,7 @@ Wählen Sie im Dashboard "CQD-Zusammenfassungsberichte" im Menü "CQD-Einstellun
 6. Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
 
 > [!NOTE]
-> Es kann bis zu vier Stunden dauern, bis die Bearbeitung der Datei abgeschlossen ist.<br><br> Wenn Sie bereits eine Gebäudedatei hochgeladen haben und Subnetze hinzufügen müssen, die möglicherweise verpasst oder ausgeschlossen wurden, ändern Sie die ursprüngliche Datei, indem Sie die neuen Subnetze hinzufügen, entfernen Sie die aktuelle Datei, und laden Sie die neu bearbeitete Datei erneut hoch. In CQD kann nur eine einzige aktive Gebäudedatendatei vorhanden sein. 
+> Es kann bis zu vier Stunden dauern, bis die Bearbeitung der Datei abgeschlossen ist.<br><br> Wenn Sie bereits eine Gebäudedatei hochgeladen haben und Subnetze hinzufügen müssen, die möglicherweise verpasst oder ausgeschlossen wurden, ändern Sie die ursprüngliche Datei, indem Sie die neuen Subnetze hinzufügen, die aktuelle Datei entfernen und die neu bearbeitete Datei erneut hochladen. In CQD kann nur eine einzige aktive Gebäudedatendatei vorhanden sein. 
 
 
 ## <a name="upload-building-data-file"></a>Hochladen einer Gebäudedatendatei
@@ -70,6 +70,8 @@ Der erste Typ der Mandantendatendatei im  AQD ist die Gebäudedatendatei. Die Sp
 - Die Datentypen in der Datei können nur "String", "Integer" oder "Boolean" sein. Für den Datentyp "Integer" muss der Wert ein numerischer Wert sein. Boolesche Werte müssen entweder 0 oder 1 sein.
 
 - Wenn in einer Spalte der Datentyp "Zeichenfolge" verwendet wird, kann ein Datenfeld leer sein, muss aber trotzdem durch eine Registerkarte oder ein Komma getrennt sein. Ein leeres Datenfeld weist lediglich einen leeren Zeichenfolgenwert zu.
+
+- Es gibt ein erweitertes Zeilenlimit von 1.000.000 pro Mandantendatendatei.
 
 - Jede Zeile muss 15 Spalten enthalten, jede Spalte muss den entsprechenden Datentyp haben, und die Spalten müssen in der Reihenfolge liegen, die in der folgenden Tabelle (durch Kommas oder Tabstopps getrennt) aufgeführt ist:
 
@@ -106,7 +108,7 @@ Der erste Typ der Mandantendatendatei im  AQD ist die Gebäudedatendatei. Die Sp
 > [!IMPORTANT]
 > Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bestimmte VPN-Implementierungen melden die Subnetzinformationen nicht genau. 
 >
-> Die Spalte "VPN" ist optional und standardmäßig auf 0 festgelegt. Wenn der Wert der Spalte VPN auf 1 festgelegt ist, wird das subnetz, das durch diese Zeile dargestellt wird, vollständig erweitert, um allen IP-Adressen im Subnetz zu entsprechen.  Verwenden Sie dies sparsam und nur für VPN-Subnetze, da sich eine vollständige Erweiterung dieser Subnetze negativ auf die Abfragezeiten für Abfragen mit Gebäudedaten auswirken kann.
+> Die Spalte "VPN" ist optional und standardmäßig auf 0 festgelegt. Wenn der Wert der Spalte VPN auf 1 festgelegt ist, wird das subnetz, das durch diese Zeile dargestellt wird, vollständig erweitert, um allen IP-Adressen im Subnetz zu entsprechen. Verwenden Sie dies sparsam und nur für VPN-Subnetze, da sich eine vollständige Erweiterung dieser Subnetze negativ auf die Abfragezeiten für Abfragen mit Gebäudedaten auswirken kann. Wenn die Erweiterung des Subnetzes dazu führt, dass das Limit für die Erweiterungszeile von 1.000.000 überschritten wird, wird die Gebäudedatei nicht akzeptiert.
 
 
 ### <a name="supernetting"></a>Supernetting
@@ -133,7 +135,7 @@ Hier einige Punkte, die Sie berücksichtigen sollten, bevor Sie Supernetting imp
 
 -   Es ist wichtig sicherzustellen, dass die übertenete Adresse korrekt ist und keine unerwünschten Subnetze abfangen.
 
--   Es ist üblich, 192.168.0.0 in Daten zu finden. Für viele Organisationen gibt dies an, dass der Benutzer zu Hause ist. Bei anderen handelt es sich um das IP-Adressschema für ein Satellitenbüro. Wenn Ihre Organisation über Niederlassungen verfügt, die diese Konfiguration verwenden, schließen Sie sie nicht in die Gebäudedatei ein, da es schwierig ist, mithilfe gemeinsamer Subnetze zwischen Heim- und internen Netzwerken [zu unterscheiden.](quality-of-experience-review-guide.md#common-subnets) 
+-   Häufig wird 192.168.0.0 in Daten verwendet. Für viele Organisationen gibt dies an, dass der Benutzer zu Hause ist. Bei anderen handelt es sich um das IP-Adressschema für ein Satellitenbüro. Wenn Ihre Organisation über Niederlassungen verfügt, die diese Konfiguration verwenden, schließen Sie sie nicht in die Gebäudedatei ein, da es schwierig ist, mithilfe gemeinsamer Subnetze zwischen heimchenden und internen Netzwerken [zu unterscheiden.](quality-of-experience-review-guide.md#common-subnets) 
 
 > [!IMPORTANT]
 > Der Netzwerkbereich kann verwendet werden, um ein Supernet darzustellen. Alle neuen Uploads von Gebäudedatendateien werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien könnten zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen.
@@ -151,7 +153,7 @@ Die Quality of Experience (QoE)-Daten, die Clients an Microsoft 365 oder Office 
   ![Screenshot des QCD-Berichts mit VPN-Gebäudenamen](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
-> Es ist bekannt, dass sich der Netzwerkverbindungstyp als verkabelt identifiziert, wenn die zugrunde liegende Verbindung drahtlos ist. Bei der Qualität von VPN-Verbindungen können Sie nicht davon ausgehen, dass der Verbindungstyp exakt identifiziert wurde.
+> Es ist bekannt, dass sich der Netzwerkverbindungstyp als verkabelt identifiziert hat, wenn die zugrunde liegende Verbindung drahtlos ist. Bei der Qualität von VPN-Verbindungen können Sie nicht davon ausgehen, dass der Verbindungstyp exakt identifiziert wurde.
 
 ## <a name="endpoint-data-file"></a>Endpunktdatendatei
 
@@ -161,11 +163,11 @@ Der andere Typ der AQD-Mandantendatendatei ist die **Endpunktdatendatei.** Die S
 
 - Der Inhalt der Datendatei umfasst keine Tabellenüberschriften. Die erste Zeile der Datendatei wird als echte Daten erwartet, keine Überschriftenbeschriftung wie "EndpointName".
 
-- Alle sieben Spalten verwenden nur den Datentyp "Zeichenfolge". Die maximal zulässige Länge beträgt 64 Zeichen.
+- In allen sieben Spalten wird nur der Datentyp "Zeichenfolge" verwendet. Die maximal zulässige Länge beträgt 64 Zeichen.
 
 - Ein Datenfeld kann leer sein, muss aber trotzdem durch ein Tabstopp- oder Komma getrennt sein. Ein leeres Datenfeld weist lediglich einen leeren Zeichenfolgenwert zu.
 
-- EndpointName muss eindeutig sein, andernfalls schlägt der Upload fehl. Wenn es eine doppelte Zeile oder zwei Zeilen gibt, die denselben Endpunktnamen verwenden, verursacht der Konflikt eine falsche Verbindung.
+- EndpointName muss eindeutig sein, andernfalls schlägt der Upload fehl. Wenn es doppelte Zeilen mit demselben Endpunktnamen gibt, verursacht der Konflikt eine falsche Verbindung.
 
 - EndpointLabel1, EndpointLabel2 und EndpointLabel3 sind anpassbare Beschriftungen. Sie können leere Zeichenfolgen oder Werte wie "IT Department designated 2018 Laptop" oder "Asset Tag 5678" sein.
 
@@ -188,7 +190,7 @@ Beim Sammeln von Gebäude- und Subnetzinformationen laden Administratoren die Ge
 
 ## <a name="add-net-new-subnets"></a>Hinzufügen neuer Subnetze
 
-Es gibt Zeiten, in denen Sie net neue Subnetze zum AQD hinzufügen müssen, die ursprünglich nicht Teil Ihrer Netzwerktopologie waren. Gehen Sie auf der Seite "Upload von Mandantendaten" im AQD wie folgt vor, um net neue **Subnetze** hinzuzufügen:
+Es gibt Zeiten, in denen Sie net neue Subnetze zum AQD hinzufügen müssen, die ursprünglich nicht Teil Ihrer Netzwerktopologie waren. Gehen Sie auf der Seite "Upload von Mandantendaten" im AQD wie folgt vor, um net **neue Subnetze** hinzuzufügen:
 
 1.  Laden Sie die Ursprüngliche Datei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
 

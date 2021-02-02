@@ -15,17 +15,53 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Versionshinweise für Microsoft Teams-Administratorfeatures.
-ms.openlocfilehash: e2b21a7f96162493fbee7b37ec2dcd57ac8c3a1f
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+description: Anmerkungen zu dieser Version von Microsoft Teams-Administratorfeatures.
+ms.openlocfilehash: 3dd48c9f2da10d4238d05d9de610867b5d94b873
+ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909379"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "50070930"
 ---
-# <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Version der Microsoft Teams-Administratorfeatures
+# <a name="release-notes-for-microsoft-teams-admin-features"></a>Versionshinweise für Microsoft Teams-Administratorfeatures
 
-Diese Versionshinweise enthalten Informationen zu den neuen Administratorfeatures für Microsoft Teams.
+Diese Versionshinweise enthalten Informationen zu neuen Administratorfeatures für Microsoft Teams.
+
+## <a name="january-27-2021"></a>27. Januar 2021
+
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in EHR
+
+Wir haben die Schnittstelle für Microsoft Teams Electronic Health Record (EHR) Connector aktualisiert und den Connector, der es Kliniken erleichtert, einen virtuellen Patientenbesuch oder eine Beratung mit einem anderen Anbieter in Teams direkt über das EHR-System zu starten. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
+
+## <a name="january-22-2021"></a>22. Januar 2021
+
+### <a name="firstline-workers-are-now-called-frontline-workers"></a>Mitarbeiter in Firstline werden jetzt als "Mitarbeiter an vorder front" bezeichnet.
+
+Wir haben den Titel der Mitarbeiter in 1. Reihe von Mitarbeitern in "Frontline-Mitarbeiter" geändert.
+
+## <a name="january-21-2021"></a>21. Januar 2021
+
+### <a name="offline-documentation"></a>Offlinedokumentation
+
+Teams wird auch dann weiter ausgeführt, wenn Sie offline oder unter Bedingungen mit geringer Bandbreite ausgeführt werden. Teams speichert alle Ihre nicht gesendeten Nachrichten für vorhandene Chats (für bis zu 24 Stunden) und sendet sie, sobald Sie wieder online sind. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+
+## <a name="january-19-2021"></a>19. Januar 2021
+
+### <a name="teams-approvals-app-availability"></a>Verfügbarkeit der App "Teams-Genehmigungen"
+
+Die App "Genehmigungen" steht als persönliche App für alle Microsoft Teams-Benutzer zur Verfügung. Die App "Genehmigungen" bietet eine einfache Möglichkeit, Überwachung, Compliance, Verantwortlichkeit und Workflows sowohl für strukturierte als auch unstrukturierte Genehmigungen in Teams zu übernehmen. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+
+## <a name="january-15-2021"></a>15. Januar 2021
+
+### <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Einrichten des Microsoft Teams-Besprechungs-Add-Ons für Google Workspace
+
+Das Microsoft Teams-Besprechungs-Add-On für Google Workspace muss von einem Teamadministrator aktiviert werden, bevor Mandantenbenutzer auf die App zugreifen können. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/google-workspace-addon-teams).
+
+## <a name="january-4-2021"></a>4. Januar 2021
+
+### <a name="calendar-sharing"></a>Kalenderfreigabe
+
+Wir haben die Möglichkeit hinzugefügt, einer Kalenderregisterkarte einen Kanal hinzuzufügen.
 
 ## <a name="december-21-2020"></a>21. Dezember 2020
 
@@ -75,7 +111,7 @@ Sie können Skype for Business-Einstellungen für Skype for Business-Benutzer in
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>Verwalten von Skype for Business-Einstellungen für Ihre Organisation
 
-Sie können skype for Business-Funktionen für Skype for Business-Benutzer in Ihrer Organisation im Microsoft Teams Admin Center verwalten. Wechseln Sie **zu den organisationsweiten Einstellungen** für Skype for  >  **Business.** Von hier aus können Sie Skype Meeting Broadcast, Anwesenheits- und mobile Benachrichtigungen verwalten. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
+Sie können skype for Business-Funktionen für Skype for Business-Benutzer in Ihrer Organisation im Microsoft Teams Admin Center verwalten. Wechseln Sie **zu den organisationsweiten Einstellungen für** Skype for  >  **Business.** Von hier aus können Sie Skype Meeting Broadcast, Anwesenheits- und mobile Benachrichtigungen verwalten. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings).
 
 ## <a name="october-16-2020"></a>16. Oktober 2020
 
@@ -107,7 +143,7 @@ Wenn Sie ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern sin
 
 ### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Anzeigen von App-Berechtigungen und Erteilen der Administratorzusberechtigung im Microsoft Teams Admin Center
 
-Im Teams Admin Center können globale Administratoren nun die in Azure Active Directory registrierten Graph-API-Berechtigungen im Namen des gesamten Mandanten überprüfen und ihre Zustimmung für die Berechtigungen erteilen, die eine App anfordert, z. B. das Lesen von Informationen, die in einem Team gespeichert sind, oder das Senden einer E-Mail im Auftrag von Benutzern. Jetzt können IT-Administratoren ressourcenspezifische Zustimmungsberechtigungen (RSC) für die Apps im Teams Admin Center überprüfen. Damit können Administratoren die Blockierung ihrer Benutzer für die Apps von Drittanbietern aufheben, die sie bereits überprüft und für die Verwendung in ihrer Organisation genehmigt haben. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
+Im Teams Admin Center können globale Administratoren nun Graph-API-Berechtigungen, die in Azure Active Directory registriert sind, im Namen des gesamten Mandanten überprüfen und ihre Zustimmung für die Berechtigungen erteilen, die eine App anfordert, z. B. das Lesen von informationen, die in einem Team gespeichert sind, oder das Senden einer E-Mail im Auftrag von Benutzern. Jetzt können IT-Administratoren ressourcenspezifische Zustimmungsberechtigungen (RSC) für die Apps im Teams Admin Center überprüfen. Damit können Administratoren die Blockierung ihrer Benutzer für die Apps von Drittanbietern aufheben, die sie bereits überprüft und für die Verwendung in ihrer Organisation genehmigt haben. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center).
 
 ### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>Unterstützung von Anrufplänen für Österreich, Dänemark, Italien, Portugal, Schweden und die Schweiz
 
@@ -135,7 +171,7 @@ Rufen Sie mithilfe von Teams direkt über Ihr Android Phonebook an.
 
 ### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center
 
-Als Administrator können Sie steuern, ob Benutzer microsoft Power Platform-Apps, die von Ihren Kollegen erstellt wurden, auf der Seite "Apps" in Teams anzeigen und installieren können. Sie können alle in Power Apps oder in Power Virtual Agents erstellten Apps [](../manage-apps.md) auf Organisationsebene auf der Seite "Apps verwalten" oder für bestimmte Benutzer, die Berechtigungsrichtlinien für Apps verwenden, gemeinsam blockieren oder [zulassen.](../teams-app-permission-policies.md) [Weitere Informationen](../manage-power-platform-apps.md).
+Als Administrator können Sie steuern, ob Benutzer microsoft Power Platform-Apps, die von Ihren Kollegen erstellt wurden, auf der Seite "Apps" in Teams anzeigen und installieren können. Sie können alle in Power Apps erstellten Apps oder alle in Power Virtual [](../manage-apps.md) Agents erstellten Apps auf Organisationsebene auf der Seite "Apps verwalten" oder für bestimmte Benutzer mithilfe von Berechtigungsrichtlinien für Apps gemeinsam blockieren oder [zulassen.](../teams-app-permission-policies.md) [Weitere Informationen](../manage-power-platform-apps.md).
 
 ## <a name="september-19-2020"></a>19. September 2020
 
@@ -175,17 +211,17 @@ Die Übersetzung von Inlinenachrichten ist ein Microsoft Teams-Feature, mit dem 
 
 ## <a name="august-17-2020"></a>17. August 2020
 
-### <a name="group-chat-size-increase"></a>Größe des Gruppenchats vergrößern
+### <a name="group-chat-size-increase"></a>Vergrößern des Gruppenchats
 
 Wir haben die Möglichkeit hinzugefügt, jetzt 250 Teilnehmer an einem Gruppenchat zu haben. [Weitere Informationen](../limits-specifications-teams.md).
 
 ### <a name="manage-the-praise-app"></a>Verwalten der App "Lob"
 
-Die App "Lob" in Microsoft Teams hilft Benutzern, Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Die App "Lob" enthält eine Auswahl an Signalsätzen, aus der Sie auswählen können, und bietet die Möglichkeit, eigene Badges zu erstellen. Lob soll dazu beitragen, den Aufwand zu erkennen, der in die breite Palette an Arbeit eingeht, die Von Lehrkräften bis zu Frontlinemitarbeitern geleistet wird. [Weitere Informationen](../manage-praise-app.md).
+Die App "Lob" in Microsoft Teams hilft Benutzern, Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Die App "Lob" verfügt über eine Auswahl an Signalsätzen, aus der Sie auswählen können, und bietet die Möglichkeit, eigene Badges zu erstellen. Lob soll dazu beitragen, den Aufwand zu erkennen, der in die breite Palette an Arbeit eingeht, die Von Lehrkräften bis zu Frontlinemitarbeitern geleistet wird. [Weitere Informationen](../manage-praise-app.md).
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Einrichten koordinierter Besprechungen mit Microsoft Teams-Räumen und Surface Hub
 
-Wenn sie über mindestens ein Microsoft Teams -Raum-Gerät oder Surface Hubs in einem Besprechungsraum verfügen, können Sie koordinierte Besprechungen einrichten. Bei koordinierten Besprechungen können Sie Ihre Teams -Räume-Geräte und Surface Hubs so einrichten, dass die anderen Geräte im Raum auch an derselben Besprechung teilnehmen, wenn Sie an einer Besprechung auf einem Gerät teilnehmen. [Weitere Informationen](../rooms/coordinated-meetings.md).
+Wenn Sie über mindestens ein Microsoft Teams -Raum-Gerät oder Surface Hubs in einem Besprechungsraum verfügen, können Sie koordinierte Besprechungen einrichten. Bei koordinierten Besprechungen können Sie Ihre Teams -Räume-Geräte und Surface Hubs so einrichten, dass die anderen Geräte im Raum auch an derselben Besprechung teilnehmen, wenn Sie an einer Besprechung auf einem Gerät teilnehmen. [Weitere Informationen](../rooms/coordinated-meetings.md).
 
 ### <a name="tagging-by-shift"></a>Tagging nach Schicht
 
@@ -195,7 +231,7 @@ Mit diesem Feature werden Personen automatisch Tags zugewiesen, die ihrem Gruppe
 
 ### <a name="cortana-voice-skills-in-teams"></a>Cortana voice skills in Teams
 
-Mithilfe der Sprachkenntnisse von Cortana in der mobilen Teams-App können Benutzer Besprechungs-, Kommunikations- und Zusammenarbeitsaufgaben einfach in natürlicher Sprache ausführen. Benutzer können mit Cortana sprechen, indem sie in der Teams-App auf die Mikrofonschaltfläche klicken und Anfragen wie "Megan anrufen" oder "Nachricht an meine nächste Besprechung senden" senden, wenn sie sich mit einer Person in Verbindung stellen müssen, während sie mit Haushaltsarbeiten jonglieren oder mit dem Hund gehen oder ganz allgemein unterwegs sind. Benutzer können an Besprechungen teilnehmen, indem sie einfach "An meiner nächsten Besprechung teilnehmen" sagen oder ihren Kalender überprüfen, indem sie gefragt werden, "was habe ich heute Morgen". Einmal in einer Besprechung oder einem Anruf können sie Cortana über das Überlaufmenü im Besprechungs stage aufrufen und typische Aufgaben in Besprechungen ausführen, wie das Hinzufügen von Personen nach Name oder Nummer ("Megan zum Anruf hinzufügen"), eine Folienpräsentation ("Quartalsüberprüfungsfolie präsentieren") oder navigierende Folien ("Zur Anhangfolie wechseln"). Andere Dinge, die das Feature unterstützt, sind das Suchen und Freigeben von Dateien, die Suche und die Navigation in der Teams-App ("Open my chat with John, Go to my unread activity, Go to my mentions usw.).
+Mithilfe der Sprachkenntnisse von Cortana in der mobilen Teams-App können Benutzer Aufgaben für Besprechungen, Kommunikation und Zusammenarbeit erledigen, indem sie einfach gesprochene natürliche Sprache verwenden. Benutzer können mit Cortana sprechen, indem sie in der Teams-App auf die Mikrofonschaltfläche klicken und Anfragen wie "Megan anrufen" oder "Nachricht an meine nächste Besprechung senden" senden, wenn sie sich mit einer Person in Verbindung stellen müssen, während sie mit Haushaltsarbeiten jonglieren oder mit dem Hund gehen oder ganz allgemein unterwegs sind. Benutzer können an Besprechungen teilnehmen, indem sie einfach "An meiner nächsten Besprechung teilnehmen" sagen oder ihren Kalender überprüfen, indem sie gefragt werden, "was habe ich heute Morgen". Einmal in einer Besprechung oder einem Anruf können sie Cortana über das Überlaufmenü im Besprechungs stage aufrufen und typische Aufgaben in Besprechungen ausführen, wie das Hinzufügen von Personen nach Name oder Nummer ("Megan zum Anruf hinzufügen"), eine Folienpräsentation ("Quartalsüberprüfungsfolie präsentieren") oder navigierende Folien ("Zur Anhangfolie wechseln"). Andere Features, die das Feature unterstützt, sind das Suchen und Freigeben von Dateien, die Suche und die Navigation in der Teams-App ("Open my chat with John, Go to my unread activity, Go to my mentions usw.).
 
 Cortana erfüllt in Teams die gleichen Zusagen für Datenschutz, Sicherheit und Compliance auf Unternehmensebene für Cortana-Unternehmensdienste, wie in den Bedingungen für [Onlinedienste (OST) widergespiegelt.](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [Weitere Informationen](https://docs.microsoft.com/microsoftteams/cortana-in-teams).
 
@@ -205,7 +241,7 @@ Benutzer mit dieser Rolle können Teams-zertifizierte Geräte über das Teams Ad
 
 ## <a name="august-12-2020"></a>12. August 2020
 
-### <a name="lists-app-in-teams"></a>App "Listen" in Teams
+### <a name="lists-app-in-teams"></a>Listen-App in Teams
 
 Benutzer von Teams können ihre Listen jetzt über die Registerkarte der App "Listen" direkt verwalten, erstellen und verwalten. Die App "Listen" funktioniert auf allen Teams-Clients und ermöglicht die Zusammenarbeit und Kommunikation rund um Listenelemente. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app).
 
@@ -295,7 +331,7 @@ Sie wählen aus, welche Apps beim Starten von Teams standardmäßig für Benutze
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>Bildschirmfreigabe im Auftrag anderer Personen
 
-Viele IT-Administratoren haben sich beschwert, dass sie ihre Mitarbeiter beim Deaktivieren der Richtlinie "AllowPrivateCalling" nicht über den Chat bildschirm freigeben können. Mit dieser Funktion wurde die Möglichkeit zum Starten eines Bildschirms aus dem Chat von der Richtlinie "AllowPrivateCalling" entkoppelt, aber es blockiert Benutzer weiterhin am Hinzufügen von Audio/Video zur Bildschirmfreigabesitzung, wenn ihre "AllowPrivateCalling"-Richtlinie deaktiviert ist.
+Viele IT-Administratoren haben sich beschwert, dass sie ihre Mitarbeiter beim Deaktivieren der Richtlinie "AllowPrivateCalling" nicht über den Chat bildschirm freigeben können. Durch diese Funktion wurde die Möglichkeit zum Starten eines Bildschirms aus dem Chat mit der Richtlinie "AllowPrivateCalling" entkoppelt, die Benutzer werden jedoch weiterhin am Hinzufügen von Audio/Video zur Bildschirmfreigabesitzung blockiert, wenn ihre "AllowPrivateCalling"-Richtlinie deaktiviert ist.
 
 ## <a name="june-29-2020"></a>29. Juni 2020
 
@@ -351,9 +387,9 @@ Wir haben es ermöglicht, bis zu 350 Personen zu einem einzigen Chatthread hinzu
 
 ## <a name="may-5-2020"></a>5. Mai 2020
 
-### <a name="easily-access-meeting-options-from-within-a-teams-meeting-in-progress"></a>Einfacher Zugriff auf Besprechungsoptionen innerhalb einer in Bearbeitung ausgeführten Teams-Besprechung
+### <a name="easily-access-meeting-options-from-within-a-teams-meeting-in-progress"></a>Einfacher Zugriff auf Besprechungsoptionen in einer in Bearbeitung ausgeführten Teams-Besprechung
 
-Wir erleichtern Besprechungsorganisatoren das schnelle und einfache Ändern ihrer Organisator- und Lobbyeinstellungen, sobald eine Team-Besprechung beginnt, indem wir einen leicht zugänglichen Link direkt im Teilnehmerbereich bereitstellen. Diese neue Funktion wird sowohl für geplante als auch für "Jetzt treffen"-Besprechungen vorhanden sein.
+Wir erleichtern Besprechungsorganisatoren das schnelle und einfache Ändern ihrer Organisator- und Lobbyeinstellungen, sobald eine Team-Besprechung beginnt, indem wir einen leicht zugänglichen Link direkt im Teilnehmerbereich bereitstellen. Diese neue Funktion wird sowohl für geplante als auch für "Jetztbesprechung" besprechungen vorhanden sein.
 
 ### <a name="download-a-participant-report-in-a-teams-meeting"></a>Herunterladen eines Teilnehmerberichts in einer Team-Besprechung
 
@@ -369,7 +405,7 @@ Moderatoren und Produzenten in Liveereignissen können jetzt systemaudio aufnehm
 
 ### <a name="team-and-channel-analytics"></a>Team- und Kanalanalysen
 
-Zusätzlich zu Teamanalysen können Sie jetzt auch Metriken und Einblicke auf Kanalebene anzeigen. Außerdem haben wir den Zeitraum auf 90 Tage erweitert, sodass Sie Daten über längere Zeiträume analysieren können. Abgesehen davon enthält diese Version auch neue Metriken und Diagramme rund um die Anzahl der Beiträge, Antworten und Besprechungen für ein Team oder einen Kanal. [Weitere Informationen](../teams-analytics-and-reports/view-analytics.md).
+Zusätzlich zu Teamanalysen können Sie jetzt auch Metriken und Einblicke auf Kanalebene anzeigen. Außerdem haben wir den Zeitraum auf 90 Tage erweitert, damit Sie Daten über längere Zeiträume analysieren können. Abgesehen davon enthält diese Version auch neue Metriken und Diagramme rund um die Anzahl der Beiträge, Antworten und Besprechungen für ein Team oder einen Kanal. [Weitere Informationen](../teams-analytics-and-reports/view-analytics.md).
 
 ## <a name="april-20-2020"></a>20. April 2020
 
@@ -385,7 +421,7 @@ Wenn Sie sich mit einem Video treffen, haben Sie jetzt die Wahl zwischen verschi
 
 ## <a name="april-1-2020"></a>1. April 2020
 
-### <a name="teams-for-realwear"></a>Teams für Real Immer
+### <a name="teams-for-realwear"></a>Teams für Real Überf
 
 Der Microsoft Teams-Client für RealAufnahme ermöglicht Frontline-Mitarbeitern, die mit den zerklüfteten kopfmontierten Wearables von Real Durchschlagslinien arbeiten, Teams zu 100 Prozent freisprechen zu lassen und Remoteunterstützung von Experten über Videoanrufe in Teams zu erhalten. [Weitere Informationen](../flw-realwear.md).
 
