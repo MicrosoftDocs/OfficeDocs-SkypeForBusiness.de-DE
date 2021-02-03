@@ -13,12 +13,12 @@ f1.keywords:
 description: 'Übersicht über die integrierte #A0 (Contact Center as a Service) für Microsoft Teams'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d34a1790a082e1defab399828cceb5c0082dc70d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 0913bef8a77e66ae3b82905a8d154940f32c2392
+ms.sourcegitcommit: de7d0807186a64dfe1cca15d34c39bdbad6af836
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909489"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50084748"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Kontaktcenterintegrationen für Microsoft Teams
 
@@ -62,33 +62,13 @@ Die folgenden Partner sind dabei, ihre Lösung für Microsoft Teams zu zertifizi
 
 Diese Liste wird aktualisiert, sobald weitere Partner beitreten und die Zertifizierungskriterien erfüllen.
 
-## <a name="how-do-contact-center-solutions-work-in-microsoft-teams"></a>Wie funktionieren Kontaktcenterlösungen in Microsoft Teams?
-
-Microsoft Teams bietet eine Reihe von Funktionen zur Unterstützung der Entwicklung von Sprachlösungen von Drittanbietern, darunter:
-
-1. [Direct Routing Connectivity](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
-
-2. [Microsoft Graph Cloud Communication APIs](https://docs.microsoft.com/graph/cloud-communications-get-started)
-
-3. Plattform und Erweiterung von Teams
-
-4. Teams SDKs
-
-Zusammen ermöglichen diese Funktionen drei Integrationsmodelle:
-
-  - **Verbinden** (über Direct-Routing)
-
-  - **Verbinden und Erweitern** (Direct-Routing, Graph-APIs und Plattform für Teams-Apps)
-
-  - **Erweitern und Power** (Einbetten von Teams-SDKs in 3p-Apps für systemeigene Teams-Interaktionen)
-
 ### <a name="connect"></a>Verbinden
 
-Dieses Modell verbindet #A0 mit der Telefonsysteminfrastruktur von Microsoft Teams und ermöglicht so erweiterte Einblicke in Routing, Konfiguration und System. Bei diesem Modell kann die Partnerlösung für das Kontaktcenter auch Telefoniedienste für ausgewählte Nummern und Benutzer bereitstellen.
+Dieses Modell verbindet #A0 mit der Telefonsysteminfrastruktur von Microsoft Teams und ermöglicht so erweiterte Einblicke in Routing, Konfiguration und System. 
 
 Agents, die auf dem Modell "Connect" integrierte Lösungen verwenden, können Informationen & Erkenntnisse sammeln und gegebenenfalls Anrufe direkt an Fachleute durchstellen, indem sie die ANWESENHEITSINFORMATIONEN in Teams verwenden, um deren Verfügbarkeit sicherzustellen.
 
-Organisationen können die Weiterleitung an den optimalen Agent sicherstellen, indem sie automatisierte virtuelle Assistenten und qualifikationsbasierte Routingwarteschlangen einrichten.
+Organisationen können die Weiterleitung von Anrufen an den optimalen Agent sicherstellen, indem sie automatisierte virtuelle Assistenten und qualifikationsbasierte Routingwarteschlangen einrichten.
 
 **Feature-Highlights:**
 
@@ -98,21 +78,19 @@ Im Folgenden finden Sie zwar keine umfassende Liste der Featurefunktionen für d
 
   - Anwesenheitsanzeige von Teams-Benutzern 
 
-  - Anrufflüsse über direktes Routing (wie in Testplänen angegeben) 
-
   - Supportübertragungen und Gruppenanrufe mit Teams-Benutzern 
 
   - Teams Graph-APIs und Cloudkommunikations-APIs für die Integration in Teams 
 
-  - Unterstützung von sip-Trunking mit mehreren Mandanten zur Unterstützung mehrerer Kunden mit SBC des Partners.  
+  - Unterstützung von sip-Trunking mit mehreren Mandanten, um mehrere Kunden auf dem SBC des Partners zu unterstützen.  
 
-  - Partner zum Implementieren des [ <span class="underline">zertifizierten Session Border Controllers (SBC) von Microsoft</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Partner zur Verwendung des [ <span class="underline">zertifizierten Session Border Controllers (SBC) von Microsoft</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>Verbinden und Erweitern
 
-Dieses Modell erweitert die Kontaktcenter-Mitarbeiter- und Agenterfahrungen durch die Integration in den Teams-Client mithilfe der [Teams-Clientplattform,](https://docs.microsoft.com/microsoftteams/platform/overview) [der Teams -Graph-APIs](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) und der [Cloudkommunikations-API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) und verwendet das Telefonsystem von Teams für alle Kontaktcenteranrufe und Anrufsteuerungserfahrungen. In diesem Modell fungiert der Kontaktcenterpartner neben Microsoft 365 als Telefonieanbieter.
+Dieses Modell erweitert die Kontaktcenter-Mitarbeiter- und Agenterfahrungen durch die Integration in den Teams-Client mithilfe der [Teams-Clientplattform,](https://docs.microsoft.com/microsoftteams/platform/overview) [der Teams -Graph-APIs](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) und der [Cloudkommunikations-API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) und verwendet das Telefonsystem von Teams für alle Kontaktcenteranrufe und Anrufsteuerungserfahrungen. In diesem Modell fungiert der Kontaktcenterpartner als Telefonieanbieter neben Microsoft 365.
 
-Mithilfe von Connect- und Extend-basierten Lösungen können Agents von dynamischen kontextbezogenen Notizen profitieren, die Daten aus mehreren Systemen korrelieren, bevor sie ein Engagement starten, und dann aufwendige Kontextwechsel vermeiden, indem sie systemeigene in Teams für interne Zusammenarbeit und externe Kommunikation arbeiten.
+Mithilfe von Connect- und erweiterungsbasierten Lösungen können Agents von dynamischen kontextbezogenen Notizen profitieren, die Daten aus mehreren Systemen korrelieren, bevor sie ein Engagement starten, und dann aufwendige Kontextwechsel vermeiden, indem sie systemeigene in Teams für interne Zusammenarbeit und externe Kommunikation arbeiten.
 
 Organisationen können Workflows und erweiterte Routingkonfigurationen bis hin zu einzelnen Personen entwerfen und die Qualität ihres Systems und ihrer Interaktionen messen.
 
@@ -138,7 +116,7 @@ Im Folgenden finden Sie zwar keine vollständige Liste der Featurefunktionen fü
 
 ### <a name="extend-and-power"></a>Erweitern und Leistung
 
-Dieses Modell ermöglicht es Partnern, native Azure-basierte Sprachanwendungen mithilfe der Anrufinfrastruktur und Clientplattform von Teams zu erstellen, um moderne, intelligente Lösungen für die Kunden- und Agentverbindung für die Zusammenarbeit zu bieten. Das Ziel von "Extend" und "Power" ist es, die Kreativität von Entwicklern zu fördern und die Produktivität von Kunden zu fördern.
+Dieses Modell ermöglicht es Partnern, native Azure-basierte Sprachanwendungen mithilfe der Anrufinfrastruktur und Clientplattform von Teams zu erstellen, um moderne, intelligente Lösungen für die Kunden- und Agentverbindung für die Zusammenarbeit zu liefern. Das Ziel von "Extend" und "Power" ist es, die Kreativität von Entwicklern zu fördern und die Produktivität von Kunden zu fördern.
 
 Durch die direkte Nutzung von Azure können Partner ihre Lösung schnell in allen Regionen und Regionen von Teams bereitstellen und bereitstellen, wobei sie von unserem gemeinsamen, globalen Kommunikationsnetzwerk profitieren und gleichzeitig die Speicher-, Rechen- und Analysefunktionen von Azure & Cognitive Services nutzen.
 
