@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ea2d747d40c221d9e99b51fc7b15da8e2cdd12
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
+ms.openlocfilehash: 9c99bed1ef9a1862b469dd5214b8d829bde8479b
+ms.sourcegitcommit: 15c45befbee35e69f9ec82493151cb82e61da4fb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944600"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "50096928"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportieren von Inhalten mit den Microsoft Teams-Export-APIs
 
@@ -36,7 +36,7 @@ Im Folgenden finden Sie einige Beispiele für die Verwendung dieser Export-APIs:
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Was wird von den Teams-Export-APIs unterstützt?
 
-- **Massenexport von Teams-Nachricht:** Teams -Export-APIs unterstützen bis zu 200 RPS pro App pro Mandant und 600 RPS für eine Anwendung. Mit diesen Grenzwerten sollten Sie in der Lage sein, Massenexporte von Teamnachrichten zu starten.
+- **Massenexport von Teams-Nachrichten:** Teams -Export-APIs unterstützen bis zu 200 RPS pro App pro Mandant und 600 RPS für eine Anwendung. Mit diesen Grenzwerten sollten Sie in der Lage sein, Massenexporte von Teamnachrichten zu starten.
 - **Anwendungskontext:** Zum Aufrufen von Microsoft Graph muss Ihre App ein Zugriffstoken von der Microsoft-Identitätsplattform erhalten. Das Zugriffstoken enthält Informationen zu Ihrer App sowie die Berechtigungen, über die es für die über Microsoft Graph verfügbaren Ressourcen und APIs verfügt. Um ein Zugriffstoken zu erhalten, muss Ihre App bei der Microsoft-Identitätsplattform registriert sein und entweder von einem Benutzer oder einem Administrator für den Zugriff auf die benötigten Microsoft Graph-Ressourcen autorisiert sein.
 
     Wenn Sie bereits mit der Integration einer App mit der Microsoft-Identitätsplattform zum Erhalten von Token vertraut sind, finden Sie im Abschnitt "Nächste Schritte" Informationen und Beispiele speziell für Microsoft Graph. [](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)
@@ -50,35 +50,35 @@ Im Folgenden finden Sie einige Beispiele für die Verwendung dieser Export-APIs:
 - **Beispiel 1** ist eine einfache Abfrage zum Abrufen aller Nachrichten eines Benutzers oder Teams ohne Filter:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
     ```
 
-- **Beispiel 2** ist eine Beispielabfrage zum Abrufen aller Nachrichten eines Benutzers oder Teams durch Angabe von Datumszeitfiltern und den 50 am besten 50 Nachrichten:
+- **Beispiel 2** ist eine Beispielabfrage zum Abrufen aller Nachrichten eines Benutzers oder Teams durch Angabe von Datums-/Uhrzeitfiltern und den 50 am besten 50 Nachrichten:
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
-```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    ```HTTP
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
->The API returns response with next page link in case of multiple results. For getting next set of results, simply call GET on the url from @odata.nextlink. If @odata.nextlink is not present or null then all messages are retrieved.
+>Die API gibt bei mehreren Ergebnissen eine Antwort mit dem Link "Nächste Seite" zurück. Um die nächste Gruppe von Ergebnissen zu erhalten, rufen Sie einfach "ABRUFEN für die URL" von "@odata.nextlink" auf. Wenn @odata.nextlink nicht vorhanden oder NULL ist, werden alle Nachrichten abgerufen.
 
-## Prerequisites to access Teams Export APIs 
+## <a name="prerequisites-to-access-teams-export-apis"></a>Voraussetzungen für den Zugriff auf die Teams-Export-APIs 
 
-- Teams Export APIs are currently in preview. It will only be available to users and tenants that have the [required licenses](https://aka.ms/teams-changenotification-licenses) for APIs. In the future, Microsoft may require you or your customers to pay additional fees based on the amount of data accessed through the API.
-- Microsoft Teams APIs in Microsoft Graph that access sensitive data are considered protected APIs. Export APIs require that you have additional validation, beyond permissions and consent, before you can use them. To request access to these protected APIs, complete the [request form](https://aka.ms/teamsgraph/requestaccess).
-- Application permissions are used by apps that run without a signed-in user present; application permissions can only be consented by an administrator. The following permissions are needed:
+- Die Teams-Export-APIs werden derzeit in der Vorschau angezeigt. Sie steht nur Benutzern und Mandanten zur Verfügung, die über die [erforderlichen Lizenzen für](https://aka.ms/teams-changenotification-licenses) APIs verfügen. In Zukunft kann Microsoft von Ihnen oder Ihren Kunden zusätzliche Gebühren auf der Grundlage der Datenmenge verlangen, auf die über die API zugegriffen wird.
+- Microsoft Teams-APIs in Microsoft Graph, die auf vertrauliche Daten zugreifen, werden als geschützte APIs betrachtet. Export-APIs erfordern eine zusätzliche Überprüfung, die über Berechtigungen und Zustimmung hinaus geht, bevor Sie sie verwenden können. Füllen Sie das Anforderungsformular aus, um Zugriff auf diese geschützten APIs [an fordern.](https://aka.ms/teamsgraph/requestaccess)
+- Anwendungsberechtigungen werden von Apps verwendet, die ausgeführt werden, ohne dass ein angemeldeter Benutzer anwesend ist. Anwendungsberechtigungen können nur von einem Administrator erteilt werden. Die folgenden Berechtigungen sind erforderlich:
 
-    - *Chat.Read.All*: enables access to all 1:1 and Group chat messages 
-    - *User.Read.All*: enables access to the list of users for a tenant 
+    - *Chat.Read.All*: Ermöglicht den Zugriff auf alle 1:1- und Gruppenchatnachrichten. 
+    - *User.Read.All*: Ermöglicht den Zugriff auf die Liste der Benutzer für einen Mandanten. 
 
-## JSON representation
+## <a name="json-representation"></a>Darstellung von JSON
 
-The following example is a JSON representation of the resource:
+Das folgende Beispiel ist eine JSON-Darstellung der Ressource:
 
 Namespace: microsoft.graph
 
