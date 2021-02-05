@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdadd024de9e12ec242ab76189eb611520ceb59
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973069"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110208"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -57,7 +57,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 <sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
 
-<sup>5</sup> Teams in der GCC können nur Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2.500 Mitglieder.
+<sup>5</sup> Teams in der GCC können nur 5.000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2.500 Mitglieder.
 
 ## <a name="messaging"></a>Messaging
 

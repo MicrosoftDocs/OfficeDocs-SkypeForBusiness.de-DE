@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen Session Border Controller (SBC) konfigurieren, um mehrere Mandanten für Partner und/oder Netzbetreiber von Microsoft zu verwenden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 343e2d1aedefd34de452df8da6ce9a5ad1a726ba
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: b81709b46774762036ba9465444d066a0adf019c
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923847"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110238"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -60,7 +60,7 @@ Ausführliche Schritte zum Bereitstellen und Konfigurieren von SBCs für ein SBC
 
 - **AudioCodes: Direct** [Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), the configuration of the SBC hosting scenario described in "Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note". 
 - **Oracle: Hinweise** [zur Direct-Routing-Konfiguration.](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)Die Konfiguration des SBC-Hostingszenarios wird im Abschnitt "Microsoft" beschrieben. 
-- **Menübandkommunikation:**  Dokumentation zum Konfigurieren von Ribbon Core Series SBCs und zu dieser Seite "Bewährte Methode für das Menüband: Konfigurieren von Netzbetreibern für [Microsoft Teams Direct Routing SBC Edge"](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) finden Sie im Konfigurationshandbuch für Ribbon Communications SBC Core Microsoft [Teams.](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+- **Menübandkommunikation:**  Eine Dokumentation zum Konfigurieren von Ribbon Core Series SBCs und zu dieser Seite "Bewährte Methode für das Menüband – Konfigurieren von Netzbetreibern für [Microsoft Teams Direct Routing SBC Edge"](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier) finden Sie im Konfigurationshandbuch für Ribbon Communications SBC Core Microsoft [Teams.](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - **TE-Systems (anynode):**  Registrieren Sie sich auf der [TE-Systems-Communityseite,](https://community.te-systems.de/) um Dokumentationen und Beispiele zum Konfigurieren von anynode SBC für mehrere Mandanten zu erhalten.
 - **Metaswitch:**  Registrieren Sie sich auf der [Metaswitch Community-Seite,](https://manuals.metaswitch.com/MAN39555) um Dokumentation zum Aktivieren von Perimeta SBC für mehrere Mandanten zu erhalten.
 
@@ -87,7 +87,7 @@ Das folgende Diagramm enthält eine Zusammenfassung der Anforderungen an die Bas
 
 ![Diagramm mit Anforderungen an Domänen und Kontaktkopfzeile](media/direct-routing-1-sbc-requirements.png)
 
-Der SBC benötigt ein Zertifikat, um die Verbindungen zu authentifizieren. Für das #A0 muss der Netzbetreiber ein Zertifikat mit CN und/oder SAN .base_domain (z. B. *\* \* ".customers.adatum.biz") anfordern.* Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die von einem einzigen SBC aus bedient werden.
+Der SBC benötigt ein Zertifikat, um die Verbindungen zu authentifizieren. Für das #A0 muss der Netzbetreiber ein Zertifikat mit CN und/oder SAN .base_domain (z. B. *\* \* ".customers.adatum.biz") anfordern.* Dieses Zertifikat kann verwendet werden, um Verbindungen mit mehreren Mandanten zu authentifizieren, die von einem einzigen SBC bedient werden.
 
 
 Die folgende Tabelle ist ein Beispiel für eine Konfiguration.
@@ -96,9 +96,9 @@ Die folgende Tabelle ist ein Beispiel für eine Konfiguration.
 |Neuer Domänenname |Typ|Registriert  |Zertifikat-CN/SAN für SBC  |Tenant default domain in the example  |FQDN-Name, den SBC beim Senden von Anrufen an Benutzer im Kontaktkopf präsentieren muss|
 |---------|---------|---------|---------|---------|---------|
 |customers.adatum.biz|    Basis     |     Im Mandanten des Netzbetreibers  |    \*.customers.adatum.biz  |   adatum.biz      |NA, dies ist ein Dienst mandant, keine Benutzer |
-|sbc1.customers.adatum.biz|    Subdomain  |    In einem Kunden mandant  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
-|sbc2.customers.adatum.biz  |   Subdomain | In einem Kunden mandant   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
-|sbc3.customers.adatum.biz |   Subdomain | In einem Kunden mandant |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
+|sbc1.customers.adatum.biz|    Subdomain  |    In einem Kunden-Mandanten  |    \*.customers.adatum.biz  | woodgrovebank.us  |  sbc1.customers.adatum.biz|
+|sbc2.customers.adatum.biz  |   Subdomain | In einem Kunden-Mandanten   |   \*.customers.adatum.biz   |contoso.com   |sbc2.customers.adatum.biz |
+|sbc3.customers.adatum.biz |   Subdomain | In einem Kunden-Mandanten |   \*.customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
 Führen Sie die nachstehend beschriebenen Schritte aus, um die Basis- und Unterdomänen zu konfigurieren. Im Beispiel konfigurieren wir einen Basisdomänennamen (customers.adatum.biz) und eine Unterdomäne für einen Kunden (sbc1.customers.adatum.biz im Woodgrove Bank-Mandanten).
@@ -110,7 +110,7 @@ Führen Sie die nachstehend beschriebenen Schritte aus, um die Basis- und Unterd
 
 **Diese Aktionen werden im Mandanten des Netzbetreibers ausgeführt.**
 
-### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Sicherstellen, dass Sie über geeignete Rechte im Mandanten des Netzbetreibers verfügen
+### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Sicherstellen, dass Sie über die entsprechenden Rechte im Mandanten des Netzbetreibers verfügen
 
 Sie können neue Domänen nur hinzufügen, wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben. 
 
@@ -137,10 +137,10 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
 ### <a name="activate-the-domain-name"></a>Aktivieren des Domänennamens
 
-Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen lizenzierten E1-, E3- oder E5-Benutzer hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, die der erstellten Basisdomäne entspricht. Die Lizenz kann nach der Domänenaktivierung widerrufen werden (dies kann bis zu 24 Stunden dauern).
+Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer mit einer Telefonsystemlizenz hinzufügen und ihm eine SIP-Adresse mit dem FQDN-Teil der ERSTELLTen Basisdomäne zuweisen. Die Lizenz kann nach der Domänenaktivierung widerrufen werden (dies kann bis zu 24 Stunden dauern).
 
 > [!NOTE]
-> Der Mandanten des Netzbetreibers muss mindestens eine dem Mandanten zugewiesene E1/E3/E3/E5/M365 Business-Lizenz behalten, um das Entfernen der Skype for Business-Konfiguration zu vermeiden. 
+> Der Mandanten des Netzbetreibers muss mindestens eine dem Mandanten zugewiesene Telefonsystemlizenz behalten, um das Entfernen der Skype for Business-Konfiguration zu vermeiden. 
 
 *Weitere Informationen zum Hinzufügen von Benutzern in [Microsoft 365-](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) oder Office 365-Organisationen finden Sie unter "Hilfe zu Microsoft 365- oder Office 365-Domänen".*
 
@@ -221,7 +221,7 @@ Dies hat sich jedoch aus zwei Gründen nicht als optimal erwiesen:
  
 - **Verwaltung des Aufwands.** Das Aus- oder Entleeren eines SBC ändert z. B. einige Parameter, z. B. das Aktivieren oder Deaktivieren der Medienumgehung. Das Ändern des Ports erfordert das Ändern von Parametern in mehreren Mandanten (durch Ausführen von Set-CSOnlinePSTNGateway), ist aber tatsächlich der gleiche SBC. 
 
--  **Verarbeitung des Aufwands.** Erfassen und Überwachen von Trunkinte health-Daten – SIP-Optionen, die aus mehreren logischen Trunks gesammelt werden, die in der Realität der gleiche SBC und der gleiche physische Trunk sind, verlangsamen die Verarbeitung der Routingdaten.
+-  **Verarbeitung des Aufwands.** Erfassen und Überwachen von Trunkzustandsdaten – SIP-Optionen, die aus mehreren logischen Trunks gesammelt werden, die tatsächlich denselben SBC und den gleichen physischen Trunk sind, verlangsamen die Verarbeitung der Routingdaten.
  
 Auf der Grundlage dieses Feedbacks bringt Microsoft eine neue Logik für die Bereitstellung der Trunks für die Kunden mandanten ein.
 
@@ -235,7 +235,7 @@ Es wurden zwei neue Entitäten eingeführt:
 -    Netzbetreiber müssen nur einen einzigen Trunk (Carrier Trunk in der Domäne des Netzbetreibers) mithilfe des Befehls "Set-CSOnlinePSTNGateway" einrichten und verwalten. Im vorstehenden Beispiel ist dies adatum.biz;
 -    Im Mandanten des Kunden muss der Netzbetreiber den abgeleiteten Trunk-FQDN nur den Sprachroutingrichtlinien der Benutzer hinzufügen. Es ist nicht nötig, New-CSOnlinePSTNGateway für einen Trunk ausführen.
 -    Der abgeleitete Trunk erbt oder leitet, wie der Name bereits sagt, alle Konfigurationsparameter vom Carrier Trunk ab. Beispiele:
--    Customers.adatum.biz – der Carrier Trunk, der im Carrier Tenant erstellt werden muss.
+-    Customers.adatum.biz – der Carrier Trunk, der im Mandanten des Netzbetreibers erstellt werden muss.
 -    Sbc1.customers.adatum.biz – der abgeleitete Trunk in einem Kunden-Mandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Kunden mandanten in der Online-Voiceroutingrichtlinie hinzufügen, ohne sie zu erstellen.
 -   Der Netzbetreiber muss einen DNS-Eintrag einrichten, mit dem der abgeleitete Trunk-FQDN zur SBC-IP-Adresse des Netzbetreibers aufgelöst wird.
 
@@ -246,14 +246,14 @@ Es wurden zwei neue Entitäten eingeführt:
 
 **Migration vom vorherigen Modell zum Carrier Trunk**
  
-Für die Migration von der aktuellen Implementierung des gehosteten Modells des Netzbetreibers in das neue Modell müssen die Netzbetreiber die Trunks für Kunden mandant neu konfigurieren. Entfernen Sie die Trunks der Kunden mandanten mithilfe Remove-CSOnlinePSTNGateway (lassen Sie den Trunk im Mandanten des Netzbetreibers) –
+Für die Migration von der aktuellen Implementierung des gehosteten Modells des Netzbetreibers zum neuen Modell müssen die Netzbetreiber die Trunks für Kunden mandanten neu konfigurieren. Entfernen Sie die Trunks der Kunden mandanten mithilfe Remove-CSOnlinePSTNGateway (lassen Sie den Trunk im Mandanten des Netzbetreibers) –
 
 Wir empfehlen dringend, so bald wie möglich zur neuen Lösung zu migrieren, da wir die Überwachung und Bereitstellung mit dem Carrier- und abgeleiteten Trunkmodell verbessern werden.
  
 
-Lesen Sie die [Anweisungen des Anbieters SBC](#deploy-and-configure-the-sbc) zum Konfigurieren des FQDN-Namens von Unterdomänen im Kontaktheader.
+Lesen Sie die Anweisungen des [Anbieters SBC](#deploy-and-configure-the-sbc) zum Konfigurieren des FQDN-Namens von Unterdomänen im Kontaktheader.
 
-## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Überlegungen zum Einrichten des Failovers für den Muti-Mandanten 
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Überlegungen zum Einrichten des Failovers für den muti-Mandanten 
 
 Zum Einrichten des Failovers für eine Umgebung mit mehreren Mandanten müssen Sie die folgenden Schritte ausführen:
 

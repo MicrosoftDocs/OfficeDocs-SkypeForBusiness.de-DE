@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 44c73bc597acb8dfed7f090db35d4c278854ee14
-  ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+  ms.openlocfilehash: 9cefe2a8558b10a6d53a6b6c49c519f9f8aa13f3
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 01/13/2021
-  ms.locfileid: "49841476"
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110338"
 title: 'Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams'
 summary: ''
 sections:
@@ -46,9 +46,9 @@ sections:
   - question: Wo erfahre ich im Microsoft Teams Admin Center mehr über die Koexistenzmodi?
     answer: >
       Im Microsoft Teams Admin Center werden Sie Optionen für Koexistenzmodi feststellen, mit deren Hilfe Ihre Organisation die für sie geeignete Strategie für die Umstellung von Skype for Business auf Microsoft Teams verwalten kann. Weitere Informationen zu [Koexistenz- und Upgrademodi](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
-  - question: Was muss ich tun, um mich auf mein Upgrade vorzubereiten?
+  - question: Was sollte ich tun, um das Upgrade vorzubereiten?
     answer: >
-      Zu einem erfolgreichen Upgrade gehören neben dem Validieren der technischen Bereitschaft die Benutzerakzeptanz und -bereitschaft. Selbst wenn Sie feststellen, dass Ihre Organisation noch nicht bereit ist, auf Teams umzusteigen, können Sie noch heute mit dem Planungsprozess beginnen. Außerdem können Sie schon von Microsoft Teams profitieren, indem Sie Microsoft Teams parallel zu Skype for Business aktivieren. Beginnen Sie noch heute mit der https://aka.ms/skypetoteams-home)Umstellung von Skype auf Microsoft Teams.
+      Zu einem erfolgreichen Upgrade gehören neben dem Validieren der technischen Bereitschaft die Benutzerakzeptanz und -bereitschaft. Selbst wenn Sie feststellen, dass Ihre Organisation noch nicht bereit ist, auf Teams umzusteigen, können Sie noch heute mit dem Planungsprozess beginnen. Außerdem können Sie schon von Microsoft Teams profitieren, indem Sie Microsoft Teams parallel zu Skype for Business aktivieren. Beginnen Sie noch heute mit der [Umstellung von Skype auf Microsoft Teams](https://aka.ms/skypetoteams-home).
 
 
       Microsoft bietet zudem interaktive Liveworkshops an, in denen wir Anleitungen, bewährte Methoden und Ressourcen für den Einstieg in die Upgradeplanung und -implementierung besprechen. [Hier finden Sie Workshops zur Upgradeplanung](https://aka.ms/SkypeToTeamsPlanning).
@@ -121,4 +121,4 @@ sections:
     answer: >
       [Geräte für Besprechungsräume](https://products.office.com/microsoft-teams/across-devices) sind ein wesentlicher Bestandteil unserer Vision eines modernen Arbeitsplatzes. [Cloud-Videointeroperabilitätsdienste](https://docs.microsoft.com/microsoftteams/cloud-video-interop) zur Unterstützung von Teams-Besprechungen mit vorhandenen VTC-Systemen sind zurzeit in Arbeit. Angebote von Pexip, Polycom und Blue Jeans werden im Herbst allgemein verfügbar sein.
   - question: Bietet die neueste Generation von Skype Room Systems (v2) Unterstützung für Besprechungen in Teams?
-    answer: Wir haben Skype Room Systems in Microsoft Teams-Räume umbenannt. Es bietet vollständige Unterstützung für Microsoft Teams-Besprechungen. Zudem steht Ihnen ein einfacher Migrationspfad von Skype for Business zu Microsoft Teams durch einfaches Aktivieren von Microsoft Teams auf dem Gerät zur Verfügung. Zusätzlich zu der Möglichkeit, mit der Abstandserkennung in der Nähe befindliche Microsoft Teams-Räume zu finden, können Benutzer zu mit einem einzigen Klick an Microsoft Teams-Besprechungen teilnehmen. Außerdem stehen Dual-Screen-Unterstützung und Microsoft Whiteboard zur Verfügung und es werden weitere innovative Features wie Inhaltskamera mit intelligenter Erfassung folgen.
+    answer: Wir haben Skype Room Systems in Microsoft Teams Rooms umbenannt, die Microsoft Teams-Besprechungen vollständig unterstützen und einen einfachen Migrationspfad von Skype for Business zu Teams bietet, indem Teams einfach auf dem Gerät aktiviert wird. Zusätzlich zur Möglichkeit für Benutzer, in der Nähe gelegene Microsoft Teams-Räume mit Näherungserkennung zu identifizieren, können Teambesprechungen mit nur einem Klick, Dual-Screen-Unterstützung, Microsoft Whiteboard, teilnehmen, und wir stellen weiterhin innovative Features wie eine Inhaltskamera mit intelligenter Aufnahme zur Verfügung.
