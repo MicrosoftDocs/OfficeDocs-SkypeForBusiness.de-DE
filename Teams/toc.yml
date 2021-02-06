@@ -201,6 +201,8 @@ items:
         href: upgrade-operate-my-service.md
       - name: Verbessern Ihres Diensts
         href: upgrade-enhance-my-service.md
+      - name: Öffentliche Vorschau in Microsoft Teams
+        href: public-preview-doc-updates.md
       - name: Verwenden der Inline-Nachrichtenübersetzung
         href: inline-message-translation-teams.md
       - name: Verwenden der Verzeichnissuche in Microsoft Teams
@@ -413,8 +415,6 @@ items:
                 href: rooms/xml-config-file.md
               - name: Verwendung des Wiederherstellungstools
                 href: rooms/recovery-tool.md
-      - name: 'Tutorial: Besprechungen in Teams'
-        href: Tutorial-Meetings-in-Teams.yml
       - name: Verwalten von Besprechungsrichtlinien
         href: meeting-policies-in-teams.md
       - name: Entfernen der Besprechungsrichtlinie „RestrictedAnonymousAccess“ aus den Benutzern
@@ -465,8 +465,6 @@ items:
             href: audio-conferencing-on-network.md
           - name: Allgemeine Fragen zu Audiokonferenzen
             href: audio-conferencing-common-questions.md
-          - name: 'Tutorial: Audiokonferenzen in Teams'
-            href: Tutorial-Audio-Conferencing.yml
           - name: "Audiokonferenz-Add-ons in Microsoft\_365 testen und kaufen"
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
           - name: Erweiterte ausgehende Gesprächsminuten für USA und Kanada
@@ -975,11 +973,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams-Anrufflüsse
             href: microsoft-teams-online-call-flows.md
-          - name: 'Tutorial: Anrufe in Microsoft Teams'
-            href: Tutorial-calling-in-teams.yml
-            items:
-              - name: Planen der Erfahrung meiner Benutzer
-                href: 5-envision-plan-my-users-experience.md
   - name: Microsoft 365 Business Voice
     items:
       - name: Was ist Microsoft 365 Business Voice?
@@ -1375,6 +1368,8 @@ items:
         href: service-health.md
       - name: "Kontakt mit dem Support für Geschäftsprodukte aufnehmen\_– Administratorhilfe"
         href: 'https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products'
+      - name: So finden Sie Ihre Support-PIN
+        href: support-pin.md
   - name: Referenz
     items:
       - name: Grenzwerte und Daten für Teams
@@ -1508,16 +1503,10 @@ items:
             href: 'https://docs.microsoft.com/powershell/module/teams/?view=teams-ps'
       - name: Entwicklerdokumentation für Teams
         href: 'https://docs.microsoft.com/microsoftteams/platform'
-      - name: Hilfe in Teams abrufen
-        href: get-help-in-microsoft-teams.md
-      - name: Updates von Teams-Inhalten
+      - name: Aktualisieren von Teams-Inhalten
         href: teams-updates.md
-      - name: So finden Sie Ihre Support-PIN
-        href: support-pin.md
       - name: Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
         items:
-          - name: Übersicht
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Albanien
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md
           - name: Algerien
@@ -1760,5 +1749,3 @@ items:
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Versionshinweise für Teams-Administratorfunktionen
         href: release-notes/release-notes.md
-      - name: Öffentliche Vorschau in Microsoft Teams
-        href: public-preview-doc-updates.md
