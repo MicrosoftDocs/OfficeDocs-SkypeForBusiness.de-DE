@@ -17,16 +17,18 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Verwenden von Microsoft Teams zum Einrichten Ihres Systems für virtuelle Besuche
-ms.openlocfilehash: 4c8511939532a448d5229865618aa308494c7a42
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101333"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125778"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in EHR
 

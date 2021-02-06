@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Hier erhalten Sie Informationen zu automatischen Telefonisten und Anrufwarteschleifen und erfahren, wie Sie Anrufer beim Wechseln durch ein Menüsystem unterstützen, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 9ba8ccf08793e352e225340aeab33d7b95204cd9
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+description: Erfahren Sie mehr über automatische Telefonisten und Anrufwarteschleifen, und erfahren Sie, wie Sie Anrufer beim Wechseln durch ein Menüsystem unterstützen, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
+ms.openlocfilehash: 65dac48267379d17b76443e42eb70e2e866f6e8f
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918891"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125667"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen automatischer Telefonkonferenzen und Anrufwarteschleifen in Teams
 
-Automatische Telefon attendants allow you to set menu options to route calls based on caller input. Menüoptionen, z. B. "Für den Vertrieb drücken Sie 1.  Bei "Dienste drücken 2" kann eine Organisation für eine automatische Telefongesellschaft eine Reihe von Auswahlmöglichkeiten bereitstellen, die Anrufer schnell an ihr Ziel leiten, ohne sich auf einen menschlichen Operator verlassen zu müssen, um eingehende Anrufe zu verarbeiten.
+Automatische Telefon attendants allow you to set menu options to route calls based on caller input. Menüoptionen, z. B. "Für den Vertrieb drücken Sie 1.  Bei "Dienste drücken 2" kann eine Organisation für eine automatische Telefongesellschaft eine Reihe von Auswahlmöglichkeiten bereitstellen, die Anrufer schnell an ihr Ziel leiten, ohne sich für die Verarbeitung eingehender Anrufe auf einen menschlichen Operator verlassen zu müssen.
 
-Anrufwarteschleifen sind Wartebereiche für Anrufer. In Situationen, in denen Anrufer eine bestimmte Person mit einer bestimmten Spezialität ( z. B. Vertrieb oder Service) statt einer bestimmten Person erreichen müssen, können Sie Anrufer mithilfe von Anrufwarteschleifen mit der Gruppe der Telefonisten verbinden, die ihnen helfen können. Anrufer werden so lange halten, bis ein Agent, der der Warteschlange zugewiesen ist, für den Anruf verfügbar ist.
+Anrufwarteschleifen sind Wartebereiche für Anrufer. In Situationen, in denen Anrufer eine bestimmte Person mit einer bestimmten Spezialität ( z. B. Vertrieb oder Service) statt einer bestimmten Person erreichen müssen, können Sie Anrufer mithilfe von Anrufwarteschleifen mit der Gruppe der Telefonisten verbinden, die ihnen helfen können. Anrufer werden halten, bis ein Agent, der der Warteschlange zugewiesen ist, für den Anruf verfügbar ist.
 
 Bei der gemeinsamen Verwendung können automatische Telefonisten und Anrufwarteschleifen Anrufer ganz einfach an die entsprechende Person oder Abteilung in Ihrer Organisation weiterzuentsprechen.
 
@@ -51,13 +51,13 @@ Für jede automatische Attendant können Sie einen Operator konfigurieren. Sie k
 
 Automatische Telefonisten können so konfiguriert werden, dass Anrufer das Verzeichnis Ihrer Organisation durchsuchen können, entweder nach Name oder nach Durchwahlnummer. In einer automatischen Telefon attendant können Sie angeben, wer für die Verzeichnissuche verfügbar ist, indem Sie Benutzergruppen zum Ein- oder Ausschließen auswählen. (Dies wird als *Wählbereich bezeichnet.)*
 
-Anrufer können eine automatische Telefon attendant entweder über eine direkte Telefonnummer, falls konfiguriert oder von einer anderen automatischen Telefonisten oder einer Anrufwarteschleife aus umgeleitet werden.
+Anrufer können eine automatische Telefon attendant entweder über eine direkte Telefonnummer, falls konfiguriert, oder durch Umleiten von einer anderen automatischen Telefonisten oder einer Anrufwarteschleife erreichen.
 
 ## <a name="call-queues"></a>Anrufwarteschleifen
 
 Eine Anrufwarteschleife ist mit einem Warteraum in einem physischen Gebäude vergleichbar. Anrufer warten im Warteschleifen, während Anrufe an die Agents in der Warteschlange geroutet werden. Anrufwarteschleifen werden häufig für Vertriebs- und Dienstfunktionen verwendet. Anrufwarteschleifen können jedoch für alle Situationen verwendet werden, in denen die Anzahl der Anrufe Ihre interne Kapazität überschreitet, z. B. einen Empfangsisten in einer gebuchten Einrichtung.
 
-Anrufwarteschleifen ermöglichen ein bestimmtes Routing von Anrufen in Fällen, in denen die Gesamtzahl der Anrufer in der Warteschlange oder die Wartezeit die von Ihnen festgelegten Grenzwerte überschreitet. Anrufe können an bestimmte Personen, Voicemail, andere Anrufwarteschleifen oder automatische Telefon telefonieren.
+Anrufwarteschleifen ermöglichen das spezifische Routing von Anrufen in Fällen, in denen die Gesamtzahl der Anrufer in der Warteschlange oder die Wartezeit die von Ihnen festgelegten Grenzwerte überschreitet. Anrufe können an bestimmte Personen, Voicemail, andere Anrufwarteschleifen oder automatische Telefon telefonieren.
 
 Wie bei automatischen Telefonkonferenzen verfügen Anrufwarteschleifen jeweils über eine Spracheinstellung. Sie können verschiedene Anrufwarteschleifen verwenden, wenn Sie in mehreren Sprachen geschäfte machen. Agents können Mitglieder von mehreren Warteschlangen sein, wenn sie mehrsprachiger Art sind.
 
@@ -74,17 +74,17 @@ Zum Konfigurieren von automatischen Telefonkonferenzen und Anrufwarteschleifen b
 - Mindestens eine [Microsoft-Dienstnummer,](getting-service-phone-numbers.md)eine direkte Routingnummer oder eine Hybridnummer für jedes Ressourcenkonto, das direkt anwählbar sein soll
  - Die Servicenummer kann eine gebührenpflichtige oder gebührenfreie Nummer sein.
 
-Agents, die Anrufe aus den Anrufwarteschleifen erhalten, müssen Enterprise-VoIP oder lokale Benutzer aktiviert sein. Wenn in den Anrufwarteschleifen Direct Routing-Nummern verwendet werden, benötigen Telefonmitarbeiter außerdem:
+Agents, die Anrufe aus den Anrufwarteschleifen erhalten, müssen Enterprise-VoIP oder lokale Benutzer aktiviert sein. Wenn die Anrufwarteschleifen direkte Routingnummern verwenden, benötigen Telefonmitarbeiter außerdem:
 
 - Eine Online-Voicerouting-Richtlinie, die zugewiesen wurde, wenn die Anrufwarteschlange den Übertragungsmodus verwendet
 - Wenn die Anrufwarteschleife den Konferenzmodus verwendet, wird eine Lizenz für Audiokonferenzen oder eine Richtlinie für das Online-Voicerouting zugewiesen
 
 Wenn Ihre Mitarbeiter die Microsoft Teams-App für Anrufe in der Anrufwarteschleife verwenden, müssen sie sich im TeamsOnly-Modus befinden.
 
-Wenn Anrufe an eine externe Telefonnummer übertragen werden, muss das Ressourcenkonto, das die Übertragung (d. h. das der automatischen Telefonanlage oder Anrufwarteschleife zugeordnete Konto) über eine Telefonnummer und eine Lizenz für einen virtuellen Benutzer des Microsoft 365-Telefonsystems verfügen. Darüber hinaus:
+Bei der Übertragung von Anrufen an eine externe Telefonnummer muss das Ressourcenkonto, das die Übertragung (d. h. das der automatischen Telefonanlage oder Anrufwarteschleife zugeordnete Konto) über eine Telefonnummer und eine Lizenz für einen virtuellen Microsoft 365-Telefonsystembenutzer verfügen. Darüber hinaus:
 
 - Weisen Sie für ein Ressourcenkonto mit einer Anrufplannummer eine [Anrufplanlizenz](calling-plans-for-office-365.md) zu.
-- Weisen Sie für ein Ressourcenkonto mit einer Direct Routing-Nummer eine [Online-Voiceroutingrichtlinie zu.](manage-voice-routing-policies.md)
+- Weisen Sie für ein Ressourcenkonto mit einer Direktroutingnummer eine [Online-Voiceroutingrichtlinie zu.](manage-voice-routing-policies.md)
 
 > [!NOTE]
 > Direkte Routing-Servicenummern für automatische Telefonisten und Anrufwarteschleifen werden nur für Microsoft Teams-Benutzer und Nur-Telefonisten unterstützt.<br>
@@ -119,7 +119,7 @@ Sie können bei Bedarf eine Kombination dieser Optionen für jede Warteschlange 
 
 Es wird empfohlen, eine Strategie zum Hinzufügen von Telefonanrufmitarbeitern zu Warteschlangen zu wählen, bevor Sie mit der Konfiguration beginnen.
 
-Wenn Sie über eine vorhandene automatische Telefonant- und Anrufwarteschleifeninfrastruktur verfügen und zu Teams migrieren, benötigen Sie einen Plan, um Ihre vorhandenen Telefonnummern an die neuen automatischen Telefonisten und Anrufwarteschleifen zu übertragen. Möglicherweise müssen Sie einen [Portierungsauftrag erstellen,](phone-number-calling-plans/port-order-overview.md) um Ihre Nummern von einem anderen Anbieter zu verschieben. Es wird empfohlen, vorübergehend eine oder mehrere neue Telefonnummern zu erwerben und die automatische Telefonwarteschlange und die Anrufwarteschleifenflüsse zu testen, bevor Sie diese Nummern über die Nummern umschalten, die Aktuell in Service sind.
+Wenn Sie über eine automatische Telefon attendant und eine Anrufwarteschleifeninfrastruktur verfügen und zu Teams migrieren, benötigen Sie einen Plan, um Ihre vorhandenen Telefonnummern an die neuen automatischen Telefonisten und Anrufwarteschleifen zu übertragen. Möglicherweise müssen Sie einen [Portierungsauftrag erstellen,](phone-number-calling-plans/port-order-overview.md) um Ihre Nummern von einem anderen Anbieter zu verschieben. Es wird empfohlen, vorübergehend eine oder mehrere neue Telefonnummern zu erwerben und die automatische Telefonwarteschlange und die Anrufwarteschleifenflüsse zu testen, bevor Sie diese nummernwechseln.
 
 *Der Konferenzmodus* ist eine Option in Anrufwarteschleifen, die die Zeit, die zum Verbinden von Teams-VOIP- und -PSTN-Anrufen mit einem Agent benötigt wird, erheblich reduziert. Damit der Konferenzmodus funktioniert, müssen die Telefonmitarbeiter in der Anrufwarteschleife einen der folgenden Clients verwenden:
 
@@ -130,12 +130,9 @@ Legen Sie die Teams-Konten von Agents auf den Modus "Nur Für Teams" festgelegt.
 
 Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn ihre Agents alle kompatible Clients verwenden.
 
-> [!NOTE]
-> "Beschäftigt" wird vom Konferenzmodus nicht unterstützt. Agents bei Anrufen, die keine Anrufwarteschleifenanrufe sind, wird möglicherweise weiterhin ein Anrufwarteschleifenanruf präsentiert, wenn das anwesenheitsbasierte Routing nicht aktiviert ist.
-
 ## <a name="plan-your-call-routing-flow"></a>Planen des Anrufroutingflusses
 
-Im Rahmen des Planungsprozesses empfiehlt es sich, das Anrufrouting für Ihre Organisation in einem Diagramm zu erstellen. Das Diagramm hilft Ihnen dabei, das effizienteste Routing für Anrufer in Ihrer Organisation zu ermitteln. Sie können das Diagramm auch verwenden, um die automatischen Telefonkonferenzen und Anrufwarteschleifen, die Sie erstellen müssen, sowie zugehörige Anforderungen wie Servicenummern, Lizenzen und Ressourcenkonten zu ermitteln.
+Im Rahmen des Planungsprozesses empfiehlt es sich, das Anrufrouting für Ihre Organisation in einem Diagramm zu erstellen. Das Diagramm hilft Ihnen dabei, das effizienteste Routing für Personen zu ermitteln, die sich bei Ihrer Organisation einschalten. Sie können das Diagramm auch verwenden, um die automatischen Telefonkonferenzen und Anrufwarteschleifen, die Sie erstellen müssen, sowie zugehörige Anforderungen wie Servicenummern, Lizenzen und Ressourcenkonten zu ermitteln.
 
 Sehen wir uns an, wie automatische Telefonkonferenzen und Anrufwarteschleifen Anrufe routen.
 
@@ -147,9 +144,9 @@ Automatische Telefon attendants route all calls in one of the following ways:
 - **Trennen** – Eine automatische Telefonkonferenz kann den Anruf auflegen.
 
 > [!NOTE]
-> Eine einzelne automatische Telefon attendant kann nur eine einzelne "Dial by"-Methode unterstützen.  Damit Anrufer nach Name und Nummer wählen können, müssen Sie eine automatische Telefon attendant erstellen, die eine Option für die Namensanwahl und die andere für die Durchwahl bietet.  Jede dieser Optionen führt die Route zu separaten automatischen Telefonanten, die für diese Szenarien für "Einwählen" konfiguriert sind.
+> Eine einzelne automatische Telefon attendant kann nur eine einzelne "Dial by"-Methode unterstützen.  Damit Anrufer nach Name und Nummer wählen können, müssen Sie eine automatische Telefon attendant erstellen, die über eine Option für die Namensanwahl und eine andere für die Durchwahl verfügt.  Jede dieser Optionen führt die Route zu separaten automatischen Telefonanten, die für diese Szenarien für "Einwählen" konfiguriert sind.
 
-Wenn Anrufe von einer automatischen Telefonkonferenz oder Anrufwarteschleife umgeleitet werden, können Sie unter den folgenden Anrufroutingzielen wählen:
+Wenn Anrufe von einer automatischen Telefonwarteschlange umgeleitet werden, können Sie unter den folgenden Anrufroutingzielen wählen:
 
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Dies kann ein Onlinebenutzer oder ein Lokal mit Skype for Business Server gehosteter Benutzer sein.
 - **Sprach-App** – eine andere automatische Telefonkonferenz oder eine Anrufwarteschleife. Wählen Sie das Ressourcenkonto aus, das dem Ziel zugeordnet ist.
@@ -164,7 +161,7 @@ Anrufwarteschleifen halten den Anrufer so lange, bis ein Der Warteschleife zugew
 - **Anrufüberlauf** – Wenn die Anzahl der Anrufe in der Warteschlange das von Ihnen festgelegte Limit überschreitet, werden neue Anrufer aus der Warteschlange umgeleitet.
 - **Anruftimeout** : Wenn ein Anrufer länger als die konfigurierte Timeouteinstellung in der Warteschlange war, wird er aus der Warteschlange umgeleitet.
 
-Anrufe, die aus einer Warteschlange umgeleitet werden, können an alle oben aufgeführten Anrufroutingziele mit Ausnahme eines Anbieters gesendet werden. (Anrufwarteschleifen haben keine Operatoren, aber Sie können Anrufer an das gleiche Ziel umleiten wie einen Operator, den Sie für eine automatische Telefonkonferenz konfiguriert haben.)
+Anrufe, die aus einer Warteschlange umgeleitet werden, können an alle oben aufgeführten Anrufroutingziele mit Ausnahme eines Anbieters gesendet werden. (Anrufwarteschleifen haben keine Operatoren, Aber Sie können Anrufer an das gleiche Ziel umleiten wie ein Operator, den Sie für eine automatische Telefonkonferenz konfiguriert haben.)
 
 Das folgende Beispiel zeigt ein Beispiel für die Anrufrouting mithilfe von automatischen Telefonkonferenzen und Anrufwarteschleifen.
 
@@ -175,12 +172,12 @@ Im vorstehenden Beispiel:
 - Die Nulltaste (0) leitet Anrufer an einen Operator weiter. Der Operator für diese automatische Attendant wurde als Person **in der Organisation konfiguriert.**
 - Der eine (1) Schlüssel leitet Anrufer an die Anrufwarteschleife weiter. Diese Anrufwarteschleife ist mit einem Team verbunden, das das der Warteschlange zugewiesene Vertriebsteam enthält.
 - Die beiden Schlüssel leiten Anrufer an die Supportanrufwarteschleife weiter. Diese Anrufwarteschleife ist mit einem Team verbunden, das das dem Team zugewiesene Supportteam enthält.
-- Die Supportanrufwarteschlange verfügt über eine direkte Telefonnummer über eine zusätzliche automatische Telefonkonferenz. Wenn eine automatische Telefonleitung die Supportleitung beantwortet, sind getrennte Arbeitsstunden und Weiterleitung von Festanrufen möglich.
-- Der drei (3) Schlüssel leitet Benutzer zu einer anderen automatischen Telefongesellschaft für das Unternehmensverzeichnis weiter. Die automatische Telefonkonferenz des Unternehmensverzeichnisses ermöglicht Anrufern, einzelne Personen in der Organisation durch Wählen ihres Namens oder ihrer Durchwahl anwählen.
+- Die Supportanrufwarteschlange verfügt über eine direkte Telefonnummer über eine zusätzliche automatische Telefon attendant. Wenn eine automatische Telefonleitung die Supportleitung beantwortet, sind getrennte Arbeitsstunden und Weiterleitung von Festanrufen möglich.
+- Der drei Schlüssel (3) leitet Benutzer zu einer anderen automatischen Telefongesellschaft für das Unternehmensverzeichnis weiter. Die automatische Telefonkonferenz des Unternehmensverzeichnisses ermöglicht Anrufern, einzelne Personen in der Organisation durch Wählen ihres Namens oder ihrer Durchwahl anwählen.
 
-Es wird empfohlen, ein oder mehrere Diagramme zu erstellen, die dem oben genannten Diagramm ähneln, um die Anrufrouting zu planen. Achten Sie darauf, dass Sie Folgendes in Ihr Diagramm oder die zugehörige Dokumentation mit auf den Weg geben:
+Es wird empfohlen, ein oder mehrere Diagramme zu erstellen, die dem oben genannten Diagramm ähneln, um Die Anrufrouting zu karten. Achten Sie darauf, dass Sie Folgendes in Ihr Diagramm oder die zugehörige Dokumentation mit auf den Weg geben:
 
-- Auf welche automatischen Telefon attendants kann direkt über Telefonnummern zugegriffen werden?
+- Welche automatischen Telefon attendants haben direkten Zugriff über Telefonnummern?
 - Welche Anforderungen gelten für die Weiterleitung von Arbeitsstunden und Feiertagen für die einzelnen automatischen Attendants?
 - Die Mitgliedschaft für jede Anrufwarteschleife. (Sie können Benutzer einzeln hinzufügen oder die Warteschlange verschiedenen Gruppenarten zuordnungen. Das Zuordnen einer Warteschlange zu einem Team bietet die vielseitigste Erfahrung.)
 
@@ -190,10 +187,10 @@ Hier sind einige bewährte Methoden für die Anrufrouting:
 - Legen Sie die am häufigsten angezeigten Optionen frühestens im Menü ab, um Anrufe so schnell wie möglich weiter zu routen.
 - Vermeiden Sie es, Leistungsnummern direkt mit Anrufwarteschleifen zu verbinden, es sei denn, die Warteschlangen sind rund um die Uhr verfügbar. Anrufwarteschleifen ermöglichen keine separate Anrufbehandlung für Arbeitsstunden oder Feiertage. Wenn Sie eine Warteschlange mit einer direkten Nummer haben möchten, weisen Sie die Nummer einer automatischen Attendant zu, die während der Geschäftszeiten automatisch zur Warteschlange umgeleitet wird.
 - Wenn Sie zahlreiche Anrufe erhalten, die grundlegende Informationen zu Ihrem Unternehmen anfordern, z. B. Geschäftszeiten, Ort oder Websiteadresse, sollten Sie erwägen, eine automatische Telefongesellschaft zu erstellen, die diese Fragen mit aufgezeichneten Nachrichten beantwortet.
-- Halten Sie die Liste der Menüelemente auf fünf oder weniger. Anrufer können Probleme haben, sich mehr als fünf Optionen zu merken. Verwenden Sie geschachtelte automatische Telefonisten, wenn weitere Optionen zum ordnungsgemäßen Routen eines Anrufs erforderlich sind.
+- Halten Sie die Liste der Menüelemente auf fünf oder weniger. Anrufer können Probleme haben, sich mehr als fünf Optionen zu merken. Verwenden Sie geschachtelte automatische Telefonisten, wenn weitere Optionen erforderlich sind, um einen Anruf ordnungsgemäß weiterzurouten.
 - Beschreiben Sie zuerst den Dienst, gefolgt von der Option zum Drücken (z. B. bei "Sales press 1") und nicht umgekehrt (z. B. Drücken Sie "1" für "Vertrieb".
 - Die Benutzerterminologie, die Ihre Anrufer verstehen, anstatt was Sie intern verwenden können.
-- Vermeiden Sie häufige Aktualisierungen beim Anrufrouting. Wenn Sie ihre Menüoptionen für eine automatische Telefon attendant in Zukunft ändern, rufen Sie diese in den Sprachanrufaufforderungen für die ersten 30 Tage auf.
+- Vermeiden Sie häufige Aktualisierungen beim Anrufrouting. Wenn Sie Ihre Menüoptionen für eine automatische Telefonkonferenz zukünftig ändern, rufen Sie diese in den ersten 30 Tagen in den Sprachanrufaufforderungen auf.
 
 ## <a name="getting-started"></a>Erste Schritte
 
@@ -211,7 +208,7 @@ Nachdem Sie die Planungsaufgaben in diesem Artikel abgeschlossen haben, führen 
 
 6. Erstellen Sie die Gruppen, die Sie für die Telefonanrufmitarbeiter für die Anrufwarteschleifen verwenden möchten.
 
-7. Wenn Sie die Durchwahl per Durchwahl zulassen möchten, stellen Sie sicher, dass Sie die Durchwahlnummer Ihrer Benutzer zu ihrem Azure Active Directory-Profil hinzugefügt haben.
+7. Wenn Sie die Durchwahl zulassen möchten, stellen Sie sicher, dass Sie die Durchwahlnummer Ihrer Benutzer zu ihrem Azure Active Directory-Profil hinzugefügt haben.
 
 Nachdem Sie die vorstehenden Schritte abgeschlossen haben, können Sie Ihre automatischen Telefonkonferenzen und Anrufwarteschleifen erstellen. Da automatische Telefonkonferenzen und Anrufwarteschleifen Anrufe aufeinander umleiten können, können Sie in dem von Ihnen erstellten Workflowdiagramm ermitteln, welche automatische Telefon attendant oder Anrufwarteschleife zuerst erstellt werden soll. Im Beispiel im vorstehenden Diagramm würden Sie die Vertriebs- und Supportanrufwarteschleifen erstellen, bevor Sie die automatische Hauptkonferenz von Contoso erstellen, da die automatische Haupt telefonisten die Anrufer an die Vertriebs- und Supportanrufwarteschleifen umschalten muss.
 

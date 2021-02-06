@@ -1,5 +1,5 @@
 ---
-title: Virtuelle Besuche mit Microsoft Teams und der App "Buchungen"
+title: Virtuelle Besuche mit Microsoft Teams und der App Bookings
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -15,85 +15,87 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 ms.reviewer: ''
-description: Microsoft Teams und virtuelle Besuche mit der App "Buchungen"
-ms.openlocfilehash: 684c442765b868ca96e9d1bf243817f9378f0b5d
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+description: Microsoft Teams und virtuelle Besuche mit der Bookings-App
+ms.openlocfilehash: 582c59b4c389d687c529a7db9d9f1825d488f9f3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790617"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125748"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Besuche mit Microsoft Teams und der App "Buchungen"
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Besuche mit Microsoft Teams und der App Bookings
 
-Die app "Buchungen" in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlichen und virtuellen Terminen wie Gesundheits Besuche, Finanzberatungen, Interviews, Kundendienst, Unterrichtsstunden und vieles mehr.
+Die App Bookings in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlichen und virtuellen Terminen, z. B. Arztbesuche, Finanzberatungen, Vorstellungsgespräche, Kundensupport, Sprechstunden für Bildungseinrichtungen und vieles mehr.
 
-Planer können mehrere Abteilungs-und Personal Kalender sowie die Kommunikation mit internen und externen Teilnehmern aus einer einzigen Erfahrung verwalten. Die virtuellen Termine selbst werden über Microsoft Teams-Besprechungen abgehalten, die robuste Videokonferenzfunktionen bieten.
+Planer können mehrere Abteilungs- und Mitarbeiterkalender sowie die Kommunikation mit internen und externen Teilnehmern über eine einzige Benutzererfahrung verwalten. Die virtuellen Termine selbst werden über Microsoft Teams-Besprechungen abgehalten, die stabile Videokonferenzfunktionen bieten.
 
 > [!NOTE]
-> Nur Planer müssen die app "Buchungen" in Teams installieren. Mitarbeiter, die an virtuellen Terminen teilnehmen, benötigen die APP nicht. Sie können einfach an Terminen aus Ihrem Outlook-oder Teams-Kalender oder über einen Link in ihrer Buchungs Bestätigungs-e-Mail teilnehmen.
+> Nur Planer müssen die App Bookings in Teams installiert haben. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie können einfach über ihren Outlook- oder Teams-Kalender oder über einen Link in der Buchungsbestätigungs-E-Mail an Termine teilnehmen.
 
-## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Voraussetzungen für die Verwendung der App "Buchungen" in Teams
+## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Voraussetzungen für die Verwendung der App "Bookings" in Teams
 
-- Das Exchange-Postfach muss sich in Exchange Online befinden. Lokale Exchange Server-Postfächer werden nicht unterstützt.
+- Das Exchange-Postfach muss in Exchange Online gespeichert sein. Lokale Exchange Server werden nicht unterstützt.
 
-- Microsoft-Buchungen müssen für die Organisation aktiviert sein.
+- Microsoft Bookings muss für die Organisation aktiviert sein.
 
-- Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 a3, A5, E3 und E5 sowie Microsoft 365 Business Standard, a3, A5, E3 und E5 werden unterstützt.
+- Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 A3, A5, E3 und E5 sowie Microsoft 365 Business Standard, A3, A5, E3 und E5 werden unterstützt.
 
-- Alle Benutzer der App "Buchungen" und alle an Besprechungen teilnehmenden Mitarbeiter müssen über eine Lizenz verfügen, die die Terminplanung für Teams unterstützt.
+- Alle Benutzer der App Bookings und alle an Besprechungen teilnehmenden Mitarbeiter müssen über eine Lizenz verfügen, die die Planung von Besprechungen in Teams unterstützt.
 
-- Ihre Systeme müssen alle [Voraussetzungen für Software und Browser](hardware-requirements-for-the-teams-app.md)erfüllen.
+- Ihre Systeme müssen alle Voraussetzungen [für Software und Browser erfüllen.](hardware-requirements-for-the-teams-app.md)
 
-## <a name="availability-of-bookings-in-teams"></a>Verfügbarkeit von Buchungen in Teams
+## <a name="availability-of-bookings-in-teams"></a>Verfügbarkeit von Bookings in Teams
 
-Die Microsoft-Buchungs-App für Teams steht auf dem Desktop und im Web zur Verfügung. Sie finden Sie unter [apps in Microsoft Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) und unter **Verwalten von apps** innerhalb des Admin Centers von Teams.
+Die Microsoft Bookings-App für Teams ist auf dem Desktop und im Web verfügbar. Sie finden sie unter ["Apps" in Microsoft Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) und unter **"Apps im** Teams Admin Center verwalten".
 
-### <a name="control-access-to-bookings-within-your-organization"></a>Steuern des Zugriffs auf Buchungen in Ihrer Organisation
+### <a name="control-access-to-bookings-within-your-organization"></a>Steuern des Zugriffs auf Bookings innerhalb Ihrer Organisation
 
-Es gibt mehrere Möglichkeiten, zu steuern, wer Zugriff auf die app "Buchungen" hat und welche Features für die app verfügbar sind. Informationen zum Aktivieren oder Deaktivieren von Microsoft-Buchungen im Microsoft 365 Admin Center sowie zum Erstellen einer APP-Richtlinie für Buchungen, mit der ausgewählte Benutzer Buchungen für Kalender erstellen können, finden Sie unter [Abrufen des Zugriffs auf Microsoft-Buchungen](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Sie können auch erfahren, wie Sie [eine Teams-App-Richtlinie erstellen, um die Buchungen-App für ausgewählte Benutzer zu anheften](teams-app-setup-policies.md).
+Es gibt mehrere Möglichkeiten zu steuern, wer Zugriff auf die Bookings-App und auf bestimmte Features der App hat. Informationen zum Aktivieren oder Deaktivieren von Microsoft Bookings im Microsoft 365 Admin Center sowie zum Erstellen einer Bookings-App-Richtlinie, die es ausgewählten Benutzern ermöglicht, Bookings-Kalender zu erstellen, finden Sie unter "Zugriff auf [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)erhalten". Sie erfahren auch, wie Sie eine Teams-App-Richtlinie erstellen, um die [App Bookings für ausgewählte Benutzer zu anheften.](teams-app-setup-policies.md)
 
-## <a name="recommended-meeting-policy-settings"></a>Empfohlene Einstellungen für Besprechungsrichtlinien
+## <a name="recommended-meeting-policy-settings"></a>Empfohlene Besprechungsrichtlinieneinstellungen
 
-Erstellen Sie eine Personal Besprechungsrichtlinie, damit **alle Personen in Ihrer Organisation** automatisch zugelassen werden, um die beste Benutzerfreundlichkeit für Buchungen zu ermöglichen. Auf diese Weise können die Mitarbeiter automatisch an dem Termin teilnehmen und die Lobby-Erfahrung für externe Teilnehmer aktivieren. Weitere Informationen finden Sie [unter Automatisches zulassen von Personen für Besprechungen](meeting-policies-in-teams.md#automatically-admit-people).
+Um eine optimale Benutzererfahrung für Bookings zu ermöglichen, erstellen Sie eine Besprechungsrichtlinie für Mitarbeiter, um automatisch alle **Benutzer in Ihrer Organisation zu lassen.** Auf diese Weise können die Mitarbeiter dem Termin automatisch beitreten und die Lobby für externe Teilnehmer aktivieren. Erfahren Sie mehr darüber, [wie Sie Personen automatisch zu Besprechungen zu lassen.](meeting-policies-in-teams.md#automatically-admit-people)
 
-### <a name="optional-staff-approvals-setting"></a>Optionale Einstellung für Mitarbeiter Genehmigungen
+### <a name="optional-staff-approvals-setting"></a>Einstellung für die optionale Genehmigung von Mitarbeitern
 
-Als zusätzliche Privatsphäre-Einstellung können Sie festlegen, dass die Mitarbeiter sich anmelden müssen, bevor Ihre Terminplan Verfügbarkeitsinformationen durch Buchungen freigegeben werden und bevor Sie für einen Termin gebucht werden können.  
+Als zusätzliche Datenschutzeinstellung können Sie festlegen, dass mitarbeiter müssen, die sich für den Terminplan entscheiden müssen, bevor die Verfügbarkeitsinformationen für den Zeitplan über Bookings freigegeben werden und bevor sie für einen Termin gebucht werden können.  
 
-Wenn Sie diese Einstellung aktivieren möchten, wechseln Sie zu den Einstellungen für **Microsoft 365 Admin Center** \> **Settings** \> **Settings** , und wählen Sie dann **Buchungen** aus.
+Um diese Einstellung zu aktivieren, wechseln Sie zu **"Einstellungen" im Microsoft 365 Admin** \>  \> **Center,** und wählen Sie dann **Bookings aus.**
 
-Wenn diese Einstellung aktiviert ist, erhält das Personal eine e-Mail, in der Sie aufgefordert werden, die Mitgliedschaft in einem Buchungskalender zu genehmigen.  
+Wenn diese Einstellung aktiviert ist, erhalten die Mitarbeiter eine E-Mail, in der sie aufgefordert werden, die Mitgliedschaft in einem Buchungskalender zu genehmigen.  
 
-Dieses Feature wird nach und nach weltweit für Microsoft 365-und Office 365-Kunden eingeführt. Wenn in Ihrer Umgebung noch keine Optionen zur Verfügung stehen, schauen Sie bald wieder vorbei.
+Dieses Feature wird schrittweise weltweit für Microsoft 365- und Office 365-Kunden eingeführt. Wenn in Ihrer Umgebung noch nicht alle Optionen verfügbar sind, schauen Sie bald wieder nach.
 
-## <a name="changing-your-default-domain-when-setting-up-bookings-mailboxes"></a>Ändern ihrer Standarddomäne beim Einrichten von Buchungs Postfächern
+## <a name="changing-your-default-domain-when-setting-up-bookings-mailboxes"></a>Ändern Ihrer Standarddomäne beim Einrichten von Bookings-Postfächern
 
-Beim Einrichten eines Postfachs für Buchungen wird die standardmäßige e-Mail-Domäne Ihrer Microsoft 365-oder Office 365-Organisation verwendet. Dies kann jedoch zu Problemen beim Senden von Besprechungseinladungen an externe Empfänger führen. Ihre Einladung wird möglicherweise als "Spam" gekennzeichnet und in den Junk-Ordner des Empfängers verschoben, sodass der Empfänger Ihre Einladung möglicherweise nie sehen kann.
+Beim Einrichten eines Bookings-Postfachs wird die standardmäßige E-Mail-Domäne Ihrer Microsoft 365- oder Office 365-Organisation verwendet. Dies kann jedoch zu Problemen führen, wenn Besprechungsbesprechungen an externe Empfänger gesendet werden. Ihre Einladung wird möglicherweise als Spam gekennzeichnet und in den Junk-E-Mail-Ordner des Empfängers verschoben, sodass die Einladung dem Empfänger möglicherweise nie angezeigt wird.
 
-Wir empfehlen, dass Sie vor dem Erstellen des Postfachs für Buchungen die Standarddomäne ändern. Informationen dazu finden Sie in den [FAQ zu Domains](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365).
+Wir empfehlen, die Standarddomäne vor dem Erstellen Ihres Bookings-Postfachs zu ändern. Informationen dazu finden Sie in den häufig gestellten Fragen [zu Domänen.](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)
 
-Wenn Sie die Standarddomäne ändern müssen, nachdem das Postfach für Buchungen bereits erstellt wurde, können Sie dies mit PowerShell tun:
+Wenn Sie die Standarddomäne ändern müssen, nachdem Ihr Postfach in Bookings bereits erstellt wurde, können Sie dies mit PowerShell tun:
 
 ```PowerShell
 Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress business@domain.com -EmailAddresses business@domain.com
 ```
 
-Weitere Informationen finden Sie in der PowerShell-Dokumentation für das Cmdlet " [Satz-Postfach](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox) ".
+Weitere Informationen finden Sie in der PowerShell-Dokumentation für das [Cmdlet "Set-Mailbox".](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)
 
 > [!NOTE]
-> Wenn Sie eine Exchange-Hybrid Konfiguration verwenden, empfiehlt es sich, den Nachrichtenfluss zwischen lokalen Exchange und Exchange Online beim Ändern der Standarddomäne gründlich zu testen.
+> Wenn Sie eine Exchange-Hybridkonfiguration verwenden, empfiehlt es sich, den E-Mail-Fluss zwischen dem lokalen Exchange und Exchange Online gründlich zu testen, wenn Sie die Standarddomäne ändern.
 
 ## <a name="sending-feedback"></a>Senden von Feedback
 
 Wir freuen uns über Ihr Feedback zu:
 
-  - Benutzererfahrung oder einfache Bedienung
-  - Funktionslücken oder fehlende Funktionalität
-  - Bugs oder Probleme
+  - Benutzerfreundlichkeit oder Benutzerfreundlichkeit
+  - Featurelücken oder fehlende Funktionalität
+  - Fehler oder Probleme
   
-Um Feedback zu senden, klicken Sie auf die Schaltfläche " **Hilfe** " am unteren Rand der linken Navigationsleiste von Teams, und klicken Sie dann auf **Problem melden** für **alle** Probleme. Bitte beachten Sie zu Beginn Ihres Feedback-Berichts, dass Sie Feedback zu "Buchungen" senden, damit wir Buchungs Probleme einfach erkennen können.
+Um Feedback zu  senden, klicken Sie unten in der linken Navigationsleiste von Teams auf die Schaltfläche "Hilfe" und dann auf "Problem **für** **ALLE Probleme** melden". Bitte beachten Sie am Anfang Ihres Feedbackberichts, dass Sie Feedback zu "Bookings" senden, damit wir Probleme bei Bookings problemlos erkennen können.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Buchungsdokumentation für Endbenutzer](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
+[Dokumentation zu Bookings für Endbenutzer](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

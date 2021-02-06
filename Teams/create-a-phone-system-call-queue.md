@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschleifen mit Microsoft Teams einrichten, die eine Begrüßungsnachricht bereitstellen, Musik halten, Anrufumleitung und weitere Funktionen bereitstellen.
-ms.openlocfilehash: d696b37f95d06c529aa330bd77e2ec91e1ffc9ad
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 17e15e270492c4105f79ead6b2ce34ca37165ec3
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919031"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125788"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschlange
 
-Anrufwarteschleifen bieten eine Methode zum Weiterleiten von Anrufern an Personen in Ihrer Organisation, die ihnen bei einem bestimmten Problem oder einer bestimmten Frage helfen können. Anrufe werden an die Personen in der Warteschlange (die als Agents bezeichnet werden) immer nur einmal *verteilt.* 
+Anrufwarteschleifen bieten eine Methode zum Weiterleiten von Anrufern an Personen in Ihrer Organisation, die ihnen bei einem bestimmten Problem oder einer bestimmten Frage helfen können. Anrufe werden immer nur einmal an die Personen in der Warteschlange (die als Agents bezeichnet *werden) verteilt.* 
 
 Anrufwarteschleifen bieten:
 
@@ -95,14 +95,11 @@ Wenn Sie der Warteschlange eine Gruppe hinzufügen möchten, klicken Sie auf "Gr
   
 Die Teams-Konten der Agents müssen auf den Nur-Teams-Modus festgelegt sein. Agents, die die Anforderungen nicht erfüllen, sind nicht in der Anrufroutingliste enthalten. Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn ihre Agents alle kompatible Clients verwenden.
 
-> [!NOTE]
-> "Beschäftigt" wird vom Konferenzmodus nicht unterstützt. Agents bei Anrufen, die keine Anrufwarteschleifenanrufe sind, wird möglicherweise weiterhin ein Anrufwarteschleifenanruf präsentiert, wenn das anwesenheitsbasierte Routing nicht aktiviert ist.
-
 **Die Routingmethode** bestimmt die Reihenfolge, in der Agents Anrufe von der Warteschlange empfangen. Wählen Sie eine der folgenden Optionen aus:
 
 - **Die Telefonleitung ringt** alle Agents in der Warteschlange gleichzeitig. Der erste Anrufer, der den Anruf abbekommt, erhält den Anruf.
 
-- **Durch das serielle** Routing werden alle Telefonanrufer in der reihenfolge, die in der Anruferliste **angegeben ist, eins nach dem anderen** ringen. Wenn ein Mitarbeiter den Anruf schließt oder nicht an nimmt, klingelt der Anruf beim nächsten Mitarbeiter und versucht alle Mitarbeiter, bis er abgeholt wird oder ein Zeit raus ist.
+- **Durch das serielle** Routing werden alle Telefonanrufer in der in der Anruferliste angegebenen Reihenfolge **eins nach dem anderen** ringen. Wenn ein Mitarbeiter den Anruf schließt oder nicht an nimmt, klingelt der Anruf beim nächsten Mitarbeiter und versucht alle Mitarbeiter, bis er abgeholt wird oder ein Zeit raus ist.
 
 - **Round balances** the routing of incoming calls so that each call agent gets the same number of calls from the queue. Dies kann in einer eingehenden Verkaufsumgebung wünschenswert sein, um die gleiche Chance für alle Telefonmitarbeiter zu gewährleisten.
 
@@ -115,7 +112,7 @@ Die Teams-Konten der Agents müssen auf den Nur-Teams-Modus festgelegt sein. Age
 
 Sie können das anwesenheitsbasierte Anrufrouting mit jeder der Routingmethoden aktivieren.
 
-Wenn ein Agent das Erhalten von Anrufen abmeldet, wird er nicht in die Anrufroutingliste aufgenommen, unabhängig davon, auf welchen Verfügbarkeitsstatus er festgelegt ist. 
+Wenn ein Agent das Erhalten von Anrufen abmeldet, wird er nicht in die Anrufroutingliste aufgenommen, unabhängig davon, wie der Verfügbarkeitsstatus festgelegt ist. 
 
 > [!NOTE]
 > Agents, die den Skype for Business-Client verwenden, werden nicht in die Anrufroutingliste aufgenommen, wenn anwesenheitsbasiertes Routing aktiviert ist. Wenn Sie über Agenten verfügen, die Skype for Business verwenden, aktivieren Sie die anwesenheitsbasierte Anrufrouting nicht.
@@ -142,7 +139,7 @@ Sie können den Anruf trennen oder an eines der Anrufroutingziele umleiten. So k
 
 ## <a name="call-timeout-handling"></a>Behandlung von Anruftimeouts
 
-![Screenshot der Timeouteinstellungen für Anrufe](media/call-queue-timeout-handling.png)
+![Screenshot der Einstellungen für Das Zeitlimit für Anrufe](media/call-queue-timeout-handling.png)
 
 **Anruftimeout: Die maximale Wartezeit** gibt an, wie lange ein Anruf in der Warteschlange maximal halten kann, bevor er umgeleitet oder getrennt wird. Sie können einen Wert zwischen 0 Sekunden und 45 Minuten angeben.
 
@@ -152,13 +149,13 @@ Wenn Sie die Optionen für die Anruftimeout ausgewählt haben, klicken Sie auf *
 
 ## <a name="caller-id-for-outbound-calls"></a>Anrufer-ID für ausgehende Anrufe
 
-Da telefonierende Mitarbeiter in einer Anrufwarteschleife anrufen können, um einen Kundenanruf zurückzukehren, sollten Sie die Anrufer-ID für Mitglieder einer Anrufwarteschleife auf die Servicenummer einer geeigneten automatischen Telefonwarteschleife festlegen. Weitere Informationen finden Sie unter "Verwalten [von Anrufer-ID-Richtlinien in Microsoft Teams".](caller-id-policies.md)
+Da telefonierende Mitarbeiter in einer Anrufwarteschleife anrufen können, um einen Kundenanruf zurückzukehren, sollten Sie die Anrufer-ID für Mitglieder einer Anrufwarteschleife auf die Servicenummer einer entsprechenden automatischen Telefonwarteschleife festlegen. Weitere Informationen finden Sie unter "Verwalten [von Anrufer-ID-Richtlinien in Microsoft Teams".](caller-id-policies.md)
 
 ## <a name="supported-clients"></a>Unterstützte Clients
 
 Die folgenden Clients werden für Telefonmitarbeiter in einer Anrufwarteschleife unterstützt:
 
-  - Skype for Business Desktop Client 2016 (32-Bit- und 64-Bit-Version)
+  - Skype for Business Desktop client 2016 (32-Bit- und 64-Bit-Version)
   - Lync Desktop Client 2013 (32-Bit- und 64-Bit-Version)
   - Alle für Microsoft Teams unterstützten IP-Telefonmodelle. Weitere Informationen finden Sie unter [Kauf von Telefonen für Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
   - Mac Skype for Business-Client (Version 16.8.196 und höher)
