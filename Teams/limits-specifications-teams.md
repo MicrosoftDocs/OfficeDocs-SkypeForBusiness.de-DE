@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 103cee02138cbfef4c4e19b5c75a1741d1bf62ed
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 7063fc09ab7ba93a050d6fe1fd0ec9ae74888b27
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110208"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125627"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -36,28 +36,30 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |-----------|---------------|
 |Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
 |Anzahl von Teams, in denen ein Benutzer Mitglied sein kann|1 000&sup2;|
-|Anzahl von Mitgliedern in einem Team | 10.000<sup>5</sup>     |
+|Anzahl von Mitgliedern in einem Team | 10 000<sup>6</sup>     |
 |Anzahl von Besitzern pro Team | 100   |
 |Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5     |
 |Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 10.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
-|Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500.000&sup2;     |
-|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup3;         |
-|Anzahl der privaten Kanäle pro Team    |30| (einschließlich gelöschter Kanäle)&sup3;
+|Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500 000&sup3;     |
+|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup4;         |
+|Anzahl der privaten Kanäle pro Team    |30| (einschließlich gelöschter Kanäle)&sup4;
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
 |Maximale Größe einer Verteilerliste, einer Sicherheitsgruppe oder einer Office 365-Gruppe, die in ein Team importiert werden kann.    |3.500|
-|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10.000<sup>5</sup>     |
-|Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>4</sup> |
+|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10 000<sup>6</sup>     |
+|Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>5</sup> |
 
 <sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgenommen.
 
-<sup>2</sup> Diese Beschränkung umfasst archivierte Teams. Wenn Sie mehr als die maximale Anzahl von Teams verwenden möchten, über die eine Microsoft 365- oder Office 365-Organisation verfügen kann, müssen Sie den Microsoft-Support kontaktieren und eine weitere Erhöhung der Anzahl von Azure Active Directory-Objekten in Ihrem Mandanten beantragen.
+<sup>2</sup> Diese Beschränkung umfasst archivierte Teams. 
 
-<sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal samt seiner Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
+<sup>3</sup> Um die Anzahl der Teams weiter zu erhöhen, müssen Sie den Microsoft-Support kontaktieren und eine weitere Erhöhung der Anzahl von Azure Active Directory-Objekten in Ihrem Mandanten beantragen. Die Erhöhung erfolgt nur für reale Produktionsszenarien.
 
-<sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
+<sup>4</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
 
-<sup>5</sup> Teams in der GCC können nur 5.000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2.500 Mitglieder.
+<sup>5</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
+
+<sup>6</sup> Teams in der GCC können nur 5 000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2 500 Mitglieder.
 
 ## <a name="messaging"></a>Messaging
 
