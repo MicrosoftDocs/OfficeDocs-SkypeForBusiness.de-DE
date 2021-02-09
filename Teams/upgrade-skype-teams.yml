@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110371"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150871"
 highlightedContent:
   items:
   - title: Nutzen des bewährten Upgradeframework
@@ -77,7 +77,7 @@ productDirectory:
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
     links:
     - url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-      text: Also... Sie möchten mit Teams Anrufe machen
+      text: Also... Sie möchten mit Teams Anrufe anrufen
     - url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
       text: Verantwortlich für die Audio-/Videoqualität in Teams
     - url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
@@ -99,7 +99,7 @@ productDirectory:
   - title: 'Ignite-Sitzung: Entwerfen Des Pfads zu Teams'
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: Diese Sitzung von Ignite 2020 hilft Ihnen dabei, den Ansatz zu finden, der für Ihre Skype for Business-Implementierung und -Ziele am besten geeignet ist.
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Pläne und Preise für Microsoft Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: Finden Sie das richtige Microsoft Teams für Ihr Unternehmen.
@@ -118,7 +118,7 @@ additionalContent:
       summary: Laden Sie diese lustige und hilfreiche Infografik herunter, in der die einzelnen Schritte während des Upgradewegs von Teams zu sehen sind.
       url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
     - title: Engage FastTrack for deployment assistance
-      summary: Wenn Teams-Bereitstellungsprojekte mehr beteiligte Unterstützung benötigen, können Kunden mit berechtigten Abonnements FastTrack um Unterstützung bitten.
+      summary: Wenn Teams-Bereitstellungsprojekte mehr beteiligte Unterstützung benötigen, können Kunden mit berechtigten Abonnements FastTrack für den Support engagieren.
       url: https://www.microsoft.com/fasttrack
     - title: Suchen eines Microsoft-Partners
       summary: Benötigen Sie weitere Anleitungen? Microsoft Lösungsanbieter können Ihnen bei der Verwaltung der technischen und Logistik Ihres Upgrades helfen.
@@ -127,5 +127,5 @@ additionalContent:
       summary: Erfahren Sie, wie Sie Teams ein rollout und verwalten und Ihre Benutzer auf neue Kommunikations- und Zusammenarbeitserfahrungen vorbereiten.
       url: https://docs.microsoft.com/MicrosoftTeams/
     - title: Kursleiterleiter-Schulungen für Teams
-      summary: Kostenlose, Live-, Online-Schulungskurse, die dafür entwickelt wurden, Ihnen den Ersten Beinen mit Teams zu machen.
+      summary: Kostenlose, Live-, Online-Schulungskurse, die dafür entwickelt wurden, Ihnen den ersten Zugang zu Teams zu geben.
       url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page

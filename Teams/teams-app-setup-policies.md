@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 32b2accc906b0f4f0dc85b5edf1d9501b64dda14
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ffc2f15cdbef49daf36e09ca9676925ebb1ac99e
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909529"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145922"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
-
-> [!NOTE]
-> Wenn Sie die organisationsweite Einstellung "Interaktion mit benutzerdefinierten Apps zulassen" aktiviert **haben,** werden im Microsoft Teams Admin Center möglicherweise noch keine Richtlinien für die App-Einrichtung angezeigt. Es wird derzeit im Roll out ausgeführt und wird in Kürze in Ihrer Organisation zur Verfügung stehen.
 
 Als Administrator können Sie Richtlinien für die Einrichtung von Apps verwenden, um die folgenden Aufgaben auszuführen:
 
@@ -37,7 +34,7 @@ Als Administrator können Sie Richtlinien für die Einrichtung von Apps verwende
 - Legen Sie fest, ob Benutzer Apps in Microsoft Teams anheften können.
 - Installieren von Apps im Auftrag von Benutzern **(in der Vorschau).** Sie wählen aus, welche Apps beim Starten von Teams standardmäßig für Benutzer installiert werden. Denken Sie daran, dass Benutzer Apps [](teams-app-permission-policies.md) weiterhin selbst installieren können, wenn die ihnen zugewiesene App-Berechtigungsrichtlinie dies zulässt.
 
-Apps werden an die App-Leiste angeheftet. Dabei handelt es sich um die Leiste an der Seite des Teams-Desktopclients und unten auf den mobilen Teams-Clients (iOS und Android).
+Apps werden an die App-Leiste angeheftet. Dies ist die Leiste auf der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients (iOS und Android).
 
 |Teams-Desktopclient  |Mobile Microsoft Teams-Clients |
 |---------|---------|
@@ -47,7 +44,7 @@ Um die vorinstallierten Apps zu sehen, wählen Benutzer auf der App-Leiste **...
 
 Sie verwalten Richtlinien für die Einrichtung von Apps im Microsoft Teams Admin Center. Verwenden Sie die globale (organisationsweite Standardrichtlinie) oder erstellen und weisen Sie benutzerdefinierte Richtlinien zu.  Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
-Sie bearbeiten die Einstellungen in der globalen Richtlinie so, dass die von Ihnen verwendeten Apps enthalten sind. Um Teams für verschiedene Benutzergruppen in Ihrer Organisation anzupassen, erstellen und weisen Sie eine oder mehrere benutzerdefinierte Richtlinien zu.
+Sie bearbeiten die Einstellungen in der globalen Richtlinie so, dass die von Ihnen verwendeten Apps enthalten sind. Wenn Sie Teams für verschiedene Benutzergruppen in Ihrer Organisation anpassen möchten, erstellen und weisen Sie eine oder mehrere benutzerdefinierte Richtlinien zu.
 
 ![Die Seite "Richtlinien für die App-Einrichtung"](media/app-setup-policies.png)
 
@@ -111,13 +108,13 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine Richtlinie zu be
 
 ## <a name="faq"></a>Häufig gestellte Fragen
 
-### <a name="working-with-app-setup-policies"></a>Arbeiten mit Richtlinien für die Einrichtung von Apps
+### <a name="working-with-app-setup-policies"></a>Arbeiten mit Richtlinien für das Einrichten von Apps
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Welche integrierten Richtlinien für das Einrichten von Apps sind im Microsoft Teams Admin Center enthalten?
 
 - **Global (organisationsweite Standardeinstellung):** Diese Standardrichtlinie gilt für alle Benutzer in Ihrer Organisation, es sei denn, Sie weisen eine andere Richtlinie zu. Bearbeiten Sie die globale Richtlinie, um Apps anheften, die für Ihre Benutzer am wichtigsten sind.
 
-- **Frontlineworker:** Diese Richtlinie gilt für Frontline-Mitarbeiter. Sie können sie Den Frontline Workers in Ihrer Organisation zuweisen. Es ist wichtig zu wissen, dass Sie wie von Ihnen erstellte benutzerdefinierte Richtlinien den Benutzern die Richtlinie zuweisen müssen, damit die Einstellungen aktiv sind. Weitere Informationen finden Sie im Abschnitt "Zuweisen [einer benutzerdefinierten App-Setuprichtlinie zu Benutzern"](#assign-a-custom-app-setup-policy-to-users) in diesem Artikel.
+- **Frontlineworker:** Diese Richtlinie gilt für Frontline-Mitarbeiter. Sie können sie Den Frontline Workers in Ihrer Organisation zuweisen. Es ist wichtig zu wissen, dass Sie wie bei von Ihnen erstellten benutzerdefinierten Richtlinien den Benutzern die Richtlinie zuweisen müssen, damit die Einstellungen aktiv sind. Weitere Informationen finden Sie im Abschnitt "Zuweisen [einer benutzerdefinierten App-Setuprichtlinie zu Benutzern"](#assign-a-custom-app-setup-policy-to-users) in diesem Artikel.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Warum kann ich eine App im Bereich "Angeheftet Apps hinzufügen" nicht finden?
 
@@ -127,7 +124,7 @@ Beachten Sie, dass im Store für Teams-Apps alle Teams-Apps aufgeführt sind. De
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Ich bin Ein Administrator für Teams für Bildungseinrichtungen. Was muss ich über Richtlinien für das Einrichten von Apps in Teams für Bildungseinrichtungen wissen?
 
-Die Anruf-App ist in Teams für Bildungseinrichtungen nicht verfügbar. Wenn Sie eine neue benutzerdefinierte App-Setuprichtlinie erstellen, wird die Aufrufende App in der Liste der Apps angezeigt. Die App ist jedoch nicht an Teamclients angeheftet, und Benutzer von Teams für Bildungseinrichtungen sehen die App "Anrufe" in Teams nicht.
+Die App "Anrufe" ist in Teams für Bildungseinrichtungen nicht verfügbar. Wenn Sie eine neue benutzerdefinierte App-Setuprichtlinie erstellen, wird die Aufrufende App in der Liste der Apps angezeigt. Die App ist jedoch nicht an Teamclients angeheftet, und Benutzer von Teams für Bildungseinrichtungen sehen die App "Anrufe" in Teams nicht.
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>Wie viele angeheftet Apps können einer Richtlinie hinzugefügt werden?
 
@@ -137,7 +134,7 @@ Die Anzahl der angeheftet Apps, die Sie einer Richtlinie hinzufügen können, is
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Wie lange dauert es, bis Richtlinienänderungen wirksam werden
 
-Nachdem Sie eine Richtlinie bearbeitet oder zugewiesen haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden.
+Nach Bearbeiten oder Zuweisen einer Richtlinie kann es einige Stunden dauern, bis die Änderungen wirksam werden.
 
 ### <a name="user-experience"></a>Benutzererfahrung
 
@@ -147,7 +144,7 @@ Um alle Apps anzuzeigen, die für einen Benutzer angeheftet sind, müssen Benutz
 
 |Teams-Desktopclient |Mobile Microsoft Teams-Clients |
 |---------|---------|
-|Wählen Sie auf der App-Leiste auf der Seite von Teams **... "Weitere Apps" aus.**| Wischen Sie in der App-Leiste am unteren Rand von Teams nach oben.|
+|Wählen Sie auf der App-Leiste neben Teams **... "Weitere Apps" aus.**| Wischen Sie in der App-Leiste am unteren Rand von Teams nach oben.|
 |![Weitere Apps im Desktopclient von Teams](media/app-setup-policies-desktop-more-apps.png)<br>   |![Weitere Apps im mobilen Client von Teams](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Was muss ich über die mobile Erfahrung in Teams wissen?
@@ -174,4 +171,4 @@ Stellen Sie sicher, dass Sie die Logorichtlinien einhalten, bevor Sie die App ü
 
 [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 
-[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)

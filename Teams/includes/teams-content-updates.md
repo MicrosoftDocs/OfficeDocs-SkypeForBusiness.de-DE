@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-february-01-2021"></a>Woche vom 1. Februar 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 2/1/2021 | [Hochladen von Mandanten- und Gebäudedaten im Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/cqd-upload-tenant-building-data) | Geändert |
+| 2/1/2021 | [Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | Geändert |
+| 2/1/2021 | [SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren](/MicrosoftTeams/education-insights-sis-data-sync) | Geändert |
+| 2/1/2021 | [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Geändert |
+| 2/1/2021 | [Verwalten und Überwachen von Teams](/MicrosoftTeams/manage-teams-overview) | Hinzugefügt |
+| 2/1/2021 | [Anmerkungen zu dieser Version von Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
+| 2/2/2021 | [Verwenden von Microsoft 365 und benutzerdefinierten Connectors](/MicrosoftTeams/office-365-custom-connectors) | Geändert |
+| 2/2/2021 | [Verwalten von Richtlinienpaketen in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Geändert |
+| 2/2/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | Geändert |
+| 2/3/2021 | [Exportieren von Inhalten mit den Microsoft Teams-Export-APIs](/MicrosoftTeams/export-teams-content) | Geändert |
+| 2/3/2021 | [Telefonnummernverwaltung für die Schweiz](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | Geändert |
+| 2/3/2021 | [Verbinden des Session Border Controllers (SBC) mit dem direkten Routing](/MicrosoftTeams/direct-routing-connect-the-sbc) | Geändert |
+| 2/3/2021 | Microsoft Teams \| Environment Readiness \| Adoption, Discovery | Entfernt |
+| 2/3/2021 | [Teams für virtuelle Besuche](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Geändert |
+| 2/3/2021 | [Anmerkungen zu dieser Version](/MicrosoftTeams/rooms/rooms-release-note) | Geändert |
+| 2/4/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | Geändert |
+| 2/4/2021 | [Anrufqualitätsdashboard (CQD) – Häufig gestellte Fragen (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | Geändert |
+| 2/4/2021 | [Häufig gestellte Fragen zum Upgrade von Skype for Business auf Microsoft Teams](/MicrosoftTeams/faq-journey) | Geändert |
+| 2/4/2021 | [Allgemeine Fragen zu Audiokonferenzen](/MicrosoftTeams/audio-conferencing-common-questions) | Geändert |
+| 2/4/2021 | [Dimensionen und Maße – Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Geändert |
+| 2/4/2021 | [Konfigurieren des Session Border Controllers – Mehrere Mandanten](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Geändert |
+| 2/4/2021 | [Microsoft < # < 60 Zeichen](/MicrosoftTeams/index) | Geändert |
+| 2/4/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 2/4/2021 | [Verwenden der Übermittlungs-API für Teams-Apps zum Übermitteln und Genehmigen Ihrer benutzerdefinierten Apps](/MicrosoftTeams/submit-approve-custom-apps) | Geändert |
+| 2/4/2021 | [Teams für Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | Geändert |
+| 2/4/2021 | [Einführung in die richtlinienbasierte Aufzeichnung von Teams für Anrufe & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
+| 2/4/2021 | [Einrichten des Anrufqualitätsdashboards (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Geändert |
+| 2/4/2021 | [Erste Schritte beim Upgrade von Skype for Business auf Teams](/MicrosoftTeams/upgrade-start-here) | Geändert |
+| 2/5/2021 | [Übersicht über Sicherheit und Compliance](/MicrosoftTeams/security-compliance-overview) | Geändert |
+| 2/5/2021 | [Microsoft Teams – Nutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | Geändert |
+| 2/5/2021 | [Teams in einer Microsoft 365 Multi-Geo-fähigen Umgebung](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | Geändert |
+| 2/5/2021 | [Verwalten von Vorlagen für Teams im Admin Center](/MicrosoftTeams/templates-policies) | Hinzugefügt |
+| 2/5/2021 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
+| 2/5/2021 | [Teams für virtuelle Besuche](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Geändert |
+| 2/5/2021 | [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Geändert |
+| 2/5/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 2/5/2021 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 2/5/2021 | [Installieren von Teams mit Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Geändert |
+| 2/5/2021 | [Planen automatischer Telefonkonferenzen und Anrufwarteschleifen in Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Geändert |
+
+
 ## <a name="week-of-january-25-2021"></a>Woche vom 25. Januar 2021
 
 
@@ -20,7 +66,7 @@
 | 1/26/2021 | [SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren](/MicrosoftTeams/education-insights-sis-data-sync) | Hinzugefügt |
 | 1/26/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
 | 1/26/2021 | [Dimensionen und Maße – Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Geändert |
-| 1/26/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 1/26/2021 | [Für direktes Routing zertifizierte Session Border Controllers](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 1/27/2021 | [Advanced Communications-Add-On für Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | Geändert |
 | 1/27/2021 | [Microsoft Teams-Add-On-Lizenzen](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Geändert |
 | 1/27/2021 | [Dimensionen und Maße – Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Geändert |
@@ -32,7 +78,7 @@
 | 1/28/2021 | [Verwalteter Dienst "Microsoft Teams Rooms"](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | Geändert |
 | 1/28/2021 | [Verwenden der Übermittlungs-API für Teams-Apps zum Übermitteln und Genehmigen Ihrer benutzerdefinierten Apps](/MicrosoftTeams/submit-approve-custom-apps) | Geändert |
 | 1/29/2021 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | Geändert |
-| 1/29/2021 | [Für direktes Routing zertifizierte Session Border Controllers](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 1/29/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 1/29/2021 | [Teams für virtuelle Besuche](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Geändert |
 | 1/29/2021 | [Verwaltung des externen Zugriffs (Partnerverbund)](/MicrosoftTeams/manage-external-access) | Geändert |
 | 1/29/2021 | [Native Chaterfahrung für externe Benutzer (Partnerbenutzer) in Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | Geändert |
@@ -55,7 +101,7 @@
 | 1/21/2021 | [Audio conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | Geändert |
 | 1/21/2021 | Einrichten zusätzlicher Anrufwarte telefonkonferenzen und Anrufstrukturen | Entfernt |
 | 1/21/2021 | Einrichten von Warteschlangen. | Entfernt |
-| 1/21/2021 | [Ändern von Telefonnummern für die Audiokonferenzbrücke](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Geändert |
+| 1/21/2021 | [Ändern von Telefonnummern auf der Audiokonferenzbrücke](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | Geändert |
 | 1/21/2021 | [Ändern der Einstellungen für eine Audiokonferenzbrücke](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | Geändert |
 | 1/21/2021 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | Geändert |
 | 1/21/2021 | [Zeitraum für kostenlose ausgehende Anrufe](/MicrosoftTeams/complimentary-dial-out-period) | Geändert |
@@ -78,7 +124,7 @@
 | 1/19/2021 | [Einrichten einer automatischen Attendant für Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Hinzugefügt |
 | 1/19/2021 | [Erstellen einer Anrufwarteschleife in Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Hinzugefügt |
 | 1/19/2021 | [Verfügbarkeit von Genehmigungen für Anwendungen in Teams](/MicrosoftTeams/approval-admin) | Geändert |
-| 1/19/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 1/19/2021 | [Für direktes Routing zertifizierte Session Border Controllers](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 1/19/2021 | [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Geändert |
 | 1/19/2021 | [Schichten für Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | Geändert |
 | 1/19/2021 | [Verwalten des schichtbasierten Zugriffs für Mitarbeiter in Frontline in Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-shift-based-access-flw) | Geändert |
@@ -165,7 +211,7 @@
 | 12/15/2020 | [Plan für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Geändert |
 | 12/15/2020 | [Planen Ihrer Sprachlösung in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Geändert |
 | 12/15/2020 | [Sprachunterstützung für Cortana in Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | Geändert |
-| 12/15/2020 | [Optimierung der lokalen Medien im direkten Routing](/MicrosoftTeams/direct-routing-media-optimization) | Geändert |
+| 12/15/2020 | [Optimierung des direkten Routings für lokale Medien](/MicrosoftTeams/direct-routing-media-optimization) | Geändert |
 | 12/15/2020 | [Überlegungen zum PSTN beim Upgrade von einer lokalen Skype for Business-Bereitstellung auf Teams](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | Geändert |
 | 12/16/2020 | [Planen automatischer Telefonkonferenzen und Anrufwarteschleifen in Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Geändert |
 | 12/16/2020 | [Planen Ihrer Sprachlösung in Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | Geändert |
@@ -197,8 +243,8 @@
 | Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
 |------|------------|--------|
 | 1/4/2021 | [Einrichten einer automatischen Attendant für Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Geändert |
-| 1/4/2021 | [Referenz zu automatischer Telefonant- und Anrufwarteschleifenwahl und Spracherkennung](/MicrosoftTeams/dial-voice-reference) | Geändert |
-| 1/4/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 1/4/2021 | [Referenz zu automatischer Telefonant- und Anrufwarteschleife](/MicrosoftTeams/dial-voice-reference) | Geändert |
+| 1/4/2021 | [Für direktes Routing zertifizierte Session Border Controllers](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 1/4/2021 | [Konfigurieren des Session Border Controllers – Mehrere Mandanten](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Geändert |
 | 1/5/2021 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
 | 1/5/2021 | [Verbessern vorhandener Microsoft 365-Gruppen](/MicrosoftTeams/enhance-office-365-groups) | Geändert |
@@ -210,10 +256,10 @@
 | 1/6/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
 | 1/6/2021 | [Verwalten der privaten Kanäle in Microsoft Teams mit graph-API](/MicrosoftTeams/private-channels-life-cycle-management) | Geändert |
 | 1/6/2021 | [Verwalten von Teamrichtlinien in Microsoft Teams](/MicrosoftTeams/teams-policies) | Geändert |
-| 1/6/2021 | [Für direktes Routing zertifizierte Session Border Controllers](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 1/6/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 1/6/2021 | [Verwenden der Übermittlungs-API für Teams-Apps zum Übermitteln und Genehmigen Ihrer benutzerdefinierten Apps](/MicrosoftTeams/submit-approve-custom-apps) | Geändert |
 | 1/7/2021 | [Verwenden der Verzeichnissuche in Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | Geändert |
-| 1/7/2021 | [Für direktes Routing zertifizierte Session Border Controllers](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 1/7/2021 | [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 1/8/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
 | 1/8/2021 | [Aufbewahrungsrichtlinien in Microsoft Teams](/MicrosoftTeams/retention-policies) | Geändert |
 | 1/8/2021 | [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](/MicrosoftTeams/set-up-guests) | Geändert |

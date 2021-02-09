@@ -16,29 +16,29 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 9d9ba4584572ad1e1707c250ee92c49e9aaec7fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e5222a820a3a721c3692b0cdb272d1c4f3aaea6d
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831235"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145852"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
 > [!NOTE]
-> Eines der in diesem Artikel erläuterten Features, das **Tagging** nach Schicht, wurde noch nicht veröffentlicht. Es wurde angekündigt und wird in Kürze folgen. Wenn Sie ein Administrator sind, können Sie herausfinden, wann dieses Feature im Nachrichtencenter (im [Microsoft 365 Admin Center) veröffentlicht wird.](https://portal.office.com/adminportal/home) Weitere Informationen zu bevorstehenden Features von Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Eins der in diesem Artikel erläuterten Features, das **Tagging nach Schicht,** wird zurzeit durchgeführt. Wenn Sie ein Administrator sind, können Sie im Nachrichtencenter (im [Microsoft 365 Admin Center)](https://portal.office.com/adminportal/home)herausfinden, wann dieses Feature für Ihre Region veröffentlicht wird. Weitere Informationen zu bevorstehenden Features von Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="overview"></a>Übersicht
 
-Tags in Microsoft Teams ermöglichen Benutzern eine schnelle und einfache Verbindung mit einer Teilmenge von Personen in einem Team. Sie können benutzerdefinierte Tags erstellen und zuweisen, um Personen anhand von Attributen wie Rolle, Projekt, Qualifikation oder Ort zu kategorisieren. Oder Kategorien können Personen anhand ihrer Zeitplan- und Schichtinformationen in der App ["Schichten"](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (in Kürze verfügbar) automatisch zugewiesen werden. Nachdem ein Tag einem oder mehreren Teammitgliedern hinzugefügt wurde, kann sie in @mentions von jedem im Team in einem Kanalbeitrag verwendet werden oder eine Unterhaltung nur mit den Personen beginnen, denen diese Markierung zugewiesen ist.
+Tags in Microsoft Teams ermöglichen Benutzern eine schnelle und einfache Verbindung mit einer Untermenge von Personen in einem Team. Sie können benutzerdefinierte Tags erstellen und zuweisen, um Personen anhand von Attributen wie Rolle, Projekt, Qualifikation oder Ort zu kategorisieren. Oder Kategorien können Personen anhand ihrer Zeitplan- und Schichtinformationen in der App ["Schichten"](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) (in Kürze verfügbar) automatisch zugewiesen werden. Nachdem ein Tag einem oder mehreren Teammitgliedern hinzugefügt wurde, kann sie in @mentions von jedem im Team in einem Kanalbeitrag verwendet werden oder eine Unterhaltung nur mit den Personen beginnen, denen diese Markierung zugewiesen ist.
 
 Wie bereits erwähnt, gibt es in Teams zwei Arten von Tags.
 
 - **Benutzerdefinierte Tags:** Teambesitzer und Teammitglieder (wenn das Feature für sie aktiviert ist) können Personen Tags manuell erstellen und zuweisen. So erreichen beispielsweise die Markierungen "Designer" oder "Radierg 2016" diese Personengruppen in einem Team, ohne deren Namen eingeben zu müssen.
-- **Tagging nach Schicht** (in Kürze verfügbar): Mit diesem Feature werden Personen automatisch Tags zugewiesen, die ihrem Zeitplan und dem Gruppennamen der Schicht in der App "Schichten" [](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Teams entsprechen. Beispielsweise erreicht das Tag "EngineerOnCall" alle Entwickler, die in Schichten geplant sind, um zu dem Zeitpunkt zu arbeiten, zu dem das Tag in einem Chat oder Kanalbeitrag verwendet wird. Mit dem Tagging nach Schicht macht Teams den Rat nicht mehr, den Namen der Mitarbeiter in der Schicht zu kennen, wenn Benutzer Informationen schnell informieren müssen. Das Tagging nach Schicht kann auch von großen Personalverwaltungssystemen wie JDA, Kroneos und AMiON unterstützt werden, indem diese mit Schichten in Teams integriert werden. Weitere Informationen zum Einrichten dieses Features finden Sie unter ["Einrichten von Tags nach Schicht".](#set-up-tagging-by-shift-coming-soon)
+- **Tagging nach Schicht:** Mit diesem Feature werden Personen automatisch Tags zugewiesen, [](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) die ihrem Gruppennamen für Zeitplan und Schicht in der App "Schichten" in Teams entsprechen. Beispielsweise erreicht das Tag "EngineerOnCall" alle Entwickler, die in Schichten geplant sind, um zu dem Zeitpunkt zu arbeiten, zu dem das Tag in einem Chat oder Kanalbeitrag verwendet wird. Mit dem Tagging nach Schicht macht Teams den Rat nicht mehr, den Namen der Mitarbeiter in der Schicht zu kennen, wenn Benutzer Informationen schnell informieren müssen. Das Tagging nach Schicht kann auch von großen Personalverwaltungssystemen wie JDA, Kroneos und AMiON unterstützt werden, indem diese in Schichten in Teams integriert werden. Weitere Informationen zum Einrichten dieses Features finden Sie unter ["Einrichten von Tags nach Schicht".](#set-up-tagging-by-shift)
 
 > [!NOTE]
-> Tags werden in privaten Kanälen noch nicht unterstützt. Tags sind in Organisationen der US Government Community Cloud (GCC), GCC High oder Department of Defense (DoD) noch nicht verfügbar. 
+> Tags werden in privaten Kanälen noch nicht unterstützt. Tags werden für die US Government Community Cloud (GCC) auf den Weg gebracht. Tags sind in Organisationen des GCC High oder des Department of Defense (DoD) nicht verfügbar. 
 
 ## <a name="how-tags-work"></a>Funktionsweise von Tags
 
@@ -78,7 +78,7 @@ Sie können die folgenden Kategorieneinstellungen konfigurieren, um zu steuern, 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Organisationsweite Einstellungen** > **Teams-Einstellungen**.
 2. Legen Sie unter **Tagging** je nach den Anforderungen Ihrer Organisation Folgendes fest.
 
-    - Lassen Sie Teambesitzer außer Kraft setzen, wer Tags verwalten **kann:** Wenn Sie diese Einstellung aktivieren, können  Teambesitzer festlegen, ob Teammitglieder innerhalb eines Teams Tags erstellen und verwalten können, und der Wert der Tags wird durch festlegen als Standardwert für jedes Team festgelegt. Wenn Sie diese Einstellung deaktivieren, können die **Tags** nicht pro Team geändert werden.
+    - Lassen Sie Teambesitzer außer Kraft setzen, wer Tags verwalten **kann:** Wenn Sie diese Einstellung aktivieren, können Teambesitzer festlegen, ob Teammitglieder innerhalb eines Teams Tags erstellen und verwalten können, und der Wert der **Tags** wird durch festlegen als Standardwert für jedes Team festgelegt. Wenn Sie diese Einstellung deaktivieren, können die **Tags** nicht pro Team geändert werden.
     - **Vorgeschlagene Standardtags**: Hiermit können Sie eine Reihe von Standardtags hinzufügen. Sie können bis zu 25 Tags hinzufügen, und jedes Tag kann maximal 25 Zeichen enthalten. Teambesitzer und -mitglieder können diese Vorschläge verwenden, weitere hinzufügen oder einen neuen Satz von Tags erstellen (wenn das Feature für sie aktiviert ist).
     - **Erstellen von benutzerdefinierten Tags:** Aktivieren Sie diese Einstellung, damit andere Personen als die von Ihnen vorgeschlagenen Standardtags Tags hinzufügen können. Wenn dies deaktiviert ist, können Benutzer nur die vorgeschlagenen Standardtags verwenden. Wenn Sie dies deaktivieren, stellen Sie sicher, dass Sie mindestens einen Standardtags hinzufügen.
 
@@ -100,7 +100,7 @@ Wenn Sie benutzerdefinierte Tags erstellen und zuweisen möchten, wählen Sie au
 
 Wenn Sie eine  Markierung löschen möchten, wählen Sie 
 
-### <a name="set-up-tagging-by-shift-coming-soon"></a>Einrichten von Tags nach Schicht (in Kürze folgen)
+### <a name="set-up-tagging-by-shift"></a>Einrichten von Tags nach Schicht
 
 1. Wechseln Sie in Teams zur [App "Schichten".](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)
 2. Erstellen Sie [Schichtgruppen,](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) und benennen Sie sie nach einem Attribut wie einer Rolle. Beispiel: EngineerOnCall. Der Name der Schichtgruppe ist der Name der Markierung.
@@ -108,7 +108,7 @@ Wenn Sie eine  Markierung löschen möchten, wählen Sie
 4. Warten Sie 15 Minuten, bis die geplanten Schichten den Taggingdienst auffüllen.
 5. Verwenden Sie die Markierung überall dort, wo Sie Tags in Teams verwenden.
 
-Das Tagging nach Schicht ermöglicht es Ihren Benutzern, die Personen in Echtzeit zu erreichen, die sich im Schichtbetrieb in der Schicht auf dem Computer begnen. Benachrichtigungen werden nur an Personen gesendet, die schichtdienstverteilt sind, wenn ein Tag zum Starten eines Chats oder in einem Kanalbeitrag verwendet wird.
+Das Tagging nach Schicht ermöglicht es Ihren Benutzern, die Personen in Echtzeit zu erreichen, die sich in der Schicht auf dem Schichtarbeitsteil in der Schicht auf dem Computer begnen. Benachrichtigungen werden nur an Personen gesendet, die schichtdienstverteilt sind, wenn ein Tag zum Starten eines Chats oder in einem Kanalbeitrag verwendet wird.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

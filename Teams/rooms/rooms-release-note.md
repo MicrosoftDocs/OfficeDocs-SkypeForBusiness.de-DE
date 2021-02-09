@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Administratoren können die Versionshinweise zu Microsoft Teams Rooms lesen, in denen die kumulativen Verbesserungen in Microsoft Teams Rooms aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 274a83925a47519dba174a75bd92582670dab1d6
+ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101323"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150881"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -117,15 +117,15 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Teilnehmen an Cisco WebEx-Besprechungen über Teams Rooms mit direkter Gasteinwahl
-- Aktivieren und automatische Registrierung im Teams Admin Center
+- Aktivierung und automatische Registrierung im Teams Admin Center
 - Windows 10 1909 Release-Unterstützung
 - Wechseln zum Layout des Videokatalogs auch dann, wenn Inhalt vorhanden ist
 - Unterstützung virtueller Hände für Teilnehmer und Steuerelemente für Presenter
 - Anpassbare Standardlautstärkeeinstellung für Konferenzen und Standardlautsprecher
-- Suchen und Anrufen von Partnerbenutzern (Mandanten) aus dem Teams Room
+- Suchen und Anrufen von Partnerbenutzern (Mandant) aus dem Teams Room
 
 > [!IMPORTANT]
-> Version 4.5 ist die letzte Version zur Unterstützung von Windows 10, Version 1803. zukünftige Versionen werden für Systeme unter Windows 10, Version 1803, nicht mehr angeboten. Weitere Informationen zur Unterstützung von Windows-Versionen finden Sie unter [Windows 10 Release-Support.](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)
+> Version 4.5 ist die letzte Version zur Unterstützung von Windows 10, Version 1803. zukünftige Versionen werden für Systeme unter Windows 10 Version 1803 nicht mehr angeboten. Weitere Informationen zur Unterstützung von Windows-Versionen finden Sie unter [Windows 10 Release-Support.](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -148,7 +148,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Unterstützung der modernen Authentifizierung für Exchange und Skype for Business
-- Unterstützung für dynamische Notrufe für Teams (Servicekomponenten erforderlich und veröffentlicht mithilfe von Teams-Client-Ringen)
+- Unterstützung für dynamische Notrufe für Teams (Servicekomponenten erforderlich und freigegeben über Teams-Clientringe)
 - Möglichkeit zum Deaktivieren doppelter Inhalte aus der Besprechung für räume mit zwei Monitoren mithilfe von XML
 - Begrüßungsbildschirm der Anwendung
 - Hinweise zur Open Source Software (OSS) in den Geräteeinstellungen
@@ -158,7 +158,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Richtlinienupdates für "Windows-Updates für Unternehmen"
-- Fix für Geräteereignisse, bei denen Fehler im Azure Monitor angezeigt werden
+- Fix für Die Meldung von Geräteereignissen mit Einem Fehler im Azure Monitor
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
 
@@ -173,7 +173,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Automatische Antwort an näherungsbasierte Anrufe und Administratoreinstellung, um dies zu steuern
-- Aktualisierung der Benutzeroberfläche der Geräteadministratoreinstellungen mit Zusatz der Gerätekonfiguration auf der Registerkarte "Informationen"
+- Aktualisierung der Benutzeroberfläche der Geräteadministratoreinstellungen und Hinzufügen der Gerätekonfiguration auf der Registerkarte "Informationen"
 - Raumsteuerung zurück zum Hauptbildschirm
 - SKU für Besprechungsraum in GCC verfügbar
 - Unterstützung der Inhaltskamera für Surface Pro System (mindestens erforderliche App-Build: 4.2.4.0)
@@ -205,24 +205,24 @@ In diesem Update eingeführt:
 - Universal bar for in-meeting call controls for Teams calls/meetings to provide consistent experience with Microsoft Teams PC/ Web/Mobile clients<sup>1</sup>
 - Bewertung des Feedbacks zur Anrufqualität nach Anrufen in Teams/Besprechungen<sup>1</sup>
 - Erhalten/Rendern von Microsoft Whiteboard in Microsoft Teams Rooms vor der Raumanzeige, wenn es vom PC/ Web/Mobile Teams Client<sup>1 2 freigegeben</sup> <sup>wird</sup>
-- Unterstützung für Windows 10 Version 1809-Upgrades aufgrund von Kompatibilitätsproblemen mit dem Microsoft Teams -Client wurde entfernt. Support für Windows 10 Version 19H1 wird in zukünftigen Versionen hinzugefügt
+- Die Unterstützung für Windows 10 Version 1809-Upgrades wurde aufgrund von Kompatibilitätsproblemen mit dem Microsoft Teams Rooms-Client entfernt. Support für Windows 10 Version 19H1 wird in zukünftigen Versionen hinzugefügt
 
 <sup>1</sup> Rollout des Microsoft Teams-Diensts mithilfe von Teams-Ringen. Dieses Feature ist möglicherweise vor oder nach dem Clientupdate 4.0.105.0 verfügbar.
 
-<sup>2</sup> Setzt voraus, dass die IT-Administratoren Microsoft Whiteboard aktivieren. Wenn Sie über eine berührungsfähige Vorderseite der Raumanzeige verfügen, müssen Sie außerdem mehrere Bildschirme mit Touch touch über die Windows-Einstellungen mit der Anmeldung des Geräteadministrators kalibrieren, um microsoft Whiteboard für die Zusammenarbeit über eine in einer Team-Besprechung freigegebene Raumanzeige zu verwenden.
+<sup>2</sup> Erfordert es IT-Administratoren, Microsoft Whiteboard zu aktivieren. Wenn Sie über eine berührungsfähige Vorderseite der Raumanzeige verfügen, müssen Sie außerdem mehrere Bildschirme mit Touch touch über die Windows-Einstellungen mit der Anmeldung des Geräteadministrators kalibrieren, um microsoft Whiteboard für die Zusammenarbeit über eine in einer Team-Besprechung freigegebene Raumanzeige zu verwenden.
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
 In diesem Update eingeführt:
 
 - Behebt ein Problem mit dem Feature "Feedback geben"
-- Optimierungen als Vorbereitung auf das bevorstehende Geräteupgrade von Microsoft Teams Rooms auf Windows 10, Version 1809
+- Optimierungen als Vorbereitung auf das bevorstehende Geräteupgrade von Microsoft Teams Rooms auf Windows 10 Version 1809
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 In diesem Update eingeführt:
 
-- Fix für den Fehler "Beim Starten der App hängen", der geräte auf älteren Windows 10 #A0 betroffen war.
+- Fix für den Fehler "Beim App-Start hängen", der geräte auf älteren Windows 10 #A0 betroffen war.
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
@@ -238,9 +238,9 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Anzeigen von Inhalten auf beiden Raum vorne (FoR) auf Raumsystemen mit zwei Bildschirmen
-- Verbesserungen an der Benutzeroberfläche von "Theming" und "Front of Room"
-- Clientseitige Unterstützung von TLS 1.2. Für lokale Kunden ist für die Aktivierung der Kommunikation über TLS 1.2 für Microsoft Teams Rooms Skype for Business Server 2015 Cumulative Update 9 (CU9) oder Skype for Business Server 2019 Cumulative Update 1 (CU1) erforderlich.
+- Anzeigen von Inhalten auf beiden Raum front of room (FoR)-Anzeigen auf Raumsystemen mit zwei Bildschirmen
+- Verbesserungen der Benutzeroberfläche von "Theming" und "Front of Room"
+- Clientseitige TLS 1.2-Unterstützung. Für lokale Kunden ist für die Aktivierung der Kommunikation über TLS 1.2 für Microsoft Teams Rooms Skype for Business Server 2015 Cumulative Update 9 (CU9) oder Skype for Business Server 2019 Cumulative Update 1 (CU1) erforderlich.
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 
@@ -258,7 +258,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Codeänderungen, die erforderlich sind, um die Microsoft Teams -Räume-App für ein späteres Upgrade auf Windows 10, Version 1803, vorzubereiten
+- Codeänderungen, die erforderlich sind, um die Microsoft Teams -Räume-App für ein späteres Upgrade von Windows 10, Version 1803, vorzubereiten
 - Beheben von Formatierungsproblem mit lokalisierten EULAs (speziell Norwegisch), wodurch verhindert wird, dass über das Einrichtungsfenster von EULA OOBE hinaus rückt
 - Codeänderungen, die erforderlich sind, damit die Anwendung Microsoft Teams Rooms auf älteren Lync Room Systems ausgeführt werden kann. Weitere Informationen [finden Sie hier.](https://aka.ms/lrsupgrade)
 
@@ -273,7 +273,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Verbesserungen der Funktion "Problem melden" im Teams-Modus (Äquivalent zu "Feedback" im Skype for Business-Modus)
-- Aktivieren der Möglichkeit, für SIP-Anrufe von Teams in den Skype for Business-Modus zurück zu wechseln
+- Aktivieren der Möglichkeit, für ANRUFE über Teams zurück in den Skype for Business-Modus zu wechseln
 - Verbesserungen der Barrierefreiheit (Sprachausgabe, Bildschirmlupe)
 - App automatisch neu starten, wenn dies erforderlich ist, nachdem Änderungen der XML-Bereitstellung angewendet wurden
 - Sonstige Korrekturen
@@ -301,7 +301,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Beheben von Problemen mit der Reaktionsfähigkeit der Konsole, die auf Surface Pro 2017-basierten Geräten, die an zwei Anzeigen im Raum angeschlossen sind, und der Videoaufnahme beobachtet wurden
+- Beheben von Problemen mit der Reaktionsfähigkeit der Konsole, die auf Surface Pro 2017-basierten Geräten, die mit zwei Anzeigen im Raum und der Videoaufnahme verbunden sind, behoben wurde
 - Automatische Überprüfung, um sicherzustellen, dass auf dem System das neueste Bereitstellungsskript ausgeführt wird
 
 ### <a name="311040-04162018"></a>3.1.104.0 (04/16/2018)
@@ -321,7 +321,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Behebt ein Problem, bei dem zeitweilige Probleme bei der Teilnahme an Besprechungen auftreten können.
+- Behebt ein Problem, bei dem zeitweilige Probleme bei der Teilnahme an Besprechungen auftreten können
 - Behebt ein Problem, bei dem bekannt ist, dass das Gerät hängen bleibt.
 
 ### <a name="31980-382018"></a>3.1.98.0 (3/8/2018)
@@ -330,8 +330,8 @@ In diesem Update eingeführt:
 
 - Fehler-/Absturzkorrekturen zur Verbesserung der Stabilität
 - Unterstützung für Konsolen mit variabler Größe
-- Auslagerung von Peripherieaudioverarbeitung (zusätzliches Whitelisting für Medien)
-- Optimierungen, die es den IT-Profis ermöglichen, eigene Bilder mit windows 10 Version 1709 Januar Update und höher zu erstellen.
+- Auslagerung von Peripherieaudioverarbeitung (zusätzliche Medien-Allowlist)
+- Optimierungen, die es IT-Profis ermöglichen, eigene Bilder mit dem Januar Update von Windows 10 Version 1709 und höher zu erstellen.
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
@@ -352,8 +352,8 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Wird auf einem Surface Pro (2017) ausgeführt.
-- Unterstützt Windows 10 Enterprise Creator's Update (Englisch, Build 1703)
-- Unterstützung für [die Hardware der Docking-Station "Crestron SR"](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
+- Unterstützt Windows 10 Enterprise Creator's Update (englische Sprache, Build 1703)
+- Unterstützung für [Die Hardware der Sr-Dock-Docking-Station von Crestron](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - OEM-Unterstützung für Umgebungssteuerelemente (Crestron)
 
 Die 64-Bit-Version der Windows 10 Enterprise Anniversary Edition (englische Sprache, Version 1607) wird ab Version 3.0.12.0 (Update 3) von Microsoft Teams Rooms nicht mehr unterstützt.
@@ -370,7 +370,7 @@ In diesem Update eingeführt:
 
 - Dual-Screen (für die Parität des älteren Systems)
 - Designs (integrierte Designs und die Möglichkeit zum Festlegen eines benutzerdefinierten Designs)
-- Möglichkeit, Feedback zu öffentlichen Builds zu geben
+- Möglichkeit zum Abgeben von Feedback für öffentliche Builds
 - Verbesserte Telemetrie für besprechungs teilverlässige Besprechungen
 - Verbesserte Berichterstellung für OMS
 - Möglichkeit für IT-Administratoren, Geräte remote zu konfigurieren

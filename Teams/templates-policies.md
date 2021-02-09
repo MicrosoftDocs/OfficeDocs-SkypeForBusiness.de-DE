@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Vorlagen für Teams im Admin Center verwalten.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef765013541ae740211cc5666da3544f1cd5b528
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125903"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145882"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Erstellen und Verwalten von Vorlagen für Teams im Admin Center
 
@@ -118,7 +118,7 @@ A: Ja.
 A: Im Admin Center:
 
 1. Wechseln Sie zum Abschnitt **"Benutzer".**
-2. Wählen Sie in der Listentabelle "Benutzer" den Filter aus, und filtern Sie nach der Vorlage "Teams".
+2. Wählen Sie den Filter in der Listentabelle "Benutzer" aus, und filtern Sie nach der Vorlage "Teams"-Richtlinie.
 3. Wählen Sie **"Übernehmen"** aus.
 
 ![Die ausgewählten Vorlagen mit hervorgehobener Option "Ausblenden"](media/template-policies-5.png)
@@ -143,4 +143,4 @@ A: Nein, dies wird nicht unterstützt.
 
 - [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [TeamsTemplatePermissionPolicy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Batch zum Zuweisen von Benutzern zu einer Richtlinie](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)

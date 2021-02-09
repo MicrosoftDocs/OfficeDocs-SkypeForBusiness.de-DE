@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Ihre benutzerdefinierten Apps genehmigen, die mit der Übermittlungs-API für Apps in Microsoft Teams übermittelt werden.
-ms.openlocfilehash: 146d8aaa7ec49d5a760e6b4fdcb700f161f62376
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 0003bc218b425383ba117296ba847a637d76ac43
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110228"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145802"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten App, die über die Übermittlungs-API für Teams-Apps übermittelt wird
 
@@ -31,9 +31,12 @@ ms.locfileid: "50110228"
 > [!NOTE]
 > Wenn Sie eine benutzerdefinierte Teams-App veröffentlichen, steht sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten zum Veröffentlichen einer benutzerdefinierten App, und die Art und Weise, wie Sie sie verwenden, hängt davon ab, wie Sie die App erhalten. Dieser Artikel befasst sich mit dem Genehmigen und Veröffentlichen einer benutzerdefinierten App, die ein Entwickler über die **Übermittlungs-API für Teams-Apps übermittelt.** Die andere Methode, das Hochladen einer benutzerdefinierten App, wird verwendet, wenn Ihnen ein Entwickler ein App-Paket im ZIP-Format sendet. Weitere Informationen zu dieser Methode finden Sie unter <a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">"Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets".</a> Das Widget zum Genehmigen von Apps ist in GCC-Mandanten nicht verfügbar. 
 
+> [!IMPORTANT]
+> Diese Methode ist derzeit für GCC-Umgebungen nicht verfügbar. Sie müssen das Hochladen *einer benutzerdefinierten App-Methode* verwenden.
+
 Dieser Artikel enthält eine End-to-End-Anleitung, wie Sie Ihre Teams-App von der Entwicklung über die Bereitstellung bis zur Ermittlung weiterverbauen können. Sie erhalten einen Überblick über die verbundenen Benutzererfahrungen, die Teams während des gesamten App-Lebenszyklus bietet, um das Entwickeln, Bereitstellen und Verwalten von benutzerdefinierten Apps im App Store Ihrer Organisation zu optimieren.
 
-Wir gehen auf jeden Schritt des Lebenszyklus ein, einschließlich der Art und Weise, wie Entwickler die Teams-App-Übermittlungs-API verwenden können, um benutzerdefinierte Apps direkt an das Microsoft Teams Admin Center zu übermitteln, damit Sie sie überprüfen und genehmigen können, wie Richtlinien zum Verwalten von Apps für Benutzer in Ihrer Organisation festgelegt werden und wie Ihre Benutzer sie in Teams entdecken.
+Wir gehen auf jeden Schritt des Lebenszyklus ein, einschließlich der Art und Weise, wie Entwickler die Übermittlungs-API für Teams-Apps verwenden können, um benutzerdefinierte Apps direkt an das Microsoft Teams Admin Center zu übermitteln, damit Sie diese überprüfen und genehmigen können, wie Richtlinien zum Verwalten von Apps für Benutzer in Ihrer Organisation festgelegt werden und wie ihre Benutzer sie in Teams entdecken.
 
 ![Übersicht über Ihre App von der Entwicklung bis zur Bereitstellung](media/custom-app-lifecycle.png)
 
@@ -51,7 +54,7 @@ Wenn die App für die Produktion verwendet werden kann, kann der Entwickler die 
 
 Die auf Microsoft <a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Graph</a>integrierte Übermittlungs-API für Teams-Apps ermöglicht Ihrer Organisation die Entwicklung auf der Plattform Ihrer Wahl und automatisiert den Übermittlungs-zu-Genehmigungsprozess für benutzerdefinierte Apps in Teams.
 
-Im Folgenden finden Sie ein Beispiel dafür, wie dieser App-Übermittlungsschritt im Visual Studio aussieht:
+Im Folgenden finden Sie ein Beispiel dafür, wie dieser Schritt zur Übermittlung der App im Visual Studio aussieht:
 
 ![Übermitteln einer App im Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
 
@@ -80,7 +83,7 @@ Wenn Sie bereit sind, die App für Benutzer verfügbar zu machen, veröffentlich
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **"Apps**  >  **verwalten".**
 2. Klicken Sie auf den App-Namen, um zur  Detailseite der App zu wechseln, und wählen Sie dann im Feld "Veröffentlichungsstatus" die Option "Veröffentlichen" **aus.**
 
-    Nachdem Sie die App veröffentlicht haben, ändert sich der **Veröffentlichungsstatus** in **"Veröffentlicht",** und der **Status** ändert sich automatisch in **"Zulässig".**
+    Nachdem Sie die App veröffentlicht haben, ändert sich der **Veröffentlichungsstatus** **in** "Veröffentlicht", und der **Status** ändert sich automatisch in **"Zulässig".**
 
 ## <a name="set-up-and-manage"></a>Einrichten und Verwalten
 
@@ -100,7 +103,7 @@ Bevor Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst die
 
 ## <a name="discover-and-adopt"></a>Entdecken und Übernehmen
 
-Benutzer mit Berechtigungen für die App finden sie im App Store Ihrer Organisation. Wechseln Sie **auf der *Seite "Apps"*** zu "Für Ihre Organisation erstellt", um die benutzerdefinierten Apps Ihrer Organisation zu finden.
+Benutzer mit Berechtigungen für die App finden sie im App Store Ihrer Organisation. Wechseln Sie **auf der Seite *"Apps"*** zu "Für Ihre Organisation erstellt", um die benutzerdefinierten Apps Ihrer Organisation zu finden.
 
 ![Seite "Apps" mit veröffentlichter App ](media/custom-app-lifecycle-discovery.png)
 
@@ -136,7 +139,7 @@ Weitere Informationen zur Verwendung der Graph-API zum Aktualisieren von Apps fi
 In den meisten Fällen wird nach der Veröffentlichung eines App-Updates die neue Version automatisch für Benutzer angezeigt. Es gibt jedoch einige Updates für das <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams-Manifest,</a> für die die Benutzerakzeptanz erforderlich ist, um den Vorgang abschließen zu können:
 
 * Ein Bot wurde hinzugefügt oder entfernt
-* Die "botId"-Eigenschaft eines vorhandenen Bots wurde geändert.
+* Die "botId"-Eigenschaft eines vorhandenen Bots wurde geändert
 * Die Eigenschaft "isNotificationOnly" eines vorhandenen Bots wurde geändert
 * Die Eigenschaft "supportsFiles" des Bots wurde geändert.
 * Eine Nachrichtenerweiterung wurde hinzugefügt oder entfernt.
