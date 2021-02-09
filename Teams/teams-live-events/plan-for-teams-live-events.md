@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757760"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145912"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -40,10 +40,11 @@ Jeder kann an einem Liveereignis ohne Lizenz teilnehmen. Lesen Sie [Schnellstart
 
 Die folgenden Voraussetzungen müssen erfüllt sein, damit ein Benutzer ein Teams-Liveereignis planen kann.
 
-Folgende Lizenzen müssen für die Erstellung oder Vorführung eines Microsoft Teams-Liveereignisses zugewiesen werden:  
+Folgende Lizenzen müssen für die Organisation, Erstellung oder Vorführung eines Microsoft Teams-Liveereignisses zugewiesen werden:  
 
-- Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz oder eine Office 365 Education A3- oder A5-Lizenz. Die Ausnahme von dieser Anforderung ist, dass Gastnutzer ohne Lizenz präsentieren können, wenn die anderen Kriterien für [Gastnutzer](plan-for-teams-live-events.md#guest-to-present) erfüllt sind.
-- Eine Microsoft Teams Lizenz – diese ist in den im ersten Aufzählungspunkt aufgeführten Lizenzen enthalten.
+- **Organisation:** Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz **[oder]** eine Microsoft oder Office 365 Education A3- oder A5-Lizenz. 
+- **Erstellung oder Vorführung:** Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz **[oder]** eine Microsoft oder Office 365 Education A1-, A3 oder A5-Lizenz. Die Ausnahme von dieser Anforderung ist, dass Gastnutzer ohne Lizenz präsentieren können, wenn die anderen Kriterien für [Gastnutzer](plan-for-teams-live-events.md#guest-to-present) erfüllt sind.
+- Eine Microsoft Teams Lizenz – diese ist in den im ersten und zweiten Aufzählungspunkt aufgeführten Lizenzen enthalten.
 - Eine Microsoft Stream-Lizenz – ist erforderlich, wenn Sie planen, den Inhalt mit einer externen App oder einem externen Gerät zu teilen; siehe [Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
 
   Benutzer brauchen keine Microsoft Stream-Lizenz, wenn Sie möchten, dass Benutzer nur die Aufzeichnungen aufnehmen und herunterladen. Das bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern in Azure Media Services (AMS) mit einem 180-Tage-Limit, bevor sie gelöscht werden. Derzeit können Admins keine Befähigung zum Löschen verwalten oder steuern.
