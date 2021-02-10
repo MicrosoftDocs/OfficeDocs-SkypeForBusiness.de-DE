@@ -1,8 +1,9 @@
 ---
 title: Benutzer aus anderen Organisationen anrufen und mit ihnen chatten
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
+ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -10,86 +11,91 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 - m365initiative-externalcollab
-ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten und sie finden und hinzufügen können.
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 401b63aad667d355516486deb6f056e0995dbe26
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
+ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031811"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145835"
 ---
-<a name="call-and-chat-with-users-from-other-organizations-in-microsoft-teams"></a>Benutzern aus anderen Organisationen in Microsoft Teams anrufen und mit ihnen chatten
-======================================================
+# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>Anrufen, Chatten und Zusammenarbeiten in Microsoft Teams mit Personen außerhalb Ihrer Organisation
 
-Wenn Sie mit Personen außerhalb Ihrer Organisation kommunizieren und zusammenarbeiten müssen, bietet Ihnen Microsoft Teams zwei verschiedene Möglichkeiten, dies zu bewerkstelligen. Die erste Möglichkeit ist der **externe Zugriff** (Partnerverbund), mit dem Sie Benutzer in anderen Domänen (z. B. contoso.com) finden, anrufen und mit ihnen chatten können. Die zweite Möglichkeit ist der **Gastzugriff**, mit dem Sie Personen über ihre E-Mail-Adresse zu Ihren Teams als Gäste hinzufügen können. Sie können mit Gästen wie mit allen anderen Benutzern in Ihrer Organisation zusammenarbeiten.
+Wenn Sie mit Personen außerhalb Ihrer Organisation kommunizieren und zusammenarbeiten müssen, bietet Ihnen Microsoft Teams dafür zwei Optionen:
 
-Sie können bei Bedarf sowohl externen als auch Gastzugriff verwenden. Beides schließt sich nicht gegenseitig aus.
+- **Externer Zugriff** – Ein Typ des Partnerverbunds, der es Benutzern erlaubt, Personen in anderen Organisationen zu finden, sie anzurufen und mit ihnen zu chatten. Diese Personen können nicht zu Teams hinzugefügt werden, außer wenn sie als Gäste eingeladen werden.
+- **Gastzugriff** – Mit dem Gastzugriff können Sie Personen von außerhalb Ihrer Organisation einladen, einem Team beizutreten. Eingeladene Personen erhalten ein Gastkonto im Azure Active Directory.
 
-Auf einer hohen Ebene ist hier die Auswahl (für einen detaillierten Vergleich scrollen Sie nach unten, zu [Externer Zugriff und Gastzugriff vergleichen](#compare-external-and-guest-access)):
+Beachten Sie, dass Teams Ihnen erlaubt, Personen von außerhalb Ihrer Organisation in Besprechungen einzuladen. Dafür muss kein externer oder Gastzugriff konfiguriert werden.
 
-## <a name="external-access"></a>Externer Zugriff
+## <a name="external-access-federation"></a>Externer Zugriff (Partnerverbund)
 
-Verwenden Sie den **externen Zugriff** (Partnerverbund), wenn Sie eine Lösung benötigen, die es externen Benutzern in anderen Domänen ermöglicht, Sie zu finden, anzurufen, mit Ihnen zu chatten und Besprechungen zu organisieren. Externe Benutzer haben keinen Zugriff auf die Teams oder Teamressourcen Ihrer Organisation. Wählen Sie einen externen Zugang, wenn Sie mit Benutzern außerhalb Ihrer Organisation kommunizieren möchten, die noch mit Skype for Business (online oder lokal) oder mit Skype (verfügbar Anfang 2020) arbeiten. 
+Richten Sie externen Zugriff ein, wenn Sie Personen außerhalb Ihrer Organisation, die Teams, Skype for Business (online oder lokal) oder Skype verwenden, suchen, sie anrufen, mit ihnen chatten und Besprechungen mit ihnen einrichten müssen. 
 
-Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Der Team-Administrator kann es deaktivieren oder angeben, welche Domänen ein- oder ausgeschlossen werden sollen. Weitere Informationen hierzu finden Sie unter [Verwalten des externen Zugriffs](manage-external-access.md). 
+Der externe Zugriff ist standardmäßig für alle Domänen aktiviert. Sie können den externen Zugriff einschränken, indem Sie bestimmte Domänen zulassen oder blockieren oder den Zugriff deaktivieren.
 
-Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren möchten, ist der [Gastzugriff](#guest-access) möglicherweise besser geeignet. 
+![Screenshot der Einstellungen für den externen Zugriff](media/external-access-federation-settings.png)
 
+Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [Externen Zugriff verwalten](manage-external-access.md). 
 
 ## <a name="guest-access"></a>Gastzugriff
 
-Verwenden Sie den **Gastzugriff**, um einen einzelnen Benutzer (unabhängig von der Domäne) zu einem Team hinzuzufügen, wo er chatten, anrufen, sich mit anderen treffen und an Unternehmensdateien (gespeichert in SharePoint oder OneDrive for Business) mit Microsoft 365- oder Office 365-Anwendungen wie Word, Excel oder PowerPoint zusammenarbeiten kann. Einem Gastbenutzer können fast alle Funktionen des Teams wie einem nativen Teammitglied zur Verfügung gestellt werden. Weitere Informationen finden Sie unter [Gastzugriff in Teams](guest-access.md).
+Verwenden Sie den Gastzugriff, um Personen von außerhalb Ihrer Organisation zu einem Team hinzuzufügen, in dem sie chatten, anrufen, treffen und an Dateien zusammenarbeiten können. Einem Gast können fast alle Funktionen des Teams gleich wie einem nativen Teammitglied zur Verfügung gestellt werden.
 
-- Gäste werden der Active Directory Ihrer Organisation hinzugefügt.
-- Damit Sie mit einem Gast kommunizieren können, muss der Gast bei Teams mit seinem Gastkonto angemeldet sein. Dies bedeutet, dass sich ein Gast möglicherweise von seinem eigenen Team Konto abmelden muss, um sich bei Ihrem Team Konto anzumelden, oder wenn es sich um das gleiche Konto handelt.
-- Gastbenutzer haben Zugriff auf mehr Ressourcen in Teams, wie Dateien, Teams und Kanäle, als Benutzer mit externem Zugriff (Partnerverbund).
-- Der Team-Administrator steuert alles, was ein Gast im Team-Admin Center tun kann (oder nicht kann). Weitere Informationen hierzu finden Sie unter [Verwalten des Gastzugriffs](manage-guests.md).
+Gäste werden dem Azure Active Directory Ihrer Organisation als B2B-Benutzer hinzugefügt und müssen sich mit ihrem Gastkonto in Teams anmelden. Dies bedeutet, dass sie sich möglicherweise in seiner eigenen Organisation abmelden müssen, um sich bei Ihrer Organisation anzumelden.
 
-Wenn Sie bereit sind, den Gastzugriff in Ihrer Organisation zu aktivieren, starten Sie mit [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
-
+Informationen zum Konfigurieren des Gastzugriffs für Teams finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="compare-external-and-guest-access"></a>Vergleich zwischen externem Zugriff und Gastzugriff
 
-| Feature | Benutzer mit externem Zugriff | Benutzer mit Gastzugriff |
-|---------|-----------------------|--------------------|
-| Der Benutzer kann mit jemandem in einem anderen Unternehmen chatten. | Ja |Ja |
-| Der Benutzer kann jemanden in einem anderen Unternehmen anrufen | Ja | Ja |
-| Der Benutzer kann sehen, ob jemand aus einem anderen Unternehmen für Anrufe oder Chats verfügbar ist | Ja | Ja<sup>1</sup> |
-| Der Benutzer kann auf externen Mandanten nach Benutzern suchen | Ja<sup>2</sup> | Nein |
-| Der Benutzer kann Dateien freigeben | Nein | Ja |
-| Der Benutzer kann auf Microsoft Teams-Ressourcen zugreifen | Nein | Ja |
-| Der Benutzer kann zu einem Gruppenchat hinzugefügt werden | Nein | Ja |
-| Der Benutzer kann zu einer Besprechung hinzugefügt werden | Ja | Ja |
-| Weitere Benutzer können zu einem Chat mit einem externen Benutzer hinzugefügt werden | No<sup>3</sup> | Nicht zutreffend |
-| Der Benutzer wird als externer Partner gekennzeichnet | Ja | Ja |
-| Anwesenheit wird angezeigt | Ja | Ja |
-| Abwesenheitsnachricht wird angezeigt | Nein | Ja |
-| Ein einzelner Benutzer kann blockiert werden | Nein | Ja |
-| @Mentions werden unterstützt | Ja<sup>4</sup> | Ja |
-| Private Anrufe führen | Ja | Ja |
-| Telefonnummer für Teilnehmer von Einwahlbesprechungen anzeigen | Nein<sup>5</sup> | Ja |
-| IP-Video zulassen | Ja | Ja |
-| Bildschirmübertragungsmodus | Ja<sup>4</sup> | Ja |
-| Sofortbesprechungen zulassen | Nein | Ja |
-| Gesendete Nachrichten bearbeiten | Ja<sup>4</sup> | Ja |
-| Löschen gesendeter Nachrichten möglich | Ja<sup>4</sup> | Ja |
-| Giphy in Unterhaltung verwenden | Ja<sup>4</sup> | Ja |
-| Memes in Unterhaltung verwenden | Ja<sup>4</sup> | Ja |
-| Sticker in Unterhaltung verwenden | Ja<sup>4</sup> | Ja |
-||||
+Die folgende Tabelle zeigt die Unterschiede zwischen dem externen Zugriff (Partnerverbund) und Gästen. In beiden Fällen werden Personen von außerhalb Ihrer Organisation gegenüber Ihren Benutzern als „extern“ bezeichnet.
 
-<sup>1</sup> Vorausgesetzt, der Benutzer wurde als Gast hinzugefügt und hat sich als Gast beim Gastmandanten angemeldet.<br>
+### <a name="things-your-users-can-do"></a>Dinge, die Ihre Benutzer tun können
+
+| Benutzer können | Benutzer mit externem Zugriff | Gäste |
+|---------|-----------------------|--------------------|
+| Mit jemandem in einer anderen Organisation chatten | Ja | Ja |
+| Jemanden in einer anderen Organisation anrufen | Ja | Ja |
+| Sehen, ob jemand aus einer anderen Organisation für Anrufe oder Chats verfügbar ist | Ja | Ja<sup>1</sup> |
+| Nach Personen in anderen Organisationen suchen | Ja<sup>2</sup> | Nein |
+| Freigeben von Dateien | Nein | Ja |
+| Die Abwesenheitsnachricht sehen von | Nein | Ja |
+| Jemanden in einer anderen Organisation sperren | Nein | Ja |
+| Verwenden von @Erwähnungen | Ja<sup>3</sup> | Ja |
+
+### <a name="things-people-outside-your-organization-can-do"></a>Dinge, die Personen von außerhalb der Organisation tun können
+
+| Personen von außerhalb Ihrer Organisation können | Benutzer mit externem Zugriff | Gäste |
+|---------|-----------------------|--------------------|
+| Auf Teams-Ressourcen zugreifen | Nein | Ja |
+| Zu einem Gruppenchat hinzugefügt werden | Nein | Ja |
+| Zu einer Besprechung eingeladen werden | Ja | Ja |
+| Private Anrufe führen | Ja | Ja<sup>5</sup> |
+| Telefonnummer für Teilnehmer von Einwahlbesprechungen anzeigen | Nein<sup>4</sup> | Ja |
+| IP-Video verwenden | Ja | Ja<sup>5</sup> |
+| Bildschirmfreigabe verwenden | Ja<sup>3</sup> | Ja<sup>5</sup> |
+| „Jetzt besprechen“ verwenden | Nein | Ja<sup>5</sup> |
+| Gesendete Nachrichten bearbeiten | Ja<sup>3</sup> | Ja<sup>5</sup> |
+| Gesendete Nachrichten löschen | Ja<sup>3</sup> | Ja<sup>5</sup> |
+| Giphy in einer Unterhaltung verwenden | Ja<sup>3</sup> | Ja<sup>5</sup> |
+| Memes in einer Unterhaltung verwenden | Ja<sup>3</sup> | Ja<sup>5</sup> |
+| Sticker in einer Unterhaltung verwenden | Ja<sup>3</sup> | Ja<sup>5</sup> |
+| Anwesenheit wird angezeigt | Ja | Ja |
+| Verwenden von @Erwähnungen | Ja<sup>3</sup> | Ja |
+
+<br>
+
+<sup>1</sup> Vorausgesetzt, der Benutzer wurde als Gast hinzugefügt und hat sich mit dem Gastkonto angemeldet.<br>
 <sup>2</sup> Nur per E-Mail- oder SIP-Adresse (Session Initiation Protocol).<br>
-<sup>3</sup> Externer Chat (Verbundchat) nur 1:1.<br>
-<sup>4</sup> Unterstützt für 1:1-Chat nur für Teams zu Teams Benutzer aus zwei verschiedenen Organisation. <br>
-<sup>5</sup> Standardmäßig können externe Teilnehmer die Telefonnummern der eingewählten Teilnehmer nicht sehen. Wenn Sie die Vertraulichkeit dieser Telefonnummern wahren wollen, wählen Sie **Töne** für **Typ der Ankündigungen von Ein-/Ausgängen** aus (dies verhindert, dass die Nummern von Teams ausgelesen werden). Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).
+<sup>3</sup> Unterstützt für 1:1-Chat nur für Teams zu Teams-Benutzer aus zwei verschiedenen Organisation. <br>
+<sup>4</sup> Standardmäßig können externe Teilnehmer die Telefonnummern der eingewählten Teilnehmer nicht sehen. Wenn Sie die Vertraulichkeit dieser Telefonnummern wahren wollen, wählen Sie **Töne** für **Typ der Ankündigungen von Ein-/Ausgängen** aus (dies verhindert, dass die Nummern von Teams ausgelesen werden). Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
+<sup>5</sup> Standardmäßig zugelassen, kann aber vom Teams-Administrator deaktiviert werden
 
 ## <a name="related-topics"></a>Verwandte Themen
 

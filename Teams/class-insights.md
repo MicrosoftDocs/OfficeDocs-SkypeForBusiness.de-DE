@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067130"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145902"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -102,6 +102,9 @@ Beispielsweise sieht Schulleiter nur die Klassen seiner Schule oder der Abteilun
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="Heften Sie die Insights-App an":::
 
+> [!TIP]
+> Sie können die Insights-App auch über diesen Link finden: [https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## <a name="when-is-insights-used"></a>Wann wird Insights verwendet? 
 Insights unterstützt Lerngemeinschaften während **des Lernzyklus**. Mit Echtzeitmetriken über mehrere Dimensionen hinweg unterstützt Insights einen kontinuierlichen Zyklus von Identifikation, Reflexion, Diskussion und Ergreifen von Maßnahmen unter den Mitgliedern der Schulgemeinschaft.
 *   **Identifizieren Sie**, wie und wann sich Schüler/Studenten mit Dozenten, Kursmaterialien und ihren Mitschülern austauschen und wie sie bei Aufgaben abschneiden. 
@@ -177,10 +180,9 @@ Das Anzeigen von Insights auf Klassenebene als Dozent der Klasse erfordert dies 
 Weitere Informationen finden Sie unter [**SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Berechtigungen verwalten
-Sie müssen Berechtigungen erteilen an leitende akademische Beauftragte, Abteilungsleiter, Bezirksleiter, Schuldirektoren, Schulleiter, Beratungslehrer, Fachleiter, Programmleiter, Sozialarbeiter sowie Psychologen. Dozenten werden automatisch Berechtigungen erteilt, wenn sie ein Klassenteam besitzen.
+Sie müssen Berechtigungen erteilen an leitende akademische Beauftragte, Abteilungsleiter, Bezirksleiter, Schuldirektoren, Schulleiter, Beratungslehrer, Fachleiter, Programmleiter, Sozialarbeiter sowie Psychologen. Dozenten werden *automatisch* Berechtigungen erteilt, wenn sie ein Klassenteam besitzen.
 
-> [!NOTE]
-> Erteilen Sie Berechtigungen nur an die Schulleiter, die sie benötigen und nur für die Teams, für die sie verantwortlich sind. Wenn Sie nicht sicher sind, ob für eine bestimmte Organisation eine Benutzerberechtigung erforderlich ist, wenden Sie sich an die Fachleute für den Datenschutz in Ihrer Bildungseinrichtung, z. B. Mitarbeiter im Rechts- oder Personalwesen.
+Weitere Informationen finden Sie unter [**Verwalten des Benutzerzugriffs auf Education Insights**](education-insights-manage-access.md).
 
 ## <a name="manage-the-setup-policy"></a>Verwalten der Setup-Richtlinie
 Als IT-Administrator können Sie die App-Setup-Richtlinie verwenden, um Insights standardmäßig für Ihre Lehr- und Führungskräfte zu installieren, wenn sie Teams starten. Mit der Setup-Richtlinie können Sie Teams so anpassen, dass Insights hervorgehoben werden und sie an der Appleiste angeheftet werden.

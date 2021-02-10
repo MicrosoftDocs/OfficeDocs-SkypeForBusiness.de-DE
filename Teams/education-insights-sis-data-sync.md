@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067120"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145822"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren
 Je mehr Daten in [Education Insights](class-insights.md) eingespeist werden, desto besser können Dozenten Ihre Schüler/Studenten sowie Schulleiter ihre Dozenten unterstützen.
@@ -56,7 +56,7 @@ Die folgende Tabelle zeigt die Art der Daten, die benötigt werden, um das Beste
 > Während des Bereitstellungsprozesses können Sie entscheiden, ob Sie SDS für die Bereitstellung von Benutzern und Klassen in Teams oder nur zur Bereitstellung von Daten für Insights verwenden möchten.
 
 ## <a name="best-practices"></a>Bewährte Methoden
-Die genaue Abbildung der Hierarchie und der Zuordnung innerhalb dieser Hierarchie ermöglicht es Insights, genaue Daten und präzisere und relevantere Einblicke für die verschiedenen Arten von Schulleitern zu liefern.
+Die genaue Abbildung der Hierarchie und die Zuordnung der Personen innerhalb dieser Hierarchie ermöglicht es Insights, genaue Daten und präzisere und relevantere Einblicke für die verschiedenen Typen von Ausbildungsleitern zu liefern.
 
 Je mehr Details Sie hier bereitstellen, desto besser und relevanter werden die Berichte und Spotlights sein.
 Hier sind einige bewährte Methoden, die für eine reibungslose Bereitstellung von SDS sorgen, damit Ihre Benutzer Insights optimal nutzen können.
