@@ -15,16 +15,16 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche Geräte und Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 5a5777b0ee32cce1986e6b8a07e6d4940f2dc617
-ms.sourcegitcommit: f3ab9437759db8d3ab67b57111cb7bf47eb9c18e
+ms.openlocfilehash: 21c74ce59830f9cac63200e8e7f4f99cfc54235f
+ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50033336"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50173101"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio- und -Videogeräte
 
-Mit dem Zertifizierungsprogramm für Peripheriegeräte wird sichergestellt, dass USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) eine hohe Audio- oder Videoqualität bieten. Zertifizierte Geräte funktionieren (& Wiedergabe) ohne zusätzliche Konfiguration und bieten Anrufsteuerung mit Microsoft Teams und Skype for Business. Die Produkte bieten endbenutzern und Administratoren eine großartige Benutzererfahrung.
+Mit dem Zertifizierungsprogramm für Peripheriegeräte wird sichergestellt, dass USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) eine hohe Audio- oder Videoqualität bieten. Zertifizierte Geräte funktionieren (& Wiedergabe) ohne zusätzliche Konfiguration und bieten Anrufsteuerung mit Microsoft Teams und Skype for Business. Die Produkte bieten eine großartige Benutzererfahrung für Endbenutzer und Administratoren.
 
 Um Geräte zu erkunden, die für Microsoft Teams getestet und zertifiziert wurden, laden Sie zum [Teams Store.](https://products.office.com/microsoft-teams/across-devices/devices)
 
@@ -37,7 +37,7 @@ Weitere Informationen zur Unterstützung der Anrufsteuerung in Teams finden Sie 
 
 Benutzer müssen zuvor zertifizierte Geräte nicht ersetzen, wenn sie ein Upgrade von Skype for Business auf Teams durchführen.  Alle zertifizierten Geräte werden für Microsoft Teams- und Skype for Business-Benutzer mit nur wenigen Unterschieden unterstützt.  Durch die Zertifizierung werden auch bestimmte Gerätekategorien weiter bezeichnet.
 
-- **Skype for Business mit Einem Upgrade auf Teams zertifiziert** Geräte, die auf dieser Ebene zertifiziert wurden, wurden zunächst für Skype for Business zertifiziert. Microsoft arbeitet mit Geräteherstellern zusammen, um die bestmögliche Erfahrung mit der Integration in Teams ohne Änderungen an der ursprünglichen Hardware zu bieten. Die *Hookswitchschaltfläche* fungiert als Teams-Schaltfläche, wenn sie nicht in einem Anruf ist, und enthält im Laufe der Zeit möglicherweise weitere Funktionen.  Geräte in dieser Kategorie können das Zertifizierungsabzeichen für Teams auf Marketingmaterialien mit sich führen.
+- **Skype for Business, das mit einem Upgrade auf Teams zertifiziert wurde** Geräte, die auf dieser Ebene zertifiziert wurden, wurden zunächst für Skype for Business zertifiziert. Microsoft arbeitet mit Geräteherstellern zusammen, um die bestmögliche Erfahrung mit der Integration in Teams ohne Änderungen an der ursprünglichen Hardware zu bieten. Die *Hookswitchschaltfläche* fungiert als Teams-Schaltfläche, wenn sie nicht in einem Anruf ist, und enthält im Laufe der Zeit möglicherweise weitere Funktionen.  Geräte in dieser Kategorie können das Zertifizierungsabzeichen für Teams auf Marketingmaterialien mit sich führen.
 - **Zertifiziert für Microsoft Teams** Geräte, die auf dieser Ebene zertifiziert wurden, geben die neuesten zertifizierten Geräte an, um keine Kompromisse bei der Teamerfahrung eingehen zu können. Diese Geräte bieten alle Vorteile der vorherigen Zertifizierung sowie eine dedizierte Schaltfläche "Teams" mit LED-Anzeige. Bei den meisten Formfaktoren ist die Schaltfläche "Teams" eine leicht zu findende, fühlbare Schaltfläche mit dem Teams-Logo. Microsoft arbeitet weiterhin mit Geräteherstellern zusammen, um im Laufe der Zeit neue Werte über Firmwareupdates zu bieten.
 
 ### <a name="special-usage-designations"></a>Sonderverwendungsbezeichnungen
@@ -49,21 +49,21 @@ Durchsuchen [Sie Geräte, die für Microsoft Teams zertifiziert sind.](https://p
 
 ## <a name="end-user-experience"></a>Endbenutzererfahrung
 
-### <a name="new-teams-certification-benefits"></a>Neue Vorteile der Zertifizierung von Teams
+### <a name="new-teams-certification-benefits"></a>Neue Vorteile der Teams-Zertifizierung
 
 - Dedicated Teams button and LED indicator light.
 - Benutzerbenachrichtigungen über Ereignisse und Benachrichtigungen vom Teams-Client (z. B. Beginn einer Besprechung, Voicemail oder verpasste Anrufe).
-- Möglichkeit zum Aktivieren des Teams-Clients oder Reagieren auf Benachrichtigungen mit einem Drücken der Schaltfläche (z. B. zum Teilnehmen an einer Besprechung).
+- Möglichkeit zum Aktivieren des Teams-Clients oder Reagieren auf Benachrichtigungen mit einem Tastendruck (z. B. zum Teilnehmen an einer Besprechung).
 - Zertifizierung für Erweiterbarkeit (neue Geräte-/Clientfeatures, die per Firmwareupdate geliefert werden).
 
 ### <a name="core-certification-benefits"></a>Grundlegende Zertifizierungsvorteile
 
 - Automatische Auswahl des Standardaudiogeräts und Priorisierung, wenn mehrere Audioperipheriegeräte vorhanden sind.
-- Geräte werden automatisch beim Teamclient registriert und können verwendet werden.
+- Geräte werden automatisch beim Teamclient registriert und sind einsatzbereit.
 - Audiogeräte (z. B. Headsets und Freisprecheinrichtungen) bieten:
   - Einfache Anrufsteuerung bei Verwendung mit einem PC oder einem Mac-Gerät. Zu den grundlegenden Steuerungen gehören Antworten/Auflegen, Stummschalten/Stummschaltungen und Lautstärkeregelungen.
   - Breitbandaudio ohne Echo, Verzerrung oder übermäßige Störungen. Die Echounterdrückung wird auch auf allen Geräten unterstützt.
-- Videogeräte erfüllen Anforderungen für Rauschen, Farbe, Bilddetail, Jitter, Latenz, Bildfrequenz und Sichtfeld.
+- Videogeräte erfüllen anforderungen für Rauschen, Farbe, Bilddetail, Jitter, Latenz, Bildfrequenz und Sichtfeld.
 
 ## <a name="administrator-experience"></a>Administratorerfahrung
 
@@ -78,6 +78,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 | Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Poly                 |Synchronisieren der Freisprechtelefone mit 40                                       |1/19/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Synchronisieren von 40+ Freisprechtelefon mit Poly BT600 USB Dongle           |1/19/2021       |Zertifiziert für Microsoft Teams                           |
 |Yealink              |UH34 Dual/Mono Headset                                     |12/23/2020      |Zertifiziert für Microsoft Teams                           |
 |Yealink              |MP50 USB Phone                                             |12/23/2020      |Zertifiziert für Microsoft Teams                           |
@@ -106,7 +107,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |WENNS/Sennheiser      |Auswirkungen von SC 660 mit USB-ED CC 01 MS-Connector               |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
-|WENNS/Sennheiser      |Auswirkungen von SC 630 mit USB-ED CC 01 MS Connector               |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
+|WENNS/Sennheiser      |Auswirkungen von SC 630 mit USB-ED CC 01 MS-Connector               |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |WENNS/Sennheiser      |Auswirkungen von SC 260 mit USB-ED CC 01 MS-Connector               |8/20/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 75 Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
 |Jabra                |Evolve 65 Headset                                          |7/31/2020       |Skype for Business mit Upgrade auf Microsoft Teams      |
@@ -137,7 +138,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 | WENNS/Sennheiser     | Auswirkungen SC 30                                              | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
 | WENNS/Sennheiser     | Auswirkungen SC 45                                              | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
 | WENNS/Sennheiser     | Auswirkungen SC 60                                              | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
-| WENNS/Sennheiser     | Auswirkungen SC 75 MS                                           | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
+| WENNS/Sennheiser     | Auswirkungen auf SC 75 MS                                           | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
 | WENNS/Sennheiser     | Auswirkungen auf SC 75 MS EUL                                       | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
 | WENNS/Sennheiser     | Impact SC 230 USB MS II                                   | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
 | WENNS/Sennheiser     | Auswirkungen auf SC 260 USB MS II                                   | 4/9/2020       | Skype for Business mit Upgrade auf Microsoft Teams     |
@@ -154,9 +155,9 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 | Poly                | Reiser 4245 Office                                       | 3/23/2020      | Zertifiziert für Microsoft Teams                          |
 | Poly                | Blackwire 8225 Headset                                    | 3/23/2020      | Zertifiziert für Microsoft Teams                          |
 | Poly                | Calisto 5300-M                                            | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
-| Poly                | Reisereise 4210 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
+| Poly                | Reiser 4210 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 4210 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
-| Poly                | Reiser 4220 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
+| Poly                | Reisereise 4220 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 4220 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
 | Poly                | Reiser 5200 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 5200 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
