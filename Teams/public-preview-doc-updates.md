@@ -18,17 +18,17 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6a8d677b4acd56e6de5681d40a1e1aa69008a1ad
-ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
+ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50043959"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196219"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
 > [!NOTE]
-> Die in der Vorschau enthaltenen Features sind möglicherweise nicht vollständig und können geändert werden, bevor sie im öffentlichen Release verfügbar gemacht wird. Sie werden nur zu Evaluierungs- und Untersuchungszwecken bereitgestellt.
+> Die in der Vorschau enthaltenen Features sind möglicherweise nicht vollständig und können geändert werden, bevor sie im öffentlichen Release verfügbar gemacht wird. Sie werden nur zu Evaluierungs- und Untersuchungszwecken bereitgestellt. Nicht unterstützt in Office 365 Government Community Cloud (GCC).
 
 Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffentlichte Features in Teams. Mit der Vorschau können Sie bevorstehende Features untersuchen und testen. Wir freuen uns über Ihr Feedback zu jedem Feature in öffentlichen Vorschauen. Public Preview wird pro Teams-Benutzer aktiviert, daher müssen Sie sich keine Gedanken über die Auswirkungen auf die gesamte Organisation machen.
 

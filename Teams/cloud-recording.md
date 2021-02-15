@@ -18,12 +18,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fb43635d8155d6fe98f02e561ea843ca8c74a4e
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: dba51380f2c82e55c23f9667641ddb0ea9373f06
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055637"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196189"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -32,7 +32,7 @@ In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeic
 Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 verlangen wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für Besprechungsaufzeichnungen.
+> Der Wechsel von Microsoft Stream zu OneDrive for Business und SharePoint für Besprechungsaufzeichnungen erfolgt schrittweise. Ausführliche Informationen zu den einzelnen Phasen finden Sie unter "Verwenden von [OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen".](tmr-meeting-recording-change.md)
 
 > [!NOTE]
 > Informationen zur Verwendung von Rollen in Teams-Besprechungen und zum Ändern von Benutzerrollen finden Sie unter [Rollen in einer Teams-Besprechung](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -52,10 +52,10 @@ Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss 
 <sup>1</sup> Ab dem 20. August 2020 läuft der Zugriff auf die Aufzeichnungsdatei der Besprechung für Benutzer mit A1 nach 21 Tagen ab. Weitere Informationen hierzu finden Sie unter [Hochladen einer Microsoft Teams-Besprechungsaufzeichnung in Stream](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
 
 > [!IMPORTANT] 
-> Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream, sondern stattdessen in Async Media Services (AMS) mit einer Beschränkung auf 21 Tage gespeichert werden, bevor sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
+> Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Dies bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream, sondern in Async Media Services (AMS) mit einem Limit von 21 Tage gespeichert werden, bevor sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
 
 > [!IMPORTANT]
-> Beachten Sie auch, dass die Aufzeichnungsaufbewahrung bei AmS von der Chatnachricht selbst betroffen ist. Ein Löschvorgang der ursprünglichen Chatnachricht "AMS-Aufzeichnung" verhindert, dass Benutzer auf die Aufzeichnung zugreifen können. Es gibt zwei Szenarien, die sich darauf auswirken können. 1) Der Benutzer löscht die Chatnachricht manuell. Wenn die ursprüngliche Nachricht in diesem Szenario nicht mehr angezeigt wird, können die Benutzer nicht mehr auf die Aufzeichnung zugreifen, und es sind keine weiteren Downloads mehr möglich. Die Aufzeichnung selbst kann jedoch innerhalb der internen Systeme von Microsoft für einen Bestimmten Zeitraum aufbewahrt werden (nicht größer als der ursprüngliche Zeitraum von 21 Tagen). 2) Das Aufzeichnen von Chatnachrichten wird durch die Aufbewahrungsrichtlinie für Chats gelöscht – DIE Aufzeichnungen von Chats sind direkt an die Aufbewahrungsrichtlinie für Chats gebunden. Obwohl Aufzeichnungen auf AMS standardmäßig 21 Tage lang aufbewahrt werden, bevor sie gelöscht werden, wird die Aufzeichnung aufgrund von Aufbewahrungsrichtlinien für Chatnachrichten auch gelöscht, wenn die Chatnachricht vor dem 21-Tage-Zeitraum gelöscht wird. Danach gibt es keine Möglichkeit zum Wiederherstellen der Aufzeichnung.
+> Beachten Sie auch, dass die Aufzeichnungsaufbewahrung bei AmS von der Chatnachricht selbst betroffen ist. Ein Löschvorgang der ursprünglichen Chatnachricht "AMS-Aufzeichnung" verhindert, dass Benutzer auf die Aufzeichnung zugreifen können. Es gibt zwei Szenarien, die sich darauf auswirken können. 1) Der Benutzer löscht die Chatnachricht manuell. Wenn die ursprüngliche Nachricht in diesem Szenario nicht mehr angezeigt wird, können die Benutzer nicht mehr auf die Aufzeichnung zugreifen, und es sind keine weiteren Downloads mehr möglich. Die Aufzeichnung selbst kann jedoch innerhalb der internen Systeme von Microsoft für einen Bestimmten Zeitraum aufbewahrt werden (nicht größer als der ursprüngliche Zeitraum von 21 Tagen). 2) Das Aufzeichnen von Chatnachrichten wird durch die Chataufbewahrungsrichtlinie gelöscht – DIE Aufzeichnungen von Chats sind direkt an die Chataufbewahrungsrichtlinie gebunden. Obwohl Aufzeichnungen auf AMS standardmäßig 21 Tage lang aufbewahrt werden, bevor sie gelöscht werden, wird die Aufzeichnung aufgrund von Aufbewahrungsrichtlinien für Chatnachrichten auch gelöscht, wenn die Chatnachricht vor dem 21-Tage-Zeitraum gelöscht wird. Danach gibt es keine Möglichkeit zum Wiederherstellen der Aufzeichnung.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten der Aufzeichnungsfunktion für Teams-Cloudmeetings für Benutzer in Ihrer Organisation
 

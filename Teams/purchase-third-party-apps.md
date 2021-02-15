@@ -1,5 +1,5 @@
 ---
-title: Dienste für Teams-Drittanbieter-Apps im Microsoft Teams Admin Center kaufen
+title: Kaufen von Apps von Drittanbietern für Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -12,18 +12,18 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: Erfahren Sie auf der Seite "Apps verwalten" im Microsoft Teams Admin Center, wie Sie Dienste für Teams-Drittanbieter-Apps kaufen.
+description: Erfahren Sie, wie Sie Apps von Drittanbietern für Teams im Microsoft Teams Admin Center kaufen.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 8ee5b5c56a26ed054cdef559bc623b3cca4baa43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3b90af2e0fecba2d6c421a5b26547e93b18df05d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834325"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196179"
 ---
-<a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Dienste für Teams-Drittanbieter-Apps im Microsoft Teams Admin Center kaufen
+<a name="purchase-third-party-apps-for-teams"></a>Kaufen von Apps von Drittanbietern für Teams
 ======================================================
 
 > [!NOTE]
@@ -35,7 +35,7 @@ Auf [der Seite "Apps](manage-apps.md) verwalten" im Microsoft Teams Admin Center
 
 Hier können Sie auch Lizenzen für Dienste kaufen, die von Apps von Drittanbietern für Benutzer in Ihrer Organisation angeboten werden. Die **Spalte "Lizenzen"** in der Tabelle gibt an, ob eine App ein -Abonnement zum Kauf anbietet.
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot mit Apps von Drittanbietern mit SaaS-Abonnements":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot mit Apps von Drittanbietern, die über Eins-/Abos verfügen":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Suchen nach und Erwerben von Diensten für eine Drittanbieter-App
 
@@ -52,7 +52,7 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Apps von Drittanbiet
 8. Wenn Sie fertig sind, wählen Sie **"Bestellung bestellen" aus.**
 9. Klicken Sie **auf "Jetzt konfigurieren",** um Ihr Abonnement auf der Website des Herausgebers zu aktivieren.
 
-Nachdem Sie das mit der Teams-App verknüpfte -SaaS-Angebot erworben  haben, können Sie die folgenden Kaufdetails auf der Registerkarte "Pläne und Preise" auf der Seite mit den App-Details anzeigen.
+Nachdem Sie das mit der Teams-App verknüpfte SaaS-Angebot erworben  haben, können Sie die folgenden Kaufdetails auf der Registerkarte "Pläne und Preise" auf der Seite mit den App-Details anzeigen.
 
 - **Aktivierungsdatum der Lizenz:** Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird dies als Abonnementaktivierung angezeigt, **deren Aktivierung aussteht.**
 - **Lizenzen:** Anzahl der erworbenen Lizenzen.
@@ -65,7 +65,7 @@ Globale Administratoren können die Von jedem in der Organisation getätigten Ei
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Haben Sie ein SaaS-Angebot für eine Teams-App, die Sie im Microsoft Teams Admin Center und in AppSource auflisten und verkaufen möchten?
 
-Entwickler können mit ihren Teams Apps verknüpfte SaaS-Angebote erstellen. Diese Angebote werden über [Partner Center veröffentlicht](https://partner.microsoft.com) und stehen Organisationen zum Kauf über [AppSource und](https://appsource.microsoft.com/) das Microsoft Teams Admin Center zur Verfügung.
+Entwickler können mit ihren Team-Apps verknüpfte SaaS-Angebote erstellen. Diese Angebote werden über [Partner Center veröffentlicht](https://partner.microsoft.com) und stehen Organisationen zum Kauf über [AppSource und](https://appsource.microsoft.com/) das Microsoft Teams Admin Center zur Verfügung.
  
 Entwickler von Drittanbieter-Apps können zu ["Erstellen eines SaaS-Angebots"](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) wechseln, um weitere Informationen zu erhalten.
 

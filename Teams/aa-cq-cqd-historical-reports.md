@@ -1,5 +1,5 @@
 ---
-title: Verlaufsbericht der automatischen Telefonzentrale & Anrufwarteschlange
+title: automatische Telefonzentrale & von Verlaufsberichten für Anrufwarteschleifen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,184 +21,186 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Hier erfahren Sie, wie Sie den Power BI-Bericht "Anrufqualität" verwenden, um automatische Telefonzentrale und Verlaufsdaten der Anrufwarteschlange anzuzeigen.
-ms.openlocfilehash: c74e7fed254dda24ec404cbebfa0702498f46f21
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: Erfahren Sie, wie Sie mithilfe des Power BI-Berichts für das Anrufqualitätsdashboard Verlaufsdaten automatische Telefonzentrale Anrufwarteschleife anzeigen.
+ms.openlocfilehash: ee54941150a5ba4ade64d6a54cb066f50df2e0a8
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130406"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196239"
 ---
-# <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht der automatischen Telefonzentrale & Anrufwarteschlange
+# <a name="auto-attendant--call-queue-historical-report"></a>automatische Telefonzentrale & von Verlaufsberichten für Anrufwarteschleifen
 
-Die CQD Teams-automatische Telefonzentrale & Anrufwarteschlangen-Verlaufsbericht Power BI-Vorlage bietet die folgenden drei Berichte:
+Die Power BI-Vorlage automatische Telefonzentrale & CQD Teams automatische Telefonzentrale & Bericht "Verlauf der Anrufwarteschleife" enthält die folgenden drei Berichte:
 
-- Automatische Telefonzentrale – zeigt Analysen für Anrufe an, die in Ihre automatischen Telefonzentralen kommen.
-- Anrufwarteschlange – zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschlangen kommen.
-- Agent-Zeitachse – zeigt eine Zeitachsenansicht von Agents an, die in Anruf Warteschlangen anrufen aktiv sind.
+- automatische Telefonzentrale – Anzeigen von Analysen für Anrufe, die an Ihre automatischen Telefon attendants gehen.
+- Anrufwarteschleife – Zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen ein werden.
+- Zeitachse des Agents – Zeigt eine Zeitachsenansicht der Agents an, die an Anrufen in der Anrufwarteschleife aktiv sind.
 
-Diese Berichte verwenden Daten aus dem Dashboard-Datenspeicher der [Anrufqualität](CQD-Power-BI-query-templates.md) und ermöglichen es Organisationen, die Anzahl der von automatischen Telefonzentralen und Anrufwarteschlangen verarbeiteten Anrufe sowie die Leistung des Agents in den Anrufwarteschlangen zu melden.
+Diese Berichte verwenden [](CQD-Power-BI-query-templates.md) Daten aus dem Datenspeicher für das Anrufqualitätsdashboard und ermöglichen es Organisationen, über die Anzahl der von automatischen Telefonwarteschleifen und Anrufwarteschleifen verarbeiteten Anrufe sowie die Leistung des Agents in den Anrufwarteschleifen zu berichten.
 
-## <a name="what-are-the-requirements"></a>Was sind die Voraussetzungen? 
+## <a name="what-are-the-requirements"></a>Welche Anforderungen gelten? 
 
-Sie müssen Power BI Desktop installiert haben. Sie können es über den [Microsoft Windows Store](https://aka.ms/pbidesktopstore)installieren.
+Power BI Desktop muss installiert sein. Sie können sie aus dem [Microsoft Windows Store installieren.](https://aka.ms/pbidesktopstore)
 
-Sie können die ﻿kostenlose Version von Power BI Desktop verwenden. Die Mindest-kompatible Version ist 2.85.681.0 (September 2020).
+Sie können die kostenlose Version von Power BI Desktop verwenden. Die kompatible Mindestversion ist 2.85.681.0 (September 2020).
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>Berechtigungen für den Zugriff auf die CQD-Pipeline
 
-Das Konto, das Sie zum Anzeigen des Verlaufsberichts AA & CQ Analytics verwenden, muss über Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügen. Weitere Informationen finden Sie in der [CQD-Access-Rolle](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) .
+Das Konto, das Sie zum Anzeigen des AA- & CQ Analytics-Verlaufsberichts verwenden, benötigt Berechtigungen für den Zugriff auf die CQD-Datenpipeline. Weitere Informationen finden Sie in der Zugriffsrolle für das [AQD.](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd)
 
 ## <a name="installation"></a>Installation 
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie Power BI Desktop bereits auf dem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie Power BI Desktop bereits auf dem Computer installiert haben und Dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
 
 Führen Sie die folgenden Schritte aus:
 
-- Laden Sie die [CQD Power BI-Abfragevorlagen](https://www.microsoft.com/download/details.aspx?id=102291) herunter, und speichern Sie die ZIP-Datei in einem Verzeichnis auf Ihrem Computer.
+- Laden Sie die [Power BI-Abfragevorlagen für AQD](https://www.microsoft.com/download/details.aspx?id=102291) herunter, und speichern Sie die ZIP-Datei in einem Verzeichnis auf Ihrem Computer.
 
-- Doppelklicken Sie auf die ZIP-Datei, um Sie zu öffnen.
+- Doppelklicken Sie auf die ZIP-Datei, um sie zu öffnen.
 
-- Doppelklicken Sie auf die Vorlagendatei "CQ-und AA-kombinierte Analyse 20201105. PBit", und starten Sie Power BI Desktop.
+- Doppelklicken Sie auf die Vorlagendatei "CQ und AA kombinierte Analytics 20201105.pbit", und Power BI Desktop sollte gestartet werden.
 
-- Sie werden aufgefordert, den CQD-Datenpipeline Bereich auszuwählen. Wählen Sie den Bereich aus, in dem sich der Mandant befindet.
+- Sie werden aufgefordert, den Bereich für die CQD-Datenpipeline auszuwählen. Wählen Sie die Region aus, in der sich Ihr Mandant befindet.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot auswählen des CQD-Datenpipeline Bereichs":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot: Auswählen des CQD-Datenpipelinebereichs":::
 
- - Sie können die Region mithilfe des PowerShell-Cmdlets von Skype for Business Online (Get-CsTenant) anzeigen. ServiceInstance-Ausgabe. 
- Der Bereich wird nach dem/like in diesem Beispiel angezeigt:
+ - Sie können die Region mithilfe des Skype for Business Online-PowerShell-Cmdlets (Get-CsTenant) sehen. "ServiceInstance"-Ausgabe. 
+ Die Region wird nach dem /-Beispiel in folgendem Beispiel angezeigt:
 
-   microsoftcommunicationsonline/Noam-4a-S7, wobei die Region Noam ist.
+   microsoftcommunicationsonline/noam-4a-s7 mit der Region noam.
  
  - Der Bericht wird mit Beispieldaten gestartet.
  
- - Wenn Sie Ihre eigenen Daten anzeigen möchten, klicken Sie auf der Registerkarte Start Unterabfragen in Power BI Desktop auf **Aktualisieren** .
+ - Zum Anzeigen Ihrer eigenen  Daten klicken Sie auf der Registerkarte "Start" unter "Abfragen" in Power BI Desktop auf "Aktualisieren".
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot auswählen der Option "Aktualisieren"":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot mit Auswahl der Aktualisierungsoption":::
 
-- Sie werden dann zur Anmeldung aufgefordert. Wählen Sie **organisationskonto** aus, und wählen Sie dann **Anmelden** aus.
+- Sie werden dann aufgefordert, sich anmelden. Wählen Sie **"Organisationskonto"** und dann **"Anmelden" aus.**
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot mit Anmeldung":::
 
-- Wählen Sie **verbinden** aus, und überwachen Sie die Datenaktualisierung.
+- Wählen Sie **"Verbinden"** aus, und beobachten Sie die Datenaktualisierung.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Datenlatenz und AA & CQ-Analysen
+## <a name="data-latency-and-aa--cq-analytics"></a>Datenlatenz und AA-& A-Analysen
 
-Daten werden innerhalb von 30 Minuten in der CQD-Datenpipeline zur Verfügung stehen.
+Die Daten sind innerhalb von 30 Minuten in der Datenpipeline für AQD verfügbar.
 
-Sie müssen die Daten aktualisieren, damit die neuen Analyse Daten angezeigt werden. 
+Sie müssen die Daten aktualisieren, um die neuen Analysedaten zu sehen. 
 
 ## <a name="customization"></a>Anpassung 
 
-Sie können bestimmte Visualisierungs Aspekte der Berichte anpassen, beispielsweise das Hinzufügen oder Entfernen von Feldern, die in den verschiedenen Visualisierungen angezeigt werden sollen, Ändern des Diagrammtyps usw.
+Sie können bestimmte Visualisierungsaspekte der Berichte anpassen, z. B. Felder hinzufügen oder entfernen, die in den verschiedenen Visualisierungen angezeigt werden sollen, Ändern des Diagrammtyps usw.
 
-Sie können keine weiteren Datenfelder hinzufügen, die nicht im Bericht angegeben sind.
+Sie können keine weiteren Datenfelder als die im Bericht bereitgestellten hinzufügen.
 
 ### <a name="change-color-schema"></a>Ändern des Farbschemas 
 
 Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationsschritte bereits abgeschlossen haben.
 
 Führen Sie die folgenden Schritte aus:
-- Wählen Sie im Menüband die **Registerkarte Ansicht** aus.
+- Wählen Sie **im Menüband die Registerkarte** "Ansicht" aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot auswählen der Registerkarte "Ansicht" zum Ändern des Farbschemas":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot: Auswählen der Registerkarte "Ansicht", um das Farbschema zu ändern":::
 
-- Wählen Sie das Farbschema aus der Dropdownliste aus.
+- Wählen Sie in der Dropdownliste das Farbschema aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot mit verschiedenen Farbschemata":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot mit verschiedenen Farbschemas":::
 
-## <a name="cqd-fields-description"></a>Beschreibung der CQD-Felder
-
-|Name                                    |Datentyp                |Beschreibung                            |
-|:---------------------------------------|:------------------------|:--------------------------------------|
-|Identität der automatischen Telefonzentrale                 |Zeichenfolge                   |Name des an AA angefügten Ressourcenkontos<br>Beispiel: aa_test@Microsoft.com|
-|Anfangszeit der automatischen Telefonzentrale         |datetime                 |Anfangszeit der AA-Kette                    |
-|Verzeichnis Suchmethode für die automatische Telefonzentrale  |Zeichenfolge                   |Suchmethode für das letzte Adressbuch        |
-|Übertragungs Aktion für automatische Telefonzentrale          |Zeichenfolge                   |Zieltyp der Anrufübertragung<br>mögliche Werte:<br>§ unbekannt-Entitätstyp wurde nicht angegeben<br>§ Benutzer-Benutzer-Entität<br>§ orgaa-Entität "organisatorische automatische Telefonzentrale"<br>§ hunt_group-Anruf Warteschlangen Entität<br>§ Anwendung-Voice Application Entity<br>§ external_pstn-externes PSTN-Element<br>§ shared_voicemail-freigegebene Voicemail-Entität|
-|Anruf Ergebnis der automatischen Telefonzentrale              |Zeichenfolge                   |Anruf Ergebnis:<br>§ unbekannt<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|Anruffluss der automatischen Telefonzentrale                |Zeichenfolge                   |Kapselt die verschiedenen Zustände des automatischen Telefonzentralen Anrufs<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ Bekanntmachung|
-|Ist die automatische Telefonzentrale beteiligt              |Boolean                  |Angezeigt, wenn AA an dem Anruf beteiligt ist |
-|Anzahl der Rufnummernanzeige für die automatische Telefonzentrale      |int                      |Anzahl der verwendeten Aktion durch den Anrufer         |
-|Sekunden für die automatische Telefonzentrale-Ketten Dauer   |int                      |Dauer des Anrufs in AA                 |
-|Ergebnis des Anruf Warteschlangen Anrufs                  |String                   |Endgültiger Zustand der Anrufwarteschlange<br>mögliche Werte:<br>§ Fehler<br>§ abgelehnt<br>§ übergelaufen<br>§ fehlerhaft<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Letzte Status Aktion der Anrufwarteschlange           |String                   |Letzte Aktion der Anrufwarteschlange<br>mögliche Werte:<br>§ weiterleiten<br>§ Trennen<br>§ Voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ Sonstiges|
-|Identität der Anrufwarteschlange                     |String                   |Name des an CQ angeschlossenen Ressourcenkontos<br>Beispiel: aa_test@Microsoft.com|
-|Anrufwarteschlange ist Konferenzmodus           |Boolean                  |Auf 1 setzen, wenn der Konferenzmodus auf CQ aktiviert ist |
-|Zieltyp der Anrufwarteschlange                  |String                   |Erwarteter Zieltyp der Anrufumleitung     |
-|Von der Anruf Warteschlangenidentität übertragen    |Boolean                  |Name des dem CQ zugeordneten Ressourcenkontos, aus dem dieser Anruf übertragen wurde<br>Beispiel: aa_test@Microsoft.com|
-|Anruf Warteschlangen-Agent wählen Sie Anzahl aus.           |int                      |Anzahl der für diese Warteschlange verfügbaren Agents zum Zeitpunkt des Anrufs |
-|Anzahl der Anruf Warteschlangen-Agents                  |int                      |Anzahl der Agents, die dieser Warteschlange zum Zeitpunkt des Anrufs zugeordnet sind |
-|Ist die Anrufwarteschlange involviert                  |Boolean                  |Wenn die Anrufwarteschlange in diesen Aufruf gleich 1 involviert ist |
-
-
-### <a name="power-bi-data-model-dimensions"></a>Power BI-Datenmodell Dimensionen
+## <a name="cqd-fields-description"></a>Beschreibung von CQD-Feldern
 
 |Name                                    |Datentyp                |Beschreibung                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA-Name                                   |Zeichenfolge                   |Automatische Telefonzentrale-ID (Ressourcenkonto-ID) |
-|AACallFlow                              |Zeichenfolge                   |Kapselt die verschiedenen Zustände des automatischen Telefonzentralen Anrufs<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ Bekanntmachung |
-|AACallResult                            |Zeichenfolge                   |Ergebnis des Anrufs einer automatischen Telefonzentrale:<br>§ unbekannt<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – Fehler der AA-Konfiguration<br>§ service_terminated – interne AA-Fehler<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|AAChainDuration                         |Zeichenfolge                   |Dauer des Anrufs der automatischen Telefonzentrale in Sekunden  |
-|AACount                                 |Zeichenfolge                   |# der automatischen Telefonzentrale beinhaltet einen Anruf         |
-|AADirectorySearchMethod                 |Zeichenfolge                   |In Call verwendete Suchmethode:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
-|AAStartTime                             |Zeichenfolge                   |Anrufzeiten in UTC      |
-|AATransferAction                        |Zeichenfolge                   |Empfänger des Anrufs:<br>§ unbekannt-Entitätstyp wurde nicht angegeben<br>§ Benutzer-Benutzer-Entität<br>§ AA – Organisation der automatischen Telefonzentrale<br>§ CQ-Anruf Warteschlangen Entität<br>§ Anwendung-Voice Application Entity<br>§ external_pstn-externes PSTN-Element<br>§ shared_voicemail-freigegebene Voicemail-Entität      |
-|PSTNMinutes                             |int                      |Gesamt Minuten Verbrauch                          |
-|Ergebnis des Anruf Warteschlangen Anrufs                  |Zeichenfolge                   |Endgültiger Zustand der Anrufwarteschlange<br>mögliche Werte:<br>§ Fehler<br>§ abgelehnt<br>§ übergelaufen<br>§ fehlerhaft<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
-|Identität der Anrufwarteschlange                     |Zeichenfolge                   |Name des an CQ angeschlossenen Ressourcenkontos     |
-|Zieltyp der Anrufwarteschlange                  |Zeichenfolge                   |Erwarteter Zieltyp der Anrufumleitung:<br>§ Nutzer<br>§ Anwendungsendpunkt<br>§ Sonstiges     |
-|Ergebnis des Anruf Warteschlangen Anrufs                  |Zeichenfolge                   |Endgültiger Zustand der Anrufwarteschlange<br>mögliche Werte:<br>§ Fehler<br>§ abgelehnt<br>§ übergelaufen<br>§ fehlerhaft<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
-|Letzte Status Aktion der Anrufwarteschlange           |Zeichenfolge                   |Letzte Aktion der Anrufwarteschlange<br>mögliche Werte:<br>§ weiterleiten<br>§ Trennen<br>§ Voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ Sonstiges             |
-|Name des Agents                              |Zeichenfolge                   |Benutzer-UPN               |
+|automatische Telefonzentrale Identität                 |Zeichenfolge                   |Name des ressourcenkontos, das AA zugeordnet ist<br>Beispiel: aa_test@microsoft.com|
+|automatische Telefonzentrale Verkettungsstartzeit         |datetime                 |Startzeit der AA-Kette                    |
+|automatische Telefonzentrale der Verzeichnissuche  |Zeichenfolge                   |Suchmethode für das letzte Adressbuch        |
+|automatische Telefonzentrale'-Übertragungsaktion          |Zeichenfolge                   |Zieltyp für Anrufübertragung<br>mögliche Werte:<br>§ unknown - Entitätstyp wurde nicht angegeben<br>§ Benutzer – Benutzerentität<br>§ orgaa - Organizational automatische Telefonzentrale entity<br>§ hunt_group - Entität der Anrufwarteschleife<br>§ application - voice application entity<br>§ external_pstn - externe Entität des PSTNs<br>§ shared_voicemail – Entität für freigegebene Voicemails|
+|automatische Telefonzentrale Anrufergebnis              |Zeichenfolge                   |Anrufergebnis:<br>§ unbekannt<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|automatische Telefonzentrale des Anrufflusses                |Zeichenfolge                   |Kapselt die verschiedenen Zustände automatische Telefonzentrale Aufrufs<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ Ankündigung|
+|Ist automatische Telefonzentrale beteiligt              |Boolean                  |Gibt an, ob AA an dem Anruf beteiligt ist |
+|automatische Telefonzentrale Caller Action Count      |int                      |Anzahl der vom Anrufer verwendeten Aktion         |
+|automatische Telefonzentrale Dauer (Sekunden) der Kette   |int                      |Dauer des Anrufs in AA                 |
+|Anrufwarteschleifen-Anrufergebnis                  |String                   |Endzustand des Anrufwarteschleifenanrufs<br>mögliche Werte:<br>§ Fehler<br>§ abgelehnt<br>§ overflown<br>§ fehlgeschlagen<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|Aktion zum endgültigen Zustand der Anrufwarteschleife           |String                   |Letzte Aktion der Anrufwarteschleife<br>mögliche Werte:<br>§ weiterleiten<br>§ trennen<br>§ Voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ andere|
+|Identität der Anrufwarteschleife                     |String                   |Name des Ressourcenkontos, das dem AQ angefügt ist<br>Beispiel: aa_test@microsoft.com|
+|Anrufwarteschleife ist Konferenzmodus           |Boolean                  |Auf 1 festgelegt, wenn der Konferenzmodus für AQ aktiviert ist |
+|Zieltyp der Anrufwarteschleife                  |String                   |Zieltyp der Anrufumleitung     |
+|Von Anrufwarteschleifenidentität übertragen    |Boolean                  |Name des Ressourcenkontos, das dem AQ zugeordnet ist, von dem dieser Anruf übertragen wurde<br>Beispiel: aa_test@microsoft.com|
+|Anrufwarteschleifen-Agent opt-in Count           |int                      |Die Anzahl der agents, die für diese Warteschlange zum Zeitpunkt des Anrufs verfügbar sind |
+|Anzahl des Mitarbeiters in der Anrufwarteschleife                  |int                      |Die Anzahl der dieser Warteschlange zum Zeitpunkt des Anrufs zugewiesenen Agents |
+|Ist die Anrufwarteschleife beteiligt?                  |Boolean                  |Wenn die Anrufwarteschleife an diesem Anruf beteiligt ist, ist 1 |
+
+
+### <a name="power-bi-data-model-dimensions"></a>Dimensionen des Power BI-Datenmodells
+
+|Name                                    |Datentyp                |Beschreibung                            |
+|:---------------------------------------|:------------------------|:--------------------------------------|
+|AA Name                                   |Zeichenfolge                   |automatische Telefonzentrale-ID (Ressourcenkonto-ID) |
+|AACallFlow                              |Zeichenfolge                   |Kapselt die verschiedenen Zustände automatische Telefonzentrale Aufrufs<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ Ankündigung |
+|AACallResult                            |Zeichenfolge                   |Ergebnis eines automatische Telefonzentrale Anrufs:<br>§ unbekannt<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – Fehler bei der AA-Konfiguration<br>§ service_terminated – interne AA-Fehler<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
+|AAChainDuration                         |Zeichenfolge                   |Dauer automatische Telefonzentrale Anrufs in Sekunden  |
+|AACount                                 |Zeichenfolge                   |Anzahl der automatische Telefonzentrale in den Anruf         |
+|AADirectorySearchMethod                 |Zeichenfolge                   |Suchmethode, die beim Aufruf verwendet wird:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name<br>
+|AAStartTime                             |Zeichenfolge                   |Anrufzeit in UTC      |
+|AATransferAction                        |Zeichenfolge                   |Anrufempfänger:<br>§ unknown - Entitätstyp wurde nicht angegeben<br>§ Benutzer – Benutzerentität<br>§ AA – Organisations- automatische Telefonzentrale Entität<br>§ CQ – Entität der Anrufwarteschleife<br>§ application - voice application entity<br>§ external_pstn - externe Entität des PSTNs<br>§ shared_voicemail – Entität für freigegebene Voicemails      |
+|PSTNMinutes                             |int                      |Gesamtminütige Nutzung                          |
+|Anrufwarteschleifen-Anrufergebnis                  |Zeichenfolge                   |Endzustand des Anrufwarteschleifenanrufs<br>mögliche Werte:<br>§ Fehler<br>§ abgelehnt<br>§ overflown<br>§ fehlgeschlagen<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|Identität der Anrufwarteschleife                     |Zeichenfolge                   |Name des Ressourcenkontos, das dem AQ angefügt ist     |
+|Zieltyp der Anrufwarteschleife                  |Zeichenfolge                   |Erwarteter Zieltyp für die Anrufumleitung:<br>§ Benutzer<br>§ Anwendungsendpunkt<br>§ Andere     |
+|Anrufwarteschleifen-Anrufergebnis                  |Zeichenfolge                   |Endzustand des Anrufwarteschleifenanrufs<br>mögliche Werte:<br>§ Fehler<br>§ abgelehnt<br>§ overflown<br>§ fehlgeschlagen<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference           |
+|Aktion zum endgültigen Zustand der Anrufwarteschleife           |Zeichenfolge                   |Letzte Aktion der Anrufwarteschleife<br>mögliche Werte:<br>§ weiterleiten<br>§ trennen<br>§ Voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ andere             |
+|Agentname                              |Zeichenfolge                   |Benutzer-UPN               |
 
 
 ### <a name="measures"></a>Kennzahlen
 
 |Name                                      |Typ                       |Beschreibung                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AACallerActionCount                     |int                        |die vom Benutzer in AA während des Anrufs ausgewählte Aktion  |
-|PSTNMinutes                             |int                      |Gesamt Minuten Verbrauch                                  |
-|TotalCallCount                          |int                      |Anzahl von Anrufen                                          |
-|Durchschnittliche Anrufdauer (Sekunden)         |int                      |Gesamtdauer der Anruf Warteschlangen Anrufe in Sekunden     |
+|AACallerActionCount                     |int                        |Aktions-Nr., die während des Anrufs vom Benutzer in AA ausgewählt wurde  |
+|PSTNMinutes                             |int                      |Gesamtminütige Nutzung                                  |
+|TotalCallCount                          |int                      |Anzahl Anrufe                                          |
+|Durchschnittliche Anrufdauer(Sekunden)         |int                      |Gesamtdauer von Anrufwarteschleifenanrufen in Sekunden     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Power BI Graph Description, automatische Telefonzentrale
-
-|Name                                      |Beschreibung                            |
-|:---------------------------------------|:--------------------------------------|
-|Quelle für eingehende Anrufe                    |Verteilung des Anrufs nach interner/externer Anruf Quelle      |
-|Ergebnisse der Verzeichnis Suchmethode          |Verteilung des Anrufs nach Suchtyp                         |
-|Aktion für Anrufer                           |Verteilung des Anrufs per Anrufempfänger                       |
-|Anruf Ergebnis                             |Verteilung des Anrufs nach dem endgültigen Anruf Zustand                    |
-|Anzahl der Rufnummernanzeige                     |Verteilung der während des Anrufs verwendeten Aktion "Anruf nach Nummer"  |
-
-
-### <a name="call-queue"></a>Anrufwarteschlange
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI graph description automatische Telefonzentrale
 
 |Name                                      |Beschreibung                            |
 |:---------------------------------------|:--------------------------------------|
-|Quelle für eingehende Anrufe                    |Verteilung des Anrufs nach interner/externer Anruf Quelle         |
-|Anruflautstärke                             |Verteilung von Anrufen über Anrufwarteschlangen                            |
-|Ergebnis des Anrufers                           |Verteilung des Anruf Ergebnisses                            |
-|Timeout/Überlauf Anruf Gesamtaktion      |Verteilung des Anrufs von nicht weitergeleiteten (aufgegebenen) anrufen durch Anruf Ergebnis   |
-|Ziel Gesamtwerte übertragen/weiterleiten          |Verteilung des Anrufs weitergeleitet durch Anruf Ergebnis                  |
-|Verhältnis für verlassene Anrufe                   |Verhältnis der erfolgreichen zur aufgegebenen Anzahl von Anrufen                    |
-|Durchschnittliche Sitzungsdauer (Sekunden)        |Anruflänge in Sekunden, gruppiert nach verlassenen/erfolgreichen anrufen   |
+|Quelle für eingehenden Anruf                    |Verteilung des Anrufs durch interne/externe Anrufquelle<sup>1</sup>|
+|Summen der Verzeichnissuchmethode          |Verteilung des Anrufs nach Suchtyp                         |
+|Anruferaktion                           |Verteilung des Anrufs nach Anrufempfänger                       |
+|Anrufergebnis                             |Verteilung des Anrufs nach Dem Status des letzten Anrufs                    |
+|Anzahl der Anruferaktion                     |Verteilung der Aktion "Anruf nach Nummer", die während des Anrufs verwendet wird  |
+
+
+### <a name="call-queue"></a>Anrufwarteschleife
+
+|Name                                      |Beschreibung                            |
+|:---------------------------------------|:--------------------------------------|
+|Quelle für eingehenden Anruf                    |Verteilung des Anrufs durch interne/externe Anrufquelle<sup>1</sup>   |
+|Anruflautstärke                             |Verteilung von Anrufen durch Anrufwarteschleifen                            |
+|Anruferergebnis                           |Verteilung des Anrufs nach Anrufergebnis                            |
+|Aktion "Timeout/Überlaufaufruf Gesamt"      |Verteilung des NICHT weitergeleiteten(abgebrochenen) Anrufs nach Anrufergebnis   |
+|Gesamtübergangs-/Weiterleitungszielsummen          |Verteilung des nach Anrufergebnis weitergeleiteten Anrufs                  |
+|Verhältnis für abgebrochene Anrufe                   |Verhältnis von "Anzahl erfolgreich" zu "Abgebrochen"                    |
+|Durchschnittliche Sitzungslänge (Sekunden)        |Anruflänge in Sekunden nach abgebrochenen/erfolgreichen Anrufen   |
 
 
 
-### <a name="agent-timeline"></a>Agent-Zeitachse
+### <a name="agent-timeline"></a>Zeitachse des Mitarbeiters
 
 |Name                                                      |Beschreibung                            |
 |:-------------------------------------------------------|:--------------------------------------|
-|# Anrufe nach Agenten                                        |Verteilung des Anrufs nach Anrufwarteschlange und-Agent                 |
-|Gesamtdauer des Anrufs (Sekunden) nach Agent und Anrufwarteschlange   |Gesamtdauer (Sekunden) des Anrufs nach Agent und Anrufwarteschlange     |
-|Durchschnittliche Anrufdauer (Sekunden) nach Agenten Name            |Durchschnittliche Dauer (Sekunden) des Anrufs nach Agent                  |
+|#Anrufe nach Agent                                        |Verteilung von Anrufen durch Anrufwarteschleife und Agent                 |
+|Gesamtanrufdauer (Sekunden) nach Agent und Anrufwarteschleife   |Gesamtdauer (Sekunden) des Anrufs nach Agent und Anrufwarteschleife     |
+|Durchschnittliche Anrufdauer (Sekunden) nach Agentname            |Durchschnittliche Dauer (Sekunden) des Anrufs nach Agent                  |
 
 
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-- Derzeit zeigen die Anrufwarteschlange und die automatische Telefonzentrale die ID des Ressourcenkontos anstelle der Namen der Anrufwarteschlange/automatischen Telefonzentralen an.  Wenn Sie den gesamten Datenverkehr für eine automatische Telefonzentrale oder eine Anrufwarteschlange anzeigen möchten, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefonzentrale oder der Anrufwarteschlange zugewiesen sind.
+- Anrufwarteschleife und automatische Telefonkonferenzen werden nach der ID des Ressourcenkontos anstelle der Namen der Anrufwarteschleife/der automatischen Telefonwarteschleife angezeigt.  Wenn Sie den ganzen Datenverkehr für eine automatische Telefonwarteschlange oder Anrufwarteschleife anzeigen möchten, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefonwarteschlange oder Anrufwarteschleife zugeordnet sind.
 
-- Derzeit sind im Dashboard nur 28 Tage Protokoll verfügbar, da die Daten für die Anrufwarteschlange/automatische Telefonzentrale als Endbenutzer identifizierbare Informationen gelten und den Datenschutzrichtlinien unterliegen.
+- Der Verlauf von nur 28 Tagen steht im Dashboard zur Verfügung, da Daten der Anrufwarteschleife/der automatischen Telefonkonferenz als identifizierbare Informationen für Endbenutzer angesehen werden und den Aufbewahrungsrichtlinien für den Datenschutz unterliegen.
+
+- <sup>1 Die</sup> **Quelle des eingehenden Anrufs** in der automatischen Telefon attendant und die Diagrammen der Anrufwarteschleife zeigen die endgültige Quelle des Anrufs und nicht die Quelle des ersten Anrufs. Wenn beispielsweise eine automatische Telefonkonferenz einen externen Anruf empfängt und den Anruf  an eine andere automatische Telefonwarteschleife oder Anrufwarteschleife überträgt, wird die Quelle für eingehende Anrufe als "Intern" gemeldet.
