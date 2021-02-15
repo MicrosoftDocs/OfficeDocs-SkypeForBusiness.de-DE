@@ -1,5 +1,5 @@
 ---
-title: Verwalten der App "Aufgaben" für Ihre Organisation in Microsoft Teams
+title: Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 audience: admin
-description: Erfahren Sie, wie Sie die App "Aufgaben" für Benutzer in Ihrer Organisation verwalten.
+description: Hier erfahren Sie, wie Sie die Tasks-App für Mitarbeiter in Ihrer Organisation verwalten können.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -21,107 +21,107 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
 ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909399"
 ---
-# <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der App "Aufgaben" für Ihre Organisation in Microsoft Teams
+# <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 
-## <a name="overview-of-tasks"></a>Übersicht über Aufgaben
+## <a name="overview-of-tasks"></a>Übersicht über Tasks
 
-Die App "Aufgaben" bietet Microsoft Teams eine 1:1-Erfahrung beim Aufgabenmanagement, indem einzelne Aufgaben, die von [Microsoft To Do](https://todo.microsoft.com/tasks/) unterstützt werden, und Teamaufgaben, die von Planner unterstützt werden, an einer Stelle integriert werden. Benutzer können auf Aufgaben als App auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. **Mit "Meine Aufgaben"** **und "Freigegebene** Pläne" in "Aufgaben" können Benutzer alle ihre Einzel- und Teamaufgaben anzeigen und verwalten sowie ihre Arbeit priorisieren. Aufgaben stehen in Desktop-, Web- und mobilen Clients von Teams zur Verfügung. 
+Die Tasks-App vereint die Aufgabenverwaltung in Microsoft Teams und vereint an einem Ort einzelne Aufgaben, die von [Microsoft To Do](https://todo.microsoft.com/tasks/) unterstützt werden, sowie Teamaufgaben, die von Planner unterstützt werden. Benutzer können auf Tasks als App auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. **Meine Aufgaben** und **Freigegebene Pläne** in Tasks ermöglichen es Benutzern, alle ihre individuellen und Teamaufgaben anzuzeigen und zu verwalten und ihre Arbeit zu priorisieren. Tasks stehen in Teams Desktop-, Web- und mobilen Clients zur Verfügung. 
 
 > [!NOTE]
-> Beim Rollout der Aufgabenerfahrung auf Teams-Desktopclients wird der Name der App den Benutzern zunächst **als Planner** angezeigt. Der Name wird dann von Planner und **To Do** vorübergehend in "Aufgaben" geändert und später in "Aufgaben" **umbenannt.** Auf mobilen Teams-Clients wird den Benutzern der Name der App immer als **"Aufgaben" angezeigt.** Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzererfahrung kommen, nachdem die Desktoperfahrung verfügbar ist.
+> Während wir die Tasks-Erfahrung in Teams-Desktopclients entwickeln, wird Benutzern der App-Name zunächst als **Planner** angezeigt. Der Name wird dann vorübergehend in **Tasks von Planner und To Do** geändert und wird dann später in **Tasks** umbenannt. Bei mobilen Teams-Clients wird den Benutzern der App-Name immer als **Tasks** angezeigt. Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzererfahrung geben, nachdem die Desktoperfahrung verfügbar ist.
 
-   ![Screenshot der Listenansicht von Aufgaben in der Liste "Teams"](media/manage-tasks-app-tasks.png)
+   ![Screenshot der Listenansicht von Aufgaben in der Teams-Liste](media/manage-tasks-app-tasks.png)
 
-Organisationen, die die Aufgabenverwaltung für Frontlinemitarbeiter optimieren möchten, umfasst Aufgaben auch Funktionen, die es Ihnen ermöglichen, Aufgaben in der gesamten Belegschaft an vorder frontline zu übernehmen, zu veröffentlichen und nachverfolgt zu können. So können Führungskräfte aus Unternehmen und Regionen beispielsweise Aufgabenlisten erstellen und veröffentlichen, die an relevante Orte ausgerichtet sind, z. B. bestimmte Einzelhandelsgeschäfte, und den Fortschritt mithilfe von Echtzeitberichten nachverfolgen. Vorgesetzte können ihren Mitarbeitern Aufgaben zuweisen und direkt Aktivitäten an ihren Standorten ausführen, und Frontlinemitarbeiter verfügen über eine priorisierte Liste der ihnen zugewiesenen Aufgaben auf mobilen Geräten oder auf dem Desktop. Um die [Veröffentlichung von](#task-publishing)Aufgaben zu aktivieren, müssen Sie zuerst eine Teamzielhierarchie für Ihre Organisation einrichten, die definiert, wie alle Teams in der Hierarchie miteinander verknüpft sind.
+Für Organisationen, die das Aufgabenmanagement für Mitarbeiter in Service und Produktion optimieren möchten, umfasst Tasks auch Funktionen, die es Ihnen ermöglichen, Aufgaben aller Ihrer Mitarbeiter in Service und Produktion anzuvisieren, zu veröffentlichen und zu verfolgen. So können die Unternehmens- und Regionalleitung beispielsweise Aufgabenlisten erstellen und veröffentlichen, die auf relevante Orte ausgerichtet sind – z. B. bestimmte Einzelhandelsgeschäfte – und den Fortschritt in Echtzeitberichten nachverfolgen. Vorgesetzte können ihren Mitarbeitern Aufgaben und direkte Aktivitäten innerhalb ihrer Standorte zuweisen, und Mitarbeiter in Service und Entwicklung haben eine priorisierte Liste Ihrer zugewiesenen Aufgaben auf einem mobilen Gerät oder Desktop. Um [Aufgabenveröffentlichung](#task-publishing) zu aktivieren, müssen Sie zuerst eine Team-Adressierungshierarchie für Ihre Organisation einrichten, in der definiert wird, wie alle Teams in der Hierarchie miteinander verknüpft sind.
 
-## <a name="what-you-need-to-know-about-tasks"></a>Was Sie über Aufgaben wissen müssen
+## <a name="what-you-need-to-know-about-tasks"></a>Wissenswertes über Tasks
 
-Aufgaben stehen als App und als Registerkarte in einem Kanal zur Verfügung. Denken Sie daran, dass die App sowohl einzelne Aufgaben aus "Aufgaben" als auch Teamaufgaben aus Planner umfasst, während auf der Registerkarte nur Teamaufgaben angezeigt werden.
+Tasks ist als App und als Registerkarte in einem Kanal verfügbar. Denken Sie daran, dass die App sowohl einzelne Aufgaben aus To Do als auch Teamaufgaben aus Planner umfasst, während auf der Registerkarte nur Teamaufgaben angezeigt werden.
 
-Mit "Aufgaben" erhalten Benutzer eine Desktop-, Web- und mobile Erfahrung. Wenn "Aufgaben" auf dem Desktopclient von Teams installiert ist, wird sie den Benutzern auch auf ihren Web- und mobilen Teams-Clients angezeigt. Die Ausnahme bilden Gastbenutzer. Es ist wichtig zu wissen, dass Gäste über den mobilen Client von Teams nur als App auf Aufgaben zugreifen können. Gästen werden die Registerkarten "Aufgaben" sowohl auf der Desktop- als auch der Webclients von Teams angezeigt.
+Mit Tasks erhalten die Benutzer eine Desktop-, Web- und mobile Erfahrung. Wenn Tasks auf dem Teams-Desktopclient installiert ist, wird es den Benutzern auch in ihren Web- und mobilen Clients von Teams angezeigt. Die Ausnahme sind Gastbenutzer. Es ist wichtig zu wissen, dass Gäste nur über den mobilen Teams-Client als App auf Aufgaben zugreifen können. Gästen werden die Tasks-Registerkarten sowohl auf dem Teams-Desktop als auch auf Webclients angezeigt.
 
-**Meine Aufgaben** zeigen die einzelnen Aufgaben eines Benutzers an. **Freigegebene** Pläne zeigen Aufgaben an, an der das gesamte Team arbeitet, und enthalten alle Aufgabenlisten, die einem Kanal als Registerkarte "Aufgaben" hinzugefügt wurden. Beachten Sie Folgendes:
+**Meine Aufgaben** zeigt die individuellen Aufgaben eines Benutzers an. **Freigegebene Pläne** zeigen Aufgaben an, an denen das gesamte Team arbeitet, und enthält alle Aufgabenlisten, die einem Kanal als Tasks-Registerkarte hinzugefügt wurden. Beachten Sie Folgendes:
 
-- Aufgabenlisten, die ein Benutzer in der App "Aufgaben" erstellt, werden auch in den Aufgabenclients für den Benutzer angezeigt. Ebenso werden Aufgabenlisten, die ein Benutzer in "Aufgaben" erstellt, unter "Meine **Aufgaben"** in "Aufgaben" für den Benutzer angezeigt. Dasselbe gilt für einzelne Vorgänge.
+- Aufgabenlisten, die ein Benutzer in der Tasks-App erstellt, werden auch in den Aufgabenclients für diesen Benutzer angezeigt. Ähnlich dazu werden Aufgabenlisten, die ein Benutzer in der To Do-App erstellt, auch in **Meine Aufgaben** in Tasks für diesen Benutzer angezeigt. Das Gleiche gilt für individuelle Aufgaben.
 
-- Alle Registerkarten "Aufgaben", die einem Kanal hinzugefügt wurden, werden auch in den Planner-Clients angezeigt. Wenn ein Benutzer in Planner einen Plan erstellt, wird er nicht in der Aufgaben- oder der Planner-App angezeigt, es sei denn, er wurde als Registerkarte zu einem Kanal hinzugefügt. Wenn ein Benutzer eine neue Registerkarte "Aufgaben" hinzufügt, kann er eine neue Liste oder einen neuen Plan erstellen oder eine vorhandene auswählen.
+- Alle Tasks-Registerkarten, die einem Kanal hinzugefügt wurden, werden auch in Planner-Clients angezeigt. Wenn ein Benutzer einen Plan in Planner erstellt, wird der Plan nur dann in der Tasks- oder Planner-App angezeigt, wenn er einem Kanal als Registerkarte hinzugefügt wurde. Wenn ein Benutzer eine neue Tasks-Registerkarte hinzufügt, kann er eine neue Liste oder einen neuen Plan erstellen oder eine vorhandene auswählen.
 
-## <a name="set-up-tasks"></a>Einrichten von Aufgaben
+## <a name="set-up-tasks"></a>Tasks einrichten
 
 > [!IMPORTANT]
-> Einstellungen und Richtlinien, die Sie für Planner konfiguriert haben, gelten auch für Aufgaben.
+> Einstellungen und Richtlinien, die Sie für Planner konfiguriert haben, gelten auch für Tasks.
 
-### <a name="enable-or-disable-tasks-in-your-organization"></a>Aktivieren oder Deaktivieren von "Aufgaben" in Ihrer Organisation
+### <a name="enable-or-disable-tasks-in-your-organization"></a>Tasks in Ihrer Organisation aktivieren oder deaktivieren
 
-Aufgaben sind standardmäßig für alle Benutzer von Teams in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
+Tasks ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
 2. Führen Sie in der Liste der Apps einen der folgenden Schritte aus:
 
-    - Um "Aufgaben" für Ihre Organisation zu deaktivieren, suchen Sie nach der Aufgaben-App, wählen Sie sie aus, und klicken Sie dann auf **"Blockieren".**
-    - Um "Aufgaben" für Ihre Organisation zu aktivieren, suchen Sie nach der Aufgaben-App, wählen Sie sie aus, und klicken Sie dann auf **"Zulassen".**
+    - Wenn Sie Tasks für Ihre Organisation deaktivieren möchten, suchen Sie nach der Tasks-App, wählen Sie sie aus, und klicken Sie dann auf **Blockieren**.
+    - Wenn Sie Tasks für Ihre Organisation aktivieren möchten, suchen Sie nach der Tasks-App, wählen Sie sie aus, und klicken Sie dann auf **Zulassen**.
 
 > [!NOTE]
-> Wenn Sie die App "Aufgaben" nicht finden können, suchen Sie nach den Namen in der ersten Notiz dieses Artikels. Die App kann gerade umbenannt werden.
+> Wenn Sie die Tasks-App nicht finden können, suchen Sie nach den Namen im ersten Hinweis dieses Artikels. Die App könnte noch im Prozess der Umbenennung sein.
 
-### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von "Aufgaben" für bestimmte Benutzer in Ihrer Organisation
+### <a name="enable-or-disable-tasks-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Tasks für bestimmte Benutzer in Ihrer Organisation
 
-Um bestimmten Benutzern in Ihrer Organisation die Verwendung von "Aufgaben" zu [](manage-apps.md) gestatten oder zu blockieren, stellen Sie sicher, dass "Aufgaben" für Ihre Organisation auf der Seite "Apps verwalten" aktiviert ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](teams-app-permission-policies.md).
+Wenn Sie die Nutzung von Tasks für bestimmte Benutzer in Ihrer Organisation zulassen oder blockieren möchten, stellen Sie sicher, dass Tasks für Ihre Organisation auf der Seite [Apps verwalten](manage-apps.md) aktiviert ist, und erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie diese den betreffenden Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](teams-app-permission-policies.md).
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Verwenden einer App-Setup-Richtlinie zum Anheften von Aufgaben an Teams
+### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Verwenden einer App-Setuprichtlinie, um Tasks an Teams anzuheften
 
-Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die Apps, die Sie in einer Richtlinie festlegen, sind an der Leiste der App an der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients angeheftet, wo Benutzer schnell und einfach darauf zugreifen &mdash; &mdash; können.
+Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die von Ihnen in einer Richtlinie festgelegten Apps werden an die App-Leiste angeheftet&mdash;die Leiste auf der Seite des Teams-Desktop-Clients und am unteren Rand des Teams Mobile-Clients&mdash;von wo die Benutzer schnell und einfach darauf zugreifen können.
 
-Zum Anheften der Aufgaben-App für Ihre Benutzer können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter "Verwalten von [Richtlinien für das Einrichten von Apps in Teams".](teams-app-setup-policies.md)
+Wenn Sie die Tasks-App für Ihre Benutzer anheften möchten, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
 
-### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>"Meine Aufgaben" eines Benutzers wird angezeigt, wenn der Benutzer für Exchange Online lizenziert ist.
+### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>"Meine Aufgaben" eines Benutzers sind sichtbar, wenn der Benutzer für Exchange Online lizenziert ist.
 
-Wenn einem Benutzer "Meine Aufgaben" nicht angezeigt werden **soll,** können Sie ihn ausblenden. Entfernen Sie dazu [die Exchange Online-Lizenz des Benutzers.](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users) Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz keinen Zugriff mehr auf sein Postfach hat.  Postfachdaten werden 30 Tage lang gespeichert, danach werden die Daten entfernt und können nicht wiederhergestellt werden, es sei denn, das Postfach wird in einem In-Place-Hold- oder Litigation Hold [platziert.](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds)
+Wenn ein Benutzer **Meine Aufgaben** nicht sehen soll, können Sie es ausblenden. Dazu [entfernen Sie die Exchange Online-Lizenz des Benutzers](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz keinen Zugriff mehr auf sein Postfach hat.  Postfachdaten werden 30 Tage lang gespeichert. Danach werden die Daten entfernt und können nicht wiederhergestellt werden, es sei denn, das Postfach wird in [In-Situ-Aufbewahrung oder Aufbewahrung für juristische Zwecke](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) gestellt.
 
-Wir empfehlen dies nicht für Information Workers, aber es gibt möglicherweise einige Szenarien, in denen dies gelten könnte, z. B. für Frontline-Mitarbeiter, die nicht auf E-Mails angewiesen sind.
+Wir empfehlen dies nicht für Information-Worker, aber es kann einige Szenarien geben, in denen dies gelten kann, z. B. für Mitarbeiter in Service und Produktion, die nicht auf E-Mails angewiesen sind.
 
-## <a name="task-publishing"></a>Veröffentlichung von Aufgaben
+## <a name="task-publishing"></a>Aufgabenveröffentlichung
 
-Mit der Veröffentlichung von Aufgaben kann Ihre Organisation Aufgabenlisten veröffentlichen, die an bestimmte Orte (Teams) in der gesamten Organisation ausgerichtet sind, um einen an diesen Orten auszuführende Arbeitsplan zu definieren und gemeinsam zu verwenden.
+Mit der Aufgabenveröffentlichung kann Ihre Organisation Aufgabenlisten veröffentlichen, die auf bestimmte Orte (Teams) in der gesamten Organisation ausgerichtet sind, um einen Arbeitsplan zu definieren und zu teilen, der an diesen Orten erledigt werden soll.
 
-- Personen im Veröffentlichungsteam, z. B. Unternehmens- oder Regionalführungsteams, können Aufgabenlisten erstellen und in bestimmten Teams veröffentlichen.<br>
-    ![Screenshot der Vorgangsveröffentlichung](media/manage-tasks-app-publish.png)
-- Die Manager der Empfängerteams können die veröffentlichten Aufgabenlisten überprüfen und einzelnen Teammitgliedern Aufgaben zuweisen.<br>
-    ![Screenshot zum Zuweisen einer Aufgabe](media/manage-tasks-app-assign.png)
-- Mitarbeiter an vorderen Fronten verfügen über eine einfache mobile Erfahrung, um ihnen zugewiesene Aufgaben zu sehen. Sie können Fotos anfügen, um ihre Arbeit gegebenenfalls zu zeigen und ihre Aufgaben als erledigt zu kennzeichnen.
-- Herausgeber und Manager können Berichte anzeigen, um den Zuordnungs- und Abschlussstatus von Aufgaben auf jeder Ebene, einschließlich nach Ort (Team), Aufgabenliste und einzelner Aufgabe, zu sehen.<br>
-    ![Screenshot der zugewiesenen Aufgaben auf einem mobilen Gerät](media/manage-tasks-app-reporting.png)
+- Personen im Veröffentlichungsteam, z. B. die Unternehmens- und Regionalleitung, können Aufgabenlisten erstellen und diese in bestimmten Teams veröffentlichen.<br>
+    ![Screenshot der Aufgabenveröffentlichung](media/manage-tasks-app-publish.png)
+- Manager in den Empfängerteams können die veröffentlichten Aufgabenlisten überprüfen und Teammitgliedern einzelne Aufgaben zuweisen.<br>
+    ![Screenshot: Zuweisen einer Aufgabe](media/manage-tasks-app-assign.png)
+- Mitarbeiter in Service und Produktion verfügen über eine einfache mobile Erfahrung, um die ihnen zugewiesenen Aufgaben zu sehen. Sie können Fotos anfügen, um gegebenenfalls ihre Arbeit zu zeigen und ihre Aufgaben als erledigt kennzeichnen.
+- Herausgeber und Manager können Berichte anzeigen, um die Zuordnung und den Erledigungsstatus von Aufgaben auf jeder Ebene zu sehen, einschließlich sortiert nach Standort (Team), Aufgabenliste und individueller Aufgabe.<br>
+    ![Screenshot von zugewiesenen Aufgaben auf einem Mobilgerät](media/manage-tasks-app-reporting.png)
 
-Benutzer erstellen, verwalten und veröffentlichen Aufgabenlisten auf der Registerkarte "Veröffentlichte **Listen"** in der Aufgaben-App. Diese Registerkarte wird nur für [](#set-up-your-team-targeting-hierarchy) einen Benutzer angezeigt, wenn Ihre Organisation eine Teamzielhierarchie eingerichtet hat und der Benutzer zu einem Team gehört, das in der Hierarchie enthalten ist. Die Hierarchie bestimmt, ob der Benutzer Aufgabenlisten veröffentlichen oder empfangen und Berichte für empfangene Listen anzeigen kann.
+Benutzer erstellen, verwalten und veröffentlichen Aufgabenlisten auf der Registerkarte **Veröffentlichte Listen** in der Tasks-App. Diese Registerkarte wird einem Benutzer nur angezeigt, wenn Ihre Organisation [eine Team-Adressierungshierarchie eingerichtet](#set-up-your-team-targeting-hierarchy) hat und sich der Benutzer in einem Team befindet, das in der Hierarchie enthalten ist. Die Hierarchie bestimmt, ob der Benutzer Aufgabenlisten veröffentlichen oder empfangen und Berichte für empfangene Listen anzeigen kann.
 
 ### <a name="example-scenario"></a>Beispielszenario
 
 Hier ist ein Beispiel für die Funktionsweise der Aufgabenveröffentlichung.
 
-Contoso bietet eine neue Werbeaktion für Lebensmittelzustellung und Lieferung an. Um eine konsistente Markenerfahrung zu erhalten, müssen sie die konsistente Durchführung des Rollouts für mehr als 300 Store-Standorte koordinieren.
+Contoso entwickelt eine Aktion zum Mitnehmen und Liefern von Lebensmitteln. Um eine konsistente Markenerfahrung zu gewährleisten, müssen sie die konsistente Umsetzung des Rollouts in über 300 Store-Standorten koordinieren.
 
-Das Marketingteam teilt die Promotiondetails und die entsprechende Aufgabenliste mit dem Retail Communications Manager. Der Retail Communications Manager, der als Gatekeeper für Filialen dient, überprüft die Informationen, erstellt eine Aufgabenliste für die Werbeaktion und erstellt dann eine Aufgabe für jede Arbeitseinheit, die von jedem der betroffenen Stores ausgeführt werden muss. Nach Abschluss der Aufgabenliste muss sie die Filialen auswählen, die die Arbeit abschließen müssen. In diesem Fall gilt die Werbeaktion nur für Filialen in den USA, die über ein In-Store-Restaurant verfügen. In "Aufgaben" filtert sie die Liste der Filialen basierend auf dem Attribut "Restaurant im Laden", wählt die übereinstimmenden Standorte in der Hierarchie aus und veröffentlicht die Aufgabenliste dann in diesen Stores.
+Das Marketingteam teilt die Aktionsdetails und die entsprechende Aufgabenliste mit der Retail Communications Managerin. Die Retail Communications Managerin, die als „Gatekeeper“ für die Läden fungiert, überprüft die Informationen, erstellt eine Aufgabenliste für die Werbeaktion und erstellt dann eine Aufgabe für jede Arbeitseinheit, die von jedem der betroffenen Läden ausgeführt werden muss. Nach Abschluss der Aufgabenliste muss sie die Filialen auswählen, die die Arbeit erledigen müssen. In diesem Fall gilt die Werbeaktion nur für Läden in den Vereinigten Staaten, in denen es ein In-Store-Restaurant gibt. In Tasks filtert sie die Ladenliste basierend auf dem Attribut „In-Store Restaurant“, wählt die entsprechenden US-Standorte in der Hierarchie aus und veröffentlicht die Aufgabenliste dann in diesen Läden.
 
-Die Manager von Filialen erhalten an jedem Standort eine Kopie der veröffentlichten Aufgaben und weisen diese Aufgaben ihren Teammitgliedern zu. Vorgesetzte können die Aufgabenerfahrung nutzen, um die gesamte in ihrem Geschäft erforderliche Arbeit zu verstehen. Sie können auch die verfügbaren Filter verwenden, um sich auf eine bestimmte Gruppe von Arbeiten zu konzentrieren, z. B. auf heute fällige Arbeit oder Arbeit in einem bestimmten Bereich.
+Die Ladenmanager an den einzelnen Standorten erhalten eine Kopie der veröffentlichten Aufgaben und weisen diese Aufgaben den Teammitgliedern zu. Manager können die Tasks-Erfahrung verwenden, um zu erkennen, welche Arbeiten in ihrem Laden erforderlich sind. Sie können auch die verfügbaren Filter verwenden, um sich auf eine bestimmte Gruppe von Arbeit (z. B. heute fällige Arbeit oder Arbeit in einem bestimmten Bereich) zu konzentrieren.
 
-Mitarbeiter an vorderen Frontlinien an jedem Standort eines Ladengeschäfts verfügen jetzt über eine priorisierte Liste ihrer Arbeit unter "Aufgaben" auf ihrem mobilen Gerät. Wenn sie eine Aufgabe abgeschlossen haben, markieren sie sie als "Abgeschlossen". Einige entscheiden sich möglicherweise sogar dafür, ein Foto hochzuladen und an die Aufgabe anfügen, um ihre Arbeit zu zeigen.
+Mitarbeiter in Service und Produktion haben jetzt an jedem Ladenstandort eine priorisierte Liste ihrer Arbeit in Tasks auf ihrem Mobilgerät. Wenn sie eine Aufgabe erledigt haben, markieren sie sie als abgeschlossen. Einige entscheiden sich vielleicht sogar dafür, ein Foto hochzuladen und an die Aufgabe anzufügen, um ihre Arbeit zu zeigen.
 
-Die Zentrale von Contoso und Vorgesetzte für Fortgeschrittene können Berichte anzeigen, um den Zuordnungs- und Abschlussstatus von Vorgängen in jedem Ladengeschäft und in allen Filialen zu sehen. Sie können auch einen Drilldown zu einer bestimmten Aufgabe erstellen, um den Status in verschiedenen Stores zu sehen. Wenn das Startdatum näher rückt, können sie ungewöhnliche Veröffentlichungen erkennen und sich bei Bedarf bei ihren Teams einchecken. Diese Sichtbarkeit ermöglicht Es Contoso, die Effizienz des Rollouts zu verbessern und eine einheitlichere Benutzererfahrung für alle Stores zu bieten.
+Die Contoso-Zentrale und Zwischenmanager können Berichte anzeigen, um die Zuordnung und den Erledigungsstatus von Aufgaben in jedem Laden und in allen Filialen anzuzeigen. Sie können auch eine bestimmte Aufgabe aufschlüsseln, um den Status in verschiedenen Läden anzuzeigen. Wenn sich der Starttermin nähert, können Sie abnorme Abweichungen erkennen und gegebenenfalls mit ihren Teams Rücksprache halten. Diese Sichtbarkeit ermöglicht es Contoso, die Effizienz des Rollouts zu verbessern und eine konsistentere Erfahrung in allen Filialen zu bieten.
 
-### <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten der Teamzielhierarchie
+### <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Team-Adressierungshierarchie
 
-Um die Veröffentlichung von Aufgaben in Ihrer Organisation zu aktivieren, müssen Sie zuerst Ihr Teamzielschema in einem einrichten. "CSV-Datei" aus. Das Schema definiert, wie alle Teams in Ihrer Hierarchie miteinander in Beziehung stehen und welche Attribute zum Filtern und Auswählen von Teams verwendet werden. Nachdem Sie das Schema erstellt haben, laden Sie es in Teams hoch, um es auf Ihre Organisation anzuwenden. Mitglieder des Veröffentlichungsteams, z. B. Retail Communications Manager im Beispielszenario, können teams dann nach Hierarchie, Attributen oder einer Kombination aus beiden filtern, um die relevanten Teams auszuwählen, die die Aufgabenlisten erhalten sollen, und die Aufgabenlisten dann für diese Teams zu veröffentlichen.
+Um die Aufgabenveröffentlichung in Ihrer Organisation zu aktivieren, müssen Sie zuerst das Schema für die Teamadressierung in einer CSV-Datei einrichten. Das Schema definiert, wie alle Teams in Ihrer Hierarchie miteinander in Verbindung stehen und welche Attribute zum Filtern und Auswählen von Teams verwendet werden. Nachdem Sie das Schema erstellt haben, laden Sie es in Teams hoch, um es auf Ihre Organisation anzuwenden. Mitglieder des Veröffentlichungsteams, so wie im Beispielszenario die Retail Communications Managerin, können die Teams dann nach Hierarchie, Attributen oder einer Kombination aus beidem filtern, um die relevanten Teams auszuwählen, die die Aufgabenlisten erhalten sollen, und dann die Aufgabenlisten für diese Teams veröffentlichen.
 
-Schritte zum Einrichten der Hierarchie für Teamzielierung finden Sie unter ["Einrichten der Teamzielhierarchie".](set-up-your-team-hierarchy.md)
+Schritte zum Einrichten der Hierarchie Team-Adressierungshierarchie finden Sie unter [Einrichten Ihrer Team-Adressierungshierarchie](set-up-your-team-hierarchy.md).
 
-## <a name="power-automate-and-graph-api"></a>Power Automate- und Graph-API
+## <a name="power-automate-and-graph-api"></a>Power Automate und Graph-API
 
-Aufgaben unterstützen Power Automate for To Do- und Graph-APIs für Planner. Weitere Informationen finden Sie unter:
+Tasks unterstützt Power Automate für To Do und Graph-APIs für Planner. Weitere Informationen finden Sie unter:
 
-- [Übersicht über die API für Aufgaben und Pläne von Planner](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Übersicht über Planner-Aufgaben und Pläne-API](https://docs.microsoft.com/graph/planner-concept-overview)
 - [Verwenden von Microsoft To Do mit Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

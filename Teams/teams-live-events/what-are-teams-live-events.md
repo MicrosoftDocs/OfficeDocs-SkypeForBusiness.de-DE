@@ -24,7 +24,7 @@ appliesto:
 localization_priority: Normal
 ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
 ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/21/2021
 ms.locfileid: "49918991"
