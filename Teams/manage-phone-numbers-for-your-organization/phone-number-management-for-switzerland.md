@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in der Schweiz für Microsoft Teams.
-ms.openlocfilehash: d354b9538ed14bae65016bdbf4f85cecb0b121f3
-ms.sourcegitcommit: 15c45befbee35e69f9ec82493151cb82e61da4fb
+ms.openlocfilehash: 653e943c74bb1bb57aa5d9a1f63b17235b8be23e
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50096938"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196619"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Telefonnummernverwaltung für die Schweiz
 
@@ -48,4 +48,4 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
   
-[Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Haftungsausschluss für Notrufe](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

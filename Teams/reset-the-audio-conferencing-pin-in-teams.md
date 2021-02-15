@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Audiokonferenz-PIN eines Benutzers in Microsoft Teams zurücksetzen, und erfahren Sie wichtige Informationen zu PINs.
-ms.openlocfilehash: cf660331bebfe32fe1809067570e316449c12a22
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 3f1055551edb45ac422052476196f01ee4d2765d
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918981"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237465"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams
 
@@ -50,7 +50,7 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer übe
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-their-own-pin"></a>Benutzer ihre eigene PIN zurücksetzen
+## <a name="have-a-user-reset-their-own-pin"></a>Benutzer müssen ihre eigene PIN zurücksetzen
 
 1. Lassen Sie den Benutzer zu [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) .
 2. Klicken Sie **auf "PIN zurücksetzen".** 
@@ -58,19 +58,19 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer übe
 
 ## <a name="what-else-should-you-know-about-pins"></a>Was sollten Sie sonst über PINs wissen?
 
-- Aus Sicherheitsgründen wird die PIN einem Administrator nur ein Mal gezeigt, wenn die PIN zurückgesetzt wird. Nachdem die PIN von einem Administrator zurückgesetzt wurde, wird sie als "*******" aufgeführt.
+- Aus Sicherheitsgründen wird die PIN einem Administrator nur einmal angezeigt, wenn die PIN zurückgesetzt wird. Nach dem Zurücksetzen der PIN durch einen Administrator wird die PIN als "*******" aufgeführt.
     
 - Das automatische Senden von E-Mails an Benutzer ist standardmäßig aktiviert, und Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert sind oder die PIN zurückgesetzt wird. Wenn Sie das automatische Senden von E-Mails deaktiviert haben, wird keine E-Mail zum Zurücksetzen einer PIN an einen Benutzer gesendet, und Sie müssen die PIN-Informationen manuell an den Benutzer senden.
     
-- Wenn eine Besprechung beginnt, nehmen alle Benutzer im Wartebereich automatisch an der Besprechung teil. Wenn beispielsweise zwei Teilnehmer versuchen, an einer Besprechung zu teilnehmen, bevor sie begonnen wurde, werden sie in den Wartebereich gelaufen und hören Warteschleifenmusik. Wenn der Besprechungsorganisator per Telefon mit seiner PIN teilnist, beginnt die Besprechung, und die Teilnehmer im Wartebereich nehmen an der Besprechung teil.
+- Wenn eine Besprechung beginnt, nehmen alle Benutzer im Wartebereich automatisch an der Besprechung teil. Wenn beispielsweise zwei Teilnehmer versuchen, an einer Besprechung zu teilnehmen, bevor sie gestartet wurde, werden sie in den Wartebereich gelaufen und hören Warteschleifenmusik. Wenn der Besprechungsorganisator per Telefon mit seiner PIN teilniert, beginnt die Besprechung, und die Teilnehmer im Wartebereich nehmen an der Besprechung teil.
     
 - Die Standardeinstellung ist, dass das Starten einer Besprechung durch anonyme Anrufer nicht zulässig ist.
     
 - Wenn Sie einen Benutzer für Audiokonferenzen aktivieren, wird ihm standardmäßig eine E-Mail gesendet, die Konferenzinformationen und seine PIN enthält. Der Benutzer muss über ein Microsoft 365- oder Office 365-Postfach verfügen, da beim Zurücksetzen einer PIN eine neue PIN per E-Mail an die primäre SMTP-Adresse (Alias) gesendet wird, die für den Benutzer festgelegt ist.
     
-- Beim Einrichten von Audiokonferenzen legen Sie die Ziffern fest, die für die PINs in Ihrer Organisation erforderlich sind. PINs können 4 bis 12 Ziffern enthalten, standardmäßig werden 5 Ziffern verwendet. Wenn Sie die Längeneinstellung der PIN ändern, wird diese Einstellung nur auf neu generierte PINs angewendet und nicht auf die PIN-Einstellung für vorhandene Benutzer, die für Audiokonferenzen aktiviert sind. Informationen [finden Sie unter Festlegen der Länge der PIN für Audiokonferenzbesprechungen.](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)
+- Wenn Sie Audiokonferenzen einrichten, legen Sie die Ziffern fest, die für die PINs in Ihrer Organisation erforderlich sind. PINs können 4 bis 12 Ziffern enthalten, standardmäßig werden 5 Ziffern verwendet. Wenn Sie die Längeneinstellung der PIN ändern, wird die Einstellung nur auf neu generierte PINs angewendet und nicht auf die PIN-Einstellung für vorhandene Benutzer, die für Audiokonferenzen aktiviert sind. Informationen [finden Sie unter Festlegen der Länge der PIN für Audiokonferenzbesprechungen.](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)
     
-- Die E-Mail wird standardmäßig auf die primäre MICROSOFT 365- oder Office 365-SMTP-Adresse des Benutzers festgelegt. Sie können eine E-Mail an eine E-Mail-Adresse senden, die nicht zu Microsoft 365 oder nicht zu Office 365 da ist, z. B. Hotmail oder MSN-E-Mail-Adresse. Sie können die Standard-E-Mail-Adresse mithilfe von Windows PowerShell. Dies ist nützlich, wenn die Benutzer nicht über ein Exchange-Postfach in Microsoft 365 oder Office 365 verfügen.
+- Die E-Mail wird standardmäßig auf die primäre E-Mail-Adresse des Benutzers für Microsoft 365 oder Office 365 festgelegt. Sie können eine E-Mail an eine E-Mail-Adresse senden, die nicht zu Microsoft 365 oder nicht zu Office 365 da ist, z. B. an eine Hotmail oder MSN-E-Mail-Adresse. Sie können die Standard-E-Mail-Adresse mithilfe von Windows PowerShell. Dies ist nützlich, wenn die Benutzer nicht über ein Exchange-Postfach in Microsoft 365 oder Office 365 verfügen.
 
     
 

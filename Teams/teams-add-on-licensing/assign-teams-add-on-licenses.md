@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Sie Benutzern Teams-Add-On-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f19060245a54012de1dbc1f38edd43365e4aaa6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f0b7a997525759741e35fa5450c9b8777519c6c7
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809325"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196929"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen von Teams-Add-On-Lizenzen zu Benutzern
 
@@ -34,7 +34,7 @@ Sie können das Microsoft 365 Admin Center oder PowerShell verwenden, um Benutze
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>Was Sie wissen müssen, bevor Sie Lizenzen für Telefonsystem, Anrufplan und Guthaben für Kommunikationen zuweisen
 
-Bevor Sie beginnen, lesen Sie Folgendes:
+Bevor Sie beginnen, überprüfen Sie die folgenden Anforderungen:
 
 - Wenn Sie lokale Konnektivität über das öffentliche Telefonnetz (PSTN) für Hybridbenutzer verwenden, müssen Sie nur eine Telefonsystemlizenz zuweisen. Weisen Sie KEINE Anrufplanlizenz zu.
 
@@ -42,13 +42,13 @@ Bevor Sie beginnen, lesen Sie Folgendes:
 
 - Wenn Sie nicht die richtige Anzahl von Lizenzen erworben haben, wird eine Fehlermeldung angezeigt. Wenn Sie weitere Anrufplanlizenzen erwerben müssen, wählen Sie die Option zum Kauf von weiteren Anrufplanlizenzen aus.
 
-- Auch wenn Ihren Benutzern Enterprise -E5-Lizenzen [](../what-are-communications-credits.md) zugewiesen sind, müssen Sie ihnen weiterhin Lizenzen für Guthaben für Kommunikationen zuweisen, wenn sie Anrufe über das FESTNETZ anrufen oder empfangen möchten.
+- Auch wenn Ihren Benutzern Enterprise E5-Lizenzen zugewiesen [](../what-are-communications-credits.md) sind, müssen Sie ihnen weiterhin Lizenzen für Guthaben für Kommunikationen zuweisen, wenn sie Anrufe über das FESTNETZ anrufen oder empfangen möchten.
 
 - Nachdem Sie Ihren Benutzern Lizenzen für Anrufplan- oder Guthaben für Kommunikationen zugewiesen haben, müssen Sie Telefonnummern für Ihre Organisation erhalten und diese Nummern dann den Benutzern zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../set-up-calling-plans.md).
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Verwenden des Microsoft 365 Admin Centers
 
-Verwenden Sie das Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuordnen. Sie können Lizenzen auf der Seite **"Lizenzen"** (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite **"Aktive Benutzer"** zuweisen. Die von Ihnen auswählende Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
+Verwenden Sie das Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuordnen. Sie weisen Lizenzen auf der Seite **"Lizenzen"** (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite **"Aktive Benutzer"** zu. Die von Ihnen wählende Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
 
 Eine schrittweise Anleitung finden Sie unter ["Zuweisen von Lizenzen zu Benutzern".](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
@@ -62,7 +62,7 @@ Verwenden Sie PowerShell, um Benutzern Lizenzen in Massen zuzuordnen.  Weitere I
 
 Hier ist ein Beispiel für die Verwendung eines Skripts zum Zuweisen von Lizenzen zu Ihren Benutzern.
 
-1. Installieren Sie die 64-Bit-Version [des Microsoft Online Services A0 für IT-Experten RTW.](https://go.microsoft.com/fwlink/p/?LinkId=286152)
+1. Installieren Sie die 64-Bit-Version [des Microsoft Online Services A0 für IT-Experten RTW.](https://docs.microsoft.com/collaborate/connect-redirect?DownloadID=59185)
 2. Installieren Sie das Microsoft Azure Active Directory-Modul für Windows PowerShell:
     1. Öffnen Sie eine Windows PowerShell Eingabeaufforderung mit erhöhten Rechten (führen Windows PowerShell als Administrator aus).
     2. Führen Sie den folgenden Befehl aus:
@@ -147,7 +147,7 @@ Weitere Informationen finden Sie unter "Anzeigen von Lizenzen und Diensten mit [
 | Audiokonferenz | MCOMEETADV | 
 | Audiokonferenzen mit Minutenzahl (während der Vorwahl bezahlen)</br>*Setzt voraus, dass Guthaben für Kommunikationen eingerichtet und aktiviert wird.* | MCOMEETACPEA |
 | Telefonsystem | MCOEV |
-| Anrufplan für Inlands- und Auslandsrufe | MCOPSTN2 |
+| Anrufplan für Inland und Ausland | MCOPSTN2 |
 | Plan für Inlandsrufe (3.000 Minuten pro Benutzer/Monat für US/PR/CA, 1.200 Minuten pro Benutzer/Monat für EU-Länder) | MCOPSTN1 |
 | Plan für Inlandsrufe (120 Minuten pro Benutzer/Monat für jedes Land) </br>*Dieser Plan steht in den USA nicht zur Verfügung.* | MCOPSTN5 |
 | Plan für Inlandsrufe (240 Minuten pro Benutzer/Monat für jedes Land) </br>*Dieser Plan steht in den USA nicht zur Verfügung.* | MCOPSTN6 |

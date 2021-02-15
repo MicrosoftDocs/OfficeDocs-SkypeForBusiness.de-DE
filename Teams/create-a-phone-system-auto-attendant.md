@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendants für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 4809965eaad0f8cd81b59823d3890bd895998906
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bffe66fc59dfeb2f7028f2d5520b45930d753d07
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49919039"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196629"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -38,10 +38,10 @@ Vergewissern Sie sich, dass Sie die Planung für automatische [](plan-auto-atten
 Automatische Telefon attendants can direct calls, based on callers' input, to one of the following destinations: <a name="call-routing-options" ></a>
 
 - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Dies kann ein Onlinebenutzer oder ein Lokal mit Skype for Business Server gehosteter Benutzer sein.
-- **Sprach-App** – eine andere automatische Telefonkonferenz oder eine Anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefonwarteschlange oder Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
+- **Sprach-App** – eine andere automatische Telefon attendant oder eine Anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefon attendant oder der Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
 - **Externe Telefonnummer –** beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **Voicemail –** das Sprachpostfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist.
-- **Operator** – der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als jedes der anderen Ziele in dieser Liste definiert werden.
+- **Operator** – der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als eines der anderen Ziele in dieser Liste definiert werden.
 
 Sie werden beim Einrichten einer automatischen Attendant in verschiedenen Phasen aufgefordert, eine dieser Optionen zu wählen.
 
@@ -57,9 +57,12 @@ Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Teams Admin 
 
 3. Geben Sie die Zeitzone für diese automatische Attendant an. Die Zeitzone wird verwendet, um die Geschäftszeiten zu berechnen, wenn Sie [einen separaten Anruffluss für die Nachstunden erstellen.](#call-flow-for-after-hours)
 
-4. Geben Sie eine Sprache für diese automatische Attendant an. Dies ist die Sprache, die für vom System generierte Sprachanrufe verwendet wird.
+4. Geben Sie [eine unterstützte Sprache für](create-a-phone-system-auto-attendant-languages.md) diese automatische Attendant an. Dies ist die Sprache, die für vom System generierte Sprachanrufe verwendet wird.
 
 5. Wählen Sie aus, ob Sie Spracheingaben aktivieren möchten. Wenn diese Option aktiviert ist, wird der Name jeder Menüoption zu einem Schlüsselwort für die Spracherkennung. Anrufer können z. B. "Eins" sagen, um die Menüoption auszuwählen, die der Taste "1" zugeordnet ist, oder "Vertrieb", um die Menüoption "Vertrieb" auszuwählen.
+
+> [!NOTE]
+> Wenn Sie in Schritt 4 eine Sprache auswählen, die Spracheingaben nicht unterstützt, wird diese Option deaktiviert.
 
 6. Klicken Sie auf **Weiter**.
 
@@ -87,7 +90,7 @@ Wenn Sie **"Wiedergabe"-Menüoptionen auswählen,** können  Sie eine Audiodatei
 
 ![Screenshot der Optionen für die Wähltaoptionen](media/auto-attendant-call-flow-menu-options-complete.png)
 
-Für Wähloptionen können Sie die 0-9-Tasten auf der Wähltasten des Telefons einem der Anrufroutingziele zuweisen. (Die Tasten \* (Wiederholen) und (Zurück) sind vom System reserviert und können nicht erneut \# zugewiesen werden.)
+Für Wähloptionen können Sie einem der Anrufroutingziele die 0-9-Tasten auf der Wähltasten des Telefons zuweisen. (Die Tasten \* (Wiederholen) und (Zurück) sind vom System reserviert und können nicht erneut \# zugewiesen werden.)
 
 Schlüsselzuordnungen müssen nicht fortlaufend sein. Es ist z. B. möglich, ein Menü zu erstellen, in dem die Tasten 0, 1 und 3 den Optionen zugeordnet sind, während die 2-Taste nicht verwendet wird.
 
@@ -97,13 +100,13 @@ Geben Sie für jede Menüoption Folgendes an:
 
 - **Wähltastatur** – die Taste auf der Wähltastatur des Telefons, um auf diese Option zu zugreifen. Wenn Spracheingaben verfügbar sind, können Anrufer auch diese Nummer sagen, um auf die Option zu zugreifen.
 
-- **Sprachbefehl :** Definiert den Sprachbefehl, den ein Anrufer für den Zugriff auf diese Option ausführen kann, wenn Spracheingaben aktiviert sind. Sie kann mehrere Wörter wie "Kundendienst" oder "Betrieb und Anlage" enthalten. So kann der Anrufer beispielsweise "2" drücken, "zwei" sagen oder "Vertrieb" sagen, um die Option auszuwählen, die der Taste "2" zugeordnet ist. Dieser Text wird auch per Text zu Sprache für die Bestätigungsaufforderung des Diensts gerendert, was beispielsweise so aussehen könnte: "Ihren Anruf an Den Vertrieb durch übertragen".
+- **Sprachbefehl :** Definiert den Sprachbefehl, den ein Anrufer für den Zugriff auf diese Option ausführen kann, wenn Spracheingaben aktiviert sind. Sie kann mehrere Wörter wie "Kundendienst" oder "Betrieb und Anlage" enthalten. So kann der Anrufer beispielsweise "2" drücken, "zwei" sagen oder "Vertrieb" sagen, um die Option auszuwählen, die der Taste "2" zugeordnet ist. Dieser Text wird auch per Text in sprache für die Bestätigungsaufforderung des Diensts gerendert, was beispielsweise so aussehen könnte: "Ihren Anruf an Den Vertrieb weiter übertragen".
 
 - **Redirect to** – das Anrufroutingziel, das verwendet wird, wenn Anrufer diese Option auswählen. Wenn Sie an eine automatische Telefon attendant oder Anrufwarteschleife umleiten, wählen Sie das zugeordnete Ressourcenkonto aus.
 
 ### <a name="directory-search"></a>Verzeichnissuche
 
-Wenn Sie Bestimmungszielen Wähltasten zuweisen, empfiehlt es sich, **für** die Verzeichnissuche **"Keine" zu wählen.** Wenn ein Anrufer versucht, einen Namen oder eine Durchwahl mit Schlüsseln anwählt, die bestimmten Zielen zugewiesen sind, wird er möglicherweise unerwartet an ein Ziel geroutet, bevor er die Eingabe des Namens oder der Durchwahl abgeschlossen hat. Es wird empfohlen, eine separate automatische Telefon attendant für die Verzeichnissuche zu erstellen und über eine Wähltaste einen Link zu ihrer automatischen Haupttelefonhalterin zu erstellen.
+Wenn Sie Den Zielen Wähltasten zuweisen, empfiehlt es sich, **für** die Verzeichnissuche die Option **"Keine" zu wählen.** Wenn ein Anrufer versucht, einen Namen oder eine Durchwahl mit Schlüsseln anwählt, die bestimmten Zielen zugewiesen sind, wird er möglicherweise unerwartet an ein Ziel geroutet, bevor er die Eingabe des Namens oder der Durchwahl abgeschlossen hat. Es wird empfohlen, eine separate automatische Telefon attendant für die Verzeichnissuche zu erstellen und über eine Wähltaste einen Link zu ihrer automatischen Haupttelefon attendant zu erstellen.
 
 Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche aus.**
 
@@ -119,7 +122,7 @@ Benutzer, die sie für die Durchwahlerweiterung zur Verfügung stellen möchten,
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-Für die Eingabe der Durchwahl in das Feld für die Telefonnummer des Benutzers ist eine der beiden Formate erforderlich:
+Für die Eingabe der Durchwahl in das Feld für die Telefonnummer des Benutzers ist entweder das gewünschte Format erforderlich:
 
 - *+\<phone number>;ext=\<extension>*
 - *+\<phone number>x\<extension>*
@@ -132,7 +135,7 @@ Für die Eingabe der Durchwahl in das Feld für die Telefonnummer des Benutzers 
 Sie können die Erweiterung im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im Azure Active Directory Admin Center [festlegen.](https://aad.portal.azure.com) Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonkonferenzen und Anrufwarteschleifen verfügbar sind.
 
 > [!NOTE]
-> Wenn Sie sowohl die  Funktion "Nach Name wählen" als auch die Erweiterungsfeatures "Nach Name wählen" verwenden möchten, können Sie in Ihrer automatischen Haupttelefonhalterung eine Wähltaste zuweisen, um eine automatische Telefon attendant zu erreichen, die für die Namensanwahl **aktiviert ist.**  Innerhalb dieser automatischen Telefon attendant können Sie die 1-Taste (der  keine Buchstaben zugeordnet sind) zuweisen, um die automatische Telefon telefonieren mit der Durchwahl zu erreichen.
+> Wenn Sie sowohl die  Funktion "Nach Name wählen" als auch die Erweiterungsfeatures "Nach Name wählen" verwenden möchten, können Sie ihrer automatischen Haupttelefonhalterung eine Wähltaste zuweisen, um eine automatische Telefon attendant zu erreichen, die für die Namensanwahl **aktiviert ist.**  Innerhalb dieser automatischen Telefon attendant können Sie die 1-Taste (der  keine Buchstaben zugeordnet sind) zuweisen, um die automatische Telefon telefonieren mit der Durchwahl zu erreichen.
 
 Nachdem Sie eine Option für die **Verzeichnissuche ausgewählt** haben, klicken Sie auf **"Weiter".**
 
@@ -152,7 +155,7 @@ Wenn **Sie fertig** sind, klicken Sie auf "Weiter".
 
 ## <a name="call-flows-during-holidays"></a>Anrufflüsse während der Feiertage
 
-![Screenshot der Einstellungen für "Feiertag" und "Feiertagsgruß"](media/auto-attendant-holiday-greeting.png)
+![Screenshot der Einstellungen für Feiertags- und Feiertagsgruß](media/auto-attendant-holiday-greeting.png)
 
 Ihre automatische Telefon attendant kann einen Anruffluss für jeden Feiertag haben, [den Sie eingerichtet haben.](set-up-holidays-in-teams.md) Sie können jeder automatische Telefonzentrale bis zu 20 geplante Feiertage hinzufügen.
 
@@ -180,7 +183,7 @@ Wenn Sie alle Feiertage hinzugefügt haben, klicken Sie auf **"Weiter".**
 
 ## <a name="dial-scope"></a>Wählbereich
 
-![Screenshot der Ein- und Ausschließen-Optionen für den Wählbereich](media/auto-attendant-dial-scope.png)
+![Screenshot der Ein- und Ausschlussoptionen für den Wählbereich](media/auto-attendant-dial-scope.png)
 
 Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer eine Namensanwahl oder eine Durchwahl verwendet. Die Standardeinstellung **"Alle Onlinebenutzer"** umfasst alle Benutzer in Ihrer Organisation, die Onlinebenutzer sind oder lokal mit Skype for Business Server gehostet werden.
 
@@ -214,11 +217,11 @@ Bitte beachten Sie die [Voraussetzungen,](plan-auto-attendant-call-queue.md#prer
 Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
 
   - Bei Anrufplannummern wird die ursprüngliche Rufnummer des Anrufers angezeigt.
-  - Bei Nummern des direkten Routings basiert die gesendete Zahl wie folgt auf der Einstellung P-Asserted-Identity (WERDEN) auf dem SBC:
+  - Bei Nummern des direkten Routings basiert die gesendete Zahl wie folgt auf der Einstellung P-Asserted-Identity (WAHL) auf dem SBC:
     - Wenn dies auf "Deaktiviert" festgelegt ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die empfohlene Standardeinstellung.
     - Wenn diese Option auf "Aktiviert" festgelegt ist, wird die Telefonnummer des Ressourcenkontos angezeigt.
 
-Erstellen Sie in einer Skype for Business-Hybridumgebung einen neuen lokalen Benutzer, für den die Anrufumwahl auf die PstN-Nummer festgelegt ist, um einen Anruf einer automatischen Telefonkonferenz in das PSTN zu übertragen. Der Benutzer muss für die Sprachsteuerung Enterprise-VoIP und ihm muss eine Sprachrichtlinie zugewiesen sein. Weitere Informationen finden Sie unter [Anrufübertragung der automatischen Telefonant an das PSTN.](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+Um in einer Skype for Business-Hybridumgebung einen Anruf einer automatischen Telefonkonferenz an das PSTN zu übertragen, erstellen Sie einen neuen lokalen Benutzer, für den die Anrufumwahl auf die Rufnummer des öffentlichen Telefonnetz festgelegt ist. Der Benutzer muss für die Sprachsteuerung Enterprise-VoIP und ihm muss eine Sprachrichtlinie zugewiesen sein. Weitere Informationen finden Sie unter [Anrufübertragung der automatischen Telefonant an das PSTN.](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Erstellen einer automatischen Attendant mit PowerShell
 
@@ -244,9 +247,9 @@ Sie können PowerShell auch zum Erstellen und Einrichten von automatischen Atten
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Das Telefonsystem bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Vorteile des Telefonsystems](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Abrufen von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers)
+[Servicetelefonnummern erhalten](/microsoftteams/getting-service-phone-numbers)
 
 [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

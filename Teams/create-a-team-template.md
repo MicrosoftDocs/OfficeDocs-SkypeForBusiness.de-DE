@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e017ac0795d2fdd65d89c0532469e8e269ee0e58
-ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
+ms.openlocfilehash: f22b2c53ab6f3c3c90e1720313c135c2106b1a49
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173091"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196529"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
-**Benutzerdefinierte Vorlagen werden für Kunden von EDU noch nicht unterstützt.**
+**Benutzerdefinierte Vorlagen werden für Edu-Kunden noch nicht unterstützt.**
 
 Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit einer Reihe von Kanälen, Registerkarten und Apps. Sie können eine Vorlage entwickeln, die Ihnen hilft, schnell den richtigen Platz zur Zusammenarbeit zu schaffen. Ihre benutzerdefinierte Teamvorlage verwendet Ihre bevorzugten Einstellungen.  
 
@@ -33,7 +33,7 @@ Erste Schritte:
 
 1. Melden Sie sich beim Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich die **Vorlagen für**  >  **Teams-Teams.**
+2. Erweitern Sie im linken Navigationsbereich die  >  **Teams-Teamvorlagen.**
 
 3. Klicken Sie auf **Hinzufügen**.
 
@@ -70,7 +70,11 @@ Ihre neue Vorlage wird in der Liste der **Teamvorlagen** angezeigt. Die Vorlage 
 
 **Problem:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthält, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. B. **Beiträge,** Dateien und **Wiki)** werden wie erwartet angezeigt. 
 
-**Lösung:** Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wir arbeiten derzeit an einer Lösung für alle zukünftigen benutzerdefinierten Vorlagen ab dem 08.02.2021.
+**Lösung:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthält, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. B. Beiträge, Dateien und Wiki) werden wie erwartet angezeigt.
+
+Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigung zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, wenden Sie sich an den Teambesitzer, und bitten Sie ihn, dies zu tun.
+
+Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

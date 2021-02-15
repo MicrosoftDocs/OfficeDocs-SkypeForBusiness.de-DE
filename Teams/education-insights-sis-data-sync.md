@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145822"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196579"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren
 Je mehr Daten in [Education Insights](class-insights.md) eingespeist werden, desto besser können Dozenten Ihre Schüler/Studenten sowie Schulleiter ihre Dozenten unterstützen.
@@ -47,10 +47,10 @@ Die folgende Tabelle zeigt die Art der Daten, die benötigt werden, um das Beste
 
 | Datentyp | Beispiele dafür, was Sie bereitstellen müssen|Warum ist das wichtig?|
 |:--- |:--- |:--- |
-| **Benutzer** |   Rolle (z. B. Schüler/Student)<br/> Klassen-/Jahrgangsstufe (z. B. 10)<br/> Organisation (Name) | Wenn wir jede Person korrekt ihrer Rolle, ihrer Klassen-/Jahrgangsstufe und ihrer Organisation zuordnen, können wir sicherstellen, dass die Zusammenfassungen und Aggregationen korrekt sind.|
+| **Benutzer** |   Rolle (z. B. Schüler/Student)<br/> [Klassen-/Jahrgangsstufe](#supported-grade-level-values) (z. B. 10)<br/> Organisation (Name) | Wenn wir jede Person korrekt ihrer Rolle, ihrer Klassen-/Jahrgangsstufe und ihrer Organisation zuordnen, können wir sicherstellen, dass die Zusammenfassungen und Aggregationen korrekt sind.|
 | **Organisationen** | Organisationstyp (z. B. Fachhochschule) |   Die Hierarchie hier ist wichtig. So können Schulen beispielsweise zu einem Schulbezirk gehören, und dieser Schulbezirk kann zu einem Bundesland/-staat gehören.<br/> Wenn ein Leiter eines Schulbezirks berechtigt ist, Daten zu sehen, gilt dies nur für die Schulen in diesem Schulbezirk.|
-| **Klassen** | Titel (z. B. Computerwissenschaft 101) | Hier wird angegeben, welche Kurse in der Organisation abgehalten werden. Dies muss richtig zugeordnet sein, damit der Schüler/Student dem richtigen Kurs zugeordnet werden kann. |
-| **Registrierung** | Rolle (z. B. Schüler/Student) | Dies ist für Schüler/Studenten und Dozenten und dadurch wissen wir, in welchem Kurs sie eingeschrieben sind. |
+| **Klassen** | Titel (z. B. Computerwissenschaft 101) | Diese Tabelle detailliert, welche Kurse in der Organisation abgehalten werden. Diese Tabelle muss richtig zugeordnet sein, damit der Schüler/Student dem richtigen Kurs zugeordnet werden kann. |
+| **Registrierung** | Rolle (z. B. Schüler/Student) | Diese Tabelle ist für Schüler/Studenten und Dozenten und dadurch wissen wir, in welchem Kurs sie eingeschrieben sind. |
 
 > [!NOTE]
 > Während des Bereitstellungsprozesses können Sie entscheiden, ob Sie SDS für die Bereitstellung von Benutzern und Klassen in Teams oder nur zur Bereitstellung von Daten für Insights verwenden möchten.
@@ -70,7 +70,7 @@ Hier sind einige bewährte Methoden, die für eine reibungslose Bereitstellung v
     
 *   Stellen Sie sicher, *Vor- und Nachnamen jedes Benutzers anzugeben*. Ist dies nicht der Fall, werden sie über ihre E-Mail-Adresse referenziert, was in den Berichten und Spotlights (Karten mit Einblicken in die Aktivitäten oder Leistungen der Schüler/Studenten) zu einer weniger positiven Erfahrung führt.
 
-*   Die *Klassen-/Jahrgangsstufe muss als zweistellige Zahl eingegeben werden* (z. B. 07 für Jahrgang 7). Schauen Sie sich die [Zuordnungsliste an](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported). 
+*   Die *Klassen-/Jahrgangsstufe muss als zweistellige Zahl eingegeben werden* (z. B. 07 für Jahrgang 7). Schauen Sie sich die [Zuordnungsliste an](#supported-grade-level-values). 
 
 *   Es ist wichtig, *die Klassen-/Jahrgangsstufe bei allen Schülern/Studenten hinzuzufügen*, damit die Daten nach Klassen-/Jahrgangsstufe gefiltert werden können.    
 
@@ -80,7 +80,7 @@ Hier sind einige bewährte Methoden, die für eine reibungslose Bereitstellung v
     
     *   Basierend auf der Organisationseinheit für Mitarbeiter können Sie die relevanten Berechtigungen definieren. Stellen Sie sicher, dass sie mit der richtigen Organisationsebene verknüpft sind, damit sie die erforderlichen Berechtigungen erhalten. Zum Beispiel muss ein Beratungslehrer, der vier Schulen zugewiesen ist, alle Klassen in diesen Schulen sehen; ein Schulleiter muss alle Klassen in seiner Schule sehen. 
     
-*   Die Rolle ist von zentraler Bedeutung. Obwohl es sich um eine geschlossene Liste handelt, versuchen Sie, dass die Rolle aus [der Liste](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) mit der wirklichen Rolle jedes Benutzers, den Sie hochladen, übereinstimmt. Auf diese Weise können Sie rollenbasierte Berechtigungen entsprechend zuweisen. Geben Sie z. B. allen Schuldirektoren die Berechtigung, die Klassen in ihrer Schule zu sehen, oder allen Professoren, ihre Fakultät zu sehen. 
+*   Die Rolle ist von zentraler Bedeutung. Obwohl diese Liste geschlossen ist, versuchen Sie, die Rolle aus [der Liste](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) mit der tatsächlichen Rolle jedes Benutzers abzustimmen, den Sie hochladen. Auf diese Weise können Sie rollenbasierte Berechtigungen entsprechend zuweisen. Geben Sie z. B. allen Schuldirektoren die Berechtigung, die Klassen in ihrer Schule zu sehen, oder allen Professoren, ihre Fakultät zu sehen. 
 
 ### <a name="organizations"></a>Organisationen
 
@@ -126,7 +126,7 @@ Während des Bereitstellungsprozesses können Sie entscheiden, ob Sie SDS für d
 ### <a name="verify-the-sync-process"></a>Überprüfen des Synchronisierungsvorgangs
 Ein neuer Statusbereich wird neben "Organisationsdaten aus SDS synchronisieren (Vorschau)" auf der Einstellungsseite angezeigt.
  
-*   Wenn der Status **In Bearbeitung** lautet, warten Sie bitte bis zu 24 Stunden nach der Bereitstellung des SDS-Profils.
+*   Wenn der Status **In Bearbeitung** lautet, warten Sie bis zu 24 Stunden nach der Bereitstellung des SDS-Profils.
 
 *   Wenn der Status **Abgeschlossen** lautet – Herzlichen Glückwunsch! Sie können Sie Insights auf Organisationsebene anzeigen und mit dem nächsten Schritt fortfahren.
 
@@ -134,3 +134,77 @@ Ein neuer Statusbereich wird neben "Organisationsdaten aus SDS synchronisieren (
 
 > [!IMPORTANT]
 > Wenn Probleme auftreten, hilft Ihnen der [Kundendienst](https://aka.ms/edusupport) gerne weiter.
+
+## <a name="supported-grade-level-values"></a>Unterstützten Klassenebenen-Werte
+
+In den SDB-Dateien wird die Klassen-/Jahrgangsstufe als Aufzählungswerte definiert. Dies bedeutet, dass Sie nur einen ausgewählten Satz von Werten in der CSV-Datei angeben können. Alles andere als die angegebenen Werte führt zu einem Fehler bei der Synchronisierungsverarbeitung.
+
+> [!NOTE]
+> Die *Klassen-/Jahrgangsstufe muss als zweistellige Zahl eingegeben werden* (z. B. 07 für Jahrgang 7).
+
+Der folgende Abschnitt definiert die unterstützten Werte in der Datei des Benutzers.
+
+### <a name="united-states--worldwide-grade-levels"></a>Vereinigte Staaten / weltweite Klassenstufen
+|Wert in der Datei (Spalte Klasse) | Bezeichnung in Insights|
+|:---|:---| 
+|IT|Säugling|
+|PR|Vorschule|
+|PK|Vor-Kindergarten|
+|TK|Übergangskindergarten|
+|KG|Kindergarten|
+|01|Erste Klasse|
+|02|Zweite Klasse|
+|03|Dritte Klasse|
+|04|Vierte Klasse|
+|05|Fünfte Klasse|
+|06|Sechste Klasse|
+|07|Siebte Klasse|
+|08|Achte Klasse|
+|09|Neunte Klasse|
+|10|Zehnte Klasse|
+|11|Elfte Klasse|
+|12|Zwölfte Klasse|
+|PS|Post-Sekundär|
+|PS1|Studienanfänger|
+|PS2|Stundent/Studentin im zweiten Studienjahr|
+|PS3|Post-Sekundärer im dritten Studienjahr|
+|PS4|Post-Sekundärer im vierten Studienjahr|
+|Bachelor-Student|Bachelor-Student|
+|Master-Student|Master-Student|
+|Doktorand|Doktorand (Absolvent mit Schwerpunkt Forschung)|
+|Ehemaliger|Ehemaliger|
+|Erwachsenenbildung|Erwachsenenbildung|
+|UG|Nicht bewertet|
+|Andere|Andere|
+
+### <a name="united-kingdom-year-groups"></a>Vereinigtes Königreich Jahrgangsgruppen
+|Wert in der Datei (Spalte Klasse) | Bezeichnung in Insights|
+|:---|:---| 
+|IT|Kindergarten|
+|PR|Vorschule|
+|PK|Empfang|
+|01|Jahr 1|
+|02|Jahr 2|
+|03|Jahr 3|
+|04|Jahr 4|
+|05|Jahr 5|
+|06|Jahr 6|
+|07|Jahr 7|
+|08|Jahr 8|
+|09|Jahr 9|
+|10|Jahr 10|
+|11|Jahr 11|
+|12|Jahr 12|
+|13|Jahr 13|
+|PS|Post-Sekundär|
+|PS1|Post-Sekundär Jahr 1|
+|PS2|Post-Sekundär Jahr 2|
+|PS3|Post-Sekundär Jahr 3|
+|PS4|Post-Sekundär Jahr 4|
+|Bachelor-Student|Bachelor-Student|
+|Master-Student|Master-Student|
+|Doktorand|Doktorand (Absolvent mit Schwerpunkt Forschung)|
+|Ehemaliger|Ehemaliger|
+|Erwachsenenbildung|Erwachsenenbildung|
+|UG|Nicht bewertet|
+|Andere|Andere|

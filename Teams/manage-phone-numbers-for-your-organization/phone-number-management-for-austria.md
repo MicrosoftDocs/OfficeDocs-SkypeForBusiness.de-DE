@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Österreich für Microsoft Teams.
-ms.openlocfilehash: 44dad7d3baa95b0841c2e0c90512fa674f0decef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2efccd354553f4f7a4acd61e0017b45c2e92c669
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822865"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196739"
 ---
 # <a name="phone-number-management-for-austria"></a>Telefonnummernverwaltung für Österreich
 
@@ -34,7 +34,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Holen Sie sich neue Telefonnummern für Benutzer und Dienste, die im Microsoft Teams Admin Center nicht aufgelistet sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Anforderung einer neuen Telefonnummer für Österreich (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Anforderung einer neuen Telefonnummer für Österreich (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/>  <br/>Sie müssen auch eine Rechnung für die Versorgungsunternehmen von der Geschäftsadresse angeben, für die Sie neue Nummern erhalten möchten. <br/> 
+|Holen Sie sich neue Telefonnummern für Benutzer und Dienste, die im Microsoft Teams Admin Center nicht aufgelistet sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Anforderung einer neuen Telefonnummer für Österreich (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Neue Telefonnummernanforderung für Österreich (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf?raw=true) <br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/>  <br/>Sie müssen auch eine Rechnung für die Versorgungsunternehmen von der Geschäftsadresse angeben, für die Sie neue Nummern erhalten möchten. <br/> 
 |Übertragen Sie uns Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[LoA (Letter of Authorization) für Österreich (alle Nummern) (v.5.0) (de-at)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf?raw=true) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> <br/>Sie müssen auch eine Rechnung für die Versorgungsunternehmen von der Geschäftsadresse angeben, für die Sie Nummern übertragen möchten.<br/> |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Servicenummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
@@ -48,5 +48,4 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
   
-[Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
- 
+[Haftungsausschluss für Notrufe](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

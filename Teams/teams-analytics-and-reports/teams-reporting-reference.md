@@ -18,16 +18,16 @@ description: In diesem Artikel erfahren Sie mehr über die Teams-Berichte, die i
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 902320f1ea2bc9071bbb9fc2be531117dabc8eef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 684afe6e001ecb7b897a8574813eaed42108bb82
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809275"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196829"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
-Eine neue Analyse- und Berichterstellungserfahrung für Microsoft Teams steht im Microsoft Teams Admin Center zur Verfügung. Sie können verschiedene Berichte ausführen, um Einblicke in die Verwendung von Teams durch die Benutzer in Ihrer Organisation zu erhalten. So können Sie beispielsweise sehen, wie viele Benutzer über Kanal- und Chatnachrichten kommunizieren und welche Geräte sie für die Verbindung zu Teams verwenden. Ihre Organisation kann die Informationen aus den Berichten verwenden, um Nutzungsmuster besser zu verstehen, Geschäftsentscheidungen zu treffen sowie Schulungs- und Kommunikationsaufwand zu informieren.
+Eine neue Analyse- und Berichterstellungserfahrung für Microsoft Teams steht im Microsoft Teams Admin Center zur Verfügung. Sie können verschiedene Berichte ausführen, um Einblicke zu erhalten, wie Benutzer in Ihrer Organisation Teams verwenden. So können Sie beispielsweise sehen, wie viele Benutzer über Kanal- und Chatnachrichten kommunizieren und welche Geräte sie für die Verbindung zu Teams verwenden. Ihre Organisation kann die Informationen aus den Berichten verwenden, um Nutzungsmuster besser zu verstehen, Geschäftsentscheidungen zu treffen sowie Schulungs- und Kommunikationsaufwand zu informieren.
 
 ## <a name="how-to-access-the-reports"></a>Zugreifen auf die Berichte
 
@@ -40,14 +40,14 @@ Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigations
 
 ## <a name="teams-reporting-reference"></a>Berichterstellungsreferenz zu Teams
 
-Hier finden Sie eine Liste der im Microsoft Teams Admin Center verfügbaren Teams-Berichte und eine Übersicht über einige der Informationen, die in den einzelnen Berichten zur Verfügung stehen.
+Hier finden Sie eine Liste der Im Microsoft Teams Admin Center verfügbaren Teams-Berichte und eine Übersicht über einige der Informationen, die in den einzelnen Berichten zur Verfügung stehen.
 
 Wir verbessern ständig die Erfahrung mit der Berichterstellung in Teams und fügen Features und Funktionen hinzu. Im Laufe der Zeit werden wir zusätzliche Funktionen in die Berichte einfügen und neue Berichte im Microsoft Teams Admin Center hinzufügen.
 
 |Bericht  |Was wird gemessen? |
 |---------|---------|
 |[Teams-Nutzungsbericht](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanälen<br/>Aktive Kanäle<br/>Nachrichten<br/>Datenschutzeinstellungen von Teams<br/>Gäste in einem Team   |
-|[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1 Anrufe, an der ein Benutzer teilgenommen hat<br/>Nachrichten, die ein Benutzer in einem Teamchat gepostet hat<br/>Nachrichten, die ein Benutzer in einem privaten Chat gepostet hat<br/>Datum der letzten Aktivität eines Benutzers     |
+|[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  | Nachrichten, die ein Benutzer in einem Teamchat gepostet hat<br/>Nachrichten, die ein Benutzer in einem privaten Chat gepostet hat<br/>  1:1 Anrufe, an der ein Benutzer teilgenommen hat<br/> Anzahl der organisierten Besprechungsbenutzer <br/>Die Anzahl der Besprechungsbenutzer hat daran teilgenommen<br/>Besprechungsaudio, Video und Bildschirmfreigabezeit<br/>   Datum der letzten Aktivität eines Benutzers     |
 |[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer<br/>Mac-Benutzer<br/>iOS-Benutzer<br/>Android-Smartphone-Benutzer     |
 |[Teams-Liveereignis-Nutzungsbericht](teams-live-event-usage-report.md)   |  Gesamtansichten<br>Startzeitpunkt<br>Ereignisstatus<br>Organisator<br>Presenter<br>Produzent<br>Aufzeichnungseinstellung<br>Produktionstyp    |
 |[Bericht zu gesperrten Benutzern in Teams im PSTN](pstn-blocked-users-report.md)   |  Anzeigename<br>Telefonnummer<br>Grund<br>Aktionstyp<br>Datum und Uhrzeit der Aktion   |

@@ -22,31 +22,31 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a1af7f14695d1f933a9c3902b373eb668044e24
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 481e087a6cfe2b641f6b81fcfc893d50f27cbf47
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918641"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237485"
 ---
 <a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 ============================
 
-Berichterstellungsbeschriftungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder Organisationsstandorten anzugeben. Auf der Seite "Berichterstellungsbeschriftungen" im Microsoft Teams Admin Center können Sie eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste der physischen Standorte und der zugehörigen Netzwerksubnetze enthält. Diese Datei wird von der Anrufanalyse zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnetzzuordnung hochladen, enthalten die von diesen Diensten bereitgestellten Berichte auch die Standortnamen, wodurch die Berichte einfacher zu verstehen und zur Behebung potenzieller Probleme zu verwenden sind.
+Berichterstellungsbeschriftungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder Organisationsstandorten anzugeben. Auf der Seite "Berichterstellungsbeschriftungen" im Microsoft Teams Admin Center können Sie eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste der physischen Standorte und der zugehörigen Netzwerksubnetznetzen enthält. Diese Datei wird von der Anrufanalyse zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnetzzuordnung hochladen, enthalten die von diesen Diensten bereitgestellten Berichte auch die Standortnamen, wodurch die Berichte einfacher zu verstehen und zur Behebung potenzieller Probleme zu verwenden sind.
 
 > [!IMPORTANT]
 > Von Ihnen hochgeladene Berichterstellungsbeschriftungen werden im Rahmen Ihrer Vereinbarung für Office 365 als Supportdaten behandelt, einschließlich aller Informationen, die andernfalls als Kundendaten oder persönliche *Daten betrachtet würden.*   Bitte geben Sie keine Daten an, die Sie Microsoft nicht als *Supportdaten* zur Verfügung stellen möchten, da diese Informationen zu Supportzwecken für die Microsoft Engineers sichtbar sind.
 
-Die von Ihnen bereitstellenden Berichtbeschriftungen und -speicherorte sind eine einzige Datenstruktur – es gibt derzeit keine Schnittstelle, über die einzelne Änderungen an den Daten möglich sind.
+Die von Ihnen bereitstellenden Berichtbeschriftungen und Speicherortdaten sind eine einzelne Datenstruktur – es ist derzeit keine Schnittstelle verfügbar, über die einzelne Änderungen an den Daten möglich sind.
 
 **So bearbeiten Sie die Tabelle mit Subnetzen und Standorten**
 
-1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf die **Beschriftungen für die**  >  **Standortberichte.**
-2. Klicken Sie **auf "Speicherorte ersetzen".**
-3. Klicken Sie **im Bereich "Speicherorte** ersetzen" auf "Datei **auswählen",** navigieren Sie dann zu Ihrer bearbeiteten CSV- oder TSV-Datei, und laden Sie sie hoch.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf die **Beschriftungen für Die**  >  **Standortberichte.**
+2. Klicken Sie **auf "Daten hochladen".**
+3. Klicken Sie **im Bereich "Daten** hochladen" auf "Datei **auswählen",** navigieren Sie dann zu Ihrer bearbeiteten CSV- oder TSV-Datei, und laden Sie sie hoch.
 4. Klicken Sie **auf "Hochladen".**
 
-Hier können Sie eine [Beispielvorlage herunterladen.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
+Hier können Sie eine Beispielvorlage [herunterladen.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
 
 Verwenden Sie das folgende Beispiel, um die Datendatei zu erstellen.
 

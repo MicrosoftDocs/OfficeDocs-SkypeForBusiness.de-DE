@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Irland für Microsoft Teams.
-ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
-ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
+ms.openlocfilehash: def8a47ff77510597fc1f5a43cc1dd08509f7084
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876709"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196809"
 ---
 # <a name="phone-number-management-for-ireland"></a>Telefonnummernverwaltung für Irland
 
@@ -39,8 +39,8 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |Übertragen Sie uns Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[LoA (Letter of Authorization) für Irland (alle Nummern) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/> |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Servicenummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatischen Telefonwarteschleifennummern|Wenden Sie sich an den PSTN-Servicedesk, um Rufnummern in der Anrufwarteschleife oder der [automatischen Telefonwarteschlange hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
-   
+|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonwarteschleifennummern|Wenden Sie sich an den PSTN-Servicedesk, um Rufnummern in der Anrufwarteschleife oder der [automatischen Telefonwarteschlange hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
+
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -49,4 +49,4 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
   
-[Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Haftungsausschluss für Notrufe](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
