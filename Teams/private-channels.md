@@ -27,14 +27,14 @@ ms.locfileid: "49601695"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
-Private Kanäle in Microsoft Teams schaffen fokussierte Räume für die Zusammenarbeit innerhalb Ihrer Teams. Nur die Benutzer im Team, die Besitzer oder Mitglieder des privaten Kanals sind, können auf den Kanal zugreifen. Jeder, auch Gäste, kann als Mitglied zu einem privaten Kanal hinzugefügt werden, solange er bereits Mitglied des Teams ist.
+Private Kanäle in Microsoft Teams schaffen fokussierte Räume für die Zusammenarbeit innerhalb Ihrer Teams. Nur die Benutzer im Team, die Besitzer oder Mitglieder des privaten Kanals sind, können auf den Kanal zugreifen. Jede Person, auch Gäste, kann einem privaten Kanal als Mitglied hinzugefügt werden, solange sie bereits Mitglied des Teams ist.
 
 Sie können einen privaten Kanal verwenden, wenn Sie die Zusammenarbeit auf diejenigen beschränken möchten, die das entsprechende Wissen benötigen, oder wenn Sie die Kommunikation zwischen einer Gruppe von Personen, die einem bestimmten Projekt zugeordnet sind, erleichtern möchten, ohne ein zusätzliches Team erstellen zu müssen, das verwaltet werden muss.
 
 Ein privater Kanal ist zum Beispiel in diesen Szenarien nützlich:
 
 - Eine Gruppe von Personen in einem Team möchte einen fokussierten Raum für die Zusammenarbeit nutzen, ohne ein separates Team erstellen zu müssen.
-- Eine Untergruppe von Personen in einem Team möchte einen privaten Kanal nutzen, um vertrauliche Informationen, wie z. B. Budgets, Ressourcen, strategische Positionierung usw. zu besprechen.
+- Eine Untergruppe von Personen in einem Team möchte einen privaten Kanal nutzen, um vertrauliche Informationen, wie z. B. Budgets, Ressourcen, strategische Positionierung usw. zu besprechen.
 
 Ein Schloss-Symbol zeigt einen privaten Kanal an. Nur Mitglieder privater Kanäle können die privaten Kanäle, zu denen sie hinzugefügt wurden, anzeigen und an ihnen teilnehmen.
 
@@ -105,7 +105,7 @@ Weitere Informationen zum Durchführen einer eDiscovery-Suche nach Nachrichten e
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>Überlegungen zum Zugriff auf Dateien in privaten Kanälen
 
-Wird ein neues OneNote-Notizbuch in einem privaten Kanal erstellt, können zusätzliche Benutzer trotzdem Zugriff auf das Notizbuch erhalten, denn das Verhalten ist dasselbe, wie beim Teilen des Zugriffs auf ein beliebiges anderes Element in einer SharePoint-Website des privaten Kanals mit einem Benutzer.
+Wird ein neues OneNote-Notizbuch in einem privaten Kanal erstellt, können zusätzliche Benutzer trotzdem Zugriff auf das Notizbuch erhalten, denn das Verhalten ist dasselbe wie beim Teilen des Zugriffs auf ein beliebiges anderes Element in einer SharePoint-Website des privaten Kanals mit einem Benutzer.
 
 Wird einem Benutzer über SharePoint der Zugriff auf ein Notizbuch in einem privaten Kanal gewährt und der Zugriff des Benutzer aus dem Team oder privaten Kanal entfernt, kann der Benutzer weiterhin auf das Notizbuch zugreifen.
 

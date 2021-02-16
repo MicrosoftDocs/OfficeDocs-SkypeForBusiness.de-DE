@@ -35,10 +35,10 @@ Durch das Einrichten und Verwenden Ihrer ersten Reihe von Teams und Kanälen bau
 
 Weitere Informationen finden Sie unter [Teams und Kanäle in Microsoft Teams – Übersicht](teams-channels-overview.md) und [Bewährte Methoden für die Organisation von Teams in Microsoft Teams](best-practices-organizing.md).
 
- Wir schlagen vor, Sie beginnen mit einem Team "Teams kennenlernen", in dem Ihre aufgeschlossenen Benutzer herumspielen, Fragen stellen und die Funktionen von Teams entdecken können. Dieses Team kann für Ihren Erfolg entscheidend sein, während Sie beginnen, mit Teams zu experimentieren. 
+ Wir schlagen vor, Sie beginnen mit einem "Teams kennenlernen"-Team, in dem Ihre Early Adopter herumspielen, Fragen stellen und die Funktionen von Teams entdecken können. Dieses Team kann für Ihren Erfolg entscheidend sein, während Sie beginnen, mit Teams zu experimentieren. 
 
 ### <a name="get-to-know-teams-team"></a>"Teams kennenlernen"-Team
-Ihr Projektteam kann das Team "Teams kennenlernen" verwenden, um sicherzustellen, dass sie Teams-Clients eingerichtet haben, dann ein paar erste Unterhaltungen führen und herausfinden, was sich in Teams erledigen lässt. Vielleicht haben Sie schon eine Gruppe von Benutzern in Ihrer Organisation, denen es Spaß macht, früh Zugriff auf neue Funktionen zu erhalten. Diese können eins der ersten Teams sein, die Sie an Bord holen, und es wird Ihnen mit frühzeitigem Feedback helfen.
+Ihr Projektteam kann das "Teams kennenlernen"-Team verwenden, um sicherzustellen, dass sie Teams-Clients eingerichtet haben, dann ein paar erste Unterhaltungen führen und herausfinden, was sich in Teams erledigen lässt. Vielleicht haben Sie schon eine Gruppe von Benutzern in Ihrer Organisation, denen es Spaß macht, früh Zugriff auf neue Funktionen zu erhalten. Diese können eins der ersten Teams sein, die Sie an Bord holen, und es wird Ihnen mit frühzeitigem Feedback helfen.
 
 Hier sehen Sie einen Vorschlag für die Struktur des Teams.
 
@@ -79,7 +79,7 @@ Geben Sie dem Kanal einen anschaulichen Namen, damit die Benutzer den Zweck des 
 
 Als Teambesitzer können Sie Kanäle dem gesamten Team automatisch vorschlagen, wodurch die Kanäle für jeden im Team besser sichtbar werden. Darüber hinaus können Sie Registerkarten an den Kanal anheften, um Tools, wie etwa OneNote, Links zu Webseiten und anderen Inhalte hinzuzufügen, damit Benutzer leichter finden, was sie brauchen, und ihre Ideen leichter teilen können.  
 
-Dies ist ein Beispiel für den "Gewusst wie"-Kanal im Team "Teams kennenlernen" mit angehefteten Registerkarten, die Links zu Teams-Webseiten, &ndash; Teams-Videoschulung, dem Teams-Hilfecenter und Teams-Downloadlinks enthalten. 
+Dies ist ein Beispiel für den "Gewusst wie"-Kanal im "Teams kennenlernen"-Team mit angehefteten Registerkarten, die Links zu Teams-Webseiten, &ndash; Teams-Videoschulung, dem Teams-Hilfecenter und Teams-Downloadlinks enthalten. 
 
 ![Screenshot von Registerkarten, die an das Beispielteam angeheftet sind](media/get-started-with-teams-add-tabs.png "Screenshot von Tabs, die an das Beispielteam „Teams kennenlernen“ angeheftet sind.") 
 

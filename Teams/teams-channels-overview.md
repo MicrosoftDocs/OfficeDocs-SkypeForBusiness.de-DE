@@ -112,4 +112,4 @@ Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln. Diese 
 
 ## <a name="org-wide-teams"></a>Organisationsweite Teams
 
-Wenn Ihre Organisation aus nicht mehr als 5 000 Benutzern besteht, können Sie ein organisationsweites Team erstellen. Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. Weitere Informationen, einschließlich bewährter Methoden zum Erstellen und Verwalten eines organisationsweiten Teams, finden Sie unter [Erstellen eines organisationsweiten Teams in Microsoft Teams](create-an-org-wide-team.md).
+Wenn Ihre Organisation aus nicht mehr als 5 000 Benutzern besteht, können Sie ein organisationsweites Team erstellen. Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. Weitere Informationen, einschließlich bewährter Methoden zum Erstellen und Verwalten eines organisationsweiten Teams, finden Sie unter [Erstellen eines organisationsweiten Teams in Microsoft Teams](create-an-org-wide-team.md).

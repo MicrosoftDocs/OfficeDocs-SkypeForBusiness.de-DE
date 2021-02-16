@@ -20,7 +20,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
-description: Verwenden Sie Advisor für Teams zur Unterstützung der Planung und Durchführung der Bereitstellung von Microsoft Teams.
+description: Verwenden Sie Advisor für Teams zur Unterstützung der Planung und Durchführung der Bereitstellung von Microsoft Teams
 ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
 ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
 ms.translationtype: HT
@@ -46,10 +46,10 @@ Einen geführten Überblick über die Advisor für Teams-Oberfläche erhalten Si
 > [!IMPORTANT]
 > Wenn **Advisor für Teams** unter **Planung** im Team Admin Center nicht angezeigt wird, bedeutet dies, dass der Benutzer nicht für Teams lizenziert ist.
 
-Wenn Sie Advisor für Microsoft Teams zum ersten Mal verwenden, wird ein Bereitstellungsteam für Sie in Microsoft Teams erstellt. Für jeden ausgewählten Workload wird ein Kanal hinzugefügt.
+Wenn Sie Advisor für Microsoft Teams zum ersten Mal verwenden, wird ein Bereitstellungsteam für Sie in Microsoft Teams erstellt. Für jede ausgewählte Workload wird ein Kanal hinzugefügt.
 
 > [!IMPORTANT]
-> Wenn ein Bereitstellungsteam erstellt wurde und ein anderer Benutzer versucht, es zu erstellen, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, sich an das Supportteam zu wenden. Auf diese Weise wird verhindert, dass Teams versehentlich den vorhandenen Teams und deren Mitgliedern Informationen offenlegt. Bitten Sie den Besitzer des Bereitstellungsteams, Sie hinzuzufügen, oder wenden Sie sich an einen Supportmitarbeiter, um Hilfe zu erhalten.
+> Wenn ein Bereitstellungsteam erstellt wurde und ein anderer Benutzer versucht, es zu erstellen, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, sich an das Supportteam zu wenden. Auf diese Weise wird verhindert, dass Teams versehentlich Informationen zu den vorhandenen Teams und deren Mitgliedern offenlegt. Bitten Sie den Besitzer des Bereitstellungsteams, Sie hinzuzufügen, oder wenden Sie sich an einen Supportmitarbeiter, um Hilfe zu erhalten.
 
 ## <a name="available-advisor-for-teams-plans"></a>Verfügbare Pläne für Advisor für Teams
 
@@ -72,7 +72,7 @@ Advisor für Teams bietet zurzeit die folgenden Pläne:
     - Advisor für Teams-Bot
     - Der Skype for Business-Upgradeplan ist für Kunden gedacht, die zurzeit Skype for Business Online oder Skype for Business in lokalen Umgebungen verwenden, und hilft Ihnen, Unsicherheiten bei einem Upgrade zu beseitigen.  Der Plan basiert auf einem bewährten Gerüst für die erfolgreiche Implementierung von Änderungen und führt Sie schrittweise durch den Prozess, ganz gleich, ob Sie gerade erst mit Microsoft Teams beginnen, es bereits zusammen mit Skype for Business nutzen oder ein Upgrade vornehmen möchten. Der Plan bietet außerdem den Zugriff auf [Online-Leitfäden und bewährte Methoden](https://aka.ms/SkypeToTeams), [herunterladbare Ressourcen](https://aka.ms/UpgradeSuccessKit), [Live 1: viele Planungs-Workshops](https://aka.ms/UpgradeWorkshops) und weitere Ressourcen zur Unterstützung Ihres Erfolgs.
 
-Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um den nächsten Workload zu starten.
+Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
 
 ## <a name="tenant-assessment"></a>Mandantenbewertung
 
@@ -252,7 +252,7 @@ Advisor für Teams fragt, ob Sie einverstanden sind, dass Daten gesammelt werden
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Kann ich Advisor für Teams mit FastTrack verwenden?
 
-Ja, FastTrack nutzt Advisor für Teams für alle Kunden, die sich für die Bereitstellung von Teams interessieren. Sie können Ihnen bei der ersten Einrichtung Ihres Bereitstellungsteams über Advisor für Teams (sofern erforderlich) Hilfe anbieten und Sie während des Rollouts von Teams nach Bedarf bei spezifischen Themen unterstützen.
+Ja, FastTrack nutzt den Advisor für Teams für alle Kunden, die sich für die Bereitstellung von Teams interessieren. Sie können Ihnen bei der ersten Einrichtung Ihres Bereitstellungsteams über Advisor für Teams (sofern erforderlich) Hilfe anbieten und Sie während des Rollouts von Teams nach Bedarf bei spezifischen Themen unterstützen.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Kann ich Advisor für Teams mit einem Partner verwenden?
 
