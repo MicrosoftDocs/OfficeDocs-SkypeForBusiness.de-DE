@@ -1272,12 +1272,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: Nachrichtendelegierung
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Teams-Vorlagen
-            items:
-              - name: Teams-Vorlagen für das Gesundheitswesen verwenden
-                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-              - name: Teams-Vorlagen für das Gesundheitswesen
-                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: Verwenden der Teams-Vorlagen für das Gesundheitswesen
+            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: Verwalten der Listen-App
             href: manage-lists-app.md
           - name: Verwalten der Aufgaben-App
