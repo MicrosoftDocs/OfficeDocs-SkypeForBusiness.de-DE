@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 683ba9a20c51a23fa1468c07407a389c23dba507
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 66754565737929ec9d34125ca421c7e3eed9fe65
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237498"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278545"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Verhalten von Microsoft Teams-Apps für nicht standardmäßige Benutzer
 
@@ -49,7 +49,7 @@ Gäste können eine App verwenden, wenn die App von einem systemeigenen Benutzer
 
 Bots können Gastbenutzer proaktiv über Nachrichten senden, Gäste können jedoch nicht mit dem Bot interagieren. Gäste können dem Bot keine 1:1-Nachrichten senden, den Bot @erwähnen oder mit adaptiven Karten interagieren, die mit dem Bot kommunizieren.
 
-Gäste halten sich an die globalen und organisationsweiten Berechtigungsrichtlinien, die für den Host-Mandanten für jede App festgelegt sind. (Mit anderen Worten: Wenn eine App für die gesamte Hostorganisation blockiert ist, können Gäste die App auch nicht verwenden.)
+Gäste halten sich an die globalen und organisationsweiten Berechtigungsrichtlinien, die für den Host-Mandanten für jede App festgelegt sind. Anders ausgedrückt: Wenn eine App für die gesamte Hostorganisation blockiert ist, können Gäste die App auch nicht verwenden.
 
 Setuprichtlinien gelten nicht für Gastbenutzer. Dies bedeutet, dass durch den Administrator angeheftet App aus der Standardrichtlinie keine Gastbenutzer betroffen sind.
 
@@ -61,7 +61,7 @@ Externe Benutzer können keine Apps in einem beliebigen Kontext installieren, ak
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Verwendungsverhalten und Richtlinie für externe Benutzer
 
-Externe Benutzer können keine Teams-Apps verwenden, und wenn ein externer Benutzer einem Kontext mit systemeigenen Benutzern hinzugefügt wird, können nicht mehr alle Benutzer – systemeigene und externe – Apps verwenden.
+Externe Benutzer können keine Teams-Apps verwenden, und wenn ein externer Benutzer einem Kontext mit systemeigenen Benutzern hinzugefügt wird, können nicht mehr alle Benutzer –systemeigene und externe – Apps verwenden.
 
 Externe Benutzer sind von den Richtlinien für Apps nicht betroffen, da sie keine Teams-Apps verwenden können.
 
@@ -75,4 +75,4 @@ Anonyme Benutzer können in Besprechungen keine Apps installieren, aktualisieren
 
 Anonyme Benutzer können Apps nicht direkt in Besprechungen verwenden. Native Benutzer können die Besprechungs-Apps weiterhin verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren.
 
-Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Dieses Steuerelement ermöglicht anonymen Benutzern die Interaktion mit Apps in Teams-Besprechungen, solange die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wurde. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.
+Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Dieses Steuerelement ermöglicht anonymen Benutzern die Interaktion mit Apps in Teams-Besprechungen, wenn die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wurde. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.

@@ -21,24 +21,24 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie den Anruf parken und abrufen, um einen Anruf in Microsoft Teams zu halten.
-ms.openlocfilehash: 7474b80975c5fc78285a8bba5a90de782f24ba5b
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
+ms.openlocfilehash: d49e6a5a9bc25a0c7a3e25d548e2743b7f4584fb
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260327"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278715"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
-Das Parken und Abrufen von Anrufen ist ein Feature, mit dem benutzer einen Anruf halten können. Wenn ein Anruf geparkt ist, generiert der Dienst einen eindeutigen Code für den Anrufabruf. Der Benutzer, der den Anruf geparkt hat, oder eine andere Person kann diesen Code dann mit einer unterstützten App oder einem unterstützten Gerät verwenden, um den Anruf abzurufen. (Details finden [Sie unter "Parken eines Anrufs in](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) Teams".)
+Das Parken und Abrufen von Anrufen ist ein Feature, mit dem der Benutzer einen Anruf halten kann. Wenn ein Anruf geparkt ist, generiert der Dienst einen eindeutigen Code für den Anrufabruf. Der Benutzer, der den Anruf geparkt hat, oder eine andere Person kann diesen Code dann mit einer unterstützten App oder einem unterstützten Gerät verwenden, um den Anruf abzurufen. (Details finden [Sie unter "Parken eines Anrufs in](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) Teams".)
 
 Einige der gängigen Szenarien für die Nutzung des Anrufparks sind:
 
 - Ein Empfangsist gibt einen Anruf für jemanden ab, der in einer Fabrik arbeitet. Der Empfangsist sagt dann den Anruf und die Codenummer über das öffentliche Adresssystem an. Der Benutzer, für den der Anruf verwendet wird, kann dann in der Werkshallen ein Telefon in Teams abholen und den Code eingeben, um den Anruf abzurufen.
 - Ein Benutzer macht einen Anruf auf einem mobilen Gerät, weil der Geräteakku knapp wird. Der Benutzer kann dann den Code eingeben, um den Anruf von einem Teams Desk Phone abzurufen.
-- Ein Supportmitarbeiter leitet einen Kundenanruf ab und sendet eine Ankündigung in einem Teams-Kanal, damit ein Experte den Anruf abruft und dem Kunden hilft. Ein Experte gibt den Code in die Kunden von Teams ein, um den Anruf abzurufen.
+- Ein Supportmitarbeiter leitet einen Kundenanruf ab und sendet eine Ankündigung in einem Teams-Kanal, damit ein Experte den Anruf abruft und dem Kunden hilft. Ein Experte gibt den Code in die Teams-Clients ein, um den Anruf abzurufen.
 
-Zum Parken und Abrufen von Anrufen muss der Benutzer ein Enterprise-VoIP sein und in eine Anruf parkrichtlinie eingeschlossen sein.
+Zum Parken und Abrufen von Anrufen muss ein Benutzer Enterprise-VoIP sein und in eine Anruf parkrichtlinie eingeschlossen sein.
 
 > [!NOTE]
 > Das Parken und Abrufen von Anrufen ist nur im [Bereitstellungsmodus](teams-and-skypeforbusiness-coexistence-and-interoperability.md) von Teams verfügbar und wird auf Skype for Business-IP-Telefonen nicht unterstützt.
@@ -68,9 +68,9 @@ So weisen Sie einer Gruppe eine Anrufteilrichtlinie zu
 3. Wählen Sie einen Rang im Vergleich zu anderen Gruppenzuordnungen aus.
 4. Wählen **Sie unter "Richtlinie auswählen"** die Richtlinie aus, der Sie diese Gruppe zuweisen möchten.
 
-    ![](media/call-park-assign-policy-to-group.png)
+    ![Parkrichtlinien (Abbildung)](media/call-park-assign-policy-to-group.png)
 
-5. Klicken Sie auf **Anwenden**.
+5. Wählen Sie **"Übernehmen"** aus.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

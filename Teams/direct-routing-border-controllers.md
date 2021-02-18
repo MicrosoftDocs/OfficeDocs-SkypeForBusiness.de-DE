@@ -16,29 +16,29 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Der Administrator kann erfahren, welche Session Border Controller (SBCs) für direktes Routing zertifiziert wurden.
+description: Der Administrator kann erfahren, welche Session Border Controller (SBCs) für direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab409ccc93d08c20bb4498e39f26e1cd9bde6dcb
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: 5887e69e5cc8dc36070da2c22be997a7deef771c
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055667"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278695"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
 Microsoft arbeitet mit ausgewählten SBC-Anbietern (Session Border Controller) zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren. 
 
-Microsoft arbeitet mit jedem Anbieter zusammen, um: 
+Microsoft arbeitet mit jedem Anbieter zusammen, um:
 
-- Arbeiten Sie gemeinsam an den Sip-Protokollen.
+- Arbeiten Sie gemeinsam an den Protokollen der SIP-Protokolle.
 - Führen Sie intensive Tests in einem Labor eines Drittanbieters durch. Nur Geräte, die die Tests bestehen, sind zertifiziert. 
 - Führen Sie tägliche Tests mit allen zertifizierten Geräten in Produktions- und Präproduktionsumgebungen durch. Die Validierung der Geräte in Präproduktionsumgebungen gewährleistet, dass neue Versionen des Codes für direktes Routing in der Cloud auf zertifizierten SBCs funktionieren. 
 - Richten Sie einen gemeinsamen Supportprozess mit den Lieferanten von SBC ein.
 
 
   > [!NOTE]
-  > Microsoft unterstützt Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über direktes Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über direktes Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct -Routing-Problem eines Kunden mit dem SBC-Gerät eines Anbieters besteht, muss der Kunde den Anbieter von SBC um Unterstützung bekunden.
+  > Microsoft unterstützt Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über Direct Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über direktes Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct -Routing-Problem eines Kunden mit dem SBC-Gerät eines Anbieters besteht, muss der Kunde den Anbieter von SBC um Unterstützung bekunden.
 
 Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierten Geräte. (Informationen dazu, welche SBC-Anbieter die Optimierung lokaler Medien unterstützen, finden Sie unter "Konfigurieren der Optimierung lokaler [Medien für direktes Routing".)](direct-routing-media-optimization-configure.md)
 
@@ -86,11 +86,11 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Hyperlink    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
 |                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      V10R1.2       |     |    | 
-
+|                     [San inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 
 <br/>
 <br/>
-In der folgenden Tabelle sind geräte aufgeführt, die auf Interoperabilität zwischen Direct Routing und analogen Geräten überprüft wurden.
+In der folgenden Tabelle sind Geräte aufgeführt, die auf Interoperabilität zwischen Direct Routing und Analoggeräten überprüft wurden.
 
 |                                                       Anbieter                                                        |       Produkt       | Überprüft
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
@@ -104,8 +104,8 @@ In der folgenden Tabelle sind geräte aufgeführt, die auf Interoperabilität zw
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300-Software, Version 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350-Software, Version 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME Software Version 8.3.0.1.2 |     &#10004;     |
-  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode mit Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
+  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode with Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform Analog Telephone Adapter |     &#10004;     |
   
-Um uns Produktfeedback zu Teams zu geben, z. B. Ideen für neue Features, lesen Sie [Uservoice.](https://microsoftteams.uservoice.com)
+Produktfeedback zu Teams, z. B. Ideen für neue Features, finden Sie unter [UserVoice.](https://microsoftteams.uservoice.com)
 Beachten Sie die Für eine Hauptversion erteilte Zertifizierung. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.

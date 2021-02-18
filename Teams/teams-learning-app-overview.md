@@ -11,18 +11,18 @@ ms.reviewer: ChrisArnoldMSFT, LearningDocs2020
 localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
-description: Verwenden Sie die Microsoft Teams-Lern-App, um einen zentralen Hub für das Lernen zu erstellen, in dem Mitarbeiter Inhaltsbibliotheken in der gesamten Organisation freigeben, zuweisen und daraus lernen können.
+description: Verwenden Sie die Microsoft Teams-Lern-App, um einen zentralen Hub für das Lernen zu erstellen, in dem Mitarbeiter Inhaltsbibliotheken in der gesamten Organisation freigeben, zuweisen und lernen können.
 f1.keywords: ''
 appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6d4cb45334edb9307663eb1ffcab5e7c1085b149
-ms.sourcegitcommit: b12ec4703b164c545d17b02815edd6ee28d40bed
+ms.openlocfilehash: 6dd82c786c30fb4f2ac2ae70f2df6810cfe5d6ad
+ms.sourcegitcommit: 75d710e3858f79ef601cd92e435a4a29dae0aba0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49923837"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50285619"
 ---
 # <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Installieren, Verwalten und Zuweisen von Berechtigungen für die Teams -Lern-App (private Vorschau)
 
@@ -32,7 +32,7 @@ Die Microsoft Teams -Lern-App (private Vorschau) versetzt Teams und Einzelperson
 
 Um die Teams -Lern-App (private Vorschau) einrichten zu können, müssen Sie:
 
--   Admin Center für Teams
+-   Teams Admin Center Admin
 -   Microsoft 365 Admin Center Admin Admin (ein globaler Administrator)
 
 ## <a name="manage-the-teams-learning-app-private-preview-in-the-teams-admin-center"></a>Verwalten der Teams -Learning-App (private Vorschau) im Teams Admin Center
@@ -49,10 +49,10 @@ Führen Sie die folgenden Schritte aus, um Einstellungen für die App zu verwalt
 
 2. Geben Sie **auf der Seite "Apps** verwalten" im Suchfeld "Lernen" ein, um nach der Teams -Lern-App zu suchen (private Vorschau). 
 
-   ![Seite "Apps verwalten" im Teams Admin Center mit suchfeld](media/learning-app-teams-manage-apps-page.png)
+   ![Seite "Apps verwalten" im Teams Admin Center mit dem Suchfeld](media/learning-app-teams-manage-apps-page.png)
 
 3. Auf der **Lernseite:**
-   1. Wählen **Sie unter "Status"** **die Option "Zum** Aktivieren der App zulässig" aus.
+   1. Wählen **Sie unter "Status"** die **Option "Zum** Aktivieren der App zulässig" aus.
    2. Wechseln Sie **auf der** Registerkarte "Einstellungen" im Abschnitt **"App-Einstellungen"** zum Microsoft 365 Admin Center, um Lerninhaltsquellen zu konfigurieren.
 
    ![Lernseite im Teams Admin Center mit Abschnitt "Status" und "App-Einstellungen"](media/learning-app-teams-learning-page.png)
@@ -70,7 +70,10 @@ Im Rahmen der privaten Vorschau wird die Teams -Learning-App (private Vorschau) 
 
 Die Administratoren für das Microsoft 365 Admin Center können Einstellungen im Zusammenhang mit der Teams -Lern-App (private Vorschau) verwalten und die Lerninhaltsquellen konfigurieren.
 
-Der Administrator wählt aus, welche Lerninhaltsquellen (z. B. LinkedIn Learning oder SharePoint) in der App verfügbar sein sollen. Der Administrator konfiguriert dann diese Quellen, um sicherzustellen, dass der Inhalt für die Suche und Ermittlung verfügbar ist und von den Mitarbeitern durchsucht werden kann, die die App verwenden.
+Der Administrator kann auswählen, welche zusätzlichen Inhaltsquellen für Lerninhalte (z. B. SharePoint oder unterstützte Inhaltsanbieterquellen von Drittanbietern) den Benutzern der App zur Verfügung stehen sollen. Der Administrator konfiguriert dann diese Quellen, um sicherzustellen, dass der Inhalt für die Suche und Ermittlung verfügbar ist und von den Mitarbeitern durchsucht werden kann, die die App verwenden.
+
+> [!NOTE]
+>  Benutzer melden sich bei Nicht-Microsoft- und LinkedIn Learning Pro-Lernergebnissen in einem Browser oder eingebetteten Viewer an. Für dieses konfigurierte Lernen gelten die separaten Lizenz-, Datenschutz- und Dienstbedingungen zwischen Ihrer Organisation und dem Drittanbieter und nicht die Lernbedingungen (Vorschau). Bevor Sie dieses Lernvideo im Lernbereich (Vorschau) auswählen, vergewissern Sie sich, dass für Ihre Organisation und Ihre Benutzer eine Vereinbarung verfügbar ist.
 
 ### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Konfigurieren von Einstellungen für die Lerninhaltsquellen für die App
 
@@ -113,7 +116,7 @@ Ordner-URLs können von jeder beliebigen SharePoint-Website in der Organisation 
  
 ### <a name="learning-service"></a>Lerndienst
 
-Der Lerndienst verwendet die bereitgestellten Ordner-URLs, um Metadaten aus allen in diesen Ordnern gespeicherten Inhalten zu erhalten. Innerhalb von 24 Stunden nach dem Angeben der Ordner-URL im zentralen Repository können Die Mitarbeiter innerhalb der App nach Unternehmensinhalten suchen und diese verwenden. Das Löschen von Inhalten aus dem Repository wird an diesem Punkt nicht unterstützt. Unbeabsichtigt angezeigte Inhalte können nur entfernt werden, indem im Microsoft 365 Admin Center eine neue URL für die SharePoint-Website angegeben wird.
+Der Lerndienst verwendet die bereitgestellten Ordner-URLs, um Metadaten aus allen Inhalten zu erhalten, die in diesen Ordnern gespeichert sind. Innerhalb von 24 Stunden nach dem Angeben der Ordner-URL im zentralen Repository können Die Mitarbeiter innerhalb der App nach Unternehmensinhalten suchen und diese verwenden. Das Löschen von Inhalten aus dem Repository wird an diesem Punkt nicht unterstützt. Unbeabsichtigt angezeigte Inhalte können nur entfernt werden, indem im Microsoft 365 Admin Center eine neue URL für die SharePoint-Website angegeben wird.
 
 ### <a name="configure-sharepoint-as-a-source"></a>Konfigurieren von SharePoint als Quelle
 
@@ -131,14 +134,14 @@ Diese Schritte müssen vom Microsoft 365-Administrator ausgeführt werden.
 
 4.  Eine SharePoint-Liste wird automatisch auf der bereitgestellten Website der Organisation erstellt. Wählen Sie im linken Navigationsbereich der SharePoint-Website die Option **"Inhaltsrepository für Lern-Apps" aus.** 
 
-   ![Linke Navigationsleiste in SharePoint mit dem Abschnitt "Inhaltsrepository der Lern-App"](media/learning-app-content-repository-nav.png)
+   ![Linke Navigation in SharePoint mit dem Abschnitt "Inhaltsrepository der Lern-App"](media/learning-app-content-repository-nav.png)
 
  
 5. Füllen Sie **auf der Seite "Inhaltsrepository** der Lern-App" die SharePoint-Liste mit URLs für die Lerninhaltsordner aus.
 
    1.   Wählen Sie **"Neu"** aus, um den **Bereich "Neues Element"** anzeigen. 
 
-   ![Learning App Content Repository page in SharePoint showing the New option](media/learning-app-content-repository-new.png)
+   ![Seite "Inhaltsrepository für Lern-Apps" in SharePoint mit der Option "Neu"](media/learning-app-content-repository-new.png)
  
    2.   Fügen Sie **im Bereich "Neues** Element" im Feld **"Titel"** einen Verzeichnisnamen Ihrer Wahl hinzu. Fügen Sie **im Feld "Ordner-URL"** die URL dem Lerninhaltsordner hinzu. Klicken Sie auf **Speichern**.
 

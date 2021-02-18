@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
-ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
+ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037801"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278555"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -77,7 +77,7 @@ Weitere Informationen finden Sie unter [Planen von Besprechungen mit "Uhrzeit fi
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 
-Benutzer des Microsoft Teams-Besprechungs-Add-Ins müssen sich mit moderner Authentifizierung bei Microsoft Teams anmelden. Wenn sich Benutzer nicht mit dieser Methode anmelden, können sie zwar den Microsoft Teams-Client verwenden, aber sie können keine Microsoft Teams-Onlinebesprechungen mithilfe des Outlook-Add-In planen. Dies können Sie mit einer der folgenden Methoden korrigieren:
+Benutzer des Microsoft Teams-Besprechungs-Add-Ins müssen sich mit moderner Authentifizierung bei Microsoft Teams anmelden. Wenn Benutzer diese Methode nicht zum Anmelden verwenden, können sie weiterhin den Teams-Client verwenden, aber keine Onlinebesprechungen [in Teams](https://www.microsoft.com/microsoft-teams/online-meetings) mit dem Outlook-Add-In planen. Dies können Sie mit einer der folgenden Methoden korrigieren:
 
 - Wenn die moderne Authentifizierung für Ihre Organisation nicht konfiguriert ist, sollten Sie sie konfigurieren.
 - Wenn die moderne Authentifizierung konfiguriert ist, aber die Benutzer den Vorgang im Dialogfeld abgebrochen haben, weisen Sie die Benutzer an, sich mit mehrstufiger Authentifizierung erneut anzumelden.
