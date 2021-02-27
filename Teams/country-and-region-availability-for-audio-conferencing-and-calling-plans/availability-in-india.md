@@ -24,28 +24,28 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
-ms.openlocfilehash: 7ec292a4d30db652df19a8e31c26d2bf5542a750
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
+ms.openlocfilehash: 745ab3de04c33e5679e372190572ab07b87a331d
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231144"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347796"
 ---
 # <a name="availability-in-india"></a>Verfügbarkeit in Indien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft keine Audiokonferenzen in Indien. Tata Communications bietet einen Dial-in-und Dial-Out-Service, der mit Microsoft Teams-Besprechungen kompatibel ist. Weitere Informationen finden Sie auf der [Website von Tata Communications](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/).   <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Chennai<li> Mumbai</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft audio conferencing in Indien nicht. TATA Communications bietet einen Einwahl- und Einwahldienst, der mit Microsoft Teams-Besprechungen kompatibel ist. Weitere Informationen finden Sie auf der [Website von TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Mumbai</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
-   
+
 ## <a name="phone-system"></a>Telefonsystem
 
 |**Feature**|**Details**|
@@ -54,33 +54,33 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
 |Anrufwarteschleifen  <br/> |Verfügbar  <br/> |
 |Voicemail  <br/> |Verfügbar  <br/> |
-   
+
 ## <a name="calling-plans"></a>Anrufpläne
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
 Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
-   
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Chennai <li>Mumbai<li>Andere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Andere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
-   
- Beachten Sie, dass Dienstnummern in Indien nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, lesen Sie [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+
+ Beachten Sie, dass in Indien Dienstnummern nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Ist Guthaben für Kommunikationen verfügbar?  <br/> |Nein  <br/> |
-   
+
 Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](../set-up-communications-credits-for-your-organization.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
@@ -88,6 +88,3 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
-
