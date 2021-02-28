@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Teams-Anzeigen
             href: devices/teams-displays.md
+          - name: Teams-Bereiche
+            href: devices/teams-panels.md
+          - name: Teams-Bereiche verwenden
+            href: devices/use-teams-panels.md
           - name: Teams-Telefone auf Teams-Anzeigen upgraden
             href: devices/upgrade-phones-to-displays.md
           - name: Bereitstellen von Teams-Telefonen und Teams-Anzeigen mit Intune
