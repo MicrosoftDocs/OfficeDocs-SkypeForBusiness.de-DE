@@ -1,5 +1,5 @@
 ---
-title: Tools für ein Upgrade von einer lokalen Skype for Business-Bereitstellung auf Teams
+title: Tools für das Upgrade von einer lokalen Skype for Business-Bereitstellung auf Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -17,30 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347846"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397540"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Tools für das Upgrade auf Teams &mdash; für IT-Administratoren
 
-In diesem Artikel werden Tools für das Upgrade auf Teams beschrieben. Dieser Artikel ist der dritte von mehreren, in denen Upgradekonzepte und Implementierungen für IT-Administratoren beschrieben werden.  
+In diesem Artikel werden Tools für das Upgrade von Skype for Business auf Teams beschrieben. 
 
-- [Übersicht](upgrade-to-teams-on-prem-overview.md)
-- [Upgrademethoden](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **Tools zum Verwalten Ihres Upgrades**   (Dieser Artikel)
-- [Zusätzliche Überlegungen für Organisationen mit lokalen Skype for Business-Funktionen](upgrade-to-teams-on-prem-considerations.md)
-- [Implementieren des Upgrades](upgrade-to-teams-on-prem-implement.md)
-- [Überlegungen zu Public Switched Telephone Network (PSTN)](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-Darüber hinaus werden in den folgenden Artikeln wichtige Upgradekonzepte und das Verhalten der Koexistenz beschrieben:
+Bevor Sie mit dem Upgrade beginnen, empfiehlt Microsoft die folgenden Artikel, in denen wichtige Upgradekonzepte und Verhalten der Koexistenz beschrieben werden:
 
 - [Koexistenz von Teams und Skype for Business](upgrade-to-teams-on-prem-coexistence.md)
 - [Koexistenzmodi – Referenz](migration-interop-guidance-for-teams-with-skype.md)
 - [Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
 
 ## <a name="tools-for-managing-the-upgrade"></a>Tools zum Verwalten des Upgrades
 
@@ -120,7 +112,7 @@ Beim Zuweisen des TeamsOnly-Modus auf Mandantenebene wird die Besprechungsmigrat
 
 ## <a name="related-links"></a>Verwandte Links
 
-[Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md) 
+[Koexistenzmodi – Referenz](migration-interop-guidance-for-teams-with-skype.md) 
 
 [Konfigurieren der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 

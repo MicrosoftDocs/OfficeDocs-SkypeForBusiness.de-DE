@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams-Panels unterstützten Features.
-ms.openlocfilehash: f694a45fda56fd58871e93a7a0e8a1e9373a67b5
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348050"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395337"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
 
@@ -134,5 +134,7 @@ Zum Verwalten Ihrer Teams Panels-Geräte wechseln Sie in der linken Navigationsl
 [Verwenden von Microsoft Teams-Panels](use-teams-panels.md)
 
 ## <a name="see-also"></a>Siehe auch
+
+[Microsoft Teams-Blog auf Teams-Panels](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Erste Schritte mit Teams-Panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)

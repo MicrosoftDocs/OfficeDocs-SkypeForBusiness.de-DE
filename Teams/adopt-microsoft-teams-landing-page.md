@@ -1,7 +1,7 @@
 ---
 title: Einführen von Microsoft Teams
 ms.reviewer: karuanag
-description: Informieren Sie sich über die verfügbaren Adoptions Ressourcen, die Ihnen beim Planen und Bereitstellen von Microsoft Teams in Ihrer Organisation helfen.
+description: Erfahren Sie mehr über die verfügbaren Einführungsressourcen, die Ihnen bei der Planung und Bereitstellung von Microsoft Teams in Ihrer Organisation helfen.
 ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
@@ -19,19 +19,19 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e731bbd4cd407b61de27db58d9b71b8b4f2c766
-ms.sourcegitcommit: 532205e5a3c28b44b86cd4d1376ebee9590b8266
+ms.openlocfilehash: a7d73cc376d0dbf09f6e6a72817b27eeff59e8dd
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48816095"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395316"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
 > [!NOTE]
 > Eine Übersicht über den Umstieg auf Remote Learning und Ressourcen für das Fernstudium, die Ihnen bei den ersten Schritten helfen, finden Sie auf der [Startseite für Remote Learning und Fernunterricht](https://www.microsoft.com/education/remote-learning).
 
-Wenn Sie ein kleines Unternehmen sind oder wenn Sie Microsoft Teams mit Chat, Teams & Kanälen und Besprechungen einführen möchten, verwenden Sie unsere ausführliche Anleitung [Erste Schritte](get-started-with-teams-quick-start.md), die darauf ausgelegt ist, Ihnen einen schnellen Einstieg zu ermöglichen. Wenn Sie eine große Organisation mit einer Hybrid-oder lokalen Skype for Business-Konfiguration sind, oder wenn Sie Sprachfeatures (wie Microsoft 365 oder Office 365-Anrufpläne oder das Telefonsystem) bereitstellen möchten, können Sie mit unseren Anleitungen für die ersten Schritte beginnen, doch Sie benötigen die folgenden zusätzlichen Anleitungen, um unter [umfassendere Einführungs Anleitungen](#deeper-adoption-guidance)zu suchen.
+Wenn Sie Teams ab Chat, Teams & Kanälen und Besprechungen rollouten [](get-started-with-teams-quick-start.md)möchten, verwenden Sie unsere vordefinierte Anleitung "Erste Schritte", mit der Sie schnell in den Start gehen können. Wenn Sie eine große Organisation mit einer Hybrid- oder lokalen Skype for Business-Konfiguration sind oder Sprachfeatures (z. B. Microsoft 365- oder Office 365-Anrufpläne oder Telefonsystem) rollouten möchten, können Sie mit unseren Anleitungen für erste Schritte beginnen, sie benötigen jedoch die nachstehenden zusätzlichen Anleitungen unter Einführungsleitfaden für tiefer greifende [Informationen.](#deeper-adoption-guidance)
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|

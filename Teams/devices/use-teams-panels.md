@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: In diesem Artikel finden Sie Anleitungen zur Verwendung von Teams Panel-Geräten.
-ms.openlocfilehash: 9ff2b9ec969336ada04ed7a872cf3c5d8ea358ab
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348070"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395327"
 ---
-# <a name="use-microsoft-teams-panels"></a>Verwenden von Microsoft Teams-Panels
+# <a name="how-to-use-microsoft-teams-panels"></a>Verwenden von Microsoft Teams-Panels
 
 Microsoft Teams-Panels sind kompakte digitale Anzeigegeräte, die direkt außerhalb Ihrer Besprechungsräume, in der Regel neben Eingängen, angebracht sind. Bei diesen Touchscreenpanels handelt es sich um dedizierte Microsoft Teams-Geräte, die auf einen Blick einen Überblick über Ihren Besprechungsraum und die geplante Besprechung bieten. Mit den lebendigen farblich codierten LED- und Startbildschirmanzeigen können Sie ermitteln, ob der Platz aus der Ferne verfügbar oder reserviert ist. Sie können Teams-Panels verwenden, um einen verfügbaren Besprechungsraum für eine Ad-hoc-Besprechung vor Ort zu reservieren.
 
@@ -63,7 +63,7 @@ Kachel | Beschreibung
 **1-Aktuelle Uhrzeit, Tag, Datum und Besprechungsraumdetails** | Zeigt die aktuelle Uhrzeit, den Tag, das Datum und den Namen des Besprechungsraums an. Der Name des Besprechungsraums ist der Name des Ressourcenkontos, das sich bei Panels angemeldet hat.
 **2-Besprechungsraumverfügbarkeit und Besprechungsdetails** | Gibt die Verfügbarkeit des Besprechungsraums an und zeigt Besprechungsdetails an. Weitere Informationen finden Sie unter Verfügbarkeit [des Besprechungsraums und Kachel "Besprechungsdetails".](#meeting-space-availability-and-meeting-details-tile)
 **3-Bevorstehender Kalender** | Zeigt den Besprechungsraumkalender und die Verfügbarkeit für bis zu 24 Stunden ab der aktuellen Stunde an. Scrollen Sie nach oben oder unten, um zu bestimmen, welche Zeitfenster verfügbar und welche reserviert sind.
-**4-Einstellungen** | Zeigt das Symbol "Einstellungen" an. Tippen Sie dazu, um den Bildschirm **Einstellungen zu** öffnen, um ein Problem zu melden oder verfügbare Geräteeinstellungen zu aktualisieren.
+**4-Einstellungen** | Zeigt das **Symbol Einstellungen** an. Tippen Sie auf das Gerät, um ein Problem zu melden oder verfügbare Geräteeinstellungen zu aktualisieren.
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>Kachel "Verfügbarkeit des Besprechungsraums" und "Besprechungsdetails"
 
@@ -223,4 +223,4 @@ In der **Kachel** "Anstehender Kalender" (unten rechts) auf der Startseite könn
 Nein, Sie können in Panels keinen Besprechungsraum für eine zukünftige Zeit reservieren. Die Startzeit ist immer die aktuelle Uhrzeit für eine Ad-hoc-Besprechung, die von Panels aus geplant wird.
 
 **Wie lange kann ich einen verfügbaren Besprechungsraum für eine Ad-hoc-Besprechung reservieren?**  
-Sie können einen verfügbaren Besprechungsraum reservieren, der von Ihrer aktuellen Zeit bis zur nächsten geplanten Besprechungszeit beginnt, oder bis zu maximal 24 Stunden ab der aktuellen Uhrzeit, unabhängig davon, welcher Zeitraum früher ist. Wenn die aktuelle Uhrzeit beispielsweise 10:00 Uhr ist und die nächste Besprechungsbeginnszeit 14:00 Uhr ist, können Sie den Besprechungsraum von 10:00 bis 14:00 Uhr reservieren.
+Sie können einen verfügbaren Besprechungsraum reservieren, der von Ihrer aktuellen Zeit bis zur nächsten geplanten Besprechungszeit beginnt, oder bis zu maximal 24 Stunden ab der aktuellen Stunde, unabhängig davon, welcher Zeitpunkt früher ist. Wenn die aktuelle Uhrzeit beispielsweise 10:00 Uhr ist und die nächste Besprechungsbeginnszeit 14:00 Uhr ist, können Sie den Besprechungsraum von 10:00 bis 14:00 Uhr reservieren.

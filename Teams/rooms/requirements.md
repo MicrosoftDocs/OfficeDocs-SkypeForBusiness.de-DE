@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über die Anforderungen an die Unterstützung von Microsoft Teams Rooms, einschließlich der Auswahl des geeigneten Geräts, Mikrofons, Lautsprechern, Kameras und Displays.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0bc0c1940f0df48c0fbc54454c4820fe1ec968de
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: fa2436d84ab3ddacc4b7c137aecafce000d26045
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347816"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397520"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -115,6 +115,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Camera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
+|Lenovo ThinkSmart Cam Camera|1.0.111.4|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rallye](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
