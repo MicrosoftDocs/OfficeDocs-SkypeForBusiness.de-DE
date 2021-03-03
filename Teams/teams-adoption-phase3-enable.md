@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Einführungsphase 3 – Skalieren
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Hier finden Sie eine Übersicht über die Schritte, die Sie unterstützen müssen, um die umfassende Aktivierung von Teams für Ihre Organisation zu unterstützen.
+description: Lesen Sie einen Überblick über die Schritte, die Sie zum Unterstützen der breitgefächerten Aktivierung von Teams für Ihre Organisation benötigen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,24 +21,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfccc3338589c6a90025024b373c917de58ebeee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 602d820b245b096a8c0f8470f08ba7fd9529d070
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904600"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806105"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams-Einführungsphase 3 – Skalieren
 
-In dieser Phase verwenden Sie Ihre Lernenden, talentierten Projektteams und Beziehungen zu Stakeholdern, Champions und Early Adopters, um die umfassende Aktivierung von Teams für Ihre Organisation zu unterstützen. Sie führen die folgenden Schritte aus, während Sie sich auf das weitere geschäftliche Engagement in Bezug auf die Verwendung von Microsoft Teams durch ihre Organisationen vorbereiten:
+In dieser Phase verwenden Sie Ihre Lernergebnisse, Ihr talentiertes Projektteam und die Beziehungen zu Projektbeteiligten, Champions und early adopters, um die breitgefächerte Aktivierung von Teams für Ihre Organisation zu unterstützen. Sie führen die folgenden Schritte aus, während Sie sich auf das fortgesetzte geschäftliche Engagement im Hinblick auf die Nutzung von Microsoft Teams in Ihrer Organisation vorbereiten:
 
-1. Definieren von Ergebnissen und Erfolgskennzahlen
-2. Wählen Sie Service Strategy aus.
-3. Stakeholder engagieren.
-4. Entwerfen und starten Sie eine Sensibilisierungskampagne.
+1. Definieren Sie Ergebnisse und Erfolgsmaßnahmen.
+2. Wählen Sie die Dienststrategie aus.
+3. Interagieren Sie die Projektbeteiligten.
+4. Entwerfen und starten Sie eine Informationskampagne.
 5. Entwerfen und starten Sie ein Schulungsprogramm.
-6. Grundlegendes zu Berichtstools
-7. Vorbereiten des laufenden geschäftlichen Engagements
-8. Vorbereiten der laufenden Dienst Integrität & Akzeptanz Bewertungen.
+6. Machen Sie sich mit Den Berichterstellungstools zu diesem Tool.
+7. Bereiten Sie sich auf ein fortlaufendes Geschäfts engagement vor.
+8. Bereiten Sie sich auf den laufenden Dienstzustand & Überprüfungen der Einführung vor.
 
-![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Definieren von Ergebnissen und Erfolg](teams-adoption-define-outcomes.md)
+![Symbol für den nächsten Schritt ](media/teams-adoption-next-icon.png) "Nächster Schritt: [Definieren von Ergebnissen und Erfolg"](teams-adoption-define-outcomes.md)

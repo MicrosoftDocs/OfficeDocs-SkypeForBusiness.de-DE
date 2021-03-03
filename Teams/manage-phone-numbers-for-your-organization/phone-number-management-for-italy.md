@@ -1,7 +1,7 @@
 ---
 title: Verwaltung von Telefonnummern für Italien
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,29 +18,28 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Italien für Microsoft Teams zu finden.
-ms.openlocfilehash: ea667b2211b221153ae5c66db1e87708f2e9cac4
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Italien für Microsoft Teams.
+ms.openlocfilehash: 08a472952cce420f65313be641b01dabf78e12c8
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361705"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196399"
 ---
 # <a name="phone-number-management-for-italy"></a>Verwaltung von Telefonnummern für Italien
 
-Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Italien für Microsoft Teams zu finden. 
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Italien für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer oder Dienstleistungen abrufen, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br>  [Neue Telefonnummern Anfrage für Italien (v. 5.0) (IT-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [Neue Telefonnummern Anfrage für Italien (v. 5.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). |
-|Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> | Dieses Formular herunterladen. <br/>[Letter of Authorization (LoA) für Italien (alle Nummern) (v. 5.0) (IT-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.5.0)-(it-it).pdf?raw=true) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Erstellen von Verzeichnisdienst Updates für Anrufe in Warteschlangen-oder automatische Telefonzentralen Nummern|Zum Hinzufügen oder Ändern von Rufnummern für die Anrufwarteschlange oder automatische Telefonzentrale laden Sie dieses [Verzeichnisdienst Formular für Italien (v. 1.0) (IT-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)herunter, füllen Sie es aus und [Senden Sie es an uns](mailto:ptneu@microsoft.com). |
-|Überprüfen der Dienstleistungscharta| Laden Sie die [Charta der Dienste für Italien (v. 1.0) (IT-IT)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)herunter, und lesen Sie Sie. |
-
+|Holen Sie sich neue Telefonnummern für Benutzer oder Dienste, die im Microsoft Teams Admin Center nicht aufgelistet sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br>  [Anforderung einer neuen Telefonnummer für Italien (v.5.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [Anforderung einer neuen Telefonnummer für Italien (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). |
+|Übertragen Sie uns Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Italien (alle Nummern) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
+|Ändern Sie die Nummer eines Benutzers in eine Servicenummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatischen Telefonwarteschleifennummern|Wenn Sie Rufnummern in der Anrufwarteschleife oder der automatischen Telefonkonferenz hinzufügen oder ändern möchten, laden Sie dieses Verzeichnisdienstformular für Italien [(v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)herunter, füllen Sie es aus, und senden Sie es an [uns.](mailto:ptneu@microsoft.com) |
+|Überprüfen des Servicecharts| Laden Sie die [Dienstleistungscharta für Italien (v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)herunter, und lesen Sie sie. |
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -50,5 +49,4 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
   
-[Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
- 
+[Haftungsausschluss für Notrufe](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

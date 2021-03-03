@@ -1,8 +1,8 @@
 ---
-title: Planen der anrufverwaltungsfunktionen in Skype for Business
+title: Planen von Anrufverwaltungsfunktionen in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,38 +15,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: Übersicht über unterstützte anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: e987f2c004c3ef5583a673a87f3b7acdb9f83ddf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Übersicht über die unterstützten Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: 506ffa9dca87544be8798f2bf98dc6a24cb2d7c9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803215"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825945"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planen der anrufverwaltungsfunktionen in Skype for Business
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planen von Anrufverwaltungsfunktionen in Skype for Business
 
-Übersicht über unterstützte anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP
+Übersicht über die unterstützten Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
 
-Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Skype for Business Server bietet die folgenden anrufverwaltungsfunktionen:
+Enterprise-VoIP A0 steuern, wie eingehende Anrufe geroutet und beantwortet werden. Skype for Business Server bietet die folgenden Anrufverwaltungsfunktionen:
 
-- **Park anrufen**: ermöglicht es sprach Benutzern, einen Anruf vorübergehend zu parken und ihn dann vom gleichen oder einem anderen Telefon abzunehmen.
+- **Anruf parken:** Ermöglicht Sprachbenutzern das vorübergehende Parken eines Anrufs und das anschließende Abrufen von demselben oder einem anderen Telefon aus.
 
-- **Gruppen Abholung**: ermöglicht es sprach Benutzern, Anrufe aufzunehmen, die für andere VoIP-Benutzer Klingeln, die für das Anrufen von Pickup-Gruppen zugewiesen sind.
+- **Gruppenannahme:** Ermöglicht Sprachbenutzern das Abrufen von Anrufen, die für andere Sprachbenutzer klingeln, die Anrufannahmegruppen zugewiesen sind.
 
-- **Reaktionsgruppe**: leitet eingehende Anrufe an Gruppen von Agents weiter, indem Sie Sammelanschlüsse oder Fragen und Antworten zu Interaktionen (Interactive Voice Response) verwenden.
+- **Reaktionsgruppe:** Leitet eingehende Anrufe mithilfe von Sammel sammelgruppen oder interaktiven Sprachantworten (Interactive Voice Response, IVR) an Gruppen von Agents weiter.
 
-- **Ansage**: Gibt eine Nachricht für Anrufe wieder, die über eine nicht zugewiesene Nummer eingehen, leitet den Anruf weiter oder beides.
+- **Ansage**: Zur Wiedergabe einer Nachricht für Anrufe, die über eine nicht zugewiesene Nummer eingehen, zur Weiterleitung des Anrufs oder beides.
 
-Wenn Sie die Bereitstellung von Enterprise-VoIP planen, können Sie einige oder alle dieser Anrufverwaltungsfunktionen implementieren.
+Wenn Sie planen, Enterprise-VoIP bereitstellen, können Sie eine oder alle dieser Anrufverwaltungsfeatures implementieren.
 
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Planning for Call Parking](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
+- [Planen des Parkens von Anrufen](https://technet.microsoft.com/library/e463c4ba-b7e4-42e5-98f0-0c8b842206dd.aspx)
 
-- [Planning for Group Pickup](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
+- [Planen der Gruppenannahme](https://technet.microsoft.com/library/6d306466-778f-4c6a-9b6a-35dcd0d1811e.aspx)
 
-- [Planning for Response Groups](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
+- [Planen von Reaktionsgruppen](https://technet.microsoft.com/library/7c10ce08-0068-4b22-8ecc-33e94811c900.aspx)
 
-- [Planning for Announcements](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
+- [Planen von Ankündigungen](https://technet.microsoft.com/library/eb9f5420-0222-4fe0-81a7-9d249e56cd84.aspx)
 
 

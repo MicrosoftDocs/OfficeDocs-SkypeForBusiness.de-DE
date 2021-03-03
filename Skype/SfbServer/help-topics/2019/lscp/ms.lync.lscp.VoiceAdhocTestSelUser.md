@@ -1,8 +1,8 @@
 ---
 title: Auswählen von Enterprise-VoIP-Benutzern
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
-description: Im Dialogfeld Enterprise-VoIP-Benutzer auswählen können Sie nach Benutzern suchen, die für Enterprise-VoIP aktiviert sind. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Benutzers ein, den Sie suchen möchten, und klicken Sie dann auf suchen. Wenn Sie einen Benutzer auswählen möchten, klicken Sie in der Liste Suchergebnisse auf den Benutzer, und klicken Sie dann auf OK. Wenn Sie den gesuchten Benutzer nicht finden können, ist dieser Benutzer möglicherweise nicht für Enterprise-VoIP aktiviert.
-ms.openlocfilehash: 657370b80b3fb538e39a46aa73266c727ad8d3ce
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Verwenden Sie das Dialogfeld Enterprise-VoIP Benutzer auswählen, um Benutzer zu finden, die für die Enterprise-VoIP. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Kontakts ein, nach dem gesucht werden soll, und klicken Sie auf Suchen. Zur Auswahl eines Benutzers klicken Sie in den Suchergebnissen auf den Benutzer und anschließend auf OK. Wenn Sie den gesuchten Benutzer nicht finden können, ist dieser Benutzer möglicherweise nicht für die Enterprise-VoIP.
+ms.openlocfilehash: 5b554bfbf964d1fdb7069b2bc6b76d12583df414
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797872"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807945"
 ---
 # <a name="select-enterprise-voice-users"></a>Auswählen von Enterprise-VoIP-Benutzern
  
-Im Dialogfeld **Enterprise-VoIP-Benutzer auswählen** können Sie nach Benutzern suchen, die für Enterprise-VoIP aktiviert sind. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Benutzers ein, den Sie suchen möchten, und klicken Sie dann auf **Suchen**. Wenn Sie einen Benutzer auswählen möchten, klicken Sie in der Liste Suchergebnisse auf den Benutzer, und klicken Sie dann auf **OK**. Wenn Sie den gesuchten Benutzer nicht finden können, ist dieser Benutzer möglicherweise nicht für Enterprise-VoIP aktiviert. 
+Verwenden Sie **das Dialogfeld Enterprise-VoIP Benutzer** auswählen, um Benutzer zu finden, die für die Enterprise-VoIP. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Kontakts ein, nach dem gesucht werden soll, und klicken Sie auf **Suchen**. Zur Auswahl eines Benutzers klicken Sie in den Suchergebnissen auf den Benutzer und anschließend auf **OK**. Wenn Sie den gesuchten Benutzer nicht finden können, ist dieser Benutzer möglicherweise nicht für die Enterprise-VoIP. 
   
 > [!NOTE]
-> Wenn Sie alle für Enterprise-VoIP aktivierten Benutzer abrufen möchten, geben Sie im Suchfeld nichts ein. Sie können auch alle Benutzer finden, deren Anzeigenamen oder SIP-Adressen mit einer bestimmten Zeichenfolge beginnen. Wenn Sie beispielsweise nach allen Benutzern suchen möchten, deren SIP-Adresse mit Ken beginnt, geben Sie SIP: Ken ein. Dadurch werden Benutzer wie SIP:kenmyer@fabrikam.com, SIP:kenkwok. fabrikam. com und SIP:kenmallit@fabrikam.com zurückgegeben. 
+> Wenn Sie alle benutzer abrufen möchten, Enterprise-VoIP aktiviert sind, geben Sie nichts in das Suchfeld ein. Sie können auch nach allen Benutzern suchen, deren Anzeigenamen oder SIP-Adressen mit einer bestimmten Zeichenfolge beginnen. Beispiel: Geben Sie "sip:ken" ein, um nach allen Benutzern zu suchen, deren SIP-Adresse mit der Zeichenfolge "ken" beginnt. Bei dieser Suche werden z. B. die Benutzer sip:kenmyer@fabrikam.com, sip:kenkwok.fabrikam.com und sip:kenmallit@fabrikam.com zurückgegeben. 
   
  
   

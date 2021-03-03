@@ -1,8 +1,8 @@
 ---
-title: Enterprise Voice (Planning Tool)
+title: Enterprise-VoIP (Planning Tool)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: Mit Enterprise-VoIP bietet Skype for Business Server 2015 ein eigenständiges VoIP-Angebot (Voice over Internet Protocol) zum verbessern oder ersetzen herkömmlicher PBX-Systeme (Private Branch Exchange). Enterprise-VoIP-Benutzer können Kollegen im VoIP-Netzwerk oder in der Telefonanlage Ihrer Organisation anrufen, und Sie können herkömmliche Telefonnummern außerhalb Ihrer Organisation anrufen. Die Enterprise-VoIP-Lösung umfasst allgemeine Anruffunktionen wie Answer, Forward, Transfer, halten, umleiten, freigeben und Parken sowie erweiterte 9-1-1 (E9-1-1)-Anrufe (E9-1-1 ist nur in den Vereinigten Staaten verfügbar.) Enterprise-VoIP unterstützt auch eine breite Palette an aktuellen und älteren IP-und USB-Geräten.
-ms.openlocfilehash: edb2485fc8519da7b2b6fc2dabab27219e3b6020
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Mit Enterprise-VoIP bietet Skype for Business Server 2015 ein eigenständiges VoIP(Voice over Internet Protocol)-Angebot, um herkömmliche Nebenstellenanlagen (Private Branch Exchange, PBX) zu erweitern oder zu ersetzen. Enterprise-VoIP können Kollegen im VoIP-Netzwerk oder der Nebenstellenanlage Ihrer Organisation anrufen, und sie können herkömmliche Telefonnummern außerhalb Ihrer Organisation anrufen. Die Enterprise-VoIP-Lösung umfasst allgemeine Anruffunktionen wie Antworten, Weiterleiten, Weiterleiten, Halten, Umleitung, Freigabe und Parken sowie E9-1-1-Anrufe (E9-1-1) (E9-1-1 ist nur in den USA verfügbar). Enterprise-VoIP unterstützt auch eine vielzahl aktueller und älterer IP- und USB-Geräte.
+ms.openlocfilehash: ec06d38e52278057de08e022be6008b88c59b2d3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809803"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800065"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
+# <a name="enterprise-voice-planning-tool"></a>Enterprise-VoIP (Planning Tool)
  
-Mit Enterprise-VoIP bietet Skype for Business Server 2015 ein eigenständiges VoIP-Angebot (Voice over Internet Protocol) zum verbessern oder ersetzen herkömmlicher PBX-Systeme (Private Branch Exchange). Enterprise-VoIP-Benutzer können Kollegen im VoIP-Netzwerk oder in der Telefonanlage Ihrer Organisation anrufen, und Sie können herkömmliche Telefonnummern außerhalb Ihrer Organisation anrufen. Die Enterprise-VoIP-Lösung umfasst allgemeine Anruffunktionen wie Answer, Forward, Transfer, halten, umleiten, freigeben und Parken sowie erweiterte 9-1-1 (E9-1-1)-Anrufe (E9-1-1 ist nur in den Vereinigten Staaten verfügbar.) Enterprise-VoIP unterstützt auch eine breite Palette an aktuellen und älteren IP-und USB-Geräten.
+Mit Enterprise-VoIP bietet Skype for Business Server 2015 ein eigenständiges VoIP(Voice over Internet Protocol)-Angebot, um herkömmliche Nebenstellenanlagen (Private Branch Exchange, PBX) zu erweitern oder zu ersetzen. Enterprise-VoIP können Kollegen im VoIP-Netzwerk oder der Nebenstellenanlage Ihrer Organisation anrufen, und sie können herkömmliche Telefonnummern außerhalb Ihrer Organisation anrufen. Die Enterprise-VoIP-Lösung umfasst allgemeine Anruffunktionen wie Antworten, Weiterleiten, Weiterleiten, Halten, Umleitung, Freigabe und Parken sowie E9-1-1-Anrufe (E9-1-1) (E9-1-1 ist nur in den USA verfügbar). Enterprise-VoIP unterstützt auch eine vielzahl aktueller und älterer IP- und USB-Geräte.
   
-Weitere Informationen zur Planung von Enterprise-VoIP finden Sie unter [Planen von Enterprise-VoIP in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Weitere Informationen zum Bereitstellen eines eigenständigen Vermittlungsservers finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Weitere Informationen zum Planen von Enterprise-VoIP finden Sie unter ["Plan for Enterprise-VoIP in Skype for Business Server 2015".](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) Weitere Informationen zum Bereitstellen eines eigenständigen Vermittlungsservers finden Sie unter Bereitstellen eines Vermittlungsservers [im Topologie-Generator in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

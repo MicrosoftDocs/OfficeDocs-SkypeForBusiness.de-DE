@@ -1,8 +1,8 @@
 ---
-title: Disaster Recovery des Front-End-Pools in Skype for Business Server
+title: Notfallwiederherstellung für Front-End-Pools in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,93 +12,93 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: Für Disaster Recovery bietet Skype for Business Server Pool-Kopplung mit Failover für den Fall, dass ein Pool ausfällt.
-ms.openlocfilehash: cacc1609094cba06c311a40f2502b4453013941e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Für die Notfallwiederherstellung bietet Skype for Business Server die Poolpaarung mit einem Failover für den Fall, dass ein Pool ausfallt.
+ms.openlocfilehash: d77a0d56c7a3e3d80c6e735fd6eff178606f667a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815943"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802915"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Disaster Recovery des Front-End-Pools in Skype for Business Server
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Notfallwiederherstellung für Front-End-Pools in Skype for Business Server
  
-Für Disaster Recovery bietet Skype for Business Server Pool-Kopplung mit Failover für den Fall, dass ein Pool ausfällt.
+Für die Notfallwiederherstellung bietet Skype for Business Server die Poolpaarung mit einem Failover für den Fall, dass ein Pool ausfallt.
   
-Für die robustesten Disaster Recovery-Optionen in Skype for Business Server stellen Sie Paare von Front-End-Pools auf zwei geografisch verteilten Websites bereit. Jeder Standort verfügt über einen Front-End-Pool, für den es einen entsprechenden Front-End-Pool am anderen Standort gibt. Beide Standorte sind aktiv, und der Sicherungsdienst ermöglicht die Datenreplikation in Echtzeit, damit die Pools synchronisiert bleiben. Weitere Informationen finden Sie unter [Bereitstellen gekoppelter Front-End-Pools für Disaster Recovery in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) , wenn Sie die Kopplung von Front-End-Pools implementieren möchten.
+Für die robustesten Notfallwiederherstellungsoptionen in Skype for Business Server stellen Sie Front-End-Poolspaare an zwei geografisch verteilten Standorten zur Verfügung. Jeder Standort verfügt über einen Front-End-Pool, der mit einem entsprechenden Front-End-Pool am anderen Standort gekoppelt ist. Beide Standorte sind aktiv, und der Sicherungsdienst bietet eine Datenreplikation in Echtzeit, um die Pools synchron zu halten. Informationen [zum Bereitstellen von Front-End-Poolpaaren](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) für die Notfallwiederherstellung in Skype for Business Server finden Sie, wenn Sie die Front-End-Poolpaarung implementieren möchten.
   
-![Zeigt Front-End-Pools an zwei verschiedenen Standorten, die miteinander gepaart sind](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Zeigt Front-End-Pools an zwei unterschiedlichen Standorten, die miteinander gekoppelt sind](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Falls der Pool an einem Standort ausfällt, können Sie für die Benutzer ein Failover von diesem Pool auf den Pool am anderen Standort vornehmen, von dem dann für alle Benutzer in beiden Pools Dienste bereitgestellt werden. Für die Kapazitätsplanung sollte bei einem Notfall jeder Pool in der Lage sein, die Arbeitsauslastung aller Benutzer in beiden Pools zu bewältigen.
+Wenn der Pool an einem Standort ausfällt, können Sie ein Failover der Benutzer von diesem Pool zum Pool am anderen Standort, der dann alle Benutzer in beiden Pools bedient. Für die Kapazitätsplanung sollten Sie jeden Pool so entwerfen, dass er die Arbeitslast aller Benutzer in beiden Pools im Notfall bewältigen kann.
   
-Zwei Rechenzentren, die die als Paar bereitgestellten Front-End-Pools enthalten, können beliebig weit voneinander entfernt stehen. Wir empfehlen die Verwendung zweier Rechenzentren in derselben Weltregion mit Hochgeschwindigkeitsverbindung. 
+Zwei Rechenzentren mit front-End-Pools, die miteinander gekoppelt sind, können einen beliebigen Abstand voneinander haben. Es wird empfohlen, zwei Rechenzentren in derselben Weltregion mit Hochgeschwindigkeitsverbindungen zu koppeln. 
   
-Die Verwendung zweier Rechenzentren in verschiedenen Weltregionen ist zwar möglich, führt jedoch u. U. zu größeren Datenverlusten aufgrund von Wartezeiten bei der Datenreplikation.
+Es ist möglich, zwei Rechenzentren in allen Weltregionen zu haben, kann jedoch aufgrund der Latenz bei der Datenreplikation zu einem höheren Datenverlust führen, wenn es zu einem Notfall kommt.
   
-Beachten Sie bei der Planung, welche Pools als Paar bereitgestellt werden, dass nur die folgenden Paarungen unterstützt werden:
+Wenn Sie planen, welche Pools gekoppelt werden sollen, müssen Sie berücksichtigen, dass nur die folgenden Paarungen unterstützt werden:
   
 - Enterprise Edition-Pools können nur mit anderen Enterprise Edition-Pools gepaart werden. Entsprechend können Standard Edition-Pools nur mit anderen Standard Edition-Pools gepaart werden.
     
-- Physische Pools können nur mit anderen physischen Pools gepaart werden. Entsprechend können virtuelle Pools nur mit anderen virtuellen Pools gepaart werden.
+- Physische Pool können nur mit andere physischen Pools gepaart werden. Entsprechend können virtuelle Pools nur mit anderen virtuellen Pools gepaart werden.
     
-- Gepaarte Pools müssen unter demselben grundlegenden Betriebssystem laufen.
+- Pools, die gekoppelt sind, müssen das gleiche Basisbetriebssystem ausführen.
     
-Eine Paarung zweier Pools, die nicht diesen Empfehlungen entspricht, wird weder durch den Topologie-Generator noch durch die Topologieüberprüfung verhindert. Der Topologie-Generator lässt z. B. die Paarung eines Enterprise Edition-Pools mit einem Standard Edition-Pool zu. Diese Art von Paarung wird jedoch nicht unterstützt.
+Das Paaren zweier Pools, das nicht diesen Empfehlungen entspricht, wird weder durch den Topologie-Generator noch durch die Topologieüberprüfung verhindert. Der Topologie-Generator lässt z. B. die Paarung eines Enterprise Edition-Pools mit einem Standard Edition-Pool zu. Diese Paarungstypen werden jedoch nicht unterstützt.
   
-## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Backup-Registrar-Beziehungen und Survivable Branch-Appliances
+## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Sicherungsregistrierungsbeziehungen und Survivable Branch Appliances
 
-Neben der Notfallwiederherstellung dienen die verbundenen Pools als Sicherungsregistrierungsstellen füreinander. Jeder Pool kann die Sicherung für nur einen anderen Front-End-Pool sein.
+Neben der Notfallwiederherstellung dienen zwei paarte Pools als Sicherungsregistrierungsstellen füreinander. Jeder Pool kann die Sicherung nur für einen anderen Front-End-Pool sein.
   
-Auch wenn Beziehungen von Sicherungsregistrierungsstellen zwischen zwei Front-End-Pools 1:1 und symmetrisch sein müssen, kann jeder Front-End-Pool auch eine Sicherungsregistrierung für eine Reihe von Survivable Branch Appliances sein.
+Auch wenn sicherungsbeziehungen zwischen zwei Front-End-Pools 1:1 und symmetrisch sein müssen, kann jeder Front-End-Pool dennoch auch die Sicherungsregistrierung für eine beliebige Anzahl von Survivable Branch Appliances sein.
   
-Beachten Sie, dass Skype for Business die Notfallwiederherstellung für Benutzer auf einer Survivable Branch Appliance unterstützt. Wenn ein Front-End-Pool ausfällt, der als Sicherung für eine Survivable Branch Appliance dient, werden die bei der Survivable Branch Appliance angemeldeten Benutzer in den Ausfallsicherheitsmodus versetzt, selbst nachdem die Benutzer auf dem Front-End-Pool auf den Backup-Front-End-Pool verschoben wurden.
+Beachten Sie, dass Skype for Business die Unterstützung für die Notfallwiederherstellung nicht auf Benutzer aus einer Survivable Branch Appliance ausd verlängert. Wenn ein Front-End-Pool, der als Sicherung für eine Survivable Branch Appliance dient, ausbleief, wechseln Benutzer, die bei der Survivable Branch Appliance angemeldet sind, in den Ausfallsicherheitsmodus, obwohl benutzer, die im Front-End-Pool gespeichert sind, auf den Front-End-Sicherungspool umgeschaltet werden.
   
-## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Wiederherstellungsdauer bei einem Failover und Failback eines Pools
+## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>Wiederherstellungszeit für Poolfailover und Poolf failback
 
-Bei Pool-Failover und Pool-Failback beträgt das Engineering-Ziel für das Wiederherstellungszeitziel (RTO) 15-20 Minuten. Dies ist der Zeitpunkt, zu dem ein Failover erfolgen muss, nachdem Administratoren festgestellt haben, dass ein Notfall aufgetreten ist, und die Failoververfahren gestartet werden. Es umfasst nicht die Zeit, die Administratoren zur Beurteilung der Situation und zur Entscheidungsfindung haben, und auch nicht die Zeit, die Benutzer sich nach Abschluss des Failovers erneut anmelden müssen.
+Bei Poolfailover und Poolf failback beträgt das Entwicklungsziel für die Wiederherstellungszeit (Recovery Time Objective, RTO) 15 bis 20 Minuten. Dies ist die Zeit, die für das Failover erforderlich ist, nachdem Administratoren festgestellt haben, dass es zu einem Notfall gekommen ist, und die Failoverprozeduren gestartet haben. Es umfasst weder die Zeit, die Administratoren zum Bewerten der Situation und zum Treffen einer Entscheidung haben, noch die Zeit, die Benutzer sich nach Abschluss des Failovers erneut anmelden müssen.
   
-Für Poolfailover und Poolfailbacks liegt das Entwicklungsziel für das Recovery Time Objective (RTO) bei 5 Minuten. Dies definiert die Zeitspanne, in der Daten aufgrund des Notfalls und aufgrund der Replikationswartezeit des Sicherungsdienstes verloren gehen können. Wenn beispielsweise ein Pool um 10:00 Uhr herunterfällt und die RPO 5 Minuten beträgt, werden die Daten in den Pool zwischen 9:55 Uhr geschrieben. und 10:00 A. M. möglicherweise nicht in den Backup-Pool repliziert und gehen verloren.
+Bei Poolfailover und Poolf failback beträgt das Engineeringziel für den Wiederherstellungspunkt (Recovery Point Objective, RPO) 5 Minuten. Dies definiert die Zeitspanne, in der Daten aufgrund des Notfalls und aufgrund der Replikationswartezeit des Backupdienstes verloren gehen können. Wenn beispielsweise ein Pool um 10:00 Uhr ausgeht und das RPO 5 Minuten beträgt, werden daten zwischen 9:55 Uhr in den Pool geschrieben. und 10:00 Uhr wurden möglicherweise nicht in den Sicherungspool repliziert und gehen verloren.
   
-Bei allen RTO-und RPO-Nummern in diesem Dokument wird davon ausgegangen, dass sich die beiden Rechenzentren innerhalb desselben Welt Bereichs mit hoch Geschwindigkeits Transporten mit niedriger Latenz zwischen den beiden Standorten befinden. Diese Nummern werden für einen Pool mit 40.000-aktiven Benutzern und 200.000-Benutzern, die für Skype for Business aktiviert sind, in Bezug auf ein vordefiniertes Benutzermodell gemessen, bei dem es bei der Datenreplikation keinen Rückstand gibt. Sie unterliegen Änderungen auf der Grundlage von Leistungstests und-Validierungen.
+Bei allen RTO- und RPO-Nummern in diesem Dokument wird davon ausgegangen, dass sich die beiden Rechenzentren in derselben Weltregion befinden, und dass sich der Transport mit hoher Geschwindigkeit und geringer Latenz zwischen den beiden Standorten befindet. Diese Zahlen werden für einen Pool mit 40.000 gleichzeitig aktiven Benutzern und 200.000 für Skype for Business aktivierten Benutzern im Hinblick auf ein vordefiniertes Benutzermodell gemessen, bei dem bei der Datenreplikation kein Rückstau besteht. Sie können sich basierend auf Leistungstests und Überprüfungen ändern.
   
 ## <a name="central-management-store-failover"></a>Failover des zentralen Verwaltungsspeichers
 
-Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu Servern und Diensten in Ihrer Bereitstellung. Jede Skype for Business Server-Bereitstellung umfasst einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pools gehostet wird.
+Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu den Servern und Diensten in Ihrer Bereitstellung. Jede Skype for Business Server-Bereitstellung umfasst einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pools gehostet wird.
   
-Wenn Sie den Pool koppeln, der den zentralen Verwaltungsspeicher hostet, wird im Backup-Pool eine Datenbank des zentralen Speichers für den Sicherungs-Manager eingerichtet. Eine der beiden zentralen Verwaltungsspeicher Datenbanken ist zu einem beliebigen Zeitpunkt aktiv, und die andere ist ein Standbymodus. Der Inhalt wird vom Sicherungsdienst aus der aktiven Datenbank in den Standbymodus repliziert.
+Wenn Sie den Pool koppeln, der den zentralen Verwaltungsspeicher hostet, wird im Sicherungspool eine Datenbank des zentralen Sicherungsspeichers eingerichtet. Zu jedem Zeitpunkt ist eine der beiden zentralen Verwaltungsspeicherdatenbanken aktiv, die andere ist standby. Der Inhalt wird vom Sicherungsdienst aus der aktiven Datenbank in den Standbymodus repliziert.
   
-![Zeigt zwei Front-End-Pools, einen mit dem aktiven CMS-Speicher und den anderen mit dem passiven CMS-Sicherungsspeicher](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![Zeigt zwei Front-End-Pools an, einen mit dem aktiven UND den anderen mit dem passiven Sicherungs-CMS-Speicher.](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
-Während eines Poolfailovers, von dem die Pools betroffen sind, die den zentralen Verwaltungsspeicher hosten, müssen Sie den zentralen Verwaltungsspeicher ändern, bevor Sie das Failover für den Front-End-Pool durchführen.
+Während eines Poolfailovers, an dem der Pool mit dem zentralen Verwaltungsspeicher ausgeführt wird, müssen Sie ein Failover des zentralen Verwaltungsspeichers ausführen, bevor Sie ein Failover für den Front-End-Pool ausführen.
   
-Nach der Behebung des Notfalls ist es nicht erforderlich, einen Failback des zentralen Verwaltungsspeichers durchzuführen. Der zentrale Verwaltungsspeicher kann in dem Pool bleiben, zu dem er geändert wurde.
+Nach der Reparatur des Notfalls muss kein Fail back für den zentralen Verwaltungsspeicher mehr erforderlich sein. Der zentrale Verwaltungsspeicher kann in dem Pool verbleiben, für den sie einen Fehler auftrat.
   
-Die Entwicklungsziele für den zentralen Verwaltungsspeicher sind 5 Minuten für die Wiederherstellungsdauer (Recovery Time Objective, RTO) und 5 Minuten für den Wiederherstellungspunkt (Recovery Point Objective, RPO).
+Die Technischen Ziele für das Failover des zentralen Verwaltungsspeichers sind 5 Minuten für die Wiederherstellungszeit (Recovery Time Objective, RTO) und 5 Minuten für das Ziel des Wiederherstellungspunkts (Recovery Point Objective, RPO).
   
-## <a name="front-end-pool-pairing-data-security"></a>Datensicherheit beim Bilden von Front-End-Poolpaaren
+## <a name="front-end-pool-pairing-data-security"></a>Datensicherheit für die Front-End-Poolpaarung
 
-Der Sicherungsdienst überträgt kontinuierlich Benutzerdaten und Konferenzinhalte zwischen zwei gepaarten Front-End-Pools. Zu den Benutzerdaten gehören SIP-URIs von Benutzern sowie Konferenzpläne, Kontaktlisten und Einstellungen. Zu Konferenzinhalten gehören hochgeladene Microsoft PowerPoint-Präsentationen sowie in Konferenzen genutzte Whiteboards.
+Der Sicherungsdienst überträgt kontinuierlich Benutzerdaten und Konferenzinhalte zwischen zwei gekoppelten Front-End-Pools. Die Benutzerdaten enthalten BENUTZER-SIP-URIs sowie Konferenzzeitpläne, Kontaktlisten und Einstellungen. Konferenzinhalte umfassen Microsoft PowerPoint-Uploads sowie Whiteboards, die in Konferenzen verwendet werden.
   
-Vom Quellpool werden die Daten aus dem lokalen Speicher exportiert, gezippt und zum Zielpool übertragen, wo sie entzippt und in den lokalen Speicher importiert werden. Der Sicherungsdienst geht davon aus, dass die Kommunikationsverbindung zwischen den beiden Rechenzentren innerhalb des Unternehmensnetzwerks besteht, das vor dem Internet geschützt ist. Daher werden die übertragenen Daten nicht zwischen den zwei Rechenzentren verschlüsselt und auch nicht innerhalb eines sicheren Protokolls, etwa HTTPS, nativ verschlüsselt. Daher ist ein man-in-the-Middle-Angriff durch internes Personal innerhalb des Unternehmensnetzwerks möglich.
+Aus dem Quellpool werden diese Daten aus dem lokalen Speicher exportiert, gezippt und dann in den Zielpool übertragen, wo sie entzippt und in den lokalen Speicher importiert werden. Der Sicherungsdienst geht davon aus, dass sich die Kommunikationsverbindung zwischen den beiden Rechenzentren innerhalb des Unternehmensnetzwerks befindet, das vor dem Internet geschützt ist. Die übertragenen Daten zwischen den beiden Rechenzentren werden nicht verschlüsselt, und die Daten sind auch nicht systemintehativ in einem sicheren Protokoll wie HTTPS gekapselt. Daher ist ein Man-in-the-Middle-Angriff von internen Mitarbeitern innerhalb des Unternehmensnetzwerks möglich.
   
-Alle Unternehmen, die Skype for Business Server in mehreren Rechenzentren bereitstellen und das Disaster Recovery-Feature verwenden, müssen sicherstellen, dass der Datenverkehr zwischen Rechenzentren durch sein Unternehmens Intranet geschützt ist. Unternehmen, die ihren Datenverkehr vor internen Angriffen schützen möchten, müssen die Kommunikationsverbindungen zwischen den Rechenzentren schützen. Dies ist eine standardmäßige Voraussetzung, die auch viele andere Arten von vertraulichen Unternehmensdaten schützt, die zwischen Rechenzentren übertragen werden.
+Jedes Unternehmen, das Skype for Business Server über mehrere Rechenzentren hinweg bereitstellen und die Notfallwiederherstellungsfunktion verwendet, muss sicherstellen, dass der Datenverkehr zwischen Rechenzentren durch das Unternehmensintranet geschützt wird. Unternehmen, die sich um internen Angriffsschutz kümmern, müssen die Kommunikationsverbindungen zwischen den Rechenzentren sichern. Dies ist eine Standardanforderung, die auch viele andere Typen vertraulicher Unternehmensdaten unterstützt, die zwischen Rechenzentren übertragen werden.
   
-Das Risiko von Man-in-the-Middle-Angriffen innerhalb des Unternehmensnetzwerks besteht zwar, doch ist es im Vergleich zur Gefährdung des Datenverkehrs im Internet relativ begrenzt. Insbesondere die Benutzerdaten, die vom Sicherungsdienst verfügbar gemacht werden (z. B. SIP-URIs), sind für alle Mitarbeiter im Unternehmen über andere Mittel wie etwa das globale Adressbuch oder andere Verzeichnissoftware allgemein verfügbar. Daher sollte der Schwerpunkt auf dem Schutz des WANs zwischen den beiden Rechenzentren liegen, wenn der Sicherungsdienst zum Kopieren von Daten zwischen einem Poolpaar verwendet wird.
+Das Risiko von Man-in-the-Middle-Angriffen innerhalb des Unternehmensnetzwerks besteht zwar, doch ist es im Vergleich zur Gefährdung des Datenverkehrs im Internet relativ begrenzt. Insbesondere die vom Sicherungsdienst verfügbar gemachten Benutzerdaten (z. B. SIP-URIs) sind im Allgemeinen für alle Mitarbeiter im Unternehmen über andere Mittel verfügbar, z. B. das globale Adressbuch oder andere Verzeichnissoftware. Daher sollte der Schwerpunkt auf der Sicherung des WAN zwischen den beiden Rechenzentren liegen, wenn der Sicherungsdienst zum Kopieren von Daten zwischen den beiden Paarpools verwendet wird.
   
-### <a name="mitigating-security-risks"></a>Minimieren von Sicherheitsrisiken
+### <a name="mitigating-security-risks"></a>Minderung von Sicherheitsrisiken
 
-Sie haben viele Möglichkeiten, den Sicherheitsschutz für den Backup-Service-Datenverkehr zu verbessern. Dies reicht vom Einschränken des Zugriffs auf die Rechenzentren bis zum Sichern des WAN-Transports zwischen den beiden Rechenzentren. In den meisten Fällen verfügen Unternehmen, die Skype for Business Server einsetzen, möglicherweise bereits über die erforderliche Sicherheitsinfrastruktur. Für Unternehmen, die nach Anleitungen suchen, bietet Microsoft eine Lösung als Beispiel für die Erstellung einer sicheren IT-Infrastruktur. Ausführliche Informationen finden Sie [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544)unter. 
+Es gibt viele Möglichkeiten, den Sicherheitsschutz für den Sicherungsdienstdatenverkehr zu verbessern. Dies reicht von der Einschränkung des Zugriffs auf die Rechenzentren bis zum Sichern des WAN-Transports zwischen den beiden Rechenzentren. In den meisten Fällen verfügen Unternehmen, die Skype for Business Server bereitstellen, möglicherweise bereits über die erforderliche Sicherheitsinfrastruktur. Für Unternehmen, die Anleitungen suchen, bietet Microsoft eine Lösung als Beispiel für die Erstellung einer sicheren IT-Infrastruktur. Weitere Informationen finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544) . 
   
-Wir implizieren nicht, dass dies die einzige Lösung ist, und wir sagen auch nicht, dass dies die bevorzugte Lösung für Skype for Business Server ist. Wir empfehlen, dass Unternehmen die Lösung wählen, die ihrem individuellen Bedarf am meisten entspricht, je nach ihrer IT-Sicherheitsinfrastruktur und ihren Sicherheitsanforderungen. In der Microsoft-Beispiellösung werden IPsec und Gruppenrichtlinien für die Server- und Domänenisolation verwendet.
+Wir implizieren nicht, dass es sich um die einzige Lösung handelt, noch implizieren wir, dass sie die bevorzugte Lösung für Skype for Business Server ist. Es wird empfohlen, dass Unternehmenskunden die Lösung auswählen, die ihren spezifischen Anforderungen entspricht, basierend auf ihrer It-Security-Infrastruktur und ihren Anforderungen. In der Beispiellösung von Microsoft werden IPSec und Gruppenrichtlinien für die Server- und Domänenisolation verwendet.
   
-Eine weitere mögliche Lösung besteht in der Verwendung von IPSec ausschließlich zur Sicherung der vom Sicherungsdienst selbst gesendeten Daten. Wenn Sie sich für diese Methode entscheiden, konfigurieren Sie die IPSec-Regeln für das SMB-Protokoll auf den folgenden Servern, wenn Pool A und Pool B zwei verbundene Front-End-Pools sind.
+Eine weitere mögliche Lösung besteht in der Verwendung von IPSec, um die vom Sicherungsdienst selbst gesendeten Daten zu schützen. Wenn Sie diese Methode auswählen, sollten Sie die IPSec-Regeln für das SMB-Protokoll für die folgenden Server konfigurieren, wobei Pool A und Pool B zwei gepaarte Front-End-Pools sind.
   
-- Der SMB-Dienst (TCP/445) von jedem Front-End-Server in Pool A an den von Pool B verwendeten Dateispeicher.
+- Der SMB-Dienst (TCP/445) von jedem Front-End-Server in Pool A zum von Pool B verwendeten Dateispeicher.
     
-- Der SMB-Dienst (TCP/445) von jedem Front-End-Server in Pool B an den von Pool A verwendeten Dateispeicher.
+- Der SMB-Dienst (TCP/445) von jedem Front-End-Server in Pool B zum von Pool A verwendeten Dateispeicher.
     
 > [!CAUTION]
->  IPsec ist nicht als Ersatz für Sicherheit auf Anwendungsebene wie etwa SSL/TLS gedacht. Ein Vorteil der Verwendung von IPsec liegt darin, dass es Sicherheit für Netzwerkdatenverkehr für vorhandene Apps bereitstellen kann, ohne dass diese geändert werden müssen. Unternehmen, die nur den Transport zwischen den beiden Rechenzentren sichern möchten, sollten ihre jeweiligen Netzwerkhardware Anbieter konsultieren, wie Sie sichere WAN-Verbindungen mithilfe der Geräte des Herstellers einrichten können.
+>  IPsec ist nicht als Ersatz für Sicherheit auf Anwendungsebene vorgesehen, z. B. SSL/TLS. Ein Vorteil der Verwendung von IPsec besteht in der Bereitstellung von Netzwerkdatenverkehrsicherheit für vorhandene Anwendungen, ohne sie ändern zu müssen. Unternehmen, die nur den Transport zwischen den beiden Rechenzentren sichern möchten, sollten sich an die jeweiligen Netzwerkhardwareanbieter wenden, um Möglichkeiten zum Einrichten sicherer WAN-Verbindungen mithilfe der Geräte des Anbieters zu erhalten.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Bereitstellen gekoppelter Front-End-Pools für Disaster Recovery in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[Bereitstellen gepaarter Front-End-Pools für die Notfallwiederherstellung in Skype for Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

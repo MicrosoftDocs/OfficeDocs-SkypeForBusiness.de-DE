@@ -1,7 +1,7 @@
 ---
-title: Proprovisionierung von Skype Room System Exchange-und Skype-Konten
-ms.author: v-lanac
-author: lanachin
+title: Bereitstellung von Skype Room System Exchange- und Skype-Konten
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: In diesen Themen erfahren Sie, wie Sie Exchange-und Skype-Konten für Skype Room System anbieten.
-ms.openlocfilehash: be43e732a97dc81fdd2e3a6bdb355afaff4db37d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: In diesen Themen erfahren Sie, wie Sie Exchange- und Skype-Konten für Skype Room System bereitstellen.
+ms.openlocfilehash: fb0b511d8a99d6aa9901459e1ea06d2f05ae4a42
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220915"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49833915"
 ---
-# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Proprovisionierung von Skype Room System Exchange-und Skype-Konten
+# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Bereitstellung von Skype Room System Exchange- und Skype-Konten
  
-In diesen Themen erfahren Sie, wie Sie Exchange-und Skype-Konten für Skype Room System anbieten. 
+In diesen Themen erfahren Sie, wie Sie Exchange- und Skype-Konten für Skype Room System bereitstellen. 
 
 > [!NOTE]
-> Microsoft Teams Rooms ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams-Räumen finden Sie in der [Bereitstellungsübersicht](room-systems-v2.md)für Microsoft Teams-Räume.
+> Microsoft Teams Rooms ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams Rooms finden Sie in der Übersicht über die Bereitstellung von Microsoft [Teams-Räumen.](room-systems-v2.md)
   
 > [!NOTE]
-> Die Konfiguration des Skype Room-System Kontos hängt vom Typ der Topologie Ihrer Organisation ab. Weitere Informationen zu Active Directory Topologien finden Sie unter [Environmental Requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+> Die Bereitstellung des Skype Room System-Kontos hängt vom Typ der Topologie ab, über die Ihre Organisation verfügt. Weitere Informationen zu Active Directory-Topologien finden Sie unter ["Umgebungsanforderungen für Skype for Business Server 2015".](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Proversionierung von Exchange Skype for Business-Konten für Skype Room System &amp;
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Bereitstellung von Skype Room System Exchange &amp; Skype for Business-Konten
 
-In den folgenden Themen wird beschrieben, wie Sie Skype Room System Exchange-und Skype for Business Konten für Folgendes einrichten und verwalten:
+In den folgenden Themen wird beschrieben, wie Skype Room System Exchange- und Skype for Business-Konten bereitgestellt und verwaltet werden:
   
-- Lokale Bereitstellungen mit einer Gesamtstruktur
+- Lokale Bereitstellungen mit einer einzelnen Gesamtstruktur
     
 - Lokale Bereitstellungen mit mehreren Gesamtstrukturen
     
@@ -42,8 +42,8 @@ In den folgenden Themen wird beschrieben, wie Sie Skype Room System Exchange-und
     
 - Hybridbereitstellungen
     
-- Skype Room System und Skype for Business Verbundpartner
+- Skype Room System- und Skype for Business-Verbundpartner
     
-- Verwalten von Skype Room System-Konten
+- Verwalten von Skype Room Systems-Konten
     
 

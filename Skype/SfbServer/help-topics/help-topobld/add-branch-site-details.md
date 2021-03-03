@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen der Details zur Zweigniederlassung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
-description: 'Gehen Sie folgendermaßen vor, um Website Details für eine Website anzugeben:'
-ms.openlocfilehash: 30e4629332b732d7a873b2b39b33d64b3c70d7a3
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+description: 'Gehen Sie wie folgt vor, um Websitedetails für eine Website anzugeben:'
+ms.openlocfilehash: acc33e2a08ae4c0232ccff92f8ce1e800178b1c0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217366"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835551"
 ---
-# <a name="add-branch-site-details"></a>Hinzufügen der Details zur Zweigniederlassung
+# <a name="add-branch-site-details"></a>Hinzufügen der Details zur Zweigstelle
 
-Gehen Sie folgendermaßen vor, um Website Details für eine Website anzugeben:
+Gehen Sie wie folgt vor, um Websitedetails für eine Website anzugeben:
 
 Geben Sie einen Ortsnamen für den neuen Zweigstellenstandort an. Dieser Wert ist optional.
 

@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte bei der Aktualisierung von Skype for Business in Teams
+title: Erste Schritte beim Upgrade von Skype for Business auf Teams
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: In diesem Artikel finden Sie Informationen zu den ersten Schritten beim Upgrade von Skype for Business auf Microsoft Teams.
+description: Dieser Artikel hilft Ihnen bei den ersten Schritte beim Upgrade von Skype for Business auf Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
@@ -30,18 +30,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed91a5bc6df8836e19f602facccce704cad65876
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
+ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578178"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50110318"
 ---
-# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Erste Schritte bei der Aktualisierung von Skype for Business zu Microsoft Teams
+# <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Erste Schritte bei Ihrem Upgrade von Skype for Business auf Microsoft Teams
 
 Herzlichen Glückwunsch zu Ihrem ausstehenden Upgrade von Skype for Business auf Microsoft Teams. Ganz gleich, ob Sie neu bei Microsoft Teams sind, Microsoft Teams bereits zusammen mit Skype for Business verwenden oder bereit für das Upgrade sind – wir möchten sicherstellen, dass Sie alles haben, was Sie für eine erfolgreiche Umstellung auf Microsoft Teams benötigen.
 
 Ganz gleich, ob Sie ein Upgrade von Skype for Business Online auf Microsoft Teams oder von einer lokalen Skype for Business-Umgebung zu Microsoft Teams durchführen – das Upgrade Framework führt Sie basierend auf Ihrem Geschäftsszenario durch den Prozess.
+
+| Symbol | Beschreibung |
+| --- | --- |
+|![Symbol für exemplarische Vorgehensweise](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **Upgradehub:** Verschaffen Sie sich einen Überblick über alle Anleitungen, Schulungen und Ressourcen, die Sie benötigen, um ein erfolgreiches Upgrade von Skype for Business auf Teams zu implementieren, wenn Sie Ihr Upgrade von Skype for Business auf [Microsoft Teams planen.](upgrade-skype-teams.yml)|
+
+Lesen Sie weiter, um häufig gestellte Fragen zum Upgrade zu erhalten.
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Warum auf Microsoft Teams aktualisieren?
 
@@ -55,15 +61,15 @@ Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt
 
 Ja, Microsoft bietet mehrere Optionen für die gleichzeitige Verwendung von Skype for Business Online und Microsoft Teams. Mit diesen Koexistenzmodi sind Ihre Benutzer in der Lage, sich mit Microsoft Teams vertraut zu machen und gleichzeitig das Upgrade auf die ausschließliche Verwendung von Microsoft Teams zu beschleunigen. Weitere Informationen finden Sie unter [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist).
 
-## <a name="is-phone-system-available-for-teams-users"></a>Steht das Telefon System für die Benutzer von Teams zur Verfügung?
+## <a name="is-phone-system-available-for-teams-users"></a>Ist das Telefonsystem für Benutzer von Teams verfügbar?
 
-Ja. Das Telefon System steht allen Teams-Benutzern zur Verfügung, nachdem Sie in den TeamsOnly-Modus versetzt wurden.  Darüber hinaus stellt Microsoft Optionen für die Verbindung mit dem öffentlichen Telefonnetz (PSTN) bereit, damit Benutzer überall in der Welt Telefonanrufe tätigen können. Weitere Informationen finden Sie unter [VoIP-Telefon System und PSTN-Konnektivität](cloud-voice-landing-page.md).
+Ja. Telefonsystem ist für alle Teams-Benutzer verfügbar, nachdem sie in den TeamsOnly-Modus verschoben wurden.  Darüber hinaus bietet Microsoft Optionen für die Verbindung zum öffentlichen Telefonnetz (PSTN), damit Benutzer weltweit Telefonanrufe telefonieren können. Weitere Informationen finden Sie unter ["Voice - Phone System" und "PSTN-Konnektivität".](cloud-voice-landing-page.md)
 
-## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>Können wir unsere lokale Telefonie-Infrastruktur weiterhin nutzen?
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>Können wir unsere lokale Telefonieinfrastruktur weiterhin nutzen?
 
-Ja. Mit dem Telefonsystem Direct Routing können Sie das Telefonsystem mit praktisch jedem Telefonnetzbetreiber verwenden. Mit Direct Routing können Sie Ihren eigenen Session Border Controller (SBC) direkt mit dem Telefon System verbinden. Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
+Ja. Mit dem direkten Routing des Telefonsystems können Sie das Telefonsystem mit praktisch jedem Telefonieanbieter verwenden. Mit Direct Routing verbinden Sie Ihren eigenen Session Border Controller (SBC) direkt mit dem Telefonsystem. Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
  
-## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Wie hilft Microsoft Kunden bei der Migration in Teams? 
+## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Wie hilft Microsoft Kunden bei der Migration zu Teams? 
 
 Microsoft ist bestrebt, Ihnen bei einem erfolgreichen Umstieg von Skype for Business auf Microsoft Teams zu helfen. Microsoft stellt einen soliden Leitfaden bereit, der auf einem bewährten Framework für ein erfolgreiches End-to-End-Upgrade basiert und Ihnen bei der Planung und Durchführung des Upgrades auf Teams hilft. In unserem Leitfaden wird jede Phase des Upgrades behandelt – ganz gleich, ob Sie gerade erst mit der Planung beginnen, Microsoft Teams bereits zusammen mit Skype for Business verwenden oder bereit für die Umstellung auf Microsoft Teams sind.
 

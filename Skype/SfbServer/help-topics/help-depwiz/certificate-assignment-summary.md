@@ -1,8 +1,8 @@
 ---
 title: Zertifikatzuweisung (Zusammenfassung)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
-description: Bevor die Zertifikat Aufgabe erfolgreich ist, wird eine Zertifikat Zuordnungszusammenfassung angezeigt, in der die Details zu dem Zertifikat aufgeführt sind, das zugewiesen wird. Überprüfen Sie die Informationen, um sicherzustellen, dass der Name des Antragstellers und der Alternative Name des Betreffs korrekt sind. Wenn Sie die Überprüfung der Zertifikats Zusammenfassung durchgeführt haben, klicken Sie auf Weiter.
-ms.openlocfilehash: 83beeb637d9f7f9e09cd6c2abd9671dcdb16692b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Vor Abschluss der Zertifikatzuweisung wird eine Zusammenfassung der Zertifikatzuweisung angezeigt, welche die Details des Zertifikats enthält, das zugewiesen wird. Überprüfen Sie die Informationen, um sicherzustellen, dass der Betreffname und die alternativen Namen des Betreffs korrekt sind. Klicken Sie nach dem Überprüfen der Zertifikatzusammenfassung auf Weiter.
+ms.openlocfilehash: 7ad08d346426fc663666eef66b1486f0ff106d76
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823939"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807485"
 ---
 # <a name="certificate-assignment-summary"></a>Zertifikatzuweisung (Zusammenfassung)
  
-Bevor die Zertifikat Aufgabe erfolgreich ist, wird eine **Zertifikat Zuordnungszusammenfassung** angezeigt, in der die Details zu dem Zertifikat aufgeführt sind, das zugewiesen wird. Überprüfen Sie die Informationen, um sicherzustellen, dass der Name des Antragstellers und der Alternative Name des Betreffs korrekt sind. Wenn Sie die Überprüfung der Zertifikats Zusammenfassung durchgeführt haben, klicken Sie auf **weiter**.
+Vor Abschluss der Zertifikatzuweisung wird eine **Zusammenfassung der Zertifikatzuweisung** angezeigt, welche die Details des Zertifikats enthält, das zugewiesen wird. Überprüfen Sie die Informationen, um sicherzustellen, dass der Betreffname und die alternativen Namen des Betreffs korrekt sind. Klicken Sie nach dem Überprüfen der Zertifikatzusammenfassung auf **Weiter**.
   
 

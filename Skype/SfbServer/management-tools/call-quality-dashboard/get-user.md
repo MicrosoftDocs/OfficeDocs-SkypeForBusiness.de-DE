@@ -1,8 +1,8 @@
 ---
 title: Abrufen eines Benutzers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,41 +12,41 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen des Benutzers, der Teil des Benutzer Diensts ist. Der Benutzer Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: e07a232b61e5ef0bb7462b3fff58d642a14496ec
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Benutzer erhalten", der Teil des Benutzerdiensts ist. Der Benutzerdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: dd2bb5e46ddbe3e65faf441a11e39cbc5429e473
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816734"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832415"
 ---
 # <a name="get-user"></a>Abrufen eines Benutzers
  
-**Zusammenfassung:** Informieren Sie sich über den Vorgang "Benutzer abrufen", der Teil des Benutzer Diensts ist. Der Benutzer Dienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Benutzer erhalten", der Teil des Benutzerdiensts ist. Der Benutzerdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
   
-Der Vorgang zum Abrufen von Benutzern ist Teil des Benutzer Diensts in der Repository-API für die Anruf Qualitätssteuerung.
+Der Vorgang "Benutzer abrufen" ist Teil des Benutzerdiensts in der Repository-API für das Anrufqualitätsdashboard.
   
 ## <a name="get-user"></a>Abrufen eines Benutzers
 
-Der Benutzer erhält einen Benutzerdatensatz aus dem Repository zurück.
+"Benutzer erhalten" gibt einen Benutzerdatensatz aus dem Repository zurück.
   
-|**Methode**|**Anforderungs-URI**|**HTTP-Version**|
+|**Methode**|**Anforderungs-URI**|**HTTP Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/User/{UserID}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** -None.
+ **URI-Parameter** : Keine.
   
- **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
+ **Anforderungsheader** – Keine zusätzlichen Header.
   
- **Anforderungstext** – keine.
+ **Anforderungstext** – Keine.
   
- **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
+ **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
- **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück. Wenn keine angegebene Benutzer-ID gefunden wird, wird der Statuscode 404 (nicht gefunden) zurückgegeben.
+ **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück. Wenn eine angegebene Benutzer-ID nicht gefunden wird, wird der Statuscode 404 (Nicht gefunden) zurückgegeben.
   
- **Antwortheader** – keine zusätzlichen Überschriften.
+ **Antwortheader** : Keine zusätzlichen Header.
   
- **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
+ **Antworttext** : Unten finden Sie eine Beispielantwortnutzlast in JSON.
   
 ```json
 {
@@ -56,13 +56,13 @@ Der Benutzer erhält einen Benutzerdatensatz aus dem Repository zurück.
 }
 ```
 
- *UserID* -ID des Benutzers.
+ *userId*  – ID des Benutzers.
   
- *LoginName* – externe Benutzerkennung für reguläre Benutzer. Wenn die Windows-Authentifizierung für die Authentifizierung von Benutzern verwendet wird, kann dies ein FQDN des Benutzers sein.
+ *loginName*  – Externe Benutzeridentifikation für reguläre Benutzer. Wenn die Windows-Authentifizierung für die Authentifizierung von Benutzern verwendet wird, kann dies ein FQDN des Benutzers sein.
   
- *defaultItemId* -ID des Standardelements für diesen Benutzer. Das Standardelement ist das oberste Element, das dem Benutzer zugeordnet ist. Alle anderen Elemente, denen dieser Benutzer angehört, können vom Standardelement aus navigiert werden.
+ *defaultItemId*  – ID des Standardelements für diesen Benutzer. Das Standardelement ist das oberste Element, das dem Benutzer zugeordnet ist. Alle anderen Elemente, die diesem Benutzer besitzen, können über das Standardelement navigiert werden.
   
 > [!NOTE]
-> Geben Sie `defaultItemId` den Wert zum Abrufen des Element Vorgangs an, um die Details des Standardelements abzurufen.
+> Gibt den  `defaultItemId` Wert für den Vorgang "Element abrufen" an, um die Details des Standardelements abzurufen.
   
 

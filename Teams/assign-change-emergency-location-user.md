@@ -1,7 +1,7 @@
 ---
 title: Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,42 +16,42 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: In diesem Artikel erfahren Sie, wie Sie einen Notfall Standort für Benutzer in Ihrer Organisation zuweisen oder ändern können.
+description: In diesem Artikel erfahren Sie, wie Sie einen Notfallstandort für Benutzer in Ihrer Organisation zuweisen oder ändern.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f2e927e90a7ac6b79d6eb63c807e063ca7d78c7
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 8352c702d2c6d32b6384599499aa326def49fa4e
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788659"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809565"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
 
-Wenn Sie Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder einem Nutzer einen Notfall Standort zuweisen. In europäischen Ländern ist der Notfall Standort mit der Telefonnummer verbunden, wenn Sie ihn von Microsoft 365 oder Office 365 erhalten oder wenn Sie eine Telefonnummer an Microsoft 365 oder Office 365 übertragen. In den Vereinigten Staaten ist der Notfall Standort mit der Telefonnummer verbunden, wenn Sie dem Benutzer zugewiesen ist. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem Sie zugewiesen wurde, an einen neuen Speicherort wechselt. Weitere Informationen zu Notfalladressen und-Standorten finden Sie unter [Was sind Notfall Standorte, Orte und Anrufweiterleitung?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+Wenn Sie Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder jedem Benutzer einen Notfallstandort zuweisen. In europäischen Ländern wird der Notfallstandort der Telefonnummer zugeordnet, wenn Sie diese von Microsoft 365 oder Office 365 erhalten oder wenn Sie eine Telefonnummer zu Microsoft 365 oder Office 365 übertragen. In den USA ist der Notfallstandort der Telefonnummer zugeordnet, wenn er dem Benutzer zugewiesen wird. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem sie zugewiesen ist, an einen neuen Standort wechselt. Weitere Informationen zu Notfalladressen und -standorten finden Sie unter "Was [sind Notfallstandorte, Standorte und Anrufrouting?".](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
-Informationen dazu, wie Sie einen Anrufplan erhalten und wie viel er kostet, finden Sie unter [Lizenzierung von Teams-Add-ons](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Informationen zum Erhalten von Anrufplänen und deren Kosten finden Sie unter [Teams-Add-On-Lizenzierung.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   
-Sie können einen Notfall Standort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
+Sie können einen Notfallstandort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **VoIP**-Rufnummern  >  **Phone numbers**.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf **"Voice**  >  **phone numbers".**
 
-2. Klicken Sie auf der Seite **Telefonnummern** auf die Registerkarte **Zahlen** , wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.
+2. Klicken Sie **auf der Seite "Telefonnummern"** auf die Registerkarte "Zahlen", wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **"Bearbeiten".** 
 
-3. Führen Sie im **Bearbeitungs** Bereich unter **Notfall Speicherort**eine der folgenden Aktionen aus:
+3. Gehen Sie **im Bereich** **"Bearbeiten"** unter "Notfallstandort" wie folgt vor:
 
-   - Wenn Sie einen Notfall Standort zuweisen möchten, suchen Sie nach einem Notfall Standort, und wählen Sie ihn aus.
+   - Um einen Notfallstandort zuzuordnen, suchen Sie einen Notfallstandort, und wählen Sie diesen aus.
 
-   - Wenn Sie den Notfall Standort ändern möchten, der dem Benutzer bereits zugewiesen ist, klicken Sie auf **X** , um den vorhandenen Speicherort zu entfernen, und suchen Sie dann nach dem Speicherort, den Sie zuweisen möchten, und wählen Sie ihn aus.
+   - Wenn Sie den dem Benutzer bereits zugewiesenen Notfallstandort ändern möchten, klicken Sie auf **"X",** um den vorhandenen Standort zu entfernen. Suchen Sie dann den Standort, den Sie zuweisen möchten, und wählen Sie ihn aus.
 
-4. Je nachdem, ob Sie dem Benutzer eine e-Mail mit den Informationen zur Telefonnummer senden möchten, deaktivieren oder aktivieren Sie **e-Mail-Nutzer mit Telefonnummerninformationen**. Standardmäßig ist dies aktiviert.
+4. Je nachdem, ob Sie eine E-Mail mit den Telefonnummerninformationen an den Benutzer senden möchten, deaktivieren oder aktivieren Sie den E-Mail-Benutzer mit **Telefonnummerninformationen.** Standardmäßig ist dies aktiviert.
 
 5. Klicken Sie auf **Anwenden**.
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
 
-Weitere Informationen finden Sie unter [Satz-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser). 
+Weitere Informationen finden Sie unter [Set-CsOnlineVoiceUser.](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser) 
 
     
 ## <a name="related-topics"></a>Verwandte Themen

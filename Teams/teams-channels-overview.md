@@ -1,7 +1,7 @@
 ---
 title: Übersicht über Teams und Kanäle in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: MikePlumleyMSFT
+ms.author: mikeplum
 ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
+ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48534952"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "49865169"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -45,7 +45,7 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
 
 - **Kanäle** sind spezielle Abschnitte innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen oder anderen für Ihr Team wichtigen Aspekten organisiert werden. Dateien, die Sie in einem Kanal (auf der Registerkarte „Dateien“) freigeben, werden in SharePoint gespeichert. Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Teams](SharePoint-OneDrive-interact.md).
 
-    - Kanäle sind Orte, an denen Unterhaltungen stattfinden und wo die Arbeit tatsächlich erledigt wird. Kanäle können für alle Teammitglieder geöffnet sein oder – sofern Sie ein ausgewähltes Publikum benötigen – sie können privat sein. Standardkanäle sind für Unterhaltungen, an denen jeder in einem Team teilnehmen kann, wohingegen [private Kanäle](private-channels.md) die Kommunikation auf eine Teilmenge von Personen in einem Team einschränken.
+    - Kanäle sind Orte, an denen Unterhaltungen stattfinden und wo die Arbeit tatsächlich erledigt wird. Kanäle können für alle Teammitglieder entweder offen oder – sofern Sie ein ausgewähltes Publikum benötigen – privat sein. Standardkanäle sind für Unterhaltungen, an denen jeder in einem Team teilnehmen kann, wohingegen [private Kanäle](private-channels.md) die Kommunikation auf eine Teilmenge von Personen in einem Team einschränken.
     - Die Vorteile von Kanälen werden am deutlichsten, wenn Sie sie mit Apps erweitern, die Registerkarten, Connectors und Bots enthalten und damit den Nutzen für die Teammitglieder steigern. Weitere Informationen hierzu finden Sie unter [Apps, Bots und Connectors in Teams](deploy-apps-microsoft-teams-landing-page.md).
     
 Wenn Sie Hilfe bei der Verwendung von Teams und Kanälen benötigen, lesen Sie bitte unter [Teams und Kanäle](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499) nach.
@@ -89,9 +89,9 @@ Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams ein
 <a name="example-teams"></a>Beispiele für Teams
 --------------
 
-Nachstehend finden Sie einige Funktionsbeispiele dafür, wie unterschiedliche Benutzertypen beim Einrichten von Teams, Kanälen und Apps (Registerkarten/Connectors/Bots) vorgehen können. Dies kann beim Starten einer Unterhaltung zu Microsoft Teams mit Ihrer Benutzercommunity hilfreich sein. Wenn Sie eine Implementierung von Microsoft Teams in Ihrer Organisation planen, denken Sie daran, dass Sie Anleitungen zum Strukturieren Ihrer Teams bereitstellen können. Benutzer können jedoch die Organisation selbst steuern. Hierbei handelt es sich nur um Beispiele, die Teams darüber helfen sollen, die Möglichkeiten zu überdenken.
+Nachstehend finden Sie einige Funktionsbeispiele dafür, wie unterschiedliche Benutzertypen beim Einrichten von Teams, Kanälen und Apps (Registerkarten/Connectors/Bots) vorgehen können. Dies kann beim Starten einer Unterhaltung zu Microsoft Teams mit Ihrer Benutzercommunity hilfreich sein. Wenn Sie eine Implementierung von Microsoft Teams in Ihrer Organisation planen, denken Sie daran, dass Sie Anleitungen zum Strukturieren Ihrer Teams bereitstellen können. Benutzer haben jedoch die Kontrolle darüber, wie sie sich organisieren. Die folgenden Beispiele dienen der Veranschaulichung und sollen Teams dabei helfen, die Möglichkeiten zu durchdenken.
 
-Microsoft Teams ist gut darin, organisatorische Silos aufzubrechen und funktionsübergreifende Teams zu fördern. Ermutigen Sie also die Benutzer, sich dieses Konzept als funktionale Teams und nicht als organisatorische Silos vorzustellen.
+Microsoft Teams ist gut dafür geeignet, organisatorische Silos aufzubrechen und funktionsübergreifende Teams zu fördern. Ermutigen Sie also die Benutzer, die organisatorischen Grenzen zu überwinden und eher in funktionalen Teams zu denken.
 
 |Teamtypen  |Mögliche Kanäle  |Apps (Registerkarten ![Ein Symbol eines Ordners mit einer Registerkarte](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Ein Symbol für Verbindungsblöcke](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Ein Symbol mit einem kleinen Robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -112,4 +112,4 @@ Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln. Diese 
 
 ## <a name="org-wide-teams"></a>Organisationsweite Teams
 
-Wenn Ihre Organisation aus nicht mehr als 5 000 Benutzer besteht, können Sie ein organisationsweites Team erstellen. Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. Weitere Informationen, einschließlich bewährter Methoden zum Erstellen und Verwalten eines organisationsweiten Teams, finden Sie unter [Erstellen eines organisationsweiten Teams in Microsoft Teams](create-an-org-wide-team.md).
+Wenn Ihre Organisation aus nicht mehr als 5 000 Benutzern besteht, können Sie ein organisationsweites Team erstellen. Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. Weitere Informationen, einschließlich bewährter Methoden zum Erstellen und Verwalten eines organisationsweiten Teams, finden Sie unter [Erstellen eines organisationsweiten Teams in Microsoft Teams](create-an-org-wide-team.md).

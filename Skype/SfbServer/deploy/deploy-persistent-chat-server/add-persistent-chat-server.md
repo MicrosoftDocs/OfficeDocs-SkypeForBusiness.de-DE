@@ -1,8 +1,8 @@
 ---
-title: Hinzufügen eines beständigen Chat Servers zu Ihrer Skype for Business Server 2015-Topologie
+title: Hinzufügen eines Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -12,108 +12,108 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server 2015-Topologie einen beständigen Chat Server hinzufügen.'
-ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Zusammenfassung: In diesem Thema erfahren Sie, wie Sie Ihrer Skype for Business Server 2015-Topologie den Server für beständigen Chat hinzufügen.'
+ms.openlocfilehash: 3b0f3ca57af4b9bf53125e38e1aa3005099b5b70
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794113"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825105"
 ---
-# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen eines beständigen Chat Servers zu Ihrer Skype for Business Server 2015-Topologie
+# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen eines Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie
  
-**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Ihrer Skype for Business Server 2015-Topologie einen beständigen Chat Server hinzufügen.
+**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Ihrer Skype for Business Server 2015-Topologie den Server für beständigen Chat hinzufügen.
   
-Nachdem Sie die erforderliche Software auf jedem Server installiert haben, auf dem Sie den beständigen Chat Server bereitstellen möchten, verwenden Sie den Topologie-Generator für folgende Zwecke: 
+Nachdem Sie die erforderliche Software auf jedem Server installiert haben, auf dem Sie den Server für beständigen Chat bereitstellen möchten, verwenden Sie den Topologie-Generator für: 
   
-- Aktualisieren Ihrer Topologie unter Einbeziehung des Servers für beständigen Chat
+- Aktualisieren der Topologie mit dem Server für beständigen Chat
     
 - Veröffentlichen der aktualisierten Topologie
     
 > [!NOTE] 
-> Der beständige Chat ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. In Teams steht dieselbe Funktionalität zur Verfügung. Weitere Informationen finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](/microsoftteams/upgrade-start-here). Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktion für Teams benötigen, oder die Verwendung von Skype for Business Server 2015 fortsetzen. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams-Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität benötigen, zu Teams migrieren oder Weiterhin Skype for Business Server 2015 verwenden. 
 
-## <a name="update-your-topology-to-include-persistent-chat-server"></a>Aktualisieren Ihrer Topologie unter Einbeziehung des Servers für beständigen Chat
+## <a name="update-your-topology-to-include-persistent-chat-server"></a>Aktualisieren der Topologie mit dem Server für beständigen Chat
 
-Führen Sie die folgenden Schritte aus, um einen einzelnen beständigen Chat Server Pool ohne Disaster Recovery-Konfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten beständigen Chat-Server Pools für die Hochverfügbarkeits-und Disaster Recovery finden Sie unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
+Führen Sie die folgenden Schritte aus, um einen einzelnen Pool für den Server für beständigen Chat ohne Notfallwiederherstellungskonfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten Pools für den Server für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung finden Sie unter "Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen [Chat in Skype for Business Server 2015".](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)
   
-Zum Bereitstellen mehrerer beständiger Chat Server-Pools wiederholen Sie diesen Vorgang für jeden Pool.
+Wenn Sie mehrere Pools für den Server für beständigen Chat bereitstellen möchten, wiederholen Sie denselben Prozess für jeden Pool.
   
-1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe (oder einem Konto mit entsprechenden Benutzerrechten) ist.
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
     > [!NOTE]
-    > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das Mitglied der lokalen Benutzergruppe ist, aber eine Topologie veröffentlichen, die für die Installation von Skype for Business Server erforderlich ist. Sie müssen ein Konto verwenden, das ein Mitglied der Gruppe " **Domänen-Admins** " und der Gruppe " **RTCUniversalServerAdmins** " ist und über Vollzugriffsberechtigungen (lesen, schreiben und ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher des beständigen Chat Servers verwenden möchten (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit einem äquivalenten Rechte.
+    > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das Mitglied der lokalen Benutzergruppe ist. Um jedoch eine Topologie zu veröffentlichen, die für die Installation von Skype for Business Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe **"Domänen-Admins"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen (Lesen, Schreiben und Ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher für den Server für beständigen Chat verwenden möchten (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit entsprechenden Rechten.
   
 2. Starten Sie den Topologie-Generator.
     
-3. Navigieren Sie in der Konsolenstruktur zum Knoten **persistente Chat Pools** , erweitern Sie ihn, und wählen Sie einen Skype for Business-Server Pool aus, oder klicken Sie mit der rechten Maustaste auf den Knoten, und wählen Sie **neuer beständiger Chat Pool**aus. Sie müssen den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools definieren und angeben, ob es sich bei dem Pool um eine Einzelserver Pool-oder um die Bereitstellung mehrerer Server Pools handelt.
+3. Navigieren Sie in der  Konsolenstruktur zum Knoten "Pools für beständigen Chat", und erweitern Sie ihn, um einen Skype for Business Server-Pool auszuwählen, oder klicken Sie mit der rechten Maustaste auf den Knoten, und wählen Sie "Neuer Pool für beständigen **Chat" aus.** Sie müssen den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools definieren und angeben, ob es sich bei dem Pool um einen Pool mit einem oder mehreren Servern um eine Poolbereitstellung mit einem einzelnen Server oder um einen Pool mit mehreren Servern geht.
     
-    Wählen Sie **Pool mit mehreren Computern** oder **Pool mit einem Computer** aus. Wählen Sie die erste Option aus, wenn Sie beabsichtigen, mehr als einen Front-End-Server in Ihrem beständigen Chat Serverpool zu haben. Wählen Sie diese Option jetzt oder zu einem späteren Zeitpunkt, da Sie einem Pool mit einem Computer später keine zusätzlichen Server hinzufügen können. Wenn Sie einen Pool mit mehreren Computern auswählen, geben Sie die Namen der einzelnen Front-End-Server ein, aus denen sich der Pool zusammensetzt.
-    
-    > [!IMPORTANT]
-    > Wenn die Serverrolle "beständiger Chat" auf einem Standard Edition-Server installiert wird, muss der FQDN dem FQDN des Standard Edition-Servers entsprechen. 
-  
-4. Definieren Sie einen einfachen **Anzeige Namen** für den Server Pool des beständigen Chats. Der Anzeigename kann von benutzerdefinierten Clients verwendet werden, insbesondere dann, wenn mehrere beständige Chat Server Pools vorhanden sind, um Räume zu unterscheiden.
-    
-5. Definieren Sie den Port, der vom beständigen Chat Server für die Kommunikation mit Skype for Business Server-Front-End-Servern verwendet wird. Der Standardport lautet 5041.
-    
-6. Falls in Ihrer Organisation Kompatibilitätsunterstützung erforderlich ist, aktivieren Sie das Kontrollkästchen **Kompatibilität aktivieren**. Falls ausgewählt, wird der beständige Chat Server-Kompatibilitätsdienst auf demselben Computer wie der Front-End-Server des beständigen Chats installiert. Sie werden aufgefordert, einen SQL Server-Back-End-Server für die beständige Chat Server-Kompatibilität zu einem späteren Zeitpunkt auszuwählen.
-    
-7. Zuweisen einer Website Affinität für den Server Pool für beständigen Chat Aktivieren Sie das Kontrollkästchen **diesen Pool als Standard \<für\> Website Sitename verwenden** , oder **verwenden Sie diesen Pool als Standard für alle Websites** , um diesen Server Pool für beständigen Chat als Standardpool für die aktuelle Website oder alle Websites festzulegen. Wenn der Skype for Business-Client zum Erstellen und Verwalten von Räumen verwendet wird, wird der Standardpool, der der Website des Benutzers zugeordnet ist, von der raumerstellung und-Verwaltung verwendet, um Raum Erstellungs-und Verwaltungsvorgänge an diesen Pool weiterleiten zu können. Dies gilt nur, wenn Sie mehrere beständige Chat Server Pools bereitgestellt haben und die Funktionen zur raumerstellung und-Verwaltung des beständigen Chat Servers verwenden möchten.
+    Wählen Sie **Pool mit mehreren Computern** oder **Pool mit einem Computer** aus. Wählen Sie die erste Option aus, wenn Sie planen, mehrere Front-End-Server in Ihrem Pool für den Server für beständigen Chat zu verwenden. Wählen Sie diese Option jetzt oder zu einem späteren Zeitpunkt, da Sie einem Pool mit einem Computer später keine zusätzlichen Server hinzufügen können. Wenn Sie einen Pool mit mehreren Computern auswählen, geben Sie die Namen der einzelnen Front-End-Server ein, aus denen der Pool besteht.
     
     > [!IMPORTANT]
-    > Sie können die Funktionen zur raumerstellung und-Verwaltung mithilfe des beständigen Chat-Servers Software Development Kit (SDK) anpassen. 
+    > Wenn die Serverrolle für beständigen Chat auf einem Standard Edition-Server installiert wird, muss der FQDN mit dem FQDN des Standard Edition-Servers übereinstimmen. 
   
-8. Definieren Sie den **SQL Store für den beständigen Chat Server-Back-End (wobei Chatroom-Inhalte gespeichert werden)** , indem Sie eine der folgenden Aktionen ausführen:
+4. Definieren Sie einen **einfachen Anzeigenamen** für den Serverpool für beständigen Chat. Der Anzeigename kann von benutzerdefinierten Clients verwendet werden, insbesondere wenn mehrere Pools für den Server für beständigen Chat vorhanden sind, um Chatrooms zu unterscheiden.
     
-   - Wenn Sie einen vorhandenen SQL Server-Speicher verwenden möchten, klicken Sie in der Dropdownliste auf den Namen des SQL Server-Speichers, den Sie verwenden möchten.
+5. Definieren Sie den Port, der vom Server für beständigen Chat für die Kommunikation mit Skype for Business Server-Front-End-Servern verwendet wird. Der Standardport lautet 5041.
     
-   - Wenn Sie eine neue SQL Server-Datenbank angeben möchten, klicken Sie auf **neu**, und führen Sie im **neuen SQL Store definieren**die folgenden Aktionen aus:
+6. Falls in Ihrer Organisation Kompatibilitätsunterstützung erforderlich ist, aktivieren Sie das Kontrollkästchen **Kompatibilität aktivieren**. Falls ausgewählt, wird der Kompatibilitätsdienst für den Server für beständigen Chat auf demselben Computer wie der Front-End-Server für beständigen Chat installiert. Sie werden aufgefordert, später einen SQL Server für die Serverkonformität für beständigen Chat auszuwählen.
     
-   - Geben Sie im **SQL Server-FQDN**den FQDN des SQL Server an, auf dem Sie die neue SQL Server-Datenbank erstellen möchten.
+7. Weisen Sie die Standortaffinität für den Serverpool für beständigen Chat zu. Aktivieren **Sie \<SiteName\>** das Kontrollkästchen "Diesen  Pool als Standard für Standort verwenden", oder verwenden Sie diesen Pool als Standard für alle Standorte, um diesen Serverpool für beständigen Chat als Standardpool für den aktuellen Standort oder alle Standorte zu bestimmen. Wenn der Skype for Business-Client zum Erstellen und Verwalten von Chaträumen verwendet wird, wird der Standardpool, der der Website des Benutzers zugeordnet ist, von der Raumerstellungs- und -verwaltungserfahrung verwendet, sodass er die Raumerstellungs- und Verwaltungsvorgänge an diesen Pool weiterverarbeiten kann. Dies gilt nur, wenn Sie mehrere Pools für den Server für beständigen Chat bereitgestellt haben und die Funktionen für die Raumerstellung und -verwaltung des Servers für beständigen Chat verwenden möchten.
     
-   - Wählen Sie entweder **Standardinstanz** aus, um die Standardinstanz zu verwenden, oder wählen Sie **Benannte Instanz** aus, um eine andere Instanz anzugeben, die Sie verwenden möchten.
+    > [!IMPORTANT]
+    > Sie können die Funktionen für die Raumerstellung und -verwaltung mit dem Software Development Kit (SDK) für den Server für beständigen Chat anpassen. 
+  
+8. Definieren Sie SQL Speicher für das Back-End des Servers für beständigen Chat (in dem **Chatroominhalte** gespeichert sind), indem Sie einen der folgenden Schritte tun:
+    
+   - Um einen vorhandenen SQL Server zu verwenden, klicken Sie in der Dropdownliste auf den Namen des SQL Server, den Sie verwenden möchten.
+    
+   - Wenn Sie eine neue SQL Server angeben möchten, klicken Sie auf **"Neu",** und führen Sie in "Neuen SQL **Store** definieren" die folgenden Schritte aus:
+    
+   - Geben **SQL Server FQDN** des SQL Server an, auf dem Sie die neue SQL Server erstellen möchten.
+    
+   - Wählen Sie entweder **Standardinstanz**, um die Standardinstanz zu verwenden, oder wählen Sie **Benannte Instanz** aus, um eine andere Instanz anzugeben, die Sie verwenden möchten.
     
      > [!NOTE]
-     > Weitere Informationen zum Konfigurieren von SQL Server-Sicherungsdatenbanken für die Disaster Recovery finden Sie unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > Weitere Informationen zum Konfigurieren SQL Server Sicherungsdatenbanken für die Notfallwiederherstellung finden Sie unter Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen [Chat in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md) 
   
-9. Definieren Sie den SQL Server-Kompatibilitäts Speicher, wenn Sie die Kompatibilität aktiviert haben.
+9. Definieren Sie den SQL Server Compliancespeicher, wenn Sie die Compliance aktiviert haben.
     
     > [!IMPORTANT]
-    > Informationen zum Konfigurieren von SQL Server-Spiegelungen für die Hochverfügbarkeits-Datenbank für die beständige Chat Server-Datenbank und die Datenbank für beständigen Chat Server finden Sie unter [Konfigurieren von Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > Weitere Informationen zum Konfigurieren von SQL Server-Spiegelung für hohe Verfügbarkeit für die Datenbank für den Server für beständigen Chat und die Konformitätsdatenbank für den Server für beständigen Chat finden Sie unter "Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen [Chat in Skype for Business Server 2015".](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md) 
   
-10. Definieren Sie den Dateispeicher. Bei einem Dateispeicher handelt es sich um einen Ordner, in dem eine Kopie einer Datei, die in das Datei-Repository hochgeladen wurde, gespeichert wird (beispielsweise das Speichern von Dateianlagen, die in einem Chatroom gepostet wurden). Bei einer persistenten Chat Server Topologie mit mehreren Servern muss es sich um einen UNC-Pfad (Universal Naming Convention) handeln. und bei einer Server Topologie mit einem Server für beständigen Chat kann es sich um einen lokalen Dateipfad handeln.
+10. Definieren Sie den Dateispeicher. Ein Dateispeicher ist ein Ordner, in dem eine Kopie einer in das Dateirepository hochgeladenen Datei gespeichert wird (z. B. speichern von Dateianlagen, die in einem Chatroom bereitgestellt werden). Bei einer Topologie für den Server für beständigen Chat mit mehreren Servern muss es sich um einen #A0 (Universal Naming Convention) gehen. und für eine Topologie mit einem Server für den Server für beständigen Chat kann es sich um einen lokalen Dateipfad befinden.
     
     Führen Sie die folgenden Schritte aus, um einen vorhandenen Dateispeicher zu verwenden:
     
-    - Geben Sie in **Dateiserver-FQDN** den FQDN des Dateispeichers an, auf dem Sie den neuen Dateispeicher erstellen möchten.
+    - Geben **Sie im Dateiserver-FQDN** den FQDN des Computers an, auf dem Sie den neuen Dateispeicher erstellen möchten.
     
     - Geben Sie in **Dateifreigabe** den Dateispeicher an, den Sie verwenden möchten.
     
       > [!IMPORTANT]
-      > Sie können den Dateispeicher in Topology Builder definieren, bevor Sie den Dateispeicher erstellen, aber Sie müssen den Dateispeicher am definierten Speicherort erstellen, den Sie definieren, bevor Sie die Topologie veröffentlichen. Wenn der Speicher noch nicht vorhanden ist, schlagen alle Veröffentlichungsversuche für die Topologie fehl. 
+      > Sie können den Dateispeicher im Topologie-Generator definieren, bevor Sie den Dateispeicher erstellen. Sie müssen den Dateispeicher jedoch an dem von Ihnen definierten Speicherort erstellen, bevor Sie die Topologie veröffentlichen. Wenn der Dateispeicher noch nicht vorhanden ist, kann die Topologie nicht veröffentlicht werden. 
   
-11. Wählen Sie den Front-End-Serverpool aus, der als nächster Hop für diesen beständigen Chat Serverpool verwendet werden soll. Dies ist der Front-End-Serverpool, der beständige Chat Server Anforderungen an diesen Pool weiterleiten kann.
+11. Wählen Sie den Front-End-Serverpool aus, der als nächster Hop für diesen Pool für den Server für beständigen Chat verwendet werden soll. Dies ist der Front-End-Serverpool, der Anforderungen des Servers für beständigen Chat an diesen Pool weiter routen kann.
     
-12. Klicken Sie auf **Fertig stellen**, um die Konfiguration zu speichern. Der Server Pool für beständigen Chat wird im Topologie-Generator mit ihren spezifischen Pooleinstellungen angezeigt.
+12. Klicken Sie auf **Fertig stellen**, um die Konfiguration zu speichern. Der Pool für den Server für beständigen Chat wird zusammen mit Ihren spezifischen Pooleinstellungen im Topologie-Generator angezeigt.
     
-    Informationen zum Veröffentlichen Ihrer aktualisierten Topologie, auf der Sie den beständigen Chat Server hinzugefügt haben, finden Sie unter Veröffentlichen der aktualisierten Topologie.
+    Informationen zum Veröffentlichen der aktualisierten Topologie, der Sie den Server für beständigen Chat hinzugefügt haben, finden Sie unter Veröffentlichen der aktualisierten Topologie.
     
     > [!NOTE]
-    > Wenn der Topologie-Generator bereits geöffnet ist, können Sie mit Schritt 3 in veröffentlichen der aktualisierten Topologie fortfahren, um mit der Veröffentlichung ihrer aktualisierten Topologie zu beginnen. 
+    > Wenn der Topologie-Generator bereits geöffnet ist, können Sie mit Schritt 3 in "Aktualisierte Topologie veröffentlichen" fortfahren, um mit der Veröffentlichung Der aktualisierten Topologie zu beginnen. 
   
 ## <a name="publish-the-updated-topology"></a>Veröffentlichen der aktualisierten Topologie
 <a name="BKMK_PublishTopology"> </a>
 
 Nachdem Sie Ihre Topologie im Topologie-Generator aktualisiert haben, müssen Sie die Topologie im zentralen Verwaltungsspeicher veröffentlichen, bevor Sie Skype for Business Server konfigurieren und verwenden können. Schreibgeschützte Kopien der Daten werden auf alle Server in der Topologie repliziert, sodass diese Server mit der Topologie und anderen Konfigurationsänderungen synchronisiert sind.
   
-Bevor Sie Ihre Topologie veröffentlichen, installieren Sie die Datenbanken für beständigen Chat Server. Mithilfe des Topologie-Generators können Sie Datenbanken installieren, indem Sie **Aktion** und **Datenbank installieren**auswählen.
+Installieren Sie vor dem Veröffentlichen der Topologie die Datenbanken für den Server für beständigen Chat. Verwenden Sie den Topologie-Generator, um Datenbanken zu installieren, indem **Sie "Aktion"** und **"Datenbank installieren" auswählen.**
   
-1. Auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, melden Sie sich mit einem Konto an, das ein Mitglied der Gruppe " **Domänen-Admins** " und der Gruppe " **RTCUniversalServerAdmins** " ist und das über die Berechtigung "Vollzugriff" (lesen, schreiben und ändern) im Dateispeicher für den Dateispeicher für beständigen Chat Server verfügt (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit einem entsprechenden Rechte.
+1. Auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, Melden Sie sich mit einem Konto an, das Mitglied der Gruppe **"Domänen-Admins"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen (Lesen, Schreiben und Ändern) für den Dateispeicher verfügt, der für den Dateispeicher für den Server für beständigen Chat verwendet werden soll (damit der Topologie-Generator die erforderlichen discretionary Access Control Lists (DACLs) konfigurieren kann) oder ein Konto mit entsprechenden Benutzerrechten.
     
-2. Starten Sie den Topologie-Generator. Wählen Sie **Topologie aus lokaler Datei öffnen**, wenn das Programm lokal gespeichert ist.
+2. Starten Sie den Topologie-Generator. Wählen **Sie "Topologie öffnen" aus einer lokalen Datei aus,** wenn Sie sie lokal gespeichert haben.
     
-3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf **Skype for Business Server 2015**, und klicken Sie dann auf **Topologie veröffentlichen**.
+3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf **Skype for Business Server 2015,** und klicken Sie dann auf **"Topologie veröffentlichen".**
     
 4. Klicken Sie auf der Seite **Topologie veröffentlichen** auf **Weiter**.
     

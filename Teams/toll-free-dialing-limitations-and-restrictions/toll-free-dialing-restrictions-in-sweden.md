@@ -1,7 +1,7 @@
 ---
 title: Einschränkungen für gebührenfreie Telefonnummern in Schweden
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -21,17 +21,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 63d6e1a987c0fe12f4bdbd81b02f27340456c9bb
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: Auf diese Weise können Sie herausfinden, wie Sie in jedem Land bzw. jeder Region gebührenfreie Telefonnummern wählen. Nachdem Sie das Land bzw. die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit bestimmten Details, Einschränkungen und Beschränkungen für die Verfügbarkeit gebührenfreier Dienste, auf denen gebührenfreie Dienste verfügbar sind. Im Wählformat oder den Wählformaten werden die erforderlichen Zugriffscodes für die gebührenfreie Nummer in den einzelnen Ländern/Regionen angezeigt.
+ms.openlocfilehash: c5458dd661262eb8a5be4462fcc005d94e2bd121
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321898"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809125"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Einschränkungen für gebührenfreie Telefonnummern in Schweden
 
-[Suchen Sie nach einem anderen Land oder einer anderen Region](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und-Einschränkungen.
+[Suchen Sie nach einem anderen Land oder](../toll-free-dialing-limitations-and-restrictions.md)einer anderen Region, oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für die gebührenfreie Wählwahl.
 
 
 |**Details**|**Beschreibung**|

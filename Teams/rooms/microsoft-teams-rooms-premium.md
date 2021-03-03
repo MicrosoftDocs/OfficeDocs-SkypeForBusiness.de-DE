@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams rooms, verwalteter Dienst
+title: Verwalteter Dienst "Microsoft Teams Rooms"
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -15,132 +15,189 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Informieren Sie sich über den Microsoft Teams rooms Managed Service.
+description: Erfahren Sie mehr über den verwalteten Dienst "Microsoft Teams-Räume".
 f1keywords: ''
-ms.openlocfilehash: 783c63e6264cb94ae45c5c8c42de7c52e2337931
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
+ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662660"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50043949"
 ---
-# <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams rooms, verwalteter Dienst
+# <a name="microsoft-teams-rooms-managed-service"></a>Verwalteter Dienst "Microsoft Teams Rooms"
 
-Der Microsoft Teams rooms Managed Service ist ein Cloud-basierter IT-Verwaltungs-und Überwachungsdienst, mit dem Microsoft Teams rooms-Geräte und Ihre Peripheriegeräte auf dem neuesten Stand gehalten und proaktiv überwacht werden, wodurch eine für eine hervorragende Benutzererfahrung optimierte Umgebung unterstützt wird.
+Der verwaltete Dienst "Microsoft Teams Rooms" ist ein cloudbasierter IT-Verwaltungs- und Überwachungsdienst, der Microsoft Teams Rooms-Geräte und ihre Peripheriegeräte auf dem neuesten Stand hält und proaktiv überwacht und eine umgebung unterstützt, die für eine großartige Benutzererfahrung optimiert ist.
 
-Der Microsoft Teams rooms Managed Service richtet sich an Organisationen, die ihre Besprechungsraum-Erfahrung verbessern und Ihren Fußabdruck schnell skalieren möchten, indem Sie proaktives Management für Microsoft Teams rooms-Geräte anbieten. Mit dem Dienst können Organisationen Zeit, Geld und Fachwissen sparen, die ansonsten für die Verwaltung von "Do it yourself" aufgewendet werden.  
+Der verwaltete Dienst "Microsoft Teams Rooms" ist für Organisationen, die die Benutzererfahrung in Besprechungsräumen verbessern und ihren Speicherbedarf schnell skalieren wollen, indem sie eine proaktive Verwaltung für Geräte mit Microsoft Teams Rooms bieten. Der Dienst ermöglicht Es Organisationen, Zeit, Geld und Fachwissen zu sparen, die andernfalls für die "Do it yourself"-Raumverwaltung ausgegeben würden.  
 
-Der Microsoft Teams rooms Managed Service basiert auf einem starken Fundament der Microsoft-Expertise in der softwaregestützten Verwaltung von Endpunkten, maschinellem lernen und intelligenter Automatisierung. Der Microsoft Teams rooms Managed Service unterstützt Organisationen dabei, eine hochwertige Oberfläche für mehrere Remote-Standorte bereitzustellen, und kann jede Wachstumsdynamik berücksichtigen, die eine Organisation benötigen könnte.
+Der verwaltete Dienst von Microsoft Teams Rooms baut auf dem Fachwissen von Microsoft im Bereich der softwarefähigen Verwaltung von Endpunkten, maschinellem Lernen und intelligenter Automatisierung auf. Der verwaltete Dienst "Microsoft Teams Rooms" hilft Organisationen bei der Bereitstellung einer qualitativ hochwertigen Erfahrung über mehrere Remotestandorte hinweg und kann jedem für eine Organisation möglicherweise benötigten Wachstum entgegenkommen.
 
 ## <a name="service-capabilities"></a>Dienstfunktionen
 
-Nachfolgend finden Sie eine Übersicht über die Funktionen des verwalteten Microsoft Teams rooms-Diensts.
+Hier ist eine Übersicht über die Funktionen des verwalteten Diensts "Microsoft Teams Rooms".
 
 |Funktionen  |Beschreibung  |
 |---------|---------|
-|**Raumplanung und-Rollout**   |Raum Planungsfunktionen, mit denen Sie Ihren Raum Inventar-Inventar verstehen und Entscheidungen über Gerätestandards für neue Raum Bereitstellungen treffen können.         |
-|**Überwachung und Problembehandlung**  |Überwachung der Raum Integrität, die Probleme mit dem Raumsystem und Peripheriegeräten erkennt und eine proaktive Reaktion auf das Incident-Management bietet, die von Microsoft angetrieben wird.         |
-|**Update Verwaltung**    |Verwaltung und Bereitstellung von Anwendungs-und Firmware-Updates für Raumsysteme und deren Peripheriegeräte, die von Microsoft ausgeführt werden.         |
-|**Einblicke und Empfehlungen**     |Einblicke in Kunden Gesundheit, Nutzung, Nutzung und Zuverlässigkeit von Geräten.         |
+|**Raumplanung und -rollout**   |Raumplanungsfunktionen, mit denen Sie das Inventar Ihres Raumgeräts verstehen und Entscheidungen zu den Gerätestandards für neue Raumbereitstellungen treffen können.         |
+|**Überwachung und Problembehandlung**  |Die Überwachung des Raumzustands, die Probleme mit dem Raumsystem und Peripheriegeräten erkennt und eine proaktive Reaktion auf die Vorfallverwaltung ermöglicht, die von Microsoft gesteuert wird.         |
+|**Updateverwaltung**    |Verwaltung und Bereitstellung von Anwendungs- und Firmwareupdates für Raumsysteme und deren Peripheriegeräte, die von Microsoft ausgeführt werden.         |
+|**Einblicke und Empfehlungen**     |Einblicke in die Integrität, Nutzung, Nutzung und Zuverlässigkeit von Geräten.         |
 |**Compliance und Zertifizierungen**   |Erfüllt alle anwendbaren Standards für Microsoft Online Services.         |
-|**Kundendienst**   |24x7x365-Ticket-Support über das dedizierte Microsoft Teams rooms Managed Service Service Operation Center (SoC). Eskalation in Ihrem Auftrag an andere primäre Anbieter, falls zutreffend. Weitere Informationen finden Sie unter [Kundendienst](#customer-support).|
-|**Unterstützte Geräte**    |Zertifizierte Microsoft Teams rooms Systems und deren Peripheriegeräte.         |
-|**Unterstützte Regionen**    |Siehe [unterstützte Regionen](#supported-regions).        |
+|**Kundensupport**   |24 x 7 x 365 Ticketunterstützung über das dedizierte Microsoft Teams Rooms Managed Service Operation Center (SOC). Eskalieren Sie in Ihrem Namen, falls zutreffend, an andere primäre Lieferanten. Weitere Informationen finden Sie unter [Kundensupport.](#customer-support)|
+|**Unterstützte Geräte**    |Zertifizierte Microsoft Teams -Räume-Systeme und ihre Peripheriegeräte.<br>*Surface Hub-Unterstützung wird in der zweiten Hälfte von 2021 unterstützt*        |
+|**Unterstützte Regionen**    |Weitere Informationen [finden Sie unter "Unterstützte Regionen".](#supported-regions)        |
 |**Integration**    |Verfügbare Integration mit vom Kunden gehosteten Dienst jetzt.         |
 
 ## <a name="service-features"></a>Dienstfeatures
 
-Nachfolgend finden Sie eine Zusammenfassung der wichtigen Funktionen, die der Microsoft Teams rooms Managed Service zur Unterstützung der oben genannten Funktionen bietet.
+Hier finden Sie eine Zusammenfassung wichtiger Features, die der verwaltete Dienst "Microsoft Teams Rooms" zur Unterstützung der oben genannten Funktionen bietet.
 
 |Feature  |Beschreibung  |
 |---------|---------|
-|**Bestandsverwaltung**   |Raum Inventar Nachverfolgung mit einer Massenexport Option, die Raum Geräte, Peripheriegeräte, Marken und Modelle auflistet.         |
-|**Raum Anmeldung**   |Einfache Onboarding-Funktion mit der Selbstregistrierung von Raum Geräten in den Microsoft Teams rooms Managed Service.          |
-|**Raumverwaltung**     |Kundenportal für Managed-Service-Funktionen, Einblicke, administrative Einstellungen und Verwaltung von Raumgruppen.         |
-|**Überwachen**    |Überwachung von Anwendungs-, Betriebssystem-, Peripherie-und Firmware-Status Automatische Vorfallerkennung für Probleme, die sich aufgrund von Problemen wie peripherer Gesundheit auf Besprechungs Erfahrungen auswirken. Übersicht über den gesamten Raum, Immobilien und Zwischenfälle über das Microsoft Teams rooms Managed Service Portal.|
-|**Problembehandlung und Behebung**     |Automatische Diagnose und automatische Wiederherstellung, falls zutreffend. Microsoft Teams rooms Managed Service SOC-unterstützte Incident-Wiederherstellung für nicht automatisierte Fälle. Service now-Integration für die Vorfall Koordination.         |
-|**Update Verwaltung**   |Automatisierte Besprechungs Anwendung und Firmware-Update-Orchestrierung basierend auf vom Kunden konfigurierbaren Bereitstellungs Ringen         |
-|**Einblicke und Empfehlungen**   |Verwendung, Vorfälle, Integrität und Gesamt Berichterstattung (Verlaufs Ansichten)         |
+|**Bestandsverwaltung**   |Überwachung von Rauminventaren mit einer Massenexportoption, die Raumgeräte, Peripheriegeräte, Hersteller und Modelle auflistet.         |
+|**Raumregistrierung**   |Einfaches Onboarding mit der Selbstregistrierung von Raumgeräten beim verwalteten Dienst "Microsoft Teams Rooms".          |
+|**Raumverwaltung**     |Kundenportal für Funktionen für verwaltete Dienste, Einblicke, Verwaltungseinstellungen und Die Verwaltung von Raumgruppen.         |
+|**Überwachen**    |Überwachung von Anwendungen, Betriebssystemen, Peripheriegeräten und Firmware. Automatische Vorfallerkennung für Probleme, die die Besprechungserfahrung aufgrund von Problemen wie Peripheriegeräten beeinträchtigen. Health overview of the entire room immobilien and incidents through the Microsoft Teams Rooms managed service portal.|
+|**Problembehandlung und Problembehebung**     |Automatisierte Diagnose und automatische Wartung (sofern zutreffend). Microsoft Teams Rooms managed service SOC-assisted incident remediation for non-automated cases. Integration von "Service Now" für die Vorfallkoordinierung.         |
+|**Updateverwaltung**   |Automatische Besprechungsanwendung und Firmwareupdate-Orchestrierung auf Grundlage von vom Kunden konfigurierbaren Bereitstellungsringe         |
+|**Einblicke und Empfehlungen**   |Nutzung, Vorfälle, Integrität und Gesamtberichterstattung (Verlaufsansichten)         |
 
-## <a name="service-prerequisites"></a>Dienst Voraussetzungen
+## <a name="service-prerequisites"></a>Dienstvoraussetzungen
 
-Damit der Microsoft Teams rooms Managed Service die Servicequalität aufrecht erhalten kann, müssen die von [Microsoft Teams rooms unterstützten Geräte](requirements.md#hardware-requirements)für Ihre Umgebung auf alle [erforderlichen Office 365-URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) vorbereitet werden, die von Besprechungsraum Geräten vollständig zugelassen und erreichbar sind. Weitere Informationen finden Sie unter [Vorbereiten Ihrer Umgebung](rooms-prep.md) in der Microsoft Teams rooms-Dokumentation.
+Damit für den verwalteten Dienst von Microsoft Teams die Dienstqualität erhalten bleiben kann, müssen registrierte Räume von [Microsoft Teams](requirements.md#hardware-requirements)Rooms unterstützte Geräte sein, und Sie müssen Ihre Umgebung mit allen erforderlichen [Office 365-URLs](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) und -IP-Adressbereichen vorbereiten, die von Besprechungsraumgeräten vollständig zugelassen und erreichbar sind. Weitere Informationen finden Sie unter "Vorbereiten [Ihrer Umgebung"](rooms-prep.md) in der Dokumentation zu Microsoft Teams-Räumen.
 
-Als Anbieter eines verwalteten Diensts muss Microsoft mit Verantwortlichen Stakeholdern für Räume in Ihrer Organisation zusammenarbeiten, um Räume gesund zu halten und Probleme zu beheben. Sie sind für nicht zertifizierte Geräte verantwortlich, die in Besprechungsräumen, Drittanbieter-oder benutzerdefinierten Software verwendet werden, die Sie in ihren Besprechungsraum Geräten bereitstellen möchten, und die Einhaltung der von Microsoft empfohlenen Änderungs Verwaltungsmethoden.
+Als Anbieter eines verwalteten Diensts muss Microsoft mit verantwortlichen Projektbeteiligten für Räume in Ihrer Organisation zusammenarbeiten, um die Räume fehlerfrei zu halten und Probleme zu beheben. Sie sind verantwortlich für nicht zertifizierten Geräte, die in Besprechungsräumen, von Drittanbietern oder benutzerdefinierter Software verwendet werden, die Sie für die Bereitstellung auf Ihren Besprechungsraumgeräten ausgewählt haben, und für die Einhaltung der von Microsoft empfohlenen Verwaltungspraktiken.
 
-Ihre Organisation oder ein Partner, der von Ihrer Organisation unter Vertrag genommen wurde, muss bereit sein, die vom Dienst erkannte letzte Meile zu beheben.
+Ihre Organisation oder ein von Ihrer Organisation geschäftspartner Partner muss darauf vorbereitet sein, Probleme der letzten Meile zu beheben, die vom Dienst erkannt wurden.
 
-## <a name="customer-support"></a>Kundendienst
+## <a name="customer-support"></a>Kundensupport
 
-Der Managed Service für Microsoft Teams Rooms wird über eine dedizierte Microsoft Teams rooms Managed Service SOC unterstützt. Der primäre Modus für die Kommunikation aus den Microsoft Teams rooms Managed Service Soc für Kunden ist über das Microsoft Teams rooms Managed Service Portal. Das Microsoft Teams rooms Managed Service SOC bietet erste Antwort und eine angemessene Eskalation von Tickets, die vom System oder von Ihrer Organisation ausgelöst werden.
+Der verwaltete Dienst "Microsoft Teams Rooms" wird von einem dedizierten, von Microsoft Teams Rooms verwalteten Dienst SOC unterstützt. Der primäre Modus für die Kommunikation vom SoC für verwaltete Microsoft Teams -Räume zu Kunden ist über das Portal für verwaltete Dienste in Microsoft Teams Rooms. Der verwaltete Dienst "Microsoft Teams Rooms", SOC, bietet erste Reaktionen und eine angemessene Eskalierung bei Eintrittskarten, die vom System oder von Ihrer Organisation ausgelöst werden.
 
 |  |  |
 |---------|---------|
-|**Umfang**   |Zwischenfälle, die sich auf die Besprechungsraum-APP, Raum Geräte und Peripheriegeräte beziehen, sind in Microsoft Teams rooms Managed Service Support enthalten.|
-|**Publikum**  |Nur IT-Vorgänge         |
+|**Umfang**   |Vorfälle im Zusammenhang mit der App für Besprechungsräume, Raumgeräten und Peripheriegeräten sind teil des Dienstsupports für verwaltete Microsoft Teams-Räume.|
+|**Zielgruppe**  |Nur IT-Vorgänge         |
 |**Unterstützte Sprachen**    |Englisch         |
-|**Support-Verfügbarkeit über das Portal**   | 24X7      |
-|**Anfängliche Antwortzeit für die Microsoft Teams rooms Managed Service SOC**   |  4 Stunden       |
-|**Automatisiertes schließen von Tickets in Fällen von Kunden Inaktivität**    |Vom Kunden initiierte Tickets: 3 Werktage<br>Vom System initiierte Tickets: 15 Arbeitstage</li>   </ul>      |
-|**Umleitung zu einem breiteren Microsoft-Support**   |Probleme mit einem anderen Microsoft-Produkt außerhalb des Bereichs des verwalteten Microsoft Teams rooms-Diensts werden an das entsprechende Support Team weitergeleitet.         |
-|**Umleitung zum OEM-Support (Original Equipment Manufacturer)**    |Das Microsoft Teams rooms Managed Service SOC arbeitet, um das Problem zu verstehen und hilft gegebenenfalls bei der Koordinierung der Unterstützung für den OEM. In einigen Fällen sind Sie möglicherweise für die direkte Einbindung des OEM verantwortlich.         |
+|**Verfügbarkeit des Support über das Portal**   | 24 x 7      |
+|**Anfängliche Antwortzeit für den verwalteten Dienst "Microsoft Teams Rooms", SOC**   |  4 Stunden       |
+|**Automatisiertes Schließen von Tickets bei Kundeninaktivität**    |Vom Kunden initiierte Tickets: 3 Werktage<br>Vom System initiierte Tickets: 15 Werktage</li>   </ul>      |
+|**Umleitung auf breiteren Microsoft Support**   |Probleme im Zusammenhang mit einem anderen Microsoft-Produkt, die außerhalb des verwalteten Diensts von Microsoft Teams Rooms liegen, werden an das entsprechende Supportteam gerichtet.         |
+|**Umleitung an den Originalgerätehersteller (OEM)**    |Das SOC für verwaltete Microsoft Teams Rooms versteht das Problem und hilft, ggf. die Unterstützung mit dem OEM zu koordinieren. In einigen Fällen sind Sie möglicherweise dafür verantwortlich, direkt mit dem OEM in Kontakt zu werden.         |
 
-Beachten Sie außerdem, dass die Microsoft Teams rooms Managed Service SOC IT-Vorgänge in Ihrer Organisation unterstützen und kein Ersatz für die Helpdesk-Dienste für Ihre Endbenutzer sind.
+Beachten Sie außerdem, dass der verwaltete Dienst "Microsoft Teams Rooms" SOC den IT-Betrieb in Ihrer Organisation unterstützt und nicht als Ersatz für die Helpdeskdienste für Ihre Endbenutzer verwendet wird.
 
-Weitere Informationen zu den Microsoft Teams rooms Managed Service Support Coverage finden Sie unter [unterstützen von Einschlüssen und Ausschlüssen](#support-inclusions-and-exclusions).
+Weitere Details zur Supportabdeckung für verwaltete Dienste in Microsoft Teams Rooms finden Sie unter ["Einschlüsse und Ausschlüsse" für den Support.](#support-inclusions-and-exclusions)
 
 ## <a name="supported-regions"></a>Unterstützte Regionen
 
-Der Microsoft Teams rooms Managed Service steht in den folgenden Ländern und Regionen zur Verfügung.
+Der verwaltete Dienst "Microsoft Teams Rooms" steht in den folgenden Ländern und Regionen zur Verfügung. 
 
+- Andorra
 - Australien
 - Österreich
 - Belgien
-- Kanada (ohne Quebec)
+- Bouvetinsel
+- Brasilien
+- Bulgarien
+- Kanada
+- Weihnachtsinsel
+- Kokosinseln
+- Cookinseln
+- Kroatien
+- Zypern
+- Tschechische Republik
 - Dänemark
-- Finnland
+- Estland
+- Färöer
+- Fidschi
+- Frankreich
 - Deutschland
+- Gibraltar
 - Griechenland
+- Grönland
+- Heard und McDonaldinseln
+- Hongkong (SAR)
+- Ungarn
+- Island
+- Indien
 - Irland
 - Italien
+- Japan
+- Kiribati
+- Lettland
+- Lesotho
+- Liechtenstein
+- Litauen
 - Luxemburg
+- Macau (SAR)
+- Malta
+- Marshall-Inseln
+- Mexiko
+- Mikronesien
 - Monaco
+- Nauru
 - Niederlande
 - Neuseeland
+- Niue
+- Norfolkinsel
+- Nördliche Marianen
 - Norwegen
+- Palau
+- Png-Neuguinea
+- Pitcairninseln
+- Polen
 - Portugal
+- Rumänien
+- Russische Föderation
+- St. Pierre und Miquelon
+- Samoa
+- San Marino
+- Singapur
+- Slowakei
+- Slowenien
+- Salomonen
+- Südafrika
 - Spanien
+- Swasiland
 - Schweden
 - Schweiz
+- Taiwan
+- Tokelau
+- Tonga
+- Tuvalu
 - Großbritannien
 - Vereinigte Staaten
+- Vanuatu
+- Vatikanstadt
+- Wallis und Futuna
 
-## <a name="support-inclusions-and-exclusions"></a>Unterstützen von Einschlüssen und Ausschlüssen
+## <a name="support-inclusions-and-exclusions"></a>Supporteinschlüsse und Ausschlüsse
 
 
-|Was ist im Lieferumfang enthalten |Was ist ausgeschlossen |Support Kanäle für ausgeschlossene Elemente  |
+|Was enthalten ist |Ausgeschlossene |Unterstützungskanäle für ausgeschlossene Elemente  |
 |---------|---------|---------|
 |**Dienstkonfiguration**   |         |         |
-|Untersuchung und Anleitung für die Windows-Konfiguration von Microsoft Teams rooms, einschließlich Microsoft Teams rooms-App-Einstellungen, Erstanbieter-Netzwerkkonfiguration, Software-Setup für Erstanbieter und empfohlene Energieeinstellungen und-Konfiguration.     |Alle Softwarekonfigurationen und Untersuchungen von Drittanbietern, die nicht direkt Teil der Microsoft Teams Room-APP sind. Darüber hinaus OEM-spezifische Konfigurationen, die eine Konfiguration außerhalb der Erstanbieter-Windows-oder der Microsoft Teams Room-App-Einstellungen erfordern.         |Standardmäßige Supportkanäle von Drittanbietern         |
-|**Einrichtung des Raum Kontos**    |         |         |
-|Richtung zur verfügbaren Dokumentation zur Einrichtung des Raum Kontos auf Anforderung. Bei Anmelde-oder Konto Konfigurationsproblemen werden erste Untersuchungen durchgeführt.     |Durchführung der empfohlenen Behebung oder Probleme mit der Ausführung der empfohlenen Behebung, der Konfiguration von Drittanbieter-Authentifizierungsanbietern und der Konfiguration von Features für einzelne Konten.        |Unterstützung für Microsoft Mainstream und Authentifizierungsanbieter von Drittanbietern         |
-|**Periphere Unterstützung**    |         |         |
-|Erste Untersuchungen werden für zertifizierte Peripheriegeräte wie Kameras, Mikrofone und Lautsprecher durchgeführt.    |Probleme, die nicht durch Anwenden von Standardkonfigurationen oder durch eine Anwendung eines Drittanbieters behoben werden.         |OEM-Support         |
-|**RMA-und Geräteaustausch**   |         |         |
-|Erste Untersuchungen werden für zertifizierte Peripheriegeräte wie Kameras, Mikrofone und Lautsprecher durchgeführt. Die Übergabe an den OEM-Support erfolgt für den OEM, um den Ersatz-oder Gewährleistungsantrag zu erfüllen.    |Beschaffung, Versand oder Installation von Ersetzungen.         |OEM-Support         |
-|**Ursachenanalyse**     |         |         |
-|Alle Ursachen für Probleme, die in der Besprechungsraum-Erfahrung auftreten, werden zur Verfügung gestellt, werden aber auf der Grundlage der Verfügbarkeit durchgeführt.     |Die Ursachenanalyse für Softwareprobleme von Drittanbietern ist nicht enthalten.         |Standardmäßige Supportkanäle von Drittanbietern         |
+|Untersuchung und Anleitung für die Windows-Konfiguration von Microsoft Teams-Räumen, einschließlich Microsoft Teams Rooms-App-Einstellungen, Netzwerkkonfiguration von Erstherstellern, Einrichtung von Erstsoftware sowie empfohlener Energieeinstellungen und -konfiguration.     |Softwarekonfigurationen und Untersuchungen von Drittanbietern, die nicht direkt Teil der Microsoft Teams Room-App sind. Außerdem alle OEM-spezifischen Konfigurationen, die eine Konfiguration außerhalb von Fenstern von Erstherstellern oder Microsoft Teams Room-App-Einstellungen erfordern.         |Standardsupportkanäle von Drittanbietern         |
+|**Einrichtung eines Raumkontos**    |         |         |
+|Wegbeschreibung zur verfügbaren Dokumentation für die Einrichtung eines Raumkontos auf Anfrage. Bei Anmelde- oder Kontokonfigurationsproblemen wird eine erste Untersuchung durchgeführt.     |Ausführung der empfohlenen Wartung oder Probleme mit der Ausführung der empfohlenen Wartung, der Konfiguration von Drittanbieterauthentifizierungsanbietern und der Konfiguration von Features für Einzelkonto.        |Support für Mainstreamsupport und Authentifizierungsanbieter von Microsoft         |
+|**Peripherieunterstützung**    |         |         |
+|Erste Untersuchungen werden für zertifizierte Peripheriegeräte wie Kameras, Mikrofone und Lautsprecher durchgeführt.    |Probleme, die nicht durch Anwenden von Standardkonfigurationen oder einer Drittanbieteranwendung gelöst werden können.         |OEM-Support         |
+|**RMA und Gerätetausch**   |         |         |
+|Erste Untersuchungen werden für zertifizierte Peripheriegeräte wie Kameras, Mikrofone und Lautsprecher durchgeführt. Der Oem muss den Support an den OEM übergaben, um die Ersatz- oder Garantieanforderung zu erfüllen.    |Beschaffung, Versand oder Installation von Ersatz.         |OEM-Support         |
+|**Analyse der Stammursache**     |         |         |
+|Alle Stammursachen für Probleme, die in der Besprechungsraumerfahrung auftreten, werden bereitgestellt, wenn sie verfügbar sind, jedoch nach Möglichkeit ausgeführt.     |Die Ursache für Softwareprobleme von Drittanbietern wird nicht berücksichtigt.         |Standardsupportkanäle von Drittanbietern         |
 |**Auswirkung**   |         |         |
-|Die Untersuchung von Problemen innerhalb der Besprechungseinstellungen in der Microsoft Teams rooms-APP und Anleitungen für die ordnungsgemäße Konfiguration der Dienstqualität auf dem Gerät werden auf Anforderung bereitgestellt.      |Ursachenanalyse oder Ermittlungen für Probleme mit der Anrufqualität oder netzwerkbezogene Probleme sind von diesem Bereich ausgeschlossen.         |Microsoft Mainstream-Support         |
-|**Behebung, Onboarding und laufendes**     |         |         |
-|Kunden erhalten Anleitungen, um Ihre Räume nach Standards zu versetzen, die von Microsoft Teams rooms Managed Service bei Onboarding empfohlen werden.    |Untersuchungen in Bezug auf interne benutzerdefinierte Software Bilder oder nicht-kompatibel mit empfohlenen Software Versions Anleitungen aus Microsoft Teams rooms Managed Service sind nicht im Umfang.          |         |
+|Das Untersuchen von Problemen in den Besprechungseinstellungen in der Microsoft Teams -Räume-App und Anleitungen zum ordnungsgemäßen Konfigurieren der Dienstqualität auf dem Gerät werden auf Anfrage bereitgestellt.      |Stammursachenanalyse oder -untersuchungen für Probleme mit der Anrufqualität oder netzwerkbezogene Probleme werden aus diesem Bereich ausgeschlossen.         |Microsoft Mainstream Support         |
+|**Wartung, Onboarding und laufende**     |         |         |
+|Kunden erhalten Anleitungen, wie sie ihre Räume auf Standards bringen können, die vom verwalteten Dienst für Microsoft Teams Rooms bei der Onboarding empfohlen werden.    |Untersuchungen in Bezug auf eigene benutzerdefinierte Softwarebilder oder nicht kompatible Richtlinien zu empfohlenen Softwareversionsanleitungen von verwalteten Microsoft Teams Rooms spielen keine Rolle.          |         |
 
-## <a name="data-collection"></a>Datenerfassung
+## <a name="data-collection"></a>Datensammlung
 
-Der Microsoft Teams rooms Managed Service überwacht Geräte, sammelt Gerätedaten und ermöglicht es Microsoft, auf Raum Geräten Remote zuzugreifen und Sie zu verwalten. Der Microsoft Teams rooms Managed Service greift nicht auf die Liveinhalte einer Besprechung zu.
+Der verwaltete Dienst "Microsoft Teams Rooms" überwacht Geräte, sammelt Gerätedaten und ermöglicht Es Microsoft, remote auf Raumgeräte zuzugreifen und diese zu verwalten. Der verwaltete Dienst "Microsoft Teams-Räume" kann nicht auf die Liveinhalte einer Besprechung zugreifen.
 
-Gesammelte Daten sind für ein Raum Konto und nicht für einen einzelnen benutzerspezifisch. Beiläufige Bezüge zu einem einzelnen Benutzer können während der Verwendung des Geräts im Aktivitätsprotokoll vorhanden sein. Gesammelte Daten werden von Microsoft gemäß den [Datenschutzbestimmungen von Microsoft](https://aka.ms/privacy)verarbeitet.  
+Die gesammelten Daten sind für ein Raumkonto und nicht für einen einzelnen Benutzer spezifisch. Zufällige Verweise auf einen einzelnen Benutzer können während der Verwendung des Geräts im Aktivitätsprotokoll vorhanden sein. Gesammelte Daten werden von Microsoft in Übereinstimmung mit den [Datenschutzbestimmungen von Microsoft verarbeitet.](https://aka.ms/privacy)  
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Microsoft Teams rooms, verwalteter Dienst](https://rooms.microsoft.com)
+- [Verwalteter Dienst "Microsoft Teams Rooms"](https://rooms.microsoft.com)

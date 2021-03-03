@@ -1,5 +1,5 @@
 ---
-title: Virtuelle Microsoft Teams-Besprechungsräume
+title: Microsoft Teams-Räume
 ms.reviewer: ''
 ms.author: dstrome
 author: dstrome
@@ -14,25 +14,25 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Hier erfahren Sie, wie Sie Microsoft Teams-Räume einrichten, einschließlich planen, bereitstellen und Verwalten des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
+description: Erfahren Sie, wie Sie Microsoft Teams Rooms einrichten, einschließlich der Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 85c3da4b1c39c60454c4530a7e45ca0695eb70b5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: b342c8081706355828e9854a46dd904d01f803e2
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662030"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196539"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
 :::row:::
     :::column span="2":::
-       Verwandeln Sie Besprechungsräume, die von kleinen drängenden Bereichen bis zu großen Konferenzräumen reichen, mit einer reichhaltigen, kollaborativen Teams-Erfahrung, die einfach zu verwenden, bereitzustellen und zu managen ist. <br> 
+       Verwandeln Sie Besprechungsräume– von kleinen, zusammengeknützten Bereichen – in große Konferenzräume mit einer umfassenden Teamerfahrung für die Zusammenarbeit, die einfach zu verwenden, zu implementieren und zu verwalten ist. <br> 
        Starten Sie Besprechungen pünktlich mit einem Klick, projizieren Sie sie dann sofort auf das Display im Raum und teilen Sie es mit Remote-Teilnehmer.<br> 
        Wählen Sie die richtige System- und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
     :::column-end:::
     :::column:::
-       ![Konferenz Tabelle mit Microsoft Teams rooms Equipment](../media/srs-room.jpg)
+       ![Ein Konferenztisch mit Geräten für Microsoft Teams-Räume](../media/srs-room.jpg)
     :::column-end:::
 :::row-end:::
 

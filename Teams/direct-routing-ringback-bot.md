@@ -1,7 +1,7 @@
 ---
-title: Einrichten des Begrüssungs-bot für direktes Routing
-author: LanaChin
-ms.author: v-lanac
+title: Einrichten des Ringbackbots für direktes Routing
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -9,38 +9,38 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie den Rückruf-bot für das direkte Routing verwenden, um unerwartete Stille zu verhindern, die auftreten können, wenn ein Anruf eingerichtet wird.
+description: Erfahren Sie, wie Sie den Ringbackbot für Direct Routing verwenden, um unerwartete Stille zu verhindern, die beim Erstellen eines Anrufs auftreten können.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26738002ab333d2490ef0dac5674a1f7cdc19efd
-ms.sourcegitcommit: 8974cd7a693bc879fed8222f551fd7ce3205dd65
+ms.openlocfilehash: 91cea9183a85a804ca43464aab08f417ccaff1e8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "49420955"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827515"
 ---
-# <a name="set-up-the-ringback-bot-for-direct-routing"></a>Einrichten des Begrüssungs-bot für direktes Routing
+# <a name="set-up-the-ringback-bot-for-direct-routing"></a>Einrichten des Ringbackbots für direktes Routing
 
-In diesem Artikel wird der Begrüssungs-bot beschrieben, mit dem Sie unerwartete Stille vermeiden können, die auftreten können, wenn es längere Zeit dauert, bis die Anrufe eingerichtet werden. Der Rückruf-bot steht für das direkte Routing im nicht-Media-Bypass-Modus zur Verfügung.
+In diesem Artikel wird der Ringback-Bot beschrieben, mit dem Sie unerwartete Stille vermeiden können, die auftreten können, wenn das Erstellen von Anrufen länger dauert. Der Ringbackbot ist für direct Routing im Nicht-Medienumgehungsmodus verfügbar.
 
-Manchmal können eingehende Anrufe aus dem PSTN (Public Switched Telephone Network) an Teams-Clients länger als erwartet dauern. Dies kann aus verschiedenen Gründen erfolgen. In diesem Fall hört der Anrufer möglicherweise nichts, der Team-Client klingelt nicht, und einige Telekommunikationsanbieter kündigen den Anruf möglicherweise an.
+Manchmal dauern eingehende Anrufe aus dem öffentlichen Telefonnetz (PSTN) an die Teams-Clients länger als erwartet. Dies kann aus verschiedenen Gründen auftreten. In diesem Fall hört der Anrufer möglicherweise nichts, der Teams-Client klingelt nicht, und einige Telekommunikationsanbieter brechen den Anruf möglicherweise ab.
 
-Der Rückruf-bot hilft, unerwartete Stille zu vermeiden, die in diesem Szenario auftreten können. Für eingehende Anrufe vom PSTN an Teams-Clients spielt der Rückruf-bot ein unverwechselbares Audiosignal an den Anrufer ab, um anzugeben, dass die Mannschaft den Anruf annimmt.
+Der Ringbackbot hilft Dabei, unerwartete Stille zu vermeiden, die in diesem Szenario auftreten können. Bei eingehenden Anrufen aus dem PSTN an die Teams-Clients gibt der Ringbackbot ein unverkennbares Audiosignal für den Anrufer wieder, um anzugeben, dass Teams den Anruf anruft.
 
 > [!NOTE]
-> Der Rückruf-bot generiert frühe Medien aus dem Back-End von Teams. In einigen Ländern und Regionen wird Ihnen möglicherweise der Anruf in Rechnung gestellt, wenn das Medium in den Fluss geht.
+> Der Ringbackbot generiert frühe Medien aus dem Teams-Back-End. In einigen Ländern und Regionen wird Ihnen der Anruf möglicherweise in Rechnung gestellt, wenn der Medienfluss beginnt.
 
-## <a name="configure-the-ringback-bot"></a>Konfigurieren des Rückruf-bot
+## <a name="configure-the-ringback-bot"></a>Konfigurieren des Ringbackbots
 
-Verwenden Sie das Cmdlet " [festlegen-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) ", um eine zuvor definierte SBC-Konfiguration (Session Border Controller) zu ändern, oder das Cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) , um eine neue SBC-Konfiguration zusammen mit dem **GenerateRingingWhileLocatingUser** -Parameter zum Konfigurieren des Rückruf-bot zu erstellen:
+Verwenden Sie das [Cmdlet "Set-CsOnlinePSTNGateway",](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) um eine zuvor definierte Konfiguration des Session Border Controllers (SBC) zu ändern, oder das [Cmdlet "New-CsOnlinePSTNGateway"](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) zum Erstellen einer neuen SBC-Konfiguration zusammen mit dem **Parameter "GenerateRingingWhileLocatingUser"** zum Konfigurieren des Ringbackbots:
 
-- Um den Rückruf-bot zu aktivieren, setzen Sie den **GenerateRingingWhileLocatingUser** -Parameter auf **$true**. Dies ist der Standardwert. 
+- Um den Ringbackbot zu aktivieren, legen Sie den Parameter **"GenerateRingingWhileLocatingUser"** auf **$True.** Dies ist der Standardwert. 
 
-- Um den Rückruf-bot zu deaktivieren, setzen Sie den **GenerateRingingWhileLocatingUser** -Parameter auf **$false**. 
+- Um den Ringbackbot zu deaktivieren, legen Sie den **Parameter "GenerateRingingWhileLocatingUser"** auf **$False.** 
 
 ## <a name="related-topics"></a>Verwandte Themen
 

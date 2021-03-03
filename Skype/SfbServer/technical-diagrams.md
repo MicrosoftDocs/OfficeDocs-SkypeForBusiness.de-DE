@@ -1,8 +1,8 @@
 ---
-title: Poster für Skype for Business Server 2015 | VoIP-Telefon Festnetz
+title: Poster für Skype for Business Server 2015 | Voice PSTN
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -15,50 +15,50 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-description: 'Zusammenfassung: Überprüfen Sie diese Poster bei der Planung, Implementierung oder Verwaltung von Skype for Business Server nach Bedarf.'
-ms.openlocfilehash: 7ca69c1d152d6239c55914ec527a5a851b641794
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 'Zusammenfassung: Überprüfen Sie diese Poster bei Bedarf beim Planen, Implementieren oder Verwalten von Skype for Business Server.'
+ms.openlocfilehash: f7adb80cd9d5ac7876b10d021c9b5c0f460dde17
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220025"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827355"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technische Diagramme für Skype for Business Server
 
-**Zusammenfassung:** Überprüfen Sie diese Poster bei der Planung, Implementierung oder Verwaltung von Skype for Business Server nach Bedarf.
+**Zusammenfassung:** Überprüfen Sie diese Poster bei Bedarf beim Planen, Implementieren oder Verwalten von Skype for Business Server.
 
-Diese Ressourcen stehen im Visio-Format (vsdx) (Visio 2015) und im PDF-Format zur Verfügung. Weitere Informationen zum Drucken von Dokumenten finden Sie unter [Tipps für das Drucken von Postern im Großformat](technical-diagrams.md#tips).
+Diese Ressourcen sind im Visio- (VSDX)-Format (Visio 2015) und im PDF-Format verfügbar. Informationen zum Drucken von Dokumenten finden Sie unter [Tipps zum Drucken von großformatigen Postern.](technical-diagrams.md#tips)
 
 Für die Anzeige dieser Dateien kann zusätzliche Software erforderlich sein. Weitere Informationen dazu sind in der folgenden Tabelle angegeben.
 
 |Dateityp|Software|
 |:--- |:--- |
-|VSD |Visio 2010, Visio 2013 oder der [﻿Kostenlose Visio Viewer](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> Bei Verwendung des Visio-Viewers klicken Sie mit der rechten Maustaste auf die VSD-Verknüpfung, wählen Sie **Ziel speichern unter** aus, speichern Sie die Datei auf Ihrem Computer, und öffnen Sie die Datei dann auf Ihrem Computer. |
+|.vsd |Visio 2010, Visio 2013 oder der [kostenlose Visio Viewer](https://go.microsoft.com/fwlink/p/?LinkId=393676) <br/> Bei Verwendung des Visio-Viewers klicken Sie mit der rechten Maustaste auf die VSD-Verknüpfung, wählen Sie **Ziel speichern unter** aus, speichern Sie die Datei auf Ihrem Computer, und öffnen Sie die Datei dann auf Ihrem Computer. |
 |PDF |Jeder beliebige PDF-Viewer, z. B. [Adobe Reader](https://go.microsoft.com/fwlink/p/?LinkId=393675) |
-|.ZIP |Ein beliebiges Dateikomprimierungsdienstprogramm. In Windows 7 und höher werden diese Dateien nativ geöffnet. |
+|.ZIP |Ein beliebiges Hilfsprogramm für die Dateikomprimierung. Windows 7 und höher öffnet diese Dateien nativ. |
 
 ## <a name="posters"></a>Poster
 
-Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die Verwendung der entsprechenden Artikel oder Inhalte im Download Center gedacht.
+Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die Verwendung mit entsprechenden Artikeln oder Inhalten vorgesehen, die im Download Center verfügbar sind.
 
-Weitere Informationen zur Verwendung von Microsoft Teams finden Sie unter [Microsoft Teams IT Architecture and Telephony Solutions Poster](https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters).
+Weitere Informationen zur Verwendung von Microsoft Teams finden Sie auf den [Postern zur Microsoft Teams-IT-Architektur und -Telefonielösungen.](https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters)
 
 |Titel|Beschreibung|
 |:---|:---|
-|**Skype for Business Server Protokoll-Arbeitsauslastungen** <br/>![Poster für SFB-Protokoll Arbeitslasten](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF-Version](https://go.microsoft.com/fwlink/p/?LinkId=550989) (am besten für Mobilgeräte und Tablet-Computer) <br/> [Visio-Version](https://go.microsoft.com/fwlink/p/?LinkId=550991) (am besten für Benutzer mit Visio) |Laden Sie dieses Poster herunter, um die Anforderungen von Skype for Business-Servern und-Clients unter verschiedenen Dienst Komplexitätsstufen besser zu verstehen.<br/> <br/> Größe: 11-by-17 Zoll (mehrere Blätter, bequem zu drucken auf den meisten Office-Druckern Größe) <br/> <br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
-|**Skype for Business Methode für die Anrufqualität** <br/> ![Call Quality Method Poster](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF-Version](https://go.microsoft.com/fwlink/p/?LinkId=617899) (am besten für Mobilgeräte und Tablet-Computer) <br/> [Visio-Version](https://go.microsoft.com/fwlink/p/?LinkId=617900) (am besten für Benutzer mit Visio) |Laden Sie dieses Poster herunter, um mehr über CQM, die Methodik der Anrufqualität für Skype for Business Server 2015 zu erfahren, die Sie bei der Suche und Beseitigung von Problemen, die die Anrufqualität und die Benutzerfreundlichkeit für Implementierungen umfassen, die Enterprise-VoIP-Funktionen <br/> <br/> Verwenden Sie die [Seite Download Details](https://go.microsoft.com/fwlink/p/?LinkId=617898) , um die druckbaren Karten und Regeln zu erhalten, wenn Sie Sie als Brettspiel spielen möchten. Verwenden Sie dieses Poster mit der [CQM-Scorecard](https://go.microsoft.com/fwlink/p/?LinkId=617904). <br/><br/> Größe: 34-by-44 inch <br/> <br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
-|**Skype for Business VoIP-Lösungen** <br/> ![Plan Voice Solutions Poster](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF-Version](https://go.microsoft.com/fwlink/?linkid=869123) (am besten für Mobilgeräte und Tablet-Computer) <br/> [Visio-Version](https://go.microsoft.com/fwlink/?linkid=869124) (am besten für Benutzer mit Visio) |Microsoft bietet eine Vielzahl von Optionen, mit denen Sie Ihren Benutzern das Anrufen von Festnetzen und Mobiltelefonen über das Telefon Festnetz (Public Switched Telephone Network, PSTN) ermöglichen können – unabhängig davon, ob Ihre Konten in Microsoft 365 oder Office 365 auf Skype for Business Online oder in Ihrer lokalen Skype for Business Server 2015-Bereitstellung vorhanden sind. Dieses Poster beschreibt die verschiedenen Microsoft Voice-Angebote und bietet dann Anleitungen, welche Optionen für Sie am besten geeignet sind, je nach dem aktuellen Status Ihrer Organisation und den zukünftigen Plänen. <br/> <br/> Größe: 34-by-44 inch <br/><br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
-|**Skype for Business Architekturmodelle** <br/> ![Skype for Business Architekturmodelle](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF-Version](https://go.microsoft.com/fwlink/?linkid=869125) (am besten für Mobilgeräte und Tablet-Computer) <br/> [Visio-Version](https://go.microsoft.com/fwlink/?linkid=869126) (am besten für Benutzer mit Visio) |Diese Plakatreihe ist für die Zielgruppe von IT-Experten gedacht, um die verschiedenen grundlegenden Architekturmodelle zu sensibilisieren, über die Skype for Business Online und Skype for Business Server 2015 vor Ort genutzt werden können. Beginnen Sie mit der Konfiguration, die am besten für die Anforderungen Ihrer Organisation und für zukünftige Pläne geeignet ist. Bei Bedarf können Sie auf die anderen Konfigurationen zurückgreifen. Sie können beispielsweise die Integration in Exchange und SharePoint oder eine Lösung in Anspruch nehmen, die das Cloud-PBX-Angebot von Microsoft nutzt. <br/><br/> Größe: 11-by-17 Zoll <br/><br/> Dieses Poster wurde mit Visio 2010 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
+|**Skype for Business Server Protocol Workloads** <br/>![Poster "SfB Protocol Workloads"](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF-Version](https://go.microsoft.com/fwlink/p/?LinkId=550989) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Version von Visio](https://go.microsoft.com/fwlink/p/?LinkId=550991) (am besten für Benutzer mit Visio) |Laden Sie dieses Poster herunter, um die Anforderungen von Skype for Business-Servern und -Clients mit unterschiedlichen Ebenen der Dienstkomplexität besser zu verstehen.<br/> <br/> Größe: 11-by-17 Zoll (mehrere Blätter, bequem dimensioniert, um auf den meisten Bürodruckern zu drucken) <br/> <br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
+|**Skype for Business Call Quality Methodology** <br/> ![Poster "Call Quality](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[Methodology"](https://go.microsoft.com/fwlink/p/?LinkId=617899) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Version von Visio](https://go.microsoft.com/fwlink/p/?LinkId=617900) (am besten für Benutzer mit Visio) |Laden Sie dieses Poster herunter, um mehr über CQM zu erfahren, die Anrufqualitätsmethode für Skype for Business Server 2015, mit der Sie Probleme finden und beheben können, die sich auf die Anrufqualität und die Benutzerfreundlichkeit für Implementierungen mit Enterprise-Voice-Funktionen ausdingen. <br/> <br/> Verwenden Sie [die Downloaddetailsepage,](https://go.microsoft.com/fwlink/p/?LinkId=617898) um die druckbaren Karten und Regeln zu erhalten, wenn Sie es als Brettspiel spielen möchten. Verwenden Sie dieses Poster mit der [CQM-Scorecard.](https://go.microsoft.com/fwlink/p/?LinkId=617904) <br/><br/> Größe: 34 by 44 Zoll <br/> <br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
+|**Skype for Business Voice Solutions** <br/> ![Poster "Planen von Voice Solutions"](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF-Version](https://go.microsoft.com/fwlink/?linkid=869123) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Version von Visio](https://go.microsoft.com/fwlink/?linkid=869124) (am besten für Benutzer mit Visio) |Microsoft bietet eine Vielzahl von Optionen, mit denen Ihre Benutzer Festnetz- und Mobiltelefone über das Festnetz (Public Switched Telephone Network, PSTN) anrufen können – unabhängig davon, ob ihre Konten in Microsoft 365 oder Office 365 in Skype for Business Online oder in Ihrer lokalen Skype for Business Server 2015-Bereitstellung vorhanden sind. Dieses Poster enthält eine Übersicht über die verschiedenen Microsoft-Sprachangebote und enthält dann Eine Anleitung dazu, welche Optionen je nach aktuellem Status Und zukünftigen Plänen Ihrer Organisation am besten für Sie am besten sind. <br/> <br/> Größe: 34 by 44 Zoll <br/><br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
+|**Architekturmodelle für Skype for Business** <br/> ![Architekturmodelle für Skype for Business](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF-Version](https://go.microsoft.com/fwlink/?linkid=869125) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Version von Visio](https://go.microsoft.com/fwlink/?linkid=869126) (am besten für Benutzer mit Visio) |Diese Posterreihe richtet sich an die IT-Pro-Zielgruppe, um das Bewusstsein für die verschiedenen grundlegenden Architekturmodelle zu schärfen, über die Skype for Business Online und Skype for Business Server 2015 lokal genutzt werden können. Beginnen Sie mit der Konfiguration, die den Anforderungen Ihrer Organisation und zukünftigen Plänen am besten entspricht. Bei Bedarf können Sie auf die anderen Konfigurationen zurückgreifen. Sie können z. B. die Integration in Exchange und SharePoint oder eine Lösung in Betracht ziehen, die das Cloud-PBX-Angebot von Microsoft nutzt. <br/><br/> Größe: 11-by-17 Zoll <br/><br/> Dieses Poster wurde mit Visio 2010 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
 
 ## <a name="visual-assets"></a>Visuelle Objekte
 
-Wenn Sie Ihre eigenen Visio-Topologie-Diagramme mit den neuen Skype for Business Symbolen erstellen möchten, [Laden Sie die Schablonen herunter](https://go.microsoft.com/fwlink/p/?LinkId=550985).
+Wenn Sie ihre eigenen Visio-Topologiediagramme mit den neuen Skype for Business-Symbolen erstellen möchten, laden Sie die [Schablonen herunter.](https://go.microsoft.com/fwlink/p/?LinkId=550985)
 
-## <a name="tips-for-printing-large-format-posters"></a>Tipps zum Drucken von Postern im Großformat
+## <a name="tips-for-printing-large-format-posters"></a>Tipps zum Drucken von großformatigen Postern
 
 <a name="tips"> </a>
 
-Wenn Sie einen Plotter haben, können Sie große Poster in voller Größe drucken. Wenn Sie keinen Plotter haben, führen Sie die folgenden Schritte aus, um auf kleinerem Papier wie etwa 11 "x17" zu drucken. Wenn Sie ein Poster im großformatigen Format auf einem kleineren Papier drucken, wird der Text möglicherweise schwierig oder nicht lesbar.
+Wenn Sie über einen Plotter verfügen, können Sie große Poster in voller Größe drucken. Wenn Sie keinen Plotter haben, verwenden Sie die folgenden Schritte, um auf kleinerem Papier wie 11 "x 17" zu drucken. Das Drucken eines Posters im großen Format auf kleinerem Papier kann das Lesen des Texts erschweren oder unmöglich machen.
 
 ### <a name="print-posters-on-smaller-paper"></a>Drucken von Postern auf Papier mit kleinerem Format
 

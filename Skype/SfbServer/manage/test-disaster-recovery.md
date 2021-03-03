@@ -1,8 +1,8 @@
 ---
-title: Disaster Recovery-Tests in Skype for Business Server
+title: Notfallwiederherstellungstests in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Durchführen einer Systemwiederherstellung für einen Skype for Business Server-Pool Server zum Testen des dokumentierten Disaster Recovery-Prozesses
-ms.openlocfilehash: f3eba25d59c56f085b9bd6d347fcde910f11a00d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Durchführen einer Systemwiederherstellung für einen Skype for Business Server-Poolserver zum Testen des dokumentierten Notfallwiederherstellungsprozesses
+ms.openlocfilehash: 92515a59f4ada2589a371cc9384c63a376e96cf8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817301"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832815"
 ---
-# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Disaster Recovery-Tests in Skype for Business Server
+# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Notfallwiederherstellungstests in Skype for Business Server
 
-Führen Sie eine Systemwiederherstellung für einen Skype for Business Server-Pool Server aus, um Ihren dokumentierten Disaster Recovery-Prozess zu testen. Mit diesem Test wird ein vollständiger Hardwarefehler für einen Server simuliert, und es wird sichergestellt, dass die Ressourcen, Pläne und Daten für die Wiederherstellung verfügbar sind. Versuchen Sie, den Fokus des Tests monatlich zu drehen, damit Ihre Organisation den Fehler eines anderen Servers oder eines anderen Geräts jedes Mal testet. 
+Führen Sie eine Systemwiederherstellung für einen Skype for Business Server-Poolserver aus, um ihren dokumentierten Notfallwiederherstellungsprozess zu testen. Dieser Test simuliert einen vollständigen Hardwarefehler für einen Server und gewährleistet, dass die Ressourcen, Pläne und Daten für die Wiederherstellung verfügbar sind. Versuchen Sie, den Fokus des Tests jeden Monat zu drehen, damit Ihre Organisation jedes Mal den Ausfall eines anderen Servers oder anderer Geräte testet. 
 
-Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfallwiederherstellungstests durchführen, unterschiedlich ist. Es ist sehr wichtig, dass Notfallwiederherstellungstests nicht ignoriert oder vernachlässigt werden. 
+Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfallwiederherstellungstests durchführen, unterschiedlich ist. Es ist sehr wichtig, dass Notfallwiederherstellungstests nicht ignoriert oder ignoriert werden. 
 
-Exportieren Sie Ihre Skype for Business Server-Topologie,-Richtlinien und-Konfigurationseinstellungen in eine Datei. Unter anderem kann diese Datei nach einem Upgrade, einem Hardwareausfall oder einem anderen Problem, das zu Datenverlust geführt hat, zum Wiederherstellen dieser Informationen im zentralen Verwaltungsspeicher verwendet werden.
+Exportieren Sie Ihre Skype for Business Server-Topologie, -Richtlinien und -Konfigurationseinstellungen in eine Datei. Unter anderem kann diese Datei verwendet werden, um diese Informationen nach einem Upgrade, einem Hardwarefehler oder einem anderen Problem, das zu Datenverlust geführt hat, im zentralen Verwaltungsspeicher wiederherzustellen.
 
-Importieren Sie Ihre Skype for Business Server-Topologie,-Richtlinien und-Konfigurationseinstellungen entweder in den zentralen Verwaltungsspeicher oder auf den lokalen Computer, wie in den folgenden Befehlen gezeigt: 
+Importieren Sie Ihre Skype for Business Server-Topologie, -Richtlinien und -Konfigurationseinstellungen entweder in den zentralen Verwaltungsspeicher oder auf den lokalen Computer, wie in den folgenden Befehlen gezeigt: 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
@@ -34,26 +34,26 @@ Importieren Sie Ihre Skype for Business Server-Topologie,-Richtlinien und-Konfig
 
 So sichern Sie Produktionsdaten:
 
-- Sichern Sie die RTC-und LCSLog-Datenbanken mithilfe des standardmäßigen SQL Server-Sicherungsprozesses, um die Datenbank auf ein Datei-oder Bandspeicher Abbildgerät zu übernehmen.
-- Verwenden Sie eine Sicherungsanwendung von einem Drittanbieter, um die Daten in einer Datei oder auf einem Band zu sichern.
-- Verwenden Sie das Cmdlet „Export-CsUserData“, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
-- Verwenden Sie das Dateisystem-Backup oder Drittanbieter-Backup, um Besprechungsinhalte und Kompatibilitäts Protokolle zu sichern.
-- Verwenden Sie das Befehlszeilentool "Exportieren-CsConfiguration", um die Einstellungen für Skype for Business Server zu sichern.
+- Sichern Sie die RTC- und LCSLog-Datenbanken mithilfe des standardmäßigen SQL Server, um die Datenbank auf einem Datei- oder Bandabbildgerät zu sichern.
+- Verwenden Sie die Sicherungsanwendung eines Drittanbieters, um die Daten in einer Datei oder auf band zu sichern.
+- Verwenden Sie Export-CsUserData Cmdlet, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
+- Verwenden Sie die Dateisystem- oder Drittanbietersicherung, um Besprechungsinhalte und Kompatibilitätsprotokolle zu sichern.
+- Verwenden Sie Export-CsConfiguration Befehlszeilentool, um Skype for Business Server-Einstellungen zu sichern.
 
-Der erste Schritt in der Failoverprozedur besteht in einer erzwungenen Verschiebung von Benutzern aus dem Produktionspool in den Notfallwiederherstellungspool. Es handelt sich dabei um eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Benutzerumsetzung zu akzeptieren.
+Der erste Schritt des Failoververfahrens umfasst das erzwungene Verschieben von Benutzern aus dem Produktionspool in den Notfallwiederherstellungspool. Dies ist eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Benutzerverlagerung zu akzeptieren.
 
-Der Skype for Business Server-Prozess "Move User" ist eine Änderung an einem Attribut für das Benutzerkontoobjekt sowie eine Datensatzaktualisierung in der RTC SQL-Datenbank. Diese Daten können vom ursprünglichen Backup-Dump-Gerät aus dem Produktions-SQL-Server mithilfe des standardmäßigen SQL Server-Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungstools eines Drittanbieters wiederhergestellt werden.
+Der Benutzerprozess zum Verschieben von Skype for Business Server ist eine Änderung an einem Attribut für das Benutzerkontoobjekt sowie eine Datensatzaktualisierung für die RTC-SQL Datenbank. Diese Daten können vom ursprünglichen Sicherungsabbildgerät aus der Produktionsumgebung SQL Server mithilfe des standardmäßigen SQL Server Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungsprogramms eines Drittanbieters wiederhergestellt werden.
 
-Nach der Wiederherstellung dieser Daten können Benutzer eine Verbindung mit dem Disaster Recovery-Pool herstellen und wie gewohnt funktionieren. Damit Benutzer eine Verbindung mit dem Disaster Recovery-Pool herstellen können, ist eine Änderung des DNS-Eintrags erforderlich.
+Nachdem diese Daten wiederhergestellt wurden, können Benutzer effektiv eine Verbindung mit dem Notfallwiederherstellungspool herstellen und wie gewohnt arbeiten. Damit Benutzer eine Verbindung mit dem Notfallwiederherstellungspool herstellen können, ist eine Änderung des DNS-Eintrags erforderlich.
 
-Der Produktions-Skype for Business-Pool wird von Clients, die die automatischen Konfigurations-und DNS-SRV-Einträge verwenden, referenziert:
+Auf den Skype for Business-Produktionspool wird von Clients verwiesen, die die autokonfiguration und DNS-SRV-Einträge von:
 
-- SRV: _sip. _tls. \<Domain>/CNAME: SIP. \<Domänen>
-- CNAME: SIP. \<Domänen>/CVC-Pool-1. \<Domänen>
+- SRV: _sip._tls.\<domain> /CNAME: SIP.\<domain>
+- CNAME: SIP.\<domain> /cvc-pool-1.\<domain>
 
-Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den DROCSPool-FQDN verweist:
+Zur Erleichterung des Failovers muss dieser #A0 aktualisiert werden, um auf den FQDN des DROCSPools zu verweisen:
 
-- CNAME: SIP.<domain> /DROCSPool. \<Domänen>
-- SIP. \<Domänen>
-- AV.\<Domain>
-- webconf. \<Domänen>
+- CNAME: SIP.<domain> /DROCSPool.\<domain>
+- Sip.\<domain>
+- AV.\<domain>
+- webconf.\<domain>

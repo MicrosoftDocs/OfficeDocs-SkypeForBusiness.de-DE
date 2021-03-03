@@ -1,8 +1,8 @@
 ---
-title: Bericht zur Reaktionsgruppen Nutzung in Skype for Business Server
+title: Nutzungsbericht über Reaktionsgruppe in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,35 +11,35 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Zusammenfassung: Informationen zur reaktionsgruppenanwendung in Skype for Business Server.'
-ms.openlocfilehash: a8b70b2cafae7a8710d87e9a1cd2c28ae6e57ef1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über die Reaktiongruppenanwendung in Skype for Business Server.'
+ms.openlocfilehash: a9506008a419f63de23c7383e7c2c62b114cc4cd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817724"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49814325"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server"></a>Bericht zur Reaktionsgruppen Nutzung in Skype for Business Server
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Nutzungsbericht über Reaktionsgruppe in Skype for Business Server
 
-**Zusammenfassung:** Informieren Sie sich über die Anwendung Reaktionsgruppe in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über die Reaktiongruppenanwendung in Skype for Business Server.
 
-Die Antwortgruppen Anwendung bietet eine Möglichkeit für Skype for Business Server, Telefonanrufe auf der Grundlage der Nummer, die gewählt wurde, und – optional – auf der Antwort des Anrufers auf eine Reihe von Fragen zu beantworten und weiterzuleiten. Normalerweise werden Reaktionsgruppenanrufe nicht an eine Einzelperson, sondern an ein Personenteam weitergeleitet, das als Agentgruppe bezeichnet wird. Wenn beispielsweise jemand die Telefonnummer Ihres Helpdesks anruft, kann Skype for Business Server diesen Anruf automatisch an den ersten verfügbaren Help Desk-Agenten weiterleiten. Alternativ kann Skype for Business Server eine Reihe von Fragen stellen ("drücken Sie 1, wenn Sie Hardwareprobleme haben. Wenn Sie Softwareprobleme haben, drücken Sie die 2. Wenn Sie Netzwerkprobleme haben, drücken Sie die 3.“) und den Anruf dann entsprechend der Antwort auf diese Fragen an den am besten geeigneten Helpdesk-Agenten weiterleiten.
+Die Reaktiongruppenanwendung bietet Skype for Business Server eine Möglichkeit zum Beantworten und Routen von Telefonanrufen basierend auf der gewählten Nummer und optional auf den Antworten des Anrufers auf eine Reihe von Fragen. Reaktionsgruppenanrufe werden normalerweise nicht an eine Einzelperson weitergeleitet, sondern stattdessen an ein Team von Personen, die als eine Agentgruppe bezeichnet wird. Wenn beispielsweise jemand die Telefonnummer für Ihren Helpdesk anruft, kann Skype for Business Server den Anruf automatisch an den ersten verfügbaren Helpdeskagenten weiter routen. Alternativ kann Skype for Business Server eine Reihe von Fragen stellen ("1 drücken, wenn Sie Hardwareprobleme haben. Drücken Sie 2, wenn Sie Softwareprobleme haben. Drücken Sie 3, wenn Sie Netzwerkprobleme haben."), und führen Sie den Anruf basierend auf der Antwort auf diese Fragen an den am besten geeigneten #A0 weiter.
 
-Der Nutzungsbericht über die Reaktionsgruppe gibt einen detaillierten Einblick in die Anzahl der Telefonanrufe, die von allen Reaktionsgruppen-Workflows empfangen wurden. Diese Anrufe werden dann in spezifischere Kategorien unterteilt, z. B. „Angebotene Anrufe“, „Angenommene Anrufe“ und „Abgebrochene Anrufe“.
+Der Nutzungsbericht über die Reaktionsgruppe gibt einen detaillierten Einblick in die Anzahl der Telefonanrufe, die von allen Reaktionsgruppenworkflows empfangen wurden. Diese Anrufe werden dann in spezifischere Kategorien unterteilt, z. B. Angebotene Anrufe, Angenommene Anrufe und Prozentsatz abgebrochener Anrufe.
 
 Bei der Verwendung des Nutzungsberichts über die Reaktionsgruppe ist es wichtig, den Unterschied zwischen den gemeldeten Anruftypen zu verstehen:
 
-- **Empfangene Anrufe**. Gesamtzahl der empfangenen Anrufe von allen Instanzen der Reaktionsgruppenanwendung.
+- **Empfangene Anrufe**. Gesamtanzahl der empfangenen Anrufe von allen Instanzen der Reaktionsgruppenanwendung.
 
-- **Erfolgreiche Anrufe**. Gesamtzahl der Anrufe, die von der Reaktionsgruppenanwendung angenommen wurden.
+- **Erfolgreiche Anrufe**. Die Gesamtzahl der Anrufe, die von der Reaktionsgruppesanwendung aufgenommen wurden.
 
-- **Angebotene Anrufe**. Gesamtzahl der Anrufe, die an einen Reaktionsgruppenagent weitergeleitet wurden.
+- **Angebotene Anrufe**. Gesamtanzahl der Anrufe, die an einen Reaktionsgruppen-Agenten weitergeleitet wurden.
 
-- **Angenommene Anrufe**. Gesamtzahl der Anrufe, die tatsächlich von einem Reaktionsgruppenagent angenommen wurden.
+- **Angenommene Anrufe**. Gesamtanzahl der Anrufe, die von einem Reaktionsgruppen-Agenten tatsächlich angenommen wurden.
 
-- **Prozentsatz abgebrochener Anrufe**. Prozentsatz der Anrufe, die von der Reaktionsgruppenanwendung empfangen, aber nicht von einem Agenten angenommen wurden. Dieser Wert wird berechnet, indem die angenommenen Anrufe von den empfangenen Anrufen abgezogen werden und dieser Wert dann durch die Anzahl der empfangenen Anrufe geteilt wird. Wenn Sie beispielsweise 10 Anrufe empfangen haben und 7 davon beantwortet wurden, ziehen Sie 7 von 10 ab, wonach 3 unbeantwortete Anrufe übrig bleiben. Dieser Wert wird dann durch 10 geteilt, woraus sich ein Prozentsatz von 30 % für abgebrochene Anrufe ergibt.
+- **Prozentsatz abgebrochener Anrufe**. Prozentsatz der Anrufe, die von der Reaktionsgruppenanwendung empfangen, aber nicht von einem Agenten angenommen wurden. Dieser Wert wird berechnet, indem die angenommenen Anrufe von den empfangenen Anrufen abgezogen werden und dieser Wert dann durch die Anzahl der empfangenen Anrufe geteilt wird. Wenn Sie beispielsweise 10 Anrufe empfangen haben und 7 davon beantwortet wurden, ziehen Sie 7 von 10 ab, wonach drei unbeantwortete Anrufe übrig bleiben. Dieser Wert wird dann durch 10 geteilt, woraus sich ein Prozentsatz von 30 % für abgebrochene Anrufe ergibt..
 
-- **Durchgestellte Anrufe**. Gesamtzahl der Reaktionsgruppenanrufe, die aufgrund eines Timeouts oder eines Überlaufens der Warteschleife durchgestellt wurden.
+- **Durchgestellte Anrufe**. Gesamtanzahl der Reaktionsgruppenanrufe, die aufgrund einer Timeout- oder Überlaufwarteschleife durchgestellt wurden.
 
 Wenn Sie sich den Nutzungsbericht über die Reaktionsgruppe ansehen und sich nicht mehr an die Definition eines Anruftyps erinnern können, halten Sie einfach die Maus über die Beschriftung des entsprechenden Anruftyps. Daraufhin wird eine QuickInfo mit einer kurzen Beschreibung des Anruftyps angezeigt.
 
@@ -47,7 +47,7 @@ Mit einem Nutzungsbericht über Reaktionsgruppe können Sie nach einem Workflow-
 
 ## <a name="accessing-the-response-group-usage-report"></a>Zugreifen auf den Nutzungsbericht über die Reaktionsgruppe
 
-Sie können über die Startseite für Überwachungsberichte auf den Nutzungsbericht über die Reaktionsgruppe zugreifen. Sie können [in Skype for Business Server einen Drilldown zum Bericht der Anruflisten für die Reaktionsgruppe](call-list-report.md) ausführen, indem Sie auf eine der folgenden Metriken klicken:
+Auf den Nutzungsbericht für Reaktionsgruppe wird über die Startseite für Überwachungsberichte zugegriffen. Sie können einen Drilldown zum Anruflistenbericht für Reaktionsgruppe [in Skype for Business Server](call-list-report.md) erstellen, indem Sie auf eine der folgenden Metriken klicken:
 
 - Empfangene Anrufe
 
@@ -64,19 +64,19 @@ Sie können über die Startseite für Überwachungsberichte auf den Nutzungsberi
 Eine der interessantesten Verwendungen des Nutzungsberichts über die Reaktionsgruppe ist vielleicht nicht auf den ersten Blick erkennbar: die Möglichkeit zum Abrufen von Nutzungsinformationen für einen einzelnen Reaktionsgruppenworkflow.
 
 > [!CAUTION]
-> Der Workflow einer Reaktionsgruppe besteht im Wesentlichen aus einer Reihe von Anweisungen, die festlegt, was Skype for Business Server tut, wenn ein Benutzer eine bestimmte Telefonnummer wählt. Dafür ist jeder Workflow eindeutig einer Telefonnummer zugeordnet. Wenn jemand diese Nummer anruft, wird durch den Workflow festgelegt, wie der Anruf verarbeitet wird. Beispielsweise kann der Anruf zur Beantwortung einer Reihe von Fragen an das interaktive Sprachantwortsystem (IVR, Interactive Voice Response) weitergeleitet werden, sodass der Anrufer zur Eingabe weiterer Informationen aufgefordert wird („Für Hardwaresupport, drücken Sie die 1. Für Softwaresupport, drücken Sie die 2.“). Alternativ dazu kann der Anruf vom Workflow in eine Warteschleife gestellt und gehalten werden, bis ein Agent den Anruf entgegennehmen kann. Auch die Verfügbarkeit von Agenten zur Anrufannahme wird vom Workflow vorgegeben: Mithilfe von Workflows werden sowohl Geschäftszeiten (die Wochentage und Tageszeiten, zu denen Agenten für die Annahme von Anrufen verfügbar sind) als auch Feiertage (Tage, an denen keine Agenten zur Anrufannahme bereitstehen) konfiguriert. Jedes Mal, wenn eine Telefonnummer gewählt wird, die zur Reaktionsgruppenanwendung gehört, wird eigentlich ein Reaktionsgruppenworkflow angerufen. 
+> Ein Reaktiongruppenworkflow ist im Wesentlichen eine Reihe von Anweisungen, die bestimmen, was Skype for Business Server macht, wenn ein Benutzer eine bestimmte Telefonnummer wählt. Hierzu ist jeder Workflow eindeutig einer Telefonnummer zugeordnet. Wenn jemand diese Nummer anruft, wird durch den Workflow festgelegt, wie der Anruf verarbeitet wird. Beispielsweise kann der Anruf zur Beantwortung einer Reihe von Fragen an das interaktive Sprachantwortsystem weitergeleitet werden, sodass der Anrufer zur Eingabe weiterer Informationen aufgefordert wird ("Drücken Sie 1 für Hardwaresupport. Drücken Sie 2 für Softwaresupport."). Alternativ dazu kann der Anruf vom Workflow in eine Warteschleife gestellt und gehalten werden, bis ein Agent zum Entgegennehmen des Anrufs verfügbar ist. Auch die Verfügbarkeit von Agenten zur Anrufannahme wird vom Workflow vorgegeben: Mithilfe von Workflows werden sowohl Geschäftszeiten (die Wochentage und Tageszeiten, zu denen Agenten für die Annahme von Anrufen verfügbar sind) als auch Feiertage (Tage, an denen keine Agenten zur Anrufannahme bereitstehen) konfiguriert. Jedes Mal, wenn eine Telefonnummer gewählt wird, die zur Reaktionsgruppenanwendung gehört, wird eigentlich ein Reaktionsgruppenworkflow angerufen. 
 
 Obwohl im Nutzungsbericht über Reaktionsgruppe keine Workflow-URIs angezeigt werden, kann dennoch die Nutzungsstatistik für einen einzelnen Workflow angezeigt werden, was oftmals sehr nützlich sein kann. Angenommen, Sie haben vor kurzem eine neue Anzeigenkampagne lanciert und möchten gern erfahren, ob interessierte Leute anrufen, um mehr über dieses Produkt zu erfahren. Wenn Sie mit der in der Anzeigenkampagne genannten Telefonnummer einen Reaktionsgruppenworkflow verknüpft haben, können Sie auf einfache Weise feststellen, wie viele Personen (wenn überhaupt) diese Nummer gewählt haben.
 
 Sie können auch einen ähnlichen Ansatz verwenden, um die Anzahl der Anrufe zu messen, die von Ihrem internen Helpdesk oder Ihrer Kundendienstabteilung behandelt werden.
 
-Wenn Sie die Nutzungsstatistik für einen bestimmten Workflow prüfen möchten, geben Sie den Workflow-URI in das Feld „Workflow-URI“ ein. Wie oben erwähnt, erscheinen im Bericht keine Workflow-URIs (die mit einem Workflow verknüpfte SIP-Adresse). Das bedeutet, Sie müssen den URI eines Workflows auf andere Weise herausfinden. Eine Möglichkeit besteht darin, Windows PowerShell und die Skype for Business Server-Verwaltungsshell zu verwenden. Mit diesem Befehl werden beispielsweise die URIs für Ihre gesamten Reaktionsgruppenworkflows zurückgegeben:
+Um verwendungsstatistiken für einen bestimmten Workflow zu überprüfen, geben Sie den Workflow-URI in das Feld Workflow-URI ein. Wie bereits erwähnt, werden Workflow-URIs (die einem Workflow zugeordnete SIP-Adresse) nicht im Bericht angezeigt. Das bedeutet, dass Sie eine andere Möglichkeit finden müssen, um den URI eines Workflows zu ermitteln. Eine Möglichkeit dazu ist die Verwendung von Windows PowerShell und der Skype for Business Server-Verwaltungsshell. Mit diesem Befehl werden beispielsweise die URIs für alle Reaktionsgruppeworkflows zurückgegeben:
 
 ```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 ```
 
-Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
+Dadurch werden Daten ähnlich wie die folgenden zurückgegeben:
 
 <pre>
 Name                            PrimaryUri
@@ -86,7 +86,7 @@ Help Desk                       sip:helpdesk@litwareinc.com
 New Ad Campaign                 sip:newads@litwareinc.com
 </pre>
 
-Mit diesem Befehl werden Informationen für einen einzelnen Workflow mit dem Namen „New Ad Campaign“ zurückgegeben:
+Mit diesem Befehl werden Informationen für einen einzelnen Workflow mit dem Namen "New Ad Campaign" zurückgegeben:
 
 ```PowerShell
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
@@ -98,31 +98,31 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
 
 In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Reaktionsgruppen-Verwendungsbericht verwenden können.
 
-**Reaktionsgruppen-Verwendungsbericht - Filter**
+**Reaktionsgruppen-Verwendungsbericht – Filter**
 
 
 | **Name**               | **Beschreibung**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Von** <br/>         | Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/>                                                                                                                              |
-| **Bis** <br/>           | Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/>                                                                                                                                     |
-| **Intervall** <br/>     | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Monatlich (maximal 12 Monate können angezeigt werden) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall „Täglich“ mit dem Startdatum 07.07.2015 und dem Enddatum 28.02.2015 ausgewählt haben, werden Daten für die Tage 07.08.2015 12:00 Uhr bis 07.09.2015 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage). <br/> |
-| **Workflow-URI** <br/> | Bietet Ihnen die Möglichkeit, die zurückgegebenen Daten auf den angegebenen Reaktionsgruppenworkflow zu beschränken. Geben Sie die Workflow-SIP-Adresse ein, um diesen Filter zu verwenden. Beispiel:  <br/> sip:helpdesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **From** <br/>         | Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/>                                                                                                                              |
+| **Bis** <br/>           | Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/>                                                                                                                                     |
+| **Intervall** <br/>     | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Monatlich (maximal 12 Monate werden angezeigt) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie beispielsweise das Intervall "Täglich" mit dem Startdatum 7.7.2015 und dem Enddatum 28.02.2015 auswählen, werden Daten für die Tage 07.08.2015 00:00 Uhr bis 07.09.2015 00:00 Uhr angezeigt (d. h. Daten von insgesamt 31 Tagen). <br/> |
+| **Workflow-URI** <br/> | Damit können Sie die zurückgegebenen Daten auf den angegebenen Reaktionsgruppen-Workflow beschränken. Geben Sie zur Verwendung dieses Filters die SIP-Adresse des Workflows ein. Beispielsweise:  <br/> sip:helpdesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ## <a name="metrics"></a>Metriken
 
 In der folgenden Tabelle sind die Informationen aufgeführt, die im Reaktionsgruppen-Verwendungsbericht angegeben werden.
 
-**Reaktionsgruppen-Verwendungsbericht - Metriken**
+**Reaktionsgruppen-Verwendungsbericht – Metriken**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Stündlich** <br/> **Täglich** <br/> **Wöchentlich** <br/> **Monatlich** <br/> |Nein  <br/> |Gibt das ausgewählte Zeitintervall an. Sie können auf ein einzelnes Zeitintervall klicken, um Details zu diesem Intervall abzurufen. Wenn Sie beispielsweise das Intervall „Täglich“ verwenden und auf 07.07.2015 klicken, sehen Sie die nach Stunden aufgeschlüsselten Benutzerregistrierungsaktivitäten an diesem Tag.  <br/> |
+|**Stündlich** <br/> **Täglich** <br/> **Wöchentlich** <br/> **Monatlich** <br/> |Nein  <br/> |Gibt das ausgewählte Zeitintervall an. Sie können auf ein einzelnes Zeitintervall klicken, um Details zu diesem Intervall abzurufen. Wenn Sie beispielsweise das Intervall "Täglich" verwenden und auf den 07.07.2015 klicken, wird eine stündlich aufschlüsselte Benutzerregistrierungsaktivität für dieses Datum angezeigt.  <br/> |
 |**Empfangene Anrufe** <br/> |Nein  <br/> |Gesamtanzahl der empfangenen Anrufe von allen Instanzen der Reaktionsgruppenanwendung. Wenn Sie auf dieses Element klicken, zeigt der Bericht die Anrufliste der Reaktionsgruppe für die gewählte Zeitspanne an.  <br/> |
 |**Erfolgreiche Anrufe** <br/> |Nein  <br/> |Gesamtanzahl der Anrufe, die von der Reaktionsgruppenanwendung angenommen wurden. Wenn Sie auf dieses Element klicken, zeigt der Bericht die Anrufliste der Reaktionsgruppe für die gewählte Zeitspanne an.  <br/> |
 |**Angebotene Anrufe** <br/> |Nein  <br/> |Gesamtanzahl der Anrufe, die an einen Reaktionsgruppenvertreter weitergeleitet wurden. Wenn Sie auf dieses Element klicken, zeigt der Bericht die Anrufliste der Reaktionsgruppe für die gewählte Zeitspanne an.  <br/> |
 |**Angenommene Anrufe** <br/> |Nein  <br/> |Gesamtanzahl der Anrufe, die von einem Reaktionsgruppenvertreter tatsächlich angenommen wurden. Wenn Sie auf dieses Element klicken, zeigt der Bericht die Anrufliste der Reaktionsgruppe für die gewählte Zeitspanne an.  <br/> |
 |**Prozentsatz abgebrochener Anrufe** <br/> |Nein  <br/> |Gesamtanzahl der Anrufe, die von der Reaktionsgruppenanwendung empfangen, aber nicht von einem Vertreter angenommen wurden. Dies wird berechnet, indem die angenommenen Anrufe von den empfangenen Anrufen abgezogen werden und dieser Wert dann durch die Anzahl der empfangenen Anrufe geteilt wird. Wenn Sie beispielsweise 10 Anrufe empfangen haben und sieben davon beantwortet wurden, ziehen Sie sieben von 10 ab, wonach drei unbeantwortete Anrufe übrig bleiben. Dieser Wert wird dann durch 10 geteilt, woraus sich ein Prozentsatz von 30 % für abgebrochene Anrufe ergibt.  <br/> |
-|**Durchschnittliche Anrufminuten pro Agent** <br/> |Nein  <br/> |Durchschnittliche Dauer, die ein Reaktionsgruppenvertreter für einen Anruf aufgewendet hat.  <br/> |
+|**Durchschnittliche Anrufminuten pro Agent** <br/> |Nein  <br/> |Durchschnittliche Dauer, die ein Reaktionsgruppenvertreter für einen Anruf aufwendete.  <br/> |
 |**Durchgestellte Anrufe** <br/> |Nein  <br/> |Gesamtanzahl der Reaktionsgruppenanrufe, die aufgrund einer Timeout- oder Überlaufwarteschleife durchgestellt wurden. Wenn Sie auf dieses Element klicken, zeigt der Bericht die Anrufliste der Reaktionsgruppe für die gewählte Zeitspanne an.  <br/> |
 
 

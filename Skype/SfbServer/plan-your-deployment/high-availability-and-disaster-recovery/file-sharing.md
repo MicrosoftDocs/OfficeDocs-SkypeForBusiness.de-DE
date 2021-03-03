@@ -1,8 +1,8 @@
 ---
-title: Höhere Verfügbarkeit von Dateien in Skype for Business Server
+title: Hohe Verfügbarkeit der Dateifreigabe in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: Informieren Sie sich über die Gewährleistung einer höheren Verfügbarkeit Ihrer Dateifreigaben in Skype for Business Server mithilfe von DFS.
-ms.openlocfilehash: c04c3acd009dd59a3894a62d08395db19c6d2368
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Erfahren Sie mehr über die Sicherstellung der hohen Verfügbarkeit Ihrer Dateifreigaben in Skype for Business Server mithilfe von DFS.
+ms.openlocfilehash: 4d443425f453d63694511d13c6d3a84893058daa
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815933"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802895"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Höhere Verfügbarkeit von Dateien in Skype for Business Server
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Hohe Verfügbarkeit der Dateifreigabe in Skype for Business Server
  
-Informieren Sie sich über die Gewährleistung einer höheren Verfügbarkeit Ihrer Dateifreigaben in Skype for Business Server mithilfe von DFS.
+Erfahren Sie mehr über die Sicherstellung der hohen Verfügbarkeit Ihrer Dateifreigaben in Skype for Business Server mithilfe von DFS.
   
-Wenn Sie eine höhere Verfügbarkeit für die Dateifreigabe in Ihrer Skype for Business Server-Bereitstellung gewährleisten möchten, können Sie das verteilte Datei System (Distributed File System, DFS) verwenden. DFS unterstützt Failover von einem Dateiserver auf einen anderen innerhalb desselben Rechenzentrums. Bei einer umfassenden Bereitstellung empfehlen wir Ihnen die Verwendung von dedizierten Dateiservern, die mithilfe von DFS kombiniert werden. Weitere Informationen zu DFS in Windows Server 2012 finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384). Informationen zu DFS unter Windows Server 2008 finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385).
+Um eine hohe Verfügbarkeit für die Dateifreigabe in Ihrer Skype for Business Server-Bereitstellung sicherzustellen, können Sie das verteilte Dateisystem (Distributed File System, DFS) verwenden. DFS unterstützt Failover von einem Dateiserver auf einen anderen Dateiserver innerhalb des gleichen Rechenzentrums. Bei einer umfassenden Bereitstellung empfehlen wir Ihnen die Verwendung von dedizierten Dateiservern, die mithilfe von DFS kombiniert werden. Weitere Informationen zu DFS in Windows Server 2012 finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384) . Informationen zu DFS unter Windows Server 2008 finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385) .
   
-Je nach Größe Ihres Netzwerks und dem gewünschten Maß an Flexibilität können Sie mit einem Serverpaar alle Dateifreigaben auf einer Website hosten oder ein paar pro Front-End-Pool verwenden.
+Abhängig von der Größe Ihres Netzwerks und der gewünschten Ausfallsicherheit können Sie ein Serverpaar zum Hosten von sämtlichen Dateifreigaben eines Standorts oder ein Paar je Front-End-Pool verwenden.
   
-Bei DFS handelt es sich um einen Best Effort-Datei Replikationsmechanismus, bei dem keine RTO-oder Recovery Point Objective (RPO)-Zusicherungen veröffentlicht werden. Ein Failover zwischen DFS-Servern sollte schnell abgeschlossen werden, die Daten Replikationsverzögerung kann jedoch verhindern, dass Benutzer in der Lage sind, die laufende Arbeit fortzusetzen, wenn das Failover eintritt.
+DFS ist ein "Best Effort"-Mechanismus für die Dateireplikation ohne veröffentlichte Zusagen für Wiederherstellungszeit (Recovery Time Objective - RTO) oder Wiederherstellungspunkt (Recovery Point Objective - RPO). Ein Failover zwischen den DFS-Servern sollte schnell abgeschlossen werden, aber die Verzögerung bei der Datenreplikation verhindert möglicherweise, dass Benutzer ihre Arbeit fortsetzen können, wenn das Failover eintritt.
   
-Wenn Sie DFS verwenden und der Datenspeicher bei der Dateifreigabe wichtig ist, sollten Sie die Dateifreigaben öfter speichern, zum Beispiel alle vier bis acht Stunden. Wenn eine Dateifreigabe ausfällt und die Replikation nicht auf dem neuesten Stand ist, können Sie die Sicherung verwenden, um den Inhalt des ausgefallenen Servers auf dem anderen Server wiederherzustellen, der mit dem jetzt nicht mehr verfügbaren Server kombiniert ist.
+Wenn Sie DFS verwenden und der Datenspeicher für die Dateifreigabe wichtig ist, sollten Sie die Dateifreigaben häufig sichern, z. B. alle 4 bis 8 Stunden. Wenn eine Dateifreigabe ausfällt und die Replikation nicht auf dem neuesten Stand ist, können Sie die Sicherung verwenden, um den Inhalt auf dem ausgefallenen Server auf den anderen Server wiederherzustellen, der mit dem Server kombiniert ist, welcher jetzt nicht verfügbar ist.
   
 

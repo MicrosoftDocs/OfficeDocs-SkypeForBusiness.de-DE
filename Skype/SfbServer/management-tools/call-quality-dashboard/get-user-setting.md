@@ -1,8 +1,8 @@
 ---
 title: Abrufen einer Benutzereinstellung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,42 +12,42 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: 'Zusammenfassung: erfahren Sie mehr über den Vorgang zum Abrufen der Benutzereinstellung, der Teil des Benutzer Einstellungs Diensts ist. Der Benutzer Einstellungsdienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 4ab9d4d718a2ff411db72f38b59a758523935504
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Benutzereinstellung erhalten", der Teil des Benutzereinstellungsdiensts ist. Der Benutzereinstellungsdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 82632f5de7ae215d6f34d9f0b39e500fb713a1be
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816754"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49832485"
 ---
 # <a name="get-user-setting"></a>Abrufen einer Benutzereinstellung
  
-**Zusammenfassung:** Informieren Sie sich über den Vorgang zum Abrufen der Benutzereinstellung, der Teil des Benutzer Einstellungs Diensts ist. Der Benutzer Einstellungsdienst ist Teil der Repository-API für das Anruf Qualitäts Dashboard. Das Dashboard für die Anrufqualität ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Benutzereinstellung erhalten", der Teil des Benutzereinstellungsdiensts ist. Der Benutzereinstellungsdienst ist Teil der Repository-API für das Anrufqualitätsdashboard. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
   
-Der Vorgang zum Abrufen der Benutzereinstellung ist Teil des Benutzer Einstellungs Diensts in der Repository-API für das Dashboard für die Anrufqualität.
+Der Vorgang "Benutzereinstellung abrufen" ist Teil des Benutzereinstellungsdiensts in der Repository-API für das Anrufqualitätsdashboard.
   
 ## <a name="get-user-setting"></a>Abrufen einer Benutzereinstellung
 
-Benutzereinstellung abrufen gibt eine Einstellung für einen einzelnen Benutzer zurück.
+"Benutzereinstellung erhalten" gibt eine einzelne Benutzereinstellung zurück.
   
 
-|**Methode**|**Anforderungs-URI**|**HTTP-Version**|
+|**Methode**|**Anforderungs-URI**|**HTTP Version**|
 |:-----|:-----|:-----|
-|Erhalten  <br/> |https://\<-\>Portal/QoERepositoryService/Repository/User/{UserID}/Setting/{Key}  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting/{key}  <br/> |HTTP/1.1  <br/> |
    
- **URI-Parameter** -None.
+ **URI-Parameter** : Keine.
   
- **Anforderungs Kopfzeilen** – keine zusätzlichen Überschriften.
+ **Anforderungsheader** – Keine zusätzlichen Header.
   
- **Anforderungstext** – keine.
+ **Anforderungstext** – Keine.
   
- **Antwort** – die Antwort enthält einen HTTP-Statuscode und einen Satz von Antwortheadern.
+ **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
- **Statuscode** – ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
+ **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
- **Antwortheader** – keine zusätzlichen Überschriften.
+ **Antwortheader** – Keine zusätzlichen Header.
   
- **Antworttext** : Nachfolgend finden Sie eine Beispielantwort Nutzlast in JSON.
+ **Antworttext** : Unten sehen Sie eine Beispielantwortnutzlast in JSON.
   
 ```json
 {
@@ -57,10 +57,10 @@ Benutzereinstellung abrufen gibt eine Einstellung für einen einzelnen Benutzer 
 }
 ```
 
- *UserID* -ID des Benutzers.
+ *userId*  – ID des Benutzers.
   
- *Tasten* Kombination der Einstellung.
+ *-TASTE*  : Taste der Einstellung.
   
- *value* -Wert der Einstellung.
+ *value*  – Wert der Einstellung.
   
 

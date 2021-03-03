@@ -1,8 +1,8 @@
 ---
-title: Verwalten von netzwerkregionen
+title: Verwalten von Netzwerkregionen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,52 +10,52 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Netzwerkregion * sind die Netzwerkhubs oder Backbones, die bei der Konfiguration der Anrufsteuerung, E9-1-1 und medienumgehung verwendet werden.
-ms.openlocfilehash: c08232e455edb4388a052c2859b35e6c137b890a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Netzwerkregion* sind die Netzwerkhubs oder Backbones, die bei der Konfiguration von Anrufsteuerung, E9-1-1 und Medienumgehung verwendet werden.
+ms.openlocfilehash: 14c8004ddd14c0a37c25d700edae845ac9adfe29
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817484"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816415"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Verwalten von Netzwerkregionen in Skype for Business Server
 
-*Netzwerkregionen* sind die Netzwerkhubs oder Backbones, die in der Konfiguration der Anruf Zulassungs Steuerung, E9-1-1 und medienumgehung verwendet werden. Gehen Sie wie folgt vor, um netzwerkregionen anzuzeigen, zu erstellen oder zu ändern. Wenn Sie beispielsweise bereits netzwerkregionen für ein Sprachfeature erstellt haben, müssen Sie keine neuen netzwerkregionen erstellen. für andere erweiterte Enterprise-VoIP-Features werden dieselben netzwerkregionen verwendet. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben. 
+Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackbone, der in der Konfiguration von Anrufsteuerung, E9-1-1 und Medienumgehung verwendet wird. Verwenden Sie die folgenden Verfahren, um Netzwerkregionen anzuzeigen, zu erstellen oder zu ändern. Wenn Sie beispielsweise bereits Netzwerkregionen für eine VoIP-Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen erstellen, da dieselben Netzwerkregionen für weitere Enterprise VoIP-Funktionen verwendet werden können. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben. 
 
-Verwenden Sie die in diesem Artikel beschriebenen Verfahren, um Netzwerk Regionsinformationen anzuzeigen oder netzwerkregionen zu erstellen, zu ändern oder zu löschen. 
+Verwenden Sie die Verfahren in diesem Artikel, um Informationen zu Netzwerkregionen anzeigen oder Netzwerkregionen zu erstellen, zu ändern oder zu löschen. 
 
-## <a name="view-network-region-information"></a>Anzeigen von Netzwerk Regionsinformationen 
+## <a name="view-network-region-information"></a>Anzeigen von Informationen zur Netzwerkregion 
 
 
-Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Jeder Netzwerkbereich muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist die Datencenter-Website, auf der der bandbreitenrichtliniendienst für die Anrufannahme Steuerung (CAC) ausgeführt wird. Sie können die Skype for Business Server-Systemsteuerung verwenden, um netzwerkregionen anzuzeigen. Zu den netzwerkregionen gehören Einstellungen, die bestimmen, ob für Audio-und Videoverbindungen alternative Pfade über das Internet zulässig sind. Verwenden Sie dieses Thema, um vorhandene netzwerkregionen anzuzeigen. 
+Eine Netzwerkregion verbindet verschiedene Teile eines Netzwerks, das sich über verschiedene geografische Bereiche erstreckt. Jede Netzwerkregion muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist der Rechenzentrumsstandort, an dem der Bandbreitenrichtliniendienst für die Anrufsteuerung ausgeführt wird. Sie können die Skype for Business Server-Systemsteuerung zum Anzeigen von Netzwerkregionen verwenden. Netzwerkregionen beinhalten Einstellungen, die festlegen, ob für Audio- und Videoverbindungen alternative Pfade über das Internet zulässig sind. In diesem Thema wird erklärt, wie vorhandene Netzwerkregionen angezeigt werden. 
 
-### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>So zeigen Sie Informationen zu einem Netzwerkbereich mit der Skype for Business Server-Systemsteuerung an
+### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>So zeigen Sie Informationen zu einer Netzwerkregion mit der Skype for Business Server-Systemsteuerung an
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Region**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Region".**
 
-4.  Klicken Sie auf der Seite **Region** auf den Bereich, den Sie anzeigen möchten.
+4.  Klicken Sie auf der Seite **Region** auf die Region, die Sie anzeigen möchten.
   
     > [!NOTE]  
-    > Sie können nur jeweils einen Bereich anzeigen.
+    > Sie können immer nur eine Region anzeigen.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerk Regionsinformationen mithilfe von Windows PowerShell-Cmdlets
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionsinformationen mithilfe Windows PowerShell Cmdlets
 
-Sie können Netzwerk Regionsinformationen mithilfe von Windows PowerShell und dem Cmdlet **Get-CsNetworkRegion** anzeigen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. 
+Sie können Informationen zur Netzwerkregion mithilfe Windows PowerShell **Cmdlets "Get-CsNetworkRegion"** anzeigen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell. 
 
-### <a name="to-view-network-region-information"></a>So zeigen Sie Netzwerkbereichs Informationen an
+### <a name="to-view-network-region-information"></a>So zeigen Sie Informationen zur Netzwerkregion an
 
-  - Wenn Sie Informationen zu allen ihren netzwerkregionen anzeigen möchten, geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
+  - Geben Sie zum Anzeigen von Informationen zu allen Netzwerkregionen den folgenden Befehl in der Skype for Business Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkRegion
     
-    Es werden etwa folgende Informationen zurückgegeben:
+    Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
         Identity         : Pacific Northwest
         Description      :
@@ -65,72 +65,72 @@ Sie können Netzwerk Regionsinformationen mithilfe von Windows PowerShell und de
                            BWPolicyModality=Video;AlternatePath=True}
         NetworkRegionID  : Pacific Northwest
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink) .
+Weitere Informationen finden Sie im Hilfethema für das [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)-Cmdlet.
 
 
-## <a name="create-or-modify-network-regions"></a>Erstellen oder Ändern von netzwerkregionen 
+## <a name="create-or-modify-network-regions"></a>Erstellen oder Ändern von Netzwerkregionen 
 
-Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Jeder Netzwerkbereich muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist die Datencenter-Website, auf der der bandbreitenrichtliniendienst für die Anrufannahme Steuerung (CAC) ausgeführt wird. Sie können die Skype for Business Server-Systemsteuerung verwenden, um netzwerkregionen zu konfigurieren. Zu den netzwerkregionen gehören Einstellungen, die bestimmen, ob für Audio-und Videoverbindungen alternative Pfade über das Internet zulässig sind. In der Skype for Business Server-Systemsteuerung können Sie einen Netzwerkbereich erstellen, ändern oder löschen. Verwenden Sie dieses Thema, um netzwerkregionen zu erstellen und zu ändern. 
+Eine Netzwerkregion verbindet verschiedene Teile eines Netzwerks, das sich über verschiedene geografische Bereiche erstreckt. Jede Netzwerkregion muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist der Rechenzentrumsstandort, an dem der Bandbreitenrichtliniendienst für die Anrufsteuerung ausgeführt wird. Sie können die Skype for Business Server-Systemsteuerung verwenden, um Netzwerkregionen zu konfigurieren. Netzwerkregionen umfassen Einstellungen, mit denen definiert wird, ob für Audio- und Videoverbindungen alternative Pfade über das Internet zulässig sind. In der Skype for Business Server-Systemsteuerung können Sie eine Netzwerkregion erstellen, ändern oder löschen. Verwenden Sie dieses Thema zum Erstellen und Ändern von Netzwerkregionen. 
 
-### <a name="to-create-a-network-region"></a>So erstellen Sie einen Netzwerkbereich
+### <a name="to-create-a-network-region"></a>So erstellen Sie eine Netzwerkregion
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Region**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Region".**
 
-4.  Klicken Sie auf der Seite **Region** auf **neu**.
+4.  Klicken Sie auf der Seite **Region** auf **Neu**.
 
-5.  Geben Sie auf der Seite **neuer Bereich** einen Wert in das Feld **Name** ein. Dieser Wert muss innerhalb Ihrer Skype for Business Server-Bereitstellung eindeutig sein.
+5.  Geben Sie auf der Seite **Neue Region** im Feld **Name** einen Wert ein. Dieser Wert muss innerhalb Ihrer Skype for Business Server-Bereitstellung eindeutig sein.
 
-6.  Wählen Sie in der Dropdownliste **Central Site** die zentrale Website für diesen Netzwerkbereich aus.
+6.  Wählen Sie in der Dropdownliste **Zentraler Standort** den zentralen Standort für diese Netzwerkregion aus.
 
-7.  Das Kontrollkästchen **audioalternativen Pfad aktivieren** ist standardmäßig aktiviert. Dieses Feld bestimmt, ob Audioanrufe durch einen alternativen Pfad weitergeleitet werden, wenn im primären Pfad keine ausreichende Bandbreite vorhanden ist. Deaktivieren Sie dieses Kontrollkästchen nur, wenn Sie die Verschiebung zum Internet deaktivieren müssen. Wenn es sich bei ihren anrufen um Internet Anrufe handelt, muss dieses Kontrollkästchen unabhängig von den Bandbreiteneinstellungen aktiviert sein.
+7.  Das Kontrollkästchen **Alternativen Audiopfad aktivieren** ist standardmäßig aktiviert. Diese Einstellung legt fest, ob Audioanrufe über einen alternativen Pfad weitergeleitet werden, wenn der primäre Pfad keine angemessene Bandbreite bietet. Deaktivieren Sie dieses Kontrollkästchen nur dann, wenn alternative Pfade im Internet deaktiviert werden müssen. Wenn Internetanrufe vorgesehen sind, muss dieses Kontrollkästchen unabhängig von den Bandbreiteneinstellungen aktiviert sein.
 
-8.  Das Kontrollkästchen **Video alternativen Pfad aktivieren** ist standardmäßig aktiviert. Dieses Feld bestimmt, ob Videoanrufe über einen alternativen Pfad weitergeleitet werden, wenn im primären Pfad keine ausreichende Bandbreite vorhanden ist. Deaktivieren Sie dieses Kontrollkästchen nur, wenn Sie die Verschiebung zum Internet deaktivieren müssen. Wenn es sich bei ihren anrufen um Internet Anrufe handelt, muss dieses Kontrollkästchen unabhängig von den Bandbreiteneinstellungen aktiviert sein.
+8.  Das Kontrollkästchen **Alternativen Videopfad aktivieren** ist standardmäßig aktiviert. Diese Einstellung legt fest, ob Videoanrufe über einen alternativen Pfad weitergeleitet werden, wenn der primäre Pfad keine angemessene Bandbreite bietet. Deaktivieren Sie dieses Kontrollkästchen nur dann, wenn alternative Pfade im Internet deaktiviert werden müssen. Wenn Internetanrufe vorgesehen sind, muss dieses Kontrollkästchen unabhängig von den Bandbreiteneinstellungen aktiviert sein.
 
-9.  Optional Geben Sie im Feld **Beschreibung** einen Wert ein, um weitere Informationen zu dieser Region bereitzustellen, die nicht allein durch den Namen ausgedrückt werden können.
+9.  (Optional) Geben Sie im Feld **Beschreibung** einen Wert zum Bereitstellen weiterer Informationen zu dieser Region ein, die nicht durch den Namen allein vermittelt werden können.
 
 10. Klicken Sie auf **Commit ausführen**.
 
-Die Tabelle **zugeordnete Websites** wird nicht zum Erstellen eines Netzwerkbereichs verwendet. Sie ordnen eine Website einem Bereich zu, wenn Sie die Website erstellen oder ändern. Ausführliche Informationen finden Sie unter [Verwalten der Anrufsteuerung für Websites](managing-call-admission-control-for-sites.md).
+Die Tabelle **Zugeordnete Standorte** wird zum Erstellen einer Netzwerkregion nicht verwendet. Sie ordnen einer Region einen Standort zu, wenn Sie den Standort erstellen oder ändern. Weitere Informationen finden Sie unter [Verwalten der Anrufsteuerung für Standorte.](managing-call-admission-control-for-sites.md)
 
-### <a name="to-modify-a-network-region"></a>So ändern Sie einen Netzwerkbereich
+### <a name="to-modify-a-network-region"></a>So ändern Sie eine Netzwerkregion
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Region**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Region".**
 
-4.  Klicken Sie auf der Seite **Region** auf den Bereich, den Sie ändern möchten.
+4.  Klicken Sie auf der Seite **Region** auf die Region, die Sie ändern möchten.
 
-5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
+5.  Klicken Sie im Menü **Bearbeiten** auf **Details einblenden**.
 
-6.  Auf der Seite " **Bereich bearbeiten** " können Sie die Einstellungen für die Aktivierung und Deaktivierung von Audio-und Video Alternativen Pfaden ändern und die Beschreibung ändern (Einzelheiten finden Sie im Abschnitt "So erstellen Sie einen Netzwerkbereich" weiter oben in diesem Thema.
+6.  Auf der Seite **Region bearbeiten** können Sie die Einstellungen zum Aktivieren und Deaktivieren von alternativen Pfaden für Audio und Video ändern, und Sie können die Beschreibung bearbeiten (ausführliche Informationen finden Sie unter "So erstellen Sie eine Netzwerkregion" weiter oben in diesem Thema).
 
 7.  Klicken Sie auf **Commit ausführen**.
 
-Auf dieser Seite können Sie die **zugehörigen Websites** nicht ändern. Die Liste der zugehörigen Websites wird als Referenz bereitgestellt, damit Sie wissen, welche Websites beeinträchtigt werden, wenn Sie die Regionseinstellungen ändern.
+Sie können die Option **Zugeordnete Standorte** auf dieser Seite nicht ändern. Die Liste der zugeordneten Standorte wird zu Referenzzwecken angezeigt, damit Sie wissen, auf welche Standorte sich die Änderung der Regioneneinstellungen auswirkt.
 
 
-## <a name="delete-existing-network-regions"></a>Löschen vorhandener netzwerkregionen 
+## <a name="delete-existing-network-regions"></a>Löschen vorhandener Netzwerkregionen 
 
-Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Jeder Netzwerkbereich muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist die Datencenter-Website, auf der der bandbreitenrichtliniendienst für die Anrufannahme Steuerung (CAC) ausgeführt wird. Sie können die Skype for Business Server-Systemsteuerung verwenden, um netzwerkregionen zu konfigurieren. Zu den netzwerkregionen gehören Einstellungen, die bestimmen, ob für Audio-und Videoverbindungen alternative Pfade über das Internet zulässig sind. In der Skype for Business Server-Systemsteuerung können Sie einen Netzwerkbereich erstellen, ändern oder löschen. Verwenden Sie dieses Thema, um vorhandene netzwerkregionen zu löschen. 
+Eine Netzwerkregion verbindet verschiedene Teile eines Netzwerks, das sich über verschiedene geografische Bereiche erstreckt. Jede Netzwerkregion muss einem zentralen Standort zugeordnet sein. Der zentrale Standort ist der Rechenzentrumsstandort, an dem der Bandbreitenrichtliniendienst für die Anrufsteuerung ausgeführt wird. Sie können die Skype for Business Server-Systemsteuerung verwenden, um Netzwerkregionen zu konfigurieren. Netzwerkregionen umfassen Einstellungen, mit denen definiert wird, ob für Audio- und Videoverbindungen alternative Pfade über das Internet zulässig sind. In der Skype for Business Server-Systemsteuerung können Sie eine Netzwerkregion erstellen, ändern oder löschen. Verwenden Sie dieses Thema, um vorhandene Netzwerkregionen zu löschen. 
 
-### <a name="to-delete-a-network-region"></a>So löschen Sie einen Netzwerkbereich
+### <a name="to-delete-a-network-region"></a>So löschen Sie eine Netzwerkregion
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**, und klicken Sie dann auf **Region**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Region".**
 
-4.  Klicken Sie auf der Seite **Region** auf den Bereich, den Sie löschen möchten.
+4.  Klicken Sie **auf der** Seite "Region" auf die Region, die Sie löschen möchten.
   
     > [!NOTE]  
-    > Sie können mehr als einen Bereich gleichzeitig löschen. Drücken Sie dazu STRG, und wählen Sie mehrere Bereiche aus, während Sie die STRG-Taste gedrückt halten. Wenn Sie alle Bereiche auswählen möchten, klicken Sie im Menü **Bearbeiten** auf **Alle auswählen** .
+    > Sie können mehrere Regionen gleichzeitig löschen. Drücken Sie dazu STRG, und wählen Sie mehrere Bereiche aus, während Sie die STRG-TASTE gedrückt halten. Wenn Sie alle Regionen auswählen möchten, klicken **Sie** im Menü "Bearbeiten" **auf** "Alle auswählen".
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Löschen**.
 
@@ -138,12 +138,12 @@ Ein Netzwerkbereich verbindet verschiedene Teile eines Netzwerks über mehrere g
 
 
     > [!WARNING]  
-    > Eine netzwerkregion kann nicht entfernt werden, wenn Sie einer Netzwerk Website zugeordnet ist. Wenn Sie versuchen, einen Bereich zu entfernen, der einer Website zugeordnet ist, wird eine Fehlermeldung angezeigt. Wenn Sie feststellen möchten, ob ein Bereich Websites zugeordnet ist, wählen Sie den Bereich aus, und klicken Sie dann im Menü **Bearbeiten** auf **Details anzeigen** .
+    > Eine Netzwerkregion kann nicht entfernt werden, wenn sie einem Netzwerkstandort zugeordnet ist. Wenn Sie versuchen, eine Region zu entfernen, die einem Standort zugeordnet ist, wird eine Fehlermeldung angezeigt. Um zu sehen, ob eine Region Standorten zugeordnet ist, wählen Sie die Region aus, und klicken Sie dann im Menü "Bearbeiten" auf **"Details** anzeigen". 
 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Verwalten von Routen im Netzwerkbereich](managing-network-region-routes.md)
+[Verwalten von Netzwerkregionsrouten](managing-network-region-routes.md)
 
 [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
 

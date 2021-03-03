@@ -1,8 +1,8 @@
 ---
 title: Statistics Manager für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 4/19/2016
 audience: ITPro
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3b945656-8241-40ed-a34d-0910bd9d3529
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über den Statistics Manager für Skype for Business Server zu erfahren, ein leistungsfähiges Tool, mit dem Sie Skype for Business Server-Integritäts-und-Leistungsdaten in Echtzeit anzeigen können.'
-ms.openlocfilehash: 67e90bdd62f27f222cce68dedc133ee751ead53a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: In diesem Thema erfahren Sie mehr über Statistics Manager für Skype for Business Server, ein leistungsstarkes Tool, mit dem Sie Integritäts- und Leistungsdaten von Skype for Business Server in Echtzeit anzeigen können.'
+ms.openlocfilehash: 68a16b76e68bc745a33b91b117c545b45057df55
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816224"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49821795"
 ---
 # <a name="statistics-manager-for-skype-for-business-server"></a>Statistics Manager für Skype for Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um mehr über den Statistics Manager für Skype for Business Server zu erfahren, ein leistungsfähiges Tool, mit dem Sie Skype for Business Server-Integritäts-und-Leistungsdaten in Echtzeit anzeigen können.
+**Zusammenfassung:** In diesem Thema erfahren Sie mehr über Statistics Manager für Skype for Business Server, ein leistungsstarkes Tool, mit dem Sie Integritäts- und Leistungsdaten von Skype for Business Server in Echtzeit anzeigen können.
   
 Dieser Abschnitt enthält die folgenden Themen:
   

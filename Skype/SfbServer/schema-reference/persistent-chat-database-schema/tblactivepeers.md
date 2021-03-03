@@ -1,8 +1,8 @@
 ---
 title: tblActivePeers
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
-description: tblActivePeers enthält die aktuellen Peer-to-Peer-Verbindungen zwischen Chat Diensten.
-ms.openlocfilehash: 4604c13dbff9565748dd59e5917a5c133bd71947
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: "\"tblActivePeers\" enthält die aktuellen Peer-zu-Peer-Verbindungen zwischen Chatdiensten."
+ms.openlocfilehash: befba4086a78281fbfbec1e270b7c8e3f8174752
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814713"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812935"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  
-tblActivePeers enthält die aktuellen Peer-to-Peer-Verbindungen zwischen Chat Diensten.
+"tblActivePeers" enthält die aktuellen Peer-zu-Peer-Verbindungen zwischen Chatdiensten.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|aplServerID  <br/> |int, nicht NULL  <br/> |Die ID des Servers, der den Eintrag gepostet hat.  <br/> |
-|aplPeerID  <br/> |int, nicht NULL  <br/> |Die ID des Peers, mit dem der Buchungsserver verbunden ist.  <br/> |
+|aplServerID  <br/> |int, nicht NULL  <br/> |ID des Servers, der den Eintrag bereitgestellt hat.  <br/> |
+|aplPeerID  <br/> |int, nicht NULL  <br/> |ID des Peers, mit dem der bereitstellende Server verbunden ist.  <br/> |
    
-**Schlüssel**
+**Keys**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
 |\<aplServerID, aplPeerID\>  <br/> |Primärschlüssel  <br/> |
-|aplServerID  <br/> |Fremdschlüssel mit Lookup in der tblServerIdentity. Server-Tabelle.  <br/> |
-|aplPeerID  <br/> |Fremdschlüssel mit Lookup in der tblServerIdentity. Server-Tabelle.  <br/> |
+|aplServerID  <br/> |Fremdschlüssel mit Abfrage der Tabelle "tblServerIdentity.serverID".  <br/> |
+|aplPeerID  <br/> |Fremdschlüssel mit Abfrage der Tabelle "tblServerIdentity.serverID".  <br/> |
    
 

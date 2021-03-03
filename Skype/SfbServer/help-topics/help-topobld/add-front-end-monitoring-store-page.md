@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen des Front-End-Überwachungsspeichers – Seite
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,30 +15,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Sie verwenden die Option SQL Server-Überwachungsspeicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 85b8518bb533de68423dea93f259fc7b927ed9ba
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 5f8a3ccb22aea1efde0b214b9afa61c140e63014
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218876"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49803545"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>Hinzufügen des Front-End-Überwachungsspeichers – Seite
+# <a name="add-front-end-monitoring-store-page"></a>Hinzufügen des Front-End-Überwachungsspeichers – Seite
  
 Sie verwenden die Option **SQL Server-Überwachungsspeicher definieren**, indem Sie die folgenden Eigenschaften konfigurieren:
   
-- **Überwachung SQL Server Speichers**: Wählen Sie einen SQL Server vollqualifizierten Domänennamen (und optional eine Instanz) aus der Liste aus.
+- **Überwachung SQL Server:** Wählen Sie SQL Server vollqualifizierten Domänennamen (und optional eine Instanz) aus der Liste aus.
     
-    Klicken Sie auf **neu** , um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Monitoring Server Speicher zu erstellen.
+    Klicken **Sie auf** "Neu", SQL Server eine neue FQDN-Definition und optional einen Instanznamen für den Monitoring Server-Speicher zu erstellen.
     
-- Aktivieren Sie das Kontrollkästchen **SQL Server Speicherspiegelung aktivieren** , wenn Sie die Datenbankspiegelung für die Monitoring Server hinzufügen möchten.
+- Aktivieren Sie **das Kontrollkästchen SQL Server speicherspiegelung** aktivieren, wenn Sie eine Datenbankspiegelung für den Monitoring Server hinzufügen möchten.
     
     Wählen Sie in der Liste eine vorhandene **SQL Server-Speicherspiegelung für Überwachung** aus.
     
-    Klicken Sie auf **neu** , um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Spiegel Speicher zu erstellen.
+    Klicken **Sie auf** "Neu", SQL Server eine neue FQDN-Definition und optional einen Instanznamen für den Spiegelspeicher zu erstellen.
     
-- Wenn Sie **SQL Server Speicherspiegelung aktivieren**ausgewählt haben, wählen Sie optional **SQL Server Spiegelungs Zeugen verwenden aus, um das automatische Failover zu aktivieren** , um einen SQL Server Spiegelungs Zeugen Speicher aus der Liste auszuwählen.
+- Wenn Sie "SQL Server-Spiegelung aktivieren" ausgewählt  **haben,** wählen Sie optional "SQL Server Spiegelungszeugen verwenden" aus, um das automatische Failover zu aktivieren, um einen SQL Server Spiegelungszeugenspeicher aus der Liste auszuwählen.
     
-    Klicken Sie auf **neu** , um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Spiegelungs Zeugen Speicher zu erstellen.
+    Klicken **Sie auf** "Neu", SQL Server eine neue FQDN-Definition und optional einen Instanznamen für den Spiegelungszeugenspeicher zu erstellen.
     
 Klicken Sie auf **Zurück**, um zum vorherigen Dialogfeld für die Pooldefinition zurückzukehren.
   
@@ -48,6 +48,6 @@ Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assisten
   
 Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Zuordnen eines überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

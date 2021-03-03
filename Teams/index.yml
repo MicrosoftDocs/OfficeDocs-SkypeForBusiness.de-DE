@@ -13,12 +13,12 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: d3e7841b2a849ff7c6d58a62fcc080047c250a75
-  ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+  ms.openlocfilehash: 0be9febe11179da1ffa5b2bd696704e7763da272
+  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
   ms.translationtype: HT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/30/2020
-  ms.locfileid: "48308208"
+  ms.lasthandoff: 02/05/2021
+  ms.locfileid: "50110298"
 highlightedContent:
   items:
   - title: COVID-19-Antwort – Unterstützung von Remotearbeitskräften mithilfe von Teams
@@ -35,7 +35,7 @@ highlightedContent:
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: Upgrade von Skype for Business auf Microsoft Teams
     itemType: how-to-guide
-    url: /MicrosoftTeams/upgrade-start-here
+    url: /MicrosoftTeams/upgrade-skype-teams
   - title: Übernahmehub
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
@@ -62,7 +62,7 @@ additionalContent:
         url: /MicrosoftTeams/prepare-network
       - text: Schutz der Kursteilnehmer durch die Verwendung von Teams für den Fernunterricht
         url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams.
+      - text: Verwenden Sie den Advisor für Teams als Hilfe beim Rollout von Microsoft Teams.
         url: /MicrosoftTeams/use-advisor-teams-roll-out
       - text: Wie Teams Arbeitsspeicher verwendet
         url: /MicrosoftTeams/teams-memory-usage-perf

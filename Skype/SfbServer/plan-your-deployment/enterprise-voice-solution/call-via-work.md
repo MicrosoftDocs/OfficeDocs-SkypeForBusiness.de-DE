@@ -1,8 +1,8 @@
 ---
-title: Planen eines Anrufs über die Arbeit in Skype for Business Server
+title: Planen der Anruf-über-Arbeit in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,93 +15,93 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
-description: Planung des Anrufs über die Arbeit in Skype for Business Server, der die Integration von Skype for Business und Ihrer Telefonanlage ermöglicht, damit Benutzer Skype for Business nutzen können, um Ihre Telefonanlagen zu kontrollieren.
-ms.openlocfilehash: 38c61145dcad609c75e7b2e3433efee307f8dc28
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Planen der Funktion "Geschäft arbeitsplatz" in Skype for Business Server, die die Integration zwischen Skype for Business und Ihrem Nebenstellensystem ermöglicht, sodass Benutzer Skype for Business zum Steuern ihrer Nebenstellentelefone verwenden können.
+ms.openlocfilehash: e443a5d2709f1aca69ef200e72de43251cd16047
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803155"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49825875"
 ---
-# <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planen eines Anrufs über die Arbeit in Skype for Business Server
+# <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planen der Anruf-über-Arbeit in Skype for Business Server
  
-Planung des Anrufs über die Arbeit in Skype for Business Server, der die Integration von Skype for Business und Ihrer Telefonanlage ermöglicht, damit Benutzer Skype for Business nutzen können, um Ihre Telefonanlagen zu kontrollieren.
+Planen der Funktion "Geschäft arbeitsplatz" in Skype for Business Server, die die Integration zwischen Skype for Business und Ihrem Nebenstellensystem ermöglicht, sodass Benutzer Skype for Business zum Steuern ihrer Nebenstellentelefone verwenden können.
   
- **Call per work** ist eine neue Funktion in Skype for Business Server, die es Ihnen ermöglicht, Ihre Skype for Business-Lösung mit ihren bestehenden Telefonanlagen zu verbinden. Ein Benutzer, der über die Arbeit für einen Anruf aktiviert ist, kann in Skype for Business klicken, um einen anderen Benutzer anzurufen, entweder innerhalb Ihrer Bereitstellung oder eines externen Benutzers. Das Gespräch wird dann mit dem Festnetztelefon des Benutzers durchgeführt. Auf diese Weise kann ein Benutzer mit einem PBX-Telefon Audio in seine reichhaltigen Skype for Business-Unterhaltungen aufnehmen. In früheren Versionen von lync Server war die Remoteanrufsteuerung ein Feature, mit dem Benutzer Ihre PBX-Telefone mit lync Server steuern konnten. In Skype for Business Server wurde diese Funktion durch Anruf über Arbeit ersetzt.
+ **Anruf über Arbeit** ist eine neue Funktion in Skype for Business Server, mit der Sie Ihre Skype for Business-Lösung in Ihre vorhandenen Nebenstellenanlagen integrieren können. Ein für "Geschäft über Arbeit" aktivierter Benutzer kann in Skype for Business einen anderen Benutzer anrufen, entweder innerhalb Ihrer Bereitstellung oder eines externen Benutzers. Der Anruf wird über das Nebenstellentelefon des Benutzers abgeschlossen. Dadurch kann ein Benutzer mit einem Nebenstellentelefon Audio in seine reichhaltigen Skype for Business-Unterhaltungen aufnehmen. In früheren Versionen der Lync Server-Remoteanrufsteuerung konnten Benutzer ihre Nebenstellentelefone mit Lync Server steuern. In Skype for Business Server wurde diese Funktion durch "Geschäft arbeitsplatz" ersetzt.
   
-Anruf über Arbeit ermöglicht für Telefonanlagen Nutzer die folgenden Optionen:
+"Über Arbeit anrufen" aktiviert Folgendes für Benutzer von Nebenstellentelefonen
   
-- Click-to-call-Benutzererfahrung, mit dem über das PBX-Telefon bereitgestellte Audio.
+- Klick-und-Anruf-Erfahrung mit den über das Nebenstellentelefon bereitgestellten Audiodaten.
     
-- Anwesenheit, Benutzersuche und Chat-Integration – beispielsweise können zwei Anrufe über Arbeits Benutzer in einer Chatsitzung ihrer Sitzung Audio hinzufügen, wobei die Audiofunktionen über die PBX-Telefone bereitgestellt werden.
+- Anwesenheit, Benutzersuche und Integration von Telefonanrufen – beispielsweise können zwei Benutzer von "Anruf über Arbeit" in einer Sitzung mit Einer-Telefon-E-Mail Audio zu ihrer Sitzung hinzufügen, und die Audiodaten werden über die Nebenstellentelefone bereitgestellt.
     
-- Die Möglichkeit, Chats, Anwendungsfreigaben und Dateiübertragungen zu einem Anruf per Arbeits Anruf hinzuzufügen.
+- Die Möglichkeit zum Hinzufügen von Imitieren, Anwendungsfreigabe und Dateiübertragung zu einem Anruf über die Arbeit.
     
-- Funktion für Besprechungsteilnahme mit einem Mausklick
+- Funktion zum Beitreten zu einer Besprechung mit einem Klick
     
 ## <a name="how-it-works"></a>Funktionsweise
 
-Bei Anrufen per Arbeit wird Unified Communications Web API (UCWA) als Back-to-Back-Benutzer-Agent (B2BUA) zwischen dem PBX-System und ihrer Skype for Business Server-Bereitstellung verwendet, sodass kein Computerunterstütztes Telecommunications Application (CSTA)-Gateway benötigt wird, um eine Verbindung herzustellen. Skype for Business Server mit Ihrem PBX-System. UCWA ist ein Dienst, der in früheren Versionen von lync Server eingeführt wurde, um die Konnektivität mit mobilen und Webclients zu ermöglichen, und wird automatisch auf jedem Front-End-Server installiert.
+Call Via Work verwendet Unified Communications Web API (UCWA) als Back-to-Back-Benutzer-Agent (B2BUA) zwischen dem Nebenstellensystem und Ihrer Skype for Business Server-Bereitstellung, sodass kein computergestütztes Gateway für Telekommunikationsanwendung (CSTA) erforderlich ist, um Skype for Business Server mit Ihrem Nebenstellensystem zu verbinden. UCWA ist ein Dienst, der in früheren Versionen von Lync Server eingeführt wurde, um verbindungen mit mobilen Clients und Webclients zu ermöglichen, und wird automatisch auf jedem Front-End-Server installiert.
   
-### <a name="call-workflow-for-a-call-via-work-call"></a>Anruf Workflow für einen Anruf per Arbeits Anruf
+### <a name="call-workflow-for-a-call-via-work-call"></a>Anrufworkflow für einen Anruf über die Arbeit
 
-Die folgende Abbildung zeigt, wie ein Benutzer, der über Arbeit aktiviert ist, den Skype for Business-Server verwenden kann, um einen Anruf zu tätigen:
+Im Folgenden wird veranschaulicht, wie ein für "Geschäft über Arbeit" aktivierter Benutzer skype for Business Server für einen Anruf verwenden kann:
   
-![Zeigt die Schritte während eines geschäftlichen Anrufs; zunächst klickt der Anrufer im Skype for Business-Client auf das entsprechende Symbol, um jemanden anzurufen; anschließend lässt die UCWA das Telefon des Anrufers klingeln. Wenn der Anrufer abhebt, wird der Empfänger angerufen](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![Zeigt die Schritte während eines Anrufs über arbeit; zuerst klickt der Anrufer, um eine Person im Skype for #A0 an anruft. anschließend klingelt die UCWA am Telefon des Anrufers. Wenn der Anrufer das Telefon an sich nimmt, wird der Empfänger angerufen.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
-1. Der Benutzer wählt einen Benutzer in seinem Skype for Business-Client aus und klickt auf das Telefonsymbol, um ihn anzurufen. Oder während einer Chat Unterhaltung klickt der Benutzer auf den Benutzer, mit dem Sie die Sitzung führen.
+1. Der Benutzer wählt einen Benutzer in ihrem Skype for Business-Client aus und klickt auf das Telefonsymbol, um ihn anwählen. Oder während einer Unterhaltung im Rahmen einer Telefonkonferenz klickt der Benutzer, um den Benutzer an anruft, mit dem die Sitzung geführt wird.
     
-2. Die Telefonanlage des Benutzers, der den Anruf getätigt hat, beginnt zu klingeln. Die Rufnummernanzeige für dieses Telefon zeigt eine globale Telefonnummer, die Sie in der Rufnummernanzeige aller Nutzer anzeigen lassen, die Anrufe über geschäftliche Anrufe tätigen. Bei dieser globalen Telefonnummer handelt es sich nicht um eine tatsächliche Telefonnummer, die dem Telefon einer Person entspricht. Stattdessen ist es ein visuelles Signal, um Benutzern mitzuteilen, dass es sich um einen eigenen ausgehenden Anruf handelt, und kein eingehender Anruf zur gleichen Zeit stattfindet. Wenn Sie den Anruf über die Arbeit bereitstellen, sollten Sie diese Benutzer über diese globale Telefonnummer informieren und was dies bedeutet.
+2. Das Nebenstellentelefon des Benutzers, der den Anruf platziert hat, beginnt zu klingeln. Die Anrufer-ID für dieses Telefon zeigt eine globale Telefonnummer an, die Sie so eingerichtet haben, dass sie in der Anrufer-ID aller Benutzer, die Anrufe über die Arbeit tätigt, anzeigen. Diese globale Telefonnummer ist keine tatsächliche Telefonnummer, die dem Telefon einer Person entspricht. Stattdessen ist es ein visuelles Signal, um einem Benutzer zu signalisieren, dass es sich um einen eigenen ausgehenden Anruf und nicht um einen gleichzeitigen eingehenden Anruf handelt. Wenn Sie "Anruf über Arbeit" bereitstellen, sollten Sie diese Benutzer über diese globale Telefonnummer informieren und wissen, was dies bedeutet.
     
-3. Der Nutzer, der den Anruf getätigt hat, nimmt seine Telefonanlage an. Skype for Business initiiert dann den Sprachanruf an den angerufenen. 
+3. Der Benutzer, der den Anruf abting, nimmt sein Nebenstellentelefon auf. Skype for Business initiiert dann den Sprachanruf an den Ansprecher. 
     
-4. Wenn der aufgerufene antwortet, beginnt der Sprachanruf. Wenn die beiden Benutzer bereits eine Chatsitzung durchlaufen haben, kann Sie fortfahren.
+4. Wenn der Ansprecher antwortet, beginnt der Sprachanruf. Wenn für die beiden Benutzer bereits eine Im-Im-Sitzung anfing, kann sie fortgesetzt werden.
     
-### <a name="joining-a-conference-with-call-via-work"></a>Teilnehmen an einer Konferenz mit Anruf über die Arbeit
+### <a name="joining-a-conference-with-call-via-work"></a>Beitreten zu einer Konferenz mit "Anruf über Arbeit"
 
-Ein Anruf über Arbeit Benutzer kann an einer geplanten Besprechung teilnehmen, indem Sie auf die Besprechungs-URL klickt. Skype for Business zeigt dann eine **Anruf Nachricht an,** bis der Besprechungs Dienst das PBX-Telefon des Benutzers wählt. Der Anruf über den Arbeits Benutzer nimmt dann das PBX-Telefon auf und tritt der Besprechung bei.
+Ein Benutzer von "Anruf über Arbeit" kann an einer geplanten Besprechung teilnehmen, indem er auf die Besprechungs-URL klickt. Skype for Business zeigt  dann eine Auswahl für eine Nachricht an, bis der Besprechungsdienst das Nebenstellentelefon des Benutzers wählt. Der Benutzer "Anruf über Arbeit" nimmt dann das Nebenstellentelefon auf und nimmt an der Besprechung teil.
   
-Ein Anruf über die Arbeit Benutzer kann auch die Option " **jetzt** besprechen" in Skype for Business verwenden, um Besprechungen jetzt erstellen zu können. Der Benutzer sieht dann den Anruf **aus, um Nachrichten zu** senden, und die Telefonanlage klingelt.
+Ein Benutzer von "Geschäftfreundliche  Anrufe" kann auch die Option "Sofortbesprechungen" in Skype for Business verwenden, um Sofortbesprechungen zu erstellen. Der Benutzer sieht dann die Nachricht "Auswählen **an",** und das Nebenstellentelefon klingelt.
   
-Ein Anruf über den Arbeits Benutzer kann sich auch in eine Besprechung einwählen, indem er in Skype for Business die Konferenz Brücken Nummer anruft. Wenn eine Konferenz-PIN erforderlich ist, muss der Benutzer sein PBX-Telefon verwenden, um die PIN einzugeben.
+Ein Benutzer von "Geschäftfreundliche Anrufe" kann sich auch in eine Besprechung einwählen, indem er die Nummer der Konferenzbrücke in Skype for Business anruft. Wenn eine Konferenz-PIN erforderlich ist, muss der Benutzer die PIN über sein Nebenstellentelefon eingeben.
   
 ### <a name="incoming-calls"></a>Eingehende Anrufe
 
-Wenn ein Benutzer, der über Work aktiviert ist, einen Skype for Business-Anruf erhält, klingelt das Telefon der Telefonanlage und die Skype for Business-Clients des Benutzers alle gleichzeitig (wenn der Benutzer einen gleichzeitigen Ring eingerichtet hat). Der Benutzer kann den Anruf annehmen, indem er das PBX-Telefon auswählt oder in der Skype for Business-Benachrichtigung auf **annehmen** klickt. Wenn der Benutzer den Anruf über Skype for Business annimmt, bleibt das Skype for Business-Fenster für den Anruf geöffnet. Wenn der Benutzer aber den Anruf annimmt, indem er das PBX-Telefon auswählt, wird das Benachrichtigungsfenster von Skype for Business geschlossen, und es gibt keine Skype for Business-Sitzung, sondern nur den Sprachanruf über das PBX-Telefon.
+Wenn ein für "Geschäftlich anrufen" aktivierter Benutzer einen Skype for Business-Anruf erhält, klingeln das Nebenstellentelefon und die Skype for Business-Clients des Benutzers gleichzeitig (wenn der Benutzer gleichzeitiges Klingeln eingerichtet hat). Der Benutzer kann den Anruf annehmen, indem er  entweder das Nebenstellentelefon annimmt oder in der Skype for Business-Benachrichtigung auf "Annehmen" klickt. Wenn der Benutzer den Anruf über Skype for Business annimmt, bleibt das Skype for Business-Fenster für den Anruf geöffnet. Wenn der Benutzer den Anruf jedoch über das Nebenstellentelefon annimmt, wird das Skype for Business-Benachrichtigungsfenster geschlossen, und es gibt keine Skype for Business-Sitzung, sondern nur den Sprachanruf über das Nebenstellentelefon.
   
-Wenn ein für einen Anruf über Arbeit aktivierter Nutzer einen PBX-Anruf erhält, klingelt nur das Telefon der Telefonanlage.
+Wenn ein für "Über Arbeit anrufen" aktivierter Benutzer einen Nebenstellenanruf erhält, klingelt nur das PbX-Telefon.
   
-## <a name="limitations-of-call-via-work"></a>Einschränkungen des Anrufs über die Arbeit
+## <a name="limitations-of-call-via-work"></a>Einschränkungen der Anruf-über-Arbeit
 
-Call per Work ist eine Sprachlösung, die ein kleines Hardware-Setup erfordert, aber im Vergleich zu den Funktionen, die in der vollständigen Enterprise-VoIP-oder Remote-Anrufsteuerung zur Verfügung stehen. Bei Anrufen über Arbeit gelten die folgenden Einschränkungen:
+"Anruf über Arbeit" ist eine Sprachlösung, für die nur wenig Hardware eingerichtet werden muss, aber im Vergleich zu den Funktionen, die in der Enterprise-VoIP oder der Remoteanrufsteuerung verfügbar sind, Einschränkungen gelten. "Anruf über Arbeit" hat die folgenden Einschränkungen:
   
-- Wenn ein Anruf über den Arbeits Benutzer die Anrufweiterleitung für den Anruf über die geschäftliche Rückrufnummer eingerichtet hat und jemand versucht, diesen Nutzer über die Telefonnummer des Benutzers zu einer Besprechung einzuladen, wird die Einladung den Nutzer nicht erreichen. Informieren Sie Ihre Benutzer, dass Sie Teilnehmer zu Besprechungen einladen möchten, indem Sie auf den Namen und nicht auf die Telefonnummer klicken. 
+- Wenn ein Benutzer von "Anruf über Arbeit" die Anrufanrufnummer eingerichtet hat und jemand versucht, diesen Benutzer über die Telefonnummer des Benutzers zu einer Besprechung einzuladungen, erreicht die Einladung den Benutzer nicht. Sie sollten Ihre Benutzer erziehen, Teilnehmer zu Besprechungen einzu einladen, indem Sie auf den Namen und nicht auf die Telefonnummer klicken. 
     
-- Die erweiterte 911-Funktion und die Nachverfolgung böswilliger Anrufe sind während eines Anrufs über geschäftliche Anrufe nicht verfügbar.
+- Die erweiterte 911-Funktion und die Nachverfolgung bösartiger Anrufe sind bei Anrufen über die Arbeit nicht verfügbar.
     
-- Für Benutzer, die über Arbeit aktiviert sind, können die Features Delegation, Team Anruf oder Reaktionsgruppe nicht verwendet werden.
+- Benutzer, die für "Über Arbeit anrufen" aktiviert sind, können die Delegierungs-, Teamanruf- oder Reaktionsgruppesfunktionen nicht verwenden.
     
-- Nutzer von Anrufen über die Arbeit können Skype for Business nicht verwenden, um eine Besprechung aufzuzeichnen, den Anruf stummzuschalten oder die Stummschaltung aufzuheben, den Anruf zu halten oder zu übertragen oder den Anruf Park zu verwenden.
+- Benutzer von "Geschäftlich anrufen" können Skype for Business nicht zum Aufzeichnen einer Besprechung, stummschalten oder Stummschalten des Anrufs, Zum Halten oder Übertragen des Anrufs oder zum Parken von Anrufen verwenden.
     
-- Benutzer können den Anruf nicht über work verwenden, um auf Ihre Telefonanlagen-Voicemail-Nachrichten zuzugreifen.
+- Benutzer können nicht mit "Über Arbeit anrufen" auf ihre Voicemailnachrichten der Nebenstellenanlage zugreifen.
     
-- Benutzer von Anrufen über die Arbeit können keine Sitzung eskalieren, die als Sprachanruf zu einer kollaborativen Besprechung gestartet wurde, die Kommunikation wie Video, PowerPoint, Whiteboard oder eine Notiz umfasst.
+- Benutzer von "Anruf über Arbeit" können eine Sitzung, die als Sprachanruf gestartet wurde, nicht zu einer gemeinsamen Besprechung eskalieren, die Kommunikation wie Video, PowerPoint, Whiteboard oder One Note umfasst.
     
-- Benutzer von Anrufen über Arbeit können einem zwei-Personen-Anruf keine weiteren Benutzer hinzufügen.
+- Benutzer von "Anruf über Arbeit" können keine weiteren Benutzer zu einem Zwei-Personen-Anruf hinzufügen.
     
-- Keine Unterstützung für Deskphone-Kopplung oder VDI-Plug-in-Kopplung.
+- Keine Unterstützung für die Kopplung von Tischtelefonen oder VDI-Plug-Ins.
     
-- Wenn ein Benutzer einen Anruf über das PBX-Telefon (und nicht über das Skype for Business-Fenster) tätigt oder annimmt, wird kein Protokoll des Anrufs angezeigt.
+- Wenn ein Benutzer einen Anruf über das Nebenstellentelefon (und nicht über das Skype for Business-Fenster) anruft oder beantwortet, wird kein Protokoll des Anrufs angezeigt.
     
-- Wenn Ihr PBX-System das **verweisen mit ersetzen**nicht unterstützt, wird das folgende Verhalten auftreten. Wenn der Benutzer während eines Anrufs über einen geschäftlichen Anruf den laufenden Anruf vom PBX-Telefon übertragen lässt, verschwindet das Anruffenster nicht mehr im Skype for Business-Fenster. Wenn der Benutzer dann das Anruffenster schließt, endet der Anruf zwischen dem Übergabeziel und dem übertragenden. 
+- Wenn Ihr Nebenstellensystem REFER mit **"Replaces"** nicht unterstützt, wird das folgende Verhalten auftreten. Wenn der Benutzer bei einem Anruf über die Geschäftstätigkeit den laufenden Anruf über das Nebenstellentelefon weitergibt, wird das Anruffenster nicht aus dem Skype for Business-Fenster ausgeblendet. Wenn der Benutzer dann das Anruffenster schließt, wird der Anruf zwischen dem Übertragungsziel und dem Durchgangsbenutzer beendet. 
     
-## <a name="prerequisites-for-call-via-work"></a>Voraussetzungen für Anrufe über die Arbeit
+## <a name="prerequisites-for-call-via-work"></a>Voraussetzungen für "Anruf über Arbeit"
 
-Damit alle Benutzer den Anruf über die Arbeit tätigen können, müssen Sie über einige Voraussetzungen verfügen. Weitere Informationen zu diesen Voraussetzungen sowie Schritte zum Aktivieren von Benutzern für den Anruf über Arbeit finden Sie unter [Bereitstellen von Anrufen über die Arbeit in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md). 
+Um Benutzer für die Funktion "Über Arbeit anrufen" zu aktivieren, müssen einige Voraussetzungen erfüllt sein. Weitere Informationen zu diesen Voraussetzungen und Schritte zum Aktivieren von Benutzern für die Funktion "Geschäft", finden Sie unter "Anruf über Arbeit [bereitstellen" in Skype for Business Server 2015.](../../deploy/deploy-call-via-work.md) 
   
 ## <a name="see-also"></a>Siehe auch
 
 [Planen der Remoteanrufsteuerung in Skype for Business](remote-call-control.md)
   
-[Bereitstellen der Funktion „Anruf über Arbeit“ in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
+[Bereitstellen von "Anruf über Arbeit" in Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
 

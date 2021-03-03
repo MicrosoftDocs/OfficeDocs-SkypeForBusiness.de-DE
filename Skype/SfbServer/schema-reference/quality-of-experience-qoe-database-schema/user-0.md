@@ -1,8 +1,8 @@
 ---
-title: User-Tabelle
+title: Benutzertabelle
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
-description: Die Tabelle Benutzer ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer gespeichert ist, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle steht für einen Benutzer.
-ms.openlocfilehash: fcb6c4d45f1392c31ba87637d6e3a1a697f7be9e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bei der User-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Darin wird eine Liste der verschiedenen Benutzer gespeichert, die an in der Datenbank aufgezeichneten Sitzungen beteiligt waren. Jeder Datensatz in der Tabelle steht für einen Benutzer.
+ms.openlocfilehash: 5c84f0b947199fa497964cb1689dccc571a98d14
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805093"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800075"
 ---
-# <a name="user-table"></a>User-Tabelle
+# <a name="user-table"></a>Benutzertabelle
  
-Die Tabelle Benutzer ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer gespeichert ist, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle steht für einen Benutzer.
+Bei der User-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Darin wird eine Liste der verschiedenen Benutzer gespeichert, die an in der Datenbank aufgezeichneten Sitzungen beteiligt waren. Jeder Datensatz in der Tabelle steht für einen Benutzer.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**UserKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Benutzer kennzeichnet.  <br/> |
-|**URI** <br/> |nvarchar (450)  <br/> |Eindeutigen  <br/> |URI-Zeichenfolge.  <br/> |
-|**URIType** <br/> |int  <br/> ||1 ist ein Unbekannter URI-Typ.  <br/> 2 ist ein Benutzer-URI.  <br/> 4 ist Konferenz-URI.  <br/> 8 ist ein Telefon-URI.  <br/> |
-|**TenantKey** <br/> |int  <br/> |Fremd  <br/> |Der Mandant des Benutzers, auf den die Mandantentabelle verweist.  <br/> |
-|**LastPoorCallTime** <br/> |datetime  <br/> ||Letzter Zeitstempel, wenn der Benutzer einen schlechten Audioanruf hatte.  <br/> |
-|**NextUpdateTS** <br/> |datetime  <br/> ||Nur für interne Verwendung.  <br/> |
+|**UserKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Benutzer identifiziert.  <br/> |
+|**uri** <br/> |nvarchar(450)  <br/> |Eigen  <br/> |URI-Zeichenfolge  <br/> |
+|**URIType** <br/> |int  <br/> ||1 ist ein unbekannter URI-Typ.  <br/> 2 ist ein Benutzer-URI.  <br/> 4 ist ein Konferenz-URI.  <br/> 8 ist ein Telefon-URI.  <br/> |
+|**TenantKey** <br/> |int  <br/> |Fremd  <br/> |Mandant des Benutzers. Verweis von der tenant-Tabelle.  <br/> |
+|**LastPoorCallTime** <br/> |Datum/Uhrzeit  <br/> ||Letzter Zeitstempel, an dem der Benutzer einen Anruf mit schlechter Audioqualität geführt hat.  <br/> |
+|**NextUpdateTS** <br/> |Datum/Uhrzeit  <br/> ||Ausschließlich für interne Zwecke.  <br/> |
    
 

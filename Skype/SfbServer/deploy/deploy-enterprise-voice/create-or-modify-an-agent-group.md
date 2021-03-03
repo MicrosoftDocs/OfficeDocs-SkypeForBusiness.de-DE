@@ -1,8 +1,8 @@
 ---
-title: Erstellen oder Ändern einer Agentengruppe in Skype for Business
+title: Erstellen oder Ändern einer Agentgruppe in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,66 +15,66 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: Sie können in Skype for Business Server Enterprise-VoIP eine Agentengruppe in der Reaktionsgruppe erstellen oder ändern.
-ms.openlocfilehash: 0b496160f00cde80364c0f81c150392405ef7768
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Erstellen oder ändern Sie eine Agentgruppe in reaktionsgruppe, in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: dfa09c3341ad47f2646939738cb67db7b7f27304
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767758"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837095"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Erstellen oder Ändern einer Agentengruppe in Skype for Business
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Erstellen oder Ändern einer Agentgruppe in Skype for Business
  
-Sie können in Skype for Business Server Enterprise-VoIP eine Agentengruppe in der Reaktionsgruppe erstellen oder ändern.
+Erstellen oder ändern Sie eine Agentgruppe in reaktionsgruppe, in Skype for Business Server Enterprise-VoIP.
   
 Beim Erstellen einer Agentgruppe wählen Sie die Agents aus, die der Gruppe zugewiesen werden. Außerdem geben Sie zusätzliche Gruppeneinstellungen (beispielsweise die Routingmethode) an und legen fest, ob sich ein Agent bei der Gruppe an- und abmelden muss. 
   
-Ein Agent, der sich bei der Gruppe an-und abmelden muss, die sich von der Anmeldung bei Skype for Business unterscheidet, wird als formeller Agent bezeichnet. Formelle Agents müssen sich bei der Gruppe anmelden, um an die Gruppe weitergeleitete Anrufe empfangen zu können. Dies kann für Agents nützlich sein, die Anrufe der Gruppe nur zeitweise annehmen. Formelle Agents melden sich bei ihren Gruppen an und aus, indem Sie in Skype for Business auf ein Menüelement klicken, um den Internet Browser von Windows Internet Explorer zu öffnen und eine Webseite-Konsole anzuzeigen.
+Ein Agent, der sich bei der Gruppe an- und abmelden muss, was sich von der An- oder Abmelden bei Skype for Business abmeldet, wird als formeller Agent bezeichnet. Formelle Agents müssen sich bei der Gruppe anmelden, um an die Gruppe weitergeleitete Anrufe empfangen zu können. Dies kann für Agents nützlich sein, die Anrufe der Gruppe nur zeitweise annehmen. Formelle Agents melden sich bei ihren Gruppen an und ab, indem sie in Skype for Business auf ein Menüelement klicken, um den Internetbrowser von Windows Internet Explorer zu öffnen und eine Webseitenkonsole anzuzeigen.
   
-Ein Agent, der sich nicht bei der Gruppe anmeldet, wird als informeller Agent bezeichnet. Informelle Agents werden bei der Anmeldung bei Skype for Business automatisch bei der Gruppe angemeldet und können sich nicht von der Gruppe abmelden.
+Ein Agent, der sich nicht bei der Gruppe anmeldet oder abmeldet, wird als informeller Agent bezeichnet. Informelle Agents werden automatisch bei der Gruppe angemeldet, wenn sie sich bei Skype for Business anmelden, und sie können sich nicht von der Gruppe abmelden.
   
-Nur lokale Benutzer können Agents sein. Wenn ein Agent von lokal in Online verschoben wird, werden keine Antwortgruppen Aufrufe an diesen Agenten weitergeleitet.
+Nur lokale Benutzer können Agents sein. Wenn ein Agent von einer lokalen zu einer Onlinebereitstellung verschoben wird, werden Reaktionsgruppenanrufe nicht an diesen Agent weitergeleitet.
   
 Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen oder zu ändern.
   
 > [!IMPORTANT]
-> Wenn Sie Benutzer als Reaktionsgruppenagents zuweisen, weisen Sie diese darauf hin, dass sie bei aktiviertem Datenschutzmodus nach „RGS-Anwesenheitsmonitor“-Kontakten suchen und sie ihrer Kontaktliste hinzufügen müssen. Agents, deren Datenschutzmodus aktiviert ist, die jedoch „RGS-Anwesenheitsmonitor“ nicht in ihre Kontaktliste aufgenommen haben, können keine Anrufe bei der Reaktionsgruppe annehmen. Agents, deren Datenschutzmodus nicht aktiviert ist, sind davon nicht betroffen. 
+> Wenn Sie Benutzer als Reaktionsgruppenagents zuweisen, weisen Sie diese darauf hin, dass sie bei aktiviertem Datenschutzmodus nach "RGS-Anwesenheitsmonitor"-Kontakten suchen und sie ihrer Kontaktliste hinzufügen müssen. Agents, deren Datenschutzmodus aktiviert ist, die jedoch "RGS-Anwesenheitsmonitor" nicht in ihre Kontaktliste aufgenommen haben, können keine Anrufe bei der Reaktionsgruppe annehmen. Agents, deren Datenschutzmodus nicht aktiviert ist, sind davon nicht betroffen. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>So verwenden Sie die Skype for Business Server-Systemsteuerung zum Erstellen oder Ändern einer Agentengruppe
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>So verwenden Sie die Skype for Business Server-Systemsteuerung zum Erstellen oder Ändern einer Agentgruppe
 
-1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
+1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppe unterstützen.
     
     > [!NOTE]
-    > Wenn Sie einer der delegierten Reaktionsgruppenleiter für einen verwalteten Workflow sind, können Sie Gruppen erstellen und in den von Ihnen verwalteten Workflows verwenden. 
+    > Wenn Sie einer der delegierten Reaktionsgruppenmanager für einen verwalteten Workflow sind, können Sie Gruppen erstellen und in den von Ihnen verwalteten Workflows verwenden. 
   
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um das Skype for Business Server Control Panel zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
     
-3. Klicken Sie auf der linken Navigationsleiste auf **Reaktionsgruppen** und dann auf **Gruppe**.
+3. Klicken Sie in der linken Navigationsleiste auf **Reaktionsgruppen** und dann auf **Gruppe**.
     
-4. Führen Sie auf der Seite **Gruppe** einen der folgenden Schritte aus:
+4. Gehen Sie **auf** der Seite "Gruppe" wie folgt vor:
     
-   - Zum Erstellen einer neuen Agentgruppe klicken Sie auf **Neu**. Geben Sie im Suchfeld **Dienst auswählen** den Namen des **ApplicationServer**-Diensts, dem Sie die Gruppe hinzufügen möchten, ganz oder teilweise ein. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
+   - Klicken Sie auf "Neu", um eine neue Agentgruppe **zu erstellen.** Geben Sie **im Suchfeld** "Dienst auswählen" den Namen des **ApplicationServer-Diensts,** dem Sie die Gruppe hinzufügen möchten, ganz oder teilweise ein. Klicken Sie in der Dienstliste auf den gewünschten Dienst, und klicken Sie dann auf **OK**.
     
-   - Wenn Sie eine vorhandene Agentgruppe ändern möchten, geben Sie im Suchfeld den Namen der Agentgruppe ganz oder teilweise ein. Klicken Sie in der nun angezeigten Liste auf die gewünschte Gruppe, dann auf **Bearbeiten** und anschließend auf **Details anzeigen**.
+   - Wenn Sie eine vorhandene Agentgruppe ändern möchten, geben Sie den Namen der Agentgruppe ganz oder teilweise in das Suchfeld ein. Klicken Sie in der Ergebnisliste auf die gruppe, die Sie möchten, klicken **Sie auf Bearbeiten**, und klicken Sie dann auf Details **anzeigen**.
     
-5. Geben Sie im Feld **Name** einen aussagekräftigen Namen für die Agentgruppe ein.
+5. Geben **Sie im** Namen einen Identifizierenden Namen für die Agentgruppe ein.
     
 6. Geben Sie in **Beschreibung** eine Beschreibung für die Gruppe ein.
     
 7. Wählen Sie unter **Beteiligungsrichtlinie** eine der folgenden Einstellungen aus, um das Anmeldeverhalten für die Gruppe einzurichten:
     
-   - Wählen Sie **Informell**, um anzugeben, dass Agents in der Gruppe sich bei der Gruppe weder an- noch abmelden müssen. Agents werden automatisch bei der Gruppe angemeldet, wenn Sie sich bei Skype for Business anmelden.
+   - Wählen Sie **Informell**, um anzugeben, dass Agents in der Gruppe sich bei der Gruppe weder an- noch abmelden müssen. Agents werden automatisch bei der Gruppe angemeldet, wenn sie sich bei Skype for Business anmelden.
     
-   - Klicken Sie auf **Formell**, um festzulegen, dass sich die Agents der Gruppe bei der Gruppe an- oder abmelden müssen. Wenn Sie diese Option auswählen, klicken Sie in Skype for Business auf ein Menüelement, um Internet Explorer zu öffnen und eine Webseite-Konsole zum ein-und Ausloggen der Gruppe anzuzeigen.
+   - klicken Sie auf **Formell**, um festzulegen, dass sich die Agents der Gruppe bei der Gruppe an- oder abmelden müssen. Wenn Sie diese Option auswählen, klicken Agents in Skype for Business auf ein Menüelement, um Internet Explorer zu öffnen und eine Webseitenkonsole zum Anmelden und Abwählen der Gruppe anzuzeigen.
     
 8. Geben Sie im Feld **Agentwarnungszeit (Sekunden)** an, wie lange das Telefon eines Agents klingelt, bevor der Anruf an den nächsten verfügbaren Agent übergeben wird (die Standardeinstellung ist 20 Sekunden).
     
     > [!IMPORTANT]
-    > Die Einstellung für die Agentwarnungszeit darf 180 Sekunden nicht überschreiten. Andernfalls weist die Clientanwendung den Anruf zurück, weil der Zeitgeber für die SIP-Transaktion die maximale Wartezeit erreicht. 
+    > Die Einstellung für die Agentwarnungszeit darf 180 Sekunden nicht überschreiten. Wenn die Agentwarnungszeit 180 Sekunden überschreitet, weist die Clientanwendung den Anruf zurück, da der Zeitgeber für die SIP-Transaktion die maximale Wartezeit erreicht. 
   
 9. Wählen Sie unter **Routingmethode** aus, wie Anrufe an die Agents in der Gruppe weitergeleitet werden:
     
-   - Wenn Sie einen neuen Anruf zuerst an den Agenten anbieten möchten, der am längsten inaktiv war (in Skype for Business am längsten **vorhanden** oder **inaktiv** war), klicken Sie auf **Längster Leerlauf**. 
+   - Klicken Sie auf "Längster Leerlauf", um dem Agent,  der am längsten im Leerlauf war (in Skype for Business war am längsten "Verfügbar" oder  "Inaktiv" vorhanden) einen neuen Anruf zu **bieten.** 
     
    - Klicken Sie auf **Parallel**, um einen neuen Anruf simultan allen verfügbaren Agents anzubieten. Der Anruf wird an den ersten Agent übergeben, der diesen annimmt.
     
@@ -82,19 +82,19 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
    - Wenn Sie einen neuen Anruf den Agents immer in der Reihenfolge anbieten möchten, in der sie auf der Registerkarte **Agent** aufgeführt sind, klicken Sie auf **Seriell**. 
     
-   - Klicken Sie auf **Attendant**, um allen Agenten, die bei Skype for Business und der Response Group-Anwendung gleichzeitig angemeldet sind, einen neuen Anruf anzubieten, und zwar unabhängig von deren derzeitigem vorhanden sein. Benutzer, die als Agents konfiguriert sind, können alle wartenden Anrufe sehen und in beliebiger Reihenfolge annehmen. Der Anruf wird an den ersten Agent übergeben, der den Anruf annimmt, woraufhin er den weiteren Agents nicht mehr angezeigt wird.
+   - Klicken Sie auf "Attendant", um allen Agents, die gleichzeitig bei Skype for Business und der Reaktionsgruppe angemeldet sind, unabhängig von ihrer aktuellen Anwesenheit einen neuen Anruf **zu bieten.** Benutzer, die als Agents konfiguriert sind, können alle wartenden Anrufe sehen und wartende Anrufe in beliebiger Reihenfolge beantworten. Der Anruf wird an den ersten Agent gesendet, der ihn annimmt, nach dem die anderen Agents den Anruf nicht mehr sehen.
     
 10. Geben Sie auf der Registerkarte **Agents** an, wie Sie Ihre Agentliste erstellen möchten:
     
-    - Um eine benutzerdefinierte Liste von Agents zu verwenden, klicken Sie auf **Eine benutzerdefinierte Gruppe von Agents definieren**. Führen Sie anschließend einen der folgenden Schritte aus:
+    - Um eine benutzerdefinierte Liste von Agents zu verwenden, klicken Sie auf "Benutzerdefinierte Gruppe von Agents **definieren",** und gehen Sie wie folgt vor:
     
-    - Zum Hinzufügen eines Benutzers zur Agentgruppe klicken Sie auf **Agents Auswählen** und geben Sie dann im Suchfeld **Agents auswählen** einen Teil oder den vollständigen Namen des Benutzers ein, der zu dieser Gruppe hinzugefügt werden soll. Klicken Sie anschließend auf **Suchen**. Klicken Sie in der Ergebnisliste auf den betreffenden Benutzer und dann auf **OK**.
+    - Klicken Sie zum Hinzufügen eines Benutzers zur Agentgruppe  auf "Auswählen", und geben Sie dann im Suchfeld "Agents auswählen" den Namen des Benutzers ganz oder teilweise ein, den Sie dieser Gruppe hinzufügen möchten, und klicken Sie dann auf **"Suchen".** Klicken Sie in der Resultierenden Liste der Agents auf den Benutzer, und klicken Sie dann auf **"OK".**
     
-    - Zum Entfernen eines Benutzers aus der Agentgruppe klicken Sie in der Liste der Agents auf den Benutzer, der entfernt werden soll und anschließend auf **Entfernen**.
+    - Um einen Benutzer aus der Agentgruppe zu entfernen, klicken Sie in der Liste der Agents auf den Benutzer, den Sie entfernen möchten, und klicken Sie dann auf **"Entfernen".**
     
-    - Zum Ändern der Reihenfolge, in der Agents Anrufe in Gruppen angeboten werden, die entweder Roundrobinrouting oder serielles Routing verwenden, klicken Sie in der Liste der Agents auf einen Benutzer und dann auf den Pfeil nach oben oder den Pfeil nach unten. 
+    - Um die Reihenfolge zu ändern, in der Agents Anrufe in Gruppen angeboten werden, die entweder Roundrobinrouting oder serielles Routing verwenden, klicken Sie in der Liste der Agents auf einen Benutzer, und klicken Sie dann auf den Pfeil nach oben oder nach unten. 
     
-    - Zum Verwenden einer Microsoft Exchange Server-Verteilerliste als Agentgruppe klicken Sie auf **Eine vorhandene E-Mail-Verteilerliste verwenden** und geben Sie dann in **Adresse der Verteilerliste** die E-Mail-Adresse der Verteilerliste an (z. B. NetzwerkSupport@contoso.com).
+    - Wenn Sie eine Microsoft Exchange Server-Verteilerliste als Agentgruppe verwenden möchten, klicken Sie auf "Vorhandene E-Mail-Verteilerliste verwenden", und geben Sie dann **in** der Verteilerlistenadresse die E-Mail-Adresse der Verteilerliste ein (z. B. NetworkSupport@contoso.com).
     
       Wenn Sie eine E-Mail-Verteilerliste verwenden, gelten die folgenden Einschränkungen:
     
@@ -102,28 +102,28 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
       - Falls die Verteilerliste eine oder mehrere Verteilerlisten enthält, werden die Mitglieder der verschachtelten Verteilerlisten nicht der Agentliste hinzugefügt.
     
-      - Wenn serielles Routing oder Roundrobinrouting ausgewählt ist, leitet der Server einen eingehenden Anruf gemäß Routingmethode und Reihenfolge, in der Agents auf der Verteilerliste angegeben sind, an den geeigneten Agent weiter.
+      - Wenn serielles Routing oder Roundrobinrouting ausgewählt ist, stellt der Server gemäß der Routingmethode und der Reihenfolge, in der Agents in der Verteilerliste aufgeführt sind, einen eingehenden Anruf an den entsprechenden Agent.
     
-      - Wenn die Verteilerliste Benutzer enthält, für die Lync Server 2010 aktiviert, aber Enterprise Voice nicht aktiviert ist, werden diese der Agentgruppe als dysfunktionelle Agents hinzugefügt. Stellen Sie sicher, dass für alle Mitglieder in der Verteilerliste Enterprise Voice für die Benutzerkonten aktiviert ist.
+      - Wenn die Verteilerliste Benutzer enthält, für die Lync Server 2010 aktiviert ist, Enterprise-VoIP jedoch nicht aktiviert ist, werden sie der Agentgruppe als zusätzliche Agents hinzugefügt. Stellen Sie sicher, dass alle Mitglieder der Verteilerliste Enterprise-VoIP für ihre Benutzerkonten aktiviert sind.
     
     > [!IMPORTANT]
-    > Wenn Sie eine e-Mail-Verteilerliste verwenden, werden ausgeblendete Mitgliedschaften oder ausgeblendete Listen möglicherweise für den Administrator der Reaktionsgruppe oder für Benutzer sichtbar. 
+    > Wenn Sie eine E-Mail-Verteilerliste verwenden, werden ausgeblendete Mitgliedschaften oder ausgeblendete Listen möglicherweise für den Reaktionsgruppeadministrator oder die Benutzer sichtbar. 
   
     Verborgene Mitgliedschaften oder Listen werden unter den folgenden Umständen sichtbar:
     
-     - Wenn eine Verteilerliste so konfiguriert wurde, dass die Mitgliedschaft ausgeblendet ist und der Antwortgruppen Administrator die Verteilerliste der Agentenliste zuordnet, können Benutzer die Gruppe anrufen, um herauszufinden, wer die Mitglieder sind. 
+     - Wenn eine Verteilerliste so konfiguriert wurde, dass die Mitgliedschaft ausgeblendet ist und der Reaktionsgruppeadministrator die Verteilerliste der Agentliste zuteilt, können Benutzer die Gruppe anrufen, um herauszufinden, wer die Mitglieder sind. 
     
-     - Wenn eine Verteilerliste so konfiguriert wurde, dass Sie in der globalen Exchange-Adressliste ausgeblendet ist, kann der Antwortgruppen Administrator möglicherweise die Verteilerliste sehen und der Agentenliste zuweisen, wenn der Prozess der Reaktionsgruppe die entsprechenden Benutzerrechte aufweist und Berechtigungen, auch wenn der Administrator nicht über die entsprechenden Benutzerrechte und Berechtigungen verfügt.
+     - Wenn eine Verteilerliste so konfiguriert wurde, dass sie in der globalen Adressliste von Exchange ausgeblendet ist, kann der Reaktionsgruppeadministrator die Verteilerliste möglicherweise sehen und der Agentliste zuweisen, wenn der Reaktionsgruppesprozess über die entsprechenden Benutzerrechte und -berechtigungen verfügt, auch wenn der Administrator nicht über die entsprechenden Benutzerrechte und -berechtigungen verfügt.
     
 11. Klicken Sie auf **Commit ausführen**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>So verwenden Sie die Skype for Business Server-Verwaltungsshell zum Erstellen oder Ändern einer Agentengruppe
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>So verwenden Sie die Skype for Business Server-Verwaltungsshell zum Erstellen oder Ändern einer Agentgruppe
 
-1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
+1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppe unterstützen.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und dann auf **Skype for Business 2015** und klicken Sie anschließend auf **Skype for Business Server-Verwaltungsshell**.
+2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
     
-3. Verwenden Sie **New-CsRgsAgentGroup**, um eine neue Agentgruppe zu erstellen. Zum Ändern einer vorhandenen Agentgruppe verwenden Sie **Set-CsRgsAgentGroup**. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
+3. Verwenden **Sie New-CsRgsAgentGroup,** um eine neue Agentgruppe zu erstellen. Verwenden **Sie Set-CsRgsAgentGroup,** um eine vorhandene Agentgruppe zu ändern. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
    ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
@@ -136,9 +136,9 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
    ```
 
     > [!IMPORTANT]
-    > Die Einstellung für die Agentwarnungszeit darf 180 Sekunden nicht überschreiten. Andernfalls weist die Clientanwendung den Anruf zurück, weil der Zeitgeber für die SIP-Transaktion die maximale Wartezeit erreicht. 
+    > Die Einstellung für die Agentwarnungszeit darf 180 Sekunden nicht überschreiten. Wenn die Agentwarnungszeit größer als 180 Sekunden ist, weist die Clientanwendung den Anruf zurück, da der Zeitgeber für die SIP-Transaktion die maximale Wartezeit erreicht. 
   
-4. Vergewissern Sie sich, dass die Agentgruppe erstellt worden ist. Führen Sie folgenden Befehl aus:
+4. Vergewissern Sie sich, dass die Agentgruppe erstellt wurde. Führen Sie dies aus:
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
@@ -148,8 +148,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   
-[Neu – CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
-[Satz-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
+[Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/set-csrgsagentgroup?view=skype-ps)
   
 [Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/get-csrgsagentgroup?view=skype-ps)

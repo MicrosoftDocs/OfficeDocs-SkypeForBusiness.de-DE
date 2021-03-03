@@ -37,7 +37,7 @@ Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
 *Neu im November 2019*
- - Sie können [den Ratgeber für Teams (Vorschau) jetzt als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Ratgeber für Teams (Vorschau) führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Microsoft 365- oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
+ - Sie können [den Advisor für Teams (Vorschau) jetzt als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Advisor für Teams (Vorschau) führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Microsoft 365- oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
  - [YouTube-Kanal "Microsoft Teams Essentials for IT"](https://aka.ms/MicrosoftTeamsforIT), einschließlich kurzer Videos (8-10 Minuten), die Ihnen zeigen, wie Sie das Rollout von Teams durchführen sowie Teams konfigurieren und verwalten.
 
 > [!TIP]

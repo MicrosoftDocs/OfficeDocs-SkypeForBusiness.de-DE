@@ -1,8 +1,8 @@
 ---
-title: Komponenten für PSTN-Konnektivität in Skype for Business Server
+title: Komponenten für die Festnetzanbindung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
-description: Erfahren Sie mehr über SIP-Trunking und PSTN-Gateways für Enterprise-VoIP in Skype for Business Server.
-ms.openlocfilehash: 443f5425beeed5b032968837ac56ce3a26468cdc
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Erfahren Sie mehr über das SIP-Trunking und pstN-Gateways für Enterprise-VoIP in Skype for Business Server.
+ms.openlocfilehash: 6261b95906699777e62c025889d23e03d381f09d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802535"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813535"
 ---
-# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Komponenten für PSTN-Konnektivität in Skype for Business Server
+# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Komponenten für die Festnetzanbindung in Skype for Business Server
  
-Erfahren Sie mehr über SIP-Trunking und PSTN-Gateways für Enterprise-VoIP in Skype for Business Server.
+Erfahren Sie mehr über das SIP-Trunking und pstN-Gateways für Enterprise-VoIP in Skype for Business Server.
   
-Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Außerdem sollte die zugrunde liegende Technologie für Benutzer, die Anrufe tätigen und empfangen, unbemerkt im Hintergrund arbeiten. Aus Sicht des Benutzers sollte ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem PSTN wie nur eine weitere SIP-Sitzung aussehen.
+Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Außerdem sollte die zugrunde liegende Technologie für Benutzer, die Anrufe tätigen und empfangen, unbemerkt im Hintergrund arbeiten. Aus Benutzersicht sollte ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem Telefonfestnetz wie eine ganz normale SIP-Sitzung wirken.
   
-Für PSTN-Verbindungen können Sie entweder einen SIP-Trunk oder ein PSTN-Gateway bereitstellen – mit Nebenstellenanlage (was auch als direkte SIP-Verbindung bezeichnet wird) oder ohne Nebenstellenanlage.
+Für Festnetzverbindungen können Sie entweder einen SIP-Trunk oder ein PstN-Gateway (mit einer Nebenstellenanlage, auch als direkte SIP-Verbindung bekannt, oder ohne Nebenstellenanlage) bereitstellen.
   
 ## <a name="sip-trunking"></a>SIP-Trunking
 
-Als Alternative zur Verwendung von PSTN-Gateways können Sie Ihre Enterprise-VoIP-Lösung mithilfe von SIP-Trunking mit dem PSTN verbinden. Mit SIP-Trunking sind folgende Szenarien möglich:
+Als Alternative zu PSTN-Gateways können Sie Ihre Enterprise-VoIP-Lösung mithilfe von SIP-Trunking mit dem Telefonfestnetz verbinden. Mit SIP-Trunking sind folgende Szenarien möglich:
   
 - Ein Benutzer eines Unternehmens innerhalb oder außerhalb der Unternehmensfirewall kann ein Orts- oder Ferngespräch über eine E.164-kompatible Nummer führen, das im Telefonfestnetz als Dienst des entsprechenden Dienstanbieters beendet wird.
     
@@ -43,25 +43,25 @@ Für diese Bereitstellungslösung ist ein SIP-Trunking-Dienstanbieter erforderli
   
 ## <a name="pstn-gateways"></a>PSTN-Gateways
 
-PSTN-Gateways sind Geräte von Drittanbietern, die Signal-und Medienübertragung zwischen der Enterprise-VoIP-Infrastruktur und einem PSTN oder einer Telefonanlage übersetzen. PSTN-Gateways arbeiten mit dem Vermittlungs Server zusammen, um einem Enterprise-VoIP-Client einen PSTN-oder PBX-Anruf zu präsentieren. Der Vermittlungs Server stellt auch Anrufe von Enterprise-VoIP-Clients an das PSTN-Gateway zum Weiterleiten an das PSTN oder die Telefonanlage vor. Eine Liste der Partner, die mit Microsoft zusammenarbeiten, um Geräte zur Verfügung zu stellen, die mit Skype for Business Server funktionieren, finden Sie auf [der Microsoft Unified Communications Partners-Website](https://go.microsoft.com/fwlink/p/?linkId=202836). 
+Bei PSTN-Gateways handelt es sich um Drittanbietergeräte, die Signale und Mediendaten zwischen der Enterprise-VoIP-Infrastruktur und dem Telefonfestnetz oder einer Nebenstellenanlage übersetzen. PSTN-Gateways arbeiten mit dem Vermittlungsserver zusammen, um Anrufe aus dem Festnetz oder über eine Nebenstellenanlage an einen Enterprise-VoIP-Client zu übergeben. Der Vermittlungsserver übergibt außerdem Anrufe von Enterprise-VoIP-Clients an das PSTN-Gateway, damit dieses sie an das Telefonfestnetz oder die Nebenstellenanlage weiterleitet. Eine Liste der Partner, die mit Microsoft zusammenarbeiten, um Geräte zur Verfügung zu stellen, die mit Skype for Business Server funktionieren, finden Sie auf der [Microsoft Unified Communications Partners-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836) 
   
 ## <a name="private-branch-exchanges"></a>Nebenstellenanlagen
 
- Wenn Sie über eine vorhandene VoIP-Infrastruktur verfügen, die eine PBX (Private Branch Exchange) verwendet, können Sie Ihre Telefonanlage mit Enterprise-VoIP verwenden.
+ Wenn Sie über eine vorhandene Voiceinfrastruktur verfügen, die eine Nebenstellenanlage (Private Branch Exchange, PBX) verwendet, können Sie Ihre Nebenstellenanlage mit Enterprise-VoIP.
   
-Die unterstützten Enterprise-VoIP-Integrationsszenarien sind wie folgt:
+Die folgenden Szenarien mit Integration von Enterprise-VoIP und einer Nebenstellenanlage werden unterstützt:
   
-- IP-Telefonanlage, die die medienumgehung mit einem Vermittlungs Server unterstützt.
+- IP-Nebenstellenanlage mit Unterstützung der Medienumgehung und einem Vermittlungsserver.
     
 - IP-Nebenstellenanlage, die ein eigenständiges PSTN-Gateway erfordert.
     
 - TDM-Nebenstellenanlage (Time Division Multiplexing) mit eigenständigem PSTN-Gateway.
     
 > [!NOTE]
-> Die Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen oder SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit IP-Nebenstellenanlagen von Cisco durchgeführt. Die medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter [Unified Communications Open Interoperability Program-lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406)aufgeführt sind. 
+> Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBXs durchgeführt. Die Medienumgehung wird nur für Produkte und Versionen unterstützt, die im [Unified Communications Open Interoperability Program - Lync Server aufgeführt sind.](https://go.microsoft.com/fwlink/p/?linkId=214406) 
   
-Details zu Partnern, die Enterprise-VoIP-Lösungen anbieten, finden Sie auf der [Microsoft Unified Communications Partners-Website](https://go.microsoft.com/fwlink/p/?linkId=202836).
+Details zu Partnern, die Enterprise-VoIP anbieten, finden Sie auf der [Microsoft Unified Communications Partners-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836)
   
-Details zu Partnern, die Enterprise-VoIP-Hardwarelösungen anbieten, einschließlich PSTN-Gateways, finden Sie auf der [Microsoft Unified Communications Partners-Website](https://go.microsoft.com/fwlink/p/?linkId=202836).
+Weitere Informationen zu Partnern, die Enterprise-VoIP hardwarelösungen, einschließlich PSTN-Gateways, anbieten, finden Sie auf der [Microsoft Unified Communications Partners-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836)
   
 

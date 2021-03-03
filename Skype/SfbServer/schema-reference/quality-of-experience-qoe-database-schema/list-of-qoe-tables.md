@@ -1,8 +1,8 @@
 ---
 title: Liste von QoE-Tabellen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,89 +13,89 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Das Datenbankschema besteht aus den folgenden Tabellen.
-ms.openlocfilehash: 6c82585195befda13ebb14215e72a59341fac1d3
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 291d2ddefefc264aa283480362a6f57cda9161cd
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41809003"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49834485"
 ---
 # <a name="list-of-qoe-tables"></a>Liste von QoE-Tabellen
  
 Das Datenbankschema besteht aus den folgenden Tabellen. 
   
-**Unterstützende Tabellen**
+**Unterstützungstabellen**
 
-|**Tabelle**|**Beschreibung**|
+|**Table**|**Beschreibung**|
 |:-----|:-----|
-|[AppSharingMetricsThreshold-Tabelle](appsharingmetricsthreshold.md) <br/> |Speichert optimale und akzeptable Werte für die Qualität der Erfahrungs Metrik, die bei der Anwendungsfreigabe verwendet wird.  <br/> |
-|[CodecDescription-Tabelle](codecdescription.md) <br/> |Ordnet eindeutige Codec-IDs dem zugehörigen Codec zu.  <br/> |
-|[IPAddress-Tabelle](ipaddress.md) <br/> |Ordnet IP-Adressen den eindeutigen IP-Adress Bezeichnern zu, die an anderer Stelle in der Datenbank für die Qualität der Erfahrung verwendet werden.  <br/> |
-|[NetworkConnectionDetail-Tabelle](networkconnectiondetail.md) <br/> |Ordnet Netzwerkverbindungstypen den Netzwerk Verbindungs Bezeichnern zu, die an anderer Stelle in der Datenbank für die Qualität der Erfahrung verwendet werden.  <br/> |
-|[PurgeSettings-Tabelle (QoE)](purgesettings-qoe.md) <br/> |Speichert Informationen, die angeben, ob (und wann) veraltete Quality of Experience-Datensätze automatisch aus der QoE-Datenbank gelöscht werden.  <br/> |
-|[TraceRoute-Tabelle](traceroute.md) <br/> |Speichert Routinginformationen für Anrufe.  <br/> |
-|[UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) <br/> |Ordnet die Bezeichner des Benutzer-Agents den beschreibenden Namen des Agents zu.  <br/> |
-|[VideoMetricsThreshold-Tabelle](videometricsthreshold.md) <br/> |Speichert optimale und akzeptable Werte für die Qualität der bei Videoanrufen verwendeten Metriken für die Erfahrung.  <br/> |
-|[UserAgent-Tabelle](useragent.md) <br/> |Speichert SIP-Benutzer-Agent (Session Initiation Protocol)-Zeichenfolgen und UA-Typen, die in Audio-und Videositzungen verwendet werden.  <br/> |
-|[User-Tabelle](user-0.md) <br/> |Speichert Benutzer-, Konferenz-und Telefon-URIs, die in Audio-und Videositzungen verwendet werden.  <br/> |
-|[Endpoint-Tabelle](endpoint.md) <br/> |Speichert FQDN-Computernamen von Endpunkten, die an Audio-und Videositzungen teilnehmen.  <br/> |
-|[Pool-Tabelle](pool.md) <br/> |Speichert die Namen der Pools, zu denen Metrikdaten gehören.  <br/> |
-|[Device-Tabelle](device.md) <br/> |Speichert Aufnahmegeräte und rendergeräte, die in Audio-und Videogesprächen verwendet werden.  <br/> |
-|[DeviceDriver-Tabelle](devicedriver.md) <br/> |Speichert den Treiber für das Aufnahmegerät und das Render-Gerät, die in Audio-und Videoanrufen verwendet werden.  <br/> |
-|[Conference-Tabelle](conference.md) <br/> |Speichert Konferenz-URIs für Konferenzszenarien oder Dialogfelder für andere Szenarien.  <br/> |
-|[SessionCorrelation-Tabelle](sessioncorrelation.md) <br/> |Speichert CorrelationId für PSTN-Anrufe.  <br/> |
-|[PayloadDescription-Tabelle](payloaddescription.md) <br/> |Speichert den in Audio-und Videoanrufen verwendeten Codec.  <br/> |
-|[AppliedBandwidthSource-Tabelle](appliedbandwidthsource.md) <br/> |Speichert die in Audio-und Videoanrufen verwendete Bandbreiten Quelle.  <br/> |
-|[MacAddress-Tabelle](macaddress.md) <br/> |Speichert die Mac-Adresse der Endpunkte, die an Audio-und Videositzungen teilnehmen.  <br/> |
-|[Dialog-Tabelle](dialog.md) <br/> |Speichert die Dialog-ID für Audio-und Videositzungen.  <br/> |
-|[Region-Tabelle](region.md) <br/> |Speichert die in der NCS-Einstellung definierte netzwerkregion.  <br/> |
-|[UserSite-Tabelle](usersite.md) <br/> |Speichert die in der NCS-Einstellung definierte Netzwerk Website.  <br/> |
-|[Subnet-Tabelle](subnet.md) <br/> |Speichert das in der NCS-Einstellung definierte Subnetz.  <br/> |
-|[MonitoredRegionLink-Tabelle](monitoredregionlink.md) <br/> |Speichert den in der NCS-Einstellung definierten Link "Region".  <br/> |
-|[MonitoredUserSiteLink-Tabelle](monitoredusersitelink.md) <br/> |Speichert die in der NCS-Einstellung definierten Netzwerkstandort Links.  <br/> |
-|[EndpointSubnet-Tabelle](endpointsubnet.md) <br/> |Speichert das Subnetz des Endpunkts, der an einer Audio-und Videositzung teilnimmt.  <br/> |
-|[Servertabelle](server.md) <br/> |Speichert den FQDN oder die IP-Adresse des Servers, den das Medium durchläuft.  <br/> |
+|[Tabelle "AppSharingMetricsThreshold"](appsharingmetricsthreshold.md) <br/> |Speichert optimale und zulässige Werte für Quality of Experience-Metriken, die bei der Anwendungsfreigabe verwendet werden.  <br/> |
+|[Tabelle "CodecDescription"](codecdescription.md) <br/> |Ordnet eindeutige Codec-IDs dem entsprechenden Codec zu.  <br/> |
+|[Tabelle "IPAddress"](ipaddress.md) <br/> |Ordnet IP-Adressen den eindeutigen IP-Adress-IDs zu, die anderswo in der QoE (Quality of Experience)-Datenbank verwendet werden.  <br/> |
+|[Tabelle "NetworkConnectionDetail"](networkconnectiondetail.md) <br/> |Ordnet Netzwerkverbindungstypen den Netzwerkverbindungs-IDs zu, die anderswo in der QoE (Quality of Experience)-Datenbank verwendet werden.  <br/> |
+|[Tabelle "PurgeSettings" (QoE)](purgesettings-qoe.md) <br/> |Speichert Informationen, mit denen angegeben wird, ob (und wann) veraltete QoE-(Quality of Experience)-Kommunikationsdatensätze automatisch aus der QoE-Datenbank gelöscht werden.  <br/> |
+|[Tabelle "TraceRoute"](traceroute.md) <br/> |Speichert Routinginformationen für Anrufe.  <br/> |
+|[Tabelle "UserAgentDef" (QoE)](useragentdef-qoe.md) <br/> |Ordnet die Bezeichner von Benutzer-Agent-IDs den beschreibenden Namen des Agents zu.  <br/> |
+|[Tabelle "VideoMetricsThreshold"](videometricsthreshold.md) <br/> |Speichert optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet werden.  <br/> |
+|[Tabelle "UserAgent"](useragent.md) <br/> |Speichert in Audio- und Videositzungen verwendete Session Initiation-Protokolle (SIP), Benutzer-Agent-Zeichenfolgen (UA) und UA-Typen.  <br/> |
+|[Benutzertabelle](user-0.md) <br/> |Speichert in Audio- und Videositzungen verwendete Benutzer-, Konferenz- und Telefon-URIs.  <br/> |
+|[Endpunkttabelle](endpoint.md) <br/> |Speichert FQDN-Computernamen von Endpunkten, die an Audio- und Videositzungen teilnehmen.  <br/> |
+|[Pooltabelle](pool.md) <br/> |Speichert die Namen von Pools, zu denen metrische Daten gehören.  <br/> |
+|[Gerätetabelle](device.md) <br/> |Speichert bei Audio-/Videoanrufen verwendete Aufnahme- und Darstellungsgeräte.  <br/> |
+|[#A0](devicedriver.md) <br/> |Speichert den Treiber für das Aufnahmegerät und das Darstellungsgerät, die bei Audio-/Videoanrufen verwendet werden.  <br/> |
+|[Konferenztabelle](conference.md) <br/> |Speichert Konferenz-URIs für Konferenzszenarien oder die Dialog-ID für andere Szenarien.  <br/> |
+|[Tabelle "SessionCorrelation"](sessioncorrelation.md) <br/> |Speichert die Korrelations-ID für PSTN-Anrufe.  <br/> |
+|[PayloadDescription (Tabelle)](payloaddescription.md) <br/> |Speichert die bei Audio-/Videoanrufen verwendeten Codecs.  <br/> |
+|[Tabelle "AppliedBandwidthSource"](appliedbandwidthsource.md) <br/> |Speichert die bei Audio-/Videoanrufen verwendete Bandbreitenquelle.  <br/> |
+|[Tabelle "MacAddress"](macaddress.md) <br/> |Speichert die MAC-Adresse der Endpunkte, die an Audio- und Videositzungen teilnehmen.  <br/> |
+|[Dialogtabelle](dialog.md) <br/> |Speichert die Dialog-ID von Audio- und Videositzungen.  <br/> |
+|[Tabelle "Region"](region.md) <br/> |Speichert die in der NCS-Einstellung festgelegte Netzwerkregion.  <br/> |
+|[Tabelle "UserSite"](usersite.md) <br/> |Speichert den in der NCS-Einstellung festgelegten Netzwerkstandort.  <br/> |
+|[Subnetztabelle](subnet.md) <br/> |Speichert das in der NCS-Einstellung festgelegte Subnetz.  <br/> |
+|[MonitoredRegionLink (Tabelle)](monitoredregionlink.md) <br/> |Speichert den in der NCS-Einstellung festgelegten Regionslink.  <br/> |
+|[Tabelle "MonitoredUserSiteLink"](monitoredusersitelink.md) <br/> |Speichert die in der NCS-Einstellung festgelegten Netzwerkstandortverknüpfungen.  <br/> |
+|[Tabelle "EndpointSubnet"](endpointsubnet.md) <br/> |Speichert das Subnetz des Endpunkts, der an einer Audio- und Videositzung teilnimmt.  <br/> |
+|[Servertabelle](server.md) <br/> |Speichert den FQDN oder die IP-Adresse des Servers, über den der Mediendatenverkehr erfolgt.  <br/> |
    
-**Tabellen für Metrikdaten**
+**Tabellen für metrische Daten**
 
-|**Tabelle**|**Beschreibung**|
+|**Table**|**Beschreibung**|
 |:-----|:-----|
-|[AppSharingStream-Tabelle](appsharingstream.md) <br/> |Speichert die Qualität der Erfahrungswerte für die netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Metrik für die Qualität der Erfahrung für die netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden.  <br/> |
-|[Session-Tabelle](session.md) <br/> |Speichert allgemeine Informationen zu einer Audio-oder Audio/Video-Sitzung. Eine Sitzung ist als Audio-oder Video-SIP-Dialogfeld zwischen zwei Endpunkten definiert.  <br/> |
-|[MediaLine-Tabelle](medialine-0.md) <br/> |Speichert Informationen zu jeder medienzeile in einer Sitzung. Eine medienzeile ist eine Sammlung von einem oder mehreren Audio-und Videodatenströmen. In der Regel besitzt eine einzelne medienzeile zwei Streams, entweder Audio oder Video.  <br/> |
-|[AudioStream-Tabelle](audiostream.md) <br/> |Speichert Qualitäts Metriken für Audio-Medien für jeden Audiostream in der Medien Linie.  <br/> |
-|[AudioSignal-Tabelle](audiosignal.md) <br/> |Speichert Qualitäts Metriken für Audiomedien in der medienzeile. Dazu gehören akustische Echo Unterdrückungs-und AGC-Metriken (Automatic Gain Control).  <br/> |
-|[VideoStream-Tabelle](videostream.md) <br/> |Speichert Qualitäts Metriken für Video Medien für jeden Audiostream in der Medien Linie.  <br/> |
-|[AudioClientEvent-Tabelle](audioclientevent.md) <br/> |Speichert die von der Client Veranstaltung gesammelten Qualitäts Metriken für Audio-Medien.  <br/> |
-|[VideoClientEvent-Tabelle](videoclientevent.md) <br/> |Speichert Qualitäts Metriken für Video Medien, die vom Clientereignis gesammelt wurden.  <br/> |
-|**DiagnosticData-Tabelle** <br/> |Speichert Diagnosedaten, die nur für die interne Verwendung vorgesehen sind.  <br/> |
+|[Tabelle "AppSharingStream"](appsharingstream.md) <br/> |Speichert QoE (Quality of Experience)-Metriken für die Netzwerkdatenströme, die bei der Anwendungsfreigabe verwendet werden. QoE (Quality of Experience)-Metriken für die Netzwerkdatenströme, die bei der Anwendungsfreigabe verwendet werden.  <br/> |
+|[Sitzungstabelle](session.md) <br/> |Speichert allgemeine Informationen zu einer Audio- oder Videositzung. Eine Sitzung ist ein Audio- oder Video-SIP-Dialog zwischen zwei Endpunkten.  <br/> |
+|[Tabelle "MediaLine"](medialine-0.md) <br/> |Speichert Informationen zu jeder Medienzeile in einer Sitzung. Eine Medienzeile ist eine Sammlung von mindestens einem Audio- und Videostream. In der Regel enthält eine einzelne Medienzeile zwei Streams, entweder Audio oder Video.  <br/> |
+|[Tabelle "AudioStream"](audiostream.md) <br/> |Speichert Audiomedien-Qualitätsmetriken für jeden Audiostream in der Medienzeile.  <br/> |
+|[Tabelle "AudioSignal"](audiosignal.md) <br/> |Speichert Metriken für die Audiomedienqualität in der Medienzeile. Dazu gehören AEC (Echounterdrückung) und Metriken für die automatische Verstärkungssteuerung (Automatic Gain Control, AGC).  <br/> |
+|[Tabelle "VideoStream"](videostream.md) <br/> |Speichert Videomedien-Qualitätsmetriken für jeden Audiostream in der Medienzeile.  <br/> |
+|[Tabelle "AudioClientEvent"](audioclientevent.md) <br/> |Speichert aus dem Clientereignis empfangene Audiomedien-Qualitätsmetriken.  <br/> |
+|[Tabelle "VideoClientEvent"](videoclientevent.md) <br/> |Speichert aus dem Clientereignis empfangene Videomedien-Qualitätsmetriken.  <br/> |
+|**DiagnosticData-Tabelle** <br/> |Speichert Diagnosedaten ausschließlich für die interne Verwendung.  <br/> |
    
 **Tabellen für Zusammenfassungsdaten**
 
-|**Tabelle**|**Beschreibung**|
+|**Table**|**Beschreibung**|
 |:-----|:-----|
-|**ServerSummary-Tabelle** <br/> |Speichert Zusammenfassungsdaten für die Server, diese Daten werden nur für QoE-Berichte (Quality of Experience) verwendet.  <br/> |
-|**UserSummary-Tabelle** <br/> |Speichert Zusammenfassungsdaten für Benutzer, diese Daten werden nur für QoE-Berichte verwendet.  <br/> |
-|**CallTypeSummary-Tabelle** <br/> |Speichern von Zusammenfassungsdaten für Anruftypen werden diese Daten nur für QoE-Berichte verwendet.  <br/> |
+|**ServerSummary-Tabelle** <br/> |Speichert Zusammenfassungsdaten für die Server. Diese Daten werden nur für Quality of Experience-Berichte (QoE) verwendet.  <br/> |
+|**UserSummary-Tabelle** <br/> |Speichert Zusammenfassungsdaten für Benutzer. Diese Daten werden nur für Quality of Experience-Berichte (QoE) verwendet.  <br/> |
+|**CallTypeSummary-Tabelle** <br/> |Speichert Zusammenfassungsdaten für Anruftypen. Diese Daten werden nur für Quality of Experience-Berichte (QoE) verwendet.  <br/> |
    
-**Tabellen für die interne Verwendung durch Monitoring Server**
+**Tabellen des Monitoring Servers für die interne Verwendung**
 
-|**Tabelle**|**Beschreibung**|
+|**Table**|**Beschreibung**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |Nur für interne Verwendung.  <br/> |
 |**DbConfigInt** <br/> |Nur für interne Verwendung.  <br/> |
-|**Frontend-Tabelle** <br/> |Nur für interne Verwendung.  <br/> |
-|**Aufgaben Tabelle** <br/> |Nur für interne Verwendung.  <br/> |
+|**FrontEnd-Tabelle** <br/> |Nur für interne Verwendung.  <br/> |
+|**Aufgabentabelle** <br/> |Nur für interne Verwendung.  <br/> |
 |**SummaryTableConfiguration** <br/> |Nur für interne Verwendung.  <br/> |
-|**Dberrormessage** <br/> |Nur für interne Verwendung.  <br/> |
+|**DbErrorMessage** <br/> |Nur für interne Verwendung.  <br/> |
 |**MetricsThreshold** <br/> |Nur für interne Verwendung.  <br/> |
 |**DaylightSavingYears** <br/> |Nur für interne Verwendung.  <br/> |
-|**TimeZoneConfiguration** <br/> |Nur für interne Verwendung.  <br/> |
-|**Zeitzonen** <br/> |Nur für interne Verwendung.  <br/> |
-|**CallSummary-Tabelle** <br/> |Nur für interne Verwendung.  <br/> |
-|**DeviceCallSumary-Tabelle** <br/> |Nur für interne Verwendung.  <br/> |
-|**Mandantentabelle** <br/> |Nur für interne Verwendung.  <br/> |
-|**VideoCallSummaryTable** <br/> |Nur für interne Verwendung.  <br/> |
-|**ASCallSummaryTable** <br/> |Nur für interne Verwendung.  <br/> |
+|**TimeZoneConfiguration** <br/> |Ausschließlich für interne Zwecke.  <br/> |
+|**TimeZones** <br/> |Ausschließlich für interne Zwecke.  <br/> |
+|**CallSummary-Tabelle** <br/> |Ausschließlich für interne Zwecke.  <br/> |
+|**DeviceCallSumary-Tabelle** <br/> |Ausschließlich für interne Zwecke.  <br/> |
+|**Tenant-Tabelle** <br/> |Ausschließlich für interne Zwecke.  <br/> |
+|**VideoCallSummaryTable** <br/> |Ausschließlich für interne Zwecke.  <br/> |
+|**ASCallSummaryTable** <br/> |Ausschließlich für interne Zwecke.  <br/> |
    
 

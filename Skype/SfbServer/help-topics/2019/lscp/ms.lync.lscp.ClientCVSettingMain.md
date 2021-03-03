@@ -1,8 +1,8 @@
 ---
 title: Clientversionskonfiguration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,46 +14,46 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Neben der Angabe der Version der Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, was Ihnen helfen kann, die Kosten zu kontrollieren, die mit der Unterstützung mehrerer Clientversionen verbunden sind.
-ms.openlocfilehash: e5675a2b3cab2309a78c2d8dc88041beee8cc619
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Zusätzlich zur Angabe der Version von Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, wodurch Sie die Kosten im Zusammenhang mit der Unterstützung mehrerer Clientversionen steuern können.
+ms.openlocfilehash: d2d2a18928a31d136b52a90852836db93c01ffc4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794564"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812315"
 ---
 # <a name="client-version-configuration"></a>Clientversionskonfiguration
 
-Neben der Angabe der Version der Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, was Ihnen helfen kann, die Kosten zu kontrollieren, die mit der Unterstützung mehrerer Clientversionen verbunden sind.
+Zusätzlich zur Angabe der Version von Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden, wodurch Sie die Kosten im Zusammenhang mit der Unterstützung mehrerer Clientversionen steuern können.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite **Client Version Configuration** können Sie die folgenden Aufgaben ausführen:
+Auf der Seite "Clientversionskonfiguration" können Sie **die folgenden Aufgaben** ausführen:
 
-- Bearbeiten Sie die Standardkonfiguration für Clientversionen ( **Global**).
+- Bearbeiten Sie die Standardmäßige **Clientversionskonfiguration**( Global).
 
-- Erstellen Sie die Client Versions Konfiguration für eine bestimmte Website.
+- Erstellen sie die Clientversionskonfiguration für einen bestimmten Standort.
 
-- Aktivieren und Deaktivieren vorhandener Client Versions Konfigurationen
+- Aktivieren und Deaktivieren vorhandener Clientversionskonfigurationen.
 
 > [!NOTE]
-> Da anonyme Benutzer keiner Website zugeordnet sind, sind anonyme Benutzer nur von Richtlinien auf globaler Ebene betroffen.
+> Da anonyme Benutzer keinem Standort zugeordnet sind, sind anonyme Benutzer nur von globalen Richtlinien betroffen.
 
 ## <a name="ui-reference"></a>Referenz zur Benutzeroberfläche
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Neu** Sie können eine Client Versions Konfiguration für eine bestimmte Website erstellen.
+- **Neu** Sie können eine Clientversionskonfiguration für einen bestimmten Standort erstellen.
 
-- **Bearbeiten** von Sie können die Optionen für eine der clientversionsrichtlinien ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
+- **Bearbeiten** Sie können die Optionen einer beliebigen Clientversionsrichtlinien ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
 
-  - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine Client Versions Konfiguration ändern können.
+  - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine Clientversionskonfiguration ändern können.
 
-  - **Alle auswählen** Mit dieser Option werden alle Client Versions Konfigurationen in der Liste ausgewählt.
+  - **Alles auswählen** Mit dieser Option werden alle Clientversionskonfigurationen in der Liste ausgewählt.
 
-  - **Löschen** Mit dieser Option werden alle ausgewählten Client Versions Konfigurationen gelöscht.
+  - **Löschen** Mit dieser Option werden alle ausgewählten Clientversionskonfigurationen gelöscht.
 
-- **Aktualisieren** Sie können die Konfigurationsliste der Client Version aktualisieren, um den Status der Optionen für alle Client Versions Konfigurationen zu überprüfen.
+- **Aktualisieren** Sie können die Konfigurationsliste der Clientversion aktualisieren, um den Status der Optionen aller Clientversionskonfigurationen zu überprüfen.
 
-Details zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperabilität](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie in der Betriebsdokumentation unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx).
+Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie unter [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) in der Betriebsdokumentation.
 
