@@ -33,7 +33,8 @@ ms.locfileid: "49071756"
 # <a name="how-to-roll-out-microsoft-teams"></a>Bereitstellen von Microsoft Teams
 
 ## <a name="start-here"></a>Hier geht’s los
-Gleich, ob Sie ein kleines Unternehmen oder ein multinationaler Konzern sind, der Ort für den Einstieg in die Bereitstellung von Teams ist [Erste Schritte](get-started-with-teams-quick-start.md). Sie werden durch eine Bereitstellung von Teams in kleinerem Umfang geführt, die ausreichend sein kann, wenn Sie ein kleines Unternehmen sind oder wenn Sie Teams schnell als ersten Microsoft 365- oder Office 365-Dienst zur Unterstützung von **Remotemitarbeitern** einrichten wollen. Wenn Sie eine größere Organisation sind, verwenden Sie [Erste Schritte](get-started-with-teams-quick-start.md) für die Pilotbereitstellung von Teams in einer kleinen Gruppe von Early Adopters, damit Sie Teams kennenlernen und mit der Planung Ihrer organisationsweiten Bereitstellung beginnen können.
+
+Ganz gleich, ob Sie ein kleines Unternehmen oder ein multinationaler Konzern sind, der Ort für den Einstieg in die Bereitstellung von Teams ist [Erste Schritte](get-started-with-teams-quick-start.md). Sie werden durch eine Bereitstellung von Teams in kleinerem Umfang geführt, die ausreichend sein kann, wenn Sie ein kleines Unternehmen sind oder wenn Sie Teams schnell als ersten Microsoft 365- oder Office 365-Dienst zur Unterstützung von **Remotemitarbeitern** einrichten wollen. Wenn Sie eine größere Organisation sind, verwenden Sie [Erste Schritte](get-started-with-teams-quick-start.md) für die Pilotbereitstellung von Teams in einer kleinen Gruppe von Early Adopters, damit Sie Teams kennenlernen und mit der Planung Ihrer organisationsweiten Bereitstellung beginnen können. 
 
 ## <a name="recommended-path-to-teams"></a>Empfohlene Wege zu Microsoft Teams
 

@@ -16,55 +16,65 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 138f85c77f3dd6046c97e7ed3049b86b9a1a2745
-ms.sourcegitcommit: bc471f18e40e37456edc9696e11b175581847617
+ms.openlocfilehash: f22b2c53ab6f3c3c90e1720313c135c2106b1a49
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "48800638"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196529"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
-**Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
+**Benutzerdefinierte Vorlagen werden für Edu-Kunden noch nicht unterstützt.**
 
-Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit einer Reihe von Kanälen, Registerkarten und apps. Sie können eine Vorlage entwickeln, die Ihnen hilft, den richtigen Platz zur Zusammenarbeit schnell zu erstellen. Ihre benutzerdefinierte Teamvorlage verwendet Ihre bevorzugten Einstellungen.  
+Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit einer Reihe von Kanälen, Registerkarten und Apps. Sie können eine Vorlage entwickeln, die Ihnen hilft, schnell den richtigen Platz zur Zusammenarbeit zu schaffen. Ihre benutzerdefinierte Teamvorlage verwendet Ihre bevorzugten Einstellungen.  
 
 Erste Schritte:
 
-1. Melden Sie sich beim Team Admin Center an.
+1. Melden Sie sich beim Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich **Teams** die  >  **Teamvorlagen** für Teams.
+2. Erweitern Sie im linken Navigationsbereich die  >  **Teams-Teamvorlagen.**
 
-3. Klicken Sie auf **Hinzufügen** .
+3. Klicken Sie auf **Hinzufügen**.
 
-![Abbildung des Dialogfelds "Team Vorlagen" mit hervorgehobener Option "hinzufügen"](media/team-templates-new.png)
+![Abbildung des Dialogfelds "Teamvorlagen" mit hervorgehobener Hervorhebung "Hinzufügen".](media/team-templates-new.png)
 
-4. Wählen Sie im Abschnitt **Team Vorlagen** die Option **neue Vorlage erstellen** aus.
+4. Wählen Sie **im Abschnitt "Teamvorlagen"** die Option **"Neue Vorlage erstellen" aus.**
 
-5. Füllen Sie im Abschnitt **Vorlageneinstellungen** die folgenden Felder aus, und klicken Sie dann auf **weiter** :
+5. Füllen Sie im **Abschnitt "Vorlageneinstellungen"** die folgenden Felder aus, und klicken Sie dann auf **"Weiter":**
     - Vorlagenname
-    - Vorlagen für kurze und lange Beschreibungen
-    - Gebietsschema Sichtbarkeit  
+    - Kurze und lange Beschreibungen von Vorlagen
+    - Sichtbarkeit des Locale  
 
-![Abbildung des Dialogfelds "Namenseinstellungen für Team Vorlagen"](media/template-add-a-name.png)
+![Abbildung des Dialogfelds "Einstellungen für Teamvorlagen".](media/template-add-a-name.png)
 
-6. Fügen Sie im Abschnitt **Kanäle, Registerkarten und apps** alle Kanäle und apps hinzu, die Ihr Team benötigt.
+6. Fügen Sie **im Abschnitt "Kanäle, Registerkarten und Apps"** alle Kanäle und Apps hinzu, die Ihr Team benötigt.
 
-    1. Klicken Sie im Abschnitt **Kanäle** auf **Hinzufügen** .
-    2. Geben Sie im Dialogfeld **Hinzufügen** den Namen des Kanals ein.
+    1. Klicken Sie **im Abschnitt "Kanäle"** auf **"Hinzufügen".**
+    2. Geben Sie **dem Kanal** im Dialogfeld "Hinzufügen" einen Namen.
     3. Fügen Sie eine Beschreibung hinzu.
     4. Entscheiden Sie, ob der Kanal standardmäßig angezeigt werden soll.
-    5. Suchen Sie nach dem APP-Namen, den Sie dem Kanal hinzufügen möchten.
-    6. Klicken Sie auf über **nehmen** , wenn Sie beenden.
+    5. Suchen Sie nach einem App-Namen, den Sie dem Kanal hinzufügen möchten.
+    6. Klicken Sie **auf "Übernehmen",** wenn Sie fertig sind.
 
-![Abbildung des Bildschirms der Team Vorlagen Kanäle, Registerkarten und Apps](media/template-channels-tabs-apps.png)
+![Abbildung des Bildschirms für Teamvorlagenkanäle, Registerkarten und Apps.](media/template-channels-tabs-apps.png)
 
-8. Klicken Sie auf **Absenden** , wenn Sie fertig sind.
+8. Klicken Sie **auf "Absenden",** wenn der Abschluss abgeschlossen ist.
 
-Ihre neue Vorlage wird in der Liste der **Team Vorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in Teams verwendet werden.
+Ihre neue Vorlage wird in der Liste der **Teamvorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in Teams verwendet werden.
 
 > [!Note]
-> Es kann bis zu 24 Stunden dauern, bis Team Benutzer eine benutzerdefinierte Vorlage im Katalog sehen können.
+> Es kann bis zu 24 Stunden dauern, bis Teambenutzer eine benutzerdefinierte Vorlage im Katalog sehen.
+
+## <a name="known-issues"></a>Bekannte Probleme 
+
+**Problem:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthält, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. B. **Beiträge,** Dateien und **Wiki)** werden wie erwartet angezeigt. 
+
+**Lösung:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthält, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. B. Beiträge, Dateien und Wiki) werden wie erwartet angezeigt.
+
+Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigung zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, wenden Sie sich an den Teambesitzer, und bitten Sie ihn, dies zu tun.
+
+Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

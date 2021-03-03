@@ -1,8 +1,8 @@
 ---
-title: UserAgent-Ansicht
+title: Ansicht "UserAgent"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b986f76f-f16e-4e5e-96cb-6e8f7f9b42ee
-description: Die UserAgent-Ansicht speichert Informationen zu den Benutzer-Agents, die an Sitzungen teilgenommen haben, die Datensätze in der Datenbank aufweisen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
-ms.openlocfilehash: 76ac99b1fdadbeb6817b36483f4fe5762db47333
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die UserAgent-Ansicht speichert Informationen über die Benutzeragenten, die an Sitzungen teilgenommen haben und die über Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+ms.openlocfilehash: 90db61df5bd947b101823172602103e47d4182a9
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41805083"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49800015"
 ---
-# <a name="useragent-view"></a>UserAgent-Ansicht
+# <a name="useragent-view"></a>Ansicht "UserAgent"
  
-Die UserAgent-Ansicht speichert Informationen zu den Benutzer-Agents, die an Sitzungen teilgenommen haben, die Datensätze in der Datenbank aufweisen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+Die UserAgent-Ansicht speichert Informationen über die Benutzeragenten, die an Sitzungen teilgenommen haben und die über Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|UserAgentKey  <br/> |int  <br/> |Eindeutige Nummer, die diesen Benutzer-Agent kennzeichnet.  <br/> |
-|UserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge.  <br/> |
-|UAType  <br/> |smallint  <br/> |Der Typ des Benutzer-Agents. Weitere Informationen finden Sie in der [userAgent-Tabelle](useragent.md) . <br/> |
-|UACategory  <br/> |nvarchar (64)  <br/> |Die Kategorie, zu der der Benutzer-Agent gehört. Beispielsweise gehört der Benutzer-Agent Conferencing_Attendant_1 .0 zu UACategory CAA.  <br/> |
+|UserAgentKey  <br/> |int  <br/> |Eindeutige Zahl, die diesen Benutzer-Agent identifiziert.  <br/> |
+|UserAgent  <br/> |nvarchar(256)  <br/> |Zeichenfolge des Benutzer-Agents.  <br/> |
+|UAType  <br/> |smallint  <br/> |Benutzeragententyp. Weitere Informationen finden Sie in der Tabelle ["UserAgent".](useragent.md) <br/> |
+|UACategory  <br/> |nvarchar(64)  <br/> |Die Kategorie, der der Benutzer-Agent angehört. Beispielsweise weist der Benutzer-Agent Conferencing_Attendant_1.0 eine UACategory von CAA auf.  <br/> |
    
 

@@ -1,7 +1,7 @@
 ---
-title: Zuweisen, Ändern von Orten für Notfall Standorte für Benutzer
-author: lanachin
-ms.author: v-lanac
+title: Zuweisen, Ändern von Orten für Notfallstandorte für Benutzer
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,42 +16,42 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: In diesem Artikel erfahren Sie, wie Sie den Ort für einen Notfall Standort für Benutzer in Ihrer Organisation zuweisen oder ändern können.
+description: In diesem Artikel erfahren Sie, wie Sie den Ort für einen Notfallstandort für Benutzer in Ihrer Organisation zuweisen oder ändern.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35f7dfe6572b7ef3dc76b6c224d206e2ee4f23a2
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 385855c456d3a4e5c2de53fb2605e4d5d30d84a4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539512"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809525"
 ---
-# <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Orts eines Notfall Standorts für einen Benutzer
+# <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Orts für einen Notfallstandort für einen Benutzer
 
-Jede aktive Telefonnummer muss über einen zugehörigen Notfall Standort verfügen, wenn Sie die Telefonnummer einem Benutzer zuweisen. (Sie ordnen die Adresse zu, wenn Sie in Office 365 eine Telefonnummer erhalten oder wenn Sie eine Telefonnummer übertragen.) Wenn Sie die Nummer mit einem Notfall Standort verknüpfen, können Sie auch einen Ort hinzufügen, um eine genauere Position innerhalb eines physikalischen Standorts bereitzustellen. Bei einem Ort kann es sich um den Boden, den Gebäudetrakt oder die Office-Nummer handeln, in der sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Orten für einen bestimmten Notfall Standort haben, und Sie können den Ort ändern, wenn der Benutzer zu einer anderen Niederlassung oder einem anderen Gebäude wechselt. Wenn der Benutzer beispielsweise von Floor 34 auf Floor 35 umzieht.
+Jeder aktiven Telefonnummer muss ein Notfallstandort zugeordnet sein, wenn Sie die Telefonnummer einem Benutzer zuweisen. (Sie ordnen die Adresse zu, wenn Sie in Office 365 eine Telefonnummer erhalten oder eine Telefonnummer übertragen.) Wenn Sie die Nummer einem Notfallstandort zuordnen, können Sie auch einen Ort hinzufügen, um einen genaueren Standort innerhalb eines physischen Standorts anzuordnen. Ein Ort kann der Boden, der Gebäudeflügel oder die Büronummer sein, unter der sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Orten für einen bestimmten Notfallstandort haben, und Sie können den Ort ändern, wenn der Benutzer zu einem anderen Büro oder Gebäude wechselt. Beispiel: Der Benutzer wechselt von Stockwerk 34 in 35.
   
-Informationen dazu, wie Sie Anrufpläne erhalten und wie viel Sie Kosten, finden Sie unter [Lizenzierung von Teams-Add-ons](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Informationen zum Erhalten von Anrufplänen und deren Kosten finden Sie unter [Teams-Add-On-Lizenzierung.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-Sie können den Ort für einen Notfall Standort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
+Sie können den Ort für einen Notfallstandort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **VoIP**-Rufnummern  >  **Phone numbers**.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf **"Voice**  >  **phone numbers".**
 
-2. Klicken Sie auf der Seite **Telefonnummern** auf die Registerkarte **Zahlen** , wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.
+2. Klicken Sie **auf der Seite "Telefonnummern"** auf die Registerkarte "Zahlen", wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **"Bearbeiten".** 
 
-3. Führen Sie im **Bearbeitungs** Bereich unter **Notfall Speicherort**eine der folgenden Aktionen aus:
+3. Gehen Sie **im Bereich** **"Bearbeiten"** unter "Notfallstandort" wie folgt vor:
 
-    - Wenn Sie einen Ort zuweisen möchten, suchen Sie nach dem Ort oder Ort, und wählen Sie dann die Stelle in den Suchergebnissen aus.
+    - Um einen Ort zuzuordnen, suchen Sie nach dem Speicherort oder Ort, und wählen Sie dann den Ort in den Suchergebnissen aus.
 
-    - Wenn Sie die Position ändern möchten, die dem Benutzer bereits zugewiesen ist, klicken Sie auf **X** , um die vorhandene Position zu entfernen, suchen Sie nach dem Ort, den Sie zuweisen möchten, und wählen Sie ihn aus.
+    - Wenn Sie den Dem Benutzer bereits zugewiesenen Ort ändern möchten, klicken Sie auf **"X",** um den vorhandenen Ort zu entfernen, suchen Sie nach dem Ort, den Sie zuweisen möchten, und wählen Sie ihn aus.
 
-4. Je nachdem, ob Sie dem Benutzer eine e-Mail mit den Informationen zur Telefonnummer senden möchten, deaktivieren oder aktivieren Sie **e-Mail-Nutzer mit Telefonnummerninformationen**. Standardmäßig ist dies aktiviert.
+4. Je nachdem, ob Sie eine E-Mail mit den Telefonnummerninformationen an den Benutzer senden möchten, deaktivieren oder aktivieren Sie den E-Mail-Benutzer mit **Telefonnummerninformationen.** Standardmäßig ist dies aktiviert.
 
 5. Klicken Sie auf **Anwenden**.
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
 
-Weitere Informationen finden Sie unter [Satz-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation).
+Siehe [Set-CsOnlineLisLocation.](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)
     
 ## <a name="related-topics"></a>Verwandte Themen
 

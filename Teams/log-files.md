@@ -16,17 +16,17 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff24ddb8aaf63b539959119138aebf2f5d4e81f
-ms.sourcegitcommit: 3a577c07b4f399c81d8650a2bba8cfc00b695b49
+ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
+ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "48650828"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49761093"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 =================================================
 
-Es gibt drei Typen von automatisch vom Client erstellten Protokolldateien, die zur Problembehandlung in Microsoft Teams eingesetzt werden können.
+Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt werden, die zur Unterstützung bei der Problembehandlung von Microsoft Teams genutzt werden können:
 
 -   Debugprotokolle
 
@@ -34,9 +34,12 @@ Es gibt drei Typen von automatisch vom Client erstellten Protokolldateien, die z
 
 -   Desktopprotokolle
 
-Beim Erstellen einer Supportanfrage beim Microsoft-Support fordert Sie der Supportmitarbeiter zur Einreichung von Debugprotokollen auf. Wenn Sie diese Protokolle vor dem Erstellen der Supportanfrage zur Hand haben, kann das Problem von Microsoft schneller behoben werden. Medien- oder Desktopprotokolle werden nur auf Anforderung von Microsoft benötigt.
+Beim Erstellen einer Supportanfrage beim Microsoft-Support erfordert der Supporttechniker die Debug-Protokolle. Nachdem die Debug-Protokolle zur Hand sind, bevor die Support-Anforderung erstellt wird, kann Microsoft schnell mit der Problembehandlung beginnen. **Medien** -oder **Desktop** Protokolle sind nur erforderlich, wenn Sie von Microsoft angefordert werden.
 
-In der folgenden Tabelle werden verschiedene Clients und die jeweils zugehörigen Protokolle aufgeführt. Protokolldateien sind in den für den Client und das Betriebssystem spezifischen Verzeichnissen gespeichert.
+> [!NOTE]
+> In diesem Artikel bezieht sich der Begriff **Debug-Protokolle** auf die Protokolle, die für die Problembehandlung verwendet werden. Die Dateien, die für diese Protokolle generiert werden, enthalten jedoch den Begriff **Diagnoseprotokolle** in ihren Namen.  
+
+In der folgenden Tabelle werden die verschiedenen Clients und die zugehörigen Protokolle erläutert. Protokolldateien werden an Speicherorten gespeichert, die für Client und betriebssystemspezifisch sind.
 
 
 |Client |Debug|Desktop|Medien|
@@ -53,17 +56,17 @@ Eine vollständige Liste der unterstützten Betriebssysteme und Browser finden S
 <a name="debug-logs"></a>Debugprotokolle
 ---------------------------
 
-Dies sind die am häufigsten verwendeten Protokolle, die für alle Microsoft-Supportfälle erforderlich sind. Debug-Protokolle werden von den Windows-und Mac-Desktop Clients sowie browserbasierten Clients erstellt. Die Protokolle sind Text basiert und werden von unten nach oben gelesen. Sie können mithilfe eines beliebigen textbasierten Editors gelesen und neue Protokolle erstellt werden, wenn Sie sich beim Client anmelden.
+Dies sind die am häufigsten verwendeten Protokolle, die für alle Microsoft-Supportfälle erforderlich sind. Debug-Protokolle werden von den Windows-und Mac-Desktop Clients sowie von browserbasierten Clients erstellt. Die Protokolle sind Text basiert und werden von unten nach oben gelesen. Sie können mithilfe eines beliebigen textbasierten Editors gelesen und neue Protokolle erstellt werden, wenn Sie sich beim Client anmelden.
 
 Debugprotokolle zeigen die folgenden Datenflüsse:
 
 -   Anmeldung
 
--   Verbindungsanfragen an Dienste auf mittlerer Ebene 
+-   Verbindungsanforderungen an Dienste mittlerer Ebene
 
 -   Anruf/Unterhaltung
 
-Die Debugprotokolle werden unter Verwendung der folgenden für das jeweilige Betriebssystem spezifischen Methoden erstellt:
+Die Debug-Protokolle werden mithilfe der folgenden betriebssystemspezifischen Methoden erstellt:
 
 -   Windows:
 
@@ -77,7 +80,7 @@ Die Debugprotokolle werden unter Verwendung der folgenden für das jeweilige Bet
 
       Tastenkombination: STRG+ALT+UMSCHALT+1
 
-Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
+Die Debug-Protokolle werden automatisch in die folgenden Ordner heruntergeladen:
 
 -   Windows: %userprofile%\\Downloads
 
@@ -92,7 +95,7 @@ Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen.
 
 Medienprotokolle enthalten diagnostische Daten zur Audio-, Video-und Bildschirmfreigabe in Teams-Besprechungen. Sie sind für Supportfälle erforderlich, die mit anrufbezogenen Problemen verknüpft sind.
 
-Die Medien Protokollierung ist standardmäßig deaktiviert. Zum Protokollieren von Diagnosedaten für Teams-Besprechungen müssen die Benutzer die Option im Teams-Client aktivieren. Wechseln Sie zu **Einstellungen**  >  **Allgemein**, aktivieren Sie das Kontrollkästchen **Protokollierung für die Besprechungs Diagnose aktivieren (erfordert einen Neustart von Teams**), und starten Sie dann Teams neu, und reproduzieren Sie das Problem. 
+Die Medien Protokollierung ist standardmäßig deaktiviert. Zum Protokollieren von Diagnosedaten für Teams-Besprechungen müssen die Benutzer die Option im Teams-Client aktivieren. Wechseln Sie zu **Einstellungen**  >  **Allgemein**, aktivieren Sie das Kontrollkästchen **Protokollierung für die Besprechungs Diagnose aktivieren (erfordert einen Neustart von Teams**), starten Sie Teams neu, und reproduzieren Sie das Problem. 
 
 In der folgenden Tabelle werden die Speicherorte des Medien Protokolls erläutert. Wenn Sie die Protokolldateien an den Microsoft-Support senden, überprüfen Sie bitte den Zeitstempel der Protokolldateien, um sicherzustellen, dass die Protokolle den Zeitrahmen abdecken, wenn Sie das Problem reproduzieren.
 
@@ -119,19 +122,19 @@ Nachfolgend finden Sie eine Liste der generierten Protokolldateien und der darin
 <a name="desktop-logs"></a>Desktopprotokolle
 ---------------------
 
-Desktopprotokolle, auch bekannt unter Bootstrapper-Protokolle, enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser erstellt werden. Wie Medienprotokolle werden diese Protokolle nur auf Anforderung von Microsoft benötigt. Die Protokolle sind textbasiert und können mit jedem Texteditor von oben nach unten gelesen werden.
+Desktop Protokolle, auch als Bootstrapper-Protokolle bezeichnet, enthalten Protokolldaten, die zwischen dem Desktop Client und dem Browser erfolgen. Wie Medienprotokolle werden diese Protokolle nur benötigt, wenn Sie von Microsoft angefordert werden. Die Protokolle sind Text basiert und können mithilfe eines beliebigen textbasierten Editors in einem Top-Down-Format gelesen werden.
 
 Windows:
 
-1.  Klicken Sie mit der rechten Maustaste auf das **Microsoft Teams** -Symbol in der Taskleiste, und wählen Sie **Protokolle abrufen** aus.
+ - Klicken Sie mit der rechten Maustaste auf das **Microsoft Teams** -Symbol in der Taskleiste, und wählen Sie **Protokolle abrufen** aus.
 
 Mac OSX:
 
-1.  Auswählen von **Protokolle abrufen** aus dem Pulldownmenü **Hilfe**
+ - Wählen Sie im Pulldown-Menü **Hilfe** die Option **Protokolle abrufen** aus.
 
 Linux
 
-1.  Klicken Sie auf das **Microsoft Teams** -Symbol in der Taskleiste, und wählen Sie **Protokolle abrufen** aus.
+ - Klicken Sie in der Taskleiste auf das **Microsoft Teams** -Symbol, und wählen Sie **Protokolle abrufen** aus.
 
 |Client |Speicherort |
 |---------|---------|

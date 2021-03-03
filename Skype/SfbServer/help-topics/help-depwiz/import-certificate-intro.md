@@ -1,8 +1,8 @@
 ---
 title: Importieren von Zertifikaten (Einführung)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
-description: Wenn Sie ein Zertifikat importieren möchten, müssen Sie einen Pfad zur Zertifikatsdatei angeben. Im Textfeld Zertifikatdatei auswählen können Sie entweder den vollständigen Pfad und den Dateinamen eingeben oder auf die Schaltfläche Durchsuchen klicken, um zum Speicherort des Pfads und zum Dateinamen zu navigieren (in der Regel eine P7B-, PFX-oder CER-Datei).
-ms.openlocfilehash: 63420dad20e5174cb41f9fc00d63a1f7c25763a2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Zum Importieren eines Zertifikats müssen Sie einen Pfad zur Zertifikatdatei angeben. In das Textfeld Zertifikatdatei auswählen können Sie entweder den vollständigen Pfad samt Dateinamen eingeben oder auf die Schaltfläche Durchsuchen klicken und zum gewünschten Pfad samt Datei navigieren (in der Regel eine P7B-, PFX- oder CER-Datei).
+ms.openlocfilehash: 2ca89291376c488426001e1ff42c4925da58a3e2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823669"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49827285"
 ---
-# <a name="import-certificate-intro"></a>Importieren von Zertifikaten (Einführung)
+# <a name="import-certificate-intro"></a>Importieren eines Zertifikats (Einführung)
  
-Wenn Sie ein Zertifikat importieren möchten, müssen Sie einen Pfad zur Zertifikatsdatei angeben. Im Textfeld **Zertifikatdatei auswählen** können Sie entweder den vollständigen Pfad und den Dateinamen eingeben oder auf die Schaltfläche **Durchsuchen** klicken, um zum Speicherort des Pfads und zum Dateinamen zu navigieren (in der Regel eine P7B-, PFX-oder CER-Datei).
+Zum Importieren eines Zertifikats müssen Sie einen Pfad zur Zertifikatdatei angeben. In das Textfeld **Zertifikatdatei auswählen** können Sie entweder den vollständigen Pfad samt Dateinamen eingeben oder auf die Schaltfläche **Durchsuchen** klicken und zum gewünschten Pfad samt Datei navigieren (in der Regel eine P7B-, PFX- oder CER-Datei).
   
-Wenn das Zertifikat einen privaten Schlüssel enthält, aktivieren Sie das Kontrollkästchen **Zertifikatsdatei enthält den privaten Schlüssel des Zertifikats**. Wenn dieses Kontrollkästchen aktiviert ist, ist die Eingabe des **Kenn Wort** Texts aktiviert. Wenn Sie über ein Zertifikat mit einem privaten Schlüssel verfügen, wird in der Regel beim Erstellen des Zertifikats ein Kennwort für den privaten Schlüssel gespeichert. Sie geben das Kennwort für den privaten Schlüssel ein, damit das Zertifikat und der private Schlüssel in den Zertifikatspeicher importiert werden können. Wenn Sie die Informationen für den Pfad der Zertifikatsdatei angegeben haben, und optional das Kennwort für den privaten Schlüssel, falls erforderlich, klicken Sie auf **weiter**.
+Wenn das Zertifikat einen privaten Schlüssel enthält, aktivieren Sie das Kontrollkästchen **Zertifikatdatei enthält den privaten Schlüssel des Zertifikats.** Bei Aktivierung dieses Kontrollkästchens wird das Texteingabefeld **Kennwort** aktiviert. Wenn Sie über ein Zertifikat mit einem zugeordneten privaten Schlüssel verfügen, wird dem privaten Schlüssel bei der Erstellung des Zertifikats zumeist ein Kennwort zugewiesen. Sie müssen das Kennwort des privaten Schlüssels eingeben, damit das Zertifikat samt privatem Schlüssel in den Zertifikatspeicher importiert werden kann. Klicken Sie, nachdem Sie die Informationen für den Zertifikatdateipfad und optional das Kennwort des privaten Schlüssels eingegeben haben, auf **Weiter**.
   
 > [!IMPORTANT]
-> Wenn Sie das Kennwort für den privaten Schlüssel nicht kennen, schlägt der Import fehl. 
+> Wenn Sie das Kennwort des privaten Schlüssels nicht kennen, tritt beim Import ein Fehler auf. 
   
 

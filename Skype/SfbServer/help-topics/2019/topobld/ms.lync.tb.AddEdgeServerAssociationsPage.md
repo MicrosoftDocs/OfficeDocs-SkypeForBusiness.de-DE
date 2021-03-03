@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Edgeserverzuordnungen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,20 +14,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf dieser Seite können Sie auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edge-Pool für A/V-Datenverkehr verwenden werden.
-ms.openlocfilehash: 5a67829de4cc56cf8512513e040b5427b676ca8a
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Auf dieser Seite können auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edgepool für A/V-Datenverkehr nutzen.
+ms.openlocfilehash: 6e2274b706df06bb82ff1d96ccf30a000725003d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794073"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819495"
 ---
 # <a name="add-edge-server-associations"></a>Hinzufügen von Edgeserverzuordnungen
  
-Auf dieser Seite können Sie auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edge-Pool für A/V-Datenverkehr verwenden werden. 
+Auf dieser Seite können auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edgepool für A/V-Datenverkehr nutzen. 
   
-Jeder Front-End-Pool kann nur einem Edge-Pool zugeordnet werden. Wenn Sie einen Pool auswählen, der bereits einem anderen Edge-Pool zugeordnet ist, wird die Zuordnung vom vorherigen Edge-Pool entfernt geändert.
+Jedem Front-End-Pool kann nur ein Edgepool zugeordnet werden. Wenn Sie einen Pool auswählen, der bereits einem anderen Edgepool zugeordnet ist, wird die Zuordnung zum vorherigen Pool aufgehoben.
   
-Sie können auch diesen Edgeserver oder Edge-Pool mit Vermittlungsservern oder Vermittlungsserver Pools verknüpfen, um Enterprise-VoIP für externe Benutzer zu konfigurieren und zu aktivieren.
+Sie können diesen Edgeserver oder Edgepool auch Vermittlungsservern oder Vermittlungsserverpools zuordnen, um Enterprise-VoIP für externe Benutzer zu konfigurieren und zu aktivieren.
   
 

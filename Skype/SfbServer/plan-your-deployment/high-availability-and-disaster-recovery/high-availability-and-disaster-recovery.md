@@ -1,8 +1,8 @@
 ---
-title: Planen von Höchstverfügbarkeit und Disaster Recovery in Skype for Business Server
+title: Planen von hoher Verfügbarkeit und Notfallwiederherstellung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,43 +14,42 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
-description: Skype for Business Server bietet eine große Verfügbarkeit mit Server-Pooling, Disaster Recovery mit Pool-Kopplung und verschiedenen Modi des Back-End-Servers mit höherer Verfügbarkeit, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL-Failover-Clustering.
-ms.openlocfilehash: 521ddaa9878ba660e509f248d2f2ffb944608d87
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolpaarung und mehreren Modi der hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering.
+ms.openlocfilehash: 61b720bc9dce5bc8dc54a6c493429b0a3c9b27d2
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815923"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49802815"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planen von Höchstverfügbarkeit und Disaster Recovery in Skype for Business Server
+# <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planen von hoher Verfügbarkeit und Notfallwiederherstellung in Skype for Business Server
  
-Skype for Business Server bietet eine große Verfügbarkeit mit Server-Pooling, Disaster Recovery mit Pool-Kopplung und verschiedenen Modi des Back-End-Servers mit höherer Verfügbarkeit, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL-Failover-Clustering. 
+Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolpaarung und mehreren Modi der hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering. 
   
-Die Höchstverfügbarkeit bezieht sich darauf, sicherzustellen, dass Skype for Business Server-Dienste auch dann verfügbar sind, wenn ein oder mehrere Server ausfällt. Mit Notfallwiederherstellung ist gemeint, dass die Dienste auch bei Naturkatastrophen oder von Menschen verursachten Katastrophen verfügbar sind und so viele Daten wie möglich erhalten bleiben.
+Hohe Verfügbarkeit bezieht sich darauf, sicherzustellen, dass Skype for Business Server-Dienste auch dann verfügbar sind, wenn ein oder mehrere Server aus dem Betrieb gehen. Die Notfallwiederherstellung bezieht sich auf das Beibehalten von Diensten im Falle einer natürlichen oder vom Menschen verursachten Notfalls und das Beibehalten so viel Daten wie möglich vor der Notfallwiederherstellung.
   
-Wie in früheren Versionen von lync Server ist die wichtigste Funktion der großen Verfügbarkeit für die meisten Serverfunktionen in Skype for Business Server die Serverredundanz über Pooling. Wenn ein Server in einer bestimmten Serverrolle ausfällt, wird die Last dieses Servers von den anderen Servern im Pool mit der gleichen Rolle übernommen. Dies gilt für Front End- und Edge-Server ebenso wie für Vermittlungsserver und Directors.
+Wie in früheren Versionen von Lync Server ist die Hauptfunktion für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server die Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers. Dies gilt für Front-End-Server, Edgeserver, Vermittlungsserver und Directors.
   
-Skype for Business Server bietet auch Disaster Recovery-Optionen für Front-End-Pools. Sie können zwei Pools in verschiedenen geografischen Bereichen einrichten, die einander als Sicherung dienen. Wenn dann ein gesamter Pool oder Standort ausfällt, kann der Sicherungspool den Benutzern an beiden Standorten weiterhin Dienste bereitstellen.
+Skype for Business Server bietet auch Notfallwiederherstellungsoptionen für Front-End-Pools. Sie können zwei Pools in unterschiedlichen geografischen Bereichen einrichten, die als Sicherungen füreinander dienen. Wenn dann ein ganzer Pool oder Standort aus ist, kann der Sicherungspool weiterhin Dienste für Benutzer an beiden Standorten bereitstellen.
   
-Skype for Business Server unterstützt außerdem vier Modi für die Höchstverfügbarkeit für Ihre Back-End-Server: SQL-Spiegelung, AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failover-Cluster Instanzen (FCI) und SQL-Failover-Clusterunterstützung.
+Skype for Business Server unterstützt außerdem vier Modi für hohe Verfügbarkeit für Ihre Back-End-Server: SQL-Spiegelung, AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclustering.
   
 > [!NOTE]
-> Die SQL-Spiegelung ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. Die AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failover-Cluster Instanzen (FCI) und SQL-Failover-Clustering-Methoden werden in Skype for Business Server 2019 bevorzugt.
+> SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. Die Methoden für AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL-Failoverclustering werden mit Skype for Business Server 2019 bevorzugt.
 
 > [!NOTE]
-> AlwaysOn-Verfügbarkeitsgruppen werden von beständigen Chat Servern nicht unterstützt. 
+> AlwaysOn-Verfügbarkeitsgruppen werden von Servern für beständigen Chat nicht unterstützt. 
   
-In diesem Abschnitt werden diese Funktionen erläutert. Zudem wird erklärt, welche Schritte Sie für die hohe Verfügbarkeit und Notfallwiederherstellung für einige Ihrer anderen Serverrollen ausführen können. 
+In diesem Abschnitt werden diese Features erläutert, und außerdem werden die Schritte erläutert, die Sie für hohe Verfügbarkeit und Notfallwiederherstellung für einige Ihrer anderen Serverrollen ausführen können. 
   
-  
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Hohe Verfügbarkeit und Verwaltung von Front-End-Pools](high-availability.md)
   
-[Disaster Recovery des Front-End-Pools in Skype for Business Server](disaster-recovery.md)
+[Notfallwiederherstellung für Front-End-Pools in Skype for Business Server](disaster-recovery.md)
   
-[Benutzerfreundlichkeit während eines Pool Fehlers in Skype for Business Server](user-experience.md)
+[Benutzerfreundlichkeit bei Poolfehlern in Skype for Business Server](user-experience.md)
   
-[Verfügbarkeit von Back-End-Servern in Skype for Business Server](back-end-server.md)
+[Hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server](back-end-server.md)
   
-[Höhere Verfügbarkeit von Dateien in Skype for Business Server](file-sharing.md)
+[Hohe Verfügbarkeit der Dateifreigabe in Skype for Business Server](file-sharing.md)

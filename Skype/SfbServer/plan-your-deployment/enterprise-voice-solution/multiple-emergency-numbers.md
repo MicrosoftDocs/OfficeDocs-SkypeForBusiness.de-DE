@@ -1,8 +1,8 @@
 ---
-title: Planen von mehreren Notrufnummern in Skype for Business Server
+title: Planen mehrerer Notrufnummern in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,97 +16,97 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
-ms.openlocfilehash: 10b6d02391fbf1ac7af1ae5233261c36fd2fd6ab
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eb5fbc55bc7f2e783fbfa98c7bc7fb6db67ff748
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983020"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813865"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen von mehreren Notrufnummern in Skype for Business Server
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen mehrerer Notrufnummern in Skype for Business Server
  
 In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
   
-Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Mehrere Notrufnummern sind ein neues Feature, das im kumulativen Update vom Juni 2016 eingeführt wurde. Während die Vereinigten Staaten über eine einzige Notrufnummer verfügen, 911, unterstützen viele Länder mehrere Notrufnummern. Das Vereinigte Königreich beispielsweise unterstützt sowohl 999, die Notrufnummer für das Vereinigte Königreich als auch 112, die Notrufnummer für die Europäische Union. 
+Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Mehrere Notrufnummern sind eine neue Funktion, die im kumulativen Update vom Juni 2016 eingeführt wurde. Während die Vereinigten Staaten über eine einzelne Notrufnummer (911) verfügt, unterstützen viele Länder mehrere Notrufnummern. Das Vereinigte Königreich unterstützt beispielsweise sowohl 999, die für das Vereinigte Königreich spezifische Notrufnummer als auch 112, die Notrufnummer für die Europäische Union. 
   
-Dieses Feature ist auch für Anbieter von Gesundheitsdiensten in den Vereinigten Staaten nützlich, die Roaming-Unterstützung für mehrere Code blaue Notrufnummern benötigen.
+Dieses Feature ist auch für Anbieter von Gesundheitsdiensten in den VEREINIGTEn Staaten nützlich, die Roamingunterstützung für mehrere blaue Notrufnummern mit Code haben möchten.
   
-## <a name="multiple-emergency-numbers-and-location-policies"></a>Mehrere Notrufnummern und ortungsrichtlinien
+## <a name="multiple-emergency-numbers-and-location-policies"></a>Mehrere Notrufnummern und Standortrichtlinien
 
-Sie konfigurieren Notrufe durch Erstellen von ortungsrichtlinien, die definieren, wie Notrufe implementiert werden. Sie verwenden die ortungsrichtlinie, um festzulegen, welche Zahl einen Notruf darstellt (beispielsweise 911 in den USA). 999 und 112 im Vereinigten Königreich. Die ortungsrichtlinie legt fest, ob ein Benutzer für Notrufe aktiviert ist, und wenn ja, was das Verhalten eines Notrufs ist. Sie können auch festlegen, ob die Unternehmenssicherheit automatisch benachrichtigt werden soll und wie der Anruf weitergeleitet werden soll.
+Sie konfigurieren Notrufe, indem Sie Standortrichtlinien erstellen, die definieren, wie Notrufe implementiert werden. Sie verwenden die Standortrichtlinie, um zu definieren, welche Nummer einen Notruf bildet, z. B. 911 in den USA; 999 und 112 im Vereinigten Königreich. Die Standortrichtlinie bestimmt, ob ein Benutzer für Notrufe aktiviert ist und ob das Verhalten eines Notrufs ist. Sie können auch definieren, ob die Unternehmenssicherheit automatisch benachrichtigt werden soll und wie der Anruf geroutet werden soll.
   
-Weitere Informationen zum Definieren und Ändern einer ortungsrichtlinie finden Sie unter [Planen von Standortrichtlinien für Skype for Business Server](location-policies.md) und [Erstellen von ortungsrichtlinien in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). In diesen Themen werden Konzepte für Standortrichtlinien beschrieben. Sie müssen jedoch den Anweisungen unter [Configure Multiple Emergency Numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) folgen, um mehrere Notrufnummern zu konfigurieren.
+Weitere Informationen zum Definieren und Ändern einer Standortrichtlinie finden Sie unter "Planen von Standortrichtlinien für [Skype for Business Server"](location-policies.md) und "Erstellen von [Standortrichtlinien in Skype for Business Server".](../../deploy/deploy-enterprise-voice/create-location-policies.md) In diesen Themen werden Konzepte zu Standortrichtlinien beschrieben. Sie müssen jedoch die Anweisungen unter "Konfigurieren mehrerer Notrufnummern [in Skype for Business"](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) befolgen, um mehrere Notrufnummern zu konfigurieren.
   
-Beachten Sie bei der Planung für mehrere Notrufnummern Folgendes:
+Beachten Sie bei der Planung mehrerer Notrufnummern Folgendes:
   
-- Mit dem kumulativen Update vom Juni 2016 können Sie bis zu fünf Notrufnummern für eine bestimmte Standortrichtlinie definieren. Mit dem kumulativen Update vom November 2016 steigt diese Zahl auf 100.
+- Mit dem kumulativen Update vom Juni 2016 können Sie bis zu 5 Notrufnummern für eine bestimmte Standortrichtlinie definieren. Mit dem kumulativen Update vom November 2016 erhöht sich diese Zahl auf 100.
     
     > [!NOTE]
-    > Wenn Sie noch nicht auf das kumulative Update vom November 2016 aktualisiert haben, lesen Sie [Updates für Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Wenn Sie noch nicht auf das kumulative Update vom November 2016 aktualisiert haben, finden Sie weitere Informationen unter [Updates für Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
-- Sie können für jede Notrufnummer NULL oder mehr Notruf Masken angeben, die für eine bestimmte Standortrichtlinie eindeutig sind.
+- Für jede Notrufnummer können Sie null oder mehr Notrufwählmasken angeben, die für eine bestimmte Standortrichtlinie eindeutig sind.
     
-    Bei einer Wähl Maske handelt es sich um eine Nummer, die Sie beim wählen in den Wert des Notrufnummern Werts übersetzen möchten. Angenommen, Sie geben den Wert 212 in dieses Feld ein, und das Feld Notrufnummer hat den Wert 911. Wenn ein Benutzer 212 wählt, wird die Nummer in 911 übersetzt. Auf diese Weise können alternative Notrufnummern gewählt werden und weiterhin Notrufdienste für Anrufe erhalten (beispielsweise, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer des Landes oder der Region zu wählen, statt die Nummer für den Land oder Region, in dem Sie sich derzeit befinden). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Die Zeichenfolgen Begrenzung für eine Wähl Maske beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
+    Eine Wählmaske ist eine Nummer, die Sie beim Wählen in den Wert der Notrufnummer übersetzen möchten. Angenommen, Sie geben in dieses Feld den Wert 212 ein, und das Feld für notrufnummer hat den Wert 911. Wenn ein Benutzer 212 wählt, wird die Nummer in 911 übersetzt. Auf diese Weise können alternative Notrufnummern gewählt werden, und der Anruf wird weiterhin an die Notrufdienste angerufen (z. B. wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer dieses Landes oder dieser Region anstelle der Nummer für das Land oder die Region zu wählen, in dem sie sich gerade befindet). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Die Zeichenfolgenbeschränkung für eine Wählmaske beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
     
-- Jede ortungsrichtlinie verfügt über eine einzige PSTN-Verwendung (Public Switched Telephone Network), die verwendet wird, um zu bestimmen, welche VoIP-Route zum Weiterleiten von Notrufen von Clients verwendet wird, die diese Richtlinie verwenden. Die Verwendung kann eine eindeutige Route pro Notrufnummer aufweisen.
+- Jede Standortrichtlinie verfügt über eine einzelne PSTN-Nutzung, die verwendet wird, um zu bestimmen, welche Sprachroute zum Routen von Notrufen von Clients verwendet wird, die diese Richtlinie verwenden. Die Verwendung kann eine eindeutige Route pro Notrufnummer haben.
     
-- Wenn für eine ortungsrichtlinie sowohl die "emergencynumbers"-als auch die dialtype-Parameter definiert sind und der Client mehrere Notrufnummern unterstützt, hat die Notrufnummer Vorrang. Wenn der Client mehrere Notrufnummern nicht unterstützt, wird die Notruf-Wählzeichenfolge verwendet.
+- Wenn für eine Standortrichtlinie sowohl die Parameter "EmergencyNumbers" als auch "DialString" definiert sind und der Client mehrere Notrufnummern unterstützt, hat die Notrufnummer Vorrang. Wenn der Client nicht mehrere Notrufnummern unterstützt, wird die Notrufwählzeichenfolge verwendet.
     
-- Informationen dazu, welche Skype for Business-und lync-Clients unterstützen, die mehrere Notrufnummern, Wähl Masken und PSTN-Verwendungen (Public Switched Telephone Network) erhalten, finden Sie unter [Client Support](multiple-emergency-numbers.md#BKMK_Clients).
+- Informationen dazu, welche Skype for Business- und Lync-Clients den Empfang mehrerer Notrufnummern, Wählmasken und Verwendungen im Telefonnetz (Public Switched Telephone Network, PSTN) unterstützen, finden Sie unter [Clientsupport.](multiple-emergency-numbers.md#BKMK_Clients)
     
 > [!NOTE]
 > Sie können nicht mehrere Notrufnummern mithilfe der Skype for Business-Systemsteuerung konfigurieren. Sie müssen PowerShell verwenden, um mehrere Notrufnummern zu konfigurieren. 
   
-Beachten Sie Folgendes, bevor Sie mehrere Notrufnummern konfigurieren:
+Beachten Sie folgendes, bevor Sie mehrere Notrufnummern konfigurieren:
   
-- Um mehrere Notrufnummern zu konfigurieren, müssen Sie das Cmdlet New-csemergencynumber "verwenden, und Sie müssen Standortrichtlinien definieren, die mehr als eine Notrufnummer unterstützen, indem Sie den Parameter" emergencynumbers "mit den Cmdlets [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und [setCsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) festlegen.
+- Zum Konfigurieren mehrerer Notrufnummern müssen Sie das Cmdlet New-CsEmergencyNumber verwenden und Standortrichtlinien definieren, die mehrere Notrufnummern unterstützen, indem Sie den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy"](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und ["Set-CsLocationPolicy"](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) angeben.
     
-- Wenn Sie vorhandene Nummern mit dem Cmdlet "CsLocationPolicy" oder "New-CsLocationPolicy" mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben, haben die Werte, die mit dem Parameter "emergencynumbers" angegeben werden, Vorrang vor den alten Werte. Das bedeutet, dass die Werte für die Parameter EmergencyDialString und EmergencyDialMask ignoriert werden.
+- Wenn Sie vorhandene Nummern mit dem Cmdlet Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben, haben die mit dem Parameter "EmergencyNumbers" angegebenen Werte Vorrang vor den alten Werten. Das heißt, die Werte für die Parameter "EmergencyDialString" und "EmergencyDialMask" werden ignoriert.
     
-- Wenn Sie vorhandene Nummern mit dem Cmdlet "CsLocationPolicy" oder "New-CsLocationPolicy" mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben *und keine neuen Notrufnummern konfigurieren* , werden die vorhandenen Nummern weiterhin verwendet.
+- Wenn Sie vorhandene Nummern mit dem Cmdlet Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben und keine neuen Notrufnummern  *konfigurieren,*  werden die vorhandenen Nummern weiterhin verwendet.
     
-- Damit das Feature für mehrere Notrufnummern funktionsfähig ist, müssen die von Ihnen ausgeführten Clientversionen das neue Feature unterstützen können. Ältere Clients verwenden weiterhin die alten Werte, die von den Cmdlets "CsLocationPolicy" oder "New-CsLocationPolicy" mit den Parametern EmergencyDialString und EmergencyDialMask angegeben werden. 
+- Damit die Funktion für mehrere Notrufnummern funktioniert, müssen die clientversionen, die Sie ausführen, in der Lage sein, das neue Feature zu unterstützen. Ältere Clients verwenden weiterhin die alten Werte, die von den cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy emergencyDialString und EmergencyDialMask angegeben werden. 
     
-- Wenn die Benutzer eine Nummer wählen, die mit der Wählzeichenfolge übereinstimmt, ist keine Wähl Maske erforderlich. Wenn beispielsweise die Nummer, die ein Benutzer wählt, 911 ist, lautet die Wählzeichenfolge 911, und es ist keine Maske erforderlich. 
+- Wenn die Benutzer eine Nummer wählen, die der Wählzeichenfolge entspricht, ist keine Wählmaske erforderlich. Wenn beispielsweise die Nummer, die ein Benutzer wählt, 911 ist, ist die Wählzeichenfolge 911, und es ist keine Maske erforderlich. 
     
-Weitere Informationen zum Konfigurieren mehrerer Notrufnummern finden Sie unter [Configure Multiple Emergency Numbers in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Weitere Informationen zum Konfigurieren mehrerer Notrufnummern finden Sie unter ["Konfigurieren mehrerer Notrufnummern in Skype for Business".](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
   
-In der folgenden Tabelle sind Beispiele für Standortrichtlinien aufgeführt (im Beispiel werden nicht alle Attribute angezeigt):
+In der folgenden Tabelle sind Beispielspeicherortrichtlinien aufgeführt (im Beispiel werden nicht alle Attribute gezeigt):
   
 
-|**Name der Standortrichtlinie**|**E911 aktiviert**|**Notrufnummern Zeichenfolge**|**Wähl Maske**|**Notrufnummern**|**PSTN-Verwendung**|**Speicherort erforderlich**|
+|**Name der Standortrichtlinie**|**E911 aktiviert**|**Notrufwählzeichenfolge**|**Wählmaske**|**Notrufnummern**|**PSTN-Verwendung**|**Erforderlicher Standort**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|USA  <br/> |Ja  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Ja  <br/> |
+|Vereinigte Staaten  <br/> |Ja  <br/> |911  <br/> | 112;999 <br/> ||USEmergency  <br/> |Ja  <br/> |
 |US-Hospital  <br/> |Ja  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Ja  <br/> |
-|London  <br/> |Ja  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112 – 911; 117; 118  <br/> |GBEmergency  <br/> |Nein  <br/> |
-|India  <br/> |Ja  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |Nein  <br/> |
+|London  <br/> |Ja  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911;117;118  <br/> |GBEmergency  <br/> |Nein  <br/> |
+|Indien  <br/> |Ja  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |Nein  <br/> |
    
- **USA** – es ist keine Anforderung für mehrere Notrufnummern erforderlich. In den Vereinigten Staaten verwenden Sie die alte notrufwählzeichenfolge und die Konfigurationen für Wähl Masken.
+ **Vereinigte Staaten** – Es ist nicht erforderlich, mehrere Notrufnummern zu verwenden. In den USA verwenden Sie die alten Konfigurationen für Notrufwählzeichenfolgen und Wählmasken.
   
- **US-Hospital-** es ist eine Anforderung nicht zu maskieren "450". Für Clients, die noch nicht mehrere Notrufnummern unterstützen, können Sie die alte notrufwählzeichenfolge und Konfigurationen für Wähl Masken verwenden. Für Clients, die mehrere Notrufnummern unterstützen, können Sie eine Notrufnummer für "911" und "450" anstelle von "Masking 450" definieren.
+ **US-Krankenhaus** – Es ist erforderlich, "450" nicht zu maskieren. Für Clients, die noch nicht mehrere Notrufnummern unterstützen, können Sie die alten Konfigurationen für Notrufwählzeichenfolge und Wählmaske verwenden. Für Clients, die mehrere Notrufnummern unterstützen, können Sie eine Notrufnummer für "911" und "450" definieren, anstatt 450 zu maskieren.
   
- **London** – für Clients, die noch nicht mehrere Notrufnummern unterstützen, können Sie die alte notrufwählzeichenfolge und Konfigurationen für Wähl Masken verwenden. Für Clients, die mehrere Notrufnummern unterstützen, können Sie eine Notrufnummer für "999" und "112" mit Masken für jede definieren.
+ **London** – Für Clients, die noch nicht mehrere Notrufnummern unterstützen, können Sie die alten Konfigurationen für Notrufwählzeichenfolge und Wählmaske verwenden. Für Clients, die mehrere Notrufnummern unterstützen, können Sie eine Notrufnummer für "999" und "112" mit Masken definieren.
   
- **Indien** – alle bereitgestellten Clients unterstützen mehrere Notrufnummern. In Indien müssen Sie nur mehrere Notrufnummern konfigurieren.
+ **Indien** – Alle bereitgestellten Clients unterstützen mehrere Notrufnummern. In Indien müssen Sie nur mehrere Notrufnummern konfigurieren.
   
 ## <a name="client-support"></a>Clientunterstützung
 <a name="BKMK_Clients"> </a>
 
-In der folgenden Tabelle ist die Clientunterstützung für mehrere Notrufnummern aufgeführt. Microsoft testet und veröffentlicht weiterhin die Unterstützung für zusätzliche Clients. Besuchen Sie diese Website regelmäßig.
+In der folgenden Tabelle ist die Clientunterstützung für mehrere Notrufnummern aufgeführt. Microsoft wird die Unterstützung für weitere Clients weiterhin testen und veröffentlichen. Besuchen Sie diese Website regelmäßig.
 
 |**Windows**|**Version**|
 |:-----|:-----|
-|**Klick-und-Los** <br/> |CC (aktueller Kanal) veröffentlicht am 10. Mai 2016-Version 1604 (Build 6868,2062)  <br/> |
-||FRDC (First Release Current Channel) veröffentlicht am 14. Juni 2016-Version 1605 (Build 6965,2058)  <br/> |
-||DC (verzögerter Kanal) veröffentlicht am 11. Oktober 2016-Version 1605 (Build 6965,2092)  <br/> |
-|**MSI** <br/> |Update 7. Juni-[https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
-|**Mac und IOS** <br/> |**Version** <br/> |
-||Skype for Business Mac-Client Version 16,9  <br/> Skype for Business IOS-Client Version 6,16  <br/> |
+|**Klick-und-Los** <br/> |CC (aktueller Kanal) veröffentlicht am 10. Mai 2016 - Version 1604 (Build 6868.2062)  <br/> |
+||FRDC (First Release Current Channel) veröffentlicht am 14. Juni 2016 - Version 1605 (Build 6965.2058)  <br/> |
+||DC (Verzögerter Kanal) veröffentlicht am 11. Oktober 2016 - Version 1605 (Build 6965.2092)  <br/> |
+|**MSI** <br/> |Update vom 7. Juni – [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
+|**Mac und iOS** <br/> |**Version** <br/> |
+||Skype for Business Mac Client, Version 16.9  <br/> Skype for Business iOS Client Version 6.16  <br/> |
 |**Android** <br/> |**Version** <br/> |
-||Skype for Business Android-Client Version 6,17  <br/> |
+||Skype for Business Android Client Version 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Version** <br/> |
-|| Aastra 6721ip und Aastra 6725ip Telefone-September 2016 Kumulatives Update (Build 7577,4512)-[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
-|| HP 4110 und HP 4120 Telefone-September 2016 Kumulatives Update (Build 7577,4512)-[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
-||Polycom CX500, Polycom CX600 und Polycom CX3000-Telefone-September 2016 Kumulatives Update (Build 7577,4512)-[https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
+|| Aastra 6721ip- und Aastra 6725ip-Telefone – kumulatives Update vom September 2016 (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
+|| HP 4110- und HP 4120-Telefone – kumulatives Update vom September 2016 (Build 7577.4512) –[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |
+||Polycom CX500-, Polycom CX600- und Polycom CX3000-Telefone – kumulatives Update vom September 2016 (Build 7577.4512) - [https://support.microsoft.com/kb/3194833](https://support.microsoft.com/kb/3194833) <br/> |
    
 

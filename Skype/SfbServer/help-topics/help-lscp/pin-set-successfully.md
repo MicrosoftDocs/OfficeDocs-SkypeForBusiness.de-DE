@@ -1,8 +1,8 @@
 ---
 title: Erfolgreiches Festlegen von PINs
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
-description: Wenn Sie die PIN per e-Mail an den Benutzer senden möchten, klicken Sie auf meine e-Mail-Anwendung öffnen, um die neue PIN an den Benutzer zu senden. Wenn Sie die PIN in die e-Mail-Nachricht kopieren möchten, wählen Sie PIN anzeigen aus.
-ms.openlocfilehash: dd26740ddeaa61198798cf2edcb1b308f2fbe66f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Um die PIN per E-Mail an den Benutzer zu senden, klicken Sie auf "Meine E-Mail-Anwendung öffnen", um die neue PIN an den Benutzer zu senden. Wählen Sie "PIN anzeigen" aus, um die PIN in die E-Mail-Nachricht zu kopieren.
+ms.openlocfilehash: 76a91ddd0dd9f71e5059b3e1be333181eeb691d8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822478"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49829345"
 ---
 # <a name="pin-set-successfully"></a>Erfolgreiches Festlegen von PINs
  
-Wenn Sie die PIN per e-Mail an den Benutzer senden möchten, klicken Sie auf **meine e-Mail-Anwendung öffnen, um die neue PIN an den Benutzer zu senden**. Wenn Sie die PIN in die e-Mail-Nachricht kopieren möchten, wählen Sie **Pin anzeigen**aus. 
+Um die PIN per E-Mail an den Benutzer zu senden, klicken Sie auf "Meine E-Mail-Anwendung öffnen", um die neue **PIN an den Benutzer zu senden.** Um die PIN in die E-Mail-Nachricht zu kopieren, wählen Sie PIN **anzeigen aus.** 
   
-Details zu den verschiedenen Verfahren, die Sie mit der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Verwalten von Skype for Business Server 2015](../../manage/manage.md).
+Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
   
 

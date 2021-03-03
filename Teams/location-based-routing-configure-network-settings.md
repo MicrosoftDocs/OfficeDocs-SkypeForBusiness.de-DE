@@ -1,14 +1,14 @@
 ---
 title: Konfigurieren von Netzwerkeinstellungen – standortbasiertes Routing
-author: LanaChin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie netzwerkregionen,-Standorte und-Subnetze für standortbasiertes Routing für das direkte Routing erstellen und einrichten.
+description: Hier erfahren Sie, wie Sie Netzwerkbereiche, Standorte und Subnetze für die Verwendung Location-Based für direktes Routing erstellen und einrichten.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,44 +17,44 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8025467a0581c95a40551244948a8e6b7c0ecbc8
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: a7dd707a6066cfe9a8dfcbcc9b3ae36d450d1dd1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372055"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49822945"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 
-Wenn Sie dies noch nicht getan haben, lesen Sie [Planen des ortsbasierten Routings für das direkte Routing](location-based-routing-plan.md) , um weitere Schritte zu überprüfen, die Sie ausführen müssen, bevor Sie die Netzwerkeinstellungen für standortbasiertes Routing konfigurieren.
+Wenn dies noch nicht geschehen ist, lesen Sie "Plan Location-Based Routing für [Direct-Routing",](location-based-routing-plan.md) um weitere Schritte zu überprüfen, die Sie ausführen müssen, bevor Sie Netzwerkeinstellungen für das Routing Location-Based konfigurieren.
 
-In diesem Artikel wird beschrieben, wie Sie Netzwerkeinstellungen für standortbasiertes Routing konfigurieren. Nachdem Sie die direkte Weiterleitung des Telefonsystems in Ihrer Organisation bereitgestellt haben, besteht der nächste Schritt darin, netzwerkregionen, Netzwerk Websites und Netzwerk-Subnets zu erstellen und einzurichten.
+In diesem Artikel wird beschrieben, wie Sie Netzwerkeinstellungen für das Routing Location-Based konfigurieren. Nachdem Sie das direkte Telefonsystemrouting in Ihrer Organisation bereitgestellt haben, müssen Sie im nächsten Schritt Netzwerkregionen, Netzwerkstandorte und Netzwerksubnetze erstellen und einrichten.
 
-## <a name="define-network-regions"></a>Definieren von netzwerkregionen
+## <a name="define-network-regions"></a>Definieren von Netzwerkregionen
 
-Eine netzwerkregion enthält eine Sammlung von Netzwerk Websites und verbindet verschiedene Teile eines Netzwerks über mehrere geographische Bereiche hinweg. Eine schrittweise Anleitung zum Konfigurieren von netzwerkregionen finden Sie unter [Verwalten Ihrer Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
+Eine Netzwerkregion enthält eine Sammlung von Netzwerkwebsites und verbindet verschiedene Teile eines Netzwerks über mehrere geografische Bereiche hinweg. Schritte zum Konfigurieren von Netzwerkregionen finden Sie unter ["Verwalten Ihrer Netzwerktopologie für Cloudfeatures in Teams".](manage-your-network-topology.md)
 
-## <a name="define-network-sites"></a>Definieren von Netzwerk Websites
+## <a name="define-network-sites"></a>Definieren von Netzwerkwebsites
 
-Eine Netzwerk Website steht für einen Standort, an dem Ihre Organisation über einen physikalischen Ort verfügt, beispielsweise ein Büro, einen Satz von Gebäuden oder einen Campus. Sie müssen jede Netzwerk Website in Ihrer Topologie einem Netzwerkbereich zuordnen. Eine schrittweise Anleitung zum Konfigurieren von Netzwerk Websites finden Sie unter [Verwalten der Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
+Eine Netzwerkwebsite stellt einen Ort dar, an dem Ihre Organisation über einen Veranstaltungsort verfügt, z. B. ein Büro, eine Reihe von Gebäuden oder einen Campus. Sie müssen jede Netzwerkwebsite in Ihrer Topologie einem Netzwerkbereich zuordnen. Schritte zum Konfigurieren von Netzwerkwebsites finden Sie unter ["Verwalten Ihrer Netzwerktopologie für Cloudfeatures in Teams".](manage-your-network-topology.md)
 
-Eine bewährte Methode für standortbasiertes Routing ist das Erstellen einer separaten Website für jeden Standort, der über eine eindeutige PSTN-Konnektivität verfügt. Sie können eine Website erstellen, die für standortbasiertes Routing oder eine Website aktiviert ist, die für standortbasiertes Routing nicht aktiviert ist. So können Sie beispielsweise eine Website erstellen, die für standortbasiertes Routing nicht aktiviert ist, damit Benutzer, die für standortbasiertes Routing aktiviert sind, PSTN-Anrufe tätigen können, wenn Sie zu dieser Website wechseln.
+Eine bewährte Methode für das Location-Based besteht im Erstellen einer separaten Website für jeden Standort mit eindeutiger PSTN-Konnektivität. Sie können eine Website erstellen, die für das Routing Location-Based aktiviert ist, oder eine Website, die nicht für das Routing Location-Based ist. So möchten Sie beispielsweise eine Website erstellen, die nicht für Location-Based-Routing aktiviert ist, damit Benutzer, die für das Routing von Location-Based aktiviert sind, beim Routing zu dieser Website Anrufe über das Festnetz erhalten.
 
-## <a name="define-network-subnets"></a>Definieren von Netzwerk-Subnetzen
+## <a name="define-network-subnets"></a>Definieren von Netzwerksubnetzen
 
-Jedes Subnetz muss einer bestimmten Netzwerk Website zugeordnet sein. Sie können mehrere Subnetze mit derselben Netzwerk Website verknüpfen, aber Sie können nicht mehrere Websites mit demselben Subnetz verknüpfen. Eine schrittweise Anleitung zum Konfigurieren von Netzwerksubnets finden Sie unter [Verwalten Ihrer Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
+Jedes Subnetz muss einem bestimmten Netzwerkstandort zugeordnet sein. Sie können demselben Netzwerkstandort mehrere Subnetze, aber nicht mehrere Standorte demselben Subnetz zuordnen. Schritte zum Konfigurieren von Netzwerksubnetzen finden Sie unter "Verwalten Ihrer [Netzwerktopologie für Cloudfeatures in Teams".](manage-your-network-topology.md)
 
-Für standortbasiertes Routing müssen IP-Subnetze an der Stelle, an der Teams-Endpunkte eine Verbindung mit dem Netzwerk herstellen können, definiert und einem definierten Netzwerk zugeordnet werden, um eine Maut Umgehung durchzusetzen. Diese Zuordnung von Subnetzen ermöglicht standortbasiertes Routing, die Endpunkte geografisch zu finden, um festzustellen, ob ein bestimmter PSTN-Anruf zulässig ist. Sowohl IPv6-als auch IPv4-Subnetze werden unterstützt. Wenn Sie feststellen, ob sich ein Teams-Endpunkt an einer Website befindet, überprüft standortbasiertes Routing zunächst auf eine übereinstimmende IPv6-Adresse. Wenn keine IPv6-Adresse vorhanden ist, überprüft standortbasiertes Routing auf eine IPv4-Adresse.
+Für Location-Based müssen IP-Subnetze an dem Ort, an dem Die Endpunkte von Teams eine Verbindung mit dem Netzwerk herstellen können, definiert und einem definierten Netzwerk zugeordnet sein, um die gebührenpflichtige Umgehung zu erzwingen. Diese Zuordnung von Subnetzen ermöglicht Location-Based, die Endpunkte geografisch zu finden, um zu bestimmen, ob ein gegebener Festnetzanruf zulässig sein soll. Sowohl IPv6- als auch IPv4-Subnetze werden unterstützt. Bei der Ermittlung, ob sich ein Endpunkt in Teams an einer Website befindet, überprüft Location-Based Routing zuerst auf eine übereinstimmende IPv6-Adresse. Wenn keine IPv6-Adresse vorhanden ist, wird Location-Based A0 auf eine IPv4-Adresse überprüft.
 
-## <a name="define-trusted-ip-addresses-external-subnets"></a>Definieren von vertrauenswürdigen IP-Adressen (externe Subnetze)
+## <a name="define-trusted-ip-addresses-external-subnets"></a>Definieren vertrauenswürdiger IP-Adressen (externe Subnetze)
 
-Vertrauenswürdige IP-Adressen sind die Internet externen IP-Adressen des Unternehmensnetzwerks und werden verwendet, um zu ermitteln, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet. Eine schrittweise Anleitung zum Konfigurieren von vertrauenswürdigen IP-Adressen finden Sie unter [Verwalten Ihrer Netzwerktopologie für Cloud-Features in Teams](manage-your-network-topology.md).
+Vertrauenswürdige IP-Adressen sind die externen Internetadressen des Unternehmensnetzwerks und werden verwendet, um festzustellen, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet. Schritte zum Konfigurieren von vertrauenswürdigen IP-Adressen finden Sie unter "Verwalten Ihrer [Netzwerktopologie für Cloudfeatures in Teams".](manage-your-network-topology.md)
 
-Wenn die externe IP-Adresse des Benutzers mit einer IP-Adresse übereinstimmt, die sich in der Liste der vertrauenswürdigen IP-Adressen befindet, überprüft standortbasiertes Routing, um das interne Subnetz zu ermitteln, in dem sich der Endpunkt des Benutzers befindet. Wenn die externe IP-Adresse des Benutzers nicht mit einer IP-Adresse übereinstimmt, die in der Liste vertrauenswürdiger IP-Adressen definiert ist, wird der Endpunkt als an einem unbekannten Speicherort klassifiziert, und alle PSTN-Anrufe an oder von einem Benutzer, der für standortbasiertes Routing aktiviert ist, werden blockiert.
+Wenn die externe IP-Adresse des Benutzers einer in der Liste der vertrauenswürdigen IP-Adressen aufgeführten IP-Adresse entspricht, überprüft Location-Based Routing, ob das interne Subnetz ermittelt wird, in dem sich der Endpunkt des Benutzers befindet. Wenn die externe IP-Adresse des Benutzers nicht mit einer in der Liste der vertrauenswürdigen IP-Adresslisten definierten IP-Adresse übereinstimmen, wird der Endpunkt als an einem unbekannten Speicherort klassifiziert, und alle ANRUFE über das Festnetz an oder von einem Benutzer, der für das Routing aktiviert ist, Location-Based werden blockiert.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Wechseln Sie zum [Aktivieren des ortsbasierten Routings für das direkte Routing](location-based-routing-enable.md).
+Wechseln Sie [zu "Enable Location-Based Routing for Direct Routing".](location-based-routing-enable.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

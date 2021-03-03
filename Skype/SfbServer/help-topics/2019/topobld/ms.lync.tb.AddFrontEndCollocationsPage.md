@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Front-End-Server-Kollokationen
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Bei einer Enterprise Edition-Bereitstellung befindet sich der A/V-Konferenzdienst im Front-End-Pool. Sie können den Vermittlungsserver auch im Front-End-Pool collocate, oder Sie können ihn als eigenständigen Server bereitstellen. Der A/V-Konferenzdienst ist immer in der Lage, wenn Konferenzen aktiviert sind.
-ms.openlocfilehash: f651a206529ee968fc32bf86b6314c004f82c3bd
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Für eine Enterprise Edition-Bereitstellung wird der A/V-Konferenzdienst mit dem Front-End-Pool verbunden. Sie können den Vermittlungsserver auch mit dem Front-End-Pool verbinden, oder Sie können ihn als eigenständigen Server bereitstellen. Der A/V-Konferenzdienst ist bei aktivierter Konferenzfunktion immer verbunden.
+ms.openlocfilehash: 8dd984f52740d38689ec123cc51e5cdb2901f440
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794884"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49811725"
 ---
 # <a name="add-front-end-server-collocations"></a>Hinzufügen von Front-End-Server-Kollokationen
 
-Bei einer Enterprise Edition-Bereitstellung befindet sich der A/V-Konferenzdienst im Front-End-Pool. Sie können den Vermittlungsserver auch im Front-End-Pool collocate, oder Sie können ihn als eigenständigen Server bereitstellen. Der A/V-Konferenzdienst ist immer in der Lage, wenn Konferenzen aktiviert sind.
+Für eine Enterprise Edition-Bereitstellung wird der A/V-Konferenzdienst mit dem Front-End-Pool verbunden. Sie können den Vermittlungsserver auch mit dem Front-End-Pool verbinden, oder Sie können ihn als eigenständigen Server bereitstellen. Der A/V-Konferenzdienst ist bei aktivierter Konferenzfunktion immer verbunden.
 
 > [!NOTE]
-> Ein A/V-Konferenzdienst ist erforderlich, wenn **Konferenz** auf der Seite **"Features auswählen** " ausgewählt wurde. Ein Enterprise Edition-Front-End-Pool verwendet einen zusammengefassten a/V-Konferenzdienst. Wenn Konferenz nicht ausgewählt wurde, ist der Collocate A/V-Konferenzdienst nicht verfügbar.
+> Ein A/V-Konferenzdienst ist erforderlich, wenn **Konferenz** auf der Seite **Funktionen auswählen** ausgewählt wurde. Ein Front-End-Pool der Enterprise Edition verwendet einen verbundenen A/V-Konferenzdienst. Wenn die Konferenzfunktion nicht ausgewählt wurde, steht die Funktion zum Verbinden des A/V-Konferenzdiensts nicht zur Verfügung.
 
-Sie können die collocate-Funktion auf einem Front-End-Server der Standard Edition oder in Enterprise Edition-Front-End-Pool übernehmen. Wenn Sie direkte SIP-Verbindungen zu einem qualifizierten PSTN-Gateway (Public Switched Telephone Network) bereitstellen, das die medienumgehung und den DNS-Lastenausgleich (Domain Name System) unterstützt, ist kein eigenständiger Vermittlungs Server Pool erforderlich. Ein eigenständiger Vermittlungs Server Pool ist nicht erforderlich, da qualifizierte Gateways in der Lage sind, den DNS-Lastenausgleich zu einem Pool von Vermittlungsservern durchzuführen und Datenverkehr von einem beliebigen Vermittlungsserver in einem Pool empfangen können. Wir empfehlen außerdem, dass Sie den Vermittlungs Server in einem Front-End-Pool collocate, wenn Sie IP-PBX-Anlagen bereitgestellt haben oder eine Verbindung mit dem Session Border Controller (SBC) eines Internet Telefonie-Serveranbieters herstellen, sofern eine der folgenden Bedingungen erfüllt ist:
+Sie können die Vermittlungsserverrolle auf einem Front-End-Server der Standard Edition oder in einem Front-End-Pool der Enterprise Edition ausführen. Bei Bereitstellung von direkten SIP-Verbindungen mit einem qualifizierten PSTN-Gateway (Public Switched Telephone Network), das Medienumgehung und DNS-Lastenausgleich unterstützt, ist kein eigenständiger Vermittlungsserver erforderlich. Der Grund ist, dass qualifizierte Gateways einen DNS-Lastenausgleich (Domain Name System) für einen Pool aus Vermittlungsservern implementieren und Datenverkehr von jedem Vermittlungsserver innerhalb eines Pools empfangen können. Es wird außerdem empfohlen, den Vermittlungsserver in einem Front-End-Pool zu verbinden, wenn Sie IP-PBXs bereitgestellt haben oder eine Verbindung mit dem Session Border Controller (SBC) eines Anbieters für Internettelefonieserver herstellen, solange eine der folgenden Bedingungen erfüllt ist:
 
-- Die IP-PBX-oder SBC-Konfiguration ist für den Empfang von Datenverkehr von einem beliebigen Vermittlungsserver im Pool konfiguriert und kann den Datenverkehr gleicherweise an alle Vermittlungsserver im Pool weiterleiten.
+- Die IP-Nebenstellenanlage oder der SBC ist für den Empfang von Datenverkehr von einem beliebigen Vermittlungsserver in dem Pool konfiguriert und kann Datenverkehr einheitlich an alle Vermittlungsserver im Pool weiterleiten.
 
-- Die IP-PBX-oder SBC-Konfiguration ist für den Empfang von Datenverkehr von einem beliebigen Vermittlungsserver im Pool konfiguriert und kann den Datenverkehr gleicherweise an alle Vermittlungsserver im Pool weiterleiten.
+- Die IP-Nebenstellenanlage oder der SBC ist für den Empfang von Datenverkehr von einem beliebigen Vermittlungsserver in dem Pool konfiguriert und kann Datenverkehr einheitlich an alle Vermittlungsserver im Pool weiterleiten.
 
-Sie können das Planungs Tool verwenden, um zu überprüfen, ob die Auslastung vom Front-End-Pool, in dem Sie den Vermittlungs Server collocate möchten, verarbeitet werden kann. Wenn Ihre Umgebung diese Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen Vermittlungs Server Pool bereitstellen.
+Sie können das Planungstool verwenden, um zu bewerten, ob der Front-End-Pool, in dem Sie den Vermittlungsserver verbinden möchten, die Last bewältigen kann. Falls diese Anforderungen in Ihrer Umgebung nicht erfüllt sind, müssen Sie einen eigenständigen Vermittlungsserverpool bereitstellen.
 
-Im Allgemeinen wird die Verwendung des Vermittlungsservers nicht empfohlen, wenn Ihre Organisation über die Anforderungen an die Verfügbarkeit und Skalierbarkeit verfügt. Details zum abstimmen dieser Serverrollen in einem Front-End-Pool in einer Enterprise Edition-Bereitstellung finden Sie unter [definieren und Konfigurieren eines Front-End-Pools](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation. Details zu den A/V-Konferenzfeatures und-Komponenten finden Sie unter [Planen von Konferenzen](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in der Planungsdokumentation. Details zu den Enterprise-VoIP-Features und-Komponenten, einschließlich Mediation Server, finden Sie unter [Planen von Enterprise-VoIP in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) in der Planungsdokumentation.
+Im Allgemeinen wird die Verbindung des Vermittlungsservers nicht empfohlen, wenn in Ihrer Organisation hohe Anforderungen an Verfügbarkeit und Skalierbarkeit gelten. Ausführliche Informationen zur Verbindung dieser Serverrollen in einem Front-End-Pool einer Enterprise Edition-Bereitstellung finden Sie unter [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in der Bereitstellungsdokumentation. Ausführliche Informationen zu A/V-Konferenzfunktion und -komponenten finden Sie unter [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in der Planungsdokumentation. Ausführliche Informationen zu Enterprise-VoIP und Komponenten, einschließlich Vermittlungsserver, finden Sie unter ["Plan for Enterprise-VoIP in Skype for Business Server"](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) in der Planungsdokumentation.
 
 

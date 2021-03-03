@@ -1,8 +1,8 @@
 ---
-title: Anzeigen von Netzwerkschnittstelleninformationen
+title: Anzeigen von Informationen zur Netzwerkschnittstelle
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Sie können Netzwerkschnittstelleninformationen mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterface anzeigen. Sie können dieses Cmdlet über die Skype for Business Server-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen.
-ms.openlocfilehash: d4443f7ec10a0f56cc82ab495d88518f3f3aa17d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Sie können Netzwerkschnittstelleninformationen anzeigen, indem Sie Windows PowerShell cmdlet Get-CsNetworkInterface verwenden. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen.
+ms.openlocfilehash: 26876fe6f7d8ac6989c88e8247d28a72e78ff903
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817351"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49815135"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Anzeigen von Netzwerkschnittstelleninformationen in Skype for Business Server
 
-Sie können Netzwerkschnittstelleninformationen mithilfe von Windows PowerShell und dem Cmdlet **Get-CsNetworkInterface** anzeigen. Sie können dieses Cmdlet über die Skype for Business Server-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. 
+Sie können Netzwerkschnittstelleninformationen mithilfe Windows PowerShell **Cmdlets "Get-CsNetworkInterface"** anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. 
 
-## <a name="to-view-network-interface-information"></a>So zeigen Sie Netzwerkschnittstelleninformationen an
+## <a name="to-view-network-interface-information"></a>So zeigen Sie Informationen zur Netzwerkschnittstelle an
 
-  - Wenn Sie Netzwerkschnittstelleninformationen anzeigen möchten, geben Sie in der Skype for Business Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
+  - Geben Sie zum Anzeigen von Netzwerkschnittstelleninformationen den folgenden Befehl in die Skype for Business Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkInterface
     
-    Dieser Befehl gibt für jede Netzwerkschnittstelle Informationen ähnlich der folgenden zurück:
+    Dieser Befehl gibt Informationen ähnlich der folgenden für jede Netzwerkschnittstelle zurück:
     
         Identity              : dc.vdomain.com/Primary/1
         ComputerFqdn          : dc.vdomain.com
@@ -40,6 +40,6 @@ Sie können Netzwerkschnittstelleninformationen mithilfe von Windows PowerShell 
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    Ausführliche Informationen finden Sie unter [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
+    Weitere Informationen finden Sie unter [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface).
 
 

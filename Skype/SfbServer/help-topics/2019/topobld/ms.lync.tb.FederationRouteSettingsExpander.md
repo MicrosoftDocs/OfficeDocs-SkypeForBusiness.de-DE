@@ -1,8 +1,8 @@
 ---
 title: Einstellungen für die Partnerverbundroute – Erweiterung
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
-description: Zum Einrichten einer Standort Verbund-Routenzuordnung müssen Sie zuerst den Verbund auf dem Edgeserver oder Edgeserver-Pool aktivieren. Wenn der Verbund auf dem Edgeserver oder Pool nicht aktiviert ist, stehen die Zuordnungseinstellungen für die Verbund Route für die Website nicht zur Änderung zur Verfügung.
-ms.openlocfilehash: fafc576e3fd3a3c33d17728437c8472eaf1a57e9
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Zum Zuweisen einer Partnerverbundroute zu einem Standort muss für den Edgeserver bzw. Edgeserverpool der Partnerverbund aktiviert sein. Ist dies nicht der Fall, können die Einstellungen für die Zuweisung einer Partnerverbundroute nicht geändert werden.
+ms.openlocfilehash: 9e453eae2ca44b0e6f406aa6767bc44b741bd3b6
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41793693"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49819465"
 ---
-# <a name="federation-route-settings-expander"></a>Einstellungen für die Partnerverbundroute – Erweiterung
+# <a name="federation-route-settings-expander"></a>Einstellungen für die Partnerverbundroute – Erweiterung
  
-Zum Einrichten einer Standort Verbund-Routenzuordnung müssen Sie zuerst den Verbund auf dem Edgeserver oder Edgeserver-Pool aktivieren. Wenn der Verbund auf dem Edgeserver oder Pool nicht aktiviert ist, stehen die Zuordnungseinstellungen für die Verbund Route für die Website nicht zur Änderung zur Verfügung.
+Zum Zuweisen einer Partnerverbundroute zu einem Standort muss für den Edgeserver bzw. Edgeserverpool der Partnerverbund aktiviert sein. Ist dies nicht der Fall, können die Einstellungen für die Zuweisung einer Partnerverbundroute nicht geändert werden.
 
-Wenn die Verbund Einstellung auf dem Edgeserver oder Pool konfiguriert wurde, können Sie die folgenden Optionen konfigurieren: 
+Wenn die Partnerverbundeinstellung für den Edgeserver oder -pool konfiguriert wurde, können Sie die folgenden Optionen konfigurieren: 
   
-- **Zuordnungen von Verbund Routen zu allen Websites zulassen** Diese Einstellung wirkt sich auf alle Websites aus. Stellen Sie sicher, dass die Einstellungen, die Sie auf dieser Website konfigurieren, für alle Websites geeignet sind.
+- **Zulassen von Zuweisungen von Verbundrouten zu allen Standorten** Diese Einstellung wirkt sich auf alle Websites aus. Vergewissern Sie sich, dass die Einstellung, die Sie für diesen Standort konfigurieren, für alle Standorte geeignet ist.
     
-- **SIP-Verbund aktivieren** Wählen Sie diese Option aus, um eine SIP-Föderations Route zu aktivieren, und wählen Sie dann einen Director oder einen Edge-Pool als Verbund Route aus.
+- **Aktivieren des SIP-Verbunds** Wählen Sie diese Option aus, um eine SIP-Verbundroute zu aktivieren, und wählen Sie dann einen Director oder Edgepool als Verbundroute aus.
     
-- **Aktivieren der XMPP-Föderation** Wählen Sie diese Option aus, um eine XMPP-Föderations Route zu aktivieren, und wählen Sie dann einen Director oder einen Edge-Pool als Verbund Route aus.
+- **Aktivieren des XMPP-Verbunds** Wählen Sie diese Option aus, um eine XMPP-Verbundroute zu aktivieren, und wählen Sie dann einen Director oder Edgepool als Verbundroute aus.
 - 
   > [!NOTE]
-  > XMPP-Gateways und-Proxies sind in Skype for Business Server 2015 verfügbar, werden aber in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren der XMPP-Föderation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+  > XMPP-Gateways und -Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter ["Migrieren des XMPP-Verbunds".](../../../../SfBServer2019/migration/migrating-xmpp-federation.md)
     
 

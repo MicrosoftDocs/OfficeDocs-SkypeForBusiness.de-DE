@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e334269dd31b876dd18b62a9b61ae1b583c504
-ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
+ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "48790527"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "49871086"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -46,9 +46,9 @@ Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Ce
 
 Hinzufügen oder Sperren einer Domäne:
 
-1. Wählen Sie **Domäne hinzufügen** .
+1. Wählen Sie **Domäne hinzufügen**.
 2. Geben Sie im Bereich „Domäne hinzufügen“ den Domänennamen ein, und drücken Sie die LEERTASTE, um den Namen zu speichern.
-3. Wählen Sie **Zulässig** oder **Blockiert** .
+3. Wählen Sie **Zulässig** oder **Blockiert**.
 4. Wählen Sie **Fertig** aus, um die Änderungen zu speichern. 
 
 ### <a name="guest-access"></a>Gastzugriff
@@ -69,7 +69,7 @@ Mithilfe von Tags können Benutzer mit einer Teilmenge von Personen in einem Tea
 
 #### <a name="email-integration"></a>E-Mail-Integration
 
-Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse eine E-Mail an einen Kanal in Microsoft Teams senden können. Benutzer können dies für jeden Kanal tun, der zu einem Team gehört, dessen Besitzer sie sind. Außerdem können Benutzer E-Mails an jeden Kanal in einem Team senden, in dem das Hinzufügen von Connectors für Teammitglieder aktiviert ist. Stellen Sie zum Aktivieren der E-Mail-Integration sicher, dass für **Allow users to send emails to a channel email address** (Zulassen, dass Benutzer E-Mails an eine Kanal-E-Mail-Adresse senden) die Option **Ein** festgelegt ist.
+Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse eine E-Mail an einen Kanal in Microsoft Teams senden können. Benutzer können dies für jeden Kanal tun, der zu einem Team gehört, dessen Besitzer sie sind. Außerdem können Benutzer E-Mails an jeden Kanal in einem Team senden, in dem das Hinzufügen von Connectors für Teammitglieder aktiviert ist. Um die E-Mail-Integration zu aktivieren, stellen Sie sicher, dass **Benutzern das Senden von E-Mails an eine Kanal-E-Mail-Adresse erlauben** auf **Ein** festgelegt ist. Prüfen Sie als Nächstes, ob die Domäne für die E-Mail-Adresse des Absenders im Teams Admin Center unter "Unternehmensweite Einstellungen" > "Teams-Einstellungen" > "E-Mail-Integration" > **Kanal-E-Mails von diesen SMTP-Domänen akzeptieren** nicht blockiert ist. Es sollte entweder leer sein oder alle Domänen enthalten, von denen Sie E-Mails erwarten. Als Nächstes müssen Sie sicherstellen, dass Sie die notwendigen Regeln eingerichtet haben, damit [die E-Mail an die Teams-Kanal-E-Mail-Adresse nicht blockiert wird](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### <a name="files"></a>Dateien
 
@@ -96,7 +96,7 @@ Die Verzeichnissuche in Microsoft Teams verwendet Exchange-Adressbuchrichtlinien
 - Der Mandant Ihrer Organisation enthält mehrere Unternehmen, die voneinander getrennt sein sollen. 
 - Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen. 
 
-Ändern Sie diese Einstellung in **Ein** , um die bereichsbezogene Verzeichnissuche zu aktivieren.
+Ändern Sie diese Einstellung in **Ein**, um die bereichsbezogene Verzeichnissuche zu aktivieren.
 
 ### <a name="skype-for-business"></a>Skype for Business
 

@@ -22,18 +22,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie den Gastzugriff in Microsoft Teams als Office 365-Administrator aktivieren bzw. deaktivieren.
-ms.openlocfilehash: 0920e9d8b8184f7f7ca83a71f0bd97d3a4d78470
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
+ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031191"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49786777"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 
-Der Gastzugriff ist standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können.
+> [!Note]
 
-Nach dem Aktivieren des Gastzugriffs dauert es möglicherweise ein paar Stunden, bis die Änderungen wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung „Wenden Sie sich an Ihren Administrator“ sehen, ist wahrscheinlich der Gastzugriff nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
+> Bis **Februar 2021** ist der Gastzugriff standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können. Nachdem Sie den Gastzugriff aktivieren, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Wenn benutzern die  Meldung angezeigt wird, dass sie sich an Ihren Administrator wenden, wenn sie versuchen, ihrem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass der Gastzugriff nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind. 
+
+> Nach **Februar 2021** ist der Gastzugriff in Microsoft Teams für neue Kunden & vorhandenen Kunden, die diese Einstellung nicht konfiguriert haben, standardmäßig aktiviert. Wenn diese Änderung implementiert ist und Sie noch keine Gastzugriffsfunktion in Microsoft Teams konfiguriert haben, wird diese Funktion in Ihrem Mandanten aktiviert. Wenn der Gastzugriff für Ihre Organisation deaktiviert bleiben soll, müssen Sie bestätigen,  dass die Gastzugriffseinstellung auf "Aus" statt auf **"Dienst standard" festgelegt ist.**
 
 > [!IMPORTANT]
 > Das Aktivieren des Gastzugriffs hängt von den Einstellungen in Azure Active Directory, Microsoft 365, SharePoint und Teams ab. Weitere Informationen finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
@@ -52,9 +54,9 @@ Nach dem Aktivieren des Gastzugriffs dauert es möglicherweise ein paar Stunden,
 
       - **Private Anrufe führen**: **Aktivieren** Sie diese Einstellung, um Gästen Peer-to-Peer-Anrufe zu ermöglichen.
       - **IP-Video zulassen**: **Aktivieren** Sie diese Einstellung, damit Gäste Video in ihren Anrufen und Besprechungen verwenden dürfen.
-      - **Bildschirmübertragungsmodus**: Diese Einstellung steuert die Verfügbarkeit der Bildschirmübertragung für Gastbenutzer. 
-          - Legen Sie diese Einstellung auf **Deaktiviert** fest, wenn Sie möchten, dass Gäste ihren Bildschirm in Teams nicht übertragen können. 
-          - Legen Sie diese Einstellung auf **Einzelne Anwendung** fest, um die Übertragung einzelner Anwendungen zu gestatten. 
+      - **Bildschirmübertragungsmodus**: Diese Einstellung steuert die Verfügbarkeit der Bildschirmübertragung für Gastbenutzer.
+          - Legen Sie diese Einstellung auf **Deaktiviert** fest, wenn Sie möchten, dass Gäste ihren Bildschirm in Teams nicht übertragen können.
+          - Legen Sie diese Einstellung auf **Einzelne Anwendung** fest, um die Übertragung einzelner Anwendungen zu gestatten.
           - Legen Sie diese Einstellung auf **Vollbild** fest, um die vollständige Bildschirmübertragung zuzulassen.
       - **Sofortbesprechungen zulassen**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung des Features „Sofortbesprechung“ in Microsoft Teams zu ermöglichen.
       - **Gesendete Nachrichten bearbeiten**: **Aktivieren** Sie diese Einstellung, um Gästen die Bearbeitung von zuvor gesendeten Nachrichten zu ermöglichen.
@@ -64,9 +66,9 @@ Nach dem Aktivieren des Gastzugriffs dauert es möglicherweise ein paar Stunden,
       - **Giphy-Inhaltsbewertung**: Wählen Sie eine Bewertung aus der Dropdown-Liste aus:
           - **Alle Inhalte zulassen**: Gäste können alle Giphys in Chats einfügen, unabhängig von der Inhaltsbewertung.
           - **Moderat**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber moderat eingeschränkt.
-          - **Streng**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber eingeschränkt.
+          - **Streng** – Gäste können Giphys in Chats einfügen, können aber keine Jugendinhalte mehr einfügen.
       - **Memes in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Memes in Unterhaltungen zu ermöglichen.
-      - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen. 
+      - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen.
 
     ![Einstellungen von Gastberechtigungen in Teams](media/manage-guest-access-image1.png)
 

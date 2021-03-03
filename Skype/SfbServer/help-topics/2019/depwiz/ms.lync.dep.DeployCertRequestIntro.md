@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Einführung)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Klicken Sie auf Weiter, um den Prozess der Zertifikatanforderung fortzusetzen. Wenn Sie den Prozess ohne Änderungen am System beenden möchten, klicken Sie auf Abbrechen.
-ms.openlocfilehash: d0458533ae46092ccf5bd1b8799018ade260c983
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Klicken Sie auf Weiter, um mit dem Zertifikatsanforderungsprozess fortzufahren. Zum Beenden des Prozesses, ohne Änderungen am System vorzunehmen, klicken Sie auf Abbrechen.
+ms.openlocfilehash: 5d0b00810065d138ce25caeebc0f23400831064a
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796706"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49808795"
 ---
 # <a name="certificate-request-intro"></a>Zertifikatanforderung (Einführung)
  
-Klicken Sie auf **weiter**, um den Prozess der Zertifikatanforderung fortzusetzen. Wenn Sie den Prozess ohne Änderungen am System beenden möchten, klicken Sie auf **Abbrechen**.
+Klicken Sie auf **Weiter**, um mit dem Zertifikatsanforderungsprozess fortzufahren. Zum Beenden des Prozesses, ohne Änderungen am System vorzunehmen, klicken Sie auf **Abbrechen**.
   
 

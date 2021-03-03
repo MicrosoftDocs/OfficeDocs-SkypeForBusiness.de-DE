@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: siunies
 description: In diesem Artikel werden die Grenzwerte, Spezifikationen und anderen Anforderungen für Microsoft Teams beschrieben.
 localization_priority: Priority
 f1.keywords:
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 786ec8d911ae21f3cb379eceefb1b7c202890a3d
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682354"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196789"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -36,28 +36,30 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |-----------|---------------|
 |Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
 |Anzahl von Teams, in denen ein Benutzer Mitglied sein kann|1 000&sup2;|
-|Anzahl von Mitgliedern in einem Team | 10.000<sup>5</sup>     |
+|Anzahl von Mitgliedern in einem Team | 10 000<sup>6</sup>     |
 |Anzahl von Besitzern pro Team | 100   |
 |Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5     |
-|Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 5.000       |
+|Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 10.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
-|Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500.000&sup2;     |
-|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup3;         |
-|Anzahl der privaten Kanäle pro Team    |30| (einschließlich gelöschter Kanäle)&sup3;
+|Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500 000&sup3;     |
+|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup4;         |
+|Anzahl der privaten Kanäle pro Team    |30| (einschließlich gelöschter Kanäle)&sup4;
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
 |Maximale Größe einer Verteilerliste, einer Sicherheitsgruppe oder einer Office 365-Gruppe, die in ein Team importiert werden kann.    |3.500|
-|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10.000<sup>5</sup>     |
-|Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>4</sup> |
+|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10 000<sup>6</sup>     |
+|Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>5</sup> |
 
 <sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](https://docs.microsoft.com/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgenommen.
 
-<sup>2</sup> Diese Beschränkung umfasst archivierte Teams. Um mehr als die maximal zulässige Anzahl von Teams in einer Microsoft 365- oder Office 365-Organisation verwenden zu können, müssen Sie sich an den Microsoft-Support wenden.
+<sup>2</sup> Diese Beschränkung umfasst archivierte Teams. 
 
-<sup>3</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal samt seiner Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
+<sup>3</sup> Um die Anzahl der Teams weiter zu erhöhen, müssen Sie den Microsoft-Support kontaktieren und eine weitere Erhöhung der Anzahl von Azure Active Directory-Objekten in Ihrem Mandanten beantragen. Die Erhöhung erfolgt nur für reale Produktionsszenarien.
 
-<sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
+<sup>4</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
 
-<sup>5</sup> Teams in der GCC können nur 5.000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2.500 Mitglieder.
+<sup>5</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
+
+<sup>6</sup> Teams in der GCC können nur 5 000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2 500 Mitglieder.
 
 ## <a name="messaging"></a>Messaging
 
@@ -69,16 +71,18 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 |Feature  | Obergrenze  |
 |---------|---------|
-|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250 |
+|Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250<sup>2</sup> |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
-|Anzahl der Dateianlagen <sup>2</sup>  |10     |
-|Größe des Chats | Ca. 28 KB pro Beitrag<sup>3</sup> |
+|Anzahl der Dateianlagen<sup>3</sup>  |10     |
+|Größe des Chats | Ca. 28 KB pro Beitrag<sup>4</sup> |
 
 <sup>1</sup> Wenn mehr als 20 Personen an einem Chat teilnehmen, werden die folgenden Chat-Funktionen deaktiviert: automatische Outlook-Antworten und Teams-Statusmeldungen; Eingabeindikator; Video- und Telefonanrufe; Freigabe; Lesebestätigungen. Die Schaltfläche „Übermittlungsoptionen festlegen“ (!) wird ebenfalls entfernt, wenn private Gruppenchats mehr als 20 Mitglieder umfassen.
 
-<sup>2</sup> Falls die Anzahl der Anlagen dieses Limit überschreitet, wird eine Fehlermeldung angezeigt.
+<sup>2</sup> Einem Gruppenchat können jeweils nur 200 Mitglieder hinzugefügt werden. [Weitere Informationen finden Sie in diesem Artikel](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat).
 
-<sup>3</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen und Reaktionen umfasst.
+<sup>3</sup> Falls die Anzahl der Anlagen dieses Limit überschreitet, wird eine Fehlermeldung angezeigt.
+
+<sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen und Reaktionen umfasst.
 
 ### <a name="emailing-a-channel"></a>Senden von E-Mails an einen Kanal
 
@@ -106,7 +110,7 @@ Kanalnamen dürfen folgende Zeichen oder Worte nicht enthalten:
 
 |Typ|Beispiel|
 |---------|---------|
-|Zeichen     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
+|Zeichen     | ~ # % & * { } + / \ : < > ? &#124; ' " , ..        |
 |Zeichen in diesen Bereichen:    | 0 bis 1F<br>80 bis 9F        |
 |Words     | Formulare, CON, CONIN$, CONOUT$, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, desktop.ini,  &#95;vti&#95;|
 
@@ -127,13 +131,10 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 350 |
-|Anzahl von Personen in einem aus der Chatregisterkarte gestarteten Video- oder Audioanruf | 20 |
-|Maximale Größe von PowerPoint-Dateien | 2 GB|
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300. Bei **Nur anzeigen** können bis zu 10.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5 SKU verfügt.<br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird und Besprechungs-Überlauf unterstützt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
+|Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
+|Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
-
->[!Note]
-> Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md) erfolgt schrittweise. Beim Start können Sie sich für diese Umgebung entscheiden. Sie müssen sich im November abmelden, wenn Sie Stream weiterhin verwenden möchten. Anfang 2021 müssen alle Kunden OneDrive for Business und SharePoint für neue Besprechungsaufzeichungen verwenden.
 
 ### <a name="meeting-expiration"></a>Ablauf der Besprechung
 

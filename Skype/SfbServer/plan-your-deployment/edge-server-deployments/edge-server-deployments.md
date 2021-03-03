@@ -1,8 +1,8 @@
 ---
-title: Planen von Edge-Server-Bereitstellungen in Skype for Business Server
+title: Planen von Edgeserverbereitstellungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,51 +15,51 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
-description: 'Zusammenfassung: Planen Sie Ihre Skype for Business Server-Edge-Umgebung. Mit diesem Thema werden Sie in die Edge-Konzepte eingeführt und es hilft Ihnen bei der Organisation von unseren ausführlicheren Themenbereichen.'
-ms.openlocfilehash: f19f00aab393ed94735f47f2e66ab0a2869d2d7a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Planen Sie Ihre Skype for Business Server-Edgeumgebung. In diesem Thema werden Sie mit den Konzepten von Edge und mit unseren detaillierten Themen organisiert.'
+ms.openlocfilehash: 277e344448f5229d15addf965695f19ec2884649
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803365"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813805"
 ---
-# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planen von Edge-Server-Bereitstellungen in Skype for Business Server
+# <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planen von Edgeserverbereitstellungen in Skype for Business Server
  
-**Zusammenfassung:** Planen Sie Ihre Skype for Business Server-Edge-Umgebung. Mit diesem Thema werden Sie in die Edge-Konzepte eingeführt und es hilft Ihnen bei der Organisation von unseren ausführlicheren Themenbereichen.
+**Zusammenfassung:** Planen Sie Ihre Skype for Business Server-Edgeumgebung. In diesem Thema werden Sie mit den Konzepten von Edge und mit unseren detaillierten Themen organisiert.
   
-Wenn Sie über eine Skype for Business Server-Umgebung verfügen, die intern gut funktioniert, besteht der nächste Schritt darin, einen Edgeserver oder einen Edge-Pool für die Umgebung einzuführen. Diese Rolle wäre von entscheidender Bedeutung, wenn Sie möchten, dass die von Skype for Business Server bereitgestellten Dienste von Personen verwendet werden, die sich außerhalb Ihres internen Netzwerks befinden. Zu diesen können folgende gehören:
+Wenn Sie über eine Skype for Business Server-Umgebung verfügen, die intern gut funktioniert, besteht der nächste Schritt möglicherweise in der Einführung eines Edgeservers oder edgepools in der Umgebung. Diese Rolle wäre wichtig, wenn die von Skype for Business Server bereitgestellten Dienste von Personen außerhalb Ihres internen Netzwerks verwendet werden sollen. Dazu können u. a. folgende gehören:
   
-- Remotebenutzer: Mitarbeiter, die vorübergehend oder längerfristig standortextern arbeiten.
+- Remotebenutzer: Mitarbeiter, die entweder vorübergehend oder fortlaufend außerhalb des Standorts arbeiten.
     
-- Federated-Benutzer: Mitarbeiter Ihrer Partnerorganisationen.
+- Verbundbenutzer: Mitarbeiter Ihrer Partnerorganisationen.
     
 - Mobile Benutzer.
     
-- Potenzielle Kunden, Partner und sogar anonyme Benutzer, die Sie zu Meetings und Präsentationen einladen möchten.
+- Potenzielle Kunden, Partner und sogar anonyme Benutzer, die Sie zu Besprechungen und Präsentationen einladen möchten.
     
-Der Zugriff externer Benutzer, was von Edge-Servern bereitgestellt wird, ermöglicht dies. Ihre internen Benutzer können die folgenden Dienste nutzen, die von Ihrer Skype for Business Server-Bereitstellung gehostet werden:
+Der externe Benutzerzugriff, der von Edgeservern ermöglicht wird, lässt dies zu. Ihre internen Benutzer können die folgenden Dienste nutzen, die von Ihrer Skype for Business Server-Bereitstellung gehostet werden:
   
-- Chat und Anwesenheitsinformationen für die Kommunikation: autorisierte externe Benutzer können an Chat Unterhaltungen und Konferenzen teilnehmen. Sie können Anwesenheitsinformationen für andere Benutzer erhalten (die auch ihre Anwesenheitsinformationen erhalten). Wenn Sie einen öffentlichen Chat-Anbieter verwenden, sind Sie nicht in der Lage, mehrteilige Konferenzen zu Unternehmen, da es sich um eine strikte Peer-to-Peer-Kommunikation handelt. Es werden jedoch sowohl SIP-als auch XMPP-Protokolle unterstützt.
+- Chat und Anwesenheit für die Kommunikation: Autorisierte externe Benutzer können an Chatunterhaltungen und Konferenzen teilnehmen. Sie können Anwesenheitsinformationen für andere Benutzer (die auch ihre Anwesenheitsinformationen erhalten) erhalten. Wenn Sie einen öffentlichen Anbieter für Internetkonferenzen verwenden, können Sie keine Konferenzen mit mehreren Konferenzteil nehmen. Dies ist die reine Peer-zu-Peer-Kommunikation. Es werden jedoch sowohl SIP- als auch XMPP-Protokolle unterstützt.
     
-- Audio/Video-Konferenzen (A/V): autorisierte externe Benutzer können an Ihren Skype for Business Server-Audio-und Videokonferenzen teilnehmen.
+- Audio-/Videokonferenzen (A/V): Autorisierte externe Benutzer können an Ihren Audio- und Videokonferenzen in Skype for Business Server teilnehmen.
     
-- Webkonferenzen: ihre autorisierten externen Benutzer können an Ihren Skype for Business-Konferenzen teilnehmen. Sie können auch die Teilnahme an Remotebenutzern, Verbundbenutzern und anonymen Benutzern aktivieren, wenn Sie möchten. Öffentliche Chat-Benutzer können nicht an Konferenzen teilnehmen. Darüber hinaus gibt es Optionen, mit denen diese Benutzer an der Anwendungs-und Desktopfreigabe teilnehmen und sogar als Besprechungsorganisatoren oder Referenten fungieren können.
+- Webkonferenzen: Ihre autorisierten externen Benutzer können an Ihren Skype for Business-Konferenzen teilnehmen. Sie können die Teilnahme auch für Remotebenutzer, Partnerbenutzer und anonyme Benutzer aktivieren, wenn Sie möchten. Benutzer von öffentlichen Internetkonferenzen können nicht an Konferenzen teilnehmen. Es gibt auch Optionen, um diesen Benutzern die Teilnahme an der Anwendungs- und Desktopfreigabe zu ermöglichen und sogar als Besprechungsorganisatoren oder Organisator zu fungieren.
     
-Der Zugriff auf mobile Geräte wird ebenso wie Enterprise-VoIP unterstützt. Sie können externe Benutzer zu Besprechungen einladen, an denen diese teilnehmen sollen, und sogar anonyme Benutzer, wenn Sie diesen die Berechtigungen geben möchten.
+Der Zugriff auf mobile Geräte wird unterstützt, ebenso wie Enterprise-VoIP. Sie können externe Benutzer zu diesen Besprechungen einladen, an denen sie teilnehmen sollen, auch anonyme Benutzer, wenn Sie ihnen Berechtigungen erteilen möchten.
   
-Wenn dies sinnvoll für Ihr Unternehmen erscheint, wird die Planung einer Edge-Umgebung eine große Hilfe für die Bereitstellung sein. Weitere Themen können Sie nachfolgend lesen.
+Wenn dies so klingt, als ob Ihre Organisation dies benötigt, ist die Planung einer Edgeumgebung eine wichtige Hilfe bei der Bereitstellung. Weitere Informationen finden Sie in den unten aufgeführten Themen.
 
 > [!NOTE]
-> XMPP-Gateways und-Proxies sind in Skype for Business Server 2015 verfügbar, werden aber in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren der XMPP-Föderation](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
+> XMPP-Gateways und -Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter ["Migrieren des XMPP-Verbunds".](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 
   
-## <a name="planning-topics"></a>Themen für die Planung:
+## <a name="planning-topics"></a>Planungsthemen:
 
-Zu den Artikeln für die Planung gehören folgende:
+Die Planungsartikel sind:
   
-- [Systemanforderungen des Edgeservers in Skype for Business Server 2015](system-requirements.md)
+- [Systemanforderungen für Edgeserver in Skype for Business Server 2015](system-requirements.md)
     
-- [Umgebungsanforderungen des Edgeservers in Skype for Business Server 2015](edge-environmental-requirements.md)
+- [Umgebungsanforderungen für Edgeserver in Skype for Business Server 2015](edge-environmental-requirements.md)
     
-- [Edgeserver-Szenarien in Skype for Business Server 2015](scenarios.md)
+- [Edgeserverszenarien in Skype for Business Server 2015](scenarios.md)
     
 

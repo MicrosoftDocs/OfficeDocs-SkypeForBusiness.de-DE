@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Signieranforderung für das Zertifikat erstellt)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
-description: Die Seite Zertifikatanforderungsdatei wird angezeigt, nachdem Sie eine Offlineanforderung für ein Zertifikat abgeschlossen haben. Klicken Sie auf die Schaltfläche Ansicht, um die Zertifikatanforderung anzuzeigen und die Übermittlung an die Offlinezertifizierungsstelle (ca) oder die öffentliche Zertifizierungsstelle vorzubereiten. Die Zertifikatanforderung wird in Windows Notepad (standardmäßig) angezeigt. Sie können die codierte Zertifikatanforderung aus dieser Anzeige kopieren und Einfügen oder die Verarbeitung der Zertifikatanforderung abschließen, indem Sie die Anweisungen der ausgewählten Offlinezertifizierungsstelle oder öffentlichen Zertifizierungsstelle befolgen. Klicken Sie auf Fertig stellen, um fortzufahren.
-ms.openlocfilehash: 24f2c03adc3328caae25a0f920b1b2efba98b63a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die Seite Zertifikatsanforderungsdatei wird angezeigt, nachdem Sie eine Offlineanforderung für ein Zertifikat abgeschlossen haben. Klicken Sie auf die Schaltfläche Anzeigen, um die Zertifikatsanforderung anzuzeigen und das Senden an Ihre Offlinezertifizierungsstelle oder öffentliche Zertifizierungsstelle vorzubereiten. Die Zertifikatsanforderung wird im Editor von Windows angezeigt. Sie können die verschlüsselte Zertifikatsanforderung aus dieser Ansicht kopieren und einfügen oder die Verarbeitung der Zertifikatsanforderung abschließen, indem Sie die Anweisungen der gewählten Offlinezertifizierungsstelle oder öffentlichen Zertifizierungsstelle befolgen. Klicken Sie auf Fertig stellen, um den Vorgang fortzusetzen.
+ms.openlocfilehash: bcdeae4cd2c23f00ed423c11f1ed95fc6c31a83c
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823879"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805305"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Zertifikatanforderung (Signieranforderung für das Zertifikat erstellt)
  
-Die Seite **Zertifikatanforderungsdatei** wird angezeigt, nachdem Sie eine Offlineanforderung für ein Zertifikat abgeschlossen haben. Klicken Sie auf die Schaltfläche **Ansicht** , um die Zertifikatanforderung anzuzeigen und die Übermittlung an die Offlinezertifizierungsstelle (ca) oder die öffentliche Zertifizierungsstelle vorzubereiten. Die Zertifikatanforderung wird in Windows Notepad (standardmäßig) angezeigt. Sie können die codierte Zertifikatanforderung aus dieser Anzeige kopieren und Einfügen oder die Verarbeitung der Zertifikatanforderung abschließen, indem Sie die Anweisungen der ausgewählten Offlinezertifizierungsstelle oder öffentlichen Zertifizierungsstelle befolgen. Klicken Sie auf **Fertig stellen** , um fortzufahren.
+Die Seite **Zertifikatsanforderungsdatei** wird angezeigt, nachdem Sie eine Offlineanforderung für ein Zertifikat abgeschlossen haben. Klicken Sie auf die Schaltfläche **Anzeigen**, um die Zertifikatsanforderung anzuzeigen und das Senden an Ihre Offlinezertifizierungsstelle oder öffentliche Zertifizierungsstelle vorzubereiten. Die Zertifikatsanforderung wird im Editor von Windows angezeigt. Sie können die verschlüsselte Zertifikatsanforderung aus dieser Ansicht kopieren und einfügen oder die Verarbeitung der Zertifikatsanforderung abschließen, indem Sie die Anweisungen der gewählten Offlinezertifizierungsstelle oder öffentlichen Zertifizierungsstelle befolgen. Klicken Sie auf **Fertig stellen**, um den Vorgang fortzusetzen.
   
 

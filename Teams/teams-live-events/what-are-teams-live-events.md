@@ -1,7 +1,7 @@
 ---
 title: Was sind Liveereignisse in Microsoft Teams?
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -21,12 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cac5021c613903c4b3ed13733ea2b5493acc79a3
-ms.sourcegitcommit: 8a0eebde4c77b28c93f3fa4365f8917352182954
+localization_priority: Normal
+ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49373471"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918991"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -60,6 +61,9 @@ Auf dem obigen Bild können Sie erkennen, dass es fünf Schlüsselkomponenten gi
 Teams bietet Organisatoren die Möglichkeit, ein Ereignis mit den entsprechenden Teilnehmerrechten zu erstellen, Teammitglieder für das Ereignis zu bestimmen, eine Produktionsmethode auszuwählen und Teilnehmer einzuladen. Wenn das Liveereignis aus einer Yammer-Gruppe heraus erstellt wurde, können die Teilnehmer des Liveereignisses das Yammer-Gespräch für die Interaktion mit Personen des Ereignisses nutzen.
 
 ![Der Bildschirm "Neue Liveereignisse"](../media/teams-live-events-schedule.png "Screenshot, der den Bildschirm „Neues Liveereignis“ zum Erstellen und Planen eines neues Liveereignisses zeigt")
+
+> [!IMPORTANT]
+> In Teams können Benutzer keine Besprechungen oder Liveereignisse planen, wenn sie offline oder mit begrenzter Bandbreite ausgeführt werden.
 
 ### <a name="production"></a>Produktion
 

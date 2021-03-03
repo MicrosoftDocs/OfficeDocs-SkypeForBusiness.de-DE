@@ -1,8 +1,8 @@
 ---
-title: Tenants-Tabelle
+title: Tabelle "Tenants"
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
-description: Die Tabelle Mandanten ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Mandanten gespeichert ist. Jeder Datensatz in der Tabelle steht für einen Mandanten.
-ms.openlocfilehash: ecc83a429cb2e95426b289216f69d3a14e1826d8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Bei der Tenants-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und in der eine Liste verschiedener Mandanten gespeichert ist. Jeder Datensatz in der Tabelle steht für einen Mandanten.
+ms.openlocfilehash: f22837f21bd431c83848d3b055a36930c9db2fd5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814853"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49831715"
 ---
-# <a name="tenants-table"></a>Tenants-Tabelle
+# <a name="tenants-table"></a>Tabelle "Tenants"
  
-Die Tabelle Mandanten ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Mandanten gespeichert ist. Jeder Datensatz in der Tabelle steht für einen Mandanten.
+Bei der Tenants-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und in der eine Liste verschiedener Mandanten gespeichert ist. Jeder Datensatz in der Tabelle steht für einen Mandanten.
   
 > [!NOTE]
-> In der lokalen Bereitstellung verwendet CdR die integrierte Mandanten-ID, um einen anderen Authentifizierungstyp anzugeben, beispielsweise öffentliche im-Konnektivität, Federated und Anonymous. 
+> Bei der lokalen Bereitstellung wird die integrierte Mandanten-ID von der Aufzeichnung von Kommunikationsdatensätzen (KDS) zur Angabe verschiedener Authentifizierungstypen verwendet, wie z. B. Verbindung mit öffentlichen Chatdiensten, Partner und Anonym. 
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Mandanten** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die diese Mandanten-ID kennzeichnet.  <br/> |
-|**TenantKey** <br/> |nvarchar(256)  <br/> || Zulässige Werte: <br/>  00000000-0000-0000-0000-000000000000-Enterprise <br/>  00000000-0000-0000-0000-000000000001-Federated <br/>  00000000-0000-0000-0000-000000000002-anonym <br/>  00000000-0000-0000-0000-000000000003 – Konnektivität für öffentliche Chats <br/> |
+|**TenantId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diese Mandanten-ID identifiziert.  <br/> |
+|**TenantKey** <br/> |nvarchar(256)  <br/> || Zulässige Werte: <br/>  00000000-0000-0000-0000-0000000000000 – Enterprise <br/>  00000000-0000-0000-0000-000000000001 - Federated <br/>  00000000-0000-0000-0000-000000000002 – Anonym <br/>  00000000-0000-0000-0000-000000000003 – Verbindung mit öffentlichen Verbindungen <br/> |
    
 

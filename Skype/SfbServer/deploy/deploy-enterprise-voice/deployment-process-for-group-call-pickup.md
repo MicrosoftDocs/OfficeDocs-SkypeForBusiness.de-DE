@@ -1,8 +1,8 @@
 ---
-title: Bereitstellungsprozess für die Gruppenanruf Abholung in Skype for Business
+title: Bereitstellungsprozess für die Gruppenanrufannahme in Skype for Business
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
-description: Bereitstellungsprozess und Schritte für die Gruppenanruf Abholung in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: 6f46303316bceaae28802ec27fcaea67a8ccaa08
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Bereitstellungsprozess und Schritte für die Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: 5c89522828e5e5a0dc04ffccb0907c0a2cb8a008
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41767468"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49812345"
 ---
-# <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Bereitstellungsprozess für die Gruppenanruf Abholung in Skype for Business
+# <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Bereitstellungsprozess für die Gruppenanrufannahme in Skype for Business
  
-Bereitstellungsprozess und Schritte für die Gruppenanruf Abholung in Skype for Business Server Enterprise-VoIP
+Bereitstellungsprozess und Schritte für die Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP.
   
-Mit der Gruppenanruf Abholung können Benutzer eingehende Anrufe an Ihre Kollegen über ihre eigenen Telefone annehmen. 
+Mit der Gruppenanrufannahme können Benutzer eingehende Anrufe an kollegen von ihren eigenen Telefonen aus entgegennahmen. 
   
- Die Komponenten, die von der Gruppenanruf Abholung verwendet werden, werden beim Bereitstellen von Enterprise-VoIP automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert. Sie müssen jedoch die folgenden Schritte ausführen, um die Gruppenanruf Abholung zu konfigurieren, bevor Sie für die Benutzer verfügbar ist.
+ Die von der Gruppenanrufannahme verwendeten Komponenten werden automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert, wenn Sie Enterprise-VoIP. Sie müssen jedoch die folgenden Schritte ausführen, um die Gruppenanrufannahme zu konfigurieren, bevor sie für Benutzer verfügbar ist.
   
 **Bereitstellungsprozess für die Gruppenanrufannahme**
 
 |**Phase**|**Schritte**|**Erforderliche Gruppen und Rollen**|**Bereitstellungsdokumentation**|
 |:-----|:-----|:-----|:-----|
-|Aktivieren des SEFAUtil-Tools in Ihrer Topologie|Verwenden Sie das Cmdlet New-CsTrustedApplicationPool zum Erstellen eines neuen vertrauenswürdigen Anwendungspools. Verwenden Sie das Cmdlet New-CsTrustedApplication, um das SEFAUtil-Tool als vertrauenswürdige Anwendung anzugeben. Führen Sie das Cmdlet Enable-CsTopology aus, um die Topologie zu aktivieren. Wenn Sie noch nicht darüber verfügen, laden Sie die Skype for Business Server-Version des SEFAUtil-Tools von diesem Speicherort herunter, und installieren Sie Sie in dem vertrauenswürdigen Anwendungspool, den Sie in Schritt 1 erstellt haben. Überprüfen Sie, ob SEFAUtil ordnungsgemäß ausgeführt wird. Führen Sie dazu das Tool aus, um die Anrufweiterleitungseinstellungen eines Benutzers in der Bereitstellung anzuzeigen. |RTCUniversalServerAdmins  <br/> |[Bereitstellen des SEFAUtil-Tools in Skype for Business](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](https://docs.microsoft.com/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [Dokumentation zu den Skype for Business Server 2015 Resource Kit-Tools](../../management-tools/resource-kit-tools.md). (Für Skype for Business Server müssen Sie die aktuelle Version des Tools verwenden, doch diese Dokumentation von lync Server 2013 gilt weiterhin.)  <br/> |
-|Konfigurieren von Nummernbereichen für die Anrufannahme in der Orbittabelle für das Parken von Anrufen  <br/> |Verwenden Sie das Cmdlet **New-CSCallParkOrbit**, um Nummernbereiche für die Anrufannahme in der Orbittabelle für das Parken von Anrufen zu erstellen und den Nummernbereiche für die Anrufannahme den Typ **„GroupPickup“** zuzuweisen.  <br/> Um eine nahtlose Integration in vorhandene Wählpläne zu ermöglichen, sind Nummernbereiche in der Regel als Block virtueller Durchwahlnummern konfiguriert. Das Zuweisen von DID (Direct Inward Dialing)-Nummern als Orbitnummern in der Orbittabelle für das Parken von Anrufen wird nicht unterstützt.<br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Erstellen oder Ändern eines Gruppenanruf-Pickup-Nummernbereichs in Skype for Business](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
-|Zuweisen einer Anruf-Abholnummer zu Benutzern und Aktivieren der Gruppenanruf Abholung für die Benutzer  <br/> |Verwenden Sie den/enablegrouppickup-Parameter im SEFAUtil Resource Kit-Tool, um die Gruppenanruf Abholung zu aktivieren und Benutzern eine Anruf-Abholnummer zuzuweisen.  <br/> |-  <br/> |[Aktivieren der Gruppenanruf Abholung für Benutzer und Zuweisen einer Gruppennummer in Skype for Business](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
-|Informieren der Benutzer über die ihnen zugewiesene Nummer für die Anrufannahme und weitere relevante Nummern  <br/> |Nachdem Sie die Gruppenanrufannahme für Benutzer aktiviert haben, können Sie die Benutzer per E-Mail oder anderweitig über die Nummer für die Gruppenanrufannahme informieren. Teilen Sie den Benutzern die Gruppenanrufannahme-Nummer für alle Gruppen mit, die ggf. von ihnen überwacht werden. Da Benutzer auch Anrufe für andere Benutzer entgegennehmen können, wenn sie nicht derselben Gruppe angehören, benötigen sie möglicherweise die Gruppenanrufannahme-Nummer für mehrere Gruppen.  <br/> |-  <br/> ||
-|Überprüfen der Bereitstellung Ihrer Gruppenanruf Abholung  <br/> | Testen Sie Anrufe und das Abrufen von Anrufen, um sicherzustellen, dass Ihre Konfiguration erwartungsgemäß funktioniert. Folgendes muss mindestens überprüft werden: <br/>  Rufen Sie einen für die Gruppenanrufannahme aktivierten Benutzer an, und lassen Sie einen anderen Benutzer den Anruf annehmen. Der andere Benutzer kann sich entweder in derselben oder in einer anderen Gruppe befinden, oder die Gruppenanrufannahme ist für diesen Benutzer nicht aktiviert. <br/>  Rufen Sie einen für die Gruppenanrufannahme aktivierten Benutzer an, und nehmen Sie den Anruf nicht an. <br/> |-  <br/> ||
+|Aktivieren des Tools SEFAUtil in Ihrer Topologie|Verwenden Sie New-CsTrustedApplicationPool cmdlet, um einen neuen vertrauenswürdigen Anwendungspool zu erstellen. Verwenden Sie New-CsTrustedApplication Cmdlet, um das Tool SEFAUtil als vertrauenswürdige Anwendung anzugeben. Führen Sie Enable-CsTopology cmdlet aus, um die Topologie zu aktivieren. Wenn Sie sie noch nicht haben, laden Sie die Skype for Business Server-Version des SEFAUtil-Tools von diesem Speicherort herunter, und installieren Sie sie in dem vertrauenswürdigen Anwendungspool, den Sie in Schritt 1 erstellt haben. Stellen Sie sicher, dass SEFAUtil ordnungsgemäß ausgeführt wird, indem Sie es ausführen, um die Anruf weiterleitungseinstellungen eines Benutzers in der Bereitstellung anzeigen. |RTCUniversalServerAdmins  <br/> |[Bereitstellen des Tools SEFAUtil in Skype for Business](deploy-the-sefautil-tool.md) <br/> [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps) </br>[New-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplication?view=skype-ps)</br>[Enable-CsTopology](https://docs.microsoft.com/powershell/module/skype/enable-cstopology?view=skype-ps) <br/> [Dokumentation zu Skype for Business Server 2015 Resource Kit Tools](../../management-tools/resource-kit-tools.md). (Für Skype for Business Server müssen Sie die aktuelle Version des Tools verwenden, aber diese Dokumentation aus Lync Server 2013 gilt weiterhin.)  <br/> |
+|Konfigurieren von Nummernbereichen für die Anrufannahme in der Orbittabelle für das Parken von Anrufen  <br/> |Verwenden Sie **das Cmdlet New-CSCallParkOrbit,** um Nummernbereiche für die Anrufannahme in der Orbittabelle für das Parken von Anrufen zu erstellen und den Anrufannahmebereichen den Typ **"GroupPickup" zuzuordnen.**  <br/> Für eine nahtlose Integration in vorhandene Wählpläne werden Nummernbereiche in der Regel als Block virtueller Durchwahlen konfiguriert. Das Zuweisen von Direct Inward Dialing (DID)-Nummern als Bereichsnummern in der Orbittabelle zum Parken von Anrufen wird nicht unterstützt.  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business](create-or-modify-a-group-call-pickup-number-range.md) <br/> |
+|Zuweisen einer Anrufannahmenummer zu Benutzern und Aktivieren der Gruppenanrufannahme für die Benutzer  <br/> |Verwenden Sie den Parameter /enablegrouppickup im SEFAUtil Resource Kit-Tool, um die Gruppenanrufannahme zu aktivieren und benutzern eine Anrufannahmenummer zuzuordnen.  <br/> |-  <br/> |[Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer in Skype for Business](enable-group-call-pickup-for-users-and-assign-a-group-number.md) <br/> |
+|Benachrichtigen der Benutzer über ihre zugewiesene Anrufannahmenummer und eine beliebige andere Anzahl von Interesse  <br/> |Nachdem Sie die Gruppenanrufannahme für Benutzer aktiviert haben, verwenden Sie E-Mail oder einen anderen Mechanismus, um Benutzer über ihre Nummer der Anrufannahmegruppe zu informieren. Benachrichtigen Sie die Benutzer über die Nummer der Anrufannahmegruppe für jede Gruppe, die sie möglicherweise überwachen möchten. Da Benutzer Anrufe für andere Benutzer auch dann abrufen können, wenn sie sich nicht in derselben Gruppe befinden, benötigen Benutzer möglicherweise die Nummer der Anrufannahmegruppe für mehrere Gruppen.  <br/> |-  <br/> ||
+|Überprüfen der Bereitstellung der Gruppenanrufannahme  <br/> | Testen Sie das Platzieren und Abrufen von Anrufen, um sicherzustellen, dass Ihre Konfiguration wie erwartet funktioniert. Überprüfen Sie mindestens Folgendes: <br/>  Rufen Sie einen Benutzer an, der für die Gruppenanrufannahme aktiviert ist, und fordern Sie einen anderen Benutzer auf, den Anruf abzurufen. Der andere Benutzer kann in derselben Gruppe, in einer anderen Gruppe oder nicht aktiviert sein. <br/>  Rufen Sie einen Benutzer an, der für die Gruppenanrufannahme aktiviert ist, und nehmen Sie den Anruf nicht an. <br/> |-  <br/> ||
    
 

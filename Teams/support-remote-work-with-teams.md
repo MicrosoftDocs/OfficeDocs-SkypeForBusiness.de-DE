@@ -31,7 +31,7 @@ Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie den Artikel [Rem
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 
-- Stellen Sie sicher, dass alle Benutzer auf Teams zugreifen können, nutzen Sie dazu ein [kostenpflichtiges Abonnement, das Teams beinhaltet](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Alternativ können berechtigte Unternehmen die **[kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
+- Stellen Sie sicher, dass alle Benutzer auf Teams zugreifen können, nutzen Sie dazu ein [kostenpflichtiges Abonnement, das Teams beinhaltet](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
 
 -  Wenn Sie bereits über ein Abonnement verfügen, das Teams umfasst, **[aktivieren Sie es für jeden](user-access.md)**.
     
@@ -67,7 +67,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
 1. Lesen Sie [Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter](FAQ-support-remote-workforce.md), die wir regelmäßig aktualisieren.
 
-2. [Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams](use-advisor-teams-roll-out.md). Der Ratgeber für Teams (im Microsoft Teams Admin Center) führt Sie durch die Bereitstellung von Teams.
+2. [Verwenden Sie den Advisor für Teams als Hilfe beim Rollout von Microsoft Teams](use-advisor-teams-roll-out.md). Der Advisor für Teams (im Microsoft Teams Admin Center) führt Sie durch die Bereitstellung von Teams.
 
 1. Lesen Sie die neuesten Blogbeiträge:
    

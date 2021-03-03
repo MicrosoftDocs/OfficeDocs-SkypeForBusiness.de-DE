@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Organisationsinformationen)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Im Bereich Organisationsinformationen können Sie den Namen Ihrer Organisation und eine Organisationseinheit (in der Regel die Abteilung oder Abteilung) angeben, die das Zertifikat anfordert. Die Informationen, die Sie in den Textfeldern Organisation und Organisationseinheit eingeben, werden auf dem Zertifikat angezeigt und verwendet, um zu ermitteln, wer das Zertifikat angefordert hat, wenn das Zertifikat von anderen Personen angezeigt wird.
-ms.openlocfilehash: 07b2854b537051ac6aaac8cdb1e43a4090788592
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Im Bereich Organisationsinformationen können Sie den Namen Ihrer Organisation und eine Organisationseinheit (in der Regel den Geschäftsbereich oder die Abteilung) angeben, die das Zertifikat anfordert. Die Informationen, die Sie in die Textfelder Organisation und Organisationseinheit eingeben, werden auf dem Zertifikat angezeigt und dienen zum Bestimmen des Zertifikatanforderers, wenn das Zertifikat von Dritten angezeigt wird.
+ms.openlocfilehash: 6d57fce9ed94c915d4b8da1cc0791f72ccab4089
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796676"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49836805"
 ---
 # <a name="certificate-request-organization-information"></a>Zertifikatanforderung (Organisationsinformationen)
  
-Im Bereich **Organisationsinformationen** können Sie den Namen Ihrer Organisation und eine Organisationseinheit (in der Regel die Abteilung oder Abteilung) angeben, die das Zertifikat anfordert. Die Informationen, die Sie in den Textfeldern **Organisation** und **Organisationseinheit** eingeben, werden auf dem Zertifikat angezeigt und verwendet, um zu ermitteln, wer das Zertifikat angefordert hat, wenn das Zertifikat von anderen Personen angezeigt wird.
+Im Bereich **Organisationsinformationen** können Sie den Namen Ihrer Organisation und eine Organisationseinheit (in der Regel den Geschäftsbereich oder die Abteilung) angeben, die das Zertifikat anfordert. Die Informationen, die Sie in die Textfelder **Organisation** und **Organisationseinheit** eingeben, werden auf dem Zertifikat angezeigt und dienen zum Bestimmen des Zertifikatanforderers, wenn das Zertifikat von Dritten angezeigt wird.
   
 > [!NOTE]
-> Der Name der Organisationseinheit in einem Zertifikat ist nicht unbedingt mit einer OU in den Active Directory-Domänendiensten identisch. Je nachdem, wie Sie Active Directory konfiguriert haben, ist der verwendete Name möglicherweise identisch. 
+> Der Name der Organisationseinheit in einem Zertifikat ist nicht unbedingt mit einer Organisationseinheit in Active Directory Domain Services identisch. Je nachdem, wie Sie Active Directory konfiguriert haben, ist der von Ihnen verwendete Name möglicherweise identisch oder nicht identisch. 
   
 

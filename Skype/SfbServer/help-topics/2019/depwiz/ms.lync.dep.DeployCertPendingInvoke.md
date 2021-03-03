@@ -1,8 +1,8 @@
 ---
 title: Ausstehendes Zertifikat (Aufruf)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite "Befehle ausführen" wird der Status der Befehle angezeigt, die das ausstehende Zertifikat abrufen. Nach Abschluss der Aufgabe steht die Protokolldatei "ausstehende Zertifikate abrufen" zur Verfügung. Klicken Sie auf Protokoll anzeigen, um den Status für Verarbeitung und Aufgaben Abschluss zu überprüfen. Klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: ee34520c8b9107fc2b2c9f423f69066ca8c1fcba
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Auf der Seite Befehle ausführen wird eine Zusammenfassung der Befehle angezeigt, die zum Abrufen des ausstehenden Zertifikats ausgeführt wurden. Nach Abschluss der Aufgabe steht die Protokolldatei für Ausstehende Zertifikate abrufen zur Verfügung. Klicken Sie auf Protokoll anzeigen, um den Verarbeitungs- und Aufgabenstatus anzuzeigen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
+ms.openlocfilehash: b1f22d0dcd6d5c3a594a83a289a2261df8f211b8
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796816"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49830425"
 ---
 # <a name="pending-certificate-invoke"></a>Ausstehendes Zertifikat (Aufruf)
  
-Auf der Seite " **Befehle ausführen** " wird der Status der Befehle angezeigt, die das ausstehende Zertifikat abrufen. Nach Abschluss der Aufgabe steht die Protokolldatei " **ausstehende Zertifikate abrufen** " zur Verfügung. Klicken Sie auf **Protokoll anzeigen** , um den Status für Verarbeitung und Aufgaben Abschluss zu überprüfen. Klicken Sie auf **Weiter**, um fortzufahren.
+Auf der Seite **Befehle ausführen** wird eine Zusammenfassung der Befehle angezeigt, die zum Abrufen des ausstehenden Zertifikats ausgeführt wurden. Nach Abschluss der Aufgabe steht die Protokolldatei für **Ausstehende Zertifikate abrufen** zur Verfügung. Klicken Sie auf **Protokoll anzeigen**, um den Verarbeitungs- und Aufgabenstatus anzuzeigen. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
   
 > [!IMPORTANT]
-> Wenn das Zertifikat noch nicht vom Administrator der Zertifizierungsstelle genehmigt wurde, gibt die Protokolldatei "ausstehende Anforderung abrufen" an, dass ausstehende Anforderungen vorliegen. Wenn der Administrator der Zertifizierungsstelle die Anforderung abgelehnt hat, zeigt die Protokolldatei einen Fehler an und meldet den Fehler, der angibt, dass die Anforderung abgelehnt wurde, und den Benutzernamen der Person, die die Anforderung verweigert hat. 
+> Wenn das Zertifikat noch nicht vom Zertifizierungsstellenadministrator genehmigt wurde, enthält die Protokolldatei für "Ausstehende Zertifikate anfordern" den Hinweis, dass es ausstehende Anforderungen gibt. Sollte der Zertifizierungsstellenadministrator die Anforderung abgelehnt haben, enthält die Protokolldatei die Meldung, dass die Anforderung abgelehnt wurde, sowie den Benutzernamen der dafür verantwortlichen Person. 
   
 

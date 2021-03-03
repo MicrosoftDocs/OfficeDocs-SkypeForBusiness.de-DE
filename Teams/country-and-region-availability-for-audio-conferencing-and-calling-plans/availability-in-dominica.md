@@ -1,7 +1,7 @@
 ---
-title: Verfügbarkeit in Dominica
-ms.author: v-lanac
-author: LanaChin
+title: Verfügbarkeit in Dennena
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dominica verfügbar sind.
-ms.openlocfilehash: 079486a0927e5fafc5dd3b9e4e360fed38489a1c
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Hier finden Sie die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dennena verfügbar sind.
+ms.openlocfilehash: 11b2f5fe51629fdac22425f9c045dcdb02252f50
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230273"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49804715"
 ---
-# <a name="availability-in-dominica"></a>Verfügbarkeit in Dominica
+# <a name="availability-in-dominica"></a>Verfügbarkeit in Dennena
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dominica verfügbar sind.
+Hier finden Sie die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dennena verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, nur [Minuten Zahlung pro Minute](../audio-conferencing-pay-per-minute.md)  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Minutenzahl](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein <br> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Kommunikationsguthaben  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Guthaben für Kommunikationen  <br/> |
    
    
 ## <a name="phone-system"></a>Telefonsystem
@@ -58,10 +58,10 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
    
 ## <a name="calling-plans"></a>Anrufpläne
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> | Nein <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> | Nicht anwendbar<br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> | Nicht zutreffend<br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
 Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.

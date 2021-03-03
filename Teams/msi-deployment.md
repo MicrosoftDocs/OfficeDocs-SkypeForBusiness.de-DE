@@ -1,11 +1,11 @@
 ---
 title: Installieren von Teams mit Microsoft Endpoint Configuration Manager
-author: lanachin
-ms.author: v-lanac
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi, jhreddy
+ms.reviewer: amitsri
 audience: admin
 description: Verwenden Sie Microsoft Endpoint Configuration Manager zum Massenbereitstellen von Microsoft Teams, um Benutzer oder Computer auszuwählen.
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b55a8cd734d4f63db4e3d6e1379c0ed235c038
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: de0e15a76c1a30206beb80488e8ce6448d0a5900
+ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030411"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "50125677"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 

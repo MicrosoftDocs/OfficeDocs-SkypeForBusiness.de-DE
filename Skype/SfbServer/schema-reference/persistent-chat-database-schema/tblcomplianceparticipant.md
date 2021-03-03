@@ -1,8 +1,8 @@
 ---
 title: tblComplianceParticipant
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,33 +13,33 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant enthält die aktuellen Teilnehmer pro Kanal und pro Server.
-ms.openlocfilehash: 8f4b90cd7e8949451c2b6c1b9bc3cfabbab826e9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: c6aae3c1e7b13456708034512c6b68d67d6d1f92
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814643"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809745"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
 tblComplianceParticipant enthält die aktuellen Teilnehmer pro Kanal und pro Server.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|channelUri  <br/> |nvarchar (255); nicht NULL  <br/> |Kanal Uniform Resource Identifier (URI).  <br/> |
-|UserID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID des Teilnehmers (entsprechend der Tabelle tblPrincipal. prinID).  <br/> |
-|joinedAt  <br/> |bigint, nicht NULL  <br/> |Zeitstempel des Joining-Ereignisses  <br/> |
-|partedAt  <br/> |bigint  <br/> |NULL, wenn der Teilnehmer noch verbunden ist. Der Zeitstempel des Kanals, der das Ereignis verlässt, wenn nicht NULL.  <br/> Diese Einträge werden schließlich entfernt, wenn alle Übersetzer das Ereignis verarbeiten.  <br/> |
-|userUri  <br/> |nvarchar (255); nicht NULL  <br/> |Benutzer-URI.  <br/> |
-|ServerID  <br/> |int  <br/> |Serveridentität (wie in der Tabelle tblServerIdentity. Server-ID).  <br/> |
-|SessionID  <br/> |bigint  <br/> |Server Sitzung. Hierbei handelt es sich um eine Zufallszahl, die bei jedem Start eines Chat-Diensts generiert wird. Sie wird zur Unterscheidung von Sitzungen zum Zweck der Identifizierung verwaister Teilnehmer verwendet.  <br/> |
+|channelUri  <br/> |nvarchar (255), nicht NULL  <br/> |Kanal-URI (Uniform Resource Identifier).  <br/> |
+|userId  <br/> |int, nicht NULL  <br/> |Prinzipal-ID des Teilnehmers (entsprechend der tblPrincipal.prinID-Tabelle).  <br/> |
+|joinedAt  <br/> |bigint, nicht NULL  <br/> |Zeitstempel des Ereignisses des Beitritts.  <br/> |
+|partedAt  <br/> |bigint  <br/> |NULL, wenn der Teilnehmer noch immer teilnimmt. Der Zeitstempel des Ereignisses des Verlassens des Kanals, sofern nicht NULL.  <br/> Diese Einträge werden schließlich entfernt, wenn das Ereignis von allen Konvertern verarbeitet wird.  <br/> |
+|userUri  <br/> |nvarchar(255), nicht NULL  <br/> |Benutzer-URI  <br/> |
+|serverID  <br/> |int  <br/> |Serveridentität (wie in tblServerIdentity.serverID).  <br/> |
+|sessionId  <br/> |bigint  <br/> |Serversitzung. Zufallszahl, die nach jedem Starten eines Chatdiensts generiert wird. Wird zur Unterscheidung von Sitzungen verwendet, mit dem Zweck, verwaiste Teilnehmer zu identifizieren.  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|\<channelUri, UserID, joinedAt\>  <br/> |Primärschlüssel  <br/> |
+|\<channelUri, userId, joinedAt\>  <br/> |Primärschlüssel  <br/> |
    
 

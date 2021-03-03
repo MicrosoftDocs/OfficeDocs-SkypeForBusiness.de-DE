@@ -1,8 +1,8 @@
 ---
 title: Zertifikatanforderung (Zertifizierungsstellenkonto)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
-description: Um eine Anfrage einreichen zu können, benötigen Ihre Zertifizierungsstelle (Certification Authority, ca) möglicherweise andere Anmeldeinformationen als diejenigen für den Benutzer, mit dem Sie zurzeit angemeldet sind. Wenn Sie eine Zertifikatanforderung als einen anderen Benutzer zulassen möchten, aktivieren Sie das Kontrollkästchen Alternative Anmeldeinformationen für die Zertifizierungsstelle angeben, und geben Sie dann den Benutzernamen oder Domäne \ Benutzername für einen Benutzer ein, der das Zertifikat anfordern kann. Geben Sie im Textfeld Kennwort das Kennwort für den von Ihnen angegebenen Benutzer ein. Der Benutzername und das Kennwort werden dann als Teil des Zertifikats Anforderungsprozesses, aber nicht in der eigentlichen Zertifikatanforderung an eine Onlinezertifizierungsstelle gesendet.
-ms.openlocfilehash: 53176cf825b7a4be02a3f4709aefe2aa83515984
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Um eine Anforderung zu übermitteln, benötigt Ihre Zertifizierungsstelle möglicherweise andere Anmeldeinformationen als die für den Benutzer, unter dem Sie derzeit angemeldet sind. Wenn Sie eine Zertifikatanforderung als anderer Benutzer zulassen möchten, aktivieren Sie das Kontrollkästchen "Alternative Anmeldeinformationen für die Zertifizierungsstelle angeben", und geben Sie dann den Benutzernamen oder die Domäne\Benutzername für einen Benutzer ein, der das Zertifikat anfordern kann. Geben Sie in das Textfeld "Kennwort" das Kennwort für den angegebenen Benutzer ein. Der Benutzername und das Kennwort werden dann im Rahmen des Zertifikatanforderungsprozesses, jedoch nicht in der tatsächlichen Zertifikatanforderung, an eine Online-Zertifizierungsstelle gesendet.
+ms.openlocfilehash: 9c72537090e2319729596e97e859750e32421686
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823899"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805335"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Zertifikatanforderung (Zertifizierungsstellenkonto)
  
-Um eine Anfrage einreichen zu können, benötigen Ihre Zertifizierungsstelle (Certification Authority, ca) möglicherweise andere Anmeldeinformationen als diejenigen für den Benutzer, mit dem Sie zurzeit angemeldet sind. Wenn Sie eine Zertifikatanforderung als einen anderen Benutzer zulassen möchten, aktivieren Sie das Kontrollkästchen **Alternative Anmeldeinformationen für die Zertifizierungsstelle angeben**, und geben Sie dann den Benutzernamen oder den _Domänen_\ _Namen_ für einen Benutzer ein, der das Zertifikat anfordern kann. Geben Sie im Textfeld **Kennwort** das Kennwort für den von Ihnen angegebenen Benutzer ein. Der Benutzername und das Kennwort werden dann als Teil des Zertifikats Anforderungsprozesses, aber nicht in der eigentlichen Zertifikatanforderung an eine Onlinezertifizierungsstelle gesendet.
+Um eine Anforderung zu übermitteln, benötigt Ihre Zertifizierungsstelle möglicherweise andere Anmeldeinformationen als die für den Benutzer, unter dem Sie derzeit angemeldet sind. Wenn Sie eine **Zertifikatanforderung** als anderer Benutzer zulassen möchten, aktivieren Sie das Kontrollkästchen "Alternative Anmeldeinformationen für die Zertifizierungsstelle angeben", und geben Sie dann den Benutzernamen oder Domänennamen für einen Benutzer ein, der das Zertifikat anfordern \   kann. Geben Sie **in das** Textfeld "Kennwort" das Kennwort für den angegebenen Benutzer ein. Der Benutzername und das Kennwort werden dann im Rahmen des Zertifikatanforderungsprozesses, jedoch nicht in der tatsächlichen Zertifikatanforderung, an eine Online-Zertifizierungsstelle gesendet.
   
 

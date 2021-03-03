@@ -1,8 +1,8 @@
 ---
-title: Zertifikatsanforderung (mit Angabe der Vorlage)
+title: Zertifikatanforderung (mit Angabe der Vorlage)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite Alternative Zertifikatvorlage angeben können Sie eine Zertifikatvorlage bestimmen, die sich von der standardmäßig verwendeten Webserver-Zertifikatvorlage unterscheidet. Aktivieren Sie das Kontrollkästchen Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden und geben Sie in das Textfeld Zertifikatvorlagenname den Namen der alternativen Zertifikatvorlage ein. Sie müssen den Namen der Vorlage entsprechend der Definition der Zertifizierungsstelle verwenden. Klicken Sie auf Zurück, um zur vorherigen Seite zurückzukehren. Klicken Sie auf Abbrechen, um den Zertifikatsanforderungsprozess zu beenden.
-ms.openlocfilehash: a2ada69d4c71b44ea195ad65a991c6104bdb3443
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Auf der Seite "Alternative Zertifikatvorlage angeben" können Sie eine andere Zertifikatvorlage als die standardmäßig verwendete WebServerzertifikatvorlage definieren. Aktivieren Sie das Kontrollkästchen Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden, und definieren Sie dann den Namen der alternativen Zertifikatvorlage im Namen der Zertifikatvorlage im Textfeld. Sie müssen den Namen der Vorlage wie in der Zertifizierungsstelle definiert verwenden. Klicken Sie auf Zurück, um zur vorherigen Seite zurückzukehren. Klicken Sie auf Abbrechen, um den Zertifikatsanforderungsprozess zu beenden.
+ms.openlocfilehash: e030882f44d4010049b12b69cc10d180225bf523
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41794404"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49801735"
 ---
-# <a name="certificate-request-specify-termplate"></a>Zertifikatsanforderung (mit Angabe der Vorlage)
+# <a name="certificate-request-specify-termplate"></a>Zertifikatanforderung (mit Angabe der Vorlage)
  
-Auf der Seite **Alternative Zertifikatvorlage angeben** können Sie eine Zertifikatvorlage bestimmen, die sich von der standardmäßig verwendeten Webserver-Zertifikatvorlage unterscheidet. Aktivieren Sie das Kontrollkästchen **Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden** und geben Sie in das Textfeld **Zertifikatvorlagenname** den Namen der alternativen Zertifikatvorlage ein. Sie müssen den Namen der Vorlage entsprechend der Definition der Zertifizierungsstelle verwenden. Klicken Sie auf **Zurück**, um zur vorherigen Seite zurückzukehren. Klicken Sie auf **Abbrechen**, um den Zertifikatsanforderungsprozess zu beenden.
+Auf **der Seite "Alternative Zertifikatvorlage angeben"** können Sie eine andere Zertifikatvorlage als die standardmäßig verwendete WebServerzertifikatvorlage definieren. Aktivieren Sie das **Kontrollkästchen** Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden, und definieren Sie dann den Namen der alternativen Zertifikatvorlage im Namen der Zertifikatvorlage im **Textfeld.** Sie müssen den Namen der Vorlage wie in der Zertifizierungsstelle definiert verwenden. Klicken Sie auf **Zurück**, um zur vorherigen Seite zurückzukehren. Klicken Sie auf **Abbrechen**, um den Zertifikatsanforderungsprozess zu beenden.
   
 > [!CAUTION]
-> Greifen Sie auf diese Option nur zurück, wenn Ihre öffentliche Zertifizierungsstelle Sie auffordert, eine bestimmte Vorlage zu verwenden, die im System für die Ausstellung von Zertifikaten dieser Zertifizierungsstelle definiert ist. Wenn das Zertifikat von Ihrer internen Zertifizierungsstelle ausgestellt wird, muss der Zertifizierungsstellenadministrator Sie informieren, welcher Name für die alternative Zertifikatvorlage verwendet werden soll. Diese Option ist überaus nützlich, wenn Ihre Organisation eine neue Webservervorlage definiert und die standardmäßige Webservervorlage deaktiviert hat. 
+> Sie sollten diese Option nur verwenden, wenn Sie von Ihrer öffentlichen Zertifizierungsstelle darauf hingewiesen werden, dass Sie eine bestimmte Vorlage verwenden sollten, die in ihrem System für die Ausstellung von Zertifikaten definiert ist. Wenn das Zertifikat von Ihrer internen Zertifizierungsstelle ausgestellt wird, muss der Zertifizierungsstellenadministrator Sie informieren, welcher Name für die alternative Zertifikatvorlage verwendet werden soll. Diese Option ist überaus nützlich, wenn Ihre Organisation eine neue Webservervorlage definiert und die standardmäßige Webservervorlage deaktiviert hat. 
   
 

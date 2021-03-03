@@ -1,8 +1,8 @@
 ---
 title: Tabelle "Dialogfelder" in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
-description: Die Tabelle Dialogfelder ist eine unterstützende Tabelle, in der die Informationen zu DialogIDs für Peer-to-Peer-Sitzungen gespeichert werden.
-ms.openlocfilehash: f6cfc3e078ee8f4492d6f5baf65f66df77d7aedf
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die Tabelle "Dialogs" ist eine Tabelle, die die Informationen zu DialogIDs für Peer-zu-Peer-Sitzungen speichert.
+ms.openlocfilehash: a4f0bb8c63e165985ef09af8f9aafa071529bf1f
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815273"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49816045"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>Tabelle "Dialogfelder" in Skype for Business Server 2015
  
-Die Tabelle Dialogfelder ist eine unterstützende Tabelle, in der die Informationen zu DialogIDs für Peer-to-Peer-Sitzungen gespeichert werden.
+Die Tabelle "Dialogs" ist eine Tabelle, die die Informationen zu DialogIDs für Peer-zu-Peer-Sitzungen speichert.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**SessionID** <br/> |datetime  <br/> |Primary  <br/> |Uhrzeit der Sitzungsanforderung; wird in Verbindung mit SessionIDSeq verwendet, um eine Sitzung eindeutig zu identifizieren.  <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit SessionID-Mal verwendet, um eine Sitzung eindeutig zu identifizieren.  <br/> |
-|**ExternalChecksum** <br/> |int  <br/> | <br/> |Prüfsumme der externen-Nr. Dieses Feld wird verwendet, um die Geschwindigkeit von Datenbanksuchen zu erhöhen.  <br/> |
-|**ExternalId** <br/> |varbinary (775)  <br/> | <br/> |SIP-Dialogfeld-ID, als Binärdatei gespeichert. Das Format der Binärdatei lautet wie folgt:  <br/> Dialogfeld; from-Tag; to-Tag  <br/> Diese Daten können mithilfe der folgenden Syntax in das Text Format konvertiert werden:  <br/>  `cast(cast(ExternalId as varbinary(max)) as varchar(max))` <br/> |
+|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Zeitpunkt der Sitzungsanforderung; wird in Verbindung mit SessionIDSeq verwendet, um eine Sitzung eindeutig zu identifizieren.  <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |ID zur Identifikation der Sitzung. Wird in Verbindung mit SessionIDTime verwendet, um eine Sitzung eindeutig zu identifizieren.  <br/> |
+|**ExternalChecksum** <br/> |int  <br/> | <br/> |Prüfsumme der ExternalID. Dieses Feld wird verwendet, um die Geschwindigkeit von Datenbanksuchen zu erhöhen.  <br/> |
+|**ExternalId** <br/> |varbinary(775)  <br/> | <br/> |SIP-Dialog-ID, als Binärdatei gespeichert. Das Format der Binärdatei ist:  <br/> dialog;from-tag;to-tag  <br/> Diese Daten können mit der folgenden Syntax in das Textformat konvertiert werden:  <br/>  `cast(cast(ExternalId as varbinary(max)) as varchar(max))` <br/> |
    
 

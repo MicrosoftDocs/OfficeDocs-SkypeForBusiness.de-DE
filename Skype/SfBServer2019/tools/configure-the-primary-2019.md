@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren des primären Verwaltungsservers
 ms.reviewer: ''
-ms.author: v-lanac
-author: LanaChin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Zusammenfassung: Konfigurieren des primären Verwaltungsservers, Installieren von System Center Operations Manager und Importieren von Management Packs für Skype for Business Server 2019.'
-ms.openlocfilehash: 2ad04419ec60e7c752d22c4cdc5c4e82fdb853f2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2019.'
+ms.openlocfilehash: 872459f99f2e620d3d34db1196a8618476650c98
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150552"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49806065"
 ---
 # <a name="configure-the-primary-management-server"></a>Konfigurieren des primären Verwaltungsservers
 
-**Zusammenfassung:** Konfigurieren des primären Verwaltungsservers, Installieren von System Center Operations Manager und Importieren von Management Packs für Skype for Business Server 2019.
+**Zusammenfassung:** Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2019.
 
-Um die neuen Integritäts Überwachungsfunktionen in Skype for Business Server 2019 vollständig nutzen zu können, müssen Sie zunächst einen Computer festlegen, der als primärer Verwaltungs Server fungieren soll. Anschließend müssen Sie System Center Operations Manager 2012 SP1 oder R2 oder System Center Operations Manager 2007 R2 auf diesem Computer installieren. Darüber hinaus müssen Sie zuerst eine unterstützte Version von SQL Server installieren, die als Operations Manager-Back-End-Datenbank fungiert.
+Um die neuen Funktionen zur Zustandsüberwachung in Skype for Business Server 2019 voll zu nutzen, müssen Sie zunächst einen Computer als primären Verwaltungsserver festlegen. Anschließend müssen Sie System Center Operations Manager 2012 SP1 oder R2 oder System Center Operations Manager 2007 R2 auf diesem Computer installieren. Darüber hinaus müssen Sie zunächst eine unterstützte Version von SQL Server als Operations Manager-Back-End-Datenbank verwenden.
 
-Bei der Installation von System Center Operations Manager müssen Sie alle Komponenten des Produkts installieren, einschließlich:
+Wenn Sie System Center Operations Manager installieren, müssen Sie alle Komponenten dieses Produkts installieren, einschließlich:
 
 - Betriebsdatenbank
 
@@ -38,76 +38,76 @@ Bei der Installation von System Center Operations Manager müssen Sie alle Kompo
 
 - Webkonsole
 
-- Reporting
+- Berichterstellung
 
 - Data Warehouse
 
 > [!IMPORTANT]
-> Das "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/download/details.aspx?id=6442)" muss installiert werden, bevor Sie System Center Operations Manager 2012 installieren.
+> Das["Microsoft Report Viewer 2010 Redistributable Package"](https://www.microsoft.com/download/details.aspx?id=6442)muss installiert werden, bevor Sie System Center Operations Manager 2012 installieren.
 
-Ausführliche Informationen zu diesen Produkten und deren Installation finden Sie unter den folgenden Links:
+Details zu diesen Produkten und deren Installation finden Sie unter den folgenden Links:
 
 - [System Center Operations Manager 2012](https://go.microsoft.com/fwlink/p/?linkid=257527)
 
-- [System Center-Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
+- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
-Beachten Sie, dass pro Skype for Business Server-Bereitstellung nur ein Stamm Verwaltungs Server vorhanden sein kann.
+Beachten Sie, dass pro Skype for Business Server-Bereitstellung nur ein Stammverwaltungsserver vorhanden sein kann.
 
-## <a name="importing-the-skype-for-business-server-2019-management-packs"></a>Importieren der Skype for Business Server 2019-Management Packs
+## <a name="importing-the-skype-for-business-server-2019-management-packs"></a>Importieren der Skype for Business Server 2019 Management Packs
 
-Sie können die Funktionen von System Center Operations Manager erweitern, indem Sie Management Packs installieren – Software, die bestimmt, welche Elemente System Center Operations Manager überwachen kann, wie diese Elemente überwacht werden sollen und wie Warnungen ausgelöst werden sollen und gemeldet. Skype for Business Server 2019 umfasst zwei System Center Operations Manager-Management Packs, die die folgenden Funktionen bieten:
+Sie können die Funktionen von System Center Operations Manager erweitern, indem Sie Management Packs installieren – Software, die bestimmt, welche Elemente System Center Operations Manager überwachen kann, wie diese Elemente überwacht werden sollen und wie Warnungen ausgelöst und gemeldet werden sollen. Skype for Business Server 2019 umfasst zwei System Center Operations Manager-Management Packs, die die folgenden Funktionen bereitstellen:
 
-- **Das Component and User Management Pack** (Microsoft.ls.2019.Monitoring.ComponentAndUser.MP) verfolgt Skype for Business Server Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den CDRs (Call Detail Records) oder in den QoE-Datenbanken (Quality of Experience) protokolliert wurden. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort über e-Mail, Sofortnachrichten oder SMS benachrichtigt werden. (SMS oder kurzer Nachrichtendienst ist die Technologie, mit der Textnachrichten von einem Mobilgerät an ein anderes gesendet werden.)
+- Das **Component and User Management Pack** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) verfolgt Skype for Business Server-Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den Anrufdetaildatensätzen (CdRs) oder den QoE (Quality of Experience)-Datenbanken protokolliert wurden. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per E-Mail, Sofortnachricht oder SMS benachrichtigt werden. (SMS oder Kurznachrichtendienst ist die Technologie, die zum Senden von Textnachrichten von einem mobilen Gerät an ein anderes verwendet wird.)
 
     > [!NOTE]
-    >  Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter [Konfigurieren von Benachrichtigungen](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Weitere Informationen zum Konfigurieren der Operations Manager-Benachrichtigung finden Sie unter [Configuring Notification](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **Das Active Monitoring Management Pack** (Microsoft.ls.2019.Monitoring.ActiveMonitoring.MP) testet die Schlüssel Skype for Business Server Komponenten proaktiv, beispielsweise das Anmelden beim System, das Austauschen von Chatnachrichten oder das tätigen von Anrufen an ein Telefon im öffentlichen Telefonnetz (PSTN). Diese Tests werden mithilfe der Cmdlets für synthetische Transaktionen Skype for Business Server ausgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
+- Das **Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) testet proaktiv wichtige Skype for Business Server-Komponenten, z. B. die Anmeldung beim System, das Austauschen von Chatnachrichten oder das Anrufen eines Telefons im Telefonnetz (Public Switched Telephone Network, PSTN). Diese Tests werden mithilfe der Cmdlets für synthetische Transaktionen von Skype for Business Server durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
 
-Das Importieren der Management Packs ist ein wichtiger Schritt. Wenn die Management Packs nicht importiert werden, können Sie Operations Manager nicht verwenden, um Skype for Business Server Ereignisse zu überwachen oder Skype for Business Server synthetische Transaktionen auszuführen.
+Das Importieren der Management Packs ist ein wichtiger Schritt. Wenn die Management Packs nicht importiert werden, können Sie Operations Manager nicht zum Überwachen von Skype for Business Server-Ereignissen oder zum Ausführen synthetischer Skype for Business Server-Transaktionen verwenden.
 
-Das Component-und User Management Pack wird nur zum Überwachen von Skype for Business Server 2019 verwendet. Wenn Sie sich in einem Szenario mit Koexistenz befinden, in dem sowohl Skype for Business Server 2019 als auch Skype for Business Server 2015 installiert sind, sollten Sie weiterhin die Skype for Business Server 2015 Management Packs für Ihre Skype for Business Server 2015 Computer verwenden.
+Das Component and User Management Pack wird nur zur Überwachung von Skype for Business Server 2019 verwendet. Wenn Sie sich in einem Koexistenzszenario befinden, in dem sowohl Skype for Business Server 2019 als auch Skype for Business Server 2015 installiert sind, sollten Sie weiterhin die Skype for Business Server 2015 Management Packs für Ihre Skype for Business Server 2015-Computer verwenden.
 
 > [!NOTE]
-> Zu den Management Packs für Skype for Business Server 2019 gehören die Skype for Business Server 2019-Komponente und das User Management Pack sowie das Management Pack für die Skype for Business Server 2019 Active Monitoring.
+> Management Packs für Skype for Business Server 2019 umfassen das Skype for Business Server 2019 Component and User Management Pack und das Skype for Business Server 2019 Active Monitoring Management Pack.
 
 Zum Importieren der Management Packs können folgende Tools verwendet werden:
 
-- **System Center Operations Manager** Mit dieser Methode verwenden Sie den Operations Manager, um die Überwachung für Skype for Business Server hinzuzufügen.
+- **System Center Operations Manager** Bei dieser Methode verwenden Sie Operations Manager, um die Überwachung für Skype for Business Server hinzuzufügen.
 
-- **Operations Manager-Shell** Sie können die Operations Manager-Shell verwenden, um direkt zu importieren, oder um Probleme zu beheben, die beim Importieren von Management Packs mithilfe der System Center Operations Manager-Konsole auftreten.
+- **Operations Manager Shell** Sie können die Operations Manager Shell verwenden, um direkt zu importieren oder um Probleme zu beheben, die beim Importieren von Management Packs auftreten, indem Sie die System Center Operations Manager-Konsole verwenden.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importieren der Management Packs mithilfe von System Center Operations Manager
 
-1. Laden Sie die SkypeForBusiness2019ManagementPacks. msi aus den Microsoft-Webdownloads herunter, und installieren Sie die MSI-Datei.
+1. Laden Sie die SkypeForBusiness2019ManagementPacks.msi von den Microsoft Web-Downloads herunter, und installieren Sie die msi.
 
-2. Klicken Sie in System Center Operations Manager auf **Verwaltung**.
+2. Klicken Sie in System Center Operations Manager auf **Administration**.
 
-3. Klicken Sie auf der **** Verwaltungsseite mit der rechten Maustaste auf Management Packs, und klicken Sie anschließend auf **Management Packs importieren**.
+3. Klicken Sie auf der Verwaltungsseite mit der rechten Maustaste auf Management Packs, und klicken Sie anschließend auf **Management Packs importieren**.
 
 4. Klicken Sie im Dialogfeld **Management Packs auswählen** auf **Hinzufügen** und anschließend auf **Von Datenträger hinzufügen**.
 
-5. Klicken Sie im Dialogfeld **Online Katalogverbindung** auf **Nein**.
+5. Klicken Sie **im Dialogfeld "Onlinekatalogverbindung"** auf **"Nein".**
 
-6. Suchen Sie im Dialogfeld **zu importierende Management Packs auswählen nach** den Dateien Microsoft.ls.2019.Monitoring.ActiveMonitoring.MP und Microsoft.ls.2019.Monitoring.ComponentAndUser.MP, und klicken Sie dann auf **Öffnen**. Wenn Sie mehrere Dateien im Dialogfeld auswählen möchten, klicken Sie auf die erste Datei, halten Sie die STRG-Taste gedrückt, und klicken Sie dann auf die nachfolgenden Dateien.
+6. Suchen Sie im Dialogfeld **"Zu** importierende Management Packs auswählen" die Dateien, Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp und Microsoft.LS.2019.Monitoring.ComponentAndUser.mp, und klicken Sie dann auf **"Öffnen".** Um mehrere Dateien im Dialogfeld auszuwählen, klicken Sie auf die erste Datei, halten Sie dann die STRG-TASTE gedrückt, und klicken Sie auf die nachfolgenden Dateien.
 
-7. Klicken Sie im Dialogfeld **Management Packs auswählen** auf **Installieren**. Wenn eine Fehlermeldung angezeigt wird und bei der Installation ein Fehler auftritt, bedeutet das normalerweise, dass sich die Management Pack-Dateien in einem Ordner befinden, der durch die Windows-Benutzerkontensteuerung geschützt ist. In diesem Fall kopieren Sie die Dateien in einen anderen Ordner, und starten Sie dann den Import-und Installationsvorgang neu.
+7. Klicken Sie im Dialogfeld **Management Packs auswählen** auf **Installieren**. Wenn eine Fehlermeldung angezeigt wird und bei der Installation ein Fehler auftritt, bedeutet das normalerweise, dass sich die Management Pack-Dateien in einem Ordner befinden, der durch die Windows-Benutzerkontensteuerung geschützt ist. Kopieren Sie in diesem Fall die Dateien in einen anderen Ordner, und starten Sie den Import- und Installationsvorgang neu.
 
-8. Klicken Sie im Dialogfeld **Management Packs auswählen** auf **Schließen**. Der Import-und Installationsvorgang kann mehrere Minuten in Anspruch setzen.
+8. Klicken Sie im Dialogfeld **Management Packs auswählen** auf **Schließen**. Der Import- und Installationsvorgang kann einige Minuten dauern.
 
-## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importieren der Management Packs mithilfe der Operations Manager-Shell
+## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importieren der Management Packs mithilfe der Operations Manager Shell
 
-Im Allgemeinen ist es einfacher, die Management Packs mithilfe der Operations Manager-Konsole zu importieren. Wenn jedoch ein Fehler auftritt und der Import fehlschlägt, stellt die Konsole nicht immer angemessene Fehlerberichte bereit. Im Vergleich dazu enthält die Operations Manager-Shell detaillierte Informationen. Wenn Sie Operations Manager verwenden und beim Importieren eines Management Packs Probleme auftreten, importieren Sie das Paket mithilfe der Operations Manager-Shell. Mithilfe der von Operations Manager-Shell bereitgestellten Informationen können Sie ermitteln, warum der Import fehlgeschlagen ist.
+Im Allgemeinen ist es einfacher, die Management Packs mithilfe der Operations Manager-Konsole zu importieren. Wenn jedoch ein Fehler auftritt und beim Import ein Fehler auftritt, stellt die Konsole nicht immer ausreichende Fehlerberichte zur Verfügung. Im Vergleich dazu stellt die Operations Manager Shell detaillierte Informationen zur Verfügung. Wenn Sie Operations Manager verwenden und beim Importieren eines Management Packs Probleme auftreten, importieren Sie das Paket mithilfe der Operations Manager Shell. Die von der Operations Manager Shell bereitgestellten Informationen helfen Ihnen zu ermitteln, warum der Import fehlgeschlagen ist.
 
-1. Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft System Center 2012**, dann auf **Operations Manager**, und klicken Sie dann auf **Operations Manager-Shell**.
+1. Klicken **Sie auf "Start",** **"Alle Programme",** **"Microsoft System Center 2012",** **"Operations Manager"** und dann auf **"Operations Manager Shell".**
 
-2. Geben Sie in Operations Manager-Shell den folgenden Befehl an der Eingabeaufforderung ein, wobei Sie den tatsächlichen Pfad zu Ihrer Kopie der Datei Microsoft.ls.2019.Monitoring.ActiveMonitoring.MP verwenden, und drücken Sie dann die EINGABETASTE:
+2. Geben Sie in der Operations Manager Shell den folgenden Befehl an der Eingabeaufforderung ein, verwenden Sie den tatsächlichen Pfad zur Kopie der Datei Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp, und drücken Sie dann die EINGABETASTE:
 
    ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"
    ```
 
-3. Nachdem Sie das erste Management Pack importiert haben, wiederholen Sie den Vorgang, indem Sie den Pfad zu Ihrer Kopie der Datei Microsoft.ls.2019.Monitoring.ComponentAndUser.MP:
+3. Nachdem Sie das erste Management Pack importiert haben, wiederholen Sie den Vorgang, indem Sie den Pfad zu Ihrer Kopie der Datei Microsoft.LS.2019.Monitoring.ComponentAndUser.mp:
 
    ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ComponentAndUser.mp"

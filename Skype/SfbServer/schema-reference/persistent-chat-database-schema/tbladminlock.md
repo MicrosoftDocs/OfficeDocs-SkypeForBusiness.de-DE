@@ -1,8 +1,8 @@
 ---
 title: tblAdminLock
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
-description: tblAdminLock enthält die administratorsperre, die zum Ausführen einiger Administrator Befehle erforderlich ist.
-ms.openlocfilehash: cb3a03fa7404004df37da2adf07eff1e37ff334f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die „tblAdminLock“-Tabelle enthält die Administratorsperre, die zur Ausführung bestimmter Administratorbefehle erforderlich ist.
+ms.openlocfilehash: aed7720a9b74483a34704c0009958ea91a786fc1
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814693"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49809885"
 ---
 # <a name="tbladminlock"></a>tblAdminLock
  
-tblAdminLock enthält die administratorsperre, die zum Ausführen einiger Administrator Befehle erforderlich ist.
+Die „tblAdminLock“-Tabelle enthält die Administratorsperre, die zur Ausführung bestimmter Administratorbefehle erforderlich ist.
   
-**Spalten**
+**Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|lockExpiresTime  <br/> |DateTime, nicht NULL  <br/> |Ablaufdatum und-Uhrzeit Sperren Der Besitzer kann diesen Wert in regelmäßigen Abständen verlängern.  <br/> |
-|lockServerID  <br/> |int, nicht NULL  <br/> |Die ID des Servers, der die Sperre besitzt.  <br/> |
-|lockActorID  <br/> |int, nicht NULL  <br/> |Die ID des Prinzipals, der die Sperre besitzt.  <br/> |
+|lockExpiresTime  <br/> |datetime, nicht NULL  <br/> |Ablaufdatum und -zeit der Sperre. Der Besitzer kann diesen Wert in regelmäßigen Abständen verlängern.  <br/> |
+|lockServerID  <br/> |int, nicht NULL  <br/> |ID des Servers, der die Sperre besitzt.  <br/> |
+|lockActorID  <br/> |int, nicht NULL  <br/> |ID des Prinzipals, der die Sperre besitzt.  <br/> |
    
 

@@ -1,8 +1,8 @@
 ---
 title: CLS Logger für Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -13,133 +13,133 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Protokollierung für zentralisierte Protokollierungsdienste (CLS) in Skype for Business Server 2015 verwenden.'
-ms.openlocfilehash: d57afe991756f1bb6a7bf23917af207bc25ff32c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie, wie Sie den Logger für den zentralisierten Protokollierungsdienst (Centralized Logging Service, CLS) in Skype for Business Server 2015 verwenden.'
+ms.openlocfilehash: a24cdbffc4b7601d325cd132afb5a7cf137b54f4
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816614"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49835235"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger für Skype for Business Server 2015
  
-**Zusammenfassung:** Erfahren Sie, wie Sie die Protokollierung für zentralisierte Protokollierungsdienste (CLS) in Skype for Business Server 2015 verwenden.
+**Zusammenfassung:** Erfahren Sie, wie Sie den Logger für den zentralisierten Protokollierungsdienst (Centralized Logging Service, CLS) in Skype for Business Server 2015 verwenden.
   
-CLS Logger ist ein Tool, das Sie bei der Verwaltung der durch den zentralisierten Protokollierungsdienst generierten Protokolle unterstützt.
+Der CLS Logger ist ein Tool, mit dem Sie vom zentralisierten Protokollierungsdienst generierte Protokolle verwalten können.
   
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Damit CLS Logger ordnungsgemäß verwendet werden kann, müssen folgende Voraussetzungen erfüllt sein:
+Um den CLS Logger erfolgreich verwenden zu können, müssen Sie sicherstellen, dass Folgendes zutrifft:
   
-- Sie verwenden das Tool auf einem Computer, der Mitglied der Domäne ist, in der der zentralisierte Protokollierungsdienst (Centralized Logging Service, CLS) ausgeführt wird. Das Tool wird zurzeit in Remote-PowerShell-Sitzungen nicht unterstützt.
+- Sie verwenden das Tool auf einem Computer, der Mitglied der Domäne ist, in der der zentralisierte Protokollierungsdienst (Centralized Logging Service, CLS) ausgeführt wird. Das Tool wird derzeit in Remote-PowerShell-Sitzungen nicht unterstützt.
     
-- Die Datei „Default.tmx“ aus dem Ordner „Tracing“ (der Ordner, in dem die Ablaufverfolgungsdaten für den CLS erfasst werden) und Snooper müssen in denselben Ordner kopiert werden, in dem das Tool CLS Logger installiert ist.
+- Die Datei "Default.tmx" aus dem Ablaufverfolgungsordner (dem Ordner, in dem Ablaufverfolgungsdaten für den CLS erfasst werden) und Snooper müssen in denselben Ordner kopiert werden, in dem das CLS -Protokollierungstool installiert ist.
     
-## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Überprüfen Sie den Protokollierungsstatus einer Gruppe von Pools/Computern
+## <a name="check-the-logging-status-of-a-set-of-poolscomputers"></a>Überprüfen des Protokollierungsstatus einer Gruppe von Pools/Computern
 
-Überprüfen Sie den Protokollierungsstatus mithilfe der folgenden Befehle:
+Verwenden Sie die folgenden Befehle, um den Protokollierungsstatus zu überprüfen:
   
-1. Wählen Sie auf der Registerkarte "Start/Stopp-Szenarien" eine Gruppierung von Pools und/oder Computern in der Topologie-Strukturansicht aus.
+1. Wählen Sie auf der Registerkarte "Start-/Stoppszenarien" eine Gruppierung von Pools und/oder Computern in der Topologiestrukturansicht aus.
     
-2. Klicken Sie auf die Schaltfläche „Logging Status“ (Protokollierungsstatus).
+2. Klicken Sie auf die Schaltfläche "Protokollierungsstatus".
     
-3. Zeigen Sie die Befehlsausgabe im PowerShell-Befehlsausgabebereich an, um nähere Informationen über den Protokollierungsstatus der ausgewählten Pools und/oder Computer zu erhalten.
+3. Zeigen Sie die Befehlsausgabe im Ausgabebereich des PowerShell-Befehls an, um Spezifisches zum Protokollierungsstatus der ausgewählten Pools und/oder Computer zu erhalten.
     
-## <a name="start-an-existing-scenario"></a>Starten Sie ein vorhandenes Szenario
+## <a name="start-an-existing-scenario"></a>Starten eines vorhandenen Szenarios
 
-So starten Sie ein vorhandenes Szenario
+So starten Sie ein vorhandenes Szenario:
   
-1. Wählen Sie auf der Registerkarte "Start/Stopp-Szenarien" im Dropdownmenü Szenarien ein vorhandenes Szenario aus.
+1. Wählen Sie auf der Registerkarte "Start/Stop Scenarios" im Dropdownmenü "Szenarien" ein vorhandenes Szenario aus.
     
-2. Wählen Sie eine Gruppe von Pools und/oder Computern in der Strukturansicht „Topology“ (Topologie) aus.
+2. Wählen Sie in der Topologiestrukturansicht eine Gruppierung von Pools und/oder Computern aus.
     
-3. Klicken Sie auf die Schaltfläche „Start Scenario“ (Szenario starten). Die Benutzeroberfläche ist deaktiviert, bis der Vorgang abgeschlossen ist. Dies kann in großen Bereitstellungen lange dauern.
+3. Klicken Sie auf die Schaltfläche "Szenario starten". Die Benutzeroberfläche wird deaktiviert, bis der Vorgang abgeschlossen ist. Dies kann bei großen Bereitstellungen langsam sein.
     
-4. Die Benutzeroberfläche wird wieder aktiviert, sobald das Szenario erfolgreich gestartet wurde. Die Details der Aktion werden auch im PowerShell-Befehlsausgabebereich angezeigt.
+4. Die Benutzeroberfläche wird erneut aktiviert, sobald das Szenario erfolgreich gestartet wurde. Die Details der Aktion werden auch im Ausgabebereich des PowerShell-Befehls angezeigt.
     
-5. Es wird möglicherweise eine gewisse Zeit benötigt, damit die Protokollierung vom CLS vor etwaigen neuen Daten aus diesem Szenario erfasst werden kann.
+5. Es kann einige Zeit dauern, bis die Protokollierung von CLS vor neuen Daten aus diesem Szenario abgeholt wird.
     
-## <a name="stop-an-existing-scenario"></a>Beenden Sie ein vorhandenes Szenario
+## <a name="stop-an-existing-scenario"></a>Beenden eines vorhandenen Szenarios
 
-So beenden Sie ein vorhandenes Szenario
+So beenden Sie ein vorhandenes Szenario:
   
-1. Wählen Sie auf der Registerkarte "Start/Stopp-Szenarien" im Dropdownmenü Szenarien ein vorhandenes Szenario aus.
+1. Wählen Sie auf der Registerkarte "Start/Stop Scenarios" im Dropdownmenü "Szenarien" ein vorhandenes Szenario aus.
     
-2. Wählen Sie eine Gruppe von Pools und/oder Computern in der Strukturansicht „Topology“ (Topologie) aus.
+2. Wählen Sie in der Topologiestrukturansicht eine Gruppierung von Pools und/oder Computern aus.
     
-3. Klicken Sie auf die Schaltfläche „Stop Scenario“ (Szenario beenden). Die Benutzeroberfläche ist deaktiviert, bis der Vorgang abgeschlossen ist. Dies kann in großen Bereitstellungen lange dauern.
+3. Klicken Sie auf die Schaltfläche "Szenario beenden". Die Benutzeroberfläche wird deaktiviert, bis der Vorgang abgeschlossen ist. Dies kann bei großen Bereitstellungen langsam sein.
     
-4. Die Benutzeroberfläche wird wieder aktiviert, sobald das Szenario beendet wurde. Die Details der Aktion werden auch im PowerShell-Befehlsausgabebereich angezeigt.
+4. Die Benutzeroberfläche wird erneut aktiviert, sobald das Szenario beendet wurde. Die Details der Aktion werden auch im Ausgabebereich des PowerShell-Befehls angezeigt.
     
-![CLS Logger starten und beenden](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![Starten und Beenden von CLS Logger](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
-## <a name="search-for-logs"></a>Suchen Sie nach Protokollen
+## <a name="search-for-logs"></a>Suchen nach Protokollen
 
-Wenn Sie nach Protokollen suchen möchten, wählen Sie den Reiter "CLS-Logs Durchsuchen" und klicken Sie auf die Schaltfläche "Protokolle Durchsuchen", nachdem Sie die angezeigten Felder wie unten beschrieben gefüllt haben:
+Um nach Protokollen zu suchen, wählen Sie die Registerkarte "CLS-Protokolle durchsuchen" aus, und klicken Sie nach dem Ausfüllen der angezeigten Felder auf die Schaltfläche "Suchprotokolle", wie unten beschrieben:
   
-> **Log File Folder** (Protokolldateiordner): Der Ordner, in dem die Ergebnisse der Protokollsuche gespeichert werden (erforderlich)
+> **Protokolldateiordner** Der Ordner, in dem die Ergebnisse der Protokollsuche gespeichert werden. (Erforderlich)
 > 
-> **Log Level** (Protokollebene): Hiermit wird die unterste Ebene bestimmt, die in den Ergebnissen angezeigt wird. Wenn beispielsweise „Warning“ (Warnung) ausgewählt ist, werden nur „Warning“ (Warnung), „Error“ (Fehler) und „Fatal“ (Schwerwiegend) angezeigt. Die Standardeinstellung ist „Debug“ (Debuggen).
+> **Protokollebene** Dies bestimmt die niedrigste Ebene, die in den Ergebnissen angezeigt wird. Wenn beispielsweise "Warnung" ausgewählt ist, werden nur "Warnung", "Fehler" und "Fatal" angezeigt. Standardwert ist "Debuggen".
 > 
-> **Pools** (Pools): Die Computerpools, in denen die Protokollsuche durchgeführt wird. Dies sind die übergeordneten Knoten der Strukturansicht (erforderlich).
+> **Pools** Computerpools, für die die Protokollsuche ausgeführt werden soll. Dies sind die übergeordneten Knoten der Strukturansicht. (Erforderlich)
 > 
-> **Computers** (Computer): Einzelne Computer, auf denen die Protokollsuche durchgeführt wird. Dies sind alle untergeordneten Knoten in der Strukturansicht (erforderlich).
+> **Computer** Einzelne Computer, für die die Protokollsuche ausgeführt werden soll. Dies sind alle untergeordneten Knoten in der Strukturansicht. (Erforderlich)
 > 
-> **Start Time** (Startzeit): Der Zeitpunkt, ab dem CLS die Protokolle abfragt. (erforderlich).
+> **Startzeit** Der Zeitraum, in dem CLS die Protokolle ababfraget. (Erforderlich)
 > 
-> **End Time** (Endzeit): Der Zeitpunkt, bis zu dem CLS die Protokolle abfragt (erforderlich).
+> **Endzeit** Der Zeitraum, in dem CLS die Abfrage der Protokolle beendet. (Erforderlich)
 > 
-> **Components** (Komponenten): Hier können Sie die Komponenten auswählen, die der Abfrage hinzugefügt werden sollen (optional).
+> **Komponenten** Wird verwendet, um auszuwählen, welche Komponenten der Abfrage hinzugefügt werden. (Optional)
 > 
-> **Call ID** (Anruf-ID): Die Anruf-ID der SIP-Dialogfelder, nach denen gefiltert werden soll. Hinweis: Bei diesem Feld wird die exakte Übereinstimmung verwendet (optional).
+> **Anruf-ID** Die Anruf-ID aller SIP-Dialogfelder, nach der gefiltert werden soll. Beachten Sie, dass für dieses Feld die genaue Übereinstimmung verwendet wird. (Optional)
 > 
-> **Conference ID** (Konferenz-ID): Die Konferenz-ID der Konferenzen, nach denen ggf. gefiltert werden soll. Hinweis: Bei diesem Feld wird die exakte Übereinstimmung verwendet (optional).
+> **Konferenz-ID** Die Konferenz-ID aller Konferenzen, nach der gefiltert werden soll. Beachten Sie, dass für dieses Feld die genaue Übereinstimmung verwendet wird. (Optional)
 > 
-> **IP Address** (IP-Adresse): Die IP-Adresse, nach der gefiltert werden soll. Hinweis: Bei diesem Feld wird die exakte Übereinstimmung verwendet (optional).
+> **IP-Adresse** Die IP-Adresse, nach der gefiltert werden soll. Beachten Sie, dass für dieses Feld ein exakter Abgleich verwendet wird. (Optional)
 > 
-> **Correlation IDs** (Korrelations-IDs): Ablaufverfolgungsanweisungen, die durch diese ID logisch miteinander verknüpft sind (optional).
+> **Korrelations-IDs** Ablaufverfolgungsanweisungen, die durch diese ID logisch miteinander verknüpft sind. (Optional)
 > 
-> **Phone Number** (Telefonnummer): In diesem Feld können Sie nach Telefonnummer filtern (optional).
+> **Telefonnummer** Nach Telefonnummer filtern. (Optional)
 > 
-> **SIP URI** (SIP-URI): In diesem Feld können Sie nach SIP-URIs filtern (optional).
+> **SIP-URI** Filtern nach SIP-URI. (Optional)
 > 
-> **SIP Message Content Contains** (Inhalt der SIP-Nachricht enthält): In diesem Feld können Sie nach SIP-Nachrichteninhalten filtern. Dadurch ist eine Suche nach Teilzeichenfolgen in diesem Feld möglich (optional).
+> **Inhalt der SIP-Nachricht enthält** Nach Inhalten von SIP-Nachrichten filtern, wird die Suche in diesem Feld nach Teilzeichenfolgen verwendet. (Optional)
 > 
-> **Match Any** (Übereinstimmung alle): Wenn dieses Kontrollkästchen aktiviert ist, werden Suchvorgänge mit logischem „Oder“ ausgeführt. Standardmäßig werden alle Parameter mit genauer Übereinstimmung gefunden.
+> **Match Any** Sucht mit einem logischen OR, wenn diese Option aktiviert ist. Standardmäßig wird die genaue Übereinstimmung aller Parameter verwendet.
 > 
-> **Skip Network Logs** (Netzwerkprotokolle überspringen): Wenn dieses Kontrollkästchen aktiviert ist, werden keine Netzwerkprotokolle gesucht.
+> **Netzwerkprotokolle überspringen** Überspringt die Suche nach Netzwerkprotokollen, wenn diese aktiviert sind.
     
-![CLS Logger-Suchprotokolle](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![CLS-Logger-Suchprotokolle](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
-## <a name="create-a-scenario"></a>Erstellen Sie ein Szenario
+## <a name="create-a-scenario"></a>Erstellen eines Szenarios
 
-1. Klicken Sie auf der Registerkarte **Szenarien bearbeiten** auf die Schaltfläche **Szenario erstellen** .
+1. Klicken Sie **auf der** Registerkarte "Szenarien bearbeiten" auf die Schaltfläche **"Szenario erstellen".**
     
     > [!NOTE]
-    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor Erstellen eines neuen Szenarios auf **Einstellungen löschen** klicken, beginnt das System ohne ausgewählte Komponenten und Flags.
+    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor **dem Erstellen eines** neuen Szenarios auf "Einstellungen löschen" klicken, wird es ohne ausgewählte Komponenten und Flags gestartet.
   
-2. Geben Sie den Namen des Szenarios an, das Sie erstellen möchten, und drücken Sie die EINGABETASTE oder OK.
+2. Geben Sie den Namen des Szenarios ein, das Sie erstellen möchten, und drücken Sie die EINGABETASTE, oder klicken Sie auf die Schaltfläche OK.
     
-3. Das neue Szenario wird jetzt erstellt. Nach erfolgreicher Erstellung wird die Dropdownliste der Szenarien mit dem neu erstellten Szenario ausgewählt.
+3. Das neue Szenario wird nun erstellt. Nach erfolgreicher Erstellung wird die Dropdownliste "Szenarien" mit dem neu erstellten Szenario ausgewählt.
     
-## <a name="modify-a-scenario"></a>Ändern Sie ein Szenario
+## <a name="modify-a-scenario"></a>Ändern eines Szenarios
 
-![Screenshot CLS-Logger, Szenarien bearbeiten](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS Logger Screenshot, Bearbeitungsszenarien](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. Suchen Sie auf der Registerkarte **Szenarien bearbeiten** das Szenario, das Sie ändern möchten.
+1. Suchen Sie **auf der** Registerkarte "Szenarien bearbeiten" das gewünschte Zu ändernde Szenario.
     
-2. Nehmen Sie die gewünschten Änderungen bezüglich Komponenten, Ebenen und Kennzeichnungen vor.
+2. Nehmen Sie die gewünschten Änderungen an den Komponenten, Ebenen und Flags vor.
     
-3. Klicken Sie auf die Schaltfläche **Szenario speichern**.
+3. Klicken Sie auf **die Schaltfläche "Szenario speichern".**
     
-4. Nach erfolgreichem Speichervorgang, wird der Fensterbereich mit den Szenario-Informationen entsprechend der überarbeiteten Konfiguration aktualisiert.
+4. Nach dem erfolgreichen Speichern des Szenarios wird der Szenarioinformationsbereich mit der aktualisierten Konfiguration aktualisiert.
     
-## <a name="delete-a-scenario"></a>Löschen Sie ein Szenario
+## <a name="delete-a-scenario"></a>Löschen eines Szenarios
 
-1. Wählen Sie aus der Dropdownliste „Szenarien“ auf der Registerkarte **Szenarien bearbeiten** ein vorhandenes Szenario aus.
+1. Wählen Sie **auf der** Registerkarte "Szenarien bearbeiten" im Dropdownmenü "Szenarien" ein vorhandenes Szenario aus.
     
-2. Klicken Sie auf **Szenario löschen**, um das Szenario zu löschen.
+2. Klicken **Sie auf "Szenario löschen",** um das Szenario zu löschen.
     
-3. Nach Bestätigung der Aktion wird das Szenario gelöscht.
+3. Nach der Bestätigung der Aktion wird das Szenario gelöscht.
     
 

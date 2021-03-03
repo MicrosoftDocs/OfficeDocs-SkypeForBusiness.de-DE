@@ -1,8 +1,8 @@
 ---
-title: Gerätekonfiguration neues erstellen oder vorhandenes bearbeiten
+title: Gerätekonfiguration Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
-description: Auf der Seite neue Gerätekonfiguration oder Gerätekonfiguration bearbeiten können Sie eine Sammlung von Einstellungen erstellen oder ändern, die für die Verwaltung von Skype for Business Phone Edition verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und die Festlegung, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: 95ce62b5d3505e10049d61ead77ce79ee7f2f51b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Auf der Seite "Neue Gerätekonfiguration" oder "Gerätekonfiguration bearbeiten" können Sie eine Auflistung von Einstellungen erstellen oder ändern, die zum Verwalten der Skype for Business Phone Edition verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
+ms.openlocfilehash: ba84c6b9f820d0130940fce4dadad1cd38e7efec
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822928"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49807305"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration
  
-Auf der Seite **neue Gerätekonfiguration** oder **Gerätekonfiguration bearbeiten** können Sie eine Sammlung von Einstellungen erstellen oder ändern, die für die Verwaltung von Skype for Business Phone Edition verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und die Festlegung, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
+Auf der Seite  **"Neue Gerätekonfiguration"** oder "Gerätekonfiguration bearbeiten" können Sie eine Auflistung von Einstellungen erstellen oder ändern, die zum Verwalten der Skype for Business Phone Edition verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
   
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -38,32 +38,32 @@ Auf der Seite **Neue Gerätekonfiguration** bzw. **Gerätekonfiguration bearbeit
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
   
-- **Bereich** Identifiziert den Bereich (Global oder Website) der Gerätekonfiguration.
+- **Bereich** Gibt den Bereich (Global oder Standort) der Gerätekonfiguration an.
     
 - **Name** Sie können den Namen der Gerätekonfiguration hinzufügen oder ändern.
     
-- **SIP-Sicherheit** Sie können Transport-und Authentifizierungsanforderungen für Skype for Business Phone Edition-Geräte konfigurieren. Folgende Optionen stehen zur Verfügung:
+- **SIP-Sicherheit** Sie können Transport- und Authentifizierungsanforderungen für Skype for Business Phone Edition-Geräte konfigurieren. Folgende Optionen stehen zur Verfügung:
     
-  - **Niedrige** Erlauben Sie jede Art von Autorisierung oder Transport.
+  - **Niedrig** Zulassen einer beliebigen Art von Autorisierung oder Transport.
     
-  - **Medium** NTLM oder Kerberos ist für die Benutzerauthentifizierung erforderlich.
+  - **Mittel** NTLM oder Kerberos ist für die Benutzerauthentifizierung erforderlich.
     
-  - **Höchst** NTLM oder Kerberos ist für die Benutzerauthentifizierung erforderlich, und für SIP-Verbindungen ist TLS erforderlich.
+  - **Hoch** NTLM oder Kerberos ist für die Benutzerauthentifizierung und TLS für SIP-Verbindungen erforderlich.
     
-- **Protokollierungsstufe** Sie können die Protokollierung auf dem UC-Gerät aktivieren. Gültige Werte sind: „Aus“, „Niedrig“, „Mittel“ und „Hoch“. Der Standardwert lautet „Aus“.
+- **Protokollierstufe** Sie können die Protokollierung auf dem UC-Gerät aktivieren. Gültige Werte sind: Aus, Niedrig, Mittel und Hoch. Der Standardwert lautet "Aus".
     
-- **Sprach Quality of Service (QoS)** Sie können den DSCP-Wert angeben, der dem VoIP-Datenverkehr von einem Skype for Business Phone Edition-Gerät zugewiesen ist. Der Standardwert ist 40. 40 ist jedoch nicht der in der Regel für den Audioverkehr verwendete Wert; Stattdessen wird der Audioverkehr fast immer mit dem DSCP-Code 46 markiert. Um die Konsistenz im gesamten Netzwerk zu gewährleisten, sollten Sie diesen Wert in 46 ändern.
+- **QoS (Voice Quality of Service)** Sie können den DSCP-Wert angeben, der dem Sprachdatenverkehr von einem Skype for Business Phone Edition-Gerät zugewiesen ist. Der Standardwert ist 40. 40 ist jedoch nicht der Wert, der normalerweise für Audiodatenverkehr verwendet wird. Stattdessen wird der Audiodatenverkehr fast immer mit dem DSCP-Code 46 gekennzeichnet. Um die Konsistenz im gesamten Netzwerk zu gewährleisten, sollten Sie diesen Wert in 46 ändern.
     
-- **Telefonsperre** Sie können angeben, ob UC-Telefone nach einem bestimmten Zeitraum der Inaktivität automatisch gesperrt werden. Sie können die folgenden Einstellungen konfigurieren:
+- **Telefonsperre** Sie können angeben, ob sich UC-Telefone nach einem bestimmten Zeitraum der Inaktivität automatisch sperren. Sie können die folgenden Einstellungen konfigurieren:
     
-  - **Erzwingen der Gerätesperrung** Sie können das Sperren des Geräts erzwingen, indem Sie dieses Kontrollkästchen aktivieren.
+  - **Erzwingen der Gerätesperre** Sie können die Gerätesperre erzwingen, indem Sie dieses Kontrollkästchen aktivieren.
     
-  - **Minimale PIN-Länge** Sie können die Mindestlänge für die persönliche Identifikationsnummer (PIN) angeben, die zum Entsperren des Telefons verwendet wird. Der zulässige Bereich für die PIN-Länge lautet vier bis 15 Stellen. Die Standardlänge beträgt sechs Stellen.
+  - **Minimale PIN-Länge** Sie können die Mindestlänge für die persönliche Identifikationsnummer (PIN) angeben, die zum Entsperren des Telefons verwendet wird. Der zulässige Bereich für die PIN-Länge lautet vier bis 15 Stellen. Die Standardlänge besteht aus sechs Stellen.
     
-  - **Timeout für Telefonsperre** Sie können die minimale Zeitdauer angeben, bevor sich das Telefon selbst sperrt. Der Bereich für das Timeout lautet 0 bis 60 Minuten und der Standardwert beträgt 10 Minuten. Geben Sie den Wert im Format HH:MM:SS ein.
+  - **Telefonsperre – Zeit-Out** Sie können die Mindestdauer angeben, bevor das Telefon selbst gesperrt wird. Der Bereich für das Timeout lautet 0 bis 60 Minuten; der Standardwert liegt bei 10 Minuten. Geben Sie den Wert im Format HH:MM:SS ein.
     
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Gerätekonfiguration](device-configuration.md)
 
-[Satz-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

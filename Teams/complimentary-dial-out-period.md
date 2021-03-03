@@ -22,51 +22,50 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: Informieren Sie sich über den kostenlosen Wähl Zeitraum für Microsoft 365 oder Office 365-Anrufplan und Office 365-Audiokonferenzen in Microsoft Teams.
-ms.openlocfilehash: 112283bc971c1dbfd3ddd4a7baefa02eba693179
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+description: Erfahren Sie mehr über den kostenlosen Zeitraum für Abwahl von Microsoft 365- oder Office 365-Anrufplan und Office 365-Audiokonferenzen in Microsoft Teams.
+ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
+ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908504"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "49918881"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
 ## <a name="skype-for-business-pstn-services"></a>Festnetzdienste für Skype for Business
 
-Kunden können Microsoft 365 oder Office 365-Anrufplan und Office 365-Audiokonferenzen wie in den Skype for Business Online-PSTN-Diensten Nutzungsbedingungen und dem Volumenlizenz Vertrag des Kunden verwenden. Die Nutzungsbestimmungen für PSTN-Dienste finden Sie unter [Lizenzbestimmungen und-Dokumentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+Kunden können Microsoft 365- oder Office 365-Anrufplan und Office 365-Audiokonferenzen nach den Nutzungsbedingungen für Skype for Business Online-PSTN-Dienste und dem Volumenlizenzvertrag des Kunden verwenden. Die Nutzungsbedingungen für Festnetzdienste finden Sie in den [Lizenzbedingungen und in der Dokumentation.](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)
   
-### <a name="end-of-complimentary-dial-out-period"></a>Ende des kostenlosen Wähl Zeitraums
+### <a name="end-of-complimentary-dial-out-period"></a>Ende des kostenlosen Wählzeitraums
 
-Ab dem 1. Dezember 2019 endet die ﻿kostenlose Dial-Out-Funktion. Weitere Informationen finden Sie unter [Abonnement für Audio-Konferenz-Abonnements und Anruf an mich unter Benefit](audio-conferencing-subscription-dial-out.md) . 
+Die kostenlose Funktion für das Auswählen endete am 1. Dezember 2019. Weitere Informationen finden Sie unter ["Audiokonferenz-Abonnement wählen" und "Rückruf zum Vorteil".](audio-conferencing-subscription-dial-out.md) 
 
-Diese Änderung findet nicht für Länder statt, in denen das Audiokonferenz-Abonnement zur Verfügung steht, aber wir bieten derzeit keine Möglichkeit zur Einrichtung von Kommunikationsguthaben. Diese Länder sind Russland, Südkorea und Taiwan.
+Diese Änderung wurde für Länder nicht erfolgt, in denen das Abonnement für Audiokonferenzen verfügbar ist, aber wir aktivieren derzeit nicht das Einrichten von Guthaben für Kommunikationen. Diese speziellen Länder sind Russland, Südkorea und Taiwan.
 
-### <a name="complimentary-dial-out-period-details"></a>Details zu den kostenlosen Wählzeiten
+### <a name="complimentary-dial-out-period-details"></a>Details des kostenlosen Wählzeitraums
 
-Für Kunden, die unseren Microsoft 365-oder Office 365-Audiokonferenzdienst verwenden, bietet Microsoft einen zusätzlichen kostenlosen Vorteil im Zusammenhang mit der Auswahl von Besprechungen, die von Benutzern organisiert werden, denen eine Microsoft 365-oder Office 365-Abonnementlizenz für Audio-Konferenzen bis November 2019 zugewiesen ist. In diesem kostenlosen Zeitraum ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern, wie in den Einstellungen für Besprechungsrichtlinien definiert, das Einwählen von Anrufen aus der Besprechung zu nicht-Premium-Telefonnummern in der 44-  [Zone A Länder und Regionen](audio-conferencing-zones.md). Dieser Vorteil ist auf die monatlichen Abonnementlizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen.
+Für Kunden, die unseren Microsoft 365- oder Office 365-Audiokonferenzdienst übernehmen, bietet Microsoft bis November 2019 zusätzliche kostenlose Vorteile für das Abwählen von Besprechungen, die von Benutzern organisiert werden, denen eine Lizenz für Microsoft 365- oder Office 365-Audiokonferenzen zugewiesen ist. Während dieses kostenlosen Zeitraums ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern gemäß Definition in den Einstellungen der Besprechungsrichtlinien, Auswählanrufe innerhalb der Besprechung an Nicht-Premium-Telefonnummern in den Ländern und Regionen der 44 Zone [A](audio-conferencing-zones.md)zu senden. Dieser Vorteil gilt für monatliche Abonnementlizenzen für Audiokonferenzen und gilt nicht für Lizenzen für Audiokonferenzen mit Minutenlizenz.
 
-Darüber hinaus gibt es während des kostenlosen Wähl Zeitraums eine Grenze von 900 Minuten als solche:
+Darüber hinaus gilt während des kostenlosen Wählzeitraums ein Limit von 900 Minuten:
 
-Benutzer mit einem Speicherort für die Lizenznutzung (Dies ist der Standort des Benutzer Landes, der im Lizenzierungs Bereich des Microsoft 365 admin Centers definiert ist) können in einem beliebigen Land von einer Konferenz zu einem der 44 [Zone a Länder und Regionen](audio-conferencing-zones.md)wählen. Jeder Benutzer erhält 900 Minuten pro Benutzer pro Monat zu einem der [Zonen A Länder und Regionen](audio-conferencing-zones.md) , die auf Mandantenebene gebündelt sind. Beispielsweise hat ein Kunde 115-Abonnements für Audio-Conferencing-Abonnements erworben und hat 10 Benutzer in den USA, 100-Benutzern in Großbritannien und 5 Benutzern in Indien, alle mit Lizenzen für Audio-Konferenz Abonnements, die Ihren Benutzern zugewiesen sind.
+Benutzer mit einem Lizenzverwendungsstandort (der Standort ist der Standort des Benutzers, der im Lizenzierungsbereich des Microsoft 365 Admin Centers definiert ist) _in_ einem beliebigen Land/einer Region können aus einer Konferenz in jedes der 44 Länder und Regionen der Zone [A](audio-conferencing-zones.md)auswählen. Jeder Benutzer erhält pro Benutzer pro Monat  900 Minuten in alle Länder und Regionen der Zone [A,](audio-conferencing-zones.md)die auf Mandantenebene gepoolt werden. Ein Kunde hat z. B. 115 Abonnementlizenzen für Audiokonferenzen erworben und hat 10 Benutzer in den USA, 100 Benutzer in Großbritannien und fünf Benutzer in Indien, und das alles mit Abonnementlizenzen für Audiokonferenzen, die den Benutzern zugewiesen sind.
+
+- Alle 115 Benutzer nutzen einen Pool von (115 Benutzer x 900 Min.) = 103.500 Anrufminuten für Konferenzen pro Kalendermonat, der für ausgehende Anrufe in alle Länder und Regionen der Zone [A verwendet werden](audio-conferencing-zones.md)kann.
+
+- Alle Anrufe, die die 103.500 Minuten pro Kalendermonat überschreiten, werden per Minutenabrechnung über Guthaben für Kommunikationen zu den an diesem Ziel veröffentlichten Tarifen abgerechnet. (Hinweis: Der Mandant muss Guthaben für Kommunikationen einrichten und dem Besprechungsorganisator die Lizenz für Guthaben für Kommunikationen zuweisen.)
+
+- Alle ausgehenden Anrufe an Ziele, die nicht in der Länder- und Regionsliste der Zone [A](audio-conferencing-zones.md) enthalten sind, werden mit Guthaben für Kommunikationen zu unseren veröffentlichten Tarifen an diesen Zielort abgerechnet (vorausgesetzt, der Mandant hat Guthaben für Kommunikationen eingerichtet und dem Besprechungsorganisator die Lizenz für Guthaben für Kommunikationen zugewiesen).
 
 > [!NOTE]
-> Die Größe des Pools basiert auf zugewiesenen Lizenzen und nicht auf erworbenen Lizenzen.
- 
-- Alle 115-Benutzer teilen sich einen Pool von (115 Benutzer X 900 min) = 103.500 Konferenz-Auswahl Minuten pro Kalendermonat, die für ausgehende Anrufe in [eine der Länder und Regionen der Zone](audio-conferencing-zones.md)verwendet werden können.
-- Alle Anrufe, die die 103.500-Minuten pro Kalendermonat überschreiten, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen an dieses Ziel abgerechnet. (Hinweis: der Mandant muss Kommunikationsguthaben einrichten und dem Besprechungsorganisator die Lizenz für Kommunikations Kredite zuweisen).
-- Alle ausgehenden Anrufe an Zielorte, die sich nicht in der Liste [Zone A Länder und Regionen](audio-conferencing-zones.md) befinden, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen in Rechnung gestellt (vorausgesetzt, der Mandant hat Kommunikationsguthaben eingerichtet und dem Besprechungsorganisator die Lizenz für Kommunikations Kredite zugewiesen).
+> Sie können die Nutzung mit dem Minutenpool für Einwahlen im Skype for Business Admin Center überwachen. Wechseln Sie im Microsoft Teams & Skype Admin Center zu "Berichte  >  PSTN-Minutenpools"  >  **des Legacyportals.** Dieser kostenlose Minutenpool wird im Bericht mit "Ausgehende Anrufe in Länder und Regionen der Zone A" bezeichnet.
 
-> [!NOTE]
-> Im Skype for Business Admin Center können Sie die Nutzung für den Dial-Out-Minuten Pool überwachen. Wechseln Sie im Microsoft Teams & Skype Admin Center zu **Legacy-Portal**  >  **Berichte**  >  **PSTN-Minuten Pools**. Dieser ﻿kostenlose Minuten Pool wird im Bericht als "ausgehende Anrufe in Zone A Länder und Regionen" bezeichnet.
+E-Mail-Benachrichtigungen werden an alle Mandantenadministratoren eines bestimmten Kunden gesendet, wenn die Nutzung des DFÜ-Minutenpools des Mandanten 80 % und 100 % erreicht hat.
 
-E-Mail-Benachrichtigungen werden an alle mandantenadministratoren eines bestimmten Kunden gesendet, wenn die Nutzung des Auswähl-Minuten Pools des Mandanten 80% und 100% erreicht hat.
+Bei Ausgehendwählanrufen, die pro Minute abgerechnet werden (Anrufe, die den Minutenpool für Ausgehende Anrufe des Mandanten überschreiten, oder Anrufe an Ziele, die nicht in der Liste der Länder und Regionen der Zone [A](audio-conferencing-zones.md) enthalten sind), basieren die Anrufe und die zugehörigen Tarife in erster Linie auf dem Ziel des Anrufs und nicht auf dem Land oder der Region des Organisators oder des Teilnehmers, der den Ausgehenden Anruf initiiert. Beispielsweise wird ein Anruf bei einer Telefonnummer in Frankreich mit demselben Tarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den USA oder einem in Frankreich initiiert wird.
 
-Für Anrufe, die pro Minute abgerechnet werden (Anrufe, die über den Minuten Pool des Mandanten hinausgehen, oder Anrufe an Zielorte, die nicht in der Liste der [Länder und Regionen](audio-conferencing-zones.md) sind), basieren die Anrufe und die dazugehörigen Gebühren in erster Linie auf dem Ziel des Anrufs und nicht auf dem Land oder der Region des Organisators oder dem Teilnehmer, der den Anruf initiiert. Beispielsweise wird ein Anruf an eine Telefonnummer in Frankreich mit dem gleichen Tarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten oder einem in Frankreich initiiert wurde.
-
-Weitere Informationen zu Kommunikationsguthaben finden Sie unter [Kommunikationsguthaben](what-are-communications-credits.md).
+Weitere Informationen zu Guthaben für Kommunikationen finden Sie unter [Guthaben für Kommunikationen.](what-are-communications-credits.md)
      
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- [Länder-und Regions Zonen für Audiokonferenzen](audio-conferencing-zones.md)
+- [Länder- und Regionalzonen für Audiokonferenzen](audio-conferencing-zones.md)

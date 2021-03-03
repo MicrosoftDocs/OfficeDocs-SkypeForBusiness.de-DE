@@ -1,8 +1,8 @@
 ---
 title: Gerätebericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,64 +11,64 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 'Zusammenfassung: erfahren Sie mehr über den gerätebericht in Skype for Business Server.'
-ms.openlocfilehash: cb3dcf506d7853136b1cddf7f6b7848891cb77e7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.'
+ms.openlocfilehash: 2471f232256e4715f271cd310f0b1415555ca4c5
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817995"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49826415"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Gerätebericht in Skype for Business Server
  
-**Zusammenfassung:** Informieren Sie sich über den gerätebericht in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.
   
-Der Gerätebericht wäre mit „Mikrofon- und Lautsprecherbericht“ treffender betitelt, denn er ruft anrufbezogene Metriken ab (z. B. Prozentsatz der Anrufe schlechter Qualität, Echo und Sprachumschaltzeit) und gruppiert sie nach den im Anruf verwendeten Mikrofonen und Lautsprechern. Wenn Sie an IP-Telefonen (auch gemeinhin als "Geräte" bezeichnet) interessiert sind, verwenden Sie stattdessen den [Bericht IP Phone Inventory in Skype for Business Server](ip-phone-inventory-report.md) .
+Der Gerätebericht kann besser als "Mikrofon- und Lautsprecherbericht" betitelt werden. Der Grund dafür ist, dass der Gerätebericht anrufbezogene Metriken (z. B. Prozentsatz schlechter Anrufe, Echo und Sprachumschaltzeit) abruft, die nach den im Anruf verwendeten Mikrofonen und Lautsprechern gruppieren. Wenn Sie an #A0 interessiert sind (auch als "Geräte" bezeichnet), verwenden Sie stattdessen den [#A1 in Skype for Business Server.](ip-phone-inventory-report.md)
   
-Der Gerätebericht ist für Administratoren von großem Nutzen, wenn herausgefunden werden soll, ob bei einem bestimmten Gerätetyp mehr Anrufe schlechter Qualität auftreten als bei anderen Typen. Das kann wiederum Kaufentscheidungen beeinflussen, wenn neue Geräte angeschafft oder vorhandene ausgetauscht werden müssen.
+Der Gerätebericht ist für Administratoren äußerst nützlich, um festzustellen, ob ein bestimmter Gerätetyp ein hohes Volumen an Anrufen schlechter Qualität als andere hat. Dies könnte wiederum alle Entscheidungen beeinflussen, die Sie treffen müssen, wenn es an der Zeit ist, neue Geräte zu kaufen oder vorhandene Geräte zu ersetzen.
   
-Standardmäßig beruhen die Werte im Gerätebericht auch auf dem Mikrofon (dem Aufnahmegerät) und den Lautsprechern bzw. dem Kopfhörer (dem Darstellungsgerät), die bei dem Anruf verwendet werden. Angenommen, Sie haben mehrere Benutzer, die das folgende Aufnahme- bzw. Darstellungsgerät verwenden: Standardmäßig basieren die Informationen im Gerätebericht ebenfalls auf dem Mikrofon (Aufnahmegerät) und den Lautsprechern bzw. dem Kopfhörer (Darstellungsgerät), die für den Anruf verwendet wurden. Nehmen Sie beispielsweise an, dass Sie verschiedene Benutzer haben, die das folgende Aufnahmegerät und das folgende Darstellungsgerät verwenden:
+Standardmäßig basieren die im Gerätebericht angezeigten Informationen auch auf dem Mikrofon (dem Aufnahmegerät) und den Lautsprechern/Headsets (dem Rendergerät), die im Anruf verwendet werden. Angenommen, Sie haben mehrere Benutzer, die das folgende Aufnahmegerät und das folgende Rendergerät verwenden: Standardmäßig basieren die im Gerätebericht angezeigten Informationen auch auf dem Mikrofon (dem Aufnahmegerät) und den Lautsprechern/Headsets (dem Rendergerät), die im Anruf verwendet werden. Angenommen, Sie haben mehrere Benutzer, die das folgende Aufnahmegerät und das folgende Rendergerät verwenden:
   
-- Aufnahmegerät -- Mikrofon (SoundMAX Integrated Digital HD Audio)
+- Aufnahmegerät – Mikrofon (SoundMAX Integrated Digital HD Audio)
     
-- Darstellungsgerät -- Headset-Kopfhörer (Microsoft LifeChat LX-3000)
+- Rendergerät – Headset-Kopfhörer (Microsoft LifeChat LX-3000)
     
-Wenn diese Benutzer insgesamt 254 Anrufe getätigt haben, enthält der Bericht den folgenden Eintrag:
+Wenn diese Benutzer insgesamt 254 Anrufe vorgenommen haben, wird im Bericht ein Eintrag wie dieser zu sehen sein:
   
 |**Aufnahmegerät**|**Darstellungsgerät**|**Anruflautstärke**|
 |:-----|:-----|:-----|
-|Mikrofon (SoundMAX Integrated Digital HD Audio)  <br/> |Headset-Kopfhörer (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
+|Mikrofon (SoundMAX Integrated Digital HD Audio)  <br/> |Headset Earphone (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
    
-Nehmen wir jetzt an, Sie haben eine Reihe von Benutzern, die das gleiche Aufnahmegerät, aber ein anderes Darstellungsgerät verwenden. In diesem Fall enthält der Bericht eine zweite Zeile, und zwar für diese spezielle Kombination aus Aufnahme- und Darstellungsgerät:
+Angenommen, Sie haben eine Reihe von Benutzern, die dasselbe Aufnahmegerät, aber ein anderes Rendergerät verwenden. In diesem Fall haben Sie einen zweiten Zeileneintrag im Bericht, einen eintrag für diese eindeutige Kombination aus Aufnahmegerät und Rendergerät:
   
 |**Aufnahmegerät**|**Darstellungsgerät**|**Anruflautstärke**|
 |:-----|:-----|:-----|
-|Mikrofon (SoundMAX Integrated Digital HD Audio)  <br/> |Headset-Kopfhörer (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
+|Mikrofon (SoundMAX Integrated Digital HD Audio)  <br/> |Headset Earphone (Microsoft LifeChat LX-3000)  <br/> |254  <br/> |
 |Mikrofon (SoundMAX Integrated Digital HD Audio)  <br/> |Lautsprecher (SoundMAX Integrated Digital HD Audio)  <br/> |319  <br/> |
    
-Wenn Sie lieber die Gesamtsumme für ein bestimmtes Gerät angezeigt bekommen möchten (z. B. für das SoundMAX-Aufnahmegerät, unabhängig vom verwendeten Darstellungsgerät), wählen Sie die entsprechende Option in der Dropdownliste „Gerätetyp“ aus (entweder „Aufnahmegerät“ oder „Darstellungsgerät“). Wenn Sie im aktuellen Beispiel „Aufnahmegerät“ wählen, sieht die Ausgabe etwa so aus:
+Wenn Sie lieber kombinierte Gesamtwerte für ein bestimmtes Gerät anzeigen möchten (z. B. für das SoundMAX-Aufnahmegerät, unabhängig vom verwendeten Rendergerät), wählen Sie die entsprechende Option aus der Dropdownliste "Gerätetyp" (Aufnahmegerät oder Rendergerät) aus. Wenn Sie in diesem Beispiel "Aufnahmegerät" auswählen, erhalten Sie eine Ausgabe wie die folgende:
   
 |**Aufnahmegerät**|**Anruflautstärke**|
 |:-----|:-----|
 |Mikrofon (SoundMAX Integrated Digital HD Audio)  <br/> |573  <br/> |
    
-## <a name="accessing-the-device-report"></a>Öffnen des Geräteberichts
+## <a name="accessing-the-device-report"></a>Zugreifen auf den Gerätebericht
 
-Auf den Gerätebericht greifen Sie über die Startseite für Überwachungsberichte zu. Wenn Sie jedoch den [Anruf Detail Bericht in Skype for Business Server](call-detail-report.md) anzeigen, können Sie einen Drilldown zum gerätebericht für ein bestimmtes Gerät durchführen, indem Sie auf eine der folgenden Metriken klicken:
+Der Zugriff auf den Gerätebericht erfolgt in der Regel über die Startseite für Überwachungsberichte. Wenn Sie jedoch den Anrufdetailbericht [in Skype for Business Server](call-detail-report.md) anzeigen, können Sie einen Drilldown zum Gerätebericht für ein bestimmtes Gerät anzeigen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Aufnahmegerät
     
-- Darstellungsgerät
+- Rendergerät
     
-Im gerätebericht können Sie einen Drilldown zum [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
+Im Gerätebericht können Sie einen Drilldown zum Anruflistenbericht [in Skype for Business Server](call-list-report-0.md) erstellen, indem Sie auf eine der folgenden Metriken klicken:
   
-- Anruflautstärke
+- Anrufvolumen
     
 - Prozentsatz der Anrufe schlechter Qualität
     
-## <a name="making-the-best-use-of-the-device-report"></a>Optimales Nutzen des Geräteberichts
+## <a name="making-the-best-use-of-the-device-report"></a>Optimale Nutzung des Geräteberichts
 
-Im Hinblick auf Gerätenamen ist der Gerätebericht besonders detailliert. Beispielsweise könnten die folgenden Aufnahmegeräte vorhanden sein:
+Wenn es um Gerätenamen geht, ist der Gerätebericht sehr detailliert. Angenommen, Sie verfügen über die folgenden Aufnahmegeräte:
   
 - Aastra 3002-Mikrofon (2- Aastra 3002)
     
@@ -107,9 +107,9 @@ Im Hinblick auf Gerätenamen ist der Gerätebericht besonders detailliert. Beisp
 - Aastra 6725ip-Mikrofon (USB-Audiogerät)-V0
     
 > [!NOTE]
-> Beachten Sie, dass die Namen von Aufnahmegeräten möglicherweise nicht identisch sind, wenn Sie lokalisierte Versionen von Skype for Business Server ausführen. Ein Gerät namens Aastra 6725ip-Mikrofon (Aastra 6725ip)-V0 hat wahrscheinlich auf Französisch oder Spanisch eine andere Bezeichnung. 
+> Beachten Sie, dass die Namen der Aufnahmegeräte möglicherweise nicht identisch sind, wenn Sie lokalisierte Versionen von Skype for Business Server ausführen. Ein Gerät mit dem Namen "Aastra 6725ip Microphone (Aastra 6725ip)-V0" in Englisch (USA) könnte in Französisch oder Spanisch einen anderen Namen haben. 
   
-Diese Detailgenauigkeit ist häufig sehr nützlich. In manchen Situationen möchten Sie aber vielleicht nur wissen, von wie vielen Anrufen ein beliebiges Aastra-Mikrofon, unabhängig von der Modellnummer, verwendet wird. Dazu können Sie die Geräteberichtsdaten nach Microsoft Excel exportieren und dann in einer CSV-Datei (Comma-Separated Values, Datei mit durch Trennzeichen getrennten Werten) speichern (z. B. C:\Data\Gerätebericht.csv). Anschließend können Sie mithilfe von Befehlen wie den folgenden die CSV-Datei in Windows PowerShell importieren und die Gesamtzahl der Anrufe ausgeben, die mit einem Aastra-Aufnahmegerät getätigt wurden:
+Häufig möchten Sie diese Detailebene haben. In anderen Zeiten interessiert Sie jedoch möglicherweise nur, wie viele Anrufe ein beliebiges Aastra-Mikrofon verwenden, unabhängig von der Modellnummer. Eine Möglichkeit, informationen wie diese zu erhalten, ist das Exportieren der Geräteberichtsdaten nach Microsoft Excel und das anschließende Speichern dieser Daten in einer Datei mit durch Kommas getrennten Werten (z. B. C:\Data\Devices_Report.csv). Sie können dann eine Reihe von Befehlen verwenden, die diesen ähneln, um die zu importieren. csv file into Windows PowerShell and report back the total number of calls made using an Aastra capture device:
   
 ```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
@@ -118,48 +118,48 @@ $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
 $x
 ```
 
-Damit wird ein einzelner Wert zurückgegeben, der die Gesamtzahl der Anrufe angibt, die mit einem Aastra-Aufnahmegerät ausgeführt wurden. Beispiel: 384
+Dies gibt einen einzelnen Wert zurück, der die Gesamtzahl der Anrufe darstellt, die mit einem Aastra-Aufnahmegerät erfolgt sind. Beispiel: 384
 
 ## <a name="filters"></a>Filter
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie im Gerätebericht nach dem Anruftyp filtern (d. h., ob der Anruf ein Clientanruf, eine Telefonkonferenz oder ein PSTN-Anruf ist). Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Geräte nach Stunde, Tag, Woche oder Monat gruppiert.
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Mit dem Gerätebericht können Sie z. B. nach Dem Anruftyp (d. h. einem Clientanruf), einem Konferenzanruf oder einem Festnetzanruf (Public Switched Telephone Network, PSTN) filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Geräte nach Stunde, Tag, Woche oder Monat gruppieren.
   
-In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Gerätebericht verwenden können.
+In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Gerätebericht verwenden können.
   
-**Geräteberichtfilter**
+**Geräteberichtsfilter**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**Von** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 07.07.2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 03.07.2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Ursache für die Sprachumschaltung** <br/> |Der Grund, weshalb der Halbduplex-Modus für einen Anruf verwendet werden musste, um Echo zu verhindern. Im Halbduplex-Modus ist die Kommunikation jeweils nur in eine Richtung möglich, ähnlich wie bei Funksprechgeräten, bei denen auch abwechselnd gesprochen wird. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Kein fehlerhafter Zeitstempel Echo DNLP (dynamischer nichtlinearer Prozessor) niedrige Komplexität fehlerhafter Gerätezustand nach AEC-Echo (akustische Echounterdrückung) |
-|**Ursache für Echo** <br/> |Der Grund, weshalb bei einem Anruf Echo über dem akzeptablen Niveau festgestellt wurde. (In der Telekommunikation handelt es sich bei Echo um eine Schallreflexion; dasselbe Phänomen tritt auf, wenn Sie in einen Brunnen rufen). Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Kein fehlerhafter Timestamp-Post-AEC-Echo (akustische Echounterdrückung) ANLP (adaptiver nichtlinearer Prozessor) DNLP (dynamischer nichtlinearer Prozessor) Mikrofon Ausschnitt |
-|**Anruftyp** <br/> |Gibt an, welcher Typ von Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Client Anruf PSTN-Anruf-Konferenzanruf |
-|**Zugriffstyp** <br/> |Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Intern extern |
-|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle Kabelgebundenes WLAN |
-|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> Alle VPN-nicht-VPN |
-|**Gerätetyp** <br/> |Gibt den Typ des Geräts an. Wählen Sie eine der folgenden Optionen aus:  <br/> Capture Device Capture/Render Device Pair |
-|**Gerätename** <br/> |Der Name des Aufnahme- oder Darstellungsgeräts. Sie können den vollständigen Gerätenamen oder einen Teil davon eingeben. Geben Sie beispielsweise wie folgt den vollständigen Gerätenamen ein, um nach dem Gerät „Mikrofon (Microsoft LifeCam VX-1000)“ zu suchen:  <br/> Mikrofon (Microsoft LifeCam VX-1000)  <br/> Sie können aber auch nur einen Teil des Namens eingeben. Beispiel:  <br/> LifeCam  <br/> Beachten Sie, dass mit dem vorherigen Filter alle Geräte zurückgegeben werden, welche die Zeichenfolge „LifeCam“ im Namen enthalten.  <br/> |
+|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Ursache des Sprachwechsels** <br/> |Grund, warum ein Anruf in den Halbduplexmodus versetzt werden musste, um Echo zu verhindern. Im Halbduplexmodus kann die Kommunikation in einer Richtung gleichzeitig ausgeführt werden, ähnlich wie bei der Kommunikation mit einem Walkie-Talkie-Benutzer. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] None Bad timestamp Echo DNLP (dynamic nonlinear processor) Low complexity Bad device state Post-AEC echo (echo cancellation) |
+|**Echoursache** <br/> |Grund, warum echo über der akzeptierten Ebene in einem Anruf erkannt wurde. (In der Telekommunikation ist Echo eine Spiegelung von Sound, die gleiche Musik, die Sie hören, wenn Sie nach unten in einem Welle klingen.) Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] None Bad timestamp Post-AEC echo (echounterdrückung) ANLP (adaptiver nichtlinearer Prozessor) DNLP (dynamic nonlinear processor) Microphone Clipping |
+|**Anruftyp** <br/> |Gibt den Typ des Anrufs an, der ausgeführt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Telefonkonferenzanruf für Clientanrufe |
+|**Zugriffstyp** <br/> |Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Intern extern |
+|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Kabelgebundenes Drahtlos |
+|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] VPN-Nicht-VPN |
+|**Gerätetyp** <br/> |Gibt den Gerätetyp an. Wählen Sie eine der folgenden Optionen aus:  <br/> Aufnahmegerät Rendergerät Aufnahme-/Rendergerätpaar |
+|**Gerätename** <br/> |Name des Aufnahme- oder Rendergeräts. Sie können den vollständigen Gerätenamen oder einen beliebigen Teil des Gerätenamens eingeben. Um beispielsweise das Gerätemikrofon (Microsoft LifeCam VX-1000) zu finden, können Sie den vollständigen Gerätenamen wie folgt eingeben:  <br/> Mikrofon (Microsoft LifeCam VX-1000))  <br/> Sie können auch nur einen Teil des Namens eingeben. Beispiel:  <br/> LifeCam  <br/> Beachten Sie, dass der vorstehende Filter alle Geräte zurückgibt, die die Zeichenfolge "LifeCam" an einer beliebigen Stelle im Namen enthalten.  <br/> |
    
 ## <a name="metrics"></a>Metriken
 
-In der folgenden Tabelle werden Metriken aufgelistet, die im Gerätebericht angegeben werden.
+In der folgenden Tabelle sind die im Gerätebericht angegebenen Informationen aufgeführt.
   
-**Geräteberichtmetriken**
+**Metriken im Gerätebericht**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Aufnahmegerät** <br/> |Ja  <br/> |Ein Gerät (z. B. ein Mikrofon oder eine Webcam), das für die Übertragung von Audio verwendet wird.  <br/> |
-|**Darstellungsgerät** <br/> |Ja  <br/> |Ein Gerät (z. B. ein Headset oder Lautsprecher), das für den Empfang von Audio verwendet wird.  <br/> |
-|**Anruflautstärke** <br/> |Ja  <br/> |Die Gesamtzahl der getätigten Anrufe.  <br/> |
-|**Prozentsatz der Anrufe schlechter Qualität** <br/> |Ja  <br/> |Der Prozentsatz der Anrufe, die als Anrufe schlechter Qualität klassifiziert wurden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).  <br/> |
-|**Eindeutige Benutzer** <br/> |Ja  <br/> |Die eindeutigen Benutzer, die das Gerät verwendet haben. Wenn ein Benutzer das Gerät 13 Mal verwendet hat, zählt er als ein eindeutiger Benutzer. Dasselbe gilt für einen Benutzer, der das Gerät nur ein einziges Mal verwendet hat.  <br/> |
-|**Anteil Sprachumschaltzeit** <br/> |Ja  <br/> |Der Prozentsatz des Anrufs, der im Halbduplex-Modus getätigt werden musste, um Echo zu verhindern. Im Halbduplex-Modus ist die Kommunikation jeweils nur in eine Richtung möglich, ähnlich wie bei Funksprechgeräten, bei denen auch abwechselnd gesprochen wird.  <br/> |
-|**Anteil nicht funktionierendes Mikrofon** <br/> |Ja  <br/> |Der Prozentsatz des Anrufs, bei dem das Aufnahmegerät nicht ordnungsgemäß funktionierte. Ein hoher Wert ist ein Hinweis, dass Qualitätsprobleme beim Anruf in erster Linie darauf zurückzuführen sind, dass das Aufnahmegerät nicht erwartungsgemäß funktionierte.  <br/> |
-|**Anteil nicht funktionierender Lautsprecher** <br/> |Ja  <br/> |Der Prozentsatz des Anrufs, bei dem das Darstellungsgerät nicht ordnungsgemäß funktionierte. Ein hoher Wert ist ein Hinweis, dass Qualitätsprobleme beim Anruf in erster Linie darauf zurückzuführen sind, dass das Darstellungsgerät nicht erwartungsgemäß funktionierte.  <br/> |
-|**Anrufe mit Sprachumschaltung (%)** <br/> |Ja  <br/> |Der Prozentsatz der Gesamtanrufe, die im Halbduplex-Modus getätigt werden mussten. Im Halbduplex-Modus ist die Kommunikation jeweils nur in eine Richtung möglich, ähnlich wie bei Funksprechgeräten, bei denen auch abwechselnd gesprochen wird.  <br/> |
-|**Echo in Mikrofon (%)** <br/> |Ja  <br/> |Prozentsatz der Zeit, in der im Mikrofonaufnahme-Datenstrom Echo festgestellt wurde. In der Regel weisen Headsets oder Hörer niedrige Werte und Freisprechvorrichtungen oder eigenständige Lautsprecher höhere Werte auf. Bei Geräten, die eine integrierte akustische Echounterdrückung unterstützen, weisen hohe Werte auf eine Echoausbreitung hin. Für andere Geräte sollte diese Metrik nicht verwendet werden, um die Gerätequalität zu evaluieren.  <br/> |
-|**Echo-Übertragung (%)** <br/> |Ja  <br/> |Der Prozentsatz an Echo, das an andere Benutzer übertragen wird.  <br/> |
-|**Anrufe mit Echo (%)** <br/> |Ja  <br/> |Der Prozentsatz der Gesamtanrufe mit Echo über dem akzeptablen Niveau.  <br/> |
+|**Aufnahmegerät** <br/> |Ja  <br/> |Gerät (z. B. ein Mikrofon oder eine Webcam), das für die Übertragung von Audiodaten verwendet wird.  <br/> |
+|**Darstellungsgerät** <br/> |Ja  <br/> |Gerät (z. B. ein Headset oder Lautsprecher), das zum Empfangen von Audiodaten verwendet wird.  <br/> |
+|**Anruflautstärke** <br/> |Ja  <br/> |Gesamtanzahl der anrufe.  <br/> |
+|**Prozentsatz der Anrufe schlechter Qualität** <br/> |Ja  <br/> |Prozentsatz der Anrufe, die als "schlecht" klassifiziert wurden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).  <br/> |
+|**Eindeutige Benutzer** <br/> |Ja  <br/> |Eindeutige Benutzer, die das Gerät verwendet haben. Wenn ein Benutzer das Gerät 13-mal verwendet, zählt er als ein eindeutiger Benutzer, genauso wie ein Benutzer, der das Gerät nur einmal verwendet hat.  <br/> |
+|**Verhältnis der Sprachumschaltzeit** <br/> |Ja  <br/> |Prozentsatz des Anrufs, der im Halbduplexmodus durchgeführt werden musste, um Echo zu verhindern. Im Halbduplexmodus kann die Kommunikation in einer Richtung gleichzeitig ausgeführt werden, ähnlich wie bei der Kommunikation mit einem Walkie-Talkie-Benutzer.  <br/> |
+|**Verhältnis des Mikrofons, das nicht funktioniert** <br/> |Ja  <br/> |Prozentsatz des Anrufs, bei dem das Aufnahmegerät auf einer akzeptablen Ebene nicht funktioniert hat. Ein hoher Wert deutet darauf hin, dass Qualitätsprobleme mit dem Anruf in erster Linie darauf hindeuteten, dass das Aufnahmegerät nicht wie erwartet funktionierte.  <br/> |
+|**Verhältnis der nicht funktionierenden Lautsprecher** <br/> |Ja  <br/> |Prozentsatz des Anrufs, bei dem das Rendergerät nicht auf einer akzeptablen Ebene funktioniert hat. Ein hoher Wert deutet darauf hin, dass Qualitätsprobleme mit dem Anruf in erster Linie darauf hindeuteten, dass das Rendergerät nicht wie erwartet funktionierte.  <br/> |
+|**Anrufe mit Sprachumschaltung (%)** <br/> |Ja  <br/> |Prozentsatz der Gesamtanrufe, die in den Halbduplexmodus versetzt werden mussten. Im Halbduplexmodus kann die Kommunikation in einer Richtung gleichzeitig ausgeführt werden, ähnlich wie bei der Kommunikation mit einem Walkie-Talkie-Benutzer.  <br/> |
+|**Echomikrofon in (%)** <br/> |Ja  <br/> |Prozentsatz der Zeit, in der echo im Mikrofonaufnahmedatenstrom erkannt wurde. In der Regel sind die Werte für Headsets oder Handsets niedrig und für Freisprechtelefone oder eigenständige Lautsprecher höher. Bei Geräten, die die Echounterdrückung an Bord unterstützen, weisen hohe Werte auf ein Echoleck hin. Bei anderen Geräten sollte diese Metrik nicht zum Bewerten der Gerätequalität verwendet werden.  <br/> |
+|**Echo senden (%)** <br/> |Ja  <br/> |Prozentsatz des Echos, das an andere Benutzer übertragen wird.  <br/> |
+|**Anrufe mit Echo (%)** <br/> |Ja  <br/> |Prozentsatz der Gesamtanrufe, bei deren Echo die akzeptable Ebene überschritten wurde.  <br/> |
    
 

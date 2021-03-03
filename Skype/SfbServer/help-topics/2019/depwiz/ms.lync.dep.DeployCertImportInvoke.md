@@ -1,8 +1,8 @@
 ---
 title: Importieren von Zertifikaten (Aufruf)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Überprüfen Sie auf der Seite Ausführungsbefehle die Zusammenfassungsinformationen für das importierte Zertifikat. Wählen Sie in der Dropdownliste die Option Zertifikat Protokolldatei importieren aus. Stellen Sie sicher, dass die Import Zertifikat Protokolldatei in der Dropdownliste angezeigt wird. Klicken Sie auf Protokoll anzeigen, um die Details des Zertifikat Imports zu überprüfen. Wenn Sie mit der Überprüfung der Zusammenfassung und der Protokolldatei fertig sind, klicken Sie auf Fertig stellen.
-ms.openlocfilehash: 44ef65086681302624ff34404167c240c579b735
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Überprüfen Sie auf der Seite Befehle werden ausgeführt die Zusammenfassung zum importierten Zertifikat. Wählen Sie in der Dropdownliste die Protokolldatei zum Zertifikatimport aus. Vergewissern Sie sich, dass die Protokolldatei zum Zertifikatimport in der Dropdownliste angezeigt wird. Klicken Sie auf Protokoll anzeigen, um die Details zum Zertifikatimport anzuzeigen. Wenn Sie die Zusammenfassung und die Protokolldatei durchgesehen haben, klicken Sie auf Fertig stellen.
+ms.openlocfilehash: 3bee81c794852a9e09d2a5ec86e8226cda7c5e43
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796856"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837055"
 ---
-# <a name="import-certificate-invoke"></a>Importieren von Zertifikaten (Aufruf)
+# <a name="import-certificate-invoke"></a>Importieren eines Zertifikats (Aufruf)
  
-Überprüfen Sie auf der Seite **Ausführungsbefehle** die Zusammenfassungsinformationen für das importierte Zertifikat. Wählen Sie in der Dropdownliste die Option Zertifikat Protokolldatei importieren aus. Stellen Sie sicher, dass die Import Zertifikat Protokolldatei in der Dropdownliste angezeigt wird. Klicken Sie auf **Protokoll anzeigen** , um die Details des Zertifikat Imports zu überprüfen. Wenn Sie mit der Überprüfung der Zusammenfassung und der Protokolldatei fertig sind, klicken Sie auf **Fertig stellen**.
+Überprüfen Sie auf der Seite **Befehle werden ausgeführt** die Zusammenfassung zum importierten Zertifikat. Wählen Sie in der Dropdownliste die Protokolldatei zum Zertifikatimport aus. Vergewissern Sie sich, dass die Protokolldatei zum Zertifikatimport in der Dropdownliste angezeigt wird. Klicken Sie auf **Protokoll anzeigen**, um die Details zum Zertifikatimport anzuzeigen. Wenn Sie die Zusammenfassung und die Protokolldatei durchgesehen haben, klicken Sie auf **Fertig stellen**.
   
 

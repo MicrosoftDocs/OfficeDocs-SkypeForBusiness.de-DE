@@ -1,7 +1,7 @@
 ---
-title: Überlegungen zur Domänenzusammenführung in Skype Room System
-ms.author: v-lanac
-author: lanachin
+title: Überlegungen zum Beitritt zur Skype Room System-Domäne
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -11,49 +11,49 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
-description: Lesen Sie dieses Thema und erfahren Sie, wie Sie Ihrer Domäne einen Skype Room System-Anwendungs-PC hinzufügen.
-ms.openlocfilehash: 49e8c89ed9ddbbd579e7ed30fec6b98a933e3a3f
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: In diesem Thema erfahren Sie, wie Sie einen Skype Room System-Appliance-PC zu Ihrer Domäne hinzufügen.
+ms.openlocfilehash: 6d6decf689b1a38615851911b42676050a823e4d
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768928"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49805915"
 ---
-# <a name="skype-room-system-domain-joining-considerations"></a>Überlegungen zur Domänenzusammenführung in Skype Room System
+# <a name="skype-room-system-domain-joining-considerations"></a>Überlegungen zum Beitritt zur Skype Room System-Domäne
  
-Lesen Sie dieses Thema und erfahren Sie, wie Sie Ihrer Domäne einen Skype Room System-Anwendungs-PC hinzufügen.
+In diesem Thema erfahren Sie, wie Sie einen Skype Room System-Appliance-PC zu Ihrer Domäne hinzufügen.
   
-## <a name="domain-joining-considerations"></a>Überlegungen zur Domänenteilnahme
+## <a name="domain-joining-considerations"></a>Überlegungen zur Domänenverknüpfung
 
-Sie können den PC der Skype Room-System Einheit an die Active Directory-Domäne anschließen oder in einer Arbeitsgruppe belassen. Berücksichtigen Sie die folgenden Punkte, bevor Sie diese Entscheidung treffen:
+Sie können den Skype Room System-Appliance-PC der Active Directory-Domäne hinzufügen oder ihn in einer Arbeitsgruppe be lassen. Berücksichtigen Sie die folgenden Punkte, bevor Sie diese Entscheidung treffen:
   
-- Domain-Beitritt zum Skype Room System Appliance PC hilft beim automatischen Importieren der privaten root-Zertifikatkette Ihres Unternehmens.
+- Die Domänenverkn nnung des Skype Room System-Appliance-PCs hilft beim automatischen Importieren der privaten Stammzertifikatkette Ihrer Organisation.
     
-- Domain-Beitritt zum Skype Room System Appliance PC können Sie Domänenbenutzern und Gruppenadministrator Rechte erteilen. Dadurch müssten Sie sich das Kennwort für das Administratorkonto auf Computerebene nicht merken.
+- Mit der Domänenverkn nung des Skype Room System-Appliance-PCs können Sie Domänenbenutzern und Gruppen Administratorrechte erteilen. Dadurch müssen Sie sich das Administratorkontokennwort auf lokaler Computerebene nicht merken.
     
-- Wenn Sie der Domäne einen Skype Room-systemappliance-PC beitreten, ist es erforderlich, dass Sie eine separate Organisationseinheit (Organizational Unit, OU) erstellen, damit Sie der Organisationseinheit, in der sich alle Skype Room-System Computerobjekte befinden, Gruppenrichtlinienobjekt-Ausschlüsse bereitstellen können. Wenn Sie dies tun, erstellen Sie in der Organisationseinheit Computerobjekte, bevor Sie dem PC der Skype Room-System Einheit zur Domäne beitreten.
+- Wenn Sie einen Skype Room System-Appliance-PC mit der Domäne verbinden, müssen Sie eine separate Organisationseinheit (Organizational Unit, OU) erstellen, damit Sie Gruppenrichtlinienobjektausschlüsse für die Organisationseinheit bereitstellen können, in der sich alle Skype Room System-Computerobjekte befinden. Erstellen Sie dabei Computerobjekte in der Organisationseinheit, bevor Sie den Skype Room System-Appliance-PC der Domäne hinzufügen.
     
-- Viele Organisationen verfügen über die folgenden GPOs, die sich auf die PC-Funktionen der Skype Room-System Einheit auswirken. Stellen Sie sicher, dass Sie die Vererbung dieser GPOs in der Skype Room System ou außer Kraft setzen oder blockieren: 
+- Viele Organisationen verfügen über die folgenden Gruppenrichtlinienobjekte, die sich auf die Funktionen des Skype Room System-Appliance-PCs auswirken. Stellen Sie sicher, dass Sie die Vererbung dieser Gruppenrichtlinienobjekte in der Organisationseinheit "Skype Room System" außer Kraft setzen oder blockieren: 
     
-  - Timeout von Anmeldesitzungen (automatische Sperre)
+  - Timeout für Anmeldesitzungen (automatische Sperre)
     
-  - Richtlinien in Bezug auf die Energieverwaltung
+  - Richtlinien im Zusammenhang mit der Energieverwaltung
     
-  - Notwendigkeit zusätzlicher Authentifizierungsschritte
+  - Zusätzliche Authentifizierungsschritte erforderlich
     
   - Verweigern des Zugriffs auf lokale Laufwerke
     
-  - Benutzeraufforderungen bei langsamen Netzwerkverbindungen
+  - Benutzer zur Eingabe langsamer Netzwerkverbindungen aufforderen
     
   - Starten eines bestimmten Programms bei der Anmeldung
     
-  - Erstellen eines weiteren Domänennutzerkontos auf allen Computern in der Domäne.
+  - Erstellen Sie ein weiteres Domänenbenutzerkonto auf allen Computern, die der Domäne beigetreten sind.
     
-  - Windows Update auf das Skype Room-System pushen
+  - Push von Windows Update auf Skype Room System
     
-- Alternativ könnten Sie sich dazu entschließen, den Anwendungs-PC in der Arbeitsgruppe zu belassen. Wie beim Desktop-Skype for Business-Client müssen Sie die Root-Zertifikatkette manuell auf dem PC der Skype Room-System Einheit importieren. Sie müssen die Stammzertifikatkette nicht importieren, wenn Ihre Skype for Business-Bereitstellung ein öffentliches Zertifikat verwendet (beispielsweise Entrust, VeriSign usw.). 
+- Alternativ können Sie den Appliance-PC in der Arbeitsgruppe be be lassen. Wie beim Skype for Business-Desktopclient müssen Sie hierfür die Stammzertifikatkette manuell auf den Skype Room System-Appliance-PC importieren. Sie müssen die Stammzertifikatkette nicht importieren, wenn Ihre Skype for Business-Bereitstellung ein öffentliches Zertifikat verwendet (z. B. "VeriSign", "VeriSign" und so weiter). 
     
-Wenn Sie beabsichtigen, an der Domäne an Skype Room-System Computer teilzunehmen, um zu vermeiden, dass Sie versehentlich zu einer unbeabsichtigten ou, die nicht frei von GPOs ist, dem Skype Room-System Computer beitreten, stellen Sie bitte sicher, dass Sie der richtigen ou beitreten. Sie können das folgende Cmdlet vom Skype Room-System Computer verwenden, um an der richtigen Organisationseinheit teilzunehmen, und es werden keine GPOs empfangen, die die LRS-Funktionalität blockieren könnten. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, wenn Sie Fragen zur Ausführung dieses Cmdlets haben:
+Wenn Sie planen, Skype Room System-Computer mit der Domäne zu verknüpfen, um zu verhindern, dass der Skype Room System-Computer versehentlich einer unbeabsichtigten Ou beitritt, die möglicherweise nicht frei von Gruppenrichtlinienobjekten ist, stellen Sie sicher, dass Sie der richtigen Organisationseinheit beitreten. Sie können das folgende Cmdlet vom Skype Room System-Computer verwenden, um an der richtigen Organisationseinheit teil zu nehmen, und erhalten keine Gruppenrichtlinienobjekte, die die Funktionalität von LRS blockieren könnten. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, um dieses Cmdlet ausführen zu können:
   
 ```powershell
 $username = "contso.local\LRS01"
@@ -62,12 +62,12 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Sogar wenn Sie eine separate OU erstellen und die Vererbung blockieren, gibt es einige Richtlinien, die Probleme auf einer höheren Ebene verursachen könnten. Eine Gruppenrichtlinie mit „Nicht aufheben“-Einstellung hat Vorrang gegenüber einer OU mit „Richtlinienvererbung aufheben“-Einstellung. Weitere Informationen finden Sie im Artikel [keine Überschreibung im Vergleich zum Blockieren der Richtlinienvererbung](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) in der Gruppenrichtliniendokumentation.
+Auch wenn Sie eine separate Organisationseinheit erstellen und die Vererbung blockieren, gibt es einige Richtlinien, die zu Problemen auf einer höheren Ebene führen können. Eine Gruppenrichtlinie ohne Außerkraftsetzung schlägt eine Organisationseinheit mit einer Einstellung zum Blockieren der Richtlinienvererbung. Weitere Informationen finden Sie im Artikel ["No Override as Compared to Block Policy Inheritance"](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) in der Gruppenrichtliniendokumentation.
   
-Unter Umständen stehen Ihnen mehrere Ansätze zur Lösung dieser Probleme zur Verfügung. Es wird empfohlen, dass Sie sich an Ihre Active Directory-Experten wenden, um sicherzustellen, dass Sie über eine OU mit den angemessenen GPO-Einstellungen oder wenigstens über eine OU verfügen, in der die weiter oben beschriebenen Richtlinien nicht vorhanden sind. Es wird empfohlen, Quality of Service (QoS) für Skype Room-System Geräte zu aktivieren.
+Möglicherweise haben Sie mehrere Ansätze, um diese Probleme zu lösen. Wir empfehlen Ihnen, sich an Ihre Active Directory-Experten zu wenden, um sicherzustellen, dass Ihnen eine Organisationseinheit mit den entsprechenden Gruppenrichtlinieneinstellungen oder mindestens eine Organisationseinheit zur Verfügung gestellt wird, in der die zuvor beschriebenen Richtlinien nicht vorhanden sind. Es wird empfohlen, QoS (Quality of Service) für Skype Room System-Geräte zu aktivieren.
 
 ## <a name="see-also"></a>Siehe auch
   
 [Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
-[Verwalten der Dienstqualität (Quality of Service, QoS)](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
+[Verwalten der Dienstqualität](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

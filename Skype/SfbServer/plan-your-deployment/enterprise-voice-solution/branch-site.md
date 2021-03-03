@@ -1,8 +1,8 @@
 ---
-title: SIP-Trunking in der Zweigstelle in Skype for Business Server
+title: Zweigstellen-SIP-Trunking in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
-description: Informieren Sie sich über SIP-Trunking an Zweigstellen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 158c1cff28ba0c21f5c995a1fe5b7dfdf2f9f150
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Erfahren Sie mehr über das SIP-Trunking an Zweigstellenstandorten in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: f8b875fca8adc1ac78c0b24cf3e53fab2ec2cd89
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803255"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813715"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>SIP-Trunking in der Zweigstelle in Skype for Business Server
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Zweigstellen-SIP-Trunking in Skype for Business Server
  
-Informieren Sie sich über SIP-Trunking an Zweigstellen in Skype for Business Server Enterprise-VoIP.
+Erfahren Sie mehr über das SIP-Trunking an Zweigstellenstandorten in Skype for Business Server Enterprise-VoIP.
   
-In einigen Fällen müssen Sie möglicherweise verteilte SIP-Trunking an ausgewählten Zweigstellen implementieren. Wenn Sie feststellen möchten, ob ein SIP-Trunk für eine Zweigstelle benötigt wird, und Details zu den unterstützten Topologie-Optionen für die Bereitstellung von SIP-Stämmen in Zweigstellen finden Sie unter [SIP-Trunking in Skype for Business Server](sip-trunking.md).
+In einigen Fällen müssen Sie möglicherweise verteiltes SIP-Trunking an ausgewählten Zweigstellenstandorten implementieren. Informationen dazu, ob ein SIP-Trunk für einen Zweigstellenstandort erforderlich ist, sowie Details zu den unterstützten Topologieoptionen für die Bereitstellung von SIP-Trunks an Zweigstellenstandorten finden Sie unter ["SIP-Trunking" in Skype for Business Server.](sip-trunking.md)
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Beispielanalyse für die SIP-Trunkanforderungen an einer Zweigniederlassung
 
-Wenn Sie sich für die Bereitstellung einer Zweigstelle SIP Trunk entscheiden, müssen Sie eine Website spezifische Kostenanalyse durchführen. Beispielsweise sollte ein Unternehmen mit einem zentralen Standort in Redmond, Washington und einer Zweigstelle in New York eine Analyse durchführen, um zu ermitteln, ob ein SIP-Trunk vom Standort New York zu einem lokalen Dienstanbieter implementiert werden soll.
+Wenn Sie sich für die Bereitstellung eines Zweigstellen-SIP-Trunks entscheiden, müssen Sie eine standortspezifische Kostenanalyse durchführen. Beispielsweise sollte ein Unternehmen mit einem zentralen Standort in Redmond, Washington und einem Zweigstellenstandort in New York eine Analyse durchführen, um festzustellen, ob ein SIP-Trunk vom Standort New York an einen lokalen Dienstanbieter implementiert werden soll.
   
-Wenn Sie feststellen möchten, ob ein verteilter SIP-Trunk in New York kostengünstig ist, ermitteln Sie, welche Direktwahlnummern (DID) den SIP-Stamm verwenden, und analysieren Sie die Anzahl der Anrufe, die in New York an andere Bereiche als Redmond (425) vorgenommen werden. Sie können für die Verzweigungs Website am zentralen Standort beendet haben. So kann beispielsweise auf der zentralen Website von Redmond die Nummer für die Niederlassung in der New York Branch-Website gehostet werden. Wenn die Kosten für die Implementierung eines verteilten SIP-Trunks kleiner als die Kosten dieser Anrufe sind, sollten Sie einen SIP-Trunk an der New York Branch-Website implementieren. 
+Um festzustellen, ob ein verteilter SIP-Trunk in New York kostengünstig ist, identifizieren Sie, welche Direct Inward Dialing (DID)-Nummern den SIP-Trunk verwenden, und analysieren Sie die Anzahl der Anrufe, die New York in anderen Bereichen als Redmond (425) tätigt. Sie können die DID-Beendigung für den Zweigstellenstandort am zentralen Standort haben. Am zentralen Standort "Redmond" können beispielsweise die DID-Nummern für den Zweigstellenstandort "New York" hosten. Wenn die Kosten für die Implementierung eines verteilten SIP-Trunks geringer sind als die Kosten dieser Anrufe, sollten Sie die Implementierung eines SIP-Trunks am Zweigstellenstandort New York in Betracht ziehen. 
   
 ## <a name="other-branch-site-sip-trunk-requirements"></a>Weitere SIP-Trunkanforderungen für Zweigniederlassungen
 
-Die Entscheidung, ob anstelle eines Gateways ein SIP-Trunk bereitgestellt werden sollte, hängt von der Kostendifferenz bei Ferngesprächen der einzelnen Optionen ab. Wenn Sie eine Verzweigungs Website SIP-Trunk bereitstellen, müssen Sie auch ihre Stabilitäts-und Bandbreitenanforderungen ermitteln. Wenn der Link zwischen Ihrer Zweigstelle und dem zentralen Standort widerstandsfähig ist und über genügend Bandbreite verfügt, können Sie einen SIP-Trunk oder ein Gateway bereitstellen. Sie müssen keine Survivable Branch-Appliance an der Zweigstelle bereitstellen. Wenn der Link zwischen Ihrer Verzweigungs Website und dem zentralen Standort nicht belastbar ist, stellen Sie eine Survivable Branch-Appliance bereit, oder stellen Sie einen überlebensfähigen Verzweigungs Server mit einem Gateway oder SIP-Trunk an der Zweigstelle bereit. 
+Die Entscheidung, ob anstelle eines Gateways ein SIP-Trunk bereitgestellt werden sollte, hängt von der Kostendifferenz bei Ferngesprächen der einzelnen Optionen ab. Wenn Sie einen Zweigstellen-SIP-Trunk bereitstellen, müssen Sie auch ihre Anforderungen an Ausfallsicherheit und Bandbreite ermitteln. Wenn die Verbindung zwischen Ihrem Zweigstellenstandort und dem zentralen Standort ausfallsicher ist und über ausreichend Bandbreite verfügt, können Sie einen SIP-Trunk oder ein Gateway bereitstellen. Sie müssen keine Survivable Branch Appliance am Zweigstellenstandort bereitstellen. Wenn die Verbindung zwischen Ihrem Zweigstellenstandort und dem zentralen Standort nicht ausfallsicher ist, stellen Sie eine Survivable Branch Appliance oder einen Survivable Branch Server mit einem Gateway oder einem SIP-Trunk am Zweigstellenstandort zur Verfügung. 
   
 

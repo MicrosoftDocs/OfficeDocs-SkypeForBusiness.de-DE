@@ -1,8 +1,8 @@
 ---
-title: CallPriorities-Tabelle in Skype for Business Server 2015
+title: Tabelle "CallPriorities" in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
-description: Bei der CallPriorities-Tabelle handelt es sich um eine statische Tabelle, in der die Liste möglicher Anruf Prioritäten wie "Notfall", "dringend" oder "Normal" gespeichert ist.
-ms.openlocfilehash: 57ab4c2b190b14d26a7f8be1791eb70473f1eb3c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Die Tabelle "CallPriorities" ist eine statische Tabelle, in der die Liste möglicher Anrufprioritäten wie "Notfall", "Dringend" oder "Normal" enthalten ist.
+ms.openlocfilehash: 54fdd70dcd939cfeb227862d6152577c4c91d3b3
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815443"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49813435"
 ---
-# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>CallPriorities-Tabelle in Skype for Business Server 2015
+# <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Tabelle "CallPriorities" in Skype for Business Server 2015
  
-Bei der CallPriorities-Tabelle handelt es sich um eine statische Tabelle, in der die Liste möglicher Anruf Prioritäten wie "Notfall", "dringend" oder "Normal" gespeichert ist.
+Die Tabelle "CallPriorities" ist eine statische Tabelle, in der die Liste möglicher Anrufprioritäten wie "Notfall", "Dringend" oder "Normal" enthalten ist.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Prioritäts-Nr** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**Priorität** <br/> |nvarchar(256)  <br/> || Zulässige Werte: <br/>  0 – unbekannt <br/>  1 – nicht dringend <br/>  2 – Normal <br/>  3 – dringend <br/>  4 – Notfall <br/> |
+|**PriorityId** <br/> |tinyint  <br/> |Primary  <br/> ||
+|**Priority** <br/> |nvarchar(256)  <br/> || Gültige Werte: <br/>  0 – Unbekannt <br/>  1 – Nicht dringend <br/>  2 – Normal <br/>  3 – Dringend <br/>  4 – Notfall <br/> |
    
 

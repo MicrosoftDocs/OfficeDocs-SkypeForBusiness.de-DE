@@ -1,8 +1,8 @@
 ---
 title: Importieren von Zertifikaten (Zusammenfassung)
 ms.reviewer: ''
-ms.author: v-lanac
-author: lanachin
+ms.author: v-cichur
+author: cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite Zertifikatzusammenfassung importieren wird eine Zusammenfassung des Datei namens, des Pfads und des Vorhandenseins eines privaten Schlüssels angezeigt. Nachdem Sie die Zusammenfassung überprüft haben, klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: 74166ed709a3e8dd0a5b5ebaf5a4e0df3ab2564b
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Auf der Seite Zertifikat importieren – Zusammenfassung wird eine Zusammenfassung mit dem Dateinamen, Pfad und privaten Schlüssel angezeigt. Klicken Sie nach dem Überprüfen der Zusammenfassung auf Weiter, um fortzufahren.
+ms.openlocfilehash: f2300d19f68fcf4f9b5c3cc6d0e376ebe7d769e0
+ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41796846"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "49837015"
 ---
-# <a name="import-certificate-summary"></a>Importieren von Zertifikaten (Zusammenfassung)
+# <a name="import-certificate-summary"></a>Importieren eines Zertifikats (Zusammenfassung)
  
-Auf der Seite **Zertifikatzusammenfassung importieren** wird eine Zusammenfassung des Datei namens, des Pfads und des Vorhandenseins eines privaten Schlüssels angezeigt. Nachdem Sie die Zusammenfassung überprüft haben, klicken Sie auf **weiter** , um fortzufahren.
+Auf der Seite **Zertifikat importieren – Zusammenfassung** wird eine Zusammenfassung mit dem Dateinamen, Pfad und privaten Schlüssel angezeigt. Klicken Sie nach dem Überprüfen der Zusammenfassung auf **Weiter**, um fortzufahren.
   
 
