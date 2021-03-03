@@ -2,7 +2,7 @@
 title: Besprechungserfahrung nur anzeigen
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
 audience: admin
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397560"
+ms.locfileid: "50401319"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Nur-Ansichts-Besprechungserfahrung in Teams
 
 > [!Note]
-> Die Besprechungserfahrung nur anzeigen wird Anfang März 2021 verfügbar sein. Dieses Feature wird am 1. März 2021 als Standardmäßiges AUS aktiviert. Sie müssen die Standardrichtlinie nach diesem Datum ändern, wenn das Feature standardmäßig EIN sein soll. Verwenden Sie PowerShell, um die Richtlinie zu `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` aktivieren.
+> Die Besprechungserfahrung nur anzeigen wird Anfang März 2021 verfügbar sein. Dieses Feature wird am 1. März 2021 als Standardmäßiges AUS aktiviert. Sie müssen die Standardrichtlinie nach diesem Datum ändern, wenn das Feature standardmäßig EIN sein soll. Verwenden Sie PowerShell, um die Richtlinie zu `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` aktivieren.
 
 > [!Note]
-> Wir haben die Ansichtserfahrung für 20.000 Teilnehmer vorübergehend erhöht, aber wir werden den Support am 30. Juni 2021 auf 10.000 Teilnehmer zurücksetzen.
+> Wenn Ihre Besprechung oder Ihr Webinar die Kapazität erreicht, wird Teams nahtlos skaliert, um eine nur für 10.000 Personen bestimmte Übertragungserfahrung zu ermöglichen. Nutzen Sie während dieser Zeit der zunehmenden Remotearbeit sogar noch größere 20.000-Personen-Übertragungen bis Zum Ende dieses Jahres.
 
 Microsoft Teams ermöglicht bis zu 10.000 Teilnehmern die Teilnahme an einer Teams-Besprechung. Nachdem die Kapazität der Hauptsitzung erreicht wurde, nehmen weitere Teilnehmer mit einer Nur-Ansicht-Erfahrung teil.
 

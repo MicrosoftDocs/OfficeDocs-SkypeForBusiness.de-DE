@@ -9,7 +9,7 @@ manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Verwenden Sie Aufbewahrungsrichtlinien für Microsoft Teams, um Nachrichten zu behalten, die erforderlich sind, um interne Richtlinien, Branchenbestimmungen oder gesetzliche Anforderungen zu erfüllen, und um Nachrichten zu löschen, die als Haftung gelten oder keinen juristischen Geschäftswert haben.
+description: Verwenden Sie Aufbewahrungsrichtlinien für Microsoft Teams, um Nachrichten zu behalten, die erforderlich sind, um interne Richtlinien, Branchenbestimmungen oder gesetzliche Anforderungen zu erfüllen, und um Nachrichten zu löschen, die als Haftung gelten oder keinen juristischen Geschäftlichen Wert haben.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -19,17 +19,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347655"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50401309"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Verwalten von Aufbewahrungsrichtlinien für Microsoft Teams
 
 > [!NOTE]
-> Wenn Sie ein Benutzer sind, dem in Teams eine Meldung angezeigt wird, dass Ihre Chats und Nachrichten durch eine Aufbewahrungsrichtlinie gelöscht wurden, lesen Sie [Teams-Nachrichten zu Aufbewahrungsrichtlinien.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
+> Wenn in Teams eine Meldung angezeigt wird, dass Ihre Chats oder Nachrichten durch eine Aufbewahrungsrichtlinie gelöscht wurden, lesen Sie [Teams-Nachrichten zu Aufbewahrungsrichtlinien.](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)
 > 
 > Die Informationen auf dieser Seite sind für IT-Administratoren vorgesehen, die diese Aufbewahrungsrichtlinien verwalten.
 
@@ -43,7 +43,7 @@ Die Mindestlizenzanforderung für Aufbewahrungsrichtlinien für Teams ist Micros
 
 ## <a name="how-teams-retention-policies-work"></a>Funktionsweise der Aufbewahrungsrichtlinien von Teams
 
-Teams-Chatnachrichten werden in einem ausgeblendeten Ordner im Postfach jedes Benutzers gespeichert, der im Chat enthalten ist, und Teams-Kanalnachrichten werden in einem ähnlichen ausgeblendeten Ordner im Gruppenpostfach für das Team gespeichert. Wenn Sie Nachrichten beibehalten möchten, die einer Aufbewahrungsrichtlinie unterliegen, wird eine Kopie des Inhalts automatisch im  Ordner "Wiederherstellbare Elemente" in einem ausgeblendeten Ordner namens **"Unterordner" mit** dem Namen "Speicherinhalte" aufbewahrt. Solange diese Nachrichten nicht dauerhaft aus dem Ordner "Benachrichtigungen" gelöscht werden, bleiben sie mit den eDiscovery-Tools durchsucht.
+Teams-Chatnachrichten werden in einem ausgeblendeten Ordner im Postfach jedes Benutzers gespeichert, der im Chat enthalten ist, und Teams-Kanalnachrichten werden in einem ähnlichen ausgeblendeten Ordner im Gruppenpostfach für das Team gespeichert. Wenn Sie Nachrichten beibehalten möchten, die einer Aufbewahrungsrichtlinie unterliegen, wird eine Kopie des Inhalts automatisch im  Ordner "Wiederherstellbare Elemente" in einem ausgeblendeten Ordner namens **"Unterordner" mit** dem Namen "Speicherinhalte" aufbewahrt. Solange diese Nachrichten nicht dauerhaft aus dem Ordner "Benachrichtigungen" gelöscht werden, bleiben sie mit eDiscovery-Tools durchsucht.
 
 Ausführliche Informationen dazu, was für Microsoft Teams-Aufbewahrungsrichtlinien enthalten und ausgeschlossen ist und wie diese Richtlinien je nach Ihrer Richtlinienkonfiguration funktionieren, finden Sie unter Informationen zur Aufbewahrung [für Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 
