@@ -21,21 +21,18 @@ description: Ihr Teams- oder IT-Administrator kann den externen Zugriff für and
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b5d8bb969725507eec54a66c7ccb20b6eb54ec68
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: ae9a198de7fa15ac77743b2477a44602e54fecb7
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055747"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421330"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
-Externer Zugriff ist eine Möglichkeit für Teams-Benutzer aus einer ganzen externen Domäne Sie zu finden, anrufen, mit Ihnen zu chatten und Besprechungen mit Ihnen in Teams einzurichten. Sie können auch den externen Zugriff verwenden, um mit Personen aus anderen Organisationen zu kommunizieren, die noch Skype for Business (online und lokal) und Skype (in der Vorschau) verwenden.
+Externer Zugriff ist eine Möglichkeit für Teams-Benutzer aus einer ganzen externen Domäne Sie zu finden, anrufen, mit Ihnen zu chatten und Besprechungen mit Ihnen in Teams einzurichten. Sie können auch externen Zugriff verwenden, um mit Personen aus anderen Organisationen zu kommunizieren, die Skype for Business (online und lokal) und Skype (in der Vorschau) weiterhin verwenden.
 
-> [!NOTE]
-> Die zugelassenen oder blockierten Domänen werden auf Besprechungen nur dann angewendet, wenn der anonyme Zugriff auf Besprechungen deaktiviert ist.
-
-Wenn Sie Personen aus anderen Organisationen Zugriff auf Teams und Kanäle wünschen, ist der Gastzugriff möglicherweise eine bessere Möglichkeit. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+Wenn Sie möchten, dass Personen aus anderen Organisationen Zugriff auf Teams und Kanäle haben, ist der Gastzugriff möglicherweise eine bessere Möglichkeit. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Verwenden Sie den externen Zugriff in folgenden Situationen:
   
@@ -52,6 +49,9 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 
 Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Wenn Sie blockierte Domänen hinzufügen, sind alle anderen Domänen zulässig, und wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Die Ausnahme von dieser Regel ist, wenn anonyme Teilnehmer in Besprechungen zugelassen werden. Es gibt drei Szenarien für das Einrichten des externen Zugriffs im Microsoft Teams Admin Center (**Organisationsweite Einstellungen** > **Externer Zugriff**):
 
+> [!NOTE]
+> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+
 - **Offener Verbund**: Dies ist die Standardeinstellung in Teams, mit der Personen in Ihrer Organisation Sie finden, anrufen, mit Ihnen chatten und Besprechungen mit Personen in einer beliebigen Domäne außerhalb Ihrer Organisation einrichten können.
 
     In diesem Szenario können Ihre Benutzer mit allen externen Domänen kommunizieren, die Microsoft Teams oder Skype for Business ausführen UND den öffentlichen Verbund verwenden ODER Ihre Domäne zur Zulassungsliste hinzugefügt haben.
@@ -61,7 +61,7 @@ Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass I
 - **Bestimmte Domänen blockieren**: Indem Sie Domänen zu einer **Sperrliste** hinzufügen, können Sie mit allen externen Domänen *außer* den blockierten Domänen kommunizieren. Um bestimmte Domänen zu blockieren, klicken Sie auf **Domäne hinzufügen**, fügen Sie den Domänennamen hinzu, klicken Sie auf **Erforderliche Aktion für diese Domäne**, und wählen Sie dann **Blockiert** aus. Sobald Sie eine Liste blockierter Domänen erstellt haben, werden alle anderen Domänen zugelassen.
 
 > [!NOTE]
-> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> Die zugelassenen oder blockierten Domänen werden auf Besprechungen nur dann angewendet, wenn der anonyme Zugriff auf Besprechungen deaktiviert ist.
 
 ## <a name="allow-or-block-domains"></a>Zulassen oder Blockieren von Domänen
 
