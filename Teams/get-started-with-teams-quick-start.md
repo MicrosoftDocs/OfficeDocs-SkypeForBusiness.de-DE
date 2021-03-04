@@ -1,7 +1,7 @@
 ---
 title: Erste Schritte mit Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
@@ -19,58 +19,65 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a0188b544c69d3779282aff06b007f4f06910b85
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030431"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395351"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
-> [!IMPORTANT]
-> Wenn Sie Microsoft Teams als Reaktion auf einen erhöhten Bedarf zur Unterstützung von **mobiler Arbeit** schnell bereitstellen, verwenden Sie diesen Leitfaden für erste Schritte, um Teams in ihrer gesamten Organisation bereitzustellen. Dieser Leitfaden gilt auch dann, wenn Teams Ihre erste Microsoft 365- oder Office 365-Workload ist.
+> [!TIP]
+> Suchen Sie nach Informationen zum Installieren des Microsoft Teams-Clients auf Ihrem PC oder Mobilgerät? Klicken Sie hier: [Herunterladen von Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
-Um schnell in Microsoft Teams einzusteigen, empfehlen wir Ihnen, zwei oder drei Teams und Kanäle für eine ausgewählte Gruppe von Early Adopters zu erstellen. Indem Sie Teams zunächst nur im kleinen Maßstab bereitstellen, lernen Sie Teams in der Praxis kennen und erhalten wertvolle Einsichten in das Bereitstellen von Teams für Ihre gesamte Organisation. Wenn Sie in einem kleinen Unternehmen arbeiten, benötigen Sie nicht mehr als diesen Schnellstartleitfaden, um Teams in Ihrer gesamten Organisation bereitzustellen.
+## <a name="start-here"></a>Beginnen Sie hier
 
+Ganz gleich, ob es sich bei Ihrem Unternehmen um einen kleinen Betrieb oder einen multinationalen Konzern handelt, der Ort für den Einstieg in die Bereitstellung von Microsoft Teams ist hier. Diese Artikel führen Sie durch eine Bereitstellung in kleinem Rahmen von Microsoft Teams, die möglicherweise für ein kleines Unternehmen, oder wenn Sie Microsoft Teams schnell als ersten Microsoft 365-Workload zur Unterstützung von **Remotemitarbeitern** einrichten wollen, ausreichend ist.
 
-Mithilfe von Teams können Sie schnell ein Team mit Personen innerhalb und außerhalb Ihrer Organisation zusammenstellen, mit anderen chatten, um schnelle und inklusive Unterhaltungen zu fördern, Dokumente auf sichere Weise teilen und gemeinsam verfassen sowie Projekte durcharbeiten. Passen Sie Teams an, indem Sie raschen und unkomplizierten Zugriff auf gemeinsame Notizen, Webseiten und Apps hinzufügen. Verwenden Sie Besprechungen und Anrufe, um in Echtzeit zusammenzuarbeiten, unabhängig vom Aufenthaltsort der Benutzer. Teams erleichtert Ihren Zugang zu Microsoft 365- oder Office 365-Diensten und Apps von Drittanbietern und wird zum neuen Mittelpunkt für Ihre Anforderungen an Zusammenarbeit und Kommunikation. Ermutigen Sie Ihre Early Adopter, die Desktop- und die mobile Anwendung zu installieren, damit sie die beste Erfahrung und Sie das genaueste Feedback erhalten.
+Wenn Sie einer größeren Organisation angehören, nutzen Sie diese Artikel für die Pilotbereitstellung von Microsoft Teams für eine kleine Gruppe von Early Adoptern, damit Sie Microsoft Teams kennenlernen und mit der Planung Ihrer organisationsweiten Bereitstellung beginnen können. Verwenden Sie später die Anleitungen auf der Website zur [Einführung von Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/#get-started) für das organisationsweite Rollout von Microsoft Teams.
 
-![Screenshot der Benutzeroberfläche des Desktops und des mobilen Clients](media/get-started-microsoft-teams.png "Screenshot der Benutzeroberfläche des Teams-Desktopclients und des mobilen Clients" ) 
+Wir empfehlen eine phasenweise Bereitstellung von Teams, Workload nach Workload in dem Maß, wie Ihre Organisation dazu bereit ist. **Sie brauchen nicht bis zum Abschluss eines Schritts zu warten, bevor Sie mit dem nächsten beginnen.** Manche Organisationen ziehen möglicherweise die Bereitstellung aller Funktionen von Microsoft Teams vor, während andere einen phasenweisen Ansatz bevorzugen. Hier finden Sie die Microsoft Teams-Workloads in der Reihenfolge, die wir für ihre Bereitstellung empfehlen:
 
-So stellen Sie Ihre erste Reihe von Teams und Kanälen bereit, damit Ihre Early Adopter mit dem Chatten, dem Teilen von Dateien und der Zusammenarbeit beginnen können.
+- [Chat, Teams, Kanäle und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [Besprechungen und Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
+- [Cloud Voice](cloud-voice-landing-page.md)
 
-- Schritt 1: [Erstellen Sie Ihre ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
-- Schritt 2: [Holen Sie Early Adopter ins Boot](get-started-with-teams-onboard-early-adopters.md)
-- Schritt 3: [Überwachen Sie Nutzung und Feedback](get-started-with-teams-monitor-usage-and-feedback.md)
-- Schritt 4: [Rufen Sie Ressourcen zum Planen Ihrer organisationsweiten Bereitstellung ab](get-started-with-teams-resources-for-org-wide-rollout.md)
+![Diagramm zur Veranschaulichung der Bereitstellungswege von Microsoft Teams](media/get-started-with-teams-quick-start-pathways.png)
 
-Wenn Sie in einer großen Organisation arbeiten, über eine hybride oder lokale Skype for Business-Konfiguration verfügen, strengen behördlichen Vorschriften oder Complianceanforderungen genügen müssen oder die Bereitstellung von Besprechungs- und Sprachfunktionen (wie etwa Anrufplänen oder Telefonanlagen) planen, lesen Sie zuerst [Bereitstellen von Teams](how-to-roll-out-teams.md). Wir empfehlen Ihnen trotzdem, mit diesem **Erste Schritte**-Abschnitt anzufangen, um Ihre Fähigkeiten auszubauen und mit der Planung Ihrer organisationsweiten Bereitstellung zu beginnen. Setzen Sie Microsoft Teams schon bei der Planung ein! Beginnen Sie ganz einfach, indem Sie Teams mit Chat, Teams, Kanälen und Apps einführen, und bauen Sie darauf auf. Diese anfänglichen Erfahrungen helfen Ihnen, Teams bekannt zu machen und die Erwartung für Ihre nächste Einführungsphase in der ganzen Organisation zu schüren. 
+Wenn es sich bei Ihrem Unternehmen um eine mittlere oder große Organisation handelt, [verwenden Sie den Ratgeber für Microsoft Teams als Hilfe beim Rollout von Microsoft Teams](use-advisor-teams-roll-out.md), um das organisationsweite Rollout dieser Workloads leichter planen zu können. Der Ratgeber nutzt Microsoft Teams selbst zum Erstellen von Planaufgaben, die Besitzern zugewiesen werden, um Dokumente freizugeben und die Kommunikation zwischen den Mitgliedern Ihres Bereitstellungsteams zu ermöglichen.
 
-Wenn Sie ein kleines Unternehmen sind oder wenn **Sie Teams schnell bereitstellen, um eine seit Kurzem remote arbeitende Belegschaft zu unterstützen**, verwenden Sie diesen Leitfaden für erste Schritte, um Teams in Ihrer Organisation im vollen Umfang bereitzustellen. Beachten Sie die Vorlagen, die speziell für kleine Unternehmen verfügbar sind, um die Bereitstellung in Ihrer Organisation einfacher und effizienter zu gestalten. Siehe [Erste Schritte mit Teamvorlagen für kleine und mittlere Unternehmen](https://docs.microsoft.com/microsoftteams/smb-templates).
-
-## <a name="before-you-get-started"></a>Bevor Sie beginnen
+## <a name="make-sure-youre-ready"></a>Stellen Sie sicher, dass alles bereit ist
 
 Wenn Sie sich auf Ihre Bereitstellung vom Teams vorbereiten möchten, müssen Sie die folgenden Schritte ausführen, egal, ob Teams Ihre erste Arbeitsauslastung ("Teams zuerst") oder die nächste Arbeitsauslastung in einer vorhandenen Microsoft 365- oder Office 365-Bereitstellung ist:
 
 - [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
-    - Dies umfasst das Konfigurieren Ihrer Microsoft 365- oder Office 365-Domäne, SharePoint Online, Exchange Online und OneDrive for Business.
+  - Dies umfasst das Konfigurieren Ihrer Microsoft 365- oder Office 365-Domäne, SharePoint Online, Exchange Online und OneDrive for Business.
 
 - Erwerben Sie Teams-Lizenzen für alle Benutzer. Schauen Sie sich [Teams-Pläne](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options) und [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) an.
 
 - [Informationen zu den Vorteilen der Installation von Desktop-, Web- und mobilen Clients erhalten](get-clients.md)
 
-- Ausgehend von einem lokalen Skype for Business- oder Lync-Server
-   - [Upgrade von Skype for Business (lokal) auf Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
-   
-   - [Planen der Hybridkonnektivität zwischen Skype for Business Server und Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
-   
-   > [!NOTE]
-   > Wenn Ihre Organisation einen lokalen Skype for Business-Server (oder Lync-Server) ausführt, müssen Sie [Azure AD Connect konfigurieren](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect), um Ihr lokales Verzeichnis mit Microsoft 365 oder Office 365 zu synchronisieren. 
+## <a name="get-familiar-with-teams"></a>Machen Sie sich mit Microsoft Teams vertraut
 
+Falls Sie mit Microsoft Teams noch nicht vertraut sind, können Sie das am einfachsten ändern, indem Sie es sofort verwenden. Das Tolle an Microsoft Teams ist, dass das, was Sie jetzt einrichten, etwaigen späteren Upgrades oder Migrationen nicht im Wege steht.
 
-## <a name="next-steps"></a>Nächste Schritte
+> [!TIP]
+> Schauen Sie sich die unter [Microsoft Learn für Microsoft Teams](/learn/teams/) verfügbaren Lernpfade und Module an. Sie können sich auf eine Tour durch das [Microsoft Teams Admin Center](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/) begeben, erfahren, wie Sie [Ihr Netzwerk für Microsoft Teams konfigurieren](/learn/modules/m365-teams-connectivity/), Ideen zum optimalen [Onboarding Ihrer Benutzer in Microsoft Teams](/learn/modules/m365-teams-onboard-users/) erhalten und vieles mehr!
 
-[Erstellen Sie Ihre ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
+Folgen Sie den nachstehenden Schritten, um ein paar Teams einzurichten und einige Early Adopter ins Boot zu holen, um sich mit Microsoft Teams vertraut zu machen.
 
-Weitere Informationen finden Sie in unserem interaktiven [Teams Einführungsleitfaden](https://aka.ms/teamstoolkit).
+- Schritt 1: [Erstellen Sie Ihre ersten Teams und Kanäle](get-started-with-teams-create-your-first-teams-and-channels.md)
+- Schritt 2: [Holen Sie Early Adopter ins Boot](get-started-with-teams-onboard-early-adopters.md)
+- Schritt 3: [Überwachen Sie Nutzung und Feedback](get-started-with-teams-monitor-usage-and-feedback.md)
+- Schritt 4: [Mit der organisationsweiten Bereitstellung beginnen](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+## <a name="upgrade-or-migrate-from-skype-for-business"></a>Upgrade oder Migration von Skype for Business
+
+Wenn Sie von Skype for Business (online oder lokal) zu Microsoft Teams kommen oder eine Hybridkonfiguration benötigen, sollten Sie trotzdem dem oben dargestellten empfohlenen Weg für die Bereitstellung von Microsoft Teams folgen. Zuvor müssen Sie jedoch etwas zusätzliche Planung hinter sich bringen. Überprüfen Sie als erstes die Anleitung in der Tabelle unten, die sich auf das Profil Ihrer Organisation bezieht.
+
+|  |Profil Ihrer Organisation|Anleitung  |
+|---------|---------|---------|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Ich verwende zurzeit Skype for Business Online und bin bereit für den Wechsel zu Teams. |Gehen Sie zu [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen).        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Meine Organisation setzt Skype for Business Server ein, und ich möchte Teams bereitstellen. |Für eine Teams-Bereitstellung im großen Maßstab müssen Sie zuerst die Hybridverbindung zwischen Ihrer lokalen Umgebung und Microsoft 365 herstellen. Lesen Sie dazu zuerst [Planen der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity).<br><br>Ferner sollten Sie [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen) durcharbeiten.   |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Ich verfüge nicht über Skype for Business Server, aber ich habe eine lokale PSTN-Lösung. Ich möchte Teams bereitstellen, möchte aber meine lokale PSTN-Lösung behalten. |Führen Sie die Bereitstellung von Teams nach dem oben beschriebenen [empfohlenen Weg](#recommended-path-to-teams) durch.<br><br>Lesen Sie dann [Planen von direktem Routing](direct-routing-plan.md), um mehr über die Verwendung von direktem Routing für Telefonanlagen zu erfahren, um Ihre lokale PSTN-Lösung mit Teams zu verbinden.|
