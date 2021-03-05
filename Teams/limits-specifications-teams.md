@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196789"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460445"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -36,14 +36,14 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |-----------|---------------|
 |Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
 |Anzahl von Teams, in denen ein Benutzer Mitglied sein kann|1 000&sup2;|
-|Anzahl von Mitgliedern in einem Team | 10 000<sup>6</sup>     |
+|Anzahl von Mitgliedern in einem Team | 25.000<sup>6</sup>     |
 |Anzahl von Besitzern pro Team | 100   |
 |Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5     |
 |Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 10.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
 |Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500 000&sup3;     |
-|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)&sup4;         |
-|Anzahl der privaten Kanäle pro Team    |30| (einschließlich gelöschter Kanäle)&sup4;
+|Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)<sup>4</sup>        |
+|Anzahl der privaten Kanäle pro Team    |30 (einschließlich gelöschter Kanäle)<sup>4</sup>        |
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
 |Maximale Größe einer Verteilerliste, einer Sicherheitsgruppe oder einer Office 365-Gruppe, die in ein Team importiert werden kann.    |3.500|
 |Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10 000<sup>6</sup>     |
@@ -59,7 +59,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 <sup>5</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
 
-<sup>6</sup> Teams in der GCC können nur 5 000 Mitglieder aufnehmen und Teams in der GCCH/DoD nur 2 500 Mitglieder.
+<sup>6</sup> Teams in der GCC können 25 000 Mitglieder aufnehmen, aber Teams in der GCCH/DoD nur 2.500 Mitglieder. Beachten Sie des Weiteren, dass Teams-/Kanal-Erwähnungen in Teams mit mehr 10.000 Mitgliedern geblockt sind.
 
 ## <a name="messaging"></a>Messaging
 

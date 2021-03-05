@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: Verwalten von Richtlinien
         items:
+          - name: Übersicht
+            href: manage-teams-with-policies.md
           - name: Zuweisen von Richtlinien zu Ihren Benutzern
             href: assign-policies.md
           - name: Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll
             href: activity-log.md
-          - name: Verwalten von Richtlinien für App-Berechtigungen in Teams
-            href: teams-app-permission-policies.md
-          - name: Verwalten von Richtlinien für App-Setup in Teams
-            href: teams-app-setup-policies.md
-          - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
-            href: teams-custom-app-policies-and-settings.md
           - name: Verwalten von Feedbackrichtlinien in Teams
             href: manage-feedback-policies-in-teams.md
           - name: Verwalten von Richtlinienpaketen in Teams
@@ -773,6 +769,8 @@ items:
     items:
       - name: Planen der Voice-Lösung ihrer Teams
         href: cloud-voice-landing-page.md
+      - name: Verwalten von Sprach- und Anrufrichtlinien in Teams
+        href: voice-and-calling-policies.md
       - name: Telefonsystem
         items:
           - name: Was ist das Telefonsystem?
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: Übersicht
             href: manage-apps.md
-          - name: Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung im Microsoft Teams Admin Center
+          - name: Verwalten von App-Richtlinien in Teams
+            href: app-policies.md
+          - name: Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung
             href: app-permissions-admin-center.md
           - name: Ressourcenspezifische Zustimmung
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: Teams-Apps-Verhalten für nicht standardmäßige Benutzer
             href: non-standard-users.md
+          - name: Verwalten von Richtlinien für App-Berechtigungen in Teams
+            href: teams-app-permission-policies.md
+          - name: Verwalten von Richtlinien für App-Setup in Teams
+            href: teams-app-setup-policies.md
+          - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
+            href: teams-custom-app-policies-and-settings.md
   - name: Branchen- und Regierungsrichtlinien
     items:
       - name: Übersicht
