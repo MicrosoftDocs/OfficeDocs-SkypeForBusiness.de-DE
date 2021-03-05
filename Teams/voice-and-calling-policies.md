@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Erfahren Sie mehr über Die Sprach- und Anrufrichtlinien von Teams.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d0ea4db57fbfdc3ab76e8c6c9991e032103b260
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 9056c9b81fcda9c0e7408c63b4af00c1aabbffd0
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50348034"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460585"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Verwalten von Sprach- und Anrufrichtlinien in Microsoft Teams
 
@@ -72,7 +72,7 @@ Eine [Sprachroutingrichtlinie](manage-voice-routing-policies.md) ist ein Contain
 
 * [Verwalten von Richtlinien für Notrufe in Microsoft Teams](manage-emergency-calling-policies.md)
 * [Verwalten von Notfall-Anrufweiterleitungsrichtlinien](manage-emergency-call-routing-policies.md)
-* [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md)
+* [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md).
 * [Verwalten von Sprachroutingrichtlinien](manage-voice-routing-policies.md)
 * [Anrufrichtlinien in Microsoft Teams](teams-calling-policy.md)
 * [Parken und Fortsetzen von Anrufen in Microsoft Teams](call-park-and-retrieve.md)

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430c64fed77412ca555048adf3cf5e323fa20856
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397590"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460605"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Verständnis der Koexistenz und Interoperabilität von Microsoft Teams und Skype for Business
 
@@ -36,7 +36,7 @@ Dieser Artikel ist Teil der Projektdefinitionsphase Ihrer Upgradereise. Schließ
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
 
-Wenn Ihre Organisation Skype for Business heute verwendet und Sie beginnen, Teams zusammen mit Skype for Business zu verwenden – oder Sie beginnen, ein Upgrade auf Teams zu starten –, ist es wichtig zu verstehen, wie die beiden Anwendungen nebeneinander vorhanden sind, wann und wie sie zusammenarbeiten und wie Sie die Migration Ihrer Benutzer bis zum letztendlichen Upgrade von Skype for Business auf Teams verwalten können.
+Wenn Ihre Organisation skype for Business heute verwendet und Sie beginnen, Teams zusammen mit Skype for Business zu verwenden – oder Sie beginnen, ein Upgrade auf Teams zu starten –, ist es wichtig zu verstehen, wie die beiden Anwendungen nebeneinander vorhanden sind, wann und wie sie zusammenarbeiten und wie Sie die Migration Ihrer Benutzer bis zum letztendlichen Upgrade von Skype for Business auf Teams verwalten können.
 
 > [!Tip]
 > Schauen Sie sich die folgende Sitzung an, um mehr [über Koexistenz und Interoperabilität zu erfahren.](https://aka.ms/teams-upgrade-coexistence-interop)
@@ -47,14 +47,14 @@ Wenn Ihre Organisation Skype for Business heute verwendet und Sie beginnen, Team
 
 ## <a name="coexistence-of-teams-and-skype-for-business-overview"></a>Übersicht über die Koexistenz von Teams und Skype for Business
 
-In den folgenden Abschnitten werden die Koexistenzmodi beschrieben, die verfügbar sind, wenn Sie sich für Upgrades auf Teams entscheiden, und die Funktionen, die jeder Modus bietet. Darüber hinaus beschreiben wir die Interoperabilität (Interoperabilität), die zwischen Benutzern auf Skype-for-Business-Clients und Benutzern auf Teams-Clients auftritt, und wie die Interoperabilität vom ausgewählten Koexistenzmodus beeinflusst wird.
+In den folgenden Abschnitten werden die Koexistenzmodi beschrieben, die verfügbar sind, wenn Sie sich für Upgrades auf Teams entscheiden, und die Funktionen, die jeder Modus bietet. Darüber hinaus beschreiben wir die Interoperabilität (Interoperabilität), die zwischen Benutzern auf Skype-for-Business-Clients und Benutzern auf Teams-Clients stattfindet, und wie die Interoperabilität vom ausgewählten Koexistenzmodus beeinflusst wird.
 
- Teams bietet Funktionen für die Zusammenarbeit, Chats, Anrufe und Besprechungen. Je nachdem, wie Sie Teams bereitstellen, überschneiden sich diese Funktionen möglicherweise mit den Funktionen, die von Skype for Business für einen bestimmten Benutzer bereitgestellt werden. Der Standardmodus besteht im Ausführen von Teams zusammen mit Skype for Business mit überlappenden Funktionen. Einem Benutzer kann jedoch einer von mehreren Koexistenzmodi (auch als Upgrademodi bekannt) zugewiesen werden, mit denen sichergestellt werden soll, dass sich diese Funktionen für diesen Benutzer nicht überlappen (in diesem Fall ist Interoperabilität zwischen Teams und Skype for Business verfügbar). Wenn Sie z. B. über erhebliche lokale Ressourcen von Skype for Business Server mit einer komplexen Enterprise-VoIP-Bereitstellung verfügen, aber [](meetings-first.md) möchten, dass Ihre Benutzer moderne Besprechungen so schnell wie möglich nutzen können, sollten Sie "Besprechungen zuerst" als alternativen Weg auswerten.
+ Teams bietet Funktionen für die Zusammenarbeit, Chats, Anrufe und Besprechungen. Je nachdem, wie Sie Teams bereitstellen, überschneiden sich diese Funktionen möglicherweise mit den Funktionen, die von Skype for Business für einen bestimmten Benutzer bereitgestellt werden. Der Standardmodus besteht im Ausführen von Teams zusammen mit Skype for Business mit überlappenden Funktionen. Einem Benutzer kann jedoch einer von mehreren Koexistenzmodi (auch als Upgrademodi bekannt) zugewiesen werden, die darauf ausgelegt sind, sicherzustellen, dass sich diese Funktionen für diesen Benutzer nicht überlappen (in diesem Fall ist die Interoperabilität zwischen Teams und Skype for Business verfügbar). Wenn Sie z. B. über erhebliche lokale Ressourcen von Skype for Business Server mit einer komplexen Enterprise-VoIP-Bereitstellung verfügen, aber [](meetings-first.md) möchten, dass Ihre Benutzer moderne Besprechungen so schnell wie möglich nutzen können, sollten Sie "Besprechungen zuerst" als alternativen Weg auswerten.
 
 Wir empfehlen, die folgenden Koexistenzmodi zu überprüfen, um zu ermitteln, welcher Pfad für Ihre Organisation richtig ist.
 
 > [!Important]
-> Die Einführung neuer Technologien oder das Vornehmen von Änderungen an Ihrer vorhandenen, vertrauten Skype for Business-Umgebung kann für Die Benutzer störend sein und gleichzeitig großartige neue Geschäftliche Vorteile bieten. Nehmen Sie sich Zeit, um die Benutzerbereitschaft zu bewerten und einen Kommunikations- und Schulungsplan zu implementieren, bevor Sie die in diesem Artikel beschriebenen Änderungen implementieren. Darüber hinaus empfehlen wir Ihnen dringend, Ihren Plan mit einer ausgewählten Gruppe von Benutzern zu piloten, bevor Sie ihn in Ihrer gesamten Organisation implementieren.
+> Die Einführung neuer Technologien oder das Vornehmen von Änderungen an Ihrer vorhandenen, vertrauten Skype for Business-Umgebung kann für Benutzer störend sein, während sie gleichzeitig großartige neue Geschäftliche Vorteile bieten. Nehmen Sie sich Zeit, um die Benutzerbereitschaft zu bewerten und einen Kommunikations- und Schulungsplan zu implementieren, bevor Sie die in diesem Artikel beschriebenen Änderungen implementieren. Darüber hinaus empfehlen wir Ihnen dringend, Ihren Plan mit einer ausgewählten Gruppe von Benutzern zu piloten, bevor Sie ihn in Ihrer gesamten Organisation implementieren.
 
 ### <a name="islands-mode"></a>Inselmodus
 
@@ -137,7 +137,7 @@ Interoperabilität ist die Möglichkeit für Teams- und Skype for Business-Benut
 Die Interoperabilität wird vom Koexistenzmodus (auch als Upgrademodus bezeichnet) des Empfängers bestimmt. Es gibt keine Interoperabilität, wenn sich der Empfänger im **Inselmodus** befindet.
 
 > [!Note]
-> Wenn sie in einem beliebigen Koexistenzmodus mit Ausnahme von **Inseln** bereitgestellt werden, können Teams und Skype for Business zusammenarbeiten, [](#interoperability-of-teams-and-skype-for-business)sodass Benutzer miteinander chatten und sich anrufen können, und sicherstellen, dass die Kommunikation in Ihrer Organisation während der Upgradereise zu Teams flüssig bleibt. Koexistenzmodi steuern die Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob Interoperabilität verfügbar sein wird. Wenn sich der Empfänger beispielsweise in einem Modus befindet, in dem Chats nur in einem Client (z. B. Teams) verfügbar sind, ist die Chatinteroperabilität im Allgemeinen verfügbar, wenn der Gründer den anderen Client (in diesem Fall Skype for Business) zum Starten des Chats verwendet. Wenn sich der Empfänger dagegen im Modus befindet, in dem der Chat in beiden Clients (Inselmodus) verfügbar ist, ist die Interoperabilität für den Chat nicht verfügbar. Die Nachricht wird vom Empfänger in dem Client empfangen, in dem der Gründer den Chat gestartet hat. Für die ordnungsgemäße Kommunikation im **Inselmodus ist** daher eine Sättigung der #A0 erforderlich. d. h., alle Benutzer verwenden und überwachen beide Clients aktiv.
+> Wenn sie in einem beliebigen Koexistenzmodus mit Ausnahme von **Inseln** bereitgestellt werden, können Teams und Skype for Business zusammenarbeiten, [](#interoperability-of-teams-and-skype-for-business)sodass Benutzer miteinander chatten und sich anrufen können, und sicherstellen, dass die Kommunikation in Ihrer Organisation während des Upgrades zu Teams flüssig bleibt. Koexistenzmodi steuern die Interoperabilität. Der Koexistenzmodus des Empfängers bestimmt, ob Interoperabilität verfügbar sein wird. Wenn sich der Empfänger beispielsweise in einem Modus befindet, in dem Chats nur in einem Client (z. B. Teams) verfügbar sind, ist die Chatinteroperabilität im Allgemeinen verfügbar, wenn der Gründer den anderen Client (in diesem Fall Skype for Business) zum Starten des Chats verwendet. Wenn sich der Empfänger dagegen im Modus befindet, in dem der Chat in beiden Clients (Inselmodus) verfügbar ist, ist die Interoperabilität für den Chat nicht verfügbar. Die Nachricht wird vom Empfänger in dem Client empfangen, in dem der Gründer den Chat gestartet hat. Für die ordnungsgemäße Kommunikation im **Inselmodus ist** daher eine Sättigung der #A0 erforderlich. d. h., alle Benutzer verwenden und überwachen beide Clients aktiv.
 
 > [!Note]
 > **Um die neueste Koexistenzerfahrung zu haben, muss die Clientversion der neueste verfügbare Client im Office-Bereitstellungskanal des Benutzers sein.**
@@ -188,13 +188,13 @@ Die Inopeskalation besteht darin, die systemeigenen Inopfunktionen durch verwalt
 
 Wenn die Inop-Eskalation vom Benutzer von Teams ausgelöst wird, wird eine Teams-Besprechung erstellt. Wenn sie vom Skype for Business-Benutzer ausgelöst wird, wird eine Skype for Business-Besprechung erstellt. In beiden Fällen handelt es  sich bei der erstellten Besprechung um eine Besprechung, die sich nicht im Kalender des Benutzers widerspiegelt.
 
-Die andere Partei empfängt den Link für die Besprechungs-Teilnahme über den In-Op-Chat und nimmt an der Besprechung teil, indem sie auf diesen Link klickt. Wenn der Skype for Business-Benutzer über ein Teams-Konto verfügt und vom Teams-Benutzer eingeladen wird, wird er authentifiziert an der Besprechung teilnehmen. Andernfalls nehmen sie als anonymer Teilnehmer teil. Umgekehrt verfügen Teams-Benutzer fast immer über ein Skype for Business-Konto und einen Skype for Business-Client, über den sie als authentifizierter Teilnehmer an einer Skype for Business-Besprechung teilnehmen können, aber sie können auch als anonymer Teilnehmer teilnehmen, z. B. mithilfe der Skype-Besprechungs-App.
+Die andere Partei empfängt den Link für die Besprechungs-Teilnahme über den In-Op-Chat und tritt bei, indem sie auf diesen Link klickt. Wenn der Skype for Business-Benutzer über ein Teams-Konto verfügt und vom Teams-Benutzer eingeladen wird, wird er authentifiziert an der Besprechung teilnehmen. Andernfalls nehmen sie als anonymer Teilnehmer teil. Umgekehrt verfügen Teams-Benutzer fast immer über ein Skype for Business-Konto und einen Skype for Business-Client, über den sie als authentifizierter Teilnehmer an einer Skype for Business-Besprechung teilnehmen können, aber sie können auch als anonymer Teilnehmer teilnehmen, z. B. mithilfe der Skype-Besprechungs-App.
 
 Sobald die Parteien der Besprechung beigetreten sind, können sie alle aktivitäten durchführen, die in Besprechungen unterstützt werden, z. B. Desktop- oder Inhaltsfreigabe, Dateifreigabe oder -übertragung, Hinzufügen anderer Teilnehmer und so weiter.
 
 #### <a name="interop-escalation-from-skype-for-business"></a>Inopop escalation from Skype for Business
 
-Die In- und Inop-Eskalation von Skype for Business wurde im Juli 2019-Build des monatlichen C2R aktualisiert. Bisher war Skype for Business nicht bekannt, dass die Remoteparty Teams verwendet. Es wurde nur angenommen, dass aus der Signalisierung, die nach dem Start einer Sitzung empfangen wurde.
+Die In- und Inop-Eskalation von Skype for Business wurde im Juli 2019-Build von monatlicher C2R aktualisiert. Bisher war Skype for Business nicht bekannt, dass die Remoteparty Teams verwendet. Es wurde nur angenommen, dass aus der Signalisierung, die nach dem Start einer Sitzung empfangen wurde.
 
 Wenn die Signalisierung angibt, dass die Antwort vom (oder über) das Inopgateway stammt, wird die gelbe Geschäftsleiste (Banner) angezeigt, die angibt, dass die andere Partei Skype for Business nicht verwendet. Mit der Weiterentwicklung unseres Diensts führte dies zu falsch positiven Meldungen, bei denen Skype for Business-Benutzern die Geschäftsleiste angezeigt wurde, wenn sie mit dem Cloud VoicemailDienst oder anderen Cloud voice services verbunden waren, anstatt mit einem tatsächlichen **Nur-Teams-Benutzer.**
 
@@ -236,12 +236,10 @@ In den folgenden Abschnitten wird das Verhalten zusammengefasst, das beim Ausfü
 
 - [Besprechungen](#meetings)
 - [Interoperabilität](#interoperability)
-- [Teams-Unterhaltungsthreads– In-Op- und systemeigene Threads](#teams-conversations---interop-versus-native-threads)
+- [Inopop versus native Unterhaltungsthreads](#interop-versus-native-conversation-threads)
 - [Anwesenheit](#presence)
 - [Partnerverbund](#federation)
 - [Kontakte](#contacts)
-
-
 
 ### <a name="meetings"></a>Besprechungen
 
@@ -262,7 +260,7 @@ Beim Organisieren von Besprechungen basiert der geplante Besprechungstyp auf dem
 
 ### <a name="interoperability"></a>Interoperabilität
 
-Wie oben unter Interoperabilität von Teams und [Skype for Business](#interoperability-of-teams-and-skype-for-business)beschrieben, unterstützt Teams die Interoperabilität mit Skype for Business in bestimmten Szenarien. Die Inopkommunikation bezieht sich auf einen Chat oder Einen Anruf zwischen einem Skype for Business-Benutzer und einem Teams-Benutzer.  Die Inopopkommunikation ist nur zwischen zwei Benutzern möglich. Chats/Anrufe mit mehreren Parteien oder das Hinzufügen weiterer Benutzer werden nicht unterstützt.
+Wie oben unter Interoperabilität von Teams und [Skype for Business](#interoperability-of-teams-and-skype-for-business)beschrieben, unterstützt Teams die Interoperabilität mit Skype for Business in bestimmten Szenarien. Die Inopkommunikation bezieht sich auf einen Chat oder Anruf zwischen einem Skype for Business-Benutzer und einem Teams-Benutzer.  Die Inopopkommunikation ist nur zwischen zwei Benutzern möglich. Chats/Anrufe mit mehreren Parteien oder das Hinzufügen weiterer Benutzer werden nicht unterstützt.
 
 Ein Inopchat oder Anruf zwischen zwei Benutzern wird erstellt, wenn jeder der folgenden Punkte zutrifft:
 
@@ -278,7 +276,7 @@ In der In-Interop-Kommunikation ist Chat nur Nur-Text. Darüber hinaus sind Date
 
 - Wenn der Skype for Business-Benutzer einen Client ab 2018 verwendet und versucht, Inhalte zu teilen, wird automatisch eine Skype for Business-Besprechung auf Abruf erstellt und ein Einladungslink zu dieser Besprechung an den Client des Teams-Benutzers gesendet. Wenn der Benutzer auf den Link klickt, versucht er, an der Skype for Business-Besprechung teil zu nehmen. Wenn der Teams-Benutzer den Skype for Business-Client installiert hat, wird er geöffnet, und der Benutzer wird zur Anmeldung aufgefordert (sofern nicht bereits angemeldet).  Wenn der Benutzer von Teams den Skype for Business-Client nicht installiert hat, wird der Benutzer aufgefordert, die Webversion zu verwenden. Sobald beide Benutzer angemeldet sind, befinden sie sich in einer Skype for Business-Besprechung und können nach Bedarf freigeben.
 
-### <a name="teams-conversation-threads---interop-versus-native-threads"></a>Unterhaltungsthreads für Teams – In-Op- und native Threads
+### <a name="interop-versus-native-conversation-threads"></a>Inopop versus native Unterhaltungsthreads
 
 Da die Inopopkommunikation nicht alle Features der nativen Teams-Unterhaltung unterstützt, verwaltet der Teams-Client separate Unterhaltungsthreads für die Kommunikation zwischen Teams und Teams-zu-Skype for Business. Diese Unterhaltungen werden in der Benutzeroberfläche anders gerendert: Interopthreads können von einem normalen systemeigenen Teams-Thread unterschieden werden, indem Sie:
 
@@ -295,7 +293,7 @@ Eine Inop-Unterhaltung mit demselben Benutzer-G3-Test
 
 ![Diagramm mit einer In-Interop-Unterhaltung zwischen Teams und Teams](media/teams-upgrade-interop-thread.png)
 
-Sobald ein Unterhaltungsthread erstellt wurde, ändert sich dessen Typ nie. Nachdem ein Inopthread in Teams erstellt wurde, wird er immer an den Skype for Business-Client des Zielbenutzers gesendet. Ein systemeigener Thread wird immer an den Teams-Client des Zielbenutzers gesendet.  Wenn sich der Modus eines Empfängerbenutzers ändert, funktionieren vorhandene Teams-Threads für diesen Benutzer nicht mehr, und in diesem Chat wird eine Notiz mit einem Link zum Starten einer neuen nativen Unterhaltung angezeigt, wie im folgenden Screenshot dargestellt.
+Sobald ein Unterhaltungsthread erstellt wurde, ändert sich dessen Typ nie. Nachdem ein Inopthread in Teams erstellt wurde, wird er immer an den Skype for Business-Client des Zielbenutzers gesendet. Ein systemeigener Thread wird immer an den Teams-Client des Zielbenutzers gesendet.  Wenn sich der Modus eines Empfängerbenutzers ändert, funktionieren vorhandene Teams-Threads für diesen Benutzer nicht mehr, und in diesem Chat wird eine Notiz mit einem Link zum Starten einer neuen nativen Unterhaltung angezeigt, wie im folgenden Screenshot gezeigt.
 
 ![Diagramm mit einem Chat mit einem aktualisierten Skype for Business-Benutzer](media/teams-upgrade-chat-with-upgraded-sfb-user.png)
 
@@ -311,7 +309,7 @@ Das Verhalten der Anwesenheitsveröffentlichung basiert auf dem Modus des Benutz
 
 - Wenn sich ein Benutzer im Inselmodus befindet, sind die in Skype for Business und Teams veröffentlichten Anwesenheitsinformationen unabhängig, sodass die Anwesenheit, die Benutzern innerhalb derselben Organisation angezeigt wird, vom Client des anderen Benutzers abhängig ist. Benutzer in Verbundorganisationen sehen die Anwesenheit dieses Benutzers basierend auf seiner Skype for Business-Aktivität, da Der Verbunddatenverkehr zu einem Benutzer im Inselmodus in Skype for Business landet.
 
-Angenommen, Benutzer A befindet sich im Inselmodus. Wenn Benutzer A in Teams aktiv ist, aber nicht bei Skype for Business angemeldet ist, würden andere Benutzer Benutzer A in ihrem Teams-Client als aktiv sehen, aber in ihrem Skype for Business-Client würden Benutzer A als offline angezeigt. Dies ist vom Design aus möglich, da Benutzer A nicht erreicht werden kann, wenn der Client nicht ausgeführt wird. 
+Angenommen, Benutzer A befindet sich im Inselmodus. Wenn Benutzer A in Teams aktiv, aber nicht bei Skype for Business angemeldet ist, würden andere Benutzer Benutzer A von ihrem Teams-Client aus als aktiv sehen, aber in ihrem Skype for Business-Client würden Benutzer A als offline angezeigt. Dies ist vom Design aus möglich, da Benutzer A nicht erreicht werden kann, wenn der Client nicht ausgeführt wird. 
 
 
 ### <a name="federation"></a>Partnerverbund
@@ -322,11 +320,11 @@ Für den Verbund von Teams zu einem anderen Benutzer, der Skype for Business ver
 - Von Teams initiierte Chats und Anrufe landen in Teams, wenn sich der Empfänger im gleichen Mandanten befindet.
 - Von Skype for Business initiierte Chats und Anrufe landen immer in Skype for Business.
 
-Ein Verbundchat kann entweder ein systemeigener Thread oder ein In-Op-Thread sein. Siehe [Teams Conversations ---interop-versus-native-threads](#teams-conversations---interop-versus-native-threads).
+Ein Verbundchat kann entweder ein systemeigener Thread oder ein In-Op-Thread sein. Weitere Informationen [finden Sie unter In-Op- und native Unterhaltungsthreads.](#interop-versus-native-conversation-threads)
 
-- Wenn sich Empfänger und Absender beide im TeamsOnly-Upgrademodus befinden, ist die Unterhaltung eine systemeigene Chaterfahrung, die alle reichhaltigen Nachrichten- und Anruffunktionen umfasst. Weitere Informationen finden Sie unter [Native Chaterfahrung für externe (Verbundbenutzer) in Teams.](native-chat-for-external-users.md) 
+- Wenn sich Empfänger und Absender beide im TeamsOnly-Upgrademodus befinden, handelt es sich bei der Unterhaltung um eine systemeigene Chaterfahrung, die alle reichhaltigen Nachrichten- und Anruffunktionen umfasst. Weitere Informationen finden Sie unter [Native Chaterfahrung für externe (Verbundbenutzer) in Teams.](native-chat-for-external-users.md) 
 
-- Wenn sich einer der Unterhaltungsteilnehmer NICHT im TeamsOnly-Upgrademodus befindet, bleibt die Unterhaltung eine Inopoperfahrung mit Nur-Text-Nachrichten. Die Benutzeroberfläche stellt Verbundchats auf ähnliche Weise wie In-Mandant-In-Op-Threads zur Verfügung, es sei denn, es gibt eine Notiz, die besagt, dass der Benutzer extern ist.
+- Wenn sich einer der Unterhaltungsteilnehmer NICHT im TeamsOnly-Upgrademodus befindet, bleibt die Unterhaltung eine Inopoperfahrung mit nur Textnachrichten. Die Benutzeroberfläche stellt Verbundchats auf ähnliche Weise wie In-Mandant-In-Op-Threads zur Verfügung, es sei denn, es gibt eine Notiz, die besagt, dass der Benutzer extern ist.
 
 Weitere Informationen finden Sie unter [Verwalten des externen](manage-external-access.md) Zugriffs in Microsoft Teams und native Chaterfahrung für externe [(Verbundbenutzer) in Teams.](native-chat-for-external-users.md)
 

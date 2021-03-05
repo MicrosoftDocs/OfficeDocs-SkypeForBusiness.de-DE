@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401309"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460655"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Verwalten von Aufbewahrungsrichtlinien für Microsoft Teams
 
@@ -41,9 +41,11 @@ Weitere Informationen zur Aufbewahrung und zum Anwenden von Aufbewahrungseinstel
 
 Die Mindestlizenzanforderung für Aufbewahrungsrichtlinien für Teams ist Microsoft 365 E3. Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
-## <a name="how-teams-retention-policies-work"></a>Funktionsweise der Aufbewahrungsrichtlinien von Teams
+## <a name="how-teams-retentiondeletion-policies-work"></a>Funktionsweise von Aufbewahrungs-/Löschrichtlinien für Teams
 
-Teams-Chatnachrichten werden in einem ausgeblendeten Ordner im Postfach jedes Benutzers gespeichert, der im Chat enthalten ist, und Teams-Kanalnachrichten werden in einem ähnlichen ausgeblendeten Ordner im Gruppenpostfach für das Team gespeichert. Wenn Sie Nachrichten beibehalten möchten, die einer Aufbewahrungsrichtlinie unterliegen, wird eine Kopie des Inhalts automatisch im  Ordner "Wiederherstellbare Elemente" in einem ausgeblendeten Ordner namens **"Unterordner" mit** dem Namen "Speicherinhalte" aufbewahrt. Solange diese Nachrichten nicht dauerhaft aus dem Ordner "Benachrichtigungen" gelöscht werden, bleiben sie mit eDiscovery-Tools durchsucht.
+Teams-Chatnachrichten werden an zwei Speicherorten gespeichert. Primäre Kopie wird in Azure gespeichert, eine sekundäre Kopie, die für Kompatanzrichtlinien verwendet wird, wird in einem ausgeblendeten Ordner im Exchange-Onlinepostfach jedes im Chat enthaltenen Benutzers gespeichert, und Nachrichten des Teams-Kanals werden in einem ähnlichen ausgeblendeten Ordner im Gruppenpostfach für das Team gespeichert. Wenn eine Löschrichtlinie für Chatnachrichten auf einen Benutzer oder ein Team angewendet wird, wird die sekundäre Kopie zuerst gelöscht, gefolgt von der primären Kopie. Die eDiscovery- oder Teams-Suche basiert auf Nachrichten, die in einer sekundären Kopie gespeichert sind. Nachrichten können daher nicht gefunden werden, wenn die sekundäre Kopie gelöscht wird. 
+
+Wenn ein Poilcy für die Aufbewahrung von Chatnachrichten auf einen Benutzer oder ein Team angewendet wird und die Nachrichten gelöscht werden (entweder aufgrund einer anderen Löschrichtlinie oder durch den Benutzer selbst), wird die primäre Kopie gelöscht, daher sieht der Teams-Client, dass die Nachricht ausgeblendet wird, aber die sekundäre Kopie wird automatisch in einen ausgeblendeten Ordner namens **"Löschspeicher"** verschoben, der sich als Unterordner im Ordner  "Wiederherstellbare Elemente" von Exchange befindet. Solange diese Nachrichten nicht dauerhaft aus dem Ordner "Benachrichtigungen" gelöscht werden, bleiben sie mit eDiscovery-Tools durchsucht.
 
 Ausführliche Informationen dazu, was für Microsoft Teams-Aufbewahrungsrichtlinien enthalten und ausgeschlossen ist und wie diese Richtlinien je nach Ihrer Richtlinienkonfiguration funktionieren, finden Sie unter Informationen zur Aufbewahrung [für Microsoft Teams.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)
 

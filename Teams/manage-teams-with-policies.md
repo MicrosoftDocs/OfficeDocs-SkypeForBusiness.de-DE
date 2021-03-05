@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Lehnen Sie sich an Teams-Richtlinien an.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421300"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460495"
 ---
 # <a name="manage-teams-with-policies"></a>Verwalten von Teams mit Richtlinien
 
@@ -72,5 +72,6 @@ Richtlinientyp | Beschreibung
 
 * [Verwalten von Feedbackrichtlinien in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Verwalten von Teamrichtlinien in Microsoft Teams](teams-policies.md)
+* [Anzeigen von Richtlinienzuordnungen im Aktivitätsprotokoll](activity-log.md)
 * [Einrichten von Live-Ereignissen in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Richtlinien und Richtlinienpakete für Teams für Bildungseinrichtungen](policy-packages-edu.md)

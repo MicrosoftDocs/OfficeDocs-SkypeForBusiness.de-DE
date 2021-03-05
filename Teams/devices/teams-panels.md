@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams-Panels unterstützten Features.
-ms.openlocfilehash: 99c1c90734a72f6e98ee1ca9e862316445358d3c
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395337"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460505"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
 
@@ -41,7 +41,7 @@ Teams-Panels unterstützen die folgenden Features:
 - **Anpassen des Hintergrundbilds und des reservierten Zustandsindikators** Administratoren können das Standard- Aussehen der Panels über Einstellungen ändern. Administratoren können z. B. das Hintergrundbild oder die Farbe des Indikators für den beschäftigt-Zustand ändern.
 - **Barrierefreiheit.** Teams Panels verfügen über mehrere Barrierefreiheitsfeatures, z. B. Text mit hohem Kontrast, um die Verwendung für jeden zu vereinfachen.
 
-Weitere Informationen zu diesen Features und deren Verwendung finden Sie unter Verwenden [von Microsoft Teams-Panels.](use-teams-panels.md)
+Weitere Informationen zu diesen Features und deren Verwendung finden Sie unter [Verwenden von Microsoft Teams-Panels.](use-teams-panels.md)
 
 ## <a name="partners-certified-for-teams-panels"></a>Für Teams-Panels zertifizierte Partner
 
@@ -82,7 +82,7 @@ Erstellen Sie eine Bestandsaufnahme der vorhandenen buchbaren Besprechungsräume
 
 Beziehen Sie die Geräte basierend auf der Anzahl der Besprechungsräume, die für die Bereitstellung von Teams-Panels verfügbar sind, von einem der Für Teams-Panels zertifizierten [Partner.](#partners-certified-for-teams-panels) Besuchen Sie die Websites der Partner, um mehr über die Geräte und Beschaffungsoptionen zu erfahren.
 
-Besprechungsräume in Ihrer Organisation haben möglicherweise unterschiedliche Hardwareanforderungen für die Installation oder Befestigung der Geräte. So ist beispielsweise die Hardware, die für die Befestigung des Geräts auf einer Glas-, Putz-, Trockenbau- oder Holzvertäfelung erforderlich ist, möglicherweise nicht identisch. Verfügbare Montageoptionen finden Sie in der Dokumentation des Gerätepartners.
+Besprechungsräume in Ihrer Organisation haben möglicherweise unterschiedliche Hardwareanforderungen für die Installation oder Befestigung der Geräte. Beispielsweise ist hardware erforderlich, um das Gerät auf einer Glas-, Putz-, Trockenbau- oder Holzvertäfelung zu installieren. Verfügbare Montageoptionen finden Sie in der Dokumentation des Gerätepartners.
 
 ## <a name="site-readiness"></a>Websitebereitschaft
 
@@ -94,7 +94,7 @@ Unsere Empfehlungen für Teams-Panels-Websites sind:
 - Stromversorgung (Panels unterstützen in der Regel Power over Ethernet plus (PoE+) für Strom. Alle gerätespezifischen Energieanforderungen finden Sie in der OEM-Dokumentation.)
 - Quality of Service (QoS) im Netzwerk für Microsoft Teams aktiviert
 
-Überlegungen zur physischen Installation finden Sie in der OEM-Dokumentation, und verwenden Sie, wenn Sie über eine verfügen, die Erfahrung Ihres audio-visuellen Teams, bevor Sie Geräte installieren und mounten und Verkabelungen ausführen.
+Überlegungen zur physischen Installation finden Sie in der OEM-Dokumentation, und verwenden Sie, falls Sie über eine verfügen, die Erfahrung Ihres audio-visuellen Teams, bevor Sie Geräte installieren und mounten und Verkabelungen ausführen.
 
 ## <a name="configuration-and-deployment"></a>Konfiguration und Bereitstellung
 
@@ -115,7 +115,9 @@ Informationen zum Erstellen eines Ressourcenkontos und zum Zuweisen einer Lizenz
 >
 >- Wenn Sie bereits ein Raumressourcenkonto für den Besprechungsraum eingerichtet haben, in dem Sie Panels installieren, verwenden Sie dasselbe Raumressourcenkonto, um sich bei dem Panelgerät zu anmelden. Stellen Sie jedoch sicher, dass dem Raumressourcenkonto die Microsoft Teams Rooms Standard-Lizenz zugewiesen ist, um es als Ressourcenkonto für Panels zu verwenden.
 >
->- Wenn Sie bereits einen Microsoft Teams Rooms im Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, verfügt das Ressourcenkonto bereits über die [Microsoft Teams Rooms-Lizenz.](../rooms/rooms-licensing) In solchen Fällen müssen Sie keine separate Microsoft Teams Rooms Standard-Lizenz für die Bereitstellung von Panels erwerben. Der Administrator meldet sich bei dem Panelgerät mit den gleichen Anmeldeinformationen wie die Microsoft Teams Rooms für denselben Bereich an.
+>- Wenn Sie bereits einen Microsoft Teams Rooms in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, verfügt das Ressourcenkonto bereits über die [Microsoft Teams Rooms-Lizenz.](../rooms/rooms-licensing.md) In solchen Fällen müssen Sie keine separate Microsoft Teams Rooms Standard-Lizenz für die Bereitstellung von Panels erwerben. Der Administrator meldet sich bei dem Panelgerät mit den gleichen Anmeldeinformationen wie die Microsoft Teams Rooms für denselben Bereich an.
+>
+>- Bei großen Besprechungsräumen, z. B. Konferenzräumen oder Konferenzräumen mit mehreren Eingängen, können Sie an jedem Eingang ein Panelgerät einhängen. Mehrere Bereiche, die zu einem einzigen Besprechungsraum gehören, teilen dasselbe Ressourcenkonto und melden sich mit denselben Anmeldeinformationen an. Sie müssen keine separaten Ressourcenkonten für die einzelnen Panels für denselben Speicherplatz erstellen.
 
 > [!TIP]
 > Es wird empfohlen, das Ressourcenkonto weit vor der eigentlichen Installation von Teams-Panels zu erstellen.
@@ -127,7 +129,7 @@ Nachdem Sie Panels bereitgestellt haben, sollten Sie sie testen. Überprüfen Si
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Verwalten von Teams-Panels in Ihrer Organisation
 
-Zum Verwalten Ihrer Teams Panels-Geräte wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Geräte**  >  **Teams-Panels.** Hier können Sie das Gerätekonfigurationsprofil ändern, Updates verwalten, Geräte neu starten, Gerätetags hinzufügen und entfernen und vieles mehr. Weitere Informationen finden Sie unter [Verwalten Ihrer Geräte in Teams](device-management.md).
+Zum Verwalten Ihrer Geräte in Teams-Panels wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  >  **Geräte-Teams-Panels.** Hier können Sie das Gerätekonfigurationsprofil ändern, Updates verwalten, Geräte neu starten, Gerätetags hinzufügen und entfernen und vieles mehr. Weitere Informationen finden Sie unter [Verwalten Ihrer Geräte in Teams](device-management.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

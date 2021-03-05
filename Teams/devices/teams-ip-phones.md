@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Schreibtisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 7425ec0e637600e600987f43d85c7656e31919a4
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: ad0e89d51172f0e8704f805cc3d85875ffcf8728
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397530"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460745"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams-zertifizierte Geräte
 
-Die Microsoft Teams-Zertifizierungsprogramme stellen sicher, dass Kunden, die zertifizierte Telefone und Konferenztelefone verwenden, eine hohe Audioanruf- und Besprechungserfahrung erhalten.
+Die Microsoft Teams-Zertifizierungsprogramme stellen sicher, dass Kunden, die zertifizierte Telefone und Telefonkonferenzen verwenden, eine hohe Audioanruf- und Besprechungserfahrung erhalten.
 
-Microsoft Teams-Zertifizierungsprogramme stellen eine höhere Qualitätsleiste mit höheren Leistungszielen und Metriken für die Audioqualität sicher. Partner arbeiten aktiv daran, diese höhere Leiste zu erfüllen, und qualifizieren Geräte für Zertifizierungsanforderungen. Einige unserer Partner arbeiten auch daran, den Skype for Business-Dienst auf derselben Hardware wie die Teams-Telefone zu unterstützen. Zu den Vorteilen von Microsoft Teams-zertifizierten Geräten gehören:
+Microsoft Teams-Zertifizierungsprogramme stellen eine höhere Qualität der Leiste mit höheren Leistungszielen und Metriken für die Audioqualität sicher. Partner arbeiten aktiv daran, diese höhere Leiste zu erfüllen, und qualifizieren Geräte für Zertifizierungsanforderungen. Einige unserer Partner arbeiten auch daran, den Skype for Business-Dienst auf derselben Hardware wie die Teams-Telefone zu unterstützen. Zu den Vorteilen von Microsoft Teams-zertifizierten Geräten gehören:
 
 - Native Teams mit Hardwaretastenintegration und LED-Benachrichtigungen
 - Kalenderintegration und Teilnahme an einer One-Touch-Besprechung
@@ -44,14 +44,14 @@ Die folgenden Geräte sind im Rahmen des Microsoft Teams Phones Certification Pr
 
 |Gerätemodell                         | Firmwareversion                                                                                                                                                                                                                           | Veröffentlichungsdatum                 
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes-Erweiterungsmodul, das auf C450HD unterstützt wird |C450HD_TEAMS_0.225                                        | Januar 2021                 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | März 2019                   |
-| Audiocodes C448HD (nur CAP-Modus)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | März 2019                   |
+| Audiocodes C470HD                      | 1.8.293                                                  | Januar 2021                 |
+| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                       | März 2019                   |
+| Audiocodes C448HD (nur CAP-Modus)      | C450HD_TEAMS_0.225                                       | März 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | Juli 2020                    |
-| Crestron M100                          | Dieses Produkt wurde nicht mehr verwendet. Weitere Informationen finden Sie unter [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) auf der Website von Crestron. | Eingestellt am 11.05.2020 |
-| Crestron Flex UC-P100-T & UC-P110-T    | Dieses Produkt wurde nicht mehr verwendet. Weitere Informationen finden Sie unter [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) auf der Website von Crestron.                  | Eingestellt am 11.05.2020 |
+| Crestron M100                          | Dieses Produkt wurde nicht mehr verwendet. Weitere Informationen finden Sie unter [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) auf der Website von Crestron. | Eingestellt (11.05.2020) |
+| Crestron Flex UC-P100-T & UC-P110-T    | Dieses Produkt wurde nicht mehr verwendet. Weitere Informationen finden Sie unter [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) auf der Website von Crestron.                  | Eingestellt (11.05.2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | April 2020                   |
-| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
+| Poly Trio C60, Trio C60 NR, Trio C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | April 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | Januar 2020                 |
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | Januar 2020                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Dezember 2019                |
@@ -110,20 +110,21 @@ Im Folgenden finden Sie die neuesten Versionen von Teams Phone App und Firmware.
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-App, das Unternehmensportal und den Administrator-Agent ermitteln, die installiert werden, indem Sie die Produktversion in der Spalte **Eingeschlossene Produktversion** finden. Suchen Sie dann die Produktversion in der **Obigen Tabelle "App-Versionen".**
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden installierten Versionen der Microsoft Teams-App, des Unternehmensportals und des Administratormitarbeiters ermitteln. Suchen Sie dazu die Produktversion  in der Spalte Enthaltene Produktversion, und suchen Sie dann die Produktversion in der vorherigen **Tabelle "App-Versionen".**
 
 | Gerätemodell        | Firmwareversion     | Jahres-/Im Lieferumfang enthaltene Produktversion  |
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | Update 2020 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | Update 2020 #7           |
+| Crestron UC-2       | 1.0.2.53              | Update 2020 #7            |
 | Lenovo ThinkSmart View|CD-18781Y.200922.098 | Update 2020 #6           |
-| Poly CCX400         | 6.2.23.0202         | Update 2020 #7           |
+| Poly CCX400         | 6.2.23.0202       | Update 2020 #7           |
 | Poly CCX500/CCX600  | 6.2.23.0202         | Update 2020 #7          |
 | Poly Trio C60       | 6.2.23.0202          | Update 2020 #7          |
-| Yealink T55/T56/T58 | 58.15.0.118         | Update 2020 #7           |
-| Yealink MP56        | 122.15.0.27          | Update 2020 #7           |
-| Yealink VP59        | 91.15.0.50          | Update 2020 #7           |
-| Yealink CP960       | 73.15.0.111       | Update 2020 #7           |
+| Yealink T55/T56/T58 | 58.15.0.122       | Update 2020 #7           |
+| Yealink MP56        | 122.15.0.33         | Update 2020 #7           |
+| Yealink VP59        | 91.15.0.54         | Update 2020 #7           |
+| Yealink CP960       | 73.15.0.115      | Update 2020 #7           |
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Produktveröffentlichungsinformationen für Teams Rooms unter Android
 
@@ -133,8 +134,8 @@ Im Folgenden finden Sie die neuesten Versionen der Teams Rooms für Android-App 
 
 | Produktversion| Veröffentlichungsdatum | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Aktualisieren #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product versioncode: 216 |
-| Aktualisieren #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product versioncode: 212|
+| Aktualisieren #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
+| Aktualisieren #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
 | Aktualisieren #1  | 13. Mai 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Firmwareversionen
@@ -149,7 +150,7 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 ### <a name="product-release-information-for-teams-displays"></a>Produktveröffentlichungsinformationen für Die Anzeigen von Teams
 
-Im Folgenden finden Sie die neuesten Versionen von Teams-Anzeige-Apps und -Firmwares.
+Im Folgenden finden Sie die neuesten Versionen für die Microsoft Teams-Anzeige-App und -Firmware.
 
 #### <a name="app-versions"></a>App-Versionen
 
@@ -177,7 +178,7 @@ Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zu
 
 Wenn Sie ein Anbieter sind, der am Zertifizierungsprogramm teilnehmen möchten, lesen Sie [Teilnehmen](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) an Anforderungen und verfügbaren Programmen.
 
-## <a name="additional-resources"></a>Weitere Ressourcen
+## <a name="more-resources"></a>Weitere Ressourcen
 
 [Erkunden Sie Microsoft Teams-Telefone und zertifizierte Geräte.](https://products.office.com/microsoft-teams/across-devices/devices)
 

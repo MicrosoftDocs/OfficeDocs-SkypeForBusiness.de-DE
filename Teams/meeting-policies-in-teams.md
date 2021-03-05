@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Microsoft Teams verwalten und verwenden können, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 5b3b2e3975906e130d81804c2db51973bf50521c
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams verwalten. Verwenden Sie Richtlinieneinstellungen, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
+ms.openlocfilehash: 2b148cc619da43e4033a8c503470da3e765b7d5c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50408201"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460615"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -43,7 +43,7 @@ Sie können Richtlinien, die sich auf die Benutzererfahrung vor, während oder n
 
 |Implementierungstyp  |Beschreibung  |
 |---------|---------|
-|Organisatorspezifische Richtlinie    |Wenn Sie eine organisatorspezifische Richtlinie implementieren, erben alle Besprechungsteilnehmer die Richtlinie des Organisators. So ist beispielsweise **Personen automatisch zulassen** eine organisatorspezifische Richtlinie, die bei Besprechungen, die vom Nutzer, der die Richtlinie zugewiesen hat, geplant worden sind, steuert, ob Benutzer an der Besprechung direkt teilnehmen oder in der bis zum Beginn Wartebereich bleiben.          |
+|Organisatorspezifische Richtlinie    |Wenn Sie eine organisatorspezifische Richtlinie implementieren, erben alle Besprechungsteilnehmer die Richtlinie des Organisators. Beispielsweise ist **"Personen automatisch zugeben"** eine Richtlinie pro Organisator. Sie steuert, ob Benutzer direkt an der Besprechung teilnehmen oder im Wartebereich auf Besprechungen warten, die vom Benutzer geplant werden, dem die Richtlinie zugewiesen ist.          |
 |Benutzerspezifische Richtlinie    |Wenn Sie eine benutzerspezifische Richtlinie implementieren, gilt nur diese Richtlinie, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer einzuschränken. So ist beispielsweise **Sofortbesprechung in Kanälen zulassen** eine benutzerspezifische Richtlinie.     |
 |Organisator- und benutzerspezifisch     |Wenn Sie eine Kombination aus einer organisatorspezifischen und einer benutzerspezifischen Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. So ist beispielsweise **Cloud-Aufnahme zulassen** eine organisatorspezifische und benutzerspezifische Richtlinie. Aktivieren Sie diese Einstellung, damit Benutzer eine Aufzeichnung starten und beenden können.
 
@@ -96,7 +96,7 @@ Sie können die globale Standardrichtlinie oder eine von Ihnen erstellte benutze
 
 ## <a name="meeting-policy-settings"></a>Einstellungen für Besprechungsrichtlinien
 
-Wenn Sie auf der  Seite Besprechungsrichtlinien  eine vorhandene Richtlinie auswählen oder Hinzufügen auswählen, um eine neue Richtlinie hinzuzufügen, können Sie Einstellungen für die folgenden Features konfigurieren.
+Wählen Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie aus, oder wählen Sie **Hinzufügen aus,** um eine neue Richtlinie hinzuzufügen. Konfigurieren Sie die Einstellungen für Folgendes.
 
 - [Allgemein](#meeting-policy-settings---general)
 - [Audio & Video](#meeting-policy-settings---audio--video)
@@ -123,7 +123,7 @@ Bei **Sofortbesprechungen zulassen** handelt es sich um eine benutzerspezifische
 
 ### <a name="allow-the-outlook-add-in"></a>Outlook-Add-In zulassen
 
-Hierbei handelt es sich um eine benutzerspezifisch Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Microsoft Teams-Besprechungen in Outlook (Windows, Mac, Web und Mobile) geplant werden können.
+Das Outlook-Add-In zulassen ist eine Benutzerrichtlinie und gilt, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Microsoft Teams-Besprechungen in Outlook (Windows, Mac, Web und Mobile) geplant werden können.
 
 ![Screenshot mit der Option für die Planung von Besprechungen](media/meeting-policies-outlook-add-in.png)
 
@@ -137,7 +137,7 @@ Wenn diese Richtlinie deaktiviert ist, können Benutzer keine neuen Kanalbesprec
 
 Die Option zum Planen von Besprechungen ist dann deaktiviert.
 
- ![Screenshot mit der Option "Besprechung planen" in Microsoft Teams](media/schedule-meeting-option.png)
+ ![Die Option "Besprechung planen" in Teams](media/schedule-meeting-option.png)
 
 Die Option zum Auswählen eines Kanals ist deaktiviert.
 
@@ -156,7 +156,7 @@ Im Kanal-Kalender:
 - Die Schaltfläche **Neues Ereignis hinzufügen** im Header des Kanalkalenders ist deaktiviert.
   ![Deaktivierte Schaltfläche im Header des Kanalkalenders](media/add-new-event-disabled.png)
 
-- Die Benutzer können im Kanalkalender keine Zeitblöcke auswählen und ziehen, um eine Kanalbesprechung zu erstellen.
+- Benutzer können einen Zeitblock im Kanalkalender nicht ziehen und auswählen, um eine Kanal besprechung zu erstellen.
 
 - Die Benutzer können keine Tastenkombinationen zum Erstellen einer Besprechung im Kanalkalender verwenden.
 
@@ -168,7 +168,7 @@ Die Kanalkalender-App wird auf der Seite der App-Berechtigungsrichtlinien im Abs
 
 ### <a name="allow-scheduling-private-meetings"></a>Planung privater Besprechungen zulassen
 
-Hierbei handelt es sich um eine benutzerspezifisch Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer private Besprechungen in einem Teams-Kanal planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+Das Planen privater Besprechungen ist eine Benutzerrichtlinie und gilt, bevor eine Besprechung beginnt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer private Besprechungen in einem Teams-Kanal planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
 
 Wenn Sie  Die Planung privater Besprechungen zulassen  und Kanalbesprechungsplanung zulassen **deaktivieren,** sind die Optionen Erforderliche Teilnehmer hinzufügen und Kanal hinzufügen für Benutzer in Teams deaktiviert.  Diese Einstellung ist standardmäßig aktiviert.
 
@@ -189,15 +189,27 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet w
 
 ### <a name="allow-transcription"></a>Transkription zulassen
 
-Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Option deaktivieren, stehen die Optionen **Suche** und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
+Transkription zulassen ist eine Benutzerrichtlinie. Diese Einstellung steuert, ob die Besprechungen dieses Benutzers transkribiert werden können.
 
+:::image type="content" source="media/live-transcription.png" alt-text="Screenshot mit Transkriptionsoptionen":::
 Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, deren Sprache in Teams auf Englisch festgelegt ist und in der Besprechung Englisch gesprochen wird.
 
-![die Transkriptionoptionen in einer Besprechung](media/meeting-policies-transcription.png)
+Live-Transkription zeigt sprach-zu-text gesprochenen Inhalt während einer Besprechung in nahezu Echtzeit. Der Text wird neben dem Besprechungsvideo angezeigt, einschließlich des Namens des Sprechers und eines Zeitstempels. Weitere Informationen finden Sie unter [Anzeigen der Live-Transkription in einer Teams-Besprechung.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+
+Derzeit wird die Live transkription auf dem Desktopclient von Teams unterstützt. Transkription wird für gesprochenes US-Englisch unterstützt. Das Transkript ist nach der Besprechung auf dem Desktop oder im Web von Teams verfügbar.
+
+Hier erfahren Sie, wie die Richtlinieneinstellungen **Transkription zulassen** und **Cloudaufzeichnung** zulassen zusammenarbeiten. In der folgenden Tabelle werden die Werte für diese Einstellungen und das Besprechungsverhalten beschrieben.
+
+|Transkription zulassen|Cloud-Aufnahme zulassen|Verhalten|
+|---------|---------|---------|
+|**Ein**|**Ein**|Die **Option Transkription starten** ist in Besprechungen verfügbar. Der Besprechungsorganisator oder die Besprechungsteilnehmer können die Transkription starten und beenden. Die **Option Aufzeichnung starten** ist in Besprechungen verfügbar. Der Besprechungsorganisator oder die Besprechungsteilnehmer können die Aufzeichnung starten und beenden. |
+|**Ein**|**Aus**|Die **Option Transkription starten** ist in Besprechungen verfügbar. Die **Option Aufzeichnung starten** ist in Besprechungen nicht verfügbar. |
+|**Aus**|**Ein**|Die **Option Aufzeichnung starten** ist in Besprechungen verfügbar. Die **Option Transkription** starten ist in Besprechungen nicht verfügbar.|
+|**Aus**|**Aus**|Aufzeichnung und Transkription sind in Besprechungen nicht verfügbar.  |
 
 ### <a name="allow-cloud-recording"></a>Cloud-Aufnahme zulassen
 
-Dies wird in einer Benutzerrichtlinie gesteuert. Mit dieser Einstellung wird bestimmt, ob ein Benutzer Aufzeichnungen erstellen kann. Die Aufzeichnung kann vom Besprechungsorganisator oder von einem anderen Besprechungsteilnehmer gestartet werden, wenn die spezifische Richtlinieneinstellung aktiviert ist und wenn es sich um einen authentifizierten Benutzer aus derselben Organisation wie der Organisator handelt.
+Die Cloudaufzeichnung zulassen wird in einer Benutzerrichtlinie gesteuert. Mit dieser Einstellung wird bestimmt, ob ein Benutzer Aufzeichnungen erstellen kann. Die Aufzeichnung kann vom Besprechungsorganisator oder von einem anderen Besprechungsteilnehmer gestartet werden, wenn die spezifische Richtlinieneinstellung aktiviert ist und wenn es sich um einen authentifizierten Benutzer aus derselben Organisation wie der Organisator handelt.
 
 Personen außerhalb Ihrer Organisation, z. b. Partner- oder anonyme Benutzer, können die Aufzeichnung nicht starten. Gastbenutzer können die Aufzeichnung nicht starten oder beenden.
 
@@ -211,20 +223,20 @@ Sehen Sie sich das folgende Beispiel an.
 |Amalia | Location1MeetingPolicy | Ein|
 |Johann (externer Benutzer) | Nicht zutreffend | Nicht zutreffend|
 
-Daniela kann, auch wenn sie die Organisatorin war, nicht aufzeichnen, da ihre Richtlinie auf "Off" festgelegt ist. Amanda, die die Richtlinieneinstellung aktiviert hat, kann Besprechungen aufzeichnen, auch solche, die von Daniela organisiert wurden. Wenn Amanda eine Besprechung organisieren sollte, kann sie diese Besprechung aufzeichnen. Allerdings können Daniela, die die Richtlinieneinstellung deaktiviert hat, und John, der ein externer Benutzer ist, diese Besprechung nicht aufzeichnen.
+Daniela, auch wenn sie die Organisatorin war, kann sie nicht aufzeichnen, da ihre Richtlinie auf "Off" festgelegt ist. Amanda, die die Richtlinieneinstellung aktiviert hat, kann Besprechungen aufzeichnen, einschließlich der von Daniela organisierten. Wenn Amanda eine Besprechung organisieren sollte, kann sie diese Besprechung aufzeichnen. Allerdings können Daniela, die die Richtlinieneinstellung deaktiviert hat, und John, der ein externer Benutzer ist, diese Besprechung nicht aufzeichnen.
 
 Näheres zur Aufzeichnung von Cloud-Besprechungen erfahren Sie unter [Aufzeichnen von Microsoft Teams-Cloudbesprechungen](cloud-recording.md).
 
 ### <a name="mode-for-ip-audio"></a>Modus für IP-Audio
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Audio in Besprechungen und Gruppenanrufen aktiviert werden kann. Nachfolgend sind die Werte für diese Einstellung aufgeführt.
+Der Modus für IP-Audio ist eine Benutzerrichtlinie. Über diese Einstellung wird gesteuert, ob Audio in Besprechungen und Gruppenanrufen aktiviert werden kann. Nachfolgend sind die Werte für diese Einstellung aufgeführt.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
 |**Ausgehendes und eingehendes Audio aktiviert**    |Ausgehendes und eingehendes Audio ist in der Besprechung zulässig. Dies ist die Standardeinstellung. |
 |**Deaktiviert**     |Ausgehendes und eingehendes Audio ist in der Besprechung deaktiviert.     |
 
-Wenn für einen Benutzer **Deaktiviert** festgelegt ist, kann er weiterhin Besprechungen planen und organisieren, jedoch kein Audio verwenden. Wenn er an einer Besprechung teilnehmen möchte, muss er sich über das öffentliche Festnetz einwählen, oder sich aus der Besprechung anrufen lassen und per Telefon daran teilnehmen. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Audio aktiviert** festgelegt. Wenn diese Einstellung auf mobilen Microsoft Teams-Clients deaktiviert ist, muss sich der Benutzer über das öffentliche Telefonnetz einwählen, um an einer Besprechung teilzunehmen.
+Wenn für einen Benutzer **auf Deaktiviert** festgelegt ist, kann dieser Benutzer besprechungen zwar planen und organisieren, aber keine Audiodaten verwenden. Um an einer Besprechung teilnehmen zu können, muss sich der Benutzer über das PstN (Public Switched Telephone Network) einwählen oder über den Besprechungsanruf verfügen, um dem Benutzer per Telefon beitreten zu können. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Audio aktiviert** festgelegt. Wenn diese Einstellung auf mobilen Microsoft Teams-Clients deaktiviert ist, muss sich der Benutzer über das öffentliche Telefonnetz einwählen, um an einer Besprechung teilzunehmen.
 
 Diese Einstellung gilt nicht für Einzelanrufe. Wenn Sie Einzelanrufe einschränken möchten, konfigurieren Sie eine Microsoft Teams-[Anrufrichtlinie](teams-calling-policy.md), und deaktivieren Sie die Einstellung für das Tätigen **privater Anrufe**. Diese Einstellung gilt auch nicht für Konferenzraumgeräte wie Surface Hub und Geräte für Microsoft Teams-Räume.
 
@@ -234,11 +246,11 @@ Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteil
 
 ### <a name="mode-for-ip-video"></a>Modus für IP-Video
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Video in Besprechungen und Gruppenanrufen aktiviert werden kann. Nachfolgend sind die Werte für diese Einstellung aufgeführt.
+Der Modus für IP-Video ist eine Benutzerrichtlinie. Über diese Einstellung wird gesteuert, ob Video in Besprechungen und Gruppenanrufen aktiviert werden kann. Nachfolgend sind die Werte für diese Einstellung aufgeführt.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
-|**Ausgehendes und eingehendes Video aktiviert**    | Ausgehendes und eingehendes Video ist in der Besprechung zulässig. Dies ist die Standardeinstellung. |
+|**Ausgehendes und eingehendes Video aktiviert**    | Ausgehendes und eingehendes Video ist in der Besprechung zulässig und ist die Standardeinstellung. |
 |**Deaktiviert**     | Ausgehendes und eingehendes Video ist in der Besprechung deaktiviert. Auf mobilen Microsoft Teams-Clients können Benutzer keine Videos oder Fotos in der Besprechung freigeben. <br><br>Beachten Sie: Wenn der **Modus für IP-Audio** deaktiviert ist, bleibt auch der **Modus für IP-Video** deaktiviert.  |
 
 Wenn diese Einstellung für einen Benutzer **deaktiviert** ist, kann dieser die Videofunktion nicht aktivieren und auch keine Videos anzeigen, die von anderen Besprechungsteilnehmern geteilt werden. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Video aktiviert** festgelegt.
@@ -254,7 +266,7 @@ Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteil
 
 ### <a name="allow-ip-video"></a>IP-Video zulassen
 
-Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf mobilen Microsoft Teams-Clients wird über diese Einstellung gesteuert, ob Benutzer Fotos und Videos in einer Besprechung teilen können.
+Ip-Video zulassen ist eine Kombination aus einer Richtlinie pro Organisator und Benutzer. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf mobilen Microsoft Teams-Clients wird über diese Einstellung gesteuert, ob Benutzer Fotos und Videos in einer Besprechung teilen können.
 
 In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Richtlinieneinstellung aktiviert ist, ist die Videofreigabe durch die Teilnehmer zulässig, sofern die Richtlinieneinstellung für sie ebenfalls aktiviert ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer und Partner), erben die für den Besprechungsorganisator geltende Richtlinie.
 
@@ -272,11 +284,11 @@ Sehen Sie sich das folgende Beispiel an.
 |Daniela   | Global   | Ein       |
 |Amalia    | Location1MeetingPolicy        | Aus      |
 
-In von Daniela organisierten Besprechungen kann die Videofunktion aktiviert werden. Daniela kann an der Besprechung teilnehmen und die Videofunktion aktivieren. Amanda kann die Videofunktion in Danielas Besprechung nicht aktivieren, da für sie die Richtlinie so festgelegt ist, dass Video nicht zulässig ist. Amanda kann Videos anzeigen, die von anderen Teilnehmern der Besprechung geteilt werden.
+In von Daniela organisierten Besprechungen kann die Videofunktion aktiviert werden. Daniela kann an der Besprechung teilnehmen und die Videofunktion aktivieren. Amanda kann das Video in der Besprechung von Daniela nicht aktivieren, da Die Richtlinie von Amanda so festgelegt ist, dass video nicht zulässig ist. Amanda kann Videos anzeigen, die von anderen Teilnehmern der Besprechung geteilt werden.
 
 In Besprechungen, die von Amanda gehostet werden, kann unabhängig von der ihm zugewiesenen Videorichtlinie niemand die Videofunktion aktivieren. Das bedeutet, dass Daniela in Amandas Besprechungen die Videofunktion nicht aktivieren kann.  
 
-Wenn Daniela Amanda bei aktivierter Videofunktion anruft, kann Amanda den Anruf nur mit Audio annehmen. Wenn der Anruf verbunden ist, kann Amanda das Video von Daniela sehen, aber kein Video aktivieren. Wenn Amanda Daniela anruft, kann Daniela den Anruf mit Video und Audio annehmen. Bei laufendem Anruf kann Daniela ihr Video nach Wunsch aktivieren oder deaktivieren.
+Wenn Daniela Amanda bei aktivierter Videofunktion anruft, kann Amanda den Anruf nur mit Audio annehmen. Bei laufendem Anruf kann Amanda Danielas Video sehen, selbst die Videofunkton jedoch nicht aktivieren. Wenn Amanda Daniela anruft, kann Daniela den Anruf mit Video und Audio annehmen. Bei laufendem Anruf kann Daniela ihr Video nach Wunsch aktivieren oder deaktivieren.
 
 Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
 
@@ -308,11 +320,11 @@ Die restriktivste Richtlinie zwischen der Richtlinie des Besprechungsorganisator
 
 #### <a name="teams-mobile-clients"></a>Mobile Microsoft Teams-Clients
 
-Für Benutzer auf mobilen Microsoft Teams-Clients wird die Möglichkeit, Fotos und Videos während einer Besprechung zu teilen, ebenfalls durch die Einstellungen für **IP-Video zulassen** oder **IP-Videomodus** festgelegt. Je nachdem, welche Richtlinieneinstellung Vorrang hat, ist die Option zum Teilen von Videos und Fotos nicht verfügbar. Dies wirkt sich nicht auf die Bildschirmfreigabe aus, die diese über eine eigene Einstellung für den [Bildschirmfreigabemodus](#screen-sharing-mode) konfiguriert wird. Darüber hinaus können Sie eine [Microsoft Teams-Richtlinie für Mobilgeräte](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) festlegen, um zu verhindern, dass Benutzer von Mobilgeräten die IP-Videofunktion über eine Mobilverbindung verwenden; dies bedeutet, dass sie eine WLAN-Verbindung verwenden müssen.
+Für Benutzer auf mobilen Teams-Clients wird die Möglichkeit zum Freigeben von Fotos und Videos während einer Besprechung durch die Einstellung **IP-Video-** oder **IP-Videomodus zulassen** bestimmt. Je nachdem, welche Richtlinieneinstellung Vorrang hat, ist die Option zum Teilen von Videos und Fotos nicht verfügbar. Dies wirkt sich nicht auf die Bildschirmfreigabe aus, die diese über eine eigene Einstellung für den [Bildschirmfreigabemodus](#screen-sharing-mode) konfiguriert wird. Darüber hinaus können Sie eine [Microsoft Teams-Richtlinie für Mobilgeräte](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy) festlegen, um zu verhindern, dass Benutzer von Mobilgeräten die IP-Videofunktion über eine Mobilverbindung verwenden; dies bedeutet, dass sie eine WLAN-Verbindung verwenden müssen.
 
 ### <a name="media-bit-rate-kbs"></a>Media-Bitrate (KBs)
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Diese Einstellung bestimmt für den Benutzer die Medienbitrate für Audio-, Video- und videobasierte App-Übertragung bei Anrufen und in Besprechungen. Sie wird sowohl auf die Uplink- als auch auf die Downlink-Medienübertragung für die Benutzer die sich in einem Anruf oder einer Besprechung befinden, angewendet. Mit dieser Einstellung können Sie die Bandbreite in Ihrer Organisation präzise kontrollieren und verwalten. Je nach Szenario, das die Benutzer benötigen, empfiehlt es sich, genügend Bandbreite für eine bereitzustellen, um eine gute, qualitativ hochwertige Erfahrung zu gewährleisten. Der Mindestwert beträgt 30 KBit/s. Der Höchstwert ist von der jeweiligen Besprechungssituation abhängig. Weitere Informationen zur empfohlenen Mindestbandbreite für Besprechungen, Anrufe und Live-Ereignisse in hoher Qualität in Microsoft Teams finden Sie unter [Bandbreitenanforderungen](prepare-network.md#bandwidth-requirements).
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Diese Einstellung bestimmt die durchschnittliche Medienbitrate für Audio-, Video- und videobasierte App-Freigabeübertragungen in Anrufen und Besprechungen für den Benutzer. Sie wird sowohl auf die Uplink- als auch auf die Downlink-Medienübertragung für die Benutzer die sich in einem Anruf oder einer Besprechung befinden, angewendet. Mit dieser Einstellung können Sie die Bandbreite in Ihrer Organisation präzise kontrollieren und verwalten. Je nach Szenario, das die Benutzer benötigen, empfiehlt es sich, genügend Bandbreite für eine bereitzustellen, um eine gute, qualitativ hochwertige Erfahrung zu gewährleisten. Der Mindestwert beträgt 30 KBit/s. Der Höchstwert ist von der jeweiligen Besprechungssituation abhängig. Weitere Informationen zur empfohlenen Mindestbandbreite für Besprechungen, Anrufe und Live-Ereignisse in hoher Qualität in Microsoft Teams finden Sie unter [Bandbreitenanforderungen](prepare-network.md#bandwidth-requirements).
 
 Wenn für eine Besprechung nicht genügend Bandbreite verfügbar ist, wird den Teilnehmern eine Nachricht angezeigt, die auf die geringe Übertragungsleistung hinweist.
 
@@ -428,6 +440,10 @@ Sehen Sie sich das folgende Beispiel an.
 |Amalia   | Location1MeetingPolicy | Aus |
 
 Daniela kann sich in Amandas Besprechungen Notizen machen, Amanda kann hingegen in keiner Besprechung Notizen machen.
+
+<!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
+<a name="bkmeetingparticipants"> </a>
+<!-- Do not remove the bookmark link above. -->
 
 ## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -549,7 +565,7 @@ Wenn Sie festlegen möchten, ob Benutzer ihren Videohintergrund in einer Besprec
 |Festzulegender Wert in PowerShell |Verhalten  |
 |---------|---------|
 |**NoFilters**     |Der Benutzer kann seinen Videohintergrund nicht anpassen.|
-|**BlurOnly**     |Der Benutzer hat die Möglichkeit, den Hintergrund des Videos weichzuzeichnen. |
+|**BlurOnly**     |Benutzer können ihren Videohintergrund weichschärfen. |
 |**BlurandDefaultBackgrounds**     |Der Benutzer hat die Möglichkeit, den Hintergrund des Videos weichzuzeichnen oder eines der Standardbilder auszuwählen, die als Hintergrund verwendet werden können. |
 |**AllFilters**     |Der Benutzer hat die Möglichkeit, seinen Videohintergrund weichzuwischen, aus dem Standardsatz von Bildern zu wählen oder benutzerdefinierte Bilder hochzuladen, die als Hintergrund verwendet werden. |
 

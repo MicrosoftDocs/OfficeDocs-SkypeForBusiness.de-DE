@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendanten für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: deb9bf013136bb8efd9171e5562de5e2ba1b631f
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347866"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460885"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
-Mithilfe automatischer Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, Anrufwarteschlange, Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen.
+Mithilfe von automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, Anrufwarteschlange, Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen.
 
 Achten Sie darauf, dass Sie automatische Telefonkonferenzen und [](plan-auto-attendant-call-queue.md#getting-started) Anrufwarteschlangen für Planen für [Teams](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den Schritten für die ersten Schritte, bevor Sie die in diesem Artikel beschriebenen Verfahren ausführen.
 
@@ -72,7 +72,7 @@ Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Teams Admin 
 
 ![Screenshot der Einstellungen für Grußnachrichten](media/auto-attendant-call-flow-greeting-message.png)
 
-Wählen Sie aus, ob eine Begrüßung wieder gegeben werden soll, wenn die automatische Telefonkonferenz einen Anruf beantwortet.
+Wählen Sie aus, ob sie eine Begrüßung wieder geben möchten, wenn die automatische Telefonkonferenz einen Anruf beantwortet.
 
 Wenn Sie **Audiodateien wiederverspielen auswählen,** können Sie die Schaltfläche **Datei** hochladen verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audio in gespeichert ist. WAV, . MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
 
@@ -137,7 +137,7 @@ Das erforderliche Format für die Eingabe der Erweiterung in das Feld "Benutzert
 Sie können die Erweiterung im [Microsoft 365 Admin Center](https://admin.microsoft.com/) oder im Azure Active Directory Admin Center [festlegen.](https://aad.portal.azure.com) Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonanten und Anrufwarteschlangen verfügbar sind.
 
 > [!NOTE]
-> Wenn Sie sowohl die  Features "Nach Name" als auch "Nach Namen wählen nach" verwenden möchten, können Sie ihrer automatischen Haupttelefonwarte eine Wähltaste zuweisen, um eine automatische Telefonwarte zu erreichen, die für "Nach Name" aktiviert **ist.**  Innerhalb dieser automatischen Telefon attendant können Sie die 1-Taste (die keine Buchstaben zugeordnet ist) zuweisen, um die automatische Telefonwarte "DurchWahl **nach"** zu erreichen.
+> Wenn Sie sowohl die  Features "Nach Name wählen" als auch "Nach Name wählen" verwenden möchten, können Sie ihrer automatischen Haupttelefonwarte eine Wähltaste zuweisen, um zu einer automatischen Telefonwarte zu gelangen, die für "Nach Name" aktiviert **ist.**  Innerhalb dieser automatischen Telefon attendant können Sie die 1-Taste (die keine Buchstaben zugeordnet ist) zuweisen, um die automatische Telefonwarte "DurchWahl **nach"** zu erreichen.
 
 Nachdem Sie eine Option für die **Verzeichnissuche ausgewählt haben,** wählen Sie **Weiter aus.**
 
@@ -147,7 +147,7 @@ Nachdem Sie eine Option für die **Verzeichnissuche ausgewählt haben,** wählen
 
 Geschäftszeiten können für jede automatische Attendant festgelegt werden. Wenn keine Geschäftszeiten festgelegt sind, gelten alle Tage und alle Stunden des Tages als Geschäftszeiten, da standardmäßig ein 24/7-Zeitplan festgelegt ist. Geschäftszeiten können mit Zeitumbrüchen während des Tages festgelegt werden, und alle Stunden, die nicht als Geschäftszeiten festgelegt sind, werden als Nachstunden betrachtet. Sie können unterschiedliche Optionen für die Anrufbehandlung und Begrüßungen für die Nachstunden festlegen.
 
-Je nachdem, wie Sie Ihre automatischen Telefonwarteschlangen und Anrufwarteschlangen konfiguriert haben, müssen Sie möglicherweise nur das Anrufrouting nach Stunden für automatische Telefonanten mit direkten Telefonnummern angeben.
+Je nachdem, wie Sie Ihre automatischen Telefonwarteschlangen und Anrufwarteschlangen konfiguriert haben, müssen Sie möglicherweise nur das Anrufrouting nach stundenlangen Zeiten für automatische Telefonanten mit direkten Telefonnummern angeben.
 
 Wenn Sie ein separates Anrufrouting für Anrufer nach stundenlangen Gesprächen wünschen, geben Sie Ihre Geschäftszeiten für jeden Tag an. Wählen **Sie Neue Uhrzeit hinzufügen aus,** um mehrere Stundensätze für einen bestimmten Tag anzugeben, z. B. um eine Mittagspause anzugeben.
 
@@ -212,9 +212,9 @@ Wenn Sie das Hinzufügen von Dienstkonten abgeschlossen haben, wählen Sie **Abs
 
 Lesen Sie die [Voraussetzungen,](plan-auto-attendant-call-queue.md#prerequisites) damit automatische Telefonanten Anrufe extern übertragen können.  Außerdem:
 
-- Bei einem Ressourcenkonto [](calling-plans-for-office-365.md) mit einer Anrufplannummer muss die Telefonnummer für externe Überweisungen im E.164-Format (+[Ländercode][Vorwahl][Telefonnummer]) eingegeben werden.
+- Bei einem Ressourcenkonto [](calling-plans-for-office-365.md)mit einer Anrufplanlizenz muss die Telefonnummer für externe Überweisungen im E.164-Format (+[Ländercode][Vorwahl][Telefonnummer]) eingegeben werden.
 
-- Bei einem Ressourcenkonto mit einer Direct Routing-Nummer ist das Telefonnummernformat für externe Übertragungen von den Einstellungen des [Session Border Controllers (SBC)](direct-routing-connect-the-sbc.md) abhängig.
+- Bei einem Ressourcenkonto mit einer Telefonsystemlizenz und einer Direct Routing Online Voice Routing-Richtlinie ist das Telefonnummernformat für externe Übertragungen von den Einstellungen des [Session Border Controllers (SBC)](direct-routing-connect-the-sbc.md) abhängig.
 
 Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
 
@@ -223,7 +223,7 @@ Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
     - Wenn sie auf Deaktiviert festgelegt ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und empfohlene Einstellung.
     - Wenn auf Aktiviert festgelegt ist, wird die Telefonnummer des Ressourcenkontos angezeigt.
 
-Wenn Sie in einer Skype for Business-Hybridumgebung einen automatischen Telefonanruf in das PSTN übertragen möchten, erstellen Sie einen neuen lokalen Benutzer, bei dem die Anruf weiterleitung auf die PSTN-Nummer festgelegt ist. Der Benutzer muss für die Enterprise-VoIP aktiviert sein und eine Sprachrichtlinie zugewiesen haben. Weitere Informationen finden Sie unter [Automatische Telefonanrufübertragung in PSTN.](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+Um in einer Skype for Business-Hybridumgebung einen automatischen Telefonanruf in das PSTN zu übertragen, erstellen Sie einen neuen lokalen Benutzer mit anrufverteilter Weiterleitung, die auf die PSTN-Nummer festgelegt ist. Der Benutzer muss für die Enterprise-VoIP aktiviert sein und eine Sprachrichtlinie zugewiesen haben. Weitere Informationen finden Sie unter [Automatische Telefonanrufübertragung in PSTN.](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Erstellen einer automatischen Attendant mit PowerShell
 
