@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421320"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461045"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
@@ -43,6 +43,9 @@ Der externe Zugriff ist standardmäßig für alle Domänen aktiviert. Sie könne
 ![Screenshot der Einstellungen für den externen Zugriff](media/external-access-federation-settings.png)
 
 Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [Externen Zugriff verwalten](manage-external-access.md). 
+
+>[!NOTE]
+>Die kostenlosen Lizenzen für Microsoft Teams unterstützen keinen externen Zugriff.
 
 ## <a name="guest-access"></a>Gastzugriff
 
@@ -65,8 +68,8 @@ Die folgende Tabelle zeigt die Unterschiede zwischen dem externen Zugriff (Partn
 | Sehen, ob jemand aus einer anderen Organisation für Anrufe oder Chats verfügbar ist | Ja | Ja<sup>1</sup> |
 | Nach Personen in anderen Organisationen suchen | Ja<sup>2</sup> | Nein |
 | Freigeben von Dateien | Nein | Ja |
-| Die Abwesenheitsnachricht sehen von | Nein | Ja |
-| Jemanden in einer anderen Organisation sperren | Nein | Ja |
+| Die Abwesenheitsnachricht eines Mitarbeiters einer anderen Organisation anzeigen | Nein | Ja |
+| Jemanden in einer anderen Organisation sperren  | Nein | Ja |
 | Verwenden von @Erwähnungen | Ja<sup>3</sup> | Ja |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>Dinge, die Personen von außerhalb der Organisation tun können
