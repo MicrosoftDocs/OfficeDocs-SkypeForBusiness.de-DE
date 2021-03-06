@@ -14,18 +14,19 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 search.appverid: MET150
 description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen sind, wenn Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 74407a37b6eaf6eb93a53491640daad7b74c16a6
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145912"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460525"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -171,6 +172,7 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 
 **Diese Länder/Regionen und Clouds werden nicht unterstützt**
 
+- Brasilien
 - Deutschland
 - Frankreich
 - Norwegen

@@ -1,36 +1,244 @@
 items:
   - name: Willkommen bei Teams
     href: teams-overview.md
-  - name: Poster zu Architektur und Telefonielösungen
-    href: teams-architecture-solutions-posters.md
-  - name: Remotemitarbeiter unterstützen (WFH)
-    href: support-remote-work-with-teams.md
-  - name: Schulung
-    items:
-      - name: Übersicht
-        href: training-microsoft-teams-landing-page.md
-      - name: Administratorschulung für Microsoft Teams
-        href: itadmin-readiness.md
-      - name: Teams-Sitzungen bei Ignite 2020
-        href: ignite-2020-landing-page.md
-      - name: Teams-Liveschulung
-        href: instructor-led-training-teams-landing-page.yml
-      - name: Teams-Online-Schulung
-        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-  - name: Bereitstellen von Microsoft Teams
-    href: How-to-roll-out-teams.md
   - name: Erste Schritte
     items:
-      - name: Übersicht
-        href: get-started-with-teams-quick-start.md
-      - name: 'Schritt 1: Erstellen Sie Ihre ersten Teams und Kanäle'
-        href: get-started-with-teams-create-your-first-teams-and-channels.md
-      - name: 'Schritt 2: Holen Sie Early Adopter ins Boot'
-        href: get-started-with-teams-onboard-early-adopters.md
-      - name: 'Schritt 3: Überwachen Sie Nutzung und Feedback'
-        href: get-started-with-teams-monitor-usage-and-feedback.md
-      - name: 'Schritt 4: Planen Sie die organisationsweite Einführung'
-        href: get-started-with-teams-resources-for-org-wide-rollout.md
+      - name: Übersicht über die Bereitstellung
+        href: deploy-overview.md
+      - name: Schnellstart
+        items:
+          - name: Schnellstartübersicht
+            href: get-started-with-teams-quick-start.md
+          - name: 'Schritt 1: Erstellen Sie Ihre ersten Teams und Kanäle'
+            href: get-started-with-teams-create-your-first-teams-and-channels.md
+          - name: 'Schritt 2: Holen Sie Early Adopter ins Boot'
+            href: get-started-with-teams-onboard-early-adopters.md
+          - name: 'Schritt 3: Überwachen Sie Nutzung und Feedback'
+            href: get-started-with-teams-monitor-usage-and-feedback.md
+          - name: 'Schritt 4: Planen Sie die organisationsweite Einführung'
+            href: get-started-with-teams-resources-for-org-wide-rollout.md
+          - name: Remotemitarbeiter unterstützen (WFH)
+            href: support-remote-work-with-teams.md
+      - name: Kleinunternehmen-Setup
+        href: deploy-small-business.md
+      - name: Unternehmen-Setup
+        items:
+          - name: Übersicht des Unternehmen-Setups
+            href: deploy-enterprise-overview.md
+          - name: Poster zu Architektur und Telefonielösungen
+            href: teams-architecture-solutions-posters.md
+          - name: Vorbereiten Ihrer Organisation
+            items:
+              - name: Vorbereiten des Netzwerks Ihrer Organisation für Teams
+                href: prepare-network.md
+              - name: Verwenden Sie Advisor für Teams zum Bereitstellen von Teams
+                href: use-advisor-teams-roll-out.md
+              - name: Verwenden des Netzwerkplaners für Teams
+                href: network-planner.md
+              - name: Netzwerkplaner – Exemplarische Vorgehensweise
+                href: tutorial-network-planner-example.yml
+              - name: Proxyserver für Teams oder Skype for Business Online
+                href: proxy-servers-for-skype-for-business-online.md
+              - name: "Planen von Microsoft\_365-Gruppen beim Erstellen von Teams in Microsoft Teams"
+                href: plan-office-365-groups.md
+              - name: Planen der Lebenszyklusverwaltung in Teams
+                href: plan-teams-lifecycle.md
+              - name: Planen der Governance in Teams
+                href: plan-teams-governance.md
+          - name: Teams in Ihrer Organisation einrichten
+            href: deploy-enterprise-setup.md
+          - name: Einführen
+            items:
+              - name: Übersicht
+                href: adopt-microsoft-teams-landing-page.md
+              - name: Erste Schritte
+                href: teams-adoption-get-started.md
+              - name: 'Phase 1: Start'
+                items:
+                  - name: Start
+                    href: teams-adoption-phase1.md
+                  - name: Grundlagen von Teams und Kanälen
+                    href: teams-adoption-understand-teams-and-channels.md
+                  - name: Erstellen Ihrer ersten Teams
+                    href: teams-adoption-your-first-teams.md
+                  - name: Wie gut ist Ihre Organisation auf Teams vorbereitet?
+                    href: teams-adoption-assess-readiness.md
+              - name: 'Phase 2: Experimentieren'
+                items:
+                  - name: Experimentieren
+                    href: teams-adoption-phase2-experiment.md
+                  - name: Erstellen Ihres Expertenprogramms
+                    href: teams-adoption-create-champions-program.md
+                  - name: Governance-Schnellstart
+                    href: teams-adoption-governance-quick-start.md
+                  - name: Definieren von Verwendungsszenarien
+                    href: teams-adoption-define-usage-scenarios.md
+                  - name: Onboarding von Early Adopters und Sammeln von Feedback
+                    href: teams-adoption-onboard-early-adopters.md
+                  - name: Onboardingsupport
+                    href: teams-adoption-onboard-support.md
+              - name: 'Phase 3: Skalierung'
+                items:
+                  - name: Skalierung
+                    href: teams-adoption-phase3-enable.md
+                  - name: Definieren von Ergebnissen und Erfolg
+                    href: teams-adoption-define-outcomes.md
+                  - name: Optimieren von Feedback und Berichterstellung
+                    href: teams-adoption-optimize-feedback-and-reporting.md
+                  - name: Fördern des Bewusstseins und Implementieren der Schulung
+                    href: teams-adoption-drive-awareness.md
+                  - name: Planen von Überprüfungen des Dienststatus
+                    href: teams-adoption-schedule-service-health-reviews.md
+          - name: Bereitstellen von Microsoft Teams-Clients
+            items:
+              - name: Beziehen von Clients für Teams
+                href: get-clients.md
+              - name: Abrufen von Teams für Android in China
+                href: get-teams-android-in-china.md
+              - name: Hardwareanforderungen für die Teams-App.
+                href: hardware-requirements-for-the-teams-app.md
+              - name: Empfehlungen für Hardware Decoder und Encoder-Treiber
+                href: hardware-decoders-and-encoders.md
+              - name: Installieren von Teams mithilfe von MSI
+                href: msi-deployment.md
+              - name: Aktivieren von Teams in Ihrer Organisation
+                href: Office-365-set-up.md
+              - name: Verwendung des Arbeitsspeichers durch Microsoft Teams
+                href: teams-memory-usage-perf.md
+              - name: "Microsoft\_365 und Office 365-URLs und IP-Adressbereiche"
+                href: office-365-urls-ip-address-ranges.md
+              - name: Teams für Virtualized Desktop Infrastructure (VDI)
+                href: teams-for-vdi.md
+              - name: Teams für Remotedesktopumgebung (RDP)
+                href: teams-on-rdp.md
+              - name: Bereitstellen von Teams für Surface Hub
+                href: teams-surface-hub.md
+              - name: Teams-Clientupdates
+                href: teams-client-update.md
+              - name: Problembehandlung bei Problemen mit Installation und Update
+                href: troubleshoot-installation.md
+          - name: Teams-Schulung
+            items:
+              - name: Übersicht
+                href: training-microsoft-teams-landing-page.md
+              - name: Administratorschulung für Microsoft Teams
+                href: itadmin-readiness.md
+              - name: Teams-Sitzungen bei Ignite 2020
+                href: ignite-2020-landing-page.md
+              - name: Teams-Liveschulung
+                href: instructor-led-training-teams-landing-page.yml
+              - name: Teams-Online-Schulung
+                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: Upgrade von Skype for Business
+    items:
+      - name: Erste Schritte
+        href: upgrade-start-here.md
+      - name: Info zum Upgrade-Framework
+        href: upgrade-framework.md
+      - name: Planen der Upgrade-Strategie
+        items:
+          - name: Planen des Projekts und der Anforderungen
+            items:
+              - name: Übersicht
+                href: upgrade-plan-journey.md
+              - name: Ernennen der Projektbeteiligten
+                href: upgrade-enlist-stakeholders.md
+              - name: Definieren des Projektumfangs
+                href: upgrade-define-project-scope.md
+              - name: Grundlegendes zu Koexistenz und Interoperabilität
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: Überlegungen zu PSTN
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: Auswählen der Upgrade-Strategie
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: Planen eines Benutzerpilotprojekts
+                href: pilot-essentials.md
+          - name: Vorbereiten der Umgebung für Teams
+            items:
+              - name: Übersicht über die technische Bereitschaft
+                href: upgrade-prepare-environment.md
+              - name: Vorbereiten der IT-Mitarbeiter auf Teams
+                href: upgrade-prepare-IT-pros.md
+              - name: Voraussetzungen
+                href: upgrade-plan-journey-prerequisites.md
+              - name: Bewerten der Umgebung
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: Vorbereiten des Diensts
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: Vorbereiten Ihrer Organisation auf Teams
+            items:
+              - name: Übersicht über die organisatorische Bereitschaft
+                href: upgrade-prepare-organization.md
+              - name: Bewerten der Bereitschaft zu organisationsweiten Änderungen
+                href: upgrade-org-change-readiness.md
+              - name: Vorbereiten eines Plans zur Benutzerbereitschaft
+                href: upgrade-user-readiness.md
+      - name: Implementieren des Upgrades
+        items:
+          - name: Übersicht
+            href: upgrade-to-Teams.md
+          - name: Upgrade von Skype for Business Online auf Microsoft Teams
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: Upgrade von Skype for Business (lokal) auf Microsoft Teams
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+          - name: Upgrade-Strategien
+            href: upgrade-to-teams-on-prem-implement.md
+      - name: 'Bedienen, Einführen und Optimieren'
+        href: continue-journey.md
+      - name: Einstellung von Skype for Business Online
+        href: skype-for-business-online-retirement.md
+      - name: Häufig gestellte Fragen
+        href: FAQ-journey.yml
+      - name: Referenz
+        items:
+          - name: Tools für die Verwaltung Ihres Upgrades
+            href: upgrade-to-teams-on-prem-tools.md
+          - name: Koexistenzmodi – Referenz
+            href: migration-interop-guidance-for-teams-with-skype.md
+          - name: Teams Client-Erfahrung und Konformität zu Koexistenzmodi
+            href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: Besprechungen zuerst
+            href: meetings-first.md
+  - name: Hybridverbindungen
+    items:
+      - name: Planen von Hybridverbindungen
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: Konfigurieren von Hybridverbindungen
+        items:
+          - name: Übersicht
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: Konfigurieren von Azure AD Connect für Hybridumgebungen
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: Konfigurieren der Hybridbereitstellung von Skype for Business
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
+        items:
+          - name: Übersicht
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Microsoft Teams
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Skype for Business Online
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: Verwalten von Besprechungsmigrationen
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: Cloudkonsolidierung für Teams und Skype for Business Online
+        items:
+          - name: Übersicht
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: Aktualisieren des Microsoft Edge-Zertifikats
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: 'Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzubeziehen'
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: Integration mit Exchange und Microsoft Office SharePoint Online
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 'Sicherheit, Datenschutz und Compliance'
     items:
       - name: Übersicht
@@ -107,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: Verwalten von Richtlinien
         items:
+          - name: Übersicht
+            href: manage-teams-with-policies.md
           - name: Zuweisen von Richtlinien zu Ihren Benutzern
             href: assign-policies.md
           - name: Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll
             href: activity-log.md
-          - name: Verwalten von Richtlinien für App-Berechtigungen in Teams
-            href: teams-app-permission-policies.md
-          - name: Verwalten von Richtlinien für App-Setup in Teams
-            href: teams-app-setup-policies.md
-          - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
-            href: teams-custom-app-policies-and-settings.md
           - name: Verwalten von Feedbackrichtlinien in Teams
             href: manage-feedback-policies-in-teams.md
           - name: Verwalten von Richtlinienpaketen in Teams
@@ -565,6 +769,8 @@ items:
     items:
       - name: Planen der Voice-Lösung ihrer Teams
         href: cloud-voice-landing-page.md
+      - name: Verwalten von Sprach- und Anrufrichtlinien in Teams
+        href: voice-and-calling-policies.md
       - name: Telefonsystem
         items:
           - name: Was ist das Telefonsystem?
@@ -1065,7 +1271,9 @@ items:
         items:
           - name: Übersicht
             href: manage-apps.md
-          - name: Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung im Microsoft Teams Admin Center
+          - name: Verwalten von App-Richtlinien in Teams
+            href: app-policies.md
+          - name: Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung
             href: app-permissions-admin-center.md
           - name: Ressourcenspezifische Zustimmung
             href: resource-specific-consent.md
@@ -1079,168 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: Teams-Apps-Verhalten für nicht standardmäßige Benutzer
             href: non-standard-users.md
-  - name: Einführen
-    items:
-      - name: Übersicht
-        href: adopt-microsoft-teams-landing-page.md
-      - name: Erste Schritte
-        href: teams-adoption-get-started.md
-      - name: 'Phase 1: Start'
-        items:
-          - name: Start
-            href: teams-adoption-phase1.md
-          - name: Grundlagen von Teams und Kanälen
-            href: teams-adoption-understand-teams-and-channels.md
-          - name: Erstellen Ihrer ersten Teams
-            href: teams-adoption-your-first-teams.md
-          - name: Wie gut ist Ihre Organisation auf Teams vorbereitet?
-            href: teams-adoption-assess-readiness.md
-      - name: 'Phase 2: Experimentieren'
-        items:
-          - name: Experimentieren
-            href: teams-adoption-phase2-experiment.md
-          - name: Erstellen Ihres Expertenprogramms
-            href: teams-adoption-create-champions-program.md
-          - name: Governance-Schnellstart
-            href: teams-adoption-governance-quick-start.md
-          - name: Definieren von Verwendungsszenarien
-            href: teams-adoption-define-usage-scenarios.md
-          - name: Onboarding von Early Adopters und Sammeln von Feedback
-            href: teams-adoption-onboard-early-adopters.md
-          - name: Onboardingsupport
-            href: teams-adoption-onboard-support.md
-      - name: 'Phase 3: Skalierung'
-        items:
-          - name: Skalierung
-            href: teams-adoption-phase3-enable.md
-          - name: Definieren von Ergebnissen und Erfolg
-            href: teams-adoption-define-outcomes.md
-          - name: Optimieren von Feedback und Berichterstellung
-            href: teams-adoption-optimize-feedback-and-reporting.md
-          - name: Fördern des Bewusstseins und Implementieren der Schulung
-            href: teams-adoption-drive-awareness.md
-          - name: Planen von Überprüfungen des Dienststatus
-            href: teams-adoption-schedule-service-health-reviews.md
-  - name: Upgrade zu Teams
-    items:
-      - name: Erste Schritte
-        href: upgrade-start-here.md
-      - name: Info zum Upgrade-Framework
-        href: upgrade-framework.md
-      - name: Planen der Upgrade-Strategie
-        items:
-          - name: Planen des Projekts und der Anforderungen
-            items:
-              - name: Übersicht
-                href: upgrade-plan-journey.md
-              - name: Ernennen der Projektbeteiligten
-                href: upgrade-enlist-stakeholders.md
-              - name: Definieren des Projektumfangs
-                href: upgrade-define-project-scope.md
-              - name: Grundlegendes zu Koexistenz und Interoperabilität
-                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-              - name: Überlegungen zu PSTN
-                href: upgrade-to-teams-on-prem-pstn-considerations.md
-              - name: Auswählen der Upgrade-Strategie
-                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-              - name: Planen eines Benutzerpilotprojekts
-                href: pilot-essentials.md
-          - name: Vorbereiten der Umgebung für Teams
-            items:
-              - name: Übersicht über die technische Bereitschaft
-                href: upgrade-prepare-environment.md
-              - name: Vorbereiten der IT-Mitarbeiter auf Teams
-                href: upgrade-prepare-IT-pros.md
-              - name: Voraussetzungen
-                href: upgrade-plan-journey-prerequisites.md
-              - name: Bewerten der Umgebung
-                href: upgrade-plan-journey-evaluate-environment.md
-              - name: Vorbereiten des Diensts
-                href: upgrade-prepare-environment-prepare-service.md
-          - name: Vorbereiten Ihrer Organisation auf Teams
-            items:
-              - name: Übersicht über die organisatorische Bereitschaft
-                href: upgrade-prepare-organization.md
-              - name: Bewerten der Bereitschaft zu organisationsweiten Änderungen
-                href: upgrade-org-change-readiness.md
-              - name: Vorbereiten eines Plans zur Benutzerbereitschaft
-                href: upgrade-user-readiness.md
-      - name: Implementieren des Upgrades
-        items:
-          - name: Übersicht
-            href: upgrade-to-Teams.md
-          - name: Upgrade von Skype for Business Online auf Microsoft Teams
-            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-          - name: Upgrade von Skype for Business (lokal) auf Microsoft Teams
-            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-      - name: 'Bedienen, Einführen und Optimieren'
-        href: continue-journey.md
-      - name: Einstellung von Skype for Business Online
-        href: skype-for-business-online-retirement.md
-      - name: Häufig gestellte Fragen
-        href: FAQ-journey.yml
-      - name: Technische Bibliothek
-        items:
-          - name: Upgradehandbuch für IT-Administratoren
-            items:
-              - name: Übersicht
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: Upgrademethoden
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: Tools für die Verwaltung Ihres Upgrades
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: Von Organisationen mit lokalem Skype for Business zu berücksichtigende Aspekte
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: Implementieren des Upgrades
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Koexistenz von Teams und Skype for Business
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: Koexistenzmodi – Referenz
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Teams Client-Erfahrung und Konformität zu Koexistenzmodi
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
-          - name: Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
-            href: setting-your-coexistence-and-upgrade-settings.md
-          - name: Besprechungen zuerst
-            href: meetings-first.md
-  - name: Hybridverbindungen
-    items:
-      - name: Planen von Hybridverbindungen
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: Konfigurieren von Hybridverbindungen
-        items:
-          - name: Übersicht
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: Konfigurieren von Azure AD Connect für Hybridumgebungen
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: Konfigurieren der Hybridbereitstellung von Skype for Business
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
-        items:
-          - name: Übersicht
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Microsoft Teams
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Skype for Business Online
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: Verwalten von Besprechungsmigrationen
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Cloudkonsolidierung für Teams und Skype for Business Online
-        items:
-          - name: Übersicht
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: Aktualisieren des Microsoft Edge-Zertifikats
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: 'Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzubeziehen'
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Integration mit Exchange und Microsoft Office SharePoint Online
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+          - name: Verwalten von Richtlinien für App-Berechtigungen in Teams
+            href: teams-app-permission-policies.md
+          - name: Verwalten von Richtlinien für App-Setup in Teams
+            href: teams-app-setup-policies.md
+          - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
+            href: teams-custom-app-policies-and-settings.md
   - name: Branchen- und Regierungsrichtlinien
     items:
       - name: Übersicht
@@ -1380,52 +1432,6 @@ items:
     items:
       - name: Grenzwerte und Daten für Teams
         href: limits-specifications-teams.md
-      - name: Vorbereiten der Bereitstellung von Teams
-        items:
-          - name: Vorbereiten des Netzwerks Ihrer Organisation für Teams
-            href: prepare-network.md
-          - name: Verwenden Sie Advisor für Teams zum Bereitstellen von Teams
-            href: use-advisor-teams-roll-out.md
-          - name: Verwenden des Netzwerkplaners für Teams
-            href: network-planner.md
-          - name: Netzwerkplaner – Exemplarische Vorgehensweise
-            href: tutorial-network-planner-example.yml
-          - name: Proxyserver für Teams oder Skype for Business Online
-            href: proxy-servers-for-skype-for-business-online.md
-          - name: "Planen von Microsoft\_365-Gruppen beim Erstellen von Teams in Microsoft Teams"
-            href: plan-office-365-groups.md
-          - name: Planen der Lebenszyklusverwaltung in Teams
-            href: plan-teams-lifecycle.md
-          - name: Planen der Governance in Teams
-            href: plan-teams-governance.md
-      - name: Installieren von Teams
-        items:
-          - name: Beziehen von Clients für Teams
-            href: get-clients.md
-          - name: Abrufen von Teams für Android in China
-            href: get-teams-android-in-china.md
-          - name: Hardwareanforderungen für die Teams-App.
-            href: hardware-requirements-for-the-teams-app.md
-          - name: Empfehlungen für Hardware Decoder und Encoder-Treiber
-            href: hardware-decoders-and-encoders.md
-          - name: Installieren von Teams mithilfe von MSI
-            href: msi-deployment.md
-          - name: Aktivieren von Teams in Ihrer Organisation
-            href: Office-365-set-up.md
-          - name: Verwendung des Arbeitsspeichers durch Microsoft Teams
-            href: teams-memory-usage-perf.md
-          - name: "Microsoft\_365 und Office 365-URLs und IP-Adressbereiche"
-            href: office-365-urls-ip-address-ranges.md
-          - name: Teams für Virtualized Desktop Infrastructure (VDI)
-            href: teams-for-vdi.md
-          - name: Teams für Remotedesktopumgebung (RDP)
-            href: teams-for-rdp.md
-          - name: Bereitstellen von Teams für Surface Hub
-            href: teams-surface-hub.md
-          - name: Teams-Clientupdates
-            href: teams-client-update.md
-          - name: Problembehandlung bei Problemen mit Installation und Update
-            href: troubleshoot-installation.md
       - name: Lizenzierung
         items:
           - name: Verwalten des Benutzerzugriffs auf Teams
@@ -1481,6 +1487,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Teams-Anzeigen
             href: devices/teams-displays.md
+          - name: Teams-Bereiche
+            href: devices/teams-panels.md
+          - name: Teams-Bereiche verwenden
+            href: devices/use-teams-panels.md
           - name: Teams-Telefone auf Teams-Anzeigen upgraden
             href: devices/upgrade-phones-to-displays.md
           - name: Bereitstellen von Teams-Telefonen und Teams-Anzeigen mit Intune

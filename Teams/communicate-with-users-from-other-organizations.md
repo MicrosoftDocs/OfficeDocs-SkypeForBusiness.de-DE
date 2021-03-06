@@ -1,5 +1,5 @@
 ---
-title: Benutzer aus anderen Organisationen anrufen und mit ihnen chatten
+title: Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: 5c5eecf5ceb2228f981a7cd06b52f3b5a1b787d7
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145835"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461045"
 ---
-# <a name="call-chat-and-collaborate-with-people-outside-your-organization-in-microsoft-teams"></a>Anrufen, Chatten und Zusammenarbeiten in Microsoft Teams mit Personen außerhalb Ihrer Organisation
+# <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
 Wenn Sie mit Personen außerhalb Ihrer Organisation kommunizieren und zusammenarbeiten müssen, bietet Ihnen Microsoft Teams dafür zwei Optionen:
 
@@ -43,6 +43,9 @@ Der externe Zugriff ist standardmäßig für alle Domänen aktiviert. Sie könne
 ![Screenshot der Einstellungen für den externen Zugriff](media/external-access-federation-settings.png)
 
 Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [Externen Zugriff verwalten](manage-external-access.md). 
+
+>[!NOTE]
+>Die kostenlosen Lizenzen für Microsoft Teams unterstützen keinen externen Zugriff.
 
 ## <a name="guest-access"></a>Gastzugriff
 
@@ -65,8 +68,8 @@ Die folgende Tabelle zeigt die Unterschiede zwischen dem externen Zugriff (Partn
 | Sehen, ob jemand aus einer anderen Organisation für Anrufe oder Chats verfügbar ist | Ja | Ja<sup>1</sup> |
 | Nach Personen in anderen Organisationen suchen | Ja<sup>2</sup> | Nein |
 | Freigeben von Dateien | Nein | Ja |
-| Die Abwesenheitsnachricht sehen von | Nein | Ja |
-| Jemanden in einer anderen Organisation sperren | Nein | Ja |
+| Die Abwesenheitsnachricht eines Mitarbeiters einer anderen Organisation anzeigen | Nein | Ja |
+| Jemanden in einer anderen Organisation sperren  | Nein | Ja |
 | Verwenden von @Erwähnungen | Ja<sup>3</sup> | Ja |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>Dinge, die Personen von außerhalb der Organisation tun können

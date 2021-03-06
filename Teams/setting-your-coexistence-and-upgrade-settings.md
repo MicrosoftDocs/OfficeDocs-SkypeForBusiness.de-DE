@@ -1,7 +1,7 @@
 ---
 title: Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
-author: tonysmit
-ms.author: tonysmit
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die Koexistenz-und Aktualisierungseinstellungen für alle Benutzer in Ihrer Organisation gleichzeitig oder für einen einzelnen Benutzer oder eine Gruppe von Benutzern in Ihrer Organisation festlegen.
+description: Erfahren Sie, wie Sie Koexistenz- und Upgradeeinstellungen für alle Benutzer in Ihrer Organisation gleichzeitig oder für eine einzelne oder eine Gruppe von Benutzern in Ihrer Organisation festlegen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -18,19 +18,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a20e8c355df4103980dc9da460d003382c721800
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940605"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397570"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 
 
 Wenn Sie Ihre Skype for Business-Benutzer zur Verwendung von Teams aktualisieren, stehen Ihnen mehrere Optionen zur Verfügung, mit denen Sie den Umstieg für Ihre Benutzer nahtlos gestalten können. Sie haben die Option, die Einstellungen für Koexistenz und Upgrade für alle Benutzer in Ihrer Organisation gleichzeitig bzw. für einzelne Personen oder Benutzergruppe in Ihrer Organisation festzulegen bzw daran Änderungen vorzunehmen. Beachten Sie, dass in älteren Versionen der Skype for Business-Clients diese Einstellungen möglicherweise nicht unterstützt werden. Weitere Informationen über die Clientversionen von Skype for Business finden Sie auf der [Seite Skype for Business-Downloads und -Updates](https://docs.microsoft.com/skypeforbusiness/software-updates). 
 
-Sie können ein besseres Verständnis der für Sie verfügbaren Modi erhalten, indem Sie verstehen, wie Sie [Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md) oder [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md)lesen.  
+Weitere Informationen zu den verfügbaren Modi finden Sie unter Grundlegendes zu Microsoft Teams und [Skype for Business–](teams-and-skypeforbusiness-coexistence-and-interoperability.md) Koexistenz und Interoperabilität oder Koexistenz mit [Skype for Business.](coexistence-chat-calls-presence.md)  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -42,13 +42,13 @@ Sie können ein besseres Verständnis der für Sie verfügbaren Modi erhalten, i
 
 1. Wechseln Sie in der linken Navigation des [Microsoft Teams Admin Centers](https://admin.teams.microsoft.com/) zu **Organisationsweite Einstellungen** > **Teams-Einstellungen**. 
 
-2. Ändern Sie oben auf der Seite " **Teams-Upgrade** " die folgenden Optionen wie gewünscht.
+2. Ändern Sie oben auf der **Seite "Teams-Upgrade"** die folgenden Optionen wie gewünscht.
     - Legen Sie den **Koexistenzmodus** fest.
         - **Inseln** – Verwenden Sie diese Einstellung, wenn Sie möchten, dass die Benutzer Skype for Business und Teams gleichzeitig verwenden können.
         - **Nur Skype for Business** – Verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer nur Skype for Business verwenden.
         - **Skype for Business mit Zusammenarbeit in Microsoft Teams** – Verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer Skype for Business neben Teams für die Gruppenzusammenarbeit (Kanäle) verwenden.
         - **Skype for Business mit Zusammenarbeit und Besprechungen in Microsoft Teams** – Verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer Skype for Business neben Teams für die Gruppenzusammenarbeit (Kanäle) und für Teams-Besprechungen verwenden.
-        - **Nur für Teams** – verwenden Sie diese Einstellung, wenn Sie möchten, dass Ihre Benutzer nur Teams verwenden. Beachten Sie, dass Benutzer trotz dieser Einstellung weiterhin an in Skype for Business gehosteten Besprechungen teilnehmen können.
+        - **Nur Teams** – Verwenden Sie diese Einstellung, wenn Ihre Benutzer nur Teams verwenden möchten. Beachten Sie, dass Benutzer trotz dieser Einstellung weiterhin an in Skype for Business gehosteten Besprechungen teilnehmen können.
         
     - **Skype for Business-Benutzern benachrichtigen, dass ein Upgrade für Teams zur Verfügung steht** einstellen. Wenn Sie diese Funktion aktivieren, teilt sie Skype for Business-Benutzern mit, dass sie in Kürze auf die Teams-App umsteigen werden.
     - Legen Sie die **Bevorzugte App für Benutzer zur Teilnahme an Skype for Business-Besprechungen** fest. Diese Einstellung bestimmt, welche App zur Teilnahme an Skype for Business-Besprechungen verwendet wird und wird unabhängig vom Wert des Koexistenzmodus berücksichtigt.
@@ -74,8 +74,6 @@ Sie können ein besseres Verständnis der für Sie verfügbaren Modi erhalten, i
 5. Nachdem Sie die gewünschten Änderungen vorgenommen haben, drücken Sie **Speichern**.
 
 ### <a name="related-topics"></a>Verwandte Themen
-[Upgrade von Skype for Business auf Teams – für IT-Administratoren](upgrade-to-teams-on-prem-overview.md)
-
 [Die Reise planen](upgrade-plan-journey.md)
 
 [Die Koexistenz und den Upgrade-Prozess für Skype for Business und Teams verstehen](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)

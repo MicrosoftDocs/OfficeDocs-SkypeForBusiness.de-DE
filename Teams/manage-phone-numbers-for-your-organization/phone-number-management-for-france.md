@@ -19,27 +19,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Frankreich für Microsoft Teams.
-ms.openlocfilehash: 7d9b251ec10465e1d05a42619a97a1733a682df0
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Frankreich für Microsoft Teams.
+ms.openlocfilehash: 22e13040bb0ca70f1c492a3f50280011a5efbc17
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196249"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460895"
 ---
 # <a name="phone-number-management-for-france"></a>Telefonnummernverwaltung für Frankreich
 
-In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Frankreich für Microsoft Teams.
+In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Frankreich für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Holen Sie sich neue Telefonnummern für Benutzer oder Dienste, die im Microsoft Teams Admin Center nicht aufgelistet sind.   <br/> | Laden Sie eines dieser Formulare herunter. <br/> [Anforderung einer neuen Telefonnummer für Frankreich (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Anforderung einer neuen Telefonnummer für Frankreich (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/>
-|Übertragen Sie uns Telefonnummern.  <br/> |Laden Sie eines dieser Formulare herunter. <br/><br/> Für Telefonnummern von Benutzern:<br/>[Genehmigungsschreiben für Frankreich (geografische Nummern) (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/><br/>Für gebührenfreie Telefonnummern: <br/>[Letter of Authorization (LOA) for France (freephone numbers) (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/> <br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Servicenummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatischen Telefonwarteschleifennummern|Wenden Sie sich an den PSTN-Servicedesk, um Rufnummern in der Anrufwarteschleife oder der [automatischen Telefonwarteschlange hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
+|Holen Sie sich neue Benutzer- oder Diensttelefonnummern, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> | Laden Sie eines dieser Formulare herunter. <br/> [Neue Telefonnummernanforderung für Frankreich (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [Neue Telefonnummernanforderung für Frankreich (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/>
+|Übertragen Sie Telefonnummern an uns.  <br/> |Laden Sie eines dieser Formulare herunter. <br/><br/> Für Benutzertelefonnummern:<br/>[Letter of Authorization (LOA) for France (geographic numbers) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>Gebührenfreie Telefonnummern: <br/>[Letter of Authorization (LOA) for France (freephone numbers) (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.5.0)-(fr-fr).pdf?raw=true) <br/> <br/> Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).  <br/> |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
+|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Erstellen von Verzeichnisdienstupdates für Anrufwarteschlange oder automatische Telefonnummern|Wenn Sie Anrufwarteschlange oder automatische Telefonnummern hinzufügen oder ändern möchten, wenden Sie sich [an den PSTN-Servicedesk.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -49,4 +49,4 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 
 [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
   
-[Haftungsausschluss für Notrufe](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Haftungsausschlussetikett für Notrufe](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

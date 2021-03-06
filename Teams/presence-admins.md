@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
-ms.translationtype: HT
+ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616949"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460555"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -51,7 +51,8 @@ Die Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und üb
 || ![Offener grauer Kreis zeig an: Status unbekannt](media/Presence_Unknown.png) Status unbekannt|
 || ![Lila Kreis mit Pfeil zeigt an: Außer Haus](media/Presence_OOF.png) Außer Haus. „Außer Haus“ wird verwendet, wenn „automatische Antwort“ gesetzt ist. (Nur In Outlook verfügbar.) |
 |||
-
+ > [!Note]
+ > Für Benutzer, für die ein Postfach im Vorprem gehostet wird, wird mit Anwesenheitsverzögerungen von maximal einer Stunde gerechnet.
 App-konfigurierte Anwesenheitsstatus basieren auf Benutzeraktivitäten (Verfügbar, Abwesend), Outlook-Kalenderstatus (In einer Besprechung) oder Team-App-Status (In einem Anruf, Präsentieren). Wenn Sie gemäß Ihrem Kalender im Fokusmodus sind, dann werden Personen in Teams den Status **Fokussierend** sehen. In anderen Produkten wird der Fokusmodus als **Nicht stören** angezeigt.
 
 Ihr aktueller Anwesenheitsstatus wechselt zu „Abwesend“, wenn Sie Ihren Computer sperren oder wenn Ihr Computer in den Leerlauf oder Ruhezustand übergeht. Auf einem Mobilgerät ändert sich Ihr Anwesenheitsstatus immer auf „Abwesend“, wenn die Teams-App im Hintergrund läuft.
