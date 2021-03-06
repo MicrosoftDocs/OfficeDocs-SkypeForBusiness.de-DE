@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Personen-Manager-Teams in Microsoft Teams
+title: Erstellen von Teams für Personalverantwortliche in Microsoft Teams
 ms.reviewer: pbethi
 author: SerdarSoysal
 ms.author: serdars
@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Hier erfahren Sie, wie Sie ein PowerShell-Skript verwenden, um ein Team für jeden Manager zu erstellen, dessen Direct-Teammitglieder sind.
+description: Erfahren Sie, wie Sie mithilfe eines PowerShell-Skripts ein Team für jeden Manager mit seinen direkten Mitarbeitern als Teammitglieder erstellen.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,29 +18,29 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: fe57656eec61747dd0a43d475444e65d8600e222
 ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583674"
 ---
-# <a name="create-people-manager-teams-in-microsoft-teams"></a>Erstellen von Personen-Manager-Teams in Microsoft Teams
+# <a name="create-people-manager-teams-in-microsoft-teams"></a>Erstellen von Teams für Personalverantwortliche in Microsoft Teams
 
 
-Wenn Sie Microsoft Teams ausrollen, anstatt mit einem "leeren Schiefer" (keine Teams oder Kanäle) zu starten, wird dringend empfohlen, ein Basisframework für Teams und Kanäle einzurichten. Auf diese Weise können Sie die "Team-Ausbreitung" verhindern, bei der Benutzerzahl reiche Teams erstellen, wenn Sie Kanäle in vorhandenen Teams erstellen sollten. Um Ihnen den Einstieg in eine gut durchdachte Teams-und Kanalstruktur zu erleichtern, haben wir ein PowerShell-Skript erstellt, das ein Team für jeden Ihrer ersten und zweiten Personen Manager erstellt, wobei die direkten Berichte jedes Managers als Teammitglieder erstellt werden. Hierbei handelt es sich um ein "Point-in-Time"-Skript (es werden Ihre Teams oder Kanäle nicht automatisch aktualisiert, wenn Personen zu einer Organisation hinzugefügt oder daraus entfernt werden). Aber es ist ein wertvolles Tool, mit dem Sie von Anfang an eine bestimmte Reihenfolge für Ihre Teamstruktur aufzwingen können. Dieses Skript liest Ihre Azure AD, ruft eine Liste der Manager und deren direkte Berichte ab. In dieser Liste wird ein Team pro Personalmanager erstellt. 
+Wenn Sie Microsoft Teams einführen, sollten Sie nicht mit einem „unbeschriebenen Blatt“ (ohne Teams oder Kanäle) starten, sondern es empfiehlt sich, ein Grundgerüst aus Teams und Kanälen einzurichten. Dadurch lässt sich die unkontrollierte Erstellung von Teams durch Benutzer verhindern, wenn eigentlich Kanäle in bestehenden Teams erstellt werden sollten. Um Ihnen bei der Gestaltung einer durchdachten Struktur aus Teams und Kanälen zu helfen, haben wir ein PowerShell-Skript erstellt, das ein Team für jeden Ihrer Personalverantwortlichen der ersten und zweiten Ebene erstellt, mit den direkten Mitarbeitern jedes Personalverantwortlichen als Teammitglieder. Dies ist ein „Point-in-Time“-Skript (d. h., Ihre Teams oder Kanäle werden nicht automatisch aktualisiert, wenn Personen hinzugefügt oder aus einer Organisation entfernt werden). Aber es ist ein wertvolles Werkzeug, mit dem Sie von Anfang an eine gewisse Ordnung in Ihre Teamstruktur bringen können. Dieses Skript liest Ihr Azure AD und ruft eine Liste der Manager und ihrer direkten Mitarbeiter ab. Anhand dieser Liste wird für jeden Personalverantwortlichen je ein Team erstellt. 
 
 ## <a name="how-to-use-the-powershell-script"></a>Verwenden des PowerShell-Skripts 
 
-Beginnen Sie mit der Ausführung der [Export Manager und Ihres Direct-Skripts](scripts/powershell-script-create-teams-from-managers-export-managers.md) (wobei davon ausgegangen wird, dass Sie die PowerShell [-Module Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) und [Connect-Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) bereits ausgeführt haben). Die *Export Manager und deren directs* -Skript erstellen eine tabstoppgetrennte Datei (ExportedManagerDirects.txt), in der alle Manager mit ihren direkten Berichten aufgelistet sind. 
+Führen Sie zunächst das Skript [Personalverantwortliche und ihre direkten Mitarbeiter exportieren](scripts/powershell-script-create-teams-from-managers-export-managers.md) aus (dies setzt voraus, dass Sie bereits die PowerShell-Module [Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) und [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) ausgeführt haben). Das Skript *Personalverantwortliche und ihre direkten Mitarbeiter exportieren* erstellt eine Datei mit Tabstopptrennzeichen (ExportedManagerDirects.txt), die alle Personalverantwortlichen mit ihren direkten Mitarbeiter auflistet. 
 
-Führen Sie dann das [Skript "neue Personen-Manager-Teams erstellen](scripts/powershell-script-create-teams-from-managers-new-teams.md)" aus. Dieses Skript liest in der ExportedManagerDirects.txt-Datei und erstellt ein Team für jeden Manager, dessen direkte Berichte dieser Manager als Mitglieder sind. Wenn Manager oder Direct für Teams nicht aktiviert ist, werden Sie vom Skript übersprungen, und es wird kein Team erstellt. (Überprüfen Sie den Bericht, und führen Sie dann das Skript erneut aus, nachdem Sie die Teams für alle Benutzer aktiviert haben, die Sie benötigen. Das Skript erstellt kein zweites Team für einen Manager, für den es bereits ein Team erstellt hat.)
+Führen Sie dann das Skript [Neue Teams für Personalverantwortliche erstellen](scripts/powershell-script-create-teams-from-managers-new-teams.md) aus. Dieses Script liest die Datei „ExportedManagerDirects.txt“ ein, erstellt ein Team für jeden Personalverantwortlichen und fügt diesem seine direkten Mitarbeiter als Mitglieder hinzu. Personalverantwortliche oder Mitarbeiter, die nicht für Teams aktiviert sind, werden vom Skript übersprungen, und es wird es wird kein Team erstellt. (Überprüfen Sie den Bericht, und führen Sie das Skript erneut aus, nachdem Sie Teams für alle, die es benötigen, aktiviert haben. Das Skript erstellt kein zweites Team für einen Personalverantwortlichen, für den bereits ein Team erstellt wurde).
 
-Für jedes Team erstellt das Skript einen allgemeinen und "nur für Spaß"-Kanal. 
+Für jedes Team erstellt das Skript einen allgemeinen und einen „Nur zum Spaß“-Kanal. 
 
 ## <a name="best-practices"></a>Bewährte Methoden
 
-- Bitten Sie jeden Personen Manager, die Website für die Krisenkommunikation Ihrer Organisation als Registerkarte zum Kanal "Allgemein" für jedes Team hinzuzufügen. 
+- Bitten Sie jeden Personalverantwortlichen, die Website für Krisenkommunikation Ihrer Organisation als Registerkarte zum Kanal „Allgemein“ für jedes Team hinzuzufügen. 
 
-- Schauen Sie sich die neue APP für Krisenkommunikation an, indem Sie diesen Blogbeitrag vom 8. März 2020: [koordinieren der Krisenkommunikation mit Microsoft Teams + Power Platform](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715).
+- Informieren Sie sich über die neue Krisenkommunikations-App in diesem Blogbeitrag vom 8. März 2020: [Coordinate crisis communications using Microsoft Teams + Power Platform](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
