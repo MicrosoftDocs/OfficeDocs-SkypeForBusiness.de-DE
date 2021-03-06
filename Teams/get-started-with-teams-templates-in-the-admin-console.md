@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Teamvorlagen im Admin Center
+title: Verwenden von Teams-Vorlagen im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,101 +11,101 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie mithilfe von "Teams-Vorlagen" Zusammenarbeits Räume mit Kanälen für verschiedene Themen über vorinstallierte Vorlagen erstellen.
+description: Erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Räume für die Zusammenarbeit mit Kanälen für verschiedene Themen mithilfe vorinstallierter Vorlagen erstellen.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ad35b874f3f11a7e71d61c63cb90a1945c7cc85
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 62bee9c494cc6155a84b30d75ae71528656133be
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662650"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50508008"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Admin Center
+# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Erste Schritte mit Teams-Vorlagen im Admin Center
 
-**Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
+**Die Möglichkeit zum Erstellen benutzerdefinierter Vorlagen wird für EDU-Kunden noch nicht unterstützt.**
 
 > [!NOTE]
-> In den Teams-Vorlagen wird derzeit keine private Kanalerstellung unterstützt. Die Erstellung privater Kanäle ist in den Vorlagendefinitionen nicht enthalten.
+> Teams-Vorlagen unterstützen derzeit nicht das Erstellen privater Kanäle. Die Erstellung privater Kanäle ist in Vorlagendefinitionen nicht enthalten.
 
-In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Mithilfe von "Teams-Vorlagen" können Sie schnell umfangreiche Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann. Derzeit können Sie ein Team aus einer Vorlage in Teams oder mit [Microsoft Graph](get-started-with-teams-templates.md)erstellen.
+Teams-Vorlagen sind vordefinierte Definitionen der Struktur eines Teams, die für einen geschäftlichen Bedarf oder ein Geschäftsprojekt entwickelt wurden. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Mit Teams-Vorlagen können Sie schnell umfangreiche Zusammenarbeitsräume mit Kanälen für unterschiedliche Themen erstellen und Apps vorab installieren, um unternehmenskritische Inhalte und Dienste zu nutzen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, mit der Sie problemlos einheitliche Teams in Ihrer Organisation erstellen können. Derzeit können Sie ein Team aus einer Vorlage in Teams oder mithilfe von [Microsoft Graph erstellen.](get-started-with-teams-templates.md)
 
-In diesem Artikel werden die Eigenschaften beschrieben, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie mit einigen Beispiel Anforderungen ein Team aus einer Vorlage erstellen können.
+In diesem Artikel werden die Eigenschaften beschrieben, die in Vorlagen definiert werden können, welche Basisvorlagentypen verwendet werden können und wie Sie einige Beispielanforderungen verwenden können, um ein Team aus einer Vorlage zu erstellen.
 
-Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation verantwortlich sind.
+Dieser Artikel ist für Sie da, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation zuständig sind.
 
-## <a name="teams-template-capabilities"></a>Teams-Vorlagen Funktionen
+## <a name="teams-template-capabilities"></a>Vorlagenfunktionen von Teams
 
-Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werden von Vorlagen unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. In der folgenden Tabelle finden Sie eine kurze Zusammenfassung der Inhalte und der nicht in den Teamvorlagen enthaltenen Informationen.
+Die meisten Eigenschaften in einem Team werden von Vorlagen eingeschlossen und unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. Die folgende Tabelle enthält eine schnelle Zusammenfassung der enthaltenen und nicht in Teams-Vorlagen enthaltenen Informationen.
 
-| **Team Eigenschaften, die von Teams-Vorlagen unterstützt werden** | **Team Eigenschaften, die von den Teams-Vorlagen noch nicht unterstützt werden** |
+| **Teameigenschaften, die von Teams-Vorlagen unterstützt werden** | **Teameigenschaften, die noch nicht von Teams-Vorlagen unterstützt werden** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| Basis Vorlagentyp | Teammitgliedschaft |
+| Basisvorlagentyp | Teammitgliedschaft |
 | Teamname | Teambild |
-| Team Beschreibung | Kanaleinstellungen |
-| Team Sichtbarkeit (öffentlich oder privat) | Verbinder |
-| Team Einstellungen (beispielsweise Member, Gast, @ Erwähnungen) | Dateien und Inhalte |
+| Teambeschreibung | Kanaleinstellungen |
+| Sichtbarkeit des Teams (öffentlich oder privat) | Connectors |
+| Teameinstellungen (z. B. Mitglied, Gast, @Erwähnungen) | Dateien und Inhalte |
 | Autofavorite-Kanal | |
 | Installierte App | |
-| Angeheftete Tabstopps | |
+| Angeheftet Registerkarten | |
 
 > [!NOTE]
-> In zukünftigen Versionen von Microsoft Teams werden weitere Vorlagen Funktionen hinzugefügt, daher sollten Sie sich über die neuesten Informationen zu den unterstützten Eigenschaften informieren.
+> Wir werden in zukünftigen Versionen von Microsoft Teams weitere Vorlagenfunktionen hinzufügen, also schauen Sie sich die neuesten Informationen zu unterstützten Eigenschaften an.
 
-## <a name="what-are-base-template-types"></a>Was sind Basisvorlagen Typen?
+## <a name="what-are-base-template-types"></a>Was sind Basisvorlagentypen?
 
-Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die im App Store nicht zur Verfügung stehen.
+Basisvorlagentypen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre Apps, die im App Store nicht verfügbar sind.
 
-Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten Eigenschaften, die nicht überschrieben werden können.
+Nachdem ein Basisvorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder überschreiben, die Sie angeben möchten. Einige Basisvorlagentypen enthalten Eigenschaften, die nicht überschrieben werden können.
 
 > [!NOTE]
 > Vordefinierte Basisvorlagen, die in Microsoft Teams bereitgestellt werden, können dupliziert, aber nicht bearbeitet werden.
 
-| Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| Basisvorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage enthalten sind |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Übernehmen von Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
-| Verwalten eines Projekts |`com.microsoft.teams.template.ManageAProject`| Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li><li>Planner</li><li>Listen</li>  </ul> |
-| Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|Onboard-Mitarbeiter|`com.microsoft.teams.template.OnboardEmployees` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li><li>Planner</li></ul>|
-|Organisieren des Helpdesks| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li><li>Planner </li><li>Lob</li></ul> |
-| Zusammenarbeit bei der Patientenversorgung| `healthcareWard`| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li><li>Listen  </li></ul>|
-| Zusammenarbeiten an globaler Krise oder Veranstaltung |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Genehmigungsanforderung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li><li>Planner</li></ul>|
-|Zusammenarbeiten in einer Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Kauert</li><li>Kundenbesprechungen</li><li>Genehmigungsanforderung </li><li>Coaching</li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>Apps<ul><li>Lob </li></ul>|
-|Koordinieren der Vorfall Antwort| `com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|Krankenhaus| `healthcareHospital` |Kanäle <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li><li>Listen  </li></ul>|
-|Organisieren eines Shops| `retailStore` |Kanäle <ul><li>Allgemein<li>UMSCHALT Übergabe</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li><li>Planner</li></ul>|
-|Qualität und Sicherheit |`com.microsoft.teams.template.QualitySafety`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li><li>Planner</li></ul>|
-|Zusammenarbeit im Einzelhandel – Manager| `retailManagerCollaboration` |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li><li>Planner</li></ul>|
+| Office 365 übernehmen |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Teamformulare</li></ul> Apps: <ul><li>Wiki</li>  <li>Kalender</li> |
+| Verwalten eines Projekts |`com.microsoft.teams.template.ManageAProject`| Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>Listen</li>  </ul> |
+| Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Mitarbeiter an Bord|`com.microsoft.teams.template.OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Wiki</li><li>Communitys</li><li>Planner</li></ul>|
+|Organisieren des Helpdesks| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Lob</li></ul> |
+| Zusammenarbeit bei der Patientenversorgung| `healthcareWard`| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li></ul>|
+| Zusammenarbeiten an globalen Krisen oder Ereignisse |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>News aus der Welt</li><li>Geschäftskontinuität</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungsanfrage</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Executive Update</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
+|Zusammenarbeit innerhalb einer Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungsanfrage </li><li>Coachen</li><li>Qualifikationsentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustige Dinge</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li></ul>|
+|Koordinieren der Reaktion auf Vorfälle| `com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Wiederherstellung</li><li>Dringend</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Krankenhaus| `healthcareHospital` |Kanäle: <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Custodial</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li></ul>|
+|Organisieren eines Ladens| `retailStore` |Kanäle: <ul><li>Allgemein<li>Übergabe umschalten</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
+|Qualität und Sicherheit |`com.microsoft.teams.template.QualitySafety`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulung</li><li>Wartung</li><li>Lustige Dinge</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
+|Einzelhandel – Zusammenarbeit mit Managern| `retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||
 
 Weitere Informationen zu den Vorlagenkategorien finden Sie in den folgenden Kategorien:
 
-- [Finanz Vorlagen](financial-teams-templates-in-the-admin-console.md)
+- [Finanzvorlagen](financial-teams-templates-in-the-admin-console.md)
 - [Allgemeine Vorlagen](general-teams-templates-in-the-admin-console.md)
-- [Government-Vorlagen](government-teams-templates-in-the-admin-console.md)
-- [Healthcare-Vorlagen](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-- [Fertigungs Vorlagen](manufacturing-teams-templates-in-the-admin-console.md)
-- [Einzelhandels Vorlagen](retail-teams-templates-in-the-admin-console.md)
+- [Vorlagen für Behörden](government-teams-templates-in-the-admin-console.md)
+- [Vorlagen für das Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+- [Fertigungsvorlagen](manufacturing-teams-templates-in-the-admin-console.md)
+- [Einzelhandelsvorlagen](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="template-size-limits"></a>Größenbeschränkungen für Vorlagen
 
-Vorlagen sind auf eine bestimmte Anzahl von Kanälen, Registerkarten und apps limitiert.
+Vorlagen sind auf eine bestimmte Anzahl von Kanälen, Registerkarten und Apps beschränkt.
 
  > [!Note]
- > Sie können dem Team weitere Kanäle, Registerkarten und apps hinzufügen, nachdem es aus einer Vorlage erstellt wurde.
+ > Sie können dem Team weitere Kanäle, Registerkarten und Apps hinzufügen, nachdem es aus einer Vorlage erstellt wurde.
 
 |Feature | Limit|
 |-|-|
 |Kanäle pro Vorlage | 15 |
-|Tabstopps pro Kanal in einer Vorlage | 20 |
+|Registerkarten pro Kanal in einer Vorlage | 20 |
 |Apps pro Vorlage | 50|
 |||
 
-Weitere Informationen finden Sie unter [Grenzwerte und Spezifikationen von Teams](limits-specifications-teams.md) .
+Weitere Informationen finden Sie unter Grenzwerte und Spezifikationen von [Teams.](limits-specifications-teams.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
