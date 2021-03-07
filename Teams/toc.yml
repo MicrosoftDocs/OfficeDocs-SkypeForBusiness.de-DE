@@ -501,8 +501,6 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Teams-Vorlagen für die Kategorie Herstellung
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: Erstellen und Verwalten von Vorlagenrichtlinien
-            href: templates-policies.md
       - name: Kommunikation mit externen Benutzern
         items:
           - name: Kommunizieren mit Benutzern aus anderen Organisationen
