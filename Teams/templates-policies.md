@@ -18,18 +18,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Teams-Vorlagen im Admin Center verwalten.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507968"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569011"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>Erstellen und Verwalten von Teams-Vorlagen im Admin Center
+# <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
 
 Verwalten Sie die Teams-Vorlagen, die Ihren Endbenutzern angezeigt werden, indem Sie Vorlagenrichtlinien im Admin Center erstellen. Innerhalb jeder Vorlagenrichtlinie können Sie festlegen, welche Vorlagen angezeigt oder ausgeblendet werden.
-Weisen Sie verschiedenen Vorlagenrichtlinien unterschiedliche Benutzer zu, damit Ihre Benutzer nur die Teilmenge der angegebenen Teams-Vorlagen anzeigen.
+Weisen Sie verschiedenen Vorlagenrichtlinien unterschiedliche Benutzer zu, damit ihre Benutzer nur die teilmenge der angegebenen Teams-Vorlagen anzeigen.
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Erstellen von Vorlagenrichtlinien und Zuweisen verfügbarer Vorlagen
 

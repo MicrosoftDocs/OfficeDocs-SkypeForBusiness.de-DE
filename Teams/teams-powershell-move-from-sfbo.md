@@ -1,5 +1,5 @@
 ---
-title: Wechseln von Skype for Business Online Connector zum PowerShell-Modul von Teams
+title: Wechseln von Skype for Business Online Connector zum Teams PowerShell-Modul
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
@@ -9,37 +9,48 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie von Skype for Business Online Connector zum Teams PowerShell-Modul wechseln, um Teams zu verwalten.
+description: Erfahren Sie, wie Sie von Skype for Business Online Connector zum Teams PowerShell-Modul wechseln, um Teams zu verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e1838540e57cd91578e898818e2ed12e7b63a78
-ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
+ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48469666"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569081"
 ---
-# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Wechseln von Skype for Business Online Connector zum PowerShell-Modul von Teams
+# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Wechseln von Skype for Business Online Connector zum Teams PowerShell-Modul
 
-Um von der Verwendung von Skype for Business Online Connector zum Teams PowerShell-Modul zum Verwalten von Teams zu wechseln, müssen Sie Ihre vorhandenen PowerShell-Skripts aktualisieren. In diesem Artikel wird die Vorgehensweise erläutert.
+Um von der Verwendung von Skype for Business Online Connector zum Teams PowerShell-Modul zu wechseln, um Teams zu verwalten, müssen Sie Ihre vorhandenen PowerShell-Skripts aktualisieren. In diesem Artikel wird erläutert, wie Sie dies tun.
 
-1. Installieren Sie das neueste PowerShell-Modul für Teams. Eine schrittweise Anleitung finden Sie unter [Installieren von Microsoft Teams PowerShell](teams-powershell-install.md).
-2. Deinstallieren Sie Skype for Business Online Connector. Klicken Sie dazu in der Systemsteuerung auf **Programme und Funktionen**, wählen Sie **Skype for Business Online, Windows PowerShell-Modul**aus, und wählen Sie dann **deinstallieren**aus. 
-3. Ändern Sie in ihren PowerShell-Skripts den Modulnamen, auf den in ```Import-Module``` from ```SkypeOnlineConnector``` oder to verwiesen wird ```LyncOnlineConnector``` ```MicrosoftTeams``` .
+1. Installieren Sie das neueste Teams PowerShell-Modul. Die Schritte finden Sie unter [Installieren von Microsoft Teams Powershell](teams-powershell-install.md).
+2. Deinstallieren Sie Skype for Business Online Connector. Wechseln Sie dazu in der Systemsteuerung zu Programme **und Features,** wählen **Sie Skype for Business Online, Windows PowerShell Modul** und dann **Deinstallieren aus.** 
+3. Ändern Sie in Ihren PowerShell-Skripts den Modulnamen, auf den verwiesen wird, von ```Import-Module``` ```SkypeOnlineConnector``` oder in ```LyncOnlineConnector``` ```MicrosoftTeams``` .
 
-    Ändern Sie beispielsweise ```Import-Module -Name SkypeOnlineConnector``` in ```Import-Module -Name MicrosoftTeams``` .
+    Ändern Sie z. B. ```Import-Module -Name SkypeOnlineConnector``` in ```Import-Module -Name MicrosoftTeams``` .
+4. Wenn Sie Teams PowerShell Module 2.0 oder höher verwenden, ändern Sie New-csOnlineSession in Connect-MicrosoftTeams. 
 
-> [!NOTE]
-> Administratoren sollten die Verwendung von [New-CsOnlineSession](https://docs.microsoft.com/powershell/module/skype/new-csonlinesession) weiterhin verwenden und die Sitzung importieren, bevor Sie die Skype for Business Online-Cmdlets verwenden. 
+```powershell
+  # When using Teams PowerShell Module 1.1.6
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   $sfbSession = New-CsOnlineSession -Credential $credential
+   Import-PSSession $sfbSession
+   
+   # When using Teams PowerShell Module 2.0 or later
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Installieren von Microsoft Teams PowerShell](teams-powershell-install.md)
+[Installieren von Microsoft Teams Powershell](teams-powershell-install.md)
 
-[Verwalten von Teams mit PowerShell von Teams](teams-powershell-managing-teams.md)
+[Verwalten von Teams mit Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Teams PowerShell-Anmerkungen zu dieser Version](teams-powershell-release-notes.md)
+[Versionshinweise zu Teams PowerShell](teams-powershell-release-notes.md)
 
-[Microsoft Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams-Cmdletreferenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 
-[Skype for Business-Cmdlet-Referenz](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business-Cmdletreferenz](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
