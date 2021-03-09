@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: In diesem Thema finden Sie Beispielskripts für die Bereitstellung von Skype Room System-Konten.
-ms.openlocfilehash: 0ea4466787099bfe24e6ddf53fac40073892aea8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820825"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569367"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Room System Room -Setupskripts
  
 In diesem Thema finden Sie Beispielskripts für die Bereitstellung von Skype Room System-Konten.
   
-In diesem Abschnitt werden Beispielskripts veranschaulicht, die zum Bereitstellen von Skype Room System-Konten verwendet werden können. Diese Skripts dienen nur zur Veranschaulichung und sollten nur nach Rücksprache mit Ihrem IT-Experten oder Domänenadministrator verwendet werden.
+In diesem Abschnitt werden Beispielskripts veranschaulicht, die zum Bereitstellen von Skype Room System-Konten verwendet werden können. Diese Skripts dienen nur zur Veranschaulichung. Sie sollten nur nach Rücksprache mit Ihrem IT-Experten oder Domänenadministrator verwendet werden.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Beispielskript für das Setup: Skype for Business und Exchange Server (lokal)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Beispiel-Setupskript: Skype for Business und Exchange Server (Lokal)
 
 ```powershell
 # On Exchange 
@@ -39,15 +39,15 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Beispiel für ein Setupskript: Skype for Business und Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>Beispiel-Setupskript: Skype for Business und Exchange Server Online
 
 Stellen Sie sicher, dass Sie die folgenden Voraussetzungen überprüft haben, bevor Sie das Skript ausführen:
   
-- Microsoft Online Services Sign-In Assistent für IT-Experten BETA
+- Microsoft Online Services Sign-In Assistant for IT Professionals BETA
     
 - Windows Azure Active Directory Module für Windows PowerShell (64-Bit-Version) oder (32-Bit-Version)
     
-- Windows PowerShell Modul für Lync Online
+- Teams PowerShell-Modul
     
 - Neustart bei Bedarf
     
@@ -59,9 +59,9 @@ $rmURI="$rm@$org"$newpass='MyPass@word1'# This Section Signs into Remote PowerSh
 $cred=Get-Credential admin@$org
 $sess=New-PSSession -ConfigurationName microsoft.exchange -Credential $cred -AllowRedirection -Authentication basic -ConnectionUri https://ps.outlook.com/powershell
 Import-PSSession $sess
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred
-Import-PSSession $cssess -AllowClobber
+Import-Module MicrosoftTeams
+$credential = Get-Credential
+Connect-MicrosoftTeams -Credential $credential
 Connect-MsolService -Credential $cred# This Section Create the Calendar Mailbox and Enables it for Lync
 New-Mailbox -MicrosoftOnlineServicesID $rmURI -room -Name $rm -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
  -EnableRoomMailboxAccount $true
@@ -74,5 +74,4 @@ Get-CsOnlineUser -Identity 'admin@YourTenantName.onmicrosoft.com' | fl *registra
 Enable-CsMeetingRoom -Identity $rmURI -RegistrarPool "sippoolsn20a07.infra.lync.com" -SipAddressType EmailAddress
 # If the previous command fails with an error regarding the account name not being found you might need to wait and try again in a few minutes. If you wait too long, you'll need to sign in again to remote PowerShell as detailed above.
 ```
-
 

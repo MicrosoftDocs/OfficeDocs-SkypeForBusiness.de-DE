@@ -113,7 +113,7 @@ So reservieren Sie einen verfügbaren Besprechungsraum für eine Ad-hoc-Besprech
     >
     > - Die Endzeitoptionen werden in 15-Minuten-Intervallen von einer Stunde angezeigt.
     > - Die Endzeit wird standardmäßig auf das nächste 15-Minuten-Intervall festgelegt, das mindestens fünf Minuten nach der aktuellen Uhrzeit liegt. Wenn die aktuelle Uhrzeit beispielsweise 13:57 Uhr ist, wird die Standardendzeit als 14:15 und nicht als 14:00 angezeigt. Dadurch wird verhindert, dass Benutzer den Platz für fünf Minuten oder weniger buchen. Im obigen Screenshot wird die standardmäßige Endzeit als 14:00 Uhr angezeigt. Dies ist das nächste 15-Minuten-Intervall, das mindestens fünf Minuten nach der aktuellen Uhrzeit (13:53 Uhr) liegt.
-    > - Eine Ausnahme von der vorstehenden Regel ist, wenn die Startzeit der nächsten Besprechung innerhalb von fünf Minuten von der aktuellen Uhrzeit liegt. In solchen Fällen können Sie den Platz bis zur nächsten Besprechungsstartzeit buchen. Wenn die aktuelle Uhrzeit beispielsweise 13:57 Uhr und die nächste Besprechungsstartzeit 14:00 Uhr ist, wird 14:00 Uhr als einzige Endzeitoption angezeigt, und Sie können den Platz für drei Minuten reservieren.
+    > - Eine Ausnahme von der obigen Regel ist, wenn die Startzeit der nächsten Besprechung innerhalb von fünf Minuten von der aktuellen Uhrzeit liegt. In solchen Fällen können Sie den Platz bis zur nächsten Besprechungsstartzeit buchen. Wenn die aktuelle Uhrzeit beispielsweise 13:57 Uhr und die nächste Besprechungsstartzeit 14:00 Uhr ist, wird 14:00 Uhr als einzige Endzeitoption angezeigt, und Sie können den Platz für drei Minuten reservieren.
 
 3. Tippen Sie auf das gewünschte Endzeitintervall und dann auf **Reservieren.**
 
@@ -158,12 +158,12 @@ So zeigen Sie eine Geräteeinstellung an, oder aktualisieren Sie sie:
 
 ## <a name="teams-panels-admin-experience"></a>Administratorerfahrung in Teams panels
 
-Wenn Sie der Administrator des Ressourcenkontos des [Teams-Panels](teams-panels.md\#resource-account-provisioning)sind, sind Sie auch der Administrator der **Panels-App** auf dem Gerät. Als Administrator **der Panels-App** können Sie neben der Verwaltung der [Panels-App-Einstellungen](#teams-panels-end-user-experience)  auf dem Gerät auch alle Funktionen ausführen, die im Abschnitt "Benutzerfreundlichkeit" erwähnt werden.
+Wenn Sie der Administrator des Ressourcenkontos des [Teams-Panels](teams-panels.md\#resource-account-provisioning)sind, sind Sie auch der Administrator der **Panels-App** auf dem Gerät. Als Administrator **der Panels-App** können Sie neben der Verwaltung der [Panels-App-Einstellungen](#teams-panels-end-user-experience)  auf dem Gerät auch alle Funktionen ausführen, die im Abschnitt "Endbenutzererfahrung" erwähnt werden.
 
 Ihre Panelgeräte bieten zwei Arten von Administratoreinstellungen. Sie müssen Geräteadministrator sein, um auf die verfügbaren Administratoreinstellungen zugreifen zu können. Endbenutzer können nicht auf diese Einstellungen zugreifen.
 
 - Administratoreinstellungen, die für das Gerät spezifisch sind, z. B. Anzeige, Uhrzeit und Datum, Sprache, Bluetooth, WLAN und vieles mehr. Weitere Informationen zu diesen Einstellungen finden Sie in der OEM-Dokumentation.
-- Administratoreinstellungen, die speziell für die **Panels-App** auf Ihrem Gerät spezifisch sind, z. B. Hintergrundbilder und LED-Indikatorfarbe. Nur ein Administrator der **Panels-App** kann auf diese Einstellungen zugreifen. Da **Die Einstellungen der** Panels-App als Teil der Administratoreinstellungen verfügbar sind,  müssen Sie über Administratoranmeldeinformationen für das Gerät und die Panels-App verfügen, um auf die Einstellungen der **Panels-App zugreifen zu** können.
+- Administratoreinstellungen, die spezifisch für **Panels App** auf Ihrem Gerät sind, z. B. Hintergrundbild und LED-Anzeigefarbe. Nur ein Administrator der **Panels-App** kann auf diese Einstellungen zugreifen. Da **Die Einstellungen der** Panels-App als Teil der Administratoreinstellungen verfügbar sind,  müssen Sie über Administratoranmeldeinformationen für das Gerät und die Panels-App verfügen, um auf die Einstellungen der **Panels-App zugreifen zu** können.
 
 > [!NOTE]
 > Alle über das Gerät durchgeführten Updates der **Panels-App-Einstellungen** gelten nur für dieses bestimmte Gerät. Diese Updates haben keine Auswirkungen auf andere Panelgeräte in Ihrer Organisation. Wenn Sie beispielsweise das Hintergrundbild für den Startbildschirm aus den Einstellungen der **Panels-App** ändern, wird das Hintergrundbild nur für dieses bestimmte Gerät geändert.
@@ -217,7 +217,7 @@ Administratoren können entweder Rot oder Lila als LED-Farbe auswählen, um anzu
 Hier finden Sie Antworten auf häufig gestellte Fragen zu den Geräten der Teams-Panels.
 
 **Wie weit in Zukunft kann ich die Terminplanungsdetails eines Besprechungsraums sehen?**  
-In der **Kachel** "Anstehender Kalender" (unten rechts) auf der Startseite können Sie die Terminplanungsdetails eines Besprechungsraums für bis zu 24 Stunden in der Zukunft ab der aktuellen Stunde sehen.
+In der **Kachel** "Bevorstehender Kalender" (unten rechts) auf der Startseite können Sie die Planungsdetails eines Besprechungsraums für bis zu 24 Stunden in der Zukunft ab der aktuellen Stunde sehen.
 
 **Kann ich über das Teampanelgerät einen Besprechungsraum für eine zukünftige Zeit reservieren?**  
 Nein, Sie können in Panels keinen Besprechungsraum für eine zukünftige Zeit reservieren. Die Startzeit ist immer die aktuelle Uhrzeit für eine Ad-hoc-Besprechung, die von Panels aus geplant wird.

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Schreibtisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: ad0e89d51172f0e8704f805cc3d85875ffcf8728
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 319ddccf45f9930f69d6ff58b3da2347f2f7b9f5
+ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460745"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50558424"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams-zertifizierte Geräte
 
@@ -69,9 +69,9 @@ Die folgenden Geräte sind im Rahmen des Microsoft Teams Phones Certification Pr
 
 Die folgenden Geräte sind unter dem Microsoft Teams Rooms on Android Certification Program zertifiziert:
 
-| Gerätemodell | Firmwareversion | Veröffentlichungsdatum  | Raumgröße (bis zu)                                         |
+| Gerätemodell | Firmwareversion | Veröffentlichungsdatum  | Raumgröße                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| Yealink MeetingBar A30       | 133.15.0.52    | März 2021 | Fokusraum(3m x 3m) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
+| Yealink MeetingBar A30       | 133.15.0.52    | März 2021 | Mittelgroßer Raum (4,5 m x 6 m) |
 | Yealink CTP18-Touchkonsole  | 137.15.0.28    | März 2021 | Kompatibel mit MeetingBar A20 und MeetingBar A30 |
 | Yealink MeetingBar A20  | 133.15.0.19      | November 2020 | Fokusraum(3m x 3m) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
 | Poly Studio X30         | 3.1.1.216109     | Juni 2020     | Fokusraum(3m x 3m) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
