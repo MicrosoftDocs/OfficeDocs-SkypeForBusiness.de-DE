@@ -501,6 +501,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Teams-Vorlagen für die Kategorie Herstellung
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Verwalten von Teams-Vorlagenrichtlinien
+            href: templates-policies.md
       - name: Kommunikation mit externen Benutzern
         items:
           - name: Kommunizieren mit Benutzern aus anderen Organisationen
@@ -547,6 +549,12 @@ items:
         items:
           - name: Übersicht
             href: rooms/index.md
+          - name: Verwalteter Dienst „Microsoft Teams-Räume“
+            items:
+              - name: Plan-Verwaltung
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: Rollenbasierte Zugriffssteuerung
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Plan
             items:
               - name: Übersicht über die Planung von Microsoft Teams-Räumen
@@ -565,12 +573,6 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Planen der Verwaltung mit Azure Monitor
                 href: rooms/azure-monitor-plan.md
-              - name: Verwalteter Dienst „Microsoft Teams-Räume“
-                items:
-                  - name: Planen der Verwaltung mit dem verwalteten Dienst „Microsoft Teams-Räume“
-                    href: rooms/microsoft-teams-rooms-premium.md
-                  - name: Rollenbasierte Zugriffssteuerung mit dem verwalteten Dienst „Microsoft Teams-Räume“
-                    href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Bereitstellen
             items:
               - name: Übersicht über die Bereitstellung
@@ -1328,6 +1330,8 @@ items:
             href: manage-lists-app.md
           - name: Verwalten der Aufgaben-App
             href: manage-tasks-app.md
+          - name: Verwalten der Genehmigungen-App
+            href: approval-admin.md
           - name: Schichten für Teams
             items:
               - name: Schichten für Teams
@@ -1499,7 +1503,7 @@ items:
             href: devices/collab-bar-deploy.md
           - name: Besprechungsraumgeräte und Lösungen
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Für Microsoft Teams zertifizierte IP-Telefone
+          - name: Teams-zertifizierte Geräte
             href: devices/teams-ip-phones.md
           - name: Telefone für Skype for Business Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 0fd36e5b010adafb7904922958de3e80e16b9015
 ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46581376"
@@ -42,7 +42,7 @@ Beim ersten Einführung von Teams empfiehlt es sich, mit eine kleinen Anzahl von
 
 ## <a name="create-channels-to-focus-discussions"></a>Erstellen Sie Kanäle für fokussierte Unterhaltungen
 
-Nachdem Sie Ihr Team erstellt haben, sollten Sie sich zunächst mit den verschiedenen Projekten und Arten von Unterhaltungen besprechen, die Sie unterstützen müssen. Erstellen Sie anfängliche Kanäle, damit die Benutzer wissen, wo Sie mitwirken und bestehende Unterhaltungen finden. Verwenden Sie beschreibende Kanalnamen, damit die Benutzer gleich wissen, wo sie die jeweilige Unterhaltung finden können. Fügen Sie Tools (wie OneNote, Power BI oder Planner) als Registerkarten zu einem Kanal hinzu, damit die Mitglieder alles, was Sie benötigen, direkt im Kanal finden. Sie können auch eine häufig verwendete Webseite als Registerkarte zu einem Kanal hinzufügen.
+Nachdem Sie Ihr Team erstellt haben, empfiehlt es sich, sich mit den verschiedenen Projekten und Arten von Unterhaltungen zu befassen, die Sie unterstützen müssen. Erstellen Sie anfängliche Kanäle, damit die Benutzer wissen, wo Sie mitwirken und bestehende Unterhaltungen finden. Verwenden Sie beschreibende Kanalnamen, damit die Benutzer gleich wissen, wo sie die jeweilige Unterhaltung finden können. Fügen Sie Tools (wie OneNote, Power BI oder Planner) als Registerkarten zu einem Kanal hinzu, damit die Mitglieder alles, was Sie benötigen, direkt im Kanal finden. Sie können auch eine häufig verwendete Webseite als Registerkarte zu einem Kanal hinzufügen.
 
 Erfahren Sie mithilfe dieser schnellen Tipps für Endbenutzer mehr über die [Arbeit in Teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams).
 
@@ -61,7 +61,7 @@ Der **Kanal "Allgemein"** wird automatisch erstellt, wenn Sie ein Team erstellen
 - Verwenden Sie ihn für Ankündigungen, oder konfigurieren Sie den SharePoint News-Konnektor so, dass er Ihre aktuellen Statusberichte in diesem Kanal veröffentlicht.  
 - Bei neuen Teams oder Einzweckteams ist dies anfangs möglicherweise der einzige Kanal, je nachdem, wie ein Team Ihrer Meinung nach am Besten Ihren Zielen dienen kann.
 
-Derzeit ist es nicht möglich, den Kanal „Allgemein“ zu löschen, umzubenennen oder aus den Favoriten zu entfernen. Kanäle werden in alphabetischer Reihenfolge angezeigt (wobei der Kanal allgemein am oberen Rand liegt). Verwenden Sie in Teams mit vielen Kanälen ** Ausblenden** oder **Anzeigen**, um die am häufigsten verwendeten Kanäle anzuzeigen.
+Derzeit ist es nicht möglich, den Kanal „Allgemein“ zu löschen, umzubenennen oder aus den Favoriten zu entfernen. Kanäle werden in alphabetischer Reihenfolge angezeigt (wobei der Kanal allgemein am oberen Rand liegt). Verwenden Sie in Teams mit vielen Kanälen **Ausblenden** oder **Anzeigen**, um die am häufigsten verwendeten Kanäle anzuzeigen.
 
 Wenn Sie mehr erfahren möchten, lesen Sie die Registerkarte "**Arbeiten in Kanälen**" auf der Seite [Teams und Kanäle](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels).
 

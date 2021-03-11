@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams installiert in Outlook ein Add-In, mit dem Benutzer Microsoft Teams-Besprechungen über Outlook planen können.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: MT
+ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278555"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50614931"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -77,7 +77,7 @@ Weitere Informationen finden Sie unter [Planen von Besprechungen mit "Uhrzeit fi
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 
-Benutzer des Microsoft Teams-Besprechungs-Add-Ins müssen sich mit moderner Authentifizierung bei Microsoft Teams anmelden. Wenn Benutzer diese Methode nicht zum Anmelden verwenden, können sie weiterhin den Teams-Client verwenden, aber keine Onlinebesprechungen [in Teams](https://www.microsoft.com/microsoft-teams/online-meetings) mit dem Outlook-Add-In planen. Dies können Sie mit einer der folgenden Methoden korrigieren:
+Benutzer des Microsoft Teams-Besprechungs-Add-Ins müssen sich mit moderner Authentifizierung bei Microsoft Teams anmelden. Wenn sich Benutzer nicht mit dieser Methode anmelden, können sie zwar den Microsoft Teams-Client verwenden, aber sie können keine [Microsoft Teams-Onlinebesprechungen](https://www.microsoft.com/microsoft-teams/online-meetings) mithilfe des Outlook-Add-In planen. Dies können Sie mit einer der folgenden Methoden korrigieren:
 
 - Wenn die moderne Authentifizierung für Ihre Organisation nicht konfiguriert ist, sollten Sie sie konfigurieren.
 - Wenn die moderne Authentifizierung konfiguriert ist, aber die Benutzer den Vorgang im Dialogfeld abgebrochen haben, weisen Sie die Benutzer an, sich mit mehrstufiger Authentifizierung erneut anzumelden.
@@ -182,4 +182,4 @@ Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff
 
 - [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
-- [Planen einer Team-Besprechung über Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+- [Planen Sie eine Microsoft Teams-Besprechung über Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

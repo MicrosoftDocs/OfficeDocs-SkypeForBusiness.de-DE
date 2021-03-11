@@ -24,7 +24,7 @@ appliesto:
 description: Erfahren Sie, wie Sie den Gastzugriff in Microsoft Teams als Office 365-Administrator aktivieren bzw. deaktivieren.
 ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
 ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/08/2021
 ms.locfileid: "49786777"
@@ -33,9 +33,9 @@ ms.locfileid: "49786777"
 
 > [!Note]
 
-> Bis **Februar 2021** ist der Gastzugriff standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können. Nachdem Sie den Gastzugriff aktivieren, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Wenn benutzern die  Meldung angezeigt wird, dass sie sich an Ihren Administrator wenden, wenn sie versuchen, ihrem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass der Gastzugriff nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind. 
+> Bis **Februar 2021** ist der Gastzugriff ist standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können. Nach dem Aktivieren des Gastzugriffs dauert es möglicherweise ein paar Stunden, bis die Änderungen wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung **Wenden Sie sich an Ihren Administrator** sehen, ist wahrscheinlich der Gastzugriff nicht aktiviert, oder die Einstellungen sind noch nicht wirksam. 
 
-> Nach **Februar 2021** ist der Gastzugriff in Microsoft Teams für neue Kunden & vorhandenen Kunden, die diese Einstellung nicht konfiguriert haben, standardmäßig aktiviert. Wenn diese Änderung implementiert ist und Sie noch keine Gastzugriffsfunktion in Microsoft Teams konfiguriert haben, wird diese Funktion in Ihrem Mandanten aktiviert. Wenn der Gastzugriff für Ihre Organisation deaktiviert bleiben soll, müssen Sie bestätigen,  dass die Gastzugriffseinstellung auf "Aus" statt auf **"Dienst standard" festgelegt ist.**
+> Ab **Februar 2021** wird der Gastzugriff in Microsoft Teams für Neukunden & Bestandskunden, die diese Einstellung nicht konfiguriert haben, standardmäßig aktiviert. Wenn diese Änderung implementiert ist, wird die Gastzugriffsfunktion auf Ihrem Mandanten aktiviert, sofern Sie diese nicht bereits in Microsoft Teams konfiguriert haben. Wenn Sie möchten, dass der Gastzugriff für Ihre Organisation deaktiviert bleibt, müssen Sie sich vergewissern, dass die Einstellung für den Gastzugriff auf **Aus** und nicht auf **Dienststandard** festgelegt ist.
 
 > [!IMPORTANT]
 > Das Aktivieren des Gastzugriffs hängt von den Einstellungen in Azure Active Directory, Microsoft 365, SharePoint und Teams ab. Weitere Informationen finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
@@ -66,7 +66,7 @@ ms.locfileid: "49786777"
       - **Giphy-Inhaltsbewertung**: Wählen Sie eine Bewertung aus der Dropdown-Liste aus:
           - **Alle Inhalte zulassen**: Gäste können alle Giphys in Chats einfügen, unabhängig von der Inhaltsbewertung.
           - **Moderat**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber moderat eingeschränkt.
-          - **Streng** – Gäste können Giphys in Chats einfügen, können aber keine Jugendinhalte mehr einfügen.
+          - **Streng**: Gäste können Giphys in Chats einfügen, der Zugriff auf nicht jugendfreie Inhalte wird aber eingeschränkt.
       - **Memes in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Memes in Unterhaltungen zu ermöglichen.
       - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen.
 
