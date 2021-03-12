@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Add-On-Lizenzen
+title: Add-On-Lizenzen für Microsoft Teams
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -22,170 +22,170 @@ ms.custom:
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
 ms.openlocfilehash: b17e4a15741687414dec94e9f2b4d411490812ae
 ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/28/2021
 ms.locfileid: "50032404"
 ---
-# <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams-Add-On-Lizenzen
+# <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
 ## <a name="what-are-add-on-licenses"></a>Was sind Add-On-Lizenzen?
 
 Add-On-Lizenzen sind Lizenzen für bestimmte Funktionen von Microsoft Teams. Sie bieten Ihnen die Flexibilität, Features nur für Benutzer in Ihrer Organisation hinzuzufügen, die sie benötigen. Um eine Funktion hinzuzufügen, kaufen Sie eine Add-On-Lizenz für jeden Benutzer, der diese Funktion verwenden wird.
 
-## <a name="what-features-can-i-get-with-add-on-licenses"></a>Welche Features kann ich in Form von Add-On-Lizenzen erhalten?
+## <a name="what-features-can-i-get-with-add-on-licenses"></a>Welche Features kann ich über Add-On-Lizenzen erhalten?
 
-Hier ist eine Liste der Features, die Sie mit Teams-Add-On-Lizenzen hinzufügen können. Die verfügbaren Add-On-Lizenzierungsoptionen hängen von Ihrem Microsoft 365- oder Office 365-Plan ab.
+Nachstehend finden Sie eine Liste der Features, die Sie über Microsoft Teams-Add-On-Lizenzen hinzufügen können. Welche Add-On-Lizenzierungsoptionen für Sie verfügbar sind, hängt von Ihrem Microsoft 365- oder Office 365-Plan ab.
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**Feature** <br/> |**Beschreibung** <br/> |**Kleinunternehmen (mit <300 Benutzern)**|**Große Unternehmen (mit >300 Benutzern)**|
-**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) ist eine Telefonielösung für kleine und mittelständische Unternehmen mit bis zu 300 Benutzern, die Telefonsystem, Audiokonferenzen, einen Plan für Inlandsanrufe und vieles mehr bündelt. Zu den Telefonsystemfunktionen, die Sie erhalten, gehören Voicemail, Anrufer-ID, Parken von Anrufen, Anrufwarteschleifen, automatische Telefonkonferenzen und Anrufwarteschleifen. <br> Wenn Sie herausfinden müssen, ob Business Voice in Ihrem Land oder Ihrer Region verfügbar ist, lesen Sie die Verfügbarkeit von "Land und [Region" für Business Voice.](../business-voice/country-region-availability.md) Preisinformationen finden Sie unter ["Preise für Business Voice".](https://go.microsoft.com/fwlink/?linkid=2127221) <br/> |&#x2713;||
-|**Audiokonferenz** <br/> |Manchmal müssen Mitarbeiter in Ihrer Organisation ein Telefon verwenden, um sich an einer Team-Besprechung anstatt an ihrem Computer ein- oder ausstatten zu müssen. Richten Sie [Audiokonferenzen für](../audio-conferencing-in-office-365.md) Benutzer ein, die Besprechungen planen oder führen. <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Wenn Sie ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern sind und aktuell nicht über Lizenzen für Audiokonferenzen verfügen, können Sie Audiokonferenzen ein Jahr kostenlos erhalten. Ab dem 1. Oktober 2020 steht das kostenlose Audiokonferenzangebot Benutzern zur Verfügung, die über Lizenzen für Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1 oder Enterprise E3 verfügen. Weitere Informationen finden Sie unter ["Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen".](../audio-conferencing-smb.md)|&#x2713;|&#x2713;|
-|**Gebührenfreie Telefonnummern** |Wenn Sie gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen oder Anrufwarteschleifen verwenden möchten, müssen Sie Guthaben für [Kommunikationen einrichten.](../set-up-communications-credits-for-your-organization.md) <br/> |&#x2713;|&#x2713;|
-|**Telefonsystem** <br/> |[Telefonsystem](../what-is-phone-system-in-office-365.md) ist ein gehosteter Telefondienst, der Ihnen Funktionen für die Anrufsteuerung und pbX (Private Branch Exchange) mit Optionen für die Verbindung zum öffentlichen Telefonnetz (PSTN) bietet. Zu den Telefonsystemfunktionen gehören Cloud Voicemail, Anrufer-ID, Anruf parken, Anruf weiterleitung, automatische Telefonkonferenzen, Anrufwarteschleifen, Anrufübertragung, Anrufer-ID und vieles mehr. <br>Weitere Informationen finden Sie unter "Telefonsystem" für [Sie.](../here-s-what-you-get-with-phone-system.md) Preisinformationen finden Sie unter ["Preise für Telefonsystem".](https://go.microsoft.com/fwlink/?linkid=799763)  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Anrufpläne** <br/> |Wenn Sie möchten, dass Benutzer Telefonnummern außerhalb Ihrer Organisation anrufen können, erhalten Sie einen [Anrufplan.](../calling-plans-for-office-365.md) Es gibt Anrufpläne für Inland und Anrufpläne für Inland und Ausland. Preisinformationen finden Sie unter ["Preise für Anrufpläne".](https://go.microsoft.com/fwlink/?linkid=799761 )  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
-|**Microsoft Teams-Räume** <br/> |[Microsoft Teams Rooms](../rooms/index.md) ist kein Add-On, sondern eine Funktion, mit der Video-, Audio- und Inhaltsfreigaben in Konferenzräumen zur Verfügung stehen. Weitere Informationen [finden Sie unter "Teams-Besprechungsraumlizenzierung".](../rooms/rooms-licensing.md)  <br/> |&#x2713;|&#x2713;|
-|**Advanced Communications** <br/> |[Advanced Communications](advanced-communications.md) umfasst erweiterte Besprechungsanpassungen und Tools zum Verwalten der Kommunikationsrichtlinien Ihrer Organisation. Zu den zusätzlichen Features gehören der benutzerdefinierte Wartebereich für Besprechungen, mit dem Sie Ihre Besprechungen anpassen können, und Tools zum Überwachen, Nachverfolgen und Analysieren von Daten auf Benutzern und Geräten.   |&#x2713;|&#x2713;|
+|**Feature** <br/> |**Beschreibung** <br/> |**Kleine Unternehmen (bis zu 300 Benutzer)**|**Große Unternehmen (mehr als 300 Benutzer)**|
+**Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) ist eine Telefonielösung für kleine und mittelständische Unternehmen mit bis zu 300 Benutzern, die Telefonsystem, Audiokonferenzen, einen Inlandsanrufplan und mehr umfasst. Zu den Telefonsystem-Funktionen, die Sie erhalten, gehören Voicemail, Anrufer-ID, Parken von Anrufen, Anrufweiterleitung, automatische Telefonzentralen und Anrufwarteschleifen. <br> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Business Voice nach Land und Region](../business-voice/country-region-availability.md). Informationen zu den Preisen finden Sie unter [Preise für Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
+|**Audiokonferenzen** <br/> |In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich statt über ihren Computer über ein Telefon in eine Microsoft Teams-Besprechung einwählen. Richten Sie [Audiokonferenzen](../audio-conferencing-in-office-365.md) für Benutzer ein, die Besprechungen planen oder leiten. <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Wenn es sich bei Ihrem um ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern handelt und es derzeit nicht über Audiokonferenzlizenzen verfügt, können Sie Audiokonferenzen für ein Jahr kostenlos erhalten. Seit dem 1. Oktober 2020 ist das kostenlose Audiokonferenzangebot für Benutzer verfügbar, die über Lizenzen für Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1 oder Enterprise E3 verfügen. Näheres erfahren Sie unter [Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen](../audio-conferencing-smb.md).|&#x2713;|&#x2713;|
+|**Gebührenfreie Nummern** |Wenn Sie gebührenfreie Nummern für Audiokonferenzen, automatische Telefonzentralen oder Anrufwarteschleifen wünschen, müssen Sie [Kommunikationsguthaben einrichten](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
+|**Telefonsystem** <br/> |[Microsoft Telefonsystem](../what-is-phone-system-in-office-365.md) ist ein gehosteter Telefondienst, der Ihnen Anrufsteuerungs- und PBX-Funktionen (Private Branch Exchange, Nebenstellenanlage) mit Optionen für die Verbindung zum öffentlichen Telefonnetz (PSTN, Public Switched Telephone Network) bietet. Zu den Features des Microsoft Telefonsystems zählen Cloud-Voicemail, Anrufer-ID, Parken von Anrufen, Anrufweiterleitung, automatische Telefonzentralen, Anrufwarteschleifen, Anrufdurchstellung und mehr. <br>Weitere Informationen finden Sie unter [Was Ihnen das Microsoft Telefonsystem bietet](../here-s-what-you-get-with-phone-system.md). Informationen zu den Preisen finden Sie unter [Preise für Microsoft Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Anrufpläne** <br/> |Wenn Sie möchten, dass Ihre Benutzer beliebige Telefonnummern außerhalb Ihres Unternehmens anrufen können, benötigen Sie einen [Anrufplan](../calling-plans-for-office-365.md). Es gibt Anrufpläne für das Inland sowie Anrufpläne für In- und Ausland. Informationen zu den Preisen finden Sie unter [Preise für Anrufpläne](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**Microsoft Teams-Räume** <br/> |Bei [Microsoft Teams-Räume](../rooms/index.md) handelt es sich nicht um ein Add-On, sondern ein Feature, das Video-, Audio- und Inhaltsfreigaben für Konferenzräume ermöglicht. Siehe [Lizenzierung für Microsoft Teams-Räume](../rooms/rooms-licensing.md).  <br/> |&#x2713;|&#x2713;|
+|**Erweiterte Kommunikation** <br/> |[Erweiterte Kommunikation](advanced-communications.md) bietet erweiterte Anpassungsmöglichkeiten für Besprechungen sowie Tools zum Verwalten der Kommunikationsrichtlinien Ihrer Organisation. Weitere Features sind das Branding von Wartebereichen für Besprechungen, mit dem Sie Ihre Besprechungen anpassen können, sowie Tools zum Überwachen, Nachverfolgen und Analysieren von Daten zu Benutzern und Geräten.   |&#x2713;|&#x2713;|
 
-<sup>1</sup> Wenn Sie ein kleines oder mittelgroßes Unternehmen sind, das über einen Microsoft 365 Enterprise-Plan verfügt, können Sie für diese Sprachfeatures weiterhin Add-On-Lizenzen erwerben. Wir empfehlen jedoch, einen [Microsoft 365](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) Business-Plan und Business Voice in Erwägung zu [ziehen.](https://www.microsoft.com/microsoft-365/business/business-voice)
+<sup>1</sup> Wenn Sie für ein kleines oder mittelgroßes Unternehmen tätig sind und über einen Microsoft 365 Enterprise-Plan verfügen, können Sie für diese VoIP-Funktionen weiterhin Add-On-Lizenzen kaufen. Wir empfehlen Ihnen jedoch, einen [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) -Plan und [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) in Erwägung zu ziehen.
 
-## <a name="what-voice-features-are-available-with-my-plan"></a>Welche Sprachfeatures sind in meinem Plan verfügbar?
+## <a name="what-voice-features-are-available-with-my-plan"></a>Welche VoIP-Funktionen stehen in meinem Plan zur Verfügung?
 
-Erfahren Sie, welche Add-On-Lizenzen Sie benötigen, um Sprachfeatures in Teams zu erhalten, je nach Ihrem Plan.
+Sehen Sie sich an, welche Add-On-Lizenzen Sie benötigen, um VoIP-Funktionen in Microsoft Teams je nach bestehendem Plan zu erhalten.
 
-Je nach den von Ihnen verwendeten Sprachfeatures empfiehlt es sich zu vergleichen, ob es für Sie kostengünstiger ist, zu einem Plan zu wechseln, der diese Features enthält. Für die meisten großen Organisationen führt beispielsweise der Kauf eines Softwarepakets in einem Microsoft 365 Enterprise-Plan zu geringeren Gesamtkosten. Wenn Sie mehrere Add-On-Lizenzen einzeln statt als Teil eines Plans kaufen, können die Gesamtkosten höher sein.
+Je nachdem, welche VoIP-Funktionen Sie wünschen, empfehlen wir, zu vergleichen, ob es für Sie kostengünstiger ist, zu einem Plan zu wechseln, in dem diese Funktionen enthalten sind. Beispielsweise führt der Kauf eines Softwarepakets im Microsoft 365 Enterprise-Plan für die meisten großen Organisationen zu geringeren Gesamtkosten. Üblicherweise sind die Gesamtkosten höher, wenn Sie mehrere Add-On-Lizenzen einzeln statt als Teil eines Plans kaufen.
 
-#### <a name="small-business"></a>[**Kleinunternehmen**](#tab/small-business/)
+#### <a name="small-business"></a>[**Kleine Unternehmen**](#tab/small-business/)
 
-Wenn Sie ein kleines oder mittelgroßes Unternehmen (weniger als 300 Benutzer) sind, haben Sie vier Möglichkeiten, Sprachfeatures zu erhalten:
+Wenn Sie für ein kleines oder mittelgroßes Unternehmen (bis zu 300 Benutzer) tätig sind, stehen Ihnen vier Möglichkeiten zur Verfügung, um VoIP-Funktionen zu erhalten:
 
-- Kaufen Sie einen Microsoft 365 Business-Plan und Microsoft 365 Business Voice.
-- Kaufen Sie einen Enterprise E1- oder E3-Plan und Microsoft 365 Business Voice.
-- Kaufen Sie einen Enterprise E1- oder E3-Plan, und fügen Sie die Sprachfeatures einzeln hinzu.
-- Kaufen Sie einen Enterprise E5-Plan, der Sprachfeatures enthält.
+- Kauf eines Microsoft 365 Business-Plans und Microsoft 365 Business Voice.
+- Kauf eines Enterprise E1- oder E3-Plans und Microsoft 365 Business Voice.
+- Kauf eines Enterprise E1- oder E3-Plans und Hinzufügen einzelner VoIP-Funktionen.
+- Kauf eines Enterprise E5-Plans, der VoIP-Funktionen umfasst.
 
-Bei Microsoft 365 Business Voice haben Sie zwei Optionen zur Auswahl:
+Bei Microsoft 365 Business Voice stehen zwei Optionen zur Auswahl:
 
-- **Microsoft 365 Business Voice mit einem** Anrufplan: Erhalten Sie diese Informationen, wenn Die Verwaltung und Abrechnung von Telefonnummern von Microsoft abgewickelt werden soll.
-- **Microsoft 365 Business Voice ohne** Einen Anrufplan (Direktes Routing): Rufen Sie diese Absprache ab, wenn sie möchten, dass die Verwaltung und Abrechnung von Telefonnummern von Ihrem Drittanbieter für Telefone abgewickelt wird. Sie müssen Direct Routing einrichten [](../direct-routing-landing-page.md) und bereitstellen, um Ihre lokalen Session Border Controller (SBCs) mit Microsoft 365 oder Office 365 zu verbinden.
+- **Microsoft 365 Business Voice mit einem Anrufplan**: Wählen Sie diese Option, wenn die Verwaltung und Abrechnung von Telefonnummern von Microsoft erledigt werden soll.
+- **Microsoft 365 Business Voice ohne Anrufplan (Direct Routing)**: Wählen Sie diese Option, wenn die Verwaltung von Telefonnummern und die Abrechnung von Ihrem externen Telefonanbieter erledigt werden sollen. Sie müssen [Direct Routing](../direct-routing-landing-page.md) einrichten und bereitstellen, um die lokalen Session Border Controller (SBCs) mit Microsoft 365 oder Office 365 zu verbinden.
 
-Weitere Informationen finden Sie unter "Was muss ich kaufen, um [Microsoft 365 Business Voice verwenden zu können?".](../business-voice/what-to-buy.md)
+Weitere Informationen finden Sie unter [Was benötige ich für die Nutzung von Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
 
-Hier ist eine Zusammenfassung, die auf dem Lizenzierungsplan basiert.
+Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 
-  ![Optionen für Den Small Business Plan](../media/licensing-smallbusiness-options.png)
+  ![Optionen für Pläne für kleine Unternehmen](../media/licensing-smallbusiness-options.png)
 
-Wenn Audiokonferenzen in Ihrem Land oder Ihrer Region nicht unterstützt werden, haben Sie die Möglichkeit, einen Microsoft 365 Enterprise E5 ohne Audiokonferenzplan oder einen Office 365 Enterprise E5 ohne Audiokonferenzplan zu erhalten.
+Wenn Audiokonferenzen in Ihrem Land bzw. Ihrer Region nicht unterstützt werden, haben Sie die Möglichkeit, einen Microsoft 365 Enterprise E5-Plan ohne Audiokonferenzen oder einen Office 365 Enterprise E5-Plan ohne Audiokonferenzen zu nutzen.
 
-Wenn Sie bereits über einen Microsoft 365 Enterprise- oder Office 365 Enterprise-Plan verfügen, können Sie dennoch Add-On-Lizenzen für einzelne Sprachfeatures kaufen. Sie haben jedoch die Möglichkeit, zu einem [Microsoft 365 Business-Plan](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) und [Microsoft 365 Business Voice zu wechseln.](https://www.microsoft.com/microsoft-365/business/business-voice) Je nach den von Ihnen verwendeten Features ist es in einigen Fällen möglicherweise kostengünstiger, einen Microsoft 365 Business-Plan mit Microsoft 365 Business Voice zu erhalten.
-
-> [!NOTE]
-> Wenn Sie einen Telefondienst eines Drittanbieters verwenden müssen, [wird Direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für Sprachfeatures verwenden.
-
-#### <a name="enterprise"></a>[**Enterprise**](#tab/enterprise/)
-
-Wenn Sie eine große Unternehmens- oder Unternehmensorganisation sind (mehr als 300 Benutzer), haben Sie zwei Möglichkeiten, Sprachfeatures zu erhalten:
-
-- Kaufen Sie einen Enterprise E1- oder E3-Plan, und fügen Sie die Sprachfeatures einzeln hinzu.
-- Kaufen Sie einen Enterprise E5-Plan, der Sprachfeatures enthält.
-
-Hier ist eine Zusammenfassung basierend auf dem Lizenzierungsplan.
-
-  ![Optionen für enterprise-basierte Pläne](../media/licensing-enterprise-options.png)
-
-Wenn Audiokonferenzen in Ihrem Land oder Ihrer Region nicht unterstützt werden, haben Sie die Möglichkeit, einen Microsoft 365 Enterprise E5 ohne Audiokonferenzplan oder einen Office 365 Enterprise E5 ohne Audiokonferenzplan zu erhalten.
-
-Weitere Informationen finden Sie unter [Microsoft 365 Enterprise-Pläne](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) und [Office 365 Enterprise-Pläne.](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)
+Wenn Sie bereits über einen Microsoft 365 Enterprise- oder Office 365 Enterprise-Plan verfügen, können Sie trotzdem Add-On-Lizenzen für einzelne VoIP-Funktionen erwerben. Sie haben jedoch auch die Möglichkeit, zu einem [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2)-Plan und [Microsoft 365 Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice) zu wechseln. In einigen Fällen kann es je nach den von Ihnen gewünschten Funktionen kostengünstiger sein, einen Microsoft 365 Business-Plan mit Microsoft 365 Business Voice zu erwerben.
 
 > [!NOTE]
-> Wenn Sie einen Telefondienst eines Drittanbieters verwenden müssen, [direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt wird, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für Sprachfeatures verwenden.
+> Wenn Sie den Telefondienst eines Drittanbieters verwenden müssen, wird [Direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für VoIP-Funktionen verwenden.
+
+#### <a name="enterprise"></a>[**Große Unternehmen**](#tab/enterprise/)
+
+Wenn Sie für ein großes Unternehmen oder eine große Organisation (über 300 Benutzer) tätig sind, haben Sie zwei Optionen, um VoIP-Funktionen zu erhalten:
+
+- Kauf eines Enterprise E1- oder E3-Plans und Hinzufügen einzelner VoIP-Funktionen.
+- Kauf eines Enterprise E5-Plans, der VoIP-Funktionen umfasst.
+
+Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
+
+  ![Enterprise-Planoptionen](../media/licensing-enterprise-options.png)
+
+Wenn Audiokonferenzen in Ihrem Land bzw. Ihrer Region nicht unterstützt werden, haben Sie die Möglichkeit, einen Microsoft 365 Enterprise E5-Plan ohne Audiokonferenzen oder einen Office 365 Enterprise E5-Plan ohne Audiokonferenzen zu nutzen.
+
+Weitere Informationen finden Sie unter [Microsoft 365 Enterprise-Pläne](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) und [Office 365 Enterprise-Pläne](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans).
+
+> [!NOTE]
+> Wenn Sie den Telefondienst eines Drittanbieters verwenden müssen, wird [Direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für VoIP-Funktionen verwenden.
 
 #### <a name="education"></a>[**Bildung**](#tab/education/)
 
-Bildungseinrichtungen und andere akademische Organisationen haben drei Möglichkeiten, Sprachfeatures zu erhalten.
+Für Schulen und andere Bildungseinrichtungen gibt es drei Optionen, um VoIP-Funktionen zu erhalten.
 
-- Kaufen Sie einen EDU A1- oder A3-Plan und Microsoft 365 Business Voice.
-- Kaufen Sie einen EDU A1- oder A3-Plan, und fügen Sie die Sprachfeatures einzeln hinzu.
-- Kaufen Sie einen EDU A5-Plan mit Sprachfeatures.
+- Kauf eines EDU A1- oder A3-Plans und Microsoft 365 Business Voice.
+- Kauf eines EDU A1- oder A3-Plans und Hinzufügen einzelner VoIP-Funktionen.
+- Kauf eines EDU A5-Plans, der VoIP-Funktionen umfasst.
 
-Hier ist eine Zusammenfassung basierend auf dem Lizenzierungsplan.
+Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 
   ![Optionen für EDU-Pläne](../media/licensing-education-options.png)
 
   <sup>1</sup> Nur für Organisationen mit weniger als 300 Benutzern verfügbar.
 
-Weitere Informationen finden Sie unter [Microsoft 365 Education-](https://www.microsoft.com/education/buy-license/microsoft365) und [Office 365 Education-Pläne.](https://www.microsoft.com/education/products/office)
+Weitere Informationen finden Sie unter [Microsoft 365 Education](https://www.microsoft.com/education/buy-license/microsoft365) und [Office 365 Education-Pläne](https://www.microsoft.com/education/products/office).
 
 > [!NOTE]
-> Wenn Sie einen Telefondienst eines Drittanbieters verwenden müssen, [direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt wird, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für Sprachfeatures verwenden.
+> Wenn Sie den Telefondienst eines Drittanbieters verwenden müssen, wird [Direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für VoIP-Funktionen verwenden.
 
 #### <a name="government"></a>[**Behörden**](#tab/government/)
 
-Für US-Amerikanische Regierungsorganisationen (nur GCC) gibt es drei Möglichkeiten, Sprachfeatures zu erhalten.
+Für US-Behörden (nur GCC) gibt es drei Optionen, um VoIP-Funktionen zu erhalten.
 
-- Erwerben Sie einen GOV G1- oder G3-Plan und Microsoft 365 Business Voice.
-- Kaufen Sie einen GOV G1- oder G3-Plan, und fügen Sie cloudbasierte Sprachfeatures einzeln hinzu.
-- Kaufen Sie einen GOV G5-Plan, der Sprachfeatures enthält.
+- Kauf eines GOV G1- oder G3-Plans und Microsoft 365 Business Voice.
+- Kauf eines GOV G1- oder G3-Plans und Hinzufügen einzelner Cloud-VoIP-Funktionen.
+- Kauf eines GOV G5-Plans, der VoIP-Funktionen umfasst.
 
-Hier ist eine Zusammenfassung, die auf dem Lizenzierungsplan basiert.
+Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 
-  ![Gov-basierte Optionen](../media/licensing-government-options.png)
-
-  <sup>1</sup> Nur für Organisationen mit weniger als 300 Benutzern verfügbar.
-
-Weitere Informationen finden Sie unter [microsoft 365 Government-](https://www.microsoft.com/microsoft-365/government/) und [Office 365 Government-Pläne.](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)
-
-> [!NOTE]
-> Wenn Sie einen Telefondienst eines Drittanbieters verwenden müssen, [direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt wird, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für Sprachfeatures verwenden.
-
-#### <a name="nonprofit"></a>[**Gemeinnützige Organisation**](#tab/nonprofit/)
-
-Wenn Sie eine gemeinnützige Organisation sind, haben Sie vier Möglichkeiten, Sprachfeatures zu erhalten.
-
-- Kaufen Sie einen Microsoft 365 Non-Profit Business Basic- oder Microsoft 365 Non-Profit Business Standard-Plan und Microsoft 365 Business Voice.
-- Kaufen Sie einen Non-Profit E1- oder E3-Plan und Microsoft 365 Business Voice.
-- Kaufen Sie einen Non-Profit E1- oder E3-Plan, und fügen Sie die Sprachfeatures einzeln hinzu.
-- Kaufen Sie eine nonprofit E5 mit Sprachfeatures.
-
-Hier ist eine Zusammenfassung, die auf dem Lizenzierungsplan basiert.
-
-  ![Optionen für gemeinnützige Organisationen](../media/licensing-nonprofit-options.png)
+  ![GOV-Optionen](../media/licensing-government-options.png)
 
   <sup>1</sup> Nur für Organisationen mit weniger als 300 Benutzern verfügbar.
 
-Weitere Informationen finden Sie unter [Microsoft 365- und Office 365 Non-Profit-Angebote.](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing)
+Weitere Informationen finden Sie unter [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government/) und [Office 365 Government-Pläne](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans).
 
 > [!NOTE]
-> Wenn Sie einen Telefondienst eines Drittanbieters verwenden müssen, [wird Direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für Sprachfeatures verwenden.
+> Wenn Sie den Telefondienst eines Drittanbieters verwenden müssen, wird [Direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für VoIP-Funktionen verwenden.
+
+#### <a name="nonprofit"></a>[**Gemeinnützige Organisationen**](#tab/nonprofit/)
+
+Wenn Sie für eine gemeinnützige Organisation tätig sind, haben Sie vier Optionen, um VoIP-Funktionen zu erhalten.
+
+- Kauf eines Microsoft 365 Non-Profit Business Basic- oder Microsoft 365 Non-Profit Business Standard-Plans und Microsoft 365 Business Voice.
+- Kauf eines Non-Profit E1- oder E3-Plans und Microsoft 365 Business Voice.
+- Kauf eines Non-Profit E1- oder E3-Plans und Hinzufügen einzelner VoIP-Funktionen.
+- Kauf eines Non-Profit E5-Plans, der VoIP-Funktionen umfasst.
+
+Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
+
+  ![Non-Profit-Optionen](../media/licensing-nonprofit-options.png)
+
+  <sup>1</sup> Nur für Organisationen mit weniger als 300 Benutzern verfügbar.
+
+Weitere Informationen finden Sie unter [Microsoft 365- und Office 365 Non-Profit-Angebote](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit-plans-and-pricing).
+
+> [!NOTE]
+> Wenn Sie den Telefondienst eines Drittanbieters verwenden müssen, wird [Direct Routing](../direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt, oder wenn Anrufpläne in Ihrem Land oder Ihrer Region nicht verfügbar sind, müssen Sie Direct Routing für VoIP-Funktionen verwenden.
 
 #### <a name="trial-offers"></a>[**Testangebote**](#tab/trial/)
 
-### <a name="trial-offers-for-licensing-plans"></a>Testangebote für Lizenzpläne
+### <a name="trial-offers-for-licensing-plans"></a>Testangebote für Lizenzierungspläne
 
-Als Reaktion auf die erhöhte Notwendigkeit, dass Personen remote arbeiten (oder von zu Hause aus arbeiten) bietet Microsoft mehrere kostenlose Testversionen für Behörden, Bildungseinrichtungen und gemeinnützige Organisationen an. Testversionen sind für diese Pläne verfügbar:
+Angesichts des erhöhten Bedarfs an Remotearbeit (oder Arbeit von zu Hause aus) bietet Microsoft verschiedene kostenlose Microsoft Teams-Testangebote für Behörden, Bildungseinrichtungen und gemeinnützige Organisationen. Testversionen sind für folgende Pläne verfügbar:
 
-- Testversion von Office 365 Enterprise [E1](../e1-trial-license.md) (eingestellt seit 1. Juli 2020), Testversion von E3 und E5
-- Testversion von Office 365 Education [A1](../teams-edu-licensing.md)
-- Testversion von Office 365 Government [G1](../g1-trial-license.md) (eingestellt seit dem 1. Juli 2020)
+- Office 365 Enterprise [E1-Testversion](../e1-trial-license.md) (eingestellt seit dem 1. Juli 2020), E3-Testversion und E5-Testversion
+- Office 365 Education [A1-Testversion](../teams-edu-licensing.md)
+- Office 365 Government [G1-Testversion](../g1-trial-license.md) (eingestellt seit dem 1. Juli 2020)
 
-Informationen zum Registrieren für ein Testangebot finden Sie unter ["Registrieren für ein Testangebot".](https://transform.microsoft.com/customer-trials?tab=requestnewtrial)
+Näheres zur Registrierung finden Sie unter [Für ein Testangebot registrieren](https://transform.microsoft.com/customer-trials?tab=requestnewtrial).
 
-### <a name="trial-offers-for-voice-features"></a>Testangebote für Sprachfeatures
+### <a name="trial-offers-for-voice-features"></a>Testangebote für VoIP-Funktionen
 
-Hier ist eine Zusammenfassung der Testversionen für Sprachfeatures.
+Hier ist eine Übersicht über die Testversionen von VoIP-Features.
 
-  ![Testbasierte Optionen](../media/licensing-trial-offers.png)
+  ![Optionen bei Testversionen](../media/licensing-trial-offers.png)
 
- Ihr Basisplan muss kein Testangebot sein, um eine dieser Testversionen für Sprachfeatures verwenden zu können. Sie können einen Microsoft 365 Business- oder einen Enterprise-, Government-, Education- oder Non-Profit-Plan mit einem der Testangebote für Sprachfeatures verwenden. Um verfügbare Testangebote und -add-Ons zu sehen, wechseln Sie im Microsoft 365 Admin Center zu "Abrechnungskauf-Dienste", wählen Sie "Andere Kategorien" aus, die Sie möglicherweise interessieren, und wählen Sie dann  >   **"Add-Ons"** aus. 
+ Ihr Basisplan muss kein Testangebot sein, um eine dieser Testversionen von VoIP-Funktionen verwenden zu können. Sie können einen Microsoft 365 Business-Plan oder einen Enterprise-, Government-, Education- oder Non-Profit-Plan mit einem beliebigen Testangebot für VoIP-Funktionen verwenden. Wenn Sie die verfügbaren Testangebote und Add-Ons sehen möchten, wechseln Sie im Microsoft 365 Admin Center zu **Abrechnung** > **Dienste kaufen**, wählen Sie **Andere Kategorien, die Sie interessieren könnten** und dann **Add-Ons** aus.
 
-  Für jede dieser Sprach- und Konferenzoptionen ist Guthaben für Kommunikationen [erforderlich,](../set-up-communications-credits-for-your-organization.md) wenn Sie über gebührenfreie Telefonnummern verfügen oder zusätzliche Minuten für Benutzer für Anrufe aus Besprechungen oder für Benutzer für in- und internationale Festnetzanrufe hinzufügen müssen.
+  Für jede dieser VoIP- und Konferenzoptionen ist [Kommunikationsguthaben](../set-up-communications-credits-for-your-organization.md) erforderlich, wenn Sie über gebührenfreie Nummern verfügen oder zusätzliche Minuten hinzufügen müssen, damit Benutzer in Besprechungen ausgehende Anrufe tätigen können, oder für Benutzer, die In- oder Ausland-Festnetzanrufe tätigen müssen.
 
- Schauen Sie sich außerdem an:
+ Sehen Sie sich außerdem Folgendes an:
 
-- [Kostenlose Version von Teams](../manage-freemium.md)
-- [Explorative Erfahrung in Teams](../teams-exploratory.md) – Derzeit gibt es keine Testangebote für Sprachfeatures, die mit der Explorativenerfahrung von Teams verwendet werden können.
-- [Microsoft Phone System – Lizenz für virtuelle Benutzer](virtual-user.md)
+- [Kostenlose Version von Microsoft Teams](../manage-freemium.md)
+- [Microsoft Teams Exploratory](../teams-exploratory.md): Derzeit gibt es keine Testversionen für die Verwendung von VoIP-Funktionen mit der Microsoft Teams Exploratory-Version.
+- [Telefonsystem – virtuelle Benutzer](virtual-user.md)-Lizenz
 
 * * *
 
@@ -195,6 +195,6 @@ Möchten Sie mit jemandem über die Add-On-Optionen sprechen? [Kontakt mit dem S
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Zuweisen von Teams-Add-On-Lizenzen](assign-teams-add-on-licenses.md)
-- [Verwalten des Benutzerzugriffs auf Teams](../user-access.md)
-- [Beschreibung des Teams-Diensts](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Zuweisen von Microsoft Teams-Add-On-Lizenzen](assign-teams-add-on-licenses.md)
+- [Verwalten des Benutzerzugriffs auf Microsoft Teams](../user-access.md)
+- [Beschreibung des Microsoft Teams-Diensts](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)

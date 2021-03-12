@@ -201,44 +201,44 @@ items:
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: Besprechungen zuerst
             href: meetings-first.md
-  - name: Hybridverbindungen
-    items:
-      - name: Planen von Hybridverbindungen
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: Konfigurieren von Hybridverbindungen
+      - name: Hybridverbindungen
         items:
-          - name: Übersicht
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: Konfigurieren von Azure AD Connect für Hybridumgebungen
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: Konfigurieren der Hybridbereitstellung von Skype for Business
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
-        items:
-          - name: Übersicht
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Microsoft Teams
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Skype for Business Online
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: Verwalten von Besprechungsmigrationen
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Cloudkonsolidierung für Teams und Skype for Business Online
-        items:
-          - name: Übersicht
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: Aktualisieren des Microsoft Edge-Zertifikats
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: 'Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzubeziehen'
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Integration mit Exchange und Microsoft Office SharePoint Online
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+          - name: Planen von Hybridverbindungen
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+          - name: Konfigurieren von Hybridverbindungen
+            items:
+              - name: Übersicht
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+              - name: Konfigurieren von Azure AD Connect für Hybridumgebungen
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+              - name: Konfigurieren der Hybridbereitstellung von Skype for Business
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+          - name: Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
+            items:
+              - name: Übersicht
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+              - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Microsoft Teams
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+              - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Skype for Business Online
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+              - name: Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+              - name: Verwalten von Besprechungsmigrationen
+                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+          - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+          - name: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+          - name: Cloudkonsolidierung für Teams und Skype for Business Online
+            items:
+              - name: Übersicht
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+              - name: Aktualisieren des Microsoft Edge-Zertifikats
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+              - name: 'Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzubeziehen'
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+          - name: Integration mit Exchange und Microsoft Office SharePoint Online
+            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 'Sicherheit, Datenschutz und Compliance'
     items:
       - name: Übersicht
@@ -739,6 +739,8 @@ items:
                 href: set-the-phone-numbers-included-on-invites-in-teams.md
               - name: Starten einer Audiokonferenz per Telefon ohne PIN
                 href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+              - name: Telefonnummern in Teamsitzungen ausblenden
+                href: ptsn-mask-phone-numbers.md
           - name: Verfügbarkeit nach Land und Region für Audiokonferenzen
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: Referenz
