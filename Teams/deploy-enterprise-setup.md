@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fea59dd39023e9ac9a3234491742bc5a998926a
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: d8144b830bec7f51bd97c59211d629aae7ffb3c9
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395450"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726386"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Einrichten von Microsoft Teams in Ihrem Unternehmen
 
@@ -72,7 +72,7 @@ Chats, Teams und Kanäle sind die Säulen von Teams. Der **Chat** ermöglicht es
 | Entscheidung | Beschreibung |
 |--|--|
 | Welche Messagingrichtlinien sollten angewendet werden? | Messagingrichtlinien steuern, welche Features für Chat- und Kanalnachrichten (z. B. wer den Chat verwenden kann, wer gesendete Nachrichten bearbeiten und löschen kann und so weiter) für Benutzer in Teams zur Verfügung stehen. Teams hat eine globale Richtlinie, die für jeden gilt. Alle Features der globalen Richtlinie sind standardmäßig auf **An** festgelegt.<p>Wenn für alle dieselbe Richtlinie gelten soll, müssen Sie nur Änderungen an dieser globalen Richtlinie vornehmen (z. B. Deaktivieren der Unterstützung von Memes in Unterhaltungen).<p>Wenn Sie unterschiedliche Richtlinien für unterschiedliche Personengruppen (z. B. eine Richtlinie für Büroarbeiter und eine weitere für Fabrikarbeiter) wünschen, können Sie Richtlinien erstellen und zuweisen. Wenn Sie einem Benutzer eine Richtlinie zuweisen, gilt die globale Richtlinie nicht mehr für diesen Benutzer.<p>[Verwalten von Messaging-Richtlinien in Teams](messaging-policies-in-teams.md) |
-| Welche Teameinstellungen sollen angewendet werden? | Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Mail-Integration, Cloud-Speicheroptionen, die Organisationsregisterkarte, das Einrichten von Geräten in Besprechungsräumen und den Suchbereich einrichten. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Teams in Ihrer Organisation. <p>[Teams-Einstellungen](enable-features-office-365#teams-settings)  |
+| Welche Teameinstellungen sollen angewendet werden? | Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Mail-Integration, Cloud-Speicheroptionen, die Organisationsregisterkarte, das Einrichten von Geräten in Besprechungsräumen und den Suchbereich einrichten. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Teams in Ihrer Organisation. <p>[Teams-Einstellungen](enable-features-office-365.md#teams-settings)  |
 
 ### <a name="external-and-guest-access"></a>Externer und Gastzugriff
 

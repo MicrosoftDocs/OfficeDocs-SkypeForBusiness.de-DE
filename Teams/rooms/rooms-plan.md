@@ -14,153 +14,152 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, erläutert.
-ms.openlocfilehash: ccc24aea1a45d2aa75c3b1a5de668b520483c2bd
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams Rooms, der nächsten Generation von Skype Room Systems, erläutert.
+ms.openlocfilehash: fae50e076467efdfe69115d967f3d6564ba9266a
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662470"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726276"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen von Microsoft Teams-Räumen
 
-In diesem Artikel wird ein End-to-End-Ansatz für die Planung, Bereitstellung und den Betrieb von Microsoft Teams-Räumen im Rahmen ihrer Gesamtstrategie für Besprechungen und Konferenzräume vorgestellt.
+In diesem Artikel wird ein End-to-End-Ansatz für die Planung, Bereitstellung und Bedienung von Microsoft Teams-Räumen im Rahmen Ihrer allgemeinen Besprechungs- und Konferenzraumstrategie vorgestellt.
 
-Nachfolgend finden Sie Planungsinformationen zu den empfohlenen Vorgehensweisen und wichtigen Entscheidungen, die Sie treffen müssen, mit Links zu technischen unterstützenden Informationen. Wir empfehlen, dass Sie die Abschnitte planen, bereitstellen und verwalten selbst dann überprüfen, wenn Sie bereits vollständig bereitgestellt sind.
+Unten finden Sie Planungsinformationen, die den empfohlenen Ansatz und wichtige Entscheidungen enthalten, die Sie treffen müssen, mit Links zur Unterstützung technischer Informationen. Es wird empfohlen, die Abschnitte Plan, Deploy und Manage zu überprüfen, auch wenn Sie bereits vollständig bereitgestellt sind.
 
-## <a name="overview-of-microsoft-teams-rooms"></a>Übersicht über Microsoft Teams-Chatrooms
+## <a name="overview-of-microsoft-teams-rooms"></a>Übersicht über Microsoft Teams Rooms
 
-Microsoft Teams Rooms bietet eine vollständige Besprechungs Erfahrung, die HD-Video-, Audio-und Content-Freigaben für Besprechungen jeder Größe ermöglicht, von kleinen zusammendrängenden Bereichen bis zu großen Konferenzräumen.
+Microsoft Teams Rooms bietet eine vollständige Besprechungserfahrung, die HD-Video-, Audio- und Inhaltsfreigaben für Besprechungen aller Größen von kleinen Umkleidebereichen bis hin zu großen Konferenzräumen bietet.
 
-![Eine Konsole, ein Mikrofon und ein großer Bildschirm, die auf einer Konferenzraum Wand montiert sind, veranschaulichen die Elemente eines Beispiel-Setups für Microsoft Teams rooms.](../media/room-systems-image1.png "Eine Konsole, ein Mikrofon und ein großer Bildschirm, die auf einer Konferenzraum Wand montiert sind, veranschaulichen die Elemente eines Beispiel-Setups für Microsoft Teams rooms.")
+![Eine Konsole, ein Mikrofon und ein großer Bildschirm, der an einer Konferenzraumwand angebracht ist, veranschaulichen die Elemente eines Beispiels für die Einrichtung von Microsoft Teams Rooms.](../media/room-systems-image1.png "Eine Konsole, ein Mikrofon und ein großer Bildschirm, der an einer Konferenzraumwand angebracht ist, veranschaulichen die Elemente eines Beispiels für die Einrichtung von Microsoft Teams Rooms.")
 
-Die [Hilfe zu Microsoft Teams rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) ist eine hervorragende Ressource, um mehr über die Microsoft Teams-Räume zu erfahren und zu erfahren, wie Sie einen Mehrwert als Teil Ihrer Bereitstellung hinzufügen können. Darüber hinaus empfehlen wir, dieses Übersichts [Video](https://youtu.be/tNey5KZVCl0)zu sehen. 
+[Die Hilfe zu Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) ist eine hervorragende Ressource, um mehr über Microsoft Teams Rooms zu erfahren und zu erfahren, wie sie im Rahmen Ihrer Bereitstellung einen Mehrwert schaffen kann. Darüber hinaus empfiehlt es sich, dieses [Übersichtsvideo zu sehen.](https://youtu.be/tNey5KZVCl0) 
 
-## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams rooms-Komponenten
+## <a name="microsoft-teams-rooms-components"></a>Microsoft Teams Rooms-Komponenten
 
-Microsoft Teams rooms umfasst die folgenden wichtigen Komponenten, um eine hervorragende Benutzererfahrung zu bieten:
+Microsoft Teams Rooms enthält die folgenden wichtigen Komponenten, um eine großartige Benutzererfahrung zu bieten:
 
-- Touchscreen-Control Panel
+- Touchscreen-Systemsteuerung
 - Berechnen
-- Microsoft Teams rooms-Anwendung
+- Microsoft Teams Rooms-Anwendung
 - Dock/Extender
 - Peripheriegeräte (Kamera, Mikrofon, Lautsprecher)
 - Externe Bildschirme (maximal zwei)
 - HDMI-Eingang
 
-Sie können diese Komponenten als vorinstallierte Bundles von einer Reihe von Anbietern beschaffen, oder Sie können die unterstützten Komponenten einzeln erwerben, indem Sie die [in diesem Artikel beschriebenen Anforderungen](requirements.md)befolgen.
+Sie können diese Komponenten als vorinstallierte Bündel von einer Reihe von Anbietern erwerben, oder Sie können die unterstützten Komponenten einzeln erwerben, indem Sie die in diesem Artikel dokumentierten [Anforderungen erfüllen.](requirements.md)
 
-Zusätzlich zur Kombination aus Surface pro/Dock können Sie auch Microsoft Teams-Räume mit integriertem Touchscreen-Control Panel, COMPUTE, Dock und wichtigen Peripheriegeräten erwerben. 
+Zusätzlich zur Kombination Surface Pro/Dock können Sie auch Microsoft Teams-Räume mit integriertem Touchscreen-Panel, Computer, Dock und wichtigen Peripheriegeräten erwerben. 
 
-In der Regel enthalten die Pakete und die integrierten Einheiten vorinstallierte Software, während Sie, wenn Sie unterstützte Komponenten einzeln für Surface pro-Systeme kaufen, die Software installieren müssen. Anweisungen hierzu finden Sie in [diesem Artikel Informationen zum Installieren von Software auf Geräten](rooms-scale.md). 
+Normalerweise enthalten die Bündel und integrierten Einheiten vorinstallierte Software, während Sie unterstützte Komponenten einzeln für die Surface Pro-Systeme kaufen, müssen Sie die Software installieren. Anweisungen finden Sie [in diesem Artikel zum Installieren von Software auf Geräten.](rooms-scale.md) 
 
-Sie können Microsoft Teams-Räume mit Microsoft Teams, Skype for Business Online oder Skype for Business-Hybrid-oder lokalen Bereitstellungen bereitstellen.  Informationen zu den erforderlichen Lizenzen finden Sie im [Lizenzierungs Update für Teams im Besprechungsraum](rooms-licensing.md) .
+Sie können Microsoft Teams-Räume mit Microsoft Teams, Skype for Business Online oder Skype for Business-Hybrid- oder lokalen Bereitstellungen bereitstellen.  Informationen zu den benötigten Lizenzen finden Sie im Lizenzierungsupdate für Besprechungsraum in [Teams.](rooms-licensing.md)
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Werden Sie Microsoft Teams-Räume in Ihrer Organisation bereitstellen? </li><li>Wie können Sie Ihre Microsoft Teams rooms-Systeme – gebündelt, als separate Komponenten oder als integrierte Einheit – beschaffen?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Ermitteln Sie, wer die wichtigsten Aktivitäten während der gesamten Bereitstellung übernimmt.</li><li>Überprüfen Sie die Besprechungsräume, die Sie haben (und planen Sie die Einrichtung), um zu verstehen, wo Sie Microsoft Teams-Räume und Peripheriegeräte bereitstellen möchten, die für die Raumgröße geeignet sind.</li></ul> |
+|![Bereitstellung entscheiden](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Werden Sie Microsoft Teams Rooms in Ihrer Organisation bereitstellen? </li><li>Wie beschaffen Sie Ihre Microsoft Teams Rooms-Systeme – gebündelt, als separate Komponenten oder als integrierte Einheit?</li></ul> |
+| ![Identifizieren von Aktivitäten](../media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Identifizieren Sie, wer während der gesamten Bereitstellung die wichtigsten Aktivitäten übernimmt.</li><li>Überprüfen Sie die Besprechungsräume, die Sie haben (und planen, sie zu einrichten), um zu verstehen, wo Sie Microsoft Teams-Räume und die Peripheriegeräte bereitstellen möchten, die für die Raumgröße geeignet wären.</li></ul> |
 | | |
 
-## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Ermitteln, wer die wichtigsten Aktivitäten während der gesamten Bereitstellung übernimmt
+## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identifizieren, wer während der gesamten Bereitstellung die wichtigsten Aktivitäten übernimmt
 
-Verwenden Sie den unten dargestellten Ansatz, der Sie durch Ihre Bereitstellung führt, und passen Sie die Beispiel Ausgaben an, die in diesen Artikeln nach Bedarf für Ihre Organisation bereitgestellt werden.
+Verwenden Sie den unten dargestellten Ansatz, um Sie durch Ihre Bereitstellung zu führen und die Beispielausgabe in diesen Artikeln nach Bedarf für Ihre Organisation anzupassen.
 
-Beginnen Sie mit dem Verständnis, welche Konferenzräume Sie haben, und sehen Sie sich an, was in Zukunft für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie entwickeln von Betriebs-und Wartungsverfahren.
+Beginnen Sie mit dem Verständnis, welche Konferenzräume Sie haben, und stellen Sie sich vor, was in Zukunft für Sie am besten funktionieren würde, und gehen Sie dann durch die Auswahl und Beschaffung der benötigten Geräte, die Bereitstellung Ihrer Websites, konfigurieren und bereitstellen Ihres Diensts, verwalten Sie Änderungen und die Benutzeradzeptanz, und entwickeln Sie Vorgänge und Wartungsprozeduren.
 
-![Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie entwickeln von Betriebs-und Wartungsverfahren.](../media/room-systems-image2.png "Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie entwickeln von Betriebs-und Wartungsverfahren.")
+![Beginnen Sie mit dem Verständnis, was Sie haben, und stellen Sie sich vor, was für Sie am besten funktionieren würde, und bewegen Sie sich dann durch das Auswählen und Beschaffen des benötigten Equipments, das Bereiten Ihrer Websites, konfigurieren und bereitstellen Ihres Diensts, das Verwalten von Änderungen und der Benutzeradzeptanz sowie das Entwickeln von Vorgängen und Wartungsprozeduren.](../media/room-systems-image2.png "Beginnen Sie mit dem Verständnis, was Sie haben, und stellen Sie sich vor, was für Sie am besten funktionieren würde, und bewegen Sie sich dann durch das Auswählen und Beschaffen des benötigten Equipments, das Bereiten Ihrer Websites, konfigurieren und bereitstellen Ihres Diensts, das Verwalten von Änderungen und der Benutzeradzeptanz sowie das Entwickeln von Vorgängen und Wartungsprozeduren.")
 
-Möglicherweise müssen Sie diese Aktivitäten über mehrere Teams hinweg koordinieren. Wir bieten eine allgemeine Ansicht der wichtigsten Aktivitäten, die Sie behandeln sollten, sowie Vorschläge für die Teams, die normalerweise an der Bereitstellung und Verwaltung von Konferenzraum Systemen beteiligt sind, um Ihnen zu helfen, zu entscheiden, mit wem Sie arbeiten müssen.
+Möglicherweise müssen Sie diese Aktivitäten in mehreren Teams koordinieren. Wir bieten eine hohe Ansicht der wichtigsten Aktivitäten, die Sie abdecken sollten, sowie Vorschläge für die Teams, die normalerweise an der Bereitstellung und Verwaltung von Konferenzraumsystemen beteiligt sind, um Ihnen bei der Entscheidung zu helfen, mit wem Sie zusammenarbeiten müssen.
 
-| Vorgang                       | Wer kann die Aufgabe übernehmen?           | Zugewiesen an | Links zu diesen Inhalten |
+| Aufgabe                       | Wer kann die Aufgabe übernehmen?           | Zugewiesen an | Links zu diesem Inhalt |
 |----------------------------|----------------------------------------|-------------|-----------------------|
-| Inventar Räume            | Einrichtungen/AV-Team/IT-Projektteam |             | [Raum Inventar und Kapazitätsplanung](#room-inventory-and-capability-planning)        |
-| Plan Funktionen          | IT-Projekt Team                        |             | [Raum Inventar und Kapazitätsplanung](#room-inventory-and-capability-planning)                       |
+| Inventarräume            | Einrichtungen / AV-Team / IT-Projektteam |             | [Rauminventar und Funktionsplanung](#room-inventory-and-capability-planning)        |
+| Planen von Funktionen          | IT-Projektteam                        |             | [Rauminventar und Funktionsplanung](#room-inventory-and-capability-planning)                       |
 | Geräteauswahl           | IT-Projektteam/AV-Team              |             | [Geräteauswahl](#device-selection)                      |
 | Beschaffung                | IT-Projektteam/AV-Team              |             | [Beschaffung](#procurement)                      |
-| Website Bereitschaft             | Einrichtungen/AV-Team/IT-Projektteam |             | [Website Bereitschaft](rooms-deploy.md#site-readiness)                      |
-| Bereitschaft für den Dienst          | IT-Projekt Team                        |             | [Bereitschaft für den Dienst](rooms-deploy.md#service-readiness)                      |
-| Konfiguration              | IT-Projekt Team                        |             | [Konfiguration und Bereitstellung](rooms-deploy.md#configuration-and-deployment)                      |
-| Bereitstellung                 | Einrichtungen/AV-Team/IT-Projektteam |             | [Bereitstellungscheckliste](console.md#microsoft-teams-rooms-deployment-checklist)                      |
-| Zur Einführung                   | Einrichtungen/AV-Team/IT-Projektteam |             | [Zur Einführung](#plan-for-adoption-and-change-management)                      |
+| Websitebereitschaft             | Einrichtungen / AV-Team / IT-Projektteam |             | [Websitebereitschaft](rooms-deploy.md#site-readiness)                      |
+| Bereitschaft für den Dienst          | IT-Projektteam                        |             | [Bereitschaft für den Dienst](rooms-deploy.md#service-readiness)                      |
+| Konfiguration              | IT-Projektteam                        |             | [Konfiguration und Bereitstellung](rooms-deploy.md#configuration-and-deployment)                      |
+| Bereitstellung                 | Einrichtungen / AV-Team / IT-Projektteam |             | [Bereitstellungscheckliste](console.md#microsoft-teams-rooms-deployment-checklist)                      |
+| Einführung                   | Einrichtungen / AV-Team / IT-Projektteam |             | [Einführung](#plan-for-adoption-and-change-management)                      |
 | Wartung und Betrieb | AV-Team/IT-Projektteam              |             | [Verwaltung (Übersicht)](rooms-manage.md)                      |
 
 
-## <a name="room-inventory-and-capability-planning"></a>Raum Inventar und Kapazitätsplanung
+## <a name="room-inventory-and-capability-planning"></a>Rauminventar und Funktionsplanung
 
-Der erste Schritt besteht darin, die vorhandenen Besprechungs-und Konferenzräume Ihrer Organisation zu inventarisieren, um deren Umgebung, Raumgröße,-Layout und-Zweck zu verstehen und die Funktionen zu erkennen, die in Zukunft für jeden Raum gelten sollen, beispielsweise, welche umfangreicheren Funktionen für die Zusammenarbeit im Raum aktiviert werden. 
+Der erste Schritt besteht in der Inventarisierung der vorhandenen Besprechungs- und Konferenzräume Ihrer Organisation, um deren Umgebung, Raumgröße, Layout und Zweck zu verstehen, und die Funktionen zu ermitteln, die die einzelnen Räume in Zukunft haben sollen, z. B. welche reichhaltigere Zusammenarbeitsfunktionen im Raum aktiviert werden sollen. 
 
-Nachdem Sie eine Inventur der Geräte und Funktionen in jedem vorhandenen Raum erstellt haben, werden Ihre Anforderungen für diesen Raum in Ihre Geräteauswahl Planung eingespeist, um eine Rich-Conferencing-Lösung zu erstellen. Die für die einzelnen Räume benötigten Modalitäten (Audio, Video) sowie Raumgröße und-Zweck spielen eine wichtige Rolle bei der Entscheidung, welche Lösung für jeden Raum am besten geeignet ist. 
+Nachdem Sie eine Bestandsaufnahme der Geräte und Funktionen in jedem vorhandenen Raum erstellt haben, werden Ihre Anforderungen für diesen Raum in die Geräteauswahlplanung einfährt, um eine umfassende Konferenzlösung zu erstellen. Die für jeden Raum erforderlichen Modalitäten (Audio, Video) spielen neben der Raumgröße und dem Zweck eine wichtige Rolle bei der Entscheidung, welche Lösung für jeden Raum am besten geeignet ist. 
 
-Im Rahmen ihrer Entdeckung ist es wichtig, Raumakustik und-Layout zu bedenken. Stellen Sie beispielsweise sicher, dass die Kameraansicht nicht durch die Stühle im Raum blockiert wird. Vergewissern Sie sich, dass der Raum nicht übermäßige Echos oder laute Klimaanlagen hat und dass er genügend Strom für die Bildschirme und Microsoft Teams-Räume besitzt. Es gibt viele Faktoren, die zu berücksichtigen sind, dass Ihr Audio-visuelles (AV)-Team oder-Partner in der Lage sein wird, zu beraten. 
+Im Rahmen Ihrer Entdeckung ist es wichtig, die Raumakustik und das Layout zu berücksichtigen. Überprüfen Sie beispielsweise, ob die Stühle im Raum die Kameraansicht nicht blockieren. Stellen Sie sicher, dass der Raum nicht übermäßig echo- oder laute Klimaanlagen verfügt und dass er über ausreichende Leistung für die Bildschirme und Microsoft Teams Rooms verfügt. Es gibt viele Faktoren, die berücksichtigt werden müssen, dass Ihr audio-visuelles (AV)-Team oder Partner in der Lage sein wird, Zurate zu ziehen. 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Räume sind für diese Bereitstellung im Bereich?</li><li>Welche Websites sind im Bereich für Ihre Bereitstellung?</li><li>Wer übernimmt die Inventur des Besprechungszimmers?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Überprüfen Sie die Räume im Bereich, und definieren Sie Microsoft Teams rooms-Konfigurationen für Sie.</li></ul>|
+| ![Deplymenträume](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Überprüfen Sie die Räume im Bereich, und definieren Sie Microsoft Teams Rooms-Konfigurationen für sie.</li></ul>|
 
-_Beispiel für Besprechung/Konferenzraum Inventar_
+_Beispiel für den Bestand von Besprechungs-/Konferenzraum_
 
-| Standort  | Name des Raums | Zimmerkategorie | Anzahl der Personen  | Im Bereich? | Aktuelle Raumfunktionen       | Zukünftige Raumfunktionen     |
+| Standort  | Raumname | Raumtyp | Anzahl der Personen  | Im Bereich? | Aktuelle Raumfunktionen       | Zukünftige Raumfunktionen     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| Londoner HQ | Curie         | Mittel        | 6 &ndash; 12                  | Ja          | Freisprechtelefon                        | 1 Bildschirm, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
-| Sydney HQ | Hill          | Groß         | 12 &ndash; 16                 | Ja          | Legacy-AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
+| London HQ | Curie         | Mittel        | 6 &ndash; 12                  | Ja          | Freisprechtelefon                        | 1 Bildschirm, Audio und Video plus Präsentation<br>PSTN Access |
+| Sydney HQ | Hill          | Groß         | 12 &ndash; 16                 | Ja          | Ältere AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio und Video plus Präsentation<br>PSTN Access |
 
 ## <a name="device-selection"></a>Geräteauswahl 
 
-Bewerten Sie, welche Microsoft Teams rooms-Lösung für jeden Raum am besten geeignet ist, basierend auf den zukünftigen Funktionen, die Sie für den Raum wünschen. Entscheiden Sie, welche AV-Peripheriegeräte je nach Raumgröße und Layout am besten geeignet sind. 
+Bewerten Sie anhand der zukünftigen Funktionen, die sie für den Raum benötigen, die Microsoft Teams Rooms-Lösung, die für jeden Raum am besten geeignet ist. Entscheiden Sie, welche AV-Peripheriegeräte je nach Raumgröße und Layout am besten geeignet sind. 
 
-Anleitungen für den Typ von System und Peripheriegeräten nach Raumtyps und-Größe finden Sie im Artikel zu den [Microsoft Teams-Room-Anforderungen](requirements.md) . 
+Anleitungen zum Typ von System- und Peripheriegeräten nach Raumtyp und Größe finden Sie im [Artikel Microsoft Teams Rooms–Anforderungen.](requirements.md) 
 
-Verwenden Sie basierend auf dem von Ihnen bevorzugten Anbieter die im Artikel Requirements angegebenen Informationen, um Ihre Microsoft Teams-Räume und die unterstützte Konfiguration des Peripheriegeräts pro Raumtyps zu definieren, und verwenden Sie diese als Vorlage für Ihre Bereitstellung. 
+Verwenden Sie basierend auf dem bevorzugten Anbieter die informationen im Artikel "Anforderungen", um Ihre Microsoft Teams-Räume und die unterstützte Konfiguration von Peripheriegeräten pro Raumtyp zu definieren, und verwenden Sie diese als Vorlage für Ihre Bereitstellung. 
 
-**Pro-Tipp** : Einige Zimmertypen sind möglicherweise nicht für Ihre Bereitstellung anwendbar.
+**Pro Tipp:** Einige Raumtypen sind möglicherweise nicht für Ihre Bereitstellung anwendbar.
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Arten von Räumen sind in Ihrem Inventar für Ihre Bereitstellung im Bereich?</li><li>Welche Systeme werden für die einzelnen Zimmertypen bereitgestellt?</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Erfassung des wichtigsten operationellen Materials für die von Ihnen ausgewählten Systeme, und engagieren Sie Ihr Beschaffungsteam.</li></ul>|
+| ![Räume im Bereich](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Arten von Räumen sind in Ihrem Bestand für Ihre Bereitstellung verfügbar?</li><li>Welche Systeme werden für jeden Raumtyp bereitgestellt?</li></ul>|
+| ![Sammeln von Material](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie, wichtige Betriebsmaterialien für Ihre ausgewählten Systeme zu sammeln und Ihr Beschaffungsteam zu engagieren.</li></ul>|
 
-_Beispiel für Microsoft Teams rooms-Bereitstellungsvorlage für Ihre Organisation_
+_Beispielvorlage für die Bereitstellung von Microsoft Teams Rooms für Ihre Organisation_
 
-| **Raumtyps/-Größe** | **Anzahl der Personen**  | **Microsoft Teams rooms-System** | **Peripheriegeräte**  | **Anzeige (n)** |
+| **Raumtyp/-größe** | **Anzahl der Personen**  | **Microsoft Teams Rooms System** | **Peripheriegeräte**  | **Anzeige(en)** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| Fokus 10 ' um 9 '      | 2 &ndash; 4                   |                                  |                         |                 |
-| Klein 16 ' von 16 '     | 4 &ndash; 6                   |                                  |                         |                 |
-| Mittel 18 ' von 20 '    | 6 &ndash; 12                  |                                  |                         |                 |
-| Groß 15 ' von 32 '     | 12 &ndash; 16                 |                                  |                         |                 |
+| Fokus 10' by 9'      | 2 &ndash; 4                   |                                  |                         |                 |
+| Small 16' by 16'     | 4 &ndash; 6                   |                                  |                         |                 |
+| Medium 18' by 20'    | 6 &ndash; 12                  |                                  |                         |                 |
+| Groß 15' by 32'     | 12 &ndash; 16                 |                                  |                         |                 |
 
-**Pro-Tipp –** Jetzt ist es eine tolle Zeit, Informationen über die von Ihnen ausgewählte Microsoft Teams rooms-Lösung zu sammeln.
+**Pro-Tipp –** Jetzt ist ein guter Zeitpunkt, um Informationen über die von Ihnen ausgewählte Microsoft Teams Rooms-Lösung zu sammeln.
 
 ## <a name="procurement"></a>Beschaffung 
 
-Sie können Ihr ausgewähltes System als Bundle oder als integrierte Lösung über Geräte Partner beschaffen. Sie können auch ein Dock für Partner Geräte erwerben und ihre eigene Microsoft Teams Room-Lösung mit einem Surface pro-Gerät und vorhandenen, _unterstützten_ AV-Peripheriegeräten vorbereiten. 
+Sie können ihr ausgewähltes System als Bündel oder integrierte Lösung über Gerätepartner beschaffen. Sie können auch eine Partnergerätedockung erwerben und Ihre eigene Microsoft Teams Rooms-Lösung vorbereiten, indem Sie ein Surface Pro-Gerät und _vorhandene,_ unterstützte AV-Peripheriegeräte verwenden. 
 
-Sie können Microsoft Teams-Räume von einer Reihe von Partnern erwerben, die im [Artikel Requirements](requirements.md)aufgeführt sind. Besuchen Sie die Websites der Partner, um mehr über diese Lösungen und Beschaffungsoptionen zu erfahren. 
+Sie können Microsoft Teams Rooms von einer Reihe von Partnern erwerben, die im Artikel ["Anforderungen" aufgeführt sind.](requirements.md) Besuchen Sie die Websites der Partner, um mehr über diese Lösungen und Beschaffungsoptionen zu erfahren. 
 
-Je nach Skalierung und Vorgehensweise für die Bereitstellung entscheiden Sie möglicherweise, dass die Microsoft Teams-Räume und die unterstützten Peripheriegeräte an einen zentralen Speicherort für die Erstkonfiguration und Zuordnung geliefert werden. Dies kann ein guter Ansatz für einen stufenweisen Rollout auf vielen Websites sein. Oder Sie können die Pakete direkt an Ihre Websites senden. 
+Je nach Bereitstellungsmaßstab und -ansatz können Sie festlegen, dass die Microsoft Teams-Räume und die unterstützten Peripheriegeräte an einen zentralen Ort für die Erstkonfiguration und Zuordnung geliefert werden. Dies kann ein guter Ansatz für ein mehrstufiges Rollout auf vielen Websites sein. Oder Sie können die Pakete direkt an Ihre Websites versenden. 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Werden Sie die Komponenten direkt an eine Website oder an eine Staging-Einrichtung senden?</li><li>Wer verwaltet die Staging-Einrichtung (wenn Sie sich entscheiden, eine zu verwenden)?</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Planen von Vorgängen</li><li>Plan für Annahme und Änderungsverwaltung</li></ul>|
+| ![Versenden von Komponenten](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Werden Sie die Komponenten direkt an eine Website oder an eine Stagingeinrichtung versenden?</li><li>Wer verwaltet die Bereitstellungseinrichtung (wenn Sie eine Einrichtung verwenden)?</li></ul>|
+| ![Planen von Vorgängen](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Planen von Vorgängen.</li><li>Planen Der Einführungs- und Änderungsverwaltung.</li></ul>|
 
 ## <a name="plan-for-operations"></a>Planen von Vorgängen 
 
-Ihre Organisation muss Überwachungs-, Verwaltungs-und Verwaltungsaufgaben kontinuierlich ausführen, und es ist entscheidend, zu erkennen, wer diese Aufgaben zu einem frühen Zeitpunkt der Bereitstellung übernimmt. 
+Ihre Organisation muss Überwachungs-, Verwaltungs- und Verwaltungsaufgaben fortlaufend ausführen, und es ist wichtig zu vereinbaren, wer diese Aufgaben frühzeitig in Ihrer Bereitstellung ausführen wird. 
 
-Viele Organisationen verfügen über ein AV-Team oder einen Partner, der Ihre Konferenzräume und-Geräte verwaltet. Dieses Team sollte an einer Vereinbarung teilnehmen, wer die Microsoft Teams rooms-Geräte verwalten wird, die die Leistung überwachen und Softwareupdates und-Hotfixes bereitstellen. 
+Viele Organisationen verfügen über ein AV-Team oder einen Partner, das ihre Konferenzräume und Geräte verwaltet. Dieses Team sollte an der Zustimmung beteiligt sein, wer die Microsoft Teams Rooms-Geräte in Zukunft verwaltet, um die Leistung zu überwachen und Softwareupdates und Hotfixes bereitstellen zu können. 
 
-Berücksichtigen Sie, welche Helpdesk-Warteschlange Sie Microsoft Teams rooms֪ – Verwandte Anrufe weiterleiten, und stellen Sie dem Helpdesk-Team eine FAQ zur Verfügung, damit Sie besser verstehen können, wie Sie Microsoft Teams-Räume verwenden und welche wichtigen Schritte zur Problembehandlung durchgeführt werden können. Ein guter Ausgangspunkt für diese FAQ ist die [Benutzer Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) und [bekannte Probleme](known-issues.md).
+Überlegen Sie, an welche Helpdeskwarteschlange Sie Microsoft Teams Rooms֪-verwandte Anrufe weiterrouten, und stellen Sie dem Helpdeskteam häufig gestellte Fragen (FAQ) zur Verfügung, damit es besser verstehen kann, wie Microsoft Teams Rooms und die wichtigsten Schritte zur Problembehandlung verwendet werden können. Ein guter Ausgangspunkt für diese Häufig gestellte Fragen ist die [Benutzerhilfe und](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) [Bekannte Probleme.](known-issues.md)
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer Microsoft Teams-Räume verwalten soll.</li><li>Entscheiden Sie, welche Helpdesk-Warteschlange Microsoft Teams rooms – Verwandte Anrufe an weiterleiten soll.</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Vorbereiten des Host Kontos </li></ul>|
+| ![Manager auswählen](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer Microsoft Teams Rooms verwaltet.</li><li>Entscheiden Sie, an welche Helpdeskwarteschlange Microsoft Teams Rooms– verwandte Anrufe weiterrouten.</li></ul>|
+| ![Vorbereiten von Hostkonten](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Bereiten Sie das Hosten von Konten vor. </li></ul>|
 
 
-## <a name="plan-for-adoption-and-change-management"></a>Plan für Annahme und Änderungsverwaltung
+## <a name="plan-for-adoption-and-change-management"></a>Planen der Einführungs- und Änderungsverwaltung
 
-Microsoft Teams rooms Systems stellen Ihren Benutzern neue Funktionen zur Verfügung. Es ist wichtig, dass Sie erkennen, dass es sich um eine Änderung für Ihre Benutzer handelt, und Sie sollten sicherstellen, dass Ihre Kampagne die Vorteile erkennt, die das neue System für Ihre Benutzer hat, und die Leads, über die Sie mit ihren Teams sprechen können. 
+Microsoft Teams Rooms-Systeme bieten ihren Benutzern neue Funktionen. Es ist wichtig, dass Sie erkennen, dass dies eine Änderung für Ihre Benutzer sein wird, und Sie sollten sicherstellen, dass Ihre Kampagne die Vorteile identifiziert, die das neue System für Ihre Benutzer hat, und die wichtigsten Gesprächspunkte, die sie verwenden können, um mit ihren Teams zu diskutieren. 
 
-Planen Sie die Planung von Ereignissen und Plakat Abbrüchen auf jeder Website, um die Benutzer über die neuen Funktionen zu informieren. Sie können auch in-Room "Schnellstart Handbücher" erstellen. Sie können einen Besprechungen Champion auf jeder Website finden, der anderen helfen kann, auf dem Laufenden zu bleiben und die Geräte zu verwenden.
+Erwägen Sie die Planung von Show-and-Tell-Ereignissen und Postertropfen auf jeder Website, um Ihre Benutzer über die neuen Funktionen zu informieren. Sie können auch im Raum "Schnellstartleitfäden" erstellen. Erwägen Sie, auf jeder Website einen Besprechungsmeister zu finden, der anderen dabei helfen kann, schnell auf dem Richtigen zu sein und mit der Nutzung der Geräte zu beginnen.

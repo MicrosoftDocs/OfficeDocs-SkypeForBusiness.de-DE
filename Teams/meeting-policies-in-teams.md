@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams verwalten. Verwenden Sie Richtlinieneinstellungen, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 2b148cc619da43e4033a8c503470da3e765b7d5c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460615"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726441"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -189,12 +189,11 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet w
 
 ### <a name="allow-transcription"></a>Transkription zulassen
 
-Transkription zulassen ist eine Benutzerrichtlinie. Diese Einstellung steuert, ob die Besprechungen dieses Benutzers transkribiert werden können.
+Diese Richtlinie aktiviert die Live-Transkription. Transkription zulassen ist eine Benutzerrichtlinie. Diese Einstellung steuert, ob die Besprechung dieses bestimmten Teams transkribiert werden kann.
 
-:::image type="content" source="media/live-transcription.png" alt-text="Screenshot mit Transkriptionsoptionen":::
-Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, deren Sprache in Teams auf Englisch festgelegt ist und in der Besprechung Englisch gesprochen wird.
+![Transkriptionsoptionen in Besprechungsrichtlinien](media/live-transcription.png)
 
-Live-Transkription zeigt sprach-zu-text gesprochenen Inhalt während einer Besprechung in nahezu Echtzeit. Der Text wird neben dem Besprechungsvideo angezeigt, einschließlich des Namens des Sprechers und eines Zeitstempels. Weitere Informationen finden Sie unter [Anzeigen der Live-Transkription in einer Teams-Besprechung.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+Live trancription shows speech-to-text of spoken content during a Teams meeting in near real time. Der Text wird neben dem Besprechungsvideo angezeigt, einschließlich des Namens des Sprechers und eines Zeitstempels. Weitere Informationen finden Sie unter [Anzeigen der Live-Transkription in einer Teams-Besprechung.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
 
 Derzeit wird die Live transkription auf dem Desktopclient von Teams unterstützt. Transkription wird für gesprochenes US-Englisch unterstützt. Das Transkript ist nach der Besprechung auf dem Desktop oder im Web von Teams verfügbar.
 
@@ -202,10 +201,10 @@ Hier erfahren Sie, wie die Richtlinieneinstellungen **Transkription zulassen** u
 
 |Transkription zulassen|Cloud-Aufnahme zulassen|Verhalten|
 |---------|---------|---------|
-|**Ein**|**Ein**|Die **Option Transkription starten** ist in Besprechungen verfügbar. Der Besprechungsorganisator oder die Besprechungsteilnehmer können die Transkription starten und beenden. Die **Option Aufzeichnung starten** ist in Besprechungen verfügbar. Der Besprechungsorganisator oder die Besprechungsteilnehmer können die Aufzeichnung starten und beenden. |
-|**Ein**|**Aus**|Die **Option Transkription starten** ist in Besprechungen verfügbar. Die **Option Aufzeichnung starten** ist in Besprechungen nicht verfügbar. |
-|**Aus**|**Ein**|Die **Option Aufzeichnung starten** ist in Besprechungen verfügbar. Die **Option Transkription** starten ist in Besprechungen nicht verfügbar.|
-|**Aus**|**Aus**|Aufzeichnung und Transkription sind in Besprechungen nicht verfügbar.  |
+|**Ein**|**Ein**|Die **Option Transkription starten** ist in Teams-Besprechungen verfügbar. Der Besprechungsorganisator oder die Besprechungsteilnehmer können die Transkription starten und beenden. Die **Option Aufzeichnung starten** ist in Teams-Besprechungen verfügbar. Der Besprechungsorganisator oder die Besprechungsteilnehmer können die Aufzeichnung starten und beenden. |
+|**Ein**|**Aus**|Die **Option Transkription starten** ist in Teams-Besprechungen verfügbar. Die **Option Aufzeichnung starten** ist in Teams-Besprechungen nicht verfügbar. |
+|**Aus**|**Ein**|Die **Option Aufzeichnung starten** ist in Teams-Besprechungen verfügbar. Die **Option Transkription** starten ist in Teams-Besprechungen nicht verfügbar.|
+|**Aus**|**Aus**|Aufzeichnung und Transkription sind in Teams-Besprechungen nicht verfügbar.  |
 
 ### <a name="allow-cloud-recording"></a>Cloud-Aufnahme zulassen
 

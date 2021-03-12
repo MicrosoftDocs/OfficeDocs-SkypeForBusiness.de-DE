@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df4cc9e8c71622fd8564420b31bd5a06d7ac73b2
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 41b5a0f2a09d05ba1a55ee3fcd31ce3a9c4222b2
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395287"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726206"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Beginnen Sie mit der organisationsweiten Bereitstellung von Microsoft Teams
 
@@ -63,6 +63,6 @@ Viele Unternehmen können Microsoft Teams einfach mithilfe des [Setups für Klei
 Wenn dies auf Ihre Organisation zutrifft, müssen Sie das Microsoft Teams-Setup für Großunternehmen durchführen. Das Setup für Großunternehmen hilft Ihnen bei der Planung der Bereitstellung und bietet Empfehlungen für die Erstellung eines Einführungsprogramms, um die Nutzung von Microsoft Teams zu maximieren.
 
 > [!div class="nextstepaction"]
-> [Zum Großunternehmen-Setup wechseln](deploy-advanced.md)
+> [Zum Großunternehmen-Setup wechseln](deploy-enterprise-overview.md)
 
 ---

@@ -14,31 +14,31 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Erfahren Sie, wie Sie Microsoft Teams Rooms einrichten, einschließlich der Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
+description: Erfahren Sie, wie Sie Microsoft Teams-Räume einrichten, einschließlich der Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: b342c8081706355828e9854a46dd904d01f803e2
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 15d02a500cd1a10ed1cef8480e1a6c4f363afa2e
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196539"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726356"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
 :::row:::
     :::column span="2":::
-       Verwandeln Sie Besprechungsräume– von kleinen, zusammengeknützten Bereichen – in große Konferenzräume mit einer umfassenden Teamerfahrung für die Zusammenarbeit, die einfach zu verwenden, zu implementieren und zu verwalten ist. <br> 
+       Transformieren Sie Besprechungsräume von kleinen Umkleidebereichen bis hin zu großen Konferenzräumen mit einer umfassenden, kollaborativen Teamerfahrung, die einfach zu verwenden, zu implementieren und zu verwalten ist. <br> 
        Starten Sie Besprechungen pünktlich mit einem Klick, projizieren Sie sie dann sofort auf das Display im Raum und teilen Sie es mit Remote-Teilnehmer.<br> 
        Wählen Sie die richtige System- und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
     :::column-end:::
     :::column:::
-       ![Ein Konferenztisch mit Geräten für Microsoft Teams-Räume](../media/srs-room.jpg)
+       ![Ein Konferenztisch mit Microsoft Teams Rooms-Geräten](../media/srs-room.jpg)
     :::column-end:::
 :::row-end:::
 
 |               |               |               |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[Bereitstellen](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[Verwalten](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Bereitstellen](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Verwalten](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
