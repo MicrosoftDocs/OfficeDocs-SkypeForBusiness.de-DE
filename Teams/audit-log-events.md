@@ -12,194 +12,194 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen.
+description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 54cdaf5e5d63b7067c51b8f8428ed609bf6dad28
 ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/30/2020
 ms.locfileid: "48803453"
 ---
-# <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
+# <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Das Überwachungsprotokoll kann Ihnen bei der Untersuchung bestimmter Aktivitäten in den Microsoft 365-Diensten helfen. Für Microsoft Teams sind hier einige der Aktivitäten, die überwacht werden:
+Mithilfe des Überwachungsprotokolls können Sie bestimmte Aktivitäten in allen Microsoft 365-Diensten untersuchen. Für Microsoft Teams werden unter anderem die folgenden Aktivitäten überwacht:
 
 - Teamerstellung
 - Löschung von Teams
 - Hinzufügen von Kanälen
 - Ändern von Einstellungen
 
-Eine vollständige Liste der zu überwachenden Teams-Aktivitäten finden Sie unter [Team](#teams-activities) Aktivitäten und [Schichten in den Teamaktivitäten (in der Vorschau)](#shifts-in-teams-activities).
+Eine vollständige Liste der überwachten Microsoft Teams-Aktivitäten finden Sie unter [Microsoft Teams-Aktivitäten](#teams-activities) und ["Schichten"-Aktivitäten in Microsoft Teams (in der Vorschau)](#shifts-in-teams-activities).
 
 > [!NOTE]
-> Überwachungsereignisse von privaten Kanälen werden auch so protokolliert, wie Sie für Teams und Standardkanäle gelten.
+> Überwachungsereignisse aus privaten Kanälen werden ebenfalls protokolliert, wenn sie Teams und Standardkanäle betreffen.
 
 ## <a name="turn-on-auditing-in-teams"></a>Aktivieren der Überwachung in Microsoft Teams
 
-Bevor Sie sich die Überwachungsdaten ansehen können, müssen Sie zuerst die Überwachung im [Security & Compliance Center](https://protection.office.com)aktivieren. Wenn Sie Hilfe beim Aktivieren der Überwachung benötigen, lesen Sie [Aktivieren oder Deaktivieren der Überwachungsprotokoll Suche](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Damit Sie Überwachungsdaten untersuchen können, müssen Sie zuerst im [Security & Compliance Center](https://protection.office.com) die Überwachung aktivieren. Hilfe zum Aktivieren der Überwachung finden Sie unter [Aktivieren oder Deaktivieren der Suche im Überwachungsprotokoll](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
-> Überwachungsdaten sind nur ab dem Zeitpunkt verfügbar, an dem Sie die Überwachung aktiviert haben.
+> Überwachungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem Sie die Überwachung aktiviert haben.
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Abrufen von Microsoft Teams-Daten aus dem Überwachungsprotokoll
 
-1. Um Überwachungsprotokolle abzurufen, navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Wählen Sie unter **Suchen** die Option **Überwachungsprotokoll Suche** aus.
+1. Um Überwachungsprotokolle abzurufen, navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Wählen Sie unter **Suchen** die Option **Überwachungsprotokoll durchsuchen** aus.
 
-2. Verwenden Sie die Option **Suchen** , um nach den Aktivitäten, Datumswerten und Benutzern zu filtern, die Sie überwachen möchten.
+2. Verwenden Sie die Option **Suchen**, um nach den Aktivitäten, Datumswerten und Benutzern zu filtern, die Sie überwachen möchten.
 
 3. Exportieren Sie die Ergebnisse zur weiteren Analyse nach Excel.
 
 > [!IMPORTANT]
-> Überwachungsdaten werden nur im Überwachungsprotokoll angezeigt, wenn die Überwachung aktiviert ist.
+> Überwachungsdaten sind nur dann im Überwachungsprotokoll sichtbar, wenn die Überwachung aktiviert ist.
 
-Die Zeitdauer, in der ein Überwachungsdatensatz aufbewahrt und im Überwachungsprotokoll durchsucht werden kann, hängt von Ihrem Microsoft 365-oder Office 365-Abonnement und insbesondere von der Art der Lizenz ab, die Benutzern zugewiesen ist. Weitere Informationen finden Sie in der [Dienstbeschreibung zum Security & Compliance Center](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
+Wie lange ein Überwachungsdatensatz aufbewahrt wird (und nach ihm im Überwachungsprotokoll gesucht werden kann), hängt von Ihrem Microsoft 365- oder Office 365-Abonnement und insbesondere vom Lizenztyp ab, der Benutzern zugewiesen ist. Weitere Informationen finden Sie unter [Security & Compliance Center – Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
-## <a name="tips-for-searching-the-audit-log"></a>Tipps zum Durchsuchen des Überwachungsprotokolls
+## <a name="tips-for-searching-the-audit-log"></a>Tipps für die Suche im Überwachungsprotokoll
 
-Hier finden Sie Tipps zum Suchen nach Teams-Aktivitäten im Überwachungsprotokoll.
+Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im Überwachungsprotokoll.
 
-![Screenshot der Such Seite des Überwachungsprotokolls](media/audit-log-search-page.png)
+![Screenshot der Seite zum Durchsuchen des Überwachungsprotokolls](media/audit-log-search-page.png)
 
-- Sie können bestimmte Aktivitäten auswählen, nach denen Sie suchen möchten, indem Sie auf den Aktivitätsnamen klicken. Sie können aber auch nach allen Aktivitäten in einer Gruppe (beispielsweise **Datei-und Ordner Aktivitäten** ) suchen, indem Sie auf den Gruppennamen klicken. Wenn eine Aktivität ausgewählt ist, können Sie darauf klicken, um die Auswahl abzubrechen. Sie können auch das Suchfeld verwenden, um die Aktivitäten anzuzeigen, die das eingegebene Schlüsselwort enthalten.
+- Durch Klicken auf den Aktivitätsnamen können Sie bestimmte Aktivitäten auswählen, nach denen gesucht werden soll. Sie können auch auf den Gruppennamen klicken, um nach allen Aktivitäten in einer Gruppe (z. B. **Datei- und Ordneraktivitäten**) zu suchen. Wenn eine Aktivität ausgewählt ist, können Sie darauf klicken, um die Auswahl aufzuheben. Sie können auch das Suchfeld verwenden, um die Aktivitäten anzuzeigen, die das von Ihnen eingegebene Schlüsselwort enthalten.
 
-  ![Screenshot der Überwachungsprotokoll Suche](media/audit-log-search.png)
+  ![Screenshot der Suchfunktion für das Überwachungsprotokoll](media/audit-log-search.png)
 
-- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie **Ergebnisse für alle Aktivitäten anzeigen** in der Liste **Aktivitäten** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, suchen Sie nach allen Aktivitäten, und Filtern Sie die Ergebnisse, indem Sie den Namen des Vorgangs in das Feld in der Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, können Sie nach allen Aktivitäten suchen und die Ergebnisse dann filtern, indem Sie den Vorgangsnamen in das Feld für die Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
 
-- Wenn Sie die aktuellen Suchkriterien löschen möchten, klicken Sie auf **Löschen** . Der Datumsbereich kehrt auf den Standardwert der letzten sieben Tage zurück. Sie können auch auf **Alle löschen klicken, um die Ergebnisse für alle Aktivitäten anzuzeigen** , um alle ausgewählten Aktivitäten abzubrechen.
+- Klicken Sie auf **Auswahl aufheben**, um die aktuelle Auswahl von Suchkriterien aufzuheben. Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt. Sie können auch auf **Gesamte Auswahl aufheben, um Ergebnisse für alle Aktivitäten anzuzeigen** klicken, um die getroffene Auswahl von Aktivitäten aufzuheben.
 
-- Wenn 5.000-Ergebnisse gefunden werden, können Sie wahrscheinlich davon ausgehen, dass mehr als 5.000-Ereignisse vorhanden sind, die die Suchkriterien erfüllt haben. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzugeben, oder Sie können alle Suchergebnisse exportieren, indem Sie **Ergebnisse exportieren** ,  >  **alle Ergebnisse herunterladen** auswählen.
+- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut durchführen, damit weniger Ergebnisse zurückgegeben werden, oder Sie können alle Suchergebnisse exportieren, indem Sie **Ergebnisse exportieren**  >  **Alle Ergebnisse herunterladen** auswählen.
 
-Schauen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Audioprotokoll-Suche an. Treten Sie Ansuman Acharya, einem Programmmanager für Teams, bei, da er veranschaulicht, wie eine Überwachungsprotokoll Suche nach Teams durchführen kann.
+Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Überwachungsprotokollsuche an. Ansuman Acharya, Programm-Manager für Microsoft Teams, veranschaulicht, wie eine Überwachungsprotokollsuche für Microsoft Teams durchgeführt wird.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Verwenden der Cloud-App-Sicherheit zum Einrichten von Aktivitätsrichtlinien
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Verwenden von Cloud App Security zum Festlegen von Aktivitätsrichtlinien
 
-Mithilfe der Sicherheitsintegration der [Microsoft Cloud-App](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) können Sie [Aktivitätsrichtlinien](https://docs.microsoft.com/cloud-app-security/user-activity-policies) so einrichten, dass eine Vielzahl automatisierter Prozesse mithilfe der APIs des App-Anbieters erzwungen wird. Mit diesen Richtlinien können Sie bestimmte Aktivitäten, die von verschiedenen Benutzern durchgeführt werden, überwachen oder unerwartet höhere Raten einer bestimmten Art von Aktivität befolgen.
+Durch eine [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)-Integration können Sie [Aktivitätsrichtlinien](https://docs.microsoft.com/cloud-app-security/user-activity-policies) festlegen, um eine Vielzahl von automatisierten Prozessen mithilfe der APIs des App-Anbieters zu erzwingen. Mit diesen Richtlinien können Sie bestimmte Aktivitäten überwachen, die von verschiedenen Benutzern ausgeführt werden, oder das unerwartet häufige Auftreten einer bestimmten Aktivitätsart untersuchen.
 
-Nachdem Sie eine Richtlinie für die Aktivitätserkennung festgestellt haben, beginnt Sie mit dem Generieren von Benachrichtigungen. Benachrichtigungen werden nur für Aktivitäten generiert, die nach dem Erstellen der Richtlinie auftreten. Im folgenden finden Sie einige Beispielszenarien für die Verwendung von Aktivitätsrichtlinien in der Cloud-App-Sicherheit, um die Aktivitäten von Teams zu überwachen.
+Nachdem Sie eine Aktivitätserkennungsrichtlinie festgelegt haben, beginnt diese mit dem Generieren von Warnungen. Warnungen werden nur zu Aktivitäten generiert, die nach dem Erstellen der Richtlinie auftreten. Hier sind einige Beispielszenarien für die Verwendung von Aktivitätsrichtlinien in Cloud App Security zum Überwachen von Microsoft Teams-Aktivitäten.
 
-### <a name="external-user-scenario"></a>Szenario eines externen Benutzers
+### <a name="external-user-scenario"></a>Szenario "Externer Benutzer"
 
-Ein Szenario, auf das Sie möglicherweise im geschäftlichen Bereich achten sollten, ist das Hinzufügen externer Benutzer zu ihrer Teamumgebung. Wenn externe Benutzer aktiviert sind, ist es ratsam, deren Anwesenheit zu überwachen.  Sie können die [Cloud-App-Sicherheit](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) verwenden, um potenzielle Bedrohungen zu erkennen.
+Ein Szenario, das Sie aus geschäftlicher Sicht vielleicht im Auge behalten möchten, ist das Hinzufügen externer Benutzer zu Ihrer Microsoft Teams-Umgebung. Wenn externe Benutzer aktiviert sind, empfiehlt es sich, ihre Anwesenheit zu überwachen.  Sie können [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) zur Ermittlung von Bedrohungen verwenden.
 
-![Screenshot einer Liste von Ereignissen, die durch Massenlöschungen ausgelöst werden](media/TeamsExternalUserAddPolicy.png)
+![Screenshot einer Liste von durch Massenlöschvorgänge ausgelösten Ereignissen](media/TeamsExternalUserAddPolicy.png)
 
-Der Screenshot dieser Richtlinie zum Überwachen des Hinzufügens externer Benutzer ermöglicht Ihnen, die Richtlinie zu benennen, den Schweregrad entsprechend Ihren geschäftlichen Anforderungen festzulegen, ihn als (in diesem Fall) eine einzelne Aktivität festzulegen und dann die Parameter festzulegen, die speziell nur das Hinzufügen nicht interner Benutzer überwachen und diese Aktivität auf Teams beschränken.
+Wie im Screenshot dieser Richtlinie zum Überwachen des Hinzufügens externer Benutzer zu sehen ist, haben Sie die Möglichkeit, die Richtlinie zu benennen, den Schweregrad entsprechend den Anforderungen Ihres Unternehmens festzulegen, es (in diesem Fall) als eine einzelne Aktivität festzulegen und dann die Parameter anzugeben, die speziell das Hinzufügen von nicht internen Benutzern überwachen und diese Aktivität auf Microsoft Teams beschränken werden.
 
 Die Ergebnisse dieser Richtlinie können im Aktivitätsprotokoll angezeigt werden:
 
-![Screenshot einer Liste von Ereignissen, die durch Massenlöschungen ausgelöst werden](media/TeamsExternalUserList.png)
+![Screenshot einer Liste von durch Massenlöschvorgänge ausgelösten Ereignissen](media/TeamsExternalUserList.png)
 
-Hier können Sie die Übereinstimmungen mit der von Ihnen eingerichteten Richtlinie überprüfen und nach Bedarf Anpassungen vornehmen oder die Ergebnisse exportieren, um Sie anderweitig zu verwenden.
+Hier können Sie Übereinstimmungen mit der von Ihnen festgelegten Richtlinie überprüfen und bei Bedarf Anpassungen vornehmen oder die Ergebnisse exportieren, um sie an anderer Stelle zu verwenden.
 
-### <a name="mass-delete-scenario"></a>Massen Lösch Szenario
+### <a name="mass-delete-scenario"></a>Szenario "Massenlöschung"
 
-Wie bereits erwähnt, können Sie Lösch Szenarien überwachen. Es ist möglich, eine Richtlinie zu erstellen, die das Massenlöschen von Teams-Websites überwacht. In diesem Beispiel wird eine Warnungs basierte Richtlinie eingerichtet, um das Massenlöschen von Teams in einer Spanne von 30 Minuten zu erkennen.
+Wie weiter oben erwähnt, können Sie Löschszenarien überwachen. Es ist möglich, eine Richtlinie zu erstellen, die das Massenlöschen von Microsoft Teams-Sites überwacht. In diesem Beispiel ist eine warnungsbasierte Richtlinie so eingerichtet, dass Massenlöschungen von Teams in einem Zeitraum von 30 Minuten erkannt werden.
 
-![Screenshot der Seite "Richtlinie erstellen" mit der Einrichtung einer Richtlinie für die Löschung von Massen Teams](media/TeamsMassDeletePolicy.png)
+![Screenshot der Seite zum Erstellen von Richtlinien mit der Einrichtung einer Richtlinie für die Erkennung von Massenlöschvorgängen für Teams](media/TeamsMassDeletePolicy.png)
 
-Wie der Screenshot zeigt, können Sie für diese Richtlinie viele verschiedene Parameter festlegen, um die Löschungen von Teams zu überwachen, einschließlich Schweregrad, einzelne oder wiederholte Aktionen und Parameter, die dies auf Teams und das Löschen von Websites einschränken. Dies kann unabhängig von einer Vorlage erfolgen, oder es ist möglich, dass Sie je nach Ihren organisatorischen Anforderungen eine Vorlage erstellen, auf der diese Richtlinie basiert.
+Wie im Screenshot zu sehen ist, können Sie viele verschiedene Parameter für diese Richtlinie festlegen, um Löschungen in Microsoft Teams zu überwachen, einschließlich Schweregrad, einzelner oder wiederholter Aktion sowie Parameter, die dies auf Microsoft Teams und Sitelöschungen beschränken. Dies kann unabhängig von einer Vorlage erfolgen, Sie können aber auch eine Vorlage verwenden, auf der diese Richtlinie basieren soll, je nach den Anforderungen Ihres Unternehmens.
 
-Nachdem Sie eine Richtlinie erstellt haben, die für Ihr Unternehmen funktioniert, können Sie die Ergebnisse im Aktivitätsprotokoll überprüfen, wenn Ereignisse ausgelöst werden:
+Nach der Einrichtung einer für Ihr Unternehmen passenden Richtlinie können Sie die Ergebnisse zu ausgelösten Ereignissen im Aktivitätsprotokoll überprüfen:
 
-![Screenshot einer Liste von Ereignissen, die durch Massenlöschungen ausgelöst werden](media/TeamsMassDeleteList.png)
+![Screenshot einer Liste von durch Massenlöschvorgänge ausgelösten Ereignissen](media/TeamsMassDeleteList.png)
 
-Sie können nach unten auf die Richtlinie filtern, die Sie festgelegt haben, um die Ergebnisse dieser Richtlinie anzuzeigen. Wenn die Ergebnisse, die Sie im Aktivitätsprotokoll erhalten, nicht zufrieden stellend sind (vielleicht sehen Sie viele Ergebnisse oder gar nichts), kann dies Ihnen helfen, die Abfrage zu optimieren, damit Sie relevanter für das ist, was Sie benötigen.
+Sie können anhand der von Ihnen festgelegten Richtlinie filtern, um die Ergebnisse der Richtlinie zu sehen. Wenn Sie mit den Ergebnissen im Aktivitätsprotokoll nicht zufrieden sind (vielleicht sehen Sie eine Menge Ergebnisse, oder gar nichts), kann dies Ihnen dabei helfen, die Abfrage zu verfeinern, damit sie für Ihre Zwecke relevanter wird.
 
-### <a name="alert-and-governance-scenario"></a>Benachrichtigungs-und Governance-Szenario
+### <a name="alert-and-governance-scenario"></a>Szenario "Warnungen und Governance"
 
-Sie können Benachrichtigungen festlegen und e-Mails an Administratoren und andere Benutzer senden, wenn eine Aktivitätsrichtlinie ausgelöst wird. Sie können automatisierte Governance-Aktionen wie das Sperren eines Benutzers oder die automatische Anmeldung eines Benutzers einrichten. Dieses Beispiel zeigt, wie ein Benutzerkonto angehalten werden kann, wenn eine Aktivitätsrichtlinie ausgelöst wird, und bestimmt, dass ein Benutzer zwei oder mehr Teams in 30 Minuten gelöscht hat.
+Sie können Warnungen und das Senden von E-Mails an Administratoren und andere Benutzer einrichten, wenn eine Aktivitätsrichtlinie ausgelöst wird. Sie können automatisierte Governanceaktionen festlegen, z. B. das vorübergehende Sperren eines Benutzers oder das automatisierte Auffordern zur erneuten Anmeldung für einen Benutzer. Dieses Beispiel zeigt, wie ein Benutzerkonto vorübergehend gesperrt werden kann, wenn eine Aktivitätsrichtlinie ausgelöst und ermittelt wird, dass ein Benutzer zwei oder mehr Teams in 30 Minuten gelöscht hat.
 
-![Screenshot von Benachrichtigungs-und Governance-Aktionen für eine Aktivitätsrichtlinie](media/audit-log-governance.png)
+![Screenshot der Warnungen und Governanceaktionen für eine Aktivitätsrichtlinie](media/audit-log-governance.png)
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Verwenden der Cloud-App-Sicherheit zum Einrichten von Erkennungsrichtlinien für Anomalien
+## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Erstellen von Anomalieerkennungsrichtlinien in Cloud App Security
 
-[Anomalie-Erkennungsrichtlinien](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in der Cloud-App-Sicherheit bieten integrierte Benutzer-und Entitäts Verhaltensanalysen (UEBA) und Maschinelles Lernen (ml), damit Sie eine erweiterte Bedrohungserkennung über Ihre Cloud-Umgebung sofort ausführen können. Da Sie automatisch aktiviert werden, bieten die neuen Erkennungsrichtlinien für Anomalien unmittelbare Ergebnisse, indem Sie sofortige Erkennungen bereitstellen, die auf zahlreiche Verhaltensanomalien für Ihre Benutzer und die mit Ihrem Netzwerk verbundenen Computer und Geräte abzielen. Darüber hinaus machen die neuen Richtlinien mehr Daten aus dem Sicherheits Erkennungsmodul für die Cloud-app verfügbar, damit Sie den Ermittlungsprozess beschleunigen und permanente Bedrohungen enthalten können.
+[Anomalieerkennungsrichtlinien](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in Cloud App Security bieten sofort einsetzbare Benutzer- und Entitätsverhaltensanalyse (User and Entity Behavioral Analytics, UEBA) und maschinelles Lernen (ML), sodass Sie unmittelbar eine erweiterte Bedrohungserkennung in Ihrer Cloudumgebung ausführen können. Da sie automatisch aktiviert werden, bieten die neuen Anomalieerkennungsrichtlinien sofortige Ergebnisse durch sofortige Erkennung, indem sie zahlreiche Verhaltensanomalien bei allen Benutzer sowie den mit Ihrem Netzwerk verbundenen Computern und Geräten berücksichtigen. Darüber hinaus werden über die neuen Richtlinien mehr Daten aus dem Cloud App Security Detection-Modul verfügbar, um Ihnen dabei zu helfen, den Untersuchungsprozess zu beschleunigen und aktuelle Bedrohungen einzudämmen.
 
-Wir arbeiten daran, Teams-Ereignisse in Anomalie-Erkennungsrichtlinien zu integrieren. Im Moment können Sie Anomalie-Erkennungsrichtlinien für andere Office-Produkte einrichten und Aktionen für Benutzer ergreifen, die diesen Richtlinien entsprechen.
+Wir arbeiten an der Einbindung von Microsoft Teams-Ereignissen in Anomalieerkennungsrichtlinien. Derzeit können Sie Anomalieerkennungsrichtlinien für andere Office-Produkte einrichten und Maßnahmen für Benutzer festlegen, die diesen Richtlinien übereinstimmen.
 
-## <a name="teams-activities"></a>Teams-Aktivitäten
+## <a name="teams-activities"></a>Microsoft Teams-Aktivitäten
 
-Im folgenden finden Sie eine Liste aller Ereignisse, die für Benutzer-und Administratoraktivitäten in Teams im Microsoft 365-Überwachungsprotokoll protokolliert werden. Die Tabelle enthält den Anzeigenamen, der in der Spalte " **Aktivitäten** " angezeigt wird, und den Namen des entsprechenden Vorgangs, der in den detaillierten Informationen zu einem Überwachungsdatensatz und in der CSV-Datei angezeigt wird, wenn Sie die Suchergebnisse exportieren.
+Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer- und Administratoraktivitäten in Microsoft Teams im Microsoft 365-Überwachungsprotokoll erfasst werden. Die Tabelle enthält den Anzeigenamen, der in der Spalte **Aktivitäten** angezeigt wird, sowie den Namen des zugehörigen Vorgangs, der in den Detailinformationen eines Überwachungsdatensatzes und in der CSV-Datei aufscheint, wenn Sie Ihre Suchergebnisse exportieren.
 
 |Anzeigename  |Vorgang|Beschreibung |
 |---------|---------|---------|
-|Bot zum Team hinzugefügt   |BotAddedToTeam        |Ein Benutzer fügt einen bot zu einem Team hinzu.        |
-|Hinzufügen von Kanälen   |ChannelAdded         |Ein Benutzer fügt einem Team einen Kanal hinzu.         |
-|Connector hinzugefügt  |ConnectorAdded          |Ein Benutzer fügt einen Verbinder zu einem Kanal hinzu.        |
-|Mitglieder hinzugefügt    |MemberAdded         |Ein Teambesitzer fügt Mitglieder zu einem Team-, Kanal-oder Gruppen-Chat hinzu.         |
+|Bot zum Team hinzugefügt   |BotAddedToTeam        |Ein Benutzer fügt einem Team einen Bot hinzu.        |
+|Kanal hinzugefügt   |ChannelAdded         |Ein Benutzer fügt einem Team einen Kanal hinzu.         |
+|Connector hinzugefügt  |ConnectorAdded          |Ein Benutzer fügt einen Connector zu einem Kanal hinzu.        |
+|Hinzugefügte Mitglieder    |MemberAdded         |Ein Teambesitzer fügt Mitglieder zu einem Team-, Kanal- oder Gruppenchat hinzu.         |
 |Registerkarte hinzugefügt    |TabAdded         |Ein Benutzer fügt einem Kanal eine Registerkarte hinzu.        |
-|Kanaleinstellung geändert    |ChannelSettingChanged         |Der ChannelSettingChanged-Vorgang wird protokolliert, wenn die folgenden Aktivitäten von einem Teammitglied ausgeführt werden. Für jede dieser Aktivitäten wird eine Beschreibung der geänderten Einstellung (in Klammern angezeigt) in der Spalte **Element** in den Suchergebnissen des Überwachungsprotokolls angezeigt. <ul><li>Ändert den Namen eines Team Kanals ( **Kanalname** ).</li><li>Ändert die Beschreibung eines Team Kanals ( **Kanalbeschreibung** ).</li> </ul>      |
-|Organisations Einstellung geändert   |TeamsTenantSettingChanged         |Der TeamsTenantSettingChanged-Vorgang wird protokolliert, wenn die folgenden Aktivitäten von einem globalen Administrator im Microsoft 365 Admin Center ausgeführt werden. Diese Aktivitäten wirken sich auf organisationsweite Teams-Einstellungen aus. Weitere Informationen finden Sie unter [Verwalten von Teams-Einstellungen für Ihre Organisation](enable-features-office-365.md). <br>Für jede dieser Aktivitäten wird in den Suchergebnissen des Überwachungsprotokolls in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern angezeigt) angezeigt.<ul><li>Aktiviert oder deaktiviert Teams für die Organisation ( **Microsoft Teams** ).</li><li>Aktiviert oder deaktiviert die Interoperabilität zwischen Microsoft Teams und Skype for Business für die Organisation ( **Interoperabilität von Skype for Business** ).</li><li>Aktiviert oder deaktiviert die organigrammansicht in Microsoft Teams-Clients ( **organigrammansicht** ).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, private Besprechungen zu planen ( **private Besprechung planen** ).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Kanal Besprechungen zu planen ( **Kanal Besprechung planen** ).</li><li>Aktiviert oder deaktiviert Videoanrufe in Teambesprechungen ( **Video für Skype-Besprechungen** ).</li><li>Aktiviert oder deaktiviert die Bildschirmfreigabe in Microsoft Teams-Meetups für die Organisation ( **Bildschirmfreigabe für Skype-Besprechungen** ).</li><li>Aktiviert oder deaktiviert die Möglichkeit, animierte Bilder (so genannte Giphys) zu Team Unterhaltungen hinzuzufügen ( **animierte Bilder** ).</li><li>Ändert die Inhalts Bewertungseinstellung für die Organisation ( **Inhaltsbewertung** ). Die Inhaltsbewertung schränkt den Typ des animierten Bilds ein, das in Konversationen angezeigt werden kann.</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, anpassbare Bilder (so genannte benutzerdefinierte Memes) aus dem Internet zu Team Unterhaltungen hinzuzufügen ( **anpassbare Bilder aus dem Internet** ).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, bearbeitbare Bilder (so genannte Aufkleber) zu Team Unterhaltungen hinzuzufügen ( **bearbeitbare Bilder** ).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Bots in Microsoft Teams-Chats und-Kanälen zu verwenden ( **organisationsweite Bots)** .</li><li>Aktiviert bestimmte Bots für Microsoft Teams. Dazu gehört nicht der t-bot, der für Teams Hilfe bot verfügbar ist, wenn Bots für die Organisation aktiviert sind ( **einzelne Bots** ).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Erweiterungen oder Registerkarten ( **Erweiterungen oder Registerkarten** ) hinzuzufügen.</li><li>Aktiviert oder deaktiviert das Seiten Laden von proprietären Bots für Microsoft Teams ( **Seiten Laden von Bots** ).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Benutzer, e-Mail-Nachrichten an einen Microsoft Teams-Kanal zu senden ( **Kanal-e-Mail** ).</li></ul>|
-|Rolle von Mitgliedern im Team geändert    |MemberRoleChanged         |Ein Teambesitzer ändert die Rolle von Mitgliedern in einem Team. Die folgenden Werte geben den dem Benutzer zugewiesenen Rollentyp an. <br><br>**1** – gibt die Mitglieder Rolle an.<br>**2** – gibt die Rolle des Besitzers an.<br>**3** – gibt die Gastrolle an.<br><br>Die Members-Eigenschaft enthält auch den Namen Ihrer Organisation und die e-Mail-Adresse des Mitglieds.        |
-|Einstellung des Teams geändert    |TeamSettingChanged        |Der TeamSettingChanged-Vorgang wird protokolliert, wenn die folgenden Aktivitäten von einem Teambesitzer ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen des Überwachungsprotokolls in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern angezeigt) angezeigt.<ul><li>Ändert den Zugriffstyp für ein Team. Teams können als "Privat" oder "öffentlich" ( **Team Zugriffstyp** ) eingerichtet werden. Wenn ein Team privat ist (die Standardeinstellung), können Benutzer nur durch Einladung auf das Team zugreifen. Wenn ein Team öffentlich ist, kann es von jedem erkannt werden.</li><li>Ändert die Informationsklassifizierung eines Teams ( **Team Klassifizierung** ). Beispielsweise können Team Daten als Auswirkungen auf den Geschäftserfolg, mittelständische Unternehmen oder geringe geschäftliche Auswirkungen klassifiziert werden.</li><li>Ändert den Namen eines Teams ( **Teamname** ).</li><li>Ändert die Team Beschreibung ( **Team Beschreibung** ).</li><li>Änderungen, die an den Team Einstellungen vorgenommen wurden. Um auf diese Einstellungen zuzugreifen, kann ein Teambesitzer mit der rechten Maustaste auf ein Team klicken, **Team verwalten** auswählen und dann auf die Registerkarte **Einstellungen** klicken. Bei diesen Aktivitäten wird der Name der geänderten Einstellung in der Spalte **Element** in den Suchergebnissen des Überwachungsprotokolls angezeigt.</li></ul>         |
+|Kanaleinstellung geändert    |ChannelSettingChanged         |Der Vorgang "ChannelSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teammitglied ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt. <ul><li>Ändert den Namen eines Teamkanals (**Kanalname**).</li><li>Ändert die Beschreibung eines Teamkanals (**Kanalbeschreibung**).</li> </ul>      |
+|Organisationseinstellung geändert   |TeamsTenantSettingChanged         |Der Vorgang "TeamsTenantSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem globalen Administrator im Microsoft 365 Admin Center ausgeführt werden. Diese Aktivitäten wirken sich organisationsweit auf Microsoft Teams-Einstellungen aus. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md). <br>Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Aktiviert bzw. deaktiviert Microsoft Teams für die Organisation (**Microsoft Teams**).</li><li>Aktiviert bzw. deaktiviert die Interoperabilität zwischen Microsoft Teams und Skype for Business für die Organisation (**Skype for Business-Interoperabilität**).</li><li>Aktiviert oder deaktiviert die Organigrammansicht in Microsoft Teams-Clients (**Organigrammansicht**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, private Besprechungen zu planen (**Private Besprechung planen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Kanalbesprechungen zu planen (**Kanalbesprechung planen**).</li><li>Aktiviert oder deaktiviert Videoanrufe in Microsoft Teams-Besprechungen (**Video für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Bildschirmfreigabe in Microsoft Teams-Meetups für die Organisation (**Bildschirmfreigabe für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit, animierte Bilder (so genannte Giphys) zu Microsoft Teams-Unterhaltungen hinzuzufügen (**Animierte Bilder**).</li><li>Ändert die Inhaltsbewertungseinstellung für die Organisation (**Inhaltsbewertung**). Die Inhaltsbewertung beschränkt, welche Arten animierter Bilder in Unterhaltungen angezeigt werden können.</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, anpassbare Bilder (so genannte benutzerdefinierte Memes) aus dem Internet in Teamunterhaltungen hinzuzufügen (**Anpassbare Bilder aus dem Internet**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, bearbeitbare Bilder (so genannte Aufkleber) zu Teamunterhaltungen hinzuzufügen (**Bearbeitbare Bilder**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Bots in Microsoft Teams-Chats und -Kanälen zu verwenden (**Organisationsweite Bots**).</li><li>Aktiviert bestimmte Bots für Microsoft Teams. Davon ausgenommen ist der Microsoft Teams-Hilfebot „T-Bot“, der verfügbar ist, wenn Bots für die Organisation aktiviert sind (**Einzelne Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Erweiterungen oder Registerkarten hinzuzufügen (**Erweiterungen oder Registerkarten**).</li><li>Aktiviert oder deaktiviert das Querladen proprietärer Bots für Microsoft Teams (**Querladen von Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Benutzer, E-Mail-Nachrichten an einen Microsoft Teams-Kanal zu senden (**Kanal-E-Mail**).</li></ul>|
+|Hat die Rolle von Mitgliedern im Team geändert    |MemberRoleChanged         |Ein Teambesitzer ändert die Rolle von Mitgliedern in einem Team. Die folgenden Werte geben den Rollentyp an, der dem Benutzer zugewiesen wurde. <br><br>**1**: Gibt die Mitgliedsrolle an.<br>**2**: Gibt die Besitzerrolle an.<br>**3**: Gibt die Gastrolle an.<br><br>Die Eigenschaft „Mitglied“ umfasst auch den Namen Ihrer Organisation und die E-Mail-Adresse des Mitglieds.        |
+|Teameinstellung geändert    |TeamSettingChanged        |Der Vorgang "TeamSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teambesitzer ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Ändert die Art des Zugriffs für ein Team. Teams können als „Privat“ oder „Öffentlich" festgelegt werden (**Art des Teamzugriffs**). Wenn ein Team privat ist (Standardeinstellung), können Benutzer nur nach Einladung darauf zugreifen. Wenn ein Team öffentlich ist, kann es von allen Benutzern gefunden werden.</li><li>Ändert die Informationsklassifizierung eines Teams (**Teamklassifizierung**). Teamdaten können beispielsweise als mit hohen, mittleren oder niedrigen geschäftlichen Auswirkungen klassifiziert werden.</li><li>Ändert den Namen eines Teams (**Teamname**).</li><li>Ändert die Beschreibung eines Teams (**Teambeschreibung**).</li><li>Es wurden Änderungen an den Teameinstellungen vorgenommen. Ein Teambesitzer kann auf diese Einstellungen zugreifen, indem er mit der rechten Maustaste auf ein Team klickt, anschließend auf **Team verwalten** klickt und dann die Registerkarte **Einstellungen** auswählt. Für solche Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** der Name der geänderten Einstellung angezeigt.</li></ul>         |
 |Team erstellt    |TeamCreated         |Ein Benutzer erstellt ein Team.         |
-|Alle Organisations-apps gelöscht|DeletedAllOrganizationApps           |Alle Organisations-Apps aus dem Katalog gelöscht.     |
-|Gelöschte App |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
-|Gelöschter Kanal     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
+|Alle Organisations-Apps gelöscht|DeletedAllOrganizationApps           |Alle Organisations-Apps wurden aus dem Katalog gelöscht.     |
+|App gelöscht |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
+|Kanal gelöscht     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
-|Installierte App |AppInstalled         |Eine App wurde installiert.   |
-|Aktion auf Karte durchgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat auf einer adaptiven Karte gehandelt. Adaptive Karten werden in der Regel von Bots verwendet, um die reichhaltige Anzeige von Informationen und Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Im Überwachungsprotokoll stehen nur Inline Eingabeaktionen auf einer adaptiven Karte in einem Chat zur Verfügung. Wenn ein Benutzer beispielsweise eine Umfrageantwort in einer Kanal Unterhaltung über eine Adaptive Karte sendet, die von einem Umfrage-bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", mit denen ein Dialogfeld geöffnet wird, oder Benutzeraktionen innerhalb von Dialogfeldern stehen im Überwachungsprotokoll nicht zur Verfügung.|
-|Veröffentlichte App |AppPublishedToCatalog           |Dem Katalog wurde eine app hinzugefügt.     |
-|Bot aus dem Team entfernt   |BotRemovedFromTeam         |Ein Benutzer entfernt einen bot aus einem Team.       |
+|App installiert |AppInstalled         |Eine App wurde installiert.   |
+|Aktion auf Karte ausgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat eine Aktion auf einer adaptiven Karte ausgeführt. Adaptive Karten werden in der Regel von Bots verwendet, um die Anzeige umfassender Informationen und die Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Nur Inline-Eingabeaktionen auf einer adaptiven Karte innerhalb eines Chats sind im Überwachungsprotokoll verfügbar. Beispielsweise wenn ein Benutzer eine Antwort zu einer Umfrage in einer Kanalunterhaltung über eine adaptive Karte übermittelt, die von einem Umfrage-Bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", wodurch ein Dialogfeld geöffnet wird, oder Benutzeraktionen in Dialogfeldern sind im Überwachungsprotokoll nicht verfügbar.|
+|App veröffentlicht |AppPublishedToCatalog           |Dem Katalog wurde eine App hinzugefügt.     |
+|Bot aus Team entfernt   |BotRemovedFromTeam         |Ein Benutzer entfernt einen Bot aus einem Team.       |
 |Connector entfernt     |ConnectorRemoved         |Ein Benutzer entfernt einen Connector aus einem Kanal.         |
-|Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal-oder Gruppen-Chat.         |
+|Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.         |
 |Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
-|Deinstallierte App |AppUninstalled           |Eine App wurde deinstalliert.     |
-|Aktualisierte APP |AppUpdatedInCatalog           |Eine App wurde im Katalog aktualisiert.     |
-|Connector aktualisiert    |ConnectorUpdated         |Ein Benutzer hat einen Verbinder in einem Kanal geändert.         |
-|Registerkarte "aktualisiert"   |TabUpdated         |Ein Benutzer hat eine Registerkarte in einem Kanal geändert.         |
-|Aktualisierte APP |AppUpgraded           |Eine App wurde im Katalog auf die neueste Version aktualisiert.     |
-|Benutzer, der bei Teams angemeldet ist     |TeamsSessionStarted         |Ein Benutzer meldet sich bei einem Microsoft Teams-Client an. Dieses Ereignis erfasst keine Token-Aktualisierungsaktivitäten.         |
+|App deinstalliert |AppUninstalled           |Eine App wurde deinstalliert.     |
+|App aktualisiert |AppUpdatedInCatalog           |Eine App wurde im Katalog aktualisiert.     |
+|Connector aktualisiert    |ConnectorUpdated         |Ein Benutzer hat in einem Kanal einen Connector geändert.         |
+|Registerkarte aktualisiert   |TabUpdated         |Ein Benutzer hat in einem Kanal eine Registerkarte geändert.         |
+|App-Upgrade |AppUpgraded           |Für eine App wurde ein Upgrade auf die neueste Version im Katalog durchgeführt.     |
+|Benutzer bei Teams angemeldet     |TeamsSessionStarted         |Ein Benutzer meldet sich bei einem Microsoft Teams-Client an. Dieses Ereignis erfasst keine Tokenaktualisierungsaktivitäten.         |
 
-## <a name="shifts-in-teams-activities"></a>Schichten in den Teamaktivitäten
+## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 
 **(in der Vorschau)**
 
-Wenn Ihre Organisation die app "Schichten" in Teams verwendet, können Sie das Überwachungsprotokoll nach Aktivitäten durchsuchen, die sich auf die Schicht-App beziehen. Im folgenden finden Sie eine Liste aller Ereignisse, die für schichtaktivitäten in Teams im Microsoft 365-Überwachungsprotokoll protokolliert werden.
+Wenn Ihre Organisation die App "Schichten" in Microsoft Teams verwendet, können Sie das Überwachungsprotokoll nach Aktivitäten im Zusammenhang mit der "Schichten"-App durchsuchen. Nachstehend finden Sie eine Liste aller Ereignisse, die im Zusammenhang mit "Schichten"-Aktivitäten in Microsoft Teams im Microsoft 365-Überwachungsprotokoll erfasst werden.
 
 |Anzeigename  |Vorgang  |Beschreibung  |
 |---------|---------|---------|
-|Gruppe ' Terminplanung hinzugefügt ' |ScheduleGroupAdded          |Ein Benutzer fügt dem Terminplan erfolgreich eine neue Planungsgruppe hinzu.|
-|Gruppe ' bearbeitete Planung '     |ScheduleGroupEdited         |Ein Benutzer bearbeitet eine Planungsgruppe erfolgreich.          |
-|Gruppe "gelöschte Planung"         |ScheduleGroupDeleted              |Ein Benutzer löscht eine Planungsgruppe erfolgreich aus dem Terminplan.|
-|Zeitplan zurückgezogen |ScheduleWithdrawn              |Ein Benutzer hat erfolgreich einen veröffentlichten Zeitplan zurückgezogen.|
-|Schicht hinzugefügt      |ShiftAdded          |Ein Benutzer fügt erfolgreich eine Schicht hinzu.           |
-|Bearbeitete Schicht       |ShiftEdited       |Ein Benutzer bearbeitet eine Schicht erfolgreich.        |
-|Gelöschte Schicht          |ShiftDeleted          | Ein Benutzer löscht eine Schicht erfolgreich.               |
-|Hinzugefügte Arbeitszeit      |TimeOffAdded          |Ein Benutzer fügt dem Terminplan erfolgreich Zeit aus.          |
-|Bearbeitete arbeitsfreie Zeit         |TimeOffEdited           |Ein Benutzer bearbeitet die freie Zeit erfolgreich.          |
-|Gelöschte Zeit aus     |TimeOffDeleted              |Ein Benutzer löscht die Arbeitszeit erfolgreich.           |
-|Geöffnete Schicht hinzugefügt     |OpenShiftAdded          |Ein Benutzer fügt erfolgreich eine offene Schicht zu einer Planungsgruppe hinzu.          |
-|Geöffnete Umschalttaste bearbeitet    |OpenShiftEdited          |Ein Benutzer bearbeitet eine geöffnete Schicht in einer Planungsgruppe erfolgreich.          |
-|Geöffnete UMSCHALTTASTE gelöscht      |OpenShiftDeleted          |Ein Benutzer löscht eine geöffnete Schicht aus einer Planungsgruppe erfolgreich.         |
-|Freigegebener Zeitplan     |ScheduleShared                  |Ein Benutzer hat erfolgreich einen Team Zeitplan für einen Datumsbereich freigegeben.          |
-|Uhr mit Zeitstempel         |ClockedIn          |Ein Benutzer hat mit der Uhrzeit Uhr erfolgreich Uhren.          |
-|Getaktet mit Zeitstempel      |ClockedOut          |Ein Benutzer hat mit der Zeitschaltuhr erfolgreich ausgetaktt.          |
-|Unterbrechungs Beginn mit Zeitstempel      |BreakStarted          |Ein Benutzer startet während einer aktiven Zeit Takt Sitzung erfolgreich eine Unterbrechung.          |
-|Pause mit Zeitstempel beendet    |BreakEnded          |Ein Benutzer beendet während einer aktiven Zeit Takt Sitzung erfolgreich eine Unterbrechung.          |
-|Zeitstempel Eintrag hinzugefügt     |TimeClockEntryAdded          |Ein Benutzer fügt erfolgreich einen neuen manuellen Zeitstempel Eintrag auf der Arbeitszeittabelle hinzu.          |
-|Zeit Takt Eintrag bearbeitet     | TimeClockEntryEdited             |Ein Benutzer bearbeitet erfolgreich eine Zeit Takt Eingabe auf dem Arbeitszeittabellen.          |
-|Uhrzeit Eintrag für gelöschte Zeit    |TimeClockEntryDeleted              |Ein Benutzer löscht einen Uhrzeit Eintrag erfolgreich auf der Arbeitszeittabelle.          |
-|Schicht Anforderung hinzugefügt         |RequestAdded              |Ein Benutzer hat eine Schicht Anforderung hinzugefügt.          |
-|Reaktion auf Schicht Anforderung     |RequestRespondedTo                  |Ein Benutzer hat auf eine Schicht Anforderung geantwortet.          |
-|Abgebrochene Schicht Anforderung         |RequestCancelled               |Ein Benutzer hat eine Schicht Anforderung abgebrochen.          |
-|Einstellung ' Zeitplan geändert '      |ScheduleSettingChanged          |Ein Benutzer ändert eine Einstellung in den Schichten Einstellungen.         |
-|Integration von Arbeitskräften hinzugefügt      |WorkforceIntegrationAdded                  | Die Schicht-APP ist in ein Drittanbietersystem integriert.         |
-|Off-Shift-Nachricht angenommen         |OffShiftDialogAccepted          |Ein Benutzer bestätigt die Off-Shift-Nachricht für den Zugriff auf Teams nach Schicht Stunden.           |
+|Terminplanungsgruppe hinzugefügt |ScheduleGroupAdded          |Ein Benutzer fügt dem Terminplan eine neue Terminplanungsgruppe hinzu.|
+|Terminplanungsgruppe bearbeitet     |ScheduleGroupEdited         |Ein Benutzer hat eine Terminplanungsgruppe bearbeitet.          |
+|Terminplanungsgruppe gelöscht         |ScheduleGroupDeleted              |Ein Benutzer hat eine Terminplanungsgruppe aus dem Terminplan gelöscht.|
+|Zeitplan zurückgezogen |ScheduleWithdrawn              |Ein Benutzer hat einen veröffentlichten Zeitplan zurückgezogen.|
+|Schicht hinzugefügt      |ShiftAdded          |Ein Benutzer hat eine Schicht hinzugefügt.           |
+|Schicht bearbeitet       |ShiftEdited       |Ein Benutzer hat eine Schicht bearbeitet.        |
+|Schicht gelöscht          |ShiftDeleted          | Ein Benutzer hat eine Schicht gelöscht.               |
+|Arbeitsfreie Zeit hinzugefügt      |TimeOffAdded          |Ein Benutzer hat im Terminplan arbeitsfreie Zeit hinzugefügt.          |
+|Arbeitsfreie Zeit bearbeitet         |TimeOffEdited           |Ein Benutzer hat arbeitsfreie Zeit bearbeitet.          |
+|Arbeitsfreie Zeit gelöscht     |TimeOffDeleted              |Ein Benutzer hat arbeitsfreie Zeit gelöscht.           |
+|Offene Schicht hinzugefügt     |OpenShiftAdded          |Ein Benutzer hat einer Terminplanungsgruppe eine offene Schicht hinzugefügt.          |
+|Offene Schicht bearbeitet    |OpenShiftEdited          |Ein Benutzer hat eine offene Schicht in einer Terminplanungsgruppe bearbeitet.          |
+|Offene Schicht gelöscht      |OpenShiftDeleted          |Ein Benutzer hat eine offene Schicht aus einer Terminplanungsgruppe gelöscht.         |
+|Zeitplan freigegeben     |ScheduleShared                  |Ein Benutzer hat einen Teamzeitplan für einen Datumsbereich freigegeben.          |
+|Mit Stechuhr eingestempelt         |ClockedIn          |Ein Benutzer stempelt über die Stechuhr ein.          |
+|Mit Stechuhr ausgestempelt      |ClockedOut          |Ein Benutzer stempelt über die Stechuhr aus.          |
+|Mit Stechuhr Pause begonnen      |BreakStarted          |Ein Benutzer beginnt während einer aktiven Stechuhrsitzung eine Pause.          |
+|Mit Stechuhr Pause beendet    |BreakEnded          |Ein Benutzer beendet eine Pause während einer aktiven Zeituhrsitzung.          |
+|Stechuhreintrag hinzugefügt     |TimeClockEntryAdded          |Ein Benutzer fügt in der Arbeitszeittabelle manuell einen neuen Stechuhreintrag hinzu.          |
+|Stechuhreintrag bearbeitet     | TimeClockEntryEdited             |Ein Benutzer hat einen Stechuhreintrag in der Arbeitszeittabelle bearbeitet.          |
+|Stechuhreintrag gelöscht    |TimeClockEntryDeleted              |Ein Benutzer hat einen Stechuhreintrag in der Arbeitszeittabelle gelöscht.          |
+|Schichtanfrage hinzugefügt         |RequestAdded              |Ein Benutzer hat eine Schichtanfrage hinzugefügt.          |
+|Auf Schichtanfrage geantwortet     |RequestRespondedTo                  |Ein Benutzer hat auf eine Schichtanfrage geantwortet.          |
+|Schichtanfrage storniert         |RequestCancelled               |Ein Benutzer hat eine Schichtanfrage storniert.          |
+|Zeitplaneinstellung geändert      |ScheduleSettingChanged          |Ein Benutzer hat eine Einstellung in den "Schichten"-Einstellungen geändert.         |
+|Mitarbeiterintegration hinzugefügt      |WorkforceIntegrationAdded                  | Die "Schichten"-App wird in ein Drittanbietersystem eingebunden.         |
+|"Außerhalb der Schicht"-Nachricht angenommen         |OffShiftDialogAccepted          |Ein Benutzer nimmt die "Außerhalb der Schicht"-Nachricht an, um außerhalb von Schichtzeiten auf Microsoft Teams zuzugreifen.           |
 
-## <a name="office-365-management-activity-api"></a>Office 365-Verwaltungs Aktivitäts-API
+## <a name="office-365-management-activity-api"></a>Office 365-Verwaltungsaktivitäten-API
 
-Sie können die Office 365-Verwaltungs Aktivitäts-API verwenden, um Informationen zu Teams-Ereignissen abzurufen. Weitere Informationen zum API-Schema für Verwaltungsaktivitäten für Teams finden Sie unter [Teams-Schema](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
+Sie können die Office 365-Verwaltungsaktivitäten-API verwenden, um Informationen zu Microsoft Teams-Ereignissen abzurufen. Weitere Informationen zum Verwaltungsaktivitäten-API-Schema für Microsoft Teams finden Sie unter [Microsoft Teams-Schema-](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
-## <a name="attribution-in-teams-audit-logs"></a>Zuordnung in Teams-Überwachungsprotokollen
+## <a name="attribution-in-teams-audit-logs"></a>Zuordnungen in Microsoft Teams-Überwachungsprotokollen
 
-Mitgliedschaftsänderungen an Teams (wie Benutzer, die hinzugefügt oder gelöscht wurden), die über Azure Active Directory (Azure AD), Microsoft 365 Admin Portal oder Microsoft 365 Groups Graph API durchgeführt werden, werden in Teams Überwachungs Nachrichten und im allgemeinen Kanal mit einer Zuordnung zu einem vorhandenen Besitzer des Teams und nicht dem eigentlichen Initiator der Aktion angezeigt. Konsultieren Sie in diesen Szenarien Azure AD-oder [Microsoft 365-Gruppen Überwachungsprotokolle](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) , um die relevanten Informationen anzuzeigen.
+Mitgliedschaftsänderungen in Microsoft Teams (z. B. hinzugefügte oder gelöschte Benutzer), im Microsoft 365-Administratorportal oder der Microsoft 365 Groups Graph-API werden in Microsoft Teams-Überwachungsnachrichten und im Kanal "Allgemein" einem bestehenden Besitzer des Teams und nicht dem eigentlichen Ausführenden der Aktion zugeordnet. Informationen zu diesen Szenarien finden Sie in Azure AD oder [Microsoft 365-Gruppenüberwachungsprotokollen](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
