@@ -11,7 +11,7 @@ metadata:
   ms.date: 06/16/2020
   ms.openlocfilehash: 3a6ca55dfcc94f1370043e2fbb743b10473d106a
   ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: de-DE
   ms.lasthandoff: 03/05/2021
   ms.locfileid: "50507998"
@@ -30,31 +30,31 @@ productDirectory:
   items:
   - title: Erste Schritte mit Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'Von Chat und Besprechungen bis hin zur Verwendung von Teams und Kanälen – Benutzer kennen nach dieser Sitzung die Grundlagen, um Teams zu verwenden. (Zielgruppe: Jeder)'
+    summary: 'Von Chat und Besprechungen bis hin zur Verwendung von Teams und Kanälen – Benutzer kennen nach dieser Sitzung die Grundlagen, um Teams zu verwenden. (Publikum: Jeder)'
     url: https://aka.ms/GetstartedwithMSTeams
-  - title: Verwenden von Chats und Anrufen in Teams
+  - title: Chats und Anrufen in Teams verwenden
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'Erfahren Sie, wie Sie alle Ihre Unterhaltungen von einer zentralen Plattform aus verwalten. (Zielgruppe: Jeder)'
+    summary: 'Erfahren Sie, wie Sie alle Ihre Unterhaltungen von einer zentralen Plattform aus verwalten können. (Publikum: Jeder)'
     url: https://aka.ms/ChatCallingInTeams
   - title: Mit Teams effektive Besprechungen durchführen
     imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'Erfahren Sie, wie Sie Ihre Besprechungen ansprechender, produktiver und aussagekräftiger gestalten. (Zielgruppe: Jeder)'
+    summary: 'Erfahren Sie, wie Sie Ihre Besprechungen ansprechender, produktiver und sinnvoller gestalten können. (Publikum: Jeder)'
     url: https://aka.ms/RunmeetingsTeams
   - title: Erkunden von Teams und Kanälen in Teams
     imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'Erfahren Sie, wie Sie Ihre Zusammenarbeit im Rahmen von Projekten und Arbeitsgruppen optimieren können. (Zielgruppe: Jeder)'
+    summary: 'Erfahren Sie, wie Sie Ihre Zusammenarbeit im Rahmen von Projekten und Arbeitsgruppen optimieren können. (Publikum: Jeder)'
     url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Erstellen von Arbeitsbereichen für die Zusammenarbeit in Teams
+  - title: Arbeitsbereiche für die Zusammenarbeit in Teams erstellen
     imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'Erfahren Sie, wie Sie den besten Ansatz zum Erstellen von Arbeitsbereichen für Projekte und Arbeitsgruppen ermitteln können. (Zielgruppe: Jeder)'
+    summary: 'Lernen Sie, wie Sie den besten Ansatz für die Erstellung von Arbeitsbereichen für Projekte und Arbeitsgruppen finden. (Publikum: Jeder)'
     url: https://aka.ms/CollaborateInTeams
-  - title: Nutzen von Profitipps in Teams
+  - title: Profitipps in Teams nutzen
     imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Erfahren Sie, wie Teams Ihnen dabei helfen kann, Ihren Arbeitstag zu organisieren und die Verbindung zu Kollegen zu erleichtern. (Zielgruppe: Jeder)'
+    summary: 'Erfahren Sie, wie Teams Ihnen helfen kann, Ihren Arbeitstag zu organisieren und leichter mit Kollegen in Verbindung zu bleiben. (Publikum: Jeder)'
     url: https://aka.ms/TeamsProTips
-  - title: Von zuhause arbeitender Meister mit Teams
+  - title: Heimarbeiten mit Teams meistern
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'Lernen Sie bewährte Methoden für die Verbindung mit Ihrem Team und die Aufrechterhaltung der Produktivität. (Zielgruppe: Jeder)'
+    summary: 'Lernen Sie bewährte Methoden kennen, wie Sie mit Ihrem Team in Verbindung bleiben und die Produktivität aufrechterhalten. (Publikum: Jeder)'
     url: https://aka.ms/WFHTeams
   - title: Microsoft Teams Education – Webinare
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg

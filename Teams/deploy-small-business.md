@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395435"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726216"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Einrichten von Microsoft Teams in Ihrem Kleinunternehmen
 
@@ -51,7 +51,7 @@ Chats, Teams und Kanäle sind die Säulen von Teams. Der **Chat** ermöglicht es
 > [!TIP]
 > Schauen Sie sich an, wie Sie Teamrollen, Zugriff und Messagingrichtlinien verwalten können, indem Sie das Modul [Verwalten von Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) in Microsoft Learn abschließen.
 
-Wenn Sie über das Roll out von Teams und Kanälen nachdenken, müssen Sie entscheiden, wer diese erstellen darf, ob Gäste von außerhalb Ihrer Organisation darauf zugreifen können und so weiter. Der Artikel [Chat, Teams, Kanäle und Apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) enthält viele Informationen zur Planung von Chats, Teams und Kanälen. Allerdings sollten Sie über einige wichtige Dinge in diesem Artikel nachdenken. Klicken Sie auf eine Entscheidung, wenn Sie weitere Informationen dazu wünschen.
+Wenn Sie über das Roll out von Teams und Kanälen nachdenken, müssen Sie entscheiden, wer diese erstellen darf, ob Gäste von außerhalb Ihrer Organisation darauf zugreifen können und so weiter. Der Artikel [Chat, Teams, Kanäle und Apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) enthält viele Informationen zur Planung von Chats, Teams und Kanälen. Allerdings sollten Sie über einige wichtige Dinge in diesem Artikel nachdenken. Wählen Sie eine Entscheidung aus, wenn Sie weitere Informationen dazu wünschen.
 
 | Entscheidung | Beschreibung |
 |--|--|
@@ -62,7 +62,7 @@ Wenn Sie über das Roll out von Teams und Kanälen nachdenken, müssen Sie entsc
 Sie müssen nichts weiter tun, damit Ihre Benutzer mit der Nutzung von Chats, Teams und Kanälen beginnen können. Es gibt jedoch zahlreiche Optionen zum Steuern, wie Teams verwendet wird. Sie können jetzt Änderungen vornehmen oder warten, bis Sie sehen können, wie die Mitarbeiter Teams verwenden. Für weitere Informationen sollten Sie auch die folgenden Artikel lesen:
 
 - [Verwalten von Messaging-Richtlinien in Teams](messaging-policies-in-teams.md)
-- [Teams-Einstellungen](enable-features-office-365#teams-settings)
+- [Teams-Einstellungen](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>Besprechungen und Konferenzen
 

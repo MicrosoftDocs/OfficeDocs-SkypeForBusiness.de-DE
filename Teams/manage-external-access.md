@@ -20,19 +20,19 @@ ms.custom:
 description: Ihr Teams- oder IT-Administrator kann den externen Zugriff für andere Domänen (Verbund) so konfigurieren, dass Benutzer aus diesen Domänen in Teams teilnehmen können.
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: ae9a198de7fa15ac77743b2477a44602e54fecb7
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c41b051f7c11d27417885c9ada22d9337d50dfdb
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421330"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711772"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
-Externer Zugriff ist eine Möglichkeit für Teams-Benutzer aus einer ganzen externen Domäne Sie zu finden, anrufen, mit Ihnen zu chatten und Besprechungen mit Ihnen in Teams einzurichten. Sie können auch externen Zugriff verwenden, um mit Personen aus anderen Organisationen zu kommunizieren, die Skype for Business (online und lokal) und Skype (in der Vorschau) weiterhin verwenden.
+Externer Zugriff ist eine Möglichkeit für Teams-Benutzer aus einer ganzen externen Domäne Sie zu finden, anrufen, mit Ihnen zu chatten und Besprechungen mit Ihnen in Teams einzurichten. Über externen Zugriff können Sie auch mit Personen aus anderen Organisationen kommunizieren, die noch Skype for Business (online oder lokal) bzw. Skype (in der Vorschau) verwenden.
 
-Wenn Sie möchten, dass Personen aus anderen Organisationen Zugriff auf Teams und Kanäle haben, ist der Gastzugriff möglicherweise eine bessere Möglichkeit. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
+Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren möchten, ist der Gastzugriff möglicherweise besser geeignet. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Verwenden Sie den externen Zugriff in folgenden Situationen:
   
@@ -152,7 +152,7 @@ So aktivieren Sie den Partnerverbund zwischen Benutzern in Ihrer Organisation un
 
 
 > [!IMPORTANT]
-> Sie müssen keine **Skype-Domänen** als zulässige Domänen hinzufügen, um es Microsoft Teams- oder Skype for Business Online-Benutzern zu ermöglichen, mit Skype-Benutzern innerhalb oder außerhalb Ihrer Organisation zu kommunizieren. Alle **Skype-Domänen** sind zulässig.
+> Sie müssen keine **Skype-Domänen** als zulässige Domänen hinzufügen, um es Microsoft Teams- oder Skype for Business Online-Benutzern zu ermöglichen, mit Skype-Benutzern innerhalb oder außerhalb Ihrer Organisation zu kommunizieren. Alle **Skype-Domänen** sind erlaubt.
 
 ## <a name="how-does-external-access-compare-with-guest-access"></a>Inwiefern unterscheidet sich der externe Zugriff vom Gastzugriff?
 

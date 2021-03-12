@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: Konfigurieren der Teams-Einstellungen für Liveereignisse
             href: teams-live-events/configure-teams-live-events.md
+          - name: Richtlinien für die Aufzeichnung von Liveereignissen
+            href: teams-live-events/live-events-recording-policies.md
   - name: VoIP – Telefonsystem und PSTN-Konnektivität
     items:
       - name: Planen der Voice-Lösung ihrer Teams

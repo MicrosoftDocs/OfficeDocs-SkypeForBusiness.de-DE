@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d0b51b577ca12bc454617e60671fcefe4da03d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395442"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726196"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams-Bereitstellung – Übersicht
 
@@ -40,7 +40,7 @@ In der nachstehenden Liste sind Abschnitte aufgeführt, aus denen Sie im Abschni
 > Wenn Sie über eine Skype for Business Online- oder eine lokale Skype for Business-Bereitstellung verfügen, lesen Sie zusätzlich zu den Themen im Abschnitt **Erste Schritte** die folgenden Artikel.
 >
 > - [Upgrade von Skype for Business](upgrade-start-here.md)
-> - [Planen von Hybridverbindungen](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - Planen von Hybridverbindungen
 
 |Abschnitt  |Beschreibung  |
 |---------|---------|
