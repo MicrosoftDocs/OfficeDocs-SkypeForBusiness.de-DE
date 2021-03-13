@@ -19,17 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a58cbf682760249ee3b269d1765a265cc58d3022
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615091"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756181"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
-
-> [!NOTE]
-> Wenn Sie die organisationsweite App-Einstellung **"Interaktion** mit benutzerdefinierten Apps zulassen" aktiviert haben, werden im Microsoft Teams Admin Center möglicherweise noch keine Richtlinien für die App-Einrichtung angezeigt. Sie wird zurzeit im Rollal ausgeführt und wird in Kürze in Ihrer Organisation verfügbar sein.
 
 Als Administrator können Sie die folgenden Aufgaben mithilfe von App-Setuprichtlinien ausführen:
 
@@ -67,7 +64,7 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinier
 
    ![Seite "App-Setuprichtlinien hinzufügen"](media/app-setup-policies-add.png)
 
-3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 
 4. Aktivieren oder deaktivieren Sie benutzerdefinierte Apps **hochladen,** je nachdem, ob Sie benutzern das Hochladen benutzerdefinierter Apps in Teams ermöglichen möchten. Sie können diese Einstellung nicht **ändern,** wenn Apps von Drittanbietern zulassen in [organisationsweiten App-Einstellungen deaktiviert ist.](manage-apps.md#manage-org-wide-app-settings)
 

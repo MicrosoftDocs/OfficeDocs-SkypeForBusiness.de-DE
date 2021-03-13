@@ -18,17 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Teams-Vorlagen im Admin Center verwalten.
-ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
+ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569011"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50765828"
 ---
-# <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
+# <a name="manage-teams-templates-in-the-admin-center"></a>Verwalten von Teams-Vorlagen im Admin Center
 
 Verwalten Sie die Teams-Vorlagen, die Ihren Endbenutzern angezeigt werden, indem Sie Vorlagenrichtlinien im Admin Center erstellen. Innerhalb jeder Vorlagenrichtlinie können Sie festlegen, welche Vorlagen angezeigt oder ausgeblendet werden.
 Weisen Sie verschiedenen Vorlagenrichtlinien unterschiedliche Benutzer zu, damit ihre Benutzer nur die teilmenge der angegebenen Teams-Vorlagen anzeigen.
+
+In diesem kurzen Video erfahren Sie, wie Vorlagenrichtlinien verwaltet werden.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>Erstellen von Vorlagenrichtlinien und Zuweisen verfügbarer Vorlagen
 
@@ -86,7 +90,7 @@ Sie können maximal 100 Vorlagen pro Richtlinie ausblenden. Die **Schaltfläche*
 
 **F: Kann ich Teamvorlagenrichtlinien Benutzer batchweise zuweisen?**
   
-A: Ja, wir unterstützen die Batchzuordnung für die Vorlagenrichtlinie in PowerShell. Der Richtlinientyp für diese Aktion ist TeamsTemplatePermissionPolicy. [Weitere Informationen](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+A: Ja, wir unterstützen die Batchzuordnung für die Vorlagenrichtlinie in PowerShell. Der Richtlinientyp für diese Aktion ist TeamsTemplatePermissionPolicy. [Weitere Informationen](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **F: Können Gruppen Teamvorlagenrichtlinien zugewiesen werden?**
 
@@ -140,4 +144,4 @@ A: Nein, Vorlagenrichtlinien für EDU werden nicht unterstützt.
 
 - [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [Batch zuweisen von Benutzern zu einer Richtlinie](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [Batch zuweisen von Benutzern zu einer Richtlinie](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
