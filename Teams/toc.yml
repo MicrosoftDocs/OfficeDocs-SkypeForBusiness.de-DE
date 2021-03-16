@@ -469,6 +469,8 @@ items:
         href: sharing-files-in-teams.md
       - name: Teams und Outlook-E-Mail-Integration
         href: teams-outlook-email-integration.md
+      - name: Von Outlook nach Teams freigeben
+        href: teams-outlook-share-teams.md
       - name: Verwalten von Messagingrichtlinien
         href: messaging-policies-in-teams.md
       - name: Benutzeranwesenheit in Teams
@@ -1438,6 +1440,14 @@ items:
     items:
       - name: Grenzwerte und Daten für Teams
         href: limits-specifications-teams.md
+      - name: Von Kaizala nach Microsoft Teams verschieben
+        items:
+          - name: Erste Schritte
+            items:
+              - name: Planen Sie Ihre Verschiebung
+              - name: Vorbereiten Ihrer Organisation auf Teams
+              - name: Implementieren Sie Ihrer Verschiebung
+                href: implement-your-move.md
       - name: Lizenzierung
         items:
           - name: Verwalten des Benutzerzugriffs auf Teams
@@ -1511,6 +1521,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: Telefone für Skype for Business Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams-Alarmierung und -Überwachung
+            href: alerts/teams-admin-alerts.md
+          - name: Teams-Geräteintegritätsüberwachung
+            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: Übersicht
