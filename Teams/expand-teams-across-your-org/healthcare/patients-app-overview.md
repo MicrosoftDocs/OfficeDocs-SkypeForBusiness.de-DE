@@ -1,5 +1,5 @@
 ---
-title: 'Patienten-App für Teams-Administratoren '
+title: 'Die App "Patienten" für Microsoft Teams-Administratoren '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,59 +20,59 @@ description: Informationen zur Patienten-App für Teams-Administratoren
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
 ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/30/2020
 ms.locfileid: "48803503"
 ---
-# <a name="patients-app-overview"></a>Übersicht der Patienten-App
+# <a name="patients-app-overview"></a>Übersicht über die Patienten-App
 
 > [!NOTE]
-> Die Patienten-App wurde im 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt. Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Alle Daten, die mit der Patienten-App verknüpft sind, werden in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
+> Mit Wirkung vom 30. Oktober 2020 wurde die App "Patienten" zurückgezogen und durch die App [Listen ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Microsoft Teams ersetzt. Die Daten der Patienten-App werden in dem Gruppenpostfach der Office 365-Gruppe gespeichert, das zum Team gehört. Alle der Patienten-App zugeordneten Daten bleiben in dieser Gruppe erhalten, auf sie kann aber nicht mehr über die Benutzeroberfläche zugegriffen werden. Benutzer können ihre Listen mithilfe der App [Listen](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) neu erstellen.
 >
->Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen. Schauen Sie sich die Vorlage Patienten in Listen an, um zu beginnen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
+>Mit der Listen-App können Pflegeteams in Ihrer Organisation im Gesundheitswesen Patientenlisten für Szenarien erstellen, die von Visiten und interdisziplinären Teambesprechungen bis zur allgemeinen Patientenüberwachung reichen. Sehen Sie sich die Vorlage "Patienten" in der Listen-App an, um die ersten Schritte zu unternehmen. Weitere Informationen zum Verwalten der Listen-App in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
-Die patients-Anwendung ist eine Microsoft Teams Store-App, die für alle Teams-Benutzer verfügbar ist. Mit der App können Patienten Gesundheitsteams, bestehend aus klinischen Arbeitern (wie Krankenschwestern, Ärzten, Sozialarbeitern), Listen von Patienten für Szenarien, die von runden und interdisziplinären Teambesprechungen bis zur allgemeinen Patientenüberwachung reichen, kuratiert und überprüfen.
+Bei der Anwendung "Patienten" handelt es sich um eine App aus dem Microsoft Teams Store, die für alle Benutzer von Teams zur Verfügung steht. Die App ermöglicht es Betreuungsteams aus Klinikmitarbeitern (z. B. Pflegekräfte, Ärzte, Sozialpädagogen), Patientenlisten für Szenarien zusammenzustellen und zu überprüfen, die von Gesprächsrunden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen.
 
-Die APP hat zwei Modi:
+Die App verfügt über zwei Modi:
 
-- Der EMR-verbundene Modus, der über FHIR eine Verbindung mit EMRs herstellt. Die EMR-App für den verbundenen Modus bleibt in der privaten Vorschau und interessierte Kunden oder Administratoren können den Zugriff auf die APP anfordern, indem Sie Microsoft eine e-Mail unter [teamsforhealthcare@Service.Microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) mit Informationen zu Ihrer Microsoft 365-Organisation ablegen.
-- Der manuelle Modus, der es Gesundheitsteams ermöglicht, Patienteninformationen manuell hinzuzufügen/zu versorgen. Die Anwendung ist im Teams-App Store verfügbar, damit Endbenutzer Sie in der privaten Vorschau herunterladen können. Die APP kann mithilfe von [App-Setup Richtlinien](../../teams-app-setup-policies.md) in Teams auf bestimmte Benutzer Abschnitte beschränkt werden. Damit Sie auf die App zugreifen können, muss Ihr Mandant Teil des Technology Adoption Program (Tap) sein. Bitte senden Sie uns eine e-Mail an [teamsforhealthcare@Service.Microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) , um den Vorgang zum Anfordern des Zugriffs zu starten.
+- Der mit EMR verbundene Modus, der die Verbindung zu EMRs über FHIR herstellt. Die App mit EMR verbundenem Modus bleibt in der privaten Vorschau, und alle interessierten Kunden oder Administratoren können den Zugriff auf die App anfordern, indem sie Microsoft eine E-Mail mit Informationen zu ihrer Microsoft 365-Organisation an [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) senden.
+- Der manuelle Modus, der es Betreuungsteams ermöglicht, Patienteninformationen manuell hinzuzufügen bzw. einzugeben. Die Anwendung kann von Endbenutzern im Microsoft Teams App Store in einer privaten Vorschau heruntergeladen werden. Die Nutzung der App kann in Microsoft Teams mithilfe von [Richtlinien für das App-Setup](../../teams-app-setup-policies.md) auf bestimmte Benutzer beschränkt werden. Um Zugriff auf die App zu erhalten, muss Ihr Mandant am Technology Adoption-Programm teilnehmen. Senden Sie uns bitte eine E-Mail an [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com), um den Zugriff zu beantragen.
 
 ## <a name="usage-example"></a>Verwendungsbeispiel
 
-Während der runden Sitzungen bei jeder Schicht in medizinischen Stationen versammeln sich Kliniker an der Krankenstation, um über die neuesten Updates über den Fortschritt bei Patienten in der Gemeinde zu diskutieren.  Sie betonen die wichtigsten wichtigen Metriken (nicht unbedingt medizinisch oder ausdrücklich auf die medizinischen Unterlagen der Patienten) und stellen sicher, dass sich der Patient auf dem richtigen Gleitweg befindet, um auf Grundlage seiner Diagnose zu entladen. Um diese Patienten umrunden zu können, richtet die Krankenschwester die Patienten-app in einem Team ein, in dem alle Ärzte hinzugefügt werden und Patienten zu einer Patientenliste hinzugefügt werden. Während der Runde greifen die Krankenschwestern und die anderen Betreuer für den Patienten auf die Microsoft Teams und die Patienten-App auf Ihren mobilen Geräten zu und aktualisieren relevante Patienteninformationen auf Ihrem Gerät, und alle anderen Personen im Gesundheitsteam können diese Updates und Notizen sehen und synchron bleiben. Zweimal am Tag, am Anfang und am Ende einer Schicht, haben Sie auch multidisziplinäre Teambesprechungen, um über die Patientenliste zu wechseln und die Patienten-APP zu verwenden, um sich selbst zu beerdigen und Informationen über jeden Patienten über die Patienten-App auf einem größeren Bildschirm zu teilen. Oft können sich bestimmte Kliniker auch Remote in diese Teams einwählen und dennoch Teil der Diskussion sein.
+Zu jeder Schicht in Krankenstationen treffen sich Ärzte zu Besprechungen, um sich über die neuesten Informationen zu den Fortschritten der Patienten auf der Station auszutauschen.  Sie heben die wichtigsten kritischen Metriken (nicht notwendigerweise medizinische Metriken oder zu rein medizinischen Daten der Patienten) hervor und stellen sicher, dass der Patient auf dem richtigen Weg zur Entlassung ist. Für diese Gesprächsrunden richtet die leitende Pflegekraft die Patienten-App in einem Team ein, dem alle Ärzte hinzugefügt werden, während alle Patienten in eine Patientenliste eingetragen werden. Während der Gesprächsrunden greifen Pflegekräfte und andere Betreuer auf Microsoft Teams und die Patienten-App auf ihren Mobilgeräten zu und aktualisieren relevante Patienteninformationen. Alle anderen Mitglieder des Gesundheitsteams können dann diese Updates und Notizen sehen und bleiben auf diese Weise auf dem neuesten Stand. Zwei Mal am Tag, am Anfang und am Ende einer Schicht, finden zudem multidisziplinäre Teambesprechungen statt, bei denen die Patientenliste durchgegangen wird und die Patienten-App verwendet wird, um sich selbst zu informieren und Informationen zu jedem Patienten für alle auf einem großen Display darzustellen. Einige Ärzte werden sich oftmals auch remote in diese Microsoft Teams-Besprechungen einwählen und auf diese Weise an der Diskussion teilnehmen.
 
 ## <a name="configure-patients-app"></a>Konfigurieren der Patienten-App
 
-Informationen dazu, wie Sie Ihre Umgebung auf die Verwendung der EMR-Modus-Patienten-App vorbereiten, finden Sie unter [integrieren elektronischer Gesundheitsdatensätze in Microsoft Teams](patients-app.md). Außerdem müssen Sie [in Microsoft Teams die Richtlinien für die APP-Einrichtung verwalten](../../teams-app-setup-policies.md) anzeigen, um die Patienten-App für Ihre Organisation zu aktivieren.
+Informationen dazu, wie Sie Ihre Umgebung für die Verwendung der Patienten-App im EMR-Modus vorbereiten, finden Sie unter [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](patients-app.md). Lesen Sie auch [Verwalten von Richtlinien für das App-Setup in Microsoft Teams](../../teams-app-setup-policies.md), um die Patienten-App für Ihre Organisation zu aktivieren.
 
-Informationen dazu, wie Ihre Endbenutzer auf die Patienten-App zugreifen und Sie in einem Team installieren können, das Sie besitzen oder verwalten, finden Sie unter [Erste Schritte mit Microsoft Teams-Patienten](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
+Informationen dazu, wie Ihre Endbenutzer auf die Patienten-App zugreifen und sie in einem Team installieren können, dessen Besitzer sie sind oder das sie verwalten, finden Sie unter [Erste Schritte mit "Patienten" in Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 
 ## <a name="frequently-asked-questions-faq"></a>Häufig gestellte Fragen (FAQ)
 
-**Wo werden die Daten der Patienten-APP gespeichert?**
+**Wo werden die Daten der Patienten-App gespeichert?**
 
-Alle von Endbenutzern in die Patienten-App eingegebenen Daten, einschließlich des Spalten-/Feld Schemas, der tatsächlichen Daten, die in die Liste und Listenelemente eingegeben wurden (also Patienten), werden in der sicheren und kompatiblen Exchange Online-Infrastruktur gespeichert. Alle Daten werden in dem Gruppenpostfach gespeichert, das dem Team zugeordnet ist. Diese Architektur ermöglicht der Patienten-APP die einfache Erfüllung von Daten Wohnsitz, staatlicher Cloud-Unterstützung (in der Zukunft) sowie andere Compliance-und Informationsschutz Features wie eDiscovery-Unterstützung. Die Patienten-APP arbeitet in einem Teambereich. Sie müssen eine Instanz der APP pro Team installieren.
+Alle von Endbenutzern in die Patienten-App eingegebenen Daten, einschließlich des Spalten-/Feldschemas, der tatsächlichen Daten, die in die Liste eingegeben wurden sowie die Listenelemente (d. h. Patienten), werden in der sicheren und Compliance-konformen Exchange Online-Infrastruktur gespeichert. Alle Daten werden in dem Gruppenpostfach gespeichert, das dem Team zugeordnet ist. Diese Architektur ermöglicht es der Patienten-App, Datenresidenz, Support für die Government Cloud (in Zukunft) und weitere Compliance-/Informationsschutzfunktionen wie eDiscovery-Support auf einfache Weise zu gewährleisten. Die Patienten-App wird auf Teamebene verwendet. Sie müssen eine Instanz der App pro Team installieren.
 
 <!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
 
-**Wo kann ich die Patienten-App abrufen?**
+**Wo kann ich die Patienten-App erwerben?**
 
-Wenn die patients-App für Ihre Organisation von Ihrem Administrator aktiviert ist, kann jeder Endbenutzer zum Teams-App-Store wechseln und die Patienten-APP einem Team hinzufügen, in dem Sie Mitglied sind. Weitere Informationen finden Sie unter [Verwalten von App-Setup Richtlinien in Microsoft Teams](../../teams-app-setup-policies.md).
+Wenn der Administrator die Patienten-App für seine Organisation aktiviert hat, kann jeder Endbenutzer zum Microsoft Teams App Store gehen und die App einem Team hinzufügen, dem er angehört. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für das App-Setup in Microsoft Teams](../../teams-app-setup-policies.md).
 
-**Kann ich in einem Team mehrere Instanzen der Patienten-APP haben, denn so funktioniert meine Station/Einheit?**
+**Kann ich mehrere Instanzen der Patienten-App in einem Team haben, weil meine Abteilung/Station so funktioniert?**
 
-Derzeit können Sie nur eine Instanz der Patienten-App für ein bestimmtes Team und nur im Kanal "Allgemein" installieren. In der App können jedoch mehrere Listen erstellt werden, um Szenarien mit mehreren Kanälen oder Isolierung/Separation zu beheben. Standardmäßig können alle Mitglieder des Teams auf die Registerkarte "Patienten" im Kanal "Allgemein" zugreifen. 
+Derzeit können Sie nur eine Instanz der Patienten-App pro Team und nur im allgemeinen Kanal installieren. Innerhalb der App können jedoch mehrere Listen erstellt werden, um Szenarien mit mehreren Kanälen oder Isolation/Trennung zu berücksichtigen. Standardmäßig haben alle Mitglieder des Teams Zugriff auf die Registerkarte "Patienten" im Kanal "Allgemein". 
 
 **Kann ich alle Daten aus der Patienten-App exportieren?**
-Nicht im Moment, aber diese Funktion wird in Kürze verfügbar sein. 
+Derzeit nicht, aber diese Funktion wird in Kürze verfügbar sein. 
 
-**Da diese APP Phi beherbergt, gibt es Audits, um unbefugten Zugriff zu verhindern oder Vorschriften zu erfüllen?**
+**Da diese App geschützte Gesundheitsinformationen enthalten kann, gibt es eine Überwachung, um unbefugten Zugriff zu verhindern oder die Einhaltung von Vorschriften zu gewährleisten?**
 
-Ja, das gibt es. Jede einzelne Benutzeroberflächen Aktion, die von einem Microsoft Teams-Benutzer in der Patienten-app ausgeführt wird, wird überwacht und im Security and Compliance Center zur Verfügung gestellt. Die Details werden in der [App Überwachungsprotokolle für Patienten](patients-audit.md)erläutert.
+Ja. Jede einzelne Benutzeroberflächenaktion, die ein Microsoft Teams-Benutzer in der Patienten-App ausführt, wird überwacht und ist im Sicherheits- und Compliance Center verfügbar. Die Details hierzu finden Sie unter [Überwachungsprotokolle für die Patienten-App](patients-audit.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
