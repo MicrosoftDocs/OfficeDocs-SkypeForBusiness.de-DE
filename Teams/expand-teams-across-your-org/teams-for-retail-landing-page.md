@@ -1,6 +1,6 @@
 ---
 title: Teams für den Einzelhandel
-description: Erfahren Sie mehr über die Administratorressourcen, die Ihnen zum Verwalten und Nutzen von Teams für Einzelhändler und Mitarbeiter zur Verfügung stehen.
+description: Erfahren Sie mehr über die verfügbaren Verwaltungsressourcen, um Teams für Ihre Einzelhandelsgeschäfte und Mitarbeiter zu verwalten und optimal zu nutzen.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -18,14 +18,14 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ab67f4e0851ac05f9d2d341c9b52407b594a3a34
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49802585"
 ---
 # <a name="teams-for-retail"></a>Teams für den Einzelhandel
 
-Verwenden Sie die hier verwendeten Administratorressourcen, um Teams für Einzelhandelsgeschäften und Mitarbeiter zu verwalten und zu nutzen.
+Verwenden Sie hier die Administrationsressourcen zur Verwaltung und optimalen Nutzung von Teams für Ihre Einzelhandelsgeschäfte und Mitarbeiter.
 
 |               |               |
 | ------------- | ------------- |

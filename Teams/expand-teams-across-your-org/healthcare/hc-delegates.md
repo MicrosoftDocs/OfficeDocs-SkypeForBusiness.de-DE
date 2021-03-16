@@ -20,53 +20,53 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: Erfahren Sie, wie ein Benutzer mit dem Status "Abwesend" oder "nicht stören" einen anderen Benutzer explizit als Stellvertretung in seiner Statusmeldung festlegen kann.
+description: Erfahren Sie, wie ein Benutzer mit Status „Abwesend“ oder „Nicht stören“ einen anderen Benutzer in seiner Statusmeldung explizit als Stellvertretung festlegen kann.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
 ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/28/2020
 ms.locfileid: "48790467"
 ---
 # <a name="message-delegation"></a>Nachrichtendelegierung
 
-Ein Benutzer kann seinen Status bereits explizit auf "Abwesend" oder "nicht stören" festlegen und benutzerdefinierten Text bereitstellen. Das Feature Nachrichten Delegierung funktioniert wie folgt:
+Ein Benutzer kann seinen Status bereits explizit auf „Abwesend“ oder „Nicht stören“ setzen und benutzerdefinierten Text bereitstellen. Das Feature für die Nachrichtendelegierung funktioniert wie folgt:
 
-1. Ein Benutzer @username einen anderen Benutzer in einem Teil einer Text Statusnachricht erwähnt, was darauf hindeutet, dass Personen, die Sie kontaktieren möchten, sich stattdessen an den @username genannten Nutzer wenden können.
-2. Die Person, die als Stellvertretung zugewiesen wurde, wird benachrichtigt, dass Sie als Stellvertretung nominiert wurde.
-3. Eine Person, die versucht, sich mit dem ersten Benutzer in Verbindung zu setzen, kann dann mit dem Mauszeiger auf den nominierten Stellvertreter zeigen  
+1. Ein Benutzer @Benutzername erwähnt einen anderen Benutzer als Teil der Textstatusmeldung, und schlägt vor, dass Personen, die Kontakt mit ihm (dem ersten Benutzer) aufnehmen möchten, sich stattdessen an den im @Benutzernamen erwähnten Benutzer wenden, solange er (der erste Benutzer) nicht verfügbar ist.
+2. Die Person, die als Stellvertretung zugewiesen wurde, wird benachrichtigt, dass Sie von einer delegierenden Person nominiert wurden.
+3. Jemand, der versucht, den ersten Benutzer zu kontaktieren, kann dann mit der Maus über den nominierten Stellvertreter fahren und diesem einfach eine Nachricht senden.  
 
-Hierbei handelt es sich um einen vom Benutzer initiierten Prozess im Client, und es ist keine Einbindung des Administrators erforderlich, um das Feature zu aktivieren. 
+Dies ist ein vom Benutzer initiierter Prozess im Client, und es ist keine Administratorbeteiligung erforderlich, um die Funktion zu aktivieren. 
 
-## <a name="delegation-use-scenario-in-healthcare"></a>Szenario für die Delegierungs Nutzung in Healthcare
+## <a name="delegation-use-scenario-in-healthcare"></a>Verwendungsszenario für Stellvertretung im Gesundheitswesen
 
-*Verwendungsbeispiel ohne Festlegen von Delegaten:*  Dr. Franco Piccio ist in der Radiologie-Abteilung auf Abruf. Er erhält einen dringenden persönlichen Anruf und muss für die nächsten paar Stunden fortfahren. Er bittet einen seiner Kollegen in der Radiologie-Abteilung, Dr. Lena Ehrle, ihn zu bedecken, während er verschwunden ist. Er händigt seinen Pager an Dr. Ehrle aus, der auf dringende Nachrichten und Pings auf den Pager wartet und Ihnen im Namen von Dr. Piccio zusätzlich zu ihren derzeitigen Aufgaben antwortet. Andere Personen im Team erkennen möglicherweise nicht, dass die informelle Delegation stattgefunden hat, und Verwirrung erfolgt mit der Fürsorge des Patienten.
+*Verwendungsbeispiel ohne die Stellvertretung festzulegen:*  Dr. Franco Piccio hat in der Radiologie Bereitschaftsdienst. Er erhält einen dringenden persönlichen Anruf und wird für die nächsten paar Stunden abwesend sein. Er bittet eine seiner Kolleginnen in der Radiologie, Dr. Lena Ehrle, ihn zu vertreten, während er weg ist. Er übergibt seinen Pager informell an Dr. Ehrle, die auf dringende Nachrichten und Pings auf dem Pager achtet und diese im Auftrag von Dr. Piccio zusätzlich zu ihren aktuellen Aufgaben beantwortet. Andere im Team erkennen möglicherweise nicht, dass die informelle Delegation stattgefunden hat, und es kann zu Verwirrung bei der Versorgung eines Patienten führen.
 
-*Verwendungsbeispiel mit Stellvertretungen:* Dr. Franco Piccio ist in der Radiologie-Abteilung auf Abruf. Er erhält einen dringenden persönlichen Anruf und muss für die nächsten paar Stunden fortfahren. Er fragt einen seiner Kollegen in der Radiologie-Abteilung, Dr. Lena Ehrle, um ihn zu bedecken, während er Weg ist. Er ändert seine benutzerdefinierte Statusnachricht, um etwas ähnliches wie "Ich bin für die nächsten Stunden nicht verfügbar" zu sagen. Bitte wenden Sie sich für Notfälle an @DrEhrle. "  Andere im Team erkennen, dass die Delegation beim Versuch, Dr. Piccio zu kontaktieren, passiert ist, damit Sie jetzt wissen, dass Sie in der Zwischenzeit mit Dr. Ehrle Kontakt aufnehmen möchten. Bei der Behandlung durch den Patienten entsteht kaum Verwirrung.
+*Verwendungsbeispiel mit Festlegen der Stellvertretung:* Dr. Franco Piccio hat in der Radiologie Bereitschaftsdienst. Er erhält einen dringenden persönlichen Anruf und wird für die nächsten paar Stunden abwesend sein. Er bittet eine seiner Kolleginnen in der Radiologie, Dr. Lena Ehrle, ihn zu vertreten, während er weg ist. Er ändert seine benutzerdefinierte Statusmeldung, um etwas ähnliches zu sagen wie: „Ich bin für die nächsten Stunden nicht verfügbar. Bitte kontaktieren Sie in Notfällen @DrEhrle.“  Andere Mitglieder im Team erkennen, dass die Delegation passiert ist, wenn sie versuchen, Dr. Piccio zu kontaktieren, und wissen jetzt, dass sie in der Zwischenzeit Dr. Ehrle kontaktieren müssen. Es entsteht keine oder nur geringe Verwirrung bei der Versorgung von Patienten.
 
-## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Auswirkungen der Koexistenzmodus auf den Benutzerstatus im Team-Client
+## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Auswirkung der Koexistenzmodi auf den Benutzerstatus im Teams-Client
 
-Administratoren sollten beachten, dass Statushinweise und das Verhalten der Delegierungs Erwähnung teilweise vom Koexistenzmodus des Benutzers abhängig sind. Diese Matrix zeigt die folgenden Möglichkeiten:
+Administratoren sollten sich darüber im Klaren sein, dass das Verhalten von Statusnotizen und Delegationserwähnungen teilweise vom Koexistenzmodus eines Benutzers abhängt. Diese Matrix zeigt die Möglichkeiten:
 
-|Co-Existence Modus | Erwartetes Verhalten|
+|Koexistenzmodus | Erwartetes Verhalten|
 |---|---|
-|TeamsOnly |Benutzer können eine Notiz nur von Teams aus einrichten. <br> Die Notizen des Benutzers für Teams sind in Teams & SFB sichtbar. |
-|Inselmodus | Die Notiz des Benutzers wird in Teams, die nur in Teams sichtbar sind, festgesetzt. <br> Die Notizen des Benutzers, die in SFB festgesetzt sind, werden nur in SFB angezeigt |
-|SFB *-Modi | Benutzer können eine Notiz nur in SFB einrichten. <br> Die SFB-Notiz des Benutzers ist in den SFB-& Teams sichtbar.  |
+|TeamsOnly |Der Benutzer kann eine Notiz nur aus Teams festlegen. <br> Die Teams-Notiz des Benutzers ist in Teams und SfB ersichtlich. |
+|Inseln | Die Notiz des Benutzers in Teams ist nur in Teams ersichtlich. <br> Die Notiz des Benutzers in SfB ist nur in SfB ersichtlich. |
+|SfB*-Modi | Der Benutzer kann eine Notiz nur aus SfB festlegen. <br> Die SfB-Notiz des Benutzers ist in SfB und Teams ersichtlich.  |
 |||
 
-Ein Benutzer kann in Teams nur dann eine Notiz setzen, wenn sein Modus TeamsOnly oder Islands ist.  
+Ein Benutzer kann nur dann eine Notiz in Teams festlegen, wenn sein Modus „TeamsOnly“ oder „Inseln“ ist.  
 
-### <a name="displaying-notes-set-in-skype-for-business"></a>Anzeigen von Notizen, die in Skype for Business festgesetzt sind
+### <a name="displaying-notes-set-in-skype-for-business"></a>Anzeigen von Notizen, die in Skype for Business festgelegt wurden
   
-Es gibt keinen visuellen Hinweis darauf, dass eine Notiz in Skype for Business festgesetzt wurde.
+Es gibt keinen visuellen Hinweis, dass eine Notiz in Skype for Business festgelegt wurde.
 
-Skype for Business erzwingt keine Zeichenbeschränkung für Status Notizen. In Microsoft Teams werden nur die ersten 280-Zeichen einer Notizen Gruppe in Skype for Business angezeigt. Eine Ellipse (...) am Ende einer Notiz zeigt die Kürzung an.
+Skype for Business erzwingt keine Zeichenbegrenzung für Statusnachrichten. Microsoft Teams wird nur die ersten 280 Zeichen einer von Skype for Business gesendeten Notiz anzeigen. Eine Ellipse (...) am Ende einer Notiz zeigt das Abschneiden an.
   
 Skype for Business unterstützt keine Ablaufzeiten für Notizen.
 
-Die Migration von Notizen von Skype for Business zu Teams wird nicht unterstützt, wenn ein Benutzer auf den TeamsOnly-Modus aktualisiert wird.
+Die Migration von Notizen von Skype for Business zu Teams wird nicht unterstützt, wenn ein Benutzer in den TeamsOnly-Modus aktualisiert wird.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

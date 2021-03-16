@@ -1,5 +1,5 @@
 ---
-title: Erstellen eines Teams mithilfe von Vorlagen für das Gesundheitswesen in Teams
+title: Erstellen eines Teams mithilfe von Teams-Vorlagen für das Gesundheitswesen
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,85 +20,85 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Verwenden Sie Microsoft Teams-Vorlagen im Admin Center oder mit Microsoft Graph, um Teams schnell und einfach zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und Apps bereitstellen.
+description: Verwenden Sie Microsoft Teams-Vorlagen im Admin Center oder mit Microsoft Graph, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und Apps bereitstellen.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
 ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/16/2021
 ms.locfileid: "50260307"
 ---
-# <a name="create-a-team-using-teams-healthcare-templates"></a>Erstellen eines Teams mithilfe von Vorlagen für das Gesundheitswesen in Teams
+# <a name="create-a-team-using-teams-healthcare-templates"></a>Erstellen eines Teams mithilfe von Teams-Vorlagen für das Gesundheitswesen
 
-Mit Microsoft Teams-Vorlagen können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
+Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-Für Organisationen im Gesundheitswesen können Vorlagen besonders leistungsfähig sein, da sie den Benutzern eine Struktur bieten, um sich mit der effektiven Nutzung von Teams zu orientieren. Vorlagen ermöglichen Administratoren außerdem die Bereitstellung einheitlicher Teams in der gesamten Organisation. Dieser Artikel ist für Sie da, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams im gesamten Gesundheitswesen zuständig sind.
+Für Organisationen im Gesundheitswesen können Vorlagen besonders leistungsfähig sein, da sie den Benutzern eine Struktur bieten, in der sie sich an der effektiven Verwendung von Teams orientieren können. Mithilfe von Vorlagen können Administratoren auch konsistente Teams in ihren Organisationen bereitstellen. Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Gesundheitsorganisation verantwortlich sind.
 
-Wählen Sie eine Methode zum Erstellen von Teams mit den Vorlagen für das Gesundheitswesen in Teams aus:
+Wählen Sie eine Methode zum Erstellen von Teams mit den Teams-Vorlagen für das Gesundheitswesen:
 
 | Wer | Zu verwendende Methode: |
 | ---- | --------- |
-| Administratoren und IT-Experten | [Verwenden Sie das Teams Admin Center,](#use-the-teams-templates-in-the-teams-admin-center) um Teams basierend auf den Vorlagen für Teams im Gesundheitswesen zu erstellen.|
-| Entwickler und Systemintegratoren | [Verwenden Sie Microsoft Graph,](#use-the-teams-templates-with-the-microsoft-graph) um Teams basierend auf den Vorlagen für Teams im Gesundheitswesen zu erstellen. |
+| Administratoren und IT-Spezialisten | [Verwenden Sie das Teams Admin Center](#use-the-teams-templates-in-the-teams-admin-center), um Teams basierend auf den Teams-Vorlagen für das Gesundheitswesen zu erstellen.|
+| Entwickler und Systemintegratoren | [Verwenden Sie Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph), um Teams basierend auf den Teams-Vorlagen für das Gesundheitswesen zu erstellen. |
 
-## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Verwenden der Vorlagen für Teams im Teams Admin Center
+## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Verwenden Sie die Teams-Vorlagen im Teams Admin Center
 
-Microsoft Teams-Administratoren können das Teams Admin Center verwenden, um Teams mit den Vorlagen für Teams zu erstellen. Wir bieten derzeit zwei Vorlagen für das Gesundheitswesen von Erstpartei an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter "Erste Schritte mit [Teams-Vorlagen" im Admin Center.](../../get-started-with-teams-templates-in-the-admin-console.md)
+Microsoft Teams-Administratoren können das Teams Admin Center verwenden, um Teams mit den Teams-Vorlagen zu erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen im Admin Center](../../get-started-with-teams-templates-in-the-admin-console.md).
 
-### <a name="collaborate-on-patient-care"></a>Zusammenarbeiten bei der Patientenpflege
+### <a name="collaborate-on-patient-care"></a>Arbeiten Sie bei der Patientenversorgung zusammen
 
- Optimieren Sie die Kommunikation und Zusammenarbeit im Gesundheitswesen innerhalb eines Orts, eines Pods oder einer Abteilung. Die Vorlage kann verwendet werden, um die Patientenverwaltung und die betrieblichen Anforderungen eines Patienten zu erleichtern.
+ Optimieren Sie die Kommunikation und Zusammenarbeit im Gesundheitswesen innerhalb einer Station, eines Bereiches oder einer Abteilung. Die Vorlage kann verwendet werden, um das Patientenmanagement und die operativen Anforderungen einer Station zu erleichtern.
 
-| Basisvorlagentyp |baseTemplateId| Eigenschaften, die in dieser Basisvorlage enthalten sind |
+| Basisorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |---|----------------------------------------------------- |
-| Zusammenarbeiten bei der Patientenpflege |`healthcareWard` | Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Rundet</li><li>Personal</li><li>Schulungen</li></ul> Apps: <ul><li>Wiki</li><li>Listen</li></ul>|
+| Arbeiten Sie bei der Patientenversorgung zusammen |`healthcareWard` | Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen</li></ul>|
 ||||
 
 ### <a name="hospital"></a>Krankenhaus
 
-Optimieren Sie die Kommunikation und Zusammenarbeit zwischen mehreren Kliniken, Pods und Abteilungen in einem Krankenhaus. Diese Vorlage enthält eine Reihe von Basiskanälen für Krankenhausoperationen und kann selbst erweitert werden, um Ad-hoc-Sonderangebote zu enthalten.
+Optimieren Sie die Kommunikation und Zusammenarbeit zwischen mehreren Stationen, Bereichen und Abteilungen innerhalb eines Krankenhauses. Diese Vorlage enthält eine Reihe von Basiskanälen für den Krankenhausbetrieb und kann selbst erweitert werden, um Ad-hoc-Spezialitäten einzuschließen.
 
-| Basisvorlagentyp |baseTemplateId | Eigenschaften, die in dieser Basisvorlage enthalten sind |
+| Basisorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-|Krankenhaus|`healthcareHospital`|Kanäle: <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Custodial</li><li>Personalwesen</li><li>1-1</li></ul> Apps: <ul><li>Wiki</li><li>Listen </li></ul>|
+|Krankenhaus|`healthcareHospital`|Kanäle: <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Sorgerecht</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps: <ul><li>Wiki</li><li>Listen </li></ul>|
 ||||
 
 
-## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Verwenden der Vorlagen für Microsoft Teams mit Microsoft Graph
+## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Verwenden Sie die Teams-Vorlagen mit Microsoft Graph
 
-Entwickler können Microsoft Graph verwenden, um Teams mit den Vorlagen für Teams zu erstellen. Wir bieten derzeit zwei Vorlagen für das Gesundheitswesen von Erstpartei an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter ["Erste Schritte mit Teams-Vorlagen".](../../get-started-with-teams-templates.md) Informationen zu Vorlagen für Microsoft Teams und Microsoft Graph finden Sie in der [Übersicht über die Microsoft Teams-API](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) und unter dem [Ressourcentyp "teamsTemplate".](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0)
+Entwickler können mithilfe von Microsoft Graph Teams mit den Teams-Vorlagen erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](../../get-started-with-teams-templates.md). Informationen zu Teams-Vorlagen und Microsoft Graph finden Sie unter [Microsoft Teams-API – Übersicht](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) und [teamsTemplate-Ressourcentyp](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
-### <a name="ward-template"></a>Vorlage "Vorlage Vorlage"
+### <a name="ward-template"></a>Sationsvorlage
 
-Die Vorlage "Vorlage" ist für Kommunikation und Zusammenarbeit innerhalb eines Orts, einer Abteilung oder einer Abteilung gedacht. Die Vorlage kann verwendet werden, um die Patientenverwaltung sowie die operationalen Anforderungen eines Patienten zu erleichtern. So können beispielsweise Sprechankündigungen  im Kanal "Ankündigungen" veröffentlicht werden, und Schichten können in *"Mitarbeiter" verwaltet werden.* Wenn Sie Ihre Operationsvorgänge für Ihre Abläufe rationalisieren möchten, ist diese Vorlage für Sie da.
+Die Stationsvorlage ist für die Kommunikation und Zusammenarbeit innerhalb einer Station, eines Bereiches oder einer Abteilung gedacht. Die Vorlage kann verwendet werden, um das Patientenmanagement sowie die betrieblichen Anforderungen einer Station zu vereinfachen. Beispielsweise können Stationsankündigungen im *Ankündigungs* kanal veröffentlicht und Schichten in *Personal* verwaltet werden. Wenn Sie Ihren Stationsbetrieb optimieren möchten, ist diese Vorlage genau das Richtige für Sie.
 
-|Basisvorlagentyp |baseTemplateId |Basisplanvorlagenkanäle|
+|Basisvorlagentyp |baseTemplateId |Baseline Vorlagenkanäle|
 |:--- |:---|:---|
-|Gesundheitswesen – Gesundheitswesen | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Ankündigungen\* <br> Huddles\* <br> Rundet\* <br> Personal\* <br> Schulungen\* |
+|Gesundheitswesen – Station | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Ankündigungen\* <br> Huddles\* <br> Runden\* <br> Personal\* <br> Schulung\* |
 |     | |         |
 
-\* Automatische Favoriten
+\*Automatisch favorisiert
 
-### <a name="hospital-template"></a>Vorlage "Krankenhaus"
+### <a name="hospital-template"></a>Krankenhausvorlage
 
-Die Vorlage "Hospital" ist für die Kommunikation und Zusammenarbeit zwischen mehreren Kliniken, Pods und Abteilungen innerhalb eines Krankenhauses gedacht. Diese Vorlage enthält mehrere Betriebskanäle, darunter "Ankündigungen", "Gewahrsam" und "Einsatz" *.* Wir stellen jedoch auch ein Skript darunter zur Verfügung, das die Vorlage um eine Vielzahl zusätzlicher, auf Abteilungs- oder spezialorientierter Kanäle erweitert, die Sie Ihren Wünschen hinzufügen, löschen oder bearbeiten können. Wenn Sie z.  B. über eine Abteilung für Gesichtskunde verfügen, aber keinen Kanal für Sichteny benötigen, kann das Skript so angepasst werden, dass es einen Kanal für DieDikologie enthält und den Kanal  *"Weitersuchen"* *entfernt.* Wir empfehlen, diese speziellen Kanäle oder im Modell modellierten Kanäle nicht automatisch als Favoriten zu verwenden, um eine Benachrichtigungssättigung zu vermeiden. Benutzer favorisierten im Allgemeinen Kanäle, die sie für relevant finden.
+Die Krankenhausvorlage ist für die Kommunikation und Zusammenarbeit zwischen mehreren Stationen, Bereichen und Abteilungen innerhalb eines Krankenhauses vorgesehen. In dieser Vorlage sind mehrere Betriebskanäle enthalten, einschließlich *Ankündigungen*, *Aufsicht* und *Apotheke*. Im Folgenden finden Sie jedoch auch ein Skript, das die Vorlage um eine Reihe zusätzlicher abteilungs- oder spezialitätsorientierter Kanäle erweitert, die Sie nach Ihren Wünschen hinzufügen, löschen oder bearbeiten können. Wenn Sie beispielsweise eine Abteilung für *Endokrinologie* haben, aber keinen Kanal für die *Augenheilkunde* benötigen, kann das Skript so angepasst werden, dass es einen Kanal für die *Endokrinologie* enthält und den Kanal für die *Augenheilkunde* entfernt. Wir empfehlen, diese speziellen oder für Stationen modellierten Kanäle nicht automatisch zu bevorzugen, um eine Benachrichtigungssättigung zu vermeiden. Benutzer bevorzugen im Allgemeinen alle Kanäle, die sie für relevant halten.
 
-|Basisvorlagentyp |baseTemplateId |Basisplanvorlagenkanäle|
+|Basisvorlagentyp |baseTemplateId |Baseline Vorlagenkanäle|
 |:--- |:---|:---|
-|Gesundheitswesen – Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Ankündigungen\* <br> Compliance\* <br> Custodial <br> Personalwesen <br> 1-1 |
+|Gesundheitswesen – Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Ankündigungen\* <br> Compliance\* <br> Sorgerecht <br> Personalwesen <br> Apotheke |
 | | |  |
 
-\* Automatische Favoriten 
+\*Automatisch favorisiert 
 
-### <a name="how-to-use-first-party-templates"></a>Verwenden von Vorlagen von Erstpartei
+### <a name="how-to-use-first-party-templates"></a>So verwenden Sie Vorlagen von Erstanbietern
 
-Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die template@odata.bind-Eigenschaft im Anforderungstext von "standard" in die vorstehenden TemplateIDs.  Weitere Informationen zum Bereitstellen von Vorlagen für Teams finden Sie im Microsoft Graph-Artikel zum Erstellen [eines Teams.](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)
+Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@odata.bind' im Anforderungshauptteil von 'standard' in die obigen TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
-> Die Kanäle in der Vorlage werden automatisch auf der Registerkarte "Allgemein" erstellt.
+> Die Kanäle in der Vorlage werden automatisch auf der Registerkarte Allgemein erstellt.
 
-#### <a name="example-hospital-template-extension-script"></a>Beispiel: Erweiterungsskript für die Vorlage "Hospital"
+#### <a name="example-hospital-template-extension-script"></a>Beispiel: Skript zur Erweiterung der Krankenhausvorlage
 
 ``` Powershell
 { 

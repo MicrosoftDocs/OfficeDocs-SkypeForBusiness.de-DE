@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6e260148cfcdb45c516958bae03ecfadc1bbd64
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: e469017eb9d03cbba55017ca609f49da9ebfe07a
+ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802395"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50819361"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams- und Outlook-E-Mail-Integration
 

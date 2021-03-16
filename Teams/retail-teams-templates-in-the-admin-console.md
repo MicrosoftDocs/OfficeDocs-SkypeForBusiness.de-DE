@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Verkaufsvorlagen für Teams im Admin Center
+title: Verwenden Sie im Admin Center die Teams-Vorlagen für den Einzelhandelsverkauf
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Teamstrukturen erstellen, die für Einzelhändler benötigt werden, indem Sie mithilfe des Admin Centers vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
+description: Erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Teamstrukturen erstellen, die auf die Anforderungen von Einzelhändlern zugeschnitten sind, indem Sie über das Admin Center vordefinierte Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,37 +21,37 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
 ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 12/12/2020
 ms.locfileid: "49662640"
 ---
-# <a name="use-teams-retail-templates-in-the-admin-center"></a>Verwenden von Verkaufsvorlagen für Teams im Admin Center
+# <a name="use-teams-retail-templates-in-the-admin-center"></a>Verwenden Sie im Admin Center die Teams-Vorlagen für den Einzelhandelsverkauf
 
-Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
+Mit Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-In den Teams-Vorlagen gibt es vorgefertigte Definitionen von Teamstrukturen, die für die Anforderungen des Einzelhändlers entwickelt wurden. Mithilfe von Teams-Vorlagen können Sie schnell die Typen von Teams erstellen, die für Einzelhändler gut geeignet sind, und Sie in Ihrer Organisation bereitstellen. Sie können die Teams-Vorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen organisatorischen Anforderungen zugeschnitten sind.
+Teams-Vorlagen enthalten vordefinierte Definitionen von Teamstrukturen, die auf die Bedürfnisse von Einzelhändlern zugeschnitten sind. Mithilfe von Teams-Vorlagen können Sie schnell die für Einzelhändler geeigneten Teamtypen erstellen und in Ihrem Unternehmen bereitstellen. Sie können die Teams-Vorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen organisatorischen Anforderungen zugeschnitten sind.
 
-In diesem Artikel werden die einzelnen Teams-Vorlagen vorgestellt, und es wird empfohlen, diese zu verwenden.
+In diesem Artikel stellen wir die einzelnen Teams-Vorlagen vor und erläutern, wie wir empfehlen sie zu nutzen.
 
-Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer Einzelhandelsorganisation verantwortlich sind. Wir gehen davon aus, dass Sie bereits einen Team Dienst in Ihrer Organisation bereitgestellt haben. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst die [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md).
+Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Einzelhandelsorganisation verantwortlich sind. Wir gehen davon aus, dass Sie den Teams-Service bereits in Ihrer Organisation bereitgestellt haben. Wenn Sie Teams noch nicht eingeführt haben, lesen Sie zunächst die Anleitung zum [Einführen von Microsoft Teams](How-to-roll-out-teams.md).
 
-Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates-in-the-admin-console.md).
+Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates-in-the-admin-console.md).
 
-## <a name="organize-a-store"></a>Organisieren eines Shops
+## <a name="organize-a-store"></a>Ein Store organisieren
 
-Bringen Sie Ihre einzelhandelsmitarbeiter in einer zentralen Erfahrung zusammen, um Aufgaben zu verwalten, Dokumente freizugeben und Kunden Probleme zu lösen. Integrieren Sie zusätzliche Anwendungen, um die Schicht Anfang & Prozesse zu rationalisieren.
+Bringen Sie Ihre Einzelhandelsmitarbeiter in einer zentralen Erfahrung zusammen, um Aufgaben zu verwalten, Dokumente auszutauschen und Kundenprobleme zu lösen. Integrieren Sie zusätzliche Anwendungen, um Start- und Endprozesse von Schichten zu optimieren.
 
-| Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| Basisorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-|Organisieren eines Shops|`retailStore`|Kanäle <ul><li>Allgemein<li>UMSCHALT Übergabe</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Ein Store organisieren|`retailStore`|Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
 ## <a name="manager-collaboration"></a>Manager-Zusammenarbeit
 
-Die Vorlage "Manager-Zusammenarbeit" eignet sich hervorragend zum Erstellen eines Teams für eine Gruppe von Managern für die Zusammenarbeit in verschiedenen Geschäften/Regionen usw. Wenn Ihre Organisation beispielsweise Regionen hat, können Sie ein Manager-Zusammenarbeits Team für die Region Kalifornien erstellen und alle Filialmanager in dieser Region sowie den regionalen Manager für diese Region einbeziehen.
+Die Vorlage der Manager-Zusammenarbeit eignet sich ideal zum Erstellen eines Teams für eine Reihe von Managern, die über Filialen/Regionen usw. hinweg zusammenarbeiten. Wenn Ihre Organisation beispielsweise über Regionen verfügt, können Sie ein Managerkollaborations-Team für die Region Kalifornien erstellen und alle Filialleiter in dieser Region sowie den Regionalmanager für diese Region einbeziehen.
 
-| Basis Vorlagentyp| baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| Basisorlagentyp| baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|- |----------------------------------------------------- |
-|Zusammenarbeit im Einzelhandel – Manager|`retailManagerCollaboration` |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
+|Zusammenarbeit zwischen Einzelhandel und Manager|`retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
