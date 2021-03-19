@@ -21,57 +21,60 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: Informieren Sie sich über die verfügbaren Lizenzen für verschiedene Arten von Anruf-und besprechungsfeatures in Microsoft Teams-Räumen.
-ms.openlocfilehash: 37f47e9b89abd87837b02f8a67c3c82eaa9c7a5c
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+description: Erfahren Sie mehr über die verfügbaren Lizenzen für verschiedene Arten von Anruf- und Besprechungsfeatures in Microsoft Teams Rooms.
+ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662480"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867124"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
+# <a name="teams-meeting-room-licensing-update"></a>Lizenzierungsupdate für Besprechungsraum in Teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Lizenzierungslösungen für freigegebene Kommunikationsgeräte
 
-Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen und Anrufe auf einzelnen Geräten für Besprechungsraum Geräte (wie Microsoft Teams rooms, Microsoft Surface Hub und Kollaborations leisten für Microsoft Teams).
+Microsoft verfügt über zwei dedizierte SKUs für die Lizenzierung von Besprechungen und Anrufe auf Gerätebasis für Besprechungsraumgeräte (z. B. Microsoft Teams Rooms, Microsoft Surface Hub und Zusammenarbeitsbalken für Microsoft Teams).
 
-||SKU des Besprechungsraums |  
-|:--- |:---: |
-|Skype for Business |&#x2714;|
-|Microsoft Teams|  &#x2714;|
-|Telefonsystem|  &#x2714;|
-|Audiokonferenzen|&#x2714; &sup1;|
-|Microsoft InTune|&#x2714;|  
-|Weltweite Verfügbarkeit | &#x2714; &sup2;|
-|Kanalverfügbarkeit | EA, EAS, CSP, <br/>Web Direct |
+||Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
+|:--- |:---: |:---: |
+|Skype for Business |&#x2714;| &#x2714;|
+|Microsoft Teams|  &#x2714;|  &#x2714;|
+|Telefonsystem|  &#x2714;|  &#x2714;|
+|Audiokonferenzen|&#x2714; &Sup1;|&#x2714; &Sup1;|
+|Microsoft Intune|&#x2714;|&#x2714;|  
+|Weltweite Verfügbarkeit | &#x2714; &sup2;| &#x2714; &sup2;|
+|Kanalverfügbarkeit | EA, EAS, CSP, <br/>Web Direct | EA, EAS, CSP, <br/>Web Direct |
+|Verwaltete Dienste | | &#x2714; &sup3;|
 | | | |
 
-&sup1; Verfügbarkeit und eingeschlossene Minuten können je nach Region variieren. Informationen zum Überprüfen der Verfügbarkeit von Diensten finden Sie unter  [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Verbrauchs Gebühren können für zusätzliche Dienste wie gebührenfreie, internationale Minuten für inländische Pläne usw. gelten. Kunden können diese Funktionen deaktivieren, um zusätzliche Abrechnung zu vermeiden.  
+&Sup1; Die Verfügbarkeit und die eingeschlossenen Minuten können je nach Region variieren. Informationen zur Überprüfung der Dienstverfügbarkeit finden Sie unter Verfügbarkeit von Ländern und [Regionen für Audiokonferenzen und Anrufpläne.](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Verbrauchsgebühren können für zusätzliche Dienste wie gebührenfreie, internationale Minuten für Inlandspläne usw. anfallen. Kunden können diese Features deaktivieren, um zusätzliche Abrechnungen zu vermeiden.  
 
-&sup2; In souveränen Clouds nicht verfügbar  
+&sup2; In souveränen Wolken nicht verfügbar  
 
+&sup3; Weitere Informationen und Verfügbarkeit finden Sie unter [verwalteter Microsoft Teams Rooms-Dienst.](microsoft-teams-rooms-premium.md)
 
 > [!NOTE]
-> Wenn Sie derzeit E1-, E3-, E4-, E5-SKUs mit Skype for Business-Plan 2 mit Audiokonferenz oder mit Office 365-Telefon System und einem Anrufplan verwenden, funktionieren diese weiterhin. Sie sollten jedoch in der obigen Tabelle nach dem Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell wechseln.
+> Wenn Sie derzeit E1-, E3-, E4-, E5-SKUs mit Skype for Business Plan 2 mit Audiokonferenzen oder mit Office 365-Telefonsystem und einem Anrufplan verwenden, funktionieren diese weiterhin. Sie sollten jedoch erwägen, nach Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell in der obigen Tabelle zu überlaufen.
 
 > [!IMPORTANT]
-> Wenn Sie Skype for Business Plan 2 verwenden, können Sie die Microsoft Teams-Räume nur im Skype for Business-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business-Besprechungen sind. Um Ihren Besprechungsraum für Microsoft Teams-Besprechungen zu aktivieren, empfehlen wir, die Lizenz für den Besprechungsraum zu erwerben. 
+> Wenn Sie Skype for Business Plan 2 verwenden, können Sie die Microsoft Teams-Räume nur im Skype for Business Only-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business-Besprechungen sind. Um Ihren Besprechungsraum für Microsoft Teams-Besprechungen zu aktivieren, empfiehlt es sich, die Lizenz für den Besprechungsraum zu erwerben. 
 
-In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams-Räumen zur Verfügung stehen, und welche Lizenzen Sie erwerben müssen, um Sie zu erhalten.
+In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams Rooms verfügbar sind, und die Lizenzen, die Sie kaufen müssen, um sie zu erhalten.
   
 > [!NOTE]
 > Der Raum, der eingerichtet wird, muss ein Benutzerobjekt sein, und ihm müssen diese Lizenzen zugewiesen sein.
 
-|  | Sie haben Microsoft Teams oder Skype for Business Online <br/> Sie müssen folgende Lizenz erwerben:   |Sie verfügen über Skype for Business Server 2015/2019 (lokal oder Hybrid). <br/> Sie müssen folgende Lizenz erwerben:|
+|  | Sie verfügen über Microsoft Teams oder Skype for Business Online <br/> Sie müssen folgende Lizenz erwerben:   |Sie verfügen über Skype for Business Server 2015/2019 (lokal oder hybrid). <br/> Sie müssen folgende Lizenz erwerben:|
 |:-----|:-----|:-----|
-|An einer geplanten Besprechung teilnehmen  | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  |
-|Initiieren einer Ad-hoc-Besprechung | SKU des Besprechungsraums  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Initiieren einer Ad-hoc-Besprechung und Abwählen von einer Besprechung zu Telefonnummern |  SKU des Besprechungsraums |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Geben Sie dem Raum eine Telefonnummer, und tätigen oder empfangen Sie Anrufe aus dem Chatroom oder nehmen Sie mit einer Telefonnummer an einer Audiokonferenz Teil  | Mit Direct Routing: Besprechungsraum-SKU<br/>Ohne direktes Routing: Plan für Inlands-oder Auslandsgespräche<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Verwalten Ihres Raum Geräts mit Microsoft InTune |SKU des Besprechungsraums  |Microsoft InTune-Abonnement mit [lokalem MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|An einer geplanten Besprechung teilnehmen  | Microsoft Teams Rooms Standard oder Premium  |Skype for Business Server Standard CAL  |
+|Initiieren einer Ad-hoc-Besprechung | Microsoft Teams Rooms Standard oder Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Initiieren einer Ad-hoc-Besprechung und Abwählen von einer Besprechung zu Telefonnummern |  Microsoft Teams Rooms Standard oder Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Geben Sie dem Raum eine Telefonnummer, und rufen Sie den Raum an, oder nehmen Sie über eine Telefonnummer an einer Audiokonferenz teil.  | Mit Direct Routing: Microsoft Teams Rooms Standard oder Premium<br/>Ohne direktes Routing: Plan für inlands- oder internationale Anrufe<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Verwalten Ihres Raumgeräts mit Microsoft Intune |Microsoft Teams Rooms Standard oder Premium  |Microsoft Intune-Abonnement [mit lokalem MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
+|Verwaltete Microsoft Teams -Dienste | Microsoft Teams Rooms Premium ||
 | |||
 
 > [!NOTE]
-> Wenn Ihnen vorhandene Lizenzen für Room Systems zugewiesen sind, funktionieren diese weiterhin ohne Unterbrechung. Wenn vorhandene Lizenzen ablaufen, sollten Sie die neue Besprechungsraum-SKU verwenden.  
+> Wenn Ihnen vorhandene Lizenzen für Raumsysteme zugewiesen sind, funktionieren diese weiterhin ohne Unterbrechung. Sie sollten die neue SKU des Besprechungsraums verwenden, wenn vorhandene Lizenzen ablaufen.  
 
- **Verwenden Sie die richtige Version von Windows 10**: Informationen für Kunden, die Windows 10-Bilder auf Ihren Geräten bereitstellen möchten, finden Sie unter [Konfigurieren einer Microsoft Teams rooms-Konsole](https://docs.microsoft.com/microsoftteams/room-systems/console). Sie können eine Kopie vom [Volumen Lizenzierungs-Service Center](https://www.microsoft.com/Licensing/servicecenter/)erhalten.
+ **Verwenden Sie die richtige Version von Windows 10:** Kunden, die Windows 10-Bilder auf ihren Geräten bereitstellen möchten, finden Sie unter Konfigurieren [einer Microsoft Teams Rooms-Konsole.](https://docs.microsoft.com/microsoftteams/room-systems/console) Sie können eine Kopie aus dem [Volume Licensing Service Center erhalten.](https://www.microsoft.com/Licensing/servicecenter/)

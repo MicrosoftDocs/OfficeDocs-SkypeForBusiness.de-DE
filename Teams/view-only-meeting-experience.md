@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401319"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867064"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Nur-Ansichts-Besprechungserfahrung in Teams
 
 > [!Note]
-> Die Besprechungserfahrung nur anzeigen wird Anfang März 2021 verfügbar sein. Dieses Feature wird am 1. März 2021 als Standardmäßiges AUS aktiviert. Sie müssen die Standardrichtlinie nach diesem Datum ändern, wenn das Feature standardmäßig EIN sein soll. Verwenden Sie PowerShell, um die Richtlinie zu `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` aktivieren.
+> Nur-Ansichtsübertragungen sind in Microsoft 365 E3/E5 und Microsoft 365 A3/A5 verfügbar. Dieses Feature wird am 1. März 2021 als Standardmäßiges AUS aktiviert. Dieses Feature in Microsoft 365 Government G3/G5-Plänen wird zu einem späteren Zeitpunkt verfügbar sein. Sie müssen die Standardrichtlinie nach diesem Datum ändern, wenn das Feature standardmäßig EIN sein soll. Verwenden Sie PowerShell, um die Richtlinie zu `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` aktivieren.
 
 > [!Note]
 > Wenn Ihre Besprechung oder Ihr Webinar die Kapazität erreicht, wird Teams nahtlos skaliert, um eine nur für 10.000 Personen bestimmte Übertragungserfahrung zu ermöglichen. Nutzen Sie während dieser Zeit der zunehmenden Remotearbeit sogar noch größere 20.000-Personen-Übertragungen bis Zum Ende dieses Jahres.
@@ -65,7 +65,7 @@ Wenn die Kapazität der Haupt besprechung erreicht wurde, kann ein Teilnehmer ni
 
 Wenn die Kapazität der Hauptsitzung erreicht ist, sehen der Besprechungsorganisator und die Organisatorin ein Banner, das sie darüber informiert, dass die Besprechungskapazität erreicht wurde und dass neue Teilnehmer an einem Nur-Ansicht-Teilnehmer teilnehmen.
 
-  ![der Teams-Client- und Bannersysage für Organisatoren und Organisatoren](media/chat-and-banner-message.png)
+  ![die Teamclient- und Bannernachricht für Organisatoren und Organisatoren](media/chat-and-banner-message.png)
 
 Wenn die Kapazität der Hauptbesprechung erreicht ist, werden die Besprechungsteilnehmer auf dem Bildschirm vor der Teilnahme darüber informiert, dass sie nur im Ansichtsmodus teilnehmen.
 
@@ -84,7 +84,7 @@ Zu den Einschränkungen für Besprechungs presenter gehören:
 - Sie können einen Nur-Ansicht-Teilnehmer nicht aus der Besprechung entfernen.
 
 > [!Note]
-> Die Teilnehmeranzahl gibt nur die Personen in der Besprechung und nicht die Personen im Überlaufraum wieder. Daher können Presenter keine genaue Anzahl der Personen erhalten, die sich in der Ansichtserfahrung befindet.
+> Die Teilnehmeranzahl gibt nur die Personen in der Besprechung und nicht die Personen im Nur-Ansicht-Raum wieder. Daher können Presenter keine genaue Anzahl der Personen erhalten, die sich in der Ansichtserfahrung befindet.
 
 ## <a name="experience-for-view-only-attendees"></a>Benutzererfahrung für Nur-Ansicht-Teilnehmer
 
@@ -97,8 +97,8 @@ Die Nur-Ansichtserfahrung von Teams ermöglicht Teilnehmern:
 Der Nur-Ansicht-Teilnehmer kann in Besprechungen nicht die folgenden Optionen anzeigen:
 
 - Nehmen Sie an der Besprechung teil, wenn der Teilnehmer nicht über die Berechtigung zum Umgehen des Wartebereichs basierend auf festgelegten Lobbyrichtlinien oder Optionen verfügt.
-- Nehmen Sie über Audiokonferenzen am Überlaufraum teil.
-- Nehmen Sie über das Microsoft Teams Room System oder über Cloud Video Interop (CVI)-Dienste am Überlaufraum teil.
+- Nehmen Sie mit Audiokonferenzen am Nur-Ansicht-Raum teil.
+- Treten Sie dem Nur-Ansichtsraum mit microsoft Teams Room system oder cloud video interop (CVI)-Diensten bei.
 - Teilen Sie ihre Audio- oder Videodaten.
 - Sie können den Besprechungschat sehen oder daran teilnehmen.
 - Sehen Sie sich den Videofeed der Besprechungsteilnehmer an, es sei denn, der Teilnehmer ist der aktive Sprecher.
@@ -114,8 +114,3 @@ Der Nur-Ansicht-Teilnehmer kann in Besprechungen nicht die folgenden Optionen an
 - Nur-Ansichtsteilnehmer haben nicht die gleiche Latenz wie normale Teilnehmer. <sup>1</sup>
 
   <sup>1</sup> Nur Anzeigende Teilnehmer werden bei einer Video- und Audioverzögerung von 30 Sekunden in der Besprechung angezeigt.  
-
-## <a name="related-topics"></a>Verwandte Themen
-
-- [Advanced Communications Add-On für Teams](teams-add-on-licensing/advanced-communications.md)
-- [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)

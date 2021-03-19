@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170604"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861419"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Verfügbarkeit nach Land und Region für Business Voice
 
@@ -56,7 +56,7 @@ Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enth
 | Vereinigte Staaten        | X                                    | X<sup>1</sup>                                               | X                      |
 | Argentinien            |                                      | X                                                           |                        |
 | Australien            |                                      | X                                                           |                        |
-| Österreich              |                                      | X                                                           |                        |
+| Österreich              | X                                    | X                                                           |                        |
 | Belgien              |                                      | X                                                           |                        |
 | Bosnien und Herzegowina |                                      | X                                                           |                        |
 | Brasilien               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enth
 | Kroatien              |                                      | X                                                           |                        |
 | Zypern               |                                      | X                                                           |                        |
 | Tschechische Republik       |                                      | X                                                           |                        |
-| Dänemark              |                                      | X                                                           |                        |
+| Dänemark              | X                                    | X                                                           |                        |
 | Dominikanische Republik   |                                      | X                                                           |                        |
 | Ecuador              |                                      | X                                                           |                        |
 | Ägypten                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enth
 | Indonesien            |                                      | X                                                           |                        |
 | Irland              |                                      | X                                                           |                        |
 | Israel               |                                      | X                                                           |                        |
-| Italien                |                                      | X                                                           |                        |
+| Italien                | X                                    | X                                                           |                        |
 | Japan                |                                      | X<sup>2</sup>                                               |                        |
 | Jordanien               |                                      | X                                                           |                        |
 | Kenia                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enth
 | Peru                 |                                      | X                                                           |                        |
 | Philippinen          |                                      | X                                                           |                        |
 | Polen               |                                      | X                                                           |                        |
-| Portugal             |                                      | X                                                           |                        |
+| Portugal             | X                                    | X                                                           |                        |
 | Puerto Rico          |                                      | X                                                           |                        |
 | Katar                |                                      | X                                                           |                        |
 | Rumänien              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enth
 | Südkorea          |                                      | X                                                           |                        |
 | Spanien                |                                      | X                                                           |                        |
 | Sri Lanka            |                                      | X                                                           |                        |
-| Schweden               |                                      | X                                                           |                        |
-| Schweiz          |                                      | X                                                           |                        |
+| Schweden               | X                                    | X                                                           |                        |
+| Schweiz          | X                                    | X                                                           |                        |
 | Taiwan               |                                      | X                                                           |                        |
 | Thailand             |                                      | X                                                           |                        |
 | Trinidad und Tobago  |                                      | X                                                           |                        |

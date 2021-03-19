@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams-Panels unterstützten Features.
-ms.openlocfilehash: 913924e62483c1a8d44bfade29e5bc700f92b646
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568921"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867083"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
 
@@ -59,9 +59,7 @@ Die Hardware-, Software- und Netzwerkanforderungen für die Bereitstellung von P
 Für die Verwendung von Teams-Panels benötigen [Sie die Standardlizenz für Microsoft Teams Rooms.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
 
 > [!Note]
->
-> - Wenn Sie Microsoft Teams Rooms bereits in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz für die Verwendung von Teams-Panels.
-> - Sie benötigen eine Microsoft Teams Rooms Premium-Lizenz, um weitere erweiterte Features von Teams Panels verwenden zu können, die in Kürze verfügbar sind.
+> Wenn Sie Microsoft Teams Rooms bereits in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz für die Verwendung von Teams-Panels.
 
 ## <a name="deploy-teams-panels-devices"></a>Bereitstellen von Geräten für Teams panels
 

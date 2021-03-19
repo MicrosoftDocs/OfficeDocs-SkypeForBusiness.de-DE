@@ -26,12 +26,12 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 1bf890c7ffb6fa13730870cb1f4eabecb5df7c85
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
-ms.translationtype: HT
+ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558384"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867034"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -128,7 +128,7 @@ Darüber hinaus kann Ihr Team Apps in Teams verwenden, um Folgendes zu tun:
 
 Die Listen-App in Microsoft Teams hilft Benutzern in Ihrer Organisation beim Nachverfolgen von Informationen und beim Organisieren von Arbeitsabläufen. Die App ist für alle Microsoft Teams-Benutzer vorinstalliert und steht in jedem Team und Kanal als Registerkarte zur Verfügung. Listen können neu erstellt werden, aus vordefinierten Vorlagen oder durch Importieren von Daten in Excel.
 
-Gesundheitsteams können für die ersten Schritte die Vorlage "Patienten" verwenden. Sie können Listen erstellen, um die Bedürfnisse und den Status der Patienten nachzuverfolgen. Vorhandene Patientendaten in Excel-Tabellen können integriert werden, um in Teams eine Liste zu erstellen. Diese Listen können für Szenarien wie Visiten und Patientenüberwachung verwendet werden, um die Pflege zu koordinieren.
+Health teams can use the Patients template to started. Sie können Listen erstellen, um die Bedürfnisse und den Status der Patienten nachzuverfolgen. Vorhandene Patientendaten in Excel-Tabellen können integriert werden, um in Teams eine Liste zu erstellen. Diese Listen können für Szenarien wie Visiten und Patientenüberwachung verwendet werden, um die Pflege zu koordinieren.
 
 So erstellt beispielsweise eine Pflegefachkraft eine Patientenliste in einem Team, das alle Mitglieder des Gesundheitsteams umfasst. Während der Visite greift das Gesundheitsteam über seine Mobilgeräte auf Teams zu und aktualisiert die Patienteninformationen in der Liste, die alle Teammitglieder einsehen können, um auf dem gleichen Stand zu bleiben. Bei Visiten, bei denen sich das Gesundheitsteam versammelt, um wichtige Gesundheitsleistungskennzahlen zu besprechen und auszuwerten, um sicherzustellen, dass sich ein Patient auf einem guten Weg zur Entlassung befindet, können sie diese Informationen mithilfe von Teams auf einem großen Bildschirm teilen. Mitarbeiter des Gesundheitsteams, die sich nicht vor Ort befinden, können remote teilnehmen.
 
