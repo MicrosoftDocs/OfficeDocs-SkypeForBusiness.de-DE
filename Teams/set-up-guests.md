@@ -22,18 +22,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie den Gastzugriff in Microsoft Teams als Office 365-Administrator aktivieren bzw. deaktivieren.
-ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
-ms.translationtype: HT
+ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786777"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884519"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 
 > [!Note]
 
-> Bis **Februar 2021** ist der Gastzugriff ist standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können. Nach dem Aktivieren des Gastzugriffs dauert es möglicherweise ein paar Stunden, bis die Änderungen wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung **Wenden Sie sich an Ihren Administrator** sehen, ist wahrscheinlich der Gastzugriff nicht aktiviert, oder die Einstellungen sind noch nicht wirksam. 
+> Bis **Februar 2021** ist der Gastzugriff ist standardmäßig deaktiviert. Sie müssen den Gastzugriff für Teams aktivieren, bevor Administratoren oder Teambesitzer Gäste hinzufügen können. Nach dem Aktivieren des Gastzugriffs dauert es möglicherweise ein paar Stunden, bis die Änderungen wirksam werden. Wenn Benutzer versuchen, einen Gast zu ihrem Team hinzuzufügen, und dabei die Meldung **Wenden Sie sich an Ihren Administrator** sehen, ist wahrscheinlich der Gastzugriff nicht aktiviert, oder die Einstellungen sind noch nicht wirksam.
 
 > Ab **Februar 2021** wird der Gastzugriff in Microsoft Teams für Neukunden & Bestandskunden, die diese Einstellung nicht konfiguriert haben, standardmäßig aktiviert. Wenn diese Änderung implementiert ist, wird die Gastzugriffsfunktion auf Ihrem Mandanten aktiviert, sofern Sie diese nicht bereits in Microsoft Teams konfiguriert haben. Wenn Sie möchten, dass der Gastzugriff für Ihre Organisation deaktiviert bleibt, müssen Sie sich vergewissern, dass die Einstellung für den Gastzugriff auf **Aus** und nicht auf **Dienststandard** festgelegt ist.
 
@@ -48,7 +48,7 @@ ms.locfileid: "49786777"
 
 3. Legen Sie **Gastzugriff in Microsoft Teams ermöglichen** auf **Ein** fest.
 
-    ![Schalter für „Gastzugriff in Teams ermöglichen“ ist auf „An“ eingestellt ](media/set-up-guests-image1.png)
+    ![Schalter für „Gastzugriff in Teams ermöglichen“ ist auf „An“ eingestellt ](media/guest-access-setting.png)
 
 4. Wählen Sie unter **Anruf**, **Besprechung** und **Messaging** je nach den Funktionen, die Sie Gastbenutzern bereitstellen möchten, **An** oder **Aus** aus.
 
