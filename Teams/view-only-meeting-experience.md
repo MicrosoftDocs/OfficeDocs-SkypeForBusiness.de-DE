@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867064"
+ms.locfileid: "50875055"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Nur-Ansichts-Besprechungserfahrung in Teams
 
 > [!Note]
-> Nur-Ansichtsübertragungen sind in Microsoft 365 E3/E5 und Microsoft 365 A3/A5 verfügbar. Dieses Feature wird am 1. März 2021 als Standardmäßiges AUS aktiviert. Dieses Feature in Microsoft 365 Government G3/G5-Plänen wird zu einem späteren Zeitpunkt verfügbar sein. Sie müssen die Standardrichtlinie nach diesem Datum ändern, wenn das Feature standardmäßig EIN sein soll. Verwenden Sie PowerShell, um die Richtlinie zu `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` aktivieren.
+> Nur-Ansichtsübertragungen sind in Microsoft 365 E3/E5 und Microsoft 365 A3/A5 verfügbar. Dieses Feature wird am 1. März 2021 als Standardmäßiges AUS aktiviert. Das Feature in der Microsoft 365 Government Community Cloud (GCC) beginnt Ende März 2021. Die Einführung von Government Community Cloud High (GCCH) und Department of Defense (DoD) wird zu einem späteren Zeitpunkt durchgeführt. Sie müssen die Standardrichtlinie nach diesem Datum ändern, wenn das Feature standardmäßig EIN sein soll. Verwenden Sie PowerShell, um die Richtlinie zu `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` aktivieren.
 
 > [!Note]
 > Wenn Ihre Besprechung oder Ihr Webinar die Kapazität erreicht, wird Teams nahtlos skaliert, um eine nur für 10.000 Personen bestimmte Übertragungserfahrung zu ermöglichen. Nutzen Sie während dieser Zeit der zunehmenden Remotearbeit sogar noch größere 20.000-Personen-Übertragungen bis Zum Ende dieses Jahres.

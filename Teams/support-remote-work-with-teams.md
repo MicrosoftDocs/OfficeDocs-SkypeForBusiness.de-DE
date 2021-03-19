@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235823"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875095"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -74,7 +74,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (Wie es Microsoft seinen Mitarbeitern ermöglicht, mit Microsoft Teams remote zu arbeiten)
    - [Unterstützung für kleine und mittelständische Unternehmen bei der Remotearbeit mit Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Die neun wichtigsten Methoden, mit denen Microsoft IT Mitarbeitern die Remotearbeit ermöglicht](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Die neun wichtigsten Methoden, mit denen Microsoft IT Mitarbeitern die Remotearbeit ermöglicht](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Microsoft Teams für Bildungseinrichtungen 

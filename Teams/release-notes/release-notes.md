@@ -16,16 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Versionshinweise zu Microsoft Teams-Administratorfeatures.
-ms.openlocfilehash: bda768865d3deda5dac6c0162141dfc3852d8aa3
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: d99f6c0ea90e5de0cefec3d40c6fc599e0aae9f0
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461025"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875015"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Versionshinweise für Microsoft Teams-Administratorfeatures
 
 Diese Versionshinweise enthalten Informationen zu neuen Administratorfeatures für Microsoft Teams.
+
+## <a name="february-22-2021"></a>22. Februar 2021
+
+### <a name="custom-lob-tabs-are-available-for-dod-customers"></a>Benutzerdefinierte Registerkarten (LOB) sind für DoD-Kunden verfügbar.
+
+Jetzt können DoD-Kunden ihre eigenen benutzerdefinierten Teams-Apps (LOB) hochladen und bereitstellen.
 
 ## <a name="february-18-2021"></a>18. Februar 2021
 
@@ -41,7 +47,7 @@ Microsoft Teams ermöglicht bis zu 10.000 Teilnehmern die Teilnahme an einer Tea
 
 ## <a name="january-27-2021"></a>27. Januar 2021
 
-### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in EHR
+### <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in die EGA
 
 Wir haben die Schnittstelle für Microsoft Teams Electronic Health Record (EHR)-Connector und Connector aktualisiert, die es Ärzten leicht macht, einen virtuellen Patientenbesuch oder eine Beratung mit einem anderen Anbieter in Teams direkt aus dem EHR-System zu starten. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/ehr-admin).
 
@@ -55,13 +61,13 @@ Wir haben den Titel von "Firstline Workers" in "Frontline Workers" geändert.
 
 ### <a name="offline-documentation"></a>Offlinedokumentation
 
-Teams wird auch dann weiterhin ausgeführt, wenn Sie offline sind oder unter Bedingungen mit geringer Bandbreite ausgeführt werden. Teams speichert alle Ihre nicht gesendeten Nachrichten für vorhandene Chats (für bis zu 24 Stunden) und sendet sie, sobald Sie wieder online sind. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
+Teams wird auch dann weiterhin ausgeführt, wenn Sie offline sind oder unter Bedingungen mit geringer Bandbreite ausgeführt werden. Teams speichert alle nicht gesendeten Nachrichten für vorhandene Chats (bis zu 24 Stunden) und sendet sie, sobald Sie wieder online sind. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/connectivity-issues).
 
 ## <a name="january-19-2021"></a>19. Januar 2021
 
-### <a name="teams-approvals-app-availability"></a>Verfügbarkeit der App "Genehmigungen" von Teams
+### <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
-Die App "Genehmigungen" steht als persönliche App für alle Microsoft Teams-Benutzer zur Verfügung. Die App "Genehmigungen" bietet eine einfache Möglichkeit, sowohl strukturierte als auch unstrukturierte Genehmigungen in Teams mit Überwachung, Compliance, Verantwortlichkeit und Workflows zu unterstützen. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
+Die App "Genehmigungen" steht als persönliche App für alle Benutzer von Microsoft Teams zur Verfügung. Die App "Genehmigungen" bietet eine einfache Möglichkeit, um in Microsoft Teams Überwachung, Compliance, Verantwortlichkeit und Workflows sowohl in strukturierte als auch unstrukturierte Genehmigungen zu bringen. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/approval-admin).
 
 ## <a name="january-15-2021"></a>15. Januar 2021
 
@@ -101,13 +107,13 @@ Die Lernpfade-Lösung bietet Ihnen eine SharePoint Online-Websitevorlage und die
 
 Microsoft Teams bietet eine Reihe von Features, die für Krankenhäuser und andere Organisationen des Gesundheitswesens nützlich sind, darunter:
 
-- Virtuelle Besuche und Integration von Electronic Healthcare Record (EHR)
+- Virtuelle Besuche und Integration von elektronischen Gesundheitsakten (EGA)
 - Teams-Richtlinienpakete
 - Sicheres Messaging
 - Teams-Vorlagen
-- Pflegekoordinierung und Zusammenarbeit
+- Pflegekoordination und Zusammenarbeit
 
-Diese Funktionalität ist Teil der Microsoft Cloud für Gesundheitswesen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
+Diese Funktionalität ist Bestandteil der Microsoft-Cloud für das Gesundheitswesen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc).
 
 ## <a name="october-27-2020"></a>27. Oktober 2020
 
@@ -371,7 +377,7 @@ Wenn der Benutzer an keinem anderen Ort bei ihrem Microsoft 365-Konto angemeldet
 
 ### <a name="monitor-shifts-with-audit-logs"></a>Überwachen von Schichten mit Überwachungsprotokollen
 
-Sie können das Überwachungsprotokoll durchsuchen, um die Schichtaktivität in Ihrer Organisation anzeigen zu können. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/audit-log-events).
+Sie können das Überwachungsprotokoll durchsuchen, um die Schichtaktivität in Ihrer Organisation anzuzeigen. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/audit-log-events).
 
 ## <a name="june-11-2020"></a>11. Juni 2020
 

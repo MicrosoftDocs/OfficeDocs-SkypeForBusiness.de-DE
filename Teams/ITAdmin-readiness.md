@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33519f6873d2c2479f01dc6a408f279e47e35718
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: e2b764e7843defac163e4d111a49b1cf9a321f27
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49908929"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874875"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -84,7 +84,8 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Konfigurieren der Governance in Microsoft Teams                                     | Erfahren Sie, wie Sie eine Teams-Nachrichtenaufbewahrungsrichtlinie für Ihr Unternehmen erstellen und einzelne Teams archivieren, löschen und wiederherstellen                                                                                   |  [Handbuch für das Konfigurieren der Governance in Microsoft Teams](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungen                          | Gehen Sie Schritt für Schritt durch den Prozess der Bereitstellung des Besprechungs-Workloads für Microsoft Teams.                                                                                                                                       |  [Handbuch für das Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungen](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Konfigurieren von Audiokonferenzen für Microsoft Teams                            | Entdecken Sie die Funktionalitäten von Audiokonferenzen in Teams und erfahren Sie, wie Sie Konferenzbrücken und Einwahlrufnummern zuweisen.                                                                                          |  [Handbuch für das Konfigurieren von Audiokonferenzen für Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| Konfigurieren von Microsoft Teams für Frontline-Mitarbeiter                           | Erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre Frontline-Mitarbeiter konfigurieren und bereitstellen.                                                                                                                  | [Leitfaden zum Konfigurieren von Microsoft Teams für Frontline-Mitarbeiter](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion                           | Erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre Mitarbeiter in Service und Produktion konfigurieren und bereitstellen.                                                                                                                  | [Handbuch für das Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Bereitstellen von Microsoft Teams Rooms                           | Erfahren Sie, wie Sie ein Konto für die Verwendung mit Microsoft Teams Rooms erstellen und konfigurieren und das Gerät im Microsoft Teams Admin Center verwalten.                                                                                                                  | [Bereitstellen von Microsoft Teams Rooms](https://aka.ms/teamsroomslab)              |
 
 <h2>Schnellstarthandbücher</h2>
 

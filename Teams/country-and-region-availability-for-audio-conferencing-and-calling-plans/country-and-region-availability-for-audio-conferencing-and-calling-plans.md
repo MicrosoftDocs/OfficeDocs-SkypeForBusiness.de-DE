@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenfreie und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: ddca7c26d6a645108deeb8776f08141d99943447
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818795"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875125"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -159,7 +159,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 
 Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, laden Sie die Kalkulationstabelle für die Verfügbarkeit der Cloud-Sprachfunktion **["Land/Region" herunter,](https://www.microsoft.com/download/details.aspx?id=102271)** und speichern Sie sie.
 
-**_
+***
 
 Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft Teams-Dienste verfügbar ist, können Sie die Skype for Business- und [Microsoft Teams-Add-On-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) sehen, die Ihnen hilft, Lizenzen zu kaufen und sie Ihren Benutzern zuzuordnen.
 
@@ -171,7 +171,7 @@ Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft T
 
 ### <a name="audio-conferencing"></a>Audiokonferenzen
 
-In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Skype for Business und Microsoft Teams enthalten die Audiokonferenzfunktion für genau diese Situation! Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Wenn Sie sich für Audiokonferenzen für Ihre Organisation entschieden haben, kaufen Sie eine _ *Audiokonferenz**-Lizenz für jede Person in Ihrer Organisation, die eine Audiokonferenz planen/hosten wird.
+In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Skype for Business und Microsoft Teams enthalten die Audiokonferenzfunktion für genau diese Situation! Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Wenn Sie sich für Audiokonferenzen für Ihre Organisation entschieden haben, kaufen Sie eine Lizenz für **Audiokonferenzen** für jede Person in Ihrer Organisation, die eine Audiokonferenz planen/hosten wird.
   
 Bei Audiokonferenzen gibt es gebührenpflichtige und gebührenfreie Telefonnummern, die von Ihren Benutzern zum Einwählen in Besprechungen verwendet werden können. Gebührenpflichtige Telefonnummern für die folgenden Länder oder Regionen werden automatisch als freigegebene Audiokonferenznummern in Organisationen zugewiesen, wenn diese für Audiokonferenz aktiviert sind. Dedizierte gebührenpflichtige und gebührenfreie Nummern können Ihrer Organisation aus weiteren Städten zugewiesen werden.
 
@@ -180,7 +180,7 @@ Bei Audiokonferenzen gibt es gebührenpflichtige und gebührenfreie Telefonnumme
 
 Weitere Informationen zu Audiokonferenz finden Sie unter [Allgemeine Fragen zu Audiokonferenz](../audio-conferencing-common-questions.md).
 
-[Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+[Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762)
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Verwenden der Rückruffunktion oder Hinzufügen anderer Personen zu einer Besprechung, sodass sie daran teilnehmen können
 

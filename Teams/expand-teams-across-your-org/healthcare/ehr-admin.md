@@ -23,17 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams, um Ihr System für virtuelle Besuche einzurichten
-ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: HT
+ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125778"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875175"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in die EGA
 
 Microsoft Teams EGA-Konnektor (Elektronische Gesundheitsakte) erleichtert den Klinikärzten den Start eines virtuellen Patientenbesuchs oder einer Beratung mit einem anderen Anbieter in Teams direkt aus dem EGA-System. Microsoft Teams basiert auf der Microsoft 365-Cloud und ermöglicht die einfache und sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung der HIPAA- (Health Insurance Portability and Accountability Act), HITECH-Zertifizierung und mehr unterstützt.
 Die Kommunikations- und Kollaborationsplattform von Teams erleichtert es Klinikern, die Unordnung fragmentierter Systeme zu beseitigen, damit sie Zeit für die bestmögliche Pflege aufwenden können. Microsoft Teams EGA-Konnektor (Elektronische Gesundheitsakte) kann:
+
 - Virtuelle Besuche von Teams sowohl von Anbieter- als auch von Patientenportalen aus starten.
 - Beim Verbinden und Trennen von Ereignissen in EGA-Metadaten zurückschreiben, um die automatische Überwachung und Aufzeichnung zu ermöglichen.
 - In vorhandene Workflows von Klinikern und Patienten integriert werden und gleichzeitig Microsoft Teams verwenden.
@@ -65,7 +66,7 @@ Sie benötigen außerdem Informationen von folgenden Personen in Ihrer Organisat
 - Epic Kundenanalyst
 
 > [!Note]
-> Bitten Sie Ihren technischen Spezialisten von Epic, den auf dem Epic-Marktplatz verfügbaren Telehealth-Integrationsleitfaden für Epic-Microsoft Teams bereitzustellen.
+> Lesen Sie [den Episch-Microsoft Teams Telehealth-Integrationsleitfaden](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) mit Ihrem technischen Experten von Epic. Stellen Sie sicher, dass alle Voraussetzungen erfüllt sind. 
 
 ## <a name="connector-setup"></a>Konnektor-Setup
 

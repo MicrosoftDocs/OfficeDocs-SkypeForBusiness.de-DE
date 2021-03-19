@@ -12,40 +12,42 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Administratoren können erfahren, welche Daten und Berechtigungen Microsoft Teams-apps von Ihrer Organisation anfordern.
+description: Administratoren können erfahren, welche Daten und Berechtigungen Microsoft Teams-Apps von ihrer Organisation anfordern.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 295bee65120e3c349efe1aa5fbc1e7b42c8da87a
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
+ms.openlocfilehash: 1e6628467d4300130c39a3bade87919fb064a14f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739383"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874705"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
-Microsoft Teams-Apps stellen eine Möglichkeit dar, eine oder mehrere Funktionen in einem _App-Paket_ zu aggregieren, das installiert, aktualisiert und deinstalliert werden kann. Zu diesen Funktionen gehören folgende:
+Microsoft Teams-Apps sind eine Möglichkeit, eine  oder mehrere Funktionen in einem App-Paket zu aggregieren, das installiert, aktualisiert und deinstalliert werden kann. Zu den Funktionen gehören:
 
 - Bots
 - Messagingerweiterungen
 - Registerkarten
 - Connectors
 
-Apps benötigen Einwilligungen der Benutzer und werden im Hinblick auf Richtlinien von der IT verwaltet. Die Berechtigungen und das Risikoprofil einer App werden jedoch größtenteils durch die Berechtigungen und Risikoprofile der Funktionen definiert, die in der App enthalten sind. Daher konzentriert sich dieser Artikel auf Berechtigungen und Überlegungen auf Funktionsebene.
+Apps werden von Benutzern unterstützt und von der IT aus richtlinienpolitischer Sicht verwaltet. Die Berechtigungen und das Risikoprofil einer App werden jedoch in den meisten Prozenten durch die Berechtigungen und Risikoprofile der funktionen definiert, die die App enthält. Daher konzentriert sich dieser Artikel auf Berechtigungen und Überlegungen auf Der Fähigkeitsebene.
 
-Die unten in Großbuchstaben aufgeführten Berechtigungen, zum Beispiel RECEIVE_MESSAGE und REPLYTO_MESSAGE, werden in der [Entwicklerdokumentation für Microsoft Teams](https://aka.ms/teamsdevdocs) oder den [Berechtigungen für Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference) nicht erwähnt. Es handelt sich einfach um eine nur in diesem Artikel verwendete beschreibende Kurzschreibweise.
+Die unten in Großbuchstaben aufgeführten Berechtigungen, z. B. RECEIVE_MESSAGE und REPLYTO_MESSAGE, werden nirgendwo in der [Microsoft Teams-Entwicklerdokumentation](https://aka.ms/teamsdevdocs) oder in den Berechtigungen für Microsoft Graph [angezeigt.](https://developer.microsoft.com/graph/docs/concepts/permissions_reference) Sie sind einfach eine beschreibende Kurzhand für den Zweck dieses Artikels.
 
 
 | Titel   | Beschreibung    |
 |-----------|------------|
-| ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Verwenden Sie die folgenden Tabellen als Leitfaden, um zu verstehen, welche Berechtigungen die apps, die Sie untersuchen, anfordern.</li></ul> |
-| ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Untersuchen Sie die APP oder den Dienst selbst, um zu entscheiden, ob Sie in Ihrer Organisation Zugriff darauf gewähren möchten. Bots können beispielsweise Nachrichten von Benutzern senden und empfangen und – mit Ausnahme von benutzerdefinierten Enterprise-Bots – außerhalb der Compliance-Grenze liegen. Daher erfordert jede APP, die einen bot enthält, diese Berechtigungen und weist das Risikoprofil mindestens auf. </li></ul>|
+| ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Verwenden Sie die nachstehenden Tabellen als Leitfaden, um zu verstehen, welche Berechtigungen die von Ihnen untersuchten Apps anfordern.</li></ul> |
+| ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Recherchieren Sie die App oder den Dienst selbst, um zu entscheiden, ob Sie den Zugriff darauf innerhalb Ihrer Organisation zulassen möchten. Bots senden und empfangen beispielsweise Nachrichten von Benutzern und befinden sich – mit Ausnahme von benutzerdefinierten Enterprise-Bots – außerhalb der Compliancegrenze. Daher erfordert jede App, die einen Bot enthält, diese Berechtigungen und verfügt mindestens über dieses Risikoprofil. </li></ul>|
 
-## <a name="global-app-permissions-and-considerations"></a>Globale App-Berechtigungen und-Überlegungen
+Siehe auch [Anfordern von Geräteberechtigungen für Ihre Registerkarte Microsoft Teams.](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+
+## <a name="global-app-permissions-and-considerations"></a>Berechtigungen und Überlegungen für globale Apps
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
@@ -57,76 +59,76 @@ Keine
 
 ### <a name="considerations"></a>Überlegungen
 
-- Eine APP muss offen legen, welche Daten Sie verwendet und wofür die Daten in den Nutzungsbedingungen und den Datenschutzrichtlinien Links verwendet werden.
+- Eine App muss offenlegen, welche Daten sie verwendet und wofür die Daten in ihren Nutzungsbedingungen und Denkrichtlinienlinks verwendet werden.
 
-- Die [ressourcenspezifische Zustimmung](resource-specific-consent.md) bietet eine Reihe von Berechtigungen, die apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Genehmigungsberechtigungen finden Sie unter [Diagramm Berechtigungsreferenz](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions).
+- [Die ressourcenspezifische Zustimmung](resource-specific-consent.md) bietet eine Reihe von Berechtigungen, die Apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Zustimmungsberechtigungen finden Sie unter [Referenz zu Diagrammberechtigungen.](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)
 
-- Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Genehmigungsberechtigungen. Nachdem eine APP installiert wurde, kann die APP Graph-Berechtigungen über eine Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes zur Zustimmung zu Azure AD-Anwendungen](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience). Sie können API-Berechtigungen und-Zustimmung im Azure-Portal konfigurieren. Weitere Informationen finden Sie unter [Azure Active Directory-Zustimmungs Framework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
+- Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Zustimmungsberechtigungen. Nach der Installation einer App kann die App graph-Berechtigungen über eine Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes zu den Zustimmungserfahrungen für Azure AD-Anwendungen.](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience) Sie können im Azure-Portal API-Berechtigungen und -Zustimmung konfigurieren. Weitere Informationen finden Sie unter [Azure Active Directory-Zustimmungsframework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
 
-## <a name="bots-and-messaging-extensions"></a>Bots und Messaging-Erweiterungen
+## <a name="bots-and-messaging-extensions"></a>Bots und Messagingerweiterungen
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
 - RECEIVE_MESSAGE, REPLYTO_MESSAGE. Der Bot kann Nachrichten von Benutzern empfangen und darauf antworten. <sup>1</sup>
 
-- POST_MESSAGE_USER. Nachdem ein Nutzer eine Nachricht an einen bot gesendet hat, kann der bot dem Nutzer direkte Nachrichten (auch als *proaktive Nachrichten* bezeichnet) senden.
+- POST_MESSAGE_USER. Nachdem ein Benutzer eine Nachricht an einen Bot gesendet hat, kann  der Bot dem Benutzer jederzeit direkte Nachrichten senden (auch als proaktive Nachrichten bezeichnet).
 
-- GET_CHANNEL_LIST. Bots, die zu Teams hinzugefügt wurden, können eine Liste mit Namen und IDs der Kanäle in einem Team erhalten.
+- GET_CHANNEL_LIST. Bots, die zu Teams hinzugefügt werden, können eine Liste der Namen und IDs der Kanäle in einem Team erhalten.
 
 ### <a name="optional-permissions"></a>Optionale Berechtigungen
 
-- Identität. Wenn Sie in einem Kanal verwendet wird, können die APP-Bots auf grundlegende Identitätsinformationen von Teammitgliedern (Vorname, Nachname, Benutzerprinzipalname [UPN], e-Mail-Adresse) zugreifen. Wenn Sie in einem persönlichen oder Gruppen-Chat verwendet wird, kann der bot für diese Benutzer auf dieselben Informationen zugreifen.
+- IDENTITY. Wenn sie in einem Kanal verwendet wird, können die Bots der App auf grundlegende Identitätsinformationen von Teammitgliedern zugreifen (Vorname, Nachname, Benutzername [UPN], E-Mail-Adresse); Wenn er in einem persönlichen Chat oder in einem Gruppenchat verwendet wird, kann der Bot auf dieselben Informationen für diese Benutzer zugreifen.
 
-- POST_MESSAGE_TEAM. Ermöglicht es den Bots einer APP, jederzeit direkte (proaktive) Nachrichten an ein beliebiges Teammitglied zu senden, auch wenn der Benutzer noch nie zuvor mit dem bot gesprochen hat.
+- POST_MESSAGE_TEAM. Ermöglicht es den Bots einer App, jederzeit direkte (proaktive) Nachrichten an jedes Teammitglied zu senden, auch wenn der Benutzer noch nie mit dem Bot gesprochen hat.
 
-- Die folgenden sind keine expliziten Berechtigungen, sondern werden von RECEIVE_MESSAGE und REPLYTO_MESSAGE und den Bereichen impliziert, in denen die Bots verwendet werden können, die im Manifest deklariert werden:
+- Die folgenden Sind keine expliziten Berechtigungen, sondern werden durch RECEIVE_MESSAGE und REPLYTO_MESSAGE und die Bereiche impliziert, in denen die Bots verwendet werden können, die im Manifest deklariert werden:
  
     - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
     - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES, RECEIVE_FILES. <sup>2</sup> steuert, ob ein bot Dateien im persönlichen Chat senden und empfangen kann (noch nicht für Gruppen-Chats oder Kanäle unterstützt).
+- SEND_FILES, RECEIVE_FILES. <sup>2</sup> Steuert, ob ein Bot Dateien in persönlichen Chats senden und empfangen kann (für Gruppenchats oder Kanäle noch nicht unterstützt).
 
 ### <a name="considerations"></a>Überlegungen
 
-- Bots haben nur Zugriff auf Teams, denen Sie hinzugefügt wurden, oder auf Benutzer, die Sie installiert haben.
+- Bots haben nur Zugriff auf Teams, denen sie hinzugefügt wurden, oder auf Benutzer, die sie installiert haben.
 
-- Bots empfangen nur Nachrichten, in denen Sie von den Benutzern ausdrücklich erwähnt werden. Diese Daten verlassen das Unternehmensnetzwerk.
+- Bots empfangen nur Nachrichten, in denen sie explizit von Benutzern erwähnt werden. Diese Daten verlässt das Unternehmensnetzwerk.
 
-- Bots können nur auf Unterhaltungen Antworten, in denen Sie erwähnt werden.
+- Bots können nur auf Unterhaltungen antworten, in denen sie erwähnt werden.
 
-- Nachdem ein Nutzer sich mit einem bot unterhalten hat, kann er, wenn der bot die ID des Nutzers speichert, diesen Nutzer jederzeit direkt Nachrichten senden.
+- Nachdem sich ein Benutzer mit einem Bot unterhalten hat, kann er, wenn der Bot die ID des Benutzers speichert, jederzeit direkte Nachrichten an den Benutzer senden.
 
-- Es ist theoretisch möglich, dass bot-Nachrichten Links zu Phishing-oder Malware-Websites enthalten, aber Bots können vom Benutzer, dem mandantenadministrator oder Global von Microsoft blockiert werden.
+- Botnachrichten können theoretisch Links zu Phishing- oder Schadsoftwarewebsites enthalten, Bots können jedoch vom Benutzer, dem Mandantenadministrator oder global von Microsoft blockiert werden.
 
-- Ein Bot kann sehr einfache Identitätsinformationen für die Teammitglieder, denen die app hinzugefügt wurde, oder für einzelne Benutzer in persönlichen oder Gruppen-Chats abrufen (und möglicherweise speichern). Um weitere Informationen zu diesen Benutzern zu erhalten, muss der bot die Anmeldung bei Azure Active Directory (Azure AD) anfordern.
+- Ein Bot kann sehr grundlegende Identitätsinformationen für die Teammitglieder, zu der die App hinzugefügt wurde, oder für einzelne Benutzer in persönlichen Chats oder Gruppenchats abrufen (und speichern). Um weitere Informationen zu diesen Benutzern zu erhalten, muss der Bot diese zur Anmeldung bei Azure Active Directory (Azure AD) benötigen.
 
-- Bots können die Liste der Kanäle in einem Team abrufen (und möglicherweise speichern). Diese Daten verlassen das Unternehmensnetzwerk.
+- Bots können die Liste der Kanäle in einem Team abrufen (und möglicherweise speichern). Diese Daten verlässt das Unternehmensnetzwerk.
 
-- Wenn eine Datei an einen bot gesendet wird, verlässt die Datei das Unternehmensnetzwerk. Für das Senden und empfangen von Dateien ist die Benutzergenehmigung für jede Datei erforderlich. 
+- Wenn eine Datei an einen Bot gesendet wird, verlässt die Datei das Unternehmensnetzwerk. Das Senden und Empfangen von Dateien erfordert die Zustimmung des Benutzers für jede Datei. 
 
-- Standardmäßig sind Bots nicht in der Lage, im Namen des Benutzers zu agieren, aber Bots können Nutzer bitten, sich anzumelden. Sobald sich der Benutzer anmeldet, verfügt der bot über ein Zugriffstoken, mit dem er zusätzliche Aufgaben ausführen kann. Genau das, was diese zusätzlichen Dinge sind, hängt vom bot ab und von der Stelle, an der sich der Benutzer anmeldet: ein Bot ist eine Azure AD-App, die bei registriert ist https://apps.dev.microsoft.com/ und über einen eigenen Satz von Berechtigungen verfügen kann.
+- Standardmäßig können Bots nicht im Auftrag des Benutzers handeln, bots können benutzer jedoch bitten, sich zu anmelden. Sobald sich der Benutzer meldet, hat der Bot ein Zugriffstoken, mit dem er zusätzliche Dinge tun kann. Was genau diese zusätzlichen Dinge sind, hängt vom Bot und davon ab, wo sich der Benutzer angemeldet hat: Ein Bot ist eine Azure AD-App, die bei registriert ist und über eigene Berechtigungen https://apps.dev.microsoft.com/ verfügen kann.
 
-- Bots werden benachrichtigt, wenn Benutzer zu einem Team hinzugefügt oder daraus gelöscht werden.
+- Bots werden informiert, wenn Benutzer zu einem Team hinzugefügt oder aus diesem gelöscht werden.
 
-- Für Bots werden die IP-Adressen der Benutzer oder andere Verweisinformationen nicht angezeigt. Alle Informationen stammen von Microsoft. (Es gibt eine Ausnahme: Wenn ein bot seine eigene Anmelde Erfahrung implementiert, werden die IP-Adressen und Verweisinformationen der Benutzer auf der Anmelde-UI angezeigt.)
+- Bots sehen keine IP-Adressen oder andere Verweisinformationen der Benutzer. Alle Informationen stammen von Microsoft. (Es gibt eine Ausnahme: Wenn ein Bot eine eigene Anmeldeerfahrung implementiert, werden auf der Anmelde-UI die IP-Adressen und Verweisinformationen der Benutzer angezeigt.)
 
-- Messaging-Erweiterungen hingegen sehen die IP-Adressen und Verweisinformationen von Benutzern.
+- Nachrichtenerweiterungen sehen dagegen die IP-Adressen und Verweisinformationen der Benutzer.
 
-- App-Richtlinien (und unser AppSource-Überprüfungsprozess) erfordern Diskretion beim Posten persönlicher Chatnachrichten an Benutzer (über die POST_MESSAGE_TEAM-Berechtigung) für gültige Zwecke. Im Fall von Missbrauch können Benutzer den bot blockieren, mandantenadministratoren können die APP blockieren, und Microsoft kann Bots bei Bedarf zentral blockieren.
+- App-Richtlinien (und unser AppSource-Überprüfungsprozess) erfordern einen Ermessensspielraum beim Posten persönlicher Chatnachrichten für Benutzer (über die Berechtigung POST_MESSAGE_TEAM) zu gültigen Zwecken. Bei Missbrauch können Benutzer den Bot blockieren, Mandantenadministratoren können die App blockieren, und Microsoft kann Bots bei Bedarf zentral blockieren.
 
-<sup>1</sup> einige Bots senden nur Nachrichten (POST_MESSAGE_USER). Sie werden als "Benachrichtigungs-only"-Bots bezeichnet, aber der Ausdruck bezieht sich nicht auf das, was ein bot erlaubt oder nicht erlaubt, was bedeutet, dass der bot keine Konversations Erfahrung machen möchte. Teams verwendet dieses Feld, um Funktionen in der UI zu deaktivieren, die normalerweise aktiviert werden. der Bot ist nicht eingeschränkt in dem, was er zu tun hat, im Vergleich zu Bots, die eine Konversations Erfahrung machen.
+<sup>1</sup> Einige Bots senden nur Nachrichten (POST_MESSAGE_USER). Sie werden als "Benachrichtigungs-only"-Bots bezeichnet, aber der Ausdruck bezieht sich nicht auf die zulässigen oder nicht zulässigen Bots. Dies bedeutet, dass der Bot keine Unterhaltungserfahrung verfügbar machen möchte. Teams verwendet dieses Feld, um Funktionen auf der Benutzeroberfläche zu deaktivieren, die normalerweise aktiviert würden. Der Bot ist im Vergleich zu Bots, die eine Unterhaltungserfahrung verfügbar machen, nicht eingeschränkt.
 
-<sup>2</sup> unterliegt der supportsFiles-booleschen Eigenschaft für das bot-Objekt in der Datei manifest.jsfür die app.
+<sup>2</sup> Unterliegt der booleschen SupportsFiles-Eigenschaft für das Bot-Objekt im manifest.jsfür die App.
 
 > [!NOTE]
-> Wenn ein bot eine eigene Anmeldung hat, gibt es eine zweite – anders – Zustimmungs Erfahrung, wenn sich der Benutzer zum ersten Mal anmeldet.
+> Wenn ein Bot über eine eigene Anmeldung verfügt, gibt es eine zweite – unterschiedliche – Zustimmungserfahrung, wenn sich der Benutzer zum ersten Mal anmeldet.
 >
->Derzeit sind die Azure AD-Berechtigungen, die einer der Funktionen in einer Teams-app (bot-, Tab-, Connector-oder Messaging-Erweiterung) zugeordnet sind, vollständig von den hier aufgelisteten Teams-Berechtigungen getrennt.
+>Derzeit sind die Azure AD-Berechtigungen, die mit einer der Funktionen in einer Teams-App (Bot, Registerkarte, Connector oder Messagingerweiterung) verknüpft sind, vollständig von den hier aufgeführten Teams-Berechtigungen getrennt.
 
 ## <a name="tabs"></a>Registerkarten
 
-Eine Registerkarte ist eine Website, die innerhalb von Teams ausgeführt wird.
+Eine Registerkarte ist eine Website, die in Teams ausgeführt wird.
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
@@ -134,17 +136,17 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ### <a name="optional-permissions"></a>Optionale Berechtigungen
 
-Keine (derzeit)
+Keine (aktuell)
 
 ### <a name="considerations"></a>Überlegungen
 
-- Das Risikoprofil einer Registerkarte ist nahezu identisch mit der Website, die auf einer Browserregister Karte ausgeführt wird. 
+- Das Risikoprofil für eine Registerkarte ist fast identisch mit der Website, die auf einer Browserregisterkarte ausgeführt wird. 
 
-- Eine Registerkarte ruft auch den Kontext ab, in dem Sie ausgeführt wird, darunter den Anmeldenamen und den UPN des aktuellen Benutzers, die Azure AD-Objekt-ID für den aktuellen Benutzer, die ID der Microsoft 365-Gruppe, in der Sie sich befindet (sofern es sich um ein Team handelt), die Mandanten-ID und das aktuelle Gebietsschema des Benutzers. Damit diese IDs jedoch den Informationen eines Benutzers zugeordnet werden können, muss sich der Benutzer bei Azure AD anmelden.
+- Eine Registerkarte ruft auch den Kontext ab, in dem sie ausgeführt wird, einschließlich des Anmeldenamens und des UPNs des aktuellen Benutzers, der Azure AD-Objekt-ID für den aktuellen Benutzer, der ID der Microsoft 365-Gruppe, in der sie sich befindet (wenn es sich um ein Team, die Mandanten-ID und das aktuelle Locale des Benutzers) befindet. Um diese IDs jedoch den Informationen eines Benutzers zu zuordnungen, müsste sich der Benutzer auf der Registerkarte bei Azure AD anmelden.
 
 ## <a name="connectors"></a>Connectors
 
-Ein Connector Bucht Nachrichten in einem Kanal, wenn Ereignisse in einem externen System auftreten.
+Ein Verbinder postet Nachrichten an einen Kanal, wenn Ereignisse in einem externen System auftreten.
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
@@ -152,30 +154,30 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>Optionale Berechtigungen
 
-REPLYTO_CONNECTOR_MESSAGE. Bestimmte Connectors unterstützen umsetzbare Nachrichten, mit denen Benutzer gezielte Antworten auf die Connector-Nachricht senden können, beispielsweisedurch Hinzufügen einer Antwort auf ein GitHub-Problem oder durch Hinzufügen eines Datums zu einer Trello-Karte.
+REPLYTO_CONNECTOR_MESSAGE. Bestimmte Connectors unterstützen aktionsfähige Nachrichten, die Benutzern das Posten gezielter Antworten auf die Connectornachricht ermöglichen, z. B. durch Hinzufügen einer Antwort auf ein GitHub-Problem oder Hinzufügen eines Datums zu einer Trello-Karte.
 
 ### <a name="considerations"></a>Überlegungen
 
-- Das System, in dem Connector-Nachrichten gepostet werden, weiß nicht, wer die Nachricht sendet oder wer die Nachrichten empfängt: Es werden keine Informationen über den Empfänger veröffentlicht. (Microsoft ist der tatsächliche Empfänger, nicht der Mandant; Microsoft führt den eigentlichen Beitrag für den Kanal aus.)
+- Das System, das Verbindernachrichten postet, weiß nicht, an wen es beiträget oder wer die Nachrichten empfängt: Es werden keine Informationen über den Empfänger offengelegt. (Microsoft ist der eigentliche Empfänger und nicht der Mandant; Microsoft führt den eigentlichen Beitrag im Kanal aus.)
 
-- Keine Daten verlassen das Unternehmensnetzwerk, wenn Connector-Nachrichten in einem Kanal bereitgestellt werden.
+- Wenn Verbindernachrichten in einem Kanal gepostet werden, werden keine Daten aus dem Unternehmensnetzwerk gesendet.
 
-- Connectors, die umsetzbare Nachrichten (REPLYTO_CONNECTOR_MESSAGE Berechtigung) unterstützen, sehen auch keine IP-Adressen-und Verweisinformationen; Diese Informationen werden an Microsoft gesendet und dann an HTTP-Endpunkte weitergeleitet, die zuvor bei Microsoft im Connectors-Portal registriert wurden.
+- Connectors, die aktionsfähige Nachrichten (REPLYTO_CONNECTOR_MESSAGE) unterstützen, sehen auch keine #A0 und Verweisinformationen. Diese Informationen werden an Microsoft gesendet und dann an HTTP-Endpunkte geleitet, die zuvor im Connectorsportal bei Microsoft registriert waren.
 
-- Jedes Mal, wenn ein Connector für einen Kanal konfiguriert ist, wird eine eindeutige URL für diese Connector-Instanz erstellt. Wenn diese Connector-Instanz gelöscht wird, kann die URL nicht mehr verwendet werden.
+- Jedes Mal, wenn ein Connector für einen Kanal konfiguriert wird, wird eine eindeutige URL für diese Connectorinstanz erstellt. Wenn diese Connectorinstanz gelöscht wird, kann die URL nicht mehr verwendet werden.
 
-- Connector-Nachrichten können keine Dateianlagen enthalten.
+- Connectornachrichten können keine Dateianlagen enthalten.
 
-- Die URL der Connector-Instanz sollte als geheim/vertraulich behandelt werden: jede Person, die über diese URL verfügt, kann Sie wie eine e-Mail-Adresse Posten. Daher besteht ein gewisses Risiko von Spam oder Links zu Phishing-oder Malware-Websites. In diesem Fall können Teambesitzer die Connector-Instanz löschen.
+- Die URL der Connectorinstanz sollte als geheim/vertraulich behandelt werden: Jeder, der über diese URL verfügt, kann sie posten, z. B. eine E-Mail-Adresse. Daher besteht ein gewisses Risiko von Spam oder Links zu Phishing- oder Schadsoftwarewebsites. In diesem Fall können Teambesitzer die Connectorinstanz löschen.
 
-- Wenn der Dienst, der Connector-Nachrichten sendet, kompromittiert wurde und mit dem Senden von Spam/Phishing/Malware-Links beginnt, kann ein mandantenadministrator verhindern, dass neue Connector-Instanzen erstellt werden, und Microsoft kann Sie zentral blockieren.
+- Wenn der Dienst, der Connectornachrichten sendet, gefährdet werden und mit dem Senden von Spam-/Phishing-/Schadsoftwarelinks beginnen soll, kann ein Mandantenadministrator verhindern, dass neue Connectorinstanzen erstellt werden, und Microsoft kann sie zentral blockieren.
 
 > [!NOTE]
-> Es ist derzeit nicht möglich zu wissen, welche Connectors umsetzbare Nachrichten (REPLYTO_CONNECTOR_MESSAGE Berechtigung) unterstützen.
+> Es ist derzeit nicht möglich zu wissen, welche Verbinder aktionsfähige Nachrichten (REPLYTO_CONNECTOR_MESSAGE unterstützen).
 
-## <a name="outgoing-webhooks"></a>Ausgehende webhooks
+## <a name="outgoing-webhooks"></a>Ausgehende Webhooks
 
-*Ausgehende webhooks* werden von Teambesitzern oder Teammitgliedern im Handumdrehen erstellt. Sie sind keine Funktionen von Teams-apps; Diese Informationen sind zur Vollständigkeit enthalten.
+*Ausgehende Webhooks* werden von Teambesitzern oder Teammitgliedern im Flug erstellt. Sie sind keine Funktionen von #A0 Diese Informationen sind aus Gründen der Vollständigkeit enthalten.
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 
@@ -187,10 +189,10 @@ Keine
 
 ### <a name="considerations"></a>Überlegungen
 
-- Ausgehende webhooks ähneln Bots, haben aber weniger Privilegien. Sie müssen ausdrücklich erwähnt werden, genau wie Bots.
+- Ausgehende Webhooks ähneln Bots, verfügen aber über weniger Berechtigungen. Sie müssen explizit erwähnt werden, genau wie Bots.
 
-- Beim Registrieren eines ausgehenden webhooks wird ein geheimer Schlüssel generiert, der dem ausgehenden webhook ermöglicht, zu überprüfen, ob der Absender Microsoft Teams im Gegensatz zu einem böswilligen Angreifer ist. Dieses Geheimnis sollte geheim bleiben; Jeder Benutzer, der Zugriff darauf hat, kann die Identität von Microsoft Teams einsehen. Wenn das Geheimnis beeinträchtigt wird, kann der ausgehende webhook gelöscht und neu erstellt werden, und es wird ein neuer Schlüssel generiert.
+- Wenn ein ausgehender Webhook registriert ist, wird ein Geheimtipp generiert, mit dem der ausgehende Webhook überprüfen kann, ob es sich bei dem Absender um Microsoft Teams im Gegensatz zu einem böswilligen Angreifer handelt. Dieses Geheimnis sollte geheim bleiben. Jeder, der Darauf zugreifen kann, kann microsoft Teams als Identitätswechsel verwenden. Wenn das Geheimnis gefährdet ist, kann der ausgehende Webhook gelöscht und neu erstellt werden, und ein neuer Geheimtipp wird generiert.
 
-- Obwohl es möglich ist, einen ausgehenden webhook zu erstellen, der den geheimen Schlüssel nicht überprüft, empfehlen wir dafür.
+- Obwohl es möglich ist, einen ausgehenden Webhook zu erstellen, der das Geheimnis nicht überprüft, empfehlen wir dagegen.
 
-- Anders als das empfangen und beantworten von Nachrichten können ausgehende webhooks nicht viel tun: Sie können keine proaktiven Nachrichten senden, Sie können keine Dateien senden oder empfangen, Sie können nichts anderes tun, was Bots tun können, außer zu empfangen und auf Nachrichten zu antworten.
+- Außer dem Empfangen und Beantworten von Nachrichten können ausgehende Webhooks nicht viel tun: Sie können keine Nachrichten proaktiv senden, sie können keine Dateien senden oder empfangen, sie können nichts anderes tun, als Nachrichten zu empfangen und zu beantworten.

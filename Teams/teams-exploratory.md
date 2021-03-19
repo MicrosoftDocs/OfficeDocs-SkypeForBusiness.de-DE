@@ -18,16 +18,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196469"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867044"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 
-Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion](iw-trial-teams.md) wurde durch die explorative Microsoft Teams-Umgebung ersetzt.
+Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion](iw-trial-teams.md) wurde durch die Microsoft Teams Exploratory-Umgebung ersetzt.
+
+> [!NOTE]
+> Es gilt ein Grenzwert von 100 Microsoft Teams Exploratory-Lizenzen pro Mandant.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Was steckt in der Microsoft Teams Exploratory-Umgebung?
 
@@ -131,8 +134,8 @@ So deaktivieren Sie die Lizenz für die Microsoft Teams Exploratory-Umgebung:
 
 4. Wechseln Sie im Bereich **Produktlizenzen** die Umschaltfläche für die explorative Lizenz auf **Aus**.
 
-    >[!Note]
-    >Die Umschaltfläche für die explorative Microsoft Teams-Umgebung wird angezeigt, sobald der erste Benutzer in der Organisation die explorative Microsoft Teams-Umgebung startet.
+    > [!NOTE]
+    > Die Umschaltfläche für die explorative Microsoft Teams-Umgebung wird angezeigt, sobald der erste Benutzer in der Organisation die explorative Microsoft Teams-Umgebung startet.
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Verwalten von Microsoft Teams für Benutzer, die über die explorative Microsoft Teams-Lizenz verfügen
 
@@ -180,4 +183,9 @@ Seit Anfang 2021 ist Teams Exploratory für alle Neukunden als 12-Monats-Abonnem
 
 Am Ende des 12-monatigen Abonnements sollten Administratoren die Testlizenz aller Teams Exploratory-Benutzer in eine kostenpflichtige Lizenz umwandeln, die Teams beinhaltet. Dies muss unbedingt vor Ablauf des Teams Exploratory-Abonnements erfolgen, um Unterbrechungen der Benutzererfahrung zu vermeiden.
 
+
+> [!NOTE]
+> Nach Ablauf der vorherigen Exploratory-Testlizenz werden Kunden deaktiviert und drei Monate lang daran gehindert, eine neue Testversion zu starten.
+
 Weitere Informationen finden Sie unter [Upgrade von Benutzern der Teams Exploratory-Lizenz](#upgrade-users-from-the-teams-exploratory-license)), oben in diesem Artikel.
+

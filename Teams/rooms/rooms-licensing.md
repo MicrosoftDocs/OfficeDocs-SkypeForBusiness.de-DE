@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die verfügbaren Lizenzen für verschiedene Arten von Anruf- und Besprechungsfeatures in Microsoft Teams Rooms.
-ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867124"
+ms.locfileid: "50875155"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Lizenzierungsupdate für Besprechungsraum in Teams
 
@@ -77,4 +77,6 @@ In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams R
 > [!NOTE]
 > Wenn Ihnen vorhandene Lizenzen für Raumsysteme zugewiesen sind, funktionieren diese weiterhin ohne Unterbrechung. Sie sollten die neue SKU des Besprechungsraums verwenden, wenn vorhandene Lizenzen ablaufen.  
 
- **Verwenden Sie die richtige Version von Windows 10:** Kunden, die Windows 10-Bilder auf ihren Geräten bereitstellen möchten, finden Sie unter Konfigurieren [einer Microsoft Teams Rooms-Konsole.](https://docs.microsoft.com/microsoftteams/room-systems/console) Sie können eine Kopie aus dem [Volume Licensing Service Center erhalten.](https://www.microsoft.com/Licensing/servicecenter/)
+ **Verwenden Sie die richtige Version von Windows 10:** Kunden, die Windows 10-Bilder auf ihren Geräten bereitstellen möchten, finden Sie unter Konfigurieren [einer Microsoft Teams Rooms-Konsole.](https://docs.microsoft.com/microsoftteams/room-systems/console) Sie können eine Kopie aus dem [Volume Licensing Service Center erhalten.](https://www.microsoft.com/Licensing/servicecenter/) 
+ 
+ Siehe auch [Großartige Besprechungsraumerfahrungen: Lernen Sie](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)die neuen Microsoft Teams Rooms Standard und Premium kennen.

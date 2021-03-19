@@ -17,16 +17,16 @@ description: Erfahren Sie, wie Sie im Microsoft Teams Admin Center den Bericht z
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b6957effb494e2b7509d0e8ddc15f64baeb30be
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867054"
+ms.locfileid: "50875025"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
-Der Bericht zur Verwendung von Microsoft Teams PSTN im Microsoft Teams Admin Center bietet ihnen einen Überblick über die Aktivitäten zum Anrufen und Audiokonferenzen in Ihrer Organisation. Sie können detaillierte Anrufaktivitäten für Anrufpläne anzeigen, wenn Sie Microsoft als Telefonieanbieter und für Direct Routing verwenden, wenn Sie Ihren eigenen Telefonnetzbetreiber verwenden.
+Der Nutzungsbericht des Teams PSTN (Public Switched Telephone Network) im Microsoft Teams Admin Center bietet Ihnen einen Überblick über die Aktivitäten von Anrufen und Audiokonferenzen in Ihrer Organisation. Sie können detaillierte Anrufaktivitäten für Anrufpläne anzeigen, wenn Sie Microsoft als Telefonieanbieter und für Direct Routing verwenden, wenn Sie Ihren eigenen Telefonnetzbetreiber verwenden.
 
 Auf **der Registerkarte Anrufpläne** werden Informationen angezeigt, einschließlich der Anzahl der Minuten, die Benutzer für eingehende und ausgehende PSTN-Anrufe auf sich haben, sowie die Kosten für diese Anrufe. Auf **der Registerkarte Direktes Routing** werden Informationen einschließlich der SIP-Adresse und der Start- und Endzeiten von Anrufen angezeigt. Verwenden Sie die Informationen in diesem Bericht, um Einblicke in die PSTN-Nutzung in Ihrer Organisation zu erhalten und Ihnen dabei zu helfen, Geschäftsentscheidungen zu untersuchen, zu planen und zu treffen.
 

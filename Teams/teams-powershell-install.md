@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie, wie Sie die PowerShell-Steuerelemente zum Verwalten von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569111"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874805"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installieren von Microsoft Teams PowerShell
 
@@ -74,7 +74,7 @@ Install-Module PowerShellGet -Force -AllowClobber
 Führen Sie zum Installieren der öffentlichen Vorschau von Teams PowerShell den folgenden PowerShell-Befehl aus.
 
 > [!NOTE]
-> Sie finden die neueste Vorschauversion im [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) oder in PowerShell, indem Sie "Find-Module MicrosoftTeams -AllowPrerelease" ausführen.
+> Sie finden die neueste Vorschauversion im [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) oder in PowerShell, indem Sie "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions" ausführen.
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
@@ -111,6 +111,19 @@ Connect-MicrosoftTeams -Credential $credential
 
 #Connection to Skype for Business Online and import into Ps session
 $session = New-CsOnlineSession -Credential $credential
+Import-PsSession $session
+```
+
+## <a name="sign-in-using-mfa-and-modern-authentication"></a>Anmelden mit MFA und moderner Authentifizierung
+
+ Wenn Ihr Konto die mehrstufige Authentifizierung verwendet, verwenden Sie die Schritte in diesem Abschnitt.
+
+```powershell
+#Connect to Microsoft Teams
+Connect-MicrosoftTeams -AccountId <UPN>
+
+#Connection to Skype for Business Online and import into Ps session
+$session = New-CsOnlineSession
 Import-PsSession $session
 ```
 

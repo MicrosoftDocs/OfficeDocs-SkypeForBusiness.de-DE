@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661900"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874895"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -64,8 +64,7 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>6</sup> Nur Kontakte im Standardkontaktordner. Der Zugriff auf andere Kontaktordner oder Unterordner wird nicht unterstützt.
 
-<sup>7</sup> Teams berücksichtigt die Einstellung der [Outlook im Web-Postfachrichtlinie](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy), die von Mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung für **-SetPhotoEnabled** in der Richtlinie deaktiviert ist, können Benutzer Ihr Profilbild nicht hinzufügen, ändern oder entfernen. Wenn ein Benutzer beispielsweise ein Profilbild hochlädt, das von der IT- oder Personalabteilung Ihrer Organisation genehmigt wurde, ist keine Aktion erforderlich. Lädt ein Benutzer jedoch ein unangemessenes Bild hoch, ändern Sie es gemäß den internen Richtlinien Ihrer Organisation.
-
+<sup>7</sup> Teams berücksichtigt die Einstellung der [Outlook im Web-Postfachrichtlinie](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy), die von Mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **-SetPhotoEnabled** in der Richtlinie deaktiviert ist, können Benutzer ihr Profilbild nicht hinzufügen, ändern oder entfernen, sodass das Porfilebild nicht mit Teams synchronisiert wird, wenn der Administrator das Foto ändert.
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen für die optimale Nutzung von Microsoft Teams

@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams-Panels unterstützten Features.
-ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867083"
+ms.locfileid: "50875075"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
 
@@ -59,7 +59,7 @@ Die Hardware-, Software- und Netzwerkanforderungen für die Bereitstellung von P
 Für die Verwendung von Teams-Panels benötigen [Sie die Standardlizenz für Microsoft Teams Rooms.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
 
 > [!Note]
-> Wenn Sie Microsoft Teams Rooms bereits in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz für die Verwendung von Teams-Panels.
+> Wenn Sie microsoft Teams Rooms bereits in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz für die Verwendung von Teams-Panels.
 
 ## <a name="deploy-teams-panels-devices"></a>Bereitstellen von Geräten für Teams panels
 
@@ -90,7 +90,7 @@ Unsere Empfehlungen für Teams-Panels-Websites sind:
 
 - Dedizierte Ressourcenkonten
 - Stromversorgung (Panels unterstützen in der Regel Power over Ethernet plus (PoE+) für Strom. Alle gerätespezifischen Energieanforderungen finden Sie in der OEM-Dokumentation.)
-- Quality of Service (QoS) im Netzwerk für Microsoft Teams aktiviert
+
 
 Überlegungen zur physischen Installation finden Sie in der OEM-Dokumentation, und verwenden Sie, falls Sie über eine verfügen, die Erfahrung Ihres audio-visuellen Teams, bevor Sie Geräte installieren und mounten und Verkabelungen ausführen.
 
@@ -105,15 +105,13 @@ Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Schlüsse
 
 Für jedes Teampanel-Gerät ist ein Microsoft 365-Raumressourcenkonto erforderlich. Sie verwenden die Anmeldeinformationen des Ressourcenkontos, um sich bei der Microsoft Teams-App auf dem Panelgerät zu anmelden.
 
-Zum Einrichten eines Microsoft 365-Ressourcenkontos für Teams-Panels müssen Sie eine [Microsoft Teams Rooms Standard-Lizenz erwerben.](#license-requirement) Diese Lizenz enthält ein Ressourcenpostfach, mit dem Personen in Ihrer Organisation den Besprechungsraum über Outlook oder Teams buchen können.
-
-Informationen zum Erstellen eines Ressourcenkontos und zum Zuweisen einer Lizenz finden Sie unter Erstellen eines Ressourcenkontos mit [dem Microsoft 365 Admin Center.](resource-account-ui.md)
+Zum Einrichten eines Microsoft 365-Ressourcenkontos für Teams-Panels empfiehlt es sich, eine [Microsoft Teams Rooms Standard-Lizenz zu erwerben.](#license-requirement) Informationen zum Erstellen eines Ressourcenkontos und zum Zuweisen einer Lizenz finden Sie unter Erstellen eines Ressourcenkontos mit [dem Microsoft 365 Admin Center.](resource-account-ui.md)
 
 > [!NOTE]
 >
 >- Wenn Sie bereits ein Raumressourcenkonto für den Besprechungsraum eingerichtet haben, in dem Sie Panels installieren, verwenden Sie dasselbe Raumressourcenkonto, um sich bei dem Panelgerät zu anmelden. Stellen Sie jedoch sicher, dass dem Raumressourcenkonto die Microsoft Teams Rooms Standard-Lizenz zugewiesen ist, um es als Ressourcenkonto für Panels zu verwenden.
 >
->- Wenn Sie bereits einen Microsoft Teams Rooms in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, verfügt das Ressourcenkonto bereits über die [Microsoft Teams Rooms-Lizenz.](../rooms/rooms-licensing.md) In solchen Fällen müssen Sie keine separate Microsoft Teams Rooms Standard-Lizenz für die Bereitstellung von Panels erwerben. Der Administrator meldet sich bei dem Panelgerät mit den gleichen Anmeldeinformationen wie die Microsoft Teams Rooms für denselben Bereich an.
+>- Wenn Sie bereits einen Microsoft Teams-Raum in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, müssen Sie keine separate Lizenz für die Bereitstellung von Panels erwerben. Der Administrator meldet sich bei dem Panelgerät mit den gleichen Anmeldeinformationen wie die Microsoft Teams Rooms für denselben Bereich an.
 >
 >- Bei großen Besprechungsräumen, z. B. Konferenzräumen oder Konferenzräumen mit mehreren Eingängen, können Sie an jedem Eingang ein Panelgerät einhängen. Mehrere Bereiche, die zu einem einzigen Besprechungsraum gehören, teilen dasselbe Ressourcenkonto und melden sich mit denselben Anmeldeinformationen an. Sie müssen keine separaten Ressourcenkonten für die einzelnen Panels für denselben Speicherplatz erstellen.
 

@@ -1,44 +1,43 @@
 ---
 title: Informationsbarrieren in Microsoft Teams
-author: chrfox
-ms.author: chrfox
+description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie sich diese auf Teams auswirken können.
+author: robmazz
+ms.author: robmazz
 manager: laurawi
+ms.reviewer: vikramju
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-ms.reviewer: vikramju
 f1.keywords:
 - NOCSH
-description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie sich diese auf Teams auswirken können.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 87e282673d1fabec5b751b0a3722515585e5e404
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 818e674014104178efea3e6467d2e5bfbf553c68
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50837012"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874795"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
 Informationsbarrieren (IBs) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelne oder Gruppen miteinander kommunizieren. IBs sind nützlich, wenn beispielsweise eine Abteilung Informationen abhanden kommt, die nicht für andere Abteilungen freigegeben werden sollten. IBs sind auch nützlich, wenn eine Gruppe isoliert werden oder an der Kommunikation mit personen außerhalb dieser Gruppe gehindert werden muss.
 
-> [!NOTE]
-> - Information Barrier (IB)-Gruppen können nicht mandantenübergreifend erstellt werden.
-> - Die Verwendung von Bots, Azure Active Directory(Azure AD)-Apps und einigen APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
-> - Private Kanäle sind mit den von Ihnen konfigurierten IB-Richtlinien kompatibel.
-> - Neu: Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit Teams verbunden sind, finden Sie unter Segmente, die [Microsoft Teams-Websites zugeordnet sind.](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+>[!NOTE]
+>- Information Barrier (IB)-Gruppen können nicht mandantenübergreifend erstellt werden.
+>- Die Verwendung von Bots, Azure Active Directory(Azure AD)-Apps und einigen APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
+>- Private Kanäle sind mit den von Ihnen konfigurierten IB-Richtlinien kompatibel.
+>- Neu: Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit Teams verbunden sind, finden Sie unter Segmente, die [Microsoft Teams-Websites zugeordnet sind.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
 Ib-Richtlinien verhindern außerdem Nachschlage- und -ermittlungen. Wenn Sie versuchen, mit einer Person zu kommunizieren, mit der Sie nicht kommunizieren sollten, finden Sie den Benutzer in der Personenauswahl nicht.
 
 ## <a name="background"></a>Hintergrund
 
 Der Haupttreiber für IBs stammt aus der Finanzbranche. Die Financial Industry Regulatory Authority[(FINRA)]( https://www.finra.org)überprüft IBs und Interessenkonflikte innerhalb von Mitgliedsfirmen und bietet Anleitungen zur Verwaltung solcher Konflikte (FINRA 2241, [Debt Research Regulatory Notice 15-31](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).
-
 
 Seit der Einführung von IBs haben sich diese jedoch in vielen anderen Bereichen als nützlich herausgefunden. Weitere häufige Szenarien sind:
 
@@ -65,14 +64,14 @@ Der Information Barrier Policy Evaluation Service bestimmt, ob eine Kommunikatio
 
 ## <a name="managing-information-barrier-policies"></a>Verwalten von Richtlinien für Informationsbarrieren
 
-IB-Richtlinien werden im Microsoft 365 Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+IB-Richtlinien werden im Microsoft 365 Compliance Center (SCC) mithilfe von PowerShell-Cmdlets verwaltet. Weitere Informationen finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Bevor Sie Richtlinien einrichten oder definieren, müssen Sie die Bereichsverzeichnissuche in Microsoft Teams aktivieren. Warten Sie nach dem Aktivieren der Bereichsverzeichnissuche mindestens einige Stunden, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. Weitere Informationen finden Sie unter [Definieren von Informationsbarriererichtlinien](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
+> Bevor Sie Richtlinien einrichten oder definieren, müssen Sie die Bereichsverzeichnissuche in Microsoft Teams aktivieren. Warten Sie nach dem Aktivieren der Bereichsverzeichnissuche mindestens einige Stunden, bevor Sie Richtlinien für Informationsbarrieren einrichten oder definieren. Weitere Informationen finden Sie unter [Definieren von Informationsbarriererichtlinien](/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Administratorrolle für Informationsbarrieren
 
-Die Rolle "IB Compliance Management" ist für die Verwaltung von IB-Richtlinien zuständig. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Microsoft 365 Compliance Center.](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)
+Die Rolle "IB Compliance Management" ist für die Verwaltung von IB-Richtlinien zuständig. Weitere Informationen zu dieser Rolle finden Sie unter [Berechtigungen im Microsoft 365 Compliance Center.](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)
 
 ## <a name="information-barrier-triggers"></a>Auslöser der Informationsbarriere
 
@@ -98,9 +97,9 @@ IB-Richtlinien werden aktiviert, wenn die folgenden Teams-Ereignisse stattfinden
 
     ![Screenshot, der zeigt, dass der Benutzer die Besprechung blockiert hat](media/information-barriers-meeting.png)
 
-- **Ein Bildschirm wird** für zwei oder mehr Benutzer freigegeben: Wenn ein Benutzer einen Bildschirm für andere Benutzer freigegeben hat, muss die Freigabe ausgewertet werden, um sicherzustellen, dass sie nicht gegen die RICHTLINIEN anderer Benutzer verstößt. Wenn eine IB-Richtlinie verletzt wird, ist die Bildschirmfreigabe nicht zulässig. 
- 
-    Hier sehen Sie ein Beispiel für die Bildschirmfreigabe, bevor die Richtlinie angewendet wird. 
+- **Ein Bildschirm wird** für zwei oder mehr Benutzer freigegeben: Wenn ein Benutzer einen Bildschirm für andere Benutzer freigegeben hat, muss die Freigabe ausgewertet werden, um sicherzustellen, dass sie nicht gegen die RICHTLINIEN anderer Benutzer verstößt. Wenn eine IB-Richtlinie verletzt wird, ist die Bildschirmfreigabe nicht zulässig.
+
+    Hier sehen Sie ein Beispiel für die Bildschirmfreigabe, bevor die Richtlinie angewendet wird.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot eines Benutzerchats](media/ib-before-screen-share-policy.png)
@@ -112,7 +111,7 @@ IB-Richtlinien werden aktiviert, wenn die folgenden Teams-Ereignisse stattfinden
 
 - Ein Benutzer gibt einen Telefonanruf **in Teams** ab– Immer wenn ein Benutzer einen Sprachanruf (über VOIP) für einen anderen Benutzer oder eine Benutzergruppe startet, wird der Anruf ausgewertet, um sicherzustellen, dass er nicht gegen die RICHTLINIEN anderer Teammitglieder verstößt. Wenn ein Verstoß vor liegt, wird der Sprachanruf blockiert.
 
-- **Die Richtlinien für Gäste in Teams** – IB gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation ermittelt werden müssen, lesen Sie Verwalten des Gastzugriffs [in Microsoft 365-Gruppen.](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Sobald Gäste entdeckt wurden, können Sie [IB-Richtlinien definieren.](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- **Die Richtlinien für Gäste in Teams** – IB gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation ermittelt werden müssen, lesen Sie Verwalten des Gastzugriffs [in Microsoft 365-Gruppen.](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Sobald Gäste entdeckt wurden, können Sie [IB-Richtlinien definieren.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Auswirkungen von Richtlinienänderungen auf vorhandene Chats
 
@@ -120,7 +119,7 @@ Wenn der ADMINISTRATOR einer Richtlinie Änderungen an einer Richtlinie vor nimm
 
 Wenn ein Chat oder eine andere Kommunikation zwischen Benutzern vorhanden ist und eine neue Richtlinie festgelegt oder eine vorhandene Richtlinie geändert wird, wertet der Dienst vorhandene Kommunikationen aus, um sicherzustellen, dass die Kommunikationen weiterhin zulässig sind. 
 
-- **1:1 Chat:** Wenn die Kommunikation zwischen zwei Benutzern nicht mehr zulässig ist (aufgrund der Anwendung für einen oder beide Benutzer einer Richtlinie, die die Kommunikation blockiert), wird die weitere Kommunikation blockiert. Ihre vorhandenen Chatunterhaltungen werden schreibgeschützt. 
+- **1:1 Chat:** Wenn die Kommunikation zwischen zwei Benutzern nicht mehr zulässig ist (aufgrund der Anwendung für einen oder beide Benutzer einer Richtlinie, die die Kommunikation blockiert), wird die weitere Kommunikation blockiert. Ihre vorhandenen Chatunterhaltungen werden schreibgeschützt.
 
     Hier ist ein Beispiel, das zeigt, dass der Chat sichtbar ist.
 
@@ -153,14 +152,13 @@ Derzeit erleben Benutzer die folgenden Szenarien, wenn eine IB-Richtlinie einen 
 - **Personenauswahl** – Blockierte Benutzer werden in der Personenauswahl nicht angezeigt.
 
     ![Screenshot von Teams, der den Benutzer darüber informiert, dass die Richtlinie die Anzeige der Informationen eines anderen Benutzers verhindert](media/information-barriers-people-picker.png)
-    
+
 - **Registerkarte Aktivität:** Wenn ein Benutzer die Registerkarte **Aktivität** eines blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf **der Registerkarte Aktivität** werden nur Kanalbeiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
 
     Hier ist ein Beispiel für die Aktivitätsregisterkartenansicht, die blockiert ist.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot der Registerkarte "Aktivität", die blockiert ist](media/ib-after-activity-tab-policy.png)
-
 
 - **Organigramme:** Wenn ein Benutzer auf ein Organigramm zutritt, in dem ein blockierter Benutzer angezeigt wird, wird der blockierte Benutzer im Organigramm nicht angezeigt. Stattdessen wird eine Fehlermeldung angezeigt.
 
@@ -186,7 +184,7 @@ Derzeit erleben Benutzer die folgenden Szenarien, wenn eine IB-Richtlinie einen 
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams-Richtlinien und SharePoint-Websites
 
-Wenn ein Team erstellt wird, wird eine SharePoint-Website für die Dateierfahrung bereitgestellt und Microsoft Teams zugeordnet. IB-Richtlinien werden auf dieser SharePoint-Website und -Dateien standardmäßig nicht berücksichtigt. Um #A0 zu aktivieren, hat der Administrator bereits ein Formular ausgefüllt, in dem  er fordert, dass #A1 in SharePoint und OneDrive aktiviert werden (siehe Abschnitt Voraussetzungen unter [Informationsbarrieren](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)). Wenn die #A0 in SharePoint und OneDrive aktiviert ist, funktionieren die #A1 auf SharePoint-Websites, die bereitgestellt werden, wenn ein Team mit Microsoft Teams erstellt wird.
+Wenn ein Team erstellt wird, wird eine SharePoint-Website für die Dateierfahrung bereitgestellt und Microsoft Teams zugeordnet. IB-Richtlinien werden auf dieser SharePoint-Website und -Dateien standardmäßig nicht berücksichtigt. Um #A0 zu aktivieren, hat der Administrator bereits ein Formular ausgefüllt, in dem  er fordert, dass #A1 in SharePoint und OneDrive aktiviert werden (siehe Abschnitt Voraussetzungen unter [Informationsbarrieren](/sharepoint/information-barriers#prerequisites)). Wenn die #A0 in SharePoint und OneDrive aktiviert ist, funktionieren die #A1 auf SharePoint-Websites, die bereitgestellt werden, wenn ein Team mit Microsoft Teams erstellt wird.
 
 **Beispiel für IB-Richtlinien** auf der SharePoint-Website eines Teams: In contoso bank corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zum Segment Advisory. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
 Wenn Benutzer Sesha ein Team für das InvestmentBanking-Segment erstellt, ist das Team und die SharePoint-Website, auf der sie unterstützt wird, nur für InvestmentBanking-Benutzer zugänglich. Der Benutzer Kann nicht auf diese Website zugreifen, auch wenn er über den Websitelink verfügt.
@@ -195,23 +193,24 @@ Weitere Informationen finden Sie unter [Verwenden von Informationsbarrieren mit 
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
-Weitere Informationen zu Lizenzen und Berechtigungen, einschließlich Plänen und Preisen, finden Sie unter Microsoft 365-Lizenzierungsleitfäden für Sicherheit [und & Compliance.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+Weitere Informationen zu Lizenzen und Berechtigungen, einschließlich Plänen und Preisen, finden Sie unter Microsoft 365-Lizenzierungsleitfäden für Sicherheit [und & Compliance.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="known-issues"></a>Bekannte Probleme
+
 - Benutzer können nicht an **Ad-hoc-Besprechungen** teilnehmen: Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Besprechungsliste größer als die Besprechungsteilnehmergrenzwerte [ist.](limits-specifications-teams.md) Die Ursache ist, dass DIE ÜBERPRÜFUNGen davon abhingen, ob Benutzer einer Besprechungschatliste hinzugefügt werden können, und nur wenn sie zur Liste hinzugefügt werden können, dürfen sie an der Besprechung teilnehmen. Ein Benutzer, der einmal an einer Besprechung teiln beitritt, fügt den Benutzer zur Liste hinzu. daher kann sich die Liste für besprechungsserienbesprechende Besprechungen schnell füllen. Sobald die Chatliste die Besprechungsteilnehmergrenzwerte erreicht [hat,](limits-specifications-teams.md)dürfen der Besprechung keine weiteren Benutzer hinzugefügt werden. Wenn IB für den Mandanten aktiviert ist und die Chatliste für eine Besprechung voll ist, dürfen neue Benutzer (diese Benutzer, die noch nicht in der Liste sind) nicht an der Besprechung teilnehmen. Wenn JEDOCH IB für den Mandanten nicht aktiviert ist und die Liste der Besprechungschats voll ist, dürfen neue Benutzer (diese Benutzer, die noch nicht in der Liste sind) an der Besprechung teilnehmen, obwohl die Chatoption in der Besprechung nicht angezeigt wird. Eine kurzfristige Lösung besteht in der Entfernung inaktiver Mitglieder aus der Besprechungschatliste, um Platz für neue Benutzer zu schaffen. Wir werden jedoch die Größe der Besprechungschatliste zu einem späteren Zeitpunkt erhöhen.
-
 - **Benutzer können nicht an** Kanalbesprechungen teilnehmen: Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Kanalbesprechungen teilnehmen, wenn sie kein Mitglied des Teams sind. Die Ursache ist, dass DIE ÜBERPRÜFUNGen davon abhingen, ob Benutzer einer Besprechungschatliste hinzugefügt werden können, und nur wenn sie zur Liste hinzugefügt werden können, dürfen sie an der Besprechung teilnehmen. Der Chatthread in einer Kanalbe besprechung ist nur für Team-/Kanalmitglieder verfügbar, und Nichtmitglieder können den Chatthread nicht sehen oder darauf zugreifen. Wenn IB für den Mandanten aktiviert ist und ein Nichtteammitglied versucht, an einer Kanalbesprechung teil zu nehmen, darf dieser Benutzer nicht an der Besprechung teilnehmen. Wenn JEDOCH IB  für den Mandanten nicht aktiviert ist und ein Nicht-Teammitglied versucht, an einer Kanalbesprechung teil zu nehmen, darf der Benutzer an der Besprechung teilnehmen– die Chatoption wird in der Besprechung jedoch nicht angezeigt.
-
-- **Teambesitzer** werden nicht entfernt: Wenn eine neue IB-Richtlinie angewendet wird, die zu zwei oder mehr widersprüchlichen Segmenten in einem Teams-Kanal führt, erhalten die Segmente mit Teambesitzern eine höhere Einstellung, und andere Segmentbenutzer werden entfernt. Außerdem werden Teambesitzer zu diesem Zeitpunkt nicht entfernt, auch wenn sie mit anderen Besitzern/Benutzern in Konflikt stehen. Mandantenadministratoren und andere Kanalbesitzer müssen widersprüchliche Besitzer manuell entfernen. Wir arbeiten an einem Fix.
+- **Teambesitzer** werden nicht entfernt: Wenn eine neue IB-Richtlinie angewendet wird, die zu zwei oder mehr widersprüchlichen Segmenten in einem Teams-Kanal führt, erhalten die Segmente mit Teambesitzern eine höhere Einstellung, und andere Segmentbenutzer werden entfernt. Außerdem werden Teambesitzer zu diesem Zeitpunkt nicht entfernt, auch wenn sie mit anderen Besitzern/Benutzern in Konflikt stehen. Mandantenadministratoren und andere Kanalbesitzer müssen widersprüchliche Besitzer manuell entfernen.
+- **Maximale Anzahl von Segmenten, die in** einem Mandanten zulässig sind: Jeder Mandant kann beim Konfigurieren von IB-Richtlinien bis zu 100 Segmente einrichten. Die Anzahl der Richtlinien, die konfiguriert werden können, ist nicht begrenzt.
 
 ## <a name="more-information"></a>Weitere Informationen
 
-- Weitere Informationen zu IBs finden Sie unter [Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+- Weitere Informationen zu IBs finden Sie unter [Informationsbarrieren](/office365/securitycompliance/information-barriers).
 
-- Informationen zum Einrichten von RICHTLINIEN finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+- Informationen zum Einrichten von RICHTLINIEN finden Sie unter [Definieren von Richtlinien für Informationsbarrieren](/office365/securitycompliance/information-barriers-policies).
 
-- Informationen zum Bearbeiten oder Entfernen von IB-Richtlinien finden Sie unter [Bearbeiten (oder Entfernen) von Informationsbarriererichtlinien.](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies)
+- Informationen zum Bearbeiten oder Entfernen von IB-Richtlinien finden Sie unter [Bearbeiten (oder Entfernen) von Informationsbarriererichtlinien.](/microsoft-365/compliance/information-barriers-edit-segments-policies)
 
 ## <a name="availability"></a>Verfügbarkeit
+
 - Das Feature ist in unserer öffentlichen Cloud verfügbar. Im Januar 2021 haben wir informationsbarrieren in der GCC-Cloud ein Roll-out durchgeführt.
 - Das Feature ist in den GcCH- und DOD-Wolken noch nicht verfügbar.

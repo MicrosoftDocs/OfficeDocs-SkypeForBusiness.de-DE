@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams verwalten. Verwenden Sie Richtlinieneinstellungen, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726441"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875165"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -459,10 +459,10 @@ Daniela kann sich in Amandas Besprechungen Notizen machen, Amanda kann hingegen 
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Anonymen Personen das Starten einer Besprechung gestatten
 
-Hierbei handelt es sich um eine organisatorspezifische Richtlinie, die steuerlose Einwähl-Konferenzbesprechungen ermöglicht. Über diese Einstellung wird gesteuert, ob Einwahlbenutzer an einer Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer aus der Organisation teilnimmt. Diese Einstellung ist standardmäßig deaktiviert, was bedeutet, dass die Einwahlbenutzer im Wartebereich bleiben müssen, bis ein authentifizierter Benutzer aus der Organisation der Besprechung beitritt.
+Dies ist eine Richtlinie pro Organisator, die besprechungsfreie Besprechungen ohne Führung ermöglicht. Mit dieser Einstellung wird bestimmt, ob benannte Benutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer aus der Organisation anwesend ist. Diese Einstellung ist standardmäßig deaktiviert, was bedeutet, dass anonyme Benutzer im Wartebereich warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung beitritt.
 
 > [!NOTE]
-> Wenn diese Einstellung deaktiviert ist und ein Einwahlbenutzer als erster der Besprechung beitritt und in den Wartebereich gesetzt wird, muss ein Benutzer der Organisation der Besprechung mit einem Microsoft Teams-Client beitreten, um den Benutzer aus dem Wartebereich zur Besprechung zuzulassen. Den Einwahlbenutzern stehen keine Steuerelemente für den Wartebereich zur Verfügung.
+> Wenn diese Einstellung deaktiviert ist und ein anonymer Benutzer zuerst an der Besprechung teilnist und in den Wartebereich gesetzt wird, muss ein Organisationsbenutzer mit einem Teams-Client an der Besprechung teilnehmen, um den Benutzer aus dem Wartebereich einzuschließen. Den Einwahlbenutzern stehen keine Steuerelemente für den Wartebereich zur Verfügung.
 
 ### <a name="automatically-admit-people"></a>Personen automatisch zulassen
 
