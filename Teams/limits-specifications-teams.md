@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b029a5cb53965ad59bab1342f90fb8e505da82e1
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460445"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50866914"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -225,7 +225,7 @@ Ein Kursteam kann mehr als 200 Mitglieder unterstützen. Wenn Sie aber vorhaben
 |Anzahl der Tags pro Team    | 100        |
 |Anzahl der vorgeschlagenen Standardtags pro Team    | 25        |
 |Anzahl der Teammitglieder, die einem Tag zugeordnet werden    |100         |
-|Die Anzahl der Tags, die einem Benutzer zugewiesen werden.    |25         |
+|Die Anzahl der Tags, die einem Benutzer per Team zugewiesen werden.    |25         |
 
 ## <a name="contacts"></a>Kontakte
 
