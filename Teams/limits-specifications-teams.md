@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b029a5cb53965ad59bab1342f90fb8e505da82e1
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 0db359fee9089a52b8d3e7a728542dba21952db7
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50866914"
+ms.locfileid: "50874525"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -38,7 +38,7 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 |Anzahl von Teams, in denen ein Benutzer Mitglied sein kann|1 000&sup2;|
 |Anzahl von Mitgliedern in einem Team | 25.000<sup>6</sup>     |
 |Anzahl von Besitzern pro Team | 100   |
-|Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5     |
+|Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5&sup2;     |
 |Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 10.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
 |Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500 000&sup3;     |

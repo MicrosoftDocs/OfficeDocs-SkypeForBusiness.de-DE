@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams-Panels unterstützten Features.
-ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875075"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937852"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
 
@@ -136,5 +136,7 @@ Zum Verwalten Ihrer Geräte in Teams-Panels wechseln Sie in der linken Navigatio
 [Microsoft Teams-Blog auf Teams-Panels](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Erste Schritte mit Teams-Panels](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[Marketplace für Teamspanels](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
 
 [Geräte, die im Rahmen des Zertifizierungsprogramms für Microsoft Teams-Panels zertifiziert wurden](teams-ip-phones.md#currently-certified-teams-panels)

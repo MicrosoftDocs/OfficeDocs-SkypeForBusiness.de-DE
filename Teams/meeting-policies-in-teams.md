@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams verwalten. Verwenden Sie Richtlinieneinstellungen, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 25ff47e7dee4a41be3cbdd8063654fc60c27af79
+ms.sourcegitcommit: 546f3e72880a0814a87787f997e81d9fb859c774
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875165"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50929551"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -127,7 +127,7 @@ Das Outlook-Add-In zulassen ist eine Benutzerrichtlinie und gilt, bevor eine Bes
 
 ![Screenshot mit der Option für die Planung von Besprechungen](media/meeting-policies-outlook-add-in.png)
 
-Wenn Sie diese Option deaktivieren, können die Benutzer keine Microsoft Teams-Besprechungen planen, wenn sie eine neue Besprechung in Outlook erstellen. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
+Wenn Sie dieses Feature deaktivieren, können benutzer keine Planungen mehr erstellen. Microsoft Teams-Besprechungen planen, wenn sie eine neue Besprechung in Outlook erstellen. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Planung von Kanalbesprechungen zulassen
 
@@ -193,7 +193,7 @@ Diese Richtlinie aktiviert die Live-Transkription. Transkription zulassen ist ei
 
 ![Transkriptionsoptionen in Besprechungsrichtlinien](media/live-transcription.png)
 
-Live trancription shows speech-to-text of spoken content during a Teams meeting in near real time. Der Text wird neben dem Besprechungsvideo angezeigt, einschließlich des Namens des Sprechers und eines Zeitstempels. Weitere Informationen finden Sie unter [Anzeigen der Live-Transkription in einer Teams-Besprechung.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-7a1401ec-73b4-431d-875a-8b6af82b3e15)
+Live trancription shows speech-to-text of spoken content during a Teams meeting in near real time. Der Text wird neben dem Besprechungsvideo angezeigt, einschließlich des Namens des Sprechers und eines Zeitstempels. Weitere Informationen finden Sie unter [Anzeigen der Live-Transkription in einer Teams-Besprechung.](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b?storagetype=live)
 
 Derzeit wird die Live transkription auf dem Desktopclient von Teams unterstützt. Transkription wird für gesprochenes US-Englisch unterstützt. Das Transkript ist nach der Besprechung auf dem Desktop oder im Web von Teams verfügbar.
 
@@ -250,7 +250,7 @@ Der Modus für IP-Video ist eine Benutzerrichtlinie. Über diese Einstellung wir
 |Einstellungswert |Verhalten  |
 |---------|---------|
 |**Ausgehendes und eingehendes Video aktiviert**    | Ausgehendes und eingehendes Video ist in der Besprechung zulässig und ist die Standardeinstellung. |
-|**Deaktiviert**     | Ausgehendes und eingehendes Video ist in der Besprechung deaktiviert. Auf mobilen Microsoft Teams-Clients können Benutzer keine Videos oder Fotos in der Besprechung freigeben. <br><br>Beachten Sie: Wenn der **Modus für IP-Audio** deaktiviert ist, bleibt auch der **Modus für IP-Video** deaktiviert.  |
+|**Deaktiviert**     | Ausgehendes und eingehendes Video ist in der Besprechung deaktiviert. Auf mobilen Microsoft Teams-Clients können Benutzer keine Videos oder Fotos in der Besprechung freigeben. <br><br>Wenn **der Modus für IP-Audio** deaktiviert ist, bleibt auch der Modus für **IP-Video** deaktiviert.  |
 
 Wenn diese Einstellung für einen Benutzer **deaktiviert** ist, kann dieser die Videofunktion nicht aktivieren und auch keine Videos anzeigen, die von anderen Besprechungsteilnehmern geteilt werden. Für Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer), ist diese Einstellung standardmäßig auf **Ausgehendes und eingehendes Video aktiviert** festgelegt.
 
@@ -459,7 +459,7 @@ Daniela kann sich in Amandas Besprechungen Notizen machen, Amanda kann hingegen 
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>Anonymen Personen das Starten einer Besprechung gestatten
 
-Dies ist eine Richtlinie pro Organisator, die besprechungsfreie Besprechungen ohne Führung ermöglicht. Mit dieser Einstellung wird bestimmt, ob benannte Benutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer aus der Organisation anwesend ist. Diese Einstellung ist standardmäßig deaktiviert, was bedeutet, dass anonyme Benutzer im Wartebereich warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung beitritt.
+Dies ist eine Richtlinie pro Organisator, die besprechungsfreie Besprechungen ohne Führung ermöglicht. Diese Einstellung steuert, ob anonyme Benutzer an der Besprechung teilnehmen können, ohne dass ein authentifizierter Benutzer aus der Organisation anwesend ist. Diese Einstellung ist standardmäßig deaktiviert, was bedeutet, dass anonyme Benutzer im Wartebereich warten, bis ein authentifizierter Benutzer aus der Organisation der Besprechung beitritt.
 
 > [!NOTE]
 > Wenn diese Einstellung deaktiviert ist und ein anonymer Benutzer zuerst an der Besprechung teilnist und in den Wartebereich gesetzt wird, muss ein Organisationsbenutzer mit einem Teams-Client an der Besprechung teilnehmen, um den Benutzer aus dem Wartebereich einzuschließen. Den Einwahlbenutzern stehen keine Steuerelemente für den Wartebereich zur Verfügung.

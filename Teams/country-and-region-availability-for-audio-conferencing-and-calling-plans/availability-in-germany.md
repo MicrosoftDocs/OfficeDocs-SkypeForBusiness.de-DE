@@ -24,10 +24,10 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Deutschland verfügbar sind.
+description: In Deutschland sind die folgenden Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
 ms.openlocfilehash: ba3389abd0555db7ff269ec969e216bd40d22bdf
 ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/30/2020
 ms.locfileid: "48321888"
@@ -36,7 +36,7 @@ ms.locfileid: "48321888"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Deutschland verfügbar sind.
+In Deutschland sind die folgenden Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
