@@ -1,5 +1,5 @@
 ---
-title: Freigeben von Dateien und Ordnern in Microsoft Teams
+title: Freigeben von Dateien und Ordnern in Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -13,17 +13,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Erfahren Sie mehr über die Datei- und Ordnerfreigabe in Microsoft Teams.
+description: Erfahren Sie mehr über die Datei- und Ordnerfreigabe in Microsoft Teams.
 ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
 ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/11/2021
 ms.locfileid: "49795775"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Freigeben von Dateien in Microsoft Teams
 
-In Microsoft Teams können Benutzer Inhalte für andere Teams-Benutzer innerhalb und außerhalb ihrer Organisation freigeben. Das Freigeben von Dateien und Ordnern in Teams basiert auf den in SharePoint und OneDrive konfigurierten Einstellungen, sodass sich alles, was Sie für SharePoint und OneDrive eingerichtet haben, auch auf die Freigabe in Teams auswirken wird.
+In Microsoft Teams können Benutzer Inhalte für andere Teams-Benutzer innerhalb und außerhalb ihrer Organisation freigeben. Die Freigabe von Dateien und Ordnern in Microsoft Teams basiert auf den Einstellungen, die in SharePoint und OneDrive konfiguriert sind. Die Einstellungen, die Sie für SharePoint und OneDrive festlegen, steuern demnach auch die Freigabe in Microsoft Teams.
 
 ## <a name="overview"></a>Übersicht
 
@@ -46,8 +46,8 @@ Wenn Benutzer eine Datei in einem Chat oder Kanal freigeben, werden sie benachri
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md)
+[Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Ändern des Standardlinktyps für eine Website](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Ändern des Standardlinktyps für eine Site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
 
-[Zusammenarbeiten mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)

@@ -3,7 +3,6 @@ title: Planen von Liveereignissen in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569237"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884579"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -45,7 +44,7 @@ Folgende Lizenzen müssen für die Organisation, Erstellung oder Vorführung ein
 
 - **Organisation:** Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz **[oder]** eine Microsoft oder Office 365 Education A3- oder A5-Lizenz. 
 - **Erstellung oder Vorführung:** Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz **[oder]** eine Microsoft oder Office 365 Education A1-, A3 oder A5-Lizenz. Die Ausnahme von dieser Anforderung ist, dass Gastnutzer ohne Lizenz präsentieren können, wenn die anderen Kriterien für [Gastnutzer](plan-for-teams-live-events.md#guest-to-present) erfüllt sind.
-- Eine Microsoft Teams Lizenz – diese ist in den im ersten und zweiten Aufzählungspunkt aufgeführten Lizenzen enthalten.
+- Eine Microsoft Teams-Lizenz – diese ist in den im ersten und zweiten Aufzählungspunkt aufgeführten Lizenzen enthalten.
 - Eine Microsoft Stream-Lizenz – ist erforderlich, wenn Sie planen, den Inhalt mit einer externen App oder einem externen Gerät zu teilen; siehe [Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
 
   Benutzer brauchen keine Microsoft Stream-Lizenz, wenn Sie möchten, dass Benutzer nur die Aufzeichnungen aufnehmen und herunterladen. Das bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern in Azure Media Services (AMS) mit einem 180-Tage-Limit, bevor sie gelöscht werden. Derzeit können Admins keine Befähigung zum Löschen verwalten oder steuern.
@@ -80,13 +79,13 @@ Der Benutzer muss Folgendes besitzen:
 
 ### <a name="guest-to-present"></a>[Gast zur Präsentation](#guest-to-present)
 
-Damit ein Gast bei einem Liveereignis präsentieren kann, gehen Sie wie folgt vor:
+Damit ein Gast in einem Liveereignis präsentieren kann, gehen Sie wie folgt vor:
 
 1. [Fügen Sie den Benutzer als Gast zu einem Team hinzu](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
 2. Der Benutzer muss die Gasteinladung annehmen und dem Team beitreten.
 3. [Planen Sie das Liveereignis, und fügen Sie den Gast zu ihrer Ereignisgruppe hinzu](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Referenten des Liveereignisses zu erstellen, damit sie vor der Veranstaltung chatten und Informationen teilen können. Gäste, die keine Microsoft 365-Anmeldeinformationen haben, können den Kalender in Teams nicht sehen. Um ihnen die Teilnahme an dem Ereignis zu erleichtern, können die Produzenten den Ereignislink im Kanal posten. Referenten können dann Teams öffnen, zum Kanal wechseln und dann auf den Link klicken, um an dem Ereignis teilzunehmen.
+Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Referenten des Liveereignisses zu erstellen, damit sie vor der Veranstaltung chatten und Informationen teilen können. Gäste, die keine Microsoft 365-Anmeldeinformationen haben, können den Kalender in Teams nicht sehen. Um ihnen die Teilnahme an dem Ereignis zu erleichtern, können die Produzenten den Ereignislink im Kanal posten. Referenten können dann Microsoft Teams öffnen, zum Kanal wechseln und anschließend auf den Link klicken, um an dem Ereignis teilzunehmen.
 
 ## <a name="who-can-watch-live-events"></a>Wer kann Liveereignisse anschauen?
 
@@ -165,9 +164,10 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 **Datenspeicherort für diese Länder/Regionen (unterstützt)**
 
 - Australien
+- Brasilien
 - Kanada
-- Deutschland
 - Frankreich
+- Deutschland
 - Indien
 - Japan
 - Südafrika
@@ -178,10 +178,9 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 
 **Diese Länder/Regionen und Clouds werden nicht unterstützt**
 
-- Brasilien
 - Norwegen
 - Government Community Cloud (GCC)-H
-- DOD
+- Verteidigungsministerium (DoD, Department of Defense)
 
 **Ausschlüsse und Überlegungen**.
 
