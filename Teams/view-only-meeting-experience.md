@@ -1,5 +1,5 @@
 ---
-title: Besprechungserfahrung nur anzeigen
+title: Schreibgeschützte Besprechungserfahrung
 author: cichur
 ms.author: v-cichur
 ms.reviewer: christi.balaki
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie mehr über die Nur-Ansichts-Besprechungserfahrung von Teams für Administratoren, Presenter und Teilnehmer
+description: Informationen über die schreibgeschützte Besprechungserfahrung in Teams für Administratoren, Referenten und Teilnehmer
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -18,99 +18,99 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
 ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/18/2021
 ms.locfileid: "50875055"
 ---
-# <a name="teams-view-only-meeting-experience"></a>Nur-Ansichts-Besprechungserfahrung in Teams
+# <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
 > [!Note]
-> Nur-Ansichtsübertragungen sind in Microsoft 365 E3/E5 und Microsoft 365 A3/A5 verfügbar. Dieses Feature wird am 1. März 2021 als Standardmäßiges AUS aktiviert. Das Feature in der Microsoft 365 Government Community Cloud (GCC) beginnt Ende März 2021. Die Einführung von Government Community Cloud High (GCCH) und Department of Defense (DoD) wird zu einem späteren Zeitpunkt durchgeführt. Sie müssen die Standardrichtlinie nach diesem Datum ändern, wenn das Feature standardmäßig EIN sein soll. Verwenden Sie PowerShell, um die Richtlinie zu `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` aktivieren.
+> Schreibgeschützte Übertragungen sind verfügbar in Microsoft 365 E3/E3/E5 und Microsoft 365 A3/A5. Dieses Feature wird am 1. März 2021 aktiviert werden, mit Standardeinstellung „DEAKTIVIERT“. Das Feature wird in der Microsoft 365 Government Community Cloud (GCC) gegen Ende März 2021 eingeführt. Für die Government Community Cloud High (GCCH) und das Verteidigungsministerium (Department of Defense, DoD) wird dies zu einem späteren Zeitpunkt eingeführt. Sie müssen nach diesem Datum die Standardrichtlinie ändern, wenn Sie möchten, dass das Feature standardmäßig AKTIVIERT ist. Verwenden Sie PowerShell, um die Richtlinie `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` zu aktivieren.
 
 > [!Note]
-> Wenn Ihre Besprechung oder Ihr Webinar die Kapazität erreicht, wird Teams nahtlos skaliert, um eine nur für 10.000 Personen bestimmte Übertragungserfahrung zu ermöglichen. Nutzen Sie während dieser Zeit der zunehmenden Remotearbeit sogar noch größere 20.000-Personen-Übertragungen bis Zum Ende dieses Jahres.
+> Wenn Ihre Besprechung oder Ihr Webinar die Kapazitätsgrenze erreicht, wird Teams nahtlos skaliert, um eine schreibgeschützte Übertragungserfahrung für 10 000 Personen zu ermöglichen. Außerdem können Sie in dieser Zeit der vermehrten Remotearbeit bis zum Ende des Jahres von noch größeren Übertragungen für 20 000 Personen profitieren.
 
-Microsoft Teams ermöglicht bis zu 10.000 Teilnehmern die Teilnahme an einer Teams-Besprechung. Nachdem die Kapazität der Hauptsitzung erreicht wurde, nehmen weitere Teilnehmer mit einer Nur-Ansicht-Erfahrung teil.
+Microsoft Teams ermöglicht bis zu 10 000 Teilnehmern den Beitritt zu einer Teams-Besprechung. Wenn die Kapazitätsgrenze für die Hauptbesprechung erreicht ist, können zusätzliche Teilnehmer über eine schreibgeschützte Erfahrung beitreten.
 
-Teilnehmer, die zuerst an der Besprechung teilnehmen, erhalten bis zur Kapazität der Besprechung die vollständige Teambesprechungserfahrung. Sie können Audio und Video freigeben, freigegebene Videos anzeigen und an Besprechungschats teilnehmen.
+Teilnehmer, die der Besprechung als Erste vor dem Erreichen der Kapazitätsgrenze der Besprechung beitreten, werden die volle Teams-Besprechungserfahrung erhalten. Sie können Audio und Video freigeben, freigegebene Videos ansehen und im Besprechungschat mitmachen.
 
-Teilnehmer, die teilnehmen, nachdem die Hauptkapazität der Besprechung erreicht wurde, haben eine Nur-Ansicht-Erfahrung.
+Teilnehmer, die der Besprechung nach Erreichen der Kapazitätsgrenze beitreten, werden eine schreibgeschützte Erfahrung erhalten.
 
-Wir haben vollständigen Android- und iOS-Mobile-Support für einen Teilnehmer, der teilnehmen kann.
+Wir bieten volle Unterstützung für Android- und iOS-Mobilgeräte, über welche ein Teilnehmer beitreten kann.
 
 > [!Note]
-> Der aktuelle Grenzwert für die Anzahl der Personen, die chatten und sich in eine Besprechung ein- und einrufen können, beträgt 300 im Ww und 250 in GCC, GCC High und DoD.
+> Die aktuelle Limite für die Anzahl der Personen, die in eine Besprechung anrufen und darin chatten können, beträgt 300 in WW und 250 in GCC, GCC High und DoD.
 
-Die Ansichtserfahrung ist standardmäßig für jeden Organisator deaktiviert, der über E3/E5/A3/A5-SKU verfügt. Es ist keine weitere Konfiguration oder Einrichtung erforderlich.
+Die schreibgeschützte Erfahrung ist standardmäßig für jeden Organisator deaktiviert, welcher E3/E5/A3/A5 SKU hat. Es ist keine weitere Konfiguration oder kein weiterer Setup notwendig.
 
-## <a name="disable-teams-view-only-experience"></a>Deaktivieren der Ansichtserfahrung von Teams
+## <a name="disable-teams-view-only-experience"></a>Schreibgeschützte Teams-Erfahrung deaktivieren
 
-Administratoren können die Ansichtserfahrung mit PowerShell deaktivieren.
+Administratoren können die schreibgeschützte Erfahrung mittels PowerShell deaktivieren.
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-In Zukunft können Administratoren auch die Ansichtserfahrung im Teams Admin Center deaktivieren.
+Zukünftig wird es für Administratoren auch möglich sein, die schreibgeschützte Erfahrung im Teams-Admin Center zu deaktivieren.
 
-## <a name="impact-to-users"></a>Auswirkungen für Benutzer
+## <a name="impact-to-users"></a>Auswirkungen auf die Benutzer
 
-Die Benutzererfahrung hängt von mehreren Faktoren ab.
+Die Erfahrung eines Benutzers wird von mehreren Faktoren abhängen.
 
-Wenn die Kapazität der Haupt besprechung erreicht wurde, kann ein Teilnehmer nicht an der Besprechung teilnehmen, wenn eine der folgenden Bedingungen zutrifft:
+Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht ist, kann ein Teilnehmer der Besprechung nicht beitreten, wenn einer der folgenden Punkte zutrifft:
 
-- Ein Administrator hat die Ansichtserfahrung von Teams deaktiviert.
-- Der Teilnehmer verfügt nicht über die Berechtigung zum Umgehen des Wartebereichs.
+- Ein Administrator hat die schreibgeschützte Teams-Erfahrung deaktiviert.
+- Der Teilnehmer hat nicht die Berechtigung zum Umgehen des Wartebereichs.
 
-Wenn die Kapazität der Hauptsitzung erreicht ist, sehen der Besprechungsorganisator und die Organisatorin ein Banner, das sie darüber informiert, dass die Besprechungskapazität erreicht wurde und dass neue Teilnehmer an einem Nur-Ansicht-Teilnehmer teilnehmen.
+Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht wurde, werden der Besprechungsorganisator und die Referenten ein Banner sehen, welches sie über das Erreichen der Kapazitätsgrenze der Besprechung informiert und darüber, dass neue Teilnehmer als schreibgeschützte Teilnehmer beitreten werden.
 
-  ![die Teamclient- und Bannernachricht für Organisatoren und Organisatoren](media/chat-and-banner-message.png)
+  ![die Teams-Client- und Banner-Nachricht für Organisatoren und Referenten](media/chat-and-banner-message.png)
 
-Wenn die Kapazität der Hauptbesprechung erreicht ist, werden die Besprechungsteilnehmer auf dem Bildschirm vor der Teilnahme darüber informiert, dass sie nur im Ansichtsmodus teilnehmen.
+Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht wurde, werden Besprechungsteilnehmer auf dem Bildschirm vor dem Beitritt informiert, dass sie im schreibgeschützten Modus beitreten werden.
 
-  ![der Bildschirm "Teams pre-join" und die Meldung für Teilnehmer, die ihnen mitteilt, dass sie im Nur-Ansicht-Modus teilnehmen werden](media/view-only-pre-join-screen.png)
+  ![der Teams-Bildschirm vor dem Beitritt und die Nachricht für Teilnehmer, welche diese über den Beitritt im schreibgeschützten Modus informiert](media/view-only-pre-join-screen.png)
 
-Wenn Platz ist, wird ein Benutzer immer an der Haupt besprechung teilnehmen. Wenn die Haupt besprechung kapazität erreicht und ein oder mehrere Teilnehmer die Hauptsitzung verlassen, verfügt die Hauptsitzung über verfügbare Kapazität. Teilnehmer, die an der Besprechung teilnehmen (oder erneut teilnehmen), nehmen an der Hauptsitzung teil, bis sie die Kapazität wieder erreicht hat. Teilnehmer, die die Ansichtserfahrung haben, werden nicht automatisch zur Hauptsitzung heraufgestuft und können zurzeit nicht manuell zur Haupt besprechung heraufgestuft werden.
+Solange es Platz hat, wird ein Benutzer immer der Hauptbesprechung beitreten. Wenn die Hauptbesprechung die Kapazitätsgrenze erreicht und einer oder mehrere Teilnehmer die Hauptbesprechung verlassen, dann hat die Hauptbesprechung wieder verfügbare Kapazität. Teilnehmer, die der Besprechung beitreten (oder wieder beitreten), werden der Hauptbesprechung beitreten, bis diese die Kapazitätsgrenze wieder erreicht. Teilnehmer, die sich in der schreibgeschützten Erfahrung befinden, werden nicht automatisch in die Hauptbesprechung befördert, und sie können derzeit auch nicht manuell in die Hauptbesprechung befördert werden.
 
-Wenn keine Rollen für Presenter/Teilnehmer festgelegt wurden, werden Die Leerzeichen in der Hauptsitzung nach dem Ersten Kommen und der erstgesenkten Basis ausgefüllt. Sobald die Besprechungskapazität erreicht ist, werden alle anderen Benutzer mit einer Ansichtserfahrung teilnehmen.
+Wenn die Rollen für Referenten/Teilnehmer noch nicht zugeordnet sind, werden Plätze in der Hauptbesprechung nach dem Motto „wer zuerst kommt, wird zuerst bedient“ aufgefüllt. Sobald die Kapazitätsgrenze der Besprechung erreicht ist, werden alle Benutzer der schreibgeschützten Erfahrung beitreten.
 
-## <a name="impact-to-meeting-presenters"></a>Auswirkungen auf Besprechungs presenter
+## <a name="impact-to-meeting-presenters"></a>Auswirkung auf Referenten der Besprechung
 
-Zu den Einschränkungen für Besprechungs presenter gehören:
+Zu den Einschränkungen für Referenten der Besprechung gehören:
 
-- Sie haben keine Informationen zum Nur-Ansicht-Teilnehmer. Wir unterstützen E-Discovery nicht für Nur-Ansicht-Teilnehmer.
-- Die Benutzer können die Nur-Ansicht-Teilnehmer nicht sehen.
-- Sie können einen Nur-Ansicht-Teilnehmer nicht aus der Besprechung entfernen.
+- Sie werden keine Informationen über schreibgeschützte Teilnehmer haben. Wir unterstützten EDiscovery für schreibgeschützte Teilnehmer nicht.
+- Benutzer können schreibgeschützte Teilnehmer nicht sehen.
+- Sie können keine schreibgeschützten Teilnehmer aus der Besprechung entfernen.
 
 > [!Note]
-> Die Teilnehmeranzahl gibt nur die Personen in der Besprechung und nicht die Personen im Nur-Ansicht-Raum wieder. Daher können Presenter keine genaue Anzahl der Personen erhalten, die sich in der Ansichtserfahrung befindet.
+> Die Teilnehmerzahl spiegelt nur die Teilnehmer in der Besprechung wider, nicht die Personen im schreibgeschützten Raum. Deshalb erhalten Referenten keine genaue Anzahl der Personen in der schreibgeschützten Erfahrung.
 
-## <a name="experience-for-view-only-attendees"></a>Benutzererfahrung für Nur-Ansicht-Teilnehmer
+## <a name="experience-for-view-only-attendees"></a>Erfahrung für schreibgeschützte Teilnehmer
 
-Die Nur-Ansichtserfahrung von Teams ermöglicht Teilnehmern:
+Die schreibgeschützte Teams-Erfahrung erlaubt Teilnehmern Folgendes:
 
-- Hören Sie sich die Teilnehmer an der Haupt-Teams-Besprechung an.
-- Sehen Sie sich den Videofeed für den aktiven Lautsprecher an (wenn der aktive Lautsprecher Video teilt).
-- Anzeigen von Inhalten, die mithilfe der Desktopfunktion "Freigeben" freigegeben werden.
+- Sie können den Teilnehmern in der Teams-Hauptbesprechung zuhören.
+- Sie können den Video-Feed für aktive Sprecher sehen (wenn der aktive Sprecher Videos teilt).
+- Sie können Inhalte sehen, welche über die „Desktop freigeben“-Funktionalität freigegeben werden.
 
-Der Nur-Ansicht-Teilnehmer kann in Besprechungen nicht die folgenden Optionen anzeigen:
+Die folgenden Optionen in Besprechungen stehen den schreibgeschützten Teilnehmern nicht zur Verfügung:
 
-- Nehmen Sie an der Besprechung teil, wenn der Teilnehmer nicht über die Berechtigung zum Umgehen des Wartebereichs basierend auf festgelegten Lobbyrichtlinien oder Optionen verfügt.
-- Nehmen Sie mit Audiokonferenzen am Nur-Ansicht-Raum teil.
-- Treten Sie dem Nur-Ansichtsraum mit microsoft Teams Room system oder cloud video interop (CVI)-Diensten bei.
-- Teilen Sie ihre Audio- oder Videodaten.
-- Sie können den Besprechungschat sehen oder daran teilnehmen.
-- Sehen Sie sich den Videofeed der Besprechungsteilnehmer an, es sei denn, der Teilnehmer ist der aktive Sprecher.
-- Weitere Informationen finden Sie unter PowerPoint-Dateien, die mit der systemeigenen PowerPoint-Freigabefunktion oder einzelnen Anwendungsfreigaben (mit anderen Als Desktopfreigaben) freigegeben werden.
+- Sie können der Besprechung nicht beitreten, wenn der Teilnehmer basierend auf festgelegten Wartebereichsrichtlinien oder -Optionen die Berechtigung zum Umgehen des Wartebereichs nicht hat.
+- Sie können dem schreibgeschützten Raum nicht mittels Audiokonferenz beitreten.
+- Sie können dem schreibgeschützten Raum nicht über das Microsoft Teams-Raumsystem oder über Cloud Video Interop (CVI)-Dienste beitreten.
+- Sie können ihr Audio oder Video nicht teilen.
+- Sie können den Besprechungschat nicht sehen und nicht daran teilnehmen.
+- Sie können den Video-Feed von Besprechungsteilnehmern nicht sehen, sofern der Teilnehmer nicht der aktive Sprecher ist.
+- Sie können keine PowerPoint-Dateien sehen, die mit der nativen PowerPoint-Freigabefunktion oder einzelnen Anwendungsfreigaben (mit Ausnahme der Desktopfreigabe) freigegeben wurden.
 
-## <a name="view-only-feature-limitations"></a>Einschränkungen für Nur-Ansicht-Features
+## <a name="view-only-feature-limitations"></a>Schreibgeschützte Feature-Einschränkungen
 
-- Nur-Ansichtsteilnehmer sehen immer Liveuntertitel, unabhängig von der Einstellung für die Liveuntertitel für diese Besprechung. Zurzeit werden nur englische Beschriftungen unterstützt.
-- Nur-Ansicht-Teilnehmer werden von der Streamingtechnologie unterstützt.
-- Nur anzeigende Teilnehmer werden nicht in den Anwesenheitsbericht aufgenommen.
-- Nur-Ansichtsteilnehmer verfügen über eine einzelne Videoerfahrung. Sie können entweder den aktiven Lautsprecher oder den freigegebenen Inhalt sehen, aber nicht beides.
-- Wir unterstützen derzeit keine Layouts im **Gallery-,** **Large Gallery-** oder **Together-Modus** für Nur-Ansicht-Teilnehmer.  
-- Nur-Ansichtsteilnehmer haben nicht die gleiche Latenz wie normale Teilnehmer. <sup>1</sup>
+- Schreibgeschützte Teilnehmer werden Liveuntertitel immer sehen, unabhängig von der Einstellung für Liveuntertitel für diese Besprechung. Derzeit werden nur englische Untertitel unterstützt. 
+- Schreibgeschützte Teilnehmer werden durch Streaming-Technologie unterstützt.
+- Schreibgeschützte Teilnehmer werden im Anwesenheitsbericht nicht eingeschlossen.
+- Schreibgeschützte Teilnehmer werden eine einzelne Videoerfahrung haben. Sie können entweder den aktiven Sprecher sehen, oder den freigegebenen Inhalt, aber nicht beides.
+- Derzeit unterstützen wir die Layouts **Galerie**. **Große Galerie** oder **Zusammen-Modus** für schreibgeschützte Teilnehmer nicht.  
+- Schreibgeschützte Teilnehmer werden nicht die gleiche Latenzzeit haben wir normale Teilnehmer. <sup>1</sup>
 
-  <sup>1</sup> Nur Anzeigende Teilnehmer werden bei einer Video- und Audioverzögerung von 30 Sekunden in der Besprechung angezeigt.  
+  <sup>1</sup> Schreibgeschützte Teilnehmer werden in der Besprechung eine Verzögerung von 30 Sekunden für Video und Audio haben.  
