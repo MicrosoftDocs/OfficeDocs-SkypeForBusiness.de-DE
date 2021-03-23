@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit Microsoft Phone System Direct Routing einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft Phone System verbinden können.
-ms.openlocfilehash: 858d57fb210765a1223a68527b0aa1b37bf7800b
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: af7e288791b85aea3beaf67b0200acd017e3e514
+ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50836992"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50999827"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -51,7 +51,7 @@ Microsoft bietet auch Sprachlösungen für alle In-der-Cloud-Sprachlösungen, z.
 - Ihre Organisation erfordert eine Verbindung mit analogen Geräten, Callcentern und anderen Geräten von Drittanbietern. 
 - Ihre Organisation hat einen bestehenden Vertrag mit einem PSTN-Netzbetreiber.
 
-Direct Routing unterstützt auch Benutzer, die über die zusätzliche Lizenz für den Microsoft-Anrufplan verfügen. Weitere Informationen finden Sie unter [Telefonsystem und Anrufpläne](calling-plan-landing-page.md). 
+Direct Routing unterstützt auch Benutzer, die über die zusätzliche Lizenz für den Microsoft-Anrufplan verfügen. Weitere Informationen hierzu finden Sie in [Telefonsystem und Anrufpläne](calling-plan-landing-page.md). 
 
 Bei Direct Routing wird die Einwahlnummer bei der Teilnahme an einer geplanten Konferenz vom Microsoft Audio Conferencing-Dienst bereitgestellt, der eine ordnungsgemäße Lizenzierung erfordert.  Beim Auswählen platziert der Microsoft Audio Conferencing-Dienst den Anruf mithilfe von Onlineanruffunktionen, für die eine ordnungsgemäße Lizenzierung erforderlich ist. (Hinweis: Wenn ein Benutzer nicht über eine Microsoft Audio Conferencing-Lizenz verfügt, leitet der Anruf über Direct Routing.) Weitere Informationen finden Sie unter [Onlinebesprechungen mit Teams.](https://products.office.com/microsoft-teams/online-meeting-solutions) 
  
@@ -192,6 +192,9 @@ Das Zertifikat muss von einer der folgenden Stammzertifikatbehörden generiert w
 - TeliaSonera 
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
+- USERTrust RSA Certification Authority
+- Hongkong Post Root CA 1,2,3
+- Stammzertifizierungsstelle für "Sektigo"
 
 Bei Direct Routing in Office 365 GCCH- und DoD-Umgebungen muss das Zertifikat von einer der folgenden Stammzertifikatbehörden generiert werden:
 - Globale Stammzertifizierungsstelle von DigiCert
@@ -370,6 +373,6 @@ Microsoft unterstützt nur zertifizierte SBCs zum Koppeln mit Direct Routing. Da
 Weitere Informationen zu unterstützten SBCs finden Sie unter Liste der für Direct [Routing zertifizierten Sitzungsgrenzcontroller.](direct-routing-border-controllers.md)
 
  
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [Konfigurieren von direktem Routing](direct-routing-configure.md)

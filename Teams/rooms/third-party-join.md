@@ -1,5 +1,5 @@
 ---
-title: Aktivieren von "Teams Rooms"-Geräten für die Teilnahme an Besprechungen von Drittanbietern
+title: Aktivieren von Teams Rooms-Geräten für die Teilnahme an Besprechungen von Drittanbietern
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -12,96 +12,96 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: In diesem Artikel wird beschrieben, wie Sie Ihre Organisations-und teamsräume-Geräte für die Unterstützung von Besprechungen von Drittanbietern in Cisco WebEx und Zoom konfigurieren.
-ms.openlocfilehash: 82369c534a616796382b1de69e37c64f15392f9b
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+description: In diesem Artikel wird erläutert, wie Sie Ihre Organisation und Teams Rooms-Geräte konfigurieren, um die Teilnahme von Drittanbietern an Cisco WebEx und Zoom zu unterstützen.
+ms.openlocfilehash: ac4c57dc5cc743fb7b141ecaaaf3531b35912e77
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682384"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997433"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren von Team Room-Geräten für die Teilnahme an Besprechungen von Drittanbietern
+# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren von Teams Room-Geräten für die Teilnahme an Besprechungen von Drittanbietern
 
-Microsoft Teams rooms-Geräte unterstützen eine einmalige Benutzeroberfläche für die Teilnahme an Onlinebesprechungen von Drittanbietern, die auch als direkte Gast Teilnahme bezeichnet werden. Wenn diese Option aktiviert ist, können Sie ein Gerät für Teams-Chatrooms verwenden, um an Besprechungen teilzunehmen, die auf Cisco WebEx gehostet werden, und genauso einfach zu zoomen, wie Sie an in Microsoft Teams gehosteten Besprechungen
+Microsoft Teams Rooms-Geräte unterstützen eine One-Touch-Erfahrung für die Teilnahme an Onlinebesprechungen von Drittanbietern, die auch als direkte Gastbesprechung bezeichnet wird. Wenn diese Option aktiviert ist, können Sie mit einem Team Rooms-Gerät an Besprechungen teilnehmen, die auf Cisco WebEx und Zoom gehostet werden, genauso einfach wie an Besprechungen teilnehmen, die in Microsoft Teams gehostet werden.
 
-Bevor Sie von einem Team Room-Gerät an Drittanbieter Besprechungen teilnehmen können, müssen Sie die folgenden Schritte ausführen:
+Bevor Sie von einem Team Rooms-Gerät aus an Besprechungen von Drittanbietern teilnehmen können, müssen Sie die folgenden Schritte tun:
 
-1. Konfigurieren Sie das Exchange Online Room-Postfach des Teams rooms für die Verarbeitung von Einladungen für Besprechungen von Drittanbietern.
-2. Stellen Sie sicher, dass Ihre Organisation keine Richtlinien enthält, die verhindern, dass Sie eine Verbindung mit den Besprechungs Diensten von Drittanbietern herstellen.
-3. Konfigurieren Sie Ihre Teams rooms-Geräte, um Besprechungen von Drittanbietern zu ermöglichen.
+1. Konfigurieren Sie das Exchange Online-Raumpostfach des Teams Rooms-Geräts, um Einladungen zu Besprechungen von Drittanbietern zu verarbeiten.
+2. Stellen Sie sicher, dass Ihre Organisation keine Richtlinien hat, die Sie daran hindern würden, eine Verbindung mit Besprechungsdiensten von Drittanbietern zu herstellen.
+3. Konfigurieren Sie Ihre Teams Rooms-Geräte so, dass Besprechungen von Drittanbietern zulässig sind.
 
 In den folgenden Abschnitten wird erläutert, wie Sie die einzelnen Schritte ausführen.
 
-## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>Schritt 1: genehmigen der Kalender Einladungs Verarbeitung für Besprechungen von Drittanbietern
+## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>Schritt 1: Zulassen der Verarbeitung von Kalenderbesprechungen für Besprechungen von Drittanbietern
 
-Das erste, was Sie tun müssen, um ein One-Touch-Join-Erlebnis von einem Team Room-Gerät zu aktivieren, ist die Kalender Verarbeitungsregeln für das Exchange Online Room-Postfach des Geräts festzulegen. Das Raumpostfach muss externe Besprechungen zulassen und den Nachrichtentext und das Thema beibehalten, damit die URL angezeigt wird, die für die Teilnahme an der Besprechung des Drittanbieters erforderlich ist. Gehen Sie wie folgt vor, um diese Raum Postfachoptionen mit dem Cmdlet " [CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) " zu definieren:
+Zum Aktivieren einer One-Touch-Join-Erfahrung auf einem Team Rooms-Gerät müssen Sie zuerst die Kalenderverarbeitungsregeln für das Exchange Online-Raumpostfach des Geräts festlegen. Das Raumpostfach muss externe Besprechungen zulassen und den Nachrichtentext und den Betreff behalten, damit die URL angezeigt wird, die für die Teilnahme an der Besprechung eines Drittanbieters erforderlich ist. Gehen Sie wie folgt vor, um diese Optionen für das Raumpostfach mithilfe des [Cmdlets Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) festlegen:
 
-1. Stellen Sie eine Verbindung mit Exchange Online PowerShell her. Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Exchange Online PowerShell mit Standardauthentifizierung](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) oder [Herstellen einer Verbindung mit Exchange Online PowerShell mithilfe der mehr](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)stufigen Authentifizierung, je nach Ihrer Authentifizierungsmethode.
+1. Stellen Sie eine Verbindung mit Exchange Online PowerShell herzustellen. Weitere Informationen finden Sie unter Herstellen einer Verbindung mit [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) mit Standardauthentifizierung oder Herstellen einer Verbindung mit [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)mithilfe der mehrstufigen Authentifizierung , je nach Authentifizierungsmethode.
 
-2. Rufen Sie den Benutzerprinzipalnamen (User Principal Name, UPN) des Room-Postfachs ab, wenn Sie ihn nicht kennen, indem Sie den folgenden Befehl ausführen:
+2. Verwenden Sie den folgenden Befehl, um den Benutzerprinzipalnamen (User Principal Name, UPN) des Raumpostfachs zu erhalten, wenn Sie es nicht kennen:
 
     ```powershell
     Get-Mailbox | Where {$_.RoomMailboxAccountEnabled -eq $True} | Format-Table Name, UserPrincipalName
     ```
     
-3. Suchen Sie den Namen des Raumpostfachs, das mit dem Gerät Ihres Teams rooms verknüpft ist, und notieren Sie sich dessen UPN.
+3. Suchen Sie den Namen des Raumpostfachs, das Ihrem Team Rooms-Gerät zugeordnet ist, und notieren Sie sich dessen UPN.
 
-4. Nachdem Sie den UPN des Room-Postfachs gefunden haben, führen Sie den folgenden Befehl aus. Ersetzen Sie dies `<UserPrincipalName>` durch den UPN des Room-Postfachs:
+4. Nachdem Sie den UPN des Raumpostfachs finden, führen Sie den folgenden Befehl aus. Ersetzen `<UserPrincipalName>` Sie dies durch den UPN des Raumpostfachs:
 
     ```powershell
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-Weitere Informationen zu [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps).
+Weitere Informationen zu [Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps)
 
-## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Schritt 2: Konfigurieren von Office 365-Bedrohungsschutz und erneutem Erstellen von Links
+## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Schritt 2: Konfigurieren von Office 365 Threat Protection und Neuschreiben von Links
 
-Zum Aktivieren der einmaligen Verknüpfungsfunktion müssen Besprechungs Verknüpfungsinformationen aus der Drittanbieter Besprechung in der Besprechungseinladung vorhanden und lesbar sein. Wenn in Ihrer Organisation das Feature " [Erweiterter Bedrohungsschutz" von Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) verwendet wird oder wenn Sie eine Lösung eines Drittanbieters verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen scannt, kann Sie die URLs der Besprechungsteilnahme ändern und die Besprechung vom Gerät "Teams Rooms" unkenntlich machen. Um sicherzustellen, dass dies nicht der Fall ist, müssen Sie die URLs des Drittanbieters des Besprechungs Diensts der ATP-Liste der sicheren Links "nicht umschreiben" oder der Ausnahmeliste für URL-Umschreibungen von Drittanbietern hinzufügen.
+Um die One-Touch-Join-Erfahrung zu ermöglichen, müssen die Linkinformationen zur Besprechungsbeknüpfung aus der Besprechung eines Drittanbieters in der Besprechungs-Einladung vorhanden und lesbar sein. Wenn Ihre Organisation das [Office 365 Advanced Threat Protection Safe Links-Feature](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) verwendet, oder wenn Sie eine Drittanbieterlösung verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen überprüft, kann dies die URLs für die Teilnahme an der Besprechung ändern und die Besprechung vom Gerät "Teams Rooms" unkenntlich machen. Um sicherzustellen, dass dies nicht geschieht, müssen Sie die URLs des Drittanbieter-Besprechungsdiensts der Liste "Sichere Links" von ATP oder der URL des Drittanbieters hinzufügen, um die Ausnahmeliste neu zu schreiben.
 
-Zum Hinzufügen von Drittanbieter-Besprechungs Dienst-URLs zu den ATP-Sicherheits Links "nicht umschreiben" führen Sie die Schritte unter [Einrichten einer benutzerdefinierten URL-Liste "nicht umschreiben" mithilfe von ATP-Sicherheits Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)aus. Wenn Sie eine Lösung eines Drittanbieters verwenden, lesen Sie die Anweisungen für diese Lösung, um URLs zur Ausnahmeliste für URL-Umschreibungen hinzuzufügen.
+Führen Sie die Schritte unter Einrichten einer benutzerdefinierten Liste nicht umschreiben von URLs für sichere Links mithilfe von [ATP Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)aus, um urLs von Drittanbietern zur Liste sicherer Links hinzuzufügen. Wenn Sie eine Drittanbieterlösung verwenden, lesen Sie die Anweisungen für diese Lösung zum Hinzufügen von URLs zur Ausnahmeliste url rewrite.
 
-Nachfolgend sind einige Beispieleinträge aufgeführt, die Sie möglicherweise zu ihren ATP-Sicherheits Links "nicht umschreiben" oder der Ausnahmeliste für URL-Umschreibungen von Drittanbietern hinzufügen müssen:
+Im Folgenden finden Sie einige Beispieleinträge, die Sie ihrer LISTE sicherer Links für sichere Links (ATP) möglicherweise hinzufügen müssen, um die Ausnahmeliste "Nicht umschreiben" oder die URL einer Drittanbieter-URL neu zu schreiben:
 
 - **Cisco WebEx**`*.webex.com*`
-- **Zoom** `*.zoom.us*` , `*.zoom.com*` , `*.zoomgov.com*`
+- **Zoomen** `*.zoom.us*` , `*.zoom.com*` , `*.zoomgov.com*`
 
-Eine vollständige Liste der URLs, die Sie zu ihren ATP-sicheren Links "nicht umschreiben"-Liste oder zur Ausnahmeliste eines Drittanbieters für URL-Umschreibungen hinzufügen können, erhalten Sie vom Drittanbieter-Besprechungs Dienstanbieter, von dem Sie Besprechungseinladungen annehmen möchten. 
+Wenn Sie eine vollständige Liste der URLs, die Sie Ihrer LISTE sicherer Links für sichere Links (ATP) hinzufügen möchten, oder die Url eines Drittanbieters zum Neuschreiben der Ausnahmeliste hinzufügen möchten, wenden Sie sich an den Drittanbieter für Besprechungsdienstanbieter, von dem Sie Besprechungsbesprechungen annehmen möchten. 
 
 > [!CAUTION]
-> Fügen Sie nur URLs, denen Sie Vertrauen, zu ihren ATP-sicheren Links "nicht umschreiben"-Liste oder Ausnahmeliste für URL-Umschreibungen von Drittanbietern hinzu.
+> Fügen Sie nur URLs hinzu, die Sie Ihrer ATP Safe Links-Liste "Nicht neu schreiben" oder der URL eines Drittanbieters vertrauen, die Ausnahmeliste neu schreiben.
 
-## <a name="step-3-enable-third-party-meetings-on-device"></a>Schritt 3: Aktivieren von Besprechungen von Drittanbietern auf einem Gerät
+## <a name="step-3-enable-third-party-meetings-on-device"></a>Schritt 3: Aktivieren von Drittanbieterbesprechungen auf einem Gerät
 
-Der letzte Schritt besteht darin, das Gerät für die einzelnen Teams für die Teilnahme an Besprechungen von Drittanbietern zu ermöglichen. Für Besprechungen von Drittanbietern müssen Sie einen Benutzernamen und eine e-Mail-Adresse angeben. Wenn der Benutzername und die e-Mail-Adresse, die Sie verwenden müssen, anders als das Raumpostfach des Geräts sind, müssen Sie Sie auf Ihrem Gerät hinzufügen. Dies können Sie in den Geräteeinstellungen oder in der XML-Konfigurationsdatei vornehmen.
+Der letzte Schritt, den Sie tun müssen, besteht im Zulassen, dass jedes Team Rooms-Gerät an Besprechungen von Drittanbietern teilnehmen kann. Besprechungen von Drittanbietern erfordern einen Benutzernamen und eine E-Mail-Adresse, um an besprechungen teilzunehmen. Wenn sich der Benutzername und die E-Mail-Adresse, die Sie verwenden müssen, vom Raumpostfach des Geräts unterscheiden, müssen Sie sie Ihrem Gerät hinzufügen. Dies können Sie in den Geräteeinstellungen oder in der XML-Konfigurationsdatei tun.
 
 ### <a name="use-device-settings"></a>Verwenden von Geräteeinstellungen
 
-Gehen Sie wie folgt vor, um das Gerät "Teams Rooms" über seinen Touchscreen zu konfigurieren:
+Gehen Sie wie folgt vor, um das Gerät "Teams Rooms" über den Touchscreen zu konfigurieren:
 
-1. Wählen Sie auf dem Gerät Microsoft Teams rooms den Eintrag **mehr...** aus.
-2. Wählen Sie **Einstellungen** aus, und geben Sie dann den Benutzernamen und das Kennwort für den Geräteadministrator ein.
-3. Wechseln Sie zur Registerkarte **Besprechungen** , und wählen Sie **Cisco WebEx**, **Zoom** oder beides aus.
-4. Wenn Sie mit dem Benutzernamen und der e-Mail-Adresse, die dem Raumpostfach zugeordnet ist, an Besprechungen teilnehmen möchten, wählen Sie **mit Rauminformationen teilnehmen** aus.
-5. Wenn Sie mit einem alternativen Benutzernamen und einer e-Mail-Adresse an Besprechungen teilnehmen möchten, wählen Sie **mit benutzerdefinierten Informationen beitreten** aus, und geben Sie den Benutzernamen und die e-Mail-Adresse ein.
-6. Wählen Sie **Speichern und beenden** aus. Ihr Gerät wird neu gestartet.
+1. Wählen Sie auf dem Microsoft Teams Rooms-Gerät Mehr **... aus.**
+2. Wählen **Sie Einstellungen** aus, und geben Sie dann den Benutzernamen und das Kennwort des Geräteadministrators ein.
+3. Wechseln Sie zur **Registerkarte Besprechungen,** und wählen **Sie Cisco WebEx,** **Zoom** oder beides aus.
+4. Wenn Sie an Besprechungen mit dem Benutzernamen und der E-Mail-Adresse teilnehmen möchten, die dem Raumpostfach zugeordnet sind, wählen Sie **Teilnehmen mit Rauminformationen aus.**
+5. Wenn Sie an Besprechungen mit einem alternativen  Benutzernamen und einer alternativen E-Mail-Adresse teilnehmen möchten, wählen Sie Teilnehmen mit benutzerdefinierten Informationen aus, und geben Sie Benutzernamen und E-Mail-Adresse ein, die Sie verwenden möchten.
+6. Wählen **Sie Speichern und Beenden aus.** Ihr Gerät wird neu gestartet.
 
-### <a name="use-the-skypesettingsxml-configuration-file"></a>Verwenden der SkypeSettings.xml-Konfigurationsdatei
+### <a name="use-the-skypesettingsxml-configuration-file"></a>Verwenden der SkypeSettings.xml Konfigurationsdatei
 
-Die folgenden Einstellungen können zu der Datei hinzugefügt werden, die `SkypeSettings.xml` sich in befindet `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` . Weitere Informationen zur `SkypeSettings.xml` Datei finden Sie unter [Verwalten von Microsoft Teams rooms-Konsoleneinstellungen Remote mit einer XML-Konfigurationsdatei](xml-config-file.md).
+Die folgenden Einstellungen können der Datei hinzugefügt `SkypeSettings.xml` werden, die sich in `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` befindet. Weitere Informationen zur Datei finden Sie unter Remoteverwaltung einer Microsoft Teams Rooms-Konsoleneinstellungen `SkypeSettings.xml` mit einer [XML-Konfigurationsdatei.](xml-config-file.md)
 
-Um Cisco WebEx-Besprechungen zu aktivieren, `WebExMeetingsEnabled` müssen Sie das XML-Element wie folgt auf " **true**" festlegen.
+Zum Aktivieren von Cisco WebEx-Besprechungen legen Sie das `WebExMeetingsEnabled` XML-Element wie folgt **auf True**(Wahr) vor.
 
 ```xml
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
 ```
 
-Um Zoom Besprechungen zu aktivieren, `ZoomMeetingsEnabled` müssen Sie das XML-Element wie folgt auf **true** festlegen.
+Um Zoombesprechungen zu aktivieren, legen Sie das `ZoomMeetingsEnabled` XML-Element wie folgt **auf True**(Wahr) vor.
 
 ```xml
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
 ```
 
-Optional können Sie einen benutzerdefinierten Benutzernamen und eine e-Mail-Adresse angeben, um mit den folgenden XML-Elementen an Besprechungen von Drittanbietern teilzunehmen. Wenn die von Ihnen bereitgestellten Werte nicht gültig sind, verwendet das Gerät "Teams Rooms" standardmäßig den Benutzernamen und die e-Mail-Adresse für Room Mailbox.
+Sie können optional einen benutzerdefinierten Benutzernamen und eine benutzerdefinierte E-Mail-Adresse angeben, um an Besprechungen von Drittanbietern mit den folgenden XML-Elementen teilzunehmen. Wenn die von Ihnen angegebenen Werte nicht gültig sind, verwendet das Team Rooms-Gerät standardmäßig den Benutzernamen und die E-Mail-Adresse des Raumpostfachs.
 
 ```xml
 <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
@@ -112,5 +112,4 @@ Optional können Sie einen benutzerdefinierten Benutzernamen und eine e-Mail-Adr
 ```
 
 > [!NOTE]
-> Wenn Sie von einem Team Room-Gerät aus an Cisco WebEx-Besprechung teilnehmen möchten, muss die Cisco-Besprechung mit der Cisco WebEx Web Application-Version PSP 40,7 oder höher gehostet werden.
-
+> Um von einem Teams Rooms-Gerät aus an einer Cisco WebEx-Besprechung teilnehmen zu können, muss die Cisco-Besprechung mit Cisco WebEx-Webanwendungsversion WBS 40.7 oder höher gehostet werden.

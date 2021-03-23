@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Schreibtisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 4696adad4158013dbad3bf95355d329413e2d5e2
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2d72e9b71be6bab7c077a060a9828ad1f4175d74
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875085"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997453"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams-zertifizierte Geräte
 
@@ -72,10 +72,11 @@ Die folgenden Geräte sind unter dem Microsoft Teams Rooms on Android Certificat
 | Gerätemodell | Firmwareversion | Veröffentlichungsdatum  | Raumgröße                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | Yealink MeetingBar A30       | 133.15.0.52    | März 2021 | Mittelgroßer Raum (4,5 m x 6 m) |
-| Yealink CTP18-Touchkonsole  | 137.15.0.28    | März 2021 | Kompatibel mit MeetingBar A20 und MeetingBar A30 |
+| Yealink CTP18-Touchkonsole  | 137.15.0.28    | März 2021 | Kompatibel mit Yealink MeetingBar A20 und Yealink MeetingBar A30 |
 | Yealink MeetingBar A20  | 133.15.0.19      | November 2020 | Fokusraum(3m x 3m) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
 | Poly Studio X30         | 3.1.1.216109     | Juni 2020     | Fokusraum(3m x 3m) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
 | Poly Studio X50         | 3.1.1.216109     | Juni 2020     | Fokusraum(3m x 3m) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
+| Poly TC8                | 3.3.2.210441     | März 2021    | Kompatibel mit Poly Studio X30 und Poly Studio X50 |
 | Yealink VC210           | 118.15.0.14      | Februar 2020 | Fokusraum(3m x 3m) </br> Kleiner Besprechungsraum (4,5 m x 4,5 m) |
 
 ## <a name="currently-certified-teams-displays"></a>Aktuell zertifizierte Anzeigen von Teams
@@ -102,17 +103,17 @@ Im Folgenden finden Sie die neuesten Versionen von Teams Phone App und Firmware.
 
 | Produktversion | Veröffentlichungsdatum  | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
-| Aktualisieren #7  | 8. Dezember 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
-| Aktualisieren #6  | 12. Oktober 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
-| Aktualisieren #5  | 31. August 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
-| Aktualisieren #4  | 30. Juni 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
-| Aktualisieren #3  | 13. Mai 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
+| Update 2020 #7  | 8. Dezember 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (.223) |
+| Update 2020 #6  | 12. Oktober 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
+| Update 2020 #5  | 31. August 2020 | 1449/1.0.94.2020071702    | 5.0.4867.0             | 1.0.0.202006290446.product(216) |
+| Update 2020 #4  | 30. Juni 2020 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| Update 2020 #3  | 13. Mai 2020  | 1449/1.0.94.2020040801      | 5.0.4715.0             | 1.210               |
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
 Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden installierten Versionen der Microsoft Teams-App, des Unternehmensportals und des Administratormitarbeiters ermitteln. Suchen Sie die Produktversion in der Spalte **Enthaltene Produktversion,** und suchen Sie dann die Produktversion in der vorherigen **Tabelle "App-Versionen".**
 
-| Gerätemodell        | Firmwareversion     | Jahres-/Im Lieferumfang enthaltene Produktversion  |
+| Gerätemodell        | Firmwareversion     | Enthaltene Produktversion  |
 |:--------------------|:---------------------|:-------------------------|
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | Update 2020 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | Update 2020 #7           |
@@ -138,19 +139,19 @@ Im Folgenden finden Sie die neuesten Versionen der Teams Rooms für Android-App 
 
 | Produktversion| Veröffentlichungsdatum | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Aktualisieren #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
-| Aktualisieren #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
-| Aktualisieren #1  | 13. Mai 2020 | .040901                     | .4715                  | .210                |
+| Update 2020 #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
+| Update 2020 #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
+| Update 2020 #1  | 13. Mai 2020 | .040901                     | .4715                  | .210                |
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
 Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-App, das Unternehmensportal und den Administrator-Agent ermitteln, die installiert werden, indem Sie die Produktversion in der Spalte **Eingeschlossene Produktversion** finden. Suchen Sie dann die Produktversion in der **Obigen Tabelle "App-Versionen".**
 
-| Gerätemodell  | Firmwareversion | Year/ Included Product Release |
+| Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 + CP900 | 118.15.0.42     | 2020, Update #3    |
-| Poly Studio X30 | 3.2.3.280012          | 2020, Update #3    |
-| Poly Studio X50 | 3.2.3.280012          | 2020, Update #3    |
+| Yealink VC210 + CP900 | 118.15.0.42     | Update 2020 #3    |
+| Poly Studio X30 | 3.2.3.280012          | Update 2020 #3    |
+| Poly Studio X50 | 3.2.3.280012          | Update 2020 #3    |
 
 ### <a name="product-release-information-for-teams-displays"></a>Produktveröffentlichungsinformationen für Die Anzeigen von Teams
 
@@ -160,15 +161,17 @@ Im Folgenden finden Sie die neuesten Versionen für die Microsoft Teams-Anzeige-
 
 |Produktversion| Veröffentlichungsdatum | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|Aktualisieren #1  |22. Oktober 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+|Update 2021 #1  |18. März 2021 |1449/1.0.95.2021021104    |5.0.5045.0            |1.0.0.202101280722.product|
+|Update 2020 #1  |22. Oktober 2020 |1449/1.0.95.2020092307    |5.0.4927.0              |1.0.0.202006290446.product|
+
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
 Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechende Microsoft Teams-App, das Unternehmensportal und den Administrator-Agent ermitteln, die installiert werden, indem Sie die Produktversion in der Spalte **Eingeschlossene Produktversion** finden. Suchen Sie dann die Produktversion in der **Obigen Tabelle "App-Versionen".**
 
-| Gerätemodell  | Firmwareversion | Year/ Included Product Release|
+| Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
-|Lenovo ThinkSmart View| CD-18781Y.201006.099 |2020, Update #1 |
+|Lenovo ThinkSmart View| CD-18781Y.210228.109 |Update 2021 #1 |
 
 
 ## <a name="more-resources"></a>Weitere Ressourcen

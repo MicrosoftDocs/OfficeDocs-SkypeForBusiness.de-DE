@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: In diesem Artikel finden Sie Anleitungen zur Verwendung von Teams Panel-Geräten.
-ms.openlocfilehash: eba450b42bb66dfbe202290cdd235a0d4db9e710
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: f5afdb5ec9ec7cb6d6c7e86487dbaf27af98bafc
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395327"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997443"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Verwenden von Microsoft Teams-Panels
 
@@ -82,7 +82,7 @@ Die Kachel wird in violetter Farbe für einen Besprechungsraum angezeigt, der f�
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>Besprechungsraum ist für eine Ad-hoc-Besprechung reserviert
 
-Die Kachel wird in Violett für einen Besprechungsraum angezeigt, der [für eine Ad-hoc-Besprechung reserviert ist.](#reserve-meeting-spaces-for-ad-hoc-meetings) Sie zeigt **Reserviert** in auffälligen Text sowie Start- und Endzeiten für Besprechungen an. Wenn Sie Ad-hoc-Besprechungen über den Bereich (anstelle von Outlook- oder Teams-Kalendern) planen, buchen Sie tatsächlich den Kalender dieses Besprechungsraums. Solche Besprechungen werden automatisch als Teams-Besprechungen geplant, daher wird das Teams-Logo immer auf dem Bildschirm angezeigt.
+Die Kachel wird in Violett für einen Besprechungsraum angezeigt, der [für eine Ad-hoc-Besprechung reserviert ist.](#reserve-meeting-spaces-for-ad-hoc-meetings) Sie zeigt **Reserviert** in auffälligen Text zusammen mit den Start- und Endzeiten der Besprechung an. Ad-hoc-Besprechungen werden automatisch als Teams-Besprechungen geplant, daher wird das Teams-Logo immer auf dem Bildschirm angezeigt.
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Startbildschirm der Teams-Panels, auf dem angezeigt wird, dass der Besprechungsraum für eine Ad-hoc-Besprechung reserviert ist":::
 
@@ -147,7 +147,7 @@ Wenn Sie ein Problem mit dem Gerät oder dem Besprechungsraum melden, ein  Featu
 
 ### <a name="view-or-update-a-device-setting"></a>Anzeigen oder Aktualisieren einer Geräteeinstellung
 
-Es gibt mehrere Geräteeinstellungen, z. B. Informationen zu, Barrierefreiheit, Neustart, Datenschutzrichtlinie, die Sie direkt in Panels anzeigen oder aktualisieren können. Die verfügbaren Geräteeinstellungen können je nach Oem (Original Equipment Manufacturer) Ihres Geräts variieren. Informationen zu den einstellungen, die für Ihr Gerät spezifisch sind, finden Sie in der OEM-Dokumentation.
+Es gibt mehrere Geräteeinstellungen, z. B. Informationen zu, Barrierefreiheit, Neustart und Datenschutzrichtlinie, die Sie direkt in Panels anzeigen oder aktualisieren können. Die verfügbaren Geräteeinstellungen können je nach Oem (Original Equipment Manufacturer) Ihres Geräts variieren. Informationen zu den einstellungen, die für Ihr Gerät spezifisch sind, finden Sie in der OEM-Dokumentation.
 
 So zeigen Sie eine Geräteeinstellung an, oder aktualisieren Sie sie:
 

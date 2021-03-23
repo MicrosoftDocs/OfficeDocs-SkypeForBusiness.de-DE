@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874895"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997323"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -50,7 +50,7 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 | **Exchange Online**                                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja        | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja        | Ja                          | Ja                    | Ja                    |
 | **Exchange Online Dedicated vNext**                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja        | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja        | Ja                          | Ja                    | Ja                    |
 | **Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)  | Ja <sup>1</sup> | Ja <sup>1,2</sup> | Ja <sup>3</sup> | Ja                   | Nein                                | Nein                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>                   | Ja                    | Ja                    |
-| **Exchange lokal** (Synchronisierung in Azure AD) | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja <sup>3</sup> | Ja                   | Ja <sup>8</sup>         | Nein                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>                   | Ja                    | Ja                    |
+| **Exchange lokal** (Synchronisierung in Azure AD) | Ja <sup>1,9</sup> | Ja <sup>1</sup>   | Ja <sup>3</sup> | Ja                   | Ja <sup>8</sup>         | Nein                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>                   | Ja                    | Ja                    |
 
 <sup>1</sup> Bei allen Hostingoptionen wird eDiscovery unterstützt und die gesetzliche Aufbewahrungspflicht eingehalten.
 
@@ -66,6 +66,8 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>7</sup> Teams berücksichtigt die Einstellung der [Outlook im Web-Postfachrichtlinie](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy), die von Mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **-SetPhotoEnabled** in der Richtlinie deaktiviert ist, können Benutzer ihr Profilbild nicht hinzufügen, ändern oder entfernen, sodass das Porfilebild nicht mit Teams synchronisiert wird, wenn der Administrator das Foto ändert.
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
+
+<sup>9</sup> Mindestens eine Exchange Online Plan 1-Lizenz ist ebenfalls erforderlich. Weitere Informationen finden Sie unter [Suchen nach Teams-Chatdaten für lokale Benutzer.](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen für die optimale Nutzung von Microsoft Teams
 
@@ -105,12 +107,12 @@ Wenn Postfächer lokal gehostet werden, müssen zum Erstellen und Anzeigen von B
 
 So aktivieren Sie die Kalenderdelegation für diese Benutzer
 
-- Sie müssen auch die Schritte 2–3 ausführen, wie in [Konfigurieren von Integration und OAuth zwischen Skype for Business Online und Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) beschrieben. Diese Schritte erteilen der Teams-Planungsanwendung die erforderlichen Berechtigungen, um die Delegiertenberechtigungen zu bestätigen.
+- Sie müssen auch Schritte ausführen, wie unter Konfigurieren von [Integration und OAuth zwischen Skype for Business Online und Exchange Server](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). Diese Schritte stellen der Teams-Terminplanungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stellvertretungsberechtigungen zur Verfügung.
  
   > [!NOTE]
   > Schritt 2 umfasst die Rollenzuweisung für ArchiveApplication, die für die Delegation nicht erforderlich ist.
 
-- Das Teams-Terminplanungs-Add-In für Outlook benötigt zur Planung einer Besprechung im Auftrag einer anderen Person Exchange 2013 CU19 oder höher. Dies dient zur Unterstützung der nicht authentifizierten Erkennung des Postfachs durch unseren Dienst, um die Berechtigungen der Stellvertretung anhand des Delegatorpostfachs zu überprüfen. Die Standorte von Stellvertretung und Delegator können Exchange 2013 oder höher oder Exchange Online sein, aber die AutoErmittlung muss zu Exchange 2013 CU19 oder höher auflösen.
+- Für das Teams Scheduling-Add-In für Outlook ist Exchange 2013 CU19 oder höher erforderlich, wenn eine Besprechung im Auftrag einer anderen Person geplant wird. Dies dient zur Unterstützung der nicht authentifizierten Erkennung des Postfachs durch unseren Dienst, um die Berechtigungen der Stellvertretung anhand des Delegatorpostfachs zu überprüfen. Die Standorte von Stellvertretung und Delegator können Exchange 2013 oder höher oder Exchange Online sein, aber die AutoErmittlung muss zu Exchange 2013 CU19 oder höher auflösen.
 
 ## <a name="additional-considerations"></a>Zusätzliche Überlegungen
 
