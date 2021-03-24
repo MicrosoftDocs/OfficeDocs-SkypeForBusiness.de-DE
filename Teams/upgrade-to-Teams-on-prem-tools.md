@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c272cdd6eac98b8847b6f915d59b62444d16c97
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 5585a2d2995b2f7d470c4d07eab3f5bb7f1934c7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460435"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097501"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Tools für das Upgrade auf Teams &mdash; für IT-Administratoren
 
@@ -36,7 +36,7 @@ Bevor Sie mit dem Upgrade beginnen, empfiehlt Microsoft die folgenden Artikel, i
 
 ## <a name="tools-for-managing-the-upgrade"></a>Tools zum Verwalten des Upgrades
 
-Unabhängig von der von Ihnen verwendeten Upgrademethode verwalten Sie für Benutzer, die bereits Über Skype for Business Online verfügen, den Übergang zu TeamsOnly mithilfe von [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), das den Koexistenzmodus eines Benutzers steuert. Für Benutzer mit einem lokalen Konto in Skype for Business Server verwenden Sie sie auch, um sie in `Move-CsUser` [die Cloud zu verschieben.](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)  Weitere Informationen zu den einzelnen Modi finden Sie unter [Koexistenzmodi](migration-interop-guidance-for-teams-with-skype.md).
+Unabhängig von der von Ihnen verwendeten Upgrademethode verwalten Sie für Benutzer, die bereits Über Skype for Business Online verfügen, den Übergang zu TeamsOnly mithilfe von [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), das den Koexistenzmodus eines Benutzers steuert. Für Benutzer mit einem lokalen Konto in Skype for Business Server verwenden Sie sie auch, um sie in `Move-CsUser` [die Cloud zu verschieben.](/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)  Weitere Informationen zu den einzelnen Modi finden Sie unter [Koexistenzmodi](migration-interop-guidance-for-teams-with-skype.md).
 
 > [!NOTE]
 > Wenn Sie derzeit Skype for Business Online Connector zum Verwalten Ihrer Dienste verwenden, müssen Sie zum Teams PowerShell-Modul wechseln und Ihre vorhandenen PowerShell-Skripts aktualisieren. Weitere Informationen finden Sie unter Wechseln von [Skype for Business Online Connector zum Teams PowerShell-Modul.](teams-powershell-move-from-sfbo.md)
@@ -45,7 +45,7 @@ Ganz gleich, ob Sie einen Übergang zu Auswahlfunktionen mithilfe von Skype for 
 
 Sie können auch jedem Modus von TeamsUpgradePolicy , mit Ausnahme des TeamsOnly-Modus, Benutzer zuweisen, die in Skype for Business lokal heimisch sind. **Der TeamsOnly-Modus kann nur** einem Benutzer zugewiesen werden, der bereits in Skype for Business Online zu Hause ist. Dies liegt daran, dass in Verbindung mit Skype for Business-Benutzern und verbund- und Microsoft 365 Phone System-Funktionen nur möglich ist, wenn der Benutzer in Skype for Business Online zu Hause ist. Darüber hinaus können Sie den **TeamsOnly-Modus** nicht als mandantenweite Standardeinstellung zuweisen, wenn Sie über eine lokale Skype for Business-Bereitstellung verfügen (die durch das Vorhandensein eines lyncdiscover-DNS-Eintrags erkannt wird, der auf einen anderen Speicherort als Office 365 verweist.
 
-Benutzer mit lokalen Skype for Business-Konten müssen mithilfe von Move-CsUser im lokalen Toolset von Skype for Business online [(entweder](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) zu Skype for Business Online oder direkt zu Teams) verschoben werden. Diese Benutzer können in 1 oder 2 Schritten nach TeamsOnly verschoben werden:
+Benutzer mit lokalen Skype for Business-Konten müssen mithilfe von Move-CsUser im lokalen Toolset von Skype for Business online [(entweder](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) zu Skype for Business Online oder direkt zu Teams) verschoben werden. Diese Benutzer können in 1 oder 2 Schritten nach TeamsOnly verschoben werden:
 
 -   1 Schritt: Geben Sie den Schalter -MoveToTeams in Move-CsUser an. Dazu ist Skype for Business Server 2019 oder Skype for Business Server 2015 mit CU8 oder höher erforderlich.
 
@@ -106,7 +106,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Wenn ein Benutzer in den TeamsOnly-Modus migriert wird, werden standardmäßig die vorhandenen Skype for Business-Besprechungen, die er organisiert hat, in Teams konvertiert. Sie können das Standardverhalten optional deaktivieren, wenn Sie einem Benutzer den TeamsOnly-Modus zuweisen. Beim Verschieben von Benutzern aus lokalen Besprechungen müssen Besprechungen in die Cloud migriert werden, damit sie mit dem Onlinebenutzerkonto funktionieren. Wenn Sie jedoch "-MoveToTeams" nicht angeben, werden die Besprechungen als Skype for Business-Besprechungen migriert und nicht in Teams konvertiert. 
 
-Beim Zuweisen des TeamsOnly-Modus auf Mandantenebene wird die Besprechungsmigration für keine Benutzer ausgelöst. Wenn Sie den TeamsOnly-Modus auf Mandantenebene zuweisen und Besprechungen migrieren möchten, können Sie powerShell verwenden, um eine Liste der Benutzer im Mandanten zu erhalten (z. B. Get-CsOnlineUser mit den benötigten Filtern zu verwenden), und dann jeden dieser Benutzer durchschleifen, um die Besprechungsmigration mithilfe von Start-CsExMeetingMigration auszulösen. Details finden Sie unter [Verwenden des Besprechungsmigrationsdiensts (MMS).](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+Beim Zuweisen des TeamsOnly-Modus auf Mandantenebene wird die Besprechungsmigration für keine Benutzer ausgelöst. Wenn Sie den TeamsOnly-Modus auf Mandantenebene zuweisen und Besprechungen migrieren möchten, können Sie powerShell verwenden, um eine Liste der Benutzer im Mandanten zu erhalten (z. B. Get-CsOnlineUser mit den benötigten Filtern zu verwenden), und dann jeden dieser Benutzer durchschleifen, um die Besprechungsmigration mithilfe von Start-CsExMeetingMigration auszulösen. Details finden Sie unter [Verwenden des Besprechungsmigrationsdiensts (MMS).](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 
 
 
@@ -114,13 +114,12 @@ Beim Zuweisen des TeamsOnly-Modus auf Mandantenebene wird die Besprechungsmigrat
 
 [Koexistenzmodi – Referenz](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Konfigurieren der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Konfigurieren der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Verwenden des Besprechungsmigrationsdiensts (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[Verwenden des Besprechungsmigrationsdiensts (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

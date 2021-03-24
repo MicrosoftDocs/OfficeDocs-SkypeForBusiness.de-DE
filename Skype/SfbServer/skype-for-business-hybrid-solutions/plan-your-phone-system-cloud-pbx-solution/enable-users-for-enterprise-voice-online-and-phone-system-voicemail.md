@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Erfahren Sie, wie Sie Telefonsystem-Voicedienste für Ihre Skype for Business-Benutzer aktivieren.
-ms.openlocfilehash: bbcf8b35d91015067943eec2cbe43525e952a7f7
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569357"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098571"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP online und für Telefonsystem-Voicemail
  
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, nachdem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Verbindung zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mithilfe von Direct Routing mit Teams [verbinden.](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)
+> Skype for Business Online wird am 31. Juli 2021 eingestellt, nachdem der Zugriff auf den Dienst nicht mehr möglich ist.  Darüber hinaus wird die PSTN-Verbindung zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mithilfe von Direct Routing mit Teams [verbinden.](/MicrosoftTeams/direct-routing-landing-page)
 
 Erfahren Sie, wie Sie Telefonsystem-Voicedienste für Ihre Skype for Business-Benutzer aktivieren.
   
@@ -45,7 +45,7 @@ Um einen Benutzer für Voice- und Voicemail im Telefonsystem zu aktivieren, müs
 > Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
 > Wenn Sie die neueste öffentliche Version von [Teams PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
 
-1. Bevor Sie beginnen, überprüfen Sie, ob das Teams PowerShell-Modul auf Ihren Front-End-Servern installiert ist. Falls nicht, installieren Sie die Installation mithilfe der Anweisungen in [Teams PowerShell Module Installation](https://docs.microsoft.com/microsoftteams/teams-powershell-install).
+1. Bevor Sie beginnen, überprüfen Sie, ob das Teams PowerShell-Modul auf Ihren Front-End-Servern installiert ist. Falls nicht, installieren Sie die Installation mithilfe der Anweisungen in [Teams PowerShell Module Installation](/microsoftteams/teams-powershell-install).
     
 2. Starten Windows PowerShell als Administrator.
     
@@ -98,11 +98,11 @@ In diesem Abschnitt wird beschrieben, wie Sie den Leitungs-URI und den Wählplan
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren des Wählplans mithilfe von lokalen Windows PowerShell Cmdlets
 
-Sie können benutzerspezifischen Wählplänen Windows PowerShell und dem [Grant-CsDialPlan-Cmdlet](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) zuweisen. Sie können dieses Cmdlet entweder über Skype for Business Server 2015 oder über eine Remotesitzung von Windows PowerShell.
+Sie können benutzerspezifischen Wählplänen Windows PowerShell und dem [Grant-CsDialPlan-Cmdlet](/powershell/module/skype/grant-csdialplan?view=skype-ps) zuweisen. Sie können dieses Cmdlet entweder über Skype for Business Server 2015 oder über eine Remotesitzung von Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer einen Benutzerwählplan zu
 
-- Verwenden Sie das [Grant-CsDialPlan-Cmdlet,](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) um den benutzerspezifischen Wählplan RedmondDialPlan dem Benutzer Ken Myer zuzuordnen:
+- Verwenden Sie das [Grant-CsDialPlan-Cmdlet,](/powershell/module/skype/grant-csdialplan?view=skype-ps) um den benutzerspezifischen Wählplan RedmondDialPlan dem Benutzer Ken Myer zuzuordnen:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
@@ -110,7 +110,7 @@ Sie können benutzerspezifischen Wählplänen Windows PowerShell und dem [Grant-
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>So weisen Sie mehreren Benutzern einen Benutzerwählplan zu
 
-- Der folgende Befehl weist den Benutzerwählplan RedmondDialPlan allen Benutzern zu, die in der Stadt Redmond arbeiten. Weitere Informationen zum in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation zum [Cmdlet Get-CsUser:](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps)
+- Der folgende Befehl weist den Benutzerwählplan RedmondDialPlan allen Benutzern zu, die in der Stadt Redmond arbeiten. Weitere Informationen zum in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation zum [Cmdlet Get-CsUser:](/powershell/module/skype/get-csuser?view=skype-ps)
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -121,7 +121,7 @@ Sie können benutzerspezifischen Wählplänen Windows PowerShell und dem [Grant-
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>So designiert sie einen benutzerfreundlichen Wählplan
 
-- Verwenden Sie [das Cmdlet Grant-CsDialPlan,](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) um die Zuteilung eines benutzerspezifischen Wählplans auf, der zuvor Ken Myer zugewiesen war. Nachdem der Benutzerwählplan nicht mehr zugewiesen wurde, wird Ken Myer automatisch mithilfe des globalen Wählplans oder des Dienstwählplans verwaltet, der seinem Registrar- oder PSTN-Gateway zugewiesen ist. Ein Dienstbereichswählplan hat Vorrang vor dem globalen Wählplan:
+- Verwenden Sie [das Cmdlet Grant-CsDialPlan,](/powershell/module/skype/grant-csdialplan?view=skype-ps) um die Zuteilung eines benutzerspezifischen Wählplans auf, der zuvor Ken Myer zugewiesen war. Nachdem der Benutzerwählplan nicht mehr zugewiesen wurde, wird Ken Myer automatisch mithilfe des globalen Wählplans oder des Dienstwählplans verwaltet, der seinem Registrar- oder PSTN-Gateway zugewiesen ist. Ein Dienstbereichswählplan hat Vorrang vor dem globalen Wählplan:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -131,14 +131,14 @@ Sie können benutzerspezifischen Wählplänen Windows PowerShell und dem [Grant-
 
 In diesem Abschnitt wird beschrieben, wie Sie die Voiceroutingrichtlinien für Benutzer aktualisieren, die für Das Telefonsystem aktiviert sind.
   
-Telefonsystembenutzern muss eine Voiceroutingrichtlinie zugewiesen sein, damit Anrufe erfolgreich geroutet werden können. Dies unterscheidet sich von lokalen Business Voice-Benutzern, denen eine Voicerichtlinie zugewiesen werden muss, damit Anrufe erfolgreich geroutet werden können. Die Voiceroutingrichtlinie sollte PSTN-Verwendungen enthalten, die autorisierte Anrufe und Routen für Benutzer des Telefonsystems definieren. Sie können diese PSTN-Verwendungen aus vorhandenen Voicerichtlinien in neue Voiceroutingrichtlinien kopieren. Weitere Informationen finden Sie unter [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Telefonsystembenutzern muss eine Voiceroutingrichtlinie zugewiesen sein, damit Anrufe erfolgreich geroutet werden können. Dies unterscheidet sich von lokalen Business Voice-Benutzern, denen eine Voicerichtlinie zugewiesen werden muss, damit Anrufe erfolgreich geroutet werden können. Die Voiceroutingrichtlinie sollte PSTN-Verwendungen enthalten, die autorisierte Anrufe und Routen für Benutzer des Telefonsystems definieren. Sie können diese PSTN-Verwendungen aus vorhandenen Voicerichtlinien in neue Voiceroutingrichtlinien kopieren. Weitere Informationen finden Sie unter [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
 > Allen Telefonsystembenutzern wird dieselbe #A0 namens BusinessVoice zugewiesen, die die zulässigen Anruffunktionen definiert. Beispiel: Gleichzeitiges Klingeln zulassen. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Benutzer-Voiceroutingrichtlinie zu
 
-- Verwenden Sie das [Grant-CsVoiceRoutingPolicy-Cmdlet,](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) um dem Benutzer Ken Myer die Benutzer-Voiceroutingrichtlinie RedmondVoiceRoutingPolicy zuzuordnen:
+- Verwenden Sie das [Grant-CsVoiceRoutingPolicy-Cmdlet,](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) um dem Benutzer Ken Myer die Benutzer-Voiceroutingrichtlinie RedmondVoiceRoutingPolicy zuzuordnen:
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -146,7 +146,7 @@ Telefonsystembenutzern muss eine Voiceroutingrichtlinie zugewiesen sein, damit A
 
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine Benutzer-Voiceroutingrichtlinie zu
 
-- Mit dem nächsten Befehl wird die Benutzerrichtlinie "RedmondVoiceRoutingPolicy" allen Benutzern zugewiesen, die in der Stadt Redmond arbeiten. Weitere Informationen zum in diesem Befehl verwendeten LdapFilter-Parameter finden Sie unter [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- Mit dem nächsten Befehl wird die Benutzerrichtlinie "RedmondVoiceRoutingPolicy" allen Benutzern zugewiesen, die in der Stadt Redmond arbeiten. Weitere Informationen zum in diesem Befehl verwendeten LdapFilter-Parameter finden Sie unter [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
@@ -163,6 +163,4 @@ Telefonsystembenutzern muss eine Voiceroutingrichtlinie zugewiesen sein, damit A
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Weitere Informationen finden Sie unter [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
-    
-
+    Weitere Informationen finden Sie unter [Grant-CsVoiceRoutingPolicy](/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).

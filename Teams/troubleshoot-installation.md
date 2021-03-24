@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Probleme mit Installation und Update der Teams-Desktopclient-App unter Windows beheben.
-ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 283b1818789624428aa772a4d71360a07eed6f00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804555"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097551"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
 
@@ -67,7 +67,7 @@ Wenn "SquirrelTemp.log" oder "Logs.txt" nicht genügend Informationen enthalten,
 
 ## <a name="collect-and-analyze-application-and-system-logs"></a>Erfassen und Analysieren von Anwendungs- und Systemprotokollen
 
-In diesem Abschnitt wird beschrieben, wie Anwendungs- und Systemprotokolle erfasst und analysiert werden, um umfassendere Informationen zur Problembehandlung zu erhalten. Sie verwenden die Sysinternals-Tools, um diese Schritte auszuführen. Weitere Informationen hierzu finden Sie unter [Windows Sysinternals](https://docs.microsoft.com/sysinternals/).
+In diesem Abschnitt wird beschrieben, wie Anwendungs- und Systemprotokolle erfasst und analysiert werden, um umfassendere Informationen zur Problembehandlung zu erhalten. Sie verwenden die Sysinternals-Tools, um diese Schritte auszuführen. Weitere Informationen hierzu finden Sie unter [Windows Sysinternals](/sysinternals/).
 
 ### <a name="collect-logs"></a>Protokolle erfassen
 
@@ -123,7 +123,7 @@ Problembehebungstipps:
 - Um sich zu vergewissern, dass dieses Problem bei Ihnen auftritt, beenden Sie die Teams. (Klicken Sie dazu in der Taskleiste mit der rechten Maustaste auf Teams, und klicken Sie dann auf **Beenden**.) Öffnen Sie dann den Task-Manager in Windows, um zu überprüfen, ob noch eine Instanz von Teams ausgeführt wird.  
 - Wenn Sie sich nicht an dem Computer befinden, auf dem das Problem auftritt, untersuchen Sie die Datei "SquirrelTemp.log", die von dem Computer, auf dem das Problem auftritt, erfasst wurde, und suchen Sie im Protokoll nach einem Eintrag "Programm: Der Prozess kann nicht beendet werden".
 - Um festzustellen, was das Beenden von "Teams.exe" verhindert, sehen Sie sich die Protokolle "Dlls.txt" und "Handles.txt" an. Anhand dieser Protokolle können Sie die Prozesse ermitteln, die das Beenden von Teams verhindert haben.
-- Eine weitere Ursache, die das Beenden von Teams möglicherweise verhindert, ist der Kernelmodus-Dateisystemfilter-Treiber. Verwenden Sie das SysInternals-Tool, [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump), um die Kernelmodusprozess-Speicherabbilddatei durch Ausführen von ```procdump -mk <pid>``` zu erfassen, wobei <pid> die vom Task-Manager abgerufene Prozess-ID ist. Sie können auch die Protokolldatei "Driverquery.txt" untersuchen, um die aktiven Filtertreiber anzuzeigen, die sich störend auf Teams auswirken können.
+- Eine weitere Ursache, die das Beenden von Teams möglicherweise verhindert, ist der Kernelmodus-Dateisystemfilter-Treiber. Verwenden Sie das SysInternals-Tool, [ProcDump](/sysinternals/downloads/procdump), um die Kernelmodusprozess-Speicherabbilddatei durch Ausführen von ```procdump -mk <pid>``` zu erfassen, wobei <pid> die vom Task-Manager abgerufene Prozess-ID ist. Sie können auch die Protokolldatei "Driverquery.txt" untersuchen, um die aktiven Filtertreiber anzuzeigen, die sich störend auf Teams auswirken können.
 - Um dieses Problem zu beheben, starten Sie den Computer neu.
 
 #### <a name="file-permissions"></a>Dateiberechtigungen
@@ -141,17 +141,17 @@ Wenn Teams der Zugriff verweigert wird, weil es nicht in eine Datei schreiben ka
 Problembehebungstipps:
 
 - Suchen Sie nach Nachweisen für "Zugriff verweigert" in "SquirrelTemp.log" oder "Logs.txt". Überprüfen Sie diese Dateien, um zu sehen, ob ein Versuch, in eine Datei zu schreiben, fehlgeschlagen ist.
-- Öffnen Sie "Icacls.txt", und suchen Sie nach dem effektiven Zugriffssteuerungseintrag (ACE, Access Control Entry), der Schreiboperationen eines Benutzers, der kein Administrator ist, blockiert. Typischerweise befindet sich dieser in einem der DACL-Einträge. Weitere Informationen finden Sie in der [Dokumentation zu icacls](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls).
+- Öffnen Sie "Icacls.txt", und suchen Sie nach dem effektiven Zugriffssteuerungseintrag (ACE, Access Control Entry), der Schreiboperationen eines Benutzers, der kein Administrator ist, blockiert. Typischerweise befindet sich dieser in einem der DACL-Einträge. Weitere Informationen finden Sie in der [Dokumentation zu icacls](/windows-server/administration/windows-commands/icacls).
 
 #### <a name="file-corrupted"></a>Beschädigte Datei
 
 In einigen Fällen ändert Verschlüsselungssoftware Dateien im Ordner "%LocalAppData%\Microsoft\Teams", und verhindert dadurch den Start von Teams. Dies kann jederzeit geschehen, auch wenn die App nicht aktualisiert wird. Wenn eine Datei beschädigt ist, besteht leider die einzige Möglichkeit, dieses Problem zu beheben, darin, Teams zu deinstallieren und neu zu installieren.
 
 > [!NOTE]
-> Wenn Sie die zugrundeliegende Ursache des Problems mit keinem dieser Schritte ermitteln können, können Sie es mit einer [Prozessmonitor](https://docs.microsoft.com/sysinternals/downloads/procmon)-Sitzung versuchen. Der Prozessmonitor ist ein Sysinternals-Tool, das den Zugriff auf die Registrierung und das Dateisystem aufzeichnet.
+> Wenn Sie die zugrundeliegende Ursache des Problems mit keinem dieser Schritte ermitteln können, können Sie es mit einer [Prozessmonitor](/sysinternals/downloads/procmon)-Sitzung versuchen. Der Prozessmonitor ist ein Sysinternals-Tool, das den Zugriff auf die Registrierung und das Dateisystem aufzeichnet.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Beziehen von Clients für Teams](get-clients.md)
 - [Teams-Clientupdates](teams-client-update.md)
-- [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams)

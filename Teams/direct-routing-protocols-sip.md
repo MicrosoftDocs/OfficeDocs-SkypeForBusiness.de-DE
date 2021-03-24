@@ -17,12 +17,12 @@ f1.keywords:
 description: Direct Routing-Protokolle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26d6555b82db1939b879ecafc113ced186528f80
-ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
+ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50837002"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098471"
 ---
 # <a name="direct-routing---sip-protocol"></a>Direct Routing – SIP-Protokoll
 
@@ -121,7 +121,7 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 Der SIP-Proxy muss den nächsten Hop-FQDN für neue in-Dialog-Clienttransaktionen (z. B. Bye oder Erneut einladen) und beim Antworten auf SIP-Optionen berechnen. Entweder Kontakt oder Record-Route werden verwendet. 
 
-Gemäß [RFC 3261, Abschnitt 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)ist der Kontaktkopf in jeder Anforderung erforderlich, die zu einem neuen Dialogfeld führen kann. Die Record-Route ist nur erforderlich, wenn ein Proxy in einem Dialogfeld auf dem Pfad zukünftiger Anforderungen bleiben möchte. Wenn ein Proxy-SBC mit local media optimization für [Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)verwendet wird, muss eine Datensatzroute konfiguriert werden, da der Proxy-SBC in der Route bleiben muss. 
+Gemäß [RFC 3261, Abschnitt 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)ist der Kontaktkopf in jeder Anforderung erforderlich, die zu einem neuen Dialogfeld führen kann. Die Record-Route ist nur erforderlich, wenn ein Proxy in einem Dialogfeld auf dem Pfad zukünftiger Anforderungen bleiben möchte. Wenn ein Proxy-SBC mit local media optimization für [Direct Routing](./direct-routing-media-optimization.md)verwendet wird, muss eine Datensatzroute konfiguriert werden, da der Proxy-SBC in der Route bleiben muss. 
 
 Microsoft empfiehlt, nur kontaktkopf zu verwenden, wenn kein Proxy-SBC verwendet wird:
 
@@ -362,6 +362,4 @@ Der Neustart in Direct Routing wird gemäß den folgenden Absätzen der RFC impl
 
 *Ein Agent legt die restlichen Felder in der SDP für diesen Medienstream wie in einem ersten Angebot dieses Medienstreams fest (siehe Abschnitt 4.3).  Folglich enthält die Gruppe der Kandidaten MÖGLICHERWEISE einige, keine oder alle vorherigen Kandidaten für diesen Stream und MAY eine völlig neue Gruppe von Kandidaten, die wie in Abschnitt 4.1.1 beschrieben gesammelt wurden.*
 
-Wenn der Anruf ursprünglich mit der Medienumgehung eingerichtet wurde und der Anruf an einen Skype for Business-Client übertragen wird, muss Direct Routing einen Medienprozessor einfügen. Dies liegt daran, dass Direct Routing nicht mit einem Skype for Business-Client mit Medienumgehung verwendet werden kann. Direct Routing startet den ICE-Neustartprozess, indem die Ice-Pwd- und Ice-Ufrag-Version geändert und neue Medienkandidaten in einer Erneuteinleitung angeboten werden. 
-
-
+Wenn der Anruf ursprünglich mit der Medienumgehung eingerichtet wurde und der Anruf an einen Skype for Business-Client übertragen wird, muss Direct Routing einen Medienprozessor einfügen. Dies liegt daran, dass Direct Routing nicht mit einem Skype for Business-Client mit Medienumgehung verwendet werden kann. Direct Routing startet den ICE-Neustartprozess, indem die Ice-Pwd- und Ice-Ufrag-Version geändert und neue Medienkandidaten in einer Erneuteinleitung angeboten werden.

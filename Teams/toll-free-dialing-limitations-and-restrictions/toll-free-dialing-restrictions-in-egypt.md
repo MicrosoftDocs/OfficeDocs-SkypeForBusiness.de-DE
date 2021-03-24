@@ -23,17 +23,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Informieren Sie sich über das Wählen von gebührenfreien Nummern in Ägypten, einschließlich Verfügbarkeit, Verfügbarkeit von drahtgebundenen/fest Netzanschlüssen und Mobilfunknetz sowie Einschränkungen.
-ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Ägypten, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-/Festnetz- und Mobilfunknetzen und Einschränkungen.
+ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130666"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098141"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Einschränkungen für gebührenfreie Telefonnummern in Ägypten
 
-[Suchen Sie nach einem anderen Land oder einer anderen Region](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und-Einschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
 
 
 |**Details**|**Beschreibung**|
@@ -51,7 +51,6 @@ ms.locfileid: "49130666"
 
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

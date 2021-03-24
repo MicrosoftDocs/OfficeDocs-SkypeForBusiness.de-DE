@@ -1,5 +1,5 @@
 ---
-title: Gebührenfreie Wähleinschränkungen in Italien
+title: Gebührenfreie Wählbeschränkungen in Italien
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -21,17 +21,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Auf diese Weise können Sie herausfinden, wie Sie in jedem Land bzw. jeder Region gebührenfreie Telefonnummern wählen. Nachdem Sie das Land bzw. die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit bestimmten Details, Einschränkungen und Beschränkungen für die Verfügbarkeit gebührenfreier Dienste, auf denen gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder oder Regionen zum Wählen der gebührenfreien Nummer an.
-ms.openlocfilehash: cb40eba30a0630de8386e4c70354265b31563299
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Dies hilft Ihnen, herauszufinden, wie Sie gebührenfreie Nummern in jedem Land/jeder Region wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit bestimmten Details, Einschränkungen und Beschränkungen für die gebührenfreie Verfügbarkeit von Dienstleistungen, auf denen gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in den einzelnen Ländern oder Regionen an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: 7503c1f78693a4d89f7288990e3fbc5cdb0058e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809135"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098041"
 ---
-# <a name="toll-free-dialing-restrictions-in-italy"></a>Gebührenfreie Wähleinschränkungen in Italien
+# <a name="toll-free-dialing-restrictions-in-italy"></a>Gebührenfreie Wählbeschränkungen in Italien
 
-[Suchen Sie nach einem anderen Land oder](../toll-free-dialing-limitations-and-restrictions.md)einer anderen Region, oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für die gebührenfreie Wählwahl.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
 
 
 |**Details**|**Beschreibung**|
@@ -42,11 +42,11 @@ ms.locfileid: "49809135"
 |Abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Nicht abgedeckte Inseln/Gebiete  <br/> | Nicht zutreffend  <br/>  |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Ja  <br/> |
-|Verfügbarkeit über Mobilnetze  <br/> | Ja (einige Nummern können premium sein) <br/> |
+|Verfügbarkeit über Mobilnetze  <br/> | Ja (einige Zahlen können premium sein) <br/> |
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Keine  <br/> |
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Abrufen von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers)
+[Servicetelefonnummern erhalten](../getting-service-phone-numbers.md)

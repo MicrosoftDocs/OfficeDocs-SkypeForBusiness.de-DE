@@ -1,5 +1,5 @@
 ---
-title: Wählplan Erstellen eines neuen oder Bearbeiten eines vorhandenen Wählplans
+title: Wählplan Erstellen neuer oder Bearbeiten vorhandener Wählplan
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 8a781336a735ed9fd84f342477cda91e6744af04
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42fef3acffe83680df6e53a7797256e7068e1b5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807925"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097161"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Wählplan: Erstellen eines neuen oder Bearbeiten eines vorhandenen Satzes Wählplans
 
@@ -28,11 +28,8 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Erstellen oder Ändern eines Wählplans in Skype for Business Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [Ändern von Wähleinstellungen](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [Ändern von Wähleinstellungen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
 - [Erstellen oder Ändern einer Normalisierungsregel in Skype for Business](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [Manuelles Erstellen oder Ändern einer Normalisierungsregel](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
-
-
-
+- [Manuelles Erstellen oder Ändern einer Normalisierungsregel](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)

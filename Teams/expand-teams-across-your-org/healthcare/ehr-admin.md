@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams, um Ihr System für virtuelle Besuche einzurichten
-ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875175"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096279"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in die EGA
 
@@ -57,7 +57,7 @@ Sie müssen sicherstellen, dass Sie die folgenden Voraussetzungen haben, bevor S
 
 - Organisationen müssen mit Epic Version November 2018 oder höher haben.
 
-- Ihre Systeme müssen alle [Software- und Browservoraussetzungen](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) erfüllen.
+- Ihre Systeme müssen alle [Software- und Browservoraussetzungen](../../hardware-requirements-for-the-teams-app.md) erfüllen.
 
 Sie benötigen außerdem Informationen von folgenden Personen in Ihrer Organisation:
 
@@ -130,7 +130,7 @@ Nach Abschluss der EGA Konnektor-Schritte und der Epic-Konfiguration ist Ihre Or
 
 ### <a name="virtual-visit-prerequisites"></a>Voraussetzungen für einen virtuellen Besuch
 
-- Ihre Systeme müssen alle [Software- und Browservoraussetzungen](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app) erfüllen.
+- Ihre Systeme müssen alle [Software- und Browservoraussetzungen](../../hardware-requirements-for-the-teams-app.md) erfüllen.
 
 - Die Organisation im Gesundheitswesen muss die Einrichtung zwischen der Epic-Organisation und der Microsoft 365-Organisation abgeschlossen haben.
 
@@ -175,4 +175,4 @@ Hauptmerkmale der Patientenerfahrung:
 
 Die Teams-Integration in EGA-Systeme optimiert die Datenmenge, die während der Integration und des virtuellen Besuchsflusses verwendet und gespeichert wird. Die Lösung folgt den allgemeinen Grundsätzen und Richtlinien für den Datenschutz und das Datenmanagement von Teams, die unter Datenschutz für Teams aufgeführt sind.
 
-Der Microsoft Teams EGA-Konnektor speichert oder überträgt keine identifizierbaren persönlichen Daten oder Gesundheitsakten von Patienten oder Gesundheitsdienstleistern aus dem EGA-System. Die einzigen Daten, die vom EGA-Konnektor gespeichert werden, sind die eindeutigen IDs des EGA-Benutzers, die beim Einrichten der Teambesprechungen verwendet werden. Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies) beschrieben sind. Alle Chats, Aufzeichnungen und sonstigen Daten, die von den Besprechungsteilnehmern in Teams eingegeben wurden, werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in Microsoft Teams finden Sie unter [Speicherorte von Daten in Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams).
+Der Microsoft Teams EGA-Konnektor speichert oder überträgt keine identifizierbaren persönlichen Daten oder Gesundheitsakten von Patienten oder Gesundheitsdienstleistern aus dem EGA-System. Die einzigen Daten, die vom EGA-Konnektor gespeichert werden, sind die eindeutigen IDs des EGA-Benutzers, die beim Einrichten der Teambesprechungen verwendet werden. Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies) beschrieben sind. Alle Chats, Aufzeichnungen und sonstigen Daten, die von den Besprechungsteilnehmern in Teams eingegeben wurden, werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in Microsoft Teams finden Sie unter [Speicherorte von Daten in Teams](../../location-of-data-in-teams.md).

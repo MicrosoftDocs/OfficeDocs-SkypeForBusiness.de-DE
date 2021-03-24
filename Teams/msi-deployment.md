@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cde5b2f04936afdd16eb7d0ff13a03840e6fa49
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
-ms.translationtype: HT
+ms.openlocfilehash: b31ffca29891a903c68614239bacedabc6729d39
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614951"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098111"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -47,9 +47,9 @@ Hier sind die Links zu den MSI-Dateien:
 
 - Wenn sich der Kundenmandant in der GCCH- oder DoD-Cloud befindet, muss der Kunde den anfänglichen Endpunkt in der Registrierung festlegen, indem er den Wert **CloudType** zum Schlüssel **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** in der Registrierung hinzugefügt. Der Typ für **CloudType** ist **DWORD** und die Werte sind (0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD). Wenn Sie den Endpunkt mit dem Registrierungsschlüssel festlegen, können Teams nur eine Verbindung mit dem korrekten Cloud-Endpunkt für eine Verbindung mit Teams vor der Anmeldung herstellen.
 
-- Teams können auch in eine Bereitstellung von Microsoft 365 Apps for Enterprise einbezogen werden. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365 Apps for Enterprise](https://docs.microsoft.com/deployoffice/teams-install).
+- Teams können auch in eine Bereitstellung von Microsoft 365 Apps for Enterprise einbezogen werden. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365 Apps for Enterprise](/deployoffice/teams-install).
 
-- Weitere Informationen zu Microsoft Endpoint Configuration Manager lesen Sie unter [Was ist Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
+- Weitere Informationen zu Microsoft Endpoint Configuration Manager lesen Sie unter [Was ist Configuration Manager?](/configmgr/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Bereitstellungsverfahren (empfohlen)
 
@@ -105,7 +105,7 @@ Aktivieren Sie die Gruppenrichtlinie zum **Verhindern, dass Microsoft Teams nach
 
 Aktivieren Sie diese Richtlinieneinstellung vor der Installation von Teams, wird es nicht automatisch gestartet, wenn sich Benutzer bei Windows anmelden. Nachdem sich ein Benutzer zum ersten Mal bei Teams angemeldet hat, wird es bei der nächsten Anmeldung des Benutzers automatisch gestartet.
 
-Lesen Sie [Verwenden der Gruppenrichtlinie zum Verhindern, dass Microsoft Teams nach der Installation automatisch gestartet wird](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation), um mehr zu erfahren.
+Lesen Sie [Verwenden der Gruppenrichtlinie zum Verhindern, dass Microsoft Teams nach der Installation automatisch gestartet wird](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation), um mehr zu erfahren.
 
 > [!CAUTION]
 > Wenn Sie Teams bereits bereitgestellt haben und diese Richtlinie so einrichten möchten, dass der automatische Start von Teams deaktiviert wird, legen Sie zuerst die Gruppenrichtlinieneinstellung auf den gewünschten Wert fest, und führen Sie dann das [Teams-Autostart-Zurücksetzungsskript](scripts/powershell-script-teams-reset-autostart.md) auf Benutzerbasis aus.

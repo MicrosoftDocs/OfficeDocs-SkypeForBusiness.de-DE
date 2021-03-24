@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80882bddae434b66f6a3e5988c08474859b37861
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819448"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098221"
 ---
 # <a name="share-to-teams-from-outlook"></a>Freigeben in Teams aus Outlook
 
@@ -30,7 +30,7 @@ Die Freigabe in Teams über Outlook (Freigeben für Teams) ermöglicht Benutzern
 Für das Feature Für Teams freigeben ist ein Add-In für Outlook erforderlich. Dieses Add-In wird automatisch installiert, wenn sich ein Benutzer bei der Teams Web App oder dem Teams-Desktopclient anmeldet.
 
 > [!NOTE]
-> Überprüfen Sie die [Add-Ins](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) für Outlook in Exchange Online und [die Clientzugriffsregeln in Exchange Online,](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) um sicherzustellen, dass Ihre Add-Ins für Outlook ordnungsgemäß funktionieren. Durch das Deaktivieren verbundener Benutzererfahrungen kann außerdem verhindert werden, dass Add-Ins für Outlook ordnungsgemäß funktionieren. Weitere Informationen finden Sie unter Verbundene Erfahrungen [in Office.](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c)  
+> Überprüfen Sie die [Add-Ins](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook) für Outlook in Exchange Online und [die Clientzugriffsregeln in Exchange Online,](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules) um sicherzustellen, dass Ihre Add-Ins für Outlook ordnungsgemäß funktionieren. Durch das Deaktivieren verbundener Benutzererfahrungen kann außerdem verhindert werden, dass Add-Ins für Outlook ordnungsgemäß funktionieren. Weitere Informationen finden Sie unter Verbundene Erfahrungen [in Office.](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c)  
 
 "Für Teams freigeben" verwendet den gleichen Transportmechanismus wie beim E-Mail-Senden eines Kanals durch einen Benutzer. Für die Freigabe in Chats werden E-Mails (einschließlich E-Mail-Anlagen) auf das OneDrive des Absenders kopiert. Für die Freigabe in Kanälen werden E-Mails und Anlagen in den Ordner **E-Mail-Nachrichten** in SharePoint kopiert.
 
@@ -43,13 +43,13 @@ Das Outlook-Add-In für "Für Teams freigeben" kann mithilfe der folgenden Power
 > [!NOTE]
 > Das Deaktivieren des Add-Ins ist erst nach der Installation des Add-Ins möglich. Wenn Sie die Deaktivierung für alle Benutzer in Ihrem Mandanten erzwingen möchten, führen Sie in regelmäßigen Abständen ein Skript aus.
 
-Um das von Share to Teams verwendete Add-In für Outlook zu deaktivieren, führen Sie das hier [gefundene Cmdlet aus.](https://docs.microsoft.com/powershell/module/exchange/disable-app?view=exchange-ps) 
+Um das von Share to Teams verwendete Add-In für Outlook zu deaktivieren, führen Sie das hier [gefundene Cmdlet aus.](/powershell/module/exchange/disable-app?view=exchange-ps) 
 
-Um das von Share to Teams verwendete Add-In für Outlook zu aktivieren, führen Sie das hier [gefundene Cmdlet aus.](https://docs.microsoft.com/powershell/module/exchange/enable-app?view=exchange-ps)
+Um das von Share to Teams verwendete Add-In für Outlook zu aktivieren, führen Sie das hier [gefundene Cmdlet aus.](/powershell/module/exchange/enable-app?view=exchange-ps)
 
 ## <a name="browsers-and-single-sign-on"></a>Browser und einmaliges Anmelden
 
-Die Freigabe für Teams sowohl in Outlook im Web als auch in Outlook-Desktopclients basiert auf einem Browser-WebView. Details dazu, welche Clients welche bestimmten Browser verwenden, finden Sie unter Browser, die von [Office-Add-Ins](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) verwendet werden. 
+Die Freigabe für Teams sowohl in Outlook im Web als auch in Outlook-Desktopclients basiert auf einem Browser-WebView. Details dazu, welche Clients welche bestimmten Browser verwenden, finden Sie unter Browser, die von [Office-Add-Ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) verwendet werden. 
 
 > [!IMPORTANT]
 > Für die Freigabe in Teams ist es erforderlich, dass cookies von Drittanbietern und der lokale Speicherzugriff für die Browser der Benutzer aktiviert werden.

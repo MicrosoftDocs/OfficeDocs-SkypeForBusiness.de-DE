@@ -1,5 +1,5 @@
 ---
-title: Zuweisen einer Benutzer-PIN-Richtlinie in Skype for Business Server
+title: Zuweisen einer benutzerfreundlichen PIN-Richtlinie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Zusammenfassung: Stufe von AV- und OAuth-Zertifikaten für Skype for Business Server.'
-ms.openlocfilehash: 6a0d0a1824e809a70dfee419fb5da1f663d8d779
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Stage AV and OAuth certificates for Skype for Business Server.'
+ms.openlocfilehash: a5cd533dccffb878fad7d7562ded3da301fc0ce3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828525"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096831"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Zuweisen einer Benutzer-PIN-Richtlinie in Skype for Business Server
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Zuweisen einer benutzerfreundlichen PIN-Richtlinie in Skype for Business Server
 
-**Zusammenfassung:** Stufe Sie AV- und OAuth-Zertifikate für Skype for Business Server ein.
+**Zusammenfassung:** Stage AV- und OAuth-Zertifikate für Skype for Business Server.
   
-Die Richtlinie zur persönlichen Identifikationsnummer (PIN) für Einwahlkonferenzen ist eine der individuellen Einstellungen eines Benutzerkontos, das in der Skype for Business Server-Systemsteuerung konfiguriert werden kann.
+Die Richtlinie für Einwahlkonferenzen für persönliche Identifikationsnummer (PIN) ist eine der individuellen Einstellungen eines Benutzerkontos, das in der Skype for Business Server-Systemsteuerung konfiguriert werden kann.
   
 Die Bereitstellung einer oder mehrerer PIN-Richtlinien auf Benutzerebene ist optional. Sie können stattdessen auch nur eine globale PIN-Richtlinie oder eine PIN-Richtlinie auf Standortebene bereitstellen. Wenn Sie Richtlinien auf Benutzerebene bereitstellen, müssen Sie sie Benutzern, Gruppen oder Kontaktobjekten explizit zuweisen. Wenn keine Richtlinie für den Standort oder einzelne Benutzer zugewiesen wurde, gelten automatisch die Benutzerrechte und Berechtigungen im Hinblick auf die Verwendung von PINs für Einwahlkonferenzen, die in der globalen PIN-Richtlinie definiert sind.
   
@@ -67,9 +67,9 @@ Nachdem Sie mindestens eine PIN-Richtlinie auf Benutzerebene erstellt haben, wei
 7. Führen Sie im Abschnitt **Richtlinien zuweisen** unter **PIN-Richtlinie** eine der folgenden Aktionen aus:
     
     > [!NOTE]
-    > Da es mehrere Richtlinien gibt, die  Sie mithilfe des Dialogfelds "Richtlinien zuweisen" konfigurieren können, ist diese Option standardmäßig für jede Richtlinie **\<Keep as is\>** im Dialogfeld ausgewählt. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > Da es mehrere Richtlinien gibt, die  Sie mithilfe des Dialogfelds Richtlinien zuweisen konfigurieren können, wird standardmäßig für jede Richtlinie **\<Keep as is\>** im Dialogfeld ausgewählt. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
   
-   - Zulassen, dass Skype for Business Server automatisch entweder die Globale Richtlinie oder, falls definiert, die Richtlinie auf Standortebene aus.
+   - Zulassen, dass Skype for Business Server automatisch entweder die Richtlinie auf globaler Ebene oder, sofern definiert, die Richtlinie auf Standortebene auswählen.
     
    - Klicken Sie auf der Seite **PIN-Richtlinie** auf den Namen einer PIN-Richtlinie auf Benutzerebene, die Sie zuvor definiert haben.
     
@@ -80,7 +80,7 @@ Nachdem Sie mindestens eine PIN-Richtlinie auf Benutzerebene erstellt haben, wei
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Per-User-PIN-Richtlinie mithilfe Windows PowerShell Cmdlets
 
-Sie können benutzerspezifischen PIN-Richtlinien mithilfe Windows PowerShell **Grant-CsPinPolicy-Cmdlets** zuweisen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Prozess ist in Skype for Business Server identisch.
+Sie können benutzerspezifischen PIN-Richtlinien mithilfe Windows PowerShell und dem **Grant-CsPinPolicy-Cmdlet** zuweisen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine benutzerbasierte PIN-Richtlinie zu
 
@@ -92,7 +92,7 @@ Sie können benutzerspezifischen PIN-Richtlinien mithilfe Windows PowerShell **G
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine benutzerbasierte PIN-Richtlinie zu
 
-- Mit dem folgenden Befehl wird die benutzerfreundliche PIN-Richtlinie "RedmondUsersPinPolicy" allen Benutzern zugewiesen, die in Redmond arbeiten. Details zum in diesem Befehl verwendeten Parameter "LdapFilter" finden Sie unter [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- Der folgende Befehl weist allen Benutzern, die in der Stadt Redmond arbeiten, die benutzerfreundliche PIN-Richtlinie RedmondUsersPinPolicy zu. Weitere Informationen zum in diesem Befehl verwendeten LdapFilter-Parameter finden Sie unter [Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -106,7 +106,7 @@ Sie können benutzerspezifischen PIN-Richtlinien mithilfe Windows PowerShell **G
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-Weitere Informationen finden Sie unter [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
+Weitere Informationen finden Sie unter [Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
   
 ## <a name="see-also"></a>Siehe auch
 

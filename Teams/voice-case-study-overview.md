@@ -1,5 +1,5 @@
 ---
-title: Teams Voice Contoso-Fallstudie
+title: Fallstudie "Teams voice Contoso"
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,75 +14,73 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams Voice Case Study für Multi-National Corporation
+description: Sprachfallstudie zu Teams für multinationale Unternehmen
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a964075dfae514759309a81a7d7140cddd10220
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701223"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097491"
 ---
-# <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso-Fallstudie: Übersicht über die VoIP-Migration von Teams
+# <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso-Fallstudie: Übersicht über die Sprachmigration von Teams
 
-In diesem Artikel wird eine Fallstudie vorgestellt, die zeigt, wie eine fiktive Multi-National Corporation, Contoso, eine Teams-Sprachlösung für Ihre Organisation implementiert hat.
+In diesem Artikel wird eine Fallstudie dazu eingeführt, wie ein fiktives multinationales Unternehmen, Contoso, eine Teams-Sprachlösung für ihre Organisation implementiert hat.
 
-Contoso hat Microsoft 365 Enterprise bereitgestellt und wichtige Entwurfsentscheidungen und Implementierungsdetails für folgende Themen behandelt: Netzwerk, Identität, Windows 10 Enterprise, Office 365 ProPlus, Verwaltung mobiler Geräte, Informationsschutz, Sicherheit, Upgrade von Skype for Business auf Teams, Telefon System und Audiokonferenzen.  
+Contoso hat Microsoft 365 Enterprise bereitgestellt und wichtige Entwurfsentscheidungen und Implementierungsdetails für folgendes adressiert: Netzwerk, Identität, Windows 10 Enterprise, Office 365 ProPlus, Verwaltung mobiler Geräte, Informationsschutz, Sicherheit, Upgrade von Skype for Business auf Teams, Telefonsystem und Audiokonferenzen.  
 
-In diesem Artikel wird erläutert, wie Contoso ihre lokalen Benutzer in Teams für einheitliche Kommunikation, Zusammenarbeit und Sprache migriert hat. Hintergrundinformationen dazu, wie Contoso Ihre digitale Transformation mithilfe der Microsoft-Cloud-Dienste beschleunigt hat, finden Sie in den wichtigsten Artikeln, die mit der [Übersicht über die Contoso-Fallstudie](https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)beginnen.
+Dieser Artikel befasst sich mit der Migration der lokalen Benutzer durch Contoso zu Teams für einheitliche Kommunikation, Zusammenarbeit und Sprachsteuerung. Hintergrundinformationen dazu, wie Contoso die digitale Transformation mithilfe der Clouddienste von Microsoft beschleunigt hat, finden Sie in allen Kernartikeln, die mit der Übersicht über [die Contoso-Fallstudie beginnen.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
 
 https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
 
 In den wichtigsten Artikeln finden Sie Informationen zu den folgenden Themen:  
 
-- Anforderungen der IT-Infrastruktur von Contoso
+- Anforderungen an die IT-Infrastruktur von Contoso
 - Netzwerk
 - Identität 
 - Windows 10 Enterprise
-- Office 365 pro Plus
+- Office 365 Pro Plus
 - Verwaltung mobiler Geräte
 - Informationsschutz
 - Zusammenfassung der Microsoft 365 Enterprise-Sicherheit
-- Team für ein Top-Secret-Projekt
-- SharePoint Online-Website für hoch vertrauliche digitale Ressourcen
+- Team für ein geheimes Projekt
+- SharePoint Online-Website für hochgradig vertrauliche digitale Ressourcen
 
-Informationen zum Planen eines Upgrades finden Sie unter [Erste Schritte mit dem Upgrade für Microsoft Teams](upgrade-start-here.md).
+Informationen zum Planen eines Upgrades finden Sie unter Erste Schritte mit [Ihrem Microsoft Teams-Upgrade.](upgrade-start-here.md)
 
 ## <a name="contoso-business-goals-for-teams"></a>Contoso-Geschäftsziele für Teams
 
-Um Ihre lokalen Benutzer zu Teams für Unified Communication, Collaboration und Voice zu migrieren, hat Contoso die folgenden Unternehmensziele beschlossen:
+Um ihre lokalen Benutzer zu Teams zu migrieren, um einheitliche Kommunikation, Zusammenarbeit und Sprachsteuerung zu ermöglichen, hat Contoso sich für die folgenden Geschäftsziele entschieden:
 
-- Teams-Aktivierung 
+- Aktivieren von Teams 
 
-  Das Unified Communication-und Zusammenarbeits Team von Contoso hat Teams mit den richtigen Richtlinien für die Steuerung und die sichere interne und externe Zusammenarbeit aktiviert. 
+  Das einheitliche Kommunikations- und Zusammenarbeitsteam von Contoso hat Teams mit den richtigen Richtlinien zum Steuern und Ermöglichen einer sicheren internen und externen Zusammenarbeit ermöglicht. 
 
 - Upgrade von Skype for Business auf Microsoft Teams 
 
-  Skype for Business wurde in contoso umfassend bereitgestellt. Mit der Notwendigkeit, Legacy-Systeme zu entfernen, beschloss contoso, Ihre Skype for Business-Benutzer auf Teams zu aktualisieren. Weitere Informationen finden Sie unter [contoso-Fallstudie: Upgradeplan für Teams](voice-case-study-migration-plan.md).
+  Skype for Business wurde in Contoso weit verbreitet bereitgestellt. Mit der Notwendigkeit, ältere Systeme zu verschieben, hat Contoso beschlossen, seine Skype for Business-Benutzer auf Teams zu aktualisieren. Weitere Informationen finden Sie unter [Contoso-Fallstudie: Upgradeplan für Teams.](voice-case-study-migration-plan.md)
 
 - Telefonsystem  
 
-  Skype for Business mit Enterprise-VoIP wurde in contoso umfassend bereitgestellt. Mit der Notwendigkeit, Legacy-Systeme zu entfernen, die den nächsten Hop für Ihre Vermittlungsserver waren, migrierte Contoso Ihre Skype for Business Enterprise-VoIP-Benutzer in das Telefon System. Contoso-Websites haben Microsoft-Anrufplan, direktes Telefon System-Routing oder eine Kombination aus beidem verwendet. Weitere Informationen finden Sie unter [contoso-Fallstudie: Telefon System](voice-case-study-phone-system.md).
+  Skype for Business mit Unternehmensstimme wurde in Contoso weit verbreitet. Mit der Notwendigkeit, ältere Systeme zu verschieben, die der nächste Hop für ihre Vermittlungsserver waren, migrierte Contoso seine Skype for Business -Sprachbenutzer zu Telefonsystem. Contoso-Websites verwendeten Microsoft-Anrufplan, Telefonsystem-Direct-Routing oder eine Kombination aus beiden. Weitere Informationen finden Sie unter [Contoso-Fallstudie: Telefonsystem](voice-case-study-phone-system.md).
 
 - Standortbasiertes Routing 
 
-  Mit Office-Standorten in Telefon regulierten Ländern musste Contoso das Location-Based-Routing, das in Skype for Business vorhanden war, in der Bereitstellung Ihres Telefonsystems neu erstellen. Weitere Informationen finden Sie unter [contoso-Fallstudie: Location-Based-Routing](voice-case-study-location-based-routing.md).
+  Mit Bürostandorten in ländern mit Telefonieaufsicht musste Contoso das Location-Based Routing neu erstellen, das in Skype for Business bei der Bereitstellung des Telefonsystems vorhanden war. Weitere Informationen finden Sie unter [Contoso-Fallstudie: Location-Based Routing](voice-case-study-location-based-routing.md).
 
 - Notrufe 
 
-  Bei der Implementierung von Direct Routing richtete Contoso Notrufe mit genehmigten Drittanbietern ein. Weitere Informationen finden Sie unter [contoso-Fallstudie: Notrufe](voice-case-study-emergency-calling.md).
+  Dort, wo Direct Routing implementiert wurde, hat Contoso Notrufe bei genehmigten Dritten eingerichtet. Weitere Informationen finden Sie unter [Contoso-Fallstudie: Notrufe](voice-case-study-emergency-calling.md).
 
 - Audiokonferenzen 
 
-  Contoso richtete Audiokonferenz-Dienstnummern ein, die im SIP-Stamm Ihres PSTN-Anbieters gehostet wurden. Weitere Informationen finden Sie unter [contoso-Fallstudie: Audiokonferenzen](voice-case-study-audio-conferencing.md). 
+  Contoso richtete Audiokonferenzdienstnummern ein, die auf ihrem SIP-Trunk bei ihrem PSTN-Anbieter gehostet wurden. Weitere Informationen finden Sie unter [Contoso-Fallstudie: Audiokonferenzen](voice-case-study-audio-conferencing.md). 
 
-- Lokale Medienoptimierung 
+- Optimierung lokaler Medien 
 
-  Contoso nutzte die lokale Medienoptimierung an Orten, an denen Sie über einen direkten Routen trunk zu einem Microsoft Phone-System verfügten, das von Remotestandorten genutzt wurde. Weitere Informationen finden Sie unter [Planen der lokalen Medienoptimierung](direct-routing-media-optimization.md) und [Konfigurieren der lokalen Medienoptimierung](direct-routing-media-optimization-configure.md).
+  Contoso nutzte die Optimierung lokaler Medien an Standorten, an denen es einen direkten Route-Trunk zu Microsoft Phone System gab, der von Remotewebsites genutzt wurde. Weitere Informationen finden Sie unter [Planen der Optimierung](direct-routing-media-optimization.md) lokaler Medien und Konfigurieren der Optimierung lokaler [Medien.](direct-routing-media-optimization-configure.md)
 
-- Automatische Telefonzentralen und Anrufwarteschlangen
+- Automatische Telefonwarteschlangen und Anrufwarteschlangen
 
-  Als Ergebnis von Covid-19 wollte Contoso die Unterstützung der Rezeption zur Verfügung stellen, während die Mitarbeiter Remote arbeiten. Contoso hat automatische Telefonzentralen und Anrufwarteschlangen verwendet, um eingehende Anrufe an die Telefonnummer Ihres Rezeptionisten zu verwalten. Weitere Informationen finden Sie unter [contoso-Fallstudie: automatische Telefonzentralen und Anrufwarteschlangen](voice-case-study-call-queues.md).  
-
-
+  Als Ergebnis von Covid-19 wollte Contoso Unterstützung beim Empfang bereitstellen, während die Mitarbeiter remote arbeiteten. Contoso verwendet automatische Telefonwarteschlangen und Anrufwarteschlangen, um eingehende Anrufe an die Telefonnummer des Empfangers zu verwalten. Weitere Informationen finden Sie unter [Contoso-Fallstudie: Automatische Telefonwarteschlangen und Anrufwarteschlangen.](voice-case-study-call-queues.md)

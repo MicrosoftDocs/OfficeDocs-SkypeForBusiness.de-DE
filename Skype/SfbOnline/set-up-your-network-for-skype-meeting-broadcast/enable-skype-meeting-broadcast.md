@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Bevor die Personen in Ihrer Organisation Skype Meeting Broadcast verwenden können, müssen Sie sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
-ms.openlocfilehash: fed56c850d1d909bdd72bda0eb8c1dcd24df0f10
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: ab59348d32ef130df6b0de6e1eb65c92d0222e04
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568891"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097111"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
@@ -36,7 +36,7 @@ Bevor die Personen in Ihrer Organisation Skype Meeting Broadcast verwenden könn
 
 
 > [!NOTE]
-> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) eines globalen Oder Skype for Business-Administrators zugewiesen sein, um Skype for Business-Features im Teams Admin Center verwalten zu können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Oder Skype for Business-Administrators zugewiesen sein, um Skype for Business-Features im Teams Admin Center verwalten zu können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Aktivieren von Skype-Livekonferenz im Skype for Business Admin Center
@@ -51,7 +51,7 @@ Bevor die Personen in Ihrer Organisation Skype Meeting Broadcast verwenden könn
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Aktivieren von Skype-Livekonferenz mit PowerShell
 
-1. Installieren Sie [das Teams PowerShell-Modul.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Installieren Sie [das Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
     
 2. Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
 
@@ -97,9 +97,8 @@ Um diesen Schritt zu überspringen und stattdessen Ihrem Verbund ein anderes Unt
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+[Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
- 

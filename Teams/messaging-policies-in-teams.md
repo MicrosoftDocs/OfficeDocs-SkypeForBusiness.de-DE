@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinien, und wie Sie diese zur Steuerung der Chat-Nachrichten in Teams nutzen können.
-ms.openlocfilehash: 050f072a2148be909dbaabd4ac8ab53c1e5bb298
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
-ms.translationtype: HT
+ms.openlocfilehash: f760fdf196bdeecf14e432445e619c968f66c081
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611659"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096119"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -85,7 +85,7 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 <a name="bkchat"> </a>
 
 - **Chat**: Aktivieren Sie diese Einstellung, wenn Sie möchten, dass die Benutzer in Ihrer Organisation mithilfe der Teams-App mit anderen Personen chatten können.
-- **Giphys in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Giphys in Chats mit anderen Personen verwenden. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen. Beachten Sie bitte, dass Sie zusätzlich zum Aktivieren dieser Einstellung auch [Optional Connected Experiences](https://docs.microsoft.com/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) aktivieren müssen, damit Sie in Unterhaltungen Giphys hinzufügen können.
+- **Giphys in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Giphys in Chats mit anderen Personen verwenden. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen. Beachten Sie bitte, dass Sie zusätzlich zum Aktivieren dieser Einstellung auch [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) aktivieren müssen, damit Sie in Unterhaltungen Giphys hinzufügen können.
 - **Giphy-Inhaltsklassifikation**
     - **Keine Einschränkung**: Das bedeutet, dass Ihre Benutzer beliebige Giphys in Chats einfügen können – unabhängig von ihrer Inhaltsbewertung.
     - **Moderat**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber moderat eingeschränkt wird.
@@ -95,7 +95,7 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **URL-Vorschau zulassen**: Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten zu aktivieren bzw. zu deaktivieren.
 - **Übersetzung von Nachrichten durch Benutzer zulassen**: Wenn diese Funktion aktiviert ist, können Benutzer Microsoft Teams-Nachrichten automatisch in die Sprache übersetzen lassen, die in ihren persönlichen Spracheinstellungen für Microsoft 365 oder Office 365 festgelegt ist.
 - **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.
-- **Senden von Prioritätsbenachrichtigungen**: Wenn Sie diese Funktion aktivieren, können Benutzer Nachrichten über[Prioritätsbenachrichtigungen senden](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Prioritätsbenachrichtigungen informieren Benutzer alle 2 Minuten innerhalb eines Zeitraums von 20 Minuten, oder bis Nachrichten, die als *dringend* markiert wurden, vom Benutzer aufgerufen und gelesen wurden, um eine möglichst zeitnahe Bearbeitung zu ermöglichen.
+- **Senden von Prioritätsbenachrichtigungen**: Wenn Sie diese Funktion aktivieren, können Benutzer Nachrichten über [Prioritätsbenachrichtigungen senden](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Prioritätsbenachrichtigungen informieren Benutzer alle 2 Minuten innerhalb eines Zeitraums von 20 Minuten, oder bis Nachrichten, die als *dringend* markiert wurden, vom Benutzer aufgerufen und gelesen wurden, um eine möglichst zeitnahe Bearbeitung zu ermöglichen.
 - **Aufnahme von Sprachnachrichten** 
   > [!Important]
   > Sprachnachrichten werden in eDiscovery-Berichten nicht erfasst.

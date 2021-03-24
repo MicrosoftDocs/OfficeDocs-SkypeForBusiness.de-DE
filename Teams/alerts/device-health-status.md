@@ -16,18 +16,18 @@ description: Erfahren Sie, wie Sie die Überwachungs- und Benachrichtigungsfunkt
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 03a57da7af783fa95e0bccbcb6a96f183b2fbb90
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 8c6a4ac89ddc90bcb00cf2741874e49a26ac775f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819463"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096475"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Überwachung des Gerätezustands von Microsoft Teams
 
 Die Überwachung des Gerätezustands im Microsoft Teams Admin Center bietet Ihnen die Möglichkeit, die Integrität verschiedener Teams-Geräte proaktiv zu überwachen. Überwachen Sie den Offlinezustand eines Geräts, und erhalten Sie Benachrichtigungen in Echtzeit, wenn das überwachte Gerät in Ihrer Organisation offline geht.  
 
-Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Kanälen in Ihrem Mandanten. [Weitere Informationen](https://docs.microsoft.com/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
+Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Kanälen in Ihrem Mandanten. [Weitere Informationen](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide).
 
 ## <a name="configure-device-state-rule"></a>Konfigurieren der Gerätezustandsregel
 
@@ -47,7 +47,7 @@ Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Ka
 |Feld |Beschreibung  |
 |--------|-------------|
 |**Regeltyp**   |Die Gerätezustandsregel hilft Ihnen bei der effektiven Verwaltung. Teams-Geräte und wird als Geräteverwaltungstyp klassifiziert. In Zukunft stehen weitere Regeln des Geräteverwaltungstyps zur Überwachung anderer verwandter Funktionen zur Verfügung (Beispiele hierfür sind: fehlerhaftes Gerät und der Anmeldestatus des Geräts).|
-|**Bedingung**   |Sie können den Status von Geräten überwachen, wenn sie offline sind. [Weitere Informationen](https://docs.microsoft.com/microsoftteams/devices/device-management) zur Geräteverwaltung finden Sie im Teams Admin Center. |
+|**Bedingung**   |Sie können den Status von Geräten überwachen, wenn sie offline sind. [Weitere Informationen](../devices/device-management.md) zur Geräteverwaltung finden Sie im Teams Admin Center. |
 |**Umfang**   |Sie können angeben, wie häufig Sie den Gerätestatus überwachen möchten, indem Sie die Häufigkeit der Regelauswertung erwähnen. Standardmäßig werden Teams-Geräte in nahezu Echtzeit überwacht, wenn sie offline sind. |
 |**Gerätebenutzer**   |Sie können angeben, welche Geräte eine proaktive Offlineüberwachung benötigen, indem Sie sie basierend auf angemeldeten Benutzern auswählen. Weitere Informationen [finden Sie unter Auswählen](#select-devices-for-configuration) von Geräten für die Konfiguration. |
 |**Aktionen**  >  **Kanalbenachrichtigung**   |Im Abschnitt Aktionen können Sie Teams-Kanäle angeben, für die Sie Benachrichtigungen erhalten möchten. Derzeit wird ein Standardteam mit dem Namen **Admin Alerts and Notifications** and channel namens **MonitoringAlerts** erstellt, an das Benachrichtigungen übermittelt werden. <BR/> <BR/> Globale Administratoren und Teams-Administratoren in Ihrem Mandanten werden diesem Standardteam automatisch hinzugefügt.|
