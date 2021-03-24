@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 948b30e9494bbac78dc7cf2e3e276242feea306e
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 013cd992619264f875841b1b6bb13aca3943d14e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874685"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092448"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportieren von Inhalten mit den Microsoft Teams-Export-APIs
 
-Mit Den Export-APIs von Teams können Sie 1:1-, Gruppenchats, Besprechungschats und Kanalnachrichten aus Microsoft Teams exportieren. Wenn Ihre Organisation Microsoft Teams-Nachrichten exportieren muss, können Sie sie mithilfe von Teams Export-APIs extrahieren. *Chatnachricht* stellt eine einzelne Chatnachricht innerhalb eines [Kanals oder Chats](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) [dar.](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta) Die Chatnachricht kann eine Stammchatnachricht oder ein Teil eines Antwortthreads sein, der durch die **eigenschaft replyToId** in der Chatnachricht definiert wird.
+Mit Den Export-APIs von Teams können Sie 1:1-, Gruppenchats, Besprechungschats und Kanalnachrichten aus Microsoft Teams exportieren. Wenn Ihre Organisation Microsoft Teams-Nachrichten exportieren muss, können Sie sie mithilfe von Teams Export-APIs extrahieren. *Chatnachricht* stellt eine einzelne Chatnachricht innerhalb eines [Kanals oder Chats](/graph/api/resources/channel?view=graph-rest-beta) [dar.](/graph/api/resources/chat?view=graph-rest-beta) Die Chatnachricht kann eine Stammchatnachricht oder ein Teil eines Antwortthreads sein, der durch die **eigenschaft replyToId** in der Chatnachricht definiert wird.
 
 Hier sind einige Beispiele für die Verwendung dieser Export-APIs:
 
@@ -39,11 +39,11 @@ Hier sind einige Beispiele für die Verwendung dieser Export-APIs:
 - **Massenexport von Teams Nachricht:** Teams Export-APIs unterstützen bis zu 200 RPS pro App pro Mandant und 600 RPS für eine Anwendung, mit diesen Beschränkungen sollten Sie in der Lage sein, Teams-Nachrichten massenexportieren zu können.
 - **Anwendungskontext:** Zum Aufrufen von Microsoft Graph muss Ihre App ein Zugriffstoken von der Microsoft-Identitätsplattform erwerben. Das Zugriffstoken enthält Informationen zu Ihrer App und die Berechtigungen, die sie für die über Microsoft Graph verfügbaren Ressourcen und APIs besitzt. Um ein Zugriffstoken zu erhalten, muss Ihre App bei der Microsoft-Identitätsplattform registriert sein und entweder von einem Benutzer oder einem Administrator für den Zugriff auf die benötigten Microsoft Graph-Ressourcen autorisiert werden.
 
-    Wenn Sie bereits mit der Integration einer App mit der Microsoft-Identitätsplattform vertraut sind, um Token abzurufen, finden Sie informationen und Beispiele speziell für Microsoft Graph im Abschnitt Nächste Schritte. [](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)
+    Wenn Sie bereits mit der Integration einer App mit der Microsoft-Identitätsplattform vertraut sind, um Token abzurufen, finden Sie informationen und Beispiele speziell für Microsoft Graph im Abschnitt Nächste Schritte. [](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)
 - **Hybridumgebung:** Export-APIs unterstützen Nachrichten, die von Benutzern gesendet werden, die in der Hybridumgebung (lokale Exchange und Teams) bereitgestellt werden. Auf alle Nachrichten, die von Benutzern gesendet werden, die für die Hybridumgebung konfiguriert sind, kann mithilfe von Export-APIs zugegriffen werden.
 - **Vom Benutzer gelöschte Nachrichten:** Auf Nachrichten, die von Benutzern aus dem Teams-Client gelöscht werden, kann über Export-APIs bis zu 21 Tage nach dem Zeitpunkt des Löschens zugegriffen werden.
 - **Nachrichtenanlagen:** Export-APIs enthalten die Links zu den Anlagen, die als Teil von Nachrichten gesendet werden. Mithilfe von Export-APIs können Sie die in den Nachrichten angefügten Dateien abrufen.
-- **Eigenschaften von Chatnachrichten:** Hier finden Sie die vollständige Liste der Eigenschaften, die von Teams Export-APIs [unterstützt werden.](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties)
+- **Eigenschaften von Chatnachrichten:** Hier finden Sie die vollständige Liste der Eigenschaften, die von Teams Export-APIs [unterstützt werden.](/graph/api/resources/chatmessage?view=graph-rest-beta#properties)
 
 ## <a name="how-to-access-teams-export-apis"></a>Zugreifen auf Teams Export-APIs
 
@@ -69,7 +69,7 @@ Hier sind einige Beispiele für die Verwendung dieser Export-APIs:
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>Voraussetzungen für den Zugriff auf Teams-Export-APIs 
 
-- Die Export-APIs von Teams befinden sich derzeit in der Vorschau. Sie steht nur Benutzern und Mandanten zur Verfügung, die über die erforderlichen [Lizenzen für](https://aka.ms/teams-changenotification-licenses) APIs verfügen. In Zukunft kann Microsoft Von Ihnen oder Ihren Kunden verlangen, zusätzliche Gebühren basierend auf der Datenmenge zu bezahlen, auf die über die API zugegriffen wird.
+- Die Export-APIs von Teams befinden sich derzeit in der Vorschau. Sie steht nur Benutzern und Mandanten zur Verfügung, die über die erforderlichen [Lizenzen für](/graph/teams-licenses) APIs verfügen. In Zukunft kann Microsoft Von Ihnen oder Ihren Kunden verlangen, zusätzliche Gebühren basierend auf der Datenmenge zu bezahlen, auf die über die API zugegriffen wird.
 - Microsoft Teams-APIs in Microsoft Graph, die auf vertrauliche Daten zugreifen, gelten als geschützte APIs. Export-APIs erfordern eine zusätzliche Überprüfung über Berechtigungen und Zustimmung hinaus, bevor Sie sie verwenden können. Zum Anfordern des Zugriffs auf diese geschützten APIs füllen Sie das [Anforderungsformular aus.](https://aka.ms/teamsgraph/requestaccess)
 - Anwendungsberechtigungen werden von Apps verwendet, die ausgeführt werden, ohne dass ein angemeldeter Benutzer anwesend ist. Anwendungsberechtigungen können nur von einem Administrator erteilt werden. Die folgenden Berechtigungen sind erforderlich:
 
@@ -117,4 +117,4 @@ Namespace: microsoft.graph
 ```
 
 >[!NOTE]
->Weitere Details zur chatMessage-Ressource finden Sie im [Artikel zum Ressourcentyp "chatMessage".](https://docs.microsoft.com/graph/api/resources/chatmessage)
+>Weitere Details zur chatMessage-Ressource finden Sie im [Artikel zum Ressourcentyp "chatMessage".](/graph/api/resources/chatmessage)

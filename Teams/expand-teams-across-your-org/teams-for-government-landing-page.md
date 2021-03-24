@@ -13,20 +13,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83f4f3b0fe0600c1f46da612d35f75aa67d74cc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 478f15ee880d03c13d46249ba467380e0e631254
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825315"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092403"
 ---
 # <a name="teams-for-government"></a>Teams für Behörden
 
-Verwenden Sie diese Ressourcen, um informationen zu bestimmten Aspekten für die Bereitstellung von Teams in Microsoft 365 Government-Umgebungen zu erhalten. Wenn Sie bereit sind, folgen Sie dem empfohlenen Bereitstellungspfad für Teams, wie unter "Rollout von [Microsoft Teams" beschrieben.](../How-to-roll-out-teams.md)
+Verwenden Sie diese Ressourcen, um sich mit bestimmten Überlegungen beim Bereitstellen von Teams in Microsoft 365 Government-Umgebungen zu informieren. Wenn Sie fertig sind, folgen Sie dem gleichen empfohlenen Bereitstellungspfad für Teams, wie unter [So wird's beschrieben:](../deploy-overview.md)Rollout von Microsoft Teams.
 
 |               |               |
 | ------------- | ------------- |
-| ![list-123-teams](../media/list-123-teams.svg)  |  [Planen von Microsoft 365 Government – GCC-Bereitstellungen](https://docs.microsoft.com/MicrosoftTeams/plan-for-government-gcc) |
-| ![tasks-teams](../media/tasks-teams.svg) | [Planen von Microsoft 365 Government – GCC High](https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high) |
-| ![task-list-planning-teams](../media/task-list-planning-teams.svg)  |  [Planen für Microsoft 365 Government – DOD-Bereitstellungen](https://docs.microsoft.com/microsoftteams/plan-for-government-dod) |
-| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Audiokonferenzen mit direktem Routing für GCC High und DoD](https://docs.microsoft.com/microsoftteams/audio-conferencing-with-direct-routing-for-gcch-and-dod) |
+| ![Screenshot des Symbols "Nummerierte Liste"](../media/list-123-teams.svg)  |  [Plan für Microsoft 365 Government – GCC-Bereitstellungen](../plan-for-government-gcc.md) |
+| ![Screenshot der Zwischenablage mit einem Aufgabensymbol](../media/tasks-teams.svg) | [Planen von Microsoft 365 Government – GCC High](../plan-for-government-gcc-high.md) |
+| ![Screenshot des Symbols "Aufzählungselemente"](../media/task-list-planning-teams.svg)  |  [Plan für Microsoft 365 Government – DOD-Bereitstellungen](../plan-for-government-dod.md) |
+| ![Screenshot des Nach-RECHTS-Symbols](../media/arrow-right-2-teams.svg)  |  [Audiokonferenzen mit direktem Routing für GCC High und DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

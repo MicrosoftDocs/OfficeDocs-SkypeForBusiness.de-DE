@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind.
-ms.openlocfilehash: 1a33ad9909b7caa76acb2b4e042b24aa98cc86f1
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die USA verfügbar sind.
+ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44230333"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094647"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Vereinigten Staaten verfügbar sind. Weitere Informationen finden Sie unter [erwerben eines Anruf Plans](../calling-plans-for-office-365.md) .
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die USA verfügbar sind. Weitere Informationen finden Sie unter Kaufen [eines Anrufplans.](../calling-plans-for-office-365.md)
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>New York City</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>New York City</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -57,17 +57,17 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 
 ## <a name="calling-plans"></a>Anrufpläne
 
-| **Funktion**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
+| **Feature**                                       | **Details**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sind Anrufpläne zum Kauf verfügbar?  <br/>   | Ja  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Verfügbare Minuten für Anrufpläne.              | Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li><li>240 Minutentarif für Inlandsanrufe (Verfügbarkeit ist begrenzt)</li></li><li>3000 Minutentarif für Inlandsanrufe </li></li><li>Plan für Inlands-und Auslandsgespräche: 3000 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> |
+| Verfügbare Minuten für Anrufpläne.              | Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120-Minuten-Plan für Inlandsrufe (Verfügbarkeit ist eingeschränkt)</li><li>240-Minuten-Plan für Inlandsrufe (Verfügbarkeit ist eingeschränkt)</li></li><li>3000-Minuten-Plan für Inlandsrufe </li></li><li>Plan für Inlands- und Auslandsrufe: 3000 Minuten Inlands- oder 600 Minuten auslandsrufe (was im Kalendermonat zuerst erreicht wird)</li></li> |
 | Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Anrufe nach Kanada werden als Inlandsgespräche behandelt.
+> Anrufe nach Kanada werden als Inlandsanrufe behandelt.
 
 >[!Note] 
-> In den Vereinigten Staaten sind Anrufe in alle 50 US-Bundesstaaten und nach Puerto Rico zu nennen. Benutzer, denen der Lizenz Verwendungsstandort von USA und/oder Puerto Rico zugewiesen ist, haben denselben Minuten Pool.
+> Die Inlandsanrufe in den USA umfassen Anrufe in alle 50 US-Bundesstaaten und Puerto Rico. Benutzer, die mit dem Lizenznutzungsspeicherort der USA und/oder Puerto Rico zugewiesen sind, teilen sich denselben Minutenpool.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
@@ -77,7 +77,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -89,10 +89,6 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
-
-

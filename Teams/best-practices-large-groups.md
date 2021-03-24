@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52b1e50cfd29aa6916f7b816f3639953d27d6526
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756241"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092883"
 ---
 <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Verwalten großer Teams in Microsoft Teams – Bewährte Methoden
 ======================================================
@@ -49,7 +49,7 @@ Erstellen eines Teams aus einer großen **Microsoft 365-Gruppe:** Wenn Sie ein T
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>Massenimport/Export/Entfernen von Mitgliedern in einem Team
 
-Das Azure-Portal ermöglicht Benutzern das Massenimport/Exportieren/Entfernen von Mitgliedern in einer Microsoft 365-Gruppe. Weitere Informationen finden Sie unter [So importieren Sie Gruppenmitglieder im Massenimport.](https://docs.microsoft.com/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
+Das Azure-Portal ermöglicht Benutzern das Massenimport/Exportieren/Entfernen von Mitgliedern in einer Microsoft 365-Gruppe. Weitere Informationen finden Sie unter [So importieren Sie Gruppenmitglieder im Massenimport.](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)
 
 Da jedes Team von einer Microsoft 365-Gruppe unterstützt wird, können Sie diese Vorgänge über das Azure-Portal in der Gruppe ausführen, die dem Team entspricht. Die Mitgliedsvorgänge werden innerhalb von 24 Stunden im Team widerspiegelt.
 

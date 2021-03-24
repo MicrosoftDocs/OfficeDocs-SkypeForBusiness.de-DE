@@ -19,15 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b7fe540134ae273e74dd445f1c822c1c43fe645
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: e93e30c2c6eeffc2232b6d9049af8d1224f24532
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030981"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094401"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
-Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
+Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](./deploy-overview.md).
 
 Wenn Sie noch nicht mit Teams vertraut sind und mehr erfahren möchten, schauen Sie sich unser kurzes Video [Willkommen bei Teams](https://www.youtube.com/embed/s3aQV3T0D6c) an (55 Sekunden).
 
@@ -52,7 +52,7 @@ Wenn Sie ein Team erstellen, werden die folgenden Elemente erstellt:
 
 Wenn Sie ein Team aus einer vorhandenen Gruppe erstellen, werden Mitgliedschaft, Website, Postfach und Notizbuch dieser Gruppe nach Microsoft Teams übertragen. Wenn Sie mehr erfahren möchten, schauen Sie sich dieses Poster an: [Gruppen in Microsoft 365 für IT-Architekten](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
 
-Um Microsoft Teams anzupassen und zu erweitern, fügen Sie Drittanbieter-Apps mithilfe von[Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Microsoft 365 und Office 365 ist, profitieren Sie von einer robusten [Entwicklungsplattform](https://docs.microsoft.com/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
+Um Microsoft Teams anzupassen und zu erweitern, fügen Sie Drittanbieter-Apps mithilfe von[Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Microsoft 365 und Office 365 ist, profitieren Sie von einer robusten [Entwicklungsplattform](/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
 
 > [!TIP]
 > Wenn Sie sich mit der Architektur von Teams befassen möchten, sehen Sie sich die Videos auf der [Akademie der Plattform für Teams](https://aka.ms/TeamsPlatformAcademy) an.
@@ -101,9 +101,8 @@ Hier finden Sie eine [wöchentliche Liste der Teams-Themen, die aktualisiert wur
 
 ## <a name="teams-known-issues"></a>Bekannte Probleme für Microsoft Teams
 
-Siehe [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams).
+Siehe [Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams).
 
 ## <a name="teams-client-release-notes"></a>Anmerkungen zu dieser Version des Microsoft Teams-Clients
 
 Siehe [Neuerungen in Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
-

@@ -16,12 +16,12 @@ f1.keywords:
 description: Sprachfallstudie zu Teams für multinationale Unternehmen
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421290"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093725"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso-Fallstudie: Upgradeplan für Teams
 
@@ -47,7 +47,7 @@ Contoso nahm auch an der Ignite 2019-Sitzung ["Entwerfen Des Pfads von Skype for
 
   - Verfügbarkeit von Funktionen für die Zusammenarbeit in Teams-Clients 
 
-Um hybride Konnektivität zu planen und zu konfigurieren, lesen Sie im ersten Schritt beim Verschieben ihrer lokalen Umgebung in die Cloud contoso die Informationen [Planen](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity) der Hybridkonnektivität und [Konfigurieren](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity) der Hybridkonnektivität, um zu verstehen, wie Sie: 
+Um hybride Konnektivität zu planen und zu konfigurieren, lesen Sie im ersten Schritt beim Verschieben ihrer lokalen Umgebung in die Cloud contoso die Informationen [Planen](/SkypeForBusiness/hybrid/plan-hybrid-connectivity) der Hybridkonnektivität und [Konfigurieren](/SkypeForBusiness/hybrid/configure-hybrid-connectivity) der Hybridkonnektivität, um zu verstehen, wie Sie: 
 
   - Konfigurieren Sie den lokalen Umgebungsdienst für die Zusammenarbeit mit Office 365. 
 
@@ -57,4 +57,4 @@ Um hybride Konnektivität zu planen und zu konfigurieren, lesen Sie im ersten Sc
 
   - Verwenden Sie den Inselmodus während des technischen Pilotprojekts.
 
-  - Wechseln von Benutzern in den TeamsOnly-Modus, sobald der Benutzer für Telefonsystem aktiviert ist. Der Modus "TeamsOnly" ist für anrufplan und direktes Routing erforderlich. 
+  - Wechseln von Benutzern in den TeamsOnly-Modus, sobald der Benutzer für Telefonsystem aktiviert ist. Der Modus "TeamsOnly" ist für anrufplan und direktes Routing erforderlich.

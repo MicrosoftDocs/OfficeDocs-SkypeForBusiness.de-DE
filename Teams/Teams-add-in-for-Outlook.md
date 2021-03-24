@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092603"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -121,7 +121,7 @@ Sie können diese Richtlinie nur für Benutzer im Inselmodus anwenden und für d
 
 Die Funktionen des Microsoft Teams-Besprechungs-Add-Ins werden noch weiterentwickelt. Beachten Sie daher Folgendes:
 
-- Für das Microsoft Teams-Besprechungs-Add-In ist ein Exchange-Postfach für den primären Benutzer erforderlich, der die Besprechung plant. Stellen Sie sicher, dass Sie in Ihrem Outlook-Profil über mindestens ein konfiguriertes Exchange-Postfach verfügen, und verwenden Sie es, um Microsoft Teams-Besprechungen mit dem Add-In zu planen. Informationen zu den Exchange-Anforderungen finden Sie unter [, Wie Exchange und Microsoft Teams interagieren](https://docs.microsoft.com/microsoftteams/exchange-teams-interact).
+- Für das Microsoft Teams-Besprechungs-Add-In ist ein Exchange-Postfach für den primären Benutzer erforderlich, der die Besprechung plant. Stellen Sie sicher, dass Sie in Ihrem Outlook-Profil über mindestens ein konfiguriertes Exchange-Postfach verfügen, und verwenden Sie es, um Microsoft Teams-Besprechungen mit dem Add-In zu planen. Informationen zu den Exchange-Anforderungen finden Sie unter [, Wie Exchange und Microsoft Teams interagieren](./exchange-teams-interact.md).
 - Das Add-In ist für geplante Besprechungen mit bestimmten Teilnehmern gedacht, nicht für Besprechungen in einem Kanal. Kanalbesprechungen müssen in Microsoft Teams geplant werden.
 - Das Add-In funktioniert nicht, wenn sich im Netzwerkpfad zwischen dem PC des Benutzers und den Microsoft Teams-Diensten ein Authentifizierungsproxy befindet.
 - Benutzer können keine Liveereignisse von Outlook aus planen. Wechseln Sie zu Microsoft Teams, um Liveereignisse zu planen. Weitere Informationen finden Sie unter [Was sind Microsoft Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md).
@@ -142,7 +142,7 @@ Sie können aber auch die folgenden Schritte manuell ausführen:
 
 - Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für Microsoft Teams-Besprechung funktioniert.
 - Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Microsoft Teams verfügt, die das Planen von Besprechungen in Microsoft Teams ermöglicht. Weitere Informationen hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
-- Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Näheres dazu finden Sie unter [Besprechungsrichtlinien in Microsoft Teams verwalten](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in).
+- Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Näheres dazu finden Sie unter [Besprechungsrichtlinien in Microsoft Teams verwalten](./meeting-policies-in-teams.md#allow-the-outlook-add-in).
 - Stellen Sie sicher, dass der Benutzer den Microsoft Teams-Desktopclient installiert hat. Das Besprechungs-Add-In wird nicht installiert, wenn nur der Microsoft Teams-Webclient verwendet wird.
 - Stellen Sie sicher, dass der Benutzer Outlook 2013 oder höher installiert hat.
 - Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32.exe" verfügt.
@@ -175,11 +175,11 @@ Wenn das Add-In noch immer nicht angezeigt wird, führen Sie die folgenden Schri
 
 ### <a name="delegate-scheduling-does-not-work"></a>Das Delegieren der Planung funktioniert nicht
 
-Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. Zur Problemumgehung kann Ihr Administrator die folgende Zeichenfolge zur EWS-Zulassungsliste hinzufügen: "*SchedulingService*". 
+Wenn Ihr Administrator Microsoft Exchange so konfiguriert hat, [dass der Zugriff auf Exchange Web Server (EWS)](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange) gesteuert wird, ist ein Stellvertreter nicht in der Lage, eine Microsoft Teams-Besprechung im Namen des Vorgesetzten zu planen. Die Lösung für diese Konfiguration befindet sich noch in der Entwicklung und wird demnächst veröffentlicht. Zur Problemumgehung kann Ihr Administrator die folgende Zeichenfolge zur EWS-Zulassungsliste hinzufügen: "*SchedulingService*". 
 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams)
 
 - [Planen Sie eine Microsoft Teams-Besprechung über Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

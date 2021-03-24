@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2b764e7843defac163e4d111a49b1cf9a321f27
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874875"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094567"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -32,8 +32,8 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![Ein Symbol, das eine Hand und einen Pfeil nach oben darstellt](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [Schneller Einstieg mit einigen Teams und Kanälen](/MicrosoftTeams/get-started-with-teams-quick-start) | ![Ein Symbol, das zwei Benutzer darstellt](https://docs.microsoft.com/office/media/icons/users-people.png) | [Schulung für Ihre Benutzer abrufen](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Ein Symbol, das ein Häkchen darstellt](https://docs.microsoft.com/office/media/icons/success-teams.png) | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbol „Tasks-Zwischenablage“](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [Teams-Frontalunterricht: Lernen Sie bewährte Methoden und praktische Anleitungen zu gängigen Teams-Szenarien kennen](https://aka.ms/TeamsChalkTalks) |
+| ![Ein Symbol, das eine Hand und einen Pfeil nach oben darstellt](/office/media/icons/get-started-teams.png) | [Schneller Einstieg mit einigen Teams und Kanälen](./get-started-with-teams-quick-start.md) | ![Ein Symbol, das zwei Benutzer darstellt](/office/media/icons/users-people.png) | [Schulung für Ihre Benutzer abrufen](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![Ein Symbol, das ein Häkchen darstellt](/office/media/icons/success-teams.png) | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbol „Tasks-Zwischenablage“](/office/media/icons/task-checklist-planning-teams.png) | [Teams-Frontalunterricht: Lernen Sie bewährte Methoden und praktische Anleitungen zu gängigen Teams-Szenarien kennen](./chalk-talks-landing-page.yml) |
 
 <h2>Technische Schulung</h2>
 
@@ -100,5 +100,5 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <h2>Kurse</h2>
 
-- [Die Zusammenarbeit in Microsoft Teams](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
-- [Microsoft Service Adoption Specialist](https://aka.ms/AdoptionCert)
+- [Die Zusammenarbeit in Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
+- [Microsoft Service Adoption Specialist](/learn/paths/m365-service-adoption/)

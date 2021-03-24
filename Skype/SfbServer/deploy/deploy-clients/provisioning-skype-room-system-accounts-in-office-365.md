@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: In diesem Thema erfahren Sie mehr über die Bereitstellung von Skype Room System-Konten in Microsoft 365 oder Office 365.
-ms.openlocfilehash: 8e44e648e12ec4db1e8acf9617c02937f9418c41
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 94390effb246a37745d797289c1146ed3d347604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569377"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093519"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Bereitstellen von Skype Room System-Konten in Microsoft 365 und Office 365
  
@@ -29,7 +29,7 @@ Der folgende Abschnitt behandelt die Bereitstellung von Skype Room System-Konten
 
 Ihr Online-Mandant muss die folgenden Anforderungen erfüllen:
   
-- Der Microsoft 365- oder Office 365-Plan muss Skype for Business Online Plan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Online-Plänen finden Sie unter [Skype for Business Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
+- Der Microsoft 365- oder Office 365-Plan muss Skype for Business Online Plan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Online-Plänen finden Sie unter [Skype for Business Online Service Description](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
     
 - Ihr Mandant muss die Konferenzfunktion von Skype for Business aktiviert haben.
     
@@ -69,7 +69,7 @@ Möglicherweise verfügen Sie bereits über ein Ressourcenraumpostfach in Exchan
     
 ## <a name="exchange-online-provisioning"></a>Exchange Online-Bereitstellung
 
-Stellen Sie zunächst eine Verbindung mit Exchange Online PowerShell auf, indem Sie die Anweisungen im Thema [Connect to Exchange Online PowerShell befolgen.](https://go.microsoft.com/fwlink/p/?LinkId=396554)
+Stellen Sie zunächst eine Verbindung mit Exchange Online PowerShell auf, indem Sie die Anweisungen im Thema [Connect to Exchange Online PowerShell befolgen.](/powershell/exchange/connect-to-exchange-online-powershell)
   
 Führen Sie zum Festlegen eines vorhandenen Ressourcenraumpostfachkontos für Skype Room System die folgenden Befehle in Exchange Online PowerShell aus:
   
@@ -101,7 +101,7 @@ Nachdem Sie eine Lizenz für Skype for Business Online zugewiesen haben, können
 
 Nachdem wie oben gezeigt ein Ressourcenraumpostfachkonto erstellt und aktiviert wurde und Sie das Konto für Skype For Business Online lizenziert haben, wird das Konto mithilfe der Windows Azure Active Directory-Gesamtstruktur von der Exchange Online-Gesamtstruktur mit der Skype for Business Online-Gesamtstruktur synchronisiert. Die folgenden Schritte sind erforderlich, um das Skype Room System-Konto im Skype for Business Online-Pool bereitstellen zu können. Diese Schritte sind für ein vorhandenes Ressourcenpostfachkonto oder ein neu erstelltes Konto (confrm1 oder confrm2) identisch, da beide Konten nach der Aktivierung in Exchange Online auf die gleiche Weise mit Skype for Business Online synchronisiert werden:
   
-1. Erstellen Sie eine Remote-PowerShell-Sitzung. Beachten Sie, dass Sie das [Teams PowerShell-Modul herunterladen müssen.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+1. Erstellen Sie eine Remote-PowerShell-Sitzung. Beachten Sie, dass Sie das [Teams PowerShell-Modul herunterladen müssen.](/microsoftteams/teams-powershell-install)
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,9 +143,8 @@ In Microsoft 365 oder Office 365 beträgt die Standardmäßige Kennwortablaufric
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="validate"></a>Validieren
 
 Zur Überprüfung sollten Sie einen beliebigen Skype for Business-Client verwenden können, um sich bei dem von Ihnen erstellten Konto zu anmelden.
-

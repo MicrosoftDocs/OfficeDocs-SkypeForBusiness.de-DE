@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54cdaf5e5d63b7067c51b8f8428ed609bf6dad28
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 26427bb7026c586c9493e023f127a43923325cfa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803453"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092623"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -57,7 +57,7 @@ Damit Sie Überwachungsdaten untersuchen können, müssen Sie zuerst im [Securit
 > [!IMPORTANT]
 > Überwachungsdaten sind nur dann im Überwachungsprotokoll sichtbar, wenn die Überwachung aktiviert ist.
 
-Wie lange ein Überwachungsdatensatz aufbewahrt wird (und nach ihm im Überwachungsprotokoll gesucht werden kann), hängt von Ihrem Microsoft 365- oder Office 365-Abonnement und insbesondere vom Lizenztyp ab, der Benutzern zugewiesen ist. Weitere Informationen finden Sie unter [Security & Compliance Center – Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
+Wie lange ein Überwachungsdatensatz aufbewahrt wird (und nach ihm im Überwachungsprotokoll gesucht werden kann), hängt von Ihrem Microsoft 365- oder Office 365-Abonnement und insbesondere vom Lizenztyp ab, der Benutzern zugewiesen ist. Weitere Informationen finden Sie unter [Security & Compliance Center – Dienstbeschreibung](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center).
 
 ## <a name="tips-for-searching-the-audit-log"></a>Tipps für die Suche im Überwachungsprotokoll
 
@@ -69,7 +69,7 @@ Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im
 
   ![Screenshot der Suchfunktion für das Überwachungsprotokoll](media/audit-log-search.png)
 
-- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, können Sie nach allen Aktivitäten suchen und die Ergebnisse dann filtern, indem Sie den Vorgangsnamen in das Feld für die Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, können Sie nach allen Aktivitäten suchen und die Ergebnisse dann filtern, indem Sie den Vorgangsnamen in das Feld für die Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
 
 - Klicken Sie auf **Auswahl aufheben**, um die aktuelle Auswahl von Suchkriterien aufzuheben. Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt. Sie können auch auf **Gesamte Auswahl aufheben, um Ergebnisse für alle Aktivitäten anzuzeigen** klicken, um die getroffene Auswahl von Aktivitäten aufzuheben.
 
@@ -79,13 +79,13 @@ Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Ver
 
 ## <a name="use-cloud-app-security-to-set-activity-policies"></a>Verwenden von Cloud App Security zum Festlegen von Aktivitätsrichtlinien
 
-Durch eine [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)-Integration können Sie [Aktivitätsrichtlinien](https://docs.microsoft.com/cloud-app-security/user-activity-policies) festlegen, um eine Vielzahl von automatisierten Prozessen mithilfe der APIs des App-Anbieters zu erzwingen. Mit diesen Richtlinien können Sie bestimmte Aktivitäten überwachen, die von verschiedenen Benutzern ausgeführt werden, oder das unerwartet häufige Auftreten einer bestimmten Aktivitätsart untersuchen.
+Durch eine [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)-Integration können Sie [Aktivitätsrichtlinien](/cloud-app-security/user-activity-policies) festlegen, um eine Vielzahl von automatisierten Prozessen mithilfe der APIs des App-Anbieters zu erzwingen. Mit diesen Richtlinien können Sie bestimmte Aktivitäten überwachen, die von verschiedenen Benutzern ausgeführt werden, oder das unerwartet häufige Auftreten einer bestimmten Aktivitätsart untersuchen.
 
 Nachdem Sie eine Aktivitätserkennungsrichtlinie festgelegt haben, beginnt diese mit dem Generieren von Warnungen. Warnungen werden nur zu Aktivitäten generiert, die nach dem Erstellen der Richtlinie auftreten. Hier sind einige Beispielszenarien für die Verwendung von Aktivitätsrichtlinien in Cloud App Security zum Überwachen von Microsoft Teams-Aktivitäten.
 
 ### <a name="external-user-scenario"></a>Szenario "Externer Benutzer"
 
-Ein Szenario, das Sie aus geschäftlicher Sicht vielleicht im Auge behalten möchten, ist das Hinzufügen externer Benutzer zu Ihrer Microsoft Teams-Umgebung. Wenn externe Benutzer aktiviert sind, empfiehlt es sich, ihre Anwesenheit zu überwachen.  Sie können [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) zur Ermittlung von Bedrohungen verwenden.
+Ein Szenario, das Sie aus geschäftlicher Sicht vielleicht im Auge behalten möchten, ist das Hinzufügen externer Benutzer zu Ihrer Microsoft Teams-Umgebung. Wenn externe Benutzer aktiviert sind, empfiehlt es sich, ihre Anwesenheit zu überwachen.  Sie können [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) zur Ermittlung von Bedrohungen verwenden.
 
 ![Screenshot einer Liste von durch Massenlöschvorgänge ausgelösten Ereignissen](media/TeamsExternalUserAddPolicy.png)
 
@@ -119,7 +119,7 @@ Sie können Warnungen und das Senden von E-Mails an Administratoren und andere B
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Erstellen von Anomalieerkennungsrichtlinien in Cloud App Security
 
-[Anomalieerkennungsrichtlinien](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy) in Cloud App Security bieten sofort einsetzbare Benutzer- und Entitätsverhaltensanalyse (User and Entity Behavioral Analytics, UEBA) und maschinelles Lernen (ML), sodass Sie unmittelbar eine erweiterte Bedrohungserkennung in Ihrer Cloudumgebung ausführen können. Da sie automatisch aktiviert werden, bieten die neuen Anomalieerkennungsrichtlinien sofortige Ergebnisse durch sofortige Erkennung, indem sie zahlreiche Verhaltensanomalien bei allen Benutzer sowie den mit Ihrem Netzwerk verbundenen Computern und Geräten berücksichtigen. Darüber hinaus werden über die neuen Richtlinien mehr Daten aus dem Cloud App Security Detection-Modul verfügbar, um Ihnen dabei zu helfen, den Untersuchungsprozess zu beschleunigen und aktuelle Bedrohungen einzudämmen.
+[Anomalieerkennungsrichtlinien](/cloud-app-security/anomaly-detection-policy) in Cloud App Security bieten sofort einsetzbare Benutzer- und Entitätsverhaltensanalyse (User and Entity Behavioral Analytics, UEBA) und maschinelles Lernen (ML), sodass Sie unmittelbar eine erweiterte Bedrohungserkennung in Ihrer Cloudumgebung ausführen können. Da sie automatisch aktiviert werden, bieten die neuen Anomalieerkennungsrichtlinien sofortige Ergebnisse durch sofortige Erkennung, indem sie zahlreiche Verhaltensanomalien bei allen Benutzer sowie den mit Ihrem Netzwerk verbundenen Computern und Geräten berücksichtigen. Darüber hinaus werden über die neuen Richtlinien mehr Daten aus dem Cloud App Security Detection-Modul verfügbar, um Ihnen dabei zu helfen, den Untersuchungsprozess zu beschleunigen und aktuelle Bedrohungen einzudämmen.
 
 Wir arbeiten an der Einbindung von Microsoft Teams-Ereignissen in Anomalieerkennungsrichtlinien. Derzeit können Sie Anomalieerkennungsrichtlinien für andere Office-Produkte einrichten und Maßnahmen für Benutzer festlegen, die diesen Richtlinien übereinstimmen.
 
@@ -195,12 +195,12 @@ Wenn Ihre Organisation die App "Schichten" in Microsoft Teams verwendet, können
 
 ## <a name="office-365-management-activity-api"></a>Office 365-Verwaltungsaktivitäten-API
 
-Sie können die Office 365-Verwaltungsaktivitäten-API verwenden, um Informationen zu Microsoft Teams-Ereignissen abzurufen. Weitere Informationen zum Verwaltungsaktivitäten-API-Schema für Microsoft Teams finden Sie unter [Microsoft Teams-Schema-](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
+Sie können die Office 365-Verwaltungsaktivitäten-API verwenden, um Informationen zu Microsoft Teams-Ereignissen abzurufen. Weitere Informationen zum Verwaltungsaktivitäten-API-Schema für Microsoft Teams finden Sie unter [Microsoft Teams-Schema-](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema).
 
 ## <a name="attribution-in-teams-audit-logs"></a>Zuordnungen in Microsoft Teams-Überwachungsprotokollen
 
-Mitgliedschaftsänderungen in Microsoft Teams (z. B. hinzugefügte oder gelöschte Benutzer), im Microsoft 365-Administratorportal oder der Microsoft 365 Groups Graph-API werden in Microsoft Teams-Überwachungsnachrichten und im Kanal "Allgemein" einem bestehenden Besitzer des Teams und nicht dem eigentlichen Ausführenden der Aktion zugeordnet. Informationen zu diesen Szenarien finden Sie in Azure AD oder [Microsoft 365-Gruppenüberwachungsprotokollen](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Mitgliedschaftsänderungen in Microsoft Teams (z. B. hinzugefügte oder gelöschte Benutzer), im Microsoft 365-Administratorportal oder der Microsoft 365 Groups Graph-API werden in Microsoft Teams-Überwachungsnachrichten und im Kanal "Allgemein" einem bestehenden Besitzer des Teams und nicht dem eigentlichen Ausführenden der Aktion zugeordnet. Informationen zu diesen Szenarien finden Sie in Azure AD oder [Microsoft 365-Gruppenüberwachungsprotokollen](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

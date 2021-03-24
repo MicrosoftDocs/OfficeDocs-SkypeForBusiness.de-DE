@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: Erfahren Sie, wie Sie mithilfe der Administratorrollen Administratoren benennen, die unterschiedliche Zugriffsebenen zum Verwalten von Teams benötigen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11f771f355b3be7c34dd3715d760c6968bb1f7ea
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 201cc1d73166825d729b4581d183ea58cfda64af
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874635"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093735"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams
 
@@ -50,17 +50,17 @@ Damit Sie folgen können, müssen Sie ein Administrator sein. Die Anweisungen zu
 | Teamgeräteadministrator              | Verwalten Sie Geräte, die für die Verwendung mit dem Teams-Dienst konfiguriert sind.                    | Verwalten der Gerätekonfiguration und -updates, Überprüfen des Gerätestatus und -status verbundener Peripheriegeräte, Einrichten und Anwenden von Konfigurationsprofilen und Neustarten von Geräten.<p>Die Rolle des Teams-Geräteadministrators bietet keinen Zugriff auf Anrufqualitätsdaten oder Anrufanalysen. Um Daten zur Anrufqualität oder Anrufanalyse anzeigen zu können, muss Ihnen die Rolle des Teams Communications Administrators zugewiesen werden. |
 
 <sup>1</sup> [PowerShell – Microsoft Teams-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/) (Die öffentliche Version 1.1.6 oder höher ist in Skype for Business Online Connector integriert.)<br>
-<sup>2</sup> [Microsoft Teams Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>2</sup> [Microsoft Teams Admin Center](./manage-teams-skypeforbusiness-admin-center.md)
 <!-- <sup>3</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>4</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
-Weitere Informationen zu den Verwaltungstools, die zum Verwalten von Microsoft Teams verfügbar sind, erhalten Sie unter [Verwalten von Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+Weitere Informationen zu den Verwaltungstools, die zum Verwalten von Microsoft Teams verfügbar sind, erhalten Sie unter [Verwalten von Microsoft Teams](./manage-teams-skypeforbusiness-admin-center.md).
 
 Weitere Informationen zu Beschränkungen, Spezifikationen und anderen Anforderungen, die für Teams gelten, finden Sie unter [Beschränkungen und Spezifikationen für Microsoft Teams](limits-specifications-teams.md).
 
 ## <a name="assign-users-to-each-role"></a>Zuweisen von Benutzern zu Rollen
 
-Sie können diesen Rollen in Azure AD Benutzer zuweisen. Um zu erfahren, wie in Azure AD einem Benutzer Administratorrollen zugewiesen werden, lesen Sie [Zuweisen von Administratorrollen zu einem Benutzer in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
+Sie können diesen Rollen in Azure AD Benutzer zuweisen. Um zu erfahren, wie in Azure AD einem Benutzer Administratorrollen zugewiesen werden, lesen Sie [Zuweisen von Administratorrollen zu einem Benutzer in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).
 
 ## <a name="cmdlets-available-for-each-role"></a>Für jede Rolle verfügbare Cmdlets
 
@@ -75,5 +75,5 @@ Get-Command -Module MicrosoftTeams
 ### <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [PowerShell für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-- [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions)
+- [PowerShell für Microsoft Teams](/powershell/module/teams/?view=teams-ps)
+- [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](./assign-roles-permissions.md)

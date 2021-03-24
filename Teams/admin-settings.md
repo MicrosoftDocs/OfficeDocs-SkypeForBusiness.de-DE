@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
-description: Informieren Sie sich über die Richtlinien und Einstellungen, die Sie zum Verwalten von Apps für Ihre Organisation in Microsoft Teams verwenden können.
+description: Erfahren Sie mehr über die Richtlinien und Einstellungen, die Sie zum Verwalten von Apps für Ihre Organisation in Microsoft Teams verwenden können.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,56 +21,56 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb824c7082679591b3fa39a1c8a4b13152e0cc75
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0594317c21f3ef2a30d1772959458f33bef393eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094381"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Administratoreinstellungen für Apps in Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Apps bieten integrierte Tools für Ihre Organisation, um mehr von Teams zu erhalten. Diese apps kombinieren die Funktionalität von Registerkarten, Messaging Erweiterungen, Connectors und Bots, die von Microsoft bereitgestellt werden, die von einem Drittanbieter oder von Entwicklern in Ihrer Organisation erstellt wurden.
+Apps bieten ihnen tools, die ihnen zur Verfügung stehen, um Teams besser nutzen zu können. Diese Apps kombinieren die Funktionen von Registerkarten, Nachrichtenerweiterungen, Connectors und Bots, die von Microsoft bereitgestellt werden, die von einem Drittanbieter oder von Entwicklern in Ihrer Organisation erstellt wurden.
 
-Sie verwalten Apps für Ihre Organisation in den **Teams-apps** im Admin Center. (Informationen zum Abrufen von Administratorrollen und-Berechtigungen finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .) So können Sie beispielsweise apps auf Organisationsebene zulassen oder blockieren, Richtlinien festlegen, um zu steuern, welche apps für die Benutzer von Teams verfügbar sind, und Teams anpassen, indem Sie die für Ihre Benutzer wichtigsten apps anheften.
+Sie verwalten Apps für Ihre Organisation in **Teams-Apps** im Admin Center. (Informationen zum Abrufen von Administratorrollen und Berechtigungen finden Sie unter Verwenden von Teams-Administratorrollen zum Verwalten von [Teams.)](./using-admin-roles.md) So können Sie beispielsweise Apps auf Organisationsebene zulassen oder blockieren, Richtlinien festlegen, um zu steuern, welche Apps für Teams-Benutzer verfügbar sind, und Teams anpassen, indem Sie die Apps anheften, die für Ihre Benutzer am wichtigsten sind.
 
-Wir verbessern ständig die APP-Umgebung in Teams und fügen Features und Funktionen hinzu. Im Laufe der Zeit werden wir zusätzliche Funktionen für die APP-Verwaltung erstellen, daher sollten Sie sich über die neuesten Informationen zu app-Richtlinien informieren.
+Wir verbessern kontinuierlich die App-Erfahrung in Teams und fügen Features und Funktionen hinzu. Im Laufe der Zeit werden wir zusätzliche Funktionen für die App-Verwaltung erstellen. Schauen Sie sich daher die neuesten Informationen zu App-Richtlinien an.
 
-## <a name="manage-apps"></a>Verwalten von apps
+## <a name="manage-apps"></a>Verwalten von Apps
 
-Verwenden Sie die Seite " **apps verwalten** ", um alle Teams-apps im App-Katalog Ihrer Organisation anzuzeigen und zu verwalten. Sie können den Status und die Eigenschaften von apps auf Organisationsebene anzeigen, Apps auf org-Ebene blockieren oder zulassen, neue benutzerdefinierte apps in ihren Mandanten Katalog hochladen und organisationsweite App-Einstellungen verwalten.
+Verwenden Sie die **Seite** Apps verwalten, um alle Teams-Apps im App-Katalog Ihrer Organisation ein- und zu verwalten. Sie können den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, Apps auf Organisationsebene blockieren oder zulassen, neue benutzerdefinierte Apps in Ihren Mandantenkatalog hochladen und organisationsweite App-Einstellungen verwalten.
 
-Auf der Seite " **apps verwalten** " erhalten Sie einen Überblick über alle verfügbaren apps in Ihrem Mandanten Katalog, in dem Sie die Informationen finden, die Sie benötigen, um zu entscheiden, welche apps in Ihrer Organisation zugelassen oder blockiert werden sollen. Sie können dann [App-Berechtigungsrichtlinien](#app-permission-policies), [App-Setup Richtlinien](#app-setup-policies)und [benutzerdefinierte App-Richtlinien und-Einstellungen](#custom-app-policies-and-settings) verwenden, um die APP-Umgebung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren.
+Auf **der** Seite "Apps verwalten" erhalten Sie einen Einblick in alle verfügbaren Apps in Ihrem Mandantenkatalog und erhalten die Informationen, die Sie benötigen, um zu entscheiden, welche Apps in Ihrer Organisation zulässig oder blockiert werden. Anschließend können Sie Richtlinien für [App-Berechtigungen,](#app-permission-policies)Richtlinien für die App-Einrichtung und benutzerdefinierte App-Richtlinien und -Einstellungen verwenden, um die App-Benutzererfahrung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren. [](#app-setup-policies) [](#custom-app-policies-and-settings)
 
-Weitere Informationen finden Sie unter [Verwalten von apps in Teams](manage-apps.md).
+Weitere Informationen finden Sie unter [Verwalten von Apps in Teams.](manage-apps.md)
 
 ## <a name="app-permission-policies"></a>App-Berechtigungsrichtlinien
 
-Mit App-Berechtigungsrichtlinien können Sie steuern, welche apps bestimmten Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können alle apps oder bestimmte apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren.
+Mit Richtlinien für App-Berechtigungen können Sie steuern, welche Apps für bestimmte Benutzer in Ihrer Organisation verfügbar sind. Sie können alle oder nur bestimmte Apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren.
 
-So können Sie beispielsweise App-Berechtigungsrichtlinien für folgende Zwecke verwenden:
+Sie können z. B. App-Berechtigungsrichtlinien verwenden, um:
 
-- Schrittweise Einführung neuer Drittanbieter-oder benutzerdefinierter Apps für bestimmte Benutzer.
-- Vereinfachen Sie die Benutzerfreundlichkeit, insbesondere wenn Sie mit der Einführung von Teams in Ihrer Organisation beginnen.
+- Schrittweises Rollout neuer Drittanbieter- oder benutzerdefinierter Apps für bestimmte Benutzer.
+- Vereinfachen Sie die Benutzerfreundlichkeit, insbesondere, wenn Sie mit dem Roll out von Teams in Ihrer Organisation beginnen.
 
-Weitere Informationen hierzu finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](teams-app-permission-policies.md).
+Weitere Informationen finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams.](teams-app-permission-policies.md)
 
-## <a name="app-setup-policies"></a>Richtlinien für die APP-Einrichtung
+## <a name="app-setup-policies"></a>Richtlinien für das Einrichten von Apps
 
-Mit den Richtlinien für die APP-Einrichtung können Sie die App-Benutzeroberfläche anpassen. Sie wählen die Apps aus, die Sie an die APP-Leiste in den Teams-Clients anheften möchten, und die Reihenfolge, in der Sie angezeigt werden, auf Web-, Desktop-und mobilen Clients.
+Mit Den Richtlinien für die App-Einrichtung können Sie die App-Benutzererfahrung anpassen. Sie wählen die Apps aus, die Sie in den Teams-Clients an die App-Leiste anheften möchten, und die Reihenfolge, in der sie angezeigt werden, in Web-, Desktop- und mobilen Clients.
 
-Nachfolgend finden Sie einige Beispiele für die Verwendung von Richtlinien für die APP-Einrichtung:
+Hier sind einige Beispiele für die Verwendung von App-Setuprichtlinien:
 
-- Sensibilisierung und Einführung von Kern-apps. So können Sie beispielsweise eine benutzerdefinierte Rekrutierungs-und Talent Verwaltungsanwendung für Benutzer in Ihrem HR-Team anheften.
-- Sie können Core Teams-Features wie Chat, Teams und Anrufe selektiv anheften. Auf diese Weise können Sie sicherstellen, dass Benutzer an bestimmten Aktivitäten innerhalb von Teams beteiligt sind.
+- Fördern Sie das Bewusstsein und die Einführung von Kern-Apps. Heften Sie beispielsweise eine benutzerdefinierte Recruiting- und Talent management-App für Benutzer in Ihrem Personalteam an.
+- Heften Sie kernige Teams-Features wie Chat, Teams und Anrufe selektiv an. Dadurch kann sichergestellt werden, dass Benutzer bestimmte Aktivitäten innerhalb von Teams unternehmen.
 
-Weitere Informationen finden Sie unter [Verwalten von App-Setup Richtlinien in Teams](teams-app-setup-policies.md).
+Weitere Informationen finden Sie unter [Verwalten von App-Setuprichtlinien in Teams.](teams-app-setup-policies.md)
 
-## <a name="custom-app-policies-and-settings"></a>Benutzerdefinierte App-Richtlinien und-Einstellungen
+## <a name="custom-app-policies-and-settings"></a>Richtlinien und Einstellungen für benutzerdefinierte Apps
 
-Teams ermöglicht es Entwicklern in Ihrer Organisation, benutzerdefinierte Apps für andere Benutzer zu erstellen, zu testen und bereitzustellen. Benutzerdefinierte Apps können Teams hinzugefügt werden, indem Sie ein App-Paket in einer ZIP-Datei direkt in ein Team oder in den persönlichen Kontext hochladen. Sie können APP-Setup Richtlinien verwenden, um zu steuern, wer in Ihrer Organisation benutzerdefinierte apps hochladen kann. Sie können auch organisationsweite Einstellungen festlegen, um zu steuern, ob Benutzer mit bestimmten benutzerdefinierten apps interagieren können.
+Teams ermöglicht Entwicklern in Ihrer Organisation das Erstellen, Testen und Bereitstellen benutzerdefinierter Apps für andere Benutzer. Benutzerdefinierte Apps können zu Teams hinzugefügt werden, indem ein App-Paket in einer ZIP-Datei direkt in ein Team oder im persönlichen Kontext hochgeladen wird. Mithilfe von App-Setuprichtlinien können Sie steuern, wer in Ihrer Organisation benutzerdefinierte Apps hochladen kann. Sie können auch organisationsweite Einstellungen festlegen, um zu steuern, ob Benutzer mit bestimmten benutzerdefinierten Apps interagieren können.
 
-Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und-Einstellungen in Microsoft Teams](teams-custom-app-policies-and-settings.md).
+Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und -Einstellungen in Teams.](teams-custom-app-policies-and-settings.md)

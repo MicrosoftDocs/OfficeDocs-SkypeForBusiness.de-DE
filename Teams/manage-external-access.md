@@ -21,12 +21,12 @@ description: Ihr Teams- oder IT-Administrator kann den externen Zugriff für and
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: c41b051f7c11d27417885c9ada22d9337d50dfdb
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711772"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092263"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -50,7 +50,7 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Wenn Sie blockierte Domänen hinzufügen, sind alle anderen Domänen zulässig, und wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Die Ausnahme von dieser Regel ist, wenn anonyme Teilnehmer in Besprechungen zugelassen werden. Es gibt drei Szenarien für das Einrichten des externen Zugriffs im Microsoft Teams Admin Center (**Organisationsweite Einstellungen** > **Externer Zugriff**):
 
 > [!NOTE]
-> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams).
+> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](./meeting-settings-in-teams.md).
 
 - **Offener Verbund**: Dies ist die Standardeinstellung in Teams, mit der Personen in Ihrer Organisation Sie finden, anrufen, mit Ihnen chatten und Besprechungen mit Personen in einer beliebigen Domäne außerhalb Ihrer Organisation einrichten können.
 

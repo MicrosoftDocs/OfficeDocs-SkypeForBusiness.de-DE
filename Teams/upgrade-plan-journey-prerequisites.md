@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0ad5716dbbe1925a93f4fbfadca7084e39a9599
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 6ceca08be6d69a10fe84daa64d0da4e31c61c67c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347806"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092193"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Voraussetzungen und Umgebungsabhängigkeiten für Teams
 
@@ -32,13 +32,13 @@ ms.locfileid: "50347806"
 Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upgrade-Strategie, einer Aktivität, die Sie parallel zur Phase „Benutzerbereitschaft“ durchführen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
-- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
-- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Definieren des Projektumfangs](./upgrade-define-project-scope.md)
+- [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Teams kombiniert mehrere Microsoft 365- und Office 365-Dienste und ist daher von der richtigen Implementierung und dem richtigen Betrieb dieser Dienste abhängig. Diese Dienste umfassen – aber nicht beschränkt auf – SharePoint Online, Exchange Online und OneDrive for Business.
 
-Obwohl nicht alle Dienste erforderlich sind, wird dringend empfohlen, alle Dienste zu implementieren. Wenn Sie bestimmte Dienste nicht implementieren möchten, wirkt sich dies auf die Funktionen aus, die Teams Ihrer Organisation anbieten kann. Obwohl Sie Beispielsweise SharePoint Online nicht implementieren müssen, ist Teams für bestimmte Funktionen wie die Dateifreigabe in Gruppenunterhaltungen auf SharePoint Online angewiesen, sodass die Funktionalität, die über den Client angeboten wird, durch die Implementierung dieses Diensts reduziert wird.
+Obwohl nicht alle Dienste erforderlich sind, wird dringend empfohlen, alle Dienste zu implementieren. Wenn Sie bestimmte Dienste nicht implementieren möchten, wirkt sich dies auf die Funktionen aus, die Teams Ihrer Organisation anbieten kann. Obwohl Sie Beispielsweise SharePoint Online nicht implementieren müssen, setzt Teams bei bestimmten Funktionen wie dateifreigaben in Gruppenunterhaltungen auf SharePoint Online, sodass die Funktionalität, die über den Client angeboten wird, durch die Implementierung dieses Diensts reduziert wird.
 
 In den folgenden Artikeln finden Sie Informationen zu den Voraussetzungen und zur Interaktion von Teams mit anderen Technologien:
 
@@ -48,13 +48,13 @@ In den folgenden Artikeln finden Sie Informationen zu den Voraussetzungen und zu
 
 - Wenn Ihre Organisation keine Identitäten mit Azure Active Directory synchronisiert hat, lesen Sie Identitätsmodelle [und Authentifizierung in Microsoft Teams.](identify-models-authentication.md)
 
-- Wenn Ihre Organisation nicht über Exchange Online verfügen, lesen Sie Verstehen der Interaktion [zwischen Exchange und Microsoft Teams.](Exchange-Teams-interact.md)
+- Wenn Ihre Organisation Exchange Online nicht implementiert hat, finden Sie weitere Informationen unter [Verstehen, wie Exchange und Microsoft Teams interagieren](Exchange-Teams-interact.md).
 
-- Wenn Ihre Organisation nicht über SharePoint Online verfügen, lesen Sie Verstehen, wie SharePoint Online und [OneDrive for Business mit Microsoft Teams interagieren.](SharePoint-OneDrive-interact.md)
+- Wenn Ihre Organisation SharePoint Online nicht implementiert hat, finden Sie weitere Informationen unter [Verstehen, wie SharePoint Online und OneDrive for Business mit Microsoft Teams interagieren](SharePoint-OneDrive-interact.md).
 
 - Hier erfahren Sie, [wie Microsoft 365-Gruppen und Microsoft Teams interagieren.](Office-365-groups.md)
 
-- Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Schülerinformationssystem verwenden, lesen Sie Willkommen bei [Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) vor der Bereitstellung von Microsoft Teams.
+- Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Schülerinformationssystem verwenden, lesen Sie Willkommen bei [Microsoft School Data Sync](/schooldatasync) vor der Bereitstellung von Microsoft Teams.
 
 - Wenn Ihre Organisation Optionen für Anrufe im öffentlichen Telefonnetz (PstN) erwägt, lesen Sie [Voice – Telefonsystem-](cloud-voice-landing-page.md)und PSTN-Konnektivität [,](calling-plan-landing-page.md)Welcher Anrufplan für Sie richtig ist , und Direktes [Telefonsystem-Routing](direct-routing-landing-page.md).
 

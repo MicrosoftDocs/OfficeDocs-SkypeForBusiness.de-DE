@@ -22,21 +22,21 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - seo-marvel-mar2020
-description: Informieren Sie sich über das Wählen von gebührenfreien Nummern in einem Land/einer Region, einschließlich Verfügbarkeit, kabelgebundener/Festnetzanschluss und Verfügbarkeit von Mobilnetzen sowie Einschränkungen.
-ms.openlocfilehash: 450f9cf2084cc93588f4dbf40d56cf5177eaaa15
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in einem Land/einer Region, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-/Festnetz- und Mobilfunknetzen und Einschränkungen.
+ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322304"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093895"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Einschränkungen für das Wählen von gebührenfreien Telefonnummern
 
-So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land oder in jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer Seite, auf der gebührenfreie Dienste einschließlich spezifischer Details, Einschränkungen und Beschränkungen zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
+Dies hilft Ihnen, herauszufinden, wie Sie gebührenfreie Nummern in jedem Land oder jeder Region wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer Seite, die enthält, auf der gebührenfreie Dienste verfügbar sind, einschließlich bestimmter Details, Einschränkungen und Beschränkungen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in den einzelnen Ländern/Regionen an, um die gebührenfreie Nummer zu wählen.
   
 Wenn Sie bereit sind, wählen Sie ein Land oder eine Region aus:
   
-## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Wählen Sie Ihr Land oder Ihre Region aus, um die Wähl Codes, Einschränkungen und Einschränkungen anzuzeigen.
+## <a name="select-your-country-or-region-to-see-the-dialing-codes-limitations-and-restrictions"></a>Wählen Sie Ihr Land oder Ihre Region aus, um die Wählcodes, Einschränkungen und Einschränkungen zu sehen.
 
 > [!div class="op_single_selector"]    
 > - [Argentinien](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
@@ -105,26 +105,25 @@ Wenn Sie bereit sind, wählen Sie ein Land oder eine Region aus:
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [Vietnam](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
-## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Hier sind einige wichtige Dinge, die Sie über gebührenfreie Nummern beachten sollten:
+## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Hier sind einige wichtige Dinge, die Sie an gebührenfreie Nummern denken sollten:
 
-- **Gebührenfreie Nummern sind nur in jedem Land/jeder Region aktiv.** So können Ihre Benutzer beispielsweise nicht außerhalb Australiens eine gebührenfreie australische Nummer anrufen.
+- **Gebührenfreie Nummern sind nur in jedem Land/jeder Region verfügbar.** Ihre Benutzer können beispielsweise keine gebührenfreie australische Rufnummer außerhalb Australiens anrufen.
     
-- **Das erwerben oder Portieren von universellen internationalen gebührenfreien Telefonnummern (UIFN) wird nicht unterstützt.**
+- **Das Abrufen oder Portieren von Universal International Freephone Numbers (UIFN) wird nicht unterstützt.**
     
-- **In vielen Ländern/Regionen erfordert die Regulierungsbehörde/Telekommunikationsagentur in dem Land/der Region jede gebührenfreie Telefonnummer, um mindestens 100 Minuten Nutzung pro Monat beizubehalten, um die Nummer beizubehalten.**
+- **In vielen Ländern/Regionen benötigt die Regulierungsbehörde/Telekommunikationsbehörde im Land/der Region jede gebührenfreie Telefonnummer, um mindestens 100 Minuten Nutzung pro Monat zu behalten, um die Nummer zu behalten.**
     
     > [!NOTE]
-    > Für den Fall, dass Sie eine gebührenfreie Nummer erhalten und die Nutzung der Nummer diese Mindestanforderungen nicht erfüllt, kann Microsoft von der Regulierungsbehörde/Telekommunikationsagentur dazu veranlasst werden, die Nummer von Ihnen zurückzufordern. 
+    > Wenn Sie eine gebührenfreie Nummer erhalten und die Verwendung der Nummer diese Mindestanforderungen nicht erfüllt, kann Microsoft von der Regulierungsbehörde/Telekommunikationsbehörde gezwungen werden, die Nummer von Ihnen zurückfordern. 
   
-- **Der Zugriff auf gebührenfreie Telefonnummern über drahtgebundene Leitungen, Festnetz und Mobilnetz kann vollständig oder partiell eingeschränkt werden.** Das Wählformat beschreibt die erforderlichen Zugriffscodes in jedem Land/jeder Region, um Anrufe über die gebührenfreie Nummer zu tätigen.
+- **Der Zugriff auf gebührenfreie Telefonnummern über drahtgebundene Leitungen, Festnetz und Mobilnetz kann vollständig oder partiell eingeschränkt werden.** Das Wählformat beschreibt die erforderlichen Zugriffscodes in den einzelnen Ländern/Regionen, um Anrufe über die gebührenfreie Nummer zu platzieren.
     
-- **Rufnummern Plan für Nordamerika gebührenfreie Nummern:** Minutentarife für den nordamerikanischen Nummern Plan gebührenfreie Nummern werden vom Ursprungsland bestimmt. Die gebührenfreie Minutengebühr für Anrufe, die aus den Vereinigten Staaten stammen, werden dem als "Nordamerika" definierten Tarif zugeordnet. Anrufe, die aus anderen nordamerikanischen Ländern wie Kanada, Puerto Rico usw. stammen, haben jedoch spezielle gebührenfreie Gebühren.
+- **Nordamerika: Nummerierungsplan gebührenfreie Nummern:** Die Tarife pro Minute für gebührenfreie Nummern des Nordamerika-Nummerierungsplans werden vom Ursprungsland bestimmt. Der gebührenfreie Minutentarif für Anrufe, die aus den VEREINIGTEn Staaten stammen, wird dem als "Nordamerika" definierten Zinssatz zurate. Anrufe, die aus anderen nordamerikanischen Ländern wie Kanada, Puerto Rico usw. stammen, haben jedoch spezielle gebührenfreie Tarife.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](./getting-service-phone-numbers.md)
 
   
- 

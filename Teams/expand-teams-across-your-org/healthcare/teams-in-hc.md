@@ -26,12 +26,12 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867034"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092683"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -43,14 +43,14 @@ Microsoft Teams bietet eine Reihe von Telemedizin-Funktionen, die für Krankenh�
 - Teams-Vorlagen
 - Pflegekoordination und Zusammenarbeit
 
-Diese Funktionalität ist Bestandteil der Microsoft-Cloud für das Gesundheitswesen. Erfahren Sie mehr über die Verwendung dieser Lösung, die Funktionen von Azure, Dynamics 365 und Microsoft 365 bei[Microsoft Cloud für das Gesundheitswesen](https://docs.microsoft.com/industry/healthcare) zusammenbringt.
+Diese Funktionalität ist Bestandteil der Microsoft-Cloud für das Gesundheitswesen. Erfahren Sie mehr über die Verwendung dieser Lösung, die Funktionen von Azure, Dynamics 365 und Microsoft 365 bei[Microsoft Cloud für das Gesundheitswesen](/industry/healthcare) zusammenbringt.
 
 Sehen Sie sich das folgende Video an, um mehr über die Verwendung der Sammlung zum Gesundheitswesen zur Verbesserung der Zusammenarbeit im Gesundheitsteam in Microsoft Teams zu erfahren.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> Für den Inhalt in diesem Abschnitt wird davon ausgegangen, dass Sie Teams bereits in Ihrer Organisation bereitgestellt haben. Wenn Sie noch kein Rollout von Teams durchgeführt haben, lesen Sie zunächst den Artikel [Rollout von Microsoft Teams](../../How-to-roll-out-teams.md).
+> Für den Inhalt in diesem Abschnitt wird davon ausgegangen, dass Sie Teams bereits in Ihrer Organisation bereitgestellt haben. Wenn Sie noch kein Rollout von Teams durchgeführt haben, lesen Sie zunächst den Artikel [Rollout von Microsoft Teams](../../deploy-overview.md).
 
 Die folgenden Szenarien sind für Organisationen im Gesundheitswesen verfügbar:
 
@@ -99,7 +99,7 @@ Ebenfalls mit sicherem Messaging verbunden ist die Möglichkeit, andere Mandante
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>Teams-Vorlagen für Organisationen im Gesundheitswesen
 
-Neue Vorlagen zum Erstellen von Teams wurden entwickelt, um sie auf eine Krankenhaus-Umgebung anzuwenden, und in Kürze werden weitere Vorlagen erwartet. Dies erleichtert die Erstellung von Teams, die von Mitarbeitern des Gesundheitswesens verwendet werden, um die Pflege der Patienten in verschiedenen Abteilungen oder Stationen zu koordinieren. Weitere Informationen finden Sie unter [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](healthcare-templates.md). Teams kann für interne Abteilungen wie die Kardiologie oder für Pflegeabteilungen gestartet werden. Mehr Vorlagen sind bereits in Entwicklung.
+Neue Vorlagen zum Erstellen von Teams wurden entwickelt, um sie auf eine Krankenhaus-Umgebung anzuwenden, und in Kürze werden weitere Vorlagen erwartet. Dies erleichtert die Erstellung von Teams, die von Mitarbeitern des Gesundheitswesens verwendet werden, um die Pflege der Patienten in verschiedenen Abteilungen oder Stationen zu koordinieren. Weitere Informationen finden Sie unter [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](./healthcare-templates-admin-console.md). Teams kann für interne Abteilungen wie die Kardiologie oder für Pflegeabteilungen gestartet werden. Mehr Vorlagen sind bereits in Entwicklung.
 
 ## <a name="care-coordination-and-collaboration"></a>Pflegekoordination und Zusammenarbeit
 

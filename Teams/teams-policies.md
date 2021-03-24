@@ -24,20 +24,20 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Informationen zur Verwendung und Verwaltung von Teamrichtlinien in Ihrer Organisation, damit Sie steuern können, wozu Benutzer in Teams und Kanälen berechtigt sind.
-ms.openlocfilehash: a05aaf65418e46f7b631bac6f7d88d8bbdf4c806
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81541c08ac963f0bcef18ba589b2341915c20d5d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802365"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094205"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
-Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, wozu Benutzer in Ihrer Organisation in Teams und Kanälen berechtigt sind. So können Sie beispielsweise festlegen, ob Benutzer private Kanäle erstellen dürfen.
+Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, wozu Benutzer in Ihrer Organisation in Teams und Kanälen berechtigt sind. Sie können beispielsweise festlegen, ob Benutzer private Kanäle erstellen dürfen.
 
-Zum Verwalten von Teamrichtlinien wechseln Sie im Microsoft Teams Admin Center zu **Teams** > **Teamrichtlinien**. Sie können die globale (organisationsweite Standardrichtlinie) verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen.
+Zum Verwalten von Teamrichtlinien wechseln Sie im Microsoft Teams Admin Center zu **Teams** > **Teamrichtlinien**. Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen.
 
-Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden.
+Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis änderungen wirksam werden.
 
 ## <a name="create-a-custom-teams-policy"></a>Erstellen einer benutzerdefinierten Teamrichtlinie.
 
@@ -46,7 +46,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 
     ![Screenshot der Richtlinieneinstellungen für Teams](media/teams-policies.png)
-4. Aktivieren oder deaktivieren Sie **"Private Kanäle erstellen",** je nachdem, <a name="createchannels"></a> ob Sie Benutzern das Erstellen privater Kanäle gestatten möchten.
+4. Aktivieren oder deaktivieren Sie Private <a name="createchannels"></a> Kanäle **erstellen,** je nachdem, ob Sie benutzern das Erstellen privater Kanäle gestatten möchten.
 
 5. Klicken Sie auf **Speichern**.
 
@@ -66,6 +66,6 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstel
 
 [Private Kanäle in Teams](private-channels.md)
 
-[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
 
-[New-CsTeamsChannelsPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

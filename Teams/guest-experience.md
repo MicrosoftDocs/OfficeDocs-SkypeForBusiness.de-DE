@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
-ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661890"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092083"
 ---
 # <a name="guest-experience-in-teams"></a>Gast Erfahrung in Teams
 
@@ -105,8 +105,8 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 >  - Die Einstellung **Gastbenutzer haben eingeschränkten Zugriff auf Eigenschaften und die Mitgliedschaft bei Verzeichnisobjekten** bedeutet, dass Gäste keine Berechtigungen für bestimmte Verzeichnisaufgaben haben, z. B. das Auflisten von Benutzern, Gruppen oder anderen Verzeichnisressourcen mithilfe von Microsoft Graph.
 >  - Die Einstellung **Gastbenutzerzugriff ist eingeschränkt auf Eigenschaften und Mitgliedschaften bei ihren eigenen Verzeichnisobjekten (am restriktivsten)** bedeutet, dass Gäste nur auf Ihre eigenen Verzeichnisobjekte zugreifen können.
 >
->Weitere Informationen hierzu finden Sie unter [Was sind die Standardbenutzerberechtigungen in Azure Active Directory?](https://go.microsoft.com/fwlink/?linkid=2135493)
+>Weitere Informationen hierzu finden Sie unter [Was sind die Standardbenutzerberechtigungen in Azure Active Directory?](/azure/active-directory/fundamentals/users-default-permissions)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Beenden einer Organisation als Gast](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[Beenden einer Organisation als Gast](/azure/active-directory/b2b/leave-the-organization)

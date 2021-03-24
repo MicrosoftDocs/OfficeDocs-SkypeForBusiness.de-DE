@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendanten für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460885"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092753"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -38,12 +38,12 @@ Achten Sie darauf, dass Sie automatische Telefonkonferenzen und [](plan-auto-att
 Automatische Telefon attendants can direct calls, based on callers' input, to one of the following destinations: <a name="call-routing-options" ></a>
 
 - **Operator** – der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als eines der anderen Ziele in dieser Liste definiert werden.
-- **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Dies kann ein Onlinebenutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird.
+- **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Diese Person kann ein Onlinebenutzer oder ein Benutzer sein, der lokal mit Skype for Business Server gehostet wird.
 - **Sprach-App** – eine andere automatische Telefonkonferenz oder Anrufwarteschlange. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefonkonferenz oder Anrufwarteschlange zugeordnet ist, wenn Sie dieses Ziel auswählen.)
 - **Voicemail** – das Sprachpostfach, das einer von Ihnen angegebenen Microsoft 365-Gruppe zugeordnet ist.
 - **Externe Telefonnummer –** beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)).
-- **Ankündigung** – Wiedergabe einer Audiodatei. Eine aufgezeichnete Ankündigungsnachricht, die Sie hochladen und die als Audio in gespeichert wird. WAV, . MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Attendant zurück.
-- **Ankündigung** – Geben Sie eine Nachricht ein. Text, den das System lesen soll. Sie können bis zu 1.000 Zeichen eingeben. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Attendant zurück.
+- **Ankündigung (Audiodatei)** – Wiedergabe einer Audiodatei. Eine aufgezeichnete Ankündigungsnachricht, die Sie hochladen und die als Audio in gespeichert wird. WAV, . MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Attendant zurück.
+- **Ankündigung (Typ)** – Geben Sie eine Nachricht ein. Text, den das System lesen soll. Sie können bis zu 1.000 Zeichen eingeben. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Attendant zurück.
 
 Beim Einrichten einer automatischen Attendant werden Sie aufgefordert, eine dieser Optionen in verschiedenen Phasen zu wählen.
 
@@ -55,7 +55,7 @@ Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Teams Admin 
 
 1. Geben Sie oben im Feld einen Namen für die automatische Attendant ein.
 
-2. Wenn Sie einen Operator festlegen möchten, geben Sie das Ziel für Anrufe an den Operator an. Dies ist optional (aber empfohlen). Sie können die Option **Operator** so festlegen, dass Anrufer aus den Menüs ausbrechen und mit einer bestimmten Person sprechen können.
+2. Um einen Operator festzulegen, geben Sie das Ziel für Aufrufe an den Operator an. Diese Bezeichnung ist optional (aber empfohlen). Legen Sie **die Option Operator** so ein, dass Anrufer aus den Menüs ausbrechen und mit einer bestimmten Person sprechen können.
 
 3. Geben Sie die Zeitzone für diese automatische Attendant an. Die Zeitzone wird zum Berechnen von Geschäftszeiten verwendet, wenn Sie einen separaten Anruffluss für [nach Stunden erstellen.](#call-flow-for-after-hours)
 
@@ -76,7 +76,7 @@ Wählen Sie aus, ob sie eine Begrüßung wieder geben möchten, wenn die automat
 
 Wenn Sie **Audiodateien wiederverspielen auswählen,** können Sie die Schaltfläche **Datei** hochladen verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audio in gespeichert ist. WAV, . MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
 
-Wenn Sie Grußnachricht **eingeben** auswählen, liest das System den Text vor, den Sie eingeben (bis zu 1.000 Zeichen), wenn die automatische Telefonkonferenz einen Anruf entgegen nimmt.
+Wenn Sie **Grußnachricht eingeben** auswählen, liest das System den Text vor, den Sie eingeben (bis zu 1.000 Zeichen), wenn die automatische Telefonkonferenz einen Anruf entgegen nimmt.
 
 ![Screenshot der Anrufroutingeinstellungen](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -92,31 +92,31 @@ Wenn Sie Menüoptionen für "Wiedergabe" **auswählen,** können Sie eine Audiod
 
 ![Screenshot der Wähltastenoptionen](media/auto-attendant-call-flow-menu-options-complete.png)
 
-Bei Wähloptionen können Sie einem der Anrufrouteziele die 0 bis 9 Tasten auf der Telefontaste zuweisen. (Die Tasten \* (Wiederholen) und (Zurück) werden vom System reserviert und können nicht \# erneut zugewiesen werden.)
+Weisen Sie für Wähloptionen die 0-9-Tasten auf der Telefontaste einem der Anrufrouteziele zu. (Die Tasten \* (Wiederholen) und (Zurück) werden vom System reserviert und können nicht \# erneut zugewiesen werden.)
 
-Schlüsselzuordnungen müssen nicht fortlaufend sein. Es ist z. B. möglich, ein Menü mit den Tasten 0, 1 und 3 zu erstellen, während die beiden Tasten nicht verwendet werden.
+Schlüsselzuordnungen müssen nicht fortlaufend sein. Es ist möglich, ein Menü mit den Tasten 0, 1 und 3 zu erstellen, während die Taste 2 nicht verwendet wird.
 
-Es wird empfohlen, die Nulltaste dem Operator zuzuordnen, wenn Sie eine konfiguriert haben. Wenn der Operator nicht auf eine Taste festgelegt ist, ist auch der Sprachbefehl "Operator" deaktiviert.
+Es wird empfohlen, den Nullschlüssel dem Operator zuzuordnen, wenn Sie eine konfiguriert haben. Wenn der Operator nicht auf eine Taste festgelegt ist, ist auch der Sprachbefehl "Operator" deaktiviert.
 
 Geben Sie für jede Menüoption die folgenden Einstellungen an:
 
 - **WÄHLTA0** – die Taste auf der Telefontaste, um auf diese Option zu zugreifen. Wenn Spracheingaben verfügbar sind, können Anrufer diese Nummer auch sagen, um auf die Option zu zugreifen.
 
-- **Sprachbefehl** : Definiert den Sprachbefehl, den ein Anrufer für den Zugriff auf diese Option geben kann, wenn Spracheingaben aktiviert sind. Sie kann mehrere Wörter wie "Kundendienst" oder "Vorgänge und Gründe" enthalten. Beispielsweise kann der Anrufer 2 drücken, "zwei" sagen oder "Umsatz" sagen, um die Option auszuwählen, die der beiden Taste zugeordnet ist. Dieser Text wird auch per Text in Sprache für die Bestätigungsaufforderung des Diensts gerendert, was etwa "Übertragen Ihres Anrufs in den Vertrieb" sein kann.
+- **Sprachbefehl** : Definiert den Sprachbefehl, den ein Anrufer für den Zugriff auf diese Option geben kann, wenn Spracheingaben aktiviert sind. Sie kann mehrere Wörter wie "Kundendienst" oder "Vorgänge und Gründe" enthalten. Beispielsweise kann der Anrufer 2 drücken, "zwei" sagen oder "Umsatz" sagen, um die Option auszuwählen, die den beiden Tasten zugeordnet ist. Dieser Text wird auch per Text in Sprache für die Bestätigungsaufforderung des Diensts gerendert, was etwa "Übertragen Ihres Anrufs in den Vertrieb" sein kann.
 
 - **Umleiten zu** – das Anrufroutingziel, das verwendet wird, wenn Anrufer diese Option auswählen. Wenn Sie an eine automatische Telefonleitung oder Anrufwarteschlange umleiten, wählen Sie das zugeordnete Ressourcenkonto aus.
 
 ### <a name="directory-search"></a>Verzeichnissuche
 
-Wenn Sie Zielzielen Wähltasten zuweisen, empfiehlt es sich, Für Verzeichnissuche **keine** **zu wählen.** Wenn ein Anrufer versucht, einen Namen oder eine Erweiterung mithilfe von Schlüsseln zu wählen, die bestimmten Zielen zugewiesen sind, wird er möglicherweise unerwartet an ein Ziel geroutet, bevor er die Eingabe des Namens oder der Erweiterung abgeschlossen hat. Es wird empfohlen, eine separate automatische Telefonwarte für die Verzeichnissuche zu erstellen und über eine Wähltaste einen Link zur automatischen Haupttelefonwarte zu erstellen.
+Wenn Sie Zielzielen Wähltasten zuweisen, empfiehlt es sich, Für Verzeichnissuche **keine** **zu wählen.** Wenn ein Anrufer versucht, einen Namen oder eine Erweiterung mithilfe von Schlüsseln zu wählen, die bestimmten Zielen zugewiesen sind, wird er möglicherweise unerwartet an ein Ziel geroutet, bevor er die Eingabe des Namens oder der Erweiterung abgeschlossen hat. Es wird empfohlen, eine separate automatische Telefonwarte für die Verzeichnissuche zu erstellen und die Haupt-Auto-Telefonwarte mit einer Wähltaste zu verknüpfen.
 
 Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche aus.**
 
-**Nach Namen wählen** – Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Telefontaste eingeben. Jeder Onlinebenutzer oder jeder Benutzer, der lokal mit Skype for Business Server gehostet wird, ist ein berechtigter Benutzer und kann mit Dial by name gefunden werden. (Sie können festlegen, wer im Verzeichnis auf der Seite Wählbereich enthalten ist [und nicht.)](#dial-scope)
+**Nach Namen wählen** – Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Telefontaste eingeben. Jeder Onlinebenutzer oder jeder Benutzer, der lokal mit Skype for Business Server gehostet wird, ist ein berechtigter Benutzer und kann mit Dial by name gefunden werden. (Sie können festlegen, wer im Verzeichnis auf der Seite Wählbereich enthalten ist und [nicht.)](#dial-scope)
 
-**Durchwahl:** Wenn Sie diese Option aktivieren, können Anrufer eine Verbindung mit Benutzern in Ihrer Organisation herstellen, indem sie die Telefonerweiterung wählen. Jeder Onlinebenutzer oder jeder Benutzer, der lokal mit Skype for Business Server gehostet wird, ist ein berechtigter Benutzer und kann über die Erweiterung **Dial by gefunden werden.** (Sie können festlegen, wer im Verzeichnis auf der Seite Wählbereich enthalten ist [und nicht.)](#dial-scope)
+**Durchwahl:** Wenn Sie diese Option aktivieren, können Anrufer eine Verbindung mit Benutzern in Ihrer Organisation herstellen, indem sie die Telefonerweiterung wählen. Jeder Onlinebenutzer oder jeder Benutzer, der lokal mit Skype for Business Server gehostet wird, ist ein berechtigter Benutzer und kann über die Erweiterung **Dial by gefunden werden.** (Sie können festlegen, wer im Verzeichnis auf der Seite Wählbereich enthalten ist und [nicht.)](#dial-scope)
 
-Für Benutzer, die Sie für die Durchwahl verfügbar machen möchten, muss eine Erweiterung als Teil eines [](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) der folgenden Telefonattribute angegeben sein, die in Active Directory oder Azure Active Directory definiert sind (weitere Informationen finden Sie unter Hinzufügen von Benutzern einzeln oder in Massen).)
+Für Benutzer, die Sie für die Durchwahl verfügbar machen möchten, muss eine Erweiterung als Teil eines [](/microsoft-365/admin/add-users/add-users) der folgenden Telefonattribute angegeben sein, die in Active Directory oder Azure Active Directory definiert sind (weitere Informationen finden Sie unter Hinzufügen von Benutzern einzeln oder in Massen).)
 
 - OfficePhone
 - HomePhone
@@ -124,7 +124,7 @@ Für Benutzer, die Sie für die Durchwahl verfügbar machen möchten, muss eine 
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-Das erforderliche Format für die Eingabe der Erweiterung in das Feld "Benutzertelefonnummer" ist entweder:
+Das erforderliche Format zum Eingeben der Erweiterung in das Feld "Benutzertelefonnummer" kann eines der folgenden Formate sein:
 
 - *+\<phone number>;ext=\<extension>*
 - *+\<phone number>x\<extension>*
@@ -223,36 +223,36 @@ Die angezeigte ausgehende Telefonnummer wird wie folgt bestimmt:
     - Wenn sie auf Deaktiviert festgelegt ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die Standardeinstellung und empfohlene Einstellung.
     - Wenn auf Aktiviert festgelegt ist, wird die Telefonnummer des Ressourcenkontos angezeigt.
 
-Um in einer Skype for Business-Hybridumgebung einen automatischen Telefonanruf in das PSTN zu übertragen, erstellen Sie einen neuen lokalen Benutzer mit anrufverteilter Weiterleitung, die auf die PSTN-Nummer festgelegt ist. Der Benutzer muss für die Enterprise-VoIP aktiviert sein und eine Sprachrichtlinie zugewiesen haben. Weitere Informationen finden Sie unter [Automatische Telefonanrufübertragung in PSTN.](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+Um in einer Skype for Business-Hybridumgebung einen automatischen Telefonanruf in das PSTN zu übertragen, erstellen Sie einen neuen lokalen Benutzer mit anrufverteilter Weiterleitung, die auf die PSTN-Nummer festgelegt ist. Der Benutzer muss für die Enterprise-VoIP aktiviert sein und eine Sprachrichtlinie zugewiesen haben. Weitere Informationen finden Sie unter [Automatische Telefonanrufübertragung in PSTN.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Erstellen einer automatischen Attendant mit PowerShell
 
 Sie können PowerShell auch zum Erstellen und Einrichten automatischer Attendanten verwenden. Hier sind die Cmdlets, die Sie zum Verwalten einer automatischen Attendant benötigen:
 
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Vorteile des Telefonsystems](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[Vorteile des Telefonsystems](./here-s-what-you-get-with-phone-system.md)
 
-[Servicetelefonnummern erhalten](/microsoftteams/getting-service-phone-numbers)
+[Servicetelefonnummern erhalten](./getting-service-phone-numbers.md)
 
-[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschleifen mit Microsoft Teams einrichten können. Diese bieten Optionen wie Begrüßungsnachrichten, Warteschleifenmusik, Anrufweiterleitung und weitere Features.
-ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196749"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092713"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -177,13 +177,13 @@ Die folgenden Clients werden für Telefonberater in einer Anrufwarteschleife unt
 
 Sie können auch Windows PowerShell verwenden, um Anrufwarteschleifen zu erstellen und einzurichten. Zum Verwalten einer Anrufwarteschleife werden die folgenden Cmdlets verwendet.
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -193,6 +193,6 @@ Sie können auch Windows PowerShell verwenden, um Anrufwarteschleifen zu erstell
 
 [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

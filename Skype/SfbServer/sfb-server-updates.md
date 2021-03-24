@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und verwalten Sie Updates für Skype for Business Server 2015/2019 und Lync 2013 an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
-ms.openlocfilehash: 2da3556286213498a2b14a6e4943b76641ecff4c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874935"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092853"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server-Updates
 
@@ -234,7 +234,7 @@ Paketname/Link|Veröffentlichungsdatum|
 Paketname/Link|Veröffentlichungsdatum|
 |:--- |:--- |
 |[Hilfedatei zur Lync Server 2010-Dokumentation](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|März 2012 |
-|[Lync Server 2010-Willkommensseite](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Oktober 2012 |
+|[Lync Server 2010-Willkommensseite](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|Oktober 2012 |
 |[Chat an Expert for Microsoft Lync Server 2010 Documentation](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|März 2012 |
 |[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|Januar 2011 |
 |[Lync Server 2010-Versionshinweise](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Januar 2011 |
@@ -268,6 +268,6 @@ Softwareupdates umfassen Updates, Updaterollups, Service Packs, Feature Packs, w
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Installieren von Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [Upgrade auf Skype for Business Server 2015](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Installieren von Skype for Business Server 2015](./deploy/install/install.md)
+- [Upgrade auf Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Neueste Updates für Versionen von Skype for Business, die Windows Installer (MSI) verwenden](sfb-client-updates.md)

@@ -16,38 +16,38 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Anpassen der Wartemusik für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 766b51895acda27c0558352968d21a39764b13a6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 87dea58d9e339293b047373ac6c44a16bed3bdb3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837075"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093043"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Anpassen der Wartemusik für das Parken von Anrufen inSkype for Business
  
 Anpassen der Wartemusik für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
   
-Sie können Ihre eigene Musikdatei angeben, die für wartemusik verwendet werden soll, anstelle der Standardmusikdatei, die im Skype for Business Server enthalten ist. Verwenden Sie zum Anpassen der Wartemusik das Cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
+Sie können Ihre eigene Musikdatei angeben, die für Die Musik im Warteschleifenbetrieb verwendet werden soll, anstelle der Standardmusikdatei, die mit Skype for Business Server versendet wird. Verwenden Sie zum Anpassen der Wartemusik das Cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.
   
 > [!NOTE]
-> Wenn Sie die Wartemusik anpassen und dieselbe Musik für mehrere Standorte verwenden möchten, müssen Sie die Musikdatei für jede Website konfigurieren, auf der die Anwendung zum Parken von Anrufen ausgeführt wird. 
+> Wenn Sie Musik im Halteraum anpassen und dieselbe Musik für mehrere Websites wünschen, müssen Sie die Musikdatei für jede Website konfigurieren, auf der die Anwendung zum Parken von Anrufen ausgeführt wird. 
   
 ### <a name="to-customize-the-music-file"></a>So passen Sie die Musikdatei an
 
-1. Melden Sie sich bei dem Computer, auf dem skype for Business Server Management Shell installiert ist, als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten an, wie unter "Berechtigungen zum Delegieren des **Setups" beschrieben.**
+1. Melden Sie sich an dem Computer an, auf dem Skype for Business Server Management Shell als Mitglied der Gruppe RTCUniversalServerAdmins installiert ist, oder mit den erforderlichen Benutzerrechten, wie unter **Delegate Setup Permissions beschrieben.**
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
     
-3. Führen Sie dies aus:
+3. Führen Sie  aus.
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
    ```
 
     > [!TIP]
-    > Verwenden Sie das Cmdlet **Get-CsService**, um den Dienst zu ermitteln. Weitere Informationen finden Sie unter [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps). 
+    > Verwenden Sie das Cmdlet **Get-CsService**, um den Dienst zu ermitteln. Weitere Informationen finden Sie unter [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps). 
   
-    Im folgenden Beispiel wird gezeigt, wie die Inhalte der Datei "soothingmusic.wma" als Bytearray abgerufen und einer Variablen zugewiesen werden. Anschließend wird die Audiodatei als Wartemusikdatei für die Funktion zum Parken von Anrufen zugewiesen. Weitere Informationen finden Sie unter [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
+    Im folgenden Beispiel wird gezeigt, wie die Inhalte der Datei "soothingmusic.wma" als Bytearray abgerufen und einer Variablen zugewiesen werden. Anschließend wird die Audiodatei als Wartemusikdatei für die Funktion zum Parken von Anrufen zugewiesen. Weitere Informationen finden Sie unter [Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).
     
    ```powershell
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
@@ -56,6 +56,6 @@ Sie können Ihre eigene Musikdatei angeben, die für wartemusik verwendet werden
 
 ## <a name="see-also"></a>Siehe auch
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
+[Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)

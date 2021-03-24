@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944610"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092253"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -70,7 +70,7 @@ Die Listen-App ist für alle Microsoft Teams-Benutzer vorinstalliert und steht d
 
 Listen-App-Daten werden auf der SharePoint Online-Teamsite gespeichert. Weitere Informationen zur Interaktion zwischen SharePoint Online und Microsoft Teams finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-In SharePoint festgelegte Berechtigungen gelten für in der Listen-App erstellte Listen. Listen erben standardmäßig Berechtigungen von der Website, zu der sie gehören. Von diesen Berechtigungen hängt ab, welche Art von Aktionen Benutzer ausführen können, z. B. ob sie Listen erstellen oder bearbeiten können. Weitere Informationen finden Sie unter [Berechtigungsstufen in SharePoint](https://docs.microsoft.com/sharepoint/understanding-permission-levels) und [Benutzerberechtigungen und Berechtigungsstufen in SharePoint Server](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels).
+In SharePoint festgelegte Berechtigungen gelten für in der Listen-App erstellte Listen. Listen erben standardmäßig Berechtigungen von der Website, zu der sie gehören. Von diesen Berechtigungen hängt ab, welche Art von Aktionen Benutzer ausführen können, z. B. ob sie Listen erstellen oder bearbeiten können. Weitere Informationen finden Sie unter [Berechtigungsstufen in SharePoint](/sharepoint/understanding-permission-levels) und [Benutzerberechtigungen und Berechtigungsstufen in SharePoint Server](/sharepoint/sites/user-permissions-and-permission-levels).
 
 In bestimmten Szenarien möchten Sie eventuell einschränken, welche Aktionen Benutzer in Listen ausführen können. Wenn beispielsweise jemand in einem Team eine Listenansicht bearbeitet, ändert diese sich für alle Teammitglieder, daher möchten Sie möglicherweise nur dem Teambesitzer oder bestimmten Teammitgliedern das Bearbeiten von Listenansichten gestatten. Weitere Informationen finden Sie unter [Anpassen von Berechtigungen für eine SharePoint-Liste oder -Bibliothek](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013).
 
@@ -105,15 +105,15 @@ Wenn Sie die Nutzung von "Listen" für bestimmte Benutzer in Ihrer Organisation 
 
 ## <a name="search-the-audit-log-for-list-events"></a>Durchsuchen des Überwachungsprotokolls nach Listenereignissen
 
-Für Listen ist die Überwachung auf Unternehmensebene aktiviert, sodass Sie im Überwachungsprotokoll im Security & Compliance Center nach Listen und Listenelementereignissen suchen können. Weitere Informationen finden Sie unter [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Für Listen ist die Überwachung auf Unternehmensebene aktiviert, sodass Sie im Überwachungsprotokoll im Security & Compliance Center nach Listen und Listenelementereignissen suchen können. Weitere Informationen finden Sie unter [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
-Eine Liste der Überwachungsereignisse, die für die Listen-App in Microsoft Teams relevant sind, finden Sie unter [SharePoint-Listenaktivitäten](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
+Eine Liste der Überwachungsereignisse, die für die Listen-App in Microsoft Teams relevant sind, finden Sie unter [SharePoint-Listenaktivitäten](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities).
 
 Damit Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst im [Security & Compliance Center](https://protection.office.com) die Überwachung aktivieren. Denken Sie daran, dass Überwachungsdaten nur ab dem Zeitpunkt verfügbar sind, an dem Sie die Überwachung aktiviert haben.
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate, Power Apps und Graph-API
 
-Die Listen-App unterstützt [Power Automate](https://docs.microsoft.com/power-automate/flow-types) für Workflows und [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) für Listenformulare. Entwickler können die [Listen-API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) verwenden, um Listendaten als Quelle über Microsoft Graph zu verbinden.
+Die Listen-App unterstützt [Power Automate](/power-automate/flow-types) für Workflows und [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) für Listenformulare. Entwickler können die [Listen-API](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) verwenden, um Listendaten als Quelle über Microsoft Graph zu verbinden.
 
 ## <a name="give-feedback-or-report-an-issue"></a>Feedback senden oder Problem melden
   

@@ -21,30 +21,29 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Notrufdienste (911) von herkömmlichen Telefondiensten abweichen und wie Sie einen Anruf führen. '
-ms.openlocfilehash: 70978907e8fffa74a7284b3c0179088287a2b181
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 'Erfahren Sie, wie sich Notdienste (911) von herkömmlichen Telefondiensten unterscheiden und wie Sie einen Anruf machen. '
+ms.openlocfilehash: 3fd78707fc822b008eaca4046ff1d974b1ad1e06
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691451"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092643"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Nutzungsbedingungen für Notrufe
 
 ## <a name="important-information"></a>Wichtige Informationen:
 
-Notrufe funktionieren unterschiedlich mit Anrufplänen in Microsoft 365 oder Office 365 als herkömmliche Telefondienste. Es ist wichtig, dass Sie diese Unterschiede verstehen und Sie allen Benutzern mit Anrufplänen in Microsoft 365 oder Office 365 mitteilen. Sie erkennen an und erklären sich damit einverstanden, dass Sie die Unterschiede in unseren Notrufdiensten gelesen und verstanden haben, und werden diesen Hinweis jedem Benutzer mit Anrufplänen in Microsoft 365 oder Office 365 zur Verfügung stellen.
+Notrufe funktionieren bei Anrufplänen in Microsoft 365 oder Office 365 anders als bei herkömmlichen Telefondiensten. Es ist wichtig, dass Sie diese Unterschiede verstehen und allen Benutzern mit Anrufplänen in Microsoft 365 oder Office 365 kommunizieren. Sie bestätigen und erklären sich damit einverstanden, dass Sie die Unterschiede bei unseren Notrufen gelesen und verstanden haben, und geben diesen Hinweis jedem Benutzer mit Anrufplänen in Microsoft 365 oder Office 365 zu.
   
-Zu den Unterschieden in unseren Notruffunktionen gehören die folgenden: (i) Skype for Business und Teams wissen möglicherweise nicht, ob ein Anrufer einen Notruf durchführt, was dazu führen kann, dass der Anruf an das falsche Notrufzentrum weitergeleitet wird und/oder Notrufe an den falschen Ort gesendet werden. (II) Wenn der Team-Client des Benutzers offline ist oder wenn das Gerät des Benutzers aus irgendeinem Grund nicht auf das Internet zugreifen kann, beispielsweise einen Netzwerkausfall oder Stromausfall, werden Notrufe über das Telefon System in Microsoft 365 oder Office 365 nicht unterstützt, und es wird nicht erwartet, dass Sie funktionieren; und (III) Obwohl Anrufpläne in Microsoft 365 oder Office 365 überall in der Welt, in denen eine Internetverbindung verfügbar ist, verwendet werden können, sollten Benutzer keinen Notruf an einem Standort außerhalb ihres Heimatlandes/Ihrer Region tätigen, da der Anruf wahrscheinlich nicht an das entsprechende Callcenter in diesem Land/dieser Region weitergeleitet wird.
+Die Unterschiede bei unseren Anruffunktionen für Notdienste umfassen Folgendes: (i) Skype for Business und Teams kennen möglicherweise nicht den tatsächlichen Standort eines Anrufers, der einen Notruf abgeht, was dazu führen kann, dass der Anruf an die falsche Notrufzentrale und/oder an den falschen Ort der Notrufzentrale umgeschaltet wird. (ii) wenn der #A0 des Benutzers offline ist oder das Gerät des Benutzers aus irgendeinem Grund nicht auf das Internet zugreifen kann, z. B. aus einem Netzwerkausfall oder Stromausfall, werden Notrufe über das Telefonsystem in Microsoft 365 oder Office 365 nicht unterstützt und funktionieren nicht; und (iii) Obwohl Anrufpläne in Microsoft 365 oder Office 365 überall auf der Welt verwendet werden können, in der eine Internetverbindung verfügbar ist, sollten Die Benutzer keinen Notruf von einem Ort außerhalb ihres Landes/ihrer Region aus anrufen, da der Anruf wahrscheinlich nicht an das entsprechende Anrufcenter in diesem Land/dieser Region gesendet wird.
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Übertragen von Telefonnummern – häufig gestellte Fragen](transferring-phone-numbers-common-questions.md)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Haftungsausschlussbezeichnung für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

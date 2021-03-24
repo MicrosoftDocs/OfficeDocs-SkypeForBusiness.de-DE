@@ -1,5 +1,5 @@
 ---
-title: Arten von Telefonnummern, die für Anrufpläne verwendet werden
+title: Typen von Telefonnummern, die für Anrufpläne verwendet werden
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,50 +21,50 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: In diesem Artikel erfahren Sie mehr über verschiedene Telefonnummern Typen, die von Microsoft Teams für das Aufrufen von Plänen verwendet werden.
-ms.openlocfilehash: c84f35f880d32f106bc8ef946930c6511b798266
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: In diesem Artikel erfahren Sie mehr über verschiedene Telefonnummerntypen, die Microsoft Teams für Anrufpläne verwendet.
+ms.openlocfilehash: f636fa56284fe9ce7c56f3ad6380c18d3b49baff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901860"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094341"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden
 
-Microsoft Teams verwendet verschiedene Telefonnummern Typen, je nach dem Zweck, für den Sie die Telefonnummer verwenden möchten. Teams verwendet **Benutzer** Nummern, die Benutzern in Ihrer Organisation zugewiesen werden können, und **Dienst** Nummern, die Diensten wie Audiokonferenzen, automatischen Telefonzentralen oder Anrufwarteschlangen zugewiesen sind. Service-Telefonnummern haben eine *höhere Kapazität für gleichzeitige Anrufe* als Benutzernummern. Service-Telefonnummern stehen zur Verfügung, variieren aber je nach Land/Region und dem Typ der Nummer (ob es sich um eine gebührenpflichtige oder gebührenfreie Nummer handelt). Wenn Sie zusätzliche oder andere Nummerntypen als die im Microsoft Teams Admin Center gezeigten Nummern benötigen, können Sie eine Telefonnummern Anfrage an die [PSTN-Service Desk-Hilfe](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)senden.
+Microsoft Teams verwendet je nach Zweck, zu dem Sie die Telefonnummer verwenden möchten, unterschiedliche Telefonnummerntypen. Teams verwendet **Benutzernummern,** die Benutzern in Ihrer  Organisation zugewiesen werden können, und Dienstnummern, die Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschlangen zugewiesen sind. Servicetelefonnummern haben eine *höhere Kapazität für gleichzeitige Anrufe*  als Benutzernummern. Servicetelefonnummern sind verfügbar, variieren jedoch je nach Land/Region und Art der Rufnummer (ganz gleich, ob es sich um eine gebührenpflichtige oder gebührenfreie Nummer handelt). Wenn Sie zusätzliche oder andere Nummerntypen benötigen, die nicht mit den Nummern im Microsoft Teams Admin Center zu sehen sind, können Sie eine Telefonnummernanforderung an die Hilfe für den [PSTN-Servicedesk übermitteln.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
   
 - **Benutzernummern**
     
     Benutzernummern werden Benutzern zugewiesen, und es gibt zwei Arten:
     
-  - **Geografische Nummern** Geographische Zahlen haben eine Beziehung zu einem geografischen Gebiet und sind am häufigsten. So können beispielsweise geographische Telefonnummern in den meisten Fällen nur innerhalb einer bestimmten Adresse, Stadt, Bundesland oder Region des Landes verwendet werden.
+  - **Geografische Zahlen** Geografische Zahlen haben eine Beziehung zu einem geografischen Gebiet und sind die am häufigsten. Geografische Telefonnummern können z. B. in den meisten Fällen nur innerhalb einer bestimmten Adresse, einer bestimmten Stadt, eines Bundesland oder einer Bestimmten Region des Landes verwendet werden.
     
-  - **Nicht** ortsgebundene Nummern Nicht ortsgebundene Nummern sind nationale Nummern, die keine Beziehung zu einem geographischen Gebiet innerhalb eines Landes/einer Region aufweisen. So haben beispielsweise nicht ortsgebundene Nummern oft die gleichen Kosten, wenn Sie die Nummer von überall aus dem Land/der Region anrufen. In einigen Ländern wie Dänemark sind aber nur nicht-geographische Nummern verfügbar.
+  - **Nicht geografische Zahlen** Nicht geografische Zahlen sind nationale Nummern, die keine Beziehung zu einem geografischen Gebiet innerhalb eines Landes/einer Region haben. Beispielsweise haben nicht geografische Nummern häufig die gleichen Kosten, wenn Sie die Nummer von einem beliebigen Ort im Land/der Region anrufen. Außerdem sind in einigen Ländern, z. B. Dänemark, nur nicht geografische Nummern verfügbar.
     
-- **Dienstnummern** Dienstnummern sind in verschiedenen Nummerntypen verfügbar, und die Verfügbarkeit variiert je nach Land/Region.
+- **Servicenummern** Servicenummern sind in verschiedenen Nummerntypen verfügbar, und die Verfügbarkeit variiert je nach Land/Region.
     
   - **Gebührenpflichtige Servicenummern**
     
-    Für gebührenpflichtige Dienstnummern kann der Anrufer gebührenpflichtig sein, und es gibt zwei Arten:
+    Gebührenpflichtige Servicenummern können gebührenpflichtig für den Anrufer sein, und es gibt zwei Arten:
     
-      - **Geografische Nummern** Geografische Nummern haben eine Beziehung zu einem geographischen Gebiet. So können beispielsweise geographische Telefonnummern in den meisten Fällen nur innerhalb einer bestimmten Adresse, Stadt, Bundesland oder Region des Landes verwendet werden.
+      - **Geografische Zahlen** Geografische Zahlen haben eine Beziehung zu einem geografischen Gebiet. Geografische Telefonnummern können z. B. in den meisten Fällen nur innerhalb einer bestimmten Adresse, einer bestimmten Stadt, eines Bundesland oder einer Bestimmten Region des Landes verwendet werden.
         
-      - **Nicht** ortsgebundene Nummern Nicht ortsgebundene Nummern sind nationale Nummern, die keine Beziehung zu einem geographischen Gebiet innerhalb eines Landes/einer Region aufweisen. So haben beispielsweise nicht ortsgebundene Nummern oft die gleichen Kosten, wenn Sie die Nummer von überall aus dem Land/der Region anrufen.
+      - **Nicht geografische Zahlen** Nicht geografische Zahlen sind nationale Nummern, die keine Beziehung zu einem geografischen Gebiet innerhalb eines Landes/einer Region haben. Beispielsweise haben nicht geografische Nummern häufig die gleichen Kosten, wenn Sie die Nummer von einem beliebigen Ort im Land/der Region anrufen.
    
-  - **Gebührenfreie Servicenummern** Bei diesen Servicenummern fallen dem Anrufer üblicherweise keine Mautgebühren an. Teams bietet nationale gebührenfreie Nummern in mehr als 60 Ländern/Regionen.
+  - **Gebührenfreie Servicenummern** Für diese Servicenummern fallen normalerweise keine Gebühren für den Anrufer an. Teams stellt nationale gebührenfreie Nummern in mehr als 60 Ländern/Regionen zur Verfügung.
     
     > [!CAUTION]
-    > Einige Länder/Regionen und Ursprungs Nummerntypen, wie Anrufe, die von Mobiltelefonen stammen, können dem Anrufer in einigen Fällen gebührenpflichtige Kosten verursachen. 
+    > Einige Länder/Regionen und Typen von Nummerntypen mit Ursprung, z. B. Anrufe, die von Mobiltelefonen stammen, können in einigen Fällen gebührenpflichtig für den Anrufer sein. 
   
 > [!NOTE]
-> Wenn Sie weitere Telefonnummern erhalten möchten, [wenden Sie sich an den PSTN-Service-Desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> Wenn Sie mehr Telefonnummern als diese erhalten müssen, wenden Sie [sich an den PSTN-Servicedesk.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Übertragen von Telefonnummern – häufig gestellte Fragen](transferring-phone-numbers-common-questions.md)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)
 
 [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
-[Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Haftungsausschlussbezeichnung für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

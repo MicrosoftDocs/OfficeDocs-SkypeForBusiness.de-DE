@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Teams-Vorlagen im Admin Center verwalten.
-ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875135"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093925"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>Verwalten von Teams-Vorlagen im Admin Center
 
@@ -90,7 +90,7 @@ Sie können maximal 100 Vorlagen pro Richtlinie ausblenden. Die **Schaltfläche*
 
 **F: Kann ich Teamvorlagenrichtlinien Benutzer batchweise zuweisen?**
   
-A: Ja, wir unterstützen die Batchzuordnung für die Vorlagenrichtlinie in PowerShell. Der Richtlinientyp für diese Aktion ist TeamsTemplatePermissionPolicy. [Weitere Informationen](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+A: Ja, wir unterstützen die Batchzuordnung für die Vorlagenrichtlinie in PowerShell. Der Richtlinientyp für diese Aktion ist TeamsTemplatePermissionPolicy. [Weitere Informationen](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **F: Können Gruppen Teamvorlagenrichtlinien zugewiesen werden?**
 
@@ -112,7 +112,7 @@ A: Ja.
 1. Wählen Sie in der Listentabelle Benutzer die Benutzer aus, die Sie einer bestimmten Vorlagenrichtlinie zuweisen möchten.
 1. Wählen Sie Einstellungen bearbeiten aus, und ändern Sie das Feld Vorlagenrichtlinien.
 1. Wählen Sie Übernehmen aus.
-   Weitere [Informationen: Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users).
+   Weitere [Informationen: Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users).
 
 **F: Wie kann ich alle Benutzer anzeigen, die einer bestimmten Richtlinie zugewiesen sind?**
 
@@ -134,14 +134,14 @@ A: Nein, Vorlagenrichtlinien für EDU werden nicht unterstützt.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Erste Schritte mit Teamvorlagen im Admin Center](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [Erste Schritte mit Teamvorlagen im Admin Center](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [Erstellen einer benutzerdefinierten Teamvorlage](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
+- [Erstellen einer benutzerdefinierten Teamvorlage](./create-a-team-template.md)
 
-- [Erstellen einer Vorlage aus einem vorhandenen Team](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [Erstellen einer Vorlage aus einem vorhandenen Team](./create-template-from-existing-team.md)
 
-- [Erstellen einer Teamvorlage aus einer vorhandenen Teamvorlage](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
+- [Erstellen einer Teamvorlage aus einer vorhandenen Teamvorlage](./create-template-from-existing-template.md)
 
-- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
-- [Batch zuweisen von Benutzern zu einer Richtlinie](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [Batch zuweisen von Benutzern zu einer Richtlinie](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

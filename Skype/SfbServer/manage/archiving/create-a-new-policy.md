@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine neue Archivierungsrichtlinie für Skype for Business Server erstellen.'
-ms.openlocfilehash: 3e1f538aba26025f5868a09babd3b67df36f9a3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817645"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095419"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Erstellen einer neuen Archivierungsrichtlinie in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie eine neue Archivierungsrichtlinie für Skype for Business Server erstellen.
   
-Sie können neue Archivierungsrichtlinien mithilfe der Systemsteuerung oder mithilfe Windows PowerShell erstellen.
+Sie können neue Archivierungsrichtlinien mithilfe der Systemsteuerung oder mithilfe von cmdlets Windows PowerShell erstellen.
   
 ## <a name="create-a-new-archiving-policy-by-using-the-control-panel"></a>Erstellen einer neuen Archivierungsrichtlinie mithilfe der Systemsteuerung
 
-So erstellen Sie eine neue Archivierungsrichtlinie mithilfe der Systemsteuerung
+So erstellen Sie eine neue Archivierungsrichtlinie mithilfe der Systemsteuerung:
   
 1. Melden Sie sich von einem Benutzerkonto, das der CsArchivingAdministrator- oder der CsAdministrator-Rolle zugeordnet ist, auf einem beliebigen Computer Ihrer internen Bereitstellung an. 
     
@@ -37,7 +37,7 @@ So erstellen Sie eine neue Archivierungsrichtlinie mithilfe der Systemsteuerung
     
 4. Klicken Sie auf **Neu**, und führen Sie eine der folgenden Aktionen aus: 
     
-   - Klicken Sie zum Erstellen einer Archivierungsrichtlinie auf Standortebene auf "Standortrichtlinie", und klicken Sie dann **in**"Standort auswählen" auf den Standort, auf den die Richtlinie angewendet werden soll.
+   - Klicken Sie zum Erstellen einer Archivierungsrichtlinie auf Standortebene auf Standortrichtlinie, und klicken Sie dann unter Standort auswählen auf den Standort, auf den die Richtlinie angewendet werden soll.
     
    - Um eine Archivierungsrichtlinie auf Benutzerebene zu erstellen, klicken Sie auf **Benutzerrichtlinie**.
     
@@ -54,11 +54,11 @@ So erstellen Sie eine neue Archivierungsrichtlinie mithilfe der Systemsteuerung
 6. Klicken Sie auf **Commit**.
     
     > [!IMPORTANT]
-    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Weitere Informationen finden Sie unter [Anwenden einer Archivierungsrichtlinie auf Benutzer in Skype for Business Server.](apply-a-policy-to-users.md) 
+    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Weitere Informationen finden Sie [unter Apply an archiving policy to users in Skype for Business Server](apply-a-policy-to-users.md). 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Erstellen einer neuen Archivierungsrichtlinie mithilfe von Windows PowerShell
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Erstellen einer neuen Archivierungsrichtlinie mithilfe Windows PowerShell
 
-Sie können neue Archivierungsrichtlinien auch mit dem cmdlet Windows PowerShell **New-CsArchivingPolicy** erstellen. Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "New-CsArchivingPolicy".](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+Sie können auch neue Archivierungsrichtlinien mithilfe des cmdlets **New-CsArchivingPolicy** Windows PowerShell erstellen. Weitere Informationen finden Sie im Hilfethema für das [Cmdlet New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>So erstellen Sie eine neue Archivierungsrichtlinie auf Standortebene
 
@@ -78,7 +78,7 @@ New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 
 ### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>So erstellen Sie eine neue Archivierungsrichtlinie, die die Archivierung interner Kommunikationssitzungen ermöglicht
 
-Da in den vorherigen Befehlen keine Parameter (mit Anderen als dem obligatorischen Parameter "Identity") angegeben wurden, verwenden die neuen Richtlinien die Standardwerte für alle eigenschaften. Um Richtlinien zu erstellen, die unterschiedliche Eigenschaftswerte verwenden, fügen Sie einfach den entsprechenden Parameter und Parameterwert ein. Mit dem folgenden Befehl wird beispielsweise eine Archivierungsrichtlinie erstellt, die die Archivierung interner Chatsitzungen zulässt: 
+Da in den vorherigen Befehlen keine Parameter (mitser dem obligatorischen Identity-Parameter) angegeben wurden, verwenden die neuen Richtlinien die Standardwerte für alle eigenschaften. Um Richtlinien zu erstellen, die unterschiedliche Eigenschaftswerte verwenden, fügen Sie einfach den entsprechenden Parameter und Parameterwert ein. Mit dem folgenden Befehl wird beispielsweise eine Archivierungsrichtlinie erstellt, die die Archivierung interner Chatsitzungen zulässt: 
   
 ```PowerShell
 New-CsArchivingPolicy -Identity "site:Redmond" -ArchiveInternal $True

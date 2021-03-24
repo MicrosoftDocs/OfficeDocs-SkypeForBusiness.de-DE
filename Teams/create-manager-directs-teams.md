@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe57656eec61747dd0a43d475444e65d8600e222
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
-ms.translationtype: HT
+ms.openlocfilehash: fa7c82ec584791107e5d269ee40bccba272d20b4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583674"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094411"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Erstellen von Teams für Personalverantwortliche in Microsoft Teams
 
@@ -30,7 +30,7 @@ Wenn Sie Microsoft Teams einführen, sollten Sie nicht mit einem „unbeschriebe
 
 ## <a name="how-to-use-the-powershell-script"></a>Verwenden des PowerShell-Skripts 
 
-Führen Sie zunächst das Skript [Personalverantwortliche und ihre direkten Mitarbeiter exportieren](scripts/powershell-script-create-teams-from-managers-export-managers.md) aus (dies setzt voraus, dass Sie bereits die PowerShell-Module [Connect-AzureAd](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) und [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps) ausgeführt haben). Das Skript *Personalverantwortliche und ihre direkten Mitarbeiter exportieren* erstellt eine Datei mit Tabstopptrennzeichen (ExportedManagerDirects.txt), die alle Personalverantwortlichen mit ihren direkten Mitarbeiter auflistet. 
+Führen Sie zunächst das Skript [Personalverantwortliche und ihre direkten Mitarbeiter exportieren](scripts/powershell-script-create-teams-from-managers-export-managers.md) aus (dies setzt voraus, dass Sie bereits die PowerShell-Module [Connect-AzureAd](/powershell/module/azuread/connect-azuread?view=azureadps-2.0) und [Connect-MicrosoftTeams](/powershell/module/teams/connect-microsoftteams?view=teams-ps) ausgeführt haben). Das Skript *Personalverantwortliche und ihre direkten Mitarbeiter exportieren* erstellt eine Datei mit Tabstopptrennzeichen (ExportedManagerDirects.txt), die alle Personalverantwortlichen mit ihren direkten Mitarbeiter auflistet. 
 
 Führen Sie dann das Skript [Neue Teams für Personalverantwortliche erstellen](scripts/powershell-script-create-teams-from-managers-new-teams.md) aus. Dieses Script liest die Datei „ExportedManagerDirects.txt“ ein, erstellt ein Team für jeden Personalverantwortlichen und fügt diesem seine direkten Mitarbeiter als Mitglieder hinzu. Personalverantwortliche oder Mitarbeiter, die nicht für Teams aktiviert sind, werden vom Skript übersprungen, und es wird es wird kein Team erstellt. (Überprüfen Sie den Bericht, und führen Sie das Skript erneut aus, nachdem Sie Teams für alle, die es benötigen, aktiviert haben. Das Skript erstellt kein zweites Team für einen Personalverantwortlichen, für den bereits ein Team erstellt wurde).
 

@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie, wie Sie Microsoft Teams mithilfe der PowerShell-Steuerelemente verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756155"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094115"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 
@@ -50,7 +50,7 @@ Sie verwenden Teams PowerShell-Module, um Teams vollständig zu verwalten:
 > [!NOTE]
 > Die öffentliche Version 1.1.6 oder höher von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für die Verwaltung von Teams PowerShell zur Verfügung.
 
-- [Skype for Business PowerShell Connector:](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Der Skype for Business PowerShell-Connector ist jetzt Teil des Teams PowerShell-Moduls.
+- [Skype for Business PowerShell Connector:](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Der Skype for Business PowerShell-Connector ist jetzt Teil des Teams PowerShell-Moduls.
 
 Einen vollständigen Leitfaden zum Verwalten von Teams mit diesen Modulen finden Sie unter Verwalten von [Teams mit Teams PowerShell.](teams-powershell-managing-teams.md)
 
@@ -63,8 +63,8 @@ Einen vollständigen Leitfaden zum Verwalten von Teams mit diesen Modulen finden
 
 [Versionshinweise zu Teams PowerShell](teams-powershell-release-notes.md)
 
-[Microsoft Teams-Cmdletreferenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams-Cmdletreferenz](/powershell/teams/?view=teams-ps)
 
-[Skype for Business-Cmdletreferenz](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business-Cmdletreferenz](/powershell/skype/intro?view=skype-ps)
 
 [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md)

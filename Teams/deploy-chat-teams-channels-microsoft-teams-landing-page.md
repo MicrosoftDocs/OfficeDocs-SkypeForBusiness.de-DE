@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: cefcb240e27f5934538c88f5316181be25f24a60
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a5cf7c91ef3b0e91504753a1e04ed334f4132adc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031231"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094361"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -66,7 +66,7 @@ Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalt
 | Frage | Aktion |
 |--------------|--------|
 |Wem wird die Rolle des Teams-Kommunikationsadministrators zugewiesen?|Weitere Informationen zu den Administratorrollen in Teams finden Sie unter [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md).|
-|Wem wird die Rolle des Teams-Kommunikationssupporttechnikers zugewiesen?|Informationen zum Zuweisen von Administratorrollen finden Sie unter [Zuweisen von Administrator- und anderen Rollen zu Benutzern mithilfe von Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|Wem wird die Rolle des Teams-Kommunikationssupporttechnikers zugewiesen?|Informationen zum Zuweisen von Administratorrollen finden Sie unter [Zuweisen von Administrator- und anderen Rollen zu Benutzern mithilfe von Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |Wem wird die Rolle des Teams-Kommunikationssupportexperten zugewiesen?||
 |||
 
@@ -88,7 +88,7 @@ Mithilfe von Messaging-Richtlinien wird gesteuert, welche Chat- und Messaging-Fu
 |------------|-------|
 |Soll ich die globale Messagingrichtlinie anpassen?|Informationen zur Verwendung des Microsoft Teams Admin Centers zum Ändern der globalen Messagingrichtlinie oder zum Hinzufügen einer neuen Richtlinie finden Sie unter [Verwalten von Messagingrichtlinien in Teams](messaging-policies-in-teams.md).|
 |Benötige ich mehrere Messagingrichtlinien?|Informationen zum Erstellen und Zuweisen einer Messagingrichtline in PowerShell finden Sie unter [PowerShell script sample - Create and assign a messaging policy](scripts/powershell-script-teams-messaging-policy-edu.md) (PowerShell-Beispielskript – Erstellen und Zuweisen einer Messagingrichtlinie).|
-|Wie bestimme ich, welche Benutzergruppen welche Messagingrichtlinie erhalten?|Informationen zu den CsTeamsMessagingPolicy-Cmdlets finden Sie unter [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
+|Wie bestimme ich, welche Benutzergruppen welche Messagingrichtlinie erhalten?|Informationen zu den CsTeamsMessagingPolicy-Cmdlets finden Sie unter [Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 
 
 ### <a name="external-access"></a>Externer Zugriff
@@ -102,7 +102,7 @@ Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Micro
 
 ### <a name="guest-access"></a>Gastzugriff
 
-Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organisation auf Teams und Kanäle zugreifen. Sie können die Einstellungen für den Gastzugriff verwenden, um zu steuern, welche Funktionen Gastbenutzern zur Verfügung stehen. Der Gastzugriff ist standardmäßig deaktiviert. Weitere Informationen finden Sie unter [Gastzugriff in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organisation auf Teams und Kanäle zugreifen. Sie können die Einstellungen für den Gastzugriff verwenden, um zu steuern, welche Funktionen Gastbenutzern zur Verfügung stehen. Der Gastzugriff ist standardmäßig deaktiviert. Weitere Informationen finden Sie unter [Gastzugriff in Teams](./guest-access.md).
 
 > [!NOTE]
 > Weitere Informationen zu externem Zugriff und Gastzugriff finden Sie hier: [Kommunikation mit Benutzern aus anderen Organisationen in Microsoft Teams](communicate-with-users-from-other-organizations.md).
@@ -135,11 +135,11 @@ Teams unterstützt eine Reihe von Clients, von Web- über Desktop- bis zu mobile
 
 ### <a name="teams-usage-reporting"></a>Microsoft Teams-Nutzungsbericht
 
-Benutzer mit den Rollen globaler Administrator, Teams-Dienstadministrator und Leseberechtigung für Berichte können Teams-Nutzungsberichte lesen. Weitere Informationen finden Sie in den [Analysen zur Nutzung von Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics).
+Benutzer mit den Rollen globaler Administrator, Teams-Dienstadministrator und Leseberechtigung für Berichte können Teams-Nutzungsberichte lesen. Weitere Informationen finden Sie in den [Analysen zur Nutzung von Microsoft 365](/microsoft-365/admin/usage-analytics/usage-analytics).
 
 |Frage|Aktion |
 |------------|-------|
-|<br> Wer muss in der Lage sein, die Teams-Nutzungsberichte zu sehen, und verfügen die betreffenden Benutzer über die richtige Rolle, um sie anzuzeigen? |<ul><li>Wenn der Benutzer kein Administrator ist, [weisen Sie die Leseberechtigung für Berichte zu](teams-activity-reports.md#reports-reader-role).</li><li>Informationen zum Zuweisen von Administratorrollen in Azure Active Directory finden Sie unter [Rollen und Berechtigungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) und [Anzeigen und Zuweisen von Rollen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal). |
+|<br> Wer muss in der Lage sein, die Teams-Nutzungsberichte zu sehen, und verfügen die betreffenden Benutzer über die richtige Rolle, um sie anzuzeigen? |<ul><li>Wenn der Benutzer kein Administrator ist, [weisen Sie die Leseberechtigung für Berichte zu](teams-activity-reports.md#reports-reader-role).</li><li>Informationen zum Zuweisen von Administratorrollen in Azure Active Directory finden Sie unter [Rollen und Berechtigungen](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) und [Anzeigen und Zuweisen von Rollen](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). |
 |||
 
 ### <a name="teams-default-apps"></a>Teams-Standard-Apps 
@@ -154,11 +154,11 @@ Je nach den Bedürfnissen und der Konfiguration Ihrer Organisation kann es sinnv
 
 ### <a name="teams-licensing"></a>Teams-Lizenzierung
 
-Teams wird als Teil vieler Microsoft 365- oder Office 365-Lizenzen angeboten. Weitere Informationen zur Lizenzierung von Teams finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Teams wird als Teil vieler Microsoft 365- oder Office 365-Lizenzen angeboten. Weitere Informationen zur Lizenzierung von Teams finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
 
 |Frage|Aktion |
 |------------|-------|
-|Verfügen meine Benutzer über die erforderlichen Lizenzen, um alle Funktionen von Teams zu verwenden, die ich bereitstellen möchte? | Informationen zu den Lizenzierungsanforderungen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).|
+|Verfügen meine Benutzer über die erforderlichen Lizenzen, um alle Funktionen von Teams zu verwenden, die ich bereitstellen möchte? | Informationen zu den Lizenzierungsanforderungen finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Interoperabilität von Exchange und SharePoint
@@ -181,7 +181,7 @@ Bei der Planung einer Enterprise-Bereitstellung von Teams sollten Sie alle relev
 
 ### <a name="urls-and-ports"></a>URLs und Ports
 
-Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert die Microsoft 365- und Office 365-Dienste ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie mindestens sicher, dass Sie die oben unter [Voraussetzungen für die Bereitstellung von Chat](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
+Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche](/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert die Microsoft 365- und Office 365-Dienste ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie mindestens sicher, dass Sie die oben unter [Voraussetzungen für die Bereitstellung von Chat](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
 
 |Frage|Aktion |
 |------------|-------|
@@ -196,7 +196,7 @@ Ihre Organisation schreibt möglicherweise die Implementierung von Kontrollen zu
 | Frage | Aktion |
 |--------------|--------|
 |Muss ich Kontrollen zum Personenkreis implementieren, der Teams erstellen kann?| Lesen Sie [Planen der Governance in Teams](plan-teams-governance.md).|
-|Muss ich Kontrollen zur Benennung von Teams implementieren?|Lesen Sie [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Muss ich Kontrollen zur Benennung von Teams implementieren?|Lesen Sie [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams-Anwendungsrichtlinie (Seitenbereichssteuerung)
@@ -226,7 +226,7 @@ Teams nutzt in großem Umfang Exchange Online, SharePoint Online und Skype for B
 
 | Frage | Aktion |
 |--------------|--------|
-|<br>Muss ich bedingen Zugriff für Teams konfigurieren?|<ul><li>Die Grundlagen von Zugriffsrichtlinien sind unter [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) (Funktionsweise von Richtlinien für den bedingten Zugriff für Teams) erläutert.</li><li>Informationen zum Einrichten der mehrstufigen Authentifizierung (MFA) für Teams finden Sie unter:<ul><li>[Schnellstart: Vorschreiben von MFA für bestimmte Apps mithilfe von bedingtem Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Einstellungsreferenz für bedingten Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Muss ich bedingen Zugriff für Teams konfigurieren?|<ul><li>Die Grundlagen von Zugriffsrichtlinien sind unter [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) (Funktionsweise von Richtlinien für den bedingten Zugriff für Teams) erläutert.</li><li>Informationen zum Einrichten der mehrstufigen Authentifizierung (MFA) für Teams finden Sie unter:<ul><li>[Schnellstart: Vorschreiben von MFA für bestimmte Apps mithilfe von bedingtem Zugriff in Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Einstellungsreferenz für bedingten Zugriff in Azure Active Directory](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

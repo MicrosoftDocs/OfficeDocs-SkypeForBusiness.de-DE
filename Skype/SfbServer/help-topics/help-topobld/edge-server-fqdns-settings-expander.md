@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
-description: Um externe Einstellungen für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst bestimmen, ob Sie separate IP-Adressen für den SIP-Zugriff (Session Initiation Protocol), den Webkonferenz-Edgedienst und den Audio-/Video-Edgedienst verwenden.
-ms.openlocfilehash: 7bca4f934e321edbf3c32d9d075b4a1cccd2bbf6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Zum Bearbeiten oder Angeben externer Einstellungen für die Edgeserver müssen Sie zunächst ermitteln, ob Sie separate IP-Adressen für den Zugriff auf das Session Initiation Protocol (SIP), den Webkonferenz-Edgedienst und den Audio-/Video-Edgedienst verwenden.
+ms.openlocfilehash: d2589ccd8bcd3d7f7bfccd39e3adf726f8839ad8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807085"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095560"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Einstellungen für Edgeserver-FQDNs – Erweiterung
 
-Um externe  Einstellungen für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst bestimmen, ob Sie separate IP-Adressen für den SIP-Zugriff (Session Initiation Protocol), den Webkonferenz-Edgedienst und den Audio-/Video-Edgedienst verwenden.
+Zum Bearbeiten  oder Angeben externer Einstellungen für die Edgeserver müssen Sie zunächst ermitteln, ob Sie separate IP-Adressen für den Zugriff auf das Session Initiation Protocol (SIP), den Webkonferenz-Edgedienst und den Audio-/Video-Edgedienst verwenden.
 
 Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein DNS-A-Eintrag (Host) erstellt werden.
 
@@ -38,6 +38,4 @@ Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige 
 > [!IMPORTANT]
 > Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
-
-
+Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter [Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology).

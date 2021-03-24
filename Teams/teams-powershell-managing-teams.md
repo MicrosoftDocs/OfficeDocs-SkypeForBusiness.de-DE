@@ -13,18 +13,18 @@ ms.collection:
 description: Erfahren Sie, wie Sie Microsoft Teams mit Teams PowerShell verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4200c23f6320e67781353e62363d588c230fceb7
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756156"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094145"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Verwalten von Teams mit Microsoft Teams PowerShell
 
 In diesem Artikel erfahren Sie, wie Sie Microsoft Teams PowerShell zum Verwalten von Teams und Skype for Business verwenden. 
 
-Verwenden Sie diesen Leitfaden in Verbindung mit der [Microsoft Teams-Cmdletreferenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps) und [der Skype for Business-Cmdletreferenz.](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+Verwenden Sie diesen Leitfaden in Verbindung mit der [Microsoft Teams-Cmdletreferenz](/powershell/teams/?view=teams-ps) und [der Skype for Business-Cmdletreferenz.](/powershell/skype/intro?view=skype-ps)
 
 ## <a name="create-and-manage-teams-using-powershell"></a>Erstellen und Verwalten von Teams mit PowerShell
 
@@ -43,9 +43,9 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 > [!NOTE]
 > - Skype for Business Online Connector wird in Teams PowerShell konsolidiert. Sie ist derzeit in der öffentlichen Vorschau verfügbar. Mit der Zeit sind Skype for Business Online-Cmdlets, die für Teams gelten, nativ im Teams PowerShell-Modul verfügbar. Installationsschritte sind im [Artikel Installieren von Teams PowerShell](teams-powershell-install.md) verfügbar.
 >
-> - Die Cmdlets sind in Ihrer PowerShell-Sitzung verfügbar, sobald Sie eine Verbindung mit Skype for Business Online hergestellt haben. Weitere Informationen finden Sie unter Verwalten von [Skype for Business Online mit Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> - Die Cmdlets sind in Ihrer PowerShell-Sitzung verfügbar, sobald Sie eine Verbindung mit Skype for Business Online hergestellt haben. Weitere Informationen finden Sie unter Verwalten von [Skype for Business Online mit Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
-Suchen Sie die Cmdlets zum Verwalten von Richtlinien im [Skype for Business-Cmdletmodul.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+Suchen Sie die Cmdlets zum Verwalten von Richtlinien im [Skype for Business-Cmdletmodul.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 Eine Richtlinie ist eine Gruppe von Einstellungen, die auf einzelne Benutzer präzise angewendet werden können. Jeder Richtlinientyp verfügt über einen eigenen Satz von Cmdlets zum Erstellen, Anzeigen, Löschen und Aktualisieren der Richtlinien selbst und zum Zuweisen dieser Richtlinien zu Benutzern. Die allgemeine Struktur ist:
 
@@ -72,7 +72,7 @@ Allgemeine Parameter:
 
 ## <a name="manage-configurations-via-powershell"></a>Verwalten von Konfigurationen über PowerShell
 
-Suchen Sie die Cmdlets zum Verwalten Ihrer Konfiguration im [Skype for Business-Cmdletmodul.](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
+Suchen Sie die Cmdlets zum Verwalten Ihrer Konfiguration im [Skype for Business-Cmdletmodul.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)
 
 Konfigurationen sind Buckets mit Einstellungen, die im Dienst verwaltet werden und nicht auf Benutzerebene angegeben werden können. Einstellungen gelten immer für die gesamte Organisation. Ihre globale Konfiguration ist die einzige effektive Konfiguration in Ihrer Organisation. Jeder Konfigurationstyp enthält zwei primäre Cmdlets:
 
@@ -91,8 +91,8 @@ Lesen [Sie Verwenden von Microsoft Teams-Administratorrollen zum](using-admin-ro
 
 [Versionshinweise zu Teams PowerShell](teams-powershell-release-notes.md)
 
-[Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Teams-Cmdlet-Referenz](/powershell/teams/?view=teams-ps)
 
-[Skype for Business-Cmdletreferenz](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business-Cmdletreferenz](/powershell/skype/intro?view=skype-ps)
 
 [Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams](using-admin-roles.md)

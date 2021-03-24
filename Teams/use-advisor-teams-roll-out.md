@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Verwenden Sie Advisor für Teams zur Unterstützung der Planung und Durchführung der Bereitstellung von Microsoft Teams
-ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731133"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093765"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Durchführen des Rollouts von Microsoft Teams mithilfe von Advisor für Teams
 
@@ -70,7 +70,7 @@ Advisor für Teams bietet zurzeit die folgenden Pläne:
     - Planer-Plan, einschließlich Umstiegsaufgaben
     - Forms-Benutzerumfrage
     - Advisor für Teams-Bot
-    - Der Skype for Business-Upgradeplan ist für Kunden gedacht, die zurzeit Skype for Business Online oder Skype for Business in lokalen Umgebungen verwenden, und hilft Ihnen, Unsicherheiten bei einem Upgrade zu beseitigen.  Der Plan basiert auf einem bewährten Gerüst für die erfolgreiche Implementierung von Änderungen und führt Sie schrittweise durch den Prozess, ganz gleich, ob Sie gerade erst mit Microsoft Teams beginnen, es bereits zusammen mit Skype for Business nutzen oder ein Upgrade vornehmen möchten. Der Plan bietet außerdem den Zugriff auf [Online-Leitfäden und bewährte Methoden](https://aka.ms/SkypeToTeams), [herunterladbare Ressourcen](https://aka.ms/UpgradeSuccessKit), [Live 1: viele Planungs-Workshops](https://aka.ms/UpgradeWorkshops) und weitere Ressourcen zur Unterstützung Ihres Erfolgs.
+    - Der Skype for Business-Upgradeplan ist für Kunden gedacht, die zurzeit Skype for Business Online oder Skype for Business in lokalen Umgebungen verwenden, und hilft Ihnen, Unsicherheiten bei einem Upgrade zu beseitigen.  Der Plan basiert auf einem bewährten Gerüst für die erfolgreiche Implementierung von Änderungen und führt Sie schrittweise durch den Prozess, ganz gleich, ob Sie gerade erst mit Microsoft Teams beginnen, es bereits zusammen mit Skype for Business nutzen oder ein Upgrade vornehmen möchten. Der Plan bietet außerdem den Zugriff auf [Online-Leitfäden und bewährte Methoden](./upgrade-start-here.md), [herunterladbare Ressourcen](https://aka.ms/UpgradeSuccessKit), [Live 1: viele Planungs-Workshops](./upgrade-workshops-landing-page.yml) und weitere Ressourcen zur Unterstützung Ihres Erfolgs.
 
 Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
 
@@ -90,11 +90,11 @@ In den nachstehenden Abschnitten werden die einzelnen Bewertungen beschrieben, u
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Benutzerdefinierte Domäne konfiguriert     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist (z. B. @contoso.onmicrosoft.com). Sie können natürlich die "@onmicrosoft.com"-Domäne verwenden oder eine benutzerdefinierte Domäne konfigurieren. Es ist Ihre Entscheidung. Weitere Informationen finden Sie unter [Hinzufügen einer Domäne zu Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain). |
-|Teams-Lizenzen     |Dies ist eine Voraussetzung – Sie **müssen** Teams-Lizenzen besitzen, um Teams bereitzustellen. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Teams-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).    |
+|Benutzerdefinierte Domäne konfiguriert     |Ob für Ihren Mandanten eine nicht @onmicrosoft.com-Domäne konfiguriert ist (z. B. @contoso.onmicrosoft.com). Sie können natürlich die "@onmicrosoft.com"-Domäne verwenden oder eine benutzerdefinierte Domäne konfigurieren. Es ist Ihre Entscheidung. Weitere Informationen finden Sie unter [Hinzufügen einer Domäne zu Microsoft 365](/microsoft-365/admin/setup/add-domain). |
+|Teams-Lizenzen     |Dies ist eine Voraussetzung – Sie **müssen** Teams-Lizenzen besitzen, um Teams bereitzustellen. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Teams-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).    |
 |Exchange Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren Exchange Online-Lizenzen verfügen. Exchange ist zwar nicht für die grundlegenden Funktionen von Teams erforderlich, doch die Integration mit Exchange bietet eine optimale Teams-Erfahrung. Fragt Microsoft Graph ab, um die mit Ihrem Mandanten verbundenen Abonnements zu analysieren und zu überprüfen, ob Sie über Abonnements mit einer berechtigten Exchange Online-Lizenz verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von Exchange und Teams](exchange-teams-interact.md).    |
-|SharePoint Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren SharePoint Online-Lizenzen verfügen. Wir empfehlen SharePoint Online-Lizenzen auf Benutzerbasis zur Bereitstellung von OneDrive for Business für die Dateispeicherung in Chats. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über SharePoint Online-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
-|Gastzugriff aktiviert     |Bestimmt, ob der [Gastzugriff](guest-access.md) aktiviert ist. Mit Gastzugriff können Sie externe Benutzer in Ihre Teams einladen. Sehen Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team) zur Aktivierung des Gastzugriffs in Teams. Die Checkliste enthält die erforderlichen Azure AD-Konfigurationen. |
+|SharePoint Online-Lizenzen     |Ob Sie über ein aktives Abonnement mit verfügbaren SharePoint Online-Lizenzen verfügen. Wir empfehlen SharePoint Online-Lizenzen auf Benutzerbasis zur Bereitstellung von OneDrive for Business für die Dateispeicherung in Chats. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über SharePoint Online-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](./sharepoint-onedrive-interact.md).    |
+|Gastzugriff aktiviert     |Bestimmt, ob der [Gastzugriff](guest-access.md) aktiviert ist. Mit Gastzugriff können Sie externe Benutzer in Ihre Teams einladen. Sehen Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team) zur Aktivierung des Gastzugriffs in Teams. Die Checkliste enthält die erforderlichen Azure AD-Konfigurationen. |
 |Externer Zugriff konfiguriert     |Bestimmt, ob der [externe Zugriff](manage-external-access.md) aktiviert ist. Standardmäßig ist der externe Zugriff aktiviert, mit offenem Verbund. |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>Bewertungen für Chat, Teams, Kanäle und Apps
@@ -103,8 +103,8 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Konfigurierte Benennungsrichtlinien für Microsoft 365-Gruppen     |Ob Benennungsstandards für Microsoft 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie von Microsoft 365-Gruppen ermöglicht Ihrer Organisation die Anwendung einer konsistenten Benennungsstrategie auf von Benutzern erstellte Teams und gilt auch für andere Gruppenarbeitslasten (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über den Microsoft Graph ab, um die Existenz von Benennungsrichtlinien zu prüfen, die für Microsoft 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Gruppen](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy).    |
-|Konfigurierte Ablaufrichtlinien für Microsoft 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Microsoft 365-Gruppen definiert wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Microsoft 365-Gruppen](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Konfigurierte Benennungsrichtlinien für Microsoft 365-Gruppen     |Ob Benennungsstandards für Microsoft 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie von Microsoft 365-Gruppen ermöglicht Ihrer Organisation die Anwendung einer konsistenten Benennungsstrategie auf von Benutzern erstellte Teams und gilt auch für andere Gruppenarbeitslasten (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über den Microsoft Graph ab, um die Existenz von Benennungsrichtlinien zu prüfen, die für Microsoft 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Gruppen](/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Konfigurierte Ablaufrichtlinien für Microsoft 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Microsoft 365-Gruppen definiert wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Microsoft 365-Gruppen](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Bewertungen für Besprechungen und Konferenzen
 
@@ -112,7 +112,7 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Audiokonferenz-Lizenzen    |Ob Sie über ein aktives Abonnement mit verfügbaren Audiokonferenz-Lizenzen verfügen. Dies ist eine Voraussetzung für den Einsatz von Audiokonferenzbrücken. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Audiokonferenzlizenzen verfügen (mit mindestens einer verfügbaren Lizenz). Weitere Informationen finden Sie unter [Teams Add-On-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).    |
+|Audiokonferenz-Lizenzen    |Ob Sie über ein aktives Abonnement mit verfügbaren Audiokonferenz-Lizenzen verfügen. Dies ist eine Voraussetzung für den Einsatz von Audiokonferenzbrücken. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Audiokonferenzlizenzen verfügen (mit mindestens einer verfügbaren Lizenz). Weitere Informationen finden Sie unter [Teams Add-On-Lizenzierung](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
 |Stream-Lizenzen     |Ob Sie über ein aktives Abonnement mit Microsoft Stream-Lizenzen verfügen. Dies ist eine Voraussetzung, wenn Sie die Besprechungsaufzeichnung aktivieren möchten. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Microsoft Stream-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen zu Stream und dessen Aktivierung finden Sie unter [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md).
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Bewertungen für das Skype for Business-Upgrade
@@ -143,7 +143,7 @@ Sobald Advisor für Teams Ihr Bereitstellungsteam erstellt hat, schickt der Advi
 
 ## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Advisor für Microsoft Teams und Microsoft 365 – Lernpfade
 
-[Microsoft 365-Lernpfade](https://docs.microsoft.com/office365/customlearning/) ist eine On-Demand-Lernlösung, die Sie anpassen können, um Ihre Benutzer zu schulen und die Nutzung und Annahme von Microsoft Teams in Ihrer Organisation zu verbessern. Verwenden Sie Lernpfade zusammen mit Advisor für Teams, um Ihre Benutzer schnell mit Microsoft Teams vertraut zu machen und die Nutzung zu steigern.
+[Microsoft 365-Lernpfade](/office365/customlearning/) ist eine On-Demand-Lernlösung, die Sie anpassen können, um Ihre Benutzer zu schulen und die Nutzung und Annahme von Microsoft Teams in Ihrer Organisation zu verbessern. Verwenden Sie Lernpfade zusammen mit Advisor für Teams, um Ihre Benutzer schnell mit Microsoft Teams vertraut zu machen und die Nutzung zu steigern.
 
 Die Lernpfade-Lösung bietet Ihnen eine SharePoint Online-Websitevorlage und die Möglichkeit, eine Lernwebsite für Ihre Benutzer zu erstellen. Sie können das Schulungsportal für Lernpfade anpassen, um speziell auf die Anforderungen Ihrer Benutzer zugeschnittene Schulungs- und Supportinhalte bereitzustellen. Verwenden Sie die Microsoft Teams-Wiedergabelisten aus dem Microsoft Online-Katalog, und fügen Sie Ihre eigene hinzu.
 
@@ -155,9 +155,9 @@ Nachstehend finden Sie eine Übersicht über die Verwendungsmöglichkeiten von A
 
 ### <a name="get-started-in-learning-pathways"></a>Erste Schritte mit Lernpfaden
 
-Um mit der Nutzung von Lernpfaden loszulegen, sehen Sie sich [Erste Schritte mit Lernpfaden](https://docs.microsoft.com/office365/customlearning/) an.
+Um mit der Nutzung von Lernpfaden loszulegen, sehen Sie sich [Erste Schritte mit Lernpfaden](/office365/customlearning/) an.
 
-Wenn Sie eine neue Lernpfadlösung in Ihrer Umgebung einrichten möchten, finden Sie diesbezügliche Informationen unter [Bereitstellen einer neuen Lernpfadlösung](https://docs.microsoft.com/office365/customlearning/custom_provision).
+Wenn Sie eine neue Lernpfadlösung in Ihrer Umgebung einrichten möchten, finden Sie diesbezügliche Informationen unter [Bereitstellen einer neuen Lernpfadlösung](/office365/customlearning/custom_provision).
 
 ### <a name="create-a-learning-plan"></a>Erstellen eines Schulungsplans
 
@@ -165,13 +165,13 @@ Wenn Sie eine neue Lernpfadlösung in Ihrer Umgebung einrichten möchten, finden
 
 Bevor Sie die Website in den Lernpfaden erstellen, nehmen Sie sich etwas Zeit, um sich die Ihnen zur Verfügung stehenden Schulungsressourcen und Features anzusehen und zusammenzuführen. Mit Lernpfaden können Sie Inhalte der Microsoft 365-Schulungsseite verwenden und von Ihnen erstellte Inhalte hinzufügen, um die Website an Ihre individuellen Anforderungen anzupassen.
 
-Weitere Informationen hierzu finden Sie unter [Planen von Lernpfadinhalten](https://docs.microsoft.com/office365/customlearning/custom_plancontent) und [Ressourcen zur Unterstützung von Remotemitarbeitern](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources).
+Weitere Informationen hierzu finden Sie unter [Planen von Lernpfadinhalten](/office365/customlearning/custom_plancontent) und [Ressourcen zur Unterstützung von Remotemitarbeitern](/office365/customlearning/custom_plancontent_remoteresources).
 
 #### <a name="explore-teams-content-in-learning-pathways"></a>Erkunden von Microsoft Teams-Inhalten in Lernpfaden
 
 Lernpfade stellen eine SharePoint-Website mit einem Webpart bereit, das mit einem Online-Katalog verbunden ist. Auf der Microsoft 365-Schulungsseite, die das Webpart hostet, werden alle in Lernpfaden verfügbaren Schulungen aufgeführt. Schauen Sie sich um, um sich mit den verfügbaren Ressourcen und der Strukturierung der Inhalte vertraut zu machen.
 
-[Wechseln Sie zu Ihrer Lernpfade-Website](https://docs.microsoft.com/office365/customlearning/custom_goto), wählen Sie **Microsoft 365-Schulung** und dann **Microsoft Teams** aus, um alle im Online-Katalog verfügbaren Wiedergabelisten für Microsoft Teams-Schulungen anzuzeigen. Wählen Sie eine Wiedergabeliste aus und klicken Sie dann auf **Nächste** und **Vorherige**, um sie zu durchlaufen. Sie können auch auf den nach unten zeigenden Pfeil klicken, um die Inhalte einer Wiedergabeliste anzuzeigen und zu einem bestimmten Thema zu wechseln.
+[Wechseln Sie zu Ihrer Lernpfade-Website](/office365/customlearning/custom_goto), wählen Sie **Microsoft 365-Schulung** und dann **Microsoft Teams** aus, um alle im Online-Katalog verfügbaren Wiedergabelisten für Microsoft Teams-Schulungen anzuzeigen. Wählen Sie eine Wiedergabeliste aus und klicken Sie dann auf **Nächste** und **Vorherige**, um sie zu durchlaufen. Sie können auch auf den nach unten zeigenden Pfeil klicken, um die Inhalte einer Wiedergabeliste anzuzeigen und zu einem bestimmten Thema zu wechseln.
 
 #### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>Erstellen eines Inventars an Microsoft Teams-Schulungsressourcen in Ihrer Organisation
 
@@ -179,7 +179,7 @@ Lernpfade stellen eine SharePoint-Website mit einem Webpart bereit, das mit eine
 
 #### <a name="build-your-site-in-learning-pathways"></a>Erstellen Ihrer Website in Lernpfaden
 
-Das [Admin Success Center](https://docs.microsoft.com/office365/customlearning/custom_successcenter) in Lernpfaden stellt Anleitungen und Ressourcen bereit, die Ihnen beim Planen und Anpassen von Lernpfaden in Ihrer Organisation helfen. Erfahren Sie, wie Sie die [Website anpassen](https://docs.microsoft.com/office365/customlearning/custom_overview) können, Inhalte anzeigen und ausblenden, benutzerdefinierte Wiedergabelisten erstellen und vieles mehr.
+Das [Admin Success Center](/office365/customlearning/custom_successcenter) in Lernpfaden stellt Anleitungen und Ressourcen bereit, die Ihnen beim Planen und Anpassen von Lernpfaden in Ihrer Organisation helfen. Erfahren Sie, wie Sie die [Website anpassen](/office365/customlearning/custom_overview) können, Inhalte anzeigen und ausblenden, benutzerdefinierte Wiedergabelisten erstellen und vieles mehr.
 
 Auf das Admin Success Center können Sie über **Admin Success Center** auf der Lernpfade-Homepage zugreifen.
 
@@ -200,7 +200,7 @@ Verwenden Sie die Ressourcen auf Ihrer Lernpfade-Website, um Ihren Helpdesk und 
 
 Anleitungen und Ressourcen zur Vorbereitung Ihres Helpdesks und Ihrer Experten auf Microsoft Teams finden Sie unter [Schulung Ihrer Organisation](https://adoption.microsoft.com/microsoft-teams/#train-your-org) und [Experten ausbilden](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-Als Ansprechpartner für Ihre Benutzer bei Fragen zur Nutzung können Ihr Helpdesk und Ihre Experten die Lernpfade verwenden, um Benutzer zu schulen sowie als Alternative zur Erstellung von Support-Tickets. Ermutigen Sie Ihren Helpdesk und Ihre Experten, [Ihre Lernpfade-Website anzupassen](https://docs.microsoft.com/office365/customlearning/) durch die Erstellung einer Schulungs- und Supportseite, und sie dann in einem Team [als Registerkarte zu einem Kanal hinzuzufügen](#add-your-site-to-teams), damit die Benutzer selbst nach den erforderlichen Informationen suchen können.
+Als Ansprechpartner für Ihre Benutzer bei Fragen zur Nutzung können Ihr Helpdesk und Ihre Experten die Lernpfade verwenden, um Benutzer zu schulen sowie als Alternative zur Erstellung von Support-Tickets. Ermutigen Sie Ihren Helpdesk und Ihre Experten, [Ihre Lernpfade-Website anzupassen](/office365/customlearning/) durch die Erstellung einer Schulungs- und Supportseite, und sie dann in einem Team [als Registerkarte zu einem Kanal hinzuzufügen](#add-your-site-to-teams), damit die Benutzer selbst nach den erforderlichen Informationen suchen können.
 
 ### <a name="drive-adoption"></a>Fördern der Einführung
 
@@ -212,7 +212,7 @@ Wecken Sie das Interesse der Benutzer, indem Sie hervorheben, wie sie in Microso
 
 Schauen Sie sich diese Ressourcen an, die Leitfäden, Einführungspakete, bewährte Methoden und mehr umfassen, um Ihnen bei der erfolgreichen Umsetzung eines Rollout- und Einführungsplans zu helfen.  
 
-- [Die Nutzung von Lernpfaden fördern](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [Die Nutzung von Lernpfaden fördern](/office365/customlearning/driveadoption)
 - [Microsoft Teams einführen](adopt-microsoft-teams-landing-page.md)
 - [Ressourcen für die Einführung von Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/)
 
@@ -268,10 +268,10 @@ Wechseln Sie zum [Forms-Hilfecenter](https://support.office.com/forms).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anpassen von Advisor für Teams](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
+[Anpassen von Advisor für Teams](/office365/customlearning/custom_teamsadvisor)
 
-[Bereitstellen von Teams](How-to-roll-out-teams.md)
+[Bereitstellen von Teams](./deploy-overview.md)
 
 [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 
-[Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+[Produktnamen und Serviceplanbezeichner für die Lizenzierung](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

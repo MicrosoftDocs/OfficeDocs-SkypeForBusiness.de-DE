@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Teams Government-Vorlagen im Admin Center
+title: Verwenden von Teams-Regierungsvorlagen im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Informationen zur Verwendung von. Teams-Vorlagen zum Erstellen von Teamstrukturen, die für behördliche Anforderungen entwickelt wurden, indem Sie mithilfe des Admin Centers vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
+description: Hier erfahren Sie, wie Sie die Anwendung verwenden. Teams-Vorlagen zum Erstellen von Teamstrukturen, die für Behördenanforderungen entwickelt wurden, indem sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps im Admin Center bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,30 +19,30 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db0d8fa4a2744f0f3c3591918230e3f569727ae7
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: db22de142b9e7f2bead93e607dd01c9dd362ddba
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662200"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092213"
 ---
-# <a name="use-teams-government-templates-in-the-admin-center"></a>Verwenden von Teams Government-Vorlagen im Admin Center
+# <a name="use-teams-government-templates-in-the-admin-center"></a>Verwenden von Teams-Regierungsvorlagen im Admin Center
 
-Mithilfe von Vorlagen für Teams können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten apps bereitstellen.
+Mit Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-In den Teams-Vorlagen gibt es vorgefertigte Definitionen von Teamstrukturen, die auf behördliche Anforderungen zugeschnitten sind. Sie können die Teams-Vorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen organisatorischen Anforderungen zugeschnitten sind.
+Teams-Vorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf behördliche Anforderungen zugeschnitten sind. Sie können die Teams-Vorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen organisatorischen Anforderungen zugeschnitten sind.
 
-In diesem Artikel werden die einzelnen Teams-Vorlagen vorgestellt, und es wird empfohlen, diese zu verwenden.
+In diesem Artikel stellen wir jede der Teams-Vorlagen vor, und wir empfehlen, sie zu verwenden.
 
-Dieser Artikel ist für Sie zuständig, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in ihrer Regierungsorganisation verantwortlich sind. Sie haben den Team-Service bereits in Ihrer Organisation bereitgestellt. Wenn Sie noch keine Teams ausgearbeitet haben, lesen Sie zunächst die [Anleitung zum Rollout von Microsoft Teams](How-to-roll-out-teams.md).
+Dieser Artikel ist für Sie da, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Regierungsorganisation zuständig sind. Sie haben den Teams-Dienst bereits in Ihrer Organisation bereitgestellt. Wenn Sie Teams noch nicht eingeführt haben, lesen Sie zunächst die Anleitung zum [Einführen von Microsoft Teams](./deploy-overview.md).
 
-Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen](get-started-with-teams-templates-in-the-admin-console.md).
+Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates-in-the-admin-console.md).
 
-## <a name="coordinate-incident-response"></a>Koordinieren der Vorfall Antwort
+## <a name="coordinate-incident-response"></a>Koordinieren der Reaktion auf Vorfälle
 
-Zentralisieren Sie die Kommunikation und wichtige Ressourcen für Ihr Krisenmanagement-oder Incident Response-Team. In diesem Team können Sie viele verschiedene Arten von Dateien einbeziehen, damit Sie einen zentralen Ort für alle Ihre Dokumente erstellen können. Verwenden Sie Onlinebesprechungen, um den Informationsfluss und das Situationsbewusstsein zu verbessern.
+Zentralisieren Sie Kommunikation und kritische Ressourcen für Ihr Krisenmanagement- oder Vorfallreaktionsteam. In diesem Team können Sie viele verschiedene Dateitypen verwenden, um einen zentralen Ort für alle Ihre Dokumente zu erstellen. Verwenden Sie Onlinebesprechungen, um den Informationsfluss und das Situationsbewusstsein zu verbessern.
 
-| Basis Vorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| Basisorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Koordinieren der Vorfall Antwort|`com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Koordinieren der Reaktion auf Vorfälle|`com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Wiederherstellung</li><li>Dringend</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
 ||||

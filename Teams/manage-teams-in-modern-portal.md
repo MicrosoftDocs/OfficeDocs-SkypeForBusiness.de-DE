@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
-ms.translationtype: HT
+ms.openlocfilehash: 6bf864fefd3ac60c7531bd339a5587c8f2f0dd72
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814554"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094235"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 ==========================================
@@ -38,7 +38,7 @@ Als Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisie
 - Globaler Administrator
 - Teams-Dienstadministrator
 
-Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md). Um mehr über die Nutzung von PowerShell-Cmdlets für die Verwaltung von Teams zu erfahren, lesen Sie die [Microsoft Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
+Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md). Um mehr über die Nutzung von PowerShell-Cmdlets für die Verwaltung von Teams zu erfahren, lesen Sie die [Microsoft Teams-Cmdlet-Referenz](/powershell/teams/?view=teams-ps).
 
 
 
@@ -58,7 +58,7 @@ Das Raster zeigt die folgenden Eigenschaften an:
 - **Datenschutz**: der Visibility/AccessType der zugrunde liegenden Microsoft 365-Gruppe.
 - **Status**: der archivierte oder aktive Status dieses Teams. Weitere Informationen zum Archivieren von Teams finden Sie unter [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 - **Beschreibung**: die Beschreibung der zugrunde liegenden Microsoft 365-Gruppe.
-- **Klassifizierung**: die Klassifizierung (sofern in Ihrer Organisation verwendet), die der zugrunde liegenden Microsoft 365-Gruppe zugewiesen ist. Erfahren Sie mehr über Klassifizierungen unter [Erstellen von Klassifizierungen für Office-Gruppen in Ihrer Organisation](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Klassifizierung**: die Klassifizierung (sofern in Ihrer Organisation verwendet), die der zugrunde liegenden Microsoft 365-Gruppe zugewiesen ist. Erfahren Sie mehr über Klassifizierungen unter [Erstellen von Klassifizierungen für Office-Gruppen in Ihrer Organisation](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
 - **GroupID**: die eindeutige GroupID der zugrunde liegenden Microsoft 365-Gruppe.
 
 > [!NOTE]
@@ -81,7 +81,7 @@ Sie können ein Team archivieren. Durch die Archivierung wird das Team in Micros
 
 ### <a name="delete"></a>Löschen
 
-Beim Löschen eines Teams handelt es sich um ein vorläufiges Löschen des Teams und der entsprechenden Microsoft 365-Gruppe. Zum Wiederherstellen eines versehentlich gelöschten Teams folgen Sie den Anweisungen unter [Wiederherstellen einer gelöschten Gruppe](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
+Beim Löschen eines Teams handelt es sich um ein vorläufiges Löschen des Teams und der entsprechenden Microsoft 365-Gruppe. Zum Wiederherstellen eines versehentlich gelöschten Teams folgen Sie den Anweisungen unter [Wiederherstellen einer gelöschten Gruppe](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="search"></a>Suche
 
@@ -122,7 +122,7 @@ Einige ihrer Teams fehlen in der Liste der Teams im Team-Übersichtraster.
 
 **Lösung: Legen Sie den richtigen Wert der Eigenschaft MS Graph fest**
 
-Ersetzen Sie **{groupid}** in der Abfrage durch die tatsächliche zutreffende GroupId, die Sie über Exchange Online PowerShell mit dem Cmdlet **„[Get-Unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)“** als „**ExternalDirectoryObjectId**“-Attribut abrufen können.
+Ersetzen Sie **{groupid}** in der Abfrage durch die tatsächliche zutreffende GroupId, die Sie über Exchange Online PowerShell mit dem Cmdlet **„[Get-Unifiedgroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)“** als „**ExternalDirectoryObjectId**“-Attribut abrufen können.
 
 1. Auf [Graph-Tester](https://developer.microsoft.com/graph/graph-explorer) zugreifen.
 
@@ -138,6 +138,6 @@ Ersetzen Sie **{groupid}** in der Abfrage durch die tatsächliche zutreffende Gr
 
 ## <a name="learn-more"></a>Weitere Informationen
 
-- [Teams-Cmdlet-Referenz](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Teams-Cmdlet-Referenz](/powershell/teams/?view=teams-ps)  
 - [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md)
 - [Planen der Lebenszyklusverwaltung in Teams](plan-teams-lifecycle.md)

@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a188caf30f7d20ddff618884c2bbcca2b24fe5bb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583914"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092663"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Verwalten der Office 365 E1-Testversion
 ==============================
 
-Ab dem 1. Juli 2020 steht die Office 365 E1-Testversion nicht länger zur Verfügung. Wenn Sie Benutzer für Microsoft Teams lizenzieren müssen, lesen Sie die [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description), um eine Liste der kostenpflichtigen Abonnements mit Teams zu finden. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** Experience aktivieren.
+Ab dem 1. Juli 2020 steht die Office 365 E1-Testversion nicht länger zur Verfügung. Wenn Sie Benutzer für Microsoft Teams lizenzieren müssen, lesen Sie die [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description), um eine Liste der kostenpflichtigen Abonnements mit Teams zu finden. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** Experience aktivieren.
 
 
 Falls es sich bei Ihnen um einen Kunde von Teams for Education handelt, sehen Sie sich die [Office 365 A1-Lizenz](teams-edu-licensing.md) an.
@@ -53,16 +53,16 @@ So führen Sie ein Upgrade von Benutzern mit E1-Testlizenz auf ein bezahltes Abo
 
 3. Weisen Sie die neu erworbene Lizenz zu.
 
-Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Wenn die E1-Testlizenz abläuft und kein unmittelbares Upgrade auf ein Abonnement mit Teams für einen Benutzer erfolgt, werden die Benutzerdaten nicht entfernt. Der Benutzer bleibt weiterhin in Azure Active Directory und alle Daten innerhalb von Teams werden beibehalten. Sobald dem Benutzer eine neue Lizenz zugewiesen ist, die Teams-Funktionen aktiviert, sind die Inhalte weiterhin vorhanden. 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>Entfernen einer Office 365 E1-Testlizenz
 
-- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
+- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
 
-- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Löschen eines Benutzers aus Ihrer Organisation](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user).
+- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Löschen eines Benutzers aus Ihrer Organisation](/microsoft-365/admin/add-users/delete-a-user).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Puerto Rico verfügbar sind.
-ms.openlocfilehash: e18e6d73f61bd3c3178dff4823bd941c01f31875
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Puerto Rico verfügbar sind.
+ms.openlocfilehash: 3f4933b1b6ea0ca85a7b6235e77b5eb7c50e40fc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229283"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092653"
 ---
 # <a name="availability-in-puerto-rico"></a>Verfügbarkeit in Puerto Rico
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Puerto Rico verfügbar sind.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Puerto Rico verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -57,7 +57,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
    
 ## <a name="calling-plans"></a>Anrufpläne
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |3000 Minuten für Inlandsanrufe oder 600 Minuten für Auslandsanrufe (je nachdem, welche Grenze pro Kalendermonat zuerst erreicht wird) Die Inlandsanrufe in den USA schließen Anrufe in alle 50 US-Bundesstaaten und nach Puerto Rico ein. Benutzer, denen der Lizenzverwendungsort USA und/oder Puerto Rico zugewiesen ist, nutzen den gleichen Minutenpool.  <br/> |
@@ -72,7 +72,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -84,9 +84,8 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 

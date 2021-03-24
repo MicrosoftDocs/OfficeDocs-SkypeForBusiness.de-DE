@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Hier erfahren Sie, wie Sie die Teams für Surface Hub-App installieren und konfigurieren, damit Teams die Standardanwendung für Anrufe und Besprechungen ist.
+description: Erfahren Sie, wie Sie die App Teams für Surface Hub installieren und konfigurieren, sodass Teams die Standardanwendung für Anrufe und Besprechungen ist.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,19 +20,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905647"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093935"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft Teams für Surface Hub
 ======================================
 
 Bevor Sie Teams für Surface Hub installieren, sollten Sie unbedingt die folgenden Schritte ausführen:
 
- □ Stellen Sie sicher, dass Hardware-, Betriebssystem- und andere Anforderungen erfüllt sind. Weitere Informationen finden Sie im [Microsoft Surface Hub-Administratorhandbuch](https://docs.microsoft.com/surface-hub/).<br>
+ □ Stellen Sie sicher, dass Hardware-, Betriebssystem- und andere Anforderungen erfüllt sind. Weitere Informationen finden Sie im [Microsoft Surface Hub-Administratorhandbuch](/surface-hub/).<br>
  Stellen Sie sicher, dass das für Teams mindestens erforderliche Betriebssystemupdate installiert ist – [KB4343889](https://support.microsoft.com/help/4343889).<br>
  □ Weisen Sie dem Hub-Gerätekonto eine Teams-Lizenz zu.<br>
  □ Wenn Sie von Skype for Business Online wechseln, vergewissern Sie sich, dass dem Benutzer eine Teams-Lizenz zugewiesen ist.
@@ -95,4 +95,3 @@ Verwenden Sie die folgenden Schritte, um die Standardanwendungsrichtlinie für A
 |Vorgänge| Abrufen, Einrichten        |
 
 Starten Sie das Surface Hub-Gerät neu. Nach dem Neustart des Geräts sollten Sie die Teams-App über den Startbildschirm starten und über den Kalender an einer Besprechung teilnehmen können.
-

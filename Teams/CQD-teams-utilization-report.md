@@ -1,5 +1,5 @@
 ---
-title: Anzeigen der Microsoft Teams-Auslastung in Power BI mithilfe von CQD-Daten
+title: Anzeigen der Verwendung von Microsoft Teams in Power BI mithilfe von CQD-Daten
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -15,145 +15,145 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Verwenden Sie die Power BI-Berichte der Teams-Auslastung für den Zugriff auf Microsoft Teams Call Quality Dashboard-Daten (CQD), um die Verwendung von Microsoft Teams in Ihrer Organisation zu überwachen.
-ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: Verwenden Sie die Teams Usage Power BI-Berichte, um auf Microsoft Teams Call Quality Dashboard (CQD)-Daten zu zugreifen, um die Verwendung von Microsoft Teams in Ihrer Organisation zu verfolgen.
+ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581546"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095039"
 ---
-# <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Anzeigen der Microsoft Teams-Auslastung in Power BI mithilfe von CQD-Daten
+# <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Anzeigen der Verwendung von Microsoft Teams in Power BI mithilfe von CQD-Daten
 
-Neu im März 2020 haben wir unseren herunterladbaren [Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)einen Bericht zur Nutzung von Teams hinzugefügt. 
+Neu im März 2020 haben wir unseren herunterladbaren Power BI-Abfragevorlagen für [CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)einen Bericht "Teams-Nutzung" hinzugefügt. 
 
-In diesen Berichten zur neuen Teams-Auslastung können Sie sehen, wie (und wie viel) Ihre Benutzer Microsoft Teams verwenden, indem Sie auf die CQD-Daten (Teams Call Quality Dashboard) zugreifen. Bei diesen Berichten handelt es sich um einen zentralen Standort, an dem sowohl Administratoren als auch Unternehmensleiter schnell zu diesen Daten wechseln können.
+In diesen neuen Berichten zur Nutzung von Teams können Sie sehen, wie (und wie viel) Ihre Benutzer Microsoft Teams verwenden, indem Sie auf CQD-Daten (Teams Call Quality Dashboard) zugreifen. Diese Berichte sollen ein zentraler Ort sein, an den administratoren und Unternehmensführer schnell zu diesen Daten wechseln können.
 
-Der Power BI-Bericht "Teams-Auslastung" besteht aus zwei Hauptberichten: Zusammenfassung der **[Anruf Anzahl](#call-count-summary-report)** und **[Zusammenfassung der audiominuten](#audio-minutes-summary-report)**. Die [tägliche Nutzung](#daily-usage), [regionale Audiodetails](#regional-audio-details), [Konferenzdetails](#conference-details) und [Benutzerlisten](#user-list) Berichte kommen in den Spielzustand, wenn ein Benutzer die Drilldown-Berichte nutzt, die in den folgenden Beschreibungen aufgeführt sind.
+Der Power BI-Bericht "Teams-Nutzung" besteht aus zwei primären Berichten: Zusammenfassung der **[Anrufanzahl und](#call-count-summary-report)** **[Zusammenfassung der Audiominuten.](#audio-minutes-summary-report)** Die [Berichte tägliche Nutzung,](#daily-usage)Regionale [](#user-list) [Audiodetails,](#regional-audio-details) [Konferenzdetails](#conference-details) und Benutzerliste werden ins Spiel kommen, wenn ein Benutzer die Drilldownberichte nutzt, die in den nachstehenden Beschreibungen aufgeführt sind.
 
 > [!NOTE]
-> Gebäude-und subnetzdaten müssen ausgefüllt werden, um regionale und Netzwerkfilter Funktionen bereitzustellen.
+> Gebäude- und Subnetzdaten müssen aufgefüllt werden, um regionale Filterfunktionen und Netzwerkfilterfunktionen bereitstellen zu können.
 
-## <a name="call-count-summary-report"></a>Zusammenfassungsbericht "Anruf Anzahl"
+## <a name="call-count-summary-report"></a>Zusammenfassungsbericht "Anrufanzahl"
 
-Auf der Hauptseite (Zusammenfassung der Anruf Anzahl) werden die Anzahl der Audio-, Video-und Bildschirmfreigabe Sitzungen über die letzten 30 und 90 Tage, wie im Abschnittstitel angegeben, sofort bereitgestellt. Die anfänglich angezeigten Daten sind für die gesamte Organisation und können mithilfe der Dropdownoptionen für datenschnitt auf der linken Seite der Seite gefiltert werden.
+Auf der Hauptseite (Anrufanzahlzusammenfassung) wird sofort die Anzahl der Audio-, Video- und Bildschirmfreigabesitzungen in den letzten 30 und 90 Tagen angezeigt, wie im Abschnittstitel angegeben. Die anfänglich angezeigten Daten sind für die gesamte Organisation und können mithilfe der Dropdownoptionen für Datenschnitte auf der linken Seite gefiltert werden.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report1.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report1.png)
 
-1. Rechts neben der Dropdownliste der datenschnitte wird die Anzahl der Anrufe nach Medientyp in den letzten dreißig Tagen in eine interne/externe Ansicht aufgeteilt. Der obige Screenshot zeigt, dass weitere Anrufe von außerhalb der Unternehmensstandorte ablaufen, was in der aktuellen globalen Umgebung Sinn macht.
-  ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report2.png)
+1. Rechts neben den Datenschnitt dropdowns wird die Anzahl der Anrufe nach Medientyp in einer internen/externen Ansicht in den letzten 30 Tagen aufschlüsselt. Wir können im obigen Screenshot sehen, dass mehr Anrufe von außerhalb der Organisationsstandorte kommen, was unter Berücksichtigung der aktuellen globalen Umgebung sinnvoll ist.
+  ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report2.png)
 
-1. Rechts neben dem Feld "Medientyp Anzahl" haben wir die monatlichen Anruf Anzahl nach Medientyp für die letzten 90 Tage. Jede Spalte und jeder Medientyp können mit der Maus eingeblendet werden, um die Anzahl für einen vorherigen Monat oder den aktuellen Monat bis dato anzuzeigen, wobei Trendinformationen zur Verwendung bereitgestellt werden.
-  ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report3.png)
+1. Rechts neben dem Feld Medientypanzahl wird die monatliche Anrufanzahl nach Medientyp für die letzten 90 Tage angezeigt. Jede Spalte und jeder Medientyp kann mit dem Mauszeiger darauf zeigen, um die Anzahl für einen vorherigen Monat oder den aktuellen Monat bis zum aktuellen Datum mit Informationen zum Nutzungstrend zu zeigen.
+  ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report3.png)
  
 
-1. Das mittlere Diagramm funktioniert wie das 90-Tage-Diagramm, bietet jedoch eine tägliche Nutzungs Ansicht für die letzten 30 Tage und ermöglicht einem Benutzer, mit der rechten Maustaste zu klicken und Details für einen bestimmten Tag zu durchlaufen.
-  ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report4.png)
+1. Das mittlere Diagramm funktioniert wie das 90-Tage-Diagramm, stellt jedoch eine tägliche Nutzungsansicht für die letzten 30 Tage zur Verfügung und ermöglicht es dem Benutzer, mit der rechten Maustaste zu klicken und einen Drilldown in Details für einen bestimmten Tag zu erstellen.
+  ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report4.png)
 
-In der unteren linken Ecke der Seite befindet sich eine Tabelle, in der die Gesamtwerte für die einzelnen Medientypen im letzten Jahr bereitgestellt werden. 
-    ![Screenshot: Teams-Auslastungsberichte ](media/CQD-teams-utilization-report5.png) ![ – Screenshot: Berichte zur Auslastung von Teams](media/CQD-teams-utilization-report6.png)   
+Im unteren linken Abschnitt der Seite finden Sie eine Tabelle, die die Gesamtwerte für jeden Medientyp im letzten Jahr enthält. 
+    ![Screenshot: Berichte zur Nutzung von Teams ](media/CQD-teams-utilization-report5.png) ![ Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report6.png)   
 
-Rechts neben der Tabelle werden in einem Balkendiagramm die Clients angezeigt, die in den letzten 30 Tagen die meisten Verwendungszwecke (Anrufe/Streams) verwendet haben.
-   ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report7.png)
+Rechts neben der Tabelle zeigt ein Balkendiagramm Clients an, die in den letzten 30 Tagen am häufigsten verwendet wurden (Anrufe/Datenströme).
+   ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report7.png)
 
-In der letzten Gruppe von Diagrammen für diese Seite werden die einzelnen Medientypen einzeln angezeigt, wobei die Verwendung von Konferenz-und P2P-Daten eine Unterbrechung zeigt. Die folgenden Diagramme zeigen, dass im Vergleich zu P2P eine deutlich höhere Anzahl von Konferenz Nutzungen vorliegt.
-  ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report8.png)
+Die letzte Gruppe von Diagrammen für diese Seite zeigt jeden Medientyp einzeln an, mit einer Aufschlüsselung, die die Konferenz- und P2P-Nutzung zeigt. Die folgenden Diagramme zeigen, dass die Anzahl der Konferenznutzung im Vergleich zu P2P deutlich höher ist.
+  ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report8.png)
 
-## <a name="audio-minutes-summary-report"></a>Zusammenfassungsbericht für Audio-Minuten
+## <a name="audio-minutes-summary-report"></a>Zusammenfassungsbericht "Audiominuten"
 
-Im Bericht "audiominuten-Nutzung" wird die Gesamt Minuten Nutzung in einigen verschiedenen Ansichten bereitgestellt. 
+Im Nutzungsbericht "Audiominuten" wird die Gesamtminutennutzung über ein paar verschiedene Ansichten bereitgestellt. 
 
-Wir haben die Zusammenfassung der dreißigtägigen Verwendung neben den datenschnitten als einfach zu verwendende Textfelder angezeigt. Die obere Zahl zeigt die 30-Tage-Summe, wobei die internen und externen Ausfälle darunter liegen.
+Die 30-tägige Nutzungszusammenfassung wird neben den Datenschnitten als einfach zu verwendende Textfelder angezeigt. Die oberste Zahl zeigt die Gesamtsumme von 30 Tagen mit internen und externen Aufschlüsselungen darunter.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report9.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report9.png)
 
-Das obere rechte Balkendiagramm bietet eine ganzjährige Ansicht der Nutzung der Konferenz Audiofunktionen. Zeigen Sie mit der Maus auf den Monat, um die Gesprächsminuten für die Konferenz anzuzeigen.
+Das Diagramm der oberen rechten Leiste bietet eine jahreslange Ansicht der Audionutzung von Konferenzkonferenzen. Zeigen Sie mit der Maus auf den Monat, um die Audiominuten der Konferenz zu zeigen.
 
-Um die Unterschiede zwischen P2P-und Konferenz-Audio anzuzeigen, nimmt das untere linke Diagramm alle Audiodaten für das vergangene Jahr auf und unterbricht es zwischen den beiden Typen.
+Um den Unterschied bei P2P- und Konferenzaudio zu zeigen, werden im unteren linken Diagramm alle Audiodaten für das vergangene Jahr verwendet und zwischen den beiden Typen aufbricht.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report10.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report10.png)
 
-Das letzte Diagramm für die Seite "audiominuten" zeigt die Verwendung der audiominuten auf einem globalen Karten-Overlay an. Dieses Diagramm funktioniert nur, wenn Gebäude-und Subnetdaten in den Mandanten hochgeladen werden. Das Kreisdiagramm-Overlay auf der Karte kann gebohrt werden, um anschließend die regionale audionutzung bereitzustellen.
+Das letzte Diagramm für die Seite Audiominuten zeigt die Audiominutennutzung auf einer globalen Kartenüberlagerung. Dieses Diagramm funktioniert nur, wenn Gebäude- und Subnetzdaten in den Mandanten hochgeladen werden. Die Kreisdiagrammüberlagerung auf der Karte kann ge drilledert werden, um anschließend die regionale Audionutzung zu bieten.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report11.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report11.png)
 
 
 ## <a name="drill-through-capabilities"></a>Drill-Through-Funktionen
 
-Wie bereits erwähnt, können Benutzer einen Drilldown in die Berichte für tägliche und regionale Nutzung durchführen.
+Wie bereits erwähnt, können Benutzer einen Drilldown in den täglichen und regionalen Nutzungsberichten erstellen.
 
 ### <a name="daily-usage"></a>Tägliche Nutzung
 
-Der Bericht "tägliche Nutzung" ermöglicht es einem Administrator, die höchst Verbrauchs Zeiten im Laufe eines Tages zu erkennen. Neben der Nutzung sind wir auch in der Lage, die gesamte Benutzer Stimmung und das Feedback für diesen Tag zu erfassen.
+Der Bericht Tägliche Nutzung ermöglicht es einem Administrator, Spitzenverbrauchszeiträume im Laufe eines Tages zu identifizieren. Neben der Nutzung können wir auch die allgemeine Benutzerstimmung und das Feedback für diesen Tag erfassen.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report12.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report12.png)
 
-Der Bericht "tägliche Nutzung" zeigt die Anzahl der Audio-, Video-und Bildschirm Freigaben für den ausgewählten Tag mit der zusätzlichen Möglichkeit, zwischen interner und externer Konnektivität zu unterscheiden. Eine Konferenz und eine Peer-to-Peer-Aufteilung erfolgt unmittelbar rechts neben dem Feld Modalwert. Oben rechts im Bericht finden Sie eine Liste der Konferenzen mit den zugehörigen IDs und Teilnehmern für den Tag. Die Konferenzliste bietet einen zusätzlichen Drilldown zum Konferenz Detailbericht. Grafik ersetzen
+Im Bericht tägliche Nutzung wird die Anzahl der Audio-, Video- und Bildschirmfreigaben für den ausgewählten Tag angezeigt, mit der zusätzlichen Möglichkeit, zwischen internen und externen Verbindungen zu unterscheiden. Eine Aufschlüsselung von Konferenz und Peer zu Peer befindet sich direkt rechts neben dem Gesamtfeld modalität. Oben rechts im Bericht finden Sie eine Liste der Konferenzen mit der zugehörigen ID und den Teilnehmern für den Tag. Die Konferenzliste enthält außerdem einen zusätzlichen Drilldown zum Konferenzdetails-Bericht. ERSETZEN DER GRAFIK
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report13.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report13.png)
 
-Das Balkendiagramm im mittleren Bereich ermöglicht es dem Benutzer, Spitzenverbrauchs Perioden im Laufe eines Tages zu erkennen. Benutzer können einen Drilldown in die im Diagramm dargestellte Stunde durchführen, in der der Benutzerlisten Bericht für die Stunde vorliegt.
+Das Balkendiagramm im Mittelpunktbereich ermöglicht es dem Benutzer, Spitzenverbrauchszeiträume im Laufe eines Tages zu identifizieren. Benutzer können einen Drilldown auf die im Diagramm dargestellte Stunde machen, in der der Bericht "Benutzerliste" für die Stunde angezeigt wird.
 
-Rechts neben dem Balkendiagramm wird das Feedback des Benutzers in einem visuellen Format angezeigt. Während die Benutzer Empfindung subjektiv sein kann, bietet Sie eine Einsicht, die verwendet werden kann, um potenzielle Probleme zu erkennen.
+Rechts neben dem Balkendiagramm wird Benutzerfeedback in einem visuellen Format dargestellt. Die Benutzerstimmung kann zwar subjektiv sein, bietet jedoch Einsichten, mit deren Hilfe potenzielle Probleme identifiziert werden können.
 
-Die untere Tabelle enthält eine Reihe von Metriken für den Tag. Schlechte Prozentwerte sowie Ausfallraten können einem Administrator potenzielle Verbesserungsmöglichkeiten bieten. Jede Stunde kann auch einzeln ausgewählt werden, wie unten dargestellt.
+Die untere Tabelle enthält einen Bereich von Metriken für den Tag. Schlechte Prozentsätze zusammen mit Fehlerraten können einem Administrator potenzielle Verbesserungsbereiche bieten. Jede Stunde kann auch einzeln ausgewählt werden, wie unten gezeigt.
 
-Diese Daten können verwendet werden, um Regionen zu identifizieren, die Probleme bei Spitzenverbrauchszeiten aufweisen.
+Diese Daten können verwendet werden, um Regionen zu identifizieren, die zu Spitzenzeiten Probleme haben.
 
 
 Klicken Sie auf die Spalte für diesen Tag, um Metriken für diese Stunde anzuzeigen.
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report14.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report14.png)
   
-  1.  In der Tabelle unter dem Diagramm werden die Metriken für diese Stunde angezeigt. Dies kann nach jeder Spaltenüberschrift sortiert werden. Wir wären jedoch daran interessiert, problematische Bereiche zu finden.  
-    ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report15.png)
+  1.  In der Tabelle unterhalb des Diagramms werden die Metriken für diese Stunde angezeigt. Dies kann nach einer beliebigen Spaltenüberschrift sortiert werden. wir wären jedoch daran interessiert, problematische Bereiche zu finden.  
+    ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report15.png)
     
-  2.  Wir sehen, dass die IND-Region während dieses Zeitraums eine schlechte Videoleistung in Konferenzen erlebt. Anschließend können die CQD-QER Microsoft-Berichte verwendet werden, um die problematische Position zu verkleinern, während der Bereich und der Zeitrahmen identifiziert wurden.
+  2.  Wir sehen, dass in der IND-Region während dieses Zeitrahmens eine schlechte Videoleistung in Konferenzen auftritt. Anschließend können die CQD-QER-Microsoft-Berichte verwendet werden, um den problematischen Ort zu verengungen, da die Region und der Zeitrahmen identifiziert wurden.
 
-### <a name="conference-details"></a>Konferenz Details
+### <a name="conference-details"></a>Konferenzdetails
 
-Der Bericht "Konferenz Details" bietet zusätzliche Einblicke für Besprechungen, von einer Teilnehmerliste bis zu den Medientypen, die während der Sitzung verwendet werden.
+Der Bericht "Konferenzdetails" bietet zusätzliche Einblicke in Besprechungen, von einer Teilnehmerliste bis zu den während der Sitzung verwendeten Medientypen.
 
-Klicken Sie mit der rechten Maustaste auf eine Konferenz die Teilnehmer Leiste im Diagramm Konferenz-ID auf der Seite tägliche Nutzung, um einen Drilldown in die Konferenzdetails durchführen zu können.
+Klicken Sie mit der rechten Maustaste auf die Teilnehmerleiste im Konferenz-ID-Diagramm auf der Seite Tägliche Nutzung, um einen Drilldown zu den Konferenzdetails zu erhalten.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report24.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report24.png)
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report25.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report25.png)
   
 
-Wir können die Teilnehmer der Konferenz sowie alle relevanten Informationen bis hin zu Paketverlust und Jitter sehen, um mögliche Problembehandlungsschritte in der unteren Tabelle zu unterstützen.
+Wir können die Teilnehmer der Konferenz sowie alle relevanten Informationen bis hin zu Paketverlust und Jitter sehen, um potenzielle Problembehandlungsbemühungen in der unteren Tabelle zu unterstützen.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report26.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report26.png)
 
 
-### <a name="regional-audio-details"></a>Regionale Audiodaten
+### <a name="regional-audio-details"></a>Regionale Audiodetails
 
-Im Bereich "regionale Audiodetails" wird die audiominuten-Verwendung für die ausgewählte Region speziell angezeigt. Benutzer mit Zugriff auf CQD können die Nutzungstrends sowohl für P2P-als auch für Konferenz-Audio in der ausgewählten Region sehen.
+Im Drilldown "Regionale Audiodetails" wird speziell die Audiominutennutzung für die ausgewählte Region angezeigt. Benutzer mit Zugriff auf CQD können Nutzungstrends für P2P- und Konferenzaudio in der ausgewählten Region sehen.
 
-1.  Klicken Sie auf der Zusammenfassungsseite Anruf Anzahl auf eine bestimmte Region durch die Tabelle.
-  ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report16.png)
+1.  Führen Sie auf der Seite Anrufanzahlszusammenfassung einen Drillthrough durch die Tabelle zu einem bestimmten Bereich aus.
+  ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report16.png)
 
-2.  Wählen Sie die Zeile mit dem Bereich aus, für den zusätzliche Informationen benötigt werden.
-  ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report17.png)
+2.  Wählen Sie die Zeile mit dem Bereich aus, für den zusätzliche Informationen erforderlich sind.
+  ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report17.png)
 
-3.  Die Datentrends zeigen eine beträchtliche Anzahl von Minuten an, die im internen Netzwerk verwendet werden, wobei Conferencing die P2P-Nutzung weit übertrifft.
-  ![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report18.png)
+3.  Die Datentrends zeigen eine erhebliche Anzahl von Minuten, die im internen Netzwerk verwendet werden, und Konferenzen übertreffen die P2P-Nutzung weit.
+  ![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report18.png)
 
-Der regionale audiotrend kann verwendet werden, um zu zeigen, wie Benutzer von externen Einflüssen in der Welt beeinflusst werden. Im Moment würden wir davon ausgehen, dass die externe Verwendung für die Regionen EMEA und APAC mit Personen, die zur Remote Arbeit aufgefordert werden, zunehmen wird.
+Der regionale Audiotrend kann verwendet werden, um zu zeigen, wie Benutzer von externen Einfluss auf die Welt beeinflusst werden. Gerade jetzt erwarten wir, dass die externe Nutzung für die Emea- und APAC-Regionen steigt, und die Mitarbeiter werden aufgefordert, remote zu arbeiten.
 
 
 ### <a name="user-list"></a>Benutzerliste
 
-Der Drilldown für Benutzerlisten bietet, wie man erwarten kann, benutzerspezifische Informationen für eine bestimmte Stunde, die von der Person, die den Bericht anzeigt, ausgewählt wurde. Der Benutzerlisten Bericht kann über einen Drilldown im Diagramm "stündliche Trends" im Bericht "tägliche Verwendung" aufgerufen werden. Klicken Sie mit der rechten Maustaste auf die Stunde, um weitere Informationen zu erhalten, und wählen Sie Drillthrough und Benutzerliste aus, wie unten dargestellt.
+Der Drilldown "Benutzerliste" enthält, wie zu erwarten, benutzerspezifische Informationen für eine bestimmte Stunde, die von der Person ausgewählt wurde, die den Bericht angezeigt hat. Auf den Bericht "Benutzerliste" kann über einen Drilldown im Diagramm "Stundentrends" im Bericht "Tägliche Nutzung" zugegriffen werden. Klicken Sie mit der rechten Maustaste auf die Stunde, zu der zusätzliche Informationen benötigt werden, und wählen Sie Drill through und Benutzerliste aus, wie unten gezeigt.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report19.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report19.png)
 
-Der Bericht "Benutzerliste" zeigt die interne/externe Konnektivität über das Ringdiagramm oben in der Mitte der Seite an. Wir können festzustellen, dass es in der folgenden Abbildung eine große Beteiligung von außerhalb des Unternehmensnetzwerks gibt.
+Der Bericht Benutzerliste zeigt die interne/externe Konnektivität über das Ringdiagramm in der oberen Mitte der Seite an. In der nachstehenden Abbildung ist zu sehen, dass außerhalb des Unternehmensnetzwerks ein großer Teil der Teilnahme besteht.
 
-Oben rechts im Diagramm wird die Anzahl der Anrufe angezeigt, die von jedem Benutzer innerhalb dieser Stunde getätigt wurden.
+Die obere rechte Seite des Diagramms zeigt die Anzahl der Anrufe, die von jedem Benutzer innerhalb dieser Stunde vorgenommen wurden.
 
-![Screenshot: Teams-Auslastungsberichte](media/CQD-teams-utilization-report20.png)
+![Screenshot: Berichte zur Nutzung von Teams](media/CQD-teams-utilization-report20.png)
 
-Die untere Tabelle enthält detaillierte Informationen zu den Sitzungen, an denen jeder Benutzer während dieser Stunde teilgenommen hat. Die Spalte Fehlertyp ist nützlich, um zu ermitteln, was zu einem Anruf geführt hat. Die Spalten für das erfassen und Rendern von Geräten sind hilfreich, um zu ermitteln, warum ein Anruf mit schlechter Qualität gemeldet wurde.
+Die untere Tabelle enthält detaillierte Informationen zu den Sitzungen, an der jeder Benutzer während dieser Stunde teilgenommen hat. Die Spalte Fehlertyp ist hilfreich, um zu ermitteln, was zu einem Dropaufruf führte. Die Spalten Aufnahme- und Rendergerät sind hilfreich, um zu ermitteln, warum ein Anruf gemeldet wurde, der eine schlechte Qualität hat.
 
 
 ## <a name="related-topics"></a>Verwandte Themen
@@ -166,7 +166,6 @@ Die untere Tabelle enthält detaillierte Informationen zu den Sitzungen, an dene
 
 [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Anrufanalyse- und Anrufqualitäts-Dashboard](./monitor-call-quality-qos.md)
 
-[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
- 
+[Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams)

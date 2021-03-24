@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams für Bildungseinrichtungen
-description: Erfahren Sie mehr über die verfügbaren Administratorressourcen, die Ihnen helfen, Teams in Ihrer Schule oder Einrichtung erfolgreich zu implementieren, zu übernehmen und zu verwalten.
+description: Erfahren Sie mehr über die verfügbaren Administratorressourcen, die Ihnen bei der erfolgreichen Bereitstellung, Einführung und Verwaltung von Teams in Ihrer Schule oder Bildungseinrichtung helfen.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -19,23 +19,22 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 85f1d16a258955e08086b851a503bfac87604bf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821125"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092503"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
-Mit Teams können Lehrkräfte und Lehrkräfte gemeinsame Kursräume erstellen, sich in professionellen Lerngemeinschaften verbinden und mit Schülern/Studenten und Lehrkräften kommunizieren. Verwenden Sie die hier bereitgestellten Administratorressourcen, um Ihnen bei der erfolgreichen Bereitstellung, Einführung und Verwaltung von Teams in Ihrer Schule oder Einrichtung zu helfen. 
+Mit Teams können Lehrkräfte und Lehrkräfte gemeinsame Unterrichtsräume erstellen, sich in professionellen Lerngemeinschaften verbinden und mit Kursteilnehmern und Lehrkräften kommunizieren. Verwenden Sie die Administratorressourcen hier, um Ihnen bei der erfolgreichen Bereitstellung, Einführung und Verwaltung von Teams in Ihrer Schule oder Bildungseinrichtung zu helfen. 
 
 
 |               |               |
 | ------------- | ------------- |
-| ![arrow-right-2-teams](../media/arrow-right-2-teams.svg)  |  [Schnellstart – Administratoren von Microsoft Teams Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu) |
-| ![sign-up-teams](../media/sign-up-teams.svg) | [Aufgaben in Teams für Bildungseinrichtungen](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams) |
-| ![insights-teams](../media/insights-teams.svg) | [Einblicke in Teams für Bildungseinrichtungen](https://docs.microsoft.com/microsoftteams/class-insights) |
-| ![Toolbox](../media/toolbox.svg)  |  [Ressourcen für Administratoren von Teams für Bildungseinrichtungen](https://docs.microsoft.com/microsoftteams/resources-teams-edu) |
-| ![task-checklist-planning-teams](../media/task-checklist-planning-teams.svg)  |  [Häufig gestellte Fragen zur Governance für Administratoren von Teams für Bildungseinrichtungen](https://docs.microsoft.com/microsoftteams/plan-teams-governance-edu) |
-
+| ![Screenshot des Nach-RECHTS-Symbols](../media/arrow-right-2-teams.svg)  |  [Schnellstart – Administratoren von Microsoft Teams Education](../teams-quick-start-edu.yml) |
+| ![Screenshot des Papier- und Bleistiftsymbols](../media/sign-up-teams.svg) | [Aufgaben in Teams für Bildungseinrichtungen](./assignments-in-teams.md) |
+| ![Screenshot des Symbols "Einblicke"](../media/insights-teams.svg) | [Einblicke in Teams for Education](../class-insights.md) |
+| ![Screenshot des Toolboxsymbols](../media/toolbox.svg)  |  [Ressourcen für Administratoren von Teams for Education](../resources-teams-edu.md) |
+| ![Screenshot des Checklistensymbols](../media/task-checklist-planning-teams.svg)  |  [Häufig gestellte Fragen zur Governance für Administratoren von Teams for Education](../plan-teams-governance-edu.md) |
