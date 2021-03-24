@@ -16,12 +16,12 @@ description: Behandeln Sie Konnektivitätsprobleme mit dem Microsoft Teams-Clien
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 59041734887a667eca325a3d2650425d6d336b78
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
-ms.translationtype: HT
+ms.openlocfilehash: 25a4fc51e0bb8dec810ce921e3678a529ee7a4cf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918541"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101161"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client
 ==============================================================
@@ -50,4 +50,4 @@ Die gute Nachricht ist, dass Teams weiter ausgeführt wird, auch wenn Sie offlin
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams)

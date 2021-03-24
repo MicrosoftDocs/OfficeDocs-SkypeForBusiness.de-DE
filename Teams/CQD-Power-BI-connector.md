@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector für die Verwendung von CQD-Abfragevorlagen (Call Quality Dashboard)
-ms.openlocfilehash: 188e030d4f1ef6eaff21bef83a09c22d29bb51c5
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875035"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101521"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector für die Verwendung von CQD-Abfragevorlagen
 
@@ -28,20 +28,20 @@ Bevor Sie die Power BI-Abfragevorlagen (PBIX-Dateien) für das Microsoft Teams C
 
 Weitere Informationen zu diesen Vorlagen finden Sie unter Verwenden von Power BI zum Analysieren von [CQD-Daten](CQD-Power-BI-query-templates.md) für Teams.
 
-Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffsrolle verfügen,](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) um auf die Power BI-Berichte zu zugreifen.
+Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffsrolle verfügen,](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) um auf die Power BI-Berichte zu zugreifen.
 
 > [!NOTE]
 > Der CQD Power BI Connector unterstützt nur DirectQuery in Power BI. Der Importmodus wird nicht unterstützt. 
 
 ## <a name="installation"></a>Installation
 
-Der Vorgang zum Installieren eines benutzerdefinierten Verbinders und zum Anpassen der Sicherheit zum Aktivieren der Verwendung des Verbinders wird in der [Power BI-Dokumentation ausführlich beschrieben.](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) Aus Gründen der Einfachheit finden Sie hier eine kurze Erläuterung:
+Der Vorgang zum Installieren eines benutzerdefinierten Verbinders und zum Anpassen der Sicherheit zum Aktivieren der Verwendung des Verbinders wird in der [Power BI-Dokumentation ausführlich beschrieben.](/power-bi/desktop-connector-extensibility) Aus Gründen der Einfachheit finden Sie hier eine kurze Erläuterung:
 
 1. Überprüfen Sie, ob Ihr Computer bereits über einen Ordner "Benutzerdefinierte Connectors für *\[ Power BI \] \\ \\ Desktop"-Dokumente* verfügt. Andern falls nicht, erstellen Sie diesen Ordner. <sup>1</sup>
 
 2. Laden Sie die Connectordatei (entweder eine *\* MEZ-* oder *\* PQX-Datei)* herunter, und platzieren Sie sie im Verzeichnis *Benutzerdefinierte Connectors.*
 
-3. **Wenn es sich bei der Connectordatei um eine *\* MEZ-Datei* handelt,** müssen Sie auch Ihre Sicherheitseinstellungen anpassen, wie in der Dokumentation zum Einrichten von benutzerdefinierten [Connectors beschrieben.](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)
+3. **Wenn es sich bei der Connectordatei um eine *\* MEZ-Datei* handelt,** müssen Sie auch Ihre Sicherheitseinstellungen anpassen, wie in der Dokumentation zum Einrichten von benutzerdefinierten [Connectors beschrieben.](/power-bi/desktop-connector-extensibility#data-extension-security)
 
 Wenn eine neue Version dieses Power BI Connector für Microsoft Teams veröffentlicht  wird, ersetzen Sie einfach die alte Connectordatei im Verzeichnis Benutzerdefinierte Connectors durch die neue Datei.
 
@@ -65,7 +65,7 @@ Um einen Bericht zu erstellen und Abfragen ausführen zu können, müssen Sie zu
 
 6. An diesem Punkt wird das Datenmodell von Power BI auf die rechte Seite des Fensters geladen. Andernfalls bleibt die Seite leer, und es werden standardmäßig keine Abfragen geladen. Fahren Sie mit **Erstellen von Abfragen unten** fort, um eine Abfrage zu erstellen und Daten zurück zu geben.
 
-Wenn einer der Schritte während dieses Setupvorgangs nicht vollständig klar war, finden Sie eine ausführlichere Erläuterung des Vorgangs in [Schnellstart: Herstellen](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)einer Verbindung mit Daten in Power BI Desktop.
+Wenn einer der Schritte während dieses Setupvorgangs nicht vollständig klar war, finden Sie eine ausführlichere Erläuterung des Vorgangs in [Schnellstart: Herstellen](/power-bi/desktop-quickstart-connect-to-data)einer Verbindung mit Daten in Power BI Desktop.
 
 ## <a name="building-queries"></a>Erstellen von Abfragen
 
@@ -93,7 +93,7 @@ Sobald die Einrichtung abgeschlossen ist, sollten die Namen von mehreren hundert
 
 ## <a name="creating-a-drillthrough-report"></a>Erstellen eines Drillthroughberichts
 
-[Mit drillthrough in Power BI](https://docs.microsoft.com/power-bi/desktop-drillthrough) können Sie berichte mit Schwerpunkt erstellen, die Sie mithilfe der Werte anderer Berichte als Kontext schnell filtern können. Sobald Sie wissen, wie Sie Ihre erste Abfrage mit dem CQD Connector erstellen, ist das Erstellen eines Drillthroughs noch einfacher.
+[Mit drillthrough in Power BI](/power-bi/desktop-drillthrough) können Sie berichte mit Schwerpunkt erstellen, die Sie mithilfe der Werte anderer Berichte als Kontext schnell filtern können. Sobald Sie wissen, wie Sie Ihre erste Abfrage mit dem CQD Connector erstellen, ist das Erstellen eines Drillthroughs noch einfacher.
 
 1. Erstellen Sie eine weitere Seite für den bericht mit Schwerpunkt, und fügen Sie dann Ihre Abfragen zu dieser Seite hinzu.
 
@@ -171,8 +171,8 @@ Die Abfrageleistung für die verschiedenen Vorlagen ist sowohl im Browser als au
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-- [Leitfaden zur Optimierung von Power BI](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
-- [DirectQuery-Modellleitfäden](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+- [Leitfaden zur Optimierung von Power BI](/power-bi/guidance/power-bi-optimization)
+- [DirectQuery-Modellleitfäden](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Ich finde, dass ich beim Ausführen von Abfragen routinemäßig den Grenzwert von 10.000 Zeilen einlaufe. Wie kann der Verbinder mehr als 10.000 Zeilen zurückgeben?
 

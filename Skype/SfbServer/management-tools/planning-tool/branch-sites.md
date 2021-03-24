@@ -13,16 +13,14 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
-description: Einzelheiten zur Ausfallsicherheit von Zweigstellenstandorten finden Sie unter Planning for Branch-Site Voice Resiliency.
-ms.openlocfilehash: 602277a1006bd10d8f851e90cd38af7c78d56b9a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Weitere Informationen zur Ausfallsicherheit von Zweigstellenstandorten finden Sie unter Planning for Branch-Site Voice Resiliency.
+ms.openlocfilehash: 196862910659ffb6947e471f051fa761cad9dccc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835025"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098711"
 ---
 # <a name="branch-sites-planning-tool"></a>Zweigstellen (Planungstool)
 
-Einzelheiten zur Ausfallsicherheit von Zweigstellenstandorten finden Sie unter [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
-
-
+Weitere Informationen zur Ausfallsicherheit von Zweigstellenstandorten finden Sie unter [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).

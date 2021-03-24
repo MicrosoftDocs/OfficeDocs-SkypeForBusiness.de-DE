@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8062b0f1ada28289b2a6c62dc6a29c3b6cf1f751
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c85d22179887fa797bb91fedbc0e5ec40b08a03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809495"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101191"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Onboarding von Early Adopters von Microsoft Teams
 
@@ -55,7 +55,7 @@ Hier geht’s zu: [Teams für Windows](#teams-for-windows) | [Teams für Mac](#t
 
 ### <a name="desktop-client"></a>Desktopclient
 
-Der Teams-Desktopclient vermittelt Windows- und Mac-Benutzern die beste Gesamterfahrung. Weitere Informationen finden Sie unter [Beziehen von Clients für Microsoft Teams (Desktopclient)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) und [Hardwareanforderungen für die Microsoft Teams-App](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
+Der Teams-Desktopclient vermittelt Windows- und Mac-Benutzern die beste Gesamterfahrung. Weitere Informationen finden Sie unter [Beziehen von Clients für Microsoft Teams (Desktopclient)](./get-clients.md#desktop-client) und [Hardwareanforderungen für die Microsoft Teams-App](./hardware-requirements-for-the-teams-app.md).
 
 > [!NOTE]
 > Als Administrator können Sie die Methode zum Verteilen der Installationsdateien an Computer in Ihrer Organisation auswählen, z. B. Microsoft Endpoint Configuration Manager (Windows) oder Jamf Pro (macOS).
@@ -84,7 +84,7 @@ Teams weist einen funktionsreichen Webclient auf, [https://teams.microsoft.com](
 
 ### <a name="mobile-client"></a>Mobile Clients
 
-Mithilfe der mobilen Teams-Clients für iOS und Android bleiben Benutzer auch unterwegs verbunden und produktiv. Weitere Informationen finden Sie unter [Beziehen von Clients für Microsoft Teams (mobile Clients)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).
+Mithilfe der mobilen Teams-Clients für iOS und Android bleiben Benutzer auch unterwegs verbunden und produktiv. Weitere Informationen finden Sie unter [Beziehen von Clients für Microsoft Teams (mobile Clients)](./get-clients.md#mobile-clients).
 
 #### <a name="teams-for-ios"></a>Teams für iOS 
 

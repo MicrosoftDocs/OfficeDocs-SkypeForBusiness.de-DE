@@ -1,5 +1,5 @@
 ---
-title: Globale Einstellung "Netzwerkkonfiguration bearbeiten"
+title: Globale Einstellung zum Bearbeiten der Netzwerkkonfiguration
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 7c5205a7d09b48c3cca8daf9361b1c417e49f544
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6605f23a59106ed9ebba2f7c54b3ced471fc839f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803905"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099611"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Netzwerkkonfiguration: Bearbeiten der globalen Einstellungen
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Aktivieren der Anrufsteuerung](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [Aktivieren der Anrufsteuerung](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-call-admission-control)
 
-- [Aktivieren der Medienumgehung](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [Aktivieren der Medienumgehung](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-network-media-bypass)
 
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
-
+Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).

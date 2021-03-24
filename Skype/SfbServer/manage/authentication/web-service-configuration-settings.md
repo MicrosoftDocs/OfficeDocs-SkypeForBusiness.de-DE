@@ -13,36 +13,36 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Zusammenfassung: Verwalten von Webdienstkonfigurationseinstellungen in Skype for Business Server.'
-ms.openlocfilehash: 68abe01614902d5e6f4c58040b30b6afbd475df8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d79e0567790f10dd86c68f64d7bde54d3540b44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806495"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099171"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Verwalten von Webdienstkonfigurationseinstellungen in Skype for Business Server
  
 **Zusammenfassung:** Verwalten von Webdienstkonfigurationseinstellungen in Skype for Business Server.
   
-Auf der Seite **"Webdienst"** können Sie die Authentifizierungsmethoden für den Zugriff auf Skype for Business Server-bezogene Webserver und Webdienste konfigurieren.
+Auf der Seite **Webdienst** können Sie die Authentifizierungsmethoden für den Zugriff auf skype for Business Server-bezogene Webserver und Webdienste konfigurieren.
   
 Führen Sie die folgenden Schritte aus, um eine neue Webdienstrichtlinie zu erstellen.
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>So erstellen Sie neue Webdienstkonfigurationseinstellungen
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle CsServerAdministrator oder CsAdministrator zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **Webdienst**.
     
-4. Klicken Sie **auf der Seite Webdienst** auf **"Neu",** und gehen Sie dann wie folgt vor:
+4. Klicken Sie **auf der** Seite Webdienst auf **Neu,** und gehen Sie dann wie folgt vor:
     
-   - Klicken Sie auf "Websitekonfiguration", um den Webdienst für eine **Website zu konfigurieren.** Klicken **Sie in "Standort auswählen"** auf den Standort, auf den die Webdienstrichtlinie angewendet wird, und klicken Sie dann auf **"OK".**
+   - Klicken Sie zum Konfigurieren des Webdiensts für eine Website auf **Websitekonfiguration**. Klicken **Sie unter Website auswählen** auf die Website, auf die die Webdienstrichtlinie angewendet wird, und klicken Sie auf **OK**.
     
-   - Klicken Sie auf "Poolkonfiguration", um den Webdienst für einen **Pool zu konfigurieren.** Klicken **Sie in "Dienst auswählen"** auf den Dienst, auf den die Webdienstrichtlinie angewendet wird, und klicken Sie dann auf **"OK".** 
+   - Klicken Sie zum Konfigurieren des Webdiensts für einen Pool auf **Poolkonfiguration**. Klicken **Sie unter Dienst auswählen** auf den Dienst, auf den die Webdienstrichtlinie angewendet wird, und klicken Sie auf **OK**. 
     
-5. Wählen **Sie in "Neue Webdiensteinstellung"** in der integrierten Windows-Authentifizierung **"Aushandeln",** **"Integrierte Windows-Authentifizierung"** oder **"Keine" aus.** 
+5. Wählen **Sie unter Neue Webdiensteinstellung** unter Integrierte **Windows-Authentifizierung** **die Option Aushandeln,** integrierte **Windows-Authentifizierung** oder **Keine aus.**
     
 6. Wählen Sie je nach Funktionen der Clients und der Unterstützung in Ihrer Umgebung, eine oder mehrere der folgenden Optionen:
     
@@ -56,13 +56,13 @@ Führen Sie die folgenden Schritte aus, um eine neue Webdienstrichtlinie zu erst
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Ändern vorhandener Webdienstkonfigurationseinstellungen
 
-Auf der Seite **"Webdienst"** können Sie die Authentifizierungsmethoden für den Zugriff auf Skype for Business Server-bezogene Webserver und Webdienste konfigurieren.
+Auf der Seite **Webdienst** können Sie die Authentifizierungsmethoden für den Zugriff auf skype for Business Server-bezogene Webserver und Webdienste konfigurieren.
   
 Führen Sie die folgenden Schritte aus, um eine vorhandene Webdienstrichtlinie zu ändern.
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>So ändern Sie vorhandene Webdienstkonfigurationseinstellungen
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle CsServerAdministrator oder CsAdministrator zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
     
@@ -88,7 +88,7 @@ Führen Sie die folgenden Schritte aus, um Webdienstkonfigurationseinstellungen 
   
 ### <a name="to-delete-web-service-configuration-settings"></a>So löschen Sie Webdienstkonfigurationseinstellungen
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle CsServerAdministrator oder CsAdministrator zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
     
@@ -102,7 +102,7 @@ Führen Sie die folgenden Schritte aus, um Webdienstkonfigurationseinstellungen 
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Löschen von Webdienstkonfigurationseinstellungen mithilfe Windows PowerShell Cmdlets
 
-Sie können Webdienstkonfigurationseinstellungen mithilfe Windows PowerShell **remove-CsWebServiceConfiguration-Cmdlets** löschen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Prozess ist in Skype for Business Server identisch.
+Sie können Webdienstkonfigurationseinstellungen mit Windows PowerShell **und dem Cmdlet Remove-CsWebServiceConfiguration** löschen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>So löschen Sie bestimmte Konfigurationseinstellungen für Webdienste
 
@@ -112,7 +112,7 @@ Sie können Webdienstkonfigurationseinstellungen mithilfe Windows PowerShell **r
   Remove-CsWebServiceConfiguration -Identity "site:Redmond"
   ```
 
-### <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a>So löschen Sie alle Auf Standortbereich angewendeten Webdienstkonfigurationseinstellungen
+### <a name="to-delete-all-of-the-web-service-configuration-settings-applied-to-the-site-scope"></a>So löschen Sie alle auf den Websitebereich angewendeten Webdienstkonfigurationseinstellungen
 
 Mit dem folgenden Befehl werden alle auf Dienstebene angewendeten Webdienstsicherheitseinstellungen entfernt:
     
@@ -128,6 +128,4 @@ Mit dem folgenden Befehl werden alle Webdienstsicherheitseinstellungen entfernt,
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-Weitere Informationen finden Sie unter [Remove-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).
-  
-
+Weitere Informationen finden Sie unter [Remove-CsWebServiceConfiguration](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps).

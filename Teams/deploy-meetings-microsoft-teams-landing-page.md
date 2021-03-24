@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918681"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101271"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -69,7 +69,7 @@ Zum Skalieren von Besprechungen in Ihrer Organisation sollten Sie sicherstellen,
 
 | Frage | Aktion |
 |--------------|--------|
-|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs und IP-Adressbereiche](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Ist mein Netzwerk bereit für eine Teams-Besprechungsumgebung? | Die erforderlichen Schritte, um sicherzustellen, dass Ihr Netzwerk bereit ist, finden Sie unter:<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](./prepare-network.md)</li><li>[URLs und IP-Adressbereiche](./office-365-urls-ip-address-ranges.md)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
@@ -83,7 +83,7 @@ Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalt
 | Frage | Aktion |
 |--------------|--------|
 |Wem wird die Rolle des Teams-Kommunikationsadministrators zugewiesen?|Weitere Informationen zu den Administratorrollen in Teams finden Sie unter [Verwenden der Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md).|
-|Wem wird die Rolle des Teams-Kommunikationssupporttechnikers zugewiesen?|Informationen zum Zuweisen von Administratorrollen finden Sie unter [Zuweisen von Administrator- und anderen Rollen zu Benutzern mithilfe von Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|Wem wird die Rolle des Teams-Kommunikationssupporttechnikers zugewiesen?|Informationen zum Zuweisen von Administratorrollen finden Sie unter [Zuweisen von Administrator- und anderen Rollen zu Benutzern mithilfe von Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |Wem wird die Rolle des Teams-Kommunikationssupportexperten zugewiesen?||
 |||
 
@@ -119,7 +119,7 @@ Sie sollten die Verwendung von Teams-Geräten wie Raumsystemen, Telefonen, Heads
 | Frage | Aktion |
 |--------------|--------|
 |Werde ich private Geräte für meine Benutzer erwerben? |Lesen Sie [Verwalten Ihrer Geräte in Teams](devices/device-management.md). |
-|Soll ich Raumsystemgeräte für meine Konferenzräume kaufen und bereitstellen?|Lesen Sie [Besprechungsraumgeräte und Lösungen](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+|Soll ich Raumsystemgeräte für meine Konferenzräume kaufen und bereitstellen?|Lesen Sie [Besprechungsraumgeräte und Lösungen](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json).|
 |||
 
 ### <a name="reporting"></a>Berichterstellung
@@ -181,7 +181,7 @@ Organisationen mit vielen Konferenzräumen sollten einen strukturierten Ansatz f
 
 | Frage | Aktion |
 |--------------|--------|
-| Was muss ich tun, um Konferenzraumsysteme bereitzustellen?|Sehen Sie sich die Artikel [Planen von Microsoft Teams-Räumen](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) an.|
+| Was muss ich tun, um Konferenzraumsysteme bereitzustellen?|Sehen Sie sich die Artikel [Planen von Microsoft Teams-Räumen](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) an.|
 |||
 
 ### <a name="cloud-video-interop"></a>Cloud-Video-Interoperabilität

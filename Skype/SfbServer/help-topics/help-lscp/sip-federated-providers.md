@@ -15,17 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e875ac6-8afb-45bc-bcaa-3c7451125fae
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 6546ec6fa25242f2322c37fd3d3c74482a75e2c0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 11a3da8d034547165470484609e593ed8fa99dd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819085"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099421"
 ---
 # <a name="sip-federated-providers"></a>SIP-Partnerverbundanbieter
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Verwalten von SIP-Verbundanbietern für Ihre Organisation](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
-
-
+- [Verwalten von SIP-Verbundanbietern für Ihre Organisation](/previous-versions/office/lync-server-2013/lync-server-2013-manage-sip-federated-providers-for-your-organization)

@@ -14,16 +14,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
-description: Wählen Sie die Sprachen aus, die Sie für ihre Zugriffsnummer für Einwahlkonferenzen verwenden möchten. Weitere Informationen finden Sie unter "Erstellen oder Ändern einer Zugriffsnummer für Einwahlkonferenzen".
-ms.openlocfilehash: 8d5f81ebcdacbd2c506693cfa66dc9c4195f7b98
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Wählen Sie die Sprachen aus, die Sie für Ihre Zugriffsnummer für Einwahlkonferenzen verwenden möchten. Weitere Informationen finden Sie unter Create or Modify a Dial-in Conferencing Access Number.
+ms.openlocfilehash: 9a7c1022ed5e4f2a4831a4150d232b6264f3a504
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808695"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100501"
 ---
 # <a name="select-languages"></a>Auswählen von Sprachen
 
-Wählen Sie die Sprachen aus, die Sie für ihre Zugriffsnummer für Einwahlkonferenzen verwenden möchten. Weitere Informationen finden Sie unter [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).
-
-
+Wählen Sie die Sprachen aus, die Sie für Ihre Zugriffsnummer für Einwahlkonferenzen verwenden möchten. Weitere Informationen finden Sie unter [Create or Modify a Dial-in Conferencing Access Number](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number).

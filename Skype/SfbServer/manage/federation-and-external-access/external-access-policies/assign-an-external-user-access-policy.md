@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie den SIP-Verbund, den Remotebenutzerzugriff und die Verbindung mit öffentlichen Chatnachrichten in der Skype for Business Server-Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden.
-ms.openlocfilehash: 25e9a63363dc4f982e142defd2164c2423471961
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie in der Skype for Business Server-Systemsteuerung die SIP-Verbund-, Remotebenutzerzugriffs- und Sofortnachrichtenkonnektivität konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden.
+ms.openlocfilehash: 45e22a0d7951bfe4d58d90a1e5190aa242f7b29a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826625"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099051"
 ---
-# <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Zugriffsrichtlinie für externe Benutzer zu einem skype for Business-aktivierten Benutzer
+# <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Externen Benutzerzugriffsrichtlinie zu einem skype for Business-aktivierten Benutzer
 
-Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie den SIP-Verbund, den Remotebenutzerzugriff und die Verbindung mit öffentlichen Chatnachrichten in der Skype for Business Server-Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden. Wenn Sie beispielsweise eine Richtlinie zur Unterstützung des Remotebenutzerzugriffs erstellt haben, müssen Sie sie auf den Benutzer anwenden, bevor der Benutzer von einem Remotestandort aus eine Verbindung mit Skype for Business Server herstellen und mit internen Benutzern vom Remotestandort aus zusammenarbeiten kann.
+Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie in der Skype for Business Server-Systemsteuerung die SIP-Verbund-, Remotebenutzerzugriffs- und Sofortnachrichtenkonnektivität konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden. Wenn Sie beispielsweise eine Richtlinie zur Unterstützung des Remotebenutzerzugriffs erstellt haben, müssen Sie sie auf den Benutzer anwenden, bevor der Benutzer eine Verbindung mit Skype for Business Server von einem Remotespeicherort herstellen und mit internen Benutzern vom Remotespeicherort aus zusammenarbeiten kann.
 
 
 > [!NOTE]  
-> Um den Zugriff durch externe Benutzer zu unterstützen, müssen Sie die Unterstützung für jeden Typ des externen Benutzerzugriffs aktivieren, der unterstützt werden soll, sowie die entsprechenden Richtlinien und andere Optionen zur Verwendungssteuerung konfigurieren. Weitere Informationen finden Sie [unter Verwalten des Verbunds und des externen Zugriffs auf Skype for Business Server.](../managing-federation-and-external-access.md)
+> Um den Zugriff durch externe Benutzer zu unterstützen, müssen Sie die Unterstützung für jeden Typ des externen Benutzerzugriffs aktivieren, der unterstützt werden soll, sowie die entsprechenden Richtlinien und andere Optionen zur Verwendungssteuerung konfigurieren. Weitere Informationen finden Sie [unter Managing federation and external access to Skype for Business Server](../managing-federation-and-external-access.md).
 
 
 Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie für den externen Benutzerzugriff auf ein oder mehrere Benutzerkonten anzuwenden.
@@ -44,15 +44,15 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie 
 
 4.  Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
 
-5.  Wählen **Sie unter "Skype for Business Server-Benutzer** **bearbeiten"** unter "Externe Zugriffsrichtlinie" die Benutzerrichtlinie aus, die Sie anwenden möchten.
+5.  Wählen **Sie unter Skype for Business Server-Benutzer** **bearbeiten** unter Richtlinie für den externen Zugriff die Benutzerrichtlinie aus, die Sie anwenden möchten.
      
 > [!NOTE]  
-> Die **\<Automatic>** Einstellungen gelten für die Standardserver- oder globalen Richtlinieneinstellungen.
+> Die **\<Automatic>** Einstellungen wenden die Standardeinstellungen für Server oder globale Richtlinien an.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Zuweisen Per-User Richtlinien für den externen Zugriff mithilfe Windows PowerShell Cmdlets
 
-Richtlinien für den externen Zugriff auf Benutzer können mithilfe von Windows PowerShell und dem cmdlet Grant-CsExternalAccessPolicy zugewiesen werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell. 
+Benutzerrichtlinien für den externen Zugriff können mithilfe von Windows PowerShell und dem cmdlet Grant-CsExternalAccessPolicy zugewiesen werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell. 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Benutzerrichtlinie für den externen Zugriff zu
 
@@ -63,12 +63,12 @@ Richtlinien für den externen Zugriff auf Benutzer können mithilfe von Windows 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine Benutzerrichtlinie für den externen Zugriff zu
 
-  - Mit diesem Befehl wird die Richtlinie „USAExternalAccessPolicy“ für den externen Zugriff auf Benutzerebene allen Benutzern zugewiesen, die Active Directory ein Konto in der Organisationseinheit „UnitedStates“ besitzen. Weitere Informationen zu dem in diesem Befehl verwendeten Parameter "OU" finden Sie in der Dokumentation zum [Cmdlet "Get-CsUser".](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
+  - Mit diesem Befehl wird die Richtlinie „USAExternalAccessPolicy“ für den externen Zugriff auf Benutzerebene allen Benutzern zugewiesen, die Active Directory ein Konto in der Organisationseinheit „UnitedStates“ besitzen. Weitere Informationen zum in diesem Befehl verwendeten OU-Parameter finden Sie in der Dokumentation zum [Cmdlet Get-CsUser.](/powershell/module/skype/Get-CsUser)
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
 
-## <a name="to-unassign-a-per-user-external-access-policy"></a>So machen Sie die Benutzerzuweisung für eine Richtlinie für den externen Zugriff auf Benutzer zu
+## <a name="to-unassign-a-per-user-external-access-policy"></a>So designiert sie eine Benutzerrichtlinie für den externen Zugriff
 
   - Mit diesem Befehl wird die Zuweisung sämtlicher Richtlinien für den externen Zugriff auf Benutzerebene, die dem Benutzer Ken Myer zuvor zugeordnet wurden, aufgehoben. Nach der Aufhebung der Richtlinie auf Benutzerebene wird Ken Myer automatisch unter Verwendung der globalen Richtlinie bzw. (sofern vorhanden) von der Richtlinie seines lokalen Standorts verwaltet. Die Standortrichtlinie hat Vorrang vor der globalen Richtlinie.
     
@@ -76,6 +76,4 @@ Richtlinien für den externen Zugriff auf Benutzer können mithilfe von Windows 
 
 
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Grant-CsExternalAccessPolicy".](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)
-
-
+Weitere Informationen finden Sie im Hilfethema für das [Grant-CsExternalAccessPolicy-Cmdlet.](/powershell/module/skype/Grant-CsExternalAccessPolicy)

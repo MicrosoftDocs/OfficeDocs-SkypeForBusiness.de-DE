@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 2fd7865823cffdfd2f2b2932a78744786c59cfd0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726216"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101231"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Einrichten von Microsoft Teams in Ihrem Kleinunternehmen
 
@@ -49,7 +49,7 @@ Springen Sie zu dem Abschnitt, der Sie interessiert:
 Chats, Teams und Kanäle sind die Säulen von Teams. Der **Chat** ermöglicht es einem oder mehreren Benutzern, sich zu unterhalten, Dateien zu teilen und sich privat zu treffen. Mit **Teams**, das für alle Personen in Ihrer Organisation oder nur für die Teammitglieder sichtbar sein kann, können die richtigen Personen unabhängig von der Aufgabe oder dem Anlass zusammenarbeiten, ganz gleich, ob es um ein langes Projekt oder die Planung einer Geburtstagsfeier geht. **Kanäle** innerhalb von Teams können Themen, Projekte, Abteilungen oder alles andere segmentieren, was für Ihr Team sinnvoll ist. Details zu Chats, Teams und Kanälen finden Sie unter [Übersicht über Teams und Kanäle](teams-channels-overview.md).
 
 > [!TIP]
-> Schauen Sie sich an, wie Sie Teamrollen, Zugriff und Messagingrichtlinien verwalten können, indem Sie das Modul [Verwalten von Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) in Microsoft Learn abschließen.
+> Schauen Sie sich an, wie Sie Teamrollen, Zugriff und Messagingrichtlinien verwalten können, indem Sie das Modul [Verwalten von Microsoft Teams](/learn/modules/m365-teams-collab-manage-teams/) in Microsoft Learn abschließen.
 
 Wenn Sie über das Roll out von Teams und Kanälen nachdenken, müssen Sie entscheiden, wer diese erstellen darf, ob Gäste von außerhalb Ihrer Organisation darauf zugreifen können und so weiter. Der Artikel [Chat, Teams, Kanäle und Apps in Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) enthält viele Informationen zur Planung von Chats, Teams und Kanälen. Allerdings sollten Sie über einige wichtige Dinge in diesem Artikel nachdenken. Wählen Sie eine Entscheidung aus, wenn Sie weitere Informationen dazu wünschen.
 
@@ -71,7 +71,7 @@ Besprechungen und Konferenzen ermöglichen es Personen in Ihrer Organisation, si
 **Audiokonferenzen** ermöglicht es Teilnehmern, über ein normales Telefon an Besprechungen teilzunehmen, indem sie eine Konferenztelefonnummer anrufen und eine Besprechungs-ID eingeben. Audiokonferenzen sind nützlich, wenn ein Teilnehmer nicht über eine gute Internetverbindung verfügt, die Besprechung nur per Sprache stattfindet oder er wegen einem anderen Umstand nicht über den Teams-Client teilnehmen kann.
 
 > [!TIP]
-> Machen Sie sich mit Besprechungen und Ereignissen vertraut, indem Sie das Modul [Besprechungen, Konferenzen und Ereignisse mit Microsoft Teams verwalten](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings) in Microsoft Learn abschließen.
+> Machen Sie sich mit Besprechungen und Ereignissen vertraut, indem Sie das Modul [Besprechungen, Konferenzen und Ereignisse mit Microsoft Teams verwalten](/learn/modules/m365-teams-collab-manage-meetings) in Microsoft Learn abschließen.
 
 Besprechungen sind in Teams standardmäßig aktiviert, Sie können jedoch die Besprechungserfahrung für Organisatoren und Teilnehmer steuern. Sie können auch Richtlinien dafür festlegen, was Personen vor und während Besprechungen tun oder nicht tun dürfen. Für weitere Informationen sollten Sie auch die folgenden Artikel lesen:
 
@@ -95,7 +95,7 @@ Wenn Sie bereit sind, Teams für Ihre Benutzer zu verwenden, können sie den Tea
 Stellen Sie sicher, dass jeder, der Teams verwenden wird, über eine Teams-Lizenz verfügt. Weitere Informationen zum Zuweisen einer Teams-Lizenz finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](user-access.md#using-the-microsoft-365-admin-center).
 
 > [!TIP]
-> Erhalten Sie Empfehlungen zur Planung der Bereitstellung Ihrer Teams-Clientbereitstellung, indem Sie das Modul [Bereitstellen von Microsoft Teams-Clients](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/) Microsoft Learn abschließen.
+> Erhalten Sie Empfehlungen zur Planung der Bereitstellung Ihrer Teams-Clientbereitstellung, indem Sie das Modul [Bereitstellen von Microsoft Teams-Clients](/learn/modules/m365-teams-collab-deploy-clients/) Microsoft Learn abschließen.
 
 Wenn Ihre Organisation Microsoft Endpoint Configuration Manager, Gruppenrichtlinien oder einen Verteilungsmechanismus eines Drittanbieters verwendet, finden Sie Informationen zum Bereitstellen von Software auf den Computern ihrer Benutzer unter [Installieren von Microsoft Teams mithilfe von Microsoft Endpoint Configuration Manager](msi-deployment.md).
 

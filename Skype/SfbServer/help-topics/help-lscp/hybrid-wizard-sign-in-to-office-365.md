@@ -1,5 +1,5 @@
 ---
-title: Hybrid-Assistent Anmelden bei Microsoft 365 oder Office 365
+title: Hybrid-Assistent Melden Sie sich bei Microsoft 365 oder Office 365 an
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -18,22 +18,20 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Verwenden Sie den Assistenten für die hybride Verwaltbarkeit von Skype for Business Server, um Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online zu konfigurieren.
-ms.openlocfilehash: bffb37633c58f05536a0b4de6a7d6f2c8b309f64
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Verwenden Sie den Skype for Business Server Hybrid Manageability-Assistenten, um Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online zu konfigurieren.
+ms.openlocfilehash: 558d78845f19a67c1700d47c94404290479d5603
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819335"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099741"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Hybrid-Assistent: Anmelden bei Microsoft 365 oder Office 365
 
-Verwenden Sie den Assistenten für die hybride Verwaltbarkeit von Skype for Business Server, um Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online zu konfigurieren.
+Verwenden Sie den Skype for Business Server Hybrid Manageability-Assistenten, um Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online zu konfigurieren.
 
 ## <a name="sign-in-to-microsoft-365-or-office-365"></a>Anmelden bei Microsoft 365 oder Office 365
 
 Geben Sie den Benutzernamen und das Kennwort für Ihre Microsoft 365- oder Office 365-Organisation ein, um sich anzumelden und Ihre lokale Bereitstellung mit Ihrer Microsoft 365- oder Office 365-Organisation zu verbinden. Sie müssen das Administratorkonto verwenden, das für die onmicrosoft-Domäne erstellt wurde, als Sie sich für Microsoft 365 oder Office 365 angemeldet haben, z. B. admin@contoso.onmicrosoft.com.
 
-Weitere Informationen zum Konfigurieren Ihrer Umgebung für Hybridbereitstellungen finden Sie unter [Übersicht über Hybridbereitstellungen.](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)
-
-
+Weitere Informationen zum Konfigurieren Ihrer Umgebung für hybride Bereitstellungen finden Sie [unter Overview of hybrid deployments](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-hybrid-deployments).

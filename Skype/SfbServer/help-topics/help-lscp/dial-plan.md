@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: e66a19844dd507d8a0df6e7035ef434e1d0bb38a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 20bbc47f73afe67d37b6d187a0dbd9d0dea6f072
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810935"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099911"
 ---
 # <a name="dial-plan"></a>Wählplan
 
@@ -28,11 +28,10 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Erstellen oder Ändern eines Wählplans in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
-- [Ändern von Wähleinstellungen](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [Ändern von Wähleinstellungen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
 - [Erstellen oder Ändern einer Normalisierungsregel in Skype for Business 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
-- [Manuelles Erstellen oder Ändern einer Normalisierungsregel](https://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [Manuelles Erstellen oder Ändern einer Normalisierungsregel](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
-
+Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).

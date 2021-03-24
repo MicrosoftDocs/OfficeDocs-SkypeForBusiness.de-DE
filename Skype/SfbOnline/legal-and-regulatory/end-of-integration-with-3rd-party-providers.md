@@ -1,5 +1,5 @@
 ---
-title: 'Programm zum Ende des Lebenszyklus zur Integration von Skype for Business mit Audiokonferenz-Anbietern von Drittanbietern '
+title: 'Programm zum Ende des Lebenszyklus für die Integration von Skype for Business mit Audiokonferenzanbietern von Drittanbietern '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,112 +19,112 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Am 31. Juli, 2021, wird das Programm für den Lebenszyklusende für die Integration von Skype for Business mit externen Audiokonferenz-Anbietern (Drittanbieter-ACP) abgeschlossen.
-ms.openlocfilehash: 5b49bf573ad79cbdacbc538a0ef67faf1b2b634e
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: Am 31. Juli 2021 endet das Programm zum Ende des Lebenszyklus für die Integration von Skype for Business mit Audiokonferenzanbietern von Drittanbietern (ACP von Drittanbietern).
+ms.openlocfilehash: 5e48c7deb114136e0b12c2636cf562213890656d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164454"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100771"
 ---
-# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programm zum Ende des Lebenszyklus zur Integration von Skype for Business mit Audiokonferenz-Anbietern von Drittanbietern 
+# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programm zum Ende des Lebenszyklus für die Integration von Skype for Business mit Audiokonferenzanbietern von Drittanbietern 
 
-Microsoft hat den Beginn des Programms "End-Life" für die Integration von Skype for Business mit Drittanbieter-Audiokonferenz-Anbietern (ACPS) angekündigt. 
+Microsoft hat den Start des Lebenszyklusprogramms für die Integration von Skype for Business mit Audiokonferenzanbietern von Drittanbietern (ACPs) angekündigt. 
 
-Das Programm zum Ende des Lebenszyklus endet am 31. Juli 2021. Nach Abschluss des Programms funktioniert die Integration von Skype for Business mit Drittanbieter-Audiokonferenz-Anbietern nicht mehr, und die folgenden Änderungen werden an diesem Datum beobachtet (31. Juli 2021):
+Das Programm zum Ende des Lebenszyklus endet am 31. Juli 2021. Nach Abschluss des Programms funktioniert die Integration von Skype for Business mit Audiokonferenzanbietern von Drittanbietern nicht mehr, und die folgenden Änderungen werden an diesem Datum (31. Juli 2021) beobachtet:
 
-- Teilnehmer, die versuchen, an einer Skype for Business-Besprechung teilzunehmen, über Einwahlnummern, die von einem externen AKP-Dienst bereitgestellt werden, werden nicht mehr mit der Skype for Business-Besprechung verbunden.
+- Teilnehmer, die versuchen, über Einwahlnummern, die von einem Drittanbieter-ACP-Dienst bereitgestellt werden, an einer Skype for Business-Besprechung teilnehmen, sind nicht mehr mit der Skype for Business-Besprechung verbunden.
  
-- Für Benutzer, die für einen AKP-Dienst eines Drittanbieters aktiviert sind, werden Ihre Einwahlinformationen nicht mehr automatisch in neue Skype for Business-Besprechungseinladungen aufgenommen.
+- Benutzer, die für einen DRITTANBIETER-ACP-Dienst aktiviert sind, haben ihre Einwahlinformationen nicht mehr automatisch in neue Skype for Business-Besprechungs einladen.
 
-Im Rahmen der Bekanntgabe des Starts des Programms "Ende des Lebenszyklus" haben sich die folgenden Änderungen in Kraft gesetzt und werden bis zum Abschluss des Programms "Ende des Lebenszyklus" weiterhin bestehen: 
+Im Rahmen der Ankündigung des Startprogramms zum Ende des Lebenszyklus wurde die folgende Änderung wirksam und bleibt bis zum Abschluss des Programms zum Ende des Lebenszyklus erhalten: 
 
-- Kunden, die keine Skype for Business-Benutzer für die Verwendung eines Drittanbieter-ACP-Diensts konfiguriert haben, können keine Benutzer so konfigurieren, dass Sie einen Drittanbieter-ACP-Dienst verwenden.
+- Kunden ohne Skype for Business-Benutzer, die für die Verwendung eines DRITTANBIETER-ACP-Diensts konfiguriert sind, können keine Benutzer für die Verwendung eines DRITTANBIETER-ACP-Diensts konfigurieren.
 
-- Bestehende Kunden mit Skype for Business-Benutzern, die für die Verwendung eines Drittanbieter-ACP-Diensts konfiguriert sind, können weiterhin neue Benutzer für die Dauer des Lebenszyklus hinzufügen. Beachten Sie bitte, dass wir nicht empfehlen, zusätzliche Skype for Business-Benutzer zur Nutzung eines Drittanbieters für AKP-Dienste einzurichten, da die Änderungen, die am 31. Juli 2021 in Kraft treten, auch auf Sie zutreffen.
+- Vorhandene Kunden mit Skype for Business-Benutzern, die für die Verwendung eines Drittanbieter-ACP-Diensts konfiguriert sind, können für die Dauer des Lebenszyklusendes weiterhin neue Benutzer hinzufügen. Bitte beachten Sie, dass wir nicht empfehlen, zusätzliche Skype for Business-Benutzer für die Nutzung eines Drittanbieter-ACP-Diensts zu einrichten, da die Änderungen, die am 31. Juli 2021 in Kraft treten, auch für sie gelten.
 
 ## <a name="preparing-for-this-change"></a>Vorbereiten dieser Änderung
 
-Zur Vorbereitung dieser Änderung ermutigen wir betroffene Organisationen, Ihre aktivierten Benutzer über dieses geplante Update vor dem 31. Juli 2021 zu informieren. 
+Um sich auf diese Änderung vorzubereiten, empfehlen wir betroffenen Organisationen, ihre aktivierten Benutzer vor dem 31. Juli 2021 über dieses geplante Update zu informieren. 
 
-Nach dem 31. Juli 2021 können Nutzer Skype for Business weiterhin ohne Unterbrechung Ihrer Online-Besprechungen nutzen. Organisationen müssen jedoch Ihre Benutzer für Audiokonferenzen aktivieren, die von Microsoft bereitgestellt werden, wenn Sie Einwahl-Audiokonferenzen mit Skype for Business oder Microsoft Teams benötigen. Weitere Informationen zu Microsoft-Audiokonferenzen finden Sie unter [Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing). 
+Nach dem 31. Juli 2021 können Benutzer Skype for Business weiterhin ohne Unterbrechung ihrer Onlinebesprechungen nutzen. Organisationen müssen ihre Benutzer jedoch für Von Microsoft bereitgestellte Audiokonferenzen aktivieren, wenn sie Einwahlaudiokonferenzen mit Skype for Business oder Microsoft Teams benötigen. Weitere Informationen zu Microsoft Audio Conferencing finden Sie unter [Audiokonferenzen.](https://products.office.com/skype-for-business/audio-conferencing) 
 
-Je nach dem gewünschten Endstatus einer Organisation können drei Pfade befolgt werden:
+Je nach gewünschtem Endzustand einer Organisation können drei Pfade befolgt werden:
 
-- Migrieren zu Microsoft-Audiokonferenzen 
-- Verwenden Sie weiterhin separat einen Audiokonferenz-Anbieter von Drittanbietern. 
-- Beenden Sie die Verwendung von Einwahlkonferenzen insgesamt.
+- Migrieren Sie zu Microsoft Audio Conferencing. 
+- Verwenden Sie weiterhin separat einen Drittanbieter für Audiokonferenzen. 
+- Beenden Sie die Verwendung von Einwahlkonferenzen vollständig.
 
-### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>Path #1: Migration zu Microsoft Audio Conferencing   
+### <a name="path-1-migrate-to-microsoft-audio-conferencing"></a>Pfad #1: Migrieren zu Microsoft Audio Conferencing   
 
-Organisationen, die beschließen, zu Microsoft-Audiokonferenzen zu migrieren und Ihre Migration vor dem 31. Juli 2021 abzuschließen, werden während oder nach diesem Datum keine Auswirkungen auf den Dienst haben. Bei der Migration zu Microsoft Audio Conferencing werden die folgenden Änderungen an einer Organisation eingeführt: 
+Organisationen, die sich entscheiden, zu Microsoft Audio Conferencing zu migrieren und ihre Migration vor dem 31. Juli 2021 abgeschlossen zu haben, haben während oder nach diesem Datum keine Auswirkungen auf den Dienst. Die Migration zu Microsoft Audio Conferencing führt zu den folgenden Änderungen an einer Organisation: 
 
-- Dem Dienst werden alle anderen Microsoft 365-oder Office 365-Dienste in Rechnung gestellt. 
+- Der Dienst wird mit allen anderen Microsoft 365- oder Office 365-Diensten in Rechnung stellen. 
 
-- Wenn das Standardabonnement erworben wurde, werden die Gebühren Einwahl Kosten in die monatlichen Abonnementkosten pro Nutzer einbezogen. 
+- Wenn das Standardabonnement erworben wird, sind die gebührenpflichtigen Einwahlkosten in den monatlichen Abonnementkosten pro Benutzer enthalten. 
 
-- Jeder Organisation und ihren Benutzern wird eine neue Gruppe von Einwahl Telefonnummern zur Verfügung gestellt. Informationen zur geografischen Reichweite des Microsoft-Audiokonferenzdienst finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+- Jede Organisation und ihre Benutzer erhalten eine neue Gruppe von Einwahltelefonnummern. Informationen zur geografischen Abdeckung des Microsoft Audio Conferencing-Diensts finden Sie unter Verfügbarkeit von Ländern und Regionen für [Audiokonferenzen und Anrufpläne.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
  
-- Besprechungen, die von Benutzern, die mit einem Drittanbieter-ACP aktiviert wurden, bereits geplant wurden, werden automatisch neu geplant, um Einwahlinformationen für Microsoft-Audiokonferenz einzubeziehen.
+- Besprechungen, die bereits von Benutzern geplant wurden, die mit einem DRITTANBIETER-ACP aktiviert wurden, werden automatisch neu geplant, um Einwahlinformationen für Microsoft Audio conferencing zu enthalten.
  
-- Die Konferenz-IDs jeder Besprechung sind dynamisch, was bedeutet, dass jede Besprechung eine eigene dedizierte Konferenz-ID hat. Dynamische Konferenz-IDs sorgen für mehr Sicherheit und eine verbesserte Benutzeroberfläche für Besprechungen in einem anderen Hintergrund.
+- Die Konferenz-IDs jeder Besprechung sind dynamisch, was bedeutet, dass jede Besprechung über eine eigene dedizierte Konferenz-ID verfügen wird. Dynamische Konferenz-IDs bieten verbesserte Sicherheit und eine verbesserte Benutzererfahrung für Back-to-Back-Besprechungen.
 
-- Die gesamte Nutzung des Diensts unterliegt den Nutzungsbedingungen für Audiokonferenz-Dienste. 
+- Die nutzung des Diensts unterliegt den Nutzungsbedingungen für Audiokonferenzdienste. 
 
-Das Migrieren zu Microsoft-Audiokonferenzen ist einfach und kann nach dem Erwerb der Lizenzen für den Dienst in nur wenigen Schritten erfolgen. Informationen zum Migrieren zu Microsoft-Audiokonferenzen finden Sie unter:
+Die Migration zu Microsoft Audio Conferencing ist einfach und kann nach dem Erwerb der Lizenzen für den Dienst in nur wenigen Schritten durchgeführt werden. Informationen zum Migrieren zu Microsoft Audio Conferencing finden Sie unter:
 
-- [Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **Zusammenfassung:**
 
-- Organisationen, die zu Microsoft-Audiokonferenzen migrieren und Ihre Migration vor dem 31. Juli 2021 durchführen, sehen während oder nach diesem Datum keine Auswirkungen auf Ihren Dienst.
+- Organisationen, die zu Microsoft Audio Conferencing migrieren und ihre Migration vor dem 31. Juli 2021 abschließen, sehen während oder nach diesem Datum keine Auswirkungen auf ihren Dienst.
 
-- Weitere Informationen zum Migrieren zu Microsoft-Audiokonferenzen finden Sie unter [Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md). 
+- Weitere Informationen zum Migrieren zu Microsoft Audio Conferencing finden Sie unter Testen oder Erwerben von [Audiokonferenzen in Microsoft 365 oder Office 365.](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
 
-### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Path #2: weiter zur separaten Verwendung eines Drittanbieters für Audiokonferenzen
+### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>Pfad #2: Weiterhin separat einen Drittanbieter für Audiokonferenzen verwenden
 
-Organisationen, die beschließen, weiterhin eine Drittanbieter-ACP am und nach dem 31. Juli 2021 zu verwenden, werden Auswirkungen auf den Dienst haben, da die Einwahlinformationen des Drittanbieters nicht mehr für die Teilnahme am Audioteil einer Skype for Business-Besprechung verwendet werden können. 
+Organisationen, die sich entscheiden, am und nach dem 31. Juli 2021 weiterhin einen Drittanbieter-ACP zu verwenden, haben Auswirkungen auf den Dienst, da die Einwahlinformationen eines Drittanbieters nicht mehr für die Teilnahme am Audioteil einer Skype for Business-Besprechung verwendet werden können. 
 
-Um die Fragmentierung von Audio in Skype for Business-Besprechungen zu verhindern, indem einige Teilnehmer über VoIP und andere über das Drittanbieter-ACP beitreten, sollten diese Organisationen die Verwendung von VoIP in den Besprechungen Ihrer Benutzer deaktivieren. Auf diese Weise müssen alle Teilnehmer mit dem Drittanbieter-ACP an dem Audioteil einer Besprechung teilnehmen, und alle anderen Arbeitsauslastungen der Besprechung (wie Chats oder Bildschirmübertragung) können weiterhin über Skype for Business unterstützt werden. 
+Um die Fragmentierung von Audio in Skype for Business-Besprechungen zu verhindern, indem einige Teilnehmer über VoIP und andere über den Drittanbieter-ACP teilnehmen, wird es für diese Organisationen empfohlen, die Verwendung von VoIP in den Besprechungen ihrer Benutzer zu deaktivieren. Auf diese Weise müssen alle Teilnehmer über den DRITTANBIETER-ACP am Audioteil einer Besprechung teilnehmen, und alle anderen Arbeitslasten der Besprechung (z. B. Chat oder Bildschirmfreigabe) können über Skype for Business weiterhin unterstützt werden. 
 
-- Um VoIP aus allen Besprechungen eines bestimmten Organisators zu deaktivieren, setzen Sie den AllowIPAudio-Parameter seiner konferenzrichtlinie über das Cmdlet "CsConferencingPolicy" auf "false". Weitere Informationen finden Sie unter [Satz-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+- Wenn Sie VoIP von allen Besprechungen eines bestimmten Organisators deaktivieren möchten, legen Sie den Parameter AllowIPAudio der Konferenzrichtlinie über das cmdlet Set-CsConferencingPolicy false ein. Weitere Informationen finden Sie unter [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-Im Hinblick auf die Planung und ab dem 31. Juli 2021 werden die Einwahlinformationen eines Drittanbieters nicht mehr automatisch in Skype for Business-Besprechungseinladungen aufgenommen. Benutzer müssen die Einwahlinformationen in Ihren Skype for Business-Besprechungseinladungen manuell hinzufügen, wenn Sie diese Informationen im Rahmen ihrer Besprechungen weiterhin einbeziehen möchten. 
+Im Hinblick auf die Planung und ab dem 31. Juli 2021 werden die Einwahlinformationen eines Drittanbieter-ACP nicht mehr automatisch in Skype for Business-Besprechungs-Einladungen einbezogen. Benutzer müssen die Einwahlinformationen in ihren Skype for Business-Besprechungsbesprechungen manuell hinzufügen, wenn sie diese Informationen weiterhin als Teil ihrer Besprechungen hinzufügen möchten. 
 
-Bitte beachten Sie, dass die vorhandenen Nutzer Treffen am 31. Juli 2021 nicht automatisch neu geplant werden, um die Einwahlinformationen von Drittanbietern zu entfernen. Organisationen, die beschließen, VoIP für die Besprechungen Ihrer Benutzer zu aktivieren, sollten die Integration von Drittanbieter-ACP für Ihre Benutzer deaktivieren und Ihre Besprechungen mithilfe des Besprechungs Migrations Diensts neu planen, um die Einwahlinformationen von Drittanbietern für Audiokonferenzen aus Ihren vorhandenen Besprechungen zu entfernen und die Fragmentierung von Audio in bereits geplanten Besprechungen zu verhindern. 
+Bitte beachten Sie, dass die vorhandenen Benutzerbesprechungen am 31. Juli 2021 nicht automatisch neu geplant werden, um Einwahlinformationen von Drittanbietern zu entfernen. Organisationen, die beschließen, VoIP für die Besprechungen ihrer Benutzer aktiviert zu lassen, sollten erwägen, die Integration von DRITTANBIETER-ACP für ihre Benutzer zu deaktivieren und ihre Besprechungen mithilfe des Besprechungsmigrationsdiensts neu zu terminieren, um die Einwahlinformationen für Audiokonferenzen von Drittanbietern aus ihren vorhandenen Besprechungen zu entfernen und die Fragmentierung von Audio in bereits geplanten Besprechungen zu verhindern. 
 
-- Verwenden Sie das Cmdlet Remove-CsUserAcp, um die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator zu deaktivieren. Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Wenn Sie die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator deaktivieren möchten, verwenden Sie das Remove-CsUserAcp Cmdlet. Weitere Informationen finden Sie unter [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Wenn Sie die Besprechungen von Benutzern nach dem Deaktivieren der Integration mit einem Drittanbieter für Audiokonferenzen automatisch neu planen möchten, lesen Sie "wie führe ich die Besprechungs Migration manuell für einen Benutzer aus?" aus. beim [Einrichten des Besprechungs Migrations Diensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
+- Informationen zum automatischen Neuplanen der Besprechungen von Benutzern nach dem Deaktivieren der Integration mit einem Drittanbieter für Audiokonferenzen finden Sie unter "Wie kann ich die Besprechungsmigration manuell für einen Benutzer ausführen?" unter [Einrichten des Besprechungsmigrationsdiensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)aus. 
 
 **Zusammenfassung:**
 
-- Organisationen, die beschließen, weiterhin eine Drittanbieter-ACP am und nach dem 31. Juli 2021 zu verwenden, werden davon betroffen sein, da ein Drittanbieter-ACP nicht in der Lage ist, an einer Skype for Business-Besprechung teilzunehmen, und neue Besprechungen keine AKP-Einwahlinformationen von Drittanbietern enthalten werden. 
+- Organisationen, die sich entscheiden, am und nach dem 31. Juli 2021 weiterhin einen Drittanbieter-ACP zu verwenden, sind davon betroffen, da ein DRITTANBIETER-ACP nicht für die Teilnahme an einer Skype for Business-Besprechung verwendet werden kann und neue Besprechungen keine Einwahlinformationen von Drittanbietern enthalten. 
 
-- Es wird empfohlen, dass VoIP für alle Besprechungen aller betroffenen Benutzer vor dem 31. Juli, 2021, deaktiviert wird, um zu verhindern, dass die Audiodaten von Teilnehmern fragmentiert werden, die über VoIP und über ein Drittanbieter-ACP beitreten. 
+- Es wird empfohlen, VoIP für alle Besprechungen aller betroffenen Benutzer vor dem 31. Juli 2021 zu deaktivieren, um zu verhindern, dass die Audiofragmentierung über teilnehmerübergreifend über VoIP und über einen Drittanbieter-ACP erfolgt. 
 
-    - Um VoIP aus allen Besprechungen eines bestimmten Organisators zu deaktivieren, setzen Sie den AllowIPAudio-Parameter der konferenzrichtlinie des Benutzers über das Cmdlet "CsConferencingPolicy" auf "false". Weitere Informationen finden Sie unter [Satz-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    - Wenn Sie VoIP von allen Besprechungen eines bestimmten Organisators deaktivieren möchten, legen Sie den Parameter AllowIPAudio der Konferenzrichtlinie des Benutzers über das cmdlet Set-CsConferencingPolicy false. Weitere Informationen finden Sie unter [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
-- Wenn eine Organisation VoIP nicht für alle Besprechungen deaktiviert, wird empfohlen, dass Benutzer die Skype for Business Online-Integration mit einem Drittanbieter-ACP deaktivieren und Ihre Besprechungen neu planen, um die Einwahlinformationen des Drittanbieters zu entfernen, um eine Fragmentierung des Audiosignals zu verhindern.
+- Wenn eine Organisation VoIP nicht für alle Besprechungen deaktiviert, empfiehlt es sich, dass Benutzer die Skype for Business Online-Integration in einen DRITTANBIETER-ACP deaktivieren und ihre Besprechungen neu terminieren, um die Drittanbieter-ACP-Einwahlinformationen zu entfernen, um die Fragmentierung von Audio zu verhindern.
 
-    - Verwenden Sie das Cmdlet [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) , um die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator zu deaktivieren. 
+    - Um die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator zu deaktivieren, verwenden Sie das [Cmdlet Remove-CsUserAcp.](/powershell/module/skype/remove-csuseracp?view=skype-ps) 
 
-    - Wenn Sie die Besprechungen automatisch neu planen möchten, lesen Sie "wie führe ich die Besprechungs Migration manuell für einen Benutzer aus?" aus. beim [Einrichten des Besprechungs Migrations Diensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
+    - Informationen zum automatischen Neuplanen der Besprechungen finden Sie unter "Wie kann ich die Besprechungsmigration manuell für einen Benutzer ausführen?" unter [Einrichten des Besprechungsmigrationsdiensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)aus.
 
-### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>Path #3: Beenden der Verwendung von Einwahlkonferenzen insgesamt
+### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>Pfad #3: Beenden der vollständigen Verwendung von Einwahlkonferenzen
 
-Organisationen, die sich entscheiden, die Verwendung von Einwahlkonferenzen vollständig zu beenden (weder von Microsoft noch von einem Drittanbieter-ACP bereitgestellt), können sich voll und ganz auf VoIP verlassen, um den Audioteil einer Skype for Business-Besprechung zu unterstützen. 
+Organisationen, die sich entschließen, Einwahlkonferenzen nicht mehr vollständig zu verwenden (weder von Microsoft noch von einem Drittanbieter-ACP bereitgestellt), können sich vollständig auf VoIP verlassen, um den Audioteil einer Skype for Business-Besprechung zu unterstützen. 
 
-Diese Organisationen müssten Ihre Benutzer davon abhalten, einen Drittanbieter für Audiokonferenzen zu verwenden und Ihre Besprechungen mithilfe des Besprechungs Migrations Diensts automatisch neu zu planen, um Ihre Einwahlkonferenzinformationen zu entfernen. 
+Diese Organisationen müssten ihre Benutzer von der Verwendung eines Drittanbieters für Audiokonferenzen deaktivieren und ihre Besprechungen mithilfe des Besprechungsmigrationsdiensts automatisch neu terminieren lassen, um ihre Einwahlkonferenzinformationen zu entfernen. 
 
-- Verwenden Sie das Cmdlet Remove-CsUserAcp, um die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator zu deaktivieren. Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Wenn Sie die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator deaktivieren möchten, verwenden Sie das Remove-CsUserAcp Cmdlet. Weitere Informationen finden Sie unter [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Wenn Sie die Besprechungen von Benutzern nach dem Deaktivieren der Integration mit einem Drittanbieter für Audiokonferenzen automatisch neu planen möchten, lesen Sie "wie führe ich die Besprechungs Migration manuell für einen Benutzer aus?" aus. beim [Einrichten des Besprechungs Migrations Diensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
+- Informationen zum automatischen Neuplanen der Besprechungen von Benutzern nach dem Deaktivieren der Integration mit einem Drittanbieter für Audiokonferenzen finden Sie unter "Wie kann ich die Besprechungsmigration manuell für einen Benutzer ausführen?" unter [Einrichten des Besprechungsmigrationsdiensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)aus. 
 
 **Zusammenfassung:** 
 
-- Organisationen, die beschließen, die Verwendung von Audiokonferenzen vor dem 31. Juli 2021 zu beenden, werden nicht beeinträchtigt.
+- Organisationen, die sich entscheiden, audio conferencing vor dem 31. Juli 2021 vollständig zu beenden, sind davon nicht betroffen.
 
-- Verwenden Sie das Cmdlet Remove-CsUserAcp, um die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator zu deaktivieren. Weitere Informationen finden Sie unter [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Wenn Sie die Integration von Audiokonferenzen von Drittanbietern für einen bestimmten Organisator deaktivieren möchten, verwenden Sie das Remove-CsUserAcp Cmdlet. Weitere Informationen finden Sie unter [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
-- Wenn Sie die Besprechungen von Benutzern nach der Deaktivierung der Integration in Drittanbieter für Audiokonferenzen automatisch neu planen möchten, lesen Sie "wie führe ich die Besprechungs Migration manuell für einen Benutzer aus?" aus. beim [Einrichten des Besprechungs Migrations Diensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
+- Informationen zum automatischen Neuplanen der Besprechungen von Benutzern nach dem Deaktivieren der Integration mit Audiokonferenzanbietern von Drittanbietern finden Sie unter "Wie kann ich die Besprechungsmigration manuell für einen Benutzer ausführen?" unter [Einrichten des Besprechungsmigrationsdiensts (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)aus.

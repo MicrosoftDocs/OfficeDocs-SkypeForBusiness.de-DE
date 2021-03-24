@@ -1,5 +1,5 @@
 ---
-title: Einrichten der PIN-Länge für Audiokonferenz-Besprechungen in Skype for Business Online
+title: Festlegen der PIN-Länge für Audiokonferenzbesprechungen in Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,69 +20,69 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Lernen Sie die Parameter für die Länge und die Anforderungen einer PIN kennen, und erfahren Sie, wie Sie die Länge für Besprechungen in Skype for Business festzulegen.
-ms.openlocfilehash: 9e1be77b18c5b416d220ce5d7432562888ce5752
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: Erfahren Sie mehr über die Parameter für die Länge und Anforderungen einer PIN, und erfahren Sie, wie Sie die Länge für Besprechungen in Skype for Business festlegen.
+ms.openlocfilehash: a2acaad15712621c33b275e914263f6781178d9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164534"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100791"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Einrichten der PIN-Länge für Audiokonferenz-Besprechungen in Skype for Business Online
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Festlegen der PIN-Länge für Audiokonferenzbesprechungen in Skype for Business Online
 
 
 > [!NOTE]
-> Informationen zum Festlegen der PIN-Länge in Microsoft Teams finden Sie unter [Festlegen der PIN-Länge für Audiokonferenz-Besprechungen in Microsoft Teams](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).
+> Informationen zum Festlegen der PIN-Länge in Microsoft Teams finden Sie unter Festlegen der PIN-Länge für Audiokonferenzbesprechungen [in Microsoft Teams.](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)
 
-Wenn Sie Audiokonferenzen für Skype for Business einrichten, erhalten Sie eine Audiokonferenz-Brücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen. Die von Ihnen festgelegte Telefonnummer wird in die Besprechungseinladungen für die Skype for Business-App aufgenommen.
+Wenn Sie Audiokonferenzen für Skype for Business einrichten, erhalten Sie eine Audiokonferenzbrücke. Eine Konferenzbrücke kann eine oder mehr Telefonnummern umfassen. Die von Ihnen festgelegte Telefonnummer wird in die Besprechungs-Einladungen für die Skype for Business-App aufgenommen.
   
-Die Audiokonferenzbrücke nimmt Anrufe von Benutzern an, die sich über ein Telefon in eine Besprechung einwählen. Sie beantwortet den Anrufer mit Sprachansagen von einer automatischen Telefonzentrale und kann dann – je nach Ihren Einstellungen – Benachrichtigungen abspielen und Anrufer bitten, deren Namen aufzuzeichnen. Mit den **Microsoft Bridge-Einstellungen** können Sie die Einstellungen für Besprechungs Benachrichtigungen und die Besprechungsteilnahme ändern und die Länge der Pins festlegen, die von Besprechungsorganisatoren verwendet werden. Besprechungsorganisatoren verwenden Pins zum Starten von Besprechungen, wenn Sie nicht mit der Skype for Business-APP an der Besprechung teilnehmen können.
+Die Audiokonferenzbrücke nimmt Anrufe von Benutzern an, die sich über ein Telefon in eine Besprechung einwählen. Er beantwortet den Anrufer mit Sprachanrufen von einer automatischen Telefonwarte und kann dann je nach Ihren Einstellungen Benachrichtigungen wiederverspielen und Anrufer bitten, ihren Namen zu notieren. **Mit den Microsoft** Bridge-Einstellungen können Sie die Einstellungen für Besprechungsbenachrichtigungen und die Besprechungsbesprechungserfahrung ändern und die Länge der PINs festlegen, die von Besprechungsorganisatoren verwendet werden. Besprechungsorganisatoren verwenden PINs, um Besprechungen zu starten, wenn sie nicht über die Skype for Business-App an der Besprechung teilnehmen können.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>Konfigurieren der PIN-Länge
  
-1. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu **Audiokonferenz** > -**Einstellungen für Microsoft Bridge**.
+1. Wechseln Sie **im Skype for Business Admin Center** in der linken Navigationsleiste zu Einstellungen für **Audiokonferenzen von** Microsoft  >  **Bridge.**
     
-2. Wählen Sie unter **Sicherheits** > -**PIN-Länge**die gewünschte Anzahl der Ziffern für die PIN aus, und klicken Sie auf **Speichern**.
+2. Wählen **Sie**  >  **unter Länge der Sicherheits-PIN** die Anzahl der Ziffern aus, die Sie für die PIN wünschen, und klicken Sie dann auf **Speichern.**
     
 > [!NOTE]
 > Eine PIN hat nichts mit einer Konferenz-ID zu tun. Konferenz-IDs werden von Anrufern bei der Teilnahme an einer Besprechung verwendet. Sie dienen der Kennzeichnung der Besprechung. Anhand der PIN wird ein Anrufer als Organisator der Besprechung authentifiziert. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>Möchten Sie mehr über die PIN-Einstellungen erfahren?
+## <a name="want-to-know-more-about-pin-settings"></a>Möchten Sie mehr über PIN-Einstellungen wissen?
 
-- Pins können von 4 bis 12 Ziffern sein; der Standardwert ist 5. PINs können nur Zahlen umfassen. Buchstaben und Sonderzeichen sind nicht zulässig.
+- PINs können zwischen 4 und 12 Ziffern sein. die Standardeinstellung ist 5. PINs können nur Zahlen umfassen. Buchstaben und Sonderzeichen sind nicht zulässig.
     
-- Eine PIN ist nur für den Besprechungsorganisator erforderlich, wenn ein Skype for Business-Benutzer die Besprechung noch nicht gestartet hat. Wenn sich alle Teilnehmer in die Besprechung einwählen, ist die PIN erforderlich, damit der Organisator der Besprechung die Besprechung starten kann.
+- Eine PIN ist für den Besprechungsorganisator nur erforderlich, wenn ein Skype for Business-Benutzer die Besprechung noch nicht gestartet hat. Wenn sich alle Teilnehmer in die Besprechung einwählen, ist die PIN erforderlich, damit der Organisator der Besprechung die Besprechung starten kann.
     
 - Die PIN-Sicherheitseinstellungen gelten für alle Telefonnummern, die zu einer Microsoft-Brücke gehören. Sie gelten für alle Besprechungen, bei denen zu einer bestimmten Audiokonferenzbrücke gehörende Telefonnummern genutzt werden. 
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) nutzen.
+- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) nutzen.
     
 - So stellen Sie die Anzahl der Ziffern in der PIN auf 8 Ziffern ein:  `Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum Sie Microsoft 365 oder Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Änderungen an den Einstellungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
+- Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-    [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
-[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460495"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101101"
 ---
 # <a name="manage-teams-with-policies"></a>Verwalten von Teams mit Richtlinien
 
@@ -40,7 +40,7 @@ Weitere Informationen zum Zuweisen von Richtlinien finden Sie [hier.](assign-pol
 
 ## <a name="how-to-manage-policies"></a>Verwalten von Richtlinien
 
-Richtlinien werden mit dem Microsoft Teams Admin Center oder [mit PowerShell verwaltet.](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell)
+Richtlinien werden mit dem Microsoft Teams Admin Center oder [mit PowerShell verwaltet.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
 Mit einer App-Setuprichtlinie können Sie beispielsweise Benutzern das Hochladen benutzerdefinierter Apps, das Installieren von Apps im Auftrag Ihrer Benutzer und das Anheften von Apps an die Teams-App-Leiste ermöglichen. Diese Richtlinien werden im Teams Admin Center konfiguriert.
 

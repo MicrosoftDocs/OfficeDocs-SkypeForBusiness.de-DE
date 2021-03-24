@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909399"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101151"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 
@@ -81,7 +81,7 @@ Wenn Sie die Tasks-App für Ihre Benutzer anheften möchten, können Sie die glo
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>"Meine Aufgaben" eines Benutzers sind sichtbar, wenn der Benutzer für Exchange Online lizenziert ist.
 
-Wenn ein Benutzer **Meine Aufgaben** nicht sehen soll, können Sie es ausblenden. Dazu [entfernen Sie die Exchange Online-Lizenz des Benutzers](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz keinen Zugriff mehr auf sein Postfach hat.  Postfachdaten werden 30 Tage lang gespeichert. Danach werden die Daten entfernt und können nicht wiederhergestellt werden, es sei denn, das Postfach wird in [In-Situ-Aufbewahrung oder Aufbewahrung für juristische Zwecke](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) gestellt.
+Wenn ein Benutzer **Meine Aufgaben** nicht sehen soll, können Sie es ausblenden. Dazu [entfernen Sie die Exchange Online-Lizenz des Benutzers](/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz keinen Zugriff mehr auf sein Postfach hat.  Postfachdaten werden 30 Tage lang gespeichert. Danach werden die Daten entfernt und können nicht wiederhergestellt werden, es sei denn, das Postfach wird in [In-Situ-Aufbewahrung oder Aufbewahrung für juristische Zwecke](/exchange/security-and-compliance/in-place-and-litigation-holds) gestellt.
 
 Wir empfehlen dies nicht für Information-Worker, aber es kann einige Szenarien geben, in denen dies gelten kann, z. B. für Mitarbeiter in Service und Produktion, die nicht auf E-Mails angewiesen sind.
 
@@ -123,5 +123,5 @@ Schritte zum Einrichten der Hierarchie Team-Adressierungshierarchie finden Sie u
 
 Tasks unterstützt Power Automate für To Do und Graph-APIs für Planner. Weitere Informationen finden Sie unter:
 
-- [Übersicht über Planner-Aufgaben und Pläne-API](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Übersicht über Planner-Aufgaben und Pläne-API](/graph/planner-concept-overview)
 - [Verwenden von Microsoft To Do mit Power Automate](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

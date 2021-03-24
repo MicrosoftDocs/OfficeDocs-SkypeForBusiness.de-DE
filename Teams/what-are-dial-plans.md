@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Erfahren Sie, welche Arten von Wählplänen (PSTN-Anrufpläne) in Teams verfügbar sind und wie Sie einen für Ihre Organisation auswählen.  '
-ms.openlocfilehash: adb5f46296423b6339c62029d27111345c2fd646
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460815"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100981"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -113,7 +113,7 @@ Da ein beliebiger Mandantenwählplan effektiv mit dem Wählplan eines bestimmten
 
 Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um numerische Übereinstimmungsmuster anzugeben, die vom Server zum Übersetzen von Wählzeichenfolgen in das E.164-Format verwendet werden. Sie können Normalisierungsregeln erstellen, indem Sie den regulären Ausdruck für den Abgleich angeben sowie die Übersetzung, die für gefundene Übereinstimmungen durchgeführt werden soll. Abschließend können Sie eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
 
-Details zur Verwendung .NET Framework regulären Ausdrücken finden Sie [unter .NET Framework Reguläre Ausdrücke](https://go.microsoft.com/fwlink/p/?linkId=140927).
+Details zur Verwendung .NET Framework regulären Ausdrücken finden Sie [unter .NET Framework Reguläre Ausdrücke](/dotnet/standard/base-types/regular-expressions).
 
 Weitere Informationen finden Sie unter Erstellen und Verwalten von [Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Normalisierungsregeln für Ihre Mandantenwählpläne.
 
@@ -163,4 +163,4 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 
 [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
 
-[Haftungsausschlussetikett für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Haftungsausschlussbezeichnung für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
