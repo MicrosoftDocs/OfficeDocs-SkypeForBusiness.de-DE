@@ -8,12 +8,12 @@ metadata:
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: f810d9249b979b7059811d54161d8d65641f14e3
-  ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/17/2020
-  ms.locfileid: "46778111"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102951"
 productDirectory:
   items:
   - title: Durchsuchen
@@ -23,12 +23,12 @@ productDirectory:
       text: Was ist Business Voice?
     - url: https://www.microsoft.com/microsoft-365/business-voice
       text: Microsoft 365 Business Voice
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
       text: Dienstbeschreibung
   - title: Einrichten
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     links:
-    - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+    - url: ./what-to-buy.md
       text: So erhalten Sie Business Voice
     - url: get-ready-internet.md
       text: Überprüfen Ihrer Internetverbindung
@@ -41,11 +41,11 @@ productDirectory:
     links:
     - url: port-phone-numbers.md
       text: Portieren vorhandener Telefonnummern
-    - url: set-up-auto-attendants.md
+    - url: ./create-a-phone-system-auto-attendant-smb.md
       text: Einrichten automatischer Telefonzentralen
     - url: set-up-policies.md
       text: Einrichten von Richtlinien
-    - url: set-up-call-queues.md
+    - url: ./create-a-phone-system-call-queue-smb.md
       text: Einrichten von Warteschlangen.
   - title: Verwendung
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
@@ -61,7 +61,7 @@ productDirectory:
   - title: Ressourcen für Partner
     imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
     links:
-    - url: https://docs.microsoft.com/partner-center/
+    - url: /partner-center/
       text: Abrufen von Microsoft 365 Business aus dem Partner Center
     - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
       text: Microsoft 365 Business Voice für Partner
@@ -77,11 +77,11 @@ productDirectory:
   - title: Hilfedokumentation
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
     links:
-    - url: /microsoftteams/cloud-voice-landing-page
+    - url: ../cloud-voice-landing-page.md
       text: Microsoft Teams-Dokumente für Administratoren
     - url: https://microsoftteams.uservoice.com/
       text: Microsoft Teams UserVoice-Feedback
     - url: https://support.office.com/teams
       text: Microsoft Teams-Dokumente für Clients
-    - url: https://docs.microsoft.com/office365/admin/
+    - url: /office365/admin/
       text: Microsoft 365- und Office 365-Administratordokumente

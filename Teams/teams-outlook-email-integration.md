@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469017eb9d03cbba55017ca609f49da9ebfe07a
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819361"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104051"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams- und Outlook-E-Mail-Integration
 
@@ -31,17 +31,17 @@ Mithilfe von **Mit Outlook teilen** können Benutzer eine Kopie einer Teams-Unte
 
 ![Screenshot, der die Funktion „Mit Outlook teilen“ in Teams zeigt.](media/share-to-outlook.png)
 
-Um dieses Feature zu verwenden, muss für den Benutzer Outlook im Web aktiviert sein. Wenn Outlook im Web deaktiviert ist, wird dem Benutzer die Option **Mit Outlook teilen** in Teams nicht angezeigt. Schritte zum Aktivieren und Deaktivieren von Outlook im Web finden Sie unter [Aktivieren oder Deaktivieren von Outlook im Web für ein Postfach](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
+Um dieses Feature zu verwenden, muss für den Benutzer Outlook im Web aktiviert sein. Wenn Outlook im Web deaktiviert ist, wird dem Benutzer die Option **Mit Outlook teilen** in Teams nicht angezeigt. Schritte zum Aktivieren und Deaktivieren von Outlook im Web finden Sie unter [Aktivieren oder Deaktivieren von Outlook im Web für ein Postfach](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app).
 
 ## <a name="actionable-activity-emails"></a>E-Mails mit Aktionen erfordernden Aktivitäten
 
 Benutzer erhalten automatisch E-Mails über verpasste, Aktionen erfordernde Aktivitäten, die ihnen helfen, sich über verpasste Unterhaltungen in Teams zu informieren. In den E-Mails über verpasste Aktivitäten werden die neuesten Antworten aus einer Unterhaltung angezeigt, einschließlich der Nachrichten, die nach der verpassten Nachricht gesendet wurden, und Benutzer können auf **Antworten** klicken, um direkt aus Outlook heraus zu antworten. Weitere Informationen finden Sie unter [Antworten auf E-Mails über verpasste Aktivitäten aus Outlook](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381). 
 
 > [!NOTE]
-> Dieses Feature wird in Outlook für Mac oder einigen älteren Versionen von Outlook für Windows nicht unterstützt. Weitere Informationen finden Sie unter [Aktionen erfordernde Nachrichten in Outlook und Office 365-Gruppen](https://docs.microsoft.com/outlook/actionable-messages/).
+> Dieses Feature wird in Outlook für Mac oder einigen älteren Versionen von Outlook für Windows nicht unterstützt. Weitere Informationen finden Sie unter [Aktionen erfordernde Nachrichten in Outlook und Office 365-Gruppen](/outlook/actionable-messages/).
 
 ![Screenshot mit einer E-Mail über eine verpasste Aktivität.](media/missed-activity-email.png)
 
 ![Screenshot, der zeigt, wie man auf eine E-Mail über eine verpasste Aktivität antwortet.](media/missed-activity-email-reply.png)
 
-Sie können das Cmdlet [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) zusammen mit dem Parameter **SmtpActionableMessagesEnabled** verwenden, um Aktionen erfordernde E-Mails zu deaktivieren. Standardmäßig ist der Parameter **SmtpActionableMessagesEnabled** auf **true** festgelegt. Wenn Sie den Parameter auf **false** festlegen, werden Aktionen erfordernde E-Mail-Nachrichten in ganz Office 365 deaktiviert. Für Teams-Benutzer bedeutet dies, dass die Option **Antworten**, um direkt in Outlook zu antworten, in E-Mails über verpasste Aktivitäten nicht verfügbar ist. Stattdessen enthalten die E-Mails über verpasste Aktivitäten eine Option **In Teams antworten**, über die Benutzer in Teams antworten können.
+Sie können das Cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) zusammen mit dem Parameter **SmtpActionableMessagesEnabled** verwenden, um Aktionen erfordernde E-Mails zu deaktivieren. Standardmäßig ist der Parameter **SmtpActionableMessagesEnabled** auf **true** festgelegt. Wenn Sie den Parameter auf **false** festlegen, werden Aktionen erfordernde E-Mail-Nachrichten in ganz Office 365 deaktiviert. Für Teams-Benutzer bedeutet dies, dass die Option **Antworten**, um direkt in Outlook zu antworten, in E-Mails über verpasste Aktivitäten nicht verfügbar ist. Stattdessen enthalten die E-Mails über verpasste Aktivitäten eine Option **In Teams antworten**, über die Benutzer in Teams antworten können.

@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und für Konsistenz zu sorgen.
-ms.openlocfilehash: 07e2712db52d79e8db66789fe062c8ab46854e5b
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50585687"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162696"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinienpaketen in Microsoft Teams
 
@@ -66,9 +66,9 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 |Ausbildung (Grundschüler mit Remotelernen)    |Erstellt eine Reihe von Richtlinien, um die Sicherheit und Zusammenarbeit der Schüler beim Lernen per Fernzugriff zu maximieren.      |
 |Frontline-Manager |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Frontline-Manager in Ihrer Organisation an. |
 |Frontlinemitarbeiter |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Frontline-Mitarbeiter in Ihrer Organisation an. |
-|Klinischer Mitarbeiter im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die klinischen Mitarbeitern wie registrierten Krankenschwestern, Krankenpflegern, Ärzten und Sozialarbeitern vollen Zugriff auf Chats, Anrufe, Schichtverwaltung und Besprechungen bieten. |
-|Mitarbeiter für Gesundheitsinformationen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die Informationsmitarbeitern wie IT-Mitarbeitern, Mitarbeitern der Computerinformatik, Finanzmitarbeitern und Compliance officers vollen Zugriff auf Chats, Anrufe und Besprechungen bieten.|
-|Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenräume in Ihrer Gesundheitsorganisation gelten.|
+|Klinischer Mitarbeiter im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen klinische Mitarbeiter wie Krankenschwestern, Krankenschwestern, Ärzte und Sozialarbeiter uneingeschränkten Zugriff auf Chat, Anrufe, Schichtmanagement und Besprechungen erhalten. |
+|Informationsbeauftragter für das Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen Informationsbeauftragte wie IT-Personal, Informatikpersonal, Finanzpersonal und Compliance-Beauftragte uneingeschränkten Zugriff auf Chat, Anrufe und Besprechungen erhalten.|
+|Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenzimmer in Ihrer Gesundheitsorganisation gelten.|
 |Benutzer für kleine und mittelständische Unternehmen (Business Voice) |Erstellt eine App-Setuprichtlinie, die die Apps für eine Unternehmensstimmenerfahrung enthält.|
 |Benutzer kleiner und mittlerer Unternehmen (ohne Business Voice) |Erstellt eine App-Einrichtungsrichtlinie, die für kleine und mittelständische Teams-Benutzer relevant ist (Nicht-Business-Spracherfahrung).
 |Referent für öffentliche Sicherheit   |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Mitarbeiter der öffentlichen Sicherheit in Ihrer Organisation gelten.|
@@ -76,7 +76,7 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 > [!NOTE]
 > Wir werden in zukünftigen Versionen von Teams weitere Richtlinienpakete hinzufügen, daher suchen Sie nach den neuesten Informationen.  
 
-Jede einzelne Richtlinie wird mit dem Namen des Richtlinienpakets bezeichnet, damit Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, problemlos identifizieren können.
+Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können.
 Wenn Sie beispielsweise lehrkräften Lehrkräften in Ihrer Schule das Richtlinienpaket "Bildungseinrichtungen" zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen Education_Teacher erstellt.
 
 ![Screenshot des Richtlinienpakets Für Bildungseinrichtungen (Lehrer)](media/policy-packages-education_teacher.png)
@@ -153,7 +153,7 @@ Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Ein Richtlinienpaket einer großen Anzahl von Benutzern (Batch) zuweisen
 
-Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
+Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
 
 Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
@@ -169,6 +169,6 @@ Dies kann auftreten, wenn eine oder mehrere Richtlinien im Paket nicht erstellt 
 
 [Teams-Richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
 
-[Teams-Richtlinienpakete für das Gesundheitswesen](policy-packages-healthcare.md)
+[Teams Richtlinienpakete-Pakete für das Gesundheitswesen](policy-packages-healthcare.md)
 
 [Teams-Richtlinienpakete für Behörden](policy-packages-gov.md)

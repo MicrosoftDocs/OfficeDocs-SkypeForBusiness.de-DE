@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: 45b0a85dc6c893fef6b8ec40191069561c74332b
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+description: 'Erfahren Sie mehr über Add-On-Lizenzen, welche Features Sie damit erhalten, wie Sie sie für Ihr Produkt kaufen und wie Sie Ihren vorhandenen Netzbetreiber mit ihnen verwenden. Sie können Informationen über Preise und Details zu den Plänen für Office 365, Kommunikationsguthaben und Anrufpläne erhalten. '
+ms.openlocfilehash: ebf4dd3a962904ddfd7485a2dda805d91663ae5d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205156"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103721"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Lizenzierung des Skype for Business-Add-Ons
 
 ## <a name="what-are-add-on-licenses"></a>Was sind Add-On-Lizenzen?
 
-Add-on-Lizenzen sind Lizenzen für bestimmte Skype for Business-Funktionen. Einige Unternehmen möchten die Flexibilität haben, nur bestimmte Funktionen zu einem wettbewerbsfähigen Preis zu erwerben. Wenn Sie ein Feature hinzufügen möchten, kaufen Sie eine Add-on-Lizenz für jeden Benutzer, der es verwenden soll.
+Add-On-Lizenzen sind Lizenzen für bestimmte Skype for Business-Features. Einige Unternehmen möchten flexibel sein und nur bestimmte Features zu einem konkurrenzfähigen Preis erwerben. Um eine Funktion hinzuzufügen, kaufen Sie eine Add-On-Lizenz für jeden Benutzer, der diese Funktion verwenden wird.
 
-Die Lizenzierung von Skype for Business bietet Ihnen maximale Flexibilität. So können Sie beispielsweise nach der Verwendung der grundlegenden Funktionen von Skype for Business eine Zeitlang Add-on-Lizenzen erwerben, wenn Sie bereit sind, weitere Funktionen wie Audiokonferenzen oder das Telefon System in Office 365 zu verwenden.
+Die Skype for Business-Lizenzierung soll Ihnen maximale Flexibilität bieten. So können Sie beispielsweise, nachdem Sie die Grundfunktionen von Skype for Business eine Zeit lang verwendet haben, Add-On-Lizenzen kaufen, um weitere Funktionen wie Audiokonferenzen oder das Telefonsystem in Office 365 nutzen zu können.
 
 ## <a name="how-does-add-on-licensing-affect-cost"></a>Wie wirkt sich die Add-On-Lizenzierung auf die Kosten aus?
 
-For most businesses, buying a bundle of software in an Enterprise plan will result in lower overall cost. Typically, when you buy several add-on licenses individually instead of as part of a plan, you may end up with higher combined cost.
+Für die meisten Unternehmen entstehen durch den Kauf eines Softwarepakets im Rahmen eines Enterprise-Plans geringere Gesamtkosten. Üblicherweise sind die Gesamtkosten höher, wenn Sie mehrere Add-On-Lizenzen einzeln statt als Teil eines Plans kaufen.
 
 Weitere Kosteninformationen finden Sie unter [Wie Sie Preise einsehen und Add-On-Lizenzen erwerben](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) oder unter einer der folgenden:
 
@@ -50,39 +50,39 @@ Weitere Kosteninformationen finden Sie unter [Wie Sie Preise einsehen und Add-On
 
 - [Preise für Anrufpläne](https://products.office.com/skype-for-business/calling-plans)
 
-## <a name="what-features-can-i-get-with-add-on-licenses"></a>Welche Features kann ich in Form von Add-On-Lizenzen erhalten?
+## <a name="what-features-can-i-get-with-add-on-licenses"></a>Welche Features kann ich über Add-On-Lizenzen erhalten?
 
-Je nachdem, welchen Plan Sie bereits haben, können Sie Add-on-Lizenzen für die folgenden Skype for Business-Funktionen erwerben:
+Je nachdem, über welchen Plan Sie bereits verfügen, können Sie Add-On-Lizenzen für die folgenden Skype for Business-Features erwerben:
 
 |||
 |:-----|:-----|
-|**Funktion** <br/> |**Beschreibung** <br/> |
-|**Audiokonferenz** <br/> |Manchmal müssen Personen in Ihrer Organisation ein Telefon verwenden, um sich an eine Skype for Business-Besprechung zu wenden, anstatt Ihren Computer zu verwenden. Verwenden Sie das Feature Audiokonferenz für diese Situation.<br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) . <br/> Wenn Sie wissen möchten, was das kostet, lesen Sie [Anforderungen für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Feature** <br/> |**Beschreibung** <br/> |
+|**Audiokonferenz** <br/> |Manchmal müssen Personen in Ihrer Organisation ein Telefon verwenden, um sich bei einer Skype for Business-Besprechung anstatt auf ihrem Computer ein- oder aus der Skype for Business-Besprechung zu bedienen. Verwenden Sie in dieser Situation die Audiokonferenzfunktion.  <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) . <br/> Wenn Sie wissen möchten, was das kostet, lesen Sie [Anforderungen für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Gebührenfreie Nummern zur Einwahl in Konferenzen und die Möglichkeit, aus einer Konferenz heraus weltweite Anrufe zu tätigen, um so andere Personen hinzuzufügen** <br/> |Wenn Sie Audiokonferenzen hinzugefügt haben, sollten Sie [Guthaben für Kommunikationen einrichten](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
-|**Telefonsystem** <br/> |Eine Telefonanlage ist eine Telefonanlage in einem Unternehmen. Telefon System ist ein gehosteter Telefondienst. Es bietet Ihnen sowohl traditionelle als auch innovative PBX-Funktionen, aber ohne komplizierte und kostspielige Geräte. [So erhalten Sie das Telefon System](/MicrosoftTeams/here-s-what-you-get-with-phone-system).<br/> Wenn Sie sich fragen, was das kostet, lesen Sie [Anforderungen für Telefonsystem](https://products.office.com/skype-for-business/cloud-pbx#requirements).  <br/> |
-|**Anrufpläne** <br/> |Anrufe an andere Skype for Business-Nutzer sind kostenlos, aber wenn Sie möchten, dass Ihre Nutzer beliebige Telefonnummern außerhalb Ihres Unternehmens anrufen können, erhalten Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365). Es gibt Tarife für Inlandsanrufe sowie Pläne für Inlands-und Auslandsgespräche.<br/> Wenn Sie sich fragen, was das kostet, lesen Sie [Anforderungen für Anrufpläne](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |
-|**Microsoft Teams-Räume** <br/> |Hierbei handelt es sich nicht um ein Add-on, sondern um eine Funktion, die Video-, Audio-und Inhalts Freigaben für Konferenzräume ermöglicht. Weitere Informationen finden Sie unter [Microsoft Teams-Chatrooms](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md).<br/> |
+|**Telefonsystem** <br/> |Eine PBX ist eine Unternehmenstelefonanlage. Telefonsystem ist ein gehosteter Telefondienst. Es bietet Ihnen sowohl traditionelle als auch innovative PBX-Funktionen ohne die komplizierte und teure Ausrüstung. [Hier sehen Sie, was Sie mit Telefonsystem erhalten.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)  <br/> Wenn Sie sich fragen, was das kostet, lesen Sie [Anforderungen für Telefonsystem](https://products.office.com/skype-for-business/cloud-pbx#requirements).  <br/> |
+|**Anrufpläne** <br/> |Anrufe an andere Skype for Business-Benutzer sind kostenlos, aber wenn Sie möchten, dass Ihre Benutzer telefonnummern außerhalb Ihres Unternehmens anrufen können, erhalten Sie einen [Anrufplan.](/MicrosoftTeams/calling-plans-for-office-365) Es gibt Anrufpläne für das Inland sowie Anrufpläne für In- und Ausland.  <br/> Wenn Sie sich fragen, was das kostet, lesen Sie [Anforderungen für Anrufpläne](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |
+|**Microsoft Teams-Räume** <br/> |Hierbei handelt es sich nicht um ein Add-On, sondern ein Feature, das Video-, Audio- und Inhaltsfreigaben für Konferenzräume ermöglicht. Siehe [Microsoft Teams-Räume](/MicrosoftTeams/rooms/rooms-licensing).  <br/> |
 
-Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+Möchten Sie mit jemandem über alle Add-On-Optionen sprechen? [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="license-options-based-on-your-plan"></a>Lizenzoptionen basierend auf Ihrem Plan
 
-Die für Sie verfügbaren Optionen für die Add-on-Lizenzierung hängen von Ihrem Plan ab. Informationen, Features und Optionen, die für Ihren Plan spezifisch sind, finden Sie in den folgenden Themen.
+Die verfügbaren Add-On-Lizenzierungsoptionen sind von Ihrem Plan abhängig. In den folgenden Themen finden Sie Informationen, Funktionen und Optionen, die für Ihren Plan spezifisch sind.
 
 - [Microsoft 365 Business Standard](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 - [Office 365 Premium, Microsoft 365-Apps für Unternehmen oder Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 - [Office 365 Enterprise E1, E3 und E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (ohne Audiokonferenz)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
-- [Microsoft Teams-Räume](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+- [Microsoft Teams-Räume](/MicrosoftTeams/rooms/rooms-licensing)
 - [Behörden, Bildungseinrichtungen und gemeinnützige Organisationen](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
-Eine detaillierte Liste der Funktionen und Vergleiche für jeden Skype for Business-Plan finden Sie in der [Beschreibung des Skype for Business Online-Diensts](https://go.microsoft.com/fwlink/?LinkId=730729).
+Eine detaillierte Liste der Features und Vergleiche für jeden Skype for Business-Plan finden Sie in [der Skype for Business Online-Dienstbeschreibung.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>So können Sie Preise finden und Add-On-Lizenzen kaufen
 <a name="bkmk_how"> </a>
 
- **Nachdem Sie einen Microsoft 365-Plan gekauft haben, sehen Sie die Preise und kaufen Add-ons über das Microsoft 365 Admin Center**.
+ Nachdem Sie einen Microsoft 365-Plan gekauft haben, werden Preise und **Add-Ons im Microsoft 365 Admin Center veröffentlicht.**
 
 Je nachdem, welche Add-Ons Sie wünschen, empfehlen wir, zu [vergleichen, ob es für Sie kostengünstiger ist](https://go.microsoft.com/fwlink/?linkid=844053), zu einem Plan zu wechseln, in dem diese Funktionen bereits enthalten sind.
 
@@ -91,7 +91,7 @@ Weitere Informationen zu den zu erwerbenden Lizenzen und zum Anzeigen von Preise
 ## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>Wie verwende ich meine vorhandenen Anrufpläne mit Skype for Business?
 <a name="bkmk_existing"></a>
 
-Wenn Sie Ihren vorhandenen Anrufplan nutzen möchten, kaufen Sie das **Telefonsystem**-Add-On, und verwenden Sie es zusammen mit dem **[kostenlosen Cloud-Connector](https://technet.microsoft.com/library/mt605227.aspx)**.
+Wenn Sie Ihren vorhandenen Anrufplan nutzen möchten, kaufen Sie das **Telefonsystem**-Add-On, und verwenden Sie es zusammen mit dem **[kostenlosen Cloud-Connector](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)**.
 
 Wenn Sie lokale PSTN-Anbindung für Hybridbenutzer verwenden, müssen Sie Ihren Benutzern  *nur*  Lizenzen für **Telefonsystem** zuweisen. Weisen Sie ihnen **NICHT** zusätzlich einen Anrufplan zu.
 

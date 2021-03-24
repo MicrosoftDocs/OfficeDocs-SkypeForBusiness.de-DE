@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: c7a360146f91c2e411ff48f52d92a3c69b0a2e11
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung in den folgenden Abschnitten bearbeiten:'
+ms.openlocfilehash: a49fe0872d83011c433d011e1bb5ce7a348f1bd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835365"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106871"
 ---
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
 
-Sie können die Eigenschaften für eine vorhandene Bereitstellung mit den folgenden Abschnitten bearbeiten:
+Sie können die Eigenschaften für eine vorhandene Bereitstellung in den folgenden Abschnitten bearbeiten:
 
 - SIP-Domäne
 
@@ -73,10 +73,8 @@ Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in eine
 > [!IMPORTANT]
 > Nachdem Sie den zentralen Verwaltungsspeicher für die Infrastruktur definiert, veröffentlicht und bereitgestellt haben, kann der Speicherort des zentralen Verwaltungsspeichers nur über einen externen Vorgang in einen anderen Front-End-Pool verschoben werden.
 
-Weitere Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) in Windows PowerShell Cmdlet-Referenz.
+Weitere Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) in Windows PowerShell cmdlet reference.
 
 ## <a name="see-also"></a>Siehe auch
 
-Weitere Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
-
-
+Weitere Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

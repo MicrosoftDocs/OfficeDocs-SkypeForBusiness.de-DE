@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034075"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111081"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Hilfe zu Situationen mit geringer Bandbreite für Teams für Bildungseinrichtungen
 
@@ -62,13 +62,13 @@ Einige Dinge, die Sie über Richtlinien festlegen können, sind:
 - Video vollständig deaktivieren, sodass es niemand aktivieren kann.
 - Medienbitrate (diese wird für jeden Benutzer festgelegt).
 
-Wenn Sie mehr über Ihre Optionen erfahren und die Einzelheiten der Richtlinien, die Sie für Besprechungen und Videos festlegen müssten, durchgehen möchten, schauen Sie sich [Einstellungen zu Besprechungsrichtlinien in Teams: Audio und Video](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video) an, um detaillierte Informationen zum Verfahren zu erhalten.
+Wenn Sie mehr über Ihre Optionen erfahren und die Einzelheiten der Richtlinien, die Sie für Besprechungen und Videos festlegen müssten, durchgehen möchten, schauen Sie sich [Einstellungen zu Besprechungsrichtlinien in Teams: Audio und Video](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video) an, um detaillierte Informationen zum Verfahren zu erhalten.
 
 #### <a name="screen-sharing-policies"></a>Bildschirmfreigaberichtlinien
 
 Darüber hinaus kann es vorkommen, dass Lehrkräfte ihren gesamten Bildschirm für die Schüler/Studenten freigeben, obwohl die Freigabe auf eine ganz bestimmte Anwendung beschränkt sein sollte, die für die zu unterrichtende Lektion relevant ist. Dies kann ebenfalls über eine Richtlinie festgelegt werden, wenn dies wünschenswerter ist, als dass die Lehrkräfte diese Entscheidung individuell treffen müssen.
 
-Einen guten Überblick darüber, was Sie tun können, um die Bildschirmfreigabe über Richtlinieneinstellungen einzuschränken, finden Sie unter [Einstellungen für Besprechungsrichtlinien in Teams: Bildschirmfreigabe](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video).
+Einen guten Überblick darüber, was Sie tun können, um die Bildschirmfreigabe über Richtlinieneinstellungen einzuschränken, finden Sie unter [Einstellungen für Besprechungsrichtlinien in Teams: Bildschirmfreigabe](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
 
 #### <a name="dial-in-number-for-meetings"></a>Einwahlnummer für Besprechungen
 

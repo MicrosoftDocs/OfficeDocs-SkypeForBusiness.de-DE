@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von Microsoft Teams-Panels unterstützten Features.
-ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937852"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102141"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
 
@@ -56,7 +56,7 @@ Die Hardware-, Software- und Netzwerkanforderungen für die Bereitstellung von P
 
 ## <a name="license-requirement"></a>Lizenzanforderung
 
-Für die Verwendung von Teams-Panels benötigen [Sie die Standardlizenz für Microsoft Teams Rooms.](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)
+Für die Verwendung von Teams-Panels benötigen [Sie die Standardlizenz für Microsoft Teams Rooms.](../rooms/rooms-licensing.md)
 
 > [!Note]
 > Wenn Sie microsoft Teams Rooms bereits in dem Besprechungsraum bereitgestellt haben, in dem Sie Teams-Panels installieren, benötigen Sie keine zusätzliche Lizenz für die Verwendung von Teams-Panels.
@@ -131,7 +131,7 @@ Zum Verwalten Ihrer Geräte in Teams-Panels wechseln Sie in der linken Navigatio
 
 [Verwenden von Microsoft Teams-Panels](use-teams-panels.md)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [Microsoft Teams-Blog auf Teams-Panels](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 

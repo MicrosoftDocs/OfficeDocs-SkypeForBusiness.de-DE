@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dab1673f32c6a3c902c761004e5720d8c61dbfb
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 8959b335d695630f991017c789916bfd2fcf697c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096890"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102911"
 ---
 # <a name="move-port-phone-numbers-to-business-voice"></a>Übertragen (Portieren) von Telefonnummern in Business Voice
 
@@ -33,9 +33,9 @@ ms.locfileid: "43096890"
 
 Wenn der Assistent für erste Schritte Ihnen bei der Einrichtung von Business Voice hilft, weist er Telefonnummern für die Haupttelefonleitung des Unternehmens sowie für alle Benutzer zu, denen Sie eine Business Voice-Lizenz zugewiesen haben. Wenn Sie bereits über Telefonnummern verfügen, die Sie beim Umstellen auf Business Voice beibehalten möchten, können Sie diese mithilfe eines Verfahrens, das Portieren von Telefonnummern genannt wird, in Business Voice übertragen. Nachdem Sie Ihre Telefonnummern in Business Voice portiert haben, weisen Sie sie Benutzern und Diensten zu. Die alten Nummern ersetzen die temporären Nummern, die vom Assistenten für erste Schritte zugewiesen wurden.
 
-Bevor Sie Nummern in Business Voice verschieben, sehen Sie sich [Häufige Fragen zum Übertragen von Telefonnummern](../transferring-phone-numbers-common-questions.md) an. Dieser Artikel umfasst Antworten auf Fragen wie z. B. welche Länder oder Regionen unterstützt werden, welche Nummern nicht übertragen werden können, welche Informationen Sie benötigen, usw.
+Bevor Sie Nummern in Business Voice verschieben, sehen Sie sich [Häufige Fragen zum Übertragen von Telefonnummern](../phone-number-calling-plans/port-order-overview.md) an. Dieser Artikel umfasst Antworten auf Fragen wie z. B. welche Länder oder Regionen unterstützt werden, welche Nummern nicht übertragen werden können, welche Informationen Sie benötigen, usw.
 
-Wenn Sie bereit sind, Ihre Telefonnummern in Business Voice zu verschieben, führen Sie die Schritte unter [Übertragen von Telefonnummern in Office 365](../transfer-phone-numbers-to-office-365.md) aus, um einen Portierungsauftrag zu erstellen. Ein Portierungsauftrag umfasst alle Informationen, die nötig sind, um Ihre Nummern von Ihrem aktuellen Telefondienstanbieter in Business Voice zu verschieben.
+Wenn Sie bereit sind, Ihre Telefonnummern in Business Voice zu verschieben, führen Sie die Schritte unter [Übertragen von Telefonnummern in Office 365](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) aus, um einen Portierungsauftrag zu erstellen. Ein Portierungsauftrag umfasst alle Informationen, die nötig sind, um Ihre Nummern von Ihrem aktuellen Telefondienstanbieter in Business Voice zu verschieben.
 
 Nachdem Ihre Telefonnummern in Business Voice verschoben wurden, müssen Sie sie Personen zuweisen. Führen Sie dazu die Schritte in [Ändern einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user) aus. Wenn Sie diese Schritte ausführen, ersetzen Sie die Telefonnummer, die dem Benutzer vorübergehend zugewiesen wurde, durch die ursprüngliche, von Ihnen portierte Telefonnummer.
 

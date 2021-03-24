@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-description: Entscheidungen, die für die Planung der Medienumgehung in Skype for Business Server Enterprise-VoIP. Umfasst die Interoperabilität mit der Anrufsteuerung( Call Admission Control, CAC).
-ms.openlocfilehash: a6d49b8abaa75e555f3de4c44b890e18b6de664a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Entscheidungen, die für die Planung der Medienumgehung in Skype for Business Server erforderlich Enterprise-VoIP. Umfasst die Interoperabilität mit der Anrufsteuerung (Call Admission Control, ANRUFSTEUERUNG).
+ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825375"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101391"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planen der Medienumgehung in Skype for Business
 
-Entscheidungen, die für die Planung der Medienumgehung in Skype for Business Server Enterprise-VoIP. Umfasst die Interoperabilität mit der Anrufsteuerung( Call Admission Control, CAC).
+Entscheidungen, die für die Planung der Medienumgehung in Skype for Business Server erforderlich Enterprise-VoIP. Umfasst die Interoperabilität mit der Anrufsteuerung (Call Admission Control, ANRUFSTEUERUNG).
 
 Bei der Medienumgehung wird der Vermittlungsserver nach Möglichkeit für Anrufe aus dem Medienpfad entfernt, deren Signaldaten über den Vermittlungsserver verarbeitet werden.
 
@@ -39,15 +39,15 @@ Die folgende Abbildung zeigt grundlegende Pfade für Medien- und Signaldatenverk
 
 **Pfade für Medien- und Signaldatenverkehr mit und ohne Medienumgehung**
 
-![Erzwingung der Medienumgehung für die Sprachsteuerung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Voice CAC Media Bypass Connection Enforcement](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-Die Medienumgehung ist nützlich, wenn Sie die Anzahl von bereitgestellten Vermittlungsservern reduzieren möchten. Üblicherweise wird ein Vermittlungsserverpool an einem zentralen Standort bereitgestellt und steuert die Gateways an den Zweigstellenstandorten. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Ausgehende Skype for Business Server-Anrufrouten und Enterprise-VoIP müssen ordnungsgemäß konfiguriert sein, damit Festnetzanrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway geroutet werden.
+Die Medienumgehung ist nützlich, wenn Sie die Anzahl von bereitgestellten Vermittlungsservern reduzieren möchten. Üblicherweise wird ein Vermittlungsserverpool an einem zentralen Standort bereitgestellt und steuert die Gateways an den Zweigstellenstandorten. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Ausgehende Skype for Business Server-Anrufrouten und Enterprise-VoIP müssen ordnungsgemäß konfiguriert sein, damit PSTN-Anrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway geroutet werden.
 
 In Wi-Fi-Netzwerken treten üblicherweise mehr Paketverluste auf als in verkabelten Netzwerken. Die Wiederherstellung der Daten aus diesen Paketen kann normalerweise nicht mithilfe von Gateways durchgeführt werden. Daher wird empfohlen, die Qualität eines Wi-Fi-Netzwerks auszuwerten, bevor Sie entscheiden, ob die Medienumgehung für ein Funksubnetz aktiviert werden soll. Darüber hinaus muss erwogen werden, ob eine geringere Latenz zu Lasten der Dateiwiederherstellung nach Paketverlusten akzeptabel ist. RTAudio – ein Codec für Anrufe, die den Vermittlungsserver nicht umgehen – eignet sich besser für die Verarbeitung von Paketverlusten.
 
 ## <a name="planning-your-media-bypass-deployment"></a>Planen der Bereitstellung der Medienumgehung
 
-Nachdem Ihre Enterprise-VoIP ist, ist die Planung der Medienumgehung einfach.
+Nachdem Ihre Enterprise-VoIP ist, ist die Planung der Medienumgehung unkompliziert.
 
 - Wenn Sie über eine zentralisierte Topologie ohne WAN-Verbindungen mit Zweigstellenstandorten verfügen, können Sie die globale Medienumgehung aktivieren, da eine genaue Steuerung nicht erforderlich ist.
 
@@ -61,9 +61,9 @@ Nachdem Ihre Enterprise-VoIP ist, ist die Planung der Medienumgehung einfach.
 
 Wenn Sie die Medienumgehung aktivieren, wird automatisch eine eindeutige Umgehungs-ID für eine Netzwerkregion und für alle Netzwerkstandorte ohne Bandbreiteneinschränkungen innerhalb dieser Region generiert. Standorte mit Bandbreiteneinschränkungen innerhalb der Region und Standorte, die über WAN-Verbindungen mit Bandbreiteneinschränkungen mit der Region verbunden sind, erhalten jeweils eine eigene eindeutige Umgehungs-IDs.
 
-Wenn ein Benutzer einen Anruf an das Telefonnetz (PSTN) abruft, vergleicht der Vermittlungsserver die Umgehungs-ID des Clientsubnetzes mit der Umgehungs-ID des Gatewaysubnetzes. Wenn die beiden Umgehungs-IDs übereinstimmen, wird für den Anruf die Medienumgehung verwendet. Wenn die Umgehungs-IDs nicht übereinstimmen, müssen Medien für den Anruf über den Vermittlungsserver fließen.
+Wenn ein Benutzer das PSTN aufruft, vergleicht der Vermittlungsserver die Umgehungs-ID des Clientsubnetzes mit der Umgehungs-ID des Gatewaysubnetzes. Wenn die beiden Umgehungs-IDs übereinstimmen, wird für den Anruf die Medienumgehung verwendet. Wenn die Umgehungs-IDs nicht übereinstimmen, müssen Medien für den Anruf über den Vermittlungsserver fließen.
 
-Wenn ein Benutzer einen Anruf aus dem Telefonnetz empfängt, vergleicht der Client des Benutzers seine Umgehungs-ID mit der ID des PSTN-Gateways. Wenn die beiden Umgehungs-IDs übereinstimmen, fließen die Medien direkt vom Gateway zum Client und umgehen den Vermittlungsserver.
+Wenn ein Benutzer einen Anruf vom PSTN empfängt, vergleicht der Client des Benutzers seine Umgehungs-ID mit der des PSTN-Gateways. Wenn die beiden Umgehungs-IDs übereinstimmen, fließen Medien direkt vom Gateway zum Client, und der Vermittlungsserver wird umgangen.
 
 Nur Lync 2010- oder neuere Clients und Geräte unterstützen Medienumgehungsinteraktionen mit einem Vermittlungsserver.
 
@@ -92,7 +92,7 @@ Medienumgehung und Anrufsteuerung (Call Admission Control, CAC) arbeiten zusamme
 
 - Sowohl Anrufsteuerung als auch Medienumgehung sind aktiviert. Die Medienumgehung muss auf **Informationen zu Standort und Region verwenden** festgelegt sein. Die Informationen zu Standort und Region sind dieselben wie für die Anrufsteuerung.
 
-    Wenn Sie die Anrufsteuerung aktivieren, können Sie die Option **Immer umgehen** nicht auswählen (und umgekehrt), da die zwei Konfigurationen sich gegenseitig ausschließen. Dies bedeutet, dass jeweils nur eine der zwei Optionen auf einen PSTN-Anruf angewendet wird. Zunächst wird überprüft, ob für den Anruf die Medienumgehung gilt. Ist dies der Fall, wird die Anrufsteuerung nicht verwendet. Dies ist plausibel, da ein für die Medienumgehung aktivierter Anruf per Definition eine Verbindung verwendet, für die eine Anrufsteuerung nicht notwendig ist. Wenn die Umgehung nicht auf den Anruf angewendet werden kann (d. h., wenn die Umgehungs-IDs des Clients und gateways nicht übereinstimmen), wird die Anrufanrufanrufanwendung auf den Anruf angewendet.
+    Wenn Sie die Anrufsteuerung aktivieren, können Sie die Option **Immer umgehen** nicht auswählen (und umgekehrt), da die zwei Konfigurationen sich gegenseitig ausschließen. Dies bedeutet, dass jeweils nur eine der zwei Optionen auf einen PSTN-Anruf angewendet wird. Zunächst wird überprüft, ob für den Anruf die Medienumgehung gilt. Ist dies der Fall, wird die Anrufsteuerung nicht verwendet. Dies ist plausibel, da ein für die Medienumgehung aktivierter Anruf per Definition eine Verbindung verwendet, für die eine Anrufsteuerung nicht notwendig ist. Wenn die Umgehung nicht auf den Anruf angewendet werden kann (d. h., wenn die Umgehungs-IDs des Clients und gateways nicht übereinstimmen), wird die Anrufanrufkonferenz auf den Anruf angewendet.
 
 - Die Anrufsteuerung ist nicht aktiviert, und die Medienumgehung ist auf **Immer umgehen** festgelegt.
 
@@ -100,22 +100,20 @@ Medienumgehung und Anrufsteuerung (Call Admission Control, CAC) arbeiten zusamme
 
 - Die Anrufsteuerung ist nicht aktiviert, und die Medienumgehung ist auf **Informationen zu Standort und Region verwenden** festgelegt.
 
-    Wenn die Option **Informationen zu Standort und Region verwenden** aktiviert ist, funktioniert die Umgehungsermittlung im Prinzip in gleicher Weise – unabhängig davon, ob die Anrufsteuerung aktiviert ist oder nicht. Dies bedeutet, dass das Subnetz des Clients für einen bestimmten Festnetzanruf einem bestimmten Standort zugeordnet ist, und die Umgehungs-ID für dieses Subnetz wird extrahiert. Entsprechend wird das Subnetz des Gateways einem bestimmten Standort zugeordnet, und die Umgehungs-ID für dieses Subnetz wird extrahiert. Nur wenn die zwei Umgehungs-IDs identisch sind, findet eine Medienumgehung für den Anruf statt. Unterscheiden sich die IDs, findet keine Medienumgehung statt.
+    Wenn die Option **Informationen zu Standort und Region verwenden** aktiviert ist, funktioniert die Umgehungsermittlung im Prinzip in gleicher Weise – unabhängig davon, ob die Anrufsteuerung aktiviert ist oder nicht. Das heißt, für jeden bestimmten PSTN-Aufruf wird das Subnetz des Clients einem bestimmten Standort zugeordnet, und die Umgehungs-ID für dieses Subnetz wird extrahiert. Entsprechend wird das Subnetz des Gateways einem bestimmten Standort zugeordnet, und die Umgehungs-ID für dieses Subnetz wird extrahiert. Nur wenn die zwei Umgehungs-IDs identisch sind, findet eine Medienumgehung für den Anruf statt. Unterscheiden sich die IDs, findet keine Medienumgehung statt.
 
-    Selbst wenn die Anrufsteuerung global deaktiviert wurde, müssen Bandbreitenrichtlinien für jeden Standort und jede Verbindung definiert werden, wenn die Konfiguration von Standorten und Regionen für Entscheidungen zur Medienumgehung herangezogen werden soll. Der tatsächliche Wert der Bandbreiteneinschränkung oder ihre Modalität spielt keine Rolle. Das Ziel besteht darin, dass das System automatisch unterschiedliche Umgehungs-IDs berechnet, die verschiedenen Standorten ohne gute Verbindung zugeordnet sind. Das Definieren einer Bandbreiteneinschränkung bedeutet per Definition, dass eine Verbindung keine gute Konnektivität aufweist.
+    Selbst wenn die Anrufsteuerung global deaktiviert wurde, müssen Bandbreitenrichtlinien für jeden Standort und jede Verbindung definiert werden, wenn die Konfiguration von Standorten und Regionen für Entscheidungen zur Medienumgehung herangezogen werden soll. Der tatsächliche Wert der Bandbreiteneinschränkung oder deren Modalität spielt keine Rolle. Das Ziel besteht darin, dass das System automatisch unterschiedliche Umgehungs-IDs berechnet, die verschiedenen Standorten ohne gute Verbindung zugeordnet sind. Das Definieren einer Bandbreiteneinschränkung bedeutet per Definition, dass eine Verbindung keine gute Konnektivität aufweist.
 
-- Weder die Anrufsteuerung noch die Medienumgehung sind aktiviert. Dieser Fall tritt nur ein, wenn alle Gateways und IP-Nebenstellenanlagen über Leitungen mit geringer Konnektivität verbunden sind oder andere Anforderungen für die Medienumgehung nicht erfüllen. Ausführliche Informationen zu den Anforderungen für die Medienumgehung finden Sie unter [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
+- Weder die Anrufsteuerung noch die Medienumgehung sind aktiviert. Dieser Fall tritt nur ein, wenn alle Gateways und IP-Nebenstellenanlagen über Leitungen mit geringer Konnektivität verbunden sind oder andere Anforderungen für die Medienumgehung nicht erfüllen. Ausführliche Informationen zu den Anforderungen für die Medienumgehung finden Sie unter [Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass).
 
 ## <a name="technical-requirements"></a>Technische Anforderungen
 
-Für jeden Anruf an das Telefonnetz ermittelt der Vermittlungsserver, ob Medien vom Ursprungsendpunkt von Skype for Business direkt an einen Vermittlungsserver-Peer gesendet werden können, ohne den Vermittlungsserver zu durchlaufen. Der Peer kann ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SBC (Session Border Controller) bei einem Anbieter von Internettelefoniediensten sein, der zu der Leitung zwischen dem Vermittlungsserver gehört, bei dem der Anruf weitergeleitet wird.
+Für jeden Anruf an das PSTN bestimmt der Vermittlungsserver, ob Medien vom Skype for Business-Endpunkt des Ursprungs direkt an einen Vermittlungsserver-Peer gesendet werden können, ohne den Vermittlungsserver zu durchlaufen. Der Peer kann ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SBC (Session Border Controller) bei einem Anbieter von Internettelefoniediensten sein, der zu der Leitung zwischen dem Vermittlungsserver gehört, bei dem der Anruf weitergeleitet wird.
 
 Die Medienumgehung kann implementiert werden, wenn die folgenden Voraussetzungen erfüllt sind:
 
-- Ein Vermittlungsserver-Peer muss die erforderlichen Funktionen für die Medienumgehung unterstützen, der wichtigste ist die Möglichkeit, mehrere ge forkierte Antworten (auch als "frühe Dialogfelder" bezeichnet) zu verarbeiten. Wenden Sie sich an den Hersteller Ihres Gateways, Ihrer Nebenstellenanlage oder Ihren ANBIETER, um den Wert für die maximale Anzahl frühzeitiger Dialogfelder zu erhalten, die das Gateway, die Nebenstellenanlage oder der SBC akzeptieren kann.
+- Ein Vermittlungsserver-Peer muss die erforderlichen Funktionen für die Medienumgehung unterstützen, was am wichtigsten ist, dass mehrere gegabelte Antworten (auch als "frühe Dialoge" bezeichnet) verwendet werden können. Wenden Sie sich an den Hersteller Ihres Gateways, Ihrer Nebenstellenanlage oder Ihres ITSP, um den Wert für die maximale Anzahl von frühen Dialogen zu erhalten, die das Gateway, die Nebenstellenanlage oder der SBC akzeptieren kann.
 
-- Der Vermittlungsserver-Peer muss Mediendatenverkehr direkt von Skype for Business-Endpunkten akzeptieren. Viele ITSPs ermöglichen es ihrem SBC, nur Datenverkehr vom Vermittlungsserver zu empfangen. Wenden Sie sich an Ihren ITSP, um festzustellen, ob der SBC Mediendatenverkehr direkt von Skype for Business-Endpunkten akzeptiert.
+- Der Vermittlungsserver-Peer muss Mediendatenverkehr direkt von Skype for Business-Endpunkten akzeptieren. Viele ITSPs erlauben ihrem SBC, datenverkehr nur vom Vermittlungsserver zu empfangen. Wenden Sie sich an Ihren ITSP, um zu ermitteln, ob der SBC Mediendatenverkehr direkt von Skype for Business-Endpunkten akzeptiert.
 
-- Skype for Business clients and a Mediation Server peer must be well connected, meaning that they are either located in the same network region or at network sites that connect to the region over WAN links that have no bandwidth constraints
-
-
+- Skype for Business-Clients und ein Vermittlungsserver-Peer müssen gut verbunden sein, d. h. sie befinden sich entweder in derselben Netzwerkregion oder an Netzwerkstandorten, die über WAN-Verbindungen mit der Region verbunden sind, die keine Bandbreiteneinschränkungen haben

@@ -1,5 +1,5 @@
 ---
-title: (Optional) Definieren von Geschäftszeiten für Reaktionsgruppe in Skype for Business
+title: (Optional) Definieren der Geschäftszeiten der Reaktionsgruppe in Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Erstellen oder ändern Sie die Geschäftszeiten für Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Erstellen oder Ändern der Geschäftszeiten der Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: d4a8101749e7fde06fc4c3d88ab343eb6e4d0f1d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830995"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103671"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Optional) Definieren von Geschäftszeiten für Reaktionsgruppe in Skype for Business 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Optional) Definieren der Geschäftszeiten der Reaktionsgruppe in Skype for Business 
  
-Erstellen oder ändern Sie die Geschäftszeiten für Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
+Erstellen oder Ändern der Geschäftszeiten der Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
   
 ## <a name="defining-business-hours"></a>Definieren von Geschäftszeiten
 
 Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur Anrufbeantwortung zur Verfügung steht, und es werden die Aktionen angegeben, die für Anrufe außerhalb der Geschäftszeiten ausgeführt werden sollen. Reaktionsgruppenadministratoren können mit dem **New-CsRgsHoursOfBusiness**-Cmdlet vordefinierte Zeitpläne erstellen, die Sie für eine beliebige Anzahl von Reaktionsgruppen verwenden können.
   
 > [!TIP]
-> Beim Erstellen oder Ändern eines Workflows können Sie einen benutzerdefinierten Zeitplan angeben, der nur für diesen Workflow gilt. Weitere Informationen finden Sie unter [Entwerfen und Erstellen von Reaktionsgruppe Workflows in Skype for Business](designing-and-creating-response-group-workflows.md). 
+> Beim Erstellen oder Ändern eines Workflows können Sie einen benutzerdefinierten Zeitplan angeben, der nur für diesen Workflow gilt. Weitere Informationen finden Sie unter [Entwerfen und Erstellen von Reaktionsgruppeworkflows in Skype for Business](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
 > Wenn ein Workflow als verwalteter Workflow definiert wird, kann jeder Benutzer, dem die Rolle CsResponseGroupManager zugewiesen ist, benutzerdefinierte Geschäftszeiten für die von ihnen verwalteten Workflows festlegen und ändern. 
@@ -39,9 +39,9 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
   
 ### <a name="to-create-a-predefined-business-hours-collection"></a>So erstellen Sie eine vordefinierte Geschäftszeitenauflistung
 
-1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppe unterstützen.
+1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied einer der vordefinierten Administrativen Rollen an, die die Reaktionsgruppe unterstützen.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
     
 3. Führen Sie für jeden einzelnen Stundenbereich, den Sie definieren möchten, folgenden Befehl aus:
     
@@ -66,6 +66,6 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
 
 ## <a name="see-also"></a>Siehe auch
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[New-CsRgsTimeRange](/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[New-CsRgsHoursOfBusiness](/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

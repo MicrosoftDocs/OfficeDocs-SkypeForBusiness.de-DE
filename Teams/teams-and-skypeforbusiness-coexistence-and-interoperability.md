@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3332ec1a5c5bc05bc833511a3b33e0f4dff6cccc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460605"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111131"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Verständnis der Koexistenz und Interoperabilität von Microsoft Teams und Skype for Business
 
@@ -34,7 +34,7 @@ ms.locfileid: "50460605"
 Dieser Artikel ist Teil der Projektdefinitionsphase Ihrer Upgradereise. Schließen Sie den Vorgang ab, nachdem Sie eine Sponsoringkoalition und ein Projektteam erstellt und den Umfang, die Ziele und den Plan für Ihr Projekt definiert haben. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
-- [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
+- [Definieren des Projektumfangs](./upgrade-define-project-scope.md)
 
 Wenn Ihre Organisation skype for Business heute verwendet und Sie beginnen, Teams zusammen mit Skype for Business zu verwenden – oder Sie beginnen, ein Upgrade auf Teams zu starten –, ist es wichtig zu verstehen, wie die beiden Anwendungen nebeneinander vorhanden sind, wann und wie sie zusammenarbeiten und wie Sie die Migration Ihrer Benutzer bis zum letztendlichen Upgrade von Skype for Business auf Teams verwalten können.
 
@@ -43,7 +43,7 @@ Wenn Ihre Organisation skype for Business heute verwendet und Sie beginnen, Team
 >
 > Darüber hinaus können Sie an interaktiven Liveworkshops teilnehmen, in denen wir Ihnen Anleitungen, bewährte Methoden und Ressourcen zum Einstieg in die Upgradeplanung und -implementierung bieten.
 >
-> Nehmen Sie [zuerst an der Upgradesitzung](https://aka.ms/SkypeToTeamsPlanning) planen teil, um zu beginnen.
+> Nehmen Sie [zuerst an der Upgradesitzung](./upgrade-workshops-landing-page.yml) planen teil, um zu beginnen.
 
 ## <a name="coexistence-of-teams-and-skype-for-business-overview"></a>Übersicht über die Koexistenz von Teams und Skype for Business
 
@@ -123,7 +123,7 @@ Dieser Koexistenzmodus ist besonders nützlich für Organisationen mit lokalen S
 > [!TIP]
 > Um den empfohlenen Upgrademodus basierend auf den Funktionen zu identifizieren, die Sie in Teams aktivieren möchten, während Skype for Business noch verwendet wird, verwenden Sie den [Skype-zu-Teams-Upgrade-Assistenten.](https://aka.ms/SkypeToTeamsWizard)
 
-Weitere Informationen zu Koexistenzmodi, Voraussetzungen und Verwaltung finden Sie unter [Migrations-](https://aka.ms/SkypeToTeams-Interop) und Interoperabilitätsleitfaden für Organisationen, die Teams zusammen mit Skype for Business verwenden, und Festlegen Ihrer [Koexistenz- und Upgradeeinstellungen.](https://aka.ms/SkypeToTeams-SetCoexistence)
+Weitere Informationen zu Koexistenzmodi, Voraussetzungen und Verwaltung finden Sie unter [Migrations-](./migration-interop-guidance-for-teams-with-skype.md) und Interoperabilitätsleitfaden für Organisationen, die Teams zusammen mit Skype for Business verwenden, und Festlegen Ihrer [Koexistenz- und Upgradeeinstellungen.](./setting-your-coexistence-and-upgrade-settings.md)
 
 |Symbol "Entscheidungspunkt" |Symboldefinition |Beschreibung |
 |---|---|---|
@@ -162,7 +162,7 @@ Skype for Business-Benutzer können 1:1-Sprach- und Videoanrufe an Teams-Benutze
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> Die Inopoperfahrung bei einer lokalen Bereitstellung von Skype for Business erfordert, dass sich die lokale Umgebung mit Microsoft 365 oder Office 365 Skype for Business im Hybridmodus befindet. Details finden Sie unter [Migrations- und Interoperabilitätsleitfäden](https://aka.ms/SkypeToTeams-Interop).
+> Die Inopoperfahrung bei einer lokalen Bereitstellung von Skype for Business erfordert, dass sich die lokale Umgebung mit Microsoft 365 oder Office 365 Skype for Business im Hybridmodus befindet. Details finden Sie unter [Migrations- und Interoperabilitätsleitfäden](./migration-interop-guidance-for-teams-with-skype.md).
 
 Diese Inopoperfahrungen sind für und zwischen Benutzern verfügbar, denen einer der folgenden Koexistenzmodi zugewiesen ist: **Skype for Business mit Teams Collaboration,** Skype for Business mit Teams **Collaboration** und Besprechungen, Skype for **Business Only** oder Teams **Only**. Es gibt keine Interoperabilität für Benutzer im **Inselmodus.**
 
@@ -228,7 +228,7 @@ Währenddessen empfängt der Skype for Business-Benutzer eine eingehende Chatnac
 
 Diese Eskalation zu einer Teams-Besprechung ist sowohl für in-mandant-in-In- als auch mandantenübergreifende Verbundanrufe und Chats verfügbar. Es ist standardmäßig aktiviert, und es gibt keine Einstellung, die der Administrator bereitstellen muss. Wenn der Administrator auf ein -Konto einstellt, ist es für den Benutzer ``-AllowPrivateMeetNow`` jedoch ``CsTeamsMeetingPolicy`` ``$false`` deaktiviert.
 
-Nachdem Sie diesen Artikel [](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)überprüft haben, lesen Sie Wählen Sie Ihre Upgradereise, [Migrations-](https://aka.ms/SkypeToTeams-Interop)und Interoperabilitätsleitfäden , [Koexistenz](coexistence-chat-calls-presence.md)mit Skype for Business und Festlegen Ihrer [Koexistenz-](https://aka.ms/SkypeToTeams-SetCoexistence) und Upgradeeinstellungen für Implementierungsdetails aus. Wir empfehlen auch das folgende Video: [Video: Verwalten der Koexistenz und Interoperabilität zwischen SfB und Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+Nachdem Sie diesen Artikel [](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)überprüft haben, lesen Sie Wählen Sie Ihre Upgradereise, [Migrations-](./migration-interop-guidance-for-teams-with-skype.md)und Interoperabilitätsleitfäden , [Koexistenz](coexistence-chat-calls-presence.md)mit Skype for Business und Festlegen Ihrer [Koexistenz-](./setting-your-coexistence-and-upgrade-settings.md) und Upgradeeinstellungen für Implementierungsdetails aus. Wir empfehlen auch das folgende Video: [Video: Verwalten der Koexistenz und Interoperabilität zwischen SfB und Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
 
 ## <a name="technical-details-of-teams-and-skype-for-business-coexistence"></a>Technische Details zur Koexistenz von Teams und Skype for Business
 
@@ -255,7 +255,7 @@ Beim Organisieren von Besprechungen basiert der geplante Besprechungstyp auf dem
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings |    Alle in Teams geplanten Besprechungen. Das Skype for Business-Add-In ist in Outlook nicht verfügbar. | 
 | SfbWithTeamsCollab, SfbOnly   | Alle in Skype for Business geplanten Besprechungen. Das Teams-Add-In ist in Outlook nicht verfügbar. | 
-| Inselmodus | Standardmäßig können Besprechungen entweder in Skype for Business oder Teams geplant werden. Beide Add-Ins sind in Outlook verfügbar. Sie können jedoch optional verlangen, dass Benutzer auf Inseln besprechungen immer in Teams planen, indem Sie ihnen eine Instanz von TeamsMeetingPolicy mit dem PreferredMeetingProviderForIslandsMode=Teams zuweisen.| 
+| Inseln | Standardmäßig können Besprechungen entweder in Skype for Business oder Teams geplant werden. Beide Add-Ins sind in Outlook verfügbar. Sie können jedoch optional verlangen, dass Benutzer auf Inseln besprechungen immer in Teams planen, indem Sie ihnen eine Instanz von TeamsMeetingPolicy mit dem PreferredMeetingProviderForIslandsMode=Teams zuweisen.| 
 
 
 ### <a name="interoperability"></a>Interoperabilität
@@ -342,12 +342,12 @@ In beiden Fällen ist die Übertragung von Kontakten von Skype for Business zu T
 
 [Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Konfigurieren der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Konfigurieren der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[Verwenden des Besprechungsmigrationsdiensts (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+[Verwenden des Besprechungsmigrationsdiensts (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

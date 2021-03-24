@@ -1,5 +1,5 @@
 ---
-title: Zuordnen eines Subnetzes zum Hinzufügen eines neuen oder Bearbeiten eines vorhandenen Subnetzes
+title: Zuordnen eines Subnetzes Hinzufügen neu oder Bearbeiten vorhandener Subnetze
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 785d927ad8eafc361dc32efb1d44155801b91b52
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4f58ac91c449f71ee9fa2fc03d9dd59c3aa03503
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808475"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109301"
 ---
 # <a name="associate-a-subnet-add-new-or-edit-existing"></a>Zuordnen eines Subnetzes: Hinzufügen einer neuen oder Bearbeiten einer vorhandenen Zuordnung eines Subnetzes
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Konfigurieren von Netzwerksubnetzen](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
-
-
-
+- [Konfigurieren von Netzwerksubnetzen](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)

@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie Ihrer Konferenzbrücke eine neue Diensttelefonnummer zuweisen müssen, um die Abdeckung für Ihre Benutzer zu erweitern.
-ms.openlocfilehash: e2e1aa3d5626f6592f22e0850a8c7419d7549b38
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569187"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102661"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
 Wenn Sie Lizenzen **für Audiokonferenzen erwerben,** hosten Sie Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahltelefonnummern von verschiedenen Standorten aus, sodass Besprechungsorganisatoren und Teilnehmer sie verwenden können, um über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilzunehmen.
   
-Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits [](/microsoftteams/getting-service-phone-numbers) zugewiesen sind, können Sie zusätzliche Servicenummern (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten erhalten und diese dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
+Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits [](./getting-service-phone-numbers.md) zugewiesen sind, können Sie zusätzliche Servicenummern (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten erhalten und diese dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
   
 > [!NOTE]
 > Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer* sein. Sie können den Typ der Nummer sehen, indem Sie im Microsoft Teams Admin Center zu Voice Phone-Nummern navigieren und in der Spalte  >   **Zahlentyp** nachschauen. Microsoft 365- oder Office 365-Guthaben für Kommunikationen müssen zuerst eingerichtet werden, damit Benutzer sich unter einer gebührenfreien Rufnummer in die Brücke einwählen können.
@@ -137,7 +137,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 1. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
-2. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie auf **Los.** Wenn es sich bei der Telefonnummer [](https://go.microsoft.com/fwlink/?linkid=2091806) um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den Microsoft-Support, damit die Telefonnummer nicht zugewiesen wird.
+2. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie auf **Los.** Wenn es sich bei der Telefonnummer [](/microsoft-365/admin/contact-support-for-business-products) um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den Microsoft-Support, damit die Telefonnummer nicht zugewiesen wird.
 
 3. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, klicken **Sie** im Bestätigungsfenster auf Ja.
 
@@ -146,9 +146,9 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 ### <a name="save-time-and-automate"></a>Zeit sparen und automatisieren
 
-Um Zeit zu sparen, indem Sie diesen Prozess automatisieren, können Sie die [Cmdlets Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) oder **Set-CsOnlineDialInConferencingUserDefaultNumber** verwenden.
+Um Zeit zu sparen, indem Sie diesen Prozess automatisieren, können Sie die [Cmdlets Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) oder **Set-CsOnlineDialInConferencingUserDefaultNumber** verwenden.
 
-- Mit dem Cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688) können Sie die gebührenpflichtige oder gebührenfreie Standardnummer für spezifische Benutzer ändern.
+- Mit dem Cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) können Sie die gebührenpflichtige oder gebührenfreie Standardnummer für spezifische Benutzer ändern.
 
   - Führen Sie Folgendes aus, um die gebührenfreie Standardnummer für einen Benutzer zu ändern:
 
@@ -204,17 +204,17 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Ihnen helfen, Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Verwaltungspunkt zu verwalten, der Ihre tägliche Arbeit vereinfachen kann, insbesondere, wenn Sie mehrere Aufgaben erledigen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md)

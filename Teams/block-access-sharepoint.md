@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Zugriff auf SharePoint für bestimmte Benutzer blockieren
-ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: dce6581abe4fee70a6622817be7aefb0e3379e2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615081"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092893"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>Blockieren des Zugriffs auf SharePoint für bestimmte Benutzer
 
 Eine Richtlinie für bedingten Zugriff (Conditional Access, AC) in SharePoint in Microsoft 365 wird auch auf Teams angewendet. Einige Organisationen möchten jedoch den Zugriff auf SharePoint-Dateien (hochladen, herunterladen, anzeigen, bearbeiten, erstellen) blockieren, ihren Mitarbeitern allerdings dennoch den Zugriff auf Desktop-, Web- und mobile Clients in Teams erlauben. Gemäß den CA-Richtlinien würde eine Blockierung von SharePoint auch zu einer Blockierung von Teams führen. In diesem Artikel wird erklärt, wie Sie diese Beschränkung umgehen können, und es Ihren Mitarbeitern ermöglichen, weiterhin Teams zu nutzen, während der Zugriff auf in SharePoint gespeicherte Dateien komplett blockiert ist.
 
 > [!Note]
-> Das Blockieren oder Einschränken des Zugriffs auf nicht verwalteten Geräte basiert auf den Azure AD-Richtlinien für bedingten Zugriff. Erfahren Sie mehr über die [Azure AD-Lizenzierung](https://azure.microsoft.com/pricing/details/active-directory/). Einen Überblick über den bedingten Zugriff in Azure AD erhalten Sie unter [Bedingter Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/overview). Informationen zu empfohlenen Richtlinien für den SharePoint Online-Zugriff finden Sie unter [Richtlinienempfehlungen zur Sicherung von SharePoint-Websites und -Dateien](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies). Wenn Sie den Zugriff auf nicht verwalteten Geräten einschränken, müssen Benutzer mit verwalteten Geräten [unterstützte Betriebssysteme oder Browser-Kombinationen](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition) verwenden, oder ihr Zugriff wird eingeschränkt.
+> Das Blockieren oder Einschränken des Zugriffs auf nicht verwalteten Geräte basiert auf den Azure AD-Richtlinien für bedingten Zugriff. Erfahren Sie mehr über die [Azure AD-Lizenzierung](https://azure.microsoft.com/pricing/details/active-directory/). Einen Überblick über den bedingten Zugriff in Azure AD erhalten Sie unter [Bedingter Zugriff in Azure Active Directory](/azure/active-directory/conditional-access/overview). Informationen zu empfohlenen Richtlinien für den SharePoint Online-Zugriff finden Sie unter [Richtlinienempfehlungen zur Sicherung von SharePoint-Websites und -Dateien](/microsoft-365/enterprise/sharepoint-file-access-policies). Wenn Sie den Zugriff auf nicht verwalteten Geräten einschränken, müssen Benutzer mit verwalteten Geräten [unterstützte Betriebssysteme oder Browser-Kombinationen](/azure/active-directory/conditional-access/technical-reference#client-apps-condition) verwenden, oder ihr Zugriff wird eingeschränkt.
 
 Sie können den Zugriff blockieren oder einschränken für:
 
@@ -89,4 +89,4 @@ In SharePoint erhalten Sie die Fehlermeldung, dass der Zugriff verweigert wurde.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Steuern des Zugriffs auf nicht verwaltete Geräten in SharePoint](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[Steuern des Zugriffs auf nicht verwaltete Geräten in SharePoint](/sharepoint/control-access-from-unmanaged-devices)

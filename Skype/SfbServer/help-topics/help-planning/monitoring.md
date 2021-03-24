@@ -1,5 +1,5 @@
 ---
-title: Überwachung (Planungstool)
+title: Monitoring (Planning Tool)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
-description: In Skype for Business Server 2015 wird die Überwachung verwendet, um Nutzungsinformationen und QoE (Quality of Experience)-Daten zu den Kommunikationssitzungen zu sammeln, an den Ihre Benutzer beteiligt sind.
-ms.openlocfilehash: 85398b80d982fdd443e920af9c50b212afe4cb90
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In Skype for Business Server 2015 wird die Überwachung verwendet, um Nutzungsinformationen und QoE-Daten (Quality of Experience) zu den Kommunikationssitzungen zu sammeln, an den Ihre Benutzer beteiligt sind.
+ms.openlocfilehash: 20f53374903d59957113a8dd86f4614dd2e3e5b0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828935"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101771"
 ---
-# <a name="monitoring-planning-tool"></a>Überwachung (Planungstool)
+# <a name="monitoring-planning-tool"></a>Monitoring (Planning Tool)
 
-In Skype for Business Server 2015 wird die Überwachung verwendet, um Nutzungsinformationen und QoE (Quality of Experience)-Daten zu den Kommunikationssitzungen zu sammeln, an den Ihre Benutzer beteiligt sind.
+In Skype for Business Server 2015 wird die Überwachung verwendet, um Nutzungsinformationen und QoE-Daten (Quality of Experience) zu den Kommunikationssitzungen zu sammeln, an den Ihre Benutzer beteiligt sind.
 
-Weitere Informationen zum Planen von Monitoring Server finden Sie unter [Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx).
-
-
+Weitere Informationen zur Planung für Monitoring Server finden Sie unter [Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring).

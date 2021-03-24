@@ -19,12 +19,12 @@ description: Microsoft 365 Business Voice ist eine kostengünstige Option für S
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ac79d8ad612d24c3db2cf9e1bfd276ef788bac5a
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 6071264efda73f129890ce4c43131a7580fe0595
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030781"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102811"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Was ist Microsoft 365 Business Voice?
 
@@ -79,5 +79,4 @@ Wenn Sie Business Voice kaufen, erhalten Sie die folgenden Features und vieles m
     </tr>
 </table>
 
-Um zu erfahren, was alles in Business Voice enthalten ist, lesen Sie die [Beschreibung des Microsoft 365 Business Voice-Dienstes](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
-
+Um zu erfahren, was alles in Business Voice enthalten ist, lesen Sie die [Beschreibung des Microsoft 365 Business Voice-Dienstes](/office365/servicedescriptions/microsoft-365-business-voice-service-description).

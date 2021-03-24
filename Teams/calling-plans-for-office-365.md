@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten. '
-ms.openlocfilehash: 5d7a998619eb54e5c53b3c03fcaf0889ee2f328c
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
-ms.translationtype: HT
+ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130416"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102741"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -48,7 +48,7 @@ Alle Benutzer in demselben Land/derselben Region (dies ist der Benutzerstandort,
 Besuchen Sie [Verfügbarkeit nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) um Informationen zu den für jede Organisation in jedem Land/jeder Region monatlich verfügbaren Minuten zu erhalten.
   
 > [!IMPORTANT]
-> Das Land/die Region basiert auf dem Speicherort der Benutzerlizenz unter **Microsoft 365 Admin Center** > **Aktive Benutzer** und **NICHT** auf der Abrechnungsadresse unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**.   
+> Das Land/die Region basiert auf dem Speicherort der Benutzerlizenz unter **Microsoft 365 Admin Center** > **Aktive Benutzer** und **NICHT** auf der Abrechnungsadresse unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**.  
 ![Screenshot des Speicherorts der Benutzerlizenz](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Ausführliche Informationen zu Nutzungsbeschränkungen und Nutzungsbedingungen erhalten Sie unter [Audiokonferenz – Zeitraum für ﻿kostenlose ausgehende Anrufe](complimentary-dial-out-period.md).
@@ -60,19 +60,19 @@ Ausführliche Informationen zu Nutzungsbeschränkungen und Nutzungsbedingungen e
     ![Screenshot, der die Option für den Kauf eines VoIP-Anrufplans zeigt.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Je nach Ihrem Plan müssen Sie möglicherweise weitere Add-Ons erwerben, bevor Sie Telefonsystem-Lizenzen kaufen können. Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+    > Je nach Ihrem Plan müssen Sie möglicherweise weitere Add-Ons erwerben, bevor Sie Telefonsystem-Lizenzen kaufen können. Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Nachdem Sie Telefonsystem-Lizenzen gekauft haben, können Sie den Anrufplan erwerben, indem Sie sich beim **Microsoft 365 Admin Center** anmelden, **Abrechnung** > **Dienste erwerben** > **Add-On-Abonnements** auswählen und dann auf **Jetzt kaufen** klicken. Dort sehen Sie die Anrufpläne.
     
     ![Screenshot, der die Optionen für den Kauf eines VoIP-Anrufplans zeigt.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Sie können unterschiedliche Anrufpläne für verschiedene Benutzer abhängig von den Anforderungen Ihrer Organisation kaufen und zuweisen. Nachdem Sie die benötigten Anrufpläne ausgewählt haben, gehen Sie zur Kasse. Sie weisen jedem Benutzer im Microsoft 365 Admin Center einen Plan zu. Um Näheres zur Vorgehensweise zu erfahren, lesen Sie [Zuweisen von Microsoft Teams-Add-On-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Sie können unterschiedliche Anrufpläne für verschiedene Benutzer abhängig von den Anforderungen Ihrer Organisation kaufen und zuweisen. Nachdem Sie die benötigten Anrufpläne ausgewählt haben, gehen Sie zur Kasse. Sie weisen jedem Benutzer im Microsoft 365 Admin Center einen Plan zu. Um Näheres zur Vorgehensweise zu erfahren, lesen Sie [Zuweisen von Microsoft Teams-Add-On-Lizenzen](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Verfügen Sie über einen Dienstanbieter, der lokale PSTN-Konnektivität für Hybridbenutzer bietet?
 
 Wenn ja, müssen Sie keinen Anrufplan kaufen. Office 365 Enterprise E5 umfasst das **Telefonsystem**-Add-On, daher können Sie zur Kasse gehen.
   
-Weisen Sie anschließend den Benutzern im Microsoft 365 Admin Center die Enterprise E5- oder **Telefonsystem**-Add-On-Lizenzen zu. Um Näheres zur Vorgehensweise zu erfahren, lesen Sie [Zuweisen von Microsoft Teams-Add-On-Lizenzen](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Weisen Sie anschließend den Benutzern im Microsoft 365 Admin Center die Enterprise E5- oder **Telefonsystem**-Add-On-Lizenzen zu. Um Näheres zur Vorgehensweise zu erfahren, lesen Sie [Zuweisen von Microsoft Teams-Add-On-Lizenzen](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="pricing-information"></a>Preisinformationen
 
@@ -86,9 +86,9 @@ Hier finden Sie weitere Artikel, in denen das Einrichten Ihrer Anrufpläne besch
   
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     
-- [Lizenzierung für Microsoft Teams-Add-Ons](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Hier erfahren Sie, was Ihnen das Telefonsystem in Microsoft 365 oder Office 365 bietet](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system).
+- [Hier erfahren Sie, was Ihnen das Telefonsystem in Microsoft 365 oder Office 365 bietet](./here-s-what-you-get-with-phone-system.md).
     
    
 ## <a name="related-topics"></a>Verwandte Themen
@@ -100,4 +100,3 @@ Hier finden Sie weitere Artikel, in denen das Einrichten Ihrer Anrufpläne besch
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     
 - [Hinzufügen und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
- 

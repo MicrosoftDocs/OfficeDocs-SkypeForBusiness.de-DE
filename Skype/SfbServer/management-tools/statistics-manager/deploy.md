@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: In diesem Thema erfahren Sie, wie Sie Statistics Manager für Skype for Business Server bereitstellen.'
-ms.openlocfilehash: 79e07c29a5df4a5da239687708a9bb52e995d191
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814815"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105381"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistics Manager für Skype for Business Server
  
@@ -26,15 +26,15 @@ ms.locfileid: "49814815"
   
  Statistics Manager für Skype for Business Server ist ein leistungsstarkes Tool, mit dem Sie Integritäts- und Leistungsdaten von Skype for Business Server in Echtzeit anzeigen können. Sie können alle paar Sekunden Leistungsdaten auf Hunderten von Servern abfragen und die Ergebnisse sofort auf der Statistics Manager-Website anzeigen.
   
-Bevor Sie versuchen, Statistics Manager zu installieren, sollten Sie mit den Software-, Netzwerk- und Hardwareanforderungen vertraut sein. Weitere Informationen finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md).
+Bevor Sie versuchen, Statistics Manager zu installieren, müssen Sie mit den Software-, Netzwerk- und Hardwareanforderungen vertraut sein. Weitere Informationen finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md).
   
 > [!NOTE]
-> Wenn Sie ein Upgrade von einer früheren Version von Statistics Manager durchführen, lesen Sie [upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
+> Wenn Sie ein Upgrade von einer früheren Version von Statistics Manager durchführen, lesen Sie [Upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
   
 > [!NOTE]
-> Die Statistics -Manager-Website wurde getestet und funktioniert ordnungsgemäß in Internet Explorer 11+, Edge 20.10240+ und Chrome 46+ (aktuelle immergrüne Version). 
+> Die Statistics Manager-Website wurde getestet und funktioniert ordnungsgemäß in Internet Explorer 11+, Edge 20.10240+ und Chrome 46+ (aktuelle immergrüne Version). 
   
-Den Statistics Manager können Sie unter [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) herunterladen. 
+Sie finden den Statistics Manager unter [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) herunterladbar. 
   
 Dieses Thema enthält die folgenden Abschnitte:
   
@@ -49,7 +49,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Führen Sie zum Bereitstellen von Statistics Manager die folgenden Schritte aus:
   
-1. Bereiten Sie den Listenerhostcomputer vor, indem Sie das Zwischenspeicherungssystem "Redis" im Arbeitsspeicher installieren und sicherstellen, dass Sie die entsprechenden Zertifikate installiert haben.
+1. Bereiten Sie den Listenerhostcomputer vor, indem Sie das Zwischenspeichersystem Redis im Arbeitsspeicher installieren und sicherstellen, dass Sie die entsprechenden Zertifikate installiert haben.
     
 2. Installieren Sie den Listenerdienst auf dem Hostcomputer. 
     
@@ -57,46 +57,46 @@ Führen Sie zum Bereitstellen von Statistics Manager die folgenden Schritte aus:
     
 4. Installieren Sie einen Agent auf jedem Skype for Business Server-Computer, den Sie überwachen möchten.
     
-5. Importieren Sie die Topologie für die Überwachten Server.
+5. Importieren Sie die Topologie für die Server, die Sie überwachen.
     
 > [!NOTE]
 > Redis, der Listenerdienst und die Website müssen alle auf demselben Hostcomputer installiert sein. Stellen Sie sicher, dass auf dem Hostcomputer Skype for Business Server nicht installiert ist. 
   
 ### <a name="prepare-the-listener-host-machine"></a>Vorbereiten des Listenerhostcomputers
 
-Zum Vorbereiten des Hostcomputers müssen Sie das Im-Memory-Cache-System von Redis installieren und sicherstellen, dass ein gültiges Zertifikat auf dem Computer vorhanden ist. Microsoft empfiehlt, den neuesten stabilen Build von Redis 3.0 zu installieren. Statistics Manager, Version 2.0, wurde mit Redis 3.2.100 getestet. 
+Zum Vorbereiten des Hostcomputers müssen Sie das Zwischenspeicherungssystem Redis im Arbeitsspeicher installieren und sicherstellen, dass sich ein gültiges Zertifikat auf dem Computer befindet. Microsoft empfiehlt, den neuesten stabilen Build von Redis 3.0 zu installieren. Statistics Manager Version 2.0 wurde mit Redis 3.2.100 getestet. 
   
 1. Laden Sie Redis von der folgenden Website herunter: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) . 
     
-    Nicht signierte Installationsprogramme können heruntergeladen werden von [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
+    Nicht signierte Installationsprogramme können von heruntergeladen werden. [https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Wenn erforderlich, stehen signierte Binärdateien über beliebte Paketmanager zur Verfügung: [Nuget](https://www.nuget.org/packages/Redis-64/) und [Choclatey](https://chocolatey.org/packages/redis-64).
+    Bei Bedarf stehen signierte Binärdateien über beliebte Paketmanager zur Verfügung: [Nuget](https://www.nuget.org/packages/Redis-64/) und [Choclatey](https://chocolatey.org/packages/redis-64).
     
-   - Führen Sie die bereitgestellte msi aus, und folgen Sie den Eingabeaufforderungen.
+   - Führen Sie den bereitgestellten msi aus, und folgen Sie den Eingabeaufforderungen.
     
    - Aktivieren Sie das Kontrollkästchen nicht, um eine Firewallregel hinzuzufügen.
     
-2. Der Listenerdienst erfordert ein Zertifikat. Microsoft empfiehlt dringend, dass Sie über ein Zertifikat verfügen, das von einer vertrauenswürdigen Zertifizierungsstelle signiert ist. 
+2. Der Listenerdienst erfordert ein Zertifikat. Microsoft empfiehlt dringend, ein Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle signiert zu haben. 
     
-    Wenn Sie ein selbst signiertes Zertifikat verwenden möchten , z. B. zu Testzwecken in einer Übungseinheit, lesen Sie "Erstellen eines selbst signierten [Zertifikats".](deploy.md#BKMK_SelfCert)
+    Wenn Sie ein selbst signiertes Zertifikat verwenden möchten, z. B. zu Testzwecken in einem Labor, lesen Sie Erstellen eines selbst [signierten Zertifikats](deploy.md#BKMK_SelfCert).
     
-    Beachten Sie, dass der Agent die Überprüfung des Zertifikatfingerabdrucks (anstelle der Verkettungsüberprüfung) verwendet. Die vollständige Zertifikatüberprüfung wird nicht abgeschlossen, da selbst signierte Zertifikate verwendet werden können.
+    Beachten Sie, dass der Agent die Überprüfung des Zertifikatfingerabdrucks (anstelle der Kettenüberprüfung) verwendet. Die vollständige Zertifikatüberprüfung wird nicht abgeschlossen, da selbst signierte Zertifikate verwendet werden können.
     
 ### <a name="install-the-listener-service"></a>Installieren des Listenerdiensts
 
 Installieren Sie den Listenerdienst auf dem Hostcomputer, indem Sie StatsManPerfAgentListener.msi ausführen und Folgendes angeben:
   
-1. Überprüfen Sie den Lizenzvertrag, und wenn Sie zustimmen, wählen Sie "Ich stimme den **Bedingungen des** Lizenzvertrags zu, und klicken Sie dann auf **"Weiter".** 
+1. Überprüfen Sie den Lizenzvertrag, und wenn Sie zustimmen, wählen Sie Ich stimme den Bedingungen im Lizenzvertrag **zu,** und klicken Sie dann auf **Weiter**. 
     
 2. Geben Sie auf der nächsten Seite die folgenden Informationen an:
     
-   - **Dienstkennwort:** Dies ist das Kennwort, das die Remoteagenten für die Authentifizierung beim Listenerdienst verwenden.
+   - **Dienstkennwort:** Dies ist das Kennwort, das die Remote-Agents für die Authentifizierung beim Listenerdienst verwenden.
     
    - **Dienstport:** Dies ist die HTTPS-Portnummer, die der Listener für die Kommunikation mit den Agents verwendet. Während der Installation wird dieser Port über die lokale Firewall zugelassen, eine URL-ACL wird erstellt, und ein #A0 wird an diesen Port gebunden. Der Standardwert ist 8443.
     
    - **Zertifikatfingerabdruck:** Dies ist der Zertifikatfingerabdruck, den der Listener zum Verschlüsseln des HTTPS-Protokolls verwendet. Der Netzwerkdienst muss über Lesezugriff auf den privaten Schlüssel verfügen.
     
-     Klicken Sie auf die **Schaltfläche "Auswählen...",** um den Fingerabdruck auszuwählen.
+     Klicken Sie auf **die Schaltfläche Auswählen...,** um den Fingerabdruck auszuwählen.
     
      Sie finden den Zertifikatfingerabdruck mithilfe des Zertifikat-Managers oder mithilfe des folgenden PowerShell-Befehls:
     
@@ -104,9 +104,9 @@ Installieren Sie den Listenerdienst auf dem Hostcomputer, indem Sie StatsManPerf
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **Installieren Sie Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können die Standardeinstellung ändern, indem Sie die Schaltfläche **"Durchsuchen..."** verwenden.
+   - **Installieren von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können sie über die Schaltfläche Durchsuchen... von der **Standardeinstellung** ändern.
     
-   - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Logs" und andere Daten gespeichert werden. Sie können die Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
+   - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner Protokolle und andere Daten gespeichert werden. Sie können sie von der Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
     
 3. Klicken Sie auf **Installieren**.
     
@@ -116,27 +116,27 @@ Führen Sie die folgenden Schritte aus, um die Installation zu überprüfen:
     
     Standardmäßig ist der Dienstport 8443 (es sei denn, Sie haben einen anderen Port angegeben).
     
-2. Um sicherzustellen, dass der Listener ordnungsgemäß installiert wurde, suchen Sie nach folgendem Beispiel:
+2. Um sicherzustellen, dass der Listener ordnungsgemäß installiert wurde, suchen Sie folgendes:
     
-   - Wenn die Seite mit der Integritätsprüfung angezeigt wird, war die Installation des Listeners erfolgreich.
+   - Wenn die Integritätscheckseite angezeigt wird, war die Listenerinstallation erfolgreich.
     
    - Wenn knownServerCount 1 oder höher ist, wird die Verbindung mit Redis hergestellt.
     
-   - Nachdem Sie einige Minuten gewartet haben und mindestens ein Agent installiert wurde, überprüfen Sie, ob der Wert des Werts "ValuesWritten" erhöht wird.
+   - Nachdem Sie einige Minuten gewartet haben und mindestens ein Agent installiert wurde, überprüfen Sie, ob der Wert des Werts ValuesWritten erhöht wird.
     
 ### <a name="install-the-website"></a>Installieren der Website
 
-Installieren Sie die Website auf dem Hostcomputer, indem Sie StatsManWebSite.msi (im Lieferumfang von [Skype for Business Server, Real-Time Statistics Manager (64-Bit) enthalten)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)ausführen und Folgendes angeben:
+Installieren Sie die Website auf dem Hostcomputer, indem Sie das StatsManWebSite.msi (im Lieferumfang von [Skype for Business Server, Real-Time Statistics Manager (64-Bit) )](https://www.microsoft.com/en-in/download/details.aspx?id=57518)ausführen und Folgendes angeben:
   
-1. Überprüfen Sie den Lizenzvertrag, und wenn Sie zustimmen, wählen Sie "Ich stimme den **Bedingungen des** Lizenzvertrags zu, und klicken Sie dann auf **"Weiter".** 
+1. Überprüfen Sie den Lizenzvertrag, und wenn Sie zustimmen, wählen Sie Ich stimme den Bedingungen im Lizenzvertrag **zu,** und klicken Sie dann auf **Weiter**. 
     
 2. Geben Sie auf der nächsten Seite die folgenden Informationen an:
     
-   - **Dienstport:** Dies ist die Portnummer, auf die die Website lauscht. Sie können sie später mithilfe der IIS-Manager-Bindung ändern. Während der Installation wird dieser Port über die lokale Firewall zugelassen.
+   - **Dienstport:** Dies ist die Portnummer, auf die die Website lauscht. Sie können sie später mithilfe der IIS-Managerbindung ändern. Während der Installation ist dieser Port über die lokale Firewall zulässig.
     
-   - **Installieren Sie Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können die Standardeinstellung ändern, indem Sie die Schaltfläche **"Durchsuchen..."** verwenden.
+   - **Installieren von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können sie über die Schaltfläche Durchsuchen... von der **Standardeinstellung** ändern.
     
-   - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Logs" und andere Daten gespeichert werden. Sie können die Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
+   - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner Protokolle und andere Daten gespeichert werden. Sie können sie von der Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
     
 3. Klicken Sie auf **Installieren**.
     
@@ -152,25 +152,25 @@ Das Webinstallationsprogramm fügt eine lokale Sicherheitsgruppe namens StatsMan
 
 Installieren Sie einen Agent auf jedem Skype for Business Server, den Sie überwachen möchten, indem Sie StatsManPerfAgent.msi ausführen und Folgendes angeben:
   
-1. Überprüfen Sie den Lizenzvertrag, und wenn Sie zustimmen, wählen Sie "Ich stimme den **Bedingungen des** Lizenzvertrags zu, und klicken Sie dann auf **"Weiter".** 
+1. Überprüfen Sie den Lizenzvertrag, und wenn Sie zustimmen, wählen Sie Ich stimme den Bedingungen im Lizenzvertrag **zu,** und klicken Sie dann auf **Weiter**. 
     
 2. Geben Sie auf der nächsten Seite die folgenden Informationen an:
     
-   - **Dienstkennwort:** Dies ist das Kennwort, das der Remoteagent für die Authentifizierung beim Listenerdienst verwendet.
+   - **Dienstkennwort:** Dies ist das Kennwort, das der Remote-Agent für die Authentifizierung beim Listenerdienst verwendet.
     
-   - **Dienst-URI:** Dies ist der URI, in dem sich der Listener befindet. Es sollte das Format https://name:port verwendet werden.
+   - **Dienst-URI:** Dies ist der URI, in dem sich der Listener befindet. Es sollte das Format https://name:port verwenden.
     
-     Sie können einen NETBIOS-Namen oder einen FQDN verwenden. Sie können den Namen verwenden,  der auch als subject- oder **subject Alternative Names** des Zertifikats im Listenerdienst angegeben ist, dies ist jedoch keine Anforderung.
+     Sie können einen NETBIOS-Namen oder einen FQDN verwenden. Sie können den Namen verwenden,  der auch als alternative Subject- oder **Subject-Namen** des Zertifikats im Listenerdienst angegeben ist. Dies ist jedoch keine Anforderung.
     
-   - **Dienstfingerabdruck:** Dies ist der Fingerabdruck des SSL-Zertifikats, das der Listener verwendet. Der Agent verwendet diesen Fingerabdruck, um sich beim Listener zu authentifizieren. (Die Zertifikatüberprüfung wird nicht vollständig abgeschlossen, da selbst signierte Zertifikate verwendet werden können.)
+   - **Dienstfingerabdruck:** Dies ist der Fingerabdruck des vom Listener verwendeten SSL-Zertifikats. Der Agent verwendet diesen Fingerabdruck, um sich beim Listener zu authentifizieren. (Die vollständige Zertifikatüberprüfung wird nicht abgeschlossen, da selbst signierte Zertifikate verwendet werden können.)
     
-   - **Installieren Sie Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können die Standardeinstellung ändern, indem Sie die Schaltfläche **"Durchsuchen..."** verwenden.
+   - **Installieren von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können sie über die Schaltfläche Durchsuchen... von der **Standardeinstellung** ändern.
     
-   - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Logs" und die verschlüsselte password.txt gespeichert werden. Sie können es von der Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
+   - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Logs" und die password.txt datei gespeichert werden. Sie können sich bedanken, dass sie von der Standardeinstellung geändert wird. Sie wird bei der Deinstallation nicht gelöscht.
     
 3. Klicken Sie auf **Installieren**.
     
-Wenn Sie einen Agent auf zahlreichen Computern installieren, möchten Sie dies wahrscheinlich im unbeaufsichtigten Modus tun. Beispiel: 
+Wenn Sie einen Agent auf zahlreichen Computern installieren, sollten Sie dies wahrscheinlich im unbeaufsichtigten Modus tun. Zum Beispiel: 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -179,7 +179,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>Importieren der Topologie
 <a name="BKMK_ImportTopology"> </a>
 
-Nachdem Statistics Manager installiert und ausgeführt wurde, müssen Sie die Skype for Business Server-Topologie importieren, damit Statistics Manager den Standort, pool und die Rolle der einzelnen Server kennt. Zum Importieren Ihrer Skype for Business Server-Topologie verwenden Sie das [Cmdlet "Get-CsPool",](https://docs.microsoft.com/powershell/module/skype/get-cspool?view=skype-ps) um Informationen zu jedem in Ihrer Organisation verwendeten Pool abzurufen und diese Informationen dann in Statistics Manager zu importieren.
+Nachdem Statistics Manager installiert und ausgeführt wurde, müssen Sie die Skype for Business Server-Topologie importieren, damit Statistics Manager die Website, den Pool und die Rolle der einzelnen Server kennt. Zum Importieren Ihrer Skype for Business Server-Topologie verwenden Sie das [Cmdlet Get-CsPool,](/powershell/module/skype/get-cspool?view=skype-ps) um Informationen zu jedem pool abzurufen, der in Ihrer Organisation verwendet wird, und importieren diese Informationen dann in statistics manager.
   
 Führen Sie die folgenden Schritte aus, um die Skype for Business Server-Topologie zu importieren:
   
@@ -196,7 +196,7 @@ Führen Sie die folgenden Schritte aus, um die Skype for Business Server-Topolog
     
    a. Führen Sie PowerShell aus.
     
-   b. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Der Standardwert ist: 
+   b. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Die Standardeinstellung ist: 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
@@ -220,9 +220,9 @@ Führen Sie das folgende Skript aus, um die aktuell importierten Serverinformati
 .\Get-StatsManServerInfo.ps1
 ```
 
-Wenn Sie Server überwachen möchten, die sich nicht in Ihrer Skype for Business Server-Topologie befinden , z. B. ein Exchange Server, können Sie einen Import mit einem einzelnen Server auf dem Host, auf dem der Listener ausgeführt wird, tun. Führen Sie die folgenden Schritte aus, um einen Import mit einem einzelnen Server durchführen zu können:
+Wenn Sie Server überwachen möchten, die sich nicht in Ihrer Skype for Business Server-Topologie befinden – z. B. ein Exchange Server –, können Sie einen Import mit einem einzelnen Server auf dem Host, auf dem der Listener ausgeführt wird, tun. Führen Sie die folgenden Schritte aus, um einen Import mit einem Einzelnen Server zu durchführen:
   
-1. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Der Standardwert ist: 
+1. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Die Standardeinstellung ist: 
     
    ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
@@ -241,21 +241,21 @@ Wenn ein Agent nicht gestartet werden kann, überprüfen Sie Folgendes:
   
 - Ist der Agent im Statistics Manager registriert?
     
-    1. Stellen Sie sicher, dass Sie die Anweisungen zum Importieren der Topologie befolgt haben. Siehe ["Importieren der Topologie".](deploy.md#BKMK_ImportTopology)
+    1. Stellen Sie sicher, dass Sie die Anweisungen zum Importieren der Topologie befolgt haben. Weitere [Informationen finden Sie unter Importieren der Topologie](deploy.md#BKMK_ImportTopology).
         
-    2. Wenn sich der Agent auf einem Server befindet, der nicht in der Topologie aufgeführt ist (z. B. die Knoten in einem SQL AlwaysOn-Cluster), müssen Sie den Agent manuell hinzufügen, indem Sie die Anweisungen unter ["Topologie](deploy.md#BKMK_ImportTopology)importieren" befolgen.
+    2. Wenn sich der Agent auf einem Server befindet, der nicht in der Topologie aufgeführt ist (z. B. die Knoten in einem SQL AlwaysOn-Cluster), müssen Sie den Agent manuell hinzufügen, indem Sie die Anweisungen unter Importieren der [Topologie befolgen.](deploy.md#BKMK_ImportTopology)
     
 - Kann der Agent den Listener kontaktieren?
     
     1. Stellen Sie sicher, dass der Listenerdienst ausgeführt wird. 
         
-        Wenn er nicht ausgeführt wird, stellen Sie sicher, dass Redis ausgeführt wird, und versuchen Sie dann, den Listener neu zu starten.
+        Wenn es nicht ausgeführt wird, stellen Sie sicher, dass Redis ausgeführt wird, und versuchen Sie dann, den Listener neu zu starten.
         
     2. Stellen Sie sicher, dass der Port für den Listenerdienst geöffnet ist und dass der Agentcomputer mit dem Port kommunizieren kann.
     
-- Um sicherzustellen, dass Statistics Manager Daten erfasst, können Sie die DATEI "CSV" wie folgt überprüfen. 
+- Um sicherzustellen, dass Statistics Manager Daten sammelt, können Sie die CSV-Datei wie folgt überprüfen. 
     
-    Der folgende Befehl ruft die Speichernamen der Leistungsindikatoren ab: 
+    Der folgende Befehl ruft die Speichernamen des Indikators ab: 
     
   ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
@@ -267,32 +267,32 @@ Wenn ein Agent nicht gestartet werden kann, überprüfen Sie Folgendes:
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Informationen zu allen Ereignissen, die möglicherweise im Anwendungsereignisprotokoll angezeigt werden, finden Sie unter [Problembehandlung](troubleshoot.md)für Statistics Manager für Skype for Business Server .
+Informationen zu allen Ereignissen, die möglicherweise im Anwendungsereignisprotokoll angezeigt werden, finden Sie unter [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Erstellen eines selbst signierten Zertifikats
 <a name="BKMK_SelfCert"> </a>
 
-Microsoft empfiehlt dringend, ein Von einer vertrauenswürdigen Zertifizierungsstelle signiertes Zertifikat zu verwenden. Wenn Sie jedoch ein selbst signiertes Zertifikat zu Testzwecken verwenden möchten, gehen Sie wie folgt vor: 
+Microsoft empfiehlt dringend, ein von einer vertrauenswürdigen Zertifizierungsstelle signiertes Zertifikat zu verwenden. Wenn Sie jedoch ein selbst signiertes Zertifikat zu Testzwecken verwenden möchten, gehen Sie wie folgt vor: 
   
-1. Geben Sie in einer PowerShell-Konsole, die als Administrator angemeldet ist, Folgendes ein:
+1. Geben Sie in einer PowerShell-Konsole, während sie als Administrator angemeldet ist, Folgendes ein:
     
    ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 
-2. Typ  `certlm.msc` . Dadurch wird der Zertifikat-Manager für den lokalen Computer geöffnet.
+2. Geben Sie  `certlm.msc` ein. Dadurch wird der Zertifikat-Manager für den lokalen Computer geöffnet.
     
-3. Navigieren Sie zu **"Persönlich",** und öffnen Sie **dann Zertifikate.**
+3. Navigieren Sie zu **Personal**, und öffnen Sie dann **Zertifikate**.
     
-4. Right click on **StatsManListener- \> All Tasks- \> Manage Private Keys...**
+4. Klicken Sie mit der rechten Maustaste **auf StatsManListener- \> Alle Aufgaben- Private Schlüssel \> verwalten...**
     
 5. Klicken Sie auf **Hinzufügen**.
     
-6. Geben Sie **im Feld "Geben Sie die zu verwendende** Objektnamen ein" Folgendes ein: Netzwerkdienst
+6. Geben Sie im Feld Geben Sie **die auszuwählende Objektnamen** eingeben Folgendes ein: Netzwerkdienst
     
 7. Klicken Sie auf **OK**.
     
-8. Aktivieren **Sie unter Vollschutz** das Kontrollkästchen **"Zulassen".** (Nur Lesezugriff ist erforderlich.)
+8. Aktivieren **Sie unter Vollsteuerung** das Kontrollkästchen **Zulassen.** (Nur Lesezugriff ist erforderlich.)
     
 9. Klicken Sie auf **OK**.
     

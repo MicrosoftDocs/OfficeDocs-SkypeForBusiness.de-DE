@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Erstellen oder ändern Sie eine Reaktiongruppenwarteschlange in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 9ab714b974601599f591880886a2cf64e35262ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Erstellen oder Ändern einer Reaktionsgruppe-Warteschlange in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808675"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103581"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Erstellen oder Ändern einer Warteschlange in Skype for Business
  
-Erstellen oder ändern Sie eine Reaktiongruppenwarteschlange in Skype for Business Server Enterprise-VoIP.
+Erstellen oder Ändern einer Reaktionsgruppe-Warteschlange in Skype for Business Server Enterprise-VoIP.
   
-Warteschleifen halten Anrufer, bis ein Agent den Anruf beantwortet. Wenn die Reaktionsgruppenanwendung nach einem verfügbaren Agent sucht, durchsucht sie Agentgruppen in der Reihenfolge, in der Sie sie auflisten. Sie können die Agentgruppen auswählen, die der Warteschleife zugewiesen sind, und das Warteschleifenverhalten angeben, z. B. die Anzahl der Anrufe begrenzen, die die Warteschleife halten kann, und den Zeitraum, in dem ein Anruf wartet, bis ein Agent den Anruf beantwortet.
+Warteschlangen halten Anrufer, bis ein Agent den Anruf beantwortet. Wenn die Reaktionsgruppenanwendung nach einem verfügbaren Agent sucht, durchsucht sie Agentgruppen in der Reihenfolge, in der Sie sie auflisten. Sie können die Agentgruppen auswählen, die der Warteschlange zugewiesen sind, und das Warteschlangenverhalten angeben, z. B. die Anzahl der Anrufe begrenzen, die die Warteschlange halten kann, und den Zeitraum, in dem ein Anruf wartet, bis ein Agent den Anruf beantwortet.
   
 Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen oder zu ändern.
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>So verwenden Sie die Skype for Business Server-Systemsteuerung zum Erstellen oder Ändern einer Warteschlange
 
-1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppe unterstützen.
+1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied einer der vordefinierten Administrativen Rollen an, die die Reaktionsgruppe unterstützen.
     
     > [!NOTE]
     > Wenn Sie einer der delegierten Reaktionsgruppen-Manager für einen verwalteten Workflow sind, können Sie Reaktionsgruppen-Warteschleifen erstellen und ändern und diese den von Ihnen verwalteten Workflows zuweisen. 
@@ -71,11 +71,11 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
    - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-   - Klicken Sie zum Weiterleiten des Anrufs an Voicemail auf "An Voicemail weiterleiten", und geben Sie dann im Feld **"SIP-Adresse"** eine Voicemailadresse im Format "sip:" ein (z. B. *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
+   - Klicken Sie zum Weiterleiten des Anrufs an Voicemail auf  An Voicemail **weiterleiten,** und geben Sie dann im Feld SIP-Adresse eine Voicemailadresse im Format sip: ein (z. B. *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
     
-   - Wenn Sie den Anruf an eine andere Telefonnummer weiterleiten möchten, klicken Sie auf "An Telefonnummer weiterleiten", und geben Sie dann im Feld **"SIP-Adresse"** die Telefonnummer im Format "sip:" ein (z. B. *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
+   - Klicken Sie zum Weiterleiten des Anrufs an eine andere Telefonnummer auf An Telefonnummer **weiterleiten,** und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer im Format sip: ein (z. B. *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
     
-   - Zum Weiterleiten des Anrufs an einen anderen Benutzer klicken Sie auf "An SIP-Adresse weiterleiten", und geben Sie dann im Feld **"SIP-Adresse"** den URI für den Benutzer im Format "sip: " _\<username\>_ @  _\<domainname\>_ ein.
+   - Klicken Sie zum Weiterleiten des Anrufs an einen anderen  Benutzer auf **An** SIP-Adresse weiterleiten, und geben Sie dann im Feld SIP-Adresse den URI für den Benutzer im Format sip: _\<username\>_ @  _\<domainname\>_ ein.
     
    - Klicken Sie auf **An andere Warteschleife weiterleiten**, und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
     
@@ -89,11 +89,11 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
    - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-   - Klicken Sie zum Weiterleiten des Anrufs an Voicemail auf "An Voicemail weiterleiten", und geben Sie dann im Feld **"SIP-Adresse"** eine Voicemailadresse im Format "sip:" ein (z. B. *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
+   - Klicken Sie zum Weiterleiten des Anrufs an Voicemail auf  An Voicemail **weiterleiten,** und geben Sie dann im Feld SIP-Adresse eine Voicemailadresse im Format sip: ein (z. B. *\<username\>* @  *\<domainname\>* sip:bob@contoso.com).
     
-   - Wenn Sie den Anruf an eine andere Telefonnummer weiterleiten möchten, klicken Sie auf "An Telefonnummer weiterleiten", und geben Sie dann im Feld **"SIP-Adresse"** die Telefonnummer im Format "sip:" ein (z. B. *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
+   - Klicken Sie zum Weiterleiten des Anrufs an eine andere Telefonnummer auf An Telefonnummer **weiterleiten,** und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer im Format sip: ein (z. B. *\<number\>* @  *\<domainname\>* sip:+14255550121@contoso.com).
     
-   - Zum Weiterleiten des Anrufs an einen anderen Benutzer klicken Sie auf "An SIP-Adresse weiterleiten", und geben Sie dann im Feld **"SIP-Adresse"** den URI für den Benutzer im Format "sip: " _\<username\>_ @  _\<domainname\>_ ein.
+   - Klicken Sie zum Weiterleiten des Anrufs an einen anderen  Benutzer auf **An** SIP-Adresse weiterleiten, und geben Sie dann im Feld SIP-Adresse den URI für den Benutzer im Format sip: _\<username\>_ @  _\<domainname\>_ ein.
     
    - Klicken Sie auf **An andere Warteschleife weiterleiten**, und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
     
@@ -101,12 +101,12 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>So verwenden Sie die Skype for Business Server-Verwaltungsshell zum Erstellen oder Ändern einer Warteschlange
 
-1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppe unterstützen.
+1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied einer der vordefinierten Administrativen Rollen an, die die Reaktionsgruppe unterstützen.
     
     > [!NOTE]
     > Wenn Sie einer der delegierten Reaktionsgruppen-Manager für einen verwalteten Workflow sind, können Sie Agentgruppen und Warteschleifen erstellen und Warteschleifen Agentgruppen zuweisen. 
   
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
     
 3. Erstellen Sie die Ansage, die abgespielt werden soll, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -121,7 +121,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
    > [!NOTE]
-   > Verwenden Sie das Cmdlet **Import-CsRgsAudioFile**, um eine Audiodatei für die Ansage zu verwenden. Weitere Informationen finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Verwenden Sie das Cmdlet **Import-CsRgsAudioFile**, um eine Audiodatei für die Ansage zu verwenden. Weitere Informationen finden Sie unter [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -130,7 +130,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
    > [!NOTE]
-   > Weitere Informationen zu möglichen Aktionen und deren Syntax finden Sie unter [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+   > Weitere Informationen zu möglichen Aktionen und deren Syntax finden Sie unter [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Zum Beispiel:
     
@@ -151,7 +151,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
       > [!NOTE]
-      > Verwenden Sie das Cmdlet **Import-CsRgsAudioFile**, um eine Audiodatei für die Ansage zu verwenden. Weitere Informationen finden Sie unter [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Verwenden Sie das Cmdlet **Import-CsRgsAudioFile**, um eine Audiodatei für die Ansage zu verwenden. Weitere Informationen finden Sie unter [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Überlauf erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -160,7 +160,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
     > [!NOTE]
-    > Weitere Informationen zu möglichen Aktionen und deren Syntax finden Sie unter [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
+    > Weitere Informationen zu möglichen Aktionen und deren Syntax finden Sie unter [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
     Zum Beispiel:
     
@@ -181,7 +181,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
     > [!NOTE]
-    > Weitere Informationen zum Erstellen der Agentgruppe finden Sie unter ["New-CsRgsAgentGroup".](https://docs.microsoft.com/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Weitere Informationen zum Erstellen der Agentgruppe finden Sie unter [New-CsRgsAgentGroup](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Die Warteschleife erstellen. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -203,16 +203,16 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 
 ## <a name="see-also"></a>Siehe auch
 
-[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
+[New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   
-[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/set-csrgsqueue?view=skype-ps)
+[Set-CsRgsQueue](/powershell/module/skype/set-csrgsqueue?view=skype-ps)
   
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
+[New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
-[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+[New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
   
-[Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/get-csrgsqueue?view=skype-ps)
+[Get-CsRgsQueue](/powershell/module/skype/get-csrgsqueue?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
   
-[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/remove-csrgsqueue?view=skype-ps)
+[Remove-CsRgsQueue](/powershell/module/skype/remove-csrgsqueue?view=skype-ps)

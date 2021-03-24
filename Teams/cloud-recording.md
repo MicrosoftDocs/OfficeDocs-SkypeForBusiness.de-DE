@@ -18,16 +18,16 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 851901a6f985ecfecdcd6e3fda67aa5c1f11af3b
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 9eb5ef4227a52bfad5a0f0b41becd2360e225754
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615101"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102631"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
-In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeichnen, um Aktivitäten der Audio-, Video- und Bildschirmfreigabe festzuhalten. Es gibt auch eine Option für die automatische Transkription von Aufzeichnungen, sodass Benutzer Besprechungsaufzeichnungen mit Untertiteln wiedergeben und nach wichtigen Diskussionsbeiträgen in der Transkription suchen können. Die Aufzeichnung erfolgt in der Cloud und wird im [Microsoft Stream](https://docs.microsoft.com/stream/) gespeichert, sodass Benutzer sie sicher in ihrer Organisation freigeben können.
+In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeichnen, um Aktivitäten der Audio-, Video- und Bildschirmfreigabe festzuhalten. Es gibt auch eine Option für die automatische Transkription von Aufzeichnungen, sodass Benutzer Besprechungsaufzeichnungen mit Untertiteln wiedergeben und nach wichtigen Diskussionsbeiträgen in der Transkription suchen können. Die Aufzeichnung erfolgt in der Cloud und wird im [Microsoft Stream](/stream/) gespeichert, sodass Benutzer sie sicher in ihrer Organisation freigeben können.
 
 Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://aka.ms/recordmeeting)
 
@@ -49,7 +49,7 @@ Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss 
 - Der Benutzer ist kein anonymer, Gast- oder Verbundbenutzer in der Besprechung
 - Um die Transkription für die Besprechung eines Benutzers zu aktivieren, muss die Einstellung „-AllowTranscription“ in der dem Benutzer zugewiesenen Teams-Besprechungsrichtlinie auf „true“ festgelegt sein.
 
-<sup>1</sup> Ab dem 20. August 2020 läuft der Zugriff auf die Aufzeichnungsdatei der Besprechung für Benutzer mit A1 nach 21 Tagen ab. Weitere Informationen hierzu finden Sie unter [Hochladen einer Microsoft Teams-Besprechungsaufzeichnung in Stream](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording).
+<sup>1</sup> Ab dem 20. August 2020 läuft der Zugriff auf die Aufzeichnungsdatei der Besprechung für Benutzer mit A1 nach 21 Tagen ab. Weitere Informationen hierzu finden Sie unter [Hochladen einer Microsoft Teams-Besprechungsaufzeichnung in Stream](/stream/portal-upload-teams-meeting-recording).
 
 <sup>2</sup> Der Benutzer muss dazu lizenziert sein, Besprechungen in/aus Microsoft Stream hoch- oder herunterzuladen, benötigt jedoch keine Lizenz zum Aufzeichnen einer Besprechung. Wenn Sie einen Benutzer daran hindern möchten, eine Besprechung aus Microsoft Teams aufzuzeichnen, müssen Sie eine TeamsMeetingPolicy gewähren, die AllowCloudRecording auf $False festgelegt hat.
 
@@ -62,17 +62,17 @@ In diesem Abschnitt wird erläutert, wie die Aufzeichnung von Besprechungen in T
 
 ### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Aktivieren Sie Microsoft Stream für Benutzer in der Organisation
 
-Microsoft Stream ist als Teil der berechtigten Microsoft 365- und Office 365-Abonnements oder als eigenständiger Dienst verfügbar.  Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).  Microsoft Stream ist jetzt in Microsoft 365 Business, Microsoft 365 Business Standard und Microsoft 365 Business Basic enthalten.
+Microsoft Stream ist als Teil der berechtigten Microsoft 365- und Office 365-Abonnements oder als eigenständiger Dienst verfügbar.  Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](/stream/license-overview).  Microsoft Stream ist jetzt in Microsoft 365 Business, Microsoft 365 Business Standard und Microsoft 365 Business Basic enthalten.
 
-Hier erfahren Sie, wie Sie [Benutzern in Microsoft 365- oder Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie unter [Blockieren von Registrierungen für Microsoft Stream](https://docs.microsoft.com/stream/disable-user-organization) definiert.
+Hier erfahren Sie, wie Sie [Benutzern in Microsoft 365- oder Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie unter [Blockieren von Registrierungen für Microsoft Stream](/stream/disable-user-organization) definiert.
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Stellen Sie sicher, dass Benutzer die Berechtigung zum Hochladen von Videos in Microsoft Stream haben
 
-Standardmäßig kann jeder Mitarbeiter des Unternehmens in Stream Inhalte erstellen, sobald Stream aktiviert ist und dem Benutzer die Lizenz zugewiesen ist. Ein Microsoft Stream-Administrator kann [Mitarbeiter bei der Erstellung von Inhalten in Stream einschränken](https://docs.microsoft.com/stream/restrict-uploaders). Die Benutzer, die in dieser Liste als „eingeschränkt“ markiert sind, können keine Besprechungen aufzeichnen.
+Standardmäßig kann jeder Mitarbeiter des Unternehmens in Stream Inhalte erstellen, sobald Stream aktiviert ist und dem Benutzer die Lizenz zugewiesen ist. Ein Microsoft Stream-Administrator kann [Mitarbeiter bei der Erstellung von Inhalten in Stream einschränken](/stream/restrict-uploaders). Die Benutzer, die in dieser Liste als „eingeschränkt“ markiert sind, können keine Besprechungen aufzeichnen.
 
 ### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Mitarbeiter in Microsoft Stream dazu auffordern, den Richtlinien des Unternehmens zuzustimmen
 
-Wenn ein Microsoft Stream-Administrator [Unternehmensrichtlinien eingerichtet](https://docs.microsoft.com/stream/company-policy-and-consent) hat und die Mitarbeiter diese Richtlinie vor dem Speichern von Inhalten anerkennen müssen, müssen die Benutzer dies tun, bevor sie in Microsoft Teams aufzeichnen können. Bevor Sie das Aufzeichnungsfeature in der Organisation ausrollen, müssen Sie sicherstellen, dass die Benutzer der Richtlinie zugestimmt haben.
+Wenn ein Microsoft Stream-Administrator [Unternehmensrichtlinien eingerichtet](/stream/company-policy-and-consent) hat und die Mitarbeiter diese Richtlinie vor dem Speichern von Inhalten anerkennen müssen, müssen die Benutzer dies tun, bevor sie in Microsoft Teams aufzeichnen können. Bevor Sie das Aufzeichnungsfeature in der Organisation ausrollen, müssen Sie sicherstellen, dass die Benutzer der Richtlinie zugestimmt haben.
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>Aktivieren oder Deaktivieren von „Cloud-Aufnahme“
 
@@ -80,7 +80,7 @@ Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um 
 
 Aktivieren bzw. deaktivieren Sie im Microsoft Teams Admin Center die Einstellung **Zulassen von Cloud-Aufzeichnung** in der Besprechungsrichtlinie. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md#allow-cloud-recording).
 
-Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowCloudRecording“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowCloudRecording“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 Beachten Sie, dass sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung über die Berechtigung zum Aufzeichnen der Besprechung verfügen müssen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowCloudRecording standardmäßig aktiviert ist.
 
@@ -132,7 +132,7 @@ Nachfolgend finden Sie eine Zusammenfassung dessen, was passiert, wenn Sie die B
 
 Bei neuen und vorhandenen Mandanten, die die Besprechungsaufzeichnung noch nicht aktiviert haben, werden neue Aufzeichnungen lokal gespeichert, nachdem Microsoft Stream im lokalen Datenaufbewahrungsbereich zur Verfügung steht. Allerdings werden alle Mandanten, die die Aufzeichnung von Besprechungen aktivieren, bevor Microsoft Stream im inländischen Datenaufbewahrungsbereich zur Verfügung steht, weiterhin den Microsoft Stream-Speicher für vorhandene und neue Aufzeichnungen verwenden, auch wenn Microsoft Stream im inländischen Datenaufbewahrungsbereich verfügbar gemacht wird.
 
-Um herauszufinden, in welcher Region Ihre Microsoft Stream-Daten gespeichert werden, klicken Sie in Microsoft Stream auf **?** Klicken Sie in der oberen, rechten Ecke auf **Über Microsoft Stream** und dann auf **Ihre Daten werden gespeichert in**.  Um mehr über die Regionen zu erfahren, in denen Microsoft Stream Daten speichert, lesen Sie [Microsoft Stream FAQ](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
+Um herauszufinden, in welcher Region Ihre Microsoft Stream-Daten gespeichert werden, klicken Sie in Microsoft Stream auf **?** Klicken Sie in der oberen, rechten Ecke auf **Über Microsoft Stream** und dann auf **Ihre Daten werden gespeichert in**.  Um mehr über die Regionen zu erfahren, in denen Microsoft Stream Daten speichert, lesen Sie [Microsoft Stream FAQ](/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
 Um mehr darüber zu erfahren, wo die Daten der Dienste von Microsoft 365 oder Office 365 gespeichert werden, lesen Sie [Wo befinden sich Ihre Daten?](https://products.office.com/where-is-your-data-located?rtc=1)
 
@@ -147,7 +147,7 @@ Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um 
 
 Schalten Sie im Microsoft Teams Admin-Center die Option **Transkription gestatten** in der Besprechungsrichtlinie ein oder aus. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md#allow-transcription).
 
-Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowTranscription“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowTranscription“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowTranscription standardmäßig deaktiviert ist.
 
@@ -176,18 +176,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="planning-for-storage"></a>Planung der Speicheranforderungen
 
-Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft Stream verfügen.  Lesen Sie [Übersicht über die Microsoft Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview), um mehr über den im Abonnement enthaltenen Basisspeicher und den Erwerb zusätzlichen Speichers zu erfahren.
+Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft Stream verfügen.  Lesen Sie [Übersicht über die Microsoft Stream-Lizenzierung](/stream/license-overview), um mehr über den im Abonnement enthaltenen Basisspeicher und den Erwerb zusätzlichen Speichers zu erfahren.
 
 ## <a name="manage-meeting-recordings"></a>Verwalten von Besprechungsaufzeichnungen
 
-Die Besprechungsaufzeichnungen gelten als mandanteneigener Inhalt. Wenn der Besitzer der Aufzeichnung das Unternehmen verlässt, kann der Administrator die Video-URL der Aufzeichnung in Microsoft Stream im Administratormodus öffnen. Der Administrator kann die Aufzeichnung löschen, die Metadaten der Aufzeichnung bearbeiten oder Berechtigungen für das Video der Aufzeichnung ändern. Erfahren Sie mehr über [Administratorfunktionen in Stream](https://docs.microsoft.com/stream/manage-content-permissions).
+Die Besprechungsaufzeichnungen gelten als mandanteneigener Inhalt. Wenn der Besitzer der Aufzeichnung das Unternehmen verlässt, kann der Administrator die Video-URL der Aufzeichnung in Microsoft Stream im Administratormodus öffnen. Der Administrator kann die Aufzeichnung löschen, die Metadaten der Aufzeichnung bearbeiten oder Berechtigungen für das Video der Aufzeichnung ändern. Erfahren Sie mehr über [Administratorfunktionen in Stream](/stream/manage-content-permissions).
 
 > [!NOTE]
-> Weitere Informationen zum Verwalten von Aufzeichnungen und des Benutzerzugriffs finden Sie unter [Verwalten von Benutzerdaten in Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) und [Berechtigungen und Datenschutz in Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions).
+> Weitere Informationen zum Verwalten von Aufzeichnungen und des Benutzerzugriffs finden Sie unter [Verwalten von Benutzerdaten in Microsoft Stream](/stream/managing-user-data) und [Berechtigungen und Datenschutz in Microsoft Stream](/stream/portal-permissions).
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Compliance und eDiscovery für Besprechungsaufzeichnungen
 
-Die Besprechungsaufzeichnungen werden in Microsoft Stream (Microsoft 365 und Office 365 Tier-C-konform) gespeichert. Um e-Discovery-Anforderungen für Compliance-Administratoren zu unterstützen, die an Besprechungen oder Anrufaufnahmen für Microsoft-Streams interessiert sind, steht die Meldung „Aufzeichnung abgeschlossen“ in der Funktionalität zur Inhaltssuche für Microsoft Teams zur Verfügung. Compliance-Administratoren können nach dem Stichwort „Aufzeichnung“ in der Betreffzeile des Elements in der Vorschau der Compliance-Inhaltssuche suchen und Besprechungen und Anrufaufnahmen in der Organisation entdecken. Eine Voraussetzung für die Anzeige aller Aufzeichnungen ist, dass sie in Microsoft Stream mit Administratorzugriff ausgestattet werden müssen. Erfahren Sie mehr über das [Zuweisen von Administratorberechtigungen in Stream](https://docs.microsoft.com/stream/assign-administrator-user-role).
+Die Besprechungsaufzeichnungen werden in Microsoft Stream (Microsoft 365 und Office 365 Tier-C-konform) gespeichert. Um e-Discovery-Anforderungen für Compliance-Administratoren zu unterstützen, die an Besprechungen oder Anrufaufnahmen für Microsoft-Streams interessiert sind, steht die Meldung „Aufzeichnung abgeschlossen“ in der Funktionalität zur Inhaltssuche für Microsoft Teams zur Verfügung. Compliance-Administratoren können nach dem Stichwort „Aufzeichnung“ in der Betreffzeile des Elements in der Vorschau der Compliance-Inhaltssuche suchen und Besprechungen und Anrufaufnahmen in der Organisation entdecken. Eine Voraussetzung für die Anzeige aller Aufzeichnungen ist, dass sie in Microsoft Stream mit Administratorzugriff ausgestattet werden müssen. Erfahren Sie mehr über das [Zuweisen von Administratorberechtigungen in Stream](/stream/assign-administrator-user-role).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

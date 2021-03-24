@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9b084afa7730d849f221de1d297f07359d200c79
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726236"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102831"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden
 
@@ -110,7 +110,7 @@ Weitere Informationen finden Sie unter [Was sind Notfallstandorte, Notfalladress
 </table>
 
 > [!IMPORTANT]
-> Der Assistent für die ersten Schritte hilft Ihnen beim Einrichten eines einfachen Anrufmenüs, damit Sie schnell und problemlos loslegen können. Wenn Sie auf mehreren Rufnummern Anrufmenüs einrichten oder komplexere Anrufmenüs (auch als automatische Telefonzentrale bezeichnet) einrichten möchten, finden Sie nach Abschluss des Assistenten unter [Einrichten einer automatischen Cloudtelefonzentrale](set-up-auto-attendants.md) weitere Informationen.
+> Der Assistent für die ersten Schritte hilft Ihnen beim Einrichten eines einfachen Anrufmenüs, damit Sie schnell und problemlos loslegen können. Wenn Sie auf mehreren Rufnummern Anrufmenüs einrichten oder komplexere Anrufmenüs (auch als automatische Telefonzentrale bezeichnet) einrichten möchten, finden Sie nach Abschluss des Assistenten unter [Einrichten einer automatischen Cloudtelefonzentrale](./create-a-phone-system-auto-attendant-smb.md) weitere Informationen.
 
 <table>
     <tr>

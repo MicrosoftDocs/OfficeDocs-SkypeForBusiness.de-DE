@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: In Skype for Business Server können einem einzelnen Get-CsTrunk mehrere Trunks zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht identisch sind und Administratoren das cmdlet Get-CsTrunk verwenden müssen, um Informationen zu einem einzelnen SIP-Trunk anzeigen zu können.
-ms.openlocfilehash: b49846ed7244dec2f51f51f262becc440662026c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In Skype for Business Server können mehrere Trunks einem einzelnen Get-CsTrunk zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht identisch sind, und Administratoren müssen das cmdlet Get-CsTrunk verwenden, um Informationen zu einem einzelnen SIP-Trunk anzeigen zu können.
+ms.openlocfilehash: eebba2982a6f574ca2af99609f19ba5426139acb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826175"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103001"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Anzeigen von Informationen zu einzelnen SIP-Trunks in Skype for Business Server
 
-In Skype for Business Server können einem einzelnen #A0 mehrere Trunks zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht identisch sind und dass Administratoren das [Cmdlet "Get-CsTrunk"](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) verwenden müssen, um Informationen zu einem einzelnen SIP-Trunk anzeigen zu können.
+In Skype for Business Server können mehrere Trunks einem einzelnen #A0 zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht identisch sind und Administratoren das [Cmdlet Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) verwenden müssen, um Informationen zu einem einzelnen SIP-Trunk anzeigen zu können.
 
-Das Get-CsTrunk Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell.
+Das Get-CsTrunk-Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell.
 
 **So zeigen Sie Informationen für alle Ihre SIP-Trunks an**
 

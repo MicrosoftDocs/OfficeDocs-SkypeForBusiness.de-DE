@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Unfortunately, there are certain user licenses that are blocked when user go to https://broadcast.skype.com and want to use Skype Meeting Broadcast. If a user sees this message, they have one of the blocked licenses assigned to them. If you still want them to use it, assign them another Office 365 license.
-ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+description: Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
+ms.openlocfilehash: 91c1005ee211bd51fc0f713237362b43a79d5e69
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865149"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103761"
 ---
-# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für das Hosting von Skype Meeting Broadcast
+# <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für das Hosten von Skype Meeting Broadcast
 
 > [!IMPORTANT]
-> Skype for Business Online wird am 31. Juli 2021 beendet. Zu diesem Zeitpunkt endet der Zugriff auf den Dienst. Wir empfehlen kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Hauptclient für Kommunikation und Teamarbeit in Microsoft 365.
+> Skype for Business Online wird am 31. Juli 2021 in den Ruhestand geschaltet, zu dem der Zugriff auf den Dienst endet. Wir empfehlen Kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Kernclient für Kommunikation und Teamarbeit in Microsoft 365.
 
-Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer zu einer Skype Meeting Broadcast wechseln und diese https://broadcast.skype.com hosten möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
+Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer zu einer Skype-Besprechungsübertragung wechseln und diese https://broadcast.skype.com hosten möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
   
  *„Ihre Unternehmenslizenz ist nicht für die Verwendung von Skype-Livekonferenzen zugelassen. Bitte wenden Sie sich an Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie über die richtige Lizenz verfügen.“* 
   
@@ -64,9 +64,8 @@ Das Hosten von Skype Meeting Broadcast-Ereignissen wird blockiert, wenn einem Be
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+[Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
- 

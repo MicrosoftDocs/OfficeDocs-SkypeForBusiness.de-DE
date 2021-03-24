@@ -14,35 +14,35 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
-description: Ein Administrator für beständigen Chat kann Chatroomkategorien erstellen und verwalten. Im Rahmen der Erstellung und Verwaltung von Chatroomkategorien kann ein Administrator für beständigen Chat Prinzipale (Active Directory Domain Services-Gruppen/Container/Benutzer) konfigurieren, die Zugriff auf Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie haben. Ein Administrator für beständigen Chat kann einer Kategorie auch "DeniedMembers" hinzufügen, was zu expliziten Ausschlüssen in der Liste der zulässigen Benutzer wird. "DeniedMembers" überschreibt, was in "AllowedMembers" vorhanden ist.
-ms.openlocfilehash: c5f942723937fe2da28025fba5da1fc7ee121c83
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ein Administrator für beständigen Chat kann Chatroomkategorien erstellen und verwalten. Im Rahmen der Erstellung und Verwaltung von Chatroomkategorien kann ein Administrator für beständigen Chat Prinzipale (Active Directory Domain Services-Gruppen/Container/Benutzer) konfigurieren, die Zugriff auf Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie haben. Ein Administrator für beständigen Chat kann einer Kategorie auch DeniedMembers hinzufügen, und diese werden zu expliziten Ausschlüssen in der liste zugelassenen. DeniedMembers überschreiben, was in AllowedMembers ist.
+ms.openlocfilehash: 5a31716c2fae15c6216ed050b543673479415a76
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814575"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107961"
 ---
 # <a name="select-denied-members"></a>Auswählen abgelehnter Mitglieder
 
-Ein Administrator für beständigen Chat kann Chatroomkategorien erstellen und verwalten. Im Rahmen der Erstellung und Verwaltung von Chatroomkategorien kann ein Administrator für beständigen Chat Prinzipale (Active Directory Domain Services-Gruppen/Container/Benutzer) konfigurieren, die Zugriff auf Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie haben. Ein Administrator für beständigen Chat kann einer Kategorie auch "DeniedMembers" hinzufügen, was zu expliziten Ausschlüssen in der Liste der zulässigen Benutzer wird. "DeniedMembers" überschreibt, was in "AllowedMembers" vorhanden ist.
+Ein Administrator für beständigen Chat kann Chatroomkategorien erstellen und verwalten. Im Rahmen der Erstellung und Verwaltung von Chatroomkategorien kann ein Administrator für beständigen Chat Prinzipale (Active Directory Domain Services-Gruppen/Container/Benutzer) konfigurieren, die Zugriff auf Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie haben. Ein Administrator für beständigen Chat kann einer Kategorie auch DeniedMembers hinzufügen, und diese werden zu expliziten Ausschlüssen in der liste zugelassenen. DeniedMembers überschreiben, was in AllowedMembers ist.
 
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite "Abgelehnte Mitglieder auswählen" können Sie die folgenden **Aufgaben** ausführen:
+Sie können die folgenden Aufgaben auf der Seite **Abgelehnte Mitglieder** auswählen ausführen:
 
-- [Konfigurieren von Kategorien](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Konfigurieren von Kategorien](/previous-versions/office/lync-server-2013/lync-server-2013-configure-categories)
 
-- [Neue Features für Persistent Chat Server](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
+- [Neue Features für Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
+Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms
 
-Fügen Sie in  **der** Mitgliedschaft im Abschnitt "Abgelehnte Mitglieder" Benutzer und andere Active Directory-Prinzipale hinzu oder entfernen Sie diese, die Mitgliedern zugeordnet sind, die aus dem Raum verweigert wurden.
+Fügen **Sie** im  Abschnitt Mitgliedschaft im Abschnitt Abgelehnte Mitglieder Benutzer und andere Active Directory-Prinzipale hinzu oder entfernen sie, die Mitgliedern zugeordnet sind, die aus dem Raum verweigert werden.
 
 
-Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie in der Planungsdokumentation unter ["Übersicht](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) über den Server für beständigen Chat". Ausführliche Informationen zum Arbeiten mit Konfigurationen für den Server für beständigen Chat finden Sie unter [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.
+Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie unter [Overview of Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) in der Planungsdokumentation. Ausführliche Informationen zum Arbeiten mit Konfigurationen des Servers für beständigen Chat finden Sie unter [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) in der Bereitstellungsdokumentation und [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in der Betriebsdokumentation.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Grundlegendes zur Persistent Chat-Mitgliedschaft](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+[Grundlegendes zur Persistent Chat-Mitgliedschaft](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)

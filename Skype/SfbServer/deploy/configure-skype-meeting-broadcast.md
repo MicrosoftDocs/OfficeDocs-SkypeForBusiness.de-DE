@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren Ihrer lokalen Bereitstellung für Skype Meeting Broadcast
+title: Konfigurieren Ihrer lokalen Bereitstellung für Skype-Besprechungsübertragung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,23 +16,23 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren von Skype Meeting Broadcast für Ihre lokale Skype for Business Server-Hybridbereitstellung ausführen müssen.'
-ms.openlocfilehash: c016d60b416c7b6d935b15718f3f1a10f439b9ab
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren der Skype-Besprechungsübertragung für Ihre lokale Skype for Business Server-Hybridbereitstellung ausführen müssen.'
+ms.openlocfilehash: b70272ee90146bdac87264acf0c7673b8def05c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820705"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103691"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren Ihrer lokalen Bereitstellung für Skype Meeting Broadcast
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren Ihrer lokalen Bereitstellung für Skype-Besprechungsübertragung
  
-**Zusammenfassung:** Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren von Skype Meeting Broadcast für Ihre lokale Skype for Business Server-Hybridbereitstellung ausführen müssen.
+**Zusammenfassung:** Erfahren Sie mehr über die Schritte, die Sie zum Konfigurieren der Skype-Besprechungsübertragung für Ihre lokale Skype for Business Server-Hybridbereitstellung ausführen müssen.
   
-Skype Meeting Broadcast ist ein Onlinedienst, der Teil von Office 365 ist. Wenn Sie Skype for Business Server lokal ausführen und Skype Meeting Broadcast in Ihrer Umgebung verwenden möchten, müssen Sie die Konfigurationsschritte in diesem Thema ausführen. Bevor Sie beginnen, muss Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online konfiguriert werden. Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) and Deploy hybrid connectivity between Skype for Business Server and Skype for Business [Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Skype Meeting Broadcast ist ein Onlinedienst, der Teil von Office 365 ist. Wenn Sie Skype for Business Server lokal ausführen und Skype Meeting Broadcast in Ihrer Umgebung verwenden möchten, müssen Sie die Konfigurationsschritte in diesem Thema ausführen. Bevor Sie beginnen, muss Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online konfiguriert werden. Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) und Deploy hybrid connectivity between Skype for Business Server and Skype for Business [Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Konfigurieren Ihrer Hybridumgebung für Skype Meeting Broadcast
 
-Gehen Sie wie folgt vor, um Ihre Umgebung für die Übertragung von Skype-Besprechungen vorzubereiten:
+Gehen Sie wie folgt vor, um Ihre Umgebung für die Skype-Besprechungsübertragung vorzubereiten:
   
 - Konfigurieren des Verbunds mit Skype for Business Online-Ressourcen
     
@@ -40,17 +40,17 @@ Gehen Sie wie folgt vor, um Ihre Umgebung für die Übertragung von Skype-Bespre
     
 ### <a name="configure-federation-with-skype-for-business-online-resources"></a>Konfigurieren des Verbunds mit Skype for Business Online-Ressourcen
 
-Zum Aktivieren des Partnerverbunds mit Skype for Business Online-Ressourcen müssen Sie den externen Zugriff für einen SIP-Verbundanbieter konfigurieren. Führen Sie hierzu die folgenden Schritte mithilfe der Skype for Business Server-Systemsteuerung aus:
+Zum Aktivieren des Verbunds mit Skype for Business Online-Ressourcen müssen Sie den externen Zugriff für einen SIP-Verbundanbieter konfigurieren. Führen Sie hierzu die folgenden Schritte mithilfe der Skype for Business Server-Systemsteuerung aus:
   
-1. Starten Sie die Skype for Business Server-Systemsteuerung, und wählen **Sie auf** der linken Seite den externen Zugriff aus.
+1. Starten Sie die Skype for Business Server-Systemsteuerung, und wählen **Sie links den** externen Zugriff aus.
     
-2. Wählen Sie **die Option "SIP-Verbundanbieter" aus,** und klicken Sie auf **"Neu".**
+2. Wählen Sie **SIP-Verbundanbieter aus,** und klicken Sie auf **Neu**.
     
 3. Konfigurieren Sie den neuen Anbieter mit den folgenden Einstellungen:
     
 |||
 |:-----|:-----|
-|**Aktivieren Sie die Kommunikation mit diesem Anbieter:** <br/> |Ausgewählt  <br/> |
+|**Aktivieren der Kommunikation mit diesem Anbieter:** <br/> |Ausgewählt  <br/> |
 |**Anbietername:** <br/> |LyncOnlineResources  <br/> |
 |**Zugriffs-Edgedienst (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
 |**Standardüberprüfungsstufe:** <br/> |Ermöglichen Sie Benutzern die Kommunikation mit allen Benutzern, die diesen Anbieter verwenden.  <br/> |
@@ -63,13 +63,13 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 ### <a name="configure-sip-federated-domains"></a>Konfigurieren von SIP-Verbunddomänen
 
-Als Nächstes müssen Sie der Liste der zulässigen Domänen SIP-Verbunddomänen hinzufügen. Wiederholen Sie diese Schritte für jede der aufgeführten Domänen, und erstellen Sie vier neue SIP-Verbunddomänen. Diese Domänen sind für die regionalen Rechenzentren, die in Skype for Business Online verwendet werden.
+Als Nächstes müssen Sie der Liste der zulässigen Domänen SIP-Verbunddomänen hinzufügen. Wiederholen Sie diese Schritte für jede der aufgeführten Domänen, und erstellen Sie vier neue SIP-Verbunddomänen. Diese Domänen umfassen die regionalen Rechenzentren, die in Skype for Business Online verwendet werden.
   
-1. Starten Sie die Skype for Business Server-Systemsteuerung, und wählen **Sie auf** der linken Seite den externen Zugriff aus.
+1. Starten Sie die Skype for Business Server-Systemsteuerung, und wählen **Sie links den** externen Zugriff aus.
     
-2. Wählen Sie **"SIP-Verbunddomänen"** aus, und klicken Sie auf **"Neu".**
+2. Wählen **Sie SIP-Verbunddomänen** aus, und klicken Sie auf **Neu**.
     
-3. Geben Sie **für den Domänennamen (oder FQDN)** die Domäne ein, und wiederholen Sie dieses Verfahren für jede der folgenden Domänen:
+3. Geben Sie für den Domänennamen **(oder FQDN):** die Domäne ein, und wiederholen Sie dieses Verfahren für jede der folgenden Domänen:
     
    - noammeetings.lync.com
     
@@ -88,6 +88,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Nachdem Sie diese Konfigurationsschritte abgeschlossen haben, können Sie mit der Verwendung von Skype Meeting Broadcast in Ihrer Bereitstellung beginnen. Weitere Informationen zu Skype Meeting Broadcast finden Sie im Administratorhandbuch zu Skype [Meeting Broadcast.](https://go.microsoft.com/fwlink/?LinkId=617075) [](https://go.microsoft.com/fwlink/?LinkId=617071)
-  
-
+Nachdem Sie diese Konfigurationsschritte abgeschlossen haben, können Sie mit der Verwendung von Skype Meeting Broadcast in Ihrer Bereitstellung beginnen. Weitere Informationen zur Skype-Besprechungsübertragung finden Sie unter [Was ist eine Skype-Besprechungsübertragung?](https://go.microsoft.com/fwlink/?LinkId=617071) und [Skype Meeting Broadcast Admin Guide](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md).

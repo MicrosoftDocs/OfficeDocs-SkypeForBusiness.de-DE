@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145902"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102621"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -137,7 +137,7 @@ Derzeit werden Daten aus den folgenden Bereichen in Klassenteams gesammelt:
 > Die meisten der gesammelten Daten werden innerhalb weniger Minuten in Insights angezeigt. Teilnahmedaten von Klassenbesprechungen (Besprechungen, die einem der Klassenkanäle zugeordnet sind) erscheinen einige Stunden nach Ende der Besprechung, in der Regel bis zu 24 Stunden später.
 
 ### <a name="privacy-and-security"></a>Datenschutz und Sicherheit
-Die im Rahmen von Insights gesammelten und gezeigten Informationen erfüllen [mehr als 90 behördliche und Branchenstandards](https://docs.microsoft.com/compliance/regulatory/offering-home), einschließlich der [DSGVO](https://docs.microsoft.com/compliance/regulatory/gdpr) und dem [FERPA (Family Education Rights and Privacy Act)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) für die Sicherheit von Schülern und Kindern und anderer, ähnlicher, privatwirtschaftlich orientierter Vorschriften.
+Die im Rahmen von Insights gesammelten und gezeigten Informationen erfüllen [mehr als 90 behördliche und Branchenstandards](/compliance/regulatory/offering-home), einschließlich der [DSGVO](/compliance/regulatory/gdpr) und dem [FERPA (Family Education Rights and Privacy Act)](/compliance/regulatory/offering-ferpa) für die Sicherheit von Schülern und Kindern und anderer, ähnlicher, privatwirtschaftlich orientierter Vorschriften.
 
 Die Daten gehören der Bildungseinrichtung, und Microsoft sammelt und speichert die Daten nur. Microsoft-Mitarbeiter können nicht auf die Daten zugreifen oder sie sehen, es sei denn, dies ist im Rahmen der Compliance in einer geprüften Art und Weise zur Aufrechterhaltung des Dienstes, z. B. zur Datenwiederherstellung, erlaubt.
 
@@ -173,7 +173,7 @@ Für den Zugriff auf Insights müssen die Benutzer über eine Lehrpersonallizenz
 ## <a name="student-information-system-sis-integration"></a>Integration von SIS (Schülerinformationssystem)
 Je mehr Daten in Insights eingespeist werden, desto besser können Dozenten Ihre Schüler/Studenten und Schulleiter ihre Dozenten unterstützen.
 
-Um Einblicke auf Organisationsebene bereitzustellen, müssen wir [School Data Sync (SDS)](https://docs.microsoft.com/SchoolDataSync) verwenden, um eine Verbindung mit dem Schülerinformationssystem (SIS) herzustellen, damit Insights die hierarchische Struktur des Bildungssystems richtig zugeordnet ist. 
+Um Einblicke auf Organisationsebene bereitzustellen, müssen wir [School Data Sync (SDS)](/SchoolDataSync) verwenden, um eine Verbindung mit dem Schülerinformationssystem (SIS) herzustellen, damit Insights die hierarchische Struktur des Bildungssystems richtig zugeordnet ist. 
 
 Das Anzeigen von Insights auf Klassenebene als Dozent der Klasse erfordert dies *nicht*, weil wir die Klassenstruktur und Berechtigungen von Teams verwenden.
 
@@ -192,7 +192,7 @@ Wenn Dozenten direkten Zugriff auf jede Klasse wünschen, können sie die Insigh
 In beiden Ansichten kann ein Dozent auf Klassendaten zugreifen. Bei Verwendung der persönlichen App muss der Dozent bis auf die Klassenebene heruntergehen, während die Registerkarte direkten Zugriff auf die Klassendaten bietet.
 
 > [!TIP]
-> Weitere Informationen finden Sie unter [Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
+> Weitere Informationen finden Sie unter [Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen](./policy-packages-edu.md).
 
 ## <a name="encourage-the-adoption-of-insights"></a>Fördern Sie die Einführung von Insights
 Begeistern Sie Ihre Bildungseinrichtung für die Nutzung von Insights.
@@ -255,6 +255,3 @@ Es dauert bis zu 24 Stunden, bis Besprechungsdaten in Insights-Berichten angezei
 
 > [!NOTE]
 > Wenn Ihre Frage noch unbeantwortet ist, [öffnen Sie bitte ein Supportticket](https://aka.ms/edusupport). Fügen Sie die relevanten Screenshots hinzu, die das Problem darstellen, sowie das Datum, an dem das Problem aufgetreten ist. Fügen Sie alle zusätzlichen Daten hinzu, von denen Sie denken, dass sie uns helfen könnten, das Problem zu lösen.
-
-
-

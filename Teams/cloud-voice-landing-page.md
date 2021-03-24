@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Microsoft Teams-Cloud-Sprachfeatures und die Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcd7ebfd4542c38bd56900c1e414dadec09bf246
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50408191"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102571"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Teams-Sprachlösung 
 
@@ -82,7 +82,7 @@ Möglicherweise ist Ihre Situation jedoch komplexer. Sie können beispielsweise 
 
 
 > [!Important]
-> Dieser Artikel befasst sich mit Sprachlösungen mit Microsoft Teams. Obwohl Lösungen mit Skype for Business Online [](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)weiterhin verfügbar sind (wie in Microsoft-Telefonielösungen beschrieben), ist es wichtig zu verstehen, dass Skype for Business Online am 31. Juli 2021 eingestellt wird.  Nach diesem Datum kann auf den Skype for Business Online-Dienst nicht mehr zugegriffen werden. Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung, ob über Skype for Business Server oder Cloud Connector Edition und &mdash; &mdash; Skype for Business Online, nicht mehr unterstützt. In diesem Artikel werden Die Sprachlösungen von Teams und erläutert, wie Sie Ihr lokales Telefonienetzwerk bei Bedarf mithilfe von Direct Routing mit Teams verbinden können.
+> Dieser Artikel befasst sich mit Sprachlösungen mit Microsoft Teams. Obwohl Lösungen mit Skype for Business Online [](/SkypeForBusiness/hybrid/msft-telephony-solutions)weiterhin verfügbar sind (wie in Microsoft-Telefonielösungen beschrieben), ist es wichtig zu verstehen, dass Skype for Business Online am 31. Juli 2021 eingestellt wird.  Nach diesem Datum kann auf den Skype for Business Online-Dienst nicht mehr zugegriffen werden. Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung, ob über Skype for Business Server oder Cloud Connector Edition und &mdash; &mdash; Skype for Business Online, nicht mehr unterstützt. In diesem Artikel werden Die Sprachlösungen von Teams und erläutert, wie Sie Ihr lokales Telefonienetzwerk bei Bedarf mithilfe von Direct Routing mit Teams verbinden können.
 
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -176,7 +176,7 @@ Weitere Informationen zum Anrufplan finden Sie in den folgenden Artikeln:
 
 - [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
 - [So erwerben Sie einen Anrufplan](calling-plans-for-office-365.md)
-- [Landes- und Verfügbarkeit für Anrufe planen](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Landes- und Verfügbarkeit für Anrufe planen](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Einrichten eines Anrufplans](set-up-calling-plans.md)
 
 
@@ -311,16 +311,4 @@ Weitere Informationen zum Implementieren der Sprachmigration für jedes dieser S
   - [Standortbasierte Routingimplementierung](voice-case-study-location-based-routing.md)
   - [Notrufe](voice-case-study-emergency-calling.md)
   - [Automatische Telefonzentralen und Anrufwarteschleifen](voice-case-study-call-queues.md)
-  - [Audiokonferenz](voice-case-study-audio-conferencing.md)
-
-
-
-
-
-
-
-
-
-
-
-
+  - [Audiokonferenzen](voice-case-study-audio-conferencing.md)

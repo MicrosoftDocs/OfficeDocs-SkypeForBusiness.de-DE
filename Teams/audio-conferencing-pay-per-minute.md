@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über die Pay-per-Minute-Option zum Aktivieren von Audiokonferenzfunktionen für Organisationen, die die Microsoft-Volumenlizenzierung verwenden.
-ms.openlocfilehash: 846c169206a96c4587ecee5bbb55215dd9dc4081
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 28b0ecba5cf18741bca572e4de178fc4388f4f83
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460675"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102971"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -54,7 +54,7 @@ Während das Lizenzangebot audio conferencing per user die Einwahlnutzung und ei
 > [!NOTE]
 > Sie finden die Ein- und Abwahltarife, die diesen Arten von Anrufen zugeordnet sind, indem Sie den Abschnitt Tarife für den Ort, an dem Sie anrufen möchten, **in** [Audiokonferenzen lesen.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
-Die Zahlung pro Minute erfordert, dass Ihre Organisation Guthaben [für Kommunikationen](what-are-communications-credits.md) eingerichtet hat. Außerdem müssen jedem Benutzer eine Pay-per-Minute-Lizenz und eine Lizenz für Guthaben für Kommunikationen zugewiesen werden, damit Audiokonferenzen funktionieren können. Weitere Informationen finden Sie unter Einrichten von Guthaben für Kommunikationen [für Ihre Organisation](set-up-communications-credits-for-your-organization.md) und/oder Microsoft [Teams-Add-On-Lizenzierung.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Die Zahlung pro Minute erfordert, dass Ihre Organisation Guthaben [für Kommunikationen](what-are-communications-credits.md) eingerichtet hat. Außerdem müssen jedem Benutzer eine Pay-per-Minute-Lizenz und eine Lizenz für Guthaben für Kommunikationen zugewiesen werden, damit Audiokonferenzen funktionieren können. Weitere Informationen finden Sie unter Einrichten von Guthaben für Kommunikationen [für Ihre Organisation](set-up-communications-credits-for-your-organization.md) und/oder Microsoft [Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 Informationen zum Aktivieren von Audiokonferenzen pro Minute für Benutzer in Ihrer Organisation finden Sie unter Testen oder Erwerben von [Audiokonferenzen in Microsoft Office 365 oder Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
@@ -62,7 +62,7 @@ Informationen zum Aktivieren von Audiokonferenzen pro Minute für Benutzer in Ih
 
 - Die Zahlung pro Minute wird nur pro Minute für jeden eingehenden oder ausgehenden Anruf in Rechnung gestellt, der von jedem Teilnehmer während einer geplanten Besprechung (die Tarife variieren bei gebührenpflichtigen oder gebührenfreien Anrufen und nach Ziel) statt der Skype for Business- oder Teams-Anwendung auf einem mobilen Gerät oder PC durchgeführt wird.
 
-- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, um die Typen von Auswahlen (international und inlands) einzuschränken, die aus den Besprechungen eines Organisators durchgeführt werden können. Weitere Informationen finden Sie unter Richtlinien zur Einschränkung ausgehender Anrufe [für Audiokonferenzen und Benutzer-PSTN-Anrufe.](/microsoftteams/outbound-calling-restriction-policies)
+- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, um die Typen von Auswahlen (international und inlands) einzuschränken, die aus den Besprechungen eines Organisators durchgeführt werden können. Weitere Informationen finden Sie unter Richtlinien zur Einschränkung ausgehender Anrufe [für Audiokonferenzen und Benutzer-PSTN-Anrufe.](./outbound-calling-restriction-policies.md)
 
 - Wenn Sie Lizenzen für Audiokonferenz mit Minutenabrechnung haben, müssen Sie nicht jedem Benutzer für die Nutzung der Audiokonferenz separate Lizenzen für Guthaben für Kommunikationen zuweisen (Sie müssen diese möglicherweise noch für andere Dienste zuweisen).
 
@@ -84,7 +84,6 @@ Informationen zum Aktivieren von Audiokonferenzen pro Minute für Benutzer in Ih
     
 ## <a name="related-topics"></a>Verwandte Themen
   
-[Lizenzierung für Microsoft Teams-Add-On](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+[Lizenzierung für Microsoft Teams-Add-On](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
   
- 

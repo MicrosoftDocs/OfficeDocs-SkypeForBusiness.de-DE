@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die verschiedenen Methoden zum Zuweisen von
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 50d0ddf3da73addde36cb045a3d61eb9a5618e8c
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: a77e1cd6a6caf562edcdca0a49f200e6678bd6f5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568991"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111411"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams
 
@@ -136,12 +136,12 @@ Sie können auch die folgenden Schritte ausführen:
 
 ### <a name="use-powershell"></a>Verwenden von PowerShell
 
-Jeder Richtlinientyp verfügt über einen eigenen Satz von Cmdlets für die Verwaltung. Verwenden Sie ```Grant-``` das Cmdlet für einen bestimmten Richtlinientyp, um die Richtlinie zuzuordnen. Verwenden Sie beispielsweise das ```Grant-CsTeamsMeetingPolicy``` Cmdlet, um Benutzern eine Teams-Besprechungsrichtlinie zuzuordnen. Diese Cmdlets sind im Teams PowerShell-Modul enthalten und in der [Skype for Business-Cmdletreferenz dokumentiert.](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+Jeder Richtlinientyp verfügt über einen eigenen Satz von Cmdlets für die Verwaltung. Verwenden Sie ```Grant-``` das Cmdlet für einen bestimmten Richtlinientyp, um die Richtlinie zuzuordnen. Verwenden Sie beispielsweise das ```Grant-CsTeamsMeetingPolicy``` Cmdlet, um Benutzern eine Teams-Besprechungsrichtlinie zuzuordnen. Diese Cmdlets sind im Teams PowerShell-Modul enthalten und in der [Skype for Business-Cmdletreferenz dokumentiert.](/powershell/skype/intro?view=skype-ps)
 
  Laden Sie die öffentliche [Version von Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) herunter, installieren Sie sie (falls noch nicht), und führen Sie dann die folgenden Schritte aus, um eine Verbindung herzustellen.
 
 > [!NOTE]
-> Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
+> Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
 >
 > Wenn Sie die neueste öffentliche Version von [Teams PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
 
@@ -224,7 +224,7 @@ Um die Rangfolge einer Gruppenzuordnung zu ändern, müssen Sie zuerst die Grupp
 ### <a name="use-the-powershell-option"></a>Verwenden der PowerShell-Option
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuordnung zu Gruppen, die PowerShell verwenden, nicht für alle Teams-Richtlinientypen verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)
+> Derzeit ist die Richtlinienzuordnung zu Gruppen, die PowerShell verwenden, nicht für alle Teams-Richtlinientypen verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
@@ -232,7 +232,7 @@ Schrittweise Anleitungen finden Sie unter [Installieren von Teams PowerShell](te
 
 #### <a name="assign-a-policy-to-a-group-of-users"></a>Zuweisen einer Richtlinie zu einer Gruppe von Benutzern
 
-Verwenden Sie [das Cmdlet New-CsGroupPolicyAssignment,](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) um einer Gruppe eine Richtlinie zuzuweisen. Sie können eine Gruppe mithilfe der Objekt-ID, DER SIP-Adresse oder der E-Mail-Adresse angeben.
+Verwenden Sie [das Cmdlet New-CsGroupPolicyAssignment,](/powershell/module/teams/new-csgrouppolicyassignment) um einer Gruppe eine Richtlinie zuzuweisen. Sie können eine Gruppe mithilfe der Objekt-ID, DER SIP-Adresse oder der E-Mail-Adresse angeben.
 
 In diesem Beispiel weisen wir einer Gruppe mit der Zuordnungsrangfolge 1 eine Teams-Besprechungsrichtlinie namens Einzelhandelsmanager-Besprechungsrichtlinie zu.
 
@@ -242,7 +242,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 
 #### <a name="get-policy-assignments-for-a-group"></a>Erhalten von Richtlinienzuweisungen für eine Gruppe
 
-Verwenden Sie [das Cmdlet Get-CsGroupPolicyAssignment,](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment) um alle Richtlinien zu erhalten, die einer Gruppe zugewiesen sind. Beachten Sie, dass Gruppen immer nach ihrer Gruppen-ID aufgelistet werden, auch wenn die SIP-Adresse oder E-Mail-Adresse zum Zuweisen der Richtlinie verwendet wurde.
+Verwenden Sie [das Cmdlet Get-CsGroupPolicyAssignment,](/powershell/module/teams/get-csgrouppolicyassignment) um alle Richtlinien zu erhalten, die einer Gruppe zugewiesen sind. Beachten Sie, dass Gruppen immer nach ihrer Gruppen-ID aufgelistet werden, auch wenn die SIP-Adresse oder E-Mail-Adresse zum Zuweisen der Richtlinie verwendet wurde.
 
 In diesem Beispiel rufen wir alle Richtlinien ab, die einer bestimmten Gruppe zugewiesen sind.
 
@@ -258,7 +258,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 
 #### <a name="remove-a-policy-from-a-group"></a>Entfernen einer Richtlinie aus einer Gruppe
 
-Verwenden Sie [das Cmdlet Remove-CsGroupPolicyAssignment,](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment) um eine Richtlinie aus einer Gruppe zu entfernen. Wenn Sie eine Richtlinie aus einer Gruppe entfernen, werden die Prioritäten anderer Richtlinien desselben Typs, die dieser Gruppe zugewiesen sind und eine niedrigere Rangfolge haben, aktualisiert. Wenn Sie z. B. eine Richtlinie entfernen, die die Rangfolge 2 hat, werden Richtlinien mit der Bewertung 3 und 4 aktualisiert, um deren neue Rangfolge widerspiegeln zu können. In den folgenden beiden Tabellen wird dieses Beispiel dargestellt.
+Verwenden Sie [das Cmdlet Remove-CsGroupPolicyAssignment,](/powershell/module/teams/remove-csgrouppolicyassignment) um eine Richtlinie aus einer Gruppe zu entfernen. Wenn Sie eine Richtlinie aus einer Gruppe entfernen, werden die Prioritäten anderer Richtlinien desselben Typs, die dieser Gruppe zugewiesen sind und eine niedrigere Rangfolge haben, aktualisiert. Wenn Sie z. B. eine Richtlinie entfernen, die die Rangfolge 2 hat, werden Richtlinien mit der Bewertung 3 und 4 aktualisiert, um deren neue Rangfolge widerspiegeln zu können. In den folgenden beiden Tabellen wird dieses Beispiel dargestellt.
 
 Hier finden Sie eine Liste der Richtlinienzuweisungen und Prioritäten für eine Teams-Besprechungsrichtlinie.
 
@@ -286,9 +286,9 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 #### <a name="change-a-policy-assignment-for-a-group"></a>Ändern einer Richtlinienzuordnung für eine Gruppe
 
 > [!NOTE]
-> Das [Cmdlet Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment) wird in Kürze verfügbar sein. Wenn Sie in der Zwischenzeit eine Gruppenrichtlinienzuordnung ändern möchten, können Sie die aktuelle Richtlinienzuordnung aus der Gruppe entfernen und dann eine neue Richtlinienzuordnung hinzufügen.
+> Das [Cmdlet Set-CsGroupPolicyAssignment](/powershell/module/teams/set-csgrouppolicyassignment) wird in Kürze verfügbar sein. Wenn Sie in der Zwischenzeit eine Gruppenrichtlinienzuordnung ändern möchten, können Sie die aktuelle Richtlinienzuordnung aus der Gruppe entfernen und dann eine neue Richtlinienzuordnung hinzufügen.
 
-Nachdem Sie einer Gruppe eine Richtlinie zugewiesen haben, können Sie das [Cmdlet Set-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment) verwenden, um die Richtlinienzuordnung dieser Gruppe wie folgt zu ändern:
+Nachdem Sie einer Gruppe eine Richtlinie zugewiesen haben, können Sie das [Cmdlet Set-CsGroupPolicyAssignment](/powershell/module/teams/set-csgrouppolicyassignment) verwenden, um die Richtlinienzuordnung dieser Gruppe wie folgt zu ändern:
 
 - Ändern der Bewertung
 - Ändern der Richtlinie eines bestimmten Richtlinientyps
@@ -304,7 +304,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Hier sehen Sie ein Beispiel, wie Sie die effektive Richtlinie für einen Benutzer ändern, dem eine Richtlinie direkt zugewiesen ist.
 
-Zuerst verwenden wir das [Cmdlet Get-CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment) zusammen mit dem Parameter, um Details zu den Teams-Liveübertragungsrichtlinien zu erhalten, die dem Benutzer ```PolicySource``` zugeordnet sind.
+Zuerst verwenden wir das [Cmdlet Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) zusammen mit dem Parameter, um Details zu den Teams-Liveübertragungsrichtlinien zu erhalten, die dem Benutzer ```PolicySource``` zugeordnet sind.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -349,9 +349,9 @@ Wenn Sie den Status Ihrer Richtlinienzuordnung anzeigen möchten, wählen  Sie i
 ### <a name="use-powershell-method"></a>Verwenden der PowerShell-Methode
 
 > [!NOTE]
-> Derzeit ist die Batchrichtlinienzuordnung mit PowerShell nicht für alle Teams-Richtlinientypen verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsBatchPolicyAssignmentOperation.](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+> Derzeit ist die Batchrichtlinienzuordnung mit PowerShell nicht für alle Teams-Richtlinientypen verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
-Bei der Batchrichtlinienzuordnung können Sie große Benutzergruppen gleichzeitig eine Richtlinie zuweisen, ohne ein Skript verwenden zu müssen. Sie verwenden das [Cmdlet New-CsBatchPolicyAssignmentOperation,](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einen Batch von Benutzern und die Richtlinie zu übermitteln, die Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert. Anschließend können Sie das [Cmdlet Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation) verwenden, um den Fortschritt und Status der Zuordnungen in einem Batch nachverfolgt zu haben.
+Bei der Batchrichtlinienzuordnung können Sie große Benutzergruppen gleichzeitig eine Richtlinie zuweisen, ohne ein Skript verwenden zu müssen. Sie verwenden das [Cmdlet New-CsBatchPolicyAssignmentOperation,](/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einen Batch von Benutzern und die Richtlinie zu übermitteln, die Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert. Anschließend können Sie das [Cmdlet Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) verwenden, um den Fortschritt und Status der Zuordnungen in einem Batch nachverfolgt zu haben.
 
 Geben Sie Benutzer nach ihrer Objekt-ID oder der SIP-Adresse (Session Initiation Protocol) an. Die SIP-Adresse eines Benutzers hat häufig denselben Wert wie der User Principal Name (UPN) oder die E-Mail-Adresse, aber dies ist nicht erforderlich. Wenn ein Benutzer mit dem UPN oder der E-Mail angegeben wird, aber einen anderen Wert als seine SIP-Adresse hat, kann die Richtlinienzuweisung für den Benutzer fehlschlagen. Wenn ein Batch doppelte Benutzer enthält, werden die Duplikate vor der Verarbeitung aus dem Batch entfernt, und der Status wird nur für die eindeutigen Benutzer bereitgestellt, die im Batch verblieben sind.
 
@@ -375,7 +375,7 @@ Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeld
 
 #### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Installieren und Herstellen einer Verbindung mit dem Azure AD PowerShell für Graph-Modul (optional)
 
-Möglicherweise möchten Sie auch das [Azure AD PowerShell für Graph-Modul](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) herunterladen und installieren (sofern noch nicht vorhanden) und eine Verbindung mit Azure AD herstellen, damit Sie eine Liste der Benutzer in Ihrer Organisation abrufen können.
+Möglicherweise möchten Sie auch das [Azure AD PowerShell für Graph-Modul](/powershell/azure/active-directory/install-adv2) herunterladen und installieren (sofern noch nicht vorhanden) und eine Verbindung mit Azure AD herstellen, damit Sie eine Liste der Benutzer in Ihrer Organisation abrufen können.
 
 Führen Sie die folgenden Schritte aus, um eine Verbindung mit Azure AD herzustellen.
 
@@ -387,7 +387,7 @@ Wenn Sie dazu aufgefordert werden, melden Sie sich mit den gleichen Administrato
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>Zuweisen einer Einrichtungsrichtlinie zu einer Gruppe von Benutzern
 
-In diesem Beispiel verwenden wir das [Cmdlet New-CsBatchPolicyAssignmentOperation,](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einer Gruppe von Benutzern, die in der Datei "Users_ids.text" aufgeführt sind, eine App-Setuprichtlinie mit dem Namen Hr App Setup Policy zuzuweisen.
+In diesem Beispiel verwenden wir das [Cmdlet New-CsBatchPolicyAssignmentOperation,](/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einer Gruppe von Benutzern, die in der Datei "Users_ids.text" aufgeführt sind, eine App-Setuprichtlinie mit dem Namen Hr App Setup Policy zuzuweisen.
 
 ```powershell
 $user_ids = Get-Content .\users_ids.txt
@@ -416,7 +416,7 @@ Wenn die Ausgabe zeigt, dass ein Fehler aufgetreten ist, führen Sie folgendes a
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
-Weitere Informationen finden Sie unter [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+Weitere Informationen finden Sie unter [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
 
 ## <a name="assign-a-policy-package-to-users"></a>Zuweisen eines Richtlinienpakets zu Benutzern
 
@@ -448,7 +448,7 @@ Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Di
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern im Admin Center
 
-1. Melden Sie sich beim Teams Admin Center an.
+1. Melden Sie sich beim Microsoft Teams Admin Center an.
 2. Wechseln Sie im linken Navigationsbereich zur Seite "Richtlinienpaket".
 3. Wählen Sie die Registerkarte Gruppenrichtlinienzuordnung aus.
 4. Wählen **Sie Gruppe hinzufügen** aus, und gehen Sie dann im Bereich Zuweisen eines Richtlinienpakets zum Gruppenbereich wie folgt vor:
@@ -474,7 +474,7 @@ Schrittweise Anleitungen finden Sie unter [Installieren von Teams PowerShell](te
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern
 
-Verwenden Sie [das Grant-CsGroupPolicyPackageAssignment-Cmdlet,](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) um einer Gruppe ein Richtlinienpaket zuzuweisen. Sie können eine Gruppe mithilfe der Objekt-ID, DER SIP-Adresse oder der E-Mail-Adresse angeben. Geben Sie beim Zuweisen des Richtlinienpakets eine [Gruppenzuordnungsrangfolge](#group-assignment-ranking) für jeden Richtlinientyp im Richtlinienpaket an.
+Verwenden Sie [das Grant-CsGroupPolicyPackageAssignment-Cmdlet,](/powershell/module/teams/grant-csgrouppolicypackageassignment) um einer Gruppe ein Richtlinienpaket zuzuweisen. Sie können eine Gruppe mithilfe der Objekt-ID, DER SIP-Adresse oder der E-Mail-Adresse angeben. Geben Sie beim Zuweisen des Richtlinienpakets eine [Gruppenzuordnungsrangfolge](#group-assignment-ranking) für jeden Richtlinientyp im Richtlinienpaket an.
 
 In diesem Beispiel weisen wir das Education_Teacher-Richtlinienpaket einer Gruppe mit der Zuordnungsrangfolge 1 für TeamsAppSetupPolicy und TeamsMeetingBroadcastPolicy und einer Rangfolge von 2 für TeamsMeetingPolicy zu.
 
@@ -484,7 +484,7 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ## <a name="assign-a-policy-package-to-a-batch-of-users"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern
 
-Bei der Zuweisung von Batchrichtlinienpaketen können Sie großen Benutzergruppen gleichzeitig ein Richtlinienpaket zuweisen, ohne ein Skript verwenden zu müssen. Sie verwenden das [Cmdlet New-CsBatchPolicyAssignmentOperation,](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einen Batch von Benutzern und das Richtlinienpaket zu übermitteln, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert. Anschließend können Sie das [Cmdlet Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation) verwenden, um den Fortschritt und Status der Zuordnungen in einem Batch nachverfolgt zu haben.
+Bei der Zuweisung von Batchrichtlinienpaketen können Sie großen Benutzergruppen gleichzeitig ein Richtlinienpaket zuweisen, ohne ein Skript verwenden zu müssen. Sie verwenden das [Cmdlet New-CsBatchPolicyAssignmentOperation,](/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einen Batch von Benutzern und das Richtlinienpaket zu übermitteln, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert. Anschließend können Sie das [Cmdlet Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) verwenden, um den Fortschritt und Status der Zuordnungen in einem Batch nachverfolgt zu haben.
 
 Geben Sie Benutzer nach ihrer Objekt-ID oder der SIP-Adresse (Session Initiation Protocol) an. Die SIP-Adresse eines Benutzers hat häufig denselben Wert wie der User Principal Name (UPN) oder die E-Mail-Adresse, aber dies ist nicht erforderlich. Wenn ein Benutzer mit dem UPN oder der E-Mail angegeben wird, aber einen anderen Wert als seine SIP-Adresse hat, kann die Richtlinienzuweisung für den Benutzer fehlschlagen. Wenn ein Batch doppelte Benutzer enthält, werden die Duplikate vor der Verarbeitung aus dem Batch entfernt, und der Status wird nur für die eindeutigen Benutzer bereitgestellt, die im Batch verblieben sind.
 
@@ -508,7 +508,7 @@ Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeld
 
 ### <a name="assign-policy-packages-to-a-batch-of-users"></a>Zuweisen von Richtlinienpaketen zu einer Gruppe von Benutzern
 
-In diesem Beispiel verwenden wir das [Cmdlet New-CsBatchPolicyAssignmentOperation,](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) um das Education_PrimaryStudent-Richtlinienpaket einem Batch von Benutzern zuzuweisen.
+In diesem Beispiel verwenden wir das [Cmdlet New-CsBatchPolicyAssignmentOperation,](/powershell/module/teams/new-csbatchpolicyassignmentoperation) um das Education_PrimaryStudent-Richtlinienpaket einem Batch von Benutzern zuzuweisen.
 
 ```powershell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
@@ -528,7 +528,7 @@ Wenn die Ausgabe zeigt, dass ein Fehler aufgetreten ist, führen Sie folgendes a
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
-Weitere Informationen finden Sie unter [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation).
+Weitere Informationen finden Sie unter [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
