@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams Rooms zu erfahren, der nächsten Generation von Skype Room Systems.
-ms.openlocfilehash: 56468ad85b20b25d6e9310a20638ae35e941db73
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 52234f72c380c4f5af8f47fff51998fa8c3d1459
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875145"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117433"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams Rooms 
  
@@ -81,7 +81,7 @@ In diesem Abschnitt werden Systemeinstellungen behandelt, von deren ordnungsgem�
 |Power Management – \> Schalten Sie den Bildschirm bei Wechselstrom nach 10 Minuten aus.  <br/> Power Management – \> Schalten Sie das System niemals in den Ruhezustand ein.  <br/> |Ermöglicht es Microsoft Teams Rooms, angefügte Displays zu deaktivieren und automatisch zu aktivieren.  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Oder entsprechende Möglichkeit zum Deaktivieren des Kennwortablaufs für das lokale Konto. Wird dies nicht ausgeführt, kann bei der Anmeldung des Skype-Kontos aufgrund eines abgelaufenen Kennworts ein Fehler auftreten. Beachten Sie, dass sich dies auf alle lokalen Konten auf dem Computer auswirkt, sodass bei Nichtfestlegung dieser Einstellung auch das Administratorkonto ablaufen kann.  <br/> |Ermöglicht die ständige Anmeldung des Skype-Kontos  <br/> |
    
-Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements erläutert.](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements erläutert.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 > [!NOTE]
 > Wenn Das Microsoft Teams Rooms-Gerät mit der nächsten Version von Windows 10 OS kompatibel ist, wird das Gerät über Windows Update automatisch auf die nächste Version aktualisiert. Microsoft Teams Rooms-Geräte sollten nicht manuell auf die nächste Version von Windows 10 oder über die Aktivierung von Windows Update for Business (WUFB)-Gruppenrichtlinien "Wählen Sie die Windows-Bereitschaftsstufe für die Updates, die Sie erhalten möchten" und "Auswählen, wann Vorschaubuilds und Featureupdates empfangen werden" über GPO aktualisiert werden. Bei einem Gerät, auf dem diese Gruppenrichtlinien aktiviert sind, gibt es bekannte Informationen zu Problemen mit dem Windows 10 -Betriebssystemupdate der Microsoft Teams Rooms-App.
@@ -99,7 +99,7 @@ Sie können die folgenden Verwaltungsvorgänge remote mithilfe von PowerShell au
 - Übertragen von Dateien (erfordert ein Microsoft Teams Rooms, dem eine Domäne beigetreten ist)
     
 > [!NOTE]
-> Diese Funktion ist standardmäßig deaktiviert. Sie müssen Remote-PowerShell für Ihre Umgebung auf dem Microsoft Teams Rooms-System aktivieren, um die folgenden Vorgänge ausführen zu können. Informationen zum Aktivieren von Remote-PowerShell finden Sie in der Dokumentation zu **[Aktivieren-PSRemoting.](https://technet.microsoft.com/library/hh849694.aspx)**
+> Diese Funktion ist standardmäßig deaktiviert. Sie müssen Remote-PowerShell für Ihre Umgebung auf dem Microsoft Teams Rooms-System aktivieren, um die folgenden Vorgänge ausführen zu können. Informationen zum Aktivieren von Remote-PowerShell finden Sie in der Dokumentation zu **[Aktivieren-PSRemoting.](/powershell/module/microsoft.powershell.core/enable-psremoting)**
   
 Sie können Remote-PowerShell beispielsweise wie folgt aktivieren:
   
@@ -169,7 +169,7 @@ Standardmäßig versucht Microsoft Teams Rooms, eine Verbindung mit dem Windows 
   
 Standardmäßig stellt Microsoft Teams Rooms eine Verbindung mit Windows Update ein, um Firmwareupdates für Betriebssysteme und USB-Peripheriegeräte abzurufen und außerhalb der konfigurierten Geschäftszeiten zu installieren. Sie können Geschäftszeiten konfigurieren, indem Sie sich beim Administratorkonto anmelden und die Einstellungen-App ausführen.
   
-Wenn Sie Updates manuell verwalten möchten und das normale Verfahren für [Microsoft Store for Business](https://businessstore.microsoft.com/store) zum Verteilen von Offline-Apps nicht ausführen können, können Sie die entsprechende APPX-Datei und Abhängigkeiten aus dem Bereitstellungskit (aus den Anweisungen zum Konfigurieren einer Microsoft Teams [Rooms-Konsole)](console.md)erwerben, die mit Configuration Manager verwendet werden können. [](https://docs.microsoft.com/microsoft-store/distribute-offline-apps) [](https://go.microsoft.com/fwlink/?linkid=851168) Die Version des Bereitstellungskits liegt hinter der Store-Version zurück, sodass sie möglicherweise nicht immer mit dem neuesten verfügbaren Build übereinstimmen kann.
+Wenn Sie Updates manuell verwalten möchten und das normale Verfahren für [Microsoft Store for Business](https://businessstore.microsoft.com/store) zum Verteilen von Offline-Apps nicht ausführen können, können Sie die entsprechende APPX-Datei und Abhängigkeiten aus dem Bereitstellungskit (aus den Anweisungen zum Konfigurieren einer Microsoft Teams [Rooms-Konsole)](console.md)erwerben, die mit Configuration Manager verwendet werden können. [](/microsoft-store/distribute-offline-apps) [](https://go.microsoft.com/fwlink/?linkid=851168) Die Version des Bereitstellungskits liegt hinter der Store-Version zurück, sodass sie möglicherweise nicht immer mit dem neuesten verfügbaren Build übereinstimmen kann.
   
 ### <a name="to-update-using-powershell"></a>So aktualisieren Sie die Aktualisierung mithilfe von Powershell
 
@@ -223,4 +223,3 @@ Die Konsole befindet sich nun wieder im normalen Betriebsmodus. Das folgende Ver
 - Falls ein Spiegelbild in der Raumvorschau angezeigt wird, kann der IT-Administrator dies korrigieren, indem die Stromversorgung der Kamera angestellt wird oder die Bildausrichtung mit der Fernsteuerung der Kamera gekippt wird.
 - Es ist bekannt, dass der Zugang zum Konsolentouchscreen verloren gehen kann. In solchen Fällen wird das Problem manchmal durch einen Neustart des Microsoft Teams Rooms-Systems behoben.
 - Beim Verbinden eines PCs mit der Konsole über verkabelte Erfassung kann ein Verlust der lokalen Audiodaten auftreten. Das Problem mit der Wiedergabe der lokalen Audiodaten kann in diesem Fall durch einen Neustart des PCs gelöst werden.
-    

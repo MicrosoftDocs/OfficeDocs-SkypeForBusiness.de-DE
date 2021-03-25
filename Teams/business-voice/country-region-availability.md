@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116023"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Verfügbarkeit nach Land und Region für Business Voice
 
@@ -46,7 +46,7 @@ In Ländern und Regionen **ohne** Unterstützung für Anrufpläne und den Assist
 
 Falls sich Ihr Mandant in einem Land oder einer Region befindet, das bzw. die Business Voice mit Anrufplan sowie den Assistenten für erste Schritte nicht unterstützt, ziehen Sie den Artikel [Hilfe von einem Microsoft-Händler oder -Partner erhalten](reseller-partner-support.md) zurate.
 
-Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enthalten ist, lesen Sie [Microsoft 365 Business Voice – Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description).
+Um zu sehen, was jeweils in Business Voice mit Anrufplan und ohne Anrufplan enthalten ist, lesen Sie [Microsoft 365 Business Voice – Dienstbeschreibung](/office365/servicedescriptions/microsoft-365-business-voice-service-description).
 
 
 | Land oder Region    | Business Voice<br> mit Anrufplan | Business Voice<br> ohne Anrufplan<br>(Direktes Routing) | Assistent für erste Schritte |

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Administratoren erfahren, wie Sie einem Skype Room System-Appliance-PC zu einer Active Directory-Domäne beitreten, zusammen mit den Überlegungen dazu.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 806dcac8f73f555227c03f7612f30fe4a598812f
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997413"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117553"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -57,7 +57,7 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Selbst wenn Sie eine separate Organisationseinheit erstellen und die Vererbung blockieren, gibt es einige Richtlinien, die probleme auf einer höheren Ebene verursachen könnten. Eine Gruppenrichtlinie mit „Nicht aufheben“-Einstellung hat Vorrang gegenüber einer OU mit „Richtlinienvererbung aufheben“-Einstellung. Weitere Informationen finden Sie unter [Keine Außerkraftsetzung im Vergleich zur Blockrichtlinienvererbung](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) in der Dokumentation zu Gruppenrichtlinien.
+Selbst wenn Sie eine separate Organisationseinheit erstellen und die Vererbung blockieren, gibt es einige Richtlinien, die probleme auf einer höheren Ebene verursachen könnten. Eine Gruppenrichtlinie mit „Nicht aufheben“-Einstellung hat Vorrang gegenüber einer OU mit „Richtlinienvererbung aufheben“-Einstellung. Weitere Informationen finden Sie unter [Keine Außerkraftsetzung im Vergleich zur Blockrichtlinienvererbung](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) in der Dokumentation zu Gruppenrichtlinien.
   
 Unter Umständen stehen Ihnen mehrere Ansätze zur Lösung dieser Probleme zur Verfügung. Wir empfehlen Ihnen, sich an Ihre Active Directory-Experten zu wenden, um sicherzustellen, dass Ihnen eine Organisationseinheit mit geeigneten Gruppenrichtlinieneinstellungen oder mindestens eine Organisationseinheit zur Verfügung gestellt wird, in der die zuvor beschriebenen Richtlinien nicht vorhanden sind. Wir empfehlen, QoS (Quality of Service) für Skype Room System-Geräte zu aktivieren.
 

@@ -22,17 +22,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 5647f44489981f757eb3d16a39447e4b14cb053b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Dies hilft Ihnen, herauszufinden, wie Sie gebührenfreie Nummern in jedem Land/jeder Region wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit bestimmten Details, Einschränkungen und Beschränkungen für die gebührenfreie Verfügbarkeit von Dienstleistungen, auf denen gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in den einzelnen Ländern/Regionen an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: db0f7c68f265edfc0761d48669275ac319f2dd57
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708091"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116823"
 ---
 # <a name="toll-free-dialing-restrictions-in-brunei"></a>Einschränkungen für gebührenfreie Telefonnummern in Brunei
 
-[Suchen Sie nach einem anderen Land oder einer anderen Region](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und-Einschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
 
 
 |**Details**|**Beschreibung**|
@@ -49,7 +49,6 @@ ms.locfileid: "41708091"
 ## <a name="related-topics"></a>Verwandte Themen
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

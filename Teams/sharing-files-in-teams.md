@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie mehr über die Datei- und Ordnerfreigabe in Microsoft Teams.
-ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
-ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
-ms.translationtype: HT
+ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49795775"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117023"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Freigeben von Dateien in Microsoft Teams
 
@@ -48,6 +48,6 @@ Wenn Benutzer eine Datei in einem Chat oder Kanal freigeben, werden sie benachri
 
 [Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams](sharepoint-onedrive-interact.md)
 
-[Ändern des Standardlinktyps für eine Site](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[Ändern des Standardlinktyps für eine Site](/sharepoint/change-default-sharing-link)
 
-[Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team)

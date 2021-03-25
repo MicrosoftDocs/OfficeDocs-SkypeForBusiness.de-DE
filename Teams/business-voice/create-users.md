@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16827d1b90ea07fcd84be286e03f3d3b22a55bd1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 4e3a4f440230dad7c9841f31e1b2ea03c5a50b81
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868632"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116013"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Erstellen und lizenzieren Sie Business Voice-Benutzer, und weisen Sie ihnen Telefonnummern zu
 
@@ -30,7 +30,7 @@ Um :::no-loc text="Microsoft 365 Business Voice"::: zu verwenden, benötigen Sie
 
 ## <a name="create-and-license-users"></a>Erstellen und Lizenzieren von Benutzern
 
-Befolgen Sie die Schritte in [Benutzer einzeln oder in Massen hinzufügen](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) und [Zuweisen von Lizenzen an Benutzer](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+Befolgen Sie die Schritte in [Benutzer einzeln oder in Massen hinzufügen](/microsoft-365/admin/add-users/add-users) und [Zuweisen von Lizenzen an Benutzer](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 > [!NOTE]
 > Wählen Sie im Bereich **Produktlizenzen zuweisen** die Option **:::no-loc text="Microsoft 365 Business Voice":::** aus.

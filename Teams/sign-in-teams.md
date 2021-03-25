@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711642"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107301"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 ==========================
@@ -109,9 +109,9 @@ Legen Sie die folgenden Konfigurationsparameter im Azure Intune-Portal für verw
 
 Sobald die Konto Setup-Konfiguration festgelegt wurde, schränkt Microsoft Teams die Möglichkeit zur Anmeldung ein, sodass nur zulässigen Konten auf registrierten Geräten der Zugriff gewährt wird.
 
-Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete iOS-/iPadOS-Geräte erstellen möchten, lesen Sie [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete iOS-/iPadOS-Geräte](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios).
+Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete iOS-/iPadOS-Geräte erstellen möchten, lesen Sie [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete iOS-/iPadOS-Geräte](/mem/intune/apps/app-configuration-policies-use-ios).
 
-Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete Android-Geräte erstellen möchten, lesen Sie [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete Android-Geräte](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android).
+Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete Android-Geräte erstellen möchten, lesen Sie [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete Android-Geräte](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Einschränken der Anmeldung auf Desktopgeräten
 Teams-Apps unter Windows und MacOS erhalten Unterstützung für Geräterichtlinien, die das Anmelden bei Ihrer Organisation einschränken. Die Richtlinien können über herkömmliche Geräteverwaltungslösungen wie MDM (Mobile Device Management) oder GPO (Group Policy Object) festgelegt werden. 
@@ -150,7 +150,7 @@ Benutzer von Mobilgeräten können sich von Microsoft Teams abmelden, indem sie 
 
 ### <a name="global-sign-in-and-sign-out"></a>Globales Anmelden und Abmelden
 
-Die Teams-Android-App unterstützt jetzt das globale Anmelden und Abmelden, um Mitarbeitern in Service und Produktion einen einfachen Anmelde- und Abmeldevorgang zu bieten. Ein Mitarbeiter kann ein Gerät aus dem Pool geteilter Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung zu "seinem" machen. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines "Freigegeben"-Gerätemodus in Android](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+Die Teams-Android-App unterstützt jetzt das globale Anmelden und Abmelden, um Mitarbeitern in Service und Produktion einen einfachen Anmelde- und Abmeldevorgang zu bieten. Ein Mitarbeiter kann ein Gerät aus dem Pool geteilter Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung zu "seinem" machen. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines "Freigegeben"-Gerätemodus in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 Der Anmeldevorgang ähnelt der standardmäßigen Anmeldung bei Microsoft Teams, während die Abmeldung wie in den folgenden beiden Bildern dargestellt abläuft:
 
@@ -158,11 +158,11 @@ Der Anmeldevorgang ähnelt der standardmäßigen Anmeldung bei Microsoft Teams, 
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs und IP-Adressbereiche
 
-Microsoft Teams setzt eine Internetverbindung voraus. Informationen zu Endpunkten, die für Kunden mit Microsoft Teams in Office 365-Plänen, Behörden und andere Clouds erreichbar sein sollten, finden Sie unter [URLs und IP-Adressbereiche für Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).
+Microsoft Teams setzt eine Internetverbindung voraus. Informationen zu Endpunkten, die für Kunden mit Microsoft Teams in Office 365-Plänen, Behörden und andere Clouds erreichbar sein sollten, finden Sie unter [URLs und IP-Adressbereiche für Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
 > [!IMPORTANT]
 > Microsoft Teams benötigt derzeit Zugriff (TCP-Port 443) auf den Google ssl.gstatic.com-Dienst für alle Benutzer. Dies gilt selbst dann, wenn Sie Gstatic nicht verwenden. Diese Anforderung wird demnächst (erste Hälfte 2020) aus Microsoft Teams entfernt. Dieser Artikel wird dann entsprechend aktualisiert.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams)

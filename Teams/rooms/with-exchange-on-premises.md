@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams Rooms in einer Hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460515"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117353"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
@@ -49,6 +49,8 @@ Wenn Sie Microsoft Teams Rooms mit Exchange lokal bereitstellen, verwenden Sie A
   - Sie benötigen Skype for Business Online (Plan 2) oder höher in Ihrem Microsoft 365- oder Office 365-Plan. Der Plan muss die Konferenzfunktion unterstützen.
   
   - Wenn Sie eine Enterprise-VoIP (PSTN-Telefonie) mit Telefoniedienstanbietern für Microsoft Teams Rooms benötigen, benötigen Sie Skype for Business Online (Plan 3).
+
+  - Beim Konfigurieren eines Chatkontos mit Microsoft Teams oder Skype for Business Online sollte die Telefonnummer vor dem Aktivieren des Kontos als Chatraumkonto zugewiesen werden.
   
   - Ihre Mandantenbenutzer müssen über Exchange-Postfächer verfügen.
   
@@ -71,7 +73,7 @@ Wenn Sie Microsoft Teams Rooms mit Exchange lokal bereitstellen, verwenden Sie A
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Aktivieren des Remotepostfachs und Festlegen von Eigenschaften
 
-1. [Öffnen Sie die Exchange-Verwaltungsshell,](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) oder stellen Sie eine Verbindung mit [Ihrem Exchange-Server mithilfe von Remote-PowerShell ein.](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
+1. [Öffnen Sie die Exchange-Verwaltungsshell,](/powershell/exchange/exchange-server/open-the-exchange-management-shell) oder stellen Sie eine Verbindung mit [Ihrem Exchange-Server mithilfe von Remote-PowerShell ein.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
 2. Erstellen Sie in Exchange PowerShell ein Postfach für das Konto (postfachaktiviert das Konto), indem Sie den folgenden Befehl ausführen:
 
@@ -79,7 +81,7 @@ Wenn Sie Microsoft Teams Rooms mit Exchange lokal bereitstellen, verwenden Sie A
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   Ausführliche Syntax- und Parameterinformationen finden Sie unter [Aktivieren-Postfach](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox).
+   Ausführliche Syntax- und Parameterinformationen finden Sie unter [Aktivieren-Postfach](/powershell/module/exchange/mailboxes/enable-mailbox).
 
 3. Konfigurieren Sie in Exchange PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
 
@@ -103,14 +105,14 @@ Wenn Sie Microsoft Teams Rooms mit Exchange lokal bereitstellen, verwenden Sie A
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   Ausführliche Syntax- und Parameterinformationen finden Sie unter [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing).
+   Ausführliche Syntax- und Parameterinformationen finden Sie unter [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Zuweisen einer Microsoft 365- oder Office 365-Lizenz
 
-1. Stellen Sie eine Verbindung mit Azure Active Directory bereit. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. Stellen Sie eine Verbindung mit Azure Active Directory bereit. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0 wird](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt. 
+   > [Azure Active Directory PowerShell 2.0 wird](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt. 
 
 2. Das Gerätekonto muss über eine gültige Microsoft 365- oder Office 365-Lizenz verfügen, oder Exchange und Microsoft Teams funktionieren nicht. Wenn Sie über die Lizenz verfügen, müssen Sie Ihrem Gerätekonto einen Nutzungsspeicherort zuweisen – dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> , um eine Liste der verfügbaren SKUs abzurufen.
 
@@ -132,7 +134,7 @@ Wenn Sie Microsoft Teams Rooms mit Exchange lokal bereitstellen, verwenden Sie A
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   Ausführliche Anweisungen finden Sie unter Zuweisen von Lizenzen [zu Benutzerkonten mit Office 365 PowerShell.](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Ausführliche Anweisungen finden Sie unter Zuweisen von Lizenzen [zu Benutzerkonten mit Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
 ### <a name="enable-the-device-account"></a>Aktivieren des Gerätekontos
 
@@ -140,14 +142,16 @@ Skype for Business Online PowerShell wird zum Verwalten von Diensten für Micros
 
 1. Erstellen Sie eine Remotesitzung Windows PowerShell pc wie folgt:
 > [!NOTE]
-> Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
+> Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
 >
 > Wenn Sie die neueste öffentliche Version von [Teams PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
 2. Abrufen der SIP-Adresse des Kontos:
@@ -156,7 +160,18 @@ Skype for Business Online PowerShell wird zum Verwalten von Diensten für Micros
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. Führen Sie zum Aktivieren Ihres Microsoft Teams Rooms-Kontos den folgenden Befehl aus:
+3. **Optional.** Wenn Sie dem Konto eine Telefonnummer zuweisen möchten, sollte der Vorgang an diesem Punkt ausgeführt werden. Wenn Sie eine Direct Routing-Telefonnummer zuweisen möchten:
+
+   ``` Powershell
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
+    ```
+    Wenn Sie eine von Microsoft bereitgestellte Telefonnummer zuweisen, verwenden Sie das cmdlet unten, nachdem Sie dem Benutzer eine Anrufplanlizenz bereitgestellt haben:
+    
+    ``` Powershell
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    ```
+    
+4. Führen Sie zum Aktivieren Ihres Microsoft Teams Rooms-Kontos den folgenden Befehl aus:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

@@ -17,17 +17,17 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ce7744aa18fe8ffe3fc83ca40649672f521bbba
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: afa30ad1b264088294f775bd69d52e29c5bb423d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346356"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116543"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Behandeln von Problemen mit Gastzugriff in Microsoft Teams
 
-- Wenn Sie wissen möchten, ob Ihr Problem bekannt ist, lesen Sie [Support Teams in Ihrer Organisation](Known-issues.md).
-- Wenn Sie nach Support für aktuelle Probleme mit dem Gastzugriff in Teams suchen möchten, wechseln Sie zu [Problembehandlung für Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
+- Wenn Sie wissen möchten, ob wir über Ihr Problem wissen, lesen Sie [Supportteams in Ihrer Organisation.](/MicrosoftTeams/troubleshoot/teams-welcome)
+- Wenn Sie nach Support für aktuelle Probleme mit dem Gastzugriff in Teams suchen möchten, wechseln Sie zu [Problembehandlung für Microsoft Teams](/MicrosoftTeams/troubleshoot/).
 - Gäste sind Personen außerhalb Ihrer Organisation. Wenn sich eine Person in Ihrer Organisation befindet (beispielsweise ihre Mitarbeiter, Auftragnehmer oder Agenten vor Ort), können Sie nicht als Gäste hinzugefügt werden. Das gleiche gilt für Ihre Partner.
 - Informationen zu geplanten neuen oder aktualisierten Funktionen für den Gastzugriff finden Sie in der [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap).
 - Teilen Sie uns auf der [Microsoft Teams-UserVoice](https://aka.ms/TeamsUserVoice)-Website Ihre Wünsche mit.
@@ -37,19 +37,19 @@ ms.locfileid: "48346356"
 Für den Gastzugriff in Microsoft Teams wird Azure Active Directory (Azure AD) Business-to-Business (B2B) und dessen Lizenzierungsmodell genutzt. Der Gastzugang ist in allen Abonnements von Microsoft 365 Business Standard, Office 365 Enterprise und Office 365 Education enthalten. Eine zusätzliche Microsoft 365- oder Office 365-Lizenz ist nicht erforderlich.
 
 > [!NOTE]
-> Teams müssen für den Home-Mandanten eines Gasts aktiviert sein, damit Gäste sich anmelden und Teams als Gast für einen anderen (Ressourcen-) Mandanten verwenden können.
+> Teams müssen im Home Tenant eines Gasts aktiviert sein, damit Gäste sich anmelden und Teams als Gast in einem anderen (Ressourcen-)Mandanten verwenden können.
 
-Wenn Sie Lizenzierungsfehler sehen, stellen Sie sicher, dass Sie das [Abrechnungsmodell für Azure AD External Identitys](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) lesen, um Lizenzierungsanforderungen zu ermitteln, die Ihren Anforderungen für den Gastzugriff in Ihrer Organisation entsprechen.
+Wenn Lizenzierungsfehler auftreten, lesen Sie unbedingt das Abrechnungsmodell für externe Azure AD-Identitäten, um die Lizenzierungsanforderungen zu ermitteln, die Ihren Anforderungen für den Gastzugriff in Ihrer Organisation entsprechen. [](/azure/active-directory/external-identities/external-identities-pricing)
 
 - Gastlizenzen werden für die einladende Organisation gezählt. Denken Sie daran, wenn Sie die Anzahl der benötigten Lizenzen berechnen.
-- Lizenzen werden für Ihre Organisation gezählt, unabhängig davon, ob die eingeladenen Gäste aus einer anderen Microsoft 365-Organisation stammen oder Ihre persönlichen e-Mail-Adressen verwenden.
+- Lizenzen werden für Ihre Organisation gezählt, unabhängig davon, ob die eingeladenen Gäste aus einer anderen Microsoft 365-Organisation stammen oder ihre persönlichen E-Mail-Adressen verwenden.
 
 ## <a name="support-for-b2b-user-types"></a>Unterstützung von B2B-Benutzertypen
 
-Derzeit unterstützt Teams nur die Gastbenutzer vom Typ "Zustand 1" und "Zustand 2" [gemäß der Definition durch Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
+Derzeit unterstützt Teams nur die Gastbenutzer vom Typ "Zustand 1" und "Zustand 2" [gemäß der Definition durch Azure B2B](/azure/active-directory/b2b/user-properties).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Gastzugriff in Teams](guest-access.md)
 
-[Teams-Problembehandlung](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams)

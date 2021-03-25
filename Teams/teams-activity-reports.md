@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff2c013f286e6a6e64b88f74dc0685e3876f517e
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 9c975bf4a3f2253dbc99230f85b48a9ae9cd0d65
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460635"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107191"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Verwenden von Aktivitätsberichten für Microsoft Teams 
 ========================================
@@ -101,7 +101,7 @@ Auf die Aktivitätsberichte können Benutzer zugreifen, die zugewiesen sind:
 
 ### <a name="reports-reader-role"></a>Leserrolle "Berichte"
 
-Sie können die Rolle des Lesers Berichte Personen zuweisen, die nicht über Administratorrechte verfügen, aber für die Einführung oder Nachverfolgung der Lizenznutzung von Teams verantwortlich sind. Informationen zum Zuweisen von Rollen finden Sie unter Zuweisen von Administrator- und [Nichtadministratorrollen zu Benutzern mit Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
+Sie können die Rolle des Lesers Berichte Personen zuweisen, die nicht über Administratorrechte verfügen, aber für die Einführung oder Nachverfolgung der Lizenznutzung von Teams verantwortlich sind. Informationen zum Zuweisen von Rollen finden Sie unter Zuweisen von Administrator- und [Nichtadministratorrollen zu Benutzern mit Azure Active Directory.](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)
 
 ## <a name="other-information-on-the-reports-dashboard"></a>Weitere Informationen im Dashboard "Berichte"
 

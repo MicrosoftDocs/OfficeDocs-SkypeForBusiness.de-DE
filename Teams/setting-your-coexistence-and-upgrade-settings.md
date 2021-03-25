@@ -18,17 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 52e035f3940237309a1a8bab0211ccaad243b004
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397570"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117073"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrades
 
 
-Wenn Sie Ihre Skype for Business-Benutzer zur Verwendung von Teams aktualisieren, stehen Ihnen mehrere Optionen zur Verfügung, mit denen Sie den Umstieg für Ihre Benutzer nahtlos gestalten können. Sie haben die Option, die Einstellungen für Koexistenz und Upgrade für alle Benutzer in Ihrer Organisation gleichzeitig bzw. für einzelne Personen oder Benutzergruppe in Ihrer Organisation festzulegen bzw daran Änderungen vorzunehmen. Beachten Sie, dass in älteren Versionen der Skype for Business-Clients diese Einstellungen möglicherweise nicht unterstützt werden. Weitere Informationen über die Clientversionen von Skype for Business finden Sie auf der [Seite Skype for Business-Downloads und -Updates](https://docs.microsoft.com/skypeforbusiness/software-updates). 
+Wenn Sie Ihre Skype for Business-Benutzer zur Verwendung von Teams aktualisieren, stehen Ihnen mehrere Optionen zur Verfügung, mit denen Sie den Umstieg für Ihre Benutzer nahtlos gestalten können. Sie haben die Option, die Einstellungen für Koexistenz und Upgrade für alle Benutzer in Ihrer Organisation gleichzeitig bzw. für einzelne Personen oder Benutzergruppe in Ihrer Organisation festzulegen bzw daran Änderungen vorzunehmen. Beachten Sie, dass in älteren Versionen der Skype for Business-Clients diese Einstellungen möglicherweise nicht unterstützt werden. Weitere Informationen über die Clientversionen von Skype for Business finden Sie auf der [Seite Skype for Business-Downloads und -Updates](/skypeforbusiness/software-updates). 
 
 Weitere Informationen zu den verfügbaren Modi finden Sie unter Grundlegendes zu Microsoft Teams und [Skype for Business–](teams-and-skypeforbusiness-coexistence-and-interoperability.md) Koexistenz und Interoperabilität oder Koexistenz mit [Skype for Business.](coexistence-chat-calls-presence.md)  
 

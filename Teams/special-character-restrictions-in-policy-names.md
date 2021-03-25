@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Erfahren Sie, welche Probleme es bei Sonderzeichen in den Namen von Richtlinien gibt und was Sie tun können, um sie zu beheben.
-ms.openlocfilehash: bc5a2fbb28e37602b21e6c519ea3b3b7cb9a0325
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 15df8b64f423d1ee20df6e230e4a9cdbebcb56db
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569407"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116983"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Welche Beschränkungen gelten für Sonderzeichen in den Microsoft Teams-Richtlinien?
 
@@ -59,7 +59,7 @@ Wenn Sie über eine Richtlinie mit Sonderzeichen verfügen, müssen Sie die Rich
 **Schritt 2: Holen Sie sich die Einstellungen für die alte Richtlinie, und erfassen Sie die Ausgabe.**
 
 > [!NOTE]
-> Dieses Beispiel gilt für eine [Messagingrichtlinie.](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)  Die Schritte wären für andere Richtlinientypen identisch, aber Sie müssen das richtige Cmdlet verwenden. 
+> Dieses Beispiel gilt für eine [Messagingrichtlinie.](/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps)  Die Schritte wären für andere Richtlinientypen identisch, aber Sie müssen das richtige Cmdlet verwenden. 
 
   ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
@@ -70,7 +70,7 @@ Wenn Sie über eine Richtlinie mit Sonderzeichen verfügen, müssen Sie die Rich
 
 Sie können entweder die neue Richtlinie mit derselben Einstellung erstellen, indem Sie das Microsoft Teams Admin Center oder PowerShell verwenden.
 
-Wenn Sie dies ausführen, wird eine neue Richtlinie für Sie erstellt, Sie müssen jedoch die richtigen Einstellungen hinzufügen, indem [Sie Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) sehen und dann ausführen:
+Wenn Sie dies ausführen, wird eine neue Richtlinie für Sie erstellt, Sie müssen jedoch die richtigen Einstellungen hinzufügen, indem [Sie Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) sehen und dann ausführen:
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
@@ -79,7 +79,7 @@ Wenn Sie dies ausführen, wird eine neue Richtlinie für Sie erstellt, Sie müss
  ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Weitere Informationen zu diesem Cmdlet finden Sie unter [Grant-CsTeamsMessagingPolicy.](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps)
+Weitere Informationen zu diesem Cmdlet finden Sie unter [Grant-CsTeamsMessagingPolicy.](/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps)
 
 **Schritt 5 : Löschen der alten Richtlinie.**
 
@@ -87,7 +87,7 @@ Dadurch wird die alte Richtlinie mit den Sonderzeichen gelöscht.
   ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Weitere Informationen zu diesem Cmdlet finden Sie unter [Remove-CsTeamsMessagingPolicy.](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)
+Weitere Informationen zu diesem Cmdlet finden Sie unter [Remove-CsTeamsMessagingPolicy.](/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps)
 
 Wenn dieser Befehl erfolgreich ist, sind Sie fertig. Wenn der obige Befehl einen Fehler zurückgibt, liegt dies daran, dass die alte Richtlinie Benutzern zugewiesen ist, sodass Sie ausführen müssen, um alle zugewiesenen Benutzer aus der Richtlinie zu entfernen:
 
@@ -98,19 +98,17 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 
 Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzelnen Verwaltungspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Warum müssen Sie Office 365 PowerShell verwenden?](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum müssen Sie Office 365 PowerShell verwenden?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-    [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
     > Das Windows PowerShell für Skype for Business Online ermöglicht ihnen das Erstellen einer Remotesitzung Windows PowerShell die eine Verbindung mit Skype for Business Online und Microsoft Teams herstellt. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
-  
-

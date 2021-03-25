@@ -19,16 +19,16 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, Sie bei Bedarf zu aktualisieren, Lizenzen zuzuweisen und Einstellungen für Telefone im öffentlichen Bereich zu konfigurieren.
-ms.openlocfilehash: 02cab34b4a1f220e8f28ceeee794470191582704
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Erfahren Sie mehr über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Common Area Phones zu konfigurieren.
+ms.openlocfilehash: 16490c10418928f875d4513c509f17e09ac4359d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220405"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106431"
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen für gemeinsame Bereiche
-A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
+Ein Telefon für gemeinsame Bereiche (CAP) wird typischerweise in einem Bereich wie in einer Lobby oder in einem anderen Bereich platziert, der vielen Menschen zur Verfügung steht. Zum Beispiel ein Telefon im Empfangsbereich, ein Türtelefon oder ein Konferenzraumtelefon, CAPs werden als Geräte und nicht als Benutzer eingerichtet und melden sich automatisch in einem Netzwerk an. In den folgenden Schritten helfen wir Ihnen, ein Konto für das Telefonsystem mit Anrufplänen einzurichten, damit Sie diese Art von Telefone für Ihr Unternehmen bereitstellen können.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Voraussetzungen für Telefone für gemeinsame Bereiche
 
@@ -36,40 +36,40 @@ Zunächst müssen Sie bestätigen, dass Folgendes zutrifft:
 
 - Sie haben eine Lizenz für Telefone für gemeinsame Bereiche und einen Anrufplan gekauft.
 - Sie haben nach zugelassenen Telefonen gesucht und sie gekauft (siehe die Liste [hier](deploying-skype-for-business-online-phones.md)).
-- Update the firmware on your phones (See supported firmware [in this topic](getting-phones-for-skype-for-business-online.md)).  You can check the firmware on you phone by doing this:
-  - **Polycom VVX-Telefone**: Wechseln Sie zu **Einstellungen**  >  **Status**  >  **Plattform**  >  -**App**  >  **Main**.
-  - **Yealink-Telefone**: Wechseln Sie auf dem Hauptbildschirm des Telefons auf **Status** .
-  - **AudioCodes-Telefone**: Wechseln Sie auf dem Startbildschirm zu **Menü**  >  **Device Status**  >  **Firmware-Version** .
-  - **Lync Phone Edition (LPE)-Telefone**: Wechseln Sie im Startbildschirm zu **Menü**  >  **System Informationen** .
+- Sie haben die Firmware auf Ihren Telefonen aktualisiert (siehe unterstützte Firmware [in diesem Thema](getting-phones-for-skype-for-business-online.md)).  Sie können die Firmware auf Ihrem Telefon wie folgt überprüfen:
+  - **Polycom VVX-Telefone:** Wechseln Sie zu **Settings**  >  **Status**  >  **Platform**  >  **Application**  >  **Main**.
+  - **Yealink-Telefone:** Wechseln Sie **auf** dem Hauptbildschirm des Telefons zu Status.
+  - **AudioCodes Telefone:** Wechseln Sie vom **Startbildschirm** zur  >    >  **Firmwareversion** des Menügerätstatus.
+  - **Lync Phone Edition (LPE)-Telefone:** Wechseln Sie vom Startbildschirm zu   >   Menüsysteminformationen.
 
-    Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default.
+    Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert.
 
-    Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the  [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) cmdlet and setting the *EnableDeviceUpdate* parameter to `false`.
+    Je nachdem, wann die Telefone inaktiv sind und welche Abrufintervalle festgelegt sind, werden die neuesten zertifizierten Builds automatisch heruntergeladen und installiert. Sie können die Geräteupdateeinstellungen deaktivieren, indem Sie das  [Cmdlet Set-CsIPPhonePolicy](/powershell/module/skype/set-csipphonepolicy) verwenden und den *Parameter EnableDeviceUpdate auf* `false` festlegen.
 
 ## <a name="setting-up-a-common-area-phone"></a>Einrichten eines Telefons für gemeinsame Bereiche
 Sie müssen diese Schritte befolgen:
 
 ### <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
-1. Wechseln Sie im Admin Center zu **Abrechnungs**  >  **Kauf Dienste**, und fügen Sie **Weitere Pläne**hinzu.
+1. Wechseln Sie im Admin Center zu  >  **Abrechnungskaufdienste,** und fügen Sie **Weitere Pläne hinzu.**
 
-    ![CAP-license.png](../../images/cap-license.png)
+    ![Screenshot der Common Area Phone-Lizenz](../../images/cap-license.png)
 2. Klicken Sie auf **Telefon für gemeinsame Bereiche** > **Jetzt kaufen** > auf der Seite **Check-Out** klicken Sie auf **Jetzt kaufen**.
-3. Click on to expand **Add-on subscriptions** and then click on to buy a Calling Plan. Choose either the **Domestic Calling Plan** or **Domestic and International Calling Plan**.
+3. Klicken Sie darauf, um **Add-on-Abonnements** zu erweitern, und klicken Sie dann darauf, um einen Anrufplan zu kaufen. Wählen Sie entweder den **Plan für Inlandsrufe oder** den Plan für **Inlands- und Auslandsrufe aus.**
 
 > [!Note]
-> You don't need a Phone System license. It's included with the **Common Area Phone** license.
+> Sie benötigen für das Telefonsystem keine Lizenz. Sie ist in der Lizenz **Telefon für gemeinsame Bereiche** enthalten.
 
-Weitere Informationen zu Lizenzen finden Sie unter [Skype for Business-und Microsoft Teams-Add-on-Lizenzierung](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Weitere Informationen zu Lizenzen finden Sie unter [Skype for Business- und Microsoft Teams-Add-On-Lizenzierung.](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
-1. Wechseln Sie im Admin Center zu **Benutzer**, denen  >  **aktive**Benutzer  >  **einen Benutzer hinzufügen**.
+1. Wechseln Sie im Admin Center zu **Benutzer**  >  **Aktive Benutzer Hinzufügen** eines  >  **Benutzers**.
 2. Geben Sie einen **Benutzernamen** wie "Haupt" für den Vornamen und "Empfang" für den Nachnamen ein.
 3. Geben Sie einen **Anzeigename** ein, falls nicht automatisch einer wie "Hauptempfang" generiert wurde.
 4. Geben Sie einen **Benutzernamen** wie "Hauptempfang" oder "Hauptlobby" ein.
-5. For common area phones, you might want to set a password manually or have the same password for all of you common area phones. Also, you might think about unselecting **Make this user change their password when they first sign in**.
+5. Für Telefone für gemeinsame Bereiche können Sie ein Kennwort manuell festlegen oder das gleiche Kennwort für alle Telefone für gemeinsame Bereiche verwenden. Sie können auch darüber nachdenken, die Wahl von **Benutzer veranlassen, sein Passwort bei der Erstanmeldung zu ändern** aufzuheben.
 6. Wenn Sie sich noch dort befinden, weisen Sie die Lizenzen diesem Benutzer zu. Klicken Sie auf der gleichen Seite auf **Produktlizenzen** erweitern. Aktivieren Sie Folgendes:
    - Telefon für gemeinsame Bereiche
-   - Danach müssen Sie entweder einen **Anrufplan für Inland** oder einen Anrufplan für Inland und **Ausland**auswählen.
+   - Danach müssen Sie entweder einen **Anrufplan für Inland** oder einen Anrufplan für Inland und **Ausland** auswählen.
 
      Die Zuweisung der Lizenzen sieht dann so aus:
 
@@ -82,23 +82,23 @@ Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.of
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Schritt 3 - Eine Telefonnummer dem Benutzerkonto Telefon für gemeinsame Bereich zuweisen
 
-![Ein Symbol mit dem Skype for Business-Logo ](../../images/sfb-logo-30x30.png) weisen Sie dem Benutzer über das **Skype for Business Admin Center** eine Telefonnummer zu.
+![Ein Symbol mit dem Skype for Business-Logo Zuweisen einer Telefonnummer zum Benutzer über ](../../images/sfb-logo-30x30.png) das Skype for Business Admin **Center**
 
-1. Im Admin Center > **Admin**Centers  >  **für Skype for Business**.
+1. Im Admin Center > **Admin Center** Skype for Business  >  **.**
 2. In dem **Skype for Business Admin Center** >  **Sprache** > **Telefonnummern**.
 3. Wählen Sie eine Nummer aus der Liste der Telefonnummern aus und klicken Sie auf **Zuweisen**.
 4. Geben Sie auf der Seite **Zuweisen** im Feld **Sprachbenutzer** den Namen des Benutzers ein, der für das Telefon verwendet wird, und wählen Sie den Benutzer im Feld **Sprachbenutzer auswählen** aus.
 5. Hier müssen Sie eine Notfalladresse angeben. Nach der Suche schauen Sie unter **Notfalladresse auswählen**, um die richtige für Sie auszuwählen.
 6. Klicken Sie auf **Speichern** und Ihr Benutzer sollte so aussehen:
 
-    ![cap-user-nummer.png](../../images/cap-user-number.png)
+    ![Screenshot der Telefonnummer eines Benutzers](../../images/cap-user-number.png)
 
    > [!Note]
    > Benutzer werden nur angezeigt, wenn sie eine **Telefonsystem**-Lizenz beantragt haben. Wenn Sie dies gerade erst getan haben, dann kann es etwas dauern, bis der Benutzer in der Liste erscheint.
 
 Weitere Informationen finden Sie unter [Erhalten von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Wenn Sie sich Fragen, können Sie auch Ihre Telefonnummer, die Sie mit einem anderen Netzbetreiber haben, übernehmen und "*portieren*" oder auf Microsoft 365 oder Office 365 übertragen. Weitere Informationen finden Sie unter [übertragen von Telefonnummern in Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+Wenn Sie sich fragen, können Sie Auch Ihre Telefonnummer, die Sie bei einem anderen Netzbetreiber haben, und *portieren* oder sie an Microsoft 365 oder Office 365 übertragen. Weitere Informationen finden [Sie unter Übertragen von Telefonnummern an Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
 ### <a name="step-4---setting-up-your-phone"></a>Schritt 4 - Einrichten des Telefons
 
@@ -116,7 +116,7 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
 - Nachdem der CAP-Modus aktiviert wurde, richten Sie das Telefon über die Anzeige des Telefons ein. Die Anzeige sollte **CaAP ist aktiviert** anzeigen. Gehen Sie wie folgt vor:
 
     1. Klicken Sie auf **Einstellungen speichern.**
-    2. Wählen Sie **erweitert**aus.
+    2. Wählen Sie **Erweitert aus.**
     3. Geben Sie das Kennwort ein.
     4. Wählen Sie unter **Verwaltungseinstellungen** **Einstellungen für Telefone für gemeinsame Bereiche**.
     5. Aktivieren Sie **CAP** und **CAP Admin-Modus**.
@@ -138,12 +138,10 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
 
 
 > [!NOTE]
-> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein lokales Active Directory mit Aad synchronisiert haben und Sie eine Drittanbieter-oder ADFS verwenden, schlägt die Bereitstellung von Cap fehl. In diesem Fall müssen Sie nur ein Microsoft 365-oder Office 365/Azure-Active Directory-Konto verwenden (beispielsweise ein Konto mit **onmicrosoft.com** -Domäne), damit die Cap-Bereitstellung funktioniert.
+> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein lokales Active Directory mit AAD synchronisiert haben und einen IDP oder ADFS eines Drittanbieters verwenden, kann die CAP-Bereitstellung fehlschlagen. In diesem Fall müssen Sie nur ein Microsoft 365- oder Office 365/Azure Active **Directory-Konto** (z. B. ein Konto mit onmicrosoft.com-Domäne) verwenden, damit die CAP-Bereitstellung funktioniert.
 
 
 ### <a name="related-topics"></a>Verwandte Themen
 
 - Weitere Informationen über verfügbare Telefone finden Sie unter [Einsatz von Skype for Business Online-Telefonen](deploying-skype-for-business-online-phones.md).
 - [Erwerben von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md)
-
-

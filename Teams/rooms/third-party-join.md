@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird erläutert, wie Sie Ihre Organisation und Teams Rooms-Geräte konfigurieren, um die Teilnahme von Drittanbietern an Cisco WebEx und Zoom zu unterstützen.
-ms.openlocfilehash: ac4c57dc5cc743fb7b141ecaaaf3531b35912e77
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997433"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117373"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren von Teams Room-Geräten für die Teilnahme an Besprechungen von Drittanbietern
 
@@ -34,9 +34,9 @@ In den folgenden Abschnitten wird erläutert, wie Sie die einzelnen Schritte aus
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>Schritt 1: Zulassen der Verarbeitung von Kalenderbesprechungen für Besprechungen von Drittanbietern
 
-Zum Aktivieren einer One-Touch-Join-Erfahrung auf einem Team Rooms-Gerät müssen Sie zuerst die Kalenderverarbeitungsregeln für das Exchange Online-Raumpostfach des Geräts festlegen. Das Raumpostfach muss externe Besprechungen zulassen und den Nachrichtentext und den Betreff behalten, damit die URL angezeigt wird, die für die Teilnahme an der Besprechung eines Drittanbieters erforderlich ist. Gehen Sie wie folgt vor, um diese Optionen für das Raumpostfach mithilfe des [Cmdlets Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) festlegen:
+Zum Aktivieren einer One-Touch-Join-Erfahrung auf einem Team Rooms-Gerät müssen Sie zuerst die Kalenderverarbeitungsregeln für das Exchange Online-Raumpostfach des Geräts festlegen. Das Raumpostfach muss externe Besprechungen zulassen und den Nachrichtentext und den Betreff behalten, damit die URL angezeigt wird, die für die Teilnahme an der Besprechung eines Drittanbieters erforderlich ist. Gehen Sie wie folgt vor, um diese Optionen für das Raumpostfach mithilfe des [Cmdlets Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.) festlegen:
 
-1. Stellen Sie eine Verbindung mit Exchange Online PowerShell herzustellen. Weitere Informationen finden Sie unter Herstellen einer Verbindung mit [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) mit Standardauthentifizierung oder Herstellen einer Verbindung mit [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)mithilfe der mehrstufigen Authentifizierung , je nach Authentifizierungsmethode.
+1. Stellen Sie eine Verbindung mit Exchange Online PowerShell herzustellen. Weitere Informationen finden Sie unter Herstellen einer Verbindung mit [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) mit Standardauthentifizierung oder Herstellen einer Verbindung mit [Exchange Online PowerShell](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)mithilfe der mehrstufigen Authentifizierung , je nach Authentifizierungsmethode.
 
 2. Verwenden Sie den folgenden Befehl, um den Benutzerprinzipalnamen (User Principal Name, UPN) des Raumpostfachs zu erhalten, wenn Sie es nicht kennen:
 
@@ -52,13 +52,13 @@ Zum Aktivieren einer One-Touch-Join-Erfahrung auf einem Team Rooms-Gerät müsse
     Set-CalendarProcessing <UserPrincipalName> -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
     ```
 
-Weitere Informationen zu [Exchange Online PowerShell.](https://docs.microsoft.com/powershell/exchange/exchange-online-powershell?view=exchange-ps)
+Weitere Informationen zu [Exchange Online PowerShell.](/powershell/exchange/exchange-online-powershell?view=exchange-ps)
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Schritt 2: Konfigurieren von Office 365 Threat Protection und Neuschreiben von Links
 
-Um die One-Touch-Join-Erfahrung zu ermöglichen, müssen die Linkinformationen zur Besprechungsbeknüpfung aus der Besprechung eines Drittanbieters in der Besprechungs-Einladung vorhanden und lesbar sein. Wenn Ihre Organisation das [Office 365 Advanced Threat Protection Safe Links-Feature](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) verwendet, oder wenn Sie eine Drittanbieterlösung verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen überprüft, kann dies die URLs für die Teilnahme an der Besprechung ändern und die Besprechung vom Gerät "Teams Rooms" unkenntlich machen. Um sicherzustellen, dass dies nicht geschieht, müssen Sie die URLs des Drittanbieter-Besprechungsdiensts der Liste "Sichere Links" von ATP oder der URL des Drittanbieters hinzufügen, um die Ausnahmeliste neu zu schreiben.
+Um die One-Touch-Join-Erfahrung zu ermöglichen, müssen die Linkinformationen zur Besprechungsbeknüpfung aus der Besprechung eines Drittanbieters in der Besprechungs-Einladung vorhanden und lesbar sein. Wenn Ihre Organisation das [Office 365 Advanced Threat Protection Safe Links-Feature](/microsoft-365/security/office-365-security/atp-safe-links) verwendet, oder wenn Sie eine Drittanbieterlösung verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen überprüft, kann dies die URLs für die Teilnahme an der Besprechung ändern und die Besprechung vom Gerät "Teams Rooms" unkenntlich machen. Um sicherzustellen, dass dies nicht geschieht, müssen Sie die URLs des Drittanbieter-Besprechungsdiensts der Liste "Sichere Links" von ATP oder der URL des Drittanbieters hinzufügen, um die Ausnahmeliste neu zu schreiben.
 
-Führen Sie die Schritte unter Einrichten einer benutzerdefinierten Liste nicht umschreiben von URLs für sichere Links mithilfe von [ATP Safe Links](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)aus, um urLs von Drittanbietern zur Liste sicherer Links hinzuzufügen. Wenn Sie eine Drittanbieterlösung verwenden, lesen Sie die Anweisungen für diese Lösung zum Hinzufügen von URLs zur Ausnahmeliste url rewrite.
+Führen Sie die Schritte unter Einrichten einer benutzerdefinierten Liste nicht umschreiben von URLs für sichere Links mithilfe von [ATP Safe Links](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)aus, um urLs von Drittanbietern zur Liste sicherer Links hinzuzufügen. Wenn Sie eine Drittanbieterlösung verwenden, lesen Sie die Anweisungen für diese Lösung zum Hinzufügen von URLs zur Ausnahmeliste url rewrite.
 
 Im Folgenden finden Sie einige Beispieleinträge, die Sie ihrer LISTE sicherer Links für sichere Links (ATP) möglicherweise hinzufügen müssen, um die Ausnahmeliste "Nicht umschreiben" oder die URL einer Drittanbieter-URL neu zu schreiben:
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Microsoft Teams Rooms bereitstellen, einschließlich der Bereitstellungsphasen.
-ms.openlocfilehash: 87ded33b464d6f5248fe1fb71d579d5f191bb6b6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726306"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117463"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -140,9 +140,9 @@ Bei der Planung der Bereitstellung von Microsoft Teams Rooms gibt es viele Mögl
 
 **Pro Tipp:** Jeder Microsoft Teams Rooms muss einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk haben. Viele Überwachungs- und Benachrichtigungssysteme zeigen den Computernamen als Schlüsselbezeichner an, daher ist es wichtig, eine Benennungskonvention für Microsoft Teams Rooms-Bereitstellungen zu entwickeln, die es den Supportmitarbeitern ermöglicht, die Microsoft Teams-Räume, für die eine Aktion erforderlich ist, auf einfache Weise zu finden. Ein Beispiel könnte ein Muster von MTR-*Site* - *Room Name* (MTR-LON-CURIE) sein. 
 
-Im Rahmen der Bereitstellung müssen Sie auch Ihre Strategie zum Verwalten [](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) und Konfigurieren der lokalen Konten berücksichtigen, die vom Microsoft Teams Rooms-Anwendungsinstallationsprogramm erstellt werden.
+Im Rahmen der Bereitstellung müssen Sie auch Ihre Strategie zum Verwalten [](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) und Konfigurieren der lokalen Konten berücksichtigen, die vom Microsoft Teams Rooms-Anwendungsinstallationsprogramm erstellt werden.
 
-Wir bieten Anleitungen zur Verwendung des [Microsoft Azure Monitors](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) zum Überwachen der Bereitstellung von Microsoft Teams Rooms und zum Melden von Verfügbarkeit, Hardware-/Softwarefehlern und Microsoft Teams Rooms-Anwendungsversion. Wenn Sie sich für die Verwendung der Microsoft Operations Management Suite entscheiden, sollten Sie den Operations Management Suite-Agent im Rahmen des Softwareinstallationsprozesses installieren und die Informationen zur Arbeitsbereichsverbindung für Ihren Arbeitsbereich konfigurieren. 
+Wir bieten Anleitungen zur Verwendung des [Microsoft Azure Monitors](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) zum Überwachen der Bereitstellung von Microsoft Teams Rooms und zum Melden von Verfügbarkeit, Hardware-/Softwarefehlern und Microsoft Teams Rooms-Anwendungsversion. Wenn Sie sich für die Verwendung der Microsoft Operations Management Suite entscheiden, sollten Sie den Operations Management Suite-Agent im Rahmen des Softwareinstallationsprozesses installieren und die Informationen zur Arbeitsbereichsverbindung für Ihren Arbeitsbereich konfigurieren. 
 
 Eine weitere Überlegung ist, ob die Microsoft Teams Rooms der Domäne beigetreten sind. Informationen zu den Vorteilen der Domänenan beitreten finden Sie unter Überlegungen zum Beitreten zu Domänen in [Skype Room System.](domain-joining-considerations.md) 
 
@@ -200,5 +200,3 @@ _Beispielwerttabelle_
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | London HQ | Curie         | Mittel        |                                          |                                          |                                          |                                            |                   |
 | Sydney HQ | Hill          | Groß         |                                          |                                          |                                          |                                            |                   |
-
-

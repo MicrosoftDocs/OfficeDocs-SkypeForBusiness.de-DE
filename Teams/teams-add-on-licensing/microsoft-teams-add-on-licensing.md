@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
-ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
+ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50937862"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116913"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
@@ -404,4 +404,4 @@ Möchten Sie mit jemandem über die Add-On-Optionen sprechen? [Kontakt mit dem S
 
 - [Zuweisen von Microsoft Teams-Add-On-Lizenzen](assign-teams-add-on-licenses.md)
 - [Verwalten des Benutzerzugriffs auf Microsoft Teams](../user-access.md)
-- [Beschreibung des Microsoft Teams-Diensts](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
+- [Beschreibung des Microsoft Teams-Diensts](/office365/servicedescriptions/teams-service-description)

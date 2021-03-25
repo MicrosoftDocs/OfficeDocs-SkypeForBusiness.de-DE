@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461045"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115993"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
@@ -53,7 +53,7 @@ Verwenden Sie den Gastzugriff, um Personen von außerhalb Ihrer Organisation zu 
 
 Gäste werden dem Azure Active Directory Ihrer Organisation als B2B-Benutzer hinzugefügt und müssen sich mit ihrem Gastkonto in Teams anmelden. Dies bedeutet, dass sie sich möglicherweise in seiner eigenen Organisation abmelden müssen, um sich bei Ihrer Organisation anzumelden.
 
-Informationen zum Konfigurieren des Gastzugriffs für Teams finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+Informationen zum Konfigurieren des Gastzugriffs für Teams finden Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="compare-external-and-guest-access"></a>Vergleich zwischen externem Zugriff und Gastzugriff
 
@@ -105,4 +105,3 @@ Die folgende Tabelle zeigt die Unterschiede zwischen dem externen Zugriff (Partn
 [Externer Zugriff in Teams](manage-external-access.md)
 
 [Gastzugriff in Teams](guest-access.md)
-

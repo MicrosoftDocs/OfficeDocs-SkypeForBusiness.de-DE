@@ -21,17 +21,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Auf diese Weise können Sie herausfinden, wie Sie in jedem Land bzw. jeder Region gebührenfreie Telefonnummern wählen. Nachdem Sie das Land bzw. die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit bestimmten Details, Einschränkungen und Beschränkungen für die Verfügbarkeit gebührenfreier Dienste, auf denen gebührenfreie Dienste verfügbar sind. Im Wählformat oder den Wählformaten werden die erforderlichen Zugriffscodes für die gebührenfreie Nummer in den einzelnen Ländern/Regionen angezeigt.
-ms.openlocfilehash: cdaa8761e55ac2ad85775c81c4726bb42c5ba489
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Dies hilft Ihnen, herauszufinden, wie Sie gebührenfreie Nummern in jedem Land/jeder Region wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit bestimmten Details, Einschränkungen und Beschränkungen für die gebührenfreie Verfügbarkeit von Dienstleistungen, auf denen gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in den einzelnen Ländern/Regionen an, um die gebührenfreie Nummer zu wählen.
+ms.openlocfilehash: 8f3487838f8104539e0251049ee6f61f0abfaa4e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809115"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116673"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Einschränkungen für gebührenfreie Telefonnummern in Portugal
 
-[Suchen Sie nach einem anderen Land oder](../toll-free-dialing-limitations-and-restrictions.md)einer anderen Region, oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für die gebührenfreie Wählwahl.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
 
 
 |**Details**|**Beschreibung**|
@@ -49,7 +49,6 @@ ms.locfileid: "49809115"
 
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Abrufen von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers)
+[Servicetelefonnummern erhalten](../getting-service-phone-numbers.md)
 
   
- 

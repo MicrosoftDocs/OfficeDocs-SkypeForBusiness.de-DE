@@ -1,5 +1,5 @@
 ---
-title: Benutzer können Archivierungsrichtlinien anzeigen oder konfigurieren
+title: Benutzer anzeigen oder Konfigurieren von Archivierungsrichtlinien
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 2e14e60a21f3ab18b11b9e710453806ea920ce4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7f18ad244d41c06551c75600aa38475338c661ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800345"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115101"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Benutzer: Anzeigen oder Konfigurieren einer Archivierungsrichtlinie
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Zuweisen einer Archivierungsrichtlinie auf Benutzerebene](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [Zuweisen einer Archivierungsrichtlinie auf Benutzerebene](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-archiving-policy)
 
-- [Anwenden einer Archivierungsrichtlinie auf einen Benutzer oder eine Benutzergruppe](https://technet.microsoft.com/library/624a7d3e-389d-403a-97e5-f7bb17023ef3.aspx)
+- [Anwenden einer Archivierungsrichtlinie auf einen Benutzer oder eine Benutzergruppe](/previous-versions/office/lync-server-2013/lync-server-2013-applying-an-archiving-policy-to-users)
 
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
-
+Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).

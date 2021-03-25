@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Erfahren Sie mehr über die Skype Meeting Broadcast-Funktion von Skype for Business Online, mit der Sie Besprechungen oder Ereignisse für ein großes Onlinepublikum von bis zu 10.000 Teilnehmern planen, produzieren und übertragen können.
-ms.openlocfilehash: b774c368674f421c11f36339ef7188ea8de82e64
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+description: Erfahren Sie mehr über die Skype Meeting Broadcast-Funktion von Skype for Business Online, mit der Sie Besprechungen oder Ereignisse für große Onlinepublikums mit bis zu 10.000 Teilnehmern planen, produzieren und übertragen können.
+ms.openlocfilehash: 513b6f8d677550557293855389eff29dc61c21c1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865159"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106511"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Einrichten Ihres Netzwerks für Skype-Livekonferenz
 
 Nach der [Aktivieren von Skype-Livekonferenz](enable-skype-meeting-broadcast.md) Skype-Livekonferenz müssen Sie Ihr Netzwerk konfigurieren. Führen Sie diesen Schritt aus, wenn Sie Webinare und andere Konferenzen für Personen außerhalb Ihres Unternehmens durchführen möchten.
 
 > [!IMPORTANT]
-> Skype for Business Online wird am 31. Juli 2021 beendet. Zu diesem Zeitpunkt endet der Zugriff auf den Dienst. Wir empfehlen kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Hauptclient für Kommunikation und Teamarbeit in Microsoft 365.
+> Skype for Business Online wird am 31. Juli 2021 in den Ruhestand geschaltet, zu dem der Zugriff auf den Dienst endet. Wir empfehlen Kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Kernclient für Kommunikation und Teamarbeit in Microsoft 365.
 
 Wenn Sie keine Erfahrungen mit der Konfiguration Ihrer Firewall haben, sollten Sie möglicherweise einen [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) für diese Aufgabe heranziehen.
 
@@ -45,9 +45,9 @@ Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzuricht
 
  **Methode 1: Verwenden des Admin Centers**
 
-1. Wechseln Sie zum Admin Center, klicken Sie in der linken Navigationsleiste auf "Einstellungendienste"-Add-Ins, und wählen Sie dann Skype for Business  >  **&amp;** **aus.**
+1. Wechseln Sie zum Admin Center, und klicken Sie dann in der linken Navigationsleiste auf **Einstellungen**  >  **&amp; Dienste-Add-Ins,** und wählen Sie **dann Skype for Business aus.**
 
-2. Wählen Sie auf  **der Seite** "Externe Freigabe" unter "Domänenausnahmen" die Option "Alle Domänen werden blockiert, mit Ausnahme" **aus,** und geben Sie die folgenden Domänen durch ein Komma (,) getrennt ein:
+2. Wählen Sie **auf** der Seite Externe Freigabe **unter** Domänenausnahmen die Option **Alle** Domänen werden mit Ausnahme blockiert aus, und geben Sie die folgenden Domänen ein, getrennt durch ein Komma (,):
 
    - noammeetings.lync.com
 
@@ -63,7 +63,7 @@ Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzuricht
 
  **Methode 2: Verwenden von Windows PowerShell**
 
-- Klicken Sie **im Startmenü** mit der rechten Maustaste **auf Windows PowerShell** und klicken Sie dann **auf "Als Administrator ausführen".** Geben Sie im **Windows PowerShell** jede Zeile ein, und drücken Sie die EINGABETASTE.
+- Klicken Sie **im Startmenü** mit der rechten Maustaste **auf Windows PowerShell** und dann auf Als **Administrator ausführen.** Geben Sie **Windows PowerShell** Zeile in das Fenster ein, und drücken Sie die EINGABETASTE.
 
   ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
@@ -93,11 +93,11 @@ Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzuricht
 
 Im zweiten Schritt des Setupvorgangs fügen Sie zuerst die benötigten Domänen hinzu. Anschließend fügen Sie die IP-Adressen und URLs hinzu, die erforderlich sind, damit Skype-Livekonferenz funktioniert.
 
-- **Fügen Sie die erforderlichen URLs und IP-Adressen** für den Skype for Business Online-Endpunkt hinzu, indem Sie sehen, welche hier erforderlich [sind.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
+- **Fügen Sie die erforderlichen SKYPE for Business Online-Endpunkt-URLs** und -IP-Adressen hinzu, indem Sie sehen, welche hier erforderlich [sind.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Einrichten von Skype-Livekonferenz in Hybridbereitstellungen und -organisationen
 
-Wenn Sie über eine Skype for Business Online-Organisation und eine lokale Bereitstellung von Lync Server 2010, Microsoft Lync Server 2013 und Skype for Business Server 2015 verfügen und sowohl Online- als auch lokale Benutzer haben, müssen Sie zusätzlich zu den oben genannten Schritte weitere Setupschritte ausführen, um Ihrer lokalen Organisation die Kommunikation mit Skype for Business Online zu ermöglichen und allen Benutzern die Teilnahme an einer Skype-Liveübertragung zu ermöglichen. Die entsprechenden Anforderungen finden Sie unter [Konfigurieren der lokalen Bereitstellung von Skype-Livekonferenz](https://go.microsoft.com/fwlink/?LinkId=617070).
+Wenn Sie über eine Skype for Business Online-Organisation und eine lokale Bereitstellung von Lync Server 2010, Microsoft Lync Server 2013 und Skype for Business Server 2015 verfügen und Benutzer sowohl online als auch lokal haben, müssen Sie zusätzlich zu den oben genannten Schritte weitere Setupschritte ausführen, um Ihrer lokalen Organisation die Kommunikation mit Skype for Business Online zu ermöglichen und allen Benutzern die Teilnahme an einer Skype-Besprechungsübertragung zu ermöglichen. Die entsprechenden Anforderungen finden Sie unter [Konfigurieren der lokalen Bereitstellung von Skype-Livekonferenz](../../SfbServer/deploy/configure-skype-meeting-broadcast.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -106,6 +106,3 @@ Wenn Sie über eine Skype for Business Online-Organisation und eine lokale Berei
 [URLs und IP-Adressbereiche von Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
 [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-
-
-

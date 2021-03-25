@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Erfahren Sie, wie Sie Microsoft Teams-Räume einrichten, einschließlich der Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 15d02a500cd1a10ed1cef8480e1a6c4f363afa2e
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 9bc4de10512cdd69fe4bdeef1514ad6c63033d28
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726356"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117543"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
@@ -38,7 +38,7 @@ ms.locfileid: "50726356"
 
 |               |               |               |
 | ------------- | ------------- | ------------- |
-|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Plan](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Bereitstellen](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Verwalten](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon"> <br> **[Plan](./rooms-plan.md)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon"> <br> **[Bereitstellen](./rooms-deploy.md)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon"> <br> **[Verwalten](./rooms-manage.md)** |
 
 <br>
 

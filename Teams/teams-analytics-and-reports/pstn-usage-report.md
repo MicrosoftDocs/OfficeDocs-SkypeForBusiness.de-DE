@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie im Microsoft Teams Admin Center den Bericht z
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d870581b8921e39d50d0187120cf89067ac38819
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875025"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116863"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -108,7 +108,7 @@ Die erste Zeile der CSV enthält Spaltennamen. Alle Datumsangaben sind UTC und i
  Sie können Daten bis zu einem Jahr ab dem aktuellen Datum exportieren, es sei denn, länderspezifische Vorschriften verbieten die Aufbewahrung der Daten für 12 Monate.
 
 > [!div class="has-no-wrap"]  
-> | # | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
+> | # | Name | [Datentyp (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | Eindeutiger Anrufbezeichner |
 > | 1 | Anruf-ID | `nvarchar(64)` | Anrufbezeichner. Nicht garantiert eindeutig |
@@ -136,7 +136,7 @@ Die erste Zeile der CSV enthält Spaltennamen. Alle Datumsangaben sind UTC und i
 Sie können Daten bis zu fünf Monate (150 Tage) ab dem aktuellen Datum exportieren, es sei denn, länderspezifische Bestimmungen verbieten die Aufbewahrung der Daten für diesen Zeitraum.
 
 > [!div class="has-no-wrap"]  
-> | # | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
+> | # | Name | [Datentyp (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | CorrelationId | `uniqueidentifier` | Eindeutiger Anrufbezeichner |
 > | 1 | SIP-Adresse | `nvarchar(128)` | Die Adresse des Benutzers oder Bots, der den Anruf vorgenommen oder empfangen hat.<br/>Beachten Sie, dass dies tatsächlich UserPrincipalName (UPN, Anmeldename) in Azure Active Directory ist, was normalerweise mit der SIP-Adresse identisch ist. |

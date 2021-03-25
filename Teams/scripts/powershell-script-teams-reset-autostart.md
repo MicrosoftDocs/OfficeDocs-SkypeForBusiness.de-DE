@@ -1,5 +1,5 @@
 ---
-title: 'Beispiel für ein PowerShell-Skript : Zurücksetzen der Einstellung für autostart in Teams'
+title: PowerShell-Skriptbeispiel – Zurücksetzen der Einstellung für den automatischen Start in Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Verwenden Sie dieses PowerShell-Skript, um die Einstellung für autostart in Teams auf Benutzerbasis zurückzusetzen.
+description: Verwenden Sie dieses PowerShell-Skript, um die Einstellung für den automatischen Start in Teams auf Benutzerbasis zurückzusetzen.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02f21fcc642f33b17efa6ef44878bce567695b4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2f9b2388cef619728f5ecdd912e61448cc3524c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827505"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117263"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>Beispiel für ein PowerShell-Skript : Zurücksetzen der Einstellung für autostart in Teams
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell-Skriptbeispiel – Zurücksetzen der Einstellung für den automatischen Start in Teams
 
-Verwenden Sie dieses Skript, um die Einstellung für autostart in Teams auf Benutzerbasis zurückzusetzen. Dies schließt alle vom Benutzer oder der Teams-App festgelegten Werte ein. Standardmäßig wird Teams automatisch gestartet, wenn sich ein Benutzer nach der Installation an seinem Computer anmeldet.
+Verwenden Sie dieses Skript, um die Einstellung für den automatischen Start von Teams auf Benutzerbasis zurückzusetzen. Dies schließt alle vom Benutzer oder der Teams-App festgelegten Werte ein. Standardmäßig wird Teams automatisch gestartet, wenn sich ein Benutzer nach der Installation bei seinem Computer anmeldet.
 
-Wenn Sie Teams bereits bereitgestellt haben und festlegen möchten, dass [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) nach der Installation der Gruppenrichtlinieneinstellung automatisch gestartet wird, um die automatische Startaktion von Teams zu deaktivieren, müssen Sie zuerst die Gruppenrichtlinieneinstellung auf den wert festlegen, den Sie wünschen, und dann dieses Skript ausführen.
+Wenn Sie Teams bereits bereitgestellt haben und festlegen möchten, dass [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) nach der Installation von Gruppenrichtlinien automatisch gestartet wird, um die automatische Startanleitung von Teams zu deaktivieren, müssen Sie zuerst die Gruppenrichtlinieneinstellung auf den wert festlegen, den Sie benötigen, und dann dieses Skript ausführen.
 
-Nachdem Teams für einen Benutzer gestartet wurde, können die Einstellungen für das automatische Starten nicht mithilfe von Gruppenrichtlinien deaktiviert werden.
+Nachdem Teams für einen Benutzer gestartet wurde, können die Einstellungen für den automatischen Start nicht mithilfe der Gruppenrichtlinie deaktiviert werden.
 
 ## <a name="sample-script"></a>Beispielskript
 
@@ -150,4 +150,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Installieren von Teams mithilfe von MSI](../msi-deployment.md).
-- [Bereitstellen von Teams mit Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/deployoffice/teams-install)
+- [Bereitstellen von Teams mit Microsoft 365-Apps für Unternehmen](/deployoffice/teams-install)

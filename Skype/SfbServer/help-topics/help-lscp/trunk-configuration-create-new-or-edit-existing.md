@@ -1,5 +1,5 @@
 ---
-title: 'Trunkkonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Trunkkonfiguration'
+title: Trunkkonfiguration Erstellen neuer oder Bearbeiten vorhandener Trunkkonfigurationen
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: ca0c5e3f9b4a574d6beb21b22fc7d6f73038b476
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c789a1e745b1f00c4d6757cc30415e4107c67486
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818825"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116383"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Trunkkonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Trunkkonfiguration
 
@@ -30,9 +30,8 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [Erstellen oder Ändern einer Übersetzungsregel für die Darstellung der angerufenen ID in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Erstellen oder Ändern einer Übersetzungsregel für die so genannte ID-Präsentation in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Manuelles Erstellen oder Ändern einer Übersetzungsregel](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [Manuelles Erstellen oder Ändern einer Übersetzungsregel](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
 
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
-
+Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).

@@ -1,5 +1,5 @@
 ---
-title: Vornehmen von Änderungen an den Einstellungen für die Skype-Live Konferenz für Ihre Organisation
+title: Vornehmen von Änderungen an den Skype Meeting Broadcast-Einstellungen für Ihre Organisation
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,34 +19,33 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
-description: Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
-ms.openlocfilehash: 88f074838ff1d03153441beb624bc5d9b7ad157c
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+description: Sie können Skype Meeting Broadcast aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
+ms.openlocfilehash: 75b1894f486d6448662c459b0d77d4f5d3057a2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753410"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106551"
 ---
-# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Vornehmen von Änderungen an den Einstellungen für die Skype-Live Konferenz für Ihre Organisation
+# <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Vornehmen von Änderungen an den Skype Meeting Broadcast-Einstellungen für Ihre Organisation
 
 > [!IMPORTANT]
-> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacy Portal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business sind jetzt im Team Admin Center. Sie müssen der [Azure AD-Administratorrolle](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) des globalen Administrators oder des Skype for Business-Administrators zugewiesen sein, um Skype for Business-Funktionen im Team Admin Center verwalten zu können. Weitere Informationen finden Sie unter [Verwalten von Skype for Business-Einstellungen im Microsoft Teams Admin Center](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Oder Skype for Business-Administrators zugewiesen sein, um Skype for Business-Features im Teams Admin Center verwalten zu können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
-Sie können Skype-Live Konferenz aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
+Sie können Skype Meeting Broadcast aktivieren und Änderungen an den Einstellungen und Richtlinien für diese Besprechungen vornehmen.
   
-- **Skype-Live Konferenz aktivieren** Ermöglicht Skype-Live Konferenz. Nachdem Sie Skype-Live Konferenz aktiviert haben, müssen Sie [Ihr Netzwerk für Skype-Live Konferenz einrichten](set-up-your-network-for-skype-meeting-broadcast.md). Führen Sie diesen Schritt aus, wenn Sie Webinare und andere Konferenzen für Personen außerhalb Ihres Unternehmens durchführen möchten. 
+- **Aktivieren der Skype-Besprechungsübertragung** Aktiviert skype meeting broadcast. Nachdem Sie skype meeting broadcast aktiviert haben, müssen Sie Ihr Netzwerk für Skype [Meeting Broadcast einrichten.](set-up-your-network-for-skype-meeting-broadcast.md) Führen Sie diesen Schritt aus, wenn Sie Webinare und andere Konferenzen für Personen außerhalb Ihres Unternehmens durchführen möchten. 
     
-- **Aktivieren der Vorschau Features für Skype-Live Konferenzen für meine Organisation** Die Skype for Business-Kundenprogramme bieten Ihnen frühen Zugriff auf neue Produkte und Funktionen. Dadurch erhalten Sie von Ihrer Organisation einen kleinen Einblick in die bevorstehenden Funktionen und die Möglichkeit, die neuen Features in ihrer eigenen Umgebung zu testen und Feedback zu geben, bevor wir Produkt-Builds für die breite Öffentlichkeit freigeben.<br/>[Skype for Business-Vorschau](https://www.skypepreview.com/)
+- **Aktivieren der Features für die Skype-Liveübertragungsvorschau für meine Organisation** Die Skype for Business-Kundenprogramme bieten Ihnen frühzeitigen Zugriff auf neue Produkte und Features. Dies gibt Ihrer Organisation einen Einblick in die kommenden Funktionen und die Möglichkeit, die neuen Features in Ihrer eigenen Umgebung zu testen und Feedback zu geben, bevor wir Produktbuilds für die allgemeine Öffentlichkeit veröffentlichen.<br/>[Skype for Business Preview](https://www.skypepreview.com/)
     
-- **Zulassen, dass die Organisatoren anonyme Besprechungen planen** Auf diese Weise können Organisatoren Broadcast Ereignisse erstellen, mit denen Personen außerhalb Ihrer Organisation teilnehmen können, ohne dass Sie sich anmelden müssen.
+- **Zulassen, dass Organisatoren anonyme Besprechungen planen** Auf diese Weise können Organisatoren Übertragungsereignisse erstellen, bei denen jeder außerhalb seiner Organisation teilnehmen kann, ohne sich anmelden zu müssen.
     
-- **Aufzeichnen von Broadcast Besprechungen zulassen** Dadurch können Besprechungen, die vom Referenten oder Organisator aufgezeichnet werden müssen.
+- **Aufzeichnung von Übertragungsbesprechungen zulassen** Auf diese Weise können Alle Besprechungen, die Sie vom Organisator oder Organisator aufzeichnen müssen, aufgezeichnet werden.
     
-- **Helpdesk-Support-URL für Teilnehmer** Geben Sie einen Link für die Teilnehmer der Besprechungs Übertragung ein, wenn Sie Hilfe beim Verbinden oder teilnehmen an einer Broadcast Besprechung benötigen.
+- **Helpdesk-Support-URL für Teilnehmer** Geben Sie einen Link für Besprechungsübertragungsteilnehmer ein, der verwendet werden kann, wenn sie Hilfe beim Herstellen einer Verbindung oder der Teilnahme an einer Übertragungssitzung benötigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Einrichten Ihres Netzwerks für Skype Meeting Broadcast](set-up-your-network-for-skype-meeting-broadcast.md)
 
   
- 

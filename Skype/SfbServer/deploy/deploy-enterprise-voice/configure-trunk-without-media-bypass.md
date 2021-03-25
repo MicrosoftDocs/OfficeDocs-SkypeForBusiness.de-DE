@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
-description: 'Zusammenfassung: Konfigurieren eines Trunks ohne aktivierte Medienumgehung für Skype for Business Server.'
-ms.openlocfilehash: c7941087dc2af820969a80cf68e8d01aa4356948
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Konfigurieren eines Trunks ohne Medienumgehung, der für Skype for Business Server aktiviert ist.'
+ms.openlocfilehash: ff1c34e36906c8b9f5c88495e3c24239f572184a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803975"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106381"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server
 
-**Zusammenfassung:** Konfigurieren eines Trunks ohne aktivierte Medienumgehung für Skype for Business Server.
+**Zusammenfassung:** Konfigurieren Eines Trunks ohne Medienumgehung, der für Skype for Business Server aktiviert ist.
 
-Führen Sie die folgenden Schritte aus, um einen Trunk mit deaktivierter Medienumgehung zu konfigurieren. Informationen zum Konfigurieren eines Trunks mit aktivierter Medienumgehung finden Sie unter "Konfigurieren eines Trunks mit Medienumgehung [in Skype for Business Server".](configure-trunk-with-media-bypass.md)
+Führen Sie die folgenden Schritte aus, um einen Trunk mit deaktivierter Medienumgehung zu konfigurieren. Wenn Sie einen Trunk mit aktivierter Medienumgehung konfigurieren möchten, lesen Sie Konfigurieren eines Trunks mit [Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md).
 
 Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewendet werden, die dieser Trunkkonfiguration zugewiesen sind. Eine bestimmte Trunkkonfiguration kann auf globale Ebene (für alle Trunks, die keine speziellere Standort- oder Poolkonfiguration haben) oder für einen Standort oder Pool festgelegt werden. Die Trunkkonfiguration auf Poolebene wird verwendet, um eine bestimmte Trunkkonfiguration auf einen einzelnen Trunk anzuwenden.
 
@@ -43,16 +43,16 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 
    - Klicken Sie auf **Neu**, und wählen Sie einen Bereich für die neue Trunkkonfiguration aus:
 
-   - **Standort-Trunk:** Wählen Sie den Standort für diese Trunkkonfiguration in **"Standort** auswählen" aus, und klicken Sie dann auf **"OK".** Wenn bereits eine Trunkkonfiguration für einen Standort erstellt wurde, wird der Standort nicht unter **Standort auswählen** angezeigt. Diese Trunkkonfiguration wird auf alle Trunks am Standort angewendet.
+   - **Standortstamm**: Wählen Sie unter Standort auswählen den Standort für diese Trunkkonfiguration **aus,** und klicken Sie dann auf **OK**. Wenn bereits eine Trunkkonfiguration für einen Standort erstellt wurde, wird der Standort nicht unter **Standort auswählen** angezeigt. Diese Trunkkonfiguration wird auf alle Trunks am Standort angewendet.
 
-   - **Pooltrunk**: Wählen Sie unter **Dienst auswählen** den Namen des Trunks aus, auf den diese Trunkkonfiguration angewendet wird, und klicken Sie auf **OK**. Dieser Trunk kann der Stamm trunk oder alle zusätzlichen Trunks sein, die im Topologie-Generator definiert sind. Wenn bereits eine Trunkkonfiguration für einen bestimmten Trunk erstellt wurde, erscheint dieser Trunk nicht unter **Dienst auswählen**.
+   - **Pooltrunk**: Wählen Sie unter **Dienst auswählen** den Namen des Trunks aus, auf den diese Trunkkonfiguration angewendet wird, und klicken Sie auf **OK**. Dieser Trunk kann der Stamm trunk oder ein beliebiger zusätzlicher Trunk sein, der im Topologie-Generator definiert ist. Wenn bereits eine Trunkkonfiguration für einen bestimmten Trunk erstellt wurde, erscheint dieser Trunk nicht unter **Dienst auswählen**.
 
      > [!NOTE]
-     > Nachdem Sie den Bereich für die Trunkkonfiguration ausgewählt haben, kann dieser nicht mehr geändert werden. > Das Feld **"Name"** wird vorab mit dem Namen des zugeordneten Standorts oder Diensts der Trunkkonfiguration aufgefüllt und kann nicht geändert werden.
+     > Nachdem Sie den Bereich für die Trunkkonfiguration ausgewählt haben, kann dieser nicht mehr geändert werden. > Das **Feld Name** wird vorab mit dem Namen des zugeordneten Standorts oder Diensts der Trunkkonfiguration ausgefüllt und kann nicht geändert werden.
 
 4. Wählen Sie unter **Unterstützte Verschlüsselungsstufe** eine der folgenden Optionen aus:
 
-   - **Erforderlich:** Die SECURE Realtime Transport Protocol (SRTP)-Verschlüsselung muss zum Schutz des Datenverkehrs zwischen dem Vermittlungsserver und dem Gateway oder der Nebenstellenanlage (Private Branch eXchange, PBX) verwendet werden.
+   - **Erforderlich:** Die SrTP-Verschlüsselung (Secure Realtime Transport Protocol) muss zum Schutz des Datenverkehrs zwischen dem Vermittlungsserver und dem Gateway oder der Nebenstellenanlage (Private Branch eXchange) verwendet werden.
 
    - **Optional**: Die SRTP-Verschlüsselung wird verwendet, wenn der Dienstanbieter oder Gerätehersteller dieses Protokoll unterstützt.
 
@@ -60,13 +60,13 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 
 5. Stellen Sie sicher, dass das Kontrollkästchen **Medienumgehung aktivieren** deaktiviert ist.
 
-6. Aktivieren  Sie das Kontrollkästchen für die zentralisierte Medienverarbeitung, wenn ein bekannter Medienendpunkt (z. B. ein PSTN-Gateway) vor ortsgleich ist, bei dem der Medienendpunkt die gleiche IP hat wie der Signalendpunkt). Deaktivieren Sie dieses Kontrollkästchen, wenn der Trunk über keinen bekannten Medienendpunkt verfügt.
+6. Aktivieren  Sie das Kontrollkästchen Zentralisierte Medienverarbeitung, wenn es einen bekannten Medienendpunkt gibt (z. B. ein PstN-Gateway (Public Switched Telephone Network), bei dem die Medienendung die gleiche IP wie die Signalendung besitzt). Deaktivieren Sie dieses Kontrollkästchen, wenn der Trunk über keinen bekannten Medienendpunkt verfügt.
 
-7. Wenn der Trunk-Peer den Empfang von SIP -REFER-Anforderungen vom Vermittlungsserver unterstützt, aktivieren Sie das Kontrollkästchen "Senden aktivieren" im **Gateway.**
+7. Wenn der Trunk-Peer den Empfang von SIP -REFER-Anforderungen vom Vermittlungsserver unterstützt, aktivieren Sie das Kontrollkästchen Senden aktivieren **verweisen auf das Gateway.**
 
-8. (Optional) Um Routing zwischen Trunks zu ermöglichen, können Sie dieser Trunkkonfiguration PSTN-Verwendungseinträge zuordnen und konfigurieren. Die dieser Trunkkonfiguration zugeordneten PSTN-Verwendungen werden für alle eingehenden Anrufe über den Trunk angewendet, der nicht von einem Skype for Business Server-Endpunkt stammt. Verwenden Sie eine der folgenden Methoden, um die einer Trunkkonfiguration zugeordneten PSTN-Verwendungseinträge zu verwalten:
+8. (Optional) Um Routing zwischen Trunks zu ermöglichen, können Sie dieser Trunkkonfiguration PSTN-Verwendungseinträge zuordnen und konfigurieren. Die dieser Trunkkonfiguration zugeordneten PSTN-Verwendungen werden für alle eingehenden Anrufe über den Trunk angewendet, die nicht von einem Skype for Business Server-Endpunkt stammen. Verwenden Sie eine der folgenden Methoden, um die einer Trunkkonfiguration zugeordneten PSTN-Verwendungseinträge zu verwalten:
 
-   - Klicken Sie auf "Auswählen", um einen oder mehrere Datensätze aus einer Liste aller in Ihrer Bereitstellung verfügbaren ENTERPRISE-VOIP **auszuwählen.** Markieren Sie die Einträge, die Sie dieser Trunkkonfiguration zuordnen möchten, und klicken Sie dann auf **OK**.
+   - Klicken Sie auf Auswählen, um einen oder mehrere Datensätze aus einer Liste aller in Ihrer Bereitstellung verfügbaren PSTN-Enterprise-VoIP **auszuwählen.** Markieren Sie die Einträge, die Sie dieser Trunkkonfiguration zuordnen möchten, und klicken Sie dann auf **OK**.
 
    - Markieren Sie einen Eintrag, und klicken Sie auf **Entfernen**, um einen PSTN-Verwendungseintrag aus dieser Trunkkonfiguration zu entfernen.
 
@@ -81,11 +81,11 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 
      c. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
-     - Klicken Sie auf "Auswählen", um eine oder mehrere Routen aus der Liste aller verfügbaren Routen in Enterprise-VoIP **auszuwählen.** Markieren Sie die Routen, die Sie dieser Trunkkonfiguration zuordnen möchten, und klicken Sie dann auf **OK**.
+     - Klicken Sie auf Auswählen, um eine oder mehrere Routen aus der Liste aller verfügbaren Routen in Ihrer Enterprise-VoIP **auszuwählen.** Markieren Sie die Routen, die Sie dieser Trunkkonfiguration zuordnen möchten, und klicken Sie dann auf **OK**.
 
      - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen finden Sie unter ["Erstellen oder Ändern einer Sprachroute in Skype for Business".](create-or-modify-a-voice-route.md)
+     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen finden Sie unter [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
 
      - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die dem PSTN-Verwendungseintrag zugeordnet ist.
 
@@ -97,35 +97,35 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 
      b. Verwenden Sie eine der folgenden Methoden, um Routen für diesen PSTN-Verwendungseintrag zuzuordnen und zu konfigurieren:
 
-     - Klicken Sie auf "Auswählen", um eine oder mehrere Routen aus der Liste aller verfügbaren Routen in Enterprise-VoIP **auszuwählen.** Markieren Sie die Routen, die Sie dieser Trunkkonfiguration zuordnen möchten, und klicken Sie dann auf **OK**.
+     - Klicken Sie auf Auswählen, um eine oder mehrere Routen aus der Liste aller verfügbaren Routen in Ihrer Enterprise-VoIP **auszuwählen.** Markieren Sie die Routen, die Sie dieser Trunkkonfiguration zuordnen möchten, und klicken Sie dann auf **OK**.
 
      - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen finden Sie unter ["Erstellen oder Ändern einer Sprachroute in Skype for Business".](create-or-modify-a-voice-route.md)
+     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Weitere Informationen finden Sie unter [Create or modify a voice route in Skype for Business](create-or-modify-a-voice-route.md).
 
      - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die dem PSTN-Verwendungseintrag zugeordnet ist.
 
      c. Klicken Sie auf **OK**.
 
      > [!IMPORTANT]
-     > Es ist wichtig, die PstN-Verwendungseinträge entsprechend dem Vermittlungsserver-Peer zuzuordnen, der dem zu konfigurierenden Trunk zugeordnet ist. Wenn es sich bei dem Vermittlungsserver-Peer um ein PSTN-Gateway oder einen Session Border Controller (SBC) handelt, wird dringend empfohlen, dass die Trunkkonfiguration keinem PSTN-Verwendungsdatensatz zugeordnet ist, der an ein PstN-Ziel oder andere nachgelagerte Systeme, die über Skype for Business Server verbunden sind, weiterroutet.
+     > Es ist wichtig, pstN-Verwendungsdatensätze gemäß dem Vermittlungsserver-Peer zuzuordnen, der dem zu konfigurierenden Trunk zugeordnet ist. Wenn es sich bei dem Vermittlungsserver-Peer um ein PSTN-Gateway oder einen Session Border Controller (SBC) handelt, wird dringend empfohlen, dass die Trunkkonfiguration keinem PSTN-Verwendungsdatensatz zugeordnet ist, der zu einem PSTN-Ziel oder einem anderen downstream-System über Skype for Business Server verbunden ist.
 
-9. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Wenn Sie die Position eines Datensatzes in der Liste ändern möchten, wählen Sie den PSTN-Verwendungsdatensatz aus, und klicken Sie auf die Nach-oben- oder Abwärtspfeile.
+9. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um die Position eines Datensatzes in der Liste zu ändern, wählen Sie den PSTN-Verwendungsdatensatz aus, und klicken Sie auf die Pfeile nach oben oder unten.
 
     > [!IMPORTANT]
     > Die Reihenfolge, in der PSTN-Verwendungseinträge in der Trunkkonfiguration aufgeführt werden, ist relevant. Skype for Business Server durchläuft die Liste von oben nach unten.
 
 10. **RTP-Verriegelung aktivieren** sollte ausgewählt sein, um die Medienumgehung für Clients hinter einer Netzwerkadressenübersetzung (NAT) oder Firewall und einen SBC, der Verriegelung unterstützt, zu aktivieren.
 
-11. **Die Option "Anrufverlauf weiterleiten"** sollte aktiviert sein, um das Senden von Anrufverlaufsinformationen an den Gateway-Peer des Vermittlungsservers zu aktivieren.
+11. **Der Anrufverlauf aktivieren** sollte ausgewählt sein, um das Senden von Anrufverlaufsinformationen an den Gateway-Peer des Vermittlungsservers zu ermöglichen.
 
-12. **Die Weiterleitung von P-Asserted-Identity-Daten** sollte aktiviert werden, um die Weiterleitung von Informationen zum Ermittler von PAI zwischen dem Vermittlungsserver und gatewayseitig (und umgekehrt) zu ermöglichen, wenn vorhanden.
+12. **Aktivieren Sie die Weiterleitung von P-Asserted-Identity-Daten,** damit pai-Anruferinformationen zwischen dem Vermittlungsserver und der Gatewayseite (und umgekehrt) weitergeleitet werden können, wenn vorhanden.
 
-13. **Failovertimer für Ausgangsrouting aktivieren** sollte ausgewählt sein, um ein schnelleres Failover zu ermöglichen. Das diesem Trunk zugeordnete Gateway kann innerhalb von 10 Sekunden eine Benachrichtigung senden, dass ein ausgehender Anruf verarbeitet wird. Das erneute Umleitung an einen anderen Trunk erfolgt, wenn diese Benachrichtigung nicht vom Vermittlungsserver empfangen wird. In Netzwerken, in denen Latenz die Reaktionszeit verzögern kann oder das Gateway länger als 10 Sekunden benötigt, um zu antworten, sollte das schnelle Failover deaktiviert werden.
+13. **Failovertimer für Ausgangsrouting aktivieren** sollte ausgewählt sein, um ein schnelleres Failover zu ermöglichen. Das diesem Trunk zugeordnete Gateway kann innerhalb von 10 Sekunden eine Benachrichtigung senden, dass ein ausgehender Anruf verarbeitet wird. Eine Umleitung zu einem anderen Trunk erfolgt, wenn diese Benachrichtigung nicht vom Vermittlungsserver empfangen wird. In Netzwerken, in denen Latenz die Reaktionszeit verzögern kann oder das Gateway länger als 10 Sekunden benötigt, um zu antworten, sollte das schnelle Failover deaktiviert werden.
 
 14. (Optional) Zuordnen und Konfigurieren von **Übersetzungsregeln für die wählende Nummer** für den Trunk. Diese Übersetzungsregeln werden bei ausgehenden Anrufen auf die wählende Nummer angewendet.
 
-    - Klicken Sie auf "Auswählen", um eine oder mehrere Regeln aus einer Liste aller Übersetzungsregeln auszuwählen, die in Ihrer Enterprise-VoIP **verfügbar sind.** Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
+    - Klicken Sie auf Auswählen, um eine oder mehrere Regeln aus einer Liste aller Übersetzungsregeln auszuwählen, die in Ihrer Enterprise-VoIP verfügbar **sind.** Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
 
     - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Weitere Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
@@ -140,7 +140,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 
 15. (Optional) Zuordnen und Konfigurieren von **Übersetzungsregeln für die gewählte Nummer** für den Trunk. Diese Übersetzungsregeln werden bei ausgehenden Anrufen auf die gewählte Nummer angewendet.
 
-    - Klicken Sie auf "Auswählen", um eine oder mehrere Regeln aus einer Liste aller Übersetzungsregeln auszuwählen, die in Ihrer Enterprise-VoIP **verfügbar sind.** Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
+    - Klicken Sie auf Auswählen, um eine oder mehrere Regeln aus einer Liste aller Übersetzungsregeln auszuwählen, die in Ihrer Enterprise-VoIP verfügbar **sind.** Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
 
     - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Weitere Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
@@ -153,21 +153,20 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
       > [!CAUTION]
       > Ordnen Sie einem Trunk keine Übersetzungsregeln zu, wenn Sie Übersetzungsregeln für den zugeordneten Trunkpeer konfiguriert haben, da zwischen den zwei Regeln Konflikte auftreten können.
 
-16. Stellen Sie sicher, dass die Übersetzungsregeln des Trunks in der richtigen Reihenfolge angeordnet sind. Wenn Sie die Position einer Regel in der Liste ändern möchten, markieren Sie den Regelnamen, und klicken Sie dann auf den Pfeil nach oben oder unten.
+16. Stellen Sie sicher, dass die Übersetzungsregeln des Trunks in der richtigen Reihenfolge angeordnet sind. Um die Position einer Regel in der Liste zu ändern, markieren Sie den Regelnamen, und klicken Sie dann auf den Pfeil nach oben oder unten.
 
     > [!IMPORTANT]
-    > Skype for Business Server durchläuft die Übersetzungsregelliste von oben nach unten und verwendet die erste Regel, die der gewählten Nummer entspricht. Wenn Sie einen Trunk so konfigurieren, dass eine gewählte Nummer mit mehr als einer Übersetzungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. Wenn Sie beispielsweise eine Übersetzungsregel mit einer beliebigen elfstelligen Nummer und eine Übersetzungsregel eingeschlossen haben, die nur mit 11-stelligen Nummern, die mit  +1425 beginnen, entspricht, stellen Sie sicher, dass die Regel, die einer beliebigen elfstelligen Nummer entspricht, unterhalb der restriktiveren Regel sortiert ist.
+    > Skype for Business Server durchläuft die Übersetzungsregelliste von oben nach unten und verwendet die erste Regel, die der gewählten Nummer entspricht. Wenn Sie einen Trunk so konfigurieren, dass eine gewählte Nummer mit mehr als einer Übersetzungsregel übereinstimmen kann, müssen Sie sicherstellen, dass die einschränkenderen Regeln über den weniger einschränkenden Regeln angeordnet sind. Wenn Sie beispielsweise eine Übersetzungsregel mit einer beliebigen 11-stelligen Zahl und eine Übersetzungsregel enthalten haben, die nur 11-stelligen Zahlen entspricht,  die mit +1425 beginnen, stellen Sie sicher, dass die Regel, die einer elfstelligen Zahl entspricht, unterhalb der restriktiveren Regel sortiert ist.
 
 17. Nachdem Sie die Trunkkonfiguration abgeschlossen haben, klicken Sie auf **OK**.
 
 18. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit**, und klicken Sie anschließend auf **Commit für alle**.
 
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [Veröffentlichen ausstehender Änderungen an der Voiceroutingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie [unter Veröffentlichen ausstehender Änderungen an der Voiceroutingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md)
 
-[Definieren von Übersetzungsregeln](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
-
+[Definieren von Übersetzungsregeln](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

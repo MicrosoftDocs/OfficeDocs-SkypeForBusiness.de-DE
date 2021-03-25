@@ -23,17 +23,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in Thailand, einschließlich Verfügbarkeit, kabelgebundener/Festnetzanschluss und Verfügbarkeit von Mobilnetzen sowie Einschränkungen.
-ms.openlocfilehash: 58ddc7ad1004972e932ac5c3a998ef7461782834
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Thailand, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-/Festnetz- und Mobilfunknetzen und Einschränkungen.
+ms.openlocfilehash: 8fc33d740762e8b94948c9a7ad596d5fa11fd479
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139774"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116593"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>Einschränkungen für gebührenfreie Telefonnummern in Thailand
 
-[Suchen Sie nach einem anderen Land oder einer anderen Region](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und-Einschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
 
 
 |**Details**|**Beschreibung**|
@@ -51,7 +51,6 @@ ms.locfileid: "43139774"
 
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

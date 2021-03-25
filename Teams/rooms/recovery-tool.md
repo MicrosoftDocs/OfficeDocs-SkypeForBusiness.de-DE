@@ -12,41 +12,41 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit denen Sie ein veraltetes System in einen unterstützten Zustand bringen.
-ms.openlocfilehash: 47e9bed4377a111a1c1284684bbc40517dbb42d8
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+description: In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams Rooms verwenden, mit dem Sie ein veraltetes System in einen unterstützten Zustand bringen.
+ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021723"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117493"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
 
-In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit denen Sie ein veraltetes System in einen unterstützten Zustand bringen. Dieses Tool sollte angewendet werden, wenn die Microsoft Teams rooms-Konsole einen Fehler vom Typ "Systemkonfiguration veraltet" oder vor dem Durchführen einer [Wiederherstellung](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)des Zurücksetzens einer Drucktaste zeigt.
+In diesem Artikel wird erläutert, wie Sie das Wiederherstellungstool für Microsoft Teams Rooms verwenden, mit dem Sie ein veraltetes System in einen unterstützten Zustand bringen. Dieses Tool sollte angewendet werden, wenn entweder auf der Microsoft Teams Rooms-Konsole ein Fehler "Systemkonfiguration veraltet" angezeigt wird, oder wenn vor dem Zurücksetzen der Pushschaltfläche die Factorywiederherstellung [ausgeführt wird.](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Laden Sie das neueste [Microsoft Teams rooms-Installationspaket](https://go.microsoft.com/fwlink/?linkid=851168) herunter, und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf die das Microsoft Teams rooms-Gerät zugreifen kann.
+Laden Sie das neueste [Microsoft Teams Rooms-Installationspaket](https://go.microsoft.com/fwlink/?linkid=851168) herunter, und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf den das Microsoft Teams Rooms-Gerät zugreifen kann.
 
 > [!NOTE]
-> Das Extrahieren der Dateien aus der MSI-Datei kann mit vielen Mitteln erfolgen. Jeder Mechanismus, der alle Dateien extrahiert und die Verzeichnisstruktur erhält, ist akzeptabel. Eine Möglichkeit besteht darin, den Befehl zu `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` verwenden `PathToMsi` , der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket darstellt, und `PathToTarget` stellt den vollständigen Pfad zu dem Ordner dar, in den die Dateien extrahiert werden sollen.
+> Das Extrahieren der Dateien aus dem MSI kann auf viele Verschiedenes durchgeführt werden. Alle Mechanismen, die alle Dateien extrahieren und deren Verzeichnisstruktur beibehalten, sind akzeptabel. Eine solche Möglichkeit besteht in der Verwendung des Befehls, der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket darstellt, und stellt den vollständigen Pfad zu dem Ordner dar, in den die Dateien `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` extrahiert werden `PathToTarget` sollen.
 
 ## <a name="running-the-tool"></a>Ausführen des Tools
 
-1) Registrieren Sie sich auf Ihrem Microsoft Teams rooms-Gerät beim Administratorkonto, und starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
-2) Überprüfen Sie im Microsoft Teams rooms-Gerät, auf das Sie zugreifen können `RecoveryTool.ps1 file` , das in den Dateien enthalten ist, die aus dem Installationspaket für Microsoft Teams rooms extrahiert wurden. Das Kit befindet sich auf der Netzwerkfreigabe oder dem USB-Laufwerk, das bei der Vorbereitung von Voraussetzungen verwendet wird.
-3) Ausführen `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` .
-4) So führen Sie eine Factory-Wiederherstellung aus:
-   1. Wenn Sie vom Skript dazu aufgefordert werden, wählen Sie Option 2: **Zurücksetzen**aus.
-   2. Wenn BitLocker aktiviert ist, folgen Sie den Anweisungen am Ende der Skriptausgabe, um Sie zu deaktivieren.
-   3. Durchführen der Factory-Wiederherstellung
-      1. Öffnen Sie die app " **Einstellungen** ", und wählen Sie **& Sicherheit aktualisieren** aus.
-      2. Navigieren Sie zur Registerkarte **Wiederherstellen** .
-      3. Wählen Sie unter **diesen PC zurücksetzen die**Option **Erste Schritte** aus.
-      4. Wählen Sie **alles entfernen**und dann **weiter** und **Zurücksetzen** aus.
+1) Melden Sie sich auf Ihrem Microsoft Teams Rooms-Gerät beim Administratorkonto an, und starten Sie eine Eingabeaufforderung mit erhöhten Eingabeaufforderungen.
+2) Überprüfen Sie auf dem Microsoft Teams Rooms-Gerät, ob Sie auf das zugreifen können, das in den Dateien enthalten ist, die aus dem Microsoft Teams Rooms-Installationspaket `RecoveryTool.ps1 file` extrahiert wurden. Das Kit kann auf der Netzwerkfreigabe oder dem USB-Laufwerk gefunden werden, das zum Vorbereiten von Voraussetzungen verwendet wird.
+3) Führen Sie `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` aus.
+4) So führen Sie eine Werkswiederherstellung aus:
+   1. Wenn Sie vom Skript aufgefordert werden, wählen Sie Option 2: **Zurücksetzen aus.**
+   2. Wenn BitLocker aktiviert ist, folgen Sie den Anweisungen am Ende der Skriptausgabe, um sie zu deaktivieren.
+   3. Führen Sie die Werkswiederherstellung aus.
+      1. Öffnen Sie die **App** "Einstellungen", und wählen **Sie & Sicherheit aktualisieren aus.**
+      2. Navigieren Sie zur **Registerkarte Wiederherstellung.**
+      3. Wählen **Sie unter Diesen PC zurücksetzen** die Option Erste Schritte **aus.**
+      4. Wählen **Sie Alles entfernen** und dann **Weiter** und **Zurücksetzen aus.**
         > [!WARNING]
-        > Das Gerät "Microsoft Teams Rooms" kann unbrauchbar werden, wenn die Option " **meine Dateien beibehalten-apps und Einstellungen entfernt, aber Ihre persönlichen Dateien** beibehalten" während des Windows-Reset-Vorgangs aktiviert ist. Wählen Sie diese Option nicht aus.
-      5. Das System wird mehrmals neu gestartet. Wenn der Reset abgeschlossen ist, befindet sich das System auf dem Windows-Bildschirm "Out-of-Box-Experience" (OOBE).
+        > Das Microsoft Teams Rooms-Gerät kann unbrauchbar werden, wenn die Option Meine Dateien behalten – Apps und Einstellungen **entfernt,** aber Ihre persönlichen Dateien während des Windows-Reset-Vorgangs aktiviert bleibt. Wählen Sie diese Option nicht aus.
+      5. Das System wird mehrmals neu gestartet. Nach Abschluss des Zurücksetzens befindet sich das System auf dem Windows-Bildschirm "out-of-box experience" (OOBE).
 
 
 

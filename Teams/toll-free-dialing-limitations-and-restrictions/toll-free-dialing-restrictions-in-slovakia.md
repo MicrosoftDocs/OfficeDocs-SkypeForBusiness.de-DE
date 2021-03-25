@@ -23,17 +23,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in der Slowakei, einschließlich Verfügbarkeit, Verfügbarkeit von Festnetz-und Mobilfunknetz sowie Einschränkungen.
-ms.openlocfilehash: 19e7f5578641c2c0b730bdc3195870a38066e118
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Erfahren Sie mehr über das Wählen gebührenfreier Telefonnummern in der Slowakei, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-/Festnetz- und Mobilfunknetzen und Einschränkungen.
+ms.openlocfilehash: 446c36fdb66fc08292ad8dfa94f4f708d0def087
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139804"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116633"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Einschränkungen für gebührenfreie Telefonnummern in der Slowakei
 
-[Suchen Sie nach einem anderen Land oder einer anderen Region](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und-Einschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
 
 
 |**Details**|**Beschreibung**|
@@ -51,7 +51,6 @@ ms.locfileid: "43139804"
 
 [Einschränkungen für das Wählen von gebührenfreien Telefonnummern](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
   
- 

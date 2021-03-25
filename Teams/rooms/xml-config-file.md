@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Remoteverwaltung der von einem Microsoft Teams Rooms-Gerät verwendeten Standardeinstellungen, einschließlich anwenden eines benutzerdefinierten Designs und Erstellen einer Mastereinstellungsdatei.
-ms.openlocfilehash: a1634e34242a54bb93e3f61da6afd97ec35ec14e
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ecac38b0261dbf9b6c27b1b636df31ecc9b3afd7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875115"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117323"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams Rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -163,7 +163,7 @@ Wenn eine Microsoft Teams Rooms-Konsole beim Start eine XML-Datei mit dem Namen 
 Je nachdem, über wie viele Microsoft Teams Rooms-Geräte Ihr Unternehmen verfügt und wie Sie sie verwalten möchten, gibt es mehrere Möglichkeiten, die XML-Konfigurationsdatei zu platzieren. Sobald die Datei  in die Konsole verschoben wurde, starten Sie das Gerät, um die Konfigurationsänderungen zu verarbeiten. Die XML-Datei wird nach erfolgreicher Verarbeitung entfernt. Die für Microsoft Teams Rooms-Geräte vorgeschlagenen Verwaltungsmethoden finden Sie unter:
   
 - [Konfigurieren von Gruppenrichtlinien für Microsoft Teams Rooms](rooms-operations.md#GroupPolicy)
-- [Remoteverwaltung mit PowerShell](rooms-operations.md#RemotePS) und [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [Remoteverwaltung mit PowerShell](rooms-operations.md#RemotePS) und [Konfigurieren eines Dateielements](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 Sie können jede beliebige Methode verwenden, solange Sie sie zum Übertragen von Dateien und zum Auslösen eines Neustarts auf dem Konsolengerät verwenden können. Die Datei muss vom lokalen Benutzerkonto des Geräts lesbar, schreibbar und löschbar sein. Vorzugsweise befindet sie sich im Besitz und verfügt über vollständige Berechtigungen, die diesem Benutzer gewährt werden. Wenn die Dateiberechtigungen nicht ordnungsgemäß festgelegt sind, kann die Software die Einstellungen nicht anwenden, die Datei bei erfolgreicher Verarbeitung nicht löschen und sogar potenziell abstürzen.
   
@@ -189,10 +189,10 @@ So suchen Sie den Instanzpfad:
 6. Wählen Sie **die Registerkarte Details** aus, und suchen Sie die Eigenschaft **Geräteinstanzpfad** in der Dropdownliste.
 7. Der angezeigte Wert ist der Geräteinstanzpfad, der in der XML-Konfigurationsdatei festgelegt werden soll. Ersetzen Sie beim Angeben des Pfads in XML das kaufmännische Und (&) durch `&amp;` .
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [Inhalts-Kameras](content-camera.md)
 
 [Microsoft Teams-Räume verwalten](rooms-manage.md)
 
-[Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+[Konfigurieren eines Dateielements](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))

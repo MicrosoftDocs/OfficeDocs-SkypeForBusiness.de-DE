@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcdae04ce87db82bd5f18e818dcf194fc7ff38c7
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: a6fa7d46a4ace2e6bc12289f9abe71362511d24c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615041"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117083"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Team-Adressierungshierarchie
 
@@ -74,7 +74,7 @@ In der folgenden Hierarchie können Rückruf, Kommunikation und Personalwesen z.
 ## <a name="create-your-hierarchy"></a>Erstellen Ihrer Hierarchie
 
 > [!NOTE]
-> Im restlichen Artikel wird das Einrichten einer Teamhierarchie im Kontext der Veröffentlichung von Aufgaben für Empfängerteams erläutert. Eine [Übersicht über die Aufgaben-App, in](https://docs.microsoft.com/MicrosoftTeams/manage-tasks-app) der die Aufgabenveröffentlichung angezeigt wird, wenn aktiviert wird, finden Sie unter Verwalten der Aufgaben-App für Ihre Organisation in Teams.
+> Im restlichen Artikel wird das Einrichten einer Teamhierarchie im Kontext der Veröffentlichung von Aufgaben für Empfängerteams erläutert. Eine [Übersicht über die Aufgaben-App, in](./manage-tasks-app.md) der die Aufgabenveröffentlichung angezeigt wird, wenn aktiviert wird, finden Sie unter Verwalten der Aufgaben-App für Ihre Organisation in Teams.
 
 Das Schema, das Ihre Hierarchie definiert, basiert auf einer CSV-Datei (Durch Kommas getrennte Werte). Jede Zeile in der CSV-Datei entspricht einem Knoten innerhalb der Hierarchie von Teams. Jede Zeile enthält Informationen, die den Knoten innerhalb der Hierarchie nennen, ihn optional mit einem Team verknüpft und Attribute enthält, mit deren Hilfe Teams in Apps gefiltert werden können, die sie unterstützen.
 

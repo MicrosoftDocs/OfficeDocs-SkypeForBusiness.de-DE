@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl- oder Audiokonferenzen für Personen in Ihrem Unternehmen einrichten, die telefonisch an Konferenzanrufen teilnehmen müssen. '
-ms.openlocfilehash: d1596a650507938e8dc3e87fb02dec68e415f6d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: ba022bd8af5a8b1eb2e445e6034b4d318dec72b5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031421"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117143"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
 In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Microsoft Teams bietet genau für solche Situationen das Audiokonferenz-Feature! Personen können sich in Teams-Besprechungen mit einem Telefon einwählen, anstatt die Microsoft Teams-App auf einem mobilen Gerät oder einem PC zu verwenden. 
   
-Sie müssen Audiokonferenzen nur für Personen einrichten, die Besprechungen planen oder leiten möchten. Besprechungsteilnehmer, die sich einwählen, benötigen keine ihnen zugewiesenen Lizenzen oder andere Einstellungen.
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
 Häufig gestellte Fragen zu Audiokonferenzen finden Sie unter [Häufig gestellte Fragen zu Audiokonferenzen](audio-conferencing-common-questions.md).
 
@@ -48,7 +48,7 @@ Gehen Sie auf [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anr
  
 ## <a name="step-2-get-and-assign-licenses"></a>Schritt 2: Abrufen und Zuweisen von Lizenzen
  
-1. Für Audiokonferenzen benötigen Sie eine Lizenz für jeden Benutzer, der Einwahlbesprechungen einrichtet. Informationen dazu, welche Lizenzen Sie für Audiokonferenzen erwerben müssen und was diese kosten, erhalten Sie unter [Add-On-Lizenzierung für Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+1. Für Audiokonferenzen benötigen Sie eine Lizenz für jeden Benutzer, der Einwahlbesprechungen einrichtet. Informationen dazu, welche Lizenzen Sie für Audiokonferenzen erwerben müssen und was diese kosten, erhalten Sie unter [Add-On-Lizenzierung für Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
     >[!NOTE] 
     > Audiokonferenzen sind in Office 365 Enterprise E5-Lizenzen und als Add-On enthalten.
@@ -65,7 +65,7 @@ Gehen Sie auf [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anr
 
 Für Audiokonferenzen können Sie keine Benutzertelefonnummern verwenden; Sie müssen Servicenummern anfordern. Sie können für Ihre Konferenzbrücken gebührenpflichtige oder gebührenfreie Servicenummern abrufen. Es gibt drei Möglichkeiten, gebührenpflichtige und gebührenfreie Servicenummern zu erhalten: 
   
-- **Über das Microsoft Teams Admin Center**. Für einige Länder/Regionen können Sie Servicenummern für Ihre Konferenzbrücken über das Microsoft Teams Admin Center erhalten. Siehe [Abrufen von Servicetelefonnummern](/microsoftteams/getting-service-phone-numbers).
+- **Über das Microsoft Teams Admin Center**. Für einige Länder/Regionen können Sie Servicenummern für Ihre Konferenzbrücken über das Microsoft Teams Admin Center erhalten. Siehe [Abrufen von Servicetelefonnummern](./getting-service-phone-numbers.md).
     
 - **Portieren von bestehenden Servicenummern**. Portieren oder übertragen Sie vorhandene Telefonnummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber zu Microsoft 365 oder Office 365. Über [Übertragen von Telefonnummern zu Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder [Rufnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) erhalten Sie weitere hilfreiche Informationen.  
   

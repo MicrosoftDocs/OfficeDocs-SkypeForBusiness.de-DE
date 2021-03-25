@@ -19,32 +19,32 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: 09d372f6526d14a65e878271a1b277fc19d7d3e4
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 831c1e7168bcffc72acb8ef1573167fe63ff44f5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201169"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106471"
 ---
 # <a name="pstn-usage-report"></a>Bericht "PSTN-Verbrauch"
 
 Im neuen Bereich **Berichte** im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht **PSTN-Verwendungsdetails in Skype for Business** die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
   
-Weitere verfügbare Berichte finden Sie in der [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) .
+Weitere verfügbare [Berichte finden](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) Sie in der Übersicht Berichte.
   
-Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten Informationen zu Aktivitäten, einschließlich der Anruf Nutzung in Ihrer Organisation. Diese Informationen sind sehr hilfreich, wenn Sie untersuchen, planen und andere geschäftliche Entscheidungen für Ihre Organisation treffen und [Kommunikationsguthaben](/microsoftteams/what-are-communications-credits)einrichten.
+Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten Details zu Aktivitäten, einschließlich Anrufnutzung in ihrer gesamten Organisation. Diese Details sind sehr hilfreich beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation und beim Einrichten von [Guthaben für Kommunikationen.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
+> Sie können alle Skype for Business-Berichte anzeigen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Abrufen des Berichts zu den PSTN-Verbrauchsdetails in Skype for Business
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-- Wechseln Sie zum Admin Center > **Admin**Centers im  >  **Skype for Business Admin Center**werden die  >  **Reports**  >  **PSTN-Nutzungsdetails**gemeldet.
+- Wechseln Sie zum Admin Center > **Admin Center** Skype for Business  >  **Admin Center** Meldet  >    >  **PSTN-Nutzungsdetails.**
     
     > [!NOTE]
-    > Je nach dem von Ihnen verwendeten Microsoft 365-oder Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die hier angezeigt werden.
+    > Je nach Ihrem Microsoft 365- oder Office 365-Abonnement werden möglicherweise nicht alle hier angezeigten Produkte und Berichte angezeigt.
   
 ## <a name="interpret-the-skype-for-business-pstn-usage-report"></a>Interpretieren des Berichts zur Skype for Business PSTN-Verwendung
 
@@ -52,11 +52,11 @@ Sie können die Skype for Business PSTN-Verwendung des Benutzers anzeigen, indem
   
 Der Bericht sieht wie folgt aus:
   
-[![Skype for Business-PSTN-Nutzungsbericht ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![Skype for Business PSTN-Nutzungsbericht ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt die gesamte PSTN-Verwendung pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie ihre PSTN-Verwendung. Sie können Spalten zur Tabelle hinzufügen bzw. daraus entfernen.
-*    **Anruf-ID** ist die ID für einen Anruf. Hierbei handelt es sich um einen Bezeichner für den Anruf, der beim Aufrufen des Microsoft-Dienst Supports verwendet wird.
+*    **Anruf-ID** ist die ID für einen Anruf. Es ist ein Bezeichner für den Anruf, der beim Aufrufen des Microsoft-Dienstsupports verwendet wird.
 *    **Benutzer-ID** ist der Anmeldename des Benutzers.
 *    **Rufnummer** ist die Skype for Business-Rufnummer, unter der ein eingehender Anruf empfangen wurde, oder die Nummer, die für einen ausgehenden Anruf gewählt wurde.
 *    **Benutzerstandort** ist das Land/die Region, in dem bzw. der sich der Benutzer befindet.   
@@ -71,18 +71,18 @@ Der Bericht sieht wie folgt aus:
      *    **user_out_forwarding** (Der Benutzer hat den Anruf an eine PSTN-Nummer weitergeleitet.)
 
      **Audiokonferenz-Anruftypen**
-     *    **conf_in** (ein eingehender Anruf an die Audiokonferenz-Brücke) Für Datensätze dieses Anruf Typs entspricht der Benutzer, der in der Spalte " **Benutzer-ID** " angegeben ist, dem Organisator der Besprechung.
-     *    **conf_out** (ein ausgehender Anruf von der Audiokonferenz-Brücke, in der Regel eine PSTN-Nummer zur Konferenz hinzugefügt). Für Datensätze dieses Anruf Typs entspricht der Benutzer, der in der Spalte " **Benutzer-ID** " angegeben ist, dem Organisator der Besprechung.
+     *    **conf_in** (ein eingehender Anruf an die Audiokonferenzbrücke). Bei Datensätzen dieses Anruftyps entspricht der in der Spalte **Benutzer-ID** angegebene Benutzer dem Organisator der Besprechung.
+     *    **conf_out** (ein ausgehender Anruf von der Audiokonferenzbrücke, in der Regel zum Hinzufügen einer PSTN-Nummer zur Konferenz). Bei Datensätzen dieses Anruftyps entspricht der in der Spalte **Benutzer-ID** angegebene Benutzer dem Organisator der Besprechung.
 
      **Unified Communication Applications (UCAP)** 
-     *    **ucap_in** (ein eingehender PSTN-Anruf an die UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange) 
-     *    **ucap_out** (ein ausgehender PSTN-Anruf von der UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange)
+     *    **ucap_in** (ein eingehender PSTN-Anruf bei der UC-Anwendung, z. B. automatische Telefonkonferenz oder Anrufwarteschlange) 
+     *    **ucap_out** (ein ausgehender PSTN-Anruf aus der UC-Anwendung, z. B. automatische Telefonkonferenz oder Anrufwarteschlange)
          > [!NOTE]
-         > Anrufe, die von der UC-Anwendung an einen Benutzer übertragen wurden, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange, werden im PSTN-Nutzungsbericht nicht angezeigt, da diese Anruf Beine Peer-to-Peer-Audioanrufe (P2P) sind. Sie können im Skype for Business Admin Center unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe zugreifen und nach Benutzer Name oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder Ursprungs gestensteuerunghttp://Office.Microsoft.com/de-de/fx102821959.aspx (Rufnummernanzeige) korreliert. 
+         > Anrufe, die aus der UC-Anwendung an einen Benutzer übertragen wurden, z. B. eine automatische Telefonkonferenz oder Anrufwarteschlange, werden nicht im PstN-Nutzungsbericht angezeigt, da es sich bei diesen Anrufbeinen um P2P-Audioanrufe (Peer-to-Peer)-Audioanrufe handelt. Sie können im Skype for Business Admin Center unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe zugreifen und nach Benutzername oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder Ursprung der CLID (Anrufleitungs-ID) korreliert. 
 
      **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.    
 *    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).    
-*    **Nummerntyp** ist der Typ der Telefonnummer, die von der Telefonnummer eines Benutzers, einem Dienst oder einer gebührenfreien Nummer ist.  
+*    **Der Nummerntyp** ist der Typ der Telefonnummer, die von der Telefonnummer eines Benutzers, einem Dienst oder einer gebührenfreien Rufnummer abhing.  
 *    **Startzeit (UTC)** ist die Uhrzeit, zu der der Anruf gestartet bzw. getätigt wurde.    
 *    **Dauer** gibt an, wie lange der Anruf verbunden war.  
 *    **ConfID** (Konferenzkennung) ist die Konferenzkennung der Audiokonferenz. 
@@ -92,62 +92,62 @@ Der Bericht sieht wie folgt aus:
      *    **MCOPSTNPP**: Guthaben für Kommunikationen <br/> **MCOPSTN1**: Plan für Inlandsanrufe (US-Plan mit 3.000 Min./EU-Plan mit 1.200 Min.) 
      *    **MCOPSTN2**: Plan für Auslandsanrufe 
      *    **MCOPSTN5**: Plan für Inlandsanrufe (Anrufplan mit 120 Min.) 
-     *    **MCOPSTN6** -Domestic Calling Plan (240 min Calling Plan) Hinweis: beschränkte Verfügbarkeit
+     *    **MCOPSTN6** – Plan für Inlandsrufe (240 Minuten Anrufplan) Hinweis: Eingeschränkte Verfügbarkeit
      *    **MCOMEETADD**: Audiokonferenz
      *    **MCOMEETACPEA**: Audiokonferenz mit Minutenabrechnung
      
 > [!NOTE]
-> Wenn Sie einen Bericht ausführen möchten, um nur Minuten Anrufe einzuschließen, die nicht in Ihrem Anruf-oder Konferenz Abonnement enthalten sind, Filtern Sie den Bericht mit der Funktion "MCOPSTNPP". Auf diese Weise erhalten Sie eine Aufstellungs Möglichkeit für alle Pay-per-Minute-Anrufe.  Für Pay-per-Minute-Audiokonferenzen Filtern Sie nach "MCOMEETACPEA" anstelle von "MCOPSTNPP".  
+> Wenn Sie einen Bericht ausführen möchten, der nur Anrufe pro Minute enthält, die nicht in Ihrem Anruf- oder Konferenzabonnement enthalten sind, filtern Sie den Bericht mit der Funktion "MCOPSTNPP". Dadurch erhalten Sie eine Itemisierung aller Anrufe per Minutenlohn.  Filtern Sie für Audiokonferenzen pro Minute nach "MCOMEETACPEA" statt nach "MCOPSTNPP".  
 
 > [!NOTE]
-> Möglicherweise werden in einigen Feldern auch "keine Daten" angezeigt. "Keine Daten" bedeutet, dass das Feld nicht auf die Art oder Funktion des Anrufs anwendbar ist. 
+> Möglicherweise wird in einigen Feldern auch "keine Daten" angezeigt. "Keine Daten" bedeutet, dass das Feld nicht auf den Anruftyp oder die -funktion anwendbar ist. 
 
 > [!NOTE]
-> Wenn Sie über einen Telstra-oder Softbank-Anrufplan verfügen, werden im Bericht über die PSTN-Nutzung keine Anruf Detaildatensätze angezeigt. Bitte wenden Sie sich für Ihre Berichterstattung an Telstra oder Softbank. 
+> Wenn Sie über einen Anrufplan für Telstra oder Softbank verfügen, werden im Bericht pstN-Nutzung keine Anrufdetailsesätze dargestellt. Wenden Sie sich für Ihre Berichterstellungsanforderungen an Telstra oder Softbank. 
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie hier, um eine Spalte zu ziehen, um nach **einer bestimmten Spalte zu gruppieren, ziehen Sie die Spaltenüberschrift, und legen** Sie Sie hier ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten gruppiert werden.
+![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie, um eine Spalte nach einer bestimmten Spalte in Die Gruppe An zu ziehen, ziehen Sie die Spaltenüberschrift hier, und legen Sie sie **ab,** wenn Sie eine Ansicht erstellen möchten, die alle Daten in einer oder mehreren Spalten gruppieren soll.
  ***
 
-## <a name="exporting-pstn-usage-report"></a>Exportieren des Berichts zur PSTN-Nutzung
+## <a name="exporting-pstn-usage-report"></a>Exportieren des PstN-Nutzungsberichts
 
-Durch Klicken oder tippen auf die Schaltfläche " **in Excel exportieren** " können Sie den Bericht zur PSTN-Nutzung herunterladen. Sie können Daten bis zu einem Jahr nach dem aktuellen Datum exportieren, es sei denn, landesspezifische Bestimmungen verbieten die Aufbewahrung der Daten für 12 Monate.
+Wenn Sie auf die Schaltfläche **Exportieren nach Excel** klicken oder tippen, können Sie den PstN-Nutzungsbericht herunterladen. Sie können Daten bis zu einem Jahr ab dem aktuellen Datum exportieren, es sei denn, länderspezifische Vorschriften verbieten die Aufbewahrung der Daten für 12 Monate.
 
 Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen.
 
-Der Export Vorgang kann abhängig von der Datenmenge zwischen wenigen Sekunden und einigen Minuten dauern. Wenn der Server den Export abgeschlossen hat, wird eine ZIP-Datei mit dem Namen "**Calls. Export. [ `identifier` ] angezeigt. ZIP**", wobei der Bezeichner eine eindeutige ID für den Export ist, die für die Problembehandlung verwendet werden kann.
+Der Exportvorgang kann je nach Datenmenge einige Sekunden bis mehrere Minuten dauern. Wenn der Server den Export abgeschlossen hat, erhalten Sie eine ZIP-Datei mit dem Namen "**Calls.Export.[ `identifier` ]. zip**", bei dem der Bezeichner eine eindeutige ID für den Export ist, die zur Problembehandlung verwendet werden kann.
 
-Wenn Sie sowohl über Anrufpläne als auch über direktes Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PSTN-Nutzungsberichts Datei hat den Dateinamen "**PSTN. Calls. [ `UTC date` ]. CSV**". Neben PSTN-und Direct-Routing Dateien enthält das Archiv die Datei "**parameters.jsein**" mit dem ausgewählten Export Zeitraum und den ausgewählten Funktionen (sofern vorhanden).
+Wenn Sie über Anrufpläne und Direktes Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die #A0 hat den Dateinamen "**PSTN.calls.[ `UTC date` ]. csv".** Zusätzlich zu PSTN- und Direct Routing-Dateien enthält das Archiv die Datei "**parameters.jsauf**", mit dem ausgewählten Exportzeitbereich und -funktionen (sofern aktiviert).
 
-Die exportierte Datei ist eine CSV-Datei (Comma Separated Values), die mit [RFC 4180](https://tools.ietf.org/html/rfc4180) Standard kompatibel ist. Die Datei kann in Excel oder einem anderen standardkompatiblen Editor geöffnet werden, ohne dass Transformationen erforderlich sind.
+Die exportierte Datei ist eine CSV-Datei (Comma Separated Values), die dem [RFC 4180-Standard](https://tools.ietf.org/html/rfc4180) entspricht. Die Datei kann in Excel oder einem anderen standardkonformen Editor geöffnet werden, ohne dass Transformationen erforderlich sind.
 
-Die erste Zeile der CSV-Datei enthält Spaltennamen.
+Die erste Zeile der CSV enthält Spaltennamen.
 
 ### <a name="fields-in-the-export"></a>Felder im Export
 
-Die exportierte Datei enthält zusätzliche Felder, die im Online Bericht nicht zur Verfügung stehen. Diese können für die Problembehandlung und automatisierte Workflows verwendet werden.
+Die exportierte Datei enthält zusätzliche Felder, die im Onlinebericht nicht verfügbar sind. Diese können für die Problembehandlung und automatisierte Workflows verwendet werden.
 
 > [!div class="has-no-wrap"]  
-> | #  | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
+> | #  | Name | [Datentyp (SQL Server)](/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
 > | :-: | :-: | :-: |:------------------- |
-> | 0 | Verwendungs-Nr | `uniqueidentifier` | Eindeutige Anrufkennung |
-> | 1 | Anruf-ID | `nvarchar(64)` | Anruf-ID. Nicht garantiert eindeutig |
+> | 0 | UsageId | `uniqueidentifier` | Eindeutiger Anrufbezeichner |
+> | 1 | Anruf-ID | `nvarchar(64)` | Anrufbezeichner. Nicht garantiert eindeutig |
 > | 2 | Konferenz-ID | `nvarchar(64)` | ID der Audiokonferenz |
-> | 3 | Speicherort des Benutzers | `nvarchar(2)` | Landesvorwahl des Benutzers, [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-> | 4 | Aad-ObjectID | `uniqueidentifier` | Die ID des Benutzers wird in Azure Active Directory aufgerufen.<br/> Diese und andere Benutzerinformationen werden für bot-Anruftypen (ucap_in, ucap_out) NULL/leer sein. |
-> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (Anmeldename) in Azure Active Directory<br/>Dies ist normalerweise identisch mit der SIP-Adresse des Benutzers und kann mit der e-Mail-Adresse des Benutzers identisch sein. |
-> | 6 | Benutzeranzeige Name | `nvarchar(128)` | Anzeigename des Benutzers |
-> | 7 | Anrufer-ID | `nvarchar(128)` | Die Nummer, die den Anruf für eingehende Anrufe empfangen hat, oder die Nummer, die für ausgehende Anrufe gewählt wurde. [E. 164-](https://en.wikipedia.org/wiki/E.164) Format |
-> | 8 | Anruftyp | `nvarchar(32)` | Ob es sich um einen PSTN-Ausgangs-oder eingehenden Anruf und die Art des Anrufs wie einen Anruf von einem Benutzer oder einer Audiokonferenz gehandelt hat |
-> | 9 | Zahlentyp | `nvarchar(16)` | Art der Telefonnummer des Benutzers, beispielsweise eine gebührenfreie Nummer |
-> | 10 | Domestic/International | `nvarchar(16)` | Ob es sich um einen Inlandsanruf (innerhalb eines Landes oder einer Region) oder um einen internationalen (außerhalb eines Landes oder einer Region) basierend auf dem Standort des Benutzers handelt |
-> | 11 | Ziel gewählt | `nvarchar(64)` | Land oder Region gewählt |
-> | 12 | Ziel Nummer | `nvarchar(32)` | Nummer im [E. 164-](https://en.wikipedia.org/wiki/E.164) Format gewählt |
-> | 13 | Startzeit | `datetimeoffset` | Startzeit des Anrufs (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-> | 14 | Endzeit | `datetimeoffset` | Endzeit des Anrufs (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
-> | 15 | Dauer (Sekunden) | `int` | Wie lange der Anruf verbunden war |
-> | 16 | Verbindungsgebühr | `numeric(16, 2)` | Verbindungsgebühren Preis |
-> | 17 | Kostenlos | `numeric(16, 2)` | Betrag des Guthabens oder der Kosten des Anrufs, der Ihrem Konto belastet wird |
-> | 18 | Währung | `nvarchar(3)` | Art der Währung, die für die Berechnung der Kosten des Anrufs verwendet wird ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 3 | Benutzerspeicherort | `nvarchar(2)` | Ländercode des Benutzers, [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | Aufrufen der Benutzer-ID in Azure Active Directory.<br/> Diese und andere Benutzerinformationen sind für Botanruftypen null/leer (ucap_in, ucap_out) |
+> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (Anmeldename) in Azure Active Directory.<br/>Dies entspricht in der Regel der SIP-Adresse des Benutzers und kann mit der E-Mail-Adresse des Benutzers identisch sein. |
+> | 6 | Anzeigename des Benutzers | `nvarchar(128)` | Anzeigename des Benutzers |
+> | 7 | Anrufer-ID | `nvarchar(128)` | Nummer, die den Anruf für eingehende Anrufe erhalten hat, oder die Nummer, die für ausgehende Anrufe gewählt wurde. [E.164-Format](https://en.wikipedia.org/wiki/E.164) |
+> | 8 | Anruftyp | `nvarchar(32)` | Ob es sich bei dem Anruf um einen ausgehenden oder eingehenden Festnetzanruf und die Art des Anrufs wie einen Anruf eines Benutzers oder eine Audiokonferenz |
+> | 9 | Zahlentyp | `nvarchar(16)` | Telefonnummerntyp des Benutzers, z. B. gebührenfreier Dienst |
+> | 10 | Inland/International | `nvarchar(16)` | Unabhängig davon, ob der Anruf im Inland (innerhalb eines Landes oder einer Region) oder international (außerhalb eines Landes oder einer Region) basierend auf dem Standort des Benutzers war |
+> | 11 | Ziel wählt | `nvarchar(64)` | Land oder Region gewählt |
+> | 12 | Zielnummer | `nvarchar(32)` | Im [E.164-Format gewählte Nummer](https://en.wikipedia.org/wiki/E.164) |
+> | 13 | Startzeit | `datetimeoffset` | Anrufstartzeit (UTC, [ISO 8601)](https://en.wikipedia.org/wiki/ISO_8601) |
+> | 14 | Endzeit | `datetimeoffset` | Anrufendezeit (UTC, [ISO 8601)](https://en.wikipedia.org/wiki/ISO_8601) |
+> | 15 | Dauer Sekunden | `int` | Wie lange der Anruf verbunden war |
+> | 16 | Verbindungsgebühr | `numeric(16, 2)` | Verbindungsgebührenpreis |
+> | 17 | Aufladen | `numeric(16, 2)` | Betrag oder Kosten des Anrufs, der Ihrem Konto in Rechnung gestellt wird |
+> | 18 | Währung | `nvarchar(3)` | Zum Berechnen der Kosten des Anrufs verwendete Währung ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
 > | 19 | Funktion | `nvarchar(32)` | Die für den Anruf verwendete Lizenz |
 
     
@@ -163,14 +163,13 @@ Die exportierte Datei enthält zusätzliche Felder, die im Online Bericht nicht 
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Bericht "Skype for Business-Benutzer blockiert](users-blocked-report.md) " Sie können die Benutzer in Ihrer Organisation sehen, die für das tätigen von PSTN-anrufen gesperrt wurden.
+- [Bericht "Blockierte Skype for Business-Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für pstN-Anrufe gesperrt wurden.
 
-- [Skype for Business-PSTN-Minuten Pools-Bericht](pstn-minute-pools-report.md) Sie können die Anzahl der Minuten anzeigen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
+- [Skype for Business PSTN-Minutenpools](pstn-minute-pools-report.md) melden, dass Sie die Anzahl der Minuten sehen können, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
+- [Skype for Business-Sitzungsdetailssbericht](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
- 

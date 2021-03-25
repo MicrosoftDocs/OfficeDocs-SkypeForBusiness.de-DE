@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Sprachen für die automatische Telefonzentrale für Audiokonferenzen
+title: Festlegen automatischer Telefonkonferenzsprachen für Audiokonferenzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,22 +21,22 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Hier erfahren Sie, wie Sie die Sprachen für die automatische Telefonzentrale für Audiokonferenzen für eine Audiokonferenz-Telefonnummer in Microsoft Teams auswählen.
-ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: Erfahren Sie, wie Sie die Sprachen für automatische Audiokonferenzen für eine Audiokonferenznummer in Microsoft Teams auswählen.
+ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691131"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117183"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Einrichten von automatischen Telefonzentralensprachen für Audiokonferenzen in Microsoft Teams
 
-Die automatische Telefonzentrale für Audiokonferenzen für Microsoft Teams kann Audioanrufer, die an einer Besprechung teilnehmen, in einer Reihe verschiedener Sprachen begrüßen.
+Die automatische Telefonkonferenz für Microsoft Teams kann Audioanrufer in einer Reihe verschiedener Sprachen begrüßen, wenn sie an einer Besprechung teilnehmen.
   
-Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die automatische Telefonzentrale verwendet zuerst die von Ihnen festgelegte primäre Sprache und dann die sekundären Sprachen in der Reihenfolge der Auswahl. 
+Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die von Ihnen festgelegte Primäre Sprache wird zuerst verwendet, und die sekundären Sprachen werden von der automatischen Attendant in der von Ihnen ausgewählten Reihenfolge verwendet. 
   
 > [!NOTE]
->  Sie können nur die Sprachen der Audiokonferenz-Nummern ändern, die der dedizierten Kategorie entsprechen. Die Sprachen der freigegebenen Audiokonferenz-Nummer können nicht geändert werden.
+>  Sie können nur die Sprachen von Audiokonferenznummern ändern, die der Kategorie "Dedizierte" zugeordnet sind. Die Sprachen der Nummer für freigegebene Audiokonferenzen können nicht geändert werden.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -47,29 +47,28 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus. Die a
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).
 
-2. Wählen Sie in der Liste eine **dedizierte** Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**. Es ist nur möglich, die Sprachen für dedizierte Audiokonferenz-Nummern zu ändern. Die Option " **Bearbeiten** " wird nur angezeigt, wenn eine dedizierte Audiokonferenz-Nummer ausgewählt ist.
+2. Wählen Sie **in** der Liste eine Telefonnummer für dedizierte Audiokonferenzen aus, und klicken Sie oben auf der Seite auf **Bearbeiten.** Es ist nur möglich, die Sprachen von Dedizierte Audiokonferenznummern zu ändern. Die **Option** Bearbeiten wird nur angezeigt, wenn eine Dedizierte Audiokonferenznummer ausgewählt ist.
 
-3. Wählen Sie im Bereich auf der rechten Seite die gewünschte Standardsprache und alle alternativen Sprachen aus. 
+3. Wählen Sie im Bereich auf der rechten Seite die Standardsprache und alle anderen Sprachen aus. 
  
     > [!NOTE]
-    > Die Standard-und alternativen Sprachen, die unterstützt werden, werden aufgelistet. Die Reihenfolge, in der Sie Sie in den Listen auswählen, ist die Reihenfolge der für die Anrufer vorgestellten Sprachen. 
+    > Die unterstützten Standardsprachen und alternativen Sprachen werden aufgelistet. Die Reihenfolge, in der Sie sie in den Listen auswählen, ist die Reihenfolge der Sprachen, die Anrufern angezeigt werden. 
 
 4. Klicken Sie auf **Speichern**.
 
     
 ## <a name="want-else-should-i-know"></a>Was sollte ich noch wissen?
 
-- Unter [Unterstützte Sprachen für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages) finden Sie eine Liste der für Audiokonferenzen unterstützten Sprachen.
+- Unter [Unterstützte Sprachen für Audiokonferenzen](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages) finden Sie eine Liste der für Audiokonferenzen unterstützten Sprachen.
     
 - Sprachen können für dedizierte, aber nicht für freigegebene Telefonnummern festgelegt werden.
     
-- Eine Liste der Länder/Regionen, in denen Audiokonferenzen in Microsoft 365 oder Office 365 mit Microsoft als Anbieter verfügbar sind, finden Sie unter [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md).
+- Eine Liste der Länder/Regionen, in denen Audiokonferenzen in Microsoft 365 oder Office 365 mit Microsoft als Anbieter verfügbar sind, finden Sie unter Telefonnummern für [Audiokonferenzen.](phone-numbers-for-audio-conferencing-in-teams.md)
     
 ## <a name="want-to-use-windows-powershell"></a>Wollen Sie Windows PowerShell verwenden?
 
-Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
+Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz.](/powershell/module/teams/?view=teams-ps)
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
-
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

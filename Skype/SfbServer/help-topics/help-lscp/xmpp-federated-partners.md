@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: b1efe40234b30ae2ce220dd34fc74e2153b9da3b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8d0b0e7006adfad26f5c0925991eb064fbb5edee
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810695"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116143"
 ---
 # <a name="xmpp-federated-partners"></a>XMPP-Verbundpartner
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Verwalten von XMPP-Verbundpartnern für Ihre Organisation](https://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+- [Verwalten von XMPP-Verbundpartnern für Ihre Organisation](/previous-versions/office/lync-server-2013/lync-server-2013-manage-xmpp-federated-partners-for-your-organization)
 
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
-
+Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie die Medienumgehung mit dem Direkten Routing für Telefonsystem planen, wodurch Sie den Pfad des Mediendatenverkehrs kürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e21007c31dca540e4f659aad627911b4aec2e456
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460865"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115593"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -70,7 +70,7 @@ Wenn der Benutzer direkten Zugriff auf die öffentliche IP-Adresse des SBC hat, 
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client intern ist und der Client die öffentliche IP-Adresse des SBC (Direct Media) erreichen kann: 
 
-- Die Pfeile und numerischen Werte der Pfade sind mit den [Microsoft Teams-Anrufflüssen in Einklang.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Die Pfeile und numerischen Werte der Pfade sind mit den [Microsoft Teams-Anrufflüssen in Einklang.](./microsoft-teams-online-call-flows.md)
 
 - Die SIP-Signalisierung verwendet immer die Pfade 4 und 4' (abhängig von der Verkehrsrichtung). Medien bleiben lokal und gehen den Pfad 5b ein.
 
@@ -91,7 +91,7 @@ Angenommen, der Benutzer ist extern, und der Mandantenadministrator hat entschie
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client extern ist und der Client die öffentliche IP-Adresse des Session Border Controllers nicht erreichen kann (Medien werden von Teams Transport Relay übertragen).
 
-- Die Pfeile und numerischen Werte der Pfade sind mit den [Microsoft Teams-Anrufflüssen in Einklang.](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Die Pfeile und numerischen Werte der Pfade sind mit den [Microsoft Teams-Anrufflüssen in Einklang.](./microsoft-teams-online-call-flows.md)
 
 - Medien werden über die Pfade 3, 3', 4 und 4'
 
@@ -106,7 +106,7 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert is
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client extern ist und der Client die öffentliche IP-Adresse des SBC (Direct Media) erreichen kann.
 
-- Die Pfeile und numerischen Werte der Pfade sind in Übereinstimmung mit dem [Artikel "Microsoft Teams-Anrufflüsse".](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows)
+- Die Pfeile und numerischen Werte der Pfade sind in Übereinstimmung mit dem [Artikel "Microsoft Teams-Anrufflüsse".](./microsoft-teams-online-call-flows.md)
 
 - Die SIP-Signalisierung verwendet immer die Pfade 3 und 3' (abhängig von der Verkehrsrichtung). Medienflüsse mithilfe von Pfad 2.
 
@@ -174,7 +174,7 @@ Direct Routing wird in den folgenden Microsoft 365- oder Office 365-Umgebungen a
 - Microsoft 365 oder Office 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365 DoD Erfahren Sie mehr über [Office 365-](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) und US-Regierungsumgebungen wie GCC, GCC High und DoD.
+- Office 365 DoD Erfahren Sie mehr über [Office 365-](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) und US-Regierungsumgebungen wie GCC, GCC High und DoD.
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365-, Office 365- und Office 365-GCC-Umgebungen
 
@@ -370,8 +370,6 @@ Die Medienumgehung wird von allen eigenständigen Teams-Desktopclients, Android-
 
 Für alle anderen Endpunkte, die die Medienumgehung nicht unterstützen, konvertieren wir den Anruf in eine Nichtumgehung, auch wenn er als Umgehungsaufruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen des Administrators. Dies umfasst Skype for Business 3PIP-Telefone und Teams-Webclients, die Direkte Routinganrufe unterstützen (WebRTC-basierte Clients, die auf Microsoft Edge, Google Chrome, Mozilla Firefox ausgeführt werden). 
  
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [Konfigurieren der Medienumgehung mit direktem Routing](direct-routing-configure-media-bypass.md)
-
-

@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 2db96a3063ca019a8709d7d50cef5b28aea8f682
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 10c3c782ad824c46cf343ec611bcc70e79bdcd78
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810705"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116153"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP-Verbundpartner: Erstellen eines neuen oder Bearbeiten eines vorhandenen XMPP-Verbundpartners
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Erstellen oder Bearbeiten einer XMPP-Partnerkonfiguration](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [Erstellen oder Bearbeiten einer XMPP-Partnerkonfiguration](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-xmpp-partner-configuration)
 
-- [Tabelle mit Aushandlungseinstellungen für XMPP-Verbundpartner](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [Tabelle "Aushandlungseinstellungen" für XMPP-Verbundpartner](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)
 
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
-
+Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).

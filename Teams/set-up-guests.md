@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie den Gastzugriff in Microsoft Teams als Office 365-Administrator aktivieren bzw. deaktivieren.
-ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 34759e601f5c0cd232bcd6227ff5c7d1fef1d3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884519"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107401"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "50884519"
 > Ab **Februar 2021** wird der Gastzugriff in Microsoft Teams für Neukunden & Bestandskunden, die diese Einstellung nicht konfiguriert haben, standardmäßig aktiviert. Wenn diese Änderung implementiert ist, wird die Gastzugriffsfunktion auf Ihrem Mandanten aktiviert, sofern Sie diese nicht bereits in Microsoft Teams konfiguriert haben. Wenn Sie möchten, dass der Gastzugriff für Ihre Organisation deaktiviert bleibt, müssen Sie sich vergewissern, dass die Einstellung für den Gastzugriff auf **Aus** und nicht auf **Dienststandard** festgelegt ist.
 
 > [!IMPORTANT]
-> Das Aktivieren des Gastzugriffs hängt von den Einstellungen in Azure Active Directory, Microsoft 365, SharePoint und Teams ab. Weitere Informationen finden Sie unter [Zusammenarbeit mit Gästen in einem Team](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team).
+> Das Aktivieren des Gastzugriffs hängt von den Einstellungen in Azure Active Directory, Microsoft 365, SharePoint und Teams ab. Weitere Informationen finden Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team).
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Konfigurieren des Gastzugriffs im Admin Center für Teams
 
@@ -80,8 +80,8 @@ ms.locfileid: "50884519"
 
 ## <a name="see-also"></a>Siehe auch
 
-[Sichere Zusammenarbeit mit Microsoft 365 einrichten](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Sichere Zusammenarbeit mit Microsoft 365 einrichten](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[Blockieren von Gastbenutzern aus einem bestimmten Team](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[Blockieren von Gastbenutzern aus einem bestimmten Team](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)
