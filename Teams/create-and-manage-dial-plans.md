@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie das Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (PSTN-Anrufpläne) verwenden.
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569257"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120807"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -89,7 +89,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan).
     
 - Führen Sie zum Bearbeiten der Einstellungen eines vorhandenen Wählplans aus:
     
@@ -98,7 +98,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan).
     
 - Führen Sie zum Hinzufügen von Benutzern zu einem Wählplan aus:
     
@@ -106,7 +106,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan).
     
 - Führen Sie zum Anzeigen der Einstellungen in einem Wählplan aus:
     
@@ -114,7 +114,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
+    Weitere Beispiele und Parameter finden Sie unter [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
     
 - Führen Sie zum Löschen eines Wählplans aus:
     
@@ -122,7 +122,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
+    Weitere Beispiele und Parameter finden Sie unter [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
     
 - Führen Sie zum Sehen der Einstellungen des effektiven Wählplans aus:
     
@@ -130,7 +130,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan).
     
 - Führen Sie zum Testen der effektiven Einstellungen eines Wählplans aus:
     
@@ -138,7 +138,7 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
+    Weitere Beispiele und Parameter finden Sie unter [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
     
 #### <a name="using-a-powershell-script"></a>Verwenden eines PowerShell-Skripts
 
@@ -220,7 +220,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Was sind Wählpläne?](what-are-dial-plans.md)
-- [Übertragen von Telefonnummern – häufig gestellte Fragen](transferring-phone-numbers-common-questions.md)
+- [Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)
 - [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)

@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e6628467d4300130c39a3bade87919fb064a14f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ae050080814afe12ce2ba791c6b68058d5e4bc58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874705"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120857"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -37,7 +37,7 @@ Microsoft Teams-Apps sind eine Möglichkeit, eine  oder mehrere Funktionen in ei
 
 Apps werden von Benutzern unterstützt und von der IT aus richtlinienpolitischer Sicht verwaltet. Die Berechtigungen und das Risikoprofil einer App werden jedoch in den meisten Prozenten durch die Berechtigungen und Risikoprofile der funktionen definiert, die die App enthält. Daher konzentriert sich dieser Artikel auf Berechtigungen und Überlegungen auf Der Fähigkeitsebene.
 
-Die unten in Großbuchstaben aufgeführten Berechtigungen, z. B. RECEIVE_MESSAGE und REPLYTO_MESSAGE, werden nirgendwo in der [Microsoft Teams-Entwicklerdokumentation](https://aka.ms/teamsdevdocs) oder in den Berechtigungen für Microsoft Graph [angezeigt.](https://developer.microsoft.com/graph/docs/concepts/permissions_reference) Sie sind einfach eine beschreibende Kurzhand für den Zweck dieses Artikels.
+Die unten in Großbuchstaben aufgeführten Berechtigungen, z. B. RECEIVE_MESSAGE und REPLYTO_MESSAGE, werden nirgendwo in der [Microsoft Teams-Entwicklerdokumentation](/microsoftteams/platform/overview) oder in den Berechtigungen für Microsoft Graph [angezeigt.](/graph/permissions-reference) Sie sind einfach eine beschreibende Kurzhand für den Zweck dieses Artikels.
 
 
 | Titel   | Beschreibung    |
@@ -45,7 +45,7 @@ Die unten in Großbuchstaben aufgeführten Berechtigungen, z. B. RECEIVE_MESSAGE
 | ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Verwenden Sie die nachstehenden Tabellen als Leitfaden, um zu verstehen, welche Berechtigungen die von Ihnen untersuchten Apps anfordern.</li></ul> |
 | ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Recherchieren Sie die App oder den Dienst selbst, um zu entscheiden, ob Sie den Zugriff darauf innerhalb Ihrer Organisation zulassen möchten. Bots senden und empfangen beispielsweise Nachrichten von Benutzern und befinden sich – mit Ausnahme von benutzerdefinierten Enterprise-Bots – außerhalb der Compliancegrenze. Daher erfordert jede App, die einen Bot enthält, diese Berechtigungen und verfügt mindestens über dieses Risikoprofil. </li></ul>|
 
-Siehe auch [Anfordern von Geräteberechtigungen für Ihre Registerkarte Microsoft Teams.](https://docs.microsoft.com/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+Siehe auch [Anfordern von Geräteberechtigungen für Ihre Registerkarte Microsoft Teams.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
 ## <a name="global-app-permissions-and-considerations"></a>Berechtigungen und Überlegungen für globale Apps
 
@@ -61,9 +61,9 @@ Keine
 
 - Eine App muss offenlegen, welche Daten sie verwendet und wofür die Daten in ihren Nutzungsbedingungen und Denkrichtlinienlinks verwendet werden.
 
-- [Die ressourcenspezifische Zustimmung](resource-specific-consent.md) bietet eine Reihe von Berechtigungen, die Apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Zustimmungsberechtigungen finden Sie unter [Referenz zu Diagrammberechtigungen.](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)
+- [Die ressourcenspezifische Zustimmung](resource-specific-consent.md) bietet eine Reihe von Berechtigungen, die Apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Zustimmungsberechtigungen finden Sie unter [Referenz zu Diagrammberechtigungen.](/graph/permissions-reference#teams-resource-specific-consent-permissions)
 
-- Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Zustimmungsberechtigungen. Nach der Installation einer App kann die App graph-Berechtigungen über eine Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes zu den Zustimmungserfahrungen für Azure AD-Anwendungen.](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience) Sie können im Azure-Portal API-Berechtigungen und -Zustimmung konfigurieren. Weitere Informationen finden Sie unter [Azure Active Directory-Zustimmungsframework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework).
+- Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Zustimmungsberechtigungen. Nach der Installation einer App kann die App graph-Berechtigungen über eine Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes zu den Zustimmungserfahrungen für Azure AD-Anwendungen.](/azure/active-directory/develop/application-consent-experience) Sie können im Azure-Portal API-Berechtigungen und -Zustimmung konfigurieren. Weitere Informationen finden Sie unter [Azure Active Directory-Zustimmungsframework](/azure/active-directory/develop/consent-framework).
 
 ## <a name="bots-and-messaging-extensions"></a>Bots und Messagingerweiterungen
 

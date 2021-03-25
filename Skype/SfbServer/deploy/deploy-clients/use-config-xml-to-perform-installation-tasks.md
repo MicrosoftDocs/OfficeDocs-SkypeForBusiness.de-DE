@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Zusammenfassung: Informationen zum Verwenden der Config.xml zum Angeben zusätzlicher Installationsanweisungen.'
-ms.openlocfilehash: 1b8aeeb16e061e7816e475f01c9cd9a9146306ee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Verwenden der Config.xml zum Angeben zusätzlicher Installationsanweisungen.'
+ms.openlocfilehash: dbf4c4ba4e652f4b777e0c901fee4ffb0ad68af3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825185"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121139"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Verwenden Config.xml zum Ausführen von Installationsaufgaben in Skype for Business-Clients
 
-**Zusammenfassung:** So verwenden Sie die Config.xml, um zusätzliche Installationsanweisungen anzugeben.
+**Zusammenfassung:** Verwenden der Config.xml zum Angeben zusätzlicher Installationsanweisungen.
 
 Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste Installation, Administratoren können jedoch mit der Datei "Config.xml" zusätzliche, im OAT nicht verfügbare Installationsanweisungen angeben. Die folgenden Anpassungen können nur mithilfe der Datei Config.xml vorgenommen werden:
 
@@ -37,20 +37,20 @@ Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste I
 
 - Hinzufügen oder Entfernen von Sprachen in der Installation
 
-Es wird empfohlen, dass Sie die Config.xml verwenden, um die automatische Installation von Skype for Business zu konfigurieren. 
+Es wird empfohlen, dass Sie die Config.xml verwenden, um die automatische Skype for Business-Installation zu konfigurieren. 
 
-Standardmäßig wird die Config.xml, die im Hauptproduktordner gespeichert ist (z. B. _\product_). WW) leitet Setup an, dieses Produkt zu installieren. Die Datei "Config.xml" im folgenden Ordner installiert beispielsweise Skype for Business:
+Standardmäßig wird die Config.xml, die im Hauptproduktordner gespeichert ist (z. B. _\product_). WW) leitet Setup an, dieses Produkt zu installieren. Beispielsweise installiert die Config.xml datei im folgenden Ordner Skype for Business:
 
 - \\server\share\Skype15\Skype.WW \Config.xml
 
-Die Config.xml elemente, die am häufigsten für die Skype for Business-Installation verwendet werden, sind in der folgenden Tabelle aufgeführt.
+Die Config.xml, die am häufigsten für die Skype for Business-Installation verwendet werden, sind in der folgenden Tabelle aufgeführt.
 
 **Config.xml-Elemente**
 
 
 | **Element**              | **Beschreibung**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Konfiguration  <br/>     | Element der obersten Ebene (erforderlich). Enthält das Product-Attribut, z. B.: Product=Lync (dies funktioniert für Skype for Business-Clients)  <br/>                                                                                                                                                          |
+| Konfiguration  <br/>     | Element auf oberster Ebene (erforderlich). Enthält das Product-Attribut, z. B.: Product=Lync (Dies funktioniert für Skype for Business-Clients)  <br/>                                                                                                                                                          |
 | OptionState  <br/>       | Gibt an, wie bestimmte Produktfeatures während der Installation behandelt werden. Verwenden Sie die folgenden Attribute, um die Installation von Business Connectivity Services zu verhindern, die freigegebene Komponenten enthält, die Outlook stören: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Anzeigen  <br/>           | Die Ebene der Benutzeroberfläche, die dem Benutzer angezeigt wird. Zu den typischen Attributen zählen Folgende: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | Protokollierung  <br/>           | Optionen für den vom Setup ausgeführten Protokollierungstyp. Zu den typischen Attributen zählen Folgende: <br/>  Type ="Off"                                                                                                                                                                                       |
@@ -69,7 +69,7 @@ Das folgende Beispiel zeigt eine Config.xml für eine typische automatische Inst
 </Configuration>
 ```
 
-Ausführliche Informationen zur Verwendung der Config.xml zum Ausführen von Installations- und Wartungsaufgaben für Office finden Sie unter [https://go.microsoft.com/fwlink/p/?linkid=267514](https://go.microsoft.com/fwlink/p/?linkid=267514) .
+Ausführliche Informationen zur Verwendung der Config.xml zum Ausführen von Office-Installations- und Wartungsaufgaben finden Sie unter [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) .
 
 ## <a name="to-customize-the-configxml-file"></a>So passen Sie die Datei "Config.xml" an
 
@@ -77,12 +77,10 @@ Ausführliche Informationen zur Verwendung der Config.xml zum Ausführen von Ins
 
 2. Suchen Sie die Zeilen, die die zu ändernden Elemente enthalten.
 
-3. Ändern Sie den Elementeintrag mit den gewünschten Optionen für eine automatische Installation. Stellen Sie sicher, dass Sie die Kommentartrennzeichen " " \<!--" and "--\> entfernen. Verwenden Sie z. B. die folgende Syntax:
+3. Ändern Sie den Elementeintrag mit den gewünschten Optionen für eine automatische Installation. Stellen Sie sicher, dass Sie die Kommentartrennzeichen " \<!--" and "--\> entfernen. Verwenden Sie z. B. die folgende Syntax:
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />
    </pre>
 
 4. Speichern Sie die Datei Config.xml.
-
-

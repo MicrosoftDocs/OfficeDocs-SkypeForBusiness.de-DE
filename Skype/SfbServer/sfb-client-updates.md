@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Stellt IT-Experten Links zu den neuesten Update Informationen für unbefristete Versionen von Skype for Business 2016-, Skype for Business 2015-und lync 2013-Clients bereit.
-ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Stellt IT-Profis Links zu den neuesten Updateinformationen für unbefristete Versionen von Skype for Business 2016-, Skype for Business 2015- und Lync 2013-Clients zur Verfügung.
+ms.openlocfilehash: aef180d6d816c3efa8c3a193d54a34ed9248b34a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221879"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121573"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Neueste Updates für Versionen von Skype for Business, die Windows Installer (MSI) verwenden
 
-Verwenden Sie die Links auf dieser Seite, um weitere Informationen zu erhalten, und laden Sie die neuesten Updates für die dauerhaften Versionen Skype for Business 2016-, Skype for Business 2015-und lync 2013-Clients herunter.
+Verwenden Sie die Links auf dieser Seite, um weitere Informationen zu den neuesten Updates für die unbefristeten Versionen von Skype for Business 2016-, Skype for Business 2015- und Lync 2013-Clients zu erhalten und herunterzuladen.
 
 > [!NOTE]
-> - Die Informationen in diesem Artikel gelten nur für unbefristete Versionen von Skype for Business, die die Installationstechnologie Windows Installer (MSI) verwenden. Wenn Sie beispielsweise eine Volumenlizenzversion von Skype for Business installiert haben, beispielsweise Skype for Business, die in Office Professional Plus 2016 enthalten ist.
-> - Die Informationen in diesem Artikel gelten nicht für Microsoft 365-oder Office 365-Versionen von Skype for Business, wie etwa Skype for Business, die in Microsoft 365 apps for Enterprise enthalten sind.
-> - Informationen zu den neuesten Updates für mobile Clients finden Sie im App Store für Ihren mobilen Client (iTunes, Google Play oder Microsoft Store), um Details anzuzeigen und Updates zu installieren.
-> - Welche Version von Skype for Business Sie verwenden, erfahren Sie unter [welche Version von Skype for Business habe ich?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
+> - Die Informationen in diesem Artikel gelten nur für unbefristete Versionen von Skype for Business, die die Windows Installer (MSI)-Installationstechnologie verwenden. Wenn Sie beispielsweise eine volumenlizenzierte Version von Skype for Business installiert haben, z. B. Skype for Business, die im Lieferumfang von Office Professional Plus 2016 enthalten ist.
+> - Die Informationen in diesem Artikel gelten nicht für Microsoft 365- oder Office 365-Versionen von Skype for Business, z. B. Skype for Business, die in Microsoft 365 Apps for Enterprise enthalten sind.
+> - Die neuesten mobilen Clientupdates finden Sie im App Store für Ihren mobilen Client (iTunes, Google Play oder Microsoft Store), um Details anzuzeigen und Updates zu installieren.
+> - Informationen zu der von Ihnen verwendeten Version von Skype for Business finden Sie unter Welche Version von [Skype for Business habe ich?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Weitere Informationen zum Installieren von Office-Updates finden Sie unter [Installieren von Office-Updates](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
 
-Skype for Business Kompatibilität mit Microsoft 365 oder Office 365 und ihrer lokalen Umgebung hängt von den Systemanforderungen für Ihre Bereitstellung ab:
+Die Kompatibilität von Skype for Business mit Microsoft 365 oder Office 365 und Ihrer lokalen Umgebung hängt von den Systemanforderungen für Ihre Bereitstellung ab:
 
-- Microsoft 365 und Office 365 arbeiten mit einer beliebigen Version von Skype for Business im Mainstream-Support, die die neueste Version von Skype for Business 2016 enthält. Für frühere Versionen von Skype for Business können nur diejenigen mit erweitertem Support weiterhin mit Microsoft 365 oder Office 365 arbeiten, jedoch mit reduzierter Funktionalität. Weitere Informationen finden Sie unter [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
+- Microsoft 365 und Office 365 arbeiten mit jeder Skype for Business-Version, die im allgemeinen Support enthalten ist, einschließlich der neuesten Version von Skype for Business 2016. Bei früheren Versionen von Skype for Business können nur diejenigen, die über erweiterten Support verfügen, weiterhin mit Microsoft 365 oder Office 365 arbeiten, wenn auch mit eingeschränkter Funktionalität. Weitere Informationen finden Sie unter [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
 
-- Für Skype for Business Server lokalen Bereitstellungen befolgten Sie die Systemanforderungen für Ihre Version von Skype for Business:
+- Befolgen Sie für lokale Skype for Business Server-Bereitstellungen die Systemanforderungen für Ihre Version von Skype for Business:
 
-  - [Anforderungen für Ihre Skype for Business Umgebung](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [Anforderungen für Ihre Skype for Business-Umgebung](./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)
 
-  - [Lync Server 2013 Systemanforderungen](https://technet.microsoft.com/library/jj205115(v=ocs.15).aspx)
+  - [Lync Server 2013-Systemanforderungen](/previous-versions/office/lync-server-2013/lync-server-2013-system-requirements)
 
 ## <a name="skype-for-business-2016-client-updates"></a>Skype for Business 2016-Clientupdates
 - [Neueste Updates für Skype for Business 2016](https://support.microsoft.com/help/3123065/how-to-obtain-the-latest-update-for-skype-for-business-2016)
@@ -54,7 +54,7 @@ Skype for Business Kompatibilität mit Microsoft 365 oder Office 365 und ihrer l
 |Update für Skype for Business 2016 |[KB 4464576](https://support.microsoft.com/kb/4464576) | Juni 2019|
 |Update für Skype for Business 2016 |[KB 4464532](https://support.microsoft.com/kb/4464532) | Mai 2019|
 |Update für Skype for Business 2016 |[KB 4462234](https://support.microsoft.com/kb/4462234/) | April 2019|
-|Update für Skype for Business 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | März 2019|
+|Update für Skype for Business 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | März 2019|
 |Update für Skype for Business 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | Februar 2019|
 |Update für Skype for Business 2016 |[KB 4461586](https://support.microsoft.com/kb/4461586/) | Januar 2019|
 |Update für Skype for Business 2016 |[KB 4461545](https://support.microsoft.com/kb/4461545/) | Dezember 2018|
@@ -94,164 +94,164 @@ Skype for Business Kompatibilität mit Microsoft 365 oder Office 365 und ihrer l
 |Sicherheitsupdate für Skype for Business 2016 |[KB 3085634](https://support.microsoft.com/kb/3085634) | November 2015|
 |Sicherheitsupdate für Skype for Business 2016 |[KB 2910994](https://support.microsoft.com/kb/2910994) | September 2015|
 
-## <a name="skype-for-business-2015-client-updates"></a>Skype for Business 2015 von Clientupdates
+## <a name="skype-for-business-2015-client-updates"></a>Skype for Business 2015-Clientupdates
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|Update für Skype for Business 2015/lync 2013 |[KB 4475519](https://support.microsoft.com/kb/4475519/)| Juli 2019 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4464593](https://support.microsoft.com/kb/4464593/)| Juni 2019 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4464547](https://support.microsoft.com/kb/4464547/)| Mai 2019 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| April 2019 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Januar 2019 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Oktober 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| September 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| August 2018 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013 |[KB 4022225](https://support.microsoft.com/kb/4022225) | Juli 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4022170](https://support.microsoft.com/kb/4022170) | Juni 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4018377](https://support.microsoft.com/kb/4018377) | Mai 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4018334](https://support.microsoft.com/kb/4018334) | April 2018] |
-|Update für Skype for Business 2015/lync 2013 |[KB 4018290](https://support.microsoft.com/kb/4018290) | März 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4011678](https://support.microsoft.com/kb/4011678) | Februar 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4011638](https://support.microsoft.com/kb/4011638) | Januar 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4011284](https://support.microsoft.com/kb/4011284) | Dezember 2017 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4011255](https://support.microsoft.com/kb/4011255) | November 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 4011179](https://support.microsoft.com/kb/4011179) | Oktober 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 4011107](https://support.microsoft.com/kb/4011107) | September 2017 |
-|Lynchelploc-Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3213568](https://support.microsoft.com/kb/3213568) | September 2017 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4011046](https://support.microsoft.com/kb/4011046) | August 2017 |
-|Update für Skype for Business 2015/lync 2013 |[KB 3213574](https://support.microsoft.com/kb/3213574) | Juli 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3191939](https://support.microsoft.com/kb/3191939) | Juni 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3191937](https://support.microsoft.com/kb/3191937) | Juni 2017 |
-|Lynchelploc-Update für Skype for Business 2015/lync 2013 |[KB 3191873](https://support.microsoft.com/kb/3191873) | Mai 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3191876](https://support.microsoft.com/kb/3191876) | Mai 2017 |
-|Lynchelploc-Update für Skype for Business 2015/lync 2013 |[KB 3172492](https://support.microsoft.com/kb/3172492) | April 2017 |
-|Update für Skype for Business 2015/lync 2013 |[KB 3178731](https://support.microsoft.com/kb/3178731) | April 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013 |[KB 3172539](https://support.microsoft.com/kb/3172539) | März 2017 |
-|Update für Skype for Business 2015/lync 2013| [KB 3161988](https://support.microsoft.com/kb/3161988) | Februar 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3141468](https://support.microsoft.com/kb/3141468) | Januar 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3127976](https://support.microsoft.com/kb/3127976) | Dezember 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3127934](https://support.microsoft.com/kb/3127934) | November 2016 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3118348](https://support.microsoft.com/kb/3118348) | Oktober 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3118281](https://support.microsoft.com/kb/3118281) | September 2016 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3115431](https://support.microsoft.com/kb/3115431) | August 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3115261](https://support.microsoft.com/kb/3115261) | Juli 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3115033](https://support.microsoft.com/kb/3115033) | Juni 2016 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | April 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3114831](https://support.microsoft.com/kb/3114831) | März 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3114732](https://support.microsoft.com/kb/3114732) | Februar 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | Januar 2016 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3114351](https://support.microsoft.com/kb/3114351) | Dezember 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3039776](https://support.microsoft.com/kb/KB3039776) | Dezember 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | November 2015 |
-|Update für Skype for Business 2015/lync 2013|[KB 3085581](https://support.microsoft.com/kb/3085581) | Oktober 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | September 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3055014](https://support.microsoft.com/kb/3055014) | August 2015 |
-|Update für Skype for Business 2015/lync 2013|[KB 3054791](https://support.microsoft.com/kb/3054791) | Juni 2015 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4475519](https://support.microsoft.com/kb/4475519/)| Juli 2019 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4464593](https://support.microsoft.com/kb/4464593/)| Juni 2019 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4464547](https://support.microsoft.com/kb/4464547/)| Mai 2019 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| April 2019 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Januar 2019 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Oktober 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| September 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| August 2018 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013 |[KB 4022225](https://support.microsoft.com/kb/4022225) | Juli 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4022170](https://support.microsoft.com/kb/4022170) | Juni 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4018377](https://support.microsoft.com/kb/4018377) | Mai 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4018334](https://support.microsoft.com/kb/4018334) | April 2018] |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4018290](https://support.microsoft.com/kb/4018290) | März 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4011678](https://support.microsoft.com/kb/4011678) | Februar 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4011638](https://support.microsoft.com/kb/4011638) | Januar 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4011284](https://support.microsoft.com/kb/4011284) | Dezember 2017 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4011255](https://support.microsoft.com/kb/4011255) | November 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 4011179](https://support.microsoft.com/kb/4011179) | Oktober 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 4011107](https://support.microsoft.com/kb/4011107) | September 2017 |
+|Lynchelploc-Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3213568](https://support.microsoft.com/kb/3213568) | September 2017 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4011046](https://support.microsoft.com/kb/4011046) | August 2017 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 3213574](https://support.microsoft.com/kb/3213574) | Juli 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3191939](https://support.microsoft.com/kb/3191939) | Juni 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3191937](https://support.microsoft.com/kb/3191937) | Juni 2017 |
+|Lynchelploc-Update für Skype for Business 2015/Lync 2013 |[KB 3191873](https://support.microsoft.com/kb/3191873) | Mai 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3191876](https://support.microsoft.com/kb/3191876) | Mai 2017 |
+|Lynchelploc-Update für Skype for Business 2015/Lync 2013 |[KB 3172492](https://support.microsoft.com/kb/3172492) | April 2017 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 3178731](https://support.microsoft.com/kb/3178731) | April 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013 |[KB 3172539](https://support.microsoft.com/kb/3172539) | März 2017 |
+|Update für Skype for Business 2015/Lync 2013| [KB 3161988](https://support.microsoft.com/kb/3161988) | Februar 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3141468](https://support.microsoft.com/kb/3141468) | Januar 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3127976](https://support.microsoft.com/kb/3127976) | Dezember 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3127934](https://support.microsoft.com/kb/3127934) | November 2016 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3118348](https://support.microsoft.com/kb/3118348) | Oktober 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3118281](https://support.microsoft.com/kb/3118281) | September 2016 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3115431](https://support.microsoft.com/kb/3115431) | August 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3115261](https://support.microsoft.com/kb/3115261) | Juli 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3115033](https://support.microsoft.com/kb/3115033) | Juni 2016 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | April 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3114831](https://support.microsoft.com/kb/3114831) | März 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3114732](https://support.microsoft.com/kb/3114732) | Februar 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | Januar 2016 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3114351](https://support.microsoft.com/kb/3114351) | Dezember 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3039776](https://support.microsoft.com/kb/KB3039776) | Dezember 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | November 2015 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3085581](https://support.microsoft.com/kb/3085581) | Oktober 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | September 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3055014](https://support.microsoft.com/kb/3055014) | August 2015 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3054791](https://support.microsoft.com/kb/3054791) | Juni 2015 |
 
 ### <a name="skype-for-business-on-mac-client-updates"></a>Skype for Business auf Mac-Clientupdates
 
-[Anmerkungen zur aktuellen Version für Skype for Business unter Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
+[Aktuelle Versionshinweise für Skype for Business auf Dem Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac)
 
 * * *
 
-## <a name="lync-2013-client-updates"></a>Lync 2013 von Clientupdates
+## <a name="lync-2013-client-updates"></a>Lync 2013-Clientupdates
 
 Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|Update für Skype for Business 2015/lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| April 2019 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Januar 2019 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Oktober 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| September 2018 |
-|Update für Skype for Business 2015/lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| August 2018 |
-|Sicherheitsupdate für Skype for Business/lync 2013 |[KB 4022225](https://support.microsoft.com/kb/4022225)| Juli 2018 |
-|Update für Skype for Business 2015/lync 2013|[KB 4022170](https://support.microsoft.com/kb/4022170) | Juni 2018 |
-|Update für Skype for Business 2015/lync 2013|[KB 4018377](https://support.microsoft.com/kb/4018377) | Mai 2018 |
-|Update für Skype for Business 2015/lync 2013|[KB 4018334](https://support.microsoft.com/kb/4018334) | April 2018 |
-|Update für Skype for Business 2015/lync 2013|[KB 4018290](https://support.microsoft.com/kb/4018290) | März 2018 |
-|Update für Skype for Business 2015/lync 2013|[KB 4011678](https://support.microsoft.com/kb/4011678) | Februar 2018 |
-|Update für Skype for Business 2015/lync 2013|[KB 4011638](https://support.microsoft.com/kb/4011638) | Januar 2018 |
-|Update für Skype for Business 2015/lync 2013|[KB 4011284](https://support.microsoft.com/kb/4011284) | Dezember 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 4011255](https://support.microsoft.com/kb/4011255) | November 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 4011179](https://support.microsoft.com/kb/4011179) | Oktober 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 4011107](https://support.microsoft.com/kb/4011107) | September 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3213568](https://support.microsoft.com/kb/3213568) | September 2017
-|Update für Skype for Business 2015/lync 2013|[KB 4011046](https://support.microsoft.com/kb/4011046) | August 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3213574](https://support.microsoft.com/kb/3213574) | Juli 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3191939](https://support.microsoft.com/kb/3191939) | Juni 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3191937](https://support.microsoft.com/kb/3191937) | Juni 2017 |
-|Lynchelploc-Update für Skype for Business 2015/lync 2013|[KB 3191873](https://support.microsoft.com/kb/3191873) | Mai 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3191876](https://support.microsoft.com/kb/3191876) | Mai 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3172492](https://support.microsoft.com/kb/3172492) | April 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3178731](https://support.microsoft.com/kb/3178731) | April 2017 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3172539](https://support.microsoft.com/kb/3172539) | März 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3161988](https://support.microsoft.com/kb/3161988) | Februar 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3141468](https://support.microsoft.com/kb/3141468) | Januar 2017 |
-|Update für Skype for Business 2015/lync 2013|[KB 3127976](https://support.microsoft.com/kb/3127976) | Dezember 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3127934](https://support.microsoft.com/kb/3127934) | November 2016 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3118348](https://support.microsoft.com/kb/3118348) | Oktober 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3118281](https://support.microsoft.com/kb/3118281) | September 2016 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3115431](https://support.microsoft.com/kb/3115431) | August 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3115261](https://support.microsoft.com/kb/3115261) | Juli 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3115033](https://support.microsoft.com/kb/3115033) | Juni 2016 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | April 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3114831](https://support.microsoft.com/kb/3114831) | März 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3114732](https://support.microsoft.com/kb/3114732) | Februar 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | Januar 2016 |
-|Update für Skype for Business 2015/lync 2013|[KB 3039776](https://support.microsoft.com/kb/3039776) | Dezember 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3114351](https://support.microsoft.com/kb/3114351) | Dezember 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | November 2015 |
-|Update für Skype for Business 2015/lync 2013|[KB 3085581](https://support.microsoft.com/kb/3085581) | Oktober 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | September 2015 |
-|Update für Skype for Business 2015/lync 2013|[KB 3054791](https://support.microsoft.com/kb/3054791) | Juni 2015 |
-|Sicherheitsupdate für Skype for Business 2015/lync 2013|[KB 3039779](https://support.microsoft.com/kb/3039779) | Mai 2015 |
-|Update für Skype for Business 2015/lync 2013 | [KB 2889923](https://support.microsoft.com/kb/2889923) <br> [KB 2889853](https://support.microsoft.com/kb/2889853) | April 2015  |
-|Update für lync 2013 | [KB 2956174](https://support.microsoft.com/kb/2956174) | März 2015 |
-|Update für lync 2013 | [KB 2920744](https://support.microsoft.com/kb/2920744) | Februar 2015 |
-|Update für lync 2013 | [KB 2899507](https://support.microsoft.com/kb/2899507) | November 2014 |
-|Update für lync 2013 | [KB 2889929](https://support.microsoft.com/kb/2889929) | Oktober 2014 |
-|Update für lync 2013 | [KB 2889860](https://support.microsoft.com/kb/2889860) | September 2014 |
-|Update für lync 2013 | [KB 2881083](https://support.microsoft.com/kb/2881083) | August 2014 |
-|Update für lync 2013 | [KB 2881070](https://support.microsoft.com/kb/2881070) | August 2014 |
-|Sicherheits Update für lync 2013 | [KB 2881013](https://support.microsoft.com/kb/2881013) | Juni 2014 |
-|Update für lync 2013 | [KB 2850074](https://support.microsoft.com/kb/2850074) | Juni 2014 |
-|Update für lync 2013 | [KB 2880980](https://support.microsoft.com/kb/2880980) | Mai 2014 |
-|Update für lync 2013 | [KB 2880474](https://support.microsoft.com/kb/2880474) | April 2014  |
-|Update für lync 2013 | [KB 2863908](https://support.microsoft.com/kb/2863908) | März 2014  |
-|Sicherheits Update für lync 2013 | [KB 2850057](https://support.microsoft.com/kb/2850057) | September 2013  |
-|Update für lync 2013 | [KB 2817630](https://support.microsoft.com/kb/2817630) | Dezember 2013  |
-|Update für lync 2013 | [KB 2817465](https://support.microsoft.com/kb/2817465) | Juli 2013  |
-|Update für lync 2013 | [KB 2768004](https://support.microsoft.com/kb/2768004) | Mai 2013  |
-|Update für lync 2013 | [KB 2760556](https://support.microsoft.com/kb/2760556) | März 2013  |
-|Update für lync 2013 | [KB 2812461](https://support.microsoft.com/kb/2812461) | Februar 2013  |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| April 2019 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Januar 2019 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| November 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Oktober 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| September 2018 |
+|Update für Skype for Business 2015/Lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| August 2018 |
+|Sicherheitsupdate für Skype for Business/Lync 2013 |[KB 4022225](https://support.microsoft.com/kb/4022225)| Juli 2018 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4022170](https://support.microsoft.com/kb/4022170) | Juni 2018 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4018377](https://support.microsoft.com/kb/4018377) | Mai 2018 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4018334](https://support.microsoft.com/kb/4018334) | April 2018 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4018290](https://support.microsoft.com/kb/4018290) | März 2018 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4011678](https://support.microsoft.com/kb/4011678) | Februar 2018 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4011638](https://support.microsoft.com/kb/4011638) | Januar 2018 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4011284](https://support.microsoft.com/kb/4011284) | Dezember 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 4011255](https://support.microsoft.com/kb/4011255) | November 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 4011179](https://support.microsoft.com/kb/4011179) | Oktober 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 4011107](https://support.microsoft.com/kb/4011107) | September 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3213568](https://support.microsoft.com/kb/3213568) | September 2017
+|Update für Skype for Business 2015/Lync 2013|[KB 4011046](https://support.microsoft.com/kb/4011046) | August 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3213574](https://support.microsoft.com/kb/3213574) | Juli 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3191939](https://support.microsoft.com/kb/3191939) | Juni 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3191937](https://support.microsoft.com/kb/3191937) | Juni 2017 |
+|Lynchelploc-Update für Skype for Business 2015/Lync 2013|[KB 3191873](https://support.microsoft.com/kb/3191873) | Mai 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3191876](https://support.microsoft.com/kb/3191876) | Mai 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3172492](https://support.microsoft.com/kb/3172492) | April 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3178731](https://support.microsoft.com/kb/3178731) | April 2017 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3172539](https://support.microsoft.com/kb/3172539) | März 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3161988](https://support.microsoft.com/kb/3161988) | Februar 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3141468](https://support.microsoft.com/kb/3141468) | Januar 2017 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3127976](https://support.microsoft.com/kb/3127976) | Dezember 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3127934](https://support.microsoft.com/kb/3127934) | November 2016 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3118348](https://support.microsoft.com/kb/3118348) | Oktober 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3118281](https://support.microsoft.com/kb/3118281) | September 2016 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3115431](https://support.microsoft.com/kb/3115431) | August 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3115261](https://support.microsoft.com/kb/3115261) | Juli 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3115033](https://support.microsoft.com/kb/3115033) | Juni 2016 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3114944](https://support.microsoft.com/kb/3114944) | April 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3114831](https://support.microsoft.com/kb/3114831) | März 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3114732](https://support.microsoft.com/kb/3114732) | Februar 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3114502](https://support.microsoft.com/kb/3114502) | Januar 2016 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3039776](https://support.microsoft.com/kb/3039776) | Dezember 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3114351](https://support.microsoft.com/kb/3114351) | Dezember 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3101496](https://support.microsoft.com/kb/3101496) | November 2015 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3085581](https://support.microsoft.com/kb/3085581) | Oktober 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | September 2015 |
+|Update für Skype for Business 2015/Lync 2013|[KB 3054791](https://support.microsoft.com/kb/3054791) | Juni 2015 |
+|Sicherheitsupdate für Skype for Business 2015/Lync 2013|[KB 3039779](https://support.microsoft.com/kb/3039779) | Mai 2015 |
+|Update für Skype for Business 2015/Lync 2013 | [KB 2889923](https://support.microsoft.com/kb/2889923) <br> [KB 2889853](https://support.microsoft.com/kb/2889853) | April 2015  |
+|Update für Lync 2013 | [KB 2956174](https://support.microsoft.com/kb/2956174) | März 2015 |
+|Update für Lync 2013 | [KB 2920744](https://support.microsoft.com/kb/2920744) | Februar 2015 |
+|Update für Lync 2013 | [KB 2899507](https://support.microsoft.com/kb/2899507) | November 2014 |
+|Update für Lync 2013 | [KB 2889929](https://support.microsoft.com/kb/2889929) | Oktober 2014 |
+|Update für Lync 2013 | [KB 2889860](https://support.microsoft.com/kb/2889860) | September 2014 |
+|Update für Lync 2013 | [KB 2881083](https://support.microsoft.com/kb/2881083) | August 2014 |
+|Update für Lync 2013 | [KB 2881070](https://support.microsoft.com/kb/2881070) | August 2014 |
+|Sicherheitsupdate für Lync 2013 | [KB 2881013](https://support.microsoft.com/kb/2881013) | Juni 2014 |
+|Update für Lync 2013 | [KB 2850074](https://support.microsoft.com/kb/2850074) | Juni 2014 |
+|Update für Lync 2013 | [KB 2880980](https://support.microsoft.com/kb/2880980) | Mai 2014 |
+|Update für Lync 2013 | [KB 2880474](https://support.microsoft.com/kb/2880474) | April 2014  |
+|Update für Lync 2013 | [KB 2863908](https://support.microsoft.com/kb/2863908) | März 2014  |
+|Sicherheitsupdate für Lync 2013 | [KB 2850057](https://support.microsoft.com/kb/2850057) | September 2013  |
+|Update für Lync 2013 | [KB 2817630](https://support.microsoft.com/kb/2817630) | Dezember 2013  |
+|Update für Lync 2013 | [KB 2817465](https://support.microsoft.com/kb/2817465) | Juli 2013  |
+|Update für Lync 2013 | [KB 2768004](https://support.microsoft.com/kb/2768004) | Mai 2013  |
+|Update für Lync 2013 | [KB 2760556](https://support.microsoft.com/kb/2760556) | März 2013  |
+|Update für Lync 2013 | [KB 2812461](https://support.microsoft.com/kb/2812461) | Februar 2013  |
 
 
 ### <a name="lync-phone-edition-updates"></a>Lync Phone Edition-Updates
 
 | Paketname                                                                                                       | KB-Nummer                                                      | Veröffentlichungsdatum |
 |:-------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|:-------------|
-| Kumulatives Update für lync Phone Edition für Aastra 6721ip und Aastra 6725ip-Telefon                             | [KB 4019527](https://support.microsoft.com/help/4019527) | April 2017   |
-| Kumulatives Update für Microsoft lync Phone Edition für HP 4110-und HP 4120-Telefone                              | [KB 4019528](https://support.microsoft.com/help/4019528) | April 2017   |
-| Kumulatives Update für Microsoft lync Phone Edition für Polycom CX500-, Polycom CX600-und Polycom CX3000-Telefone | [KB 4019529](https://support.microsoft.com/help/4019529) | April 2017   |
-| Kumulatives Update für lync Phone Edition für Aastra 6721ip und Aastra 6725ip-Telefone                            | [KB 3050585](https://support.microsoft.com/kb/3050585)   | Mai 2015     |
-| Kumulatives Update für lync Phone Edition für HP 4110-und HP 4120-Telefone                                        | [KB 3050587](https://support.microsoft.com/kb/3050587)   | Mai 2015     |
-| Kumulatives Update für lync Phone Edition für Polycom CX500, Polycom CX600 und Polycom CX3000                      | [KB 3050588](https://support.microsoft.com/kb/3050588)   | Mai 2015     |
-| Kumulatives Update für lync Phone Edition für Polycom CX700 und LG-Nortel-IP-Telefon 8540-Telefone                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | Mai 2015     |
-| Kumulatives Update für lync Phone Edition für Aastra 6721ip und Aastra 6725ip-Telefone                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | April 2014   |
-| Kumulatives Update für lync Phone Edition für HP 4110-und HP 4120-Telefone                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | April 2014   |
-| Kumulatives Update für lync Phone Edition für Polycom CX500-, Polycom CX600-und Polycom CX3000-Telefone           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | April 2014   |
-| Kumulatives Update für lync Phone Edition für Polycom CX700 und LG-Nortel-IP-Telefon 8540-Telefone                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | April 2014   |
+| Kumulatives Update für Lync Phone Edition für Aastra 6721ip und Aastra 6725ip-Telefon                             | [KB 4019527](https://support.microsoft.com/help/4019527) | April 2017   |
+| Kumulatives Update für Microsoft Lync Phone Edition für HP 4110- und HP 4120-Telefone                              | [KB 4019528](https://support.microsoft.com/help/4019528) | April 2017   |
+| Kumulatives Update für Microsoft Lync Phone Edition für Polycom CX500-, Polycom CX600- und Polycom CX3000-Telefone | [KB 4019529](https://support.microsoft.com/help/4019529) | April 2017   |
+| Kumulatives Update für Lync Phone Edition für Aastra 6721ip- und Aastra 6725ip-Telefone                            | [KB 3050585](https://support.microsoft.com/kb/3050585)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für HP 4110- und HP 4120-Telefone                                        | [KB 3050587](https://support.microsoft.com/kb/3050587)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für Polycom CX500, Polycom CX600 und Polycom CX3000                      | [KB 3050588](https://support.microsoft.com/kb/3050588)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für Polycom CX700 und LG-Nortel IP Phone 8540-Telefone                  | [KB 3050590](https://support.microsoft.com/kb/3050590)   | Mai 2015     |
+| Kumulatives Update für Lync Phone Edition für Aastra 6721ip- und Aastra 6725ip-Telefone                            | [KB 2954032](https://support.microsoft.com/kb/2954032)         | April 2014   |
+| Kumulatives Update für Lync Phone Edition für HP 4110- und HP 4120-Telefone                                        | [KB 2954033](https://support.microsoft.com/kb/2954033)         | April 2014   |
+| Kumulatives Update für Lync Phone Edition für Polycom CX500-, Polycom CX600- und Polycom CX3000-Telefone           | [KB 2954034](https://support.microsoft.com/kb/2954034)         | April 2014   |
+| Kumulatives Update für Lync Phone Edition für Polycom CX700 und LG-Nortel IP Phone 8540-Telefone                  | [KB 2954035](https://support.microsoft.com/kb/2954035)         | April 2014   |
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>Lync Phone Edition-Clients im Download Center
 
 Paketname|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
 |[Lync Phone Edition für HP 4110 und HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | April 2017 |
-|[Lync-Phone Edition für Polycom CX500, Polycom CX600 und Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | April 2017 |
+|[Lync Phone Edition für Polycom CX500, Polycom CX600 und Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | April 2017 |
 |[Lync Phone Edition für Polycom CX700 und LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Dezember 2015 |
 
-### <a name="lync-basic-2013-software"></a>Lync Basic 2013-Software
+### <a name="lync-basic-2013-software"></a>Lync Basic 2013 Software
 
 Paketname|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
@@ -260,61 +260,61 @@ Paketname|Veröffentlichungsdatum|
 
 * * *
 
-### <a name="lync-for-mac-2011-client-updates"></a>Clientupdates für lync für Mac 2011
+### <a name="lync-for-mac-2011-client-updates"></a>Lync für Mac 2011-Clientupdates
 
 Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|Update für lync für Mac 2011 |[KB 3175174](https://support.microsoft.com/kb/3175174)|Juli 2016|
-|Kumulative Updates für lync für Mac 2011 |[KB 3074981](https://support.microsoft.com/kb/3074981)|Juli 2015|
+|Update für Lync für Mac 2011 |[KB 3175174](https://support.microsoft.com/kb/3175174)|Juli 2016|
+|Kumulative Updates für Lync für Mac 2011 |[KB 3074981](https://support.microsoft.com/kb/3074981)|Juli 2015|
 
-### <a name="lync-2010-client-updates"></a>Lync 2010 von Clientupdates
-
-Paketname|KB-Nummer|Veröffentlichungsdatum|
-|:--- |:--- |:--- |
-|Sicherheitsupdate für lync 2010 |[KB 4025865](https://support.microsoft.com/kb/4025865) | September 2017|
-|Sicherheitsupdate für lync 2010 |[KB 4010732](https://support.microsoft.com/kb/4020732) | Juni 2017|
-|Sicherheitsupdate für lync 2010 |[KB 4010299](https://support.microsoft.com/kb/4010299) | März 2017|
-|Sicherheitsupdate für lync 2010 |[KB 3188397](https://support.microsoft.com/kb/3188397) | Oktober 2016|
-|Sicherheitsupdate für lync 2010 |[KB 3174301](https://support.microsoft.com/kb/3174301) | August 2016|
-|Update für lync 2010 |[KB 3171499](https://support.microsoft.com/kb/3171499) | Juni 2016|
-|Sicherheitsupdate für lync 2010 |[KB 3115871](https://support.microsoft.com/kb/3115871) | Dezember 2015|
-|Sicherheitsupdate für lync 2010 |[KB 3096735](https://support.microsoft.com/kb/3096735) | November 2015|
-|Sicherheitsupdate für lync 2010 |[KB 3081087](https://support.microsoft.com/kb/3081087) | September 2015|
-|Kumulative Updates für lync 2010 |[KB 3072611](https://support.microsoft.com/kb/3072611) | Juli 2015|
-
-### <a name="lync-2010-attendant-updates"></a>Lync 2010 Attendant Updates
+### <a name="lync-2010-client-updates"></a>Lync 2010-Clientupdates
 
 Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|Kumulatives Update für lync 2010 Attendant |[KB 2842632](https://support.microsoft.com/kb/2842632) |Juli 2013|
+|Sicherheitsupdate für Lync 2010 |[KB 4025865](https://support.microsoft.com/kb/4025865) | September 2017|
+|Sicherheitsupdate für Lync 2010 |[KB 4010732](https://support.microsoft.com/kb/4020732) | Juni 2017|
+|Sicherheitsupdate für Lync 2010 |[KB 4010299](https://support.microsoft.com/kb/4010299) | März 2017|
+|Sicherheitsupdate für Lync 2010 |[KB 3188397](https://support.microsoft.com/kb/3188397) | Oktober 2016|
+|Sicherheitsupdate für Lync 2010 |[KB 3174301](https://support.microsoft.com/kb/3174301) | August 2016|
+|Update für Lync 2010 |[KB 3171499](https://support.microsoft.com/kb/3171499) | Juni 2016|
+|Sicherheitsupdate für Lync 2010 |[KB 3115871](https://support.microsoft.com/kb/3115871) | Dezember 2015|
+|Sicherheitsupdate für Lync 2010 |[KB 3096735](https://support.microsoft.com/kb/3096735) | November 2015|
+|Sicherheitsupdate für Lync 2010 |[KB 3081087](https://support.microsoft.com/kb/3081087) | September 2015|
+|Kumulative Updates für Lync 2010 |[KB 3072611](https://support.microsoft.com/kb/3072611) | Juli 2015|
 
-### <a name="lync-2010-attendee-updates"></a>Lync 2010 Attendee Updates
+### <a name="lync-2010-attendant-updates"></a>Lync 2010-Attendant-Updates
 
 Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|Sicherheitsupdate für lync 2010 Attendee (Installation auf Administratorebene) |[KB 4025866](https://support.microsoft.com/kb/4025866) |September 2017|
-|Sicherheitsupdate für lync 2010 Attendee (Installation auf Administratorebene) |[KB 4025866](https://support.microsoft.com/kb/4025866) |Juni 2017|
-|Sicherheitsupdate für lync 2010 Attendee (Installation auf Benutzerebene) |[KB 4020734](https://support.microsoft.com/kb/4020734) |Juni 2017|
-|Sicherheitsupdate für Microsoft graphics-Komponente auf lync 2010 Attendee (Installation auf Administratorebene) |[KB 4010301](https://support.microsoft.com/kb/4010301) |März 2017|
-|Sicherheitsupdate für lync 2010 Attendee (Installation auf Administratorebene) |[KB 3188400](https://support.microsoft.com/kb/3188400) |Oktober 2016|
-|Beschreibung des kumulativen Updates für die Installation von lync 2010 Attendee auf Administrator Ebene |[KB 3171502](https://support.microsoft.com/kb/3171502)|Juni 2016 |
-|Beschreibung des kumulativen Updates für die Installation von lync 2010 Attendee auf Benutzerebene |[KB 3171496](https://support.microsoft.com/kb/3171496) |Juni 2016 |
-|Sicherheitsupdate für lync 2010 Attendee (Installation auf Administratorebene) |[KB 3081089](https://support.microsoft.com/kb/3081089) |September 2015 |
-|Sicherheitsupdate für lync 2010 Attendee (Installation auf Benutzerebene) |[KB 3081088](https://support.microsoft.com/kb/3081088) |September 2015 |
+|Kumulatives Update für Lync 2010-Attendant |[KB 2842632](https://support.microsoft.com/kb/2842632) |Juli 2013|
 
-### <a name="attendant"></a>Telefonzentrale
+### <a name="lync-2010-attendee-updates"></a>Lync 2010-Teilnehmerupdates
 
-| **Paket Name/Link**                                                                       | Veröffentlichungsdatum  |
+Paketname|KB-Nummer|Veröffentlichungsdatum|
+|:--- |:--- |:--- |
+|Sicherheitsupdate für Lync 2010 Attendee (Installation auf Administratorebene) |[KB 4025866](https://support.microsoft.com/kb/4025866) |September 2017|
+|Sicherheitsupdate für Lync 2010 Attendee (Installation auf Administratorebene) |[KB 4025866](https://support.microsoft.com/kb/4025866) |Juni 2017|
+|Sicherheitsupdate für Lync 2010 Attendee (Installation auf Benutzerebene) |[KB 4020734](https://support.microsoft.com/kb/4020734) |Juni 2017|
+|Sicherheitsupdate für Microsoft Graphics Component auf Lync 2010 Attendee (Installation auf Administratorebene) |[KB 4010301](https://support.microsoft.com/kb/4010301) |März 2017|
+|Sicherheitsupdate für Lync 2010 Attendee (Installation auf Administratorebene) |[KB 3188400](https://support.microsoft.com/kb/3188400) |Oktober 2016|
+|Beschreibung des kumulativen Updates für die Lync 2010 Attendee -Installation auf Administratorebene |[KB 3171502](https://support.microsoft.com/kb/3171502)|Juni 2016 |
+|Beschreibung des kumulativen Updates für den Lync 2010-Teilnehmer – Installation auf Benutzerebene |[KB 3171496](https://support.microsoft.com/kb/3171496) |Juni 2016 |
+|Sicherheitsupdate für Lync 2010 Attendee (Installation auf Administratorebene) |[KB 3081089](https://support.microsoft.com/kb/3081089) |September 2015 |
+|Sicherheitsupdate für Lync 2010 Attendee (Installation auf Benutzerebene) |[KB 3081088](https://support.microsoft.com/kb/3081088) |September 2015 |
+
+### <a name="attendant"></a>Attendant
+
+| **Paketname/Link**                                                                       | Veröffentlichungsdatum  |
 |:--------------------------------------------------------------------------------------------|:--------------|
 | [Lync 2010 Attendant (32 Bit)](https://www.microsoft.com/download/en/details.aspx?id=10164) | November 2010 |
 | [Lync 2010 Attendant (64 Bit)](https://www.microsoft.com/download/en/details.aspx?id=20084) | November 2010 |
 
-### <a name="attendee"></a>Teilnehmer
+### <a name="attendee"></a>Attendee
 
-| **Paket Name/Link**                                                                                   | Veröffentlichungsdatum |
+| **Paketname/Link**                                                                                   | Veröffentlichungsdatum |
 |:--------------------------------------------------------------------------------------------------------|:-------------|
-| [Lync 2010 Attendee-Installation auf Administratorebene](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013   |
-| [Lync 2010 Attendee-Installation auf Benutzerebene](https://www.microsoft.com/download/en/details.aspx?id=15755)  | Juni 2014    |
+| [Lync 2010-Teilnehmer – Installation auf Administratorebene](https://www.microsoft.com/download/en/details.aspx?id=23396) | April 2013   |
+| [Lync 2010-Teilnehmer – Installation auf Benutzerebene](https://www.microsoft.com/download/en/details.aspx?id=15755)  | Juni 2014    |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

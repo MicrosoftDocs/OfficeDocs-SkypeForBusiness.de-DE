@@ -20,22 +20,22 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie Ihren Teams-Benutzern eine geschäftliche Telefonnummer zuweisen oder diese ändern oder entfernen können, damit Unternehmen und Kunden von außerhalb anrufen können.
-ms.openlocfilehash: e606885aee1e87dfdfc9b36a5247eedba225a185
-ms.sourcegitcommit: 91fbc7c9cd43c2a5b7e6dfedf2388939f2f77d57
-ms.translationtype: HT
+ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50589619"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120817"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer (Anrufpläne)
 
-Wenn Sie Anrufpläne einrichten, weisen Sie Ihren Benutzern Telefonnummern zu. In Microsoft Teams wird die von Ihnen zugewiesene Telefonnummer aufgelistet, wenn ein Benutzer auf **Anrufe** klickt. Anweisungen zum Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer in einem Direct Routing-Szenario finden Sie unter [Aktivieren von Benutzern für Direct Routing, Sprache und Voicemail](https://docs.microsoft.com/microsoftteams/direct-routing-enable-users).
+Wenn Sie Anrufpläne einrichten, weisen Sie Ihren Benutzern Telefonnummern zu. In Microsoft Teams wird die von Ihnen zugewiesene Telefonnummer aufgelistet, wenn ein Benutzer auf **Anrufe** klickt. Anweisungen zum Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer in einem Direct Routing-Szenario finden Sie unter [Aktivieren von Benutzern für Direct Routing, Sprache und Voicemail](./direct-routing-enable-users.md).
 
 ![Telefonnummer des Benutzers, die in Microsoft Teams angezeigt wird.](media/teams-phone-number.png)
 
 Wenn Sie Benutzer einrichten, damit sie Anrufe tätigen und empfangen können, müssen Sie zuerst das Microsoft Teams Admin Center verwenden und eine Telefonnummer zuweisen. Falls notwendig können Sie Telefonnummer ändern oder entfernen.
   
-Wenn Sie wissen möchten, wie Sie Anrufpläne in Teams erhalten und was diese kosten, lesen Sie [Add-On-Lizenzierung für Teams](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Wenn Sie wissen möchten, wie Sie Anrufpläne in Teams erhalten und was diese kosten, lesen Sie [Add-On-Lizenzierung für Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
 > Eine Möglichkeit, um festzustellen, ob einem Benutzer eine Lizenz zugewiesen wurde, besteht darin, im Microsoft Teams Admin Center **Benutzer** aufzurufen. Wenn eine Lizenz zugewiesen ist, wird es auf der Seite angezeigt.  Sie können auch das Microsoft 365 Admin Center verwenden.
@@ -51,10 +51,10 @@ Wenn Sie wissen möchten, wie Sie Anrufpläne in Teams erhalten und was diese ko
 5. Je nachdem, ob Sie dem Benutzer eine E-Mail mit seinen Telefonnummerninformationen senden möchten, deaktivieren oder aktivieren Sie **Dem Benutzer eine E-Mail mit den Telefonnummerninformationen senden**. Standardmäßig ist dies aktiviert. 
 6. Klicken Sie auf **Speichern**.
 
-Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
     > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>Ändern der Telefonnummer für einen Benutzer
@@ -71,7 +71,7 @@ Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](https://docs.mi
 8. Um den zugehörigen Notfallstandort zuzuweisen oder zu ändern, suchen Sie unter **Notfallstandort** nach dem Standort und wählen Sie ihn aus.
 9. Klicken Sie auf **Speichern**.
 
-Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Entfernen einer Telefonnummer von einem Benutzer
  
@@ -83,7 +83,7 @@ Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](https://docs.mi
 4. Klicken Sie im Bereich **Bearbeiten** unter **Zugewiesen zu** auf **X**, um den Benutzer zu entfernen.
 5. Klicken Sie auf **Speichern**.
 
-Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
+Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -91,10 +91,10 @@ Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](https://docs.mi
 
 [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
+[Nutzungsbedingungen für Notrufe](./emergency-calling-terms-and-conditions.md)
 
 [Haftungsausschlussbezeichnung für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
-[Anrufpläne für Microsoft 365](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)
+[Anrufpläne für Microsoft 365](./calling-plans-for-office-365.md)

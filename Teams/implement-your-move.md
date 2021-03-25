@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819451"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120666"
 ---
 # <a name="implement-your-move-to-microsoft-teams"></a>Implementieren Ihres Wechsels zu Microsoft Teams
 
@@ -45,7 +45,7 @@ Wir empfehlen das folgende Framework für den Übergang:
    
 1. Verschieben Sie zunächst Ihre Chatgruppen nach Microsoft Teams.
 1. Verwenden Sie als Nächstes Apps in Teams, um Kaizala-Aktionskarten zu ersetzen.
-1. Um sicherzustellen, dass Mitarbeiter an der Frontlinie ausgestattet sind, führen Sie ein Upgrade auf die Funktionen von Teams Frontline Worker durch. Eine Schnellstartanleitung zu Teams Frontline Worker finden Sie unter [Schnellstarthandbuch für Frontlinemitarbeiter.](https://docs.microsoft.com/microsoftteams/flw-quickstart)
+1. Um sicherzustellen, dass Mitarbeiter an der Frontlinie ausgestattet sind, führen Sie ein Upgrade auf die Funktionen von Teams Frontline Worker durch. Eine Schnellstartanleitung zu Teams Frontline Worker finden Sie unter [Schnellstarthandbuch für Frontlinemitarbeiter.](./flw-quickstart.yml)
 1. Erwägen Sie das Onboarding von Lieferanten und Partnern, um sie als Gäste in Teams einzuläten.  
   
 **Verwalten von Änderungen**  
@@ -96,4 +96,4 @@ Wir empfehlen das folgende Framework für den Übergang:
      
 - **Verschieben Ihrer Organisation zu Teams** 
 
-    Unterstützen Sie Ihre Organisation mit einem optimierten Tool für die Kommunikation vom CEO bis an die Frontlinie! 
+    Unterstützen Sie Ihre Organisation mit einem optimierten Tool für die Kommunikation vom CEO bis an die Frontlinie!

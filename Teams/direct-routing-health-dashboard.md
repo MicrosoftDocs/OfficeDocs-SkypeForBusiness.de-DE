@@ -1,5 +1,5 @@
 ---
-title: Status-Dashboard für direktes Routing
+title: Integritätsdashboard für direktes Routing
 ms.reviewer: nmurav
 ms.author: crowe
 author: CarolynRowe
@@ -15,97 +15,97 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie mithilfe des Integritäts Dashboards die Verbindung zwischen dem Sitzungs Grenz Controller und dem direkten Routing überwachen.
-ms.openlocfilehash: a75510340815489921a5dd67a204b6914a9539d4
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+description: Erfahren Sie, wie Sie mithilfe des Integritätsdashboards die Verbindung zwischen dem Session Border Controller und dem Direct Routing überwachen.
+ms.openlocfilehash: cb5e802d904cd2eb364fd480ebcde385e64cf02b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229111"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122229"
 ---
-# <a name="health-dashboard-for-direct-routing"></a>Status-Dashboard für direktes Routing
+# <a name="health-dashboard-for-direct-routing"></a>Integritätsdashboard für direktes Routing
 
-Mit dem Integritäts-Dashboard für das direkte Routing können Sie die Verbindung zwischen dem SBC (Session Border Controller) und der direkten Routingschnittstelle überwachen.  Mit dem Status-Dashboard können Sie Informationen zu Ihrem SBC, dem Telefoniedienst und den Netzwerkparametern zwischen Ihrem SBC und der direkten Routing Schnittstelle überwachen. Diese Informationen können Ihnen helfen, Probleme zu erkennen, einschließlich des Grunds für gelöschte Anrufe. Beispielsweise kann der SBC das Senden von Anrufen beenden, wenn ein Zertifikat auf dem SBC abgelaufen ist oder wenn es Netzwerkprobleme gibt. Sehen Sie sich die [Administratorrollen](using-admin-roles.md) an, um zu erfahren, wer auf das Integritäts Dashboard zugreifen kann.
+Mit dem Integritätsdashboard für Direct Routing können Sie die Verbindung zwischen ihrem Session Border Controller (SBC) und der Direct Routing-Schnittstelle überwachen.  Mit dem Integritätsdashboard können Sie Informationen zu Ihrem SBC, dem Telefoniedienst und den Netzwerkparametern zwischen Ihrem SBC und der Direct Routing-Schnittstelle überwachen. Diese Informationen können Ihnen helfen, Probleme zu identifizieren, einschließlich des Grunds für verworfene Anrufe. Der SBC kann z. B. das Senden von Anrufen beenden, wenn ein Zertifikat für den SBC abgelaufen ist oder Netzwerkprobleme auftreten. In den [Administratorrollen erfahren](using-admin-roles.md) Sie, wer Zugriff auf das Integritätsdashboard hat.
 
-Das Status-Dashboard überwacht zwei Informationsebenen:
+Das Integritätsdashboard überwacht zwei Informationsebenen:
 
-- Gesamtzustand des verbundenen SBCS
-- Detaillierte Informationen zu den verbundenen SBCS
+- Gesamtzustand der verbundenen SBCs
+- Detaillierte Informationen zu den verbundenen SBCs
 
-Sie können das Status-Dashboard in Microsoft Teams und Skype for Business Admin Center anzeigen.
+Sie können das Integritätsdashboard im Microsoft Teams und Skype for Business Admin Center anzeigen.
 
-## <a name="overall-health"></a>Allgemeiner Status
+## <a name="overall-health"></a>Gesamtzustand
 
-Das Integritäts Dashboard bietet die folgenden Informationen im Zusammenhang mit dem allgemeinen Zustand des verbundenen SBCS:
+Das Integritätsdashboard enthält die folgenden Informationen zum Gesamtzustand der verbundenen SBCs:
 
- ![Zeigt Statistiken zu Health Dashboards](media/direct-routing-dashboard-stats1.png)
+ ![Zeigt Statistiken zum Integritätsdashboard an](media/direct-routing-dashboard-stats1.png)
 
-- **Direkte Routing Zusammenfassung** – zeigt die Gesamtzahl der im System registrierten SBCS an. Registrierung bedeutet, dass der mandantenadministrator einen SBC mithilfe des Befehls New-CsOnlinePSTNGateway hinzugefügt hat. Wenn der SBC in PowerShell hinzugefügt, aber nie verbunden wurde, wird er im Integritäts Dashboard in einem fehlerhaften Status angezeigt.
+- **Direkte Routingzusammenfassung** : Zeigt die Gesamtanzahl der im System registrierten SBCs an. Registrierung bedeutet, dass der Mandantenadministrator einen SBC mithilfe des Befehls New-CsOnlinePSTNGateway hinzugefügt hat. Wenn der SBC in PowerShell hinzugefügt, aber nie verbunden wurde, wird er im Integritätsdashboard in einem fehlerhaften Status angezeigt.
 
-- **SBC** – der FQDN des gekoppelten SBC.
+- **SBC** – Der FQDN des gekoppelten SBC.
 
-- **Netzwerk-Effektivitäts-Verhältnis (ner)** – das ner misst die Fähigkeit eines Netzwerks, Anrufe zu übermitteln, indem es die Anzahl der Anrufe im Vergleich zur Anzahl der an einen Empfänger zugestellten Anrufe misst.  
+- **NER (Network Effectiveness Ratio)** – Das NER misst die Fähigkeit eines Netzwerks, Anrufe zu senden, indem die Anzahl der an einen Empfänger gesendeten Anrufe im Vergleich zur Anzahl der an einen Empfänger übermittelten Anrufe gemessen wird.  
 
-   Das ner misst die Möglichkeit von Netzwerken, Anrufe an das Ferne Endgerät zu übertragen – ausgenommen Benutzeraktionen, die zu Anruf Ablehnungen führen.  Wenn der Empfänger einen Anruf abgelehnt oder den Anruf an die Voicemail gesendet hat, wird der Anruf als erfolgreiche Zustellung gezählt. Das bedeutet, dass eine Antwortnachricht, ein Besetztzeichen oder ein Ring ohne Antwort alle als erfolgreiche Anrufe angesehen werden.
+   Der NER misst die Fähigkeit von Netzwerken, Anrufe an das endende Terminal zu führen– ohne Benutzeraktionen, die zu Anrufverweigerungen führen.  Wenn der Empfänger einen Anruf abgelehnt oder den Anruf an die Voicemail gesendet hat, wird der Anruf als erfolgreiche Zustellung gezählt. Dies bedeutet, dass eine Antwortnachricht, ein gebuchtes Signal oder ein Ring ohne Antwort als erfolgreiche Anrufe betrachtet werden.
   
-   Angenommen, das direkte Routing hat einen Anruf an den SBC gesendet, und der SBC gibt den SIP-Code "504-Servertimeout zurück – der Server hat versucht, auf einen anderen Server zuzugreifen, um die Anforderung zu verarbeiten, und hat keine Antwort auf eine Aufforderung erhalten". Diese Antwort zeigt an, dass ein Problem auf der SBC-Seite vorliegt, und dadurch wird die ner auf dem Integritäts Dashboard für diesen SBC verringert.
+   Angenommen, Direct Routing hat einen Aufruf an den SBC gesendet, und der SBC gibt SIP-Code "504 Server-Time-out - Der Server hat versucht, auf einen anderen Server zu zugreifen, um die Anforderung zu verarbeiten, und hat keine Aufforderung erhalten". Diese Antwort gibt an, dass es ein Problem auf der SBC-Seite gibt, und dadurch wird der NER im Integritätsdashboard für diesen SBC verringert.
   
-   Da die von Ihnen getroffene Aktion möglicherweise von der Anzahl der betroffenen Anrufe abhängt, zeigt Health Dashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen. Wenn die Anzahl der Anrufe kleiner als 100 ist, ist die ner möglicherweise relativ gering, aber dennoch normal.
+   Da die von Ihnen getroffene Aktion von der Anzahl der betroffenen Aufrufe abhängig sein kann, zeigt das Integritätsdashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen. Wenn die Anzahl der Anrufe kleiner als 100 ist, ist der NER möglicherweise recht niedrig, ist aber trotzdem normal.
 
-   Die Formel zur Berechnung von ner ist:
+   Die Formel zum Berechnen von NER ist:
 
-   NER = 100 x (beantwortete Anrufe + Benutzer beschäftigt + Ring keine Antwort + Terminal Reject Anfälle)/Gesamtkapital-Anrufe
+   NER = 100 x (Beantwortete Anrufe + Benutzer beschäftigt + Anruf keine Antwort + Terminalannahmen ablehnen)/Gesamtanrufe
 
-- **Durchschnittliche Anrufdauer** – Informationen zur durchschnittlichen Anrufdauer können Ihnen dabei helfen, die Qualität von Anrufen zu überwachen. Die durchschnittliche Dauer eines 1:1-PSTN-Anrufs beträgt vier bis fünf Minuten.  Für jedes Unternehmen kann dieser Mittelwert jedoch unterschiedlich sein.  Microsoft empfiehlt die Einrichtung eines Basisplans für die durchschnittliche Anrufdauer für Ihr Unternehmen. Wenn dieser Parameter deutlich unter dem Basisplan liegt, kann dies darauf hindeuten, dass Ihre Benutzer Probleme mit der Anrufqualität oder Zuverlässigkeit haben und früher als üblich auflegen. Wenn Sie eine extrem niedrige Durchschnittliche Anrufdauer sehen, beispielsweise 15 Sekunden, hängen Anrufer möglicherweise auf, weil Ihr Dienst nicht zuverlässig abläuft.
+- **Durchschnittliche Anrufdauer** – Informationen zur durchschnittlichen Anrufdauer können Ihnen helfen, die Qualität von Anrufen zu überwachen. Die durchschnittliche Dauer eines 1:1-PSTN-Anrufs beträgt vier bis fünf Minuten.  Für jedes Unternehmen kann dieser Durchschnitt jedoch unterschiedlich sein.  Microsoft empfiehlt, einen Basisplan für die durchschnittliche Anrufdauer für Ihr Unternehmen zu erstellen. Wenn dieser Parameter deutlich unter den Basisplan fällt, kann er darauf hinweisen, dass Ihre Benutzer Probleme mit der Anrufqualität oder Zuverlässigkeit haben und früher als üblich hängen. Wenn eine extrem niedrige durchschnittliche Anrufdauer angezeigt wird, z. B. 15 Sekunden, hängen Anrufer möglicherweise auf, weil Ihr Dienst nicht zuverlässig funktioniert.
 
-   Da die von Ihnen getroffene Aktion möglicherweise von der Anzahl der betroffenen Anrufe abhängt, zeigt Health Dashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen.
+   Da die von Ihnen getroffene Aktion von der Anzahl der betroffenen Aufrufe abhängig sein kann, zeigt das Integritätsdashboard an, wie viele Aufrufe analysiert wurden, um einen Parameter zu berechnen.
 
-- **TLS-Verbindungsstatus** – TLS (Transport Layer Security)-Konnektivität zeigt den Status der TLS-Verbindungen zwischen direktem Routing und SBC an. Das Integritäts Dashboard analysiert auch das Ablaufdatum des Zertifikats und warnt, wenn ein Zertifikat so eingestellt ist, dass es innerhalb von 30 Tagen abläuft, damit Administratoren das Zertifikat erneuern können, bevor der Dienst gestört wird.
+- **TLS-Konnektivitätsstatus** – Die TLS-Konnektivität (Transport Layer Security) zeigt den Status der TLS-Verbindungen zwischen Direct Routing und dem SBC an. Das Integritätsdashboard analysiert außerdem das Ablaufdatum des Zertifikats und warnt, wenn ein Zertifikat innerhalb von 30 Tagen ablaufen soll, damit Administratoren das Zertifikat verlängern können, bevor der Dienst unterbrochen wird.
 
-   Wenn Sie auf die Warnmeldung klicken, wird eine detaillierte Problembeschreibung in einem Popupfenster auf der rechten Seite sowie Empfehlungen zur Behebung des Problems angezeigt.
+   Wenn Sie auf die Warnmeldung klicken, wird eine detaillierte Problembeschreibung in einem Popupfenster auf der rechten Seite sowie Empfehlungen zum Beheben des Problems angezeigt.
 
-- **Status der SIP-Optionen** – Standardmäßig sendet der SBC jede Minute Options Nachrichten. Diese Konfiguration kann für verschiedene SBC-Anbieter variieren. Direktes Routing warnt, wenn die SIP-Optionen nicht gesendet wurden oder nicht konfiguriert sind. Weitere Informationen zur Überwachung der SIP-Optionen und zu den Bedingungen, wenn ein SBC als nicht funktionsfähig gekennzeichnet werden kann, finden Sie unter [überwachen und Problembehandlung des direkten Routings](direct-routing-monitor-and-troubleshoot.md).
+- **Status der SIP-Optionen** – Standardmäßig sendet der SBC jede Minute Optionsnachrichten. Diese Konfiguration kann für unterschiedliche SBC-Anbieter variieren. Direct Routing warnt, wenn die SIP-Optionen nicht gesendet oder nicht konfiguriert sind. Weitere Informationen zur Überwachung von SIP-Optionen und Bedingungen, unter denen ein SBC als nicht funktionsfähig gekennzeichnet werden kann, finden Sie unter Überwachen und Behandeln [von Problemen mit Direct Routing.](direct-routing-monitor-and-troubleshoot.md)
 
-- **Detaillierter Status der SIP-Optionen** – zusätzlich zu der Anzeige, dass ein Problem mit dem SIP-Options Fluss vorliegt, enthält das Integritäts Dashboard auch ausführliche Beschreibungen der Fehler. Sie können auf die Beschreibung zugreifen, indem Sie auf die Meldung "Warnung" klicken. In einem Popupfenster auf der rechten Seite wird die detaillierte Fehlerbeschreibung angezeigt.
+- **Detaillierter Status** der SIP-Optionen – Das Integritätsdashboard enthält nicht nur ein Problem mit dem Fluss von SIP-Optionen, sondern auch detaillierte Beschreibungen der Fehler. Sie können auf die Beschreibung zugreifen, indem Sie auf die Meldung "Warnung" klicken. In einem Popupfenster auf der rechten Seite wird die detaillierte Fehlerbeschreibung angezeigt.
 
-   Mögliche Werte für Statusmeldungen für SIP-Optionen lauten wie folgt:
+   Mögliche Werte für Statusmeldungen zu SIP-Optionen sind wie folgt:
 
-    - Aktiv – der SBC ist aktiv – der Microsoft Direct-Routing Dienst sieht die Optionen, die in einem regelmäßigen Intervall fließen.
+    - Aktiv – Der SBC ist aktiv – Der Microsoft Direct Routing-Dienst sieht die Optionen, die in einem normalen Intervall fließen.
 
-    - Warnung, keine SIP-Optionen – der Session Border Controller ist in der Datenbank vorhanden (Ihr Administrator hat ihn mit dem Befehl New-CsOnlinePSTNGateway erstellt). Sie ist so konfiguriert, dass SIP-Optionen gesendet werden, aber der Direct Routing-Dienst hat nie die SIP-Optionen gesehen, die von diesem SBC zurückkommen.
+    - Warnung, keine SIP-Optionen – Der Session Border Controller ist in der Datenbank vorhanden (der Administrator hat ihn mit dem Befehl New-CsOnlinePSTNGateway erstellt). Sie ist für das Senden von SIP-Optionen konfiguriert, aber der Direct Routing-Dienst hat nie gesehen, dass die SIP-Optionen von diesem SBC zurückkommen.
 
-    - Warnung: SIP-Nachrichten werden nicht konfiguriert – trunk-Überwachung über SIP-Optionen ist nicht aktiviert. Das Microsoft-Anruf System verwendet SIP-Optionen und TLS-Handshake-Überwachung (Transport Layer Security), um die Integrität der verbundenen Session Border Controller (SBCS) auf Anwendungsebene zu erkennen. Sie haben Probleme, wenn dieser trunk auf Netzwerkebene (per Ping) erreicht werden kann, das Zertifikat aber abgelaufen ist oder der SIP-Stack nicht funktioniert. Um solche Probleme frühzeitig zu erkennen, empfiehlt Microsoft die Aktivierung des Sendens von SIP-Optionen. Überprüfen Sie Ihre SBC-Herstellerdokumentation, um das Senden von SIP-Optionen zu konfigurieren.
+    - Warnung: SIP-Nachrichten sind nicht konfiguriert – Die Trunküberwachung mithilfe von SIP-Optionen ist nicht aktiviert. Microsoft Calling System verwendet SIP-Optionen und die TLS-Handshakeüberwachung (Transport Layer Security), um den Zustand der verbundenen Session Border Controller (SBCs) auf Anwendungsebene zu erkennen. Sie haben Probleme, wenn dieser Trunk auf Netzwerkebene (per Ping) erreicht werden kann, das Zertifikat aber abgelaufen ist oder der SIP-Stapel nicht funktioniert. Um solche Probleme frühzeitig zu erkennen, empfiehlt Microsoft, das Senden von SIP-Optionen zu aktivieren. Überprüfen Sie die Dokumentation des SBC-Herstellers, um die Senden von SIP-Optionen zu konfigurieren.
 
-- **Kapazität für gleichzeitige Anrufe** -Sie können die Grenze für gleichzeitige Anrufe angeben, die ein SBC behandeln kann, indem Sie den Befehl New-oder CsOnlinePSTNGateway mit dem-MaxConcurrentSessions-Parameter verwenden. Dieser Parameter berechnet, wie viele Anrufe durch direkte Weiterleitung mit einem bestimmten SBC gesendet oder empfangen wurden, und vergleicht diese mit dem festgelegten Grenzwert. Hinweis: Wenn der SBC auch Anrufe an verschiedene PBX-Anlagen abwickelt, werden bei dieser Nummer nicht die tatsächlichen gleichzeitigen Anrufe angezeigt.
+- **Kapazität für** gleichzeitige Aufrufe: Sie können den Grenzwert für gleichzeitige Aufrufe angeben, die ein SBC mit dem Befehl New- oder Set-CsOnlinePSTNGateway mit dem Parameter -MaxConcurrentSessions verarbeiten kann. Dieser Parameter berechnet, wie viele Anrufe per Direct Routing mit einem bestimmten SBC gesendet oder empfangen wurden, und vergleicht ihn mit dem Grenzwertsatz. Hinweis: Wenn der SBC auch Anrufe an unterschiedliche PBXs verarbeitet, werden die tatsächlichen gleichzeitigen Anrufe unter dieser Nummer nicht angezeigt.
 
-## <a name="detailed-information-for-each-sbc"></a>Detaillierte Informationen zu jedem SBC
+## <a name="detailed-information-for-each-sbc"></a>Detaillierte Informationen für jeden SBC
 
-Sie können auch die detaillierten Informationen zu einem bestimmten SBC anzeigen, wie im folgenden Screenshot dargestellt:
+Sie können auch die detaillierten Informationen für einen bestimmten SBC anzeigen, wie im folgenden Screenshot gezeigt:
 
-![Informationen zum Status-Dashboard SBC](media/direct-routing-dashboard-SBC-detail1.png)
+![SBC-Details des Integritätsdashboards](media/direct-routing-dashboard-SBC-detail1.png)
 
 In der Detailansicht werden die folgenden zusätzlichen Parameter angezeigt:
 
-- **TLS-Verbindungsstatus** – Dies ist dieselbe Metrik wie auf der Seite "allgemeine Integrität";
+- **TLS-Verbindungsstatus** – Dies ist die gleiche Metrik wie auf der Seite "Gesamtstatus".
 
-- **Letzter Status der TLS-Konnektivität** – zeigt die Zeit an, zu der der SBC eine TLS-Verbindung mit dem Direct Routing-Dienst hergestellt hat.
+- **TLS Connectivity last status** – zeigt die Uhrzeit an, zu der der SBC eine TLS-Verbindung mit dem Direct Routing-Dienst hergestellt hat.
 
-- **Status der SIP-Optionen** – dieselbe Metrik wie auf der Seite "allgemeine Integrität".
+- **Status der SIP-Optionen** – die gleiche Metrik wie auf der Seite "Gesamtstatus".
 
-- **SIP-Optionen zuletzt überprüft** – Zeitpunkt, zu dem die SIP-Optionen beim letzten Mal empfangen wurden.
+- **SIP-Optionen zuletzt aktiviert** – Zeitpunkt, zu dem die SIP-Optionen das letzte Mal empfangen wurden.
 
 - **SBC-Status** – Gesamtstatus des SBC, basierend auf allen überwachten Parametern.
 
-- **Gleichzeitiger Anruf**– zeigt an, wie viele gleichzeitige Anrufe der SBC verarbeitet hat. Diese Informationen sind hilfreich, um die Anzahl der gleichzeitig benötigten Kanäle vorherzusagen und den Trend zu sehen. Sie können die Daten nach Anzahl der Tage und in der Anrufrichtung (eingehend/ausgehend/alle Streams) verschieben.
+- **Gleichzeitiger Anruf**: Zeigt an, wie viele gleichzeitige Anrufe der SBC verarbeitet hat. Diese Informationen sind hilfreich, um die Anzahl der benötigten parallelen Kanäle vorherzusagen und den Trend zu sehen. Sie können die Daten nach Anzahl der Tage und Anrufrichtung (ein-/ausgehend/Alle Datenströme) verschieben.
 
-- **Netzwerkparameter** – alle Netzwerkparameter werden von der direkten Routing Schnittstelle zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)und untersuchen der empfohlenen Werte für den Kunden Rand zu Microsoft Edge.
+- **Netzwerkparameter** : Alle Netzwerkparameter werden von der Direct Routing-Schnittstelle bis zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter Vorbereiten des Netzwerks Ihrer Organisation für [Microsoft Teams,](./prepare-network.md)und sehen Sie sich die empfohlenen Werte von Customer Edge zu Microsoft Edge an.
 
-   - Jitter – ist das Millisekunden-Maß der Variation in der Verzögerungszeit für die Netzwerk Propagierung, die zwischen zwei Endpunkten mithilfe von RTCP (dem RTP-steuerelementprotokoll) berechnet wird.
+   - Jitter – Ist das Millisekundenmaß für die Variation der Verzögerungszeit für die Netzwerkweitergabe, die zwischen zwei Endpunkten mithilfe von RTCP (RtP-Steuerelementprotokoll) berechnet wird.
 
-   - Paketverlust – ist ein Maß für ein Paket, das nicht ankommt; Sie wird zwischen zwei Endpunkten berechnet.
+   - Paketverlust – Ist ein Maß für das Paket, das nicht eintrifft; es wird zwischen zwei Endpunkten berechnet.
 
-   - Latenz – (auch als Roundtrip-Zeit bezeichnet) ist die Zeitdauer, die für das Senden eines Signals benötigt wird, sowie die Zeitdauer, die für die Empfangsbestätigung des Signals benötigt wird. Diese Zeitverzögerung besteht aus den Ausbreitungs Zeiten zwischen den beiden Punkten eines Signals.
+   - Latenz – (auch als Roundtripzeit bezeichnet) ist die Dauer, die es dauert, bis ein Signal gesendet wird, zuzüglich der Zeit, die es dauert, bis die Bestätigung dieses Signals empfangen wird. Diese Zeitverzögerung besteht aus den Übertragungszeiten zwischen den beiden Punkten eines Signals.
 
-   Sie können die Daten nach Anzahl der Tage und in der Anrufrichtung (eingehend/ausgehend/alle Streams) verschieben.
+   Sie können die Daten nach Anzahl der Tage und Anrufrichtung (ein-/ausgehend/Alle Datenströme) verschieben.
 
-**Netzwerk-Effektivitäts Verhältnis** – Dies ist derselbe Parameter, der im allgemeinen Status-Dashboard angezeigt wird, jedoch mit der Option, Daten nach Zeitreihen oder in der Anrufrichtung zu segmentieren.
+**Netzwerkeffektivitätsverhältnis** – Dies ist derselbe Parameter, der auf dem Dashboard "Gesamter Integrität" angezeigt wird, aber mit der Option, die Daten nach Zeitreihen oder Anrufrichtung zu segmentieren.

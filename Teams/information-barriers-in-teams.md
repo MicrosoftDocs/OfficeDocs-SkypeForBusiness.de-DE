@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 818e674014104178efea3e6467d2e5bfbf553c68
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874795"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120646"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -111,7 +111,7 @@ IB-Richtlinien werden aktiviert, wenn die folgenden Teams-Ereignisse stattfinden
 
 - Ein Benutzer gibt einen Telefonanruf **in Teams** ab– Immer wenn ein Benutzer einen Sprachanruf (über VOIP) für einen anderen Benutzer oder eine Benutzergruppe startet, wird der Anruf ausgewertet, um sicherzustellen, dass er nicht gegen die RICHTLINIEN anderer Teammitglieder verstößt. Wenn ein Verstoß vor liegt, wird der Sprachanruf blockiert.
 
-- **Die Richtlinien für Gäste in Teams** – IB gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation ermittelt werden müssen, lesen Sie Verwalten des Gastzugriffs [in Microsoft 365-Gruppen.](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Sobald Gäste entdeckt wurden, können Sie [IB-Richtlinien definieren.](/office365/securitycompliance/information-barriers-policies)
+- **Die Richtlinien für Gäste in Teams** – IB gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation ermittelt werden müssen, lesen Sie Verwalten des Gastzugriffs [in Microsoft 365-Gruppen.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Sobald Gäste entdeckt wurden, können Sie [IB-Richtlinien definieren.](/office365/securitycompliance/information-barriers-policies)
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Auswirkungen von Richtlinienänderungen auf vorhandene Chats
 
@@ -189,7 +189,7 @@ Wenn ein Team erstellt wird, wird eine SharePoint-Website für die Dateierfahrun
 **Beispiel für IB-Richtlinien** auf der SharePoint-Website eines Teams: In contoso bank corporation gehört der Benutzer "Sesha@contosobank.onmicrosoft.com" zum Segment Investment Banking, und der Benutzer "Nikita@contosobank.onmicrosoft.com" gehört zum Segment Advisory. Die IB-Richtlinie der Organisation blockiert die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten.
 Wenn Benutzer Sesha ein Team für das InvestmentBanking-Segment erstellt, ist das Team und die SharePoint-Website, auf der sie unterstützt wird, nur für InvestmentBanking-Benutzer zugänglich. Der Benutzer Kann nicht auf diese Website zugreifen, auch wenn er über den Websitelink verfügt.
 
-Weitere Informationen finden Sie unter [Verwenden von Informationsbarrieren mit SharePoint](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
+Weitere Informationen finden Sie unter [Verwenden von Informationsbarrieren mit SharePoint](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites).
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 

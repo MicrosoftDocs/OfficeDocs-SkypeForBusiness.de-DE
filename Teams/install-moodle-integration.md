@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d51aba578de4dc5245a8d9459b160e5743b786a5
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120636"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation der Moodle-Integration in Microsoft Teams
 
@@ -41,7 +41,7 @@ Um IT-Administratoren bei der einfachen Einrichtung dieser Integration zu unters
 * Automatische Installation der Moodle-Registerkarte und des Moodle Assistant-Bots in jedem synchronisierten Team. (Bald verfügbar)
 * Veröffentlichung der Moodle-App in Ihrem privaten Teams App Store mit einem Klick. (Bald verfügbar)
 
-Weitere Informationen zu den Funktionen, die diese Integration bietet, finden Sie unter [Installieren der Moodle-Integration in Microsoft Teams.](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions)
+Weitere Informationen zu den Funktionen, die diese Integration bietet, finden Sie unter [Installieren der Moodle-Integration in Microsoft Teams.](/microsoftteams/platform/resources/moodleinstructions)
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -176,7 +176,7 @@ Sobald die Bereitstellung der Ressourcen in Azure abgeschlossen ist, müssen Sie
 
 Nachdem Sie Ihren Bot bei Azure bereitgestellt und so konfiguriert haben, dass er mit Ihrem Moodle-Server kommuniziert, ist es an der Zeit, Ihre Microsoft Teams-App bereitzustellen. Dazu laden Sie die Manifestdatei, die Sie im vorherigen Schritt von der Seite "Teams-Einstellungen" des Moodle-Plug-Ins heruntergeladen haben.
 
-Bevor Sie die App installieren können, müssen Sie sicherstellen, dass externe Apps und das Querladen von Apps aktiviert ist. Dazu können Sie [diese Schritte](https://docs.microsoft.com/MicrosoftTeams/admin-settings) ausführen. Nachdem Sie sichergestellt haben, dass externe Apps aktiviert sind, können Sie die folgenden Schritte ausführen, um die App bereitzustellen.
+Bevor Sie die App installieren können, müssen Sie sicherstellen, dass externe Apps und das Querladen von Apps aktiviert ist. Dazu können Sie [diese Schritte](./admin-settings.md) ausführen. Nachdem Sie sichergestellt haben, dass externe Apps aktiviert sind, können Sie die folgenden Schritte ausführen, um die App bereitzustellen.
 
 1. Öffnen Sie Microsoft Teams.
 2. Klicken Sie **unten** links auf der Navigationsleiste auf das Store-Symbol.

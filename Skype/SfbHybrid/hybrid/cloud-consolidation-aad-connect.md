@@ -1,5 +1,5 @@
 ---
-title: Aktualisieren von Aad Connect, um mehr als eine Gesamtstruktur einzubeziehen
+title: Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzubeziehen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,24 +20,24 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: Dieser Anhang enthält detaillierte Schritte zum Aktualisieren von Aad Connect, um mehr als eine Gesamtstruktur als Teil der Cloud-Konsolidierung für Teams und Skype for Business einzubeziehen.
-ms.openlocfilehash: a61a45c8a492afd761f8cc6b1020b591851645b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Dieser Anhang enthält detaillierte Schritte zum Aktualisieren von AAD Connect, um mehr als eine Gesamtstruktur als Teil der Cloudkonsolidierung für Teams und Skype for Business zu enthalten.
+ms.openlocfilehash: 19b761f3b64caf7afad7d37a51ae391e23d6b5ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049097"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120374"
 ---
-# <a name="update-aad-connect-to-include-more-than-one-forest"></a>Aktualisieren von Aad Connect, um mehr als eine Gesamtstruktur einzubeziehen
+# <a name="update-aad-connect-to-include-more-than-one-forest"></a>Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzubeziehen
 
-Azure AD Connect unterstützt die [Synchronisierung von mehreren Gesamtstrukturen](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-topologies). Es unterstützt jedoch nur eine Instanz von Azure AD Connect-Synchronisierung mit Aad. In Fällen, in denen Azure AD bereits in einer Gesamtstruktur installiert ist, muss die vorhandene Instanz von Aad Connect daher zur Synchronisierung von der zusätzlichen Gesamtstruktur aktualisiert werden.
+Azure AD Connect unterstützt [die Synchronisierung aus mehreren Gesamtstrukturen](/azure/active-directory/connect/active-directory-aadconnect-topologies). Es unterstützt jedoch nur eine Instanz der Azure AD Connect-Synchronisierung mit AAD. Daher muss in Fällen, in denen Azure AD bereits in einer Gesamtstruktur installiert ist, die vorhandene Instanz von AAD Connect aktualisiert werden, damit sie von der zusätzlichen Gesamtstruktur synchronisiert wird.
 
- - Wenn alle Identitäten nur einmal in beiden Gesamtstrukturen dargestellt werden (das heißt, Sie haben keine e-Mail-aktivierten Kontakte hergestellt), können Sie einfach den Aad-Verbindungs-Assistenten erneut ausführen, die Option "Synchronisierungsoptionen anpassen" auswählen und dann auf der Seite " **Ihre Verzeichnisse verbinden** " den Namen der zusätzlichen Gesamtstruktur und creds eingeben.<br><br>
+ - Wenn alle Identitäten nur einmal in beiden Gesamtstrukturen dargestellt werden (d. h., Sie haben keine E-Mail-aktivierten Kontakte hergestellt), können Sie einfach  den Assistenten für AAD-Verbindungen erneut ausführen, "Synchronisierungsoptionen anpassen" auswählen und dann auf der Seite Ihre Verzeichnisse verbinden den Namen der zusätzlichen Gesamtstruktur und der zusätzlichen Spalten eingeben.<br><br>
  ![Die Seite "Ihre Verzeichnisse verbinden"](../media/cloud-consolidation-connect-your-directories.png)
- - Wenn Benutzer jedoch in mehr als einem Verzeichnis vorhanden sein können und Sie die Daten zusammenführen (beispielsweise wenn Kontaktobjekte in einer Gesamtstruktur vorhanden sind, die Benutzern in einer anderen Gesamtstruktur entspricht), müssen Sie Azure AD Connect deinstallieren und erneut installieren.  Dies liegt daran, dass die Bedingung "gesamtstrukturübergreifende Join Rules" nur während der ersten Installation konfiguriert werden kann. Dies geschieht auf der folgenden Seite:<br><br>
- ![Die Seite zum eindeutigen Identifizieren Ihrer Benutzer](../media/cloud-consolidation-uniquely-identifying-your-users.png)
+ - Wenn Benutzer jedoch in mehreren Verzeichnissen vorhanden sein können und Sie die Daten zusammenführen (z. B. wenn Kontaktobjekte in einer Gesamtstruktur vorhanden sind, die Benutzern in einer anderen Gesamtstruktur entspricht), müssen Sie Azure AD Connect deinstallieren und erneut installieren.  Dies liegt daran, dass die bedingung für gesamtstrukturübergreifende Verknüpfungsregeln nur während der ersten Installation konfiguriert werden kann. Dies geschieht auf der folgenden Seite:<br><br>
+ ![Die Seite Eindeutig identifizieren ihrer Benutzer](../media/cloud-consolidation-uniquely-identifying-your-users.png)
 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Cloud-Konsolidierung für Teams und Skype for Business](cloud-consolidation.md)
+[Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)

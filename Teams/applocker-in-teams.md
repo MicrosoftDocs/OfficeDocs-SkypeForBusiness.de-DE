@@ -1,5 +1,5 @@
 ---
-title: AppLocker-Steuerelement Richtlinien
+title: AppLocker-Steuerelementrichtlinien
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -12,36 +12,36 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie die Desktopclientanwendung für Teams mit AppLocker-Anwendungssteuerungsrichtlinien aktivieren.
+description: Erfahren Sie, wie Sie die Desktopclientanwendung von Teams mit AppLocker-Anwendungssteuerungsrichtlinien aktivieren.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4e70fc4502851137494c316db9eff7faefc140d1
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: d6e6040956ba5e5469076b4fbbab337f58268c68
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526691"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120847"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>AppLocker-Anwendungssteuerungsrichtlinien in Microsoft Teams
 
-In diesem Artikel wird erläutert, wie Sie die Desktop Client-App für Teams mit AppLocker-Anwendungssteuerungsrichtlinien aktivieren. Die Verwendung von AppLocker dient dazu, die Programm-und Skriptausführung durch nicht administrative Benutzer zu beschränken. Weitere Informationen und Anleitungen zu AppLocker finden Sie unter [Was ist AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
+In diesem Artikel wird erläutert, wie Sie die Teams-Desktopclient-App mit AppLocker-Anwendungssteuerungsrichtlinien aktivieren. Die Verwendung von AppLocker dient dazu, die Programm- und Skriptausführung durch Benutzer ohne Administratorrechte einzuschränken. Weitere Informationen und Anleitungen zu AppLocker finden Sie unter [Was ist AppLocker?](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
 
-Das Verfahren zum Aktivieren von Teams mit AppLocker erfordert das Erstellen von AppLocker-basierten Allow-Auflistungs Richtlinien. Richtlinien werden mit der Gruppenrichtlinien-Verwaltungssoftware und/oder der Verwendung von Windows PowerShell-Cmdlets für AppLocker erstellt (Weitere Informationen finden Sie in der [technischen Referenz zu AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) ). Die AppLocker-Richtlinie wird im XML-Format gespeichert und kann mit einem beliebigen Text-oder XML-Editor bearbeitet werden.
+Der Prozess zum Aktivieren von Teams mit AppLocker erfordert die Erstellung von AppLocker-basierten Richtlinien für die Aufnahme von Zulassen. Richtlinien werden mit Gruppenrichtlinienverwaltungssoftware und/oder der Verwendung von Windows PowerShell-Cmdlets für AppLocker erstellt (weitere Informationen finden Sie in der technischen Referenz zu [AppLocker).](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) Die AppLocker-Richtlinie wird im XML-Format gespeichert und kann mit jedem beliebigen Text- oder XML-Editor bearbeitet werden.
 
-## <a name="teams-allow-list-with-applocker"></a>Liste "Teams zulassen" mit AppLocker
+## <a name="teams-allow-list-with-applocker"></a>Liste der Zulassen von Teams mit AppLocker
 
-AppLocker-Regeln sind in Regelsammlungen unterteilt. AppLocker-Regeln gelten für die Ziel-APP und sind die Komponenten, aus denen die AppLocker-Richtlinie besteht.  
+AppLocker-Regeln sind in Regelsammlungen organisiert. AppLocker-Regeln gelten für die gezielte App, und sie sind die Komponenten, aus der die AppLocker-Richtlinie besteht.  
 
-Um Teams zu ermöglichen, empfehlen wir, die [Herausgeber Konditions Regeln](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) zu verwenden, da alle Teams-APP-Dateien digital signiert sind.
+Um Teams zu erlauben, empfehlen [](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) wir, die Herausgeberbedingungsregeln zu verwenden, da alle Teams-App-Dateien digital signiert sind.
   
-Es wird nicht empfohlen, Pfadregeln zu verwenden, da das Installationsverzeichnis für Teams vom Benutzer beschreibbar ist. Wir empfehlen auch nicht die Verwendung von Hashregeln, da die Regeln jedes Mal aktualisiert werden müssen, wenn die Client-App für Teams aktualisiert wird.
+Die Verwendung von Pfadregeln wird nicht empfohlen, da das Installationsverzeichnis von Teams vom Benutzer beschreibbar ist. Außerdem wird die Verwendung von Hashregeln nicht empfohlen, da die Regeln bei jeder Aktualisierung der #A0 aktualisiert werden müssten.
 
-Da die ausführbaren Dateien des Teams-Desktops digital signiert sind, identifiziert die Publisher-Bedingung eine APP-Datei auf der Grundlage ihrer digitalen Signatur und der eingebetteten Versionsattribute. Die digitale Signatur enthält Informationen über das Unternehmen, das die APP-Datei (den Herausgeber) erstellt hat. Die Versionsinformationen, die aus der binären Ressource abgerufen werden, enthalten den Namen des Produkts, zu dem die Datei gehört, und die Versionsnummer der Anwendungsdatei.
+Da ausführbare Teams-Desktopdateien digital signiert sind, identifiziert die Herausgeberbedingung eine App-Datei basierend auf ihrer digitalen Signatur und eingebetteten Versionsattributen. Die digitale Signatur enthält Informationen über das Unternehmen, das die App-Datei (den Herausgeber) erstellt hat. Die Versionsinformationen, die aus der Binärressource erhalten werden, enthalten den Namen des Produkts, zu dem die Datei gehört, und die Versionsnummer der Anwendungsdatei.
 
-### <a name="example-of-publisher-condition-rules"></a>Beispiel für Herausgeber Konditions Regeln
+### <a name="example-of-publisher-condition-rules"></a>Beispiel für Herausgeberbedingungsregeln
 
-Für die Client-App "Teams" (alle Dateien, alle Versionen) fügen Sie den ausführbaren Regeln & dll-Regeln Folgendes hinzu:
+Fügen Sie für die Teams-Client-App (alle Dateien, alle Versionen) den ausführbaren Regeln & DLL-Regeln Folgendes hinzu:
 
 ```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
@@ -50,5 +50,5 @@ Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Was ist AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
- [Technische Referenz zu AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+[Was ist AppLocker?](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
+ [Technische Referenz für AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)

@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie, wie Sie ein Team in Microsoft Teams archivieren oder endgültig löschen können.
+description: In diesem Artikel erfahren Sie, wie Sie ein Team in Microsoft Teams archivieren oder endgültig löschen.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: da2d330986ca2fd924df75e0fcae6fc4388c5d48
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582762"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120837"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================
@@ -40,22 +40,22 @@ Wenn Sie ein Team löschen, werden auch Teamaktivitäten in standardmäßigen un
 
 ## <a name="archive-a-team"></a>Archivieren eines Teams
 
-Gehen folgendermaßen Sie vor, um ein Team zu archivieren. Sie müssen ein Team Dienstadministrator sein, um diese Änderungen vornehmen zu können. Informationen zum Abrufen von Administratorrollen und-Berechtigungen finden Sie unter [Verwenden von Teams-Administratorrollen zum Verwalten von Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles) .
+Gehen folgendermaßen Sie vor, um ein Team zu archivieren. Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
-1. Wählen Sie im Admin Center **Teams**aus.
+1. Wählen Sie im Admin Center **Teams aus.**
 2. Wählen Sie ein Team aus, indem Sie auf den Teamnamen klicken.
 3. Wählen Sie **Archivieren** aus. Die folgende Warnmeldung wird angezeigt.
 
     ![Screenshot der Teams-Archivierungsmeldung](media/teams-archive-message.png)
 
-4. Wenn Sie verhindern möchten, dass Benutzer den Inhalt auf der SharePoint-Website und der wiki-Registerkarte Bearbeiten, die dem Team zugeordnet ist, wählen Sie **die SharePoint-Website für Teammitglieder schreibgeschützt machen**aus. (Die Besitzer von Teams können diesen Inhalt weiterhin bearbeiten.)
+4. Wenn Sie verhindern möchten, dass Personen den Inhalt auf der SharePoint-Website und der dem Team zugeordneten Registerkarte Wiki bearbeiten, wählen Sie schreibgeschützte **SharePoint-Website** für Teammitglieder erstellen aus. (Die Besitzer von Teams können diesen Inhalt weiterhin bearbeiten.)
 5. Wählen Sie **Archivieren** aus, um das Team zu archivieren. Der Status des Teams wird in **Archiviert** geändert.
 
 ## <a name="make-an-archived-team-active"></a>Aktivieren eines archivierten Teams
 
 Führen Sie die folgenden Schritte aus, um ein archiviertes Team wieder zu aktivieren.
 
-1. Wählen Sie im Admin Center **Teams**aus.
+1. Wählen Sie im Admin Center **Teams aus.**
 2. Wählen Sie ein Team aus, indem Sie auf den Teamnamen klicken.
 3. Wählen Sie **Archivierung aufheben** aus. Der Status des Teams wird in **Aktiv** geändert.
 
@@ -63,16 +63,16 @@ Führen Sie die folgenden Schritte aus, um ein archiviertes Team wieder zu aktiv
 
 Wenn das Team in Zukunft nicht mehr benötigt wird, dann können Sie es löschen, anstatt es zu archivieren. Führen Sie folgende Schritte aus, um ein Team zu löschen.
 
-1.  Wählen Sie im Admin Center **Teams**aus.
+1.  Wählen Sie im Admin Center **Teams aus.**
 2.  Wählen Sie ein Team aus, indem Sie auf den Teamnamen klicken.
 3.  Wählen Sie **Löschen** aus. Eine Bestätigungsmeldung wird angezeigt.
 4.  Wählen Sie **Löschen** aus, um das Team endgültig zu löschen.
 
 ## <a name="restore-a-deleted-team"></a>Wiederherstellen eines gelöschten Teams
 
-Führen Sie die folgenden Schritte aus, um ein gelöschtes Team wiederherzustellen, indem Sie die Microsoft 365-Gruppe wiederherstellen, die dem Team zugeordnet ist. Beim Wiederherstellen der Microsoft 365-Gruppe für ein Team werden Team Inhalte, einschließlich Tabstopps, Standardkanälen und privaten Kanälen sowie deren zugehörigen Websitesammlungen, wiederhergestellt.
+Führen Sie die folgenden Schritte aus, um ein gelöschtes Team wiederherzustellen, indem Sie die Microsoft 365-Gruppe wiederherstellen, die dem Team zugeordnet ist. Durch das Wiederherstellen der Microsoft 365-Gruppe für ein Team werden Teaminhalte wiederhergestellt, einschließlich Registerkarten, Standardkanälen und privaten Kanälen sowie der zugehörigen Websitesammlungen.
 
-Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, weil Sie die Gruppe wiederherstellen können. Weitere Informationen finden Sie unter [Wiederherstellen einer gelöschten Gruppe](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).
+Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahrt. Dieser 30-Tage-Zeitraum wird als "vorläufiges Löschen" bezeichnet, weil Sie die Gruppe wiederherstellen können. Weitere Informationen finden Sie unter [Wiederherstellen einer gelöschten Gruppe.](/microsoft-365/admin/create-groups/restore-deleted-group)
 
 ### <a name="install-the-azureadpreview-module"></a>Installieren des AzureADPreview-Moduls
 
@@ -99,7 +99,7 @@ Standardmäßig wird eine gelöschte Microsoft 365-Gruppe 30 Tage lang aufbewahr
     Connect-AzureAD
     ```
     Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihrem Administratorkonto und -kennwort an.  
-2. Führen Sie die folgenden Schritte aus, um eine Liste aller Soft-Deleted Microsoft 365-Gruppen anzuzeigen, die sich noch im 30-tägigen Aufbewahrungszeitraum befinden. Verwenden Sie den Parameter **-All $True**, wenn Sie über viele Gruppen verfügen.
+2. Führen Sie die folgenden Schritte aus, um eine Liste aller microsoft 365-Gruppen, die sich noch innerhalb des 30-tägigen Aufbewahrungszeitraums befinden, zu anzeigen. Verwenden Sie den Parameter **-All $True**, wenn Sie über viele Gruppen verfügen.
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```

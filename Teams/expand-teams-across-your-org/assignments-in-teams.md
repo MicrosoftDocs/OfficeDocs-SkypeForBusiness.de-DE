@@ -17,94 +17,93 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in Teams für Bildung verwalten.
+description: Erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in Teams for Education verwalten.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f283a4fb2d49778f4b0e8b31f46dada46f900e6f
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616909"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121373"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
-Mit den Funktionen "Aufgaben" und "Noten" in "Teams für Bildung" können Pädagogen ihren Schülern Aufgaben, Arbeit oder Quizaufgaben zuweisen. Pädagogen können Zuordnungs Zeitpläne, Anweisungen, Hinzufügen von Ressourcen zum umwandeln, benoten mit Rubriken und vieles mehr verwalten. Sie können auch Kurs-und einzelne Kursteilnehmerstatus auf der Registerkarte "Noten" nachverfolgen.
+Die Funktionen "Aufgaben und Noten" in Teams for Education ermöglichen Es Lehrkräften, ihren Schülern Aufgaben, Arbeit oder Quizze zuzuordnen. Lehrkräfte können Zeitachsen, Anweisungen für Aufgaben verwalten, Ressourcen zum Einwechseln hinzufügen, mit Rubriken benoten und vieles mehr. Sie können auch den Kurs- und individuellen Fortschritt der Kursteilnehmer auf der Registerkarte Noten nachverfolgen.
 
-[Weitere Informationen zu Aufgaben und Noten in Teams für Bildung](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments).
+[Weitere Informationen zu Aufgaben und Noten finden Sie in Teams for Education.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
-> Details zu Teams-Aufgaben auf verschiedenen Plattformen finden Sie unter [Teams-Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
+> Details zu Teams-Aufgaben auf verschiedenen Plattformen finden Sie unter [Teams-Features nach Plattform.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Aufgaben Integrationen im Microsoft Teams Admin Center
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Aufgabenintegrationen im Microsoft Teams Admin Center
 
-Mithilfe der Administratoreinstellungen im Microsoft Teams Admin Center können Sie Features für Pädagogen in Ihrer Organisation und deren Schüler aktivieren oder deaktivieren. Die folgenden Einstellungen beziehen sich auf Aufgaben:
+Mithilfe der Administratoreinstellungen im Microsoft Teams Admin Center können Sie Features für Lehrkräfte in Ihrer Organisation und deren Kursteilnehmer aktivieren oder deaktivieren. Die folgenden Einstellungen sind im Zusammenhang mit "Aufgaben" zu finden:
 
 <a name="#bkemaildigest"> </a>
-### <a name="weekly-guardian-email-digest"></a>Wöchentlicher Guardian-e-Mail-Digest
+### <a name="weekly-guardian-email-digest"></a>Wöchentlicher Guardian-E-Mail-Digest
 
 
-Guardian-e-Mails werden an alle Wochenenden an Eltern oder Erziehungsberechtigte gesendet. Die e-Mail enthält Informationen zu Aufgaben aus der vorherigen Woche und für die kommende Woche. Die übergeordnete und Guardian-Synchronisierung kann mithilfe von [School Data Sync](https://docs.microsoft.com/schooldatasync/parent-contact-sync)eingerichtet werden.
+Guardian-E-Mails werden jedes Wochenende an Eltern oder Erziehungsberechtigte gesendet. Die E-Mail enthält Informationen zu Aufgaben aus der vorherigen Woche und der kommenden Woche. Die Synchronisierung von Eltern und Erziehungsberechtigten kann mithilfe von [School Data Sync eingerichtet werden.](/schooldatasync/parent-contact-sync)
 
-1. Importieren Sie über Eltern-und Guardian-Synchronisierung in SDS die übergeordneten Kontaktinformationen. Anweisungen zum Aktivieren der Synchronisierung von Eltern und Guardian finden Sie unter [Aktivieren der übergeordneten und Guardian-Synchronisierung](https://docs.microsoft.com/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
+1. Importieren Sie übergeordnete Kontaktinformationen über parent and Guardian Sync in SDS. Anweisungen zum Aktivieren der Synchronisierung von Eltern und Erziehungsberechtigten finden Sie unter Aktivieren der Synchronisierung von Eltern [und Erziehungsberechtigten.](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)
 
-2. Aktivieren Sie die Einstellung Guardian im Microsoft Teams Admin Center, da die Einstellung standardmäßig deaktiviert ist. Damit können Lehrer eine wöchentliche Zusammenfassung senden.
+2. Aktivieren Sie die Guardian-Einstellung im Microsoft Teams Admin Center, da die Einstellung standardmäßig deaktiviert ist. Auf diese Weise können Lehrkräfte wöchentlich einen Digest senden.
 
    > [!NOTE]
-   > Lehrer können den Digest ablehnen, indem Sie die Einstellung in Ihrem eigenen persönlichen kursteam deaktivieren (**Zuordnungseinstellungen > Eltern/Betreuer-e-Mails**).
+   > Lehrkräfte können den Digest deaktivieren, indem sie die Einstellung innerhalb ihres eigenen persönlichen Kursteams (Aufgabeneinstellungen >**Eltern-/Erziehungsberechtigten-E-Mails) deaktivieren.**
 
-Um zu überprüfen, ob Eltern die e-Mail erhalten, müssen die folgenden drei Elemente wahr sein:
+Um zu überprüfen, ob Eltern die E-Mail erhalten, müssen die folgenden drei Elemente wahr sein:
 
- - E-Mail-Adresse, die dem Kursteilnehmer Profil in SDS angefügt und als _Elternteil_ oder _Erziehungsberechtigter_ markiert ist. Ausführliche Informationen finden Sie unter [übergeordnetes und Guardian-Synchronisierungsdatei Format](https://docs.microsoft.com/schooldatasync/parent-contact-sync-file-format).
+ - E-Mail-Adresse, die an das Studentenprofil in SDS angefügt und als _"Elternteil"_ oder "Erziehungsberechtigter" _gekennzeichnet ist._ Details finden Sie unter [Parent and Guardian Sync File Format](/schooldatasync/parent-contact-sync-file-format).
 
- - Die Kursteilnehmer gehören mindestens einer Klasse an, in der e-Mail-Nachrichten nicht vom Lehrer in den [Zuordnungseinstellungen](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)deaktiviert werden.
+ - Die Kursteilnehmer gehören mindestens einer Klasse an, in der E-Mail vom Lehrer in den [Aufgabeneinstellungen nicht deaktiviert wird.](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)
 
- - Die e-Mails enthalten Informationen zu Aufgaben, die ein Fälligkeitsdatum in der vorherigen Woche oder in der nächsten Woche hatten.
+ - Die E-Mails enthalten Informationen zu Aufgaben, die in der vorherigen Oder in der kommenden Woche ein Fälligkeitsdatum hatten.
 
-Die Standardeinstellung für dieses Feature ist- **aus**.
+Die Standardeinstellung für dieses Feature ist : **Aus**.
 
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
-Microsoft MakeCode ist eine blockbasierte Codierungs Plattform, die die Computerwissenschaften für alle Kursteilnehmer zum Leben erweckt. 
+Microsoft MakeCode ist eine blockbasierte Codierungsplattform, die die Computerwissenschaft für alle Kursteilnehmer zum Leben erweckt. 
 
-MakeCode ist ein Microsoft-Produkt, das den Microsoft- [Nutzungsbedingungen](https://go.microsoft.com/fwlink/?LinkID=206977) und den [Datenschutz](https://go.microsoft.com/fwlink/?LinkId=521839) Richtlinien unterliegt.
+MakeCode ist ein Microsoft-Produkt, [](https://go.microsoft.com/fwlink/?LinkID=206977) das den Microsoft-Nutzungsbedingungen und den [Datenschutzrichtlinien](https://go.microsoft.com/fwlink/?LinkId=521839) unterliegt.
 
-Die Standardeinstellung für dieses Feature ist- **aus**.
+Die Standardeinstellung für dieses Feature ist : **Aus**.
 
-Zum Aktivieren von MakeCode-Aufgaben in Teams wechseln Sie zum **Team Admin Center**, navigieren Sie zum Abschnitt **Aufgaben** , und aktivieren Sie die Option MakeCode-Umschaltfläche **auf ein**. Klicken Sie auf **Speichern**. Lassen Sie einige Stunden dauern, bis diese Einstellungen wirksam werden.
+Um MakeCode-Zuordnungen in Teams zu aktivieren, wechseln  Sie zum **Teams Admin Center,** navigieren Sie zum Abschnitt Aufgaben, und aktivieren Sie die Umschaltoption MakeCode auf **Ein.** Klicken Sie auf **Speichern**. Lassen Sie ein paar Stunden, bis diese Einstellungen wirksam werden.
 
-Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [Video Demonstration](https://makecode.com/blog/teams/teams-assignments).
+Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [Videodemonstration.](https://makecode.com/blog/teams/teams-assignments)
 
 [Weitere Informationen zu MakeCode](https://aka.ms/makecode).
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
 
-[Turnitin](https://www.turnitin.com/) ist ein akademischer Integritätsdienst. Hierbei handelt es sich um ein Produkt oder einen Dienst eines Drittanbieters, der seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
+[Turnitin](https://www.turnitin.com/) ist ein Dienst für akademische Integrität. Dies ist ein Produkt oder eine Dienstleistung eines Drittanbieters, das eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Verwendung von Produkten und Diensten von Drittanbietern verantwortlich.
 
-Die Standardeinstellung für dieses Feature ist- **aus**.
+Die Standardeinstellung für dieses Feature ist : **Aus**.
 
-Zum Aktivieren von Turnitin für Ihre Organisation benötigen Sie ein Turnitin-Abonnement. Anschließend können Sie die folgenden Informationen eingeben, die in ihrer Turnitin-Verwaltungskonsole zu finden sind:
+Um Turnitin für Ihre Organisation zu aktivieren, benötigen Sie ein Turnitin-Abonnement. Anschließend können Sie die folgenden Informationen eingeben, die sie in Ihrer Turnitin Admin Console finden:
 
-  * **TurnitinApiKey**: Hierbei handelt es sich um eine 32-Zeichen-GUID, die in der Admin-Konsole unter Integrationen gefunden wird.
-  * **TurnitinApiUrl**: Dies ist die HTTPS-URL Ihrer Turnitin-Verwaltungskonsole.
+  * **TurnitinApiKey:** Dies ist eine GUID mit 32 Zeichen, die in der Administratorkonsole unter Integrationen gefunden wurde.
+  * **TurnitinApiUrl:** Dies ist die HTTPS-URL Ihrer Turnitin-Verwaltungskonsole.
 
-Hier sind einige Anweisungen, die Ihnen bei der Behebung dieser Informationen helfen.
+Hier sind einige Anweisungen, die Ihnen beim Abrufen dieser Informationen helfen.
 
-Die **TurnitinApiUrl** ist die Hostadresse Ihrer Admin-Konsole.
-Beispiel `https://your-tenant-name.turnitin.com`
+Die **TurnitinApiUrl** ist die Hostadresse Ihrer Administratorkonsole.
+Beispiel: `https://your-tenant-name.turnitin.com`
 
-In der Admin-Konsole können Sie eine Integration und einen API-Schlüssel erstellen, der der Integration zugeordnet ist.
+In der Administratorkonsole können Sie eine Integration und einen API-Schlüssel erstellen, der der Integration zugeordnet ist.
 
-Wählen Sie **Integrationen** aus dem Seitenmenü und dann **Integration hinzufügen** aus, und geben Sie der Integration einen Namen.
+Wählen **Sie im** Seitenmenü Integrationen und dann Integration hinzufügen **aus,** und geben Sie der Integration einen Namen.
 
 ![Screenshot mit dem Hinzufügen einer neuen Integration](./educationImages/Assignments_mopo_turnitin2.png)
 
-Nachdem Sie den Anweisungen folgen, wird Ihnen der **TurnitinApiKey** mitgeteilt. Kopieren Sie den API-Schlüssel, und fügen Sie ihn in das Microsoft Teams Admin Center ein.  Dies ist das einzige Mal, dass Sie den Schlüssel anzeigen können.
+Der **TurnitinApiKey** wird Ihnen angezeigt, nachdem Sie den Eingabeaufforderungen folgen. Kopieren Sie den API-Schlüssel, und fügen Sie ihn in das Microsoft Teams Admin Center ein.  Dies ist der einzige Zeitpunkt, zu dem Sie den Schlüssel anzeigen können.
 
-![Screenshot mit dem Kopieren des API-Schlüssels](./educationImages/Assignments_mopo_turnitin3.png)
+![Screenshot des Kopierens des API-Schlüssels](./educationImages/Assignments_mopo_turnitin3.png)
 
-Wenn Sie im Admin Center für diese Einstellung auf die Schaltfläche " **Speichern** " klicken, können diese Einstellungen einige Stunden in Kraft treten.
-
+Nachdem Sie **im** Admin Center für diese Einstellung auf die Schaltfläche Speichern geklickt haben, lassen Sie einige Stunden zu, bis diese Einstellungen wirksam werden.

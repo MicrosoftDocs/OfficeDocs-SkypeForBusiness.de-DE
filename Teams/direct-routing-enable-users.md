@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie Benutzer microsoft Phone System Direct Routing aktivieren.
-ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421310"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122219"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -46,7 +46,7 @@ Wenn Sie bereit sind, Benutzer für direct Routing zu aktivieren, führen Sie di
 
 Es gibt zwei Optionen zum Erstellen eines neuen Benutzers in Microsoft 365 oder Office 365. Microsoft empfiehlt Ihrer Organisation jedoch, eine Option zu wählen, um Routingprobleme zu vermeiden: 
 
-- Erstellen Sie den Benutzer in lokalem Active Directory, und synchronisieren Sie den Benutzer mit der Cloud. Weitere Informationen finden Sie unter Integrieren Ihrer lokalen [Verzeichnisse in Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)
+- Erstellen Sie den Benutzer in lokalem Active Directory, und synchronisieren Sie den Benutzer mit der Cloud. Weitere Informationen finden Sie unter Integrieren Ihrer lokalen [Verzeichnisse in Azure Active Directory.](/azure/active-directory/connect/active-directory-aadconnect)
 - Erstellen Sie den Benutzer direkt im Microsoft 365 Admin Center. Weitere Informationen finden Sie unter Hinzufügen von Benutzern einzeln oder in Massen [zu Microsoft 365 oder Office 365 – Hilfe für Administratoren.](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec) 
 
 Wenn Ihre Skype for Business Online-Bereitstellung mit Skype for Business 2015 oder Lync 2010 oder Lync 2013 lokal besteht, besteht die einzige unterstützte Option in der Erstellung des Benutzers im lokalen Active Directory und dem Synchronisieren des Benutzers mit der Cloud (Option 1). 
@@ -123,7 +123,7 @@ Direct Routing ermöglicht es Ihnen, den Anruf an einen Benutzer zu beenden und 
 
 Für direktes Routing muss sich der Benutzer im Modus "Nur Teams" befinden, um sicherzustellen, dass eingehende Anrufe im Teams-Client landen. Um Benutzer in den Modus "Nur Teams" zu setzen, weisen Sie ihnen die Instanz "UpgradeToTeams" von TeamsUpgradePolicy zu. Weitere Informationen finden Sie unter [Upgradestrategien für IT-Administratoren.](upgrade-to-teams-on-prem-implement.md) Wenn Ihre Organisation Skype for Business Server oder Skype for Business Online verwendet, finden Sie im folgenden Artikel Informationen zur Interoperabilität zwischen Skype und Teams: Migration und Interoperabilität mit [Skype for Business.](migration-interop-guidance-for-teams-with-skype.md)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [Planen von direktem Routing](direct-routing-plan.md)
 

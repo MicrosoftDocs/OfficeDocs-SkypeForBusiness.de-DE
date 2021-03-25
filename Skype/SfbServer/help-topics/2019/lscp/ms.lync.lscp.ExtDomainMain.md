@@ -15,19 +15,17 @@ localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: f3f53224b7739005a852b6303277ed8f5f795d36
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f1ca1fc3e09c6f7139e63c1e1842587b92e95068
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808655"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121109"
 ---
 # <a name="federated-domains"></a>Verbunddomänen
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Konfigurieren des Zugriffs für Verbundpartner](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [Konfigurieren des Zugriffs für Verbundpartner](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [Überwachen und Steuern des Verbundpartnerzugriffs](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
-
-
+- [Überwachen und Steuern des Verbundpartnerzugriffs](/previous-versions/office/lync-server-2013/lync-server-2013-configure-support-for-allowed-external-domains)

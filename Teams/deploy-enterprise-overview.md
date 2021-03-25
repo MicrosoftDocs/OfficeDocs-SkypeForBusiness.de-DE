@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b751ccebfd553f59b6144ea6b6f28db515e9c1d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395427"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121413"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams Enterprise-Bereitstellung – Übersicht
 
@@ -75,7 +75,7 @@ Ein Beispiel dazu, wie der Netzwerkplaner Ihr Netzwerk planen kann, finden Sie u
 Der Advisor für Teams ist eine Lösung innerhalb von Teams, in der Teams, Kanäle, Dateifreigaben und Planner zusammenkommen, um ein Bereitstellungsprojekt für Ihre Organisation zu erstellen. Der Teamberater erstellt einen Projektplan speziell für den von Ihnen ausgewählten Workload (z. B. Chat, Teams und Kanäle), der die empfohlenen Aufgaben umfasst, die Sie während der Bereitstellung ausführen sollten. Jede Aufgabe enthält Anweisungen, Vorschläge und Links zu relevanten Artikeln, die Sie durch den Vorgang führen. Sie können einer oder mehrere Personen Aufgaben auf einfache Weise zuweisen und für jede Aufgabe ein Start- und Enddatum angeben.
 
 > [!TIP]
-> Erfahren Sie, wie Sie den Advisor für Teams verwenden können, um Sie bei der Planung Ihrer Teams-Bereitstellung zu unterstützen, indem Sie das Modul [Rollout mithilfe des Advisors für Teams](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/) in Microsoft Learn abschließen.
+> Erfahren Sie, wie Sie den Advisor für Teams verwenden können, um Sie bei der Planung Ihrer Teams-Bereitstellung zu unterstützen, indem Sie das Modul [Rollout mithilfe des Advisors für Teams](/learn/modules/m365-teams-rollout-using-advisor/) in Microsoft Learn abschließen.
 
 > [!div class="nextstepaction"]
 > [Zum Advisor für Teams wechseln](https://admin.teams.microsoft.com/teams-deployment)

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren die folgenden Eigenschaften:'
-ms.openlocfilehash: 277f1b78db9a756ea3a31bcae060d59ab3e69bcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c53aa49771a7e2c1a239319901059dc5d22b7eaf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822125"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121028"
 ---
 # <a name="registrar-sba-settings-expander"></a>SBA-Einstellungen der Registrierungsstelle – Erweiterung
 
@@ -43,4 +43,4 @@ Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren die fo
 
 ## <a name="see-also"></a>Siehe auch
 
-[Planen von Enterprise-VoIP A0](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[Planen Enterprise-VoIP Ausfallsicherheit](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um die Remote-Mitarbeitern in Ihrer behördlichen Organisation dabei zu unterstützen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (Work from home – WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e2b3a713ee1c2a1f5de1f858df19dd25c5aef0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583874"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121383"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Unterstützung von Remote-Mitarbeitern von Behörden in Microsoft Teams
 
@@ -31,13 +31,13 @@ Wenn Sie Microsoft Teams als Bestandteil von Office 365 für Behörden ausführe
 
 Erfahren Sie, wie Sie Teams in Ihrer Organisation bereitstellen können:
 
-  - Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) hat. 
+  - Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](/office365/servicedescriptions/teams-service-description) hat. 
 
   - Wenn Sie bereits über ein Abonnement verfügen, stellen Sie sicher, dass für jeden **[Teams aktiviert](../user-access.md)** ist.
 
   - Um eine schnelle Bereitstellung zu ermöglichen, rufen Sie [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) auf, um Teams in Ihrer Organisation bereitzustellen.
 
-  - Erfahren Sie, wie Ihre Organisation die ersten **[Besprechungen in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)** abhalten kann.
+  - Erfahren Sie, wie Ihre Organisation die ersten **[Besprechungen in Teams](../tutorial-meetings-in-teams.yml)** abhalten kann.
 
 ## <a name="end-user-communication"></a>Endbenutzerkommunikation
 
@@ -63,10 +63,10 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
 ## <a name="learn-more"></a>Weitere Informationen
 
-  - Beginnen Sie Ihre Teams-Nutzererfahrung mit einer Reihe von live abgehaltenen **[Interaktiven Schulungen](https://aka.ms/TeamsLiveTraining)**, die für die Einführung und Nutzung von Teams in Ihrer Organisation sind.
+  - Beginnen Sie Ihre Teams-Nutzererfahrung mit einer Reihe von live abgehaltenen **[Interaktiven Schulungen](../instructor-led-training-teams-landing-page.yml)**, die für die Einführung und Nutzung von Teams in Ihrer Organisation sind.
 
   - Nehmen Sie an einem unserer **[Onlinekurse](../instructor-led-training-teams-landing-page.yml)** teil, um Teams in Aktion zu sehen und Antworten auf Ihre Fragen zu erhalten.
 
   - Teilen Sie **[Detaillierte Schulungsvideos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)** mit Benutzern, die mehr erfahren möchten.
 
-  - Lesen Sie die **[Administrator-Dokumentation für Teams](https://docs.microsoft.com/MicrosoftTeams/)**, um sich mit dem Rollout und der Verwaltung von Teams vertraut zu machen.
+  - Lesen Sie die **[Administrator-Dokumentation für Teams](../index.yml)**, um sich mit dem Rollout und der Verwaltung von Teams vertraut zu machen.

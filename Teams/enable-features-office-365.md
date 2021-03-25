@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
+ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871086"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122189"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -42,7 +42,7 @@ Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Ce
 
 ### <a name="external-access"></a>Externer Zugriff
 
-**Externer Zugriff** ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation oder Domäne. Um den externen Zugriff zu konfigurieren, wechseln Sie zu [Microsoft Teams-Benutzern das Chatten und Kommunizieren mit Benutzern in einer anderen Microsoft Teams-Organisation ermöglichen](let-your-teams-users-communicate-with-other-people.md).
+**Externer Zugriff** ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation oder Domäne. Um den externen Zugriff zu konfigurieren, wechseln Sie zu [Microsoft Teams-Benutzern das Chatten und Kommunizieren mit Benutzern in einer anderen Microsoft Teams-Organisation ermöglichen](./manage-external-access.md).
 
 Hinzufügen oder Sperren einer Domäne:
 
@@ -69,7 +69,7 @@ Mithilfe von Tags können Benutzer mit einer Teilmenge von Personen in einem Tea
 
 #### <a name="email-integration"></a>E-Mail-Integration
 
-Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse eine E-Mail an einen Kanal in Microsoft Teams senden können. Benutzer können dies für jeden Kanal tun, der zu einem Team gehört, dessen Besitzer sie sind. Außerdem können Benutzer E-Mails an jeden Kanal in einem Team senden, in dem das Hinzufügen von Connectors für Teammitglieder aktiviert ist. Um die E-Mail-Integration zu aktivieren, stellen Sie sicher, dass **Benutzern das Senden von E-Mails an eine Kanal-E-Mail-Adresse erlauben** auf **Ein** festgelegt ist. Prüfen Sie als Nächstes, ob die Domäne für die E-Mail-Adresse des Absenders im Teams Admin Center unter "Unternehmensweite Einstellungen" > "Teams-Einstellungen" > "E-Mail-Integration" > **Kanal-E-Mails von diesen SMTP-Domänen akzeptieren** nicht blockiert ist. Es sollte entweder leer sein oder alle Domänen enthalten, von denen Sie E-Mails erwarten. Als Nächstes müssen Sie sicherstellen, dass Sie die notwendigen Regeln eingerichtet haben, damit [die E-Mail an die Teams-Kanal-E-Mail-Adresse nicht blockiert wird](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
+Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse eine E-Mail an einen Kanal in Microsoft Teams senden können. Benutzer können dies für jeden Kanal tun, der zu einem Team gehört, dessen Besitzer sie sind. Außerdem können Benutzer E-Mails an jeden Kanal in einem Team senden, in dem das Hinzufügen von Connectors für Teammitglieder aktiviert ist. Um die E-Mail-Integration zu aktivieren, stellen Sie sicher, dass **Benutzern das Senden von E-Mails an eine Kanal-E-Mail-Adresse erlauben** auf **Ein** festgelegt ist. Prüfen Sie als Nächstes, ob die Domäne für die E-Mail-Adresse des Absenders im Teams Admin Center unter "Unternehmensweite Einstellungen" > "Teams-Einstellungen" > "E-Mail-Integration" > **Kanal-E-Mails von diesen SMTP-Domänen akzeptieren** nicht blockiert ist. Es sollte entweder leer sein oder alle Domänen enthalten, von denen Sie E-Mails erwarten. Als Nächstes müssen Sie sicherstellen, dass Sie die notwendigen Regeln eingerichtet haben, damit [die E-Mail an die Teams-Kanal-E-Mail-Adresse nicht blockiert wird](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### <a name="files"></a>Dateien
 
@@ -124,7 +124,7 @@ Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype fo
 
 #### <a name="network-planner"></a>Netzwerkplaner
 
-Der Netzwerkplaner kann Sie beim Ermitteln und Organisieren von Netzwerkanforderungen für die Verbindung von Teams-Benutzern in Ihrer Organisation unterstützen.  Hier erfahren Sie mehr über die [Verwenden des Netzwerkplaners für Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
+Der Netzwerkplaner kann Sie beim Ermitteln und Organisieren von Netzwerkanforderungen für die Verbindung von Teams-Benutzern in Ihrer Organisation unterstützen.  Hier erfahren Sie mehr über die [Verwenden des Netzwerkplaners für Microsoft Teams](./network-planner.md).
 
 Sie können auch die Option "Teams-App im Hintergrund für Benutzer von Skype for Business herunterladen" auswählen.  Standardmäßig ist diese Einstellung aktiviert. Ist diese Einstellung aktiviert, so wird für diejenigen Benutzer, die auf Windows-PCs die Skype for Business-App nutzen, im Hintergrund die Teams-App heruntergeladen. Dies erfolgt, wenn der Koexistenzmodus für den Benutzer auf „Nur Teams“ gesetzt ist oder eine ausstehende Aktualisierungsbenachrichtigung in der Skype for Business-App aktiviert ist.
 

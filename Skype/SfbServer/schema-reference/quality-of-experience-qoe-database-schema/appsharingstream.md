@@ -1,5 +1,5 @@
 ---
-title: Tabelle "AppSharingStream"
+title: AppSharingStream-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
-description: Die Tabelle "AppSharingStream" enthält Quality of Experience-Metriken für die Netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 675b4ef689b62577cbee1cef93a28865ca09abfe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die AppSharingStream-Tabelle enthält Metriken zur Qualität der Benutzererfahrung für die Netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809675"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120877"
 ---
-# <a name="appsharingstream-table"></a>Tabelle "AppSharingStream"
+# <a name="appsharingstream-table"></a>AppSharingStream-Tabelle
  
-Die Tabelle "AppSharingStream" enthält Quality of Experience-Metriken für die Netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+Die AppSharingStream-Tabelle enthält Metriken zur Qualität der Benutzererfahrung für die Netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   
-|**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
+|**Spalte**|**Datentyp**|**Key/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primär, Fremd  <br/> |Datum und Uhrzeit des Sitzungsbeginns.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primär, Fremd  <br/> |Sequenzielle ID, anhand der zwischen Sitzungen unterschieden wird, die an denselben Tag und zur derselben Uhrzeit gestartet wurden.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primär, Fremd  <br/> | Siehe [MediaLine Table](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primär, Fremd  <br/> | Weitere Informationen finden Sie unter [MediaLine Table](./medialine-0.md). <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID des Anwendungsfreigabe-Datenstroms.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das "Zittern" der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Der maximale Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für das "Zittern" der Übertragung während eines Anrufs.) Hohe Jitterwerte werden in der Regel durch Überlastung oder einen überlasteten Medienserver verursacht und führen zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
@@ -42,19 +42,19 @@ Die Tabelle "AppSharingStream" enthält Quality of Experience-Metriken für die 
 |**RelativeOneWayTotal** <br/> |Gleitkommazahl  <br/> ||Gesamter Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
 |**RelativeOneWayAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittlicher Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
 |**RelativeOneWayMax** <br/> |Gleitkommazahl  <br/> ||Maximaler Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Gesamtanzahl der vorkommenden one-way-Lücken. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Lücken weisen auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayGapDensity** <br/> |Gleitkommazahl  <br/> ||Gesamtdichte für die einweg-lücke. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Lücken weisen auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayGapDuration** <br/> |Gleitkommazahl  <br/> ||Gesamtdauer der ein- und auswegsen Lücken. Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden. Lücken weisen auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts fließen und nicht in einem konstanten Datenstrom. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts fließen und nicht in einem konstanten Datenstrom. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts fließen und nicht in einem konstanten Datenstrom. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Gesamt vorkommende Einweglücken. Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts und nicht in einem konstanten Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayGapDensity** <br/> |Gleitkommazahl  <br/> ||Gesamtdichte der einwegspalten. Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts und nicht in einem konstanten Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayGapDuration** <br/> |Gleitkommazahl  <br/> ||Gesamt one-way gap duration. Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts und nicht in einem konstanten Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
 |**ApplicationSharingType** <br/> |varChar(256)  <br/> ||Anwendungsrolle (Freigebender Benutzer oder Betrachter) und Inhaltstyp.  <br/> |
 |**RDPTileProcessingLatencyTotal** <br/> |Gleitkommazahl  <br/> ||Gesamte Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
 |**RDPTileProcessingLatencyAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
 |**RDPTileProcessingLatencyMax** <br/> |Gleitkommazahl  <br/> ||Maximale Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
-|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden.  <br/> |
-|**RDPTileProcessingLatencyBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden.  <br/> |
-|**RDPTileProcessingLatencyBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer Übertragung mit Bursts handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Datenströmen und nicht in einem stabilen Datenstrom übertragen werden.  <br/> |
+|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts fließen und nicht in einem konstanten Datenstrom.  <br/> |
+|**RDPTileProcessingLatencyBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts fließen und nicht in einem konstanten Datenstrom.  <br/> |
+|**RDPTileProcessingLatencyBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Bei einer "bursty"-Übertragung handelt es sich um eine Übertragung, bei der Daten in unvorhersehbaren Bursts fließen und nicht in einem konstanten Datenstrom.  <br/> |
 |**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP).  <br/> |
 |**RDPTileProcessingLatencyGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je geringer die Lückendichte, desto besser das Wiedergabeerlebnis.  <br/> |
 |**RDPTileProcessingLatencyGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je kürzer die Lückendauer, desto besser das Wiedergabeerlebnis.  <br/> |
@@ -123,8 +123,6 @@ Die Tabelle "AppSharingStream" enthält Quality of Experience-Metriken für die 
 |**OutgoingFrameRateGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Rate ausgehender Frames für den Absender.  <br/> |
 |**AverageRectangleHeight** <br/> |int  <br/> ||Durchschnittliche Höhe der Videoauflösung in Pixeln.  <br/> |
 |**AverageRectangleWidth** <br/> |int  <br/> ||Durchschnittliche Breite der Videoauflösung in Pixeln.  <br/> |
-|**Eingehende Nachrichten** <br/> |bit  <br/> ||Durchschnittliche Framerate (in Frames pro Sekunde) für eingehende Übertragungen.  <br/> |
+|**Eingehendes** <br/> |bit  <br/> ||Durchschnittliche Framerate (in Frames pro Sekunde) für eingehende Übertragungen.  <br/> |
 |**Ausgehend** <br/> |bit  <br/> ||Durchschnittliche Framerate (in Frames pro Sekunde) für ausgehende Übertragungen.  <br/> |
 |**SenderIsCallerPAI** <br/> |bit  <br/> ||1 bedeutet, dass die Betrachter vom Anrufer zum Angerufenen verläuft.  <br/> 0 bedeutet, dass die Datenstromrichtung vom Angerufenen zum Anrufer verläuft.  <br/> |
-   
-

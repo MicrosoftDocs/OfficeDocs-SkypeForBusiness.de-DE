@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f85a9ab2b7ca4f9879e18565e3bbb6837f9cee8
-ms.sourcegitcommit: 660d0d65892408d0bb4ac1a870c88b11a7c6841e
+ms.openlocfilehash: 7781b7700bc1d53255c9604232e1fe2c574ba105
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "49527082"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120586"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
 
@@ -39,7 +39,7 @@ Wenn Sie wissen möchten, in welcher Region sich die Daten für Ihren Mandanten 
 > [!div class="mx-imgBorder"]
 > ![Screenshot der Tabelle „Datenspeicherort“ im Admin Center, einschließlich Microsoft Teams](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
-Eine detaillierte Liste aller Regionen und Länder und der dort gespeicherten Daten finden Sie unter [Speicherorte Ihrer Microsoft 365-Kundendaten](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide).
+Eine detaillierte Liste aller Regionen und Länder und der dort gespeicherten Daten finden Sie unter [Speicherorte Ihrer Microsoft 365-Kundendaten](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide).
 
 ## <a name="data-stored-with-a-third-party-storage-provider"></a>Bei einem Drittanbieter gespeicherte Daten
 

@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefon System Benutzer unter Verwendung einer Richtlinie mit dem Namen CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: Die Anrufer-ID kann sowohl für eingehende als auch ausgehende Anrufe für Benutzer des Telefonsystems mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
+ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255448"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120676"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
-Die Rufnummernanzeige kann für eingehende und ausgehende Anrufe für Telefon System Benutzer unter Verwendung einer Richtlinie mit dem Namen CallingLineIdentity gesteuert werden.
+Die Anrufer-ID kann sowohl für eingehende als auch ausgehende Anrufe für Benutzer des Telefonsystems mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
   
-Die Rufnummernanzeige Funktion steht allen Telefon System Benutzern unabhängig von der PSTN-Konnektivität zur Verfügung:
+Die Anrufer-ID-Funktion ist unabhängig von der PSTN-Konnektivität für alle Benutzer des Telefonsystems verfügbar:
 
 - Microsoft-Anrufpläne 
 
@@ -50,27 +50,27 @@ Die Rufnummernanzeige Funktion steht allen Telefon System Benutzern unabhängig 
   
 ## <a name="outbound-caller-id"></a>Ausgehende Anrufer-ID
 
-Für ausgehende PSTN-Rufnummernanzeige stehen drei Optionen zur Verfügung:
+Für ausgehende PSTN-Anrufer-ID stehen drei Optionen zur Verfügung:
   
-- Die dem Benutzer zugewiesene Telefonnummer, die der Standardwert ist.
+- Die telefonnummer, die dem Benutzer zugewiesen ist, was die Standardnummer ist.
     
-- Eine Telefonnummer, die als *Service* *-und gebührenfreie* Nummer in der Telefonnummern Inventur Ihres Anruf Plans eingestuft wird. Sie wird normalerweise einer automatischen Telefonzentrale oder einer Anruf-Warteschleife Ihrer Organisation zugewiesen.
+- Eine Telefonnummer, die als  Dienst und gebührenfreie Nummer in Ihrem *Anrufpläne-Telefonnummernbestand* klassifiziert ist. Sie wird normalerweise einer automatischen Telefonzentrale oder einer Anruf-Warteschleife Ihrer Organisation zugewiesen.
     
 - Auf „Anonym" festgelegt
     
 Die folgenden Arten von Telefonnummern können Sie jedoch nicht als ausgehende Anrufer-ID nicht zuweisen:
   
-- Alle Telefonnummern, die in ihren Anrufplänen als  *Benutzer*  klassifiziert sind Telefonnummern Inventar
+- Telefonnummern, die als Benutzer in Ihrem  *Telefonnummernbestand*  für Anrufpläne klassifiziert sind
     
 - Lokale Skype for Business Server-Telefonnummern
     
-Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](/microsoftteams/set-the-caller-id-for-a-user).
+Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](./set-the-caller-id-for-a-user.md).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Endbenutzer Steuerung der ausgehenden Anrufer-ID
+### <a name="end-user-control-of-outbound-caller-id"></a>Endbenutzersteuerung der ausgehenden Anrufer-ID
 
-Das EnableUserOverride-Attribut ermöglicht es einzelnen oder mehreren Benutzern, Ihre Einstellungen für die Rufnummernanzeige in **Anonymous**zu ändern. Dies gilt nur, wenn eine CallingLineIdentity -Richtlinie mit dem CallingIDSubstitute -Parameter LineURI oder Substitute konfiguriert ist. Der Standardwert von EnableUserOverride lautet False.
+Das EnableUserOverride-Attribut ermöglicht es einzelnen oder mehreren Benutzern, ihre Anrufer-ID-Einstellung in **Anonym zu ändern.** Dies gilt nur, wenn eine CallingLineIdentity -Richtlinie mit dem CallingIDSubstitute -Parameter LineURI oder Substitute konfiguriert ist. Der Standardwert von EnableUserOverride lautet False.
   
-Ihre Endbenutzer können Ihre Anrufer-ID auf **Anonym** festlegen, indem Sie auf der Registerkarte **Einstellungen** im Skype for Business-Desktop Client die Option **Endbenutzer anrufen** (sofern vom Administrator aktiviert) auswählen und dann **meine Telefonnummer und Profilinformationen für alle Anrufe verbergen**auswählen. In Teams können Benutzer in der oberen rechten Ecke zu Ihrem Profilbild wechseln, **Einstellungen**  >  **anrufen**auswählen und dann unter **Rufnummern**Anzeige die Option **meine Telefonnummer und Profilinformationen für alle Anrufe verbergen**auswählen.
+Ihre Endbenutzer können ihre Anrufer-ID auf  **Anonym** festlegen, indem sie die Registerkarte Einstellungen im Skype for Business-Desktopclient verwenden, Einen Endbenutzer anrufen **(sofern** vom Administrator aktiviert) und dann Meine Telefonnummer und Profilinformationen für alle Anrufe ausblenden **auswählen.** In Teams können Benutzer zu ihrem Profilbild in der oberen rechten Ecke wechseln, Einstellungen Anrufe auswählen und dann unter  >   **Anrufer-ID** meine Telefonnummer und Profilinformationen für alle Anrufe **ausblenden auswählen.**
   
 ||||
 |:-----|:-----|:-----|
@@ -83,22 +83,21 @@ Ihre Endbenutzer können Ihre Anrufer-ID auf **Anonym** festlegen, indem Sie auf
    
 ## <a name="inbound-caller-id"></a>Eingehende Anrufer-ID
 
-Das Telefon System zeigt die benannte ID für eine externe Telefonnummer an, wenn die Nummer einem Benutzer in Azure AD zugeordnet ist. Wenn sich die Telefonnummer nicht in Azure AD befindet, wird der von Telco bereitgestellte Anzeigename angezeigt, wenn er verfügbar ist.
+Das Telefonsystem zeigt die "ID" für eine externe Telefonnummer an, wenn die Nummer einem Benutzer in Azure AD zugeordnet ist. Wenn sich die Telefonnummer nicht in Azure AD befindet, wird der von der Telco bereitgestellte Anzeigename angezeigt, wenn sie verfügbar ist.
 
-Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, das jedoch für Ihre Endbenutzer auf der Seite "Benutzereinstellungen" nicht verfügbar ist. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
+Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, es steht den Endbenutzern jedoch auf der Seite mit den Benutzereinstellungen nicht zur Verfügung. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
   
-Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](/microsoftteams/set-the-caller-id-for-a-user).
+Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](./set-the-caller-id-for-a-user.md).
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)
+[Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)
 
-[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Nutzungsbedingungen für Notrufe](/microsoftteams/emergency-calling-terms-and-conditions)
+[Nutzungsbedingungen für Notrufe](./emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: Aufkleber mit Haftungsausschluss für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
-ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
-ms.translationtype: HT
+ms.openlocfilehash: 56ee2c83827c25da5b16cc3f7c2725a3daf815c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47652472"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121513"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Konfigurieren der Desktopfreigabe in Microsoft Teams
 ============================================
@@ -71,7 +71,7 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Verwenden von PowerShell zum Konfigurieren des freigegebenen Desktops
 
-Sie können auch das Cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) verwenden, um die Desktopfreigabe zu steuern. Legen Sie die folgenden Parameter fest:
+Sie können auch das Cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) verwenden, um die Desktopfreigabe zu steuern. Legen Sie die folgenden Parameter fest:
 
 - Description
 - ScreenSharingMode
@@ -82,4 +82,4 @@ Sie können auch das Cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.co
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Erfahren Sie mehr über das csTeamsMeetingPolicy-Cmdlet ](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Erfahren Sie mehr über das csTeamsMeetingPolicy-Cmdlet ](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).

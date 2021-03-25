@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie mithilfe von Teamvorlagen in Microsoft Graph Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um Inhalte und Dienste bereitzustellen.
+description: Erfahren Sie, wie Sie Teams-Vorlagen in Microsoft Graph verwenden, um Räume für die Zusammenarbeit mit Kanälen für verschiedene Themen zu erstellen und Apps zum Bereitstellen von Inhalten und Diensten vorab zu installieren.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,91 +19,91 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 484b3ac3fd3545ce306dcb6e3d833bb523df5a86
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+ms.openlocfilehash: 898adc4b67124fb6244afde2ecc156996e5a38c4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772196"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120706"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Erste Schritte mit Teams-Vorlagen mit Microsoft Graph
 
 > [!NOTE]
-> In den Teams-Vorlagen wird derzeit keine private Kanalerstellung unterstützt. Die Erstellung privater Kanäle ist in den Vorlagendefinitionen nicht enthalten.
+> Teams-Vorlagen unterstützen derzeit nicht das Erstellen privater Kanäle. Die Erstellung privater Kanäle ist in Vorlagendefinitionen nicht enthalten.
 
-In den Teams-Vorlagen handelt es sich um vorgefertigte Definitionen einer Teamstruktur, die sich um ein geschäftliches Bedürfnis oder Projekt entwickelt hat. Sie können [in der Admin-Konsole eine eigene Vorlage erstellen](get-started-with-teams-templates-in-the-admin-console.md). Mit Microsoft Graph verwenden Sie die vordefinierten Vorlagen. Mithilfe von Teams-Vorlagen können Sie schnell umfangreiche Räume für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um unternehmenskritische Inhalte und Dienste abzurufen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen bei der einfachen Erstellung konsistenter Teams in Ihrer Organisation helfen kann.
+Teams-Vorlagen sind vordefinierte Definitionen der Struktur eines Teams, die für einen geschäftlichen Bedarf oder ein Geschäftsprojekt entwickelt wurden. Sie können [eine eigene Vorlage in der Administratorkonsole erstellen.](get-started-with-teams-templates-in-the-admin-console.md) In Microsoft Graph verwenden Sie die vordefinierten Vorlagen. Mithilfe von Teams-Vorlagen können Sie schnell umfangreiche Zusammenarbeitsräume mit Kanälen für unterschiedliche Themen erstellen und Apps vorab installieren, um unternehmenskritische Inhalte und Dienste zu nutzen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, mit der Sie problemlos einheitliche Teams in Ihrer Organisation erstellen können.
 
-In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagen Typen sind und wie Sie mit einigen Beispiel Anforderungen ein Team aus einer Vorlage erstellen können.
+In diesem Artikel erläutern wir die Eigenschaften, die in Vorlagen definiert werden können, welche Basisvorlagentypen es sich handelt und wie Sie ein paar Beispielanforderungen verwenden können, um ein Team aus einer Vorlage zu erstellen.
 
-Dieser Artikel ist für Sie da:
+Dieser Artikel ist für Sie da, wenn Sie:
 
-- Verantwortlich für das Planen, bereitstellen und Verwalten mehrerer Teams in Ihrer Organisation<br>
-- Entwickler, die ein Team programmgesteuert mit vordefinierten Kanälen und Apps erstellen möchten
+- Verantwortlich für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Organisation<br>
+- Ein Entwickler, der programmgesteuert ein Team mit vordefinierten Kanälen und Apps erstellen möchte
 
-## <a name="teams-template-capabilities"></a>Teams-Vorlagen Funktionen
+## <a name="teams-template-capabilities"></a>Vorlagenfunktionen von Teams
 
-Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werden von Vorlagen unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. In der folgenden Tabelle finden Sie eine kurze Zusammenfassung der Inhalte und der nicht in den Teamvorlagen enthaltenen Informationen.
+Die meisten Eigenschaften in einem Team werden von Vorlagen eingeschlossen und unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. Die folgende Tabelle enthält eine schnelle Zusammenfassung der enthaltenen und nicht in Teams-Vorlagen enthaltenen Informationen.
 
-| **Team Eigenschaften, die von Teams-Vorlagen unterstützt werden** | **Team Eigenschaften, die von den Teams-Vorlagen noch nicht unterstützt werden** |
+| **Teameigenschaften, die von Teams-Vorlagen unterstützt werden** | **Teameigenschaften, die noch nicht von Teams-Vorlagen unterstützt werden** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| Basis Vorlagentyp | Teammitgliedschaft |
+| Basisorlagentyp | Teammitgliedschaft |
 | Teamname | Teambild |
-| Team Beschreibung | Kanaleinstellungen |
-| Team Sichtbarkeit (öffentlich oder privat) | Connectors |
-| Team Einstellungen (beispielsweise Member, Gast, @ Erwähnungen) | Dateien und Inhalte |
-| Automatisch bevorzugter Kanal | |
-| Installierte App | |
-| Angeheftete Tabstopps | |
+| Teambeschreibung | Kanaleinstellungen |
+| Sichtbarkeit des Teams (öffentlich oder privat) | Connectors |
+| Teameinstellungen (z. B. Mitglied, Gast, @Erwähnungen) | Dateien und Inhalte |
+| Autofavoritenkanal | |
+| App installiert | |
+| Angeheftet Registerkarten | |
 
 > [!NOTE]
-> In zukünftigen Versionen von Microsoft Teams werden weitere Vorlagen Funktionen hinzugefügt, daher sollten Sie sich über die neuesten Informationen zu den unterstützten Eigenschaften informieren.
+> Wir werden in zukünftigen Versionen von Microsoft Teams weitere Vorlagenfunktionen hinzufügen, also schauen Sie sich die neuesten Informationen zu unterstützten Eigenschaften an.
 
-## <a name="what-are-base-template-types"></a>Was sind Basisvorlagen Typen?
+## <a name="what-are-base-template-types"></a>Was sind Basisvorlagentypen?
 
-Basisvorlagen Typen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre apps, die im Store nicht zur Verfügung stehen. Darüber hinaus enthalten Basisvorlagen häufig teameigenschaften, die in den Teams-Vorlagen noch nicht einzeln unterstützt werden. Hier erfahren Sie, wie Sie die [Teamvorlagen in Microsoft Graph](get-started-with-teams-templates.md)verwenden.
+Basisvorlagentypen sind spezielle Vorlagen, die Microsoft für bestimmte Branchen erstellt hat. Diese Basisvorlagen enthalten häufig proprietäre Apps, die im Store nicht verfügbar sind. Darüber hinaus enthalten Basisvorlagen häufig Teameigenschaften, die in Teams-Vorlagen noch nicht einzeln unterstützt werden. Erfahren Sie, wie Sie die [Teamvorlagen in Microsoft Graph verwenden.](get-started-with-teams-templates.md)
 
-Nachdem ein Basis Vorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder außer Kraft setzen, die Sie angeben möchten. Einige Basisvorlagen Typen enthalten Eigenschaften, die nicht überschrieben werden können.
+Nachdem ein Basisvorlagentyp definiert wurde, können Sie diese speziellen Vorlagen mit zusätzlichen Eigenschaften erweitern oder überschreiben, die Sie angeben möchten. Einige Basisvorlagentypen enthalten Eigenschaften, die nicht überschrieben werden können.
 
-Standardmäßig ist die Basisvorlage auf **Standard** festzulegen, die keine zusätzlichen proprietären Apps oder speziellen Eigenschaften enthält. Unten ist die aktuelle Liste der verfügbaren Basisvorlagen Typen aufgeführt.
+Standardmäßig ist die Basisvorlage auf **Standard festgelegt,** der keine zusätzlichen proprietären Apps oder speziellen Eigenschaften enthält. Nachfolgend finden Sie die aktuelle Liste der verfügbaren Basisvorlagentypen.
 
-| Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| Basisorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Keine weiteren apps und Eigenschaften |
-| Bildung<br>Kurs Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps<ul><li>OneNote-Kurs Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet) </li><li>Aufgaben-app (angeheftet an die Registerkarte " **Allgemein** ")</li></ul> Team Eigenschaften:<ul><li>Team Sichtbarkeit auf **HiddenMembership** (kann nicht außer Kraft gesetzt werden)</li></ul> |
-| Bildung<br>Mitarbeiter Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps<ul><li>OneNote-Mitarbeiter Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</li></ul> |
-|Bildung<br>SPS-Team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps<ul><li>OneNote PLC-Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</ul></li>|
-| Retail<br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften<ul><li>Team Sichtbarkeit auf "öffentlich" eingestellt</li></ul>Mitglieder Berechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul> |
-| Retail<br>Manager-Zusammenarbeit | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle<ul><li>Lerntools</li><li>Vorgänge</li></ul>Team Eigenschaften:<ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul>Mitglieder Berechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul>|
-| Im Gesundheitswesen<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle <ul><li>Ankündigungen\*</li><li>Kauert\*</li><li>Runden</li><li>Personal\*</li><li>Schulungen\*</li></ul>\*Automatisch bevorzugte Kanäle |
-|Im Gesundheitswesen<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Freiheits</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatisch bevorzugter Kanal|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Keine zusätzlichen Apps und Eigenschaften |
+| Ausbildung –<br>Kursteam | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote-Kursnotizbuch (an die Registerkarte **Allgemein angeheftet)** </li><li>Aufgaben-App (an die Registerkarte **Allgemein angeheftet)**</li></ul> Teameigenschaften:<ul><li>Auf **HiddenMembership** festgelegte Teamsichtbarkeit (kann nicht außer Kraft gesetzt werden)</li></ul> |
+| Ausbildung –<br>Mitarbeiterteam | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote-Mitarbeiternotizbuch (an die Registerkarte **Allgemein angeheftet)**</li></ul> |
+|Ausbildung –<br>PLC-Team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote PLC-Notizbuch (an die Registerkarte **Allgemein angeheftet)**</ul></li>|
+| Einzelhandel - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle:<ul><li>Schichtübergabe</li><li>Lernen</li></ul>Teameigenschaften<ul><li>Teamsichtbarkeit auf Öffentlich gesetzt</li></ul>Mitgliedsberechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder Apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Verbinder erstellen, aktualisieren oder entfernen</li></ul> |
+| Einzelhandel - <br>Zusammenarbeit mit Managern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle:<ul><li>Lernen</li><li>Vorgänge</li></ul>Teameigenschaften:<ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul>Mitgliedsberechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder Apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Verbinder erstellen, aktualisieren oder entfernen</li></ul>|
+| Gesundheitswesen –<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle: <ul><li>Ankündigungen\*</li><li>Huddles\*</li><li>Runden</li><li>Personal\*</li><li>Schulung\*</li></ul>\*Automatisch favorisierte Kanäle |
+|Gesundheitswesen –<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle:<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Sorgerecht</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Kanal mit automatischer Favoritenliste|
 |||
 
 
-Verwenden Sie die folgenden Vorlagen zum Erstellen von Teams sowohl im Team Client als auch in Microsoft Graph.
+Verwenden Sie die folgenden Vorlagen, um Teams sowohl im Teams-Client als auch in Microsoft Graph zu erstellen.
 
 
-| Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| Basisorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Übernehmen von Office 365 |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Team Formulare</li></ul> Apps <ul><li>Wiki-</li>  <li>Kalender</li> |
-| Verwalten eines Projekts |`com.microsoft.teams.template.`<br>`ManageAProject`| Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
-| Verwalten eines Ereignisses|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps<ul><li>Wiki-</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
-|Onboard-Mitarbeiter|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Kanäle <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiter-Chat</li> <li>Schulungen</li></ul>Apps<ul><li>Wiki-</li><li>Gemeinschaften</li></ul>|
-|Organisieren des Helpdesks| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps<ul><li>Wiki-</li><li>OneNote</li></ul> |
-| Zusammenarbeit bei der Patientenversorgung| `healthcareWard `| Kanäle<ul><li>Allgemein</li><li>Ankündigungen</li><li>Kauert</li><li>Runden</li><li>Personal</li><li>Schulungen</li></ul> Apps <ul><li>Wiki-</li>|
-| Zusammenarbeiten an globaler Krise oder Veranstaltung |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Welt Nachrichten</li><li>Business Continuity</li><li>Remote arbeiten</li><li>Interne Comms</li><li>Externe Comms</li><li>Kundenreklamationen</li><li>Kudos</li><li>Executive-Update</li></ul>Apps <ul><li>Lob</li><li>Wiki-</li><li>Website</li></ul>|
-|Zusammenarbeiten in einer Bankfiliale| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Kauert</li><li>Kundenbesprechungen</li><li>Coaching</li><li>Qualifikationsentwicklung</li><li>Kreditbearbeitung</li><li>Kundenreklamationen</li><li>Kudos</li><li>Lustige Sachen</li><li>Compliance</li></ul>|
-|Koordinieren der Vorfall Antwort| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Recovery</li><li>Dringend</li></ul> Apps <ul><li>Wiki-</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
-|Krankenhaus| `healthcareHospita`l |Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Freiheits</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps <ul><li>Wiki-</li></ul>|
-|Organisieren eines Shops| `retailStore` |Kanäle <ul><li>Allgemein<li>UMSCHALT Übergabe</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
-|Qualität und Sicherheit |`com.microsoft.teams.`<br>`template.QualitySafety`|Kanäle <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulungen</li><li>Wartung</li><li>Lustige Sachen</li></ul> Apps <ul><li>Wiki-</li></ul>|
-|Zusammenarbeit im Einzelhandel – Manager| `retailManagerCollaboration` |Kanäle <ul><li>Allgemein<li>Vorgänge</li><li>Lerntools</li></ul> Apps <ul><li>Wiki-</li></ul>|
+| Office 365 übernehmen |`com.microsoft.teams.template.`<br>`AdoptOffice365`|  Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Champions Corner</li> <li>Teamformulare</li></ul> Apps: <ul><li>Wiki</li>  <li>Kalender</li> |
+| Verwalten eines Projekts |`com.microsoft.teams.template.`<br>`ManageAProject`| Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Verwalten eines Ereignisses|`com.microsoft.teams.template.`<br>`ManageAnEvent` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
+|Mitarbeiter an Bord|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Wiki</li><li>Communitys</li></ul>|
+|Organisieren des Helpdesks| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li></ul> |
+| Arbeiten Sie bei der Patientenversorgung zusammen| `healthcareWard `| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li>|
+| Zusammenarbeiten an globalen Krisen oder Ereignisse |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>News aus der Welt</li><li>Geschäftskontinuität</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Executive Update</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li></ul>|
+|Zusammenarbeit innerhalb einer Bankfiliale| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Coachen</li><li>Qualifikationsentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustige Dinge</li><li>Compliance</li></ul>|
+|Koordinieren der Reaktion auf Vorfälle| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Wiederherstellung</li><li>Dringend</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li></ul>|
+|Krankenhaus| `healthcareHospita`l |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Compliance</li><li>Sorgerecht</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|Ein Store organisieren| `retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|Qualität und Sicherheit |`com.microsoft.teams.`<br>`template.QualitySafety`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Zeile 1</li><li>Zeile 2</li><li>Zeile 3</li><li>Sicherheit</li><li>Schulung</li><li>Wartung</li><li>Lustige Dinge</li></ul> Apps: <ul><li>Wiki</li></ul>|
+|Zusammenarbeit zwischen Einzelhandel und Manager| `retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li></ul>|
 ||||
 
-Weitere Informationen finden Sie unter [Erste Schritte mit Microsoft Teams-Vorlagen im Admin Center](get-started-with-teams-templates-in-the-admin-console.md) .
+Weitere Informationen finden Sie unter Erste Schritte mit Teams-Vorlagen im [Admin Center.](get-started-with-teams-templates-in-the-admin-console.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Erste Schritte mit Microsoft Teams-Vorlagen in der Admin-Konsole](get-started-with-teams-templates-in-the-admin-console.md)
-- [Team erstellen](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)
-- [Neues Team](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
+- [Erste Schritte mit Teams-Vorlagen in der Administratorkonsole](get-started-with-teams-templates-in-the-admin-console.md)
+- [Team erstellen](/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)
+- [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)

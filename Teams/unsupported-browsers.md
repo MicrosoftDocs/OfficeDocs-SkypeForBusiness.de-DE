@@ -16,19 +16,19 @@ search.appverid: MET150
 description: Erfahren Sie, wie Teams Audio und Video in nicht unterstützten Browsern funktioniert.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4aca1592a89e36e7a26a9a22b111968e4b44a302
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 83617628fe04140c45b005e993d95eac34c6f8bd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804525"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121313"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams-Besprechungen mit nicht unterstützten Browsern
 
 Einige Browser, z. B. Internet Explorer 11, Safari und Firefox, unterstützen die Microsoft Teams Web App, jedoch nicht alle Anruf- und Besprechungsfunktionen von Teams. Um diese Einschränkung zu umgehen, ermöglicht die Teams Web App Benutzern das Empfangen von Audio über eine PSTN-Verbindung und das Anzeigen präsentierter Inhalte (bei Bildschirmfreigabe) mit reduzierter Anzeigerate.
 
 > [!Note]
-> Ab dem 17. August 2021 wird Internet Explorer 11 nicht mehr von Microsoft 365-Apps und -Diensten unterstützt (Internet Explorer 11 wird von Microsoft Teams schon früher, ab dem 30. November 2020, nicht mehr unterstützt). [Weitere Informationen](https://aka.ms/AA97tsw). Bitte beachten Sie, dass Internet Explorer 11 als Browser weiterhin unterstützt wird. Internet Explorer 11 ist eine Komponente des Windows-Betriebssystems und [folgt der Lebenszyklusrichtlinie](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge) für das Produkt, auf dem die Anwendung installiert ist.
+> Ab dem 17. August 2021 wird Internet Explorer 11 nicht mehr von Microsoft 365-Apps und -Diensten unterstützt (Internet Explorer 11 wird von Microsoft Teams schon früher, ab dem 30. November 2020, nicht mehr unterstützt). [Weitere Informationen](https://aka.ms/AA97tsw). Bitte beachten Sie, dass Internet Explorer 11 als Browser weiterhin unterstützt wird. Internet Explorer 11 ist eine Komponente des Windows-Betriebssystems und [folgt der Lebenszyklusrichtlinie](/lifecycle/faq/internet-explorer-microsoft-edge) für das Produkt, auf dem die Anwendung installiert ist.
 
 Wenn Teams einen nicht unterstützten Browser erkennt, wird automatisch eine Meldung angezeigt, in der das Problem und die Sitzungseinschränkungen erläutert werden. Die Nachricht enthält weitere Anweisungen für den Zugriff auf das Besprechungsaudio, z. B. dem Benutzer vorzuschlagen, eine Rückrufnummer zu hinterlassen, damit Teams den Benutzer anrufen kann, oder den Benutzer anzuweisen, die in der Besprechungseinladung enthaltene Konferenznummer anzurufen. Die Meldung fordert den Benutzer außerdem auf, den [Teams-Desktopclient ](https://teams.microsoft.com/downloads)herunterzuladen, um Teams vollständig nutzen zu können.
 
@@ -46,7 +46,7 @@ Bei Personen, die die Teams Web App in nicht unterstützten Browsern verwenden, 
 - Wenn der Anruf unterbrochen wird, wird die Besprechung nicht automatisch erneut verbunden.
 - Benutzer können keine Besprechungen starten.
 
-Weitere Informationen zur Browserunterstützung in Teams finden Sie unter [Limits und Spezifikationen für Microsoft Teams](/microsoftteams/limits-specifications-teams#browsers).
+Weitere Informationen zur Browserunterstützung in Teams finden Sie unter [Limits und Spezifikationen für Microsoft Teams](./limits-specifications-teams.md#browsers).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
