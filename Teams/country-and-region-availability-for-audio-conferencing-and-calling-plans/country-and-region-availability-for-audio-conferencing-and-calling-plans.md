@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenfreie und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: 85868a57105c53aceb43ff92221ed440329ab73f
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875125"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122269"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -161,11 +161,11 @@ Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, 
 
 ***
 
-Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft Teams-Dienste verfügbar ist, können Sie die Skype for Business- und [Microsoft Teams-Add-On-Lizenzierung](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) sehen, die Ihnen hilft, Lizenzen zu kaufen und sie Ihren Benutzern zuzuordnen.
+Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft Teams-Dienste verfügbar ist, können Sie die Skype for Business- und [Microsoft Teams-Add-On-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) sehen, die Ihnen hilft, Lizenzen zu kaufen und sie Ihren Benutzern zuzuordnen.
 
 > [!NOTE]
 >
-> Wenn Sie weitere Telefonnummern für Ihre Nutzer benötigen, lesen Sie [Anfordern von Telefonnummern für Ihre Nutzer](/microsoftteams/getting-phone-numbers-for-your-users) oder für Anforderungsformulare für Telefonnummern, lesen Sie [Verwalten von Telefonnummern für Ihr Unternehmen](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+> Wenn Sie weitere Telefonnummern für Ihre Nutzer benötigen, lesen Sie [Anfordern von Telefonnummern für Ihre Nutzer](../getting-phone-numbers-for-your-users.md) oder für Anforderungsformulare für Telefonnummern, lesen Sie [Verwalten von Telefonnummern für Ihr Unternehmen](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="want-to-learn-more-about-these-services"></a>Weitere Informationen zu diesen Diensten
 
@@ -195,7 +195,7 @@ Das Einwählen von einer Besprechung in ein anderes Land/eine andere Region auf 
 
 Mit Telefonsystem erstellen Sie automatische Telefontelefone und Anrufwarteschlangen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation zu beantworten. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können sie Skype for Business verwenden, um grundlegende Aufgaben zur Anrufsteuerung zu erledigen, z. B. das Platzieren und Empfangen von Anrufen, das Übertragen von Anrufen sowie das Stummschalten und Lösen der Stummschaltung von Anrufen. **Benutzer des Telefonsystems** klicken auf einen Namen in ihrem Adressbuch, und Skype for Business anruft diese Person. Um Anrufe zu platzieren und zu **empfangen,** verwenden Benutzer des Telefonsystems ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen, die mit Skype for Business zusammenarbeiten.
 
-> Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschlangen zu suchen und zu erwerben. Diese werden als Dienstnummern bezeichnet. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](/microsoftteams/getting-phone-numbers-for-your-users). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
+> Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschlangen zu suchen und zu erwerben. Diese werden als Dienstnummern bezeichnet. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 [Preise für das Telefonsystem](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -208,7 +208,7 @@ Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer 
 
 Zusammen mit Telefonsystem können Benutzer mit einem Anrufplan Telefonanrufe tätigen und empfangen. Sie erhalten zuerst eine Benutzertelefonnummer (keine Dienstnummer), die Sie dem Benutzer zuweisen können, und weisen Sie dann einen Anrufplan zu. Zur Verfügung stehen zwei Arten von Anrufplänen: **Inland** und **Inland und Ausland**. Weitere Informationen hierzu finden Sie unter [Telefonsystem und Anrufpläne](../calling-plan-landing-page.md).
 
-Informationen zur Lizenzierung finden Sie auch unter [Lizenzierung des Telefonsystems und der Anrufpläne](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing).
+Informationen zur Lizenzierung finden Sie auch unter [Lizenzierung des Telefonsystems und der Anrufpläne](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
 > Das Land/die Region basiert auf dem Speicherort der Nutzerlizenz unter **Microsoft 365 Admin Center** > **Aktive Nutzer** und **nicht** auf der Abrechnungsadresse unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**.
@@ -219,7 +219,7 @@ Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch m�
   
 Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Über das Skype for Business Admin Center erhalten Sie gebührenpflichtige **Servicenummern von diesen Standorten.**
   
-Wenn Sie eine gebührenfreie oder gebührenfreie Servicenummer erhalten möchten, lesen Sie [Abrufen von Servicetelefonnummern.](/microsoftteams/getting-service-phone-numbers) Wenn Sie bereits über eine gebührenfreie oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, lesen Sie Verwalten von Telefonnummern [für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Wenn Sie eine gebührenfreie oder gebührenfreie Servicenummer erhalten möchten, lesen Sie [Abrufen von Servicetelefonnummern.](../getting-service-phone-numbers.md) Wenn Sie bereits über eine gebührenfreie oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, lesen Sie Verwalten von Telefonnummern [für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer Region suchen, um zu ermitteln, welche Dienste dort verfügbar sind.
 
@@ -231,4 +231,4 @@ Wenn Sie keine Guthaben für Kommunikationen einrichten und Benutzern eine Lizen
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)

@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Schauen Sie sich an, welche USB-Peripheriegeräte und -Geräte (wie Headsets, Freisprechtelefone, Webcams und Monitore) für Microsoft Teams zertifiziert sind.
-ms.openlocfilehash: 1be9c0f6211e87c1cebf788e78e7321f74d817ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 651f4c19e83c7a20bcf0126034064330f151eeaa
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102131"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197590"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte USB-Audio- und Videogeräte
 
@@ -74,10 +74,14 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 ## <a name="certified-devices"></a>Zertifizierte Geräte
 
-*Tabelle aktualisiert Januar 2021*
+*Tabelle aktualisiert März 2021*
 
 | Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |Anpassen von Headsets der Serie 200                                  |3/19/2021       |Zertifiziert für Microsoft Teams                           |
+|Poly                 |Voyager Focus 2 Headset                                    |3/11/2021       |Zertifiziert für Microsoft Teams                           |
+|Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Zertifiziert für Microsoft Teams                           |
+|Poly                 |Studio P15 Videoleiste                                       |2/1/2021        |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Synchronisieren von 40 Freisprechtelefonen                                       |1/19/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Synchronisieren der 40+-Freisprechtelefone mit Poly BT600 USB Dongle           |1/19/2021       |Zertifiziert für Microsoft Teams                           |
 |Yealink              |UH34 Dual/Mono Headset                                     |12/23/2020      |Zertifiziert für Microsoft Teams                           |

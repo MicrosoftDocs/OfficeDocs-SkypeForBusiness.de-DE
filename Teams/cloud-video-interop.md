@@ -10,7 +10,7 @@ search.appverid: MET150
 ms.reviewer: naforer
 f1.keywords:
 - NOCSH
-description: Verwenden Sie Cloud-Video-Interop als Zwischenlösung, damit Besprechungsraum Geräte von Drittanbietern an Microsoft Teams-Besprechungen teilnehmen können.
+description: Verwenden Sie Cloud Video Interop als Zwischenlösung, um Geräten von Drittanbietern die Teilnahme an Microsoft Teams-Besprechungen zu ermöglichen.
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -20,116 +20,116 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9bf3cade5c17a8d3649a29ca999dec1f909624
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 3a8d657e2cbc12695453e26ef0e4bf9ad55070bf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611849"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122359"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
-Cloud Video-Interop (CVI) ist eine von Microsoft qualifizierte Drittanbieterlösung, mit der Drittanbieter-Besprechungsräume (Telepresence) und Personal Video Devices (VTCs) an Microsoft Teams-Besprechungen teilnehmen können.
+Cloud Video Interop (CVI) ist eine Microsoft-qualifizierte Drittanbieterlösung, mit der Besprechungsräume von Drittanbietern (Telepresence) und persönliche Videogeräte (VTCs) an Microsoft #A0 teilnehmen können.
  
-Mit Microsoft Teams erhalten Sie eine umfangreiche Zusammenarbeit an Onlineinhalten in Besprechungen, die Audio, Video und Inhaltsfreigabe beinhalten. Dies kann über den Desktop-und Web-Client sowie über viele Partner Geräte genossen werden, die sich nativ in Microsoft Teams integrieren. Viele Kunden haben jedoch bereits in Video Teleconferencing und persönliche Video Kommunikationsgeräte investiert, was ein Upgrade kostspielig sein kann. Cloud Video-Interop bietet eine einfache Lösung, die es Ihnen ermöglicht, Ihre vorhandenen Lösungen so lange zu verwenden, bis Sie ein Upgrade durchführen können.
+Mit Microsoft Teams erhalten Sie umfassende Onlineinhaltszusammenarbeit in Besprechungen, die Audio, Video und Inhaltsfreigabe umfassen. Dies kann über den Desktop und den Webclient sowie über viele Partnergeräte, die nativ in Microsoft Teams integriert werden, verwendet werden. Viele Kunden haben jedoch bereits in Video-Telekonferenz- und persönliche Videokommunikationsgeräte investiert, was für ein Upgrade teuer werden kann. Cloud Video Interop stellt eine einfache Lösung bereit, mit der Sie ihre vorhandenen Lösungen weiterhin verwenden können, bis Sie zum Upgrade bereit sind.
 
-Mit Cloud Video-Interop bietet Microsoft Teams eine native Besprechungs Erfahrung für alle Teilnehmer – in Besprechungsräumen oder innerhalb von Teams-Clients.
+Mit Cloud Video Interop bietet Microsoft Teams eine native Besprechungserfahrung für alle Teilnehmer – in Besprechungsräumen oder innerhalb von Teams-Clients.
 
-### <a name="is-cloud-video-interop-for-me"></a>Ist Cloud-Video-Interop für mich?
+### <a name="is-cloud-video-interop-for-me"></a>Ist Cloud Video Interop für mich?
 
-Cloud Video-Interop bietet einen zwischen Dienst, während Sie zu einer vollständigen Microsoft Teams-Lösung mithilfe von Team Endpunkten wechseln. Der bereitgestellte Dienst sollte Teil des Migrationspfads sein.
+Cloud Video Interop stellt einen Zwischendienst zur Verfügung, während Sie mithilfe von Teams-Endpunkten zu einer vollständig nativen Microsoft Teams-Lösung überwechseln. Der bereitgestellte Dienst sollte Teil Ihres Migrationspfads sein.
 
-Brightcove-Video Interoperabilität richtet sich an Kunden, die die folgenden Kriterien erfüllen:
+Cloud Video Interop richtet sich an Kunden, die die folgenden Kriterien erfüllen:
 
-- Eine große Bereitstellung von Besprechungsraum Geräten und die Bereitstellung persönlicher Videogeräte (50 + Geräte), die nicht für die direkte Integration in Microsoft Teams qualifiziert sind
-- Werden von einem unserer Cloud Video-Interop-Partner unterstützt
-- Sie möchten während der Migration zu einer nativen Microsoft Teams-Lösung den Wert Ihrer Investition in Ihre aktuellen Besprechungsraum Geräte und persönlichen Videogeräte behalten.
+- Große Bereitstellung von Besprechungsraumgeräten und Bereitstellung persönlicher Videogeräte (mehr als 50 Geräte), die nicht für die direkte Integration in Microsoft Teams qualifiziert sind
+- Werden von einem unserer Cloud Video Interop-Partner unterstützt
+- Möchten Sie den Wert ihrer Investition auf ihren aktuellen Besprechungsraumgeräten und persönlichen Videogeräten während der Migration zu einer nativen Microsoft Teams-Lösung beibehalten
 
-Während Cloud-Video-Interop eine hervorragende Zwischenlösung bietet, ermutigen wir unsere Kunden dazu, unsere nativen Teams zu untersuchen, die Lösungen wie Teams Room Systems langfristig anbieten. 
+Obwohl Cloud Video Interop eine hervorragende Zwischenlösung bietet, empfehlen wir unseren Kunden, sich langfristig mit unseren systemeigenen Teams-Besprechungslösungen wie Teams Room Systems zu unterhalten. 
 
-### <a name="office-365-us-government-and-third-party-services"></a>Office 365 US Government und Dienste von Drittanbietern
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 US Government und Drittanbieterdienste
 
-Office 365 bietet die Möglichkeit zum Integrieren von Anwendungen von Drittanbietern in SharePoint Online-Websites, Skype for Business, Teams, Office-Anwendungen, die in Microsoft 365-Apps für Unternehmen enthalten sind (wie Word, Excel, PowerPoint und Outlook) und Outlook Web App. Darüber hinaus unterstützt Office 365 die Integration von Drittanbieter-Dienstanbietern. Bei diesen Anwendungen und Diensten von Drittanbietern kann es sich um das Speichern, übertragen und Verarbeiten der Kundendaten Ihrer Organisation auf Drittanbietersystemen, die sich außerhalb der Office 365-Infrastruktur befinden, und somit nicht um die Office 365-Compliance-und Datenschutzverpflichtungen handelt. **Es wird empfohlen, dass Sie die von den Drittanbietern bereitgestellten Datenschutz-und Konformitätsrichtlinien überprüfen, wenn Sie die entsprechende Verwendung dieser Dienste für Ihre Organisation bewerten.**
+Office 365 bietet die Möglichkeit, Anwendungen von Drittanbietern in SharePoint Online-Websites, Skype for Business, Teams, Office-Anwendungen in Microsoft 365-Apps für Unternehmen (wie Word, Excel, PowerPoint und Outlook) und Outlook Web App zu integrieren. Darüber hinaus unterstützt Office 365 die Integration mit Drittanbieterdienstanbietern. Diese Anwendungen und Dienste von Drittanbietern umfassen möglicherweise das Speichern, Übertragen und Verarbeiten der Kundendaten Ihrer Organisation auf Systemen von Drittanbietern, die sich außerhalb der Office 365-Infrastruktur befinden und daher nicht von den Office 365-Compliance- und Datenschutzverpflichtungen abgedeckt sind. **Es wird empfohlen, die Datenschutz- und Compliancebestimmungen, die von Dritten bereitgestellt werden, zu überprüfen, wenn Sie die geeignete Nutzung dieser Dienste für Ihre Organisation bewerten.**
 
 
 
-### <a name="partners-certified-for-microsoft-teams"></a>Partner, die für Microsoft Teams zertifiziert sind
+### <a name="partners-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte Partner
 
-Die folgenden Partner verfügen über Video-Interop-Lösungen für Microsoft Teams. Ihr Unternehmen kann beschließen, mit einer beliebigen Kombination dieser Partner innerhalb Ihres Unternehmens zu arbeiten. 
+Die folgenden Partner verfügen über Video-In-Interop-Lösungen für Microsoft Teams. Ihr Unternehmen kann sich entscheiden, mit einer beliebigen Kombination dieser Partner in Ihrem Unternehmen zusammen zu arbeiten. 
 
-|Partner|Partner Lösung|
+|Partner|Partnerlösung|
 |----|---|
-|![Das Logo, das Poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly-RealConnect-Dienst</a> |
-|![Das Logo, das Pexip Unendlichkeit darstellt](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip unendlich für Microsoft Teams</a> | 
-|![Das Logo, das Bluejeans-Gateway darstellt](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Bluejeans-Gateway für Microsoft Teams</a> |
-|![Das Logo, das Cisco CVI darstellt](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco WebEx Video Integration für Microsoft Teams</a>|
+|![Das Logo von Poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
+|![Das Logo für Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity für Microsoft Teams</a> | 
+|![Das Logo für das BlueJeans Gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway für Microsoft Teams</a> |
+|![Das Logo, das Cisco CVI darstellt](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration für Microsoft Teams</a>|
 
-### <a name="cloud-video-interop-overview"></a>Übersicht über die Cloud-Video Interoperabilität
+### <a name="cloud-video-interop-overview"></a>Übersicht über Cloud Video Interop
 
-Cloud Video-Interop ist ein Drittanbieterdienst, der von unseren Partnern bereitgestellt wird, um Interoperabilität zwischen vorhandenen Videokonferenz-und persönlichen Videogeräte Lösungen auf dem Gelände und in Microsoft Teams bereitzustellen.
+Cloud Video Interop ist ein Drittanbieterdienst, der von unseren Partnern angeboten wird, um die Interoperabilität zwischen vorhandenen Videokonferenzen und lokalen Lösungen für persönliche Videogeräte und Microsoft Teams zu gewährleisten.
 
-Die Lösungen, die unsere Partner anbieten, bestehen aus Komponenten, die entweder komplett Cloud-basiert oder teilweise oder vollständig auf dem Gelände bereitgestellt werden können. 
+Die von unseren Partnern angebotenen Lösungen bestehen aus Komponenten, die entweder vollständig cloudbasierte oder teilweise/vollständig lokal bereitgestellt werden können. 
      
-Das folgende Diagramm zeigt die allgemeine Architektur unserer Partnerlösungen.
+Die folgende Abbildung zeigt die Architektur unserer Partnerlösungen auf hoher Ebene.
 
-![Diagramm, in dem eine Team-Cloud Video Interop-Partnerlösung beschrieben wird](media/teams-cloud-video-interop-partner-solution.png)
+![Diagramm zur Beschreibung einer Team Cloud Video Interop-Partnerlösung](media/teams-cloud-video-interop-partner-solution.png)
 
 
-## <a name="deploy-cloud-video-interop"></a>Bereitstellen von Cloud-Video-Interop
+## <a name="deploy-cloud-video-interop"></a>Bereitstellen von Cloud Video Interop
 
-Beim Bereitstelleneiner Cloud-Video-Interop-Lösung ist es wichtig zu verstehen, dass Sie eine Partnerlösung bereitstellen. Die allgemeinen Schritte, die Sie für die Bereitstellung von Brightcove-Video Interop ausführen sollten, finden Sie im folgenden Diagramm.
+Bei der Bereitstellung einer Cloud Video Interop-Lösung ist es wichtig zu verstehen, dass Sie eine Partnerlösung bereitstellen. Die allgemeinen Schritte zum Bereitstellen von Cloud Video Interop sind im folgenden Diagramm aufgeführt.
 
-![Diagramm, das die Bereitstellung von CVI in Ihrer Organisation beschreibt](media/deploying-cvi.png)
+![Diagramm zur Beschreibung der Bereitstellung von CVI in Ihrer Organisation](media/deploying-cvi.png)
 
 ### <a name="plan"></a>Plan
 
-Während der Planungsphase sollten Sie die Geräte identifizieren, die nicht durch ein systemeigener Teams ersetzt werden sollen, und einen Cloud Video-Interop-Partner finden, der diese Geräte unterstützenkann.  
+Während der Planphase sollten Sie die Geräte identifizieren, die Sie nicht durch ein systemeigenes Teams-Gerät ersetzen, und einen Cloud Video Interop-Partner finden, der diese Geräte unterstützen kann.  
 
-Es ist auch wichtig zu wissen, dass Sie für jeden Benutzer, der Besprechungen planen soll, eine Lizenz benötigen, in der Sie ein Cloud-Video-Interop-fähiges Gerät beitreten möchten. Beachten Sie, dass die genauen Lizenzierungsanforderungen vom Cloud Video-Interop-Partner abgerufen werden können. Stellen Sie sicher, dass dies klar ist, bevor Sie mit der Bereitstellung beginnen.
+Es ist auch wichtig zu verstehen, dass Sie eine Lizenz für jeden Benutzer benötigen, der Besprechungen plant, an denen Ein Cloud Video Interop-fähiges Gerät teilnehmen soll. Beachten Sie, dass genaue Lizenzierungsanforderungen beim Cloud Video Interop-Partner eingeholt werden können. Stellen Sie sicher, dass dies vor dem Starten der Bereitstellung klar ist.
 
 ### <a name="configure"></a>Konfigurieren
 
-Der Partner, den Sie für Ihre CVI-Bereitstellung ausgewählt haben, stellt ein vollständiges Bereitstellungs Dokument bereit, das alle erforderlichen Schritte für die erfolgreiche Bereitstellung innerhalb Ihrer Organisation umfasst. Dazu gehören Firewall-Ports und IP-Bereiche, Konfigurationsänderungen für Ihre Geräte und andere Einstellungen, die geändert werden müssen.
+Der Partner, den Sie für Ihre #A0 ausgewählt haben, stellt Ihnen ein vollständiges Bereitstellungsdokument zur Verfügung, das aus allen Schritten besteht, die zur erfolgreichen Bereitstellung innerhalb Ihrer Organisation erforderlich sind. Dies umfasst Firewallports und IP-Bereiche, Konfigurationsänderungen für Ihre Geräte und andere Einstellungen, die geändert werden müssen.
 
 ### <a name="provision"></a>Bereitstellung  
 
-Während der Bereitstellungsphase weisen Sie den entsprechenden Benutzern Lizenzen entsprechend dem Partner-Konfigurationshandbuch zu. Darüber hinaus müssen Sie den Azure-Genehmigungsprozess durchlaufen, um dem Partner den Zugriff auf Ihre Teams-Umgebung zu ermöglichen. Weitere Informationen zum Azure-Genehmigungsprozess finden Sie unter [Berechtigungen und Zustimmung im Microsoft Identity Platform-Endpunkt](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) .
+Während der Bereitstellungsphase weisen Sie den entsprechenden Benutzern Gemäß dem Konfigurationshandbuch für Partner Lizenzen zu. Sie müssen auch den Azure-Zustimmungsprozess durchgehen, um dem Partner Zugriff auf Ihre Teams-Umgebung zu ermöglichen. Weitere [Informationen zum Azure-Zustimmungsprozess finden](/azure/active-directory/develop/v2-permissions-and-consent) Sie unter Berechtigungen und Zustimmung im Endpunkt der Microsoft-Identitätsplattform.
 
 ### <a name="schedule"></a>Zeitplan
 
-Nachdem ein Benutzer für die Cloud-Video-Interop aktiviert wurde, werden alle Besprechungen, die mit dem Add-in "Teams-Besprechung" für Outlook oder dem Team-Client geplant sind, die entsprechenden zusätzlichen Informationen automatisch in die Teams-Besprechung aufgenommen, damit die mit Brightcove-Video Interop kompatiblen Geräte an diesen Besprechungen teilnehmen können.
+Nachdem ein Benutzer für Cloud Video Interop aktiviert wurde, werden jeder Besprechung, die mit dem Teams Meeting-Add-In für Outlook oder dem Teams-Client geplant ist, automatisch die entsprechenden zusätzlichen Informationen zur Teams-Besprechung hinzugefügt, damit Cloud Video Interop-kompatible Geräte an diesen Besprechungen teilnehmen können.
 
 ### <a name="join"></a>Join
 
-Je nach Partnerlösung gibt es mehrere Möglichkeiten, an einer Cloud-Video-Interop-fähigen Besprechung teilzunehmen. Die genauen Szenarien für Besprechungen werden von Ihrem Brightcove-Video-Interop-Partner bereitgestellt. Nachfolgend sind einige Beispiele aufgeführt:
+Je nach Partnerlösung gibt es mehrere Möglichkeiten, an einer Cloud Video Interop-fähigen Besprechung teil zu nehmen. Genaue Szenarien für die Teilnahme an Besprechungen werden von Ihrem Cloud Video Interop-Partner bereitgestellt. Nachfolgend sind einige Beispiele aufgeführt:
 
 - IVR (Interaktive Sprachantwort) 
-  - Sie können sich über die tenantkey@Domain in die IVR des Partners einwählen.
-  - Wenn Sie sich im Partner-IVR befinden, werden Sie aufgefordert, die VTC-Konferenz-Nr einzugeben, die Sie dann mit der Teams-Besprechung verbindet.
+  - Sie können sich über die -Tenantkey@domain.
+  - Wenn Sie sich im Partner-IVR befinden, werden Sie aufgefordert, die VTC-konferenz-Id ein- und ein-/ zu geben, über die Sie dann mit der Teams-Besprechung in Verbindung treten.
 - Direktwahl 
-  - Sie können sich direkt in die Teambesprechung einwählen, ohne mit der IVR des Partners zu interagieren, indem Sie die direkte Wählfunktion verwenden, indem Sie die vollständige Zeichenfolge von tenantkey verwenden. VTC ConferenceId@Domain.
-- One-Touch-Dial 
-  - Wenn Sie über einen integrierten TeamRoom verfügen, können Sie die von Ihrem Partner angebotenen One-Touch-Wählfunktionen nutzen (ohne eine Wählzeichenfolge eingeben zu müssen).
+  - Sie können sich direkt in die Teams-Besprechung einwählen, ohne mit der IVR des Partners zu interagieren, indem Sie das Feature für Direktwahl verwenden, indem Sie die vollständige Zeichenfolge des Mandantenschlüssels verwenden. VTC ConferenceId@domain.
+- One-Touch-Wähltaste 
+  - Wenn Sie über einen integrierten Teams-Raum verfügen, können Sie die von Ihrem Partner angebotenen One-Touch-Wählfunktionen verwenden (ohne eine Wählzeichenfolge eingeben zu müssen).
 
-## <a name="manage-cloud-video-interop"></a>Verwalten von Cloud-Video-Interop
+## <a name="manage-cloud-video-interop"></a>Verwalten von Cloud Video Interop
 
-Nachdem Cloud Video-Interop bereitgestellt wurde, können Sie die Geräte mithilfe der von unseren Partnern bereitgestellten Lösungen verwalten. Jeder Partner stellt Ihnen eine Verwaltungsschnittstelle zur Verfügung, die sowohl die Lizenz-als auch die Geräteverwaltung umfasst. 
+Nachdem Cloud Video Interop bereitgestellt wurde, können Sie die Geräte mithilfe der von unseren Partnern bereitgestellten Lösungen verwalten. Jeder Partner stellt Ihnen eine verwaltungstechnische Schnittstelle bereit, die sowohl die Lizenz- als auch die Geräteverwaltung umfasst. 
 
-Die Berichterstattung steht auch direkt über die Verwaltungsoberfläche des Partners zur Verfügung. Wenn Sie weitere Informationen zu den Berichterstellungsfunktionen wünschen, wenden Sie sich an den Partner Ihrer Wahl. 
+Die Berichterstellung ist auch direkt über die administrative Partnerschnittstelle verfügbar. Weitere Informationen zu Berichtsfunktionen erhalten Sie beim Partner Ihrer Wahl. 
 
-### <a name="troubleshooting-cloud-video-interop"></a>Problembehandlung bei der Cloud-Video Interoperabilität
+### <a name="troubleshooting-cloud-video-interop"></a>Problembehandlung bei Cloud Video Interop
 
-Cloud Video-Interop ist ein vom Partner bereitgestellter Dienst. Wenn Probleme auftreten, besteht der erste Schritt darin, ein Gerät zu verbinden, auf dem der Microsoft Teams-Client installiert ist, und es mit dem gleichen Segment wie dem Brightcove-Video-Interop-Gerät zu verbinden, das Probleme verursacht. 
+Cloud Video Interop ist ein vom Partner bereitgestellter Dienst. Wenn Probleme auftreten, besteht der erste Schritt im Verbinden eines Geräts, auf dem der Teams-Client installiert ist, und verbinden Sie es mit demselben Segment wie das Cloud Video Interop-Gerät, das Probleme verursacht. 
 
-Wenn Teams in diesem Segment ordnungsgemäß funktionieren und Sie auch alle Netzwerk-und Konfigurationsrichtlinien befolgt haben, die der Partner bereitgestellt hat, müssen Sie sich an den Partner wenden, um weitere Informationen zur Problembehandlung zu erhalten. 
+Wenn Teams in diesem Segment ordnungsgemäß funktioniert und Sie auch alle vom Partner bereitgestellten Netzwerk- und Konfigurationsrichtlinien befolgt haben, müssen Sie sich zur weiteren Problembehandlung an den Partner wenden. 
 
-## <a name="powershell-for-cloud-video-interop"></a>PowerShell für Cloud-Video-Interop
+## <a name="powershell-for-cloud-video-interop"></a>PowerShell für Cloud Video Interop
 
-Die folgenden PowerShell-Cmdlets stehen Ihnen zur (teilweise) Automatisierung der Cloud-Video Interop-Bereitstellung zur Verfügung.
+Die folgenden PowerShell-Cmdlets stehen Ihnen zur (teilweisen) Automatisierung der Cloud Video Interop-Bereitstellung zur Verfügung.
 
-- **Get-CsTeamsVideoInteropServicepolicy**: Microsoft stellt vorgefertigte Richtlinien für jeden unserer unterstützten Partner zur Verfügung, mit denen Sie festlegen können, welche Partner für die Cloud-Video-Interop verwendet werden sollen.<br>Mit diesem Cmdlet können Sie die vorab erstellten Richtlinien identifizieren, die Sie in Ihrer Organisation verwenden können. Sie können diese Richtlinie einem oder mehreren Benutzern zuweisen, indem Sie das Cmdlet Grant-CsTeamsVideoInteropServicePolicy nutzen.
-- **Grant-CsTeamsVideoInteropServicePolicy**: mit diesem Cmdlet können Sie eine vordefinierte Richtlinie für die Verwendung in Ihrer Organisation zuweisen oder die Richtlinie bestimmten Benutzern zuweisen.
-- **New-CsVideoInteropServiceProvider**: Verwenden Sie dieses Cmdlet, um Informationen zu einem unterstützten CVI-Partner anzugeben, den Ihre Organisation verwenden möchte.
-- **Festlegen-CsVideoInteropServiceProvider**: Verwenden Sie dieses Cmdlet, um Informationen zu einem von Ihrer Organisation verwendeten unterstützten CVI-Partner zu aktualisieren.
-- **Get-CsVideoInteropServiceProvider**: Verwenden Sie dieses Cmdlet, um alle Anbieter abzurufen, die für die Verwendung innerhalb der Organisation konfiguriert wurden.
-- **Remove-CsVideoInteropServiceProvider**: Verwenden Sie dieses Cmdlet, um alle Anbieter Informationen zu einem Anbieter zu entfernen, den Ihre Organisation nicht mehr verwendet.
+- **Get-CsTeamsVideoInteropServicepolicy:** Microsoft stellt vordefinierte Richtlinien für jeden unserer unterstützten Partner zur Verfügung, mit denen Sie festlegen können, welche Partner für Cloud Video Interop verwendet werden sollen.<br>Mit diesem Cmdlet können Sie die vordefinierten Richtlinien identifizieren, die Sie in Ihrer Organisation verwenden können. Sie können diese Richtlinie einem oder mehreren Benutzern zuweisen, indem Sie das cmdlet Grant-CsTeamsVideoInteropServicePolicy nutzen.
+- **Grant-CsTeamsVideoInteropServicePolicy:** Mit diesem Cmdlet können Sie eine vordefinierte Richtlinie für die Verwendung in Ihrer Organisation zuweisen oder die Richtlinie bestimmten Benutzern zuweisen.
+- **New-CsVideoInteropServiceProvider**: Verwenden Sie dieses Cmdlet, um Informationen zu einem unterstützten #A0 anzugeben, den Ihre Organisation verwenden möchte.
+- **Set-CsVideoInteropServiceProvider**: Verwenden Sie dieses Cmdlet, um Informationen zu einem unterstützten #A0 zu aktualisieren, den Ihre Organisation verwendet.
+- **Get-CsVideoInteropServiceProvider:** Verwenden Sie dieses Cmdlet, um alle Anbieter zu erhalten, die für die Verwendung innerhalb der Organisation konfiguriert wurden.
+- **Remove-CsVideoInteropServiceProvider**: Verwenden Sie dieses Cmdlet, um alle Anbieterinformationen zu einem Anbieter zu entfernen, den Ihre Organisation nicht mehr verwendet.

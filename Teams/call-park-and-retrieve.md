@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie den Anrufpark verwenden und abrufen, um einen Anruf in Microsoft Teams in den Halteraum zu setzen.
-ms.openlocfilehash: efc36a2bc90b64abf2e886c5e768a26704bd6550
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102801"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197580"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -61,7 +61,7 @@ Sie können die Richtlinie bearbeiten, indem Sie sie in der Liste auswählen und
 
 Damit die Richtlinie funktioniert, muss sie Benutzern zugewiesen werden. Sie können [die Richtlinie benutzern einzeln zuweisen](assign-policies.md) oder sie einer Gruppe zuweisen.
 
-So weisen Sie einer Gruppe eine Anrufteilrichtlinie zu
+So weisen Sie einer Gruppe eine Anrufparkrichtlinie zu
 
 1. Klicken Sie **auf der Seite Anrufparkrichtlinien** auf der Registerkarte **Gruppenrichtlinienzuordnung** auf **Gruppe hinzufügen.**
 2. Suchen Sie nach der Gruppe, die Sie verwenden möchten, und klicken Sie dann auf **Hinzufügen.**
