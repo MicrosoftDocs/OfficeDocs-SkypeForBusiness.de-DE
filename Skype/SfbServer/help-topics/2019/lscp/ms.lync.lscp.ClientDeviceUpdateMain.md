@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Microsoft veröffentlicht regelmäßig eine neue Reihe von Gerätefirmwareupdates für Skype for Business Phone Edition, die Sie auf Ihre Server importieren und an Benutzer verteilen können. Sie erhalten den neuesten Satz von Geräteaktualisierungsregeln, indem Sie auf der Seite "Hilfe und Support" auf der Website von Microsoft nach "Phone Edition" suchen. Laden Sie das neueste Updatepaket herunter, und extrahieren Sie die Dateien in einen Ordner auf dem Computer, in den die Updates hochgeladen werden sollen. Nachdem die Dateien extrahiert wurden, können Sie das cmdlet Import-CsDeviceUpdate verwenden, um die Geräteaktualisierungsregeln in der extrahierten zu importieren. CAB-Datei (die den Namen UCUpdates.cab). Weitere Informationen finden Sie unter Import-CsDeviceUpdate.
-ms.openlocfilehash: cd8b983990ff3bc5843c252a153eafaa47cd9a1e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Microsoft veröffentlicht regelmäßig neue Gerätefirmwareupdates für Skype for Business Phone Edition, die Sie auf Ihre Server importieren und an Benutzer verteilen können. Sie können die neuesten Geräteupdateregeln abrufen, indem Sie zur Seite Hilfe und Support auf der Microsoft-Website gehen und nachPhone Edition suchen.Laden Sie das neueste Updatepaket herunter, und extrahieren Sie die Dateien in einen Ordner auf dem Computer, in den die Updates hochgeladen werden sollen. Nachdem die Dateien extrahiert wurden, können Sie das cmdlet Import-CsDeviceUpdate verwenden, um die Geräteaktualisierungsregeln zu importieren, die sich in der extrahierten befinden. CAB-Datei (die den Namen UCUpdates.cab). Weitere Informationen finden Sie unter Import-CsDeviceUpdate.
+ms.openlocfilehash: f62ece38e33bfdc02a6110bb7cc4e53210c9b500
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830285"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120254"
 ---
 # <a name="device-update"></a>Geräteaktualisierung
 
-Microsoft veröffentlicht regelmäßig eine neue Reihe von Gerätefirmwareupdates für Skype for Business Phone Edition, die Sie auf Ihre Server importieren und an Benutzer verteilen können. Sie erhalten den neuesten Satz von Geräteaktualisierungsregeln, indem Sie auf der Seite "Hilfe und Support" auf der Website von Microsoft nach "Phone Edition" suchen. Laden Sie das neueste Updatepaket herunter, und extrahieren Sie die Dateien in einen Ordner auf dem Computer, in den die Updates hochgeladen werden sollen. Nachdem die Dateien extrahiert wurden, können Sie das **Cmdlet "Import-CsDeviceUpdate"** verwenden, um die in der extrahierten Datei gefundenen Geräteaktualisierungsregeln zu importieren. CAB-Datei (die den Namen UCUpdates.cab). Weitere Informationen finden Sie unter [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
+Microsoft veröffentlicht regelmäßig neue Gerätefirmwareupdates für Skype for Business Phone Edition, die Sie auf Ihre Server importieren und an Benutzer verteilen können. Sie können die neuesten Geräteupdateregeln abrufen, indem Sie auf der Microsoft-Website zur Hilfe- und Supportseite gehen und nach "Phone Edition" suchen. Laden Sie das neueste Updatepaket herunter, und extrahieren Sie die Dateien in einen Ordner auf dem Computer, in den die Updates hochgeladen werden sollen. Nachdem die Dateien extrahiert wurden, können Sie das **Cmdlet Import-CsDeviceUpdate** verwenden, um die Geräteaktualisierungsregeln zu importieren, die in der extrahierten gefunden wurden. CAB-Datei (die den Namen UCUpdates.cab). Weitere Informationen finden Sie unter [Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps).
 
-Nachdem die Geräteaktualisierungsregeln importiert wurden,  können Sie diese Regeln auf der Seite "Geräteaktualisierung" für die Geräte Ihrer Organisation anzeigen und verwalten.
+Nachdem die Geräteaktualisierungsregeln importiert wurden,  können Sie die Seite Geräteupdate verwenden, um diese Regeln für die Geräte Ihrer Organisation ein- und zu verwalten.
 
 > [!TIP]
 > Sie können die Firmwareupdates testen und sie dann, sofern die Tests erfolgreich waren, allen relevanten Geräten in der Organisation zur Verfügung stellen.
@@ -45,9 +45,9 @@ Auf der Seite **Geräteupdate** können Sie die folgenden Aufgaben ausführen:
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Bearbeiten** Sie können diese Option verwenden, um folgendes zu tun:
+- **Bearbeiten** Sie können diese Option verwenden, um die folgenden Schritte zu tun:
 
-  - **Alles auswählen** Mit dieser Option werden alle Geräteupdates in der Liste ausgewählt.
+  - **Wählen Sie Alle aus.** Mit dieser Option werden alle Geräteupdates in der Liste ausgewählt.
 
   - **Löschen** Mit dieser Option werden alle ausgewählten Geräteupdates gelöscht.
 
@@ -61,7 +61,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 - **Aktualisieren** Sie können die Liste aktualisieren, um den Status aller Geräteupdates zu überprüfen.
 
-Ausführliche Informationen zum Geräteaktualisierungs-Webdienst finden Sie unter [View Software Updates for Devices in Your Organization](https://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx) in der Planungsdokumentation.
+Ausführliche Informationen zum Geräteaktualisierungs-Webdienst finden Sie unter [View Software Updates for Devices in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-view-software-updates-for-devices-in-your-organization) in der Planungsdokumentation.
 ## <a name="see-also"></a>Siehe auch
 
-[Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/import-csdeviceupdate?view=skype-ps)
+[Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)

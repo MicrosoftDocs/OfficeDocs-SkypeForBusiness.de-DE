@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switched Telephone Network, PSTN), indem Sie Folgendes konfigurieren:'
-ms.openlocfilehash: 4f437f9536b834b8b8dc69f59702bc77ce968ef2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835385"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119674"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definieren des Stammtrunks für eine neue IP-Adresse oder ein neues PSTN-Gateway
 
@@ -32,7 +32,7 @@ Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switc
 
 - **SIP-Transportprotokoll**: Wählen Sie je nach Ihren Trunkanforderungen in der Liste entweder **TCP** oder **TLS** aus.
 
-- **Zugeordneter Vermittlungsserver:** Wählen Sie in der Liste der verfügbaren Vermittlungsserver in Ihrer Bereitstellung aus
+- **Zugeordneter Vermittlungsserver:** Wählen Sie in der Liste der verfügbaren Vermittlungsserver in Ihrer Bereitstellung aus.
 
 - **Zugeordneter Vermittlungsserverport:** Definieren des Ports, den der ausgewählte Vermittlungsserver abhört
 
@@ -42,4 +42,4 @@ Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switc
 
 [Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-[SIP-Trunking-Unterstützung](https://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+[SIP-Trunking-Unterstützung](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

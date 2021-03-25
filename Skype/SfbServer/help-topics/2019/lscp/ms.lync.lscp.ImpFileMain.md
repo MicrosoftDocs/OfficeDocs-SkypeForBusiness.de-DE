@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 870b0492701225ee2041dc5999df571c3e820b21
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9b3e97adc2a72b76fef619d5c070635c97b57769
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801395"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120214"
 ---
 # <a name="file-filter"></a>Dateifilter
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Ändern des standardmäßigen Dateiübertragungsfilters](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [Ändern des standardmäßigen Dateiübertragungsfilters](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-file-transfer-filter)
 
-- [Erstellen eines neuen Dateiübertragungsfilters für einen bestimmten Standort](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
-
-
-
+- [Erstellen eines neuen Dateiübertragungsfilters für einen bestimmten Standort](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site)

@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Zusammenfassung: Sperren oder Entsperren der Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server.'
-ms.openlocfilehash: 73bd9affa159fba4ab35844896b9662eea3e1780
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828365"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119594"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Sperren oder Entsperren einer Benutzer-PIN in Skype for Business Server
  
 **Zusammenfassung:** Sperren oder Entsperren der Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server.
   
-Sie können die PIN eines Benutzers  im Abschnitt "Benutzer" der Skype for Business Server-Systemsteuerung sperren oder entsperren.
+Sie können die PIN eines Benutzers  im Abschnitt Benutzer der Skype for Business Server-Systemsteuerung sperren oder entsperren.
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>So sperren Sie die PIN eines Benutzers in der Skype for Business Server-Systemsteuerung
 
@@ -90,11 +90,11 @@ Sie können die PIN eines Benutzers  im Abschnitt "Benutzer" der Skype for Busin
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Sperren und Entsperren von Benutzer-PINs mithilfe Windows PowerShell Cmdlets
 
-Sie können Benutzer-PINs mithilfe von Windows PowerShell und den cmdlets Lock-CsClientPin und Unlock-CsClientPin entsperren. Sie können diese Cmdlets entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell. Details zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Prozess ist in Skype for Business Server identisch.
+Sie können Benutzer-PINs mithilfe von Windows PowerShell und den cmdlets Lock-CsClientPin Unlock-CsClientPin sperren und entsperren. Sie können diese Cmdlets entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-lock-a-user-pin"></a>So sperren Sie die PIN eines Benutzers
 
-- Verwenden Sie zum Sperren der PIN eines Benutzers das Lock-CsClientPin Cmdlet. Beispiel:
+- Verwenden Sie das cmdlet Lock-CsClientPin, um die PIN eines Benutzers zu sperren. Beispiel:
     
   ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
@@ -102,10 +102,10 @@ Sie können Benutzer-PINs mithilfe von Windows PowerShell und den cmdlets Lock-C
 
 ### <a name="to-unlock-a-user-pin"></a>So entsperren Sie die PIN eines Benutzers
 
-- Um die PIN eines Benutzers zu entsperren, verwenden Sie das Unlock-CsClientPin Cmdlet. Beispiel:
+- Verwenden Sie zum Entsperren der PIN eines Benutzers das Unlock-CsClientPin Cmdlet. Zum Beispiel:
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Weitere Informationen finden Sie im Hilfethema für die [Cmdlets "Lock-CsClientPin"](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) und ["Unlock-CsClientPin".](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema für die [Cmdlets Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) und [Unlock-CsClientPin.](/powershell/module/skype/unlock-csclientpin?view=skype-ps)

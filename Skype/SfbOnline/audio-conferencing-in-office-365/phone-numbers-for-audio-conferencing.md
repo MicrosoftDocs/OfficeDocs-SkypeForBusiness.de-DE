@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 6badaf3234b174f4261d93f82239045f0d49bcff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164714"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114221"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Telefonnummern für Audiokonferenzen in Skype für Business Online
 
@@ -55,7 +55,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
  **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
- **Freigegebene Telefonnummern** sind die Telefonnummern, die für andere Microsoft 365-oder Office 365-Konten freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn sich jemand an eine dieser Nummern anmeldet, nicht ändern.
+ **Freigegebene Telefonnummern** sind telefonnummern, die mit anderen Microsoft 365- oder Office 365-Konten geteilt werden können. Sie können die Sprachen nicht ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
   
@@ -77,16 +77,16 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
 
 - Die Liste der unterstützten Sprachen für Audiokonferenzen finden Sie unter [Unterstützte Sprachen für Audiokonferenzen](/MicrosoftTeams/audio-conferencing-supported-languages).
     
-- Mithilfe des Cmdlets [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) können Sie die dedizierten Telefonnummern für Audiokonferenzen für Ihre Organisation anzeigen.
+- Mithilfe des Cmdlets [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) können Sie die dedizierten Telefonnummern für Audiokonferenzen für Ihre Organisation anzeigen.
     
-- Mithilfe des Cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) können Sie die Sprachen anzeigen, die für eine dedizierte Einwahlrufnummer festgelegt werden können.
+- Mithilfe des Cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) können Sie die Sprachen anzeigen, die für eine dedizierte Einwahlrufnummer festgelegt werden können.
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- Informationen zum Festlegen der Einwahlrufnummer für einen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites.md).
+- Informationen zum Festlegen der Dial-in-Telefonnummer für einen Benutzer finden Sie unter [Festlegen der in Einladungen enthaltenen Telefonnummern](set-the-phone-numbers-included-on-invites.md).
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

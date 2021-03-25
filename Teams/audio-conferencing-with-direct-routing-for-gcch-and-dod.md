@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: Der Administrator kann erfahren, wie Audiokonferenzen mit Direct Routing in GCCH- und DoD-Umgebungen verwendet werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f2789c6d4f4e9c5446ad39d6f2d50d842b92a6
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119334"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
@@ -111,7 +111,7 @@ Verwenden Sie den folgenden Befehl, um eine neue PSTN-Verwendung in einer Remote
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
   ```
 
-Weitere Informationen finden Sie unter [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage).
+Weitere Informationen finden Sie unter [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage).
 
 Verwenden Sie zum Erstellen einer neuen Sprachroute den folgenden Befehl:
 
@@ -123,7 +123,7 @@ Geben Sie beim Definieren einer neuen Sprachroute für Ihre Organisation ein ode
 
 Das Nummernmuster gibt an, welche Anrufe über die angegebene Liste der Gateways basierend auf der Zieltelefonnummer des Anrufs geroutet werden. Im vorstehenden Beispiel stimmen Anrufe an beliebige Ziele in der Welt mit der Sprachroute überein. Wenn Sie die Telefonnummern einschränken möchten, die aus den Besprechungen der Benutzer in Ihrer Organisation gewählt werden können, können Sie das Nummernmuster so ändern, dass die Sprachroute nur den Nummernmustern der zulässigen Ziele entspricht. Beachten Sie: Wenn keine Sprachrouten dem Nummernmuster der Zieltelefonnummer eines bestimmten Anrufs entsprechen, wird der Anruf nicht geroutet.
 
-Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoute](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute).
+Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoute](/powershell/module/skype/new-csonlinevoiceroute).
 
 Verwenden Sie den folgenden Befehl, um eine neue Sprachroutingrichtlinie zu erstellen:
 
@@ -133,7 +133,7 @@ Verwenden Sie den folgenden Befehl, um eine neue Sprachroutingrichtlinie zu erst
 
 Wenn in der Sprachroutingrichtlinie mehrere PSTN-Verwendungen definiert werden, werden sie in der Reihenfolge ausgewertet, in der sie definiert sind. Es wird empfohlen, die PSTN-Verwendungen in der Reihenfolge der spezifischsten für die generischen in Bezug auf die Zahlenmuster der den PSTN-Nutzungen zugeordneten Sprachrouten zu definieren. Wenn beispielsweise eine PSTN-Verwendung zum Weiterleiten von Anrufen in die USA definiert wurde und eine andere PSTN-Verwendung zum Weiterleiten von Anrufen an einen beliebigen anderen Ort auf der Welt definiert wurde, sollte die PSTN-Verwendung für Anrufe in die USA in der Sprachroutingrichtlinie vor der PSTN-Verwendung aufgeführt werden, um Anrufe an einen anderen Ort auf der Welt zu weiterleiten.
 
-Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
+Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/new-csonlinevoiceroutingpolicy).
 
 Verwenden Sie den folgenden Befehl, um der globalen Sprachroutingrichtlinie Ihrer Organisation die neue Sprachroute zuzuordnen:
 
@@ -141,13 +141,13 @@ Verwenden Sie den folgenden Befehl, um der globalen Sprachroutingrichtlinie Ihre
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
   ```
 
-Weitere Informationen finden Sie unter [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
+Weitere Informationen finden Sie unter [Grant-CsOnlineVoiceRoutingPolicy](/powershell/module/skype/grant-csonlinevoiceroutingpolicy).
 
 Sobald die globale Voiceroutingrichtlinie definiert wurde, werden alle ausgehenden Anrufe aus Besprechungen, die von Benutzern in Ihrer Organisation organisiert werden, anhand der Voicerouten ausgewertet, die den PSTN-Nutzungen der globalen Voiceroutingrichtlinie zugeordnet sind. Die ausgehenden Anrufe werden entsprechend der ersten Sprachroute, die dem Nummernmuster der gewählten Telefonnummer entspricht, geroutet.
 
 ### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Schritt 5: Zuweisen von Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen zu Ihren Benutzern
 
-Informationen zum Zuweisen von Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen zu Ihrem Benutzer finden Sie unter Zuweisen von [Lizenzen zu Benutzern.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Informationen zum Zuweisen von Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen zu Ihrem Benutzer finden Sie unter Zuweisen von [Lizenzen zu Benutzern.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Schritt 6: (Optional) Eine Liste der Nummern für Audiokonferenzen in Teams
 

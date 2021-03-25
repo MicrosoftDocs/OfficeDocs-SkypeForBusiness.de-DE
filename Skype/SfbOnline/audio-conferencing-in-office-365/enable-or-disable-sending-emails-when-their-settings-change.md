@@ -1,5 +1,5 @@
 ---
-title: Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern
+title: Aktivieren oder Deaktivieren des Sendens von E-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,112 +20,110 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Erfahren Sie, wie Sie Skype beim Senden von e-Mails an Benutzer aktivieren oder deaktivieren können, wenn sich Einstellungen wie PIN-Änderungen oder die standardmäßige Konferenznummer ändern. '
-ms.openlocfilehash: 681a02fd410c008f46ad7906c5963660df668a89
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'Erfahren Sie, wie Sie Skype beim Senden von E-Mails an Benutzer aktivieren oder deaktivieren, wenn sich Einstellungen wie Anheften oder die Standardkonferenznummer ändern. '
+ms.openlocfilehash: 6b9e67d8c87b023409b7934a944f298487f91289
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164264"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114251"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Aktivieren oder Deaktivieren des Sendens von E-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern
 
 > [!Note]
-> Wenn Sie das Senden von e-Mails in Microsoft Teams aktivieren oder deaktivieren möchten, lesen Sie [Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenz in Microsoft Teams ändern](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
+> Wenn Sie das Senden von E-Mails in Microsoft Teams aktivieren oder deaktivieren möchten, lesen Sie Aktivieren oder Deaktivieren des Sendens von E-Mails, wenn sich die Einstellungen für [Audiokonferenzen in Microsoft Teams ändern.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
 
-Benutzer werden automatisch per e-Mail benachrichtigt, wenn Sie für Audiokonferenzen aktiviert sind. Es kann jedoch vorkommen, dass Sie die Anzahl der e-Mails verringern möchten, die an Skype for Business-Benutzer gesendet werden. In solchen Fällen können Sie das Senden von e-Mails deaktivieren.
+Benutzer werden automatisch per E-Mail benachrichtigt, wenn sie für Audiokonferenzen aktiviert sind. Es kann jedoch zu Zeiten kommen, in denen Sie die Anzahl der E-Mails verringern möchten, die an Skype for Business-Benutzer gesendet werden. In solchen Fällen können Sie das Senden von E-Mails deaktivieren.
   
-Wenn Sie das Senden von e-Mails deaktivieren, werden keine Audiokonferenz-e-Mails an Ihre Benutzer gesendet, einschließlich e-Mails, wenn Benutzer für Audiokonferenzen aktiviert oder deaktiviert werden, wenn die PIN zurückgesetzt wird und die Konferenz-ID und die standardmäßige Konferenztelefonnummer geändert werden.
+Wenn Sie das Senden von E-Mails deaktivieren, werden Audiokonferenz-E-Mails nicht an Ihre Benutzer gesendet, einschließlich E-Mails, wenn Benutzer für Audiokonferenzen aktiviert oder deaktiviert sind, wenn ihre PIN zurückgesetzt wird und wenn sich die Konferenz-ID und die Standardtelefonnummer für Konferenzen ändern.
   
-Im folgenden finden Sie ein Beispiel für die e-Mail, die an Benutzer gesendet wird, wenn Sie für Audiokonferenzen aktiviert sind:
+Hier ist ein Beispiel für die E-Mail, die an Benutzer gesendet wird, wenn sie für Audiokonferenzen aktiviert sind:
   
-![E-Mail-Konferenz](../images/audio-conferencing-user-enabled.png)
+![E-Mail für Audiokonferenzen](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Wann werden E-Mails an Benutzer gesendet?
 
-- Es gibt mehrere e-Mail-Nachrichten, die an Benutzer in Ihrer Organisation gesendet werden, nachdem Sie für Audiokonferenzen aktiviert wurden:
+- Es gibt mehrere E-Mails, die an Benutzer in Ihrer Organisation gesendet werden, nachdem sie für Audiokonferenzen aktiviert wurden:
     
-  - Wenn Ihnen eine **Audiokonferenz-** Lizenz zugewiesen wurde.
+  - Wenn ihnen **eine** Lizenz für Audiokonferenzen zugewiesen ist.
     
-  - Wenn Sie die Audiokonferenz-PIN des Benutzers manuell zurücksetzen.
+  - Wenn Sie die PIN für Audiokonferenzen des Benutzers manuell zurücksetzen.
     
   - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
     
-  - Wenn die **Audiokonferenz-** Lizenz von Ihnen entfernt wurde.
+  - Wenn die **Lizenz für Audiokonferenzen** entfernt wird.
     
-  - Wenn der Anbieter von Audiokonferenzen eines Benutzers von Microsoft auf einen anderen Anbieter oder **keinen**geändert wird.
+  - Wenn der Audiokonferenzanbieter eines Benutzers von Microsoft zu einem anderen Anbieter oder None **geändert wird.**
     
-  - Wenn der Audiokonferenz-Anbieter eines Benutzers zu Microsoft geändert wird.
+  - Wenn der Audiokonferenzanbieter eines Benutzers in Microsoft geändert wird.
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Aktivieren oder Deaktivieren des Sendens von e-Mails an Benutzer
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Aktivieren oder Deaktivieren des Sendens von E-Mails an Benutzer
 
-Sie können das Skype for Business Admin Center oder Windows PowerShell verwenden, um e-Mails zu aktivieren oder zu deaktivieren, die an Benutzer gesendet werden.
+Sie können das Skype for Business Admin Center oder Windows PowerShell verwenden, um an Benutzer gesendete E-Mails zu aktivieren oder zu deaktivieren.
 
  
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
     
-1. Klicken Sie im **Skype for Business Admin Center**im linken Navigationsbereich auf **Audiokonferenzen**.
+1. Klicken Sie **im Skype for Business Admin Center** im linken Navigationsbereich auf **Audiokonferenzen.**
     
 2. Aktivieren oder deaktivieren Sie auf der Seite **Einstellungen von Microsoft Bridge** die Option **Automatically send emails to users if any of the audio conferencing configuration changes** (Bei einer Änderung der Audiokonferenzeinstellungen automatisch E-Mails an Benutzer senden).
     
 3. Klicken Sie auf **Speichern**.
     
     > [!TIP]
-    > Sie können auch eine e-Mail mit den Einstellungen für Audiokonferenzen an einen Benutzer senden, indem Sie zu **Audiokonferenz** > -**Benutzer**wechseln, den Benutzer auswählen und auf **Konferenz Informationen per e-Mail senden**klicken.  Wenn Sie dies tun, wird eine e-Mail gesendet, die nur Konferenz-ID und Konferenztelefonnummer enthält, aber nicht die PIN.  Weitere Informationen finden Sie unter [Senden einer e-Mail-Nachricht an einen Benutzer mit den zugehörigen Informationen zur Audiokonferenz](send-an-email-to-a-user-with-their-dial-in-information.md) .
+    > Sie können auch E-Mails mit den Einstellungen für Audiokonferenzen an einen Benutzer senden, indem Sie zu **Audiokonferenzbenutzer** gehen, den Benutzer auswählen und auf Konferenzinformationen per  >  E-Mail **senden klicken.**  Wenn Sie dies tun, wird eine E-Mail gesendet, die nur konferenz-ID und Konferenztelefonnummer, aber nicht die PIN enthält.  Weitere Informationen finden Sie unter Senden einer [E-Mail](send-an-email-to-a-user-with-their-dial-in-information.md) an einen Benutzer mit seinen Audiokonferenzinformationen.
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 **Verwenden von Windows PowerShell**
   
-- Führen Sie die folgenden Schritte aus, um das Senden von e-Mails zu deaktivieren: 
+- Führen Sie die folgenden Schritte aus, um das Senden von E-Mails zu deaktivieren: 
     
   ```PowerShell
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    Hilfe zu diesem Cmdlet finden Sie unter [Satz-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
+    Hilfe zu diesem Cmdlet finden Sie unter [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings).
     
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
-- Wenn automatische e-Mail-Nachrichten deaktiviert sind, können Sie mit dem Skype for Business Admin Center das Senden einer e-Mail mit der Konferenz-ID und der Telefonnummer manuell auslösen. Wenn Sie dies jedoch tun, wird die PIN nicht berücksichtigt. Wenn Sie die PIN für die Audiokonferenz zurücksetzen möchten und e-Mails nicht mehr gesendet werden sollen, müssen Sie Sie auf eine andere Weise an den Benutzer senden.
+- Wenn automatische E-Mails deaktiviert sind, können Sie weiterhin manuell das Senden einer E-Mail mit der Konferenz-ID und telefonnummer über das Skype for Business Admin Center auslösen. Wenn Sie dies tun, wird die PIN jedoch nicht einbezogen. Wenn Sie die PIN für Audiokonferenzen zurücksetzen möchten und das Senden von E-Mails deaktiviert ist, müssen Sie sie auf andere Weise an den Benutzer senden.
     
 - Das Senden von E-Mails an Benutzer kann über das Skype for Business Admin Center oder die Windows PowerShell deaktiviert werden.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Sie können diese Cmdlets verwenden, um Zeit zu sparen oder diese zu automatisieren.
+- Sie können diese Cmdlets verwenden, um Zeit zu sparen oder dies zu automatisieren.
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-  - [Remove-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715759)
+  - [Remove-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Remove-CsOnlineDialInConferencingTenantSettings)
     
-  - [Get-CsOnlineDialinConferencingTenantConfiguration](https://go.microsoft.com/fwlink/?LinkId=715758)
+  - [Get-CsOnlineDialinConferencingTenantConfiguration](/powershell/module/skype/Get-CsOnlineDialinConferencingTenantConfiguration)
     
-  - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
+  - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum Sie Microsoft 365 oder Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
+- Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[E-Mails, die an Benutzer gesendet werden, wenn sich Ihre audiokonferenzeinstellungen ändern](emails-sent-to-users-when-their-settings-change.md)
+[E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen für Audiokonferenzen ändern](emails-sent-to-users-when-their-settings-change.md)
 
 [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information.md)
-
-

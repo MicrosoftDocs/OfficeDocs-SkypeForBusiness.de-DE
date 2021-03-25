@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Artikel enthält detaillierte Schritte zum Deaktivieren von Hybrid als Teil der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874695"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120354"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Deaktivieren der Hybridbereitstellung zum Abschließen der Migration in die Cloud: Übersicht
 
@@ -99,7 +99,7 @@ Administratoren können Benutzer verwalten, die zuvor von einem lokalen Skype fo
 
   ![Active Directory-Benutzer- und -Computertool](../media/disable-hybrid-1.png)
   
--  Wenn der Benutzer vor dem Verschieben ursprünglich keinen Wert für lokal hatte, können Sie die Telefonnummer mithilfe des `msRTCSIP-Line` --Parameters im `onpremLineUri` [Cmdlet Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) im Skype for Business Online PowerShell-Modul ändern.
+-  Wenn der Benutzer vor dem Verschieben ursprünglich keinen Wert für lokal hatte, können Sie die Telefonnummer mithilfe des `msRTCSIP-Line` --Parameters im `onpremLineUri` [Cmdlet Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) im Skype for Business Online PowerShell-Modul ändern.
 
 Diese Schritte sind für neue Benutzer, die nach der Deaktivierung der Hybridbereitstellung erstellt wurden, nicht erforderlich, und diese Benutzer können direkt in der Cloud verwaltet werden. Wenn Sie die Kombination dieser Methode verwenden und die msRTCSIP-Attribute in Ihrem lokalen Active Directory nicht mehr verwenden möchten, können Sie die lokalen Skype for Business-Server einfach neu abbilden. Wenn Sie es jedoch vorziehen, alle msRTCSIP-Attribute zu löschen und eine herkömmliche Deinstallation von Skype for Business Server zu unternehmen, verwenden Sie Methode 2.
 
