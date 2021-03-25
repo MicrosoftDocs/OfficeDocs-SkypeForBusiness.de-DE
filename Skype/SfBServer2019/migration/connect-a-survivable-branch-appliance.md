@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Jede Survivable Branch Appliance (SBA) ist einer Front-End-Pool zugeordnet, die als Sicherungs Registrierungsstelle für die SBVg dient. Wenn die Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss die SBVg von der Front-End-Pool entfernt werden, während der Pool aktualisiert wird, nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann die SBVg erneut mit der aktualisierten Front-End-Pool verbunden werden. Dies umfasst das Löschen des SBA aus der Legacy Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die in der Legacy-SBA verwaltet werden, müssen zuerst in eine andere Front-End-Pool verschoben werden, bevor Sie die SBA aus der Topologie entfernen. Sobald die SBVg der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer wieder in die SBVg verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:'
-ms.openlocfilehash: 23fea7694a754b82ecad684d2ea02b603a6c7299
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 'Jede Survivable Branch Appliance (SBA) ist einem Front-End-Pool zugeordnet, der als Sicherungsregistrierungsstelle für den SBA dient. Wenn der Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss der SBA beim Upgrade des Pools vom Front-End-Pool entfernt werden. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann der SBA dem aktualisierten Front-End-Pool erneut zugeordnet werden. Dies umfasst das Löschen des SBA aus der Legacytopologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die im legacy-SBA verwendet werden, müssen zunächst in einen anderen Front-End-Pool verschoben werden, bevor der SBA aus der Topologie entfernt wird. Sobald der SBA der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer wieder in den SBA verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:'
+ms.openlocfilehash: e56bae1631a315b6f42042fb6a7bedd4f144a1b6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751547"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113341"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Verbinden einer Survivable Branch Appliance
 
-Jede Survivable Branch Appliance (SBA) ist einer Front-End-Pool zugeordnet, die als Sicherungs Registrierungsstelle für die SBVg dient. Wenn die Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss die SBVg von der Front-End-Pool entfernt werden, während der Pool aktualisiert wird. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann die SBVg erneut mit der aktualisierten Front-End-Pool verknüpft werden. Dies umfasst das Löschen des SBA aus der Legacy Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die in der Legacy-SBA verwaltet werden, müssen zuerst in eine andere Front-End-Pool verschoben werden, bevor Sie die SBA aus der Topologie entfernen. Nachdem die SBVg der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer wieder in die SBVg verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:
+Jede Survivable Branch Appliance (SBA) ist einem Front-End-Pool zugeordnet, der als Sicherungsregistrierungsstelle für den SBA dient. Wenn der Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss der SBA vom Front-End-Pool aufgehoben werden, während der Pool aktualisiert wird. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann der SBA dem aktualisierten Front-End-Pool erneut zugeordnet werden. Dies umfasst das Löschen des SBA aus der Legacytopologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die im legacy-SBA verwendet werden, müssen zunächst in einen anderen Front-End-Pool verschoben werden, bevor der SBA aus der Topologie entfernt wird. Nachdem der SBA der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer wieder in den SBA verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:
   
-1. Verlagern von Zweigstellenbenutzern, die sich in der Legacy-SBA befinden, in eine andere Front-End-Pool
+1. Verzweigungsbenutzer, die im legacy-SBA zu einem anderen Front-End-Pool verzweigt sind.
     
-2. Entfernen Sie SBA aus der Legacy Topologie, um die vorhandene Front-End-Pool als Sicherungs Registrierungsstelle zu trennen.
+2. Entfernen Sie SBA aus der Legacytopologie, um den vorhandenen Front-End-Pool als Sicherungsregistrierungsstelle zu trennen.
     
-3. Fügen Sie SBA zur Skype for Business Server 2019-Topologie hinzu, und konfigurieren Sie diese neue Front-End-Pool als Sicherungs Registrierungsstelle. 
+3. Fügen Sie der Skype for Business Server 2019-Topologie SBA hinzu, und konfigurieren Sie diesen neuen Front-End-Pool als Sicherungsregistrierungsstelle. 
     
-4. Stellen Sie die Zweigstellenbenutzer in die neue Skype for Business Server 2019 SBA.
+4. Verschieben Sie die Zweigstellenbenutzer in den neuen Skype for Business Server 2019-SBA.
     
-### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Hinzufügen eines Legacy-SBA-Zweigstellen Standorts zu Ihrer Topologie
+### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Hinzufügen einer älteren SBA-Zweigstellenwebsite zu Ihrer Topologie
 
 1. Öffnen Sie den **Topologie-Generator**.
     
-2. Klicken Sie im linken Bereich mit der rechten Maustaste auf **Zweigstellenstandorte**, und klicken Sie dann auf **Neue Zweigstelle**.
+2. Klicken Sie im linken Bereich mit der rechten Maustaste auf **Zweigstellen,** und klicken Sie dann auf **Neuer Zweigstellenstandort**.
     
 3. Klicken Sie im Dialogfeld **Neuen Zweigstellenstandort definieren** auf **Name**, und geben Sie den Namen für den Zweigstellenstandort ein.
     
@@ -50,25 +50,23 @@ Jede Survivable Branch Appliance (SBA) ist einer Front-End-Pool zugeordnet, die 
     
     3. Klicken Sie auf **Ländercode**, und geben Sie den zweistelligen Ländercode für das Land ein, in dem sich der Zweigstellenstandort befindet.
     
-7. Klicken Sie auf **weiter**, und wenn Sie eine Survivable Branch Appliance oder einen Server an dieser Website verwenden, müssen Sie den Assistenten zum **Öffnen des neuen überlebten Assistenten deaktivieren, wenn dieser Assistent geschlossen** wird. Klicken Sie auf **Fertig stellen**.
+7. Klicken Sie auf **Weiter,** und aktivieren Sie dann, wenn Sie an diesem Standort eine Survivable Branch Appliance oder einen Server verwenden, das Kontrollkästchen Neuer **Survivable-Assistent** öffnen, wenn dieser Assistent geschlossen wird. Klicken Sie auf **Fertig stellen**.
     
-8. So ordnen Sie das Legacy-SBA dem Skype for Business Server 2019 Front-End-Pool zu:
+8. So ordnen Sie den älteren SBA dem Skype for Business Server 2019-Front-End-Pool zu:
     
-    1. Erweitern Sie den Zweigstellenstandort, der erstellt wurde. 
+    1. Erweitern Sie den erstellten Zweigstellenstandort. 
     
-    2. Klicken Sie mit der rechten Maustaste auf ältere Version, und klicken Sie dann auf **neu**.
+    2. Klicken Sie mit der rechten Maustaste auf die Ältere Version, und klicken Sie dann auf **Neu**.
     
-    3. Klicken Sie auf **Survivable Branch Appliance**.
+    3. Klicken **Sie auf Survivable Branch Appliance**.
     
-9. Befolgen Sie die Anweisungen im Assistenten, der geöffnet wird. Informationen zu Assistenten Elementen finden Sie unter    
-   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/library/gg398280(v=ocs.15).aspx). -->
+9. Befolgen Sie die Anweisungen im assistenten, der geöffnet wird. Informationen zu Assistentenelementen finden Sie unter    
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](/previous-versions/office/lync-server-2013/lync-server-2013-define-a-survivable-branch-appliance-or-server). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
-    > Ein Survivable Branch Appliance kann nur einem Überwachungsspeicher zugeordnet werden. 
+    > Eine Survivable Branch Appliance kann nur einem Überwachungsspeicher zugeordnet werden. 
   
-10. Wenn Sie an diesem Standort keinen Survivable Branch Appliance oder Server verwenden, deaktivieren Sie das Kontrollkästchen **neuen überlebten Assistenten öffnen, wenn dieser Assistent geschlossen** wird, und klicken Sie dann auf **Fertig stellen**.
+10. Wenn Sie an diesem Standort keine Survivable Branch Appliance oder keinen Server verwenden, aktivieren Sie das Kontrollkästchen Neuer **Survivable-Assistent** öffnen, wenn dieser Assistent geschlossen wird, und klicken Sie dann auf **Fertig stellen.**
     
 11. Wiederholen Sie die vorherigen Schritte für jeden Zweigstellenstandort, den Sie der Topologie hinzufügen möchten.
-    
-

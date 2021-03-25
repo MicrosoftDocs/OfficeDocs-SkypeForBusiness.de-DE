@@ -18,40 +18,39 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Verwenden Sie Windows PowerShell und die Cmdlets Get-CsTenant und Get-CsTenantLicensingConfiguration, um Informationen zu Ihrem Skype for Business Online-Mandanten zu erhalten.
-ms.openlocfilehash: 06597447edaf095be3df26b58e6210bb919ee0bd
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: Verwenden Windows PowerShell- und Get-CsTenant-cmdlets Get-CsTenantLicensingConfiguration, um Informationen zu Ihrem Skype for Business Online-Mandanten zu erhalten.
+ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085691"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113181"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Verwalten von Skype for Business Online-Organisationen
 > [!NOTE]
-> Die neueste [Version von Teams PowerShell Public Preview](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und bietet ein einzelnes Modul für die PowerShell-Verwaltung von Teams.
+> Die neueste version der öffentlichen Version von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für die Verwaltung von Teams PowerShell zur Verfügung.
 
-Sie können Informationen zu Ihrem Skype for Business Online-Mandanten mithilfe der Cmdlets **Get-CsTenant** und **Get-CsTenantLicensingConfiguration** finden.
+Informationen zu Ihrem Skype for Business Online-Mandanten finden Sie über die **Cmdlets Get-CsTenant** und **Get-CsTenantLicensingConfiguration.**
   
 ## <a name="manage-skype-for-business-online-tenants"></a>Verwalten von Skype for Business Online-Mandanten
 
-Wenn Sie Informationen zu Ihrem Skype for Business Online-Mandanten zurückgeben möchten, rufen Sie das Cmdlet " [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) " ohne zusätzliche Parameter auf.
+Um Informationen zu Ihrem Skype for Business Online-Mandanten zurückzukehren, rufen Sie [das Get-CsTenant-Cmdlet](/powershell/module/skype/Get-CsTenant) ohne zusätzliche Parameter auf.
   
 ```PowerShell
 Get-CsTenant
 ```
 
-Wenn Sie nur den Mandantennamen und die ID zurückgeben möchten, verwenden Sie diesen Befehl.
+Verwenden Sie diesen Befehl, um nur den Namen und die ID des Mandanten zurückzukehren.
   
 ```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-Der Wert des _Tenant_ -Parameters ist erforderlich, wenn Cmdlets wie " [CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) " und " [CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080.aspx)" ausgeführt werden.
+Der Wert des _Parameters TenantID_ ist erforderlich, wenn Cmdlets wie [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) und [Set-CsTenantFederationConfiguration ausgeführt werden.](/powershell/module/skype/Set-CsTenantFederationConfiguration)
   
-Wenn Sie Informationen darüber finden möchten, ob Lizenzierungsinformationen für den angegebenen Mandanten im Skype for Business Online Admin Center zur Verfügung stehen, verwenden Sie das Cmdlet [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
+Wenn Sie Informationen dazu finden möchten, ob Lizenzierungsinformationen für den angegebenen Mandanten im Skype for Business Online Admin Center verfügbar sind, verwenden Sie das [Cmdlet Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten Ihres Computers für die Skype for Business Online-Verwaltung mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Einrichten Ihres Computers für skype for business online management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
- 

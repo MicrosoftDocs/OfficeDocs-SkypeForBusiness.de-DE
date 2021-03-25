@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Ermitteln Sie die Anforderungen für die Remoteverwaltung von Skype for Business Online mithilfe von Windows PowerShell, einschließlich unterstützter Betriebssysteme.
-ms.openlocfilehash: 42f1a8d922d3ecdd738aa82e13567540f53af231
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+description: Informieren Sie sich über die Anforderungen für die Remoteverwaltung von Skype for Business Online über Windows PowerShell, einschließlich unterstützter Betriebssysteme.
+ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814384"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113141"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Einrichten Ihres Computers für Windows PowerShell
 
-Die Remote Verwaltung von Skype for Business Online mithilfe von Microsoft PowerShell wird nur auf 64-Bit-Computern unterstützt, auf denen eines der folgenden Betriebssysteme ausgeführt wird:
+Die Remoteverwaltung von Skype for Business Online mithilfe von Microsoft PowerShell wird nur auf 64-Bit-Computern mit einem der folgenden Betriebssysteme unterstützt:
 
 - Windows Server 2016
 
@@ -46,22 +46,21 @@ Die Remote Verwaltung von Skype for Business Online mithilfe von Microsoft Power
     
 - Windows 7
     
-Neben dem unterstützten Betriebssystem muss auf dem Computer auch Folgendes ausgeführt werden:
+Zusätzlich zum unterstützten Betriebssystem muss auf dem Computer auch Folgendes ausgeführt werden:
   
 - PowerShell
     
 - Teams PowerShell-Modul 
     
-Informationen zum herunterladen und Installieren dieser Elemente finden Sie unter den folgenden Themen:
+Informationen zum Herunterladen und Installieren dieser Elemente finden Sie in den folgenden Themen:
   
-- [Herunterladen und Installieren des PowerShell-Moduls von Teams](https://docs.microsoft.com/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
+- [Herunterladen und Installieren des Teams Powershell-Moduls](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Herunterladen und Installieren von Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Verwalten von Skype for Business Online mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [Verwalten von Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online Connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
- 
