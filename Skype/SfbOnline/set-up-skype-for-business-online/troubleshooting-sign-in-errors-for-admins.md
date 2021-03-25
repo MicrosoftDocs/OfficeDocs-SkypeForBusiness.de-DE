@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie mehr über die Ursachen für Skype for Business Online-Anmeldefehler und die Problembehandlung. '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164324"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103841"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Problembehandlung bei Skype for Business Online-Anmeldefehlern für Administratoren
 
@@ -170,7 +170,7 @@ Wenn sich der Benutzer nach dem Aktualisieren seiner Anmeldeinformationen immer 
 
 2. Aktivieren Sie bei Bedarf die Option **Versteckte Dateien anzeigen**.
 
-3. Geben Sie die folgende Zeichenfolge in der Adressleiste von Datei-Explorer ein: **C:\\Dokumente und Einstellungen\\Benutzername\\Anwendungsdaten\\Microsoft\\Crypto\\RSA**, wobei ***Benutzername*** Ihr Windows-Anmeldename ist.
+3. Geben Sie die folgende Zeichenfolge in der Adressleiste des Datei-Explorers ein: **C:\\Dokumente und Einstellungen\\Benutzername\\Anwendungsdaten\\Microsoft\\Crypto\\RSA**, wobei der **_Benutzername_** Ihr Windows-Anmeldename ist.
 
 4. Löschen Sie alle Ordner, deren Namen mit **S-1-5-21-** beginnen (gefolgt von einer Zahlenfolge).
 
@@ -195,7 +195,7 @@ Führen Sie zum Beheben dieses Problems die folgenden Schritte aus:
 
 1. Aktualisieren Sie das Attribut **msRTCSIP-UserEnabled** für alle betroffenen Benutzer mit dem Wert **TRUE**.
 
-2. Verwenden Sie das Microsoft Online Services-Verzeichnissynchronisierungstool (DirSync). Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Verzeichnisse in Azure Active Directory](https://technet.microsoft.com/library/hh967642.aspx).
+2. Verwenden Sie das Microsoft Online Services-Verzeichnissynchronisierungstool (DirSync). Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Verzeichnisse in Azure Active Directory](/azure/active-directory/hybrid/whatis-hybrid-identity).
 
 Um Probleme bei der Anmeldung bei Skype for Business Online zu beheben, müssen Sie zunächst die häufigsten Ursachen für Anmeldeprobleme beseitigen. Bei Bedarf können Sie dann bestimmte Lösungsschritte basierend auf der Art des Fehlers ausführen. Wenn sich der Benutzer immer noch nicht anmelden kann, sammeln Sie zusätzliche Informationen, und fordern Sie dann weitere Unterstützung an.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Verwenden des Problembehandlungsleitfadens von Microsoft Support
@@ -220,5 +220,3 @@ Um Probleme bei der Anmeldung bei Skype for Business Online zu beheben, müssen 
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md)
-
-
