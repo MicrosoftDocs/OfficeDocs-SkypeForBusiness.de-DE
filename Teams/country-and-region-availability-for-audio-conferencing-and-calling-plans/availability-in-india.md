@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
-ms.openlocfilehash: 745ab3de04c33e5679e372190572ab07b87a331d
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347796"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117993"
 ---
 # <a name="availability-in-india"></a>Verfügbarkeit in Indien
 
@@ -43,7 +43,7 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft audio conferencing in Indien nicht. TATA Communications bietet einen Einwahl- und Einwahldienst, der mit Microsoft Teams-Besprechungen kompatibel ist. Weitere Informationen finden Sie auf der [Website von TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Mumbai</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Mumbai</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -73,7 +73,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 
- Beachten Sie, dass in Indien Dienstnummern nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](/microsoftteams/getting-service-phone-numbers)
+ Beachten Sie, dass in Indien Dienstnummern nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -85,6 +85,6 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

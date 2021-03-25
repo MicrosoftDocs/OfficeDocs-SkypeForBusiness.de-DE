@@ -1,5 +1,5 @@
 ---
-title: Verwalten der privaten Kanäle in Microsoft Teams mit Graph-API
+title: Verwalten der privaten Kanäle in Microsoft Teams mit der Graph-API
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie private Kanäle in Ihrer Organisation mithilfe der Diagramm-API verwalten.
-ms.openlocfilehash: 854e8721dac7d49e258db42845b84480955bfec7
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+description: Erfahren Sie, wie Sie private Kanäle in Ihrer Organisation mithilfe der Graph-API verwalten.
+ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772038"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117743"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus von privaten Kanälen in Microsoft Teams
 
-Hier finden Sie die Anleitungen, die Sie zum Verwalten der Diagramm-API verwenden müssen, um die [privaten Kanäle von Teams](https://docs.microsoft.com/microsoftteams/private-channels) in Ihrer Organisation zu verwalten.
+Hier finden Sie die Anleitungen, die Sie verwalten müssen, um private [Teams-Kanäle](./private-channels.md) in Ihrer Organisation mithilfe der Graph-API zu verwalten.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Festlegen, ob Teammitglieder private Kanäle erstellen können
 
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>Erstellen eines privaten Kanals im Auftrag eines Teambesitzers
 
-Als Administrator können Sie die Graph-API verwenden, um einen privaten Kanal im Auftrag eines Team Besitzers zu erstellen. Sie können dies beispielsweise so umsetzen, wenn Ihre Organisation die Erstellung von privaten Kanälen zentralisieren will.
+Als Administrator können Sie die Graph-API verwenden, um im Auftrag eines Teambesitzers einen privaten Kanal zu erstellen. Sie können dies beispielsweise so umsetzen, wenn Ihre Organisation die Erstellung von privaten Kanälen zentralisieren will.
 
 ```Graph API
 POST /teams/{id}/channels
@@ -70,7 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 Unabhängig davon, ob Sie eDiscovery oder die Aufbewahrung für juristische Zwecke in einem privaten Kanal durchführen, oder eine benutzerdefinierte App erstellen möchten, die Dateien in bestimmten privaten Kanälen platziert: Sie wollen eine Möglichkeit zur Abfrage der eindeutigen SharePoint-Websitesammlungen haben, die für jeden privaten Kanal erstellt wurden.
 
-Als Administrator können Sie diese URLs mithilfe von Diagramm-APIs-Befehlen Abfragen.
+Als Administrator können Sie diese URLs mithilfe von Graph-APIs abfragen.
 
 Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.com/graph/graph-explorer) ausprobieren.
 
@@ -138,7 +138,7 @@ Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.c
 
 Möglicherweise möchten Sie die Besitzer und Mitglieder eines privaten Kanals auflisten, um zu entscheiden, ob Sie bestimmte Mitglieder des privaten Kanals zu Besitzer hochstufen müssen. Dies kann der Fall sein, wenn Besitzer von privaten Kanälen die Organisation verlassen haben und der private Kanal die Hilfe eines Administrator benötigt, um den Besitz des Kanals wieder zu beanspruchen.
 
-Als Administrator können Sie die Diagramm-API verwenden, um diese Aktionen auszuführen.
+Als Administrator können Sie die Graph-API verwenden, um diese Aktionen durchzuführen.
 
 Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.com/graph/graph-explorer) ausprobieren.
 
@@ -211,14 +211,14 @@ Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.c
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verwenden der Microsoft Graph-API zum Arbeiten mit Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+[Verwenden der Microsoft Graph-API zum Arbeiten mit Teams](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
 
-[Kanäle auflisten](https://docs.microsoft.com/graph/api/channel-list)
+[Kanäle auflisten](/graph/api/channel-list)
 
-[Kanal erstellen](https://docs.microsoft.com/graph/api/channel-post)
+[Kanal erstellen](/graph/api/channel-post)
 
-[Mitglied zum Kanal hinzufügen](https://docs.microsoft.com/graph/api/conversationmember-add)
+[Mitglied zum Kanal hinzufügen](/graph/api/conversationmember-add)
 
-[Mitglied im Kanal aktualisieren](https://docs.microsoft.com/graph/api/conversationmember-update)
+[Mitglied im Kanal aktualisieren](/graph/api/conversationmember-update)
 
-[Mitglied aus dem Kanal entfernen](https://docs.microsoft.com/graph/api/conversationmember-delete)
+[Mitglied aus dem Kanal entfernen](/graph/api/conversationmember-delete)

@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppesanrufen bestimmt sind.
-ms.openlocfilehash: 687263d9d5778239c78038b39edc3da59f444a5a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppeanrufen bestimmt sind.
+ms.openlocfilehash: 74f7114894e76981003faf4a0e9167a03df02302
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808255"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118814"
 ---
 # <a name="response-groups-group"></a>Reaktionsgruppen: Gruppe
 
-Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppesanrufen bestimmt sind.
+Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppeanrufen bestimmt sind.
 
-Auf **der Seite**  -  **"Reaktionsgruppengruppe"** wird eine Liste aller Agentgruppen angezeigt, die für Ihre Organisation definiert sind.
+Auf **der Seite**  -  **Reaktionsgruppengruppe** wird eine Liste aller Agentgruppen angezeigt, die für Ihre Organisation definiert sind.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite "Reaktionsgruppengruppe" können **Sie** die folgenden  -  **Aufgaben** ausführen:
+Sie können die folgenden Aufgaben auf der Seite **Reaktionsgruppengruppe**  -   ausführen:
 
 - Erstellen einer neuen Agentgruppe
 
@@ -56,6 +56,4 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Beschreibung** Die Beschreibung für die Agentgruppe.
 
-Ausführliche Informationen zu Reaktiongruppenfeatures und -funktionen finden Sie unter ["Plan for the Response Group application in Skype for Business Server" in](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Agentgruppen finden Sie unter [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) in der Betriebsdokumentation.
-
-
+Ausführliche Informationen zu den Funktionen und Funktionen von Reaktionsgruppe finden Sie unter [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Agentgruppen finden Sie unter [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) in der Betriebsdokumentation.

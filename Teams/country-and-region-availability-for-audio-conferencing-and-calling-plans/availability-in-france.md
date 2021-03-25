@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Frankreich verfügbar sind.
-ms.openlocfilehash: 68ad6be38dd7755b9bfeb69da4605826b017bcd5
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Frankreich verfügbar sind.
+ms.openlocfilehash: 3e12854b3c8ab3725b9d61b240b7c395aca35a0d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322294"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118123"
 ---
 # <a name="availability-in-france"></a>Verfügbarkeit in Frankreich
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Frankreich verfügbar sind.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Frankreich verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Paris</ul> Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Paris</ul> Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
@@ -60,8 +60,8 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Plan für Inlands-und Auslandsgespräche: 1200 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> |
-|Können Sie ausgehende Anrufe an französische Premium-Nummern tätigen? <br/> | Ja, vollständig unterstützt bei Verwendung von Kommunikationsguthaben, um pro Minute zu zahlen. <br/> |
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Plan für Inlands- und Auslandsrufe: 1200 Minuten Inlands- oder 600 Minuten auslandsgerufener Anrufe (was im Kalendermonat zuerst erreicht wird)</li></li> |
+|Können Sie ausgehende Anrufe an französische Premiumnummern nehmen? <br/> | Ja, vollständig unterstützt, wenn Sie Guthaben für Kommunikationen verwenden, um pro Minute zu bezahlen. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
@@ -72,7 +72,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -84,7 +84,6 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

@@ -14,23 +14,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
-description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktiongruppenworkflows definieren die Aktionen, die beim Erhalten eines Telefonanrufs von der Reaktionsgruppesanwendung ergriffen werden.
-ms.openlocfilehash: b4f9a80be55e00d5874c79cf426e331a464d0e2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktionsgruppe workflows define the actions that are taken when the Response Group application receives a phone call.
+ms.openlocfilehash: dc34ec69af86658c6624ada6a9f25ff3aaa61499
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820265"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118764"
 ---
 # <a name="response-groups-workflow"></a>Workflow für Reaktionsgruppen
 
-Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktiongruppenworkflows definieren die Aktionen, die beim Erhalten eines Telefonanrufs von der Reaktionsgruppesanwendung ergriffen werden.
+Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktionsgruppe workflows define the actions that are taken when the Response Group application receives a phone call.
 
-Auf **der Seite "Reaktionsgruppenworkflow"** wird eine Liste aller Reaktionsgruppenworkflows angezeigt, die für Ihre Organisation definiert  -   sind.
+Auf **der Seite Reaktionsgruppenworkflow** wird eine Liste aller Reaktionsgruppenworkflows  -   angezeigt, die für Ihre Organisation definiert sind.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite "Reaktionsgruppenworkflow" können Sie   -  **die folgenden Aufgaben** ausführen:
+Sie können die folgenden Aufgaben auf der Seite **Reaktionsgruppenworkflow**  -   ausführen:
 
 - Erstellen oder Ändern eines Workflows für Sammelanschlüsse
 
@@ -40,7 +40,7 @@ Auf der Seite "Reaktionsgruppenworkflow" können Sie   -  **die folgenden Aufgab
 
 In der folgenden Liste sind die Befehle der Seite beschrieben.
 
-- **Erstellen oder Bearbeiten eines Workflows** Öffnet das Reaktiongruppenkonfigurationstool zum Erstellen oder Bearbeiten eines Workflows.
+- **Erstellen oder Bearbeiten eines Workflows** Öffnet das Reaktionsgruppe-Konfigurationstool zum Erstellen oder Bearbeiten eines Workflows.
 
 - **Aktualisieren** Aktualisiert die Liste der Workflows.
 
@@ -50,16 +50,14 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Dienst** Der **ApplicationServer-Dienst,** der den Workflow hostet.
 
-- **SIP-Adresse** Die SIP-Adresse der Gruppe, die Anrufe an den Workflow beantworten soll.
+- **SIP-Adresse** Die SIP-Adresse der Gruppe, die Anrufe an den Workflow beantwortet.
 
-- **Telefon** Die Telefonnummer, die angerufen wird, um diese Reaktionsgruppe zu erreichen.
+- **Telefon** Die Telefonnummer, die aufgerufen wird, um diese Reaktionsgruppe zu erreichen.
 
-- **Sprache** Die Sprache, die für die Spracherkennung und Text-zu-Sprache verwendet wird.
+- **Sprache** Die Sprache, die für spracherkennung und Text-zu-Sprache verwendet wird.
 
-- **IVR** Gibt an, ob es sich bei dem Workflow um einen Sammelsuchen oder einen interaktiven Workflow handelt.
+- **IVR** Gibt an, ob es sich bei dem Workflow um eine Sammelsuche oder einen interaktiven Workflow handelt.
 
 - **Aktiviert** Gibt an, ob der Workflow für den Empfang von Anrufen aktiviert ist.
 
-Ausführliche Informationen zu Reaktiongruppenfeatures und -funktionen finden Sie unter ["Plan for the Response Group application in Skype for Business Server" in](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) der Planungsdokumentation. Ausführliche Informationen zum Arbeiten mit Reaktiongruppenworkflows finden Sie unter ["Managing Response Group Workflows"](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) in der Betriebsdokumentation.
-
-
+Ausführliche Informationen zu den Funktionen und Funktionen von Reaktionsgruppe finden Sie unter [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in der Planungsdokumentation. Ausführliche Informationen zum Arbeiten mit Reaktionsgruppeworkflows finden Sie unter [Managing Response Group Workflows](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) in der Betriebsdokumentation.

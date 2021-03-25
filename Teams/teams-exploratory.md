@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 368c4dace7a7ba14cb13f3a027b9d04ee63dc17b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867044"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119204"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 
-Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion](iw-trial-teams.md) wurde durch die Microsoft Teams Exploratory-Umgebung ersetzt.
+Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion]() wurde durch die Microsoft Teams Exploratory-Umgebung ersetzt.
 
 > [!NOTE]
 > Es gilt ein Grenzwert von 100 Microsoft Teams Exploratory-Lizenzen pro Mandant.
@@ -151,7 +151,7 @@ Um Benutzer mit der Microsoft Teams Exploratory-Lizenz zu upgraden (Sie benötig
 
 3. Weisen Sie die neu erworbene Lizenz zu.
 
-Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
+Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Wenn die Microsoft Teams Exploratory-Lizenz endet und für einen Benutzer nicht sofort ein Upgrade auf ein Abonnement vorgenommen wird, das Microsoft Teams umfasst, hat er eine Nachfrist von 30 Tagen und dann weitere 30 Tage, nach deren Ablauf die Daten gelöscht werden. Der Benutzer ist weiterhin in Azure Active Directory vorhanden. Sobald dem Benutzer eine neue Lizenz zugewiesen wurde, um Microsoft Teams-Funktionen wieder zu aktivieren, sind die Inhalte weiterhin vorhanden, sofern der Benutzer innerhalb der Nachfrist hinzugefügt wird.
@@ -164,13 +164,13 @@ Wenn sich ein Benutzer zum ersten Mal bei seiner abgelaufenen Microsoft Teams Co
 
 ### <a name="remove-a-teams-exploratory-license"></a>Entfernen einer explorativen Microsoft Teams-Lizenz
 
-- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
+- Wenn Sie diese Lizenz über PowerShell entfernen möchten, ziehen Sie [Entfernen von Lizenzen von Benutzerkonten mit Office 365 PowerShell](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell) zurate.
 
-- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Löschen eines Benutzers aus Ihrer Organisation](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user).
+- Wenn Sie diese Lizenz über das Verwaltungsportal entfernen möchten, lesen Sie [Löschen eines Benutzers aus Ihrer Organisation](/microsoft-365/admin/add-users/delete-a-user).
 
 ## <a name="what-is-the-data-retention-policy"></a>Was sieht die Datenaufbewahrungsrichtlinie vor
 
-Informationen hierzu finden Sie unter [Informationen zum Microsoft 365-Abonnement](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
+Informationen hierzu finden Sie unter [Informationen zum Microsoft 365-Abonnement](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide).
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Wie lange die Teams Exploratory-Umgebung verfügbar ist
 
@@ -188,4 +188,3 @@ Am Ende des 12-monatigen Abonnements sollten Administratoren die Testlizenz alle
 > Nach Ablauf der vorherigen Exploratory-Testlizenz werden Kunden deaktiviert und drei Monate lang daran gehindert, eine neue Testversion zu starten.
 
 Weitere Informationen finden Sie unter [Upgrade von Benutzern der Teams Exploratory-Lizenz](#upgrade-users-from-the-teams-exploratory-license)), oben in diesem Artikel.
-

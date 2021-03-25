@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 9cec7abc4af736a72b83bc978709dacf4e7c18e8
-ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
-ms.translationtype: HT
+ms.openlocfilehash: 463f081151761d4c587c893672e7bbee093cc844
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49601695"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117733"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -125,4 +125,4 @@ Wenn Sie ein Team aus einem bestehenden Team erstellen, werden private Kanäle d
 
 [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 
-[Verwenden der Microsoft Graph-API zum Arbeiten mit Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview)
+[Verwenden der Microsoft Graph-API zum Arbeiten mit Teams](/graph/api/resources/teams-api-overview)

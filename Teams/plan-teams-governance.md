@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e51b85e7ecf8efc61c6ca78ca16e4366372885
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756231"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117813"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -43,7 +43,7 @@ Möglicherweise müssen Sie in Ihrer Organisation strenge Steuerelemente impleme
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie die Anforderungen Ihrer Organisation für Teamerstellung, Benennung, Klassifizierung und Gastzugriff.</li><li>Planen Sie, diese Anforderungen im Rahmen Ihres Teams-Rollouts zu implementieren.</li><li>Kommunizieren und veröffentlichen Sie Ihre Richtlinien, um die Teams-Benutzer über das verhalten zu informieren, das sie erwarten können.</li></ul>|
 
 > [!NOTE]
-> Weitere Informationen zum Festlegen dieser Richtlinien und zu den benötigten Lizenzen finden Sie unter Weitere Informationen zur Planung ihrer [Planung.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)
+> Weitere Informationen zum Festlegen dieser Richtlinien und zu den benötigten Lizenzen finden Sie unter Weitere Informationen zur Planung ihrer [Planung.](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)
 > 
 > [!NOTE]
 > Das Einschränken der Gruppen- und Teamerstellung kann die Produktivität Ihrer Benutzer beeinträchtigen, da viele Microsoft 365- und Office 365-Dienste erfordern, dass Gruppen erstellt werden, damit der Dienst funktioniert. Weitere Informationen finden Sie unter Warum steuern, wer [Microsoft 365-Gruppen erstellt.](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)
@@ -53,15 +53,15 @@ Möglicherweise müssen Sie in Ihrer Organisation strenge Steuerelemente impleme
 
 Nachdem Sie Ihre Anforderungen festgelegt haben, können Sie sie mithilfe von Azure AD-Steuerelementen implementieren. Technische Anleitungen zum Implementieren dieser Einstellungen finden Sie unter:
 
-- [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Benennungsrichtlinie für Microsoft 365-Gruppen](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [Verwenden von Vertraulichkeitsbeschriftungen zum Schützen von Inhalten in Microsoft Teams, Microsoft 365-Gruppen und SharePoint-Websites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [Verwenden von Vertraulichkeitsbeschriftungen zum Schützen von Inhalten in Microsoft Teams, Microsoft 365-Gruppen und SharePoint-Websites](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [Optionen für das Ende des Lebenszyklus für Gruppen, Teams und Yammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [Optionen für das Ende des Lebenszyklus für Gruppen, Teams und Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Ablauf, Aufbewahrung und Archivierung von Gruppen und Teams
 
@@ -88,7 +88,7 @@ Ihre Organisation hat möglicherweise zusätzliche Anforderungen zum Festlegen v
 
 Technische Anleitungen zum Implementieren dieser Einstellungen finden Sie unter:
 
-- [Einrichten des Ablaufs von Microsoft 365-Gruppen.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
+- [Einrichten des Ablaufs von Microsoft 365-Gruppen.](/azure/active-directory/users-groups-roles/groups-lifecycle)
 
 - [Richten Sie Aufbewahrungsrichtlinien für Teams ein.](retention-policies.md)
 
@@ -98,7 +98,7 @@ Technische Anleitungen zum Implementieren dieser Einstellungen finden Sie unter:
 
 Eine konsequente Verwaltung von Mitgliedern projektbasierter oder eingeschränkter Gruppen ist für Teams erforderlich, die schnelles Onboarding und Offboarding oder Benutzer und Gäste erfordern. Möglicherweise muss Ihre Organisation auch sicherstellen, dass alle aktuellen Mitglieder über die geschäftliche Begründung verfügen, in einem Team zu sein. Das Verwalten von Mitgliedern kann schwierig sein, da Teambesitzer Gruppen verlassen können und Benutzer Gruppen normalerweise nicht von sich aus verlassen, wenn ein Projekt endet oder wenn sie Rollen ändern. Die beste Methode zum Verwalten der Gruppenmitgliedschaft, die Benutzern den Zugriff bei Bedarf ermöglicht, aber dafür sorgt, dass die Gruppe kein Risiko für unangemessenen Zugriff hat, besteht in zwei Bezirksprozessen: Berechtigungsverwaltung und Zugriffsüberprüfungen.
 
-[Mit der Berechtigungsverwaltung](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) können Sie eine Stellvertretung an eine andere Person, z. B. einen Projektmanager, erstellen, um alle erforderlichen Ressourcen, einschließlich Teammitgliedschaften, in einem einzigen Paket zu sammeln. Sie können auch definieren, wer Anforderungen stellen kann: entweder Benutzer in Ihrem Mandanten oder aus anderen verbundenen Organisationen. Der Projektmanager erhält Zugriffsanforderungen in seiner E-Mail und genehmigt oder verweigert Anforderungen im MyAccess-Portal. Administratoren können die Bedingungen für den Zugriff so konfigurieren, dass sie ein Ablaufdatum oder einen Zeitraum enthalten, bis der Benutzer oder Gast aus dem Team entfernt wird, sofern der Zugriff nicht verlängert wird. Administratoren können auch die Gruppen einrichten, die Teams zugeordnet sind, um an Zugriffsüberprüfungen teilnehmen zu können. Bei [Zugriffsüberprüfungen](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)erhalten die Gruppenbesitzer regelmäßige Erinnerungen, um die Mitglieder eines Teams zu überprüfen. Access-Rezensionen enthalten Empfehlungen, die es Gruppenbesitzern einfacher machen, ihren regulären Attestierungsprozess zu durchgehen.
+[Mit der Berechtigungsverwaltung](/azure/active-directory/governance/entitlement-management-overview) können Sie eine Stellvertretung an eine andere Person, z. B. einen Projektmanager, erstellen, um alle erforderlichen Ressourcen, einschließlich Teammitgliedschaften, in einem einzigen Paket zu sammeln. Sie können auch definieren, wer Anforderungen stellen kann: entweder Benutzer in Ihrem Mandanten oder aus anderen verbundenen Organisationen. Der Projektmanager erhält Zugriffsanforderungen in seiner E-Mail und genehmigt oder verweigert Anforderungen im MyAccess-Portal. Administratoren können die Bedingungen für den Zugriff so konfigurieren, dass sie ein Ablaufdatum oder einen Zeitraum enthalten, bis der Benutzer oder Gast aus dem Team entfernt wird, sofern der Zugriff nicht verlängert wird. Administratoren können auch die Gruppen einrichten, die Teams zugeordnet sind, um an Zugriffsüberprüfungen teilnehmen zu können. Bei [Zugriffsüberprüfungen](/azure/active-directory/governance/access-reviews-overview)erhalten die Gruppenbesitzer regelmäßige Erinnerungen, um die Mitglieder eines Teams zu überprüfen. Access-Rezensionen enthalten Empfehlungen, die es Gruppenbesitzern einfacher machen, ihren regulären Attestierungsprozess zu durchgehen.
 
 |-|-|-|
 |:-|:-|:-|
@@ -120,8 +120,8 @@ Eine konsequente Verwaltung von Mitgliedern projektbasierter oder eingeschränkt
 
 Technische Anleitungen zum Implementieren dieser Einstellungen finden Sie unter:
 
-- [Berechtigungsverwaltung](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
-- [Access-Rezensionen](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [Berechtigungsverwaltung](/azure/active-directory/governance/entitlement-management-overview)
+- [Access-Rezensionen](/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Featureverwaltung von Teams
 
@@ -143,7 +143,7 @@ Ausführliche Listen aller Einstellungen, einschließlich technischer Anleitunge
 - [Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Private Kanäle in Microsoft Teams](private-channels.md)
 - [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
-- [Verwalten von Messaging-Richtlinien in Teams](messaging-policies-in-teams.md)
+- [Verwalten von Messaging-Richtlinien in Microsoft Teams](messaging-policies-in-teams.md)
 - [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md)
 
 Darüber hinaus können Sie moderation für einen Kanal einrichten und bestimmten Benutzern Moderatorfunktionen geben, damit sie steuern können, wer Kanalbeiträge erstellen und darauf reagieren kann. Weitere Informationen finden Sie unter Einrichten und Verwalten der Kanalmoderation [in Microsoft Teams.](manage-channel-moderation-in-teams.md)

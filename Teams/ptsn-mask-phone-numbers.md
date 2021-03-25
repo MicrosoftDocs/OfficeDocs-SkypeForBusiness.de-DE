@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Informationen zum Maskieren von Telefonnummern in Microsoft Teams-Besprechungen
-ms.openlocfilehash: 5a59ef07873660e79d6c8bc69b7e92095a2fac1a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: bc3325805db63f86937a27d63cfc08ab0de84006
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726781"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117713"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Maskieren von Telefonnummern in Microsoft Teams-Besprechungen
 
@@ -41,7 +41,7 @@ Diese Einstellung wird auf alle Oberflächen in der Besprechung angewendet, auf 
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Verwenden von Microsoft PowerShell zum Festlegen der Telefonnummernformatierung
 
-Wenn Sie die Maskierungseinstellung für das öffentliche Telefonnetz (PstN) ändern möchten, legen Sie den Parameter des **`MaskPstnNumbersType`** [Cmdlets Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) auf eine der verfügbaren Optionen fest.
+Wenn Sie die Maskierungseinstellung für das öffentliche Telefonnetz (PstN) ändern möchten, legen Sie den Parameter des **`MaskPstnNumbersType`** [Cmdlets Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) auf eine der verfügbaren Optionen fest.
 
 Führen Sie den folgenden Befehl aus, um Telefonnummern nur von externen Teilnehmern zu maskieren:
 

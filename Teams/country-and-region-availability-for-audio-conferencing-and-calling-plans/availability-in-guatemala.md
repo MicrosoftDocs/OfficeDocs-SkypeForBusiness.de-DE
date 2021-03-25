@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Guatemala verfügbar sind.
-ms.openlocfilehash: 1963d5e2df5f9e75dc1ba520293e6965f6ee5197
-ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Guatemala verfügbar.
+ms.openlocfilehash: 5f94fe5ac3dc347b550f804a001e6c967f41b066
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349141"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118033"
 ---
 # <a name="availability-in-guatemala"></a>Verfügbarkeit in Guatemala
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Guatemala verfügbar sind.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams für Guatemala verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja. Nur Pay-per-Minute.  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja. Nur Per-Minute-Zahlung.  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nein |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Kommunikationsguthaben <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Guthaben für Kommunikationen <br/> |
 
 ## <a name="phone-system"></a>Telefonsystem
 
@@ -64,15 +64,15 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 
 Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
 
-## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Nummern für Dienstleistungen
+## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenfreie und gebührenfreie Nummern für Dienste
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Ciudad de Guatemala<br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Gebührenpflichtige Nummern sind nur innerhalb des Landes erreichbar.|
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Cuidad de Guatemala<br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> Gebührennummern sind nur innerhalb des Landes zugänglich.|
 |Sind gebührenfreie Nummern verfügbar?  <br/> |Nein  <br/> |
 
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen erhalten möchten, lesen Sie [Abrufen von Service-Telefonnummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschlangen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business](../getting-service-phone-numbers.md)und Microsoft Teams .
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -84,6 +84,6 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

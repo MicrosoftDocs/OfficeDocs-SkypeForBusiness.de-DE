@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
-ms.translationtype: HT
+ms.openlocfilehash: b93a3b5ecbe7b9edcc54034635721ee3b6db610b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918991"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119124"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -82,8 +82,8 @@ Die Videoeingabe ist die Grundlage des Liveereignisses und kann von einer einzel
 
 Die Liveereignis-Streamingplattform besteht aus den folgenden Bestandteilen:
 
-- **Azure Media Services**: [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) bietet Videostreamingdienste mit Sendequalität, um auf den beliebtesten Mobilgeräten von heute ein größeres Publikum zu erreichen. Mediendienste verbessern die Zugänglichkeit, Verbreitung und Skalierbarkeit und machen das Streamen von Inhalten für Ihr lokales oder weltweites Publikum einfach und kostengünstig – und das alles bei gleichzeitigem Schutz Ihrer Inhalte.
-- **Azure Content Delivery Network (CDN)**: Sobald der Stream angeschaltet wird, wird er über das [Azure Content Delivery Network (CDN)](https://docs.microsoft.com/azure/cdn/) bereitgestellt. Azure Media Services bietet ein integriertes CDN für Streaming-Endpunkte. Dadurch können die Streams weltweit ohne Pufferung angezeigt werden.
+- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) bietet Videostreamingdienste mit Sendequalität, um auf den beliebtesten Mobilgeräten von heute ein größeres Publikum zu erreichen. Mediendienste verbessern die Zugänglichkeit, Verbreitung und Skalierbarkeit und machen das Streamen von Inhalten für Ihr lokales oder weltweites Publikum einfach und kostengünstig – und das alles bei gleichzeitigem Schutz Ihrer Inhalte.
+- **Azure Content Delivery Network (CDN)**: Sobald der Stream angeschaltet wird, wird er über das [Azure Content Delivery Network (CDN)](/azure/cdn/) bereitgestellt. Azure Media Services bietet ein integriertes CDN für Streaming-Endpunkte. Dadurch können die Streams weltweit ohne Pufferung angezeigt werden.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Enterprise Content Delivery Network (eCDN)
 
@@ -110,7 +110,7 @@ Wechseln Sie zum [Plan für Teams-Liveereignisse](plan-for-teams-live-events.md)
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-- [Liveereignisse in Microsoft 365 in Yammer, Microsoft Teams und Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Liveereignisse in Microsoft 365 in Yammer, Microsoft Teams und Microsoft Stream](/stream/live-event-m365)
 - [Erste Schritte mit Microsoft Teams-Liveereignissen](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Liveereignisse in Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Liveereignisse in Microsoft Stream](https://docs.microsoft.com/stream/live-event-overview)
+- [Liveereignisse in Microsoft Stream](/stream/live-event-overview)

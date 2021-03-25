@@ -1,5 +1,5 @@
 ---
-title: Anzeigen, ändern und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen ist
+title: Sehen, Ändern und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen ist
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,24 +20,24 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online eine Konferenz-ID zuweisen und was die Konferenz-IDs-Parameter sein sollten. '
-ms.openlocfilehash: a8f0e64ef30e1e503a1e3b78c9823f5d115df837
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online eine Konferenz-ID zuweisen und welche Parameter die Konferenz-IDs sein sollten. '
+ms.openlocfilehash: 79c83999fdf9a9736dfe1ee425337edf938d3375
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46643605"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110011"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen wurde
 
 > [!Note]
-> Informationen zu Benutzer Konferenz-IDs in Microsoft Teams finden Sie unter [anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Microsoft Teams zugewiesen](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)ist.
+> Informationen zu Benutzerkonferenz-IDs in Microsoft Teams finden Sie unter Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer [in Microsoft Teams zugewiesen ist.](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
 
-Eine Konferenz-ID wird einem Skype for Business-Benutzer automatisch zugewiesen, wenn Sie in Microsoft 365 oder Office 365 für Audiokonferenzen eingerichtet sind, und Microsoft als Anbieter von Audiokonferenzen verwenden. Die zugewiesene Konferenz-ID wird in der Besprechungseinladung gesendet, wenn die Besprechung geplant ist. Jeder Besprechung, die ein Benutzer plant, erhält eine eindeutige Konferenz-ID zugewiesen.
+Eine Konferenz-ID wird einem Skype for Business-Benutzer automatisch zugewiesen, wenn er für Audiokonferenzen in Microsoft 365 oder Office 365 eingerichtet ist und Microsoft als Audiokonferenzanbieter verwendet. Die zugewiesene Konferenz-ID wird in der Besprechungs-Einladung gesendet, wenn die Besprechung geplant ist. Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen.
 
-Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or when your users can't remember or have lost their conference ID. You can use the **Skype for Business admin center** and Windows PowerShell to view, change, and reset their conference ID.
+Obwohl eine Konferenz-ID automatisch erstellt und einem Benutzer zugewiesen wird, kann es zu Zeiten kommen, in denen ein Benutzer diese nicht verwenden möchte und sie auf eine bestimmte Nummer festlegen möchte oder wenn die Benutzer ihre Konferenz-ID nicht mehr merken oder verloren haben. Sie können das **Skype for Business Administrationscenter**  und Windows PowerShell verwenden, um die Konferenz-ID für solche Benutzer anzuzeigen, zu ändern oder zurückzusetzen.
 
-An email will be sent to the user with the conference ID and the default audio conferencing phone numbers, or if you reset the conference ID a different email will be sent that will include the conference ID but not a PIN. For more information about resetting a conference organizer's PIN, [go here](reset-a-conference-id-for-a-user.md).
+Eine E-Mail wird mit der Konferenz-ID und den Standard-Audiokonferenz-Telefonnummern an den Benutzer gesendet. Wenn Sie die Konferenz-ID zurücksetzen, wird eine andere E-Mail gesendet, die die Konferenz-ID, jedoch keine PIN enthält. Weitere Informationen zum Zurücksetzen einer Konferenz-Organisator-PIN, [finden Sie hier](reset-a-conference-id-for-a-user.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -50,7 +50,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
 
-1. Mit Ihrem Firmen-oder Schulkonto anmelden
+1. Melden Sie sich mit Ihrem Arbeits-, Schul- oder Schulkonto an.
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -59,17 +59,17 @@ Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
 4. Sehen Sie auf der Aktions-Seie unter **Konferenz-ID**.
 
     > [!TIP]
-    > Sie können alle Konferenz Informationen an den Benutzer in einer e-Mail senden, die die Konferenz-ID und die audiorufnummern enthält, indem Sie auf den Link **Konferenz Informationen per e-Mail senden** klicken, nachdem Sie den Benutzer auf der Seite **Benutzer** ausgewählt haben.
+    > Sie können alle Konferenzinformationen in einer E-Mail, die konferenz-ID und Audiotelefonnummern  enthält, an den Benutzer senden, indem  Sie auf den Link Konferenzinformationen per E-Mail senden klicken, nachdem Sie den Benutzer auf der Seite Benutzer ausgewählt haben.
 
 **Verwenden von Windows PowerShell**
 
-You can use Windows PowerShell to view the conference ID for a user. To do so, run:
+Sie können Windows PowerShell verwenden, um die Konferenz-ID für einen Benutzer anzuzeigen. Führen Sie dazu aus:
 
   ```powershell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
-Weitere Informationen zum Cmdlet finden Sie unter [Get-csonlinedialinconferencinguser zeigt](https://go.microsoft.com/fwlink/?LinkId=617693 ) .
+Weitere Informationen zum Cmdlet finden Sie unter [Get-CsOnlineDialInConferencingUser.](/powershell/module/skype/Get-CsOnlineDialInConferencingUser)
 
 
 ### <a name="to-reset-the-conference-id"></a>So setzen Sie die Konferenz-ID zurück
@@ -78,17 +78,17 @@ Sie können eine Konferenz-ID für einen Benutzer zurücksetzen, wenn er diese b
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Mit Ihrem Firmen-oder Schulkonto anmelden
+1. Melden Sie sich mit Ihrem Arbeits-, Schul- oder Schulkonto an.
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
-3. Klicken Sie im **Skype for Business Admin Center** >  **-Audiokonferenz-**  >  **Benutzer**im Bereich "Aktion" unter **Konferenz-ID**auf **Zurücksetzen**.
+3. Klicken Sie **im Skype for Business Admin Center** Audio >  **conferencing** Users im  >  Aktionsbereich unter **Konferenz-ID** auf **Zurücksetzen.**
 
-4. Klicken Sie im Fenster **Konferenz-ID zurücksetzen** auf **Ja**. Eine Konferenz-ID wird automatisch erstellt und eine e-Mail mit der neuen Konferenz-ID an den Benutzer gesendet.
+4. Klicken Sie **im Fenster Konferenz-ID zurücksetzen?** auf **Ja.** Eine Konferenz-ID wird automatisch erstellt und eine E-Mail mit der neuen Konferenz-ID an den Benutzer gesendet.
 
 **Verwenden von Windows PowerShell**
 
-Sie können die Konferenz-ID für einen Benutzer mithilfe der Windows PowerShell zurücksetzen. Führen Sie dazu die folgenden Aktionen aus:
+Sie können die Konferenz-ID für einen Benutzer mithilfe der Windows PowerShell zurücksetzen. Führen Sie dazu Dies aus:
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
@@ -97,32 +97,31 @@ Sie können die Konferenz-ID für einen Benutzer mithilfe der Windows PowerShell
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
    > [!IMPORTANT]
-   >  Nach dem Erstellen einer neuen Konferenz-ID oder eines Zurücksetzens wird die alte Konferenz-ID nicht von den Anrufern verwendet. Sie sollten Benutzer benachrichtigen, dass sie ihre angesetzten Besprechungseinladungen neu planen, damit die neue Konferenz-ID den Einladungen hinzugefügt wird. Die Benutzer können das Skype for Business-Besprechungs Migrations Tool verwenden, um Ihre vorhandenen Besprechungen zu aktualisieren. Informationen zum herunterladen, installieren und Ausführen des Tools finden Sie unter: [Update Tool für Besprechungen für Skype for Business und lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-Bit)](https://go.microsoft.com/fwlink/?LinkID=626047)und [Skype for Business Online, Meeting Migration Tool (32-Bit)](https://www.microsoft.com/download/details.aspx?id=54079).
+   >  Nachdem eine neue Konferenz-ID erstellt oder zurückgesetzt wurde, kann die alte Konferenz-ID von Anrufern nicht mehr verwendet werden. Sie sollten Benutzer benachrichtigen, dass sie ihre angesetzten Besprechungseinladungen neu planen, damit die neue Konferenz-ID den Einladungen hinzugefügt wird. Die Benutzer können das Skype for Business Meeting Migration Tool verwenden, um ihre vorhandenen Besprechungen zu aktualisieren. Informationen zum Herunterladen, Installieren und Ausführen des Tools finden Sie unter: Meeting [Update Tool für Skype for Business und Lync,](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)Skype for Business [Online, Meeting Migration Tool (64-Bit)](https://go.microsoft.com/fwlink/?LinkID=626047)und [Skype for Business Online, Meeting Migration Tool (32-Bit).](https://www.microsoft.com/download/details.aspx?id=54079)
 
-- Weitere Informationen zum Cmdlet finden Sie unter [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
+- Weitere Informationen zum Cmdlet finden Sie unter [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser).
 
-- Die Konferenz-ID muss die für die Audiokonferenz-Brücke eingestellte Länge in Ziffern erfüllen. In Konferenz-IDs können keine alphabetischen oder Sonderzeichen verwendet werden. Es können nur Zahlen verwendet werden.
+- Die Konferenz-ID muss die auf der Audiokonferenzbrücke festgelegte Länge in Ziffern erfüllen. Sie können keine alphabetischen oder Sonderzeichen in Konferenz-IDs verwenden. es können nur Zahlen verwendet werden.
 
-- Die Konferenz-ID für alle Audiokonferenz-Benutzer ist standardmäßig 9 Ziffern, und die Anzahl der Ziffern kann nicht geändert werden.
+- Die Konferenz-ID für alle Audiokonferenzbenutzer ist standardmäßig 9 Ziffern, und die Anzahl der Ziffern kann nicht geändert werden.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Bei Windows PowerShell geht es um die Verwaltung von Benutzern und um die Benutzer, die zugelassen oder nicht zulässig sind. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Wenn es um Windows PowerShell geht es um die Verwaltung von Benutzern und darum, was Benutzer tun dürfen oder nicht. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
-  - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Warum Sie Microsoft 365 oder Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
-  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

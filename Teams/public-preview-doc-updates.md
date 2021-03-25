@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196219"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117703"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196219"
 
 Public Preview für Microsoft Teams bietet frühzeitigen Zugriff auf unveröffentlichte Features in Teams. Mit der Vorschau können Sie bevorstehende Features untersuchen und testen. Wir freuen uns über Ihr Feedback zu jedem Feature in öffentlichen Vorschauen. Public Preview wird pro Teams-Benutzer aktiviert, daher müssen Sie sich keine Gedanken über die Auswirkungen auf die gesamte Organisation machen.
 
-Eine Liste der in der Public Preview für Teams verfügbaren Informationen finden Sie unter [Versionshinweise für den aktuellen Office-Kanal (Vorschau)](https://docs.microsoft.com/officeupdates/current-channel-preview).
+Eine Liste der in der Public Preview für Teams verfügbaren Informationen finden Sie unter [Versionshinweise für den aktuellen Office-Kanal (Vorschau)](/officeupdates/current-channel-preview).
 
 ## <a name="set-the-update-policy"></a>Festlegen der Updaterichtlinie
 
@@ -58,5 +58,4 @@ Wenn Sie die öffentliche Vorschau auf einem Desktop- oder Webclient aktivieren 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Öffentliche Entwicklervorschau](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[Öffentliche Entwicklervorschau](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)

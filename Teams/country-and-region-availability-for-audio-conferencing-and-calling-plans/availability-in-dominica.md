@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit in Dennena
+title: Verfügbarkeit im Dominica
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -24,25 +24,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dennena verfügbar sind.
-ms.openlocfilehash: 11b2f5fe51629fdac22425f9c045dcdb02252f50
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dominica verfügbar sind.
+ms.openlocfilehash: 2eb93f5f33620d5c1102485bd447df4d044a0d90
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804715"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118184"
 ---
-# <a name="availability-in-dominica"></a>Verfügbarkeit in Dennena
+# <a name="availability-in-dominica"></a>Verfügbarkeit in Dominica
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dennena verfügbar sind.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Dominica verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Minutenzahl](../audio-conferencing-pay-per-minute.md)  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Per-Minute-Zahlung](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein <br> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Guthaben für Kommunikationen  <br/> |
    
@@ -74,7 +74,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -86,10 +86,8 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

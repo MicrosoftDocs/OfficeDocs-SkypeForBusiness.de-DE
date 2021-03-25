@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
-description: 'Zusammenfassung: Erkunden Sie diese Links, um zu erfahren, wie Sie Skype for Business Server verwalten und verwalten.'
-ms.openlocfilehash: 528b17367db0b82cd36361b4e4a427c8c8479775
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: In diesen Links erfahren Sie, wie Sie Skype for Business Server verwalten und verwalten.'
+ms.openlocfilehash: a37d6e65d8b3cc0ea97d4f351221717a6704f4b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816575"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118594"
 ---
 # <a name="manage-skype-for-business-server"></a>Verwalten von Skype for Business Server 
 
-**Zusammenfassung:** Erkunden Sie diese Links, um zu erfahren, wie Sie Skype for Business Server verwalten und verwalten.
+**Zusammenfassung:** In diesen Links erfahren Sie, wie Sie Skype for Business Server verwalten und verwalten.
   
-Skype for Business Server bietet Instant Messaging-, Anwesenheits-, Konferenz-, Video- und Telefonielösungen, die Anforderungen an die Zusammenarbeit auf Unternehmensebene unterstützen können. Dieses Thema enthält Links zu Informationen zum Konfigurieren, Überwachen und Warten Ihrer Skype for Business Server-Bereitstellung. 
+Skype for Business Server bietet Sofortnachrichten,Anwesenheits-, Konferenz-, Video- und Telefonielösungen, die Anforderungen an die Zusammenarbeit auf Unternehmensebene unterstützen können. Dieses Thema enthält Links zu Informationen zum Konfigurieren, Überwachen und Warten Ihrer Skype for Business Server-Bereitstellung. 
   
-Die Verfasser aktualisieren Artikel regelmäßig, wenn neue Informationen verfügbar werden und Benutzer Feedback bereitstellen. Diese Seite wird häufig aktualisiert, daher sollten Sie häufig zurückwechseln.
+Die Verfasser aktualisieren Artikel regelmäßig, wenn neue Informationen verfügbar werden und Benutzer Feedback bereitstellen. Diese Seite wird häufig aktualisiert, also häufig zurück.
 
 ## <a name="visual-resources-about-how-to-manage-skype-for-business-server"></a>Visuelle Ressourcen zum Verwalten von Skype for Business Server
 
-In den folgenden Ressourcen finden Sie Informationen zum Verwalten von Skype for Business Server.
+Sehen Sie sich die folgenden Ressourcen an, um Informationen zum Verwalten von Skype for Business Server zu erhalten.
   
 ||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
@@ -39,24 +39,22 @@ In den folgenden Ressourcen finden Sie Informationen zum Verwalten von Skype for
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Artikel zum Verwalten von Skype for Business Server
 
-Die folgenden Artikel zum Konfigurieren, Überwachen und Warten von Skype for Business Server sind online verfügbar. 
+Die folgenden Artikel zum Konfigurieren, Überwachen und Verwalten von Skype for Business Server stehen online zur Verfügung. 
   
 ||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
-|![Numerisches "How To"-Symbol](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten Ihrer Topologie in Skype for Business Server](topology/topology.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren zum Aktualisieren, Aktualisieren, Hinzufügen und Entfernen von Servern mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell.  <br/> |
-|![Numerisches "How To"-Symbol](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten der Integrität und Überwachung in Skype for Business Server](health-and-monitoring/health-and-monitoring.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren für Überwachungs- und Integritätskonfigurationsaufgaben, die Sie mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell ausführen können.  <br/> |
-|![Numerisches "How To"-Symbol](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten der Archivierung in Skype for Business Server](archiving/archiving.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren zum Konfigurieren von Archivierungsoptionen und Benutzerrichtlinien für Skype for Business Server mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell.  <br/> |
-|![Numerisches "How To"-Symbol](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten des Servers für beständigen Chat in Skype for Business Server 2015](persistent-chat/persistent-chat.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren zum Verwalten des Servers für beständigen Chat mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell.  <br/> **Hinweis:** Dies ist nur für Skype for Business 2015 verfügbar.|
-|![Numerisches "How To"-Symbol](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server-Verwaltungsshell](management-shell.md) <br/> |In den Themen in diesem Abschnitt wird die Verwaltung von Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell beschrieben.  <br/> |
+|![Numerisches How To Icon](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten Ihrer Topologie in Skype for Business Server](topology/topology.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren zum Aktualisieren, Aktualisieren, Hinzufügen und Entfernen von Servern mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell.  <br/> |
+|![Numerisches How To Icon](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten von Integrität und Überwachung in Skype for Business Server](health-and-monitoring/health-and-monitoring.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren für Überwachungs- und Integritätskonfigurationsaufgaben, die Sie mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell ausführen können.  <br/> |
+|![Numerisches How To Icon](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten der Archivierung in Skype for Business Server](archiving/archiving.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren zum Konfigurieren von Archivierungsoptionen und Benutzerrichtlinien für Skype for Business Server mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell.  <br/> |
+|![Numerisches How To Icon](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Verwalten des Servers für beständigen Chat in Skype for Business Server 2015](persistent-chat/persistent-chat.md) <br/> |Die Themen in diesem Abschnitt enthalten schrittweise Verfahren zum Verwalten des Servers für beständigen Chat mithilfe der Skype for Business Server-Systemsteuerung und der Skype for Business Server-Verwaltungsshell.  <br/> **Hinweis:** Dies ist nur für Skype for Business 2015 verfügbar.|
+|![Numerisches How To Icon](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server-Verwaltungsshell](management-shell.md) <br/> |In den Themen in diesem Abschnitt wird beschrieben, wie Sie Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell verwalten.  <br/> |
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Zusätzliche Ressourcen zur Planung für Skype for Business Server
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Zusätzliche Ressourcen zur Planung von Skype for Business Server
 
-Die folgenden Ressourcen zur Planung für Skype for Business Server werden von anderen Experten zur Verfügung stehen. 
+Die folgenden Ressourcen zum Planen von Skype for Business Server stehen anderen Experten zur Verfügung. 
   
 ||**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
-|![Symbol für Dokumente](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server für IT-Profis](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Besuchen Sie das Ressourcencenter, um auf Videos, Communitywebsites, Dokumentationen, Downloads und vieles mehr zu zugreifen. |
-|![Symbol für Entwicklerinhalte](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server für Entwickler  <br/> |Hier finden Sie Entwicklerressourcen für Skype for Business Server, einschließlich Codebeispielen, Schulungen und SDKs. |
-|![Symbol für Nachrichten, Blogs und so weiter](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Änderungsverwaltung und Einführung](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Halten Sie sich mit Neuigkeiten von den Teams auf dem Weg, die Skype for Business Server erstellen und dokumentieren.  |
-   
-
+|![Symbol für Dokumente](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server für IT-Profis](../../Hub/index.yml) <br/> |Besuchen Sie das Ressourcencenter, um auf Videos, Communitywebsites, Dokumentationen, Downloads und vieles mehr zu zugreifen. |
+|![Symbol für Entwicklerinhalte](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server für Entwickler  <br/> |Hier finden Sie Entwicklerressourcen für Skype for Business Server, einschließlich Codebeispiele, Schulungen und SDKs. |
+|![Symbol für Nachrichten, Blogs und so weiter](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Änderungsverwaltung und -einführung](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Halten Sie sich mit Neuigkeiten aus den Teams auf dem Besten, die Skype for Business Server erstellen und dokumentieren.  |

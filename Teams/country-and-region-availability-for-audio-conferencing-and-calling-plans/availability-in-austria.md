@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Österreich verfügbar sind.
-ms.openlocfilehash: bb14d24113b13d14e8d82171189a0b2a44625684
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Österreich verfügbar sind.
+ms.openlocfilehash: 96ef030f814c4f261092d2e2d9a8a7e46f4a9be6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321688"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118414"
 ---
 # <a name="availability-in-austria"></a>Verfügbarkeit in Österreich
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Österreich verfügbar sind.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Österreich verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li>Wien </ul>Wenn Sie dedizierte Telefonnummern wünschen, lesen Sie [Abrufen von Service-Telefonnummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li>Wien </ul>Wenn Sie dedizierte Telefonnummern wünschen, lesen Sie [Abrufen von Servicetelefonnummern.](../getting-service-phone-numbers.md)  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
@@ -60,7 +60,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Plan für Inlands-und Auslandsgespräche: 1200 Minuten der Inlands-oder-600-Minuten für Auslandsanrufe (je nachdem, welche im Kalendermonat zuerst erreicht wird)</li></li> |
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Plan für Inlands- und Auslandsrufe: 1200 Minuten Inlands- oder 600 Minuten auslandsgerufener Anrufe (was im Kalendermonat zuerst erreicht wird)</li></li> |
 |Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Ja <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
 
@@ -73,7 +73,7 @@ Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for 
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen erhalten möchten, finden Sie Informationen dazu unter [Abrufen von Service-Telefonnummern](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschlangen erhalten möchten, lesen Sie Abrufen von [Servicetelefonnummern.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -85,8 +85,6 @@ Wenn Sie diese Möglichkeit einrichten möchten, lesen Sie [Einrichten von Gutha
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Abrufen von Diensttelefonnummern](/microsoftteams/getting-service-phone-numbers)
+[Servicetelefonnummern erhalten](../getting-service-phone-numbers.md)
 
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-
+[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

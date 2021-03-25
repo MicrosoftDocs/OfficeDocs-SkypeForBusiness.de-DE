@@ -17,18 +17,18 @@ description: Erfahren Sie mehr über Richtlinien für die Liveereignisaufzeichnu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd67ce67d31effdba0d152a3d5920bb17f23b25
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615169"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119164"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Liveereignisaufzeichnung in Microsoft Teams
 
 Sie haben mehrere Optionen zum Aufzeichnen eines Microsoft Teams-Liveereigniss. Die Aufzeichnungsoptionen werden mithilfe von Aufzeichnungsrichtlinien festgelegt. In diesem Artikel werden die verschiedenen Einstellungen beschrieben.
 
-Die Aufzeichnungsoptionen werden mit dem [PowerShell-Befehl Set-CsTeamsMeetingBroadcastPolicy festgelegt.](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+Die Aufzeichnungsoptionen werden mit dem [PowerShell-Befehl Set-CsTeamsMeetingBroadcastPolicy festgelegt.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 ## <a name="scheduling-and-option-behaviors"></a>Planungs- und Optionsverhalten
 
@@ -70,7 +70,7 @@ Wenn die Richtlinie auf **"Immer aufzeichnen"** festgelegt ist, enthält die Ric
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-- [Was sind Liveereignisse von Teams?](what-are-teams-live-events.md)
+- [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
 - [Planen von Teams-Liveereignissen](plan-for-teams-live-events.md)
 - [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)
 - [Aufzeichnung der Besprechungsaufzeichnung in Teams clouds](../cloud-recording.md)

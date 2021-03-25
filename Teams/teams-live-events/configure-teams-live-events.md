@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bcb5edea00066c861b2288791f3ff3e0ee58431
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e5f19aa6cfee7d4cce19ef5a0936a5a72e954648
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461015"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119344"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 
@@ -55,7 +55,7 @@ Führen Sie Folgendes aus:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-Weitere Informationen finden Sie unter [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+Weitere Informationen finden Sie unter [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 ## <a name="configure-a-third-party-video-distribution-provider"></a>Konfigurieren eines Videoverteilungsanbieters eines Drittanbieters 
 
 Wenn Sie eine Software defined Network (SDN)-Lösung oder eine eCDN-Lösung (Enterprise Content Delivery Network) über einen Microsoft Video Delivery Partner erworben und eingerichtet haben, konfigurieren Sie den Anbieter für Liveereignisse in Teams. 
@@ -88,10 +88,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
 
-Weitere Informationen finden Sie unter [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
+Weitere Informationen finden Sie unter [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]
-> Wenn Sie planen, Liveereignisse mit einer externen App oder einem externen Gerät zu erstellen, müssen Sie Ihren [eCDN-Anbieter](https://docs.microsoft.com/stream/network-caching)auch mit Microsoft Stream konfigurieren. 
+> Wenn Sie planen, Liveereignisse mit einer externen App oder einem externen Gerät zu erstellen, müssen Sie Ihren [eCDN-Anbieter](/stream/network-caching)auch mit Microsoft Stream konfigurieren. 
 
 >[!Note]
 > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Beim Start können Sie sich für diese Umgebung entscheiden. Sie müssen sich im November abmelden, wenn Sie Stream weiterhin verwenden möchten. Anfang 2021 müssen alle Kunden OneDrive for Business und SharePoint für neue Besprechungsaufzeichungen verwenden.

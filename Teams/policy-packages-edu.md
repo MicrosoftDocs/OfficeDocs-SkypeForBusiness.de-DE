@@ -21,21 +21,23 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908614"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117793"
 ---
-# <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen
+# <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und Richtlinienpakete für Bildung
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Wenn Sie generell mehr über Richtlinien in Microsoft Teams erfahren möchten, lesen Sie [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md).
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administratoren: erste Schritte mit der Microsoft Teams-Richtlinienverwaltung
 
-Mit Microsoft Teams können Benutzer unter anderem an Onlinebesprechungen oder Liveveranstaltungen teilnehmen, chatten, Anrufe tätigen und Apps nutzen. Die Festlegung des richtigen Administrators für Microsoft Teams ist ein entscheidender Schritt, um dafür zu sorgen, dass Teams eine sichere Lernumgebung für die Lernenden darstellt. Als Administrator können Sie Richtlinien verwenden, um zu steuern, welche Teams-Funktionen für die Benutzer in Ihrem Bildungsinstitut verfügbar sind.  In den meisten Fällen müssen die Richtlinien sowohl für Lernende als auch für Lehrkräfte angepasst werden, damit die Umgebung sicher bleibt.  
+Mit Microsoft Teams können Benutzer unter anderem an Onlinebesprechungen oder Liveveranstaltungen teilnehmen, chatten, Anrufe tätigen und Apps nutzen. Die Festlegung des richtigen Administrators für Microsoft Teams ist ein entscheidender Schritt, um dafür zu sorgen, dass Teams eine sichere Lernumgebung für die Lernenden darstellt. Als Administrator können Sie Richtlinien verwenden, um zu steuern, welche Teams-Funktionen für die Benutzer in Ihrem Bildungsinstitut verfügbar sind. In den meisten Fällen müssen die Richtlinien sowohl für Lernende als auch für Lehrkräfte angepasst werden, damit die Umgebung sicher bleibt.  
 
 Nachstehend finden Sie eine Liste der Hauptrichtlinienbereiche, die in Microsoft Teams verfügbar sind. Wenn Sie mehr über die Richtlinien in den einzelnen Bereichen und die von ihnen gesteuerten Funktionen wissen möchten, verwenden Sie die folgenden Links:
 
@@ -171,7 +173,7 @@ Weisen Sie das Richtlinienpaket Benutzern zu. Wenn einem Benutzer eine Richtlini
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Ein Richtlinienpaket einem oder mehreren Benutzern zuweisen
 
-Um einem oder mehreren Benutzern ein Richtlinienpaket zuzuweisen, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Richtlinienpakete** , und wählen Sie dann **Benutzer verwalten** aus.  
+Um einem oder mehreren Benutzern ein Richtlinienpaket zuzuweisen, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Richtlinienpakete**, und wählen Sie dann **Benutzer verwalten** aus.  
 
 ![Screenshot zur Vorgehensweise zum Zuweisen eines Richtlinienpakets im Admin Center](media/policy-packages-healthcare-assign.png)
 
@@ -189,7 +191,7 @@ Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Ein Richtlinienpaket einer großen Anzahl von Benutzern (Batch) zuweisen
 
-Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
+Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
 
 Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 

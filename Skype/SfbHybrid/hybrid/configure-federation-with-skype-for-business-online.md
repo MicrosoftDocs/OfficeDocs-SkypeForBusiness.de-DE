@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Interoperabilität zwischen Ihrer lokalen Bereitstellung und Skype for Business Online konfigurieren.'
-ms.openlocfilehash: a97072c9c4b65b4cc13d29a733b8ddc840529363
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e2af514ef1a10d652abae7bdd39a923dc52e1c4a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569217"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118944"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Konfigurieren der Hybridbereitstellung von Skype for Business
 
@@ -33,7 +33,7 @@ Für die Konfiguration der Skype for Business-Hybridbereitstellung müssen Sie d
 - [Konfigurieren Sie Ihre lokale Umgebung so, dass Sie Microsoft 365 oder Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365)vertrauen und gemeinsam genutzten SIP-Adressraum aktivieren.
 - [Aktivieren Sie freigegebenen SIP-Adressraum in Ihrer Microsoft 365- oder Office 365-Organisation.](#enable-shared-sip-address-space-in-your-organization)
 
-Beachten Sie, dass Sie OAuth möglicherweise zwischen Ihren lokalen Exchange- und Skype for Business Online-Umgebungen konfigurieren möchten, wenn Sie über Exchange lokal verfügen. Weitere Informationen finden Sie unter  [Verwalten der Server-zu-Server-Authentifizierung in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) und Planen der Integration von Skype for Business und [Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
+Beachten Sie, dass Sie OAuth möglicherweise zwischen Ihren lokalen Exchange- und Skype for Business Online-Umgebungen konfigurieren möchten, wenn Sie über Exchange lokal verfügen. Weitere Informationen finden Sie unter  [Verwalten der Server-zu-Server-Authentifizierung in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) und Planen der Integration von Skype for Business und [Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Konfigurieren Des lokalen Edgediensts für die Zusammenarbeit mit Microsoft 365 oder Office 365
 
@@ -46,7 +46,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 Wenn der Wert "-EnablePartnerDiscovery" auf $True festgelegt ist, verwendet Skype for Business Server DNS-Einträge, um Partnerdomänen zu ermitteln, die nicht in der Liste AllowedDomains aufgeführt sind. Wenn der Wert auf $False festgelegt ist, wird Skype for Business Server nur mit Domänen in der Liste AllowedDomains in Verbindung gesetzt. Dieser Parameter ist für die Verwendung von DNS-Dienstrouting erforderlich.
 
 > [!NOTE]
-> Weitere Informationen zum Aktivieren des Verbunds zwischen Benutzern Ihrer lokalen Skype for Business-Bereitstellung und Benutzern einer Skype for Business Online-Organisation finden Sie unter [Configuring federation support for a Skype for Business Online customer in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support).
+> Weitere Informationen zum Aktivieren des Verbunds zwischen Benutzern Ihrer lokalen Skype for Business-Bereitstellung und Benutzern einer Skype for Business Online-Organisation finden Sie unter [Configuring federation support for a Skype for Business Online customer in Skype for Business Server](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md).
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Konfigurieren Ihrer lokalen Umgebung zum Aktivieren des freigegebenen SIP-Adressraums mit Microsoft 365 oder Office 365
@@ -78,7 +78,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > Das SharedSipAddressSpace-Attribut muss "True" bleiben, bis der Onlinezuzug endgültig ist und keine Benutzer lokal bleiben. 
   
-Zum Einrichten einer Remote-PowerShell-Sitzung mit Teams oder Skype for Business Online müssen Sie zunächst das [Teams PowerShell-Modul installieren.](https://docs.microsoft.com/microsoftteams/teams-powershell-install)
+Zum Einrichten einer Remote-PowerShell-Sitzung mit Teams oder Skype for Business Online müssen Sie zunächst das [Teams PowerShell-Modul installieren.](/microsoftteams/teams-powershell-install)
   
 Nach der Installation des Moduls können Sie eine Remotesitzung mit den folgenden Cmdlets einrichten:
    ```powershell
@@ -89,10 +89,10 @@ Nach der Installation des Moduls können Sie eine Remotesitzung mit den folgende
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-Weitere Informationen zum Einrichten einer Remote-PowerShell-Sitzung mit Skype for Business Online und zur Verwendung des Skype for Business Online Connector-Moduls finden Sie unter [Set up your computer for Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Weitere Informationen zum Einrichten einer Remote-PowerShell-Sitzung mit Skype for Business Online und zur Verwendung des Skype for Business Online Connector-Moduls finden Sie unter [Set up your computer for Windows PowerShell](../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 
 
 ## <a name="see-also"></a>Siehe auch
 
-[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

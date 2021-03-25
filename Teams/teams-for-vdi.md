@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8022e6b1c4d6ebcaeb70ec7cc23e1f4cad5d929a
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
-ms.translationtype: HT
+ms.openlocfilehash: 020ed67b695c10e54d43891d78a77783ab61ee81
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110288"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119194"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -66,13 +66,13 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 |Plattform|Lösung|
 |----|---|
-|![Das Logo von Microsoft](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
+|![Das Logo von Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
 |![Das Logo von Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-Apps und -Desktops</a> |
 |![Das Logo von VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
 
-Windows Virtual Desktop bietet AV-Optimierungen für Teams auf VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter [Verwenden von Teams auf Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd).
+Windows Virtual Desktop bietet AV-Optimierungen für Teams auf VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter [Verwenden von Teams auf Windows Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -80,7 +80,7 @@ Citrix Virtual Apps und Desktops (vormals als XenApp und XenDesktop bezeichnet) 
 
 Sie können die neueste Version von Citrix Virtual Apps und Desktops von der [Downloadwebsite für Citrix](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/) herunterladen. (Sie müssen sich zuerst anmelden.) Die erforderlichen Komponenten sind standardmäßig in der [Citrix Workspace-App (CWA)](https://www.citrix.com/downloads/workspace-app/) und dem Virtual Delivery Agent (VDA) gebündelt. Dafür müssen Sie keine zusätzlichen Komponenten oder Plug-Ins auf CWA oder dem VDA installieren.
 
-Die neuesten Server- und Clientanforderungen finden Sie auf [dieser Citrix-Website](https://docs.citrix.com/de-DE/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
+Die neuesten Server- und Clientanforderungen finden Sie auf [dieser Citrix-Website](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>Anforderungen für VMware Horizon Workspace und Desktop
 
@@ -127,7 +127,7 @@ Die Verwendung von Teams in einem nicht beständigen Setup setzt auch einen Mana
 > [!NOTE]
 > Es ist ein Roamingordner (oder, wenn Sie die Ordnerumleitung verwenden, ein Zwischenspeicherungs-Manager) erforderlich, um sicherzustellen, dass die Teams-App über die Laufzeitdaten und Dateien verfügt, die zum Ausführen der Anwendung erforderlich sind. Dies ist erforderlich, um Probleme mit der Netzwerklatenz oder Netzwerkverbindung zu vermeiden, die andernfalls zu Anwendungsfehlern und einer langsamen Erfahrung aufgrund nicht verfügbarer Daten und Dateien führen würden.
 
-Es stehen eine Vielzahl von Lösungen für Caching-Manager zur Verfügung. Zum Beispiel [FSLogix](https://docs.microsoft.com/fslogix/overview). Spezifische Konfigurationsanweisungen finden Sie bei Ihrem Anbieter für Zwischenspeicherung.
+Es stehen eine Vielzahl von Lösungen für Caching-Manager zur Verfügung. Zum Beispiel [FSLogix](/fslogix/overview). Spezifische Konfigurationsanweisungen finden Sie bei Ihrem Anbieter für Zwischenspeicherung.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Ausschlussliste für zwischengespeicherte Inhalte von Teams für nicht beständiges Setup
 
@@ -157,7 +157,7 @@ Microsoft 365 Apps for Enterprise unterstützen keine computerbasierten Installa
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>So schließen Sie die Bereitstellungen von Teams über Microsoft 365 Apps for Enterprise aus
 
-Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie unter [Ausschließen von Teams von neuen Installationen von Microsoft 365 Apps for Enterprise](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) und [Verwenden von Gruppenrichtlinien zum Steuern der Installation von Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie unter [Ausschließen von Teams von neuen Installationen von Microsoft 365 Apps for Enterprise](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) und [Verwenden von Gruppenrichtlinien zum Steuern der Installation von Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Bereitstellen der Teams-Desktop-App im VM
 
@@ -289,21 +289,21 @@ Sie können auch die folgenden Schritte ausführen:
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mit PowerShell
 
-Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) verwenden, um einem Benutzer die Anrufrichtlinie DisallowCalling zuzuweisen.
+Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) verwenden, um einem Benutzer die Anrufrichtlinie DisallowCalling zuzuweisen.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anrufrichtlinien finden Sie unter [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anrufrichtlinien finden Sie unter [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) verwenden, um einem Benutzer die Besprechungsrichtlinie AllOff zuzuweisen.
+Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) verwenden, um einem Benutzer die Besprechungsrichtlinie AllOff zuzuweisen.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>Migrieren Sie Teams auf VDI mit Chat und Zusammenarbeit, um Teams mit Anrufen und Besprechungen zu optimieren.
 
@@ -345,21 +345,21 @@ Sie können auch die folgenden Schritte ausführen:
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mit PowerShell
 
-Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) verwenden, um einem Benutzer die Anrufrichtlinie AllowCalling zuzuweisen.
+Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) verwenden, um einem Benutzer die Anrufrichtlinie AllowCalling zuzuweisen.
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
-Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anrufrichtlinien finden Sie unter [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anrufrichtlinien finden Sie unter [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
-Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) verwenden, um einem Benutzer die Besprechungsrichtlinie AllOn zuzuweisen.
+Im folgenden Beispiel wird gezeigt, wie Sie die [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) verwenden, um einem Benutzer die Besprechungsrichtlinie AllOn zuzuweisen.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
-Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## <a name="control-fallback-mode-in-teams"></a>Steuern des Fallbackmodus in Teams
 
@@ -416,7 +416,7 @@ Im Folgenden werden bekannte Probleme und Einschränkungen bei Anrufen und Bespr
     - Bei der Bildschirmfreigabe bei einem Setup mit mehreren Monitoren wird nur der Hauptmonitor freigegeben.
     - Die Skalierung mit hohen DPI-Kosten für CWA wird nicht unterstützt.
 
-Bekannte Probleme, die nicht mit VDI in Zusammenhang stehen, finden Sie unter [Supportteams in Ihrer Organisation](Known-issues.md).
+Bekannte Probleme, die nicht mit VDI in Zusammenhang stehen, finden Sie unter [Supportteams in Ihrer Organisation](/MicrosoftTeams/troubleshoot/teams-welcome).
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
@@ -434,4 +434,4 @@ Starten Sie dann VDA neu. Weitere Informationen finden Sie im Citrix-Supportarti
 
 - [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Verwenden von Microsoft Teams auf Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
+- [Verwenden von Microsoft Teams auf Windows Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)

@@ -20,12 +20,12 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 108c6ba6730751c9858a3c4a45c8060c231be4a1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: HT
+ms.openlocfilehash: cc9f50e2f6a0b2433bbff07e674453a63854bf51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461005"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119134"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -33,7 +33,7 @@ Wenn Sie Liveereignisse einrichten, müssen Sie mehrere Schritte ausführen.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Schritt 1: Einrichten Ihres Netzwerk für Liveereignisse in Teams
 
-Für Liveereignisse, die in Teams produziert werden, müssen Sie [das Netzwerk Ihrer Organisation für Teams](https://docs.microsoft.com/microsoftteams/prepare-network) vorbereiten.  
+Für Liveereignisse, die in Teams produziert werden, müssen Sie [das Netzwerk Ihrer Organisation für Teams](../prepare-network.md) vorbereiten.  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Schritt 2: Abrufen und Zuweisen von Lizenzen
 
@@ -80,14 +80,14 @@ Wenn Sie eine benutzerdefinierte Richtlinie für Livereignisse erstellt haben, w
 
 Damit Benutzer Ereignisse planen können, die mit einer externen Anwendung oder einem externen Gerät erstellt werden, müssen Sie auch den folgenden Schritt ausführen:
 
-1. Microsoft Stream für Benutzer in Ihrer Organisation aktivieren. Stream ist als Teil berechtigter Microsoft 365- oder Office 365-Abonnements oder als eigenständiger Dienst verfügbar. Stream ist nicht in Business Essentials- oder Business Premium-Plänen enthalten. Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
+1. Microsoft Stream für Benutzer in Ihrer Organisation aktivieren. Stream ist als Teil berechtigter Microsoft 365- oder Office 365-Abonnements oder als eigenständiger Dienst verfügbar. Stream ist nicht in Business Essentials- oder Business Premium-Plänen enthalten. Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](/stream/license-overview).
 
    >[!Note]
-   > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen. Erfahren Sie mehr darüber, wie Sie [**Benutzern Lizenzen zuweisen**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC), damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie in [**diesem Artikel**](https://docs.microsoft.com/stream/disable-user-organization) beschrieben.
+   > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Bei der Markteinführung können Sie sich optional für diese Erfahrung anmelden. Im November müssen Sie sich abmelden, wenn Sie Stream weiterhin nutzen möchten. Ab Anfang 2021 werden wir von allen Kunden die Verwendung von OneDrive for Business und Microsoft Office SharePoint Online für neue Besprechungsaufzeichnungen verlangen. Erfahren Sie mehr darüber, wie Sie [**Benutzern Lizenzen zuweisen**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC), damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie in [**diesem Artikel**](/stream/disable-user-organization) beschrieben.
 
-2. Vergewissern Sie sich, dass die Benutzer über die Berechtigung zum Erstellen eines Liveereignisses in Stream verfügen. Administratoren können standardmäßig mit einer externen App oder einem externen Gerät Ereignisse erstellen. Ein Stream-Administrator kann in Stream [zusätzliche Benutzer für die Erstellung von Liveereignissen](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) aktivieren.
+2. Vergewissern Sie sich, dass die Benutzer über die Berechtigung zum Erstellen eines Liveereignisses in Stream verfügen. Administratoren können standardmäßig mit einer externen App oder einem externen Gerät Ereignisse erstellen. Ein Stream-Administrator kann in Stream [zusätzliche Benutzer für die Erstellung von Liveereignissen](/stream/live-event-administration#enabling-and-restricting-users-to-creating) aktivieren.
 
-3. Vergewissern Sie sich, dass Organisatoren von Liveereignissen der Unternehmensrichtlinie, die vom Stream-Administrator festgelegt wurde, zugestimmt haben. Wenn ein Stream-Administrator [eine Richtlinie für Unternehmensrichtlinien eingerichtet hat](https://docs.microsoft.com/stream/company-policy-and-consent) und die Mitarbeiter diese Richtlinie vor dem Speichern von Inhalten akzeptieren müssen, müssen Benutzer dies tun, bevor Sie in Teams ein Liveereignis (mit einer externen App oder einem externen Gerät) erstellen. Bevor Sie das Liveereignisfeature in der Organisation bereitstellen, stellen Sie sicher, dass Benutzer, die diese Liveereignisse erstellen, der Richtlinie zugestimmt haben.
+3. Vergewissern Sie sich, dass Organisatoren von Liveereignissen der Unternehmensrichtlinie, die vom Stream-Administrator festgelegt wurde, zugestimmt haben. Wenn ein Stream-Administrator [eine Richtlinie für Unternehmensrichtlinien eingerichtet hat](/stream/company-policy-and-consent) und die Mitarbeiter diese Richtlinie vor dem Speichern von Inhalten akzeptieren müssen, müssen Benutzer dies tun, bevor Sie in Teams ein Liveereignis (mit einer externen App oder einem externen Gerät) erstellen. Bevor Sie das Liveereignisfeature in der Organisation bereitstellen, stellen Sie sicher, dass Benutzer, die diese Liveereignisse erstellen, der Richtlinie zugestimmt haben.
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Schritt 4: Einrichten einer Videoverteilungslösung für Liveereignisse in Teams
 

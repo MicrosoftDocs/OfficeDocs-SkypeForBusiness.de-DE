@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams-Vorlagen im Admin Center oder mit Microsoft Graph, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und Apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
-ms.translationtype: HT
+ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260307"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117873"
 ---
 # <a name="create-a-team-using-teams-healthcare-templates"></a>Erstellen eines Teams mithilfe von Teams-Vorlagen für das Gesundheitswesen
 
@@ -67,7 +67,7 @@ Optimieren Sie die Kommunikation und Zusammenarbeit zwischen mehreren Stationen,
 
 ## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Verwenden Sie die Teams-Vorlagen mit Microsoft Graph
 
-Entwickler können mithilfe von Microsoft Graph Teams mit den Teams-Vorlagen erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](../../get-started-with-teams-templates.md). Informationen zu Teams-Vorlagen und Microsoft Graph finden Sie unter [Microsoft Teams-API – Übersicht](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0) und [teamsTemplate-Ressourcentyp](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Entwickler können mithilfe von Microsoft Graph Teams mit den Teams-Vorlagen erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](../../get-started-with-teams-templates.md). Informationen zu Teams-Vorlagen und Microsoft Graph finden Sie unter [Microsoft Teams-API – Übersicht](/graph/teams-concept-overview?view=graph-rest-1.0) und [teamsTemplate-Ressourcentyp](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 ### <a name="ward-template"></a>Sationsvorlage
 
@@ -93,7 +93,7 @@ Die Krankenhausvorlage ist für die Kommunikation und Zusammenarbeit zwischen me
 
 ### <a name="how-to-use-first-party-templates"></a>So verwenden Sie Vorlagen von Erstanbietern
 
-Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@odata.bind' im Anforderungshauptteil von 'standard' in die obigen TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@odata.bind' im Anforderungshauptteil von 'standard' in die obigen TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Die Kanäle in der Vorlage werden automatisch auf der Registerkarte Allgemein erstellt.

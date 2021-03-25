@@ -13,12 +13,12 @@ f1.keywords:
 description: 'Übersicht über die integrierte #A0 (CCaaS) für Microsoft Teams'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
-ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
+ms.openlocfilehash: 4fd86bd7aae0e925580067c668e0e50eb8112efb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50402861"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119224"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Contact Center-Integrationen für Microsoft Teams
 
@@ -32,7 +32,7 @@ Die heutigen Kontaktcenter bieten weit mehr als nur Support – sie fungieren al
 
 2. Für diesen erweiterten Umfang von Kundeninteraktionen sind Tools erforderlich, mit deren Hilfe Konsistenz, kontinuierliche Verbesserung und Skalierung verbessert werden können.
 
-Microsoft Teams unterstützt Arbeitsdatenströme für Kundeninteraktionen, indem es als Hub für interne und externe Kundenverbindung über die verschiedenen Kommunikationsmodi wie Chat, Videobesprechungen und Anrufe hinweg agiert. Für einige Unternehmen stellen die Cloudstimmefunktionen [von](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)Microsoft Teams, einschließlich der automatischen Telefonwarteschlange und Anrufwarteschlangen, [](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)die Features und die Konfiguration bereit, die ihren Anforderungen entsprechen. [](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)
+Microsoft Teams unterstützt Arbeitsdatenströme für Kundeninteraktionen, indem es als Hub für interne und externe Kundenverbindung über die verschiedenen Kommunikationsmodi wie Chat, Videobesprechungen und Anrufe hinweg agiert. Für einige Unternehmen stellen die Cloudstimmefunktionen [von](./cloud-voice-landing-page.md)Microsoft Teams, einschließlich der automatischen Telefonwarteschlange und Anrufwarteschlangen, [](./create-a-phone-system-call-queue.md)die Features und die Konfiguration bereit, die ihren Anforderungen entsprechen. [](./what-are-phone-system-auto-attendants.md)
 
 Für andere, die integrierte Lösungen mit Geschäftstools und Workflows wünschen, um die Kundenreise zu beschleunigen, ist Microsoft Teams auch in einige der branchenführenden Lösungsanbieter von Contact Center as a Service (CCaaS) integriert.
 
@@ -90,11 +90,11 @@ Die folgende Liste enthält zwar keine umfassende Liste der Featurefunktionen f�
 
   - In der Lage, multi-tenant SIP Trunking zu unterstützen, um mehrere Kunden auf dem SBC des Lösungsanbieters zu unterstützen.  
 
-  - Lösungsanbieter für die Verwendung von [ <span class="underline">Microsoft certified session border controller (SBC)</span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Lösungsanbieter für die Verwendung von [ <span class="underline">Microsoft certified session border controller (SBC)</span>](./direct-routing-border-controllers.md) 
 
 ### <a name="connect-and-extend"></a>Verbinden und Erweitern
 
-Dieses Modell erweitert die Kontaktcentermitarbeiter- und Agenterfahrungen durch die Integration mit dem [Teams-Client](https://docs.microsoft.com/microsoftteams/platform/overview)mithilfe der Teams-Clientplattform, [der Teams Graph-APIs](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) und der [Cloud Communications-API in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) und verwendet das Telefonsystem von Teams für alle Kontaktcenteranrufe und Anrufsteuerungserfahrungen. In diesem Modell fungiert der Contact Center-Lösungsanbieter als Telefonieanbieter neben Microsoft 365.
+Dieses Modell erweitert die Kontaktcentermitarbeiter- und Agenterfahrungen durch die Integration mit dem [Teams-Client](/microsoftteams/platform/overview)mithilfe der Teams-Clientplattform, [der Teams Graph-APIs](/graph/api/resources/teams-api-overview?view=graph-rest-1.0) und der [Cloud Communications-API in Microsoft Graph](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) und verwendet das Telefonsystem von Teams für alle Kontaktcenteranrufe und Anrufsteuerungserfahrungen. In diesem Modell fungiert der Contact Center-Lösungsanbieter als Telefonieanbieter neben Microsoft 365.
 
 Durch die Verwendung von Connect- und Extend-basierten Lösungen können Agents von dynamischen Kontextnotizen profitieren, die Daten aus mehreren Systemen korrelieren, bevor sie ein Engagement starten, und dann teure Kontextwechsel vermeiden, indem sie in Teams sowohl für die interne Zusammenarbeit als auch für externe Kommunikationen systemeigene Arbeiten verwenden.
 
@@ -126,7 +126,7 @@ Dieses Modell ermöglicht Lösungsanbietern das Erstellen nativer Azure-basierte
 
 Durch die direkte Nutzung von Azure können Lösungsanbieter ihre Lösung schnell in allen Teams-Regionen und Regionen bereitstellen und bereitstellen, dabei von unserem gemeinsam genutzten globalen Kommunikationsnetzwerk profitieren und gleichzeitig die Speicher-, Rechen-, Analyse- und & nutzen.
 
-Mit dem Erweiterungs- und Power-Integrationsmodell können Lösungsanbieter Contact Center-Agents mit Allkanalkommunikationserfahrungen bereitstellen und gleichzeitig künstliche Intelligenz integrieren, um anzupassen, wie und wann Teilnehmer – oder andere Dienste – mit der Cloud Communications API in Microsoft Graph an einem Anruf beteiligt [sind.](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
+Mit dem Erweiterungs- und Power-Integrationsmodell können Lösungsanbieter Contact Center-Agents mit Allkanalkommunikationserfahrungen bereitstellen und gleichzeitig künstliche Intelligenz integrieren, um anzupassen, wie und wann Teilnehmer – oder andere Dienste – mit der Cloud Communications API in Microsoft Graph an einem Anruf beteiligt [sind.](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)
 
 **Featurehighlights:**
 

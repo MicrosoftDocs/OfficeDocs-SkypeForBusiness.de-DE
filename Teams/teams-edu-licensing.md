@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858630"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119234"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>Zuweisen von Microsoft Teams-Lizenzen für Bildungseinrichtungen
 
 Microsoft Teams ist ein digitaler Hub, der Unterhaltungen, Inhalte und Apps an einem zentralen Ort zusammenbringt. Da es auf Office 365 basiert, profitieren Bildungseinrichtungen von der Integration in die vertrauten Office-Apps und -Dienste. Mit Microsoft Teams kann Ihre Institution gemeinsame Kursräume erstellen, sich in professionellen Lerngemeinschaften (Professional Learning Communities, PLCs) verbinden und mit den Mitarbeitern ihrer Bildungseinrichtung kommunizieren – alles das über eine einzige Benutzeroberfläche in Office 365 Education.
 
-Zum Einstieg müssen IT-Administratoren das Microsoft 365 Admin Center verwenden, um [Microsoft Teams für ihre Bildungseinrichtung zu aktivieren](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
+Zum Einstieg müssen IT-Administratoren das Microsoft 365 Admin Center verwenden, um [Microsoft Teams für ihre Bildungseinrichtung zu aktivieren](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams).
 Anschließend müssen Sie den Benutzerkonten Lizenzen zuweisen, damit ihre Lehrkräfte, Mitarbeiter und Schüler/Studenten auf Office 365-Dienste wie Microsoft Teams zugreifen können.
 
 Sie können Benutzerkonten Lizenzen entweder einzeln oder automatisch über eine Gruppenmitgliedschaft zuweisen. In diesem Artikel erfahren Sie, wie Sie einem einzelnen Benutzer oder einer kleinen Gruppe von Benutzerkonten über das Microsoft 365 Admin Center Office 365-Lizenzen zuweisen. Informationen zum automatischen Zuweisen von Lizenzen über eine Gruppenmitgliedschaft finden Sie in den folgenden Artikeln:
 
-- [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Gruppenbasierte Lizenzierung in Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Gruppenbasierte Lizenzierung in Active Directory](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 Sie können Benutzern entweder auf der Seite **Lizenzen** oder auf der Seite **Aktive Benutzer** Lizenzen zuweisen. Welche Methode Sie verwenden, hängt davon ab, ob Sie bestimmten Benutzern Produktlizenzen zuweisen oder Benutzern Lizenzen für bestimmte Produkte zuweisen möchten.
 
@@ -44,7 +44,7 @@ Sie können Benutzern entweder auf der Seite **Lizenzen** oder auf der Seite **A
 ## <a name="assign-licenses-to-users-on-the-licenses-page"></a>Benutzern auf der Seite "Lizenzen" Lizenzen zuweisen
 
 > [!NOTE]
-> Sie müssen globaler Administrator, Abrechnungsadministrator, Lizenzadministrator oder Benutzerverwaltungsadministrator sein. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen von Office 365](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+> Sie müssen globaler Administrator, Abrechnungsadministrator, Lizenzadministrator oder Benutzerverwaltungsadministrator sein. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen von Office 365](/microsoft-365/admin/add-users/about-admin-roles).
 
 Wenn Sie zum Zuweisen von Lizenzen die Seite **Lizenzen** verwenden, können Sie bis zu 20 Benutzern Lizenzen für ein bestimmtes Produkt zuweisen. Auf der Seite **Lizenzen** wird eine Liste aller Produkte angezeigt, für die Sie über Abonnements verfügen. Außerdem sehen Sie hier die Gesamtzahl der Lizenzen für jedes Produkt und erfahren, wie viele Lizenzen zugewiesen und wie viele verfügbar sind.
 

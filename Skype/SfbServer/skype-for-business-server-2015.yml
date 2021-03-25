@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Skype for Business Server 2015 Dokumentation
-summary: Hier erfahren Sie, wie Sie Skype for Business Server 2015 implementieren.
+title: Skype for Business Server 2015-Dokumentation
+summary: Erfahren Sie, wie Sie Skype for Business Server 2015 implementieren.
 metadata:
-  title: Skype for Business Server 2015 Dokumentation
-  description: Hier erfahren Sie, wie Sie Skype for Business Server 2015 implementieren.
+  title: Skype for Business Server 2015-Dokumentation
+  description: Erfahren Sie, wie Sie Skype for Business Server 2015 implementieren.
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -11,66 +11,66 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: ec8397ba718cf31a5b92f9b4ce8c26f6e5b709be
-  ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
+  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 07/21/2020
-  ms.locfileid: "45189354"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51118504"
 landingContent:
 - title: Informationen zu Skype for Business Server 2015
   linkLists:
   - linkListType: overview
     links:
     - text: Umgebungsanforderungen
-      url: /SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment
+      url: ./plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md
     - text: Netzwerkanforderungen
-      url: /SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements
+      url: ./plan-your-deployment/network-requirements/network-requirements.md
     - text: Skype-Livekonferenz
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: Technische Diagramme
-      url: /SkypeForBusiness/technical-diagrams
+      url: ./technical-diagrams.md
   - linkListType: download
     links:
     - text: Jetzt herunterladen!
       url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
-- title: Plan
+- title: Planen
   linkLists:
   - linkListType: overview
     links:
-    - text: Planen der Bereitstellung
-      url: /SkypeForBusiness/plan-your-deployment/plan-your-deployment
+    - text: Planen Ihrer Bereitstellung
+      url: ./plan-your-deployment/plan-your-deployment.md
     - text: Planen von Hybridverbindungen
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: Planen von Clients und Geräten
-      url: /SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices
-    - text: Planen Ihrer Enterprise-VoIP-Lösung
-      url: /SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution
-- title: Installieren und verwalten
+      url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
+    - text: Planen der Enterprise-VoIP Lösung
+      url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
+- title: Installieren und Verwalten
   linkLists:
   - linkListType: deploy
     links:
     - text: Bereitstellen von Skype for Business Server
-      url: /SkypeForBusiness/deploy/deploy
+      url: ./deploy/deploy.md
     - text: Installieren von Skype for Business Server
-      url: /SkypeForBusiness/deploy/install/install
+      url: ./deploy/install/install.md
     - text: Upgrade auf Skype for Business Server
-      url: /SkypeForBusiness/deploy/upgrade-to-skype-for-business-server
+      url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: Bereitstellen von Enterprise-VoIP
-      url: /SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice
-    - text: Konfigurieren der lokalen Bereitstellung für Skype-Live Konferenz
-      url: /SkypeForBusiness/deploy/configure-skype-meeting-broadcast
+      url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
+    - text: Konfigurieren Ihrer lokalen Bereitstellung für Skype-Besprechungsübertragung
+      url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
-    - text: Skype for Business Server verwalten
-      url: /SkypeForBusiness/manage/manage
+    - text: Verwalten von Skype for Business Server
+      url: ./manage/manage.md
 - title: Sonstige Ressourcen
   linkLists:
   - linkListType: overview
     links:
-    - text: Skype for Business Bereitschafts Reihe
+    - text: Skype for Business-Bereitschaftsreihe
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
-    - text: Dokumentation zu Skype for Business Server 2019
-      url: /SkypeForBusiness/skype-for-business-server-2019
-    - text: Lync Server 2013 Dokumentation
+    - text: Skype for Business Server 2019-Dokumentation
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
+    - text: Lync Server 2013-Dokumentation
       url: /lyncserver/microsoft-lync-server-2013

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662640"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117613"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>Verwenden Sie im Admin Center die Teams-Vorlagen für den Einzelhandelsverkauf
 
@@ -34,7 +34,7 @@ Teams-Vorlagen enthalten vordefinierte Definitionen von Teamstrukturen, die auf 
 
 In diesem Artikel stellen wir die einzelnen Teams-Vorlagen vor und erläutern, wie wir empfehlen sie zu nutzen.
 
-Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Einzelhandelsorganisation verantwortlich sind. Wir gehen davon aus, dass Sie den Teams-Service bereits in Ihrer Organisation bereitgestellt haben. Wenn Sie Teams noch nicht eingeführt haben, lesen Sie zunächst die Anleitung zum [Einführen von Microsoft Teams](How-to-roll-out-teams.md).
+Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Einzelhandelsorganisation verantwortlich sind. Wir gehen davon aus, dass Sie den Teams-Service bereits in Ihrer Organisation bereitgestellt haben. Wenn Sie Teams noch nicht eingeführt haben, lesen Sie zunächst die Anleitung zum [Einführen von Microsoft Teams](./deploy-overview.md).
 
 Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates-in-the-admin-console.md).
 

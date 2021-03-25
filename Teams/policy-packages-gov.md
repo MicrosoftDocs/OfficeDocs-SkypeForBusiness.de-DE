@@ -1,5 +1,5 @@
 ---
-title: Richtlinienpakete für Teams für Behörden
+title: Teams-Richtlinienpakete für Behörden
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,42 +16,42 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Richtlinienpakete für Teams für Ihre Regierungsorganisation verwenden und verwalten.
-ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+description: Erfahren Sie, wie Sie Teams-Richtlinienpakete für Ihre Regierungsorganisation verwenden und verwalten.
+ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909079"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117773"
 ---
-# <a name="teams-policy-packages-for-government"></a>Richtlinienpakete für Teams für Behörden
+# <a name="teams-policy-packages-for-government"></a>Teams-Richtlinienpakete für Behörden
 
 > [!NOTE]
-> Richtlinienpakete sind derzeit in Bereitstellungen von Microsoft 365 Government GCC High oder DoD nicht verfügbar.
+> Richtlinienpakete sind derzeit in Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
 
 ## <a name="overview"></a>Übersicht
 
-Ein [Richtlinienpaket](manage-policy-packages.md) in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Richtlinienpakete vereinfachen und rationalisieren Richtlinien und lassen Sie diese konsistent verwalten. Sie können die Einstellungen der Richtlinien im Paket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen von Richtlinien in einem Richtlinienpaket ändern, erhalten alle Benutzer, denen dieses Paket zugewiesen ist, die aktualisierten Einstellungen. Sie können Richtlinienpakete über das Microsoft Teams Admin Center oder PowerShell verwalten.
+Ein [Richtlinienpaket](manage-policy-packages.md) in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Richtlinienpakete vereinfachen, rationalisieren und sorgen für Konsistenz bei der Verwaltung von Richtlinien. Sie können die Einstellungen der Richtlinien im Paket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen von Richtlinien in einem Richtlinienpaket ändern, erhalten alle Benutzer, die diesem Paket zugewiesen sind, die aktualisierten Einstellungen. Sie können Richtlinienpakete mithilfe des Microsoft Teams Admin Centers oder von PowerShell verwalten.
 
-In Richtlinienpaketen werden je nach Paket Vordefinieren von Richtlinien für folgendes definiert:
+Richtlinienpakete definieren je nach Paket Richtlinien für Folgendes vor:
 
 - Messaging
 - Besprechungen
 - Anrufe
-- Einrichten der App
+- App-Setup
 - Liveereignisse
 
 Teams enthält derzeit die folgenden Richtlinienpakete für Behörden.
 
 |Paketname im Microsoft Teams Admin Center|Am besten geeignet für|Beschreibung |
 |---------|---------|---------|
-|Public Safety Officer  |Public Safety Officers in Ihrer Regierungsorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten. |
-|Frontline Manager  |Frontline manager in your government organization |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline Manager in Ihrer Organisation an.|
-|Mitarbeiter an vorderer Front  |Mitarbeiter an vorder front in Ihrer Regierungsorganisation |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline Workers in Ihrer Organisation an.|
+|Referent für öffentliche Sicherheit  |Beauftragte für öffentliche Sicherheit in Ihrer Regierungsorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Mitarbeiter der öffentlichen Sicherheit in Ihrer Organisation gelten. |
+|Frontline-Manager  |Frontlinemanager in Ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Frontline-Manager in Ihrer Organisation an.|
+|Frontlinemitarbeiter  |Frontlinearbeiter in Ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Frontline-Mitarbeiter in Ihrer Organisation an.|
 
-![Screenshot der Richtlinienpakete für das Gesundheitswesen](media/policy-packages-gov.png)
+![Screenshot der Gesundheitsrichtlinien-Pakete](media/policy-packages-gov.png)
 
-Jede einzelne Richtlinie wird mit dem Namen des Richtlinienpakets bezeichnet, sodass Sie die Mit einem Richtlinienpaket verknüpften Richtlinien leicht erkennen können. Wenn Sie beispielsweise benutzern in Ihrer Organisation das Richtlinienpaket für den öffentlichen Sicherheitsbeauftragte zuweisen, wird für jede Richtlinie im Paket PublicSafety_Officer Richtlinie "PublicSafety_Officer" erstellt.
+Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie beispielsweise benutzern in Ihrer Organisation das Richtlinienpaket für öffentliche Sicherheit zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen PublicSafety_Officer erstellt.
 
 ![Screenshot der Richtlinien im Paket für klinische Mitarbeiter im Gesundheitswesen](media/policy-packages-public-safety-officer.png)
 
@@ -93,7 +93,7 @@ Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Ein Richtlinienpaket einer großen Anzahl von Benutzern (Batch) zuweisen
 
-Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
+Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
 
 Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
 
@@ -101,4 +101,4 @@ Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe
 
 [Verwalten von Richtlinienpaketen in Teams](manage-policy-packages.md)
 
-[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md) 
+[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)

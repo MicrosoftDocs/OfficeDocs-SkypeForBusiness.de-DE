@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Wählen Sie die Audiokonferenz-Telefonzentralen-Sprache für eine Audiokonferenznummer in Skype for Business Online.
-ms.openlocfilehash: 93b6ea917c7f79747273366893efc47a22b89bb2
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: d2b4c0d9be666a6ee7de9c2bd36b8dd06cccdf32
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44163901"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109997"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Automatische Telefonzentralen-Spracheinstellung für Audiokonferenzen in Skype for Business Online
 
@@ -35,26 +35,26 @@ ms.locfileid: "44163901"
 
 Die automatische Audiokonferenz-Telefonzentrale für Skype for Business kann Anrufer in verschiedenen Sprachen begrüßen, wenn sie an einer Besprechung teilnehmen.
   
-Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
+Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die von Ihnen festgelegte Primäre Sprache wird zuerst verwendet, und die sekundären Sprachen werden von der automatischen Attendant in der von Ihnen ausgewählten Reihenfolge verwendet. 
   
 > [!NOTE]
->  Sie können nur die Sprachen der Audiokonferenz-Nummern ändern, die der dedizierten Kategorie entsprechen. Die Sprachen der freigegebenen Audiokonferenz-Nummer können nicht geändert werden.
+>  Sie können nur die Sprachen von Audiokonferenznummern ändern, die der Kategorie "Dedizierte" zugeordnet sind. Die Sprachen der Nummer für freigegebene Audiokonferenzen können nicht geändert werden.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Legen Sie die Sprachen für die automatische Telefonzentrale fest
 
-Sie müssen ein [globaler Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder ein [Skype for Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) sein, um diesen Schritt ausführen zu können.
+Sie müssen ein globaler [Administrator oder](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Skype [for Business-Administrator sein,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) um diesen Schritt ausführen zu können.
     
-1. Wechseln Sie im **Skype for Business Admin Center**im linken Navigationsbereich zu **Legacy Portal**. Wählen Sie im Legacy Portal **Audio Conferencing**aus, und klicken Sie dann auf **Microsoft Bridge**.
+1. Wechseln Sie **im Skype for Business Admin Center** in der linken Navigationsleiste zu **Legacyportal.** Wählen Sie im Legacyportal **Audiokonferenzen** aus, und klicken Sie dann auf **Microsoft Bridge.**
     
-2. Wählen Sie die Telefonnummer für Audiokonferenzen in der Liste aus, und klicken Sie im Bereich "Aktion" auf **Sprachen festlegen**. Es ist nur möglich, die Sprachen für dedizierte Audiokonferenz-Nummern zu ändern.  
+2. Wählen Sie in der Liste die Telefonnummer für Audiokonferenzen aus, und klicken Sie im Aktionsbereich **auf Sprachen festlegen.** Es ist nur möglich, die Sprachen von Dedizierte Audiokonferenznummern zu ändern.  
     
 3. Klicken Sie auf der Seite **Sprachen festlegen** auf **Primäre Sprache**, um die vollständige Liste der verfügbaren Sprachen anzuzeigen. Wenn Sie möchten, klicken Sie auf die **Sekundären Sprachen**-Liste um sekundäre Sprache auszuwählen.
     
     > [!NOTE]
-    > Die primär und sekundär unterstützten Sprachen werden aufgeführt. Die Reihenfolge, in der Sie Sie in den Listen auswählen, ist die Reihenfolge der für die Anrufer vorgestellten Sprachen. 
+    > Die primär und sekundär unterstützten Sprachen werden aufgeführt. Die Reihenfolge, in der Sie sie in den Listen auswählen, ist die Reihenfolge der Sprachen, die Anrufern angezeigt werden. 
   
 4. Klicken Sie auf **Speichern**.
     
@@ -64,14 +64,14 @@ Sie müssen ein [globaler Administrator](https://support.office.com/article/da58
     
 - Sprachen können für dedizierte, aber nicht für freigegebene Telefonnummern festgelegt werden.
     
-- Eine Liste der Länder/Regionen, in denen Audiokonferenzen in Microsoft 365 oder Office 365 mit Microsoft als Anbieter verfügbar sind, finden Sie unter [Telefonnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing.md).
+- Eine Liste der Länder/Regionen, in denen Audiokonferenzen in Microsoft 365 oder Office 365 mit Microsoft als Anbieter verfügbar sind, finden Sie unter Telefonnummern für [Audiokonferenzen.](phone-numbers-for-audio-conferencing.md)
     
 ## <a name="want-to-use-windows-powershell"></a>Wollen Sie Windows PowerShell verwenden?
 
-Um diesen Schritt zu automatisieren, können Sie die Cmdlets " [Satz-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) " und " [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) " verwenden.
+Zum Automatisieren dieses Schritts können Sie die [Cmdlets Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) und [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) verwenden.
   
-Weitere Informationen finden Sie unter [Verwenden von Windows PowerShell zum Ausführen häufiger Skype for Business Online-Verwaltungsaufgaben](https://go.microsoft.com/fwlink/?LinkId=525038)
+Weitere Informationen finden Sie unter Verwenden [Windows PowerShell zum Ausführen gängiger Skype for Business Online-Verwaltungsaufgaben.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

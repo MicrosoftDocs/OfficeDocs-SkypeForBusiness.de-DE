@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonkonferenzen und Anrufwarteschlangen und deren Verwendung, um Anrufern zu helfen, durch ein Menüsystem zu wechseln, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 2944f7b4add49b136d56620f41a2a1afb1a30a92
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460725"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117863"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonkonferenzen und Anrufwarteschleifen für Teams
 
@@ -89,7 +89,7 @@ Wenn Anrufe an eine externe Telefonnummer übertragen werden, muss das Ressource
 > [!NOTE]
 > Direkte Routingdienstnummern für automatische Telefonkonferenzen und Anrufwarteschlangen werden nur für Microsoft Teams-Benutzer und Anrufermitarbeiter unterstützt.<br>
 > Übertragungen zwischen Anrufplan-Trunks und Direct Routing-Trunks werden nicht unterstützt.<br>
-> In einem Hybridszenario muss das Ressourcenkonto lokal erstellt werden. Weitere Informationen finden Sie unter [Planen von Cloudanrufwarteschlangen](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-queue).
+> In einem Hybridszenario muss das Ressourcenkonto lokal erstellt werden. Weitere Informationen finden Sie unter [Planen von Cloudanrufwarteschlangen](/skypeforbusiness/hybrid/plan-call-queue).
 
 ## <a name="business-decisions"></a>Geschäftsentscheidungen
 
@@ -222,7 +222,7 @@ In den folgenden Artikeln finden Sie Informationen zum Erstellen von automatisch
 
 [Planen von direktem Routing](direct-routing-plan.md)
 
-[Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Erstellen einer Anrufwarteschlange – Lernprogramm für kleine Unternehmen](business-voice/create-a-phone-system-call-queue-smb.md)
 

@@ -24,27 +24,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für China verfügbar sind.
-ms.openlocfilehash: 8db46e038ff817844f738fbaea630089970908e7
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für China verfügbar sind.
+ms.openlocfilehash: 76feb7bba530b766e8d00880963058d770a1bd49
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766889"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118244"
 ---
 # <a name="availability-in-china"></a>Verfügbarkeit in China
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Im folgenden finden Sie die Microsoft 365-und Office 365-Dienste für Skype for Business und Microsoft Teams, die für China verfügbar sind.
+Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für China verfügbar sind.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, für Nutzer, die außerhalb von China ansässig sind. Bitte wenden Sie sich für weitere Informationen an Ihr Konto Team.  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nicht geografisch. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/>  Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Ja, mit Ausnahme von Kunden, die den Service aus China kaufen. Die Wahlmöglichkeiten für Kunden, die den Service aus China kaufen, sind deaktiviert.   <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, für Benutzer außerhalb Chinas. Wenden Sie sich an Ihr Kontoteam, um weitere Informationen zu erhalten.  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nicht geografisch. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/>  Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Ja, mit Ausnahme von Kunden, die den Dienst aus China erwerben. Die Einwahlfunktionen sind für Kunden deaktiviert, die den Dienst aus China erwerben.   <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 
@@ -71,9 +71,9 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Beijing (Peking)  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), mit Ausnahme von Kunden, die den Service aus China kaufen. Gebührenfreie Nummern sind für Kunden, die den Service aus China kaufen, nicht verfügbar. <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), mit Ausnahme von Kunden, die den Dienst aus China erwerben. Gebührenfreie Nummern sind für Kunden, die den Dienst aus China kaufen, nicht verfügbar. <br/> |
    
- Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).
+ Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
@@ -84,7 +84,6 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
+[Anfordern von Servicenummern für Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md)
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

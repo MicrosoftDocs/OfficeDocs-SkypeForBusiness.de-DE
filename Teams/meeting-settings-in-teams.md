@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711762"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117893"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -39,7 +39,7 @@ Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beit
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](https://docs.microsoft.com/microsoftteams/using-admin-roles).
+Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
 1. Wechseln Sie zum Admin Center.
 
@@ -61,7 +61,7 @@ Anonyme Benutzer erben jetzt die globale Standardberechtigungsrichtlinie auf Ben
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-Sie müssen ein Teams-Dienstadministrator sein, um auf diese Einstellung zugreifen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](https://docs.microsoft.com/microsoftteams/using-admin-roles).
+Sie müssen ein Teams-Dienstadministrator sein, um auf diese Einstellung zugreifen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
 1. Wechseln Sie zum Admin Center.
 
