@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107301"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197520"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 ==========================
@@ -64,9 +64,9 @@ Benutzer können sich von Teams abmelden, indem sie über ihr Profilbild oben in
 
 Benutzer auf einem Computer, der einer Domäne beigetreten ist, können sich möglicherweise nicht bei Teams mit einem anderen Konto in der gleichen Active Directory-Domäne anmelden.
 
-## <a name="macos-users"></a>MacOS-Benutzer
+## <a name="macos-users"></a>macOS-Benutzer
 
-Unter MacOS werden Teams Benutzer auffordern, ihren Benutzernamen und ihre Anmeldeinformationen einzugeben, und je nach den Einstellungen Ihres Unternehmens werden Sie möglicherweise zur Multifaktor-Authentifizierung aufgefordert. Sobald die Benutzer ihre Anmeldeinformationen eingegeben haben, werden sie nicht mehr aufgefordert, sie erneut anzugeben. Von diesem Zeitpunkt an startet Teams automatisch, wenn sie am gleichen Computer arbeiten.
+Unter macOS werden die Benutzer von Microsoft Teams aufgefordert, ihren Benutzernamen und ihre Anmeldeinformationen einzugeben, und je nach den Einstellungen Ihres Unternehmens werden sie möglicherweise zur mehrstufigen Authentifizierung aufgefordert. Sobald die Benutzer ihre Anmeldeinformationen eingegeben haben, werden sie nicht mehr aufgefordert, sie erneut anzugeben. Von diesem Zeitpunkt an startet Teams automatisch, wenn sie am gleichen Computer arbeiten.
 
 ## <a name="teams-on-ios-and-android-users"></a>Microsoft Teams für iOS- und Android-Benutzer
 
@@ -122,7 +122,7 @@ Wenn diese Richtlinie auf einem Gerät konfiguriert ist, können sich die Benutz
 >1. Die Richtlinie schränkt nur Anmeldungen ein. Sie schränkt nicht die Möglichkeit ein, dass Benutzer als Gast in andere Azure AD-Mandanten eingeladen werden oder zu anderen Mandanten wechseln können.
 >2. Die Richtlinie erfordert Teams für Windows Version 1.3.00.30866 oder höher, und Teams für MacOS Version 1.3.00.30882 (Veröffentlichung Mitte November 2020).
 
-**Richtlinien für Windows** Administrative Vorlagendateien (ADMX/ADML) finden Sie im [Download Center](https://www.microsoft.com/download/details.aspx?id=49030). Zusätzlich können Sie Schlüssel in der Windows-Registrierung manuell festlegen:
+**Richtlinien für Windows** Administrative Vorlagendateien (ADMX/ADML) stehen im [Download Center](https://www.microsoft.com/download/details.aspx?id=49030) zur Verfügung (der beschreibende Name der Richtlinieneinstellung in der administrativen Vorlagendatei ist „Anmeldung in Teams auf Konten in bestimmten Mandanten beschränken“). Zusätzlich können Sie Schlüssel in der Windows-Registrierung manuell festlegen:
 
 - Wertname: RestrictTeamsSignInToAccountsFromTenantList
 - Werttyp: String
