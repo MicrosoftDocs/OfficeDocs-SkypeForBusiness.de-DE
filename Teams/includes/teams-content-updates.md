@@ -10,7 +10,6 @@
 |------|------------|--------|
 | 3/15/2021 | [Überwachung und Benachrichtigung von Microsoft Teams-Geräten](../alerts/device-health-status.md) | Hinzugefügt |
 | 3/15/2021 | [Überwachung und Benachrichtigung von Microsoft Teams](../alerts/teams-admin-alerts.md) | Hinzugefügt |
-| 3/15/2021 | [Implementieren Ihres Wechsels zu Microsoft Teams](../implement-your-move.md) | Hinzugefügt |
 | 3/15/2021 | [Teams- und Outlook-E-Mail-Integration](../teams-outlook-email-integration.md) | Geändert |
 | 3/15/2021 | [Freigeben für Teams](../teams-outlook-share-teams.md) | Hinzugefügt |
 | 3/16/2021 | [Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams](../create-a-team-template.md) | Geändert |

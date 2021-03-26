@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: Der Administrator kann erfahren, wie Audiokonferenzen mit Direct Routing in GCCH- und DoD-Umgebungen verwendet werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119334"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262620"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
@@ -46,7 +46,7 @@ Um Audiokonferenzen in GCC High oder DoD verwenden zu können, müssen Ihre Orga
 Zum Aktivieren des Diensts sind eine Mandantenlizenz und mindestens eine Benutzerlizenz erforderlich. Sie können den Dienst nicht nur mit der Mandantenlizenz oder nur mit Benutzerlizenzen aktivieren. Wenn Sie Servicelizenzen für Ihren Mandanten und die Benutzer in Ihrer Organisation erhalten möchten, wenden Sie sich an Ihr Kontoteam.
 
 > [!IMPORTANT]
-> Benutzer können für Audiokonferenzen mit Direct Routing erst aktiviert werden, wenn Einwahltelefonnummern eingerichtet sind und benutzer eine funktionierende Wähltapad in ihrem Teams-Client haben. Es wird empfohlen, Benutzern erst dann Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen zuzuordnen, wenn Sie Einwahltelefonnummern einrichten, wie in diesem Artikel beschrieben.
+> Benutzer können für Audiokonferenzen mit Direct Routing erst aktiviert werden, wenn Einwahltelefonnummern eingerichtet sind. Es wird empfohlen, Benutzern erst dann Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen zuzuordnen, wenn Sie Einwahltelefonnummern einrichten, wie in diesem Artikel beschrieben.  Wenn Sie diese Anleitung nicht befolgen, fehlt die Wähltaste möglicherweise vollständig im Teams-Client.
 
 ### <a name="step-2-set-up-direct-routing"></a>Schritt 2: Einrichten von Direct Routing
 

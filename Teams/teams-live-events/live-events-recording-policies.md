@@ -17,12 +17,12 @@ description: Erfahren Sie mehr über Richtlinien für die Liveereignisaufzeichnu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119164"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262657"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Liveereignisaufzeichnung in Microsoft Teams
 
@@ -50,9 +50,9 @@ Im Rahmen der Übertragungsrichtlinie gibt es eine Einstellung, mit der Sie die 
 
 |                                 | Aufzeichnung für Produzenten und Presenter verfügbar | Aufzeichnung für Teilnehmer verfügbar |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| Immer aufzeichnen               | Deaktiviert und ausgewählt                                | Deaktiviert und ausgewählt         |
-| Organizer kann aufzeichnen oder nicht | Aktiviert und nicht standardmäßig ausgewählt                  | Aktiviert und nicht standardmäßig ausgewählt   |
-| Nie aufzeichnen               | Deaktiviert und nicht ausgewählt                            | Deaktiviert und nicht ausgewählt      |
+| Immer aufzeichnen               | Deaktiviert und ausgewählt                                | Aktiviert und ausgewählt         |
+| Organizer kann aufzeichnen oder nicht | Standardmäßig aktiviert und ausgewählt                  | Standardmäßig aktiviert und ausgewählt   |
+| Nie aufzeichnen               | Deaktiviert und nicht ausgewählt                            | Aktiviert und nicht ausgewählt      |
 
 Wenn die Richtlinie auf **"Immer aufzeichnen"** festgelegt ist, enthält die Richtlinienseite die folgenden ausgewählten Optionen:
 

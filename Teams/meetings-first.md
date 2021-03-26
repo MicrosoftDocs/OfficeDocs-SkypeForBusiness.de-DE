@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b691a9d722a82e68384f8937479c5f71d3f4c11d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b75f9bf5328b25a1ce1fd695a90163f63a61f823
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096169"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262582"
 ---
 # <a name="meetings-first"></a>Besprechungen zuerst
 
@@ -111,7 +111,7 @@ Alle Funktionen und Benutzererfahrungen in "Besprechungen zuerst", einschließli
 
 ![Screenshot der Administratoreinstellungen zum Aktivieren von "Besprechungen zuerst"](media/teams-meeting-admin-settings.png)
 
-Wenn Sie die Anwendung Teams und Kanäle optional aus der linken Navigationsleiste des Teams-Clients Ihrer Benutzer ausblenden möchten, um ihre Benutzererfahrung auf Besprechungen zu konzentrieren, kann dies mithilfe der [App-Berechtigungsrichtlinie erreicht werden.](teams-app-permission-policies.md)
+Optional sollten Sie die Anwendung Teams und Kanäle aus der linken Navigationsleiste des Teams-Clients Ihrer Benutzer ausblenden, um die Benutzererfahrung auf Besprechungen weiter zu konzentrieren, was mithilfe der [App-Setup-Richtlinie erreicht werden kann.](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>Berichterstellung und Anrufanalyse
 

@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die verschiedenen Methoden zum Zuweisen von
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: a77e1cd6a6caf562edcdca0a49f200e6678bd6f5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae1099fc1977596aaef2b2e782140d0eca37e2b2
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111411"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262698"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams
 
@@ -193,7 +193,7 @@ Die effektive Richtlinie eines Benutzers wird gemäß den folgenden Regeln aktua
 
 Wenn Sie einer Gruppe eine Richtlinie zuweisen, geben Sie eine Rangfolge für die Gruppenzuordnung an. Dies wird verwendet, um zu bestimmen, welche Richtlinie ein Benutzer als effektive Richtlinie erben soll, wenn der Benutzer Mitglied von zwei oder mehr Gruppen ist und jeder Gruppe eine Richtlinie desselben Typs zugewiesen ist.
 
-Die Gruppenzuordnungsrangliste ist relativ zu anderen Gruppenzuordnungen desselben Typs. Wenn Sie z. B. eine Anrufrichtlinie zwei Gruppen zuweisen, legen Sie die Rangfolge einer Aufgabe auf 1 und die andere auf 2, und 1 ist die höchste Bewertung. Die Gruppenzuordnungsrangliste gibt an, welche Gruppenmitgliedschaft im Hinblick auf die Vererbung wichtiger oder relevanter als andere Gruppenmitgliedschaften ist.
+Die Gruppenzuordnungsrangliste ist relativ zu anderen Gruppenzuordnungen desselben Typs. Wenn Sie z. B. eine Anrufrichtlinie zwei Gruppen zuweisen, legen Sie die Rangfolge einer Aufgabe auf 1 und die andere auf 2, und 1 ist die höchste Bewertung. Die Gruppenzuordnungsrangliste gibt an, welche Gruppenmitgliedschaft wichtiger oder relevanter als andere Gruppenmitgliedschaften hinsichtlich der Vererbung ist.
 
 Sie verfügen beispielsweise über zwei Gruppen: "Mitarbeiter im Store" und "Store Manager". Beiden Gruppen wird eine Anrufrichtlinie für Teams, eine Anrufrichtlinie für Store-Mitarbeiter und eine Anrufrichtlinie für Store-Manager zugewiesen. Für einen Filialleiter, der sich in beiden Gruppen befindet, ist ihre Rolle als Vorgesetzter relevanter als ihre Rolle als Mitarbeiter. Daher sollte die Anrufrichtlinie, die der Gruppe "Store-Manager" zugewiesen ist, eine höhere Rangfolge haben.
 
@@ -519,7 +519,7 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 Führen Sie folgendes aus, um den Status einer Batchzuordnung zu erhalten, wobei "OperationId" die Vorgangs-ID ist, die vom Cmdlet für einen bestimmten ```New-CsBatchPolicyAssignmentOperation``` Batch zurückgegeben wird.
 
 ```powershell
-$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
 Wenn die Ausgabe zeigt, dass ein Fehler aufgetreten ist, führen Sie folgendes aus, um weitere Informationen zu Fehlern zu erhalten, die sich in der -Eigenschaft ```UserState``` befinden.

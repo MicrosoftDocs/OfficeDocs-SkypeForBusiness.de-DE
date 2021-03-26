@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über automatische Telefonkonferenzen und Anrufwarteschlangen und deren Verwendung, um Anrufern zu helfen, durch ein Menüsystem zu wechseln, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 659505c39fd6eace8cd0264aaef0a4994604e651
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117863"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262640"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen von automatischen Telefonkonferenzen und Anrufwarteschleifen für Teams
 
@@ -217,6 +217,8 @@ In den folgenden Artikeln finden Sie Informationen zum Erstellen von automatisch
 
 - [Einrichten einer automatischen Attendant](create-a-phone-system-auto-attendant.md)
 - [Erstellen einer Anrufwarteschlange](create-a-phone-system-call-queue.md)
+
+Wenn Sie umfangreichere Funktionen benötigen, z. B. die Integration in Workflows, Bots und SMS, ziehen Sie [Azure Communication Services in Betracht.](/azure/communication-services/overview)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
