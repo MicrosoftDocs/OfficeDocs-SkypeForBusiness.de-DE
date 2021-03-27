@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79a1a416e0d868129e2d78f305cfe32efb527d53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5137a67169198a16b62e179d32ae1779001011d
+ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120646"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51397578"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -201,6 +201,8 @@ Weitere Informationen zu Lizenzen und Berechtigungen, einschließlich Plänen un
 - **Benutzer können nicht an** Kanalbesprechungen teilnehmen: Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Kanalbesprechungen teilnehmen, wenn sie kein Mitglied des Teams sind. Die Ursache ist, dass DIE ÜBERPRÜFUNGen davon abhingen, ob Benutzer einer Besprechungschatliste hinzugefügt werden können, und nur wenn sie zur Liste hinzugefügt werden können, dürfen sie an der Besprechung teilnehmen. Der Chatthread in einer Kanalbe besprechung ist nur für Team-/Kanalmitglieder verfügbar, und Nichtmitglieder können den Chatthread nicht sehen oder darauf zugreifen. Wenn IB für den Mandanten aktiviert ist und ein Nichtteammitglied versucht, an einer Kanalbesprechung teil zu nehmen, darf dieser Benutzer nicht an der Besprechung teilnehmen. Wenn JEDOCH IB  für den Mandanten nicht aktiviert ist und ein Nicht-Teammitglied versucht, an einer Kanalbesprechung teil zu nehmen, darf der Benutzer an der Besprechung teilnehmen– die Chatoption wird in der Besprechung jedoch nicht angezeigt.
 - **Teambesitzer** werden nicht entfernt: Wenn eine neue IB-Richtlinie angewendet wird, die zu zwei oder mehr widersprüchlichen Segmenten in einem Teams-Kanal führt, erhalten die Segmente mit Teambesitzern eine höhere Einstellung, und andere Segmentbenutzer werden entfernt. Außerdem werden Teambesitzer zu diesem Zeitpunkt nicht entfernt, auch wenn sie mit anderen Besitzern/Benutzern in Konflikt stehen. Mandantenadministratoren und andere Kanalbesitzer müssen widersprüchliche Besitzer manuell entfernen.
 - **Maximale Anzahl von Segmenten, die in** einem Mandanten zulässig sind: Jeder Mandant kann beim Konfigurieren von IB-Richtlinien bis zu 100 Segmente einrichten. Die Anzahl der Richtlinien, die konfiguriert werden können, ist nicht begrenzt.
+
+- **IB-Richtlinien** funktionieren für Verbundbenutzer nicht: Wenn Sie die Verbundarbeit mit externen Mandanten zulassen, werden die Benutzer dieser Mandanten nicht durch DIE RICHTLINIEN eingeschränkt. Wenn Benutzer Ihrer Organisation an einem Chat oder einer Besprechung teilnehmen, die von externen Verbundbenutzern organisiert wird, werden die Kommunikation zwischen Den Benutzern Ihrer Organisation durch DIE RICHTLINIEN nicht eingeschränkt.
 
 ## <a name="more-information"></a>Weitere Informationen
 

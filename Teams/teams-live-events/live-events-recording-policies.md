@@ -17,18 +17,18 @@ description: Erfahren Sie mehr über Richtlinien für die Liveereignisaufzeichnu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
+ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262657"
+ms.locfileid: "51383969"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Liveereignisaufzeichnung in Microsoft Teams
 
 Sie haben mehrere Optionen zum Aufzeichnen eines Microsoft Teams-Liveereigniss. Die Aufzeichnungsoptionen werden mithilfe von Aufzeichnungsrichtlinien festgelegt. In diesem Artikel werden die verschiedenen Einstellungen beschrieben.
 
-Die Aufzeichnungsoptionen werden mit dem [PowerShell-Befehl Set-CsTeamsMeetingBroadcastPolicy festgelegt.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+Die Aufzeichnungsoptionen werden mithilfe des [PowerShell-Befehls Set-CsTeamsMeetingBroadcastPolicy festgelegt.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 ## <a name="scheduling-and-option-behaviors"></a>Planungs- und Optionsverhalten
 
