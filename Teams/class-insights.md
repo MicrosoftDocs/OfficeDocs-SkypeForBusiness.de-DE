@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
+ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102621"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215320"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -85,7 +85,7 @@ In beiden Ansichten kann ein Dozent auf Klassendaten zugreifen. Bei Verwendung d
 Auf Klassenebene, wenn ein Dozent ein Klassenteam besitzt, ist Insights ohne weitere Aktion seitens des IT-Administrators verfügbar.
 
 ### <a name="education-leaders"></a>Schulleiter
-Schulleiter können Insights als persönliche App verwenden, die in der linken App-Leiste von Teams verfügbar ist.
+Schulleiter können Insights als [persönliche App](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347) verwenden, die in der linken App-Leiste von Teams verfügbar ist.
 
 Auf Organisationsebene muss der IT-Administrator das Schülerinformationssystem anbinden und jeder Rolle Berechtigungen für den Zugriff auf die für sie relevanten Schulen oder Abteilungen zuweisen.
 
@@ -131,6 +131,7 @@ Derzeit werden Daten aus den folgenden Bereichen in Klassenteams gesammelt:
 | **Aufgaben** | Öffnen, Abgabe und Benotung von Aufgaben.|
 | **Engagement im Kanal** |  Einen Kanal besuchen, einen Beitrag erstellen, auf einen Beitrag antworten und einen Beitrag mit „Gefällt mir“ markieren (ohne Chatinhalt).|
 | **Dateien** |   Hochladen, Herunterladen, Zugreifen, Ändern, Kommentieren und Freigeben einer Datei (ohne Dateiinhalt).|
+| **OneNote-Kursnotizbuch** |  Bearbeiten einer Seite oder eines Abschnitts in einem Notizbuch (ohne Seiteninhalt)|
 | **Besprechungen** |    Anwesenheit (ohne Besprechungsinhalt).|
 
 > [!NOTE]
@@ -205,7 +206,8 @@ Sie können das folgende Material an Ihre **Dozenten** verteilen:
 *   Machen Sie sich fit mit dem [kostenlosen Insights-Kurs](https://aka.ms/insights/course) Im Microsoft Educator Center.
 *   Und zu guter Letzt, sehen Sie sich [diesen Blog](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091) über Insights an.
 
-Material für **Schulleiter** wird in Kürze veröffentlicht.
+Material für **Schulleiter**:
+*   [Supportseite "Insights für Bildungseinrichtungen"](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
 ## <a name="turn-insights-off-or-on"></a>Insights deaktivieren oder aktivieren
 Insights ist standardmäßig aktiviert. Wenn Sie Insights deaktivieren, *löschen wir alle gesammelten Daten* für Insights. Wenn Sie Insights reaktivieren, beginnen wir mit der Datensammlung ab dem Zeitpunkt der Reaktivierung.
