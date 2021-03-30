@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
+ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092603"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51418753"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -39,7 +39,7 @@ Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC
 
 > [!NOTE]
 > - Es gibt **keine direkte URL**, die auf das Microsoft Teams-Add-In verweist.
-> - Wenn in Ihrer Organisation sowohl Microsoft Teams als auch Skype for Business ausgeführt werden, sind ein paar zusätzliche Dinge zu bedenken. Unter bestimmten Umständen ist das Microsoft Teams-Add in Outlook nicht verfügbar. Einzelheiten hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
+> - Wenn in Ihrer Organisation sowohl Microsoft Teams als auch Skype for Business ausgeführt werden, sind ein paar zusätzliche Dinge zu bedenken. Unter bestimmten Umständen ist das Microsoft Teams-Add in Outlook nicht verfügbar. Einzelheiten hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview).
 > - Benutzerberechtigungen zum Ausführen der Datei „Regsvr32.exe“ sind eine Mindestanforderung, damit das Add-In für „Teams Meeting“ auf dem Computer installiert wird.
 > - Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
 > - Wenn Sie eine Office Outlook-Installation aus dem Microsoft Store verwenden, wird das Add-In für „Teams Meeting“ nicht unterstützt. Benutzern, die dieses Add-In benötigen, wird empfohlen, die Klick-und-Los-Version von Office zu installieren, wie im Artikel [Office unter Windows 10 im S-Modus](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) beschrieben.
