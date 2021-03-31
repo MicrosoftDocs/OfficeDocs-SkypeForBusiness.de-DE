@@ -325,7 +325,7 @@ items:
             href: manage-feedback-policies-in-teams.md
           - name: Verwalten von Richtlinienpaketen in Teams
             href: manage-policy-packages.md
-      - name: Kommunikation mit externen Benutzern
+      - name: Mit Personen außerhalb meiner Organisation zusammenarbeiten
         items:
           - name: Kommunizieren mit Benutzern aus anderen Organisationen
             href: communicate-with-users-from-other-organizations.md
@@ -333,7 +333,7 @@ items:
             items:
               - name: Verwalten des externen Zugriffs
                 href: manage-external-access.md
-              - name: Nativer Teams-Chat für externe Benutzer
+              - name: Nativer Teams-Chat
                 href: native-chat-for-external-users.md
               - name: Interoperabilität von Teams und Skype
                 href: teams-skype-interop.md
@@ -345,13 +345,11 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: Gast-Erfahrung
                 href: guest-experience.md
-              - name: Autorisieren des Gastzugriffs
-                href: teams-dependencies.md
               - name: Aktivieren und Deaktivieren des Gastzugriffs
                 href: set-up-guests.md
               - name: Hinzufügen eines Gasts zu einem Team
                 href: view-guests.md
-              - name: Bearbeiten von Gastbenutzerinformationen
+              - name: Bearbeiten von Gastinformationen
                 href: edit-guests-information.md
               - name: Problembehandlung beim Gastzugriff
                 href: troubleshoot-guest-access.md
@@ -505,7 +503,7 @@ items:
             href: manufacturing-teams-templates-in-the-admin-console.md
           - name: Verwalten von Teams-Vorlagenrichtlinien
             href: templates-policies.md
-      - name: Kommunikation mit externen Benutzern
+      - name: Mit Personen außerhalb meiner Organisation zusammenarbeiten
         items:
           - name: Kommunizieren mit Benutzern aus anderen Organisationen
             href: communicate-with-users-from-other-organizations.md
@@ -513,7 +511,7 @@ items:
             items:
               - name: Verwalten des externen Zugriffs
                 href: manage-external-access.md
-              - name: Nativer Teams-Chat für externe Benutzer
+              - name: Nativer Teams-Chat
                 href: native-chat-for-external-users.md
               - name: Interoperabilität von Teams und Skype
                 href: teams-skype-interop.md
@@ -531,9 +529,9 @@ items:
                 href: set-up-guests.md
               - name: Hinzufügen eines Gasts zu einem Team
                 href: add-guests.md
-              - name: Anzeigen von Gastbenutzern in einem Team
+              - name: Anzeigen von Gästen in einem Team
                 href: view-guests.md
-              - name: Bearbeiten von Gastbenutzerinformationen
+              - name: Bearbeiten von Gastinformationen
                 href: edit-guests-information.md
               - name: Problembehandlung beim Gastzugriff
                 href: troubleshoot-guest-access.md
@@ -1491,6 +1489,8 @@ items:
         items:
           - name: Verwalten Ihrer Geräte in Teams
             href: devices/device-management.md
+          - name: Remotebereitstellung und -Anmeldung
+            href: devices/remote-provision-remote-login.md
           - name: Remoteaktualisierung Ihrer Geräte
             href: devices/remote-update.md
           - name: Verwalten von Teams-Gerätetags
