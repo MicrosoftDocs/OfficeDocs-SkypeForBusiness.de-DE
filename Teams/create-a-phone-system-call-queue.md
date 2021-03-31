@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschleifen mit Microsoft Teams einrichten können. Diese bieten Optionen wie Begrüßungsnachrichten, Warteschleifenmusik, Anrufweiterleitung und weitere Features.
-ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschlangen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, musikhalten, Anrufumleitung und andere Funktionen bietet.
+ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092713"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450632"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -45,7 +45,7 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
 - Optionen für das Vorgehen bei überzähligen Anrufen und Erreichen des Zeitlimits.
 
-Lesen Sie [Automatische Telefonzentralen und Anrufwarteschleifen für Microsoft Teams planen](plan-auto-attendant-call-queue.md) und befolgen Sie die [Anweisungen für die ersten Schritte](plan-auto-attendant-call-queue.md#getting-started), bevor Sie die In diesem Artikel beschriebenen Schritte ausführen.
+Achten Sie darauf, dass Sie automatische Telefonkonferenzen und [](plan-auto-attendant-call-queue.md#getting-started) Anrufwarteschlangen für Planen für [Teams](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den Schritten für die ersten Schritte, bevor Sie die in diesem Artikel beschriebenen Verfahren ausführen.
 
 Gehen Sie zum Einrichten einer Anrufwarteschleife zum Microsoft Teams Admin Center, erweitern Sie **VoIP**, klicken Sie auf **Anrufwarteschleifen** und dann auf **Hinzufügen**.
 
@@ -71,11 +71,21 @@ In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiederge
 
 ## <a name="call-agents"></a>Telefonberater
 
-Lesen Sie den Abschnitt zu den [Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites), um einer Anrufwarteschleife Telefonberater hinzufügen zu können.
+Überprüfen Sie [die Voraussetzungen für das Hinzufügen von Agents zu einer Anrufwarteschlange.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![Screenshot der Einstellungen für Benutzer und Gruppen für Anrufwarteschleifen](media/call-queue-users-groups.png)
 
+##### <a name="teams-channel"></a>Teams-Kanal
+
+Sie können über einen Teams-Kanal bis zu 200 Agents hinzufügen.
+
+Wenn Sie einen [Teams-Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)zum Verwalten der Warteschlange verwenden möchten, wählen Sie die Option Team **auswählen** aus, und klicken Sie **auf Kanal hinzufügen.** Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen.** Wählen Sie den Kanal aus, den Sie verwenden möchten, und klicken Sie auf **Übernehmen.**
+
+##### <a name="users-and-groups"></a>Benutzer und Gruppen
+
 Sie können bis zu 20 Telefonberater einzeln und bis zu 200 über Gruppen hinzufügen.
+
+Wenn Sie der Warteschlange einzelne Benutzer oder Gruppen hinzufügen möchten, wählen Sie die Option Benutzer und **Gruppen** auswählen aus. 
 
 Um einen Benutzer zur Warteschleife hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**, Suchen Sie nach dem Benutzer, klicken Sie auf **Hinzufügen** und dann erneut auf **Hinzufügen**.
 

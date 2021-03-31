@@ -3,92 +3,111 @@
 
 
 
+## <a name="week-of-march-22-2021"></a>Woche vom 22. März 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 3/22/2021 | [Interaktion von Exchange und Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | Geändert |
+| 3/22/2021 | [Geräte für Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
+| 3/22/2021 | [Verwenden von Microsoft Teams-Panels](/MicrosoftTeams/devices/use-teams-panels) | Geändert |
+| 3/22/2021 | [Telefonnummernverwaltung für Belgien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Geändert |
+| 3/22/2021 | [Überlegungen zur Teilnahme an der Skype Room System-Domäne](/MicrosoftTeams/rooms/domain-joining-considerations) | Geändert |
+| 3/22/2021 | [Aktivieren von Teams Rooms-Geräten für die Teilnahme an Besprechungen von Drittanbietern](/MicrosoftTeams/rooms/third-party-join) | Geändert |
+| 3/22/2021 | [Einrichten von Cloudvoicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | Geändert |
+| 3/22/2021 | [Optimierung lokaler Medien für direktes Routing](/MicrosoftTeams/direct-routing-media-optimization) | Geändert |
+| 3/22/2021 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
+| 3/24/2021 | [Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | Geändert |
+| 3/24/2021 | [Verwenden von Teams-Vorlagen im Admin Center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Geändert |
+| 3/24/2021 | [Parken und Fortsetzen von Anrufen in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Geändert |
+| 3/24/2021 | [Telefone und Geräte für Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Geändert |
+| 3/24/2021 | [Durchführen einer eDiscovery-Untersuchung von Inhalten](/MicrosoftTeams/ediscovery-investigation) | Geändert |
+| 3/24/2021 | [Anmelden bei Microsoft Teams](/MicrosoftTeams/sign-in-teams) | Geändert |
+| 3/25/2021 | [Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | Geändert |
+| 3/25/2021 | [Schreibgeschützte Besprechungserfahrung](/MicrosoftTeams/view-only-meeting-experience) | Geändert |
+| 3/25/2021 | [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](/MicrosoftTeams/assign-policies) | Geändert |
+| 3/25/2021 | [Audiokonferenzen mit Direct Routing, GCCH und DoD](/MicrosoftTeams/audio-conferencing-with-direct-routing-for-gcch-and-dod) | Geändert |
+| 3/25/2021 | [Konfigurieren des Sprachroutings für Direct Routing](/MicrosoftTeams/direct-routing-voice-routing) | Geändert |
+| 3/25/2021 | [Hardwareanforderungen für Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Geändert |
+| 3/25/2021 | Implementieren Ihres Wechsels zu Microsoft Teams | Entfernt |
+| 3/25/2021 | [Besprechung zuerst – Microsoft Teams](/MicrosoftTeams/meetings-first) | Geändert |
+| 3/25/2021 | [Planen von automatischen Telefonkonferenzen und Anrufwarteschleifen für Teams](/MicrosoftTeams/plan-auto-attendant-call-queue) | Geändert |
+| 3/25/2021 | [Microsoft Teams PSTN-Nutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Geändert |
+| 3/25/2021 | [Aufzeichnungsrichtlinien für Liveereignisse](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | Geändert |
+| 3/25/2021 | [Versionshinweise zu Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 3/26/2021 | Einrichten des Ringback-Bots für Direct Routing | Entfernt |
+| 3/26/2021 | [Konfigurieren des Sprachroutings für Direct Routing](/MicrosoftTeams/direct-routing-voice-routing) | Geändert |
+| 3/26/2021 | [Aufzeichnungsrichtlinien für Liveereignisse](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | Geändert |
+| 3/26/2021 | [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Geändert |
+| 3/26/2021 | [Private Kanäle in Microsoft Teams](/MicrosoftTeams/private-channels) | Geändert |
+| 3/26/2021 | [Teams- und Outlook-E-Mail-Integration](/MicrosoftTeams/teams-outlook-email-integration) | Geändert |
+| 3/26/2021 | [Telefone und Geräte für Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Geändert |
+| 3/26/2021 | [Verwalten der explorativen Microsoft Teams-Umgebung](/MicrosoftTeams/teams-exploratory) | Geändert |
+
+
 ## <a name="week-of-march-15-2021"></a>Woche vom 15. März 2021
 
 
 | Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
 |------|------------|--------|
-| 3/15/2021 | [Überwachung und Benachrichtigung von Microsoft Teams-Geräten](../alerts/device-health-status.md) | Hinzugefügt |
-| 3/15/2021 | [Überwachung und Benachrichtigung von Microsoft Teams](../alerts/teams-admin-alerts.md) | Hinzugefügt |
-| 3/15/2021 | [Teams- und Outlook-E-Mail-Integration](../teams-outlook-email-integration.md) | Geändert |
-| 3/15/2021 | [Freigeben für Teams](../teams-outlook-share-teams.md) | Hinzugefügt |
-| 3/16/2021 | [Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams](../create-a-team-template.md) | Geändert |
-| 3/16/2021 | [Planen von direktem Routing](../direct-routing-plan.md) | Geändert |
-| 3/16/2021 | [Direktes Routing für Telefonsysteme](../direct-routing-protocols-sip.md) | Geändert |
-| 3/16/2021 | [Informationsbarrieren in Microsoft Teams](../information-barriers-in-teams.md) | Geändert |
-| 3/16/2021 | [Übersicht über Sicherheit und Compliance](../security-compliance-overview.md) | Geändert |
-| 3/17/2021 | [Verfügbarkeit nach Land und Region für Business Voice](../business-voice/country-region-availability.md) | Geändert |
-| 3/17/2021 | [Exportieren von Inhalten mit den Microsoft Teams-Export-APIs](../export-teams-content.md) | Geändert |
-| 3/17/2021 | [Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams](../reset-the-audio-conferencing-pin-in-teams.md) | Geändert |
-| 3/17/2021 | [Add-On-Lizenzen für Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) | Geändert |
-| 3/17/2021 | [Microsoft Teams-Panels](../devices/teams-panels.md) | Geändert |
-| 3/17/2021 | [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](../expand-teams-across-your-org/healthcare/teams-in-hc.md) | Geändert |
-| 3/17/2021 | [Microsoft Teams Admin Documentation # < 60 Zeichen](../index.yml) | Geändert |
-| 3/17/2021 | [Installieren von Moodle-Integration in Microsoft Teams](../install-moodle-integration.md) | Geändert |
-| 3/17/2021 | [Limits und Spezifikationen für Microsoft Teams](../limits-specifications-teams.md) | Geändert |
-| 3/17/2021 | [Lizenzen für Microsoft Teams-Räume](../rooms/rooms-licensing.md) | Geändert |
-| 3/17/2021 | [Microsoft Teams PSTN-Nutzungsbericht](../teams-analytics-and-reports/pstn-usage-report.md) | Geändert |
-| 3/17/2021 | [Verwalten der explorativen Microsoft Teams-Umgebung](../teams-exploratory.md) | Geändert |
-| 3/17/2021 | [Versionshinweise zu Microsoft Teams PowerShell](../teams-powershell-release-notes.md) | Geändert |
-| 3/17/2021 | [Testen oder Erwerben von Audiokonferenzen in Microsoft 365 für Teams](../try-or-purchase-audio-conferencing-in-office-365-for-teams.md) | Geändert |
-| 3/17/2021 | [Schreibgeschützte Besprechungserfahrung](../view-only-meeting-experience.md) | Geändert |
-| 3/18/2021 | [Installieren von Power BI Connector für die Verwendung von CQD-Abfragevorlagen](../cqd-power-bi-connector.md) | Geändert |
-| 3/18/2021 | [Interaktion von Exchange und Microsoft Teams](../exchange-teams-interact.md) | Geändert |
-| 3/18/2021 | [Ressourcen für Administrator-Schulung – Microsoft Teams](../itadmin-readiness.md) | Geändert |
-| 3/18/2021 | [Beantworten von automatischen Telefonkonferenz- und Anrufwarteschlangeanrufen](../answer-auto-attendant-and-call-queue-calls.md) | Geändert |
-| 3/18/2021 | [Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu](../app-permissions.md) | Geändert |
-| 3/18/2021 | [Verfügbarkeit von Ländern/Regionen – Audiokonferenzen, Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) | Geändert |
-| 3/18/2021 | [Bereitstellen von Microsoft Teams Rooms unter Android](../devices/collab-bar-deploy.md) | Geändert |
-| 3/18/2021 | [Verwalten und Filtern von Microsoft Teams-Gerätetags](../devices/manage-device-tags.md) | Geändert |
-| 3/18/2021 | [Geräte für Microsoft Teams](../devices/teams-ip-phones.md) | Geändert |
-| 3/18/2021 | [Microsoft Teams-Panels](../devices/teams-panels.md) | Geändert |
-| 3/18/2021 | [Verbinden Des Session Border Controllers (SBC) mit Direct Routing](../direct-routing-connect-the-sbc.md) | Geändert |
-| 3/18/2021 | [Exportieren von Inhalten mit den Microsoft Teams-Export-APIs](../export-teams-content.md) | Geändert |
-| 3/18/2021 | [Informationsbarrieren in Microsoft Teams](../information-barriers-in-teams.md) | Geändert |
-| 3/18/2021 | [Limits und Spezifikationen für Microsoft Teams](../limits-specifications-teams.md) | Geändert |
-| 3/18/2021 | [Verwalten von Besprechungsrichtlinien](../meeting-policies-in-teams.md) | Geändert |
-| 3/18/2021 | [Versionshinweise für Microsoft Teams](../release-notes/release-notes.md) | Geändert |
-| 3/18/2021 | [Verwalten von Microsoft Teams Rooms-Geräten mit Azure Monitor](../rooms/azure-monitor-manage.md) | Geändert |
-| 3/18/2021 | [Lizenzen für Microsoft Teams-Räume](../rooms/rooms-licensing.md) | Geändert |
-| 3/18/2021 | [Wartung und Betrieb von Microsoft Teams Rooms](../rooms/rooms-operations.md) | Geändert |
-| 3/18/2021 | [Vorbereiten Ihrer Umgebung](../rooms/rooms-prep.md) | Geändert |
-| 3/18/2021 | [Remoteverwaltung von Microsoft Teams Rooms-Geräteeinstellungen](../rooms/xml-config-file.md) | Geändert |
-| 3/18/2021 | [Vertraulichkeitsbezeichnungen für Microsoft Teams](../sensitivity-labels.md) | Geändert |
-| 3/18/2021 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](../support-remote-work-with-teams.md) | Geändert |
-| 3/18/2021 | [Microsoft Teams PSTN-Nutzungsbericht](../teams-analytics-and-reports/pstn-usage-report.md) | Geändert |
-| 3/18/2021 | [Installieren von Microsoft Teams PowerShell](../teams-powershell-install.md) | Geändert |
-| 3/18/2021 | [Versionshinweise zu Microsoft Teams PowerShell](../teams-powershell-release-notes.md) | Geändert |
-| 3/18/2021 | [Verwalten von Teams-Vorlagen im Admin Center](../templates-policies.md) | Geändert |
-| 3/18/2021 | [Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams](../using-admin-roles.md) | Geändert |
-| 3/18/2021 | [Teams für virtuelle Besuche](../expand-teams-across-your-org/healthcare/ehr-admin.md) | Geändert |
-| 3/18/2021 | [Schreibgeschützte Besprechungserfahrung](../view-only-meeting-experience.md) | Geändert |
-| 3/18/2021 | [Walkie Talkie-Anwendung in Microsoft Teams](../walkie-talkie.md) | Geändert |
-| 3/18/2021 | [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](../set-up-guests.md) | Geändert |
-| 3/18/2021 | [Plan für Live-Ereignisse in Microsoft Teams](../teams-live-events/plan-for-teams-live-events.md) | Geändert |
-| 3/19/2021 | [Verwalten von Besprechungsrichtlinien](../meeting-policies-in-teams.md) | Geändert |
-| 3/19/2021 | [Microsoft Teams-Panels](../devices/teams-panels.md) | Geändert |
-| 3/19/2021 | [Add-On-Lizenzen für Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) | Geändert |
-
-
-## <a name="week-of-february-15-2021"></a>Woche vom 15. Februar 2021
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 2/16/2021 | [Parken und Fortsetzen von Anrufen in Microsoft Teams](../call-park-and-retrieve.md) | Geändert |
-| 2/16/2021 | [Erstellen eines Teams mithilfe von Teams-Vorlagen für das Gesundheitswesen](../expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md) | Geändert |
-| 2/16/2021 | [Vorlagen für Organisationen im Gesundheitswesen](../expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md) | Geändert |
-| 2/16/2021 | [Interoperabilität zwischen Skype for Business und Microsoft Teams](../teams-and-skypeforbusiness-coexistence-and-interoperability.md) | Geändert |
-| 2/17/2021 | [Teams für Remotedesktop](/MicrosoftTeams/teams-for-rdp) | Hinzugefügt |
-| 2/17/2021 | [Verwenden von Teams mit Remotedesktopdiensten](../teams-on-rdp.md) | Hinzugefügt |
-| 2/17/2021 | [Verwenden des Add-Ins für Microsoft Teams-Besprechungen in Outlook](../teams-add-in-for-outlook.md) | Geändert |
-| 2/17/2021 | [Parken und Fortsetzen von Anrufen in Microsoft Teams](../call-park-and-retrieve.md) | Geändert |
-| 2/17/2021 | [Für direktes Routing zertifizierte Session Border Controller](../direct-routing-border-controllers.md) | Geändert |
-| 2/17/2021 | [Verbinden Des Session Border Controllers (SBC) mit Direct Routing](../direct-routing-connect-the-sbc.md) | Geändert |
-| 2/17/2021 | [Direktes Routing für Telefonsysteme](../direct-routing-protocols-sip.md) | Geändert |
-| 2/17/2021 | Vorlagen für Organisationen im Gesundheitswesen | Entfernt |
-| 2/17/2021 | [Verhalten von Teams-Apps für Nicht-Standardbenutzer](../non-standard-users.md) | Geändert |
-| 2/17/2021 | [Plan für Live-Ereignisse in Microsoft Teams](../teams-live-events/plan-for-teams-live-events.md) | Geändert |
-| 2/17/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](../tmr-meeting-recording-change.md) | Geändert |
-| 2/17/2021 | Teams für Remotedesktop | Entfernt |
-| 2/17/2021 | [Installieren, Verwalten und Zuweisen von Berechtigungen für die Teams Learning-App (private Vorschau)](../teams-learning-app-overview.md) | Geändert |
+| 3/15/2021 | [Überwachung und Benachrichtigung von Microsoft Teams-Geräten](/MicrosoftTeams/alerts/device-health-status) | Hinzugefügt |
+| 3/15/2021 | [Überwachung und Benachrichtigung von Microsoft Teams](/MicrosoftTeams/alerts/teams-admin-alerts) | Hinzugefügt |
+| 3/15/2021 | [Implementieren Ihres Wechsels zu Microsoft Teams](/MicrosoftTeams/implement-your-move) | Hinzugefügt |
+| 3/15/2021 | [Teams- und Outlook-E-Mail-Integration](/MicrosoftTeams/teams-outlook-email-integration) | Geändert |
+| 3/15/2021 | [Freigeben für Teams](/MicrosoftTeams/teams-outlook-share-teams) | Hinzugefügt |
+| 3/16/2021 | [Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | Geändert |
+| 3/16/2021 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
+| 3/16/2021 | [Direktes Routing für Telefonsysteme](/MicrosoftTeams/direct-routing-protocols-sip) | Geändert |
+| 3/16/2021 | [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Geändert |
+| 3/16/2021 | [Übersicht über Sicherheit und Compliance](/MicrosoftTeams/security-compliance-overview) | Geändert |
+| 3/17/2021 | [Verfügbarkeit nach Land und Region für Business Voice](/MicrosoftTeams/business-voice/country-region-availability) | Geändert |
+| 3/17/2021 | [Exportieren von Inhalten mit den Microsoft Teams-Export-APIs](/MicrosoftTeams/export-teams-content) | Geändert |
+| 3/17/2021 | [Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | Geändert |
+| 3/17/2021 | [Add-On-Lizenzen für Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Geändert |
+| 3/17/2021 | [Microsoft Teams-Panels](/MicrosoftTeams/devices/teams-panels) | Geändert |
+| 3/17/2021 | [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Geändert |
+| 3/17/2021 | [Microsoft Teams Admin Documentation # < 60 Zeichen](/MicrosoftTeams/index) | Geändert |
+| 3/17/2021 | [Installieren von Moodle-Integration in Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | Geändert |
+| 3/17/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 3/17/2021 | [Lizenzen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/rooms-licensing) | Geändert |
+| 3/17/2021 | [Microsoft Teams PSTN-Nutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Geändert |
+| 3/17/2021 | [Verwalten der explorativen Microsoft Teams-Umgebung](/MicrosoftTeams/teams-exploratory) | Geändert |
+| 3/17/2021 | [Versionshinweise zu Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 3/17/2021 | [Testen oder Erwerben von Audiokonferenzen in Microsoft 365 für Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | Geändert |
+| 3/17/2021 | [Schreibgeschützte Besprechungserfahrung](/MicrosoftTeams/view-only-meeting-experience) | Geändert |
+| 3/18/2021 | [Installieren von Power BI Connector für die Verwendung von CQD-Abfragevorlagen](/MicrosoftTeams/cqd-power-bi-connector) | Geändert |
+| 3/18/2021 | [Interaktion von Exchange und Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | Geändert |
+| 3/18/2021 | [Ressourcen für Administrator-Schulung – Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
+| 3/18/2021 | [Beantworten von automatischen Telefonkonferenz- und Anrufwarteschlangeanrufen](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | Geändert |
+| 3/18/2021 | [Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu](/MicrosoftTeams/app-permissions) | Geändert |
+| 3/18/2021 | [Verfügbarkeit von Ländern/Regionen – Audiokonferenzen, Anrufpläne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Geändert |
+| 3/18/2021 | [Bereitstellen von Microsoft Teams Rooms unter Android](/MicrosoftTeams/devices/collab-bar-deploy) | Geändert |
+| 3/18/2021 | [Verwalten und Filtern von Microsoft Teams-Gerätetags](/MicrosoftTeams/devices/manage-device-tags) | Geändert |
+| 3/18/2021 | [Geräte für Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
+| 3/18/2021 | [Microsoft Teams-Panels](/MicrosoftTeams/devices/teams-panels) | Geändert |
+| 3/18/2021 | [Verbinden Des Session Border Controllers (SBC) mit Direct Routing](/MicrosoftTeams/direct-routing-connect-the-sbc) | Geändert |
+| 3/18/2021 | [Exportieren von Inhalten mit den Microsoft Teams-Export-APIs](/MicrosoftTeams/export-teams-content) | Geändert |
+| 3/18/2021 | [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Geändert |
+| 3/18/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 3/18/2021 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 3/18/2021 | [Versionshinweise für Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
+| 3/18/2021 | [Verwalten von Microsoft Teams Rooms-Geräten mit Azure Monitor](/MicrosoftTeams/rooms/azure-monitor-manage) | Geändert |
+| 3/18/2021 | [Lizenzen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/rooms-licensing) | Geändert |
+| 3/18/2021 | [Wartung und Betrieb von Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-operations) | Geändert |
+| 3/18/2021 | [Vorbereiten Ihrer Umgebung](/MicrosoftTeams/rooms/rooms-prep) | Geändert |
+| 3/18/2021 | [Remoteverwaltung von Microsoft Teams Rooms-Geräteeinstellungen](/MicrosoftTeams/rooms/xml-config-file) | Geändert |
+| 3/18/2021 | [Vertraulichkeitsbezeichnungen für Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Geändert |
+| 3/18/2021 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Geändert |
+| 3/18/2021 | [Microsoft Teams PSTN-Nutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | Geändert |
+| 3/18/2021 | [Installieren von Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | Geändert |
+| 3/18/2021 | [Versionshinweise zu Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 3/18/2021 | [Verwalten von Teams-Vorlagen im Admin Center](/MicrosoftTeams/templates-policies) | Geändert |
+| 3/18/2021 | [Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams](/MicrosoftTeams/using-admin-roles) | Geändert |
+| 3/18/2021 | [Teams für virtuelle Besuche](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Geändert |
+| 3/18/2021 | [Schreibgeschützte Besprechungserfahrung](/MicrosoftTeams/view-only-meeting-experience) | Geändert |
+| 3/18/2021 | [Walkie Talkie-Anwendung in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Geändert |
+| 3/18/2021 | [Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](/MicrosoftTeams/set-up-guests) | Geändert |
+| 3/18/2021 | [Plan für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Geändert |
+| 3/19/2021 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 3/19/2021 | [Microsoft Teams-Panels](/MicrosoftTeams/devices/teams-panels) | Geändert |
+| 3/19/2021 | [Add-On-Lizenzen für Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Geändert |

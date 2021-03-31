@@ -17,15 +17,14 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d0418d3893d026aa34bfb27540d73148520e5a56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120596"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450622"
 ---
-<a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
-======================================================
+# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
 Als Administrator können Sie auf der Seite Apps verwalten im Microsoft Teams Admin Center alle Teams-Apps für Ihre Organisation anzeigen und verwalten. Hier können Sie den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf Organisationsebene blockieren oder zulassen, Apps zu Teams hinzufügen, Dienste für Drittanbieter-Apps erwerben, von Apps angeforderte Berechtigungen anzeigen, Apps administratorweite Zustimmung erteilen und organisationsweite App-Einstellungen verwalten.
 
@@ -150,6 +149,10 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer A
 
 3. Deaktivieren **oder aktivieren** Sie unter Benutzerdefinierte Apps die Interaktion mit **benutzerdefinierten Apps zulassen.** Diese Einstellung steuert, ob Benutzer mit benutzerdefinierten Apps interagieren können. Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md).
 4. Klicken Sie auf **Speichern**, damit die organisationsweiten App-Einstellungen wirksam werden.
+
+## <a name="customize-an-app-in-preview"></a>Anpassen einer App (in der Vorschau)
+
+Sie können jetzt eine App anpassen, um ein bestimmtes Erscheinungsbild entsprechend den Anforderungen Ihrer Organisation zu erhalten. [Anpassen von Apps in Teams](customize-apps.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

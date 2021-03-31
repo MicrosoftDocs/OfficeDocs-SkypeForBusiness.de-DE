@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4614bc88ba65803ea5a8696af9e55a104912855
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 20ac1e6c120e1602a39e61d00798f8a796975603
+ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101301"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51450612"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Einrichten von Microsoft Teams in Ihrem Unternehmen
 
@@ -78,7 +78,7 @@ Chats, Teams und Kanäle sind die Säulen von Teams. Der **Chat** ermöglicht es
 
 | Entscheidung | Beschreibung |
 |--|--|
-| Sollte der externe Zugriff aktiviert sein? | Über den externen Zugriff kann jeder in einer anderen Organisation mit Personen in Ihrer Organisation sprechen. Dies ist nützlich, wenn Sie in enger Beziehung zu einer anderen Organisation, z. B. einem Lieferanten, stehen und es den Personen in einer Organisation ermöglichen möchten, miteinander zu chatten, Besprechungen zu halten und so weiter. <p>Der externe Zugriff ist anders als der Gastzugriff. Über den externen Zugriff erhält jeder in einer anderen Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen.<p>Der externe Zugriff ist standardmäßig **Aus**.<p>[Verwaltung des externen Zugriffs in Microsoft Teams](manage-external-access.md)  |
+| Sollte der externe Zugriff aktiviert sein? | Über den externen Zugriff kann jeder in einer anderen Organisation mit Personen in Ihrer Organisation sprechen. Dies ist nützlich, wenn Sie in enger Beziehung zu einer anderen Organisation, z. B. einem Lieferanten, stehen und es den Personen in einer Organisation ermöglichen möchten, miteinander zu chatten, Besprechungen zu halten und so weiter. <p>Der externe Zugriff ist anders als der Gastzugriff. Über den externen Zugriff erhält jeder in einer Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen.<p>Der externe Zugriff ist standardmäßig **Aus**.<p>[Verwaltung des externen Zugriffs in Microsoft Teams](manage-external-access.md)  |
 | Sollte der Gastzugriff aktiviert sein? |Mithilfe eines Gastzugriffs können Personen in Ihrer Organisation Personen außerhalb Ihrer Organisation dazu einladen, auf Ihr Teams und Ihre Kanäle zuzugreifen. Der Gastzugriff wird häufig verwendet, um mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, die keine formelle Beziehung mit Ihrer Organisation haben. So könnten Sie beispielsweise einen Projektplaner vorübergehend zur Arbeit an einem Projekt einladen.<p>Der Gastzugriff ist anders als der externe Zugriff. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen. Über den externen Zugriff erhält jeder in einer anderen Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. <p>Der Gastzugriff ist standardmäßig **Aus**. <p>[Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Besprechungen und Audiokonferenzen](#tab/MeetingsAudioConferencing)
