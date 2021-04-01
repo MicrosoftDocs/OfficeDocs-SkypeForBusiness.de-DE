@@ -1207,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: Ausführen des Assistenten für erste Schritte.
         href: business-voice/use-getting-started-wizard.md
-      - name: 'Dinge, die Sie ausprobieren können'
-        href: business-voice/things-to-try.md
       - name: Anpassen des Setups
         items:
           - name: Anpassungsoptionen
