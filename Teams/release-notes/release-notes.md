@@ -16,16 +16,51 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Versionshinweise zu Microsoft Teams-Administratorfeatures.
-ms.openlocfilehash: 4c7219e3850eeeb2f502431db222f531d6166c56
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
+ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117663"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51487229"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Versionshinweise für Microsoft Teams-Administratorfeatures
 
 Diese Versionshinweise enthalten Informationen zu neuen Administratorfeatures für Microsoft Teams.
+
+## <a name="march-31-2021"></a>31. März 2021
+
+### <a name="share-to-teams-from-outlook"></a>Freigeben in Teams aus Outlook
+
+Wenn Sie in Outlook für Teams freigeben, können Sie eine Kopie von E-Mail-Nachrichten oder Unterhaltungen, einschließlich Anlagen, in Teams-Chats und -Kanäle senden. Suchen Sie **die Option Für Teams** freigeben im Menüband von Outlook oder im Aktionsmenü für eine E-Mail. Für Teams freigeben unterstützt Outlook im Web, Outlook für Windows und das neue Outlook für Mac Preview. [Weitere Informationen](../teams-outlook-share-teams.md).
+
+## <a name="march-30-2021"></a>30. März 2021
+
+### <a name="customize-apps-in-teams-preview"></a>Anpassen von Apps in Teams (Vorschau)
+
+Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung von Teams zu verbessern. Einige App-Entwickler lassen zu, dass eine App vom Teams-Administrator angepasst wird. Der Administrator kann die App-Eigenschaften basierend auf den organisationsbezogenen Anforderungen über die Seite "Apps verwalten" des Teams Admin Center anpassen oder neubranden. [Weitere Informationen](../customize-apps.md).
+
+## <a name="march-24-2021"></a>24. März 2021
+
+### <a name="enable-live-transcripts-in-teams"></a>Aktivieren von Live transcripts in Teams
+
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während einer Besprechung angewendet wird. Über diese Einstellung wird gesteuert, ob die Option zum Aktivieren von Liveuntertiteln verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können. [Weitere Informationen](../meeting-policies-in-teams.md#enable-live-captions).
+
+## <a name="march-23-2021"></a>23. März 2021
+
+### <a name="supervised-chats"></a>Überwachte Chats
+
+Überwachter Chat ermöglicht es designierten Lehrkräften, Chats mit Kursteilnehmern zu initiieren und schüler/studenten am Starten neuer Chats zu sperren, es sei denn, ein geeigneter Lehrer ist anwesend. Wenn die Chatüberwachung aktiviert ist, dürfen Vorgesetzte keine Chats verlassen, und andere Teilnehmer dürfen sie nicht entfernen, um sicherzustellen, dass Chats, an denen Schüler/Studenten beteiligt sind, ordnungsgemäß überwacht werden.
+[Weitere Informationen](../supervise-chats-edu.md).
+
+### <a name="masking-phone-numbers"></a>Maskieren von Telefonnummern
+
+Wir haben eine neue Administratoreinstellung zum Maskieren von Telefonnummern für Einwahlteilnehmer veröffentlicht, wenn sie an einer Besprechung teilnehmen. Administratoren können telefonnummern von allen Personen in der Besprechung (mit Ausnahme des Organisators), nur von externen Personen maskieren oder die Maskierung deaktiviert haben. Wenn die Administratoren diese Einstellung deaktivieren möchten, werden die Telefonnummern in der Besprechung vollständig angezeigt. [Weitere Informationen](../ptsn-mask-phone-numbers.md).
+
+## <a name="march-1-2021"></a>1. März 2021
+
+### <a name="additional-golocal-support-in-teams-live-events"></a>Zusätzlicher GoLocal-Support in Liveereignissen in Teams
+
+Unterstützung für Südafrika, Südkorea, die Schweiz, Frankreich, Deutschland und Brasilien wurde zu Liveereignissen hinzugefügt. [Weitere Informationen](../teams-live-events/plan-for-teams-live-events.md#regional-availability)
 
 ## <a name="february-22-2021"></a>22. Februar 2021
 

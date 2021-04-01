@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefon attendants für Microsoft 365 Business Voice einrichten und testen.
-ms.openlocfilehash: fef89971ad99dff15332905d6f9b98a343af6ffd
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439720"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478375"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Einrichten einer automatischen Attendant – Lernprogramm für kleine Unternehmen
 
@@ -93,7 +93,7 @@ Wenn sie über eine Telefonnummer erreichbar sein soll, weisen Sie diese Nummer 
 4. Klicken Sie auf **Speichern**.
 
 > [!div class="nextstepaction"]
-> [Schritt 2 : Allgemeine Informationen zur automatischen >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
+> [Schritt 2 : Allgemeine Informationen zur automatischen >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[Allgemeine Informationen zur <br> Teilnehmerwarte in Schritt 2](#tab/general-info)
 
@@ -116,7 +116,7 @@ So richten Sie eine automatische Attendant ein
 7. Klicken Sie auf **Weiter**.
 
 > [!div class="nextstepaction"]
-> [Schritt 3 – Anruffluss >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
+> [Schritt 3 – Anruffluss >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[Schritt 3 <br> Anruffluss](#tab/call-flow)
 
@@ -169,7 +169,7 @@ Wählen Sie Ihre Anrufflussoptionen aus.
 5. Nachdem Sie eine Option für die **Verzeichnissuche ausgewählt haben,** klicken Sie auf **Weiter**.
 
 > [!div class="nextstepaction"]
-> [Schritt 4 – Anruffluss nach Stunden >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+> [Schritt 4 – Anruffluss nach Stunden >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[Schritt 4 <br> Nach Stunden](#tab/after-hours)
 
@@ -186,7 +186,7 @@ Nachdem Sie Ihre Geschäftszeiten angegeben haben, wählen Sie ihre Anrufrouting
 Klicken **Sie auf** Weiter, wenn Sie fertig sind.
 
 > [!div class="nextstepaction"]
-> [Schritt 5 – Feiertags-Anruffluss >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
+> [Schritt 5 – Feiertags-Anruffluss >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[Schritt 5 <br> Feiertage](#tab/holidays)
 
@@ -221,7 +221,7 @@ Wiederholen Sie den Vorgang bei Bedarf für jeden weiteren Feiertag.
 Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **Weiter**.
 
 > [!div class="nextstepaction"]
-> [Schritt 6 : Wählen Sie aus, wer sich im Verzeichnisverzeichnis >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [Schritt 6 : Wählen Sie aus, wer sich im Verzeichnisverzeichnis >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Schritt 6 <br> Verzeichnismitglieder](#tab/dial-scope)
 
@@ -237,7 +237,7 @@ Sie können bestimmte Benutzer ein- oder  ausschließen,  indem Sie unter Ein- o
 Wenn Sie mit dem Festlegen des Wählbereichs fertig sind, klicken Sie auf **Weiter**.
 
 > [!div class="nextstepaction"]
-> [Schritt 7 : Zuweisen eines Ressourcenkontos >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
+> [Schritt 7 : Zuweisen eines Ressourcenkontos >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
 # <a name="step-7brresource-accounts"></a>[Schritt 7 <br> Ressourcenkonten](#tab/resource-accounts)
 

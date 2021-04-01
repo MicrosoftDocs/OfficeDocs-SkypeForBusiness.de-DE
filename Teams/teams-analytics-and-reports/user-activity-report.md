@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie den Bericht "Teams-Benutzeraktivität" im Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5f01d71a119116268c5d03850e5e1d26a54ae8dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9122289d0765dbdded98727d2ed06912d0348f64
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116853"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478335"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams – Benutzeraktivitätsbericht
 
@@ -52,6 +52,16 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 |**9**   |Exportieren Sie den Bericht zur Offlineanalyse in eine CSV-Datei. Wählen **Sie Nach Excel exportieren** aus, und wählen Sie dann auf der Registerkarte **Downloads** die Option **Herunterladen** aus, um den Bericht herunterzuladen, wenn er fertig ist.<br><br>![Screenshot der Registerkarte Downloads mit exportierten Berichten zum Herunterladen](../media/teams-reports-export-to-csv.png) <br>Wenn Sie den Bericht in Excel anzeigen,  wird auch eine ID-Spalte angezeigt, die die Benutzer-ID darstellt. Eine Benutzer-ID ist in der Regel eine alphanumerische Zeichenfolge. ||
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## <a name="make-the-user-specific-data-anonymous"></a>Anonymisierter Benutzerdaten
+
+Um die Daten in Teams-Benutzeraktivitätsberichten anonym zu machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail und AAD-ID im Bericht und deren Export ausgeblendet.
+
+1. Wechseln Sie im Microsoft 365  Admin Center zu Einstellungen für Organisationseinstellungen, und wählen Sie auf der Registerkarte Dienste \> die Option **Berichte aus.** 
+    
+2. Wählen **Sie Berichte** und dann anonyme **Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Nutzungsberichte im Microsoft 365 Admin Center als auch auf das Teams Admin Center angewendet.
+  
+3. Wählen **Sie Änderungen speichern aus.**
 
 ## <a name="related-topics"></a>Verwandte Themen
 
