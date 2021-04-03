@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Versionshinweise zu Microsoft Teams-Administratorfeatures.
-ms.openlocfilehash: e36c11ad79c2061f4a94db3af5c21e7f2be4a3d2
-ms.sourcegitcommit: 31387f7b34270672789cc4dc1d7b2275840b91f5
+ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
+ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51487229"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495747"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Versionshinweise für Microsoft Teams-Administratorfeatures
 
@@ -55,6 +55,10 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während ein
 ### <a name="masking-phone-numbers"></a>Maskieren von Telefonnummern
 
 Wir haben eine neue Administratoreinstellung zum Maskieren von Telefonnummern für Einwahlteilnehmer veröffentlicht, wenn sie an einer Besprechung teilnehmen. Administratoren können telefonnummern von allen Personen in der Besprechung (mit Ausnahme des Organisators), nur von externen Personen maskieren oder die Maskierung deaktiviert haben. Wenn die Administratoren diese Einstellung deaktivieren möchten, werden die Telefonnummern in der Besprechung vollständig angezeigt. [Weitere Informationen](../ptsn-mask-phone-numbers.md).
+
+### <a name="create-a-phone-system-auto-attendant"></a>Erstellen einer automatischen Telefonanlage
+
+Mithilfe von automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, Anrufwarteschlange, Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen. [Weitere Informationen](../create-a-phone-system-auto-attendant.md).
 
 ## <a name="march-1-2021"></a>1. März 2021
 
