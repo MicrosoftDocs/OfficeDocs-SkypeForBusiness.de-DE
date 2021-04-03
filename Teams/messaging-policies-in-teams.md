@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
-description: Erfahren Sie mehr über die Nachrichtenrichtlinien, und wie Sie diese zur Steuerung der Chat-Nachrichten in Teams nutzen können.
-ms.openlocfilehash: f760fdf196bdeecf14e432445e619c968f66c081
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
+ms.openlocfilehash: 800bc37ee25c073d0702c519196620faa1faf92e
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096119"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574164"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "51096119"
 
 Nachrichtenrichtlinien werden genutzt, um zu steuern, welche Chat- und Nachrichtenkanalfunktionen den [Benutzern (Besitzern und Mitgliedern)](assign-roles-permissions.md) in Microsoft Teams zur Verfügung stehen. Sie können die globale (standardmäßig organisationsweit geltende) Richtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese gezielt zuweisen.
 
-Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und zuweisen, um bestimmte Features ein- und auszustellen.
+Benutzer in Ihrer Organisation erhalten automatisch die globale Richtlinie, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Bearbeiten Sie die Einstellungen in der globalen Richtlinie, oder erstellen Und weisen Sie eine oder mehrere benutzerdefinierte Richtlinien zu, um die features zu aktivieren oder zu deaktivieren, die Sie wünschen.
 
 ## <a name="create-a-custom-messaging-policy"></a>Erstellen einer benutzerdefinierten Nachrichtenrichtlinie
 
@@ -43,7 +43,7 @@ Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benu
 4. Wählen Sie die gewünschten Einstellungen aus.
 5. Klicken Sie auf **Speichern**.
 
-Angenommen, Sie möchten sicherstellen, dass gesendete Nachrichten nicht gelöscht oder geändert werden können. Erstellen Sie dann eine neue benutzerdefinierte Richtlinie namens „Gesendete Nachrichten aufbewahren“ und deaktivieren Sie die folgenden Einstellungen:
+Sie möchten beispielsweise sicherstellen, dass gesendete Nachrichten nicht gelöscht oder geändert werden. Erstellen Sie dann eine neue benutzerdefinierte Richtlinie namens „Gesendete Nachrichten aufbewahren“ und deaktivieren Sie die folgenden Einstellungen:
 
 - Besitzer können gesendete Nachrichten löschen
 - Benutzer können gesendete Nachrichten löschen
@@ -53,10 +53,10 @@ Weisen Sie dann die Richtlinie den Benutzern zu.
 
 ## <a name="edit-a-messaging-policy"></a>Bearbeiten einer Nachrichtenrichtlinie
 
-Sie können die globale Standardrichtlinie oder eine von Ihnen erstellte benutzerdefinierte Richtlinie jederzeit bearbeiten. 
+Sie können die globale Standardrichtlinie oder eine von Ihnen erstellte benutzerdefinierte Richtlinie jederzeit bearbeiten.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Nachrichtenrichtlinien**.
-2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
+2. Wählen Sie die Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken, und wählen Sie dann **Bearbeiten** aus.
 3. Nehmen Sie nun die gewünschten Änderungen vor.
 4. Klicken Sie auf **Speichern**.
 
@@ -78,25 +78,25 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **Besitzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Besitzer Nachrichten löschen können, die von Benutzern im Chat gesendet wurden.
 - **Benutzer können gesendete Nachrichten löschen**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten löschen können, die sie im Chat gesendet haben.
 - **Benutzer können gesendete Nachrichten bearbeiten**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten bearbeiten können, die sie im Chat gesendet haben.
-- **Lesebestätigungen**: Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn die Nachricht vom Empfänger in 1:1-Chats und Gruppenchats mit höchstens 20 Personen gelesen wurde. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team. Beachten Sie, dass in eDiscovery-Berichten keine Lesebestätigungen erfasst werden.  
+- **Lesebestätigungen** Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn seine Nachricht vom Empfänger in 1:1 gelesen wurde, und gruppenchatt 20 Personen oder weniger. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team. Lesebestätigungen werden in der eDiscovery-Berichterstellung nicht erfasst.  
     - **Benutzergesteuert**: Das bedeutet, dass Benutzer entscheiden können, ob Sie die Funktion „Lesebestätigungen“ aktivieren oder deaktivieren möchten. Die Standardeinstellung in der App ist „aktiviert“. Benutzer können Sie dann auf „deaktiviert“ ändern.
-    - **Für alle aktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten aktiviert ist und nicht deaktiviert werden kann. Achten Sie darauf, dass bei Verwendung der Einstellung **Für alle aktiviert** die einzige Möglichkeit zum Festlegen von Bestätigungen für den gesamten Mandanten darin besteht, nur eine Nachrichtenrichtlinie für den gesamten Mandanten zu nutzen (die Standardrichtlinie namens "Global (organisationsweiter Standard)) oder alle Nachrichtenrichtlinien im Mandanten dieselben Einstellungen für Bestätigungen verwenden zu lassen. Das Feature „Lesebestätigungen“ ist am effektivsten, wenn das Feature **für alle aktiviert** ist.
+    - **Für alle aktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten aktiviert ist und nicht deaktiviert werden kann. Wenn Sie die Einstellung **Ein** für jeden verwenden, besteht die einzige Möglichkeit zum Festlegen von Quittungen für den gesamten Mandanten entweder in der Verwendung einer einzigen Nachrichtenrichtlinie für den gesamten Mandanten (die Standardrichtlinie mit dem Namen "Global (Organisationsweite Standard)") oder wenn alle Messagingrichtlinien im Mandanten dieselben Einstellungen für Quittungen verwenden. Das Feature „Lesebestätigungen“ ist am effektivsten, wenn das Feature **für alle aktiviert** ist.
     - **Für alle deaktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten deaktiviert ist und dass niemand im Mandanten Lesebestätigungen erhält. Auch kann das Feature nicht aktiviert werden.
 <a name="bkchat"> </a>
 
 - **Chat**: Aktivieren Sie diese Einstellung, wenn Sie möchten, dass die Benutzer in Ihrer Organisation mithilfe der Teams-App mit anderen Personen chatten können.
-- **Giphys in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Giphys in Chats mit anderen Personen verwenden. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen. Beachten Sie bitte, dass Sie zusätzlich zum Aktivieren dieser Einstellung auch [Optional Connected Experiences](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) aktivieren müssen, damit Sie in Unterhaltungen Giphys hinzufügen können.
-- **Giphy-Inhaltsklassifikation**
+- **Verwenden von Giphys in Unterhaltungen**  Wenn Sie Giphys aktivieren, können Benutzer Giphys in Chatunterhaltungen mit anderen Personen einmischen. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen. Zusätzlich zum Aktivieren dieser Einstellung müssen Sie optionale verbundene Benutzererfahrungen aktivieren, [um](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) Giphys in Unterhaltungen zu ermöglichen.
+- **Bewertung von Inhalten von "Zigeuner"**
     - **Keine Einschränkung**: Das bedeutet, dass Ihre Benutzer beliebige Giphys in Chats einfügen können – unabhängig von ihrer Inhaltsbewertung.
     - **Moderat**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber moderat eingeschränkt wird.
     - **Streng**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber streng eingeschränkt wird.
-- **Memes in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Memes in Chats mit anderen Personen verwenden.
-- **Sticker in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Sticker in Chats mit anderen Personen verwenden.
+- **Verwenden von Memes in Unterhaltungen** Wenn Sie Memes aktivieren, können Benutzer Memes in Chatunterhaltungen mit anderen Personen einmischen.
+- **Verwenden Sie Aufkleber in Unterhaltungen. Wenn Sie dies aktivieren, können Benutzer Aufkleber in Chatunterhaltungen mit anderen Personen hinzufügen.
 - **URL-Vorschau zulassen**: Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten zu aktivieren bzw. zu deaktivieren.
 - **Übersetzung von Nachrichten durch Benutzer zulassen**: Wenn diese Funktion aktiviert ist, können Benutzer Microsoft Teams-Nachrichten automatisch in die Sprache übersetzen lassen, die in ihren persönlichen Spracheinstellungen für Microsoft 365 oder Office 365 festgelegt ist.
 - **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.
-- **Senden von Prioritätsbenachrichtigungen**: Wenn Sie diese Funktion aktivieren, können Benutzer Nachrichten über [Prioritätsbenachrichtigungen senden](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Prioritätsbenachrichtigungen informieren Benutzer alle 2 Minuten innerhalb eines Zeitraums von 20 Minuten, oder bis Nachrichten, die als *dringend* markiert wurden, vom Benutzer aufgerufen und gelesen wurden, um eine möglichst zeitnahe Bearbeitung zu ermöglichen.
-- **Aufnahme von Sprachnachrichten** 
+- **Senden von Prioritätsbenachrichtigungen**: Wenn Sie diese Funktion aktivieren, können Benutzer Nachrichten über [Prioritätsbenachrichtigungen senden](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Prioritätsbenachrichtigungen benachrichtigen Benutzer alle 2 Minuten für 20 Minuten oder bis Nachrichten, die als dringend gekennzeichnet sind, vom Empfänger aufgenommen und gelesen werden.  Dieses Feature erhöht die Wahrscheinlichkeit, dass die Nachricht rechtzeitig reagiert wird.
+- **Aufnahme von Sprachnachrichten**
   > [!Important]
   > Sprachnachrichten werden in eDiscovery-Berichten nicht erfasst.
     - **In Chats und Kanälen zugelassen**: Das bedeutet, dass Benutzer sowohl in Chats als auch in Kanälen Sprachnachrichten hinterlassen können.
@@ -105,11 +105,12 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen**: Aktivieren Sie diese Einstellung, um die bevorzugten Kanäle an den oberen Rand des Bildschirms für mobile Geräte zu verschieben, damit ein Benutzer nicht scrollen muss, um Sie zu finden.
 - **Einem Benutzer das Entfernen von Benutzern aus einem Gruppenchat gestatten**: Aktivieren Sie diese Einstellung, damit ein Benutzer andere Benutzer aus einem Gruppenchat entfernen kann. Mithilfe dieses Features können Sie mit einer kleineren Gruppe von Personen chatten, ohne den Chatverlauf zu verlieren.
 - **Aktivieren Sie vorgeschlagene Antworten**  Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren.
+- **Chatberechtigungsrolle** Verwenden Sie diese Einstellung, um die Überwachte Chatrolle des Benutzers zu definieren.  Erfahren Sie mehr über [überwachte Chats.](supervise-chats-edu.md)
 
 > [!NOTE]
 > Einige dieser Einstellungen, z. B. die Verwendung von Giphys, können auch auf Teamebene von Teambesitzern und auf privater Kanalebene von den Besitzern dieser privaten Kanäle konfiguriert werden.
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-- [Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+- [Zuweisen von Richtlinien zu Benutzern und Gruppen in Teams](assign-policies-users-and-groups.md)
 - [Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams](assign-roles-permissions.md)

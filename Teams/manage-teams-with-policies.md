@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101101"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574184"
 ---
 # <a name="manage-teams-with-policies"></a>Verwalten von Teams mit Richtlinien
 
@@ -36,7 +36,7 @@ Richtlinien können auf verschiedene Arten zugewiesen werden, je nachdem, was Ih
 
 ![Screenshot der Gruppenrichtlinienzuordnung.](media/group-policy-assignment.png)
 
-Weitere Informationen zum Zuweisen von Richtlinien finden Sie [hier.](assign-policies.md)
+Weitere Informationen zum Zuweisen von Richtlinien finden Sie [hier.](policy-assignment-overview.md)
 
 ## <a name="how-to-manage-policies"></a>Verwalten von Richtlinien
 
@@ -70,8 +70,8 @@ Richtlinientyp | Beschreibung
 
 ## <a name="related-topics"></a>Verwandte Themen
 
+* [Zuweisen von Richtlinien in Teams – erste Schritte](policy-assignment-overview.md)
 * [Verwalten von Feedbackrichtlinien in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Verwalten von Teamrichtlinien in Microsoft Teams](teams-policies.md)
-* [Anzeigen von Richtlinienzuordnungen im Aktivitätsprotokoll](activity-log.md)
 * [Einrichten von Live-Ereignissen in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Richtlinien und Richtlinienpakete für Teams für Bildungseinrichtungen](policy-packages-edu.md)

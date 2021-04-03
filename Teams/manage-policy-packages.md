@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um Richtlinien für Benutzergruppen zu vereinfachen, zu rationalisieren und für Konsistenz zu sorgen.
-ms.openlocfilehash: 5713274270a7784379eb47c6dd1fa875b41e20b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 125c89505727e4fd4e6c18419b32dc1b99dfb67b
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162696"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51583111"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinienpaketen in Microsoft Teams
 
@@ -130,7 +130,7 @@ Sie können die Einstellungen einer  Richtlinie über die Seite Richtlinienpaket
 2. Wählen Sie die Richtlinie aus, die Sie bearbeiten möchten. Richtlinien, die mit einem Richtlinienpaket verknüpft sind, haben denselben Namen wie das Richtlinienpaket.
 3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
 
-### <a name="assign-a-policy-package"></a>Zuweisen eines Richtlinienpakets 
+### <a name="assign-a-policy-package"></a>Zuweisen eines Richtlinienpakets
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Zuweisen eines Richtlinienpakets zu einem Benutzer
 
@@ -165,7 +165,7 @@ Dies kann auftreten, wenn eine oder mehrere Richtlinien im Paket nicht erstellt 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+[Zuweisen von Richtlinienpaketen](assign-policy-packages.md)
 
 [Teams-Richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
 

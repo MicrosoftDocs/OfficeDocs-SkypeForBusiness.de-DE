@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a596f2755434e7074c4a925f5c7c1dd8b1efbcaf
-ms.sourcegitcommit: fdada65628b31e4c267c87f0100e9f046b878c12
+ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831020"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506735"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
@@ -93,11 +93,15 @@ So beginnen Sie:
 
 **Problem:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthält, werden möglicherweise leere Registerkarten statt ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. **B. Beiträge,** **Dateien** und **Wiki)** werden wie erwartet angezeigt.
 
-**Lösung:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthält, werden möglicherweise leere Registerkarten statt ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. B. Beiträge, Dateien und Wiki) werden wie erwartet angezeigt.
-
-Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigungen zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, wenden Sie sich an den Teambesitzer, um Unterstützung zu erhalten.
+**Lösung:** Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigungen zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, wenden Sie sich an den Teambesitzer, um Unterstützung zu erhalten.
 
 Wir arbeiten derzeit an einem Fix für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
+
+**Problem:** Bei verwendung von Teams im Browser werden einige Websites nicht unterstützt, wenn sie auf einer Registerkarte "Teams" gerendert werden.
+
+![Browserfehlermeldung](media/browser-error-message.png)
+
+**Lösung:** Wenn Sie Probleme beim Anzeigen des Inhalts der Registerkarte Website haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Stattdessen Teams in der Desktop-App, um Ihre Websiteregister-App anzuzeigen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Versionshinweise zu Microsoft Teams-Administratorfeatures.
-ms.openlocfilehash: db6961e0f625c5f030c71e0a38a81d281523b8f4
-ms.sourcegitcommit: e511748ede1c0410d1ba1ea8342f4afcbe1c61c7
+ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495747"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574094"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Versionshinweise für Microsoft Teams-Administratorfeatures
 
@@ -38,6 +38,12 @@ Wenn Sie in Outlook für Teams freigeben, können Sie eine Kopie von E-Mail-Nach
 ### <a name="customize-apps-in-teams-preview"></a>Anpassen von Apps in Teams (Vorschau)
 
 Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung von Teams zu verbessern. Einige App-Entwickler lassen zu, dass eine App vom Teams-Administrator angepasst wird. Der Administrator kann die App-Eigenschaften basierend auf den organisationsbezogenen Anforderungen über die Seite "Apps verwalten" des Teams Admin Center anpassen oder neubranden. [Weitere Informationen](../customize-apps.md).
+
+## <a name="march-29-2021"></a>29. März 2021
+
+### <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und -anmeldung für Teams Android-Geräte
+
+IT-Administratoren können Remotebereitstellung und -anmeldung bei einem Teams Android-Gerät ausführen. Um ein Gerät remote bereitstellen zu können, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Überprüfungscode erstellen. Der gesamte Prozess kann remote vom Teams Admin Center aus abgeschlossen werden. [Weitere Informationen](../devices/remote-provision-remote-login.md).
 
 ## <a name="march-24-2021"></a>24. März 2021
 

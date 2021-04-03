@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie mehr über überwachte Chats in Microsoft Teams-Besprechungen.
-ms.openlocfilehash: 125273131ea4de6937b65f15d48469f3039d6aeb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118056"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506678"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Überwachte Chats in Microsoft Teams
 
@@ -28,7 +28,7 @@ Bildungseinrichtungen stellen einen sicheren und gesunden digitalen Raum für Sc
 
 Überwachter Chat ermöglicht es designierten Lehrkräften, Chats mit Kursteilnehmern zu initiieren und schüler/studenten am Starten neuer Chats zu sperren, es sei denn, ein geeigneter Lehrer ist anwesend. Wenn die Chatüberwachung aktiviert ist, dürfen Vorgesetzte keine Chats verlassen, und andere Teilnehmer dürfen sie nicht entfernen, um sicherzustellen, dass Chats, an denen Schüler/Studenten beteiligt sind, ordnungsgemäß überwacht werden.
 
-Diese Einschränkungen gelten nur für neue private Chats, die erstellt werden, nachdem der überwachte Chat vollständig aktiviert wurde. Sie gelten nicht für vorhandene private Chats, Besprechungschats oder Kanäle. Weitere Informationen zu bewährten Methoden für Besprechungschats oder Kanalsicherheit finden Sie im Sicherheitshandbuch für Kursteilnehmer.
+Diese Einschränkungen gelten nur für neue private Chats, die erstellt werden, nachdem der überwachte Chat vollständig aktiviert wurde. Sie gelten nicht für vorhandene private Chats, Besprechungschats oder Kanäle. Weitere Informationen zu bewährten Methoden für Besprechungschats, Kanalsicherheit und Die Sicherheit von Kursteilnehmern finden Sie unter Schützen von Kursteilnehmern [während der Verwendung von Teams.](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)
 
 > [!Note]
 > Überwachter Chat schützt neue Chats, die nach dem Erzwingen des Features erstellt wurden.  Vorhandene Chats werden nicht geschützt.

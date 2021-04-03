@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Erfahren Sie, wie Sie Anrufwarteschlangen mit Microsoft 365 Business Voice einrichten.
-ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478365"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506642"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschlange – Lernprogramm für kleine Unternehmen
 
@@ -84,7 +84,7 @@ So fügen Sie einen Kanal hinzu
 2. Geben Sie einen Namen und eine Beschreibung für den Kanal ein, und klicken Sie dann auf **Hinzufügen.**
 
 > [!div class="nextstepaction"]
-> [Schritt 2 : Ressourcenkonten >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
+> [Schritt 2 : Ressourcenkonten >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[Schritt 2 <br> Ressourcenkonten](#tab/resource-account)
 
@@ -143,7 +143,7 @@ Als Nächstes erstellen wir eine neue Anrufwarteschlange und weisen das Ressourc
 > Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. 
 
 > [!div class="nextstepaction"]
-> [Schritt 3 : Anrufer >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
+> [Schritt 3 : Anrufer >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[Schritt <br> 3: Anrufer](#tab/call-agents)
 
@@ -160,7 +160,7 @@ Um der Anrufwarteschlange Agents hinzuzufügen, fügen wir sie dem Team und kana
 > Wenn neue Benutzer zum Team hinzugefügt werden, kann es bis zu acht Stunden dauern, bis der erste Anruf eintrifft.
 
 > [!div class="nextstepaction"]
-> [Schritt 4 : Ressourcenkonten >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
+> [Schritt 4 : Ressourcenkonten >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[Schritt 4 <br> Anrufrouting](#tab/call-routing)
 
@@ -189,7 +189,7 @@ Wählen Sie die Anrufroutingmethode aus, die Sie verwenden möchten.
     ![Screenshot der Einstellungen für Routing, Abmeldung und Benachrichtigungszeit](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [Schritt 5 : Anrufüberlauf >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
+> [Schritt 5 : Anrufüberlauf >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[Schritt 5 <br> Anrufüberlauf](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ Wählen Sie aus, wie Sie Anrufe behandeln möchten, die das Maximum in der Warte
     ![Screenshot der Einstellungen für überzählige Anrufe](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Schritt 6 – Anruftimeout >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
+> [Schritt 6 – Anruftimeout >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[Schritt 6 <br> Anruftimeout](#tab/call-timeout)
 

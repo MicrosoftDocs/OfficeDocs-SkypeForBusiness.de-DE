@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ae060bf68b265c4e1e828d2f7a1848e1515db04e
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: b3858044c52324cb52005c70c6f3afcf91e3f617
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450622"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574194"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
@@ -116,6 +116,10 @@ Sie verwenden die Schaltfläche **Zum Team hinzufügen,** um eine App in einem T
 2. Wählen **Sie Zum Team hinzufügen aus.**
 3. Suchen Sie **im Bereich** Zum Team hinzufügen nach dem Team, dem Sie die App hinzufügen möchten, wählen Sie das Team und dann **Übernehmen aus.**
 
+## <a name="customize-an-app-in-preview"></a>Anpassen einer App (in der Vorschau)
+
+Sie können jetzt eine App anpassen, um ein bestimmtes Erscheinungsbild entsprechend den Anforderungen Ihrer Organisation zu erhalten. Weitere [Informationen finden Sie unter Anpassen von Apps in Teams.](customize-apps.md)
+
 ## <a name="purchase-services-for-third-party-apps"></a>Erwerben von Diensten für Apps von Drittanbietern
 
 Sie können Lizenzen für Dienste suchen und erwerben, die von Apps von Drittanbietern für Benutzer in Ihrer Organisation angeboten werden, direkt über die Seite Apps verwalten. Die **Spalte Lizenzen** in der Tabelle gibt an, ob eine App ein kostenpflichtiges SaaS-Abonnement anbietet. Klicken **Sie auf Jetzt kaufen,** um Pläne und Preisinformationen zu sehen und Lizenzen für Ihre Benutzer zu kaufen. Weitere Informationen finden Sie unter [Erwerben von Diensten für Drittanbieter-Apps von Teams im Microsoft Teams Admin Center.](purchase-third-party-apps.md)
@@ -149,10 +153,6 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer A
 
 3. Deaktivieren **oder aktivieren** Sie unter Benutzerdefinierte Apps die Interaktion mit **benutzerdefinierten Apps zulassen.** Diese Einstellung steuert, ob Benutzer mit benutzerdefinierten Apps interagieren können. Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md).
 4. Klicken Sie auf **Speichern**, damit die organisationsweiten App-Einstellungen wirksam werden.
-
-## <a name="customize-an-app-in-preview"></a>Anpassen einer App (in der Vorschau)
-
-Sie können jetzt eine App anpassen, um ein bestimmtes Erscheinungsbild entsprechend den Anforderungen Ihrer Organisation zu erhalten. [Anpassen von Apps in Teams](customize-apps.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

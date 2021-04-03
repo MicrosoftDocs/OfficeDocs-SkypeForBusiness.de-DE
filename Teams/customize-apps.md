@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Apps in Microsoft Teams anpassen.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b2e924da384b5bff54e63872aa7026d2da456311
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471499"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574154"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
@@ -107,9 +107,9 @@ Jetzt können Ihre Teams-Endbenutzer ihren Teams-Client öffnen, um die angepass
 Die folgende Notiz enthält wichtige Details zum Anpassen einer App.
 
 > [!Note]
-> - Wenn Sie Apps und beschreibungen im Zusammenhang mit einer App anpassen, stellen Sie sicher, dass Sie die vom App-Herausgeber bereitgestellten Anpassungsrichtlinien einhalten. Sie sind für die Einhaltung der Rechte anderer Personen in Bezug auf Bilder von Drittanbietern verantwortlich, die Sie möglicherweise verwenden.
-> - Vom Administrator bereitgestellte Anpassungsdaten werden im Einstellungsspeicher in der nächstgelegenen Region gespeichert. Sie ist nicht unbedingt in einer GoLocal Cloud Teams-Bereitstellung.
-> - Sie sind dafür verantwortlich sicherzustellen, dass die Links zu den Nutzungsbedingungen oder der Datenschutzrichtlinie gültig sind. Sie müssen eine geeignete Verwaltung der Änderungen bereitstellen, die sie an den App-Metadaten vornehmen (oder zulassen). Die aktuelle Implementierung unterstützt Sie bei der Wiederherstellung von urLs, die von Entwicklern bereitgestellt werden. Sie dürfen die App nicht ohne URL konfigurieren (wenn die App die Anpassung der URLs zulässt).
+> - Achten Sie beim Anpassen von Apps und jeder Beschreibung im Zusammenhang mit einer App darauf, dass Sie alle Anpassungsrichtlinien einhalten, wenn sie vom App-Herausgeber in der Dokumentation oder den Nutzungsbedingungen angegeben werden. Sie sind auch für die Einhaltung der Rechte anderer Personen in Bezug auf Bilder von Drittanbietern verantwortlich, die Sie möglicherweise verwenden.
+> - Vom Administrator bereitgestellte Anpassungsdaten werden in der nächstgelegenen Region gespeichert.
+> - Sie sind dafür verantwortlich sicherzustellen, dass Links zu Nutzungsbedingungen oder Datenschutzrichtlinien gültig sind.
 > - Für den Fall, dass der App-Herausgeber ein Feld nicht mehr anpassbar macht, wird auf der Seite "App-Details" eine Meldung angezeigt, in der der Administrator über die Felder informiert wird, die nicht mehr angepasst werden können. Alle an diesem Feld vorgenommenen Änderungen werden auf die ursprünglichen Werte zurückgesetzt.
 > - Änderungen am Branding können bis zu 24 Stunden dauern, bis die Benutzer die Änderungen sehen können.
 
