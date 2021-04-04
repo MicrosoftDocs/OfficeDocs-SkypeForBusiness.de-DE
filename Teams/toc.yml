@@ -317,10 +317,12 @@ items:
         items:
           - name: Übersicht
             href: manage-teams-with-policies.md
-          - name: Zuweisen von Richtlinien zu Ihren Benutzern
-            href: assign-policies.md
-          - name: Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll
-            href: activity-log.md
+          - name: Richtlinien in Teams zuweisen – erste Schritte
+            href: policy-assignment-overview.md
+          - name: Richtlinien an Benutzern und Gruppen zuweisen
+            href: assign-policies-users-and-groups.md
+          - name: Richtlinienpakete zuweisen
+            href: assign-policy-packages.md
           - name: Verwalten von Feedbackrichtlinien in Teams
             href: manage-feedback-policies-in-teams.md
           - name: Verwalten von Richtlinienpaketen in Teams
