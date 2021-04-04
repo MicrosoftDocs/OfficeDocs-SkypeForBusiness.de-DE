@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122189"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506662"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -47,7 +47,7 @@ Sie können organisationsweite Benutzereinstellungen im Microsoft Teams Admin Ce
 Hinzufügen oder Sperren einer Domäne:
 
 1. Wählen Sie **Domäne hinzufügen**.
-2. Geben Sie im Bereich „Domäne hinzufügen“ den Domänennamen ein, und drücken Sie die LEERTASTE, um den Namen zu speichern.
+2. Geben Sie im Bereich „Eine Domäne hinzufügen“ den Domänennamen ein, und wählen Sie die LEERTASTE, um den Namen zu speichern.
 3. Wählen Sie **Zulässig** oder **Blockiert**.
 4. Wählen Sie **Fertig** aus, um die Änderungen zu speichern. 
 
@@ -94,9 +94,13 @@ Diese Einstellungen steuern das Verhalten von Ressourcenkonten für Surface Hub-
 Die Verzeichnissuche in Microsoft Teams verwendet Exchange-Adressbuchrichtlinien, damit Organisationen virtuelle Grenzen erstellen können. Diese steuern, wie Benutzer andere Benutzer in der Organisation suchen und mit diesen kommunizieren können. Eine bereichsbezogene Verzeichnissuche eignet sich zum Beispiel in diesen Situationen:
 
 - Der Mandant Ihrer Organisation enthält mehrere Unternehmen, die voneinander getrennt sein sollen. 
-- Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen. 
+- Ihre Bildungseinrichtung möchte Chats zwischen dem Lehrpersonal und den Kursteilnehmern begrenzen.
 
 Ändern Sie diese Einstellung in **Ein**, um die bereichsbezogene Verzeichnissuche zu aktivieren.
+
+#### <a name="safety-and-communications"></a>Sicherheit und Kommunikation
+
+Der beaufsichtigte Chat ermöglicht es Organisationen und Schulen, die Chat-Funktionen mithilfe von rollenbasierten Berechtigungen einzuschränken. Diese Berechtigungen steuern den Umfang der Aufsicht, die ein Benutzer beim Chatten mit anderen benötigt. Erfahren Sie mehr über den [beaufsichtigten Chat](supervise-chats-edu.md).
 
 ### <a name="skype-for-business"></a>Skype for Business
 
