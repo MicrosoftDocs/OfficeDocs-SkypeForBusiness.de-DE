@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie neue Nummern für Teams erhalten, portieren oder übertragen sowie die Änderungen für Ihre Benutzer anzeigen. '
-ms.openlocfilehash: 41693bedec0bd41edd80bc12ae67c87204f1c38e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120716"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586564"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -41,7 +41,7 @@ Es gibt drei Möglichkeiten zum Erhalten von Benutzernummern:
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal (je nach Land oder Region) können Sie Ihre neuen Telefonnummern nicht über das Microsoft Teams Admin Center erhalten, oder Sie benötigen bestimmte Telefonnummern oder Vorwahlen. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, wenden Sie sich bitte an [Supportkontakt für Business-Produkte – Administratorhilfe( https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online .
+> Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, wenden Sie sich an [support contact for Business Products – Administratorhilfe.](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Erhalten von neuen Telefonnummern für Ihre Benutzer
 

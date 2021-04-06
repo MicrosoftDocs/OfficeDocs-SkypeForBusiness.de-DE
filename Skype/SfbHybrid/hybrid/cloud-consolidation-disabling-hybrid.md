@@ -21,31 +21,42 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Artikel enthält detaillierte Schritte zum Deaktivieren von Hybrid als Teil der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120354"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593853"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>Deaktivieren der Hybridbereitstellung zum Abschließen der Migration in die Cloud: Übersicht
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Deaktivieren Der Hybridkonfiguration zum Abschließen der Migration in die Cloud
 
-Nachdem Sie alle Benutzer von lokal in die Cloud verschoben haben, können Sie die lokale Skype for Business-Bereitstellung außer Betrieb nehmen. Neben dem Entfernen von Hardware besteht ein wichtiger Schritt in der logischen Trennung dieser lokalen Bereitstellung von Microsoft 365 oder Office 365 durch Deaktivieren der Hybridbereitstellung. Das Deaktivieren der Hybridbereitstellung umfasst drei Schritte:
+In diesem Artikel wird beschrieben, wie Sie Ihre Hybridkonfiguration deaktivieren, bevor Sie Ihre lokale Skype for Business-Umgebung außer Betrieb gesetzt haben. Dies ist Schritt 2 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
 
-1. Aktualisieren Sie DNS-Einträge so, dass sie auf Microsoft 365 oder Office 365 verweisen.
+- Schritt 1. [Verschieben Sie alle erforderlichen Benutzer und Anwendungsendpunkte von lokal in online.](decommission-move-on-prem-users.md)
 
-2. Deaktivieren sie den freigegebenen Sip-Adressraum (auch als "geteilte Domäne" bezeichnet) in der Microsoft 365- oder Office 365-Organisation.
+- **Schritt 2. Deaktivieren Sie die Hybridkonfiguration.** (Dieser Artikel)
 
-3. Deaktivieren Sie die Lokale Kommunikation mit Microsoft 365 oder Office 365.
+- Schritt 3. [Entfernen Sie Ihre lokale Skype for Business-Bereitstellung.](decommission-remove-on-prem.md)
 
-Diese Schritte trennen ihre lokale Bereitstellung von Skype for Business Server logisch von Office 365 und sollten als Einheit durchgeführt werden. Details zu jedem Schritt finden Sie in diesem Artikel weiter unten. Sobald dies abgeschlossen ist, können Sie Ihre lokale Skype for Business-Bereitstellung mithilfe einer der beiden unten aufgeführten Methoden außer Betrieb nehmen.
+
+## <a name="overview"></a>Übersicht
+
+Nachdem Sie alle Benutzer von Skype for Business lokal auf Teams Only in Microsoft 365 aktualisiert haben, können Sie die lokale Skype for Business-Bereitstellung außer Betrieb lassen. Bevor Sie die lokale Skype for Business-Bereitstellung außer Betrieb nehmen und Hardware entfernen, müssen Sie die lokale Bereitstellung logisch von Microsoft 365 trennen, indem Sie die Hybridbereitstellung deaktivieren. Das Deaktivieren der Hybridbereitstellung besteht aus den folgenden drei Schritten:
+
+1. Aktualisieren der DNS-Einträge, um auf Microsoft 365 zu verweisen.
+
+2. Deaktivieren des freigegebenen Sip-Adressraums (auch als "geteilte Domäne" bezeichnet) in der Microsoft 365-Organisation.
+
+3. Deaktivieren Sie die Lokale Kommunikation mit Microsoft 365.
+
+Diese Schritte trennen ihre lokale Bereitstellung von Skype for Business Server logisch von Microsoft 365 und sollten als Einheit durchgeführt werden. Details zu jedem Schritt finden Sie in diesem Artikel. Sobald dies abgeschlossen ist, können Sie Ihre lokale Skype for Business-Bereitstellung mithilfe einer der beiden unten aufgeführten Methoden außer Betrieb nehmen.
 
 > [!Important] 
->Sobald diese logische Trennung abgeschlossen ist, besitzen msRTCSIP-Attribute aus Ihrem lokalen Active Directory weiterhin Werte und werden weiterhin über Azure AD Connect mit Azure AD synchronisiert. Wie Sie die lokale Umgebung außer Betrieb setzen, hängt davon ab, ob Sie diese Attribute erhalten oder zunächst aus Ihrem lokalen Active Directory löschen möchten. Beachten Sie, dass das Löschen der lokalen msRTCSIP-Attribute nach der Migration von der lokalen Migration zu einem Dienstverlust für Benutzer führen kann. Details und Gegensätze der beiden Außerbetriebnahmen werden weiter unten beschrieben.
+> Sobald diese logische Trennung abgeschlossen ist, besitzen msRTCSIP-Attribute aus Ihrem lokalen Active Directory weiterhin Werte und werden weiterhin über Azure AD Connect mit Azure AD synchronisiert. Wie Sie die lokale Umgebung außer Betrieb setzen, hängt davon ab, ob Sie diese Attribute erhalten oder zunächst aus Ihrem lokalen Active Directory löschen möchten. Beachten Sie, dass das Löschen der lokalen msRTCSIP-Attribute nach der Migration von der lokalen Migration zu einem Dienstverlust für Benutzer führen kann. Details und Tradeoffs der beiden Außerbetriebnahmeansätze werden später beschrieben.
 
-## <a name="disable-hybrid-to-complete-migration-to-the-cloud-detailed-steps"></a>Deaktivieren der Hybridbereitstellung zum Abschließen der Migration in die Cloud: Ausführliche Schritte
+## <a name="detailed-steps"></a>Detaillierte Schritte
 
-1. *Aktualisieren Sie DNS, um auf Microsoft 365 oder Office 365 zu verweisen.* Das externe DNS der Organisation für die lokale Organisation muss aktualisiert werden, damit Skype for Business-Einträge auf Microsoft 365 oder Office 365 anstelle der lokalen Bereitstellung verweisen. Insbesondere gilt:
+1. *Aktualisieren Sie DNS, um auf Microsoft 365 zu verweisen.* Das externe DNS der Organisation für die lokale Organisation muss aktualisiert werden, damit Skype for Business-Einträge auf Microsoft 365 anstelle der lokalen Bereitstellung verweisen. Insbesondere gilt:
 
     |Eintragstyp|Name|TTL|Wert|
     |---|---|---|---|
@@ -57,7 +68,7 @@ Diese Schritte trennen ihre lokale Bereitstellung von Skype for Business Server 
     Darüber hinaus können #A0 für Meet oder Dialin (sofern vorhanden) gelöscht werden. Schließlich sollten alle DNS-Einträge für Skype for Business in Ihrem internen Netzwerk entfernt werden.
 
     > [!Note] 
-    > In seltenen Fällen kann das Ändern von DNS vom lokalen Verweisen auf Microsoft 365 oder Office 365 für Ihre Organisation dazu führen, dass der Verbund mit einigen anderen Organisationen nicht mehr funktioniert, bis die andere Organisation ihre Verbundkonfiguration aktualisiert:
+    > In seltenen Fällen kann das Ändern von DNS vom lokalen Verweisen auf Microsoft 365 für Ihre Organisation dazu führen, dass der Verbund mit einigen anderen Organisationen nicht mehr funktioniert, bis die andere Organisation ihre Verbundkonfiguration aktualisiert:
     >
     > - Alle Verbundorganisationen, die das ältere Modell für den direkten Partnerverbund (auch als Zugelassener Partnerserver bezeichnet) verwenden, müssen ihre zulässigen Domäneneinträge für ihre Organisation aktualisieren, um den Proxy-FQDN zu entfernen. Dieses Ältere Verbundmodell basiert nicht auf DNS-SRV-Einträgen, daher ist eine solche Konfiguration veraltet, sobald Ihre Organisation in die Cloud wechselt.
     > 
@@ -66,13 +77,13 @@ Diese Schritte trennen ihre lokale Bereitstellung von Skype for Business Server 
     > Wenn Sie vermuten, dass einer Ihrer Verbundpartner den direkten Partnerverbund verwendet oder keinen Partnerverbund mit einer Online- oder Hybridorganisation erstellt hat, empfehlen wir Ihnen, ihnen eine Kommunikation dazu zu senden, während Sie sich auf die Migration in die Cloud vorbereiten.
 
 
-2.  *Deaktivieren des freigegebenen Sip-Adressraums in Microsoft 365- oder Office 365-Organisation.* Der folgende Befehl muss über ein Skype for Business Online PowerShell-Fenster ausgeführt werden.
+2.  *Deaktivieren sie den freigegebenen Sip-Adressraum in Microsoft 365-Organisation.* Der folgende Befehl muss über ein Skype for Business Online PowerShell-Fenster ausgeführt werden.
 
      ```PowerShell
      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
      ```
  
-3.  *Deaktivieren Sie die Lokale Kommunikation mit Microsoft 365 oder Office 365.* Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden:
+3.  *Deaktivieren Sie die Lokale Kommunikation mit Microsoft 365.* Der folgende Befehl muss über ein lokales PowerShell-Fenster ausgeführt werden:
 
      ```PowerShell
      Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
@@ -108,11 +119,14 @@ Diese Schritte sind für neue Benutzer, die nach der Deaktivierung der Hybridber
 
 Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, da Benutzer, die zuvor von einem lokalen Skype for Business Server in die Cloud verschoben wurden, erneut bereitgestellt werden müssen. Diese Benutzer können in zwei verschiedene Kategorien unterteilt werden: Benutzer ohne Telefonsystem und Benutzer mit Telefonsystem. Bei Benutzern mit Telefonsystem wird der Telefondienst vorübergehend verloren, wenn die Telefonnummer nicht mehr in lokalem Active Directory in die Cloud verwaltet wird. **Es wird empfohlen, ein Pilotprojekt mit einer kleinen Anzahl von Benutzern mit Telefonsystem durchzuführen, bevor Massenbenutzervorgänge gestartet werden.** Bei großen Bereitstellungen können Benutzer in kleineren Gruppen in unterschiedlichen Zeitfenstern verarbeitet werden. 
 
+> [!NOTE] 
+> Dieser Vorgang ist für Benutzer mit einer übereinstimmenden SIP-Adresse und UserPrincipalName am einfachsten. Für Organisationen, in denen Benutzer mit nicht übereinstimmenden Werten über diese beiden Attribute verfügen, muss wie unten erwähnt besondere Vorsicht für einen reibungslosen Übergang verwendet werden.
+
 > [!NOTE]
-> Der Vorgang ist für Benutzer mit einer übereinstimmenden SIP-Adresse und UserPrincipalName am einfachsten. Für Organisationen, in denen Benutzer mit nicht übereinstimmenden Werten über diese beiden Attribute verfügen, muss wie unten erwähnt besondere Vorsicht für einen reibungslosen Übergang verwendet werden. 
+> Wenn Sie lokale Hybridanwendungsendpunkte für automatische Telefonanten oder Anrufwarteschlangen konfiguriert haben, müssen Sie diese Endpunkte vor dem Außerbetriebsetzen von Skype for Business Server nach Microsoft 365 verschieben.
 
 
-1. Bestätigen Sie, dass das folgende lokale Skype for Business PowerShell-Cmdlet ein leeres Ergebnis zurückgibt. Ein leeres Ergebnis bedeutet, dass keine Benutzer lokal heimgeheimt werden und entweder nach Office 365 verschoben oder deaktiviert wurden:
+1. Bestätigen Sie, dass das folgende lokale Skype for Business PowerShell-Cmdlet ein leeres Ergebnis zurückgibt. Ein leeres Ergebnis bedeutet, dass keine Benutzer lokal heimgeheimt werden und entweder zu Microsoft 365 verschoben oder deaktiviert wurden:
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
@@ -229,8 +243,11 @@ Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+12. Nachdem Sie alle Schritte in Methode 2 abgeschlossen haben, finden Sie weitere Schritte zum Entfernen Ihrer lokalen Skype for Business Server-Bereitstellung unter [Remove your on-premises Skype for Business Server.](decommission-remove-on-prem.md)
 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
+- [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
+
+- [Außerbetriebsetzen Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)

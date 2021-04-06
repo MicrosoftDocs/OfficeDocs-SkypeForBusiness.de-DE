@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über das Anrufqualitätsdashboard (CQD) und wie Sie es verwenden, um Berichte zur Besprechungs- und Anrufqualität in Microsoft Teams anzuzeigen.
-ms.openlocfilehash: c78e427ef87f7485932fac207c10add71c8bf269
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094939"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593833"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>Was ist das Anrufqualitätsdashboard (CQD)?
 
@@ -51,12 +51,12 @@ In CQD empfehlen wir Ihnen, Gebäude- und Endpunktinformationen hochzuladen, mit
 
 Verpassen Sie nicht [](quality-of-experience-review-guide.md) unseren Artikel Anruf- und Besprechungsqualität verwalten, der eine detaillierte Anleitung für den Teams-Administrator oder Supporttechniker bietet, der für die Verwaltung der Dienstqualität in Teams zuständig ist.
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>Ältere Version von CQD (CQD.lync.com)
+## <a name="legacy-version-of-cqd-cqdlynccom"></a>Ältere Version von CQD (CQD.lync.com)
 
-Die aktuelle Version von CQD ( https://CQD.Teams.microsoft.com) ersetzt die ältere Version von CQD ( https://CQD.lync.com) . Sie können weiterhin CQD.lync.com (im Skype for Business Admin Center verfügbar), aber ab dem 1. Juli 2020 werden die Daten aus CQD verwendet. Teams.microsoft.com. Wir deaktivieren den Zugriff auf CQD.lync.com, sodass Sie zu CQD wechseln sollten. Teams.microsoft.com, wenn Sie dies noch nicht getan haben.
+Die aktuelle Version von CQD ( ersetzt https://CQD.Teams.microsoft.com) die ältere Version von CQD ( https://CQD.lync.com) . Sie können weiterhin CQD.lync.com (im Skype for Business Admin Center verfügbar), aber ab dem 1. Juli 2020 werden die Daten aus CQD verwendet. Teams.microsoft.com und Sie können Ihre Gebäude- oder Abfragedaten aus dem alten CQD (CQD.lync.com) nicht mehr anzeigen oder ändern. Wenn Sie diese Daten noch nicht aus dem CQD.lync.com migriert haben und sie trotzdem benötigen, melden Sie ein Supportticket an.
 
 > [!IMPORTANT]
-> Ab dem 1. Juli 2020 können Sie Ihre Gebäude- oder Abfragedaten aus dem alten CQD (CQD.lync.com) nicht mehr anzeigen oder ändern. Wenn Sie diese Daten noch nicht aus dem CQD.lync.com migriert haben und sie trotzdem benötigen, melden Sie ein Supportticket an.
+> Ab dem 31. Juli 2021 wird die ältere Version von CQD (CQD.lync.com) CQD.lync.com. Nach diesem Datum werden Sie automatisch an CQD umgeleitet. Teams.microsoft.com beim Versuch, auf CQD.lync.com zu zugreifen, gehen alle nicht eingewanderten Gebäude- oder Abfragedaten verloren.
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Verwenden von Power BI zum Analysieren von CQD-Daten
 

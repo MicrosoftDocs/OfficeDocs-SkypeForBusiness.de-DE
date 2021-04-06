@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit Microsoft Phone System Direct Routing einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft Phone System verbinden können.
-ms.openlocfilehash: 5df93bb5248f6077bf0378c5ab461c6cf8856fbf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f99801989920bf82b07aa6f15fcab9a99b2df065
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121393"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586554"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -105,6 +105,7 @@ Benutzern von Direct Routing müssen die folgenden Lizenzen in Microsoft 365 ode
 
 > [!IMPORTANT]
 >  Für den Fall, dass Sie zu geplanten Besprechungen externe Teilnehmer hinzufügen möchten, indem Sie sich entweder zu ihnen oder durch Angabe der Einwahlnummer auswählen, ist die Lizenz für Audiokonferenzen erforderlich.
+> Weisen Sie für GCC High und DoD keine Lizenz für Audiokonferenzen für G5-Benutzer zu.  Weisen Sie G3-Benutzern erst dann eine Lizenz für Audiokonferenzen zu, wenn Direct Routing vollständig konfiguriert ist und der Benutzer über eine funktionierende Wähltapad verfügt.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Ad-hoc-Anrufeskalation und Lizenz für Audiokonferenzen

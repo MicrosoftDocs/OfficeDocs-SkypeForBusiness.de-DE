@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>Woche vom 29. März 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 3/29/2021 | [Remotebereitstellung und Anmeldung für Teams Android-Geräte](/MicrosoftTeams/devices/remote-provision-remote-login) | Hinzugefügt |
+| 3/29/2021 | [Bereitstellen von Microsoft Teams Rooms mit Microsoft Endpoint Configuration Manager](/MicrosoftTeams/rooms/rooms-scale) | Geändert |
+| 3/29/2021 | [Verwenden des Add-Ins für Microsoft Teams-Besprechungen in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Geändert |
+| 3/29/2021 | Autorisieren des Gastzugriffs in Microsoft Teams | Entfernt |
+| 3/29/2021 | [Aufbewahrungsrichtlinien für Microsoft Teams Verwalten](/MicrosoftTeams/retention-policies) | Geändert |
+| 3/30/2021 | [Einrichten einer automatischen Attendant für Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Geändert |
+| 3/30/2021 | [Erstellen einer Anrufwarteschlange in Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Geändert |
+| 3/30/2021 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
+| 3/30/2021 | [Einführung in die richtlinienbasierte Aufzeichnung von Teams für Anrufe & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
+| 3/30/2021 | [Anpassen von Microsoft-Apps in Teams](/MicrosoftTeams/customize-apps) | Hinzugefügt |
+| 3/30/2021 | [Einrichten von Microsoft Teams in Ihrem Unternehmen](/MicrosoftTeams/deploy-enterprise-setup) | Geändert |
+| 3/30/2021 | [Verwalten Ihrer Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-apps) | Geändert |
+| 3/30/2021 | [Anpassen von Microsoft-Apps in Teams](/MicrosoftTeams/customize-apps) | Geändert |
+| 3/30/2021 | [Microsoft Teams-Räume](/MicrosoftTeams/rooms/index) | Geändert |
+| 3/31/2021 | [Einrichten einer automatischen Attendant für Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Geändert |
+| 3/31/2021 | [Erstellen einer Anrufwarteschlange in Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Geändert |
+| 3/31/2021 | [Microsoft Teams – Gerätenutzungsbericht](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | Geändert |
+| 3/31/2021 | [Microsoft Teams – Analyse und Berichterstellung](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | Geändert |
+| 3/31/2021 | [Microsoft Teams – Benutzeraktivitätsbericht](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | Geändert |
+| 3/31/2021 | [Versionshinweise für Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
+| 3/31/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 4/1/2021 | [Installieren von Power BI Connector für die Verwendung von CQD-Abfragevorlagen](/MicrosoftTeams/cqd-power-bi-connector) | Geändert |
+| 4/1/2021 | [Versionshinweise für Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
+| 4/1/2021 | [Verwenden von überwachten Chats](/MicrosoftTeams/supervise-chats-edu) | Geändert |
+| 4/1/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
+| 4/2/2021 | [Einrichten einer automatischen Attendant für Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Geändert |
+| 4/2/2021 | [Erstellen einer Anrufwarteschlange in Microsoft Teams – Lernprogramm für kleine Unternehmen](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Geändert |
+| 4/2/2021 | [Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams](/MicrosoftTeams/create-a-team-template) | Geändert |
+| 4/2/2021 | [Geräte für Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
+| 4/2/2021 | [Verwalten von Einstellungen in Ihrer Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
+| 4/2/2021 | [Verwalten von Messaging-Richtlinien in Teams](/MicrosoftTeams/messaging-policies-in-teams) | Geändert |
+| 4/2/2021 | [Was sind Live-Ereignisse in Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Geändert |
+| 4/2/2021 | [Versionshinweise zu Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 4/2/2021 | [Zuweisen von Richtlinien zu Benutzern und Gruppen](/MicrosoftTeams/assign-policies-users-and-groups) | Hinzugefügt |
+| 4/2/2021 | [Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen](/MicrosoftTeams/assign-policy-packages) | Hinzugefügt |
+| 4/2/2021 | [Zuweisen von Richtlinien in Teams](/MicrosoftTeams/policy-assignment-overview) | Hinzugefügt |
+| 4/2/2021 | [Anpassen von Microsoft-Apps in Teams](/MicrosoftTeams/customize-apps) | Geändert |
+| 4/2/2021 | [Verwalten Ihrer Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-apps) | Geändert |
+| 4/2/2021 | [Telefonnummernverwaltung für Belgien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | Geändert |
+| 4/2/2021 | [Verwalten von Richtlinienpaketen in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Geändert |
+| 4/2/2021 | [Verwalten von Teams mit Richtlinien](/MicrosoftTeams/manage-teams-with-policies) | Geändert |
+| 4/2/2021 | [Verwenden von CQD zum Verwalten der Anruf- und Besprechungsqualität in Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | Geändert |
+| 4/2/2021 | [Versionshinweise für Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
+| 4/2/2021 | [Teams Contact Center](/MicrosoftTeams/teams-contact-center) | Geändert |
+
+
 ## <a name="week-of-march-22-2021"></a>Woche vom 22. März 2021
 
 
