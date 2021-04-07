@@ -17,12 +17,12 @@ description: Abrufen eines Anwesenheitsberichts zu einer Besprechung in Teams. D
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fe30df1a6ab6cb81d313400e584ac9b1e519e0a1
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
-ms.translationtype: HT
+ms.openlocfilehash: 22d727adb211718e9734446f2202635e180f5fc3
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130436"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598494"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams – Anwesenheitsbericht zu einer Besprechung
 
@@ -32,7 +32,7 @@ Besprechungsorganisatoren können einen Anwesenheitsbericht anzeigen und herunte
 
 Für Mandanten im Bildungswesen ist dieser Bericht hilfreich, um die Anwesenheit von Kursteilnehmern in Onlinekursen nachverfolgen zu können. Beispielsweise kann der Lehrer den Bericht zu Kursbeginn als einfache Möglichkeit zur Überprüfung der Anwesenheit der Teilnehmer herunterladen. Weitere Informationen finden Sie unter [Herunterladen von Anwesenheitsberichten in Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-Als Administrator können Sie steuern, ob Besprechungsorganisatoren Anwesenheitsberichte zu einer Besprechung herunterladen können, indem Sie eine Besprechungsrichtlinie für Teams festlegen. Standardmäßig ist die Option zum Herunterladen des Berichts deaktiviert. Die Schritte zum Aktivieren dieses Features finden Sie unter [Einstellungen für Besprechungsrichtlinien – Anwesenheitsbericht zu einer Besprechung](../meeting-policies-in-teams.md#meeting-policy-settings---meeting-attendance-report).
+Als Administrator können Sie steuern, ob Besprechungsorganisatoren Anwesenheitsberichte zu einer Besprechung herunterladen können, indem Sie eine Besprechungsrichtlinie für Teams festlegen. Standardmäßig ist die Option zum Herunterladen des Berichts deaktiviert. Die Schritte zum Aktivieren dieses Features finden Sie unter [Einstellungen für Besprechungsrichtlinien – Anwesenheitsbericht zu einer Besprechung](../meeting-policies-in-teams-general.md#meeting-attendance-report).
 
 Wenn Besprechungsorganisatoren Zugriff auf mehr Anwesenheitsdaten benötigen, als sie aus dem in der Besprechung verfügbaren Bericht erhalten, können Sie ihnen die Rolle *Berichtleseberechtigter* zuweisen, damit sie selbst auf die Administratorberichte in Teams zugreifen können. Weitere Informationen hierzu finden Sie unter [Wer auf die Aktivitätsberichte in Teams zugreifen kann](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom: ''
 description: Erfahren Sie, wie Sie die Besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in Microsoft Teams zu steuern.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1685da93c90d8d12cc4e8b8f2a92fd4f93391c87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6e8821781eab70696c9b24c8df18cc8dd0b46870
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115563"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598614"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Ablauf der Besprechung in Microsoft Teams
 
@@ -35,11 +35,11 @@ ms.locfileid: "51115563"
 
 Die Besprechungsrichtlinieneinstellungen, die steuern, ob Benutzer Besprechungen starten und planen können, steuern auch den Ablauf von Besprechungen, die von Benutzern geplant wurden. Wenn ein Link für die Teilnahme an einer Besprechung und die Konferenz-ID für eine Besprechung abläuft, kann niemand an der Besprechung teilnehmen. Die folgenden Besprechungsrichtlinieneinstellungen bestimmen, ob Benutzer Besprechungen in Teams starten und planen können, und wir beziehen uns in diesem Artikel auf sie.
 
-- [Jetzt in Kanälen](meeting-policies-in-teams.md#allow-meet-now-in-channels)besprechung zulassen: Steuert, ob ein Benutzer eine sofort anmutende Besprechung in einem Kanal starten kann.
-- [Kanalplanung zulassen:](meeting-policies-in-teams.md#allow-channel-meeting-scheduling)Steuert, ob ein Benutzer eine Besprechung in einem Kanal planen kann.
-- [Planen privater Besprechungen](meeting-policies-in-teams.md#allow-scheduling-private-meetings)zulassen: Steuert, ob ein Benutzer eine private Besprechung in Teams planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
-- [Zulassen des Outlook-Add-Ins:](meeting-policies-in-teams.md#allow-the-outlook-add-in)Steuert, ob ein Benutzer eine private Besprechung in Outlook planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
-- [Besprechung jetzt in privaten Besprechungen](meeting-policies-in-teams.md#allow-meet-now-in-private-meetings)zulassen: Steuert, ob ein Benutzer eine sofort anberaumte private Besprechung starten kann.
+- [Jetzt in Kanälen](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)besprechung zulassen: Steuert, ob ein Benutzer eine sofort anmutende Besprechung in einem Kanal starten kann.
+- [Kanalplanung zulassen:](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)Steuert, ob ein Benutzer eine Besprechung in einem Kanal planen kann.
+- [Planen privater Besprechungen](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)zulassen: Steuert, ob ein Benutzer eine private Besprechung in Teams planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+- [Zulassen des Outlook-Add-Ins:](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)Steuert, ob ein Benutzer eine private Besprechung in Outlook planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+- [Besprechung jetzt in privaten Besprechungen](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)zulassen: Steuert, ob ein Benutzer eine sofort anberaumte private Besprechung starten kann.
 
 Standardmäßig sind diese Einstellungen aktiviert. Wenn eine dieser Einstellungen deaktiviert ist, kann jeder Benutzer, dem die Richtlinie zugewiesen ist, keine neuen Besprechungen dieses Typs starten oder planen. Gleichzeitig nehmen die Besprechung an Links und Konferenz-IDs aller vorhandenen Besprechungen dieses Typs teil, die der Benutzer zuvor gestartet oder geplant hat.
 

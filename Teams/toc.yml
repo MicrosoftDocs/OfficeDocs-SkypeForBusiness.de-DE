@@ -550,9 +550,25 @@ items:
       - name: Besprechungen
         items:
           - name: Verwalten von Besprechungsrichtlinien
-            href: meeting-policies-in-teams.md
-          - name: Entfernen der Besprechungsrichtlinie „RestrictedAnonymousAccess“ aus den Benutzern
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: Übersicht
+                href: meeting-policies-overview.md
+              - name: Allgemeine Richtlinien
+                href: meeting-policies-in-teams-general.md
+              - name: Audio- und Videorichtlinien
+                href: meeting-policies-audio-and-video.md
+              - name: Richtlinien für Inhalts- und Bildschirmfreigabe
+                items:
+                  - name: Inhaltsfreigabe
+                    href: meeting-policies-content-sharing.md
+                  - name: Konfigurieren der Desktopfreigabe
+                    href: configure-desktop-sharing.md
+              - name: 'Teilnehmer-, Gast- und Zugriffsrichtlinien'
+                items:
+                  - name: Teilnehmer- und Gastrichtlinien
+                    href: meeting-policies-participants-and-guests.md
+                  - name: Entfernen der Besprechungsrichtlinie „RestrictedAnonymousAccess“ aus den Benutzern
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: Verwalten von Besprechungseinstellungen
             href: meeting-settings-in-teams.md
           - name: 'E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern'

@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie, wie Sie die PowerShell-Steuerelemente zum Verwalten von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6679cd22800307ec95ac242c190d6483411413a9
+ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094155"
+ms.lasthandoff: 04/05/2021
+ms.locfileid: "51586544"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Installieren von Microsoft Teams PowerShell
 
@@ -56,45 +56,6 @@ Are you sure you want to install the modules from 'PSGallery'?
 ```
 
 Antworten **Sie auf** Ja oder Ja zu **Allen,** um mit der Installation fortzufahren.
-
-
-## <a name="install-teams-powershell-public-preview"></a>Installieren der öffentlichen Vorschau von Teams PowerShell
-
-> [!NOTE]
-> Wenn Sie die Public Preview-Version von Teams PowerShell verwenden, wird dringend empfohlen, zuerst Skype for Business Online Connector zu deinstallieren.
-
-Für die Installation des öffentlichen Teams PowerShell-Vorschaumoduls für alle Benutzer auf einem System sind erhöhte Berechtigungen erforderlich. Starten Sie die PowerShell-Sitzung mit **Ausführen als Administrator** unter Windows, oder verwenden Sie den Befehl unter `sudo` macOS oder Linux.
-
-Wenn Sie PowerShell 5.1 verwenden, müssen Sie das **PowerShellGet-Modul** vorab aktualisieren. Nachdem Sie **PowerShellGet aktualisiert** haben, schließen Sie eine höher gehobene PowerShell-Sitzung, und öffnen Sie sie erneut, um sicherzustellen, dass das neueste **PowerShellGet** geladen wird.
-
-```powershell
-Install-Module PowerShellGet -Force -AllowClobber
-```
-
-Führen Sie zum Installieren der öffentlichen Vorschau von Teams PowerShell den folgenden PowerShell-Befehl aus.
-
-> [!NOTE]
-> Sie finden die neueste Vorschauversion im [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) oder in PowerShell, indem Sie "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions" ausführen.
-
-```powershell
-Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
-```
-
-## <a name="install-the-skype-for-business-online-connector"></a>Installieren des Skype for Business Online Connector
-
-> [!NOTE]
->
-> Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
-> Wenn Sie die neueste öffentliche Version von [Teams PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
-
-
-```powershell
-  # When using Teams PowerShell Module
-
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-```
 
 ## <a name="sign-in"></a>Anmelden
 
@@ -141,8 +102,6 @@ Update-Module MicrosoftTeams
 
 ## <a name="uninstall-teams-powershell"></a>Deinstallieren von Teams PowerShell
 
-
-
 Um Teams PowerShell zu deinstallieren, öffnen Sie eine neue Eingabeaufforderung für erhöhte PowerShell, und führen Sie folgendes aus:
 
 ```powershell
@@ -150,6 +109,28 @@ Uninstall-Module MicrosoftTeams
 ```
 > [!WARNING]
 > Wenn Teams PowerShell bereits in Ihre PowerShell-Sitzung importiert wurde, wird das Modul nicht deinstalliert. Schließen Sie PowerShell, und öffnen Sie erneut eine neue PowerShell-Sitzung mit erhöhten Rechten.
+
+## <a name="install-teams-powershell-public-preview"></a>Installieren der öffentlichen Vorschau von Teams PowerShell
+
+> [!NOTE]
+> Wenn Sie die Public Preview-Version von Teams PowerShell verwenden, wird dringend empfohlen, zuerst Skype for Business Online Connector zu deinstallieren.
+
+Für die Installation des öffentlichen Teams PowerShell-Vorschaumoduls für alle Benutzer auf einem System sind erhöhte Berechtigungen erforderlich. Starten Sie die PowerShell-Sitzung mit **Ausführen als Administrator** unter Windows, oder verwenden Sie den Befehl unter `sudo` macOS oder Linux.
+
+Wenn Sie PowerShell 5.1 verwenden, müssen Sie das **PowerShellGet-Modul** vorab aktualisieren. Nachdem Sie **PowerShellGet aktualisiert** haben, schließen Sie eine höher gehobene PowerShell-Sitzung, und öffnen Sie sie erneut, um sicherzustellen, dass das neueste **PowerShellGet** geladen wird.
+
+```powershell
+Install-Module PowerShellGet -Force -AllowClobber
+```
+
+Führen Sie zum Installieren der öffentlichen Vorschau von Teams PowerShell den folgenden PowerShell-Befehl aus.
+
+> [!NOTE]
+> Sie finden die neueste Vorschauversion im [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) oder in PowerShell, indem Sie "Find-Module MicrosoftTeams -AllowPrerelease -AllVersions" ausführen.
+
+```powershell
+Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
+```
 
 ## <a name="next-steps"></a>Nächste Schritte
 

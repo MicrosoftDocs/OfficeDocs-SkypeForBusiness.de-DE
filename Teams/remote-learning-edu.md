@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08444efa4a8fa96b64dd92d9be66b0f324010c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117653"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598574"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -189,20 +189,20 @@ Bei diesem hybriden Ansatz können Sie entweder SDS zum Erstellen von Gruppen f�
 
 Wenn Sie mit der SDS-Methode beginnen möchten, wechseln Sie zu [School Data Sync (SDS)](/SchoolDataSync) und kontaktieren Sie die [https://aka.ms/sdssupport](https://aka.ms/sdssupport) Bereitstellungshilfe. 
 
-Wenn Sie die Graph-API-Methode verwenden möchten, lesen Sie [Graph-API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0) und [Erstellen eines Klassenteams](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta).  
+Wenn Sie die Graph-API-Methode verwenden möchten, lesen Sie [Graph-API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true) und [Erstellen eines Klassenteams](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true).  
 
 > [!NOTE]
 > Um diese Methode mit SDS verwenden zu können, müssen Sie die Option zur automatischen Teamerstellung in Ihrem SDS-Profil deaktivieren. Sie können auch eine Kombination aus automatischer und von Dozenten geleiteter Teamerstellung für erforderliche und optionale Kursteams verwenden, mithilfe von zwei SDS-Profilen.
 
 #### <a name="powershell-script-using-graph-apis"></a>PowerShell-Skript mit Graph-APIs
 
-Mit PowerShell können Sie ein Skript schreiben, um Teams zu erstellen und Einstellungen automatisch zu konfigurieren. Dazu muss der Administrator zuerst die Gruppe erstellen, anschließend Lehrkräfte und Schüler/Studenten hinzufügen und dann das Team wie [hier](/graph/teams-create-group-and-team) beschrieben erstellen. Sie können auch die Microsoft Graph-API zum Erstellen, Konfigurieren, Duplizieren und Archivieren von Teams verwenden. Weitere Informationen hierzu finden Sie unter [Microsoft Graph-API verwenden, um mit Microsoft Teams zu arbeiten](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) und [Erstellen eines Kursteams](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type). Die Verwendung von Graph-APIs bietet eine hervorragende Möglichkeit, um mehr Kontrolle und Flexibilität zu haben, doch erfordert es ein hohes Maß an technischem Wissen und braucht anfänglichen mehr Zeit zum Einrichten.
+Mit PowerShell können Sie ein Skript schreiben, um Teams zu erstellen und Einstellungen automatisch zu konfigurieren. Dazu muss der Administrator zuerst die Gruppe erstellen, anschließend Lehrkräfte und Schüler/Studenten hinzufügen und dann das Team wie [hier](/graph/teams-create-group-and-team) beschrieben erstellen. Sie können auch die Microsoft Graph-API zum Erstellen, Konfigurieren, Duplizieren und Archivieren von Teams verwenden. Weitere Informationen hierzu finden Sie unter [Microsoft Graph-API verwenden, um mit Microsoft Teams zu arbeiten](/graph/api/resources/teams-api-overview), [Microsoft Teams PowerShell](/powershell/module/teams) und [Erstellen eines Kursteams](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true). Die Verwendung von Graph-APIs bietet eine hervorragende Möglichkeit, um mehr Kontrolle und Flexibilität zu haben, doch erfordert es ein hohes Maß an technischem Wissen und braucht anfänglichen mehr Zeit zum Einrichten.
 
 ##### <a name="benefits"></a>Vorteile
 
 - Zusätzliche Flexibilität und Kontrolle.
 - Option zum Erstellen von frühzeitigem Zugriff für Lehrkräfte auf Teams oder von sofortigem Zugriff für Schüler/Studenten auf Teams.  
-- Wenn Sie [Teams aus Gruppen](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group) erstellen, erhalten Lehrkräfte frühzeitigen Zugriff, und Änderungen der Kursteilnehmer-Mitgliedschaft in der Azure AD-Gruppe werden synchronisiert.
+- Wenn Sie [Teams aus Gruppen](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) erstellen, erhalten Lehrkräfte frühzeitigen Zugriff, und Änderungen der Kursteilnehmer-Mitgliedschaft in der Azure AD-Gruppe werden synchronisiert.
 
 ##### <a name="considerations"></a>Überlegungen
 
@@ -211,7 +211,7 @@ Mit PowerShell können Sie ein Skript schreiben, um Teams zu erstellen und Einst
 - Änderungen an der Mitgliedschaft werden nicht mit SIS synchronisiert. 
 
 > [!NOTE]
-> Kursteams benötigen eine versteckte Gruppenmitgliedschaft, sodass nur Lehrkräfte und Schüler/Studenten innerhalb des Kurses dessen Mitglieder sehen können. Informationen zum Erstellen einer Office 365-Kursgruppe finden Sie unter [Erstellen eines Kursteams](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta), um die gleichen Datenschutzanforderungen zu erfüllen.
+> Kursteams benötigen eine versteckte Gruppenmitgliedschaft, sodass nur Lehrkräfte und Schüler/Studenten innerhalb des Kurses dessen Mitglieder sehen können. Informationen zum Erstellen einer Office 365-Kursgruppe finden Sie unter [Erstellen eines Kursteams](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true), um die gleichen Datenschutzanforderungen zu erfüllen.
 
 #### <a name="manual-team-creation"></a>Manuelle Teamerstellung
 
@@ -241,15 +241,15 @@ Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hinderniss
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>Wie erstelle ich Kursteams, die Lehrkräften frühzeitigen Zugriff zum Einrichten eines Teams ermöglichen, bevor ich Schüler/Studenten zulasse?
 
-Teams, die aus Gruppen erstellt wurden (über SDS, von Dozenten geleitet oder mithilfe der Graph-API), erstellen standardmäßig automatisch Teams für frühzeitigen Zugriff. Wenn Sie Ihre eigenen Teams für frühzeitigen Zugriff mithilfe der Graph-API erstellen möchten, müssen Sie zuerst [einen Kurs erstellen](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta) und dann [das Team aus einer Gruppe erstellen](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group).
+Teams, die aus Gruppen erstellt wurden (über SDS, von Dozenten geleitet oder mithilfe der Graph-API), erstellen standardmäßig automatisch Teams für frühzeitigen Zugriff. Wenn Sie Ihre eigenen Teams für frühzeitigen Zugriff mithilfe der Graph-API erstellen möchten, müssen Sie zuerst [einen Kurs erstellen](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) und dann [das Team aus einer Gruppe erstellen](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true).
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>Wie kann ich überprüfen, ob ein Kurs aktiviert wurde?
 
-Wir haben in [team resource type](/graph/api/resources/team?view=graph-rest-beta) die neue Eigenschaft [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties) hinzugefügt, mit der ermittelt werden kann, ob ein Kurs aktiviert wurde. Verwenden Sie die [Get Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta) (API zum Abrufen des Teams), um die Eigenschaft ```isMembershipLimitedToOwners``` für einen bestimmten Kurs abzufragen. Wenn das Team aktiviert wurde, wird der Wert „false“ zurückgegeben. Wenn das Team vom Teambesitzer nicht aktiviert wurde, wird der Wert „true“ zurückgegeben.
+Wir haben in [team resource type](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true) die neue Eigenschaft [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true) hinzugefügt, mit der ermittelt werden kann, ob ein Kurs aktiviert wurde. Verwenden Sie die [Get Team API](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) (API zum Abrufen des Teams), um die Eigenschaft ```isMembershipLimitedToOwners``` für einen bestimmten Kurs abzufragen. Wenn das Team aktiviert wurde, wird der Wert „false“ zurückgegeben. Wenn das Team vom Teambesitzer nicht aktiviert wurde, wird der Wert „true“ zurückgegeben.
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>Wie aktiviere ich einen Kurs für eine Lehrkraft?
 
-Verwenden Sie die [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta) (API zum Aktualisieren des Teams), und legen Sie für die Eigenschaft ```isMembershipLimitedToOwners``` den Wert „false“ fest, um das Team im Namen Ihrer Lehrkraft zu aktivieren. Beachten Sie, dass die Aktivierung eines Teams nicht rückgängig gemacht werden kann.
+Verwenden Sie die [Update Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) (API zum Aktualisieren des Teams), und legen Sie für die Eigenschaft ```isMembershipLimitedToOwners``` den Wert „false“ fest, um das Team im Namen Ihrer Lehrkraft zu aktivieren. Beachten Sie, dass die Aktivierung eines Teams nicht rückgängig gemacht werden kann.
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>Erstellen von Mitarbeiterteams für die Kommunikation und Zusammenarbeit von Mitarbeitern
 

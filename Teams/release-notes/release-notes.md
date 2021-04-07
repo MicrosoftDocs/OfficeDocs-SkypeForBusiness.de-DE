@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Versionshinweise zu Microsoft Teams-Administratorfeatures.
-ms.openlocfilehash: 709cbf8b4a5438f0f8e2447e093414de9829f161
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574094"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598504"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Versionshinweise für Microsoft Teams-Administratorfeatures
 
@@ -49,7 +49,7 @@ IT-Administratoren können Remotebereitstellung und -anmeldung bei einem Teams A
 
 ### <a name="enable-live-transcripts-in-teams"></a>Aktivieren von Live transcripts in Teams
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während einer Besprechung angewendet wird. Über diese Einstellung wird gesteuert, ob die Option zum Aktivieren von Liveuntertiteln verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können. [Weitere Informationen](../meeting-policies-in-teams.md#enable-live-captions).
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während einer Besprechung angewendet wird. Über diese Einstellung wird gesteuert, ob die Option zum Aktivieren von Liveuntertiteln verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können. [Weitere Informationen](../meeting-policies-participants-and-guests.md#enable-live-captions).
 
 ## <a name="march-23-2021"></a>23. März 2021
 
@@ -216,7 +216,7 @@ Wir haben kürzlich Anrufplanunterstützung für Österreich, Dänemark, Italien
 
 ### <a name="meeting-policy-settings"></a>Einstellungen für Besprechungsrichtlinien
 
-Hinzufügen von zwei Richtlinieneinstellungen für IP-Audio und IP-Video in Teams-Besprechungsrichtlinien: Modus für IP-Audio und Modus für IP-Video. Sie können jetzt eingehende und ausgehende IP-Audio- und IP-Videodaten in Teams-Besprechungsrichtlinien festlegen. [Weitere Informationen](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video).
+Hinzufügen von zwei Richtlinieneinstellungen für IP-Audio und IP-Video in Teams-Besprechungsrichtlinien: Modus für IP-Audio und Modus für IP-Video. Sie können jetzt eingehende und ausgehende IP-Audio- und IP-Videodaten in Teams-Besprechungsrichtlinien festlegen. [Weitere Informationen](../meeting-policies-audio-and-video.md).
 
 ## <a name="september-27-2020"></a>27. September 2020
 

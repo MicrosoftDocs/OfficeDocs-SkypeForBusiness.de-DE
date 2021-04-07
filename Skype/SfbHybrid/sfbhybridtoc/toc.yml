@@ -20,8 +20,16 @@
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: Verwalten von Besprechungsmigrationen
           href: ../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json
-    - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
-      href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+    - name: Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung
+      items:
+        - name: Übersicht
+          href: ../hybrid/decommission-on-prem-overview.md
+        - name: Benutzer und Endpunkte in die Cloud verschieben
+          href: ../hybrid/decommission-move-on-prem-users.md
+        - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
+          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Entfernen Ihrer lokalen Skype for Business-Bereitstellung
+          href: ../hybrid/decommission-remove-on-prem.md
     - name: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
       href: ../hybrid/configure-a-multi-forest-environment-for-hybrid.md
     - name: Cloudkonsolidierung für Microsoft Teams und Skype for Business

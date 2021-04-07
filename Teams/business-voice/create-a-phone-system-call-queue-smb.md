@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Erfahren Sie, wie Sie Anrufwarteschlangen mit Microsoft 365 Business Voice einrichten.
-ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506642"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607557"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschlange – Lernprogramm für kleine Unternehmen
 
@@ -98,7 +98,7 @@ Sie können im Teams Admin Center ein Ressourcenkonto erstellen.
 
 2. Klicken Sie auf **Hinzufügen**.
 
-3. Füllen Sie **im Bereich Ressourcenkonto** hinzufügen anzeigename **,** **Benutzername** aus, und wählen Sie Anrufwarteschlange **für** den **Ressourcenkontotyp aus.**
+3. Füllen Sie **im Bereich Ressourcenkonto** hinzufügen anzeigename **,** **Benutzername** aus, und wählen Sie Anrufwarteschlange **für** den **Ressourcenkontotyp aus.** Agents sehen den Anzeigenamen, wenn sie einen eingehenden Anruf aus der Warteschlange erhalten.
 
     ![Screenshot der Benutzeroberfläche des Ressourcenkontos hinzufügen](../media/resource-account-add-cq.png)
 
@@ -112,7 +112,7 @@ Das neue Konto wird in der Liste der Konten angezeigt.
 
 Sie müssen dem Ressourcenkonto eine *Microsoft 365 Phone System - Virtual User-Lizenz* zuweisen.
 
-1. Klicken Sie im Microsoft 365 Admin Center auf das Ressourcenkonto, dem Sie eine Lizenz zuweisen möchten.
+1. Klicken Sie im Microsoft 365  Admin Center in der Liste Aktive Benutzer auf das Ressourcenkonto, dem Sie eine Lizenz zuweisen möchten.
 
 2. Wählen Sie **auf der Registerkarte** Lizenzen und Apps unter **Lizenzen** die Option **Microsoft 365 Phone System – Virtueller Benutzer aus.**
 
@@ -126,7 +126,7 @@ Als Nächstes erstellen wir eine neue Anrufwarteschlange und weisen das Ressourc
 
 1. Erweitern Sie im Teams Admin Center **Voice,** klicken Sie auf **Anrufwarteschlangen,** und klicken Sie dann auf **Hinzufügen.**
 
-1. Geben Sie einen Namen für die Anrufwarteschleife ein. Den Telefonberatern wird dieser Name angezeigt, wenn sie einen Anruf von der Warteschleife erhalten.
+1. Geben Sie einen Namen für die Anrufwarteschleife ein.
 
 2. Klicken Sie auf **Konten hinzufügen**, suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschleife verwenden möchten, klicken Sie auf **Hinzufügen** und dann nochmals auf **Hinzufügen**.
 
@@ -212,7 +212,7 @@ Wählen Sie aus, wie Sie Anrufe behandeln möchten, die das Maximum in der Warte
 
 Wählen Sie aus, was geschehen soll, wenn Anrufe zu lange in der Warteschlange gewartet haben.
 
-1. Festlegen des **Anruftimeouts: maximale Wartezeit**.
+1. Legen Sie die **maximale Wartezeit ein.**
 
 2. Wählen Sie aus, was Sie tun möchten, wenn ein Anruf abfing. Sie können den Anruf trennen oder umleiten. Wir empfehlen, den Anruf an eines der folgenden Ziele umzuleiten:
     - **Person in der Organisation** – eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann

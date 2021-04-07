@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams und virtuelle Visiten und Termine mit der Bookings-App
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092783"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598604"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App
 
@@ -57,7 +57,7 @@ Es gibt mehrere Möglichkeiten, um zu steuern, wer Zugriff auf die Bookings-App 
 
 ## <a name="recommended-meeting-policy-settings"></a>Empfohlene Einstellungen für Besprechungsrichtlinien
 
-Um eine optimale Nutzung der Bookings-App zu ermöglichen, erstellen Sie eine Mitarbeiter-Besprechungsrichtlinie für die automatische Zulassung von **Jedem in Ihrer Organisation**. Dadurch können Mitarbeiter automatisch am Termin teilnehmen, und für externe Teilnehmer wird der Wartebereich aktiviert. Erfahren Sie mehr darüber, wie [Personen automatisch zu Besprechungen zugelassen werden können](meeting-policies-in-teams.md#automatically-admit-people).
+Um eine optimale Nutzung der Bookings-App zu ermöglichen, erstellen Sie eine Mitarbeiter-Besprechungsrichtlinie für die automatische Zulassung von **Jedem in Ihrer Organisation**. Dadurch können Mitarbeiter automatisch am Termin teilnehmen, und für externe Teilnehmer wird der Wartebereich aktiviert. Erfahren Sie mehr darüber, wie [Personen automatisch zu Besprechungen zugelassen werden können](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 ### <a name="optional-staff-approvals-setting"></a>Optionale Einstellung für Genehmigungen durch Mitarbeiter
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8c3c842b47c4575779de4c0ae8301bededb632
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098301"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607517"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Verhalten von Microsoft Teams-Apps für Nichtstandardbenutzer
 
@@ -73,6 +73,6 @@ Anonyme Benutzer können Apps in Besprechungen nicht installieren, aktualisieren
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Verwendungsverhalten und Richtlinie für anonyme Benutzer
 
-Anonyme Benutzer können Apps in Besprechungen nicht direkt verwenden. Systemeigene Benutzer können weiterhin Besprechungs-Apps verwenden, wenn anonyme Benutzer vorhanden sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren.
+Anonyme Benutzer können Apps in Besprechungen nicht direkt verwenden. Systemeigene Benutzer können weiterhin Besprechungs-Apps verwenden, wenn anonyme Benutzer vorhanden sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren Weitere Informationen finden Sie unter Zulassen, dass anonyme Benutzer an [Besprechungen teilnehmen.](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
 
-Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Dieses Steuerelement ermöglicht anonymen Benutzern die Interaktion mit Apps in Teams-Besprechungen, wenn die Berechtigungsrichtlinie auf Benutzerebene die App aktiviert hat. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.
+Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Sie können mit Apps in Teams-Besprechungen interagieren, wenn die Berechtigungsrichtlinie auf Benutzerebene die App aktiviert hat. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 680bfad9090899ecce1f6e2be7bd9a0a25f5099a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 015a0f079f5e95f43c4245ff48f2d88df0e1fa74
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112171"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598304"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgradereise von Skype for Business zu Teams aus.
 
@@ -62,7 +62,7 @@ Um Ihnen bei der Entscheidungsfindung zu helfen, machen Sie sich mit den verschi
 
 Ein Benutzer, der zu Teams migriert wurde, verwendet keinen Skype for Business-Client mehr, außer an einer in Skype for Business gehosteten Besprechung teil zu nehmen. Alle eingehenden Chats und Anrufe landen im Teams-Client des Benutzers, unabhängig davon, ob der Absender Teams oder Skype for Business verwendet. Alle neuen Besprechungen, die vom aktualisierten Benutzer organisiert werden, werden als Teams-Besprechungen geplant. Wenn der Benutzer versucht, den Skype for Business-Client zu verwenden, wird die Initiierung von Chats und Anrufen<sup>blockiert 1</sup>. Der Benutzer kann (und muss) jedoch den Skype for Business-Client verwenden, um an Besprechungen teilzunehmen, zu der er eingeladen ist.
 
-Administratoren verwalten den Übergang zu Teams mithilfe des Moduskonzepts [,](migration-interop-guidance-for-teams-with-skype.md)das eine Eigenschaft von [TeamsUpgradePolicy ist.](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) Ein Benutzer, der wie oben beschrieben zu Teams migriert wurde, befindet sich im Modus "TeamsOnly". Für eine Organisation, die zu Teams migriert wird, besteht das ultimative Ziel in der Umstellung aller Benutzer in den TeamsOnly-Modus.
+Administratoren verwalten den Übergang zu Teams mithilfe des Moduskonzepts [,](migration-interop-guidance-for-teams-with-skype.md)das eine Eigenschaft von [TeamsUpgradePolicy ist.](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true) Ein Benutzer, der wie oben beschrieben zu Teams migriert wurde, befindet sich im Modus "TeamsOnly". Für eine Organisation, die zu Teams migriert wird, besteht das ultimative Ziel in der Umstellung aller Benutzer in den TeamsOnly-Modus.
 
 Es gibt zwei Methoden zum Migrieren einer vorhandenen Organisation mit Skype for Business (online oder lokal) zu Teams:
 
@@ -113,7 +113,7 @@ In der folgenden Tabelle ist die Teams-Erfahrung für den Inselmodus und den Tea
 | Eingehende Chats und Empfangene Anrufe in:|  Teams oder Skype for Business | Microsoft Teams |
 | Empfangene PSTN-Anrufe in: | Skype for Business <br>(Die Verwendung von PSTN-Funktionen in Teams wird im Inselmodus nicht unterstützt.)     | Microsoft Teams |   
  |Anwesenheit    | Die Anwesenheit in Skype for Business und Teams ist unabhängig. Je nachdem, welchen Client sie verwenden, werden den Benutzern möglicherweise unterschiedliche Zustände für denselben Benutzer angezeigt. | Die Anwesenheit basiert ausschließlich auf der Aktivität des Benutzers in Teams. Alle anderen Benutzer sehen diese Anwesenheit, unabhängig davon, welchen Client sie verwenden. | 
- | Besprechungsplanung    | Benutzer können Besprechungen in Teams oder Skype for Business planen. Standardmäßig werden beide Add-Ins in Outlook angezeigt. Sie können eine Teams-Besprechungsrichtlinie festlegen, um zu steuern, ob Benutzer nur das Teams Meeting-Add-In oder die Teams Meeting- und Skype for Business-Besprechungs-Add-Ins verwenden können. Weitere Informationen finden Sie unter [Festlegen des Besprechungsanbieters für Benutzer im Inselmodus.](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode) |     Benutzer planen nur Besprechungen in Teams. Nur das Teams-Add-In ist in Outlook verfügbar. | 
+ | Besprechungsplanung    | Benutzer können Besprechungen in Teams oder Skype for Business planen. Standardmäßig werden beide Add-Ins in Outlook angezeigt. Sie können eine Teams-Besprechungsrichtlinie festlegen, um zu steuern, ob Benutzer nur das Teams Meeting-Add-In oder die Teams Meeting- und Skype for Business-Besprechungs-Add-Ins verwenden können. Weitere Informationen finden Sie unter [Festlegen des Besprechungsanbieters für Benutzer im Inselmodus.](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode) |     Benutzer planen nur Besprechungen in Teams. Nur das Teams-Add-In ist in Outlook verfügbar. | 
 
 In der folgenden Tabelle sind die Vor- und Nachteile der Verwendung der Methode für überlappende Funktionen zum Migrieren Ihrer Organisation zu Teams zusammengefasst.
 
@@ -212,6 +212,6 @@ Nachdem Sie die beste Upgradereise für Ihre Organisation ausgewählt haben, [f�
 
 [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps&preserve-view=true)
 
 [Verwenden des Besprechungsmigrationsdiensts (MMS)](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
