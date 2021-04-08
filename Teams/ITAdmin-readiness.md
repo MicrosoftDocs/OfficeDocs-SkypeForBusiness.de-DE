@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094567"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617798"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -75,6 +75,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Titel                                                                       | Kurzbeschreibung                                                                                                                                                                                                               |  Link zum Handbuch                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identität, Zugriffsverwaltung und Bedrohungsschutz für Teams                   | Erfahren Sie, wie Sie Microsoft Admin Center und PowerShell verwenden, um Zugriffs- und Identitätsrichtlinien zu konfigurieren und den erweiterten Bedrohungsschutz von Office 365 (Office 365 ATP) für Teams zu aktivieren                                                            | [Sicherheitshandbuch für Microsoft Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) für Microsoft Teams                     | Erfahren Sie, wie Sie Microsoft Teams zu einer vorhandenen DLP-Richtlinie hinzufügen und eine neue Richtlinie erstellen, ganz gleich, ob sie auf einer Vorlage basiert oder vollständig an die Datenschutzanforderungen Ihrer Organisation angepasst ist.                        | [Teams -DLP-Leitfaden](https://aka.ms/teamsdlpguide)         |
 | Verwaltung der Compliance in Teams                                                | Verwenden Sie die Verwaltungszentren von Microsoft 365 Security, Microsoft 365 Compliance und Microsoft Teams sowie Windows PowerShell, um die Microsoft Teams-Richtlinien und -Einstellungen einer Office 365-Organisation zu verwalten und zu konfigurieren. | [Handbuch für die Verwaltung der Compliance in Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Advisor für Teams: Chats, Teams, Kanäle und Apps in Microsoft Teams bereitstellen | Erfahren Sie, wie Sie den Advisor für Teams nutzen können, um Ihre Umgebung zu bewerten und einen Plan für die Bereitstellung von Chats, Teams, Kanälen und Apps zu erstellen.                                                                                         |  [Handbuch für den Advisor für Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Optimierung der Teams-Verwaltung mit PowerShell und dynamischen Gruppen        | Konvertieren Sie eine Office 365-Gruppe von einer statischen Mitgliedschaft in eine dynamische und verwenden Sie Windows PowerShell, um allen Mitgliedern eine neue App-Berechtigungsrichtlinie zuzuweisen.                                                                         |  [Handbuch für die Optimierung der Teams-Verwaltung](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -85,6 +86,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungen                          | Gehen Sie Schritt für Schritt durch den Prozess der Bereitstellung des Besprechungs-Workloads für Microsoft Teams.                                                                                                                                       |  [Handbuch für das Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungen](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Konfigurieren von Audiokonferenzen für Microsoft Teams                            | Entdecken Sie die Funktionalitäten von Audiokonferenzen in Teams und erfahren Sie, wie Sie Konferenzbrücken und Einwahlrufnummern zuweisen.                                                                                          |  [Handbuch für das Konfigurieren von Audiokonferenzen für Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion                           | Erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre Mitarbeiter in Service und Produktion konfigurieren und bereitstellen.                                                                                                                  | [Handbuch für das Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| Identität für die Mitarbeiter an der Front: Stärken von IT, Managern und Frontlinemitarbeitern                    | Erfahren Sie, wie Sie Microsoft Teams in vorhandene Hr-Systeme integrieren, eine einfache delegierte Identitätsverwaltung konfigurieren und vereinfachte Anmeldungen und nahtlose Übergänge für Personen konfigurieren, die freigegebene Geräte verwenden.                                                                                                                  | [Leitfaden zur Frontline-Workeridentität](https://aka.ms/FLWIdentityIG)              |
 | Bereitstellen von Microsoft Teams Rooms                           | Erfahren Sie, wie Sie ein Konto für die Verwendung mit Microsoft Teams Rooms erstellen und konfigurieren und das Gerät im Microsoft Teams Admin Center verwalten.                                                                                                                  | [Bereitstellen von Microsoft Teams Rooms](https://aka.ms/teamsroomslab)              |
 
 <h2>Schnellstarthandbücher</h2>

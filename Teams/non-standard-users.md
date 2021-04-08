@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: fb4b5dfebabfcd0bc86006d93272c3901e7dcfc7
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607517"
+ms.locfileid: "51617848"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Verhalten von Microsoft Teams-Apps für Nichtstandardbenutzer
 
@@ -32,8 +32,8 @@ In diesem Artikel wird beschrieben, wie sich Apps in Teams verhalten, wenn Gastb
 
 - Ein **externer (Verbundbenutzer)** gehört zu einer anderen Domäne und hat keinen Zugriff auf die Teams oder Teamressourcen Ihrer Organisation.
 
->[!Note]
-> Einen detaillierten Vergleich zwischen Gast und externen Benutzern finden Sie unter Kommunizieren mit [Benutzern aus anderen Organisationen.](./communicate-with-users-from-other-organizations.md)
+  > [!Note]
+  > Einen detaillierten Vergleich zwischen Gast und externen Benutzern finden Sie unter Kommunizieren mit [Benutzern aus anderen Organisationen.](./communicate-with-users-from-other-organizations.md)
 
 - Ein **anonymer Benutzer** ist ein Konzept in Teams-Besprechungen, bei denen der Benutzer über einen Link der Besprechung beigetreten ist. Der Benutzer hat sich nicht mit seinem Microsoft- oder Organisationskonto angemeldet.
 
