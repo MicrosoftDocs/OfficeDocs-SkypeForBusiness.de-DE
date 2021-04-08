@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098181"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598524"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel und Microsoft Teams
+
+> [!IMPORTANT]
+> Azure Sentinel hat jetzt einen integrierten Connector. Weitere Informationen finden Sie unter [Office 365-Protokolle mit Azure Sentinel verbinden](/azure/sentinel/connect-office-365). Dies ist der empfohlene Weg zur Sammlung dieser Protokolle und ersetzt die nachfolgend beschriebenen Sammlungsmethoden.
 
 Teams spielt eine zentrale Rolle sowohl bei der Kommunikation als auch bei der Datenfreigabe in der Microsoft 365 Cloud. Da der Teams-Dienst Berührungspunkte mit so vielen zugrunde liegenden Technologien in der Cloud hat, kann er sowohl von menschlicher als auch automatisierter Analyse profitieren, nicht nur wenn es um das *Suchen in Protokollen* geht, sondern auch bei der *Überwachung von Besprechungen in Echtzeit*. Azure Sentinel bietet Administratoren diese Lösungen.
 
@@ -44,13 +47,13 @@ Dieser Artikel befasst sich hauptsächlich mit dem Sammeln von Team-Aktivitätsp
 
 Dieser Abschnitt besteht aus drei Teilen:
 
-1. Aktivieren von Überwachungsprotokollen in **Microsoft 365** (M365).
+1. Aktivieren von Überwachungsprotokollen in **Microsoft 365**.
 2. Registrieren einer App bei **Microsoft Azure**, um die Authentifizierung und Autorisierung für die Protokollsammlung zuzulassen.
-3. Registrieren des API-Abonnements, das die Protokollsammlung über die M365-API mittels **PowerShell** zulassen soll.
+3. Registrieren des API-Abonnements, das die Protokollsammlung über die Microsoft 365-API mittels **PowerShell** zulassen wird.
 
-### <a name="enable-audit-logs-in-m365"></a>Aktivieren von Überwachungsprotokollen in M365
+### <a name="enable-audit-logs-in-microsoft-365"></a>Aktivieren Sie Überwachungsprotokolle in Microsoft 365
 
-Da Teams Aktivitäten über M365 protokolliert, werden Überwachungsprotokolle nicht standardmäßig gesammelt. Aktivieren Sie diese Funktion mithilfe [dieser Schritte](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Teams-Daten werden in der M365-Überwachung unter *Audit.General* gesammelt.
+Da Microsoft Teams Aktivitäten über Microsoft 365 protokolliert, werden Überwachungsprotokolle nicht standardmäßig gesammelt. Aktivieren Sie diese Funktion mithilfe [dieser Schritte](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0). Microsoft Teams-Daten werden in der Microsoft 365-Überwachung unter *Audit.General* gesammelt.
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>Registrieren einer App bei Microsoft Azure für die Protokollsammlung
 
@@ -76,7 +79,7 @@ Authentifizieren und autorisieren Sie eine Azure Active Directory-App (Azure AD)
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>Registrieren der API bei PowerShell zum Sammeln von Team-Protokollen
 
-Der letzte Schritt bei der Einrichtung besteht darin, das API-Abonnement zu sammeln und zu registrieren, damit Sie Ihre Protokolldaten sammeln können. Dies geschieht über PowerShell-REST-Aufrufe der M365-Verwaltungsaktivitäts-API.
+Der letzte Schritt bei der Einrichtung besteht darin, das API-Abonnement zu sammeln und zu registrieren, damit Sie Ihre Protokolldaten sammeln können. Dies geschieht über PowerShell-REST-Aufrufe der Microsoft 365-Verwaltungsaktivitäts-API.
 
 Halten Sie die Werte für die **Anwendungs (Client)-ID**, den neuen **geheimen Clientschlüssel**, Ihre **URL-Domäne für M365** und die **Verzeichnis (Mandanten)-ID** bereit, um sie unten in dem PowerShell-Cmdlet bereitzustellen.
 

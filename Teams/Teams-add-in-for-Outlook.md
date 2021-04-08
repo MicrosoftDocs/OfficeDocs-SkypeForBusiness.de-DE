@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593773"
+ms.locfileid: "51598384"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -115,7 +115,7 @@ Aufgrund bestimmter Einschränkungen in der ersten Version kann Outlook Mobile n
 
 Als Administrator können Sie eine Richtlinieneinstellung für Microsoft Teams-Besprechungen konfigurieren, um zu steuern, welches Outlook-Besprechungs-Add-in für *Benutzern im Inselmodus* verwendet wird. Sie können festlegen, ob Benutzer nur das Add-In für Microsoft Teams-Besprechungen oder sowohl das Add-In für Microsoft Teams-Besprechungen als auch jenes für Skype for Business-Besprechungen verwenden können, um Besprechungen in Outlook zu planen.
 
-Sie können diese Richtlinie nur für Benutzer im Inselmodus anwenden und für die der Parameter **AllowOutlookAddIn** in ihrer Microsoft Teams-Richtlinie auf **True** festgelegt ist. Die Schritte zum Festlegen dieser Richtlinie finden Sie unter [Festlegen des Besprechungsanbieters für Benutzer im Inselmodus](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode).
+Sie können diese Richtlinie nur für Benutzer im Inselmodus anwenden und für die der Parameter **AllowOutlookAddIn** in ihrer Microsoft Teams-Richtlinie auf **True** festgelegt ist. Die Schritte zum Einrichten dieser Richtlinie finden Sie unter [Einstellungen für Besprechungsrichtlinien – Allgemein](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode).
 
 ## <a name="other-considerations"></a>Andere Überlegungen
 
@@ -142,7 +142,7 @@ Sie können aber auch die folgenden Schritte manuell ausführen:
 
 - Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für Microsoft Teams-Besprechung funktioniert.
 - Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Microsoft Teams verfügt, die das Planen von Besprechungen in Microsoft Teams ermöglicht. Weitere Informationen hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
-- Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Näheres dazu finden Sie unter [Besprechungsrichtlinien in Microsoft Teams verwalten](./meeting-policies-in-teams.md#allow-the-outlook-add-in).
+- Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Weitere Details finden Sie unter [Einstellungen für Besprechungsrichtlinien – Allgemein](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in).
 - Stellen Sie sicher, dass der Benutzer den Microsoft Teams-Desktopclient installiert hat. Das Besprechungs-Add-In wird nicht installiert, wenn nur der Microsoft Teams-Webclient verwendet wird.
 - Stellen Sie sicher, dass der Benutzer Outlook 2013 oder höher installiert hat.
 - Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32.exe" verfügt.
