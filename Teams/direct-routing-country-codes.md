@@ -1,5 +1,5 @@
 ---
-title: Direkte Routing-Landesvorwahl
+title: Ländercodes für direktes Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,49 +15,52 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lesen Sie diesen Artikel, um die Landesvorwahl für den Medienpfad für das direkte Routing zu finden, damit Sie den optimalen Medienpfad auswählen können.
+description: Lesen Sie diesen Artikel, um nach Den Medienpfad-Ländercodes für Direct Routing zu suchen, damit Sie den optimalen Medienpfad auswählen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904807"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648124"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>Direct Routing-Medienpfad Landesvorwahl
+# <a name="direct-routing-media-path-country-codes"></a>Direct Routing Media Path Country Codes
 
-Wenn Sie einen Routingpfad für Medien auswählen, weist das direkte Routing standardmäßig immer ein Datacenter auf der Grundlage der öffentlichen IP-Adresse des Session Border Controller (SBC) zu und wählt immer den Pfad aus, der dem SBC-Rechenzentrum am nächsten ist.
+Bei der Auswahl eines Routingpfads für Medien weist Direct Routing standardmäßig immer ein Rechenzentrum basierend auf der öffentlichen IP-Adresse des Session Border Controllers (SBC) zu und wählt immer den Pfad aus, der dem SBC-Rechenzentrum am nächsten ist.
 
-In einigen Fällen ist der Standard Medienpfad aber möglicherweise nicht der optimale Medienpfad. So kann beispielsweise eine öffentliche IP-Adresse aus einem United States-Bereich einem SBC in Europa zugewiesen werden. 
+In einigen Fällen ist der Standardmedienpfad jedoch möglicherweise nicht der optimale Medienpfad. So könnte beispielsweise eine öffentliche IP aus einem Bereich der VEREINIGTEn Staaten einem SBC in Europa zugewiesen werden. 
 
-Mithilfe des-MediaRelayRoutingLocationOverride-Parameters mit den Cmdlets New-CsOnlinePSTNGateway und setCsOnlinePSTNGateway können Sie die bevorzugte Region für den Mediendatenverkehr angeben. Der folgende Befehl gibt beispielsweise an, dass die bevorzugte Region Deutschland ist:
+Mithilfe des -MediaRelayRoutingLocationOverride-Parameters mit den cmdlets New-CsOnlinePSTNGateway und Set-CsOnlinePSTNGateway können Sie den bevorzugten Bereich für den Mediendatenverkehr angeben. Der folgende Befehl gibt beispielsweise an, dass die bevorzugte Region Deutschland ist:
 
-Satz-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationOverride de 
+Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-Beachten Sie, dass Microsoft nur empfiehlt, diesen Parameter festzulegen, wenn die Anrufprotokolle deutlich angeben, dass die Standardzuweisung des Datencenters für den Medienpfad nicht den Pfad verwendet, der dem SBC-Rechenzentrum am nächsten ist. 
+Beachten Sie, dass Microsoft das Festlegen dieses Parameters nur empfiehlt, wenn die Anrufprotokolle deutlich angeben, dass die Standardzuordnung des Rechenzentrums für den Medienpfad nicht den Pfad verwendet, der dem SBC-Rechenzentrum am nächsten ist. 
+
+> [!NOTE]
+> -MediaRelayRoutingLocationOverride – Dieser Befehl steht in Szenarien für direktes Routing nicht zur Verfügung.
  
-## <a name="country-code-reference-table"></a>Ländercode-Referenztabelle
+## <a name="country-code-reference-table"></a>Ländercodereferenztabelle
 
-Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelayRoutingLocationOverride:
+Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRoutingLocationOverride:
 
 | Land         | Code 
 |-----------------|--------------------|
 | Afghanistan     | AF |
-| Aland-Inseln   | AX |
-| Albanien         | Al |
+| Alandinseln   | AX |
+| Albanien         | AL |
 | Algerien         | DZ |
-| Amerikanisch-Samoa  | Als |
+| Amerikanisch-Samoa  | AS |
 | Andorra         | AD |
-| Angola          | Ao |
-| Anguilla        | Ai |
+| Angola          | AO |
+| Anguilla        | KI |
 | Antarktis      | AQ | 
 | Antigua und Barbuda | AG |
 | Argentinien       | AR |
-| Armenien         | Verwende |
+| Armenien         | AM |
 | Aruba           | AW |
 | Australien       | AU |
-| Österreich         | Am |
-| Aserbaidschan      | Arizona |
+| Österreich         | AT |
+| Aserbaidschan      | AZ |
 | Bahamas         | BS |
 | Bahrain         | BH |
 | Bangladesch      | BD |
@@ -65,16 +68,16 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Weißrussland         | BY |
 | Belgien         | BE |
 | Belize          | BZ |
-| Benin           | Bj |
+| Benin           | BJ |
 | Bermuda         | BM |
 | Bhutan          | BT |
-| Bolivien         | Bo |
+| Bolivien         | BO |
 | Bonaire         | BQ |
 | Bosnien und Herzegowina | BA |
 | Botsuana        | BW |
-| Bouvet-Insel   | BV |
+| BouvetInsel   | BV |
 | Brasilien          | BR |
-| Britisches Territorium im indischen Ozean | IO |
+| Britisches Territorium im Indischen Ozean | IO |
 | Britische Jungferninseln | VG |
 | Brunei          | BN |
 | Bulgarien        | BG |
@@ -86,50 +89,50 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Kanada          | CA |
 | Kaimaninseln  | KY |
 | Zentralafrika | CF |
-| Tschad0            | TD |
+| Chad            | TD |
 | Chile           | CL |
 | China           | CN |
 | Weihnachtsinsel | CX |
-| Kokosinseln (Keeling) | CC |
+| Kokosinseln (Keelinginseln) | CC |
 | Kolumbien        | CO |
 | Komoren         | KM |
 | Kongo           | CG |
-| Kongo (DRC)     | CD |
-| Cook-Inseln    | Tzung |
+| Kongo (DRK)     | CD |
+| Cookinseln    | CK |
 | Costa Rica      | CR |
-| Elfenbeinküste   | CI |
+| Cote d'Ivoire   | CI |
 | Kroatien         | HR |
-| Kuba            | Ku |
-| Curaçao         | CW |
+| Kuba            | CU |
+| Curacao         | CW |
 | Zypern          | CY |
-| Tschechien         | CZ |
+| Tschechisch         | CZ |
 | Dänemark         | DK |
-| Dschibuti        | Moderator |
+| Dschibuti        | DJ |
 | Dominica        | DM |
-| Dominikanische Republik | Tun |
+| Dominikanische Republik | DO |
 | Ecuador         | EC |
 | Ägypten           | EG |
 | El Salvador     | SV |
 | Äquatorialguinea | GQ |
-| Eritrea         | Er |
+| Eritrea         | ER |
 | Estland         | EE |
 | Eswatini        | SZ |
 | Äthiopien        | ET |
-| Falkland-Inseln | FK |
-| Färöer   | ' |
+| Falklandinseln | FK |
+| Färöer   | FO |
 | Fidschi            | FJ |
 | Finnland         | FI |
 | Frankreich          | FR |
 | Französisch-Guayana   | GF |
 | Französisch-Polynesien | PF |
-| Französische Südliche Territorien | TF |
+| Französische Südgebiete | TF |
 | Gabun           | GA |
 | Gambia          | GM |
 | Georgien         | GE |
 | Deutschland         | DE |
 | Ghana           | GH |
 | Gibraltar       | GI |
-| Griechenland          | Gr |
+| Griechenland          | GR |
 | Grönland       | GL |
 | Grenada         | GD |
 | Guadeloupe      | GP |
@@ -138,43 +141,43 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Guernsey        | GG |
 | Guinea          | GN |
 | Guinea-Bissau   | GW |
-| Guyana          | Gy |
+| Guyana          | GY |
 | Haiti           | Hallo |
-| Heard-Insel und McDonald-Inseln | HM |
+| Heard Island and McDonald Islands | HM |
 | Honduras        | HN |
 | Hongkong (SAR)   | HK |
 | Ungarn         | HU |
-| Island         | Ist |
+| Island         | IS |
 | Indien           | IN |
 | Indonesien       | ID |
 | Iran            | IR |
 | Irak            | IQ |
 | Irland         | IE |
-| Isle of man     | Chat |
+| Isle of Man     | Chat |
 | Israel          | IL |
-| Italien           | Es |
+| Italien           | IT |
 | Jamaika         | JM |
 | Jan Mayen       | XJ |
 | Japan           | JP |
 | Jersey          | JE |
-| Jordanien          | Jo |
+| Jordanien          | JO |
 | Kasachstan      | KZ |
 | Kenia           | KE |
-| Kiribati        | Ki |
+| Kiribati        | KI |
 | Korea           | KR |
-| Kosovo0          | XK |
+| Kosovo          | XK |
 | Kuwait          | KW |
 | Kirgisistan      | KG |
-| Laos            | La |
+| Laos            | LA |
 | Lettland          | LV |
 | Libanon         | LB |
 | Lesotho         | LS |
 | Liberia         | LR |
 | Libyen           | LY |
-| Liechtenstein   | Li |
+| Liechtenstein   | LI |
 | Litauen       | LT |
 | Luxemburg      | LU |
-| Macao SAR       | Mo |
+| Macao SAR       | MO |
 | Madagaskar      | MG |
 | Malawi          | MW |
 | Malaysia        | MY |
@@ -183,11 +186,11 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Malta           | MT |
 | Marshall-Inseln | MH |
 | Martinique      | MQ |
-| Mauretanien      | Mr |
-| Mauritius       | Mu |
+| Mauretanien      | MR |
+| Mauritius       | MU |
 | Mayotte         | YT |
 | Mexiko          | MX |
-| Mikronesien      | UKW |
+| Mikronesien      | FM |
 | Moldawien         | MD |
 | Monaco          | MC |
 | Mongolei        | MN |
@@ -197,7 +200,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Mosambik      | MZ |
 | Myanmar         | MM |
 | Namibia         | NV |
-| Nauru0           | Nr |
+| Nauru           | NR |
 | Nepal           | NP |
 | Niederlande     | NL |
 | Neukaledonien   | NC |
@@ -205,10 +208,10 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Nicaragua       | NI |
 | Niger           | NE |
 | Nigeria         | NG |
-| Niue            | Nu |
-| Norfolk-Insel  | NF |
+| Niue            | NU |
+| Norfolkinsel  | NF |
 | Nordkorea     | KP |
-| Nord-Mazedonien | MK |
+| Nordmakedonien | MK |
 | Nördliche Marianen | NP |
 | Norwegen          | Nein |
 | Oman            | OM |
@@ -216,53 +219,53 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Palau           | PW |
 | Palästinensische Gebiete | PS |
 | Panama          | PA |
-| Papua-Neuguinea | Bild |
+| Papua-Neuguinea | PG |
 | Paraguay        | PY |
 | Peru            | PE |
 | Philippinen     | PH |
-| Pitcairn-Inseln | TN |
+| PitcairnInseln | PN |
 | Polen          | PL |
 | Portugal        | PT |
 | Puerto Rico     | PR |
 | Katar           | QA |
-| Reunion         | Wieder |
+| Reunion         | RE |
 | Rumänien         | RO |
 | Russland          | RU |
 | Ruanda          | RW |
 | Saba            | XS |
-| Saint Barthelemy | BL |
+| St. Barthelemy | BL |
 | St. Kitts und Nevis | KN |
 | St. Lucia     | LC |
-| Saint Martin    | MF |
+| St. Martin    | MF |
 | Saint Pierre und Miquelon | PM |
 | St. Vincent und die Grenadinen | VC |
 | Samoa           | WS |
 | San Marino      | SM |
-| Sao Tome und Principe | St |
+| Sao Tome und Principe | ST |
 | Saudi Arabien    | SA |
 | Senegal         | SN |
 | Serbien          | RS |
 | Seychellen      | SC |
 | Sierra Leone    | SL | 
 | Singapur       | SG |
-| Sint Eustatius  | Xe |
+| Sint Eustatius  | XE |
 | Sint Maarten    | SX |
 | Slowakei        | SK |
 | Slowenien        | SL |
-| Solomon-Inseln | SB |
-| Somalia0         | Also |
+| Salomonen | SB |
+| Somalia         | Also |
 | Südafrika    | ZA |
-| Südgeorgien und Süd-Sandwich-Inseln | GS |
+| Südgeorgien und Südliche Sandwichinseln | GS |
 | Südsudan     | SS |
 | Spanien           | ES |
 | Sri Lanka       | LK |
-| St. Helena, Ascension, Tristan da Cunha | SH |
+| St. Helena, Himmelfahrt, Tristan da Cunha | SH |
 | Sudan           | SD |
 | Suriname        | SR |
 | Svalbard        | SJ |
 | Schweden          | SE |
 | Schweiz     | CH |
-| Syrien           | Sy |
+| Syrien           | SY |
 | Taiwan          | TW |
 | Tadschikistan      | TJ |
 | Tansania        | TZ |
@@ -275,10 +278,10 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Tunesien         | TN |
 | Türkei          | TR |
 | Turkmenistan    | TM |
-| Turks-und Caicos-Inseln | TC |
+| Turks- und Caicosinseln | TC |
 | Tuvalu          | TV |
-| US-amerikanische abgelegene Inseln | UM |
-| US-amerikanische Jungferninseln | VI |
+| Us.Outlying Islands | UM |
+| Amerikanische Jungferninseln | VI |
 | Uganda          | UG |
 | Ukraine         | UA |
 | Vereinigte Arabische Emirate | AE |
@@ -286,12 +289,12 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Vereinigte Staaten   | US |
 | Uruguay         | UY |
 | Usbekistan      | UZ |
-| Vanuatu0         | VU |
+| Vanuatu         | VU |
 | Vatikanstadt    | VA |
 | Venezuela       | VE |
 | Vietnam         | VN |
 | Wallis und Futuna | WF |
-| Jemen           | Ihr |
+| Jemen           | YE |
 | Sambia          | ZM |
 | Simbabwe        | ZW |
 

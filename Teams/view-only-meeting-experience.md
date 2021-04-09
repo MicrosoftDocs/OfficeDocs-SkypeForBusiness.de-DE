@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215330"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637867"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -105,9 +105,6 @@ Die folgenden Optionen in Besprechungen stehen den schreibgeschützten Teilnehme
 - Treten Sie dem Nur-Ansichtsraum mit microsoft Teams Rooms-System oder cloud video interop (CVI)-Diensten bei.
 - Sie können ihr Audio oder Video nicht teilen.
 - Sie können den Besprechungschat nicht sehen und nicht daran teilnehmen.
-  - Dem Chat werden die ersten 1000 (oder 300) Benutzer hinzugefügt, die zu der Besprechung eingeladen wurden.
-  - Benutzer, die nur anzeigen, sehen den Chat in der Besprechung nicht, können aber möglicherweise trotzdem in der Haupt-App chatten, wenn sie die ersten 350 eingeladenen Personen waren.
-  - Wenn dagegen ein interaktiver Benutzer nicht Teil der ersten 350 benutzer war, die zur Besprechung eingeladen wurden, erhalten sie keinen Zugriff auf den Besprechungschat sowohl in der Haupt-Teams-App als auch in der Besprechung.
 - Sie können den Video-Feed von Besprechungsteilnehmern nicht sehen, sofern der Teilnehmer nicht der aktive Sprecher ist.
 - Weitere Informationen finden Sie unter PowerPoint-Dateien, die mithilfe der PowerPoint Live-Funktionalität oder einzelner Anwendungsfreigaben (mit anderen Als Desktop- oder Bildschirmfreigaben) freigegeben werden.
 - Heben Sie ihre Hand in der Besprechung.

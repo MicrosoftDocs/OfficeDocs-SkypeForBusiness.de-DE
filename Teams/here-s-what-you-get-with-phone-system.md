@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Erfahren Sie mehr über die Features, die Verfügbarkeit und das Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: 3c63362b1be16a2e6ad1b55ca6090fadb81b3ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b26f6d72a92f0012f47d155531be523872e5a08c
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120686"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648134"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Vorteile des Telefonsystems
 
@@ -67,7 +67,7 @@ Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, steh
 |[Sekundärer Klingelton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren Lautsprechergeräten, die an ihren PC angeschlossen sind, können zusätzlich zu ihrem Standardlautsprecher ein sekundäres Gerät zum Klingeln festlegen. Ein Benutzer mit einem Headset, das an den PC und die Tischlautsprecher angeschlossen ist, kann z. B. auswählen, dass sowohl Headset- als auch Tischlautsprecher klingeln, wenn ein Anruf einkommt, damit er keinen Anruf verpasst.  |
 |[Benachrichtigungen mit klingelnden Benachrichtigungen](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (nur Teams)<br/> |Ermöglicht Benutzern die Auswahl separater Klingeltöne für normale Anrufe, weitergeleitete Anrufe und delegierte Anrufe, damit sie die Art des Anrufs unterscheiden können.  <br/> |
 |[Funktion "Gemeinsame Leitungen"](shared-line-appearance.md) <br/> | Ermöglicht Benutzern, ihre Telefonleitung zu teilen, damit ein anderer Benutzer anrufe in ihrem Auftrag anrufen und empfangen kann.|
-|[Beschäftigt bei Beschäftigt](teams-calling-policy.md) (nur Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe behandelt werden, wenn ein Benutzer bereits an einem Anruf oder einer Konferenz teilnimmt oder einen Anruf in den Halteraum gesetzt hat. Der Anrufer hört ein gebuchtes Signal, wenn sich der Anrufer bereits am Telefon befindet. Der Anrufer erhält eine Benachrichtigung über verpasste Anrufe, kann jedoch keine eingehenden Anrufe entgegenrufen. Dieses Feature ist standardmäßig deaktiviert, kann aber vom Mandantenadministrator aktiviert werden. |
+|[Beschäftigt bei Beschäftigt](teams-calling-policy.md) (nur Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe behandelt werden, wenn ein Benutzer bereits an einem Anruf oder einer Konferenz teilnimmt oder einen Anruf in den Halteraum gesetzt hat. Der Anrufer hört entweder ein ausgelastetes Signal, wenn der Anrufer bereits am Telefon ist, oder er wird entsprechend an die nicht beantworteten Einstellungen des Benutzers weiter geroutet, d. h., der Anrufer kann dem Benutzer, der sich bereits an einem Anruf befindet, eine Voicemail hinterlassen. Der Anrufer erhält eine Benachrichtigung über verpasste Anrufe, kann jedoch keine eingehenden Anrufe entgegenrufen. Dieses Feature ist standardmäßig deaktiviert, kann aber vom Mandantenadministrator aktiviert werden.|
 |[Anrufblockierung](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern das Hinzufügen von Telefonnummern (PSTN) zu einer blockierten Liste, sodass der nächste Anruf von dieser Nummer an den Benutzer blockiert wird.|
 |[Telefone im allgemeinen Bereich](set-up-common-area-phones.md) <br/> | Ein Telefon im allgemeinen Bereich wird in der Regel in einem Bereich wie einem Wartebereich oder Konferenzraum platziert, wodurch es für mehrere Personen zur Verfügung steht. Telefone im allgemeinen Bereich werden als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.|
 |[Medienumgehungsunterstützung](direct-routing-plan-media-bypass.md) (nur für Teams Direct Routing) <br/> | Um eine bessere Leistung zu erzielen, werden Medien zwischen dem Session Border Controller (SBC) und dem Client gespeichert, statt sie über das Microsoft Phone System zu senden. |

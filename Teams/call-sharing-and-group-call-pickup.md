@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Anruffreigabe und Gruppenanrufabholung ermöglichen es Benutzern, eingehende Anrufe mit Kollegen zu teilen, damit Anrufe erfasst werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 1ec3c389bf2eb69f30e13ebbba6c7d5d1d5fe38c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102791"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637827"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -43,7 +43,7 @@ Um Anrufe für andere Personen zu teilen, erstellt ein Benutzer eine Anrufgruppe
 
 ## <a name="license-required"></a>Lizenz erforderlich
 
-Die Benutzer müssen Enterprise-VoIP aktiviert sein, um die Anruffreigabe und die Gruppenanrufabholung einrichten und verwenden zu können. Weitere Details zum Lizenzierungsmodell finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
+Benutzern muss eine Microsoft Teams Phone System-Lizenz zugewiesen werden, um die Anruffreigabe und die Gruppenanrufabholung einrichten und verwenden zu können. Weitere Details zum Lizenzierungsmodell finden Sie unter Hier erfahren Sie, was Sie [mit Telefonsystem erhalten.](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 ## <a name="configure-group-call-pickup"></a>Konfigurieren der Gruppenanrufabholung
 

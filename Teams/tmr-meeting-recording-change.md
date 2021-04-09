@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c57b925875308b7cdd9e654103e8d11050ce082d
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506668"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637817"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -38,6 +38,11 @@ ms.locfileid: "51506668"
 |Inkrementelle Einführung ab dem 7. Juli 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Alle Kunden (Enterprise, Education und GCC)**<br>Es können keine neuen Besprechungsaufzeichnungen in Microsoft Stream (klassisch) gespeichert werden. Bei allen Kunden werden Besprechungsaufzeichnungen automatisch auf OneDrive for Business und SharePoint gespeichert, selbst wenn sie ihre Teams-Besprechungsrichtlinien in "Stream" geändert haben.<br><br> Um den Wandel in Ihrem Unternehmen besser kontrollieren zu können, empfehlen wir unseren Kunden, sich für den Wechsel zu entscheiden, wann immer Sie denken, es ist der richtige Zeitpunkt, anstatt darauf zu warten, dass der Wechsel stattfindet. |
 
 Microsoft Teams hat eine neue Methode zum Speichern von Besprechungsaufzeichnungen. Als erste Phase eines Übergangs vom klassischen Microsoft Stream zum [neuen Stream](/stream/streamnew/new-stream) speichert diese Methode Aufzeichnungen auf Microsoft OneDrive for Business und SharePoint in Microsoft 365 und bietet viele Vorteile.
+
+> [!NOTE]
+> Wenn eine #A0 nicht erfolgreich auf OneDrive/SharePoint hochgeladen werden kann, wird die Aufzeichnung stattdessen vorübergehend in Azure Media Services (AMS) gespeichert. Nachdem sie in AMS gespeichert wurden, werden keine Wiederholungsversuche ausgeführt, um die Aufzeichnung automatisch auf OneDrive/SharePoint oder Stream hochzuladen.
+
+In AMS gespeicherte Besprechungsaufzeichnungen sind 21 Tage lang verfügbar, bevor sie automatisch gelöscht werden. Benutzer können das Video von AMS herunterladen, wenn sie eine Kopie behalten müssen.
 
 Die Verwendung von OneDrive for Business und SharePoint zum Speichern von Aufzeichnungen bietet folgende Vorteile:
 
@@ -63,29 +68,29 @@ Weitere Informationen finden Sie unter "Neu bei Microsoft Teams-Besprechungsaufz
 Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinienebene von Teams. Das folgende Beispiel zeigt, wie Sie die globale Richtlinie festlegen können. Stellen Sie sicher, dass Sie die Option zur Besprechungsaufzeichnung für die Richtlinie oder Richtlinien festlegen, die Sie Ihren Benutzern zugewiesen haben.
 
 > [!Note]
-> Änderungen an Teams-Besprechungsrichtlinien brauchen eine Weile, um verteilt zu werden. Kehren Sie ein paar Stunden nach der Einstellung zurück, und melden Sie sich ab und wieder an.
+> Änderungen an den Besprechungsrichtlinien von Teams dauern eine Weile, bis sie weitervererbt werden. Schauen Sie nach ein paar Stunden nach dem Festlegen zurück, melden Sie sich ab, und melden Sie sich erneut bei der Teams Desktop-App an, oder starten Sie Ihren Computer einfach neu.
 
 1. Teams PowerShell installieren.
 
    > [!NOTE]
    > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams. Wenn Sie die neueste Version von Teams PowerShell verwenden, müssen Sie den Skype for Business Online-Connector nicht installieren. Siehe [Verwalten von Skype for Business Online mit PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide).
 
-1. Öffnen Sie PowerShell als Administrator.
+2. Öffnen Sie PowerShell als Administrator.
 
-2. Installieren Sie das [PowerShell-Modul von Teams](./teams-powershell-install.md).
+3. Installieren Sie das [PowerShell-Modul von Teams](./teams-powershell-install.md).
 
-3. Importieren Sie das MicrosoftTeams-Modul, und melden Sie sich als Teamadministrator an.
+4. Importieren Sie das MicrosoftTeams-Modul, und melden Sie sich als Teamadministrator an.
 
 
-```powershell
-  # When using Teams PowerShell Module
-
+   ```powershell
+   # When using Teams PowerShell Module
+   
    Import-Module MicrosoftTeams
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
-```
+   ```
 
-4. Verwenden Sie [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) zum Festlegen einer Teams-Besprechungsrichtlinie für den Übergang vom Streamspeicher zu OneDrive for Business und SharePoint.
+5. Verwenden Sie [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) zum Festlegen einer Teams-Besprechungsrichtlinie für den Übergang vom Streamspeicher zu OneDrive for Business und SharePoint.
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -146,6 +151,10 @@ Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandel
 
 - Bei Kanalbesprechungen werden Berechtigungen von der Liste "Besitzer" und "Mitglieder" im Kanal geerbt.
 
+> [!NOTE]
+> Wenn die Aufzeichnung mit dem Speichern abgeschlossen ist, erhalten Sie keine E-Mail, aber die Aufzeichnung wird im Besprechungschat angezeigt, sobald sie abgeschlossen ist. Dies geschieht viel schneller als zuvor in Stream.
+> Sie können steuern, für wen Sie die Aufzeichnung freigeben, aber Sie können nicht blockieren, dass Personen mit geteilten Zugriff die Aufzeichnung herunterladen.  
+
 **Wie kann ich Untertitel verwalten?**
 
 Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen die [Aufzeichnungstranskription über Richtlinien aktivieren]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) um sicherzustellen, dass ihre Benutzer die Möglichkeit haben, Besprechungen mit Transkription aufzeichnen zu können.
@@ -155,6 +164,9 @@ Untertitel helfen dabei, Inhalte für Betrachter aller Fähigkeiten inklusiv zu 
 Untertitel werden bei Teams-Besprechungsaufzeichnungen 60 Tage ab der Aufzeichnung der Besprechung unterstützt.
 
 Untertitel für Hörgeschädigte werden nicht vollständig unterstützt, wenn die Teams-Besprechungsaufzeichnung von ihrem ursprünglichen Speicherort auf OneDrive for Business oder SharePoint verschoben oder kopiert wird.
+
+> [!NOTE]
+> Es gibt nur englische Untertitel (die Transkription von Besprechungen ist in GCC noch nicht verfügbar).
 
 **Wie wirkt sich dies auf mein Speicherkontingent aus?**
 
