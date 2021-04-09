@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d5c2ad8b737c8299eb04735d5df5dc2893c3568
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119154"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637857"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -164,7 +164,6 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 **Datenspeicherort für diese Länder/Regionen (unterstützt)**
 
 - Australien
-- Brasilien
 - Kanada
 - Frankreich
 - Deutschland
@@ -178,6 +177,7 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 
 **Diese Länder/Regionen und Clouds werden nicht unterstützt**
 
+- Brasilien
 - Norwegen
 - Government Community Cloud (GCC)-H
 - Verteidigungsministerium (DoD, Department of Defense)
