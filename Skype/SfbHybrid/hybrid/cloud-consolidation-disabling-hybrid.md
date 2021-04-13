@@ -21,22 +21,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Artikel enthält detaillierte Schritte zum Deaktivieren von Hybrid als Teil der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593853"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656701"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Deaktivieren Der Hybridkonfiguration zum Abschließen der Migration in die Cloud
 
 In diesem Artikel wird beschrieben, wie Sie Ihre Hybridkonfiguration deaktivieren, bevor Sie Ihre lokale Skype for Business-Umgebung außer Betrieb gesetzt haben. Dies ist Schritt 2 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
 
-- Schritt 1. [Verschieben Sie alle erforderlichen Benutzer und Anwendungsendpunkte von lokal in online.](decommission-move-on-prem-users.md)
+- Schritt 1. [Verschieben Sie alle erforderlichen Benutzer von lokal in online.](decommission-move-on-prem-users.md)
 
 - **Schritt 2. Deaktivieren Sie die Hybridkonfiguration.** (Dieser Artikel)
 
-- Schritt 3. [Entfernen Sie Ihre lokale Skype for Business-Bereitstellung.](decommission-remove-on-prem.md)
+- Schritt 3. [Verschieben von Hybridanwendungsendpunkten von lokal in online](decommission-move-on-prem-endpoints.md).
+
+- Schritt 4. [Entfernen Sie Ihre lokale Skype for Business-Bereitstellung.](decommission-remove-on-prem.md)
 
 
 ## <a name="overview"></a>Übersicht
@@ -243,11 +245,12 @@ Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. Nachdem Sie alle Schritte in Methode 2 abgeschlossen haben, finden Sie weitere Schritte zum Entfernen Ihrer lokalen Skype for Business Server-Bereitstellung unter [Remove your on-premises Skype for Business Server.](decommission-remove-on-prem.md)
+12. Nachdem Sie alle Schritte in Methode 2 abgeschlossen haben, finden Sie unter Verschieben von Hybridanwendungsendpunkten von lokal in [online](decommission-move-on-prem-endpoints.md) und Entfernen Ihres lokalen Skype for Business Server weitere Schritte zum Entfernen Ihrer lokalen Skype for [Business Server-Bereitstellung.](decommission-remove-on-prem.md)
 
 
 ## <a name="see-also"></a>Siehe auch
 
 - [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
 
-- [Außerbetriebsetzen Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
+- [Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
+

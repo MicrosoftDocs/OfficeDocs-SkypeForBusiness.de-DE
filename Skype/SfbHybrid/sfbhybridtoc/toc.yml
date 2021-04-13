@@ -24,10 +24,12 @@
       items:
         - name: Übersicht
           href: ../hybrid/decommission-on-prem-overview.md
-        - name: Benutzer und Endpunkte in die Cloud verschieben
+        - name: Verschieben von Benutzern in die Cloud
           href: ../hybrid/decommission-move-on-prem-users.md
         - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
           href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Verschieben von Anwendungsendpunkten in die Cloud
+          href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Entfernen Ihrer lokalen Skype for Business-Bereitstellung
           href: ../hybrid/decommission-remove-on-prem.md
     - name: Bereitstellen einer Topologie mit Ressourcengesamtstruktur

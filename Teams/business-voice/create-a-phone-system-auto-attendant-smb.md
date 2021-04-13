@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefon attendants für Microsoft 365 Business Voice einrichten und testen.
-ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 7fb9a9509354f5f6e3a17b2323eeaf2b5872e96e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506652"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656741"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Einrichten einer automatischen Attendant – Lernprogramm für kleine Unternehmen
 
@@ -62,9 +62,9 @@ Sie können im Teams Admin Center ein Ressourcenkonto erstellen.
 
 4. Klicken Sie auf **Speichern**.
 
-Das neue Konto wird in der Liste der Konten angezeigt.
+    Das neue Konto wird in der Liste der Konten angezeigt.
 
-![Screenshot einer Liste von Ressourcenkonten](../media/resource-accounts-page.png)
+    ![Screenshot einer Liste von Ressourcenkonten](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Zuweisen einer Lizenz
 
@@ -214,11 +214,11 @@ Ihre automatische Telefonkonferenz kann für jeden Feiertag, den Sie eingerichte
 
 7. Klicken Sie auf **Speichern**.
 
-Wiederholen Sie den Vorgang bei Bedarf für jeden weiteren Feiertag.
-
-![Screenshot der Feiertagseinstellungen mit aufgelisteten Feiertagen](../media/auto-attendant-holiday-call-settings.png)
-
-Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **Weiter**.
+    Wiederholen Sie den Vorgang bei Bedarf für jeden weiteren Feiertag.
+    
+    ![Screenshot der Feiertagseinstellungen mit aufgelisteten Feiertagen](../media/auto-attendant-holiday-call-settings.png)
+    
+    Wenn Sie alle Ihre Feiertage hinzugefügt haben, klicken Sie auf **Weiter**.
 
 > [!div class="nextstepaction"]
 > [Schritt 6 : Wählen Sie aus, wer sich im Verzeichnisverzeichnis >](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -245,7 +245,7 @@ Alle automatischen Attendanten müssen über ein zugeordnetes Ressourcenkonto ve
 
 So fügen Sie ein Ressourcenkonto hinzu
 
-1. Klicken **Sie auf Konto** hinzufügen, und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken **Sie auf** Hinzufügen , und klicken Sie dann auf **Hinzufügen.**
+1. Klicken Sie **auf** Hinzufügen, und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken **Sie auf** Hinzufügen , und klicken Sie dann auf **Hinzufügen.**
 
     ![Screenshot des Ressourcenkonto-Add-Accounts-Panels](../media/auto-attendant-add-resource-account.png)
 
@@ -253,7 +253,7 @@ So fügen Sie ein Ressourcenkonto hinzu
 
     ![Screenshot der Ressourcenkontoliste mit Ressourcenkonto mit zugewiesener Dienstnummer](../media/auto-attendant-resource-account-assigned.png)
 
-Damit wird die Konfiguration der automatischen Attendant-Funktion abgeschlossen.
+    Damit wird die Konfiguration der automatischen Attendant-Funktion abgeschlossen.
 
 ---
 

@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Anweisungen zum Außerbetriebsetzen von Skype for Business Server.
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593885"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656691"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Entfernen Ihrer lokalen Skype for Business-Bereitstellung
 
-In diesem Artikel wird beschrieben, wie Sie Ihre lokale Skype for Business-Bereitstellung entfernen. Dies ist Schritt 3 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
+In diesem Artikel wird beschrieben, wie Sie Ihre lokale Skype for Business-Bereitstellung entfernen. Dies ist Schritt 4 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
 
-- Schritt 1. [Verschieben Sie alle erforderlichen Benutzer und Anwendungsendpunkte von lokal in online.](decommission-move-on-prem-users.md) 
+- Schritt 1. [Verschieben Sie alle erforderlichen Benutzer von lokal in online.](decommission-move-on-prem-users.md) 
 
 - Schritt 2. [Deaktivieren Sie Die Hybridkonfiguration](cloud-consolidation-disabling-hybrid.md).
 
-- **Schritt 3. Entfernen Sie Ihre lokale Skype for Business-Bereitstellung.** (Dieser Artikel)
+- Schritt 3. [Verschieben von Hybridanwendungsendpunkten von lokal in online](decommission-move-on-prem-endpoints.md)
+
+- **Schritt 4. Entfernen Sie Ihre lokale Skype for Business-Bereitstellung.** (Dieser Artikel)
 
 
 > [!IMPORTANT] 
@@ -127,14 +129,13 @@ Nachdem Sie alle vorbereitenden Schritte abgeschlossen haben, können Sie die Sk
 
 ## <a name="see-also"></a>Siehe auch
 
-- [Außerbetriebsetzen Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
+- [Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
 
-- [Verschieben von Benutzern und Endpunkten in die Cloud](decommission-move-on-prem-users.md)
+- [Verschieben aller erforderlichen Benutzer von lokal in online](decommission-move-on-prem-users.md)
 
 - [Deaktivieren der Hybridkonfiguration](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [Verschieben von Hybridanwendungsendpunkten von lokal in online](decommission-move-on-prem-endpoints.md)
 
 
 

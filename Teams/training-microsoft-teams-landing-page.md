@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097561"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648114"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -52,8 +52,8 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
    :::column-end:::
 
    :::column:::
-   **[Teamarbeit](/learn/paths/m365-manage-team-collaboration)** </br>
-   Kurs: Die Zusammenarbeit in Teams
+   **[Team-Zusammenarbeit für IT verwalten](/learn/paths/m365-manage-team-collaboration)** </br>
+   Kurs: Erfahren Sie, wie Sie Teams verwenden, um die Teamarbeit und Kommunikation innerhalb Ihrer Organisation über Anwendungen und Geräte hinweg zu erleichtern.
 
    :::column-end:::
 

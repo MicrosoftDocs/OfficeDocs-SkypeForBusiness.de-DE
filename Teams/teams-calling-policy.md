@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51162656"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51653938"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Anrufrichtlinien in Microsoft Teams
 ===================================
@@ -94,7 +94,7 @@ Wenn Sie dies **auf Ein** festlegen, werden Anrufe über das PSTN gesendet, und 
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Beschäftigt ist während eines Anrufs verfügbar
 
-Beschäftigt bei Beschäftigt (Beschäftigt-Optionen) ist eine neue Einstellung, mit der Sie konfigurieren können, wie eingehende Anrufe behandelt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf im Halteraum platziert wird. Neue oder eingehende Anrufe können mit einem gebuchten Signal abgelehnt werden. Sie können Beschäftigt-Optionen auf Mandantenebene oder auf Benutzerebene aktivieren. Unabhängig davon, wie ihre Gebucht-Optionen konfiguriert sind, werden Benutzer in einem Anruf oder einer Konferenz oder personen, die einen Anruf im Halteraum haben, nicht daran gehindert, neue Anrufe oder Konferenzen zu initiieren. Diese Einstellung ist standardmäßig deaktiviert.
+Beschäftigt bei Beschäftigt (Beschäftigt-Optionen) ist eine neue Einstellung, mit der Sie konfigurieren können, wie eingehende Anrufe behandelt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf im Halteraum platziert wird. Neue oder eingehende Anrufe können mit einem gebuchten Signal abgelehnt oder entsprechend an die unbeantworteten Einstellungen des Benutzers geroutet werden. Sie können Beschäftigt-Optionen auf Mandantenebene oder auf Benutzerebene aktivieren. Unabhängig davon, wie ihre Gebucht-Optionen konfiguriert sind, werden Benutzer in einem Anruf oder einer Konferenz oder personen, die einen Anruf im Halteraum haben, nicht daran gehindert, neue Anrufe oder Konferenzen zu initiieren. Diese Einstellung ist standardmäßig deaktiviert.
 
 ### <a name="allow-web-pstn-calling"></a>Zulassen von Web-PSTN-Anrufen
 
