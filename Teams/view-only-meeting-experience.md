@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637867"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697800"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -31,7 +31,7 @@ ms.locfileid: "51637867"
 > [!Note]
 > Wenn Ihre Besprechung oder Ihr Webinar die Kapazitätsgrenze erreicht, wird Teams nahtlos skaliert, um eine schreibgeschützte Übertragungserfahrung für 10 000 Personen zu ermöglichen. Außerdem können Sie in dieser Zeit der vermehrten Remotearbeit bis zum Ende des Jahres von noch größeren Übertragungen für 20 000 Personen profitieren.
 
-Microsoft Teams ermöglicht bis zu 10 000 Teilnehmern den Beitritt zu einer Teams-Besprechung. Nachdem die Kapazität der Hauptsitzung erreicht wurde (d. h., wenn 300 Benutzer im Ww oder 250 in GCC an einer Besprechung teilnehmen), nehmen weitere Teilnehmer mit einer Nur-Ansicht-Erfahrung teil.
+Microsoft Teams ermöglicht bis zu 10 000 Teilnehmern den Beitritt zu einer Teams-Besprechung. Nachdem die Kapazität der Hauptsitzung erreicht wurde (d. h., wenn 300 Benutzer an einer Besprechung teilnehmen), nehmen weitere Teilnehmer mit einer Nur-Ansicht-Erfahrung teil.
 
 Teilnehmer, die zuerst an der Besprechung teilnehmen, erhalten bis zur Kapazität der Hauptbesprechung die vollständige Besprechungserfahrung von Teams. Sie können Audio und Video freigeben, freigegebene Videos ansehen und im Besprechungschat mitmachen.
 
@@ -65,7 +65,7 @@ Die Erfahrung eines Benutzers wird von mehreren Faktoren abhängen.
 Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht ist, kann ein Teilnehmer der Besprechung nicht beitreten, wenn einer der folgenden Punkte zutrifft:
 
 - Ein Administrator hat die Ansichtserfahrung nur für Teams für den Organisator oder für den gesamten Mandanten deaktiviert.
-- Der Nur-Ansicht-Teilnehmer kann den Wartebereich nicht umgehen. Wenn beispielsweise ein Organisator einer Besprechung entscheidet, dass nur Personen **in** meiner Organisation den Wartebereich umgehen, und ein Teilnehmer, der sich außerhalb der Organisation befindet, versucht, als Nur-Ansicht-Teilnehmer bei der Besprechung dabei zu sein, wird er abgelehnt.
+- Der Nur-Ansicht-Teilnehmer kann den Wartebereich nicht umgehen. Wenn beispielsweise ein Organisator einer Besprechung entscheidet, dass nur Personen **in** meiner Organisation den Wartebereich umgehen und ein Teilnehmer, der sich außerhalb der Organisation befindet, versucht, als Nur-Ansicht-Teilnehmer teilnehmen zu können, kann er nicht teilnehmen.
 
 Wenn die Kapazität der Hauptsitzung erreicht ist, sehen der Besprechungsorganisator und die Organisatorin ein Banner, in dem sie darüber informiert werden, dass neue Teilnehmer als Nur-Ansicht-Teilnehmer beitreten werden.
 
@@ -75,13 +75,13 @@ Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht wurde, werden Besprechu
 
   ![der Teams-Bildschirm vor dem Beitritt und die Nachricht für Teilnehmer, welche diese über den Beitritt im schreibgeschützten Modus informiert](media/view-only-pre-join-screen.png)
 
-Solange es Platz hat, wird ein Benutzer immer der Hauptbesprechung beitreten. Wenn die Hauptbesprechung die Kapazitätsgrenze erreicht und einer oder mehrere Teilnehmer die Hauptbesprechung verlassen, dann hat die Hauptbesprechung wieder verfügbare Kapazität. Teilnehmer, die der Besprechung beitreten (oder wieder beitreten), werden der Hauptbesprechung beitreten, bis diese die Kapazitätsgrenze wieder erreicht. Teilnehmer, die sich in der schreibgeschützten Erfahrung befinden, werden nicht automatisch in die Hauptbesprechung befördert, und sie können derzeit auch nicht manuell in die Hauptbesprechung befördert werden.
+Solange es Platz hat, wird ein Benutzer immer der Hauptbesprechung beitreten. Wenn die Hauptbesprechung die Kapazitätsgrenze erreicht und einer oder mehrere Teilnehmer die Hauptbesprechung verlassen, dann hat die Hauptbesprechung wieder verfügbare Kapazität. Teilnehmer, die der Besprechung beitreten (oder wieder beitreten), werden der Hauptbesprechung beitreten, bis diese die Kapazitätsgrenze wieder erreicht. Teilnehmer, die die Ansichtserfahrung haben, werden nicht automatisch zur Hauptsitzung heraufgestuft und können nicht manuell zur Hauptsitzung heraufgestuft werden.
 
-Wenn Presenter- und Teilnehmerrollen festgelegt wurden und ein Presenter versucht, an einer Besprechung zu teilnehmen, nachdem die Hauptbesprechung von die Kapazität erreicht hat, tritt er als Nur-Ansicht-Teilnehmer an und hat dieselben Einschränkungen wie andere Nur-Ansicht-Teilnehmer. Unterstützung, um sicherzustellen, dass alle Presenter an der Hauptsitzung teilnehmen, werden zu einem späteren Zeitpunkt durchgeführt. Der Organisator hat immer platzgarantierte Platz in der Hauptsitzung.
+Wenn Presenter- und Teilnehmerrollen festgelegt wurden und ein Presenter versucht, an einer Besprechung zu teilnehmen, nachdem die Kapazität der Hauptbesprechung erreicht wurde, tritt er als Nur-Ansicht-Teilnehmer an und hat dieselben Einschränkungen wie andere Nur-Ansicht-Teilnehmer. Unterstützung, um sicherzustellen, dass alle Presenter an der Hauptsitzung teilnehmen, werden zu einem späteren Zeitpunkt durchgeführt. Der Organisator hat immer platzgarantierte Platz in der Hauptsitzung.
 
-## <a name="impact-to-meeting-presenters"></a>Auswirkung auf Referenten der Besprechung
+## <a name="impact-to-meeting-presenters-and-organizers"></a>Auswirkungen auf Organisatoren und Besprechungsorganisatoren
 
-Zu den Einschränkungen für Referenten der Besprechung gehören:
+Zu den Einschränkungen für Besprechungsorganisatoren und -organisatoren gehören:
 
 - Sie werden keine Informationen über schreibgeschützte Teilnehmer haben. Wir unterstützten EDiscovery für schreibgeschützte Teilnehmer nicht.
 - Die Benutzer in der Haupt besprechung können die Nur-Ansicht-Teilnehmer nicht sehen.

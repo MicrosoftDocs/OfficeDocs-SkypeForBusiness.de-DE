@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Erfahren Sie mehr über die Features, die Verfügbarkeit und das Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: b26f6d72a92f0012f47d155531be523872e5a08c
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 926f3cd1b5ec6619c6d8146ad2ede82a7479c3d7
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648134"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697720"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Vorteile des Telefonsystems
 
@@ -67,16 +67,16 @@ Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, steh
 |[Sekundärer Klingelton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren Lautsprechergeräten, die an ihren PC angeschlossen sind, können zusätzlich zu ihrem Standardlautsprecher ein sekundäres Gerät zum Klingeln festlegen. Ein Benutzer mit einem Headset, das an den PC und die Tischlautsprecher angeschlossen ist, kann z. B. auswählen, dass sowohl Headset- als auch Tischlautsprecher klingeln, wenn ein Anruf einkommt, damit er keinen Anruf verpasst.  |
 |[Benachrichtigungen mit klingelnden Benachrichtigungen](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (nur Teams)<br/> |Ermöglicht Benutzern die Auswahl separater Klingeltöne für normale Anrufe, weitergeleitete Anrufe und delegierte Anrufe, damit sie die Art des Anrufs unterscheiden können.  <br/> |
 |[Funktion "Gemeinsame Leitungen"](shared-line-appearance.md) <br/> | Ermöglicht Benutzern, ihre Telefonleitung zu teilen, damit ein anderer Benutzer anrufe in ihrem Auftrag anrufen und empfangen kann.|
-|[Beschäftigt bei Beschäftigt](teams-calling-policy.md) (nur Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe behandelt werden, wenn ein Benutzer bereits an einem Anruf oder einer Konferenz teilnimmt oder einen Anruf in den Halteraum gesetzt hat. Der Anrufer hört entweder ein ausgelastetes Signal, wenn der Anrufer bereits am Telefon ist, oder er wird entsprechend an die nicht beantworteten Einstellungen des Benutzers weiter geroutet, d. h., der Anrufer kann dem Benutzer, der sich bereits an einem Anruf befindet, eine Voicemail hinterlassen. Der Anrufer erhält eine Benachrichtigung über verpasste Anrufe, kann jedoch keine eingehenden Anrufe entgegenrufen. Dieses Feature ist standardmäßig deaktiviert, kann aber vom Mandantenadministrator aktiviert werden.|
+|[Beschäftigt bei Beschäftigt](teams-calling-policy.md) (nur Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe behandelt werden, wenn ein Benutzer dies ist: <ul><li>in einem Anruf </li><li>in einer Konferenz</li><li>einen Anruf im Halteraum platziert hat. </li></ul> Der Anrufer erhält eine der folgenden Antworten: <ul><li>Hören eines gebuchten Signals, wenn sich der Anrufer auf dem Telefon befindet</li> <li>entsprechend an die unbeantworteten Einstellungen des Benutzers weiter. Mit einer Option kann der Anrufer eine Voicemail für den Benutzer hinterlassen, der sich bereits an einem Anruf befindet.</li></ul> Der Anrufer erhält eine Benachrichtigung über verpasste Anrufe, kann aber eingehende Anrufe nicht beantworten. Dieses Feature ist standardmäßig deaktiviert, kann aber vom Mandantenadministrator aktiviert werden.|
 |[Anrufblockierung](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern das Hinzufügen von Telefonnummern (PSTN) zu einer blockierten Liste, sodass der nächste Anruf von dieser Nummer an den Benutzer blockiert wird.|
 |[Telefone im allgemeinen Bereich](set-up-common-area-phones.md) <br/> | Ein Telefon im allgemeinen Bereich wird in der Regel in einem Bereich wie einem Wartebereich oder Konferenzraum platziert, wodurch es für mehrere Personen zur Verfügung steht. Telefone im allgemeinen Bereich werden als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.|
 |[Medienumgehungsunterstützung](direct-routing-plan-media-bypass.md) (nur für Teams Direct Routing) <br/> | Um eine bessere Leistung zu erzielen, werden Medien zwischen dem Session Border Controller (SBC) und dem Client gespeichert, statt sie über das Microsoft Phone System zu senden. |
-
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Verfügbarkeit in GCC-Hoch- und DoD-Wolken
 <a name="bkmk_setup"> </a>
 
 Die folgenden Funktionen sind in GCC-Hoch- und DoD-Wolken noch nicht verfügbar. 
+
 - [Anrufeinstellungen für sekundären Klingelton, Voicemail und erweiterte Delegierung](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Übertragen in voicemail mid call](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Telefonnummer über die Suchleiste anrufen
@@ -94,5 +94,3 @@ Die folgenden Funktionen sind in GCC-Hoch- und DoD-Wolken noch nicht verfügbar.
 - [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Preise für das Telefonsystem](https://products.office.com/microsoft-teams/voice-calling#requirements)
 - [Teams für virtualisierte Desktopinfrastruktur mit Anrufen und Besprechungen](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
-
-  

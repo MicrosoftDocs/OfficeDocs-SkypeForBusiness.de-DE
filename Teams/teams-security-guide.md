@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: edfa29dd1c2c3f5197b175f49d8d045967fc79f1
+ms.sourcegitcommit: d3c67eadf7cab167340d35b76401ff49fc7eb728
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093995"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51749483"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -261,7 +261,7 @@ Die Besprechungsteilnehmer werden auch nach Aufenthaltsort und Anmeldeinformatio
     b. *Remotebenutzer* – Diese Nutzer treten von außerhalb des Unternehmensnetzwerks bei. Dazu gehören Mitarbeiter, die zu Hause oder unterwegs arbeiten, und andere, wie Mitarbeiter von vertrauenswürdigen Anbietern, denen für ihre Vertragsbedingungen ein Unternehmenszertifikat erteilt wurde. Remotebenutzer können Besprechungen erstellen und daran teilnehmen und als Moderatoren fungieren.
 .
 2. **Nutzer, die nicht zum Mandanten gehören** Diese Nutzer haben in Azure AD keine Anmeldeinformationen für den Mandanten.
-    a. *Verbundbenutzer* – Verbundbenutzer verfügen über gültige Anmeldeinformationen bei Verbundpartnern und werden daher von Teams als authentifiziert behandelt, sind jedoch für den Mandanten des Besprechungsorganisators weiterhin anonym. Verbundbenutzer können an Besprechungen teilnehmen und nach der Teilnahme an der Besprechung zu Moderatoren gemacht werden. Sie können jedoch keine Besprechungen in Unternehmen erstellen, mit denen sie verbunden sind.
+    a. *Verbundbenutzer* – Verbundbenutzer verfügen über gültige Anmeldeinformationen bei Verbundpartnern und werden daher von Teams als authentifiziert behandelt, sind jedoch für den Mandanten des Besprechungsorganisators weiterhin extern. Verbundbenutzer können an Besprechungen teilnehmen und nach der Teilnahme an der Besprechung zu Moderatoren gemacht werden. Sie können jedoch keine Besprechungen in Unternehmen erstellen, mit denen sie verbunden sind.
     b. *Anonyme Nutzer* – Anonyme Nutzer haben keine Active Directory-Identität und sind nicht mit dem Mandanten verbunden.
 
 An vielen Besprechungen sind externe Nutzer beteiligt. Dieselben Kunden möchten auch die Identität externer Nutzer bestätigen, bevor diese Nutzer an einer Besprechung teilnehmen können. Im nächsten Abschnitt wird beschrieben, wie Teams den Zugriff auf Besprechungen durch diejenigen Benutzertypen beschränkt, die explizit zugelassen wurden, und dass alle Benutzertypen beim Beitreten einer Besprechung die entsprechenden *Anmeldeinformationen* vorlegen müssen.

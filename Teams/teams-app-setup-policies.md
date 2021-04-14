@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 94e33421043b0cad195489d78e2eb96c95bb222e
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ee50af6dec780480b8efdbf39dabb8e52ff03f3a
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756181"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697710"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -64,7 +64,7 @@ Sie können das Microsoft Teams Admin Center verwenden, um eine benutzerdefinier
 
    ![Seite "App-Setuprichtlinien hinzufügen"](media/app-setup-policies-add.png)
 
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
+3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
 
 4. Aktivieren oder deaktivieren Sie benutzerdefinierte Apps **hochladen,** je nachdem, ob Sie benutzern das Hochladen benutzerdefinierter Apps in Teams ermöglichen möchten. Sie können diese Einstellung nicht **ändern,** wenn Apps von Drittanbietern zulassen in [organisationsweiten App-Einstellungen deaktiviert ist.](manage-apps.md#manage-org-wide-app-settings)
 
@@ -162,7 +162,7 @@ Benutzer können die Reihenfolge ihrer angeheftet Apps auf Desktop- und mobilen 
 
 #### <a name="does-user-pinning-take-precedence"></a>Hat das Anheften von Benutzern Vorrang
 
-Wenn die dem Benutzer zugewiesene App-Setuprichtlinie geändert wird, um das Anheften von Benutzer-Apps zu blockieren, entfernt Teams alle Apps, die an die App-Leiste angeheftet sind. Wenn die Richtlinie dann geändert wird, um das Anheften von Benutzer-Apps zu ermöglichen, müssen Benutzer ihre zuvor angeheftten Apps neu anheften.
+Administratorpins haben immer Vorrang. Wenn die **Option Benutzer anheften** zulassen aktiviert ist, behalten die Benutzer ihre angeheftet Apps unterhalb von vom Administrator angeheftet apps bei. Wenn die Option Benutzer **anheften** zulassen deaktiviert ist, gehen die bereits vorhandenen Pins verloren, und nur von Administratoren angeheftierte Apps sind in der App-Leiste vorhanden.
 
 ### <a name="custom-teams-apps"></a>Benutzerdefinierte Teams-Apps
 

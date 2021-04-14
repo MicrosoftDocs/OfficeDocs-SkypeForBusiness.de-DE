@@ -17,12 +17,12 @@ f1.keywords:
 description: Direct Routing-Protokolle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00cdb644efe9fb2c3e49973d7a539718252a7df9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098471"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697780"
 ---
 # <a name="direct-routing---sip-protocol"></a>Direct Routing – SIP-Protokoll
 
@@ -350,7 +350,10 @@ Weitere Informationen finden Sie im Abschnitt Failovermechanismus für SIP-Signa
 
 ## <a name="retry-after"></a>Retry-After
 
-Wenn ein Direct Routing-Rechenzentrum ausgelastet ist, kann der Dienst eine Retry-After mit einem Intervall von einer Sekunde an den SBC senden. Wenn der SBC als Reaktion auf eine EINLADUNG eine 503-Nachricht mit einem Retry-After-Header empfängt, muss der SBC diese Verbindung beenden und das nächste verfügbare Microsoft-Rechenzentrum ausprobieren. 
+Wenn ein Direct Routing-Rechenzentrum ausgelastet ist, kann der Dienst eine Retry-After mit einem Intervall von einer Sekunde an den SBC senden. Wenn der SBC als Reaktion auf eine EINLADUNG eine 503-Nachricht mit einem Retry-After-Header empfängt, muss der SBC diese Verbindung beenden und das nächste verfügbare Microsoft-Rechenzentrum ausprobieren.
+
+## <a name="handling-retries-603-response"></a>Behandeln von Wiederholungen (603 Antwort)
+Wenn ein Endbenutzer mehrere verpasste Anrufe für einen Anruf nach dem Deggieren des eingehenden Anrufs beobachtet, bedeutet dies, dass der Wiederholungsmechanismus des SBC- oder PSTN-Trunkanbieters falsch konfiguriert ist. Der SBC muss neu konfiguriert werden, um die Wiederholungsversuche für die 603-Antwort zu beenden.
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>ICE-Neustart: Medienumgehungsaufruf, der an einen Endpunkt übertragen wird, der die Medienumgehung nicht unterstützt
 

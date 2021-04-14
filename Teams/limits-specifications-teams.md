@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d14dcbcc7176a482458e23b10e4f017b28ad24ea
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586494"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697630"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -131,7 +131,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300. Bei **Nur anzeigen** können bis zu 10.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5 SKU verfügt.<br>**Hinweis:** In Teams for Government (GCC, GCC High, DoD) ist der Grenzwert immer noch 250. Wir aktualisieren diesen Artikel, sobald die Cloud-Grenze für Behörden von 250 auf 300 erhöht wird und Besprechungs-Überlauf unterstützt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300. Bei **Nur anzeigen** können bis zu 10.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5 SKU sowie Government (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |

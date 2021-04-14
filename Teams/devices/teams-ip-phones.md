@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Schreibtisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 16e2487c1c7279b470e4938245513727ca2ad0ca
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 2cebad1c415ba717439b2c10edbf2ac367d913d0
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506702"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697640"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams-zertifizierte Geräte
 
@@ -145,6 +145,7 @@ Im Folgenden finden Sie die neuesten Versionen der Teams Rooms für Android-App 
 
 | Produktversion| Veröffentlichungsdatum | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Update 2021 #1  |5. April 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Update 2020 #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
 | Update 2020 #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
 | Update 2020 #1  | 13. Mai 2020 | .040901                     | .4715                  | .210                |
@@ -155,6 +156,9 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
+| Yealink MeetingBar A20 | 133.15.0.54     | Update 2021 #1    |
+| Yealink MeetingBar A30 | 133.15.0.54     | Update 2021 #1    |
+| Yealink CTP18 | 137.15.0.30     | Update 2021 #1    |
 | Yealink VC210 + CP900 | 118.15.0.42     | Update 2020 #3    |
 | Poly Studio X30 | 3.2.3.280012          | Update 2020 #3    |
 | Poly Studio X50 | 3.2.3.280012          | Update 2020 #3    |

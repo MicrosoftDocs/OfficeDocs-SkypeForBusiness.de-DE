@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie hier, wie Sie die Einstellungen für Besprechungsrichtlinien in Microsoft Teams verwalten können. Steuern Sie über die Richtlinieneinstellungen die Features, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617868"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712777"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -127,7 +127,7 @@ Bei "Outlook-Add-In zulassen" handelt es sich um eine benutzerspezifische Richtl
 
 ![Screenshot mit der Option für die Planung von Besprechungen](media/meeting-policies-outlook-add-in.png)
 
-Wenn Sie diese Option deaktivieren, können die Benutzer keine Microsoft Teams-Besprechungen planen, wenn sie eine neue Besprechung in Outlook erstellen. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
+Wenn Sie diese Option deaktivieren, können die Benutzer keine Besprechungen planen. Microsoft Teams-Besprechungen planen, wenn sie eine neue Besprechung in Outlook erstellen. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Planung von Kanalbesprechungen zulassen
 
@@ -451,6 +451,7 @@ Daniela kann sich in Amandas Besprechungen Notizen machen, Amanda kann hingegen 
 - [Anonymen Personen das Starten einer Besprechung gestatten](#let-anonymous-people-start-a-meeting)
 - [Personen automatisch zulassen](#automatically-admit-people)
 - [Einwahlbenutzern das Umgehen des Wartebereichs gestatten](#allow-dial-in-users-to-bypass-the-lobby)
+- [Teammitgliedern das Umgehen des Wartebereichs gestatten](#allow-team-members-to-bypass-the-lobby)
 - [Liveuntertitel aktivieren](#enable-live-captions)
 - [Chat in Besprechungen zulassen](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 |Einstellungswert  |Verhalten bei Teilnahme |
 |---------|---------|
 |**Jeder**   |Alle Besprechungsteilnehmer nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Dazu gehören authentifizierte Benutzer, externe Benutzer aus vertrauenswürdigen Organisationen (Verbundorganisationen), Gäste und anonyme Benutzer.     |
-|**Jeder in Ihrer Organisation und in Verbundorganisationen**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und Benutzer aus vertrauenswürdigen Organisationen, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen.  Anonyme Benutzer müssen im Wartebereich warten.   |
-|**Jeder in Ihrer Organisation**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen.  Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Dies ist die Standardeinstellung.           |
+|**Personen in meiner Organisation oder vertrauenswürdigen Organisationen und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und Benutzer aus vertrauenswürdigen Organisationen, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen. Anonyme Benutzer müssen im Wartebereich warten.   |
+|**Personen in meiner Organisation und Gäste**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen. Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Dies ist die Standardeinstellung.           |
 |**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Personen, einschließlich authentifizierte Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten.           |
+|**Personen in meiner Organisation**  |Authentifizierte Benutzer innerhalb der Organisation, mit Ausnahme von Gastbenutzern, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen. Gäste und Benutzer aus vertrauenswürdigen Organisationen sowie anonyme Benutzer müssen im Wartebereich warten.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Einwahlbenutzern das Umgehen des Wartebereichs gestatten
 
@@ -488,6 +490,10 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 
 > [!NOTE]
 > Wenn ein Einwahlbenutzer einer Besprechung beitritt, bevor ein Benutzer aus der Organisation beitritt, wird er in den Wartebereich gesetzt, bis ein Benutzer aus der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und ihn zulässt. Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>Teammitgliedern das Umgehen des Wartebereichs gestatten
+
+Besprechungsrichtlinien weisen eine Einstellung auf, die es Teammitgliedern erlaubt, den Wartebereich der Besprechung zu umgehen. Wir haben die Option „EveryoneInCompanyExcludingGuests“ für Personen in der Organisation hinzugefügt, um den Wartebereich zu umgehen, Gastbenutzern das Umgehen des Wartebereichs jedoch auszuschließen.
 
 ### <a name="enable-live-captions"></a>Liveuntertitel aktivieren
 
@@ -516,7 +522,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Diese Einstellun
 
 Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
-Um den Standardwert für die Einstellung **Wer kann präsentieren?** in Microsoft Teams anzugeben, legen Sie den Parameter **DesignatedPresenterRoleMode** auf einen der folgenden Werte fest:
+Um den Standardwert für die Einstellung **Wer kann präsentieren?** in Microsoft Teams anzugeben, legen Sie den Parameter **DesignatedPresenterRoleMode** auf eine der folgenden Einstellungen fest:
 
 - **EveryoneUserOverride**: alle Besprechungsteilnehmer können Referenten sein. Dies ist der Standardwert. Dieser Parameter entspricht der Einstellung **Jeder** in Microsoft Teams.
 - **EveryoneInCompanyUserOverride**: authentifizierte Benutzer in der Organisation, einschließlich Gastbenutzer, können Referenten sein. Dieser Parameter entspricht der Einstellung **Personen in meiner Organisation** in Microsoft Teams.

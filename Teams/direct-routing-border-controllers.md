@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Der Administrator kann erfahren, welche Session Border Controller (SBCs) für direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 87c2dc7a2c3061101517ff72e7674ccc78293680
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637847"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697700"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -78,7 +78,7 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                   |     Cisco Unified Border Element (CUBE) für Cloud Services Router der 1000V-Serie       |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam 17.2.1r (Empfohlen 17.3.2)         |    <ul> <li> [Routing für dynamische Bandbreitenspeicherorten](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     Cisco Unified Border Element (CUBE) für 1000 Series Aggregation Services Router      |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam 17.2.1r (Empfohlen 17.3.2)         |    <ul> <li> [Routing für dynamische Bandbreitenspeicherorten](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                                 |     Cisco Unified Border Element (CUBE) für 8000 Edgeplattformen von "Catalyst"      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    <ul> <li> [Routing für dynamische Bandbreitenspeicherorten](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |           |       Version 8.1.1       |     |    | 
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Version 8.1.1 (8.1.2 für Medienumgehung)      |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      <ul> <li> [Routing für dynamische Bandbreitenspeicherorten](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado Emergency Routing Service (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Unterstützt 5.0 (Empfohlen 5.1)     |     |    | 
@@ -88,7 +88,7 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape Session Border Controller   |     &#10004;     |          |      V10R1.2       |     |    | 
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
-|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |     &#10004;     |      3.19.x      |     |    |
+|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 
 <br/>
 <br/>
