@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: Problembehandlung bei Problemen mit Installation und Update
                 href: troubleshoot-installation.md
-          - name: Teams-Schulung
-            items:
-              - name: Übersicht
-                href: training-microsoft-teams-landing-page.md
-              - name: Administratorschulung für Microsoft Teams
-                href: itadmin-readiness.md
-              - name: Teams-Sitzungen bei Ignite 2020
-                href: ignite-2020-landing-page.md
-              - name: Teams-Liveschulung
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Teams-Online-Schulung
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Teams-Schulung
+        items:
+          - name: Übersicht
+            href: training-microsoft-teams-landing-page.md
+          - name: Administratorschulung für Microsoft Teams
+            href: itadmin-readiness.md
+          - name: Teams-Sitzungen bei Ignite 2020
+            href: ignite-2020-landing-page.md
+          - name: Teams-Liveschulung
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Teams-Online-Schulung
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Upgrade von Skype for Business
     items:
       - name: Erste Schritte
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
             href: teams-custom-app-policies-and-settings.md
+          - name: Apps in Teams anpassen
+            href: customize-apps.md
   - name: Branchen- und Regierungsrichtlinien
     items:
       - name: Übersicht
