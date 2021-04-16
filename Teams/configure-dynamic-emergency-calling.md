@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie das Feature für dynamische Notfallanrufe fü
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2531add2b43b7061b81a23676c54fbc557929c0f
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122329"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858008"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -226,9 +226,9 @@ Die folgende Tabelle zeigt die Unterstützung für dynamische Notrufe in den Reg
 
 | Cloud | Verfügbarkeit |
 | :------------|:-------|
-| World Wide Multi Tenant | Vollständig verfügbar |
-| GCC | Verfügbar auf allen Clients mit Ausnahme von Teams -IP-Telefonen |
-| GCCH | Ausstehend |
+| World Wide Multi Tenant | Verfügbar für alle Teams-Clients |
+| GCC | Verfügbar für alle Teams-Clients |
+| GCCH | Auf dem Desktop von Teams verfügbar |
 | DoD | Ausstehend |
 
  ## <a name="related-topics"></a>Verwandte Themen

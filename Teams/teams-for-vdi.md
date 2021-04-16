@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020ed67b695c10e54d43891d78a77783ab61ee81
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119194"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858048"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -377,10 +377,9 @@ Dieses Feature ist in der Teams-Version 1.3.00.13565 und neueren Versionen verf�
 ### <a name="client-deployment-installation-and-setup"></a>Clientbereitstellung, -installation und -setup
 
 - Bei einer computerbasierten Installation wird Teams auf VDI nicht automatisch aktualisiert, wie es bei Nicht-VDI-Teams-Clients der Fall ist. Sie müssen das VM-Image aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen zum Aktualisieren der Teams-App die aktuelle Version deinstallieren, um auf eine neuere Version aktualisieren zu können.
+- Wenn der Benutzer während der Ausführung von Teams die Verbindung mit dem virtuellen Computer trennt, können In -Teams-Updates dazu führen, dass sich der Benutzer bei einer erneuten Verbindung in einem nicht optimierten Zustand für AV befindet. Es wird empfohlen, dass Benutzer Teams beenden, bevor sie die Verbindung zum virtuellen Computer von Citrix trennen, um dieses Szenario zu vermeiden.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
 - Windows Virtual Desktop und VMware unterstützen derzeit keine MacOS- und Linux-basierten Clients.
-- Citrix unterstützt derzeit keine MacOs-Clients.
-- Citrix unterstützt nicht die Verwendung expliziter HTTP-Proxys, die auf einem Endpunkt definiert sind.
 
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
@@ -396,6 +395,7 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 - Anrufwarteschleife
 - Audio-/Computersound des freigegebenen Systems
 - Medienumgehung für direkte Weiterleitung
+- Vergrößern auf freigegebenen Inhalt
 
 > [!NOTE]
 > Wir arbeiten an der Erweiterung von Anruf- und Besprechungsfeatures, die derzeit nur in Nicht-VDI-Umgebungen zur Verfügung stehen. Dazu gehören möglicherweise mehr Administratorkontrolle über die Qualität, zusätzliche Bildschirmfreigabeszenarien und erweiterte Features, die Teams kürzlich hinzugefügt wurden. Wenden Sie sich an Ihren Teams-Verantwortlichen, um mehr über anstehende Funktionen zu erfahren.
