@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Versionshinweise für Microsoft Teams Rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams Rooms aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607544"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768368"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -75,7 +75,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams Rooms
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 In diesem Update eingeführt:
-- Unterstützung von Government Community Cloud High (GCCH) für Teams Rooms. GCCH-Kunden mit vorhandenen Teams Rooms-Geräten können Version 4.8.18.0 von einem [Microsoft Teams Rooms-Gerät](manual-update.md) manuell aktualisieren herunterladen
+- Unterstützung von Government Community Cloud High (GCCH) für Teams Rooms. GCCH-Kunden mit vorhandenen Teams Rooms-Geräten können Version 4.8.19.0 von einem Microsoft Teams Rooms-Gerät manuell [aktualisieren herunterladen.](manual-update.md)
 - Teilnehmen an Zoombesprechungen mit besserer Videoqualität (720p-Support) und Empfangen des Videokatalogs der Teilnehmer
 - Skype for Business-Anmeldefehlerbanner für den Standardmodus von Teams entfernt. Diese Änderung unterstützt Organisationen beim Entfernen der Skype for Business-Infrastruktur.
 - Die Verknüpfungs-Analyse von Teams-Besprechungen behandelt jetzt sichere Microsoft Defender Advanced Thread Protection-Links, um die nahtlose Teilnahme an externen Teams zu ermöglichen.

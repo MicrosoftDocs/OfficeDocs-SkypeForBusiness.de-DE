@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie, wie Sie Microsoft Teams mithilfe der PowerShell-Steuerelemente verwalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094115"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768354"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 
@@ -48,7 +48,7 @@ Sie verwenden Teams PowerShell-Module, um Teams vollständig zu verwalten:
 - [Microsoft Teams PowerShell-Modul:](https://www.powershellgallery.com/packages/MicrosoftTeams/)Das Microsoft Teams PowerShell-Modul enthält Cmdlets zum Verwalten von Teams, Chats und Kanälen.
 
 > [!NOTE]
-> Die öffentliche Version 1.1.6 oder höher von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für die Verwaltung von Teams PowerShell zur Verfügung.
+> Die öffentliche Version 2.0 oder höher von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) umfasst alle Skype for Business Online Connector-Cmdlets, die ein einzelnes Modul für die Verwaltung von Teams PowerShell bereitstellen.
 
 - [Skype for Business PowerShell Connector:](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)Der Skype for Business PowerShell-Connector ist jetzt Teil des Teams PowerShell-Moduls.
 

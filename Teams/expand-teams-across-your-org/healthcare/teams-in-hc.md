@@ -26,12 +26,12 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092683"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760598"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -140,7 +140,7 @@ Weitere Informationen finden Sie unter [Verwalten der Listen-App für Ihre Organ
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Nachverfolgen und Überwachen von Aufgaben mit der Tasks-App
 
-Verwenden Sie [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) in Teams, um Aufgaben für das gesamte Gesundheitsteam nachzuverfolgen. Ihr Gesundheitsteam kann Aufgaben auf jedem Gerät, auf dem Teams ausgeführt wird, jederzeit erstellen, zuweisen und planen, Aufgaben kategorisieren und den Status aktualisieren.
+Verwenden Sie [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) in Teams, um Aufgaben für das gesamte Gesundheitsteam nachzuverfolgen. Ihr Gesundheitsteam kann Aufgaben auf jedem Gerät, auf dem Teams ausgeführt wird, jederzeit erstellen, zuweisen und planen, Aufgaben kategorisieren und den Status aktualisieren. IT-Profis und Administratoren können Aufgaben auch in bestimmten Teams für Ihre Organisation veröffentlichen. So könnten Sie beispielsweise eine Reihe von Aufgaben für neue Sicherheitsprotokolle oder einen neuen Aufnahmeschritt veröffentlichen, der in einem Krankenhaus verwendet werden soll.
 
 Weitere Informationen finden Sie unter [Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams](../../manage-tasks-app.md).
 

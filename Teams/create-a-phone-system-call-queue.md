@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschlangen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, musikhalten, Anrufumleitung und andere Funktionen bietet.
-ms.openlocfilehash: 963633ef3ba1743522dbbacb93166f20d489e8be
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450632"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760588"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -104,6 +104,9 @@ Im **Konferenzmodus** wird die Zeit, bis ein Anrufer mit einem Telefonberater ve
   - Microsoft Teams Telefon, Version 1449/1.0.94.2020051601 oder höher
   
 Die Microsoft Teams-Konten von Telefonberatern müssen auf den Modus "Nur Microsoft Teams" festgelegt werden. Telefonberater, die diese Anforderungen nicht erfüllen, werden nicht in die Anrufweiterleitungsliste aufgenommen. Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn alle Ihre Telefonberater kompatible Clients verwenden.
+
+> [!NOTE]
+> Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe über ein Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange geroutet werden.
 
 Die **Routingmethode** bestimmt die Reihenfolge, in der Anrufe aus der Warteschleife an die Telefonberater weitergeleitet werden. Wählen Sie eine der folgenden Optionen aus:
 

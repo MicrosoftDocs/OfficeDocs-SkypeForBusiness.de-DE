@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Schreibtisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 2cebad1c415ba717439b2c10edbf2ac367d913d0
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 758907a284afc7ab4ec4f172eee10c82ce456d61
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697640"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768444"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams-zertifizierte Geräte
 
@@ -103,6 +103,7 @@ Im Folgenden finden Sie die neuesten Versionen von Teams Phone App und Firmware.
 
 | Produktversion | Veröffentlichungsdatum  | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Update 2021 #1A | 5. April 2021  |1449/1.0.94.2021033002|  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | Update 2021 #1  | 26. März 2021  |1449/1.0.94.2021022403 |  5.0.5045.0 |  1.0.0.202101280722.product (253) |
 | Update 2020 #7  | 8. Dezember 2020  |1449/1.0.94.2020111101 | 5.0.4927.0            | 1.0.0.202010121132.product (223) |
 | Update 2020 #6  | 12. Oktober 2020  |1449/1.0.94.2020091801     | 5.0.4912.0             | 1.0.0.202006290446.product(216) |
@@ -116,10 +117,13 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell        | Firmwareversion     | Enthaltene Produktversion  |
 |:--------------------|:---------------------|:-------------------------|
-| YL T55/T56/T58   | 58.15.0.124  | Update 2021 #1 |
-| YL VP59   | 91.15.0.58  | Update 2021 #1 |
-| YL CP960  |73.15.0.117  | Update 2021 #1 |
-| YL MP56/MP54/MP58  |122.15.0.36  | Update 2021 #1 |
+| Poly Trio C60   | 7.0.2.1071  | Update 2021 #1                        |
+| CCX400/CCX500/CCX600   | 7.0.2.1072  | Update 2021 #1                 |
+| Audiocodes C448HD/C450HD/C470HD   | 1.10.120  | Update 2021 #1       |
+| Yealink T55/T56/T58   | 58.15.0.124  | Update 2021 #1                      |
+| Yealink VP59   | 91.15.0.58  | Update 2021 #1                              |
+| Yealink CP960  |73.15.0.117  | Update 2021 #1                              |
+| Yealink MP56/MP54/MP58  |122.15.0.36  | Update 2021 #1                     |
 | Crestron UC-2  |1.0.3.52 | Update 2021 #1 |
 | AudioCodes C448HD   | C450HD_TEAMS_1.8.288  | Update 2020 #7           |
 | AudioCodes C450HD   | C450HD_TEAMS_1.8.288  | Update 2020 #7           |
@@ -145,6 +149,7 @@ Im Folgenden finden Sie die neuesten Versionen der Teams Rooms für Android-App 
 
 | Produktversion| Veröffentlichungsdatum | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| Update 2021 #1  |7. April 2021  |1449/1.0.96.2021020902(Yealink VC210)  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Update 2021 #1  |5. April 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Update 2020 #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
 | Update 2020 #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
@@ -156,6 +161,7 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
+| Yealink VC210 |118.15.0.47     | Update 2021 #1    |
 | Yealink MeetingBar A20 | 133.15.0.54     | Update 2021 #1    |
 | Yealink MeetingBar A30 | 133.15.0.54     | Update 2021 #1    |
 | Yealink CTP18 | 137.15.0.30     | Update 2021 #1    |

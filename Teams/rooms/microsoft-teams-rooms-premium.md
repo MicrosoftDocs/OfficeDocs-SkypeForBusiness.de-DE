@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie mehr über den verwalteten Microsoft Teams Rooms-Dienst.
 f1keywords: ''
-ms.openlocfilehash: b174f0d3f608502d74d4dfbc33aa9bac66b684d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117503"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768434"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Verwalteter Microsoft Teams Rooms-Dienst
 
@@ -91,86 +91,7 @@ Weitere Informationen zur Supportabdeckung für verwaltete Dienste in Microsoft 
 
 ## <a name="supported-regions"></a>Unterstützte Regionen
 
-Der verwaltete Microsoft Teams Rooms-Dienst ist in den folgenden Ländern und Regionen verfügbar. 
-
-- Andorra
-- Australien
-- Österreich
-- Belgien
-- BouvetInsel
-- Brasilien
-- Bulgarien
-- Kanada
-- Weihnachtsinsel
-- Kokosinseln (Keelinginseln)
-- Cookinseln
-- Kroatien
-- Zypern
-- Tschechische Republik
-- Dänemark
-- Estland
-- Färöer
-- Fidschi
-- Frankreich
-- Deutschland
-- Gibraltar
-- Griechenland
-- Grönland
-- Heard Island And McDonald Islands
-- Hongkong (SAR)
-- Ungarn
-- Island
-- Indien
-- Irland
-- Italien
-- Japan
-- Kiribati
-- Lettland
-- Lesotho
-- Liechtenstein
-- Litauen
-- Luxemburg
-- Macao SAR
-- Malta
-- Marshall-Inseln
-- Mexiko
-- Mikronesien
-- Monaco
-- Nauru
-- Niederlande
-- Neuseeland
-- Niue
-- Norfolkinsel
-- Nördliche Marianen
-- Norwegen
-- Palau
-- Papua-Neuguinea
-- PitcairnInseln
-- Polen
-- Portugal
-- Rumänien
-- Russische Föderation
-- Saint Pierre und Miquelon
-- Samoa
-- San Marino
-- Singapur
-- Slowakei
-- Slowenien
-- Salomonen
-- Südafrika
-- Spanien
-- Swasiland
-- Schweden
-- Schweiz
-- Taiwan
-- Tokelau
-- Tonga
-- Tuvalu
-- Großbritannien
-- Vereinigte Staaten
-- Vanuatu
-- Vatikanstadt
-- Wallis und Futuna
+Der verwaltete Microsoft Teams Rooms-Dienst ist in allen Ländern und Regionen verfügbar, in denen Microsoft 365 verfügbar ist. Eine vollständige Liste der Länder und Regionen finden Sie unter Internationale Verfügbarkeit [von Microsoft 365.](https://www.microsoft.com/microsoft-365/business/international-availability)
 
 ## <a name="support-inclusions-and-exclusions"></a>Unterstützen von Einschlüssen und Ausschlüssen
 
