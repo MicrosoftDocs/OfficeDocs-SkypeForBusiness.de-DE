@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: In diesem Artikel erfahren Sie mehr über die Hardwareanforderungen, die zum Installieren und Ausführen von Microsoft Teams erforderlich sind.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5e6668229ef481d0b6c30683540c060495e0f21
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
-ms.translationtype: MT
+ms.openlocfilehash: fe6e1daa0092fdffb92b9a800acd17365e3ffffc
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262352"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768214"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -35,12 +35,12 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 
 | Komponente | Anforderung |
 |---------|---------|
-|Computer und Prozessor    | Mindestens 1,6 GHz (oder höher), 2-Core-Prozessor<br><br>Hinweis: Bei Intel-Prozessoren muss die maximale Geschwindigkeit, die mit der Intel-Turbo-Boost-Technologie (Max.         |
+|Computer und Prozessor    | Mindestens 1,6 GHz (oder höher), 2-Core-Prozessor<br><br>Bei Intel-Prozessoren muss die mit der Intel Turbo Boost-Technologie erreichte maximale Geschwindigkeit (max. Turbo-Frequenz) berücksichtigt werden         |
 |Arbeitsspeicher     |    4,0 GB RAM     |
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
 |Grafikhardware |  Windows-Betriebssystem: Grafikhardwarebeschleunigung erfordert DirectX 9 oder höher, mit WDDM 2.0 oder höher für Windows 10 (oder WDDM 1.3 oder höher für Windows 10 Fall Creators Update)
-|Betriebssystem  |    Windows 10, Windows 10 für ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2|
+|Betriebssystem  |    Windows 10, Windows 10 on ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2|
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
@@ -55,7 +55,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Arbeitsspeicher     |   4,0 GB RAM      |
 |Festplatte    |   1,5 GB verfügbarer Speicherplatz      |
 |Anzeige    | Bildschirmauflösung 1280x800 oder höher    |
-|Betriebssystem  |    Eine der drei neuesten Versionen von macOS. [Hier](https://support.apple.com/en-us/HT201260) finden Sie Informationen zu den neuesten Versionen von macOS sowie zum Upgrade Ihrer macOS-Version. Wenn beispielsweise eine neue macOS-Version veröffentlicht wird, werden die neue Version und die beiden unmittelbar davor die unterstützten Versionen.      |
+|Betriebssystem  |    Eine der drei neuesten Versionen von macOS. [Hier](https://support.apple.com/de-DE/HT201260) finden Sie Informationen zu den neuesten Versionen von macOS sowie zum Upgrade Ihrer macOS-Version. Wenn beispielsweise eine neue macOS-Version veröffentlicht wird, werden die neue Version und die beiden unmittelbar davor die unterstützten Versionen.      |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
 |Videoanrufe und Besprechungen | <ul><li>Erfordert einen 2-Core-Prozessor. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird ein 4-Core-Prozessor oder ein besserer Prozessor empfohlen. </li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter macOS nicht verfügbar.</li></ul>

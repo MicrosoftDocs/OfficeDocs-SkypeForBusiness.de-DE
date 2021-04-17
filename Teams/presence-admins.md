@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: Informieren Sie sich über die Anwesenheitsstatus in Microsoft Teams und die administrativen Einstellungen für die Anwesenheitsfunktion.
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: MT
+ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460555"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768414"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -52,7 +52,7 @@ Die Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und üb
 || ![Lila Kreis mit Pfeil zeigt an: Außer Haus](media/Presence_OOF.png) Außer Haus. „Außer Haus“ wird verwendet, wenn „automatische Antwort“ gesetzt ist. (Nur In Outlook verfügbar.) |
 |||
  > [!Note]
- > Für Benutzer, für die ein Postfach im Vorprem gehostet wird, wird mit Anwesenheitsverzögerungen von maximal einer Stunde gerechnet.
+ > Für Benutzer, deren Postfach lokal gehostet wird, wird erwartet, dass sie Anwesenheitsverzögerungen von maximal einer Stunde haben.
 App-konfigurierte Anwesenheitsstatus basieren auf Benutzeraktivitäten (Verfügbar, Abwesend), Outlook-Kalenderstatus (In einer Besprechung) oder Team-App-Status (In einem Anruf, Präsentieren). Wenn Sie gemäß Ihrem Kalender im Fokusmodus sind, dann werden Personen in Teams den Status **Fokussierend** sehen. In anderen Produkten wird der Fokusmodus als **Nicht stören** angezeigt.
 
 Ihr aktueller Anwesenheitsstatus wechselt zu „Abwesend“, wenn Sie Ihren Computer sperren oder wenn Ihr Computer in den Leerlauf oder Ruhezustand übergeht. Auf einem Mobilgerät ändert sich Ihr Anwesenheitsstatus immer auf „Abwesend“, wenn die Teams-App im Hintergrund läuft.
