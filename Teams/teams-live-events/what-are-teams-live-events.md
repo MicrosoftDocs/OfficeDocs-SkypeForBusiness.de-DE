@@ -24,7 +24,7 @@ appliesto:
 localization_priority: Normal
 ms.openlocfilehash: 8f196e1539085966c22a775a784913ced417c9cb
 ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51506722"
@@ -33,30 +33,30 @@ ms.locfileid: "51506722"
 
 ## <a name="overview"></a>Übersicht
 
-Mit Liveereignissen von Teams können Benutzer in Ihrer Organisation Video- und Besprechungsinhalte an große Onlinepublikums übertragen.
+Mit Microsoft Teams-Liveereignissen können Benutzer in Ihrer Organisation Video- und Besprechungsinhalte für ein großes Onlinepublikum übertragen.
 
 Microsoft 365-Liveereignisse eröffnen eine neue Dimension für Livevideostreaming. Mit Liveereignissen wird die Verbindung zu den Teilnehmern vor, während und nach den Liveereignissen über den gesamten Lebenszyklus des Anlasses gefördert. Mit Microsoft Stream, Teams oder Yammer können Sie ein Liveereignis erstellen, wo auch immer Ihr Publikum, Ihr Team oder Ihre Gemeinschaft ansässig ist.  
 
-Teams bietet Chat-basierte Zusammenarbeit, Anrufe, Besprechungen und Liveereignisse, sodass Sie das Publikum Ihrer Besprechungen vergrößern können. Teams-Liveereignisse sind eine Erweiterung von Teams-Besprechungen und ermöglichen den Benutzern, Video- und Besprechungsinhalte für ein großes Onlinepublikum zu übertragen. Liveereignisse sind für One-to-Many-Kommunikation gedacht, bei der der Gastgeber des Ereignisses die Interaktionen leitet und die Beteiligung des Publikums in erster Linie darin besteht, die vom Gastgeber geteilten Inhalte anzusehen. Die Teilnehmer können das Live- oder aufgezeichnete Ereignis in Yammer, Teams oder Stream ansehen und mit den Presentern mit moderiertem F & A oder einer Yammer interagieren.
+Teams bietet Chat-basierte Zusammenarbeit, Anrufe, Besprechungen und Liveereignisse, sodass Sie das Publikum Ihrer Besprechungen vergrößern können. Teams-Liveereignisse sind eine Erweiterung von Teams-Besprechungen und ermöglichen den Benutzern, Video- und Besprechungsinhalte für ein großes Onlinepublikum zu übertragen. Liveereignisse sind für One-to-Many-Kommunikation gedacht, bei der der Gastgeber des Ereignisses die Interaktionen leitet und die Beteiligung des Publikums in erster Linie darin besteht, die vom Gastgeber geteilten Inhalte anzusehen. Die Teilnehmer können das Live- oder aufgezeichnete Ereignis in Yammer, Microsoft Teams oder Stream verfolgen und mit den Referenten über moderierte F & A oder ein Yammer-Gespräch interagieren.
 
-Liveereignisse in Teams gelten als die nächste Version von Skype Meeting Broadcast und werden letzten Endes die darin bereitgestellten Funktionen ersetzen. Aktuell wird Microsoft weiterhin Skype Meeting Broadcast für Benutzer unterstützen, die Skype for Business in ihren Organisationen nutzen, ohne Unterbrechung des Dienstes für neue oder zukünftige Ereignisse. Wir empfehlen Ihnen jedoch, Teams-Liveereignisse auszuprobieren, um alle neuen und aufregenden Features zu nutzen, einschließlich Bildschirmfreigabe und Unterstützung für externe Hardware-/Software encoder.
+Liveereignisse in Teams gelten als die nächste Version von Skype Meeting Broadcast und werden letzten Endes die darin bereitgestellten Funktionen ersetzen. Aktuell wird Microsoft weiterhin Skype Meeting Broadcast für Benutzer unterstützen, die Skype for Business in ihren Organisationen nutzen, ohne Unterbrechung des Dienstes für neue oder zukünftige Ereignisse. Wir empfehlen Ihnen jedoch, die Microsoft Teams-Liveereignisse auszuprobieren, um all die neuen und interessanten Funktionen zu nutzen, darunter die Bildschirmübertragung und Unterstützung für externe Hardware-/Software-Encoder.
 
 Fangen wir also an. Werfen Sie zunächst einen Blick auf das folgende Diagramm, das die an Microsoft 365-Liveereignissen beteiligten hochrangigen Komponenten und deren Verbindungsweise zeigt.
 
 ![Die wichtigsten Komponenten von Liveereignissen](../media/live-event-flow-diagram.png  "Schlüsselkomponenten von Liveereignissen, Planung, Produktion, Stream-Plattform und zertifizierten eCDN-Drittanbietern")
 
 > [!Note]
-> Wir möchten betonen, dass Teams Live Events aufgrund der Art der Übertragungstechnologie häufig normale (interne) Besprechungspopulationen überschreiten.
+> Wir möchten hervorheben, dass Microsoft Teams-Liveereignisse aufgrund der Natur von Übertragungstechnologien häufig normale (interne) Teilnehmerzahlen überschreiten.
 >
-> Wie bei anderen größeren Medienübertragungsdiensten sind wir auf Content Delivery Networks angewiesen, um die Inhalte für Ihr Liveereignis an empfänger zu liefern. Dieser Inhalt ist durch Verschlüsselungsmethoden geschützt und unterliegt der Autorisierung durch Zugriffstoken, die nur für Empfänger basierend auf Ihrer Liveereignisbesprechungskonfiguration ausgegeben werden.
+> Wie bei anderen größeren Medienübertragungsdiensten setzen wir auf Content Delivery Networks, um die Inhalte Ihres Liveereignisses für die Empfänger zu übertragen. Diese Inhalte sind durch Verschlüsselungsmethoden geschützt und erfordern die Autorisierung durch Zugriffstoken, die auf der Grundlage Ihrer Konfiguration für Liveereignis-Besprechungen an Empfänger ausgegeben werden.
 >
-> Es sollte besondere Sorgfalt darauf verwendet werden, sicherzustellen, dass der Besprechungsinhalt für ein so großes Publikum geeignet ist oder dass die Zielgruppe für sensible Inhalte entsprechend reduziert wird.  
+> Es sollte insbesondere sichergestellt werden, dass die Besprechungsinhalte für ein so großes Publikum geeignet sind, oder bei vertraulichen Inhalten dass das Publikum zahlenmäßig entsprechend beschränkt ist.  
 >
-> Wie in der Branche üblich, können sich Kompromisse mit anderen Sicherheitselementen wie Personal oder Infrastruktur auf die Sicherheit Ihrer Liveereignisse auswirken. Organisationen sollten die Einbeziehung von Liveereignissen und anderen Übertragungsdienstleistungen in ihre Sicherheitsplanung und -übungen in Erwägung ziehen.
+> Wie es in diesem Bereich häufig vorkommt, können sich Kompromittierungen anderer Elemente der Sicherheitsstruktur, z. B. Personal oder Infrastruktur, auf die Sicherheit Ihrer Liveereignisse auswirken. Organisationen sollten erwägen, Liveereignisse und andere Übertragungsdienste in ihre Sicherheitsplanung und entsprechende Tests einzubeziehen.
 
 ### <a name="event-group-roles"></a>Rollen der Ereignisgruppe
 
-Liveereignisse in Teams ermöglichen mehreren Rollen (Organisator, Produzent, Organisator und Teilnehmer), erfolgreich zu übertragen und an einer Veranstaltung teilzunehmen. Weitere Informationen hierzu finden Sie unter [Rollen der Ereignisgruppe](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
+Liveereignisse in Microsoft Teams ermöglichen die Zuweisung mehrerer Rollen (Organisator, Produzent, Referent und Teilnehmer), um ein Ereignis erfolgreich zu übertragen und daran teilzunehmen. Weitere Informationen hierzu finden Sie unter [Rollen der Ereignisgruppe](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Schlüsselkomponenten
 
