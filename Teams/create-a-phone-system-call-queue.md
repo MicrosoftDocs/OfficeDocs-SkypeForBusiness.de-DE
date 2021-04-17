@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschlangen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, musikhalten, Anrufumleitung und andere Funktionen bietet.
-ms.openlocfilehash: 87c65a104b8b6921aecf2ceb860d677cfa8f7d33
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760588"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51874451"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -80,6 +80,11 @@ In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiederge
 Sie können über einen Teams-Kanal bis zu 200 Agents hinzufügen.
 
 Wenn Sie einen [Teams-Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)zum Verwalten der Warteschlange verwenden möchten, wählen Sie die Option Team **auswählen** aus, und klicken Sie **auf Kanal hinzufügen.** Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen.** Wählen Sie den Kanal aus, den Sie verwenden möchten, und klicken Sie auf **Übernehmen.**
+
+Die folgenden Clients werden bei verwendung eines Teams-Kanals für Anrufwarteschlangen unterstützt: 
+
+  - Microsoft Teams Windows-Client
+  - Microsoft Teams Mac-Client
 
 ##### <a name="users-and-groups"></a>Benutzer und Gruppen
 

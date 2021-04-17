@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Erhalten Sie detaillierte Informationen zu den Abmessungen und Maßen, die vom Anrufqualitätsdashboard (CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 6e7733320331cae0f57b82615fcebe9d8d620c72
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
+ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115573"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "51880454"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Abmessungen und Maße
 
@@ -60,7 +60,7 @@ Hier steht beispielsweise jede Zeile für ein Paar von Benutzer-Agents, die an e
 
 Dimensionsinformationen basieren teilweise auf Daten, die auf das CQD-Portal hochgeladen wurden. Viele Dimensionswerte können auch als Filter verwendet werden. In der folgenden Tabelle sind die derzeit in CQD verfügbaren Dimensionen in der Reihenfolge aufgeführt, die im Abfrage-Editor aufgeführt ist, der zum Erstellen von Berichten oder Bearbeiten zuvor definierter Berichte verwendet wird.
 
-| Name | Datentyp  | Beschreibung | Mögliche Gründe für leere Werte |
+| Name | Datentyp  | Description | Mögliche Gründe für leere Werte |
 |:---  |:---        |:---         |:--- |
 |**Endpunkt**|||
 | First CPU Name  | Zeichenfolge  | Name der vom ersten Endpunkt verwendeten CPU. Für: <br/> **Beispielwert:** Contoso CPU X11 @ 1,80 GHz | <br/>&bull; Diese Daten wurden vom Endpunkt nicht gemeldet   |
@@ -77,8 +77,8 @@ Dimensionsinformationen basieren teilweise auf Daten, die auf das CQD-Portal hoc
 | Second OS Filtered  | Zeichenfolge  | Vom zweiten Endpunkt angegebener Name des Betriebssystems sowie Haupt- und Nebenversion. Diese Zeichenfolge kann mehr als den Namen und die Version des Betriebssystems enthalten. <br/> **Beispielwert:** Windows 10  | <br/>&bull; Der Endpunkt hat diese Informationen nicht berichtet. <br/>&bull; Der Bericht von diesem Endpunkt wurde nicht empfangen |
 | First OS Architecture  | Zeichenfolge  | Die vom ersten Endpunkt angegebene Hardwarearchitektur. <br/> **Beispielwert:** x64  | &bull; Der Endpunkt hat diese Informationen nicht berichtet. <br/>&bull; Der Bericht von diesem Endpunkt wurde nicht empfangen <br/>&bull; Das Format der Architektur wurde nicht erkannt |
 | Second OS Architecture  | Zeichenfolge  | Die vom zweiten Endpunkt angegebene Hardwarearchitektur. <br/> **Beispielwert:** x64  | &bull; Der Endpunkt hat diese Informationen nicht berichtet. <br/>&bull; Der Bericht von diesem Endpunkt wurde nicht empfangen <br/>&bull; Das Format der Architektur wurde nicht erkannt  |
-| First Virtualization Flag  | Enumeration <br/>**Mögliche Werte:** <br/> "0x00" = Keine " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = Virtueller PC <br/> "0x08" = Xen PC | Kennzeichnen, das den Typ der Vom ersten Endpunkt gemeldeten Virtualisierungsumgebung angibt. | <br/>&bull; Daten wurden vom Endpunkt nicht gemeldet |
-| Second Virtualization Flag  | Enumeration <br/>**Mögliche Werte:** <br/> "0x00" = Keine " <br/> "0x01" = HyperV <br/> "0x02" = VMWare <br/> "0x04" = Virtueller PC <br/> "0x08" = Xen PC | Kennzeichnen, das den Typ der Vom zweiten Endpunkt gemeldeten Virtualisierungsumgebung angibt.  | <br/>&bull; Daten wurden vom Endpunkt nicht gemeldet |
+| First Virtualization Flag  | Enumeration <br/>**Mögliche Werte:** <br/> "0x00" = Keine  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Virtueller PC <br/> "0x08" = Xen PC | Kennzeichnen, das den Typ der Vom ersten Endpunkt gemeldeten Virtualisierungsumgebung angibt. | <br/>&bull; Daten wurden vom Endpunkt nicht gemeldet |
+| Second Virtualization Flag  | Enumeration <br/>**Mögliche Werte:** <br/> "0x00" = Keine  <br/> "0x01" = Hyper-V <br/> "0x02" = VMware <br/> "0x04" = Virtueller PC <br/> "0x08" = Xen PC | Kennzeichnen, das den Typ der Vom zweiten Endpunkt gemeldeten Virtualisierungsumgebung angibt.  | <br/>&bull; Daten wurden vom Endpunkt nicht gemeldet |
 |Erste Endpunkte erstellen |String |Gerätehersteller: Informationen werden aus einem Endpoint Data-Datei-EndpointMake-Feld gelesen. | <br/>&bull; Keine Datendatei für den Endpunkt |
 | Erstes Endpunktmodell |String|Gerätemodell werden Informationen aus einem Endpoint Data-Datei-EndpointModel-Feld gelesen.| <br/>&bull; Keine Datendatei für den Endpunkt |
 | Erster Endpunkttyp|String|Gerätetyp: Informationen werden aus einem Endpoint Data-Datei-EndpointType-Feld gelesen.| <br/>&bull; Keine Datendatei für den Endpunkt |
@@ -91,6 +91,16 @@ Dimensionsinformationen basieren teilweise auf Daten, die auf das CQD-Portal hoc
 | Second Endpoint Label 1|String| Eine anpassbare Bezeichnung, Informationen werden aus einer Endpunktdatendatei gelesen. | <br/>&bull; Keine Datendatei für den Endpunkt |
 | Second Endpoint Label 2|String|Eine anpassbare Bezeichnung, Informationen werden aus einer Endpunktdatendatei gelesen.| <br/>&bull; Keine Datendatei für den Endpunkt|
 | Second Endpoint Label 3|String|Eine anpassbare Bezeichnung, Informationen werden aus einer Endpunktdatendatei gelesen.| <br/>&bull; Keine Datendatei für den Endpunkt |
+| First ASN|String|Autonomes Systemnummer für den ersten Endpunkt. <br/> **Beispielwert:** 8069  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| Second ASN|String|Autonomes Systemnummer für den zweiten Endpunkt. <br/> **Beispielwert:** 8069  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| First ASN Country Code|String|Ländercode für die für den ersten Endpunkt ermittelte Nummer des eigenständigen Systems. <br/> **Beispielwert:** USA  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| Second ASN Country Code|String|Ländercode für die für den zweiten Endpunkt ermittelte Nummer des eigenständigen Systems. <br/> **Beispielwert:** USA  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| First ASN Country|String|Landesname für die für den ersten Endpunkt ermittelte Nummer des eigenständigen Systems. <br/> **Beispielwert:** USA  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| Second ASN Country|String|Landesname für die für den zweiten Endpunkt ermittelte Nummer des eigenständigen Systems <br/> **Beispielwert:** USA  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| First ASN City|String|Ortsname für die für den ersten Endpunkt ermittelte Nummer des eigenständigen Systems. <br/> **Beispielwert:** Redmond  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| Second ASN City|String|Ortsname für die für den zweiten Endpunkt ermittelte Nummer des eigenständigen Systems. <br/> **Beispielwert:** Redmond  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| First ASN State|String|Zustandsname für die für den ersten Endpunkt ermittelte Nummer des eigenständigen Systems. <br/> **Beispielwert:** WA  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
+| Second ASN State|String|State name for the Autonomous System Number determined for the second endpoint. <br/> **Beispielwert:** WA  | <br/>&bull; Netzwerkdaten waren nicht verfügbar, um Endpunkt-ASN zu ermitteln |
 |**Gebäude**| | |
 | First Network | Zeichenfolge | Subnetz, das für den Medienstream vom ersten Endpunkt verwendet wird, wenn das Subnetz in Subnetz-zu-Mandant-Gebäudedaten vorhanden ist. <br/> **Beispielwert:** 10.0.1.12.0 | &bull; Netzwerkdaten wurden vom Endpunkt nicht gemeldet <br/>&bull; Netzwerk ist in Subnetzzuordnungsdaten nicht definiert.  |
 | First Network Name  | Zeichenfolge  | Name des Netzwerks, das für den Medienstream vom ersten Endpunkt verwendet wird. Basierend auf der Zuordnung von Subnetz-zu-Mandant-Gebäudedaten. <br/> **Beispielwert:** USA/WA/REDMOND | &bull; Netzwerkdaten wurden vom Endpunkt nicht gemeldet <br/>&bull; Netzwerk ist in Subnetzzuordnungsdaten nicht definiert  |
@@ -443,7 +453,10 @@ Dimensionsinformationen basieren teilweise auf Daten, die auf das CQD-Portal hoc
 |Jitter|Millisekunden|Die Variation der Ankunftszeit von RTP-Paketen. Weitere Informationen [finden Sie unter Streamklassifizierung](stream-classification-in-call-quality-dashboard.md) im Anrufqualitätsdashboard.<br/>**Beispiel:** 5,982||
 |Packet Loss Rate|Prozent|Der Prozentsatz der Datenströme zwischen Vermittlungsserver und SBC oder Gateway, sofern verfügbar. Weitere Informationen [finden Sie unter Streamklassifizierung](stream-classification-in-call-quality-dashboard.md) im Anrufqualitätsdashboard.<br/>**Beispiel:** 1,2 %||
 |Latenz (Roundtripzeit)|Millisekunden|Die durchschnittliche Roundtripzeit für die Netzwerkweitergabe pro berechneter Datenstrom. Weitere Informationen [finden Sie unter Streamklassifizierung](stream-classification-in-call-quality-dashboard.md) im Anrufqualitätsdashboard.<br/>**Beispiel:** 3,49||
+|**Besprechung**|||
+|Besprechungsszenario|Enumeration <br/>**Mögliche Werte:** <br/> Bookings <br/> EHR Connector <br/> Unbekannt |Ein Feld, das von Denkteams für die Besprechungsplanung (z. B. Bookings, EHR Connector) über die Telemetrie bereitgestellt wird, um die Besprechungen von den anderen zu unterscheiden. Seit April 2021 haben sich nur Bookings und EHR Connector angemeldet, um Telemetriedaten zur Identifizierung des Besprechungsszenarios zur Verfügung zu stellen.|Der Terminplanungsclient hat diesen Parameter nicht über seine Telemetrie bereitgestellt.|
 ||||
+
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Hinweise zum Datentyp/den Einheiten der Dimension
 
@@ -501,7 +514,7 @@ In der Tabelle oben werden die möglichen Ursachen für eine leere Dimension auf
 
 Viele Messwerte können auch als Filter verwendet werden. In der folgenden Tabelle sind die derzeit in CQD verfügbaren Maße aufgeführt, die in der im Abfrage-Editor aufgeführten Reihenfolge angezeigt werden.
 
-|Name der Kennzahl |Einheiten |Beschreibung |
+|Name der Kennzahl |Einheiten |Description |
 |:--- |:--- |:--- |
 |Total Stream Count |Anzahl der Datenströme |Nummerieren sie Medienströme unabhängig vom Medientyp, einschließlich Zuverlässigkeits-/Diagnosedatenströme, die möglicherweise keinen Medientyp haben. |
 | Gesamt-CDR Verfügbare Datenstromanzahl | Anzahl der Datenströme |Anzahl der Mediendatenströme mit verfügbaren Zuverlässigkeits-/Diagnoseinformationen. Siehe [Anrufdetailseing (CDR) in Skype for Business Server](/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |

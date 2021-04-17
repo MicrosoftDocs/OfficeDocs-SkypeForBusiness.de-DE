@@ -1,5 +1,5 @@
 ---
-title: Installieren, Verwalten und Zuweisen von Berechtigungen für die Teams -Lern-App (private Vorschau)
+title: Installieren, Verwalten und Zuweisen von Berechtigungen für Microsoft Viva Learning (private Vorschau)
 author: ChuckEdmonson
 ms.author: chucked
 manager: pamgreenMSFT
@@ -11,83 +11,107 @@ ms.reviewer: ChrisArnoldMSFT, LearningDocs2020
 localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
-description: Verwenden Sie die Microsoft Teams-Lern-App, um einen zentralen Hub für das Lernen zu erstellen, in dem Mitarbeiter Inhaltsbibliotheken in der gesamten Organisation freigeben, zuweisen und lernen können.
+description: Verwenden Sie Microsoft Viva Learning (private Vorschau), um einen zentralen Hub für das Lernen zu erstellen, in dem Mitarbeiter Inhaltsbibliotheken in einer Organisation freigeben, zuweisen und lernen können.
 f1.keywords: ''
 appliesto:
 - Microsoft Teams
 ms.custom: ''
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6dd82c786c30fb4f2ac2ae70f2df6810cfe5d6ad
-ms.sourcegitcommit: 75d710e3858f79ef601cd92e435a4a29dae0aba0
+ms.openlocfilehash: 3b99cdcd49dc35a558d6217e28bf57bbb8563827
+ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "50285619"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "51880349"
 ---
-# <a name="install-manage-and-assign-permissions-for-the-teams-learning-app-private-preview"></a>Installieren, Verwalten und Zuweisen von Berechtigungen für die Teams -Lern-App (private Vorschau)
+# <a name="install-manage-and-assign-permissions-for-microsoft-viva-learning-private-preview"></a>Installieren, Verwalten und Zuweisen von Berechtigungen für Microsoft Viva Learning (private Vorschau)
 
-*Dieser Artikel enthält vorläufige Inhalte für die Teams Learning-App, die sich in der privaten Vorschau befindet.*
+*Dieser Artikel enthält vorläufige Inhalte für Microsoft Viva Learning, das sich in der privaten Vorschau befindet.*
 
-Die Microsoft Teams -Lern-App (private Vorschau) versetzt Teams und Einzelpersonen in Ihrer Organisation in die Lage, das Lernen zu einem natürlichen Teil ihres Tages zu machen. Die App erstellt einen zentralen Hub in Teams, in dem Mitarbeiter Inhaltsbibliotheken in Ihrer Organisation freigeben, zuweisen und daraus lernen können. Administratoren legen Berechtigungen und lassen Lerninhaltsquellen für die App zu. Lerninhalte können LinkedIn Learning, Microsoft Learn, Microsoft 365-Schulungen, in SharePoint Online gespeicherte inhalte Ihrer Organisation und von der App unterstützte Drittanbieter umfassen.
+Microsoft Viva Learning (private Vorschau) ermöglicht Es Teams und Einzelpersonen in Ihrer Organisation, das Lernen zu einem natürlichen Bestandteil ihres Tages zu machen. Die App erstellt einen zentralen Hub in Teams, in dem Mitarbeiter Inhaltsbibliotheken in Ihrer Organisation freigeben, zuweisen und lernen können.
 
-Um die Teams -Lern-App (private Vorschau) einrichten zu können, müssen Sie:
+Administratoren legen Berechtigungen und Lerninhaltsquellen für Viva Learning (private Vorschau) zu. Lerninhalte können LinkedIn Learning, Microsoft Learn, Microsoft 365-Schulungen, in SharePoint online gespeicherte eigene Inhalte Ihrer Organisation und Drittanbieter umfassen, die von Viva Learning unterstützt werden (private Vorschau).
 
--   Teams Admin Center Admin
--   Microsoft 365 Admin Center Admin Admin (ein globaler Administrator)
+## <a name="admin-roles"></a>Administratorrollen
 
-## <a name="manage-the-teams-learning-app-private-preview-in-the-teams-admin-center"></a>Verwalten der Teams -Learning-App (private Vorschau) im Teams Admin Center
+Zum Einrichten von Viva Learning (private Vorschau) benötigen Sie Berechtigungen wie folgt:
 
-Der Administrator von Teams installiert die Teams -Lern-App (private Vorschau) aus dem App Store und wendet Richtlinien für das Einrichten, Verwalten und Berechtigungen von Apps über das Teams Admin Center an.
+- Microsoft Teams-Administrator
+- Globaler Microsoft 365-Administrator oder SharePoint-Administrator
+- Knowledge Admin – Dies ist eine neue Rolle im Microsoft 365 Admin Center, die jedem Benutzer in der Organisation zugewiesen werden kann. Diese Rolle verwaltet die Lerninhaltsquellen der Organisation über das Microsoft 365 Admin Center. 
 
-### <a name="manage-the-teams-learning-app-private-preview"></a>Verwalten der Teams -Lern-App (private Vorschau)
+> [!TIP]
+> Der Wissensadministrator sollte moderat technisch sein und über vorhandene SharePoint-Administratoranmeldeinformationen verfügen, vorzugsweise eine Person, die sich mit dem Bildungs-, Lern-, Schulungs- oder Mitarbeitererfahrungsteil der Organisation auskennt.
+ 
+## <a name="manage-viva-learning-private-preview-in-the-teams-admin-center"></a>Verwalten von Viva Learning (private Vorschau) im Teams Admin Center
 
-Führen Sie die folgenden Schritte aus, um Einstellungen für die App zu verwalten:
+Der Teams-Administrator installiert Viva Learning (private Vorschau) aus dem App Store und wendet dann Setup-, Verwaltungs- und Berechtigungsrichtlinien über das Teams Admin Center an.
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **"Apps**  >  **verwalten".**
+### <a name="manage-settings-for-viva-learning-private-preview"></a>Verwalten von Einstellungen für Viva Learning (private Vorschau)
 
-   ![Linke Navigationsleiste im Teams Admin Center mit angezeigten Abschnitten "Teams-Apps" und "Apps verwalten"](media/learning-app-teams-manage-apps-nav.png)
+Sie müssen ein Administrator im Teams Admin Center sein, um diese Aufgaben ausführen zu können.
 
-2. Geben Sie **auf der Seite "Apps** verwalten" im Suchfeld "Lernen" ein, um nach der Teams -Lern-App zu suchen (private Vorschau). 
+Führen Sie die folgenden Schritte aus, um Einstellungen für Viva Learning zu verwalten:
+
+1. Wechseln Sie in der linken Navigationsleiste des Teams Admin Centers zu **Teams-Apps**  >  **Apps verwalten.**
+
+   ![Linke Navigation im Teams Admin Center mit Teams-Apps und Abschnitt "Apps verwalten"](media/learning-app-teams-manage-apps-nav.png)
+
+2. Geben Sie **auf der** Seite Apps  verwalten im Suchfeld Die Suche nach der Teams Learning-App (private Vorschau) ein.
 
    ![Seite "Apps verwalten" im Teams Admin Center mit dem Suchfeld](media/learning-app-teams-manage-apps-page.png)
 
-3. Auf der **Lernseite:**
-   1. Wählen **Sie unter "Status"** die **Option "Zum** Aktivieren der App zulässig" aus.
-   2. Wechseln Sie **auf der** Registerkarte "Einstellungen" im Abschnitt **"App-Einstellungen"** zum Microsoft 365 Admin Center, um Lerninhaltsquellen zu konfigurieren.
+3. Auf der **Seite Lernen:**
+   1. Wählen **Sie unter Status** die Option **Zum** Aktivieren der App zulässig aus.
+   2. Wechseln Sie **auf der** Registerkarte Einstellungen im Abschnitt **App-Einstellungen** zum Microsoft 365 Admin Center, um Lerninhaltsquellen zu konfigurieren.
 
-   ![Lernseite im Teams Admin Center mit Abschnitt "Status" und "App-Einstellungen"](media/learning-app-teams-learning-page.png)
+   ![Lernseite im Teams Admin Center mit dem Abschnitt Status- und App-Einstellungen](media/learning-app-teams-learning-page.png)
 
-4. Wechseln **Sie nach dem** Verwalten von **App-Einstellungen** zu "Berechtigungen" und "Richtlinien einrichten", um Mitarbeitern, die im Rahmen der Teilnahme Ihrer Organisation an der privaten Vorschau Zugriff auf die App erhalten sollen, Berechtigungen zu erteilen.
+4. Wechseln **Sie nach** Verwalten von **App-Einstellungen** zu Berechtigungen und Einrichtungsrichtlinien, um Mitarbeitern, die im Rahmen der Teilnahme Ihrer Organisation an der privaten Vorschau Zugriff auf die App haben sollen, die Berechtigung zu erteilen.
 
 > [!NOTE]
->  Wenn Sich Ihre Organisation im Rahmen des Teams TAP100-Programms in Ring 4.0 befindet, müssen Sie möglicherweise die folgenden Schritte unternehmen, um genehmigten Benutzern in Ring 3.0 den Zugriff auf die Teams -Learning-App (private Vorschau) zu ermöglichen.
+>  Wenn Sich Ihre Organisation im Rahmen des Teams TAP100-Programms in Ring 4.0 befindet, müssen Sie möglicherweise die folgenden Schritte unternehmen, um genehmigten Benutzern in Ring 3.0 den Zugriff auf Viva Learning (private Vorschau) zu ermöglichen.
 
-Im Rahmen der privaten Vorschau wird die Teams -Learning-App (private Vorschau) in Ring 3.0 veröffentlicht. Wenn sich Ihre Organisation in Ring 4.0 befindet, wird die App nicht im App Store angezeigt. Zum Testen der App müssen Sie eine Berechtigungsrichtlinie für benutzerdefinierte Apps erstellen, sie auf "Alle Apps zulassen" festlegen und sie benutzern mit Ring 3.0 zuweisen.
+Im Rahmen der privaten Vorschau wird Viva Learning (private Vorschau) in Ring 3.0 veröffentlicht. Wenn Sich Ihre Organisation in Ring 4.0 befindet, wird die App im App Store nicht angezeigt. Zum Testen der App müssen Sie eine Berechtigungsrichtlinie für benutzerdefinierte Apps erstellen, sie auf Alle Apps zulassen festlegen und sie genehmigten Benutzern von Ring 3.0 zuweisen.
 
-   ![Tap-AppsPermission-Plcy page showing Allow all apps selected](media/learning-app-tap-appspermission-plcy.png)
+   ![TAP-AppsPermission-Plcy-Seite mit Ausgewählter Option "Alle Apps zulassen"](media/learning-app-tap-appspermission-plcy.png)
 
 ## <a name="configure-learning-content-sources-in-the-microsoft-365-admin-center"></a>Konfigurieren von Lerninhaltsquellen im Microsoft 365 Admin Center
 
-Die Administratoren für das Microsoft 365 Admin Center können Einstellungen im Zusammenhang mit der Teams -Lern-App (private Vorschau) verwalten und die Lerninhaltsquellen konfigurieren.
+Die Administratoren für das Microsoft 365 Admin Center können Einstellungen im Zusammenhang mit Viva Learning verwalten (private Vorschau) und die Lerninhaltsquellen konfigurieren.
 
-Der Administrator kann auswählen, welche zusätzlichen Inhaltsquellen für Lerninhalte (z. B. SharePoint oder unterstützte Inhaltsanbieterquellen von Drittanbietern) den Benutzern der App zur Verfügung stehen sollen. Der Administrator konfiguriert dann diese Quellen, um sicherzustellen, dass der Inhalt für die Suche und Ermittlung verfügbar ist und von den Mitarbeitern durchsucht werden kann, die die App verwenden.
+Der Administrator wählt aus, welche zusätzlichen Lerninhaltsquellen (z. B. SharePoint oder unterstützte Inhaltsanbieterquellen von Drittanbietern) benutzern von Viva Learning zur Verfügung stehen (private Vorschau). Der Administrator konfiguriert dann diese Quellen, um sicherzustellen, dass der Inhalt für die Suche und Ermittlung verfügbar ist und von den Mitarbeitern durchsucht werden kann, die Viva Learning verwenden (private Vorschau).
 
 > [!NOTE]
->  Benutzer melden sich bei Nicht-Microsoft- und LinkedIn Learning Pro-Lernergebnissen in einem Browser oder eingebetteten Viewer an. Für dieses konfigurierte Lernen gelten die separaten Lizenz-, Datenschutz- und Dienstbedingungen zwischen Ihrer Organisation und dem Drittanbieter und nicht die Lernbedingungen (Vorschau). Bevor Sie dieses Lernvideo im Lernbereich (Vorschau) auswählen, vergewissern Sie sich, dass für Ihre Organisation und Ihre Benutzer eine Vereinbarung verfügbar ist.
+>  Benutzer melden sich bei Nicht-Microsoft- und LinkedIn Learning Pro-Lernergebnissen in einem Browser oder eingebettetem Viewer an. Dieses konfigurierte Lernen unterliegt den separaten Lizenz-, Datenschutz- und Dienstbedingungen zwischen Ihrer Organisation und dem Drittanbieter und nicht den Bedingungen für Viva Learning (private Vorschau). Bevor Sie diese Art von Lernen auswählen, vergewissern Sie sich, dass eine Vereinbarung für Ihre Organisation und Ihre Benutzer vor ort ist.
 
-### <a name="configure-settings-for-the-learning-content-sources-for-the-app"></a>Konfigurieren von Einstellungen für die Lerninhaltsquellen für die App
+### <a name="assign-the-knowledge-admin-role-optional"></a>Zuweisen der Rolle des Wissensadministrators [Optional]
 
-Diese Schritte müssen vom Microsoft 365-Administrator ausgeführt werden.
+Sie müssen ein globaler Microsoft 365-Administrator sein, um diese Aufgaben ausführen zu können.
 
-1.  Wechseln Sie in der linken Navigationsleiste des Microsoft 365 Admin Centers zu den **Einstellungen für**  >  **die Organisation.**
+Führen Sie die folgenden Schritte aus, um einen Wissensadministrator für Viva Learning zuzuordnen:
 
-2.  Wählen Sie **auf der** Seite "Einstellungen" auf der & **"Dienste"** die Option **"Lern-App" aus.**
+1.  Wechseln Sie in der linken Navigationsleiste des Microsoft 365 Admin Centers zu **Rollen.**
 
-   ![Seite "Einstellungen" im Microsoft 365 Admin Center mit aufgelisteter Lern-App](media/learning-app-365-settings-page.png)
+2.  Wählen Sie **auf der** Seite Rollen auf der Registerkarte **Azure AD** die Option Knowledge **Admin aus.**
+ 
+3.  Wählen Sie **auf der** Seite Knowledge Admin im Abschnitt **Zugewiesene Administratoren** die Option **Hinzufügen** aus, und fügen Sie dann die Person hinzu, die Sie für die Rolle auswählen.
 
-3.  Wählen Sie **im Bereich der Lern-App** die Lerninhaltsquellen aus, die Sie für die Organisation konfigurieren möchten, und wählen Sie dann "Speichern" **aus.**
+### <a name="configure-settings-for-the-learning-content-sources-for-viva-learning-private-preview"></a>Konfigurieren von Einstellungen für die Lerninhaltsquellen für Viva Learning (private Vorschau)
 
-   ![Bereich "Lern-App" im Microsoft 365 Admin Center mit Optionen für Inhaltsquellen](media/learning-app-365-settings-learning-app-panel.png)
+Sie müssen ein globaler Microsoft 365-Administrator oder Wissensadministrator sein, um diese Aufgaben ausführen zu können.
+
+Führen Sie die folgenden Schritte aus, um Einstellungen für Lerninhaltsquellen in Viva Learning zu konfigurieren:
+
+1.  Wechseln Sie im linken Navigationsbereich des Microsoft 365 Admin Centers zu **Einstellungen**  >  **für Organisationseinstellungen.**
+
+2.  Wählen Sie auf der Seite **Organisationseinstellungen** auf der Registerkarte **Dienste** die Option **Lern-App (Vorschau) aus.**
+
+     ![Seite "Einstellungen" im Microsoft 365 Admin Center mit der aufgelisteten Lern-App](media/learning-sharepoint-configure1.png)
+
+3.  Wählen Sie **im Bereich Lern-App (Vorschau)** die Lerninhaltsquellen aus, die Sie für die Organisation konfigurieren möchten, und wählen Sie dann **Speichern aus.**
+
+     ![Lernbereich im Microsoft 365 Admin Center mit Optionen für Inhaltsquellen](media/learning-sharepoint-configure2.png)
 
 Unter allen vorhandenen Lernquellen sind einige standardmäßig aktiviert. Hierzu zählen folgende Punkte:
 
@@ -96,62 +120,106 @@ Unter allen vorhandenen Lernquellen sind einige standardmäßig aktiviert. Hierz
 - Microsoft 365-Schulung
 
 > [!NOTE]
-> Wenn Ihre Organisation über ein LinkedIn Learning Standard- oder Pro-Abonnement verfügt, wird das Inhaltsrepository für die Mitarbeiter in Ihrer Organisation entsperrt. Nur die Mitarbeiter, die über die Berechtigung verfügen, können das gesamte Inhaltsrepository verwenden.
-
-Andere Quellen müssen möglicherweise aktiviert oder manuell konfiguriert werden. Lernquellen, die nicht von Microsoft stammen, werden zwischen Ihrer Organisation und dem Drittanbieter separat lizenziert. Sie müssen überprüfen, ob Sie sich für deren Lernerfolge für Sie und Ihre Benutzer angemeldet haben.
+> Wenn Ihre Organisation über ein LinkedIn Learning Standard- oder Pro-Abonnement verfügt, wird das Inhaltsrepository für die Mitarbeiter in Ihrer Organisation entsperrt. Nur die Mitarbeiter, die über die Berechtigung verfügen, können das gesamte Inhaltsrepository verwenden. <br>Andere Quellen müssen möglicherweise manuell aktiviert oder konfiguriert werden. Lernquellen, die nicht von Microsoft stammen, werden zwischen Ihrer Organisation und dem Drittanbieter separat lizenziert. Sie müssen überprüfen, ob Sie sich für ihr Lernen für Sie und Ihre Benutzer angemeldet haben.
 
 Um eine Lerninhaltsquelle zu aktivieren oder zu deaktivieren, aktivieren Sie das Kontrollkästchen neben der Quelle. Wenn eine Quelle aktiviert ist, wird ein Häkchen angezeigt.
 
-## <a name="configure-sharepoint-as-a-learning-content-source-coming-soon"></a>Konfigurieren von SharePoint als Quelle für Lerninhalte (in Kürze folgen)
+## <a name="configure-sharepoint-as-a-learning-content-source"></a>Konfigurieren von SharePoint als Lerninhaltsquelle
 
-Sie konfigurieren SharePoint als Lerninhaltsquelle für die Teams -Learning-App (private Vorschau) im Microsoft 365 Admin Center.
+Sie können SharePoint als Lerninhaltsquelle konfigurieren, um die eigenen Inhalte Ihrer Organisation in Viva Learning (private Vorschau) verfügbar zu machen.
 
 ### <a name="overview"></a>Übersicht
 
-Der Administrator stellt eine Website-URL für die Stelle zur Verfügung, an der der Lerndienst ein leeres zentrales Lerninhaltsrepository in Form einer strukturierten SharePoint-Liste erstellen kann. Diese Liste kann von der Organisation verwendet werden, um Links zu unternehmensübergreifenden SharePoint-Ordnern zu erstellen, die Lerninhalte enthalten. Administratoren sind für das Sammeln und Erstellen einer Liste von URLs für Ordner zuständig. Diese Ordner sollten nur Inhalte enthalten, die in der Teams -Lern-App (private Vorschau) verfügbar gemacht werden können.
+Der Wissensadministrator (oder globaler Administrator) stellt eine Website-URL zur Verfügung, zu der der Lerndienst einen leeren zentralen Speicherort – das Inhaltsrepository für Lern-Apps – in Form einer strukturierten SharePoint-Liste erstellen kann. Diese Liste kann von Ihrer Organisation verwendet werden, um Links zu unternehmensübergreifenden SharePoint-Ordnern mit Lerninhalten zu erstellen. Administratoren sind für das Sammeln und Kurieren einer Liste von URLs für Ordner verantwortlich. Diese Ordner sollten nur Inhalte enthalten, die in Viva Learning (private Vorschau) verfügbar gemacht werden können.
+
+Viva Learning (private Vorschau) unterstützt die folgenden Dokumenttypen:
+
+- Word, PowerPoint, Excel, PDF
+- Audio (M4A)
+- Video (MOV, MP4, AVI)
+
+Weitere Informationen finden Sie in der [SharePoint Online-Dokumentation.](https://docs.microsoft.com/sharepoint/introductionlink) 
 
 ### <a name="permissions"></a>Berechtigungen
 
-Ordner-URLs können von jeder beliebigen SharePoint-Website in der Organisation erfasst werden. Alle Inhalte in diesen Ordnern können durchsucht werden, aber nur Inhalte, für die der einzelne Mitarbeiter Berechtigungen besitzt, können verwendet werden.
- 
+UrLs für Dokumentbibliotheksordner können von jeder beliebigen SharePoint-Website in der Organisation gesammelt werden. Viva Learning (private Vorschau) folgt allen vorhandenen Inhaltsberechtigungen. Daher sind nur Inhalte, für die ein Benutzer über die Berechtigung zum Zugriff verfügt, in Viva Learning (private Vorschau) durchsuchbar und sichtbar. Alle Inhalte in diesen Ordnern sind durchsuchbar, aber nur Inhalte, für die der einzelne Mitarbeiter Berechtigungen besitzt, können verwendet werden.
+
+Das Löschen von Inhalten aus dem Repository Ihrer Organisation wird derzeit nicht unterstützt.
+
+Führen Sie die folgenden Schritte aus, um unbeabsichtigt angezeigte Inhalte zu entfernen:
+
+1.  Um den Zugriff auf die Dokumentbibliothek einzuschränken, wählen Sie **die** Option Aktionen anzeigen und dann Zugriff **verwalten aus.**
+     
+     ![Dokumentbibliotheksseite in SharePoint mit Option "Aktionen anzeigen" mit Hoher Zugriff verwalten.](media/learning-sharepoint-permissions2.png)
+
+2.  Löschen Sie das ursprüngliche Dokument in der Dokumentbibliothek.
+
+Weitere Informationen finden Sie unter [Freigeben und Berechtigungen in der modernen SharePoint-Benutzererfahrung.](https://docs.microsoft.com/sharepoint/modern-experience-sharing-permissions) 
+
 ### <a name="learning-service"></a>Lerndienst
 
-Der Lerndienst verwendet die bereitgestellten Ordner-URLs, um Metadaten aus allen Inhalten zu erhalten, die in diesen Ordnern gespeichert sind. Innerhalb von 24 Stunden nach dem Angeben der Ordner-URL im zentralen Repository können Die Mitarbeiter innerhalb der App nach Unternehmensinhalten suchen und diese verwenden. Das Löschen von Inhalten aus dem Repository wird an diesem Punkt nicht unterstützt. Unbeabsichtigt angezeigte Inhalte können nur entfernt werden, indem im Microsoft 365 Admin Center eine neue URL für die SharePoint-Website angegeben wird.
+Der Lerndienst verwendet die bereitgestellten Ordner-URLs, um Metadaten aus allen Inhalten zu erhalten, die in diesen Ordnern gespeichert sind. Innerhalb von 24 Stunden nach der Bereitstellung der Ordner-URL im zentralen Repository können Mitarbeiter innerhalb von Viva Learning (private Vorschau) nach den Inhalten Ihrer Organisation suchen und diese verwenden. Alle Änderungen an Inhalten, einschließlich aktualisierter Metadaten und Berechtigungen, werden auch innerhalb von 24 Stunden im Lerndienst angewendet.
 
 ### <a name="configure-sharepoint-as-a-source"></a>Konfigurieren von SharePoint als Quelle
 
-Diese Schritte müssen vom Microsoft 365-Administrator ausgeführt werden.
+Sie müssen globaler Microsoft 365-Administrator, SharePoint-Administrator oder Wissensadministrator sein, um diese Aufgaben ausführen zu können.
 
-1.  Wechseln Sie in der linken Navigationsleiste des Microsoft 365 Admin Centers zu **"Einstellungen".**
+Führen Sie die folgenden Schritte aus, um SharePoint als Lerninhaltsquellen in für Viva Learning (private Vorschau) zu konfigurieren:
+
+1.  Wechseln Sie im linken Navigationsbereich des Microsoft 365 Admin Centers zu **Einstellungen**  >  **für Organisationseinstellungen.**
  
-2.  Wählen Sie **auf der** Seite "Einstellungen" auf der & **"Dienste"** die Option **"Lern-App" aus.**
+2.  Wählen Sie auf der Seite **Organisationseinstellungen** auf der Registerkarte **Dienste** die Option **Lern-App (Vorschau) aus.**
 
-   ![Seite "Einstellungen" im Microsoft 365 Admin Center mit aufgelisteter Lern-App](media/learning-app-365-settings-page.png)
+     ![Einstellungsseite im Microsoft 365 Admin Center mit aufgelisteter Liste von Viva Learning.](media/learning-sharepoint-configure1.png)
 
-3.  Geben Sie **im Bereich der** Lern-App die Website-URL der SharePoint-Website an, auf der die App ein zentrales Repository erstellen soll.
+3.  Geben Sie im Bereich Lern-App **(Vorschau)** unter **SharePoint** die Website-URL der SharePoint-Website an, auf der Sie ein zentrales Repository von Viva Learning erstellen möchten.
 
-   ![Bereich "Lern-App" im Microsoft 365 Admin Center, in dem SharePoint ausgewählt ist](media/learning-app-365-panel-sharepoint-selected.png)
+     ![Lernbereich im Microsoft 365 Admin Center mit ausgewähltem SharePoint.](media/learning-sharepoint-configure2.png)
 
-4.  Eine SharePoint-Liste wird automatisch auf der bereitgestellten Website der Organisation erstellt. Wählen Sie im linken Navigationsbereich der SharePoint-Website die Option **"Inhaltsrepository für Lern-Apps" aus.** 
+4.  Eine SharePoint-Liste wird automatisch auf der bereitgestellten SharePoint-Website erstellt.
 
-   ![Linke Navigation in SharePoint mit dem Abschnitt "Inhaltsrepository der Lern-App"](media/learning-app-content-repository-nav.png)
+     ![Neu erstellte SharePoint-Liste auf der SharePoint-Website.](media/learning-sharepoint-configure3.png)
 
+     Wählen Sie in der linken Navigationsleiste der SharePoint-Website die Option **Websiteinhalte**  >  **Lern-App-Inhaltsrepository aus.** 
+
+     ![SharePoint-Liste mit der Websiteinhaltsnavigation und dem Abschnitt Lern-App-Inhaltsrepository.](media/learning-sharepoint-configure4.png) 
+
+5. Füllen Sie **auf der Seite Lern-App-Inhaltsrepository** die SharePoint-Liste mit URLs in die Lerninhaltsordner auf.
+
+   1. Wählen **Sie Neu aus,** um den **Bereich Neues Element zu** sehen. 
+
+       ![Seite "Lerninhaltsrepository" in SharePoint mit der Option Neu.](media/learning-sharepoint-configure5.png)
  
-5. Füllen Sie **auf der Seite "Inhaltsrepository** der Lern-App" die SharePoint-Liste mit URLs für die Lerninhaltsordner aus.
+   2. Fügen Sie **im Bereich** Neues Element im Feld **Titel** einen Verzeichnisnamen Ihrer Wahl hinzu. Fügen Sie **im Feld Ordner-URL** die URL zum Lerninhaltsordner hinzu. Klicken Sie auf **Speichern**.
 
-   1.   Wählen Sie **"Neu"** aus, um den **Bereich "Neues Element"** anzeigen. 
+       ![Bereich "Neues Element" in SharePoint mit den Feldern "Titel" und "Ordner-URL".](media/learning-sharepoint-configure6.png)
 
-   ![Seite "Inhaltsrepository für Lern-Apps" in SharePoint mit der Option "Neu"](media/learning-app-content-repository-new.png)
+   3. Die **Seite Lern-App-Inhaltsrepository** wird mit den neuen Lerninhalten aktualisiert.
+
+       ![Seite "Lerninhaltsrepository" in SharePoint mit den aktualisierten Informationen.](media/learning-sharepoint-configure7.png)
+
+> [!NOTE]
+> Um einen breiteren Zugriff auf das Inhaltsrepository der Lern-App zu ermöglichen, wird in Kürze ein Link zur Liste in der Benutzeroberfläche von Viva Learning (private Vorschau) verfügbar sein, in der Benutzer Zugriff anfordern und letztendlich beim Auffüllen der Liste helfen können. Websitebesitzer und globale Administratoren müssen zugriff auf die Liste gewähren. Access ist nur für die Liste spezifisch und gilt nicht für die Website, auf der die Liste gespeichert ist.
+
+### <a name="folder-url-document-library-curation"></a>Dokumentbibliothekskurierung der Ordner-URL
+
+Standardmetadaten (z. B. geändertes Datum, erstellt von, Dokumentname, Inhaltstyp und Organisationsname) werden automatisch von der Microsoft Graph-API in Viva Learning (private Vorschau) gezogen.
  
-   2.   Fügen Sie **im Bereich "Neues** Element" im Feld **"Titel"** einen Verzeichnisnamen Ihrer Wahl hinzu. Fügen Sie **im Feld "Ordner-URL"** die URL dem Lerninhaltsordner hinzu. Klicken Sie auf **Speichern**.
+Um die Allgemeine Ermittlung und Suchrelevanz des Inhalts zu verbessern, empfehlen wir das Hinzufügen einer **Spalte Beschreibung.**
 
-   ![Bereich "Neues Element" in SharePoint mit den Feldern "Titel" und "Ordner-URL"](media/learning-app-new-item-panel.png)
+Führen Sie die folgenden **Schritte** aus, um der Dokumentbibliotheksseite eine Spalte Beschreibung hinzuzufügen:
 
-   3. Die Seite "Inhaltsrepository der Lern-App" wird mit den neuen Lerninhalten aktualisiert.
+1.  Wählen Sie **auf der** Seite Dokumente die Option Spalte **hinzufügen aus.**
 
-   ![Learning App Content Repository page in SharePoint showing the updated information](media/learning-app-content-repository-populated.png)
+2. Wählen Sie **die Option Aktionen** anzeigen und dann Einzelne **Textzeile aus.**
 
+     ![Seite "Dokumente" in SharePoint mit den Optionen "Aktionen anzeigen" mit hervorgehobener Textzeile](media/learning-sharepoint-curation1.png)
 
+3. Fügen Sie **im Bereich** Spalte erstellen im Feld **Name** einen beschreibenden Namen für die Spalte hinzu. Klicken Sie auf **Speichern**.
+
+     ![Erstellen Sie in SharePoint einen Spaltenbereich mit dem Namen und anderen Feldern.](media/learning-sharepoint-curation2.png)
  
+4. Fügen Sie **auf der** Seite Dokumente in der Spalte **Beschreibung** benutzerdefinierte Beschreibungen für jedes Element hinzu. Wenn keine Beschreibung angegeben wird, stellt Viva Learning (private Vorschau) eine Standardmeldung zur Hervorhebung des Inhalts aus Ihrer eigenen SharePoint-Bibliothek zur Verfügung. 
 
-
+     ![Seite "Dokumente" in SharePoint mit den Beschreibungen in der Spalte Beschreibung.](media/learning-sharepoint-curation3.png)
+ 

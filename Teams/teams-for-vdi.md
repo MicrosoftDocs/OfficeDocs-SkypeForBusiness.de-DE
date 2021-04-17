@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
+ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858048"
+ms.locfileid: "51874471"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -395,7 +395,7 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 - Anrufwarteschleife
 - Audio-/Computersound des freigegebenen Systems
 - Medienumgehung für direkte Weiterleitung
-- Vergrößern auf freigegebenen Inhalt
+- Zoomsteuerelement 
 
 > [!NOTE]
 > Wir arbeiten an der Erweiterung von Anruf- und Besprechungsfeatures, die derzeit nur in Nicht-VDI-Umgebungen zur Verfügung stehen. Dazu gehören möglicherweise mehr Administratorkontrolle über die Qualität, zusätzliche Bildschirmfreigabeszenarien und erweiterte Features, die Teams kürzlich hinzugefügt wurden. Wenden Sie sich an Ihren Teams-Verantwortlichen, um mehr über anstehende Funktionen zu erfahren.
