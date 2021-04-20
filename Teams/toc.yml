@@ -1470,14 +1470,6 @@ items:
     items:
       - name: Grenzwerte und Daten für Teams
         href: limits-specifications-teams.md
-      - name: Von Kaizala nach Microsoft Teams wechseln
-        items:
-          - name: Kaizala und Microsoft Teams
-            items:
-              - name: Ihr Pfad zu Teams
-                href: prepare-for-teams.md
-                items:
-                  - name: Navigieren zu den Funktionen in Teams
       - name: Lizenzierung
         items:
           - name: Verwalten des Benutzerzugriffs auf Teams
