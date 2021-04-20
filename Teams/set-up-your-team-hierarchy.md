@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6fa7d46a4ace2e6bc12289f9abe71362511d24c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
+ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117083"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51891282"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Team-Adressierungshierarchie
 
@@ -84,7 +84,7 @@ Sie können auch Buckets definieren, bei denen es sich um Kategorien handelt, di
 
 Die CSV-Datei muss die folgenden drei Spalten in der folgenden Reihenfolge enthalten, beginnend mit der ersten Spalte. Ein Knoten muss mit einem Team verknüpft sein, damit er Aufgaben empfangen kann.
 
-| Spaltenname   | Erforderlich | Beschreibung   |
+| Spaltenname   | Erforderlich | Description   |
 ----------------|----------|---------------|
 | DisplayName    | Ja      | Dieses Feld ist der Name des Knotens. Der Name kann bis zu 100 Zeichen lang sein und nur die Zeichen A-Z, a-z und 0-9 enthalten. Knotennamen müssen eindeutig sein. |
 | ParentName    | Ja       | Dies ist der Name des übergeordneten Knotens. Der hier festgelegte Wert muss dem Wert im Feld **Anzeigename** des übergeordneten Knotens exakt entsprechen. Wenn Sie mehr als einen übergeordneten Knoten hinzufügen möchten, trennen Sie jeden übergeordneten Knotennamen durch ein Semikolon (;). Sie können bis zu 25 übergeordnete Knoten hinzufügen, und jeder name des übergeordneten Knotens kann bis zu 2500 Zeichen lang sein. Ein Knoten kann nur dann mehrere übergeordnete Knoten haben, wenn es sich bei den übergeordneten Knoten um Stammknoten handelt.   <br><br>**WICHTIG** Achten Sie darauf, keine Schleife zu erstellen, in der ein übergeordnetes Element oben in der Hierarchie auf einen untergeordneten Knoten in der Hierarchie verweist. Dies wird nicht unterstützt. |
@@ -97,7 +97,7 @@ Die CSV-Datei muss die folgenden drei Spalten in der folgenden Reihenfolge entha
 
 Nachdem Sie die drei erforderlichen Spalten hinzugefügt haben, können Sie optionale Attributspalten hinzufügen. Diese Attribute können verwendet werden, um Knoten zu filtern, damit Sie einfacher diejenigen auswählen können, auf denen Sie Aufgaben veröffentlichen möchten. Es gibt zwei Möglichkeiten zum Definieren Ihrer Attribute, je nachdem, ob sich Die Werte für dieses Attribut gegenseitig ausschließen.
 
-|Möglichkeiten zum Hinzufügen von Attributen|Beschreibung |Beispiel  |
+|Möglichkeiten zum Hinzufügen von Attributen|Description |Beispiel  |
 |---|---------|---------|
 |Wenn sich die Werte für ein Attribut gegenseitig ausschließen, wird der von Ihnen festgelegte Spaltenname zum Namen des -Attributs.|Jede Zeile kann einen Wert für dieses Attribut enthalten, und jede Attributspalte kann bis zu 50 eindeutige Werte enthalten. Jeder Wert kann bis zu 100 Zeichen lang sein. Der Satz von Attributwerten, die Sie in der Attributspalte angeben, wird als Filterwerte für dieses Attribut angezeigt, wenn Empfängerteams mit der Teamzielhierarchie ausgewählt werden.|Sie möchten, dass Benutzer Stores nach Layout filtern können. Die Werte für dieses Attribut schließen sich gegenseitig aus, da ein Store nur über ein Layout verfügen kann. <br><br>Wenn Sie ein Attribut zum Filtern von Stores nach Layout hinzufügen möchten, fügen Sie eine Spalte mit dem Namen Store-Layout hinzu. In diesem Beispiel sind Die Werte für das Store-Layoutattribut "Compact", "Standard" und "Large".
 |Wenn Sie mehrere Werte für ein Attribut angeben müssen und sich die Werte nicht gegenseitig ausschließen, verwenden Sie das **AttributName:UniqueValue-Format** für die Spaltennamen. <br><br>**WICHTIG** Stellen Sie sicher, dass Sie den Doppelpunkt (englisch) verwenden (:) als Unicode wird nicht als Attributspaltentrennzeichen unterstützt. |Die Textzeichenfolge vor dem Doppelpunkt (:) wird der Name des -Attributs. Alle Spalten, die dieselbe Textzeichenfolge vor den Doppelpunktzeilen enthalten (:) werden in einem Abschnitt im Filtermenü gruppieren. Jede zeichenfolge nach dem Doppelpunkt werden zu den Werten für diesen Abschnitt.<br><br>Jede Zeile kann den Wert 0 (Null) oder 1 für dieses Attribut haben. Ein Wert von 0 bedeutet, dass das -Attribut nicht auf den Knoten angewendet wird, und der Wert 1 bedeutet, dass das -Attribut auf diesen Knoten angewendet wird.|Sie möchten, dass Benutzer Stores nach Abteilung filtern können. Ein Store kann mehrere Abteilungen haben, daher schließen sich die Werte für dieses Attribut nicht gegenseitig aus.<br><br>In diesem Beispiel fügen wir "Departments:Clothing", "Departments:Electronics", "Departments:Foods", "Departments:Home and Garden", "Departments:Sports goods" als Attributspalten hinzu. Abteilungen werden zum Attributnamen, und Benutzer können nach den Abteilungen "Kleidung", "Elektronik", "Lebensmittel", "Haus und Garten" und "Sportartikel" filtern.|
@@ -135,9 +135,9 @@ Das `Store layout` -Attribut enthält Werte, die `Compact` , und `Standard` `Lar
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
 Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,
 Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,
-HR,,,,,,,,
-East Regional Office,,,,,,,,
-West Regional Office,,,,,,,,
+HR,,125399ce-a761-4983-a125-3abc249037fc,,,,,,
+East Regional Office,HR;Communications;Recall,,,,,,,
+West Regional Office,HR;Communications;Recall,,,,,,,
 Northeast Zone,East Regional Office,,,,,,,
 Southeast Zone,East Regional Office,,,,,,,
 New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,
@@ -170,7 +170,7 @@ Get-TeamTargetingHierarchyStatus
 
 Der Befehl gibt die folgenden Felder zurück:
 
-Feld|Beschreibung
+Feld|Description
 -----|------------
 ID | Die eindeutige ID für den Upload.
 Status | Uploadstatus. Zu den Werten **gehören Start**, **Überprüfen**, **Erfolgreich** und **Fehlgeschlagen**

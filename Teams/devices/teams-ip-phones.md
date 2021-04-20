@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Schreibtisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: 758907a284afc7ab4ec4f172eee10c82ce456d61
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768444"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886714"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams-zertifizierte Geräte
 
@@ -44,9 +44,10 @@ Die folgenden Geräte sind im Rahmen des Microsoft Teams Phones Certification Pr
 
 |Gerätemodell                         | Firmwareversion                                                                                                                                                                                                                           | Veröffentlichungsdatum
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes C470HD                      | 1.8.293                                                  | Januar 2021                 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                       | März 2019                   |
-| Audiocodes C448HD (nur CAP-Modus)      | C450HD_TEAMS_0.225                                       | März 2019                   |
+| AudioCodes C435HD                      | 1.12.33                                                  | April 2021                 |
+| AudioCodes C470HD                      | 1.8.293                                                  | Januar 2021                 |
+| AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | März 2019                   |
+| AudioCodes C448HD (nur CAP-Modus)      | C450HD_TEAMS_0.225                                       | März 2019                   |
 |Crestron UC-2                           |1.0.1.46                                                  | Juli 2020                    |
 | Crestron M100                          | Dieses Produkt wurde nicht mehr verwendet. Weitere Informationen finden Sie unter [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) auf der Website von Crestron. | Eingestellt (11.05.2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | Dieses Produkt wurde nicht mehr verwendet. Weitere Informationen finden Sie unter [UC Phone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) auf der Website von Crestron.                  | Eingestellt (11.05.2020) |
@@ -149,7 +150,6 @@ Im Folgenden finden Sie die neuesten Versionen der Teams Rooms für Android-App 
 
 | Produktversion| Veröffentlichungsdatum | Version der Microsoft Teams-App | Version des Unternehmensportals | Version des Administratoragenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| Update 2021 #1  |7. April 2021  |1449/1.0.96.2021020902(Yealink VC210)  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Update 2021 #1  |5. April 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product version code: 223 |
 | Update 2020 #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product version code: 216 |
 | Update 2020 #2  | 24. August 2020| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product version code: 212|
@@ -203,4 +203,4 @@ Wenn Sie ein Anbieter sind, der am Zertifizierungsprogramm teilnehmen möchten, 
 
 [Erkunden Sie Microsoft Teams-Telefone und zertifizierte Geräte.](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams und Skype-Interoperabilität](../teams-skype-interop.md)
+[Interoperabilität von Teams und Skype](../teams-skype-interop.md)

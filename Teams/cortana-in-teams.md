@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 820689e2bcfa190afefda9d161c787c6be9a7da0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f8e24bd9035d45639ac4211435355fe7b792a2d
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118474"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886734"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana-Sprachunterstützung in Teams
 
 > [!Note]
-> Cortana-Sprachunterstützung wird nur in mobilen Microsoft Teams iOS- und Android-Apps, Microsoft Teams-Räumen unter Windows und auf Microsoft Teams-Bildschirmen unterstützt, und dies nur für Benutzer in den USA. Sie ist derzeit nicht für GCC-, GCC-High-, DoD-, EDU-Mandanten verfügbar. Die Erweiterung auf weitere Sprachen und Regionen wird im Rahmen zukünftiger Versionen geschehen.
+> Cortana-Sprachunterstützung wird in mobilen Microsoft Teams-Apps für iOS und Android und Microsoft Teams-Displays für Benutzer in den USA, Großbritannien, Kanada, Indien und Australien unterstützt.  Microsoft Teams Rooms unter Windows wird nur für Benutzer in den USA unterstützt. Cortana-Sprachunterstützung ist derzeit nicht für GCC-, GCC-High-, DoD-, EDU-Mandanten verfügbar. Die Erweiterung auf weitere Sprachen und Regionen wird im Rahmen zukünftiger Versionen geschehen.
 
 > [!Note]
 > Die Sprachunterstützung von Cortana in Microsoft Teams Rooms wird unter Vorschau veröffentlicht. In der Vorschauversion wird Cortana nur in den USA mit der Sprache EN-US auf Geräten unterstützt, auf denen die Mikrofone von Rally angeschlossen sind.
