@@ -2,7 +2,7 @@
 title: Verfügbarkeit der App "Genehmigungen" in Microsoft Teams
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103011"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902569"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -40,6 +40,9 @@ Durch die erste mit der App "Genehmigungen" erstellte Genehmigung wird die Berei
 
 In diesem Artikel werden die Anforderungen und Rollen für die App "Genehmigungen" beschrieben.
 
+> [!NOTE]
+> Dieses Feature wurde noch nicht für Benutzer von Government Community Cloud (GCC), Government Community Cloud High (GCCH) und DoD (Department of Defense) veröffentlicht.
+
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 
 Um die App "Genehmigungen" verwenden zu können, benötigen Sie Berechtigungen für die folgenden Elemente:
@@ -54,7 +57,7 @@ Um die App "Genehmigungen" verwenden zu können, benötigen Sie Berechtigungen f
 
 ## <a name="storage-with-cds"></a>Speicher mit CDS
 
-Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datensprache, die von Geschäfts- und Analyseanwendungen im CDS verwendet wird. Sie besteht aus einer Reihe standardisierter, erweiterbarer Datenschemas, die von Microsoft und unseren Partnern veröffentlicht werden, und die anwendungs- und geschäftsprozessübergreifend für Einheitlichkeit der Daten und deren Bedeutung sorgen. Weitere Informationen zum [Allgemeinen Datenmodell der Microsoft Power Platform](/power-automate/get-started-approvals).
+Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datensprache, die von Geschäfts- und Analyseanwendungen im CDS verwendet wird. Es besteht aus einer Reihe von standardisierten, erweiterbaren Datenschemas, die von Microsoft und unseren Partnern veröffentlicht wurden und die Konsistenz der Daten und deren Bedeutung für alle Anwendungen und Geschäftsprozesse ermöglichen. Weitere Informationen zum [Allgemeinen Datenmodell der Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Weitere Informationen zum [Genehmigungsworkflow](/power-automate/modern-approvals).
 

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Artikel enthält detaillierte Schritte zum Deaktivieren von Hybrid als Teil der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656701"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899106"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>Deaktivieren Der Hybridkonfiguration zum Abschließen der Migration in die Cloud
 
@@ -106,7 +106,10 @@ Es stehen zwei Optionen zur Behandlung dieser Situation zur Verfügung:
 
 Administratoren können Benutzer verwalten, die zuvor von einem lokalen Skype for Business Server in die Cloud verschoben wurden, auch nach der Außerbetriebnahme der lokalen Bereitstellung. Wenn Sie Änderungen an der Sipadresse eines Benutzers oder an der Telefonnummer eines Benutzers vornehmen möchten (und die Sipadresse oder Telefonnummer bereits einen Wert im lokalen Active Directory hat), müssen Sie dies im lokalen Active Directory tun und die Werte in Azure AD fließen lassen. Dies erfordert KEINEN lokalen Skype for Business Server. Stattdessen können Sie diese Attribute direkt im lokalen Active Directory ändern, indem Sie entweder das MMC-Snap-In Active Directory Users and Computers (wie unten gezeigt) oder PowerShell verwenden. Wenn Sie das MMC-Snap-In verwenden, öffnen Sie die Eigenschaftenseite des Benutzers, klicken Sie auf Registerkarte Attribut-Editor, und suchen Sie nach den entsprechenden Attributen zum Ändern:
 
-- Um die Sipadresse eines Benutzers zu ändern, ändern Sie die `msRTCSIP-PrimaryUserAddress` . Beachten Sie, wenn das Attribut eine SIP-Adresse enthält, aktualisieren Sie diesen Wert auch `ProxyAddresses` als bewährte Methode. Obwohl die sip-Adresse in von O365 ignoriert wird, wenn aufgefüllt wird, kann sie von anderen lokalen `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` Komponenten verwendet werden.
+- Um die Sipadresse eines Benutzers zu ändern, ändern Sie die `msRTCSIP-PrimaryUserAddress` .
+
+    > [!NOTE]
+    > Wenn das `ProxyAddresses` Attribut eine SIP-Adresse enthält, aktualisieren Sie diesen Wert ebenfalls als bewährte Methode. Obwohl die sip-Adresse in von O365 ignoriert wird, wenn aufgefüllt wird, kann sie von anderen lokalen `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` Komponenten verwendet werden.
 
 - Wenn Sie die Telefonnummer eines Benutzers ändern möchten, ändern Sie, `msRTCSIP-Line` *ob sie bereits über einen Wert verfügt.*
 
@@ -172,7 +175,7 @@ Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, 
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. Führen Sie das folgende lokale Skype for Business PowerShell-Cmdlet aus, um den lokalen Active Directory-proxyAddresses einen Sip-Adresswert hinzuzufügen. Dadurch werden Interoperabilitätsprobleme verhindert, die auf diesem Attribut beruhen. 
+5. Führen Sie das folgende lokale Active Directory-Modul für Windows PowerShell aus, um dem lokalen Active Directory-ProxyAddresses einen sip-Adresswert hinzuzufügen. Dadurch werden Interoperabilitätsprobleme verhindert, die auf diesem Attribut beruhen. 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -248,7 +251,7 @@ Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, 
 12. Nachdem Sie alle Schritte in Methode 2 abgeschlossen haben, finden Sie unter Verschieben von Hybridanwendungsendpunkten von lokal in [online](decommission-move-on-prem-endpoints.md) und Entfernen Ihres lokalen Skype for Business Server weitere Schritte zum Entfernen Ihrer lokalen Skype for [Business Server-Bereitstellung.](decommission-remove-on-prem.md)
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Artikel
 
 - [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
 

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768384"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899086"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihres Unternehmens für Microsoft Teams 
 
@@ -40,12 +40,11 @@ Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert habe
     |[IP-Adressen](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, und <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > Wenn Sie lokal oder online mit Skype for Business einen Verbund erstellen müssen, dann müssen Sie einige zusätzliche DNS-Einträge konfigurieren.
+    > Wenn Sie lokal oder online mit Skype for Business einen Verbund erstellen müssen, dann müssen Sie einen zusätzlichen DNS-Eintrag konfigurieren.
     >
-    >|CNAME-Datensätze / Hostname  |TTL  |Verweist auf die Adresse oder den Wert  |
-    >|---------|---------|---------|
-    >|SIP     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|DNS-Eintrag  |Dienst  |Protocol  |Priority  |Gewichtung  |Port  |Target  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  Haben Sie eine verifizierte Domäne für Microsoft 365 oder Office 365 (z. B. contoso.com)?
     
@@ -85,8 +84,8 @@ Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitu
 <table>
 <thead>
 <tr class="header">
-<th><strong>Netzwerkoptimierungsaufgabe</strong></th>
-<th><strong>Details</strong></th>
+<th>Netzwerkoptimierungsaufgabe</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>

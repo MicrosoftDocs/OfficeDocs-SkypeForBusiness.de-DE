@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie die Medienumgehung mit dem Direkten Routing für Telefonsystem planen, wodurch Sie den Pfad des Mediendatenverkehrs kürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bbd31a62bf6ebcd481a3cdafeabaf29bb4767f2d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f2cbe739a567588b44bef87f7b852ed8de965ad3
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115593"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899096"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115593"
 
 Mit der Medienumgehung können Sie den Pfad des Mediendatenverkehrs kürzen und die Anzahl der Hops verringern, die im Transit sind, um eine bessere Leistung zu erzielen. Bei der Medienumgehung werden Medien zwischen dem Session Border Controller (SBC) und dem Client gespeichert, anstatt sie über das Microsoft Phone System zu senden. Zum Konfigurieren der Medienumgehung müssen sich der SBC und der Client an demselben Speicherort oder Netzwerk befinden.
 
-Sie können die Medienumgehung für jeden SBC steuern, indem Sie den Befehl **Set-CSOnlinePSTNGateway** verwenden, wobei der **-MediaBypass-Parameter** auf "true" oder "false" festgelegt ist. Wenn Sie die Medienumgehung aktivieren, bedeutet dies nicht, dass der ganze Mediendatenverkehr im Unternehmensnetzwerk bleibt. In diesem Artikel wird der Anruffluss in verschiedenen Szenarien beschrieben.    
+Sie können die Medienumgehung für jeden SBC steuern, indem Sie den Befehl **Set-CSOnlinePSTNGateway** verwenden, wobei der **-MediaBypass-Parameter** auf "true" oder "false" festgelegt ist. Wenn Sie die Medienumgehung aktivieren, bedeutet dies nicht, dass der ganze Mediendatenverkehr im Unternehmensnetzwerk bleibt. In diesem Artikel wird der Anruffluss in verschiedenen Szenarien beschrieben.
 
 Die folgenden Diagramme veranschaulichen den Unterschied beim Anruffluss mit und ohne Medienumgehung.
 
@@ -126,7 +126,11 @@ Es gibt zwei Komponenten in der Microsoft Cloud, die sich im Pfad des Mediendate
 
    Transportrelais befinden sich möglicherweise oder nicht im Pfad für umgangene Anrufe – die von Endbenutzern stammen oder für Endbenutzer bestimmt sind – je nachdem, wo sich der Benutzer befindet und wie das Netzwerk konfiguriert ist.
 
-Das folgende Diagramm zeigt zwei Anrufflüsse: einen mit aktivierter Medienumgehung und einen mit deaktivierter Medienumgehung. Beachten Sie, dass das Diagramm nur Datenverkehr veranschaulicht, der von -- oder bestimmten An-End-Benutzern stammt.  
+Das folgende Diagramm zeigt zwei Anrufflüsse: einen mit aktivierter Medienumgehung und einen mit deaktivierter Medienumgehung.
+
+> [!NOTE]
+> Das Diagramm zeigt nur Datenverkehr, der von -- oder bestimmten An-End-Benutzern stammt.  
+
 - Der Mediencontroller ist ein Mikrodienst in Azure, der Medienprozessoren zuzuordnen und SDP-Angebote (Session Description Protocol) erstellt.
 
 - Der SIP-Proxy ist eine Komponente, die die in Teams verwendete HTTP-REST-Signalisierung in SIP übersetzt.    
@@ -255,7 +259,8 @@ Der Mediendatenverkehr fließt zwischen dem SBC- und dem Teams-Client, wenn eine
 
 Der Client muss Zugriff auf die angegebenen Ports (siehe Tabelle) der öffentlichen IP-Adresse des SBC haben. 
 
-Hinweis: Wenn sich der Client in einem internen Netzwerk befindet, fließen die Medien an die öffentliche IP-Adresse des SBC. Sie können das Anheften von Haaren auf Ihrem NAT-Gerät konfigurieren, damit der Datenverkehr die Geräte des Unternehmensnetzwerks nie verlässt.
+> [!NOTE]
+> Wenn sich der Client in einem internen Netzwerk befindet, fließen die Medien an die öffentliche IP-Adresse des SBC. Sie können das Anheften von Haaren auf Ihrem NAT-Gerät konfigurieren, damit der Datenverkehr die Geräte des Unternehmensnetzwerks nie verlässt.
 
 | Datenverkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -274,7 +279,7 @@ Transportrelais befinden sich im gleichen Bereich wie Medienprozessoren (für Ni
 
 - 52.112.0.0 /14 (IP-Adressen von 52.112.0.1 bis 52.115.255.254)
 
-## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC-DoD-Umgebung
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC-DoD-Umgebung
 
 - 52.127.64.0/21
 
@@ -314,7 +319,7 @@ Der IP-Bereich für Mediendatenverkehr ist
 
 - 52.112.0.0 /14 (IP-Adressen von 52.112.0.1 bis 52.115.255.254)
 
-## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC-DoD-Umgebung
+### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC-DoD-Umgebung
 
 - 52.127.64.0/21
 
@@ -349,8 +354,8 @@ Das folgende Beispiel veranschaulicht diese Logik.
 
 | Gruppe von Benutzern | Anzahl der Benutzer | Trunk FQDN zugewiesen in OVRP | Medienumgehung aktiviert |
 | :------------ |:----------------- |:--------------|:--------------|
-Benutzer mit nicht medialem Bypass trunk | 980 | sbc1.contoso.com:5060 | True
-Benutzer mit Medienumgehungs-Trunk | 20 | sbc2.contoso.com:5061 | false | 
+Benutzer mit nicht medialem Bypass trunk | 980 | sbc1.contoso.com:5061 | false |
+Benutzer mit Medienumgehungs-Trunk | 20 | sbc2.contoso.com:5060 | True | 
 
 Beide Trunks können auf denselben SBC mit derselben öffentlichen IP-Adresse verweisen. Die TLS-Signalports auf dem SBC müssen unterschiedlich sein, wie in der folgenden Abbildung dargestellt. Beachten Sie, dass Sie sicherstellen müssen, dass ihr Zertifikat beide Trunks unterstützt. In SAN benötigen Sie zwei Namen **(sbc1.contoso.com** und **sbc2.contoso.com**) oder ein Platzhalterzertifikat.
 

@@ -17,12 +17,12 @@ f1.keywords:
 description: Direct Routing-Protokolle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1917408fa14ced9a490cba1559228dde924cfc
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 04e9507595ef721ced5d47eb58646559601c5cab
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697780"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899126"
 ---
 # <a name="direct-routing---sip-protocol"></a>Direct Routing – SIP-Protokoll
 
@@ -169,6 +169,9 @@ Ein Teams-Benutzer kann mehrere Endpunkte gleichzeitig haben. Beispiel: Teams f�
 
 -   Anruf angenommen – vom SIP-Proxy in SIP-Nachricht 200 mit SDP konvertiert. Beim Empfang der Nachricht 200 wird erwartet, dass der SBC Medien an und von den bereitgestellten SDP-Kandidaten sendet und empfängt.
 
+    > [!NOTE]
+    > Direct Routing unterstützt keine verzögerte Angebotseinleitung (Einladung ohne SDP).
+
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>Mehrere Endpunkte klingeln mit vorläufiger Antwort
 
 1.  Beim Empfang der ersten Einladung vom SBC sendet der SIP-Proxy die Meldung "SIP SIP/2.0 100 Versuchen" und benachrichtigt alle Endpunkte des Endbenutzers über den eingehenden Anruf. 
@@ -284,7 +287,7 @@ Der SIP-Proxy formt den REFER-TO als SIP-URI, der aus einem SIP-Proxy-FQDN im Ho
 
 Der REFERRED-BY-Header ist ein SIP-URI mit in ihm codiertem Transferor-MRI sowie der Transferor-Mandanten-ID und anderen Übertragungskontextparametern, wie in der folgenden Tabelle dargestellt:
 
-| Parameter | Wert | Beschreibung |  
+| Parameter | Wert | Description |  
 |:---------------------  |:---------------------- |:---------------------- |
 | x-m | MRI | Vollständige MRI des Übertragungs-/Übertragungsziels, wie von CC ausgefüllt |
 | x-t | Mandanten-ID | x-t Tenant ID Optional Tenant ID as populated by CC |

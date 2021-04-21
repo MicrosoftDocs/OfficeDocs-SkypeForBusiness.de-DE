@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09fe424dc576b6b167eec49e7cd8edf2f61d6cce
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697800"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899116"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -40,7 +40,7 @@ Teilnehmer, die der Besprechung nach Erreichen der Kapazitätsgrenze beitreten, 
 Teilnehmer können über Desktop, Web und Teams Mobile (Android und iOS) an der Ansichtserfahrung teilnehmen.
 
 > [!Note]
-> Die aktuelle Kapazitätsbeschränkung für die "Hauptkonferenz", d. h. die Anzahl der vollständig interaktiven Benutzer, beträgt 300 im Ww und 250 in GCC, GCC High und DoD.
+> Die aktuelle Kapazitätsbeschränkung für die "Hauptsitzung", d. h. die Anzahl der vollständig interaktiven Benutzer, beträgt 300.
 
 ## <a name="teams-view-only-experience-controls"></a>Steuerelemente für die Ansichtserfahrung von Teams
 
