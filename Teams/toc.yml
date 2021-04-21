@@ -297,8 +297,6 @@ items:
         items:
           - name: Datenschutz und Microsoft Teams
             href: teams-privacy.md
-          - name: Datensammlungsverfahren
-            href: data-collection-practices.md
           - name: Speicherort von Daten in Teams
             href: location-of-data-in-teams.md
           - name: Blockieren des Zugriffs auf SharePoint für bestimmte Benutzer
@@ -851,8 +849,6 @@ items:
                 href: aa-cq-cqd-historical-reports.md
               - name: Wahl- und Sprachreferenz
                 href: dial-voice-reference.md
-              - name: Berichterstellung
-                href: aa-cq-cqd-historical-reports.md
           - name: Blockieren eingehender Anrufe
             href: block-inbound-calls.md
           - name: Parken und Heranholen von Anrufen
@@ -1545,10 +1541,6 @@ items:
             href: devices/teams-ip-phones.md
           - name: Telefone für Skype for Business Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams-Alarmierung und -Überwachung
-            href: alerts/teams-admin-alerts.md
-          - name: Teams-Geräteintegritätsüberwachung
-            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: Übersicht
