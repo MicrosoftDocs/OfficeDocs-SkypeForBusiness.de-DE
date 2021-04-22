@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendanten für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
+ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092753"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51926051"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -46,6 +46,11 @@ Automatische Telefon attendants can direct calls, based on callers' input, to on
 - **Ankündigung (Typ)** – Geben Sie eine Nachricht ein. Text, den das System lesen soll. Sie können bis zu 1.000 Zeichen eingeben. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Attendant zurück.
 
 Beim Einrichten einer automatischen Attendant werden Sie aufgefordert, eine dieser Optionen in verschiedenen Phasen zu wählen.
+
+> [!NOTE]
+> Wenn Sie Voicemail als Ziel auswählen, stehen zwei weitere Optionen zur Verfügung:
+> - **Transkription** (Standard: Aus) – Wenn diese Option aktiviert ist, wird die Voicemailnachricht transkribiert und als Teil der E-Mail einbezogen.
+> - **Gruß unterdrücken** (Standard: Aus) – wenn aktiviert, wird die Standardmeldung des Systems "Bitte hinterlassen Sie eine Nachricht nach dem Ton. Wenn Sie fertig sind, hängen Sie auf, oder drücken Sie die Hashtaste, um weitere Optionen anzuzeigen." wird unterdrückt.
 
 Zum Einrichten einer automatischen Telefonzentrale erweitern Sie im Teams Admin Center **Voice,** wählen **Sie Automatische Telefonzentralen** und dann **Hinzufügen aus.**
 

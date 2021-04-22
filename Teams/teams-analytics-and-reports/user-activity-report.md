@@ -17,16 +17,19 @@ description: Erfahren Sie, wie Sie den Bericht "Teams-Benutzeraktivität" im Mic
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9122289d0765dbdded98727d2ed06912d0348f64
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 1a528d92a633e42623772f0f43a85658e4e8aecc
+ms.sourcegitcommit: 4cf89ce07184083c8c28892a2acbb85d797c21c4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478335"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51938254"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams – Benutzeraktivitätsbericht
 
 Der Bericht "Teams-Benutzeraktivität" bietet Einblicke in die Arten von Aktivitäten, die Benutzer in Ihrer Organisation in Teams unternehmen. Sie können durch ungeplante Besprechungen (1:1 und Gruppenanrufe) sehen, wie viele Benutzer ungeplant kommunizieren. Sehen Sie sich an, wie viele Besprechungen ein Teams-Benutzer organisiert hat und an welchen Besprechungen ein Teams-Benutzer teilgenommen hat. Sehen Sie sich Details zu Bildschirm-, Video- und Audiominuten sowie Statistiken zur Chatkommunikation an, z. B. wie viele Benutzer auf Nachrichten antworten und Kanalnachrichten posten und wie viele Benutzer 1:1- oder Gruppenchatnachrichten verwenden.
+
+> [!NOTE]
+> Die Möglichkeit zum Planen eines Benutzeraktivitätsberichts ist derzeit nicht verfügbar.
 
 ## <a name="view-the-user-activity-report"></a>Anzeigen des Berichts "Benutzeraktivität"
 
@@ -53,7 +56,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="make-the-user-specific-data-anonymous"></a>Anonymisierter Benutzerdaten
+## <a name="make-the-user-specific-data-anonymous"></a>Anonym machen der benutzerspezifischen Daten
 
 Um die Daten in Teams-Benutzeraktivitätsberichten anonym zu machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail und AAD-ID im Bericht und deren Export ausgeblendet.
 
