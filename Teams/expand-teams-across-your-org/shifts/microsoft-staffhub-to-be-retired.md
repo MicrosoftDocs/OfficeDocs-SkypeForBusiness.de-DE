@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64416c08c7fa43883bfab060d63c7a7598ea3218
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092442"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948701"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub wurde eingestellt
 
@@ -157,6 +157,9 @@ Weitere Informationen finden Sie unter [Verwalten der Schicht-App für Ihre Orga
 Sie verwalten Teams über das Microsoft Teams PowerShell-Modul und das Skype for Business PowerShell-Modul. Weitere Informationen finden Sie unter [Übersicht über Teams PowerShell.](../../teams-powershell-overview.md) Zurzeit sind keine bestimmten PowerShell-Cmdlets zum Verwalten von Schichten verfügbar.  
 
 Wenn Sie sich für dieses Thema interessieren, senden Sie uns eine Anfrage über das [Teams-Feedbackportal auf UserVoice.](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)
+
+
+[!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Ist die Berichterstellung verfügbar, um die Schichtnutzung in meiner Organisation anzeigen zu können?
 
