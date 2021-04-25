@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Erhalten Sie detaillierte Informationen zu den Abmessungen und Maßen, die vom Anrufqualitätsdashboard (CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: cef151eb8941135112bab92a806b620727567bee
-ms.sourcegitcommit: b56727299d7ea47e23807114a4f5881e289c0b6a
+ms.openlocfilehash: 1c91ce322e51705c9e0813b6c12a29af93319448
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "51880454"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995303"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Abmessungen und Maße
 
@@ -407,6 +407,8 @@ Dimensionsinformationen basieren teilweise auf Daten, die auf das CQD-Portal hoc
 | Is Anonymous Join Session  | Boolescher Wert  | „True", wenn der Benutzer, der der Konferenz beitritt, anonym war. Andernfalls „False".   | &bull; Keine Daten, um festzustellen, ob der Benutzer anonym beigetreten ist oder nicht   |
 | Verfügt über Einen Mediendiagnoseblob  | Boolescher Wert  | „True", wenn die Sitzung über Diagnosedaten verfügt hat. Andernfalls „False".   | &bull; Einige Signaldaten wurden für diesen Datenstrom nicht erfasst   |
 | Call Setup Failure Reason  | Enumeration  | Klassifizierung der Ursache dafür, warum die Medienverbindung für einen Anruf nicht hergestellt werden konnte. <br/>**Mögliche Werte:** <br/> **Fehlende FW-Ausnahmeregel** für die Tiefenpaketprüfung – gibt an, dass Netzwerkgeräte entlang des Pfads aufgrund von Deep Packet Inspection-Regeln wahrscheinlich verhindert haben, dass der Medienpfad eingerichtet wurde. Dies kann auf nicht ordnungsgemäß konfigurierte Proxy- oder Firewallregeln zurückzuführen sein. <br/> **Fehlende FW-IP-Blockfreistellungsregel** – gibt an, dass Netzwerkgeräte entlang des Pfads wahrscheinlich verhindert haben, dass der Medienpfad zum Office 365-Netzwerk eingerichtet wurde. Dies kann darauf zurückzuführen sein, dass Proxy- oder Firewallregeln nicht ordnungsgemäß konfiguriert wurden, um den Zugriff auf die für Skype for Business-Datenverkehr verwendeten IP-Adressen und Ports nicht ordnungsgemäß konfiguriert wurden. <br/> **Sonstige** : Gibt an, dass der Medienpfad für den Anruf nicht eingerichtet werden konnte, die Ursache jedoch nicht klassifiziert werden konnte. <br/> Kein Medienfehler – gibt an, dass beim Aufbau des Medienpfads kein Problem erkannt wurde.  | &bull; Anruf einrichten aufgrund eines unbekannten Medienproblems fehlgeschlagen  |
+| Sitzungstyp  | Enumeration <br/>**Mögliche Werte:** <br/> Conf, P2P  | Gibt an, ob der Anrufsitzungstyp ein Besprechungsszenario (Conf) oder ein Peer-to-Peer-Anruf (P2P) war. <br/> **Beispielwert:** Conf | |
+| CDR Response Reason  | Enumeration <br/>**Mögliche Werte:** <br/> 0 oder 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" | Alle anderen CDR-Codes = "Sonstige" | Gibt den Grund für den Abschluss einer Anrufsitzung an, unabhängig davon, ob der Anruf erfolgreich war oder nicht, und ermöglicht die Unterscheidung zwischen unvollständigen Anrufen (keine Antwort, beschäftigt, abgelehnt) und fehlgeschlagenen Anrufen (Medieneinrichtung). <br/> **Beispielwert:** Okay | <br/>&bull; Der Wert "Sonstige" impliziert, dass Antwortcode außerhalb der Microsoft-Entwicklungsteams nicht diagnoselich nützlich ist. |
 |**DNS**|||
 | Verwendeter DNS Resolve Cache  | Boolescher Wert  | „True", wenn der Endpunkt den DNS-Cache zum Auflösen der Mediarelay-Adresse verwendet hat. Andernfalls „False".    | <br/>&bull; Diese Daten wurden vom Endpunkt nicht gemeldet    |
 |**UserData**| |||

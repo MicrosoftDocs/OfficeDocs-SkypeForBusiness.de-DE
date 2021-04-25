@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6ba7e86d6abd9cca8fa6745549eb85f064bdc9d1
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: 7ae2f78db68a84106b25329f374ac93f616fba31
+  ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51094843"
+  ms.lasthandoff: 04/24/2021
+  ms.locfileid: "51995273"
 title: 'Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams'
 summary: ''
 sections:
@@ -84,7 +84,7 @@ sections:
       Derzeit sind keine geplanten Upgrade für Unternehmenskunden in der Planung. Kunden können sich entscheiden, vor dem 31. Juli 2021 (Datum der Einstellung von Skype for Business Online) auf Microsoft Teams umzusteigen, da dies für ihre Organisationen sinnvoll ist. Wir stellen Administratoren und Benutzern Tools und Anleitungen bereit, um sie beim Übergang zu Microsoft Teams zu unterstützen.
 
 
-      Um kleinere Kunden zu unterstützen, die möglicherweise nicht über dedizierte IT-Ressourcen verfügen, bietet Microsoft bei automatischen Upgrades von Skype for Business Online auf Teams Unterstützung an. Berechtigte Kunden werden per E-Mail und Nachrichtencenter-Benachrichtigung über das Upgrade informiert. Weitere Einzelheiten sind in den Mitteilungen enthalten. Weitere Informationen finden Sie unter [Automatisierte Upgrades von Skype for Business Online auf Microsoft Teams](upgrade-automated.md).
+      Um kleinere Kunden zu unterstützen, die möglicherweise nicht über dedizierte IT-Ressourcen verfügen, bietet Microsoft bei automatischen Upgrades von Skype for Business Online auf Teams Unterstützung an. Berechtigte Kunden werden per E-Mail und Nachrichtencenter-Benachrichtigung über das Upgrade informiert. Weitere Einzelheiten sind in den Mitteilungen enthalten. Weitere Informationen finden Sie unter [Automatisierte Upgrades von Skype for Business Online auf Microsoft Teams](upgrade-assisted.md).
   - question: Welche Vorteile bietet die Back-End-Infrastruktur von Teams?
     answer: >
       Microsoft Teams wurde für die Cloud entwickelt. Dabei kommt eine in hohem Maß skalierbare Microservicearchitektur zum Einsatz, die effiziente Bandbreitenauslastung sowie eine robustere Telemetrie bietet und Wartung und Upgrades mit minimalen Unterbrechungen ermöglicht. Dadurch können Benutzer schneller an Besprechungen teilnehmen und die Anwendung besser im Browser nutzen, ohne Plug-Ins herunterladen zu müssen. Diese moderne Infrastruktur erleichtert die Nutzung von Microsoft Cognitive Services, wie beispielsweise Transkription, Übersetzung, Spracherkennung und Funktionen für maschinelles Lernen. So können Kommunikation und Zusammenarbeit einfacher und effektiver gestaltet werden.

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8eac7d39835abdb05ee86be47504c3f9fecc7022
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5b8973034f9d0b65a5b6bdc11069a1e81efc477
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117013"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995153"
 ---
 # <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
@@ -96,7 +96,7 @@ Teams ist in vielen Microsoft 365-Suites verfügbar. Funktionen, bei denen es si
 **Plant Microsoft geplante Upgrades?**<br>
 Derzeit sind keine geplanten Upgrade für Unternehmenskunden in der Planung. Kunden können sich entscheiden, vor dem 31. Juli 2021 (Datum der Einstellung von Skype for Business Online) auf Microsoft Teams umzusteigen, da dies für ihre Organisationen sinnvoll ist. Wir stellen Administratoren und Benutzern Tools und Anleitungen bereit, um sie beim Übergang zu Microsoft Teams zu unterstützen.
 
-Um kleinere Kunden zu unterstützen, die möglicherweise keine dedizierten IT-Ressourcen haben, unterstützt Microsoft automatisierte Upgrades von Skype for Business Online auf Teams. Berechtigte Kunden werden per E-Mail und Nachrichtencenter-Benachrichtigung über das Upgrade informiert. Weitere Einzelheiten sind in den Mitteilungen enthalten. Weitere Informationen finden Sie unter [Automatisierte Upgrades von Skype for Business Online auf Microsoft Teams](./upgrade-automated.md).
+Um kleinere Kunden zu unterstützen, die möglicherweise keine dedizierten IT-Ressourcen haben, unterstützt Microsoft automatisierte Upgrades von Skype for Business Online auf Teams. Berechtigte Kunden werden per E-Mail und Nachrichtencenter-Benachrichtigung über das Upgrade informiert. Weitere Einzelheiten sind in den Mitteilungen enthalten. Weitere Informationen finden Sie unter [Automatisierte Upgrades von Skype for Business Online auf Microsoft Teams](./upgrade-assisted.md).
 
 **Wie wirkt sich die Ankündigung der Einstellung von Skype for Business Online auf Organisationen mit Hybridkonfigurationen (Skype for Business Online und Skype for Business Server) aus?**<br>
 Kunden mit Online- und lokalen Hybridkonfigurationen müssen ihre Benutzer vor dem Ausmusterungsdatum am 31. Juli 2021 von Skype for Business Online zu Microsoft Teams überführen. Aktualisierungspfade für Hybridkonfigurationen, die auf Grundsätzen der Koexistenz und der Interoperabilität basieren, bleiben nach dem Ausmustern von Skype for Business Online erhalten. Weitere Informationen finden Sie unter [Koexistenz mit Skype for Business](coexistence-chat-calls-presence.md) und [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).

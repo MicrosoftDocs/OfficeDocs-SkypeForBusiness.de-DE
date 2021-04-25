@@ -19,16 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d72f88bb33dca16254ec09a2ea89ac90a0e7aca
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101201"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995143"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel
+# <a name="create-a-team-using-teams-retail-templates"></a>Erstellen eines Teams mithilfe von Vorlagen für den Einzelhandel in Teams
 
-Mit Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
+Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
 Teams-Vorlagen enthalten vordefinierte Definitionen von Teamstrukturen, die auf die Bedürfnisse von Einzelhändlern zugeschnitten sind. Mithilfe von Teams-Vorlagen können Sie schnell die für Einzelhändler geeigneten Teamtypen erstellen und in Ihrem Unternehmen bereitstellen. Sie können die Teams-Vorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen organisatorischen Anforderungen zugeschnitten sind.
 
@@ -38,7 +38,34 @@ Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung un
 
 Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md).
 
-## <a name="store-template"></a>Store-Vorlage
+| Wer | Zu verwendende Methode: |
+| ---- | --------- |
+| Administratoren und IT-Spezialisten | [Verwenden Sie das Teams Admin Center,](#use-the-teams-templates-in-the-teams-admin-center) um Teams basierend auf den Teams-Vorlagen für den Einzelhandel zu erstellen.|
+| Entwickler und Systemintegratoren | [Verwenden Sie Microsoft Graph,](#use-the-teams-templates-with-the-microsoft-graph) um Teams basierend auf den Teams-Vorlagen für den Einzelhandel zu erstellen. |
+
+## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Verwenden Sie die Teams-Vorlagen im Teams Admin Center
+
+### <a name="organize-a-store"></a>Ein Store organisieren
+
+Bringen Sie Ihre Einzelhandelsmitarbeiter in einer zentralen Erfahrung zusammen, um Aufgaben zu verwalten, Dokumente auszutauschen und Kundenprobleme zu lösen. Integrieren Sie zusätzliche Anwendungen, um Start- und Endprozesse von Schichten zu optimieren.
+
+| Basisorlagentyp |baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------|-- |----------------------------------------------------- |
+|Ein Store organisieren|`retailStore`|Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li></ul>|
+||||
+
+### <a name="manager-collaboration"></a>Manager-Zusammenarbeit
+
+Die Vorlage "Managerzusammenarbeit" eignet sich ideal für die Erstellung eines Teams für eine Gruppe von Managern, die über Stores/Regionen hinweg zusammenarbeiten können usw. Wenn Ihre Organisation beispielsweise Regionen enthält, können Sie ein Team für die Zusammenarbeit von Managern für die Region Kalifornien erstellen und alle Storemanager in dieser Region sowie den Regionalmanager für diese Region umfassen.
+
+| Basisorlagentyp| baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+| ------------------|- |----------------------------------------------------- |
+|Zusammenarbeit zwischen Einzelhandel und Manager|`retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li></ul>|
+||||
+
+## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Verwenden Sie die Teams-Vorlagen mit Microsoft Graph
+
+### <a name="store-template"></a>Store-Vorlage
 
 Die Store-Vorlage eignet sich ideal zum Erstellen eines Teams zur Darstellung eines einzelnen Einzelhandelsgeschäftsstandorts. Mithilfe der Store-Vorlage können Sie ein Team für jeden Einzelhandelsgeschäftsstandort in Ihrer Organisation erstellen.
 
@@ -53,7 +80,7 @@ Empfohlene Möglichkeiten zum Anpassen der Store-Vorlage für Ihre Organisation:
 
 - Wenn Ihre Organisation über interne Websites verfügt (z. B. eine SharePoint-Site), sollten Sie diese als Registerkarten im entsprechenden Teamkanal anheften. Anweisungen finden Sie unter [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md).
 
-## <a name="manager-collaboration-template"></a>Vorlage für die Kollaboration von Managern
+### <a name="manager-collaboration-template"></a>Vorlage für die Kollaboration von Managern
 
 Die Vorlage für die Kollaboration von Managern ist eine weitere Vorlage für Teams, die auf die Bedürfnisse von Einzelhändlern zugeschnitten ist. Die Vorlage für die Kollaboration von Managern ist ideal, um ein Team für eine Reihe von Managern zu erstellen, die über Filialen/Regionen hinweg und mehr zusammenarbeiten können. Wenn Ihre Organisation beispielsweise über Regionen verfügt, können Sie ein Kollaborationsteam für Manager für die Region Kalifornien erstellen und alle Filialleiter in dieser Region sowie den Regionalmanager für diese Region einbeziehen.
 
@@ -88,6 +115,3 @@ Um diese Vorlagen zu verwenden, ändern Sie die Eigenschaft 'template@odata.bind
   ]
 }
 ```
-## <a name="relate-topic"></a>Thema in Beziehung setzen
-
-[Beginnen Sie mit Teams-Vorlagen im Admin Center](get-started-with-teams-templates-in-the-admin-console.md)

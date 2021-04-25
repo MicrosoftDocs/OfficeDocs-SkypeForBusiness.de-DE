@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschlangen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, musikhalten, Anrufumleitung und andere Funktionen bietet.
-ms.openlocfilehash: 1202de31beddb8f70391d40d4e6218942c59cba1
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874451"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995283"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -185,6 +185,7 @@ Die folgenden Clients werden für Telefonberater in einer Anrufwarteschleife unt
   - Mac Skype for Business-Client (Version 6.16.0 und höher)
   - Microsoft Teams Windows-Client (32- und 64-Bit-Versionen)
   - Microsoft Teams Mac-Client
+  - Microsoft Teams auf [virtualisierter Desktopinfrastruktur](/microsoftteams/teams-for-vdi) (virtueller Windows-Desktop, Citrix und VMware)
   - Microsoft Teams iPhone-App
   - Microsoft Teams Android-App
 
