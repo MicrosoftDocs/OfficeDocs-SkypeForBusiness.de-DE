@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: Einstellung von Skype for Business Online
         href: skype-for-business-online-retirement.md
+      - name: Unterstützte Upgrades für Skype for Business Online
+        href: upgrade-assisted.md
       - name: Häufig gestellte Fragen
         href: FAQ-journey.yml
       - name: Referenz
@@ -1422,8 +1424,6 @@ items:
       - name: Teams für den Einzelhandel
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Erste Schritte mit Teams-Vorlagen in der Verwaltungskonsole im Einzelhandel
-            href: retail-teams-templates-in-the-admin-console.md
           - name: Erste Schritte mit Vorlagen für Teams im Einzelhandel
             href: get-started-with-retail-teams-templates.md
       - name: Teams für Behörden
