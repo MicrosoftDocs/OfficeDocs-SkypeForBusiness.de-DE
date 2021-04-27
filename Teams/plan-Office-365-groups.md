@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 1acde038bc2df64d7cf35828bf0b08273bf1f095
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e93b66f9a7a0abc4dfc2e3484818da28a65f36a
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108351"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030045"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planen von Microsoft 365-Gruppen beim Erstellen von Teams in Microsoft Teams
 ==========================================================
@@ -38,12 +38,9 @@ Es gibt zwei Szenarien, die einige Diskussionen über die Planung von Microsoft 
 
 -   Zweitens können Sie kunden, für die in Microsoft 365 keine Gruppen definiert sind, entweder das Microsoft 365 Admin Center, das Microsoft Teams Web oder Desktopclients verwenden. Wie bereits erwähnt, verwalten Sie alle zukünftigen Mitgliedschaften in der Microsoft 365-Gruppe mithilfe des Teams-Clients. Da die Mitgliedschaft in einem Team auch die Mitgliedschaft in Microsoft 365-Gruppen definiert, sollten Sie die Personen auf diese Änderung vorbereiten.
 
-## <a name="teams-respects-microsoft-365-groups-naming-policy-in-private-preview"></a>Teams respektiert die Benennungsrichtlinie für Microsoft 365-Gruppen (in der privaten Vorschau)
+## <a name="teams-respects-microsoft-365-groups-naming-policy"></a>Teams respektiert die Benennungsrichtlinie für Microsoft 365-Gruppen
 
 Jede von Ihrem Administrator festgelegte Benennungsrichtlinie für Microsoft 365-Gruppen wird in Teams angewendet, wenn Benutzer Teamnamen erstellen oder bearbeiten. Dies gilt unter anderem für erforderliche Präfixe oder Suffixe und das Ausschließen von gesperrten Wörtern.
-
-> [!NOTE]
-> Dieses Feature befindet sich in der privaten Vorschau, was bedeutet, dass Teams diese Benennungsrichtlinie für Microsoft 365-Gruppen noch nicht befolgt, wenn Sie nicht Teil dieser Vorschau sind.
 
 Weitere Informationen finden Sie unter [Benennungsrichtlinie für Microsoft 365-Gruppen in Teams.](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 

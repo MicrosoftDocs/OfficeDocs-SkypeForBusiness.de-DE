@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Apps in Microsoft Teams anpassen.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697790"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030141"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
@@ -44,7 +44,8 @@ ms.locfileid: "51697790"
 
 Details zu den Feldern, die Sie anpassen können, finden Sie im [Schema "Teams-Manifest".](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema)
 
-> [! HINWEIS Das Anpassen von Apps wird derzeit in Government Community Cloud High (GCCH) oder Department of Defense (DoD) nicht unterstützt.
+> [!NOTE]
+> Das Anpassen von Apps wird derzeit in Government Community Cloud High (GCCH) oder Department of Defense (DoD) nicht unterstützt.
 
 ## <a name="customize-the-apps-details"></a>Anpassen der Details der App
 
@@ -102,7 +103,7 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 
 Jetzt können Ihre Teams-Endbenutzer ihren Teams-Client öffnen, um die angepasste App zu sehen.
 
-   ![Angepasste App im Teams-Client](media/find-customized-app.png)
+   ![Angepasste App im Teams-Client](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Besondere Überlegungen zum Anpassen einer App
 
@@ -127,7 +128,7 @@ Möglicherweise möchten Sie die App-Details anzeigen, um die Informationen zu �
 
 4. Anzeigen der App-Details, einschließlich des ursprünglichen App-Namens **Kurzer Name von Publisher.**
 
-   ![Anpassen des Namens der Symbolpanel-App](media/app-details-original-name.png)
+   ![Anpassen des Namens der Symbolpanel-App](media/original-app-version.png)
 
    Das **Feld "Kurzer Name aus Herausgeber"** ist nur sichtbar, wenn Sie den kurzen Namen der App geändert haben.
 

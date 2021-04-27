@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Erfahren Sie, wie Sie Anrufwarteschlangen mit Microsoft 365 Business Voice einrichten.
-ms.openlocfilehash: 40018ce331dfe8516e00c6781373d528a71e85c5
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607557"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030125"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschlange – Lernprogramm für kleine Unternehmen
 
-Anrufwarteschlangen bieten eine Methode zum Weiterleiten von Anrufern an Personen in Ihrer Organisation, die bei einem bestimmten Problem oder einer bestimmten Frage helfen können. Die einzelnen Anrufe werden nach und nach an die Personen (sog. *Telefonberater*) in der Warteschleife verteilt. 
+Anrufwarteschleifen ermöglichen es, Anrufe an Personen in Ihrer Organisation weiterzuleiten, die bei einem bestimmten Problem oder einer bestimmten Frage helfen können. Die einzelnen Anrufe werden nach und nach an die Personen (sog. *Telefonberater*) in der Warteschleife verteilt. 
 
 Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
@@ -104,9 +104,9 @@ Sie können im Teams Admin Center ein Ressourcenkonto erstellen.
 
 4. Klicken Sie auf **Speichern**.
 
-Das neue Konto wird in der Liste der Konten angezeigt.
+   Das neue Konto wird in der Liste der Konten angezeigt.
 
-![Screenshot einer Liste von Ressourcenkonten](../media/resource-accounts-page.png)
+   ![Screenshot einer Liste von Ressourcenkonten](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Zuweisen einer Lizenz
 
@@ -138,9 +138,9 @@ Als Nächstes erstellen wir eine neue Anrufwarteschlange und weisen das Ressourc
 
 5. In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiedergegeben. Wenn Sie möchten, dass eine bestimmte Audiodatei wiedergegeben wird, klicken Sie auf **Audiodatei wiedergeben**, und laden Sie eine MP3-, WAV- oder WMA-Datei hoch.
 
-> [!NOTE]
-> Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
-> Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. 
+   > [!NOTE]
+   > Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
+   > Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. 
 
 > [!div class="nextstepaction"]
 > [Schritt 3 : Anrufer >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)

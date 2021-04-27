@@ -16,17 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: e5222a820a3a721c3692b0cdb272d1c4f3aaea6d
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
-ms.translationtype: HT
+ms.openlocfilehash: c63817f5b3ee9c736311982b54dbc9a220564229
+ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145852"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52030105"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
-
-> [!NOTE]
-> Eines der in diesem Artikel erläuterten Features, **Tagging nach Schicht**, ist in der Rollout-Phase. Als Administrator können Sie im Nachrichtencenter (im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home)) herausfinden, wann dieses Feature für Ihre Region verfügbar sein wird. Weitere Informationen zu bevorstehenden Features von Microsoft Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="overview"></a>Übersicht
 
@@ -38,7 +35,7 @@ Wie bereits zuvor erwähnt, gibt es in Microsoft Teams zwei Arten von Tags.
 - **Tagging nach Schicht:** Mit diesem Feature werden Personen automatisch Tags zugewiesen, die ihren Plan- und Schicht-Gruppennamen in der [Schichten-App](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Microsoft Teams entsprechen. Beispielsweise erreicht das Tag "DiensthabenderTechniker" alle Techniker, die laut Schichten-App zu dem Zeitpunkt, zu dem das Tag in einem Chat oder Kanalbeitrag verwendet wird, für die Arbeit eingeteilt sind. Mit "Tagging nach Schicht" ist es in Microsoft Teams nicht mehr notwendig, die Namen der Mitarbeiter im Schichtdienst kennen, wenn Benutzer Informationen schnell weitergeben müssen. "Tagging nach Schicht" kann auch durch große Personalverwaltungssysteme wie JDA, Kronos und AMiON unterstützt werden durch die Kopplung mit "Schichten" in Microsoft Teams. Weitere Informationen zum Einrichten dieses Features finden Sie unter [Einrichten von "Tagging nach Schicht"](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Tags werden in privaten Kanälen noch nicht unterstützt. Tags werden derzeit für die US Government Community Cloud (GCC) bereitgestellt. Tags sind in GCC High- oder Department of Defense (DoD)-Organisationen nicht verfügbar. 
+> Tags werden in privaten Kanälen noch nicht unterstützt. Tags sind in GCC High- oder Department of Defense (DoD)-Organisationen nicht verfügbar. 
 
 ## <a name="how-tags-work"></a>Funktionsweise von Tags
 
