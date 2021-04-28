@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschlangen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, musikhalten, Anrufumleitung und andere Funktionen bietet.
-ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995283"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064801"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -48,6 +48,12 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 Achten Sie darauf, dass Sie automatische Telefonkonferenzen und [](plan-auto-attendant-call-queue.md#getting-started) Anrufwarteschlangen für Planen für [Teams](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den Schritten für die ersten Schritte, bevor Sie die in diesem Artikel beschriebenen Verfahren ausführen.
 
 Gehen Sie zum Einrichten einer Anrufwarteschleife zum Microsoft Teams Admin Center, erweitern Sie **VoIP**, klicken Sie auf **Anrufwarteschleifen** und dann auf **Hinzufügen**.
+
+## <a name="video-demonstration"></a>Videodemonstration
+
+In diesem Video wird ein grundlegendes Beispiel zum Erstellen einer Anrufwarteschlange in Teams gezeigt.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="resource-account-and-language"></a>Ressourcenkonto und Sprache
 

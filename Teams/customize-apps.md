@@ -3,7 +3,7 @@ title: Anpassen von Microsoft-Apps in Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: vaagarw
+ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,17 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Apps in Microsoft Teams anpassen.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030141"
+ms.locfileid: "52059179"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
  Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung von Teams zu verbessern. Einige App-Entwickler lassen zu, dass eine App vom Teams-Administrator angepasst wird. Der Administrator kann die App-Eigenschaften basierend auf den organisationsbezogenen Anforderungen über die Seite "Apps verwalten" des Teams Admin Center **anpassen oder neubranden.** Die Details, die Sie anpassen können, sind:
 

@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Teams Office 365-Flüsse in verschiedenen Topologien sowie eindeutige Teamflüsse verwendet, die für die Peer-zu-Peer-Medienkommunikation verwendet werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a720838958fa249674f6216cbc24ade5134127bc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 27a2c68483c3d54cb3f3572bbed3a06a53ccc67e
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098481"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52059209"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams-Anrufflüsse
 
@@ -67,7 +67,7 @@ Normalerweise verfügt ein Kundennetzwerk über mehrere Netzwerkperimeter mit Fi
 
 ### <a name="types-of-traffic"></a>Arten von Datenverkehr
 
-**Medien in Echtzeit**. Daten, die im RtP (Real-time Transport Protocol) gekapselt sind und Arbeitsauslastungen für Audio, Video und Bildschirmfreigabe unterstützen. Im Allgemeinen ist der Mediendatenverkehr hochlatenzempfindlich, daher möchten Sie, dass dieser Datenverkehr den möglichst direkten Pfad einschlagen und UDP und TCP als Transportschichtprotokoll verwendet, das aus Qualitätssicht der beste Transport für interaktive Echtzeitmedien ist. (Beachten Sie, dass Medien als letztes Mittel TCP/IP verwenden und auch innerhalb des HTTP-Protokolls ge tunnelt werden können, es aufgrund von Auswirkungen auf die Qualität jedoch nicht empfohlen wird.) Der RTP-Fluss wird mithilfe von SRTP gesichert, bei dem nur die Nutzlast verschlüsselt wird.
+**Medien in Echtzeit**. Daten, die im RtP (Real-time Transport Protocol) gekapselt sind und Arbeitsauslastungen für Audio, Video und Bildschirmfreigabe unterstützen. Im Allgemeinen ist der Mediendatenverkehr hochlatenzempfindlich, daher möchten Sie, dass dieser Datenverkehr den möglichst direkten Pfad einschlagen und UDP und TCP als Transportebenenprotokoll verwendet, das aus Qualitätssicht der beste Transport für interaktive Echtzeitmedien ist. (Beachten Sie, dass Medien als letztes Mittel TCP/IP verwenden und auch innerhalb des HTTP-Protokolls ge tunnelt werden können, es aufgrund von Auswirkungen auf die Qualität jedoch nicht empfohlen wird.) Der RTP-Fluss wird mithilfe von SRTP gesichert, bei dem nur die Nutzlast verschlüsselt wird.
 
 **Signalisierung**. Die Kommunikationsverbindung zwischen Client und Server oder anderen Clients, die zum Steuern von Aktivitäten (z. B. zum Starten eines Anrufs) und zum Senden von Chatnachrichten verwendet werden. Für den meisten Signalisierungsverkehr werden die HTTPS-basierten REST-Schnittstellen verwendet, in einigen Szenarien (z. B. verbindung zwischen Microsoft 365 oder Office 365 und einem Session Border Controller) wird jedoch das SIP-Protokoll verwendet. Es ist wichtig zu wissen, dass dieser Datenverkehr wesentlich weniger auf Latenz reagiert, aber dienstausfälle oder Anruftimeouts verursachen kann, wenn die Latenz zwischen den Endpunkten mehrere Sekunden überschreitet.
 
@@ -87,12 +87,12 @@ Die Konnektivität von Teams-Medienflüssen wird mithilfe von IETF Interactive C
 
 ### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a>Technologien, die mit Microsoft Teams nicht empfohlen werden
 
-**VPN-Netzwerk .** Es wird nicht für den Medienverkehr (oder Flow 2') empfohlen. Der VPN-Client sollte geteiltes VPN verwenden und Mediendatenverkehr wie alle externen Nicht-VPN-Benutzer weiterverteilen, wie unter Aktivieren von Lync-Medien zum Umgehen eines [VPN-Tunnels angegeben.](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)
+**VPN-Netzwerk .** Es wird nicht für den Medienverkehr (oder Flow 2') empfohlen. Der VPN-Client sollte den geteilten Tunneling verwenden und den Mediendatenverkehr von Teams wie alle externen Nicht-VPN-Benutzer weiterverteilen, wie unter Aktivieren von Lync-Medien zum Umgehen eines [VPN-Tunnels angegeben.](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)
 
 > [!NOTE]
 > Obwohl der Titel Lync angibt, gilt er auch für Teams.
 
-**Paketformer**. Jede Art von Paketschnippern, Paketinspektion oder Paketformergeräten wird nicht empfohlen und kann die Qualität erheblich beeinträchtigen.
+**Paketformer**. Jede Art von Paketschnipper, Paketinspektion oder Paketformergeräten wird für den Mediendatenverkehr von Teams nicht empfohlen und kann die Qualität erheblich beeinträchtigen.
 
 ### <a name="principles"></a>Prinzipien
 
@@ -102,7 +102,7 @@ Es gibt vier allgemeine Prinzipien, die Ihnen helfen, Anrufflüsse für Microsof
 
 - Ein Microsoft 365- oder Office 365-Medienendpunkt wird basierend auf den Anforderungen an die Medienverarbeitung und nicht basierend auf dem Anruftyp verwendet. (Beispielsweise kann ein Punkt-zu-Punkt-Anruf einen Medienendpunkt in der Cloud verwenden, um Medien zur Transkription oder Aufzeichnung zu verarbeiten, während eine Konferenz mit zwei Teilnehmern möglicherweise keinen Medienendpunkt in der Cloud verwendet.) Die meisten Konferenzen verwenden jedoch einen Medienendpunkt zum Mischen und Routing, der dem Ort zugeordnet ist, an dem die Konferenz gehostet wird. Der von einem Client an den Medienendpunkt gesendete Mediendatenverkehr kann aufgrund von Einschränkungen der Firewall des Kundennetzwerks direkt geleitet oder ein Transport relay in Microsoft 365 oder Office 365 verwendet werden.
 
-- Der Mediendatenverkehr für Peer-zu-Peer-Anrufe nimmt die direkteste Route ein, die verfügbar ist, vorausgesetzt, der Anruf erfordert keinen Medienendpunkt in der Cloud (siehe vorheriges Prinzip). Die bevorzugte Route wird direkt an den Remote-Peer (Client) gesendet, aber wenn diese Route nicht verfügbar ist, leitet ein oder mehrere Transportrelais den Datenverkehr weiter. Es wird empfohlen, dass der Mediendatenverkehr keine Server wie Paket-Shaper, VPN-Server und so weiter transversalt, da sich dies auf die Medienqualität auswirken wird.
+- Der Mediendatenverkehr für Peer-zu-Peer-Anrufe erfolgt über die direkteste Route, die verfügbar ist, vorausgesetzt, dass der Anruf keinen Medienendpunkt in der Cloud erfordert (siehe vorheriges Prinzip). Die bevorzugte Route wird direkt an den Remote-Peer (Client) gesendet, aber wenn diese Route nicht verfügbar ist, leitet ein oder mehrere Transportrelais den Datenverkehr weiter. Es wird empfohlen, dass der Mediendatenverkehr keine Server wie Paket-Shaper, VPN-Server und so weiter transversalt, da sich dies auf die Medienqualität auswirken wird.
 
 - Der Signalisierungsverkehr wird immer an den Server gesendet, der dem Benutzer am nächsten kommt.
 

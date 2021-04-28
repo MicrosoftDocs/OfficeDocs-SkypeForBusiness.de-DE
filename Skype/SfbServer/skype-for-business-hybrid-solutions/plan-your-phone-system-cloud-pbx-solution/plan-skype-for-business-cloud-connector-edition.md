@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier finden Sie Informationen zu Skype for Business Cloud Connector Edition, einer Reihe von verpackten virtuellen Computern (VMs), die lokale PSTN-Verbindungen mit dem Telefonsystem (Cloud PBX) implementieren.
-ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75abeba6c97b59b4795fc3399ff6a983db57bbff
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113711"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064711"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen von Skype for Business Cloud Connector Edition
 
@@ -34,7 +34,7 @@ ms.locfileid: "51113711"
 
 Hier finden Sie Informationen zu Skype for Business Cloud Connector Edition, einer Reihe von verpackten virtuellen Computern (VMs), die lokale PSTN-Verbindungen mit dem Telefonsystem (Cloud PBX) implementieren.
 
-Cloud Connector Edition ist möglicherweise die richtige Lösung für Ihre Organisation, wenn Sie noch nicht über eine vorhandene Lync Server- oder Skype for Business Server-Bereitstellung verfügen. Wenn Sie noch untersuchen, welche Telefonsystemlösung für Ihr Unternehmen richtig ist, finden Sie weitere Informationen unter [Microsoft telephony solutions](../../../SfbHybrid/hybrid/msft-telephony-solutions.md).
+Cloud Connector Edition ist möglicherweise die richtige Lösung für Ihre Organisation, wenn Sie noch nicht über eine vorhandene Lync Server- oder Skype for Business Server-Bereitstellung verfügen. Wenn Sie noch untersuchen, welche Telefonsystemlösung für Ihr Unternehmen richtig ist, finden Sie weitere Informationen unter [Microsoft telephony solutions](/microsoftteams/cloud-voice-landing-page).
 
 In diesem Dokument werden die Cloud Connector Edition-Anforderungen und unterstützten Topologien beschrieben, und Sie können Ihre Cloud Connector Edition-Bereitstellung planen. Lesen Sie dieses Thema unbedingt, bevor Sie Ihre Cloud Connector-Umgebung konfigurieren. Wenn Sie für die Bereitstellung und Konfiguration von Cloud Connector Edition bereit sind, lesen Sie Konfigurieren und Verwalten von [Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -61,7 +61,7 @@ Berücksichtigen Sie beim Planen der Cloud Connector Edition-Bereitstellung Folg
 
 - Cloud Connector erfordert keine vollständige lokale Skype for Business Server-Bereitstellung.
 
-    Derzeit kann Cloud Connector nicht mit lokalen Lync- oder Skype for Business-Servern koexistent sein. Wenn Sie vorhandene Lync- oder Skype for Business-Benutzer nach Microsoft 365 verschieben und weiterhin lokale Telefonie für Ihre Benutzer bereitstellen möchten, sollten Sie das Telefonsystem mit der lokalen Konnektivität mithilfe einer vorhandenen Skype for Business Server-Bereitstellung in Betracht ziehen. Weitere Informationen finden Sie unter [Plan your Phone System (Cloud PBX) solution](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) und Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
+    Derzeit kann Cloud Connector nicht mit lokalen Lync- oder Skype for Business-Servern koexistent sein. Wenn Sie vorhandene Lync- oder Skype for Business-Benutzer nach Microsoft 365 verschieben und weiterhin lokale Telefonie für Ihre Benutzer bereitstellen möchten, sollten Sie das Telefonsystem mit der lokalen Konnektivität mithilfe einer vorhandenen Skype for Business Server-Bereitstellung in Betracht ziehen. Weitere Informationen finden Sie unter [Plan your Phone System (Cloud PBX) solution](/microsoftteams/cloud-voice-landing-page.md) und Plan Phone System with [on-premises PSTN connectivity in Skype for Business Server](plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 - Wenn Sie eine frühere Skype for Business- oder Lync Server-Bereitstellung hatten und das Schema erweitert haben, müssen Sie das Schema für die Cloud Connector-Bereitstellung nicht bereinigen, solange Sie alle Skype for Business- oder Lync Server-Komponenten aus Ihrer Umgebung entfernt haben.
 
@@ -428,7 +428,7 @@ Der Hostcomputer muss externe Ressourcen erreichen können, um Cloud Connector e
 |Ausgehend  <br/> |Cloud Connector-Host-IPs  <br/> |Beliebiger Wert  <br/> |Beliebiger Wert  <br/> |80, 443  <br/> |TCP  <br/> |Zertifikatsperrliste (Certificate Revocation List, CRL)  <br/> |
 |Ausgehend  <br/> |Cloud Connectorr-Host-IPs  <br/> |Beliebiger Wert  <br/> |Beliebiger Wert  <br/> |80, 443  <br/> |TCP  <br/> |Cloud Connector-Update  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |
 
-Wenn restriktivere Regeln erforderlich sind, lesen Sie die folgenden Whitelisting-URLs:
+Wenn restriktivere Regeln erforderlich sind, lesen Sie die folgenden URLs für allowlist:
 
 - [URLs der Zertifikatsperrliste](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) in [Office 365-URLs und IP-Adressbereichen](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
@@ -711,7 +711,7 @@ Cloud Connector 2.1 und höher unterstützt die Überwachung von Cloud Connector
 
 Weitere Informationen finden Sie unter den folgenden Themen:
 
-- [Microsoft-Telefonielösungen](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Microsoft-Telefonielösungen](/microsoftteams/cloud-voice-landing-page)
 
 - [Konfigurieren und Verwalten von Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 
