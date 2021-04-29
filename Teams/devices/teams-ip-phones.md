@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Schreibtisch- und Konferenztelefone für Microsoft Teams zertifiziert sind, um die besten Ergebnisse zu erzielen.
-ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: dec58efccef8b247ebf970c4196fd38d87dc1437
+ms.sourcegitcommit: 347246d725b3058e4c5e770513c0c386bfb586bc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995163"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52077375"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams-zertifizierte Geräte
 
@@ -44,7 +44,8 @@ Die folgenden Geräte sind im Rahmen des Microsoft Teams Phones Certification Pr
 
 |Gerätemodell                         | Firmwareversion                                                                                                                                                                                                                           | Veröffentlichungsdatum
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| AudioCodes C435HD                      | 1.12.33                                                  | April 2021                 |
+| Yealink MP52                           | 145.15.0.6                                               |   April 2021                 |
+| AudioCodes C435HD                      | 1.12.33                                                  | April 2021                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | Januar 2021                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | März 2019                   |
 | AudioCodes C448HD (nur CAP-Modus)      | C450HD_TEAMS_0.225                                       | März 2019                   |

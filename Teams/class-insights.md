@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215320"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064851"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -133,6 +133,7 @@ Derzeit werden Daten aus den folgenden Bereichen in Klassenteams gesammelt:
 | **Dateien** |   Hochladen, Herunterladen, Zugreifen, Ändern, Kommentieren und Freigeben einer Datei (ohne Dateiinhalt).|
 | **OneNote-Kursnotizbuch** |  Bearbeiten einer Seite oder eines Abschnitts in einem Notizbuch (ohne Seiteninhalt)|
 | **Besprechungen** |    Anwesenheit (ohne Besprechungsinhalt).|
+| **[Spiegeln](reflect.md)** |   Überprüfungen (einschließlich Werte).|
 
 > [!NOTE]
 > Die meisten der gesammelten Daten werden innerhalb weniger Minuten in Insights angezeigt. Teilnahmedaten von Klassenbesprechungen (Besprechungen, die einem der Klassenkanäle zugeordnet sind) erscheinen einige Stunden nach Ende der Besprechung, in der Regel bis zu 24 Stunden später.
