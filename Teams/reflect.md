@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2594b39fed7d7194aabacd5df1a977a9d1262d70
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
+ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064864"
+ms.locfileid: "52070651"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Reflect in Microsoft Teams
 
@@ -56,9 +56,11 @@ Um einem Benutzer die Installation von und Interaktion mit einer App zu ermögli
 
 Wenn Sie zuvor festgelegt haben, dass jede App erlaubt werden muss, wechseln Sie zur Seite "Apps verwalten", und wählen Sie für Reflect "Zulassen" aus. **Wenn Sie eine App blockieren, wird diese in Microsoft Teams keinem Benutzer in Ihrer Organisation angezeigt.**
 
+> [!NOTE]
+> Für den Zugriff auf die Reflect-App benötigen Sie eine A1-, A3- oder A5-Lizenz für Microsoft 365.
+
 > [!TIP]
 > Weitere Details finden Sie unter [Zulassen oder Hinzufügen einer App zu einem Kursteam](manage-apps.md#allow-and-block-apps).
-
 
 ## <a name="where-do-educators-find-reflect"></a>Wo finden Lehrkräfte Reflect?
 Nachdem Sie Reflect aktiviert haben, können Lehrkräfte zum betreffenden Kurs wechseln und **Neue Unterhaltung** auswählen. Anschließend wählen sie **...** aus, um Nachrichtenerweiterungen anzuzeigen, und geben **Reflect** in die Suchleiste ein. Das Dialogfeld führt sie durch das Definieren einer Frage und die Auswahl, wer was sehen kann.
@@ -67,7 +69,7 @@ Nachdem Sie Reflect aktiviert haben, können Lehrkräfte zum betreffenden Kurs w
 
 Für den einfachen Zugriff können Sie mit der rechten Maustaste auf das Reflect-Symbol klicken und **Anheften** auswählen.
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Anheften der Insights-App":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Heften Sie die Reflect-App an":::
 
 > [!TIP]
 > Sie können die Reflect-App auch über diesen Link finden: [https://aka.ms/getReflect](https://aka.ms/getReflect).
