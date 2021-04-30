@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26427bb7026c586c9493e023f127a43923325cfa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b4398ed1c89b1ece93bf2e1ca31947f6fadf7afa
+ms.sourcegitcommit: ea2ccf77ba86c3cc10184a2c8a2eceafc6842d1b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092623"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52091672"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -143,6 +143,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |App gelöscht |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
 |Kanal gelöscht     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
+|Bearbeitete eine Nachricht mit einem URL-Link in Teams     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt ihr in der Datei einen URL-Link Teams.         |
 |App installiert |AppInstalled         |Eine App wurde installiert.   |
 |Aktion auf Karte ausgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat eine Aktion auf einer adaptiven Karte ausgeführt. Adaptive Karten werden in der Regel von Bots verwendet, um die Anzeige umfassender Informationen und die Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Nur Inline-Eingabeaktionen auf einer adaptiven Karte innerhalb eines Chats sind im Überwachungsprotokoll verfügbar. Beispielsweise wenn ein Benutzer eine Antwort zu einer Umfrage in einer Kanalunterhaltung über eine adaptive Karte übermittelt, die von einem Umfrage-Bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", wodurch ein Dialogfeld geöffnet wird, oder Benutzeraktionen in Dialogfeldern sind im Überwachungsprotokoll nicht verfügbar.|
 |App veröffentlicht |AppPublishedToCatalog           |Dem Katalog wurde eine App hinzugefügt.     |
@@ -150,6 +151,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Connector entfernt     |ConnectorRemoved         |Ein Benutzer entfernt einen Connector aus einem Kanal.         |
 |Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.         |
 |Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
+|Senden einer Nachricht mit einem URL-Link in Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
 |App deinstalliert |AppUninstalled           |Eine App wurde deinstalliert.     |
 |App aktualisiert |AppUpdatedInCatalog           |Eine App wurde im Katalog aktualisiert.     |
 |Connector aktualisiert    |ConnectorUpdated         |Ein Benutzer hat in einem Kanal einen Connector geändert.         |
