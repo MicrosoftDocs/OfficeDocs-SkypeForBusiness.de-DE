@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: Verwenden Sie Microsoft Teams, um Ihr System für virtuelle Besuche einzurichten
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096279"
@@ -66,7 +66,7 @@ Sie benötigen außerdem Informationen von folgenden Personen in Ihrer Organisat
 - Epic Kundenanalyst
 
 > [!Note]
-> Lesen Sie [den Episch-Microsoft Teams Telehealth-Integrationsleitfaden](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) mit Ihrem technischen Experten von Epic. Stellen Sie sicher, dass alle Voraussetzungen erfüllt sind. 
+> Überprüfen Sie den [Epic – Microsoft Teams Telemedizin-Integrationsleitfaden](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) mit Ihrem technischen Epic-Spezialisten. Stellen sie sicher, dass alle Voraussetzungen abgeschlossen sind. 
 
 ## <a name="connector-setup"></a>Konnektor-Setup
 
@@ -144,7 +144,7 @@ Hauptmerkmale der Anbietererfahrung:
 
 - Anbieter müssen sich einmalig mit ihrem Microsoft 365-Konto anmelden, wenn sie zum ersten Mal an einem virtuellen Besuch teilnehmen.
 
-- Nach der einmaligen Anmeldung wird der Anbieter direkt zum virtuellen Termin in Microsoft Teams weitergeleitet. (Der Anbieter muss bei Microsoft Teams angemeldet sein.)
+- Nach der einmaligen Anmeldung wird der Anbieter direkt zum virtuellen Termin in Microsoft Teams weitergeleitet. (Anbieter müssen bei Microsoft Teams angemeldet sein).
 
 - Der Anbieter kann in Echtzeit Aktualisierungen der Teilnehmer, die für einen bestimmten Termin eine Verbindung herstellen oder trennen, sehen. Der Anbieter kann sehen, wann der Patient mit einem virtuellen Besuch verbunden ist.
 
