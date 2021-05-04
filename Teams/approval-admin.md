@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902569"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129794"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -41,7 +41,7 @@ Durch die erste mit der App "Genehmigungen" erstellte Genehmigung wird die Berei
 In diesem Artikel werden die Anforderungen und Rollen für die App "Genehmigungen" beschrieben.
 
 > [!NOTE]
-> Dieses Feature wurde noch nicht für Benutzer von Government Community Cloud (GCC), Government Community Cloud High (GCCH) und DoD (Department of Defense) veröffentlicht.
+> Dieses Feature wurde noch nicht für benutzer Government Community Cloud (GCC), Government Community Cloud High (GCCH) und Department of Defense (DOD) veröffentlicht.
 
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 
@@ -57,7 +57,7 @@ Um die App "Genehmigungen" verwenden zu können, benötigen Sie Berechtigungen f
 
 ## <a name="storage-with-cds"></a>Speicher mit CDS
 
-Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datensprache, die von Geschäfts- und Analyseanwendungen im CDS verwendet wird. Es besteht aus einer Reihe von standardisierten, erweiterbaren Datenschemas, die von Microsoft und unseren Partnern veröffentlicht wurden und die Konsistenz der Daten und deren Bedeutung für alle Anwendungen und Geschäftsprozesse ermöglichen. Weitere Informationen zum [Allgemeinen Datenmodell der Microsoft Power Platform](/power-automate/get-started-approvals).
+Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datensprache, die von Geschäfts- und Analyseanwendungen im CDS verwendet wird. Sie besteht aus einer Reihe standardisierter, erweiterbarer Datenschemas, die von Microsoft und unseren Partnern veröffentlicht werden, und die anwendungs- und geschäftsprozessübergreifend für Einheitlichkeit der Daten und deren Bedeutung sorgen. Weitere Informationen zum [Allgemeinen Datenmodell der Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Weitere Informationen zum [Genehmigungsworkflow](/power-automate/modern-approvals).
 
@@ -94,13 +94,13 @@ Die App "Genehmigungen" ist standardmäßig verfügbar. Sie können die App im M
 
   3. Suchen Sie nach der App "Genehmigungen".
 
-![Abbildung der Admin Center-Navigation mit hervorgehobenen Optionen "Microsoft Teams-Apps" > "Apps verwalten"](media/manage-approval-apps.png)
+     ![Abbildung der Admin Center-Navigation mit hervorgehobenen Optionen "Microsoft Teams-Apps" > "Apps verwalten"](media/manage-approval-apps.png)
 
   4. Wählen Sie "Genehmigungen" aus.
 
   5. Deaktivieren Sie die App für Ihre Organisation mithilfe des Schalters.
 
-![Abbildung der Details für die App "Genehmigungen"](media/approvals-details.png)
+     ![Abbildung der Details für die App "Genehmigungen"](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Aufbewahrungsrichtlinie
 
@@ -136,6 +136,12 @@ Sie können nach den folgenden Aktivitäten suchen:
 
 - Zu Genehmigungsanforderung hinzugefügte digitale Signatur
 
+- Angezeigte E-Signatur-Anforderungsdetails
+
+- Überprüfte E-Signatur-Anforderung
+
+- Stornierte E-Signatur-Anforderung
+
 Aktivieren und konfigurieren Sie für den Zugriff auf weitere Überwachungsgenehmigungen innerhalb von Flow die Überwachung in der Standardumgebung für die primären Genehmigungsentitäten Genehmigung, Genehmigungsanforderung und Genehmigungsantwort. Erstellen, Aktualisieren und Löschen sind überwachbare Ereignisse für Genehmigungseinträge. Weitere Informationen zur [Überwachung von Daten und Benutzeraktivitäten für Sicherheit und Compliance – Power Platform\| Microsoft-Dokumentation](/power-platform/admin/audit-data-user-activity).
 
 Die Überwachung kann im [Microsoft 365 Security & Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) weiter angepasst werden.
@@ -154,3 +160,19 @@ Weitere Informationen über die [Microsoft Dataverse- und modellgesteuerte App-A
 
 > [!Note]
 > Einem Benutzer wird eine Anzeigerolle für eine Anforderung erteilt, wenn er dem Chat oder Kanal angehört, in dem die Genehmigung erstellt wurde. Er hat nicht die Möglichkeit, Maßnahmen für die Anforderung zu ergreifen, wenn ihm diese Rolle beim Erstellen der Genehmigung nicht erteilt wurde.
+
+## <a name="approvals-e-signature-integration"></a>Integration von Genehmigungen für E-Signaturen
+
+E-Signatur-Genehmigungen, die mit der App "Genehmigungen" erstellt wurden, werden in der Cloudumgebung des ausgewählten Anbieters gespeichert. Weitere Informationen zum Speicher rund um den E-Signatur-Vertrag finden Sie in der Speicherdokumentation des ausgewählten Anbieters.
+
+Zum Verwenden des Features für die E-Signatur der Genehmigungs-App benötigen Sie die folgenden Elemente:
+
+- Lizenz für den bestimmten E-Signatur-Anbieter, den Sie verwenden möchten. Um eine Lizenz für Ihre Organisation zu erhalten, müssen Sie zur Website des Anbieters wechseln.
+
+Für die E-Signatur-Funktionalität "Genehmigungen" werden standardmäßig Partner von Drittanbietersignaturen in der Teams-App "Genehmigungen" angezeigt. Sie können bestimmte E-Signatur-Anbieter deaktivieren, indem Sie auf die App-Einstellungen im Teams Admin Center zugreifen.
+
+1. Wählen Sie im Teams Admin Center unter Apps verwalten die App **Genehmigungen** aus, und wählen Sie **Einstellungen** aus.
+
+2. Jeder E-Signatur-Anbieter verfügt über einen Umschalter daneben, der sich standardmäßig an der Ein-Position (rechts) befindet. Ziehen Sie den Umschalter nach links, um einen bestimmten E-Signatur-Anbieter zu deaktivieren. Wenn ein Teams einen Anbieter deaktiviert, sehen Endbenutzer den Anbieter beim Erstellen einer Genehmigung nicht. Endbenutzer können auch keine E-Signatur-Anforderungen anzeigen, die mit diesem Anbieter vorgenommen wurden.
+
+E-Signatur-Genehmigungen, die mit der App "Genehmigungen" erstellt wurden, werden in der Cloud des ausgewählten Anbieters gespeichert. Sie müssen daher zur Website des Anbieters wechseln, um alle Daten zu E-Signaturen exportieren zu können. Lesen Sie die Dokumentation des Anbieters zum Exportieren und Zurückbehalten dieser Vereinbarungen.

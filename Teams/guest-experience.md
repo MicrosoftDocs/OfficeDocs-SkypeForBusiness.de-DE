@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
-ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092083"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129724"
 ---
 # <a name="guest-experience-in-teams"></a>Gast Erfahrung in Teams
 
@@ -52,7 +52,7 @@ In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die j
 |Posten, Löschen und Bearbeiten von Nachrichten  <br/> |&#x2713;|&#x2713;|
 |Freigeben einer Kanal-Datei  <br/> |&#x2713;|&#x2713;|
 |Zugreifen auf SharePoint-Dateien<br/> |&#x2713;|&#x2713;|
-|Anfügen von Dateien<br/> |&#x2713;|Nur Team-Chats|
+|Anfügen von Dateien<br/> |&#x2713;|Nur Kanalbeiträge|
 |Herunterladen privater Chat-Dateien<br/> |&#x2713;|&#x2713;|
 |Suchen in Dateien<br/> |&#x2713;||
 |Freigeben einer Chatdatei  <br/> |&#x2713;||

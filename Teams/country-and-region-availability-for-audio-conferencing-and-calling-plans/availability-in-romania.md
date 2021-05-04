@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Rumänien verfügbar sind.
-ms.openlocfilehash: 6ded589276ca8132090b5bda9a8d8425cd34e7d4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Hier sind die Dienste für Skype for Business und Microsoft Teams für Rumänien verfügbar.
+ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098491"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130174"
 ---
 # <a name="availability-in-romania"></a>Verfügbarkeit in Rumänien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Rumänien verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Rumänien.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -54,16 +54,15 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 | Automatische Telefonzentralen <br/> |Verfügbar  <br/> |
 |Anrufwarteschleifen  <br/> |Verfügbar  <br/> |
 |Voicemail  <br/> |Verfügbar  <br/> |
-   
+
 ## <a name="calling-plans"></a>Anrufpläne
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
-
-Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Plan für Inlandsrufe </li><li>240 Minuten Hausrufplan</li></li><li>1200 Minuten Plan für Inlandsrufe </li></li><li>Plan für Inlands- und Auslandsrufe: 1200 Minuten Inlands- oder 600 Minuten auslandsgerufener Anrufe (was im Kalendermonat zuerst erreicht wird)</li></li></ul>Barrierefreiheitsunterstützung für Microsoft Teams [Prezentare generală accesibilitate a Microsoft Teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms(WW)(Rumänisch)(Februar2021)](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
+|Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Wird zurzeit nicht unterstützt. <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
