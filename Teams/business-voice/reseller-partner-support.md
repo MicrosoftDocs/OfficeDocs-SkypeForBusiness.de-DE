@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Erfahren Sie, wie Sie Unterstützung von einem Microsoft-Händler oder -Partner für das Einrichten von Microsoft 365 Business Voice ohne Anrufplan erhalten können.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,19 +24,19 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4dd06a36fca100dd74cb49e1920cd2e3d2a31ca2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096911"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129734"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Hilfe von einem Microsoft-Händler oder -Partner erhalten
 
 > [!IMPORTANT]
 > Die Informationen in diesem Artikel gelten nur für Business Voice **ohne** Anrufplan. Bevor Sie diesen Artikel lesen, schauen Sie unter [Regionale Verfügbarkeit für Business Voice](country-region-availability.md), nach, ob Ihr Land oder Ihre Region Business Voice mit Anrufplan unterstützt.
 >
-> Wenn sich Ihr Mandant in einem Land oder einer Region befindet, das bzw. die Business Voice mit Anrufplan unterstützt, ziehen Sie [Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden](use-getting-started-wizard.md) zurate.
+> Wenn sich Ihr Mandant in einem Land oder einer Region befindet, das bzw. die Business Voice mit Anrufplan unterstützt, ziehen Sie [Einrichten von Microsoft 365 Business Voice](set-up-overview.md) zurate.
 
 Das Einrichten von Business Voice ohne Anrufplan setzt die Konfiguration von direktem Routing für Telefonsysteme voraus. Direktes Routing ermöglicht die Interoperabilität zwischen Ihrer lokalen Telefon-Hardware, dem Microsoft Phone System, welches das Kernfeature von Business Voice ist, und dem PSTN-Anbieter (Telefonfestnetzanbindung (Public Switched Telephone Network)). Da das direkte Routing ein tiefgreifendes Verständnis des Microsoft Phone System, PSTN-Konnektivität, Netzwerken und anderen technischen Fähigkeiten erfordert, empfehlen wir, dass Sie dies durch einen Microsoft-Partner oder -Händler einrichten lassen. Darüber hinaus stehen Business Voice ohne Anrufplan-Lizenzen nur bei Microsoft-Partnern und -Händlern zur Verfügung.
 
@@ -56,4 +56,3 @@ Wenn Sie sich mit einem Microsoft-Partner oder -Händler zur Einrichtung von Bus
 - Ihre Internetverbindung
 - Für Ihre Organisation einzigartige Design-Überlegungen, z.B. die Notwendigkeit, Callcenter-Funktionalität zu unterstützen, Telefonsystem-Anrufmenüs zu unterstützen (beispielsweise: „drücken Sie 1 für Vertrieb, drücken Sie 2, um technische Unterstützung zu erhalten“), Konferenzräume, Telefon-Kioske usw.
 - Wie viele Orte das vorhandene Telefonsystem unterstützt und wie die Konnektivität dazwischen eingerichtet ist
-

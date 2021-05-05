@@ -12,15 +12,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Erfahren Sie, was die Unterschiede sind zwischen Microsoft 365 Enterprise Voice und Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c63a33737ecb4f03bd5c1f1344c345b508b9acf
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: ba0beaefaa863f155cab33a7b01a7c1072078c64
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097015"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130214"
 ---
 # <a name="whats-the-difference-between-business-voice-and-enterprise-voice"></a>Was ist der Unterschied zwischen Business Voice und Enterprise Voice?
 
@@ -30,7 +30,6 @@ Während Business- und Enterprise-Voice dieselben Dienste bieten, gibt es einige
 
 - **Maximale Anzahl an Lizenzen** – Sie können bis zu 300 Business Voice-Lizenzen erwerben. Mit Enterprise Voice können Sie eine unbegrenzte Anzahl an Lizenzen erwerben.
 - **Einfachheit** – Business Voice bietet alles, was Sie benötigen, um das Telefonsystem einzurichten. Sie müssen sich keine Gedanken darüber machen, welche Lizenzen für jeden Benutzer erforderlich sind. Mit Enterprise Voice können Sie jedoch selektiver dabei vorgehen, welchem Nutzer welche Lizenzen, beispielsweise für Audiokonferenzen, zugeordnet werden.
-- **Assistentenbasierte Einrichtung** – Business Voice führt Sie durch die Einrichtung Ihrer Benutzer, Telefonnummern, Anrufmenüs und vielem mehr, indem Sie den Assistenten "erste Schritte" ausführen. Nachdem der Assistent all Ihre Entscheidungen abgefragt hat, richtet er das Telefonsystem und all seine verbunden Features für Sie ein. Bei Enterprise Voice werden Funktionen einzeln eingerichtet, was Ihnen die nötige Flexibilität verschafft, Ihr Telefonsystem nach Ihren Wünschen einzurichten.
 
 Business Voice-Lizenzen sind für die ersten 300 Benutzer in Ihrer Organisation verfügbar. Wenn Ihre Organisation auf mehr als 300 Benutzer anwächst, müssen Sie Enterprise-Voice-Lizenzen für diese zusätzlichen Benutzer erwerben. Sie müssen Ihre bestehenden 300 Benutzer nicht von Business Voice auf Enterprise Voice umstellen. Beide Lizenzen können in der selben Organisation zeitgleich im Einsatz sein. Jedem Benutzer kann jedoch nur eine einzige Lizenz (Business- oder Enterprise-Voice) zeitgleich zugewiesen werden. Sie können einem Benutzer nicht beide Lizenztypen gleichzeitig zuweisen.
 
@@ -38,19 +37,18 @@ Business Voice-Lizenzen sind für die ersten 300 Benutzer in Ihrer Organisation 
 
 Die Tabelle unten zeigt die in Business Voice und Enterprise Voice verfügbaren Funktionen.
 
-|  Features                                                            | Business Voice | Enterprise Voice  |
-|----------------------------------------------------------------------|----------------|-------------------|
-| Telefonsystem               | X              | X                 |
-| Anrufer-ID                                                            | X              | X                 |
-| Voicemail                                                           | X              | X                 |
-| Anrufmenüs                                                           | X              | X                 |
-| Geteilte Telefonleitungen                                                   | X              | X                 |
-| Notrufe                                                    | X              | X                 |
-| Inlandsanrufe                    | X              | X                 |
-| Gebührenfreie Anrufe innerhalb des Landes oder der Region                                  | X              | X                 |
-| Internationale Pläne verfügbar                                        | X              | X                 |
-| Gebührenfreie Einwahl verfügbar                                          | X              | X                 |
-| Audiokonferenzen           | X              | X                 |
-| Konferenzgespräche mit Benutzern, die Teams nicht verwenden, hosten                           | X              | X                 |
-| Konferenzgespräche mit Benutzern, die sich nicht über das Internet einwählen, hosten                        | X              | X                 |
-| Business Voice-Assistent für erste Schritte  | X              |                   |
+| Features                                      | Business Voice | Enterprise Voice |
+|-----------------------------------------------|----------------|------------------|
+| Telefonsystem                                  | X              | X                |
+| Anrufer-ID                                     | X              | X                |
+| Voicemail                                    | X              | X                |
+| Anrufmenüs                                    | X              | X                |
+| Geteilte Telefonleitungen                            | X              | X                |
+| Notrufe                             | X              | X                |
+| Inlandsanrufe                              | X              | X                |
+| Gebührenfreie Anrufe innerhalb des Landes oder der Region           | X              | X                |
+| Internationale Pläne verfügbar                 | X              | X                |
+| Gebührenfreie Einwahl verfügbar                   | X              | X                |
+| Audiokonferenzen                            | X              | X                |
+| Konferenzgespräche mit Benutzern, die Teams nicht verwenden, hosten    | X              | X                |
+| Konferenzgespräche mit Benutzern, die sich nicht über das Internet einwählen, hosten | X              | X                |

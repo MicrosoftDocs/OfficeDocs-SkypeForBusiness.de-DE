@@ -14,19 +14,19 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Erfahren Sie, wie Sie Microsoft 365 Business Voice an die spezifischen Bedürfnisse Ihrer Organisation anpassen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116003"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130224"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>Microsoft 365 Business Voice anpassen
 
-Der Assistent "Erste Schritte" richtet Business Voice mit grundlegenden Optionen ein, damit Sie die Anwendung sofort nutzen können. Diese Optionen reichen möglicherweise aus, wenn Ihre Organisation ein kleines Unternehmen ist, das gerade erst beginnt, oder wenn Sie ein Pilotprojekt in Ihrer größeren Organisation ausführen. Sie erhalten die Grundausstattung mit neuen Telefonnummern und einem Anrufmenü. 
+Die [Business Voice-Einrichtungsanleitung](set-up-overview.md) richtet Business Voice mit grundlegenden Optionen ein, damit Sie die Anwendung sofort nutzen können. Diese Optionen reichen möglicherweise aus, wenn Ihre Organisation ein kleines Unternehmen ist, das gerade erst beginnt, oder wenn Sie ein Pilotprojekt in Ihrer größeren Organisation ausführen. Sie erhalten die Grundausstattung mit neuen Telefonnummern und einem Anrufmenü.
 
 Sie möchten Business Voice aber wahrscheinlich so anpassen, dass es Ihren geschäftlichen Anforderungen besser entspricht. Wahrscheinlich möchten Sie beispielsweise Ihre vorhandenen Telefonnummern (so genannte Nummernportierung) in Business Voice übertragen.
 

@@ -15,7 +15,7 @@ MS.collection:
 - Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: ''
+description: Erfahren Sie, welche Lizenzen und anderen Add-Ons Sie kaufen müssen, um Microsoft 365 Business Voice einzurichten.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102821"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129864"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Was benötige ich für die Nutzung von Microsoft 365 Business Voice?
 
@@ -38,7 +38,7 @@ ms.locfileid: "51102821"
 
 Benutzer, die Anrufe zu bzw. von *externen* Telefonnummern in Microsoft Teams tätigen oder empfangen möchten, benötigen dazu eine Microsoft 365 Business Voice-Lizenz. Dadurch erhalten sie Zugriff auf alle Funktionen, die sie benötigen, um Anrufe zu tätigen oder zu empfangen, Audiokonferenzen zu hosten und vieles mehr.
 
-Benutzer, die keine Anrufe zu bzw. von externen Telefonnummern tätigen oder empfangen müssen, benötigen lediglich Microsoft Teams. Sie benötigen keine Microsoft 365 Business Voice-Lizenz.
+Benutzer, die keine Anrufe zu bzw. von externen Telefonnummern tätigen oder empfangen müssen, benötigen lediglich Teams. Sie benötigen keine Microsoft 365 Business Voice-Lizenz.
 
 Angenommen, die Belegschaft Ihrer Organisation besteht aus 10 Fabrikangestellten und 5 Büroangestellten. Die Fabrikangestellten müssen möglicherweise lediglich andere Mitarbeiter in Ihrem Unternehmen anrufen. Die Büroangestellten hingegen müssen nicht nur andere Mitarbeiter anrufen, sondern auch Anrufe an bzw. von Lieferanten, Partnern und Kunden tätigen und empfangen. In diesem Fall benötigen nur die 5 Büroangestellten eine Microsoft 365 Business Voice-Lizenz.
 
@@ -46,7 +46,7 @@ Angenommen, die Belegschaft Ihrer Organisation besteht aus 10 Fabrikangestellten
 
 Es gibt zwei Arten von Business Voice-Lizenzen: Business Voice **mit** Anrufplan und Business Voice **ohne** Anrufplan. Die Auswahl der für Sie verfügbaren Business Voice-Lizenzen ist vom Standort Ihres Microsoft 365 Mandanten abhängig. Der Lizenztyp bestimmt, ob Sie Business Voice selbst einrichten können, ob Sie Hilfe von einem Microsoft-Partner oder -Händler benötigen, wer Ihre Telefonnummern verwaltet, usw.
 
-- **Business Voice mit Anrufplan** Sie können Business Voice von Microsoft kaufen, den Assistenten „erste Schritte“ zum Einrichten von Business Voice nutzen und dann Ihre vorhandenen Rufnummern einrichten oder zu Microsoft übertragen. Der Artikel [Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden](use-getting-started-wizard.md) zeigt Ihnen, wie Sie Business Voice für Ihren Mandanten einrichten.
+- **Business Voice mit Anrufplan** Sie können Business Voice von Microsoft kaufen, es selber einrichten, und dann Ihre vorhandenen Rufnummern einrichten oder zu Microsoft übertragen. Der Artikel [Einrichten von Microsoft 365 Business Voice](set-up-overview.md) zeigt Ihnen, wie Sie Business Voice für Ihren Mandanten einrichten.
 
   Weitere Informationen zum Kauf von Business Voice mit Anrufplan-Lizenzen finden Sie unter [Business Voice mit Anrufplan](#business-voice-with-calling-plan) weiter unten in diesem Artikel.
 - **Business Voice ohne Anrufplan** Sie müssen Business Voice von einem Microsoft-Partner oder -Händler erwerben, der Ihnen beim Einrichten von Business Voice hilft. Ihre vorhandenen Telefonnummern bleiben beim aktuellen Drittanbieter. Der Artikel [Hilfe von einem Microsoft-Händler oder Partner erhalten](reseller-partner-support.md) bietet Ihnen eine Übersicht über den Prozess zum Einrichten von Business Voice in Ihrem Mandanten.
@@ -96,7 +96,7 @@ Falls Sie überlegen, ob Sie einen internationalen Anrufplan für einen Benutzer
 
 ### <a name="communications-credits"></a>Kommunikationsguthaben
 
-Kommunikationsguthaben ist mit einer digitalen Brieftasche vergleichbar, die verwendet wird, um Anrufe an oder von Telefonnummern außerhalb Ihres Telefonsystems zu bezahlen. Kommunikationsguthaben werden in verschiedenen Situationen verwendet.
+Kommunikationsguthaben sind mit einer digitalen Brieftasche vergleichbar, die verwendet wird, um Anrufe an oder von Telefonnummern außerhalb Ihres Telefonsystems zu bezahlen. Kommunikationsguthaben werden in einigen wenigen Situationen verwendet.
 
 - **Ein Benutzer hat die Minuten seines nationalen oder internationalen Anrufplans aufgebraucht:** Wenn ein Benutzer nicht über einen internationalen Anrufplan verfügt, verwendet Business Voice automatisch Ihr Kommunikationsguthaben.
 - **Ein Benutzer ohne internationalen Anrufplan tätigt international Anrufe:** Business Voice verwendet automatisch Ihr Kommunikationsguthaben.
