@@ -20,18 +20,20 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Hier erfahren Sie, was Adressvalidierung ist, warum sie wichtig ist und was sie mit Notfalladressen und -diensten zu tun hat. '
-ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dfd582236289e7a7891b52d34c758f78a95a89f7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220695"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237951"
 ---
 # <a name="what-is-address-validation"></a>Was ist Adressvalidierung?
 
-Wenn Sie Anrufpläne einrichten, müssen Sie jedem Benutzer eine Telefonnummer und eine Notfalladresse zuweisen.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+Wenn Sie Anrufpläne einrichten, müssen Sie jedem Ihrer Benutzer eine Telefonnummer und eine Notfalladresse zuweisen.
   
-Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse korrekt ist und außerdem richtig formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, beispielsweise ein falsch eingegebener Name des Orts, weiterhin die Validierung durchlaufen kann. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Notdienstzentrale weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
+Durch die Validierung einer Postanschrift oder Adresse wird sichergestellt, dass die Adresse korrekt ist und außerdem richtig formatiert ist. Es ist möglich, dass eine teilweise korrekte Notfalladresse, z. B. ein falsch geschriebener Name der Stadt, die Validierung besteht. Die Validierung bestimmt anhand aller Teile der jeweiligen Adresse, ob genug Informationen enthalten sind, um den Anruf an die entsprechende Notdienstzentrale weiterzuleiten. Wenn dies der Fall ist, wird sie als validiert zurückgegeben und kann dann einer Telefonnummer zugewiesen werden.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

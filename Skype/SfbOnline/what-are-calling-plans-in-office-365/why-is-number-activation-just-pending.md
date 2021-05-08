@@ -1,5 +1,5 @@
 ---
-title: Warum ist die Nummern Aktivierung gerade ausstehend?
+title: Warum ist die Nummernaktivierung nur ausstehend?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,20 +21,22 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
+ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220675"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237911"
 ---
-# <a name="why-is-number-activation-just-pending"></a>Warum ist die Nummern Aktivierung gerade ausstehend?
+# <a name="why-is-number-activation-just-pending"></a>Warum ist die Nummernaktivierung nur ausstehend?
 
-Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufplänen. Wenn eine Telefonnummer aus irgendeinem Grund nicht aktiviert ist und aufgrund der Adressüberprüfung als **Ausstehend** aufgelistet ist, müssen Sie eine Serviceanfrage erstellen und übermitteln. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufplänen. Wenn eine Telefonnummer aus bestimmten Gründen nicht aktiviert  ist und aufgrund der Adressüberprüfung als ausstehend aufgeführt ist, müssen Sie eine Serviceanfrage erstellen und übermitteln. Die Vorgehensweise hängt von der Größe Ihrer Organisation ab.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Führen Sie für Organisationen mit maximal 150 Benutzern die folgenden Schritte aus:
-1. Wählen Sie im Admin Center **Hilfe benötigen**? aus.
+1. Wählen Sie im Admin Center Benötigen Sie **Hilfe? aus.**
 2. Teilen Sie uns im Bereich **Need help?** (Benötigen Sie Hilfe?) mit, wobei Sie Hilfe benötigen. Wählen Sie dann **Get help** (Hilfe erhalten) aus.
 3. Wenn die Ergebnisse im Abschnitt **View solutions** (Lösungen anzeigen) für Sie nicht hilfreich sind, wählen Sie eine der folgenden Optionen aus:
     - **Let us call you (Recommended)** (Anruf von uns (empfohlen)): Bestätigen Sie Ihre Kontaktnummer, und klicken Sie dann auf **Call me** (Rückruf). Im Bereich **Need help?** (Benötigen Sie Hilfe?) sehen Sie, wie lange es voraussichtlich dauert, bis Sie zurückgerufen werden.
@@ -42,9 +44,9 @@ Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufp
  
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Erstellen Sie für Organisationen mit mehr als 150 Benutzern eine Serviceanfrage, um eine Notfalladresse zu validieren.
 
-1. Registrieren Sie sich als Administrator für Microsoft 365 oder Office 365 mit Ihrem Geschäfts-oder Schulkonto.
+1. Melden Sie sich als Administrator an, um Microsoft 365 oder Office 365 Ihrem Arbeits- oder Schulkonto zu registrieren.
     
-2. Klicken Sie im Admin Center im linken Navigationsbereich auf **Support**  >  **neue Dienstanfrage**unterstützen.
+2. Klicken Sie im Admin Center im linken Navigationsbereich auf **Neue**  >  **Serviceanfrage unterstützen**.
     
 3. Klicken Sie unter **Serviceanfragen** auf **Hinzufügen**.
     
@@ -69,7 +71,7 @@ Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufp
       - Land oder Region
     
      > [!IMPORTANT]
-     > **Geben Sie das Land/die Region an, in dem wir Anrufpläne anbieten, die Sie versuchen, eine Notfalladresse zu überprüfen, wenn Sie eine Telefonnummer zuweisen.**
+     > **Geben Sie das Land/die Region an, in dem/der wir Anrufpläne anbieten, für die Sie eine Notfalladresse überprüfen möchten, wenn Sie eine Telefonnummer zuweisen.**
   
       - Postleitzahl
     
@@ -94,7 +96,7 @@ Die Adressüberprüfung ist ein wichtiger Bestandteil beim Einrichten von Anrufp
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird im Microsoft 365 Admin Center auf der Seite **Service Anfragen** angezeigt.
+> Die Referenznummer wird auf der Seite **Serviceanfragen** im Microsoft 365 Admin Center aufgeführt.
 
 
 > [!NOTE]

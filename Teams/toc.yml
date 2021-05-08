@@ -617,6 +617,8 @@ items:
             href: google-workspace-addon-teams.md
           - name: Cloud-Video-Interoperabilität
             href: cloud-video-interop.md
+          - name: Einrichten von Webinaren in Microsoft Teams
+            href: set-up-webinars.md
       - name: Audiokonferenz
         items:
           - name: Ihre Bereitstellung planen
@@ -1459,8 +1461,6 @@ items:
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
-          - name: Erstellen einer Intranet-Portal-App für Teams von einer SPO-Website oder -Seite aus
-            href: teams-standalone-static-tabs-using-spo-sites.md
       - name: Teams für den Einzelhandel
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:

@@ -19,25 +19,27 @@ f1.keywords:
 ms.custom:
 - Setup
 - O365P_RecordingDesc
-description: 'So aktivieren Sie die Aufzeichnung für Audio-und Videokonferenzen und erfahren, was in Aufzeichnungen enthalten ist und was nicht. '
-ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Hier erfahren Sie, wie Sie die Aufzeichnung für Audio- und Videokonferenzen aktivieren und erfahren, was in Aufzeichnungen enthalten und was nicht. '
+ms.openlocfilehash: 4740c3d090115934f6bb493eec3be74b67ff6754
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010818"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239861"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Zulassen, dass Personen ihre Audio- und Videokonferenzen aufzeichnen
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Festlegen der standardmäßigen Aufzeichnungseinstellung für eine Person oder alle Personen in Ihrer Organisation
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Wechseln Sie zu Admin Center > **Skype for Business**, und klicken Sie dann auf **Benutzer**.
+1. Wechseln Sie zum Admin Center, > **Skype for Business**, und klicken Sie dann auf **Benutzer.**
     
-2. Wählen Sie auf der Seite **Benutzer** den Benutzer oder die Benutzer aus der Liste aus, und klicken Sie dann auf **Bearbeiten**.
+2. Wählen Sie **auf der** Seite Benutzer den oder die Benutzer aus der Liste aus, und klicken Sie dann auf **Bearbeiten**.
     
-3. Klicken Sie auf der **Seite Optionen**auf **Konversationen und Besprechungen aufzeichnen**, und klicken Sie dann auf **Speichern**.
+3. Klicken Sie **auf der Seite** Optionen auf **Unterhaltungen und Besprechungen aufzeichnen**, und klicken Sie dann auf **Speichern.**
     
 Wenn die Aufzeichnungsfunktion aktiviert ist, können Organisatoren oder Referenten eine Skype for Business Online-Besprechung oder ein Konferenzgespräch aufzeichnen. Das Aktivieren oder Deaktivieren der Aufzeichnungsfunktion hat Auswirkungen für jede Person in Ihrer Organisation.
   
@@ -45,7 +47,7 @@ Wenn die Aufzeichnungsfunktion aktiviert ist, können Organisatoren oder Referen
 |:-----|:-----|
 |Audio und HD-Video  <br/> PowerPoint- und Whiteboardpräsentationen  <br/> Sitzungen mit Desktop- oder Programmfreigabe  <br/> |Freigegebene OneNote-Seiten  <br/> PowerPoint-Anmerkungen  <br/> Freigegebene Dateien (Anlagen)  <br/> |
    
-Ausführliche Informationen finden Sie unter [Speichern und Veröffentlichen von lync-Aufzeichnungen](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) und [lync Recording Manager](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
+Details finden Sie unter Speichern und Veröffentlichen [von Lync-Aufzeichnungen und](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) [Lync-Aufzeichnungs-Manager.](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b) 
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

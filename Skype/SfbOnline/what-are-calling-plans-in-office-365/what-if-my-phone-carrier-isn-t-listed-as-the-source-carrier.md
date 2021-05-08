@@ -1,5 +1,5 @@
 ---
-title: Was ist zu tun, wenn mein Telefonnetzbetreiber nicht als Quell Netzbetreiber aufgeführt ist?
+title: Was ist, wenn mein Netzbetreiber nicht als Quellenbetreiber aufgeführt ist?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,23 +21,25 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
-description: 'Erfahren Sie, wie Sie vorgehen, wenn Ihr Netzbetreiber nicht in Skype for Business aufgeführt ist. '
-ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Erfahren Sie, wie Sie gehen können, wenn Ihr Netzbetreiber nicht in der Liste Skype for Business. '
+ms.openlocfilehash: 4354cb05aa28b09931f8f2524de2f01c6ef57f3f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769288"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237971"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was ist zu tun, wenn mein Telefonnetzbetreiber nicht als Quell Netzbetreiber aufgeführt ist?
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was ist, wenn mein Netzbetreiber nicht als Quellenbetreiber aufgeführt ist?
 
-Es ist etwas verwirrend, wenn Sie sehen, dass der Name Ihres Netzbetreibers nicht aufgeführt ist. In den meisten Fällen sind die Telefonnummern, die Sie übertragen, im Besitz eines anderen Dienstanbieters oder Netzbetreibers, wenn es sich um einen anderen Dienstanbieter oder Netzbetreiber handelt. Es kann vorkommen, dass der aufgelistete Dienstanbieter oder Netzbetreiber von Ihrem aktuellen Dienstanbieter abweicht, da Ihr aktueller Dienstanbieter möglicherweise mit einem Drittanbieter arbeitet. 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+Es kann etwas verwirrend sein, wenn Sie sehen, dass der Name Ihres Netzbetreibers nicht aufgeführt ist. Wenn der Dienstanbieter oder Netzbetreiber unterschiedlich ist, liegt die Wahrscheinlichkeit in den meisten Fällen, dass die Telefonnummern, die Sie übertragen möchten, einem anderen Dienstanbieter oder Netzbetreiber gehören. Es kann zeiten sein, dass sich der aufgeführte Dienstanbieter oder Netzbetreiber von Ihrem aktuellen Dienstanbieter unterscheiden kann, da Ihr aktueller Dienstanbieter möglicherweise mit einem Drittanbieter zusammenarbeitt. 
   
-Ein Beispiel:
+Beispiel:
   
-- Wenn Sie die Nummer von Skype for Business als Ihrem Netzbetreiber portieren, wird möglicherweise Level3 aufgeführt.
+- Wenn Sie die Nummer von ihrem Anbieter Skype for Business, wird möglicherweise Level3 aufgelistet.
     
-  **Eine vollständige Schritt-für-Schritt-Anleitung finden Sie unter [übertragen von Telefonnummern in Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).**
+  **Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern an Teams.](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
     > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

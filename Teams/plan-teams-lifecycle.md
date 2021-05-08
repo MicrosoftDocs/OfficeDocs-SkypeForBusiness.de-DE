@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4b371d696008d7ef58ce7722e6a9f27e9c9bc970
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96012732c3f8023535e67cd753a16a7aac32f913
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117803"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240495"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -78,7 +78,7 @@ Die Administratorrollen in Microsoft Teams bestimmen, welche Möglichkeiten den 
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2">Teams-Dienstadministrator</td>
+    <td valign="top" colspan="2">Teams-Administrator</td>
     <td valign="top">Verwalten des Microsoft Teams-Dienstes, Erstellen und Verwalten von Microsoft 365-Gruppen</td>
     <td valign="top">Verwalten von Besprechungen einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenzbrücken<sup>1</sup><br><br>Verwalten der VoIP-Funktionen einschließlich Anrufrichtlinien, Telefonnummernbestand und -zuweisung, Anrufwarteschleifen und automatischen Telefonzentralen<sup>1</sup><br><br>Verwalten von Messaging einschließlich Messagingrichtlinien<sup>1</sup><br><br>Verwalten aller organisationsweiten Einstellungen einschließlich Partnerverbund, Microsoft Teams-Upgrade und Einstellungen des Microsoft Teams-Clients<sup>1</sup><br><br>Verwalten der Teams in der Organisation und der zugehörigen Einstellungen einschließlich der Mitgliedschaft<sup>2</sup><br><br>Anzeigen von Benutzerprofilseiten und Ausführen einer Problembehandlung für Probleme von Benutzern mit der Anrufqualität mithilfe erweiterter Problembehandlungstools<sup>3</sup></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: Proxy Server für Teams oder Skype for Business Online
+title: Proxyserver für Skype for Business Online und Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,22 +20,24 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Dieser Artikel enthält Informationen zur Verwendung eines Proxyservers mit Skype for Business.
-ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863750"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240414"
 ---
-# <a name="proxy-servers-for-skype-for-business-online"></a>Proxy Server für Skype for Business Online
+# <a name="proxy-servers-for-skype-for-business-online"></a>Proxyserver für Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Dieser Artikel enthält Anleitungen zur Verwendung eines Proxyservers mit Skype for Business.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Es wird empfohlen, keinen Proxyserver zu verwenden
 
-Wenn es um Skype for Business-Datenverkehr über Proxies geht, empfiehlt Microsoft, Proxys zu umgehen. Proxys machen Skype for Business nicht sicherer, da der Datenverkehr bereits verschlüsselt ist.
+In Bezug auf Skype for Business-Datenverkehr über Proxys empfiehlt Microsoft, Proxys zu umgehen. Durch Proxys wird die Sicherheit Skype for Business, da der Datenverkehr bereits verschlüsselt ist.
   
-Und ein Proxy kann Probleme verursachen. Leistungsbezogene Probleme können durch Latenz und Paketverlust in die Umgebung eingeführt werden. Probleme wie diese führen zu einer negativen Erfahrung in solchen Teams oder Skype for Business-Szenarien als Audio-und Videodaten, bei denen echt Zeitströme wichtig sind.
+Außerdem kann die Verwendung eines Proxys Probleme verursachen. Durch Latenz und Paketverluste kann es in der Umgebung zu Leistungsproblemen kommen. Solche Probleme führen zu einer negativen Benutzererfahrung in Teams- oder Skype for Business-Szenarien wie Audio und Video, in denen Echtzeitstreams unerlässlich sind.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Wenn Sie einen Proxyserver verwenden müssen
 
@@ -49,7 +51,7 @@ Microsoft empfiehlt außerdem dringend Folgendes:
     
 - Lassen Sie UDP-Datenverkehr zu.
     
-- Befolgen Sie die anderen Empfehlungen in unseren Netzwerkrichtlinien:
+- Folgen Sie den anderen Empfehlungen in unseren Netzwerkrichtlinien:
     
   - [Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online](media-quality-and-network-connectivity-performance.md)
     

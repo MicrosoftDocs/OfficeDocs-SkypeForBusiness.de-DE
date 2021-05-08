@@ -1,5 +1,5 @@
 ---
-title: Was müssen Sie tun, nachdem Sie ihre Telefonnummern portiert haben?
+title: Was müssen Sie nach dem Portieren Ihrer Telefonnummern tun?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,23 +21,25 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: Erfahren Sie, was Sie als Nächstes tun müssen, nachdem Sie Ihre Telefonnummern zu Skype for Business portiert haben.
-ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erfahren Sie, was Sie als Nächstes tun müssen, nachdem Sie Ihre Telefonnummern zu einer Skype for Business.
+ms.openlocfilehash: d49fea9315e44f7d126021ec8733143916f5e366
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101861"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237941"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Was müssen Sie tun, nachdem Sie ihre Telefonnummern portiert haben?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>Was müssen Sie nach dem Portieren Ihrer Telefonnummern tun?
 
-Nachdem Sie Ihren Portierungsauftrag übermittelt haben, wenden wir uns an Ihren Netzbetreiber und arbeiten die Details mit ihm ab. Wenn das endgültige Übertragungsdatum festgelegt wurde, werden wir Sie per E-Mail benachrichtigen. Warten Sie jedoch auf Ihren Netzbetreiber, um die Bestellung zu akzeptieren, und erstellen Sie die erforderlichen Notfalladressen, die Sie mit diesen Nummern verwenden werden.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+Nachdem Sie Ihren Portierungsauftrag übermittelt haben, wenden wir uns an Ihren Netzbetreiber und arbeiten die Details mit ihm ab. Wenn das Datum für die endgültige Übertragung festgelegt wurde, benachrichtigen wir Sie per E-Mail. Während Sie jedoch darauf warten, dass Ihr Netzbetreiber den Auftrag akzeptiert, fahren Sie mit der Erstellung der erforderlichen Notfalladressen für diese Nummern voraus.
   
-- Erfahren Sie mehr [über Was sind Notfallstandorte, Adressen und Anrufrouting?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+- Weitere Informationen finden Sie [unter Was sind Notfallstandorte, Notfalladressen und Anrufrouting?.](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
     
-- Sie können [bei Bedarf eine Notfalladresse für Ihre](/MicrosoftTeams/add-change-remove-emergency-location-organization) Organisation hinzufügen oder entfernen.
+- Bei Bedarf [können Sie eine Notfalladresse für Ihre](/MicrosoftTeams/add-change-remove-emergency-location-organization) Organisation hinzufügen oder entfernen.
     
-- Wenn Ihre Telefonnummern bereits über eine Notfalladresse verfügen, können Sie einen Notfallstandort für [Ihre Organisation hinzufügen, ändern oder entfernen.](/MicrosoftTeams/add-change-remove-emergency-place-organization)
+- Wenn Ihre Telefonnummern bereits eine Notfalladresse haben, können Sie einen Notfallstandort für [Ihre Organisation hinzufügen, ändern oder entfernen.](/MicrosoftTeams/add-change-remove-emergency-place-organization)
     
 - [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 

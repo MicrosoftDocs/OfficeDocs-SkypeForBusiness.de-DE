@@ -1,5 +1,5 @@
 ---
-title: Beibehalten großer Dateien, die an eine Skype for Business-Besprechung angefügt sind
+title: Beibehalten großer Dateien, die an eine Besprechung Skype for Business sind
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,24 +18,26 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Sie können Dateien an eine Skype for Business-Besprechung anfügen, die die Teilnehmer dann öffnen und herunterladen können. An Skype for Business-Besprechungen angefügte Dateien werden in den Postfächern aller Teilnehmer aufbewahrt, deren Postfach in einem Prozessaufbewahrungsverfahren platziert wird, eine Microsoft 365- oder Office 365-Aufbewahrungsrichtlinie angewendet wird oder die einem eDiscovery-Fall im Microsoft 365 Compliance Center zugeordnet ist. Dieser Inhalt wird in den Ordnern "Wiederherstellbare Elemente" der Teilnehmer in ihren Postfächern gespeichert.
-ms.openlocfilehash: 515f8b68db04a7acfc8eab2d7c639157cdb0da8d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Sie können Dateien an eine Besprechung Skype for Business anfügen, die dann von den Teilnehmern geöffnet und heruntergeladen werden kann. Dateien, die an Skype for Business-Besprechungen angefügt sind, werden in den Postfächern jedes Teilnehmers aufbewahrt, dessen Postfach in das Halteverfahren für ein Rechtsstreitigkeiten gesetzt wird, auf die eine Microsoft 365- oder Office 365-Aufbewahrungsrichtlinie angewendet wird oder die im Microsoft 365 Compliance Center einem eDiscovery-Fall zugeordnet ist. Dieser Inhalt wird in den Ordnern "Wiederherstellbare Elemente" von Teilnehmern in ihren Postfächern gespeichert.
+ms.openlocfilehash: 74605b9aebf6d83619282d9cfc9094216d2fe6f1
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100571"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240107"
 ---
-# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Beibehalten großer Dateien, die an eine Skype for Business-Besprechung angefügt sind
+# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Beibehalten großer Dateien, die an eine Besprechung Skype for Business sind
 
-Sie können Dateien an eine Skype for Business-Besprechung anfügen, die die Teilnehmer dann öffnen und herunterladen können. An Skype for Business-Besprechungen angefügte Dateien werden in den Postfächern aller Teilnehmer aufbewahrt, deren Postfach in einem Prozessaufbewahrungsverfahren platziert wird, eine Microsoft 365- oder Office 365-Aufbewahrungsrichtlinie angewendet wird oder die einem eDiscovery-Fall im Microsoft 365 Compliance Center zugeordnet ist. Dieser Inhalt wird in den **Ordnern "Wiederherstellbare** Elemente" der Teilnehmer in ihren Postfächern gespeichert.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Sie können Dateien an eine Besprechung Skype for Business anfügen, die dann von den Teilnehmern geöffnet und heruntergeladen werden kann. Dateien, die an Skype for Business-Besprechungen angefügt sind, werden in den Postfächern jedes Teilnehmers aufbewahrt, dessen Postfach in das Halteverfahren für ein Rechtsstreitigkeiten gesetzt wird, auf die eine Microsoft 365- oder Office 365-Aufbewahrungsrichtlinie angewendet wird oder die im Microsoft 365 Compliance Center einem eDiscovery-Fall zugeordnet ist. Dieser Inhalt wird in  den Ordnern "Wiederherstellbare Elemente" von Teilnehmern in ihren Postfächern gespeichert.
   
-Dateien, die in postfächern im Halteraum aufbewahrt werden, werden indiziert und können daher beim Ausführen einer Inhaltssuche im Security Compliance Center durchsucht werden, wenn das Postfach eines &amp; Teilnehmers durchsucht wird. Angefügte Dateien, die größer als 30 MB sind, werden jedoch in zwei oder mehr kleinere Dateien aufgeteilt und als komprimierte (ZIP)-Dateien gespeichert. Der  *Inhalt*  dieser kleineren Dateien wird nicht für die Suche indiziert und möglicherweise nicht in einer Inhaltssuche zurückgegeben. Die Metadaten *dieser*  Dateien (z. B. der Dateiname und der Autor) werden jedoch für die Suche indiziert und können in einer Inhaltssuche zurückgegeben werden.
+Dateien, die in im Haltespeicher aufbewahrten Postfächern aufbewahrt werden, werden indiziert und können daher durchsucht werden, wenn im Security Compliance Center eine Inhaltssuche ausgeführt wird, wenn das Postfach eines &amp; Teilnehmers durchsucht wird. Angefügte Dateien, die größer als 30 MB sind, werden jedoch in zwei oder mehr kleinere Dateien aufgeteilt und als komprimierte (.zip) Dateien gespeichert. Der  *Inhalt*  dieser kleineren Dateien wird nicht für die Suche indiziert und möglicherweise nicht in einer Inhaltssuche zurückgegeben. Die Metadaten *dieser*  Dateien (z. B. Dateiname und Autor) werden jedoch für die Suche indiziert und bei einer Inhaltssuche zurückgegeben.
   
 > [!IMPORTANT]
-> Die Einstellungen MaxReceiveSize und MaxSendSize für ein Exchange Online-Postfach können sich auf die Möglichkeit auswirken, große Dateien aus Skype for Business-Besprechungen zu behalten. Die Standardeinstellungen für MaxReceiveSize und MaxSendSize betragen 36 MB bzw. 35 MB. Diese Standardeinstellungen sind jedoch zu klein, um eine Beliebige Datei aus einer Skype for Business-Besprechung zu behalten, die größer als 30 MB ist. Dies liegt daran, dass Exchange Online die Base64-Codierung von Nachrichtenanlagen und anderen Binärdaten verwendet. Wenn eine Nachricht codiert ist, wird ihre Größe um ca. 33 % erhöht. Um sicherzustellen, dass große Dateien aus Skype for Business-Besprechungen beibehalten werden, empfiehlt es sich daher, den Wert für MaxReceiveSize und MaxSendSize auf 39 MB zu erhöhen (was ungefähr 33 % größer als die zuvor erläuterte Größenbeschränkung von 30 MB ist) für Benutzer, die in den Halteraum gesetzt werden. Andernfalls wird eine große Datei, die an eine Skype for Business-Besprechung angefügt ist, möglicherweise nicht beibehalten. Weitere Informationen zur Verwendung der Befehle **Set-Mailbox -MaxReceiveSize** und **Set-Mailbox -MaxSendSize** in Exchange Online PowerShell finden Sie unter [Set-Mailbox](/powershell/module/exchange/mailboxes/Set-Mailbox).
+> Die Einstellungen MaxReceiveSize und MaxSendSize für ein Exchange Online-Postfach können sich auf die Möglichkeit auswirken, große Dateien aus Skype for Business speichern. Die Standardeinstellungen für MaxReceiveSize und MaxSendSize sind 36 MB bzw. 35 MB. Diese Standardeinstellungen sind jedoch zu klein, um eine Datei aus einer Besprechung Skype for Business behalten zu können, die größer als 30 MB ist. Dies liegt daran, Exchange Online Base64-Codierung von Nachrichtenanlagen und anderen Binärdaten verwendet wird. Wenn eine Nachricht codiert ist, wird ihre Größe um ca. 33 % erhöht. Um sicherzustellen, dass große Dateien aus Skype for Business-Besprechungen beibehalten werden, empfehlen wir daher, den Wert für MaxReceiveSize und MaxSendSize für Benutzer, die im Halteraum platziert sind, auf 39 MB zu erhöhen (ungefähr 33 % größer als die zuvor erläuterte Größenbeschränkung von 30 MB). Andernfalls wird eine große Datei, die an eine Besprechung Skype for Business, möglicherweise nicht beibehalten. Weitere Informationen zur Verwendung der Befehle **Set-Mailbox -MaxReceiveSize** und **Set-Mailbox -MaxSendSize** in Exchange Online PowerShell finden Sie unter [Set-Mailbox](/powershell/module/exchange/mailboxes/Set-Mailbox).
   
-Postfächer, die sich nicht im Halteraum befinden, haben keine Besprechungsdaten gespeichert. In einer Besprechung mit drei Personen, in der die Postfächer von zwei Teilnehmern für die Aufbewahrung gekennzeichnet sind, werden die Besprechungsdaten in den Postfächern dieser beiden Teilnehmer gespeichert, jedoch nicht im Postfach des dritten Teilnehmers, dessen Postfach nicht im Halteraum liegt.
+Bei Postfächern, die sich nicht im Halteraum befinden, werden keine Besprechungsdaten gespeichert. Bei einer Besprechung mit drei Personen, bei der die Postfächer von zwei Teilnehmern für die Aufbewahrung gekennzeichnet sind, werden die Besprechungsdaten z. B. in den Postfächern dieser beiden Teilnehmer gespeichert, jedoch nicht im Postfach des dritten Teilnehmers, dessen Postfach nicht im Halteraum ist.
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Erstellen von benutzerdefinierten externen Zugriffsrichtlinien](create-custom-external-access-policies.md)

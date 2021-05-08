@@ -21,13 +21,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
-description: 'Erfahren Sie, welche Abrechnung über Guthaben für Kommunikationen (PSTN-Verbrauch) ankommt, wie Sie Tarife finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: 809917a9d5ce59d97324cd7ae40e55f30b16d108
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Erfahren Sie, welche Abrechnung mit Guthaben für Kommunikationen (PSTN-Verbrauch) ankommt, wie Sie Tarife finden und welche Dienste Sie erhalten. '
+ms.openlocfilehash: 94e872130c57d08d509a99d6a2a1b593a79eb54f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101001"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240235"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -37,13 +37,13 @@ Guthaben für Kommunikationen ist eine praktische Möglichkeit, die Minuten in A
     
 - Ausgehende Anrufe aus Audiokonferenzbesprechungen tätigen, um Personen aus der ganzen Welt hinzuzufügen
     
-- Einwählen von einer Audiokonferenz-Besprechung zu Ihrem Mobiltelefon mit der Microsoft Teams-App oder der Skype for Business-App, die an Zielorten installiert ist, die noch nicht in Ihrem Abonnement enthalten sind.
+- Anrufen aus einer Audiokonferenz-Besprechung auf Ihr Mobiltelefon, auf dem die Microsoft Teams-App oder die Skype for Business-App installiert ist, um Ziele zu erreichen, die nicht bereits in Ihrem Abonnement enthalten sind.
     
 - Internationale Telefonnummern anrufen, wenn Sie Abonnements für einen **Plan für Inlandsanrufe** besitzen
     
-- Wählen Sie internationale Telefonnummern, die nicht in einem Abonnement für inlands- **und internationale Anrufe enthalten** sind.
+- Wählen Sie internationale Telefonnummern, die in einem Abonnement für einen Anrufplan für **Inlands- und Auslandsanrufe nicht enthalten** sind.
     
-- Wählen Sie aus, und bezahlen Sie pro Minute, sobald Sie Ihre monatliche Minuten-Zuteilung ausgeschöpft haben.
+- Wählen Sie aus, und bezahlen Sie pro Minute, sobald die monatlichen Minuten für die Zuteilung aufgebraucht sind.
     
 > [!NOTE]
 > Ausgehende Anrufe an bestimmte Ziele sind möglicherweise in Ihrem Abonnement für Audiokonferenzen enthalten. Die Details hierzu finden Sie in Ihren Abonnementinformationen. 
@@ -53,58 +53,58 @@ Guthaben für Kommunikationen ist eine praktische Möglichkeit, die Minuten in A
   
 ## <a name="what-are-the-communications-credits-rates"></a>Welche Tarife gelten für Guthaben für Kommunikationen?
 
-Wenn Sie sich fragen, welche Kosten die Anrufe für Anrufpläne haben, lesen Sie [Cloudbasiertes](https://go.microsoft.com/fwlink/p/?LinkId=799523) Telefonsystem für Sprachanrufe (scrollen Sie nach unten zu "Tarife sehen, wo Sie anrufen möchten").
+Wenn Sie sich fragen, welche Kosten für die Anrufe für Anrufpläne anstanden, lesen Sie [Cloudbasierte Telefonsystem](https://go.microsoft.com/fwlink/p/?LinkId=799523) für Sprachanrufe (scrollen Sie nach unten zu "Tarife für Anrufanrufe lesen").
   
 ## <a name="what-is-it"></a>Was ist das?
 
-Um gebührenfreie Nummern zu verwenden, sind Guthaben für Kommunikationen erforderlich, da diese Anrufe pro Minute abgerechnet werden. Darüber hinaus empfehlen wir, Guthaben für Kommunikationen für Ihre Anrufplan- und Audiokonferenzbenutzer zu einrichten, die die Möglichkeit zum Auswählen zu einem **beliebigen PSTN-Ziel benötigen.** Viele Länder/Regionen sind enthalten, aber einige Ziele sind möglicherweise nicht in Ihren Anrufplan- oder Audiokonferenzabonnements enthalten. Wenn Sie keine Guthaben für Kommunikationen einrichten oder Ihren Benutzern eine Lizenz zuweisen und Minuten für Ihre Organisation auslaufen (je nach Anrufplan, Audiokonferenzplan oder Ihrem Land/Ihrer Region), können diese Benutzer keine Anrufe führen oder sich aus Onlineaudiokonferenzbesprechungen herauswählen.
+Um gebührenfreie Telefonnummern zu verwenden, ist Guthaben für Kommunikationen erforderlich, da diese Anrufe pro Minute abgerechnet werden. Darüber hinaus empfehlen wir, Guthaben für Kommunikationen für Ihre Anrufplan- und Audiokonferenzbenutzer zu erstellen, die in der Lage sein müssen, beliebige **PSTN-Zielpunkte anwählen zu können.** Viele Länder/Regionen sind enthalten, aber einige Ziele sind möglicherweise nicht in Ihren Abonnements für Anrufplan oder Audiokonferenzen enthalten. Wenn Sie kein Guthaben für Kommunikationen einrichten oder Ihren Benutzern eine Lizenz zuweisen und die Minuten für Ihre Organisation (je nach Anrufplan, Audiokonferenzplan oder Land/Region) auslaufen, können diese Benutzer keine Anrufe mehr führen oder aus Onlineaudiokonferenzbesprechungen heraus anrufen.
   
 > [!NOTE]
-> Sie müssen Guthaben für Kommunikationen einrichten und dann jedem Benutzer im **Microsoft 365 Admin Center** Aktive Benutzer eine Lizenz für Guthaben für  >    >  **Kommunikationen zuweisen.** Lizenzen für Guthaben für Kommunikationen werden in der Menge so unbegrenzt angezeigt, wie sie verwendet werden, um jedem Benutzer, dem Sie die Lizenz für Guthaben für Kommunikationen zuweisen, Zugriff auf das Guthaben für Kommunikationen zu gewähren.
+> Sie müssen Guthaben für Kommunikationen einrichten und dann jedem Benutzer im Microsoft 365 **Admin Center** Benutzer, aktive Benutzer, eine Lizenz für  >    >  **Guthaben für Kommunikationen zuweisen.** Lizenzen für Guthaben für Kommunikationen werden als unbegrenzte Menge angezeigt, da sie verwendet werden, um jedem Benutzer, dem Sie die Lizenz für Guthaben für Kommunikationen zuweisen, Zugriff auf den Guthabensaldo für Kommunikationen zu gewähren.
   
-Es wird empfohlen, die Nutzung des PSTN-Diensts Ihrer Organisation sorgfältig auszuwerten, um die optimale Einrichtung für Guthaben für Kommunikationen zu verstehen. Weitere Informationen zu PSTN-Diensten finden Sie unter Häufig gestellte Fragen zu [Telefonsystem](calling-plan-landing-page.md) und Anrufplänen und [Audiokonferenzen.](Audio-Conferencing-common-questions.md)
+Es wird empfohlen, die Nutzung des PSTN-Diensts in Ihrer Organisation sorgfältig auszuwerten, um das beste Setup für Guthaben für Kommunikationen zu verstehen. Weitere Informationen zu PSTN-Diensten finden Sie [Telefonsystem](calling-plan-landing-page.md) häufig gestellte Fragen zu Anrufplänen und [Audiokonferenzen.](Audio-Conferencing-common-questions.md)
   
 Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung** des vorausbezahlten Saldos **ODER** mit einem Betrag für **automatisches Aufladen** ( **empfohlen** ) und einem Mindestsaldo einrichten, der einen Kauf für diesen Aufladungsbetrag auslöst. Anfänglich sollten Sie Beträge für das automatische Aufladen einrichten, mit denen Sie die tatsächliche Nutzung überwachen können und die richtigen Grenzwerte für das automatische Aufladen finden, die Ihren Anforderungen und Ihrem Nutzungsverhalten entsprechen. Überwachen Sie das Guthaben für Kommunikationen im Lauf der Zeit, und passen Sie dann den Mindestsaldo und die Aufladungsbeträge nach Bedarf an die Anforderungen Ihrer Organisation an.
   
 > [!NOTE]
-> Sie können die Pläne und Preise anzeigen, indem Sie sich beim [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anmelden und zu **Abonnements** hinzufügen für  >  **Abrechnungsabonnements**  >  **gehen.** 
+> Sie können die Pläne und Preise anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu Abrechnungsabonnements Hinzufügen von Abonnements [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >    >  **gehen.** 
   
-Im **Microsoft 365 Admin Center**  >    >  **Abrechnungskaufdienste** Add  >  **Ons** können Sie Kommunikationsguthaben auswählen, um die Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option **"Automatisches** Aufladen" aktivieren, die automatische Kontoauffüllungen ermöglicht, wenn der Saldo unter den von Ihnen festgelegten Schwellenwert fällt. Wenn Sie ihren Guthabensaldo für Kommunikationen mit einem Einmalbetrag finanziert haben und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, einschließlich gebührenfreier Telefonnummern. Daher wird empfohlen, die Einstellung  "Automatisches Aufladen" zu verwenden, um Dienstunterbrechungen zu vermeiden, wenn Ihr Guthabenguthaben für Kommunikationen 0 (Null) erreicht. Sie können Ihren aktuellen Guthabensaldo für Kommunikationen anzeigen, indem Sie **zu Abrechnung**  >  **Ihrer Produkte**  >  **Guthaben für Kommunikationen gehen.**
+Im admin **center Microsoft 365**  >    >    >  **Abrechnungskaufdienste hinzufügen können** Sie Guthaben für Kommunikationen auswählen, um das Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option **Automatisches** Aufladen aktivieren, die automatische Kontoaufladungen zu ermöglichen, wenn der Saldo unter den von Ihnen festgelegten Schwellenwert fällt. Wenn Sie sich dafür entscheiden, den Guthabensaldo für Kommunikationen mit einem einmalbetrag zu bezahlen, und der Saldo dann auf null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien (einschließlich gebührenfreier Telefonnummern) nicht mehr. Daher wird empfohlen, die Einstellung  für automatisches Aufladen zu verwenden, um Dienstunterbrechungen zu vermeiden, falls der Guthabensaldo für Kommunikationen 0 (null) erreicht. Sie können Ihren aktuellen Guthabensaldo für Kommunikationen anzeigen, indem Sie **zu Abrechnung**  >  **Ihres Produktes Guthaben**  >  **für Kommunikationen gehen.**
 
 > [!NOTE]
->Sie erhalten E-Mails an **alle Benutzer mit** Lync Service Administrator, Unternehmensadministrator, Abrechnungsadministrator, Unternehmensadministrator, Benutzerkontoadministrator, Helpdeskadministrator, Dienstsupportadministrator, Abrechnungsadministrator, Lync-Dienstadministrator, Geräteadministrator, Anwendungsadministrator, Lizenzadministrator, Cloudgeräteadministrator, Authentifizierungsadministrator, Privilegierter Authentifizierungsadministrator, Teams Communications Administrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Service Administrator Roles, when recharge transactions succeed, recharge transactions fail (such an expired credit card) and your Communications Credits reaches 0 (zero).
+>Sie erhalten E-Mails an **alle Benutzer mit dem** Lync-Dienstadministrator, Unternehmensadministrator, Abrechnungsadministrator, Unternehmensadministrator, Benutzerkontenadministrator, Helpdesk-Administrator, Dienstunterstützungsadministrator, Abrechnungsadministrator, Lync-Dienstadministrator, Geräteadministrator, Anwendungsadministrator, Lizenzadministrator, Cloudgeräteadministrator, Authentifizierungsadministrator, Privilegierte Authentifizierungsadministrator, Teams-Kommunikationsadministrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Administratoradministratorrollen, wenn Transaktionen beim Aufladen erfolgreich waren, Transaktionen aufladen fehlschlagen (z. B. eine abgelaufene Kreditkarte) und oder der Guthabensaldo für Kommunikationen 0 (null) erreicht.
   
-## <a name="communications-credits"></a>Guthaben für Kommunikationen
+## <a name="communications-credits"></a>Kommunikationsguthaben
 
-In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Für Organisationen, die Teams bereits als Dienstanbieter verwenden, können Sie Nutzungsdaten erhalten, indem Sie sie im Microsoft Teams Admin Center > **Analytics & reports** Usage reports überprüfen und dann  >   **PSTN-Nutzung auswählen.**
+In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Organisationen, die Teams bereits als Dienstanbieter verwenden, können Nutzungsdaten erhalten, indem Sie sie im Microsoft Teams Admin Center > **Analytics & reports** Usage reports (Nutzungsberichte) überprüfen und dann  >   **PSTN-Nutzung auswählen.**
   
-Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation prüfen, um die Beträge zu bestimmen, die Sie aufladen müssen. Sie können Informationen zur Anrufnutzung erhalten, indem Sie den Bericht pstN-Nutzung überprüfen. Sie können die Anrufdatensätze aus diesem Bericht nach Excel exportieren und benutzerdefinierte Berichte erstellen.
+Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation prüfen, um die Beträge zu bestimmen, die Sie aufladen müssen. Informationen zur Anrufnutzung finden Sie im Bericht PSTN-Nutzung. Sie können die Anrufdatensätze aus diesem Bericht nach Excel exportieren und benutzerdefinierte Berichte erstellen.
 
-Wichtige Benachrichtigungen im Zusammenhang mit dem Guthabenguthaben für Kommunikationen Ihrer Organisation werden an die folgenden Administratoren gesendet:
+Wichtige Benachrichtigungen im Zusammenhang mit dem Guthabensaldo für Kommunikationen Ihrer Organisation werden an die folgenden Administratoren gesendet:
 
-- Abrechnungsadministrator
+- Rechnungsadministrator
 - Skype for Business-Administrator
 - Unternehmensadministrator
-- Benutzerkontoadministrator
-- Helpdeskadministrator
-- Dienstsupportadministrator
+- Benutzerkontenadministrator
+- Helpdesk-Administrator
+- Service Support-Administrator
 - Geräteadministratoren
 - Anwendungsadministrator
 - Lizenzadministrator
 - Cloudgeräteadministrator
 - Authentifizierungsadministrator
-- Administrator für privilegierte Authentifizierung
+- Privileged Authentication Administrator
 - Teams-Kommunikationsadministrator
 - Teams-Kommunikationssupporttechniker
 - Supportfachmann für die Teams-Kommunikation
-- Teams-Dienstadministrator
+- Teams-Administrator
 
 > [!NOTE]
-> Guthaben für Kommunikationen wird auch für Premiumsatznummern verwendet. Der Anrufer bezahlt die Gebühren.
+> Guthaben für Kommunikationen wird auch für Premium-Preis-Nummern verwendet. Der Anrufer zahlt die Gebühren.
   
 ## <a name="recommended-funding-amounts"></a>Empfohlene Einzahlungsbeträge
 
-Wir empfehlen, zunächst einen kleinen Betrag zu verwenden, der für kleinere Organisationen sogar das Minimum von 50 $ sein kann. Nachdem Sie ein oder zwei Monate der PSTN-Nutzung mithilfe des Berichts "PSTN-Nutzungsdetails" gesammelt haben, können Sie die Beträge so anpassen, dass sie der normalen Nutzung in Ihrer Organisation entsprechen.
+Wir empfehlen, zunächst einen kleinen Geldbetrag zu verwenden, der für kleinere Organisationen sogar den Mindestbetrag von 50 $ beträgt. Nachdem Sie mithilfe des Berichts PSTN-Nutzungsdetails einen oder zwei Monate pstn usage gesammelt haben, können Sie die Beträge so anpassen, dass sie der normalen Nutzung in Ihrer Organisation entsprechen.
   
 Wenn Sie bereit sind, mit der Einrichtung beginnen, lesen Sie [Einrichten von Guthaben für Kommunikationen für Ihre Organisation](set-up-communications-credits-for-your-organization.md).
   
@@ -118,12 +118,12 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-Sie können auch Informationen zu Preisen sehen, indem Sie sich beim [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anmelden und zu   >  **Abrechnungskaufdienste gehen.**
+Sie können auch Informationen zur Preisgestaltung sehen, indem Sie sich beim [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anmelden und zu   >  **Abrechnungskaufsdienste gehen.**
   
-Eine Tabelle mit der Lizenz oder den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Bericht zur Verwendung von Teams PSTN](teams-analytics-and-reports/pstn-usage-report.md)
+[Teams PSTN-Nutzungsbericht](teams-analytics-and-reports/pstn-usage-report.md)
 
   
