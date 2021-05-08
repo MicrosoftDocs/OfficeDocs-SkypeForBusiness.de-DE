@@ -1,5 +1,5 @@
 ---
-title: Aus einer Skype for Business-Besprechung heraus wählen, damit andere Personen daran teilnehmen können
+title: Einwählen aus einer Besprechung Skype for Business, damit andere Personen an der Besprechung teilnehmen können
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,25 +21,27 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164284"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238500"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Aus einer Skype for Business-Besprechung heraus wählen, damit andere Personen daran teilnehmen können
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Einwählen aus einer Besprechung Skype for Business, damit andere Personen an der Besprechung teilnehmen können
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > Informationen zum Wählen von Telefonnummern während einer Team-Besprechung finden Sie unter [Anruf aus einer Besprechung heraus tätigen, damit andere Personen dieser Besprechung beitreten können](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
+Als Besprechungsorganisator können Sie mithilfe der Skype for Business-App einen Anruf aus einer Besprechung herauswählen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
   
-- Sie können nur dann wählen, wenn Sie mit einer Skype for Business-APP an einer Besprechung teilnehmen.
+- Sie können nur dann eine Verbindung aus einer Besprechung herausrufen, wenn Sie mit einer Skype for Business teilnehmen.
     
 - Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
 
-Damit andere Teilnehmer über die Auswahl an den Besprechungen Ihrer Organisation hinzugefügt werden können, muss mindestens ein authentifizierter Benutzer aus der gleichen Organisation wie der Organisator (Ihre Organisation) in der Besprechung anwesend sein, damit andere Teilnehmer über Dial-Out hinzugefügt werden können. 
+Um andere Teilnehmer über eine Auswahl zu den Besprechungen Ihrer Organisation hinzuzufügen, muss mindestens ein authentifizierter Benutzer aus derselben Organisation wie der Organisator (Ihre Organisation) an der Besprechung teilnehmen, um das Hinzufügen weiterer Teilnehmer über eine Auswahl zu ermöglichen. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -54,11 +56,11 @@ Damit andere Teilnehmer über die Auswahl an den Besprechungen Ihrer Organisatio
   
 ## <a name="supported-countries-and-regions"></a>Unterstützte Länder und Regionen
 
-Dial-Out ist nur für einige Länder/Regionen verfügbar. Eine vollständige Liste finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenz-und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Einwählen ist nur in einigen Ländern/Regionen verfügbar. Eine vollständige Liste finden Sie unter Verfügbarkeit von Ländern [und Regionen für Audiokonferenzen und Anrufpläne.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
 
-[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Lizenzierung des Skype for Business-Add-Ons](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

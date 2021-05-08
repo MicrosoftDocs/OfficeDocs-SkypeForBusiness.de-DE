@@ -1,5 +1,5 @@
 ---
-title: Der Skype for Business Online-Service Plan des Benutzers ist nicht gültig
+title: Der Online-Skype for Business des Benutzers ist ungültig
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,19 +20,21 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: 'Informieren Sie sich, wo Sie einen gültigen Service Plan für einen Benutzer zuweisen können, nachdem ein Skype for Business Online-Service Plan keinen gültigen Fehler aufweist. '
-ms.openlocfilehash: a3f7ac1a0816845b24d8580f63165b73ea9c99e9
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Hier erfahren Sie, wo Sie einen gültigen Serviceplan für einen Benutzer zuweisen, nachdem ein Skype for Business Online-Serviceplan ungültig ist Fehler. '
+ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769578"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239468"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Der Skype for Business Online-Service Plan des Benutzers ist nicht gültig
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Der Online-Skype for Business des Benutzers ist ungültig
 
-Der diesem Nutzer zugewiesene Skype for Business Online-Service Plan wird leider nicht erkannt oder ist ungültig.
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Der diesem Benutzer Skype for Business Online-Dienstplan wird leider nicht erkannt oder ist ungültig.
   
-Wechseln Sie zum *Microsoft 365 Admin Center** #a0 **aktive Benutzer** , und weisen Sie diesem Benutzer einen gültigen Service Plan zu.
+Wechseln Sie zum *Microsoft 365 Admin Center** > aktive **Benutzer,** und weisen Sie diesem Benutzer einen gültigen Serviceplan zu.
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

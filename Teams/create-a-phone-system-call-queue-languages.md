@@ -1,5 +1,5 @@
 ---
-title: Unterstützte Sprachen für Anrufwarteschleifen in Microsoft Teams
+title: Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Unterstützte Sprachen für Anrufwarteschleifen in Microsoft Teams
+description: Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
 ms.openlocfilehash: 0d5e587c8a90c11a2b6b3234a98510101e2cb94c
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,9 +29,9 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197083"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Unterstützte Sprachen für Anrufwarteschleifen in Microsoft Teams
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
 
-Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text-zu-Sprache (TTS):
+Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text zu Sprache (TTS):
 
 |Sprache                                |
 |:---------------------------------------|
@@ -41,7 +41,7 @@ Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text-zu-Sprache 
 |Chinesisch (traditionell, Hongkong)        |
 |Chinesisch (traditionell, Taiwan)           |
 |Kroatisch (Kroatien)                      |
-|Tschechisch (Czeck- Republik)                  |
+|Tschechisch (Czeck-Republik)                  |
 |Dänisch (Dänemark)                        |
 |Niederländisch (Niederlande)                     |
 |Englisch (Australien)                     |
@@ -75,4 +75,4 @@ Die Anrufwarteschleife unterstützt die folgenden Sprachen für Text-zu-Sprache 
 |Vietnamesisch (Vietnam)                    |
 
 > [!NOTE]
-> Bei Verwendung von "Text in Sprache" muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung vor führt.
+> Wenn Sie Text in Sprache verwenden, muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung vorn ermöglicht.

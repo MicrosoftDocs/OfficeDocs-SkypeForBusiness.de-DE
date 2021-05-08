@@ -18,22 +18,24 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Laden Sie skype for Business Online Connector herunter, installieren Sie ihn, und verwenden Sie ihn dann, um eine Remotesitzung Windows PowerShell zu erstellen, die eine Verbindung mit Skype for Business Online herstellt.
-ms.openlocfilehash: 0e00b9dd18b04deaf3d2123de1fa9609040c4e2f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Laden Sie den Skype for Business Online Connector herunter, installieren Sie ihn, und verwenden Sie ihn dann, um eine Remote-Windows PowerShell-Sitzung zu erstellen, die eine Verbindung mit Skype for Business Online herstellt.
+ms.openlocfilehash: e9429b385f83f6b76e211614f953f7d439df524e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097201"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238866"
 ---
 # <a name="download-and-install-the-teams-powershell-module"></a>Herunterladen und Installieren des Teams PowerShell-Moduls
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 > [!NOTE]
 
-> Die neueste öffentliche Version von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für die Verwaltung von Teams und Skype for Business Online PowerShell zur Verfügung.
+> Die neueste [Teams PowerShell Public Release](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für Teams und Skype for Business Online-PowerShell-Verwaltung zur Verfügung.
 
 
-1. Installieren Sie [das Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
+1. Installieren Sie [Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
     
 2. Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
 
@@ -43,7 +45,7 @@ ms.locfileid: "51097201"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Herstellen einer Verbindung mit allen [Microsoft 365- oder Office 365-Diensten in](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) einem einzigen Windows PowerShell-Fenster oder Einrichten Ihres Computers [für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Verbinden für alle [Microsoft 365-](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) oder Office 365-Dienste in einem einzigen Windows PowerShell-Fenster oder Einrichten des Computers [für Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten Ihres Computers für skype for business online management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Einrichten Ihres Computers für die Onlineverwaltung in Skype for Business mithilfe Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

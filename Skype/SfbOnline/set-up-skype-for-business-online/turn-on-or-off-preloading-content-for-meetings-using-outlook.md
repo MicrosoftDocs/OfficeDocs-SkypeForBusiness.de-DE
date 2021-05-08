@@ -18,20 +18,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Erfahren Sie, wie Sie vorab geladene Inhalte für Skype for Business-Besprechungen mithilfe von Dateien oder Anlagen in einer Outlook-Besprechungseinladung aktivieren oder deaktivieren. '
-ms.openlocfilehash: ff0603ca68f4e828fc3b6977065ac9ec3ca6a33d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Erfahren Sie, wie Sie vorab geladene Inhalte für Besprechungen Skype for Business mithilfe von Dateien oder Anlagen in einer Besprechungseinladung Outlook aktivieren oder deaktivieren. '
+ms.openlocfilehash: b6ff40e34c6459a75d0b79a8d750902a3457e00d
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103801"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239108"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Das Vorab-Laden von Inhalten für Besprechungen mit Outlook ein- oder ausschalten
 
-Benutzer können Inhalte, Dateien oder Anlagen, die an eine Outlook-Besprechungseinladung angefügt sind, vorab in eine Skype for Business Online-Besprechung laden, aber Sie können sie aktivieren oder deaktivieren. Sie ist standardmäßig für alle Organisationen aktiviert, die Skype for Business Online verwenden. Erfahren Sie, wie [Sie Anlagen für eine Skype for Business-Besprechung vorab laden.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Benutzer können Inhalte, Dateien oder Anlagen, die an eine Outlook-Besprechungseinladung angefügt sind, im Voraus in eine Skype for Business-Onlinebe besprechung laden, aber Sie können sie aktivieren oder deaktivieren. Sie ist standardmäßig für alle Organisationen aktiviert, die online Skype for Business verwenden. Informationen zum [Vorabladen von Anlagen für eine Skype for Business Besprechung.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)
   
 > [!NOTE]
-> Derzeit sind in Skype for Business Online keine Cmdlets zum Festlegen oder Anzeigen von Onlinewerten für _MaxContentStorageMB_ und _MaxUploadFileMB verfügbar._ Sie sind nur für Bereitstellungen vor Ort verfügbar. Es ist wichtig zu wissen, dass Inhalte nicht in eine Besprechung hochgeladen werden, wenn der angefügte Inhalt den  _MaxUploadFileSizeMB-Wert_ überschreitet oder wenn das _MaxContentStorageMB-Limit_ erreicht ist.
+> Derzeit sind in Skype for Business Online keine Cmdlets zum Festlegen oder Anzeigen von Onlinewerten für _MaxContentStorageMB_ und _MaxUploadFileMB verfügbar._ Sie sind nur für Bereitstellungen vor Ort verfügbar. Es ist wichtig zu wissen, dass Inhalte nicht in eine Besprechung hochgeladen werden, wenn der angefügte Inhalt  _MaxUploadFileSizeMB_ überschreitet oder der _Grenzwert MaxContentStorageMB_ erreicht ist.
   
 ## <a name="to-get-you-started"></a>Erste Schritte
 
@@ -39,7 +41,7 @@ Benutzer können Inhalte, Dateien oder Anlagen, die an eine Outlook-Besprechungs
 
 > [!NOTE]
 > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams. Wenn Sie die neueste Version von Teams PowerShell verwenden, müssen Sie den Skype for Business Online-Connector nicht installieren.
-1. Installieren Sie [das Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
+1. Installieren Sie [Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
     
 2. Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
 
@@ -51,14 +53,14 @@ Benutzer können Inhalte, Dateien oder Anlagen, die an eine Outlook-Besprechungs
    Connect-MicrosoftTeams -Credential $userCredential
    ```
 
-Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Herstellen einer Verbindung mit allen [Microsoft 365- oder Office 365-Diensten in](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) einem einzigen Windows PowerShell-Fenster oder Einrichten Ihres Computers [für Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Verbinden für alle [Microsoft 365-](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) oder Office 365-Dienste in einem einzigen Windows PowerShell-Fenster oder Einrichten des Computers [für Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="turning-it-on-or-off"></a>Aktivieren oder Deaktivieren dieser Funktion
 
-Die Möglichkeit zum Vorabladen von Inhalten, die an eine Outlook-Besprechungseinladung angefügt sind, in Skype for Business Online-Besprechungen ist standardmäßig aktiviert. Möglicherweise müssen Sie jedoch verhindern, dass Benutzer in Ihrer Organisation Inhalte in ihren Besprechungen vorab laden.
+Die Möglichkeit zum Vorabladen von Inhalten, die an eine Outlook-Besprechungseinladung angefügt sind, in Skype for Business-Onlinebesprechungen ist standardmäßig aktiviert. Möglicherweise müssen Sie jedoch verhindern, dass Benutzer in Ihrer Organisation Inhalte in ihren Besprechungen vorab laden.
   
 > [!IMPORTANT]
-> Diese Einstellung kann nur für Ihre gesamte Organisation aktiviert oder deaktiviert werden. Sie können sie nicht für einen einzelnen Benutzer aktivieren oder deaktivieren. 
+> Diese Einstellung kann nur für Die gesamte Organisation ein- oder ausgeschaltet werden. sie für einen einzelnen Benutzer nicht ein- oder ausgeschaltet werden können. 
   
  **Um die Funktion zu deaktivieren, öffnen Sie Windows PowerShell und führen Sie die folgenden Schritte aus:**
   
@@ -74,15 +76,15 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Sechs Gründe, warum Sie microsoft Windows PowerShell Office 365 oder Office 365 verwalten möchten](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Sechs Gründe für die Verwendung von Windows PowerShell zum Verwalten von Microsoft 365 oder Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Centers viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

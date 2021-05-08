@@ -18,15 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Verwenden Sie Get-CsOnlineUser cmdlet in Windows PowerShell, um Informationen zu den Skype for Business Online-Benutzern Ihrer Organisation zu erhalten.
-ms.openlocfilehash: a4675bdb438dd81f9c72aa743134f9a444f0d1f9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Verwenden Sie Get-CsOnlineUser-Cmdlet in Windows PowerShell, um Informationen über die Onlinebenutzer Ihrer Skype for Business Organisation zu erhalten.
+ms.openlocfilehash: aec79f589f6b1fb0c9d38fd4bc70421b30f66a56
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113151"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238721"
 ---
 # <a name="manage-user-accounts"></a>Verwalten von Benutzerkonten
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ## <a name="manage-user-accounts"></a>Verwalten von Benutzerkonten
 
@@ -116,4 +118,4 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten Ihres Computers für skype for business online management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Einrichten Ihres Computers für die Onlineverwaltung in Skype for Business mithilfe Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

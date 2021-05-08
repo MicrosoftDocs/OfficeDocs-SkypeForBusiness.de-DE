@@ -1,5 +1,5 @@
 ---
-title: Tools & – Planen, Bereitstellen, & Übernehmen von Teams
+title: Tools & Workshops – Planen, Liefern, & Einführung Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -29,24 +29,24 @@ Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und E
 
 - [Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)
 
-    Dieses Kit enthält eine breite Palette von Präsentationen, E-Mail-Vorlagen, Tipps & Tricks und Postern, die Sie zum Rollout und zur Einführung von Teams in Ihrer Organisation verwenden können. Es enthält zwei Schnellstarthandbücher für Administratoren und Teamleiter sowie Fallbeispiele für jede Abteilung. Verwenden Sie diese Ressourcen, um Teams für verschiedene Funktionen in Ihrer Organisation wie Marketing, Vertrieb, Finanzen, Personalwesen, IT, Engineering und Projektmanagement zu nutzen.
+    Dieses Kit enthält eine Breite Palette von Präsentationen, E-Mail-Vorlagen, Tipps & Tricks und Postern, mit deren Teams Sie die Einführung in Ihre Organisation treiben können. Sie enthält zwei Schnellstarthandbücher für Administratoren und Teamleiter sowie Fallbeispiele für jede Abteilung. Nutzen Sie diese Ressourcen, um das Teams für verschiedene Funktionen in Ihrer Organisation, einschließlich Marketing, Vertrieb, Finanzen, Personalwesen, IT, Technik und Project zu nutzen.
 
 - [Bereitstellen von Teams](./deploy-overview.md)
 
-    Folgen Sie unserem empfohlenen Weg zum Roll out von Teams.
+    Folgen Sie dem empfohlenen Pfad zum Teams.
 
 
-- [Technische Schulungen für Teams erhalten](itadmin-readiness.md)
+- [Schulung Teams technischen Schulungen](itadmin-readiness.md)
 
-    Verwenden Sie diese technischen Schulungsressourcen, um sich zu informieren, andere zu unterrichten oder Workshops zu führen.
+    Nutzen Sie diese technischen Schulungsressourcen, um sich zu informieren, andere zu unterrichten oder Workshops zu führen.
 
-- [Office 365 Government-Kunden](plan-for-government-gcc.md)
+- [Office 365 Government Kunden](plan-for-government-gcc.md)
 
-   Ihre Reise zu Teams ist ähnlich wie die Erfahrung unserer Unternehmenskunden. Da Teams für Ihre Mandanten allgemein verfügbar wird, empfehlen wir Ihnen, mit unserem Artikel ["Plan für Microsoft 365 Government – GCC-Bereitstellungen"](plan-for-government-gcc.md) und dem Schnellstarthandbuch für Administratoren [zu beginnen.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Unsere [Übersicht über Sicherheit und Compliance](security-compliance-overview.md) hilft Ihnen, sich bei Teams in Ihrer Umgebung sicher zu fühlen.
+   Ihre Reise zu Teams ist der Erfahrung unserer Unternehmenskunden sehr ähnlich. Sobald Teams für Ihre Mandanten allgemein verfügbar wird, empfehlen wir Ihnen, mit unserem Artikel Plan [für Microsoft 365 Government – GCC-Bereitstellungen](plan-for-government-gcc.md) und dem Schnellstarthandbuch für Administratoren zu [beginnen.](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Unsere [Übersicht über Sicherheit und Compliance](security-compliance-overview.md) hilft Ihnen, sich Teams In Ihrer Umgebung vertraut zu fühlen.
 
-- [Teams for Education – Schnellstart für Administratoren](./teams-quick-start-edu.yml)
+- [Teams Für Bildungseinrichtungen – Schnellstart für Administratoren](./teams-quick-start-edu.yml)
 
-    In diesem Lernprogramm können Sie durch ein Rollout von Teams für Ihre Bildungsorganisation gehen.
+    Dieses Lernprogramm enthält Eine Einführung in Teams Bildungsorganisation.
 
 ### <a name="see-also"></a>Mehr dazu
 
@@ -54,9 +54,9 @@ Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und E
 
 [Bereitschaft von IT-Administratoren für Teams](ITAdmin-readiness.md)
 
-[Tools für die Einführung](adopt-tools-and-downloads.md)
+[Tools für die Akzeptanz](adopt-tools-and-downloads.md)
 
-[Skype for Business to Teams Upgrade Planning Workshop](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Skype for Business zum Teams Upgradeplanungsworkshop](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

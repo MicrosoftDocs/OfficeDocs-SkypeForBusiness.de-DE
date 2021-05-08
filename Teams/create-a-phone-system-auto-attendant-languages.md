@@ -1,5 +1,5 @@
 ---
-title: Unterstützte Sprachen der automatischen Microsoft Teams-Attendant
+title: Microsoft Teams von der automatischen Attendant unterstützten Sprachen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Unterstützte Sprachen der automatischen Microsoft Teams-Attendant
+description: Microsoft Teams von der automatischen Attendant unterstützten Sprachen
 ms.openlocfilehash: 8a55b1613aaf1c14989d1626966ca6051d7015d9
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,9 +29,9 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197090"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Unterstützte Sprachen der automatischen Microsoft Teams-Attendant
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams von der automatischen Attendant unterstützten Sprachen
 
-Die automatische Attendant unterstützt die folgenden Sprachen für Text-zu-Sprache (TTS) und Spracherkennung:
+Die automatische Attendant unterstützt die folgenden Sprachen für Text zu Sprache (TTS) und Spracherkennung:
 
 |Sprache                                |Text-zu-Sprache (TTS)     |Spracherkennung                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
@@ -41,7 +41,7 @@ Die automatische Attendant unterstützt die folgenden Sprachen für Text-zu-Spra
 |Chinesisch (traditionell, Hongkong)        |J                        |                                       |
 |Chinesisch (traditionell, Taiwan)           |J                        |                                       |    
 |Kroatisch (Kroatien)                      |J                        |                                       |    
-|Tschechisch (Czeck- Republik)                  |J                        |                                       |    
+|Tschechisch (Czeck-Republik)                  |J                        |                                       |    
 |Dänisch (Dänemark)                        |J                        |                                       |    
 |Niederländisch (Niederlande)                     |J                        |                                       |    
 |Englisch (Australien)                     |J                        |J                                      |
@@ -75,7 +75,7 @@ Die automatische Attendant unterstützt die folgenden Sprachen für Text-zu-Spra
 |Vietnamesisch (Vietnam)                    |J                        |                                       |    
 
 > [!NOTE]
-> Wenn Sie eine Sprache auswählen, die die Spracherkennung nicht unterstützt, wird die Option für Spracheingaben im Menü deaktiviert, und die Namensanwahl ist auf die Verwendung der Wähltastatur (MFV) beschränkt. Weitere Informationen finden Sie im Eintrag "Namenswahl [– Wähltastatur (MFV)".](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)
+> Wenn Sie eine Sprache auswählen, die die Spracherkennung nicht unterstützt, wird die Option für Spracheingaben im Menü deaktiviert, und Namensanrufe sind nur über die Wähltastatur (MFV) möglich. Weitere Informationen finden Sie [unter MFV-Eintrag (Dial by Name - Keypad).](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)
 
 > [!NOTE]
-> Wenn Sie "Text in Sprache" verwenden, muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung vor führt.
+> Wenn Sie Text in Sprache verwenden, muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung vorn ermöglicht.

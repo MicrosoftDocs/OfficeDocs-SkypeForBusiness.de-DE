@@ -18,21 +18,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Erfahren Sie, wie Sie Probleme für Administratoren und Benutzer von Skype for Business in Microsoft 365 und Office 365 beheben.
-ms.openlocfilehash: b9186064cab1932d34c49c2ed0d48bde2ce88787
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erfahren Sie, wie Sie Probleme für Administratoren und Benutzer von Skype for Business in Microsoft 365 und Office 365.
+ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109901"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239414"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Behandeln von Problemen mit Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Manchmal funktioniert nicht alles wie erwartet. Hier finden Sie eine Liste von Themen, die Ihnen bei der Behebung von Problemen helfen. Dabei spielt es keine Rolle, ob Sie Administrator für Skype for Business Online sind oder Ihren Benutzern beim Lösen ihrer Probleme helfen.
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Beheben von Administrator-Problemen in Skype for Business Online
 
-Antworten auf die meisten Ihrer Skype for Business Online-Fragen finden Sie im Artikel Überprüfen auf häufige Ursachen von [Skype for Business Online-Anmeldefehlern.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) Der folgende KB-Artikel enthält außerdem viele Problembehandlungsressourcen und Fehlercodeverweise: [Problembehandlung bei Skype for Business Online-Anmeldefehlern für Administratoren.](./troubleshooting-sign-in-errors-for-admins.md)
+Antworten auf die meisten Ihrer Fragen zu Skype for Business Online finden Sie im Artikel Überprüfen auf häufige Ursachen [Skype for Business Online-Anmeldefehlern.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) Der folgende KB-Artikel enthält außerdem viele Problembehandlungsressourcen und Fehlercodeverweise: [Problembehandlung Skype for Business Online-Anmeldefehlern für Administratoren.](./troubleshooting-sign-in-errors-for-admins.md)
 
 Informationen zu Problemen bei Einwahlkonferenzen finden Sie unter [Problembehandlung und bekannte Probleme bei Audiokonferenzen](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
@@ -75,9 +77,9 @@ Die meisten Probleme, die für Skype for Business Online-Benutzer auftreten, sin
 ## <a name="still-need-help-contact-support"></a>Benötigen Sie weitere Hilfe? Kontaktieren Sie den Support.
 <a name="BK_SupportBridge_1"> </a>
 
-Als Administrator für Microsoft 365-Apps für Unternehmen erhalten Sie kostenlosen Zugriff auf unsere kundigen Supportmitarbeiter für den Vorabverkauf, Konto- und Abrechnungssupport sowie für Die Lösung technischer Probleme. Sie können den [Support auch](/microsoft-365/Admin/contact-support-for-business-products) im Auftrag von Microsoft 365- und Office 365-Benutzern in Ihrer Organisation kontaktieren.
+Als Administrator für Microsoft 365 Apps for Business haben Sie kostenlosen Zugriff auf unsere wissenden Supportmitarbeiter, die Ihnen beim Beheben technischer Probleme vor dem Kauf, bei Ihrem Konto und bei der Abrechnung helfen. Sie können den [Support auch](/microsoft-365/Admin/contact-support-for-business-products) im Namen ihrer Microsoft 365 und Office 365 in Ihrer Organisation kontaktieren.
 
-- [Hilfe aus den Microsoft 365- und Office 365-Communityforen erhalten](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Hilfe in den Microsoft 365 und Office 365-Communityforen](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [Administratoren: Rufen Sie den Support an](/microsoft-365/Admin/contact-support-for-business-products)
 

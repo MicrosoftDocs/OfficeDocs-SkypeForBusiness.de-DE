@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Skype for Business Online-Organisationen
+title: Verwalten Skype for Business Online-Organisationen
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,39 +18,41 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Verwenden Windows PowerShell- und Get-CsTenant-cmdlets Get-CsTenantLicensingConfiguration, um Informationen zu Ihrem Skype for Business Online-Mandanten zu erhalten.
-ms.openlocfilehash: ed15d062bf4f2e5f2ad0f47169ac0626d2c59d20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Verwenden Windows PowerShell- und Get-CsTenant- und Get-CsTenantLicensingConfiguration-Cmdlets, um Informationen zu Ihrem Skype for Business Online-Mandanten zu erhalten.
+ms.openlocfilehash: 2fa95bf8997dd0aff7271b1383c69d9b27c4f4a9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113181"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238785"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a>Verwalten von Skype for Business Online-Organisationen
+# <a name="manage-skype-for-business-online-organizations"></a>Verwalten Skype for Business Online-Organisationen
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
-> Die neueste version der öffentlichen Version von [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für die Verwaltung von Teams PowerShell zur Verfügung.
+> Die neueste [Teams PowerShell Public Preview Release](https://www.powershellgallery.com/packages/MicrosoftTeams/) ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für Teams PowerShell-Verwaltung zur Verfügung.
 
-Informationen zu Ihrem Skype for Business Online-Mandanten finden Sie über die **Cmdlets Get-CsTenant** und **Get-CsTenantLicensingConfiguration.**
+Informationen zu Ihrem Skype for Business Online-Mandanten finden Sie mithilfe der **Cmdlets Get-CsTenant** und **Get-CsTenantLicensingConfiguration.**
   
-## <a name="manage-skype-for-business-online-tenants"></a>Verwalten von Skype for Business Online-Mandanten
+## <a name="manage-skype-for-business-online-tenants"></a>Verwalten Skype for Business Online-Mandanten
 
-Um Informationen zu Ihrem Skype for Business Online-Mandanten zurückzukehren, rufen Sie [das Get-CsTenant-Cmdlet](/powershell/module/skype/Get-CsTenant) ohne zusätzliche Parameter auf.
+Rufen Sie das [Cmdlet Get-CsTenant](/powershell/module/skype/Get-CsTenant) ohne zusätzliche Parameter auf, um Informationen zu Ihrem Skype for Business Online-Mandanten zurückzukehren.
   
 ```PowerShell
 Get-CsTenant
 ```
 
-Verwenden Sie diesen Befehl, um nur den Namen und die ID des Mandanten zurückzukehren.
+Wenn Sie nur den Mandantennamen und die Id zurückgeben möchten, verwenden Sie diesen Befehl.
   
 ```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-Der Wert des _Parameters TenantID_ ist erforderlich, wenn Cmdlets wie [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) und [Set-CsTenantFederationConfiguration ausgeführt werden.](/powershell/module/skype/Set-CsTenantFederationConfiguration)
+Der Wert des _Parameters TenantID_ ist erforderlich, wenn Sie Cmdlets wie [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) und [Set-CsTenantFederationConfiguration ausführen.](/powershell/module/skype/Set-CsTenantFederationConfiguration)
   
-Wenn Sie Informationen dazu finden möchten, ob Lizenzierungsinformationen für den angegebenen Mandanten im Skype for Business Online Admin Center verfügbar sind, verwenden Sie das [Cmdlet Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
+Informationen dazu, ob Lizenzierungsinformationen für den angegebenen Mandanten im Skype for Business Online Admin Center verfügbar sind, finden Sie im [Cmdlet Get-CsTenantLicensingConfiguration.](/powershell/module/skype/Get-CsTenantLicensingConfiguration)
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten Ihres Computers für skype for business online management mithilfe von Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Einrichten Ihres Computers für die Onlineverwaltung in Skype for Business mithilfe Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

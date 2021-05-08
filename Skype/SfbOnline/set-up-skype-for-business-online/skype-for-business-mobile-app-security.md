@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, wie Sie die Sicherheit mobiler Apps für Ihre Benutzer einrichten. '
-ms.openlocfilehash: d599542970cec5aa4206f29d3ff7fa27ce36e9a0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f600230574b8d16a0f7907b4484da8ffcca6124e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109951"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239632"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Sicherheit der mobilen App von Skype for Business
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ## <a name="skype-for-business-client-security"></a>Skype for Business Client-Sicherheitstabelle
 
@@ -39,7 +41,7 @@ Dieser Artikel beinhaltet Informationen zur Datenverschlüsselung für mobile Sk
 |**iOS** <br/> |Der Benutzername bzw. das Kennwort werden in der Schlüsselkette NICHT verschlüsselt. Die Schlüsselkette selbst wird jedoch verschlüsselt.  <br/> |Wir verwenden bereits das [NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica)-Datenschutzkennzeichen für alle Dateien im App-Speicher. Das heißt, dass alle Dateien im App-Speicher verschlüsselt sind, bis ein Benutzer das Gerät zum ersten Mal nach dem Neustart des Geräts entschlüsselt.<br/> |Diese Informationen sind nicht verschlüsselt.  <br/> |
 |**Windows Phone** <br/> |Windows Phone verwendet die DPAPI (Data Protection API) in Windows zum Sichern von Kennwörtern. Ich glaube, dass AES das verwendete Verschlüsselungsschema ist. Windows bietet keine Option zum Konfigurieren der Schlüsselgröße (oder des Schemas). Die Einstellungen werden also von DPAPI vorgegeben. Ich verwende das Geräte-TPM, um die für den Benutzer und das Gerät spezifischen Schlüssel zu sichern. Beachten Sie, dass DPAPI-Schlüssel nicht App-spezifisch sind.  <br/> |WP-App-Daten werden wie die Anmeldeinformationen mit [DPAPI](/previous-versions/windows/apps/hh487164(v=vs.105)) geschützt. Je nach gewünschter Detailebene werden einige der Indexinformationen für die App-Daten durch die AES-Verschlüsselung (nicht-DPAPI) geschützt, um die Verwendung zusätzlicher Anhänge zu vermeiden. Dadurch ist eine Suche ohne Entschlüsselung möglich und der Schlüssel wird im Gegenzug durch DPAPI geschützt. Gecachte Daten können von jedem Prozess über dasselbe Telefon gelesen werden (vorausgesetzt, der Datenordner wird erreicht). Windows-Verschlüsselung schützt nicht vor Sandbox-Angriffen, nur vor externen Zugriffsversuchen.<br/> |Diese Informationen sind nicht verschlüsselt.  <br/> |
    
-**Hinweis:** In dieser öffentlichen [Dokumentation finden](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) Sie Informationen zur Erzwingung von Gerätepins, die auf jeder der oben genannten Mobile-Plattformen verfügbar sind.
+**Hinweis:** Informationen zur [Erzwingung von Geräte-PIN](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) finden Sie in dieser öffentlichen Dokumentation zu den oben genannten mobilen Plattformen.
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

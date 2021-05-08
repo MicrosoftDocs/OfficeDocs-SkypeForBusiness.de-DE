@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Philippinen verfügbar sind.
+description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Philippinen verfügbar.
 ms.openlocfilehash: 2d83918dcfb6d6c990938cbf4b79f559dd29a39b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51115685"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Philippinen verfügbar sind.
+Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Philippinen verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

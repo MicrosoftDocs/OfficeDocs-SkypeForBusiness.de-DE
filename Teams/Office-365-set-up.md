@@ -1,5 +1,5 @@
 ---
-title: Aktivieren von Teams in Microsoft 365 oder Office 365
+title: Aktivieren sie Teams-Mail-Microsoft 365-Office 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Erfahren Sie, wie Sie Microsoft Teams für Ihre Microsoft 365- oder Office 365-Organisation aktivieren, Benutzerlizenzen zuweisen, um den individuellen Zugriff zu steuern, und Inhaltsquellen zulassen oder blockieren.
+description: Erfahren Sie, wie Microsoft Teams für Ihre Microsoft 365- oder Office 365-Organisation aktivieren, Benutzerlizenzen zuweisen, um den individuellen Zugriff zu steuern, und Inhaltsquellen zulassen oder blockieren.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -39,7 +39,7 @@ Als Administrator für Ihre Organisation können Sie Benutzerlizenzen für die S
 
 
  
-Weitere Informationen zum Verwalten einzelner Lizenzen finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description). 
+Weitere Informationen zum Verwalten einzelner Lizenzen finden Sie unter [Microsoft Teams Dienstbeschreibung.](/office365/servicedescriptions/teams-service-description) 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Aktivieren oder Deaktivieren von Microsoft Teams für die gesamte Organisation 

@@ -19,16 +19,18 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Informieren Sie sich über die Anforderungen für die Remoteverwaltung von Skype for Business Online über Windows PowerShell, einschließlich unterstützter Betriebssysteme.
-ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113141"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238711"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Einrichten Ihres Computers für Windows PowerShell
 
-Die Remoteverwaltung von Skype for Business Online mithilfe von Microsoft PowerShell wird nur auf 64-Bit-Computern mit einem der folgenden Betriebssysteme unterstützt:
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Die Remoteverwaltung Skype for Business Online mithilfe von Microsoft PowerShell wird nur auf 64-Bit-Computern unterstützt, auf denen eines der folgenden Betriebssysteme ausgeführt wird:
 
 - Windows Server 2016
 
@@ -58,9 +60,9 @@ Informationen zum Herunterladen und Installieren dieser Elemente finden Sie in d
     
 - [Herunterladen und Installieren von Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
-- [Verwalten von Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [Verwalten Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
 ## <a name="related-topics"></a>Verwandte Themen
-[Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online Connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
+[Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

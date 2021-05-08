@@ -18,21 +18,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Lernen Sie Zeit zu sparen, Anrufe zu unterstützen und die Zufriedenheit zu erhöhen, indem Sie Testkonten und-Computer einrichten sowie Einwahlkonferenzen, Online Funktionen wie Anrufe zwischen Personen, Konferenzgespräche und Anmeldungen und Abmelden testen. '
-ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'Erfahren Sie, wie Sie Zeit sparen, Anrufe unterstützen und die Zufriedenheit erhöhen können, indem Sie Testkonten und Computer einrichten und Einwahlkonferenzen, Onlinefeatures wie Anrufe zwischen zwei Personen, Konferenzen sowie An- und Abmelden testen. '
+ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164294"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239516"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Sie können Zeit sparen, die Zahl der Supportanrufe reduzieren und die Akzeptanz seitens der Benutzer steigern, indem Sie Ihre Skype for Business Online-Installation testen, bevor Sie sie für jedermann in der Organisation einrichten.
 
 Nachstehend die Voraussetzungen:
 
-- Mindestens drei Microsoft 365-oder Office 365-Konten (Ihre und mindestens zwei weitere).
+- Mindestens drei Microsoft 365 oder Office 365 (Ihr Konto und mindestens zwei weitere Konten).
 
 - Computer zum Testen der einzelnen Konten. Richten Sie die Computer so ein, wie ein normaler Computer in Ihrer Organisation eingerichtet würde.
 
@@ -51,7 +53,7 @@ Nachstehend die Voraussetzungen:
 ## <a name="set-up-test-accounts"></a>Einrichten von Testkonten
 <a name="__toc328126910"> </a>
 
-1. Wechseln Sie zu **Administrator** > **Microsoft 365** oder **Office 365** > -**Benutzer und-Gruppen**, und![wählen](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) Sie dann Add Add aus, und geben Sie die erforderlichen Informationen ein.
+1. Wechseln Sie **zu Administrator** Microsoft 365 oder Office 365 Benutzer und Gruppen , und wählen Sie dann Hinzufügen Hinzufügen aus, und geben Sie  >   die erforderlichen Informationen   >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) ein.
 
 2. Wenn Sie zu Schritt 4 (E-Mail) gelangen, geben Sie Ihre eigene E-Mail-Adresse ein. Sie besitzen dann einen Eintrag für den Namen und das Kennwort des neuen Benutzers.
 
@@ -62,7 +64,7 @@ Nachstehend die Voraussetzungen:
 
 Auf jedem Testcomputer:
 
-1. Wechseln Sie zur Startseite von Microsoft 365 oder Office 365, und melden Sie sich mit den Anmeldeinformationen eines ihrer Testkonten an.
+1. Wechseln Sie zur Microsoft 365-Office 365-Startseite, und melden Sie sich mit den Anmeldeinformationen eines Ihrer Testkonten an.
 
 2. Wechseln Sie zu **Einstellungen**![Einstellungen: Profil aktualisieren, Software installieren und mit der Cloud verbinden](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), und klicken Sie dann auf **Software installieren und mit der Cloud verbinden**.
 
@@ -79,7 +81,7 @@ Nachdem Sie die Benutzer für Audiokonferenzen eingerichtet haben, erhalten sie 
 
  **So fügen Sie dem Konto eines Ihrer Testbenutzer Audiokonferenzinformationen hinzu**
 
-1. Klicken Sie auf **Audiokonferenz** > -**Benutzer**.
+1. Klicken **Sie auf Benutzer für Audiokonferenzen**  >  .
 
 2. Klicken Sie auf die Namen der Benutzer, für die Sie Einwahlkonferenzen einrichten möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeiten](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 
@@ -114,7 +116,7 @@ Sie können sich nicht anmelden? Weitere Informationen finden Sie unter [Behebun
 |[Senden einer Chatnachricht in Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Das Skype for Business-Unterhaltungsfenster wird angezeigt, Sie geben etwas ein und empfangen eine Antwort von der Person, mit der Sie sich in Verbindung gesetzt haben.  <br/> |
 |[Senden einer Chatnachricht in Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Das Skype for Business-Unterhaltungsfenster wird angezeigt, Sie machen eine Eingabe und erhalten Antworten von allen Teilnehmern der Unterhaltung.  <br/> |
 |[Suchen nach einem Kontakt anhand des Vor- oder Nachnamens](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Die Anzeige der Suchergebnisse beginnt, sobald Sie mit der Eingabe beginnen.  <br/> |
-|[Häufig gestellte Fragen zu lync für Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Der hinzugefügte Kontakt wird in der von Ihnen ausgewählten Gruppe „Kontakte" angezeigt.  <br/> |
+|[Häufig gestellte Fragen (FAQ) zu Lync Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Der hinzugefügte Kontakt wird in der von Ihnen ausgewählten Gruppe „Kontakte" angezeigt.  <br/> |
 |[Ändern Ihres Anwesenheitsstatus in Skype for Business (Lync)](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Ihr neuer Anwesenheitsstatus wird in den Kontaktlisten der anderen Teilnehmer angezeigt.  <br/> |
 |[Verwenden der Visitenkarte](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |Die Visitenkarte einer Person wird neben ihrem Namen angezeigt.  <br/> |
 

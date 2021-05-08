@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Erfahren Sie mehr über Teams-Anwendungsrichtlinien.
+description: Erfahren Sie mehr Teams Richtlinien für Anwendungen.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -24,29 +24,29 @@ ms.locfileid: "50460795"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>Verwalten von App-Richtlinien in Microsoft Teams
 
-App-Richtlinien werden zum Steuern von Anwendungen in Microsoft Teams verwendet.
+App-Richtlinien werden zum Steuern von Anwendungen in Microsoft Teams.
 
 ## <a name="app-permission-policies"></a>App-Berechtigungsrichtlinien
 
-**App-Berechtigungsrichtlinien** werden verwendet, um zu steuern, welche Apps für Ihre Benutzer verfügbar sind. Als Administrator können Sie bestimmte Apps zulassen oder blockieren, die Ihre Benutzer im Teams App Store installieren. [Richtlinien für App-Berechtigungen](teams-app-permission-policies.md) werden über das Microsoft Teams Admin Center verwaltet.
+**App-Berechtigungsrichtlinien** werden verwendet, um zu steuern, welche Apps für Ihre Benutzer verfügbar sind. Als Administrator können Sie bestimmte Apps, die Ihre Benutzer im App Store installieren, Teams zulassen oder blockieren. [Richtlinien für App-Berechtigungen](teams-app-permission-policies.md) werden über das Microsoft Teams Admin Center verwaltet.
 
 ![Screenshot der App-Berechtigungsrichtlinie.](media/app-permission-policy.png)
 
-## <a name="app-setup-policies"></a>Richtlinien für das Einrichten von Apps
+## <a name="app-setup-policies"></a>Richtlinien für die App-Einrichtung
 
-**Mit den Richtlinien für die** App-Einrichtung können Sie Anwendungen im Auftrag Ihrer Benutzer anheften und installieren und diese Einstellungen für Ihre Organisation steuern. [Richtlinien für die App-Einrichtung](teams-app-setup-policies.md) werden im Teams Admin Center verwaltet.
+**Mit Richtlinien für das** Einrichten von Apps können Sie Anwendungen im Namen Ihrer Benutzer anheften und installieren und diese Einstellungen für Ihre Organisation steuern. [Richtlinien für die App-Einrichtung](teams-app-setup-policies.md) werden im Teams Admin Center verwaltet.
 
 ![Screenshot der App-Setuprichtlinie im Teams Admin Center.](media/app-setup-policy.png)
 
 ## <a name="custom-app-policies"></a>Richtlinien für benutzerdefinierte Apps
 
-Sie können steuern, wer benutzerdefinierte Apps mit benutzerdefinierten App-Richtlinien in Teams **hochladen kann.** [Einstellungen und Richtlinien für benutzerdefinierte Apps](teams-custom-app-policies-and-settings.md) werden über das Microsoft Teams Admin Center verwaltet.
+Mit benutzerdefinierten App-Richtlinien können Sie steuern, wer benutzerdefinierte apps Teams **Hochladen kann.** [Benutzerdefinierte App-Einstellungen und -Richtlinien](teams-custom-app-policies-and-settings.md) werden über das Microsoft Teams Admin Center verwaltet.
 
-![Screenshot der benutzerdefinierten App-Richtlinie.](media/custom-app-policy.png)
+![Screenshot einer benutzerdefinierten App-Richtlinie.](media/custom-app-policy.png)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 * [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
 * [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
 * [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
-* [Verwalten von Teams mit Richtlinien](manage-teams-with-policies.md)
+* [Verwalten Teams mit Richtlinien](manage-teams-with-policies.md)

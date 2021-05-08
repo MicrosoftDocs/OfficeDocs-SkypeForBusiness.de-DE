@@ -32,35 +32,35 @@ ms.locfileid: "50237485"
 <a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 ============================
 
-Berichterstellungsbeschriftungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder Organisationsstandorten anzugeben. Auf der Seite "Berichterstellungsbeschriftungen" im Microsoft Teams Admin Center können Sie eine Textdatei (CSV oder TSV) bereitstellen, die eine Liste der physischen Standorte und der zugehörigen Netzwerksubnetznetzen enthält. Diese Datei wird von der Anrufanalyse zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnetzzuordnung hochladen, enthalten die von diesen Diensten bereitgestellten Berichte auch die Standortnamen, wodurch die Berichte einfacher zu verstehen und zur Behebung potenzieller Probleme zu verwenden sind.
+Berichtsbezeichnungen werden in Ihrer Organisation verwendet, um die physischen Standorte von Büros, Gebäuden oder Organisationsstandorten anzugeben. Auf der Seite Reporting Labels im Microsoft Teams Admin Center können Sie eine Textdatei (.csv oder TSV) bereitstellen, die eine Liste der physischen Standorte und der zugehörigen Netzwerksubnetze enthält. Diese Datei wird von der Anrufanalyse zum Generieren von Berichten verwendet. Wenn Sie Ihre Subnetz-Zuordnung hochladen, enthalten die Von diesen Diensten bereitgestellten Berichte auch die Standortnamen, wodurch die Berichte leichter zu verstehen und zur Behebung potenzieller Probleme zu verwenden sind.
 
 > [!IMPORTANT]
-> Von Ihnen hochgeladene Berichterstellungsbeschriftungen werden im Rahmen Ihrer Vereinbarung für Office 365 als Supportdaten behandelt, einschließlich aller Informationen, die andernfalls als Kundendaten oder persönliche *Daten betrachtet würden.*   Bitte geben Sie keine Daten an, die Sie Microsoft nicht als *Supportdaten* zur Verfügung stellen möchten, da diese Informationen zu Supportzwecken für die Microsoft Engineers sichtbar sind.
+> Berichterstellungsbeschriftungen, die  Sie hochladen, werden im Rahmen Ihrer Vereinbarung für  Office 365 als Supportdaten behandelt, einschließlich aller Informationen, die andernfalls als Kundendaten oder *persönliche Daten betrachtet würden.* Bitte fügen Sie keine Daten ein, die Sie Microsoft nicht als *Supportdaten* zur Verfügung stellen möchten, da diese Informationen zu Supportzwecken für Microsoft-Entwickler sichtbar sind.
 
-Die von Ihnen bereitstellenden Berichtbeschriftungen und Speicherortdaten sind eine einzelne Datenstruktur – es ist derzeit keine Schnittstelle verfügbar, über die einzelne Änderungen an den Daten möglich sind.
+Die von Ihnen bereitstellenden Berichtbeschriftungen und Speicherortdaten sind eine einzige Datenstruktur – es gibt derzeit keine Schnittstelle, über die einzelne Änderungen an den Daten möglich sind.
 
 **So bearbeiten Sie die Tabelle mit Subnetzen und Standorten**
 
-1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Centers auf die **Beschriftungen für Die**  >  **Standortberichte.**
-2. Klicken Sie **auf "Daten hochladen".**
-3. Klicken Sie **im Bereich "Daten** hochladen" auf "Datei **auswählen",** navigieren Sie dann zu Ihrer bearbeiteten CSV- oder TSV-Datei, und laden Sie sie hoch.
-4. Klicken Sie **auf "Hochladen".**
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center **auf**  >  **Standortberichterstattungsbeschriftungen**.
+2. Klicken Sie **Hochladen Daten speichern**.
+3. Klicken Sie **Hochladen** Im Bereich Daten speichern auf Datei auswählen **,** navigieren Sie dann zu Ihrer bearbeiteten Datei .csv TSV-Datei, und laden Sie sie hoch.
+4. Klicken Sie **Hochladen**.
 
-Hier können Sie eine Beispielvorlage [herunterladen.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
+Hier können Sie eine [Beispielvorlage herunterladen.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
 
 Verwenden Sie das folgende Beispiel, um die Datendatei zu erstellen.
 
 > [!IMPORTANT]
-> Ihre Datendatei sollte keine Spaltenüberschriften (z. B. "Netzwerk", "Netzwerkname" usw.) enthalten. Diese werden hier nur zu Informationszwecken verwendet. <br>
+> Ihre Datendatei sollte keine Spaltenüberschriften (z. B. Netzwerk, Netzwerkname usw.) enthalten. Diese werden hier nur zu Informationszwecken verwendet. <br>
 
-|Netzwerk|Netzwerkname|Netzwerkbereich|Gebäudename|Besitzertyp|Gebäudetyp|Building Office Type|Stadt/Ort|PLZ|Land|Status|Region|Inside Corp|ExpressRoute|
+|Netzwerk|Netzwerkname|Netzwerkbereich|Gebäudename|Besitzertyp|Gebäudetyp|Gebäudetyp Office|Stadt/Ort|PLZ|Land|Status|Region|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
-|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
-|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
-|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Mountain View|94043|US|CA|US|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
 
-Weitere Informationen zum Formatieren der Datendatei finden Sie unter "Dateiformat der [Mandantendaten" und "Gebäudedatendateistruktur".](CQD-upload-tenant-building-data.md#upload-building-data-file)
+Weitere Informationen zum Formatieren der Datendatei finden Sie unter Dateiformat für [Mandantendaten und Erstellen einer Datendateistruktur.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

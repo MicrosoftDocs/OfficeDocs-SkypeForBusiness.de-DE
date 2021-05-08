@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie mehr über die Ursachen für Skype for Business Online-Anmeldefehler und die Problembehandlung. '
-ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103841"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239403"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Problembehandlung bei Skype for Business Online-Anmeldefehlern für Administratoren
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Um Probleme bei der Anmeldung bei Skype for Business Online zu beheben, müssen Sie zunächst die häufigsten Ursachen für Anmeldeprobleme beseitigen. Bei Bedarf können Sie dann bestimmte Lösungsschritte basierend auf der Art des Fehlers ausführen. Wenn sich der Benutzer immer noch nicht anmelden kann, sammeln Sie zusätzliche Informationen, und fordern Sie dann weitere Unterstützung an.
 
@@ -144,7 +146,7 @@ Führen Sie die folgenden Schritte aus, um ein SSL-Zertifikat eines Drittanbiete
 
 Diese Prozedur führt möglicherweise bei folgender Fehlermeldung zum Erfolg: **Problem beim Abrufen eines persönlichen Zertifikats, das zur Anmeldung erforderlich ist**.
 
-Zum Beheben möglicher Probleme mit dem Zertifikat oder den Anmeldeinformationen erneuern Sie zuerst in der Windows-Zertifikatverwaltung das Benutzerzertifikat. Führen Sie hierzu folgende Schritte aus:
+Zum Beheben möglicher Probleme mit dem Zertifikat oder den Anmeldeinformationen erneuern Sie zuerst in der Windows-Zertifikatverwaltung das Benutzerzertifikat. Führen Sie dazu die folgenden Schritte aus:
 
 1. Öffnen Sie den Windows-Zertifikat-Manager. Klicken Sie hierfür im Startmenü auf **Start**, auf **Ausführen**, geben Sie **certmgr.msc** ein, und klicken Sie dann auf **OK**.
 
@@ -154,7 +156,7 @@ Zum Beheben möglicher Probleme mit dem Zertifikat oder den Anmeldeinformationen
 
 4. Klicken Sie mit der rechten Maustaste auf das Zertifikat, und klicken Sie dann auf **Löschen**.
 
-Wenn der Benutzer mit Windows 7 arbeitet, entfernen Sie als Nächstes die gespeicherten Anmeldeinformationen in der Windows-Anmeldeinformationsverwaltung. Führen Sie hierzu folgende Schritte aus:
+Wenn der Benutzer mit Windows 7 arbeitet, entfernen Sie als Nächstes die gespeicherten Anmeldeinformationen in der Windows-Anmeldeinformationsverwaltung. Führen Sie dazu die folgenden Schritte aus:
 
 1. Klicken Sie auf **Start**, klicken Sie auf **Systemsteuerung**, und klicken Sie dann auf **Anmeldeinformationsverwaltung**.
 
@@ -206,7 +208,7 @@ Wenn Sie weiterhin nicht in der Lage sind, die Anmeldeprobleme der Benutzer zu b
 ## <a name="collect-more-information-and-seek-additional-help"></a>Sammeln zusätzlicher Informationen und Anfordern weiterer Unterstützung
 <a name="collect-more-information"> </a>
 
-Wenn Sie mithilfe der obigen Anleitungen das Problem mit der Anmeldung nicht lösen konnten, müssen Sie zusätzliche Informationen sammeln und sich an den technischen Support wenden. Führen Sie hierzu folgende Schritte aus:
+Wenn Sie mithilfe der obigen Anleitungen das Problem mit der Anmeldung nicht lösen konnten, müssen Sie zusätzliche Informationen sammeln und sich an den technischen Support wenden. Führen Sie dazu die folgenden Schritte aus:
 
 1. Rufen Sie die Protokolldateien und die Windows-Ereignsprotiokolldetails auf dem Computer des Benutzers ab. Eine schrittweise Anleitung finden Sie im Hilfethema [Informationen zur Protokollierung in Lync](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
 

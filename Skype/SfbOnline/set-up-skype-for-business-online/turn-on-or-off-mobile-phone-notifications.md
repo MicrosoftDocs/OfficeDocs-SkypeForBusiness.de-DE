@@ -19,20 +19,22 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
-description: Erfahren Sie, wie Sie Mobiltelefonbenachrichtigungen aktivieren oder deaktivieren, damit Ihre Benutzer Benachrichtigungen zu eingehenden, Voicemails und verpassten Chatnachrichten erhalten können.
-ms.openlocfilehash: 4eefd581da09c2767c0ab44b514d33e7a3fb4d8c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erfahren Sie, wie Sie Mobiltelefonbenachrichtigungen aktivieren oder deaktivieren, damit Ihre Benutzer Benachrichtigungen über eingehende Anrufe, Voicemail und verpasste Chatnachrichten erhalten können.
+ms.openlocfilehash: 43e45f4b5ac288bb0272af520d0f3b1fc6e15695
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093343"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239217"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
-> [!IMPORTANT]
-> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Verwaltung von Skype for Business befinden sich jetzt im Teams Admin Center. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Als Administratorrollen **[in Microsoft 365 Apps for Business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation zuweisen können Sie auswählen, ob Ihre Skype for Business-Benutzer Benachrichtigungen über eingehende und verpasste Chatnachrichten erhalten, wenn sie sich auf ihren Mobiltelefonen oder Tablets befinden.
+> [!IMPORTANT]
+> Das Microsoft Teams Admin Center wurde durch das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+
+Als Administratorrollen **[in Microsoft 365 Apps for Business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation zuweisen können Sie auswählen, ob Ihre Skype for Business-Benutzer Benachrichtigungen zu eingehenden und verpassten Chatnachrichten erhalten, wenn sie sich auf ihren Mobiltelefonen oder Tablets befinden.
   
 Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Benachrichtigungen in Echtzeit angezeigt. Bei Geräten mit Windows Phone, bei iPhone und iPad werden hingegen Pushbenachrichtigungen verwendet, um immer dann Benachrichtigungen anzuzeigen, wenn Sie Skype for Business auf dem Mobiltelefon oder Tablet-PC gerade nicht aktiv verwenden.
   
@@ -41,9 +43,9 @@ Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Ben
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Melden Sie sich bei Microsoft 365 an.
+1. Melden Sie sich bei Microsoft 365.
     
-2. Wechseln Sie zu Admin Center > **Skype for Business**.
+2. Wechseln Sie zum Admin Center > **Skype for Business**.
     
 3. Wechseln Sie zu **Organisation** > **Allgemein**. 
     
@@ -58,7 +60,7 @@ Bitte beachten Sie:
 - Nachdem Sie Pushbenachrichtigungen ausgeschaltet haben, können sie benutzerseitig nicht wieder eingeschaltet werden.
     
 > [!IMPORTANT]
->  Microsoft greift für die Bereitstellung von mobilen Skype for Business-Benachrichtigungen in Echtzeit für Windows Phone-, iPhone- und iPad-Benutzer auf andere Unternehmen zurück. Weitere Informationen [finden Sie in den Datenschutzbestimmungen für Microsoft Skype for Business-Produkte.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
+>  Microsoft greift für die Bereitstellung von mobilen Skype for Business-Benachrichtigungen in Echtzeit für Windows Phone-, iPhone- und iPad-Benutzer auf andere Unternehmen zurück. Weitere Informationen [finden Sie in den Datenschutzbestimmungen Skype for Business Microsoft-Produkten.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
 ## <a name="related-topics"></a>Verwandte Themen
 

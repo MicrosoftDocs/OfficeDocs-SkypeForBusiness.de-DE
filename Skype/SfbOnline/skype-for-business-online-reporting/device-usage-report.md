@@ -19,76 +19,78 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: Das Dashboard "Berichte" zeigt die Vorgangsübersicht über die Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht Skype for Business-Gerätenutzung verwenden, um die Geräte anzuzeigen, einschließlich Windows-basierten Betriebssystemen und mobilen Geräten, auf denen die Skype for Business-App installiert ist und die für Chats und Besprechungen verwendet wird. Schauen Sie sich die Aktivitätsberichte im Admin Center an, um weitere Informationen zu erhalten.
-ms.openlocfilehash: b9baff4a9ca363276590faa8e3aaafffb9e7ad4f
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+description: Im Dashboard Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Sie können z. B. den Bericht Skype for Business-Gerätenutzung verwenden, um die Geräte einschließlich Windows-basierter Betriebssysteme und mobiler Geräte, auf denen die Skype for Business-App installiert ist und die sie für Nachrichten und Besprechungen verwenden, zu sehen. Weitere Informationen finden Sie unter Aktivitätsberichte im Admin Center.
+ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205456"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238240"
 ---
 # <a name="device-usage-report"></a>Bericht „Gerätenutzung“
 
-Das Dashboard " **Berichte** " zeigt die Vorgangsübersicht über die Microsoft 365-oder Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht **Skype for Business-Gerätenutzung** verwenden, um die Geräte anzuzeigen, einschließlich Windows-basierten Betriebssystemen und mobilen Geräten, auf denen die Skype for Business-App installiert ist und die für Chats und Besprechungen verwendet wird. 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Schauen Sie sich die [Übersicht über Berichte](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) an, um weitere Informationen zu erhalten.
+Im **Dashboard** Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Sie können z.  B. den Bericht Skype for Business-Gerätenutzung verwenden, um die Geräte einschließlich Windows-basierter Betriebssysteme und mobiler Geräte, auf denen die Skype for Business-App installiert ist und die sie für Nachrichten und Besprechungen verwenden, zu sehen. 
+
+Weitere Informationen finden [Sie in der Übersicht](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) über Berichte.
   
-Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten Informationen zu den Typen von Clients/Geräten, die in Ihrer Organisation verwendet werden. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich.
+Dieser Bericht enthält zusammen mit den Skype for Business Bericht Details zu den Typen von Clients/Geräten, die in der gesamten Organisation verwendet werden. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich.
   
 > [!NOTE]
-> Sie können alle Skype for Business-Berichte sehen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
+> Wenn Sie sich als Skype for Business Administrator beim Microsoft 365 Admin Center anmelden, werden alle Microsoft 365 angezeigt. 
   
-## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>So gelangen Sie zum Skype for Business-Geräte Nutzungsbericht
+## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>So erhalten Sie den Bericht Skype for Business Gerätenutzung
 
-1. Wechseln Sie zum Admin Center > **Berichte**  >  **Verwendung**.
+1. Wechseln Sie zum Admin Center, > **Berichtnutzung**  >  **aus.**
     
-2. Klicken Sie auf der Seite **Nutzung** in der **Liste Bericht auswählen** Links auf die **Verwendung von Skype for Business-Geräten** . Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf die Verwendung von **Skype for Business-Geräten** .
+2. Klicken Sie **auf der** Seite Verwendung **Skype for Business auf** der linken Seite in der Liste Bericht auswählen **auf Gerätenutzung** auswählen. Oder klicken Sie auf **Skype for Business Widget "Aktivität"** und dann **Skype for Business** gerätenutzung in der Skype for Business **Aktivitätsliste.**
     
-     ![Skype for Business-Geräte Verwendungsbericht (Widget)](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
+     ![Skype for Business zum Bericht "Gerätenutzung"](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    Je nach dem von Ihnen verwendeten Microsoft 365-oder Office 365-Abonnement werden möglicherweise nicht alle hier gezeigten Produkte und Aktivitätsberichte angezeigt.
+    Je nach Microsoft 365 oder Office 365-Abonnement werden möglicherweise nicht alle hier angezeigten Produkte und Aktivitätsberichte angezeigt.
     
-## <a name="interpret-the-skype-for-business-device-usage-report"></a>Interpretieren des Berichts zur Verwendung von Skype for Business-Geräten
+## <a name="interpret-the-skype-for-business-device-usage-report"></a>Interpretieren des Skype for Business Geräteverwendungsberichts
 
-Sie können sich einen Überblick über die Geräte verschaffen, die die Skype for Business-App verwenden, indem Sie sich die Diagramme **Benutzer** und **Verteilung** ansehen.
+Sie können einen Einblick in die Geräte erhalten, die die App Skype for Business, indem Sie sich die Diagramme **Benutzer** und **Verteilung** ansehen.
   
 ![Bericht „Skype for Business - verwendete Clients"](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>Der Bericht **Skype for Business-Gerätenutzung** kann für Trends in den letzten 7 Tagen, 30 Tage, 90 Tage oder 180 Tage angezeigt werden. Wenn Sie jedoch an einen bestimmten Tag im Bericht klicken, werden in der Tabelle (siehe Zahl 7) Daten für 30 Tage angezeigt (siehe Nummer 2), wenn der Bericht generiert wurde.
+![Nummer 1](../images/sfbcallout1.png)<br/>Im **Skype for Business** Bericht zur Gerätenutzung werden die Trends über die letzten 7 Tage, 30 Tage, 90 Tage oder 180 Tage angezeigt. Wenn Sie im Bericht jedoch in einen bestimmten Tag klicken, werden in der Tabelle (siehe Zahl 7) Daten für 30 Tage bis zum Datum (siehe Zahl 2) angezeigt, an dem der Bericht generiert wurde.
 
 > [!NOTE]
-> Wenn Sie in die Details eines bestimmten Tages klicken, werden in der Tabelle nur die Daten für die 30 Tage angezeigt, bis zu dem Datum, an dem der Bericht generiert wurde.
+> Wenn Sie in die Details eines bestimmten Tages klicken, werden in der Tabelle nur Daten für die 30 Tage bis zum Datum angezeigt, an dem der Bericht generiert wurde.
     
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm " **Benutzer** ", um die Verwendungstrends zu verstehen und die Anzahl der Benutzer anzuzeigen, die mit der Skype for Business-App verbunden sind, die in Ihrer Organisation verwendet wird. Sie zeigt die Gesamtzahl der Benutzer und Typen von **Windows**-, **Windows Phone**-, **Android-Smartphone**-, **iPhone**-und **iPad** -Geräten an, auf denen die Skype for Business-App installiert ist und die in Ihrer Organisation verwendet wird.
+![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm Benutzer, um Nutzungstrends nach zu erkennen und um die Anzahl der Benutzer, die mit der Skype for Business-App verbunden sind, die in Ihrer Organisation verwendet werden, zu sehen.  Es zeigt Ihnen die Gesamtanzahl der Benutzer und Typen von **Windows**, **Windows Phone**, **Android-Smartphones,** **iPhone-** und **iPad-Geräten,** auf den die Skype for Business-App installiert ist und die in der gesamten Organisation verwendet werden.
 ***
-![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm der **Verteilungs** Leiste, um die Verwendung zu verstehen, um die Anzahl der Benutzer anzuzeigen, die eindeutige Geräte in Ihrer Organisation verwenden. Sie zeigt die Gesamtzahl der Benutzer von **Windows**, **Windows Phone**, **Android-Smartphone**, **iPhone**und **iPad** an, die ein Gerät verwenden. 
+![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Verteilungsbalken,** um die Verwendung zu verstehen, um die Anzahl der Benutzer zu sehen, die eindeutige Geräte in Ihrer Organisation verwenden. Es zeigt Ihnen die Gesamtanzahl der  Windows **,** **Windows Phone**, **Android-Smartphones,** **iPhone** und iPad mit einem verwendeten Gerät an. 
 ***
-![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen Sie beispielsweise im Diagramm **Benutzer** auf **Windows**, **Windows Phone**, Android- **Smartphone**, **iPhone**oder **iPad** , um nur die zugehörigen Informationen anzuzeigen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
+![Nummer 5](../images/sfbcallout5.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen  Sie beispielsweise im Diagramm Benutzer auf **Windows**, **Windows Phone**, **Android-Smartphone,** **iPhone** oder **iPad,** um nur die jeweils zugehörigen Informationen zu sehen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
 ***
 ![Nummer 6](../images/sfbcallout6.png)<br/>Jedes Diagramm verfügt über eine (horizontale) „X"- und eine (vertikale) „Y"-Achse.
-*    Im Diagramm **Benutzer** stellt die Y-Achse die Gesamtzahl der Benutzer dar, die mit einem Gerät verbunden sind, auf dem die Skype for Business-App installiert ist.
-*    Im Diagramm **Verteilungs** Aktivität stellt die Y-Achse die Anzahl der Benutzer dar, die mit einem bestimmten Gerätetyp verbunden sind, auf dem die Skype for Business-App installiert ist. 
+*    Im Diagramm **Benutzer gibt** die Y-Achse die Gesamtanzahl der Benutzer an, die mit einem Gerät verbunden sind, auf dem Skype for Business installiert ist.
+*    Im **Aktivitätsdiagramm** Verteilung gibt die Y-Achse die Anzahl der Benutzer an, die mit einem bestimmten Gerätetyp verbunden sind, auf dem Skype for Business installiert ist. 
 
 Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für diesen bestimmten Bericht.
 ***
-![Zahl 7](../images/sfbcallout7.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Konferenz Aktivitäten pro Benutzer. Dies zeigt alle Benutzer, denen Skype for Business zugewiesen ist, sowie deren Konferenz Aktivitäten an. Sie können zusätzliche Spalten zur Tabelle hinzufügen.
+![Nummer 7](../images/sfbcallout7.png)<br/>Die Tabelle zeigt eine Aufschlüsselung aller Konferenzaktivitäten pro Benutzer. Hier werden alle Benutzer, denen Skype for Business zugewiesen sind, und ihre Konferenzaktivitäten gezeigt. Sie können zusätzliche Spalten zur Tabelle hinzufügen.
 *    **Benutzername** ist der Name des Benutzers. 
 *    **Datum der letzten Aktivität (UTC)** ist der letzte Zeitpunkt, zu dem der Benutzer an einer Peer-to-Peer-Sitzung teilgenommen, eine Konferenz organisiert oder an einer Konferenz teilgenommen hat.
-*    **Windows** ist ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem Windows-basierten Betriebssystem installiert hat und verwendet. 
-*    **Windows Phone** ist ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem Windows Phone-Gerät installiert hat und verwendet.
-*    **Android-Telefon** ist ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem Android-Smartphone installiert hat und verwendet.
-*    Das **iPhone** ist ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem iPhone installiert hat und verwendet. 
-*    Das **iPad** ist ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem iPad installiert hat und verwendet. 
+*    **Windows** wird ausgewählt, wenn der Benutzer die Skype for Business-Client-App unter einem Windows-basierten Betriebssystem installiert und verwendet. 
+*    **Windows Phone** ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem Windows Phone installiert und verwendet.
+*    **Android-Smartphone** ist ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem Android-Smartphone installiert und verwendet.
+*    **iPhone** wird ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem iPhone installiert und verwendet. 
+*    **iPad** wird ausgewählt, wenn der Benutzer die Skype for Business-Client-App auf einem iPad installiert und verwendet. 
 
-Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte angezeigt werden, in denen Benutzerinformationen identifizierbar sind, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den Abschnitt **wie kann ich Details zu Benutzerebene ausblenden?** in den [Aktivitätsberichten im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Wenn die Richtlinien Ihrer Organisation verhindern, dass Sie Berichte anzeigen, in denen Benutzerinformationen identifizierbar sind, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den **Abschnitt Ausblenden von Details auf Benutzerebene** unter [Aktivitätsberichte im Admin Center.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 
 ***
-![Nummer 8](../images/sfbcallout8.png)<br/>Klicken oder tippen Sie in einer der Spalten auf das Symbol **Spalten** , um Spalten zum Bericht hinzuzufügen oder daraus zu entfernen.           <br/> ![Schaltfläche zum Verwalten von Skype for Business Online-Berichten](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![Nummer 8](../images/sfbcallout8.png)<br/>Klicken oder tippen Sie in **einer der** Spalten auf das Symbol Spalten, um Spalten zum Bericht hinzuzufügen oder aus dem Bericht zu entfernen.           <br/> ![Skype for Business Schaltfläche "Verwalten" für Onlineberichte.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![Nummer 9](../images/sfbcallout9.png)<br/>Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Schaltfläche "Exportieren" für Skype for Business-Berichte](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren. 
+![Nummer 9](../images/sfbcallout9.png)<br/>Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportieren, indem Sie auf den Link **Exportieren** klicken oder tippen.           <br/> ![Skype for Business Reporting Export Button.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. Bei mehr als 2.000 Benutzern müssen Sie die Daten zum Filtern und Sortieren exportieren. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Möchten Sie andere Skype for Business-Berichte anzeigen?
 
@@ -96,17 +98,17 @@ Wenn Sie von den Richtlinien Ihrer Organisation verhindert werden, dass Berichte
     
 - [Bericht „Skype for Business - Aktivitäten zum Organisieren von Konferenzen"](conference-organizer-activity-report.md) : Sie können sehen, in welchem Umfang Ihre Benutzer Konferenzen organisieren, für die Chat, Audio/Video, Anwendungsfreigabe, Web, Ein-/Auswahl (Drittanbieter) und Ein-/Auswahl (Microsoft) verwendet werden.
     
-- [Skype for Business-Konferenzteilnehmer-Aktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, wie viele Chats, Audio/Video, Anwendungsfreigabe, Web-und Einwahlkonferenz Konferenzen teilnehmen.
+- [Skype for Business konferenzteilnehmer-Aktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, an wie vielen Ein-/Einwahlkonferenzen, Audio/Video-, Anwendungsfreigabe-, Web- und Ein-/Aus-Konferenzen teilgenommen wird.
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Bericht "Skype for Business-Benutzer blockiert](users-blocked-report.md) " Sie können die Benutzer in Ihrer Organisation sehen, die für das tätigen von PSTN-anrufen gesperrt wurden.
+- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
     
 - [Bericht zum PSTN-Verbrauch in Skype for Business](pstn-usage-report.md) : Sie können die Anzahl der Minuten sehen, die für eingehende/ausgehende Anrufe aufgewendet wurden, sowie die Kosten für diese Anrufe.
 
-- [Skype for Business-PSTN-Minuten Pools-Bericht](pstn-minute-pools-report.md) Sie können die Anzahl der Minuten anzeigen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
+- [Skype for Business Bericht zu PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Bericht "Skype for Business-Sitzungsdetails](session-details-report.md) " Details zu den Anruf Erfahrungen einzelner Nutzer werden angezeigt.
+- [Skype for Business sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

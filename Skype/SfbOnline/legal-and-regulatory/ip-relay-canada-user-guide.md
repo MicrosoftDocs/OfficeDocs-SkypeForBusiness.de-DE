@@ -1,5 +1,5 @@
 ---
-title: IP-Relay Kanada – Nutzerleitfaden
+title: IP Relay Canada- Benutzerhandbuch
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,67 +19,69 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Verwenden eines IP-Relay-Kontos für Kanada
-ms.openlocfilehash: fd02fe763c8913a76c5fff6e1cf765a8fce425b5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b7f276bdf921fdc721ef1df883d3c5d714e4a94f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706680"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238667"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>IP Relay in Kanada - Benutzerhandbuch
 
-Beschreibung des IP-Nachrichten Relay-Diensts von Microsoft:
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Beschreibung des IP-Nachrichtenre relay-Diensts von Microsoft:
 
 ## <a name="scenario-a"></a>Szenario A
-Wenn eine mündliche oder hörgeschädigte Person sich an eine nicht behinderte Person wenden möchte, "chatten" Sie über einen speziellen webbasierten Client zu einem Agenten, der als Anruf Taker bezeichnet wird.
+Wenn eine hör- oder sprachbehinderte Person eine nicht beeinträchtigte Person kontaktieren möchte, "chatten" sie über einen speziellen webbasierten Client mit einem Mitarbeiter, der als Anrufer bezeichnet wird.
 
-Der Anruf nehmer kommuniziert dann über die Chat-Sitzung mit dem Gehör-oder sprach behinderten und kontaktiert die nicht behinderte Person über das Telefonnetz in Kanada oder den Vereinigten Staaten nach Bedarf.
+Die Anruf anrufer kommuniziert dann mit der hör- oder sprachbehinderten Person über die Chatsitzung und kontaktiert die nicht beeinträchtigte Person nach Bedarf über das Telefonnetz in Kanada oder den Vereinigten Staaten.
 
 ## <a name="scenario-b"></a>Szenario B
-Wenn eine nicht eingeschränkte Person mit einem registrierten Gehör-oder sprach behinderten Nutzer sprechen möchte, ruft Sie die gebührenfreie Nummer an, wie Sie von Microsoft bereitgestellt wird.
+Wenn eine nicht hörbehinderte Person mit einem registrierten Benutzer mit Hör- oder Sprachbeeinträchtigung sprechen möchte, wird die von Microsoft bereitgestellte gebührenfreie Nummer angeschrieben.
 
-Der Anrufteilnehmer kommuniziert dann mit der nicht behinderten Person und kontaktiert den Gehör-oder sprach behinderten per Chat und kommuniziert hin und her.
+Die Anrufersteuerung kommuniziert dann per Chat mit der nicht beeinträchtigten Person und mit der hör- oder sprachbehinderten Person und kommuniziert hin und her.
 
-Wenn die mündliche Verhandlung-oder Sprachbehinderte Person nicht im Chat-Programm online ist, wenn eine e-Mail-Adresse zur Verfügung steht, sendet der Anrufempfänger eine e-Mail an die mündliche Verhandlung-oder Sprachbehinderte Person, wenn dies vom Anrufer angefordert wird.
+Sollte die hör- oder sprachbehinderte Person im Chatprogramm nicht online sein, sendet die Anrufer, sofern eine E-Mail-Adresse verfügbar ist, eine E-Mail an die hörbehinderte oder sprachbehinderte Person, sofern vom Anrufer angefordert.
 
 ## <a name="scenario-c"></a>Szenario C
-Wenn eine Anhörungs-oder Sprachbehinderte Person Notfallhilfe benötigt, kann Sie die entsprechende Schaltfläche auswählen: 911 – Polizei/911 – Fire/911 – Ambulanz.
+Wenn eine hör- oder sprachbehinderte Person Nothilfe benötigt, kann sie die entsprechende Schaltfläche auswählen: 911 – Richtlinie / 911 – Brand / 911 – Ambulance.
 
-Dadurch wird eine Notfallbenachrichtigung an die Nord-IP-Relay-Operatoren gesendet, die dann auf das für diesen Zweck konzipierte 911-Konto zugreifen können. Sobald der Anruf nehmer seine Adresse bestätigt hat, wird er sich mit dem entsprechenden PSAP in Verbindung setzen und so lange wie nötig auf der Leitung bleiben.
+Dadurch wird eine Notfallbenachrichtigung an die Netzbetreiber des nördlichen IP-Relay gesendet, die dann auf das zu diesem Zweck konzipierte 911-Konto zugreifen. Sobald die Anrufer-Anrufer ihre Adresse bestätigt haben, wird sie sich an das entsprechende PSAP wenden und so lange wie erforderlich in der Zeile bleiben.
 
-## <a name="how-to-place-a-text-chat-to-voice-call"></a>So setzen Sie einen Text-Chat in den Sprachanruf
+## <a name="how-to-place-a-text-chat-to-voice-call"></a>So platzieren Sie einen Textchat zu einem Sprachanruf
 
 https://aka.ms/IPRelay
 
-Wenn Sie einen Text-zu-Sprachanruf initiieren möchten, wechseln Sie zur obigen URL, und melden Sie sich mit Ihrem IP-Nachrichten Relais-Nutzernamen und-Kennwort an.
+Um einen Text-to-Voice-Anruf zu initiieren, wechseln Sie zur oben angegebenen URL, und melden Sie sich mit Ihrem IP Message Relay Username and Password an.
 
-Nachdem Sie sich angemeldet haben, werden auf der linken Seite des Bildschirms Anleitungen angezeigt.
+Nachdem Sie sich angemeldet haben, werden auf der linken Seite des Bildschirms Anweisungen angezeigt.
 
-### <a name="how-to-make-a-text-to-voice-call"></a>So erstellen Sie einen Text für Sprachanrufe:
-1. Klicken Sie in der unteren rechten Ecke des Bildschirms auf **Chat**.
-2. Klicken Sie auf den **IPRelay** -Benutzer.
-3. Geben Sie unten im neuen Feld, das eingeblendet wird, Ihre Nachricht ein.
+### <a name="how-to-make-a-text-to-voice-call"></a>So erstellen Sie einen Text-zu-Sprache-Anruf:
+1. Klicken Sie in der unteren rechten Bildschirmecke auf **Chat**.
+2. Klicken Sie auf **den Benutzer IPRelay.**
+3. Geben Sie im unteren Bereich des neuen Felds, das angezeigt wird, Ihre Nachricht ein.
 
-### <a name="how-to-receive-a-voice-to-text-call"></a>So empfangen Sie eine sprach-zu-Text-Anruf:
-- Sprach Nutzer müssen Ihren IP-Nachrichten Relais-Nutzernamen kennen, um einen Sprachanruf zu tätigen.
-- Sprachbenutzer können (866) 660-8613 anrufen, um eine Verbindung mit einem IP-Nachrichten Relay-Operator herzustellen.
-- Sie müssen beim IP-Nachrichten Relay-Portal angemeldet sein, um Anrufe oder Chats zu empfangen.
+### <a name="how-to-receive-a-voice-to-text-call"></a>So empfangen Sie einen Sprach-zu-Text-Anruf:
+- Sprachbenutzer müssen Ihren IP Message Relay Username kennen, um einen Sprach-zu-Text-Anruf zu senden.
+- Voice users can call (866) 660-8613 to connect with an IP Message Relay operator.
+- Sie müssen beim IP-Nachrichten-Relay-Portal angemeldet sein, um Anrufe oder Chats empfangen zu können.
 
-### <a name="how-to-place-a-911-call"></a>So legen Sie einen 911-Anruf an:
-Wenn Sie einen Notfall haben, können Sie die entsprechende Notruf Schaltfläche unten auf dem Bildschirm auswählen (siehe unten).
+### <a name="how-to-place-a-911-call"></a>So platzieren Sie einen 911-Anruf:
+Bei einem Notfall können Sie die entsprechende Schaltfläche für den Notfall auswählen, die sich unten auf dem Bildschirm befindet (wie unten dargestellt).
 
-![Notfall Schaltflächen](../images/ip-relay-emergency-buttons.png)
+![Schaltflächen für den Notfall](../images/ip-relay-emergency-buttons.png)
 
-Der IP-Nachrichten Relay-Operator wird sich an 911 wenden, Ihre Adresse bestätigen und mit verschiedenen Notfallzentren übersetzen, bis er oder Sie nicht mehr benötigt wird, und die entsprechende Abteilung wurde an Ihren Standort gesendet.
+Der IP-Nachrichten-Relay-Operator kontaktiert 911, bestätigt Ihre Adresse und übersetzt ihn mit den verschiedenen Notfallzentralen, bis er nicht mehr benötigt wird und die entsprechende Abteilung an Ihren Standort gesendet wurde.
 
 > [!WARNING]
-> Bitte testen Sie diesen Service nicht, da die entsprechende Agentur kontaktiert und eventuell versandt wird, auch wenn Sie angeben, dass es sich um einen Test handelt, und Ihnen möglicherweise eine falsche Versandgebühr von der Notfall Agentur berechnet wird.
+> Testen Sie diesen Dienst bitte nicht, da die entsprechende Behörde kontaktiert und ggf. auch dann versendet wird, wenn Sie angeben, dass es sich lediglich um einen Test handelt, und Ihnen wird möglicherweise eine falsche Verteilergebühr von der Notfallstelle in Rechnung gestellt.
 
-#### <a name="customer-support"></a>Kundendienst:
-Bitte wenden Sie sich an spezielle Projekte unter [specialprojects@northern911.com](mailto:specialprojects@northern911.com) oder (705) 222-1733.
+#### <a name="customer-support"></a>Kundensupport:
+Wenden Sie sich unter specialprojects@northern911.com [222-1733](mailto:specialprojects@northern911.com) an Sonderprojekte oder (705) 222-1733.
 
 > [!IMPORTANT]
-> Northern911 verwaltet den IP-Relaydienst im Auftrag von Microsoft.
+> Northern911 verwaltet den IP-Relay-Dienst im Auftrag von Microsoft.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
