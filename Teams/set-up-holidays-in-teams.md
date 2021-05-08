@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie Feiertage in Microsoft Teams für die Verwendung mit ihren automatischen Telefonzentralen einrichten.
+description: Erfahren Sie, wie Sie Feiertage in Microsoft Teams für die Verwendung mit Ihren automatischen Attendants einrichten.
 ms.openlocfilehash: ff87a3888bc98e1794f8074052aae4c0bbe3545d
 ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
 ms.translationtype: MT
@@ -29,57 +29,57 @@ ms.locfileid: "48993471"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
-Sie können die Funktion "Teams Feiertage" verwenden, um alternative Nachrichten und Routing an Anrufer für bestimmte Datums-und Uhrzeitangaben bereitzustellen, wenn Abteilungen, Anrufwarteschlangen oder Personen in Ihrer Organisation nach unterschiedlichen Arbeitszeiten arbeiten oder nicht verfügbar sind. So können Sie beispielsweise einen Feiertag für den Tag des neuen Jahres erstellen, wenn Ihre Organisation geschlossen ist.
+Mithilfe des Features "Teams-Feiertage" können Sie Anrufer alternative Meldungen für bestimmte Daten und Zeiten bereitstellen, zu denen Abteilungen, Anrufwarteschleifen oder Personen in Ihrer Organisation unterschiedlichen Arbeitszeiten folgen oder nicht verfügbar sind. Sie können z. B. einen Feiertag für den Neujahrstag erstellen, an dem Ihre Organisation möglicherweise geschlossen ist.
 
-Die hier erstellten Feiertage stehen zur Verfügung, wenn Sie [eine automatische Telefonzentrale einrichten](create-a-phone-system-auto-attendant.md), die jeweils eigene Gruß-und Anrufweiterleitungseinstellungen hat.
+Die Feiertage, die Sie hier erstellen, sind verfügbar, wenn Sie eine automatische Telefonkonferenz einrichten [,](create-a-phone-system-auto-attendant.md)die jeweils eigene Einstellungen für die Weiterleitung von Begrüßungen und Anrufen bietet.
 
 ## <a name="create-a-holiday"></a>Erstellen eines Feiertags
 
 So erstellen Sie einen Feiertag
 
-1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen**  >  **Feiertage**.
+1. Wechseln Sie Microsoft Teams Admin Center zu **Organisationsweite Einstellungen**  >  **Feiertage**.
 
-2. Wählen Sie **neue Feiertage** aus.
+2. Wählen Sie **Neuer Feiertag aus.**
 
 3. Geben Sie einen Namen für den Feiertag ein.
 
-4. Wählen Sie **Neues Datum hinzufügen** aus.
+4. Wählen **Sie Neues Datum hinzufügen aus.**
 
-5. Wählen Sie unter **Startzeit** das Kalendersymbol aus, und wählen Sie das Datum aus, an dem der Feiertag beginnen soll.
+5. Wählen **Sie unter Startzeit** das Kalendersymbol und dann das Datum aus, an dem der Feiertag beginnen soll.
 
-6. Verwenden Sie die Dropdownliste, um eine Startzeit für den Feiertag auszuwählen.
+6. Wählen Sie in der Dropdownliste eine Startzeit für den Feiertag aus.
 
-7. Wählen Sie unter **Endzeit** das Kalendersymbol aus, und wählen Sie das Datum aus, an dem der Feiertag enden soll.
+7. Wählen **Sie unter Endzeit** das Kalendersymbol und dann das Datum aus, an dem der Feiertag enden soll.
 
-8. Verwenden Sie die Dropdownliste, um eine Endzeit für den Feiertag auszuwählen. Die **Endzeit** muss nach der **Anfangszeit** liegen.  
+8. Wählen Sie in der Dropdownliste eine Endzeit für den Feiertag aus. Die **Endzeit** muss nach der **Startzeit sein.**  
 
    > [!NOTE]
-   > Wenn es sich um einen ganzen Tag (also einen Zeitraum von 24 Stunden) handelt, sollte die **Endzeit** auf den nächsten Tag und die Uhrzeit für 12:00 Uhr festgesetzt werden. Wenn Ihre Organisation beispielsweise am 1. Januar zum Neujahr geschlossen ist, legen Sie die **Startzeit** auf Januar 1 12:00 Uhr, und legen Sie die **Endzeit** auf Januar 2 @ 12:00 am ab.
+   > Wenn sich der Feiertag auf einen ganzen Tag (d. h.  einen Zeitraum von 24 Stunden) befindet, sollte die Endzeit auf den nächsten Tag und die Uhrzeit auf 00:00 Uhr festgelegt werden. Wenn Ihre Organisation beispielsweise am 1. Januar für den Neujahrstag geschlossen ist, legen Sie die Startzeit auf  1. Januar 12:00 Uhr und die Endzeit auf 2. Januar @ 12:00 Uhr festgelegt. 
 
-9. Optional können Sie weitere Datumsangaben für wiederkehrende Feiertage hinzufügen.
+9. Fügen Sie optional weitere Datumsangaben für periodischen Feiertage hinzu.
 
-10. Wählen Sie **Speichern** aus.
+10. Klicken Sie auf **Speichern**.
 
-    ![Screenshot der Benutzeroberfläche für Feiertage mit Datumsangaben, die für drei Jahre eingerichtet wurden](media/holidays-set-up.png)
+    ![Screenshot der Benutzeroberfläche "Feiertage" mit datumsangaben, die für drei Jahre eingerichtet sind](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Ändern eines Feiertags
 
 So ändern Sie einen Feiertag
 
-1. Wechseln Sie im Microsoft Teams Admin Center zu den **organisationsweiten Einstellungen**  >  **Feiertage**.
+1. Wechseln Sie Microsoft Teams Admin Center zu **Organisationsweite Einstellungen**  >  **Feiertage**.
 
-2. Wählen Sie den Feiertag in der Liste aus.
+2. Wählen Sie den Feiertag aus der Liste aus.
 
-3. Wählen Sie unter **Startzeit** das Kalendersymbol aus, und wählen Sie das Datum aus, an dem der Feiertag beginnen soll.
+3. Wählen **Sie unter Startzeit** das Kalendersymbol und dann das Datum aus, an dem der Feiertag beginnen soll.
 
-4. Verwenden Sie die Dropdownliste, um eine Startzeit für den Feiertag auszuwählen.
+4. Wählen Sie in der Dropdownliste eine Startzeit für den Feiertag aus.
 
-5. Wählen Sie unter **Endzeit** das Kalendersymbol aus, und wählen Sie das Datum aus, an dem der Feiertag enden soll. 
+5. Wählen **Sie unter Endzeit** das Kalendersymbol und dann das Datum aus, an dem der Feiertag enden soll. 
 
-6. Verwenden Sie die Dropdownliste, um eine Endzeit für den Feiertag auszuwählen. Die **Endzeit** muss nach der **Anfangszeit** liegen.  
+6. Wählen Sie in der Dropdownliste eine Endzeit für den Feiertag aus. Die **Endzeit** muss nach der **Startzeit sein.**  
 
-7. Wählen Sie **Speichern** aus.
+7. Klicken Sie auf **Speichern**.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Planen von automatischen Telefonzentralen und Anrufwarteschlangen für Teams](plan-auto-attendant-call-queue.md)
+[Planen Sie Teams automatische Telefonkonferenzen und Anrufwarteschleifen?](plan-auto-attendant-call-queue.md)

@@ -1,4 +1,4 @@
 > [!IMPORTANT]
-> Microsoft 365-Ressourcenkonten sind nicht identisch mit Teams-Ressourcenkonten. Teams-Ressourcenkonten können mit Anrufwarteschlangen und automatischen Telefonzentralen verwendet werden, um Telefonanrufe von externen Telefonnummern zu akzeptieren. Microsoft 365-Ressourcenkonten sind an ein Exchange Online-Postfach gebunden und ermöglichen das Buchen von freigegebenen Ressourcen wie Räumen, Projektoren usw.
+> Microsoft 365 Ressourcenkonten sind nicht mit den Konten Teams identisch. Teams Ressourcenkonten können mit Anrufwarteschleifen und automatischen Telefonkonferenzen verwendet werden, um Telefonanrufe von externen Telefonnummern zu akzeptieren. Microsoft 365 Ressourcenkonten sind an ein Exchange Online-Postfach gebunden und ermöglichen die Buchung freigegebener Ressourcen, z. B. Räume, Projektoren und so weiter.
 >
-> Wenn Sie mehr über die Ressourcenkonten von Teams erfahren möchten, lesen Sie [Verwalten von Ressourcenkonten in Microsoft Teams](../manage-resource-accounts.md).
+> Weitere Informationen zu Ressourcenkonten Teams Sie unter [Verwalten von Ressourcenkonten in Microsoft Teams.](../manage-resource-accounts.md)

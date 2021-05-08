@@ -1,5 +1,5 @@
 ---
-title: Länder- und Regionalzonen für Audiokonferenzen
+title: Länder und Regionen für Audiokonferenzen
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: Listet die Zonen für Audiokonferenzen sowie das Land und die Regionen in den einzelnen Zonen auf.
+description: Listet die Zonen für Audiokonferenzen sowie das Land und die Regionen in jeder Zone auf.
 ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -27,7 +27,7 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821275"
 ---
-# <a name="country-and-region-zones-for-audio-conferencing"></a>Länder- und Regionalzonen für Audiokonferenzen
+# <a name="country-and-region-zones-for-audio-conferencing"></a>Länder und Regionen für Audiokonferenzen
 
 In diesem Artikel werden die Länder und Regionen für Audiokonferenzen aufgeführt.
 
@@ -82,8 +82,8 @@ In diesem Artikel werden die Länder und Regionen für Audiokonferenzen aufgefü
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe](complimentary-dial-out-period.md)
-- [Abonnement für Audiokonferenzen :"Auswählen"/"Rückruf unter" Minutenvorteil](audio-conferencing-subscription-dial-out.md)
+- [Audio conferencing subscription "Dial-Out"/"Call Me At" minutes benefit](audio-conferencing-subscription-dial-out.md)
 - [Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](outbound-calling-restriction-policies.md)
 - [Was sind Guthaben für Kommunikationen?](what-are-communications-credits.md)

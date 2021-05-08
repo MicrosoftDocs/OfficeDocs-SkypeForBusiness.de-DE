@@ -1,5 +1,5 @@
 ---
-title: GOV, edu und gemeinnützige Organisationen
+title: Behörden, Bildungseinrichtungen und gemeinnützige Organisationen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,16 +21,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
-ms.openlocfilehash: ea3ac1e76f16de7a5cc7d9e32f16299bc348a613
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a9a0ca689c3e67927ee2d03636da296bbdf35c9a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692500"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237421"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, edu und gemeinnützige Organisationen
+# <a name="gov-edu-and-non-profit-organizations"></a>Behörden, Bildungseinrichtungen und gemeinnützige Organisationen
 
-Most Skype for Business features are available to .gov, .edu, and nonprofit organizations. See the following table for details.
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+Die meisten Features von Skype for Business sind für die Organisationen .gov, .edu und nonprofit verfügbar. Details finden Sie in der folgenden Tabelle.
 
 |**Skype for Business-Feature**|**Verfügbar für .GOV (GCC)**|**Verfügbar für .GOV (nicht-GCC)**|**Verfügbar für .EDU**|**Verfügbar für gemeinnützige Organisationen**|
 |:-----|:-----|:-----|:-----|:-----|

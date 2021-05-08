@@ -1,13 +1,13 @@
 ---
-title: Planen Ihres Upgrades von Skype for Business auf Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Planen Für Ihr Skype for Business Microsoft Teams Upgrade
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Erfahren Sie, wie Sie ihr Upgrade planen, indem Sie Projektbeteiligten einlisten und dann das Projekt scoping.
+description: Hier erfahren Sie, wie Sie ihr Upgrade planen, indem Sie Projektbeteiligten in die Liste einlisten und dann das Projekt in den Rahmen des Projekts eindingen.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9438f7f8fa97507e78e64633383e29ad032c3e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5dd2fd5241533f54da3e5a06dab90df7f082fe2d
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119074"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282122"
 ---
-# <a name="plan-for-your-upgrade"></a>Planen Ihres Upgrades
+# <a name="plan-for-your-upgrade"></a>Planen ihres Upgrades
 
-![Diagramm der Upgradereise von Teams](media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren Sie Den Projektumfang, die Ziele und die Zeitachse. Bestätigen Sie sowohl die technische Bereitschaft als auch die Benutzerbereitschaft. Führen Sie Ihren Rolloutplan aus. Behalten Sie die Dynamik bei, um die Ergebnisse zu maximieren.")
+![Diagramm der Teams Upgrade-Reise](media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt für den Erfolg mit dem richtigen Projektteam eingerichtet ist. Definieren Sie Projektumfang, -ziele und -zeitachse. Bestätigen Sie sowohl die technische als auch die Benutzerbereitschaft. Führen Sie Ihren Rolloutplan aus. Bleiben Sie in Schwung, um die Ergebnisse zu maximieren.")
 
-Eine gesunde technische Umgebung, eine dauerhafte Benutzeradzeptanz und die Realisierung Ihrer Geschäftsziele beginnen mit der richtigen Planung. Ein solider Plan bietet Ihnen ein Framework für Ihr Upgradeprojekt und stellt sicher, dass alle Projektbeteiligten auf die gleichen Ziele hin arbeiten. Wenn Sie sich Zeit nehmen, um den Erfolg richtig zu definieren, können Sie die Ergebnisse messen, während Sie während der Bereitstellung fortschritten, und überprüfen, ob Sie die von Ihnen gewünschten Ergebnisse erzielen. Die Reiseplanung umfasst:
+Eine gesunde technische Umgebung, eine dauerhafte Benutzeradzeptanz und die Realisierung Ihrer geschäftlichen Ziele beginnen mit einer ordnungsgemäßen Planung. Ein solider Plan bietet Ihnen ein Framework für Ihr Upgradeprojekt und stellt sicher, dass alle Beteiligten auf die gleichen Ziele hin arbeiten. Indem Sie sich Zeit nehmen, um den Erfolg richtig zu definieren, können Sie die Ergebnisse messen, während Sie die Bereitstellungsbereitstellung mitvermessen, und sicherstellen, dass Sie die von Ihnen gesuchten Ergebnisse erzielen. Planen Ihrer Reise umfasst:
 
-- [Einlisten Ihrer Projektbeteiligten](upgrade-enlist-stakeholders.md)
+- [Benennung der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Umfangs Ihres Projekts](./upgrade-define-project-scope.md)
-- [Grundlegendes zur Koexistenz und Interoperabilität von Skype for Business und Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-- [Auswählen Ihres Upgradewegs basierend auf Ihren geschäftlichen Anforderungen](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Grundlegendes zur Koexistenz und Interoperabilität Skype for Business und Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Auswählen Ihres Upgradewegs basierend auf Ihren Geschäftsanforderungen](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Planen eines Benutzerpiloten](pilot-essentials.md)
 
-Nachdem Sie Ihre Reise geplant haben, [](upgrade-prepare-environment.md) lesen Sie Themen zum Vorbereiten Ihrer Umgebung und zum [Vorbereiten](upgrade-prepare-organization.md) Ihrer Organisation, bevor Sie [das Upgrade implementieren.](upgrade-to-teams.md)  
+Nachdem Sie Ihre Reise geplant haben, [](upgrade-prepare-environment.md) lesen Sie [](upgrade-prepare-organization.md) Themen zum Vorbereiten Ihrer Umgebung und Vorbereiten Ihrer Organisation, bevor Sie [das Upgrade implementieren.](upgrade-to-teams.md)  
 
 > [!TIP]
-> Nehmen Sie an interaktiven Liveworkshops teil, in denen wir Ihnen Anleitungen, bewährte Methoden und Ressourcen für den Einstieg in die Upgradeplanung und -implementierung bieten.
+> Nehmen Sie an Live-, interaktiven Workshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die als Starthilfe für die Planung und Implementierung von Upgrades entwickelt wurden.
 >
-> Nehmen Sie [zuerst an der Upgradesitzung](./upgrade-workshops-landing-page.yml) planen teil, um zu beginnen.
+> Nehmen Sie zuerst [an der Upgradesitzung](./upgrade-workshops-landing-page.yml) planen teil, um zu beginnen.

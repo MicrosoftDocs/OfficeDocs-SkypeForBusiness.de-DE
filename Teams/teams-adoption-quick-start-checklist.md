@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Verwenden Sie diese Schnellstartcheckliste, um den Erfolg sicherzustellen, wenn Ihre Organisation mit der Einführung von Microsoft Teams beginnt.
+description: Verwenden Sie diese Schnellstartcheckliste, um den Erfolg sicherzustellen, sobald Ihre Organisation mit der Einführung der Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -49,7 +49,7 @@ ms.locfileid: "49809315"
 - [Erstellen Ihres Expertenprogramms](teams-adoption-create-champions-program.md)
 - [Abschließen des Governance-Schnellstarts](teams-adoption-governance-quick-start.md)
 - [Definieren der Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)
-- [Vorstellungsgespräch mit Projektbeteiligten](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [Vorstellungsgespräch mit projektbeteiligten Unternehmen](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [Planen und Priorisieren von Geschäftsszenarien](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [Onboarding von Early Adopters und Sammeln von Feedback](teams-adoption-onboard-early-adopters.md)
 - [Onboardingsupport](teams-adoption-onboard-support.md)
@@ -57,8 +57,8 @@ ms.locfileid: "49809315"
 ## <a name="phase-3---scale"></a>Phase 3: Skalierung
 
 - [Definieren von Ergebnissen und Erfolgsmaßnahmen](teams-adoption-define-outcomes.md)
-- [Auswählen einer Strategie zur Aktivierung von Dienstleistungen](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [Beteiligte an der Projektbeteiligten](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [Auswählen einer Strategie für die Dienstermöglichung](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [Beteiligte](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [Erweitern Ihres Implementierungsteams](teams-adoption-define-outcomes.md#expand-your-implementation-team)
 - [Erweitern Ihrer Governance- und Informationsverwaltungsrichtlinien](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [Optimieren von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)

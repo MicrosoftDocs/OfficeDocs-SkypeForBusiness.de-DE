@@ -20,49 +20,49 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie das Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (PSTN-Anrufpläne) verwenden.
-ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erfahren Sie, wie Sie Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (Wählpläne für PSTN-Anrufe) verwenden.
+ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120807"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282362"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
-Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisierungsregeln für die Anrufrouting erstellt haben, können Sie die Wählpläne erstellen. Sie können das Microsoft Teams Admin Center oder Windows PowerShell verwenden, um Wählpläne zu erstellen und zu verwalten.  
+Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisierungsregeln herauseriert haben, die für die Anrufrouting erstellt werden müssen, können Sie die Wählpläne erstellen. Bei einem Administratorkonto, das über eine gültige Teams-Lizenz verfügt, können Sie das Microsoft Teams Admin Center oder Windows PowerShell verwenden, um Wählpläne zu erstellen und zu verwalten.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 ### <a name="create-a-dial-plan"></a>Erstellen eines Wählplans
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  >  **Sprachwahlplan.**
-2. Klicken **Sie auf** Hinzufügen , und geben Sie dann einen Namen und eine Beschreibung für den Wählplan ein.
-    ![Screenshot der Seite Hinzufügen zum Erstellen eines Wählplans](media/create-dial-plan.png)
+1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachwählplan**.
+2. Klicken **Sie auf** Hinzufügen , und geben Sie einen Namen und eine Beschreibung für den Wählplan ein.
+    ![Screenshot der Seite "Hinzufügen" zum Erstellen eines Wählplans](media/create-dial-plan.png)
 3. Geben **Sie unter** Wählplandetails ein externes Wählpräfix an, wenn Benutzer eine oder mehrere zusätzliche führende Ziffern (z. B. 9) wählen müssen, um eine externe Leitung zu erhalten. Gehen Sie dazu so vor:
-    1. Geben Sie **im Feld Externes Wählpräfix** ein externes Wählpräfix ein. Das Präfix kann bis zu vier Zeichen (#,*und 0-9) umfassen.
-    2. Aktivieren Sie **Optimierte Gerätewählung.** Wenn Sie ein externes Wählpräfix angeben, müssen Sie diese Einstellung auch aktivieren, um das Präfix anzuwenden, damit Anrufe außerhalb Ihrer Organisation vorgenommen werden können.
-4. Konfigurieren **und ordnen Sie unter** Normalisierungsregeln eine oder mehrere [Normalisierungsregeln](what-are-dial-plans.md#normalization-rules) für den Wählplan zu. Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein.  Gehen Sie dazu mit einer oder mehreren der folgenden Schritte vor:
-    - Wenn Sie eine neue Normalisierungsregel erstellen und dem Wählplan zuordnen möchten, klicken Sie auf **Hinzufügen**, und definieren Sie dann die Regel.
-    - Wenn Sie eine Normalisierungsregel bearbeiten möchten, die bereits dem Wählplan zugeordnet ist, wählen Sie die Regel aus, indem Sie links vom Regelnamen klicken und dann auf **Bearbeiten klicken.** Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
-    - Wenn Sie eine Normalisierungsregel aus dem Wählplan entfernen möchten, wählen Sie die Regel aus, indem Sie links vom Regelnamen klicken und dann auf **Entfernen klicken.**
-5. Ordnen Sie die Normalisierungsregeln in der reihenfolge an, die Sie wünschen. Klicken **Sie auf Nach oben** oder Nach **unten,** um die Position von Regeln in der Liste zu ändern.
+    1. Geben Sie **im Feld Externes Wählpräfix** ein externes Wählpräfix ein. Das Präfix kann bis zu vier Zeichen (#,* und 0-9) enthalten.
+    2. Aktivieren Sie **die optimierte Wähleinrichtung für Geräte.** Wenn Sie ein externes Wählpräfix angeben, müssen Sie diese Einstellung auch aktivieren, um das Präfix anzuwenden, damit Anrufe außerhalb Ihrer Organisation vorgenommen werden können.
+4. Konfigurieren **und ordnen Sie unter Normalisierungsregeln** eine oder mehrere [Normalisierungsregeln](what-are-dial-plans.md#normalization-rules) für den Wählplan zu. Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein.  Dazu gehen Sie wie folgt vor:
+    - Wenn Sie eine neue Normalisierungsregel erstellen und dem Wählplan zuordnen möchten, klicken Sie auf Hinzufügen **,** und definieren Sie dann die Regel.
+    - Zum Bearbeiten einer Normalisierungsregel, die bereits mit dem Wählplan verknüpft ist, wählen Sie die Regel aus, indem Sie links des Regelnamens und dann auf **Bearbeiten klicken.** Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
+    - Um eine Normalisierungsregel aus dem Wählplan zu entfernen, wählen Sie die Regel aus, indem Sie links des Regelnamens und dann auf **Entfernen klicken.**
+5. Ordnen Sie die Normalisierungsregeln in der von Ihnen zu ändernden Reihenfolge an. Klicken **Sie auf Nach** oben oder Nach **unten,** um die Position von Regeln in der Liste zu ändern.
 
     > [!NOTE]
-    > Teams durchläuft die Liste der Normalisierungsregeln von oben nach unten und verwendet die erste Regel, die der gewählten Nummer entspricht. Wenn Sie einen Wählplan so einrichten, dass eine Wählnummer mehr als einer Normalisierungsregel entsprechen kann, stellen Sie sicher, dass die restriktiveren Regeln über den weniger restriktiven Regeln sortiert sind.
+    > Teams die Liste der Normalisierungsregeln von oben nach unten durchläuft und die erste Regel verwendet, die der gewählten Nummer entspricht. Wenn Sie einen Wählplan so einrichten, dass eine gewählte Nummer mehreren Normalisierungsregeln entsprechen kann, stellen Sie sicher, dass die restriktiveren Regeln über den weniger restriktiven Regeln sortiert sind.
 
 6. Klicken Sie auf **Speichern**.
-7. Wenn Sie den Wählplan testen möchten, geben Sie unter **Wählplan testen** eine Telefonnummer ein, und klicken Sie dann auf **Testen.**
+7. Wenn Sie den Wählplan testen möchten, geben Sie unter **Wählplan** testen eine Telefonnummer ein, und klicken Sie dann auf **Testen.**
 
 ### <a name="edit-a-dial-plan"></a>Bearbeiten eines Wählplans
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  >  **Sprachwahlplan.**
+1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachwählplan**.
 2. Wählen Sie den Wählplan aus, indem Sie links vom Namen des Wählplans klicken und dann auf **Bearbeiten klicken.**
 3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
 
 ### <a name="assign-a-dial-plan-to-users"></a>Zuweisen eines Wählplans zu Benutzern
 
-Sie weisen einen Wählplan auf die gleiche Weise zu, wie Sie Richtlinien zuweisen. [!INCLUDE [assign-policy](includes/assign-policy.md)]
+Sie weisen einen Wählplan auf die gleiche Weise wie Richtlinien zu. [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
   
@@ -89,56 +89,56 @@ Sie können entweder ein einzelnes Cmdlet oder ein PowerShell-Skript verwenden, 
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [New-CsTenantDialPlan.](/powershell/module/skype/new-cstenantdialplan)
     
-- Führen Sie zum Bearbeiten der Einstellungen eines vorhandenen Wählplans aus:
+- Führen Sie zum Bearbeiten der Einstellungen eines vorhandenen Wählplans die
     
   ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [Set-CsTenantDialPlan.](/powershell/module/skype/set-cstenantdialplan)
     
-- Führen Sie zum Hinzufügen von Benutzern zu einem Wählplan aus:
+- Führen Sie zum Hinzufügen von Benutzern zu einem Wählplan die
     
   ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [Grant-CsTenantDialPlan.](/powershell/module/skype/grant-cstenantdialplan)
     
-- Führen Sie zum Anzeigen der Einstellungen in einem Wählplan aus:
+- Führen Sie zum Anzeigen der Einstellungen in einem Wählplan die
     
   ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps).
+    Weitere Beispiele und Parameter finden Sie unter [Get-CsTenantDialPlan.](/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
     
-- Führen Sie zum Löschen eines Wählplans aus:
+- Führen Sie zum Löschen eines Wählplans die
     
   ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).
+    Weitere Beispiele und Parameter finden Sie unter [Remove-CsTenantDialPlan.](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)
     
-- Führen Sie zum Sehen der Einstellungen des effektiven Wählplans aus:
+- Um die Einstellungen des effektiven Wählplans zu sehen, führen Sie die
     
   ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan).
+    Weitere Beispiele und Parameter finden Sie unter [Get-CsEffectiveTenantDialPlan.](/powershell/module/skype/get-cseffectivetenantdialplan)
     
-- Führen Sie zum Testen der effektiven Einstellungen eines Wählplans aus:
+- Um die effektiven Einstellungen eines Wählplans zu testen, führen Sie die
     
   ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    Weitere Beispiele und Parameter finden Sie unter [Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).
+    Weitere Beispiele und Parameter finden Sie unter [Test-CsEffectiveTenantDialPlan.](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)
     
 #### <a name="using-a-powershell-script"></a>Verwenden eines PowerShell-Skripts
 
@@ -150,18 +150,18 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
-Führen Sie dies aus, um dem vorhandenen Mandantenwählplan mit dem Namen RedmondDialPlan die folgende Normalisierungsregel hinzuzufügen.
+Führen Sie diese Schritte aus, um dem vorhandenen Mandantenwählplan "RedmondDialPlan" die folgende Normalisierungsregel hinzuzufügen.
 ```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
-Führen Sie dies aus, um die folgende Normalisierungsregel aus dem vorhandenen Mandantenwählplan namens RedmondDialPlan zu entfernen.
+Führen Sie diese Schritte aus, um die folgende Normalisierungsregel aus dem vorhandenen Mandantenwählplan namens RedmondDialPlan zu entfernen.
 ```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-Führen Sie Folgendes aus, wenn Sie auch die vorhandenen Normalisierungsregeln untersuchen, bestimmen möchten, welche Sie löschen möchten, und verwenden Sie dann den Index, um ihn zu entfernen. Das Array der Normalisierungsregeln beginnt mit Index 0. Wir möchten die dreistellige Normalisierungsregel entfernen, d. h. Index 1.
+Führen Sie die folgenden Schritte aus, wenn Sie auch die vorhandenen Normalisierungsregeln untersuchen, bestimmen möchten, welche gelöscht werden sollen, und dann den Index verwenden möchten, um sie zu entfernen. Das Array der Normalisierungsregeln beginnt mit Index 0. Wir möchten die Normalisierungsregel für drei Stellen entfernen, das heißt Index 1.
   
 ```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -181,20 +181,20 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-Führen Sie dies aus, um alle Benutzer zu finden, denen der Wählplan des RedmondDialPlan-Mandanten gewährt wurde.
+Führen Sie dies aus, um alle Benutzer zu finden, denen der Mandantenwählplan "RedmondDialPlan" gewährt wurde.
   
 ```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Führen Sie dies aus, um alle zugewiesenen TenantDialPlan von allen Benutzern zu entfernen, die über einen HostingProvider von sipfed.online.lync.com.
+Führen Sie dies aus, um alle zugewiesenen TenantDialPlan-Dateien von allen Benutzern zu entfernen, die über einen HostProvider von sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-Führen Sie diese aus, um den vorhandenen lokalen Wählplan namens OPDP1 als Mandantenwählplan für Ihre Organisation hinzuzufügen. Sie müssen den lokalen Wählplan zuerst in einer XML-Datei speichern und dann zum Erstellen des neuen Mandantenwählplans verwenden.
+Führen Sie diese aus, um den vorhandenen lokalen Wählplan mit dem Namen OPDP1 als Mandantenwählplan für Ihre Organisation hinzuzufügen. Sie müssen zuerst den lokalen Wählplan in einer .xml speichern und dann damit den neuen Mandantenwählplan erstellen.
   
-Führen Sie dies aus, um den lokalen Wählplan in der XML-Datei zu speichern.
+Führen Sie dies aus, um den lokalen Wählplan in der .xml speichern.
   
 ```PowerShell
 $DPName = "OPDP1"

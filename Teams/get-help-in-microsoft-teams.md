@@ -13,7 +13,7 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Informieren Sie sich über Hilfethemen, Videos, Anmerkungen zu dieser Version und Feedback Foren, um Hilfe zu Microsoft Teams zu erhalten.
+description: Informieren Sie sich über Hilfethemen, Videos, Anmerkungen zu dieser Version und Feedbackforen, um Hilfe in Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
@@ -27,17 +27,17 @@ ms.locfileid: "46583212"
 <a name="get-help-in-microsoft-teams"></a>Anfordern von Hilfe in Microsoft Teams
 ============================================
 
-Über die Schaltfläche "Hilfe" in Microsoft Teams können Ihre Benutzer und Champions alle Unterstützung finden, die Sie möglicherweise bei der Verwendung von Teams benötigen.
+Über die Schaltfläche Hilfe in Microsoft Teams können Ihre Benutzer und Ihre Helfer alle Unterstützung finden, die sie bei der Verwendung ihrer Teams.
 
-Teams bietet Unterstützung für lokalisierte Sprachen für Hilfeinhalte. Die aktuelle Liste der unterstützten Sprachen finden Sie unter [Unterstützte Sprachen in Microsoft Teams für Hilfeinhalte](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).
+Teams bietet lokalisierte Sprachunterstützung für Hilfeinhalte. Die aktuelle Liste der unterstützten Sprachen finden Sie [Microsoft Teams von unterstützten Sprachen für Hilfeinhalte.](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)
 
- - **Themen durchsuchen** – dies geht an Hilfeinhalte, die nach Teams geordnet sind. Einfache und unkomplizierte Anleitung, mit der Benutzer die besten Teams optimal nutzen können. 
+ - **Themen durchsuchen** – Hier finden Sie Hilfeinhalte, die nach Themen Teams organisiert sind. Einfache und geradlinige Anleitungen, mit deren Hilfe Benutzer das Beste aus Teams. 
 
- - **Videos** – mithilfe unserer on-Demand-Videoinhalte können Benutzer bestimmte Aufgaben schnell erlernen. Wir sind ständig dabei, neue Videos zu produzieren, schauen Sie also regelmäßig vorbei. Internet Zugang ist natürlich erforderlich. 
+ - **Videos** – Unsere on-demand-Videoinhalte ermöglichen Benutzern, bestimmte Aufgaben schnell zu erlernen. Da wir ständig neue Videos erstellen, schauen Sie regelmäßig hier nach. Internetzugriff ist natürlich erforderlich. 
 
- - **Neuerungen** - 
-    Regelmäßige Anmerkungen zu dieser Version von Benutzern und Teambesitzern zu neuen oder aktualisierten Features von Teams.
+ - **Was ist neu?** - 
+    Regelmäßige Versionshinweise für Benutzer und Teambesitzer zu neuen oder aktualisierten Teams Features.
 
- - Teilen Sie eine Idee – wir möchten Ihnen immer von Ihnen **mitteilen** , wie Sie die Teams verbessern können. Mit dieser Option gelangen Sie zu unserem Forum für Produktfeedback, in dem Sie neue Feature-Anfragen einreichen oder über vorhandene abstimmen können. Wir überprüfen diese Informationen ständig, wenn wir neue Funktionen planen. 
+ - **Idee teilen** – Wir möchten von Ihnen immer wissen, wie Sie Ihr Teams. Diese Option bringt Sie zu unserem Produktfeedback-Forum, in dem Sie Neue Featureanforderungen übermitteln oder vorhandene Abstimmen können. Wir überprüfen diese Informationen ständig, während wir neue Features planen. 
 
 

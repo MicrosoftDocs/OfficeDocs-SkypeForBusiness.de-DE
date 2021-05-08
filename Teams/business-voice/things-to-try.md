@@ -1,5 +1,5 @@
 ---
-title: Aktivitäten, die Sie nach dem Einrichten von Business Voice testen sollten
+title: Nach dem Einrichten von Business Voice zu probieren
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827363"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a>Aktivitäten, die Sie nach dem Einrichten von Business Voice testen sollten
+# <a name="things-to-try-after-setting-up-business-voice"></a>Nach dem Einrichten von Business Voice zu probieren
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>

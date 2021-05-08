@@ -1,7 +1,7 @@
 ---
 title: Administrator-Schulung für Microsoft Teams
 ms.reviewer: ''
-description: Holen Sie sich die Administratorschulung und den Support, die Sie zum Verwalten von Microsoft Teams in Ihrer Organisation benötigen.
+description: Holen Sie sich die Schulung und den Support für Administratoren, die Sie zum Verwalten ihrer Microsoft Teams in Ihrer Organisation benötigen.
 author: cichur
 manager: serdars
 audience: admin
@@ -43,7 +43,7 @@ Erfahren Sie, wie Sie Teams für Ihre Organisation verwalten.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEU: Kursleiterunter leitung Schulung für Teams</h3>
+                        <h3>NEU: Kursleiterleiter-Schulung für Teams</h3>
                     </div>
                 </div>
             </div>

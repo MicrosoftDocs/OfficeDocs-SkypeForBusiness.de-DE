@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
+title: Erstellen Einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie eine vorhandene Teamvorlage zum Erstellen einer neuen Teamvorlage in Microsoft Teams verwenden.
+description: Erfahren Sie, wie Sie eine vorhandene Teamvorlage zum Erstellen einer neuen Teamvorlage in einem Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,57 +23,57 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 09/30/2020
 ms.locfileid: "48308098"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Erstellen einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
+# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Erstellen Einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Benutzerdefinierte Vorlagen werden für edu-Kunden noch nicht unterstützt.**
+**Benutzerdefinierte Vorlagen werden für EDU-Kunden noch nicht unterstützt.**
 
-Microsoft Teams bietet vorgefertigte Vorlagen, die gespeichert und geändert werden können, um Ihren speziellen organisatorischen Anforderungen gerecht zu werden.
+Microsoft Teams stellt vordefinierte Vorlagen bereit, die gespeichert und an Ihre speziellen Organisationsanforderungen angepasst werden können.
 
-1. Anmelden beim Team Admin Center.
+1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich **Teams**die  >  **Teamvorlagen**für Teams.
+2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
 
-3. Wählen Sie im Abschnitt **Team Vorlagen** neben einer Vorlage aus, die Sie duplizieren möchten, um Sie zu markieren.
+3. Wählen Sie **im Abschnitt Teamvorlagen** neben einer Vorlage, die Sie duplizieren möchten, um sie zu markieren.
 
-4. Wählen Sie **Duplizieren**aus.
+4. Wählen Sie **Duplizieren aus.**
 
-![Abbildung des Dialogfelds "Team Vorlagen" mit hervorgehobener Option "hinzufügen"](media/template-duplicate.png)
+![Abbildung des Dialogfelds "Teamvorlagen" mit hervorgehobener Hervorhebung "Hinzufügen".](media/template-duplicate.png)
 
-(Alternativ können Sie " **Hinzufügen**  >  " auswählen. **Beginnen mit einer vorhandenen Vorlage** zum Öffnen **Wählen Sie die Vorlage aus, die Sie als Ausgangspunkt verwenden möchten**.)
+(Alternativ können Sie Hinzufügen **auswählen.**  >  **Mit einer vorhandenen Vorlage zum Öffnen** beginnen Wählen Sie die Vorlage **aus, die als Ausgangspunkt verwendet werden soll.)**
 
-![Abbildung des Bildschirms "Startpunkt für Team Vorlagen" mit hervorgehobener Option "mit einer vorhandenen Vorlage beginnen".](media/template-start-existing-template.png)
+![Abbildung des Startbildschirms der Teamvorlagen mit hervorgehobener Hervorhebung von "Start" mit einer vorhandenen Vorlage.](media/template-start-existing-template.png)
 
-5. Wählen Sie im Bildschirm **Vorlage als Ausgangspunkt verwenden** die Option **weiter**aus.
+5. Wählen Sie im Bildschirm Wählen Sie die Vorlage aus, die **als Startpunkt verwendet werden** soll die Option Weiter **aus.**
 
-    Die duplizierte Vorlage wird geöffnet, und das Word- **Exemplar** wird an den Namen angefügt.
+    Die duplizierte Vorlage wird geöffnet, und das Wort **Kopie** wird an den Namen angefügt.
 
-6. Füllen Sie die folgenden Felder aus, und wählen Sie dann **weiter**aus:
+6. Füllen Sie die folgenden Felder aus, und wählen Sie dann **Weiter aus:**
     - Vorlagenname
-    - Vorlagen für kurze und lange Beschreibungen
-    - Gebietsschema Sichtbarkeit  
+    - Kurze und lange Beschreibungen von Vorlagen
+    - Sichtbarkeit des Locale  
 
-7. Ändern Sie im Abschnitt **Kanäle, Registerkarten und apps** alle vorhandenen Kanäle und apps, die Ihr Team benötigt.
+7. Ändern Sie **im Abschnitt Kanäle, Registerkarten** und Apps alle vorhandenen Kanäle und Apps, die Ihr Team benötigt.
 
-    1. Wählen Sie einen zu bearbeitenden Kanal aus, und wählen Sie **Bearbeiten**aus.
-    2. Über **nehmen** Sie Ihre Änderungen, wenn Sie Sie beenden.
+    1. Wählen Sie einen Kanal zum Bearbeiten und dann **Bearbeiten aus.**
+    2. **Wenden Sie** die Änderungen an, wenn Sie fertig sind.
 
-8. Fügen Sie alle Kanäle oder apps hinzu, die Ihr Team benötigt.
+8. Fügen Sie alle Kanäle oder Apps hinzu, die Ihr Team benötigt.
 
-    1. Wählen Sie im Abschnitt **Kanäle** die Option **Hinzufügen**aus.
-    2. Geben Sie im Dialogfeld **Hinzufügen** den Namen des Kanals ein.
+    1. Wählen Sie **im Abschnitt** Kanäle die Option **Hinzufügen aus.**
+    2. Geben Sie **dem Kanal** im Dialogfeld Hinzufügen einen Namen.
     3. Fügen Sie eine Beschreibung hinzu.
     4. Entscheiden Sie, ob der Kanal standardmäßig angezeigt werden soll.
-    5. Suchen Sie nach dem APP-Namen, den Sie dem Kanal hinzufügen möchten.
-    6. Wählen Sie nach Abschluss **anwenden** aus.
+    5. Suchen Sie nach einem App-Namen, den Sie dem Kanal hinzufügen möchten.
+    6. Wenn Sie **fertig sind,** wählen Sie Übernehmen aus.
 
-7. Wählen Sie **Absenden** aus, wenn Sie mit dem Hinzufügen von Kanälen und apps fertig sind.
+7. Wählen **Sie Absenden** aus, wenn Sie mit dem Hinzufügen von Kanälen und Apps fertig sind.
 
     Die neue Vorlage wird in der Vorlagenbibliothek gespeichert.
 
 > [!Note]
-> Es kann bis zu 24 Stunden dauern, bis Team Benutzer eine benutzerdefinierte Vorlage im Katalog sehen können.
+> Es kann bis zu 24 Stunden dauern, bis Teams-Benutzer eine benutzerdefinierte Vorlage im Katalog sehen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

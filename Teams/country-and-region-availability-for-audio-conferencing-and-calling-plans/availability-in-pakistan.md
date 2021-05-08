@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Pakistan verfügbar sind.
+description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Pakistan verfügbar.
 ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51102311"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Pakistan verfügbar sind.
+Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Pakistan verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -73,7 +73,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
- Beachten Sie, dass in Pakistan Dienstnummern nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Nummern für Audiokonferenzen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
+ Beachten Sie, dass in Pakistan Servicenummern nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für Skype for Business [und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

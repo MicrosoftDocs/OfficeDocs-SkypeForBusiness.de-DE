@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Informieren Sie sich, welche Sprachen Sie in Skype for Business für die standardmäßigen Systemnachrichten und Voicemail-Grußformeln festlegen können.
+description: Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardsystemnachrichten und Voicemail-Begrüßungen festlegen können.
 ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
 ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
@@ -64,23 +64,23 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |Koreanisch  <br/> |Koreanisch  <br/> |ko-KR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Norwegisch (Bokmal)  <br/> |Norwegen  <br/> |nb-NO  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |
 |Polnisch  <br/> |Polen  <br/> |pl-PL  <br/> |Ja  <br/> | Ja <br/> |Nein  <br/> |
-|Portugiesisch  <br/> |Brasilien  <br/> |pt-BR  <br/> |Ja, verwendet wird aber Portugiesisch (Portugal) (pt-PT).  <br/> |Ja   <br/> |Ja  <br/> |
-|Portugiesisch  <br/> |Portugal  <br/> |pt-PT  <br/> |Ja   <br/> |Ja  <br/> |Ja, verwendet wird aber Portugiesisch (Brasilien) (pt-BR).  <br/> |
-|Rumänisch<br/> |Rumänien  <br/> |ro-RO  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Russisch  <br/> |Russland  <br/> |ru-RU  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Slowakisch <br/> |Slowakei  <br/> |sk-SK  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Slowenisch <br/> |Slowenien  <br/> |SL-SI  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Spanisch  <br/> |Spanien  <br/> |es-ES  <br/> |Ja   <br/> |Ja   <br/> |Ja  <br/> |
+|Portugiesisch  <br/> |Brasilien  <br/> |pt-BR  <br/> |Ja, verwendet wird aber Portugiesisch (Portugal) (pt-PT).  <br/> |Ja  <br/> |Ja  <br/> |
+|Portugiesisch  <br/> |Portugal  <br/> |pt-PT  <br/> |Ja  <br/> |Ja  <br/> |Ja, verwendet wird aber Portugiesisch (Brasilien) (pt-BR).  <br/> |
+|Rumänisch<br/> |Rumänien  <br/> |ro-RO  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Russisch  <br/> |Russland  <br/> |ru-RU  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Slowakisch <br/> |Slowakei  <br/> |sk-SK  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Slowenisch <br/> |Slowenien  <br/> |sl-SI  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Spanisch  <br/> |Spanien  <br/> |es-ES  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Spanisch  <br/> |Mexiko  <br/> |es-MX  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |Ja  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |
 |Schwedisch  <br/> |Schweden  <br/> |sv-SE  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Thai <br/> |Thailand  <br/> |th-TH  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Vietnamesisch <br/> |Vietnam  <br/> |vi-VN  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Thai <br/> |Thailand  <br/> |th-TH  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Vietnamesisch <br/> |Vietnam  <br/> |vi-VN  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Das Telefonsystem bietet Ihnen Folgendes](here-s-what-you-get-with-phone-system.md)
+[Vorteile des Telefonsystems](here-s-what-you-get-with-phone-system.md)
   
   
  

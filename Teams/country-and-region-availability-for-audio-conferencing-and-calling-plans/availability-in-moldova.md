@@ -25,7 +25,7 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: Hier finden Sie Informationen dazu, welche Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams in Moldawien verfügbar sind.
+description: Finden Sie Informationen darüber, Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams in Republik Microsoft 365 verfügbar sind.
 ms.openlocfilehash: 477cfc33995d1a72e2407afdb0e5f8a9453056bd
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -37,13 +37,13 @@ ms.locfileid: "51102471"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Moldawien verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams republikenische Republiken.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Per-Minute-Zahlung](../audio-conferencing-pay-per-minute.md)  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Minuten](../audio-conferencing-pay-per-minute.md) bezahlt  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Guthaben für Kommunikationen  <br/> |
    

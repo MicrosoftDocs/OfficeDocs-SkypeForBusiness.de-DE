@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
-description: Erfahren Sie mehr über die Verwendung von Microsoft Teams für den Systemspeicher, und warum die Speicherauslastung zwischen der Desktopanwendung und der Webanwendung identisch ist.
+description: Erfahren Sie, Microsoft Teams systemspeichern und warum die Speicherauslastung zwischen der Desktopanwendung und der Webanwendung identisch ist.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -26,44 +26,44 @@ ms.locfileid: "48878719"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Verwendung des Arbeitsspeichers durch Microsoft Teams
 
-Einige Microsoft Teams-Benutzer haben Fragen zur Verwendung von Arbeitsspeicher durch Teams. In diesem Artikel wird beschrieben, wie Arbeitsspeicher von Teams verwendet wird und warum die Team-Desktopanwendung (app) und die Teams-Web-App nicht verhindern, dass andere apps und Arbeitsauslastungen auf demselben Computer genügend Arbeitsspeicher aufweisen, um optimal ausgeführt zu werden. Teams ist für die Nutzung der modernen Web-Technologie konzipiert. Um dies zu erreichen, wurde der Desktop-Client von Teams auf Electron entwickelt, der Chrom für das Rendering verwendet. Dabei handelt es sich um das gleiche Rendering-Modul hinter vielen der heute beliebtesten Browser, einschließlich Edge und Chrome.
+Einige Microsoft Teams Benutzer haben Fragen zur Verwendung Teams Speichers. In diesem Artikel wird beschrieben, wie Teams Arbeitsspeicher verwendet und warum die Teams-Desktopanwendung (App) und die Teams-Web-App nicht verhindern, dass andere Apps und Workloads auf demselben Computer über genügend Arbeitsspeicher für eine optimale Ausführung verfügbar sind. Teams ist für die Verwendung moderner Webtechnologien ausgelegt. Um dies zu erreichen, Teams der Desktopclient für Windows-Apps auf der Website "Electron" entwickelt, die Chromium Rendering verwendet. Dies ist dasselbe Renderingmodul hinter vielen der beliebtesten Browser, darunter Edge und Chrome.
 
-## <a name="how-teams-works"></a>Funktionsweise von Teams
+## <a name="how-teams-works"></a>Funktionsweise Teams E-Teams
 
-Teams, die auf Elektronen entwickelt wurden, ermöglichen eine schnellere Entwicklung, und es wird auch die Parität zwischen den Teams-Versionen für verschiedene Betriebssysteme (Windows, Mac und Linux) beibehalten. Diese Parität ist möglich, da Elektron und Chrom eine ähnliche CodeBase in allen Versionen aufweisen. Ein weiterer Vorteil dieser Architektur ist ein ähnliches Speicher Nutzungsprofil zwischen der Team Web App und der Desktop Version. Sowohl die Web-App als auch die Desktop Versionen verwenden den Arbeitsspeicher auf ähnliche Weise wie in einem Browser. Weitere Informationen zu Electron finden Sie auf [der](https://electronjs.org/)Website.
+Teams die Entwicklung auf Basis von Electron ermöglicht eine schnellere Entwicklung und sorgt außerdem für eine Parität zwischen Teams-Versionen verschiedener Betriebssysteme (Windows, Mac und Linux). Diese Parität ist möglich, da "Electron" und Chromium über eine ähnliche Codebasis für alle Versionen hinweg unterhalten. Ein weiterer Vorteil dieser Architektur ist ein ähnliches Speicherauslastungsprofil zwischen der Teams Web App und der Desktopversion. Sowohl die Web-App als auch die Desktopversionen nutzen Arbeitsspeicher auf ähnliche Weise wie ein Browser. Weitere Informationen zu "Electron" finden Sie [auf der jeweiligen Website.](https://electronjs.org/)
 
-Weitere Informationen finden Sie unter [Chrom Speichernutzung](https://www.chromium.org/developers/memory-usage-backgrounder) und [Schlüsselkonzepte im Chrom Speicher](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md) .
+Weitere [Chromium finden Sie](https://www.chromium.org/developers/memory-usage-backgrounder) unter Verwenden des Speichers und wichtige Konzepte im [Chrome-Speicher.](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)
 
-Die folgende Abbildung zeigt die parallele Speichernutzung der Team-Desktop-App für Windows und der Team-Web-App (in diesem Beispiel, die in Google Chrome ausgeführt wird).
+Die folgende Abbildung zeigt die Speicherauslastung der Teams-Desktop-App für Windows und der Teams Web-App (in diesem Beispiel in Google Chrome).
 
-![Arbeitsspeicherauslastung von Teams für die Desktop-App und Web-App](media/teams-memory-clientweb.png)
+![Teams der Speicherauslastung für die Desktop-App und Web-App](media/teams-memory-clientweb.png)
 
 ## <a name="memory-usage-in-teams"></a>Speicherauslastung in Teams
 
-Es ist wichtig, das *erwartete* Verhalten von Teams zu verstehen, wenn es um den Systemspeicher geht, und die Symptome wirklich problematischer Systemspeicher Probleme zu erkennen.
+Es ist wichtig,  das erwartete Verhalten von Teams Systemspeicher zu verstehen und die Symptome von wirklich problematischen Systemspeicherproblemen zu kennen.
 
 ### <a name="expected-memory-usage-by-teams"></a>Erwartete Speicherauslastung durch Teams
 
-Unabhängig davon, ob Sie die Desktop-App "Teams" oder die Team-Web-App ausführen, erkennt Chrom, wie viel Systemarbeitsspeicher verfügbar ist, und nutzt genügend Arbeitsspeicher, um die Rendering-Funktionalität zu optimieren. Wenn andere apps oder Dienste Systemspeicher erfordern, gibt Chrom Speicher für diese Prozesse aus. Chrom optimiert die Arbeitsspeichernutzung von Teams kontinuierlich, um die Leistung von Teams zu optimieren, ohne dass sich dies auf etwas anderes auswirkt, das derzeit ausgeführt wird.
+Unabhängig davon, ob Sie die Teams-Desktop-App oder die Teams-Web-App ausführen, erkennt Chromium, wie viel Systemspeicher verfügbar ist, und nutzt ausreichend Speicherplatz, um die Renderingerfahrung zu optimieren. Wenn für andere Apps oder Dienste Systemspeicher erforderlich ist, Chromium Systemspeicher für diese Prozesse ein. Chromium sie die Teams fortlaufend optimieren, um die Teams leistung zu optimieren, ohne dass sich dies auf andere derzeit ausgeführte Ressourcen auswirken kann.
 
-Auf diese Weise können ähnliche Chrom Arbeitslasten je nach verfügbarem Systemspeicher unterschiedliche Speichermengen verwenden.
+Auf diese Weise können Chromium Arbeitsauslastungen abhängig von der Menge des verfügbaren Systemspeichers unterschiedliche Speichermengen nutzen.
 
-Das folgende Diagramm zeigt die Speicherauslastung von Teams auf vier separaten Systemen, wobei jeweils unterschiedliche Speichermengen zur Verfügung stehen. Jedes System verarbeitet ähnliche Arbeitslasten (die gleichen apps werden geöffnet und ausgeführt).
+Das folgende Diagramm stellt die Speicherauslastung durch die Teams auf vier separaten Systemen mit jeweils unterschiedlicher Menge an verfügbarer Arbeitsspeicherdarstellungen bereit. Jedes der Systeme verarbeitet ähnliche Workloads (dieselben Apps werden geöffnet und ausgeführt).
 
-![Arbeitsspeichernutzung in Teams auf unterschiedlichen Systemen](media/teams-memory-usage.png)
+![Teams der Arbeitsspeicherauslastung auf verschiedenen Systemen](media/teams-memory-usage.png)
 
-Wenn Computer mehr Speicher haben, wird dieser Speicher von Teams verwendet. In Systemen, in denen der Arbeitsspeicher knapp ist, werden die Teams kleiner verwendet.
+Wenn Computer über mehr Arbeitsspeicher verfügen, Teams Computer diesen Speicher aus. Bei Systemen, in denen Arbeitsspeicher knapp ist, Teams weniger Speicherplatz ein.
 
 ### <a name="symptoms-of-system-memory-issues"></a>Symptome von Problemen mit dem Systemspeicher
 
-Wenn ein oder mehrere der folgenden Symptome auf Ihrem Computer angezeigt wird, kann ein schwerwiegender Systemspeicher auftreten:
+Wenn Sie eines oder mehrere der folgenden Symptome auf Ihrem Computer sehen, könnte ein schwerwiegendes Systemspeicherproblem auftreten:
 
-- Hohe Speicherauslastung, wenn mehrere große Anwendungen gleichzeitig ausgeführt werden.
-- Langsame Systemleistung oder hängende Anwendungen
-- Dauerhafte Nutzung des gesamten Systemspeichers von 90% oder höher in allen apps. Bei dieser Speicherauslastung sollten Teams anderen apps und Arbeitsauslastungen Speicher zurückgeben. Nachhaltige Speichernutzung von 90% kann bedeuten, dass Teams dem System keinen Arbeitsspeicher zurückgeben, was auf ein Problem hindeutet.
+- Hohe Arbeitsspeichernutzung, wenn mehrere große Anwendungen gleichzeitig ausgeführt werden.
+- Langsame Systemleistung oder hängende Anwendungen.
+- Dauerhafte allgemeine Speicherauslastung des Systems von 90 % oder höher für alle Apps. Bei dieser Menge an Arbeitsspeicher sollte Teams anderen Apps und Workloads wieder Arbeitsspeicher geben. Eine dauerhafte Speicherauslastung von 90 % könnte bedeuten, Teams dem System keinen Arbeitsspeicher zurückgibt, was auf ein Problem hinweist.
 
-Die folgenden Bilder zeigen Beispiele für Ansichten im Task-Manager, wenn die Systemspeicherauslastung ungewöhnlich groß ist.
+Die folgenden Abbildungen zeigen Beispiele für Ansichten im Task-Manager, wenn die Arbeitsspeicherauslastung des Systems ungewöhnlich hoch ist.
 
-![Ansicht der Arbeitsspeichernutzung in Teams im Task-Manager](media/teams-memory-high-mem-process-list.png)
+![Teams der Speicherauslastung im Task-Manager](media/teams-memory-high-mem-process-list.png)
 
-![Arbeitsspeicher Auslastungsdiagramm für Teams im Task-Manager](media/teams-memory-high-mem-process-list2.png)
+![Teams zur Arbeitsspeicherauslastung im Task-Manager](media/teams-memory-high-mem-process-list2.png)

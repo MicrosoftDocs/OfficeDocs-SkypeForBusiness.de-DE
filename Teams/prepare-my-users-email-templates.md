@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Verwenden Sie Vorlagen, um E-Mails an Benutzer zu senden, während Sie Cloud-Sprachfunktionen in Teams oder Skype for Business implementieren.
+description: Verwenden Sie Vorlagen, um E-Mails an Benutzer zu senden, während Sie Cloud-Sprachfunktionen in ihren Teams oder Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,9 +25,9 @@ ms.locfileid: "49812645"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Vereinfachen der Benutzeradzeptanz Ihres neuen Onlinetelefonsystems
 
-Ein Telefon kann die Lebenslinie eines Benutzers sein. Der Wechsel von einem herkömmlichen Telefonsystem zu einem Onlinetelefonsystem stellt eine erhebliche Änderung der Benutzerarbeit dar und kann sich negativ auf die Produktivität auswirken. Wenn Sie sich Zeit nehmen, Benutzer über diese Änderung zu informieren, zu leiten und zu unterstützen, können Sie eine positive Benutzererfahrung sicherstellen und Ihre Kapitalrendite maximieren.
+Ein Telefon kann die Lebenslinie eines Benutzers sein. Der Wechsel von einem herkömmlichen Telefonsystem zu einem Onlinetelefonsystem stellt eine erhebliche Änderung in der Art und Weise dar, in der Benutzer arbeiten, und kann die Produktivität beeinträchtigen. Wenn Sie sich Zeit nehmen, die Benutzer durch diese Änderung zu informieren, zu leiten und zu unterstützen, können Sie eine positive Benutzererfahrung sicherstellen und Ihre Kapitalrendite maximieren.
 
-Dieser Artikel enthält anpassbare E-Mail-Vorlagen, mit deren Hilfe Benutzer über ihr neues Telefonsystem informiert werden können. Passen Sie die geeigneten E-Mails an Ihre spezifische Sprachbereitstellung an, und senden Sie sie. Zur einfachen Personalisierung wurden Klammern verwendet, um Abschnitte anzugeben. Es wird jedoch empfohlen, organisationsspezifische Nachrichten hinzuzufügen, um die Ankündigung für Ihre Benutzer am relevantesten zu machen. Ersetzen Sie ggf. für Ihre Bereitstellung alle Verweise auf "Teams" durch "Skype for Business".
+Dieser Artikel enthält anpassbare E-Mail-Vorlagen, mit deren Hilfe Benutzer über ihr neues Telefonsystem informiert werden können. Passen Sie die entsprechenden E-Mails an, und senden Sie sie an Ihre spezifische Sprachbereitstellung. Zur einfachen Personalisierung wurden Klammern verwendet, um Abschnitte zu personalisieren. Es wird jedoch empfohlen, organisationsspezifische Nachrichten hinzuzufügen, um die Ankündigung für Ihre Benutzer besonders relevant zu machen. Ersetzen Sie ggf. für Ihre Bereitstellung alle Verweise auf "Teams" durch "Skype for Business".
 
 ## <a name="email-number-1-send-three-weeks-before-launch"></a>E-Mail-Nummer 1: Senden drei Wochen vor dem Start
 

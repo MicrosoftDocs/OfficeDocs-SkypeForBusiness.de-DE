@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie, wie Sie die experimentelle Phase der Einführung von Microsoft Teams durchführen.
+description: In diesem Artikel erfahren Sie, wie Sie die experimentelle Phase der Microsoft Teams durchführen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,15 +30,15 @@ ms.locfileid: "49831215"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams-Einführungsphase 2 – Experimentieren
 
-Sie sind jetzt mit einem großartigen Projektteam und wichtigen Informationen über Ihre Organisation ausgestattet, und Sie sind bereit, mit Teams zu experimentieren. Wir empfehlen, mit 2 bis 3 realen Projekten in einer Gruppe zu experimentieren, die von einem Projektbeteiligten geleitet wird, mit dem Sie eine positive Beziehung haben und in dessen Organisation eine ausreichende Anzahl von Early Adopters vorhanden ist, um aussagekräftiges Feedback zu geben. Ganz gleich, ob Ihre Organisation groß oder klein ist, wir empfehlen, diese Phase zu beenden, um Einblicke zu erhalten, wie Teams Ihre Zusammenarbeit über die Nutzung der Chat- und Dateispeicherfunktionen hinaus verbessern kann.  
+Sie sind jetzt mit einem großartigen Projektteam und wichtigen Informationen über Ihre Organisation ausgestattet, und Sie sind bereit, mit ihren Teams. Wir empfehlen, mit 2 bis 3 realen Projekten innerhalb einer Gruppe zu experimentieren, die von einem Projektbeteiligten geleitet wird, mit dem Sie eine positive Beziehung haben und in der es eine ausreichende Anzahl von Early Adopters gibt, um aussagekräftiges Feedback zu geben. Ganz gleich, ob Ihre Organisation groß oder klein ist, wir empfehlen den Abschluss dieser Phase, um Einblicke zu erhalten, wie Teams Ihre Zusammenarbeit über die Nutzung der Chat- und Dateispeicherfunktionen hinaus verbessern kann.  
 
 In dieser Phase führen Sie die folgenden Schritte aus:
 
 1. [Erstellen Sie Ihr Champions-Programm.](teams-adoption-create-champions-program.md)
-2. [Abschließen des Governance-Schnellstarts.](teams-adoption-governance-quick-start.md)
+2. [Schließen Sie den Governance-Schnellstart ab.](teams-adoption-governance-quick-start.md)
 3. [Definieren Sie Ihre Verwendungsfälle.](teams-adoption-define-usage-scenarios.md)
-4. [Nehmen Sie die Teilnehmer am Early Adopter-Programm an.](teams-adoption-onboard-early-adopters.md)
+4. [Nehmen Sie an Early Adopter-Programmteilnehmern teil.](teams-adoption-onboard-early-adopters.md)
 5. [Richten Sie Ihre Feedbackkanäle ein.](teams-adoption-onboard-early-adopters.md#gather-feedback)
-6. [Bringen Sie Ihren Supportmitarbeiter mit an Bord.](teams-adoption-onboard-support.md)
+6. [Bringen Sie Ihre Supportmitarbeiter an Bord.](teams-adoption-onboard-support.md)
 
-![Symbol für den nächsten Schritt ](media/teams-adoption-next-icon.png) "Nächster Schritt: [Erstellen Ihres Champions-Programms"](teams-adoption-create-champions-program.md)
+![Ein Symbol zur Darstellung des nächsten ](media/teams-adoption-next-icon.png) Schritts Weiter: [Erstellen Ihres Champions-Programms](teams-adoption-create-champions-program.md)

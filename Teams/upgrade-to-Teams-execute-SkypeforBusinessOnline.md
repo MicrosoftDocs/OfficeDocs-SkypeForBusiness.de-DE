@@ -1,13 +1,13 @@
 ---
 title: Upgrade von Skype for Business Online auf Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Erfahren Sie, wie Sie Ihr Unternehmen über eine Skype for Business Online-Bereitstellung auf Microsoft Teams aktualisieren.
+description: Erfahren Sie, wie Sie Ihre Organisation für die Microsoft Teams einer Online Skype for Business bereitstellung aktualisieren.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,93 +20,93 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65b00f8e56792164ed2aa0b8240d0d131a7bdbcd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7c35909bf7787242a07f89d1442a25365348c91a
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104011"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282102"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Upgrade von Skype for Business Online auf Microsoft Teams
 
-![Upgrade-Reisediagramm mit Betonung auf Bereitstellung und Implementierung](media/upgrade-banner-deployment.png "Phasen des Upgradewegs mit Schwerpunkt auf der Bereitstellungs- und Implementierungsphase")
+![Upgrade-Wegdiagramm mit Hervorhebung von Bereitstellung und Implementierung](media/upgrade-banner-deployment.png "Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase")
 
-Dieser Artikel ist Teil der Bereitstellungs- und Implementierungsphase Ihres Upgradewegs. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
+Dieser Artikel ist Teil der Phase Bereitstellung und Implementierung Ihres Upgrades. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](./upgrade-define-project-scope.md)
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Vorbereiten Ihrer Umgebung](./upgrade-prepare-environment.md)
-- [Vorbereiten Ihrer Organisation](./upgrade-prepare-organization.md)
-- [Pilot durchgeführt](./pilot-essentials.md)
+- [Vorbereitet auf Ihre Umgebung](./upgrade-prepare-environment.md)
+- [Vorbereitung Ihrer Organisation](./upgrade-prepare-organization.md)
+- [Durchgeführtes Pilotprojekt](./pilot-essentials.md)
 
-Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business Online vollständig bereitgestellt haben und Ihre Benutzer von Skype for Business auf Teams aktualisieren möchten. Sie können Die Benutzer selektiv oder alle Ein-/Aus-Ressourcen basierend auf dem von Ihrer Organisation ausgewählten Upgradeweg aktualisieren, indem Sie den Benutzern die entsprechende Koexistenz- und Upgrademodus zuweisen.
+Folgen Sie den Anweisungen in diesem Artikel, wenn Sie bereitstellungsierte Skype for Business Online bereitgestellt haben und Für Ihre Benutzer ein Upgrade von Skype for Business Teams. Sie können Benutzer basierend auf dem von Ihrer Organisation ausgewählten Upgrade weg selektiv oder all-in aktualisieren, indem Sie den Benutzern die entsprechende Koexistenz und den entsprechenden Upgrademodus zuweisen.
 
 > [!IMPORTANT]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen. Denken Sie daran, dass ein erfolgreiches Upgrade die technische Bereitschaft und Benutzerbereitschaft an sich richtet. Verwenden Sie daher unbedingt die hierin enthaltenen Anleitungen, während Sie auf Ihrem Weg zu Microsoft Teams navigieren.
+> Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen. Denken Sie daran, dass bei einem erfolgreichen Upgrade die technische und die Benutzerbereitschaft ausgerichtet ist. Verwenden Sie daher unbedingt die hier angegebenen Anleitungen, wenn Sie zu Microsoft Teams.
 
-## <a name="assign-the-coexistence-and-upgrade-mode"></a>Zuweisen des Koexistenz- und Upgrademodus
+## <a name="assign-the-coexistence-and-upgrade-mode"></a>Zuweisen der Koexistenz- und Upgrademodus
 
-Sie können Ein Upgrade Ihrer Benutzer auf den TeamsOnly-Modus durchführen, indem Sie die UpgradeToTeams-Instanz von TeamsUpgradePolicy zuweisen, die mithilfe des Microsoft Teams Admin Centers oder einer Skype for Business-Remote-Windows PowerShell ausgeführt werden kann. Sie können dies entweder auf Benutzerbasis oder mandantenweit ausführen, wenn Sie den gesamten Mandanten in einem Schritt aktualisieren möchten. 
+Sie können Ihre Benutzer in den TeamsOnly-Modus aktualisieren, indem Sie die UpgradeToTeams-Instanz von TeamsUpgradePolicy zuweisen, die mithilfe des Microsoft Teams Admin Centers oder einer Skype for Business-Remote-Windows PowerShell-Sitzung ausgeführt werden kann. Dies können Sie entweder pro Benutzer oder mandantenweit durchführen, wenn Sie in einem Schritt ein Upgrade für den gesamten Mandanten durchführen möchten. 
 
-Weitere Informationen finden Sie unter [Festlegen der Einstellungen für Koexistenz](./setting-your-coexistence-and-upgrade-settings.md) und Upgrade und [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz](upgrade-to-teams-on-prem-tools.md).
+Weitere Informationen finden Sie unter Festlegen der Einstellungen für [Koexistenz](./setting-your-coexistence-and-upgrade-settings.md) und Upgrade und [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz.](upgrade-to-teams-on-prem-tools.md)
 
-## <a name="upgrade-all-users-to-teams-at-one-time"></a>Gleichzeitiges Upgrade aller Benutzer auf Teams
+## <a name="upgrade-all-users-to-teams-at-one-time"></a>Gleichzeitiges Upgrade aller Teams auf "Benutzer"
 
-Führen Sie die folgenden Schritte aus, um alle Benutzer gleichzeitig auf Teams zu aktualisieren.
+Führen Sie die folgenden Schritte aus, um alle Ihre Benutzer Teams gleichzeitig zu aktualisieren.
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>Schritt 1: Benachrichtigen der Benutzer über die Änderung (optional)
 
-1. Wählen Sie im Microsoft Teams Admin Center die Option **Organisationsweite Einstellungen**  >  **Teams upgrade aus.**
-2. Ändern **Sie unter Koexistenzmodus** den Schalter Skype **for Business-Benutzer** benachrichtigen, dass ein Upgrade auf Teams verfügbar ist, auf **Ein.**
+1. Wählen Sie Microsoft Teams Admin Center organisationsweite Einstellungen aus, um  >  **Teams zu aktualisieren.**
+2. Ändern **Sie unter Koexistenzmodus** den Schalter Benachrichtigen Skype for Business Benutzer, dass ein Upgrade auf Teams **verfügbar** ist in **Ein.**
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Schritt 2: Festlegen des Koexistenzmodus auf TeamsOnly für die Organisation
 
-1. Wählen Sie im Microsoft Teams Admin Center **organisationsweite Einstellungen aus.**
-2. Wählen **Sie in der** Dropdownliste **Koexistenzmodus den** Modus Teams only aus.
+1. Wählen Sie Microsoft Teams Admin Center **Organisationsweite Einstellungen aus.**
+2. Wählen **Teams in der** Dropdownliste **Koexistenzmodus die** Option Nur Modus aus.
 
 ## <a name="upgrade-users-in-stages"></a>Stufenweises Upgrade von Benutzern
 
-Führen Sie diese Schritte aus, wenn Sie Ihre Benutzer schrittweise auf TeamsOnly aktualisieren möchten.
+Führen Sie die folgenden Schritte aus, wenn Sie Ihre Benutzer schrittweise auf TeamsOnly aktualisieren möchten.
 
-### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Schritt 1: Identifizieren von Benutzergruppen für ein Upgrade
+### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Schritt 1: Identifizieren von Benutzergruppen für das Upgrade
 
-Häufig entscheiden sich Organisationen für ein Upgrade ihrer Organisationen in Erfolgs welle von Benutzern.  Sie sollten diese Benutzer zuerst identifizieren, damit Sie im Microsoft Teams Admin Center ganz einfach nach ihnen suchen können. Alternativ können Sie PowerShell verwenden, um dies effizienter zu machen. Nachdem Sie die Benutzer für eine bestimmte Upgradewelle identifiziert haben, fahren Sie mit den verbleibenden Schritten fort.
+Organisationen entscheiden sich häufig für ein Upgrade ihrer Organisation in Erfolgs welle von Benutzern.  Sie sollten diese Benutzer zuerst identifizieren, damit Sie sie ganz einfach im Admin Center Microsoft Teams können. Alternativ können Sie powerShell verwenden, um dies effizienter zu machen. Nachdem Sie die Gruppe der Benutzer für eine bestimmte Upgrade welle identifiziert haben, fahren Sie mit den verbleibenden Schritten fort.
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Schritt 2: Festlegen der Benachrichtigung für die Benutzer in der aktuellen Upgradewelle (optional)
-
-Wenn Sie das Microsoft Teams Admin Center verwenden, können Sie TeamsUpgradePolicy für bis zu 20 Benutzer gleichzeitig konfigurieren:
-1. Wählen Sie im Microsoft Teams Admin Center Benutzer **aus,** und aktivieren Sie das Kontrollkästchen für bis zu 20 Benutzer, für die ein Upgrade durchgeführt werden soll. 
-2. Wählen **Sie einstellungen** bearbeiten in der oberen linken Ecke der Listenansicht aus. 
-3. Ändern Sie **im Bereich** Einstellungen bearbeiten auf der rechten Seite unter **Teams-Upgrade** die Option Skype **for Business-Benutzer** benachrichtigen auf **Ein.** Hinweis: Wenn der Wert des Koexistenzmodus "Organisationsweite Einstellungen verwenden" ist, wird dieser Schalter nicht angezeigt, daher müssen Sie zuerst den Koexistenzmodus für diese Benutzer explizit auf den Standardwert für die Organisation festlegen.
-
-Alternativ kann es einfacher sein, Benachrichtigungen für Benutzergruppen gleichzeitig mit PowerShell zu aktivieren. 
-
-### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Schritt 3: Festlegen des Koexistenzmodus für Benutzer auf Nur Teams
-
-Wenn Sie bereit sind, ein Upgrade der Benutzer in der aktuellen Welle durchführen zu können, um Teams als einzige Anwendung zu verwenden, legen Sie den Koexistenzmodus für die Benutzer auf Teams Only (Nur Teams) festgelegt.
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Schritt 2: Festlegen der Benachrichtigung für die Benutzer in der aktuellen Upgrade welle (optional)
 
 Wenn Sie das Microsoft Teams Admin Center verwenden, können Sie TeamsUpgradePolicy für bis zu 20 Benutzer gleichzeitig konfigurieren:
-1. Wählen Sie im Microsoft Teams Admin Center **Benutzer** und dann das Kontrollkästchen für bis zu 20 Benutzer aus.
-2. Wählen **Sie einstellungen** bearbeiten in der oberen linken Ecke der Listenansicht aus.
-3. Legen Sie **im Bereich** Einstellungen bearbeiten auf der rechten Seite unter **Abschnitt "Teams-Upgrade"** den Koexistenzmodus in der Dropdownliste auf **"Teams Only"** ein.
+1. Wählen Sie Microsoft Teams Admin Center Benutzer **aus,** und suchen und aktivieren Sie das Kontrollkästchen für bis zu 20 Benutzer, für die ein Upgrade durchgeführt werden soll. 
+2. Wählen **Sie in der** oberen linken Ecke der Listenansicht Einstellungen bearbeiten aus. 
+3. Ändern Sie **im Bereich** Einstellungen bearbeiten auf der rechten Seite **unter Teams** die Option Benachrichtigen, **Skype for Business Benutzer** wechseln zu **Ein.** Hinweis: Wenn der Wert für den Koexistenzmodus "Organisationsweite Einstellungen verwenden" ist, wird dieser Schalter nicht angezeigt, daher müssen Sie zuerst den Koexistenzmodus für diese Benutzer explizit auf den Standardwert für die Organisation festlegen.
 
-Alternativ können Sie es einfacher finden, Benutzergruppen mit PowerShell gleichzeitig zu aktualisieren. 
+Alternativ finden Sie es vielleicht einfacher, Benachrichtigungen für Benutzergruppen gleichzeitig mit PowerShell zu aktivieren. 
 
-### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Schritt 4: Wiederholen der Schritte 1 bis 3 für aufeinander folgende Wellen von Benutzern
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Schritt 3: Festlegen des Koexistenzmodus für Benutzer auf Teams
 
-Wiederholen Sie die vorherigen Schritte zum Anwenden von TeamsOnly auf mehr Benutzer, während Sie Ihr Upgrade auf den Modus "Nur Teams" überprüfen und zum Erweitern bereit sind.  
+Wenn Sie bereit sind, die Benutzer in der aktuellen Welle für die Verwendung von Teams als einzige Anwendung zu aktualisieren, legen Sie den Koexistenzmodus für die Benutzer auf Nur Teams festgelegt.
+
+Wenn Sie das Microsoft Teams Admin Center verwenden, können Sie TeamsUpgradePolicy für bis zu 20 Benutzer gleichzeitig konfigurieren:
+1. Wählen Sie Microsoft Teams Admin Center Benutzer **aus,** und aktivieren Sie dann das Kontrollkästchen für bis zu 20 Benutzer.
+2. Wählen **Sie in der** oberen linken Ecke der Listenansicht Einstellungen bearbeiten aus.
+3. Legen Sie **im Bereich** Einstellungen bearbeiten auf der rechten Seite **unter Teams-Upgrade** den Modus für die Koexistenz auf **Teams** in der Dropdownliste auf Nur festlegen.
+
+Alternativ finden Sie das gleichzeitige Upgrade von Benutzergruppen mithilfe von PowerShell einfacher. 
+
+### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Schritt 4: Wiederholen der Schritte 1 bis 3 für aufeinander folgende Benutzer welle
+
+Wenn Sie Ihr Upgrade auf Teams-Modus überprüfen und zum Erweitern bereit sind, wiederholen Sie die vorherigen Schritte, um TeamsOnly auf mehr Benutzer anzuwenden.  
 
 
-## <a name="phone-system-and-pstn-connectivity-options"></a>Optionen für Telefonsystem- und PSTN-Konnektivität
+## <a name="phone-system-and-pstn-connectivity-options"></a>Telefonsystem und PSTN-Konnektivitätsoptionen
 
-Telefonsystem mit Teams wird unterstützt, nachdem sich der Benutzer im TeamsOnly-Modus befindet. (Wenn sich der Benutzer im Inselmodus befindet, wird Telefonsystem nur mit Skype for Business unterstützt.)  
+Telefonsystem mit Teams wird unterstützt, nachdem sich der Benutzer im TeamsOnly-Modus befindet. (Wenn sich der Benutzer im Islands-Modus befindet, Telefonsystem nur mit der Skype for Business.)  
 
-### <a name="pstn-connectivity-options"></a>PstN-Konnektivitätsoptionen
+### <a name="pstn-connectivity-options"></a>PSTN-Konnektivitätsoptionen
 
-Bei der Berücksichtigung der Konnektivitätsoptionen für das öffentliche Telefonnetz (PSTN) gibt es zwei mögliche Szenarien beim Wechsel von Skype for Business Online in den TeamsOnly-Modus:
+Bei der Überlegung nach Optionen für die Konnektivität über das öffentliche Telefonnetz (PSTN) gibt es zwei mögliche Szenarien, wenn Sie von Skype for Business Online in den TeamsOnly-Modus wechseln:
 
-- Ein Benutzer in Skype for Business Online mit einem Microsoft-Anrufplan. Nach dem Upgrade hat dieser Benutzer weiterhin einen Microsoft Calling-Plan. Dies ist das einfachste Szenario, das nur einige Schritte erfordert. Weitere Informationen finden Sie unter [Von Skype for Business Online mit Microsoft-Anrufplänen](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
+- Ein Benutzer in Skype for Business Online mit einem Microsoft-Anrufplan. Bei einem Upgrade verfügen diese Benutzer weiterhin über einen Microsoft-Anrufplan. Dies ist das einfachste Szenario, das nur ein paar Schritte erfordert. Weitere Informationen finden Sie unter [Von Skype for Business Online mit Microsoft-Anrufplänen](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans).
 
-- Ein Benutzer in Skype for Business Online mit lokalen Sprachfunktionen über Skype for Business lokal oder Cloud Connector Edition. Das Upgrade des Benutzers auf Teams muss mit der Migration des Benutzers zu Direct Routing koordiniert werden, um sicherzustellen, dass der TeamsOnly-Benutzer über PSTN-Funktionen verfügt.  Weitere Informationen finden Sie unter [From Skype for Business Online with on-premises voice](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice).
+- Ein Benutzer in Skype for Business Online mit lokalen Sprachfunktionen über Skype for Business oder Cloud Connector Edition. Das Upgrade des Benutzers auf Teams die Migration des Benutzers zu Direct-Routing muss koordiniert werden, um sicherzustellen, dass der TeamsOnly-Benutzer über PSTN-Funktionen verfügt.  Weitere Informationen finden Sie unter [Von Skype for Business online mit lokalem Sprachanruf.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)

@@ -1,5 +1,5 @@
 ---
-title: Patienten-APP und EPA-Integrations STU3-Schnittstelle
+title: Benutzeroberfläche für Patienten-App und EHR-Integration STU3
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Erfahren Sie mehr über die Integration elektronischer Integritätsdaten Sätze in die Microsoft Teams patients-APP und die STU3-Schnittstellenspezifikation.
+description: Hier erfahren Sie, wie Sie elektronische Krankenakten in die App Microsoft Teams Patienten und die Benutzeroberflächenspezifikation STU3 integrieren.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
@@ -29,75 +29,75 @@ ms.locfileid: "48803493"
 # <a name="stu3-interface-specification"></a>Benutzeroberflächenspezifikation STU3
 
 > [!NOTE]
-> Die Patienten-App wurde im 30. Oktober, 2020, eingestellt und durch die [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Teams ersetzt. Patienten-App-Daten werden im Gruppenpostfach der Office 365-Gruppe gespeichert, die das Team zurückgibt. Alle Daten, die mit der Patienten-App verknüpft sind, werden in dieser Gruppe beibehalten, auf die Benutzeroberfläche kann jedoch nicht mehr zugegriffen werden. Benutzer können Ihre Listen mithilfe der [Listen-App](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)erneut erstellen.
+> Mit Wirkung vom 30. Oktober 2020 wurde die App "Patienten" zurückgezogen und durch die App [Listen ](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) in Microsoft Teams ersetzt. Die Daten der Patienten-App werden in dem Gruppenpostfach der Office 365-Gruppe gespeichert, das zum Team gehört. Alle der Patienten-App zugeordneten Daten bleiben in dieser Gruppe erhalten, auf sie kann aber nicht mehr über die Benutzeroberfläche zugegriffen werden. Benutzer können ihre Listen mithilfe der App [Listen](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) neu erstellen.
 >
->Mit Listen können Betreuerteams in Ihrer Gesundheitsorganisation patientenlisten für Szenarien erstellen, die von runden und interdisziplinären Teambesprechungen bis hin zur allgemeinen Patientenüberwachung reichen. Schauen Sie sich die Vorlage Patienten in Listen an, um zu beginnen. Weitere Informationen zum Verwalten der Listen-app in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
+>Mit der Listen-App können Pflegeteams in Ihrer Organisation im Gesundheitswesen Patientenlisten für Szenarien erstellen, die von Visiten und interdisziplinären Teambesprechungen bis zur allgemeinen Patientenüberwachung reichen. Sehen Sie sich die Vorlage "Patienten" in der Listen-App an, um die ersten Schritte zu unternehmen. Weitere Informationen zum Verwalten der Listen-App in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
-Zum Einrichten oder Neukonfigurieren eines FHIR-Servers für die Arbeit mit der Microsoft Teams-Patienten-App müssen Sie verstehen, auf welche Daten die App zugreifen muss. Der FHIR-Server muss Post Anforderungen mithilfe von bündeln für die folgenden Ressourcen unterstützen:
+Das Einrichten oder Neukonfigurieren eines FSCHI-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-App erfordert ein Verständnis der Daten, auf die die App zugreifen muss. Der F IMMER-Server muss POST-Anforderungen mithilfe von Bündeln für die folgenden Ressourcen unterstützen:
 
-- [Patienten](#patient)
+- [Patient](#patient)
 - [Beobachtung](#observation)
 - [Bedingung](#condition)
-- [Auftreten](#encounter)
-- [Allergie-Intoleranz](#allergyintolerance)
+- [Encounter](#encounter)
+- [Ungermieren](#allergyintolerance)
 - [Abdeckung](#coverage)
-- [Medikations Anweisung](#medication-request) (ersetzt die MedicationOrder in der DSTU2-Version des PatientsApp)
-- Ort (die Informationen, die aus dieser Ressource benötigt werden, können in der Begegnung enthalten sein)
+- [Medikamenteausweisung](#medication-request) (ersetzt die "MedicationOrder" in der DSTU2-Version der PatientenApp)
+- Ort (die für diese Ressource erforderlichen Informationen können in "Encounter" enthalten sein)
 
 > [!NOTE]
-> Die Patienten Ressource ist die einzige obligatorische Ressource (ohne die die APP überhaupt nicht geladen wird). Es wird jedoch empfohlen, dass der Partner die Unterstützung für alle oben aufgeführten Ressourcen pro Spezifikationen implementiert, die nachfolgend aufgeführt sind, um die optimale Benutzererfahrung mit der Microsoft Teams-Patienten-APP zu erhalten.
+> Die Patient-Ressource ist die einzige obligatorische Ressource (ohne die die App überhaupt nicht geladen wird). Es wird jedoch empfohlen, vom Partner die Unterstützung für alle oben genannten Ressourcen pro unten angegebenen Spezifikationen zu implementieren, um die Benutzerfreundlichkeit der Patienten-App Microsoft Teams verbessern zu können.
 
-Abfragen der Microsoft Teams-Patienten-App für mehr als eine Ressource müssen ein Bündel (Batch) von Anforderungen an die URL des FHIR-Servers senden. Der Server verarbeitet jede Anforderung und gibt ein Bündel der Ressourcen zurück, die den jeweiligen Anforderungen entsprechen. Weitere Informationen und Beispiele finden Sie unter [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
+Abfragen von der Microsoft Teams-Patienten-App für mehr als eine Ressource müssen ein Paket (BATCH) mit Anforderungen an die URL des FSOURCE-Servers posten. Der Server muss jede Anforderung verarbeiten und ein Bündel der Ressourcen zurückgeben, die den einzelnen Anfragen entsprechen. Weitere Informationen und Beispiele finden Sie unter [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) .
 
 ## <a name="capability-statement"></a>Capability-Anweisung
 
-Hierbei handelt es sich um die erforderlichen Mindestanforderungen:
+Dies sind die mindestens erforderlichen Felder:
 
- - Rest
+ - REST
 
     - Modus
     - Interaktion
     - Ressource: Typ
     - Sicherheit: [Erweiterung für OAuth-URIs](https://hl7.org/fhir/extension-oauth-uris.html)
     
- - FhirVersion (für unseren Code ist dies erforderlich, um zu verstehen, auf welche Version wir pivotieren sollten.)
+ - F zur Kehrversion (Unser Code erfordert, dass Sie verstehen, auf welche Version wir pivotieren sollten.)
 
-Weitere [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) Details zu diesem Feldsatz finden Sie unter .
 
-## <a name="patient"></a>Patienten
+## <a name="patient"></a>Patient
 
-Hier sind die erforderlichen Mindestanforderungen, die eine Teilmenge der Argonaut-Patientenprofil Felder sind:
+Dies sind die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge der Felder für das Patientenprofil "Ortsnaut" handelt:
 
- - Name. given
- - Name. Familie
+ - Name.Given
+ - Name.Family
  - Geschlecht
- - BirthDate
- - MRN (Bezeichner)
+ - Geburtsdatum
+ - MRN (Identifier)
 
-Zusätzlich zu den [Argonaut-Feldern](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:
+Für eine großartige Benutzererfahrung kann die Patienten-App nicht nur die [Felder des Orts,](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)sondern auch die folgenden Felder lesen:
 
- - Name. use
- - Name. Prefix
- - [GeneralPractitioner] – der GeneralPractitioner-Verweis sollte in die Patienten Ressource aufgenommen werden (nur Anzeigefeld)
+ - Name.Use
+ - Name.Prefix
+ - [GeneralPractitioner] – Der Bezug auf GeneralPractitioner sollte in die Patient-Ressource aufgenommen werden (nur Anzeigefeld)
 
-Bei einer Ressourcensuche wird die Post-Methode unter/Patient/_search und die folgenden Parameter verwendet:
+Eine Ressourcensuche verwendet die POST-Methode bei /Patient/_search und die folgenden Parameter:
 
- - ID
- - Familie = (sucht nach allen Patienten, deren Familienname den Wert enthält)
- - given =\<substring>
- - Geburtsdatum = (exakte Übereinstimmung)
- - Gender = (Werte, die einer der administrativen-Gender-Werte sind)
- - \_Anzahl (maximale Anzahl der Ergebnisse, die zurückgegeben werden sollen) <br> Die Antwort sollte die Gesamtanzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben wurden, und die Anzahl \_ wird vom PatientsApp verwendet, um die Anzahl der zurückgegebenen Datensätze zu begrenzen.
- - Identifier =\<mrn>
+ - id
+ - family=(Sucht nach allen Patienten, deren Familienname den Wert enthält)
+ - given=\<substring>
+ - birthdate=(genaue Übereinstimmung)
+ - gender=(Werte, die eines verwaltungsspezifischen Geschlechtes sind)
+ - \_Anzahl (maximale Anzahl der zurückgegebenen Ergebnisse) <br> Die Antwort sollte die Gesamtzahl der Datensätze enthalten, die als Ergebnis der Suche zurückgegeben wurden, und die Anzahl wird von der PatientenApp verwendet, um die Anzahl der zurückgegebenen \_ Datensätze zu begrenzen.
+ - identifier=\<mrn>
 
-Das Ziel besteht darin, nach einem Patienten durchsuchen und Filtern zu können:
+Das Ziel besteht in der Möglichkeit, wie folgt nach einem Patienten zu suchen und zu filtern:
 
-- ID: Dies ist die Ressourcen-ID, die jede Ressource in FHIR hat.
-- MRN: Dies ist der tatsächliche Bezeichner für den Patienten, den das klinische Personal kennen würde. Wir verstehen, dass diese MRN auf dem Typ des Bezeichners in der Bezeichner Ressource in FHIR basiert.
+- Nr.: Dies ist die Ressourcen-ID, über die jede Ressource in FSCHI verfügt.
+- MRN: Dies ist der tatsächliche Bezeichner für den Patienten, den der klinische Mitarbeiter hätte. Uns ist klar, dass diese MRN auf dem Typ des Bezeichners innerhalb der Bezeichnerressource in FSCHI basiert.
 - Name
-- BirthDate
+- Geburtsdatum
 
-Sehen Sie sich das folgende Beispiel des Anrufs an:
+Sehen Sie sich das folgende Beispiel für den -Aufruf an:
 
 ```
 Request:
@@ -237,28 +237,28 @@ Response:
 }
 ```
 
-Weitere [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) Details zu diesem Feldsatz finden Sie unter .
 
 ## <a name="observation"></a>Beobachtung
 
-Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des [Argonaut-Vital-Signs Profils](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)sind.
+Dies sind die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge des [Profils "Ortsnaut" Vital-Signs handelt.](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)
 
- - Effektiv (Datum oder Zeitraum)
- - Code. Coding. Code
- - ValueQuantity. Value
+ - Effektiv (Datum, Uhrzeit oder Zeitraum)
+ - Code.Coding.Code
+ - ValueQuantity.Value
 
-Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:
+Für eine großartige Benutzererfahrung kann die Patienten-App nicht nur Felder des Orts, sondern auch die folgenden Felder lesen:
 
- - Code. Coding. Display
- - ValueQuantity. Unit
+ - Code.Coding.Display
+ - ValueQuantity.Unit
 
-Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
+Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:
 
- - Patient =\<patient id>
- - _sort =-Datum
- - Kategorie (wir werden nach "Category = Vital-Signs" suchen), um die Liste der Vitalzeichen abzurufen.
+ - patient=\<patient id>
+ - _sort=-Datum
+ - Kategorie (wir fragen nach "category=vital-signs"), um die Liste der wichtigen Schilder abzurufen.
 
-Beziehen Sie sich auf dieses Beispiel des Anrufs:
+Sehen Sie sich das folgende Beispiel für den -Aufruf an:
 
 ```
 Request:
@@ -309,23 +309,23 @@ Response:
 }
 ```
 
-Weitere [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) Details zu diesem Feldsatz finden Sie unter .
 
 ## <a name="condition"></a>Bedingung
 
-Hier sind die erforderlichen Mindestanforderungen, die eine Teilmenge des Argonaut- [Bedingungs Profils](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)sind.
+Hier sehen Sie die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge des [Profils zur Bedingung "Durchdingung" handelt.](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)
 
- - Code. Coding [0]. Anzeigen
+ - Code.Coding[0]. Anzeige
 
-Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:
+Für eine großartige Benutzererfahrung kann die Patienten-App nicht nur Felder des Orts, sondern auch die folgenden Felder lesen:
 
  - AssertedDate
  - Schweregrad
 
-Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
+Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:
 
- - Patient =\<patient id>
- - _Count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
 Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
@@ -372,51 +372,51 @@ Response:
 }
 ```
 
-Weitere [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) Details zu diesem Feldsatz finden Sie unter .
 
-## <a name="encounter"></a>Auftreten
+## <a name="encounter"></a>Encounter
 
-Hierbei handelt es sich um die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge des [US-Core-Encounter-Profils](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) "must have"-Felder handelt.
+Dies sind die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge der ["must](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) have"-Felder des US Core Encounter-Profils handelt.
 
  - Status
- - Geben Sie [0] ein. Codierung [0]. Anzeigen
+ - Geben Sie [0] ein. Coding[0]. Anzeige
 
-Darüber hinaus sind die folgenden Felder aus den Feldern "muss unterstützen" des US Core Encounter-Profils:
+Darüber hinaus müssen die folgenden Felder aus den "must support"-Feldern des US Core Encounter-Profils:
 
- - Periode. Start
- - Ort [0]. Location. Display
+ - Period.Start
+ - Position[0]. Location.Display
 
-Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
+Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:
 
- - Patient =\<patient id>
- - _sort: DESC =\<field ex. date>
- - _Count =\<max results>
+ - patient=\<patient id>
+ - _sort:desc=\<field ex. date>
+ - _count=\<max results>
 
-Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu können. Jede Begegnung verweist auf eine Standortressource. Der Bezug umfasst auch das Anzeigefeld des Standorts.
+Das Ziel ist es, den letzten bekannten Standort des Patienten abrufen zu können. Jede -Ressource verweist auf eine Standortressource. Der Bezug muss auch das Anzeigefeld des Standorts enthalten.
 
-Weitere [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) Details zu diesem Feldsatz finden Sie unter .
 
-## <a name="allergyintolerance"></a>AllergyIntolerance
+## <a name="allergyintolerance"></a>VererbungIntolerance
 
-Hierbei handelt es sich um die mindestanforderungs Felder, die eine Teilmenge des [Argonaut-AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) -Profils sind:
+Dabei handelt es sich um die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge des [Profils "OrtsnautEnIntolerance"](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) handelt:
 
- - Code. Text
- - Code. Coding [0]. Anzeigen
- - ClinicalStatus/VerificationStatus (wir lesen beide)
+ - Code.Text
+ - Code.Coding[0]. Anzeige
+ - KlinischerStatus/Überprüfungsstatus (beides wird gelesen)
 
-Zusätzlich zu den Argonaut-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch das folgende Feld lesen:
+Für eine großartige Benutzererfahrung kann die Patienten-App neben den Feldern des Orts auch das folgende Feld lesen:
 
  - AssertedDate
- - Hinweis. Text
+ - Note.Text
  - Reaktion
-    - Substanz (ein Codierungselement)
-    - Manifestation (ein Codierungselement)
+    - Im Code (ein Codeelement)
+    - Abt. (ein Codeelement)
 
-Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
+Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:
 
  - Patient =  \<patient id>
 
-Sehen Sie sich das folgende Beispiel des Anrufs an: 
+Sehen Sie sich das folgende Beispiel für den -Aufruf an: 
 
 ```
 Request:
@@ -468,32 +468,32 @@ Response:
 }
 ```
 
-Weitere [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) Details zu diesem Feldsatz finden Sie unter .
 
-## <a name="medication-request"></a>Medikations Anfrage
+## <a name="medication-request"></a>Medikamenteanforderung
 
-Hierbei handelt es sich um die Mindestanforderungen, die eine Teilmenge des [US-Core-Medikaments anfordern](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
+Dies sind die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge des [Profils für die US-Medikamenteanforderung handelt:](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)
 
- - Medikation. Display (wenn Bezug)
- - Medikation. Text (wenn CodableConcept)
+ - Medication.Display (wenn Bezug)
+ - Medication.Text (wenn CodableConcept)
  - AuthoredOn
- - Requestor. Agent. Display
+ - Requester.Agent.Display
 
-Zusätzlich zu den US-Core-Feldern kann die Patienten-App für eine hervorragende Benutzererfahrung auch die folgenden Felder lesen:
+Für eine großartige Benutzererfahrung kann die Patienten-App nicht nur die Felder "US Core" sondern auch die folgenden Felder lesen:
 
- - DosageInstruction[..]. Text
+ - 12212279. Text
  - Text
 
-Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
+Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:
 
- - Patient =\<patient id>
- - _Count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-Weitere [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) Details zu diesem Feldsatz finden Sie unter .
 
 ## <a name="coverage"></a>Abdeckung
 
-Hierbei handelt es sich um die mindestens erforderlichen Felder, die nicht in den USA-Core-oder Argonaut-Profilen enthalten sind:
+Dies sind die mindestens erforderlichen Felder, die nicht von Profilen des US-Kerns oder Dessnaut abgedeckt werden:
 
  - Gruppieren, mindestens ein Element mit
     - GroupDisplay
@@ -501,8 +501,8 @@ Hierbei handelt es sich um die mindestens erforderlichen Felder, die nicht in de
  - Zeitraum
  - SubscriberId
 
-Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter verwendet:
+Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:
 
  - Patient = \<patient id>
 
-Weitere [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) Details zu diesem Feldsatz finden Sie unter .

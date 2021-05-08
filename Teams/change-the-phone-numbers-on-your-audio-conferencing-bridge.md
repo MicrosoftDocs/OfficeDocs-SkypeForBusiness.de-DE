@@ -1,5 +1,5 @@
 ---
-title: Ändern von Telefonnummern auf der Audiokonferenzbrücke
+title: Ändern der Telefonnummern auf der Audiokonferenzbrücke
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie Ihrer Konferenzbrücke eine neue Diensttelefonnummer zuweisen müssen, um die Abdeckung für Ihre Benutzer zu erweitern.
+description: Hier erfahren Sie die Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke, um die Abdeckung für Ihre Benutzer zu erweitern.
 ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,12 +32,12 @@ ms.locfileid: "51102661"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
-Wenn Sie Lizenzen **für Audiokonferenzen erwerben,** hosten Sie Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahltelefonnummern von verschiedenen Standorten aus, sodass Besprechungsorganisatoren und Teilnehmer sie verwenden können, um über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilzunehmen.
+Wenn Sie **Lizenzen für Audiokonferenzen erwerben,** hostigt Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahltelefonnummern von verschiedenen Standorten aus, sodass Sie von den Besprechungsorganisatoren und -teilnehmern über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
   
-Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits [](./getting-service-phone-numbers.md) zugewiesen sind, können Sie zusätzliche Servicenummern (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten erhalten und diese dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
+Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits [](./getting-service-phone-numbers.md) zugewiesen sind, können Sie weitere Servicenummern (gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen) von anderen Standorten erhalten und diese dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
   
 > [!NOTE]
-> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer* sein. Sie können den Typ der Nummer sehen, indem Sie im Microsoft Teams Admin Center zu Voice Phone-Nummern navigieren und in der Spalte  >   **Zahlentyp** nachschauen. Microsoft 365- oder Office 365-Guthaben für Kommunikationen müssen zuerst eingerichtet werden, damit Benutzer sich unter einer gebührenfreien Rufnummer in die Brücke einwählen können.
+> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer* sein. Sie können den Typ Telefon der Nummer sehen, indem Sie im Microsoft Teams Admin Center zu Sprachanrufnummern navigieren und in der Spalte  >   **Zahlentyp** nachschauen. Microsoft 365 oder Office 365 Guthaben für Kommunikationen muss zuerst eingerichtet werden, damit sich Benutzer unter einer gebührenfreien Nummer in die Brücke einwählen können.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke
 
@@ -45,45 +45,45 @@ Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits [](./getti
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wechseln Sie im linken Navigationsbereich zu **Voice**  >  **phone numbers**.
+1. Wechseln Sie im linken Navigationsbereich **zu**  >  **Sprachanrufnummern Telefon .**
 
-2. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie auf **Bearbeiten.**
+2. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie auf **Bearbeiten**.
 
-3. Erweitern Sie **auf der** Seite Bearbeiten unter **Zugewiesen an** die Dropdownliste, und wählen Sie **Konferenzbrücke**  >  **übernehmen aus.**
+3. Erweitern Sie **auf der** Seite Bearbeiten unter **Zugewiesen an** die Dropdownliste, und wählen Sie **Konferenzbrücke Übernehmen**  >  **aus.**
 
-### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Schritt 2 : Ändern der Standardtelefonnummer der Konferenzbrücke (optional)
+### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Schritt 2 – Ändern der Standardtelefonnummer für Ihre Konferenzbrücke (optional)
 
-Die Standardtelefonnummer Ihrer Konferenzbrücke definiert die Anrufer-ID, die verwendet wird, wenn ein ausgehender Anruf von einem Teilnehmer oder Organisator innerhalb einer Besprechung platziert wird.
+Die Standardtelefonnummer Ihrer Konferenzbrücke definiert die Anrufer-ID, die verwendet wird, wenn ein ausgehender Anruf von einem Teilnehmer oder Organisator innerhalb einer Besprechung abgestellt wird.
 
-Es kann nur eine Servicemautnummer als Standardnummer für Ihre Konferenzbrücke festgelegt werden. **gebührenfreie Servicenummern können nicht** als Standardnummer Ihrer Konferenzbrücke festgelegt werden. Wenn Sie eine Servicemautnummer zuweisen und diese als neue Standardnummer für Ihre Audiokonferenzbrücke festlegen möchten, führen Sie die folgenden Schritte aus:
+Es kann nur eine gebührenpflichtige Servicenummer als Standardnummer für Ihre Konferenzbrücke festgelegt werden. **gebührenfreie Servicenummern können nicht** als Standardnummer für Ihre Konferenzbrücke festgelegt werden. Wenn Sie eine gebührenpflichtige Servicenummer zuweisen und diese als neue Standardnummer für Ihre Audiokonferenzbrücke festlegen möchten, führen Sie die folgenden Schritte aus:
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wechseln Sie im linken Navigationsbereich zu  >  **Besprechungskonferenzbrücken.**
+1. Wechseln Sie im linken Navigationsbereich zu **Konferenzbrücken**  >  **für Besprechungen.**
 
-2. Markieren Sie die Servicemautnummer, die Sie als Standard konfigurieren möchten.
+2. Markieren Sie die gebührenpflichtige Servicenummer, die Sie als Standard konfigurieren möchten.
 
 3. Wählen Sie **Als Standard** aus.
  
-### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Schritt 3 : Ändern der Standardtelefonnummern, die in den Besprechungseinlädungen von Benutzern enthalten sind (optional)
+### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Schritt 3 – Ändern der Standardtelefonnummern, die in den Besprechungseinrufen von Benutzern enthalten sind (optional)
 
-Die Standardtelefonnummern eines Benutzers sind die Telefonnummern, die in den Besprechungseinlästen enthalten sind, wenn er eine Besprechung plant. Weitere Informationen, einschließlich der Art und Weise, wie die Standardtelefonnummern neuen Benutzern zugewiesen werden, finden Sie unter Festlegen der Telefonnummern, die in Einladungen [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) enthalten sind, oder Festlegen der Telefonnummern, die in Einladungen in Skype for Business Online enthalten [sind.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+Bei den Standardtelefonnummern eines Benutzers handelt es sich um die Nummern, die beim Planen einer Besprechung in den Besprechungseinrufen enthalten sind. Weitere Informationen, einschließlich der Zugewiesene Standardtelefonnummern für neue Benutzer, finden Sie unter Festlegen der Telefonnummern für Einladungen [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) oder Festlegen der Telefonnummern, die in Einladungen in [Skype for Business Online enthalten](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)sind.
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wechseln Sie im linken Navigationsbereich zu **Benutzer,** und klicken Sie auf den Anzeigenamen des gewünschten Benutzers in der Liste.
+1. Wechseln Sie im linken Navigationsbereich **zu** Benutzer, und klicken Sie in der Liste auf den Anzeigenamen des gewünschten Benutzers.
 
-2. Klicken Sie **neben Audiokonferenz auf** **Bearbeiten.**
+2. Klicken Sie **neben Audiokonferenz** auf **Bearbeiten**.
 
-3. Wählen **Sie unter** Gebührenfreie Nummer oder **gebührenfreie Nummer** die Nummer aus der Dropdownliste aus, und klicken Sie auf **Übernehmen.**
+3. Wählen **Sie unter** **Gebührenpflichtige** Nummer oder Gebührenfreie Nummer die Nummer aus der Dropdownliste aus, und klicken Sie auf **Übernehmen**.
 
-Nachdem die Änderungen angewendet wurden, werden die neuen Standardtelefonnummern in die Besprechungseinlädungen der Organisatoren einbezogen, wenn sie das nächste Mal eine neue Besprechung planen.
+Nachdem die Änderungen übernommen wurden, werden die neuen Standardtelefonnummern in die Besprechungseinrufe der Organisatoren aufgenommen, wenn sie das nächste Mal eine neue Besprechung planen.
 
-### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Schritt 4 : Aktualisieren vorhandener Besprechungs einladen von Benutzern mithilfe des Besprechungsmigrationsdiensts (optional)
+### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Schritt 4 – Aktualisieren vorhandener Besprechungs-Einladungen von Benutzern mithilfe des Meeting Migration Service (optional)
 
 Für die nächsten beiden Schritte müssen Sie mit der Windows PowerShell.
   
-Wenn Sie die Standardtelefonnummern aktualisiert haben, die in den Besprechungseinrufen für einige oder alle Ihrer Benutzer enthalten sind, können Sie optional Besprechungs einladen, die bereits an Benutzer in Ihrer Organisation gesendet wurden, bevor ihre Standardtelefonnummern mithilfe des Besprechungsmigrationsdiensts geändert wurden. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Wenn Sie die Standardtelefonnummern aktualisiert haben, die in den Besprechungseinrufen für einige oder alle Ihrer Benutzer enthalten sind, können Sie optional Besprechungseinrufe aktualisieren, die bereits vor der Änderung der Standardtelefonnummern an Benutzer in Ihrer Organisation mithilfe des Meeting Migration Service gesendet wurden. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Führen Sie Meeting Migration Service (MMS) für die Benutzer aus, deren Standardtelefonnummern in Schritt 2 geändert wurden. Führen Sie dazu den folgenden Befehl aus:
 
@@ -100,30 +100,30 @@ Wenn Sie die Standardtelefonnummern aktualisiert haben, die in den Besprechungse
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>Schritte zum Aufheben der Zuweisung einer Servicetelefonnummer für eine Konferenzbrücke
 
 
-Wenn Sie die Zuweisung einer Telefonnummer von einer Konferenzbrücke auflöst, können Benutzer nicht mehr mit dieser Telefonnummer an Besprechungen teilnehmen. Da sich die Telefonnummer ändert, ist es wichtig, alle Benutzer zu aktualisieren, die über eine Telefonnummer als Standardnummer verfügen könnten (sofern vorhanden), und ihre vorhandenen Besprechungseinlände zu aktualisieren, bevor die Telefonnummer von der Audiokonferenzbrücke nicht zugewiesen wird.
+Wenn Sie die Nummer einer Konferenzbrücke wieder zuweisen, können die Benutzer nicht mehr über diese Telefonnummer an Besprechungen teilnehmen. Da sich die Telefonnummer ändert, ist es wichtig, alle Benutzer zu aktualisieren, die eine Telefonnummer als Standardnummer haben können (sofern vorhanden) und ihre vorhandenen Besprechungseinrufe zu aktualisieren, bevor die Nummer von der Audiokonferenzbrücke entfernt wird.
 
-Wenn die Telefonnummer entfernt wird, ohne die Benutzer und ihre Besprechungen zu aktualisieren, können ihre vorhandenen Besprechungsbesprechungen eine Telefonnummer enthalten, die für die Teilnahme an ihren Besprechungen nicht funktioniert.
+Wenn die Telefonnummer entfernt wird, ohne die Benutzer und ihre Besprechungen zu aktualisieren, können die vorhandenen Besprechungsteilnehmer eine Telefonnummer enthalten, die für die Teilnahme an Besprechungen nicht funktioniert.
 
-Für die ersten drei Schritte müssen Sie mit der Windows PowerShell. Wenn Sie wissen möchten, wie Sie dies tun können, klicken Sie auf Möchten Sie wissen, [wie sie mit Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
+Für die ersten drei Schritte müssen Sie mit der Windows PowerShell. Wenn Sie wissen möchten, wie Sie dazu vor gehen, klicken Sie auf Möchten Sie [wissen, wie sie mit einem Windows PowerShell?](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
 
-### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Schritt 1 : Aktualisieren von Benutzern, deren Telefonnummer als Standardnummer nicht zugewiesen werden soll
+### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>Schritt 1 – Aktualisieren von Benutzern, deren Telefonnummer als Standardnummer nicht zugewiesen werden soll
 
-Ersetzen Sie die standardmäßige gebührenpflichtige oder gebührenfreie Nummer für alle Benutzer, deren Nummer als Standardnummer nicht zugewiesen werden soll, und beginnen Sie mit dem Neuplanen ihrer Besprechungen. Führen Sie dazu den folgenden Befehl aus:
+Ersetzen Sie die gebührenpflichtige oder gebührenfreie Standardnummer für alle Benutzer, deren Nummer als Standardnummer nicht zugewiesen werden soll, und beginnen Sie mit dem Neuplanen ihrer Besprechungen. Führen Sie dazu den folgenden Befehl aus:
 
 ```PowerShell
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >Sie können auch die standardmäßige gebührenpflichtige oder gebührenfreie Benutzeranzahl im Microsoft Teams Admin Center ändern. Dadurch werden ihre Besprechungen jedoch nicht automatisch neu berechnet. 
+ >Sie können auch die gebührenpflichtige oder gebührenfreie Standardnummer von Benutzern im Microsoft Teams Admin Center ändern. Dadurch werden ihre Besprechungen jedoch nicht automatisch neu berechnet. 
  
- Weitere Informationen finden Sie unter Festlegen der Telefonnummern, die in Einladungen [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) enthalten sind, oder Festlegen der Telefonnummern, die in Einladungen in Skype for Business Online enthalten [sind.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+ Weitere Informationen finden Sie unter Festlegen der Telefonnummern für Einladungen [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) oder Festlegen der Telefonnummern, die in Einladungen in Skype for Business Online [enthalten sind.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
   > [!NOTE]
   > Je nach Größe Ihrer Organisation kann es eine Weile dauern, bis dieser Vorgang abgeschlossen ist.
 
 ### <a name="step-2---view-meeting-migration-status-using-windows-powershell"></a>Schritt 2 - Anzeigen des Status der Besprechungsmigration mit Windows PowerShell
 
-Alle Besprechungen werden neu geplant, sobald keine Vorgänge im Status *"Ausstehend"* oder *"In Bearbeitung" angezeigt* werden.
+Alle Besprechungen werden neu geplant, sobald  keine Vorgänge mit dem Status Ausstehend oder In *Bearbeitung mehr ausgeführt* werden.
 
 ```PowerShell
 Get-CsMeetingMigrationStatus -SummaryOnly
@@ -137,14 +137,14 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 1. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
-2. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie auf **Los.** Wenn es sich bei der Telefonnummer [](/microsoft-365/admin/contact-support-for-business-products) um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den Microsoft-Support, damit die Telefonnummer nicht zugewiesen wird.
+2. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer in der Liste aus, und klicken Sie auf **Release**. Wenn es sich bei der Telefonnummer um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den [Microsoft-Support,](/microsoft-365/admin/contact-support-for-business-products) damit die Telefonnummer nicht zugewiesen wird.
 
 3. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, klicken **Sie** im Bestätigungsfenster auf Ja.
 
    > [!IMPORTANT]
    > Nachdem die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wurde, ist die Telefonnummer nicht mehr für die Teilnahme der Benutzer an neuen oder bestehenden Besprechungen verfügbar.
 
-### <a name="save-time-and-automate"></a>Zeit sparen und automatisieren
+### <a name="save-time-and-automate"></a>Zeit sparen und Automatisieren
 
 Um Zeit zu sparen, indem Sie diesen Prozess automatisieren, können Sie die [Cmdlets Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) oder **Set-CsOnlineDialInConferencingUserDefaultNumber** verwenden.
 
@@ -180,37 +180,37 @@ Um Zeit zu sparen, indem Sie diesen Prozess automatisieren, können Sie die [Cmd
   ```
 
     > [!NOTE]
-    > Der oben verwendete Speicherort muss den Kontaktinformationen der Benutzer entsprechen, die im Microsoft 365 Admin Center festgelegt sind.
+    > Der oben verwendete Standort muss mit den Kontaktinformationen der Benutzer übereinstimmen, die im Microsoft 365 Admin Center festgelegt sind.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-**Schaltfläche "Zuweisen nicht zuweisen" ist nicht verfügbar**
+**Die Schaltfläche "Zuweisen" ist nicht verfügbar**
 
-Sie möchten die Zuzuweisende Nummer aufheben, aber die Schaltfläche ist nicht verfügbar. Wenn Sie mit der Maus darauf zeigen, werden Sie umgeleitet, um den Support mit der folgenden Meldung zu kontaktieren: "Standard- oder freigegebene Nummern können nicht von der Brücke entfernt _werden. Wenden Sie sich an den Support, um die Zuzuweisen von dedizierten Gebührennummern zu entsenden._".
+Sie möchten die Nummerierung aufheben, aber die Schaltfläche ist nicht verfügbar. Wenn Sie mit der Maus darauf zeigen, werden Sie an den Support mit der folgenden Meldung umgeleitet: "Standardnummern oder freigegebene Nummern können nicht von der Brücke entfernt _werden. Wenden Sie sich an den Support, um die Zuzuweisen von dedizierten gebührenpflichtigen Nummern auf " zu_ bitten.
 
-Um weitere Informationen zu den Bridge(en) zu erhalten, führen Sie die folgende Powershell aus:
+Um weitere Informationen zu den Brücke(en) zu erhalten, führen Sie die folgende Powershell aus:
 ```PowerShell
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
-Das Ergebnis sollte neben anderen Informationen wie Identität, Name und Region auch die DefaultServiceNumber enthalten.
+Das Ergebnis sollte neben anderen Informationen wie Identity, Name und Region auch die DefaultServiceNumber enthalten.
 
-**Beispiel**, um die Zuzuweisende Zuzuweisende Zuzuweisen, die DefaultServiceNumber "8005551234"
+**Beispiel:** Zum Unzuweisen wird die DefaultServiceNumber "8005551234"
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell
 
-Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Ihnen helfen, Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Verwaltungspunkt zu verwalten, der Ihre tägliche Arbeit vereinfachen kann, insbesondere, wenn Sie mehrere Aufgaben erledigen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Ihnen helfen, Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt zu verwalten, der Ihre tägliche Arbeit vereinfachen kann, insbesondere, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
   - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Centers viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

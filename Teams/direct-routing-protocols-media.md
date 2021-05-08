@@ -14,7 +14,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Direkte Routing Protokolle
+description: Direct Routing-Protokolle
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 43673c2b6a1928ab2ca21579339324f01d5ada9e
@@ -26,112 +26,112 @@ ms.locfileid: "41888574"
 ---
 # <a name="overview"></a>Übersicht
 
-In diesem Artikel wird beschrieben, wie das direkte Routing die medienumgehung mit einem für Ice lite aktivierten Session Border Controller (SBC) unterstützt, wie in [RFC 5245](https://tools.ietf.org/html/rfc5245)beschrieben. Dieser Artikel richtet sich an sprach Administratoren, die für die Konfiguration der Verbindung zwischen dem lokalen SBC und dem SIP-Proxydienst verantwortlich sind.
+In diesem Artikel wird beschrieben, wie Direct Routing die Medienumgehung mit einem für ICE Lite aktivierten Session Border Controller (SBC) unterstützt, wie in [RFC 5245 beschrieben.](https://tools.ietf.org/html/rfc5245) Dieser Artikel richtet sich an Sprachadministratoren, die für die Konfiguration der Verbindung zwischen dem lokalen SBC und dem SIP-Proxydienst zuständig sind.
 
-Dieser Artikel enthält eine Übersicht über die Ice lite-Szenarien und die Anforderungen für die Interoperabilität. In diesem Artikel werden die Nachrichtenformate und die erforderlichen Zustandsautomaten Übergänge beschrieben, um eine zuverlässige Anruf-und Medien Übermittlung zu gewährleisten.
+Dieser Artikel bietet eine Übersicht über die ICE Lite-Szenarien und -Anforderungen für die Interoperabilität. In diesem Artikel werden die Nachrichtenformate und die erforderlichen Zustandsautomatenübergänge beschrieben, um zuverlässige Anrufe und Medienströme sicherzustellen.
 
 ## <a name="terminology"></a>Terminologie
 
-- Erster Gruß – die ersten Worte, die vom Anrufer und angerufenen gesprochen werden. Es ist wichtig, dass alle Anstrengungen unternommen werden, um sicherzustellen, dass die ersten Pakete von den Endpunkten für die meisten Anwendungsfälle zuverlässig bereitgestellt werden.
+- First Hello – Die ersten Worte, die vom Anrufer und Anrufer gesprochen werden. Es ist wichtig, dass alle Anstrengungen unternommen werden, um sicherzustellen, dass die ersten Pakete von den Endpunkten für die meisten Einsatzfälle zuverlässig übermittelt werden.
 
-- Forking – das Angebot des Anrufers wird möglicherweise an mehrere Endpunkte übermittelt, wenn der aufgerufene auf mehreren Geräten zur Verfügung steht (beispielsweise kann ein Team Benutzer in Teams für Windows und Teams für Android oder iPhone angemeldet sein).
+- Freisprechen – Das Angebot des Anrufers kann an mehrere Endpunkte für Anrufer übermittelt werden, wenn der angestellte Anrufer auf mehreren Geräten verfügbar ist (beispielsweise könnte ein Teams-Benutzer bei Teams für Windows und Teams für Android oder iPhone angemeldet sein).
 
-- Provisorische Antwort (183) – die Endpunkte für Anrufer für eine schnellere Anrufeinrichtung senden Sie eine Antwort mit den Kandidaten und Schlüsseln, die zum Einrichten des Medienflusses erforderlich sind. Dies erfolgt in Erwartung des Benutzers, der den Anruf (200OK) möglicherweise von dieser bestimmten aufgerufenen Instanz aus beantwortet. Mit Forking sollte der Anrufer bereit sein, mehrere provisorische Antworten zu erhalten.
+- Provisorische Antwort (183) – Die Endpunkte der Anrufe zur schnelleren Anrufeinrichtung senden eine Antwort mit den Kandidaten und Schlüsseln, die zum Einrichten des Medienflusses erforderlich sind. Dies geschieht im Voraus, wenn der Benutzer den Anruf (200OK) dieser bestimmten Anruferinstanz entgegennahme. Mit "Forking" sollte der Anrufer mehrere provisorische Antworten erhalten können.
 
-- Re-invite – Angebot mit endgültigen Kandidaten, die vom ICE-Controlling-Endpunkt ausgewählt wurden. Dies hat das a = Remote-Candidate-Attribut, um alle Racebedingungen von der Behandlung mehrerer Gabeln zu lösen.
+- Re-Invite – Angebot mit endgültigen Kandidaten, die vom ice controllingden Endpunkt ausgewählt wurden. Dies hat das "a=remote-candidate"-Attribut, um alle Rennbedingungen aus der Behandlung mehrerer Forks zu lösen.
 
-- Teams-Endpunkt – Dies kann entweder ein Server (medienprozessor, Transport Relay) oder der Client für Teams sein.
+- Teams Endpunkt: Dies kann entweder ein Server (Medienprozessor, Transport relay) oder der Teams sein.
 
 ## <a name="message-format"></a>Nachrichtenformat
 
-Die Teams-Infrastruktur folgt RFC 5245 für Ice-lite. Dies impliziert, dass alle Stun-Nachrichten mit [RFC 5389](https://tools.ietf.org/html/rfc5389)kompatibel sind.
+Die Teams verwendet RFC 5245 für ICE-Lite. Dies bedeutet, dass alle STUN-Nachrichten [RFC 5389 entsprechen.](https://tools.ietf.org/html/rfc5389)
 
-Das SBCS, wie es in RFC 5389 erforderlich ist, muss alle Betäubungs Attribute ignorieren, die Sie nicht erkennen, und die Nachrichten mit den bekannten Attributen weiterverarbeiten. 
+Die SBCs, die RFC 5389 erfordert, müssen alle STUN-Attribute ignorieren, die sie nicht erkennen, und die Meldungen weiterhin mit den bekannten Attributen verarbeiten. 
 
-Wenn fehlerhafte Pakete empfangen werden, müssen die Pakete verworfen werden, ohne dass dies Auswirkungen auf die Einrichtung der Mediensitzung hat.
+Wenn falsch formatierte Pakete empfangen werden, müssen die Pakete verworfen werden, ohne dass dies Auswirkungen auf die Mediensitzung hat.
 
-## <a name="ice-lite-requirements"></a>Ice lite-Anforderungen
+## <a name="ice-lite-requirements"></a>ICE Lite-Anforderungen
 
-In diesem Abschnitt werden die Anforderungen für Ice lite kurz erfasst.
+In diesem Abschnitt werden die Anforderungen für ICE Lite kurz beschrieben.
 
-### <a name="candidate-gathering"></a>Kandidaten Sammlung
+### <a name="candidate-gathering"></a>Kandidatentreffen
 
-Der SBC muss nur einen Kandidaten anbieten, der öffentlich erreichbar ist. Derzeit werden nur IPv4-Kandidaten unterstützt.
+Der SBC darf nur einen Kandidaten anbieten, der öffentlich erreichbar ist. Derzeit werden nur IPV4-Kandidaten unterstützt.
 
 
-#### <a name="connectivity-checks"></a>Verbindungs Überprüfungen
+#### <a name="connectivity-checks"></a>Verbindungsüberprüfungen
 
-Die Ice lite-Implementierung muss auf alle empfangenen Verbindungs Überprüfungen Antworten. Der Ice lite-Endpunkt darf keine Verbindungs Prüfanforderungen senden. (Wenn Verbindungs Überprüfungen verstoßen werden, wird die vollständige Implementierung beantwortet, was dazu führen kann, dass unerwartete Peer-abgeleitete Kandidaten erkannt werden und möglicherweise zu Anruf Fehlern führen.)
+Die ICE Lite-Implementierung muss auf empfangene Verbindungsüberprüfungen reagieren. Der ICE Lite-Endpunkt darf keine Konnektivitätsprüfungsanforderungen senden. (Wenn Konnektivitätsprüfungen verletzt gesendet werden, reagiert die vollständige Implementierung, was dazu führen kann, dass unerwartete von Peers abgeleitete Kandidaten ermittelt werden und potenziell Fehler beim Aufruf zur Folge haben.)
 
-#### <a name="nominations"></a>Nominierungen
+#### <a name="nominations"></a>Ausdingungen
 
-Der vollständige Implementierungs Endpunkt für ICE ist immer der steuernde Endpunkt und folgt "normalen" Nominierungen für die Auswahl der endgültigen Kandidaten, die für den Medienfluss verwendet werden sollen. Der Ice lite-Endpunkt kann die Nominierungen verwenden, um den für Medien und die komplette Anrufeinrichtung zu verwendenden Pfad abzuschließen.
+Der ENDPUNKT für die vollständige ICE-Implementierung ist immer der Endpunkt "Steuern" und folgt den "regulären" Anweisungen für die Auswahl der endgültigen Kandidaten, die für den Medienfluss verwendet werden sollen. Der ICE Lite-Endpunkt kann die Abos verwenden, um den Pfad zu schließen, der für die Mediennutzung und die vollständige Anrufering verwendet werden soll.
 
-Hinweis: bei der Verzweigung mit Peer Endpunkten, die 183 provisorische Antworten senden, muss der SBC bereit sein, auf Prüfungen von mehreren Endpunkten und auch Nominierungen von mehreren Endpunkten zu reagieren, wenn die Nominierungen vor 200OK erfolgen. Je nach Konvergenz des ICE State Machine auf dem endgültigen Pfad und dem Zeitpunkt der Antwort des Benutzers können die Nominierungen vor oder nach dem 200OK erfolgen. Der SBC muss in der Lage sein, beide Fälle zu verarbeiten.
+Hinweis: Im Fall von Aufschütten mit Peerendpunkten, die Antworten auf 183 Provisoren senden, muss der SBC bereit sein, auf Prüfungen von mehreren Endpunkten zu reagieren, und auch von mehreren Endpunkten aus, wenn die Benachrichtigungen vor 200OK auftreten. Abhängig von der Konvergenz des ICE-Zustandsautomaten für den endgültigen Pfad und der Anzeigedauer der Antwort durch den Benutzer kann der Spielstand vor oder nach 200OK auftreten. Der SBC muss in der Lage sein, beide Fälle zu behandeln.
 
-#### <a name="converging-for-forking"></a>Konvergierende für Verzweigung
+#### <a name="converging-for-forking"></a>Konvergenz fürs Aufschütten
 
-Wenn das Angebot des SBC an mehrere Endpunkte für Teams abzweigt, können die Endpunkte der Teams mit einer provisorischen Antwort Antworten und Verbindungs Prüfungen starten. Der SBC muss bereit sein, Verbindungs Überprüfungen zu empfangen und auf Verbindungs Überprüfungen von mehreren Peer Endpunkten zu reagieren. So kann beispielsweise der Benutzer von Teams sowohl auf einem Desktop-Computer als auch auf einem Mobiltelefon angemeldet sein. Beide Geräte werden über den eingehenden Anruf benachrichtigt und versuchen, Verbindungs Prüfungen mit dem SBC durchführen zu lassen.
+Wenn das Angebot von den SBC-Forks an mehrere Teams-Endpunkte Teams, reagieren die Teams-Endpunkte möglicherweise mit einer provisorischen Antwort und starten Konnektivitätsüberprüfungen. Der SBC muss darauf vorbereitet sein, Konnektivitätsprüfungen zu empfangen und auf Konnektivitätsüberprüfungen von mehreren Peerendpunkten zu reagieren. Beispielsweise könnte der Teams an einem Desktop und einem Mobiltelefon angemeldet sein. Beide Geräte werden über den eingehenden Anruf benachrichtigt und versuchen, die Konnektivitätsüberprüfungen mit dem SBC durchzuführen.
 
-Schließlich wird nur einer der Endpunkte den Anruf annehmen (200OK). Beim Empfang des 200OK kann der SBC den richtigen Kontext für die Verarbeitung der Medienpakete einrichten.
+Schließlich wird nur einer der Endpunkte den Anruf entgegenrufen (200OK). Beim Empfangen von 200OK kann der SBC den richtigen Kontext für die Verarbeitung der Medienpakete einrichten.
 
 ## <a name="scenarios"></a>Szenarien
 
 ###  <a name="inbound-call-from-sbc"></a>Eingehender Anruf von SBC
 
-Für dieses Szenario gibt es mehrere mögliche Peer Endpunkte, die vom SBC behandelt werden müssen:
+In diesem Szenario gibt es mehrere mögliche Peerendpunkte, die der SBC behandeln muss:
 
-- Server Endpunkte werden in der Regel direkt mit 200OK beantwortet. Hierbei handelt es sich um vollständige Ice-Endpunkte, die normalerweise in Szenarien für Voicemail, Anrufwarteschlange und automatische Telefonzentrale involviert sind.
+- Serverendpunkte reagieren in der Regel direkt mit 200OK. Dabei handelt es sich um vollständige ICE-Endpunkte, die in der Regel in Szenarien mit Voicemail, Anrufwarteschleife und automatischer Telefonant einbezogen sind.
 
-- Client Endpunkte können mehrere provisorische Antworten mit unterschiedlichen from/to-Tags (183) senden, gefolgt von einem 200OK vom Endpunkt, der den Anruf annimmt. Hierbei handelt es sich um vollständige Ice-Endpunkte, die Endbenutzer Clients darstellen.
+- Kundenendpunkte können mehrere Antworten auf provisorische Antworten mit unterschiedlichen Von/Zu-Tags (183) gefolgt von einem 200OK vom Endpunkt senden, der den Anruf beantwortet. Dies sind vollständige ICE-Endpunkte, die in der Regel Endbenutzerclients darstellen.
 
-- Andere SBC-Endpunkte. Hierbei handelt es sich um Ice lite-Endpunkte, die normalerweise in das Szenario der gleichzeitigen Klingeln von Clientendpunkten und anderen Telefonnummern involviert sind.
+- Andere SBC-Endpunkte. Dies sind ICE Lite-Endpunkte, die in der Regel am Szenario des gleichzeitigen Anrufens von Clientendpunkten und einer anderen Telefonnummer beteiligt sind.
 
-Der SBC muss auf alle gültigen Verbindungs Prüfungsanforderungen Antworten, die von den vollständigen Ice-Endpunkten empfangen werden. Pro RFC werden die vollständigen Ice-Endpunkte zu steuernden Endpunkten. Die Endpunkte der Teams (Client/Server) führen "reguläre" Nominierungen aus, um Verbindungs Prüfungen abzuschließen. Die endgültige 200Ok kann entweder von einem Endpunkt sein, der ein früheres Medium gesendet hat, oder von einem anderen Endpunkt. Beim Empfang des 200Ok muss der SBC den richtigen Kontext für den Medienfluss einrichten. 
+Der SBC muss auf alle gültigen Verbindungsüberprüfungsanforderungen reagieren, die von den vollständigen ICE-Endpunkten empfangen wurden. Nach RFC werden die vollständigen ICE-Endpunkte zu Kontrollendpunkten. Die Teams (Client/Server)-Endpunkte führen "Reguläre" Konnektivitätsprüfungen durch. Die letzten 200Ok-Daten können entweder von einem Endpunkt aus kommen, der frühe Medien gesendet hat, oder von einem anderen Endpunkt. Beim Empfang des 200Ok muss der SBC den richtigen Kontext für den Medienfluss einrichten. 
 
-###  <a name="early-media"></a>Frühe Medien
+###  <a name="early-media"></a>Early media
 
-Wenn ein früher Medienfluss vorliegt, muss sich der SBC an den ersten Endpunkt verriegeln, der Streaming-Medien startet. der Medienfluss kann beginnen, bevor Kandidaten nominiert werden. Der SBC sollte in dieser Phase Unterstützung für das Senden von DTMF haben, um IVR/Voicemail-Szenarien zu ermöglichen. Der SBC sollte den Pfad mit der höchsten Priorität verwenden, auf dem er überprüft hat, ob die Nominierungen nicht abgeschlossen wurden.
+Wenn ein frühzeitiger Medienfluss besteht, muss der SBC den ersten Endpunkt ausrufen, der mit dem Streamen von Medien beginnt. der Medienfluss beginnen kann, bevor die Kandidaten benannt werden. Der SBC sollte in dieser Phase über Unterstützung für das Senden von MFV verfügen, um IVR-/Voicemailszenarien zu ermöglichen. Der SBC sollte den Pfad mit der höchsten Priorität verwenden, für den er Überprüfungen empfangen hat, wenn die Umrungen nicht abgeschlossen wurden.
 
-### <a name="outbound-call-to-sbc"></a>Outbound-Anruf an SBC
+### <a name="outbound-call-to-sbc"></a>Ausgehender Anruf bei SBC
 
-Die Endpunkte der Teams sind der Aufrufer für dieses Szenario und der steuernde Endpunkt. Beim Empfang einer provisorischen Antwort (183) oder einer endgültigen Antwort (200OK) startet der Team-Endpunkt Verbindungs Prüfungen und führt zu "normalen" Nominierungen, um die Verbindungs Prüfungen abzuschließen.
+Die Teams Endpunkte sind der Anrufer für dieses Szenario und der steuernde Endpunkt. Wenn Sie entweder eine Antwort auf provisorische Unterstützung (183) oder eine endgültige Antwort (200OK) erhalten haben, startet der Teams-Endpunkt Konnektivitätsprüfungen und geht zu "Normal"-Konnektivitätsprüfungen weiter, um die Konnektivitätsprüfungen durchzuführen.
 
-Hinweis: Wenn der SBC eine provisorische Antwort (183) sendet, muss der SBC bereit sein, Verbindungs Prüfanforderungen zu empfangen und die Nominierungen möglicherweise abzuschließen, bevor der 200OK vom SBC gesendet wird. Wenn Schecks und/oder Nominierungen abgeschlossen werden, bevor die 200OK eingehen, werden die Überprüfungen und/oder Nominierungen nach Eingang von 200OK nicht mehr durchgeführt. Der SBC darf die Ice-Kandidaten, das Kennwort und den ufrag (username-Fragment) nicht zwischen 183 und 200 ändern.
+Hinweis: Wenn der SBC eine provisorische Antwort (183) sendet, muss der SBC Für den Empfang von Anforderungen zur Konnektivitätsprüfung und möglicherweise zum Abschließen der Unfähigkeiten bereit sein, bevor 200OK von SBC gesendet wird. Wenn Überprüfungen und/oder Abschüttungen abgeschlossen wurden, bevor 200OK empfangen wurde, werden Überprüfungen und/oder Kandidaten nach 200OK nicht mehr durchgeführt. Der SBC darf ICE-Kandidaten, Kennwort und Ufrag (Benutzernamenfragment) zwischen 183 und 200 nicht ändern.
 
-Um frühe Medien zu unterstützen, kann der SBC mit dem Streaming der Medien an den Peer Ice-Kandidaten beginnen, wobei die höchste Priorität auf der Grundlage empfangener Verbindungs Überprüfungen liegt, noch bevor die Nominierungen vom Teams-Endpunkt abgeschlossen werden. Der SBC sollte erwarten, dass Medien aus Teams an einem beliebigen Kandidaten, bis die Nominierungen abgeschlossen sind. Sobald ein Kandidat nominiert wurde, muss der SBC auf den richtigen Kontext zurückgesetzt werden, um Medienpakete zu senden und zu empfangen.
+Um frühe Medien zu unterstützen, beginnt der SBC möglicherweise, die Medien an den ICE-Peerkandidaten zu streamen, und zwar mit der höchsten Priorität basierend auf den empfangenen Verbindungsüberprüfungen, sogar bevor die Daten durch den Endpunkt Teams werden. Der SBC sollte für jeden Kandidaten Medien Teams, bis die Ausdingung abgeschlossen ist. Sobald ein Kandidat benannt wurde, muss der SBC auf den richtigen Kontext zurückgesetzt werden, um Medienpakete zu senden und zu empfangen.
 
-## <a name="srtp-support-requirements"></a>Anforderungen für die SRTP-Unterstützung
+## <a name="srtp-support-requirements"></a>SRTP-Supportanforderungen
 
-Der SBC muss die SRTP-Verschlüsselungs Verschlüsselungs AES_CM_128_HMAC_SHA1_80 für Angebot und Antwort im folgenden Format unterstützen:
+Der SBC muss SRTP-Verschlüsselungschiffre und AES_CM_128_HMAC_SHA1_80 für Angebots- und Antwortantworten in folgendem Format unterstützen:
 
 ```console
 "inline:" <key||salt> ["|" lifetime]
 ```
 
-Der folgende Code ist ein Beispiel für das Crypto-Attribut im SDP-Angebot aus dem SBC:
+Es folgt ein Beispiel für das Kryptografieattribut im SDP-Angebot von SBC:
 
 ```console
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:V/Lr6Lsvhad/crSB9kCQ28jrYDxR2Yfk5bXryH5V|2^31
 ```
 
-Die Parameter MkII und length sind nicht erforderlich.
+MKI- und Length-Parameter sind nicht erforderlich.
 
-Weitere Informationen finden Sie in [RFC 4568, Abschnitt 6,1](https://tools.ietf.org/html/rfc4568#section-6.1).
+Weitere Informationen finden Sie unter [RFC 4568, Abschnitt 6.1.](https://tools.ietf.org/html/rfc4568#section-6.1)
 
-## <a name="sdes-support-requirements"></a>SDES-Supportanforderungen
+## <a name="sdes-support-requirements"></a>Supportanforderungen für SDES
 
-Das Gerät muss SDES in dem Format anbieten können, wie nachstehend beschrieben. Microsoft Media Processors bevorzugen immer SDES.
+Das Gerät muss SDES im unten beschriebenen Format anbieten können. Microsoft Media Processors bevorzugen immer SDES.
 
-- Auch wenn ein Client nur DTLS unterstützt, werden die Medien Prozessoren in SDES konvertiert, wenn keine medienumgehung erfolgt.
+- Bei der Nicht-Medienumgehung werden die Medienprozessoren in SDES konvertiert, auch wenn ein Client nur DTLS unterstützt.
 
-- Wenn ein Client nur DTLS (zukünftiger Google Chrome-Status) ist, wird mit der medienumgehung ein MP-Element in den Pfad eingefügt, und der Anruf wird von der medienumgehung in die nicht-medienumgehung konvertiert. Zwischen der SBC-und der medienprozessor Komponente des direkten Routings wird immer SDES verwendet.
+- Bei der Medienumgehung fügt Direct Routing eine MP in den Pfad ein, wenn ein Client nur DTLS ist (zukünftiger Google Chrome-Zustand). Dabei wird der Aufruf von der Medienumgehung in die Nicht-Medienumgehung konvertiert. Zwischen der SBC- und Medienprozessorkomponente von Direct-Routing wird SDES immer verwendet.
 
-Derzeit gibt es keinen Team-Client, der nur DTLS bietet; Google hat jedoch angekündigt, dass Sie zu einem bestimmten Zeitpunkt die Unterstützung von SDES beenden werden.
+Derzeit gibt es keinen Teams, der nur DTLS bietet. Google hat jedoch angekündigt, dass die Unterstützung von SDES zu einem bestimmten Zeitpunkt beendet wird.
 
-## <a name="format-for-offer-from-sbc-in-bypass-mode"></a>Format für das Angebot von SBC im Bypass-Modus 
+## <a name="format-for-offer-from-sbc-in-bypass-mode"></a>Format für das Angebot von SBC im Umgehungsmodus 
 
-Das Angebot muss SDES enthalten und kann DTLS optional im folgenden Format enthalten:
+Das Angebot muss SDES enthalten und kann DTLS (optional) im folgenden Format enthalten:
 
 ```console
 m=audio 54056 UDP/TLS/RTP/SAVP 0 8 76 77 18 9 101 13
@@ -142,7 +142,7 @@ a=setup:actpass
 a=rtcp-mux
 ```
 
-### <a name="format-for-answer-containing-sdes-to-sbc"></a>Format für Antwort mit SDES in SBC
+### <a name="format-for-answer-containing-sdes-to-sbc"></a>Format für Antwort mit SDES an SBC
 
 ```console
 m=audio 54056 RTP/SAVP 111 103 104 9 0 8 description 106 13 110 112 113 126
@@ -153,9 +153,9 @@ a=rtcp-mux
 
 ```
 
-## <a name="format-for-offer-from-teams-to-sbc"></a>Format für Angebot von Teams in SBC 
+## <a name="format-for-offer-from-teams-to-sbc"></a>Format für angebote von Teams zu SBC 
 
-### <a name="format-for-sdes-only-offer-to-sbc"></a>Format für SDES-Angebot nur für SBC
+### <a name="format-for-sdes-only-offer-to-sbc"></a>Nur für SDES angebotenes Format für SBC
 
 ```console
 m=audio 52884 RTP/SAVP 111 103 104 9 0 8 106 13 110 112 113 126

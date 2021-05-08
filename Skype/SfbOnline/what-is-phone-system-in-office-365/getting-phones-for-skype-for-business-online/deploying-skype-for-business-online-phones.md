@@ -20,15 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: Erfahren Sie mehr über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Skype for Business-Onlinetelefone zu konfigurieren.
-ms.openlocfilehash: 4c683cd2b0259c0145632c8522f3b262c686c71d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Skype for Business Onlinetelefone zu konfigurieren.
+ms.openlocfilehash: 1c607f0dd5c3a82c744f26432fe1c65f31263440
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097101"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237371"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
 Dieses Bereitstellungshandbuch soll Sie beim Bereitstellen von IP-Telefonen für Skype for Business Online unterstützen.
   
@@ -40,7 +42,7 @@ In Unternehmen jeder Art ist eine wichtige Voraussetzung für die Geschäftstät
 
 Bevor Sie beginnen, sollten Sie die Administratorhandbücher und Telefonhandbücher des Telefonherstellers herunterladen.
   
-- Polycom-Telefone finden Sie in der [Polydokumentationsbibliothek](https://documents.polycom.com/category/voice).
+- Polycom-Telefone finden Sie in der [Poly-Dokumentationsbibliothek.](https://documents.polycom.com/category/voice)
     
 - Yealink-Telefone: [Yealink-HD-SIP-Telefonlösung für Skype for Business](http://www.yealink.com/products_top_2.html).
     
@@ -76,7 +78,7 @@ Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware fü
   
 Wenn neue Firmware verfügbar und zum Herunterladen und Installieren bereit ist, benachrichtigt das Telefon den Benutzer. Polycom-Telefone benachrichtigen den Benutzer und bieten dabei die Optionen **Update** (Aktualisieren) und **Postpone** (Aufschieben).
   
-![Screenshot mit den Optionen "Aktualisieren" und "Verschieben"](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
+![Screenshot der Optionen "Aktualisieren" und "Verschieben".](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
 Für Polycom-Telefone können Sie die Firmware auf dem Telefon aktualisieren, indem Sie **SwUpdate** (Softwareupdate) auswählen.
   
@@ -95,19 +97,19 @@ Informationen zur Planung der Netzwerkinfrastruktur finden Sie unter [Skype Oper
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>Schritt 6 - Vorbereiten der Anmeldung der Benutzer
 
-Damit sich Benutzer erfolgreich bei einem Skype for Business Online-Telefon anmelden und Anrufe tätigen können, müssen Sie sicherstellen, dass den Benutzern die richtigen Lizenzen zugewiesen sind. Sie müssen mindestens eine Telefonsystemlizenz und einen Anrufplan zuweisen. Weitere Informationen finden Sie unter Skype for Business- und [Microsoft Teams-Add-On-Lizenzierung](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und [Zuweisen von Skype for Business- und Microsoft Teams-Lizenzen.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+Damit sich Benutzer erfolgreich bei einem Skype for Business Online-Telefon anmelden und Anrufe tätigen können, müssen Sie sicherstellen, dass den Benutzern die richtigen Lizenzen zugewiesen sind. Sie müssen mindestens eine Telefonsystemlizenz und einen Anrufplan zuweisen. Weitere Informationen finden Sie unter Lizenzierung von Skype for Business und [Microsoft Teams-Add-Ons](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und Zuweisen Skype for Business [und Microsoft Teams Lizenzen.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
   
-Weitere Informationen zu Anrufplänen finden Sie unter [Telefonsystem und Anrufpläne.](/microsoftteams/calling-plan-landing-page)
+Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufpläne.](/microsoftteams/calling-plan-landing-page)
   
 - Verfügbare **Anmeldeoptionen** für Onlinebenutzer:
     
   - Benutzer mit **Polycom VVX 5XX/6XX** -Telefonen sehen folgenden Bildschirm:
     
-     ![Screenshot der Anmeldung von Polycom-Telefonen](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Screenshot der Anmeldung bei Polycom-Telefonen](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - Benutzer mit **Yealink T48G/T46G** -Telefonen sehen folgenden Bildschirm:
     
-     ![Screenshot mit der Anmeldung der Yealink-Telefone.](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
+     ![Screenshot der Anmeldung bei Yealink-Telefonen](../../images/2a2892ae-850d-4781-8be0-4ffb8af068c9.png)
   
     Details zu den von den Herstellern unterstützten Anmeldeoptionen finden Sie unter [Kauf von Telefonen für Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
@@ -118,7 +120,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter [Telefonsystem und Anrufp
     > [!NOTE]
     > PIN-Authentifizierung wird für Skype for Business Online in Verbindung mit LPE- und Partner-IP-Telefonen nicht unterstützt. 
   
-- **Verwendung eines PCs**: Wenn auf den PCs von Benutzern BToE-Software (Better Together over Ethernet) installiert und aktiviert ist, können sich die Benutzer über das Authentifizierungsfenster in ihrer Skype for Business-App für Windows bei ihrem Telefon anmelden. Weitere Informationen finden Sie unter Schritt 7 (optional) – Wenn Sie Gerätekopplung und Besseres Miteinander über [Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) haben.
+- **Verwendung eines PCs**: Wenn auf den PCs von Benutzern BToE-Software (Better Together over Ethernet) installiert und aktiviert ist, können sich die Benutzer über das Authentifizierungsfenster in ihrer Skype for Business-App für Windows bei ihrem Telefon anmelden. Weitere Informationen finden Sie unter Schritt 7 (optional) – Wenn Sie Gerätekopplung und [Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) verwenden.
     
   > [!NOTE]
   > Die Benutzer müssen den Benutzernamen und das Kennwort der Organisation eingeben, um sich bei dem Telefon anzumelden. Für den Benutzernamen müssen sie das UPN-Format verwenden (zum Beispiel  <em>amosm@contoso.com</em>  ).
@@ -129,7 +131,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter [Telefonsystem und Anrufp
     
   - Benutzer mit **Polycom VVX 5XX/6XX** -Telefonen sehen folgenden Bildschirm:
     
-     ![Screenshot mit den Polycom-Anweisungen](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Screenshot der Polycom-Anweisungen](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - Benutzer mit **Yealink T48G/T46G** -Telefonen sehen folgenden Bildschirm:
     
@@ -155,7 +157,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter [Telefonsystem und Anrufp
   
     Vergewissern Sie sich, dass auf der Website „ **Skype for Business-zertifiziertes Telefon** von [Name des Telefonherstellers]" angezeigt wird, und klicken Sie auf **Weiter**.
     
-     ![Screenshot mit Überprüfung des Namens](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Screenshot der Überprüfung des Namens](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Klicken Sie auf die Anmeldeinformationen des Benutzers oder auf **Anderes Konto verwenden**:
     
@@ -181,7 +183,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter [Telefonsystem und Anrufp
 |Lokal  <br/> |Online/lokal  <br/> |Benutzername/Kennwort  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |
 |Lokal  <br/> |Online/lokal  <br/> |Anmelden über PC (BToE)  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |
    
-- **Telefonfunktionen**: Die Funktionen können sich je nach IP-Telefonpartner geringfügig unterscheiden. Den vollständigen Funktionssatz und weitere Informationen zu den Features für jeden Telefonhersteller finden Sie unter Abrufen von Telefonen [für Skype for Business Online.](getting-phones-for-skype-for-business-online.md)
+- **Telefonfunktionen**: Die Funktionen können sich je nach IP-Telefonpartner geringfügig unterscheiden. Den vollständigen Funktionssatz und weitere Informationen zu den Funktionen der einzelnen Telefonhersteller finden Sie unter Abrufen von Telefonen [für Skype for Business Online.](getting-phones-for-skype-for-business-online.md)
     
 - Die **Telefonsperre** ist eine kürzlich eingeführte Funktion von Skype for Business-zertifizierten Telefonen, mit der Telefone gesichert werden können. Wenn die Funktion aktiviert ist, werden die Benutzer aufgefordert, nach der erfolgreichen Authentifizierung eine PIN zu erstellen. Nach der Erstellung der PIN werden die Telefone gesperrt, wenn das von Ihnen definierte Leerlauftimeout abgelaufen ist, Benutzer ihr Telefon manuell sperren oder ihre Telefonsperre über die Telefonkopplung mit ihrem PC synchronisieren. Wenn die PIN für die Telefonsperre mehrmals falsch eingegeben wird, wird der Benutzer entweder abgemeldet oder das Telefon muss mit einem Administratorcode entsperrt werden. Dies ist jedoch je nach Telefonpartner unterschiedlich. Die PIN des Benutzers muss aus 6 bis 15 Ziffern bestehen.
     
@@ -204,9 +206,9 @@ BToE kann für den Betrieb in zwei Modi konfiguriert werden:  *Automatisch*  (St
   
 1. Verbinden Sie den PC über den PC-Anschluss mit dem Telefon.
     
-     ![Screenshot mit Verbindung zu einem PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Screenshot der Verbindung mit einem PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Laden Sie über die folgenden Links die neueste BToE-Software von der Website des entsprechenden Herstellers herunter. Für eine bessere Benutzererfahrung können Sie die BToE-Software mithilfe einer Administratorverteilungslösung wie Microsoft Endpoint Configuration Manager verteilen und installieren. Hilfe zur Verwendung von Configuration Manager finden Sie unter [Pakete und Programme in Configuration Manager](/configmgr/apps/deploy-use/packages-and-programs).
+2. Laden Sie über die folgenden Links die neueste BToE-Software von der Website des entsprechenden Herstellers herunter. Für eine bessere Benutzererfahrung können Sie die BToE-Software mithilfe einer Administratorverteilungslösung wie Microsoft Endpoint Configuration Manager. Hilfe zur Verwendung von Configuration Manager finden Sie unter [Pakete und Programme in Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
     
    - [Polycom-Downloadwebsite für BToE-Software](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -214,7 +216,7 @@ BToE kann für den Betrieb in zwei Modi konfiguriert werden:  *Automatisch*  (St
     
    - [AudioCodes-Downloadwebsite für BToE-Software](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. Die Servereinstellung für BToE ist standardmäßig auf **Aktiviert** und **Automodus** festgelegt. Informationen zum Ändern dieser Einstellungen finden Sie unter [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy).
+3. Die Servereinstellung für BToE ist standardmäßig auf **Aktiviert** und **Automodus** festgelegt. Informationen zum Ändern dieser Einstellungen finden Sie unter [Set-CsIPPhonePolicy.](/powershell/module/skype/Set-CsIPPhonePolicy)
     
 > [!NOTE]
 > BToE wird zurzeit auf Mac- und VDI-Plattformen nicht unterstützt. 

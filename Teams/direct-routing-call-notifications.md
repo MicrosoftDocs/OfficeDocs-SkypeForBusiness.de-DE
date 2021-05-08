@@ -14,7 +14,7 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Benachrichtigung über direkten Routing Anruf
+description: Benachrichtigung über direkten Routinganruf
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -27,27 +27,27 @@ ms.locfileid: "42341807"
 ---
 # <a name="manage-call-notifications"></a>Verwalten von Anrufbenachrichtigungen
 
-In diesem Artikel wird beschrieben, wie Sie Anrufbenachrichtigungen für Ihre Benutzer verwalten. Sie können Anruf Endpunkte sowohl für Teams als auch für eine Drittpartei (Private Branch Exchange, PBX) oder einen Session Border Controller (SBC) konfigurieren.  Dies ist beispielsweise hilfreich, wenn Sie einen Anruf an das Mobiltelefon und die Tischtelefone eines Benutzers gleichzeitig senden möchten.   
+In diesem Artikel wird beschrieben, wie Sie Anrufbenachrichtigungen für Ihre Benutzer verwalten. Sie können Anrufendpunkte sowohl für Teams als auch für einen Drittanbieter konfigurieren: Private Branch Exchange (PBX) oder Session Border Controller (SBC).  Dies ist beispielsweise hilfreich, wenn Sie gleichzeitig einen Anruf an die Mobiltelefone und Tischtelefone eines Benutzers senden möchten.   
 
-Im folgenden Diagramm hat der Benutzer Irena zwei Endpunkte:
+Im folgenden Diagramm verfügt Irena über zwei Endpunkte:
 
-- Ein Team Endpunkt
+- Ein Teams-Endpunkt
 - Ein SIP-Telefon, das mit einem Drittanbieter-SBC verbunden ist
 
-Wenn ein Anruf eingeht, verzweigt der SBC den Anruf zwischen dem direkten Routing des Telefonsystems und dem Drittanbieter-SBC.
+Wenn ein Anruf eintrifft, leitet der SBC den Aufruf Telefonsystem Direct-Routing und dem Drittanbieter-SBC ab.
 
 
-![Diagramm mit gegabelten Teams-Endpunkten](media/direct-routing-call-notification-1.png)
+![Diagram showing forked Teams endpoints](media/direct-routing-call-notification-1.png)
 
-Wenn der Anruf auf Fork 2 (vom Drittanbieter-SBC) akzeptiert wird, generiert Teams eine Benachrichtigung über verpasste Anrufe.  
+Wenn der Anruf am Fork 2 (vom Drittanbieter SBC) angenommen wird, wird Teams Benachrichtigung "Verpasster Anruf" generiert.  
 
-Sie können die Benachrichtigung "verpasste Anrufe" verhindern, indem Sie den SBC so konfigurieren, dass ein Cancel auf Gabel 1 wie folgt gesendet wird:
+Sie können die Benachrichtigung "Verpasster Anruf" verhindern, indem Sie den SBC so konfigurieren, dass der Abbruch an "Fork 1" wie folgt gesendet wird:
 
-Grund: SIP; Ursache = 200; Text "Anruf an anderer Stelle abgeschlossen" 
+GRUND: SIP; cause=200;text"Call completed elsewhere" 
 
-Beachten Sie, dass der Anruf nicht in den Anruf Detaildatensätzen von Microsoft Phone System als erfolgreicher Anruf registriert wird. Der Anruf wird als "Versuch" mit dem endgültigen SIP-Code "487", dem endgültigen Microsoft-Subcode "540200" und dem letzten SIP-Codesatz "Anruf an anderer Stelle abgeschlossen" registriert.  (Wenn Sie die Anruf Detaildatensätze anzeigen möchten, wechseln Sie zum Teamadministrator-Portal, Analyse-und Berichtsfunktionen, Verwendungsberichte, und wählen Sie PSTN-Nutzung aus.)
+Beachten Sie, dass der Aufruf nicht in den Anrufdetaildatensätzen von Microsoft-Telefon System als erfolgreicher Aufruf registriert wird. Der Anruf wird als "Versuch" mit dem endgültigen SIP-Code "487", dem endgültigen Microsoft-Untercode "540200" und dem abschließenden SIP-Codebegriff "Anruf an anderer Stelle abgeschlossen" registriert.  (Zum Anzeigen der Anrufdetailseakte wechseln Sie zum Teams-Verwaltungsportal, zu Analysen und Berichten, Nutzungsberichte, und wählen Sie PSTN-Nutzung aus.)
 
 
-Das folgende Diagramm zeigt die SIP-Leiter für Fork 1, erläutert den Anruffluss und den erwarteten Grund in der Abbruch Nachricht. 
+Das folgende Diagramm zeigt die SIP-Leiter für "Fork 1", erläutert den Anruffluss und in der Meldung "Abbrechen" den erwarteten GRUND. 
 
-![Diagramm mit gegabelten Teams-Endpunkten](media/direct-routing-call-notification-2.png)
+![Diagram showing forked Teams endpoints](media/direct-routing-call-notification-2.png)

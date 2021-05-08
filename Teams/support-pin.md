@@ -1,5 +1,5 @@
 ---
-title: Wie Suche ich meinen Support-PIN?
+title: Wie suche ich meine Support-PIN?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: mikedav
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Ihre Support-PIN nachschlagen können.
+description: Erfahren Sie, wie Sie Ihre Support-PIN nachschauen.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
@@ -22,15 +22,15 @@ ms.locfileid: "44221639"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>So suchen Sie Ihre Support-PIN
 
-Führen Sie die folgenden Schritte aus, um Ihre Support-PIN zu finden, die den Microsoft-Kundendienst über das Telefon ermöglicht: 
+Führen Sie die folgenden Schritte aus, um Ihre Support-PIN nachschauen zu können, die den Microsoft-Kundensupport telefonisch unterstützt: 
 
-1. Melden Sie sich beim [Office Admin Center](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)an. 
+1. Melden Sie sich beim [Office Admin Center an.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
 
 2. Klicken Sie auf das Zahnradsymbol.
 
-3. Ihre Support-PIN wird im unteren rechten Bereich angezeigt. Sie können bei Bedarf auch Ihre PIN neu generieren.  
+3. Ihre Support-PIN wird im unteren rechten Bereich angezeigt. Sie können Ihre PIN bei Bedarf auch erneut generieren.  
 
-   ![Diagramm mit Support-PIN](media/support-pin.png)
+   ![Diagramm mit Unterstützungs-PIN](media/support-pin.png)
 
 
 

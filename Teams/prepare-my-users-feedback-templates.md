@@ -1,5 +1,5 @@
 ---
-title: Feedbackumfragen in Teams oder Skype for Business
+title: Feedback-Umfragen in Teams oder Skype for Business
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Sammeln Sie Benutzerfeedback zur Verbesserung der Cloud-Sprachimplementierung in Microsoft Teams oder Skype for Business.
+description: Sammeln Von Benutzerfeedback zur Verbesserung der Cloud-Sprachimplementierung in Microsoft Teams oder Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -23,50 +23,50 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49812615"
 ---
-# <a name="user-feedback-surveys"></a>Umfragen zu Benutzerfeedback 
+# <a name="user-feedback-surveys"></a>Benutzerfeedback-Umfragen 
 
-Verwenden Sie Feedbackumfragen, um die Benutzererfahrung und -einblicke nach ihrer Bereitstellung zu erfassen. Fragen sollten Feedback zur Veränderungskraft der Benutzer, zur Effektivität von Schulungsressourcen, zur Einsatzbereitkeit des Supportplans und zur Gesamterfahrung der Benutzer entschärfen. Bewerten Sie Umfrageantworten, um die smarten (spezifischen, messbaren, erreichbaren, relevanten, zeitgebundenen) Ziele zu messen, die Sie während der Projektplanung definiert haben, und bestimmen Sie alle erforderlichen zusätzlichen Maßnahmen.
+Verwenden Sie Feedback-Umfragen, um die Benutzererfahrung und -einblicke nach Ihrer Bereitstellung zu erfassen. Fragen sollten das Feedback über die Empfindlichkeit der Benutzer, die Effektivität von Schulungsressourcen, die Einsatzbereitkeit des Supportplans und die Gesamterfahrung der Benutzer entschärfen. Bewerten Sie Umfrageantworten, um die Smart-Ziele (spezifische, messbare, ansetzbare, relevante und zeitgebundene) Ziele zu messen, die Sie während der Projektplanung definiert haben, und bestimmen Sie alle weiteren erforderlichen Maßnahmen.
 
-Passen Sie die nachstehenden Fragen an, und übertragen Sie sie dann zur einfachen Verteilung und Analyse auf ein Umfragetool wie SharePoint.
+Passen Sie die nachstehenden Fragen an, und übertragen Sie sie dann auf ein Umfragetool wie SharePoint zur einfachen Verteilung und Analyse.
 
 Für diese Umfragen  bezieht sich das neue Telefonsystem auf die Verwendung von Anruffunktionen in Microsoft Teams oder Skype for Business sowie auf Geräten wie einem Medientelefon oder Mobiltelefon. Alle Verweise auf Microsoft Teams in diesen Umfragen gelten auch für Skype for Business.
 
-Geben Sie Ihr Maß an Zustimmung zu den folgenden Aussagen an, wie es sich auf die Verwendung von Teams als Ihr Smartphone bezieht. 
+Geben Sie Ihr Zustimmungsniveau mit den folgenden Aussagen an, wie es sich auf die Verwendung Teams Als Telefon bezieht. 
 
-|     &nbsp;                              | Vollständig zustimmen | Teilweise Zustimmung | Neutral | Teilweise Uneinfeind | Stimme gar nicht zu | N/A oder nicht verwendet |
+|     &nbsp;                              | Vollständig zustimmen | Teilweise Zustimmung | Neutral | Teilweises Ablehnen | Keine vollständigen Meinung | N/A oder nicht verwendet |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
 | Ich kann auf meinem Computer ganz einfach Telefonanrufe erstellen und empfangen.                                                             |                      |                    |             |                       |                         |                        |
 | Mit meinem neuen Tischtelefon kann ich ganz einfach Telefonanrufe erstellen und empfangen.                                              |                      |                    |             |                       |                         |                        |
 | Ich konnte mich einfach bei meinem neuen Tischtelefon anmelden.                                                                              |                      |                    |             |                       |                         |                        |
-| Ich konnte auf meinem mobilen Gerät erfolgreich Anrufe erstellen und empfangen.                                                   |                      |                    |             |                       |                         |                        |
-| Das neue Telefonsystem erfüllt alle meine Anrufanforderungen (Übertragung, Halten, Voicemail und so weiter).                                      |                      |                    |             |                       |                         |                        |
+| Ich konnte erfolgreich Anrufe auf meinem mobilen Gerät senden und empfangen.                                                   |                      |                    |             |                       |                         |                        |
+| Das neue Telefonsystem erfüllt alle meine Anrufanforderungen (Durchwahl, Halten, Voicemail und so weiter).                                      |                      |                    |             |                       |                         |                        |
 | Ich sehe den Nutzen der Integration unseres Telefonsystems in Teams.                                                 |                      |                    |             |                       |                         |                        |
-| Wenn ich Teams als Smartphone verwendet, kann ich meine Arbeit einfacher machen.                                          |                      |                    |             |                       |                         |                        |
-| Meine Audioerfahrung mit Teams ist so gut wie möglich oder besser als bei unserem alten Telefonsystem.                   |                      |                    |             |                       |                         |                        |
+| Die Teams als mein Smartphone macht es für mich einfacher, meine Arbeit zu machen.                                          |                      |                    |             |                       |                         |                        |
+| Meine Audioerfahrung mit Teams ist so gut wie oder besser als bei unserem alten Telefonsystem.                   |                      |                    |             |                       |                         |                        |
 
-Wenn Sie sich gegen **eine der oben** angegebenen Aussagen oder **gar** nicht für eine der vorstehenden Aussagen entschieden haben, erläutern Sie dies bitte. (Text öffnen)
+Bitte erläutern **Sie,**  wenn Sie für eine der oben aufgeführten Aussagen teilweise nicht oder gar nicht einverstanden sind. (Text öffnen)
 
-Geben Sie Ihr Maß an Zustimmung mit den folgenden Aussagen an, was sich auf Ihre Onboardingerfahrung mit Ihrem neuen Smartphone bezieht.  
+Geben Sie Ihr Maß an Zustimmung mit den folgenden Aussagen an, was sich auf Ihre Onboarding-Erfahrung mit Ihrem neuen Handy bezieht.  
 
-|          &nbsp;                  | Vollständig zustimmen | Teilweise Zustimmung | Neutral | Teilweise Uneinfeind | Stimme gar nicht zu | N/A oder nicht verwendet |
+|          &nbsp;                  | Vollständig zustimmen | Teilweise Zustimmung | Neutral | Teilweises Ablehnen | Keine vollständigen Meinung | N/A oder nicht verwendet |
 |----|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
 | Meine Organisation hat genügend Informationen (Kommunikation, Ressourcen und Handlungsbedarf) bereitgestellt, damit ich mit der Verwendung des neuen Telefonsystems beginnen kann. |                      |                    |             |                       |                         |                        |
 | Ich hatte entsprechende Schulungsressourcen, um das neue Telefonsystem schnell zu integrieren.                                                          |                      |                    |             |                       |                         |                        |
-| Unser Helpdesk könnte alle Fragen zum neuen Telefonsystem beantworten.                                                           |                      |                    |             |                       |                         |                        |
+| Unser Helpdesk kann alle Meine Fragen zum neuen Telefonsystem beantworten.                                                           |                      |                    |             |                       |                         |                        |
 
-Wenn Sie sich gegen **eine der oben** angegebenen Aussagen oder **gar** nicht für eine der vorstehenden Aussagen entschieden haben, erläutern Sie dies bitte. (Text öffnen)
+Bitte erläutern **Sie,**  wenn Sie für eine der oben aufgeführten Aussagen teilweise nicht oder gar nicht einverstanden sind. (Text öffnen)
 
-Wie wahrscheinlich ist es, dass Sie die Verwendung von Teams als Telefon einem Freund oder Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)
-
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|--------|---|---|---|---|---|---|---|---|---|---|----|
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-
-Werden Sie Ihr Telefongerät einem Freund oder Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)  
+Wie wahrscheinlich ist es, dass Sie die Verwendung Teams als Telefon einem Freund oder Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)
 
 | 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
+Wie wahrscheinlich ist es, dass Sie das Gerät einem Freund oder Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)  
 
-Bitte teilen Sie uns ihr zusätzliches Feedback zur Handyerfahrung mit. (Text öffnen)
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|--------|---|---|---|---|---|---|---|---|---|---|----|
+|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
+
+
+Bitte teilen Sie uns ihr zusätzliches Feedback zur Erfahrung mit dem Telefon mit. (Text öffnen)

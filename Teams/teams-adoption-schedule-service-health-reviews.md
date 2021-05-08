@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie bei der Einführung von Teams Dienstinte health reviews verwenden, um Einblicke in Nutzung, Integrität, Funktions-/Projektplan und andere Updates zu teilen.
+description: Erfahren Sie, wie Sie Dienstinte health reviews in Ihrer Teams verwenden, um Erkenntnisse über Nutzung, Integrität, Funktions-/Projektplan und andere Updates zu teilen.
 f1.keywords:
 - CSH
 ms.custom: Adopt
@@ -29,11 +29,11 @@ ms.locfileid: "49806095"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planen von Überprüfungen der Dienstintegrität für Ihre Microsoft Teams-Einführung
 
-Planen Sie in Zusammenarbeit mit Ihrem technischen Implementierungsteam monatliche Überprüfungen des Dienstzustands für Teams. In diesen Rezensionen teilen Sie Einblicke in die folgenden Maßnahmen:
+Planen Sie in Zusammenarbeit mit dem technischen Implementierungsteam monatliche Überprüfungen des Dienstzustands für Teams. In diesen Rezensionen teilen Sie Einblicke in die folgenden Maßnahmen:
 
-- **Dienstnutzung** – Daten zur aktiven Nutzung, die Informationen über veraltete Dienste oder eine verringerte Nutzung als Ergebnis des Wechsels zu Teams enthalten können. Wird in der Regel vom Servicemanager oder Produktbesitzer für Zusammenarbeitsdienste geführt.
-- **Dienstintegte** – Anrufqualität, Besprechungszustand und gesamter Dienstzustand. Überprüfen Sie alle Supportvorfälle und Helpdeskticketstufen. Themen zu Sicherheit und Governance. Wird normalerweise von Informationsschutz- und Supportteams geleitet. 
-- **Roadmap für Funktionen/Projekte** – Wie sieht der Zeitplan für das Onboarding verbleibender Mitarbeiter oder weitere Projekte zur Verbesserung der Zusammenarbeit aus? Welche zusätzlichen Features wird Ihre Organisation aktivieren? Wird in der Regel von einem Servicemanager oder Produktbesitzer für Zusammenarbeitsdienste in Zusammenarbeit mit wichtigen Projektbeteiligten geführt.
-- **Aktualisierung von Informationskampagnen und Schulungen –** Umfasst Reichweite, Teilnahme, wichtige Feedbackthemen und offene Probleme. Schließen Sie wichtige Erfolge und Erfolgsgeschichten ein. 
+- **Dienstnutzung** – Aktive Nutzungsdaten und können Informationen über veraltete Dienste oder die verringerte Nutzung als Ergebnis des Wechsels zu Teams. Wird in der Regel vom Dienstmanager oder Produktbesitzer für Zusammenarbeitsdienste geführt.
+- **Dienstinte** health – Anrufqualität, Besprechungszustand und Gesamter Dienstzustand. Überprüfen Sie Supportvorfälle und Helpdesk-Ticketstufen. Themen zu Sicherheit und Governance. Wird in der Regel von Informationsschutz- und Supportteams geleitet. 
+- **Roadmap für Funktionen/Projekte** – Wie sieht der Zeitplan für das Onboarding der verbleibenden Mitarbeiter oder weitere Projekte zur Verbesserung der Zusammenarbeit aus? Welche zusätzlichen Features wird Ihre Organisation aktivieren? Wird in der Regel von einem Servicemanager oder Produktbesitzer für die Zusammenarbeit an Diensten zur Zusammenarbeit mit wichtigen Projektbeteiligten geführt.
+- **Informationskampagne und Update für erfolgreiche Schulungen** – Umfasst Reichweite, Teilnahme, wichtige Feedbackthemen und offene Probleme. Fügen Sie wichtige Erfolge und Erfolgsgeschichten ein. 
 
-Diese monatliche Überprüfung kann in großen Organisationen oder virtuell in kleineren Unternehmen recht formell sein. Es ist wichtig, diese Daten zu teilen und zu überwachen, um eine gesunde und jede zunehmend dynamische Implementierung von Microsoft Teams sicherzustellen. 
+Diese monatliche Überprüfung kann in großen Organisationen oder virtuell in kleineren Unternehmen recht formell sein. Es ist wichtig, diese Daten gemeinsam zu verwenden und zu überwachen, um eine fehlerfreie und dynamisch werdende Implementierung von Microsoft Teams. 

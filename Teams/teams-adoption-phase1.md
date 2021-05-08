@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie mehr über die Aktivitäten in der Startphase der Einführung von Microsoft Teams. Hier erhalten Sie Informationen zu den bewährten Methoden für die Einrichtung und Teamplanung von Microsoft Teams.
+description: In diesem Artikel erfahren Sie mehr über die Aktivitäten in der Startphase Microsoft Teams Einführung. Hier erhalten Sie Informationen zu den Microsoft Teams zu Setup und Teamplanung.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,19 +30,19 @@ ms.locfileid: "49806125"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams-Einführungsphase 1 – Start
 
-Sie beginnen mit der Einführung von Teams mit den folgenden Aktivitäten:
+Sie beginnen mit ihrer Teams Übernahme mit den folgenden Aktivitäten:
 
 - [Überprüfen Sie die Voraussetzungen für die Einführung.](#validate-adoption-prerequisites)
 - [Stellen Sie Ihr Team zusammen.](#assemble-your-team)
-- [Verstehen von Teams und Kanälen.](teams-adoption-understand-teams-and-channels.md)
-- [Richten Sie Ihre ersten Teams in Teams ein,](teams-adoption-your-first-teams.md) um Ihr technisches Wissen zu entwickeln.
-- [Bewerten Sie die Änderungsbereitschaft Ihrer Organisation.](teams-adoption-assess-readiness.md)
+- [Verstehen Sie Teams und Kanäle.](teams-adoption-understand-teams-and-channels.md)
+- [Richten Sie Ihre ersten Teams auf einem Teams,](teams-adoption-your-first-teams.md) um Ihre technischen Kenntnisse zu entwickeln.
+- [Bewerten Sie die Bereitschaft Ihrer Organisation zu Änderungen.](teams-adoption-assess-readiness.md)
 
-Das Hauptziel dieser Phase ist es, ihre Bereitschaft für die Experimentierphase sicherzustellen. Außerdem bestimmen Sie, ob Sie Unterstützung von Microsoft oder von unserem Netzwerk aus erfahrenen Partnern benötigen.  
+Das Primäre Ziel dieser Phase ist es sicherzustellen, dass Sie bereit für die Experimentierphase sind. Außerdem bestimmen Sie, ob Sie Unterstützung von Microsoft oder von unserem Netzwerk erfahrener Partner benötigen.  
 
 ## <a name="validate-adoption-prerequisites"></a>Überprüfen der Voraussetzungen für die Einführung
 
-Überprüfen Sie [die Voraussetzungen für die](teams-adoption-get-started.md#adoption-prerequisites) Einführung, und arbeiten Sie bei Bedarf mit dem technischen Team zusammen. Wir werden uns in jedem Verbreitungsszenario mit den tieferen technischen Anforderungen abmingen.
+Überprüfen Sie [die Voraussetzungen für die Einführung,](teams-adoption-get-started.md#adoption-prerequisites) und arbeiten Sie bei Bedarf mit dem technischen Team zusammen. Wir werden uns in jedem Verbreitungsszenario mit den tiefer gehen den technischen Anforderungen abmeinen.
 
 ## <a name="assemble-your-team"></a>Zusammenstellen Ihres Teams
 
@@ -50,27 +50,27 @@ In der folgenden Tabelle sind die wichtigsten Rollen für Ihr Projektteam aufgel
 
 | Rolle | Verantwortlichkeiten | Abteilung |
 | ---- | ---------------- | ---------- |
-| Executive Sponsor<sup>1</sup> | Kommunizieren sie eine hohe Vision. Vernetzen Sie die Implementierung von Teams mit Kernaufgaben- und Prioritäteninitiativen im Unternehmen. | Führungskräfte |
-| Success Owner<sup>1</sup> | Stellen Sie sicher, dass die geschäftlichen Ziele mit dem Rollout von Teams erreicht werden. | Beliebige Abteilung |
-| Program Manager<sup>1</sup> | Überblick über den gesamten Ausführungs- und Rolloutprozess von Teams. | IT |
-| Champions<sup>1</sup> | Unterstützen Sie Teams, unterstützen Sie die Fertigkeitsaufbau und liefern Sie Erkenntnisse zur Nutzung. | Mehrere Abteilungen |
-| Schulungsleiter | Verwalten und kommunizieren Sie Schulungsinhalte zu Teams. | IT oder andere |
-| Abteilungsleiter (Projektbeteiligten)<sup>2</sup> | Identifizieren Sie, wie bestimmte Abteilungen Teams verwenden werden, und fördern Sie engagement. | Beliebige Abteilung (Verwaltung) |
+| Executive Sponsor<sup>1</sup> | Kommunizieren sie eine Vision auf hoher Ebene. Verbinden Teams Implementierung zu Kernaufgaben- und Prioritätsinitiativen im Unternehmen. | Führungskräfte |
+| Success Owner<sup>1</sup> | Stellen Sie sicher, dass die Geschäftsziele mit der Einführung Teams werden. | Beliebige Abteilung |
+| Programm-Manager<sup>1</sup> | Überblick über den gesamten Teams, um den Ausführungs- und Rolloutprozess zu starten. | IT |
+| Champions<sup>1</sup> | Helfen Sie, Teams zu fördern, Fertigkeiten zu erstellen und Erkenntnisse zur Nutzung zu liefern. | Mehrere Abteilungen |
+| Schulungsleiter | Verwalten und Kommunizieren von Schulungsinhalten zu Teams. | IT oder andere |
+| Abteilungsleiter (Projektbeteiligten)<sup>2</sup> | Identifizieren Sie, wie bestimmte Abteilungen Dies Teams und fördern Sie engagement. | Beliebige Abteilung (Verwaltung) |
 | IT-Spezialisten<sup>1</sup> | Überblick über alle technischen Aspekte der Implementierung, einschließlich Integrationen. | IT |
-| Communication Lead<sup>2</sup> | Überwachen Sie unternehmensweite Kommunikationen zu Teams. | Unternehmenskommunikation, IT oder andere |
+| Kommunikationsleiter<sup>2</sup> | Überwachen Sie unternehmensweite Kommunikationen zu Teams. | Unternehmenskommunikation, IT oder andere |
 | Community Manager | Verwalten Sie die täglichen Yammer Netzwerkaktivitäten. Stellen Sie Anleitungen und bewährte Methoden zur Verfügung. | Mehrere Abteilungen |
 
 <sup>1</sup> Diese Rollen sind für den Erfolg Ihres Projekts von wesentlicher Bedeutung.</br>
 <sup>2</sup> Diese Rollen sind wichtig für den Gesamterfolg des Programms.
 
-In den meisten Fällen sollte dieses anfängliche Team eine kleine Gruppe gleichgesinnter Personen sein, die an Teams interessiert sind, und möglicherweise auch für deren Implementierung zur Berücksichtigung der Teams auf dem Konto stehen. Wenn Ihr Einführungsplan weitere Phasen einplant, werden Sie mehr Personen in Ihr Team umfassen. Wir empfehlen Außerdem, die zur Verfügung europäischen Ressourcen zu nutzen, die Ihnen zur Verfügung stehen. 
+In den meisten Fällen sollte es sich bei diesem anfänglichen Team um eine kleine Gruppe gleichgesinnter Personen handelt, die sich für die Teams interessieren, und möglicherweise auch für deren Implementierung berücksichtigung. Sobald Ihr Einführungsplan weitere Phasen vor sich hat, werden Sie weitere Personen in Ihr Team umfassen. Wir empfehlen außerdem, die verfügbaren Microsoft-Ressourcen zu nutzen, um Sie zu unterstützen. 
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
-Die [technische Community von Microsoft](https://aka.ms/TechCommunity) bietet von Kollegen bereitgestellte Einblicke in die Einführung und technische Aspekte vieler Microsoft 365- und Office 365-Produkte. Wir empfehlen, den folgenden Communitys bei treten:
+Das [Microsoft Technical Community](https://aka.ms/TechCommunity) bietet peer-bereitgestellte Einblicke in die Verbreitung und technischen Probleme für viele Microsoft 365 und Office 365 Produkte. Wir empfehlen, den folgenden Communitys bei treten:
 
-- [Technische Microsoft Teams Community](https://aka.ms/TeamsCommunity) – Erhalten Sie Antworten auf Produktfragen, lernen Sie von anderen Teams-Kunden, und folgen Sie unserem Blog, um über neue Features und Nutzungsfälle für Teams auf dem Laufenden zu bleiben. 
-- [Das Champions-Programm](https://aka.ms/O365Champions) und die Community zur einführungs treibenden Kraft – Lernen Sie von Ihren Kollegen, wie Sie die Einführung von Microsoft 365- oder Office 365-Workloads wie Teams, SharePoint, Yammer und anderen Produkten am besten erreichen. Offen für IT-Profis, Geschäftsbenutzer, den "versehentlichen" Entwickler und jeden, der an der Akzeptanz von Clouddiensten interessiert ist.  
+- [Microsoft Teams Technical Community](https://aka.ms/TeamsCommunity) – Erhalten Sie Antworten auf Produktfragen, lernen Sie von anderen Teams-Kunden, und folgen Sie unserem Blog, um sich zu neuen Features und Verwendungsfällen für Teams. 
+- [Champions-Programm](https://aka.ms/O365Champions) und die Community zur treibenden Verbreitung – Lernen Sie von Ihren Kollegen, wie Sie die Akzeptanz von Microsoft 365- oder Office 365-Workloads wie Teams, SharePoint, Yammer und anderen Produkten am besten treiben können. Offen für IT-Profis, Unternehmensbenutzer, den "versehentlichen" Entwickler und alle, die die Einführung von Clouddiensten treiben möchten.  
 
 
-![Ein Symbol für den nächsten ](media/teams-adoption-next-icon.png) Schritt: [Verstehen von Teams und Kanälen](teams-adoption-understand-teams-and-channels.md)
+![Ein Symbol zur Darstellung des nächsten ](media/teams-adoption-next-icon.png) Schritts: [Verstehen von Teams und Kanälen](teams-adoption-understand-teams-and-channels.md)

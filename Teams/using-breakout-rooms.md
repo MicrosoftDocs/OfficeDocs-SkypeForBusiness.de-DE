@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Breakout Rooms in Teams
+title: Verwenden von Halteräumen in Teams
 author: ricardo-msft
 ms.author: riwilki
 ms.topic: article
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Endbenutzer können erfahren, wie Sie Breakout Rooms in Microsoft Teams verwenden.
+description: Endbenutzer können erfahren, wie Sie in einem Microsoft Teams
 ms.openlocfilehash: 820380517a7f56a8a9738e02705ba68a5b6f8048
 ms.sourcegitcommit: 99bd62ea8a11b0068231e7b8335790323912cb9e
 ms.translationtype: MT
@@ -18,45 +18,45 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 12/22/2020
 ms.locfileid: "49727711"
 ---
-# <a name="using-breakout-rooms-in-microsoft-teams"></a>Verwenden von Breakout Rooms in Microsoft Teams
+# <a name="using-breakout-rooms-in-microsoft-teams"></a>Verwenden von Halteräumen in Microsoft Teams
 
-Als Besprechungsorganisator können Sie zu Beginn einer geplanten Besprechung neue Breakout Rooms erstellen.
+Als Besprechungsorganisator können Sie am Anfang einer geplanten Besprechung neue Breakout-Räume erstellen.
 
-## <a name="create-breakout-rooms"></a>Erstellen von Breakout-Räumen
+## <a name="create-breakout-rooms"></a>Erstellen von Zwischenräumen
 
-Führen Sie die folgenden Schritte aus, um einen Besprechungsraum zu erstellen, sobald eine Besprechung beginnt:
+Gehen Sie wie im Folgenden zum Erstellen eines Halteraums vor, sobald eine Besprechung beginnt:
 
-1. Wählen Sie im Desktop Client von Teams das Symbol "Breakout Rooms" auf der Steuerleiste aus.
+1. Wählen Sie Teams Desktopclient das Symbol "Halteräume" auf der Steuerleiste aus.
 
-2. Verwenden Sie das Dropdown-Menü, um die Anzahl der Räume zu wählen, die Sie erstellen möchten. Sie können bis zu 50-Breakout-Räume in einer einzelnen Besprechung erstellen.
+2. Verwenden Sie das Dropdownmenü, um die Anzahl der Räume auszuwählen, die Sie erstellen möchten. Sie können bis zu 50 zusätzliche Räume in einer einzelnen Besprechung erstellen.
 
-3. Wählen Sie die gewünschte Breakout-Room-Option aus:
+3. Wählen Sie die Option für den Halteraum aus, die Sie bevorzugen:
 
-    - **Automatisch**: Teams dividiert die Teilnehmer gleichmäßig zwischen den Räumen.
-    - **Manuell**: Sie können wählen, in welchem Raum sich jeder Teilnehmer befindet.
+    - **Automatisch:** Teams teilt Teilnehmer gleichmäßig auf die Räume.
+    - **Manuell:** Sie können auswählen, in welchem Raum jeder Teilnehmer platziert wird.
 
-4. Wählen Sie **Räume erstellen** aus. Der Bereich "Breakout Rooms" wird geöffnet.
+4. Wählen Sie **Räume erstellen aus.** Der Bereich mit den Umbrüchen wird geöffnet.
 
-## <a name="start-breakout-rooms"></a>Starten von Breakout Rooms
+## <a name="start-breakout-rooms"></a>Starten von Halteräumen
 
-Wenn Sie bereit sind, ihre Breakout-Sitzungen zu starten, wählen Sie **Räume starten** aus.
+Wenn Sie bereit sind, Ihre Breakout-Sitzungen zu starten, wählen Sie **Räume starten aus.**
 
-Sie werden sehen, dass Teilnehmer die Hauptbesprechung verlassen und ihren Breakout-Räumen beitreten.
+Sie können sehen, dass Teilnehmer die Haupt besprechung verlassen und ihren Halteräumen beitreten.
 
-Wenn ein Teilnehmer seinen Breakout-Room verlässt, kann der Organisator den Teilnehmer zurück in den Breakout-Room bewegen, indem er die Auslassungspunkte **[...]** neben dem Namen des Teilnehmers auswählt und dann **Ask to Join** auswählt.
+Wenn ein Teilnehmer seinen Pausenraum verlässt, kann der Organisator den Teilnehmer zurück in den Pausenraum verschieben, indem er die Auslassungspunkte **(...)** neben dem Namen des Teilnehmers und dann Teilnahme bitten aus **wählt.**
 
-Wenn ein Teilnehmer verspätet nach dem Öffnen von Breakout-Rooms an der Hauptbesprechung teilnimmt, kann der Organisator den Teilnehmer zu einem Besprechungsraum hinzufügen. Wenn der Teilnehmer die Benachrichtigung zur Teilnahme am Chatroom verpasst, wählen Sie **zum beitreten bitten** aus.
+Wenn ein Teilnehmer der Haupt besprechung erst später beitritt, nachdem die Halteräume geöffnet wurden, kann der Organisator den Teilnehmer zu einem Halteraum hinzufügen. Wenn der Teilnehmer die Benachrichtigung zur Teilnahme am Raum verpasst, wählen Sie **Teilnahme bitten aus.**
 
-## <a name="send-announcements"></a>Ankündigungen senden
+## <a name="send-announcements"></a>Senden von Ankündigungen
 
-Der Besprechungsorganisator kann Ankündigungen an alle Teilnehmer senden, während Breakout-Chatrooms geöffnet sind. Wählen Sie in der Kopfzeile der Breakout Rooms die Auslassungszeichen **[...]** aus.
+Der Besprechungsorganisator kann Ankündigungen an alle Teilnehmer senden, während die Halteräume geöffnet sind. Wählen Sie in der Überschrift der Halteräume die Auslassungspunkte **(...)** aus.
 
-Sie können die Teilnehmer beispielsweise daran erinnern, den Organisator der Besprechung zu @mention, wenn Sie Hilfe benötigen, oder Ihnen einen fünfminütigen Countdown zu geben, bevor Sie Sie wieder in den Haupt Raum zurückziehen.
-Die Teilnehmer erhalten die Ankündigung in ihrem Chatroom-Chat.
+Erinnern Sie die Teilnehmer z. B. @mention an den Besprechungsorganisator, wenn sie Hilfe benötigen, oder geben Sie ihnen einen Countdown von fünf Minuten, bevor sie wieder in den Hauptraum ziehen.
+Teilnehmer erhalten die Ankündigung im Chat ihrer Breakout-Chats.
 
-## <a name="close-rooms-and-pull-participants-back-to-the-main-meeting"></a>Schließen von Räumen und zurückziehen der Teilnehmer zur Hauptbesprechung
+## <a name="close-rooms-and-pull-participants-back-to-the-main-meeting"></a>Schließen von Räumen und Zurückziehen der Teilnehmer zur Haupt besprechung
 
-Wählen Sie **Räume schließen** aus, um alle Teilnehmer wieder in den Haupt Raum zu ziehen.
+Wählen **Sie Räume schließen** aus, um alle Teilnehmer zurück zum Hauptraum zu ziehen.
 
-Sie können auch die Auslassungspunkte **[...]** für einen bestimmten Breakout-Chatroom auswählen und dann **Raum schließen** auswählen.
-Sobald ein Besprechungsraum geschlossen ist, wird der Chat für diese Sitzung geschlossen. Die Teilnehmer können dort nicht weiter chatten.
+Alternativ können Sie für einen bestimmten Halteraum die Auslassungspunkte **(...)** und dann Raum **schließen auswählen.**
+Sobald ein Halteraum geschlossen ist, wird der Chat für diese Sitzung geschlossen. Teilnehmer können dort nicht weiter chatten.

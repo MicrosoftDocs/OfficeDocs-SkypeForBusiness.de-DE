@@ -17,62 +17,73 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft 365 Business Voice Telefonnummern für Benutzer und Dienste in Ihrer Organisation einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cec0bc8e55ef6be169de1f48a375ab40ca8ccf7
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 7dcf582593cf09977f4992d6b78035a9726c12b8
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130052"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282542"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>Schritt 2: Einrichten von Business Voice-Telefonnummern
 
-Bevor Sie Benutzer oder automatische Telefontelefone in Ihrer Organisation einrichten können, müssen Sie telefonnummern dafür erhalten. Es gibt verschiedene Arten von Telefonnummern, doch die folgenden sind die beiden Arten von Nummern, die Sie in diesem Schritt hinzufügen müssen:
+Bevor Sie Benutzer oder automatische Telefon attendants in Ihrer Organisation einrichten können, müssen Sie Telefonnummern für diese Benutzer erhalten. Es gibt verschiedene Arten von Telefonnummern, es gibt jedoch die beiden folgenden Arten von Nummern, die Sie in diesem Schritt hinzufügen müssen:
 
-- **Servicenummern** Diese Nummern werden für automatische Telefonkonferenzen, Audiokonferenzen und Anrufwarteschlangen verwendet. Sie können gebührenpflichtige oder gebührenfreie Nummern sein und große Mengen von Anrufen gleichzeitig verarbeiten. Ihre Firmentelefonnummer muss eine Dienstnummer sein, da sie in einem späteren Schritt einer automatischen Telefonwarte zugewiesen wird.
-- **Abonnentennummern** Diese Nummern werden für normale Benutzer verwendet, damit sie Telefonanrufe machen und empfangen können.
+- **Servicenummern** Diese Nummern werden für automatische Telefonkonferenzen, Audiokonferenzen und Anrufwarteschleifen verwendet. Sie können gebührenpflichtige oder gebührenfreie Telefonnummern sein und große Mengen von Anrufen gleichzeitig verarbeiten. Ihre Firmentelefonnummer muss eine Servicenummer sein, da sie in einem späteren Schritt einer automatischen Telefongesellschaft zugewiesen wird.
+- **Telefonnummern für Abonnenten** Diese Nummern werden für normale Benutzer verwendet, damit sie Telefonanrufe erstellen und empfangen können.
 
 > [!IMPORTANT]
-> Auch wenn Sie Ihre vorhandenen Telefonnummern verwenden möchten, müssen Sie der Haupttelefonleitung Ihres Unternehmens und Ihren Benutzern temporäre Telefonnummern erstellen und zuweisen. Sie können diese temporären Nummern in einem späteren Schritt durch Ihre vorhandenen Telefonnummern ersetzen.
+> Auch wenn Sie Ihre vorhandenen Telefonnummern verwenden möchten, müssen Sie temporäre Telefonnummern erstellen und der Haupttelefonleitung Ihres Unternehmens und Ihren Benutzern zuweisen. Sie können diese temporären Nummern in einem späteren Schritt durch Ihre vorhandenen Telefonnummern ersetzen.
 
 > [!NOTE]
-> Es kann mehrere Stunden dauern, bis Ihre neuen Telefonnummern in der App Teams.
+> Es kann mehrere Stunden dauern, bis Ihre neuen Telefonnummern in Ihrem Teams.
 
 ## <a name="set-up-a-service-number"></a>Einrichten einer Servicenummer
 
-Die dienstnummer, die Sie jetzt eingerichtet haben, wird in einem späteren Schritt für die Haupttelefonnummer Ihres Unternehmens verwendet.
+Die Servicenummer, die Sie jetzt einrichten, wird in einem späteren Schritt für die Haupttelefonnummer Ihres Unternehmens verwendet.
 
-1. Wechseln Sie zum Microsoft Teams Admin Center.
-2. Wechseln Sie im linken Navigationsbereich zu **Voice** Telefon , und klicken Sie  >  dann auf **Hinzufügen.**
-3. Geben Sie einen Namen für die Bestellung ein, und fügen Sie eine Beschreibung hinzu.
-4. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
+1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für die Microsoft 365).
+2. Wechseln Sie in der linken Navigationsleiste zu <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">   >  **Sprachanrufnummern Telefon**</a>und klicken Sie dann auf **Hinzufügen**.
+3. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
+4. Gehen Sie auf der Seite Standort und Menge wie folgt vor:
     1. Wählen **Sie unter Land oder Region** ein Land oder eine Region aus.
-    2. Wählen **Sie unter** Zahlentyp eine der folgenden Optionen aus:
+    2. Wählen **Sie unter Zahlentyp** eine der folgenden Optionen aus:
 
-        - **Automatische Attendant (Gebührenpflichtig)** Normale, nicht gebührenfreie Telefonnummer. Dem Anrufer werden Gebühren für lange Entfernungen in Rechnung gestellt.
-        - **Automatische Attendant (gebührenfrei)** Gebührenfreie Telefonnummer (USA und Kanada) oder gebührenfreie Telefonnummer (UK). Gebühren für lange Entfernungen werden ihrem Unternehmen in Rechnung gestellt. Bevor Sie diese Option auswählen können, müssen Sie Guthaben für Kommunikationen erwerben. Weitere Informationen finden Sie unter [Was muss ich kaufen,](what-to-buy.md)um Microsoft 365 Business Voice? .
+        - **Automatische Attendant (Gebührenpflichtig)** Reguläre, gebührenfreie Telefonnummer. Gebühren für fernes Telefonieren werden dem Anrufer in Rechnung gestellt.
+        - **Automatische Attendant (gebührenfrei)** Gebührenfreie Telefonnummer (USA und Kanada) oder kostenlose Telefonnummer (UK) Gebühren für lange Entfernungen werden Ihrem Unternehmen in Rechnung gestellt. Bevor Sie diese Option auswählen können, müssen Sie Guthaben für Kommunikationen erwerben. Weitere Informationen finden Sie unter [Was muss ich kaufen, um die Microsoft 365 Business Voice?](what-to-buy.md)
 
-    3. Wählen **Sie unter Menge** die Option **1 aus.**
+    3. Wählen **Sie unter** Menge die Option **1 aus.**
         > [!NOTE]
-        > Wenn Sie die Meldung Erhalten Sie **nicht** über genügend Lizenzen zum Anfordern von weiteren Nummern dieses Typs verfügen, stellen Sie sicher, dass Sie Business Voice-Lizenzen erworben haben. Weitere Informationen finden Sie unter [Was muss ich kaufen,](what-to-buy.md)um Microsoft 365 Business Voice? .
-    4. Geben **Sie** unter Ort den Namen des Speicherorts ein, den Sie im Schritt Notfallstandorte [einrichten erstellt](set-up-emergency-locations.md) haben.
-    5. Wählen **Sie unter** Vorwahl eine Vorwahl aus, und klicken Sie dann auf **Weiter,** um Ihre Zahlen auszuwählen.
-5. Wählen Sie die von Ihnen ausgewählte Zahl aus. Sie haben 10 Minuten Zeit, Ihre Telefonnummer auszuwählen und Ihre Bestellung zu platzieren. Wenn Sie mehr als 10 Minuten dauern, wird die Telefonnummer an den Zahlenpool zurückgegeben.
-6. Wenn Sie bereit sind, Ihre Bestellung zu platzieren, klicken Sie auf Bestellung **platzieren** und dann **auf Fertig stellen.**
+        > Wenn die Meldung **Sie** verfügen nicht über genügend Lizenzen zum Anfordern von weiteren Nummern dieses Typs erhalten, stellen Sie sicher, dass Sie Business Voice-Lizenzen erworben haben. Weitere Informationen finden Sie unter [Was muss ich kaufen, um die Microsoft 365 Business Voice?](what-to-buy.md)
+    4. Wählen Sie **entweder** Ort **oder** Ortscode aus, je nachdem, ob Sie anhand der Stadt eines Standorts nach Telefonnummern oder in einer bestimmten Vorwahl nach Nummern suchen möchten.
+    5. Wenn Sie Standort **auswählen:**
+
+        1. Geben Sie im Schritt Notfallstandorte [](set-up-emergency-locations.md) einrichten den Ort ein, in dem sich Ihre Notfalladresse befindet. Wenn Sie einen neuen Standort für eine andere Niederlassung oder ein Heimbüro erstellen müssen, klicken Sie auf **Standort hinzufügen**.
+        2. Wählen **Sie unter Vorwahl** eine Vorwahl aus, und wählen Sie dann **Weiter** aus, um Ihre Nummer zu reservieren.
+
+    6. Wenn Sie **Vorwahl auswählen,** geben Sie die Vorwahl ein, die Sie durchsuchen möchten, und wählen Sie dann Weiter aus, **um** Ihre Nummer zu reservieren.
+
+5. Wählen Sie die Zahl aus, die Sie wünschen. Sie haben 10 Minuten Zeit, um Ihre Telefonnummer auszuwählen und Ihre Bestellung auf bestellung zu geben. Wenn Sie länger als 10 Minuten dauern, wird die Telefonnummer an den Telefonnummernpool zurückgegeben.
+6. Wenn Sie Ihre Bestellung fertig stellen möchten, klicken Sie **auf Bestellung bestellen** und dann auf Fertig **stellen.**
 
 ## <a name="set-up-phone-numbers-for-your-users"></a>Einrichten von Telefonnummern für Ihre Benutzer
 
-1. Wechseln Sie zum Microsoft Teams Admin Center.
-2. Wechseln Sie im linken Navigationsbereich zu **Voice** Telefon , und klicken Sie  >  dann auf **Hinzufügen.**
-3. Geben Sie einen Namen für die Bestellung ein, und fügen Sie eine Beschreibung hinzu.
-4. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
+1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für die Microsoft 365).
+2. Wechseln Sie in der linken Navigationsleiste zu <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">   >  **Sprachanrufnummern Telefon**</a>und klicken Sie dann auf **Hinzufügen**.
+3. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
+4. Gehen Sie auf der Seite Standort und Menge wie folgt vor:
 
     1. Wählen **Sie unter Land oder Region** ein Land oder eine Region aus.
-    2. Wählen **Sie unter** Zahlentyp die Option Benutzer **(Abonnent) aus.**
-    3. Geben **Sie** unter Menge die Anzahl der Zahlen ein, die Sie für Ihre Organisation verwenden möchten.
-    4. Wählen **Sie unter** Ort einen Speicherort aus. Sie können entweder den Notfallstandort [](set-up-emergency-locations.md) auswählen, den Sie im Schritt Notfallstandorte einrichten hinzugefügt haben, oder wenn Sie einen neuen Standort für ein anderes Büro oder ein Home Office erstellen müssen, klicken Sie auf Standort **hinzufügen.**
-    5. Wählen **Sie unter** Vorwahl eine Vorwahl aus, und klicken Sie dann auf **Weiter,** um Ihre Zahlen auszuwählen.
-5. Wählen Sie die von Ihnen ausgewählten Zahlen aus. Sie haben 10 Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung zu platzieren. Wenn Sie mehr als 10 Minuten dauern, werden die Telefonnummern an den Zahlenpool zurückgegeben.
-6. Wenn Sie bereit sind, Ihre Bestellung zu platzieren, klicken Sie auf Bestellung **platzieren** und dann **auf Fertig stellen.**
+    2. Wählen **Sie unter Zahlentyp** die **Option Benutzer (Abonnent) aus.**
+    3. Geben **Sie** unter Menge die Anzahl der Nummern ein, die Sie für Ihre Organisation verwenden möchten.
+    4. Wählen Sie **entweder** Ort **oder** Ortscode aus, je nachdem, ob Sie anhand der Stadt eines Standorts nach Telefonnummern oder in einer bestimmten Vorwahl nach Nummern suchen möchten.
+    5. Wenn Sie Standort **auswählen:**
+
+        1. Geben Sie im Schritt Notfallstandorte [](set-up-emergency-locations.md) einrichten den Ort ein, in dem sich Ihre Notfalladresse befindet. Wenn Sie einen neuen Standort für eine andere Niederlassung oder ein Heimbüro erstellen müssen, klicken Sie auf **Standort hinzufügen**.
+        2. Wählen **Sie unter Vorwahl** eine Vorwahl aus, und wählen Sie dann **Weiter** aus, um Ihre Nummer zu reservieren.
+
+    6. Wenn Sie **Vorwahl auswählen,** geben Sie die Vorwahl ein, die Sie durchsuchen möchten, und wählen Sie dann Weiter aus, **um** Ihre Nummer zu reservieren.
+5. Wählen Sie die Zahlen aus, die Sie wünschen. Sie haben zehn Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung auf den 10-Minuten-Pc zu bestellen. Wenn Sie länger als 10 Minuten zeit haben, werden die Telefonnummern an den Telefonnummernpool zurückgegeben.
+6. Wenn Sie Ihre Bestellung fertig stellen möchten, klicken Sie **auf Bestellung bestellen** und dann auf Fertig **stellen.**
 
 > [!div class="nextstepaction"]
 > [Nächster Schritt: Zuweisen von Lizenzen zu Teams Benutzern](set-up-licenses.md)

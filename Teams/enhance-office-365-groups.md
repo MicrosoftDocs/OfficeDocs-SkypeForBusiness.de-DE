@@ -1,5 +1,5 @@
 ---
-title: Erweitern vorhandener Microsoft 365-Gruppen
+title: Verbessern vorhandener Microsoft 365 Gruppen
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Erfahren Sie, wie Sie Microsoft 365-Gruppen mit Microsoft Teams erweitern können, indem Sie eine Verteilerliste zu einem Team einladen, e-Mail-aktivierte Sicherheitsgruppen hinzufügen und vieles mehr.
+description: Erfahren Sie, wie Microsoft 365-Gruppen Microsoft Teams, indem Sie eine Verteilerliste zu einem Team einladen, E-Mail-aktivierte Sicherheitsgruppen hinzufügen und vieles mehr.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -25,28 +25,28 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 01/05/2021
 ms.locfileid: "49757690"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Erweitern vorhandener Microsoft 365-Gruppen mit Microsoft Teams
+<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Verbessern vorhandener Microsoft 365 Gruppen mit Microsoft Teams
 =======================================================
 
-Microsoft Teams-Benutzer können eine vorhandene Microsoft 365-Gruppe mit Funktionen für Teams erweitern. Wenn Sie eine öffentliche Microsoft 365-Gruppe erweitern, können Benutzer dies tun, wenn die Anzahl der Mitglieder gleich oder kleiner als 5.000 ist.
+Microsoft Teams Benutzer können eine vorhandene Gruppe Microsoft 365 mit einer Teams erweitern. Beim Verbessern einer öffentlichen Microsoft 365 Gruppe können Benutzer dies tun, wenn die Anzahl der Mitglieder gleich oder kleiner als 5.000 ist.
 
-Zu diesem Zweck sollten Benutzer den Fluss des Erstellens eines neuen Teams über den Microsoft Teams-Client durchlaufen. Wählen Sie **aus**  >  **Microsoft 365-Gruppe** erstellen aus, und wählen Sie dann die vorhandene Gruppe aus, die Sie mit Teams verbessern möchten. Vorhandene Gruppenmitglieder werden dem Team automatisch als Mitglieder hinzugefügt.
+Zu diesem Grund sollten die Benutzer die Erstellung eines neuen Teams aus dem Microsoft Teams-Client durchgehen. Wählen **Sie Aus Microsoft 365** Gruppe erstellen aus, und wählen Sie dann die vorhandene Gruppe aus, die Sie mit Ihrer  >  Teams. Vorhandene Gruppenmitglieder werden dem Team automatisch als Mitglieder hinzugefügt.
 
 > [!IMPORTANT]
-> Nur Microsoft 365-Gruppenbesitzer verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Teams, und diese Gruppe muss weniger als 5.000 Benutzer enthalten. Teams, die bereits erweitert wurden, werden nicht in der Liste angezeigt.
+> Nur Microsoft 365 Gruppenbesitzer verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Teams, und diese Gruppe muss weniger als 5.000 Benutzer enthalten. Teams, die bereits verbessert wurden, werden nicht in der Liste angezeigt.
 >
->Die Option zum Erstellen eines Teams aus einer Microsoft 365-Gruppe steht nur zur Verfügung, wenn diese Bedingungen erfüllt sind.
+>Die Option zum Erstellen eines Teams aus einer Microsoft 365 steht nur zur Verfügung, wenn diese Bedingungen erfüllt wurden.
 
-Benutzer können auch eine Verteilerliste zu einem Team einladen, und die Mitglieder dieser Verteilerliste werden dem Team hinzugefügt. Hierbei handelt es sich um ein einmaliges hinzufügen, und spätere Änderungen an der Gruppenmitgliedschaft in der Verteilerliste werden nicht repliziert oder mit Teams synchronisiert.
+Benutzer können auch eine Verteilerliste in ein Team einladen, und die Mitglieder dieser Verteilerliste werden dem Team hinzugefügt. Dies ist ein einmal hinzugefügtes Add, und spätere Änderungen an der Gruppenmitgliedschaft in der Verteilerliste werden nicht repliziert oder mit Teams.
 
-![Screenshot der Option zum Erstellen eines Teams aus einer Microsoft 365-Gruppe](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![Screenshot der Option zum Erstellen eines Teams aus einer Microsoft 365 Gruppe](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 Sie könne auch für E-Mail aktivierte Sicherheitsgruppen als Mitglieder eines Teams hinzufügen. Wenn Sie danach jedoch weitere Mitglieder zur Sicherheitsgruppe hinzufügen, werden diese Mitglieder nicht automatisch zum Team hinzugefügt. Sie müssen neue Mitglieder separat hinzufügen oder die Sicherheitsgruppe erneut zum Team hinzufügen. (Wenn Sie die Sicherheitsgruppe erneut hinzufügen, wird durch die Deduplizierung sichergestellt, dass Mitglieder nur einmal hinzugefügt werden.)
 
-Es gibt zwei Arten von Datenschutzeinstellungen für Microsoft 365-Gruppen: **öffentlich und privat**. Während beide Gruppentypen für Teams aktiviert werden können, gibt es einen kleinen Unterschied, wenn es um Self-Service geht.
+Es gibt zwei Arten von Datenschutzeinstellungen mit Microsoft 365, öffentliche **und private**. Wohingegen beide Gruppentypen für die eigenständige Teams können, gibt es einen kleinen Unterschied in Sachen Self-Service.
 
--   Benutzer können nach öffentlichen Gruppen suchen und sich selbst beitreten, ohne die Genehmigung des Team Besitzers zu benötigen.
+-   Benutzer können nach öffentlichen Gruppen suchen und von sich aus beitreten, ohne dass die Genehmigung des Teambesitzers nötig ist.
 
 -   Private Gruppen können nicht durchsucht werden, und Benutzer können nur teilnehmen, wenn Sie vom Teambesitzer als Mitglieder hinzugefügt wurden.
 
-Beim Erstellen eines neuen Teams in Teams hat ein Besitzer einer vorhandenen privaten Microsoft 365-Gruppe die Option, die Mitgliedschaft in der Microsoft 365-Gruppe zum Erstellen des Teams zu verwenden. Benutzer können Ihre vorhandenen SharePoint-und OneNote-Dateien hinzufügen, indem Sie eine Registerkarte für SharePoint hinzufügen und OneNote-Dateien zusammenführen.
+Wenn Sie in Teams ein neues Team erstellen, hat der Besitzer einer vorhandenen privaten Microsoft 365-Gruppe die Möglichkeit, das Team mithilfe der Mitgliedschaft in der Microsoft 365-Gruppe zu erstellen. Benutzer können ihre vorhandenen SharePoint und OneNote hinzufügen, indem sie eine Registerkarte für SharePoint und zusammenführen OneNote hinzufügen.

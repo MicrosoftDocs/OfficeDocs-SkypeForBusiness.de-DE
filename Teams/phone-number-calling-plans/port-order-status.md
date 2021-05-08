@@ -16,33 +16,33 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Sie den Status Ihrer Portierungs Bestellungen ermitteln und welche verschiedenen Aktionen Sie ausführen können. '
-ms.openlocfilehash: cfbbbea1d82cfa2f1905584740e8053e83f19ee6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+description: 'Erfahren Sie, wie Sie den Status Ihrer Portierungsaufträge und die verschiedenen Aktionen für diese erhalten. '
+ms.openlocfilehash: 8290ffba7be56f3ede0e275c801110f8c9d9539e
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583092"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205686"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Wie ist der Status meiner Portierungsaufträge?
 
-Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu > **VoIP** > -**Port Bestellungen**, und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet.
+Um den Status Ihres Portierungsauftrags zu sehen, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu > **Voice**  >  **Portierungsaufträge**, und klicken Sie dann auf **Bestellverlauf**. Der Status jedes Portierungsauftrags wird in der **Spalte Status** aufgeführt. Erfahren [Sie, wie lange das Portieren von Nummern](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) dauert, um mehr über den Bestellvorgang zu erfahren. 
 
-In der folgenden Tabelle sind die Port Auftragsstatus sowie Aktionen aufgeführt, die Sie bei Bedarf ausführen können.
+In der folgenden Tabelle sind der Status des Portierungsauftrags sowie die Aktionen aufgeführt, die Sie bei Bedarf ausführen können.
 
-|**Status**|**Können Sie den Auftrag anzeigen?**|**Können Sie die Bestellung bearbeiten?**|**Können Sie die Bestellung stornieren?**|**Können Sie den Auftrag löschen?**|**Beschreibung**|
+|**Status**|**Können Sie die Bestellung anzeigen?**|**Können Sie den Auftrag bearbeiten?**|**Können Sie den Auftrag stornieren?**|**Können Sie den Auftrag löschen?**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Verarbeitung** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Administrator hat den Auftrag erstellt, der von Microsoft empfangen wurde.  <br/> |
-|**Kontaktaufnahme mit dem Netzbetreiber** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Die Bestellung wurde von Microsoft eingegangen und genehmigt, und wir arbeiten mit dem verlorenen Netzbetreiber zusammen, um ihn genehmigt zu erhalten.  <br/> |
-|**Übertragung genehmigt** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Die Bestellung wurde vom Verlust Träger akzeptiert, und das Datum der Firm Order Commitment (BAK) wurde festgesetzt.  <br/> |
+|**Wird verarbeitet** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Administrator hat die Bestellung erstellt, und sie ist bei Microsoft eingegangen.  <br/> |
+|**Netzbetreiber wird kontaktiert** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde von Microsoft erhalten und genehmigt, und wir arbeiten mit dem verlustverdingten Netzbetreiber daran, die Genehmigung zu erhalten.  <br/> |
+|**Übertragung genehmigt** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde vom verlorenen Netzbetreiber akzeptiert, und das Datum für die Firm Order Commitment (FOC) wurde festgelegt.  <br/> |
 |**Übertragung ausstehend** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden entfernt, sodass die Bestellung nicht mehr bearbeitet oder storniert werden kann.  <br/> |
-|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja   <br/> |Ja (zu diesem Zeitpunkt können Sie die Portierungs Reihenfolge nicht löschen, wenn ein Fehler vorliegt. Die Portierungs Reihenfolge muss neu erstellt werden, oder Sie müssen sich an die [Hilfe des PSTN-Service-Desks](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)wenden.  <br/> |Die verlorene Fluggesellschaft hat die Bestellung abgelehnt.  <br/> |
+|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (Derzeit können Sie den Portierungsauftrag bei einem Fehler nicht löschen. Der Portierungsauftrag muss neu erstellt werden, oder Sie müssen sich an die Hilfe des [PSTN Service Desk wenden.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |Der verlorene Netzbetreiber hat den Auftrag abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Nummern wurden erfolgreich übertragen.  <br/> |
-|**Storniert** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag storniert.  <br/> |
+|**Abgebrochen** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag storniert.  <br/> |
 
-Eine vollständige Schritt-für-Schritt-Anleitung finden Sie unter [übertragen von Telefonnummern in Teams](transfer-phone-numbers-to-teams.md).
+Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern an Teams.](transfer-phone-numbers-to-teams.md)
 
-Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an den [PSTN-Service-Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an den [PSTN Service Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -50,4 +50,4 @@ Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sic
 - [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Nutzungsbedingungen für Notrufe](../emergency-calling-terms-and-conditions.md)
-- [Disclaimer-Label für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Haftungsausschlussbezeichnung für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

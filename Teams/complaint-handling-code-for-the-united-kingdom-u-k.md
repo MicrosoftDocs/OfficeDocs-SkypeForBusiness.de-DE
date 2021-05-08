@@ -1,5 +1,5 @@
 ---
-title: Code für die Reklamationsbehandlung in Großbritannien -Microsoft 365-Anrufpläne
+title: Beanstandungshandling-Code für Großbritannien - Microsoft 365-Anrufpläne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Sie können eine Beschwerde für Skype for Business-Anrufdienste (PSTN-Anrufe in Großbritannien), Zeitpläne für Antworten und die Lösung von Streitigkeiten wegen ungelöster Beschwerden einreichen.
+description: Einreichen einer Beanstandung für Skype for Business Calling Services (PSTN Calling in uk), Zeitachsen für Antworten und Beilegung von Streitigkeiten für nicht aufgelöste Beanstandungen.
 ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43780274"
 ---
-# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Code zur Behandlung von Beschwerden für das Vereinigte Königreich (Großbritannien)
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Beanstandungshandling-Code für Großbritannien (UK)
 
-Dieser Code bezieht sich auf kleine Unternehmen (Organisationen mit 10 Mitarbeitern oder kleiner) im Vereinigten Königreich (UK) im Hinblick auf den Microsoft 365-Anruf Plan Dienst (den "Dienst") in Übereinstimmung mit den britischen Kommunikationsrichtlinien. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft sowie allen anderen Bedingungen, die für die Nutzung des jeweiligen Service gelten.
+Dieser Code gilt für Kleinunternehmen-Kunden (Organisationen mit bis zu 10 Mitarbeitern) im Vereinigten Königreich (UK) in Bezug auf den Microsoft 365 Calling Plan-Dienst (den "Dienst") gemäß den UK-Kommunikationsbestimmungen. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft und anderen Bedingungen, die für Ihre Nutzung des jeweiligen Diensts gelten.
 
 ## <a name="how-to-make-a-complaint"></a>So erstellen Sie eine Beanstandung
 
@@ -40,7 +40,7 @@ Kundenzufriedenheit steht bei Skype for Business an erster Stelle. Sollten Sie m
 
 - Gebührenfreie Telefonnummer: 0800 032 6417
 
-- Online: Melden Sie sich beim Microsoft 365 Admin Center an, und senden Sie eine Serviceanfrage, indem Sie unter **Support**die Option **neue Serviceanfrage** auswählen.
+- Online: Melden Sie sich beim Microsoft 365 Admin Center an, und senden Sie eine Serviceanfrage, indem Sie unter Support die Option Neue **Serviceanfrage** **auswählen.**
 
 ## <a name="timelines"></a>Zeitachsen
 
@@ -52,7 +52,7 @@ Ist ein(e) Skype for Business-Mitarbeiter/Mitarbeiterin nicht in der Lage, das P
 
 Skype for Business ist bestrebt, alle Beanstandungen in Bezug auf den Dienst innerhalb von (7) Werktagen nach Eingang der Beanstandung zu klären.
 
-Wenn Sie mit der Art und Weise, in der Ihre Beschwerde bezüglich des Diensts verwaltet wird, unzufrieden sind, können Sie den Skype for Business-Mitarbeiter bitten, Ihre Beschwerde per Telefon oder e-Mail zu behandeln, um die Beschwerde in Übereinstimmung mit Ihrem Servicevertrag zu eskalieren. Microsoft evaluiert die Beanstandung innerhalb von sieben (7) Tagen nach dem Eingang.
+Wenn Sie mit der Art und Weise, in der Ihre Beanstandung bezüglich des Diensts verwaltet wird, unzufrieden sind, können Sie den Skype for Business-Mitarbeiter, der Ihre Beanstandung behandelt, telefonisch oder per E-Mail bitten, die Beanstandung gemäß Ihrem Servicevertrag zu eskalieren. Microsoft evaluiert die Beanstandung innerhalb von sieben (7) Tagen nach dem Eingang.
 
 ## <a name="alternative-dispute-resolution"></a>Alternative Schlichtung der Streitigkeit
 
@@ -64,7 +64,7 @@ Alle Beanstandungen müssen innerhalb von zwölf (12) Monaten nach dem Einreiche
 
 Diesen Schritt zum Einreichen einer Beanstandung bei den Ombudsman Services finden Sie auf der Website der Ombudsman Services [](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809).
 
-Sie können die Ombudsmann-Dienste erreichen, indem Sie ein Kontaktformular auf der Website des Ombudsmann-Services oder per Telefon, Brief oder e-Mail ausfüllen:
+Sie können die Ombudsman Services erreichen, indem Sie ein Kontaktformular auf der Website der Ombudsman Services oder telefonisch, per Brief oder E-Mail ausfüllen:
 
 - Kontaktformular: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

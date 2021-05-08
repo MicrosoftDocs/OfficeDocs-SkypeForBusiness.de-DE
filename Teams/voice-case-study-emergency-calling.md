@@ -1,5 +1,5 @@
 ---
-title: Teams Voice Contoso-Fallstudie
+title: Teams Fallstudie zu Contoso Voice
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams Voice Case Study für Multi-National Corporation
+description: Teams Voice Case Study for multi-national corporation
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
@@ -25,90 +25,90 @@ ms.locfileid: "44786028"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Contoso-Fallstudie: Notrufe
 
-Um die Verfügbarkeit von Notrufen und Terminologie für Notrufe in Notfällen, &mdash; Ort, Notfall Standort und registrierte Adresse zu verstehen, hat &mdash; contoso die Verwaltung von [Notrufen](what-are-emergency-locations-addresses-and-call-routing.md) und die [Planung und Konfiguration dynamischer Notrufe](configure-dynamic-emergency-calling.md)überprüft.
+Informationen zur Verfügbarkeit von Notrufen und der Terminologie für Notrufe Notfalladresse, Ort, Notfallstandort und registrierte Adresse Contoso hat die Informationen unter Verwalten von Notrufen und Planen und Konfigurieren von dynamischen Notrufen &mdash; &mdash; [überprüft.](configure-dynamic-emergency-calling.md) [](what-are-emergency-locations-addresses-and-call-routing.md)
 
-In Office 365 wird ein Nutzer des Anruf Plans automatisch für Notrufe aktiviert. Aber nur Anruf Plan Benutzer in den Vereinigten Staaten können dynamische Speicherorte für die Weiterleitung von Notrufen verwenden. 
+In Office 365 wird ein Anrufplanbenutzer automatisch für Notrufe aktiviert. Aber nur Anrufplanbenutzer in den USA können dynamische Standorte für die Weiterleitung von Notrufen verwenden. 
 
-Für das direkte Routing hat Contoso erfahren, dass für das Routing von Notrufen und möglicherweise für die Partner Konnektivität eine zusätzliche Konfiguration erforderlich ist. Der Administrator muss die Verbindung mit einem Notverwaltungsdienste (Emergency Routing Service Provider, ERSP) (USA) konfigurieren oder den Session Border Controller (SBC) für eine Emergency Location Identification Number (Elin)-Anwendung konfigurieren.
+Für Direct-Routing hat Contoso erfahren, dass zusätzliche Konfiguration für das Routing von Notrufen und möglicherweise für Partnerkonnektivität erforderlich ist. Der Administrator muss die Verbindung mit einem ERSP (Emergency Routing Service Provider) (VEREINIGTE Staaten) KONFIGURIEREN ODER den Session Border Controller (SBC) für eine ELIN-Anwendung (Emergency Location Identification Number) konfigurieren.
 
-Contoso hat Niederlassungen in den USA und außerhalb der Vereinigten Staaten:
+Contoso hat Niederlassungen in den USA und außerhalb der USA:
 
-- In den Vereinigten Staaten können die Benutzer des Contoso-Anruf Plans dynamische Speicherorte für die Weiterleitung von Notrufen verwenden. 
+- In den USA können Benutzer des Contoso-Anrufplans dynamische Standorte für das Routing von Notrufen verwenden. 
 
-- Außerhalb der USA verfügt Contoso über einige Websites, die Anrufpläne und einige Websites verwenden, die über direktes Routing mit dem Telefon System verbunden sind.
+- Außerhalb der USA verfügt Contoso über einige Websites, die Anrufpläne verwenden, und einige Websites, die über direktes Routing Telefonsystem Verbindung zu diesen Websites sind.
 
-## <a name="emergency-calling-use-cases"></a>Notfall Anruf-Anwendungsfälle
+## <a name="emergency-calling-use-cases"></a>Einsatzfälle für Notrufe
 
-Nach der Entscheidung, wie Contoso eine Verbindung mit dem Telefonsystem herstellen wird, erkannte Contoso die folgenden Anwendungsfälle für Notfälle: 
+Nach der Entscheidung, wie Contoso eine Verbindung mit dem Telefon Herstellen einer Verbindung herstellen soll, hat Contoso die folgenden Einsatzfälle für Notrufe identifiziert: 
 
-- [Benutzer des Anruf Plans in den Vereinigten Staaten](#calling-plan-user-in-the-united-states) 
+- [Anrufplanbenutzer in den USA](#calling-plan-user-in-the-united-states) 
 
-- [Anruf Plan Benutzer außerhalb der Vereinigten Staaten](#calling-plan-user-outside-of-the-united-states)
+- [Anrufplanbenutzer außerhalb der USA](#calling-plan-user-outside-of-the-united-states)
 
-- [Benutzer, der über direktes Routing eine Verbindung mit dem Telefon System herstellt](#user-who-connects-to-phone-system-through-direct-routing )
-
-
-### <a name="calling-plan-user-in-the-united-states"></a>Benutzer des Anruf Plans in den Vereinigten Staaten  
-
-Es gibt Anforderungen, wenn die Telefonnummer einem Notfall Standort zugeordnet werden muss. Um diese Anforderungen zu verstehen, hat Contoso [Überlegungen für Anrufpläne](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)überprüft. 
-
-Basierend auf diesen Anforderungen beschloss contoso, den Standort mit der Telefonnummer zu verknüpfen, wenn eine Nummer einem Benutzer in den USA zugewiesen wurde.
-
-### <a name="calling-plan-user-outside-of-the-united-states"></a>Anruf Plan Benutzer außerhalb der Vereinigten Staaten 
-
-Um zu verstehen, wann eine Telefonnummer einem Notfall Standort zugeordnet werden muss, hat Contoso [Überlegungen für Anrufpläne](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)überprüft. Basierend auf den Anforderungen beschloss Contoso Folgendes:  
-
--  Contoso ordnet den Standort mit der Telefonnummer zu, wenn einem Benutzer in Kanada eine Nummer zugewiesen wird. 
-
-- Contoso weist einen Notfall Standort zu, wenn die Telefonnummer von Office 365 abgerufen wird oder wenn eine Nummer von einem anderen Dienstanbieter oder Netzbetreiber übertragen wird. 
-
-### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>Benutzer, der über direktes Routing eine Verbindung mit dem Telefon System herstellt 
-
-Zum Planen des Notfall Routings für diesen Anwendungsfall hat Contoso [Überlegungen zur direkten Weiterleitung](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)überprüft. Da die Benutzer des direkten Routings keine Notrufe auf die gleiche Weise wie Anruf Plan Benutzer erhalten, musste Contoso entscheiden, wie Notrufe bereitgestellt werden sollen. Direktes Routing kann mit einem Notfall-Routingdienst Anbieter (ERSP) verbunden werden. Das direkte Routing kann auch einen SBC aufweisen, der eine Notfall Standort-Identifikationsnummer (Elin) enthält.   
-
-#### <a name="emergency-routing-service-provider-ersp-considerations"></a>Überlegungen zu ERSP (Emergency Routing Service Provider)
-
-Die Notverwaltungsdienste (Emergency Routing Service Providers, ERSPs) können Notrufe automatisch basierend auf dem Standort des Anrufers weiterleiten.  
-
-- Wenn ein Notfall-Routing-Service-Anbieter in eine direkte Routing-Bereitstellung integriert ist, werden Notrufe mit einem dynamisch erworbenen Standort automatisch an den öffentlichen Sicherheits Beantwortungs Punkt (PSAP) weitergeleitet, der diesem Standort dient. 
-
-- Notrufe ohne dynamisch erworbenen Standort werden zuerst angezeigt, um den aktuellen Standort des Benutzers zu ermitteln, bevor der Anruf mit dem entsprechenden Dispatch Center basierend auf dem aktualisierten Standort verbunden wird. 
+- [Benutzer, der über Direct-Routing Telefonsystem Verbindung zu einer Verbindung herstellt](#user-who-connects-to-phone-system-through-direct-routing )
 
 
-#### <a name="elin-considerations"></a>Elin-Überlegungen
+### <a name="calling-plan-user-in-the-united-states"></a>Anrufplanbenutzer in den USA  
 
-Wenn eine SBC Elin-Anwendung in eine Direct Routing-Bereitstellung integriert ist, müssen zusätzliche Konfigurationsschritte ausgeführt werden, um die Notfalladressen mit Telefonnummern zu verknüpfen.  
+Es gibt Anforderungen, wann die Telefonnummer einem Notfallstandort zugeordnet werden muss. Um diese Anforderungen zu verstehen, hat Contoso [Überlegungen für Anrufpläne überprüft.](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans) 
 
-Contoso hat entschieden, Sitzungs Grenz Controller zu verwenden, die Elin-Anwendungen (Emergency Location Identification Number) enthalten.  
+Aufgrund dieser Anforderungen hat Contoso beschlossen, den Standort der Telefonnummer zuzuordnen, wenn einem Benutzer in den USA eine Nummer zugewiesen wird.
 
-## <a name="security-desk-notification"></a>Benachrichtigung über Sicherheits Desk
+### <a name="calling-plan-user-outside-of-the-united-states"></a>Anrufplanbenutzer außerhalb der USA 
 
-Die Möglichkeit, den Security Desk zu benachrichtigen, wenn ein Notruf getätigt wird, steht sowohl für Microsoft-Anrufpläne als auch für das direkte Routing des Telefonsystems zur Verfügung. Contoso hat die Details in der Security Desk-Benachrichtigung überprüft, um festzustellen, ob dies in ihren Büros konfiguriert werden sollte.  
+Um zu verstehen, wann eine Telefonnummer einem Notfallstandort zugeordnet werden muss, hat Contoso Überlegungen [für Anrufpläne überprüft.](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans) Auf der Grundlage der Anforderungen hat Contoso folgende Punkte entschieden:  
 
-Contoso hat entschieden, die Benachrichtigung über das Sicherheits Desk zu verwenden.
+-  Contoso wird den Standort der Telefonnummer zuordnen, wenn einem Benutzer in Kanada eine Nummer zugewiesen wird. 
+
+- Contoso weist einen Notfallstandort zu, wenn die Telefonnummer von Office 365 oder übertragen wird, wenn eine Nummer von einem anderen Dienstanbieter oder Netzbetreiber übertragen wird. 
+
+### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>Benutzer, der über Direct-Routing Telefonsystem Verbindung zu einer Verbindung herstellt 
+
+Zum Planen des Notfallroutings für diesen Einsatzfall hat Contoso Überlegungen [für Direct-Routing überprüft.](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing) Da Benutzer von Direct Routing Notrufe nicht auf die gleiche Weise wie Anrufplanbenutzer erhalten, musste Contoso entscheiden, wie Notrufe erfolgen sollten. Direktes Routing kann mit einem ErSP (Emergency Routing Service Provider) verbunden werden. Direct Routing kann auch über einen SBC verfügen, der eine Notfallstandortidentifikationsnummer (Emergency Location Identification Number, ELIN) enthält.   
+
+#### <a name="emergency-routing-service-provider-ersp-considerations"></a>Überlegungen zum Notfall-Routingdienstanbieter (Emergency Routing Service Provider, ERSP)
+
+Die Anbieter für Notfallroutingdienste können Notrufe automatisch basierend auf der Position des Anrufers weiterleiten.  
+
+- Wenn ein Anbieter für Notfallroutingdienste in eine Direct Routing-Bereitstellung integriert ist, werden Notrufe mit dynamisch angeschafften Standort automatisch an den öffentlichen Sicherheits-Antwortpunkt (Public Safety Answering Point, PSAP) geroutet, der diese Position einnimmt. 
+
+- Notrufe ohne dynamisch erfassten Standort werden zuerst angezeigt, um den aktuellen Standort des Benutzers zu ermitteln, bevor der Anruf anhand des aktualisierten Standorts mit der entsprechenden Rettungszentrale verbunden wird. 
+
+
+#### <a name="elin-considerations"></a>Überlegungen zum ELIN
+
+Wenn eine SBC ELIN-Anwendung in eine Direct Routing-Bereitstellung integriert ist, müssen zusätzliche Konfigurationsschritte erfolgen, um die Notfalladressen Telefonnummern zuzuordnen.  
+
+Contoso hat beschlossen, Session Border Controller zu verwenden, die ELIN-Anwendungen (Emergency Location Identification Number) enthalten.  
+
+## <a name="security-desk-notification"></a>Benachrichtigung des Security Desk
+
+Die Möglichkeit, die Sicherheitsleitzahl zu benachrichtigen, wenn ein Notruf ein gestellt wird, steht sowohl für Microsoft-Anrufpläne als Telefonsystem Direct Routing zur Verfügung. Contoso überprüfte die Details in der Benachrichtigung des Security Desk, um festzustellen, ob dies in den Büros konfiguriert werden sollte.  
+
+Contoso hat sich entschieden, die Benachrichtigung des Security Desk zu verwenden.
 
 ## <a name="configuration"></a>Konfiguration 
 
-Contoso befolgte die Schritte unter [Konfigurieren von dynamischen Notrufen](configure-dynamic-emergency-calling.md) an: 
+Contoso hat die Schritte unter [Konfigurieren dynamischer Notrufe für](configure-dynamic-emergency-calling.md) folgende Dinge befolgt: 
 
-- Notfalladressen zuweisen 
+- Zuweisen von Notfalladressen 
 
 - Konfigurieren von Netzwerkeinstellungen 
 
-- Konfigurieren des Standort Informationsdiensts 
+- Konfigurieren des Informationsdiensts für den Standort 
 
-- Konfigurieren von Notfall Richtlinien 
+- Konfigurieren von Notfallrichtlinien 
 
 - Aktivieren von Benutzern und Websites 
 
 - Testen von Notrufen 
 
-Nach der Konfiguration des dynamischen Notrufs musste Contoso den Standort dem entsprechenden Benutzer zuweisen.  
+Nach der Konfiguration dynamischer Notrufe musste Contoso den Standort dem entsprechenden Benutzer zuweisen.  
 
-- Zum Hinzufügen, ändern oder Entfernen eines Notfall Standorts für Ihre Organisation folgte Contoso den Schritten unter [hinzufügen, ändern oder Entfernen eines Notfall Standorts für Ihre Organisation](add-change-remove-emergency-location-organization.md) .
+- Zum Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation hat Contoso die Schritte unter Hinzufügen, Ändern oder Entfernen eines Notfallstandorts [für Ihre Organisation befolgt.](add-change-remove-emergency-location-organization.md)
 
-- Zum Erstellen von Orten für Gebäude, Etagen und Büros folgte Contoso den Schritten unter [hinzufügen, ändern oder Entfernen eines Orts für einen Notfall Standort](add-change-remove-emergency-place-organization.md) . 
+- Zum Erstellen von Orten für Gebäude, Stockwerke und Büros hat Contoso die Schritte unter Hinzufügen, Ändern oder Entfernen eines Orts [für einen Notfallstandort befolgt.](add-change-remove-emergency-place-organization.md) 
 
-- Um einen Notfall Standort zuzuweisen, befolgte Contoso die Schritte unter [zuweisen oder Ändern eines Notfall Standorts für einen Benutzer](assign-change-emergency-location-user.md). 
+- Zum Zuweisen eines Notfallstandorts hat Contoso die Schritte unter Zuweisen oder [Ändern eines Notfallstandorts für einen Benutzer befolgt.](assign-change-emergency-location-user.md) 
 
  

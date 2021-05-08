@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie die medienumgehung mithilfe des direkten Routings von Telefonsystemen für Microsoft Teams konfigurieren, indem Sie alle Benutzer gleichzeitig wechseln oder eine Phased approaching (empfohlen) implementieren.
+description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing für Microsoft Teams konfigurieren, indem Sie alle Benutzer auf einmal wechseln oder einen phasenweise Ansatz implementieren (empfohlen).
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
 ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
@@ -26,43 +26,43 @@ ms.locfileid: "44416895"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
-Bevor Sie die medienumgehung mit Direct Routing konfigurieren, stellen Sie sicher, dass Sie [Plan für medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md)gelesen haben.
+Bevor Sie die Medienumgehung mit Direct Routing konfigurieren, vergewissern Sie sich, dass Sie den Artikel Planen der Medienumgehung [mit Direct-Routing gelesen haben.](direct-routing-plan-media-bypass.md)
 
-Um die medienumgehung zu aktivieren, müssen die folgenden Bedingungen erfüllt sein:
+Zum Aktivieren der Medienumgehung müssen die folgenden Bedingungen erfüllt sein:
 
-1.    Stellen Sie sicher, dass Ihr SBC-Anbieter (Session Border Controller) die medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehungsfunktion für den SBC enthält. Informationen zu SBCS, welche die medienumgehung unterstützen, und Anweisungen finden Sie auf der Zertifizierungsseite.
+1.    Stellen Sie sicher, dass der von Ihnen entscheidende SBC-Anbieter (Session Border Controller) die Medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehung für den SBC bietet. Auf der Zertifizierungsseite finden Sie Informationen zu SBCs, die die Medienumgehung unterstützen, und Anweisungen.
 
-2.    Sie müssen die medienumgehung auf dem Stamm mithilfe des folgenden Befehls aktivieren: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
+2.    Sie müssen die Medienumgehung für den Trunk mit dem folgenden Befehl aktivieren: **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true.**
 
-3.    Stellen Sie sicher, dass die erforderlichen Anschlüsse geöffnet sind. 
+3.    Stellen Sie sicher, dass die erforderlichen Ports geöffnet sind. 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrieren von nicht gebypassten Trunks zu Bypass-fähigen Trunks
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrieren von nicht umgangenen Trunks zu umgehenden Trunks
 
-Sie können alle Benutzer gleichzeitig wechseln, oder Sie können eine Phased approached (empfohlen) implementieren.
+Sie können alle Benutzer gleichzeitig wechseln oder einen phasenweise ansatzweiser Ansatz implementieren (empfohlen).
 
-- **Alle Benutzer gleichzeitig umschalten.** Wenn alle Bedingungen erfüllt sind, können Sie den Bypass-Modus aktivieren. Allerdings werden alle Ihre Produktionsbenutzer gleichzeitig gewechselt. Da bei der Konfiguration von Trunks und Ports möglicherweise einige Probleme auftreten, kann dies auf die Benutzeroberfläche der Produktionsumgebung zurückzuführen sein. 
+- **Gleichzeitiges Wechseln aller Benutzer** Wenn alle Bedingungen erfüllt sind, können Sie den Umgehungsmodus aktivieren. Alle Produktionsbenutzer werden jedoch gleichzeitig umgestellt. Da beim Konfigurieren von Trunks und Ports anfänglich probleme auftreten können, ist die Benutzererfahrung in der Produktionsumgebung möglicherweise davon betroffen. 
 
-- **Phasen orientierter Ansatz (Empfohlen)**.  Erstellen Sie einen neuen trunk für denselben SBC (mit einem anderen Port), testen Sie ihn, und ändern Sie die Richtlinie für Online-VoIP-Routing, damit die Benutzer auf den neuen trunk verweisen können. 
+- **Phasenweiser Ansatz. (Empfohlen)**.  Erstellen Sie einen neuen Trunk für denselben SBC (mit einem anderen Port), testen Sie ihn, und ändern Sie die Online-Voiceroutingrichtlinie für die Benutzer so, dass sie auf den neuen Trunk verweisen. 
 
-  Dies ist die empfohlene Vorgehensweise, da Sie einen reibungsloseren Übergang und eine unterbrechungsfreie Benutzererfahrung ermöglicht. Dieser Ansatz erfordert die Konfiguration des SBC, einen neuen FQDN-Namen und die Konfiguration der Firewall. Hinweis Sie müssen sicherstellen, dass Ihr Zertifikat beide Trunks unterstützt. In San benötigen Sie zwei Namen (**sbc1.contoso.com** und **sbc2.contoso.com**) oder ein Platzhalterzertifikat.
+  Dies ist der empfohlene Ansatz, da er einen reibungslosen Übergang und unterbrechungsfreie Benutzeroberfläche ermöglicht. Dieser Ansatz erfordert die Konfiguration des SBC, einen neuen FQDN-Namen und die Konfiguration der Firewall. Beachten Sie, dass Ihr Zertifikat beide Trunks unterstützt. In SAN müssen zwei Namen **(sbc1.contoso.com** und **sbc2.contoso.com)** oder ein Platzhalterzertifikat verwendet werden.
 
-![Migrieren von nicht gebypassten Trunks zu Bypass-fähigen Trunks](media/direct-routing-media-bypass-8.png)
+![Migrieren von nicht umgangenen Trunks zu umgehungsfähigen Trunks)](media/direct-routing-media-bypass-8.png)
 
-Anweisungen zum Konfigurieren der Trunks und zur Durchführung der Migration finden Sie in der Dokumentation Ihres SBC-Anbieters:
+Anweisungen zum Konfigurieren der Trunks und zum Durchführen der Migration finden Sie in der Dokumentation Ihres SBC-Anbieters:
 
 - [AudioCodes-Bereitstellungsdokumentation](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Oracle-Bereitstellungsdokumentation](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
-- [Bereitstellungsdokumentation zur Multifunktionsleisten-Kommunikation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-Systems (anynode)-Bereitstellungsdokumentation](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Dokumentation zur Bereitstellung von Kommunikationen im Menüband](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Dokumentation zur TE-Systems-Bereitstellung (anynode)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
-Eine Liste der für die direkte Weiterleitung zertifizierten Session Border Controllers (SBCS) finden Sie in [der Liste der für das direkte Routing zertifizierten Session Broder-Controller](direct-routing-border-controllers.md).
+Eine Liste der für Direct Routing zertifizierten Session Border Controller (SBCs) finden Sie unter Liste der [Session Broder Controller,](direct-routing-border-controllers.md)die für Direct Routing zertifiziert sind.
 
 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Planen der medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md)
+[Planen der Medienumgehung mit Direct-Routing](direct-routing-plan-media-bypass.md)
 
 
 

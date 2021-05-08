@@ -1,13 +1,13 @@
 ---
-title: Voraussetzungen und Umgebungsabhängigkeiten für das Upgrade auf Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Voraussetzungen und Umgebungsabhängigkeiten für ein Upgrade auf Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Verwenden Sie diese Anleitung, um mehr über die Voraussetzungen und Die Umgebungsabhängigkeiten für die Bereitstellung von Teams in Ihrer Organisation zu erfahren.
+description: Verwenden Sie diese Anleitungen, um mehr über die Voraussetzungen und die Umweltabhängigkeiten für die Bereitstellung von Teams in Ihrer Organisation zu erfahren.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ceca08be6d69a10fe84daa64d0da4e31c61c67c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e9924c24f19da3cf17f8e8a124a03acc294c24b4
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092193"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282162"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Voraussetzungen und Umgebungsabhängigkeiten für Teams
 
@@ -36,30 +36,30 @@ Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upg
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams kombiniert mehrere Microsoft 365- und Office 365-Dienste und ist daher von der richtigen Implementierung und dem richtigen Betrieb dieser Dienste abhängig. Diese Dienste umfassen – aber nicht beschränkt auf – SharePoint Online, Exchange Online und OneDrive for Business.
+Teams kombiniert mehrere Microsoft 365- und Office 365-Dienste und hängt daher von der richtigen Implementierung und dem korrekten Betrieb dieser Dienste ab. Diese Dienste umfassen online SharePoint Dienste, Exchange Online und OneDrive for Business.
 
-Obwohl nicht alle Dienste erforderlich sind, wird dringend empfohlen, alle Dienste zu implementieren. Wenn Sie bestimmte Dienste nicht implementieren möchten, wirkt sich dies auf die Funktionen aus, die Teams Ihrer Organisation anbieten kann. Obwohl Sie Beispielsweise SharePoint Online nicht implementieren müssen, setzt Teams bei bestimmten Funktionen wie dateifreigaben in Gruppenunterhaltungen auf SharePoint Online, sodass die Funktionalität, die über den Client angeboten wird, durch die Implementierung dieses Diensts reduziert wird.
+Obwohl nicht alle Dienste erforderlich sind, wird dringend empfohlen, dass Sie alle implementieren. Wenn Sie sich entscheiden, bestimmte Dienste nicht zu implementieren, wirkt sich dies auf die Funktionen aus, Teams Ihre Organisation anbieten können. Obwohl Sie beispielsweise SharePoint Online nicht implementieren müssen, ist Teams für bestimmte Funktionen wie die Dateifreigabe in Gruppenunterhaltungen auf SharePoint Online angewiesen, sodass die Funktionalität, die über den Client geboten wird, dadurch reduziert wird, wenn Sie diesen Dienst nicht implementieren.
 
-In den folgenden Artikeln finden Sie Informationen zu den Voraussetzungen und zur Interaktion von Teams mit anderen Technologien:
+In den folgenden Artikeln finden Sie Informationen zu den Voraussetzungen und zur Teams Interaktion mit anderen Technologien:
 
-- Wenn Ihre Organisation keine Microsoft 365- oder Office 365-Workloads bereitgestellt hat, lesen Sie [Erste Schritte.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
+- Wenn Ihre Organisation keine Arbeitslasten oder Arbeitslasten bereitgestellt Microsoft 365 Arbeitslasten Office 365, lesen Sie [Erste Schritte.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 
-- Wenn Ihre Organisation keine überprüfte Domäne für Microsoft 365 oder Office 365 hinzugefügt oder konfiguriert hat, lesen Sie Häufig gestellte Fragen [zu Domänen](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+- Wenn Ihre Organisation keine überprüfte Domäne für Benutzer hinzugefügt oder konfiguriert Microsoft 365 Domäne Office 365, lesen Sie Häufig gestellte [Fragen (FAQ)](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)zu Domänen.
 
-- Wenn Ihre Organisation keine Identitäten mit Azure Active Directory synchronisiert hat, lesen Sie Identitätsmodelle [und Authentifizierung in Microsoft Teams.](identify-models-authentication.md)
+- Wenn Ihre Organisation keine Identitäten mit anderen Azure Active Directory, lesen Sie Identitätsmodelle und [Authentifizierung in Microsoft Teams](identify-models-authentication.md).
 
 - Wenn Ihre Organisation Exchange Online nicht implementiert hat, finden Sie weitere Informationen unter [Verstehen, wie Exchange und Microsoft Teams interagieren](Exchange-Teams-interact.md).
 
 - Wenn Ihre Organisation SharePoint Online nicht implementiert hat, finden Sie weitere Informationen unter [Verstehen, wie SharePoint Online und OneDrive for Business mit Microsoft Teams interagieren](SharePoint-OneDrive-interact.md).
 
-- Hier erfahren Sie, [wie Microsoft 365-Gruppen und Microsoft Teams interagieren.](Office-365-groups.md)
+- Erfahren Sie, [wie Microsoft 365 gruppen und Microsoft Teams interagieren.](Office-365-groups.md)
 
-- Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Schülerinformationssystem verwenden, lesen Sie Willkommen bei [Microsoft School Data Sync](/schooldatasync) vor der Bereitstellung von Microsoft Teams.
+- Wenn Ihre Organisation eine Bildungseinrichtung ist und Sie ein Student Information System verwenden, lesen Sie Willkommen bei [Microsoft School Data Sync](/schooldatasync) vor der Bereitstellung Microsoft Teams.
 
-- Wenn Ihre Organisation Optionen für Anrufe im öffentlichen Telefonnetz (PstN) erwägt, lesen Sie [Voice – Telefonsystem-](cloud-voice-landing-page.md)und PSTN-Konnektivität [,](calling-plan-landing-page.md)Welcher Anrufplan für Sie richtig ist , und Direktes [Telefonsystem-Routing](direct-routing-landing-page.md).
+- Wenn Ihre Organisation Die Optionen für Anrufe über das Telefonnetz (PSTN, Public Switched Telephone Network) erwägen, lesen Sie Voice - Telefonsystem- und [PSTN-Anbindung](cloud-voice-landing-page.md) [,](calling-plan-landing-page.md)Welcher Anrufplan ist für Sie am richtigen , und [Telefonsystem Direct Routing](direct-routing-landing-page.md).
 
-- Informationen zum Erfüllen aller Netzwerkanforderungen vor dem Roll out von Teams finden Sie unter Vorbereiten des Netzwerks Ihrer Organisation [für Microsoft Teams](prepare-network.md).
+- Informationen, wie Sie sicherstellen können, dass alle Netzwerkanforderungen erfüllt wurden, bevor sie Teams, finden Sie unter Vorbereiten des [Unternehmensnetzwerks für Microsoft Teams.](prepare-network.md)
 
-- Wenn Sie derzeit Skype for Business Online Connector zum Verwalten Ihrer Dienste verwenden, müssen Sie zum Teams PowerShell-Modul wechseln und Ihre vorhandenen PowerShell-Skripts aktualisieren. Weitere Informationen finden Sie unter Wechseln von [Skype for Business Online Connector zum Teams PowerShell-Modul.](teams-powershell-move-from-sfbo.md)
+- Wenn Sie derzeit Skype for Business Online Connector zum Verwalten Ihrer Dienste verwenden, müssen Sie zum Teams PowerShell-Modul wechseln und die vorhandenen PowerShell-Skripts aktualisieren. Weitere Informationen finden Sie Skype for Business Wechseln von [OnlineConnector zum Teams PowerShell-Modul.](teams-powershell-move-from-sfbo.md)
 
-Nachdem Sie überprüft haben, ob Ihre Umgebung alle anwendbaren Voraussetzungen erfüllt, werten Sie [Ihre aktuelle Umgebung für Teams aus.](upgrade-plan-journey-evaluate-environment.md)
+Nachdem Sie überprüft haben, dass Ihre Umgebung alle geltenden Voraussetzungen erfüllt, überprüfen Sie [Ihre aktuelle Umgebung für Teams.](upgrade-plan-journey-evaluate-environment.md)

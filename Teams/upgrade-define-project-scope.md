@@ -1,13 +1,13 @@
 ---
-title: Definieren des Projektbereichs für Ihr Upgrade von Skype for Business auf Microsoft Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Definieren des Projektumfangs für ihre Skype for Business für Microsoft Teams Upgrade
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
-description: Optimieren Sie Ihr Upgradeprojekt, indem Sie Ihre Visionen und Ziele optimieren, um sicherzustellen, dass alle Projektbeteiligten ausgerichtet sind und an denselben Endergebnissen arbeiten.
+description: Optimieren Sie Ihre Visionen und Ziele für Ihr Upgradeprojekt, um sicherzustellen, dass alle Projektbeteiligten ausgerichtet sind und auf die gleichen Endergebnisse hin arbeiten.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,36 +20,36 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5db7d97dfe54fb4bd1409c1f71a7609f8450b180
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122179"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282582"
 ---
 # <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 
-![Upgrade des Reisediagramms, Hervorhebung der Projektdefinitionsphase](media/upgrade-banner-project-definition.png "Phasen des Upgradewegs mit Schwerpunkt auf der Projektdefinitionsphase")
+![Upgrade journey diagram, highlighting the Project Definition stage](media/upgrade-banner-project-definition.png "Phasen des Upgradeschritts, mit Betonung auf der Stufe Project Definition")
 
-Dieser Artikel ist Teil der Projektdefinitionsphase Ihres Upgradewegs. Eine Aktivität, die Sie abschließen, nachdem Sie eine Sponsoringkoalition und ein Projektteam aus den von Ihnen identifizierten Projektbeteiligten erstellt haben, sind der Schlüssel zum Erfolg Ihres Projekts. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
+Dieser Artikel ist Teil der Phase Project Definition Ihres Upgrades. Eine Aktivität, die Sie durchführen, nachdem Sie eine Unterstützung durch ein Sponsoringteam von den von Ihnen identifizierten Projektbeteiligten erstellt haben, ist von wesentlicher Bedeutung für den Erfolg Ihres Projekts. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
-- [Enlisted project stakeholders](upgrade-enlist-stakeholders.md)
+- [Aufgelistete Projektbeteiligten](upgrade-enlist-stakeholders.md)
 
-Wenn Sie sich Zeit nehmen, um Ihre Projektvision, Ihren Umfang, Ihre Ziele und Ihre Governance zu definieren, können Sie sicherstellen, dass alle Projektbeteiligten ausgerichtet sind und an denselben Endergebnissen arbeiten. Dies ist besonders wichtig, da das technische Bereitschaftsteam und das Benutzerbereitschaftsteam unabhängig daran arbeiten, die jeweiligen Teile zusammenzubringen. Nachdem Sie diesen Abschnitt abgeschlossen haben, beziehen Sie sich im gesamten Projekt darauf, um sicherzustellen, dass Sie auf dem weg sind, um den von Ihnen gesuchten Endzustand zu erreichen. Verwenden Sie die unten angegebenen Ziele, um ihre Ergebnisse zu messen und bei Bedarf zu verringern.
+Wenn Sie sich Zeit nehmen, um Ihre Projektvision, Ihren Umfang, Ihre Ziele und Ihre Governance zu definieren, können Sie sicherstellen, dass alle Projektbeteiligten ausgerichtet sind und auf die gleichen Endergebnisse hin arbeiten. Dies ist besonders wichtig, da das technische Bereitschaftsteam und das Benutzerbereitschaftsteam unabhängig arbeiten werden, um die jeweiligen Teile zusammenzubringen. Verweisen Sie nach Abschluss dieses Abschnitts im gesamten Projekt darauf, um sicherzustellen, dass Sie auf dem Plan sind, den von Ihnen gewünschte Endzustand zu erreichen. Verwenden Sie die unten angegebenen Ziele, um Ihre Ergebnisse zu messen und nach Bedarf zu entschärfen.
 
 | | |
 |---|---|
-| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was möchten Sie mit diesem Projekt erreichen (d. h., warum tun Sie es?)</li><li>Wie sieht der Erfolg aus?</li><li>Was sind die Risiken, und was ist Ihr Plan, um diese Risiken zu verringern?</li></ul> |
-| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Besprechen Sie die folgenden Abschnitte mit Ihrem Projektteam und Sponsoren.</li><li>Dokumentieren Sie Ihre Vision, Ihren Umfang, Ihre Ziele und Risiken für dieses Projekt.</li><li>Überprüfen Sie in Ihrem Projektteam erneut, ob Sie das richtige Team engagiert haben.</li></ul>|
+| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was möchten Sie mit diesem Projekt erreichen (mit anderen Worten, warum tun Sie es?)</li><li>Wie sieht der Erfolg aus?</li><li>Was sind die Risiken, und was ist Ihr Plan, um diese Risiken abzumildern?</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Besprechen Sie die folgenden Abschnitte mit Ihrem Projektteam und Sponsoren.</li><li>Dokumentieren Sie Ihre Vision, Ihren Umfang, Ihre Ziele und Risiken für dieses Projekt.</li><li>Überprüfen Sie erneut, ob Sie das richtige Team engagiert haben.</li></ul>|
 
-## <a name="project-vision"></a>Projektvision
+## <a name="project-vision"></a>Project Sehvermögen
 
-Ihre Vision ist das "große Ganze" oder der Endzustand, der die Frage "Warum machen wir dieses Projekt?" beantwortet. Eine ideale Vision befasst sich mit den Geschäftstreibern Ihrer Organisation und den Perspektiven für die Benutzerwert-Add-Add-Perspektive, wie in den folgenden Beispielen gezeigt:
+Ihre Vision ist das "Gesamtbild" oder schließlich der Endzustand, der die Frage "Warum machen wir dieses Projekt?" beantwortet. Eine ideale Vision befasst sich mit den Geschäftstreibern Ihrer Organisation und der Perspektive des Benutzerwerts, wie in den folgenden Beispielen gezeigt:
 
-- **Unternehmenstreiber der** Organisation: Die Standardisierung von Microsoft Teams richtet sich an die Transformation des digitalen Arbeitsplatzes und ermöglicht es uns, die betriebliche Effizienz zu steigern, redundante Lösungen zu eliminieren und 5 Mio. USD zu sparen.
-- **Benutzerwert-Add:** Microsoft Teams (1) spart Zeit, indem ein einzelner Speicherort für Projektnotizen, Office-Dokumente, Teammitglieder, Unterhaltungen und Besprechungen zur Verfügung steht; (2) vereinfacht die Kommunikation mithilfe einer zentralen Kontaktliste und der ständigen Chatnachverfolgung für den schnellen Zugriff auf Ihre Unterhaltungen und (3) entschärfigt den Frust beim Versuch, diese verloren gegangene E-Mail-Anlage zu finden, indem Dateien an einer zentralen Stelle gespeichert und darauf zugegriffen wird.
+- **Unternehmenstreiber der** Organisation: Die Standardisierung Microsoft Teams entspricht unserer Transformation für den digitalen Arbeitsplatz und ermöglicht es uns, betriebliche Effizienz zu steigern, redundante Lösungen zu beseitigen und 5 Millionen USD zu sparen.
+- **Benutzerwert hinzufügen:** Microsoft Teams (1) spart Zeit, indem ein einziger Speicherort für Projektnotizen, Office Dokumente, Teammitglieder, Unterhaltungen und Besprechungen zur Verfügung steht. (2) vereinfacht die Kommunikation durch die Verwendung einer zentralen Kontaktliste und der permanenten Chat-Nachverfolgung für schnellen Zugriff auf Ihre Unterhaltungen und (3) entschärfungiert den Frust, diesen verloren gegangenen E-Mail-Anhang zu finden, indem Dateien an einem zentralen Ort gespeichert werden und darauf zugegriffen wird.
 
-Berücksichtigen Sie die folgenden Diskussionspunkte, um Ihre Vision zu verfeinern:
+Beachten Sie die folgenden Diskussionspunkte, um Ihre Vision weiter zu verfeinern:
 
 - Beschreibung des aktuellen Geschäftsprozesses
 
@@ -60,69 +60,69 @@ Berücksichtigen Sie die folgenden Diskussionspunkte, um Ihre Vision zu verfeine
 - Die erwarteten und messbaren Geschäftsergebnisse, die durch die Bewältigung dieser Herausforderungen erzielt werden können
 
 > [!TIP]
-> Identifizieren Sie Use Cases und Personas, um Ihre Projektvision weiter zu verfeinern.
+> Identifizieren Sie Verwendungsfälle und Personas, um Ihre Projektvision weiter zu verfeinern.
 
-## <a name="project-scope"></a>Projektbereich
+## <a name="project-scope"></a>Project-Bereich
 
-Ihre Vision wird möglicherweise erst im Laufe der Zeit und in verschiedenen Phasen realisiert. Der Projektbereich definiert den Fokus  Ihres Projekts zu diesem Zeitpunkt und dient dazu, ihr Projektteam auf die aktuellen Vorgänge zu konzentrieren, sodass Sie Ihre langfristige Vision verwirklichen können. In Ihrem Umfang können Sie beispielsweise die Ausführung eines Pilotprojekts, die Bereitstellung einer bestimmten Arbeitsauslastung wie Sprach- oder Besprechungsgespräche oder das Aktivieren von Teams zusammen mit Skype for Business während der Planung Ihres Upgrades im Laufe der Zeit fordern. Im Rahmen des Projektumfangs sollten Sie bewerten:
+Ihre Vision kann nur im Laufe der Zeit, in verschiedenen Phasen, realisiert werden. Der Projektumfang definiert den Fokus  Ihres Projekts zu diesem Zeitpunkt und dient dazu, das Projektteam auf die aktuellen Aufgaben zu konzentrieren, sodass Sie Ihre langfristige Vision in die Welt setzen können. Ihr Umfang kann z. B. die Ausführung eines Pilotprojekts, das Bereitstellen einer bestimmten Arbeitsauslastung wie Sprache oder Besprechungen oder das Aktivieren von Teams neben Skype for Business aufrufen, während Sie das Upgrade im Laufe der Zeit planen. Im Rahmen des Projektumfangs sollten Sie dies bewerten:
 
-- [Die verschiedenen Koexistenzmodi](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)und die für Ihre Organisation optimal wären.
-- Die beste Möglichkeit für Skype for Business und Teams, vor dem Wechsel zu Teams zusammen zu arbeiten.
-- Ob Sie einen Pilot durchführen [sollten,](./pilot-essentials.md) um die technische Und Benutzerbereitschaft in Ihrer Organisation zu überprüfen?
+- [Die verschiedenen Koexistenzmodi](./teams-and-skypeforbusiness-coexistence-and-interoperability.md), und die für Ihre Organisation optimal sind.
+- Die beste Methode zum Skype for Business und Teams, bevor Sie zu einer anderen Teams.
+- Durchführen eines Pilotprojekts [zur](./pilot-essentials.md) Überprüfung der technischen und Benutzerbereitschaft in Ihrer Organisation.
 
-## <a name="project-goals"></a>Projektziele
+## <a name="project-goals"></a>Project Ziele
 
-Ihre Ziele definieren das ergebnis, das Sie wünschen, und ermöglichen Es Ihnen, den Erfolg des Projekts zu messen. Ziele können als _Ziele_ und Wichtige Ergebnisse (OKRs) definiert werden, und die Measures für den Projekterfolg können als Key _Success Indicators_ (KSIs) definiert werden. Es ist wichtig, dass Sie von Projektbeteiligten vollständig an der Definition von OKRs und KSIs beteiligt werden, um sicherzustellen, dass sie ein Gefühl von Eigensinn haben und diese Erfolgsfaktoren an definierten Projektaufgaben ausrichten können. Ziele sollten eine Mischung aus technischem und benutzerorientiertem Erfolg sein.
+Ihre Ziele definieren das Ergebnis, das Sie wünschen, und ermöglichen Es Ihnen, den Erfolg des Projekts zu messen. Ziele können als _Ziele_ und Wichtige Ergebnisse definiert werden, und die Maße für den Projekterfolg können als Key _Success Indicators_ (KSIs) definiert werden. Es ist wichtig, dass Sie die vollständigen Beteiligung der Projektbeteiligten an der Definition von OKRs und KSIs erhalten, um sicherzustellen, dass sie das Gefühl der Besitzrechte haben und diese Erfolgsmaßnahmen an den definierten Projektaufgaben ausrichten können. Die Ziele sollten eine Mischung aus technischem und benutzerorientiertem Erfolg umfassen.
 
-- **OKRs** enthalten die Ziele, die Sie am Anfang des Projekts festgelegt haben, und die wichtigsten Ergebnisse, die Sie mit einem definierten Schritt messen (z. B. monatlich oder vierteljährlich). Indem Sie Ihre wichtigsten Ergebnisse überprüfen, können Sie sicherstellen, dass ihre Projektergebnisse terminlich sind, oder Probleme identifizieren und verringern, um Ihr Projekt wieder auf Kurs zu bringen. OKRs werden in der Regel als "erreicht" oder "nicht erreicht" kategorisiert.
-- **KSIs** messen Qualität und Erfolg der wichtigsten Ergebnisse und ergänzen den binären Charakter von OKRs, indem sie gute und/oder schlechte Ergebnisse detailliert beschreiben. Bei der Definition von KSIs empfiehlt es sich, "spezifische, messbare, zuzuordnende, realistische, zeitbezogene" (SMART)-Kriterien zu verwenden:
-  - Spezifisches: Ziel eines bestimmten Verbesserungsbereichs
-  - Messbar: Quantifizieren oder zumindest vorschlagen eines Indikators für den Fortschritt
-  - Zuzuordnen: Angeben, wer dies tun soll
-  - Realistisch: Gibt an, welche Ergebnisse realistisch erzielt werden können, wenn verfügbare Ressourcen verfügbar sind
+- **OKRs** enthalten die Ziele, die Sie zu Projektbeginn festgelegt haben, sowie die wichtigsten Ergebnisse, die Sie in einem definierten Zeitverlauf messen (z. B. monatlich oder vierteljährlich). Indem Sie Ihre wichtigsten Ergebnisse überprüfen, können Sie sicherstellen, dass die Projektlieferergebnisse planmäßig sind, oder Probleme identifizieren und verringern, um Ihr Projekt wieder in die Spur zu bringen. OKRs werden in der Regel als "erzielt" oder "nicht erzielt" kategorisiert.
+- **KSIs messen** die Qualität und den Erfolg der wichtigsten Ergebnisse und ergänzen die binäre Natur von OKRs, indem gute und/oder schlechte Ergebnisse detailliert dargestellt werden. Bei der Definition von KSIs wird empfohlen, "spezifische, messbare, zuzuordnende, realistische, zeitbezogene" (INTELLIGENTE) Kriterien zu verwenden:
+  - Speziell: Ziel eines bestimmten Verbesserungsbereichs
+  - Messbar: Fortschrittsanzeige quantifizieren oder zumindest vorschlagen
+  - Assignable :specify who will do it
+  - Realistisch: Unter Schätzer der verfügbaren Ressourcen sollte angegeben werden, welche Ergebnisse realistisch erzielt werden können.
   - Zeitbezogenes: Angeben, wann die Ergebnisse erzielt werden können
 
-Die folgende Tabelle enthält Beispiele für OKRs und KSIs für die Anfangsphasen eines Skype for Business zu Teams-Upgradeprojekts.
+Die folgende Tabelle enthält Beispiele für OKRs und KSIs für die Anfangsphasen eines Skype for Business zum Teams Projekts.
 
-| Ziel | Wichtigstes Ergebnis | zu tun |
+| Ziel | Wichtiges Ergebnis | zu tun |
 |---|---|---|
-| Pilotteams zusammen mit Skype for Business im [Modus "Nur zusammenarbeiten"](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2: Pilot mit 500 Benutzern durchgeführt und abgeschlossen | <ul><li>Identifizieren von Pilotbenutzern</li><li>Erstellen eines Pilottestplans</li><li>Aktivieren von Pilotbenutzern in Teams</li><li>Implementieren des Pilotprojekts</li><li>Ausführen einer Pilotfeedbackumfrage</li><li>Messen des Piloterfolgs</li></ul> |
-| Erfolgreiches Ausführen des Modus "Nur zusammenarbeiten" für alle Benutzer in der Organisation zusammen mit Skype for Business | <ul><li>60 % der Skype for Business-Benutzer verwenden Teams innerhalb von 30 Tagen nach dem Rollout</li><li>Die Benutzerzufriedenheit mit Teams beträgt &#8805;80 %.</li></ul> | <ul><li>Entwerfen und Ausführen eines umfassenden Kommunikations- und Schulungsplans</li><li>Aktivieren aller Benutzer für Teams im Modus "Nur zusammenarbeiten"</li><li>Monatliches Nachverfolgen der Nutzung</li><li>Sammeln von Benutzerfeedback</li><li>Überwachen des Netzwerkzustands/der Netzwerkqualität</li><li>Bei Bedarf entschärfen</li></ul> |
+| Pilot Teams neben Skype for Business, im Modus nur [für die Zusammenarbeit](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2: 500-Benutzer-Pilot durchgeführt und abgeschlossen | <ul><li>Identifizieren von Pilotbenutzern</li><li>Erstellen eines Pilottestplans</li><li>Aktivieren von Pilotbenutzern auf Teams</li><li>Implementieren des Pilotprojekts</li><li>Ausführen einer Pilot-Feedback-Umfrage</li><li>Messen des Piloterfolgs</li></ul> |
+| Führen Sie erfolgreich den Modus "Nur für die Zusammenarbeit" für alle Benutzer in der Organisation zusammen mit Skype for Business | <ul><li>60 % der Skype for Business Benutzer verwenden Teams innerhalb von 30 Tagen nach der Einführung.</li><li>Die Benutzerzufriedenheit mit Teams ist &#8805;80 %</li></ul> | <ul><li>Entwerfen und Ausführen eines umfassenden Kommunikations- und Schulungsplans</li><li>Aktivieren aller Benutzer für Teams im Modus "Nur für die Zusammenarbeit"</li><li>Monatliches Nachverfolgen der Nutzung</li><li>Sammeln von Benutzerfeedback</li><li>Überwachen des Netzwerkzustands/der Netzwerkqualität</li><li>Bei Bedarf entschärfen</li></ul> |
 
-| Typ | Wichtige Erfolgsindikator | Messmethode | Erfolgskriterien | Bemessungszeitpunkt |
+| Typ | Indikator für den wichtigsten Erfolg | Messmethode | Erfolgskriterien | Bemessungszeitpunkt |
 |---|---|---|---|---|
-| **Netzwerk und Qualität** | Der Prozentsatz der schlechten Audioanrufe sollte minimal sein | [Anrufqualitätsdashboard (CQD)](https://aka.ms/sof-cqd) | \<3 % der schlechten Anrufe mit Teams | Wöchentlich und dann monatlich |
-| **Nutzung und Bekanntheit** | Die Chat-, Besprechungs- und Anruferfahrung ist gleich oder besser als Skype for Business | Umfrage | 80 % stimmen zu oder stimmen ausdrücklich zu | Wöchentlich bis pilot, nach dem Rollout |
-| **Verwendung und Einführung** | Aktive Verwendung der Lösung durch die Benutzer | Microsoft 365-Berichte oder CQD | 90 % Teilnahme von Pilotbenutzern, besser als die aktuelle Lösung | Wöchentlich und dann monatlich |
-| **Nutzung und Schulung** | Ich hatte ausreichende Schulungs-/Hilferessourcen, um Teams erfolgreich zu verwenden. | Nach der Pilotumfrage | 80 % stimmen zu oder stimmen ausdrücklich zu | Post-Pilot, Post-Rollout |
-| **Benutzerzufriedenheit** | Ich würde Teams anderen empfehlen | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) per Post-Pilot-Umfrage | NPS \> 0 | Post-Pilot, Post-Rollout |
-| **Geschäftstreiber** | Kosteneinsparungen | Verbindlichkeiten | \$Kostenausgaben von X Mio. in Drittanbieterlösungen | Sechs Monate, dann ein Jahr und dann fünf Jahre nach dem Rollout |
+| **Netzwerk und Qualität** | Der Prozentsatz schlechter Audioanrufe sollte minimal sein. | [Anrufqualitätsdashboard (CQD)](https://aka.ms/sof-cqd) | \<3 % der anrufe mit Teams | Wöchentlich, dann monatlich |
+| **Nutzung und Bewusstsein** | Die Chat-, Besprechungs- und Anruferfahrung entspricht oder ist besser als Skype for Business | Umfrage | 80 % stimmen zu oder stimmen voll und ganz zu | Wöchentlich bis pilot, nach dem Rollout |
+| **Nutzung und Verbreitung** | Aktive Verwendung der Lösung durch die Benutzer | Microsoft 365 von Berichten oder AQD | 90 % Teilnahme der Pilotbenutzer, besser als die aktuelle Lösung | Wöchentlich, dann monatlich |
+| **Nutzung und Schulungen** | Ich hatte ausreichende Schulungs-/Hilferessourcen für die erfolgreiche Verwendung Teams | Umfrage nach der Pilotphase | 80 % stimmen zu oder stimmen voll und ganz zu | Post-pilot, post-rollout |
+| **Benutzerzufriedenheit** | Ich würde anderen Teams empfehlen | [NET Promoter Score (NPS) über](http://www.npscalculator.com/en) eine nach der Pilotphase durchgeführte Umfrage | NPS \> 0 | Post-pilot, post-rollout |
+| **Business-Treiber** | Kosteneinsparungen | Verbindlichkeiten | \$X Mio. Kostenausgaben in Drittanbieterlösungen | Sechs Monate, dann ein Jahr, dann fünf Jahre nach dem Rollout |
 
 > [!TIP]
-> Um sicherzustellen, dass Ihr Projekt im Plan bleibt, sollten Sie neben größeren langfristigen Zielen auch kleinere, kurzfristige Meilensteine definieren. Dies kann Metriken enthalten, die Sie im Rahmen ihres Benutzerpiloten erfassen. Wenn Sie Ihre Zeitachse in Betracht ziehen, verwenden Sie die [Microsoft 365-Roadmap,](https://aka.ms/O365Roadmap) wenn Sie auf Features warten, die in Teams noch nicht verfügbar sind.
+> Um sicherzustellen, dass Ihr Projekt im Plan bleibt, sollten Sie neben größeren, langfristigen Zielen auch kleinere, kurzfristige Meilensteine definieren. Dies kann Metriken enthalten, die Sie im Rahmen Ihres Benutzer-Pilotprojekts erfassen. Wenn Sie eine Zeitachse in Erwägung ziehen, verwenden Sie [Microsoft 365 Roadmap,](https://aka.ms/O365Roadmap) wenn Sie auf Features warten, die in Ihrer Zeitachse noch nicht Teams.
 
-## <a name="risks-and-mitigation"></a>Risiken und Schadensbegrenzung
+## <a name="risks-and-mitigation"></a>Risiken und Entschärfung
 
- Bei jedem Projekt können unvorhergesehene Ereignisse oder andere Faktoren auftreten und Ihr Projekt aus der Spur bringen. Es ist wichtig, potenzielle Risiken proaktiv zu bewerten und einen Abmilderungsplan zur Lösung der eventuellen Probleme zu definieren, damit Ihr Projekt ihre Ziele erreichen kann. Ein _Risikoregister ist_ ein hervorragendes Tool zum Nachverfolgen von Projektrisiken – zusammen mit der Wahrscheinlichkeit und den potenziellen Auswirkungen – und zum Erfassen Ihres Minderungsplans. Die folgende Tabelle enthält ein Beispielrisikoregister.
+ Bei jedem Projekt können unvorhergesehene Ereignisse oder andere Faktoren auftreten und Ihr Projekt aus der Spur bringen. Es ist wichtig, potenzielle Risiken proaktiv zu bewerten und einen Entschärfungsplan zu definieren, um mögliche Probleme zu beheben, damit Ihr Projekt Ihre Ziele erreichen kann. Ein _Risikoregister_ ist ein hervorragendes Tool zum Nachverfolgen von Projektrisiken – zusammen mit der Wahrscheinlichkeit und den potenziellen Auswirkungen – und zum Erfassen Ihres Entschärfungsplans. Die folgende Tabelle enthält ein Beispiel für ein Risikoregister.
 
 | Risiko | Wahrscheinlichkeit | Auswirkungen | Gesamt | Risikominderungsplan |
 |---|---|---|---|-------|
-| **Netzwerkqualität** | Mittel | Hoch | Hoch | Führen Sie eine Netzwerkplanungsübung aus. |
-| **Geringe Benutzeradzeptanz** | Hoch | Hoch | Hoch | Proaktives Arbeiten mit Benutzern während der Pilot- und Bereitstellungsphasen; eine gezielte Bewusstseins- und Schulungskampagne zu implementieren, um Wünsche zu schaffen. |
+| **Netzwerkqualität** | Mittel | Hoch | Hoch | Ausführen einer Übung zur Netzwerkplanung |
+| **Geringe Benutzeradzeptanz** | Hoch | Hoch | Hoch | Proaktives Arbeiten mit Benutzern während der Pilot- und Bereitstellungsphasen implementieren Sie eine gezielte Bewusstseins- und Schulungskampagne, um ein Bedürfnis zu schaffen. |
 | | | | | |
 
 ## <a name="timeline"></a>Zeitachse
 
-Achten Sie beim Upgrade auf eine Zeitachse für wichtige Meilensteine (z. B. aktivieren von Teams neben Skype for Business für alle Benutzer) zusätzlich zum Fertigstellungsdatum. Eine definierte Zeitachse hilft Ihrem Projektteam, einen konsistenten Endzustand zu erreichen, und informiert den richtigen Zeitplan für die Arbeit, um sicherzustellen, dass Ihr Projekt auf dem richtigen Weg bleibt. Betrachten Sie eine Zeitachse, die nicht zu beschleunigt ist (bei der Vorgänge übersehen werden) oder zu weit entfernt ist (wobei die Dynamik möglicherweise verloren geht). Die ideale Zeitachse für:
+Stellen Sie beim Festlegen des Upgradeumfangs sicher, dass Sie neben dem Abschlussdatum auch eine Zeitachse für wichtige Meilensteine festlegen (z. B. Teams neben Skype for Business für alle Benutzer aktivieren). Eine definierte Zeitachse hilft Ihrem Projektteam, zu einem konsistenten Endzustand zu kommen, und informiert den richtigen Zurückarbeitszeitplan, um sicherzustellen, dass Ihr Projekt planmäßig bleibt. Ziehen Sie eine Zeitachse in Erwägung, die nicht zu beschleunigt ist (bei der Vorgänge übersehen werden) oder zu weit entfernt ist (wo die Dynamik verloren gehen könnte). Die ideale Zeitachse für:
 
-- **Produktbereitschaft für Compliance- und Benutzerszenarioanforderungen:** Lesen Sie die Produktfahrplan, um zu messen, wann Teams für Ihre Organisation bereit ist. [](https://aka.ms/O365Roadmap)
-- **Upgradegruppen:** Ermitteln Sie, ob Sie Teams aktivieren oder Benutzer nach Upgradegruppen aktualisieren, was sich auf die Zeitachse Des gesamten Upgradewegs auswirken kann.
-- **Organisationsfaktoren wie Änderungsstopp, Geschäftsjahresende, Bereitstellungslebenszyklen:** Besprechen und berücksichtigen Sie alle internen Prozesse, die Ihre Upgradezeitachse beeinflussen können.
-- **Weitere Änderungen, die** zur oder um die gleiche Zeit vorgenommen werden: Erwägen Sie das Bündeln von Änderungen oder den Abstand, um eine positive Benutzererfahrung zu ermöglichen und jegliche Auswirkungen auf die Produktivität zu minimieren.
-- **Resourcing**: Bestätigen Sie die Ressourcenzuordnung mit Ihren Projektbeteiligten, um sicherzustellen, dass das von Ihnen zusammengebrachte Projektteam über genügend Bandbreite verfügt, um alle erforderlichen Vorgänge auszuführen.
+- **Produktbereitschaft für Compliance-** und Benutzerszenarioanforderungen: In der Produkt-Roadmap können Sie messen, Teams für Ihre Organisation bereit ist. [](https://aka.ms/O365Roadmap)
+- **Upgradegruppen:** Bestimmen Sie, ob Sie Benutzer Teams durch Upgradegruppen aktivieren oder aktualisieren werden, was sich auf den Zeitplan des Gesamtupgrades auswirken kann.
+- **Organisationsfaktoren wie Änderungsstopp, Ende des Geschäftsjahrs, Bereitstellungslebenszyklus:** Diskutieren und berücksichtigen Sie alle internen Prozesse, die sich auf die Upgradezeitachse einflussen können.
+- **Andere Änderungen, die** zur oder um die gleiche Zeit auftreten: Erwägen Sie die Bündelung oder Abstände, um eine positive Benutzererfahrung zu ermöglichen und jegliche Auswirkungen auf die Produktivität zu minimieren.
+- **Ressourcenverwaltung:** Bestätigen Sie die Ressourcenzuordnung mit den Projektbeteiligten, um sicherzustellen, dass das von Ihnen zusammengebrachte Projektteam über genügend Bandbreite verfügt, um alle erforderlichen Aufgaben auszuführen.
 
-Als Bezugspunkt wird eine Beispielzeitachse für die Phasen vor dem Upgrade, Upgrade und nach dem Upgrade der [Upgrade Pro-Reise](./upgrade-start-here.md)bereitgestellt. Wir empfehlen Ihnen, sich bei Bedarf an die spezifischen Anforderungen Ihrer Organisation anzupassen.
+Als Referenzpunkt wird eine Beispielzeitachse für die Phasen vor dem Upgrade, [](./upgrade-start-here.md)Upgrade und nach dem Upgrade des Upgrade-Pro-Wegs bereitgestellt. Wir empfehlen Ihnen, sie bei Bedarf an die spezifischen Anforderungen Ihrer Organisation anzupassen.
 
-Nachdem Sie die oben beschriebenen Aktivitäten abgeschlossen haben, sollten Sie über eine solide Grundlage für Ihr Projekt verfügen. Fahren Sie mit [Ihren technischen Bereitschafts-](./upgrade-prepare-environment.md) und [Organisationsplanungsaktivitäten](./upgrade-prepare-organization.md) fort.
+Nachdem Sie die oben beschriebenen Aktivitäten abgeschlossen haben, sollten Sie über eine solide Grundlage für Ihr Projekt verfügen. Fahren Sie mit [Ihren Aktivitäten zur Planung technischer](./upgrade-prepare-environment.md) Bereitschaft und der [Organisationsbereitschaft](./upgrade-prepare-organization.md) fort.
 
-Denken Sie daran: Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um die Nutzenverwirklichung zu maximieren und sicherzustellen, dass Ihre Organisation über die richtige Zeit zum Abschließen Ihres Upgrades verfügt, empfehlen wir Ihnen, noch heute mit Ihrer Reise zu Microsoft Teams zu beginnen.
+Bitte beachten: Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um die Vorteile zu maximieren und sicherzustellen, dass Ihre Organisation über die richtige Zeit zum Abschließen des Upgrades verfügt, empfehlen wir Ihnen, ihre ersten Microsoft Teams zu unternehmen.

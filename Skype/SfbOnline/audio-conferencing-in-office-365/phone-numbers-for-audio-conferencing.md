@@ -22,14 +22,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: 6badaf3234b174f4261d93f82239045f0d49bcff
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0e5d38f604e7236d8e924b8799c5c4ec0dd01b42
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114221"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237211"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Telefonnummern für Audiokonferenzen in Skype für Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > Informationen über die Rufnummern in Microsoft Teams finden Sie unter [Telefonnummern für Audiokonferenzen in Microsoft Teams](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
@@ -55,7 +57,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
  **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
- **Freigegebene Telefonnummern** sind telefonnummern, die mit anderen Microsoft 365- oder Office 365-Konten geteilt werden können. Sie können die Sprachen nicht ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
+ **Freigegebene Telefonnummern** sind Telefonnummern, die für andere Personen freigegeben Microsoft 365 oder Office 365 können. Sie können die Sprachen nicht ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
   

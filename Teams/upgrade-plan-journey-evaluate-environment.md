@@ -1,13 +1,13 @@
 ---
-title: Auswerten Ihrer Umgebung vor dem Upgrade auf Teams
-author: msdmaguire
-ms.author: dmaguire
+title: Bewerten Sie Ihre Umgebung, bevor Sie ein Upgrade auf Teams
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Erfahren Sie mehr über die Anforderungen für die ordnungsgemäßen Auswertung Ihrer aktuellen Umgebung für das Upgrade auf Teams.
+description: Erfahren Sie mehr über die Anforderungen für eine ordnungsgemäß Bewertung Ihrer aktuellen Umgebung für ein Upgrade auf Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 119a80f5a25b4a2d8599df3df6a573a1f5554c1a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aeb236edddea69c1c112b695c9323de19da46092
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119104"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282202"
 ---
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Auswerten Ihrer Umgebung vor dem Upgrade auf Teams
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Bewerten Sie Ihre Umgebung, bevor Sie ein Upgrade auf Teams
 
 ![Diagramm Upgrade-Strategie, mit Betonung der Phase „Technische Bereitschaft“](media/upgrade-banner-tech-readiness.png "Etappen der Upgrade-Tour mit Schwerpunkt auf der Phase „Technische Bereitschaft“")
 
@@ -36,37 +36,37 @@ Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upg
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-In diesem Artikel finden Sie einen Überblick über die Anforderungen für die ordnungsgemäßen Auswertung Ihrer aktuellen Umgebung für den Betrieb von Teams. Indem Sie Ihre Umgebung auswerten, identifizieren Sie Risiken und Anforderungen, die sich auf Ihre gesamte Bereitstellung ausdingen. Indem Sie diese Elemente vorher identifizieren, können Sie Ihre Planung anpassen, um den Erfolg zu erreichen.
+Dieser Artikel bietet eine Übersicht über die Anforderungen für eine ordnungsgemäß Bewertung Ihrer aktuellen Umgebung für Teams. Indem Sie Ihre Umgebung bewerten, erkennen Sie Risiken und Anforderungen, die sich auf Die gesamte Bereitstellung beeinflussen. Indem Sie diese Elemente im Vorfeld identifizieren, können Sie Ihre Planung anpassen, um den Erfolg zu erreichen.
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>Einführung in den Discovery-Fragebogen
 
-Um ihre Zielschlüsselergebnisse (OKRs) zu erzielen, haben Sie zuvor wichtige Serviceentscheidungen getroffen. Im nächsten Schritt führen Sie eine Umgebungsermittlung durch, um alle Aspekte im Zusammenhang mit Ihrer IT-Infrastruktur, Netzwerken und Vorgängen auszuwerten, um zu bestätigen, dass Ihre Organisation bereit ist, die Lösung zu implementieren. Discovery ist einer der ersten, wichtigsten Schritte, die Sie bei der Planung Ihrer Reise zu Teams ausführen. Die Umgebungsermittlung muss eine Bewertung der Netzwerkbereitschaft enthalten, um sicherzustellen, dass Ihr Netzwerk ein Upgrade auf Teams unterstützt. Sie führen eine detaillierte Aufdeckung Ihrer Umgebung durch, um den aktuellen Zustand besser zu verstehen und mögliche Schwierigkeiten oder – noch wichtiger – mögliche Blocker für die Ausführung Ihres Teams-Rollouts zu entdecken.
+Um wichtige Ergebnisse zu erzielen, haben Sie zuvor wichtige Dienstentscheidungen getroffen. Der nächste Schritt besteht in der Ermittlung der Umwelt, um alle Aspekte in Bezug auf Ihre IT-Infrastruktur, Netzwerke und Vorgänge auszuwerten, um zu bestätigen, dass Ihre Organisation bereit für die Implementierung der Lösung ist. Entdecken ist einer der ersten wichtigen Schritte, die Sie bei der Planung Ihrer Reise zu Ihrem Teams. Umgebungsermittlung muss eine Bewertung der Netzwerkbereitschaft beinhalten, um sicherzustellen, dass Ihr Netzwerk ein Upgrade auf eine Teams. Sie führen eine ausführliche Ermittlung Ihrer Umgebung durch, um deren aktuellen Status besser zu verstehen und um etwaige Schwierigkeiten oder – noch wichtigere – mögliche Blocker bei der Durchführung Ihres Rollouts Ihres Teams entdecken.
 
-Sie identifizieren technische Risiken im Rahmen einer Bewertung der Umweltbewertung und der Bereitschaft zur Einführung und entwickeln einen Plan für die Abmilderung für jedes identifizierte Risiko. Sie sollten diese Informationen in das Risikoregister integrieren.
+Sie identifizieren technische Risiken im Rahmen einer Umweltbewertung und Bewertung der Bereitschaft zur Einführung und entwickeln einen Entschärfungsplan für jedes identifizierte Risiko. Sie sollten diese Informationen in das Risikoregister einbinden.
 
-Alle Fragen im Zusammenhang mit Ihrer vorhandenen Zusammenarbeitsinfrastruktur und Microsoft 365- oder Office 365-Organisation, Netzwerken, Endpunkten, Vorgängen sowie der Einführung und Bereitschaft sind Teil des Fragebogens zur Umweltermittlung. Arbeiten Sie mit Ihrem Projektteam zusammen, um die angeforderten Informationen so detailliert wie möglich zur Verfügung zu stellen, um Ihre Planungsaktivitäten zu erleichtern.
+Alle Fragen im Zusammenhang mit Ihrer vorhandenen Zusammenarbeitsinfrastruktur und Microsoft 365- oder Office 365-Organisation, Netzwerken, Endpunkten, Vorgängen sowie Übernahme und Bereitschaft sind Teil des Fragebogens zur Umweltermittlung. Arbeiten Sie mit Ihrem Projektteam zusammen, um die angeforderten Informationen mit so viel Details wie möglich zur Verfügung zu stellen, um Ihre Planungsaktivitäten zu vereinfachen.
 
-[Der Fragebogen](upgrade-plan-journey-discovery-questionnaire.md) ist in die folgenden Abschnitte unterteilt, um die Bereitschaft Ihrer Organisation für Ihre Teams-Bereitstellung in mehreren wichtigen Bereichen zu bestätigen:
+[Der Fragebogen](upgrade-plan-journey-discovery-questionnaire.md) ist in die folgenden Abschnitte unterteilt, um die Bereitschaft Ihrer Organisation für Ihre Teams Bereitstellung in mehreren Hauptbereichen zu bestätigen:
 
-- Microsoft 365- oder Office 365-Organisationsdetails
-- Zusammenfassung der vorhandenen Zusammenarbeitsplattform
-- Bereitstellungsdetails für die Zusammenarbeitsplattform
-- Netzwerk und Zugriff auf Microsoft 365- oder Office 365-Dienste
+- Microsoft 365 oder Office 365 von Organisationsdetails
+- Vorhandene Zusammenfassung der Zusammenarbeitsplattform
+- Details zur Bereitstellung der Zusammenarbeitsplattform
+- Netzwerk und Zugriff auf Microsoft 365 oder Office 365 Dienste
 - Endpunkte
 - Vorgänge
-- Einführung und Bereitschaft
+- Verbreitung und Bereitschaft
 
 > [!TIP]
-> Sie können den Fragebogen zunächst in ein Microsoft Word-Dokument kopieren. Versuchen Sie, alle Fragen zu beantworten und alle Details zu erfassen, während Sie sich bewegen.
+> Sie können beginnen, indem Sie den Fragebogen in ein Dokument Microsoft Word kopieren. Versuchen Sie, alle Fragen zu beantworten und alle Details zu erfassen, während Sie durch die Daten gehen.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Entscheidungspunkt</td><td><ul><li>Wer ist für die Durchführung einer Umgebungsbewertung zuständig?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Entscheidungspunkt</td><td><ul><li>Wer für die Durchführung einer Umgebungsbewertung verantwortlich?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Nächster Schritt</td><td><ul><li>Dokumentieren Sie die Ergebnisse der Umgebungsbewertung.</li></ul></td></tr>
 </table>
 
 
-## <a name="project-team"></a>Projektteam
+## <a name="project-team"></a>Project-Team
 
-Stellen Sie sicher, dass Sie die richtigen Personen für Ihr Projektteam engagiert haben. Überprüfen Sie die Schritte, die Sie in [Enlist your project stakeholders abgeschlossen haben.](upgrade-enlist-stakeholders.md)
+Stellen Sie sicher, dass Sie die richtigen Personen für Ihr Projektteam engagiert haben. Überprüfen Sie die schritte, die Sie in [Mitarbeitsbeteiligten des Projekts abgeschlossen haben.](upgrade-enlist-stakeholders.md)
 
-Fahren Sie nach dem Auswerten Ihrer Umgebung mit dem nächsten Schritt fort: [Vorbereiten Ihres Diensts.](upgrade-prepare-environment-prepare-service.md)
+Nachdem Sie Ihre Umgebung bewertet haben, fahren Sie mit dem nächsten Schritt fort: [Vorbereiten des Diensts.](upgrade-prepare-environment-prepare-service.md)

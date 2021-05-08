@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Transition E-Mails und Umfragen | Grundlegendes Upgrade
+title: Microsoft Teams Umstellen von E-Mails und | Grundlegendes Upgrade
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Beispiel-E-Mails und Umfragen zur Verwendung in Verbindung mit dem beschleunigten Zehn-Schritt-Aktionsplan für das Upgrade von Skype for Business auf Teams
+description: Beispiel-E-Mails und Umfragen, die zusammen mit dem beschleunigten Zehn-Schritt-Aktionsplan für das Upgrade von Skype for Business auf Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -31,7 +31,7 @@ ms.locfileid: "49809075"
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>E-Mail der Beteiligten, für Schritt 1
+### <a name="stakeholder-email-for-step-1"></a>E-Mails der Beteiligten für Schritt 1
 
 Betreffzeile:
 
@@ -53,7 +53,7 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Benachrichtigen der Benutzer per E-Mail für Schritt 4
+### <a name="notify-users-email-for-step-4"></a>Benachrichtigen von Benutzern per E-Mail für Schritt 4
 
 Betreffzeile:
 
@@ -82,9 +82,9 @@ If you have questions or need help, please reach out to <<insert company support
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Erinnern von Benutzern an E-Mails für Schritt 6
+### <a name="remind-users-email-for-step-6"></a>Erinnern Sie die Benutzer an die E-Mail für Schritt 6.
 
-Betreffzeile: ERINNERUNG: Bereiten Sie sich auf Ihr Upgrade auf Teams vor
+Betreffzeile: ERINNERUNG: Bereiten Sie sich auf Ihr Upgrade vor, Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -113,7 +113,7 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Willkommen bei der E-Mail-Adresse des Executive Sponsors für Schritt 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>E-Mail des Executive Sponsors zu "Willkommen bei Benutzern" für Schritt 7
 
 Betreffzeile:
 
@@ -148,7 +148,7 @@ Regards,
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>E-Mail einchecken, für Schritt 9
+### <a name="check-in-email-for-step-9"></a>E-Mail-Einchecken für Schritt 9
 
 Betreffzeile:
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Verwenden Sie für Schritt 10 eine E-Mail, in der Sie Benutzer bitten, Teams und Kanäle auszuprobieren.
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>In einer E-Mail-Nachricht werden Benutzer zum Ausprobieren von Teams und Kanälen für Schritt 10 gefragt.
 
 Betreffzeile:
 
@@ -201,29 +201,29 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Beispielumfragen
 
-Geben Sie an, wie gut Sie in der Ausführung der folgenden Aktivitäten in Teams sind und ob es aktivitäten gibt, über die Sie mehr erfahren möchten.
+Geben Sie an, wie gut Sie mit der Durchführung der folgenden Aktivitäten in Teams und ob es Aktivitäten gibt, über die Sie mehr erfahren möchten.
 
-| &nbsp; | Sehr gut ausgebildet | Etwas gut ausgebildet | Überhaupt nicht qualifiziert | Weitere Informationen | Nicht zutreffend | Unsicher/nicht vertraut | | | | |
+| &nbsp; | Sehr gut ausgebildet | Gut ausgebildet | Überhaupt nicht gut qualifiziert | Weitere Informationen | Nicht zutreffend | Unsicher/nicht vertraut | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Verwenden von Teams für Chats/Chats mit anderen | | | | | | | | | | |
+| Verwenden Teams für Chats mit anderen Personen | | | | | | | | | | |
 | Verwenden von Teams für Onlinebesprechungen | | | | | | | | | | |
-| Verwenden von Teams für die Zusammenarbeit (Teams und Kanäle) | | | | | | | | | | |
-| Verwenden von Teams auf meinem mobilen Gerät | | | | | | | | | | |
+| Verwenden Teams für die Zusammenarbeit (Teams und Kanäle) | | | | | | | | | | |
+| Verwenden Teams auf meinem mobilen Gerät | | | | | | | | | | |
 
-| **Was, falls überhaupt, verhindert die Verwendung von Microsoft Teams?** | **Auswählen aller anzuwendende** |
+| **Was, falls überhaupt, verhindert die Verwendung Microsoft Teams?** | **Alle anzuwendende Auswahl** |
 |---|---|
-| Ich habe noch nie davon gehört | &#9744; |
+| Ich habe noch nie etwas dazu gehört. | &#9744; |
 | Auf meinem Computer ist es nicht installiert | &#9744; |
 | Ich verstehe nicht, wie das für mich oder die Personen, mit der ich zusammenarbeite, von Vorteil wäre. | &#9744; |
 | Ich hatte noch keine Zeit, ihn für meine Anforderungen auszuwerten. | &#9744; |
 | Ich verwende bereits andere Anwendungen, die meine Anforderungen an Kommunikation und Zusammenarbeit erfüllen. | &#9744; |
 | Ich brauche Schulungen, bevor ich es verwenden kann | &#9744; |
-| Ich habe versucht, es zu verwenden, aber es gab technische Probleme oder eine schlechte Erfahrung | &#9744; |
+| Ich habe versucht, es zu verwenden, hatte aber technische Probleme oder ein schlechtes Benutzererlebnis | &#9744; |
 | Unser Support desk konnte mir bei meinen Fragen nicht helfen | &#9744; |
-| Nichts, ich verwende es zurzeit. | &#9744; |
+| Nichts, ich verwende es zurzeit | &#9744; |
 | Sonstiges (bitte angeben) | &#9744; |
 
-**Werden Sie Microsoft Teams einem Freund/Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)**
+**Wie wahrscheinlich ist es, dass Sie Microsoft Teams Freund/Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

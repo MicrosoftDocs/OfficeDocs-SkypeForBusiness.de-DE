@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Wählen Sie ein Bereitstellungsmodell aus, entwickeln Sie eine verantwortungsbewusste, beratene-informierte (RACI)-Matrix, erstellen Sie Ausführungs-und Governance-Pläne.
+description: Wählen Sie ein Bereitstellungsmodell aus, entwickeln Sie eine RACI-Matrix (responsible-accountable-consulted-informed), erstellen Sie Ausführungs- und Governancepläne.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -27,121 +27,121 @@ ms.locfileid: "44512812"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren des Erfolgsplans
 
-Dieser Artikel enthält eine Übersicht über die Anforderungen für die ordnungsgemäße Dokumentierung Ihrer Cloud-sprach Bereitstellung. Indem Sie alle Entscheidungspunkte und die nächsten Schritte definieren und dokumentieren, während Sie Ihre Cloud-sprach Bereitstellung planen, können Sie sicherstellen, dass alle Projekt Beteiligten und Mitglieder des Projektteams an der Bereitstellung erfolgreicher Ergebnisse ausgerichtet sind. 
+Dieser Artikel bietet eine Übersicht über die Anforderungen für eine ordnungsgemäß dokumentierte Cloud-Sprachbereitstellung. Indem Sie alle Entscheidungspunkte und nächsten Schritte definieren und dokumentieren, während Sie Ihre Cloud-Sprachbereitstellung planen, können Sie sicherstellen, dass alle Beteiligten und Mitglieder des Projektteams an der Endierung erfolgreicher Ergebnisse ausgerichtet sind. 
 
 ## <a name="execution-planning"></a>Ausführungsplanung 
 
-Nachdem Sie festgelegt haben, wie Sie die Audiokonferenz oder das Telefon System mit einer Anruf Plan Lösung in Ihrer Organisation implementieren, müssen Sie die Ausführung des Implementierungsprojekts planen.
+Nachdem Sie die Implementierung der Audiokonferenz- oder -Telefonsystem mit der Anrufplanlösung in Ihrer Organisation definiert haben, müssen Sie die Ausführung des Implementierungsprojekts planen.
 
-Wenn Ihre Organisation nur über eine oder zwei Websites verfügt, müssen Sie möglicherweise nicht alle in diesem Artikel bereitgestellten Informationen ausfüllen, aber Sie sollten Sie durchlesen, um ihren Ansatz zu leiten.
+Wenn Ihre Organisation nur über eine oder zwei Websites verfügt, müssen Sie möglicherweise nicht alle in diesem Artikel erläuterten Details abschließen, sie sollten sich aber durchlesen, um Ihren Ansatz zu unterstützen.
 
 <!--ENDOFSECTION-->
 
 ## <a name="deployment-model"></a>Bereitstellungsmodell 
 
-Wie bei allen Technologieimplementierungen, die die Arbeitsweise von Personen in Ihrer Organisation transformieren, ist die Auswahl der richtigen Vorgehensweise für die Bereitstellung entscheidend für den Erfolg ihrer Cloud-VoIP-Implementierung.
+Wie bei jeder Technologieimplementierung, die die Art und Weise verändert, wie die Mitarbeiter in Ihrer Organisation arbeiten, wird die Auswahl des richtigen Wegs für die Bereitstellung den Erfolg Ihrer Cloud-Sprachimplementierung erheblich beeinflussen.
 
-Zu den potenziellen Bereitstellungsmodellen gehören die folgenden:
+Zu den möglichen Bereitstellungsmodellen gehören die folgenden:
 
--   **Pro Website:** Dieses Modell eignet sich für Fälle, in denen Ihre Organisation geografisch verstreut ist, und Zweigniederlassungen eine beträchtliche Anzahl von Mitarbeitern aufweisen. Dieses Bereitstellungsmodell kann jedoch die Kommunikation in Abteilungen unterbrechen, in denen Abteilungsmitarbeiter über mehrere Standorte verteilt sind.
+-   **Pro Website:** Dieses Modell eignet sich für Fälle, in denen Ihre Organisation geografisch weit verteilt ist und die Anzahl der Mitarbeiter in Ihren Zweigstellen erheblich ist. Allerdings kann dieses Bereitstellungsmodell möglicherweise die Kommunikation innerhalb von Abteilungen unterbrechen, in denen Die Mitarbeiter der Abteilung über mehrere Standorte verteilt sind.
 
--   **Pro Division**: Dieses Modell ist in der Regel die bessere Option für mittelständische Unternehmen und stellt sicher, dass die beteiligten Abteilungen über die gleiche Erfahrung verfügen.
+-   **Pro Abteilung:** Dieses Modell ist in der Regel die bessere Option für mittelständische Unternehmen und stellt sicher, dass die beteiligten Abteilungen über die gleiche Erfahrung verfügen.
 
--   **Gesamtes Unternehmen gleichzeitig:** Dieses Modell ist in der Regel die beste Option für kleine Unternehmen, bei denen alle Mitarbeiter vom ersten Tag der Bereitstellung aus die gleiche Erfahrung erhalten.
+-   **Ganzes Unternehmen auf einmal:** Dieses Modell ist in der Regel die beste Option für kleine Unternehmen, in denen alle Mitarbeiter ab dem ersten Tag der Bereitstellung die gleiche Erfahrung erhalten.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für das für Ihre Organisation geltende Bereitstellungsmodell für Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie das von Ihnen ausgewählte Team Bereitstellungs Ausführungsmodell, und schließen Sie geschäftliche und technische Begründungen ein.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie Teams Ausführungsmodell für die Bereitstellung, das für Ihre Organisation gilt.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie Teams Bereitstellungsausführungsmodell, das Sie ausgewählt haben, und fügen Sie geschäftliche und technische Begründungen ein.</li></ul></td></tr></table>
 
 ## <a name="raci-modeling"></a>RACI-Modellierung
 
-Um sicherzustellen, dass Sie Klarheit darüber haben, wer für was in Ihrem Projekt verantwortlich ist, verwenden Sie eine Zuordnungs Matrix für die Zuständigkeit (auch bekannt als RACI – verantwortlich, rechenschaftspflichtig, konsultiert und informiert – Matrix). Listen Sie die Person oder Gruppe auf, die für die einzelnen Aufgaben verantwortlich und verantwortlich ist, sowie die Beteiligten, die im Entscheidungsprozess konsultiert werden sollen, und die Stakeholder, die über die einzelnen Entscheidungen und Aktionen während der Projektdurchführung informiert werden.
+Verwenden Sie eine Aufgabenmatrix für Verantwortlichkeit (auch bekannt als RACI – verantwortlich, verantwortlich, zu rate ziehen und informiert – um sicherzustellen, dass Sie Klarheit darüber haben, wer in Ihrem Projekt für was zuständig ist). Listen Sie die Person oder Gruppe auf, die für die einzelnen Aufgaben verantwortlich und verantwortlich ist, sowie die Projektbeteiligten, die bei der Entscheidungsfindung zu Rate gezogen werden sollen, und die Projektbeteiligten, die während der gesamten Projektausführung über jede Entscheidung und jeden Vorgang informiert werden sollen.
 
-Der folgende Code ist ein Beispiel für eine RACI-Matrix für eine Cloud-VoIP-Implementierung.
+Im Folgenden finden Sie ein Beispiel für eine RACI-Matrix für eine Cloud-Sprachimplementierung.
 
 | Aktivität/Rolle                                         | Projektleiter | Leiter/Architekt für Zusammenarbeit | Berater | Spezialist für Change Management/Einführung | Vertreter der Betriebseinheiten |
 |-------------------------------------------------------|--------------|------------------------------|------------|---------------------------------------|-------------------------------|
-| Programm Präsentation Kickoff-Anruf                     | R, A         | C                            |            |                                       |                               |
-| Einrichten des Dashboards für die Anrufqualität                         | I            | C                            | R, A       |                                       |                               |
-| Freigeben des Ermittlungs Fragebogens während eines Kickoff-Anrufs | I            | C                            | R, A       |                                       |                               |
-| Envision Phase Kickoff                                | R, A         | C                            |            |                                       |                               |
-| Business Use Cases-Workshop                           | A            |                              |            | R                                     | C                             |
-| Überprüfen des Ermittlungs Fragebogens                    |              | R, A                         | C          |                                       |                               |
-| Architektur Workshop                                 | I            | R, A                         | C          |                                       |                               |
-| Einführung in Benutzerszenarien enVision Phase Workshop       | C            | I                            | A          | R                                     |                               |
-| Workshop zur Einführung von Erfolg                             |              |                              | R, A       | C                                     |                               |
-| Workshop für Client-und Geräte Bereitschaft                  | I            |                              | R, A       | C                                     |                               |
+| Anruf zum Starten einer Programmpräsentation                     | R, A         | C                            |            |                                       |                               |
+| Einrichten des Anrufqualitätsdashboards                         | I            | C                            | R, A       |                                       |                               |
+| Teilen des Discovery-Fragebogens während des Anrufs beim Start | I            | C                            | R, A       |                                       |                               |
+| Projektphasen-Kickoff                                | R, A         | C                            |            |                                       |                               |
+| Business use cases workshop                           | A            |                              |            | R                                     | C                             |
+| Überprüfen des Discovery-Fragebogens                    |              | R, A                         | C          |                                       |                               |
+| Architekturworkshop                                 | I            | R, A                         | C          |                                       |                               |
+| Einführungs-Benutzerszenarien : Phase 2010       | C            | I                            | A          | R                                     |                               |
+| Workshop zum Erfolg bei der Einführung                             |              |                              | R, A       | C                                     |                               |
+| Workshop zur Client- und Gerätebereitschaft                  | I            |                              | R, A       | C                                     |                               |
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, welche Aktivitäten/Rollen für das Cloud Voice-Implementierungsprojekt relevant sind.</li><li>Entscheiden Sie, welche Teams oder Personen der Zuständigkeits Zuordnungs Matrix (RACI-Matrix) des Cloud Voice-Implementierungsprojekts zugewiesen werden sollen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie die Aktivitäten/Rollen, die für das Cloud-Sprachimplementierungsprojekt relevant sind.</li><li>Entscheiden Sie, welche Teams oder Personen der AUFGABENzuordnungsmatrix (RACI-Matrix) des Cloud-Sprachimplementierungsprojekts zugewiesen werden sollen.</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie die RACI-Matrix.</li></ul></td></tr></table>
 
-## <a name="quarterly-execution-plan"></a>Quartals Ausführungsplan
+## <a name="quarterly-execution-plan"></a>Vierteljährlicher Ausführungsplan
 
-Zum Ausführen der Cloud-sprach Bereitstellung in verwaltbaren arbeitsabschnitten empfiehlt es sich, einen vierteljährlichen Ausführungsplan basierend auf ihren objektiven Schlüssel Ergebnissen (OKRs), dem von Ihnen ausgewählten Bereitstellungsmodell und der Projekt Ausführungsfunktion Ihrer Organisation zu erstellen.
+Um die Cloud-Sprachbereitstellung in überschaubaren Arbeitsblöcken auszuführen, empfehlen wir, dass Sie einen vierteljährlichen Ausführungsplan erstellen, der auf Ihren Zielschlüsselergebnissen (OKRs), dem ausgewählten Bereitstellungsmodell und der Projektausführungsfunktion Ihrer Organisation basiert.
 
-Auf diese Weise können Sie den Fortschritt vierteljährlich nachverfolgen, den Plan bei Bedarf überarbeiten und die Cloud-Sprachfunktionen basierend auf der Ausführungskapazität Ihrer Organisation bereitstellen.
+Auf diese Weise können Sie den Fortschritt vierteljährlich nachverfolgen, den Plan bei Bedarf überarbeiten und Cloud-Sprachfunktionen basierend auf den Ausführungsmöglichkeiten Ihrer Organisation bereitstellen.
 
-Wenn Ihre Organisation nur über eine oder zwei Websites verfügt, benötigen Sie möglicherweise keinen Quartals Ausführungsplan, da Sie erwarten, dass Sie in einem kurzen Zeitraum vollständig bereitgestellt werden.
+Wenn Ihre Organisation nur über eine oder zwei Websites verfügt, benötigen Sie möglicherweise keinen vierteljährlichen Ausführungsplan, da Sie erwarten, in einem kurzen Zeitraum vollständig bereitgestellt zu werden.
 
-Der folgende Code ist ein Beispiel für einen Quartals Ausführungsplan für die enVision-Phase einer Cloud-VoIP-Implementierung.
+Es folgt ein Beispiel für einen vierteljährlichen Ausführungsplan für die Zielphase einer Cloud-Sprachimplementierung.
 
-| Website/Abteilung                            | Anzahl der Mitarbeiter | Audiokonferenzen | Telefonsystem                    | Quartal, das ausgeführt werden soll |
+| Website/Abteilung                            | Anzahl der Mitarbeiter | Audiokonferenzen | Telefonsystem                    | Auszuführendes Quartal |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | USA: New York                             | 2000                | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
 | Irland: Dublin                          | 300                 | Ja                | Telefonsystem mit Anrufplänen | Q1 CY2018          |
-| Österreich: Wien                          | 500                 | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
-| Italien: Mailand                             | 200                 | Ja                | Nicht zutreffend                             | Q2 CY2018          |
+| Österreich: Ungarn                          | 500                 | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
+| Italien: Italien: Italien                             | 200                 | Ja                | Nicht zutreffend                             | Q2 CY2018          |
 | Südamerika: Brasilien                    | 1500                | Ja                | Direktes Routing für Telefonsysteme     | Q2 CY2018          |
-| Indien: Delhi                             | 7000                | Ja                | Nicht zutreffend                             | Q3 CY2018          |
+| Indien: Usa                             | 7000                | Ja                | Nicht zutreffend                             | Q3 CY2018          |
 
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für den Quartals Ausführungsplan, um die Ergebnisse des objektiven Schlüssels zu erreichen (OKRs).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den Quartals Ausführungsplan.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie den vierteljährlichen Ausführungsplan, um die Zielschlüsselergebnisse (OKRs) zu erzielen.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den Quartalsausführungsplan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="communications-and-governance-plan"></a>Kommunikations-und Steuerungsplan
+## <a name="communications-and-governance-plan"></a>Kommunikations- und Governanceplan
 
-Um die Projekt Beteiligten mit dem Fortschritt der Bereitstellung auf dem neuesten Stand zu halten, müssen Sie einen Plan für die Art und Weise einrichten, wie die Kommunikation zwischen den Mitgliedern des Hauptprojekts des Projektteams und den Beteiligten erfolgen soll, um über die Aspekte des Projektstatus, wichtige Meilensteine, Blocker und verschiedene Überprüfungen des Projekts mit den festgelegten KSIs, operativen Metriken und strategischen
+Um die Projektbeteiligten über den Fortschritt der Bereitstellung auf dem Laufenden zu halten, müssen Sie einen Plan für die Art und Weise einrichten, wie die Kommunikation zwischen den Mitgliedern des Hauptprojektteams und den Projektbeteiligten stattfinden wird, um Themen in Bezug auf den Status des Projekts, wichtige Meilensteine, Blockierer und verschiedene Überprüfungen des Projekts im Hinblick auf etablierte KSIs, Betriebsmetriken und strategische Ziele zu diskutieren.
 
-Im folgenden finden Sie ein Beispiel für einen Kommunikations-und Steuerungsplan, den Sie in Ihrem Cloud Voice-Implementierungsprojekt nutzen können.
+Es folgt ein Beispiel für einen Kommunikations- und Governanceplan, den Sie in Ihrem Cloud-Sprachimplementierungsprojekt nutzen können.
 
-| Typ                                        | Ziele                                                                                                                                                      | Teilnehmer | Tage/Uhrzeit                                     | Ort             | Besprechungs Besitzer |
+| Typ                                        | Ziele                                                                                                                                                      | Teilnehmer | Tage/Uhrzeit                                     | Ort             | Besprechungsbesitzer |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
-| Projektbezogene Anrufe                       | Synchronisieren des Projektstatus, nachvollziehen wichtiger Meilensteine und Blockierungen                                                                                           | TBA          | Montag, Dienstag, Mittwoch, Donnerstag 17 Uhr PST | Virtuell              | TBA           |
-| Wöchentliches Lenkungskomitee                   | Überprüfen des Status des Cloud Voice-Projekts, Bericht an Führungskräfte, Auslösen von Problemen, die für die Lösung von Führungskräften erforderlich sind                                        | TBA          | Jeden Freitag 11 Uhr PST                        | Virtuell              | TBA           |
-| Monatliches Projektgeschäft/operative Überprüfung | Überprüfen des Projektstatus mit erweiterten Stakeholdern, Hauptkontakt Punkten und Executive-Sponsoren Überprüfen des Bereitstellungsplans, KSIs und operativer Metriken | TBA          | Zweiter Dienstag im Monat                       | Virtuell oder persönlich | TBA           |
-| Quartalsweise Geschäftsbericht (QBR)             | Überprüfen des Projektstatus und Überprüfen des Fortschritts anhand strategischer Ziele, KSIs und operativer Metriken Erneutes Aufrufen von Plänen bei Bedarf                                 | TBA          | Letzter Donnerstag jedes Quartals                | In Person            | TBA           |
+| Project von Aufstandsanrufen                       | Synchronisieren des Projektstatus, Nachverfolgen wichtiger Meilensteine und Blocker                                                                                           | TBA          | Montag, Dienstag, Mittwoch, Donnerstag, 17:00 Uhr PST | Virtuell              | TBA           |
+| Wöchentlicher Lenkungsrat                   | Überprüfen des Status des Cloud-Sprachprojekts, Melden an Führungskräfte, Ansprechen von Problemen, die Hilfe der Geschäftsleitung bei der Lösung erfordern                                        | TBA          | Jeden Freitag, 11:00 Uhr PST                        | Virtuell              | TBA           |
+| Monatliche Geschäfts-/Betriebsüberprüfung für Projekte | Überprüfen des Projektstatus mit erweiterten Projektbeteiligten, Hauptkontaktpunkten und Sponsoren aus der Geschäftsleitung Den Bereitstellungsplan, die KSIs und Betriebsmetriken überprüfen | TBA          | Zweiter Dienstag des Monats                       | Virtuell oder persönlich | TBA           |
+| Vierteljährlicher Geschäftsbericht (QBR)             | Überprüfen des Projektstatus und Überprüfen des Fortschritts im Rahmen von strategischen Zielen, KSIs und Betriebsmetriken Pläne bei Bedarf erneut                                 | TBA          | Letzter Donnerstag jedes Quartals                | Persönlich            | TBA           |
 
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie sich für den Kommunikations-und Steuerungsplan, einschließlich der Häufigkeit von regelmäßigen Status Updates (täglich, wöchentlich, monatlich oder quartalsweise), Methoden zum Durchführen der Status Aktualisierungs Besprechungen und des Besitzers jeder Besprechung.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie die Kommunikation und den Governanceplan, einschließlich der Häufigkeit regelmäßiger Statusaktualisierungen (täglich, wöchentlich, monatlich oder vierteljährlich), Methoden zum Durchführen der Statusaktualisierungsbesprechungen und des Besitzers jeder Besprechung.</li></ul></td></tr>
 
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den Plan für Kommunikation und Steuerung.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den Kommunikations- und Governanceplan.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
-## <a name="finalize-my-success-plan"></a>Meinen Erfolgsplan abschließen
+## <a name="finalize-my-success-plan"></a>Finalisieren meines Erfolgsplans
 
-Ein Erfolgsplan ist die Zusammenfassung der Dokumentation, die Sie in der enVision-Phase erstellt haben.
+Ein Erfolgsplan ist die Zusammenfassung der Dokumentation, die Sie in der Zielphase erstellt haben.
 
-Der Erfolgsplan gibt dem Projektteam, das Kurzarbeits-oder Bereitstellungspartner umfassen kann, genügend Informationen, um die Ziele Ihrer Organisation mit der Implementierung der Audiokonferenz oder des Telefonsystems mit dem Anruf Plandienst zu verwirklichen.
+Der Erfolgsplan gibt dem Projektteam – dazu kann FastTrack oder ein Bereitstellungspartner gehören – ausreichende Informationen, um die Ziele Ihrer Organisation bei der Implementierung von Audiokonferenzen oder Telefonsystem mit dem Anrufplandienst zu erreichen.
 
-Im Allgemeinen enthält ein Erfolgsplan die folgenden Hauptabschnitte, an denen Sie in der enVision-Phase gearbeitet haben:
+Im Allgemeinen enthält ein Erfolgsplan die folgenden Hauptabschnitte, an denen Sie in der Zielphase gearbeitet haben:
 
 -   Geschäftsszenario
 
 -   Bereitschaft für den Dienst
 
--   Dienst Entscheidungen
+-   Dienstentscheidungen
 
 -   Ausführungsplan
 
@@ -151,40 +151,40 @@ Im Allgemeinen enthält ein Erfolgsplan die folgenden Hauptabschnitte, an denen 
 
 ### <a name="business-case"></a>Geschäftsszenario
 
-Geschäfts Anwendungsfälle, die Liste der Stakeholder, OKRs und KSIs, risikoregister und Projektzeitpläne bilden in der Regel den Großteil der Informationen, die für einen Geschäftsfall erforderlich sind. Sie sollten diese im Rahmen ihres Erfolgs Plans dokumentieren.
+Geschäftsnutzungsfälle, die Liste der Projektbeteiligten, OKRs und KSIs, Risikoregister und Projektzeitpläne stellen normalerweise den Großteil der für einen Geschäftsfall erforderlichen Informationen dar. Sie sollten diese als Teil Ihres Erfolgsplans dokumentieren.
 
 ### <a name="service-readiness"></a>Bereitschaft für den Dienst
 
-Ihre Umweltverträglichkeitsprüfung liefert die ersten Informationen, die erforderlich sind, um die technische Bereitschaft Ihrer Organisation zur Implementierung von Audiokonferenzen und/oder Telefonsystemen mit einem Anrufplan festzulegen.
+Ihre Umgebungsbewertung enthält die anfänglichen Informationen, die erforderlich sind, um die technische Bereitschaft Ihrer Organisation zur Implementierung von Audiokonferenzen und/oder Audiokonferenzen Telefonsystem Anrufplan zu ermitteln.
 
-Im folgenden finden Sie Ihre Service Readiness-Bewertung und den Plan zur Behebung von Bereichen, die durch die Umweltverträglichkeitsprüfung gefunden werden müssen.
+Hier sind Ihre Dienstbereitschaftsbeurteilung und der Plan zur Behebung von Bereichen enthalten, die bei der Umweltbewertung ermittelt werden müssen.
 
-### <a name="service-decisions"></a>Dienst Entscheidungen
+### <a name="service-decisions"></a>Dienstentscheidungen
 
-Dokumentieren Sie, wie Sie das Audiokonferenz-oder Telefon System mit der technischen Implementierung des Anruf Plan Diensts für Ihre Organisation geplant haben.
+Dokumentieren Sie, wie Sie audio conferencing (Audiokonferenz) oder Telefonsystem technische Implementierung des Anrufplandiensts für Ihre Organisation geplant haben.
 
 ### <a name="execution-plan"></a>Ausführungsplan
 
-Dokumentieren Sie, wie Sie die Projektdurchführung geplant haben, um die Lösung in ihrer gesamten Organisation zu implementieren.
+Dokumentieren Sie, wie Sie die Durchführung des Projekts geplant haben, um die Lösung in der gesamten Organisation zu implementieren.
 
 ### <a name="adoption-plan"></a>Übernahmeplan
 
-Nachdem Sie die Eignungsbeurteilung für die Annahme durchgeführt haben, muss das Projektteam einen umfassenden Satz an Kommunikationsplänen, einen Schulungsplan und Pläne für die Genehmigungsaktivitäten vor dem Start, Start und nach dem startbereit stellen.
+Nachdem Sie Ihre Bewertung der Einführungsbereitschaft durchzuführen, muss das Projektteam einen umfassenden Satz von Kommunikationsplänen, einen Schulungsplan und Pläne für die Einführung, die Einführung und die Aktivitäten zur Einführung der Einführung und nach der Einführung erstellen.
 
-Ermitteln Sie Ressourcen zur Unterstützung von Adoptions Aktivitäten wie Flyern, Willkommens-e-Mails und Schulungsmaterial sowie alle Anpassungen, die Sie benötigen, um die Anforderungen Ihrer Organisation zu erfüllen.
+Identifizieren Sie Ressourcen zur Unterstützung von Einführungsaktivitäten wie Flyern, Willkommens-E-Mails und Schulungsmaterialien sowie alle Anpassungen, die Sie benötigen, um die Anforderungen Ihrer Organisation zu erfüllen.
 
-Laden Sie Vorlagen für Adoptions Aktivitäten aus dem [Microsoft Teams-kundenerfolgs-Kit](https://aka.ms/TeamsCustomerSuccess)herunter.
+Laden Sie Vorlagen für Verbreitungsaktivitäten aus dem [Microsoft Teams Customer Success Kit herunter.](https://aka.ms/TeamsCustomerSuccess)
 
 ### <a name="operational-plan"></a>Aufgabenplan
 
-Bei der Durchführung der Zuordnung von operativen Rollen werden Rollen und Zuständigkeiten sowie die Teams, die jeder operativen Rolle zugewiesen sind, festgelegt, die Sie für die Implementierung von Audiokonferenzen unterstützen müssen.
+Durch die Ausübung der Zuordnung betriebsbereiter Rollen werden Rollen und Zuständigkeiten sowie die den einzelnen Betriebsrollen zugewiesenen Teams übernommen, die Sie bei der Implementierung von Audiokonferenzen unterstützen müssen.
 
 Sie müssen diesen Schritt abschließen und den operativen Plan als Teil des Erfolgsplans berücksichtigen, um die operative Bereitschaft der Lösung sicherzustellen.
 
 <table>
 
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Sie Ihren gesamten Erfolgsplan für die Bereitstellung Ihrer Cloud-sprach Auslastungen dokumentieren.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Bestätigen Sie, dass alle Komponenten Ihres Erfolgs Plans dokumentiert wurden.</li><li>Aggregieren einzelner Komponenten Ihres Erfolgs Plans in einem einzigen Zusammenfassungs Dokument (optional)</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Entscheiden Sie, wie Sie Ihren gesamten Erfolgsplan für die Bereitstellung Ihrer Cloud-Voice-Workloads dokumentieren möchten.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Vergewissern Sie sich, dass alle Komponenten Ihres Erfolgsplans dokumentiert wurden.</li><li>Aggregieren Sie einzelne Komponenten Ihres Erfolgsplans in einem einzigen Zusammenfassungsdokument (optional).</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
