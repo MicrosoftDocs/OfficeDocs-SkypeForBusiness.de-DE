@@ -1,5 +1,5 @@
 ---
-title: Festlegen der Telefonnummern, die in Einladungen in Skype for Business Online enthalten sind
+title: Festlegen der In Einladungen enthaltenen Telefonnummern in Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,23 +20,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Hier finden Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer, die an einer Skype for Business Online-Besprechung teilnehmen können. '
-ms.openlocfilehash: 956c2fa23f61f0c0e24cd1c2a0802bd3f1397bb1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Hier erhalten Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer zur Teilnahme an einer Skype for Business Online-Besprechung. '
+ms.openlocfilehash: 84bf0240270bfc9633f9d845130a6049d36c8cad
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113221"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237731"
 ---
-# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Festlegen der Telefonnummern, die in Einladungen in Skype for Business Online enthalten sind
+# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Festlegen der In Einladungen enthaltenen Telefonnummern in Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Informationen zu Telefonnummern für Besprechungs einladen in Microsoft Teams finden Sie unter Festlegen der Telefonnummern, die in [Einladungen in Microsoft Teams enthalten sind.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
+> Informationen zu telefonnummern für Besprechungsanrufe in Microsoft Teams finden Sie unter Festlegen der In Einladungen enthaltenen Telefonnummern [in Microsoft Teams.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
 
-Audiokonferenzen in Microsoft 365 oder Office 365 ermöglichen Benutzern in Ihrer Organisation, Skype for Business-Besprechungen zu erstellen und benutzern dann die Einwahl in diese Besprechungen über ein Telefon zu ermöglichen. In Microsoft 365 und Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenzbrücke oder eine Audiokonferenzbrücke eines Drittanbieters zu verwenden, die von einem genehmigten Audiokonferenzanbieter (ACP) gehostet wird.
+Mit Audiokonferenzen in Microsoft 365 oder Office 365 können Benutzer in Ihrer Organisation Skype for Business-Besprechungen erstellen und benutzern dann die telefonische Einwahl in diese Besprechungen ermöglichen. In Microsoft 365 und Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenzbrücke oder eine Audiokonferenzbrücke eines Drittanbieters zu verwenden, die von einem genehmigten Audiokonferenzanbieter (ACP) gehostet wird.
   
 > [!NOTE]
-> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie sehen möchten, ob in Ihrer Region oder Ihrem Land/Ihrer Region Einwahlnummern verfügbar sind, verwenden Sie **das Skype for Business Admin Center** Voice Phone Numbers , klicken Sie auf Hinzufügen und dann auf Neue  >    >   **Servicenummern**.  Verwenden Sie die Listen für **Land/Region,**  Bundesland/Region und Ort, um Ihre Suche zu filtern.> Wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie in der Liste   **Bundesland/Region** die Option Gebührenfrei aus.
+> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie wissen möchten, ob in Ihrer Region oder Ihrem Land/Ihrer Region Einwahltelefonnummern verfügbar sind, verwenden Sie das **Skype for Business Admin Center**  >  **Voice**  >  **Telefon-Nummern**,  klicken Sie auf Hinzufügen und dann auf Neue Leistungsnummern . Verwenden Sie die Listen für **Land/Region,** **Bundesland/Region** und Ort zum Filtern Ihrer Suche.> Wenn  Sie nach gebührenfreien Servicenummern suchen, wählen Sie gebührenfrei aus der Liste  **Bundesland/Region** aus.
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
@@ -46,38 +48,38 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Festlegen der Standardeinwahltelefonnummer für einen Besprechungsorganisator
+## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Festlegen der Standardeinwahlnummer für einen Besprechungsorganisator
 
-1. Melden Sie sich mit Ihrem Arbeits-, Schul- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
     
 2. Wählen Sie **Admin Center** > **Skype for Business** aus.
     
 3. Wählen Sie **Benutzer** aus.
     
-    ![Zeigt die Auswahl von Benutzern im Skype for Business Admin Center an](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![Auswählen von Benutzern im Skype for Business Admin Center](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. Wählen Sie die Benutzer aus, die Sie bearbeiten möchten:
     
    - Um einen einzelnen Benutzer auszuwählen, wählen Sie den Namen des Benutzers aus.
     
-   - Wenn Sie alle Benutzer auf der Seite auswählen möchten, wählen Sie das Feld neben Anzeigename **oben** in der Liste aus.
+   - Um alle Benutzer auf der Seite auszuwählen, aktivieren Sie das Kontrollkästchen neben Anzeigename am Anfang der Liste. 
     
-   - Um mehrere Benutzer auszuwählen, wählen Sie das Feld neben dem Namen der einzelnen Benutzer aus.
+   - Um mehrere Benutzer auszuwählen, aktivieren Sie das Kontrollkästchen neben den namen der einzelnen Benutzer.
     
 5. Wählen Sie im rechten Bereich **Bearbeiten** aus.
     
     ![Choose the edit icon.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
   
-6. Wählen **Sie Audiokonferenz aus.**
+6. Wählen **Sie Audio conferencing (Audiokonferenz) aus.**
     
 7. Wählen Sie **auf der** Seite Eigenschaften in der Liste **Anbietername** den Anbieter für den Benutzer aus. Füllen Sie je nach Anbieter die folgenden Felder aus.
     
-   - **Microsoft ist der Anbieter:** Verwenden Sie die Listen **Standardmautnummer** und **gebührenfreie** Standardnummer, um die Standardnummern für den Benutzer auszuwählen.
+   - **Microsoft ist der Anbieter:** Wählen Sie in den Listen Gebührenpflichtige Standardnummer und  **Gebührenfreie** Standardnummer die Standardnummern für den Benutzer aus.
     
      > [!NOTE]
-     > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Informationen zum Abrufen einer gebührenfreien Nummer finden Sie unter [Abrufen von Servicetelefonnummern für Skype for Business.](/microsoftteams/getting-service-phone-numbers) 
+     > Ihrer Konferenzbrücke muss mindestens eine gebührenfreie Nummer zugewiesen werden, bevor diese als gebührenfreie Standardnummer für einen Benutzer konfiguriert werden kann. Informationen zum Erhalten einer gebührenfreien Nummer finden Sie unter [Abrufen von Servicetelefonnummern für Skype for Business.](/microsoftteams/getting-service-phone-numbers) 
   
-   - **Ein Drittanbieter ist der** Anbieter: Verwenden  Sie die Felder **"Gebührenfreie** Nummer" und "Gebührenfreie Nummer", um die Nummern für den Benutzer ein eingeben.
+   - **Ein Drittanbieter ist der** Anbieter:  Geben Sie in den Feldern "Gebührenpflichtige Nummer" und **"Gebührenfreie** Nummer" die Nummern für den Benutzer ein.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Zurücksetzen von Audiokonferenz-Telefonnummern
@@ -86,12 +88,12 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
     
 2. Wählen Sie oben auf der Seite die Option **Benutzer** aus.
     
-3. Wählen Sie die Benutzer aus, die Sie zurücksetzen möchten, und klicken Sie dann im Aktionsbereich auf **Löschen.**
+3. Wählen Sie die Benutzer aus, die Sie zurücksetzen möchten, und klicken Sie dann im Aktionsbereich auf **Löschen**.
     
 Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßig eine E-Mail an den Benutzer gesendet. Wie Sie diese Einstellung ändern können, erfahren Sie unter [Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
-> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen besprechungsserien- und zukünftige Skype for Business-Besprechungen aktualisiert und an Teilnehmer gesendet werden. 
+> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und Skype for Business Besprechungen aktualisiert und an die Teilnehmer gesendet werden. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
@@ -131,16 +133,16 @@ Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßi
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell?
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>Möchten Sie mehr über die Windows PowerShell?
 - In Bezug auf Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen und was nicht. Mit Windows PowerShell können Sie Office 365 und Skype for Business Online zentral verwalten. Dies kann Ihre tägliche Arbeit vereinfachen, wenn Sie mehrere Aufgaben ausführen müssen. Informationen zu den ersten Schritten mit Windows PowerShell finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Warum Sie Microsoft 365 oder Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Centers viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

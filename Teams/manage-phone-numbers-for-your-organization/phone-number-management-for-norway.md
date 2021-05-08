@@ -1,5 +1,5 @@
 ---
-title: Telefon für Norwegen
+title: Telefon der Nummerverwaltung für Norwegen
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -27,7 +27,7 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 05/03/2021
 ms.locfileid: "52130017"
 ---
-# <a name="phone-number-management-for-norway"></a>Telefon für Norwegen
+# <a name="phone-number-management-for-norway"></a>Telefon der Nummerverwaltung für Norwegen
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
@@ -37,11 +37,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Holen Sie sich neue Benutzer- oder Diensttelefonnummern, die nicht im admin center Microsoft Teams aufgeführt sind.<br/> |In Norwegen können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine neue Telefonnummernanfrage übermitteln, indem Sie das Formular herunterladen und [an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Neue Telefonnummernanforderung für Norwegen (v.1.0) (en-nw)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular "Ihren Kunden kennen" herunterladen, es vollständig ausfüllen und an uns senden. <br/><br/>Neubestellungen können zwei bis drei Wochen dauern, um diesen Markt zu füllen.  |
-|Übertragen Sie Telefonnummern an uns.<br/> | Laden Sie dieses Formular herunter. <br/>[Letter of Authorization (LOA) for Norway (all numbers) (v.1.0) (en-nw)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Das Übertragen von Zahlen kann in diesem Markt vier bis fünf Wochen dauern.<br/><br/> Diese Zahlen können derzeit nicht für Konferenzen verwendet werden.  |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
+|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden.<br/> |In Norwegen können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen [und an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Neue Telefonnummernanforderung für Norwegen (v.1.0) (en-nw)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden. <br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
+|Übertragen Sie uns Ihre Telefonnummern.<br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Norwegen (alle Nummern) (v.1.0) (en-nw)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern.<br/><br/> Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Erstellen von Verzeichnisdienstupdates für Anrufwarteschlange oder automatische Telefonnummern|Wenn Sie Anrufwarteschlange oder automatische Telefonnummern hinzufügen oder ändern möchten, wenden Sie sich [an den PSTN-Servicedesk.](contact-pstn-service-desk.md) |
+|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -1,5 +1,5 @@
 ---
-title: Telefon für Ungarn
+title: Telefon der Nummerverwaltung für Ungarn
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Ungarn für Microsoft Teams.
+description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Ungarn für Microsoft Teams.
 ms.openlocfilehash: b052da954fe59d6c802cbe485d3c722492299a23
 ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
@@ -27,21 +27,21 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 05/03/2021
 ms.locfileid: "52130427"
 ---
-# <a name="phone-number-management-for-hungary"></a>Telefon für Ungarn
+# <a name="phone-number-management-for-hungary"></a>Telefon der Nummerverwaltung für Ungarn
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Ungarn für Microsoft Teams.
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Ungarn für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Holen Sie sich neue Benutzer- oder Diensttelefonnummern, die nicht im admin center Microsoft Teams aufgeführt sind.<br/> |In Ungarn können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine neue Telefonnummernanfrage übermitteln, indem Sie das Formular herunterladen und [an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Neue Telefonnummernanforderung für Ungarn (v.1.0) (hu-hu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true).<br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular "Ihren Kunden kennen" herunterladen, es vollständig ausfüllen und an uns senden.<br/><br>Neubestellungen können zwei bis drei Wochen dauern, um diesen Markt zu füllen.  |
-|Übertragen Sie Telefonnummern an uns.<br/> | Laden Sie dieses Formular herunter. <br/>[Letter of Authorization (LOA) for Hungary (all numbers) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Das Übertragen von Zahlen kann in diesem Markt zwei bis drei Wochen dauern. <br/><br/>Diese Zahlen können derzeit nicht für Konferenzen verwendet werden.   |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
+|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden.<br/> |In Ungarn können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen [und an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Anforderung einer neuen Telefonnummer für Ungarn (v.1.0) (hu-hu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true).<br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
+|Übertragen Sie uns Ihre Telefonnummern.<br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Ungarn (alle Nummern) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Die Übertragung von Nummern kann in diesem Markt zwei bis drei Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.   |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Erstellen von Verzeichnisdienstupdates für Anrufwarteschlange oder automatische Telefonnummern|Wenn Sie Anrufwarteschlange oder automatische Telefonnummern hinzufügen oder ändern möchten, wenden Sie sich [an den PSTN-Servicedesk.](contact-pstn-service-desk.md) |
+|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

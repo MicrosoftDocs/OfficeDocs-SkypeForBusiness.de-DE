@@ -23,7 +23,7 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie das Telefonsystem für Anrufwarteschlangen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, musikhalten, Anrufumleitung und andere Funktionen bietet.
+description: Erfahren Sie, wie Telefonsystem für Anrufwarteschleifen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, einen Warteschleifentext, die Anrufumleitung und weitere Funktionen enthält.
 ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
 ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
@@ -45,13 +45,13 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
 - Optionen für das Vorgehen bei überzähligen Anrufen und Erreichen des Zeitlimits.
 
-Achten Sie darauf, dass Sie automatische Telefonkonferenzen und [](plan-auto-attendant-call-queue.md#getting-started) Anrufwarteschlangen für Planen für [Teams](plan-auto-attendant-call-queue.md) gelesen haben, und folgen Sie den Schritten für die ersten Schritte, bevor Sie die in diesem Artikel beschriebenen Verfahren ausführen.
+Vergewissern Sie sich, dass Sie [den](plan-auto-attendant-call-queue.md) Artikel Planen Teams automatische [](plan-auto-attendant-call-queue.md#getting-started) Telefonkonferenzen und Anrufwarteschleifen gelesen und die Ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen.
 
 Gehen Sie zum Einrichten einer Anrufwarteschleife zum Microsoft Teams Admin Center, erweitern Sie **VoIP**, klicken Sie auf **Anrufwarteschleifen** und dann auf **Hinzufügen**.
 
-## <a name="video-demonstration"></a>Videodemonstration
+## <a name="video-demonstration"></a>Videodemo
 
-In diesem Video wird ein grundlegendes Beispiel zum Erstellen einer Anrufwarteschlange in Teams gezeigt.
+Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer Anrufwarteschleife in Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
@@ -77,17 +77,17 @@ In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiederge
 
 ## <a name="call-agents"></a>Telefonberater
 
-Überprüfen Sie [die Voraussetzungen für das Hinzufügen von Agents zu einer Anrufwarteschlange.](plan-auto-attendant-call-queue.md#prerequisites)
+Überprüfen Sie [die Voraussetzungen für das Hinzufügen von Agents zu einer Anrufwarteschleife.](plan-auto-attendant-call-queue.md#prerequisites)
 
 ![Screenshot der Einstellungen für Benutzer und Gruppen für Anrufwarteschleifen](media/call-queue-users-groups.png)
 
-##### <a name="teams-channel"></a>Teams-Kanal
+##### <a name="teams-channel"></a>Teams Kanal
 
-Sie können über einen Teams-Kanal bis zu 200 Agents hinzufügen.
+Über einen Kanal können Sie bis zu 200 Agents Teams hinzufügen.
 
-Wenn Sie einen [Teams-Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)zum Verwalten der Warteschlange verwenden möchten, wählen Sie die Option Team **auswählen** aus, und klicken Sie **auf Kanal hinzufügen.** Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen.** Wählen Sie den Kanal aus, den Sie verwenden möchten, und klicken Sie auf **Übernehmen.**
+Wenn Sie zum Verwalten der Warteschlange Teams [Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)verwenden möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie auf Kanal **hinzufügen**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten, und klicken Sie auf **Übernehmen**.
 
-Die folgenden Clients werden bei verwendung eines Teams-Kanals für Anrufwarteschlangen unterstützt: 
+Die folgenden Clients werden unterstützt, wenn Sie einen Teams für Anrufwarteschleifen verwenden: 
 
   - Microsoft Teams Windows-Client
   - Microsoft Teams Mac-Client
@@ -96,7 +96,7 @@ Die folgenden Clients werden bei verwendung eines Teams-Kanals für Anrufwartesc
 
 Sie können bis zu 20 Telefonberater einzeln und bis zu 200 über Gruppen hinzufügen.
 
-Wenn Sie der Warteschlange einzelne Benutzer oder Gruppen hinzufügen möchten, wählen Sie die Option Benutzer und **Gruppen** auswählen aus. 
+Wenn Sie der Warteschlange einzelne Benutzer oder Gruppen hinzufügen möchten, wählen Sie die Option **Benutzer und Gruppen auswählen** aus. 
 
 Um einen Benutzer zur Warteschleife hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**, Suchen Sie nach dem Benutzer, klicken Sie auf **Hinzufügen** und dann erneut auf **Hinzufügen**.
 
@@ -117,7 +117,7 @@ Im **Konferenzmodus** wird die Zeit, bis ein Anrufer mit einem Telefonberater ve
 Die Microsoft Teams-Konten von Telefonberatern müssen auf den Modus "Nur Microsoft Teams" festgelegt werden. Telefonberater, die diese Anforderungen nicht erfüllen, werden nicht in die Anrufweiterleitungsliste aufgenommen. Es wird empfohlen, den Konferenzmodus für Ihre Anrufwarteschleifen zu aktivieren, wenn alle Ihre Telefonberater kompatible Clients verwenden.
 
 > [!NOTE]
-> Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe über ein Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange geroutet werden.
+> Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange geroutet werden.
 
 Die **Routingmethode** bestimmt die Reihenfolge, in der Anrufe aus der Warteschleife an die Telefonberater weitergeleitet werden. Wählen Sie eine der folgenden Optionen aus:
 
@@ -191,7 +191,7 @@ Die folgenden Clients werden für Telefonberater in einer Anrufwarteschleife unt
   - Mac Skype for Business-Client (Version 6.16.0 und höher)
   - Microsoft Teams Windows-Client (32- und 64-Bit-Versionen)
   - Microsoft Teams Mac-Client
-  - Microsoft Teams auf [virtualisierter Desktopinfrastruktur](/microsoftteams/teams-for-vdi) (virtueller Windows-Desktop, Citrix und VMware)
+  - Microsoft Teams [Virtualized Desktop Infrastructure](/microsoftteams/teams-for-vdi) (Windows Virtual Desktop, Citrix und VMware)
   - Microsoft Teams iPhone-App
   - Microsoft Teams Android-App
 

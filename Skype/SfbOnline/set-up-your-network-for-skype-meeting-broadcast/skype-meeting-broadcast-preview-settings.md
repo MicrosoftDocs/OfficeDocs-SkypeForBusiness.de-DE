@@ -1,5 +1,5 @@
 ---
-title: Skype Meeting Broadcast Preview-Einstellungen
+title: Skype-Besprechung Einstellungen für die Übertragungsvorschau
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,19 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
-description: Das Skype for Business-Kundenvorschauprogramm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. Sie ermöglicht Es Ihrer Organisation, einen Einblick in die kommenden Produkte zu erhalten, die neuen Features in Ihrer eigenen Umgebung zu testen und Feedback zu geben, bevor wir Produktbuilds für die allgemein zugängliche Öffentlichkeit veröffentlichen. Weitere Informationen finden Sie unter Skype for Business Preview.
-ms.openlocfilehash: 37c597e2c668bcfb77c928d3c379f9109caf1c49
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Das Skype for Business-Programm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. So kann Ihre Organisation einen Einblick in kommende Produkte erhalten, die neuen Features in Ihrer eigenen Umgebung testen und Feedback geben, bevor die Produktbuilds allgemein veröffentlicht werden. Weitere Informationen finden Sie unter Skype for Business Vorschau.
+ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106501"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237501"
 ---
-# <a name="skype-meeting-broadcast-preview-settings"></a>Skype Meeting Broadcast Preview-Einstellungen
+# <a name="skype-meeting-broadcast-preview-settings"></a>Skype-Besprechung Einstellungen für die Übertragungsvorschau
 
-Das Skype for Business-Kundenvorschauprogramm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. Sie ermöglicht Es Ihrer Organisation, einen Einblick in die kommenden Produkte zu erhalten, die neuen Features in Ihrer eigenen Umgebung zu testen und Feedback zu geben, bevor wir Produktbuilds für die allgemein zugängliche Öffentlichkeit veröffentlichen. Weitere Informationen finden Sie unter [Skype for Business Preview](https://www.skypepreview.com/).
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Das Skype for Business-Programm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. So kann Ihre Organisation einen Einblick in kommende Produkte erhalten, die neuen Features in Ihrer eigenen Umgebung testen und Feedback geben, bevor die Produktbuilds allgemein veröffentlicht werden. Weitere Informationen finden Sie unter Skype for Business [Vorschau](https://www.skypepreview.com/).
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

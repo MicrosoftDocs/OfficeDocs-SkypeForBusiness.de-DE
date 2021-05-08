@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7262cc77310a9ea198a51af720e6e5117a72111
-ms.sourcegitcommit: 4e1f5d99c1d0612dc5b50f850280983867ff53d8
+ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
+ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51874471"
+ms.lasthandoff: 05/05/2021
+ms.locfileid: "52221808"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -377,9 +377,9 @@ Dieses Feature ist in der Teams-Version 1.3.00.13565 und neueren Versionen verf�
 ### <a name="client-deployment-installation-and-setup"></a>Clientbereitstellung, -installation und -setup
 
 - Bei einer computerbasierten Installation wird Teams auf VDI nicht automatisch aktualisiert, wie es bei Nicht-VDI-Teams-Clients der Fall ist. Sie müssen das VM-Image aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen zum Aktualisieren der Teams-App die aktuelle Version deinstallieren, um auf eine neuere Version aktualisieren zu können.
-- Wenn der Benutzer während der Ausführung von Teams die Verbindung mit dem virtuellen Computer trennt, können In -Teams-Updates dazu führen, dass sich der Benutzer bei einer erneuten Verbindung in einem nicht optimierten Zustand für AV befindet. Es wird empfohlen, dass Benutzer Teams beenden, bevor sie die Verbindung zum virtuellen Computer von Citrix trennen, um dieses Szenario zu vermeiden.
+- Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung zum virtuellen Citrix-Computer trennen.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
-- Windows Virtual Desktop und VMware unterstützen derzeit keine MacOS- und Linux-basierten Clients.
+- Windows Virtual Desktop unterstützt derzeit keine macOS- und Linux-basierten Clients.
 
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
@@ -392,7 +392,6 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 - Übertragungs- und Liveveranstaltungs-Produzent- und Referentenrollen
 - Standortbasiertes Routing (LBR)
 - Anruf parken
-- Anrufwarteschleife
 - Audio-/Computersound des freigegebenen Systems
 - Medienumgehung für direkte Weiterleitung
 - Zoomsteuerelement 

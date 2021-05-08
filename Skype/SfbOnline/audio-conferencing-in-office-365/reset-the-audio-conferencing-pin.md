@@ -1,5 +1,5 @@
 ---
-title: Zurücksetzen der PIN für Audiokonferenzen in Skype for Business Online
+title: Zurücksetzen der Audiokonferenz-PIN in Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,28 +20,30 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Erfahren Sie, was Sie über PINs wissen sollten und wie Sie sie in Skype for Business Online zurücksetzen können. '
-ms.openlocfilehash: 4b042775a5a0525099c0116d7d55d0092f560cdf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Erfahren Sie, was Sie über PINs wissen sollten und wie Sie diese in Ihrer Skype for Business zurücksetzen. '
+ms.openlocfilehash: 95c2d19a7d867d97ab977b722648de1373a4739b
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114201"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237751"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Zurücksetzen der PIN für Audiokonferenzen in Skype for Business Online
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Zurücksetzen der Audiokonferenz-PIN in Skype for Business Online
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Informationen zum Zurücksetzen von PINs für Audiokonferenzen in Microsoft Teams finden Sie unter Zurücksetzen der PIN für [Audiokonferenzen in Microsoft Teams.](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
+> Informationen zum Zurücksetzen von PINs für Audiokonferenzen in Microsoft Teams finden Sie unter Zurücksetzen der [Audiokonferenz-PIN in Microsoft Teams.](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
 
-Eine PIN ist ein Code aus Zahlen, der für jeden Skype for Business-Benutzer erstellt wird, der für Audiokonferenzen aktiviert ist. Pins für Audiokonferenzen werden von Besprechungsorganisatoren verwendet, um zu erkennen, dass sie der Besprechungsorganisator sind und es ihnen ermöglichen, eine Besprechung über das Telefon zu starten. Wenn sie die Skype for Business-App zum Starten der Besprechung verwenden, ist keine PIN erforderlich. Wenn Benutzer ihre PIN vergessen und sie in der E-Mail, die ihnen gesendet wurde, als sie für Audiokonferenzen aktiviert wurden, nicht finden können, kann ein Administrator seine PIN zurücksetzen oder seine eigene PIN zurücksetzen.
+Eine PIN ist ein aus Zahlen besteht Code, der für jeden benutzer Skype for Business, der für Audiokonferenzen aktiviert ist, erstellt wird. Audiokonferenzen PINs werden von Besprechungsorganisatoren verwendet, um zu identifizieren, dass sie der Besprechungsorganisator sind, und es ihnen zu ermöglichen, eine Besprechung per Telefon zu starten. Wenn er die Skype for Business-App zum Starten der Besprechung verwendet, ist keine PIN erforderlich. Wenn Benutzer ihre PIN vergessen und diese in der E-Mail, die ihnen bei der Aktivierung für Audiokonferenzen gesendet wurde, nicht finden können, kann ein Administrator ihre PIN oder ihre eigene PIN zurücksetzen.
   
-Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer über die Skype for Business-App beitritt oder der Organisator über das Telefon mit seiner PIN beitritt. Wenn die Besprechung zum Starten eine PIN erfordert, werden alle Benutzer, die sich per Telefon einwählen standardmäßig im Wartebereich platziert und hören Warteschleifenmusik, bis die Besprechung beginnt. Wenn der Organisator einer Besprechung keine PIN zum Starten der Besprechung per Telefon benötigt, werden Anrufer nicht nach einer PIN gefragt, wenn sie sich für die Besprechung einwählen.
+Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer mit der Skype for Business-App teilnimmt oder der Organisator per Telefon mit seiner PIN teilnimmt. Wenn die Besprechung zum Starten eine PIN erfordert, werden alle Benutzer, die sich per Telefon einwählen standardmäßig im Wartebereich platziert und hören Warteschleifenmusik, bis die Besprechung beginnt. Wenn der Organisator einer Besprechung keine PIN zum Starten der Besprechung per Telefon benötigt, werden Anrufer nicht nach einer PIN gefragt, wenn sie sich für die Besprechung einwählen.
   
 ## <a name="reset-a-users-pin"></a>Zurücksetzen der PIN eines Benutzers
 
-1. Melden Sie sich mit Ihrem Arbeits-, Schul- oder Schulkonto an.
+1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Wechseln Sie zum Admin Center > **Skype for Business,** und klicken Sie in der linken Navigation auf **Audiokonferenzen.**
+2. Wechseln Sie zum Admin Center > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing (Audiokonferenz).**
     
 3. Klicken Sie **auf Benutzer**, und wählen Sie den Benutzer aus, für den Sie die PIN zurücksetzen möchten.
     
@@ -50,31 +52,31 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer übe
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>Zurücksetzen der eigenen PIN durch einen Benutzer
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Benutzer die eigene PIN zurücksetzen
 
-Ein Benutzer kann eine PIN  mithilfe der Option PIN zurücksetzen auf der Seite **Einwahlkonferenzen** zurücksetzen. Auf diese Seite kann auf eine von drei Arten zugegriffen werden:
+Benutzer können eine PIN mithilfe der Option **PIN** zurücksetzen auf der Seite für **Einwahlkonferenzen** zurücksetzen. Auf diese Seite kann auf eine von drei Arten zugegriffen werden:
 
 * Wechseln Sie in einem Browser zu [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling) .
-* Klicken Sie in Skype for Business auf **den** Pfeil Menü anzeigen neben **Optionen,** und klicken Sie dann auf **Einwahlkonferenzeinstellungen**  >  **extras.**
-* Klicken Sie in Skype for  Business auf **Optionen,** klicken Sie im linken Menü auf Anruf weiterleiten, und klicken Sie dann im Abschnitt Weitere **Anrufeinstellungen** auf Einstellungen **online bearbeiten.** 
+* Klicken Skype for Business auf den  Pfeil Menü anzeigen neben Optionen **,** und klicken Sie dann auf **Extras** Einwahlkonferenz-Einstellungen.  >  
+* Klicken Skype for Business im linken Menü  auf Optionen , klicken Sie im linken Menü auf Anruf weiterleiten, und klicken Sie dann im Abschnitt Weitere Anruf **Einstellungen** auf Einstellungen **online bearbeiten**. 
 
 ## <a name="what-else-should-you-know-about-pins"></a>Was sollten Sie sonst über PINs wissen?
 
 - Aus Sicherheitsgründen wird die PIN einem Administrator nur ein Mal gezeigt, wenn die PIN zurückgesetzt wird. Nachdem die PIN von einem Administrator zurückgesetzt wurde, wird die PIN im **Skype for Business Admin Center** als *********** und in den Ergebnissen aufgeführt, wenn sie Get-CsCsOnlineDialInConfencingUser in Windows PowerShell.
     
-- Das automatische Senden von E-Mails an Benutzer ist standardmäßig aktiviert, und Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert sind oder wenn die PIN zurückgesetzt wird. Wenn Sie jedoch das automatische Senden von E-Mails deaktiviert haben, wird keine E-Mail zum Zurücksetzen der PIN an einen Benutzer gesendet, und Sie müssen die PIN-Informationen manuell an den Benutzer senden.
+- Das automatische Senden von E-Mails an Benutzer ist standardmäßig aktiviert, und Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert oder die PIN zurückgesetzt wird. Wenn Sie das automatische Senden von E-Mails deaktiviert haben, wird keine E-Mail zum Zurücksetzen der PIN an einen Benutzer gesendet, und Sie müssen die PIN-Informationen manuell an den Benutzer senden.
     
 - Beim Start einer Besprechung nehmen alle Benutzer im Wartebereich automatisch an dieser teil. Wenn beispielsweise 2 Teilnehmer versuchen, vor dem Start der Besprechung an dieser teilzunehmen, werden sie im Wartebereich platziert und hören Warteschleifenmusik. Sobald der Organisator der Besprechung mit seiner PIN per Telefon teilnimmt, beginnt die Besprechung und alle Teilnehmer im Wartebereich nehmen an der Besprechung teil.
     
-- Die Standardeinstellung besteht im Nichtanrufen einer Besprechung durch anonyme Anrufer.
+- Die Standardeinstellung ist, dass das Starten einer Besprechung durch anonyme Anrufer nicht zulässig ist.
     
-- Wenn Sie einen Benutzer für Audiokonferenzen aktivieren, werden standardmäßig E-Mails gesendet, die Konferenzinformationen und deren PIN enthalten. Der Benutzer muss über ein Microsoft 365- oder Office 365-Postfach verfügen, da beim Zurücksetzen einer PIN eine neue PIN per E-Mail an die primäre SMTP-Adresse (Alias) gesendet wird, die für den Benutzer festgelegt ist.
+- Wenn Sie einen Benutzer für Audiokonferenzen aktivieren, wird ihm standardmäßig eine E-Mail gesendet, die Konferenzinformationen und die eigene PIN enthält. Der Benutzer muss über ein Microsoft 365- oder Office 365-Postfach verfügen, da beim Zurücksetzen einer PIN eine neue PIN per E-Mail an die für den Benutzer festgelegte primäre SMTP-Adresse (Alias) gesendet wird.
     
-- Wenn Sie Audiokonferenzen einrichten, legen Sie die Ziffern fest, die für die PINs in Ihrer Organisation erforderlich sind. PINs können 4 bis 12 Ziffern enthalten, standardmäßig werden 5 Ziffern verwendet. Wenn Sie die Einstellung für die PIN-Länge ändern, wird die Einstellung nur auf neu generierte PINs angewendet und nicht auf die PIN-Einstellung für vorhandene Benutzer angewendet, die für Audiokonferenzen aktiviert sind. Weitere Informationen finden Sie unter Festlegen [der Länge der PIN für Audiokonferenzbesprechungen.](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)
+- Wenn Sie Audiokonferenzen einrichten, legen Sie die Ziffern fest, die für die PINs in Ihrer Organisation erforderlich sind. PINs können 4 bis 12 Ziffern enthalten, standardmäßig werden 5 Ziffern verwendet. Wenn Sie die PIN-Längeneinstellung ändern, wird die Einstellung nur auf neu generierte PINs angewendet und nicht auf PIN-Einstellungen für vorhandene Benutzer, die für Audiokonferenzen aktiviert sind. Weitere [Informationen finden Sie unter Festlegen der Länge der PIN für Audiokonferenzbesprechungen.](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)
     
-- Die E-Mail wird standardmäßig auf die primäre MICROSOFT 365- oder Office 365-SMTP-Adresse des Benutzers festgelegt. Sie können eine E-Mail an eine Nicht-Microsoft 365- oder Nicht-Office 365-Adresse senden, z. B. eine Hotmail oder MSN-E-Mail-Adresse. Sie können die Standard-E-Mail-Adresse überschreiben, indem Sie Windows PowerShell. Dies ist nützlich, wenn die Benutzer kein Exchange-Postfach in Microsoft 365 oder Office 365 haben.
+- Die E-Mail wird standardmäßig auf die adresse Microsoft 365 oder Office 365 SMTP-Adresse des Benutzers festgelegt. Sie können eine E-Mail an eine Nicht-Microsoft 365-Adresse Office 365, z. B. eine Hotmail MSN-E-Mail-Adresse, senden. Sie können die standardmäßige E-Mail-Adresse außer Kraft setzen, indem Sie Windows PowerShell. Dies ist nützlich, wenn die Benutzer nicht über ein Postfach Exchange postfach in Microsoft 365 oder Office 365.
     
-- Um die Standardbenutzeradresse zu überschreiben, an die die E-Mail gesendet wird, kann der Mandantenadministrator das folgende Cmdlet verwenden: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". Der Parameter SendEmail ist erforderlich, um die E-Mail-Adresse des Benutzers außer Kraft zu setzen.
+- Zum Überschreiben der Standardbenutzeradresse, an die die E-Mail gesendet wird, kann der Mandantenadministrator das folgende Cmdlet verwenden: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". Der Parameter SendEmail ist erforderlich, um die E-Mail-Adresse des Benutzers zu überschreiben.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
@@ -86,13 +88,13 @@ Ein Benutzer kann eine PIN  mithilfe der Option PIN zurücksetzen auf der Seite 
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Warum Sie Microsoft 365 oder Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Centers viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

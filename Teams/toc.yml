@@ -675,7 +675,7 @@ items:
                 href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
               - name: Deaktivieren von gebührenfreien Telefonnummern für bestimmte Benutzer
                 href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
+              - name: Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenz und Benutzer-PSTN-Anruf
                 href: outbound-calling-restriction-policies.md
               - name: 'Anzeigen und Zurücksetzen einer Konferenzkennung, die einem Benutzer zugewiesen ist'
                 href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
@@ -1045,20 +1045,40 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md
               - name: Telefonnummernverwaltung für Kanada
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md
+              - name: Telefonnummernverwaltung für die Tschechische Republik
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-czech-republic.md
               - name: Telefonnummernverwaltung für Dänemark
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md
+              - name: Telefonnummernverwaltung für die Finnland
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-finland.md
               - name: Telefonnummernverwaltung für Frankreich
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-france.md
               - name: Telefonnummernverwaltung für Deutschland
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md
+              - name: Telefonnummernverwaltung für Ungarn
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-hungary.md
               - name: Telefonnummernverwaltung für Irland
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md
               - name: Telefonnummernverwaltung für Italien
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md
               - name: Telefonnummernverwaltung für Japan
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md
+              - name: Telefonnummernverwaltung für Luxemburg
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-luxembourg.md
+              - name: Telefonnummernverwaltung für Neuseeland
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-new-zealand.md
+              - name: Telefonnummernverwaltung für Norwegen
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-norway.md
+              - name: Telefonnummernverwaltung für Polen
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-poland.md
               - name: Telefonnummernverwaltung für Portugal
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md
+              - name: Telefonnummernverwaltung für Rumänien
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-romania.md
+              - name: Telefonnummernverwaltung für Singapur
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-singapore.md
+              - name: Telefonnummernverwaltung für Slowakei
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: Telefonnummernverwaltung für Spanien
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: Telefonnummernverwaltung für die Niederlande
@@ -1231,8 +1251,24 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Vorbereiten der Benutzer
             href: business-voice/prepare-users.md
-      - name: Ausführen des Assistenten für erste Schritte.
-        href: business-voice/use-getting-started-wizard.md
+      - name: Business Voice einrichten
+        items:
+          - name: Übersicht
+            href: business-voice/set-up-overview.md
+          - name: 'Schritt 1: Notfallstandorte einrichten'
+            href: business-voice/set-up-emergency-locations.md
+          - name: 'Schritt 2: Telefonnummern einrichten'
+            href: business-voice/set-up-phone-numbers.md
+          - name: 'Schritt 3: Lizenzen zuweisen'
+            href: business-voice/set-up-licenses.md
+          - name: 'Schritt 4: Ein Ressourcenkonto einrichten'
+            href: business-voice/set-up-resource-account.md
+          - name: 'Schritt 5: Telefonnummern an Benutzer zuweisen'
+            href: business-voice/set-up-assign-numbers.md
+          - name: 'Schritt 6: Eine automatische Telefonzentrale einrichten'
+            href: business-voice/set-up-auto-attendant.md
+          - name: Ressourcen nach der Einrichtung
+            href: business-voice/set-up-finish.md
       - name: Anpassen des Setups
         items:
           - name: Anpassungsoptionen
@@ -1383,10 +1419,12 @@ items:
             href: batch-group-policy-assignment-edu.md
           - name: PowerShell-Skript zum Erstellen von Sicherheitsgruppen für Lehrkräfte und Kursteilnehmer
             href: scripts/powershell-script-security-groups-edu.md
-          - name: Anleitungen zu geringer Bandbreite für Administratoren in Education
+          - name: Anleitungen zu geringer Bandbreite für Administratoren in Bildungseinrichtungen
             href: edu-remote-low-bandwidth.md
-          - name: Richtlinienassistent für "Teams für Education"
+          - name: Richtlinienassistent für Teams für Education
             href: easy-policy-setup-edu.md
+          - name: Karrierecoach-App in Teams für Education
+            href: career-coach.md
           - name: Chats in Microsoft Teams überwachen
             href: supervise-chats-edu.md
           - name: Education Insights
