@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: Suchen Sie die Sprache für Einwahlkonferenzen für jedes Land oder jede Region und die zugewiesene Kultur-ID (en-US, da-DK, de-DE usw.)
+description: Suchen Sie die Sprache für Einwahlkonferenzen für jedes Land bzw. jede Region und die zugewiesene Kultur-ID (en-US, da-DK, de-DE usw.)
 ms.openlocfilehash: 9486996a2d951d8ba5ad4790fd2dc792f69f1b1d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,10 +31,10 @@ ms.locfileid: "51098511"
 ---
 # <a name="audio-conferencing-supported-languages"></a>In Audiokonferenzen unterstützte Sprachen
 
-Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 einrichten und konfigurieren, können Sie die primären und sekundären (bis zu 4) Sprachen auswählen, die verwendet werden, wenn Anrufer sich in eine Skype for Business- oder Microsoft Teams-Besprechung einwählen. Hier ist die Liste der unterstützten Sprachen für Audiokonferenzen: 
+Beim Einrichten und Konfigurieren von Audiokonferenzen in Microsoft 365 oder Office 365 können Sie die primären und sekundären (bis zu 4) Sprachen auswählen, die verwendet werden, wenn sich Anrufer in eine Skype for Business- oder Microsoft Teams-Besprechung einwählen. Hier ist die Liste der unterstützten Sprachen für Audiokonferenzen: 
   
 > [!IMPORTANT]
-> Primäre und sekundäre Sprachen können nur unter dedizierten Telefonnummern für Audiokonferenzen geändert werden. 
+> Primäre und sekundäre Sprachen können nur für dedizierte Audiokonferenz-Telefonnummern geändert werden. 
   
 ## <a name="currently-supported-languages"></a>Derzeit unterstützte Sprachen
 
@@ -85,21 +85,21 @@ Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 einrichten und konfig
 |Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |
 |Ukrainisch  <br/> |Ukraine  <br/> |uk-UA  <br/> |
    
-Wenn Sie nach Ländern oder Regionen suchen, in denen Sie Audiokonferenzen erwerben können, lesen Sie Verfügbarkeit von Ländern und Regionen für [Audiokonferenzen und Anrufpläne.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+Länder oder Regionen, in denen Sie Audiokonferenzen erwerben können, finden Sie unter Verfügbarkeit von Ländern und Regionen für [Audiokonferenzen und Anrufpläne.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
-Wenn Sie nach bestimmten Ländern oder Regionen suchen, die Telefonnummern für Audiokonferenzen haben, lesen Sie Telefonnummern für [Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) oder Telefonnummern für [Audiokonferenzen in Skype for Business Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+Wenn Sie nach bestimmten Ländern oder Regionen suchen, in denen Telefonnummern für Audiokonferenzen verfügbar sind, lesen Sie Telefon-Nummern für [Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) oder Telefon-Nummern für [Audiokonferenzen in Skype for Business Online.](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Um Zeit zu sparen oder dies zu automatisieren, können Sie die [Cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) oder [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) verwenden.
+- Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie die [Cmdlets Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) oder [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) verwenden.
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzelnen Verwaltungspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzigen Administrationspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell hat gegenüber der Verwendung des Microsoft 365 Admin Centers viele Vorteile in Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Centers viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
   - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

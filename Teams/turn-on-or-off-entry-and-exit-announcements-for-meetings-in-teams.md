@@ -1,5 +1,5 @@
 ---
-title: Aktivieren oder Deaktivieren von Ein- und Ausgangsankündigungen für Besprechungen in Teams
+title: Aktivieren oder Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen in Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Der Administrator kann erfahren, wie Sie Ankündigungen zum Ein- und Beenden in einer Microsoft Teams-Besprechung aktivieren oder deaktivieren.
+description: Administratoren erfahren, wie Sie Ankündigungen bei Zu- und Abgang in einer Besprechung aktivieren Microsoft Teams können.
 ms.openlocfilehash: 6be1c6dc86d8088b5ddb54b2141a10172ba13cc5
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -62,11 +62,11 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
-- [Warum Sie Microsoft 365 oder Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
   

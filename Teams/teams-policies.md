@@ -33,11 +33,11 @@ ms.locfileid: "51094205"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
-Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, wozu Benutzer in Ihrer Organisation in Teams und Kanälen berechtigt sind. Sie können beispielsweise festlegen, ob Benutzer private Kanäle erstellen dürfen.
+Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, wozu Benutzer in Ihrer Organisation in Teams und Kanälen berechtigt sind. So können Sie beispielsweise festlegen, ob Benutzer private Kanäle erstellen dürfen.
 
 Zum Verwalten von Teamrichtlinien wechseln Sie im Microsoft Teams Admin Center zu **Teams** > **Teamrichtlinien**. Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen.
 
-Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis änderungen wirksam werden.
+Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Nachdem Sie die globale Richtlinie bearbeitet oder eine Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden.
 
 ## <a name="create-a-custom-teams-policy"></a>Erstellen einer benutzerdefinierten Teamrichtlinie.
 
@@ -46,7 +46,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 
     ![Screenshot der Richtlinieneinstellungen für Teams](media/teams-policies.png)
-4. Aktivieren oder deaktivieren Sie Private <a name="createchannels"></a> Kanäle **erstellen,** je nachdem, ob Sie benutzern das Erstellen privater Kanäle gestatten möchten.
+4. Aktivieren oder deaktivieren Sie private <a name="createchannels"></a> Kanäle **erstellen**, je nachdem, ob Sie Benutzern das Erstellen privater Kanäle gestatten möchten.
 
 5. Klicken Sie auf **Speichern**.
 

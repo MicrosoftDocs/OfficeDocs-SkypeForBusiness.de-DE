@@ -1,5 +1,5 @@
 ---
-title: Verwalten des Wechsels von Teams zum neuen Teams Admin Center
+title: Verwalten Teams des Übergangs zum neuen Teams Admin Center
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mandantenweite Einstellungen und Benutzereinstellungen für Teams während des Übergangs von Teams im Microsoft 365 Admin Center zum neuen Teams Admin Center verwalten.
+description: Erfahren Sie, wie Sie während des Übergangs von Teams im Microsoft 365 Admin Center zum neuen Teams Admin Center mandantenweite und Benutzereinstellungen für Teams verwalten.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -34,9 +34,9 @@ ms.locfileid: "51100901"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Was ist das neue Microsoft Teams Admin Center?  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Was ist das Microsoft Teams Admin Center?  
 
-Die neue Admin Center-Oberfläche bietet Ihnen eine einheitliche Oberfläche für die Verwaltung von Microsoft Teams und Skype for Business. Wir bieten zusätzliche Funktionen, End-to-End-Einblicke und die Möglichkeit, Teams-Einstellungen auf Benutzerebene zu verwalten.
+Die neue Admin Center-Oberfläche bietet Ihnen eine einheitliche Oberfläche für die Verwaltung von Microsoft Teams und Skype for Business. Wir stellen zusätzliche Funktionen, End-to-End-Einblicke und die Möglichkeit bereit, Teams Einstellungen auf Benutzerebene zu verwalten.
 
 ![Screenshot des Microsoft Teams Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -47,7 +47,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Abschnitt von Microsoft Teams im Microsoft 365 Admin Center  |Einstellungsname (Mandantenebene)  |Microsoft Teams Admin Center-Richtlinie   |Ebene: Mandant oder Benutzer   |
 |---------|---------|---------|---------|
 |Allgemein     |Organigramm in persönlichem Profil anzeigen        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Mandant       |
-|Allgemein     |Verwenden von Skype for Business für Empfänger ohne Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
+|Allgemein     |Verwenden Skype for Business Für Empfänger, die nicht über eine E-Mail Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
 |E-Mail-Integration     |Benutzern das Senden von E-Mails an Kanäle gestatten         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
 |E-Mail-Integration     |Absenderliste zulassen         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Mandant         |
 |Benutzerdefinierter Cloudspeicher     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
@@ -69,7 +69,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Anrufe und Besprechungen     |Videos in Besprechungen zulassen         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
 |Anrufe und Besprechungen     |Bildschirmübertragung in Besprechungen zulassen         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Benutzer          |
 |Anrufe und Besprechungen     |Private Anrufe zulassen         |[TeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Benutzer          |
-|Messaging     |Aktivieren von Giphy, damit Benutzer GIFs zu Unterhaltungen hinzufügen können         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
+|Messaging     |Aktivieren Von Giphy, damit Benutzer GIFs zu Unterhaltungen hinzufügen können         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 |Messaging     |Inhaltsklassifikation         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 |Messaging     |Memes aktivieren, die Benutzer bearbeiten und Unterhaltungen hinzufügen können         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
 |Messaging     |Sticker aktivieren, die Benutzer bearbeiten und Unterhaltungen hinzufügen können         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Benutzer         |
@@ -88,7 +88,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 <sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden.
 
 > [!NOTE]
-> Sie verwenden weiterhin das Gruppendashboard im Microsoft 365 Admin Center für die Konfiguration im Zusammenhang mit Teams und Kanälen. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert.
+> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration im Zusammenhang Teams und Kanälen. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert.
 
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen während der Migration
 
@@ -115,4 +115,4 @@ Die folgende Tabelle zeigt, wo Sie die Features während der Migration verwalten
 
 ## <a name="manage-settings-after-the-migration"></a>Verwalten von Einstellungen nach der Migration
 
-Wenn die Migration dieser Einstellungen abgeschlossen ist, deaktivieren wir sie im Microsoft 365 Admin Center und im Skype for Business Admin Center, und sie können dann im neuen Microsoft Teams Admin Center verwaltet werden.
+Nach Abschluss der Migration dieser Einstellungen werden sie im Microsoft 365 Admin Center und im Skype for Business Admin Center deaktiviert, und sie können dann im neuen Microsoft Teams Admin Center verwaltet werden.

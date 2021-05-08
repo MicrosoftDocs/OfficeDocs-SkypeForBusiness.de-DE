@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Belarus verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams Belarus.
 ms.openlocfilehash: 33b6e7c0048c20a0a512abdf106b301d62d297e1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,15 +36,15 @@ ms.locfileid: "51118374"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Belarus verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams Belarus.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Per-Minute-Zahlung](../audio-conferencing-pay-per-minute.md) <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Minuten](../audio-conferencing-pay-per-minute.md) bezahlt <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Nein  <br/> |
-|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar mit Guthaben für Kommunikationen pro Minute  <br/> |
+|Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar mit Guthaben für Kommunikationen, Zahlung pro Minute  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
 

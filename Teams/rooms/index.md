@@ -14,7 +14,7 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Erfahren Sie, wie Sie Microsoft Teams-Räume einrichten, einschließlich der Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
+description: Erfahren Sie, wie Sie Microsoft Teams-Räume, einschließlich Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
 ms.custom: seo-marvel-may2020
 ms.openlocfilehash: a809b2a0e66b391a001956dabddc2763915be14f
 ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
@@ -27,16 +27,16 @@ ms.locfileid: "51471479"
 
 :::row:::
     :::column span="2":::
-       Transformieren Sie Besprechungsräume von kleinen Umkleidebereichen bis hin zu großen Konferenzräumen mit einer umfassenden, kollaborativen Teamerfahrung, die einfach zu verwenden, zu implementieren und zu verwalten ist.
+       Verwandeln Sie Besprechungsräume – von kleinen, zusammengeknützten Bereichen bis hin zu großen Konferenzräumen – mit umfassenden, Teams Zusammenarbeitserfahrung, die einfach zu verwenden, zu implementieren und zu verwalten ist.
 
        Starten Sie Besprechungen pünktlich mit einem Klick, projizieren Sie sie dann sofort auf das Display im Raum und teilen Sie es mit Remote-Teilnehmer.
 
        Wählen Sie die richtige System- und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
 
-       Wenn Sie eine kurze Einführung in Teams Rooms finden, klicken Sie auf das Video rechts.
+       Wenn Sie eine kurze Einführung in Teams-Räume, klicken Sie auf das Video auf der rechten Seite.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics –Video":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams-Räume Microsoft Mechanics -Video":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Vereinigte Arabische Emirate verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams in den Vereinigten Arabischen Emiraten.
 ms.openlocfilehash: 2786e89aefe16e38a1356002866ea3a74b90c5e5
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51101321"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Vereinigte Arabische Emirate verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams in den Vereinigten Arabischen Emiraten.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

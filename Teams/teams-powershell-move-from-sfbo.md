@@ -1,5 +1,5 @@
 ---
-title: Wechseln von Skype for Business Online Connector zum Teams PowerShell-Modul
+title: Wechseln von Skype for Business OnlineConnector zum Teams PowerShell-Modul
 author: pupara
 ms.author: pupara
 ms.reviewer: pupara
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie, wie Sie von Skype for Business Online Connector zum Teams PowerShell-Modul wechseln, um Teams zu verwalten.
+description: Erfahren Sie, wie Sie von Skype for Business Online Connector zum PowerShell Teams Modul wechseln, um Ihre Teams.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5a2b502edc84c853a0a140a11f8c028b7c78aca6
@@ -19,16 +19,16 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51094126"
 ---
-# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Wechseln von Skype for Business Online Connector zum Teams PowerShell-Modul
+# <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Wechseln von Skype for Business OnlineConnector zum Teams PowerShell-Modul
 
-Um von der Verwendung von Skype for Business Online Connector zum Teams PowerShell-Modul zu wechseln, um Teams zu verwalten, müssen Sie Ihre vorhandenen PowerShell-Skripts aktualisieren. In diesem Artikel wird erläutert, wie Sie dies tun.
+Um von der Verwendung von Skype for Business Online Connector zum Teams PowerShell-Modul zum Verwalten von Teams zu wechseln, müssen Sie Ihre vorhandenen PowerShell-Skripts aktualisieren. In diesem Artikel wird erläutert, wie Sie dazu vor gehen.
 
-1. Installieren Sie das neueste Teams PowerShell-Modul. Die Schritte finden Sie unter [Installieren von Microsoft Teams Powershell](teams-powershell-install.md).
-2. Deinstallieren Sie Skype for Business Online Connector. Wechseln Sie dazu in der Systemsteuerung zu Programme **und Features,** wählen **Sie Skype for Business Online, Windows PowerShell Modul** und dann **Deinstallieren aus.** 
-3. Ändern Sie in Ihren PowerShell-Skripts den Modulnamen, auf den verwiesen wird, von ```Import-Module``` ```SkypeOnlineConnector``` oder in ```LyncOnlineConnector``` ```MicrosoftTeams``` .
+1. Installieren Sie das neueste Teams PowerShell-Modul. Die schritte finden Sie unter [Installieren Microsoft Teams Powershell.](teams-powershell-install.md)
+2. Deinstallieren Skype For Business Online Connector. Wechseln Sie dazu in der Systemsteuerung zu Programme und **Funktionen**, wählen Sie **Skype for Business Online, Windows PowerShell Modul** und dann Deinstallieren **aus.** 
+3. Ändern Sie in Ihren PowerShell-Skripts den Modulnamen, auf den in verwiesen wird, von oder in ```Import-Module``` ```SkypeOnlineConnector``` ```LyncOnlineConnector``` ```MicrosoftTeams``` .
 
-    Ändern Sie z. B. ```Import-Module -Name SkypeOnlineConnector``` in ```Import-Module -Name MicrosoftTeams``` .
-4. Wenn Sie Teams PowerShell Module 2.0 oder höher verwenden, ändern Sie New-csOnlineSession in Connect-MicrosoftTeams. 
+    Ändern Sie z. ```Import-Module -Name SkypeOnlineConnector``` B. in ```Import-Module -Name MicrosoftTeams``` .
+4. Wenn Sie Teams PowerShell Module 2.0 oder höher verwenden, ändern Sie New-csOnlineSession in Verbinden-MicrosoftTeams. 
 
 ```powershell
   # When using Teams PowerShell Module 1.1.6
@@ -45,12 +45,12 @@ Um von der Verwendung von Skype for Business Online Connector zum Teams PowerShe
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Installieren von Microsoft Teams Powershell](teams-powershell-install.md)
+[Installieren Microsoft Teams Powershell](teams-powershell-install.md)
 
-[Verwalten von Teams mit Teams PowerShell](teams-powershell-managing-teams.md)
+[Verwalten Teams mit Teams PowerShell](teams-powershell-managing-teams.md)
 
-[Versionshinweise zu Teams PowerShell](teams-powershell-release-notes.md)
+[Teams PowerShell-Versionshinweise](teams-powershell-release-notes.md)
 
-[Microsoft Teams-Cmdletreferenz](/powershell/teams/?view=teams-ps)
+[Microsoft Teams-Cmdlet-Referenz](/powershell/teams/?view=teams-ps)
 
-[Skype for Business-Cmdletreferenz](/powershell/skype/intro?view=skype-ps)
+[Skype for Business-Cmdlet-Referenz](/powershell/skype/intro?view=skype-ps)

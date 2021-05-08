@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für St. Kitts und Nevis verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 Dienste Skype for Business und Microsoft Teams St. Kitts und Nevis.
 ms.openlocfilehash: dba655c8f9cb09548388e88aaa70f9c231c4c045
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -35,13 +35,13 @@ ms.locfileid: "51119324"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für St. Kitts und Nevis verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 Dienste Skype for Business und Microsoft Teams St. Kitts und Nevis.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Per-Minute-Zahlung](../audio-conferencing-pay-per-minute.md)  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Minuten](../audio-conferencing-pay-per-minute.md) bezahlt  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nein |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Guthaben für Kommunikationen <br/> |
    
@@ -64,15 +64,15 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 
 Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenfreie und gebührenfreie Nummern für Dienste
+## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht zutreffend <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein <br/> |
-|Sind gebührenfreie Nummern verfügbar?  <br/> |Ja  <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschlangen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business](../getting-service-phone-numbers.md)und Microsoft Teams .
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

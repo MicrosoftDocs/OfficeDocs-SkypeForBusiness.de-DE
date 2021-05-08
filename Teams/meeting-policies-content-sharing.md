@@ -41,7 +41,7 @@ In diesem Artikel werden die folgenden Besprechungsrichtlinieneinstellungen im Z
 
 ## <a name="screen-sharing-mode"></a>Bildschirmfreigabemodus
 
-Diese Einstellung ist eine Kombination aus Richtlinien pro Organisator und Benutzer. Diese Einstellung steuert, ob die Desktop- und Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. b. anonyme Teilnehmer, Gäste, B2B-Teilnehmer und Partner), erben die Richtlinie des Besprechungsorganisators.
+Diese Einstellung ist eine Kombination aus richtlinien pro Organisator und Benutzer. Mit dieser Einstellung wird steuert, ob die Desktop- und Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. b. anonyme Teilnehmer, Gäste, B2B-Teilnehmer und Partner), erben die Richtlinie des Besprechungsorganisators.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
@@ -56,19 +56,19 @@ Sehen Sie sich das folgende Beispiel an.
 |Daniela  | Global   | Gesamter Bildschirm |
 |Amala   | Location1MeetingPolicy  | Deaktiviert |
 
-Besprechungen, die von Daniela gehostet werden, ermöglichen Besprechungsteilnehmern, den gesamten Bildschirm oder eine bestimmte Anwendung freizugeben. Wenn Amanda an Danielas Besprechung teilnimmt, kann Amanda ihren Bildschirm oder eine bestimmte Anwendung nicht teilen, da die Richtlinieneinstellung für sie deaktiviert ist. In Besprechungen, die von Amanda gehostet werden, darf niemand seinen Bildschirm oder eine Anwendung teilen – unabhängig von der Richtlinie für den Bildschirmfreigabemodus, die dem jeweiligen Benutzer zugewiesen wurde.  Daher kann Daniela ihren Bildschirm oder eine einzelne Anwendung in Den Besprechungen von Amanda nicht teilen.  
+Besprechungen, die von Daniela gehostet werden, ermöglichen Besprechungsteilnehmern, den gesamten Bildschirm oder eine bestimmte Anwendung freizugeben. Wenn Amanda an Danielas Besprechung teilnimmt, kann Amanda ihren Bildschirm oder eine bestimmte Anwendung nicht teilen, da die Richtlinieneinstellung für sie deaktiviert ist. In Besprechungen, die von Amanda gehostet werden, darf niemand seinen Bildschirm oder eine Anwendung teilen – unabhängig von der Richtlinie für den Bildschirmfreigabemodus, die dem jeweiligen Benutzer zugewiesen wurde.  Folglich kann Daniela ihren Bildschirm oder eine einzelne Anwendung in Amandas Besprechungen nicht freigeben.  
 
 Derzeit können Benutzer in einer Microsoft Teams-Besprechung keine Videos abspielen oder ihren Bildschirm freigeben, wenn sie Google Chrome verwenden.
 
 ## <a name="allow-a-participant-to-give-or-request-control"></a>Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert
 
-Diese Einstellung ist eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob der Benutzer die Steuerung des übertragenen Desktops oder Fensters an andere Besprechungsteilnehmer übergeben kann. Um die Steuerung zu übergeben, zeigen Sie auf den oberen Bereich des Bildschirms.
+Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob der Benutzer die Steuerung des übertragenen Desktops oder Fensters an andere Besprechungsteilnehmer übergeben kann. Um die Steuerung zu übergeben, zeigen Sie auf den oberen Bereich des Bildschirms.
 
 Wenn diese Einstellung für den Benutzer aktiviert ist, wird die Option **Steuerung übergeben** in der oberen Leiste einer Freigabesitzung angezeigt.
 
 ![Screenshot mit der Option "Steuerung übergeben"](media/meeting-policies-give-control.png)
 
-Wenn die Einstellung für den Benutzer deaktiviert ist, **ist** die Option Steuerelement geben nicht verfügbar.
+Wenn die Einstellung für den Benutzer deaktiviert ist, ist die Option **Steuerung übergeben** nicht verfügbar.
 
 ![Screenshot, der zeigt, dass die Option "Steuerung übergeben" nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
 
@@ -79,7 +79,7 @@ Sehen Sie sich das folgende Beispiel an.
 |Daniela   | Global   | Ein       |
 |Bert    | Location1MeetingPolicy        | Aus   |
 
-Daniela kann anderen Teilnehmern einer von Babek organisierten Besprechung die Steuerung des freigegebenen Desktops oder Fensters geben. Allerdings kann Babek anderen Teilnehmern keine Kontrolle geben.
+Daniela kann die Steuerung des freigegebenen Desktops oder Fensters anderen Teilnehmern an einer von Danielk organisierten Besprechung geben. Allerdings kann Nochk anderen Teilnehmern die Steuerung nicht geben.
 
 Verwenden Sie das Cmdlet "AllowParticipantGiveRequestControl", um mithilfe von PowerShell festzulegen, wer die Steuerung übergeben bzw. entsprechende Anforderungen annehmen kann.
 
@@ -88,7 +88,7 @@ Verwenden Sie das Cmdlet "AllowParticipantGiveRequestControl", um mithilfe von P
 
 ## <a name="allow-an-external-participant-to-give-or-request-control"></a>Zulassen, dass ein externer Teilnehmer die Steuerung übergibt oder anfordert
 
-Diese Einstellung ist eine Benutzerrichtlinie. Ob eine Organisation diese Richtlinie für einen Benutzer festgelegt hat, kontrolliert unabhängig davon, was der Besprechungsorganisator festgelegt hat, nicht, was externe Teilnehmer tun können. Über diesen Parameter wird gesteuert, ob externen Teilnehmern die Steuerung des von jemand anderen freigegebenen Bildschirms übergeben werden kann bzw. ob sie dies anfordern können, je nachdem, was der freigebende Benutzer in den Besprechungsrichtlinien seiner Organisation festgelegt hat. Externe Teilnehmer an Microsoft Teams-Besprechungen können wie folgt kategorisiert werden:  
+Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Ob eine Organisation diese Richtlinie für einen Benutzer festgelegt hat, kontrolliert nicht, was externe Teilnehmer tun können, unabhängig davon, was der Besprechungsorganisator festgelegt hat. Über diesen Parameter wird gesteuert, ob externen Teilnehmern die Steuerung des von jemand anderen freigegebenen Bildschirms übergeben werden kann bzw. ob sie dies anfordern können, je nachdem, was der freigebende Benutzer in den Besprechungsrichtlinien seiner Organisation festgelegt hat. Externe Teilnehmer an Microsoft Teams-Besprechungen können wie folgt kategorisiert werden:  
 
 - Anonymer Benutzer
 - Gastbenutzer  
@@ -114,7 +114,7 @@ Amanda kann keine PowerPoint-Folien in Besprechungen teilen, selbst wenn sie die
 
 ## <a name="allow-whiteboard"></a>Whiteboard zulassen
 
-Diese Einstellung ist eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung das Whiteboard übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators.
+Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung das Whiteboard übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators.
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -127,7 +127,7 @@ Amanda kann das Whiteboard in einer Besprechung nicht teilen, selbst wenn sie di
 
 ## <a name="allow-shared-notes"></a>Geteilte Notizen zulassen
 
-Diese Einstellung ist eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung Notizen erstellen und übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators. Die Registerkarte **Besprechungsnotizen** wird derzeit nur in Besprechungen mit weniger als 20 Teilnehmern unterstützt.
+Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung Notizen erstellen und übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators. Die Registerkarte **Besprechungsnotizen** wird derzeit nur in Besprechungen mit weniger als 20 Teilnehmern unterstützt.
 
 Sehen Sie sich das folgende Beispiel an.
 

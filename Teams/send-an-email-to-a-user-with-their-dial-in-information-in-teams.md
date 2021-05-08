@@ -1,5 +1,5 @@
 ---
-title: Senden von Audiokonferenzinformationen per E-Mail an einen Benutzer
+title: Senden der Audiokonferenzinformationen per E-Mail an einen Benutzer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in Microsoft Teams senden.
+description: Erfahren Sie, wie Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in einer Microsoft Teams.
 ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51117203"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
 
-Manchmal müssen Microsoft Teams-Benutzer ihnen möglicherweise ihre Audiokonferenzinformationen senden. Dazu klicken Sie unter  den Eigenschaften für einen Benutzer auf Konferenzinformationen per E-Mail senden. Wenn Sie diese E-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
+Manchmal Microsoft Teams, dass Sie den Benutzern möglicherweise ihre Audiokonferenzinformationen senden müssen. Klicken Sie dazu unter  den Eigenschaften für einen Benutzer auf Konferenzinformationen per E-Mail senden. Wenn Sie diese E-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
   
 - Die Konferenztelefon- oder Einwahltelefonnummer für den Benutzer.
     
@@ -40,7 +40,7 @@ Manchmal müssen Microsoft Teams-Benutzer ihnen möglicherweise ihre Audiokonfer
    
 Hier ist ein Beispiel für die gesendete E-Mail:
   
-![Beispiel für eine E-Mail-Nachricht für Einwahlkonferenzen](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Beispiel für eine E-Mail-Nachricht mit einer Einwahlkonferenz](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -49,18 +49,18 @@ Hier ist ein Beispiel für die gesendete E-Mail:
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Symbol, das das Microsoft Teams-Logo zeigt](media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
-2. Klicken Sie oben auf der Seite auf **Bearbeiten.**
+2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
 
-3. Klicken **Sie unter Audiokonferenzen** auf **Konferenzinformationen per E-Mail senden.**
+3. Klicken **Sie unter Audiokonferenz auf** **Konferenzinformationen per E-Mail senden**.
 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 
-- Es gibt mehrere E-Mails, die an Benutzer in Ihrer Organisation gesendet werden, nachdem sie für Audiokonferenzen aktiviert wurden:
+- Es gibt mehrere E-Mails, die nach der Aktivierung für Audiokonferenzen an Benutzer in Ihrer Organisation gesendet werden:
     
-  - Wenn ihnen **eine** Lizenz für Audiokonferenzen zugewiesen ist.
+  - Wenn ihnen **eine Lizenz für Audiokonferenzen** zugewiesen wird.
     
   - Wenn Sie die PIN für Audiokonferenzen des Benutzers manuell zurücksetzen.
     
@@ -68,17 +68,17 @@ Hier ist ein Beispiel für die gesendete E-Mail:
     
   - Wenn eine **Lizenz für Audiokonferenzen** entfernt wird.
     
-  - Wenn der Audiokonferenzanbieter für einen Benutzer von Microsoft zu einem anderen Anbieter oder None **geändert wird.**
+  - Wenn der Audiokonferenzanbieter für einen Benutzer von Microsoft auf einen anderen Anbieter oder Kein geändert **wird.**
     
-  - Wenn der Audiokonferenzanbieter für einen Benutzer in Microsoft geändert wird.
+  - Wenn sich der Audiokonferenzanbieter für einen Benutzer in Microsoft ändert.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzelnen Verwaltungspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzigen Administrationspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Optimale Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
     

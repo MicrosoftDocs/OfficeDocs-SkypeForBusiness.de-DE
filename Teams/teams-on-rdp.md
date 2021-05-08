@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Teams mit Remotedesktopdiensten
+title: Verwenden Teams mit Remotedesktopdiensten
 author: cichur
 ms.author: v-cichur
 ms.reviewer: alivano
@@ -26,18 +26,18 @@ ms.locfileid: "51119094"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams in Remotedesktopdiensten
 
-In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwendung von Microsoft Teams in einer Remotedesktopdienstumgebung (RDS) beschrieben.
+In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwendung von Microsoft Teams in einer RDS-Umgebung (Remote Desktop Services) beschrieben.
 
 ## <a name="what-is-rds"></a>Was ist RDS?
 
-Remotedesktopdienste (RDS) ist die Plattform der Wahl zum Erstellen von Virtualisierungslösungen für jeden Kundenbedarf. MIT RDS können Sie einzelne virtualisierte Anwendungen bereitstellen, sicheren Mobile- und Remotedesktopzugriff bereitstellen und Endbenutzern die Möglichkeit bieten, ihre Anwendungen und Desktops aus der Cloud ausführen zu können.
+Remotedesktopdienste (Remote Desktop Services, RDS) ist die Plattform ihrer Wahl zum Erstellen von Virtualisierungslösungen für alle Kundenanforderungen. Mit RDS können Sie einzelne virtualisierte Anwendungen bereitstellen, sicheren Zugriff auf mobile Geräte und Remotedesktops bereitstellen und Endbenutzern die Möglichkeit bieten, ihre Anwendungen und Desktops aus der Cloud ausführen zu können.
 
-RDS bietet Bereitstellungsflexibilität, Kosteneffizienz und Erweiterbarkeit. RDS wird über eine Vielzahl von Bereitstellungsoptionen bereitgestellt, darunter Windows Server 2016 für lokale Bereitstellungen, Microsoft Azure für Cloudbereitstellungen und eine robuste Palette von Partnerlösungen.
-Je nach Umgebung und Einstellungen können Sie die RDS-Lösung für die sitzungsbasierte Virtualisierung als virtuelle Desktopinfrastruktur (VDI) einrichten.
+RDS bietet Flexibilität, Kosteneffizienz und Erweiterbarkeit für die Bereitstellung. RDS wird über eine Vielzahl von Bereitstellungsoptionen geliefert, darunter Windows Server 2016 für lokale Bereitstellungen, Microsoft Azure für Cloudbereitstellungen und ein stabiles Array von Partnerlösungen.
+Abhängig von Ihrer Umgebung und Ihren Voreinstellungen können Sie die RDS-Lösung für die sitzungsbasierte Virtualisierung als VDI (Virtual Desktop Infrastructure) einrichten.
 
-Derzeit steht Teams in einer Remotedesktopdienstumgebung mit Unterstützung für Zusammenarbeit und Chatfunktionen zur Verfügung. Um eine optimale Benutzererfahrung sicherzustellen, folgen Sie den Anweisungen in diesem Artikel.
+Derzeit steht Teams einer Remotedesktopdienste-Umgebung mit Unterstützung für Zusammenarbeit und Chatfunktionen zur Verfügung. Um eine optimale Benutzererfahrung sicherzustellen, folgen Sie den Anweisungen in diesem Artikel.
 
-## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams auf RDS mit Chat und Zusammenarbeit
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams über RDS mit Chat und Zusammenarbeit
 
 Wenn Ihre Organisation nur die Chat- und Zusammenarbeitsfeatures in Teams verwenden möchte, können Sie Richtlinien auf Benutzerebene festlegen, um Anruf- und Besprechungsfunktionen in Teams zu deaktivieren.
 
@@ -54,7 +54,7 @@ Sie können Richtlinien mithilfe des Microsoft Teams Admin Centers oder mit Powe
 So weisen Sie einem Benutzer die DisallowCalling-Anrufrichtlinie und die AllOff-Besprechungsrichtlinie zu:
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**.
-2. Wählen Sie den Benutzer aus, indem Sie links vom Benutzernamen und dann **Einstellungen bearbeiten auswählen.**
+2. Wählen Sie den Benutzer aus, indem Sie links des Benutzernamens und dann Einstellungen **bearbeiten auswählen.**
 3. Gehen Sie wie folgt vor:
 
     a.  Wählen **Sie unter Anrufrichtlinie** die Option **DisallowCalling aus.**
@@ -66,15 +66,15 @@ So weisen Sie einem Benutzer die DisallowCalling-Anrufrichtlinie und die AllOff-
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Center zu **Benutzer**, und suchen Sie dann nach den gewünschten Benutzern, oder filtern Sie die Ansicht, um die gewünschten Benutzer anzuzeigen.
-2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, wählen &#x2713; (Häkchen) oben in der Tabelle aus.
-3. Wählen **Sie Einstellungen bearbeiten** aus, nehmen Sie die von Ihnen ausgewählten Änderungen vor, und wählen Sie dann Übernehmen **aus.**
+2. Wählen Sie in der Spalte **&#x2713;** (Häkchen) die Benutzer aus. Um alle Benutzer auszuwählen, wählen Sie &#x2713; (Häkchen) am Anfang der Tabelle aus.
+3. Wählen **Sie Einstellungen bearbeiten** aus, nehmen Sie die änderungen vor, und wählen Sie dann Übernehmen **aus.**
 
-Sie können auch die folgenden Schritte ausführen:
+Sie können aber auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
 
-    - Wechseln Sie zu  >  **Sprachanrufrichtlinien**, und wählen Sie **dann DisallowCalling aus.**
-    - Wechseln Sie zu  >  **Besprechungsrichtlinien** für Besprechungen, und wählen Sie **dann AllOff aus.**
+    - Wechseln Sie **zu Voice**  >  **Calling-Richtlinien**, und wählen Sie dann **DisallowCalling aus.**
+    - Wechseln Sie **zu**  >  **Besprechungsrichtlinien** für Besprechungen, und wählen Sie **dann AllOff aus.**
 
 2. Wählen Sie **Benutzer verwalten** aus.
 3. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.

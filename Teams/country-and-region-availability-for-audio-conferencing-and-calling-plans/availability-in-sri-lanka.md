@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Sri Lanka verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Sri Lanka.
 ms.openlocfilehash: 4e7f7b767df2f7b4baa89dd15b4d81195ba6d2be
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "51096465"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Sri Lanka verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Sri Lanka.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. Wenn Sie dedizierte Telefonnummern wünschen, lesen Sie[Abrufen von Servicetelefonnummern für Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. Wenn Sie dedizierte Telefonnummern wünschen, lesen Sie Abrufen von[Servicetelefonnummern für Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Guthaben für Kommunikationen  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem

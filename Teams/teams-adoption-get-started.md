@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie mehr über die Start-, Experiment- und Aktivierungsphasen der Einführung von Microsoft Teams.
+description: In diesem Artikel erfahren Sie mehr über die Start-, Experiment- und Aktivierungsphasen Microsoft Teams Einführung.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,33 +30,33 @@ ms.locfileid: "51116903"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Erste Schritte beim Einführen von Microsoft Teams
 
-Durch die Einführung von Microsoft Teams können Sie eine hervorragende Benutzererfahrung und einen höheren geschäftlichen Wert innerhalb Ihres Unternehmens bieten. Unser Ziel ist es, Sie schnell auf den Weg zu bringen, damit Sie Ihre Reise mit Teams beginnen können. Dieser Leitfaden konzentriert sich auf die Benutzeradzeptanz von Teams und hat Abhängigkeiten von der technischen Bereitschaft Ihrer Umgebung, die in anderen Abschnitten unserer Dokumentation behandelt wird.
+Wenn Sie die Akzeptanz Microsoft Teams, können Sie eine hervorragende Benutzererfahrung bieten und den geschäftlichen Wert innerhalb Ihres Unternehmens erhöhen. Unser Ziel ist es, Ihnen einen schnellen Start zu Teams. Dieser Leitfaden befasst sich mit der Benutzeradzeptanz von Teams und verfügt über Abhängigkeiten von der technischen Bereitschaft Ihrer Umgebung, die in anderen Abschnitten unserer Dokumentation behandelt wird.
 
 ## <a name="adoption-prerequisites"></a>Voraussetzungen für die Einführung
 
 Stellen Sie vor den ersten Schritte sicher, dass:
 
-- [Teams wird installiert,](get-clients.md) [und Lizenzen werden](/office365/servicedescriptions/teams-service-description) in Ihrer Umgebung zugewiesen. Mindestens ihrem Kernteam und den frühen Adoptern, die an dieser ersten Projektphase teilnehmen werden, sollten Lizenzen zugewiesen werden.
+- [Teams wird installiert,](get-clients.md) [und Lizenzen werden](/office365/servicedescriptions/teams-service-description) in Ihrer Umgebung zugewiesen. Mindestens sollten Lizenzen Ihrem Kernteam und den Early Adopters zugewiesen werden, die an dieser ersten Projektphase teilnehmen werden.
 
 - Sie haben die Desktop- und mobilen Anwendungen heruntergeladen. 
 
-## <a name="adoption-framework"></a>Einführungsrahmen
+## <a name="adoption-framework"></a>Einführungsframework
 
-Microsoft 365 und Office 365 verfügen über ein Einführungsframework, das für große Arbeitslasten im Dienst gilt. Dieses Framework befasst sich mit den wichtigsten Schritten, die jede Organisation ausführen sollte, um Clouddienste zu unterstützen. Weitere Informationen zum allgemeinen Einführungsframework finden Sie unter [Microsoft Enterprise-Dokumentation und -Ressourcen.](/microsoft-365/enterprise/) 
+Microsoft 365 und Office 365 haben ein Übernahmeframework, das für größere Arbeitslasten im Dienst gilt. Dieses Framework befasst sich mit den wichtigsten Schritten, die eine Organisation unternehmen sollte, um Clouddienste zu unterstützen. Weitere Informationen zum allgemeinen Einführungsframework finden Sie in der Dokumentation und Enterprise [von Microsoft.](/microsoft-365/enterprise/) 
 
-In diesem Einführungsplan für Teams haben wir die Schritte in Phasen organisiert und spezifische Teams-Anleitungen bereitgestellt, wie in den [Einführungsphasen](#adoption-phases)weiter beschrieben.
+In diesem Teams einführungsplan haben wir die Schritte in Phasen organisiert und spezifische Anleitungen Teams den Einführungsphasen bereitgestellt, wie in den nächsten [Einführungsphasen](#adoption-phases)beschrieben.
 
 ## <a name="adoption-phases"></a>Einführungsphasen 
 
-Jedes Einführungsprojekt variiert je nach Umgebung in Größe und Komplexität, aber die ersten Schritte sind in der Gesamten identisch. Wir sind davon überzeugt, dass das Aufbrechen des Prozesses in drei verschiedene Phasen – Start, Experiment und Aktivieren – die Einführung für alle rationalisieren wird.  
+Jedes Einführungsprojekt unterscheidet sich in Größe und Komplexität je nach Ihrer Umgebung, aber die anfänglichen Schritte sind auf allen unterschiedliche Weise identisch. Wir sind der Meinung, dass das Aufschlüsseln des Prozesses in drei verschiedene Phasen – Starten, Experimentieren und Aktivieren – die Akzeptanz für jeden optimiert.  
 
-- **Start** – In dieser ersten Phase sammeln Sie Ihr Team zusammen, richten Ihre ersten Teams ein und verwenden Teams, um mit der Planung der Einführung von Teams zu beginnen. Dieser Ansatz erhöht Ihre technischen Kenntnisse mit dem Produkt und hilft Ihnen, die erforderlichen Fähigkeiten zu entwickeln, um nachfolgende Phasen erfolgreich abschließen zu können. 
+- **Starten** – In dieser ersten Phase sammeln Sie Ihr Team, richten Ihre ersten Teams ein und verwenden Teams, um mit der Planung der Teams zu beginnen. Dieser Ansatz erhöht Ihre technischen Kenntnisse mit dem Produkt und hilft Ihnen, die erforderlichen Fähigkeiten zum erfolgreichen Abschließen nachfolgender Phasen zu erwerben. 
 
-- **Experiment** – In dieser Phase des kontrollierten Wachstums bringen Sie Ihre internen Champions und frühen Adoptierer an Bord. Sie sprechen mit Ihren Geschäftsbenutzern, um Szenarien zu identifizieren, die sofort von den von Teams zur Verfügung kämten Funktionen für Zusammenarbeit und Kommunikation profitieren würden. Sie sammeln Feedback, das Ihre umfassende Einführungsphase informiert, und Sie treffen Serviceentscheidungen über Governance und Lebenszyklusverwaltung, die eine erfolgreiche Bereitstellung sicherstellen.
+- **Experimentieren** – In dieser Phase des kontrollierten Wachstums nehmen Sie interne Champions und Early Adopters an Bord. Sie sprechen mit den Unternehmensbenutzern, um Szenarien zu identifizieren, die unmittelbar von den funktionen für Zusammenarbeit und Kommunikation profitieren, die Teams bietet. Sie sammeln Feedback, das Sie über die Verbreitungsphase im großen Rahmen informieren wird, und Sie treffen Dienstentscheidungen im Sinne von Governance und Lebenszyklusverwaltung, die eine erfolgreiche Bereitstellung sicherstellen.
 
-- **Skalierung** – Dies ist die umfassende Bereitstellungsphase, in der Sie Die Teams-Funktionen für alle Ihre Mitarbeiter aktivieren. In dieser Phase bestimmt die Größe Ihrer Organisation, ob es sich um ein "go big"-Projekt handelt, bei dem Teams für alle Mitarbeiter gleichzeitig aktivieren wird, oder ob Sie dies nach Region, Unternehmenseinheit oder einer anderen Methode zur Segmentierung Ihrer Mitarbeiterpopulation anknallen. In dieser Phase wechseln Sie zu einem Fortlaufenden Zustellungsmodell. Mitarbeiter, Führungskräfte und Unternehmenseinheiten möchten ihre Nutzung von Teams erweitern und benötigen Schulungen und Ihr Engagement, um zu verstehen, wie Sie Teams und andere Features von Microsoft 365 oder Office 365 optimal nutzen können.
+- **Skalierung** – Dies ist die umfassende Bereitstellungsphase, in der Sie die Teams für alle Ihre Mitarbeiter aktivieren. In dieser Phase bestimmt die Größe Ihrer Organisation, ob es sich um ein "großes" Projekt handelt, das Teams für alle Mitarbeiter gleichzeitig aktivieren wird, oder ob Sie dies nach Region, Geschäftsbereich oder einer anderen Methode der Segmentierung der Mitarbeiterbevölkerung auf den Weg kommen. In dieser Phase wechseln Sie zu einem Fortlaufenden Liefermodell. Mitarbeiter, Führungskräfte und Geschäftseinheiten möchten ihre Nutzung von Teams erweitern und benötigen Schulungen und Ihr Engagement, um zu verstehen, wie sie Teams und andere Features von Microsoft 365 oder Office 365.
 
-Jede dieser Einführungsphasen hängt von Ihrer technischen und umwelttechnischen Bereitschaft für Teams ab. Fangen wir an!
+Jede dieser Einführungsphasen hängt von Ihrer technischen und Umweltbereitschaft für Teams. Fangen wir an!
 
 
-![Symbol für den nächsten Schritt ](media/teams-adoption-next-icon.png) Weiter:        [Einführung von Microsoft Teams Phase 1: Start](teams-adoption-phase1.md)|
+![Ein Symbol zur Darstellung des nächsten ](media/teams-adoption-next-icon.png) Schritts Weiter: [Microsoft Teams Phase 1: Start](teams-adoption-phase1.md)|

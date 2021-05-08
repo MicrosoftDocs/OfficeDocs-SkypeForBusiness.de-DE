@@ -1,5 +1,5 @@
 ---
-title: Fallstudie "Teams voice Contoso"
+title: Teams Fallstudie zu Contoso Voice
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Sprachfallstudie zu Teams für multinationale Unternehmen
+description: Teams Voice Case Study for multi-national corporation
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
@@ -25,178 +25,178 @@ ms.locfileid: "51101031"
 ---
 # <a name="contoso-case-study-phone-system"></a>Contoso-Fallstudie: Telefonsystem
 
-Je nach geografischem Standort und anderen Faktoren hatte Contoso Niederlassungen mit den folgenden Telefonielösungen:
+Je nach geografischem Standort und anderen Faktoren hatte Contoso Niederlassungen, die die folgenden Telefonielösungen verwendeten:
 
 - Websitetyp A: Skype for Business Enterprise-VoIP
 
-- Websitetyp B: Herkömmliche ältere Telefoniesysteme
+- Websitetyp B: Traditionelle Telefoniesysteme
 
-- Websitetyp C: Eine Kombination aus Skype for Business Enterprise-VoIP herkömmlichen älteren Telefoniesystemen
+- Websitetyp C: Eine Kombination aus Skype for Business Enterprise-VoIP herkömmlichen Telefoniesystemen
 
 
-Um eine Microsoft Phone System-Lösung für die gesamte Organisation zu implementieren, musste Contoso für jeden Websitetyp ermitteln, welche der folgenden Optionen mit Telefonsystem verwendet werden würde, um eine Verbindung mit dem öffentlichen Telefonnetz &mdash; &mdash; (PstN) herzustellen:
+Zum Implementieren einer Microsoft-Telefon-Systemlösung für die gesamte Organisation musste Contoso für jeden Websitetyp bestimmen, welche der folgenden Optionen mit Telefonsystem verwendet werden würde, um eine Verbindung mit dem Public &mdash; &mdash; Switched Telephone Network (PSTN) herzustellen:
 
 - Telefonsystem mit Anrufplan 
 
-- Telefonsystem mit eigenem PSTN-Netzbetreiber über Direct Routing 
+- Telefonsystem mit einem eigenen PSTN-Netzbetreiber über Direct-Routing 
 
-- Kombination aus Telefonsystem mit Anrufplan und Telefonsystem mit eigenem PSTN-Netzbetreiber durch Direktes Routing
+- Kombination aus Telefonsystem Anrufplan und Telefonsystem einem eigenen PSTN-Netzbetreiber über Direct-Routing
  
-Um die richtige Lösung für ihre [](/SkypeForBusiness/hybrid/msft-telephony-solutions) Organisation zu ermitteln, verwendet Contoso Microsoft-Telefonielösungen und die Ignite 2019-Sitzungsanrufe [in Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
+Um die richtige Lösung für ihre Organisation zu finden, verwendete Contoso [Telefonielösungen](/SkypeForBusiness/hybrid/msft-telephony-solutions) von Microsoft und die Ignite 2019-Sitzung Anrufe [in Microsoft Teams.](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>Websitetyp A: Skype for Business Enterprise-VoIP 
 
-Contoso Skype for Business Enterprise-VoIP als Hub eingerichtet und sprach. Es gab einen zentralen Ort, an dem das PSTN-Gateway in der Region verwaltet wurde, die die Verbindung zum PSTN für die Skype for Business-Enterprise-VoIP benutzer im Land bereitgestellt hat. Häufig hatten diese Satellitenbüros keinen eigenen Internetanschluss. Die Nummern für diese Benutzer befinden sich im SIP-Trunk, der mit einem vorhandenen SBC verbunden ist. 
+Contoso Skype for Business Enterprise-VoIP wurde als Hub eingerichtet und sprach. Es gab einen zentralen Speicherort, an dem das PSTN-Gateway in der Region verwaltet wurde, von der die Verbindung mit dem PSTN für die Skype for Business Enterprise-VoIP im Land bereitgestellt wurde. Oft hatten diese Satellitenniederlassungen keinen eigenen Internet-Egress. Die Nummern für diese Benutzer befinden sich auf dem SIP-Trunk, der mit einem vorhandenen SBC verbunden ist. 
 
-Um festzustellen, ob der bereits bereitgestellte SBC für Direct Routing und Medienumgehung zertifiziert ist, hat Contoso die Liste der Sitzungsgrenzcontroller überprüft, die für [Direct Routing zertifiziert sind.](direct-routing-border-controllers.md)  
+Um festzustellen, ob der SBC bereits für Direct-Routing und Medienumgehung zertifiziert ist, überprüfte Contoso die Liste der [Session Border Controller,](direct-routing-border-controllers.md)die für Direct Routing zertifiziert sind.  
 
-Die Wählgewohnheiten des Benutzers waren, einen Benutzer im älteren Telefoniesystem mithilfe einer Erweiterung zu wählen, auch wenn der Benutzer über einen Skype for Business-Client für Peer-zu-Peer-Audio verfügt. 
+Die Wählgewohnheiten des Benutzers waren, einen Benutzer mit einem älteren Telefoniesystem mit einer Erweiterung zu wählen, auch wenn der Benutzer über einen Skype for Business-Client für Peer-to-Peer-Audio verfügt. 
 
-Contoso basiert auf den folgenden Fragen:
+Contoso basierte auf der Entscheidung auf den folgenden Fragen:
 
-- F. Müssen wir die funktionen beibehalten, die von unserer lokalen Bereitstellung bereitgestellt werden?<br>
+- F. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
   A. Nein 
 
 - F. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br>
   A. Nein 
 
-- F. Müssen wir unseren aktuellen Drittanbieter erhalten?<br> A. Ja (regulierte Länder) und Nein 
+- F. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Ja (regulierte Länder) und Nein 
 
-- F. Müssen wir den ROI für bereitgestellte SBCs erhalten?<br> A. Ja und Nein  
+- F. Müssen wir den ROI für SBCs bereitstellen lassen?<br> A. Ja und Nein  
 
-- F. Ist Microsoft PSTN-Anrufpläne in dieser Region verfügbar?<br> A. Ja und Nein 
+- F. Sind Microsoft PSTN-Anrufpläne in dieser Region verfügbar?<br> A. Ja und Nein 
 
-Basierend auf den Antworten auf ihre Fragen hat Contoso entschieden:
+Basierend auf den Antworten auf die Fragen hat sich Contoso für die folgenden Lösungen entschieden:
 
-- Verschieben Sie die Benutzer, die sich in einer Region befinden, in der PSTN-Anrufpläne für Telefonsystem mit Anrufplänen verfügbar sind. 
+- Verschieben Sie die Benutzer, die sich in einer Region befinden, in der PSTN-Anrufpläne verfügbar sind, Telefonsystem Anrufpläne zu verwenden. 
 
-- Verschieben Sie die Benutzer, die sich nicht in einer Region befinden, in der PSTN-Anrufpläne verfügbar sind, Benutzer auf einer Website, auf der der ROI auf den SBCs noch nicht erfüllt werden muss, und Benutzer, die sich in einem Land mit Telefoniebestimmungen für Telefonsystem mit Direct Routing befanden. 
+- Verschieben Sie die Benutzer, die sich nicht in einer Region befinden, in der PSTN-Anrufpläne verfügbar sind, Benutzer an einem Standort, auf dem die ROI für die SBCs noch nicht erfüllt werden muss, und Benutzer, die sich in einem Land befinden, das über Telefoniebestimmungen verfügt, mit Direct Routing auf Telefonsystem. 
 
-Das folgende Diagramm zeigt die erste Skype for Business Enterprise-VoIP Bereitstellung und die Migration dieser Bereitstellung zu Microsoft Calling Plans und Direct Routing:
+Das folgende Diagramm zeigt die anfängliche Bereitstellung Skype for Business Enterprise-VoIP und zeigt, wie diese Bereitstellung sowohl zu Microsoft-Anrufplänen als auch zu Direct-Routing migriert wurde:
 
-![Diagramm mit Vor- und Nachzuständen](media/voice-case-study-1.png)
+![Diagramm, das die Vorher/Nach-Zustände zeigt](media/voice-case-study-1.png)
 
-## <a name="site-type-b-traditional-legacy-telephony-systems"></a>Websitetyp B: Herkömmliche ältere Telefoniesysteme
+## <a name="site-type-b-traditional-legacy-telephony-systems"></a>Websitetyp B: Traditionelle Telefoniesysteme
 
-Contoso hatte viele Niederlassungen, die ältere Telefoniesysteme nutzten. Es gab eine Teilmenge von Benutzern, die eine E1,64-Telefonnummer hatten, während andere nur eine Erweiterung hatten. Diese Nummern befinden sich im TDM-Trunk zum PSTN-Gateway. Die standortinterne Wählung wurde konfiguriert, indem ein Websitecode vor der Erweiterung verwendet wurde, um zu ermitteln, wohin der Anruf weiterleite. Die Wählgewohnheiten der Benutzer waren die Durchwahl.   
+Contoso hatte viele Niederlassungen, die alte Telefoniesysteme nutzten. Es gab eine Teilmenge von Benutzern, die eine E1.64-Telefonnummer hatten, während andere nur über eine Durchwahl hatten. Diese Nummern befinden sich auf dem TDM-Trunk zum PSTN-Gateway. Die Wählscheibe für Internetwebsites wurde konfiguriert, indem ein Websitecode vor der Durchwahl verwendet wurde, um zu bestimmen, wohin der Anruf geroutet werden soll. Die Wählgewohnheiten der Benutzer wählten durch eine Durchwahl.   
 
-Contoso basiert auf den folgenden Fragen:
+Contoso basierte auf der Entscheidung auf den folgenden Fragen:
 
-- F. Müssen wir die funktionen beibehalten, die von unserer lokalen Bereitstellung bereitgestellt werden?<br>
+- F. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
   A. Nein 
 
 - F. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br> A. Ja
 
-- F. Müssen wir unseren aktuellen Drittanbieter erhalten?<br> A. Nein 
+- F. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Nein 
 
 - F. Ist der Anrufplan von Microsoft PSTN in unserer Region verfügbar?<br> A. Ja und Nein 
 
-Basierend auf den Antworten auf ihre Fragen hat Contoso entschieden: 
+Basierend auf den Antworten auf die Fragen hat sich Contoso für die folgenden Lösungen entschieden: 
 
-- Verschieben Sie die Benutzer, die sich in einer Region befinden, in der PSTN-Anrufpläne für Telefonsystem mit Anrufplänen verfügbar sind. 
+- Verschieben Sie die Benutzer, die sich in einer Region befinden, in der PSTN-Anrufpläne verfügbar sind, Telefonsystem Anrufpläne zu verwenden. 
 
-- Verschieben Sie die Benutzer, die sich nicht in einer Region befinden, in der PSTN-Anrufpläne für Telefonsystem mit Direct Routing verfügbar sind. 
+- Verschieben Sie die Benutzer, die sich nicht in einer Region befinden, in der PSTN-Anrufpläne verfügbar sind, Telefonsystem Direktes Routing zu verwenden. 
 
-- Verwalten Sie eine PSTN-Verbindung mit geschäftskritischen analogen Geräten.
+- Wiederherstellen einer PSTN-Verbindung mit kritischen analogen Geschäftsgeräten.
 
-Die folgenden Diagramme zeigen die ursprüngliche Legacysystembereitstellung mit Remotewebsites und die Migration zu einer Direct Routing-Bereitstellung mit Optimierung lokaler Medien:
+Die folgenden Diagramme zeigen die ursprüngliche Legacy-Systembereitstellung mit Remotestandorten und die Migration zu einer Direct-Routingbereitstellung mit lokaler Medienoptimierung:
 
 **Ursprüngliche Legacybereitstellung**  
- ![ Diagramm mit Vor- und Nachzuständen](media/voice-case-study-2.png)
+ ![ Diagramm, das die Vorher/Nach-Zustände zeigt](media/voice-case-study-2.png)
 
 
 **Bereitstellung mit Direct Routing**
 
-![Diagramm mit Vor- und Nachzuständen](media/voice-case-study-3.png)
+![Diagramm, das die Vorher/Nach-Zustände zeigt](media/voice-case-study-3.png)
  
-## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Websitetyp C: Kombination aus Skype for Business Enterprise-VoIP herkömmlichen älteren Telefoniesystemen
+## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Websitetyp C: Kombination aus Skype for Business Enterprise-VoIP herkömmlichen Telefoniesystemen
 
-Contoso Skype for Business Enterprise-VoIP benutzernummern befinden sich im SIP-Trunk zum SBC vom Netzbetreiber. Die Nummern für die herkömmlichen Telefoniesysteme befinden sich im TDM-Trunk zum PSTN-Gateway.   
+Contoso Skype for Business Enterprise-VoIP die Nummern der Benutzer befinden sich auf dem SIP-Trunk zum SBC vom Netzbetreiber. Die Nummern für die herkömmlichen Telefoniesysteme befinden sich auf dem TDM-Trunk zum PSTN-Gateway.   
 
-Contoso basiert auf den folgenden Fragen:
+Contoso basierte auf der Entscheidung auf den folgenden Fragen:
 
-- F. Müssen wir die funktionen beibehalten, die von unserer lokalen Bereitstellung bereitgestellt werden?<br>
+- F. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
   A. Nein 
 
 - F. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br> A. Nein 
 
-- F. Müssen wir unseren aktuellen Drittanbieter erhalten?<br> A. Nein 
+- F. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Nein 
 
-- F. Müssen wir den ROI für bereitgestellte SBCs erhalten?<br> A. Ja und Nein  
+- F. Müssen wir den ROI für SBCs bereitstellen lassen?<br> A. Ja und Nein  
 
 - F. Ist der PstN-Anrufplan von Microsoft in dieser Region verfügbar?<br> A. Nein 
 
-Basierend auf den Antworten auf ihre Fragen hat Contoso folgendes entschieden: 
+Auf der Grundlage der Antworten auf die Fragen hat Contoso folgende Punkte entschieden: 
 
-- Für die älteren Telefoniebenutzer, die für Direct Routing aktiviert werden, portierte Contoso die Nummern aus dem TDM-Trunk zum SIP-Trunk für den SBC, da der SBC für Direct Routing zertifiziert ist. 
+- Für die älteren Telefoniebenutzer, die für Direct Routing aktiviert werden, hat Contoso die Nummern vom TDM-Trunk zum SIP Trunk für SBC portiert, da der SBC für Direct Routing zertifiziert ist. 
 
-- Um eine Teilmenge der Benutzer zu unterstützen, die zu Telefonsystem umsenden, und um die Fortsetzung des Routings über das ältere System zu ermöglichen, wurde das ältere Telefoniesystem als nächster Hop zum SBC eingerichtet.   
+- Um eine Teilmenge der Benutzer zu Telefonsystem zu unterstützen und das Routing über das alte System fortgesetzt zu lassen, wurde das alte Telefoniesystem als nächster Wechsel zum SBC eingerichtet.   
 
-- Darüber hinaus hat Contoso Anleitungen zur Verwendung von Teams für alle internen Anrufe bereitgestellt, um die Änderung des Benutzerverhaltens zu fördern und die Abhängigkeit von zwischen- und websiteinternen Durchwahlen zu entfernen.  
+- Zur Förderung der Änderung des Benutzerverhaltens und zum Entfernen der Abhängigkeit von der Wählhilfe zwischen und innerhalb des Standorts bietet Contoso eine Anleitung zur Verwendung von Teams für alle internen Anrufe.  
 
-Die folgenden Diagramme zeigen die ursprüngliche Bereitstellung von Skype for Business Enterprise-VoIP und älteren Telefoniesystem sowie die Migration zu einer gemischten Bereitstellung mithilfe von Direct Routing:
+Die folgenden Diagramme zeigen die ursprüngliche Bereitstellung Skype for Business Enterprise-VoIP alten Telefoniesystems und die Migration zu einer gemischten Bereitstellung mithilfe von Direct Routing:
 
 **Ursprüngliche gemischte Bereitstellung** 
  ![ Diagramm, das vor dem Zustand angezeigt wird](media/voice-case-study-4.png)
 
-**Gemischte Bereitstellung mit Direct Routing** 
+**Gemischte Bereitstellung mit Direct-Routing** 
  ![ Diagramm, das vor dem Zustand angezeigt wird](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>Anrufpläne
 
-Um die Konfigurationsanforderungen für Anrufpläne zu ermitteln, hat Contoso die Grundlegenden Bereitstellungsentscheidungen für den [Anrufplan überprüft.](calling-plan-landing-page.md#core-deployment-decisions) Die daraus resultierenden Entscheidungen wurden getroffen: 
+Um die Konfigurationsanforderungen für Anrufpläne zu ermitteln, überprüfte Contoso die grundlegenden [Bereitstellungsentscheidungen für einen Anrufplan.](calling-plan-landing-page.md#core-deployment-decisions) Die daraus resultierenden Entscheidungen wurden getroffen: 
 
 - F. Benötigen meine Benutzer Auslandsrufe?<br> A. Ja 
 
-- F. Verfügen meine Benutzer jeweils über eine direkte nach innen gerichtete DID-Telefonnummer?<br> A. Heute nicht. Alle aktivierten Benutzer erhalten eine DID. 
+- F. Verfügen meine Benutzer jeweils über eine direkte nach innen gerichtete Telefonnummer?<br> A. Nicht heute. Alle aktivierten Benutzer erhalten eine Did-Funktion. 
 
-- F. Möchte ich die Anrufer-ID maskieren oder deaktivieren?<br> A. Die Anrufer-ID für einen Benutzer wird in der lokalen Rufnummer für Contoso maskiert. 
+- F. Möchte ich die Anrufer-ID maskieren oder deaktivieren?<br> A. Die Anrufer-ID für einen Benutzer wird für die lokale Nummer von Contoso maskiert. 
 
 
 ## <a name="direct-routing"></a>Direktes Routing
 
-Contoso besuchte Ignite, um über Office 365-Features auf dem laufenden zu bleiben, einschließlich der features, die mit Telefonsystem und Direct Routing verfügbar sind. Die technische Führung und Architekten haben die während der Ignite 2019 bereitgestellten Anleitungen verwendet, um ihre Richtung zu bestimmen.  Verwendete Schlüsselsitzungen: 
+Contoso hat an der Ignite teilgenommen, um auf dem laufenden zu Office 365, einschließlich der features, die über Telefon-System und Direct-Routing verfügbar sind. Technische Führungskräfte und Architekten verwendeten die während der Ignite 2019 bereitgestellte Anleitung, um ihre Richtung zu bestimmen.  Verwendete Schlüsselsitzungen: 
 
 - [Planen des Erfolgs mit Microsoft Teams Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
-- [Updates für Direct Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
+- [Updates für Direct-Routing](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
 
 ## <a name="configuration"></a>Konfiguration
 
-### <a name="calling-plans-sites"></a>Aufrufen von Planwebsites
+### <a name="calling-plans-sites"></a>Anrufpläne-Websites
 
-Um Lizenzen zu erhalten und Benutzern Telefonnummern zuzuordnen, hat Contoso die Schritte unter [Einrichten von Anrufplänen befolgt.](set-up-calling-plans.md) 
+Um Lizenzen zu erhalten und Benutzern Telefonnummern zuzuordnen, hat Contoso die Schritte unter Einrichten [von Anrufplänen befolgt.](set-up-calling-plans.md) 
 
-Aufgrund der Anzahl der Benutzer, denen Telefonnummern zugewiesen werden mussten, entschloss sich Contoso, PowerShell zum Zuweisen der Telefonnummern zu verwenden. Um zu erfahren, wie Zahlen mithilfe von PowerShell zusätzlich zu anderen Einstellungen zugewiesen werden, verwendet &mdash; Contoso die Übersicht über Teams &mdash; [PowerShell.](teams-powershell-overview.md)  
+Aufgrund der Anzahl der Benutzer, denen Telefonnummern zugewiesen werden mussten, hat Contoso sich entschieden, PowerShell zum Zuweisen der Telefonnummern zu verwenden. Um zu erfahren, wie Zahlen mithilfe von PowerShell zusätzlich zu anderen Einstellungen zugewiesen werden, verwendet Contoso die Teams &mdash; &mdash; [PowerShell Overview](teams-powershell-overview.md).  
 
 ### <a name="direct-routing-sites"></a>Direct Routing-Websites
 
-Um die lokale Telefonieinfrastruktur von Contoso mit Microsoft Teams zu verbinden, hat der Administrator von Contoso die Schritte unter [Konfigurieren](direct-routing-configure.md) des direkten Routings befolgt und das Video [Direct Routing in Microsoft Teams](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) zur Anleitung überprüft.  Contoso hat sich auch auf die Dokumentation zur Direct-Routing-Bereitstellung durch den zertifizierten SBC-Anbieter verwiesen. 
+Um die lokale Telefonieinfrastruktur von Contoso mit Microsoft Teams zu verbinden, hat der Administrator von Contoso die Schritte unter Konfigurieren von [Direct](direct-routing-configure.md) Routing befolgt und das Video [Direct Routing in Microsoft Teams](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl) überprüft.  Contoso hat sich außerdem vom zertifizierten SBC-Anbieter auf die Dokumentation zur Direct-Routingbereitstellung verwiesen. 
 
-Nach der Konfiguration von Direct Routing zwischen SBC und Microsoft Phone System musste Contoso die Konfiguration testen. Dazu verwendeten Contoso-Administratoren den SIP-Tester-Client, der in der Sitzung Updates für Direct Routing bei [Ignite 2019 besprochen wurde.](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) Das SIP Tester-Clientskript und die Dokumentation wurden aus dem PowerShell-Skript heruntergeladen, um Die Direct Routing Session Border Controller-Verbindungen zu testen.   
+Nachdem Direct Routing zwischen SBC und Microsoft-Telefon System konfiguriert wurde, musste Contoso die Konfiguration testen. Dazu haben die Contoso-Administratoren den SIP-Testerclient verwendet, der in der Sitzung Updates für [Direct-Routing bei Ignite 2019 besprochen wurde.](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions) Das Clientskript und die Dokumentation für SIP-Tester wurden aus dem PowerShell-Skript heruntergeladen, um die Verbindungen des Direct Routing Session Border Controller zu testen.   
 
 
 ### <a name="local-media-optimization"></a>Optimierung lokaler Medien
 
-Contoso hat die Möglichkeit gesehen, die Optimierung lokaler Medien in den verschiedenen Regionen auf der ganzen Welt zu nutzen. Die unterstützten Szenarien für Contoso werden unter [Local Media Optimization for Direct Routing beschrieben.](direct-routing-media-optimization.md) Die Konfiguration der Optimierung lokaler Medien wurde durch die Anleitung des SBC-Anbieters und von Microsoft abgeschlossen. Zu den Konfigurationsschritten für die Optimierung lokaler Medien gehören: 
+Contoso hatte Gelegenheit, die Optimierung lokaler Medien in den verschiedenen Regionen auf der ganzen Welt zu nutzen. Die unterstützten Szenarien für Contoso werden unter [Optimierung lokaler Medien für Direct-Routing beschrieben.](direct-routing-media-optimization.md) Die Konfiguration der lokalen Medienoptimierung wurde durch die Anleitung des SBC-Anbieters und von Microsoft abgeschlossen. Die Konfigurationsschritte für die Optimierung lokaler Medien umfassen Folgendes: 
 
 - Konfigurieren der Benutzer- und SBC-Websites 
 
-- Konfigurieren Sie den SBC gemäß der SBC-Lieferantenspezifikation, 
+- Konfigurieren Sie den SBC gemäß der SBC-Anbieterspezifikation, 
 
-- Hinzufügen externer vertrauenswürdiger IP-Adressen zu jeder Website, die für die Optimierung lokaler Medien verwendet wird    
+- Hinzufügen von externen vertrauenswürdigen IP-Adressen zu jeder Website, die für die Optimierung lokaler Medien verwendet wird    
 
 - Definieren der Netzwerktopologie 
 
-- Definieren der Topologie des virtuellen Netzwerks 
+- Definieren der virtuellen Netzwerktopologie 
 
-- Bestimmen des Modus: Immer umgehen oder nur für lokale Benutzer 
+- Bestimmen des Modus: Immer umgehen oder Nur für lokale Benutzer 
 
-## <a name="networking-considerations"></a>Überlegungen zum Netzwerken
+## <a name="networking-considerations"></a>Überlegungen zum Netzwerk
 
-Contoso hatte eine Reihe von Benutzern, die für einen längeren Zeitraum remote arbeiten mussten, nachdem sie für das Telefonsystem aktiviert wurden. Die Benutzer verwendeten VPN, um auf bestimmte Line of Business-Anwendungen zu zugreifen. Während der Verwendung von VPN haben die Benutzer des Telefonsystems eine Verschlechterung der Anrufqualität erfahren. 
+Contoso hatte eine Reihe von Benutzern, die für eine längere Zeit remote arbeiten mussten, nachdem sie für die Telefonsystem. Die Benutzer haben VPN für den Zugriff auf bestimmte Line of Business-Anwendungen verwendet. Bei der Verwendung von VPN Telefonsystem Benutzer eine Verschlechterung der Anrufqualität. 
 
-Um das Qualitätsproblem zu beheben, implementierte Contoso vpn split tunneling, wodurch der Office 365-Datenverkehr das Internet durchlaufen konnte, während die Verbindung mit den internen Apps über das VPN weiterhin besteht. Zum Implementieren des geteilten VPN-Tunnelings hat Contoso die Anleitung unter Implementieren von [geteilten VPN-Tunneln für Office 365 befolgt.](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
+Um das Qualitätsproblem zu beheben, hat Contoso VPN split tunneling implementiert, wodurch der Office 365-Datenverkehr das Internet durchlaufen konnte, während die Verbindung mit den internen Apps auf dem VPN übrig blieb. Um VPN Split Tunneling zu implementieren, folgen Sie den Anweisungen unter Implementieren von [geteilten VPN-Tunnels für Office 365.](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
 

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Kolumbien verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Kolumbien.
 ms.openlocfilehash: 00663cfcebdd2c87728bca334749bdd54eb64628
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118234"
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Kolumbien verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Kolumbien.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

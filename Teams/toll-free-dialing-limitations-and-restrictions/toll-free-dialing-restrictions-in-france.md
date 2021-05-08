@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Frankreich, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-/Festnetz- und Mobilfunknetzen und Einschränkungen.
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Frankreich, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
 ms.openlocfilehash: 738f513adb66f1cf73c0acf9279defd4aeb00db0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "51116723"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Einschränkungen für gebührenfreie Telefonnummern in Frankreich
 
-[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für gebührenfreie Wählscheibe.
 
 
 |**Details**|**Beschreibung**|
@@ -42,7 +42,7 @@ ms.locfileid: "51116723"
 |Wählformate  <br/> |0 800 9XX XXX  <br/> |
 |ISO-Code des Lands/der Region  <br/> |FR  <br/> |
 |Abgedeckte Inseln/Gebiete  <br/> | Französisches Festland und Korsika <br/> |
-|Nicht abgedeckte Inseln/Gebiete  <br/> |Kein Zugriff von Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre- &amp; -Miquelon, Mayotte, Neukaledonien, Französisch-Polynesien, Wallis &amp; Futuna.  <br/> |
+|Nicht abgedeckte Inseln/Gebiete  <br/> |Kein Zugriff von Monaco, Réunion, Martinique, Guadeloupe, Guyana, St. Pierre &amp; - Miquelon, Mayotte, Neukaledonien, Französisch-Polynesien, Wallis &amp; Futuna.  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Ja  <br/> |
 |Verfügbarkeit über Mobilnetze  <br/> |Ja  <br/> |
 |Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobilgeräte-Zugriff: Die Übertragungszeit wird berechnet.  <br/> |

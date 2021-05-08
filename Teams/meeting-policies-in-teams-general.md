@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie allgemeine Besprechungsrichtlinieneinstellungen in Teams verwalten.
+description: Erfahren Sie, wie Sie allgemeine Besprechungsrichtlinieneinstellungen in ihrer Teams.
 ms.openlocfilehash: fb5f537e5cc96ba363fb4aa68bbfff2af513db6b
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -30,22 +30,22 @@ ms.locfileid: "51598734"
 
 <a name="bkgeneral"> </a>
 
-In diesem Artikel werden die folgenden allgemeinen Richtlinieneinstellungen für Teams-Besprechungen beschrieben:
+In diesem Artikel werden die folgenden allgemeinen Richtlinieneinstellungen für Besprechungen Teams beschrieben:
 
 - [Sofortbesprechungen in Kanälen zulassen](#allow-meet-now-in-channels)
 - [Outlook-Add-In zulassen](#allow-the-outlook-add-in)
 - [Planung von Kanalbesprechungen zulassen](#allow-channel-meeting-scheduling)
 - [Planung privater Besprechungen zulassen](#allow-scheduling-private-meetings)
 - [Sofortbesprechungen in privaten Besprechungen zulassen](#allow-meet-now-in-private-meetings)
-- [Festgelegter Rollenmodus für Presenter](#designated-presenter-role-mode)
-- [Besprechungsbesuchsbericht](#meeting-attendance-report)
-- [Besprechungsanbieter für den Inselmodus](#meeting-provider-for-islands-mode)
+- [Designierter Presenter-Rollenmodus](#designated-presenter-role-mode)
+- [Bericht zur Teilnahme an Besprechungen](#meeting-attendance-report)
+- [Besprechungsanbieter für Islands-Modus](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>Sofortbesprechungen in Kanälen zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Diese Einstellung steuert, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams-Kanal starten kann. Wenn Sie dies aktivieren,  können Benutzer auf die Schaltfläche Besprechung klicken, um eine Ad-hoc-Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird festgelegt, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams starten kann. Wenn Sie dies aktivieren,  können die Benutzer auf die Schaltfläche Besprechung klicken, um eine Ad-hoc-Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
 
-[![Screenshot mit dem Symbol "Jetzt treffen" unter einer Nachricht ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![Screenshot des Symbols "Jetzt treffen" unter einer Nachricht ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="allow-the-outlook-add-in"></a>Outlook-Add-In zulassen
 
@@ -53,13 +53,13 @@ Hierbei handelt es sich um eine benutzerspezifisch Richtlinie, die angewendet wi
 
 ![Screenshot mit der Option für die Planung von Besprechungen](media/meeting-policies-outlook-add-in.png)
 
-Wenn Sie dies deaktivieren, können Benutzer keine Teams-Besprechungen planen, wenn sie eine neue Besprechung in Outlook erstellen. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
+Wenn Sie dies deaktivieren, können die Benutzer keine Besprechungen Teams planen, wenn sie eine neue Besprechung in ihrem Outlook. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
 
 ## <a name="allow-channel-meeting-scheduling"></a>Planung von Kanalbesprechungen zulassen
 
 Verwenden Sie die vorhandene "AllowChannelMeetingScheduling"-Richtlinie, um zu steuern, welche Arten von Ereignissen in den Kalendern des Team-Kanals erstellt werden können. Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Benutzer eine Besprechung in einem Microsoft Teams-Kanal planen können. Diese Einstellung ist standardmäßig aktiviert. 
 
-Wenn diese Richtlinie deaktiviert ist, können Benutzer keine neuen Kanalbesprechungen erstellen. Bereits vorhandene Kanalbesprechungen können jedoch vom Organisator der Veranstaltung bearbeitet werden.
+Wenn diese Richtlinie deaktiviert ist, können die Benutzer keine neuen Kanalbesprechungen erstellen. Bereits vorhandene Kanalbesprechungen können jedoch vom Organisator der Veranstaltung bearbeitet werden.
 
 Die Option zum Planen von Besprechungen ist dann deaktiviert.
 
@@ -69,7 +69,7 @@ Die Option zum Auswählen eines Kanals ist deaktiviert.
 
 [![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-Auf der Seite "Kanalbeiträge" wird Folgendes deaktiviert:
+Auf der Seite Beiträge des Kanals wird Folgendes deaktiviert:
 
 - Die Schaltfläche **Besprechung planen** im Feld zum Verfassen von Kanalantworten
   ![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-meeting-disabled-in-chat2.png)
@@ -80,9 +80,9 @@ Auf der Seite "Kanalbeiträge" wird Folgendes deaktiviert:
 Im Kanal-Kalender:
 
 - Die Schaltfläche **Neues Ereignis hinzufügen** im Header des Kanalkalenders ist deaktiviert.
-  ![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, mit dem Sie eine Besprechung planen können.](media/add-new-event-disabled.png)
+  ![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, der es Ihnen ermöglicht, eine Besprechung zu planen.](media/add-new-event-disabled.png)
 
-- Benutzer können einen Zeitblock im Kanalkalender nicht ziehen und auswählen, um eine Kanal besprechung zu erstellen.
+- Benutzer können einen Zeitblock im Kanalkalender nicht ziehen und auswählen, um eine Kanal-Besprechung zu erstellen.
 
 - Benutzer können keine Tastenkombinationen verwenden, um eine Besprechung im Kanalkalender zu erstellen.
 
@@ -90,7 +90,7 @@ Im Admin Center:
 
 Die Kanalkalender-App wird auf der Seite der App-Berechtigungsrichtlinien im Abschnitt **Microsoft-Apps** angezeigt.
 
-![Screenshot der App-Berechtigungsrichtlinie im Teams Admin Center.](media/manage-microsoft-apps-policy.png)
+![Screenshot der App-Berechtigungsrichtlinie im Teams Admin Center](media/manage-microsoft-apps-policy.png)
 
 ## <a name="allow-scheduling-private-meetings"></a>Planung privater Besprechungen zulassen
 
@@ -100,9 +100,9 @@ Beachten Sie, dass durch das Deaktivieren von **Planung privater Besprechungen z
 
 ## <a name="allow-meet-now-in-private-meetings"></a>Sofortbesprechungen in privaten Besprechungen zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Diese Einstellung steuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann.  Diese Einstellung ist standardmäßig aktiviert.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird festgelegt, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann.  Diese Einstellung ist standardmäßig aktiviert.
 
-## <a name="designated-presenter-role-mode"></a>Festgelegter Rollenmodus für Presenter
+## <a name="designated-presenter-role-mode"></a>Designierter Presenter-Rollenmodus
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Diese Einstellung ermöglicht es Ihnen, den Standardwert für **Wer kann präsentieren?** in den **Besprechungsoptionen** im Microsoft Teams-Client zu ändern. Diese Richtlinieneinstellung wirkt sich auf alle Besprechungen aus, einschließlich Sofortbesprechungen.
 
@@ -118,7 +118,7 @@ Um den Standardwert für die Einstellung **Wer kann präsentieren?** in Microsof
 
 Bedenken Sie, dass, nachdem Sie den Standardwert festgelegt haben, Besprechungsorganisatoren diese Einstellung in Microsoft Teams weiterhin ändern und auswählen können, wer in den von ihnen geplanten Besprechungen präsentieren kann.
 
-## <a name="meeting-attendance-report"></a>Besprechungsbesuchsbericht
+## <a name="meeting-attendance-report"></a>Bericht zur Teilnahme an Besprechungen
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Besprechungsorganisatoren den [Teilnahmebericht zu einer Besprechung](teams-analytics-and-reports/meeting-attendance-report.md) herunterladen können.
 
@@ -128,7 +128,7 @@ Wenn Sie einem Besprechungsorganisator das Herunterladen des Teilnahmeberichts z
 
 Um zu verhindern, dass der Bericht vom Besprechungsorganisator heruntergeladen wird, legen Sie den Parameter auf **Deaktiviert** (disabled) fest. Diese Einstellung ist standardmäßig deaktiviert, und die Option zum Herunterladen des Berichts ist nicht verfügbar.
 
-## <a name="meeting-provider-for-islands-mode"></a>Besprechungsanbieter für den Inselmodus
+## <a name="meeting-provider-for-islands-mode"></a>Besprechungsanbieter für Islands-Modus
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, welches Add-In für Outlook-Besprechungen für *Benutzer im Inselmodus* verwendet wird. Sie können festlegen, ob Benutzer nur das Add-In für Microsoft Teams-Besprechungen oder sowohl das Add-In für Microsoft Teams-Besprechungen als auch jenes für Skype for Business-Besprechungen verwenden können, um Besprechungen in Outlook zu planen.
 
@@ -145,9 +145,9 @@ Wenn Sie angeben möchten, welches Besprechungs-Add-In für Benutzer zur Verfüg
 
 ## <a name="meeting-reactions"></a>Besprechungsreaktionen
 
-Die Einstellung AllowMeetingReactions kann nur mit PowerShell angewendet werden. Es gibt keine Option zum Aktivieren oder Deaktivieren von AllowMeetingReactions aus dem Teams Admin Center.
+Die Einstellung "AllowMeetingReactions" kann nur mithilfe von PowerShell angewendet werden. Es gibt keine Option zum Aktivieren oder Deaktivieren von AllowMeetingReactions im Microsoft Teams Admin Center.
 
-Besprechungsreaktionen sind standardmäßig deaktiviert. Das Deaktivieren von Reaktionen für einen Benutzer bedeutet nicht, dass ein Benutzer keine Reaktionen in Besprechungen verwenden kann, die er plant. Der Besprechungsorganisator kann ungeachtet der Standardeinstellung weiterhin Reaktionen auf der Seite "Besprechungsoption" aktivieren.
+Besprechungsreaktionen sind standardmäßig deaktiviert. Das Deaktivieren der Reaktionen für einen Benutzer bedeutet nicht, dass er in von ihm geplanten Besprechungen keine Reaktionen verwenden kann. Unabhängig von der Standardeinstellung kann ein Besprechungsorganisator weiterhin Reaktionen über die Besprechungsoptionsseite aktivieren.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

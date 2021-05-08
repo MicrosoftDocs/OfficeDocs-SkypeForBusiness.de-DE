@@ -1,5 +1,5 @@
 ---
-title: Versionssupport
+title: Versionsunterstützung
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -55,7 +55,7 @@ Die folgende Tabelle enthält die empfohlenen und unterstützten Versionen von W
 |:---  |:---       |:---                                  |:---     |:---     |
 | 20H2 |2020-10-20 |Wird überprüft, <br/>Noch nicht unterstützt|&#x2014; |19042.572 |
 | 2004 |2020-05-27 |Übersprungen, <br/> Nicht empfohlen|&#x2014; |19041.264 |
-| 1909 |2019-11-12 |Unterstützt, <br/>Empfohlen |4.5.33.0 |18363.418  |
+| 1909 |2019-11-12 |"Unterstützt" <br/>Empfohlen |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |Unterstützt  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |Nicht unterstützt, <br/>Bekannte Kompatibilitätsprobleme &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Nicht unterstützt                             |&#x2014;  |&#x2014; |

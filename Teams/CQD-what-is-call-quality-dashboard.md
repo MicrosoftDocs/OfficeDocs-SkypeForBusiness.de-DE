@@ -22,7 +22,7 @@ ms.custom:
 - Reporting
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: Erfahren Sie mehr über das Anrufqualitätsdashboard (CQD) und wie Sie es verwenden, um Berichte zur Besprechungs- und Anrufqualität in Microsoft Teams anzuzeigen.
+description: Erfahren Sie mehr über das Anrufqualitätsdashboard (CQD) und wie Es wird verwendet, um Berichte zur Besprechungs- und Anrufqualität in Microsoft Teams.
 ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
 ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
@@ -32,43 +32,43 @@ ms.locfileid: "51593833"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>Was ist das Anrufqualitätsdashboard (CQD)?
 
-Das Microsoft Call Quality Dashboard (CQD) – zeigt die Anruf- und Besprechungsqualität auf Organisationsebene für Microsoft Teams, Skype for Business Online und [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) Skype for Business Server 2019 an.  
+Im Microsoft-Anrufqualitätsdashboard (CQD) – werden die Anruf- und Besprechungsqualität auf Organisationsebene für Microsoft Teams, Skype for Business Online und [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) Skype for Business Server 2019 angezeigt.  
 
   
-Die neueste Version von CQD verfügt über einen [Nah-Echtzeit-Datenfeed (NRT),](CQD-data-and-reports.md)was bedeutet, dass Anrufdatensätze in CQD innerhalb von 30 Minuten nach Dem Ende eines Anrufs verfügbar sind.
+Die neueste Version des CQD verfügt über einen [NrT-Datenfeed (Near-Real-Time, NrT),](CQD-data-and-reports.md)d. h., dass Anrufdatensätze innerhalb von 30 Minuten nach Dem Ende eines Anrufs im CQD verfügbar sind.
 
-Überall dort, wo CQD [EUII-Daten (User Identifiable Information,](CQD-data-and-reports.md#euii-data)Identifizierbare Informationen) enthält, wird sie in Microsoft [365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)auf die gleiche Weise wie EUII verwaltet.
+Überall dort, wo das CQD Daten enthält, die Benutzeridentifizierbaren Informationen [(EUII)](CQD-data-and-reports.md#euii-data)enthalten, werden sie in allen Bereichen auf die gleiche Weise wie [EUII Microsoft 365.](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)
 
-CQD soll Teams-Administratoren, Skype for Business-Administratoren und Netzwerktechnikern dabei helfen, die Anruf- und Besprechungsqualität auf Organisationsebene zu überwachen. Mithilfe von CQD können Sie Ihr Netzwerk **optimieren,** um die Leistungsqualität zu steigern. Wenn Sie anruf- und besprechungsinformationen für einen bestimmten Benutzer suchen **müssen,** verwenden Sie CQD-Daten in Verbindung mit der [Anrufanalyse pro Benutzer.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+Das CQD soll Teams Administratoren, Skype for Business Administratoren und Netzwerktechnikern dabei helfen, Anruf- und Besprechungsqualität auf Organisationsebene zu überwachen. Mithilfe des AQD können Sie Ihr Netzwerk **optimieren,** um die Leistungsqualität zu verbessern. Wenn Sie informationen zu Anruf- und Besprechungsinformationen für einen bestimmten Benutzer einschauen **müssen,** verwenden Sie AQD-Daten in Verbindung mit der [Anrufanalyse pro Benutzer.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-Mithilfe von CQD können Sie beispielsweise feststellen, dass die schlechte Anrufqualität eines Benutzers (die Sie bei der Anrufanalyse pro Benutzer beobachtet haben) auf ein Netzwerkproblem liegt, das auch viele andere Benutzer betrifft. CQD erfasst sowohl die individuelle Anruferfahrung als auch die Gesamtqualität von Anrufen, die mit Teams oder Skype for Business vorgenommen werden. Bei CQD können allgemeine Muster sichtbar werden, sodass Netzwerktechniker fundierte Bewertungen der Anrufqualität vornehmen können. CQD stellt Berichte über Metriken zur Anrufqualität bereit, die Ihnen Einen Einblick in die allgemeine Anrufqualität, Server-Client-Datenströme, Client-Client-Datenströme und SLA für Sprachqualität [geben.](https://go.microsoft.com/fwlink/p/?linkid=846252) 
+Mit dem Anrufqualitätsdqd können Sie beispielsweise ermitteln, dass die schlechte Anrufqualität eines Benutzers (die Sie anhand der Benutzeranrufanalyse beobachtet haben) auf ein Netzwerkproblem liegt, das sich auch auf viele andere Benutzer auswirkt. Das Anrufqualitätsdqd erfasst sowohl die Persönliche Anruferfahrung als auch die Gesamtqualität von Anrufen, die mithilfe von Teams oder Skype for Business. Mit dem AQD können allgemeine Muster sichtbar werden, sodass Netzwerktechniker fundierte Bewertungen der Anrufqualität vornehmen können. Das CQD bietet Berichte über Anrufqualitätsmetriken, die Ihnen einen Einblick in die allgemeine Anrufqualität, Server-Client-Datenströme, Client-Client-Datenströme und SLA zur [Sprachqualität geben.](https://go.microsoft.com/fwlink/p/?linkid=846252) 
   
-![Screenshot des Anrufqualitätsdashboards.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![Screenshot des Anrufqualitätsdashboards](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-In CQD empfehlen wir Ihnen, Gebäude- und Endpunktinformationen hochzuladen, mit denen Sie Location-Enhanced-Berichte verwenden können, um die Anrufqualität und Zuverlässigkeit im Gebäude eines Benutzers zu analysieren. Die Daten können ausgewertet werden, um festzustellen, ob das Problem für einen einzelnen Benutzer isoliert ist oder ein größeres Benutzersegment betrifft. Um gebäude- oder endpunktspezifische Ansichten in CQD [](CQD-upload-tenant-building-data.md) zu aktivieren, muss ein Administrator Gebäude- oder Endpunktinformationen auf die Seite CQD-Mandantendatenupload **hochladen.**
+Im AQD empfehlen wir Ihnen, Gebäude- und Endpunktinformationen hochzuladen, mit deren Hilfe Sie Location-Enhanced-Berichte verwenden können, um die Anrufqualität und Zuverlässigkeit im Gebäude eines Benutzers zu analysieren. Die Daten können bewertet werden, um zu ermitteln, ob das Problem für einen einzelnen Benutzer isoliert ist oder ein größeres Benutzersegment betrifft. Zum Aktivieren der Gebäude- oder Endpunkt-spezifischen Ansichten [](CQD-upload-tenant-building-data.md) im AQD muss ein Administrator Gebäude- oder Endpunktinformationen auf der Seite AQD-Mandantendaten **Hochladen** hochladen.
 
-![Screenshot des Anrufqualitätsdashboards Location-Enhanced Berichte.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![Screenshot des Anrufqualitätsdashboards für Location-Enhanced Berichte](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
-Verpassen Sie nicht [](quality-of-experience-review-guide.md) unseren Artikel Anruf- und Besprechungsqualität verwalten, der eine detaillierte Anleitung für den Teams-Administrator oder Supporttechniker bietet, der für die Verwaltung der Dienstqualität in Teams zuständig ist.
+Verpassen Sie nicht [](quality-of-experience-review-guide.md) unseren Artikel Verwalten von Anrufen und Besprechungsqualität, der detaillierte Anleitungen für den Teams-Administrator oder Supporttechniker bietet, der für die Verwaltung der Dienstqualität in Ihrer Teams.
 
-## <a name="legacy-version-of-cqd-cqdlynccom"></a>Ältere Version von CQD (CQD.lync.com)
+## <a name="legacy-version-of-cqd-cqdlynccom"></a>Ältere Version des AQD (CQD.lync.com)
 
-Die aktuelle Version von CQD ( ersetzt https://CQD.Teams.microsoft.com) die ältere Version von CQD ( https://CQD.lync.com) . Sie können weiterhin CQD.lync.com (im Skype for Business Admin Center verfügbar), aber ab dem 1. Juli 2020 werden die Daten aus CQD verwendet. Teams.microsoft.com und Sie können Ihre Gebäude- oder Abfragedaten aus dem alten CQD (CQD.lync.com) nicht mehr anzeigen oder ändern. Wenn Sie diese Daten noch nicht aus dem CQD.lync.com migriert haben und sie trotzdem benötigen, melden Sie ein Supportticket an.
+Die aktuelle Version von CQD ( wurde an die Stelle der älteren https://CQD.Teams.microsoft.com) Version von CQD ( ) https://CQD.lync.com) 1. Sie können weiterhin CQD.lync.com (über das Skype for Business Admin Center verfügbar), ab dem 1. Juli 2020 jedoch die Daten aus dem CQD verwenden. Teams.microsoft.com, und Sie können die Gebäude- oder Abfragedaten aus dem alten AQD (AQD) nicht mehr CQD.lync.com. Wenn Sie diese Daten noch nicht aus Ihrem Konto migriert CQD.lync.com aber dennoch benötigen, melden Sie ein Supportticket an.
 
 > [!IMPORTANT]
-> Ab dem 31. Juli 2021 wird die ältere Version von CQD (CQD.lync.com) CQD.lync.com. Nach diesem Datum werden Sie automatisch an CQD umgeleitet. Teams.microsoft.com beim Versuch, auf CQD.lync.com zu zugreifen, gehen alle nicht eingewanderten Gebäude- oder Abfragedaten verloren.
+> Seit dem 31. Juli 2021 wird die legacy-Version des AQD (CQD.lync.com) CQD.lync.com. Nach diesem Datum werden Sie automatisch an das AQD umgeleitet. Teams.microsoft.com bei dem Versuch, auf CQD.lync.com zu zugreifen, gehen alle nicht eingesendeten Gebäude- oder Abfragedaten verloren.
 
-## <a name="use-power-bi-to-analyze-cqd-data"></a>Verwenden von Power BI zum Analysieren von CQD-Daten
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Verwenden Power BI zum Analysieren von AQD-Daten
 
 Neu im Januar 2020: [Power BI-Abfragevorlagen für CQD herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, mit deren Hilfe Sie Ihre CQD-Daten analysieren und berichten können.
 
-Weitere Informationen finden Sie unter Verwenden von Power BI zum Analysieren von [CQD-Daten.](CQD-Power-BI-query-templates.md)
+Weitere Informationen Power BI Sie unter Verwenden von Power BI zum [Analysieren von AQD-Daten.](CQD-Power-BI-query-templates.md)
 
 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)
+[Verbessern und überwachen Sie die Anrufqualität für Teams](monitor-call-quality-qos.md)
 
 [Einrichten des Anrufqualitätsdashboards (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
@@ -76,13 +76,13 @@ Weitere Informationen finden Sie unter Verwenden von Power BI zum Analysieren vo
 
 [CQD-Daten und -Berichte](CQD-data-and-reports.md)
 
-[Verwenden von CQD zum Verwalten der Anruf- und Besprechungsqualität](quality-of-experience-review-guide.md)
+[Verwalten der Anruf- und Besprechungsqualität mithilfe des Anrufqualitäts-AQD](quality-of-experience-review-guide.md)
 
-[In CQD verfügbare Dimensionen und Measures](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Im AQD verfügbare Dimensionen und Measures](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Streamklassifizierung in CQD](stream-classification-in-call-quality-dashboard.md)
+[Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Verwenden von Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md)
+[Verwenden Power BI zum Analysieren von AQD-Daten](CQD-Power-BI-query-templates.md)
 
 
 [Teams-Problembehandlung](/MicrosoftTeams/troubleshoot/teams)

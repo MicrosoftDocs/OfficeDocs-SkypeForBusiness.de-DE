@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in den Vereinigten Arabischen Emiraten, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-/Festnetz- und Mobilfunknetzen und Einschränkungen.
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in den Vereinigten Arabischen Emiraten, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
 ms.openlocfilehash: 483165d439e8eefe10c665534d9ad1050331f4f8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "51097641"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Einschränkungen für gebührenfreie Telefonnummern in den Vereinigten Arabischen Emiraten
 
-[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für gebührenfreie Wählscheibe.
 
 
 |**Details**|**Beschreibung**|

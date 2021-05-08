@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Russland verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Russland verfügbar.
 ms.openlocfilehash: e0b63fc064ca8f49fd50d70b1496932e3d9af417
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51122279"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Russland verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Russland verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -69,7 +69,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Moskau <li>St. Petersburg ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Moskau <li>St. Petersburg[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul>|
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    

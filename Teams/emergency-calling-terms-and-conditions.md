@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie sich Notdienste (911) von herkömmlichen Telefondiensten unterscheiden und wie Sie einen Anruf machen. '
+description: 'Erfahren Sie, wie sich Notdienste (911) von herkömmlichen Telefondiensten unterscheiden und wie Sie anrufe. '
 ms.openlocfilehash: 3fd78707fc822b008eaca4046ff1d974b1ad1e06
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -33,9 +33,9 @@ ms.locfileid: "51092643"
 
 ## <a name="important-information"></a>Wichtige Informationen:
 
-Notrufe funktionieren bei Anrufplänen in Microsoft 365 oder Office 365 anders als bei herkömmlichen Telefondiensten. Es ist wichtig, dass Sie diese Unterschiede verstehen und allen Benutzern mit Anrufplänen in Microsoft 365 oder Office 365 kommunizieren. Sie bestätigen und erklären sich damit einverstanden, dass Sie die Unterschiede bei unseren Notrufen gelesen und verstanden haben, und geben diesen Hinweis jedem Benutzer mit Anrufplänen in Microsoft 365 oder Office 365 zu.
+Anrufe bei Notdiensten funktionieren mit Anrufplänen in Microsoft 365 oder Office 365 anders als bei herkömmlichen Telefondiensten. Es ist wichtig, dass Sie diese Unterschiede verstehen und sie allen Benutzern mit Anrufplänen in Microsoft 365 oder Office 365. Sie erkennen an und erklären sich damit einverstanden, dass Sie die Unterschiede bei Anrufen bei Notdiensten gelesen und verstanden haben und diese Benachrichtigung jedem Benutzer mit Anrufplänen in Microsoft 365 oder Office 365.
   
-Die Unterschiede bei unseren Anruffunktionen für Notdienste umfassen Folgendes: (i) Skype for Business und Teams kennen möglicherweise nicht den tatsächlichen Standort eines Anrufers, der einen Notruf abgeht, was dazu führen kann, dass der Anruf an die falsche Notrufzentrale und/oder an den falschen Ort der Notrufzentrale umgeschaltet wird. (ii) wenn der #A0 des Benutzers offline ist oder das Gerät des Benutzers aus irgendeinem Grund nicht auf das Internet zugreifen kann, z. B. aus einem Netzwerkausfall oder Stromausfall, werden Notrufe über das Telefonsystem in Microsoft 365 oder Office 365 nicht unterstützt und funktionieren nicht; und (iii) Obwohl Anrufpläne in Microsoft 365 oder Office 365 überall auf der Welt verwendet werden können, in der eine Internetverbindung verfügbar ist, sollten Die Benutzer keinen Notruf von einem Ort außerhalb ihres Landes/ihrer Region aus anrufen, da der Anruf wahrscheinlich nicht an das entsprechende Anrufcenter in diesem Land/dieser Region gesendet wird.
+Die Unterschiede bei den Anruffunktionen für Notrufe umfassen Folgendes: (i) Skype for Business und Teams kennen möglicherweise nicht den tatsächlichen Standort eines Anrufers, der einen Notruf abteilt, was dazu führen könnte, dass der Anruf an die falsche Notrufzentrale und/oder Notdienste an den falschen Standort umgerufen wird. (ii) wenn der Teams-Client des Benutzers offline ist oder das Gerät des Benutzers aus irgendeinem Grund nicht auf das Internet zugreifen kann, z. B. aufgrund eines Netzwerkausfalls oder Stromausfalls, werden Notrufe über Telefonsystem in Microsoft 365 oder Office 365 nicht unterstützt und es wird nicht erwartet, dass sie funktionieren; und (iii) Obwohl Anrufpläne in Microsoft 365 oder Office 365 überall auf der Welt verwendet werden können, wo eine Internetverbindung verfügbar ist, sollten Benutzer von einem Standort außerhalb ihres Landes/ihrer Region keinen Notruf abrufen, da der Anruf wahrscheinlich nicht an das entsprechende Callcenter in diesem Land/dieser Region geroutet wird.
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)

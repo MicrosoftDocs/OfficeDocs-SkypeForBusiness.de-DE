@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: Administratoren erfahren, wie Sie einem Skype Room System-Appliance-PC zu einer Active Directory-Domäne beitreten, zusammen mit den Überlegungen dazu.
+description: Der Administrator kann erfahren, wie sie einen Skype Room System Appliance-PC mit einer Active Directory-Domäne verbinden, zusammen mit den hierin zu berücksichtigenden Überlegungen.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -30,25 +30,25 @@ Lesen Sie dieses Thema und erfahren Sie, wie Sie Ihrer Domäne einen Skype Room
   
 ## <a name="domain-joining-considerations"></a>Überlegungen zur Domänenteilnahme
 
-Sie können dem Skype Room System-Appliance-PC der Active Directory-Domäne beitreten oder ihn in einer Arbeitsgruppe beurlauben. Berücksichtigen Sie die folgenden Punkte, bevor Sie diese Entscheidung treffen:
+Sie können dem Skype Room System Appliance PC der Active Directory-Domäne beitreten oder ihn einer Arbeitsgruppe überlassen. Berücksichtigen Sie die folgenden Punkte, bevor Sie diese Entscheidung treffen:
   
-- Die Domänenverkettung am Skype Room System-Appliance-PC hilft beim automatischen Importieren der privaten Stammzertifikatkette Ihrer Organisation.
-- Mit der Teilnahme an der Domäne am Skype Room System-Appliance-PC können Sie Domänenbenutzern und Gruppen Administratorrechte gewähren. Dadurch müssten Sie sich das Kennwort für das Administratorkonto auf Computerebene nicht merken.
-- Wenn Sie einem Skype Room System-Appliance-PC zur Domäne beitreten, müssen Sie eine separate Organisationseinheit (Ou) erstellen, damit Sie Gruppenrichtlinienobjektausschlüsse für die Organisationseinheit bereitstellen können, in der sich alle Skype Room System-Computerobjekte befinden. Erstellen Sie dabei Computerobjekte in der Organisationseinheit, bevor Sie dem Skype Room System-Appliance-PC der Domäne beitreten.
-- Viele Organisationen verfügen über die folgenden Gruppenrichtlinienobjekte, die sich auf die PC-Funktionen der Skype Room System-Appliance auswirken. Stellen Sie sicher, dass Sie die Vererbung dieser Gruppenrichtlinienobjekte in der Organisationseinheit Skype Room System außer Kraft setzen oder blockieren:
+- Wenn Sie dem Skype-PC für Raumsystem-Geräte beitreten, können Sie die private Stammzertifikatkette Ihrer Organisation automatisch importieren.
+- Wenn Sie dem Skype Room System Appliance PC beitreten, können Sie Domänenbenutzern und Gruppen Administratorrechte erteilen. Dadurch müssten Sie sich das Kennwort für das Administratorkonto auf Computerebene nicht merken.
+- Wenn Sie der Domäne einen SKYPE Room System Appliance-PC hinzufügen, müssen Sie eine separate Organisationseinheit erstellen, damit Sie Gruppenrichtlinienobjektausschlüsse (Group Policy Object, GPO) für die Organisationseinheit bereitstellen können, in der sich alle Computerobjekte des Skype Room System befinden. Wenn Sie dies tun, erstellen Sie Computerobjekte in der Organisationseinheit, bevor Sie der Domäne den Skype Room System Appliance PC beitreten.
+- Viele Organisationen verfügen über die folgenden Gruppenrichtlinienobjekte, die auswirkungen auf Skype Funktionen der Raumsystemgeräte-PC haben. Stellen Sie sicher, dass Sie die Vererbung dieser Gruppenrichtlinienobjekte in der Organisationseinheit Skype überschreiben oder blockieren:
 
   - Timeout von Anmeldesitzungen (automatische Sperre)
-  - Richtlinien im Zusammenhang mit der Energieverwaltung
+  - Richtlinien zur Energieverwaltung
   - Notwendigkeit zusätzlicher Authentifizierungsschritte
   - Verweigern des Zugriffs auf lokale Laufwerke
   - Benutzeraufforderungen bei langsamen Netzwerkverbindungen
   - Starten eines bestimmten Programms bei der Anmeldung
   - Erstellen eines weiteren Domänennutzerkontos auf allen Computern in der Domäne.
-  - Push Windows Update to Skype Room System
+  - Push-Windows aktualisieren auf Skype Raumsystem
     
-- Alternativ könnten Sie sich dazu entschließen, den Anwendungs-PC in der Arbeitsgruppe zu belassen. Wie beim Desktopclient von Microsoft Teams oder Skype for Business müssen Sie die Stammzertifikatkette auf dem Skype Room System-Appliance-PC manuell importieren. Sie müssen die Stammzertifikatkette nicht importieren, wenn Ihre Bereitstellung ein öffentliches Zertifikat verwendet (z. B. Anvertrauen, VeriSign und so weiter). 
+- Alternativ könnten Sie sich dazu entschließen, den Anwendungs-PC in der Arbeitsgruppe zu belassen. Wie beim Desktopgerät Microsoft Teams oder Skype for Business müssen Sie hierfür die Stammzertifikatkette manuell auf dem PC Skype Room System Appliance importieren. Sie müssen die Stammzertifikatkette nicht importieren, wenn ihre Bereitstellung ein öffentliches Zertifikat verwendet (z. B. "Anvertrauen", "VeriSign" und so weiter). 
     
-Wenn Sie Skype Room System-Computer der Domäne beitreten möchten, um zu vermeiden, versehentlich zu einer unbeabsichtigten Organisationseinheit zu kommen, die möglicherweise nicht frei von Gruppenrichtlinienobjekten ist, stellen Sie sicher, dass Sie der richtigen Organisationseinheit beitreten. Sie können das folgende Cmdlet vom Skype Room System-Computer verwenden, um an der richtigen Organisationseinheit teil zu nehmen und empfangen keine Gruppenrichtlinienobjekte, die die Funktionalität von LRS blockieren könnten. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, um die folgenden Cmdlets ausführen zu können:
+Wenn Sie der Domäne Skype Raumsystem-Computer beitreten möchten, um zu vermeiden, dass Sie Skype Room System Machine versehentlich einer unbeabsichtigten Organisationseinheit beitreten, die möglicherweise nicht frei von Gruppenrichtlinienobjekten ist, stellen Sie sicher, dass Sie der richtigen Organisationseinheit beitreten. Sie können das folgende Cmdlet vom Computer "Skype Room System" verwenden, um sich in der richtigen Organisationseinheit zu verbinden, und sie erhalten keine Gruppenrichtlinienobjekte, die die LRS-Funktionalität blockieren könnten. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, um diese Cmdlets ausführen zu lassen:
   
 ```powershell
 $username = "contso.local\LRS01"
@@ -57,9 +57,9 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Selbst wenn Sie eine separate Organisationseinheit erstellen und die Vererbung blockieren, gibt es einige Richtlinien, die probleme auf einer höheren Ebene verursachen könnten. Eine Gruppenrichtlinie mit „Nicht aufheben“-Einstellung hat Vorrang gegenüber einer OU mit „Richtlinienvererbung aufheben“-Einstellung. Weitere Informationen finden Sie unter [Keine Außerkraftsetzung im Vergleich zur Blockrichtlinienvererbung](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) in der Dokumentation zu Gruppenrichtlinien.
+Selbst wenn Sie eine separate Organisationseinheit erstellen und die Vererbung blockieren, gibt es einige Richtlinien, die Probleme auf einer höheren Ebene verursachen könnten. Eine Gruppenrichtlinie mit „Nicht aufheben“-Einstellung hat Vorrang gegenüber einer OU mit „Richtlinienvererbung aufheben“-Einstellung. Weitere Informationen finden Sie [in](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) der Dokumentation zu Gruppenrichtlinien unter Keine Außerkraftsetzung im Vergleich zu "Richtlinienvererbung blockieren".
   
-Unter Umständen stehen Ihnen mehrere Ansätze zur Lösung dieser Probleme zur Verfügung. Wir empfehlen Ihnen, sich an Ihre Active Directory-Experten zu wenden, um sicherzustellen, dass Ihnen eine Organisationseinheit mit geeigneten Gruppenrichtlinieneinstellungen oder mindestens eine Organisationseinheit zur Verfügung gestellt wird, in der die zuvor beschriebenen Richtlinien nicht vorhanden sind. Wir empfehlen, QoS (Quality of Service) für Skype Room System-Geräte zu aktivieren.
+Unter Umständen stehen Ihnen mehrere Ansätze zur Lösung dieser Probleme zur Verfügung. Wir empfehlen Ihnen, sich an Ihre Active Directory-Experten zu wenden, um sicherzustellen, dass Sie über eine Organisationseinheit mit geeigneten Gruppenrichtlinieneinstellungen oder mindestens eine Organisationseinheit, in der die zuvor beschriebenen Richtlinien nicht vorhanden sind, bereitgestellt werden. Es empfiehlt sich, Quality of Service (QoS) für Raumsystem Skype zu aktivieren.
 
 ## <a name="related-topics"></a>Verwandte Themen
   

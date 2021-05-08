@@ -45,7 +45,7 @@ Wenn Ihre Organisation bereits Teams verwendet, werden die App-Einstellungen, di
 Angenommen, Sie möchten alle Apps von Drittanbietern blockieren und bestimmte Apps von Microsoft für das HR-Team in Ihrem Unternehmen zulassen. Zuerst würden Sie auf der Seite [Apps verwalten](manage-apps.md) sicherstellen, dass die Apps, die Sie für das HR-Team zulassen möchten, auf der Organisationsebene erlaubt sind. Dann erstellen Sie eine benutzerdefinierte Richtlinie mit dem Namen "App-Berechtigungsrichtlinie für HR", konfigurieren sie so, dass die gewünschten Apps blockiert und zugelassen werden, und weisen sie den Benutzern im HR-Team zu.
 
 > [!NOTE]
-> Wenn Sie Teams in einer Microsoft 365 Government Community Cloud High (GCCH) und einer DoD-Umgebung (Department of Defense) bereitgestellt haben, lesen Sie Verwalten organisationsweite [App-Einstellungen für Microsoft 365 Government,](#manage-org-wide-app-settings-for-microsoft-365-government) um weitere Informationen zu Apps von Drittanbietern zu erhalten, die für GCCH und DoD eindeutig sind.
+> Wenn Sie Teams in einer Umgebung von Microsoft 365 Government Community Cloud High (GCCH) und Department of Defense (DoD) bereitgestellt haben, finden Sie unter Verwalten von organisationsweiten [App-Einstellungen](#manage-org-wide-app-settings-for-microsoft-365-government) für Microsoft 365 Government weitere Informationen zu App-Einstellungen von Drittanbietern, die für GCCH und DoD eindeutig sind.
 
 ## <a name="create-a-custom-app-permission-policy"></a>Erstellen einer benutzerdefinierten App-Berechtigungsrichtlinie
 
@@ -86,9 +86,9 @@ Sie können im Microsoft Teams Admin Center Richtlinien bearbeiten, einschließl
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Verwalten von organisationsweiten App-Einstellungen für Microsoft 365 Government  
 
-In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams ist es wichtig, die folgenden Informationen zu den Einstellungen für Apps von Drittanbietern zu erhalten, die für GCCH und DoD eindeutig sind.
+Bei einer Microsoft 365 Government - GCCH und DoD-Bereitstellung von Teams ist es wichtig, dass Sie Die folgenden Informationen zu App-Einstellungen von Drittanbietern kennen, die für GCCH und DoD eindeutig sind.
 
-In GCCH und DoD werden standardmäßig alle Apps von Drittanbietern blockiert. Außerdem finden Sie auf der Seite mit den App-Berechtigungsrichtlinien im Microsoft Teams Admin Center den folgenden Hinweis zur Verwaltung von Drittanbieter-Apps.
+In GGCH und DoD werden alle Drittanbieter-Apps standardmäßig blockiert. Außerdem finden Sie auf der Seite mit den App-Berechtigungsrichtlinien im Microsoft Teams Admin Center den folgenden Hinweis zur Verwaltung von Drittanbieter-Apps.
 
 ![Screenshot der App-Berechtigungsrichtlinie in GCCH und DoD](media/app-permission-policies-gcc.png)
 
@@ -100,10 +100,10 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer A
     
 2. Aktivieren oder deaktivieren Sie unter **Drittanbieter-Apps** diese Einstellungen, um den Zugriff auf Drittanbieter-Apps zu steuern:
 
-    - **Drittanbieter-Apps zulassen**: Steuert, ob Benutzer Drittanbieter-Apps verwenden können. Wenn Sie diese Einstellung deaktivieren, können Ihre Benutzer keine Drittanbieter-Apps installieren oder verwenden. In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams ist diese Einstellung standardmäßig deaktiviert.
+    - **Drittanbieter-Apps zulassen**: Steuert, ob Benutzer Drittanbieter-Apps verwenden können. Wenn Sie diese Einstellung deaktivieren, können Ihre Benutzer keine Drittanbieter-Apps installieren oder verwenden. In einer Microsoft 365 Government - GCCH und DoD-Bereitstellung von Teams ist diese Einstellung standardmäßig deaktiviert.
     - **Alle neuen Drittanbieter-Apps, die im Store veröffentlicht werden, standardmäßig zulassen**: Steuert, ob neue Drittanbieter-Apps, die im Teams-App-Store veröffentlicht werden, automatisch in Teams verfügbar gemacht werden. Sie können diese Option nur aktivieren, wenn Sie Drittanbieter-Apps zulassen.
 
-3. Fügen Sie unter **Blockierte Apps** die Apps hinzu, die Sie in Ihrer Organisation blockieren möchten. In einer Microsoft 365 Government - GCCH- und DoD-Bereitstellung von Teams werden standardmäßig alle Apps von Drittanbietern dieser Liste hinzugefügt. Wenn Sie eine Drittanbieter-App in Ihrer Organisation zulassen möchten, entfernen Sie diese App aus der Liste der blockierten Apps. Wenn Sie eine App organisationsweit blockieren, wird die App automatisch für alle Ihre Benutzer blockiert, unabhängig davon, ob sie in einer App-Berechtigungsrichtlinie erlaubt ist.
+3. Fügen Sie unter **Blockierte Apps** die Apps hinzu, die Sie in Ihrer Organisation blockieren möchten. In einer Microsoft 365 Government - GCCH und DoD-Bereitstellung von Teams werden standardmäßig alle Drittanbieter-Apps dieser Liste hinzugefügt. Wenn Sie eine Drittanbieter-App in Ihrer Organisation zulassen möchten, entfernen Sie diese App aus der Liste der blockierten Apps. Wenn Sie eine App organisationsweit blockieren, wird die App automatisch für alle Ihre Benutzer blockiert, unabhängig davon, ob sie in einer App-Berechtigungsrichtlinie erlaubt ist.
 4. Klicken Sie auf **Speichern**, damit die organisationsweiten App-Einstellungen wirksam werden.
 
 Wie bereits erwähnt, können Sie, um Apps von Drittanbietern zuzulassen, entweder die globale (organisationsweite Standard-) Richtlinie bearbeiten und verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen.

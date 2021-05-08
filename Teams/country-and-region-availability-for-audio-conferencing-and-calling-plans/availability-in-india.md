@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Indien.
 ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,13 +36,13 @@ ms.locfileid: "51117993"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Indien.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft audio conferencing in Indien nicht. TATA Communications bietet einen Einwahl- und Einwahldienst, der mit Microsoft Teams-Besprechungen kompatibel ist. Weitere Informationen finden Sie auf der [Website von TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft keine Audiokonferenzen in Indien. TATA Communications bietet einen Einwahl- und Einwahldienst, der mit Ihren Microsoft Teams kompatibel ist. Weitere Informationen finden Sie auf der [Website von TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Mumbai</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
 
@@ -69,11 +69,11 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Andere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Weitere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 
- Beachten Sie, dass in Indien Dienstnummern nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
+ Beachten Sie, dass in Indien Servicenummern nur für Audiokonferenzen verwendet werden können. Wenn Sie also gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für Skype for Business [und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

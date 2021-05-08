@@ -41,7 +41,7 @@ Nachstehend finden Sie eine Liste der Features, die Sie über Microsoft Teams-Ad
 |:-----|:-----|:-----|:-----|
 |**Feature** <br/> |**Beschreibung** <br/> |**Kleine Unternehmen (bis zu 300 Benutzer)**|**Große Unternehmen (mehr als 300 Benutzer)**|
 **Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) ist eine Telefonielösung für kleine und mittelständische Unternehmen mit bis zu 300 Benutzern, die Telefonsystem, Audiokonferenzen, einen Inlandsanrufplan und mehr umfasst. Zu den Telefonsystem-Funktionen, die Sie erhalten, gehören Voicemail, Anrufer-ID, Parken von Anrufen, Anrufweiterleitung, automatische Telefonzentralen und Anrufwarteschleifen. <br> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Business Voice nach Land und Region](../business-voice/country-region-availability.md). Informationen zu den Preisen finden Sie unter [Preise für Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
-|**Audiokonferenzen** <br/> |In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich statt über ihren Computer über ein Telefon in eine Microsoft Teams-Besprechung einwählen. Richten Sie [Audiokonferenzen für](../audio-conferencing-in-office-365.md) Benutzer ein, die Besprechungen planen oder führen. <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Wenn es sich bei Ihrem um ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern handelt und es derzeit nicht über Audiokonferenzlizenzen verfügt, können Sie Audiokonferenzen für ein Jahr kostenlos erhalten. Seit dem 1. Oktober 2020 ist das kostenlose Audiokonferenzangebot für Benutzer verfügbar, die über Lizenzen für Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1 oder Enterprise E3 verfügen. Näheres erfahren Sie unter [Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen](../audio-conferencing-smb.md).|&#x2713;|&#x2713;|
+|**Audiokonferenzen** <br/> |In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich statt über ihren Computer über ein Telefon in eine Microsoft Teams-Besprechung einwählen. Einrichten von [Audiokonferenzen für](../audio-conferencing-in-office-365.md) Benutzer, die Besprechungen planen oder führen. <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Wenn es sich bei Ihrem um ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern handelt und es derzeit nicht über Audiokonferenzlizenzen verfügt, können Sie Audiokonferenzen für ein Jahr kostenlos erhalten. Seit dem 1. Oktober 2020 ist das kostenlose Audiokonferenzangebot für Benutzer verfügbar, die über Lizenzen für Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1 oder Enterprise E3 verfügen. Näheres erfahren Sie unter [Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen](../audio-conferencing-smb.md).|&#x2713;|&#x2713;|
 |**Gebührenfreie Nummern** |Wenn Sie gebührenfreie Nummern für Audiokonferenzen, automatische Telefonzentralen oder Anrufwarteschleifen wünschen, müssen Sie [Kommunikationsguthaben einrichten](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|
 |**Telefonsystem** <br/> |[Microsoft Telefonsystem](../what-is-phone-system-in-office-365.md) ist ein gehosteter Telefondienst, der Ihnen Anrufsteuerungs- und PBX-Funktionen (Private Branch Exchange, Nebenstellenanlage) mit Optionen für die Verbindung zum öffentlichen Telefonnetz (PSTN, Public Switched Telephone Network) bietet. Zu den Features des Microsoft Telefonsystems zählen Cloud-Voicemail, Anrufer-ID, Parken von Anrufen, Anrufweiterleitung, automatische Telefonzentralen, Anrufwarteschleifen, Anrufdurchstellung und mehr. <br>Weitere Informationen finden Sie unter [Was Ihnen das Microsoft Telefonsystem bietet](../here-s-what-you-get-with-phone-system.md). Informationen zu den Preisen finden Sie unter [Preise für Microsoft Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Anrufpläne** <br/> |Wenn Sie möchten, dass Ihre Benutzer beliebige Telefonnummern außerhalb Ihres Unternehmens anrufen können, benötigen Sie einen [Anrufplan](../calling-plans-for-office-365.md). Es gibt Anrufpläne für das Inland sowie Anrufpläne für In- und Ausland. Informationen zu den Preisen finden Sie unter [Preise für Anrufpläne](https://go.microsoft.com/fwlink/?linkid=799761 ).  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
@@ -72,12 +72,12 @@ Bei Microsoft 365 Business Voice stehen zwei Optionen zur Auswahl:
 
 Weitere Informationen finden Sie unter [Was benötige ich für die Nutzung von Microsoft 365 Business Voice?](../business-voice/what-to-buy.md).
 
-Dies ist eine Zusammenfassung, die auf dem Lizenzierungsplan basiert.
+Hier ist eine Zusammenfassung basierend auf einem Lizenzierungsplan.
 
 <table>
 <thead>
 <tr class="header">
-<th><strong>Kleinunternehmen ( &lt; 300 Personen)</strong></th>
+<th><strong>Kleinunternehmen &lt; (300 Mitarbeiter)</strong></th>
 <th>&nbsp;</th>
 <th>&nbsp;</th>
 <th>&nbsp;</th>
@@ -99,18 +99,18 @@ Dies ist eine Zusammenfassung, die auf dem Lizenzierungsplan basiert.
 Microsoft 365 Business Standard Microsoft 365 Business Premium</td>
 <td>Microsoft 365 Business Voice<br>Plan für internationale Anrufe <br />(optional) Guthaben für Kommunikationen </td><td>Oder</td>
 <td>Microsoft 365 Business Voice ohne Anrufplan<br />
-Guthaben für Audiokonferenzen </td><td>Oder</td>
-<td>Guthaben für Audiokonferenzen</td>
+Guthaben für Kommunikationen in Audiokonferenzen </td><td>Oder</td>
+<td>Guthaben für Kommunikationen in Audiokonferenzen</td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
 <td>Microsoft 365 Business Voice<br>Plan für internationale Anrufe <br />(optional) Guthaben für Kommunikationen </td><td>Oder</td>
 <td>Microsoft 365 Business Voice ohne Anrufplan</td><td>Oder</td>
-<td>Audiokonferenzen<br> Telefonsystem<br>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Audiokonferenzen<br> Telefonsystem<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 </tr>
 <tr class="even">
 <td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
-<td>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 <td></td>
 <td></td>
@@ -138,7 +138,7 @@ Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 <table>
 <thead>
 <tr class="header">
-<th><strong>Enterprise Business (>300 Personen)</strong></th>
+<th><strong>Enterprise Unternehmen (>300 Personen)</strong></th>
 <th>&nbsp;</th>
 <th>&nbsp;</th>
 </tr>
@@ -150,12 +150,12 @@ Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
-<td>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 </tr>
 </tbody>
@@ -195,16 +195,16 @@ Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Enterprise A1 oder A3<br>Office 365 Education A1 oder A3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Internationaler Anrufplan (optional)<br>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
+<td>Microsoft 365 Enterprise A1 oder A3<br>Office 365 Education A1 oder A3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Anrufplan für Ausland (optional)<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
 </tr>
 <tr>
 <td>Microsoft 365 Education A1 oder A3<br>Office 365 Education A1 oder A3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Microsoft 365 Business Voice <sup>1</sup><br>Internationaler Anrufplan (optional)<br>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>Anrufplan für Ausland (optional)<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 Education A5<br>Office 365 Education A5</td>
-<td>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 <td></td>
 </tr>
@@ -245,16 +245,16 @@ Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 GOV G1 oder G3<br>Office 365 GOV G1 oder G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Internationaler Anrufplan (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
+<td>Microsoft 365 GOV G1 oder G3<br>Office 365 GOV G1 oder G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Anrufplan für Ausland (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
 </tr>
 <tr>
-<td>Microsoft 365 GOV G1 oder G3<br>Office 365 GOV G1 oder G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Internationaler Anrufplan (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td>
-<td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Microsoft 365 GOV G1 oder G3<br>Office 365 GOV G1 oder G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Anrufplan für Ausland (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td>
+<td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
-<td>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 <td></td>
 </tr>
@@ -296,22 +296,22 @@ Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Non-Profit Business Basic<br>Microsoft 365 Non-Profit Business Standard</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Internationaler Anrufplan (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
+<td>Microsoft 365 Non-Profit Business Basic<br>Microsoft 365 Non-Profit Business Standard</td><td>Microsoft 365 Business Voice <sup>1</sup><br>Anrufplan für Ausland (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
 </tr>
 <tr>
-<td>Microsoft 365 Non-Profit E1 oder E3<br>Office 365 Non-Profit E1 oder E3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Microsoft 365 Business Voice <sup>1</sup><br>Internationaler Anrufplan (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
+<td>Microsoft 365 Gemeinnützige Organisation E1 oder E3<br>Office 365 Non-Profit E1 oder E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>Anrufplan für Ausland (optional)<br>Guthaben für Kommunikationen</td><td>Oder</td><td>Microsoft 365 Business Voice ohne Anrufplan<sup>1</sup></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Non-Profit E1 oder E3<br>Office 365 Non-Profit E1 oder E3<br>Microsoft 365 F3<br>Office 365 F3</td>
-<td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Microsoft 365 Gemeinnützige Organisation E1 oder E3<br>Office 365 Non-Profit E1 oder E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Nonprofit E5<br>Office 365 Non-Profit E5</td>
-<td>Anrufplan für Inland<br>Plan für Inlands- und Auslandsrufe (optional)<br>Guthaben für Kommunikationen</td>
+<td>Microsoft 365 Non-Profit E5<br>Office 365 Non-Profit E5</td>
+<td>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 <td></td>
 </tr>
@@ -344,7 +344,7 @@ Hier ist eine Übersicht über die Testversionen von VoIP-Features.
 <table>
 <thead>
 <tr class="header">
-<th><strong>Testversionsangebote</strong></th>
+<th><strong>Testangebote</strong></th>
 <th>&nbsp;</th>
 <th>&nbsp;</th>
 </tr>
@@ -355,31 +355,31 @@ Hier ist eine Übersicht über die Testversionen von VoIP-Features.
 <td><strong>Beschreibung</strong></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Business Voice Trial</td><td>Zeigt Ihnen die Features für Sprachanrufe im Inland, Audiokonferenzen und erweiterte Sprachfeatures wie automatische Telefonkonferenzen und Anrufwarteschlangen.</td>
+<td>Microsoft 365 Business Voice Testversion</td><td>Zeigt die Features für Inland-Sprachanrufe, Audiokonferenzen und erweiterte Sprachfeatures wie automatische Telefonkonferenzen und Anrufwarteschleifen.</td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Business Voice Trial<br>Testversion des Microsoft 365 Domestic and International Calling Plan</td>
-<td>Zeigen Sie die Features für in- und internationale Sprachanrufe, Audiokonferenzen und erweiterte Sprachfeatures wie automatische Telefonkonferenzen und Warteschlangen an.</td>
+<td>Microsoft 365 Business Voice Testversion<br>Microsoft 365 Testversion des Anrufplans für In- und Ausland</td>
+<td>Zeigen Sie ihnen die Funktionen für nationale und internationale Sprachanrufe, Audiokonferenzen und erweiterte Sprachfeatures wie automatische Telefonkonferenzen und Warteschlangen.</td>
 </tr>
 <tr>
-<td>Testversion des Microsoft 365 Domestic Calling Plan</td>
-<td>Zeigen Sie die Features für Sprachanrufe im Inland an.</td>
+<td>Microsoft 365 Testversion des Plans für Inland anrufe</td>
+<td>Zeigen Sie die Features für Inland-Sprachanrufe an.</td>
 </tr>
 <tr>
-<td>Testversion des Microsoft 365 Domestic and International Calling Plan</td>
-<td>Zeigen Sie die Features für in- und internationale Anrufe an.</td>
+<td>Microsoft 365 Testversion des Anrufplans für In- und Ausland</td>
+<td>Zeigen Sie ihnen die Funktionen für nationale und internationale Anrufe.</td>
 </tr>
 <tr>
-<td>Testversion von Microsoft 365 Audiokonferenzen</td>
+<td>Microsoft 365 Audiokonferenz- Testversion</td>
 <td>Zeigt das Feature für Audiokonferenzen an.</td>
 </tr>
 <tr>
-<td>Microsoft 365 Phone System – Virtueller Benutzer</td>
-<td>Zeigt Ihnen die erweiterten Sprachfeatures wie automatische Telefonwarteschlangen und Anrufwarteschlangen.</td>
+<td>Microsoft 365 Telefon - Virtueller Benutzer</td>
+<td>Zeigt Ihnen die erweiterten Sprachfeatures wie automatische Telefonkonferenzen und Anrufwarteschleifen.</td>
 </tr>
 <tr>
-<td>Common Area Phone Trial</td>
-<td>Zeigt Ihnen die Features für Telefone im allgemeinen Bereich.</td>
+<td>Common Area Telefon Trial</td>
+<td>Zeigt die Features für allgemeine Telefone in der Nähe an.</td>
 </tr>
 </tbody>
 </table>

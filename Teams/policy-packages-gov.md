@@ -1,5 +1,5 @@
 ---
-title: Teams-Richtlinienpakete für Behörden
+title: Teams von Richtlinienpaketen für Behörden
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Teams-Richtlinienpakete für Ihre Regierungsorganisation verwenden und verwalten.
+description: Hier erfahren Sie, wie Sie Teams Richtlinienpakete für Ihre Regierungsorganisation verwenden und verwalten.
 ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,10 +24,10 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117773"
 ---
-# <a name="teams-policy-packages-for-government"></a>Teams-Richtlinienpakete für Behörden
+# <a name="teams-policy-packages-for-government"></a>Teams von Richtlinienpaketen für Behörden
 
 > [!NOTE]
-> Richtlinienpakete sind derzeit in Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
+> Richtlinienpakete sind in Bereitstellungen von Government Microsoft 365 Government GCC DoD derzeit nicht verfügbar.
 
 ## <a name="overview"></a>Übersicht
 
@@ -45,13 +45,13 @@ Teams enthält derzeit die folgenden Richtlinienpakete für Behörden.
 
 |Paketname im Microsoft Teams Admin Center|Am besten geeignet für|Beschreibung |
 |---------|---------|---------|
-|Referent für öffentliche Sicherheit  |Beauftragte für öffentliche Sicherheit in Ihrer Regierungsorganisation  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Mitarbeiter der öffentlichen Sicherheit in Ihrer Organisation gelten. |
-|Frontline-Manager  |Frontlinemanager in Ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Frontline-Manager in Ihrer Organisation an.|
-|Frontlinemitarbeiter  |Frontlinearbeiter in Ihrer Regierungsorganisation |Erstellt eine Reihe von Richtlinien und wendet diese Einstellungen auf Frontline-Mitarbeiter in Ihrer Organisation an.|
+|Public Safety Officer  |Public Safety Officers in Ihrer Regierungorganisation  |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Public Safety Officers in Ihrer Organisation gelten. |
+|Frontline-Manager  |Frontline Manager in Ihrer Regierungsorganisation |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline-Manager in Ihrer Organisation an.|
+|Frontline-Worker  |Mitarbeiter in Frontline in Ihrer Regierungsorganisation |Erstellt einen Satz von Richtlinien und wendet diese Einstellungen auf Frontline Workers in Ihrer Organisation an.|
 
 ![Screenshot der Gesundheitsrichtlinien-Pakete](media/policy-packages-gov.png)
 
-Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie beispielsweise benutzern in Ihrer Organisation das Richtlinienpaket für öffentliche Sicherheit zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen PublicSafety_Officer erstellt.
+Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie beispielsweise das Richtlinienpaket des öffentlichen Sicherheitsbeauftragtes Benutzern in Ihrer Organisation zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen PublicSafety_Officer Richtlinie erstellt.
 
 ![Screenshot der Richtlinien im Paket für klinische Mitarbeiter im Gesundheitswesen](media/policy-packages-public-safety-officer.png)
 
@@ -71,7 +71,7 @@ Sie können die Einstellungen für Richtlinien in einem Paket auch ändern, nach
 
 ### <a name="assign"></a>Zuweisen
 
-Weisen Sie das Richtlinienpaket Benutzern zu. Wenn einem Benutzer eine Richtlinie zugewiesen wurde und Sie ihm dann später eine andere Richtlinie zuweisen, hat die neuere Vorrang.
+Weisen Sie das Richtlinienpaket Benutzern zu. Wenn einem Benutzer eine Richtlinie zugewiesen ist und Sie ihm dann später eine andere Richtlinie zuweisen, hat die neuere Vorrang.
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Ein Richtlinienpaket einem oder mehreren Benutzern zuweisen
 

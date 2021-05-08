@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: Die Anrufer-ID kann sowohl für eingehende als auch ausgehende Anrufe für Benutzer des Telefonsystems mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
+description: Die Anrufer-ID kann sowohl für ein- als auch für ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
 ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,9 +31,9 @@ ms.locfileid: "51120676"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
-Die Anrufer-ID kann sowohl für eingehende als auch ausgehende Anrufe für Benutzer des Telefonsystems mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
+Die Anrufer-ID kann sowohl für ein- als auch für ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
   
-Die Anrufer-ID-Funktion ist unabhängig von der PSTN-Konnektivität für alle Benutzer des Telefonsystems verfügbar:
+Die Anrufer-ID-Funktion steht allen Benutzern Telefonsystem pstN-Anbindung zur Verfügung:
 
 - Microsoft-Anrufpläne 
 
@@ -50,27 +50,27 @@ Die Anrufer-ID-Funktion ist unabhängig von der PSTN-Konnektivität für alle Be
   
 ## <a name="outbound-caller-id"></a>Ausgehende Anrufer-ID
 
-Für ausgehende PSTN-Anrufer-ID stehen drei Optionen zur Verfügung:
+Für ausgehende PSTN-Anrufer-ID sind drei Optionen verfügbar:
   
-- Die telefonnummer, die dem Benutzer zugewiesen ist, was die Standardnummer ist.
+- Die dem Benutzer zugewiesene Telefonnummer (Standardeinstellung).
     
-- Eine Telefonnummer, die als  Dienst und gebührenfreie Nummer in Ihrem *Anrufpläne-Telefonnummernbestand* klassifiziert ist. Sie wird normalerweise einer automatischen Telefonzentrale oder einer Anruf-Warteschleife Ihrer Organisation zugewiesen.
+- Eine Telefonnummer, die in  Ihrem Telefonnummernbestand für Anrufpläne als Dienstnummer und *gebührenfreie* Nummer klassifiziert ist. Sie wird normalerweise einer automatischen Telefonzentrale oder einer Anruf-Warteschleife Ihrer Organisation zugewiesen.
     
 - Auf „Anonym" festgelegt
     
 Die folgenden Arten von Telefonnummern können Sie jedoch nicht als ausgehende Anrufer-ID nicht zuweisen:
   
-- Telefonnummern, die als Benutzer in Ihrem  *Telefonnummernbestand*  für Anrufpläne klassifiziert sind
+- Telefonnummern, die in  Ihrem Telefonnummernbestand für Anrufpläne als Benutzer klassifiziert sind
     
 - Lokale Skype for Business Server-Telefonnummern
     
 Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](./set-the-caller-id-for-a-user.md).
   
-### <a name="end-user-control-of-outbound-caller-id"></a>Endbenutzersteuerung der ausgehenden Anrufer-ID
+### <a name="end-user-control-of-outbound-caller-id"></a>Steuerung der ausgehenden Anrufer-ID durch Endbenutzer
 
-Das EnableUserOverride-Attribut ermöglicht es einzelnen oder mehreren Benutzern, ihre Anrufer-ID-Einstellung in **Anonym zu ändern.** Dies gilt nur, wenn eine CallingLineIdentity -Richtlinie mit dem CallingIDSubstitute -Parameter LineURI oder Substitute konfiguriert ist. Der Standardwert von EnableUserOverride lautet False.
+Mit dem EnableUserOverride-Attribut können einzelne oder mehrere Benutzer ihre Anrufer-ID-Einstellung in **Anonym ändern.** Dies gilt nur, wenn eine CallingLineIdentity -Richtlinie mit dem CallingIDSubstitute -Parameter LineURI oder Substitute konfiguriert ist. Der Standardwert von EnableUserOverride lautet False.
   
-Ihre Endbenutzer können ihre Anrufer-ID auf  **Anonym** festlegen, indem sie die Registerkarte Einstellungen im Skype for Business-Desktopclient verwenden, Einen Endbenutzer anrufen **(sofern** vom Administrator aktiviert) und dann Meine Telefonnummer und Profilinformationen für alle Anrufe ausblenden **auswählen.** In Teams können Benutzer zu ihrem Profilbild in der oberen rechten Ecke wechseln, Einstellungen Anrufe auswählen und dann unter  >   **Anrufer-ID** meine Telefonnummer und Profilinformationen für alle Anrufe **ausblenden auswählen.**
+Ihre Endbenutzer können ihre Anrufer-ID über die Registerkarte **Einstellungen** im Skype for Business-Desktopclient auf Anonym festlegen, anschließend Endbenutzer anrufen **(sofern** vom Administrator aktiviert) und dann Meine Telefonnummer und Profilinformationen für alle Anrufe ausblenden **auswählen.**  In Teams können Benutzer zu ihrem Profilbild in der oberen rechten Ecke wechseln, **Einstellungen-Anrufe** und dann unter  >   **Anrufer-ID** die Option Meine Telefonnummer und Profilinformationen für alle Anrufe ausblenden auswählen. 
   
 ||||
 |:-----|:-----|:-----|
@@ -83,9 +83,9 @@ Ihre Endbenutzer können ihre Anrufer-ID auf  **Anonym** festlegen, indem sie di
    
 ## <a name="inbound-caller-id"></a>Eingehende Anrufer-ID
 
-Das Telefonsystem zeigt die "ID" für eine externe Telefonnummer an, wenn die Nummer einem Benutzer in Azure AD zugeordnet ist. Wenn sich die Telefonnummer nicht in Azure AD befindet, wird der von der Telco bereitgestellte Anzeigename angezeigt, wenn sie verfügbar ist.
+Telefonsystem wird die "Anruf-ID" für eine externe Telefonnummer angezeigt, wenn die Nummer einem Benutzer in Azure AD zugeordnet ist. Wenn sich die Telefonnummer nicht in Azure AD befindet, wird der von Telco bereitgestellte Anzeigename angezeigt, sofern er verfügbar ist.
 
-Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, es steht den Endbenutzern jedoch auf der Seite mit den Benutzereinstellungen nicht zur Verfügung. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
+Mit dem Attribut BlockIncomingCallerID können Sie die Anrufer-ID Für eingehende PSTN-Anrufe blockieren. Sie können dieses Attribut festlegen, es steht den Endbenutzern auf der Seite mit den Benutzereinstellungen jedoch nicht zur Verfügung. Außerdem ist das Attribut zurzeit nur für Online-PSTN-Anbindung verfügbar.
   
 Informationen zum Festlegen der ausgehenden Anrufer-ID finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer](./set-the-caller-id-for-a-user.md).
   

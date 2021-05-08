@@ -1,6 +1,6 @@
 ---
 title: Teams für das Gesundheitswesen
-description: Erfahren Sie mehr über die Administratorressourcen, die Ihnen zum Verwalten von Teams für Gesundheitsteams in Ihrer Organisation zur Verfügung stehen.
+description: Erfahren Sie mehr über die Administratorressourcen, die Ihnen zum Verwalten ihrer Teams im Gesundheitswesen in Ihrer Organisation zur Verfügung stehen.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,10 +25,10 @@ ms.locfileid: "51092513"
 ---
 # <a name="teams-for-healthcare"></a>Teams für das Gesundheitswesen
 
-Teams bietet Gesundheitsteams und Gesundheitsexperten eine sichere Möglichkeit, um zu kommunizieren, die Patientenversorgung zu koordinieren und die betriebliche Effizienz zu verbessern. Hier finden Sie die Administratorressourcen, die Sie zum Verwalten von Teams für Gesundheitsteams in Ihrer Organisation benötigen.
+Teams bietet Gesundheitsteams und Gesundheitswesensprofis eine sichere Möglichkeit, zu kommunizieren, die Patientenpflege zu koordinieren und die betriebliche Effizienz zu verbessern. Hier finden Sie die Administratorressourcen, die Sie benötigen, um Ihre Teams im Gesundheitswesen in Ihrer Organisation zu verwalten.
 
 |               |               |
 | ------------- | ------------- |
-| ![Screenshot der Hand mit einem Finger, der auf ein Pfeilsymbol zeigt](../media/get-started-teams.svg)  |  [Erste Schritte mit Microsoft Teams für Organisationen im Gesundheitswesen](./healthcare/teams-in-hc.md) |
+| ![Screenshot einer Hand mit einem Finger, der auf ein Pfeilsymbol zeigt](../media/get-started-teams.svg)  |  [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](./healthcare/teams-in-hc.md) |
 | ![Screenshot eines Kartensymbols](../media/walkthrough-map-teams.svg) | [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](./healthcare/healthcare-templates-admin-console.md) |
 | ![Screenshot des Symbols "Dialogblasen"](../media/chat.svg)  |  [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](./healthcare/messaging-policies-hc.md) |

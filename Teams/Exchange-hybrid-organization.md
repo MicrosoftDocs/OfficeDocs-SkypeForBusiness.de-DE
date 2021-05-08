@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren einer Exchange-Hybridorganisation
+title: Konfigurieren einer Exchange Hybridorganisation
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: Erfahren Sie, wie Sie eine Exchange-Hybridorganisation für die Verwendung mit Microsoft Teams konfigurieren, um sicherzustellen, dass Gruppenmitgliedschaften synchronisiert werden.
+description: Erfahren Sie, wie Sie Exchange Hybridorganisation für die Verwendung mit Microsoft Teams konfigurieren, um sicherzustellen, dass Gruppenmitgliedschaften synchronisiert werden.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -28,4 +28,4 @@ ms.locfileid: "51094607"
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Konfigurieren einer hybriden Exchange-Organisation zur Verwendung in Microsoft Teams
 ======================================================================
 
-Im Allgemeinen sollten Sie keine Exchange Online-Funktionen für die Verwendung mit Microsoft Teams konfigurieren müssen. Für Exchange Hybrid-Szenarien sind jedoch Schritte erforderlich, um sicherzustellen, dass Gruppenmitgliedschaften zwischen Exchange Server (lokal) und Exchange Online synchronisiert werden. Dazu gehört die Aktivierung der Gruppenrückschreiben-Funktionalität in Azure AD Connect zusammen mit verschiedenen Initialisierungsskripts: Konfigurieren von [Microsoft 365-Gruppen](/exchange/hybrid-deployment/set-up-microsoft-365-groups)mit einer lokalen Exchange-Hybrid- .
+Im Allgemeinen sollte es nicht erforderlich sein, eine Exchange Online für die Verwendung mit Microsoft Teams. Für hybride Exchange sind jedoch Schritte erforderlich, um sicherzustellen, dass Gruppenmitgliedschaften zwischen Exchange Server (lokal) und Exchange Online. Dies umfasst die Aktivierung der Funktionen für Gruppenrückschreiben in Azure AD Verbinden zusammen mit verschiedenen Initialisierungsskripts: Konfigurieren von Microsoft 365-Gruppen mit einer lokalen [Exchange Hybridbereitstellung.](/exchange/hybrid-deployment/set-up-microsoft-365-groups)

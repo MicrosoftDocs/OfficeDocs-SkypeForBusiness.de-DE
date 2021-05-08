@@ -1,66 +1,60 @@
 ### YamlMime:Hub
 title: Kursleitergeführte Schulung für Microsoft Teams
-summary: Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Um sich unsere Schulungskurse selbstständig anzusehen, besuchen Sie unsere On-Demand-Schulung für Endbenutzer. Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.
+summary: 'Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Um sich unsere Schulungskurse selbstständig anzusehen, besuchen Sie unsere On-Demand-Schulung für Endbenutzer. Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.'
 brand: teams
 metadata:
   title: Kursleitergeführte Schulung für Microsoft Teams
-  description: Hier erfahren Sie, wie Sie sich für ﻿kostenlose, kursleitergeführte Liveschulungen anmelden, um alles über Microsoft Teams zu erfahren.
+  description: "Hier erfahren Sie, wie Sie sich für \uFEFFkostenlose, kursleitergeführte Liveschulungen anmelden, um alles über Microsoft Teams zu erfahren."
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 3e702f300e6d2b53319b694b3d536f539ad1ff56
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120616"
 highlightedContent:
   items:
-  - title: Willkommen bei Microsoft Teams
-    itemType: overview
-    url: https://aka.ms/SayhelloTeams
-  - title: On-Demand-Schulung für Endbenutzer
-    itemType: video
-    url: https://aka.ms/TeamsOnDemand
-  - title: Microsoft 365-Einführungstools
-    itemType: deploy
-    url: https://adoption.microsoft.com
+    - title: Willkommen bei Microsoft Teams
+      itemType: overview
+      url: 'https://aka.ms/SayhelloTeams'
+    - title: On-Demand-Schulung für Endbenutzer
+      itemType: video
+      url: 'https://aka.ms/TeamsOnDemand'
+    - title: Microsoft 365-Einführungstools
+      itemType: deploy
+      url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-  - title: Erste Schritte mit Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'Von Chat und Besprechungen bis hin zur Verwendung von Teams und Kanälen – Benutzer kennen nach dieser Sitzung die Grundlagen, um Teams zu verwenden. (Publikum: Jeder)'
-    url: https://aka.ms/GetstartedwithMSTeams
-  - title: Chats und Anrufen in Teams verwenden
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'Erfahren Sie, wie Sie alle Ihre Unterhaltungen von einer zentralen Plattform aus verwalten können. (Publikum: Jeder)'
-    url: https://aka.ms/ChatCallingInTeams
-  - title: Mit Teams effektive Besprechungen durchführen
-    imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: 'Erfahren Sie, wie Sie Ihre Besprechungen ansprechender, produktiver und sinnvoller gestalten können. (Publikum: Jeder)'
-    url: https://aka.ms/RunmeetingsTeams
-  - title: Erkunden von Teams und Kanälen in Teams
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'Erfahren Sie, wie Sie Ihre Zusammenarbeit im Rahmen von Projekten und Arbeitsgruppen optimieren können. (Publikum: Jeder)'
-    url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Arbeitsbereiche für die Zusammenarbeit in Teams erstellen
-    imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'Lernen Sie, wie Sie den besten Ansatz für die Erstellung von Arbeitsbereichen für Projekte und Arbeitsgruppen finden. (Publikum: Jeder)'
-    url: https://aka.ms/CollaborateInTeams
-  - title: Profitipps in Teams nutzen
-    imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Erfahren Sie, wie Teams Ihnen helfen kann, Ihren Arbeitstag zu organisieren und leichter mit Kollegen in Verbindung zu bleiben. (Publikum: Jeder)'
-    url: https://aka.ms/TeamsProTips
-  - title: Heimarbeiten mit Teams meistern
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'Lernen Sie bewährte Methoden kennen, wie Sie mit Ihrem Team in Verbindung bleiben und die Produktivität aufrechterhalten. (Publikum: Jeder)'
-    url: https://aka.ms/WFHTeams
-  - title: Microsoft Teams Education – Webinare
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: 'Erfahren Sie, wie Sie Teams in Hochschulen verwenden. (Zielgruppe: Mitarbeiter, Studenten, Akademiker, Forschungsmitarbeiter, IT-Experten)'
-    url: https://aka.ms/TeamsEduWebinars
-  - title: Workshops zur Upgrade-Planung
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Ein erfolgreiches Upgrade zu Teams planen und implementieren. (Zielgruppe: IT-Spezialisten, Change Manager für die Einführung)'
-    url: ./upgrade-workshops-landing-page.yml
+    - title: Erste Schritte mit Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
+      summary: 'Von Chat und Besprechungen bis hin zur Verwendung von Teams und Kanälen – Benutzer kennen nach dieser Sitzung die Grundlagen, um Teams zu verwenden. (Publikum: Jeder)'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
+    - title: Chats und Anrufen in Teams verwenden
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      summary: 'Erfahren Sie, wie Sie alle Ihre Unterhaltungen von einer zentralen Plattform aus verwalten können. (Publikum: Jeder)'
+      url: 'https://aka.ms/ChatCallingInTeams'
+    - title: Mit Teams effektive Besprechungen durchführen
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: 'Erfahren Sie, wie Sie Ihre Besprechungen ansprechender, produktiver und sinnvoller gestalten können. (Publikum: Jeder)'
+      url: 'https://aka.ms/RunmeetingsTeams'
+    - title: Erkunden von Teams und Kanälen in Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
+      summary: 'Erfahren Sie, wie Sie Ihre Zusammenarbeit im Rahmen von Projekten und Arbeitsgruppen optimieren können. (Publikum: Jeder)'
+      url: 'https://aka.ms/TeamsandchannelsinTeams'
+    - title: Arbeitsbereiche für die Zusammenarbeit in Teams erstellen
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: 'Lernen Sie, wie Sie den besten Ansatz für die Erstellung von Arbeitsbereichen für Projekte und Arbeitsgruppen finden. (Publikum: Jeder)'
+      url: 'https://aka.ms/CollaborateInTeams'
+    - title: Profitipps in Teams nutzen
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
+      summary: 'Erfahren Sie, wie Teams Ihnen helfen kann, Ihren Arbeitstag zu organisieren und leichter mit Kollegen in Verbindung zu bleiben. (Publikum: Jeder)'
+      url: 'https://aka.ms/TeamsProTips'
+    - title: Heimarbeiten mit Teams meistern
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: 'Lernen Sie bewährte Methoden kennen, wie Sie mit Ihrem Team in Verbindung bleiben und die Produktivität aufrechterhalten. (Publikum: Jeder)'
+      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams Education – Webinare
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
+      summary: 'Erfahren Sie, wie Sie Teams in Hochschulen verwenden. (Zielgruppe: Mitarbeiter, Studenten, Akademiker, Forschungsmitarbeiter, IT-Experten)'
+      url: 'https://aka.ms/TeamsEduWebinars'
+    - title: Workshops zur Upgrade-Planung
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
+      summary: 'Ein erfolgreiches Upgrade zu Teams planen und implementieren. (Zielgruppe: IT-Spezialisten, Change Manager für die Einführung)'
+      url: ./upgrade-workshops-landing-page.yml

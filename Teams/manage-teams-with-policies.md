@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Teams mit Richtlinien
+title: Verwalten Teams mit Richtlinien
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: Lehnen Sie sich an Teams-Richtlinien an.
+description: Informationen zu Teams Richtlinien.
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -22,56 +22,56 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51574184"
 ---
-# <a name="manage-teams-with-policies"></a>Verwalten von Teams mit Richtlinien
+# <a name="manage-teams-with-policies"></a>Verwalten Teams mit Richtlinien
 
-Richtlinien sind ein wichtiger Bestandteil der Verwaltung von Teams. In diesem Artikel können Sie navigieren, wie Richtlinien zum Nutzen Ihrer Organisation verwendet werden.
+Richtlinien sind ein wichtiger Bestandteil der Verwaltung Teams. In diesem Artikel erfahren Sie, wie Richtlinien zum Nutzen Ihrer Organisation verwendet werden.
 
-## <a name="what-you-use-policies-for"></a>Verwenden von Richtlinien für
+## <a name="what-you-use-policies-for"></a>Für was Sie Richtlinien verwenden
 
-Richtlinien werden verwendet, um viele Aufgaben in Ihrer Organisation in verschiedenen Bereichen wie Messaging, Besprechungen und Anwendungen auszuführen. Einige der Dinge, die Sie tun können, umfassen das Planen von Besprechungen in einem Teamkanal, das Bearbeiten gesendeter Nachrichten durch Benutzer und das Steuern, ob Benutzer Apps an die Teams-App-Leiste anheften können.
+Richtlinien werden verwendet, um viele Aufgaben in Ihrer Organisation in verschiedenen Bereichen, z. B. Nachrichten, Besprechungen und Anwendungen, auszuführen. Zu den Dingen, die Sie tun können, gehören das Planen von Besprechungen in einem Teams-Kanal, das Ermöglichen der Bearbeitung gesendeter Nachrichten durch Benutzer und das Steuern, ob Benutzer Apps an die App-Leiste Teams können.
 
 ## <a name="how-to-assign-policies"></a>Zuweisen von Richtlinien
 
 Richtlinien können auf verschiedene Arten zugewiesen werden, je nachdem, was Ihre Organisation zu erreichen versucht. Sie können Aufgaben im Teams Admin Center erstellen und anzeigen.
 
-![Screenshot der Gruppenrichtlinienzuordnung.](media/group-policy-assignment.png)
+![Screenshot der Gruppenrichtlinienzuweisung](media/group-policy-assignment.png)
 
-Weitere Informationen zum Zuweisen von Richtlinien finden Sie [hier.](policy-assignment-overview.md)
+Weitere Informationen zum Zuweisen von Richtlinien finden [Sie hier.](policy-assignment-overview.md)
 
-## <a name="how-to-manage-policies"></a>Verwalten von Richtlinien
+## <a name="how-to-manage-policies"></a>So wird's geschafft: Verwalten von Richtlinien
 
-Richtlinien werden mit dem Microsoft Teams Admin Center oder [mit PowerShell verwaltet.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
+Richtlinien werden mit dem Microsoft Teams Admin Center oder [mithilfe von PowerShell verwaltet.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
-Mit einer App-Setuprichtlinie können Sie beispielsweise Benutzern das Hochladen benutzerdefinierter Apps, das Installieren von Apps im Auftrag Ihrer Benutzer und das Anheften von Apps an die Teams-App-Leiste ermöglichen. Diese Richtlinien werden im Teams Admin Center konfiguriert.
+Mit einer App-Setuprichtlinie können Sie Benutzern beispielsweise das Hochladen benutzerdefinierter Apps, das Installieren von Apps im Namen Ihrer Benutzer und das Anheften von Apps an die app-Leiste Teams ermöglichen. Diese Richtlinien werden im Teams Admin Center konfiguriert.
 
 ![Screenshot der App-Setuprichtlinie.](media/app-setup-policy.png)
 
-Darüber hinaus kann eine Besprechungsrichtlinie verwendet werden, um Audio- und Videoeinstellungen in Teams-Besprechungen wie Transkriptionen, Cloudaufzeichnungen und IP-Audio/Video zu steuern.
+Darüber hinaus kann eine Besprechungsrichtlinie verwendet werden, um Audio- und Videoeinstellungen in Teams-Besprechungen wie Transkriptionen, Cloudaufzeichnungen und IP-Audio/-Video zu steuern.
 
 ![Screenshot der Besprechungsrichtlinie.](media/engineering-meeting-policy.png)
 
 ### <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
-Sie können auch den [Richtlinien-Assistenten für Teams for Education](easy-policy-setup-edu.md) verwenden, um Richtlinien für Ihre Lernumgebung auf einfache Weise zu erstellen und zu verwalten.
+Sie können auch den Richtlinien-Teams [für](easy-policy-setup-edu.md) Bildungseinrichtungen verwenden, um Richtlinien für Ihre Lernumgebung auf einfache Weise zu erstellen und zu verwalten.
 
-![Screenshot des Richtlinien-Assistenten für Teams for Education.](media/easy-policy-setup-quick-setup.png)
+![Screenshot des Teams for Education-Richtlinien-Assistenten](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>Richtlinientypen
 
-Die folgenden Richtlinien können mit Microsoft Teams verwaltet werden.
+Die folgenden Richtlinien können mit einem Konto verwaltet Microsoft Teams.
 
 Richtlinientyp | Beschreibung
 ------------|------------
-[Richtlinienpakete](manage-policy-packages.md) | Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Einstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben.
-[Besprechungsrichtlinien](meeting-policies-in-teams.md) | Eine Besprechungsrichtlinie wird verwendet, um die Features zu steuern, die Besprechungsteilnehmern für Besprechungen zur Verfügung stehen, die von Benutzern in Ihrer Organisation geplant wurden. Besprechungsrichtlinien umfassen die folgenden Themen.<br> - Audio- und Videorichtlinien<br> - Richtlinien für Inhalts- und Bildschirmfreigabe<br> – Teilnehmer-, Gäste- und Zugriffsrichtlinien<br> – Allgemeine Richtlinien
-[Sprach- und Anrufrichtlinien](voice-and-calling-policies.md)| Sprach- und Anrufrichtlinien verwalten diese Einstellungen über Teams wie Notrufe, Anrufrouting und Anrufer-ID.
-[App-Richtlinien](app-policies.md)| App-Richtlinien werden zum Steuern von Anwendungen in Microsoft Teams verwendet. Administratoren können zulassen oder blockieren, welche Apps Benutzer installieren können, Anwendungen an die Teams-App-Leiste eines Benutzers anheften und die Anwendung im Auftrag Ihrer Benutzer installieren.
-[Messagingrichtlinien](messaging-policies-in-teams.md)| Messagingrichtlinien steuern die Verfügbarkeit von Chat- und Kanalfeatures.
+[Richtlinienpakete](manage-policy-packages.md) | Ein Richtlinienpaket in Microsoft Teams eine Sammlung vordefinierter Richtlinien und Einstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben.
+[Besprechungsrichtlinien](meeting-policies-in-teams.md) | Eine Besprechungsrichtlinie wird verwendet, um die Features zu steuern, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern in Ihrer Organisation geplant wurden. Zu den Besprechungsrichtlinien gehören die folgenden Themen:<br> - Richtlinien für Audio und Video<br> - Richtlinien für die Inhalts- und Bildschirmfreigabe<br> – Teilnehmer-, Gäste- und Zugriffsrichtlinien<br> - Allgemeine Richtlinien
+[Richtlinien für Sprachanrufe und Anrufe](voice-and-calling-policies.md)| Richtlinien für Sprach- und Anrufanrufe verwalten diese Einstellungen über Teams wie Notrufe, Anrufrouting und Anrufer-ID.
+[App-Richtlinien](app-policies.md)| App-Richtlinien werden zum Steuern von Anwendungen in Microsoft Teams. Administratoren können zulassen oder blockieren, welche Apps Benutzer installieren, Anwendungen an die Teams-App-Leiste eines Benutzers anheften und Anwendung im Auftrag Ihrer Benutzer installieren können.
+[Messagingrichtlinien](messaging-policies-in-teams.md)| Messagingrichtlinien steuern die Verfügbarkeit von Chats und Kanalfeatures.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-* [Zuweisen von Richtlinien in Teams – erste Schritte](policy-assignment-overview.md)
+* [Zuweisen von Richtlinien in Teams – Erste Schritte](policy-assignment-overview.md)
 * [Verwalten von Feedbackrichtlinien in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Verwalten von Teamrichtlinien in Microsoft Teams](teams-policies.md)
 * [Einrichten von Live-Ereignissen in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Richtlinien und Richtlinienpakete für Teams für Bildungseinrichtungen](policy-packages-edu.md)
+* [Teams education-Richtlinien und -Richtlinienpakete](policy-packages-edu.md)

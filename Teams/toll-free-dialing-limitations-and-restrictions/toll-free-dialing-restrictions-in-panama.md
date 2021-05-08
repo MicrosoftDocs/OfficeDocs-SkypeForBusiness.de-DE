@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Hier finden Sie Informationen zum Wählen gebührenfreier Nummern in Panama, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-/Festnetz- und Mobilfunknetzen und Einschränkungen.
+description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in Panama, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
 ms.openlocfilehash: f1dca1950854c5fc8b78b97fea3278018062f243
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "51097851"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>Einschränkungen für gebührenfreie Telefonnummern in Panama
 
-[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für gebührenfreie Wählscheibe.
 
 
 |**Details**|**Beschreibung**|
@@ -45,7 +45,7 @@ ms.locfileid: "51097851"
 |Nicht abgedeckte Inseln/Gebiete  <br/> |Nicht zutreffend  <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Nur über C&amp;W  <br/> |
 |Verfügbarkeit über Mobilnetze  <br/> |Nein  <br/> |
-|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Der Kunde muss vor der gebührenfreien Nummer die Nummer 011 (den internationalen Panama-Code für den Fernverkehr) wählen.  <br/> |
+|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Der Kunde muss vor der gebührenfreien Nummer 011 (den internationalen Panama-Fernverkehr) wählen.  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

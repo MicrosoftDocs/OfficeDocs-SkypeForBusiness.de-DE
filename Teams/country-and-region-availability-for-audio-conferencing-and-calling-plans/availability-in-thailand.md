@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Thailand verfügbar sind.
+description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Thailand verfügbar.
 ms.openlocfilehash: 6e23adf6f30955b1b9c3a97c0a64113c628eab04
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51121473"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Thailand verfügbar sind.
+Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Thailand verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

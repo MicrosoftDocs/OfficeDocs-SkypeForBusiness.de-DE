@@ -26,7 +26,7 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 04/24/2021
 ms.locfileid: "51995143"
 ---
-# <a name="create-a-team-using-teams-retail-templates"></a>Erstellen eines Teams mithilfe von Vorlagen für den Einzelhandel in Teams
+# <a name="create-a-team-using-teams-retail-templates"></a>Erstellen eines Teams mithilfe Teams Einzelhandelsvorlagen
 
 Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
@@ -40,8 +40,8 @@ Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste S
 
 | Wer | Zu verwendende Methode: |
 | ---- | --------- |
-| Administratoren und IT-Spezialisten | [Verwenden Sie das Teams Admin Center,](#use-the-teams-templates-in-the-teams-admin-center) um Teams basierend auf den Teams-Vorlagen für den Einzelhandel zu erstellen.|
-| Entwickler und Systemintegratoren | [Verwenden Sie Microsoft Graph,](#use-the-teams-templates-with-the-microsoft-graph) um Teams basierend auf den Teams-Vorlagen für den Einzelhandel zu erstellen. |
+| Administratoren und IT-Spezialisten | [Verwenden Sie Teams Admin Center,](#use-the-teams-templates-in-the-teams-admin-center) um Teams basierend auf den Einzelhandelsvorlagen Teams erstellen.|
+| Entwickler und Systemintegratoren | [Verwenden Sie die Microsoft Graph,](#use-the-teams-templates-with-the-microsoft-graph) um Teams basierend auf den Einzelhandelsvorlagen Teams erstellen. |
 
 ## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Verwenden Sie die Teams-Vorlagen im Teams Admin Center
 
@@ -56,7 +56,7 @@ Bringen Sie Ihre Einzelhandelsmitarbeiter in einer zentralen Erfahrung zusammen,
 
 ### <a name="manager-collaboration"></a>Manager-Zusammenarbeit
 
-Die Vorlage "Managerzusammenarbeit" eignet sich ideal für die Erstellung eines Teams für eine Gruppe von Managern, die über Stores/Regionen hinweg zusammenarbeiten können usw. Wenn Ihre Organisation beispielsweise Regionen enthält, können Sie ein Team für die Zusammenarbeit von Managern für die Region Kalifornien erstellen und alle Storemanager in dieser Region sowie den Regionalmanager für diese Region umfassen.
+Die Vorlage für die Zusammenarbeit von Vorgesetzten eignet sich ideal zum Erstellen eines Teams für eine Gruppe von Managern für die Zusammenarbeit in Stores/Regionen usw. Wenn Ihre Organisation beispielsweise Regionen hat, können Sie ein Team für die Zusammenarbeit vorgesetzter für die Region Kalifornien erstellen und alle Store-Manager in dieser Region zusammen mit dem Regionalmanager für diese Region umfassen.
 
 | Basisorlagentyp| baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|- |----------------------------------------------------- |

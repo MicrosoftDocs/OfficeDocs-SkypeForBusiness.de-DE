@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit auf den Bahamas
+title: Verfügbarkeit in den Bahamas
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Bahamas verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für die Bahamas.
 ms.openlocfilehash: e0e0e72ba3e3c1ffded7689b20efddd2ff5e9468
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,17 +31,17 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121463"
 ---
-# <a name="availability-in-the-bahamas"></a>Verfügbarkeit auf den Bahamas
+# <a name="availability-in-the-bahamas"></a>Verfügbarkeit in den Bahamas
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Bahamas verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für die Bahamas.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Per-Minute-Zahlung](../audio-conferencing-pay-per-minute.md)  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja, [nur Minuten](../audio-conferencing-pay-per-minute.md) bezahlt  <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> | Nein |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> | Erfordert Guthaben für Kommunikationen <br/> |
    
@@ -62,17 +62,17 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn Anrufpläne nicht zum Kauf verfügbar sind, ziehen Sie die Verwendung von [Direct Routing in Betracht.](../direct-routing-landing-page.md) Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
+Wenn Anrufpläne nicht zum Kauf erhältlich sind, erwägen Sie die Verwendung von [Direct-Routing.](../direct-routing-landing-page.md) Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenfreie und gebührenfreie Nummern für Dienste
+## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht zutreffend <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein <br/> |
-|Sind gebührenfreie Nummern verfügbar? <br/> | Ja  <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar? <br/> | Ja  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschlangen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business](../getting-service-phone-numbers.md)und Microsoft Teams .
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

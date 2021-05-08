@@ -1,6 +1,6 @@
 ---
 title: Erweitern von Microsoft Teams in Ihrer Organisation
-description: Erfahren Sie mehr über die Ressourcen, die für den Aufbau auf der Standardbereitstellung von Teams verfügbar sind, damit Sie Teams für bestimmte Organisationstypen besser nutzen können.
+description: Erfahren Sie mehr über die Ressourcen, die ihnen zur Verfügung stehen, um auf der Standardbereitstellung Teams zu aufbauen, um Ihnen zu helfen, die Teams bestimmten Organisationstypen in den meisten Prozent zu nutzen.
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -24,7 +24,7 @@ ms.locfileid: "51121363"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Erweitern von Microsoft Teams in Ihrer Organisation
 
-Diese Ressourcen bauen auf den standardmäßigen Teams-Bereitstellungsleitfäden auf und sollen Ihnen helfen, Teams für bestimmte Organisationstypen besser zu nutzen. Wenn Sie Teams noch nicht bereitgestellt haben, lesen Sie den empfohlenen Pfad zu Teams unter [So wird's:](../deploy-overview.md)Rollout von Microsoft Teams .
+Diese Ressourcen bauen auf dem Teams Bereitstellungsleitfade auf und sollen Ihnen helfen, das Beste aus Teams bestimmten Organisationstypen heraus zu holen. Wenn Sie noch keine Bereitstellungs-Teams, lesen Sie den empfohlenen Pfad zu diesem Teams [in](../deploy-overview.md)So wird's Microsoft Teams.
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Australien verfügbar.
 ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118424"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Australien verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Australien verfügbar.
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -59,26 +59,26 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, siehe [Telstra Calling](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Weitere Informationen [finden Sie unter Telstra Calling](https://aka.ms/TelstraVoicePlan). <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Weitere Informationen [finden Sie unter Telstra Calling](https://aka.ms/TelstraVoicePlan). <br/> |
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja, siehe [Telstra-Anrufe.](https://aka.ms/TelstraVoicePlan)  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Weitere Informationen [finden Sie unter Telstra-Anrufe.](https://aka.ms/TelstraVoicePlan) <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Weitere Informationen [finden Sie unter Telstra-Anrufe.](https://aka.ms/TelstraVoicePlan) <br/> |
 
 > [!IMPORTANT]
-> Wenn Sie australische Abonnentennummern löschen möchten (bereitgestellt von Telstra), wenden Sie sich direkt an Telstra.
-> Wenn Sie Die Notfalladresseninformationen für australische Abonnentennummern (bereitgestellt von Telstra) aktualisieren möchten, wenden Sie sich direkt an Telstra.
-> Weitere Informationen finden Sie unter [Telstra Calling](https://aka.ms/TelstraVoicePlan).
+> Wenn Sie australische Abonnentennummern (von Telstra bereitgestellt) löschen möchten, wenden Sie sich direkt an Telstra.
+> Wenn Sie Notfalladresseninformationen für australische Telefonnummern (von Telstra bereitgestellt) aktualisieren möchten, wenden Sie sich direkt an Telstra.
+> Weitere Informationen finden Sie unter [Telstra-Anrufe.](https://aka.ms/TelstraVoicePlan)
 
-### <a name="if-your-tenant-is-located-outside-australia"></a>Wenn sich Ihr Mandant außerhalb Australiens befindet
+### <a name="if-your-tenant-is-located-outside-australia"></a>Wenn sich Ihr Mandant außerhalb von Australien befindet
 
-Wenn sich Ihr Mandant ab dem 1. September 2019 außerhalb Australiens befindet, können Sie Anrufpläne für Benutzer erwerben, die sich in Australien befinden. Dies ist für die folgenden Länder und Regionen verfügbar.
+Wenn sich Ihr Mandant außerhalb von Australien befindet, können Sie ab dem 1. September 2019 Anrufpläne für Benutzer in Australien kaufen. Dies ist für die folgenden Länder und Regionen verfügbar.
 
 |**Feature**|**Details**|
 |---------|---------|
-|Nord- und Südamerika    |Vereinigte Staaten, USA, Vordinginseln      |
-|APAC     |Bangladesch, Bhutan, Brunei, Kambodscha, Hongkong, Indonesien, Laos, Macau, Malaysia, Malediven, Myanmar, Nepal, Philippinen, Singapur, Sri Lanka, Thailand, Timor-Leste, Vietnam|
-|EMEA    |Ålandinseln, Andorra, Belgien, BouvetInsel, Bulgarien, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Färöer, Finnland, Frankreich, Deutschland, Gibraltar, Griechenland, Grönland, Guernsey, Ungarn, Island, Irland, Isle of Man, Italien, Jan Mayen, Jersey, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Monaco, Niederlande, Norwegen, Polen, Portugal, Rumänien, San Marino, Slowakei, Slowenien, Spanien, Svalbard, Schweden, Schweiz, Vereinigtes Königreich, Vatikanstadt  |
+|Nord- und Südamerika    |Vereinigte Staaten, Amerikanische Überlinginseln      |
+|APAC     |Bangladesch, Bhutan, Brunei, Kambodscha, Hongkong, Indonesien, Nepal, Macau, Malaysia, Myanmar, Nepal, Philippinen, Singapur, Sri Lanka, Thailand, Timor-Leste, Vietnam|
+|EMEA    |Ålandinseln, Andorra, Österreich, Belgien, Bouvetinsel, Bulgarien, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Färöer, Finnland, Frankreich, Deutschland, Zypern, Griechenland, Grönland, Guernsey, Ungarn, Island, Irland, Isle of Man, Italien, Jan Mayen, Jersey, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Monaco, Niederlande, Norwegen, Polen, Portugal, Rumänien, San Marino, Slowakei, Slowenien, Spanien, Svalbard, Schweden, Schweiz, Vereinigtes Königreich, Vatikanstadt  |
 
-Beachten Sie, dass Telstra Calling nur für Benutzer, die sich in Australien und den oben aufgeführten Ländern und Regionen befinden, nach der Bereitstellung durch Telstra als Add-On angezeigt wird. Für Benutzer in anderen Regionen fügen sie nach wie vor Microsoft-Anrufpläne oder Direct Routing an. Weitere Informationen finden Sie unter [Telstra Calling](https://aka.ms/TelstraVoicePlan).
+Beachten Sie, dass Telstra-Anrufe nur für Benutzer mit Sitz in Australien sowie den oben aufgeführten Ländern und Regionen als Add-On angezeigt werden, nachdem sie von Telstra bereitgestellt wurden. Benutzer in anderen Ländern/Regionen fügen nach wie vor Microsoft-Anrufpläne oder Direct Routing an. Weitere Informationen finden Sie unter [Telstra-Anrufe.](https://aka.ms/TelstraVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
@@ -88,7 +88,7 @@ Beachten Sie, dass Telstra Calling nur für Benutzer, die sich in Australien und
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 
-Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für automatische Telefontelefone, Anrufwarteschlangen oder Audiokonferenzdienstnummern erhalten möchten, wenden Sie sich [bitte an uns.](mailto:ptnapac@microsoft.com)
+Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für automatische Telefonkonferenzen, Anrufwarteschleifen oder Audiokonferenz-Servicenummern erhalten möchten, wenden Sie sich [an uns.](mailto:ptnapac@microsoft.com)
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

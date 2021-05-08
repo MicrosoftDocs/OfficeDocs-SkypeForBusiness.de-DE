@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Irland verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Irland verfügbar.
 ms.openlocfilehash: baec07568ee858874cc07cfe562b0ebc253977c0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51117973"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Irland verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Irland verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -60,7 +60,7 @@ Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Plan für Inlands- und Auslandsrufe: 1200 Minuten Inlands- oder 600 Minuten auslandsgerufener Anrufe (was im Kalendermonat zuerst erreicht wird)</li></li> 
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li> 
 |Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    

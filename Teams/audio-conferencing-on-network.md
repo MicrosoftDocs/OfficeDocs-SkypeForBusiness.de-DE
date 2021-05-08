@@ -28,45 +28,45 @@ ms.locfileid: "51637837"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Open Preview of On-network Conferencing for Audio Conferencing
 
-Die Open Preview of On-network Conferencing ist für alle Kunden verfügbar. Mithilfe von Netzwerkkonferenzen können Organisationen eingehende und ausgehende Audiokonferenzanrufe über Direct Routing an Microsoft-Einwahlnummern senden. Diese Funktion dient nicht dazu, die Unterstützung von Audiokonferenzen auf Einwahlnummern von Drittanbietern zu erweitern. Netzwerkkonferenzen werden nicht unterstützt, wenn sie verwendet werden, um eingehende Anrufe an den Audiokonferenzdienst über Einwahlnummern von Drittanbietern oder ausgehende Anrufe über die Microsoft Audio Conferencing Bridge an das PSTN weiter zu senden. 
+Die Open Preview von On-Network Conferencing ist für alle Kunden verfügbar. Mit Netzwerkkonferenzen können Organisationen ein- und ausgehende Audiokonferenzanrufe über Direktes Routing an Microsoft-Einwahlnummern senden. Diese Funktion ist nicht dazu gedacht, die Unterstützung von Audiokonferenzen auf Einwahlnummern von Drittanbietern zu erweitern. Netzwerkkonferenzen werden nicht unterstützt, wenn sie verwendet werden, um eingehende Anrufe an den Audiokonferenzdienst über Einwahltelefonnummern von Drittanbietern oder ausgehende Anrufe von Microsoft Audio Conferencing Bridge an das PSTN weiter zu routen. 
 
-In diesem Artikel werden die Voraussetzungen und Konfigurationsschritte beschrieben, die zum Aktivieren von Netzwerkkonferenzen für Ihre Organisation erforderlich sind.
+In diesem Artikel werden die Voraussetzungen und Konfigurationsschritte beschrieben, die erforderlich sind, um On-Network Conferencing für Ihre Organisation zu aktivieren.
 
 > [!IMPORTANT]
-> Netzwerkkonferenzen dürfen nicht mit Telefoniegeräten in Indien bereitgestellt werden.
+> On-network Conferencing must NOT be deployed with any telephony equipment in India.
   
 ## <a name="prerequisites"></a>Voraussetzungen
 
 Stellen Sie vor dem Konfigurieren von Netzwerkkonferenzen sicher, dass Ihre Organisation die folgenden Voraussetzungen erfüllt: 
 
-- Stellen Sie sicher, dass alle Benutzer in Ihrer Organisation, die für Audiokonferenzen aktiviert oder aktiviert sind, Teams für alle Besprechungen verwenden. Das Routing von eingehenden und ausgehenden Audiokonferenzanrufen über Netzwerkkonferenzen wird nur für Teams-Besprechungen unterstützt.
+- Stellen Sie sicher, dass alle Benutzer in Ihrer Organisation, die für Audiokonferenzen aktiviert sind oder aktiviert sind, Teams für alle Besprechungen verwenden. Das Routing von eingehenden und ausgehenden Audiokonferenzanrufen über Netzwerkkonferenzen wird nur für Teams unterstützt.
 
-- Weisen Sie allen Benutzern, die In-Network Conferencing verwenden, Lizenzen für Audiokonferenzen zu.
+- Weisen Sie allen Benutzern, die Eine-Netzwerkkonferenz verwenden werden, Lizenzen für Audiokonferenzen zu.
 
-- Richten Sie den Audiokonferenzdienst ein. Weitere Informationen finden Sie unter [Einrichten von Audiokonferenzen für Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
+- Einrichten des Audiokonferenzdiensts Weitere Informationen finden Sie unter [Einrichten von Audiokonferenzen für Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
 
-- Richten Sie Ihren Session Border Controller (SBC) für direktes Routing ein. Weitere Informationen finden Sie unter [Planen von Direct Routing und](direct-routing-plan.md) Konfigurieren von Direct [Routing](direct-routing-configure.md). 
+- Richten Sie Ihren Session Border Controller (SBC) für direktes Routing ein. Weitere Informationen finden Sie unter [Planen von Direct-Routing und](direct-routing-plan.md) Konfigurieren von [Direct-Routing.](direct-routing-configure.md) 
 
-  Wenn Sie Direct Routing nur für Audiokonferenzen einrichten, müssen Sie nur "Schritt 1: Verbinden Ihres SBC" für Netzwerkkonferenzen abschließen.
+  Wenn Sie Direct-Routing nur für Audiokonferenzen einrichten, müssen Sie für Netzwerkkonferenzen nur "Schritt 1: Verbinden Ihr SBC" abschließen.
   
 ## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>Aktivieren des Routings von Einwahlanrufen an Microsoft Audio Conferencing über Direct Routing 
 
-Zum Weiterleiten von Einwahlanrufen ihrer lokalen Benutzer an den Audiokonferenzdienst über Direct Routing müssen Sie geeignete Routingregeln für Ihre SBCs und Private Branch Exchange(s) (PBXs) konfigurieren.
+Wenn Sie Einwahlanrufe Ihrer lokalen Benutzer über Direct Routing an den Audiokonferenzdienst weiterleiten möchten, müssen Sie entsprechende Routingregeln für Ihre SBCs und PBXs (Private Branch Exchange) konfigurieren.
 
-Sie müssen die Telefoniegeräte Ihrer Websites so konfigurieren, dass Anrufe an eine beliebige Servicenummer der Konferenzbrücke Ihrer Organisation über einen Direct Routing-Trunk weiterleiten.
+Sie müssen die Telefonieausrüstung Ihrer Standorte so konfigurieren, dass Anrufe an eine beliebige Servicenummer der Konferenzbrücke Ihrer Organisation über einen Direct Routing-Trunk weiterleiten.
 
-Sie finden die Servicenummern im Teams Admin Center unter **Besprechungen -> Conferencing Bridges** oder über das Skype for Business Online PowerShell-Cmdlet Get-CsOnlineDialInConferencingBridge. Weitere Informationen finden Sie in einer Liste der Nummern für [Audiokonferenzen in Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Sie finden die Leistungsnummern im Teams Admin Center unter **Meetings -> Conferencing Bridges** oder mithilfe des Skype for Business Online PowerShell-Cmdlets Get-CsOnlineDialInConferencingBridge. Weitere Informationen finden Sie in einer Liste der [Audiokonferenznummern in Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
-> Dieses Feature steht Benutzern mit der Lizenz für Audiokonferenzen mit Minutenzahl nicht zur Verfügung.
+> Diese Funktion steht Benutzern mit einer Audiokonferenz-Lizenz mit Minutenzahl nicht zur Verfügung.
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Aktivieren des Routings von Auswahlanrufen für Teams-Besprechungen über Direct Routing
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Aktivieren des Routings Teams von Anrufanrufen für Besprechungen über Direct Routing
 
-Auswählanrufe für Teams-Besprechungen werden innerhalb einer Besprechung in Ihrer Organisation an PSTN-Nummern initiiert, einschließlich Anrufe bei Anrufen und Anrufen, um neue Teilnehmer zu einer Besprechung zu bringen. 
+Teams Auswählanrufe von Besprechungen werden innerhalb einer Besprechung in Ihrer Organisation zu PSTN-Nummern initiiert, einschließlich Der Anruf-me-at-Anrufe und Anrufe, um neue Teilnehmer zu einer Besprechung zu bringen. 
 
-Um das Routing von Teams-Besprechungen über Direct Routing für Benutzer im Netzwerk zu aktivieren, müssen Sie eine Routingrichtlinie für Audiokonferenzen mit dem Namen "OnlineAudioConferencingRoutingPolicy" erstellen und zuweisen. 
+Um das Teams von Besprechungs-DFÜ-Routing über Direct Routing an Benutzer im Netzwerk zu aktivieren, müssen Sie eine Routingrichtlinie für Audiokonferenzen mit dem Namen "OnlineAudioConferencingRoutingPolicy" erstellen und zuweisen. 
 
-Die OnlineAudioConferencingRoutingPolicy-Richtlinie entspricht der CsOnlineVoiceRoutingPolicy für 1:1-PSTN-Anrufe über Direct Routing. Die OnlineAudioConferencingRoutingPolicy-Richtlinie kann mithilfe der folgenden Cmdlets verwaltet werden:
+Die Richtlinie OnlineAudioConferencingRoutingPolicy entspricht der CsOnlineVoiceRoutingPolicy für 1:1 PSTN-Anrufe über Direct Routing. Die OnlineAudioConferencingRoutingPolicy-Richtlinie kann mithilfe der folgenden Cmdlets verwaltet werden:
 
 -   New-CsOnlineAudioConferencingRoutingPolicy
 - Set-CsOnlineAudioConferencingRoutingPolicy
@@ -74,31 +74,31 @@ Die OnlineAudioConferencingRoutingPolicy-Richtlinie entspricht der CsOnlineVoice
 - Grant-CsOnlineAudioConferencingRoutingPolicy
 - Remove-CsOnlineAudioConferencingRoutingPolicy
 
-Weitere Informationen zum Routing für Direct Routing finden Sie unter [Konfigurieren von Voice routing für Direct Routing](direct-routing-voice-routing.md).
+Weitere Informationen zum Routing für Direct-Routing finden Sie unter [Konfigurieren von Voice Routing für Direct-Routing.](direct-routing-voice-routing.md)
 
 
-Um das Routing von Besprechungswählanrufen über Direct Routing zu aktivieren, müssen Sie: 
+Um das Routing von Anrufanrufen für Besprechungen über Direct Routing zu ermöglichen, müssen Sie: 
 
 - Konfigurieren von Routingrichtlinien für Audiokonferenzen
-- Konfigurieren des Routings auf den Telefoniegeräten Ihrer Organisation
+- Konfigurieren des Routings für die Telefoniegeräte Ihrer Organisation
 - (Optional) Konfigurieren eines Wählplans
 
-Einwahlanrufe aus Teams-Besprechungen werden über die Standarddienstnummer auf der Konferenzbrücke angezeigt. Weitere Informationen zur Standarddienstnummer Ihrer Audiokonferenzbrücke finden Sie unter Ändern der Telefonnummern auf der [Audiokonferenzbrücke.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+Anrufanrufe aus Teams Besprechungen werden von der Standarddienstnummer in der Konferenzbrücke angestellt. Weitere Informationen zur Standarddienstnummer Ihrer Audiokonferenzbrücke finden Sie unter Ändern der Telefonnummern für Ihre [Audiokonferenzbrücke.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 ### <a name="configure-audio-conferencing-routing-policies"></a>Konfigurieren von Routingrichtlinien für Audiokonferenzen
 
-Die Routingrichtlinie für Audiokonferenzen OnlineAudioConferencingRoutingPolicy bestimmt, welche Besprechungsauswahlanrufe an Direct Routing-Trunks geroutet werden. Wenn Sie mit der CsOnlineVoiceRoutingPolicy-Richtlinie vertraut sind, funktioniert diese Richtlinie auf sehr ähnliche Weise.
+Die Routingrichtlinie OnlineAudioConferencingRoutingPolicy für Audiokonferenzen bestimmt, welche Einwahlanrufe von Besprechungen an Direct Routing-Trunks geroutet werden. Wenn Sie mit der CsOnlineVoiceRoutingPolicy-Richtlinie vertraut sind, funktioniert diese Richtlinie auf sehr ähnliche Weise.
 
-Zum Einrichten von Routingrichtlinien für Audiokonferenzen sind die folgenden Schritte erforderlich:
-1.  Erstellen von PSTN-Verwendungen
+Die folgenden Schritte sind zum Einrichten von Routingrichtlinien für Audiokonferenzen erforderlich:
+1.  Erstellen von PSTN-Nutzungen
 2.  Konfigurieren von Sprachrouten
-3.  Erstellen von Audiokonferenz-Voiceroutingrichtlinien
-4.  Zuweisen einer Richtlinie zu Ihren Benutzern
+3.  Erstellen von Richtlinien für das Routing von Audiokonferenz-Voice
+4.  Zuweisen einer Richtlinie zu Benutzern
 
 
-#### <a name="create-pstn-usages"></a>Erstellen von PSTN-Verwendungen
+#### <a name="create-pstn-usages"></a>Erstellen von PSTN-Nutzungen
 
-PSTN-Nutzungen sind Sammlungen von Sprachrouten. Wenn ein Auswahlanruf von der Besprechung eines bestimmten Organisators initiiert wird, werden Sprachrouten verwendet, um den Routingpfad des Anrufs basierend auf den PSTN-Nutzungen zu bestimmen, die dem Benutzer über die Voice routing policy des Benutzers zugeordnet sind.
+PSTN-Nutzungen sind Sammlungen von Sprachrouten. Wenn ein Ausgehendanruf aus der Besprechung eines bestimmten Organisators initiiert wird, werden Sprachrouten verwendet, um den Routingpfad des Anrufs basierend auf den PSTN-Nutzungen zu ermitteln, die dem Benutzer über die Sprachroutingrichtlinie des Benutzers zugeordnet sind.
 
 Sie können eine PSTN-Verwendung mithilfe des Cmdlets "Set-CsOnlinePstnUsage" erstellen. Beispiel:
 
@@ -108,31 +108,31 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 #### <a name="configure-voice-routes"></a>Konfigurieren von Sprachrouten
 
-Sprachrouten bestimmen das PSTN-Gateway, das verwendet werden soll, um einen Anruf basierend auf der Telefonnummer weiter zu führen, die von einer Teams-Besprechung gewählt wird. Sprachrouten bestimmen das PSTN-Gateway, das zum Routen eines bestimmten Anrufs verwendet werden soll, indem die telefonnummer, die aus einer Teams-Besprechung mit einem regex-Muster gewählt wurde, übereinstimmen. Beim Erstellen einer Sprachroute muss die Route einer oder mehreren PSTN-Nutzungen zugeordnet sein.
+Sprachrouten bestimmen das PSTN-Gateway, das für die Route eines Anrufs verwendet werden soll, basierend auf der Telefonnummer, die von einer Besprechung aus Teams wird. Sprachrouten bestimmen das PSTN-Gateway, das zum Routen eines bestimmten Anrufs verwendet werden soll, indem die von einer Teams-Besprechung gewählte Telefonnummer mit einem regex-Muster abgestimmt wird. Beim Erstellen einer Sprachroute muss die Route einer oder mehreren PSTN-Nutzungen zugeordnet sein.
 
-Sie können eine Sprachroute erstellen und die Regex- und Gateways definieren, die der Sprachroute zugeordnet werden sollen, indem Sie das Cmdlet "New-CsOnlineVoiceRoute" verwenden. Beispiel:
+Mit dem Cmdlet "New-CsOnlineVoiceRoute" können Sie eine Sprachroute erstellen und die regex- und Gateways definieren, die der Sprachroute zugeordnet werden sollen. Beispiel:
 
 ```powershell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
 ```
 
-#### <a name="create-audio-conferencing-voice-routing-policies"></a>Erstellen von Audiokonferenz-Voiceroutingrichtlinien
+#### <a name="create-audio-conferencing-voice-routing-policies"></a>Erstellen von Richtlinien für das Routing von Audiokonferenz-Voice
 
-Audiokonferenz-Voiceroutingrichtlinien bestimmen die möglichen Routen, die zum Weiterleiten eines Anrufs verwendet werden können, der aus den Besprechungen eines Organisators stammt, basierend auf der Zieltelefonnummer des Einwahlanrufs der Besprechung. Audiokonferenz voice routing policies are associated to one or more PSTN usages, which s s turn, determine the possible routes that will be attempted to be used for the meeting dial-out calls of the organizers associated to the policy.
+Richtlinien für das Routing von Audiokonferenzen für Sprachanrufe legen basierend auf der Zieltelefonnummer des Ausgehenden Anrufs fest, welche Routen zum Weiterleiten eines Anrufs verwendet werden können, der von den Besprechungen eines Organisators stammt. Richtlinien für das Routing von Audiokonferenz-Voice werden einer oder mehreren PSTN-Nutzungen zugeordnet, die wiederum die möglichen Routen bestimmen, die für die Einwahlanrufe von Besprechungen der der Richtlinie zugeordneten Organisatoren verwendet werden sollen.
 
-Sie können eine Audiokonferenz-Voiceroutingrichtlinie mithilfe des Cmdlets "New- CsOnlineAudioConferencingRoutingPolicy" erstellen. Beispiel:
+Sie können eine Sprachroutingrichtlinie für Audiokonferenzen mithilfe des Cmdlets "New- CsOnlineAudioConferencingRoutingPolicy" erstellen. Beispiel:
 
 ```powershell
 New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and Canada"
 ```
 
-Nachdem die Richtlinie einem Benutzer zugewiesen wurde und wenn ein Besprechungswählanruf aus einer der Besprechungen des Benutzers initiiert wird, werden die Sprachrouten in den PSTN-Nutzungen ausgewertet, die dem Organisator über die Voiceroutingrichtlinie des Benutzers zugeordnet sind. Wenn das Ziel des Besprechungswählziels einem Regex in einer der Sprachrouten entspricht, die dem Organisator zugeordnet sind, wird der Besprechungsauswahlanruf an das in der Sprachroute definierte PSTN-Gateway geroutet. Wenn das Ziel des Besprechungswählziels keinem der dem Organisator zugeordneten Sprachrouten zustimme, wird der Besprechungswählanruf von Microsoft umgeroutet.
+Nachdem die Richtlinie einem Benutzer zugewiesen wurde und wenn ein Anruf beim Wählen einer Besprechung von einer der Benutzerbesprechungen initiiert wird, werden die Sprachrouten in den PSTN-Nutzungen, die dem Organisator über die Sprachroutingrichtlinie des Benutzers zugeordnet sind, ausgewertet. Wenn das Ziel des Anrufziels für ein Anwählen der Besprechung einem regex in einer der dem Organisator zugeordneten Sprachrouten entspricht, wird der Anruf vom Organisator an das pstN-Gateway geroutet, das in der Sprachroute definiert ist. Wenn das Ziel des Anrufziels für den Einwahlanruf einer Besprechung keinem der dem Organisator zugeordneten Sprachrouten zu entsprechen, wird der Anruf vom Organisator an Microsoft geroutet.
 
-#### <a name="assign-a-policy-to-your-users"></a>Zuweisen einer Richtlinie zu Ihren Benutzern
+#### <a name="assign-a-policy-to-your-users"></a>Zuweisen einer Richtlinie zu Benutzern
 
-Nachdem die Routingrichtlinien für Audiokonferenzen definiert wurden, können Sie sie jetzt Benutzern zuweisen. Nachdem ihnen Richtlinien zugewiesen wurden, werden die Besprechungswählanrufe ausgewertet, um deren Routingpfad zu ermitteln. Routingrichtlinien für Audiokonferenzen werden immer basierend auf dem Organisator der Besprechung unabhängig vom Benutzer in der Besprechung ausgewertet, der einen Besprechungswählanruf initiiert.
+Nachdem die Routingrichtlinien für Audiokonferenzen definiert wurden, können Sie sie nun Benutzern zuweisen. Nachdem ihnen Richtlinien zugewiesen wurden, werden die Anrufanrufe für Besprechungen ausgewertet, um ihren Routingpfad zu bestimmen. Routingrichtlinien für Audiokonferenzen werden immer basierend auf dem Organisator der Besprechung unabhängig vom Besprechungsbenutzer ausgewertet, der einen Anruf aus der Besprechung initiiert.
 
-Sie können einem Benutzer eine Audiokonferenz-Voiceroutingrichtlinie zuweisen, indem Sie das Cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy" verwenden. Beispiel:
+Sie können einem Benutzer eine Sprachroutingrichtlinie für Audiokonferenzen zuweisen, indem Sie das Cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy" verwenden. Beispiel:
 
 ```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
@@ -141,26 +141,26 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>Konfigurieren des Routings auf den Telefoniegeräten Ihrer Organisation
 
-Auf den Telefoniegeräten Ihrer Organisation müssen Sie sicherstellen, dass die über Direct Routing gerouteten Besprechungswählanrufe an das beabsichtigte Ziel im Netzwerk geroutet werden.
+Auf der Telefonieausrüstung Ihrer Organisation müssen Sie sicherstellen, dass Anrufe, die über Direct Routing geroutet werden, an das vorgesehene Ziel im Netzwerk geroutet werden.
 
 
 ### <a name="optional-configure-a-dial-plan"></a>(Optional) Konfigurieren eines Wählplans
 
-Ein Wählplan ist eine Reihe von Normalisierungsregeln, die wählte Telefonnummern eines einzelnen Benutzers zu Zwecken der Anrufautorisierung und Anrufrouting in ein alternatives Format (normalerweise E.164) übersetzen.
+Bei einem Wählplan handelt es sich um einen Satz von Normalisierungsregeln, mit dem die von einem einzelnen Benutzer gewählten Telefonnummern zum Zweck der Anrufautorisierung und Anrufrouting in ein alternatives Format (normalerweise E.164) übersetzt werden.
 
-Standardmäßig können Teams-Benutzer pstn-Nummern im E.164-Format, d. h. +, \<country code\> \<number\> auswählen. Wählpläne können jedoch verwendet werden, um Benutzern das Wählen von Telefonnummern in anderen Formaten zu ermöglichen, z. B. vierstellige Erweiterungen.
+Standardmäßig können Teams PSTN-Nummern im E.164-Format wählen, d. h. + \<country code\> \<number\> . Wählpläne können jedoch verwendet werden, um Benutzern das Wählen von Telefonnummern in anderen Formaten zu ermöglichen, z. B. vierstellige Erweiterungen.
 
-Wenn Sie die erweiterungsbasierte Wählverbindung über Netzwerkkonferenzen aktivieren möchten, können Sie Wählpläne so einrichten, dass das Durchwahlmuster den Telefonnummernbereichen der Telefonnummer Ihrer Organisation entspricht. Informationen zum Einrichten von Wählplänen finden Sie unter [Erstellen und Verwalten von Wählplänen.](create-and-manage-dial-plans.md)
+Wenn Sie durchwahlbasiertes Wählen über On-Network-Konferenzen aktivieren möchten, können Sie Wählpläne so einrichten, dass das Durchwahlmuster den Telefonnummernbereichen der Telefonnummern Ihrer Organisation entspricht. Informationen zum Einrichten von Wählplänen finden Sie unter [Erstellen und Verwalten von Wählplänen.](create-and-manage-dial-plans.md)
 
 
-## <a name="known-issues-in-open-preview"></a>Bekannte Probleme in Der Vorschau öffnen
+## <a name="known-issues-in-open-preview"></a>Bekannte Probleme in der Geöffneten Vorschau
 
-Im Folgenden finden Sie eine Liste der bekannten Probleme, die derzeit in der Open Preview-Version von On-Network-Konferenzen auftreten. Microsoft arbeitet an der Lösung dieser Probleme.
+Im Folgenden finden Sie eine Liste der bekannten Probleme, die derzeit in der Open Preview-Version von Netzwerkkonferenzen auftreten. Microsoft arbeitet an diesen Problemen.
 
 | Problem | Problemumgehung |
 | :--- | :--- |
-| Einwahlanrufe mit anonymen/ausgeblendeten Anrufer-IDs, die über Netzwerkkonferenzen geroutet werden, können nicht mit der Besprechung verbunden werden. | Legen Sie nach Möglichkeit eine Konfiguration in Ihrer PBX oder SBC so vor, dass immer eine Anrufer-ID für Anrufe gesendet wird, die über Netzwerkkonferenzen geroutet werden.|
-| In einigen Fällen wird die Begrüßungsnachricht, die Benutzern bei der Einwahl beim Dienst ("Willkommen beim Audiokonferenzdienst...") angezeigt wird, abgeschnitten, und die Benutzer hören nicht das Wort "Willkommen".| Derzeit gibt es keine Problemumgehungen für dieses Problem. |
+| Einwahlanrufe mit anonymen/ausgeblendeten Anrufer-IDs, die über Festnetzkonferenzen geroutet werden, können nicht mit der Besprechung verbunden werden. | Legen Sie, wenn möglich, eine Konfiguration in Ihrer PbX oder SBC so ein, dass immer eine Anrufer-ID für Anrufe gesendet wird, die über Netzwerkkonferenzen geroutet werden.|
+| In einigen Fällen wird die Begrüßungsnachricht, die Benutzern bei der Einwahl in den Dienst ("Willkommen beim Audiokonferenzdienst...") angezeigt wird, abgeschnitten, und die Benutzer hören nicht das Wort "Willkommen".| Für dieses Problem gibt es zurzeit keine Problemumgehungen. |
 
 
 

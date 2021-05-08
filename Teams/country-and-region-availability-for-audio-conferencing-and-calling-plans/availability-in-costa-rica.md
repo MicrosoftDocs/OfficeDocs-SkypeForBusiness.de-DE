@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Costa Rica verfügbar sind.
+description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams Costa Rica.
 ms.openlocfilehash: 07b132d7d921d237e197e73e8d6d7e22bb666ad9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -34,9 +34,9 @@ ms.locfileid: "51118224"
 ---
 # <a name="availability-in-costa-rica"></a>Verfügbarkeit in Costa Rica
 
-[Suchen Sie ein anderes](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)Land oder eine andere Region, oder erfahren Sie mehr über die Verfügbarkeit von Ländern und Regionen für Audiokonferenz- und Anrufpläne.for Audiokonferenz- und Anrufpläne.
+[Suchen Sie nach](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)einem anderen Land oder einer anderen Region, oder erfahren Sie mehr über die Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne.für Audiokonferenzen und Anrufpläne.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Costa Rica verfügbar sind.
+Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams Costa Rica.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

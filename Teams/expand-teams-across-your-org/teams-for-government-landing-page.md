@@ -1,6 +1,6 @@
 ---
 title: Teams für Behörden
-description: Erfahren Sie, wie Sie Teams in Microsoft 365 Government-Umgebungen planen und bereitstellen.
+description: Hier erfahren Sie, wie Sie Ihr Teams in Microsoft 365 Government-Umgebungen planen und bereitstellen.
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -22,11 +22,11 @@ ms.locfileid: "51092403"
 ---
 # <a name="teams-for-government"></a>Teams für Behörden
 
-Verwenden Sie diese Ressourcen, um sich mit bestimmten Überlegungen beim Bereitstellen von Teams in Microsoft 365 Government-Umgebungen zu informieren. Wenn Sie fertig sind, folgen Sie dem gleichen empfohlenen Bereitstellungspfad für Teams, wie unter [So wird's beschrieben:](../deploy-overview.md)Rollout von Microsoft Teams.
+Verwenden Sie diese Ressourcen, um informationen zu bestimmten Aspekten für die Teams in Microsoft 365 Government-Umgebungen zu erhalten. Wenn Sie bereit sind, folgen Sie dem gleichen empfohlenen Bereitstellungspfad für Teams wie unter So [wird's](../deploy-overview.md)Microsoft Teams.
 
 |               |               |
 | ------------- | ------------- |
-| ![Screenshot des Symbols "Nummerierte Liste"](../media/list-123-teams.svg)  |  [Plan für Microsoft 365 Government – GCC-Bereitstellungen](../plan-for-government-gcc.md) |
-| ![Screenshot der Zwischenablage mit einem Aufgabensymbol](../media/tasks-teams.svg) | [Planen von Microsoft 365 Government – GCC High](../plan-for-government-gcc-high.md) |
-| ![Screenshot des Symbols "Aufzählungselemente"](../media/task-list-planning-teams.svg)  |  [Plan für Microsoft 365 Government – DOD-Bereitstellungen](../plan-for-government-dod.md) |
-| ![Screenshot des Nach-RECHTS-Symbols](../media/arrow-right-2-teams.svg)  |  [Audiokonferenzen mit direktem Routing für GCC High und DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |
+| ![Screenshot des Symbols "Nummerierte Liste"](../media/list-123-teams.svg)  |  [Planen von Microsoft 365 Government – GCC-Bereitstellungen](../plan-for-government-gcc.md) |
+| ![Screenshot der Zwischenablage mit einem Symbol "Aufgabenliste"](../media/tasks-teams.svg) | [Planen von Microsoft 365 Government – GCC High](../plan-for-government-gcc-high.md) |
+| ![Screenshot des Symbols "Aufzählungselemente"](../media/task-list-planning-teams.svg)  |  [Planen der Microsoft 365 – DoD-Bereitstellungen](../plan-for-government-dod.md) |
+| ![Screenshot des Nach-rechts-Pfeilsymbols](../media/arrow-right-2-teams.svg)  |  [Audiokonferenzen mit direktem Routing für GCC High und DoD](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

@@ -29,7 +29,7 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: 'Erfahren Sie, wie Sie für Guthaben für Kommunikation (PSTN-Verbrauch) für Skype for Business-Dienste bezahlen, und lesen Sie Pläne, wie Sie Ihren Benutzern kontinuierlichen Zugriff auf das Telefonsystem ermöglichen. '
+description: 'Erfahren Sie, wie Sie für Guthaben für Kommunikationen (PSTN-Verbrauch) für Skype for Business-Dienste bezahlen, und sehen Sie sich die Pläne an, um Ihren Benutzern kontinuierlichen Zugriff auf das Telefonsystem zu ermöglichen. '
 ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -39,47 +39,47 @@ ms.locfileid: "51121493"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen und Verwalten von Guthaben für Kommunikationen
 
-Guthaben für Kommunikationen ist eine bequeme Möglichkeit zum Bezahlen von Telefonsystem- und Anrufplänen in Microsoft 365 oder Office 365. Kommunikationsguthaben trägt dazu bei, dass Sie und Ihre Benutzer niemals erwischt werden, ohne in der Lage zu sein:
+Guthaben für Kommunikationen ist eine praktische Möglichkeit, um Telefonsystem und Anrufpläne in Microsoft 365 oder Office 365. Guthaben für Kommunikationen stellt sicher, dass Sie und Ihre Benutzer immer Zugriff auf:
   
-- Wählen Sie sich mit gebührenfreien Einwahlnummern bei Audiokonferenzbesprechungen ein.
+- Einwählen in Audiokonferenzbesprechungen mit gebührenfreien Einwahltelefonnummern
 
-- Wählen Sie aus einer Audiokonferenz-Besprechung aus, um eine andere Person von überall auf der Welt hinzuzufügen.
+- Wählen Sie aus einer Audiokonferenz-Besprechung aus, um jemanden aus der ganzen Welt hinzuzufügen.
 
-- Wählen Sie sich von einer Audiokonferenz-Besprechung zu Ihrem Mobiltelefon aus, wenn die Skype for Business- oder Microsoft Teams-App installiert ist.
+- Wählen Sie aus einer Audiokonferenz-Besprechung auf Ihr Mobiltelefon, auf dem die Skype for Business oder Microsoft Teams installiert ist.
 
-- Wählen Sie eine beliebige internationale Telefonnummer, wenn Sie über einen **Inlandsanrufplan verfügen.**
+- Wählen Sie eine beliebige internationale Telefonnummer, wenn Sie einen Plan für **Inlandanrufe haben.**
 
-- Wählen Sie aus, und bezahlen Sie pro Minute, sobald Sie Ihre monatliche Minuten-Zuteilung ausgeschöpft haben.
+- Wählen Sie aus, und bezahlen Sie pro Minute, sobald die monatlichen Minuten für die Zuteilung aufgebraucht sind.
 
 > [!NOTE]
-> Wenn Sie sich fragen, wie hoch die Gebühren sind, lesen Sie die Tariftabelle auf der [Seite Anrufpläne.](https://go.microsoft.com/fwlink/p/?LinkId=799523)
+> Wenn Sie sich fragen, wie hoch der Preis ist und wie hoch die Tarife sind, finden Sie in der Tabelle mit den Tarifen auf der Seite [Anrufpläne weitere](https://go.microsoft.com/fwlink/p/?LinkId=799523) Informationen.
   
-Als Administrator können Sie Guthaben manuell hinzufügen oder das automatische Aufladen einrichten, was wir **empfehlen.**
+Als Administrator können Sie Guthaben manuell hinzufügen oder das automatische Aufladen einrichten, was empfohlen **wird.**
   
 Beim automatischen Aufladen wird Ihr Guthaben automatisch aufgestockt, sobald es unter einen von Ihnen festgelegten Mindestbetrag fällt. Wir empfehlen Ihnen die Verwendung des automatischen Aufladens, damit Sie nicht daran denken müssen, manuell Guthaben hinzuzufügen. Wenn Ihr Saldo den Mindestbetrag erreicht, wird Ihr Guthaben automatisch aufgestockt. Wenn Sie sich gegen das automatische Aufladen entscheiden, kann Ihr Guthaben möglicherweise unter Null fallen. Falls Ihr Guthaben unter Null fällt, können Sie und Ihre Benutzer keine gebührenfreie Anrufe oder Auslandsanrufe mehr tätigen.
   
-Sie können Ihre Zahlungsoptionen jederzeit aktualisieren. Wählen Sie **auf der Seite** Abonnements die Option **Guthaben für** Kommunikationen aus, und nehmen Sie Ihre Updates vor.
+Sie können Ihre Zahlungsoptionen jederzeit aktualisieren. Wählen Sie auf **der** Seite Abonnements die Option Guthaben **für** Kommunikationen aus, und nehmen Sie Ihre Aktualisierungen vor.
   
-Guthaben werden nur auf Guthaben für Kommunikationen zu den von Microsoft veröffentlichten Tarifen angewendet, wenn die Dienste verwendet werden. Alle Guthaben, die nicht innerhalb von zwölf (12) Monaten nach dem Kaufdatum verwendet werden, laufen ab und verfallen.
+Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Alle Guthaben, die nicht innerhalb von zwölf (12) Monaten nach dem Kaufdatum verwendet werden, laufen ab und verfallen.
   
 > [!TIP]
-> Wir senden Ihnen E-Mail-Benachrichtigungen, wenn Guthaben per automatisches Aufladen hinzugefügt werden, wenn das automatische Aufladen fehlschlägt (z. B. wenn eine Kreditkarte abläuft) und wenn Ihr Saldo unter Null fällt.
+> Wir senden Ihnen E-Mail-Benachrichtigungen, wenn Guthaben per automatischem Aufladen hinzugefügt wird, wenn das automatische Aufladen fehlschlägt (z. B. wenn eine Kreditkarte abläuft) und wenn Ihr Guthaben unter Null fällt.
   
-Weitere Informationen finden Sie unter [Was sind Guthaben für Kommunikationen?](what-are-communications-credits.md)
+Weitere Informationen finden Sie unter [Was ist Guthaben für Kommunikationen?](what-are-communications-credits.md)
   
-## <a name="want-to-know-about-plans-and-pricing"></a>Informationen zu Plänen und Preisen
+## <a name="want-to-know-about-plans-and-pricing"></a>Möchten Sie mehr über Pläne und Preise erfahren?
 
 Die Pläne und Preise finden Sie unter den folgenden Links:
   
 - [Anrufpläne](https://go.microsoft.com/fwlink/?LinkId=799761 )
 
-- [Pläne für Audiokonferenzen](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [Audiokonferenzpläne](https://go.microsoft.com/fwlink/?LinkId=799762 )
 
-- [Pläne für Telefonsystem](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Telefonsystem-Pläne](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Sie können informationen auch anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu **Abonnements** hinzufügen für  >  **Abrechnungsabonnements**  >  **gehen.**
+Sie können die Informationen auch anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu  >  **Abrechnungsabonnements**  >  **Hinzufügen von Abonnements gehen.**
   
-Eine Tabelle mit der Lizenz oder den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 

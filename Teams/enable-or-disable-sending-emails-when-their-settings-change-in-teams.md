@@ -1,5 +1,5 @@
 ---
-title: E-Mail-Optionen, wenn sich die Einstellungen für Audiokonferenzen ändern
+title: E-Mail-Optionen, wenn sich die Audiokonferenzeinstellungen ändern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Erfahren Sie, wie Sie Skype beim Senden von E-Mails an Benutzer aktivieren oder deaktivieren, wenn sich Einstellungen wie Anheften oder die Standardkonferenznummer in Microsoft Teams ändern. '
+description: 'Hier erfahren Sie, wie Sie Skype, E-Mails an Benutzer zu senden, wenn sich Einstellungen wie Änderungen an der Pin oder die Standardkonferenznummer in ihrer Microsoft Teams. '
 ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -30,19 +30,19 @@ ms.locfileid: "51092703"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Aktivieren und Deaktivieren der bei geänderten Audiokonferenzeinstellungen gesendeten E-Mails in Microsoft Teams
 
-Benutzer werden automatisch per E-Mail benachrichtigt, wenn sie für Audiokonferenzen aktiviert sind. Es kann jedoch zu Zeiten kommen, in denen Sie die Anzahl der E-Mails verringern möchten, die an Microsoft Teams-Benutzer gesendet werden. In solchen Fällen können Sie das Senden von E-Mails deaktivieren.
+Benutzer werden automatisch per E-Mail benachrichtigt, wenn sie für Audiokonferenzen aktiviert sind. Es kann jedoch manchmal sein, dass Sie die Anzahl der E-Mails verringern möchten, die an Benutzer Microsoft Teams werden. In diesen Fällen können Sie das Senden von E-Mails deaktivieren.
   
-Wenn Sie das Senden von E-Mails deaktivieren, werden Audiokonferenz-E-Mails nicht an Ihre Benutzer gesendet, einschließlich E-Mails, wenn Benutzer für Audiokonferenzen aktiviert oder deaktiviert sind, wenn ihre PIN zurückgesetzt wird und wenn sich die Konferenz-ID und die Standardtelefonnummer für Konferenzen ändern.
+Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails für Audiokonferenzen an die Benutzer gesendet, z. B. E-Mails dazu, wann Benutzer für Audiokonferenzen aktiviert oder deaktiviert sind, wann die PIN zurückgesetzt wird und wenn sich die Konferenz-ID und die Standardtelefonnummer für Konferenzen ändern.
   
-Hier ist ein Beispiel für die E-Mail, die an Benutzer gesendet wird, wenn sie für Audiokonferenzen aktiviert sind:
+Hier ist ein Beispiel für eine E-Mail, die an Benutzer gesendet wird, wenn sie für Audiokonferenzen aktiviert sind:
   
-![Beispiel für eine E-Mail-Nachricht für Audiokonferenzen](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![Beispiel für eine E-Mail-Nachricht mit einer Audiokonferenz](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Wann werden E-Mails an Benutzer gesendet?
 
-- Es gibt mehrere E-Mails, die an Benutzer in Ihrer Organisation gesendet werden, nachdem sie für Audiokonferenzen aktiviert wurden:
+- Es gibt mehrere E-Mails, die nach der Aktivierung für Audiokonferenzen an Benutzer in Ihrer Organisation gesendet werden:
     
-  - Wenn ihnen **eine** Lizenz für Audiokonferenzen zugewiesen ist.
+  - Wenn ihnen **eine Lizenz für Audiokonferenzen** zugewiesen wird.
     
   - Wenn Sie die PIN für Audiokonferenzen des Benutzers manuell zurücksetzen.
     
@@ -50,22 +50,22 @@ Hier ist ein Beispiel für die E-Mail, die an Benutzer gesendet wird, wenn sie f
     
   - Wenn die **Lizenz für Audiokonferenzen** entfernt wird.
     
-  - Wenn der Audiokonferenzanbieter eines Benutzers von Microsoft zu einem anderen Anbieter oder None **geändert wird.**
+  - Wenn sich der Audiokonferenzanbieter eines Benutzers von Microsoft auf einen anderen Anbieter oder Kein **ändert.**
     
-  - Wenn der Audiokonferenzanbieter eines Benutzers in Microsoft geändert wird.
+  - Wenn sich der Audiokonferenzanbieter eines Benutzers in Microsoft ändert.
 
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Aktivieren oder Deaktivieren des Sendens von E-Mails an Benutzer
 
-Sie können Microsoft Teams oder Windows PowerShell verwenden, um an Benutzer gesendete E-Mails zu aktivieren oder zu deaktivieren.
+Sie können E-Microsoft Teams oder Windows PowerShell, um an Benutzer gesendete E-Mails zu aktivieren oder zu deaktivieren.
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Brückeneinstellungen.** 
+2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Einstellungen für Brücke.** 
 
-3. Aktivieren oder **deaktivieren Sie im** Bereich Bridge-Einstellungen automatisch E-Mails an Benutzer senden, wenn sich deren **Einwahleinstellungen ändern.**
+3. Aktivieren oder **deaktivieren Sie im Bereich** Einstellungen der Brücke die Option Automatisches Senden von E-Mails an Benutzer, wenn sich **deren Einwahleinstellungen ändern.**
 
 4. Klicken Sie auf **Speichern**.
 
@@ -75,12 +75,12 @@ Sie können Microsoft Teams oder Windows PowerShell verwenden, um an Benutzer ge
 
 **Verwenden von Windows PowerShell**
   
-Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz.](/powershell/module/teams/?view=teams-ps)
+Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powershell/module/teams/?view=teams-ps)
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
@@ -91,6 +91,6 @@ Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Refere
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen für Audiokonferenzen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[E-Mails, die an Benutzer gesendet werden, wenn sich ihre Audiokonferenzeinstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

@@ -28,15 +28,15 @@ ms.locfileid: "51122199"
 In diesem Artikel wird beschrieben, wie Sie aus der Ansicht einer Skype for Business Online- und einer Microsoft Teams-Konfiguration zu Direct Routing migrieren können. Dieser Artikel behandelt die Migration zu Direct Routing ausgehend von den folgenden Konfigurationen: 
  
 - Telefonsystem mit Anrufplänen (für Teams und Skype for Business Online) 
-- Telefonsystem mit lokalen PSTN-Konnektivität in Skype for Business Server (für Skype for Business Online)  
-- Telefonsystem mit lokalen PSTN-Konnektivität mithilfe der Cloud Connector Edition (für Skype for Business Online)
+- Telefonsystem mit lokalem PSTN-Konnektivität in Skype for Business Server (für Skype for Business Online)  
+- Telefonsystem mit der lokalen PSTN-Anbindung mithilfe der Cloud Connector Edition (für Skype for Business Online)
 
 
 Zusätzlich zu diesen Konfigurationsschritten ist auch die Konfiguration im Session Border Controller (SBC) erforderlich, um Anrufe auf die neue Verbindung umzuleiten. Dies ist nicht Inhalt dieses Dokuments. Weitere Informationen hierzu finden Sie in der Dokumentation Ihres SBC-Herstellers.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Endstatus der Benutzer-Bereitstellung für verschiedene Optionen von Festnetzanbindungen (PSTN-Konnektivität) 
 
-Die folgende Tabelle zeigt den Endzustand für einen Benutzer, der für die ausgewählten PSTN-Konnektivitätsoptionen mit Telefonsystem bereitgestellt wurde. Es werden ausschließlich die für die Sprachausgabe relevanten Attribute angezeigt.
+Die folgende Tabelle zeigt den Endstatus für einen Benutzer, der für die ausgewählten PSTN-Konnektivitätsoptionen bereitgestellt wurde, mit Telefonsystem. Es werden ausschließlich die für die Sprachausgabe relevanten Attribute angezeigt.
 
 |Benutzerspezifische Objektattribute |Telefonsystem mit Anrufplänen|Telefonsystem mit lokaler Festnetzanbindung über den Skype for Business Server|Telefonsystem mit lokaler Festnetzanbindung über den Cloud Connector|Telefonsystem mit lokaler Festnetzanbindung über Direct Routing|
 |---|---|---|---|---|
@@ -92,12 +92,12 @@ Es wird empfohlen, zuvor konfigurierte Sprachanruf-Weiterleitungsinformationen w
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> Wenn eine globale CsVoiceRoutingPolicy konfiguriert ist, wird empfohlen, alle pstN-Verwendungen zu entfernen, die dieser globalen Richtlinie zugeordnet sind. 
+> Wenn eine globale CsVoiceRoutingPolicy konfiguriert ist, empfiehlt es sich, alle PSTN-Verwendungen zu entfernen, die dieser globalen Richtlinie zugeordnet sind. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migration ausgehend vom Office 365 Telefonsystem mit lokaler Festnetzanbindung über die Cloud Connector Edition 
 
 > [!Important]
-> Cloud Connector Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online in den Ruhestand treten. Nachdem Ihr Unternehmen ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mithilfe von Direct Routing mit Teams [verbinden.](direct-routing-landing-page.md)
+> Cloud Connector Edition wird am 31. Juli 2021 sowie Skype for Business Online zurückziehen. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie hier, wie Sie Ihr lokales Telefonienetzwerk mit Teams [Direct-Routing verbinden.](direct-routing-landing-page.md)
 
 Weitere Informationen zur Migration ausgehend von einem Telefonsystem mit lokaler Festnetzanbindung über den Cloud Connector finden Sie unter:
 
@@ -113,7 +113,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 ```
 
 
-## <a name="related-links"></a>Verwandte Links
+## <a name="related-links"></a>Links zu verwandten Themen
 
 [Anleitungen zur Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business verwenden](migration-interop-guidance-for-teams-with-skype.md)
 

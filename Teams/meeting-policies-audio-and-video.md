@@ -26,12 +26,12 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598743"
 ---
-# <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für Audio & Video
+# <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für & Video
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
 
-In diesem Artikel werden die Besprechungsrichtlinieneinstellungen für Audio und Video beschrieben. Diese beinhalten Folgendes:
+In diesem Artikel werden die Besprechungsrichtlinieneinstellungen speziell für Audio und Video beschrieben. Diese beinhalten Folgendes:
 
 - [Transkription zulassen](#allow-transcription)
 - [Cloud-Aufnahme zulassen](#allow-cloud-recording)
@@ -39,7 +39,7 @@ In diesem Artikel werden die Besprechungsrichtlinieneinstellungen für Audio und
 - [Modus für IP-Video](#mode-for-ip-video) 
 - [IP-Video zulassen](#allow-ip-video)
 - [Media-Bitrate (KBs)](#media-bit-rate-kbs)
-- [Video-Verungltern-Modus](#video-filters-mode)
+- [Videobesprechungsmodus](#video-filters-mode)
 
 ### <a name="allow-transcription"></a>Transkription zulassen
 
@@ -106,7 +106,7 @@ Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteil
 
 ### <a name="allow-ip-video"></a>IP-Video zulassen
 
-Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf mobilen Teams-Clients steuert diese Einstellung, ob Benutzer Fotos und Videos in einer Besprechung freigeben können. 
+Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf Teams mobilen Clients steuert diese Einstellung, ob Benutzer Fotos und Videos in einer Besprechung teilen können. 
 
 In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Richtlinieneinstellung aktiviert ist, ist die Videofreigabe durch die Teilnehmer zulässig, sofern die Richtlinieneinstellung für sie ebenfalls aktiviert ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer und Partner), erben die für den Besprechungsorganisator geltende Richtlinie.
 
@@ -132,7 +132,7 @@ Wenn Daniela Amanda bei aktivierter Videofunktion anruft, kann Amanda den Anruf 
 
 Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
 
-#### <a name="which-ip-video-policy-setting-takes-precedence"></a>Welche Einstellung für IP-Videorichtlinien hat Vorrang?
+#### <a name="which-ip-video-policy-setting-takes-precedence"></a>Welche Einstellung der IP-Videorichtlinie hat Vorrang?
 
 Für einen Benutzer hat die restriktivste Richtlinieneinstellung für Videos Vorrang. Hier sind einige Beispiele.
 

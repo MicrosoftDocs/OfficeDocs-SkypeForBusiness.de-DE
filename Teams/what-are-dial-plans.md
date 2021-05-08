@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
-description: 'Erfahren Sie, welche Arten von Wählplänen (PSTN-Anrufpläne) in Teams verfügbar sind und wie Sie einen für Ihre Organisation auswählen.  '
+description: 'Hier erfahren Sie, welche Wählpläne (PSTN-Anrufpläne) für Ihre Teams verfügbar sind und wie Sie einen Wählplan für Ihre Organisation auswählen.  '
 ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -33,49 +33,49 @@ ms.locfileid: "51100981"
 
 Ein Wählplan ist ein Norminalisierungsregelsatz, der die von einem einzelnen Benutzer gewählten Telefonnummern zur Anrufautorisierung und Anrufweiterleitung in ein anderes Format (normalerweise E.164) übersetzt.
 
-Ein Wählplan besteht aus einer oder mehreren Normalisierungsregeln, die definieren, wie In verschiedenen Formaten ausgedrückte Telefonnummern in ein alternatives Format übersetzt werden. Die gleiche Wählzeichenfolge kann in verschiedenen Wählplänen unterschiedlich interpretiert und übersetzt werden. Je nachdem, welcher Wählplan einem bestimmten Benutzer zugewiesen ist, kann dieselbe Wählnummer anders übersetzt und geroutet werden. Es können maximal 1.000 Wählpläne für Mandanten verwendet werden.
+Ein Wählplan besteht aus einer oder mehreren Normalisierungsregeln, die definieren, wie in verschiedenen Formaten ausgedrückte Telefonnummern in ein alternatives Format übersetzt werden. Da dieselbe Wählzeichenfolge in unterschiedlichen Wählplänen unterschiedlich interpretiert und übersetzt werden kann, wird je nach dem einem Benutzer zugewiesenen Wählplan möglicherweise dieselbe gewählte Nummer anders übersetzt und geroutet. Es kann maximal 1.000 Mandantenwählpläne gibt.
 
-Weitere Informationen finden Sie unter Erstellen [und Verwalten von Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Mandantenwählplänen.
+Siehe [Erstellen und Verwalten von Wählplänen zum](create-and-manage-dial-plans.md) Erstellen und Verwalten von Mandantenwählplänen.
 
 ## <a name="tenant-dial-plan-scope"></a>Mandantenwählplanbereich
 
-Der Bereich eines Wählplans bestimmt die hierarchische Ebene, auf der der Wählplan angewendet werden kann. Clients erhalten den entsprechenden Wählplan über Bereitstellungseinstellungen, die automatisch bereitgestellt werden, wenn sich Benutzer bei Teams anmelden. Als Administrator können Sie Wählplanbereichsebenen verwalten und zuweisen, indem Sie das Microsoft Teams Admin Center oder Remote PowerShell verwenden.
+Der Bereich eines Wählplans bestimmt die Hierarchieebene, auf der der Wählplan angewendet werden kann. Clients erhalten den entsprechenden Wählplan über die Bereitstellungseinstellungen, die automatisch bereitgestellt werden, wenn sich Benutzer bei Ihrem Teams. Als Administrator können Sie Wählplanbereichsebenen verwalten und zuweisen, indem Sie Microsoft Teams Admin Center oder Remote PowerShell verwenden.
 
-In Teams gibt es zwei Arten von Wählplänen: Dienstbereich und Mandantenbereich (für Ihre Organisation). Für jedes Land oder jede Region, in dem Telefonsystem verfügbar ist, wird ein Wählplan für den Dienstbereich definiert. Jedem Benutzer wird automatisch der Wählplan für das Serviceland zugewiesen, der dem dem Benutzer zugewiesenen Nutzungsstandort entspricht. Sie können den Wählplan für Das Land des Diensts nicht ändern, aber Sie können Wählpläne mit Mandantenbereich erstellen, die den Wählplan für Serviceland erweitern. Wenn Kunden bereitgestellt werden, erhalten sie einen "effektiven Wählplan", bei dem es sich um eine Kombination aus dem Wählplan für das Serviceland und dem entsprechend begrenzten Mandantenwählplan handelt. Daher müssen nicht alle Normalisierungsregeln in Mandantenwählplänen definiert werden, da sie möglicherweise bereits im Wählplan für Serviceland vorhanden sind.
+In Teams gibt es zwei Arten von Wählplänen: Wählpläne mit Dienstbereich und Mandantenbereich (für Ihre Organisation). Ein Wählplan mit Leistungsumfang wird für jedes Land oder jede Region definiert, in Telefonsystem Wählplan verfügbar ist. Jedem Benutzer wird automatisch der Wählplan eines Landes zugeordnet, der dem dem Benutzer zugewiesenen Nutzungsstandort entspricht. Sie können den Wählplan für das Land des Landes des Diensts nicht ändern, aber Sie können Wählpläne mit Bereichsumfang für Mandanten erstellen, wodurch der Wählplan für das Land des Landes erweitert wird. Bei der Bereitstellung erhalten die Kunden einen "effektiven Wählplan", bei dem es sich um eine Kombination aus dem Wählplan eines Landesdiensts und dem Mandantenwählplan mit entsprechenden Bereichs handelt. Daher ist es nicht erforderlich, alle Normalisierungsregeln in Mandantenwählplänen zu definieren, da sie möglicherweise bereits im Wählplan für einen Landesdienst vorhanden sind.
 
-Mandantenwählpläne können weiter in zwei Bereiche aufschlüsselt werden: Mandantenbereich oder Benutzerbereich. Wenn ein Mandant einen Wählplan mit Benutzerbereich definiert und zugewiesen hat, wird diesem Benutzer ein effektiver Wählplan des Wählplans für das Land des Diensts und des zugewiesenen Benutzerwählplans bereitgestellt. Wenn ein Mandant einen Wählplan mit Mandantenbereich definiert, aber keinen Wählplan mit Benutzerbereich zuzuordnen hat, wird dieser Benutzer mit einem effektiven Wählplan des Wählplans für das Serviceland des Benutzers und des Mandantenwählplans bereitgestellt.
+Mandantenwählpläne können weiter in zwei Bereiche aufgeschlüsselt werden: Mandantenbereich oder Benutzerbereich. Wenn ein Mandant einen Wählplan mit Benutzerbereich definiert und zu weist, wird diesem Benutzer ein effektiver Wählplan des Wählplans eines Landesdiensts des Benutzers und des zugewiesenen Benutzerwählplans bereitgestellt. Wenn ein Mandant einen Wählplan mit Mandantenbereich definiert, aber keinen Wählplan mit Benutzerbereich zu weist, wird diesem Benutzer ein effektiver Wählplan des Wählplans eines Landesdiensts des Benutzers und des Mandantenwählplans bereitgestellt.
 
-Im Folgenden finden Sie das Vererbungsmodell von Wählplänen in Teams.
+Im Folgenden wird das Vererbungsmodell von Wählplänen in Teams.
 
-![So werden Wählpläne in Teams geerbt](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Vererbung von Wählplänen in Teams](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 Mögliche gültige Wählpläne:
 
- **Dienstland** Wenn kein Wählplan mit Mandantenbereich definiert ist und dem bereitgestellten Benutzer kein Wählplan mit Mandantenbereich zugewiesen ist, erhält der Benutzer einen effektiven Wählplan, der dem Dienstland zugeordnet ist, das seinem Nutzungsstandort zugeordnet ist.
+ **Service Country (Land des Diensts)** Wenn kein Wählplan mit Bereichsumfang des Mandanten definiert ist und dem bereitgestellten Benutzer kein Wählplan mit Bereichsbereich eines Mandantenbenutzers zugewiesen ist, erhält der Benutzer einen effektiven Wählplan, der dem mit dem Verwendungsstandort verknüpften Dienstland zugeordnet ist.
 
- **Mandanten global – Dienstland** Wenn ein Mandantenbenutzerwählplan definiert, aber nicht einem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus einem zusammengeführten Mandantenwählplan und dem Wählplan für das Land des Diensts besteht, der seinem Nutzungsstandort zugeordnet ist.
+ **Tenant Global – Service Country** Wenn ein Mandanten-Benutzerwählplan definiert, aber keinem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus einem zusammengeführten Mandantenwählplan und dem mit dem Verwendungsstandort verknüpften Wählplan eines Landesdiensts besteht.
 
- **Mandantenbenutzer – Dienstland** Wenn ein Wählplan eines Mandantenbenutzers definiert und einem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus dem zusammengeführten Benutzerwählplan des Mandanten und dem Wählplan für das Land des Diensts besteht, der seinem Nutzungsstandort zugeordnet ist.
+ **Mandantenbenutzer – Land des Diensts** Wenn ein Mandanten-Benutzerwählplan definiert und einem Benutzer zugewiesen ist, erhält der bereitgestellte Benutzer einen effektiven Wählplan, der aus dem zusammengeführten Mandanten-Benutzerwählplan und dem mit dem Verwendungsstandort verknüpften Wählplan eines Landesdiensts besteht.
 
-Weitere Informationen finden Sie unter Erstellen und Verwalten von [Wählplänen](create-and-manage-dial-plans.md) zum Erstellen Ihrer Mandantenwählpläne.
+Informationen [zum Erstellen Ihrer Mandantenwählpläne finden](create-and-manage-dial-plans.md) Sie unter Erstellen und Verwalten von Wählplänen.
 
 > [!NOTE]
-> In dem Szenario, in dem keine Normalisierungsregeln für einen Wählplan für eine gewählte Nummer gelten, wird die gewählte Zeichenfolge weiterhin auf "+CC" normalisiert, wobei CC die Landesvorwahl des Verwendungsorts des Wählbenutzers ist. Dies gilt für Anrufpläne, Direct Routing- und PSTN-Konferenz-Einwahlszenarien.
+> In dem Szenario, in dem keine Wählplannormalisierungsregeln für eine gewählte Nummer gelten, wird die gewählte Zeichenfolge weiterhin normalisiert, um "+CC" vorher zu verwenden, wobei CC die Landesvorwahl des Nutzungsstandorts des Wählbenutzers ist. Dies gilt für Anrufpläne, direktes Routing und DFÜ-Szenarien für PSTN-Konferenz.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planen von Mandantenwählplänen
 
 Führen Sie die folgenden Schritte aus, um benutzerdefinierte Wählpläne zu planen:
 
-- **Schritt 1** Entscheiden Sie, ob ein benutzerdefinierter Wählplan erforderlich ist, um die Benutzerwählerfahrung zu verbessern. In der Regel muss eine nicht E.164-Wählhilfe unterstützt werden, z. B. Erweiterungen oder abgekürzte nationale Wählhilfen.
+- **Schritt 1** Entscheiden Sie, ob ein benutzerdefinierter Wählplan erforderlich ist, um die Wählerfahrung der Benutzer zu verbessern. In der Regel ist es nötig, Nicht-E.164-Wählhilfen zu unterstützen, z. B. Erweiterungen oder kurzkürzte Nationale Wählwahlen.
 
-- **Schritt 2** Bestimmen Sie, ob globale Wählpläne für Mandanten oder Mandanten mit Benutzerbereich oder beides erforderlich sind. Wählpläne mit Bereichszuweisung eines Benutzers sind erforderlich, wenn Benutzer über unterschiedliche Anforderungen an lokale Wählvorgänge verfügen.
+- **Schritt 2** Bestimmen Sie, ob globale oder Mandantenbenutzer-Wählpläne mit Bereichsbereich des Mandanten oder beides erforderlich sind. Wählpläne mit Bereichszuweisung eines Benutzers sind erforderlich, wenn Benutzer über unterschiedliche Anforderungen an lokale Wählvorgänge verfügen.
 
 - **Schritt 3**: Identifizieren Sie gültige Nummernmuster für jeden erforderlichen Wählplan. Es sind nur die Nummernmuster erforderlich, die nicht in den Wählplänen auf der Ebene von landesspezifischen Diensten definiert sind.
 
 - **Schritt 4**: Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen. Die Übernahme eines Standardbenennungsschemas stellt die Konsistenz innerhalb einer Organisation sicher und vereinfacht Wartungsaufgaben und Updates.
 
 
-## <a name="creating-your-new-dial-plan"></a>Erstellen ihres neuen Wählplans
+## <a name="creating-your-new-dial-plan"></a>Erstellen Ihres neuen Wählplans
 
 Wenn Sie einen neuen Wählplan erstellen, müssen Sie die erforderlichen Informationen angeben.
 
@@ -95,30 +95,30 @@ Sie können ein Präfix für externen Zugriff von bis zu vier Zeichen (#, * und 
 > [!NOTE]
 > Wenn Sie ein Präfix für externen Zugriff angeben, müssen Sie keine zusätzliche Normalisierungsregel erstellen, um das Präfix aufzunehmen.
 
-Weitere Informationen finden Sie unter Erstellen und Verwalten von [Wählplänen](create-and-manage-dial-plans.md) zum Erstellen Ihrer Mandantenwählpläne.
+Informationen [zum Erstellen Ihrer Mandantenwählpläne finden](create-and-manage-dial-plans.md) Sie unter Erstellen und Verwalten von Wählplänen.
 
 ## <a name="normalization-rules"></a>Normalisierungsregeln
 <a name="bknormalizationrule"> </a>
 
 Normalisierungsregeln definieren, wie die in verschiedenen Formaten ausgedrückten Telefonnummern übersetzt werden. Je nach dem lokalen Standort, von dem aus eine Nummernzeichenfolge gewählt wird, kann diese unterschiedlich interpretiert und übersetzt werden. Normalisierungsregeln sind unter Umständen notwendig, wenn Benutzer interne oder externe Kurzwahlnummern wählen müssen.
 
-Dem Wählplan muss mindestens eine Normalisierungsregeln zugewiesen werden. Normalisierungsregeln werden von oben nach unten übereinstimmen, daher ist die Reihenfolge, in der sie in einem Mandantenwählplan angezeigt werden, wichtig. Wenn z. B. ein Mandantenwählplan 10 Normalisierungsregeln enthält, wird die Logik für den Abgleich der gewählten Nummer ab der ersten Normalisierungsregel ausprobiert, wenn es keine Übereinstimmung gibt, dann die zweite usw. Wenn eine Übereinstimmung hergestellt wird, wird diese Regel verwendet, und es gibt keinen Versuch, andere definierte Regeln zu entsprechen. In einem bestimmten Mandantenwählplan können maximal 50 Normalisierungsregeln gelten.
+Dem Wählplan müssen mindestens eine Normalisierungsregeln zugewiesen werden. Normalisierungsregeln werden von oben nach unten abgestimmt, daher ist die Reihenfolge, in der sie in einem Mandantenwählplan angezeigt werden, wichtig. Wenn ein Mandantenwählplan beispielsweise 10 Normalisierungsregeln enthält, wird die Abgleichlogik für gewählte Nummern ab der ersten Normalisierungsregel ausprobiert, wenn keine Übereinstimmung vor liegt, dann die zweite usw. Wenn eine Übereinstimmung vorgenommen wird, wird diese Regel verwendet, und es ist nicht mehr aufwand, andere definierte Regeln zu beachten. In einem bestimmten Mandantenwählplan können maximal 50 Normalisierungsregeln gelten.
 
 ### <a name="determining-the-required-normalization-rules"></a>Festlegen der erforderlichen Normalisierungsregeln
 
-Da ein beliebiger Mandantenwählplan effektiv mit dem Wählplan eines bestimmten Benutzers zusammengeführt wird, ist es wahrscheinlich, dass die Normalisierungsregeln des Wählplans für das Land des Diensts ausgewertet werden müssen, um festzustellen, welche Normalisierungsregeln für den Mandantenwählplan erforderlich sind. Zu diesem Zweck kann das **Get-CsEffectiveTenantDialPlan** -Cmdlet verwendet werden. Das Cmdlet verwendet eine Benutzeridentität als Eingabeparameter und gibt alle auf den Benutzer anwendbaren Normalisierungsregeln zurück.
+Da jeder Mandantenwählplan effektiv mit dem Wählplan eines landesüblichen Diensts eines bestimmten Benutzers zusammengeführt wird, müssen wahrscheinlich die Normalisierungsregeln des Wählplans eines Landes ausgewertet werden, um zu bestimmen, welche Normalisierungsregeln für den Mandantenwählplan erforderlich sind. Zu diesem Zweck kann das **Get-CsEffectiveTenantDialPlan** -Cmdlet verwendet werden. Das Cmdlet verwendet eine Benutzeridentität als Eingabeparameter und gibt alle auf den Benutzer anwendbaren Normalisierungsregeln zurück.
 
 ### <a name="creating-normalization-rules"></a>Erstellen von Normalisierungsregeln
 <a name="createrule"> </a>
 
-Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um numerische Übereinstimmungsmuster anzugeben, die vom Server zum Übersetzen von Wählzeichenfolgen in das E.164-Format verwendet werden. Sie können Normalisierungsregeln erstellen, indem Sie den regulären Ausdruck für den Abgleich angeben sowie die Übersetzung, die für gefundene Übereinstimmungen durchgeführt werden soll. Abschließend können Sie eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
+Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um numerische Vergleichsmuster anzugeben, die vom Server zum Übersetzen von Wählzeichenfolgen in das E.164-Format verwendet werden. Sie können Normalisierungsregeln erstellen, indem Sie den regulären Ausdruck für den Abgleich angeben sowie die Übersetzung, die für gefundene Übereinstimmungen durchgeführt werden soll. Abschließend können Sie eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
 
-Details zur Verwendung .NET Framework regulären Ausdrücken finden Sie [unter .NET Framework Reguläre Ausdrücke](/dotnet/standard/base-types/regular-expressions).
+Details zur Verwendung von regulären .NET Framework finden Sie unter verwenden [.NET Framework reguläre Ausdrücke.](/dotnet/standard/base-types/regular-expressions)
 
-Weitere Informationen finden Sie unter Erstellen und Verwalten von [Wählplänen](create-and-manage-dial-plans.md) zum Erstellen und Verwalten von Normalisierungsregeln für Ihre Mandantenwählpläne.
+Informationen [zum Erstellen und Verwalten von](create-and-manage-dial-plans.md) Normalisierungsregeln für Ihre Mandantenwählpläne finden Sie unter Erstellen und Verwalten von Wählplänen.
 
 > [!NOTE]
-> Normalisierungsregeln mit dem ersten Token als optional werden derzeit auf 3pip-Geräten (z. B. Polycom VVX 601-Modell) nicht unterstützt. Wenn Sie Normalisierungsregeln mit Optionalität auf 3pip-Geräten anwenden möchten, sollten Sie zwei Normalisierungsregeln anstelle einer erstellen. Beispiel: Die Regel ^0? (999)$ sollte durch die folgenden beiden Regeln ersetzt werden: (999)$ (Übersetzung:$1) und ^0(999)$ (Übersetzung:$1).
+> Normalisierungsregeln mit dem ersten Token als optional werden derzeit auf 3pip-Geräten (z. B. Polycom VVX 601-Modell) nicht unterstützt. Wenn Sie Normalisierungsregeln mit der Optionalität auf 3pip-Geräten anwenden möchten, sollten Sie zwei Normalisierungsregeln anstelle von einer erstellen. Beispiel: Die Regel ^0? (999)$ sollte durch die folgenden beiden Regeln ersetzt werden: (999)$ (Übersetzung:$1) und ^0(999)$ (Übersetzung:$1).
 
 
 ### <a name="sample-normalization-rules"></a>Beispiele für Normalisierungsregeln
@@ -151,7 +151,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 | RedmondOperator <br/> |
 
 > [!NOTE]
-> Die Namen der Normalisierungsregeln, die in der vorherigen Tabelle angezeigt werden, enthalten keine Leerzeichen, aber dies ist eine Frage der Wahl. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er „5 digit extension" oder „5-digit Extension" lautet.
+> Die Namen der Normalisierungsregeln in der obigen Tabelle enthalten keine Leerzeichen, aber dies ist eine Frage der Wahl. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er „5 digit extension" oder „5-digit Extension" lautet.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -34,13 +34,13 @@ ms.locfileid: "51948661"
 |5. Oktober 2020<br> *(Abgeschlossen)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Sie aktivieren die Richtlinie für Teams-Besprechungen so, dass Besprechungsaufzeichnungen auf OneDrive for Business und SharePoint statt in Microsoft Stream (klassisch) gespeichert werden.|
 |Einführung ab dem 7. Januar 2021<br> *(Abgeschlossen)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Alle neuen Teams-Besprechungsaufzeichnungen werden auf OneDrive for Business und SharePoint gespeichert, es sei denn, Sie verzögern diese Änderung, indem Sie die Richtlinien für Teams-Besprechungen in Ihrer Organisation ändern und diese explizit auf **Stream-Besprechung** festlegen. Es reicht nicht aus, die Richtlinienberichte als Stream zu sehen. Sie müssen den Richtlinienwert explizit auf **Stream** festlegen.|
 |Einführung ab dem 11. Januar 2021<br> *(Abgeschlossen)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Nur GCC**<br> GCC-Kunden können die Option zwar ab dem 5. Oktober deaktivieren können, Sie können Sie jedoch nicht aktivieren. Dieses Feature wird ab dem 11. Januar 2021 für alle GCC-Kunden zur Verfügung stellen, sofern Sie das Feature nicht deaktivieren.<br>  <br>Ab 11. Januar 2021 werden alle neuen Teams-Besprechungsaufzeichnungen für GCC-Kunden auf OneDrive for Business und SharePoint gespeichert, es sei denn, Sie verzögern diese Änderung, indem Sie die Richtlinien für Teams-Besprechungen in Ihrer Organisation ändern und diese explizit auf **Stream-Besprechung** festlegen. <br><br>Wenn Sie das Feature deaktiviert haben, es nun aber aktivieren möchten, können Sie dazu Ihre Richtlinie für Teams-Besprechungen explizit auf **OneDrive for Business** setzen. |
-|Einführung ab dem 1. März 2021 <br> *(Abgeschlossen)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High und DoD**<br> Kunden können nun zum ersten Mal Cloud-Besprechungsaufzeichnungen in Microsoft Teams aktivieren. Diese Aufzeichnungen werden standardmäßig auf OneDrive und SharePoint gespeichert und abgespielt. |
+|Einführung ab dem 1. März 2021 <br> *(Complete)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High und DoD**<br> Kunden können nun zum ersten Mal Cloud-Besprechungsaufzeichnungen in Microsoft Teams aktivieren. Diese Aufzeichnungen werden standardmäßig auf OneDrive und SharePoint gespeichert und abgespielt. |
 |Inkrementelle Einführung ab dem 7. Juli 2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**Alle Kunden (Enterprise, Education und GCC)**<br>Es können keine neuen Besprechungsaufzeichnungen in Microsoft Stream (klassisch) gespeichert werden. Bei allen Kunden werden Besprechungsaufzeichnungen automatisch auf OneDrive for Business und SharePoint gespeichert, selbst wenn sie ihre Teams-Besprechungsrichtlinien in "Stream" geändert haben.<br><br> Um den Wandel in Ihrem Unternehmen besser kontrollieren zu können, empfehlen wir unseren Kunden, sich für den Wechsel zu entscheiden, wann immer Sie denken, es ist der richtige Zeitpunkt, anstatt darauf zu warten, dass der Wechsel stattfindet. |
 
 Microsoft Teams hat eine neue Methode zum Speichern von Besprechungsaufzeichnungen. Als erste Phase eines Übergangs vom klassischen Microsoft Stream zum [neuen Stream](/stream/streamnew/new-stream) speichert diese Methode Aufzeichnungen auf Microsoft OneDrive for Business und SharePoint in Microsoft 365 und bietet viele Vorteile.
 
 > [!NOTE]
-> Wenn eine #A0 nicht erfolgreich auf OneDrive/SharePoint hochgeladen werden kann, wird die Aufzeichnung stattdessen vorübergehend in Azure Media Services (AMS) gespeichert. Nachdem sie in AMS gespeichert wurden, werden keine Wiederholungsversuche ausgeführt, um die Aufzeichnung automatisch auf OneDrive/SharePoint oder Stream hochzuladen.
+> Wenn eine Teams-Besprechungsaufzeichnung nicht erfolgreich auf OneDrive/SharePoint hochgeladen werden kann, wird die Aufzeichnung stattdessen vorübergehend in Azure Media Services (AMS) gespeichert. Nachdem die Aufzeichnung in AMS gespeichert wurde, werden keine Wiederholungsversuche ausgeführt, um die Aufzeichnung automatisch auf OneDrive/SharePoint oder Stream hochzuladen.
 
 In AMS gespeicherte Besprechungsaufzeichnungen sind 21 Tage lang verfügbar, bevor sie automatisch gelöscht werden. Benutzer können das Video von AMS herunterladen, wenn sie eine Kopie behalten müssen.
 
@@ -57,9 +57,9 @@ Die Verwendung von OneDrive for Business und SharePoint zum Speichern von Aufzei
 - Multi-Geo-Unterstützung – Aufzeichnungen werden in einer für den Benutzer spezifischen Region gespeichert
 - Unterstützung von "Bring your own key" (BYOK)
 
-Sehen Sie sich die vollständige Liste der features an, die heute [verfügbar sind und was im Laufe der Zeit zu erwarten ist.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
+Hier finden Sie eine vollständige Liste der heute verfügbaren Features [und was im Laufe der Zeit zu erwarten ist.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
 
-Weitere Informationen finden Sie unter "Neu bei Microsoft Teams-Besprechungsaufzeichnungen".
+Weitere Informationen finden Sie unter "Microsoft Teams für Besprechungsaufzeichnungen".
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter "Neu bei Microsoft Teams-Besprechungsaufz
 Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinienebene von Teams. Das folgende Beispiel zeigt, wie Sie die globale Richtlinie festlegen können. Stellen Sie sicher, dass Sie die Option zur Besprechungsaufzeichnung für die Richtlinie oder Richtlinien festlegen, die Sie Ihren Benutzern zugewiesen haben.
 
 > [!Note]
-> Änderungen an den Besprechungsrichtlinien von Teams dauern eine Weile, bis sie weitervererbt werden. Schauen Sie nach ein paar Stunden nach dem Festlegen zurück, melden Sie sich ab, und melden Sie sich erneut bei der Teams Desktop-App an, oder starten Sie Ihren Computer einfach neu.
+> Teams der Aktualisierung von Besprechungsrichtlinien dauert es eine Weile, bis sie weitervererbt wurden. Schauen Sie nach ein paar Stunden nach dem Festlegen wieder nach, melden Sie sich ab und wieder bei der Teams Desktop-App an, oder starten Sie Ihren Computer einfach neu.
 
 1. Teams PowerShell installieren.
 
@@ -152,8 +152,8 @@ Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandel
 - Bei Kanalbesprechungen werden Berechtigungen von der Liste "Besitzer" und "Mitglieder" im Kanal geerbt.
 
 > [!NOTE]
-> Wenn die Aufzeichnung mit dem Speichern abgeschlossen ist, erhalten Sie keine E-Mail, aber die Aufzeichnung wird im Besprechungschat angezeigt, sobald sie abgeschlossen ist. Dies geschieht viel schneller als zuvor in Stream.
-> Sie können steuern, für wen Sie die Aufzeichnung freigeben, aber Sie können nicht blockieren, dass Personen mit geteilten Zugriff die Aufzeichnung herunterladen.  
+> Sie erhalten nach dem Speichern der Aufzeichnung keine E-Mail, die Aufzeichnung wird jedoch im Besprechungschat angezeigt, sobald sie abgeschlossen ist. Dies geschieht wesentlich schneller als zuvor in Stream.
+> Sie können steuern, für wen Sie die Aufzeichnung freigeben, aber Sie können das Herunterladen der Aufzeichnung für Personen mit freigegebenen Zugriffen nicht blockieren.  
 
 **Wie kann ich Untertitel verwalten?**
 
@@ -166,7 +166,7 @@ Untertitel werden bei Teams-Besprechungsaufzeichnungen 60 Tage ab der Aufzeichnu
 Untertitel für Hörgeschädigte werden nicht vollständig unterstützt, wenn die Teams-Besprechungsaufzeichnung von ihrem ursprünglichen Speicherort auf OneDrive for Business oder SharePoint verschoben oder kopiert wird.
 
 > [!NOTE]
-> Es gibt nur englische Untertitel (die Transkription von Besprechungen ist in GCC noch nicht verfügbar).
+> Es gibt nur englische Untertitel (die Transkription von Besprechungen ist in englischen GCC).
 
 **Wie wirkt sich dies auf mein Speicherkontingent aus?**
 
@@ -190,7 +190,7 @@ Siehe [Aufbewahrungsbezeichnungen automatisch anwenden](/microsoft-365/complianc
 
 Siehe [Welche Richtlinie hat Vorrang?](./assign-policies.md#which-policy-takes-precedence).
 
-**Wo wird die Aufzeichnung aufgezeichnet, wenn der Benutzer nicht über OneDrive for Business oder SharePoint verfügt?**
+**Wo wird die Aufzeichnung aufgezeichnet, wenn der Benutzer nicht über OneDrive for Business oder SharePoint?**
 
-Die Aufzeichnung wird an unserem temporären Speicherort für 21 Tage gespeichert. Während dieser Zeit muss der Organisator die Aufzeichnung herunterladen. Wenn die Aufzeichnung nicht innerhalb von 21 Tagen heruntergeladen wird, wird sie gelöscht.
+Die Aufzeichnung wird an unserem temporären Speicherort landen, wo sie 21 Tage lang gespeichert wird. Während dieser Zeit muss der Organisator die Aufzeichnung herunterladen. Wenn die Aufzeichnung nicht innerhalb von 21 Tagen heruntergeladen wurde, wird sie gelöscht.
 

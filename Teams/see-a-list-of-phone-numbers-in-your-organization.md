@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie im Microsoft Teams Admin Center eine Liste aller Telefonnummern in Ihrer Organisation und aller Nummern sehen, die Benutzern zugewiesen oder nicht zugewiesen sind.
+description: Erfahren Sie, wie Sie Microsoft Teams Admin Center verwenden können, um eine Liste aller Telefonnummern in Ihrer Organisation und aller Nummern, die Benutzern zugewiesen oder nicht zugewiesen sind, zu sehen.
 ms.openlocfilehash: 41eceb3618fae61308b90a88165ce1935ad6b30b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,11 +32,11 @@ ms.locfileid: "51117233"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
-Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Diensten (Dienstnummern) zuweisen können, z. B. für Audiokonferenzen in Microsoft 365 oder Office 365.
+Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Diensten (Servicenummern) zuweisen können, z. B. für Audiokonferenzen in Microsoft 365 oder Office 365.
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>So zeigen Sie eine Liste aller Telefonnummern für Ihre Organisation an
 
-![Ein Symbol mit dem Teams-Logo ](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Symbol mit dem Teams ](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
@@ -45,77 +45,77 @@ Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Di
     > [!IMPORTANT]
     > Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
 
-3. Informationen zum Anzeigen der zugewiesenen Telefonnummern finden Sie in der Spalte **Status.**
+3. Informationen zum Anzeigen der zugewiesenen Telefonnummern finden Sie in der **Spalte Status.**
 
-4. Zum Filtern der Ansicht klicken Sie auf das Filtersymbol. Im Bereich **Filter** können Sie die Dropdownliste verwenden, um Ihre Ansicht nach den
+4. Zum Filtern der Ansicht klicken Sie auf das Filtersymbol. Im **Bereich Filter** können Sie die Dropdownliste verwenden, um ihre Ansicht nach den hier aufgeführten Filtern zu filtern:
 
-   - **Von Ihnen festgelegter** Zahlenbereich. Sie können nach der niedrigsten oder höchsten Zahl suchen.
+   - **Von Ihnen festgelegter** Zahlenbereich. Sie können nach der niedrigsten oder der höchsten Zahl suchen.
 
    - Zahlen, die mit einer von Ihnen angegebenen Zahl beginnen.
 
-   - Der **Aktivierungszustand von Zahlen**.
+   - Status **der Nummernaktivierung.**
 
    - **Zahlentyp**.
 
-   - **Telefonnummernstatus**.
+   - Telefon den **Nummernstatus .**
 
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>So zeigen Sie alle Benutzern zugewiesenen Telefonnummern an
 
-Wenn Sie Benutzer einrichten, möchten Sie möglicherweise nur die Liste der Telefonnummern sehen, die benutzern bereits zugewiesen sind und welche Telefonnummern verfügbar sind, um ihnen zugewiesen zu werden.
+Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur eine Liste der Telefonnummern sehen, die Benutzern bereits zugewiesen sind und welche Telefonnummern verfügbar sind, die ihnen zugewiesen werden können.
   
-![Ein Symbol mit dem Teams-Logo ](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Symbol mit dem Teams ](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
     > [!IMPORTANT]
-    > Damit die Option  Voice im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen  Sie zuerst mindestens eine **Enterprise E5-Lizenz,** eine Lizenz für das Telefonsystem-Add-On oder eine Lizenz für **Audiokonferenzen** erwerben.
+    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine Enterprise **E5-Lizenz,** eine **Telefonsystem** Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
 
-3. Wenn Sie die Zahlen schnell sortieren möchten, damit Sie sehen können, welche zugewiesen sind, klicken Sie auf die Spaltenüberschrift **Status.** Sie können auch auf das Filtersymbol klicken und dann ihre Ansicht filtern, um Telefonnummern zu sehen, die bereits Benutzern zugewiesen sind, oder nicht zugewiesene Nummern, die Sie einem Benutzer zuweisen können. Sie können nach folgenden Kriterien filtern:
+3. Wenn Sie die Zahlen schnell sortieren möchten, damit Sie sehen können, welche zugewiesen sind, klicken Sie auf die **Spaltenüberschrift** Status. Sie können auch auf das Filtersymbol klicken und dann Ihre Ansicht filtern, um Telefonnummern, die Benutzern bereits zugewiesen sind, oder nicht zugewiesene Nummern, die Sie Benutzern zuweisen können, zu sehen. Sie können nach folgenden Kriterien filtern:
 
    - **Benutzer zugewiesen**
 
-   - **Der Konferenzbrücke zugewiesen** 
+   - **Einer Konferenzbrücke zugewiesen** 
 
    - **Nicht zugewiesen**
 
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>So zeigen Sie die VoIP-Benutzern zugewiesenen Telefonnummern an
 
-Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie zuerst die Telefonnummern abrufen und diese dann den Benutzern zuweisen. Nachdem Sie Ihre Telefonnummern erhalten haben, möchten Sie möglicherweise nur noch den Aktivierungsstatus der Nummernzuweisungen anzeigen.
+Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie zuerst die Telefonnummern abrufen und diese dann den Benutzern zuweisen. Nachdem Sie Ihre Telefonnummern erhalten haben, möchten Sie möglicherweise nur noch den Aktivierungsstatus der Nummernzuweisungen sehen.
 
-![Ein Symbol mit dem Teams-Logo ](media/teams-logo-30x30.png) **Mithilfe des Microsoft Teams Admin Centers** !
+![Symbol mit dem Teams ](media/teams-logo-30x30.png) **Unter Verwendung Microsoft Teams Admin Center** !
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
     > [!IMPORTANT]
-    > Damit die Option  Voice im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen  Sie zuerst mindestens eine **Enterprise E5-Lizenz,** eine Lizenz für das Telefonsystem-Add-On oder eine Lizenz für **Audiokonferenzen** erwerben.
+    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine Enterprise **E5-Lizenz,** eine **Telefonsystem** Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
 
-3. Klicken Sie auf das Filtersymbol, um Die Ansicht nach **Aktivierungszustand zu** filtern Sie können nach:
+3. Klicken Sie auf das Filtersymbol, um die Ansicht nach **Aktivierungszustand zu filtern** Sie können nach:
 
    - **Aktiviert**
 
-   - **Aufgabe ausstehend**
+   - **Zuweisung ausstehend**
 
-   - **Aufgabe fehlgeschlagen**
+   - **Zuordnung fehlgeschlagen**
 
-   - **Update ausstehend**
+   - **Update steht noch aus**
 
-   - **Update fehlgeschlagen**
+   - **Aktualisierung fehlgeschlagen**
 
 ## <a name="using-the-teams-powershell-module"></a>Verwenden des Teams PowerShell-Moduls
 
-Sie können das Teams PowerShell-Modul verwenden, um dieselben Informationen aus den vorherigen Abschnitten zu erhalten, aber Version 1.1.6 oder höher ist erforderlich, was die Integration des Skype for Business Online-Connectors umfasst. Weitere Informationen zum Modul finden Sie unter [Microsoft Teams PowerShell Overview](teams-powershell-overview.md).
+Sie können das Teams PowerShell-Modul verwenden, um dieselben Informationen aus den vorherigen Abschnitten zu erhalten, aber Version 1.1.6 oder höher ist erforderlich, die die Integration des Skype for Business Online-Connectors umfasst. Weitere Informationen zum Modul finden Sie unter Übersicht [Microsoft Teams PowerShell.](teams-powershell-overview.md)
 
-Mithilfe des [Get-CsOnlineTelephoneNumber-Cmdlets](/powershell/module/skype/get-csonlinetelephonenumber) können Sie eine Liste aller Telefonnummern für Ihre Organisation sehen. Sie können beispielsweise den folgenden Befehl ausführen, um jede Telefonnummer und deren Zustand zu sehen:
+Mit dem [Cmdlet Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) können Sie eine Liste aller Telefonnummern für Ihre Organisation sehen. Sie können z. B. den folgenden Befehl ausführen, um die einzelnen Telefonnummern und deren Status zu sehen:
 
 ```PowerShell
 Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 ```
 
-Sie können alle Telefonnummern, die Benutzern zugewiesen sind, mithilfe des [Get-CsOnlineUser-Cmdlets](/powershell/module/skype/get-csonlineuser) sehen. Sie können beispielsweise den folgenden Befehl ausführen, um alle Benutzer mit einer zugewiesenen Telefonnummer zu sehen:
+Sie können alle Telefonnummern, die Benutzern zugewiesen sind, mithilfe des [Cmdlets Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser) sehen. Sie können z. B. den folgenden Befehl ausführen, um alle Benutzer mit einer zugewiesenen Telefonnummer zu sehen:
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI

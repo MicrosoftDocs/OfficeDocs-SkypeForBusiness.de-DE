@@ -1,5 +1,5 @@
 ---
-title: PowerShell-Skriptbeispiel – Erstellen neuer Managerteams für Personen
+title: 'PowerShell-Skriptbeispiel: Erstellen neuer Managerteams für Personen'
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: Verwenden Sie dieses PowerShell-Skript, um ein Team für jeden Vorgesetzten mit seinen Direkten als Teammitglieder zu erstellen.
+description: Verwenden Sie dieses PowerShell-Skript, um ein Team für jeden Manager mit seinen direkten Mitarbeiter als Teammitglieder zu erstellen.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,11 +23,11 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117303"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell-Skriptbeispiel – Erstellen neuer Managerteams für Personen
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell-Skriptbeispiel: Erstellen neuer Managerteams für Personen
 
-Verwenden Sie dieses PowerShell-Skript, um ein Team für jeden Vorgesetzten mit seinen Direkten als Teammitglieder zu erstellen. Führen Sie vor der Ausführung dieses Skripts das Skript ["Manager](powershell-script-create-teams-from-managers-export-managers.md) exportieren" aus, um (aus Ihrem Active Directory) eine Liste der Manager und deren Direktinformationen für Ihre Organisation zu exportieren.
+Verwenden Sie dieses PowerShell-Skript, um ein Team für jeden Manager mit seinen direkten Mitarbeiter als Teammitglieder zu erstellen. Bevor Sie dieses Skript ausführen, führen Sie das Skript [Export](powershell-script-create-teams-from-managers-export-managers.md) Managers aus, um (aus Ihrem Active Directory) eine Liste der Manager und deren Direkten für Ihre Organisation zu exportieren.
 
-Weitere Informationen zu diesem PowerShell-Skript finden Sie unter [Erstellen von Managerteams für Personen.](../create-manager-directs-teams.md)
+Weitere Informationen zu diesem PowerShell-Skript finden Sie unter [Erstellen von Personen-Manager-Teams.](../create-manager-directs-teams.md)
 
 Wenn PowerShell für Sie neu ist und Sie bei den ersten Schritten Hilfe benötigen, lesen Sie [Übersicht über Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).
 

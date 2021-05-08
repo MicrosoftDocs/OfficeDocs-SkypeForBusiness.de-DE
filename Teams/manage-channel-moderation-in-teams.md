@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Kanäle für die Moderation in Microsoft Teams einrichten, einschließlich des Hinzufügens von Teammitgliedern als Kanalmoderatoren.
+description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten und Teammitglieder als Kanalmoderatoren hinzufügen.
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
 ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
@@ -27,60 +27,60 @@ ms.locfileid: "51948641"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanalmoderation in Microsoft Teams
 
-In Microsoft Teams können Teambesitzer die Moderation für einen Standardkanal aktivieren, um zu steuern, wer neue Beiträge starten und beiträge in diesem Kanal beantworten kann.
+In Microsoft Teams können Teambesitzer die Moderation für einen Standardkanal aktivieren, um zu steuern, wer neue Beiträge beginnen und auf Beiträge in diesem Kanal antworten kann.
 
-Teambesitzer können Teammitglieder auch als Moderatoren hinzufügen. Ein Teambesitzer verfügt möglicherweise nicht über die Fachkenntnisse auf Kanalebene, um die Moderation des Kanals optimal zu unterstützen. Indem bestimmte Teammitglieder einen Kanal moderieren können, wird die Verantwortung für die Verwaltung von Inhalten und Kontext innerhalb eines Kanals zwischen Teambesitzern und Kanalmoderatoren geteilt. Beispielsweise kann ein Teambesitzer Geschäftsbesitzer oder Inhaltsbesitzer als Moderatoren hinzufügen, wodurch er die Freigabe von Informationen in diesem Kanal steuern kann.
+Teambesitzer können auch Teammitglieder als Moderatoren hinzufügen. Ein Teambesitzer verfügt möglicherweise nicht über das Fachwissen auf Kanalebene, um die Kanalmoderation optimal zu unterstützen. Wenn sie es bestimmten Teammitgliedern ermöglichen, einen Kanal zu moderieren, wird die Verantwortung für die Verwaltung von Inhalten und Kontext in einem Kanal zwischen Teambesitzern und Kanalmoderatoren geteilt. Ein Teambesitzer kann beispielsweise Geschäftsbesitzer oder Inhaltsbesitzer als Moderatoren hinzufügen, wodurch er die Freigabe von Informationen in diesem Kanal steuern kann.
 
 > [!NOTE]
-> Die Kanalmoderation ist für Standardkanäle verfügbar. Sie ist weder für den Kanal Allgemein noch für private Kanäle verfügbar.
+> Die Kanalmoderation steht für Standardkanäle zur Verfügung. Sie ist für den Kanal "Allgemein" oder private Kanäle nicht verfügbar.
 
 ## <a name="what-can-a-channel-moderator-do"></a>Was kann ein Kanalmoderator tun?
 
 Kanalmoderatoren können:
 
 - Beginnen Sie neue Beiträge im Kanal. Wenn die Moderation für einen Kanal aktiviert ist, können nur Moderatoren neue Beiträge in diesem Kanal starten.
-- Hinzufügen und Entfernen von Teammitgliedern als Moderatoren zu einem Kanal. Denken Sie daran, dass Teambesitzer standardmäßig Kanalmoderatoren sind und nicht entfernt werden können.
-- Steuern Sie, ob Teammitglieder auf vorhandene Kanalnachrichten antworten können und ob Bots und Connectors Kanalnachrichten übermitteln können.
+- Fügen Sie teammitglieder als Moderatoren zu einem Kanal hinzu, und entfernen Sie sie. Bedenken Sie, dass Teambesitzer standardmäßig Kanalmoderatoren sind und nicht entfernt werden können.
+- Steuern Sie, ob Teammitglieder auf vorhandene Kanalnachrichten antworten und ob Bots und Connectors Kanalnachrichten übermitteln können.
 
 ## <a name="scenarios"></a>Szenarien
 
-Hier sind einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in Teams verwenden kann.
+Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in ihrer Organisation Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Verwenden eines Kanals als Ankündigungskanal
 
-Das Marketingteam verwendet einen bestimmten Kanal, um wichtige Projektankündigungen und -lieferungen gemeinsam zu nutzen. Manchmal posten Teammitglieder Inhalte in dem Kanal, der in anderen Kanälen geeigneter ist. Der Teambesitzer möchte die Freigabe von Informationen im Kanal auf nur Ankündigungen beschränken, damit Teammitglieder diesen Kanal verwenden können, um über das Wichtige auf dem Besten zu bleiben.
+Das Marketingteam nutzt einen bestimmten Kanal, um wichtige Projektankündigungen und Projektlieferungen zu teilen. Manchmal veröffentlichen Teammitglieder Inhalte in dem Kanal, der passender in anderen Kanälen gehört. Der Teambesitzer möchte die Freigabe von Informationen im Kanal auf Ankündigungen beschränken, sodass Teammitglieder über diesen Kanal immer über die wichtigen Informationen auf dem Informierten bleiben können.
 
-In diesem Szenario fügt der Teambesitzer Marketing leads als Moderatoren hinzu, damit er Ankündigungen im Kanal veröffentlichen kann und die Möglichkeit für Teammitglieder deaktiviert, auf Nachrichten in diesem Kanal zu antworten.
+In diesem Szenario fügt der Teambesitzer "Marketing Leads" als Moderatoren hinzu, damit sie Ankündigungen im Kanal veröffentlichen können, und deaktiviert die Möglichkeit für Teammitglieder, auf Nachrichten in diesem Kanal zu antworten.
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Verwenden eines Kanals für Kursdiskussionen in Teams for Education
 
-In Teams for Education möchte ein wissenschaftlicher Lehrer einen Kanal verwenden, um Schüler/Studenten in gezielte Diskussionen zu bestimmten Unterrichtsthemen zu engagieren.
+In Teams for Education möchte eine Naturwissenschaftliche Lehrkraft einen Kanal verwenden, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
 
-In diesem Szenario ermöglicht der Lehrer seinen Lehrassistenten, den Kanal zu moderieren. Die Lehrassistenten können dann neue Beiträge erstellen, um Diskussionen mit Kursteilnehmern zu initiieren und anzustoßen.
+In diesem Szenario ermöglicht es der Lehrkraft ihren Lehrassistenten, den Kanal zu moderieren. Die Lehrassistenten können dann neue Beiträge erstellen, um Diskussionen mit Schülern/Studenten zu starten und zu leiten.
 
 ## <a name="manage-channel-moderation"></a>Verwalten der Kanalmoderation
 
-Wechseln Sie in Teams zum Kanal, klicken Sie auf **Weitere Optionen ...**  >  **Kanal verwalten**. Von hier aus können Sie moderation aktivieren und deaktivieren, Teammitglieder als Moderatoren hinzufügen und Einstellungen festlegen.
+Wechseln Teams zum Kanal, und klicken Sie auf **Weitere Optionen...**  >  **Kanal verwalten.** Hier können Sie die Moderation aktivieren und deaktivieren, Teammitglieder als Moderatoren hinzufügen und Einstellungen festlegen.
 
-Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung auf Mandantenebene für die Kanalmoderation. Wenn Sie möchten, dass wir eine Moderationseinstellung auf Mandantenebene hinzufügen, fordern Sie sie in [Teams UserVoice an.](https://microsoftteams.uservoice.com/)
+Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung auf Mandantenebene für die Kanalmoderation. Wenn Sie möchten, dass wir eine Einstellung für die Kanalmoderation auf Mandantenebene hinzufügen, fordern Sie sie auf [Teams UserVoice an.](https://microsoftteams.uservoice.com/)
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![Einstellungen für die Verwaltung von Channel-Moderation-in-Teams](media/manage-channel-moderation-in-teams-preferences.png)
+![Einstellungen für managing-channel-moderation-in-teams](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>Aktivieren oder Deaktivieren der Moderation für einen Kanal
 
-Die Moderation ist standardmäßig deaktiviert, was bedeutet, dass die üblichen Kanaleinstellungen für Teambesitzer und Teammitglieder gelten. So können Sie beispielsweise neue Beiträge auf nur Teammitglieder beschränken oder allen Personen, einschließlich Gästen, das Starten neuer Beiträge gestatten.
+Die Moderation ist standardmäßig deaktiviert, d. h., dass die üblichen Kanaleinstellungen für Teambesitzer und Teammitglieder gelten. So können Sie beispielsweise neue Beiträge auf Teammitglieder beschränken oder allen, einschließlich Gästen, erlauben, neue Beiträge zu beginnen.
 
-Zum Aktivieren der Moderation für einen Kanal klicken Sie unter **Kanalmoderation** auf **Ein.** Wenn die Kanalmoderation an ist, können nur Moderatoren neue Beiträge starten. 
+Klicken Sie unter Kanalmoderation auf Ein, um die Moderation für einen Kanal **zu aktivieren.** Wenn die Kanalmoderation ein ist, können nur Moderatoren neue Beiträge beginnen. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Hinzufügen oder Entfernen von Kanalmoderatoren
 
-Klicken **Sie unter Wer sind die Moderatoren?** auf **Verwalten**, und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie. Teambesitzer und Moderatoren können andere Moderatoren hinzufügen und entfernen.  
+Unter **Wer befinden sich die Moderatoren?** auf Verwalten , und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie.  Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
 
 ### <a name="set-team-member-permissions"></a>Festlegen von Teammitgliedsberechtigungen
 
-Aktivieren **Sie unter Berechtigungen für Teammitglieder** die Kontrollkästchen neben den Aktivitäten, die Sie zulassen möchten.
+Aktivieren **Sie unter Teammitgliedsberechtigungen** die Kontrollkästchen neben den Aktivitäten, die Sie zulassen möchten.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

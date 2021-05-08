@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Chile verfügbar sind.
+description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Chile verfügbar.
 ms.openlocfilehash: e1d871b5107e2bfba7b25e47d60f36c2a7484b34
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,14 +36,14 @@ ms.locfileid: "51118254"
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365- und Office 365-Dienste für Skype for Business und Microsoft Teams, die für Chile verfügbar sind.
+Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Chile verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
 |Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Ja  <br/> |
-|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Santiago (nur für Organisationen in Chile verfügbar)</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
+|Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Santiago (nur für Organisationen innerhalb von Chile verfügbar)</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Erfordert Guthaben für Kommunikationen  <br/> |
    
 ## <a name="phone-system"></a>Telefonsystem
@@ -69,8 +69,8 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Santiago  <br/> **Hinweis:** Nur für Organisationen in Chile verfügbar.           |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> **Hinweis:** Nur für Organisationen in Chile verfügbar.           |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Santiago  <br/> **Hinweis:** Nur für Organisationen innerhalb von Chile verfügbar.           |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> **Hinweis:** Nur für Organisationen innerhalb von Chile verfügbar.           |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).

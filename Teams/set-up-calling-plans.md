@@ -24,7 +24,7 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren Pläne anzeigen, & Lizenzen zuweisen, Telefonnummern erhalten und Notfalladressen & hinzufügen.
+description: Hier erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren Pläne anzeigen, Lizenzen & zuweisen, Telefonnummern erhalten und Notfalladressen & hinzufügen.
 ms.openlocfilehash: a06ec3b71933e8e6ea640b6377581243140ef672
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -34,7 +34,7 @@ ms.locfileid: "51117123"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
-Anrufe an andere Teams-Benutzer sind kostenlos, aber wenn Sie möchten, dass Ihre Benutzer Telefone außerhalb Ihres Unternehmens anrufen können, erhalten Sie in Microsoft 365 oder Office 365 einen Hausanrufplan oder einen Auslandsanrufplan. Das Einrichten von Anrufplänen für Ihr Unternehmen ist ganz einfach.  Weitere Informationen zu Anrufplänen finden Sie unter [welcher Anrufplan ist für Sie am geeignetsten?](calling-plan-landing-page.md).
+Anrufe an andere Teams-Benutzer sind kostenlos. Wenn Sie Jedoch möchten, dass Ihre Benutzer Telefone außerhalb Ihres Unternehmens anrufen können, erhalten Sie einen Plan für Inlandanrufe oder einen Plan für Auslandsanrufe in Microsoft 365 oder Office 365. Das Einrichten von Anrufplänen für Ihr Unternehmen ist ganz einfach.  Weitere Informationen zu Anrufplänen finden Sie unter [welcher Anrufplan ist für Sie am geeignetsten?](calling-plan-landing-page.md).
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Schritt 1: Feststellen, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind
 Gehen Sie auf [Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) und wählen Sie Ihr Land oder Ihre Region aus, um Informationen zur Verfügbarkeit von Anrufplänen sowie über Audiokonferenzen, Telefonanlage, gebührenfreie Nummern und Guthaben für Kommunikationen zu erhalten.
@@ -42,12 +42,12 @@ Gehen Sie auf [Verfügbarkeit nach Land und Region für Audiokonferenz und Anruf
 Wenn für Ihr Land oder Ihre Region keine Anrufpläne zur Verfügung stehen, erwägen Sie die Verwendung der direkten Weiterleitung, um die lokale Telefonie-Infrastruktur mit dem Telefon System zu verbinden.  Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Schritt 2: Lizenzen kaufen und zuweisen
-1. Wenn das Telefonsystemfeature nicht in Ihrem Microsoft 365- oder Office 365-Plan enthalten ist, müssen Sie möglicherweise Lizenzen für das **Telefonsystem-Add-On** erwerben. Nachdem Sie über **Telefonsystemlizenzen** verfügen, kaufen [Sie Anrufpläne für Microsoft 365 oder Office 365.](calling-plans-for-office-365.md) Näheres hierzu erfahren Sie unter [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Erwerben Sie schließlich die Lizenzen und den Plan. 
+1. Wenn das feature Telefonsystem nicht in Ihrem Microsoft 365- oder Office 365-Plan enthalten ist, müssen Sie möglicherweise Telefonsystem **Add-On-Lizenzen** erwerben. Nachdem Sie über **Telefonsystem** verfügen, kaufen Sie Anrufpläne für [Microsoft 365 oder Office 365.](calling-plans-for-office-365.md) Näheres hierzu erfahren Sie unter [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Erwerben Sie schließlich die Lizenzen und den Plan. 
     
     > [!TIP]
-    > **Telefonsystemlizenzen** und Anrufpläne in Microsoft 365 oder Office 365 gehen zusammen. Um also die Option zum Kauf von Anrufplänen zu sehen, müssen Sie zuerst über die Lizenzen für das **Telefonsystem** verfügen.
+    > **Telefonsystem** Lizenzen und Anrufpläne in Microsoft 365 oder Office 365 zusammen. Wenn Sie also die Option zum Kauf von Anrufplänen sehen möchten, müssen Sie zuerst über Telefonsystem **verfügen.**
   
-2. Weisen Sie zuerst die Lizenzen zu, und weisen Sie dann den Personen in Ihrer Organisation einen Anrufplan zu. Weitere Informationen finden Sie unter Zuweisen von [Microsoft Teams-Add-On-Lizenzen.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+2. Weisen Sie zuerst die Lizenzen zu, und weisen Sie dann den Personen in Ihrer Organisation einen Anrufplan zu. Weitere [Informationen finden Microsoft Teams Zuweisen von Add-On-Lizenzen.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 ## <a name="step-3-get-phone-numbers"></a>Schritt 3: Erhalten von Telefonnummern
 Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
@@ -59,7 +59,7 @@ Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal können Sie (je nach Land/Region) Ihre neuen Telefonnummern nicht über das Skype for Business Admin Center beziehen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahlen. Wenn dies der Fall ist, müssen Sie ein Formular herunterladen und an uns zurücksenden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Schritt 4: Notfalladressen und -standorte für Ihr Unternehmen hinzufügen
-<a name="bkmk_add_addresses"> </a> Eine Notrufadresse muss einer Telefonnummer zugeordnet sein. Wann diese Zuordnung geschieht, ist für die einzelnen Länder und Regionen unterschiedlich. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. In Großbritannien müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Microsoft 365 oder Office 365 erhalten oder Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen. 
+<a name="bkmk_add_addresses"> </a> Eine Notrufadresse muss einer Telefonnummer zugeordnet sein. Wann diese Zuordnung geschieht, ist für die einzelnen Länder und Regionen unterschiedlich. In den Vereinigten Staaten müssen Sie beispielsweise eine Notfalladresse zuordnen, wenn Sie die Telefonnummer einem Benutzer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer eine Notfalladresse zuordnen, wenn Sie die Telefonnummern von Microsoft 365 oder Office 365 erhalten oder wenn Sie Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen. 
 
 Informationen zum Notruf und zur Verwaltung von Notrufen finden Sie unter [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md) und [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md).
     

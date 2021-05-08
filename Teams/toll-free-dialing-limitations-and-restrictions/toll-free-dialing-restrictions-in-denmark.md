@@ -21,7 +21,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Dies hilft Ihnen, herauszufinden, wie Sie gebührenfreie Nummern in jedem Land/jeder Region wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit bestimmten Details, Einschränkungen und Beschränkungen für die gebührenfreie Verfügbarkeit von Dienstleistungen, auf denen gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in den einzelnen Ländern/Regionen an, um die gebührenfreie Nummer zu wählen.
+description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder/Regionen zum Wählen der gebührenfreien Nummer.
 ms.openlocfilehash: fbc6933c24ef119f4bb63a0c7f976034f831780b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51098161"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Einschränkungen für gebührenfreie Telefonnummern in Dänemark
 
-[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über gebührenfreie Wähleinschränkungen und -beschränkungen.
+[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für gebührenfreie Wählscheibe.
 
 
 |**Details**|**Beschreibung**|

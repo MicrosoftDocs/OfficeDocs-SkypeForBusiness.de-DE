@@ -1,5 +1,5 @@
 ---
-title: Typen von Telefonnummern, die für Anrufpläne verwendet werden
+title: Arten von Telefonnummern, die für Anrufpläne verwendet werden
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: In diesem Artikel erfahren Sie mehr über verschiedene Telefonnummerntypen, die Microsoft Teams für Anrufpläne verwendet.
+description: In diesem Artikel erfahren Sie mehr über die verschiedenen Telefonnummerntypen, Microsoft Teams Anrufpläne verwendet werden.
 ms.openlocfilehash: f636fa56284fe9ce7c56f3ad6380c18d3b49baff
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,33 +31,33 @@ ms.locfileid: "51094341"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden
 
-Microsoft Teams verwendet je nach Zweck, zu dem Sie die Telefonnummer verwenden möchten, unterschiedliche Telefonnummerntypen. Teams verwendet **Benutzernummern,** die Benutzern in Ihrer  Organisation zugewiesen werden können, und Dienstnummern, die Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschlangen zugewiesen sind. Servicetelefonnummern haben eine *höhere Kapazität für gleichzeitige Anrufe*  als Benutzernummern. Servicetelefonnummern sind verfügbar, variieren jedoch je nach Land/Region und Art der Rufnummer (ganz gleich, ob es sich um eine gebührenpflichtige oder gebührenfreie Nummer handelt). Wenn Sie zusätzliche oder andere Nummerntypen benötigen, die nicht mit den Nummern im Microsoft Teams Admin Center zu sehen sind, können Sie eine Telefonnummernanforderung an die Hilfe für den [PSTN-Servicedesk übermitteln.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Microsoft Teams verwendet abhängig vom Zweck, für den Sie die Telefonnummer verwenden möchten, unterschiedliche Telefonnummerntypen. Teams verwendet Benutzernummern, die Benutzern in Ihrer Organisation zugewiesen  werden können, sowie Servicenummern, die Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschleifen zugewiesen sind.  Servicetelefonnummern haben eine *höhere Kapazität für gleichzeitige Anrufe*  als Benutzernummern. Servicetelefonnummern sind verfügbar, variieren jedoch je nach Land/Region und Art der Nummer (gebührenpflichtige oder gebührenfreie Nummer). Wenn Sie zusätzliche oder andere Nummerntypen benötigen, die nicht mit den im Microsoft Teams Admin Center zu sehen sind, können Sie eine Telefonnummernanforderung an die Hilfe des [PSTN Service Desk senden.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
   
 - **Benutzernummern**
     
     Benutzernummern werden Benutzern zugewiesen, und es gibt zwei Arten:
     
-  - **Geografische Zahlen** Geografische Zahlen haben eine Beziehung zu einem geografischen Gebiet und sind die am häufigsten. Geografische Telefonnummern können z. B. in den meisten Fällen nur innerhalb einer bestimmten Adresse, einer bestimmten Stadt, eines Bundesland oder einer Bestimmten Region des Landes verwendet werden.
+  - **Geografische Nummern** Geografische Nummern haben eine Beziehung zu einem geografischen Bereich und sind am häufigsten. Beispielsweise können geografische Telefonnummern in den meisten Fällen nur innerhalb einer bestimmten Adresse, einer bestimmten Stadt, eines Landes oder einer Region des Landes verwendet werden.
     
-  - **Nicht geografische Zahlen** Nicht geografische Zahlen sind nationale Nummern, die keine Beziehung zu einem geografischen Gebiet innerhalb eines Landes/einer Region haben. Beispielsweise haben nicht geografische Nummern häufig die gleichen Kosten, wenn Sie die Nummer von einem beliebigen Ort im Land/der Region anrufen. Außerdem sind in einigen Ländern, z. B. Dänemark, nur nicht geografische Nummern verfügbar.
+  - **Nicht ortsfreie Nummern** Nicht geografische Nummern sind nationale Nummern, die keine Beziehung zu einem geografischen Bereich innerhalb eines Lands bzw. einer Region haben. Beispielsweise haben nicht geografische Nummern häufig die gleichen Kosten, wenn Sie die Nummer von einem beliebigen Ort innerhalb des Landes bzw. der Region aus anrufen. Außerdem sind in einigen Ländern, z. B. Dänemark, nur nicht geografische Nummern verfügbar.
     
 - **Servicenummern** Servicenummern sind in verschiedenen Nummerntypen verfügbar, und die Verfügbarkeit variiert je nach Land/Region.
     
-  - **Gebührenpflichtige Servicenummern**
+  - **Gebührenpflichtige Leistungsnummern**
     
-    Gebührenpflichtige Servicenummern können gebührenpflichtig für den Anrufer sein, und es gibt zwei Arten:
+    Gebührenpflichtige Servicenummern können gebührenpflichtige Kosten für den Anrufer an entstehen, und es gibt zwei Arten:
     
-      - **Geografische Zahlen** Geografische Zahlen haben eine Beziehung zu einem geografischen Gebiet. Geografische Telefonnummern können z. B. in den meisten Fällen nur innerhalb einer bestimmten Adresse, einer bestimmten Stadt, eines Bundesland oder einer Bestimmten Region des Landes verwendet werden.
+      - **Geografische Nummern** Geografische Nummern haben eine Beziehung zu einem geografischen Bereich. Beispielsweise können geografische Telefonnummern in den meisten Fällen nur innerhalb einer bestimmten Adresse, einer bestimmten Stadt, eines Landes oder einer Region des Landes verwendet werden.
         
-      - **Nicht geografische Zahlen** Nicht geografische Zahlen sind nationale Nummern, die keine Beziehung zu einem geografischen Gebiet innerhalb eines Landes/einer Region haben. Beispielsweise haben nicht geografische Nummern häufig die gleichen Kosten, wenn Sie die Nummer von einem beliebigen Ort im Land/der Region anrufen.
+      - **Nicht ortsfreie Nummern** Nicht geografische Nummern sind nationale Nummern, die keine Beziehung zu einem geografischen Bereich innerhalb eines Lands bzw. einer Region haben. Beispielsweise haben nicht geografische Nummern häufig die gleichen Kosten, wenn Sie die Nummer von einem beliebigen Ort innerhalb des Landes bzw. der Region aus anrufen.
    
-  - **Gebührenfreie Servicenummern** Für diese Servicenummern fallen normalerweise keine Gebühren für den Anrufer an. Teams stellt nationale gebührenfreie Nummern in mehr als 60 Ländern/Regionen zur Verfügung.
+  - **Gebührenfreie Leistungsnummern** Für diese Servicenummern entstehen dem Anrufer in der Regel keine gebührenpflichtigen Kosten. Teams stellt nationale, gebührenfreie Telefonnummern in mehr als 60 Ländern/Regionen zur Verfügung.
     
     > [!CAUTION]
-    > Einige Länder/Regionen und Typen von Nummerntypen mit Ursprung, z. B. Anrufe, die von Mobiltelefonen stammen, können in einigen Fällen gebührenpflichtig für den Anrufer sein. 
+    > Einige Länder/Regionen sowie Nummerntypen, z. B. Anrufe von Mobiltelefonen, können in einigen Fällen gebührenpflichtig für den Anrufer an entstehen. 
   
 > [!NOTE]
-> Wenn Sie mehr Telefonnummern als diese erhalten müssen, wenden Sie [sich an den PSTN-Servicedesk.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+> Wenn Sie mehr als diese Telefonnummern benötigen, wenden Sie [sich an den PSTN Service Desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

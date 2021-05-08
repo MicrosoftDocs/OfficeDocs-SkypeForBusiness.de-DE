@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie die Inlineübersetzung in Microsoft Teams über das Microsoft Teams Admin Center oder PowerShell aktivieren.
+description: Erfahren Sie, wie Sie die Inlineübersetzung in ihrem Microsoft Teams über Microsoft Teams Admin Center oder PowerShell aktivieren.
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,22 +30,22 @@ ms.locfileid: "51120626"
 <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Deaktivieren der Inlinenachrichtenübersetzung in Microsoft Teams
 =================================================
 
-Die Inlineübersetzung von Nachrichten ist ein Microsoft Teams-Feature, mit dem Benutzer Teams-Nachrichten in die sprache übersetzen können, die in den persönlichen Spracheinstellungen angegeben ist. [](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)
+Die Übersetzung von Inlinenachrichten ist ein Microsoft Teams-Feature, mit [](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) dem Benutzer Nachrichten Teams in die von ihren persönlichen Spracheinstellungen angegebene Sprache übersetzen können.
 
-Die Inlinenachrichtenübersetzung wird standardmäßig für Ihre Organisation ausgeführt. Sie müssen keine Änderungen vornehmen, wenn Sie benutzern die Verwendung dieses Features im Teams-Client ermöglichen möchten.
+Die Übersetzung von Inlinenachrichten wird standardmäßig für Ihre Organisation ausgeführt. Sie müssen keine Änderungen vornehmen, wenn Sie zulassen möchten, dass Benutzer dieses Feature im Client Teams können.
 
 > [!NOTE]
->Dieses Rollout ist in unseren Office 365 Government Community Cloud- und Office 365 Deutschland-Umgebungen von Office 365-Abonnements ausgeschlossen.
+>Dieses Rollout ist von Office 365 Abonnements in unseren Umgebungen Office 365 Government Community Cloud und Office 365 Deutschland ausgeschlossen.
 
-## <a name="use-powershell-to-turn-off-inline-message-translation"></a>Verwenden von PowerShell zum Deaktivieren der Inlinenachrichtenübersetzung
+## <a name="use-powershell-to-turn-off-inline-message-translation"></a>Verwenden von PowerShell zum Deaktivieren der Übersetzung von Inlinenachrichten
 
-Sie können die Nachrichtenrichtlinie verwenden, um die Inlinenachrichtenübersetzung zu deaktivieren.
+Sie können die Nachrichtenrichtlinie verwenden, um die Übersetzung von Inlinenachrichten zu deaktivieren.
 
-Deaktivieren Sie die Richtlinie mithilfe des [Cmdlets Set-CsTeamsMessagingPolicy.](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) Die Anwendung der Richtlinie dauert einige Minuten. Benutzer müssen sich möglicherweise abmelden und sich wieder bei Teams anmelden.
+Deaktivieren Sie die Richtlinie mithilfe des [Cmdlets Set-CsTeamsMessagingPolicy.](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) Die Anwendung der Richtlinie dauert ein paar Minuten. Benutzer müssen sich möglicherweise abmelden und wieder bei Ihrem Teams.
 
 ## <a name="use-the-microsoft-teams-admin-center-to-turn-off-inline-message-translation"></a>Verwenden des Microsoft Teams Admin Centers zum Deaktivieren der Inlinenachrichtenübersetzung
 
-Wählen Sie im **Microsoft Teams Admin Center** im linken Navigationsbereich Messagingrichtlinien aus, erstellen Sie  dann entweder eine neue Richtlinie, oder bearbeiten Sie eine vorhandene Richtlinie, und legen Sie die Option Nachrichten übersetzen auf **Aus .** 
+Wählen Sie im **Microsoft Teams Admin** **Center** im linken Navigationsbereich Messagingrichtlinien aus, erstellen Sie dann entweder  eine neue Richtlinie, oder bearbeiten Sie eine vorhandene Richtlinie, und legen Sie die Option Nachrichten übersetzen auf **Aus .**
 
 > [!NOTE]
-> Der Dienst führt die Übersetzung durch und übergibt sie ohne Auswirkung auf den Inhalt, der in den Compliancedatensätzen erfasst wurde, an den Client. Weitere Informationen zur Übersetzung finden Sie unter [Was ist Microsoft Translator?](/azure/cognitive-services/translator/translator-info-overview)
+> Der Dienst führt die Übersetzung durch und stellt sie dem Client ohne Auswirkung auf die in den Compliancedatensätzen erfassten Inhalte zur Verfügung. Weitere Informationen zur Übersetzung finden Sie unter [Was ist Microsoft Translator?](/azure/cognitive-services/translator/translator-info-overview)

@@ -1,5 +1,5 @@
 ---
-title: Fallstudie "Teams voice Contoso"
+title: Teams Fallstudie zu Contoso Voice
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Sprachfallstudie zu Teams für multinationale Unternehmen
+description: Teams Voice Case Study for multi-national corporation
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 085c9994bc2522d1ab56abc1670113e22d35f642
@@ -25,30 +25,30 @@ ms.locfileid: "51121303"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Contoso-Fallstudie: Audiokonferenzen
 
-Um ein Verständnis für Audiokonferenzen zu erhalten, was es ist, was es kostet, verfügbarkeit und wie es funktioniert Contoso überprüft &mdash; &mdash; [Audiokonferenzen in Office 365](deploy-audio-conferencing-teams-landing-page.md). 
+Um ein Grundlegendes zu Audiokonferenzen zu erhalten, was dies ist, was es kostet, verfügbarkeit und wie Contoso es funktioniert, &mdash; &mdash; [überprüfte Audio conferencing (Audiokonferenz) in Office 365.](deploy-audio-conferencing-teams-landing-page.md) 
 
 ## <a name="overview"></a>Übersicht 
 
-Für Audiokonferenzen verwendete Contoso Telefonnummern, die innerhalb der Organisation sowie extern bekannt sind. Da Contoso diese Nummern nach Möglichkeit beibehalten wollte, überprüften sie die Informationen zum Zuweisen dedizierter und freigegebener Telefonnummern zur Audiokonferenzbrücke. 
+Für Audiokonferenzen hat Contoso Telefonnummern verwendet, die innerhalb der Organisation sowie extern bekannt sind. Da Contoso diese Nummern nach Möglichkeit pflegen wollte, überprüfte es die Informationen zum Zuweisen von dedizierten und freigegebenen Telefonnummern zur Audiokonferenzbrücke. 
 
-Basierend auf ihren Recherchen hat Contoso die folgenden Entscheidungen getroffen: 
+Auf der Grundlage seiner Recherchen hat Contoso die folgenden Entscheidungen getroffen: 
 
-- Nur ein Teil der Bevölkerung, die regelmäßig Audiokonferenzanrufe hosten, erhält Lizenzen für Audiokonferenzen. 
+- Nur ein Segment der Bevölkerung, das regelmäßig Audiokonferenzanrufe hosten würde, würde Lizenzen für Audiokonferenzen erhalten. 
 
-- Contoso würde dedizierte Telefonnummern verwenden und ihre vorhandenen Nummern für die Verwendung mit Audiokonferenzen portieren.   
+- Contoso verwendet dedizierte Telefonnummern und portiert die vorhandenen Nummern zur Verwendung mit Audiokonferenzen.   
 
-Da Contoso-Benutzer Skype for Business verwendeten und die Postfächer aller Benutzer online gespeichert sind, sind für viele Benutzer bereits Besprechungen geplant. Contoso read [Using the Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) to learn that existing meetings are automatically updated for Contoso when they change the endbenutzer to TeamsOnly mode.  
+Da Contoso-Benutzer eine Skype for Business und die Postfächer aller Benutzer online gespeichert sind, sind für viele Benutzer bereits Besprechungen geplant. Contoso hat [unter Verwenden des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) erfahren, dass vorhandene Besprechungen für Contoso automatisch aktualisiert werden, wenn der Endbenutzer in den TeamsOnly-Modus wechselt.  
 
 
 ## <a name="configuration"></a>Konfiguration
 
-Telefonnummern, die Audiokonferenzen zugeordnet sind, werden innerhalb des Telefonsystems als Dienstnummern bezeichnet. 
+Telefon, die Audiokonferenzen zugeordnet sind, werden innerhalb einer Konferenz als Leistungsnummern Telefonsystem. 
 
-- Für Standorte, die Anrufpläne verwenden, um ihre vorhandenen Telefonnummern von ihrem Telefonanbieter zu Office 365 zu portieren, hat Contoso die Schritte unter Abrufen von [Diensttelefonnummern befolgt.](getting-service-phone-numbers.md)
+- Um Standorte, die Anrufpläne verwenden, ihre vorhandenen Telefonnummern von ihrem Netzbetreiber zu Office 365 zu portieren, hat Contoso die Schritte unter Abrufen von [Servicetelefonnummern befolgt.](getting-service-phone-numbers.md)
 
-- Um dem Endbenutzer im technischen Pilotprojekt die Lizenz für Audiokonferenzen zuzuordnen, hat der Contoso-Administrator die Schritte unter Verwalten der Einstellungen für [Audiokonferenzen](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)für Ihre Organisation befolgt. 
+- Um dem Endbenutzer im technischen Pilotprojekt die Lizenz für [Audiokonferenzen](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)zuzuordnen, hat der Contoso-Administrator die Schritte unter Verwalten der Audiokonferenzeinstellungen für Ihre Organisation befolgt. 
 
-- Für den Geschäftspilot und die Migration hat Contoso gruppenbasierte Lizenzierung verwendet, indem es die Schritte unter Zuweisen von Lizenzen zu Benutzern nach [Gruppenmitgliedschaft in Azure Active Directory ausführen.](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
+- Für das Pilotprojekt und die Migration von Unternehmen hat Contoso eine gruppenbasierte Lizenzierung verwendet. Dazu folgen Sie den Schritten unter Zuweisen von Lizenzen zu Benutzern durch [Gruppenmitgliedschaft in Azure Active Directory.](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
  
 

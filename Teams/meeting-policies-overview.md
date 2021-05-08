@@ -56,7 +56,7 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine od
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Besprechungsrichtlinien**.
 2. Klicken Sie auf **Hinzufügen**.
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
+3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
 4. Wählen Sie die gewünschten Einstellungen aus.
 5. Klicken Sie auf **Speichern**.
 

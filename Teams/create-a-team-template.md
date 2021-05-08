@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in Microsoft Teams erstellen.
+description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einer Microsoft Teams.
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -27,81 +27,81 @@ ms.locfileid: "51506735"
 
 **Benutzerdefinierte Vorlagen werden für EDU-Kunden noch nicht unterstützt.**
 
-Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit einer Reihe von Kanälen, Registerkarten und Apps. Sie können eine Vorlage entwickeln, die Ihnen hilft, schnell den richtigen Platz für die Zusammenarbeit zu schaffen. Ihre benutzerdefinierte Teamvorlage verwendet Ihre bevorzugten Einstellungen.  
+Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit einer Reihe von Kanälen, Registerkarten und Apps. Sie können eine Vorlage entwickeln, die Ihnen hilft, schnell den richtigen Platz zur Zusammenarbeit zu schaffen. Ihre benutzerdefinierte Teamvorlage verwendet Ihre bevorzugten Einstellungen.  
 
-So beginnen Sie:
+Erste Schritte:
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich **teams**  >  **team templates**.
+2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
 
 3. Klicken Sie auf **Hinzufügen**.
 
-    ![Ein Bild des Dialogfelds "Teamvorlagen" mit hervorgehobener Hervorhebung "Hinzufügen".](media/team-templates-new.png)
+    ![Abbildung des Dialogfelds "Teamvorlagen" mit hervorgehobener Hervorhebung "Hinzufügen".](media/team-templates-new.png)
 
 4. Wählen Sie **im Abschnitt Teamvorlagen** die Option **Neue Vorlage erstellen aus.**
 
-5. Füllen Sie **im Abschnitt** Vorlageneinstellungen die folgenden Felder aus, und wählen Sie dann **Weiter aus:**
+5. Füllen Sie **im Abschnitt Vorlageneinstellungen** die folgenden Felder aus, und wählen Sie dann Weiter **aus:**
     - Vorlagenname
-    - Kurze und lange Beschreibungen der Vorlage
+    - Kurze und lange Beschreibungen von Vorlagen
     - Sichtbarkeit des Locale  
 
-    ![Abbildung des Dialogfelds "Teamvorlageneinstellungen".](media/template-add-a-name.png)
+    ![Abbildung des Einstellungsdialogfelds für Teamvorlagen](media/template-add-a-name.png)
 
-6. Fügen Sie **im Abschnitt Kanäle, Registerkarten und Apps** alle Kanäle und Apps hinzu, die Ihr Team benötigt.
+6. Fügen Sie **im Abschnitt Kanäle, Registerkarten** und Apps alle Kanäle und Apps hinzu, die Ihr Team benötigt.
 
     1. Wählen Sie **im Abschnitt** Kanäle die Option **Hinzufügen aus.**
-    2. Benennen Sie **im** Dialogfeld Hinzufügen den Kanal.
+    2. Geben Sie **dem Kanal** im Dialogfeld Hinzufügen einen Namen.
     3. Fügen Sie eine Beschreibung hinzu.
     4. Entscheiden Sie, ob der Kanal standardmäßig angezeigt werden soll.
     5. Suchen Sie nach einem App-Namen, den Sie dem Kanal hinzufügen möchten.
-    6. Wählen **Sie Übernehmen** aus, wenn Sie fertig sind.
+    6. Wenn Sie **fertig sind,** wählen Sie Übernehmen aus.
 
-    ![Abbildung des Bildschirms "Kanäle, Registerkarten und Apps" für Teamvorlagen.](media/template-channels-tabs-apps.png)
+    ![Abbildung des Bildschirms für Teamvorlagenkanäle, Registerkarten und Apps.](media/template-channels-tabs-apps.png)
 
-8. Wählen Sie **Nach** Abschluss absenden aus.
+8. Wählen Sie **Absenden** aus, wenn der Abschluss abgeschlossen ist.
 
-Ihre neue Vorlage wird in der Liste **Teamvorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in Teams verwendet werden.
-
-> [!Note]
-> Es kann bis zu 24 Stunden dauern, bis Teambenutzer eine benutzerdefinierte Vorlage im Katalog anzeigen.
-
-## <a name="customizing-website-tab-apps"></a>Anpassen von Website-Tab-Apps
+Ihre neue Vorlage wird in der Liste **der Teamvorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in einer Teams.
 
 > [!Note]
-> Dieses Feature befindet sich in der frühen Vorschau.
+> Es kann bis zu 24 Stunden dauern, bis Teams-Benutzer eine benutzerdefinierte Vorlage im Katalog sehen.
 
-Möglicherweise möchten Sie URLs für Websiteregisterkarten für Kanäle in benutzerdefinierten Teamvorlagen angeben. Endbenutzer, die Teams mit Vorlagen erstellen, verfügen über Websiteregisterkarten, die auf die angegebene Website-URL voreingestellt sind.
+## <a name="customizing-website-tab-apps"></a>Anpassen von Apps auf der Registerkarte "Website"
 
-So beginnen Sie:
+> [!Note]
+> Dieses Feature wird in der Vorschauversion angezeigt.
+
+Sie können URLs für Websiteregisterkarten für Kanäle in benutzerdefinierten Teamvorlagen angeben. Endbenutzer, die Teams mit Vorlagen erstellen, verfügen über Websiteregisterkarten, die auf die angegebene Website-URL voreingestellt sind.
+
+Erste Schritte:
 
 1. Erstellen Sie eine neue Teamvorlage, oder bearbeiten Sie eine vorhandene Teamvorlage.
 
-2. Fügen Sie im Abschnitt Kanäle einen neuen Kanal hinzu, oder wählen Sie einen vorhandenen Kanal aus, und wählen Sie **Bearbeiten aus.**
+2. Fügen Sie im Abschnitt Kanäle einen neuen Kanal hinzu, oder wählen Sie einen vorhandenen Kanal und dann **Bearbeiten aus.**
 
-3. Fügen Sie **im Abschnitt App für diese Vorlage** hinzufügen eine Website-App hinzu.
+3. Fügen Sie **im Abschnitt App für diese Vorlage hinzufügen** eine Website-App hinzu.
 
-    ![Hinzufügen einer App für diese Vorlagenoption](media/add-an-app-template.png)
+    ![Option "App für diese Vorlage hinzufügen"](media/add-an-app-template.png)
 
-4. Wählen Sie das Bearbeitungssymbol aus, und geben Sie die URL Ihrer Wahl ein.
+4. Wählen Sie das Symbol "Bearbeiten" aus, und geben Sie die URL Ihrer Wahl ein.
 
     ![Hinzufügen einer App-URL](media/add-url-app-template.png)
 
-5. Wählen **Sie Speichern** für Ihre Registerkarten-App-Bearbeitungen und dann Übernehmen **aus,** um Ihre Änderungen zu speichern.
+5. Wählen **Sie speichern** aus, um Änderungen an Ihrer Registerkarten-App vorzunehmen, und wählen Sie dann Übernehmen **aus,** um Ihre Änderungen zu speichern.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-**Problem:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthält, werden möglicherweise leere Registerkarten statt ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. **B. Beiträge,** **Dateien** und **Wiki)** werden wie erwartet angezeigt.
+**Problem:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthielt, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. **B. Beiträge,** **Dateien** und **Wiki)** werden wie erwartet angezeigt.
 
-**Lösung:** Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigungen zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, wenden Sie sich an den Teambesitzer, um Unterstützung zu erhalten.
+**Lösung:** Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigung zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, bitten Sie den Teambesitzer um Unterstützung.
 
-Wir arbeiten derzeit an einem Fix für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
+Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
-**Problem:** Bei verwendung von Teams im Browser werden einige Websites nicht unterstützt, wenn sie auf einer Registerkarte "Teams" gerendert werden.
+**Problem:** Wenn Sie Teams Browser verwenden, wird das Rendern auf einer Registerkarte für Teams websites nicht unterstützt.
 
 ![Browserfehlermeldung](media/browser-error-message.png)
 
-**Lösung:** Wenn Sie Probleme beim Anzeigen des Inhalts der Registerkarte Website haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Stattdessen Teams in der Desktop-App, um Ihre Websiteregister-App anzuzeigen.
+**Lösung:** Wenn Sie Probleme beim Anzeigen der Inhalte der Websiteregisterkarte haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Teams stattdessen in der Desktop-App, um ihre App für Websiteregisterkarten anzuzeigen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

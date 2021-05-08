@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über die Pay-per-Minute-Option zum Aktivieren von Audiokonferenzfunktionen für Organisationen, die die Microsoft-Volumenlizenzierung verwenden.
+description: Erfahren Sie mehr über die Option für Audiokonferenzen mit Minutengebühren für Organisationen, die Microsoft-Volumenlizenzierung verwenden.
 ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
 ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
@@ -32,49 +32,49 @@ ms.locfileid: "51617787"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
-Neben der Standardmäßigen Lizenz für Audiokonferenzen pro Benutzer können Volumen- und Lizenzierungsorganisationen auch ein Pay-per-Minute-Angebot auswählen, um Audiokonferenzfunktionen für ihre Organisationen zu aktivieren.
+Neben der Standardlizenz für Audiokonferenzen pro Benutzer können Volumen- und Lizenzierungsorganisationen auch ein Angebot mit Minutengebühren auswählen, um Audiokonferenzfunktionen für ihre Organisationen zu aktivieren.
   
 
-Sie können herausfinden, ob [Ihr Land/Ihre Region für](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) Audiokonferenzen unterstützt wird.
+Sie können herausfinden, ob Ihr [Land/Ihre Region für](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) Audiokonferenzen unterstützt wird.
 
   
 > [!NOTE]
-> Da dieses Angebot nur für Volumen- und Lizenzierungskunden verfügbar ist, müssen Sie mit Ihrem Kontomitarbeiter zusammenarbeiten, um diese Lizenzen zu erwerben. 
+> Da dieses Angebot nur Volumen- und Lizenzierungskunden zur Verfügung steht, müssen Sie diese Lizenzen zusammen mit Ihrem Kundenbeauftragten erwerben. 
   
 ## <a name="need-some-details"></a>Benötigen Sie einige Details?
 
-Während das Lizenzangebot audio conferencing per user die Einwahlnutzung und eine gewisse Einwahlnutzung umfasst, können Sie mit audio conferencing pay-per-minute die nutzung von **Audiokonferenzen** pro Minute bezahlen, ohne für eine monatliche Lizenz pro Benutzer zu bezahlen. Damit werden alle Ein- und Einwahlanrufe pro Minute belastet, einschließlich:
+Während das Lizenzangebot für Audiokonferenzen pro Benutzer ein Einwahl- und eine bestimmte Nutzung per Einwahl umfasst, können Sie mit **Audiokonferenzen** mit Minuten pro Minute für ihre sämtliche Audiokonferenznutzung pro Minute bezahlen, ohne für die monatliche Lizenz pro Benutzer zu bezahlen. Dadurch werden alle Einwahl- und Einwahlanrufe pro Minute abgerechnet, einschließlich:
   
 - Eingehende Anrufe an gebührenpflichtige Audiokonferenznummern Ihrer Organisation.
     
 - Eingehende Anrufe an gebührenfreie Audiokonferenznummern Ihrer Organisation.
     
-- Ausgehende Anrufe, die an externe Telefonnummern innerhalb einer Besprechung Ihrer Organisation gestellt werden.
+- Ausgehende Anrufe an externe Telefonnummern aus einer Besprechung Ihrer Organisation.
     
 > [!NOTE]
-> Sie finden die Ein- und Abwahltarife, die diesen Arten von Anrufen zugeordnet sind, indem Sie den Abschnitt Tarife für den Ort, an dem Sie anrufen möchten, **in** [Audiokonferenzen lesen.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
+> Die diesen Anruftypen zugeordneten Einwahl- und Einwahltarife finden Sie im Abschnitt Tarife für Anrufanrufe finden **Sie** unter [Audiokonferenzen.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
   
   
-Die Zahlung pro Minute erfordert, dass Ihre Organisation Guthaben [für Kommunikationen](what-are-communications-credits.md) eingerichtet hat. Weitere Informationen finden Sie unter Einrichten von Guthaben für Kommunikationen [für Ihre Organisation](set-up-communications-credits-for-your-organization.md) und/oder Microsoft [Teams-Add-On-Lizenzierung.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Die Zahlung per Minute setzt voraus, dass Ihr Unternehmen Guthaben für [Kommunikationen](what-are-communications-credits.md) eingerichtet hat. Weitere Details finden Sie unter [Einrichten](set-up-communications-credits-for-your-organization.md) von Guthaben für Kommunikationen für Ihre Organisation und/oder [Microsoft Teams Add-On-Lizenzierung.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
   
-Informationen zum Aktivieren von Audiokonferenzen pro Minute für Benutzer in Ihrer Organisation finden Sie unter Testen oder Erwerben von [Audiokonferenzen in Microsoft Office 365 oder Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+Informationen zum Aktivieren von Audiokonferenzen mit Minuten für Benutzer in Ihrer Organisation finden Sie unter Testen oder Kaufen von [Audiokonferenzen in Microsoft Office 365 oder Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>Warum ist es für Sie am besten?
 
-- Die Zahlung pro Minute wird nur pro Minute für jeden eingehenden oder ausgehenden Anruf in Rechnung gestellt, der von jedem Teilnehmer während einer geplanten Besprechung (die Tarife variieren bei gebührenpflichtigen oder gebührenfreien Anrufen und nach Ziel) statt der Skype for Business- oder Teams-Anwendung auf einem mobilen Gerät oder PC durchgeführt wird.
+- Die Minutengebühr wird nur pro Minute für jeden eingehenden oder ausgehenden Anruf berechnet, den jeder Teilnehmer während einer geplanten Besprechung abteilt (die Tarife variieren bei gebührenpflichtigen oder gebührenfreien Anrufen und nach Ziel), statt Skype for Business- oder Teams-Anwendung auf einem Mobilgerät oder PC zu verwenden.
 
-- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, um die Typen von Auswahlen (international und inlands) einzuschränken, die aus den Besprechungen eines Organisators durchgeführt werden können. Weitere Informationen finden Sie unter Richtlinien zur Einschränkung ausgehender Anrufe [für Audiokonferenzen und Benutzer-PSTN-Anrufe.](./outbound-calling-restriction-policies.md)
+- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, welche Arten von Dial-Outs (im In- und Ausland) aus Besprechungen eines Organisators heraus durchgeführt werden können. Siehe Richtlinien zur Einschränkung ausgehender Anrufe [für Audiokonferenzen und PSTN-Benutzeranrufe.](./outbound-calling-restriction-policies.md)
 
 - Wenn Sie Lizenzen für Audiokonferenz mit Minutenabrechnung haben, müssen Sie nicht jedem Benutzer für die Nutzung der Audiokonferenz separate Lizenzen für Guthaben für Kommunikationen zuweisen (Sie müssen diese möglicherweise noch für andere Dienste zuweisen).
 
-- Steuern und Überwachen von Gebühren pro Minute mithilfe von Guthaben für Kommunikationen.
+- Steuern und überwachen Sie Minutengebühren mithilfe von Guthaben für Kommunikationen.
 
-- Mehr Flexibilität bei den Preisen für Kunden, die nicht alle Benutzer auf Abonnementbasis benötigen. 
+- Mehr Flexibilität bei der Preisgestaltung für Kunden, die nicht alle Benutzer auf Abonnementbasis benötigen. 
 
-- Aktivieren Sie audio conferencing pay-per-minute zusammen mit einem monatlichen Abonnement von E5 oder einem eigenständigen Audio conferencing-Abonnement, beide Dienste funktionieren weiterhin auf die gleiche Weise. Änderungen wirken sich nicht auf die Vorgänge von Audiokonferenzen oder Guthaben für Kommunikationen aus.
+- Aktivieren Sie Audiokonferenzen mit Minutengebühren sowie einem monatlichen Abonnement von E5 oder einem eigenständigen Abonnement für Audiokonferenzen. Beide Dienste funktionieren weiterhin auf die gleiche Weise. Änderungen haben keine Auswirkungen auf die Vorgänge von Audiokonferenzen oder Guthaben für Kommunikationen.
   
-## <a name="want-to-find-out-more-about-pricing"></a>Möchten Sie mehr über Preise erfahren?
+## <a name="want-to-find-out-more-about-pricing"></a>Möchten Sie mehr über die Preise erfahren?
 
  **Suchen Sie nach Preisen?** Weitere Informationen finden Sie unter:
 

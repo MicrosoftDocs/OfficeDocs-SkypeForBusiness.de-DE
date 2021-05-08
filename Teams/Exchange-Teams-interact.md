@@ -64,10 +64,10 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>6</sup> Nur Kontakte im Standardkontaktordner. Der Zugriff auf andere Kontaktordner oder Unterordner wird nicht unterstützt.
 
-<sup>7</sup> Teams berücksichtigt die Einstellung der [Outlook im Web-Postfachrichtlinie](/powershell/module/exchange/client-access/set-owamailboxpolicy), die von Mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **-SetPhotoEnabled** in der Richtlinie deaktiviert ist, können Benutzer ihr Profilbild nicht hinzufügen, ändern oder entfernen, sodass das Porfilebild nicht mit Teams synchronisiert wird, wenn der Administrator das Foto ändert.
+<sup>7</sup> Teams berücksichtigt die Einstellung der [Outlook im Web-Postfachrichtlinie](/powershell/module/exchange/client-access/set-owamailboxpolicy), die von Mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **"-SetPhotoEnabled"** in der Richtlinie deaktiviert ist, können Benutzer ihr Profilbild nicht hinzufügen, ändern oder entfernen, sodass das Porfile-Bild nicht mit Teams synchronisiert wird, wenn der Administrator das Foto ändert.
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
 
-<sup>9</sup> Mindestens eine Exchange Online Plan 1-Lizenz ist ebenfalls erforderlich. Weitere Informationen finden Sie unter [Suchen nach Teams-Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+<sup>9</sup> Mindestens eine Lizenz Exchange Online Plan 1 ist ebenfalls erforderlich. Weitere Informationen finden Sie unter [Suchen Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen für die optimale Nutzung von Microsoft Teams
 
@@ -107,12 +107,12 @@ Wenn Postfächer lokal gehostet werden, müssen zum Erstellen und Anzeigen von B
 
 So aktivieren Sie die Kalenderdelegation für diese Benutzer
 
-- Sie müssen auch Schritte ausführen, wie unter Konfigurieren von [Integration und OAuth zwischen Skype for Business Online und Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises). Diese Schritte stellen der Teams-Terminplanungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stellvertretungsberechtigungen zur Verfügung.
+- Sie müssen auch Schritte ausführen, wie unter Konfigurieren der [Integration und OAuth zwischen Skype for Business Online und Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)beschrieben. mit diesen Schritten erhalten Teams Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stellvertretungsberechtigungen.
  
   > [!NOTE]
   > Schritt 2 umfasst die Rollenzuweisung für ArchiveApplication, die für die Delegation nicht erforderlich ist.
 
-- Für das Teams Scheduling-Add-In für Outlook ist Exchange 2013 CU19 oder höher erforderlich, wenn eine Besprechung im Auftrag einer anderen Person geplant wird. Dies dient zur Unterstützung der nicht authentifizierten Erkennung des Postfachs durch unseren Dienst, um die Berechtigungen der Stellvertretung anhand des Delegatorpostfachs zu überprüfen. Die Standorte von Stellvertretung und Delegator können Exchange 2013 oder höher oder Exchange Online sein, aber die AutoErmittlung muss zu Exchange 2013 CU19 oder höher auflösen.
+- Für Teams Terminplanungs-Add-In für Outlook ist Exchange 2013 CU19 oder höher erforderlich, wenn Sie eine Besprechung im Auftrag einer anderen Person planen. Dies dient zur Unterstützung der nicht authentifizierten Erkennung des Postfachs durch unseren Dienst, um die Berechtigungen der Stellvertretung anhand des Delegatorpostfachs zu überprüfen. Die Standorte von Stellvertretung und Delegator können Exchange 2013 oder höher oder Exchange Online sein, aber die AutoErmittlung muss zu Exchange 2013 CU19 oder höher auflösen.
 
 ## <a name="additional-considerations"></a>Zusätzliche Überlegungen
 

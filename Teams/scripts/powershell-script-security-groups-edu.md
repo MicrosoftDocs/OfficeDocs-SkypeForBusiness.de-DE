@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: Verwenden Sie dieses PowerShell-Skript, um die Sicherheitsgruppen zu erstellen, die Sie zum Verwalten von Teams-Richtlinien für Lehrkräfte und Schüler/Studenten in Ihrer Schule benötigen.
+description: Verwenden Sie dieses PowerShell-Skript, um die Sicherheitsgruppen zu erstellen, die Sie zum Verwalten Teams Richtlinien für Lehrkräfte und Schüler/Studenten in Ihrer Schule benötigen.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -26,26 +26,26 @@ ms.locfileid: "51117283"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell-Skriptbeispiel – Erstellen von Sicherheitsgruppen für Lehrkräfte und Schüler/Studenten in Ihrer Schule
 
-Verwenden Sie dieses PowerShell-Skript, um die Sicherheitsgruppen zu erstellen, die Sie zum Verwalten von Microsoft Teams-Richtlinien in Ihrer Schule benötigen. Mit [dem Feature "Richtlinienzuweisung zu Gruppen"](../assign-policies.md#assign-a-policy-to-a-group) in Teams können Sie einer Benutzergruppe, z. B. einer Sicherheitsgruppe, eine Richtlinie zuweisen. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert.
+Verwenden Sie dieses PowerShell-Skript, um die Sicherheitsgruppen zu erstellen, die Sie zum Verwalten Microsoft Teams Richtlinien Ihrer Schule benötigen. Mit [der Richtlinienzuweisung zu Gruppen](../assign-policies.md#assign-a-policy-to-a-group) in Teams können Sie einer Gruppe von Benutzern, z. B. einer Sicherheitsgruppe, eine Richtlinie zuweisen. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert.
 
-Dieses PowerShell-Skript erstellt basierend auf dem Lizenztyp zwei Sicherheitsgruppen, eine für Mitarbeiter und Lehrkräfte und eine weitere für Schüler/Studenten in Ihrer Schule. Anschließend können Sie den von Ihnen erstellten Sicherheitsgruppen Richtlinien zuweisen. Weitere Informationen zur Verwendung dieses Skripts finden Sie unter Zuweisen von Richtlinien zu großen Gruppen [von Benutzern in Ihrer Schule.](../batch-group-policy-assignment-edu.md)
+Mit diesem PowerShell-Skript werden basierend auf dem Lizenztyp zwei Sicherheitsgruppen erstellt: eine für Mitarbeiter und Lehrkräfte und eine für Schüler/Studenten in Ihrer Schule. Anschließend können Sie den von Ihnen erstellten Sicherheitsgruppen Richtlinien zuweisen. Weitere Informationen zur Verwendung dieses Skripts finden Sie unter Zuweisen von Richtlinien zu großen Gruppen [von Benutzern in Ihrer Schule.](../batch-group-policy-assignment-edu.md)
 
-Dieses Skript führt die folgenden Schritte aus:
+Dieses Skript führt folgende Schritte aus:
 
 - Identifiziert Mitarbeiter und Lehrkräfte, denen eine Lehrpersonal-SKU zugewiesen ist, erstellt eine Sicherheitsgruppe und fügt der Gruppe dann Mitarbeiter und Lehrkräfte hinzu.
-- Identifiziert Kursteilnehmer, denen eine Student SKU zugewiesen ist, erstellt eine Sicherheitsgruppe und fügt die Kursteilnehmer dann der Gruppe hinzu.
-- Aktualisiert die Zugehörigkeit zu jeder Sicherheitsgruppe, um Mitarbeiter, Lehrkräfte und Kursteilnehmer je nach Lizenz hinzuzufügen oder zu entfernen.
+- Identifiziert Schüler/Studenten, denen eine Schüler-SKU zugewiesen ist, erstellt eine Sicherheitsgruppe und fügt die Kursteilnehmer dann der Gruppe hinzu.
+- Aktualisiert die Mitgliedschaft jeder Sicherheitsgruppe, um Mitarbeiter, Lehrkräfte und Schüler/Studenten hinzuzufügen oder zu entfernen, je nach ihrer Lizenz.
 
-Sie müssen dieses Skript regelmäßig ausführen, um die Sicherheitsgruppen auf dem neuesten Stand zu halten.
+Sie müssen dieses Skript regelmäßig ausführen, um die Sicherheitsgruppen aktuell und aktuell zu halten.
 
 > [!IMPORTANT]
-> Beim Zuweisen von Richtlinien zu [](../assign-policies.md#group-assignment-ranking) Gruppen ist es wichtig, [Rangfolgeregeln](../assign-policies.md#precedence-rules) und Gruppenzuordnungsbewertungen zu verstehen. Stellen Sie sicher, dass Sie die Konzepte unter Was Sie über die Richtlinienzuordnung zu Gruppen wissen müssen, lesen [und verstehen.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> Es ist wichtig, [](../assign-policies.md#precedence-rules) beim [](../assign-policies.md#group-assignment-ranking) Zuweisen von Richtlinien zu Gruppen Rangfolgeregeln und Gruppenzuordnungsbewertungen zu verstehen. Lesen und verstehen Sie die Konzepte in Wichtige Informationen zur [Richtlinienzuweisung zu Gruppen.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>Bevor Sie beginnen
 
-Laden Sie das [Skype for Business Online PowerShell-Modul](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)herunter, installieren Sie es, und starten Sie den Computer neu, wenn Sie dazu aufgefordert werden.
+Laden Sie das [PowerShell Skype for Business Online-Modul](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)herunter, installieren Sie es, und starten Sie den Computer neu, wenn Sie dazu aufgefordert werden.
 
-Weitere Informationen finden Sie unter Übersicht über Verwalten von [Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) und Teams [PowerShell.](../teams-powershell-overview.md)
+Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) und Teams [PowerShell - Übersicht.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>Beispielskript

@@ -1,5 +1,5 @@
 ---
-title: Ländercodes für direktes Routing
+title: Ländercodes für Direktes Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lesen Sie diesen Artikel, um nach Den Medienpfad-Ländercodes für Direct Routing zu suchen, damit Sie den optimalen Medienpfad auswählen können.
+description: Lesen Sie diesen Artikel, um die Ländercodes für Medienpfade für Direct-Routing zu finden, damit Sie den optimalen Medienpfad auswählen können.
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
 ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
@@ -24,24 +24,24 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 04/09/2021
 ms.locfileid: "51648124"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>Direct Routing Media Path Country Codes
+# <a name="direct-routing-media-path-country-codes"></a>Ländercodes für Direct Routing Media Path
 
-Bei der Auswahl eines Routingpfads für Medien weist Direct Routing standardmäßig immer ein Rechenzentrum basierend auf der öffentlichen IP-Adresse des Session Border Controllers (SBC) zu und wählt immer den Pfad aus, der dem SBC-Rechenzentrum am nächsten ist.
+Bei der Auswahl eines Routingpfads für Medien weist Direct-Routing standardmäßig immer ein Rechenzentrum basierend auf der öffentlichen IP-Adresse des Session Border Controller (SBC) zu und wählt immer den Pfad aus, der dem SBC-Rechenzentrum am nächsten kommt.
 
-In einigen Fällen ist der Standardmedienpfad jedoch möglicherweise nicht der optimale Medienpfad. So könnte beispielsweise eine öffentliche IP aus einem Bereich der VEREINIGTEn Staaten einem SBC in Europa zugewiesen werden. 
+In einigen Fällen ist der Standardmedienpfad jedoch möglicherweise nicht der optimale Medienpfad. So kann beispielsweise eine öffentliche IP aus einem Bereich der USA einem SBC in Europa zugewiesen werden. 
 
-Mithilfe des -MediaRelayRoutingLocationOverride-Parameters mit den cmdlets New-CsOnlinePSTNGateway und Set-CsOnlinePSTNGateway können Sie den bevorzugten Bereich für den Mediendatenverkehr angeben. Der folgende Befehl gibt beispielsweise an, dass die bevorzugte Region Deutschland ist:
+Mithilfe des Parameters -MediaRelayRoutingLocationOverride mit den New-CsOnlinePSTNGateway- und Set-CsOnlinePSTNGateway-Cmdlets können Sie die bevorzugte Region für den Medienverkehr angeben. Der folgende Befehl gibt beispielsweise an, dass Deutschland die bevorzugte Region ist:
 
 Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-Beachten Sie, dass Microsoft das Festlegen dieses Parameters nur empfiehlt, wenn die Anrufprotokolle deutlich angeben, dass die Standardzuordnung des Rechenzentrums für den Medienpfad nicht den Pfad verwendet, der dem SBC-Rechenzentrum am nächsten ist. 
+Beachten Sie, dass Microsoft das Festlegen dieses Parameters nur empfiehlt, wenn die Anrufprotokolle eindeutig angeben, dass die Standardzuordnung des Rechenzentrums für den Medienpfad nicht den Pfad verwendet, der dem SBC-Rechenzentrum am nächsten kommt. 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride – Dieser Befehl steht in Szenarien für direktes Routing nicht zur Verfügung.
+> -MediaRelayRoutingLocationOverride: Dieser Befehl ist in Szenarien mit direktem Routing nicht verfügbar.
  
-## <a name="country-code-reference-table"></a>Ländercodereferenztabelle
+## <a name="country-code-reference-table"></a>Referenztabelle für Ländercodes
 
-Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRoutingLocationOverride:
+Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRelayRoutingLocationOverride":
 
 | Land         | Code 
 |-----------------|--------------------|
@@ -75,15 +75,15 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Bonaire         | BQ |
 | Bosnien und Herzegowina | BA |
 | Botsuana        | BW |
-| BouvetInsel   | BV |
+| Bouvetinsel   | VERT |
 | Brasilien          | BR |
-| Britisches Territorium im Indischen Ozean | IO |
+| Britisches Territorium im Indischen Ozean | E/A |
 | Britische Jungferninseln | VG |
 | Brunei          | BN |
 | Bulgarien        | BG |
 | Burkina Faso    | BF |
-| Burundi         | BI |
-| Cabo Verde      | CV |
+| Ruanda         | BI |
+| Cabo Verde      | KA |
 | Kambodscha        | KH |
 | Kamerun        | CM |
 | Kanada          | CA |
@@ -93,11 +93,11 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Chile           | CL |
 | China           | CN |
 | Weihnachtsinsel | CX |
-| Kokosinseln (Keelinginseln) | CC |
+| Kokosinseln | CC |
 | Kolumbien        | CO |
 | Komoren         | KM |
 | Kongo           | CG |
-| Kongo (DRK)     | CD |
+| Kongo (Demokratische Republik)     | CD |
 | Cookinseln    | CK |
 | Costa Rica      | CR |
 | Cote d'Ivoire   | CI |
@@ -116,7 +116,7 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Äquatorialguinea | GQ |
 | Eritrea         | ER |
 | Estland         | EE |
-| Eswatini        | SZ |
+| Esiniini        | SZ |
 | Äthiopien        | ET |
 | Falklandinseln | FK |
 | Färöer   | FO |
@@ -125,7 +125,7 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Frankreich          | FR |
 | Französisch-Guayana   | GF |
 | Französisch-Polynesien | PF |
-| Französische Südgebiete | TF |
+| Französische Süd- und Gebiete | TF |
 | Gabun           | GA |
 | Gambia          | GM |
 | Georgien         | GE |
@@ -141,13 +141,13 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Guernsey        | GG |
 | Guinea          | GN |
 | Guinea-Bissau   | GW |
-| Guyana          | GY |
+| Guyana          | Y. |
 | Haiti           | Hallo |
-| Heard Island and McDonald Islands | HM |
+| Heard- und McDonaldinseln | HM |
 | Honduras        | HN |
 | Hongkong (SAR)   | HK |
 | Ungarn         | HU |
-| Island         | IS |
+| Island         | IST |
 | Indien           | IN |
 | Indonesien       | ID |
 | Iran            | IR |
@@ -165,10 +165,10 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Kenia           | KE |
 | Kiribati        | KI |
 | Korea           | KR |
-| Kosovo          | XK |
+| Mazedonien          | XK |
 | Kuwait          | KW |
 | Kirgisistan      | KG |
-| Laos            | LA |
+| Kambodscha            | LA |
 | Lettland          | LV |
 | Libanon         | LB |
 | Lesotho         | LS |
@@ -177,20 +177,20 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Liechtenstein   | LI |
 | Litauen       | LT |
 | Luxemburg      | LU |
-| Macao SAR       | MO |
-| Madagaskar      | MG |
+| Macau (SAR)       | MO |
+| Madagascar      | MG |
 | Malawi          | MW |
 | Malaysia        | MY |
-| Malediven        | MV |
+| Maldives        | MV |
 | Mali            | ML |
 | Malta           | MT |
 | Marshall-Inseln | MH |
-| Martinique      | MQ |
-| Mauretanien      | MR |
+| Martinique      | ZEIT |
+| Marokko      | MR |
 | Mauritius       | MU |
 | Mayotte         | YT |
 | Mexiko          | MX |
-| Mikronesien      | FM |
+| Mikronesien      | UKW |
 | Moldawien         | MD |
 | Monaco          | MC |
 | Mongolei        | MN |
@@ -210,8 +210,8 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Nigeria         | NG |
 | Niue            | NU |
 | Norfolkinsel  | NF |
-| Nordkorea     | KP |
-| Nordmakedonien | MK |
+| Südkorea     | KP |
+| Nordmazedonisch | MK |
 | Nördliche Marianen | NP |
 | Norwegen          | Nein |
 | Oman            | OM |
@@ -223,7 +223,7 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Paraguay        | PY |
 | Peru            | PE |
 | Philippinen     | PH |
-| PitcairnInseln | PN |
+| Pitcairninseln | PN |
 | Polen          | PL |
 | Portugal        | PT |
 | Puerto Rico     | PR |
@@ -233,15 +233,15 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Russland          | RU |
 | Ruanda          | RW |
 | Saba            | XS |
-| St. Barthelemy | BL |
+| St. Anschleunigung | BL |
 | St. Kitts und Nevis | KN |
 | St. Lucia     | LC |
 | St. Martin    | MF |
-| Saint Pierre und Miquelon | PM |
+| St. Pierre und Miquelon | PM |
 | St. Vincent und die Grenadinen | VC |
 | Samoa           | WS |
 | San Marino      | SM |
-| Sao Tome und Principe | ST |
+| São Tome und Principe | ST |
 | Saudi Arabien    | SA |
 | Senegal         | SN |
 | Serbien          | RS |
@@ -253,16 +253,16 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Slowakei        | SK |
 | Slowenien        | SL |
 | Salomonen | SB |
-| Somalia         | Also |
+| Jemen         | Also |
 | Südafrika    | ZA |
-| Südgeorgien und Südliche Sandwichinseln | GS |
+| Südgeorgien und die Südlichen Sandwichinseln | GS |
 | Südsudan     | SS |
 | Spanien           | ES |
 | Sri Lanka       | LK |
-| St. Helena, Himmelfahrt, Tristan da Cunha | SH |
+| St. Helena, Ascension, Tristan da Cunha | SH |
 | Sudan           | SD |
 | Suriname        | SR |
-| Svalbard        | SJ |
+| Spitzbergen        | SJ |
 | Schweden          | SE |
 | Schweiz     | CH |
 | Syrien           | SY |
@@ -280,7 +280,7 @@ Die folgende Tabelle zeigt die Ländercodewerte für den Parameter -MediaRelayRo
 | Turkmenistan    | TM |
 | Turks- und Caicosinseln | TC |
 | Tuvalu          | TV |
-| Us.Outlying Islands | UM |
+| Amerikanische Überlinginseln | UM |
 | Amerikanische Jungferninseln | VI |
 | Uganda          | UG |
 | Ukraine         | UA |

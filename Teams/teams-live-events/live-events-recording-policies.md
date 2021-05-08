@@ -13,7 +13,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über Richtlinien für die Liveereignisaufzeichnung.
+description: Hier finden Sie Informationen zu Richtlinien für die Aufzeichnung von Liveereignisen.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -24,48 +24,48 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 03/26/2021
 ms.locfileid: "51383969"
 ---
-# <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Liveereignisaufzeichnung in Microsoft Teams
+# <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Aufzeichnung von Liveereignisen in Microsoft Teams
 
-Sie haben mehrere Optionen zum Aufzeichnen eines Microsoft Teams-Liveereigniss. Die Aufzeichnungsoptionen werden mithilfe von Aufzeichnungsrichtlinien festgelegt. In diesem Artikel werden die verschiedenen Einstellungen beschrieben.
+Es gibt mehrere Optionen zum Aufzeichnen eines Microsoft Teams Live-Ereignisses. Die Aufzeichnungsoptionen werden mithilfe von Aufzeichnungsrichtlinien festgelegt. In diesem Artikel werden die verschiedenen Einstellungen beschrieben.
 
-Die Aufzeichnungsoptionen werden mithilfe des [PowerShell-Befehls Set-CsTeamsMeetingBroadcastPolicy festgelegt.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+Die Aufzeichnungsoptionen werden mit dem [PowerShell-Befehl Set-CsTeamsMeetingBroadcastPolicy festgelegt.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
-## <a name="scheduling-and-option-behaviors"></a>Planungs- und Optionsverhalten
+## <a name="scheduling-and-option-behaviors"></a>Terminplanung und Optionsverhalten
 
 Beim Planen einer Liveereignisaufzeichnung gibt es zwei Organisatoroptionen:
 
-- Aufzeichnung für Produzenten und Presenter verfügbar
+- Aufzeichnung für Produzenten und Moderatoren verfügbar
 
-  - Aufzeichnungsdatei: Stellt eine Aufzeichnungsdatei bereit, die Produzenten und Presenter herunterladen können, nachdem das Ereignis beendet ist.
+  - Aufzeichnungsdatei: Stellt eine Aufzeichnungsdatei bereit, die Produzenten und Moderatoren herunterladen können, nachdem das Ereignis vorbei ist.
 
 - Aufzeichnung für Teilnehmer verfügbar
 
   - DVR: Ein digitaler Videorekorder (DVR) ermöglicht Teilnehmern das Zurückspulen und Anhalten während des Ereignisses.
 
-  - VOD: Ein Video on Demand (VOD) ermöglicht teilnehmern, nach dem Ende des Ereignisses zu schauen
+  - VOD: Ein Video auf Abruf (VoD) ermöglicht Teilnehmern, das Ereignis nach dem Ende des Ereignisses zu verfolgen.
 
-## <a name="broadcast-recording-policy-setting"></a>Richtlinieneinstellung für übertragungsaufzeichnungsrichtlinien
+## <a name="broadcast-recording-policy-setting"></a>Richtlinieneinstellung für Aufzeichnung übertragen
 
-Im Rahmen der Übertragungsrichtlinie gibt es eine Einstellung, mit der Sie die Aufzeichnung für ein Liveereignis aktivieren oder deaktivieren können.
+Im Rahmen der Übertragungsrichtlinie können Sie die Aufzeichnung für ein Liveereignis aktivieren oder deaktivieren.
 
-|                                 | Aufzeichnung für Produzenten und Presenter verfügbar | Aufzeichnung für Teilnehmer verfügbar |
+|                                 | Aufzeichnung für Produzenten und Moderatoren verfügbar | Aufzeichnung für Teilnehmer verfügbar |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Immer aufzeichnen               | Deaktiviert und ausgewählt                                | Aktiviert und ausgewählt         |
-| Organizer kann aufzeichnen oder nicht | Standardmäßig aktiviert und ausgewählt                  | Standardmäßig aktiviert und ausgewählt   |
+| Organisator kann Aufzeichnen oder nicht | Standardmäßig aktiviert und ausgewählt                  | Standardmäßig aktiviert und ausgewählt   |
 | Nie aufzeichnen               | Deaktiviert und nicht ausgewählt                            | Aktiviert und nicht ausgewählt      |
 
-Wenn die Richtlinie auf **"Immer aufzeichnen"** festgelegt ist, enthält die Richtlinienseite die folgenden ausgewählten Optionen:
+Wenn die Richtlinie auf Immer aufzeichnen festgelegt **ist,** hat die Richtlinienseite die folgenden ausgewählten Optionen:
 
 ![Richtlinieneinstellungen für Liveereignisse](../media/live-event-recording-policy.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center")
 
-## <a name="storage-and-persistence-behavior"></a>Speicher- und Persistenzverhalten
+## <a name="storage-and-persistence-behavior"></a>Storage und Persistenzverhalten
 
 | Option                                       | Status   | DVR                                                   | VOD                                                     | Aufzeichnung läuft                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| Aufzeichnung für Produzenten und Presenter verfügbar | Ausgewählt     | DVR ist verfügbar, und die Azure Media Services (AMS)-Ressource wird 180 Tage lang gespeichert. | Teilnehmer können auf das Ereignis zugreifen und es anschauen                     |                              |
-|                                                  | Nicht ausgewählt | DVR ist verfügbar, und die AMS-Ressource wird 180 Tage lang gespeichert. | Teilnehmer erhalten nach dem Ende keinen Zugriff auf das Ereignis |                              |
-||Deaktiviert (Nicht ausgewählt)|DVR ist verfügbar, und die AMS-Ressource wird nach dem Ereignis gelöscht.|Teilnehmer erhalten nach dem Ende keinen Zugriff auf das Ereignis||
-| Aufzeichnung für Produzenten und Presenter verfügbar | Ausgewählt     |                                                           |                                                             | Ein MP4 wird erstellt und gespeichert |
+| Aufzeichnung für Produzenten und Moderatoren verfügbar | Ausgewählt     | DVR ist verfügbar, und Azure Media Services (AMS)-Ressource wird 180 Tage lang gespeichert. | Teilnehmer können auf das Ereignis zugreifen und es anschauen                     |                              |
+|                                                  | Nicht ausgewählt | DVR ist verfügbar, und die AMS-Ressource wird 180 Tage lang gespeichert. | Teilnehmer erhalten keinen Zugriff auf das Ereignis, nachdem es vorbei ist |                              |
+||Deaktiviert (Nicht ausgewählt)|DVR ist verfügbar, und die AMS-Ressource wird nach dem -Ereignis gelöscht.|Teilnehmer erhalten keinen Zugriff auf das Ereignis, nachdem es vorbei ist||
+| Aufzeichnung für Produzenten und Moderatoren verfügbar | Ausgewählt     |                                                           |                                                             | Eine MP4-Datei wird erstellt und gespeichert. |
 |                                                  | Nicht ausgewählt |                                                           |                                                             | Es wird keine Datei erstellt           |
 
 ### <a name="related-topics"></a>Verwandte Themen
@@ -73,4 +73,4 @@ Wenn die Richtlinie auf **"Immer aufzeichnen"** festgelegt ist, enthält die Ric
 - [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
 - [Planen von Teams-Liveereignissen](plan-for-teams-live-events.md)
 - [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)
-- [Aufzeichnung der Besprechungsaufzeichnung in Teams clouds](../cloud-recording.md)
+- [Teams Besprechungsaufzeichnung mit Wolken](../cloud-recording.md)
