@@ -1269,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: 'Schritt 6: Eine automatische Telefonzentrale einrichten'
             href: business-voice/set-up-auto-attendant.md
+          - name: 'Schritt 7: Porttelefonnummern (optional)'
+            href: business-voice/port-phone-numbers.md
           - name: Ressourcen nach der Einrichtung
             href: business-voice/set-up-finish.md
       - name: Anpassen des Setups
         items:
           - name: Anpassungsoptionen
             href: business-voice/customize-business-voice.md
-          - name: Port-Telefonnummern
-            href: business-voice/port-phone-numbers.md
           - name: Einrichten von Anrufrichtlinien
             href: business-voice/set-up-policies.md
           - name: Verwalten von Richtlinienpaketen
