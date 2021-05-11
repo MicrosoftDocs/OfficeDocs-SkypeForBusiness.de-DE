@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing planen, wodurch Sie den Pfad des Mediendatenverkehrs kürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c65cdb4ede98fbd34c39eb941aed2c582c15b37b
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 9b6624a81994c1d6797ed996fbcc233fe75f8907
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264955"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308354"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -86,7 +86,7 @@ Angenommen, der Benutzer ist extern, und der Mandantenadministrator hat sich ent
 
 - Teams Transport Relays werden verwendet.
 
-- Zur Medienumgehung verwendet Microsoft eine Version von Transport Relays, für die das Öffnen der Ports 50 000 bis 59 999 zwischen den Teams-Transport relays und dem SBC erforderlich ist (in Zukunft ist der Wechsel zur Version geplant, für die nur 3478 und 3479 Ports erforderlich sind).
+- Zur Medienumgehung verwendet Microsoft eine Version von Transport Relays, für die das Öffnen der Ports 50 000 bis 59 999 zwischen den Teams-Transport relays und dem SBC erforderlich ist (in Zukunft ist der Wechsel zur Version geplant, für die 3478-3481 Ports erforderlich sind).
 
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client extern ist und der Client die öffentliche IP-Adresse des Session Border Controllers nicht erreichen kann (Die Medien werden über Teams Transport Relay übertragen).

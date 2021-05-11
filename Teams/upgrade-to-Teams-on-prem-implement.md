@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d01dc44b626cc2c09a92dabff7649a5e9fddc3c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282502"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306039"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Upgradestrategien für IT-Administratoren
 
@@ -88,6 +88,10 @@ Hinweise
 - Statt die mandantenweite Richtlinie auf SfbWithTeamsCollab zu setzen, können Sie sie auf SfbWithTeamsCollabAndMeetings festlegen. Dadurch planen alle Benutzer alle neuen Besprechungen in Teams.
 - `Move-CsUser` ist ein Cmdlet in den lokalen Tools. Der `MoveToTeams` Schalter erfordert Skype for Business Server 2019 oder Skype for Business Server 2015 mit CU8 oder höher. Wenn Sie eine frühere Version verwenden, können Sie den Benutzer zuerst auf Skype for Business Online verschieben und dann dem Benutzer den TeamsOnly-Modus gewähren.
 - Besprechungen, Skype for Business werden standardmäßig nach Teams TeamsOnly-Modus oder beim Zuweisen des SfbWithTeamsCollabAndMeetings-Modus nach Teams migriert.  
+
+> [!NOTE]
+> Als Vorbereitung auf die bevorstehende Skype for Business Online wird Microsoft in naher Zukunft den Umzug von Organisationen auf Teams vereinfachen. Wenn sie einen Benutzer von der lokalen auf die lokale Teams verschieben, wird es bald nicht mehr erforderlich sein, den Umstieg festzulegen, um Benutzer direkt aus der lokalen Lokalen zu `-MoveToTeams` `Move-CsUser` TeamsOnly zu verschieben. Wenn dieser Schalter derzeit nicht angegeben wird, wechseln die Benutzer von der lokalen Skype for Business Server zu Skype for Business Online, und ihr Modus bleibt unverändert. Wenn Sie einen Benutzer nach der Umstellung von der lokalen in die Cloud mit in die Cloud verschieben, wird den Benutzern automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus dem lokalen Modus werden automatisch in Teams-Besprechungen konvertiert, genauso, als ob die Option tatsächlich festgelegt `Move-CsUser` `-MoveToTeams switch had been specified` wurde. Wir erwarten, dass diese Funktion vor der tatsächlichen Ende des 31. Juli 2021 veröffentlicht wird.
+
 
 Das folgende Diagramm zeigt die konzeptuellen Phasen des Upgrades von Auswahlfunktionen für eine Organisation ohne vorherige Verwendung Teams. Die Höhe der Balken stellt die Anzahl der Benutzer dar. Während jeder Phase des Upgrades können alle Benutzer miteinander kommunizieren.  Skype for Business Benutzer kommunizieren mit TeamsOnly-Benutzern über Inop und umgekehrt. Benutzer im Islands-Modus müssen sicherstellen, dass beide Clients ausgeführt werden.
 

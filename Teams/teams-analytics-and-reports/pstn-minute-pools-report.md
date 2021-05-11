@@ -17,12 +17,12 @@ description: Verwenden des Berichts Teams PSTN-Minutenpools im Microsoft Teams A
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8df0c1201f963a1c00742532f80089b523ca79aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4d28e33ae820407ffe8c9561cae8c79863532417
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809345"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52305989"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Bericht über PSTN-Minutenpools
 
@@ -42,7 +42,7 @@ Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **
 |**2**   |Klicken Sie auf eine Funktion (Lizenz), um die Aktivität für diese Funktion anzeigen. |
 |**3**   |Die X-Achse ist Land oder Region. Die Y-Achse hat eine Anzahl von Minuten. <br>Zeigen Sie mit der Maus auf einen Balken im Diagramm, um die Aktivität für diese Verwendungsposition zu sehen.  |
 |**4**   |Sie können filtern, was im Diagramm angezeigt wird, indem Sie in der Legende auf ein Element klicken. Klicken Sie beispielsweise auf **Nicht verwendet**, **Inlandsbenutzer**, **Keine Daten** oder **International** , um nur die jeweils zugehörigen Informationen zu sehen. |
-|**5**   |Die Tabelle enthält eine Aufschlüsselung der Minutenpools nach Funktion und Verwendungsort. <ul><li>**Land oder Region** ist der Verwendungsstandort. </li><li>**Funktionsbeschreibung** ist die Beschreibung der für den Anruf verwendeten Lizenz.  Zu den Funktionsbeschreibungen, die in diesem Bericht möglicherweise verwendet werden, gehören: <ul><li>Anrufplan für Inlands- und Auslandsrufe (1.200 Minuten für Inland)</li><li>Anrufplan für In- und Ausland (3.000 Minuten für Inland)</li><li>Anrufplan für Inlands- und Auslandsrufe (600 Minuten im Ausland)</li></ul></li><br><li>**Gesamtminuten** ist die Gesamtzahl der für den Monat verfügbaren Minuten.</li><li>**Verwendete Minuten** ist die Anzahl der Minuten, die jeden Monat verwendet werden.</li> <li>**Verfügbare Minuten** ist die Anzahl der verbleibenden Minuten für den Monat.</li><li>**Capability** (Funktion) ist die für den Anruf verwendete Lizenz. Zu den angezeigten Lizenzen gehören:<ul><li>**MCOPSTNPP**: Guthaben für Kommunikationen</li><li>**MCOPSTN1**: Plan für Inlandsanrufe (US-Plan mit 3.000 Min./EU-Plan mit 1.200 Min.)</li><li>**MCOPSTN2**: Plan für Auslandsanrufe</li><li>**MCOPSTN5**: Plan für Inlandsanrufe (Anrufplan mit 120 Min.)</li><li>**MCOPSTN6–** Plan für Inlandsrufe (Anrufplan mit 240 Min.)</li><li>**MCOMEETADD**: Audiokonferenz</li><li>**MCOMEETACPEA**: Audiokonferenz mit Minutenabrechnung</li></ul></li> </ul> Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen.|
+|**5**   |Die Tabelle enthält eine Aufschlüsselung der Minutenpools nach Funktion und Verwendungsort. <ul><li>**Land oder Region** ist der Verwendungsstandort. </li><li>**Funktionsbeschreibung** ist die Beschreibung der für den Anruf verwendeten Lizenz.  Zu den Funktionsbeschreibungen, die in diesem Bericht möglicherweise verwendet werden, gehören: <ul><li>Anrufplan für Inlands- und Auslandsrufe (1.200 Minuten für Inland)</li><li>Anrufplan für In- und Ausland (3.000 Minuten für Inland)</li><li>Anrufplan für Inlands- und Auslandsrufe (600 Minuten im Ausland)</li></ul></li><br><li>**Gesamtminuten** ist die Gesamtzahl der für den Monat verfügbaren Minuten.</li><li>**Verwendete Minuten** ist die Anzahl der Minuten, die jeden Monat verwendet werden.</li> <li>**Verfügbare Minuten** ist die Anzahl der verbleibenden Minuten für den Monat.</li><li>**Capability** (Funktion) ist die für den Anruf verwendete Lizenz. Zu den angezeigten Lizenzen gehören:<ul><li>**MCOPSTN1**: Plan für Inlandsanrufe (US-Plan mit 3.000 Min./EU-Plan mit 1.200 Min.)</li><li>**MCOPSTN2**: Plan für Auslandsanrufe</li><li>**MCOPSTN5**: Plan für Inlandsanrufe (Anrufplan mit 120 Min.)</li><li>**MCOPSTN6–** Plan für Inlandsrufe (Anrufplan mit 240 Min.)</li><li>**MCOMEETADD**: Audiokonferenz</li></ul></li> </ul> Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen.|
 |**6**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 |**7**   |Wählen **Sie Vollbild** aus, um den Bericht im Vollbildmodus anzuzeigen.|
 

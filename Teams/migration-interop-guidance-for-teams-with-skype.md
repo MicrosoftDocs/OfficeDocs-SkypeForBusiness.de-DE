@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3a446213a5c10126b9ae42986fe2fa1986bc9e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96aeda2b14d2aa3dedd810317865f3d02e29f68a
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098331"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52305949"
 ---
 # <a name="coexistence-modes---reference"></a>Koexistenzmodi – Referenz
 
@@ -51,7 +51,7 @@ Die Modi sind unten aufgeführt.
 
 |Modus|Anrufe und Chats|Besprechungsplanung<sup>1</sup>|Teams & Channels|Use Case|
 |---|---|---|---|---|
-|**TeamsOnly <sup>2</sup>**</br>*Erfordert die Startseite in Skype for Business Online*|Microsoft Teams|Microsoft Teams|Ja|Der endgültige Status des Upgrades. Auch die Standardeinstellung für neue Mandanten.|
+|**TeamsOnly <sup>2</sup>**</br>*Nur möglich, wenn der Benutzer nicht über ein lokales Konto in der Skype for Business Server*|Microsoft Teams|Microsoft Teams|Ja|Der endgültige Status des Upgrades. Auch die Standardeinstellung für neue Mandanten.|
 |Inselmodus|Eine der beiden|Eine der beiden|Ja|Standardkonfiguration. Ermöglicht es einem einzelnen Benutzer, beide Clients nebeneinander auszuwerten. Chats und Anrufe können in beiden Clients landen, sodass Benutzer immer beide Clients ausführen müssen. Um verwirrende oder regressierte Skype for Business-Benutzererfahrungen zu vermeiden, werden externe Kommunikation (Verbundkommunikation), PSTN-Sprachdienste und -Sprachanwendungen, Office-Integration und mehrere andere Integrationen weiterhin von der Skype for Business.|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Microsoft Teams|Ja|"Besprechungen zuerst". In erster Linie für lokale Organisationen, die von Teams Besprechungsfunktionen profitieren können, wenn sie noch nicht bereit sind, Anrufe in die Cloud zu verschieben.|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|Ja|Alternativer Ausgangspunkt für komplexe Organisationen, die eine engere administrative Kontrolle benötigen.|
