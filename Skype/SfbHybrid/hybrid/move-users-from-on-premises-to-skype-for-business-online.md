@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Erfahren Sie, wie Sie Benutzer zu Skype for Business Online verschieben.
-ms.openlocfilehash: 8c028044fe8c4b808a419503091f9ecf767cfe4d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e4536b13b6a9c05757bfcbf629fcc8301f94ed86
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237961"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52305979"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Verschieben von Benutzern aus lokalen Bereitstellungen nach Skype for Business Online
 
@@ -32,19 +32,23 @@ Nachdem Sie einen Benutzer von lokal zu Skype for Business Online verschieben, i
 [!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
 
 Überprüfen Sie vor dem Verschieben von Benutzern unbedingt die Voraussetzungen, [um](move-users-between-on-premises-and-cloud.md#prerequisites) Benutzer in die Cloud zu verschieben.
+
+> [!NOTE]
+> In Vorbereitung auf den bevorstehenden Ausstand von Skype for Business Online vereinfacht Microsoft in naher Zukunft den Wechsel von Organisationen zu Teams, und es wird nicht mehr möglich sein, zu Skype for Business Online zu wechseln.  Sobald diese Änderungen verfügbar gemacht wurden, wird Benutzern beim Verschieben eines Benutzers von der lokalen in die Cloud automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen von lokalen Besprechungen werden automatisch in Teams-Besprechungen konvertiert, so als ob die Option angegeben worden wäre, unabhängig davon, ob die Option tatsächlich angegeben `-MoveToTeams` wurde. Wir gehen davon aus, dass diese Funktionalität vor dem tatsächlichen Ausstand vom 31. Juli 2021 veröffentlicht wird.   Wenn diese Option derzeit nicht angegeben ist, wechseln Benutzer von Skype for Business Server lokal zu Skype for Business Online, und ihr Modus bleibt unverändert, was die in diesem Artikel dokumentierte Funktionalität ist.
+
  
 ## <a name="move-users-with-move-csuser"></a>Verschieben von Benutzern mit Move-CsUser 
 
-Move-CsUser ist über ein lokales Skype for Business Management Shell PowerShell-Fenster verfügbar. Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch in der Microsoft 365/Office 365-Organisation verfügen, wie unter Erforderliche administrative [Anmeldeinformationen beschrieben.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) Sie können entweder ein einzelnes Konto verwenden, das in beiden Umgebungen über Berechtigungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshellfenster mit lokalen Anmeldeinformationen starten und den Parameter verwenden, um Anmeldeinformationen für ein Microsoft 365- oder Office 365-Konto mit der erforderlichen Administratorrolle `-Credential` anzugeben.
+Move-CsUser ist über ein lokales Skype for Business Management Shell PowerShell-Fenster verfügbar. Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch in der Microsoft 365 verfügen, wie unter [Erforderliche administrative Anmeldeinformationen beschrieben.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials) Sie können entweder ein einzelnes Konto mit Berechtigungen in beiden Umgebungen verwenden oder ein lokales Skype for Business Server-Verwaltungsshellfenster mit lokalen Anmeldeinformationen starten und den Parameter verwenden, um Anmeldeinformationen für ein Microsoft 365-Konto mit der erforderlichen Administratorrolle `-Credential` anzugeben.
 
 So verschieben Sie einen Benutzer mithilfe von Move-CsUser ins Internet:
 
 - Geben Sie den Benutzer an, der mit dem Parameter Identity bewegt werden soll.
 - Geben Sie den -Target-Parameter mit dem Wert "sipfed.online.lync" an. <span> com".
-- Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl lokal als auch Office 365 verfügen, verwenden Sie den Parameter -credential, um einem Konto ausreichende Berechtigungen in Office 365.
-- Wenn das Konto mit Berechtigungen in Office 365 nicht in ".onmicrosoft" endet. <span> com", müssen Sie den Parameter -HostedMigrationOverrideUrl mit dem richtigen Wert angeben, wie unter [Erforderliche administratorische Anmeldeinformationen beschrieben.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl lokal als auch Microsoft 365 verfügen, verwenden Sie den Parameter -credential, um einem Konto ausreichende Berechtigungen in der Microsoft 365.
+- Wenn das Konto mit Berechtigungen in Microsoft 365 nicht in ".onmicrosoft" endet. <span> com", müssen Sie den Parameter -HostedMigrationOverrideUrl mit dem richtigen Wert angeben, wie unter [Erforderliche administratorische Anmeldeinformationen beschrieben.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
-Die folgende Cmdletsequenz kann verwendet werden, um einen Benutzer zu Skype for Business verschieben. Es wird davon ausgegangen, Microsoft 365 oder Office 365 ein separates Konto ist und als Eingabe für die Eingabeaufforderung Get-Credential wird.
+Die folgende Cmdletsequenz kann verwendet werden, um einen Benutzer zu Skype for Business verschieben. Es wird davon ausgegangen, Microsoft 365 Anmeldeinformationen ein separates Konto sind und als Eingabe für die Eingabeaufforderung Get-Credential werden.
 
 ```PowerShell
 $cred=Get-Credential
@@ -62,7 +66,7 @@ Wenn das Administratorkonto MFA (Multi-Factor Authentication) aktiviert ist, geb
 3. Verwenden **Sie Suchen,** um die Benutzer zu finden, die Sie zu Skype for Business online verschieben möchten.
 4. Wählen Sie die Benutzer aus, und  wählen Sie dann im Dropdownmenü Aktion über der Liste die Option Ausgewählte Benutzer in Skype for Business **Verschieben aus.**
 5. Klicken Sie im Assistenten auf **Weiter**.
-6. Wenn Sie dazu aufgefordert werden, melden Sie sich Microsoft 365 oder Office 365 mit einem Konto an, das in .onmicrosoft.com endet und über ausreichende Berechtigungen verfügt.
+6. Wenn Sie dazu aufgefordert werden, melden Sie sich Microsoft 365 mit einem Konto an, das in ".onmicrosoft.com" endet und über ausreichende Berechtigungen verfügt.
 7. Klicken **Sie auf Weiter,** und klicken Sie dann **noch** einmal, um den Benutzer zu verschieben.
 8. Beachten Sie, dass Statusmeldungen zu Erfolg oder Fehler oben in der Systemsteuerungs-App und nicht im Assistenten bereitgestellt werden.
 
