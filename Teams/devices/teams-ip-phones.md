@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: dec58efccef8b247ebf970c4196fd38d87dc1437
-ms.sourcegitcommit: 347246d725b3058e4c5e770513c0c386bfb586bc
+ms.openlocfilehash: 90651f5e88544f86022d65842f760f5ff47e9d6c
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077375"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328547"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams von zertifizierten Geräten
 
@@ -73,6 +73,7 @@ Die folgenden Geräte sind im Rahmen des Zertifizierungsprogramms Microsoft Team
 
 | Gerätemodell | Firmwareversion | Veröffentlichungsdatum  | Raumgröße                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| AudioCodes RECEIVERV80 | 1.9.155        |   Mai 2021  | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |
 | EXPAND Vision 3T       | 1.2.0.21102.03    | April 2021 | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | März 2021 | Mittlerer Raum (4,5 x 6 m) |
 | Yealink CTP18-Touchkonsole  | 137.15.0.28    | März 2021 | Kompatibel mit Yealink MeetingBar A20 und Yealink MeetingBar A30 |

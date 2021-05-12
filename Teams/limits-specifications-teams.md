@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697630"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328507"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -131,7 +131,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 300. Bei **Nur anzeigen** können bis zu 10.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5 SKU sowie Government (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, aber noch nicht für GCC oder DoD. Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
@@ -139,7 +139,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 ### <a name="meeting-expiration"></a>Ablauf der Besprechung
 
 > [!NOTE]
-> Eine Besprechungs-URL wird nie aufhören, zu funktionieren. Der Wert bezieht sich nur auf Einwahlnummern und/oder zugrunde liegende Besprechungsrichtlinien und -einstellungen für das PSTN.
+> Eine Besprechungs-URL funktioniert immer. Das Ablaufdatum bezieht sich nur auf PSTN-Einwahlnummern und/oder zugrunde liegende Besprechungsrichtlinien und -einstellungen.
 
 |Besprechungstyp  |Besprechung läuft nach diesem Zeitraum ab  |Jedes Mal, wenn Sie eine Besprechung starten oder aktualisieren, verlängert sich der Ablaufzeitpunkt um die entsprechende Zeit  |
 |---------|---------|---------|

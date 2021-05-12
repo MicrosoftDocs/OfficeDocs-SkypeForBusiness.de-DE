@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f9df0bf1c4acaf8ec32db07ce4af961c491ba0d
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: 76137c0ebfe73c6ba500a0dbcdc8ee1a01de85fc
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899116"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328557"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -31,7 +31,7 @@ ms.locfileid: "51899116"
 > [!Note]
 > Wenn Ihre Besprechung oder Ihr Webinar die Kapazitätsgrenze erreicht, wird Teams nahtlos skaliert, um eine schreibgeschützte Übertragungserfahrung für 10 000 Personen zu ermöglichen. Außerdem können Sie in dieser Zeit der vermehrten Remotearbeit bis zum Ende des Jahres von noch größeren Übertragungen für 20 000 Personen profitieren.
 
-Microsoft Teams ermöglicht bis zu 10 000 Teilnehmern den Beitritt zu einer Teams-Besprechung. Nachdem die Kapazität der Haupt-Besprechung erreicht wurde (d. h., wenn 300 Benutzer an einer Besprechung teilnehmen), werden weitere Teilnehmer mit einer 6-Stunden-Ansicht teilnehmen.
+Microsoft Teams ermöglicht bis zu 10 000 Teilnehmern den Beitritt zu einer Teams-Besprechung. Nachdem die Kapazität der Haupt besprechung erreicht wurde (d. h., wenn 1.000 Benutzer an einer Besprechung teilnehmen), werden weitere Teilnehmer mit einer 6-n-Ansicht teilnehmen.
 
 Teilnehmer, die zuerst an der Besprechung teilnehmen, erhalten bis zur Kapazität der Hauptbesprechung alle Teams Besprechungserfahrung. Sie können Audio und Video freigeben, freigegebene Videos ansehen und im Besprechungschat mitmachen.
 
@@ -40,7 +40,7 @@ Teilnehmer, die der Besprechung nach Erreichen der Kapazitätsgrenze beitreten, 
 Die Teilnehmer können über Desktop, Web und mobile Geräte (Android und iOS) Teams der NS-Ansicht teilnehmen.
 
 > [!Note]
-> Die aktuelle Beschränkung der Kapazität der "Haupt besprechung" beträgt 300, also die Anzahl der vollständig interaktiven Benutzer.
+> Die aktuelle Beschränkung der Kapazität der "Haupt besprechung" (also die Anzahl der vollständig interaktiven Benutzer) beträgt 1000 und umfasst GCC.
 
 ## <a name="teams-view-only-experience-controls"></a>Teams von Steuerelementen für die 6-Ansicht
 
