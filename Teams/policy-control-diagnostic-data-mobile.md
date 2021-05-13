@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 200e3c34c5c7136a441f492d0228c6af6f551a94
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909149"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469647"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -57,7 +57,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Die Registerkarte **Aktivität** wird angezeigt.
   - Teams erfasst ein Registerkartenereignis **Aktivität**.
 - **activityTypeDropdown**: Erfasst die Verwendung von Aktivitätsfiltern, um zwischen **Meine Aktivitäten** und **Feeds** zu wechseln.
-- **addChannel**: Hinzufügen eines Kanals. Dieses Element liefert Erfolgsdaten zur erfolgreichen Erstellung eines Kanals.
+- **addChannel** – Hinzufügen eines Kanals. Dieses Element liefert Erfolgsdaten rund um die erfolgreiche Erstellung eines Kanals.
 - **addMember**: Die Schaltfläche **Personen einladen** wurde im Menü **Mehr** aktiviert.
 - **addMembers**: Fügen Sie Mitglieder zu einem Team oder einem privaten Kanal hinzu.
 - **addToCalendar**: Wählen Sie die Schaltfläche **Zu Kalender hinzufügen** für Kalenderereignisse aus, die im privaten Kalender fehlen.
@@ -121,7 +121,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **BYOELiveEventJoin**: Ein Benutzer tritt einem BYOE (Broadcast Your Own Event)-Liveereignis bei.
 - **calendarLiveChatClicked**: Chat aus einer Livebesprechung auf der Registerkarte **Zeitplan**.
 - **calendarMeetingJoin** - Schaltfläche **Besprechungsteilnahme**, die aus einem Kalender ausgewählt wird.
-- **calendarTab**: Wählen Siedie Registerkarte **Besprechungen** in der unteren Leiste aus. Hilfreich, um die Verwendung des Kalenders zu verstehen und mit anderen Apps auf der unteren Leiste zu vergleichen oder um festzustellen, ob bei der Darstellung des Kalenderbeitrags nach der Auswahl in der unteren Leiste ein Fehler aufgetreten ist.
+- **calendarTab** – Wählen Sie den Tab **Besprechungen** in der unteren Leiste. Nützlich, um die Nutzung des Kalenders zu verstehen und mit anderen Apps in der unteren Leiste zu vergleichen, oder um festzustellen, ob es einen Fehler beim Rendern des Kalenderposts nach der Auswahl in der unteren Leiste gab.
 - **calendarTabClicked**: Unter den nachstehend aufgeführten Umständen zeigt dies die Kalenderverwendung an und ermöglicht Ihnen den Vergleich mit anderen Navbar-Apps auf der unteren Leiste. Dies kann verwendet werden, um zu ermitteln, ob ein Fehler aufgetreten ist, wenn:
   - Die Registerkarte **Zeitplan** wird angezeigt.
   - Die Registerkarte **Besprechungen** ist in der unteren Leiste ausgewählt.
@@ -222,7 +222,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Ausschalten des Videos.
   - Video-Schaltfläche wird während einer Besprechung oder eines Anrufs ausgewählt.
 - **callPark**: Ausgelöst in folgenden Fällen:
-  - **Anruf parken** ist in **...** ausgewählt. ausgewählt.
+  - **Anruf parken** wird im Menü **…** ausgewählt.
   - Schaltfläche **Abrufen** ist ausgewählt.
   - **Pickup** ist im Abrufen-Dialogfeld ausgewählt.
   - **Abbrechen** ist im Abrufen-Dialogfeld ausgewählt.
@@ -359,6 +359,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **composeParticipantAdded**: Wenn ein Teilnehmer zur Schichten-App hinzugefügt wird.
 - **composeSearchResult**: Auswahl des Ergebnisses der Nachrichtenerweiterung, die zum Verständnis der Relevanz des Suchergebnisses der App hilfreich ist. Verbessert auch die Nachrichtensende-Telemetrie mit Appdaten.
 - **composeSelectExtension**: Tippen Sie auf eine ME-App.
+- **composeSendSmartReply**: Ein Smart Reply-Element wird angeklickt.
 - **composeSendMessage**: Verbessert die Nachrichtensende-Telemetrie mit Appdaten.
 - **confirmAudioOn**: Ein Benutzer bestätigt, dass er Audio angeschaltet haben möchte.
 - **confirmFileShare** - **Freigeben** wird im Bestätigungsdialogfeld ausgewählt.
@@ -399,7 +400,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **createPlannerTask**: Überprüft einen Aufruf des Planner-Diensts. Bestätigt, dass eine Aufgabe erfolgreich in einer Liste mit freigegebenen Aufgaben erstellt wurde.
 - **createShiftClicked**: Wenn ein Manager **Schicht erstellen** auswählt.
 - **createShiftOrTimeOffClicked**: Wird ausgelöst, wenn Sie **Schicht erstellen** oder **Abwesenheit** auswählen.
-- **CreateTask**: Wird beim Fehler beim Erstellen einer Aktion verwendet, überprüft den Aufruf an Planner-Dienst. Bestätigt, dass der Vorgang zum Erstellen einer Aufgabe fehlgeschlagen ist.
+- **CreateTask**: Wird verwendet, wenn der Erstellungsvorgang fehlschlägt, überprüft den Call zum Planner-Dienst. Bestätigt, dass der Vorgang zum Erstellen einer Aufgabe fehlgeschlagen ist.
 - **createtasklist**: Wenn ein Benutzer zur „Plan erstellen“-Ansicht aus der Startansicht navigiert.
 - **createTeam**: Bietet Erfolgsdaten rund um die erfolgreiche Erstellungs- oder Verwerfen-Aktion für die neue Teamerstellung, wenn:
   - Die Schaltfläche **Fertig** wird auf der Seite **Team erstellen** ausgewählt.
@@ -489,6 +490,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **editNavigation** - **Neu anordnen** wird im Menü **Mehr** ausgewählt, um die Reihenfolge der Apps auf der unteren Leiste zu bearbeiten.
 - **editRsvpMeetingOptions**: Wählen Sie **RSVP** aus, um die vorherige Auswahl zu ändern.
 - **editShiftClicked**: Eine Schicht bearbeiten.
+- **editSmartReply**: Ein Smart Reply-Element wird angeklickt.
 - **editTeam**: Ein Benutzer tippt auf eine Schaltfläche, um ein Team zu bearbeiten, das er besitzt oder verwaltet.
 - **editTeam, editChannel**: Bezieht sich auf die erfolgreiche Hinzufügung von Mitgliedern in einem Team und die erfolgreiche Erstellung eines bestehenden Teams in folgenden Fällen:
   - Die Schaltfläche **Abbrechen** wird auf der Seite **Mitglieder hinzufügen** ausgewählt (bereits vorhandenes Team oder Kanal).
@@ -522,7 +524,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **expand/collapse**: Abschnitt „Gerätekontakte“ oder „Unternehmenskontakte“.
 - **expandCollapseSection**: Tippen Sie auf einen Abschnittskopf, um einen Abschnitt zu erweitern oder zu reduzieren.
 - **Expected: atMention - Android: chatSendMessage - iOS: sendMsg**: @erwähnen Sie einen Bot in einem „Verfassen“-Feld.
-- **Expected: botClickCardAction - Android: showCard - iOS: missing**: Tippen Sie auf Schaltflächen „Karte“. Karten sind wichtige Plattformkonstrukte, und die Messung ihrer Nutzung und ihres Musters ist notwendig, um die Plattformnutzung zu verstehen und auf mögliche Probleme auf der Kundenseite zu achten.
+- **Erwartet: botClickCardAction – Android: showCard – iOS: fehlt**: Tippen Sie auf Kartenschaltflächen. Karten sind wichtige Plattformkonstrukte und die Messung ihrer Verwendung und ihrer Muster ist notwendig, um die Plattformnutzung zu verstehen und nach potenziellen Problemen auf der Client-Seite Ausschau zu halten.
 - **Expected: chatSendMessage - iOS: composeSendMessage**: Tippen Sie auf **Antworten** und antworten Sie auf einen Bot-Chat in einem Kanal.
 - **Expected: composeSendMessage - Android: replyChannel - iOS: missing**: Tippen Sie auf **Antworten** und antworten Sie auf einen Bot-Chat in einem Kanal.
 - **Expected: messageLike - Android: reactLike_CM**: Drücken Sie bei einer Bot-Nachricht auf „Gefällt mir“.
@@ -560,13 +562,13 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **galleryImage**: Bild hochgeladen – Gallerie.
 - **get_directions_clicked**: Die Schaltfläche **Wegbeschreibung abrufen** wird ausgewählt.
 - **goToNotificationSettings**: Wechseln Sie zur Seite „Benachrichtigungseinstellungen“ von dem Dialogfeld **Nachrichteneinstellungen wurden aktualisiert**.
-- **GPSPromptClicked**: In der Eingabeaufforderung des Betriebssystems wird **Zulassen** oder **Nicht zulassen** ausgewählt. GPS entweder zulassen oder nicht zulassen.
+- **GPSPromptClicked**: In einer Aufforderung des Betriebssystems wird **Zulassen** oder **Nicht zulassen** ausgewählt. Entweder GPS erlauben oder nicht.
 - **group_map_closed**: Ein Benutzer öffnet die Kartenansicht aus dem Chat.
 - **group_map_open**: Ein Benutzer schließt die Kartenansicht.
 - **groupCallJoin**: Ein Benutzer tritt einem Gruppenanruf bei.
 - **groupClicked**: Verfolgt, wenn ein Benutzer die Schichtgruppe auswählt.
 - **guideMe**: Benutzer wählen ein Banner aus, das Sie über eine Blockierungsbenachrichtigung einer 3P-App informiert und Anleitungen zur Problembehandlung bietet.
-- **hamburgerMenu**: avigieren Sie zum Hamburger-Menü. Das Hamburger-Menü enthält wichtige Aktionen wie Kontowechsel, Benachrichtigungseinstellungen, Dateneinstellung und Profileinstellungen.
+- **hamburgerMenu**: Navigieren Sie zum Hamburger-Menü. Das Hamburger-Menü enthält wichtige Aktionen, wie z. B. Kontowechsel, Benachrichtigungseinstellungen, Dateneinstellung und Profileinstellungen.
 - **handoffComplete**: Auf diesem Gerät wurde eine Besprechung oder ein Anruf abgegeben.
 - **handoffJoin**: Auf der Aktionstabelle wird eine Besprechungsübergabe-Option ausgewählt.
 - **hardwareAudioOff**: Deaktivieren Sie Audio durch die Hardware-Schaltflächen.
@@ -635,7 +637,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **location_family_sync**: Anzeigen von Mitgliedern einer Familiengruppe, die in der MSA-Familien-App erstellt wurden. Bestätigt, dass alle Familienmitglieder angezeigt werden, denen die Zustimmung erteilt werden kann.
 - **location_group_map_sync**: Kartenansicht wird geöffnet.
 - **location_map_load**: Laden der Kartenansicht.
-- **location_map_markers_load**: Laden der Kartenansicht. Bestätigt, dass Standortmarkierungen für alle Benutzer, die aktiv an der gemeinsamen Nutzung teilnehmen, in der Kartenansicht korrekt angezeigt werden.
+- **location_map_markers_load**: Kartenansicht laden. Bestätigt, dass die Standortmarkierungen für alle aktiv teilenden Benutzer in der Kartenansicht richtig angezeigt werden.
 - **location_message_send**: Ein Benutzer initiiert eine Sitzung zur Standortübermittlung.
 - **location_data_use_privacy_denied**: In einem Popup, das die Verwendung von Standortdaten durch TFL erklärt, weist ein Benutzer die Option **Nicht jetzt** ab oder wählt sie aus.
 - **location_data_use_privacy_granted**: In dem Popup, das die Verwendung von Standortdaten durch TFL erklärt, wählt ein Benutzer **Zulassen** aus.
@@ -645,6 +647,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **LoginFailed**: Benutzer konnte sich nicht anmelden.
 - **loginSuccess**: Benutzer konnte sich anmelden.
 - **manageBlockedNumbers**: Zugriff zu blockierten Nummer über Einstellungen.
+- **manualSendMessage**: Eine Nachricht wird manuell versendet.
 - **mapAppPicker**: Wenn ein Benutzer die zu verwendende Mapping-App auswählt, indem er auf eine Standortkarte tippt.
 - **markAsRead**: Als gelesen markieren.
 - **markAsUnread**: Als ungelesen markieren.
@@ -712,7 +715,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **muteParticipant**: Teilnehmer stumm schalten (zur Aktionstabelle verschieben).
 - **my_location_button_clicked**: Benutzer zentriert die Karte an deren Position, indem er die Schaltfläche **Mein Standort** auswählt.
 - **my_location_clicked**: Ein Benutzer zentriert die Karte an deren Position, indem er den **blauen Punkt** auf der Karte auswählt.
-- **myShiftPickerClicked**: Wird nur protokolliert, wenn die gesendete Anforderung ein Tausch oder ein Angebot ist. **My Shift** Auswahl ist ausgewählt.
+- **myShiftPickerClicked**: Wird nur protokolliert, wenn die gesendete Anforderung ein Tausch oder ein Angebot ist. **Meine Schicht** ist ausgewählt.
 - **nameGroupChat**: Name Gruppenchat.
 - **nativeTimeClockBreak**: Eine Pause auf der Stechuhr.
 - **nativeChatLink**: Ein Link zum systemeigenen Chat ist ausgewählt.
@@ -1003,7 +1006,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **shiftDetailsTodaysCoworkers**: Auf dem Bildschirm zum Einstempeln ist die Schaltfläche **Pause beginnen** oder **Pause beenden** ausgewählt.
 - **shortCircuitContactCount**: Die Anzahl der mit dem Adressbuch übereinstimmenden kurzgeschlossenen Kontakte, die von einem Kontaktabruf erhalten wurden.
 - **showBanner**: Anzahl der Erscheinen des Banners **WLAN verbunden, kein Internet**.
-- **showCard**: Tippen Sie auf die Kartenschaltflächen. Karten sind wichtige Plattformkonstrukte, und die Messung ihrer Nutzung und ihres Musters ist notwendig, um die Plattformnutzung zu verstehen und auf mögliche Probleme auf der Kundenseite zu achten.
+- **showCard**: Tippen Sie auf Kartenschaltflächen. Karten sind wichtige Konstrukte der Plattform, und die Messung ihrer Nutzung und ihrer Muster ist notwendig, um die Nutzung der Plattform zu verstehen und nach möglichen Problemen auf der Client-Seite Ausschau zu halten.
 - **shownReadReceiptNotice**: Der Featurehinweis mit Einstellungsoptionen, der dem Benutzer angezeigt wird.
 - **signIn** - **Anmelden** wird auf der Homepage ausgewählt, oder die Schaltfläche **Anmelden** wird angetippt.
 - **signUp** - **Kostenloses Konto erstellen** oder **Kostenlos registrieren** ist ausgewählt.
@@ -1011,6 +1014,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Das Ziel für die gleichzeitige Rufumleitung ist festgelegt.
   - Die gleichzeitige Rufumleitung ist aktiviert („Anrufe bei mir klingeln lassen“ ist aktiviert und „Auch anrufen“ ist festgelegt).
 - **skipVerificationForLink**: Der Benutzer hat ausgewählt, die Überprüfung zu überspringen.
+- **smartReply**: Die Umschaltfläche für intelligente Antworten wird angeklickt.
 - **SMSSendMessage**: Der Benutzer sendet eine SMS-Nachricht.
 - **sortChanged**: Wird ausgelöst, wenn der Benutzer die Sortierreihenfolge beim Anzeigen einer Aufgabenliste ändert.
 - **startEditing** - Schaltfläche **Bearbeiten** ausgewählt.
@@ -1044,9 +1048,9 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **switchTeamsDialogTriggered**: Ein Benutzer zeigt die Registerkarte **Schichten** an.
 - **tabActionCopyLink**: Wie Benutzer die Registerkarte „Link kopieren“ auf mobilen Geräten entdecken und verwenden.
 - **tabActionMoreOptions**: Verstehen der Verwendung von Auslassungszeichen (**...**) aus einer Registerkarte heraus.
-- **tabActionOpenInBrowser**: In Browsernutzung öffnen. Dies ist erforderlich, um zu verstehen, ob Benutzer lieber eine Registerkarte außerhalb von Teams öffnen.
+- **tabActionOpenInBrowser**: Verwendung von „In Browser öffnen“. Dies ist notwendig, um zu verstehen, ob Benutzer das Öffnen eines Tabs außerhalb von Teams bevorzugen.
 - **tabActionOpenInBrowserFromTab**: Verstehen der Nutzung von „in Browser öffnen“ aus einer Registerkarte heraus, für weitere Optionen – Auffindbarkeit und Nutzung.
-- **tabActionOpenInTeams**: In Verwendung geöffnet. Dies ist wichtig, um zu verstehen, ob die Registerkarte standardmäßig auf in Teams öffnen festgelegt werden kann.
+- **tabActionOpenInTeams**: In der Verwendung öffnen. Dies ist wichtig, um zu verstehen, ob der Tab standardmäßig zum Öffnen in Teams eingestellt werden kann.
 - **tabActionRemove**: Verstehen, wie auffindbar die Löschoption ist, sowie die Verwendung des Features.
 - **tabActionRename**: Verstehen, wie auffindbar Umbennen ist, sowie die Verwendung des Features.
 - **tabActionSetting, Android - fix**: Wie Benutzer die Registerkartenkonfiguration auf mobilen Geräten entdecken und verwenden.
@@ -1072,8 +1076,8 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **teamsDeviceCallResumed**: Ein Benutzer mit einer durch Bluetooth verbundenen Peripherie (mobile Docking-Station) reaktiviert einen gehaltenen Anruf.
 - **teamSelectedClicked**: Wenn ein Benutzer **ausgewähltes Team** für eine Arbeitszeittabelle auswählt.
 - **teamShiftPickerClicked**: Wenn ein Benutzer einen neuen Pauseneintrag hinzufügt. Das Ereignis wird protokolliert, sobald der Benutzer die Änderungen speichert.
-- **tenantSwitch**: Mandant wechseln an. Feature-Erfolgsmetriken für das MTMA (Multiple Tenant and Multiple Account)-Feature. Hilft dabei, Probleme proaktiv zu identifizieren und zu beheben und einen reibungslosen Wechsel zu ermöglichen.
-- **tenantSwitchUnsupportedError**: Vom Mandanten nicht unterstützter Fehler (wenn ein Benutzer den Fehler sieht). Feature-Erfolgsmetriken für MTMA (Multiple Tenant and Multiple Account) stellen Telemetrie rund um den Konten- oder Mandantenwechsel bereit, sodass wir Probleme proaktiv identifizieren und beheben, und einen reibungslosen Wechsel ermöglichen können.
+- **tenantSwitch**: Beim Wechsel des Mandanten. Feature-Erfolgsmetriken für das MTMA-Feature (Multiple Tenant and Multiple Account). Damit werden Probleme proaktiv erkannt und behoben und eine reibungslose Benutzererfahrung beim Umschalten gewährleistet.
+- **TenantSwitchUnsupportedError**: Tenant Unsupported Error (wenn ein Benutzer den Fehler sieht). Feature-Erfolgsmetriken für MTMA (mehrere Mandanten und mehrere Konten), bietet Telemetrie rund um Konto- oder Mandantenwechsel-Fehler, damit wir Probleme proaktiv erkennen und beheben können und eine reibungslose Benutzererfahrung beim Wechsel bieten können.
 - **timeClockClicked**: Ein Benutzer wählt die Schaltfläche **Stechuhr** auf der Registerkarte „Meine Schichten“ aus.
 - **timeOffReasonClicked**: Ermittlung, ob ein Grund für arbeitsfreie Zeit angegeben wird.
 - **timesheetAddClicked**: Wenn ein Benutzer seiner Pausenbearbeitung eine Notiz hinzufügt. Das Ereignis wird protokolliert, sobald der Benutzer die Änderungen speichert.
@@ -1109,8 +1113,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **updatePersonalTask**: Bestätigt, dass eine persönliche Aufgabe erfolgreich aktualisiert wurde.
 - **updatePlaybackSpeedVoicemail**: Der Wert für die Wiedergabegeschwindigkeit der Voicemail wird geändert.
 - **updateTask**: Bestätigt, dass die Aktion zum Aktualisieren von Aufgaben fehlgeschlagen ist.
-- **updateTaskState**: Bestätigt, dass der Aufgabenstatus aktualisiert wurde.
-Aktion.
+- **updateTaskState**: Bestätigt, dass der Aufgabenstatus aktualisiert wurde. Aktion.
 - **upgrade**: Auswählen der Schaltfläche **Upgraden** im Menü **Mehr**.
 - **uploadFile**: Ein Benutzer wählt **Upload vom Gerät** aus.
 - **uploadSelectedFile**: Wird in folgenden Situationen ausgelöst:
@@ -1186,6 +1189,9 @@ Aktion.
 - **load_smart_task_list**: Bestätigt das erfolgreiche Abrufen der Aufgaben einer intelligenten Aufgabenliste für die Aufgabenliste.
 - **rename_personal_plan**: Bestätigt die erfolgreiche Umbenennung einer persönlichen Aufgabenliste.
 - **rename_planner_plan**: Bestätigt die erfolgreiche Umbennenung einer freigegebenen Aufgabenliste.
+- **smart_reply_enabled**: Bestätigt, dass Smart Reply für den aktuellen Benutzer aktiviert ist.
+- **smart_reply_received**: Bestätigt, dass ein Smart Reply-Vorschlag empfangen wurde.
+- **smart_reply_banned**: Bestätigt, dass Smart Reply für den aktuellen Benutzer nicht angezeigt werden kann.
 - **update_planner_task_and_nav_to_view**: Bestätigt das erfolgreiche Aktualisieren eines freigegebenen Aufgabenelements und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
 - **update_personal_task_and_nav_to_view**: Bestätigt die erfolgreiche Aktualisierung eines persönlichen Aufgabenelements, und wie lange es dauert, bis ein Benutzer danach auf der Ergebnisansicht landet – **updatePlannerTask** –Bbestätigt, dass ein Benutzer eine Aufgabe in einer freigegebenen Aufgabenliste erfolgreich aktualisiert hat.
 
