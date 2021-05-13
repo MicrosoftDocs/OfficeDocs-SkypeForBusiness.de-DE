@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimierung lokaler Medien für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a85ed89eef42abca78cfdec16a9eee398ce118c
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: aab38cb7f844764faac0e9c19bc03110adac9c10
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999817"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469667"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Optimierung lokaler Medien für direktes Routing
 
@@ -334,5 +334,4 @@ Im Folgenden finden Sie eine Liste der bekannten Probleme, die derzeit bei der O
 | Teams Client wird nicht als **intern** identifiziert, wenn Teams öffentliche IP-Adresse des Kunden der Liste Vertrauenswürdige IP des Kunden entspricht. | Die Optimierung lokaler Medien setzt voraus, dass Teams Client-Subnetz einem vom Mandanten konfigurierten [Netzwerksubnetz-Subnetz entspricht.](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | Anrufskalation führt zu Gesprächsanrufen, wenn Teams-Client als intern identifiziert wird.| Deaktivieren Sie die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|
 | Anrufskalation von 1 bis 1 Anruf zwischen internen Kunden zum Mehrteileranruf mit externen Kunden/Ressourcen führt zu abgelegten Anrufen | Es wird noch an einer Lösung gearbeitt. Deaktivieren Sie alternativ die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|
-
-
+| Teams Der Benutzer hält den Anruf. Musik auf dem PSTN-Ende ab, und die Optimierung lokaler Medien funktioniert. Der Teams benutzer setzt den Anruf fort. Der Aufruf von PSTN wird fortgesetzt, aber die Optimierung der lokalen Medien funktioniert nicht, und der Aufruf wird über zentrale SBC (Proxy) fortgesetzt. | Wenn ein Benutzer einen Anruf startet, um Musik im Warteschleifen-Speicher (MoH) zu initiieren, wird er von 1:1 zu einem Anruf mit mehrerenPartys durch den Anrufcontroller eskaliert, um media controller and media processor (als AVMCU-Mixer dienen) aufzurufen, über den MoH einen benutzer erreicht, der im Halteraum war. Die Deeskalierung auf einen 1:1-Anruf nach dem Fortsetzen des Anrufs erfolgt nicht wie je nach Entwurf. Deaktivieren Sie die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|

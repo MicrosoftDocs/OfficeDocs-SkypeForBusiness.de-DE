@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Versionshinweise für Microsoft Teams-Räume lesen, in denen die kumulierten Verbesserungen der Microsoft Teams-Räume.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995293"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469547"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -29,6 +29,7 @@ In diesem Artikel werden kumulierte Verbesserungen bei Microsoft Teams-Räume.
 
 |Release |Veröffentlicht an <br/> Microsoft Store |
 |--- |--- |
+|4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
@@ -73,6 +74,14 @@ In diesem Artikel werden kumulierte Verbesserungen bei Microsoft Teams-Räume.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams-Räume und Problemlösung für Features
 
+### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
+
+In diesem Update eingeführt:
+- Windows 10 20H2-Support 
+
+> [!NOTE]
+> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams-Räume have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 wird diesen Geräten nicht angeboten. Weitere Informationen zur Unterstützung Windows Version finden Sie unter Windows 10 [Release-Support.](./rooms-lifecycle-support.md#windows-10-release-support)
+
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 In diesem Update eingeführt:
@@ -80,7 +89,6 @@ In diesem Update eingeführt:
 
 > [!NOTE]
 > GCCH-Kunden können das Upgradepaket von [Manuelles Aktualisieren eines](manual-update.md) Microsoft Teams-Räume herunterladen.
-
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 

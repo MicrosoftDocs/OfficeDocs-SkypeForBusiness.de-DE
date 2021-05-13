@@ -1,5 +1,5 @@
 ---
-title: Anpassen von Microsoft-Apps in Teams
+title: Anpassen von Apps in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059179"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337802"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 

@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Kursleitergeführte Schulung für Microsoft Teams
-summary: 'Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Schließen Sie sich uns an, um Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und live mit unseren Kursleitern zu interagieren. Um sich unsere Schulungskurse selbstständig anzusehen, besuchen Sie unsere On-Demand-Schulung für Endbenutzer. Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.'
+title: Endbenutzerschulung für Microsoft Teams
+summary: 'Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubieten, die Sie auf Teams vorbereiten. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und mit unseren Live-Kursleitern zu interagieren. Wenn Sie unsere Schulungskurse in Ihrer eigenen Zeit anzeigen können, besuchen Sie unsere on-demand-Schulung für Endbenutzer. Klicken Sie auf eine der nachstehenden Sitzungen, um sich anzumelden.'
 brand: teams
 metadata:
-  title: Kursleitergeführte Schulung für Microsoft Teams
-  description: "Hier erfahren Sie, wie Sie sich für \uFEFFkostenlose, kursleitergeführte Liveschulungen anmelden, um alles über Microsoft Teams zu erfahren."
+  title: Endbenutzerschulung für Microsoft Teams
+  description: 'Microsoft ist von der Bereitstellung kostenloser, virtueller Schulungskurse begeistert, die Ihnen bei den ersten Dreierklassen Teams. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und mit unseren Live-Kursleitern zu interagieren. Klicken Sie unten auf eine Sitzung, um sich zu registrieren, und schauen Sie sich weitere Kurse weiter unten an.'
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
@@ -16,7 +16,7 @@ highlightedContent:
       url: 'https://aka.ms/SayhelloTeams'
     - title: On-Demand-Schulung für Endbenutzer
       itemType: video
-      url: 'https://aka.ms/TeamsOnDemand'
+      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
     - title: Microsoft 365-Einführungstools
       itemType: deploy
       url: 'https://adoption.microsoft.com'
@@ -42,7 +42,7 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
       summary: 'Lernen Sie, wie Sie den besten Ansatz für die Erstellung von Arbeitsbereichen für Projekte und Arbeitsgruppen finden. (Publikum: Jeder)'
       url: 'https://aka.ms/CollaborateInTeams'
-    - title: Profitipps in Teams nutzen
+    - title: Verwenden von Tipps für Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Erfahren Sie, wie Teams Ihnen helfen kann, Ihren Arbeitstag zu organisieren und leichter mit Kollegen in Verbindung zu bleiben. (Publikum: Jeder)'
       url: 'https://aka.ms/TeamsProTips'
@@ -58,3 +58,13 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 'Ein erfolgreiches Upgrade zu Teams planen und implementieren. (Zielgruppe: IT-Spezialisten, Change Manager für die Einführung)'
       url: ./upgrade-workshops-landing-page.yml
+additionalContent:
+  sections:
+    - title: Kurse
+      items:
+        - title: Zertifizierung für Teamspezialisten
+          summary: 'Zusammenarbeit ist eine unerlässliche Fähigkeit für die heutigen Arbeitskraft. Erfahren Sie, wie die robusten Features in Microsoft Teams Ihnen ermöglichen, in Verbindung zu bleiben und effizienter mit Ihrem Team zusammen zu arbeiten.'
+          url: /learn/paths/teamwork-specialist
+        - title: Zertifizierung von Service Adoption Specialist
+          summary: 'Im Zertifizierungskurs Microsoft Service Adoption Specialist finden Sie Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Dienste in Ihrer Organisation vordingen.'
+          url: /learn/paths/m365-service-adoption

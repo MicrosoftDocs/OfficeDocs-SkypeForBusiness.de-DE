@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Rufen Sie detaillierte Informationen zu den Abmessungen und Maßen ab, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 63a9bba74b1c072a9c61885db03fa85357e034e9
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264945"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469737"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Maße
 
@@ -416,12 +416,12 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Second User ObjectId|String|Die Active Directory-Objekt-ID des Benutzers des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben. | |
 | First MAC Address|String|Die MAC-Adresse (Medienzugriffssteuerung) des Netzwerkgeräts des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.| |
 | Second MAC Address|String|Die MAC-Adresse (Medienzugriffssteuerung) des Netzwerkgeräts des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.| |
-| First Sip Uri|String|DER SIP-URI (Session Initiation Protocol) des Benutzers des ersten Endpunkts. Ausgefüllt nur für Skype for Business-Endpunkte. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.|
-| Second Sip Uri|String|Der SIP-URI des Benutzers des ersten Endpunkts. Ausgefüllt nur für Skype for Business-Endpunkte. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.|
-| First Telefon Number|String|Die Telefonnummer des Benutzers des ersten Endpunkts. Ausgefüllt nur für PSTN-Endpunkte. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.|
-| Second Telefon Number|String|Die Telefonnummer des Benutzers des zweiten Endpunkts. Ausgefüllt nur für PSTN-Endpunkte. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.|
-| First UPN|String|Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.|
-| Zweiter UPN|String|Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.| <br/>&bull; Nicht alle UserTypes verfügen über UPNs. enthalten die Dimensionen Second UserType oder Second User ObjectId, um mehr über diese Endpunkte zu erfahren. |
+| First Sip Uri|String|DER SIP-URI (Session Initiation Protocol) des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.| &bull;Ausgefüllt nur für Skype for Business-Endpunkte. <br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
+| Second Sip Uri|String|Der SIP-URI des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.| &bull;Ausgefüllt nur für Skype for Business-Endpunkte.<br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
+| First Telefon Number|String|Die Telefonnummer des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben. Die letzten vier Ziffern von PSTN-Nummern werden im AQD immer verschleiert , unabhängig von den EUII-Anzeigerechten.<br/> **Beispielwert:** +1425555****| &bull; Ausgefüllt nur für PSTN-Endpunkte. <br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
+| Second Telefon Number|String|Die Telefonnummer des Benutzers des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben. Die letzten vier Ziffern von PSTN-Nummern werden im AQD immer verschleiert , unabhängig von den EUII-Anzeigerechten.<br/> **Beispielwert:** +1425555**** | &bull; Ausgefüllt nur für PSTN-Endpunkte.<br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
+| First UPN|String|Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.| &bull; Nicht alle UserTypes verfügen über UPNs. enthalten die Dimensionen Second UserType oder Second User ObjectId, um weitere Informationen zu diesen Endpunkten zu erhalten. |
+| Zweiter UPN|String|Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.| &bull; Nicht alle UserTypes verfügen über UPNs. enthalten die Dimensionen Second UserType oder Second User ObjectId, um weitere Informationen zu diesen Endpunkten zu erhalten. |
 | First Feedback Text|String|Ausführliches Feedback, sofern vorhanden, bereitgestellt vom Benutzer des ersten Endpunkts am Ende eines Anrufs. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben. | |
 | Second Feedback Text|String| Ausführliches Feedback, sofern vorhanden, bereitgestellt vom Benutzer des zweiten Endpunkts am Ende eines Anrufs. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.|
 | First Client Endpoint Name|String|Der Computername des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen sichtbar, die EUII-Zugriff erlauben.|

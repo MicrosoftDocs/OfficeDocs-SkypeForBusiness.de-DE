@@ -19,21 +19,29 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617798"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469567"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
 Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren, andere zu unterrichten oder Workshops zu veranstalten. Hier finden Sie häufig neue Inhalte.
 
-|               |               |               |               |
+|       Symbol        | Beschreibung               |    Symbol           |Beschreibung               |
 | :------------ | :------------ | :------------ | :------------ |
-| ![Ein Symbol, das eine Hand und einen Pfeil nach oben darstellt](/office/media/icons/get-started-teams.png) | [Schneller Einstieg mit einigen Teams und Kanälen](./get-started-with-teams-quick-start.md) | ![Ein Symbol, das zwei Benutzer darstellt](/office/media/icons/users-people.png) | [Schulung für Ihre Benutzer abrufen](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![Ein Symbol, das ein Häkchen darstellt](/office/media/icons/success-teams.png) | [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![Symbol „Tasks-Zwischenablage“](/office/media/icons/task-checklist-planning-teams.png) | [Teams-Frontalunterricht: Lernen Sie bewährte Methoden und praktische Anleitungen zu gängigen Teams-Szenarien kennen](./chalk-talks-landing-page.yml) |
+| [Rollout hier starten](./get-started-with-teams-quick-start.md) | [Anzeigen Teams Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
+| [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams-Frontalunterricht: Lernen Sie bewährte Methoden und praktische Anleitungen zu gängigen Teams-Szenarien kennen](./chalk-talks-landing-page.yml) |
+
+<h2>Wichtige Schulungsangebote und Kurse</h2>
+
+|   Symbol            | Beschreibung              |  Symbol             |    Beschreibung           |
+| :------------ | :------------ | :------------ | :------------ |
+| [Unterstützung von Remotemitarbeitern in Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essentials für die IT](https://aka.ms/MicrosoftTeamsforIT) | [Verwalten der Teamzusammenarbeit für DIE IT](/learn/paths/m365-manage-team-collaboration) | [Zertifizierung von Service Adoption Specialist](/learn/paths/m365-service-adoption) |
+| [Einführung in die Zusammenarbeit in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365-zertifiziert: Teamwork-Administrator Associate](/learning/m365-teamwork-administrator.aspx) |
+
 
 <h2>Technische Schulung</h2>
 
@@ -67,7 +75,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Modul 5: Konfigurieren und erste Schritte mit Microsoft Teams-Räumen (32:27 Min.) | [Video](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
 | Modul 6: Verwalten von Microsoft Teams-Räumen, Teil 1 (18:31 Min.) | [Video](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
 | Modul 7: Verwalten von Microsoft Teams-Räumen, Teil 2 (41:06 Min.) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Modul 8: Microsoft Teams-Räume – Tipps, Tricks und Problembehandlung (18:14 Min.)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Modul 8: Microsoft Teams-Räume-Tipps, Tricks und Problembehandlung (18:14 Min.)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Ein-Kick-Beitrittsanleitungen |  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>Interaktive Handbücher</h2>
@@ -75,14 +83,14 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Titel                                                                       | Kurzbeschreibung                                                                                                                                                                                                               |  Link zum Handbuch                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identität, Zugriffsverwaltung und Bedrohungsschutz für Teams                   | Erfahren Sie, wie Sie Microsoft Admin Center und PowerShell verwenden, um Zugriffs- und Identitätsrichtlinien zu konfigurieren und den erweiterten Bedrohungsschutz von Office 365 (Office 365 ATP) für Teams zu aktivieren                                                            | [Sicherheitshandbuch für Microsoft Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
-| DLP-Richtlinien (Data Loss Prevention) für Microsoft Teams                     | Erfahren Sie, wie Microsoft Teams einer vorhandenen DLP-Richtlinie hinzugefügt und eine neue Richtlinie erstellt werden, ganz gleich, ob diese auf einer Vorlage basiert oder vollständig an die Anforderungen Ihrer Organisation an den Datenschutz angepasst ist.                        | [Teams DLP-Leitfaden](https://aka.ms/teamsdlpguide)         |
+| DLP-Richtlinien (Data Loss Prevention) für Microsoft Teams                     | Erfahren Sie, wie sie Microsoft Teams DLP-Richtlinie hinzufügen und eine neue Richtlinie erstellen, ganz gleich, ob diese auf einer Vorlage basiert oder vollständig an die Anforderungen Ihrer Organisation an den Datenschutz angepasst ist.                        | [Teams DLP-Leitfaden](https://aka.ms/teamsdlpguide)         |
 | Verwaltung der Compliance in Teams                                                | Verwenden Sie die Verwaltungszentren von Microsoft 365 Security, Microsoft 365 Compliance und Microsoft Teams sowie Windows PowerShell, um die Microsoft Teams-Richtlinien und -Einstellungen einer Office 365-Organisation zu verwalten und zu konfigurieren. | [Handbuch für die Verwaltung der Compliance in Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Advisor für Teams: Chats, Teams, Kanäle und Apps in Microsoft Teams bereitstellen | Erfahren Sie, wie Sie den Advisor für Teams nutzen können, um Ihre Umgebung zu bewerten und einen Plan für die Bereitstellung von Chats, Teams, Kanälen und Apps zu erstellen.                                                                                         |  [Handbuch für den Advisor für Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Advisor für Teams: Chats, Teams, Kanäle und Apps in Microsoft Teams bereitstellen | Erfahren Sie, wie Teams-Berater verwenden, um Ihre Umgebung zu bewerten und einen Plan für die Bereitstellung von Chats, Teams, Kanälen und Apps zu erstellen.                                                                                         |  [Handbuch für den Advisor für Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Optimierung der Teams-Verwaltung mit PowerShell und dynamischen Gruppen        | Konvertieren Sie eine Office 365-Gruppe von einer statischen Mitgliedschaft in eine dynamische und verwenden Sie Windows PowerShell, um allen Mitgliedern eine neue App-Berechtigungsrichtlinie zuzuweisen.                                                                         |  [Handbuch für die Optimierung der Teams-Verwaltung](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Verwalten von Teams und Gastzugriffen im Microsoft Teams Admin Center         | Erfahren Sie, wie Sie Microsoft Teams und Gastzugriffe für Ihr Unternehmen konfigurieren und verwalten.                                                                                                                              | [Handbuch für die Verwaltung von Teams und Gastzugriffen](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Konfigurieren des Teams-Telefonsystems: Automatische Telefonzentrale und Anrufwarteschleife                   | Gehen Sie Schritt für Schritt durch den Prozess des Erstellens und Bereitstellens einer Anrufwarteschleife und einer automatischen Telefonzentrale als Teil von Microsoft Teams-Anrufen mit dem Microsoft Teams Admin Center.                                                          |  [Handbuch für das Konfigurieren des Teams-Telefonsystems](https://aka.ms/TeamsPhoneInteractiveGuide)             |
 | Konfigurieren des Direct Routing: Verbinden von SBCs und Anrufumleitung                 | Verwenden Sie das Direct Routing des Microsoft Teams-Telefonsystems für die Integration in Ihre bestehende Telefonie-Infrastruktur.                                                                                                              | [Handbuch für das Konfigurieren von Direct Routing](https://aka.ms/DirectRoutingInteractiveGuide)          |
-| Konfigurieren der Governance in Microsoft Teams                                     | Erfahren Sie, wie Sie eine Teams-Nachrichtenaufbewahrungsrichtlinie für Ihr Unternehmen erstellen und einzelne Teams archivieren, löschen und wiederherstellen                                                                                   |  [Handbuch für das Konfigurieren der Governance in Microsoft Teams](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
+| Konfigurieren der Governance in Microsoft Teams                                     | Erfahren Sie, wie Sie eine Aufbewahrungsrichtlinie Teams Messaging für Ihre Organisation erstellen und wie Sie einzelne Nachrichten archivieren, löschen und wiederherstellen Teams                                                                                   |  [Handbuch für das Konfigurieren der Governance in Microsoft Teams](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungen                          | Gehen Sie Schritt für Schritt durch den Prozess der Bereitstellung des Besprechungs-Workloads für Microsoft Teams.                                                                                                                                       |  [Handbuch für das Konfigurieren und Bereitstellen von Microsoft Teams-Besprechungen](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Konfigurieren von Audiokonferenzen für Microsoft Teams                            | Entdecken Sie die Funktionalitäten von Audiokonferenzen in Teams und erfahren Sie, wie Sie Konferenzbrücken und Einwahlrufnummern zuweisen.                                                                                          |  [Handbuch für das Konfigurieren von Audiokonferenzen für Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion                           | Erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre Mitarbeiter in Service und Produktion konfigurieren und bereitstellen.                                                                                                                  | [Handbuch für das Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion](https://aka.ms/ConfigFLWInteractiveGuide)              |
@@ -100,7 +108,3 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 - [Tutorial: Audiokonferenzen in Teams](tutorial-audio-conferencing.yml)
 - [Lernprogramm: Grundlegendes zu Anrufen in Microsoft Teams](tutorial-calling-in-teams.yml)
 
-<h2>Kurse</h2>
-
-- [Die Zusammenarbeit in Microsoft Teams](/learn/paths/m365-manage-team-collaboration)
-- [Microsoft Service Adoption Specialist](/learn/paths/m365-service-adoption/)

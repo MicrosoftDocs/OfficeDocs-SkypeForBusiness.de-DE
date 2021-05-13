@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing planen, wodurch Sie den Pfad des Mediendatenverkehrs kürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9b6624a81994c1d6797ed996fbcc233fe75f8907
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308354"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469627"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -296,7 +296,7 @@ Der Portbereich des Teams Transport relays (gilt für alle Umgebungen) wird in d
 | Verkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Definiert im SBC |
-| UDP/SRTP | SBC | Transport Relay | Definiert im SBC | 50 000 – 59 999, 3478, 3479     |
+| UDP/SRTP | SBC | Transport Relay | Definiert im SBC | 50 000 – 59 999, 3478-3481     |
 
 
 > [!NOTE]
@@ -304,11 +304,11 @@ UDP/SRTP | Transport Relay | SBC | 50 000 -59 999    | Definiert im SBC |
 > 
 > - v4, die nur für Port 50 000 bis 59 999 funktionieren kann
 > 
-> - v6, die mit den Ports 3478, 3479 funktioniert
+> - v6, funktioniert mit den Ports 3478-3481
 
 Derzeit unterstützt die Medienumgehung nur die v4-Version von Transport relays. In Zukunft wird v6 unterstützt. 
 
-Sie müssen die Ports 3478 und 3479 für den Übergang öffnen. Wenn Microsoft die Unterstützung für v6-Transport relays mit Medienumgehung einstellt, müssen Sie Ihre Netzwerkgeräte oder SBCs nicht neu konfigurieren. 
+Sie müssen die Ports 3478-3481 für den Übergang öffnen. Wenn Microsoft die Unterstützung für v6-Transport relays mit Medienumgehung einstellt, müssen Sie Ihre Netzwerkgeräte oder SBCs nicht neu konfigurieren. 
 
 ### <a name="requirements-for-using-media-processors"></a>Anforderungen für die Verwendung von Medienprozessoren
 
@@ -333,8 +333,8 @@ Der Portbereich der Medienprozessoren (gilt für alle Umgebungen) ist in der fol
 
 | Verkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Medienprozessor | SBC | 3478, 3479 und 49 152 – 53 247    | Definiert im SBC |
-| UDP/SRTP | SBC | Medienprozessor | Definiert im SBC | 3478, 3479 und 49 152 – 53 247     |
+UDP/SRTP | Medienprozessor | SBC | 3478-3481 und 49 152 – 53 247    | Definiert im SBC |
+| UDP/SRTP | SBC | Medienprozessor | Definiert im SBC | 3478-3481 und 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Konfigurieren separater Trunks für die Medienumgehung und die Nicht-Medienumgehung  
 

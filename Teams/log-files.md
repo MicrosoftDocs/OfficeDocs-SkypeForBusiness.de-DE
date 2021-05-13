@@ -1,10 +1,10 @@
 ---
 title: Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,26 +13,29 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Hier erhalten Sie Informationen zu den von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, zu deren Speicherort und wie diese für die Problembehandlung eingesetzt werden können.
+description: Erfahren Sie mehr über die von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokolle, wo sie gefunden werden und wie sie bei der Überwachung und Problembehandlung helfen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264875"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337742"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams
-=================================================
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Verwenden von Protokolldateien zur Überwachung und Problembehandlung Microsoft Teams
 
-Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt werden, und diese können verwendet werden, um die Problembehandlung Microsoft Teams:
+Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt werden, und diese können zur Unterstützung bei der Überwachung und Problembehandlung bei Teams:
 
--   Debugprotokolle
+-   [Debugprotokolle](#debug-logs)
 
--   Medienprotokolle
+-   [Medienprotokolle](#media-logs)
 
--   Desktopprotokolle
+-   [Desktopprotokolle](#desktop-logs)
+
+In diesem Artikel werden die drei Protokolle und ihre Verwendung beschrieben. 
+
+Informationen zur Problembehandlung bei bestimmten Problemen finden Sie unter: [Teams Problembehandlung.](/MicrosoftTeams/troubleshoot/teams) Informationen zum Kontaktieren des Support finden Sie unter [Support erhalten.](/microsoft-365/business-video/get-help-support)
 
 Beim Erstellen einer Supportanfrage beim Microsoft-Support benötigt der Supporttechniker die Debugprotokolle. Wenn Sie die Debugprotokolle vor dem Erstellen der Supportanfrage zur Hand haben, kann Microsoft schnell mit der Problembehandlung beginnen. **Medien-** **oder Desktopprotokolle** sind nur erforderlich, wenn sie von Microsoft angefordert werden.
 
@@ -53,8 +56,7 @@ In der folgenden Tabelle sind die verschiedenen Clients und die zugehörigen Pro
 
 Eine vollständige Liste der unterstützten Betriebssysteme und Browser finden Sie unter [Beziehen von Clients für Microsoft Teams](get-clients.md).
 
-<a name="debug-logs"></a>Debugprotokolle
----------------------------
+## <a name="debug-logs"></a>Debugprotokolle
 
 Dies sind die am häufigsten verwendeten Protokolle, die für alle Microsoft-Supportfälle erforderlich sind. Debugprotokolle werden von den Windows- und Mac-Desktopclients sowie von browserbasierten Clients erstellt. Die Protokolle sind textbasierte und werden von unten nach oben gelesen. Sie können mit jedem textbasierten Editor gelesen werden, und beim Anmelden beim Client werden neue Protokolle erstellt.
 
@@ -90,8 +92,7 @@ Die Debugprotokolle werden automatisch in die folgenden Ordner heruntergeladen:
 
 -   Browser: Sie werden zum Speichern des Debugprotokolls in das Standardverzeichnis aufgefordert
 
-<a name="media-logs"></a>Medienprotokolle
----------------------------
+## <a name="media-logs"></a>Medienprotokolle
 
 Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe in Teams Besprechungen. Sie sind für Supportfälle erforderlich, die mit anrufbezogenen Problemen verknüpft sind.
 
@@ -119,8 +120,7 @@ Hier ist eine Liste der generierten Protokolldateien und der Informationen, die 
 |Debug-0-s2790420889.blog    | Enthält Informationen zum Medien-Agent, einschließlich der Qualität des Renderns.          |
 |tscalling-0-2061129496.blog   |Zeichnet Ereignisse in der ts-Calling-API auf.       |
 
-<a name="desktop-logs"></a>Desktopprotokolle
----------------------
+## <a name="desktop-logs"></a>Desktopprotokolle
 
 Desktopprotokolle (auch als Bootstrapperprotokolle bezeichnet) enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser auftreten. Wie Medienprotokolle werden diese Protokolle nur benötigt, wenn sie von Microsoft angefordert werden. Die Protokolle sind textbasierte Und können mit jedem textbasierten Editor in einem Top-down-Format gelesen werden.
 
@@ -143,8 +143,7 @@ Linux:
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-<a name="browser-trace"></a>Browser-Ablaufverfolgung
----------------------------
+## <a name="browser-trace"></a>Browser-Ablaufverfolgung
 
 Bei einigen Fehlerkategorien müssen Sie vom Microsoft-Support möglicherweise eine Browser ablaufverfolgung erfassen. Diese Informationen können wichtige Details zum Zustand des Teams, wenn der Fehler auftritt.
 

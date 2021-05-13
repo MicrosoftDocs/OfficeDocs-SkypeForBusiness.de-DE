@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Ihre benutzerdefinierten Apps genehmigen, die mithilfe der API Teams-Übermittlung von Apps in Microsoft Teams.
-ms.openlocfilehash: 8c12d93a0b4420fd248064c69308e8049dc6326f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116973"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337792"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten App, die über die API für Teams-Übermittlung von Apps übermittelt wird
 
@@ -133,24 +133,6 @@ Beachten Sie Folgendes:
 - Wenn ein Entwickler eine App übermittelt und die Anforderung aussteht, kann nur dieser Entwickler ein Update an die App übermitteln. Andere Entwickler können ein Update erst dann übermitteln, wenn die App genehmigt wurde.
 
 Weitere Informationen zur Verwendung der -API Graph zum Aktualisieren von Apps finden Sie <a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">hier.</a>
-
-### <a name="update-experience-for-users"></a>Updateerfahrung für Benutzer
-
-In den meisten Fällen wird nach der Veröffentlichung eines App-Updates die neue Version automatisch für Benutzer angezeigt. Es gibt jedoch einige Updates des Manifests Microsoft Teams, <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">die</a> die Benutzerakzeptanz erfordern, um abgeschlossen zu werden:
-
-* Ein Bot wurde hinzugefügt oder entfernt
-* Die "botId"-Eigenschaft eines vorhandenen Bots wurde geändert
-* Die IsNotificationOnly-Eigenschaft eines vorhandenen Bots wurde geändert
-* Die Eigenschaft "supportsFiles" des Bots wurde geändert
-* Eine Nachrichtenerweiterung wurde hinzugefügt oder entfernt.
-* Ein neuer Connector wurde hinzugefügt
-* Eine neue statische Registerkarte wurde hinzugefügt
-* Eine neue konfigurierbare Registerkarte wurde hinzugefügt
-* Eigenschaften in "webApplicationInfo" wurden geändert
-
-![Neue Version verfügbar](media/manage-your-custom-apps-update1.png)
-
-![Upgradeoption für eine App](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

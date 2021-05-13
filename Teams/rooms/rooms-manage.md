@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie laufende Wartungs- und Betriebsvorgänge entwickeln und ausführen, um sicherzustellen, dass Microsoft Teams-Räume-System für Ihre Benutzer verfügbar sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: deb538c8b249faddf16096f052bca4020da6f6c0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237981"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469597"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams-Räume verwalten
 
@@ -28,7 +28,7 @@ Wenn Sie über Microsoft Teams-Räume zertifizierten Geräten in Ihrer Organisat
 
 Mit Microsoft Teams Admin Center können Sie:
 
-- Ausführen von Geräteverwaltung wie Neustarten oder Blockieren von Geräten und Herunterladen von Geräteprotokollen
+- Ausführen der Geräteverwaltung wie Neustarten von Geräten und Herunterladen von Geräteprotokollen
 - Anwenden Teams spezifischen Einstellungen
 - Überprüfen des Integritätsstatus Microsoft Teams Raumgeräten und ihren Peripheriegeräten, einschließlich Kameras, Anzeigen, Mikrofonen und so weiter
 - Überprüfen der aktuellen und vergangenen Besprechungsaktivität (z. B. Details zur Anrufqualität, Netzwerkinte health und Konnektivität und Anzahl der Teilnehmer)
@@ -101,30 +101,16 @@ Wenn Sie mehrere Geräte auswählen, werden für Einstellungen, die die Massenbe
 > [!CAUTION]
 > Geräte, die zum Zeitpunkt eines Neustarts verwendet werden, sind für die Dauer des Neustartvorgangs nicht mehr verfügbar. Sie werden von ihren in Bearbeitungen ausgeführten Besprechungen getrennt und stehen nicht zur Verfügung, um an neuen Besprechungen teilzunehmen.
 
-### <a name="remove-or-block-a-device"></a>Entfernen oder Blockieren eines Geräts
+### <a name="remove-device"></a>Gerät entfernen
 
-Wenn Sie **ein** Gerät entfernen, wird das Gerät aus Ihrer Organisation entfernt und nicht mehr in Ihrer Liste der Teams-Räume-Geräte im Teams Admin Center angezeigt. 
+Wenn Sie ein Gerät entfernen, wird das Gerät aus Ihrer Organisation entfernt und nicht mehr in Ihrer Liste der Teams-Räume-Geräte im Teams Admin Center angezeigt.
 
-Wenn Sie **ein Gerät** blockieren, Teams sie nicht mehr mit dem Gerät kommunizieren. Blockierte Geräte werden nicht gesendet, auch wenn sie in einer Gruppe von Geräten enthalten sind, die in Massen bearbeitet werden. Es wird weiterhin in Ihrer Liste der Teams-Räume mit dem Status Blockiert **aufgeführt.**
-
-Unabhängig davon, ob ein Gerät blockiert oder entfernt wurde, wird es, sofern es noch mit einem gültigen Benutzernamen und Kennwort konfiguriert ist, automatisch erneut zur Liste Ihrer Teams-Räume-Geräte hinzugefügt, wenn es eine Verbindung mit Microsoft 365.
+Wenn Sie ein Gerät entfernen und es weiterhin mit einem gültigen Benutzernamen und Kennwort konfiguriert ist, wird es automatisch erneut zur Liste Ihrer Teams-Räume-Geräte hinzugefügt, wenn es erneut eine Verbindung mit Microsoft 365 herstellt.
 
 Gehen Sie wie folgt vor, um ein oder mehrere Geräte zu entfernen:
 
 1. Wechseln Sie **zu Geräte**  >  **Teams-Räume** und wählen Sie die Geräte aus, die Sie entfernen möchten.
 1. Wählen Sie **Entfernen** aus.
-
-Gehen Sie wie folgt vor, um ein Gerät zu blockieren:
-
-1. Wechseln Sie **zu**  >  **geräte Teams-Räume** und wählen Sie den Namen des Geräts aus, das Sie blockieren möchten.
-1. Wählen Sie auf der Seite mit den **Gerätedetails** in der oberen rechten Ecke der Seite Aktionen aus.
-1. Wählen Sie **Blockieren aus.**
-
-Gehen Sie zum Aufheben der Blockierung eines Geräts wie folgt vor:
-
-1. Wechseln Sie **zu**  >  **geräte Teams-Räume** und wählen Sie den Namen des Geräts aus, das Sie blockieren möchten.
-1. Wählen Sie auf der Seite mit den **Gerätedetails** in der oberen rechten Ecke der Seite Aktionen aus.
-1. Wählen Sie **Blockierung aufheben aus.**
 
 ## <a name="download-device-logs"></a>Herunterladen von Geräteprotokollen
 
