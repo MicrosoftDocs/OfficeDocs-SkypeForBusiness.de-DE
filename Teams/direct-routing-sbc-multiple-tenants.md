@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Session Border Controller (SBC) konfigurieren, um mehrere Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber zu verwenden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 742b02709585e9a25b170bc99aab3d1939d63f10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096531"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486379"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -243,6 +243,8 @@ Es wurden zwei neue Entitäten eingeführt:
 -    Die Optionen werden nur an den FQDN des Netzbetreiberstamms gesendet. Der Integritätsstatus des Netzbetreiberstamms wird auf alle abgeleiteten Trunks angewendet und für Routingentscheidungen verwendet. Hier finden Sie weitere Informationen [zu den Optionen für das Direct-Routing.](./direct-routing-monitor-and-troubleshoot.md)
 -    Der Netzbetreiber kann den Trunk des Netzbetreibers entleeren, und alle abgeleiteten Trunks werden ebenfalls entleert. 
  
+> [!NOTE]
+> Auf den Netzbetreiberstamm angewendete Regeln für die Nummernübersetzung gelten nicht für abgeleitete Trunks. Dies ist ein bekanntes Problem. Als Alternative müssen für jeden Kunden mandantenweise Übersetzungsregel für Zahlen erstellt werden.
 
 **Migration vom vorherigen Modell zum Carrier Trunk**
  

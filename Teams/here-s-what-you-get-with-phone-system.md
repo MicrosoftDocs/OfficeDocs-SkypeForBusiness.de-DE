@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Hier erhalten Sie Informationen zu den Features, der Verfügbarkeit und erfahren, wie Sie ihr Microsoft-Telefon für Ihr Unternehmen planen und einrichten. '
-ms.openlocfilehash: 877c7d49710821632477803cbc36c8009411cd3a
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: eba13d07c41af8b449d0164542c4d241b1b54f66
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469727"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486359"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Vorteile des Telefonsystems
 
@@ -52,7 +52,7 @@ Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, steh
 |Anruf annehmen/initiieren (nach Name und Nummer)  <br/> |Ermöglicht Es Benutzern, eingehende Anrufe per Touchanruf zu beantworten und ausgehende Anrufe entweder durch Wählen der vollständigen Telefonnummer oder durch Klicken auf einen Namen im Client zu platzieren.  <br/> |
 |[Anruf weiterleitungsoptionen und gleichzeitiges Anrufen](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Ermöglicht Benutzern das Einrichten von Weiterleitungsregeln, damit Anrufe überall hin gehen können oder Anrufe an Kollegen oder an Voicemail weitergeleitet werden können.  <br/> |
 |[Abholen und Weiterleiten von Gruppenanrufen an eine Gruppe](call-sharing-and-group-call-pickup.md) <br/> | Ermöglicht Es Benutzern, eingehende Anrufe mit Kollegen zu teilen, damit die Kollegen Anrufe beantworten können, die während der Benutzer verfügbar sind. Weniger störend für Empfänger als andere Arten der Anruffreigabe (wie Anruf weiterleitung oder gleichzeitiges Klingeln), da Benutzer konfigurieren können, wie sie über einen eingehenden freigegebenen Anruf benachrichtigt werden möchten. |
-|[Durch übertragen eines Anrufs und durch durch eine Weisungsüberweisung](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Ermöglicht Benutzern, Anrufe an eine andere Person weiter zu tätigen. Oder wenn sie das Büro verlassen müssen, die Unterhaltung aber fortsetzen möchten, können sie die Anrufe von ihrem PC oder IP-Telefon auf ihr Mobiltelefon übertragen.  <br/> |
+|[Durch übertragen eines Anrufs und durch durch eine Weisungsüberweisung](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Ermöglicht Benutzern, Anrufe an eine andere Person weiter zu tätigen. Oder wenn sie das Büro verlassen müssen, die Unterhaltung aber fortsetzen möchten, können sie die Anrufe von ihrem PC oder IP-Telefon auf ihr Mobiltelefon übertragen.  <br/> Beachten Sie, *dass Benutzer sprachfähig* sein müssen, um übertragene Anrufe von einem anderen Benutzer empfangen zu können. |
 |[Übertragung an Voicemail im Gespräch*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Ermöglicht Benutzern das Übertragen von Nachrichten an die Voicemail während eines Anrufs. |
 |[Parken von Anrufen und Holen](call-park-and-retrieve.md)  <br/> | Ermöglicht Benutzern das In-Halten eines Anrufs im Teams-Dienst in der Cloud. Wenn ein Anruf geparkt wird, generiert der Dienst einen eindeutigen Code für den Anrufabruf. Der Benutzer, der den Anruf geparkt hat, oder eine andere Person kann dann diesen Code und eine unterstützte App oder ein unterstütztes Gerät verwenden, um den Anruf abzurufen. <br/> |
 |Telefonnummer über Suche anrufen  <br/> | Ermöglicht Benutzern das Anrufen über das Suchfeld, indem sie den Befehl /call verwenden und einen Namen oder eine Nummer angeben. <br/> |

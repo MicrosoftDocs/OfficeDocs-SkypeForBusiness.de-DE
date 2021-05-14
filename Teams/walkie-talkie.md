@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
+ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097461"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52479072"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie-Talkie-App in Microsoft Teams
 
@@ -35,9 +35,7 @@ Mit Walkie-Talkie in Teams können Frontline-Mitarbeiter jetzt sicher mit einer 
 
 ### <a name="deploying-walkie-talkie"></a>Bereitstellen von Walkie-Talkie
 
-Walkie-Talkie ist derzeit nicht vorinstalliert. Um dieses Feature für Benutzer in Ihrer Organisation zu aktivieren, [](teams-app-setup-policies.md)müssen Sie Walkie-Talkie der App-Setuprichtlinie, die Benutzern zugewiesen ist, aus dem Teams   Admin Center [hinzufügen.](https://admin.teams.microsoft.com/)
-
-Nach der Aktivierung wird Walkie-Talkie innerhalb von 48 Stunden in der Android-App verfügbar.
+Derzeit ist Walkie-Talkie für Android-Geräte mit Google Mobile Services (GMS) verfügbar und nicht vorinstalliert. Um dieses Feature für Benutzer in Ihrer Organisation zu aktivieren, [](teams-app-setup-policies.md)müssen Sie Walkie-Talkie der App-Setuprichtlinie, die Benutzern zugewiesen ist, aus dem Teams   Admin Center [hinzufügen.](https://admin.teams.microsoft.com/) Nach der Aktivierung wird Walkie-Talkie innerhalb von 48 Stunden in der Android-App verfügbar.
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Hinzufügen von Walkie-Talkie zu Ihrer App-Liste
 
@@ -66,8 +64,8 @@ Walkie-Talkie in Teams erfordert Eine Internetverbindung und unter den Netzwerkb
 Wie bereits erwähnt, hat die Qualität der Netzwerkkonnektivität großen Einfluss auf die Qualität von Echtzeitmedien über ein IP-Netzwerk, insbesondere durch die Menge der:
 
 - **Latenz –** Dies ist die Zeit, die benötigt wird, um ein IP-Paket von Punkt A zu Punkt B im Netzwerk zu erhalten. Diese Verzögerung bei der Netzwerkverteilung ist im Wesentlichen an den physischen Abstand zwischen den beiden Punkten und die Lichtgeschwindigkeit gebunden, einschließlich des mehr Aufwands, der von den verschiedenen zwischen den Punkten hin und weg genommenen Routern genommen wird. Latenz wird als Round-Trip-Zeit (Round-Trip Time, RTT) gemessen.
+- **Jitter zwischen Ankunftszeit** – Dies ist die durchschnittliche Änderung der Verzögerung zwischen aufeinander folgenden Paketen.
 - **Paketverlust** – Dies wird häufig als Prozentsatz der Pakete definiert, die in einem bestimmten Zeitfenster verloren gehen. Der Paketverlust wirkt sich direkt auf die Audioqualität aus – von kleinen, einzelnen verlorenen Paketen, die fast keine Auswirkungen haben, bis hin zu Aufbruchsverlusten, die zu einer vollständigen Audioaufnahme führen.
-- **Jitter** – Dies ist die durchschnittliche Änderung der Verzögerung zwischen aufeinander folgenden Paketen.
 
 Die erwartete Datennutzung von Walkie-Talkie beträgt ca. 20 KB/s beim Senden oder Empfangen von Audio. Im Leerlauf ist die erwartete Datennutzung aus Walkie-Talkie unerheblich.
 
@@ -75,13 +73,15 @@ Die erwartete Datennutzung von Walkie-Talkie beträgt ca. 20 KB/s beim Senden od
 
 Mitarbeiter in der Frontlinie müssen häufig Walkie-Talkie-Anrufe sprechen und empfangen, auch wenn ihre Telefone gesperrt sind. Diese Erfahrung ist über spezialisierte Geräte mit einer dedizierten PTT-Schaltfläche möglich.
 
-- Headsets
-  - Verkabelte Headsets[(Klein Electronic)](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-  - Drahtlose Headsets[(Jabra BlueParrott)](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-- Zerklüftete Telefone
-  - Samsung Galaxy XCover Pro
-    - [Weitere Informationen.](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)
-    - [Einrichtungshandbuch](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm).
+- **Headsets**
+  - Drahtlose Headsets 
+    - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+  - Verkabelte Headsets 
+    - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+- **Zerklüftete Telefone**
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), Galaxy [XCover 5,](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy) [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+    -  Manuelles Setup – Navigieren Teams installiertem Ordner zu Einstellungen > erweiterte Features > XCover/Active-Schlüssel. Aktivieren Sie "Control XCover key with app", und wählen Sie "Teams" aus.
+    -  [MDM-Setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
 > Diese Geräte sind nicht Teams zertifiziert. Sie wurden für die Zusammenarbeit mit Teams Walkie-Talkie überprüft.
