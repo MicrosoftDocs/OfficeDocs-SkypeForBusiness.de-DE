@@ -28,7 +28,7 @@ ms.custom:
 - seo-marvel-jun2020
 ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
 ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51760598"
@@ -76,7 +76,7 @@ Nutzen Sie die vollständige Besprechungsplattform in Microsoft Teams, um virtue
 
 ## <a name="teams-policy-packages"></a>Teams-Richtlinienpakete
 
-Wenden Sie Teams-Richtlinienpakete an, um zu definieren, welche unterschiedlichen Rollen in Teams verwendet werden können. Geben Sie z. B. Richtlinien für folgende Rollen an:
+Wenden Sie Teams-Richtlinienpakete an, um zu definieren, was unterschiedlichen Rollen in Teams tun können. Legen Sie beispielsweise Richtlinien fest für:
 
 - Klinikmitarbeiter wie z. B. registrierte Krankenschwestern, Krankenpfleger, Ärzte und Sozialarbeiter, damit sie voll auf Chats, Anrufe, Schichtverwaltung und Besprechungen zugreifen können.
 - Information Workers in Ihrer Organisation im Gesundheitswesen, z. B. IT-Personal, Informatiker, Mitarbeiter der Finanzabteilung und Compliance-Beauftragte, können Vollzugriff auf Chats, Anrufe und Besprechungen haben.
@@ -110,9 +110,9 @@ Bringen Sie Ihr Gesundheitsteam zusammen, um die Pflege zu koordinieren und mit 
 Microsoft Teams ermöglicht Ärzten, Klinikern, Krankenschwestern und anderen Mitarbeitern eine effiziente Zusammenarbeit mit den in Microsoft Teams enthaltenen Funktionen für die Zusammenarbeit, wie z. B.:
 
 - Einrichten von Teams und Kanälen für Ihre Gesundheitsteams und Information Worker. Verwenden von Kanälen mit Registerkarten als eine Möglichkeit zur Strukturierung ihrer Arbeit, mit zusätzlicher Hilfe von Registerkarten, an die sie Informationsquellen anheften können.
-- Chatten, Posten von Nachrichten und Kommunizieren. Ihr Team kann beständige Unterhaltungen zu verschiedenen Patienten führen, die Aufmerksamkeit benötigen.
-- Rufen Sie Mitglieder des Gesundheitsteams an, und besprechen Sie sich. Richten Sie einzelne Besprechungen ein oder verwenden Sie Kanalbesprechungen, um tägliche Besprechungen zu verwalten, beides mit den leistungsstarken Audio-, Video-, Bildschirmfreigabe-, Aufzeichnungs- und Transkriptionsfunktionen von Teams.
-- Speichern und Freigeben von Dateien und Dokumenten. Ihr Gesundheitsteam ist Teil eines einzelnen virtualisierten Teams, das an Office-Dokumenten zusammenarbeiten kann.
+- Chatten Sie, schreiben Sie Nachrichten und kommunizieren Sie. Ihr Team kann anhaltende Gespräche über verschiedenen Patienten führen, die Aufmerksamkeit benötigen.
+- Rufen Sie Mitglieder des Gesundheitsteams an und treffen Sie diese. Richten Sie individuelle Besprechungen ein, oder verwenden Sie Kanalbesprechungen, um tägliche Besprechungen zu verwalten, beides mit den leistungsstarken Audio-, Video-, Bildschirmfreigabe-, Aufzeichnungs- und Transkriptionsfunktionen von Teams.
+- Speicher Sie Dateien und Dokumente und geben Sie diese frei. Ihr Gesundheitsteam ist Teil eines einzelnen virtualisierten Teams, das an Office-Dokumenten zusammenarbeitet.
 
 Darüber hinaus kann Ihr Team Apps in Teams verwenden, um Folgendes zu tun:
 
@@ -128,9 +128,9 @@ Darüber hinaus kann Ihr Team Apps in Teams verwenden, um Folgendes zu tun:
 
 Die Listen-App in Microsoft Teams hilft Benutzern in Ihrer Organisation beim Nachverfolgen von Informationen und beim Organisieren von Arbeitsabläufen. Die App ist für alle Microsoft Teams-Benutzer vorinstalliert und steht in jedem Team und Kanal als Registerkarte zur Verfügung. Listen können neu erstellt werden, aus vordefinierten Vorlagen oder durch Importieren von Daten in Excel.
 
-Health teams can use the Patients template to started. Sie können Listen erstellen, um die Bedürfnisse und den Status der Patienten nachzuverfolgen. Vorhandene Patientendaten in Excel-Tabellen können integriert werden, um in Teams eine Liste zu erstellen. Diese Listen können für Szenarien wie Visiten und Patientenüberwachung verwendet werden, um die Pflege zu koordinieren.
+Gesundheitsteams können für die ersten Schritte die Vorlage "Patienten" verwenden. Sie können Listen erstellen, um die Bedürfnisse und den Status der Patienten nachzuverfolgen. Vorhandene Patientendaten in Excel-Tabellen können integriert werden, um in Teams eine Liste zu erstellen. Diese Listen können für Szenarien wie Visiten und Patientenüberwachung verwendet werden, um die Pflege zu koordinieren.
 
-So erstellt beispielsweise eine Pflegefachkraft eine Patientenliste in einem Team, das alle Mitglieder des Gesundheitsteams umfasst. Während der Visite greift das Gesundheitsteam über seine Mobilgeräte auf Teams zu und aktualisiert die Patienteninformationen in der Liste, die alle Teammitglieder einsehen können, um auf dem gleichen Stand zu bleiben. Bei Visiten, bei denen sich das Gesundheitsteam versammelt, um wichtige Gesundheitsleistungskennzahlen zu besprechen und auszuwerten, um sicherzustellen, dass sich ein Patient auf einem guten Weg zur Entlassung befindet, können sie diese Informationen mithilfe von Teams auf einem großen Bildschirm teilen. Mitarbeiter des Gesundheitsteams, die sich nicht vor Ort befinden, können remote teilnehmen.
+Eine verantwortliche Krankenschwester erstellt beispielsweise eine Patientenliste in einem Team, welche alle Mitglieder des Gesundheitsteams einschließt. Während der Visite greift das Gesundheitsteam über seine Mobilgeräte auf Teams zu und aktualisiert die Patienteninformationen in der Liste, die alle Teammitglieder einsehen können, um auf dem gleichen Stand zu bleiben. Bei Visiten, bei denen sich das Gesundheitsteam versammelt, um wichtige Gesundheitsleistungskennzahlen zu besprechen und auszuwerten, um sicherzustellen, dass sich ein Patient auf einem guten Weg zur Entlassung befindet, können sie diese Informationen mithilfe von Teams auf einem großen Bildschirm teilen. Mitglieder des Gesundheitsteams, die nicht vor Ort sind, können von Remote teilnehmen.
 
 Hier ist eine Beispielliste, die für Patientenvisiten eingerichtet wurde.
 
@@ -140,7 +140,7 @@ Weitere Informationen finden Sie unter [Verwalten der Listen-App für Ihre Organ
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Nachverfolgen und Überwachen von Aufgaben mit der Tasks-App
 
-Verwenden Sie [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) in Teams, um Aufgaben für das gesamte Gesundheitsteam nachzuverfolgen. Ihr Gesundheitsteam kann Aufgaben auf jedem Gerät, auf dem Teams ausgeführt wird, jederzeit erstellen, zuweisen und planen, Aufgaben kategorisieren und den Status aktualisieren. IT-Profis und Administratoren können Aufgaben auch in bestimmten Teams für Ihre Organisation veröffentlichen. So könnten Sie beispielsweise eine Reihe von Aufgaben für neue Sicherheitsprotokolle oder einen neuen Aufnahmeschritt veröffentlichen, der in einem Krankenhaus verwendet werden soll.
+Verwenden Sie [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) in Teams, um Aufgaben für das gesamte Gesundheitsteam nachzuverfolgen. Ihr Gesundheitsteam kann Aufgaben auf jedem Gerät, auf dem Teams ausgeführt wird, jederzeit erstellen, zuweisen und planen, Aufgaben kategorisieren und den Status aktualisieren. IT-Profis und Administratoren können auch Aufgaben für bestimmte Teams in Ihrer Organisation veröffentlichen. Sie können beispielsweise eine Reihe von Aufgaben für neue Sicherheitsprotokolle oder einen neuen Aufnahmeschritt veröffentlichen, welche im gesamten Spital zu verwenden sind.
 
 Weitere Informationen finden Sie unter [Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams](../../manage-tasks-app.md).
 

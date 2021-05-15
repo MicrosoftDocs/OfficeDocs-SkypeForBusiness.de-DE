@@ -447,6 +447,14 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams-Liveereignis-Nutzungsbericht
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+      - name: 'Protokolldateien, Dienstzustand und Support'
+        items:
+          - name: Verwenden Sie Protokolldateien zur Überwachung und Problembehebung in Teams
+            href: log-files.md
+          - name: Überprüfen der Dienstintegrität für Teams
+            href: service-health.md
+          - name: So finden Sie Ihre Support-PIN
+            href: support-pin.md
   - name: 'Chat, Teams und Kanäle'
     items:
       - name: Ihre Bereitstellung planen
@@ -1363,6 +1371,8 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: Apps in Teams anpassen
             href: customize-apps.md
+          - name: Aktualisieren der Benutzererfahrung von Apps
+            href: apps-update-experience.md
   - name: Branchen- und Regierungsrichtlinien
     items:
       - name: Übersicht

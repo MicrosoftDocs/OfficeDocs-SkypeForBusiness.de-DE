@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 77ebc7abc73163bfdc9804d22efa12ade510d925
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959482"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469617"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -36,7 +36,7 @@ Ein privater Kanal ist zum Beispiel in diesen Szenarien nützlich:
 - Eine Gruppe von Personen in einem Team möchte einen fokussierten Raum für die Zusammenarbeit nutzen, ohne ein separates Team erstellen zu müssen.
 - Eine Untergruppe von Personen in einem Team möchte einen privaten Kanal nutzen, um vertrauliche Informationen, wie z. B. Budgets, Ressourcen, strategische Positionierung usw. zu besprechen.
 
-Ein Schloss-Symbol zeigt einen privaten Kanal an. Nur Mitglieder privater Kanäle können die privaten Kanäle, zu denen sie hinzugefügt wurden, anzeigen und an ihnen teilnehmen.
+Ein Schlüsselsymbol weist auf einen privaten Kanal hin. Nur Mitglieder privater Kanäle können die privaten Kanäle, zu denen sie hinzugefügt wurden, anzeigen und an ihnen teilnehmen.
 
 Wenn ein privater Kanal erstellt wird, ist er mit dem übergeordneten Team verbunden und kann nicht in ein anderes Team verschoben werden. Außerdem können private Kanäle nicht in Standardkanäle umgewandelt werden und umgekehrt.
 
@@ -120,6 +120,8 @@ Jedes Team kann maximal 30 private Kanäle nutzen, und jeder private Kanal kann 
 Wenn Sie ein Team aus einem bestehenden Team erstellen, werden private Kanäle des bestehenden Teams nicht übernommen.
 
 Benachrichtigungen aus privaten Kanälen sind derzeit in E-Mails zu verpassten Aktivitäten nicht eingeschlossen.
+
+Aufbewahrungsrichtlinien werden für Nachrichten in privaten Kanälen nicht unterstützt.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
