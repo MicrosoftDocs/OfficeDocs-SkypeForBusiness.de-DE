@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff5c9ca199a017406b46061daea99658157318e5
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116913"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491777"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
@@ -103,7 +103,7 @@ Guthaben für Kommunikationen in Audiokonferenzen </td><td>Oder</td>
 <td>Guthaben für Kommunikationen in Audiokonferenzen</td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1</td>
 <td>Microsoft 365 Business Voice<br>Plan für internationale Anrufe <br />(optional) Guthaben für Kommunikationen </td><td>Oder</td>
 <td>Microsoft 365 Business Voice ohne Anrufplan</td><td>Oder</td>
 <td>Audiokonferenzen<br> Telefonsystem<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
@@ -150,7 +150,7 @@ Hier ist eine Zusammenfassung auf der Grundlage des Lizenzierungsplans.
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1<br></td><td>Audiokonferenzen<br>Telefonsystem<br>Anrufplan für Inland<br>Anrufplan für Inland und Ausland (optional)<br>Guthaben für Kommunikationen</td>
 <td></td>
 </tr>
 <tr class="odd">

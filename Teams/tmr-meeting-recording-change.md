@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cad935092b1b3b99209c45bf61b7ee40d285ea6
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469657"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491792"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -182,7 +182,7 @@ Das Video wird im Videoplayer von OneDrive for Business oder SharePoint abgespie
 
 Stream als Plattform wird in naher Zukunft nicht eingestellt. Die Videos, die sich aktuell in Stream befinden, bleiben dort, bis wir mit der Migration beginnen. Bei der Migration werden diese Videos auch nach OneDrive for Business oder SharePoint migriert. Weitere Informationen finden Sie unter [klassische Migration von Stream](/stream/streamnew/classic-migration).
 
-**Wie wende ich eine Aufbewahrungsbezeichnung an?**
+**Wie kann ich eine Aufbewahrungsbezeichnung auf Microsoft Teams anwenden?**
 
 Siehe [Aufbewahrungsbezeichnungen automatisch anwenden](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
 
@@ -190,7 +190,7 @@ Siehe [Aufbewahrungsbezeichnungen automatisch anwenden](/microsoft-365/complianc
 
 Siehe [Welche Richtlinie hat Vorrang?](./assign-policies.md#which-policy-takes-precedence).
 
-**Wo wird die Aufzeichnung aufgezeichnet, wenn der Benutzer nicht über OneDrive for Business oder SharePoint?**
+**Wo wird die Aufzeichnung gespeichert, wenn der Benutzer nicht über OneDrive for Business Oder SharePoint oder das Speicherkontingent voll ist?**
 
 Die Aufzeichnung wird an unserem temporären Speicherort landen, wo sie 21 Tage lang gespeichert wird. Während dieser Zeit muss der Organisator die Aufzeichnung herunterladen. Wenn die Aufzeichnung nicht innerhalb von 21 Tagen heruntergeladen wurde, wird sie gelöscht.
 

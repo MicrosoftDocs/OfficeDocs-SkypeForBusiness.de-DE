@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendants für Ihre Microsoft Teams.
-ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
-ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
+ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51926051"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498790"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -53,6 +53,12 @@ Sie werden aufgefordert, eine dieser Optionen in verschiedenen Phasen beim Einri
 > - **Begrüßung unterdrücken** (Standard: Aus) – wenn aktiviert, wird die Standardsystemmeldung "Bitte hinterlassen Sie eine Nachricht nach dem Ton. Wenn Sie fertig sind, können Sie auflegen oder die Hashtaste drücken, um weitere Optionen anzuzeigen." werden unterdrückt.
 
 Um eine automatische Telefonzentrale zu einrichten, erweitern Sie im Teams **Admin Center** Sprachanrufe , wählen Sie **Automatische** Telefonzentralen aus, und wählen Sie dann **Hinzufügen aus.**
+
+## <a name="video-demonstration"></a>Videodemo
+
+Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer automatischen Attendant in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
 ## <a name="general-info"></a>Allgemeine Informationen
 

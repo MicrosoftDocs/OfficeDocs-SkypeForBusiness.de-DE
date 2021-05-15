@@ -16,18 +16,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: c63817f5b3ee9c736311982b54dbc9a220564229
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: ab57fe5a0528ad5e33b20929bd224cb33273197e
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030105"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498780"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
 ## <a name="overview"></a>Übersicht
 
-Mithilfe von Tags in Microsoft Teams können Benutzer mit einer begrenzten Anzahl von Personen in einem Team kommunizieren. Sie können benutzerdefinierte Tags erstellen und zuweisen, um Personen basierend auf Attributen wie Rolle, Projekt, Fertigkeiten oder Standort zu kategorisieren. Tags können Personen auch automatisch basierend auf ihren Zeitplan- und Schichtinformationen in der [Schichten-App](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) zugewiesen werden (in Kürze verfügbar). Nachdem ein Tag zu einem oder mehreren Teammitgliedern hinzugefügt wurde, kann es von allen Teammitgliedern in @Erwähnungen in Kanalbeiträgen oder zum Starten einer Unterhaltung verwendet werden, um nur mit den Personen zu kommunizieren, denen das entsprechende Tag zugewiesen wurde.
+Mithilfe von Tags in Microsoft Teams können Benutzer mit einer begrenzten Anzahl von Personen in einem Team kommunizieren. Sie können benutzerdefinierte Tags erstellen und zuweisen, um Personen basierend auf Attributen wie Rolle, Projekt, Fertigkeiten oder Standort zu kategorisieren. Oder Tags können Personen basierend auf ihren Zeitplan- und Schichtinformationen in der [Schichten-App automatisch zugewiesen werden.](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) Nachdem ein Tag zu einem oder mehreren Teammitgliedern hinzugefügt wurde, kann es von allen Teammitgliedern in @Erwähnungen in Kanalbeiträgen oder zum Starten einer Unterhaltung verwendet werden, um nur mit den Personen zu kommunizieren, denen das entsprechende Tag zugewiesen wurde.
 
 Wie bereits zuvor erwähnt, gibt es in Microsoft Teams zwei Arten von Tags.
 
@@ -99,13 +99,13 @@ Um ein Tag zu löschen, wählen Sie **˙˙˙ "Weitere Optionen"** neben dem Tag 
 
 ### <a name="set-up-tagging-by-shift"></a>Einrichten von "Tagging nach Schicht"
 
+Durch Das Tagging nach Schicht können Die Benutzer die Personen, die schichtschicht sind, in Echtzeit erreichen. Teams benutzer mit Tags, die ihren Zeitplan und den Gruppennamen für Schichten übereinstimmen, automatisch aus der App Schichten zu, wodurch dynamische rollenbasiertes Messaging ermöglicht wird. Benachrichtigungen werden nur an die Personen gesendet, die sich im Schichtdienst befinden, wenn ein Tag zum Starten eines Chats oder in einem Kanalbeitrag verwendet wird. 
+
 1. Wechseln Sie in Microsoft Teams zur [Schichten](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)-App.
 2. Erstellen Sie [Schicht-Gruppen](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup), und benennen Sie diese nach einem Attribut wie z. B. einer Rolle. Beispiel: "DiensthabenderTechniker". Der Name der Schicht-Gruppe entspricht dem Namen des Tags.
-3. [Erstellen Sie einen Zeitplan](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea), indem Sie Mitgliedern Ihrer Teams Schichten zuweisen. Wenn Sie fertig sind, wählen Sie in der oberen rechten Ecke in der "Schichten"-App die Option **Für ein Team freigeben** aus.
+3. [Füllen Sie einen Zeitplan aus,](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea) indem Sie den Mitgliedern Ihrer Teams Schichten zuweisen. Wenn Sie fertig sind, wählen Sie in der oberen rechten Ecke in der "Schichten"-App die Option **Für ein Team freigeben** aus.
 4. Warten Sie 15 Minuten, bis die geplanten Schichten in den Taggingdienst gespeist wurden.
 5. Verwenden Sie das Tag überall dort, wo Sie in Microsoft Teams Tags verwenden.
-
-"Tagging nach Schicht" ermöglicht es Ihren Benutzern, diensthabende Mitarbeiter in Echtzeit zu erreichen. Benachrichtigungen werden nur an die Personen gesendet, die sich im Schichtdienst befinden, wenn ein Tag zum Starten eines Chats oder in einem Kanalbeitrag verwendet wird.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

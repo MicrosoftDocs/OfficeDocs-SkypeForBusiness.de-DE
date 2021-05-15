@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die automatische Telefon attendant und die Optionen für Anrufwarteschleifenwählen und Spracherkennung in Teams.
-ms.openlocfilehash: f62a04735d386637489d52956e6a064a2eba1e4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098441"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491812"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referenz zu automatischer Telefonant- und Anrufwarteschleifen-Wähl- und Spracherkennung
 
@@ -101,33 +101,9 @@ Anrufer können Namen in den folgenden Formaten sagen:
   
 ## <a name="language-support"></a>Sprachunterstützung
 
-Die folgenden Sprachen stehen für Text-zu-Sprache zur Verfügung, die bei ausgehenden Eingabeaufforderungen verwendet werden:
-  
-|-|-|-|
-|:-----|:-----|:-----|
-|Arabisch (EG)  |Englisch (NZ)  |Koreanisch (KO)  |
-|Chinesisch (HK)  |Englisch (Großbritannien) |Norwegisch (NO)  |
-|Chinesisch (TW) |Englisch (USA) |Polnisch (PL)  |
-|Chinesisch (ZH) |Finnisch (FI) |Portugiesisch (BR) |
-|Dänisch (DA)  |Französisch (CA)  |Portugiesisch (PT) |
-|Niederländisch (NL)   |Französisch (FR)  |Russisch (RU) |
-|Englisch (AU)  |Deutsch (DE) |Spanisch (ES)  |
-|Englisch (CA)  |Italienisch (IT) |Spanisch (MX)|
-|Englisch (IN)  |Japanisch (JP) |Schwedisch (SV)|
+Sprachunterstützung für Text-zu-Sprache und Spracherkennung ist in diesen [unterstützten Sprachen verfügbar.](create-a-phone-system-auto-attendant-languages.md)
 
-Spracherkennungseingaben für automatische Attendants sind in den folgenden Sprachen verfügbar:
-  
-|-|-|
-|:-----|:-----|
-|Chinesisch (ZH)  |Französisch (FR)  |
-|Englisch (AU)  |Deutsch (DE)  |
-|Englisch (CA)  |Italienisch (IT)  |
-|Englisch (IN)  |Japanisch (JP)  |
-|Englisch (Großbritannien)  |Portugiesisch (BR)  |
-|Englisch (USA)  |Spanisch (ES)  |
-|Französisch (CA)   |Spanisch (MX)  |
-
-Die folgenden Sprachbefehle sind in den 14 sprachen verfügbar, die für die Spracherkennung unterstützt werden:
+Die folgenden Sprachbefehle sind für die Spracherkennung verfügbar: 
   
 |Sprachbefehl| Entspricht |
 |:-----|:-----|
