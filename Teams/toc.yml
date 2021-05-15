@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Teams-Schulung
         items:
-          - name: Übersicht
-            href: training-microsoft-teams-landing-page.md
           - name: Administratorschulung für Microsoft Teams
             href: itadmin-readiness.md
-          - name: Teams-Sitzungen bei Ignite 2020
+          - name: Teams-Sitzungen mit Ignite
             href: ignite-2020-landing-page.md
-          - name: Teams-Liveschulung
+          - name: Microsoft Teams-Schulungen für Endbenutzer
             href: instructor-led-training-teams-landing-page.yml
-          - name: Teams-Online-Schulung
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Upgrade von Skype for Business
     items:
       - name: Erste Schritte
@@ -345,7 +341,7 @@ items:
             items:
               - name: Verwalten des externen Zugriffs
                 href: manage-external-access.md
-              - name: Nativer Teams-Chat
+              - name: Heimische Teams-Chats
                 href: native-chat-for-external-users.md
               - name: Interoperabilität von Teams und Skype
                 href: teams-skype-interop.md
@@ -357,7 +353,7 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: Gast-Erfahrung
                 href: guest-experience.md
-              - name: Aktivieren und Deaktivieren des Gastzugriffs
+              - name: Aktivieren oder Deaktivieren des Gastzugriffs
                 href: set-up-guests.md
               - name: Hinzufügen eines Gasts zu einem Team
                 href: view-guests.md
@@ -531,7 +527,7 @@ items:
             items:
               - name: Verwalten des externen Zugriffs
                 href: manage-external-access.md
-              - name: Nativer Teams-Chat
+              - name: Heimische Teams-Chats
                 href: native-chat-for-external-users.md
               - name: Interoperabilität von Teams und Skype
                 href: teams-skype-interop.md
@@ -545,7 +541,7 @@ items:
                 href: guest-experience.md
               - name: Autorisieren des Gastzugriffs
                 href: teams-dependencies.md
-              - name: Aktivieren und Deaktivieren des Gastzugriffs
+              - name: Aktivieren oder Deaktivieren des Gastzugriffs
                 href: set-up-guests.md
               - name: Hinzufügen eines Gasts zu einem Team
                 href: add-guests.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: Teams Policy-Pakete für Behörden
             href: policy-packages-gov.md
-  - name: Problembehandlung
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: Problembehandlung bei Problemen mit Installation und Update
-        href: troubleshoot-installation.md
-      - name: Behandeln von Konnektivitätsproblemen mit dem Teams-Client
-        href: connectivity-issues.md
-      - name: Probleme beim Empfangen von Nachrichten und Anrufen auf älteren Systemen
-        href: legacy-login-issues.md
-      - name: Verwenden von Protokolldateien bei der Problembehandlung in Teams
-        href: log-files.md
-      - name: Überprüfen der Dienstintegrität für Teams
-        href: service-health.md
-      - name: "Kontakt mit dem Support für Geschäftsprodukte aufnehmen\_– Administratorhilfe"
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: So finden Sie Ihre Support-PIN
-        href: support-pin.md
   - name: Referenz
     items:
       - name: Grenzwerte und Daten für Teams
