@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469647"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498770"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -385,6 +385,20 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **copyLink**: Kopieren Sie einen Link in einen Kanalbeitrag.
 - **contactActivity**: Wenn die Schaltfläche zum Anzeigen der Aktivität eines Benutzers auf der Visitenkarte aktiviert ist.
 - **conversation**: Wenn ein Benutzer zur Registerkarte **Chat** oder **Beiträge** navigiert.
+- **cortanaClose**: Wenn ein Benutzer die Cortana-Canvas manuell beendet.
+- **cortanaEduCategorySelect**: Wenn ein Benutzer auf ein Element der Kategorie Bildungstipps klickt.
+- **cortanaEduOpen**: Wenn die Bildungsseite auf der Cortana-Canvas angezeigt wird.
+- **cortanaInvoke**: Wenn Cortana beginnt zuzuhören.
+- **cortanaKWSSwitchToggle**: Wenn ein Benutzer auf der Cortana-Einstellungsseite auf den KWS-Schalter tippt.
+- **cortanaMicPermissionDialogButtonClick**: Wenn ein Benutzer die Mikrofonerlaubnis auf der Cortana-Canvas gewährt oder ablehnt.
+- **cortanaOpen**: Wenn ein Benutzer Cortana-Canvas öffnet.
+- **cortanaOptionsOpen**: Wenn der Benutzer auf die Schaltfläche "Optionen" auf der Cortana-Canvas tippt.
+- **cortanaSafetyFirstActions**: Wenn der Benutzer die erste Sicherheitserklärung akzeptiert.
+- **cortanaSafetyFirstLaunch**: Wenn der Benutzer Cortana zum ersten Mal öffnet, nachdem FRE beendet wurde.
+- **cortanaSettingsOpen**: Wenn ein Benutzer die Cortana-Einstellungsseite durch Klicken auf die Schaltfläche Cortana-Einstellungen im Cortana-Canvas öffnet.
+- **cortanaStopResponding**: Wenn ein Benutzer auf die Schaltfläche "Abbrechen" auf der Cortana-Canvas klickt.
+- **cortanaUserSettingsLaunch**: Wenn der Benutzer die Cortana-Einstellungen in den Teams-Einstellungen öffnet.
+- **cortanaVoiceSelect**: Wenn ein Benutzer die Cortana-Sprachschriftart auf der Cortana-Einstellungsseite auswählt.
 - **CreateChannel**: Bietet Erfolgsdaten rund um die erfolgreiche Erstellungs- oder Verwerfen-Aktion für die neue Kanalerstellung, wenn:
   - Die Schaltfläche **Fertig** wird auf der Seite **Kanal erstellen** ausgewählt.
   - Die Schaltfläche **Abbrechen** wird auf der Seite **Kanal erstellen** ausgewählt.
@@ -655,6 +669,9 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **messageBookmarkMessage**: Speichern der Connectorkarte. Verwenden vorhandene Telemetrie mit App-spezifischen Daten. Oder Speichern einer Bot-Nachricht.
 - **markAsLastUnread**: Kontextmenü der Connectorkarte.
 - **maskCallerId**: Ein Benutzer aktiviert bzw. deaktiviert die Anrufeinstellung zur Maskierung der Anrufer-ID.
+- **meetingAttachmentFileClick**: Ein Besprechungs-Anlageelement wird angeklickt.
+- **meetingAttachmentFileOptions**: Eine Option für ein Besprechungs-Anlageelement wird angeklickt.
+- **meetingAttachmentSeeMoreClick**: Eine „Mehr anzeigen“-Schaltfläche wird bei einer Besprechungsanlage angeklickt.
 - **meetingDetailCalendarList**: Besprechungsdetailsseite, die von calenderList ausgewählt ist, oder Auswählen der Registerkarte **Details** auf der Besprechungsdetailsseite.
 - **meetingDetailChatWithParticipants**: Chatten Sie mit Teilnehmern über die Besprechungsdetailsseite.
 - **meetingDetailDeleteMeetingforSelf**: Löschen Sie eine Besprechung von der Besprechungsdetailseite für sich selbst.
@@ -662,6 +679,10 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **meetingDetailParticipants**: Zeigen Sie alle Teilnehmern über die Besprechungsdetails-Seite an.
 - **meetingDetailScheduledMeeting**: Besprechungsdetailseite, ausgewählt vom Objekt „Geplantes Meeting“ (**...**), oder wählen Sie die Registerkarte **Details** einer geplanten Besprechung aus.
 - **meetingDetailSearchParticipants**: **Suchen** in Besprechungsteilnehmern auf dem Besprechungszeitplan ausgewählt.
+- **meetingInsightFileClick**: Es wird auf ein besprechungsbezogenes Dateielement geklickt.
+- **meetingInsightFileLocatorClick**: Es wird auf eine Tipp-Schaltfläche für die Suche nach Besprechungsinhalten geklickt.
+- **meetingInsightFileOptions**: Die Optionen für ein besprechungsbezogenes Dateielement werden angeklickt.
+- **meetingInsightSeeMoreClick**: Eine „Mehr anzeigen“-Schaltfläche für besprechungsbezogene Inhalte wird angeklickt.
 - **meetingJoinLeave**: Verlassen angetippt -> **x** wird angetippt, nachdem die Schaltfläche **Beitreten** angetippt wird.
 - **meetingJoinNow** - **Für VoIP beitreten** ausgewählt.
 - **meetingJoinNowWithCallMe**: Ein Benutzer tritt einer Besprechung mit **Rückruf** bei.
@@ -1172,6 +1193,24 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 > [!NOTE]
 > Informationen zu den Eigenschaften von PanelAction-Ereignissen finden Sie unter [Eigenschaften, die mit Szenario-Ereignissen gesendet werden](#properties-sent-with-scenario-events).
 
+- **cortanaError**: Zur Überwachung von Cortana-Fehlerereignissen.
+- **cortanaView**: Zum Überwachen erscheint Cortana Canvas.
+- **cortanaRestart**: Zur Überwachung des Neustarts von Cortana.
+- **cortanaSetNewConversation**: Zum Überwachen führt Cortana eine neue Unterhaltung.
+- **cortanaSpeechRecognization**: Zur Überwachung der Cortana-Spracherkennungslatenz.
+- **cortanaStart**: Zum Überwachen des Cortana-Backend-Starts.
+- **cortanaStartListening**: Zur Überwachung von Cortana das Zuhören beginnen.
+- **cortanaStopListening**: Zur Überwachung von Cortana das Zuhören beenden.
+- **cortanaThinking**: Zur Überwachung des Cortana-Zustands "Denken" zu wechseln (Warten auf die Antwort des Dienstes).
+- **cortanaTokenRefresh**: Zur Überwachung der Cortana-Token-Aktualisierung im Vordergrund.
+- **cortanaWarmingUp**: Zur Überwachung des Aufwärmstarts von Cortana (Cortana ist geöffnet, aber das Token wird noch abgeholt).
+- **cortana_admin_policy_refresh**: Zur Überwachung der Aktualisierung der Cortana-Administrationsrichtlinie.
+- **cortana_background_token_refresh**: Zur Überwachung der Cortana-Token-Aktualisierung.
+- **cortana_initialization**: Zur Überwachung der Initialisierungsschritte von Cortana.
+- **cortana_sdk_events**: Zur Überwachung von Ereignissen im Zusammenhang mit der Cortana-Wendung.
+- **cortana_skill_action_execution**: Zur Überwachung der Ausführung von Cortana-Aktionen.
+- **cortana_skill_action_delay**: Bestätigt den Start der Verzögerungsaktion.
+- **cortana_watchdog**: Zur Überwachung des Cortana-Watchdog-Wiederherstellungsprozesses.
 - **create_default_plan_and_nav_to_view**: Bestätigt die erfolgreiche Erstellung einer standardmäßigen, freigegebenen Aufgabenliste und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
 - **create_personal_plan_and_nav_to_view**: Bestätigt die erfolgreiche Erstellung einer persönlichen Aufgabenliste und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
 - **create_personal_task**: Bestätigt die erfolgreiche Erstellung eines persönlichen Aufgabenelements.
@@ -1187,6 +1226,11 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **load_personal_task_list**: Bestätigt das erfolgreiche Abrufen der Aufgaben einer persönlichen Aufgabenliste für die Aufgabenliste.
 - **load_shared_task_list**: Bestätigt das erfolgreiche Abrufen der Aufgaben einer freigegebenen Aufgabenliste für die Aufgabenliste.
 - **load_smart_task_list**: Bestätigt das erfolgreiche Abrufen der Aufgaben einer intelligenten Aufgabenliste für die Aufgabenliste.
+- **meetingAttachmentRender**: Bestätigt das Rendern von Besprechungsanlagen.
+- **meetingInsightFetch**: Bestätigt den Abruf von besprechungsbezogenen Inhalten.
+- **meetingInsightLocatorRender**: Bestätigt das Rendern des Lokalisierungstipps für besprechungsbezogene Inhalte.
+- **meetingInsightRender**: Bestätigt das Rendern von besprechungsbezogenen Inhalten.
+- **meetingInsightVisible**: Bestätigt die Sichtbarkeit von besprechungsbezogenen Inhalten.
 - **rename_personal_plan**: Bestätigt die erfolgreiche Umbenennung einer persönlichen Aufgabenliste.
 - **rename_planner_plan**: Bestätigt die erfolgreiche Umbennenung einer freigegebenen Aufgabenliste.
 - **smart_reply_enabled**: Bestätigt, dass Smart Reply für den aktuellen Benutzer aktiviert ist.
