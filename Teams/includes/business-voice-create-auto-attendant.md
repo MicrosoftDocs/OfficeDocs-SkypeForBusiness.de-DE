@@ -1,3 +1,9 @@
+#### <a name="video-demonstration"></a>Videodemo
+
+Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer automatischen Attendant in Teams.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
+
 #### <a name="before-you-begin"></a>Bevor Sie beginnen
 
 Holen Sie sich die Servicenummern (Servicenummern sind ein spezieller Typ von Telefonnummern, die von automatischen Telefonanbietern verwendet werden), die Sie für die automatischen Telefonieren benötigen, auf die Sie durch direktes Wählen von außerhalb Ihrer Organisation zugriffen möchten. Dies kann das [Übertragen von Nummern von einem anderen Anbieter oder](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) das Anfordern neuer [Leistungsnummern umfassen.](../getting-service-phone-numbers.md)
