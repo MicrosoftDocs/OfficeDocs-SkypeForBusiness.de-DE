@@ -17,12 +17,12 @@ description: Hier finden Sie Informationen zu Richtlinien für die Aufzeichnung 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
-ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
+ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51383969"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513848"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Aufzeichnung von Liveereignisen in Microsoft Teams
 
@@ -52,11 +52,7 @@ Im Rahmen der Übertragungsrichtlinie können Sie die Aufzeichnung für ein Live
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Immer aufzeichnen               | Deaktiviert und ausgewählt                                | Aktiviert und ausgewählt         |
 | Organisator kann Aufzeichnen oder nicht | Standardmäßig aktiviert und ausgewählt                  | Standardmäßig aktiviert und ausgewählt   |
-| Nie aufzeichnen               | Deaktiviert und nicht ausgewählt                            | Aktiviert und nicht ausgewählt      |
-
-Wenn die Richtlinie auf Immer aufzeichnen festgelegt **ist,** hat die Richtlinienseite die folgenden ausgewählten Optionen:
-
-![Richtlinieneinstellungen für Liveereignisse](../media/live-event-recording-policy.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center")
+| Nie aufzeichnen               | Deaktiviert und nicht ausgewählt                            | Deaktiviert und nicht ausgewählt      |
 
 ## <a name="storage-and-persistence-behavior"></a>Storage und Persistenzverhalten
 

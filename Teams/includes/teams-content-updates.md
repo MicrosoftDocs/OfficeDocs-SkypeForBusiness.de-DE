@@ -3,6 +3,58 @@
 
 
 
+## <a name="week-of-may-10-2021"></a>Woche vom 10. Mai 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 5/10/2021 | [Migration und Interoperabilität – Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | Geändert |
+| 5/10/2021 | [Microsoft Teams Bericht über PSTN-Minutenpools](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | Geändert |
+| 5/10/2021 | [Verständnis Microsoft Teams und Skype for Business Koexistenz und Interoperabilität](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | Geändert |
+| 5/10/2021 | [Upgrade Skype for Business lokalen Upgrades auf Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | Geändert |
+| 5/10/2021 | [Upgradestrategien für IT-Administratoren](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | Geändert |
+| 5/10/2021 | [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](/MicrosoftTeams/caller-id-policies). | Geändert |
+| 5/10/2021 | [Planen der Medienumgehung mit direktem Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | Geändert |
+| 5/10/2021 | [Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | Geändert |
+| 5/10/2021 | [Mehr über Telefonnummer-ID und Name des Anrufers](/MicrosoftTeams/more-about-calling-line-id-and-calling-party-name) | Geändert |
+| 5/10/2021 | [Festlegen der Anrufer-ID für einen Benutzer](/MicrosoftTeams/set-the-caller-id-for-a-user) | Geändert |
+| 5/10/2021 | [Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
+| 5/11/2021 | [Geräte für Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
+| 5/11/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
+| 5/11/2021 | [Schreibgeschützte Besprechungserfahrung](/MicrosoftTeams/view-only-meeting-experience) | Geändert |
+| 5/12/2021 | [App-Updateerfahrung in Microsoft Teams](/MicrosoftTeams/apps-update-experience) | Hinzugefügt |
+| 5/12/2021 | [Anpassen von Apps in Microsoft Teams](/MicrosoftTeams/customize-apps) | Geändert |
+| 5/12/2021 | [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](/MicrosoftTeams/log-files) | Geändert |
+| 5/12/2021 | [Verwenden der API Teams Zur Übermittlung von Apps zum Übermitteln und Genehmigen Ihrer benutzerdefinierten Apps](/MicrosoftTeams/submit-approve-custom-apps) | Geändert |
+| 5/12/2021 | [Ressourcen für Administrator-Schulung – Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
+| 5/12/2021 | [Abmessungen und Maße – Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Geändert |
+| 5/12/2021 | [Direct Routing Local Media Optimization](/MicrosoftTeams/direct-routing-media-optimization) | Geändert |
+| 5/12/2021 | [Planen der Medienumgehung mit direktem Routing](/MicrosoftTeams/direct-routing-plan-media-bypass) | Geändert |
+| 5/12/2021 | [Vorteile des Telefonsystems](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Geändert |
+| 5/12/2021 | [Endbenutzerschulung für Microsoft Teams # < 60 Zeichen](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Geändert |
+| 5/12/2021 | [Erforderliche mobile Diagnosedaten für Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | Geändert |
+| 5/12/2021 | [Private Kanäle in Microsoft Teams](/MicrosoftTeams/private-channels) | Geändert |
+| 5/12/2021 | [Microsoft Teams-Räume – Unterstütze App-Versionen](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Geändert |
+| 5/12/2021 | [Microsoft Teams-Räume verwalten](/MicrosoftTeams/rooms/rooms-manage) | Geändert |
+| 5/12/2021 | [Anmerkungen zu dieser Version](/MicrosoftTeams/rooms/rooms-release-note) | Geändert |
+| 5/12/2021 | [Migrieren von Skype for Business OnlineConnector zum Teams PowerShell-Modul](/MicrosoftTeams/teams-powershell-move-from-sfbo) | Geändert |
+| 5/12/2021 | [Microsoft Teams PowerShell-Versionshinweise](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 5/12/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
+| 5/13/2021 | [Walkie-Talkie-Anwendung in Microsoft Teams](/MicrosoftTeams/walkie-talkie) | Geändert |
+| 5/13/2021 | [Session Border Controller certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 5/13/2021 | [Konfigurieren des Session Border Controllers – mehrere Mandanten](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | Geändert |
+| 5/13/2021 | [Vorteile des Telefonsystems](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Geändert |
+| 5/14/2021 | [Referenz zu automatischer Telefonant- und Anrufwarteschleifen-Wähl- und Spracherkennung](/MicrosoftTeams/dial-voice-reference) | Geändert |
+| 5/14/2021 | [Vorteile des Telefonsystems](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Geändert |
+| 5/14/2021 | [Add-On-Lizenzen für Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Geändert |
+| 5/14/2021 | [Microsoft Teams PowerShell-Versionshinweise](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 5/14/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
+| 5/14/2021 | [Ressourcen für Administrator-Schulung – Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
+| 5/14/2021 | [Einrichten einer automatischen Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Geändert |
+| 5/14/2021 | [Verwalten von Tags in Microsoft Teams](/MicrosoftTeams/manage-tags) | Geändert |
+| 5/14/2021 | [Erforderliche mobile Diagnosedaten für Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | Geändert |
+
+
 ## <a name="week-of-may-03-2021"></a>Woche vom 3. Mai 2021
 
 
@@ -219,72 +271,3 @@
 | 4/16/2021 | [Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
 | 4/16/2021 | [Abmessungen und Maße – Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Geändert |
 | 4/16/2021 | [Installieren, Verwalten und Zuweisen von Berechtigungen für Microsoft Viva Learning (private Vorschau)](/MicrosoftTeams/teams-learning-app-overview) | Geändert |
-
-
-## <a name="week-of-april-05-2021"></a>Woche vom 5. April 2021
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 4/5/2021 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
-| 4/5/2021 | [Abrufen von Telefonnummern für Ihre Benutzer](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Geändert |
-| 4/5/2021 | [Limits und Spezifikationen für Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | Geändert |
-| 4/5/2021 | [Installieren Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install) | Geändert |
-| 4/5/2021 | [Was ist das Anrufqualitätsdashboard (CQD)?](/MicrosoftTeams/cqd-what-is-call-quality-dashboard) | Geändert |
-| 4/5/2021 | [Verwenden des Add-Ins für Microsoft Teams-Besprechungen in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Geändert |
-| 4/5/2021 | [Verwalten von Richtlinienpaketen in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Geändert |
-| 4/5/2021 | [Vertraulichkeitsbeschriftungen für Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Geändert |
-| 4/6/2021 | [Verwalten von Besprechungsrichtlinien für Audio und Video](/MicrosoftTeams/meeting-policies-audio-and-video) | Hinzugefügt |
-| 4/6/2021 | [Verwalten von Besprechungsrichtlinien für die Inhaltsfreigabe](/MicrosoftTeams/meeting-policies-content-sharing) | Hinzugefügt |
-| 4/6/2021 | [Verwalten allgemeiner Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams-general) | Hinzugefügt |
-| 4/6/2021 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-overview) | Hinzugefügt |
-| 4/6/2021 | [Verwalten von Besprechungsrichtlinien für Teilnehmer und Gäste](/MicrosoftTeams/meeting-policies-participants-and-guests) | Hinzugefügt |
-| 4/6/2021 | [Erstellen einer Anrufwarteschleife in Microsoft Teams – Kleinunternehmen-Lernprogramm](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | Geändert |
-| 4/6/2021 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | Geändert |
-| 4/6/2021 | [Microsoft Teams für Bildungseinrichtungen – Anleitung zur Problemlösung aufgrund geringer Bandbreite](/MicrosoftTeams/edu-remote-low-bandwidth) | Geändert |
-| 4/6/2021 | [Gastzugriff in Microsoft Teams](/MicrosoftTeams/guest-access) | Geändert |
-| 4/6/2021 | [Besprechungsrichtlinien und Besprechungsablauf in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Geändert |
-| 4/6/2021 | [Anmerkungen zu dieser Microsoft Teams](/MicrosoftTeams/release-notes/release-notes) | Geändert |
-| 4/6/2021 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/remote-learning-edu) | Geändert |
-| 4/6/2021 | [Microsoft Teams – Anwesenheitsbericht zu einer Besprechung](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | Geändert |
-| 4/6/2021 | [Azure Sentinel und Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | Geändert |
-| 4/6/2021 | [Wählen Sie Ihren Upgradeweg von Skype for Business Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | Geändert |
-| 4/6/2021 | [Verwenden von NDI in Microsoft Teams](/MicrosoftTeams/use-ndi-in-meetings) | Geändert |
-| 4/6/2021 | [Audiokonferenz mit Minutenabrechnung](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Geändert |
-| 4/6/2021 | [Verwalten von Richtlinienpaketen in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Geändert |
-| 4/6/2021 | [Teams von Apps für Nicht-Standardbenutzer](/MicrosoftTeams/non-standard-users) | Geändert |
-| 4/6/2021 | [Anmerkungen zu dieser Version](/MicrosoftTeams/rooms/rooms-release-note) | Geändert |
-| 4/6/2021 | [Erstellen einer Intranet-Portal-App für Teams von einer SharePoint Online-Website oder -Seite aus](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | Geändert |
-| 4/7/2021 | [Ressourcen für Administrator-Schulung – Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
-| 4/7/2021 | [Audiokonferenz mit Minutenabrechnung](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Geändert |
-| 4/7/2021 | [Audio conferencing Dial-Out/Call Me At minutes](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | Geändert |
-| 4/7/2021 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | Geändert |
-| 4/7/2021 | [Verwalten von Richtlinienpaketen in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Geändert |
-| 4/7/2021 | [Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
-| 4/7/2021 | [Teams von Apps für Nicht-Standardbenutzer](/MicrosoftTeams/non-standard-users) | Geändert |
-| 4/7/2021 | [Aufbewahrungsrichtlinien für Microsoft Teams Verwalten](/MicrosoftTeams/retention-policies) | Geändert |
-| 4/7/2021 | [Verwalten Teams mit Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-managing-teams) | Geändert |
-| 4/7/2021 | [Einrichten der Funktion „Rückruf“ für Ihre Benutzer](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | Geändert |
-| 4/8/2021 | [Netzwerkkonferenzen für Audiokonferenzen](/MicrosoftTeams/audio-conferencing-on-network) | Geändert |
-| 4/8/2021 | [Freigeben von Anrufen und Gruppenanrufannahme](/MicrosoftTeams/call-sharing-and-group-call-pickup) | Geändert |
-| 4/8/2021 | [Session Border Controller certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
-| 4/8/2021 | [Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Geändert |
-| 4/8/2021 | [Plan für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Geändert |
-| 4/8/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
-| 4/8/2021 | [Verwalten des Benutzerzugriffs auf Microsoft Teams](/MicrosoftTeams/user-access) | Geändert |
-| 4/8/2021 | [Schreibgeschützte Besprechungserfahrung](/MicrosoftTeams/view-only-meeting-experience) | Geändert |
-| 4/8/2021 | [Ländercodes für Direktes Routing](/MicrosoftTeams/direct-routing-country-codes) | Geändert |
-| 4/8/2021 | [Vorteile des Telefonsystems](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Geändert |
-| 4/8/2021 | [Anrufrichtlinien in Microsoft Teams](/MicrosoftTeams/teams-calling-policy) | Geändert |
-| 4/8/2021 | [Microsoft Teams-Administratorschulung](/MicrosoftTeams/training-microsoft-teams-landing-page) | Geändert |
-| 4/9/2021 | [Einrichten einer automatischen Attendant für Microsoft Teams – Kleinunternehmen (Lernprogramm)](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | Geändert |
-| 4/9/2021 | [Verwalten von Feedbackrichtlinien in Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Geändert |
-| 4/9/2021 | [Teams Kontaktcenter](/MicrosoftTeams/teams-contact-center) | Geändert |
-| 4/9/2021 | [Anpassen von Microsoft-Apps in Teams](/MicrosoftTeams/customize-apps) | Geändert |
-| 4/9/2021 | [Session Border Controller certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
-| 4/9/2021 | [Vorteile des Telefonsystems](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | Geändert |
-| 4/9/2021 | [Verwalten Ihrer Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-apps) | Geändert |
-| 4/9/2021 | [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Geändert |
-| 4/9/2021 | [Schreibgeschützte Besprechungserfahrung](/MicrosoftTeams/view-only-meeting-experience) | Geändert |
-| 4/9/2021 | [Geräte für Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
-| 4/9/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |

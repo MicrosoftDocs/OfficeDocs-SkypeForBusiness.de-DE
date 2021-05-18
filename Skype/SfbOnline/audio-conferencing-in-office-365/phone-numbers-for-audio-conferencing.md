@@ -57,7 +57,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
  **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
- **Freigegebene Telefonnummern** sind Telefonnummern, die für andere Personen freigegeben Microsoft 365 oder Office 365 können. Sie können die Sprachen nicht ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
+ **Freigegebene Telefonnummern** sind Telefonnummern, die für andere Microsoft 365- oder Office 365-Konten freigegeben werden können. Sie können die Sprachen nicht ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
   

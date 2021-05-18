@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Skype for Business Online-Administrator
-summary: Skype for Business Online wird am 31. Juli 2021 in den Ruhestand geschaltet, zu dem der Zugriff auf den Dienst endet. Wir empfehlen Kunden, mit dem Upgrade auf Microsoft Teams zu beginnen, dem Hub für Teamarbeit in Microsoft 365.
+summary: Skype for Business Online wird am 31. Juli 2021 beendet, und der Zugriff auf den Dienst endet. Wir empfehlen Kunden, mit dem Upgrade auf ihre Microsoft Teams, dem Hub für Teamarbeit in Microsoft 365.
 metadata:
   title: Skype for Business Online-Administrator
   description: Erfahren Sie mehr zum Verwalten von Skype for Business Online für Ihre Organisation.
@@ -24,11 +24,11 @@ metadata:
   ms.lasthandoff: 03/23/2021
   ms.locfileid: "51118924"
 landingContent:
-- title: Informationen zu Skype for Business Online
+- title: Informationen Skype for Business Online
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Skype for Business Online wird 2021 eingestellt
+    - text: Skype for Business In 2021 online eingestellt
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:

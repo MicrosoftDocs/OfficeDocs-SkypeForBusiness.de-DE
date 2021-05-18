@@ -35,7 +35,7 @@ Dieser Artikel enthält Anleitungen zur Verwendung eines Proxyservers mit Skype 
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Es wird empfohlen, keinen Proxyserver zu verwenden
 
-In Bezug auf Skype for Business-Datenverkehr über Proxys empfiehlt Microsoft, Proxys zu umgehen. Durch Proxys wird die Sicherheit Skype for Business, da der Datenverkehr bereits verschlüsselt ist.
+In Bezug auf Skype for Business-Datenverkehr über Proxys empfiehlt Microsoft, Proxys zu umgehen. Proxys machen Skype for Business nicht sicherer, da der Datenverkehr bereits verschlüsselt ist.
   
 Außerdem kann die Verwendung eines Proxys Probleme verursachen. Durch Latenz und Paketverluste kann es in der Umgebung zu Leistungsproblemen kommen. Solche Probleme führen zu einer negativen Benutzererfahrung in Teams- oder Skype for Business-Szenarien wie Audio und Video, in denen Echtzeitstreams unerlässlich sind.
   

@@ -12,12 +12,12 @@ ms.collection:
 description: Erfahren Sie, wie Sie von Skype for Business Online Connector zum PowerShell Teams Modul wechseln, um Ihre Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e788fc8cd31bd6e8754e410132e02829eaa2cad8
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469717"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513868"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Migrieren von Skype for Business OnlineConnector zum Teams PowerShell-Modul
 
@@ -35,8 +35,10 @@ Teams Das PowerShell-Modul stellt einen vollständigen Satz von Cmdlets zum Verw
 
 Die Migration von der Skype for Business Online Connector zu Teams PowerShell-Modul ist einfach und einfach. Die folgenden Schritte erklären, wie Sie dazu vorgehen müssen.
 
-1. Installieren Sie das neueste Teams PowerShell-Modul. Die schritte finden Sie unter [Installieren Microsoft Teams Powershell.](teams-powershell-install.md)
+1. Installieren Sie das neueste Teams PowerShell-Modul. Schritte finden Sie unter [Installieren Microsoft Teams PowerShell.](teams-powershell-install.md)
+
 2. Deinstallieren Skype For Business Online Connector. Wechseln Sie dazu in der Systemsteuerung zu Programme und **Funktionen**, wählen Sie **Skype for Business Online,** Windows PowerShell Modul und dann Deinstallieren **aus.**
+
 3. Ändern Sie in Ihren PowerShell-Skripts den Namen des Moduls, auf das verwiesen wird, in ```Import-Module```
 
     `SkypeOnlineConnector` oder `LyncOnlineConnector` auf `MicrosoftTeams` .
@@ -47,41 +49,50 @@ Die Migration von der Skype for Business Online Connector zu Teams PowerShell-Mo
 
     ```powershell
        # When using the Skype for Business online connector
-         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         
+         # Establishing a session
+         Import-Module SkypeOnlineConnector [LyncOnlineConnector]
          $credential = Get-Credential
          $SkypeSession = New-CsOnlineSession -Credential $credential
          Import-Session $SkypeSession
     
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
+         
+         # Disconnecting and closing the Session 
+         Get-PsSession $SkypeSession | Remove-PsSession
     
        # When using Teams PowerShell Module 2.0 or later
+       
+         # Establishing a session
          Import-Module MicrosoftTeams
          $credential = Get-Credential
          Connect-MicrosoftTeams -Credential $credential
        
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
-    
-       # Closing the Session when using the Skype for Business online connector
-         Get-PsSession $SkypeSession | Remove-PsSession
-    
-       # Disconnecting from Teams PowerShell Module 
+         
+         # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
 
 ## <a name="online-support"></a>Onlinesupport
 
 Sparen Sie Zeit, indem Sie Ihre Serviceanfrage online starten. Wir helfen Ihnen, eine Lösung zu finden oder Sie mit dem technischen Support zu verbinden.
+
 1.  Wechseln Sie zum Admin Center unter [https://admin.microsoft.com](https://admin.microsoft.com) . Wenn Eine Meldung angezeigt wird, die ankn: Sie verfügen nicht über die Berechtigung zum Zugriff auf diese Seite oder zum Ausführen dieser Aktion, sind Sie kein Administrator. Wer verfügt in meinem Unternehmen über Administratorberechtigungen?
+
 2.  Wählen Sie Benötigen **Sie Hilfe? aus.** aus.
+
 3.  Benötigen **Sie Hilfe?** teilen Sie uns mit, wozu Sie Hilfe benötigen, und drücken Sie dann die EINGABETASTE.
+
 4.  Wenn die Ergebnisse nicht helfen, wählen Sie Support **kontaktieren aus.**
+
 5.  Geben Sie eine Beschreibung des Problems ein, bestätigen Sie Ihre Kontaktnummer und E-Mail-Adresse, wählen Sie Ihre bevorzugte Kontaktmethode aus, und wählen Sie dann **Kontakt aus.** Die erwartete Wartezeit wird unter Benötigen Sie Hilfe? angezeigt. aus.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Installieren Microsoft Teams Powershell](teams-powershell-install.md)
+[Installieren Microsoft Teams PowerShell](teams-powershell-install.md)
 
 [Verwalten Teams mit Teams PowerShell](teams-powershell-managing-teams.md)
 
