@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erhalten Sie Informationen zu automatischen Telefonkonferenzen und Anrufwarteschleifen und erfahren, wie Sie Anrufern dabei helfen, durch ein Menüsystem zu gelangen, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262640"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517748"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen der Teams von automatischen Telefonkonferenzen und Anrufwarteschleifen
 
@@ -83,8 +83,8 @@ Wenn Ihre Mitarbeiter die App Microsoft Teams für Anrufwarteschleifenanrufe ver
 
 Bei der Übertragung von Anrufen an eine externe Telefonnummer muss das Ressourcenkonto, das die Übertragung (also das konto, das der automatischen Telefonkonferenz oder der Anrufwarteschleife zugeordnet ist) über eine Microsoft 365 Telefonsystem Virtual User-Lizenz und eine der folgenden zugewiesenen verfügen:
 
-- Eine [Anrufplanlizenz](calling-plans-for-office-365.md)
-- Eine [Online-Voiceroutingrichtlinie](manage-voice-routing-policies.md)
+- Eine [Anrufplanlizenz](calling-plans-for-office-365.md) und eine zugewiesene Telefonnummer
+- Eine [Online-Voiceroutingrichtlinie](manage-voice-routing-policies.md) (bei Verwendung von Direct Routing ist die Zuweisung von Telefonnummern optional)
 
 > [!NOTE]
 > Direktes Routing von Servicenummern für automatische Telefonleitung und Anrufwarteschleifen wird nur für Microsoft Teams und Anruf-Agents unterstützt.<br>

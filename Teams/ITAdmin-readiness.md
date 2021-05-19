@@ -19,28 +19,30 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498720"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526668"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
 Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren, andere zu unterrichten oder Workshops zu veranstalten. Hier finden Sie häufig neue Inhalte.
 
-|       Symbol        | Beschreibung               |    Symbol           |Beschreibung               |
-| :------------ | :------------ | :------------ | :------------ |
-| [Rollout hier starten](./get-started-with-teams-quick-start.md) | [Anzeigen Teams Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams-Frontalunterricht: Lernen Sie bewährte Methoden und praktische Anleitungen zu gängigen Teams-Szenarien kennen](./chalk-talks-landing-page.yml) |
+
+|  |  |
+|---------|---------|
+|[Rollout hier starten](./get-started-with-teams-quick-start.md)     |[Anzeigen Teams Features nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|[Bewährte Methoden und Anleitungsvideos im Kanal „Coffee in the Cloud“ auf YouTube anzeigen](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams-Frontalunterricht: Lernen Sie bewährte Methoden und praktische Anleitungen zu gängigen Teams-Szenarien kennen](./chalk-talks-landing-page.yml)         |
+
 
 <h2>Wichtige Schulungsangebote und Kurse</h2>
 
-|   Symbol            | Beschreibung              |  Symbol             |    Beschreibung           |
-| :------------ | :------------ | :------------ | :------------ |
-| [Unterstützung von Remotemitarbeitern in Microsoft Teams](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams essentials für die IT](https://aka.ms/MicrosoftTeamsforIT) | [Verwalten der Teamzusammenarbeit für DIE IT](/learn/paths/m365-manage-team-collaboration) | [Zertifizierung von Service Adoption Specialist](/learn/paths/m365-service-adoption) |
-| [Einführung in die Zusammenarbeit in Microsoft 365](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365-zertifiziert: Teamwork-Administrator Associate](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|Teams für [**die IT–**](https://aka.ms/MicrosoftTeamsforIT) Die Microsoft Mechanics-Videoreihe "Teams for IT" zeigt Ihnen – dem Administrator –, wie Sie Ihr Projekt Teams.     |[**Unterstützen Sie Remotemitarbeiter mithilfe Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Erhalten Sie die benötigten Anleitungen – einschließlich Links zu Schulungen –, um Ihre Benutzer zu unterstützen, die von zu Hause aus arbeiten.         |[**Verwalten der Teamzusammenarbeit für die IT**](/learn/paths/m365-manage-team-collaboration) – Erfahren Sie, wie Sie mithilfe Teams, um Teamarbeit und die Kommunikation in Ihrer Organisation anwendungs- und geräteübergreifend zu vereinfachen.         |
+|[**Zertifizierung für Experten zur**](/learn/paths/m365-service-adoption) Diensternung – Die Funktionen des Zertifizierungskurss Microsoft Service Adoption Specialist Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.     |[**Einführung in die Teamarbeit in Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) – Die Funktionen des Kurses zur Zertifizierung von Microsoft-Dienstanbietern Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.        |[**Microsoft 365 zertifiziert:**](/learning/m365-teamwork-administrator.aspx) Teamadministratoren zugeordnet – Microsoft 365 Teamadministratoren konfigurieren, bereitstellen und verwalten Microsoft 365- oder Office 365-Workloads wie SharePoint (online, lokal und hybrid), OneDrive und Teams.        |
 
 
 <h2>Technische Schulung</h2>
@@ -80,7 +82,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <h2>Teams Android-Geräte</h2>
 
-<p>Die folgende Tabelle enthält Links zu umfassenden Videoschulungen mit zugehörigen PowerPoint-Bildschirmen (im PDF-Format) auf Microsoft Teams Android-Geräten, die Teams Displays, Teams Phones, Teams-Räume für Android und Teams Panels enthalten.  
+<p>Die folgende Tabelle enthält Links zu umfassenden Videoschulungen mit begleitenden PowerPoint-Bildschirmen (im PDF-Format) auf Microsoft Teams Android-Geräten, die Teams Displays, Teams Phones, Teams-Räume für Android und Teams Panels enthalten.  
 
 | Modul | Video | PowerPoint-Foliensatz (PDF)  |
 | ------------ | -------------------- | -------------------- |

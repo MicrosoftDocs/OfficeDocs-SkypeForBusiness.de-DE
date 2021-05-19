@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Verschieben Von hyriden Anwendungsendpunkten vor dem Außerbetriebsetzen einer lokalen Skype for Business-Umgebung.
-ms.openlocfilehash: af8b521eaaf4a1e86027936f3d4d3600ab4bfa7b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: Verschieben Von hyriden Anwendungsendpunkten vor der Außerbetriebnahme Skype for Business lokalen Umgebung.
+ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656879"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526718"
 ---
-# <a name="move-hyrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Verschieben von hyriden Anwendungsendpunkten vor der Außerbetriebnahme Ihrer lokalen Umgebung
+# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Verschieben von Hybridanwendungsendpunkten vor der Außerbetriebnahme Ihrer lokalen Umgebung
 
-In diesem Artikel wird beschrieben, wie Sie erforderliche Hybridanwendungsendpunkte in die Microsoft-Cloud verschieben, bevor Ihre lokale Skype for Business-Umgebung außer Betrieb genommen wird. Dies ist Schritt 3 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
+In diesem Artikel wird beschrieben, wie Sie erforderliche Hybridanwendungsendpunkte in die Microsoft-Cloud verschieben, bevor Ihre lokale Umgebung außer Betrieb Skype for Business wird. Dies ist Schritt 3 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
 
 - Schritt 1. [Verschieben aller erforderlichen Benutzer von lokal in online](decommission-move-on-prem-users.md)
 
@@ -34,14 +34,14 @@ In diesem Artikel wird beschrieben, wie Sie erforderliche Hybridanwendungsendpun
 
 - **Schritt 3. Verschieben Sie Hybridanwendungsendpunkte von lokal in online.** (Dieser Artikel)
 
-- Schritt 4. [Entfernen Sie Ihre lokale Skype for Business-Bereitstellung.](decommission-remove-on-prem.md)
+- Schritt 4. [Entfernen Sie Ihre lokale Skype for Business Bereitstellung.](decommission-remove-on-prem.md)
 
 
 ## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Verschieben aller erforderlichen Hybridanwendungsendpunkte von lokal in online
 
-Bevor Sie diese Endpunkte ins Internet verschieben können, müssen Sie sicherstellen, dass Sie die DNS-Einträge so aktualisiert haben, dass sie für alle von den Endpunkten verwendeten Sipdomänen auf Microsoft 365 verweisen. Es ist nicht möglich, Onlineressourcenkonten zu erstellen, wenn DNS-Einträge auf lokale Konten verweisen. Weitere Informationen finden Sie unter [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
+Bevor Sie diese Endpunkte ins Internet verschieben können, müssen Sie sicherstellen, dass Sie die DNS-Einträge so aktualisiert haben, dass sie auf Microsoft 365 für alle von den Endpunkten verwendeten Sipdomänen verweisen. Es ist nicht möglich, Onlineressourcenkonten zu erstellen, wenn DNS-Einträge auf lokale Konten verweisen. Weitere Informationen finden Sie unter [Disable your hybrid configuration](cloud-consolidation-disabling-hybrid.md).
 
-1. Rufen Sie lokale Einstellungen für den Hybridanwendungsendpunkt ab, und exportieren Sie sie, indem Sie den folgenden lokalen Skype for Business Server PowerShell-Befehl ausführen:
+1. Rufen Sie die einstellungen für den lokalen Hybridanwendungsendpunkt ab, und exportieren Sie sie, indem Sie den folgenden lokalen Skype for Business Server PowerShell-Befehl ausführen:
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
@@ -77,7 +77,7 @@ Bevor Sie diese Endpunkte ins Internet verschieben können, müssen Sie sicherst
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-Sie können nun Ihre [lokale Skype for Business-Bereitstellung entfernen.](decommission-remove-on-prem.md)
+Sie können nun Ihre lokale Bereitstellung Skype for Business [entfernen.](decommission-remove-on-prem.md)
 
 ## <a name="see-also"></a>Siehe auch
 
