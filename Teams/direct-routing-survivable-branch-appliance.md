@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096425"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589239"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Surrouble Branch Appliance (SBA) für direktes Routing
 
@@ -212,5 +212,3 @@ Melden Sie alle Probleme an die Supportorganisation Ihres SBC-Anbieters. Wenn Si
 - Die SBA unterstützt keine Einstellungen für die Anruf weiterleitung. 
 
 - Das Anrufen einer für dynamische Notrufe konfigurierten Notrufnummer (E911) wird nicht unterstützt.
-
-- Die Ausgabe des Get-CsOnlineUser Zeigt "TeamsBranchSur ver wiederkeligPolicy" an.

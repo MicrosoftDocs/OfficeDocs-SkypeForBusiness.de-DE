@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Rufen Sie detaillierte Informationen zu den Abmessungen und Maßen ab, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 981c5811f00d2e9005bd1387a7b58d23431af848
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: b44323d8fd15b3e0f97269afe7459981348d977b
+ms.sourcegitcommit: d3a5efa1e11e4dad97f31d633d31aa7c9b2dee57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469737"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52583924"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Maße
 
@@ -157,7 +157,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Duration (Minutes)  | Bereich (Minuten)  | Dauer des Datenstroms in Minuten. Die Werte sind nach Bereich gruppiert.<br/> **Beispielwert:** 065: [3-4) ||
 | Duration (Seconds)  | Bereich (Sekunden) | Dauer des Datenstroms in Sekunden. Die Werte sind nach Bereich gruppiert.<br/> **Beispielwert:** 062: [1 -2)||
 |**Datum**|||
-|Endzeit|  String| Tageszeit, zu der der Anruf beendet wurde.|&bull; Fehler beim Einrichten eines Anrufs |
+|Endzeit|  String| Tageszeit, zu der der Anruf beendet wurde.|&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
 | Year  | Ganze Zahl  | Das Jahr des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2018 | |
 | Month  | Ganze Zahl  | Monat des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2 | |
 | Day  | Ganze Zahl  | Tag des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 1 | |
@@ -168,10 +168,10 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Day Of Year  | Ganze Zahl  | Tag des Jahres am Ende des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 32 | |
 | Day Of Week  | Zeichenfolge  | Wochentag am Ende des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** Mittwoch | |
 | Day Number Of Week  | Ganze Zahl  | Tagesnummer der Woche am Ende des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 3 | |
-|Woche|  String  |Startdatum der Woche, in der der Anruf stattgefunden hat. <br/> **Beispielwert:** 2019-09-01 |&bull; Fehler beim Einrichten eines Anrufs |
+|Woche|  String  |Startdatum der Woche, in der der Anruf stattgefunden hat. <br/> **Beispielwert:** 2019-09-01 |&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
 | Month Year  | Zeichenfolge  | Monat und Jahr des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2017-02 | |
 | Full Month  | Datum/Uhrzeit  | Vollständiger Monat am Ende des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2017-02-01T00:00:00 | |
-|Startzeitpunkt|String  |Tageszeit, zu der der Anruf begonnen hat.|&bull; Fehler beim Einrichten eines Anrufs |
+|Startzeitpunkt|String  |Tageszeit, zu der der Anruf begonnen hat.|&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
 |**UserAgent** | | |
 | First Domain  | Zeichenfolge  | Domäne des Benutzers des ersten Endpunkts. Wenn es sich beim ersten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Besprechungsorganisators verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein.  <br/> **Beispielwert:** <span></span> contoso.com | |
 | Second Domain  | Zeichenfolge  | Domäne des Benutzers des zweiten Endpunkts. Wenn es sich beim zweiten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Besprechungsorganisators verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein. <br/> **Beispielwert:** <span></span> contoso.com  | |

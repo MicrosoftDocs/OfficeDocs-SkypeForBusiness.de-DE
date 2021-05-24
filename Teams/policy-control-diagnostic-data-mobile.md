@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498770"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569233"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -57,7 +57,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Die Registerkarte **Aktivität** wird angezeigt.
   - Teams erfasst ein Registerkartenereignis **Aktivität**.
 - **activityTypeDropdown**: Erfasst die Verwendung von Aktivitätsfiltern, um zwischen **Meine Aktivitäten** und **Feeds** zu wechseln.
-- **addChannel** – Hinzufügen eines Kanals. Dieses Element liefert Erfolgsdaten rund um die erfolgreiche Erstellung eines Kanals.
+- **addChannel** – Hinzufügen eines Kanals. Dieses Element liefert Erfolgsdaten rund um die erfolgreiche Erstellung eines Kanals.
 - **addMember**: Die Schaltfläche **Personen einladen** wurde im Menü **Mehr** aktiviert.
 - **addMembers**: Fügen Sie Mitglieder zu einem Team oder einem privaten Kanal hinzu.
 - **addToCalendar**: Wählen Sie die Schaltfläche **Zu Kalender hinzufügen** für Kalenderereignisse aus, die im privaten Kalender fehlen.
@@ -121,7 +121,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **BYOELiveEventJoin**: Ein Benutzer tritt einem BYOE (Broadcast Your Own Event)-Liveereignis bei.
 - **calendarLiveChatClicked**: Chat aus einer Livebesprechung auf der Registerkarte **Zeitplan**.
 - **calendarMeetingJoin** - Schaltfläche **Besprechungsteilnahme**, die aus einem Kalender ausgewählt wird.
-- **calendarTab** – Wählen Sie den Tab **Besprechungen** in der unteren Leiste. Nützlich, um die Nutzung des Kalenders zu verstehen und mit anderen Apps in der unteren Leiste zu vergleichen, oder um festzustellen, ob es einen Fehler beim Rendern des Kalenderposts nach der Auswahl in der unteren Leiste gab.
+- **calendarTab** – Wählen Sie den Tab **Besprechungen** in der unteren Leiste. Nützlich, um die Nutzung des Kalenders zu verstehen und mit anderen Apps in der unteren Leiste zu vergleichen, oder um festzustellen, ob es einen Fehler beim Rendern des Kalenderposts nach der Auswahl in der unteren Leiste gab.
 - **calendarTabClicked**: Unter den nachstehend aufgeführten Umständen zeigt dies die Kalenderverwendung an und ermöglicht Ihnen den Vergleich mit anderen Navbar-Apps auf der unteren Leiste. Dies kann verwendet werden, um zu ermitteln, ob ein Fehler aufgetreten ist, wenn:
   - Die Registerkarte **Zeitplan** wird angezeigt.
   - Die Registerkarte **Besprechungen** ist in der unteren Leiste ausgewählt.
@@ -538,7 +538,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **expand/collapse**: Abschnitt „Gerätekontakte“ oder „Unternehmenskontakte“.
 - **expandCollapseSection**: Tippen Sie auf einen Abschnittskopf, um einen Abschnitt zu erweitern oder zu reduzieren.
 - **Expected: atMention - Android: chatSendMessage - iOS: sendMsg**: @erwähnen Sie einen Bot in einem „Verfassen“-Feld.
-- **Erwartet: botClickCardAction – Android: showCard – iOS: fehlt**: Tippen Sie auf Kartenschaltflächen. Karten sind wichtige Plattformkonstrukte und die Messung ihrer Verwendung und ihrer Muster ist notwendig, um die Plattformnutzung zu verstehen und nach potenziellen Problemen auf der Client-Seite Ausschau zu halten.
+- **Erwartet: botClickCardAction – Android: showCard – iOS: fehlt**: Tippen Sie auf Kartenschaltflächen. Karten sind wichtige Plattformkonstrukte und die Messung ihrer Verwendung und ihrer Muster ist notwendig, um die Plattformnutzung zu verstehen und nach potenziellen Problemen auf der Client-Seite Ausschau zu halten.
 - **Expected: chatSendMessage - iOS: composeSendMessage**: Tippen Sie auf **Antworten** und antworten Sie auf einen Bot-Chat in einem Kanal.
 - **Expected: composeSendMessage - Android: replyChannel - iOS: missing**: Tippen Sie auf **Antworten** und antworten Sie auf einen Bot-Chat in einem Kanal.
 - **Expected: messageLike - Android: reactLike_CM**: Drücken Sie bei einer Bot-Nachricht auf „Gefällt mir“.
@@ -582,7 +582,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **groupCallJoin**: Ein Benutzer tritt einem Gruppenanruf bei.
 - **groupClicked**: Verfolgt, wenn ein Benutzer die Schichtgruppe auswählt.
 - **guideMe**: Benutzer wählen ein Banner aus, das Sie über eine Blockierungsbenachrichtigung einer 3P-App informiert und Anleitungen zur Problembehandlung bietet.
-- **hamburgerMenu**: Navigieren Sie zum Hamburger-Menü. Das Hamburger-Menü enthält wichtige Aktionen, wie z. B. Kontowechsel, Benachrichtigungseinstellungen, Dateneinstellung und Profileinstellungen.
+- **hamburgerMenu**: Navigieren Sie zum Hamburger-Menü. Das Hamburger-Menü enthält wichtige Aktionen, wie z. B. Kontowechsel, Benachrichtigungseinstellungen, Dateneinstellung und Profileinstellungen.
 - **handoffComplete**: Auf diesem Gerät wurde eine Besprechung oder ein Anruf abgegeben.
 - **handoffJoin**: Auf der Aktionstabelle wird eine Besprechungsübergabe-Option ausgewählt.
 - **hardwareAudioOff**: Deaktivieren Sie Audio durch die Hardware-Schaltflächen.
@@ -1188,11 +1188,43 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **whiteboardUsed**: Ein Benutzer macht Anmerkungen auf einem Whiteboard (eine Aktion in der Webansicht).
 - **wiki - No AS assigned**: Telemetrie der Wiki-Nutzung.
 
+### <a name="panelview"></a>PanelView
+
+> [!NOTE]
+> Informationen zu den Eigenschaften von Panelview-Ereignissen finden Sie unter [Eigenschaften, die mit Panelview-Ereignissen gesendet werden](#properties-sent-with-panelview-events).
+
+- **fileDeleteFailed** – Wird ausgelöst, wenn ein Dateilöschvorgang fehlschlägt.
+- **fileDeleteSuccess** – Wird nach einem erfolgreichen Dateilöschvorgang ausgelöst.
+- **FilePreview** – In folgenden Szenarien ausgelöst:
+  - Wenn die Option "Freigeben" im Vorschaubildschirm der Datei angetippt wird.
+  - Wenn die Option "Kopieren" im Vorschaubildschirm der Datei angetippt wird.
+  - Wenn die Option "Herunterladen" im Vorschaubildschirm der Datei angetippt wird.
+  - Wenn eine Dateivorschau erfolgreich geladen wird.
+- **files** – In folgenden Szenarien ausgelöst:
+  - Wenn eine Vorschau einer Datei in der Teams-App angezeigt wird.
+  - Wenn die Option zum Hochladen einer Datei im OneDrive-Dateibildschirm angetippt wird.
+  - Wenn die Option "Link kopieren" im Vorschaubildschirm der Datei angetippt wird.
+  - Wenn der Dateifreigabebildschirm verworfen wird.
+  - Beim Öffnen des Menüs "Dateioptionen" oder wenn eine der Optionen in diesem Menü angetippt wird.
+  - Beim Öffnen des Dateibildschirms während des Anrufs.
+  - Wenn zum Öffnen auf eine Datei getippt wird.
+- **filesChannel** – Wird ausgelöst, wenn der Bildschirm mit Kanaldateien geöffnet wird.
+- **fileSources** – Wird beim Öffnen des Menüs "Dateioptionen" oder wenn eine der Optionen in diesem Menü angetippt wird ausgelöst.
+- **filesPersonal** – Wird ausgelöst, wenn ein Batch von Dateien in OneDrive oder auf dem Bildschirm der zuletzt ausgeführten Dateien geladen wird.
+- **fileUploadDeleteTriggered** – Wird ausgelöst, wenn eine Dateianlage gelöscht oder vom Nachrichtenbereich getrennt wird.
+- **fileUploadFailed** – Wird ausgelöst, wenn ein Vorgang zum Hochladen einer Datei fehlschlägt.
+- **fileUploadIndiualNotification** – Wird ausgelöst, wenn sich der Inhalt der Benachrichtigung über das Hochladen der Datei ändert oder wenn mit der Benachrichtigung interagiert wird. Die Interaktionen können Gesten wie Wischen zum Schließen der Benachrichtigung oder Tippen auf die Benachrichtigung usw. umfassen.
+- **fileUploadSuccess** – Wird ausgelöst, wenn ein Vorgang zum Hochladen einer Datei erfolgreich abgeschlossen wird.
+- **fileUploadSummaryNotification** – Wird ausgelöst, wenn sich der Inhalt der Zusammenfassung der enachrichtigung über das Hochladen der Datei ändert oder wenn mit der Benachrichtigung interagiert wird. Die Interaktionen können Gesten wie Wischen zum Schließen der Benachrichtigung oder Tippen auf die Benachrichtigung usw. umfassen.
+- **meetingFiles** – Wird beim Öffnen des Bildschirms "Besprechungsdateien" ausgelöst.
+- **navPersonalFiles** – Wird ausgelöst, wenn zum Dateibildschirm navigiert wird.
+
 ### <a name="scenario"></a>Szenario
 
 > [!NOTE]
 > Informationen zu den Eigenschaften von PanelAction-Ereignissen finden Sie unter [Eigenschaften, die mit Szenario-Ereignissen gesendet werden](#properties-sent-with-scenario-events).
 
+- **chat_add_giphy** – Bestätigt, dass die Giphy GIF-Darstellungsaktion erfolgreich war oder fehlgeschlagen ist.
 - **cortanaError**: Zur Überwachung von Cortana-Fehlerereignissen.
 - **cortanaView**: Zum Überwachen erscheint Cortana Canvas.
 - **cortanaRestart**: Zur Überwachung des Neustarts von Cortana.
@@ -1216,6 +1248,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **create_personal_task**: Bestätigt die erfolgreiche Erstellung eines persönlichen Aufgabenelements.
 - **create_planner_plan_and_nav_to_view**: Bestätigt die erfolgreiche Erstellung einer freigegebenen Aufgabenliste und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
 - **create_planner_task**: Bestätigt die erfolgreiche Erstellung eines freigegebenen Aufgabenelements.
+- **ForwardExistingAmsObject** Bestätigt, dass die Aktion zum Weiterleiten von Medien erfolgreich war oder fehlgeschlagen ist.
 - **delete_personal_plan**: Bestätigt das erfolgreiche Löschen einer persönlichen Aufgabenliste.
 - **delete_personal_plan**: Bestätigt das erfolgreiche Löschen eines persönlichen Aufgabenelements.
 - **delete_planner_plan**: Bestätigt das erfolgreiche Löschen einer freigegebenen Aufgabenliste.
@@ -1231,13 +1264,20 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **meetingInsightLocatorRender**: Bestätigt das Rendern des Lokalisierungstipps für besprechungsbezogene Inhalte.
 - **meetingInsightRender**: Bestätigt das Rendern von besprechungsbezogenen Inhalten.
 - **meetingInsightVisible**: Bestätigt die Sichtbarkeit von besprechungsbezogenen Inhalten.
+- **open_image** Bestätigt, dass die Wiedergabe im Vollbildmodus erfolgreich war oder fehlgeschlagen ist.
 - **rename_personal_plan**: Bestätigt die erfolgreiche Umbenennung einer persönlichen Aufgabenliste.
 - **rename_planner_plan**: Bestätigt die erfolgreiche Umbennenung einer freigegebenen Aufgabenliste.
+- **save_image** Bestätigt, dass die Bildschonaktion erfolgreich war oder fehlgeschlagen ist.
+- **share_image** Bestätigt, dass die Aktion zum Freigeben eines Bilds erfolgreich war oder fehlgeschlagen ist.
 - **smart_reply_enabled**: Bestätigt, dass Smart Reply für den aktuellen Benutzer aktiviert ist.
 - **smart_reply_received**: Bestätigt, dass ein Smart Reply-Vorschlag empfangen wurde.
 - **smart_reply_banned**: Bestätigt, dass Smart Reply für den aktuellen Benutzer nicht angezeigt werden kann.
 - **update_planner_task_and_nav_to_view**: Bestätigt das erfolgreiche Aktualisieren eines freigegebenen Aufgabenelements und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
-- **update_personal_task_and_nav_to_view**: Bestätigt die erfolgreiche Aktualisierung eines persönlichen Aufgabenelements, und wie lange es dauert, bis ein Benutzer danach auf der Ergebnisansicht landet – **updatePlannerTask** –Bbestätigt, dass ein Benutzer eine Aufgabe in einer freigegebenen Aufgabenliste erfolgreich aktualisiert hat.
+- **update_personal_task_and_nav_to_view**: Bestätigt das erfolgreiche Aktualisieren eines persönlichen Aufgabenelements und die Zeit, die ein Benutzer benötigte, um auf der Ergebnisansicht zu landen. 
+- **updatePlannerTask** – Bestätigt, dass ein Benutzer einen Vorgang in einer freigegebenen Aufgabenliste erfolgreich aktualisiert hat.
+- **upload_images** Bestätigt, dass die Aktion zum Hochladen eines Bilds erfolgreich war oder fehlgeschlagen ist.
+- **upload_images** Bestätigt, dass die Aktion zum Hochladen einer Sprachnachricht erfolgreich war oder fehlgeschlagen ist.
+- **voiceMessageUpload** Bestätigt, dass die Aktion zum Hochladen einer Sprachnachricht erfolgreich war oder fehlgeschlagen ist.
 
 ## <a name="property-lists"></a>Eigenschaftenlisten
 
