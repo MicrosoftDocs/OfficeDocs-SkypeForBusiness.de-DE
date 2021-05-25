@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328507"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628884"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -34,32 +34,32 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 |Feature    | Obergrenze |
 |-----------|---------------|
-|Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
+|Anzahl der Teams, die ein Benutzer erstellen kann | Grenzwert von 250 Objekten&sup1;         |
 |Anzahl von Teams, in denen ein Benutzer Mitglied sein kann|1 000&sup2;|
 |Anzahl von Mitgliedern in einem Team | 25.000<sup>6</sup>     |
 |Anzahl von Besitzern pro Team | 100   |
 |Anzahl organisationsweiter Teams, die in einem Mandanten zulässig sind | 5&sup2;     |
 |Anzahl der Mitglieder in einem [organisationsweiten Team](create-an-org-wide-team.md) | 10.000       |
 |Anzahl der Teams, die ein globaler Administrator erstellen kann        |  500.000   |
-|Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500 000&sup3;     |
+|Anzahl von Teams, die eine Microsoft 365- oder Office 365-Organisation haben kann    | 500 000&sup3;     |
 |Anzahl der Kanäle pro Team    | 200 (einschließlich gelöschter Kanäle)<sup>4</sup>        |
 |Anzahl der privaten Kanäle pro Team    |30 (einschließlich gelöschter Kanäle)<sup>4</sup>        |
 |Anzahl der Mitglieder in einem privaten Kanal    |250|
 |Maximale Größe einer Verteilerliste, einer Sicherheitsgruppe oder einer Office 365-Gruppe, die in ein Team importiert werden kann.    |3.500|
-|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10 000<sup>6</sup>     |
-|Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>5</sup> |
+|Maximale Anzahl von Mitgliedern in einer Office 365-Gruppe, die in ein Team umgewandelt werden kann    |10 000<sup>6</sup>     |
+|Größe eines Beitrags in einer Kanalunterhaltung | Ca. 28 KB pro Beitrag<sup>5</sup> |
 
 <sup>1</sup> Jedes Verzeichnisobjekt in Azure Active Directory zählt. Globale Administratoren und Apps, die Microsoft Graph mit [Anwendungsberechtigungen](/graph/permissions-reference) aufrufen, sind von diesem Grenzwert ausgenommen.
 
 <sup>2</sup> Diese Beschränkung umfasst archivierte Teams. 
 
-<sup>3</sup> Um die Anzahl der Teams weiter zu erhöhen, müssen Sie den Microsoft-Support kontaktieren und eine weitere Erhöhung der Anzahl von Azure Active Directory-Objekten in Ihrem Mandanten beantragen. Die Erhöhung erfolgt nur für reale Produktionsszenarien.
+<sup>3</sup> Um die Anzahl der Teams weiter zu erhöhen, müssen Sie den Microsoft-Support kontaktieren und eine weitere Erhöhung der Anzahl von Azure Active Directory-Objekten in Ihrem Mandanten beantragen. Der Anstieg wird nur für Produktionsszenarien in Echtzeit vorgenommen.
 
-<sup>4</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal und dessen Inhalte endgültig gelöscht, und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
+<sup>4</sup> Gelöschte Kanäle können innerhalb von 30 Tagen wiederhergestellt werden. Während dieser 30 Tage wird ein gelöschter Kanal weiterhin in das Limit von 200 Kanälen oder 30 privaten Kanälen pro Team eingerechnet. Nach 30 Tagen wird ein gelöschter Kanal samt seiner Inhalte endgültig gelöscht und der Kanal wird nicht mehr in das Kanallimit pro Team eingerechnet.
 
 <sup>5</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
 
-<sup>6</sup> Teams in der GCC können 25 000 Mitglieder aufnehmen, aber Teams in der GCCH/DoD nur 2.500 Mitglieder. Beachten Sie des Weiteren, dass Teams-/Kanal-Erwähnungen in Teams mit mehr 10.000 Mitgliedern geblockt sind.
+<sup>6</sup> Teams in der GCC können 25 000 Mitglieder aufnehmen, aber Teams in der GCCH/DoD nur 2.500 Mitglieder. Beachten Sie des Weiteren, dass Teams-/Kanal-Erwähnungen in Teams mit mehr 10.000 Mitgliedern geblockt sind.
 
 ## <a name="messaging"></a>Messaging
 
@@ -74,7 +74,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 |Anzahl der Personen in einem privaten Chat<sup>1</sup>  | 250<sup>2</sup> |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Anzahl der Dateianlagen<sup>3</sup>  |10     |
-|Größe des Chats | Ca. 28 KB pro Beitrag<sup>4</sup> |
+|Größe des Chats | Ca. 28 KB pro Beitrag<sup>4</sup> |
 
 <sup>1</sup> Wenn mehr als 20 Personen an einem Chat teilnehmen, werden die folgenden Chat-Funktionen deaktiviert: automatische Outlook-Antworten und Teams-Statusmeldungen; Eingabeindikator; Video- und Telefonanrufe; Freigabe; Lesebestätigungen. Die Schaltfläche „Übermittlungsoptionen festlegen“ (!) wird ebenfalls entfernt, wenn private Gruppenchats mehr als 20 Mitglieder umfassen.
 
@@ -82,7 +82,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 <sup>3</sup> Falls die Anzahl der Anlagen dieses Limit überschreitet, wird eine Fehlermeldung angezeigt.
 
-<sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen und Reaktionen umfasst.
+<sup>4</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen und Reaktionen umfasst.
 
 ### <a name="emailing-a-channel"></a>Senden von E-Mails an einen Kanal
 
@@ -90,7 +90,7 @@ Der Microsoft Teams-Chat funktioniert in einem Microsoft Exchange-Backend, sodas
 
 |Feature  | Obergrenze  |
 |---------|---------|
-|Nachrichtengröße<sup>1<sup> | 24 KB |
+|Nachrichtengröße<sup>1<sup> | 24 KB |
 |Anzahl der Dateianlagen <sup>2</sup>  |20     |
 |Größe der einzelnen Dateianlagen | Kleiner als 10 MB |
 |Anzahl von Inlinebildern<sup>2</sup> |50   |
@@ -127,11 +127,11 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
 >- Ereignisdauer von 16 Stunden pro Übertragung
 >
-> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions).
+> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, aber noch nicht für GCC oder DoD. Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, aber noch nicht für GCC, DoD oder A1 (300). Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
@@ -144,10 +144,10 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Besprechungstyp  |Besprechung läuft nach diesem Zeitraum ab  |Jedes Mal, wenn Sie eine Besprechung starten oder aktualisieren, verlängert sich der Ablaufzeitpunkt um die entsprechende Zeit  |
 |---------|---------|---------|
 |Besprechung beginnen     |Startzeitpunkt + 8 Stunden         |Nicht zutreffend         |
-|Regulär ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         | 60 Tage        |
-|Regulär mit Endzeitpunkt     |Endzeitpunkt + 60 Tage         |60 Tage         |
-|Wiederkehrend ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         |60 Tage         |
-|Wiederkehrend mit Endzeitpunkt     |Endzeitpunkt des letzten Vorkommens + 60 Tage         |60 Tage         |
+|Regulär ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         | 60 Tage        |
+|Regulär mit Endzeitpunkt     |Endzeitpunkt + 60 Tage         |60 Tage         |
+|Wiederkehrend ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         |60 Tage         |
+|Wiederkehrend mit Endzeitpunkt     |Endzeitpunkt des letzten Vorkommens + 60 Tage         |60 Tage         |
 
 > [!NOTE]
 > Microsoft Teams-Besprechungen haben ein Zeitlimit von 24 Stunden.
@@ -157,7 +157,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Feature     | Obergrenze |
 |------------|---------------|
 |Zielgruppengröße | 10.000 Teilnehmer |
-|Dauer des Ereignisses | 4 Stunden |
+|Dauer des Ereignisses | 4 Stunden |
 |Gleichzeitige Live Events in einer Microsoft 365- oder Office 365-Organisation<sup>1</sup> | 15 |
 
 <sup>1</sup> Sie können beliebig viele Live Events planen, aber nur 15 gleichzeitig ausführen. Sobald der Produzent einem Live-Ereignis beitritt, wird es als ausgeführt betrachtet. Der Produzent, der versucht, am 16. Live-Ereignis teilzunehmen, erhält eine Fehlermeldung.
@@ -173,7 +173,7 @@ Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Teams-L
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
 >- Ereignisdauer von 16 Stunden pro Übertragung
 >
-> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 ## <a name="presence-in-outlook"></a>Anwesenheit in Outlook
 
@@ -196,7 +196,7 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Speicher                 |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz   |1 TB pro Organisation plus 10 GB pro erworbener Lizenz |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation           |
 |Speicher für Teams-Dateien |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |
-|Maximale Größe für Dateiuploads (pro Datei)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|Maximale Größe für Dateiuploads (pro Datei)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 Kanäle werden durch für das Team erstellte Ordner innerhalb der SharePoint Online-Website (bisher als „Websitesammlung“ bezeichnet) gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
 
@@ -204,12 +204,12 @@ Weitere Informationen finden Sie unter [SharePoint Online-Beschränkungen](https
 
 ## <a name="class-teams"></a>Kursteams
 
-Microsoft Teams für Bildungseinrichtungen stellt Vorlagen bereit, die für einmalige Schulungsszenarien konzipiert wurden, z. B. Unterricht im Kursraum. Weitere Informationen zu Teamtypen, einschließlich Kursteams, finden Sie in [Auswählen eines Teamtyps für die Zusammenarbeit in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
+Microsoft Teams für Bildungseinrichtungen stellt Vorlagen bereit, die für einmalige Schulungsszenarien konzipiert wurden, z. B. Unterricht im Kursraum. Weitere Informationen zu Teamtypen, einschließlich Kursteams, finden Sie in [Auswählen eines Teamtyps für die Zusammenarbeit in Microsoft Teams](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67).
 
 Ein Kursteam ist ein Vorlagentyp mit zusätzlichen Apps, dessen Grenzwerte unabhängig von der Anzahl der Teammitglieder sind.
 
 > [!NOTE]
-> Für die Verwendung von Kursteams ist eine [Office 365 Education-Lizenz](https://www.microsoft.com/education/products/office) erforderlich.
+> Für die Verwendung von Kursteams ist eine [Office 365 Education-Lizenz](https://www.microsoft.com/education/products/office) erforderlich.
 
 In der nachstehenden Tabelle sind die Grenzwerte für Kursteams aufgelistet:
 
@@ -219,7 +219,7 @@ In der nachstehenden Tabelle sind die Grenzwerte für Kursteams aufgelistet:
 |Anzahl von Mitgliedern, die Aufgaben in einem Kursteam verwenden sollen    | 200        |
 |Anzahl von Mitgliedern, die ein OneNote-Kursnotizbuch in einem Kursteam verwenden sollen     |200         |
 
-Ein Kursteam kann mehr als 200 Mitglieder unterstützen. Wenn Sie aber vorhaben, innerhalb Ihres Teams die App „Aufgaben“ oder die App „Kursnotizbuch“ zu verwenden, muss die Anzahl von Mitgliedern unter der vorstehenden Obergrenze bleiben.
+Ein Kursteam kann mehr als 200 Mitglieder unterstützen. Wenn Sie aber vorhaben, innerhalb Ihres Teams die App „Aufgaben“ oder die App „Kursnotizbuch“ zu verwenden, muss die Anzahl von Mitgliedern unter der vorstehenden Obergrenze bleiben.
 
 ## <a name="tags"></a>Tags
 

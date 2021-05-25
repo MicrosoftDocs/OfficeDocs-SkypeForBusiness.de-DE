@@ -13,16 +13,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Informationen zur Verwendung von PowerShell zum Abrufen der SEFAUtil-Funktionalität in Skype for Business Server 2019 nach der Installation des kumulativen Updates 1.'
-ms.openlocfilehash: d97dd84a3d05cf18752e40dd73a8c5f7e9752d3d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120506"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629004"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Verwenden der SEFAUtil-Funktionalität über PowerShell in Skype for Business Server 2019
 
-SEFAUtil (Secondary Extension Feature Activation) ermöglicht Skype for Business Server-Administratoren und Helpdesk-Agents das Konfigurieren von Einstellungen für das Stellvertretungsringen, die Anruf weiterleitung und die Gruppenanrufannahme im Namen eines Skype for Business Server-Benutzers. Mit diesem Tool können Administratoren auch die Anrufroutingeinstellungen abfragen, die für einen bestimmten Benutzer veröffentlicht werden. Nach der Installation des kumulativen Updates für Skype for Business Server 2019 Vom Juli sind die folgenden Funktionen, die derzeit nur über SEFAUtil verwaltet werden können, auch über PowerShell verwaltbar:
+SEFAUtil (Secondary Extension Feature Activation) ermöglicht es Skype for Business Server-Administratoren und Helpdesk-Agents, Die Einstellungen für das Stellvertretungsringen, die Anruf weiterleitung und die Gruppenanrufannahme im Namen eines Skype for Business Server konfigurieren. Mit diesem Tool können Administratoren auch die Anrufroutingeinstellungen abfragen, die für einen bestimmten Benutzer veröffentlicht werden. Nachdem Sie das kumulative Update Skype for Business Server 2019 Juli installiert haben, sind die folgenden Funktionen, die derzeit nur über SEFAUtil verwaltet werden können, auch über PowerShell verwaltbar:
 
 - [Einstellungen für die Anruf weiterleitung](#call-forwarding-settings)
 - [Delegierungseinstellungen](#delegation-settings)
@@ -52,7 +52,7 @@ Mit diesem Cmdlet werden die Einstellungen für die Anruf weiterleitung des Benu
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-Mit diesem Cmdlet werden die SimulRing-Einstellungen geändert (wiederum mit zwei Parameterbeispielen, eines für nicht beantwortete Voicemail und das zweite Für andere nicht beantwortet).
+Dieses Cmdlet ändert die gleichzeitigen Ringeinstellungen (wiederum mit zwei Parameterbeispielen, eines für nicht beantwortete Voicemail und das zweite für nicht beantwortete).
 
 ## <a name="delegation-settings"></a>Delegierungseinstellungen
 
@@ -64,7 +64,7 @@ Dieses Cmdlet gibt ein Objekt der Stellvertretungsliste zurück und zeigt die St
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates <PSListModifier>]`
 
-Dieses Cmdlet ändert die Delegierungseinstellungen des angegebenen Benutzers, gibt ein Objekt der Stellvertretungsliste zurück und zeigt die Liste der Stellvertreter an, falls dies erfolgreich ist. Bei einem Fehler wird eine entsprechende Fehlermeldung angezeigt. 
+Dieses Cmdlet ändert die Delegierungseinstellungen des angegebenen Benutzers, gibt ein Objekt der Delegatenliste zurück und zeigt die Liste der Stellvertreter an, falls dies erfolgreich ist. Bei einem Fehler wird eine entsprechende Fehlermeldung angezeigt. 
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{add=[list]}] [-Delegates @{remove=[list]}]`
 
@@ -103,7 +103,7 @@ Bei lokalen Bereitstellungen können die in diesem Feature eingeführten Cmdlets
 - CsHelpDesk – Get for all cmdlets
 
 Weitere Informationen zu diesen Administratorrollen finden Sie unter [Create Skype for Business Server Control Panel Administrators](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md). Der Administrator kann auf diese Cmdlets zugreifen, indem er sich direkt oder remote bei einem Servercomputer anmeldet.
-Für eine Hybridbereitstellung sollten Skype for Business-Administratoren get und Set für alle Cmdlets aufrufen können. Weitere Informationen zur vollständigen Liste der Rollen finden Sie unter [Informationen zu Administratorrollen](/microsoft-365/admin/add-users/about-admin-roles).
+Bei einer Hybridbereitstellung Skype for Business Administratoren get und Set für alle Cmdlets aufrufen können. Weitere Informationen zur vollständigen Liste der Rollen finden Sie unter [Informationen zu Administratorrollen](/microsoft-365/admin/add-users/about-admin-roles).
 
 > [!NOTE]
 > Die automatische Serverermittlung muss aktiviert sein. Es werden keine zusätzlichen Lizenzierungsanforderungen für die Verwendung der Cmdlets eingeführt.

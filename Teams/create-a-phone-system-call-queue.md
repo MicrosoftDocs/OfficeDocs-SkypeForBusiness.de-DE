@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Telefonsystem für Anrufwarteschleifen mit Microsoft Teams einrichten, das eine Begrüßungsnachricht, einen Warteschleifentext, die Anrufumleitung und weitere Funktionen enthält.
-ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Musik halten, Anrufumleitung und weitere Funktionen bieten.
+ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064801"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628934"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
 Anrufwarteschleifen ermöglichen es, Anrufe an Personen in Ihrer Organisation weiterzuleiten, die bei einem bestimmten Problem oder einer bestimmten Frage helfen können. Die einzelnen Anrufe werden nach und nach an die Personen (sog. *Telefonberater*) in der Warteschleife verteilt. 
+
+> [!TIP]
+> Dieser Artikel gilt für große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das Lernprogramm Erstellen einer Anrufwarteschleife [– Kleinunternehmen.](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb)
 
 Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
@@ -47,15 +50,17 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
 Vergewissern Sie sich, dass Sie [den](plan-auto-attendant-call-queue.md) Artikel Planen Teams automatische [](plan-auto-attendant-call-queue.md#getting-started) Telefonkonferenzen und Anrufwarteschleifen gelesen und die Ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen.
 
-Gehen Sie zum Einrichten einer Anrufwarteschleife zum Microsoft Teams Admin Center, erweitern Sie **VoIP**, klicken Sie auf **Anrufwarteschleifen** und dann auf **Hinzufügen**.
-
 ## <a name="video-demonstration"></a>Videodemo
 
 Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer Anrufwarteschleife in Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
-## <a name="resource-account-and-language"></a>Ressourcenkonto und Sprache
+## <a name="create-the-call-queue"></a>Erstellen der Anrufwarteschleife
+
+Gehen Sie zum Einrichten einer Anrufwarteschleife zum Microsoft Teams Admin Center, erweitern Sie **VoIP**, klicken Sie auf **Anrufwarteschleifen** und dann auf **Hinzufügen**.
+
+### <a name="resource-account-and-language"></a>Ressourcenkonto und Sprache
 
 ![Screenshot der Einstellungen für Ressourcenkonto und Sprache](media/call-queue-name-language.png)
 
@@ -65,7 +70,7 @@ Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer Anrufwartesch
 
 3. Wählen Sie eine [unterstützte Sprache aus.](create-a-phone-system-call-queue-languages.md) Diese Sprache wird für vom System generierte Sprachansagen und Voicemailtranskripte verwendet (sofern Sie diese aktivieren).
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>Begrüßung und Musik während des Wartens in der Warteschleife
+### <a name="greetings-and-music-on-hold-in-queue"></a>Begrüßung und Musik während des Wartens in der Warteschleife
 
 Legen Sie fest, ob eine Begrüßung abgespielt werden soll, wenn Anrufer in der Warteschleife eintreffen. Die gewünschte Begrüßung muss in Form einer MP3-, WAV- oder WMA-Datei hochgeladen werden.
 
@@ -75,7 +80,7 @@ In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiederge
 > Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
 > Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. 
 
-## <a name="call-agents"></a>Telefonberater
+### <a name="call-agents"></a>Telefonberater
 
 Überprüfen Sie [die Voraussetzungen für das Hinzufügen von Agents zu einer Anrufwarteschleife.](plan-auto-attendant-call-queue.md#prerequisites)
 
@@ -105,7 +110,7 @@ Um der Warteschleifee eine Gruppe hinzuzufügen, klicken Sie auf **Gruppen hinzu
 > [!NOTE]
 > Bei Benutzern, die einer Gruppe neu hinzugefügt wurden, kann es bis zu acht Stunden dauern, bis sie den ersten Anruf erhalten.
 
-## <a name="call-routing"></a>Anrufweiterleitung
+### <a name="call-routing"></a>Anrufweiterleitung
 
 ![Screenshot der Einstellungen für Konferenzmodus und Routingmethode](media/call-queue-conference-mode-routing-method.png)
 
@@ -153,7 +158,7 @@ Die folgenden Konfigurationen werden empfohlen:
 > [!NOTE]
 > Wenn die anwesenheitsbasierte Weiterleitung nicht aktiviert ist und sich mehrere Anrufe in der Warteschleife befinden, wird das System diese Anrufe an die Telefonberater gleichzeitig und unabhängig von ihrem Anwesenheitsstatus weiterleiten. Dies führt zu mehreren Anrufbenachrichtigungen an Telefonberater, insbesondere, wenn einige den anfänglichen an sie weitergeleiteten Anruf nicht beantworten.
 
-## <a name="call-overflow-handling"></a>Vorgehen bei überzähligen Anrufen
+### <a name="call-overflow-handling"></a>Vorgehen bei überzähligen Anrufen
 
 ![Screenshot der Einstellungen für überzählige Anrufe](media/call-queue-overflow-handling.png)
 
@@ -164,7 +169,7 @@ Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet wer
 > [!NOTE]
 > Wenn die maximale Anzahl von Anrufen auf "0" festgelegt ist, wird die Begrüßungsnachricht nicht abgespielt.
 
-## <a name="call-timeout-handling"></a>Vorgehen bei Erreichen des Zeitlimits
+### <a name="call-timeout-handling"></a>Vorgehen bei Erreichen des Zeitlimits
 
 ![Screenshot der Einstellungen für Anrufzeitlimit](media/call-queue-timeout-handling.png)
 

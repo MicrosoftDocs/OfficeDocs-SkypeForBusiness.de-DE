@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Erfahren Sie, wie Sie automatische Attendants für Ihre Microsoft 365 Business Voice.
-ms.openlocfilehash: 54815aa5e7b9740a9bc8028f211edd0d456462b0
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+description: Erfahren Sie, wie Sie automatische Attendants für kleine Unternehmen in Ihrer Microsoft 365 Business Voice.
+ms.openlocfilehash: 7dbd9e471b80e2f930b330ad826147b92b1afef8
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130238"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628974"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Einrichten einer automatischen Attendant – Lernprogramm für Kleinunternehmen
 

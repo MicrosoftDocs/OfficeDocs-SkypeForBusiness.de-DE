@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Erfahren Sie, wie Sie Anrufwarteschleifen mit Microsoft 365 Business Voice.
-ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: Erfahren Sie, wie Sie Anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
+ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064821"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629054"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschleife – Lernprogramm für Kleinunternehmen
 

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: In einer lokalen Bereitstellung von Skype for Business Server, die für die Hybridbereitstellung aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud verschieben (unabhängig davon, ob Sie Microsoft Teams oder Skype for Business Online vor derEntbundezeit verwenden)..'
-ms.openlocfilehash: 8fce1799ba3e10f2e96b8beab0fbde7805c7c229
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305957"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642085"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
 
@@ -40,7 +40,7 @@ Voraussetzungen für das Verschieben eines Benutzers in die Cloud (ob Teams Nur-
 
 - Die Organisation muss azure AD Verbinden ordnungsgemäß konfiguriert haben und alle relevanten Attribute für den Benutzer synchronisieren, wie unter [Configure Azure AD Verbinden beschrieben.](configure-azure-ad-connect.md)
 - Skype for Business Hybrid muss konfiguriert werden, wie unter [Configure Skype for Business hybrid beschrieben.](configure-federation-with-skype-for-business-online.md)
-- Dem Benutzer muss eine Lizenz für Teams und Skype for Business Online (Plan 2) zugewiesen werden. Auch nach dem Ausscheiden Skype for Business Online ist Skype for Business Online-Läuse weiterhin erforderlich.  Weitere Schritte:
+- Dem Benutzer muss eine Lizenz für Teams und Skype for Business Online (Plan 2) zugewiesen werden. Auch nach der Rente Skype for Business Online ist die Skype for Business Online-Lizenz weiterhin erforderlich.  Weitere Schritte:
     - Wenn der Benutzer für Einwahlkonferenzen lokal aktiviert ist, muss dem Benutzer standardmäßig auch eine Audiokonferenzlizenz in Teams zugewiesen sein, bevor Sie den Benutzer online verschieben. Nach der Migration zur Cloud wird der Benutzer für Audiokonferenzen in der Cloud bereitgestellt. Wenn Sie einen Benutzer aus einem bestimmten Grund in die Cloud verschieben möchten, aber keine Audiokonferenzfunktionen verwenden möchten, können Sie diese Überprüfung überschreiben, indem Sie den `BypassAudioConferencingCheck` Parameter in `Move-CsUser` angeben.
     - Wenn der Benutzer für die Enterprise-VoIP lokal aktiviert ist, muss dem Benutzer standardmäßig eine Telefonsystem-Lizenz in Teams zugewiesen sein, bevor Sie den Benutzer online verschieben. Nach der Migration zur Cloud wird der Benutzer für das Telefonsystem in der Cloud bereitgestellt. Wenn Sie einen Benutzer aus einem bestimmten Grund in die Cloud verschieben möchten, aber keine Telefonsystem verwenden, können Sie diese Überprüfung überschreiben, indem Sie den `BypassEnterpriseVoiceCheck` Parameter in `Move-CsUser` angeben.
 
@@ -68,10 +68,10 @@ Verwenden Sie entweder das cmdlet Move-CsUser oder die Skype for Business-Admin-
 
 Um Benutzer zwischen lokalen und cloudbasierten Umgebungen zu verschieben, müssen Sie ein Konto mit ausreichenden Berechtigungen sowohl in der lokalen Skype for Business Server-Umgebung als auch in der Teams verwenden. Sie können entweder ein Konto verwenden, das über alle erforderlichen Berechtigungen verfügt, oder Sie können zwei Konten verwenden, in diesem Fall würden Sie mit lokalen Anmeldeinformationen auf die lokalen Tools zugreifen, und dann würden Sie in diesen Tools zusätzliche Anmeldeinformationen für ein Teams-Administratorkonto angeben.  
 
-- In der lokalen Umgebung muss der Benutzer, der die Migration ausführt, über die Rolle CSServerAdminstrator in Skype for Business Server verfügen.
+- In der lokalen Umgebung muss der Benutzer, der die Verschieben vornimmt, über die Rolle CSServerAdministrator Skype for Business Server.
 - In Teams muss der Benutzer, der die Bewegung vor sich hat, eines der folgenden Kriterien erfüllen:
   - Der Benutzer ist Mitglied der Rolle "Globaler Administrator".
-  - Der Benutzer ist Mitglied der Rollen Teams administrator und user adminstrator.
+  - Der Benutzer ist Mitglied der Rollen Teams Administrator und Benutzeradministrator.
   - Der Benutzer ist Mitglied der Rollen Skype for Business Administrator und Benutzeradministrator.  
 
     > [!Important]

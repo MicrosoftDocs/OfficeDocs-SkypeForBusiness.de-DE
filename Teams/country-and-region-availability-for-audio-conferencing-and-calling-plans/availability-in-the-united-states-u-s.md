@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für die USA.
-ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094647"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629034"
 ---
 # <a name="availability-in-the-united-states-us"></a>Verfügbarkeit in den Vereinigten Staaten (USA)
 
@@ -64,9 +64,9 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
 | Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Wird zurzeit nicht unterstützt. <br/>                                                                                                                                                                                                                                                                                               |
 | Sind ausgehende Anrufe möglich?  <br/>                | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> Anrufe in Kanada werden als Inlandanrufe behandelt.
+> Wenn ein Anrufplanbenutzer (in den USA bzw. im Inland und im Ausland) eine Telefonnummer in Kanada wählt, wird er als Inlandsanruf behandelt. Dies ist auch der Fall, wenn ein Benutzer in Kanada eine Telefonnummer in den USA wählt. Wenn Sie jedoch auch Anrufplanrichtlinien verwenden, um die Benutzeranwahl nur auf "Inland" zu beschränken, kann ein US-Benutzer Kanada ebenso nicht anrufen, und ebenso kann ein kanadischer Benutzer keinen US-Benutzer anrufen.
 
->[!Note] 
+>[!Note]
 > Die Inlandgespräche in den USA umfassen Anrufe in alle 50 US-Bundesstaaten und Puerto Rico. Benutzer, denen der Lizenzverwendungsort USA und/oder Puerto Rico zugewiesen ist, nutzen den gleichen Minutenpool.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste

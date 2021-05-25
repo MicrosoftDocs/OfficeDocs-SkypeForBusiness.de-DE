@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie analoge Geräte mit Microsoft-Telefon Direct-Routing verwenden.
-ms.openlocfilehash: 855bf0dd21659c43037b6171f523983d67c4e755
-ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+ms.openlocfilehash: dc49c22dceffda6905d1f57652fd14d584d02cf6
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841486"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642095"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Verwenden analoger Geräte mit Telefonsystem Direct-Routing
 
@@ -82,7 +82,7 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 Mit diesem Befehl wird eine neue Online-Sprachroute mit der Identität "Analog-Inop" für den Zahlenbereich +1425 XXX XX XX erstellt.  Die Sprachroute gilt für eine Liste von Onlinegateways sbc.contoso.com und ordnet die Route der Online-PSTN-Nutzung "Inop" zu. Eine Sprachroute enthält einen regulären Ausdruck, der annennt, welche Telefonnummern über eine bestimmte Sprachroute geroutet werden:
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7})$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>Schritt 4: Zuweisen der Sprachroute zur PSTN-Nutzung:
@@ -114,7 +114,7 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 Dieser Befehl erstellt eine Online-Sprachroute mit der Identität "Analog-Inop" für den Zahlenbereich +1425 4XX XX, der auf eine Liste von Onlinegateways sbc.contoso.com anwendbar ist, und ordnet ihn der Online-PSTN-Verwendung "Inop" zu.  Dieser Befehl sollte für jedes analoge Gerät mit dem entsprechenden Telefonnummernmuster ausgeführt werden. Alternativ kann ein geeignetes Zahlenmuster für analoge Geräte verwendet werden, während die Online-Voiceroute in einem der vorherigen Schritte konfiguriert wird.
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6})$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="considerations"></a>Überlegungen

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911f880ba817afff10acb2a347a5c8c776d059c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130026"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628904"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Erwerben, konfigurieren und aktivieren Sie Career Coach für Microsoft Teams
 
@@ -194,13 +194,6 @@ Das Dokument muss im CSV-Format mit einer maximalen Größe von 18 MB vorliegen.
 > [!NOTE]
 > Beginnen Sie mit dem [Beispielkurskatalogdokument,]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) um zu beginnen.
 
-##### <a name="sample-csv-file"></a>Beispieldatei .CSV Datei
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
-
 In der folgenden Tabelle sind die Elemente aufgeführt, die in den Kurskatalog enthalten sein müssen:
 
 
@@ -260,6 +253,10 @@ Career Coach kann so angepasst werden, dass er für Ihre Bildungseinrichtung ein
   
 3. Wählen Sie **Übernehmen aus.**
 
+## <a name="making-career-coach-available-to-your-organization"></a>So stellen Sie Career Coach für Ihre Organisation zur Verfügung
+
+Jetzt ist Career Coach für Ihre Organisation konfiguriert. Führen Sie die folgenden Schritte aus, um sicherzustellen, dass Career Coach in Unternehmen verfügbar Microsoft Teams.
+
 ### <a name="enable-the-app"></a>Aktivieren der App
 
 Nachdem Sie die Konfiguration abgeschlossen haben, aktivieren Sie die App für Kursteilnehmer und lizenzierte Benutzer, damit diese Zugriff auf Career Coach erhalten.  
@@ -276,21 +273,37 @@ Nachdem Sie die Konfiguration abgeschlossen haben, aktivieren Sie die App für K
   > [!NOTE]
   > Zulässig bedeutet, dass die App für Benutzer in Ihrer Bildungseinrichtung verfügbar ist. Blockiert bedeutet, dass die App für Schüler/Studierende nicht verfügbar ist.
 
-#### <a name="pin-the-app"></a>Anheften der App
+### <a name="add-career-coach-as-an-installed-app"></a>Career Coach als installierte App hinzufügen
+
+> [!NOTE]
+> Durch diesen Schritt wird sichergestellt, dass 1) Career Coach für Ihre Organisation ordnungsgemäß konfiguriert ist (2), dass Kursteilnehmer Career Coach finden.
+
+1. Melden Sie sich beim **Teams Admin Center an.**
+
+2. Wählen Teams **Setuprichtlinien** &gt; **für Apps Ihre** Richtlinie &gt; *aus.* 
+
+3. Wählen Sie unter Installierte Apps die Option Apps hinzufügen aus.
+
+4. Suchen Sie im Bereich Installierte Apps hinzufügen nach den Apps, die Sie automatisch installieren möchten, wenn die App Teams. Sie können Apps auch nach der App-Berechtigungsrichtlinie filtern. Wenn Sie Ihre App-Liste ausgewählt haben, wählen Sie Hinzufügen aus.
+
+### <a name="pin-the-app"></a>Anheften der App
 
 Durch das Anheften von Career Coach wird die App für Kursteilnehmer barrierefreier und besser sichtbar.
 
 1. Melden Sie sich beim **Teams Admin Center an.**
 
-1. Wählen Teams **Setuprichtlinien** &gt; **für Apps Ihre** Richtlinie &gt; *aus.* 
+2. Wählen Teams **Setuprichtlinien** &gt; **für Apps Ihre** Richtlinie &gt; *aus.* 
 
-2. Wählen **Sie unter Angeheftet Apps** die Option Apps hinzufügen **aus.**
+3. Wählen **Sie unter Angeheftet Apps** die Option Apps hinzufügen **aus.**
 
-1. Suchen Sie nach **Career Coach,** und wählen Sie dann **Hinzufügen aus.**
+4. Suchen Sie nach **Career Coach,** und wählen Sie dann **Hinzufügen aus.**
 
-1. Wählen Sie die Reihenfolge aus, in der die App angezeigt werden soll, und wählen Sie **speichern aus.**
+5. Wählen Sie die Reihenfolge aus, in der die App angezeigt werden soll, und wählen Sie **speichern aus.**
 
-   Die Kursteilnehmer werden in Microsoft Teams, dass Career Coach angeheftet wurde.  
+> [!NOTE]
+> Die Kursteilnehmer werden in Microsoft Teams, dass Career Coach angeheftet wurde.
+
+Weitere Details finden Sie unter Verwalten [von App-Setuprichtlinien in Microsoft.](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
 
 ## <a name="resources"></a>Ressourcen
 
