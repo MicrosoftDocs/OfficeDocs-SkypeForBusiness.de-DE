@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
-ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
+ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2021
-ms.locfileid: "52221808"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656078"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -402,8 +402,7 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 Im Folgenden werden bekannte Probleme und Einschränkungen bei Anrufen und Besprechungen aufgezeigt:
 
 - Die Kompatibilität mit Skype for Business ist auf Audioanrufe beschränkt; es gibt keine Videomodenalität.
-- In Besprechungen oder Gruppenanrufen wird nur ein einzelner eingehender Videostream unterstützt. Wenn mehrere Personen Video senden, wird nur jeweils das Video des Sprechers angezeigt.
-- Die Auflösung für eingehende und ausgehende Videos ist auf eine Auflösung von 720p beschränkt. Dies ist eine WebRTC-Einschränkung.
+- Die Auflösung für eingehende und ausgehende Videos ist auf eine Auflösung von 720p beschränkt.
 - Es wird nur ein Videostream von einer eingehenden Kamera oder einem Bildschirmfreigabestream unterstützt. Wenn es eine Bildschirmfreigabe für eingehende Nachrichten gibt, wird diese Bildschirmfreigabe anstelle des Videos des Sprechers angezeigt.
 - Teams wechselt nicht zur Verwendung des letzten Audiogeräts, das ein Benutzer ausgewählt hat, wenn die Verbindung des Geräts getrennt ist und dann erneut verbunden ist.
 - Ausgehende Bildschirmfreigabe:

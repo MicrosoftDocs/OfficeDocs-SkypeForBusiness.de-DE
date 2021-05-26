@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c27a73928e0740eb325c269fd5ac625fa4c43086
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628924"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656028"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
@@ -67,8 +67,10 @@ Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, 
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Verwendungsverhalten und Richtlinie für externe Benutzer
 
-- Externe Benutzer können keine Teams-Apps verwenden, und wenn ein externer Benutzer einem Kontext mit systemeigenen Benutzern hinzugefügt wird, können keine Apps mehr von allen Benutzern (systemeigene und externe Benutzer) verwendet werden.
-- Externe Benutzer sind von App-Richtlinien nicht betroffen, da sie ihre Apps nicht Teams können.
+- Personen aus anderen Organisationen halten sich an die Standard-Benutzerberechtigungsrichtlinie und organisationsweite Einstellungen der Hostingorganisation.
+- Benutzer in der Hostingorganisation können Apps in Besprechungschats mit Personen aus anderen Organisationen hinzufügen. Personen aus anderen Organisationen können in Besprechungschats keine Apps hinzufügen, können aber mit Bots und Registerkarten interagieren, die dem Chat einmal hinzugefügt wurden.
+- Nachdem ein Bot in einem Chat installiert wurde, kann er proaktiv mit Personen aus anderen Organisationen in diesem Chat kommunizieren, und diese Personen können mit bot kommunizieren.
+- Es werden die Datenrichtlinien der Hostingorganisation sowie die Praktiken bei der Datenfreigabe für von der Organisation dieses Benutzers freigegebene Drittanbieter-Apps angewendet.
 
 ## <a name="anonymous-users"></a>Anonyme Nutzer
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie Microsoft-Telefon sie mit System Direct Routing eine Verbindung mit einem unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft-Telefon System herstellen können.
-ms.openlocfilehash: 90ed1fe51c3b6e3ee6c498fd586e54a05ab533e3
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130284"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656068"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -245,7 +245,10 @@ Die FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pst
 Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit der eingehende und ausgehende Datenverkehr an die und von den Adressen für Die Signalisierung zulässig ist.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** alle diese IP-Adressen aufgelöst. 
 
 > [!IMPORTANT]
->  Im Rahmen Teams Direct Routing-Erweiterung und Dienstverbesserung haben wir neue Instanzen der Direct Routing-Infrastruktur in Australien bereitgestellt. Dies wird in zwei weiteren IP-Adressen (52.114.16.74 und 52.114.20.29) widerspiegelt, denen die folgenden FQDNs für australische Kunden – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com – aufgelöst werden. Sie müssen diese beiden IP-Adressen (52.114.16.74 und 52.114.20.29) Zu Ihren IP-Zugriffssteuerungslisten (ACLs) hinzufügen und Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr an und von den Adressen zur Signalisierung zu ermöglichen.
+> Im Rahmen Teams Direct Routing-Erweiterung und Der Dienstverbesserung haben wir im November 2020 neue Instanzen der Direct-Routing-Infrastruktur in Australien bereitgestellt. Dies wird in zwei zusätzlichen IP-Adressen (52.114.16.74 und 52.114.20.29) widerspiegelt, denen die folgenden FQDNs für australische Kunden – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com – aufgelöst werden. Sie müssen diese beiden IP-Adressen (52.114.16.74 und 52.114.20.29) zu Ihren IP-Zugriffssteuerungslisten (ACLs) hinzufügen und Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr an und von den Adressen für Signale zu ermöglichen.
+
+> [!IMPORTANT]
+> Im Rahmen Teams Direct Routing-Erweiterung und der Verbesserung der Dienste haben wir im Mai 2021 neue Instanzen der Direct-Routing-Infrastruktur in Japan bereitgestellt. Dies spiegelt sich in zwei zusätzlichen IP-Adressen (52.114.36.156 und 52.114.32.169) wider, denen die folgenden FQDNs für japanische Kunden – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com – aufgelöst werden. Sie müssen diese beiden IP-Adressen (52.114.36.156 und 52.114.32.169) zu Ihren IP-Zugriffssteuerungslisten (ACLs) hinzufügen und Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr an die und von den Adressen zur Signalisierung zu ermöglichen.
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365 GGCH- und DoD-Umgebung
 
@@ -341,13 +344,8 @@ Standorte, an denen sowohl SIP-Proxy- als auch Medienprozessorkomponenten bereit
 - US (zwei in den Rechenzentren USA West und US East)
 - Europa (Amsterdam und Dublin-Rechenzentren)
 - Asien (Rechenzentrum für Singapur und Hongkong)
-
-Speicherorte, an denen nur Medienprozessoren bereitgestellt sind (SIP-Datenflüsse über das nächstgelegene Rechenzentrum siehe oben):
 - Japan (Rechenzentrums JP East und West)
 - Australien (AU-Rechenzentrum im Osten und Südosten)
-
-
-
 
 ## <a name="media-traffic-codecs"></a>Mediendatenverkehr: Codecs
 

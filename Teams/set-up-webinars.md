@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Erfahren Sie, wie Sie Webinarrichtlinien für Besprechungen Teams verwalten.
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275519"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656048"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Einrichten von Webinaren in Microsoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>Konfigurieren, wer sich für Webinare registrieren kann
 
-Sie können die Registrierung auf Benutzer in Ihrer Organisation beschränken oder sie für alle Benutzer innerhalb und außerhalb Ihres Mandanten öffnen. **WhoCanRegister** ist standardmäßig aktiviert und auf **Jeder festgelegt.** Wenn Sie die Besprechungsregistrierung deaktivieren möchten, legen Sie **WhoCanRegister auf** **False festgelegt.**
+Sie können die Registrierung auf Benutzer in Ihrer Organisation beschränken oder sie für alle Benutzer innerhalb und außerhalb Ihres Mandanten öffnen. **WhoCanRegister** ist standardmäßig aktiviert und auf **Jeder festgelegt.** Wenn Sie die Besprechungsregistrierung deaktivieren möchten, legen Sie **AllowMeetingRegistration auf** **False .**
 
 > [!IMPORTANT]
-> Denken Sie daran, **dass AllowPrivateMeetingScheduling** auf True festgelegt sein **muss,** damit **WhoCanRegister** funktioniert. Darüber hinaus müssen Microsoft-Listen in einem SharePoint. Weitere Informationen finden Sie unter [Steuerelementeinstellungen für Microsoft-Listen.](/sharepoint/control-lists)
+> Beachten Sie, dass **AllowPrivateMeetingScheduling** auf True festgelegt werden **muss,** damit **AllowMeetingRegistration** funktioniert. Darüber hinaus müssen Microsoft-Listen in einem SharePoint. Weitere Informationen finden Sie unter [Steuerelementeinstellungen für Microsoft-Listen.](/sharepoint/control-lists)
 
 **Führen Sie *dies* aus, um nur Benutzern in Ihrer Organisation die Registrierung für Webinare zu ermöglichen:**
 
