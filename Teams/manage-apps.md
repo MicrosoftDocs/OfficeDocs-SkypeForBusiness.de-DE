@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d42c9609014e4609e74f3cf5022b350d9890ef58
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 16b139750e5a227cc6702e0f8d57cd2f4625f983
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129664"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669227"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
@@ -149,6 +149,10 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer A
 
         > [!NOTE]
         > Wenn **Drittanbieter-Apps zulassen** deaktiviert ist, werden [ausgehende Webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) deaktiviert, was bedeutet, dass Benutzer sie nicht erstellen können. Wenn diese Einstellung aktiviert ist, sind ausgehende Webhooks für alle Benutzer aktiviert, und Sie können sie auf Benutzerebene steuern, indem Sie die ausgehende Webhook-App über App-Berechtigungsrichtlinien zulassen oder [blockieren.](teams-app-permission-policies.md) <br><br>Wenn Sie über [](teams-app-permission-policies.md) vorhandene App-Berechtigungsrichtlinien für  **Microsoft-Apps** verfügen, die die Einstellung Bestimmte Apps zulassen und alle anderen blockieren verwenden, und Sie ausgehende Webhooks für Benutzer aktivieren möchten, fügen Sie die ausgehende Webhook-App zur Liste hinzu.
+
+        > [!NOTE]
+        > Teams-Benutzer können Apps hinzufügen, wenn sie Besprechungen oder Chats mit Personen aus anderen Organisationen hosten. Sie können auch Apps verwenden, die von Personen in anderen Organisationen gemeinsam genutzt werden, wenn sie an Besprechungen oder Chats teilnehmen, die von diesen Organisationen gehostet werden. Es werden die Datenrichtlinien der Organisation des hostingden Benutzers sowie die Methoden zur Datenfreigabe für alle von dieser Organisation freigegebenen Drittanbieter-Apps angewendet.
+
     - **Alle neuen Drittanbieter-Apps, die im Store veröffentlicht werden, standardmäßig zulassen**: Steuert, ob neue Drittanbieter-Apps, die im Teams-App-Store veröffentlicht werden, automatisch in Teams verfügbar gemacht werden. Sie können diese Option nur aktivieren, wenn Sie Drittanbieter-Apps zulassen.
 
 3. Deaktivieren **oder aktivieren Sie unter** Benutzerdefinierte Apps das Bzw. die Aktivieren von Interaktion mit **benutzerdefinierten Apps zulassen.** Diese Einstellung steuert, ob Benutzer mit benutzerdefinierten Apps interagieren können. Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md).

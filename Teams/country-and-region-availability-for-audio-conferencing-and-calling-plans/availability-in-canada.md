@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kanada.
-ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629014"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669217"
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 
@@ -65,6 +65,9 @@ Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business
 | Sind ausgehende Anrufe möglich?  <br/>                 | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/>                                                                                                                                                                  |
 
 > [!Note]
+> Wenn ein Anrufplanbenutzer (in den USA bzw. im Inland und im Ausland) eine Telefonnummer in Kanada wählt, wird er als Inlandsanruf behandelt. Dies ist auch der Fall, wenn ein Benutzer in Kanada eine Telefonnummer in den USA wählt. Wenn Sie jedoch auch Anrufplanrichtlinien verwenden, um die Benutzeranwahl nur auf "Inland" zu beschränken, kann ein US-Benutzer Kanada ebenso nicht anrufen, und ebenso kann ein kanadischer Benutzer keinen US-Benutzer anrufen.
+
+> [!Note]
 > Anrufe in die USA werden als Inlandsgespräche behandelt.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
@@ -76,9 +79,6 @@ Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
-
-> [!Note]
-> Wenn ein Anrufplanbenutzer (in den USA bzw. im Inland und im Ausland) eine Telefonnummer in Kanada wählt, wird er als Inlandsanruf behandelt. Dies ist auch der Fall, wenn ein Benutzer in Kanada eine Telefonnummer in den USA wählt. Wenn Sie jedoch auch Anrufplanrichtlinien verwenden, um die Benutzeranwahl nur auf "Inland" zu beschränken, kann ein US-Benutzer Kanada ebenso nicht anrufen, und ebenso kann ein kanadischer Benutzer keinen US-Benutzer anrufen.
 
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

@@ -17,15 +17,14 @@ description: Mithilfe von Connectors bleiben Ihre Teams auf dem Laufenden, indem
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 908469913944aea2a27feb8a35b0e5e5620aae3f
-ms.sourcegitcommit: 44de1da5617f57f8c37780ad3451c0128f60b1f8
+ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50076417"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669147"
 ---
-<a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden Microsoft 365 und benutzerdefinierten Verbindern in Microsoft Teams
-=======================================================
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden Microsoft 365 und benutzerdefinierten Verbindern in Microsoft Teams
 
 Connectors halten Ihr Team auf dem laufenden, indem häufig verwendete Inhalts- und Dienstupdates direkt in einem Kanal zur Verfügung gestellt werden. Mit Connectors können Microsoft Teams Benutzer Updates von beliebten Diensten wie Trello, Wunderlist, GitHub und Azure DevOps Services innerhalb des Chatstreams im Team erhalten.
 
@@ -33,8 +32,9 @@ Jedes Mitglied eines Teams kann sein Team mit beliebten Clouddiensten über die 
 
 Microsoft 365 Connectors können sowohl mit Microsoft Teams als auch Microsoft 365-Gruppen verwendet werden, wodurch es für alle Mitglieder einfacher wird, synchronisiert zu bleiben und relevante Informationen schnell zu erhalten. Sowohl Microsoft Teams als Exchange verwenden dasselbe Verbindermodell, das es Ihnen ermöglicht, die gleichen Verbinder auf beiden Plattformen zu verwenden. Es ist jedoch zu erwähnen, dass das Deaktivieren von Connectors für die Microsoft 365-Gruppe, von der ein Team abhängig ist, die Möglichkeit zum Erstellen von Connectors auch für dieses Team deaktiviert.
 
-<a name="add-a-connector-to-a-channel"></a>Hinzufügen eines Connectors zu einem Kanal
-----------------------------
+> [Hinweis] Connectors sind in Government Cloud Community (GCC) standardmäßig deaktiviert. Wenn Sie sie aktivieren müssen, legen Sie die Parameter ConnectorsEnabled oder ConnectorsEnabledForTeams auf $true [SetOrganizationConfig-Cmdlet](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) fest. Sie mussten zuvor eine Verbindung mit dem Exchange Online [PowerShell herstellen.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+
+## <a name="add-a-connector-to-a-channel"></a>Hinzufügen eines Connectors zu einem Kanal
 
 Derzeit können Sie Connectors mithilfe Microsoft Teams Desktop- und Webclients hinzufügen. Die von diesen Connectors bereitgestellten Informationen können jedoch auf allen Clients **angezeigt werden, auch** auf mobilen Geräten.
 
@@ -72,7 +72,7 @@ Derzeit können Sie Connectors mithilfe Microsoft Teams Desktop- und Webclients 
 > ![Screenshot der Meldung "DIE URL ist aktuell".](media/Teams_URL_up_to_date.png)
 
 
-<a name="develop-custom-connectors"></a>Entwickeln von benutzerdefinierten Connectors
-----------------------------
+## <a name="develop-custom-connectors"></a>Entwickeln von benutzerdefinierten Connectors
+
 
 Sie können auch benutzerdefinierte Connectors sowie eingehende und ausgehende Webhooks erstellen. Weitere Informationen finden Sie in der [Dokumentation für Entwickler](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).
