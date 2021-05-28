@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Informationen zur Patienten-App für Teams-Administratoren
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803503"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697842"
 ---
 # <a name="patients-app-overview"></a>Übersicht über die Patienten-App
 
@@ -45,7 +45,7 @@ Zu jeder Schicht in Krankenstationen treffen sich Ärzte zu Besprechungen, um si
 
 ## <a name="configure-patients-app"></a>Konfigurieren der Patienten-App
 
-Informationen dazu, wie Sie Ihre Umgebung für die Verwendung der Patienten-App im EMR-Modus vorbereiten, finden Sie unter [Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](patients-app.md). Lesen Sie auch [Verwalten von Richtlinien für das App-Setup in Microsoft Teams](../../teams-app-setup-policies.md), um die Patienten-App für Ihre Organisation zu aktivieren.
+Lesen [Sie Verwalten von App-Setuprichtlinien in Microsoft Teams,](../../teams-app-setup-policies.md) um die Patienten-App für Ihre Organisation zu aktivieren.
 
 Informationen dazu, wie Ihre Endbenutzer auf die Patienten-App zugreifen und sie in einem Team installieren können, dessen Besitzer sie sind oder das sie verwalten, finden Sie unter [Erste Schritte mit "Patienten" in Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 
@@ -74,6 +74,3 @@ Derzeit nicht, aber diese Funktion wird in Kürze verfügbar sein.
 
 Ja. Jede einzelne Benutzeroberflächenaktion, die ein Microsoft Teams-Benutzer in der Patienten-App ausführt, wird überwacht und ist im Sicherheits- und Compliance Center verfügbar. Die Details hierzu finden Sie unter [Überwachungsprotokolle für die Patienten-App](patients-audit.md).
 
-## <a name="related-topics"></a>Verwandte Themen
-
-[Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](patients-app.md)

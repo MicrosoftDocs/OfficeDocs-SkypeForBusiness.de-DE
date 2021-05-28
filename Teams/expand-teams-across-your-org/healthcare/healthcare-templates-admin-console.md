@@ -1,5 +1,5 @@
 ---
-title: Erstellen eines Teams mithilfe von Teams-Vorlagen für das Gesundheitswesen
+title: Erstellen eines Teams mithilfe von Vorlagen im Gesundheitswesen
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,31 +20,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Verwenden Sie Microsoft Teams-Vorlagen im Admin Center oder mit Microsoft Graph, um schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und Apps bereitstellen.
+description: Verwenden Sie Teamvorlagen im Admin Center oder mit Microsoft Graph, um Schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und Apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117873"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684352"
 ---
-# <a name="create-a-team-using-teams-healthcare-templates"></a>Erstellen eines Teams mithilfe von Teams-Vorlagen für das Gesundheitswesen
+# <a name="use-a-healthcare-team-templates"></a>Verwenden von Vorlagen für ein Gesundheitsteam
 
-Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
+Mit Vorlagen können Sie Teams schnell und einfach erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
 
-Für Organisationen im Gesundheitswesen können Vorlagen besonders leistungsfähig sein, da sie den Benutzern eine Struktur bieten, in der sie sich an der effektiven Verwendung von Teams orientieren können. Mithilfe von Vorlagen können Administratoren auch konsistente Teams in ihren Organisationen bereitstellen. Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Gesundheitsorganisation verantwortlich sind.
+Für Organisationen im Gesundheitswesen können Vorlagen besonders leistungsfähig sein, da sie eine Struktur für die Benutzer bieten, die sich mit der effektiven Nutzung ihrer Daten Microsoft Teams. Mithilfe von Vorlagen können Administratoren auch konsistente Teams in ihren Organisationen bereitstellen. Dieser Artikel richtet sich an Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Gesundheitsorganisation verantwortlich sind.
 
-Wählen Sie eine Methode zum Erstellen von Teams mit den Teams-Vorlagen für das Gesundheitswesen:
+Wählen Sie eine Methode zum Erstellen von Teams mit Den Vorlagen für das Team Gesundheitswesen aus:
 
 | Wer | Zu verwendende Methode: |
 | ---- | --------- |
-| Administratoren und IT-Spezialisten | [Verwenden Sie das Teams Admin Center](#use-the-teams-templates-in-the-teams-admin-center), um Teams basierend auf den Teams-Vorlagen für das Gesundheitswesen zu erstellen.|
-| Entwickler und Systemintegratoren | [Verwenden Sie Microsoft Graph](#use-the-teams-templates-with-the-microsoft-graph), um Teams basierend auf den Teams-Vorlagen für das Gesundheitswesen zu erstellen. |
+| Administratoren und IT-Spezialisten | [Verwenden Sie Teams Admin Center,](#use-the-team-templates-in-the-admin-center) um Teams basierend auf den Vorlagen im Gesundheitswesen zu erstellen.|
+| Entwickler und Systemintegratoren | [Verwenden Sie die Microsoft Graph,](#use-the-team-templates-with-the-microsoft-graph) um ein Team basierend auf den Vorlagen des Gesundheitsteams zu erstellen. |
 
-## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Verwenden Sie die Teams-Vorlagen im Teams Admin Center
+## <a name="use-the-team-templates-in-the-admin-center"></a>Verwenden der Teamvorlagen im Admin Center
 
-Microsoft Teams-Administratoren können das Teams Admin Center verwenden, um Teams mit den Teams-Vorlagen zu erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen im Admin Center](../../get-started-with-teams-templates-in-the-admin-console.md).
+Microsoft Teams Administratoren können das Teams Admin Center verwenden, um Teams mit den Teamvorlagen zu erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen im Admin Center.](../../get-started-with-teams-templates-in-the-admin-console.md)
 
 ### <a name="collaborate-on-patient-care"></a>Arbeiten Sie bei der Patientenversorgung zusammen
 
@@ -65,9 +65,9 @@ Optimieren Sie die Kommunikation und Zusammenarbeit zwischen mehreren Stationen,
 ||||
 
 
-## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Verwenden Sie die Teams-Vorlagen mit Microsoft Graph
+## <a name="use-the-team-templates-with-the-microsoft-graph"></a>Verwenden der Teamvorlagen mit dem Microsoft-Graph
 
-Entwickler können mithilfe von Microsoft Graph Teams mit den Teams-Vorlagen erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](../../get-started-with-teams-templates.md). Informationen zu Teams-Vorlagen und Microsoft Graph finden Sie unter [Microsoft Teams-API – Übersicht](/graph/teams-concept-overview?view=graph-rest-1.0) und [teamsTemplate-Ressourcentyp](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Entwickler können die Microsoft-Graph verwenden, um Teams mit den Teamvorlagen zu erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter [Erste Schritte mit Teamvorlagen.](../../get-started-with-teams-templates.md) Informationen zu Teamvorlagen und dem Microsoft-Graph finden Sie unter Übersicht [Microsoft Teams-API](/graph/teams-concept-overview?view=graph-rest-1.0) und [teamsTemplate-Ressourcentyp](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
 
 ### <a name="ward-template"></a>Sationsvorlage
 
@@ -93,7 +93,7 @@ Die Krankenhausvorlage ist für die Kommunikation und Zusammenarbeit zwischen me
 
 ### <a name="how-to-use-first-party-templates"></a>So verwenden Sie Vorlagen von Erstanbietern
 
-Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@odata.bind' im Anforderungshauptteil von 'standard' in die obigen TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta).
+Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@odata.bind' im Anforderungshauptteil von 'standard' in die obigen TemplateIDs.  Weitere Informationen zum Bereitstellen von Teamvorlagen finden Sie im Microsoft Graph zum Erstellen [eines Teams.](/graph/api/team-post?view=graph-rest-beta)
 
 > [!NOTE]
 > Die Kanäle in der Vorlage werden automatisch auf der Registerkarte Allgemein erstellt.
@@ -202,6 +202,6 @@ Um diese Vorlagen zu verwenden, ändern Sie einfach die Eigenschaft 'template@od
 
 ### <a name="related-topics"></a>Verwandte Themen
 
-[Erste Schritte mit Teams-Vorlagen](../../get-started-with-teams-templates.md)
+[Erste Schritte mit Teamvorlagen](../../get-started-with-teams-templates.md)
 
-[Erste Schritte mit Teams für Organisationen im Gesundheitswesen](teams-in-hc.md)
+[Erste Schritte mit dem Team für Organisationen im Gesundheitswesen](teams-in-hc.md)

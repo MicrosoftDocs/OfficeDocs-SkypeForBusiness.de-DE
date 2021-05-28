@@ -1,5 +1,5 @@
 ---
-title: Verwalten Teams Vorlagen im Admin Center
+title: Verwalten von Teamvorlagen im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Teams Vorlagen im Admin Center verwalten.
-ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erfahren Sie, wie Sie Teamvorlagen im Admin Center verwalten.
+ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093925"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684582"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>Verwalten Teams Vorlagen im Admin Center
+# <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
 
-Verwalten Sie Teams Vorlagen, die Endbenutzer sehen, indem Sie Vorlagenrichtlinien im Admin Center erstellen. Innerhalb jeder Vorlagenrichtlinie können Sie festlegen, welche Vorlagen ein- oder ausgeblendet werden sollen.
-Weisen Sie verschiedene Benutzer verschiedenen Vorlagenrichtlinien zu, damit Ihre Benutzer nur die Teilmenge Teams Vorlagen anzeigen können.
+Verwalten Sie die Teamvorlagen, die Ihren Endbenutzern angezeigt werden, indem Sie Vorlagenrichtlinien im Admin Center erstellen. Innerhalb jeder Vorlagenrichtlinie können Sie festlegen, welche Vorlagen ein- oder ausgeblendet werden sollen.
+Weisen Sie verschiedene Benutzer verschiedenen Vorlagenrichtlinien zu, damit Ihre Benutzer nur die Teilmenge der angegebenen Teamvorlagen anzeigen können.
 
 In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
@@ -119,7 +119,7 @@ A: Ja.
 A: Im Admin Center:
 
 1. Wechseln Sie zum **Abschnitt** Benutzer.
-2. Wählen Sie den Filter in der Liste Benutzer aus, und filtern Sie nach der Teams-Vorlagenrichtlinie.
+2. Wählen Sie den Filter in der Liste Benutzer aus, und filtern Sie nach der Teamvorlagenrichtlinie.
 3. Wählen Sie **Übernehmen aus.**
 
 ![Ausgewählte Vorlagenrichtlinie und Anzeigen von Benutzern](media/template-policies-5.png)

@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: Informationen zur Überwachung der Patienten-App für Teams Administratoren
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3cf850b8ae7312fa6c43f879baefb617f48d30b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096189"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697832"
 ---
 # <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die Patienten-App
 
@@ -45,7 +45,7 @@ Gemäß den HIPAA-Richtlinien müssen Anbieter im Gesundheitswesen Aufzeichnunge
 
 Eine Überwachung hängt von mehreren vorherigen Konfigurationen ab:
 
-1. Der Administrator muss mit seinem FFORMAT-Dienstanbieter zusammenarbeiten, um EMR in einem von der Patienten-App verwendeten Format zu verwenden. Weitere Informationen finden Sie unter Integrieren [von elektronischen Datensätzen im Gesundheitswesen in Microsoft Teams.](patients-app.md)
+1. Der Administrator muss mit seinem FFORMAT-Dienstanbieter zusammenarbeiten, um EMR in einem von der Patienten-App verwendeten Format zu verwenden. 
 2. Ein Administrator eines Gesundheitswesens muss die Patienten-App in Teams Admin Center aktivieren. Weitere [Informationen finden Sie](../../teams-app-setup-policies.md) unter Verwalten Microsoft Teams Richtlinien für die App-Einrichtung in den zugehörigen Artikeln.
 3. Der Administrator muss Aktivitätsprüfungen auf die gleiche Weise aktivieren wie jede Aktivitätsprotokollprüfung, wie [unter](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) Bevor Sie beginnen und Überwachungsprotokollsuche aktivieren oder [deaktivieren beschrieben.](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search) Wenn die Überwachungsprotokollierung bereits on ist, ist für die Patienten-App nichts Besonderes erforderlich. Jedes Mal, wenn ein Gesundheitswesensanbieter die App in einem Team installiert und führt, zeichnen die Überwachungsprotokolle ihre PHI-Aktivität auf.
 4. Der Administrator müsste dann die Verfügbarkeit der Patienten-App ankündigen, und Mitarbeiter im Gesundheitswesen mussten mit der Generierung von Aktivitäten beginnen, um in ein Audit eingeschlossen zu werden.
@@ -60,7 +60,7 @@ Anweisungen zum Ausführen einer Suche im Aktivitätsprotokoll finden Sie unter 
 
 Die Patienten-App verfügt über eigene protokollierte Aktivitäten, die in der folgenden Tabelle aufgeführt sind:
 
-|Anzeigename |Vorgang|Beschreibung|
+|Anzeigename | Vorgang | Beschreibung|
 |:---|:---|:---|
 | Angezeigte Patientenliste | PatientListView | Ein Benutzer hat eine Patientenliste angezeigt.|
 | Liste der gelöschten Patienten | PatientListDelete | Ein Benutzer hat eine Liste von Patienten gelöscht.|
@@ -78,7 +78,6 @@ Die Patienten-App verfügt über eigene protokollierte Aktivitäten, die in der 
 | Patientendetails anzeigen | PatientView | Ein Benutzer hat eine Krankenakte angezeigt.|
 | Bearbeitete Patientendetails | PatientDetailsEdit | Es wurde ein Detail zu einer Krankenakte bearbeitet. |
 | Festlegen der EHR-Verbindung | EHRConnectionSet | Legen Sie die URL für die Verbindung mit der EHR FEHR-Dienstverbindung festgelegt. Beispiel: https://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
-||||
 
 Sie können Ihr Audit nach Bedarf anpassen, um nach diesen protokollierten Aktivitäten zu suchen oder nach diesen zu filtern.
 
@@ -87,5 +86,3 @@ Protokollierte Aktivitäten für Microsoft Teams im Allgemeinen werden in den Mi
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Durchsuchen des Überwachungsprotokolls](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
-
-[Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams](patients-app.md)

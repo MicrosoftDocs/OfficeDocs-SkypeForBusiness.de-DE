@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628904"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684572"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Erwerben, konfigurieren und aktivieren Sie Career Coach für Microsoft Teams
 
@@ -69,7 +69,7 @@ Career Coach steht weltweit (mit Ausnahme von China und Russland) für qualifizi
 
 ### <a name="assign-app-licenses-to-users"></a>Zuweisen von App-Lizenzen zu Benutzern
 
-Eine schrittweise Anleitung finden Sie unter [Zuweisen von Lizenzen zu Benutzern.](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
+Eine schrittweise Anleitung finden Sie unter [Zuweisen von Lizenzen zu Benutzern.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="turn-on-linkedin-account-connections"></a>Aktivieren von LinkedIn-Kontoverbindungen
 
@@ -303,7 +303,7 @@ Durch das Anheften von Career Coach wird die App für Kursteilnehmer barrierefre
 > [!NOTE]
 > Die Kursteilnehmer werden in Microsoft Teams, dass Career Coach angeheftet wurde.
 
-Weitere Details finden Sie unter Verwalten [von App-Setuprichtlinien in Microsoft.](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+Weitere Details finden Sie unter Verwalten [von App-Setuprichtlinien in Microsoft.](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="resources"></a>Ressourcen
 

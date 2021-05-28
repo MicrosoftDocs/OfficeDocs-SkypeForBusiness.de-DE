@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 800bc37ee25c073d0702c519196620faa1faf92e
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 5b202d0a1895c3fd9b4279d6a7db072cd18f72ad
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574164"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689783"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -86,12 +86,12 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 
 - **Chat**: Aktivieren Sie diese Einstellung, wenn Sie möchten, dass die Benutzer in Ihrer Organisation mithilfe der Teams-App mit anderen Personen chatten können.
 - **Verwenden von Giphys in Unterhaltungen**  Wenn Sie Giphys aktivieren, können die Benutzer Giphys in Chatunterhaltungen mit anderen Personen enthalten. Giphy ist eine Onlinedatenbank und Suchmaschine, die es Benutzern ermöglicht, nach animierten GIF-Dateien zu suchen und diese zu teilen. Jedem Giphy wird eine Inhaltsbewertung zugewiesen. Zusätzlich zum Aktivieren dieser Einstellung müssen [](/deployoffice/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences) Sie optionale verbundene Erfahrungen aktivieren, um Giphys in Unterhaltungen zu ermöglichen.
-- **Bewertung des Inhalts 'Bonität'**
+- **Giphy-Inhaltsklassifikation**
     - **Keine Einschränkung**: Das bedeutet, dass Ihre Benutzer beliebige Giphys in Chats einfügen können – unabhängig von ihrer Inhaltsbewertung.
     - **Moderat**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber moderat eingeschränkt wird.
     - **Streng**: Das bedeutet, dass Benutzer Giphys in Chats einfügen können, der Zugriff auf nicht jugendfreie Inhalte aber streng eingeschränkt wird.
 - **Verwenden von Memes in Unterhaltungen** Wenn Sie Memes aktivieren, können Benutzer Memes in Chatunterhaltungen mit anderen Personen enthalten.
-- **Verwenden Sie Aufkleber in Unterhaltungen. Wenn Sie dies aktivieren, können Benutzer Aufkleber in Chatunterhaltungen mit anderen Personen hinzufügen.
+- **Sticker in Unterhaltungen verwenden**: Wenn Sie diese Funktion aktivieren, können Benutzer Sticker in Chats mit anderen Personen verwenden.
 - **URL-Vorschau zulassen**: Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten zu aktivieren bzw. zu deaktivieren.
 - **Übersetzung von Nachrichten durch Benutzer zulassen**: Wenn diese Funktion aktiviert ist, können Benutzer Microsoft Teams-Nachrichten automatisch in die Sprache übersetzen lassen, die in ihren persönlichen Spracheinstellungen für Microsoft 365 oder Office 365 festgelegt ist.
 - **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.

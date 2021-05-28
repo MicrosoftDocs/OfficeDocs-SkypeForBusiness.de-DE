@@ -16,16 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 75702152f073ffe94bb9712840b97bc31eaa394a
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308098"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684362"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>Erstellen Einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+# <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Erstellen Sie eine neue Teamvorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
 
 **Benutzerdefinierte Vorlagen werden für EDU-Kunden noch nicht unterstützt.**
 
@@ -35,7 +33,7 @@ Microsoft Teams stellt vordefinierte Vorlagen bereit, die gespeichert und an Ihr
 
 2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
 
-3. Wählen Sie **im Abschnitt Teamvorlagen** neben einer Vorlage, die Sie duplizieren möchten, um sie zu markieren.
+3. Wählen Sie **im Abschnitt Teamvorlagen** neben einer Teamvorlage, die Sie duplizieren möchten, die Option aus, um sie zu markieren.
 
 4. Wählen Sie **Duplizieren aus.**
 

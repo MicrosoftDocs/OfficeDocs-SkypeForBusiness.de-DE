@@ -1,5 +1,5 @@
 ---
-title: Verwenden Teams Vorlagen im Admin Center
+title: Verwenden von Teamvorlagen im Admin Center
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,28 +11,28 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie, wie Teams verwenden, um mithilfe vorinstallierter Vorlagen Bereiche für die Zusammenarbeit mit Kanälen für verschiedene Themen zu erstellen.
+description: Erfahren Sie, wie Sie mithilfe von Teamvorlagen mithilfe vorinstallierter Vorlagen Bereiche für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264895"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684452"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>Erste Schritte Teams Vorlagen im Admin Center
+# <a name="get-started-with-team-templates-in-the-admin-center"></a>Erste Schritte mit Teamvorlagen im Admin Center
 
 **Die Möglichkeit zum Erstellen von benutzerdefinierten Vorlagen wird für EDU-Kunden noch nicht unterstützt.**
 
 > [!NOTE]
-> Private Kanäle und Vertraulichkeitsbezeichnungen werden in vorlagen derzeit Teams unterstützt. Die Erstellung privater Kanäle ist nicht in den Vorlagendefinitionen enthalten. Die Option für Vertraulichkeitsbeschriftung in **Team aus** Vorlagenfluss erstellen wird nicht auf das Team angewendet.
+> Private Kanäle und Vertraulichkeitsbezeichnungen werden in Teamvorlagen derzeit nicht unterstützt. Die Erstellung privater Kanäle ist nicht in den Vorlagendefinitionen enthalten. Die Option für Vertraulichkeitsbeschriftung in **Team aus** Vorlagenfluss erstellen wird nicht auf das Team angewendet.
 
-Teams-Vorlagen sind vordefinierte Definitionen der Teamstruktur, die auf geschäftlichen Bedarf oder ein geschäftliches Projekt ausgelegt ist. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Teams-Vorlagen können Sie schnell umfangreiche Bereiche für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und Apps vorinstallieren, um unternehmenskritische Inhalte und Dienste zu nutzen. Teams-Vorlagen bieten eine vordefinierte Teamstruktur, die Ihnen hilft, im gesamten Unternehmen problemlos einheitliche Teams zu erstellen. Derzeit können Sie ein Team aus einer Vorlage in Teams oder mithilfe von [Microsoft Graph.](get-started-with-teams-templates.md)
+Teamvorlagen sind vordefinierte Definitionen der Teamstruktur, die für einen geschäftlichen Bedarf oder ein geschäftliches Projekt konzipiert ist. Verwenden Sie vordefinierte Vorlagen, oder erstellen Sie eine eigene Vorlage. Mit Teamvorlagen können Sie schnell umfangreiche Bereiche für die Zusammenarbeit mit Kanälen für verschiedene Themen erstellen und Apps vorinstallieren, um unternehmenskritische Inhalte und Dienste einziehen zu können. Teamvorlagen bieten eine vordefinierte Teamstruktur, die Ihnen hilft, im gesamten Unternehmen problemlos einheitliche Teams zu erstellen. Derzeit können Sie ein Team aus einer Vorlage in Teams oder mithilfe von [Microsoft Graph.](get-started-with-teams-templates.md)
 
 In diesem Artikel werden die folgenden Features beschrieben:
 
@@ -42,11 +42,11 @@ In diesem Artikel werden die folgenden Features beschrieben:
 
 Dieser Artikel ist für Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Organisation zuständig sind.
 
-## <a name="teams-template-capabilities"></a>Teams von Vorlagenfunktionen
+## <a name="team-template-capabilities"></a>Funktionen für Teamvorlagen
 
-Die meisten Eigenschaften in einem Team werden eingeschlossen und von Vorlagen unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. Die folgende Tabelle enthält eine kurze Zusammenfassung der enthaltenen und nicht in den Vorlagen Teams Vorlagen.
+Die meisten Eigenschaften in einem Team werden eingeschlossen und von Vorlagen unterstützt. Es gibt jedoch einige Eigenschaften und Features, die derzeit nicht unterstützt werden. Die folgende Tabelle enthält eine kurze Zusammenfassung der Informationen, die in Teamvorlagen enthalten sind und was nicht.
 
-| **Teameigenschaften, die von Teams unterstützt werden** | **Teameigenschaften, die von den Vorlagen noch Teams werden** |
+| **Von Teamvorlagen unterstützte Teameigenschaften** | **Teameigenschaften, die von Teamvorlagen noch nicht unterstützt werden** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | Basisorlagentyp | Teammitgliedschaft |
 | Teamname | Teambild |
@@ -115,11 +115,11 @@ Weitere [Informationen finden Sie](limits-specifications-teams.md) Teams Beschr�
 
 Verwenden Sie die folgenden Cmdlts, um Ihre Vorlagen in PowerShell zu verwalten.
 
-- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
-- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
-- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

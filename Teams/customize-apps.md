@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337802"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684592"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "52337802"
 - Symbol "Gliederung"
 - Akzentfarbe
 
-Details zu [den Feldern,](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) die Sie anpassen können, finden Sie im Teams Manifestschema.
+Details zu [den Feldern,](/microsoftteams/platform/resources/schema/manifest-schema) die Sie anpassen können, finden Sie im Teams Manifestschema.
 
 > [!NOTE]
 > Das Anpassen von Apps wird in Government Community Cloud High (GCCH) oder Department of Defense (DoD) derzeit nicht unterstützt.
@@ -173,3 +173,4 @@ Nein, auf dem Bildschirm mit der Zustimmung wird weiterhin der ursprüngliche We
 
 - [Verwalten von Apps](manage-apps.md)
 - [Anpassen Ihres App Store](customize-your-app-store.md)
+- [Umbenennen Ihrer Apps](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)

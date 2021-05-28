@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Verschieben Von hyriden Anwendungsendpunkten vor der Außerbetriebnahme Skype for Business lokalen Umgebung.
-ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526718"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684382"
 ---
 # <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Verschieben von Hybridanwendungsendpunkten vor der Außerbetriebnahme Ihrer lokalen Umgebung
 
@@ -46,7 +46,7 @@ Bevor Sie diese Endpunkte ins Internet verschieben können, müssen Sie sicherst
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Erstellen und Lizenz für [neue Ressourcenkonten](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) in Microsoft 365, um die vorhandenen lokalen Hybridanwendungsendpunkte zu ersetzen.
+2. Erstellen und Lizenz für [neue Ressourcenkonten](/microsoftteams/manage-resource-accounts) in Microsoft 365, um die vorhandenen lokalen Hybridanwendungsendpunkte zu ersetzen.
 
 3. Ordnen Sie die neuen Ressourcenkonten den vorhandenen Hybridanwendungsendpunkten zu.
 
@@ -70,7 +70,7 @@ Bevor Sie diese Endpunkte ins Internet verschieben können, müssen Sie sicherst
    }
    ```
 
-6. Weisen Sie den neuen Ressourcenkonten, die in Schritt 2 erstellt wurden, Telefonnummern zu. Weitere Informationen zum Zuweisen einer Telefonnummer zu einem Ressourcenkonto finden Sie im folgenden Artikel: [Zuweisen einer Dienstnummer](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number).
+6. Weisen Sie den neuen Ressourcenkonten, die in Schritt 2 erstellt wurden, Telefonnummern zu. Weitere Informationen zum Zuweisen einer Telefonnummer zu einem Ressourcenkonto finden Sie im folgenden Artikel: [Zuweisen einer Dienstnummer](/microsoftteams/manage-resource-accounts#assign-a-service-number).
 
 7. Löschen Sie die lokalen Endpunkte, indem Sie den folgenden lokalen Skype for Business Server PowerShell-Befehl ausführen:
 
@@ -79,7 +79,7 @@ Bevor Sie diese Endpunkte ins Internet verschieben können, müssen Sie sicherst
    ```
 Sie können nun Ihre lokale Bereitstellung Skype for Business [entfernen.](decommission-remove-on-prem.md)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 - [Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
 

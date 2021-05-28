@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Microsoft Teams Cloud-Sprachfeatures und die Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 92b28a00e1737b533c17cf3f1f670bc23561620d
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102571"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689793"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Teams-Sprachlösung 
 
@@ -51,8 +51,10 @@ Wenn Sie mit Ja antworten, ist Telefonsystem Anrufplan die richtige Lösung für
 Möglicherweise ist Ihre Situation jedoch komplexer. So könnten Sie beispielsweise Niederlassungen an Standorten haben, an denen kein Anrufplan verfügbar ist. Oder Sie benötigen eine Kombinationslösung, die eine komplexe, multinationale Bereitstellung mit unterschiedlichen Anforderungen für unterschiedliche geografische Standorte unterstützt. Microsoft unterstützt eine Kombination von Lösungen: 
 
 - Telefonsystem mit Anrufplan
+- Telefonsystem bei Ihrem eigenen Netzbetreiber mit Netzbetreiber Verbinden (derzeit nur in **der öffentlichen Vorschau verfügbar)**
 - Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber mit Direct Routing
-- Eine Kombinationslösung, die sowohl Verbindungen Telefonsystem Anrufplan als Telefonsystem mit Direct-Routing verwendet
+- Eine Kombinationslösung, die Telefonsystem Anrufplan, Telefonsystem mit Operator Verbinden und/oder Telefonsystem mit Direct-Routing verwendet
+
 
 ## <a name="what-do-you-need-to-read"></a>Was müssen Sie lesen?
 
@@ -62,7 +64,7 @@ Möglicherweise ist Ihre Situation jedoch komplexer. So könnten Sie beispielswe
 | Erforderlich für alle | Beschreibung |
 | :------------|:-------|
 | [**Telefonsystem**](#phone-system) | Die Microsoft-Technologie zum Aktivieren von Anrufsteuerung und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365 Mit Microsoft Teams. |
-| [**PstN-Konnektivitätsoptionen (Public Switched Telephone Network)**](#public-switched-telephone-network-connectivity-options) | Sie können wählen, ob Sie Microsoft als Netzbetreiber verwenden oder Ihren eigenen Netzbetreiber mit Microsoft Teams direktes Routing verbinden. In Kombination Telefonsystem Konnektivitätsoptionen für das Festnetz ermöglichen es Ihren Benutzern, weltweit Telefonanrufe zu telefonieren.|
+| [**PstN-Konnektivitätsoptionen (Public Switched Telephone Network)**](#public-switched-telephone-network-connectivity-options) | Sie können zwischen der Verwendung von Microsoft als Netzbetreiber oder der Verbindung Ihres eigenen Telefonieanbieters mit Microsoft Teams über Direct Routing oder Operator Verbinden. In Kombination Telefonsystem Konnektivitätsoptionen für das Festnetz ermöglichen es Ihren Benutzern, weltweit Telefonanrufe zu telefonieren.|
 
 **Je nach Ihren Anforderungen.** Einige der Abschnitte in diesem Artikel sind abhängig von Ihrer vorhandenen Bereitstellung und den anforderungen relevant. Beispielsweise ist Location-Based Routing nur für Direct Routing-Kunden an geografischen Standorten erforderlich, die keine gebührenpflichtige Umgehung zulassen.
 
@@ -82,7 +84,7 @@ Möglicherweise ist Ihre Situation jedoch komplexer. So könnten Sie beispielswe
 
 
 > [!Important]
-> Dieser Artikel konzentriert sich auf Sprachlösungen mit Microsoft Teams. Auch wenn Lösungen mit Skype for Business Online weiterhin verfügbar sind (wie in [den Telefonielösungen](/SkypeForBusiness/hybrid/msft-telephony-solutions)von Microsoft beschrieben), ist es wichtig zu wissen, dass Skype for Business Online am 31. Juli 2021 eingestellt wird.  Nach diesem Datum kann auf Skype for Business Onlinedienst nicht mehr zugegriffen werden. Darüber hinaus wird die PSTN-Verbindung zwischen Ihrer lokalen Umgebung – unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online – &mdash; &mdash; nicht mehr unterstützt. In diesem Artikel werden Teams Sprachlösungen und die erforderlichen Schritte zum Verbinden Ihres lokalen Telefonienetzwerks mit Teams Direktes Routing erläutert.
+> Dieser Artikel konzentriert sich auf Sprachlösungen mit Microsoft Teams. Auch wenn Lösungen mit Skype for Business Online weiterhin verfügbar sind (wie in [den Telefonielösungen](/SkypeForBusiness/hybrid/msft-telephony-solutions)von Microsoft beschrieben), ist es wichtig zu wissen, dass Skype for Business Online am 31. Juli 2021 eingestellt wird.  Nach diesem Datum kann auf Skype for Business Onlinedienst nicht mehr zugegriffen werden. Darüber hinaus wird die PSTN-Verbindung zwischen Ihrer lokalen Umgebung – unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online – &mdash; &mdash; nicht mehr unterstützt. In diesem Artikel werden die Teams und erläutert, wie Sie bei Bedarf Ihr lokales Telefonienetzwerk mithilfe von Direct Routing oder Operator Teams mit Verbinden.
 
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -147,6 +149,8 @@ Telefonsystem stellt umfassende PBX-Funktionen für Ihre Organisation bereit. Um
 - [**Telefonsystem mit Anrufplan .**](#phone-system-with-calling-plan) Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber.
 
 - [**Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber,**](#phone-system-with-own-pstn-carrier-with-direct-routing) indem Sie Direct Routing verwenden, um Ihre lokale Umgebung mit ihrem Teams.
+
+- [**Telefonsystem mit Ihrem eigenen NETZBETREIBER**](operator-connect-plan.md)mithilfe des Operator Verbinden , der derzeit nur in der **öffentlichen Vorschau zur Verfügung steht.**  Wenn Ihr Verbinden Teilnehmer am Microsoft Operator Verbinden-Programm ist, kann er den Dienst verwalten, um PSTN-Anrufe an Teams. Informationen zu den Vorteilen und Anforderungen von Operatoren Verbinden und eine Liste der am Programm teilnehmenden Operatoren finden Sie unter [Planoperator Verbinden.](operator-connect-plan.md)
 
 Sie können auch eine Kombination von Optionen auswählen, die es Ihnen ermöglicht, eine Lösung für eine komplexe Umgebung zu entwerfen oder eine Mehrschrittmigration zu verwalten (weitere Informationen zur späteren Migration).
 

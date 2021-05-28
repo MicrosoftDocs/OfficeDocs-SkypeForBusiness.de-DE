@@ -39,7 +39,7 @@ items:
                 href: tutorial-network-planner-example.yml
               - name: Proxyserver für Teams oder Skype for Business Online
                 href: proxy-servers-for-skype-for-business-online.md
-              - name: "Planen von Microsoft\_365-Gruppen beim Erstellen von Teams in Microsoft Teams"
+              - name: Planen von Microsoft 365-Gruppen beim Erstellen von Teams in Microsoft Teams
                 href: plan-office-365-groups.md
               - name: Planen der Lebenszyklusverwaltung in Teams
                 href: plan-teams-lifecycle.md
@@ -105,7 +105,7 @@ items:
                 href: Office-365-set-up.md
               - name: Verwendung des Arbeitsspeichers durch Microsoft Teams
                 href: teams-memory-usage-perf.md
-              - name: "Microsoft\_365 und Office 365-URLs und IP-Adressbereiche"
+              - name: Microsoft 365 und Office 365-URLs und IP-Adressbereiche
                 href: office-365-urls-ip-address-ranges.md
               - name: Teams für Virtualized Desktop Infrastructure (VDI)
                 href: teams-for-vdi.md
@@ -499,25 +499,25 @@ items:
         href: archive-or-delete-a-team.md
       - name: Migrieren von Slack auf Teams
         href: migrate-slack-to-teams.md
-      - name: Arbeiten mit Teams-Vorlagen
+      - name: Arbeiten mit Teamvorlagen
         items:
-          - name: Verwenden von Teams-Vorlagen im Admin Center
+          - name: Verwenden von Teamvorlagen im Admin Center
             href: get-started-with-teams-templates-in-the-admin-console.md
-          - name: Teams-Vorlagen integriert in Graph für kleine und mittlere Unternehmen
+          - name: In Graph für kleine und mittelständische Unternehmen integrierte Teamvorlagen
             href: smb-templates.md
-          - name: Erstellen einer benutzerdefinierten Teams-Vorlage
+          - name: Erstellen einer benutzerdefinierten Teamvorlage
             href: create-a-team-template.md
           - name: Erstellen einer Vorlage aus einem vorhandenen Team
             href: create-template-from-existing-team.md
           - name: Kompilieren einer Vorlage aus einer vorhandenen Vorlage
             href: create-template-from-existing-template.md
-          - name: Teams-Vorlagen für die Kategorie Finanzen
+          - name: Teamvorlagen für die Kategorie „Finanzen“
             href: financial-teams-templates-in-the-admin-console.md
-          - name: Teams-Vorlagen für die Kategorie Allgemeines
+          - name: Teamvorlagen für die Kategorie „Allgemeines“
             href: general-teams-templates-in-the-admin-console.md
-          - name: Teams-Vorlagen für die Kategorie Herstellung
+          - name: Teamvorlagen für die Kategorie „Herstellung“
             href: manufacturing-teams-templates-in-the-admin-console.md
-          - name: Verwalten von Teams-Vorlagenrichtlinien
+          - name: Verwalten von Richtlinien für Teamvorlagen
             href: templates-policies.md
       - name: Mit Personen außerhalb meiner Organisation zusammenarbeiten
         items:
@@ -633,7 +633,7 @@ items:
             href: audio-conferencing-on-network.md
           - name: Allgemeine Fragen zu Audiokonferenzen
             href: audio-conferencing-common-questions.md
-          - name: "Audiokonferenz-Add-ons in Microsoft\_365 testen und kaufen"
+          - name: Audiokonferenz-Add-ons in Microsoft 365 testen und kaufen
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
           - name: Erweiterte ausgehende Gesprächsminuten für USA und Kanada
             href: dial-out-minutes-canada-us.md
@@ -727,7 +727,7 @@ items:
             href: teams-live-events/configure-teams-live-events.md
           - name: Richtlinien für die Aufzeichnung von Liveereignissen
             href: teams-live-events/live-events-recording-policies.md
-      - name: "Microsoft\_Teams-Räume"
+      - name: Microsoft Teams-Räume
         items:
           - name: Übersicht
             href: rooms/index.md
@@ -895,7 +895,7 @@ items:
                 href: direct-routing-configure.md
               - name: 'Schritt 1: Verbinden des SBC'
                 href: direct-routing-connect-the-sbc.md
-              - name: "Schritt\_2: Aktivieren von Benutzern"
+              - name: 'Schritt 2: Aktivieren von Benutzern'
                 href: direct-routing-enable-users.md
               - name: 'Schritt 3: Konfigurieren des VoIP-Routings'
                 href: direct-routing-voice-routing.md
@@ -1355,7 +1355,7 @@ items:
             href: admin-settings.md
           - name: Verwenden integrierter und benutzerdefinierter Registerkarten
             href: built-in-custom-tabs.md
-          - name: "Verwenden von Microsoft 365 oder Office\_365 und benutzerdefinierten Connectors"
+          - name: Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors
             href: Office-365-custom-connectors.md
           - name: Teams-Apps-Verhalten für nicht standardmäßige Benutzer
             href: non-standard-users.md
@@ -1375,7 +1375,7 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Alle Branchen
         items:
-          - name: Erste Schritte mit Teams-Vorlagen
+          - name: Erste Schritte mit Teamvorlagen
             href: get-started-with-teams-templates.md
           - name: Schichten für Teams
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
@@ -1400,7 +1400,7 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: Nachrichtendelegierung
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Verwenden der Teams-Vorlagen für das Gesundheitswesen
+          - name: Verwenden der Teamvorlagen für das Gesundheitswesen
             href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: Verwalten der Listen-App
             href: manage-lists-app.md
@@ -1417,7 +1417,7 @@ items:
       - name: Teams für Education
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
-          - name: "Schnellstart\_– Administratoren von Microsoft Teams für Education"
+          - name: Schnellstart – Administratoren von Microsoft Teams für Education
             href: teams-quick-start-edu.yml
           - name: Erste Schritte mit Remote Learning
             href: remote-learning-edu.md
@@ -1470,14 +1470,14 @@ items:
       - name: Teams für den Einzelhandel
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Erste Schritte mit Vorlagen für Teams im Einzelhandel
+          - name: Erste Schritte mit Teamvorlagen für den Einzelhandel
             href: get-started-with-retail-teams-templates.md
       - name: Teams für Behörden
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
         items:
           - name: Remotemitarbeiter unterstützen (WFH)
             href: expand-teams-across-your-org/GOV-support-remote-work-with-teams.md
-          - name: Erste Schritte mit Government-Teams-Vorlagen in Behörden
+          - name: Erste Schritte mit Teamvorlagen für Behörden
             href: government-teams-templates-in-the-admin-console.md
           - name: Verwalten der Office 365 G1-Testversion
             href: g1-trial-license.md
@@ -1507,7 +1507,7 @@ items:
             href: e1-trial-license.md
           - name: Verwalten der Office 365 G1-Testversion
             href: g1-trial-license.md
-          - name: "Verwalten der Microsoft\_Teams Exploratory-Umgebung"
+          - name: Verwalten der Microsoft Teams Exploratory-Umgebung
             href: teams-exploratory.md
           - name: Verwalten der kostenlosen Version von Teams
             href: manage-freemium.md
@@ -1525,7 +1525,7 @@ items:
             href: office-365-groups.md
           - name: Erstellen eines Microsoft 365-Ressourcenkontos mithilfe des Microsoft 365 Admin Centers
             href: devices/resource-account-ui.md
-          - name: "Erweitern von vorhandenen Microsoft\_365-Gruppen mit Teams"
+          - name: Erweitern von vorhandenen Microsoft 365-Gruppen mit Teams
             href: enhance-office-365-groups.md
           - name: Interaktion von Exchange und Teams
             href: exchange-teams-interact.md
@@ -1536,7 +1536,7 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaktion von SharePoint Online und OneDrive for Business mit Teams
             href: sharepoint-onedrive-interact.md
-          - name: "Teams-Erfahrung in einer Microsoft 365- oder Office\_365-Mandantenumgebung mit Multi-Geo-Unterstützung"
+          - name: Teams-Erfahrung in einer Microsoft 365- oder Office 365-Mandantenumgebung mit Multi-Geo-Unterstützung
             href: teams-experience-o365odb-spo-multi-geo.md
       - name: Unterstützte Geräte
         items:
@@ -1570,6 +1570,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: Telefone für Skype for Business Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams-Alarmierung und -Überwachung
+            href: alerts/teams-admin-alerts.md
+          - name: Teams-Geräteintegritätsüberwachung
+            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: Übersicht
@@ -1822,9 +1826,9 @@ items:
             href: accessibility-declaration-of-conformance-in-france-for-teams.md
           - name: Barrierefreiheitslösungen für Skype for Business Online und Microsoft Teams
             href: accessibility-solutions-in-france.md
-          - name: "Anrufpläne in Microsoft\_365\_– Verhaltenskodex für das Vereinigte Königreich"
+          - name: Anrufpläne in Microsoft 365 – Verhaltenskodex für das Vereinigte Königreich
             href: code-of-practice-for-the-united-kingdom-u-k.md
-          - name: "Anrufpläne in Microsoft\_365\_– Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich"
+          - name: Anrufpläne in Microsoft 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich
             href: complaint-handling-code-for-the-united-kingdom-u-k.md
           - name: Nutzungsbedingungen für Notrufe
             href: emergency-calling-terms-and-conditions.md

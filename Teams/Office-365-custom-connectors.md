@@ -17,12 +17,12 @@ description: Mithilfe von Connectors bleiben Ihre Teams auf dem Laufenden, indem
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669147"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684242"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden Microsoft 365 und benutzerdefinierten Verbindern in Microsoft Teams
 
@@ -32,7 +32,8 @@ Jedes Mitglied eines Teams kann sein Team mit beliebten Clouddiensten über die 
 
 Microsoft 365 Connectors können sowohl mit Microsoft Teams als auch Microsoft 365-Gruppen verwendet werden, wodurch es für alle Mitglieder einfacher wird, synchronisiert zu bleiben und relevante Informationen schnell zu erhalten. Sowohl Microsoft Teams als Exchange verwenden dasselbe Verbindermodell, das es Ihnen ermöglicht, die gleichen Verbinder auf beiden Plattformen zu verwenden. Es ist jedoch zu erwähnen, dass das Deaktivieren von Connectors für die Microsoft 365-Gruppe, von der ein Team abhängig ist, die Möglichkeit zum Erstellen von Connectors auch für dieses Team deaktiviert.
 
-> [Hinweis] Connectors sind in Government Cloud Community (GCC) standardmäßig deaktiviert. Wenn Sie sie aktivieren müssen, legen Sie die Parameter ConnectorsEnabled oder ConnectorsEnabledForTeams auf $true [SetOrganizationConfig-Cmdlet](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) fest. Sie mussten zuvor eine Verbindung mit dem Exchange Online [PowerShell herstellen.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> [!NOTE]
+> Connectors sind in Government Cloud Community (GCC) standardmäßig deaktiviert. Wenn Sie sie aktivieren müssen, legen Sie die Parameter ConnectorsEnabled oder ConnectorsEnabledForTeams auf $true [SetOrganizationConfig-Cmdlet](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) fest. Sie mussten zuvor eine Verbindung mit dem Exchange Online [PowerShell herstellen.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 
 ## <a name="add-a-connector-to-a-channel"></a>Hinzufügen eines Connectors zu einem Kanal
 
