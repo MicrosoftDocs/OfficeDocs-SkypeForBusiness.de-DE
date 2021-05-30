@@ -21,23 +21,23 @@ ms.collection:
 - m365solution-scenario
 appliesto:
 - Microsoft Teams
-ms.reviewer: ''
+ms.reviewer: ansantam
 description: Verwenden Sie Microsoft Teams, um Ihr System für virtuelle Besuche einzurichten
-ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 9c002a90cd91014ca4887386ca5834a4b5b41266
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096279"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705249"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in die EGA
 
-Microsoft Teams EGA-Konnektor (Elektronische Gesundheitsakte) erleichtert den Klinikärzten den Start eines virtuellen Patientenbesuchs oder einer Beratung mit einem anderen Anbieter in Teams direkt aus dem EGA-System. Microsoft Teams basiert auf der Microsoft 365-Cloud und ermöglicht die einfache und sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung der HIPAA- (Health Insurance Portability and Accountability Act), HITECH-Zertifizierung und mehr unterstützt.
-Die Kommunikations- und Kollaborationsplattform von Teams erleichtert es Klinikern, die Unordnung fragmentierter Systeme zu beseitigen, damit sie Zeit für die bestmögliche Pflege aufwenden können. Microsoft Teams EGA-Konnektor (Elektronische Gesundheitsakte) kann:
+Microsoft Teams Der Connector für elektronische Krankenakten (Electronic Health Record, EHR) erleichtert Es Kliniken, direkt vom EHR-System aus einen virtuellen Patientenbesuch zu starten oder mit einem anderen Anbieter in Teams zu beraten. Microsoft Teams basiert auf der Microsoft 365-Cloud und ermöglicht die einfache und sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung der HIPAA- (Health Insurance Portability and Accountability Act), HITECH-Zertifizierung und mehr unterstützt.
+Die Kommunikations- und Kollaborationsplattform von Teams erleichtert es Klinikern, die Unordnung fragmentierter Systeme zu beseitigen, damit sie Zeit für die bestmögliche Pflege aufwenden können. Microsoft Teams Der EHR-Connector (Electronic Health Record) kann:
 
-- Virtuelle Besuche von Teams sowohl von Anbieter- als auch von Patientenportalen aus starten.
-- Beim Verbinden und Trennen von Ereignissen in EGA-Metadaten zurückschreiben, um die automatische Überwachung und Aufzeichnung zu ermöglichen.
-- In vorhandene Workflows von Klinikern und Patienten integriert werden und gleichzeitig Microsoft Teams verwenden.
+- Starten Teams virtuelle Besuche vom Anbieter-EHR-System mit einem integrierten klinischen Workflow.
+- Ermöglichen Sie Patienten die Teilnahme Teams virtuellen Visiten über das Patientenportal.
+- Schreiben Sie Metadaten in das EHR-System zurück, um Teams besuche zu aufzeichnen, wenn Teilnehmer eine Verbindung herstellen und trennen und die automatische Überwachung und Aufbewahrung von Aufzeichnungen aktivieren.
 
   Sehen Sie sich das Video zum Verwalten virtueller Besuche über das EGA-Portal an.
 
@@ -49,7 +49,7 @@ Sie müssen sicherstellen, dass Sie die folgenden Voraussetzungen haben, bevor S
 
 - Zugriff auf die Microsoft Teams-App auf dem [Epic’s App Orchard-Marktplatz](https://apporchard.epic.com/Gallery?id=6153).
 
-- Aktives Abonnement für Microsoft Cloud for Healthcare oder Abonnement für das eigenständige Angebot von Microsoft Teams EGA-Konnektor (nur während Produktionstests erzwungen).
+- Aktives Abonnement der Microsoft Cloud im Gesundheitswesen oder Abonnement für Microsoft Teams eigenständiges EHR-Connectorangebot (nur bei Produktionstests erzwungen).
 
 - Benutzer müssen über eine entsprechende Microsoft 365- oder Office 365-Lizenz verfügen, die Microsoft Teams-Besprechungen enthält.
 
@@ -72,14 +72,14 @@ Sie benötigen außerdem Informationen von folgenden Personen in Ihrer Organisat
 
 Das Konnektor-Setup erfordert Folgendes:
 
-- [Starten des EGA Konnektor-Konfigurationsportal](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
+- [Starten des Konfigurationsportals für den EHR-Connector](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
 - [Konfigurationsinformationen](ehr-admin.md#configuration-information)
 - [Genehmigen oder Anzeigen Konfiguration](ehr-admin.md#approve-or-view-configuration)
 - [Überprüfen und Beenden der Konfiguration](ehr-admin.md#review-and-finish-the-configuration)
 
-### <a name="launch-the-ehr-connector-configuration-portal"></a>[Starten des EGA Konnektor-Konfigurationsportal](#launch-the-ehr-connector-configuration-portal)
+### <a name="launch-the-ehr-connector-configuration-portal"></a>[Starten des Konfigurationsportals für den EHR-Connector](#launch-the-ehr-connector-configuration-portal)
 
-Die Konfiguration Ihrer Gesundheitsorganisation für den Start virtueller Besuche mit Microsoft Teams beginnt mit dem Start des EGA Konnektor-Konfigurationsportals. Sie konfigurieren eine einzelne oder mehrere Organisationen, um die Integration zu testen. Konfigurieren Sie die Test- und Produktions-URL im Konfigurationsportal. Testen Sie die Integration aus der Testumgebung von Epic, bevor Sie zur Produktion übergehen.
+Die Konfiguration Ihrer Organisation im Gesundheitswesen für die Einführung virtueller Besuche Microsoft Teams mit dem Starten des Konfigurationsportals für den EHR-Connector. Sie konfigurieren eine einzelne oder mehrere Organisationen, um die Integration zu testen. Konfigurieren Sie die Test- und Produktions-URL im Konfigurationsportal. Testen Sie die Integration aus der Testumgebung von Epic, bevor Sie zur Produktion übergehen.
   
 - Konfigurations-URL für den EGA-Konnektor: [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -99,7 +99,7 @@ Um diesen Schritt auszuführen, muss der Microsoft 365-Administrator eine gülti
 
 ### <a name="approve-or-view-configuration"></a>[Konfiguration genehmigen oder anzeigen](#approve-or-view-configuration)
 
-Der Epic-Kundenanalyst für Ihr Gesundheitsunternehmen, der als Genehmiger hinzugefügt wurde, muss jetzt dieselbe EGA Konnektor-URL aus dem vorherigen Schritt verwenden, um sich mit seinen Microsoft 365-Anmeldeinformationen anzumelden. Nach erfolgreicher Validierung wird der Genehmigende aufgefordert, sich mit seinen Epic-Anmeldeinformationen anzumelden, um die Epic-Organisation zu validieren.
+Der Epische Kundenanalyst für Ihre Gesundheitsorganisation, der als genehmigende Organisation hinzugefügt wurde, muss jetzt dieselbe EHR-Connector-URL aus dem vorherigen Schritt verwenden, um sich mit ihren Anmeldeinformationen für Microsoft 365 anmelden. Nach erfolgreicher Validierung wird der Genehmigende aufgefordert, sich mit seinen Epic-Anmeldeinformationen anzumelden, um die Epic-Organisation zu validieren.
 
 > [!Note]
 > Der Microsoft 365-Administrator und der Epic-Kundenanalyst in Ihrer Organisation können dieselbe Person sein. Fügen Sie in diesem Fall Ihren eigenen Benutzernamen als Genehmiger hinzu. Sie müssen sich noch bei Epic anmelden, um Ihren Zugriff zu überprüfen. Die Epic-Anmeldung wird nur zur Überprüfung Ihrer FHIR-Basis-URL verwendet. Microsoft speichert mit dieser Anmeldung keine Anmeldeinformationen und greift nicht auf EGA-Daten zu.
@@ -126,7 +126,7 @@ Wenn die Konfigurationsinformationen vom Epic-Administrator genehmigt wurden, we
 
 ## <a name="launch-teams-virtual-visits"></a>Starten von virtuellen Besuchen in Teams
 
-Nach Abschluss der EGA Konnektor-Schritte und der Epic-Konfiguration ist Ihre Organisation bereit, Videobesuche mit Microsoft Teams zu unterstützen.
+Nach Abschluss der Schritte EHR-Connector und epischer Konfiguration kann Ihre Organisation Videobesuche mit Microsoft Teams.
 
 ### <a name="virtual-visit-prerequisites"></a>Voraussetzungen für einen virtuellen Besuch
 
@@ -175,4 +175,8 @@ Hauptmerkmale der Patientenerfahrung:
 
 Die Teams-Integration in EGA-Systeme optimiert die Datenmenge, die während der Integration und des virtuellen Besuchsflusses verwendet und gespeichert wird. Die Lösung folgt den allgemeinen Grundsätzen und Richtlinien für den Datenschutz und das Datenmanagement von Teams, die unter Datenschutz für Teams aufgeführt sind.
 
-Der Microsoft Teams EGA-Konnektor speichert oder überträgt keine identifizierbaren persönlichen Daten oder Gesundheitsakten von Patienten oder Gesundheitsdienstleistern aus dem EGA-System. Die einzigen Daten, die vom EGA-Konnektor gespeichert werden, sind die eindeutigen IDs des EGA-Benutzers, die beim Einrichten der Teambesprechungen verwendet werden. Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies) beschrieben sind. Alle Chats, Aufzeichnungen und sonstigen Daten, die von den Besprechungsteilnehmern in Teams eingegeben wurden, werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in Microsoft Teams finden Sie unter [Speicherorte von Daten in Teams](../../location-of-data-in-teams.md).
+Der Microsoft Teams EGA-Konnektor speichert oder überträgt keine identifizierbaren persönlichen Daten oder Gesundheitsakten von Patienten oder Gesundheitsdienstleistern aus dem EGA-System. Die einzigen Daten, die vom EGA-Konnektor gespeichert werden, sind die eindeutigen IDs des EGA-Benutzers, die beim Einrichten der Teambesprechungen verwendet werden. Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](/microsoft-365/enterprise/o365-data-locations) beschrieben sind. Alle Chats, Aufzeichnungen und sonstigen Daten, die von den Besprechungsteilnehmern in Teams eingegeben wurden, werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in Microsoft Teams finden Sie unter [Speicherorte von Daten in Teams](../../location-of-data-in-teams.md).
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Teams virtueller Besuche](ehr-admin-reports.md)

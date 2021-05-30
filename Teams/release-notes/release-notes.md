@@ -16,16 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Microsoft Teams für Administratoren.
-ms.openlocfilehash: 5f9020afaa230156df2927ceecfd26ae33c2c2ae
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598504"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705259"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Microsoft Teams für Administratoren
 
 Diese Versionshinweise enthalten Informationen zu neuen Administratorfeatures für Microsoft Teams.
+
+## <a name="april-30-2021"></a>30. April 2021
+
+### <a name="career-coach"></a>Karrieretrainer
+
+Career Coach ist eine Microsoft Teams for Education-App, die von LinkedIn unterstützt wird und personalisierte Anleitungen für Studierende aus höheren Bildungseinrichtungen bietet, um auf ihren Karriereweg zu navigieren. Career Coach bietet Bildungseinrichtungen eine einheitliche Karrierelösung für Studenten, die ihren Karrierepfad entdecken, ihre echten Fähigkeiten erweitern und ihr Netzwerk an einem Ort aufbauen können. [Weitere Informationen](../career-coach.md).
 
 ## <a name="march-31-2021"></a>31. März 2021
 
@@ -328,11 +334,11 @@ Entwickler können die API Teams-Übermittlung von Apps verwenden, um benutzerde
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>Verbesserte Verwaltbarkeit mithilfe der Funktion "Gerätetags"
 
-Im Rahmen der verbesserten Verwaltbarkeit veröffentlichen wir Funktionen für Gerätetags. It admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Weitere Informationen](/../../manage-device-tags.md).
+Im Rahmen der verbesserten Verwaltbarkeit veröffentlichen wir Funktionen für Gerätetags. It admins to group-specific set of devices with user-generated Tags and perform actions on the same. [Weitere Informationen](../devices/manage-device-tags.md).
 
 ### <a name="view-only-in-meetings"></a>Nur anzeigen in Besprechungen
 
-Mit "Nur anzeigen" können bis zu 20.000 zuhörende Teilnehmer an einer Besprechung teilnehmen, in der der Organisator über eine Lizenz für das Add-On "Erweiterte Kommunikation" verfügt.1 Dies ist eine Vorschau- oder Early Release-Funktion. [Weitere Informationen](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls).
+Mit "Nur anzeigen" können bis zu 20.000 zuhörende Teilnehmer an einer Besprechung teilnehmen, in der der Organisator über eine Lizenz für das Add-On "Erweiterte Kommunikation" verfügt.1 Dies ist eine Vorschau- oder Early Release-Funktion. [Weitere Informationen](../limits-specifications-teams.md#meetings-and-calls).
 
 ## <a name="july-28-2020"></a>28. Juli 2020
 
