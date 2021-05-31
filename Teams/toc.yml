@@ -307,6 +307,8 @@ items:
             href: policy-control-diagnostic-data-desktop.md
           - name: Optionale verbundene Erfahrungen
             href: teams-privacy-oce-overview.md
+          - name: Operator Connect-Datenübertragung
+            href: operator-connect-data-transfer.md
   - name: Verwalten und Überwachen von Teams
     items:
       - name: Übersicht
@@ -957,6 +959,12 @@ items:
                 href: manage-voice-routing-policies.md
               - name: Direct Routing – Survivable Branch Appliance
                 href: direct-routing-survivable-branch-appliance.md
+      - name: Operator Connect
+        items:
+          - name: Plan für Operator Connect
+            href: operator-connect-plan.md
+          - name: Konfigurieren von Operator Connect
+            href: operator-connect-configure.md
       - name: Telefonnummern
         items:
           - name: Verwalten von Telefonnummern für Ihre Organisation
@@ -1390,6 +1398,8 @@ items:
             items:
               - name: Virtuelle Besuche mit Teams – Integration in die EGA
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: EGA-Administratorberichte
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Virtuelle Besuche mit Bookings und Teams
                 href: bookings-app-admin.md
           - name: Richtlinienpakete anzeigen und zuweisen
