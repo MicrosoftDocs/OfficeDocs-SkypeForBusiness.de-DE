@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637857"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699336"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -44,7 +44,7 @@ Folgende Lizenzen müssen für die Organisation, Erstellung oder Vorführung ein
 
 - **Organisation:** Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz **[oder]** eine Microsoft oder Office 365 Education A3- oder A5-Lizenz. 
 - **Erstellung oder Vorführung:** Eine Microsoft oder Office 365 Enterprise E1-, E3- oder E5-Lizenz **[oder]** eine Microsoft oder Office 365 Education A1-, A3 oder A5-Lizenz. Die Ausnahme von dieser Anforderung ist, dass Gastnutzer ohne Lizenz präsentieren können, wenn die anderen Kriterien für [Gastnutzer](plan-for-teams-live-events.md#guest-to-present) erfüllt sind.
-- Eine Microsoft Teams-Lizenz – diese ist in den im ersten und zweiten Aufzählungspunkt aufgeführten Lizenzen enthalten.
+- Eine Microsoft Teams-Lizenz – diese ist in den im ersten und zweiten Aufzählungspunkt aufgeführten Lizenzen enthalten.
 - Eine Microsoft Stream-Lizenz – ist erforderlich, wenn Sie planen, den Inhalt mit einer externen App oder einem externen Gerät zu teilen; siehe [Microsoft Stream-Lizenzierung](/stream/license-overview).
 
   Benutzer brauchen keine Microsoft Stream-Lizenz, wenn Sie möchten, dass Benutzer nur die Aufzeichnungen aufnehmen und herunterladen. Das bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden, sondern in Azure Media Services (AMS) mit einem 180-Tage-Limit, bevor sie gelöscht werden. Derzeit können Admins keine Befähigung zum Löschen verwalten oder steuern.
@@ -85,7 +85,7 @@ Damit ein Gast in einem Liveereignis präsentieren kann, gehen Sie wie folgt vor
 2. Der Benutzer muss die Gasteinladung annehmen und dem Team beitreten.
 3. [Planen Sie das Liveereignis, und fügen Sie den Gast zu ihrer Ereignisgruppe hinzu](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
-Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Referenten des Liveereignisses zu erstellen, damit sie vor der Veranstaltung chatten und Informationen teilen können. Gäste, die keine Microsoft 365-Anmeldeinformationen haben, können den Kalender in Teams nicht sehen. Um ihnen die Teilnahme an dem Ereignis zu erleichtern, können die Produzenten den Ereignislink im Kanal posten. Referenten können dann Microsoft Teams öffnen, zum Kanal wechseln und anschließend auf den Link klicken, um an dem Ereignis teilzunehmen.
+Als bewährte Methode empfiehlt es sich, einen Kanal für Produzenten und Referenten des Liveereignisses zu erstellen, damit sie vor der Veranstaltung chatten und Informationen teilen können. Gäste, die keine Microsoft 365-Anmeldeinformationen haben, können den Kalender in Teams nicht sehen. Um ihnen die Teilnahme an dem Ereignis zu erleichtern, können die Produzenten den Ereignislink im Kanal posten. Referenten können dann Teams öffnen, zum Kanal wechseln und dann den Link auswählen, um an dem Ereignis teilzunehmen.
 
 ## <a name="who-can-watch-live-events"></a>Wer kann Liveereignisse anschauen?
 
@@ -106,18 +106,18 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
 >
-> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis zum 30. Juni 2021 temporäre Limiterhöhungen für Liveereignisse verlängern, beispielsweise**:
+> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis Ende Januar 2022 temporäre Limitenerhöhungen für Liveereignisse verlängern, einschließlich**:
 >
 >- Ereignisunterstützung für bis zu 20.000 Teilnehmer
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
 >- Ereignisdauer von 16 Stunden pro Übertragung
 >
-> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm für Liveereignisse geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm für Liveereignisse geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | Funktion | Skype Meeting Broadcast | In Teams produzierte Ereignisse | In einer externen App oder auf einem externen Gerät produzierte Ereignisse |
 |---------|---------|---------|---------|
 |Maximale Zielgruppengröße |10.000 Teilnehmer |10.000 Teilnehmer<sup>1</sup> |10.000 Teilnehmer<sup>1</sup> |
-|Maximale Dauer eines Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
+|Maximale Dauer eines Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
 |Maximale Anzahl von Referenten und Produzenten in einem Liveereignis |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
 |Maximale Anzahl gleichzeitiger Liveereignisse pro Microsoft 365- oder Office 365-Organisation |15  | 15  | 15  |
 |Erstellung von Liveereignissen |   Skype Meeting Broadcast-Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
