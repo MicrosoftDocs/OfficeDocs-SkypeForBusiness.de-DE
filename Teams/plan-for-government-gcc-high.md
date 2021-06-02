@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5533b6d5c2e08cb79ec8dd2052d761d86546b05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117843"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718056"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planen der Office 365 Government – GCC Bereitstellungen mit hohem Niveau
 
@@ -91,6 +91,3 @@ Ermitteln Sie Ihre Anforderungen an Governance und wie Sie sie erfüllen können
 Nachdem Sie in das Bereitstellungs-Office 365 Government – GCC High ein onboarded haben, folgen Sie den empfohlenen Bereitstellungspfaden, die [unter](./deploy-overview.md)So wird's Microsoft Teams. Sorgen Sie dafür, dass Sie mit Ihrem Übernahme- und Änderungsverwaltungsteam zusammenarbeiten und Teams können.
 
 Sie können auch mit [FastTrack](https://www.microsoft.com/fasttrack) oder dem ausgewählten Partner zusammenarbeiten, um den Dienst zu integrieren.
-
-> [!NOTE]
-> Der Mac Teams-Client für GGCH-Umgebungen wird noch nicht unterstützt.

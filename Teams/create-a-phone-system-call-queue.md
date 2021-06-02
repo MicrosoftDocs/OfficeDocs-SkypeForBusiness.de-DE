@@ -24,19 +24,19 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Musik halten, Anrufumleitung und weitere Funktionen bieten.
-ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 73b0e0c6c73b86e544ade5a43756e2e80c60c25a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628934"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717876"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
 Anrufwarteschleifen ermöglichen es, Anrufe an Personen in Ihrer Organisation weiterzuleiten, die bei einem bestimmten Problem oder einer bestimmten Frage helfen können. Die einzelnen Anrufe werden nach und nach an die Personen (sog. *Telefonberater*) in der Warteschleife verteilt. 
 
 > [!TIP]
-> Dieser Artikel gilt für große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das Lernprogramm Erstellen einer Anrufwarteschleife [– Kleinunternehmen.](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb)
+> Dieser Artikel ist für große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das Lernprogramm Erstellen einer Anrufwarteschleife [– Kleinunternehmen.](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb)
 
 Für Anrufwarteschleifen gibt es die folgenden Optionen:
 

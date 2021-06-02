@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten Microsoft Teams Anrufqualitäts-Dashboards (CQD).
-ms.openlocfilehash: 3b527b32e194b531be5003c5f8b180a00976cf8e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad718df893b69b333dd63d224663238879fda8c7
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111531"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718006"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Häufig gestellte Fragen (FAQ) zum Anrufqualitätsdashboard (CQD)
 
@@ -44,20 +44,22 @@ ms.locfileid: "51111531"
 
 [Warum geben meine benutzerdefinierten Berichte nur maximal 10.000 Zeilen zurück, wenn ich weiß, dass es mehr Einträge geben soll?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
+[Warum werden WIFi-VPN-Verbindungen als "Verkabelt" statt als "WLAN" angezeigt?](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Warum wird ein Anruf vom CQD als "Gut" bezeichnet, wenn ein oder mehrere Besprechungsteilnehmer eine schlechte Erfahrung hatten?
 
 Sehen Sie sich die Regeln an, die das AQD für die [Datenstromklassifizierung verwendet.](stream-classification-in-call-quality-dashboard.md)
  
-Für Audiodatenströme kann jede der fünf Klassifizierungen, die basierend auf der Länge des Anrufs für den Mittelwert berechnet werden, innerhalb der "guten" Parameter liegen. Es bedeutet nicht, dass bei den Benutzern keine Probleme auft worden sind, die zu einem Audio-Drop-Out, einer statischen oder einer Störung bei der Audiowiedergabe beigetragen haben. 
+Für Audiodatenströme kann jede der fünf Klassifizierungen, die basierend auf der Länge des Anrufs für den Mittelwert berechnet werden, innerhalb "guter" Parameter liegen. Es bedeutet nicht, dass bei den Benutzern keine Probleme auft worden sind, die zu einem Audio-Drop-Out, einer statischen oder einer Störung bei der Audiowiedergabe beigetragen haben. 
 
 Um festzustellen, ob es sich um ein Netzwerkproblem war, sehen Sie sich das Delta zwischen den Durchschnittswerten für die Sitzung und den Max-Werten an. Max-Werte sind die während der Sitzung maximal erkannten und gemeldeten Werte.
  
-Hier ist ein Beispiel für die Problembehandlung in dieser Situation. Angenommen, Sie nehmen während eines Anrufs eine Netzwerkverfolgung an, und in den ersten 20 Minuten gibt es keine verlorenen Pakete, doch besteht dann eine Lücke von 1,5 Sekunden Paketen, die dann für den Rest des Anrufs gut sind. Der Durchschnitt wird selbst in einer RTP-Analyse der Wireshark-Ablaufverfolgung <10 % (0,1) Paketverlust betragen. Wie war der Maximale Paketverlust? 1,5 Sekunden in einer 5-Sekunden-Periode waren 30 % (0,3). Ist dies innerhalb des fünf zweiten Stichprobenzeitraums (möglicherweise oder kann innerhalb des Stichprobenzeitraums getrennt werden)?
+Hier ist ein Beispiel für die Problembehandlung in dieser Situation. Angenommen, Sie nehmen während eines Anrufs eine Netzwerkverfolgung an, und in den ersten 20 Minuten gibt es keine verlorenen Pakete, doch besteht dann eine Lücke von 1,5 Sekunden Paketen, die dann für den Rest des Anrufs gut sind. Der Durchschnitt wird selbst in einer RTP-Analyse der Wireshark-Ablaufverfolgung <10 % (0,1) Paketverlust betragen. Wie war der Maximale Paketverlust? 1,5 Sekunden in einer 5-Sekunden-Periode waren 30 % (0,3). Ist dies innerhalb des 5-Sekunden-Stichprobenzeitraums (möglicherweise oder kann über den Stichprobenzeitraum aufgeteilt) geschehen?
  
 Wenn die Netzwerkmetriken bei Mittelwerten und Max-Werten gut aussehen, dann sehen Sie sich andere Telemetriedaten an: 
 - Überprüfen Sie das unzureichende Ereignisverhältnis der CPU, um zu überprüfen, ob die erkannten CPU-Ressourcen nicht ausreichend waren und eine schlechte Qualität verursacht haben. 
 - War das Audiogerät im Halbduplexmodus, um Feedback aufgrund von Mikrofonen zu verhindern, die sich in der Nähe der Lautsprecher befinden? 
-- Überprüfen Sie das Geräte-AEC-Ereignisverhältnis halber Duplex-AEC. War das Gerät aufgrund von Rauschen oder statischen Mikrofonen aufgrund von USB-Audio-Drop-Outs, die an eine Hub- oder Dockingstation angeschlossen wurden, zu Störgeräuschen oder statischen Ausstöpseln beim Anschließen an einen Hub oder eine Dockingstation:  
+- Überprüfen Sie das Geräte-AEC-Ereignisverhältnis halber Duplex-AEC. War die Geräte-Kopplung oder das Mikrofon aufgrund von USB-Audio-Drop-Outs, die an einen Hub oder eine Dockingstation angeschlossen wurden, zu Rauschen oder statischen Geräuschen worden?  
 - Überprüfen Sie die Geräte-Störungen und Mikrofon-Störungen des Ereignisverhältnisses. Funktionierte das Gerät selbst ordnungsgemäß?  
 - Überprüfen Sie die Ereignisverhältnisse des Aufnahme- und Rendergeräts "Not Functioning".
 
@@ -101,13 +103,17 @@ CQDv2 und CQDv3 haben immer unterschiedliche Gesamtzahlen, da CQDv3 neue Szenari
 
 Je nach Kundenszenario enthält das CQDv3 lokale SFB 2019-Anrufe (wenn SFB 2019 mit einem Datenconnector verwendet wird), Skype-Botanrufe (AA, CVI, VDI), Liveereignisse und PSTN-Anrufe. Szenarien/Features, die für Kunden verfügbar sind, deren Daten sich jedoch nicht in CQD V2 befinden.
 
-Es wird beispielsweise erwartet, dass Ihre Kunden 200.000 Audiodatenströme mit 5.000 Fehlern im Zusammenfassungsbericht für AQD V2 sehen. im Vergleich zu 300.000 Audiodatenströmen mit 5.500 Fehlern (von 2019-Anrufen vor Ort, CVI-Anrufen, PSTN-Anrufen usw.) im CQD V3.
+Es wird beispielsweise erwartet, dass Ihre Kunden 200.000 Audiodatenströme mit 5.000 Fehlern im Zusammenfassungsbericht für AQD V2 sehen. im Vergleich zu 300.000 Audiodatenströmen mit 5.500 Fehlern (durch Vor-Ort-Anrufe aus 2019, CVI-Anrufe, PSTN-Anrufe usw.) in CQD V3.
 
 Um zu ermitteln, ob unerwartete Unterschiede bestehen, müssen Sie sich verschiedene Aufschlüsselungen der Gesamtdaten anschauen.  Vergleichen Sie den Zweck.  Das Auflisten der Daten nach Benutzer-Agent-Kategoriepaar ist einer der ersten empfohlenen Dinge.  *First Product* und *Second Product* sind auch gute Datenschnitte.  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>Warum geben meine benutzerdefinierten Berichte nur maximal 10.000 Zeilen zurück, wenn ich weiß, dass es mehr Einträge geben soll?
 
 Das CQD ist für zusammengefasste Datenabfragen konzipiert und nicht für den Datenexport. Es wird empfohlen, Die Berichte nach Möglichkeit zu verneinen, um zu verhindern, dass das Zeilenlimit von 10.000 Zeilen überschritten wird. Beginnen Sie, indem Sie Ihre KPIs unter Verwendung umfangreicher Dimensionen mit geringerer Kardinalität, z. B. Monat, Jahr, Datum, Region, Land usw., anzeigen. Von dort aus können Sie drilldowns zu zunehmend höheren Kardinalitätsdimensionen führen. Die Helpdesk- und Location-Enhanced-Berichte bieten beide gute Beispiele für diesen Drilldown-Workflow.
+
+### <a name="why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi"></a>Warum werden WIFi-VPN-Verbindungen als "Verkabelt" statt als "WLAN" angezeigt?
+
+Dies entspricht dem erwarteten Verhalten. Der VPN-Anbieter hat einen virtuellen Ethernetadapter erstellt, der wie eine Kabelverbindung behandelt wird. Da es nicht ordnungsgemäß beschriftet ist, weiß das Betriebssystem nicht, dass es sich um eine WLAN-Verbindung gibt, und meldet es als verkabelt.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

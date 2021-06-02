@@ -17,12 +17,12 @@ description: In diesem Artikel erfahren Sie mehr über den Vorgang hinter dem Ak
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68e26325f4efcc5ffd7731b73e397f1f96579dd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 004c615d2b624f4e5942562e6abfed6e1aebf7cd
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119244"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717896"
 ---
 # <a name="teams-update-process"></a>Teams des Aktualisierungsvorgangs
 
@@ -58,8 +58,6 @@ Teams gibt Administratoren nicht die Möglichkeit, Updates über einen Beliebige
 Als moderner Onlinedienst wird der client Teams alle zwei Wochen automatisch aktualisiert. Da Teams der modernen Lebenszyklusrichtlinie unterliegt, wird erwartet, dass Benutzer die neueste Version des Desktopclients verwenden. Automatische Updates stellen sicher, dass Benutzer über die neuesten Funktionen, Leistungsverbesserungen, Sicherheit und Dienstzuverlässigkeit verfügen.
 
 Um zu ermitteln, wann Desktopclients nicht mehr aktuell sind, wird eine In-App-Benachrichtigung angezeigt, wenn die aktuelle Version des Benutzers zwischen einem und drei Monaten alt ist und eine neue Version verfügbar ist. Bei diesem In-App-Messaging werden Die Benutzer ermutigt, auf die neueste Teams zu aktualisieren oder sich bei Bedarf an den IT-Administrator zu ermuntern, dies zu tun. Benutzern auf Teams-Desktopclients, die mehr als drei Monate alt sind, wird eine Sperrseite angezeigt, auf der die Optionen zum Jetzt aktualisieren, sich an den IT-Administrator oder weiterhin Teams im Web befinden.
-
-Desktopclientversionen, die bei der ersten Installation und/oder ersten Ausführung von Teams mehr als drei Monate alt sind, verfügen über eine Nachfrist von 28 Tagen, bevor sie auf die oben genannten Wartungsinformationen treffen. Während dieses Zeitraums wird der Client durch die automatische Aktualisierung Teams aktualisiert. Wenn keine Aktualisierung erfolgt, werden Benutzer in einer In-App-Benachrichtigung dazu ermutigt, manuell auf die neueste Version von Teams. Die Benutzer werden möglicherweise aufgefordert, sich an ihren IT-Administrator zu wenden, um das Update zu tun. Dies schließt Benutzer ein, die Teams-Desktopclient als Teil des Pakets Microsoft 365 Apps for Enterprise verwenden.
 
 Teams Desktopclients auf Government Clouds haben derzeit bis auf weitere Ankündigung eine Ausnahme von diesem Wartungsvertrag.
 

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3289d9ffed84f18cfd70f60a1f8e32d859973e5
-ms.sourcegitcommit: f0f41332fd6dc2480139812c1b6b9f30573e523d
+ms.openlocfilehash: 4ecf4d9abbd3f5c8747744010015ecda35cbeecf
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52074052"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717616"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -36,7 +36,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 | Komponente | Anforderung |
 |---------|---------|
 |Computer und Prozessor    | Mindestens 1,6 GHz (oder höher), 2-Core-Prozessor<br><br>Bei Intel-Prozessoren muss die mit der Intel Turbo Boost-Technologie erreichte maximale Geschwindigkeit (max. Turbo-Frequenz) berücksichtigt werden         |
-|Arbeitsspeicher     |    4,0 GB RAM     |
+|Arbeitsspeicher     |    4.0 GB RAM (Teams benötigt zusätzlich zu allen anderen Systemanforderungen eine dedizierte 4 GB RAM.)    |
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
 |Grafikhardware |  Windows-Betriebssystem: Grafikhardwarebeschleunigung erfordert DirectX 9 oder höher, mit WDDM 2.0 oder höher für Windows 10 (oder WDDM 1.3 oder höher für Windows 10 Fall Creators Update)
@@ -44,7 +44,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
-|Videoanrufe und Besprechungen|<ul><li>Erfordert einen 2-Core-Prozessor. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird ein 4-Core-Prozessor oder ein besserer Prozessor empfohlen.</li> <li>Hintergrundvideoeffekte erfordern Windows 10 oder einen Prozessor mit AVX2-Anweisungssatz.</li> <li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe von Proximity Detection in einem Microsoft Teams-Raum ist Bluetooth LE erforderlich, wodurch Bluetooth auf dem Clientgerät aktiviert und für Windows-Clients der 64-Bit-Team-Client erforderlich ist. Dieses Feature ist auf 32-Bit-Teams-Clients nicht verfügbar.</li></ul> |
+|Videoanrufe und Besprechungen|<ul><li>Ein 2-Core-Prozessor wird benötigt. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird mindestens ein 4-Core-Prozessor empfohlen.</li> <li>Hintergrundvideoeffekte erfordern Windows 10 oder einen Prozessor mit AVX2-Anweisungssatz.</li> <li>Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Für die Teilnahme an einer Besprechung mithilfe der Abstandserkennung in einem Microsoft Teams-Raum ist Bluetooth LE erforderlich. Dazu muss Bluetooth auf dem Clientgerät aktiviert sein und für Windows-Clients ist außerdem der 64-Bit-Team-Client erforderlich ist. Dieses Feature ist nicht für 32-Bit-Team-Clients verfügbar.</li></ul> |
 |Teams-Liveereignisse | Wenn Sie ein Liveereignis mit Teams durchführen, empfehlen wir die Verwendung eines Computers mit einem Core i5 Kaby Lake-Prozessor, 4.0 GB RAM (oder höher) und Hardware-Encoder. Eine Liste der **nicht unterstützten** Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder- und -Encoder-Treiber](hardware-decoders-and-encoders.md). |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Hardwareanforderungen für Teams auf einem Mac
@@ -52,13 +52,13 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 | Komponente | Anforderung |
 |---------|---------|
 |Computer und Prozessor    | Intel Core Duo-Prozessor |
-|Arbeitsspeicher     |   4,0 GB RAM      |
+|Arbeitsspeicher     |   4.0 GB RAM (Teams benötigt zusätzlich zu allen anderen Systemanforderungen eine dedizierte 4 GB RAM.)     |
 |Festplatte    |   1,5 GB verfügbarer Speicherplatz      |
 |Anzeige    | Bildschirmauflösung 1280x800 oder höher    |
 |Betriebssystem  |    Eine der drei neuesten Versionen von macOS. [Hier](https://support.apple.com/de-DE/HT201260) finden Sie Informationen zu den neuesten Versionen von macOS sowie zum Upgrade Ihrer macOS-Version. Wenn beispielsweise eine neue macOS-Version veröffentlicht wird, werden die neue Version und die beiden unmittelbar davor die unterstützten Versionen.      |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Erfordert einen 2-Core-Prozessor. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird ein 4-Core-Prozessor oder ein besserer Prozessor empfohlen. </li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter macOS nicht verfügbar.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Ein 2-Core-Prozessor wird benötigt. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird mindestens ein 4-Core-Prozessor empfohlen. </li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter macOS nicht verfügbar.</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Hardwareanforderungen für Teams unter Linux
@@ -66,15 +66,15 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 | Komponente | Anforderung |
 |---------|---------|
 |Computer und Prozessor    | Mindestens 1,6 GHz (oder höher) (32-Bit oder 64-Bit), 2-Core-Prozessor        |
-|Arbeitsspeicher     |    4,0 GB RAM     |
+|Arbeitsspeicher     |    4.0 GB RAM (Teams benötigt zusätzlich zu allen anderen Systemanforderungen eine dedizierte 4 GB RAM.)   |
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
-|Grafikhardware |  Mindestens 128 MB Grafikspeicher
+|Grafikhardware |  Mindestens 128 MB Grafikspeicher
 |Betriebssystem  | Linux-Verteilung, die DEB oder RPM installieren kann. |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Erfordert einen 2-Core-Prozessor. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird ein 4-Core-Prozessor oder ein besserer Prozessor empfohlen.</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Ein 2-Core-Prozessor wird benötigt. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird mindestens ein 4-Core-Prozessor empfohlen.</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
 |Unterstützte Linux-Verteilungen | Ubuntu 18.04 LTS, 20.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8       |
 |Unterstützte Desktopumgebung | GNOME, KDE       |
 |Unterstützter Anzeigeserver | X11       |

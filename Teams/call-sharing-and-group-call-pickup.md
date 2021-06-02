@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Anruffreigabe und Gruppenanrufabrufabruf ermöglichen es Benutzern, eingehende Anrufe mit Kollegen zu teilen, sodass Anrufe erfasst werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 98094ff0b4b5d7b037915273b2c2730d42517c22
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637827"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717836"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -57,7 +57,7 @@ Wichtig: Wenn Administratoren Anrufgruppen für Benutzer deaktivieren (nachdem s
 
 ## <a name="limitations"></a>Einschränkungen
 
-Ein Mandant kann maximal 32.768 Anrufgruppen enthalten. Jede Anrufgruppe kann maximal 25 Benutzer haben. 
+Jede konfigurierte Anrufgruppe kann maximal 25 Benutzer oder 32.768 Zeichen umfassen. 
 
 ## <a name="more-information"></a>Weitere Informationen
 

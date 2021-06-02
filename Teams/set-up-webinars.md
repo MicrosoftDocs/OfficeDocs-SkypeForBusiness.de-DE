@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Erfahren Sie, wie Sie Webinarrichtlinien für Besprechungen Teams verwalten.
-ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656048"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718046"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Einrichten von Webinaren in Microsoft Teams
 
@@ -54,7 +54,7 @@ Weitere Informationen zum Cmdlet finden Sie unter [Set-CsTeamsMeetingPolicy.](/p
 Führen Sie dies aus, um Es Benutzern in Ihrer Organisation zu ermöglichen, Webinare zu planen:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>Konfigurieren, wer sich für Webinare registrieren kann
 
@@ -66,7 +66,7 @@ Sie können die Registrierung auf Benutzer in Ihrer Organisation beschränken od
 **Führen Sie *dies* aus, um nur Benutzern in Ihrer Organisation die Registrierung für Webinare zu ermöglichen:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Führen Sie dann dies aus:
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **Führen Sie dies aus, um allen Benutzern, auch anonymen Benutzern, die Registrierung für Webinare zu ermöglichen:**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 Führen Sie dann dies aus:

@@ -17,42 +17,45 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768414"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718036"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
 Die Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und überall in Microsoft 365 oder Office 365). Die Anwesenheit zeigt anderen Benutzern die aktuelle Verfügbarkeit und den aktuellen Status des Benutzers an. Standardmäßig kann jeder Mitarbeiter in Ihrer Organisation, der Teams verwendet, (nahezu in Echtzeit) sehen, ob andere Benutzer gerade online verfügbar sind. Die Anwesenheit wird auf dem Web und den Desktop-Versionen in Echtzeit aktualisiert, wenn Sie die Seite auf dem Mobilgerät aktualisieren.
 
- > [!Note]
+ > [!NOTE]
  > Mehr über Teams-Benutzerprofile auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
+ > [!NOTE]
+ > Teams berücksichtigt Ihre Datenschutzkonfiguration, d h.,wenn Sie den Datenschutzmodus aktiviert haben, ist Ihre Anwesenheit für externe Benutzer nicht sichtbar.
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
 |Benutzerdefiniert|Durch die App konfiguriert|
 |:--- |:---|
 | ![Ein gefülltes grünes Häkchen zeigt an: verfügbar](media/Presence_Available.png) Verfügbar|![Ein gefülltes grünes Häkchen zeigt an: verfügbar](media/Presence_Available.png) Verfügbar|
-|| ![Ein nicht gefülltes grünes Häkchen zeigt an: verfügbar – außer Haus](media/Presence_Available_OOF.png) Verfügbar, Außer Haus. Hinweis: „Außer Haus“ wird automatisch für die Zeiträume eingestellt, in denen der Benutzer "automatische Antworten" festlegt. Wenn der Benutzer die App in diesen Zeiträumen verwendet, kann eine doppelte Anwesenheit angezeigt werden wie z. B. „Außer Haus, verfügbar“. |
+|| ![Ein nicht gefülltes grünes Häkchen zeigt an: verfügbar – außer Haus](media/Presence_Available_OOF.png) Verfügbar, Außer Haus. Hinweis: „Außer Haus“ wird automatisch für die Zeiträume eingestellt, in denen der Benutzer "automatische Antworten" festlegt. Wenn der Benutzer die App in diesen Zeiträumen verwendet, kann eine doppelte Anwesenheit angezeigt werden wie z. B. „Außer Haus, verfügbar“. |
 |  ![Ein gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy.png) Beschäftigt |  ![Ein gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy.png) Beschäftigt  |
-|| ![Ein gefüllter roter Kreis zeigt an: beschäftigt – am Telefon](media/Presence_Busy.png) Am Telefon|
-|| ![Ein gefüllter roter Kreis zeigt an: beschäftigt – in einer Besprechung](media/Presence_Busy.png) In einer Besprechung |
-|| ![Ein nicht gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy_OOF.png) Am Telefon – abwesend|
+|| ![Ein gefüllter roter Kreis zeigt an: beschäftigt – am Telefon](media/Presence_Busy.png) Am Telefon|
+|| ![Ein gefüllter roter Kreis zeigt an: beschäftigt – in einer Besprechung](media/Presence_Busy.png) In einer Besprechung |
+|| ![Ein nicht gefüllter roter Kreis zeigt an: beschäftigt](media/Presence_Busy_OOF.png) Am Telefon – abwesend|
 |  ![Ein roter Kreis mit weißer Linie zeigt an: nicht stören](media/Presence_DND.png) Nicht stören ||
 || ![Ein roter Kreis mit weißer Linie zeigt an: hält Präsentation](media/Presence_DND.png) Hält Präsentation|
-|| ![Ein roter Kreis mit weißer Linie zeigt an: fokussierend](media/Presence_DND.png) Fokussierend. Die Fokussierung erfolgt, wenn die Benutzer die Fokuszeit in MyAnalytics/Insights in ihren Kalendern einplanen.|
+|| ![Ein roter Kreis mit weißer Linie zeigt an: fokussierend](media/Presence_DND.png) Fokuszeit: Eine Fokuszeit findet statt, wenn die Benutzer die Fokuszeit unter MyAnalytics/Insights in ihren Kalendern einplanen.|
 | ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend| ![Das Symbol "gelbe Uhr" zeigt an: abwesend](media/Presence_Away.png) Abwesend|
 || ![Das Symbol "gelbe Uhr" zeigt an](media/Presence_Away.png): abwesend; zuletzt anwesend um *Zeit*|
-|![Das Symbol "gelbe Uhr" zeigt an: abwesend – bin gleich zurück](media/Presence_Away.png) Bin gleich zurück| |
-|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Als offline anzeigen|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline.  Wenn Benutzer während einigen Minuten nicht auf ihren Geräten angemeldet sind, erscheinen Sie als Offline. | |
+|![Das Symbol "gelbe Uhr" zeigt an: abwesend – bin gleich zurück](media/Presence_Away.png) Bin gleich zurück| |
+|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Als offline anzeigen|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline: Wenn Benutzer einige Minuten nicht auf ihren Geräten angemeldet sind, wird Offline als ihr Status angezeigt. | |
 || ![Offener grauer Kreis zeig an: Status unbekannt](media/Presence_Unknown.png) Status unbekannt|
-|| ![Lila Kreis mit Pfeil zeigt an: Außer Haus](media/Presence_OOF.png) Außer Haus. „Außer Haus“ wird verwendet, wenn „automatische Antwort“ gesetzt ist. (Nur In Outlook verfügbar.) |
+|| ![Lila Kreis mit Pfeil zeigt an: Außer Haus](media/Presence_OOF.png) Abwesenheit: Abwesenheit wird verwendet, wenn die Option „Abwesenheitsnachricht“ aktiviert ist. |
 |||
- > [!Note]
- > Für Benutzer, deren Postfach lokal gehostet wird, wird erwartet, dass sie Anwesenheitsverzögerungen von maximal einer Stunde haben.
+ > [!NOTE]
+ > Für Benutzer, deren Postfach lokal gehostet wird, werden Verzögerungen der Anwesenheitsmeldungen von bis zu einer Stunde (maximal) erwartet.
+
 App-konfigurierte Anwesenheitsstatus basieren auf Benutzeraktivitäten (Verfügbar, Abwesend), Outlook-Kalenderstatus (In einer Besprechung) oder Team-App-Status (In einem Anruf, Präsentieren). Wenn Sie gemäß Ihrem Kalender im Fokusmodus sind, dann werden Personen in Teams den Status **Fokussierend** sehen. In anderen Produkten wird der Fokusmodus als **Nicht stören** angezeigt.
 
 Ihr aktueller Anwesenheitsstatus wechselt zu „Abwesend“, wenn Sie Ihren Computer sperren oder wenn Ihr Computer in den Leerlauf oder Ruhezustand übergeht. Auf einem Mobilgerät ändert sich Ihr Anwesenheitsstatus immer auf „Abwesend“, wenn die Teams-App im Hintergrund läuft.
@@ -77,7 +80,7 @@ Vom Benutzer konfigurierte Status haben Standardablaufeinstellungen in Teams, um
 |:--- |:---|
 | Beschäftigt|1 Tag|
 | Nicht stören|1 Tag|
-| Sonstige|7 Tage|
+| Sonstige|7 Tage|
 |||
 
 > [!NOTE]

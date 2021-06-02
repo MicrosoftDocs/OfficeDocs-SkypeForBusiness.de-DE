@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: bbc596f0e0e3d973b170b6631941020437bdb778
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 9795b78de51f554e7091bc3d2fbd333efccaffb6
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629024"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717886"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams von zertifizierten Geräten
 
@@ -44,9 +44,9 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 
 |Gerätemodell                         | Firmwareversion                                                                                                                                                                                                                           | Veröffentlichungsdatum
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| UC-P10-T (mit und ohne Handset)    | 1.0.0.80                                                 | Mai 2021                     |
-| UC-P10-C-T (mit und ohne Handset)  | 1.0.0.80                                                 | Mai 2021                     |
-| UC-P8-C-T (mit und ohne Handset)   | 1.0.0.80                                                 | Mai 2021                     |
+| Crestron UC-P10-T (mit und ohne Handset)    | 1.0.0.80                                                 | Mai 2021                     |
+| Crestron UC-P10-C-T (mit und ohne Handset)  | 1.0.0.80                                                 | Mai 2021                     |
+| Crestron UC-P8-C-T (mit und ohne Handset)   | 1.0.0.80                                                 | Mai 2021                     |
 | Yealink MP52                           | 145.15.0.6                                               | April 2021                   |
 | AudioCodes C435HD                      | 1.12.33                                                  | April 2021                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | Januar 2021                 |

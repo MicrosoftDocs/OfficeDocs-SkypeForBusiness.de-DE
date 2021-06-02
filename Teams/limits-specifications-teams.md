@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628884"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717726"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -118,17 +118,6 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 ## <a name="meetings-and-calls"></a>Besprechungen und Anrufe
 
-> [!IMPORTANT]
-> **Das Limit für Microsoft 365 Liveereignisse wird erhöht**
->
-> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis zum 30. Juni 2021 temporäre Limiterhöhungen für Liveereignisse verlängern, beispielsweise**:
->
->- Ereignisunterstützung für bis zu 20.000 Teilnehmer
->- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
->- Ereignisdauer von 16 Stunden pro Übertragung
->
-> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions).
-
 |Feature     | Obergrenze |
 |------------|---------------|
 |Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, aber noch nicht für GCC, DoD oder A1 (300). Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
@@ -139,7 +128,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 ### <a name="meeting-expiration"></a>Ablauf der Besprechung
 
 > [!NOTE]
-> Eine Besprechungs-URL funktioniert immer. Das Ablaufdatum bezieht sich nur auf PSTN-Einwahlnummern und/oder zugrunde liegende Besprechungsrichtlinien und -einstellungen.
+> Eine Besprechungs-URL hört nie auf zu funktionieren. Das Ablaufdatum bezieht sich lediglich auf PSTN-Einwahlnummern, CVI-Koordinaten und/oder zugrunde liegende Besprechungsrichtlinien und -einstellungen.
 
 |Besprechungstyp  |Besprechung läuft nach diesem Zeitraum ab  |Jedes Mal, wenn Sie eine Besprechung starten oder aktualisieren, verlängert sich der Ablaufzeitpunkt um die entsprechende Zeit  |
 |---------|---------|---------|
@@ -216,10 +205,10 @@ In der nachstehenden Tabelle sind die Grenzwerte für Kursteams aufgelistet:
 |Feature  |Obergrenze  |
 |---------|---------|
 |Anzahl von Mitgliedern in einem Team    | Lesen Sie in diesem Artikel den Abschnitt [Teams und Kanäle](#teams-and-channels).        |
-|Anzahl von Mitgliedern, die Aufgaben in einem Kursteam verwenden sollen    | 200        |
-|Anzahl von Mitgliedern, die ein OneNote-Kursnotizbuch in einem Kursteam verwenden sollen     |200         |
+|Anzahl von Mitgliedern, die Aufgaben in einem Kursteam verwenden sollen    | 300        |
+|Anzahl von Mitgliedern, die ein OneNote-Kursnotizbuch in einem Kursteam verwenden können     |300         |
 
-Ein Kursteam kann mehr als 200 Mitglieder unterstützen. Wenn Sie aber vorhaben, innerhalb Ihres Teams die App „Aufgaben“ oder die App „Kursnotizbuch“ zu verwenden, muss die Anzahl von Mitgliedern unter der vorstehenden Obergrenze bleiben.
+Ein Kursteam kann mehr als 300 Mitglieder unterstützen. Wenn Sie allerdings vorhaben, innerhalb Ihres Teams die App „Aufgaben“ oder die App „Kursnotizbuch“ zu verwenden, muss die Anzahl der Mitglieder unter der vorgenannten Obergrenze bleiben.
 
 ## <a name="tags"></a>Tags
 

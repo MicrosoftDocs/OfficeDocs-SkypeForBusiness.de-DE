@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ede4b60878dbdd44edf369b0a3c1bb861ffe366
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1048b6451163cd7b0cdbcd3f52e48c6b0f4811d1
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094025"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717796"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Verwenden der Verzeichnissuche in Microsoft Teams
 
@@ -34,6 +34,8 @@ Microsoft Teams ermöglicht Es Organisationen, ihren Benutzern benutzerdefiniert
 
 > [!NOTE]
 > In Exchange-Hybridumgebungen funktioniert dieses Feature nur mit Exchange Online Postfächern und nicht mit lokalen Postfächern.
+
+Siehe auch [Adressbuchrichtlinien in Exchange Online.](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Wann sollten Sie Verzeichnissuchen mit Bereichsbereich verwenden?
 

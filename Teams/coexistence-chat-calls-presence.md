@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Koexistenzverhalten zwischen Teams & Skype for Business, einschließlich Routingparametern, Chat- & Anrufrouting, Chats & Anrufen aus bereits vorhandenen Threads, & Anwesenheitsinformationen.
-ms.openlocfilehash: 603356df5e6f5006ea67f6a84141acf1347c1235
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f85843e4f6209731ac6146ef757f5f3dc4a88644
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122339"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718026"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -80,7 +80,7 @@ In den folgenden Tabellen:
 
 | <br/><br/> Modus | Originator <br/><br/> Client | <br/><br/> SfB &nbsp; homed |<br/><br/>Route->| Empfänger <br/><br/> Inselmodus  |
 |--- |--- |--- |--- |--- |
-| Inselmodus | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Vor dem<br/>Vor dem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
+| Inselmodus | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Vor dem<br/>Vor dem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> **Nicht möglich**<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Vor dem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/>|Microsoft Teams|
 | | | | | |
@@ -98,7 +98,7 @@ In den folgenden Tabellen:
 
 | <br/><br/> Modus   | Originator <br/><br/> Client | <br/><br/> SfB &nbsp; homed |<br/><br/>Route->|   Empfänger <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Inselmodus   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Vor dem<br/> Vor dem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Microsoft Teams* <br/>Microsoft Teams <br/>*Microsoft Teams*  |
+| Inselmodus   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Vor dem<br/> Vor dem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Microsoft Teams* <br/>**Nicht möglich** <br/>*Microsoft Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Vor dem<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
 |TeamsOnly  | Microsoft Teams | Online |  &boxv; |Microsoft Teams   |
 |  |  |  | | |

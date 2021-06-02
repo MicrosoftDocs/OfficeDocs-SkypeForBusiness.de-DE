@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrer Microsoft Teams.
-ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628944"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717866"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
 Mit automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, einer Anrufwarteschleife, einer Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center oder mit PowerShell erstellen.
 
 > [!TIP]
-> Dieser Artikel gilt für große Organisationen. Wenn Es sich bei Ihrer Organisation um ein kleines Unternehmen handelt, lesen Sie stattdessen Einrichten einer [automatischen Attendant – Kleinunternehmen.](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb)
+> Dieser Artikel ist für große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das Lernprogramm Einrichten einer [automatischen Attendant – Kleinunternehmen.](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb)
 
 Vergewissern Sie sich, dass Sie [den](plan-auto-attendant-call-queue.md) Artikel Planen Teams automatische [](plan-auto-attendant-call-queue.md#getting-started) Telefonkonferenzen und Anrufwarteschleifen gelesen und die Ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen.
 
@@ -77,8 +77,8 @@ Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer automatischen
 
 5. Wählen Sie aus, ob Sie Spracheingaben aktivieren möchten. Wenn die Option aktiviert ist, wird der Name jeder Menüoption zu einem Schlüsselwort für die Spracherkennung. So können Anrufer beispielsweise "Eins" sagen, um die Menüoption auszuwählen, die der Taste "1" zugeordnet ist, oder "Vertrieb", um die Menüoption "Vertrieb" auszuwählen.
 
-> [!NOTE]
-> Wenn Sie in Schritt 4 eine Sprache auswählen, die keine Spracheingaben unterstützt, wird diese Option deaktiviert.
+   > [!NOTE]
+   > Wenn Sie in Schritt 4 eine Sprache auswählen, die keine Spracheingaben unterstützt, wird diese Option deaktiviert.
 
 6. Wählen Sie **Weiter aus.**
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdee4dc55d0922796e66ece87b535b953ecf1580
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684542"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717826"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Erste Schritte mit Teamvorlagen mithilfe von Microsoft Graph
 
@@ -68,14 +68,14 @@ Die Basisvorlage ist standardmäßig auf **Standard** festgelegt, der keine weit
 
 | Basisorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | Keine weiteren Apps und Eigenschaften |
-| Bildung –<br>Kursteam | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote Kursnotizbuch (an die Registerkarte **"Allgemein" angeheftet)** </li><li>Aufgaben-App (an die Registerkarte **"Allgemein" angeheftet)**</li></ul> Teameigenschaften:<ul><li>Auf **HiddenMembership festgelegte Teamsichtbarkeit** (kann nicht außer Kraft gesetzt werden)</li></ul> |
-| Bildung –<br>Mitarbeiterteam | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote Mitarbeiternotizbuch (an die Registerkarte **"Allgemein" angeheftet)**</li></ul> |
-|Bildung –<br>PLG-Team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote PLG-Notizbuch (an die Registerkarte **"Allgemein" angeheftet)**</ul></li>|
-| Einzelhandel - <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle:<ul><li>Schichtübergabe</li><li>Lernen</li></ul>Teameigenschaften<ul><li>Teamsichtbarkeit auf Öffentlich gesetzt</li></ul>Mitgliedsberechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder Apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Verbinder erstellen, aktualisieren oder entfernen</li></ul> |
-| Einzelhandel - <br>Zusammenarbeit vorgesetzten | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle:<ul><li>Lernen</li><li>Vorgänge</li></ul>Teameigenschaften:<ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul>Mitgliedsberechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder Apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Verbinder erstellen, aktualisieren oder entfernen</li></ul>|
-| Gesundheitswesen –<br>Durchdingen |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle: <ul><li>Ankündigungen\*</li><li>Huddles\*</li><li>Runden</li><li>Personal\*</li><li>Schulung\*</li></ul>\*Automatisch favorisierte Kanäle |
-|Gesundheitswesen –<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle:<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Sorgerecht</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Kanal mit automatischer Favoritenliste|
+| Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | Keine weiteren Apps und Eigenschaften |
+| Bildung –<br>Kursteam | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Apps:<ul><li>OneNote Kursnotizbuch (an die Registerkarte **"Allgemein" angeheftet)** </li><li>Aufgaben-App (an die Registerkarte **"Allgemein" angeheftet)**</li></ul> Teameigenschaften:<ul><li>Auf **HiddenMembership festgelegte Teamsichtbarkeit** (kann nicht außer Kraft gesetzt werden)</li></ul> |
+| Bildung –<br>Mitarbeiterteam | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Apps:<ul><li>OneNote Mitarbeiternotizbuch (an die Registerkarte **"Allgemein" angeheftet)**</li></ul> |
+|Bildung –<br>PLG-Team |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps:<ul><li>OneNote PLG-Notizbuch (an die Registerkarte **"Allgemein" angeheftet)**</ul></li>|
+| Einzelhandel - <br>Store | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | Kanäle:<ul><li>Schichtübergabe</li><li>Lernen</li></ul>Teameigenschaften<ul><li>Teamsichtbarkeit auf Öffentlich gesetzt</li></ul>Mitgliedsberechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder Apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Verbinder erstellen, aktualisieren oder entfernen</li></ul> |
+| Einzelhandel - <br>Zusammenarbeit vorgesetzten | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle:<ul><li>Lernen</li><li>Vorgänge</li></ul>Teameigenschaften:<ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul>Mitgliedsberechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder Apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Verbinder erstellen, aktualisieren oder entfernen</li></ul>|
+| Gesundheitswesen –<br>Durchdingen |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareWard')` |Kanäle: <ul><li>Ankündigungen\*</li><li>Huddles\*</li><li>Runden</li><li>Personal\*</li><li>Schulung\*</li></ul>\*Automatisch favorisierte Kanäle |
+|Gesundheitswesen –<br>Krankenhaus | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('healthcareHospital')` |Kanäle:<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Sorgerecht</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Kanal mit automatischer Favoritenliste|
 |||
 
 

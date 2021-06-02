@@ -17,12 +17,12 @@ description: Mithilfe von Connectors bleiben Ihre Teams auf dem Laufenden, indem
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: df9cdc8bb53ae55acae10b0146655f5e5f3e0346
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684242"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717606"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden Microsoft 365 und benutzerdefinierten Verbindern in Microsoft Teams
 
@@ -30,7 +30,10 @@ Connectors halten Ihr Team auf dem laufenden, indem häufig verwendete Inhalts- 
 
 Jedes Mitglied eines Teams kann sein Team mit beliebten Clouddiensten über die Connectors verbinden, sofern die Teamberechtigungen dies zulassen, und alle Teammitglieder werden über Aktivitäten dieses Diensts benachrichtigt. Verbinder funktionieren auch nach dem Verlassen des Verbinders weiterhin, nachdem das Mitglied, das den Verbinder eingerichtet hat, den Connector verlassen hat. Jedes Teammitglied mit der Berechtigung zum Hinzufügen\Entfernen kann die Einrichtung von Connectors durch andere Mitglieder ändern.
 
-Microsoft 365 Connectors können sowohl mit Microsoft Teams als auch Microsoft 365-Gruppen verwendet werden, wodurch es für alle Mitglieder einfacher wird, synchronisiert zu bleiben und relevante Informationen schnell zu erhalten. Sowohl Microsoft Teams als Exchange verwenden dasselbe Verbindermodell, das es Ihnen ermöglicht, die gleichen Verbinder auf beiden Plattformen zu verwenden. Es ist jedoch zu erwähnen, dass das Deaktivieren von Connectors für die Microsoft 365-Gruppe, von der ein Team abhängig ist, die Möglichkeit zum Erstellen von Connectors auch für dieses Team deaktiviert.
+Microsoft 365 Connectors können sowohl mit Microsoft Teams als auch mit Microsoft 365-Gruppen verwendet werden, wodurch es für alle Mitglieder einfacher wird, synchronisiert zu bleiben und relevante Informationen schnell zu erhalten. Sowohl Microsoft Teams als Exchange verwenden dasselbe Verbindermodell, das es Ihnen ermöglicht, die gleichen Verbinder auf beiden Plattformen zu verwenden. Es ist jedoch zu erwähnen, dass das Deaktivieren von Connectors für die Microsoft 365-Gruppe, von der ein Team abhängig ist, die Möglichkeit zum Erstellen von Connectors auch für dieses Team deaktiviert.
+
+> [!NOTE]
+> Connectors sind in anderen Umgebungen GCC deaktiviert. Wenn Sie sie aktivieren müssen, legen Sie die Parameter ConnectorsEnabled oder ConnectorsEnabledForTeams auf $true [Set-OrganizationConfig-Cmdlet](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) fest. Sie müssen zuvor eine [Verbindung mit PowerShell Exchange Online herstellen.](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)
 
 > [!NOTE]
 > Connectors sind in Government Cloud Community (GCC) standardmäßig deaktiviert. Wenn Sie sie aktivieren müssen, legen Sie die Parameter ConnectorsEnabled oder ConnectorsEnabledForTeams auf $true [SetOrganizationConfig-Cmdlet](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) fest. Sie mussten zuvor eine Verbindung mit dem Exchange Online [PowerShell herstellen.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)

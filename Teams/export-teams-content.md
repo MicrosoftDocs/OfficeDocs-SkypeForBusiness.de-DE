@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 013cd992619264f875841b1b6bb13aca3943d14e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f2e7ccaac78cd7e96581dc1d9371fc9eef096265
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092448"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717976"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Exportieren von Inhalten mit Microsoft Teams Export-APIs
 
@@ -73,8 +73,9 @@ Im Folgenden finden Sie einige Beispiele für die Verwendung dieser Export-APIs:
 - Microsoft Teams APIs in Microsoft Graph, die auf vertrauliche Daten zugreifen, als geschützte APIs. Export-APIs erfordern eine zusätzliche Überprüfung, die über Berechtigungen und Zustimmung hinaus geht, bevor Sie sie verwenden können. Um Zugriff auf diese geschützten APIs an fordern, füllen Sie das [Anforderungsformular aus.](https://aka.ms/teamsgraph/requestaccess)
 - Anwendungsberechtigungen werden von Apps verwendet, die ausgeführt werden, ohne dass ein angemeldeter Benutzer anwesend ist. Anwendungsberechtigungen können nur von einem Administrator erteilt werden. Die folgenden Berechtigungen sind erforderlich:
 
-    - *Chat.Read.All:* Ermöglicht den Zugriff auf alle 1:1- und Gruppenchatnachrichten. 
-    - *User.Read.All:* Ermöglicht den Zugriff auf die Liste der Benutzer für einen Mandanten. 
+    - *Chat.Read.All:* Ermöglicht den Zugriff auf alle 1:1-, Gruppen- und Besprechungschatnachrichten. 
+    - *ChannelMessage.Read.All:* Ermöglicht den Zugriff auf alle Kanalnachrichten.  
+    - *User.Read.All:* Ermöglicht den Zugriff auf die Liste der Benutzer für einen Mandanten.
 
 ## <a name="json-representation"></a>JSON-Darstellung
 

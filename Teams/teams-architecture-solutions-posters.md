@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Zusammenfassung: Erfahren Sie mehr über die logische Architektur von Produktivitätsdiensten in Microsoft 365, beginnend mit Microsoft Teams. Erfahren Sie außerdem mehr über Sprachlösungen für Teams.'
-ms.openlocfilehash: b124a32cc2b0285f364d1211ea8d23eb2d6e64c2
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 75f1a4a2be0cc2669537a6f7afd031468d246a1a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212158"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717966"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Poster zu IT-Architektur und Sprachlösungen von Microsoft Teams
 
@@ -32,7 +32,6 @@ Teams sind von zentraler Bedeutung für die logische Architektur von Produktivit
 Diese Illustrationen geben einen Einblick in die logische Architektur der Produktivitätsdienste für Enterprise-Architekten, beginnend mit Microsoft Teams.
 
 [![Miniaturbild für Poster der logischen Architektur von Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
-
 
 ## <a name="groups-in-microsoft-365"></a>Gruppen in Microsoft 365
 

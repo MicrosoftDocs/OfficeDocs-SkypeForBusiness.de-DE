@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Lesen Sie diesen Artikel, um die Ländercodes für Medienpfade für Direct-Routing zu finden, damit Sie den optimalen Medienpfad auswählen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648124"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717996"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Ländercodes für Direct Routing Media Path
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 Beachten Sie, dass Microsoft das Festlegen dieses Parameters nur empfiehlt, wenn die Anrufprotokolle eindeutig angeben, dass die Standardzuordnung des Rechenzentrums für den Medienpfad nicht den Pfad verwendet, der dem SBC-Rechenzentrum am nächsten kommt. 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride: Dieser Befehl ist in Szenarien mit direktem Routing nicht verfügbar.
+> Der Parameter MediaRelayRoutingLocationOverride ist für die Verwendung mit verwalteten Netzbetreibern reserviert.
  
 ## <a name="country-code-reference-table"></a>Referenztabelle für Ländercodes
 
@@ -233,7 +233,7 @@ Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRel
 | Russland          | RU |
 | Ruanda          | RW |
 | Saba            | XS |
-| St. Anschleunigung | BL |
+| St. Paulélemy | BL |
 | St. Kitts und Nevis | KN |
 | St. Lucia     | LC |
 | St. Martin    | MF |
@@ -297,4 +297,3 @@ Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRel
 | Jemen           | YE |
 | Sambia          | ZM |
 | Simbabwe        | ZW |
-

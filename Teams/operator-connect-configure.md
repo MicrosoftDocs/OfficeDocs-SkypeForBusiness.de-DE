@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e82c862810448552bb9d2dc2d721815b5db43f55
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689902"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717856"
 ---
 # <a name="configure-operator-connect"></a>Konfigurieren der Verbinden
 
@@ -76,7 +76,7 @@ Führen Sie die folgenden Schritte aus, um Teams neuen Benutzern zu erwerben:
 
 4. **Erwerben von Nummern** Wechseln Sie zur Website Ihrer Netzbetreiber, um Telefonnummern zu bestellen und zu erwerben. Eine Liste der Operatorwebsites finden Sie unter [Operatoren.](#operators) Sie müssen Ihre Mandanten-ID bereitstellen. Wenn Sie Ihre Mandanten-ID nicht kennen, finden Sie weitere Informationen unter Microsoft 365 [Mandanten-ID.](/onedrive/find-your-office-365-tenant-id)
 
-5. **Weisen Sie Nummern zu.** Nachdem Ihr Operator die Bestellung abgeschlossen hat, werden Testnummern in Ihren Mandanten hochgeladen. Sie können die Nummern und den Anbieter im Teams Admin Center anzeigen, indem Sie zu **Voice-> Telefon wechseln.** Weisen Sie Benutzern Nummern mithilfe des Teams Admin Centers oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Nummern.](#assign-numbers)
+5. **Weisen Sie Nummern zu.** Nachdem Ihr Anbieter die Bestellung abgeschlossen hat, werden Nummern in Ihren Mandanten hochgeladen. Sie können die Nummern und den Anbieter im Teams Admin Center anzeigen, indem Sie zu **Voice-> Telefon wechseln.** Weisen Sie Benutzern Nummern mithilfe des Teams Admin Centers oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Nummern.](#assign-numbers)
  
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Verschieben von Nummern aus Anrufplänen zu Verbinden
@@ -108,7 +108,7 @@ Führen Sie die folgenden Schritte aus, um Teams neuen Benutzern zu erwerben:
 
 3. Wechseln Sie zur Website Ihrer Netzbetreiber, um Telefonnummern zu bestellen und zu erwerben. Eine Liste der Operatorwebsites finden Sie unter [Operatoren.](#operators) Sie müssen Ihre Mandanten-ID bereitstellen. Wenn Sie Ihre Mandanten-ID nicht kennen, finden Sie weitere Informationen unter Microsoft 365 [Mandanten-ID.](/onedrive/find-your-office-365-tenant-id)
 
-4. Nachdem Ihr Operator die Bestellung abgeschlossen hat, werden Testnummern in Ihren Mandanten hochgeladen. Sie können die Nummern und den Anbieter im Teams Admin Center anzeigen, indem Sie zu **Voice-> Telefon wechseln.** Weisen Sie Verbinden mithilfe des Teams Admin Centers oder mithilfe von PowerShell Operator-Nummern zu. Weitere Informationen finden Sie unter [Zuweisen von Nummern.](#assign-numbers)
+4. Nachdem Ihr Anbieter die Bestellung abgeschlossen hat, werden Nummern in Ihren Mandanten hochgeladen. Sie können die Nummern und den Anbieter im Teams Admin Center anzeigen, indem Sie zu **Voice-> Telefon wechseln.** Weisen Sie Verbinden mithilfe des Teams Admin Centers oder mithilfe von PowerShell Operator-Nummern zu. Weitere Informationen finden Sie unter [Zuweisen von Nummern.](#assign-numbers)
 
    
 
