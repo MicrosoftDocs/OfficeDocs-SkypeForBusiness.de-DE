@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628784"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723423"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -81,7 +81,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <h2>Teams Android-Geräte</h2>
 
-<p>Die folgende Tabelle enthält Links zu umfassenden Videoschulungen mit begleitenden PowerPoint-Bildschirmen (im PDF-Format) auf Microsoft Teams Android-Geräten, die Teams Displays, Teams Phones, Teams-Räume für Android und Teams Panels enthalten.  
+<p>Die folgende Tabelle enthält Links zu umfassenden Schulungen mit PowerPoint-Gruppen (im PDF-Format) auf Microsoft Teams Android-Geräten, die Teams Displays, Teams Phones, Teams-Räume für Android und Teams Panels enthalten.  
 
 | Modul | PowerPoint-Foliensatz (PDF)  |
 | ------------| -------------------- |

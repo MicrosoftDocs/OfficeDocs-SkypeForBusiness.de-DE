@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: Die Anrufer-ID kann sowohl für ein- als auch für ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308344"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723546"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
@@ -49,9 +49,6 @@ Sie können die Anrufer-ID für ein- und ausgehende Anrufe mithilfe einer Richtl
 ## <a name="outbound-pstn-caller-id"></a>Ausgehende PSTN-Anrufer-ID
 
 Für die ausgehende PSTN-Anrufer-ID sind die folgenden Optionen verfügbar. 
-
-> [!NOTE]
-> Einige Der unten aufgeführten Optionen befinden sich in der Preview-Version.
   
 - Die dem Benutzer zugewiesene Telefonnummer (Standardeinstellung).
 
@@ -61,9 +58,9 @@ Für die ausgehende PSTN-Anrufer-ID sind die folgenden Optionen verfügbar.
 
   - Eine Telefonnummer, die in Ihrem Telefonnummernbestand für Anrufpläne als Dienstnummer und gebührenfreie Nummer klassifiziert ist. Sie wird in der Regel einem Teams automatische Telefonzentrale oder einer Anrufwarteschleife zugewiesen.
 
-  - **Preview Release.** Eine lokale Telefonnummer über Direct-Routing, die einem Ressourcenkonto zugeordnet ist, das von einem Benutzer oder Teams automatische Telefonzentrale Anrufwarteschleife verwendet wird. 
+  - Eine lokale Telefonnummer über Direct-Routing, die einem Ressourcenkonto zugeordnet ist, das von einem Benutzer oder Teams automatische Telefonzentrale Anrufwarteschleife verwendet wird. 
 
-- **Preview Release.** Der Name der Anrufenden Partei oder das CNAM, der für den ausgehenden PSTN-Anruf festgelegt ist.  
+- Der Name der Anrufenden Partei oder das CNAM, der für den ausgehenden PSTN-Anruf festgelegt ist.  
     
 Weitere Informationen finden Sie unter [Festlegen der Anrufer-ID für einen Benutzer.](./set-the-caller-id-for-a-user.md)
   

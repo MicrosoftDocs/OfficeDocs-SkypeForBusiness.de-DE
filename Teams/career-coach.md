@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699356"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729788"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Erwerben, konfigurieren und aktivieren Sie Career Coach für Microsoft Teams
 
@@ -110,7 +110,7 @@ Auf der [Seite "Apps verwalten"](/microsoftteams/manage-apps) können Sie Teams 
 
 4. Wählen **Sie Career Coach** und dann **Einstellungen.**  
 
-    ![Zeigt die ausgewählte Career Coach-App mit der Einstellungen Option](media/app-settings.png)
+    ![Zeigt die ausgewählte Career Coach-App mit der Einstellungen Option](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>Konfigurieren der Einstellungen für die Career Coach-App
 
@@ -133,7 +133,7 @@ Career Coach hat fünf Konfigurationskategorien:
 
 Legen Sie den Namen, das Logo und die Standardsprache Ihrer Bildungseinrichtung auf der Seite mit den Einstellungen für Marke und Einstellungen festgelegt.
 
-![Der Brandingbereich von Career Coach im Admin Center](media/brand-preferences.png)
+![Der Brandingbereich von Career Coach im Admin Center](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>Symbol für Bildungseinrichtung
 
@@ -172,7 +172,7 @@ Ermitteln Sie die LinkedIn-Seite der Bildungseinrichtung. Suchen Sie die LinkedI
 
 4. Kopieren Sie die Überprüfungs-URL, und teilen Sie sie mit der LinkedIn-Seitendokumentation des [LinkedIn-Seitenadministrators Ihrer Bildungseinrichtung.](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) Der Bestätigungslink läuft nach 30 Tagen ab.  
 
-   ![Linkedin-Einstellungen für den Karrieretrainer](media/linkedin.png)  
+   ![Linkedin-Einstellungen für den Karrieretrainer](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>Kurskatalog
 

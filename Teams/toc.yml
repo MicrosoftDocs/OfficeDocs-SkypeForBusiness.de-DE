@@ -1572,7 +1572,7 @@ items:
             href: devices/phones-displays-deploy.md
           - name: USB-Audio- und -Videogeräte
             href: devices/usb-devices.md
-          - name: Bereitstellen von Zusammenarbeitsleisten für Microsoft Teams
+          - name: Bereitstellen von Microsoft Teams-Räumen in Android
             href: devices/collab-bar-deploy.md
           - name: Besprechungsraumgeräte und Lösungen
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
