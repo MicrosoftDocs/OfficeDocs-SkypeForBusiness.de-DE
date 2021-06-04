@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569233"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717986"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -109,10 +109,6 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Nummern aus Einstellungen.
 - **blockChat**: Blockieren eines Bot-Chats. Dadurch wird die bestehende Telemetrie um Chats herum verbessert und es werden lediglich Anwendungsinformationen hinzugefügt.
 - **botClickCardAction**: Verwendung von Connectorkarten.
-- **brbFeedback**: Bezogen auf die Leistung des „Bin gleich zurück“-Antwortformulars.
-- **brbFormCancelled**: Ein Ereignis, das gesendet wird, wenn das „Bin gleich zurück“-Antwortformular abgebrochen wird und der Benutzer zur App zurückkehrt.
-- **brbFormOpened**: Ein Ereignis, das gesendet wird, wenn das „Bin gleich zurück“-Formular geöffnet wird.
-- **brbFormSubmit**: Ein Ereignis, das gesendet wird, wenn der Benutzer **Senden** im Antwortformular auswählt.
 - **breakStartEndClicked**: Auf dem Bildschirm zum Einstempeln ist die Schaltfläche **Pause beginnen** oder **Pause beenden** ausgewählt.
 - **breakStartEndTriggered**: Registrieren Sie, wenn ein Benutzer die Verwendung von „Pause beginnen“ oder „Pause beenden“ auswählt.
 - **bucketSelected**: Bestätigt, dass ein Bucket erfolgreich ausgewählt wurde.
@@ -1187,6 +1183,8 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **voicemail - No AS Assigned**: Ein Sprecher tippt auf einen Voicemail-Eintrag.
 - **whiteboardUsed**: Ein Benutzer macht Anmerkungen auf einem Whiteboard (eine Aktion in der Webansicht).
 - **wiki - No AS assigned**: Telemetrie der Wiki-Nutzung.
+- **poorNetworkBanner** – Schlechtes Netzwerkbanner angezeigt.
+- **poorNetworkBanner** – Schlechtes Netzwerkbanner angezeigt.
 
 ### <a name="panelview"></a>PanelView
 
@@ -1224,6 +1222,11 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 > [!NOTE]
 > Informationen zu den Eigenschaften von PanelAction-Ereignissen finden Sie unter [Eigenschaften, die mit Szenario-Ereignissen gesendet werden](#properties-sent-with-scenario-events).
 
+- **app_incremental_sync_launch** Bestätigt, dass die Pillenanzahl erfolgreich für den Kaltstart aktualisiert wurde.
+- **app_incremental_sync_launch** Bestätigt, dass die Pillenanzahl erfolgreich für den Warm/Hot-Start aktualisiert wurde.
+- **app_start_cold** Zum Überwachen des App-Kaltstarts (nur Android)
+- **app_start_hot** Zum Überwachen des App-Hot-Starts (nur Android)
+- **app_start_warm** Zum Überwachen des App-Warm-Starts (nur Android)
 - **chat_add_giphy** – Bestätigt, dass die Giphy GIF-Darstellungsaktion erfolgreich war oder fehlgeschlagen ist.
 - **cortanaError**: Zur Überwachung von Cortana-Fehlerereignissen.
 - **cortanaView**: Zum Überwachen erscheint Cortana Canvas.
@@ -1278,6 +1281,18 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **upload_images** Bestätigt, dass die Aktion zum Hochladen eines Bilds erfolgreich war oder fehlgeschlagen ist.
 - **upload_images** Bestätigt, dass die Aktion zum Hochladen einer Sprachnachricht erfolgreich war oder fehlgeschlagen ist.
 - **voiceMessageUpload** Bestätigt, dass die Aktion zum Hochladen einer Sprachnachricht erfolgreich war oder fehlgeschlagen ist.
+- **cancel_channel_meeting** Bestätigt, dass die Absage einer Kanalbesprechung erfolgreich war oder fehlgeschlagen ist.
+- **cancel_meeting** Bestätigt, dass die Absage einer Besprechung erfolgreich war oder fehlgeschlagen ist.
+- **cancel_private_meeting** bestätigt, dass die Absage einer privaten Besprechung erfolgreich war oder fehlgeschlagen ist.
+- **edit_channel_meeting** Bestätigt, dass der Bearbeitungsvorgang einer Kanalbesprechung erfolgreich war oder fehlgeschlagen ist.
+- **edit_meeting** Bestätigt, dass der Bearbeitungsvorgang einer Besprechung erfolgreich war oder fehlgeschlagen ist.
+- **server_fetch_agenda_view** Bestätigt, dass die Kalenderereignissynchronisierung mithilfe der Mittleren API-Leiste erfolgreich war oder fehlgeschlagen ist.
+- **server_fetch_date_picker_view** Bestätigt, dass die Kalenderereignissynchronisierung mithilfe der Outlook-REST-API erfolgreich war oder fehlgeschlagen ist.
+- **server_fetch_agenda_view_group** Bestätigt, dass die Kalenderereignissynchronisierung mithilfe der Middle Tier-API für die TFL-Gruppe erfolgreich war oder fehlgeschlagen ist.
+- **server_fetch_date_picker_view_incremental** Bestätigt, dass die inkrementelle Synchronisierung des Kalenderereignisses mithilfe der Outlook-REST-API erfolgreich war oder fehlgeschlagen ist.
+- **meeting_details** Bestätigt, dass die Synchronisierung der Besprechungsdetails erfolgreich war oder fehlgeschlagen ist.
+- **show_meeting_participants** Bestätigt, dass das Anzeigen der Meeting-Teilnehmerliste erfolgreich war oder fehlgeschlagen ist.
+
 
 ## <a name="property-lists"></a>Eigenschaftenlisten
 
