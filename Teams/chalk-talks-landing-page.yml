@@ -26,16 +26,16 @@ metadata:
   appliesto:
     - Microsoft Teams
 productDirectory:
-  summary: 'Klicken Sie auf einen beliebigen Titel für den Workshop, um die Registrierung zu registrieren.'
+  summary: 'Klicken Sie auf den Titel eines Workshop, um Aufzeichnungen bei Bedarf zu registrieren oder darauf zu zugreifen.'
   items:
     - title: Verantwortlich für die Audio-/Videoqualität in Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
       summary: 'Sie stellen sicher, dass die Benutzer optimale Erfahrungen mit Besprechungen und Sprachfunktionen haben? Wir werden Tools, Berichte und bewährte Methoden für die Verwaltung der Dienstqualität – vom Einrichten einer proaktiven Strategie bis zur Lösung häufiger Probleme – besprechen.'
-      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
+      url: 'https://aka.ms/ChalkTalkAVQuality'
     - title: Also... möchten Sie mit ihrem Teams?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
       summary: 'Nehmen Sie an uns teil, um einen ausführlichen Blick auf das Hinzufügen von PSTN-Anruffunktionen zu Ihrer Bereitstellung Teams zu erhalten. Gemeinsam werden wir die Aufrufe von Terminologie, Schlüsselkonzepten und Konfigurationen durch durch gehen.'
-      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
+      url: 'https://aka.ms/ChalkTalkCalling'
     - title: Beleben Sie Ihre Liveereignisse mit Microsoft Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
       summary: 'Begeistern und beflügeln Sie Ihr Publikum mit großen virtuellen Onlineereignissen mithilfe Microsoft Teams. Hier finden Sie bewährte Methoden, um sicherzustellen, dass Ihr Ereignis erfolgreich ist.'
@@ -43,7 +43,7 @@ productDirectory:
     - title: Apps in Teams-Grundlagen
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
       summary: 'Diese Basissitzung befasst sich mit grundlegenden Funktionen wie App-Verwaltung und -Sicherheit. Hier erfahren Sie, wie Sie Ihre Workflows, Produktivitäts-Apps und Dienste, die Sie jeden Tag verwenden, in eine einzige, einheitliche Erfahrung integrieren.'
-      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
+      url: 'https://aka.ms/ChalkTalkApps'
     - title: Erstellen Sie wichtige Workflows mit Apps in Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
       summary: 'Verbinden Sie Ihre Systeme, erhöhen Sie die Automatisierung, und stellen Sie verbesserte Benutzererfahrungen für die Benutzer zur Verfügung, indem Sie die Apps, auf die Ihre Organisation Teams.'
@@ -57,7 +57,7 @@ additionalContent:
     - items:
         - title: Sie verwenden weiterhin Skype for Business?
           summary: Sehen Sie sich unsere Reihe Upgrade-Workshop an.
-          url: upgrade-workshops-landing-page.yml
+          url: 'https://aka.ms/upgradeworkshops'
         - title: Vorbereiten ihrer Benutzer
           summary: Machen Sie Ihre Benutzer mit Teams Live-Schulung auf den Weg.
           url: ./instructor-led-training-teams-landing-page.yml

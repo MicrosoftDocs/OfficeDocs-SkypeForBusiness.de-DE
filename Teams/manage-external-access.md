@@ -21,12 +21,12 @@ description: Ihr Teams- oder IT-Administrator kann den externen Zugriff für and
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f472ef2a009a3a0b9b87222d951ef34b65da15a
+ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092263"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52741074"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -36,7 +36,7 @@ Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren
 
 Verwenden Sie den externen Zugriff in folgenden Situationen:
   
-- Sie verfügen über Benutzer in unterschiedlichen Domänen, die zusammenarbeiten müssen. Beispielsweise arbeiten Rob@contoso.com und Ann@northwindtraders.com gemeinsam mit einigen anderen in den Domänen contoso.com und northwindtraders.com an einem Projekt.
+- Sie haben Benutzer in verschiedenen Domänen, die zusammenarbeiten müssen. Beispielsweise arbeiten Rob@contoso.com und Ann@northwindtraders.com zusammen mit einigen anderen Personen in den Domänen „contoso.com" und „northwindtraders.com" an einem Projekt.
 
 - Sie möchten den Personen in Ihrer Organisation die Möglichkeit geben, Microsoft Teams zu verwenden, um Personen in bestimmten Unternehmen außerhalb Ihrer Organisation zu kontaktieren.
 
@@ -48,6 +48,9 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 ## <a name="plan-for-external-access"></a>Plan für externen Zugriff
 
 Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Wenn Sie blockierte Domänen hinzufügen, sind alle anderen Domänen zulässig, und wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Die Ausnahme von dieser Regel ist, wenn anonyme Teilnehmer in Besprechungen zugelassen werden. Es gibt drei Szenarien für das Einrichten des externen Zugriffs im Microsoft Teams Admin Center (**Organisationsweite Einstellungen** > **Externer Zugriff**):
+
+> [!NOTE]
+> Benutzer von Microsoft Teams können Apps hinzufügen, wenn sie Besprechungen oder Chats mit Personen aus anderen Organisationen hosten. Sie können auch Apps verwenden, die von Personen in anderen Organisationen freigegeben werden, wenn sie an Besprechungen oder Chats teilnehmen, die von diesen Organisationen gehostet werden. Es werden die Datenrichtlinien der Organisation des Hostingbenutzers sowie die Datenfreigabemethoden von Drittanbieter-Apps, die von der Organisation dieses Benutzers freigegen werden, angewendet.
 
 > [!NOTE]
 > Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](./meeting-settings-in-teams.md).
@@ -94,9 +97,9 @@ Um Ihr Setup zu testen, benötigen Sie einen Microsoft Teams-Benutzer, der sich 
 
 2. Suchen Sie in der Teams-App anhand der E-Mail-Adresse nach der Person, und senden Sie eine Chatanfrage.
 
-3. Bitten Sie Ihren Microsoft Teams-Kontakt, Ihnen eine Chatanfrage zu senden. Wenn Sie die Anfrage nicht erhalten, liegt das Problem bei den Einstellungen Ihrer Firewall (vorausgesetzt, Ihr Gegenüber hat die eigenen Firewalleinstellungen bereits überprüft).
+3. Bitten Sie Ihren Microsoft Teams-Kontakt, Ihnen eine Chatanfrage zu senden. Wenn Sie die Anfrage nicht erhalten, liegt das Problem bei den Firewalleinstellungen (vorausgesetzt, Ihr Kontakt hat die eigenen Firewalleinstellungen bereits überprüft).
 
-4. Eine weitere Möglichkeit, um zu prüfen, ob das Problem bei Ihrer Firewall liegt, besteht darin, zu einem WLAN-Standort zu wechseln, der sich nicht hinter Ihrer Firewall befindet, z. B. zu einem Internet-Café, und Teams zu verwenden, um eine Chatanfrage an Ihren Kontakt zu senden. Wenn die Nachricht aus dem Internet-Café gesendet wird, an Ihrem Arbeitsplatz aber nicht, wissen Sie, dass die Firewall das Problem darstellt.
+4. Eine weitere Möglichkeit zu testen, ob das Problem bei der Firewall liegt, besteht darin, an einen WLAN-Standort zu wechseln, der sich nicht hinter Ihrer Firewall befindet (zum Beispiel ein Café). Senden Sie von dort mit Skype for Business eine Chatanfrage an Ihren Kontakt. Wenn die Nachricht zugestellt werden kann, an Ihrem Arbeitsplatz aber nicht, wissen Sie, dass die Firewall das Problem darstellt.
 
 > [!NOTE]
 > Wenn Sie und ein anderer Benutzer sowohl den externen Zugriff aktivieren als auch die Domänen des anderen zulassen, funktioniert das. Wenn es nicht funktioniert, sollte der andere Benutzer sich vergewissern, dass seine Konfiguration Ihre Domäne nicht blockiert.
@@ -124,7 +127,7 @@ In den folgenden Abschnitten wird beschrieben, wie Sie den Partnerverbund für g
 
 Damit Benutzer in Ihrer Organisation mit Benutzern in einer anderen Organisation kommunizieren können, müssen beide Organisationen den Partnerverbund aktivieren. Die Schritte zur Aktivierung des Partnerverbunds für eine bestimmte Organisation hängen davon ab, ob es sich um eine reine Online-, eine Hybrid- oder eine reine lokale Organisation handelt.
 
-|**Art Ihrer Organisation** |**Art der Aktivierung des Partnerverbunds**  |
+| Wenn Ihre Organisation | Aktivieren Sie den Partnerverbund wie folgt |
 |:---------|:-----------------------|
 |Online ohne lokales Skype for Business. Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern.| Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass die Einstellung **Benutzer können mit anderen Skype for Business- und Teams-Benutzern kommunizieren** unter „Externer Zugriff“ aktiviert ist.<br>– Wenn Sie keinen offenen Partnerverbund verwenden (der den Verbund mit einer beliebigen anderen Domäne zulässt), dann fügen Sie die externe Domäne zur Liste „Zulässig“ hinzu.<br><br>Wird PowerShell verwendet:<br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowFederatedUsers=true` anzeigen. <br>– Stellen Sie sicher, dass der effektive Wert `CsExternalAccessPolicy` des Benutzers `EnableFederationAccess=true` aufweist.<br>– Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` von `CsTenantFederationConfiguration` enthalten ist. |
 |Reine lokale Organisation | In lokalen Tools: <br>– Stellen Sie sicher, dass der Partnerverbund in `CsAccessEdgeConfiguration` aktiviert ist.<br>– Stellen Sie sicher, dass der Partnerverbund für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie). <br> – Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` enthalten ist. |
@@ -134,7 +137,7 @@ Damit Benutzer in Ihrer Organisation mit Benutzern in einer anderen Organisation
 
 Eingehende Chats und Anrufe von einer Verbundorganisation landen im Teams- oder Skype for Business-Client des Benutzers, je nach dem Modus des empfangenden Benutzers in TeamsUpgradePolicy.
 
-|**Zweck** |**Aktion**  |
+| Sie möchten | Gehen Sie so vor: |
 |:---------|:-----------------------|
 | Sicherstellen, dass eingehende Verbundchats und -anrufe im Teams-Client des Benutzers ankommen: | Konfigurieren Sie für Ihre Benutzer den „TeamsOnly“-Modus.
 | Sicherstellen, dass eingehende Verbundchats und -anrufe im Skype for Business-Client des Benutzers ankommen: | Konfigurieren Sie für Ihre Benutzer einen beliebigen Modus außer „TeamsOnly“. |
@@ -144,7 +147,7 @@ Eingehende Chats und Anrufe von einer Verbundorganisation landen im Teams- oder 
 
 So aktivieren Sie den Partnerverbund zwischen Benutzern in Ihrer Organisation und Verbrauchern mit Skype:
 
-|**Art Ihrer Organisation** |**Art der Aktivierung des Partnerverbunds für Verbraucher**  |
+| Wenn Ihre Organisation | Aktivieren Sie den Verbraucherverbund wie folgt |
 |:---------|:-----------------------|
 | Nur online ohne lokales Skype for Business.  Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern. | Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass die Einstellung **Benutzer können mit Skype-Benutzern kommunizieren** unter „Externer Zugriff“ aktiviert ist.<br><br>Wird PowerShell verwendet: <br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowPublicUsers=true` anzeigen. <br> – Stellen Sie sicher, dass der effektive Wert `CsExternalAccessPolicy` des Benutzers `EnablePublicCloudAccess=true` aufweist. |
 | Reine lokale Organisation | In lokalen Tools: <br> – Stellen Sie sicher, dass Skype als Verbundpartner aktiviert ist. <br> – Stellen Sie sicher, dass der `EnablePublicCloudAccess=true` für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie).|

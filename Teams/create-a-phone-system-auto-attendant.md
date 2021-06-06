@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrer Microsoft Teams.
-ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717866"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777801"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -43,17 +43,12 @@ Automatische Telefon attendants can direct calls, based on callers' input, to on
 - **Operator** : Der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als jedes der anderen Ziele in dieser Liste definiert werden.
 - **Person in der Organisation–** eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Bei dieser Person kann es sich um einen Onlinebenutzer oder einen Lokal gehosteten Benutzer Skype for Business Server.
 - **Sprach-App** – eine andere automatische Telefon attendant oder eine Anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefon attendant oder der Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
-- **Voicemail:** Das Sprachpostfach, das einer bestimmten Microsoft 365-Gruppe zugeordnet ist.
+- **Voicemail:** Das Sprachpostfach, das einer bestimmten Microsoft 365-Gruppe zugeordnet ist. Sie können wählen, ob Voicemail-Transkriptionen und das "Bitte hinterlassen Sie eine Nachricht nach dem Ton" angezeigt werden soll. Systemaufforderung.
 - **Externe Telefonnummer –** beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **Ankündigung (Audiodatei)** – Gibt eine Audiodatei wieder. Eine aufgezeichnete Ankündigungsmeldung, die Sie hochladen und die als Audio in gespeichert wird. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Attendant zurück.
 - **Ankündigung (Typ) –** Geben Sie eine Nachricht ein. Text, der vom System gelesen werden soll. Sie können bis zu 1.000 Zeichen eingeben. Das System gibt die Ankündigung wieder und kehrt dann zum Menü der automatischen Attendant zurück.
 
 Sie werden aufgefordert, eine dieser Optionen in verschiedenen Phasen beim Einrichten einer automatischen Attendant zu wählen.
-
-> [!NOTE]
-> Wenn Sie Voicemail als Ziel auswählen, stehen zwei zusätzliche Optionen zur Verfügung:
-> - **Transkription** (Standard: Aus) – Wenn die Option aktiviert ist, wird die Voicemail-Nachricht transkribiert und als Teil der E-Mail einbezogen.
-> - **Begrüßung unterdrücken** (Standard: Aus) – wenn aktiviert, wird die Standardsystemmeldung "Bitte hinterlassen Sie eine Nachricht nach dem Ton. Wenn Sie fertig sind, können Sie auflegen oder die Hashtaste drücken, um weitere Optionen anzuzeigen." werden unterdrückt.
 
 Um eine automatische Telefonzentrale zu einrichten, erweitern Sie im Teams **Admin Center** Sprachanrufe , wählen Sie **Automatische** Telefonzentralen aus, und wählen Sie dann **Hinzufügen aus.**
 

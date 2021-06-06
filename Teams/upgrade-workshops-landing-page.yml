@@ -37,9 +37,6 @@ productDirectory:
 additionalContent:
   sections:
     - items:
-        - title: Sehen Sie sich diese Workshops in Ihrer eigenen Zeit an
-          summary: Besuchen Sie Upgrade für Microsoft Teams auf YouTube.
-          url: 'https://aka.ms/UpgradeOnDemand'
         - title: Erweitern Ihrer Teams Szenarien?
           summary: Sehen Sie sich unsere Teams Kreide-Talk-Workshops für IT-Profis an.
           url: ./chalk-talks-landing-page.yml

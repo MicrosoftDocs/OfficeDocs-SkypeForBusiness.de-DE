@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erhalten Sie Informationen zu automatischen Telefonkonferenzen und Anrufwarteschleifen und erfahren, wie Sie Anrufern dabei helfen, durch ein Menüsystem zu gelangen, um Personen oder Abteilungen in Ihrer Organisation zu erreichen.
-ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517748"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739635"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planen der Teams von automatischen Telefonkonferenzen und Anrufwarteschleifen
 
@@ -152,7 +152,7 @@ Wenn Anrufe von einer automatischen Telefonleitung oder Anrufwarteschleife umgel
 - **Person in der Organisation–** eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Dabei kann es sich um einen Onlinebenutzer oder einen benutzer, der lokal mithilfe eines Kontos gehostet Skype for Business Server.
 - **Sprach-App** – eine andere automatische Telefon attendant oder eine Anrufwarteschleife. Wählen Sie das Ressourcenkonto aus, das dem Ziel zugeordnet ist.
 - **Externe Telefonnummer –** beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **Voicemail:** Das Sprachpostfach, das einer bestimmten Microsoft 365-Gruppe zugeordnet ist.
+- **Voicemail:** Das Sprachpostfach, das einer bestimmten Microsoft 365-Gruppe zugeordnet ist. Sie können wählen, ob Voicemail-Transkriptionen und das "Bitte hinterlassen Sie eine Nachricht nach dem Ton" angezeigt werden soll. Systemaufforderung.
 - **Operator** (nur automatische Attendant) – der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Ein Operator kann eines der anderen In-Zielorte in dieser Liste sein.
 
 Automatische Telefonkonferenzen bieten separate Anrufroutingoptionen für Anrufe, die außerhalb der Geschäftszeiten und an Feiertagen eingegangen sind. Anrufrouting nach Stunden ermöglicht alle oben aufgeführten Optionen, während das Routing von Feiertagen nur das Umleiten oder Trennen eines Anrufs, aber keine Optionen für die Wählta nicht zulässt.

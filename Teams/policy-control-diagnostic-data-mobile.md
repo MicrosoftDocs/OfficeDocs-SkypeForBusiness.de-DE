@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717986"
+ms.locfileid: "52723566"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -344,6 +344,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **companionDismissProximity**: Schließen Sie das Begleitbanner.
 - **companionJoin**: Die Option „Als Begleiter beitreten“ wird auf dem Arbeitsblatt ausgewählt.
 - **companionJoinProximity**: Durch das Begleitbanner beigetreten.
+- **completeVaultFRE** – Der Benutzer vervollständigt die Generierung eines Hauptschlüssels, der zum Verschlüsseln der Tresordaten verwendet wird.
 - **completionStateChange**: Wird ausgelöst, wenn in der Filteransicht in der Aufgabenliste ein abgeschlossener oder nicht abgeschlossener Filterumschalter ausgewählt wird.
 - **composeExpandComposer** - Die Schaltfläche **Format** wird angetippt.
 - **composeFilePick**: Native Dateiauswahl gestartet.
@@ -432,6 +433,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **deleteMeeting**: Wählen Sie auf der Besprechungsdetailseite die Schaltfläche **Löschen** aus.
 - **deletePersonalTask**: Bestätigt, dass eine persönliche Aufgabe erfolgreich gelöscht wurde.
 - **deletePersonalSubtask**: Bestätigt, dass eine persönliche Teilaufgabe erfolgreich gelöscht wurde.
+- **deletePersonalVaultItem** – Der Benutzer fordert das Löschen seines persönlichen Tresors an.
 - **deletePlannerTask**: Bestätigt, dass ein Löschvorgang für eine freigegebene Aufgabe erfolgreich abgeschlossen wurde.
 - **deleteShift**: Löschen einer Schicht.
 - **duration_picker_dismissed**: Wenn die Dauer-Auswahl geschlossen wird.
@@ -571,6 +573,8 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **funSelectItem**: Giphy-Bild ausgewählt. Erfolgsdaten für das Giphy-Anlagen-Feature in Teams.
 - **galleryImage**: Bild hochgeladen – Gallerie.
 - **get_directions_clicked**: Die Schaltfläche **Wegbeschreibung abrufen** wird ausgewählt.
+- **giphyUserDisabled** – Der Benutzer wählt aus, dass er die Giphy-Bestimmungen/Bedingungen ablehnt.
+- **giphyUserEnabled** – Der Benutzer wählt aus, dass er die Giphy-Bestimmungen/Bedingungen akzeptiert.
 - **goToNotificationSettings**: Wechseln Sie zur Seite „Benachrichtigungseinstellungen“ von dem Dialogfeld **Nachrichteneinstellungen wurden aktualisiert**.
 - **GPSPromptClicked**: In einer Aufforderung des Betriebssystems wird **Zulassen** oder **Nicht zulassen** ausgewählt. Entweder GPS erlauben oder nicht.
 - **group_map_closed**: Ein Benutzer öffnet die Kartenansicht aus dem Chat.
@@ -617,6 +621,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **labelSelected**: Bestätigt, dass eine Bezeichnung erfolgreich ausgewählt wurde.
 - **labelUnselected**: Bestätigt, dass die Auswahl einer Bezeichnung erfolgreich aufgehoben wurde.
 - **launchLinksGallery**: Wenn ein Benutzer über das Dashboard den Linkkatalog betritt.
+- **launchSlideshow** – Der Benutzer startet die Bildschirmpräsentation als Vollbildanzeige von einem der drei möglichen Orten für App-Features. 
 - **Launch source such as direct, link, appShortcut**: Startet direkt oder per Link (Aufzeichnung von Mobiler Anwendungsverwaltung (MAM) oder Mobiler Geräteverwaltung (MDM) Telemetrie beim Start der Anwendung, um Daten für aktive Benutzer zu sammeln).
 - **leaveChat**: Bestätigung des Verlassens des Chats.
 - **legacyChatLink**: Ein Link wird für einen älteren Chat ausgewählt.
@@ -656,7 +661,9 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **location_sharing_stop**: Ein Benutzer beended die Freigabe seines Live-Standorts in einem Chat.
 - **LoginFailed**: Benutzer konnte sich nicht anmelden.
 - **loginSuccess**: Benutzer konnte sich anmelden.
-- **manageBlockedNumbers**: Zugriff zu blockierten Nummer über Einstellungen.
+- **logoutVault** – Der Benutzer meldet sich bei der App und damit beim Tresor ab. 
+- **manageBlockedNumbers**: Zugriff zu blockierten Nummern über „Einstellungen“.
+- **manageVaultKey** – Der Benutzer ändert seine Auswahl für die Tresorschlüsselverwaltung (MSA oder eigene Nachverfolgung).
 - **manualSendMessage**: Eine Nachricht wird manuell versendet.
 - **mapAppPicker**: Wenn ein Benutzer die zu verwendende Mapping-App auswählt, indem er auf eine Standortkarte tippt.
 - **markAsRead**: Als gelesen markieren.
@@ -708,6 +715,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **meetingUserFreemium**: Ein Freemium-Benutzer ist der Besprechung beigetreten.
 - **meetingUserGuest**: Ein Gastbenutzer ist der Besprechung beigetreten.
 - **meetingUserTenant**: Ein In-Mandanten-Benutzer ist der Besprechung beigetreten.
+- **memeGenerated** – Wenn aufgrund einer Benutzereingabe von Bild- und Textdaten ein Meme generiert wird. 
 - **messageCopyMessage**: Nachricht kopieren.
 - **messageDelete**: Nachricht löschen.
 - **messageEditMessage**: Nachricht bearbeiten.
@@ -940,6 +948,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **requestToJoinTeam**: Anforderung, einem Team beizutreten (öffentlich oder privat).
 - **requestToJoinTeamError**: Fehler bei einer Beitrittsanforderung.
 - **requestTypeClicked**: Ermitteln des Anforderungstyps, den Personen aus der Anforderungsauswahl gewählt haben.
+- **resetLocalVault** – Der Benutzer setzt alle Tresordaten auf dem Gerät zurück und entfernt sie.
 - **resolveIssue** - **Auflösen** wird im Benachrichtigungs-Flyout zur Fehlerbehebung ausgewählt, um zur Blocker-App zu navigieren.
 - **responseClicked**: Ein Benutzer wählt eine Antwortseite aus.
 - **retryButtonClicked**: Die Schaltfläche **Wiederholen** ist ausgewählt.
@@ -1003,6 +1012,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **Setting/Dismiss**: Gerätekontakteinstellung.
 - **settingsNavReadReceiptNotice**: Benutzer ist vom Feature-Hinweis zu den Einstellungen gewechselt.
 - **settingsOpened**: Dies wird ausgelöst, wenn die Gerätezeitzone des Benutzers nicht der Teamzeitzone entspricht, und der Benutzer zu Einstellungen wechselt.
+- **setupPinVault** – Der Benutzer speichert eine Tresor-PIN für sein Konto. 
 - **shareFile**: Wird ausgelöst, wenn **Datei freigeben** ausgewählt ist. Hilft außerdem beim Überprüfen, ob:
   - Der Benutzer die Dateifreigabeoperation initiieren konnte.
   - Der Benutzer eine Datei erfolgreich freigeben kann.

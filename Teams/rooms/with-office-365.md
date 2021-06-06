@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Microsoft 365 oder Office 365, wobei Teams oder Skype for Business und Exchange online sind.
-ms.openlocfilehash: b5cfaab64840fe72dc989f00ed41760058afc765
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117333"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739645"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Bereitstellen Microsoft Teams-Räume mit Microsoft 365 oder Office 365
 
@@ -146,8 +146,8 @@ Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in de
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-> [!NOTE]
-> Wenn das Kennwort nicht auf Nie abläuft festgelegt ist, wird das Konto nicht mehr auf dem Gerät anmelden, wenn das Konto den Ablaufzeitraum erreicht. Das Kennwort muss dann für das Konto geändert und auch lokal auf dem MTR-Gerät aktualisiert werden.
+    > [!NOTE]
+    > Wenn das Kennwort nicht auf Nie abläuft festgelegt ist, wird das Konto nicht mehr auf dem Gerät anmelden, wenn das Konto den Ablaufzeitraum erreicht. Das Kennwort muss dann für das Konto geändert und auch lokal auf dem MTR-Gerät aktualisiert werden.
 
 6. Das Gerätekonto muss über eine gültige lizenz Microsoft 365 gültige Office 365 verfügen, oder Exchange und Microsoft Teams oder Skype for Business funktionieren nicht. Wenn Sie über eine Lizenz verfügen, müssen Sie Ihrem Gerätekonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> um eine Liste der verfügbaren SKUs für Ihre Organisation Microsoft 365 oder Office 365 wie folgt abzurufen:
 
@@ -181,14 +181,17 @@ Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in de
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
-7. Als Nächstes müssen Sie das Gerätekonto mit einem Skype for Business. Stellen Sie sicher, dass Ihre Umgebung die in den Microsoft Teams-Räume [Anforderungen erfüllt.](requirements.md)
+    > [!NOTE]
+    > Wenn Sie Ihre Teams-Räume so konfigurieren, dass sie nur systemeigene an Microsoft Teams teilnehmen, sollten Sie nicht mit dem folgenden Schritt fortfahren. Folgendes ist nur erforderlich, wenn Sie auch Unterstützung für lokale Skype for Business aktivieren.
+
+7. Um das Gerätekonto mit einem lokalen Skype for Business zu aktivieren, stellen Sie sicher, dass Ihre Umgebung die in den Microsoft Teams-Räume [Anforderungen erfüllt.](requirements.md)
 
    Starten Sie eine [Remote Windows PowerShell Sitzung](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) wie folgt (stellen Sie sicher, dass Sie Skype for Business [PowerShell-Komponenten installieren):](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
 
-> [!NOTE]
-> Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
->
-> Wenn Sie die neueste Version Teams [PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
+   > [!NOTE]
+   > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
+   >
+   > Wenn Sie die neueste Version Teams [PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
 
    ``` Powershell
    # When using Teams PowerShell Module

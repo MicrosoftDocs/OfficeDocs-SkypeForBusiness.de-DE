@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: HT
+ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865169"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739545"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -54,12 +54,11 @@ Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Metho
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-<a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
-------------------------------
+## <a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
 
 **Teammitgliedschaft**
 
-Wenn Microsoft Teams für Ihre gesamte Organisation aktiviert ist, können festgelegte Teambesitzer alle Mitarbeiter, mit denen sie zusammenarbeiten, einladen, ihrem Team beizutreten. Teambesitzer können in Microsoft Teams ganz leicht Personen aus der Organisation anhand ihres Namens hinzufügen. Je nach den Einstellungen Ihrer Organisation können auch Gäste, die zwar Teammitglieder sind, aber nicht der Organisation angehören, zu Ihren Teams hinzugefügt werden. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md). 
+Wenn Microsoft Teams für Ihre gesamte Organisation aktiviert ist, können festgelegte Teambesitzer alle Mitarbeiter, mit denen sie zusammenarbeiten, einladen, ihrem Team beizutreten. Teambesitzer können in Microsoft Teams ganz leicht Personen aus der Organisation anhand ihres Namens hinzufügen. Je nach den Einstellungen Ihrer Organisation können Personen außerhalb Ihrer Organisation zu Ihren Teams als Gäste hinzugefügt werden. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md). 
 
 Darüber hinaus können Teambesitzer ein Team auf der Grundlage einer vorhandenen Microsoft 365-Gruppe erstellen. Alle an der Gruppe vorgenommenen Änderungen werden automatisch mit Microsoft Teams synchronisiert. Durch die Erstellung eines Teams auf der Grundlage einer vorhandenen Microsoft 365-Gruppe wird nicht nur das Einladen und Verwalten von Mitgliedern vereinfacht, sondern es werden auch Gruppendateien in Microsoft Teams synchronisiert.
 
@@ -71,6 +70,9 @@ In Microsoft Teams gibt es zwei Hauptrollen:
 - **Teammitglieder** – Personen, die von den Teambesitzern eingeladen werden, dem Team beizutreten.
 
 Wenn die Moderation eingerichtet ist, können Teambesitzer und Teammitglieder auch über Moderatorfunktionen für einen Kanal verfügen. Moderatoren können neue Beiträge im Kanal starten und steuern, ob Teammitglieder auf vorhandene Kanalnachrichten antworten können. Teambesitzer können Moderatoren in einem Kanal zuweisen. (Teambesitzer verfügen standardmäßig über Moderatorfunktionen.) Moderatoren in einem Kanal können andere Moderatoren innerhalb dieses Kanals hinzufügen oder entfernen. Weitere Informationen finden Sie unter [Einrichten und Verwalten der Kanalmoderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+> [!NOTE]
+> Wenn Sie einen Teambesitzer hinzufügen, wird dieser auch als Mitglied hinzugefügt, es sei denn, das Team wird im Teams Admin Center erstellt oder wenn ein Team einer neuen oder vorhandenen Microsoft 365-Gruppe hinzugefügt wird.
 
 **Teameinstellungen** 
 
@@ -86,8 +88,7 @@ Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Micr
 
 Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
 
-<a name="example-teams"></a>Beispiele für Teams
---------------
+## <a name="example-teams"></a>Beispiele für Teams
 
 Nachstehend finden Sie einige Funktionsbeispiele dafür, wie unterschiedliche Benutzertypen beim Einrichten von Teams, Kanälen und Apps (Registerkarten/Connectors/Bots) vorgehen können. Dies kann beim Starten einer Unterhaltung zu Microsoft Teams mit Ihrer Benutzercommunity hilfreich sein. Wenn Sie eine Implementierung von Microsoft Teams in Ihrer Organisation planen, denken Sie daran, dass Sie Anleitungen zum Strukturieren Ihrer Teams bereitstellen können. Benutzer haben jedoch die Kontrolle darüber, wie sie sich organisieren. Die folgenden Beispiele dienen der Veranschaulichung und sollen Teams dabei helfen, die Möglichkeiten zu durchdenken.
 
@@ -99,7 +100,7 @@ Microsoft Teams ist gut dafür geeignet, organisatorische Silos aufzubrechen und
 |Öffentlichkeitsarbeit     |Pressemitteilungen<br></br>Neuigkeiten und Updates<br></br>Überprüfung der Fakten         |RSS-Feed<br></br>Twitter         |
 |Event Planning (Veranstaltungsplanung)     |Marketing<br></br>Logistik und Planung<br></br>Veranstaltungsort<br></br>Budget         |Twitter<br></br>Facebook<br></br>Planner<br></br>PDF         |
 |Marketing/Markteinführung   |Marktforschung<br></br>Säulen des Messaging<br></br>Kommunikationsplan<br></br>Marketingstückliste        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
-|Technischer Betrieb    |Incident Management<br></br>Sprintplanung<br></br>Arbeitselemente<br></br>Infrastruktur und Betrieb         |Teamdienste<br></br>Jira<br></br>AzureBot         |
+|Technischer Betrieb    |Incident Management<br></br>Sprintplanung<br></br>Arbeitselemente<br></br>Infrastruktur und Betrieb         |Team Services<br></br>Jira<br></br>AzureBot         |
 |Produktteam      |Strategie<br></br>Marketing<br></br>Vertrieb<br></br>Vorgänge<br></br>Insights<br></br>Dienste und Support         |Power BI<br></br>Team Services         |
 |Finanzen    |Aktuelles Geschäftsjahr<br></br>Geschäftsjahresplanung<br></br>Prognose<br></br>Forderungen<br></br>Verbindlichkeiten         |Power BI<br></br>Google Analytics         |
 |Logistik     |Lagerbetrieb<br></br>Fahrzeugwartung<br></br>Fahrerdienstpläne         |Wetterdienst<br></br>Verkehrsstörungen<br></br>Planner<br></br>Tubot<br></br>UPS-Bot         |

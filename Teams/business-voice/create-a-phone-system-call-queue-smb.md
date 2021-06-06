@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Erfahren Sie, wie Sie Anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629054"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739685"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschleife – Lernprogramm für Kleinunternehmen
 
@@ -136,9 +136,13 @@ Als Nächstes erstellen wir eine neue Anrufwarteschleife und weisen das Ressourc
 
 2. Klicken Sie auf **Konten hinzufügen**, suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschleife verwenden möchten, klicken Sie auf **Hinzufügen** und dann nochmals auf **Hinzufügen**.
 
+3. (Optional) Klicken **Sie unter Anruf-ID** zuweisen auf **Hinzufügen**, suchen Sie nach den Ressourcenkonten, die Sie für Ihre automatische Telefon attendant erstellt haben, klicken Sie auf Hinzufügen **,** und klicken Sie dann auf **Hinzufügen**. Dadurch erhalten die Telefonanrufer die Anrufer-ID Ihrer Hauptleitung, wenn sie anrufen.
+
+    ![Screenshot der Anruf-ID-Einstellungen](../media/call-queue-assign-calling-id.png)
+
 3. Wählen Sie eine Sprache aus. Diese Sprache wird für vom System generierte Sprachansagen und Voicemailtranskripte verwendet (sofern Sie diese aktivieren).
 
-    ![Screenshot der Einstellungen für Ressourcenkonto und Sprache](../media/call-queue-name-language.png)
+    ![Screenshot der Einstellungen für das Ressourcenkonto](../media/call-queue-name-language.png)
 
 4. Legen Sie fest, ob eine Begrüßung abgespielt werden soll, wenn Anrufer in der Warteschleife eintreffen. Die gewünschte Begrüßung muss in Form einer MP3-, WAV- oder WMA-Datei hochgeladen werden.
 
