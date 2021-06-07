@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117783"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777901"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Übersicht über die Richtliniensteuerung für Microsoft Teams
 
@@ -35,7 +35,7 @@ Dieser Artikel soll Ihnen Informationen über Kontrollmechanismen für den Daten
 Im Rahmen dieser Änderungen gibt es neue und aktualisierte Benutzeroberflächenelemente (UI) und Richtlinieneinstellungen.
 
 > [!IMPORTANT]
-> Weitere Lektüre finden Sie in den Microsoft 365-Inhalten unter [Übersicht über die Datenschutzsteuerungen](/deployoffice/privacy/overview-privacy-controls).
+> Weitere Informationen finden Sie in den Inhalten zu Microsoft 365 unter [Übersicht über die Datenschutzsteuerungen](/deployoffice/privacy/overview-privacy-controls).
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Diagnosedaten, die von Microsoft 365 Apps for Enterprise an Microsoft gesendet werden
 
@@ -59,9 +59,10 @@ Die folgenden Clients halten sich an Diagnosesteuerelemente und senden Daten:
 - Android
 - Desktop (nur die Komponente, die die Win32-API verwendet)
 
-Erforderliche Diagnosedaten für mobile Geräte finden Sie unter [Richtliniensteuerung für Diagnosedaten für mobile Geräte](policy-control-diagnostic-data-mobile.md).
+Eine Liste der erforderlichen Diagnosedatenereignisse und deren Eigenschaften finden Sie in den folgenden Artikeln:
 
-Erforderliche Diagnosedaten für Desktopgeräte finden Sie unter [Richtliniensteuerung für Diagnosedaten für Desktopgeräte](policy-control-diagnostic-data-desktop.md).
+- [Erforderliche mobile Diagnosedaten für Microsoft Teams](policy-control-diagnostic-data-mobile.md)
+- [Erforderliche Desktop-Diagnosedaten für Microsoft Teams](policy-control-diagnostic-data-desktop.md)
 
 ## <a name="diagnostic-data-sent-from-the-teams-app-to-microsoft"></a>Diagnosedaten, die von der Teams-App an Microsoft gesendet werden
 
@@ -73,25 +74,26 @@ Es gibt drei Ebenen von Diagnosedaten für die Teams-Software, aus denen Sie wä
 - **Optional** Zusätzliche Daten, die uns helfen, Produktverbesserungen vorzunehmen und erweiterte Informationen liefern, die uns helfen, Probleme zu erkennen, zu diagnostizieren und zu beheben.
 - **Weder noch** Es werden keine Diagnosedaten über die auf dem Gerät des Benutzers ausgeführte Teams-Software gesammelt und an Microsoft gesendet. Diese Option schränkt jedoch unsere Möglichkeiten zur Erkennung, Diagnose und Behebung von Problemen erheblich ein, auf die Ihre Benutzer bei der Verwendung von Teams stoßen könnten.
 
-Erforderliche Diagnosedaten können z. B. Informationen über die auf dem Gerät installierte Version des Teams-Client sein oder Informationen beinhalten, die darauf hindeuten, dass die Teams-Anwendung beim Versuch, an einer Besprechung teilzunehmen, abstürzen. Optionale Diagnosedaten können Informationen über die zum Starten eines Telefonanrufs erforderliche Zeit beinhalten, was auf ein Problem mit der Verbindung oder mit der Netzwerkleistung hinweisen könnte.
+Erforderliche Diagnosedaten können z. B. Informationen über die auf dem Gerät installierte Version des Teams-Client sein oder Informationen beinhalten, die darauf hindeuten, dass die Teams-Anwendung beim Versuch, an einer Besprechung teilzunehmen, abstürzen. Optionale Diagnosedaten können Informationen über die zum Starten eines Telefonanrufs erforderliche Zeit beinhalten, was auf ein Problem mit der Verbindung oder mit der Netzwerkleistung hinweisen könnte.
 
 Wenn Sie sich dafür entscheiden, uns optionale Diagnosedaten zu senden, werden auch die erforderlichen Diagnosedaten mitgeliefert.
 
-Als Administrator für Ihr Unternehmen können Sie anhand einer Richtlinieneinstellung auswählen, welche Ebene von Diagnosedaten an uns gesendet wird. Optionale Diagnosedaten werden an Microsoft gesendet, es sei denn, Sie ändern die Einstellung. Die Bereitstellung optionaler Diagnosedaten ermöglicht es dem Office-Entwicklerteam von Microsoft, Probleme zu erkennen, zu diagnostizieren und zu beheben, um die Auswirkungen auf Ihr Unternehmen zu minimieren.
+Als Administrator für Ihr Unternehmen können Sie anhand einer Richtlinieneinstellung auswählen, welche Ebene von Diagnosedaten an uns gesendet wird. Optionale Diagnosedaten werden an Microsoft gesendet, es sei denn, Sie ändern die Einstellung. Die Bereitstellung optionaler Diagnosedaten ermöglicht es dem Office-Entwicklerteam von Microsoft, Probleme zu erkennen, zu diagnostizieren und zu beheben, um die Auswirkungen auf Ihr Unternehmen zu minimieren. 
+
+Zum Auswählen der Ebene für die an uns gesendeten Diagnosedaten verwenden Sie den [Office-Cloudrichtliniendienst](/deployoffice/overview-office-cloud-policy-service), und konfigurieren Sie die Richtlinieneinstellung *Ebene der von Office an Microsoft gesendeten Software-Diagnosedaten konfigurieren*. Dies ist dieselbe Richtlinieneinstellung, mit der konfiguriert wird, welche Ebene von Diagnosedaten durch andere Office-Apps (wie Word, Excel und PowerPoint) gesendet wird, die in Microsoft 365 Apps for Enterprise enthalten sind.
 
 Wenn Benutzer mit den organisatorischen Anmeldeinformationen (auch als Geschäfts-, Schul- oder Unikonto bezeichnet) bei Teams angemeldet sind, können sie die Diagnosedatenebene für ihre Geräte nicht ändern.
 
 In diesen Diagnosedaten sind weder Namen oder E-Mail-Adressen von Benutzern, noch Inhalte von Dateien der Benutzer enthalten. Unser System erstellt eine eindeutige ID und verknüpft diese mit den Diagnosedaten des Benutzers. Wenn wir Diagnosedaten erhalten, die zeigen, dass die Teams-App 100 Mal abgestürzt ist, können wir mit dieser eindeutigen ID feststellen, ob es ein einzelner Benutzer war, der 100 Mal abgestürzt ist, oder ob es 100 verschiedene Benutzer waren, die jeweils einmal abgestürzt sind. Wir verwenden diese eindeutige ID nicht, um einen bestimmten Benutzer zu identifizieren.
 
+Wenn Sie sehen möchten, welche Diagnosedaten an Microsoft gesendet werden, verwenden Sie den Diagnosedaten-Viewer, den Sie aus dem Microsoft Store kostenlos herunterladen und installieren können. Weitere Informationen finden Sie unter [Verwenden des Diagnosedaten-Viewers mit Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
+
+> [!NOTE]
+> Unterstützung zum Diagnosedaten-Viewer steht für Teams auf Geräten unter Android zur Verfügung. An Unterstützung für Teams auf Geräten unter Windows, macOS oder iOS wird zurzeit gearbeitet.
+
 ## <a name="required-service-data-for-connected-experiences"></a>Erforderliche Dienstdaten für verbundene Benutzeroberflächen
 
-Bei den erforderliche Dienstdaten handelt es sich um Daten, mit denen wir diese cloudbasierten verbundenen Erfahrungen bereitstellen und dafür sorgen können, dass diese Erfahrungen sicher und wie erwartet funktionieren. Drei Arten von Informationen bilden erforderliche Dienstdaten.
-
-- **Kundeninhalte**, d. h. Inhalte, die Sie mit Office erstellen, z. B. Texte in einem Word-Dokument.
-- **Funktionsdaten**, d. h. Informationen, die eine verbundene Erfahrung zur Erfüllung ihrer Aufgabe benötigt, z. B. Konfigurationsinformationen über die App.
-- **Dienstdiagnosedaten**, d. h. Daten, die erforderlich sind, um sicherzustellen, dass der Dienst auf dem neuesten Stand ist sowie sicher und erwartungsgemäß funktioniert. Da diese Daten in engem Zusammenhang mit der damit verbundenen Erfahrung stehen, sind sie von den erforderlichen oder optionalen Diagnosedatenebenen getrennt.
-
-Sie können sich dafür entscheiden, diese Funktionalität Ihren Benutzern nicht anzubieten. In diesem Fall werden diese Informationen Microsoft nicht zur Unterstützung verbundener Dienste zur Verfügung gestellt. Hier erfahren Sie mehr über [erforderliche Dienstdaten](/deployoffice/privacy/required-service-data).
+Bei den erforderliche Dienstdaten handelt es sich um Daten, mit denen wir diese cloudbasierten verbundenen Erfahrungen bereitstellen und dafür sorgen können, dass diese Erfahrungen sicher und wie erwartet funktionieren. Sie können sich dafür entscheiden, diese Funktionalität Ihren Benutzern nicht anzubieten. In diesem Fall werden diese Informationen Microsoft nicht zur Unterstützung verbundener Dienste zur Verfügung gestellt. Hier erfahren Sie mehr über [erforderliche Dienstdaten](/deployoffice/privacy/required-service-data).
 
 ## <a name="essential-services-for-microsoft-teams"></a>Grundlegende Dienste für Microsoft Teams
 
