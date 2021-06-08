@@ -827,10 +827,12 @@ items:
             items:
               - name: Einrichten von Cloudvoicemail
                 href: set-up-phone-system-voicemail.md
+              - name: Verwalten von Voicemailrichtlinien
+                href: manage-voicemail-policies.md
               - name: Ändern der Standardsprache für Voicemail
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Sprachen für Voicemail-Ansagen und -Nachrichten
-                href: languages-for-voicemail-greetings-and-messages.md
+                href: languages-for-voicemail-greetings-and-messages-teams.md
           - name: Anrufer-ID
             items:
               - name: Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation
