@@ -481,8 +481,6 @@ items:
         href: teams-policies.md
       - name: Einrichten von Kanalmoderation in Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Freigeben von Dateien in Teams
-        href: sharing-files-in-teams.md
       - name: Teams und Outlook-E-Mail-Integration
         href: teams-outlook-email-integration.md
       - name: Von Outlook nach Teams freigeben
