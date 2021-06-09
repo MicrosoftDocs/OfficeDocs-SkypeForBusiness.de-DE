@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie Ihre Microsoft Teams-Räume sichern.
-ms.openlocfilehash: 77c7d71cfb41318b123fb262ee4a57b9aaeba493
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24faadb4e139bdbddd8ed315faba7fd8c8257b83
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117393"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796699"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams-Räume Sicherheit
 
@@ -28,6 +28,7 @@ Microsoft arbeitet mit unseren Partnern zusammen, um eine sichere Lösung zu fin
 
 > [!NOTE]
 > Microsoft Teams-Räume sollten nicht wie eine typische Arbeitsstation des Endbenutzers behandelt werden. Die Einsatzfälle unterscheiden sich nicht nur deutlich, sondern auch die standardmäßigen Sicherheitsprofile.
+> Dieser Artikel bezieht sich auf Microsoft Teams-Räume auf Geräten, die auf einem Windows.
 
 Auf diesen Daten werden nur eingeschränkte Teams-Räume. Endbenutzerdaten können nur zur Problembehandlung und Unterstützung in den Protokolldateien gespeichert werden. Der Teilnehmer einer Besprechung kann jederzeit mithilfe von Teams-Räume Dateien auf die Festplatte kopieren oder sich als sich anmelden. Es werden keine Endbenutzerdaten an das Gerät übertragen bzw. kann auch nicht von diesem Microsoft Teams-Räume werden.
 

@@ -1,9 +1,9 @@
 ---
-title: Sprachen für Voicemail-Ansagen und -nachrichten
+title: Teams für Voicemail-Begrüßungen und -Nachrichten
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: colongma
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
@@ -13,7 +13,6 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
@@ -22,65 +21,73 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardsystemnachrichten und Voicemail-Begrüßungen festlegen können.
-ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 78faf285e4875319d7495b4afb7d66f418ef9d37
+ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638764"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52804648"
 ---
-# <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
+# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams für Voicemail-Begrüßungen und -Nachrichten
 
-Sie können Skype for Business so einrichten, dass die System-Voicemail-Ansage in einer der Sprachen aus der folgenden Tabelle wiedergegeben wird.
+Teams unterstützt die folgenden Sprachen für Voicemail-Begrüßungen.
   
-Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen verwendet, lesen Sie [Ändern der Standardsprache für Voicemail-Ansagen und E-Mails in Ihrer Organisation](change-the-default-language-for-greetings-and-emails.md).
-  
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
-|**Sprache** <br/> |**Land/Region** <br/> |**Sprachcode** <br/> |**Für Benutzer in E-Mails sichtbar?** <br/> |**Verfügbar bei Anrufen des Benutzers?** <br/> |**Transkription verfügbar?** <br/> |
-|Arabisch <br/> |Ägypten  <br/> |ar-EG  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Katalanisch  <br/> |Katalanisch  <br/> |ca-ES  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Chinesisch (vereinfacht)  <br/> |China  <br/> |zh-hans  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Chinesisch (Hongkong SAR)  <br/> |China  <br/> |zh-hk  <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> | Ja <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> |
-|Chinesisch (traditionell)  <br/> |Taiwan  <br/> |zh-hant  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Kroatisch<br/> |Kroatien  <br/> |hr-HR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Tschechisch <br/> |Tschechische Republik  <br/> |cs-CZ  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Dänisch  <br/> |Dänemark  <br/> |da-DK  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Niederländisch  <br/> |Niederlande  <br/> |nl-NL  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Englisch  <br/> |Australien  <br/> |en-AU  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
-|Englisch  <br/> |Kanada  <br/> |en-CA  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
-|Englisch  <br/> |Indien  <br/> |en-IN  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
-|Englisch  <br/> |Vereinigtes Königreich  <br/> |en-GB  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
-|Englisch  <br/> |Vereinigte Staaten  <br/> |en-US  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Finnisch  <br/> |Finnland  <br/> |fi-Fl  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Französisch  <br/> |Kanada  <br/> |fr-CA  <br/> |Ja, verwendet wird aber Französisch (Frankreich) (fr-FR).  <br/> |Ja  <br/> |Ja, verwendet wird aber Französisch (Frankreich) (fr-FR).  <br/> |
-|Französisch  <br/> |Frankreich  <br/> |fr-FR  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Deutsch  <br/> |Deutschland  <br/> |de-DE  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Griechisch <br/> |Griechenland  <br/> |el-GR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Ungarisch <br/> |Ungarn  <br/> |hu-HU  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Indonesisch <br/> |Indonesien  <br/> |id-ID  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Italienisch  <br/> |Italien  <br/> |it-IT  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Japanisch  <br/> |Japan  <br/> |ja-JP  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Koreanisch  <br/> |Koreanisch  <br/> |ko-KR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Norwegisch (Bokmal)  <br/> |Norwegen  <br/> |nb-NO  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |
-|Polnisch  <br/> |Polen  <br/> |pl-PL  <br/> |Ja  <br/> | Ja <br/> |Nein  <br/> |
-|Portugiesisch  <br/> |Brasilien  <br/> |pt-BR  <br/> |Ja, verwendet wird aber Portugiesisch (Portugal) (pt-PT).  <br/> |Ja  <br/> |Ja  <br/> |
-|Portugiesisch  <br/> |Portugal  <br/> |pt-PT  <br/> |Ja  <br/> |Ja  <br/> |Ja, verwendet wird aber Portugiesisch (Brasilien) (pt-BR).  <br/> |
-|Rumänisch<br/> |Rumänien  <br/> |ro-RO  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Russisch  <br/> |Russland  <br/> |ru-RU  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Slowakisch <br/> |Slowakei  <br/> |sk-SK  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Slowenisch <br/> |Slowenien  <br/> |sl-SI  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Spanisch  <br/> |Spanien  <br/> |es-ES  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Spanisch  <br/> |Mexiko  <br/> |es-MX  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |Ja  <br/> |Ja, verwendet wird aber Spanisch (Spanien) (es-ES).  <br/> |
-|Schwedisch  <br/> |Schweden  <br/> |sv-SE  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Thai <br/> |Thailand  <br/> |th-TH  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Türkisch  <br/> |Türkei  <br/> |tr-TR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Vietnamesisch <br/> |Vietnam  <br/> |vi-VN  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-   
-## <a name="related-topics"></a>Verwandte Themen
-[Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+||||||
+|:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
+|**Sprache**  |**Land/Region** |**Für Benutzer in E-Mails sichtbar?** |**Verfügbar bei Anrufen des Benutzers?** |**Transkription verfügbar?**  |
+|Arabisch        |Ägypten              |Ja                                          |Ja                                   |Nein  |
+|Arabisch        |Saudi Arabia (المملكة العربية السعودية)       |Ja, aber Arabisch (Ägypten) wird verwendet.             |Nein                                    |Nein  |
+|Bulgarisch     |Bulgarien           |Ja                                          |Ja                                   |Nein  |
+|Katalanisch       |Katalanisch            |Ja                                          |Ja                                   |Nein  |
+|Chinesisch (vereinfacht)   |China     |Ja                                          |Ja                                   |Ja |
+|Chinesisch (Hongkong SAR)    |China     |Ja, aber es wird Chinesisch (traditionell) verwendet.      |Ja                                   |Ja, aber es wird Chinesisch (traditionell) verwendet. |
+|Chinesisch (traditionell)  |Taiwan    |Ja                                          |Ja                                   |Nein  |
+|Kroatisch      |Kroatien            |Ja                                          |Ja                                   |Nein  |
+|Tschechisch         |Tschechische Republik     |Ja                                          |Ja                                   |Nein  |
+|Dänisch        |Dänemark            |Ja                                          |Ja                                   |Nein  |
+|Niederländisch         |Belgien            |Ja, aber es wird Niederländisch (Niederlande) verwendet.        |Ja                                   |Nein  |
+|Niederländisch         |Niederlande        |Ja                                          |Ja                                   |Nein  |
+|Englisch       |Australien          |Ja, aber es wird Englisch (USA) verwendet.    |Ja                                   |Ja, aber es wird Englisch (USA) verwendet. |
+|Englisch       |Kanada             |Ja, aber es wird Englisch (USA) verwendet.    |Ja                                   |Ja, aber es wird Englisch (USA) verwendet. |
+|Englisch       |Indien              |Ja, aber es wird Englisch (USA) verwendet.    |Ja                                   |Ja, aber es wird Englisch (USA) verwendet. |
+|Englisch       |Irland            |Ja, aber es wird Englisch (USA) verwendet.    |Ja                                   |Nein  |
+|Englisch       |Philippinen        |Ja, aber es wird Englisch (USA) verwendet.    |Nein                                    |Nein  |
+|Englisch       |Südafrika       |Ja, aber es wird Englisch (USA) verwendet.    |Nein                                    |Nein  |
+|Englisch       |Großbritannien      |Ja                                          |Ja                                   |Ja |
+|Englisch       |Vereinigte Staaten      |Ja                                          |Ja                                   |Ja |
+|Estnisch      |Estland            |Ja                                          |Ja                                   |Nein  |
+|Finnisch       |Finnland            |Ja                                          |Ja                                   |Nein  |
+|Französisch        |Belgien            |Ja, aber es wird Französisch (Frankreich) verwendet.            |Ja                                   |Nein  |
+|Französisch        |Kanada             |Ja                                          |Ja                                   |Ja, aber es wird Französisch (Frankreich) verwendet.   |
+|Französisch        |Frankreich             |Ja                                          |Ja                                   |Ja |
+|Französisch        |Schweiz        |Ja, aber es wird Französisch (Frankreich) verwendet.            |Ja                                   |Ja |
+|Deutsch        |Österreich            |Ja, aber es wird Deutsch (Deutschland) verwendet.           |Ja                                   |Nein  |
+|Deutsch        |Deutschland            |Ja                                          |Ja                                   |Ja |
+|Deutsch        |Schweiz        |Ja, aber es wird Deutsch (Deutschland) verwendet.           |Ja                                   |Nein  |
+|Griechisch         |Griechenland             |Ja                                          |Ja                                   |Nein  |
+|Hebräisch        |Israel             |Ja                                          |Nein                                    |Nein  |
+|Hindi         |Indien              |Ja                                          |Nein                                    |Nein  |
+|Ungarisch     |Ungarn            |Ja                                          |Nein                                    |Nein  |
+|Indonesisch    |Indonesien          |Ja                                          |Ja                                   |Nein  |
+|Italienisch       |Italien              |Ja                                          |Ja                                   |Ja |
+|Japanisch      |Japan              |Ja                                          |Ja                                   |Ja |
+|Koreanisch        |Koreanisch             |Ja                                          |Ja                                   |Nein  |
+|Lettisch       |Lettland             |Ja                                          |Ja                                   |Nein  |
+|Litauisch    |Litauen          |Ja                                          |Ja                                   |Nein  |
+|Norwegisch (Bokmal)   |Norwegen      |Ja                                          |Ja                                   |Nein  |
+|Polnisch        |Polen             |Ja                                          |Ja                                   |Nein  |
+|Portugiesisch    |Brasilien             |Ja, aber es wird Portugiesisch (Portugal) verwendet.      |Ja                                   |Ja |
+|Portugiesisch    |Portugal           |Ja                                          |Ja                                   |Ja, aber es wird Portugiesisch (Brasilien) verwendet.  |
+|Rumänisch      |Rumänien            |Ja                                          |Ja                                   |Nein  |
+|Russisch       |Russland             |Ja                                          |Ja                                   |Nein  |
+|Slowakisch        |Slowakei           |Ja                                          |Ja                                   |Nein  |
+|Slowenisch     |Slowenien           |Ja                                          |Ja                                   |Nein  |
+|Spanisch       |Spanien              |Ja                                          |Ja                                   |Ja |
+|Spanisch       |Mexiko             |Ja                                          |Ja                                   |Ja, aber es wird Spanisch (Spanien) verwendet.   |
+|Schwedisch       |Schweden             |Ja                                          |Ja                                   |Nein  |
+|Thai          |Thailand           |Ja                                          |Ja                                   |Nein  |
+|Türkisch       |Türkei             |Ja                                          |Ja                                   |Nein  |
+|Vietnamesisch    |Vietnam            |Ja                                          |Ja                                   |Nein  |
+|Walisisch         |Wales              |Ja                                          |Ja                                   |Nein  |
 
-[Vorteile des Telefonsystems](here-s-what-you-get-with-phone-system.md)
-  
-  
  

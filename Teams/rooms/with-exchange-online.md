@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Exchange Online und Skype for Business Server lokal.
-ms.openlocfilehash: 5e3446349be8aaef666c02c73370758027736181
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117343"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796679"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -117,6 +117,9 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Aktivieren des Benutzerkontos mit Skype for Business Server
 
+> [!NOTE]
+> Wenn Sie Ihre Besprechung Teams-Räume nur an Microsoft Teams teilnehmen möchten, müssen Sie nicht die folgenden Schritte ausführen. Die folgenden Schritte sind nur erforderlich, wenn Sie die Unterstützung für Skype for Business.
+
 1. Erstellen Sie eine Windows PowerShell Sitzung von einem PC aus wie folgt:
 
 > [!NOTE]
@@ -144,6 +147,9 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Zuweisen einer Skype for Business Server Lizenz zu Ihrem Microsoft Teams-Räume Konto
+
+> [!NOTE]
+> Wenn Sie Ihre Besprechung Teams-Räume nur an Microsoft Teams teilnehmen möchten, müssen Sie nicht die folgenden Schritte ausführen. Die folgenden Schritte sind nur erforderlich, wenn Sie die Unterstützung für Skype for Business.
 
 1. Melden Sie sich als Mandantenadministrator an, öffnen Sie Microsoft 365 Admin Center, und klicken Sie auf die Administrator-App.
 2. Klicken Sie auf **Benutzer und Gruppen** und dann auf **Benutzer hinzufügen, Kennwörter zurücksetzen und mehr**.

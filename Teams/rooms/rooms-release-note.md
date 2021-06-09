@@ -1,5 +1,5 @@
 ---
-title: Anmerkungen zu dieser Version
+title: Anmerkungen zu dieser Microsoft Teams-Räume
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Versionshinweise für Microsoft Teams-Räume lesen, in denen die kumulierten Verbesserungen der Microsoft Teams-Räume.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469547"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796849"
 ---
-# <a name="release-notes"></a>Anmerkungen zu dieser Version
+# <a name="release-notes-for-microsoft-teams-rooms"></a>Anmerkungen zu dieser Microsoft Teams-Räume
 
 In diesem Artikel werden kumulierte Verbesserungen bei Microsoft Teams-Räume.
 

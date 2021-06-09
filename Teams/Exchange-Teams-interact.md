@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f468e6e3fea0915322e632ad27f2213d5d63c7
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598364"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796539"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -50,7 +50,7 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 | **Exchange Online**                                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja        | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja        | Ja                          | Ja                    | Ja                    |
 | **Exchange Online Dedicated vNext**                                 | Ja <sup>1</sup> | Ja <sup>1</sup>   | Ja        | Ja                   | Ja                               | Ja <sup>7</sup>             | Ja          | Ja             | Ja <sup>6</sup>        | Ja        | Ja                          | Ja                    | Ja                    |
 | **Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)  | Ja <sup>1</sup> | Ja <sup>1,2</sup> | Ja <sup>3</sup> | Ja                   | Nein                                | Nein                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>                   | Ja                    | Ja                    |
-| **Exchange lokal** (Synchronisierung in Azure AD) | Ja <sup>1,9</sup> | Ja <sup>1</sup>   | Ja <sup>3</sup> | Ja                   | Ja <sup>8</sup>         | Nein                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>                   | Ja                    | Ja                    |
+| **Exchange lokal** (Synchronisierung in Azure AD) | Ja <sup>1,9</sup> | Ja <sup>1</sup>   | Ja <sup>3</sup> | Ja                   | Ja <sup>8</sup>         | Ja                          | Ja          | Ja             | Nein                      | Ja <sup>4</sup> | Ja <sup>5</sup>                   | Ja                    | Ja                    |
 
 <sup>1</sup> Bei allen Hostingoptionen wird eDiscovery unterstützt und die gesetzliche Aufbewahrungspflicht eingehalten.
 
@@ -65,6 +65,7 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 <sup>6</sup> Nur Kontakte im Standardkontaktordner. Der Zugriff auf andere Kontaktordner oder Unterordner wird nicht unterstützt.
 
 <sup>7</sup> Teams berücksichtigt die Einstellung der [Outlook im Web-Postfachrichtlinie](/powershell/module/exchange/client-access/set-owamailboxpolicy), die von Mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung **"-SetPhotoEnabled"** in der Richtlinie deaktiviert ist, können Benutzer ihr Profilbild nicht hinzufügen, ändern oder entfernen, sodass das Porfile-Bild nicht mit Teams synchronisiert wird, wenn der Administrator das Foto ändert.
+
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
 
 <sup>9</sup> Mindestens eine Lizenz Exchange Online Plan 1 ist ebenfalls erforderlich. Weitere Informationen finden Sie unter [Suchen Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
@@ -101,7 +102,7 @@ Wenn Postfächer lokal gehostet werden, müssen zum Erstellen und Anzeigen von B
   > [!NOTE]
   > Exchange vertraut dem OAuth-Token des Teams-Diensts, der als EvoSTS bekannt ist. Schritt 1 sollte ausreichen, aber nur EvoSTS; ACS wird für die Frei/Gebucht-Suche im Kalender verwendet.
 
-- Das Kontrollkästchen für das Feature „Exchange-Hybridbereitstellung“ in Azure AD Connect ist aktiviert.
+- Das Kontrollkästchen für das Feature „Exchange-Hybridbereitstellung“ in Azure AD Connect ist aktiviert. Weitere Informationen finden Sie unter [Exchange- und Hybridrückschreiben.](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)
 
 - Für die Unterstützung der Kalender-App und für das Teams Outlook Add-In für Mac müssen Exchange-Webdienste-URLs als SPNs in Azure AD auf dem Mandanten für den Exchange-Dienstprinzipal konfiguriert werden. Dieser Schritt wird mit dem Hybridkonfigurations-Assistenten oder den folgenden [manuellen Schritten für die moderne Hybridauthentifizierung](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad) ausgeführt.
 

@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Erfahren Sie, wie Sie Team-Richtlinienpakete für Ihre Gesundheitsorganisation verwenden und verwalten.
-ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117763"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796809"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams Richtlinienpakete-Pakete für das Gesundheitswesen
 
@@ -86,6 +86,9 @@ Sie können die Einstellungen für Richtlinien in einem Paket auch ändern, nach
 
 Weisen Sie das Richtlinienpaket Benutzern zu. Wenn einem Benutzer eine Richtlinie zugewiesen ist und Sie ihm dann später eine andere Richtlinie zuweisen, hat die neuere Vorrang.
 
+> [!NOTE]
+> Jeder Benutzer benötigt das Add-On Advanced Communications, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. Weitere Informationen finden Sie unter [Advanced Communications-Add-On für Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Ein Richtlinienpaket einem oder mehreren Benutzern zuweisen
 
 Um einem oder mehreren Benutzern ein Richtlinienpaket zuzuweisen, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Richtlinienpakete**, und wählen Sie dann **Benutzer verwalten** aus.  
@@ -114,4 +117,4 @@ Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe
 
 [Verwalten von Richtlinienpaketen in Teams](manage-policy-packages.md)
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+[Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen](assign-policy-packages.md)

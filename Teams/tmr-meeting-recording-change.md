@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491792"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796629"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -153,7 +153,6 @@ Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandel
 
 > [!NOTE]
 > Sie erhalten nach dem Speichern der Aufzeichnung keine E-Mail, die Aufzeichnung wird jedoch im Besprechungschat angezeigt, sobald sie abgeschlossen ist. Dies geschieht wesentlich schneller als zuvor in Stream.
-> Sie können steuern, für wen Sie die Aufzeichnung freigeben, aber Sie können das Herunterladen der Aufzeichnung für Personen mit freigegebenen Zugriffen nicht blockieren.  
 
 **Wie kann ich Untertitel verwalten?**
 

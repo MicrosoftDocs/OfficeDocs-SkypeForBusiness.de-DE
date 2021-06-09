@@ -832,7 +832,7 @@ items:
               - name: Ändern der Standardsprache für Voicemail
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: Sprachen für Voicemail-Ansagen und -Nachrichten
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: Anrufer-ID
             items:
               - name: Einsatzmöglichkeiten der Anrufer-ID in Ihrer Organisation

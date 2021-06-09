@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a454b3c23074a1ab7a750e8d282e9a562257eb
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282352"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796819"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Überlegungen zur PSTN-Teams von Skype for Business lokalen Telefonnetz
 
@@ -38,7 +38,9 @@ Darüber hinaus werden in den folgenden Artikeln wichtige Upgradekonzepte und Ko
 
 
  > [!NOTE]
- > - Die Telefonsystem mit Teams wird nur unterstützt, wenn sich der Benutzer im TeamsOnly-Modus befindet.  Wenn sich der Benutzer im Islands-Modus befindet, Telefonsystem das -Skype for Business. 
+ > - Die Telefonsystem mit Teams wird nur unterstützt, wenn dem Konto des Benutzers eine Teams Upgraderichtlinie mit dem Teams zugewiesen wurde.  
+ > - Die Telefonsystem mit Skype for Business wird nur unterstützt, wenn dem Konto des Benutzers eine Teams mit einem SfB-Modus zugewiesen wurde. 
+ > - Telefonsystem wird nicht unterstützt, wenn dem Konto des Benutzers eine Upgraderichtlinie Teams dem Islands-Modus zugewiesen wurde.
  > - Alle Anruf weiterleitungs-, Teamanrufgruppen- und Delegierungseinstellungen von Skype for Business werden nicht migriert und müssen für andere Benutzer neu Teams.
  > - Einen allgemeinen Überblick über die Microsoft Teams-Sprachfeatures in der Cloud und Hilfe bei der Entscheidung, welche Microsoft-Sprachlösung für Ihre Organisation die richtige ist, finden Sie unter Planen Ihrer [Teams-Sprachlösung.](cloud-voice-landing-page.md)
 

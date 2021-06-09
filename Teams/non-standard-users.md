@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656028"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796648"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
@@ -63,13 +63,13 @@ Bots können Proaktiv Nachrichten für Gastbenutzer senden, aber Gäste können 
 
 ### <a name="install-update-and-delete-for-external-users"></a>Installieren, Aktualisieren und Löschen für externe Benutzer
 
-Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams App Store.
+Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams Der App Store der Hostingorganisation.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Verwendungsverhalten und Richtlinie für externe Benutzer
 
-- Personen aus anderen Organisationen halten sich an die Standard-Benutzerberechtigungsrichtlinie und organisationsweite Einstellungen der Hostingorganisation.
-- Benutzer in der Hostingorganisation können Apps in Besprechungschats mit Personen aus anderen Organisationen hinzufügen. Personen aus anderen Organisationen können in Besprechungschats keine Apps hinzufügen, können aber mit Bots und Registerkarten interagieren, die dem Chat einmal hinzugefügt wurden.
-- Nachdem ein Bot in einem Chat installiert wurde, kann er proaktiv mit Personen aus anderen Organisationen in diesem Chat kommunizieren, und diese Personen können mit bot kommunizieren.
+- Personen aus anderen Organisationen halten sich an die globale (organisationsweite Standard)-Richtlinie der Hostingorganisation.
+- Benutzer in der Hostingorganisation können Apps in Besprechungschats mit Personen aus anderen Organisationen hinzufügen. Personen aus anderen Organisationen können in Besprechungschats keine Apps hinzufügen, können aber mit Bots, Registerkarten und Nachrichtenerweiterungen interagieren, die dem Chat hinzugefügt wurden.
+- Nachdem ein Bot in einem Besprechungschat installiert wurde, kann er proaktiv mit Personen aus anderen Organisationen in diesem Chat kommunizieren, und diese Personen können mit bot kommunizieren.
 - Es werden die Datenrichtlinien der Hostingorganisation sowie die Praktiken bei der Datenfreigabe für von der Organisation dieses Benutzers freigegebene Drittanbieter-Apps angewendet.
 
 ## <a name="anonymous-users"></a>Anonyme Nutzer

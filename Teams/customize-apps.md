@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684592"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796859"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
@@ -111,6 +111,7 @@ Die folgende Notiz enthält wichtige Details zum Anpassen einer App.
 > - Vom Administrator bereitgestellte Anpassungsdaten werden in der nächstgelegenen Region gespeichert.
 > - Sie sind dafür verantwortlich sicherzustellen, dass Links zu Nutzungsbedingungen oder Datenschutzrichtlinien gültig sind.
 > - Falls der App-Herausgeber ein Feld nicht mehr anpassen kann, wird auf der Seite mit den App-Details eine Meldung angezeigt, die den Administrator über die Felder informiert, die nicht mehr angepasst werden können. Alle an diesem Feld vorgenommenen Änderungen werden auf die ursprünglichen Werte zurückgesetzt.
+> - Wir empfehlen, Änderungen an der App-Anpassung in einem Teams zu testen, bevor Sie diese Änderungen in der Produktionsumgebung vornehmen.
 > - Bei Änderungen am Branding kann es bis zu 24 Stunden dauern, bis die Benutzer die Änderungen sehen können.
 
 ## <a name="review-app-details"></a>Überprüfen von App-Details

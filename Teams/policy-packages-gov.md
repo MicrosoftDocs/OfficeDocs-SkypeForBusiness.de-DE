@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Teams Richtlinienpakete für Ihre Regierungsorganisation verwenden und verwalten.
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117773"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796869"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams von Richtlinienpaketen für Behörden
 
@@ -73,6 +73,9 @@ Sie können die Einstellungen für Richtlinien in einem Paket auch ändern, nach
 
 Weisen Sie das Richtlinienpaket Benutzern zu. Wenn einem Benutzer eine Richtlinie zugewiesen ist und Sie ihm dann später eine andere Richtlinie zuweisen, hat die neuere Vorrang.
 
+> [!NOTE]
+> Jeder Benutzer benötigt das Add-On Advanced Communications, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. Weitere Informationen finden Sie unter [Advanced Communications-Add-On für Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>Ein Richtlinienpaket einem oder mehreren Benutzern zuweisen
 
 Um einem oder mehreren Benutzern ein Richtlinienpaket zuzuweisen, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Richtlinienpakete**, und wählen Sie dann **Benutzer verwalten** aus.  
@@ -101,4 +104,4 @@ Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe
 
 [Verwalten von Richtlinienpaketen in Teams](manage-policy-packages.md)
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+[Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen](assign-policy-packages.md)

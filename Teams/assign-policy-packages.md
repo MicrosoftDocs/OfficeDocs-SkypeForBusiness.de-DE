@@ -18,16 +18,19 @@ description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinienp
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0266cb5c34a13df0dac62be2258134e553a357d8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: e70d5e2bf0db6cb7dfd93e35a8207fce61fa75fd
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574317"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796829"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen
 
 In diesem Artikel werden die verschiedenen Methoden zum Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen in Microsoft Teams. Stellen Sie vor dem Lesen sicher, dass Sie unter Zuweisen von Richtlinien [in Teams – Erste Schritte gelesen haben.](policy-assignment-overview.md)
+
+> [!NOTE]
+> Jeder Benutzer benötigt das Add-On Advanced Communications, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. Weitere Informationen finden Sie unter [Advanced Communications-Add-On für Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 ## <a name="assign-a-policy-package-to-users"></a>Zuweisen eines Richtlinienpakets zu Benutzern
 

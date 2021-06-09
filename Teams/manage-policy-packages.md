@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
-ms.openlocfilehash: 1173f5a626d6ea559dadd75149a0517f515d821b
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 63900f301a8b3a48a8c17c6278808cd52e2445da
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51699320"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52810190"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinienpaketen in Microsoft Teams
 
@@ -36,6 +36,9 @@ Sie können die in der Richtlinie [enthaltenen Teams](#policy-packages-included-
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite "Richtlinienpakete" im Admin Center":::
 
 Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen der Richtlinien in einem Paket ändern, erhalten alle diesem Paket zugewiesenen Benutzer die aktualisierten Einstellungen. Sie verwalten Richtlinienpakete mithilfe des Microsoft Teams Admin Centers oder von PowerShell.
+
+> [!NOTE]
+> Jeder Benutzer benötigt das Add-On Advanced Communications, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. Weitere Informationen finden Sie unter [Advanced Communications-Add-On für Microsoft Teams.](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 ## <a name="what-is-a-policy-package"></a>Was ist ein Richtlinienpaket?
 

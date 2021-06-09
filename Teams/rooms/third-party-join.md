@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Ihre Organisation und Ihre Teams-Räume für die Teilnahme an Cisco WebEx und Zoom unterstützen.
-ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ef14d1f342c6f2b34ad7c948a2688fa39a09801d
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117373"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796689"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren Teams Raumgeräten für die Teilnahme an Besprechungen von Drittanbietern
 
@@ -112,4 +112,4 @@ Sie können optional einen benutzerdefinierten Benutzernamen und eine benutzerde
 ```
 
 > [!NOTE]
-> Um von einem Teams-Räume-Gerät aus an einer Cisco WebEx-Besprechung teilnehmen zu können, muss die Cisco-Besprechung mit Cisco WebEx WebEx Web Application Version 40.7 oder höher gehostet werden.
+> Um von einem Teams-Räume-Gerät aus an einer Cisco WebEx-Besprechung teilzunehmen, muss die Cisco-Besprechung in WebEx-Besprechungen Pro mit Cisco WebEx WebEx Web Application Version 40.7 oder höher gehostet werden. 
