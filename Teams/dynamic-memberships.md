@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76600e8ca0a92b2d46e99bc26a857c969bd07e7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120767"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856324"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über die dynamische Mitgliedschaft für Teams
 
@@ -37,24 +37,18 @@ Mit dieser Funktion werden die Mitglieder eines bestimmten Teams automatisch anh
 
 Microsoft Teams kann einige Minuten bis zu zwei Stunden benötigen, um dynamische Mitgliedschaftsänderungen zu widerspiegeln, sobald sie in der Microsoft 365-Gruppe für ein Team wirksam wurden.
 
-> [!NOTE]
-> - Regeln können definieren, wer ein Teammitglied ist, aber nicht, wer der Teambesitzer ist.
-> - Aktuelle Grenzwerte für Team- und Kanalgrößen finden Sie unter [Grenzwerte und Spezifikationen für Microsoft Teams](limits-specifications-teams.md).
-> - Besitzer können keine Benutzer als Teammitglieder hinzufügen oder entfernen, da Mitglieder über dynamische Gruppenregeln definiert werden.
-> -    Mitglieder können keine Teams verlassen, die von dynamischen Gruppen unterstützt werden.
+Wenn Sie Teams mit dynamischen Gruppen verwenden:
 
-## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>Erstellen und Verwalten von Microsoft 365-Gruppen mit dynamischer Mitgliedschaft
+- Regeln können definieren, wer ein Teammitglied ist, aber nicht, wer der Teambesitzer ist.
+- Besitzer können keine Benutzer als Teammitglieder hinzufügen oder entfernen, da Mitglieder über dynamische Gruppenregeln definiert werden.
+- Teams Kunden die Mitgliederverwaltung für das Team nicht zu. Die Optionen, um Mitglieder hinzuzufügen, Mitgliederrollen zu bearbeiten, Beitrittsanfragen zu senden und zu genehmigen und das Team zu verlassen, sind alle ausgeblendet.
 
-Wenn Sie als Mandanten-Administrator angemeldet sind, folgen Sie den Anweisungen in [Erstellen einer dynamischen Gruppe und Prüfen des Status](/azure/active-directory/users-groups-roles/groups-create-rule). Bei Bedarf finden Sie weitere Informationen unter [Regeln für eine dynamische Mitgliedschaft für Gruppen in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-dynamic-membership).
+Um ein Team zu erstellen, [](/azure/active-directory/users-groups-roles/groups-create-rule) das die dynamische Mitgliedschaft verwendet, erstellen Sie zunächst eine dynamische Microsoft 365 gruppe, und erstellen Sie dann ein [Team aus dieser Gruppe.](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865)
 
-## <a name="create-a-new-team-with-your-microsoft-365-group"></a>Erstellen eines neuen Teams mit Ihrer Microsoft 365-Gruppe
+Sie können ein vorhandenes Team in eine dynamische Mitgliedschaft ändern. Weitere Informationen finden Sie unter Ändern der [statischen Gruppenmitgliedschaft in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-change-type) dynamischen Gruppen.
 
-Warten Sie nun, bis die Mitgliedschaftsänderungen wirksam werden, und erstellen Sie ein neues Team, wie unter [Erstellen eines Teams aus einer vorhandenen Gruppe](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865) beschrieben.
+## <a name="related-topics"></a>Verwandte Themen
 
-## <a name="apply-dynamic-membership-to-an-existing-team"></a>Dynamische Mitgliedschaft auf ein bestehendes Team anwenden
+[Limits und Spezifikationen für Microsoft Teams](limits-specifications-teams.md)
 
-Sie können auch ein vorhandenes Team in ein Team mit dynamischer Mitgliedschaft ändern, wie unter [Die statische Gruppenmitgliedschaft im Azure Active Directory nach dynamisch ändern](/azure/active-directory/users-groups-roles/groups-change-type) beschrieben.
-
-## <a name="changes-in-client-behavior"></a>Änderungen im Client-Verhalten
-
-Sobald die dynamische Mitgliedschaft für ein Team aktiviert ist, wird der Teams-Client die Mitgliederverwaltung für das Team nicht mehr zulassen. Die Optionen, um Mitglieder hinzuzufügen, Mitgliederrollen zu bearbeiten, Beitrittsanfragen zu senden und zu genehmigen und das Team zu verlassen, sind alle ausgeblendet.
+[Dynamische Mitgliedschaftsregeln für Gruppen in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-dynamic-membership)

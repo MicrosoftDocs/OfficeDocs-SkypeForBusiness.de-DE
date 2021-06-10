@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fff84bd660eb19f01c6a7e3388f5289b09896401
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092883"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856344"
 ---
-<a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Verwalten großer Teams in Microsoft Teams – Bewährte Methoden
-======================================================
+# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Verwalten großer Teams in Microsoft Teams – Bewährte Methoden
 
 Microsoft Teams ist gleichermaßen effektiv, um die Kommunikation zwischen kleinen Gruppen mit Dutzenden von Mitgliedern und großen Gruppen mit Tausenden von Mitgliedern zu erleichtern. Überprüfen [Sie Grenzwerte und Spezifikationen für Teams](limits-specifications-teams.md) für Updates für Teamgrößen. Eine Zunahme der Teamgröße führt zu einzigartigen Management- und operationalen Herausforderungen. In diesem Artikel werden bewährte Methoden zum Erstellen und Verwalten großer Teams beschrieben, die aus Tausenden von Mitgliedern bestehen.
 

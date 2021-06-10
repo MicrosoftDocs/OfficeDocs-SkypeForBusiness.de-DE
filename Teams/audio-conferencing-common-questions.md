@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden werden einige der fragen am wichtigsten, die von unseren Kunden gestellt werden, die Audiokonferenzen verwenden möchten.
-ms.openlocfilehash: 48450dad380294503fdffc9210e225777ad60bb3
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282746"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856414"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
@@ -129,12 +129,21 @@ Wir arbeiten an einer Lösung, mit der der Benutzer ohne Hilfe vom Administrator
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>Welche Wählta pad-Befehle werden in Besprechungen unterstützt?
 
-- *6 (sich selbst stummschalten/Stummschaltung wieder aufschalten)
-    
-- *1 (Gibt Beschreibungen der verfügbaren Wählta pad-Befehle wieder.) 
+Für Besprechungsteilnehmer und Organisatoren:
 
-- *2, *21, *22 (Lobby- und Eintragsbenachrichtigungen)
-    
+| Befehlsname | Befehlstasten | Beschreibung                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| Befehlsmenü | \*1          | Drücken \* Sie 1, um die Beschreibungen der verfügbaren Wählta nicht anzuzeigen. |
+| Stummschalten/Stummschaltung wieder auf  | \*6          | Drücken \* Sie 6, um sich selbst stumm zuschalten bzw. die Stummschaltung auf- oder aufschalten zu können.                         |
+
+Nur für Besprechungsorganisatoren:
+
+| Befehlsname                   | Befehlstasten | Beschreibung                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| Alle zugeben                      | \*21         | Drücken \* Sie 21, um alle Teilnehmer einzuräumen, die im Wartebereich warten.  |
+| Alle stummschalten                       | \*22         | Drücken \* Sie 21, um alle Teilnehmer (mit Ausnahme des Organisators) stummschalten. |
+| Umschalten von Ankündigung bei Eingabe/Beenden | \*23         | Drücken \* Sie 23, um die Eingabe-/Beendigungsankündigung zu aktivieren oder zu deaktivieren.    |
+
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Können Teilnehmer internationale Telefonnummern anrufen, wenn sie sich in einer Besprechung Skype for Business Microsoft Teams besprechungen?
 
 Ja, Teilnehmer können international anrufen und andere Anrufer zu einer Besprechung Skype for Business Microsoft Teams einladen. Weitere [Informationen finden Sie](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) unter Aus einer Microsoft Teams-Besprechung heraus wählen, damit andere Personen an der Besprechung teilnehmen können, oder Wählen aus einer Skype for Business Online-Besprechung, damit andere Personen ihr beitreten [können.](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)
@@ -150,7 +159,7 @@ Das Planen einer Besprechung, der alle Teilnehmer per Telefon beigetreten sind, 
 - **Option #1:** Wenn der Besprechungsorganisator und alle Teilnehmer einer Besprechung über ein Telefon beitreten, muss der Besprechungsorganisator standardmäßig seine PIN für Audiokonferenzen eingeben, um die Besprechung zu starten. Anrufer werden gefragt, ob sie sich beim Wählen der Telefonnummer einer Online-Besprechung als Organisator einer bestimmten Besprechung authentifizieren möchten. Alle Teilnehmer, die vor dem Start des Organisators per Einwahl an der Besprechung teilnehmen, werden im Wartebereich platziert und hören Warteschleifenmusik. Für Skype for Business Besprechungen nehmen alle Teilnehmer im Wartebereich automatisch an der Besprechung teil, sobald der Organisator die Besprechung durch Eingabe ihrer Audiokonferenz-PIN beginnt. Für Microsoft Teams Besprechungen nehmen die Teilnehmer entsprechend dem Wert der Einstellung "Personen automatisch einräumen" in der Besprechungsrichtlinie des Organisators an der Besprechung teil.
 
 - **Option #2:** Die Einstellung "Zulassen, dass nicht authentifizierte Anrufer die ersten Personen in einer Besprechung sein" ist standardmäßig deaktiviert. Wenn die Einstellung für einen bestimmten Organisator aktiviert ist, können alle von diesem Organisator geplanten Besprechungen gestartet werden, bevor der Organisator die PIN für Audiokonferenzen einbekommt. Wenn diese Einstellung aktiviert ist, beginnt die Besprechung, sobald der erste Teilnehmer der Besprechung über eine Einwahltelefonnummer beitritt und der erste Teilnehmer nicht im Wartebereich steht. Weitere Informationen finden Sie unter Verwalten [der Audiokonferenzeinstellungen](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) für einen Benutzer in Microsoft Teams oder Verwalten der Audiokonferenzeinstellungen für einen Benutzer in Skype for Business [Online.](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
-   
+  
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)

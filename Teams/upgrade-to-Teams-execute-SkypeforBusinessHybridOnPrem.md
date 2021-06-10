@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: dd1d519f8be0c82a202417b6271878b9e70e3ae3
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306049"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856394"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Upgrade von Skype for Business lokalen Lokalen auf Teams
 
@@ -70,9 +70,7 @@ Je nach Ihren Anforderungen können Sie den geeigneten Koexistenzmodus basierend
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Schritt 3: Verschieben von Benutzern aus der lokalen Skype for Business in den Teams
 
-Letztendlich möchten Sie Ihre Benutzer in den TeamsOnly-Modus verschieben. Dies kann je nach Ihrer lokalen Umgebung ein oder zwei Schritte umfassen.  
-
-Weitere Informationen finden Sie unter [Verschieben von Benutzern](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) zwischen der lokalen und der Cloud und Verschieben von Benutzern von der lokalen in die [Teams.](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
+Microsoft hat kürzlich den Vorgang zum Verschieben von Benutzern nach TeamsOnly vereinfacht, und dies ist jetzt ein einziger Schritt, unabhängig davon, welche Version von Skype for Business Server oder Lync Server 2013 Sie verwenden.  Weitere Informationen finden Sie unter [Verschieben von Benutzern](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) zwischen der lokalen und der Cloud und Verschieben von Benutzern von der lokalen in die [Teams.](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>Schritt 4: Deaktivieren der Hybridbereitstellung zum Abschließen der Migration in die Cloud
 
@@ -101,7 +99,7 @@ Bei der Abwäge von Optionen für die Konnektivität über das öffentliche Tele
 
 - Das Einrichten Skype for Business Hybrid ist Voraussetzung für die Migration in den TeamsOnly-Modus. Lokale Skype for Business Server-Benutzer können Teams zwar im Islands-Modus ohne Hybridmodus verwenden, aber der Übergang in den TeamsOnly-Modus kann nicht vorgenommen werden, ohne den Benutzer mithilfe von [Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)in die Cloud zu verschieben, für die Hybridkonnektivität erforderlich ist. Weitere Informationen finden Sie unter Konfigurieren [der Hybridkonnektivität.](/skypeforbusiness/hybrid/configure-hybrid-connectivity) Außerdem ändert sich diese Anforderung Skype for Business an der bevorstehenden Skype for Business Online nicht. Damit Organisationen von Skype for Business Server zu Teams wechseln können, müssen sie trotzdem eine Hybridlösung mit demselben Toolset einrichten und konfigurieren, genau wie vor der *-Rente.*
 
-- Um einen lokalen Benutzer in die Cloud zu verschieben, verwenden Sie `Move-CsUser` in den lokalen Verwaltungstools. Wenn dieser Schalter nicht angegeben ist, wechseln die Benutzer von der lokalen Skype for Business Server-Migration zu Skype for Business Online, ihr Modus bleibt unverändert, und besprechungen, die sie in Skype for Business Server organisiert haben, werden zu Skype for Business Online migriert. Aufgrund der bevorstehenden Umstellung von Skype for Business Online wird es bald nicht mehr erforderlich sein, den Umstieg festzulegen, um Benutzer direkt aus der lokalen Lokalen zu `-MoveToTeams` `Move-CsUser` TeamsOnly zu verschieben.  Wenn Sie einen Benutzer nach der Deschaltung mit aus der lokalen Cloud in die Cloud verschieben, wird den Benutzern automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus dem lokalen Modus werden automatisch in Teams-Besprechungen konvertiert, genauso, als ob der tatsächlich festgelegt `Move-CsUser` `-MoveToTeams switch had been specified` wurde. Wir erwarten, dass diese Funktion vor der tatsächlichen Ende des 31. Juli 2021 veröffentlicht wird.
+- Um einen lokalen Benutzer in die Cloud zu verschieben, verwenden Sie `Move-CsUser` in den lokalen Verwaltungstools. Es ist nicht mehr erforderlich, den Wechsel zum direkten Verschieben von Benutzern aus der lokalen Lokalen zu `-MoveToTeams` TeamsOnly festzulegen. Wenn Sie einen Benutzer mit aus der lokalen in die Cloud verschieben, wird den Benutzern jetzt automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus dem lokalen Modus werden automatisch in Teams-Besprechungen konvertiert, genauso, als ob die Option tatsächlich angegeben `Move-CsUser` `-MoveToTeams switch had been specified` wurde.
 
 - Wenn Ihre Organisation über Skype for Business Server verfügt und Sie keine Hybridkonnektivität konfiguriert haben, Sie aber dennoch Teams verwenden möchten, müssen Sie zum Verwalten der Teams-Funktionalität ein Administratorkonto verwenden, das über eine onmicrosoft.com-Domäne verfügt. Ohne Hybridkonnektivität erkennen die Verwaltungstools Ihre lokalen Domänen nicht. 
 
