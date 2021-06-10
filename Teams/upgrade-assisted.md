@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 9c19a0569fe56e9bf8c822b1418ac2fe0685532b
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656058"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855934"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Unterstützte Upgrades von Skype for Business Online zu Microsoft Teams
 
@@ -96,11 +96,11 @@ Nach Abschluss des unterstützten Upgrades ist der **Koexistenzmodus** für aktu
             >Kontakte müssen innerhalb von 90 Tagen nach Abschluss des Upgrades migriert werden.
         - Vorhandene Skype for Business Onlinebesprechungen werden in Besprechungen Teams konvertiert
             > [!IMPORTANT]
-            > Kunden mit reinen Skype for Business Online-Konfigurationen müssen Meeting Migration Service (MMS) verwenden, um vorhandene Skype for Business Online-Besprechungen zu Teams migrieren. Wir empfehlen die Verwendung von MMS vor dem Datum des unterstützten Upgrades. Weitere Informationen zu MMS finden Sie unter [Verwenden des Meeting Migration Service (MMS).](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+            > Kunden mit reinen Skype for Business Online-Konfigurationen müssen Meeting Migration Service (MMS) verwenden, um vorhandene Skype for Business Online-Besprechungen zu Teams migrieren. Wir empfehlen die Verwendung von MMS vor dem Datum des unterstützten Upgrades. Weitere Informationen zu MMS finden Sie unter [Verwenden von Meeting Migration Service (MMS).](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
     :::column-end:::
 :::row-end:::
 
-Nach Abschluss des Upgrades können Organisationen mit Hybridbereitstellungen Benutzer von der lokalen Bereitstellung in den Teams oder von der lokalen Teams in die lokale Bereitstellung verschieben.  
+Wenn Sie über eine hybride Skype for Business Server verfügen und ein Upgrade auf Teams durchführen, können Sie Benutzer nach Abschluss des Upgrades zwischen Skype for Business Server und Teams verschieben.
 
 ## <a name="related-content"></a>Verwandter Inhalt
 

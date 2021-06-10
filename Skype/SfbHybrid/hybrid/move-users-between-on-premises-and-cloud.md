@@ -17,85 +17,85 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 'Zusammenfassung: In einer lokalen Bereitstellung von Skype for Business Server, die für die Hybridbereitstellung aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud verschieben (unabhängig davon, ob Sie Microsoft Teams oder Skype for Business Online vor derEntbundezeit verwenden)..'
-ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
-ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
+description: 'Zusammenfassung: In einer lokalen Bereitstellung von Skype for Business Server, die für die Hybridbereitstellung aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud verschieben (ob sie vor der Einstellung Microsoft Teams oder online Skype for Business).'
+ms.openlocfilehash: 998adf068dbfd360cb5a3e279320d1fee96f761f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52642085"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855944"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
 
-In einer lokalen Bereitstellung von Skype for Business Server, die für die Hybridbereitstellung aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud verschieben (unabhängig davon, ob sie Microsoft Teams oder Skype for Business Online vor dem Aus ist). Ob ein Benutzer lokal oder in der Cloud verwaltet wird, gibt das Skype for Business Home des Benutzers an:
+In einer lokalen Bereitstellung von Skype for Business Server, die für die Hybridbereitstellung aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud verschieben (ob sie vor der Einstellung Microsoft Teams oder online Skype for Business). Ob ein Benutzer lokal oder in der Cloud verwaltet wird, gibt das Skype for Business Home des Benutzers an:
 
-- Lokale Benutzer interagieren mit lokalen Skype for Business Server.
+- Lokal verwaltete Benutzer interagieren mit lokalen Skype for Business Servern.
 - Online verwaltete Benutzer können mit Skype for Business-Onlinediensten interagieren.
 
-*Teams Benutzer haben inhärent ein Skype for Business, unabhängig davon, ob sie Skype for Business verwenden.* Wenn Sie über lokale Benutzer Skype for Business, die auch Teams verwenden, werden diese Benutzer lokal heimgeheimt. Teams Benutzer mit Skype for Business lokalen Benutzern haben nicht die Möglichkeit, mit Skype for Business-Benutzern über ihren Teams-Client zu kommunizieren, noch können sie von Teams mit Benutzern in einer Verbundorganisation kommunizieren. Diese Funktionalität ist nur dann vollständig verfügbar, wenn der Benutzer von einer lokalen Skype for Business in online verschoben und TeamsOnly gemacht wurde. Wenn Sie einen Benutzer auf "Online" umstellen, können Sie ihm entweder die Verwendung von Skype for Business Online (und optional Teams) gestatten, oder Sie können ihm den TeamsOnly-Modus zuweisen. Es wird dringend empfohlen, dass Sie Ihre Benutzer in den Teams-Modus verschieben, um sicherzustellen, dass das Routing aller eingehenden Chats und Anrufe in ihrem Teams wird. Weitere Informationen finden Sie unter [Teams Koexistenz](/microsoftteams/coexistence-chat-calls-presence) mit Skype for Business und [Migrations-](/microsoftteams/migration-interop-guidance-for-teams-with-skype)und Interoperabilitätsanleitungen für Organisationen, die Teams zusammen mit Skype for Business.
+*Teams Benutzer grundsätzlich über ein Skype for Business Zuhause verfügen, unabhängig davon, ob sie Skype for Business verwenden oder nicht.* Wenn Sie über lokale Skype for Business Benutzer verfügen, die auch Teams (nebeneinander) verwenden, werden diese Benutzer lokal verwaltet. Teams Benutzer mit lokalen Skype for Business können nicht mit Skype for Business Benutzern über ihren Teams Client zusammenarbeiten, und sie können auch nicht über Teams mit Benutzern in einer Verbundorganisation kommunizieren. Diese Funktionalität ist erst vollständig verfügbar, nachdem der Benutzer von Skype for Business lokalen zu online verschoben und zu "TeamsOnly" gemacht wurde. Wenn Sie einen Benutzer auf "Online" umstellen, können Sie ihm entweder die Verwendung von Skype for Business Online (und optional Teams) gestatten, oder Sie können ihm den TeamsOnly-Modus zuweisen. Es wird dringend empfohlen, dass Sie Ihre Benutzer in den Modus "Nur" Teams verschieben, wodurch sichergestellt wird, dass das Routing aller eingehenden Chats und Anrufe im Teams Client erfolgt. Weitere Informationen finden Sie unter [Teams Koexistenz mit Skype for Business](/microsoftteams/coexistence-chat-calls-presence) und [Anleitungen für Migration und Interoperabilität für Organisationen,](/microsoftteams/migration-interop-guidance-for-teams-with-skype)die Teams zusammen mit Skype for Business verwenden.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Voraussetzungen für das Verschieben eines Benutzers in die Cloud (ob Teams Nur-Modus oder Skype for Business Online vor der Rente):
+Voraussetzungen für das Verschieben eines Benutzers in die Cloud (unabhängig davon, ob der Modus "Nur" Teams oder Skype for Business Online vor dem Ausmustern):
 
-- Die Organisation muss azure AD Verbinden ordnungsgemäß konfiguriert haben und alle relevanten Attribute für den Benutzer synchronisieren, wie unter [Configure Azure AD Verbinden beschrieben.](configure-azure-ad-connect.md)
-- Skype for Business Hybrid muss konfiguriert werden, wie unter [Configure Skype for Business hybrid beschrieben.](configure-federation-with-skype-for-business-online.md)
-- Dem Benutzer muss eine Lizenz für Teams und Skype for Business Online (Plan 2) zugewiesen werden. Auch nach der Rente Skype for Business Online ist die Skype for Business Online-Lizenz weiterhin erforderlich.  Weitere Schritte:
-    - Wenn der Benutzer für Einwahlkonferenzen lokal aktiviert ist, muss dem Benutzer standardmäßig auch eine Audiokonferenzlizenz in Teams zugewiesen sein, bevor Sie den Benutzer online verschieben. Nach der Migration zur Cloud wird der Benutzer für Audiokonferenzen in der Cloud bereitgestellt. Wenn Sie einen Benutzer aus einem bestimmten Grund in die Cloud verschieben möchten, aber keine Audiokonferenzfunktionen verwenden möchten, können Sie diese Überprüfung überschreiben, indem Sie den `BypassAudioConferencingCheck` Parameter in `Move-CsUser` angeben.
-    - Wenn der Benutzer für die Enterprise-VoIP lokal aktiviert ist, muss dem Benutzer standardmäßig eine Telefonsystem-Lizenz in Teams zugewiesen sein, bevor Sie den Benutzer online verschieben. Nach der Migration zur Cloud wird der Benutzer für das Telefonsystem in der Cloud bereitgestellt. Wenn Sie einen Benutzer aus einem bestimmten Grund in die Cloud verschieben möchten, aber keine Telefonsystem verwenden, können Sie diese Überprüfung überschreiben, indem Sie den `BypassEnterpriseVoiceCheck` Parameter in `Move-CsUser` angeben.
+- Die Organisation muss Azure AD Verbinden ordnungsgemäß konfiguriert haben und alle relevanten Attribute für den Benutzer synchronisieren, wie unter [Konfigurieren von Azure AD Verbinden](configure-azure-ad-connect.md)beschrieben.
+- Skype for Business Hybrid muss konfiguriert werden, wie unter [Konfigurieren Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md)beschrieben.
+- Dem Benutzer muss eine Lizenz für Teams und Skype for Business Online (Plan 2) zugewiesen werden. Auch nach dem Ausmustern von Skype for Business Online ist die Skype for Business Online-Lizenz weiterhin erforderlich.  Weitere Schritte:
+    - Wenn der Benutzer lokal für Einwahlkonferenzen aktiviert ist, muss dem Benutzer standardmäßig auch eine Audiokonferenzlizenz in Teams zugewiesen sein, bevor Sie den Benutzer online verschieben. Nach der Migration zur Cloud wird der Benutzer für Audiokonferenzen in der Cloud bereitgestellt. Wenn Sie aus irgendeinem Grund einen Benutzer in die Cloud verschieben möchten, aber keine Audiokonferenzfunktionen verwenden möchten, können Sie diese Überprüfung überschreiben, indem Sie den `BypassAudioConferencingCheck` Parameter in `Move-CsUser` angeben.
+    - Wenn der Benutzer für Enterprise-VoIP lokal aktiviert ist, muss dem Benutzer standardmäßig eine Telefonsystem Lizenz in Teams zugewiesen sein, bevor Sie den Benutzer online verschieben. Nach der Migration zur Cloud wird der Benutzer für das Telefonsystem in der Cloud bereitgestellt. Wenn Sie aus irgendeinem Grund einen Benutzer in die Cloud verschieben möchten, aber nicht Telefonsystem Funktionalität verwenden möchten, können Sie diese Überprüfung überschreiben, indem Sie den `BypassEnterpriseVoiceCheck` Parameter in `Move-CsUser` angeben.
 
 
 ## <a name="moving-users"></a>Verschieben von Benutzern
 
 Wenn ein Benutzer aus der lokalen Umgebung in die Cloud verschoben wird:
 
-- Teams Benutzer werden für die Interoperabilität mit Skype for Business aktiviert, und wenn es sich um TeamsOnly handelt, können sie auch mit anderen Organisationen zusammenarbeiten.
+- Teams Benutzer für die Interoperabilität mit Skype for Business Benutzern aktiviert werden, und wenn sie TeamsOnly sind, können sie auch mit anderen Organisationen zusammenarbeiten.
 - Der Benutzer beginnt für alle Skype for Business-Funktionen mit der Verwendung der Skype for Business Online-Dienste in der Cloud.
-- Kontakte von lokalen Stellen werden in die Cloud verschoben (entweder in Teams oder Skype for Business Online).
-- Vorhandene Besprechungen, die sie organisiert haben, die in Zukunft geplant sind, werden zu Online migriert: Wenn Benutzer direkt zu TeamsOnly verschoben werden (siehe unten), werden Besprechungen in Teams-Besprechungen konvertiert, andernfalls bleiben Besprechungen Skype for Business, werden jedoch migriert, sodass sie online statt lokal gehostet werden.  Die Migration von Besprechungen geschieht asynchron und beginnt ungefähr 90 Minuten nach dem Verschieben des Benutzers.  Den Status der Besprechungsmigration können Sie mit [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) ermitteln. Bitte beachten Sie: Alle Inhalte, die im Vorfeld der Besprechung hochgeladen wurden, werden nicht verschoben.
+- Kontakte aus der lokalen Umgebung werden in die Cloud verschoben (entweder in Teams oder Skype for Business Online).
+- Vorhandene Besprechungen, die sie organisiert haben und die in Zukunft geplant sind, werden online migriert: Wenn Benutzer direkt nach TeamsOnly verschoben werden (siehe unten), werden Besprechungen in Teams Besprechungen konvertiert, andernfalls bleiben Besprechungen Skype for Business, werden jedoch migriert, sodass sie online statt lokal gehostet werden.  Die Migration von Besprechungen geschieht asynchron und beginnt ungefähr 90 Minuten nach dem Verschieben des Benutzers.  Den Status der Besprechungsmigration können Sie mit [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) ermitteln. Bitte beachten Sie: Alle Inhalte, die im Vorfeld der Besprechung hochgeladen wurden, werden nicht verschoben.
 
-Verwenden Sie entweder das cmdlet Move-CsUser oder die Skype for Business-Admin-Systemsteuerung, die beide lokale Tools sind, um Benutzer zwischen der lokalen und der Cloud zu verschieben (ob Teams oder Skype for Business Online). Diese Tools unterstützen drei unterschiedliche Pfade für die Migration:
+Um Benutzer zwischen der lokalen Umgebung und der Cloud zu verschieben (ob Teams oder online Skype for Business), verwenden Sie entweder das cmdlet Move-CsUser oder die Skype for Business-Administratorsteuerung, die beide lokale Tools sind. Diese Tools unterstützen drei unterschiedliche Pfade für die Migration:
 
-- [Von Skype for Business Server (lokal) direkt](move-users-from-on-premises-to-teams.md) zu Teams Only (wodurch sie auch zu Skype for Business Online) werden.  Die Option, direkt von lokal zu Teams  Nur zu wechseln, ist derzeit in Skype for Business Server 2019 sowie kumulatives Update 8 für Skype for Business Server 2015 verfügbar. Organisationen, die frühere Versionen von Skype for Business Server verwenden, können Benutzer in den TeamsOnly-Modus verschieben, indem sie sie zuerst zu Skype for Business Online migrieren und diesen Benutzern dann den TeamsOnly-Modus zuweisen, sobald sie online sind. 
+- [Von Skype for Business Server (lokal) direkt zu Teams Only](move-users-from-on-premises-to-teams.md) (wodurch sie auch zu Skype for Business Online verschoben werden).  Das Verhalten, direkt von der lokalen Umgebung zu Teams Nur ist jetzt automatisch, unabhängig davon, welche Version von Skype for Business Server oder Lync Server verwendet wird. Es ist nicht mehr erforderlich, den `-MoveToTeams` Switch anzugeben, um dieses Verhalten zu erhalten.  
+- [Von Skype for Business Server (lokal) zu Skype for Business Online.](move-users-from-on-premises-to-skype-for-business-online.md) Kunden, die weiterhin Benutzer in Skype for Business Online verschieben müssen, ohne TeamsOnly zu werden, können dies erreichen, indem Sie den Benutzer zuerst mit dem TeamsOnly-Modus in die Cloud verschieben und dann den Modus des Benutzers so aktualisieren, dass er ein anderes Als TeamsOnly ist, indem sie entweder `Grant-CsTeamsUpgradePolicy` oder das Teams Admin Center verwenden. Diese Option ist nicht mehr verfügbar, nachdem Skype for Business Online eingestellt wurde.
+- [Von online (unabhängig davon, ob Teams Nur oder nicht), zu lokal](move-users-from-the-cloud-to-on-premises.md).
 
 > [!NOTE] 
-> Es wird bald nicht mehr erforderlich sein, den Switch -MoveToTeams in Move-CsUser, um Benutzer direkt von lokalen zu TeamsOnly zu verschieben. Wenn diese Option derzeit nicht angegeben ist, wechseln Benutzer von der lokalen Skype for Business Server zu Skype for Business Online, und ihr Modus bleibt unverändert. Nach der Rente wird Benutzern beim Verschieben eines Benutzers von der lokalen in die Cloud mit Move-CsUser automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen von lokalen Besprechungen werden automatisch in Teams-Besprechungen konvertiert, so als ob die Option -MoveToTeams angegeben worden wäre, unabhängig davon, ob die Option tatsächlich angegeben wurde. Wir gehen davon aus, dass diese Funktionalität vor dem tatsächlichen Ausstand vom 31. Juli 2021 veröffentlicht wird.
-
-- [Von Skype for Business Server (lokal) zu Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md). Diese Option ist bald nicht mehr verfügbar.
-- [Von online (ob Teams oder nicht) zu lokal](move-users-from-the-cloud-to-on-premises.md).
+> Es ist nicht mehr erforderlich, die Option "-MoveToTeams" in Move-CsUser anzugeben, um Benutzer direkt von der lokalen Umgebung zu TeamsOnly zu verschieben. Wenn dieser Switch nicht angegeben wurde, haben Benutzer zuvor von Skype for Business Server lokalen zu Skype for Business Online gewechselt, und ihr Modus bleibt unverändert. Wenn ein Benutzer jetzt mit Move-CsUser von der lokalen Umgebung in die Cloud verschoben wird, wird benutzern automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus der lokalen Umgebung werden automatisch in Teams Besprechungen konvertiert, so als ob der `-MoveToTeams` Switch angegeben worden wäre, unabhängig davon, ob der Switch tatsächlich angegeben wurde. 
+> 
 
 ## <a name="required-administrative-credentials"></a>Erforderliche administrative Anmeldeinformationen
 
-Um Benutzer zwischen lokalen und cloudbasierten Umgebungen zu verschieben, müssen Sie ein Konto mit ausreichenden Berechtigungen sowohl in der lokalen Skype for Business Server-Umgebung als auch in der Teams verwenden. Sie können entweder ein Konto verwenden, das über alle erforderlichen Berechtigungen verfügt, oder Sie können zwei Konten verwenden, in diesem Fall würden Sie mit lokalen Anmeldeinformationen auf die lokalen Tools zugreifen, und dann würden Sie in diesen Tools zusätzliche Anmeldeinformationen für ein Teams-Administratorkonto angeben.  
+Um Benutzer zwischen der lokalen Umgebung und der Cloud zu verschieben, müssen Sie ein Konto mit ausreichenden Berechtigungen sowohl in der lokalen Skype for Business Server umgebung als auch in der Teams Organisation verwenden. Sie können entweder ein Konto verwenden, das über alle erforderlichen Berechtigungen verfügt, oder Sie können zwei Konten verwenden. In diesem Fall greifen Sie mit lokalen Anmeldeinformationen auf die lokalen Tools zu, und geben dann in diesen Tools zusätzliche Anmeldeinformationen für ein Teams Administratorkonto an.  
 
-- In der lokalen Umgebung muss der Benutzer, der die Verschieben vornimmt, über die Rolle CSServerAdministrator Skype for Business Server.
-- In Teams muss der Benutzer, der die Bewegung vor sich hat, eines der folgenden Kriterien erfüllen:
+- In der lokalen Umgebung muss der Benutzer, der die Verschiebung ausführt, über die ROLLE "CSServerAdministrator" in Skype for Business Server verfügen.
+- In Teams muss der Benutzer, der die Verschiebung ausführt, eines der folgenden Kriterien erfüllen:
   - Der Benutzer ist Mitglied der Rolle "Globaler Administrator".
   - Der Benutzer ist Mitglied der Rollen Teams Administrator und Benutzeradministrator.
   - Der Benutzer ist Mitglied der Rollen Skype for Business Administrator und Benutzeradministrator.  
 
     > [!Important]
-    > - Wenn Sie die Skype for Business Admin Control Panel verwenden, werden Sie aufgefordert, Anmeldeinformationen für ein Microsoft 365-Konto mit den entsprechenden Rollen zur Verfügung zu stellen, wie oben erwähnt. Sie müssen ein Konto, das in ".onmicrosoft.com" endet, onmicrosoft.com. Wenn dies nicht möglich ist, verwenden Sie das cmdlet Move-CsUser Cmdlet.
-    >- Wenn Sie Move-CsUser in PowerShell verwenden, können Sie entweder ein Konto verwenden, das in .onmicrosoft.com endet, oder Sie können ein lokales Konto verwenden, das mit Azure AD synchronisiert wird, vorausgesetzt, Sie geben auch den Parameter HostedMigrationOverrideUrl im Cmdlet an. Der Wert der gehosteten Migrationsüberschreibungs-URL ist eine Variante der folgenden URL: https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>Ersetzen Sie in der obigen URL xx durch zwei oder drei Zeichen, die wie folgt bestimmt werden:
-    >   - Führen Sie Teams powerShell-Sitzung das folgende Cmdlet aus:<br>`Get-CsTenant|ft identity`
-    >   - Der resultierende Wert hat das folgende Format:<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
-    >   - Der zwei- oder dreistellige Code ist der xx im Abschnitt DC=lyncXX001. Wenn es sich um einen zweistelligen Code ist, ist es eine Ziffer gefolgt von einer Zahl (z. B. 0a). Wenn es sich um einen dreistelligen Code geht, werden zwei Buchstaben gefolgt von einer Ziffer (z. B. jp1) angezeigt. In allen Fällen wird 001 unmittelbar nach dem XX-Code angezeigt.
+    > - Wenn Sie die Skype for Business Administrator-Systemsteuerung verwenden, werden Sie aufgefordert, anmeldeinformationen für ein Microsoft 365 Konto mit den entsprechenden Rollen anzugeben, wie oben erwähnt. Sie müssen ein Konto angeben, das auf .onmicrosoft.com endet. Wenn dies nicht möglich ist, verwenden Sie das Cmdlet Move-CsUser.
+    >- Wenn Sie Move-CsUser in PowerShell verwenden, können Sie entweder ein Konto verwenden, das auf .onmicrosoft.com endet, oder Sie können jedes lokale Konto verwenden, das mit Azure AD synchronisiert wird, vorausgesetzt, Sie geben auch den Parameter HostedMigrationOverrideUrl im Cmdlet an. Der Wert der URL für die Außerkraftsetzung der gehosteten Migration ist eine Variante der folgenden URL: https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>Ersetzen Sie in der obigen URL den XX durch zwei oder drei Zeichen, die wie folgt bestimmt werden:
+    >   - Führen Sie in einer Teams PowerShell-Sitzung das folgende Cmdlet aus:<br>`Get-CsTenant|ft identity`
+    >   - Der resultierende Wert weist das folgende Format auf:<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
+    >   - Der zwei- oder dreistellige Code ist der XX im Abschnitt DC=lyncXX001. Wenn es sich um einen aus zwei Zeichen bestehenden Code handelt, handelt es sich um eine Ziffer gefolgt von einer Zahl (z. B. 0a). Wenn es sich um einen aus drei Zeichen bestehenden Code handelt, sind dies zwei Buchstaben gefolgt von einer Ziffer (z. B. jp1). In allen Fällen wird 001 unmittelbar nach dem XX-Code angezeigt.
 
 
-## <a name="voice-configuration-requirements"></a>Anforderungen an die Sprachkonfiguration
+## <a name="voice-configuration-requirements"></a>VoIP-Konfigurationsanforderungen
 
-Wenn Benutzer für unternehmensweites Voice in lokal konfiguriert sind, müssen Sie die Aktualisierung ihrer Sprachkonfiguration koordinieren, wenn Sie sie ins Internet verschieben, oder Alternativ können Sie sie ohne Telefoniefunktionen migrieren. Die verfügbaren Optionen hängen davon ab, ob der Benutzer den Teams oder Skype for Business verwendet, sobald er online ist:
+Wenn Benutzer lokal für Enterprise-VoIP konfiguriert sind, müssen Sie die Aktualisierung ihrer VoIP-Konfiguration koordinieren, wenn Sie sie in die Onlineumgebung verschieben, oder Sie können sie alternativ auch ohne Telefoniefunktionen migrieren. Die verfügbaren Optionen hängen davon ab, ob der Benutzer den Teams oder Skype for Business Client verwendet, sobald er online ist:
 
-- Sie können den Telefonieanbieter eines Benutzers so aktualisieren, dass er einen [Microsoft-Anrufplan verwendet.](/microsoftteams/calling-plans-for-office-365) Dies ist eine Option, ob Benutzer Teams oder Skype for Business verwenden.
+- Sie können den Telefonieanbieter eines Benutzers so aktualisieren, dass er einen [Microsoft-Anrufplan verwendet.](/microsoftteams/calling-plans-for-office-365) Dies ist eine Option, ob Benutzer Teams oder Skype for Business Clients verwenden.
 - Sie können weiterhin Ihren lokalen PSTN-Anbieter verwenden:
-  - Sprachbenutzer, die die Teams verwenden, müssen für direktes [Routing konfiguriert werden.](/microsoftteams/direct-routing-plan) Direktes Routing ist nur verfügbar, nachdem der Benutzer von lokal in online verschoben wurde.
-  - Sprachbenutzer, die den Skype for Business client verwenden, nachdem sie online verschoben wurden, müssen für die Skype for Business Hybrid konfiguriert werden.
+  - VoIP-Benutzer, die Teams verwenden, müssen für [Direct Routing](/microsoftteams/direct-routing-plan)konfiguriert sein. Direct Routing ist nur verfügbar, nachdem der Benutzer von der lokalen Umgebung in die Onlineumgebung verschoben wurde.
+  - VoIP-Benutzer, die den Skype for Business-Client verwenden, nachdem sie online verschoben wurden, müssen für Skype for Business Hybrid VoIP-Funktionalität konfiguriert werden.
 
-Weitere Informationen zu Telefonieoptionen in Hybridumgebungen sowie eine Unterstützungsmatrix finden Sie unter Benutzerkonten in einer Hybridumgebung [mit PSTN-Konnektivität.](/microsoftteams/direct-routing-user-accounts-in-a-hybrid-environment)
+Weitere Informationen zu Telefonieoptionen in Hybridumgebungen sowie eine Unterstützungsmatrix finden Sie unter [Benutzerkonten in einer Hybridumgebung mit PSTN-Konnektivität.](/microsoftteams/direct-routing-user-accounts-in-a-hybrid-environment)
 
 ## <a name="other-considerations"></a>Andere Überlegungen
 
-Die Richtlinien (z. B. die Kontrolle von Nachrichten, Besprechungen und Anrufverhalten) in lokalen und Online-Umgebungen sind unabhängig voneinander. Sie sollten erwägen, alle Richtlinien in der Umgebung zu konfigurieren und sie dem Benutzer zuzuordnen, bevor Sie diesen Benutzer von der lokalen in die Cloud verschieben, damit er die richtige Konfiguration hat, sobald er zu online migriert wird.
+Die Richtlinien (z. B. die Kontrolle von Nachrichten, Besprechungen und Anrufverhalten) in lokalen und Online-Umgebungen sind unabhängig voneinander. Sie sollten erwägen, alle Richtlinien in der Umgebung zu konfigurieren und dem Benutzer zuzuweisen, bevor Sie diesen Benutzer von der lokalen Umgebung in die Cloud verschieben, damit er die richtige Konfiguration hat, sobald er in die Onlineumgebung migriert wird.
 
 ## <a name="see-also"></a>Siehe auch
 

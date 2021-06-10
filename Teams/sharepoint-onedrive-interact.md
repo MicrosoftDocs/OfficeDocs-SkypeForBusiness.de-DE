@@ -1,5 +1,5 @@
 ---
-title: Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams
+title: Interaktion SharePoint und OneDrive mit Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: SharePoint Online & OneDrive for Business-Interaktion mit Teams; Private Chatdateispeicherung & Interaktion zwischen Team, Standardkanal, & Dokumentbibliothek.
+description: SharePoint & OneDrive Interaktion mit Teams; Private Chatdateispeicherung & Interaktion zwischen Team, Standardkanal, & Dokumentbibliothek.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -18,48 +18,38 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2d063cae8b87ffcacd63676da17fc000384c432c
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948623"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855954"
 ---
-# <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interaktion von SharePoint Online und OneDrive for Business mit Microsoft Teams
+# <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Interaktion SharePoint und OneDrive mit Microsoft Teams
 
 > [!Tip]
-> Erfahren Sie in der folgenden Sitzung, wie Teams mit Azure Active Directory (AAD), Microsoft 365-Gruppen, Exchange, SharePoint und OneDrive for Business interagiert: [Microsoft Teams – Grundlagen](https://aka.ms/teams-foundations)
+> Schauen Sie sich die folgende Sitzung an, um zu erfahren, wie Teams mit Azure Active Directory (AAD), Microsoft 365-Gruppen, Exchange,SharePoint [](https://aka.ms/teams-foundations) und OneDrive interagiert: Grundlagen Microsoft Teams
 
-Jedes Team in Microsoft Teams verfügt über eine Teamwebsite in SharePoint Online, und jeder Standardkanal in einem Team erhält einen Ordner innerhalb der standardmäßigen Teamwebsite-Dokumentbibliothek. In einer Unterhaltung freigegebene Dateien werden der Dokumentbibliothek automatisch hinzugefügt, und die in den Dateien SharePoint festgelegten Berechtigungen und Sicherheitsoptionen werden Teams. Informationen zu den Auswirkungen des Änderns einer Websiteadresse in SharePoint Sie unter [Ändern einer Websiteadresse.](/sharepoint/change-site-address)
+Jedes Team in Microsoft Teams verfügt über eine Teamwebsite in SharePoint, und jeder Standardkanal in einem Team erhält einen Ordner innerhalb der standardmäßigen Teamwebsite-Dokumentbibliothek. Jeder [private Kanal erhält](private-channels.md) eine eigene, separate SharePoint Website.
+
+In einer Unterhaltung freigegebene Dateien werden der Dokumentbibliothek automatisch hinzugefügt, und die in den Dateien SharePoint festgelegten Berechtigungen und Sicherheitsoptionen werden Teams. Informationen zu den Auswirkungen des Änderns einer Websiteadresse in SharePoint Sie unter [Ändern einer Websiteadresse.](/sharepoint/change-site-address)
+
+Private Chatdateien werden im Ordner OneDrive des Absenders gespeichert, und im Rahmen des Dateifreigabeprozesses werden allen Teilnehmern automatisch Berechtigungen erteilt.
+
+Wenn Benutzern keine Lizenzen zugewiesen SharePoint, verfügen sie nicht über OneDrive in Microsoft 365. Die Dateifreigabe funktioniert in Standardkanälen, aber Benutzer können Dateien in Chats nur freigeben, wenn OneDrive in Microsoft 365.
+
+Durch das Speichern der Dateien in SharePoint Dokumentbibliothek und OneDrive werden alle auf Organisationsebene konfigurierten Complianceregeln befolgt. 
 
 > [!NOTE]
-> Dieser Artikel bezieht sich nur auf Standardkanäle. Die Architektur für private Kanäle ist anders als standardkanäle. Jeder private Kanal verfügt über eine SharePoint Websitesammlung, die von der übergeordneten Teamwebsite getrennt ist. Weitere Informationen finden Sie unter [Private Kanäle in Microsoft Teams.](private-channels.md)
-
-Private Chatdateien werden im Ordner OneDrive for Business des Absenders gespeichert, und im Rahmen des Dateifreigabeprozesses werden allen Teilnehmern automatisch Berechtigungen erteilt.
-
-Wenn Benutzer nicht mit SharePoint Online-Lizenzen ausgestattet und diese aktiviert sind, verfügen sie nicht über einen OneDrive for Business-Speicher in Microsoft 365 oder Office 365. Die Dateifreigabe funktioniert weiterhin in Standardkanälen, aber Benutzer können keine Dateien in Chats freigeben, ohne OneDrive for Business in Microsoft 365 oder Office 365.
-
-Beim Speichern der Dateien in der SharePoint Online-Dokumentbibliothek und OneDrive for Business werden alle auf der Mandantenebene konfigurierten Complianceregeln eingehalten. 
-
-> [!NOTE]
-> Die integration SharePoint lokalen Standorts wird für Microsoft Teams derzeit nicht unterstützt.
+> Die Integration SharePoint Server wird für Teams.
 
 Im Folgenden finden Sie ein Beispiel für Beziehungen zwischen Team, Standardkanal und Dokumentbibliothek.
 
 Für jedes Team wird eine SharePoint erstellt,  und der Ordner "Freigegebene Dokumente" ist der Standardordner, der für das Team erstellt wird. Jeder Standardkanal, einschließlich des **Kanals Allgemein** (der Standardkanal für jedes Team), verfügt über einen Ordner unter **Freigegebene Dokumente.**
 
-![Diagramm der Ordner "Freigegebene Dokumente" in SharePoint Online.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![Diagramm der Ordner "Freigegebene Dokumente" in SharePoint.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
-> [!NOTE]
-> Es ist zurzeit nicht möglich, die standardmäßige SharePoint-Website und -Dokumentbibliothek durch eine andere zu ersetzen. Sie haben uns mitgeteilt, dass Sie sich diese Möglichkeit wünschen, und wir ziehen sie in Erwägung. In der [Microsoft Teams-Roadmap](https://aka.ms/teamsroadmap) oder auf der [Microsoft Teams-UserVoice](https://aka.ms/TeamsUserVoice)-Website finden Sie Informationen zu geplanten Funktionen.
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
-
-> [!TIP]
-> So fügen Sie Ihrem Team eine Registerkarte hinzu, die mit einer vorhandenen SharePoint oder ihrer vorhandenen SharePoint verknüpft ist:
-> 1. Wählen Sie das Pluszeichen neben den Registerkarten aus.
-> 2. Wählen Sie **SharePoint** Dokumentbibliothek für SharePoint vorhandene  Dokumentbibliothek oder Dokumentbibliothek für eine vorhandene Dokumentbibliothek aus.
-> 3. Wählen Sie die entsprechende Seite oder Dokumentbibliothek aus.
+Die Standardwebsite SharePoint Dokumentbibliothek kann nicht durch eine andere ersetzt werden.
 
 Für jeden Benutzer wird der OneDrive-Ordner **Microsoft Teams-Chatdateien** zum Speichern aller innerhalb der in privaten Chats für andere Benutzer (1:1 oder 1:viele) freigegebenen Dateien mit automatisch konfigurierten Berechtigungen verwendet, um den Zugriff auf den gewünschten Benutzer zu beschränken.
 
@@ -68,8 +58,6 @@ Für jeden Benutzer wird der OneDrive-Ordner **Microsoft Teams-Chatdateien** zum
 Beachten Sie, dass für öffentliche Teams SharePoint Teamwebsite der Zugriff "Jeder, außer externen Benutzern" bereitgestellt wird. Das öffentliche Team wird nicht in einer Teams für Personen angezeigt, die keine Mitglieder dieses Teams sind. Sie können jedoch über die URL der SharePoint Teamwebsite auf SharePoint Website zugreifen. 
 
 ## <a name="channel-files-tab"></a>Registerkarte "Kanaldateien"
-
-> [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Die **Registerkarte** "Dateien" in Teams der Ansicht "SharePoint Dokumente" sehr ähnlich. Auf der **Registerkarte** Dateien können Benutzer:
 
@@ -87,10 +75,10 @@ Die **Registerkarte** "Dateien" in Teams der Ansicht "SharePoint Dokumente" sehr
 
 ## <a name="default-link-type-setting"></a>Einstellung für Standardlinktyp
 
-SharePoint und OneDrive über eine Administratoreinstellung verfügen, um den Standardlinktyp für Links anzugeben, die für eine Datei erstellt werden. Teams verwendet denselben Ansatz, indem die vom Administrator für Einstellungen festgelegten Einstellungen für SharePoint und OneDrive. Weitere Details zu diesem Ansatz werden unter Ändern des [Standardlinktyps](/sharepoint/change-default-sharing-link)beschrieben, wenn Benutzer Links für die Freigabe erhalten. 
+Der standardmäßig angezeigte Freigabelinktyp, wenn ein Benutzer eine Datei freigegeben hat, wird im SharePoint Admin Center festgelegt. Weitere [Informationen finden Sie unter Ändern des Standardlinktyps,](/sharepoint/change-default-sharing-link) wenn Benutzer Links für die Freigabe erhalten.
 
-## <a name="more-information"></a>Weitere Informationen
+## <a name="related-topics"></a>Verwandte Themen
 
-Weitere Informationen zur Funktionsweise SharePoint-Teams finden Sie unter SharePoint und [Teams: Bessere Zusammenarbeit.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
+[SharePoint und Teams: zusammen besser.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 
-Weitere Informationen zur Gasterfahrung in Teams finden Sie unter [Gasterfahrung wie](guest-experience.md).
+[Gastfunktionalität](guest-experience.md)

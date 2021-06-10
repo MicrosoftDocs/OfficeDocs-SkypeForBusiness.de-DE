@@ -18,25 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 85a03967b9ea7facb5f7a69090b1b5902b601f64
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581386"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855904"
 ---
-<a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Bewährte Methoden für Benutzerfeedback in Microsoft Teams
-===========================================================
+# <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Bewährte Methoden für Benutzerfeedback in Microsoft Teams
 
-Bei der Einführung neuer Zusammenarbeitsfunktionen geht es darum, das Verhalten Ihrer Benutzer zu ändern. Für diese Änderungen des menschlichen Verhaltens sind Schulung, Ermutigung und positive Beispiele erforderlich. Sehr wichtig ist auch, dass die Benutzer während des Übergangs das Gefühl haben, angehört zu werden. Wenn Sie in Ihrer Organisation bereits erfolgreiche Feedbackmethoden eingerichtet haben, könnten Sie diese erweitern, um Ihre Teams-Implementierung einzubeziehen. Wenn Sie dies noch nicht getan haben, ziehen Sie einen der folgenden Ansätze in Betracht:
+Bei der Einführung einer neuen Zusammenarbeitserfahrung geht es darum, das Verhalten der Benutzer zu ändern. Der Wandel des Menschen erfordert Schulungen, Ermutigen und positive Beispiele. Es ist auch wichtig, dass die Leute während des Übergangs gehört werden. Wenn Sie bereits erfolgreiche Feedbackmethoden in Ihrer Organisation eingerichtet haben, können Sie diese erweitern, um Ihre Implementierung Teams beinhalten. Wenn Sie dies noch nicht getan haben, ziehen Sie einen der folgenden Ansätze in Betracht:
 
--   Erstellen eines öffentlichen Teams innerhalb Microsoft Teams, an dem jeder Benutzer teilnehmen kann, um Feedback zu seiner Erfahrung zu geben (denken Sie daran, dass öffentliche Gruppen auf 5.000 Benutzer beschränkt sind).
+- Erstellen Sie ein öffentliches Team innerhalb Microsoft Teams, an dem jeder Benutzer teilnehmen kann, um Feedback zu seiner Erfahrung zu geben (denken Sie daran, dass öffentliche Gruppen auf 5.000 Benutzer beschränkt sind).
 
--   Verwenden Sie Yammer, um eine offene Community für bewährte Methoden und Unterstützung für die Funktionen bereitzustellen.
+- Verwenden Yammer, um eine offene Community für bewährte Methoden und Unterstützung für die Benutzererfahrung zu bieten.
 
-Über eine Community umgesetzte Feedbackmethoden erfordern die Einbindung von Pionieren und Dienstbesitzern. Wir empfehlen, einen Überwachungszeitplan zu erstellen, in dem sich diese Mitglieder nach dem Rotationsprinzip abwechseln. Eine bewährte Methode besteht darin, ein separates Team in Microsoft Teams zu erstellen, in dem diese Pioniere zusammenarbeiten und Ressourcen und bewährte Methoden gemeinsam nutzen können, bevor diese an das allgemeine Team weitergegeben werden. Die Pioniere nehmen eine Beratungsrolle für Benutzer ein, die den neuen Dienst einführen. Sie geben den Veränderungen ein freundliches, menschliches Gesicht und arbeiten mit anderen Mitgliedern Ihres Bereitstellungsteams zusammen, um Probleme zur Sprache zu bringen und zu lösen.
+Community-gesteuerte Feedbackmethoden erfordern ein Engagement von Champions und Dienstbesitzern. Es wird empfohlen, einen Überwachungszeitplan zu erstellen, der sich unter diesen Mitgliedern dreht. Ein Tipp besteht in der Erstellung eines separaten Teams innerhalb von Microsoft Teams als einen Ort, an dem diese Champions zusammenarbeiten, Ressourcen und bewährte Methoden teilen können, bevor sie für das breitere Team geteilt werden. Die Champions übernehmen eine Empfehlungsrolle für Die Benutzer, die den neuen Dienst übernehmen, leisten ein benutzerfreundliches, menschliches Gesicht für den Umbruch und arbeiten mit anderen Mitgliedern Ihres Bereitstellungsteams zusammen, um Probleme zu lösen und zu lösen.
 
-<a name="showcases"></a>Herausragende Beispiele
----------
+## <a name="showcases"></a>Herausragende Beispiele
 
-Während Sie diesen Weg fortsetzen, werden Sie Inserenten in Ihrer eigenen Umgebung mit Mitarbeitern finden, deren Kreativität Microsoft Teams sie überrascht und begeistert. Wir empfehlen, diese Showcases allgemein zu teilen. Dies wird andere benutzer ermuntern, innovative zu sein, Benutzer zu informieren, die möglicherweise bereits an der Akzeptanzkurve mit dabei sind, und diejenigen belohnen, die sich die Zeit genommen haben, über die optimale Nutzung von Microsoft Teams in ihrer Umgebung nach nachdenken. Das Festlegen eines messbaren Ziels, eine Reihe von Präsentationsfenstern pro Quartal zu identifizieren, ist hilfreich, um Ihre Einführung in Schwung zu halten.
+Während Sie diesen Weg fortsetzen, werden Sie in Ihrer eigenen Umgebung mit Mitarbeitern, deren Kreativität mit Microsoft Teams sie überrascht und begeistert. Teilen Sie diese Showcases auf breiter Breite. Dies wird andere ermutigen, auf innovative Weise zu sein, Benutzer zu schulen, die möglicherweise bereits an der Verbreitungskurve arbeiten, und diejenigen belohnen, die sich die Zeit genommen haben, über die optimale Nutzung von Microsoft Teams in ihrer Umgebung nach nachdenken. Das Festlegen eines messbaren Ziels, eine Reihe von Präsentationsfenstern pro Quartal zu identifizieren, ist hilfreich, um Ihre Einführung in Schwung zu halten.

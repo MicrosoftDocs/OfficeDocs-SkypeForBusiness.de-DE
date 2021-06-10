@@ -17,15 +17,14 @@ ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie die Inhaltssuche im Microsoft 365 Compliance Center verwenden, um nach Microsoft Teams-Inhalten zu suchen, die in Exchange Online, SharePoint Online, OneDrive for Business und OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3758f96dc4755303ce8ccf3cae4443deb2a5cd99
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094285"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855804"
 ---
-<a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
-=====================================
+# <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 
 > [!NOTE]
 > Die Inhaltssuche von Nachrichten und Dateien in [privaten Kanälen](private-channels.md) funktioniert anders als in Standardkanälen. Weitere Informationen finden Sie unter [Inhaltssuche privater Kanäle.](#content-search-of-private-channels)
