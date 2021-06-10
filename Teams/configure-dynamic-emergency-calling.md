@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie die Microsoft-Anrufpläne konfigurieren Telef
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e9e206e82fdc535f115ab276e9cb67ba58d959
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796789"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856454"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -110,7 +110,7 @@ Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu e
 Netzwerkeinstellungen umfassen Standorte, die eine Sammlung von Subnetzen umfassen, und diese werden ausschließlich für die dynamische Richtlinienzuweisung zu Benutzern verwendet. So könnten beispielsweise eine Richtlinie für Notrufe und eine Richtlinie für die Weiterleitung von Notrufen der "Redmond-Website" zugewiesen werden, damit für jeden Benutzer, der von zu Hause oder an einem anderen Microsoft-Standort ans Telefon geht, Notrufnummern, Weiterleitung und Sicherheitsleitstelle für Redmond konfiguriert ist.  
 
 >[!Note]
->Subnetze können auch in LIS definiert und einem Notfallstandort zugeordnet werden.  LIS-Subnetze müssen durch die Netzwerk-ID definiert werden, die mit dem Subnetz-IP-Bereich übereinstimmen, der Clients zugewiesen ist. Beispielsweise ist die Netzwerk-ID für eine Client-IP/Mask von 10.10.10.150/25 **10.10.10.128.** Weitere Informationen finden Sie unter [Grundlegendes zu TCP/IP-Adressierung und Subnetzing.](https://docs.microsoft.com/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+>Subnetze können auch in LIS definiert und einem Notfallstandort zugeordnet werden.  LIS-Subnetze müssen durch die Netzwerk-ID definiert werden, die mit dem Subnetz-IP-Bereich übereinstimmen, der Clients zugewiesen ist. Beispielsweise ist die Netzwerk-ID für eine Client-IP/Mask von 10.10.10.150/25 **10.10.10.128.** Weitere Informationen finden Sie unter [Grundlegendes zu TCP/IP-Adressierung und Subnetzing.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
 
 Beachten Sie die folgenden Definitionen. Weitere Informationen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
 

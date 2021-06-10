@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1f23be9a2324bc3fe51f19440562cdcc31df8ad0
-  ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+  ms.openlocfilehash: a753374ec71014352b04721f2019f5e9a6425acd
+  ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 05/08/2021
-  ms.locfileid: "52282702"
+  ms.lasthandoff: 06/09/2021
+  ms.locfileid: "52856274"
 title: 'Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams'
 summary: ''
 sections:
@@ -35,17 +35,21 @@ sections:
   - question: Gibt es eine verbindliche Frist, innerhalb derer die Kunden den Wechsel von Skype for Business Online zu Microsoft Teams durchführen müssen?
     answer: >
       Ja. [Skype for Business Online wird am](skype-for-business-online-retirement.md) 31. Juli 2021 eingestellt und kann dann nicht mehr darauf zugegriffen werden. Wir empfehlen Skype for Business Online-Kunden, bereits jetzt mit der Verwendung von Microsoft Teams und der Planung ihrer Upgrades zu beginnen, um vor dem Einstellungstermin genügend Zeit zum Durchführen des Upgrades zu haben.
+  - question: Müssen lokale Skype for Business Server auf eine neue Version Microsoft Teams, Skype for Business Online Skype for Business wird?
+    answer: "Nein. Das Ende von Skype for Business Online wirkt sich nicht auf lokal zuhausee Benutzer aus. Obwohl wir alle Kunden ermutigen, die erweiterten Funktionen und Leistungsangebote von Microsoft Teams zu nutzen, müssen einige Skype for Business Server-Kunden das Produkt möglicherweise allein oder als Teil einer Hybridkonfiguration mit Microsoft Teams verwenden. Auf der [Website der Microsoft Lifecycle-Richtlinie](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server) finden Sie Supportdaten für Versionen Skype for Business Server. \n"
   - question: Wird Skype-Besprechung Übertragung zur gleichen Zeit wie ihr Online-Skype for Business werden?
     answer: "Ja. Teams Liveereignisse sind die Nachfolgerlösung für Skype-Besprechung Broadcast.    \n"
   - question: Wie viel Zeit beansprucht das Upgrade meiner Organisation auf Microsoft Teams?
     answer: >
-      Sie können die Umstellung Ihrer Organisation von Skype for Business auf Microsoft Teams selbst gestalten. Um Ihnen bei der Planung und Durchführung zu helfen, haben wir einen umfassenden Upgradeleitfaden entwickelt, der auf einem bewährten Framework basiert, das Ihnen dabei helfen soll, die technischen und organisatorischen Elemente der Änderung zu meistern. Beginnen Sie die Umstellung, indem Sie sich mit dem [Upgrade Success-Framework](upgrade-framework.md) und den zugehörigen Ressourcen vertraut machen, die als Grundpfeiler für die Umstellung von Skype for Business zu Microsoft Teams dienen.
+      Ihr Weg von Skype for Business bis Teams variiert je nach Merkmalen Ihrer Organisation, wie z. B. technische Komplexität, Aneignung für Veränderungen, benutzerdefinierte Anwendungs- und Workflowintegrationen und so weiter. Um Ihnen bei der Planung und Durchführung zu helfen, haben wir einen umfassenden Upgradeleitfaden entwickelt, der auf einem bewährten Framework basiert, das Ihnen dabei helfen soll, die technischen und organisatorischen Elemente der Änderung zu meistern. Beginnen Sie die Umstellung, indem Sie sich mit dem [Upgrade Success-Framework](upgrade-framework.md) und den zugehörigen Ressourcen vertraut machen, die als Grundpfeiler für die Umstellung von Skype for Business zu Microsoft Teams dienen.
   - question: Gibt es einen empfohlenen Pfad zum Upgrade für Skype for Business?
     answer: >
       Wir empfehlen, die Umstellung von Skype for Business zu Microsoft Teams unter Nutzung der Anleitungen und Ressourcen unter [aka.ms/SkypetoTeams](upgrade-start-here.md) zu planen und an einem kostenlosen [Upgrade-Planungs-Workshop teilzunehmen](upgrade-workshops-landing-page.yml), um den Upgrade-Pfad zu ermitteln und zu implementieren, der den Anforderungen Ihres Unternehmens am besten entspricht.
   - question: Wo erfahre ich im Microsoft Teams Admin Center mehr über die Koexistenzmodi?
+    answer: "Im Microsoft Teams Admin Center werden Sie Optionen für Koexistenzmodi feststellen, mit deren Hilfe Ihre Organisation die für sie geeignete Strategie für die Umstellung von Skype for Business auf Microsoft Teams verwalten kann. Weitere Informationen zu [Koexistenz- und Upgrademodi](teams-and-skypeforbusiness-coexistence-and-interoperability.md).\n      \n"
+  - question: Plant Microsoft Upgrades, die von Microsoft unterstützt werden?
     answer: >
-      Im Microsoft Teams Admin Center werden Sie Optionen für Koexistenzmodi feststellen, mit deren Hilfe Ihre Organisation die für sie geeignete Strategie für die Umstellung von Skype for Business auf Microsoft Teams verwalten kann. Weitere Informationen zu [Koexistenz- und Upgrademodi](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+      Ja. Skype for Business Onlinekunden können für unterstützte Upgrades geplant werden, um Microsoft Teams. Dieses Programm wurde entwickelt, um Kunden bei den technischen Elementen des Upgrades eines Online-Mandanten Skype for Business online auf Teams helfen. Kunden, die für unterstützte Upgrades geplant sind, erhalten 90 Tage vor dem Upgrade Benachrichtigungen sowohl im Teams Admin Center als auch im Microsoft 365 Message Center, um Zeit für die technische und Benutzerbereitschaft zu haben.  Weitere Informationen finden Sie unter Unterstützte Upgrades von [Skype for Business Online zu Microsoft Teams.](upgrade-assisted.md)
   - question: Was sollte ich tun, um das Upgrade vorzubereiten?
     answer: >
       Zu einem erfolgreichen Upgrade gehören neben dem Validieren der technischen Bereitschaft die Benutzerakzeptanz und -bereitschaft. Selbst wenn Sie feststellen, dass Ihre Organisation noch nicht bereit ist, auf Teams umzusteigen, können Sie noch heute mit dem Planungsprozess beginnen. Außerdem können Sie schon von Microsoft Teams profitieren, indem Sie Microsoft Teams parallel zu Skype for Business aktivieren. Beginnen Sie noch heute mit der [Umstellung von Skype auf Microsoft Teams](./upgrade-start-here.md).
@@ -79,8 +83,6 @@ sections:
   - question: Was bedeutet das aus der Perspektive der Lizenzierung? Wie zahlen Kunden für Funktionen wie Audiokonferenzen und Anrufe in Teams?
     answer: >
       Microsoft Teams ist in Microsoft 365- und Office 365-Suites verfügbar. Funktionen, bei denen es sich heute in Skype for Business Online um Premium-Arbeitsauslastungen handelt, gelten auch in Teams als Premium-Arbeitsauslastungen. Vorhandene Lizenzen werden nach Microsoft Teams übertragen. Wenn ein Kunde beispielsweise die eigenständige Audiokonferenzfunktion oder Audiokonferenzen als Bestandteil von E5 mit Skype for Business gekauft hat, sind Audiokonferenzen in ihrer heute verfügbaren Form auch in Microsoft Teams aktiviert.
-  - question: Plant Microsoft Upgrades, die von Microsoft unterstützt werden?
-    answer: "Mit der Anzeige des Skype for Business Online-Diensts am 31. Juli 2021 soll Microsoft Kunden bei einem erfolgreichen Umstieg auf Teams helfen, indem es Anleitungen für Upgrades, Online-Workshops sowie Schulungen für Benutzer und Administratoren bietet. \n\nSkype for Business Onlinekunden können für unterstützte Upgrades geplant werden, um Microsoft Teams. Dieses Programm wurde entwickelt, um Kunden bei den technischen Elementen des Upgrades eines Online-Mandanten Skype for Business online auf Teams helfen. Kunden, die für unterstützte Upgrades geplant sind, erhalten 90 Tage vor dem Upgrade Benachrichtigungen sowohl im Teams Admin Center als auch im Microsoft 365 Message Center, um Zeit für die technische und Benutzerbereitschaft zu haben.  Weitere Informationen finden Sie unter Unterstützte Upgrades von [Skype for Business Online zu Microsoft Teams.](upgrade-assisted.md)\n"
   - question: Welche Vorteile bietet die Back-End-Infrastruktur von Teams?
     answer: >
       Microsoft Teams wurde für die Cloud entwickelt. Dabei kommt eine in hohem Maß skalierbare Microservicearchitektur zum Einsatz, die effiziente Bandbreitenauslastung sowie eine robustere Telemetrie bietet und Wartung und Upgrades mit minimalen Unterbrechungen ermöglicht. Dadurch können Benutzer schneller an Besprechungen teilnehmen und die Anwendung besser im Browser nutzen, ohne Plug-Ins herunterladen zu müssen. Diese moderne Infrastruktur erleichtert die Nutzung von Microsoft Cognitive Services, wie beispielsweise Transkription, Übersetzung, Spracherkennung und Funktionen für maschinelles Lernen. So können Kommunikation und Zusammenarbeit einfacher und effektiver gestaltet werden.

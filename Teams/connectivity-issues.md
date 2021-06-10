@@ -16,15 +16,14 @@ description: Behandeln Sie Konnektivitätsprobleme mit dem Microsoft Teams-Clien
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 25a4fc51e0bb8dec810ce921e3678a529ee7a4cf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: f9ef787a5e103649c1526fab321cc8a9a088254c
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101161"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856164"
 ---
-<a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client
-==============================================================
+# <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client
 
 Die meisten Probleme, die mit dem Microsoft Teams-Client festgestellt wurden, lassen sich auf die Firewall- oder Proxy-Verbindungen zurückführen. Wenn Sie sicherstellen, dass die notwendigen URLs, IP-Adressen und Ports in Ihrer Firewall oder Ihrem Proxy freigegeben sind, können Sie unnötige Problembehandlungen minimieren. Spezifische Informationen zu URLs und IPs, die für Microsoft Teams erforderlich sind, finden Sie im Support-Artikel zu [Microsoft 365- und Office 365-URLs und -IP-Adressen](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). Die folgende Szenarien benötigen spezifische, freigegebene URLs und Ports in der Firewall.
 

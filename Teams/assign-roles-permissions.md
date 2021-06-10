@@ -16,18 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
-ms.translationtype: HT
+ms.openlocfilehash: 5f7c4e9a827aad18593ee530272bedc8595bc9db
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739283"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856084"
 ---
-<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
-=================================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
 
 In Microsoft Teams gibt es zwei Benutzerrollen: **Besitzer** und **Mitglied**. Standardmäßig wird einem Benutzer, der ein neues Team erstellt, der Status "Besitzer" zugewiesen. Besitzern und Mitgliedern können außerdem Moderatorfunktionen für einen bestimmten Kanal zugeordnet werden (sofern die Moderation eingerichtet wurde). Wenn ein Team aus einer bestehenden Microsoft 365-Gruppe erstellt wird, werden die entsprechenden Berechtigungen vererbt.
 
@@ -43,9 +39,9 @@ Die folgende Tabelle zeigt den Unterschied zwischen den Berechtigungen eines Bes
 |          **Standardkanal hinzufügen**          |    Ja     |    Ja<sup>2</sup>|
 | **Kanalnamen/Kanalbeschreibung bearbeiten** |    Ja     |    Ja<sup>2</sup>|
 |        **Standardkanal löschen**         |    Ja     |    Ja<sup>2</sup>|
-|          **_Privaten Kanal hinzufügen_*          |    Ja     |    Ja<sup>2</sup>|
-| **_Namen/Beschreibung des privaten Kanals bearbeiten_* |    Nein     |    Nicht zutreffend|
-|        **_Privaten Kanal löschen_*         |    Ja     |    Nein|
+|          ***Privaten Kanal hinzufügen**          |    Ja     |    Ja<sup>2</sup>|
+| ***Namen/Beschreibung des privaten Kanals bearbeiten** |    Nein     |    Nicht zutreffend|
+|        ***Privaten Kanal löschen**         |    Ja     |    Nein|
 |          **Hinzufügen von Mitgliedern**          |  Ja<sup>3</sup>   |     Nein<sup>4</sup>    |
 |          **Hinzufügen von Mitgliedern anfordern**          |  Nicht zutreffend   |     Ja<sup>5</sup>     |
 |           **Apps hinzufügen**            |    Ja     |    Ja<sup>2</sup>|
@@ -76,9 +72,3 @@ Um eine Benutzerrolle zuzuweisen, wählen Sie in Teams den Teamnamen aus und kli
 ## <a name="permissions-to-create-teams"></a>Berechtigungen zum Erstellen von Teams
 
 Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigung zum Erstellen von Microsoft 365-Gruppen und damit zum Erstellen eines Teams in Microsoft Teams. Sie können dies genauer steuern sowie die Erstellung neuer Teams und damit die Erstellung neuer Microsoft 365-Gruppen einschränken, indem Sie die Gruppenerstellungs- und Verwaltungsrechte an eine Gruppe von Benutzern delegieren. Entsprechende Anweisungen finden Sie unter [Verwalten von Personen, die Microsoft 365-Gruppen erstellen können](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
-
-
-|Symbol|Titel|Beschreibung|
-|---------|---------|---------|
-| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Entscheidungspunkt         |Sollen alle Microsoft Teams-Benutzer in der Lage sein, Teams zu erstellen (empfohlen)?         |
-| ![Ein Symbol, das die nächsten Schritte darstellt](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Nächste Schritte         |Ändern der Standardberechtigungen für Benutzer, die Microsoft 365-Gruppen erstellen können, wenn Sie einschränken müssen, wer Teams erstellen kann         |

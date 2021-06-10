@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Behandeln Sie Probleme beim Erstellen einer PowerShell-Remotesitzung, um eine Verbindung mit Skype for Business Online herzustellen, einschließlich Import-Module, gleichzeitiger Shell, Live ID und Berechtigungsfehlern.
-ms.openlocfilehash: 02952ea878424cb0b5e84337051c30660101d144
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d220fbbf9df22964833aa42bcd29c5ecaaa6eaa5
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238896"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856064"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -153,7 +153,7 @@ Damit Sie PowerShell mit Skype for Business Online verwalten können, muss die �
 
 Jeder Administrator darf maximal drei gleichzeitige Remoteverbindungen mit Skype for Business Online herstellen. Wenn drei PowerShell-Remoteverbindungen aktiv sind, tritt beim Versuch, eine vierte gleichzeitige Verbindung herzustellen, ein Fehler auf. Dabei wird die folgende Fehlermeldung angezeigt:
 
-- **Fehler:** *New-PSSession : [admin.vdomain.com] Die Verbindung mit dem Remoteserver admin.vdomain.com mit der folgenden Fehlermeldung ist fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl gleichzeitiger Shells für diesen Benutzer wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Benutzer. Weitere Informationen finden Sie unter [Remotebehandlung]( https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Fehler:** *New-PSSession : [admin.vdomain.com] Die Verbindung mit dem Remoteserver admin.vdomain.com mit der folgenden Fehlermeldung ist fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl gleichzeitiger Shells für diesen Benutzer wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Benutzer. Weitere Informationen finden Sie unter [Remote-Problembehandlung](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
 
 - **Lösung:** Dieses Problem können Sie nur beheben, wenn Sie mindestens eine der vorherigen Verbindungen schließen. Wenn Sie mit einer Skype for Business Online-Sitzung fertig sind, sollten Sie die Sitzung mit dem Cmdlet **Remove-PSSession** beenden. Damit können Sie das Problem vermeiden.
   
@@ -162,7 +162,7 @@ Jeder Administrator darf maximal drei gleichzeitige Remoteverbindungen mit Skype
 
 Obwohl jeder Administrator bis zu drei gleichzeitige Verbindungen mit einem Skype for Business Online-Mandanten haben darf, ist es nicht zulässig, dass ein einziger Mandant mehr als 20 gleichzeitige Verbindungen hat. So können beispielsweise sechs Administratoren jeweils drei geöffnete Sitzungen haben. Wenn ein vierter Administrator versucht, mehr als zwei Verbindungen herzustellen (wodurch sich insgesamt 21 gleichzeitige Verbindungen ergeben), tritt ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
   
-- **Fehler:** *New-PSSession : [admin.vdomain.com] Die Verbindung mit dem Remoteserver admin.vdomain.com mit der folgenden Fehlermeldung ist fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen Shells für diesen Mandanten wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Mandanten. Weitere Informationen finden Sie unter [Remotebehandlung]( https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **Fehler:** *New-PSSession : [admin.vdomain.com] Die Verbindung mit dem Remoteserver admin.vdomain.com mit der folgenden Fehlermeldung ist fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen Shells für diesen Mandanten wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Mandanten. Weitere Informationen finden Sie unter [Remote-Problembehandlung](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
 
 - **Lösung:** Dieses Problem können Sie nur beheben, wenn Sie mindestens eine der vorherigen Verbindungen schließen. Wenn Sie mit einer Skype for Business Online-Sitzung fertig sind, sollten Sie die Sitzung mit dem Cmdlet **Remove-PSSession** beenden. Damit können Sie das Problem vermeiden.  
  
