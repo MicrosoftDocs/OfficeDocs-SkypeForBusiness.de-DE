@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863246"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873842"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -1303,6 +1303,8 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **smart_reply_enabled**: Bestätigt, dass Smart Reply für den aktuellen Benutzer aktiviert ist.
 - **smart_reply_received**: Bestätigt, dass ein Smart Reply-Vorschlag empfangen wurde.
 - **smart_reply_banned**: Bestätigt, dass Smart Reply für den aktuellen Benutzer nicht angezeigt werden kann.
+- **park_call_for_hold_v2**: Bestätigt das erfolgreiche oder fehlgeschlagene Halten eines Anrufs unter Verwendung von Anruf parken.
+- **unpark_call_for_hold_v2**: Bestätigt das erfolgreiche oder fehlgeschlagene Fortsetzen eines Anrufs unter Verwendung von Anruf entparken. 
 - **update_planner_task_and_nav_to_view**: Bestätigt das erfolgreiche Aktualisieren eines freigegebenen Aufgabenelements und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
 - **update_personal_task_and_nav_to_view**: Bestätigt das erfolgreiche Aktualisieren eines persönlichen Aufgabenelements und die Zeit, die ein Benutzer benötigte, um auf der Ergebnisansicht zu landen. 
 - **updatePlannerTask**: Bestätigt, dass ein Benutzer ein Aufgabe in einer freigegebenen Aufgabenliste erfolgreich aktualisiert hat.
