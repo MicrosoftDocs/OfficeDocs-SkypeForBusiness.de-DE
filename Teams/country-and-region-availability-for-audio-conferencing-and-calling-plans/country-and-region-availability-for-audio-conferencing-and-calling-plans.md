@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3890fa79173dd6327830cc995bf41d79a0b2dde0
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122269"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873822"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -157,7 +157,7 @@ Sie können ein Land oder eine Region auswählen, um zu sehen, welche Cloud-Spra
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, laden Sie die Kalkulationstabelle für die Verfügbarkeit von **[Cloud-Sprachfeatures (Land/Region) herunter,](https://www.microsoft.com/download/details.aspx?id=102271)** und speichern Sie sie.
+Wenn Sie nach einer Kalkulationstabelle mit allen Ländern und Regionen suchen, laden Sie die Kalkulationstabelle für die Verfügbarkeit von **[Cloud-Sprachfeatures (Land/Region) herunter,](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-05252021)-(en-us).xlsx)** und speichern Sie sie.
 
 ***
 
