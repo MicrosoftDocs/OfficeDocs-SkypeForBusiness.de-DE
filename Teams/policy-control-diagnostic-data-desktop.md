@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136054"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863226"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Erforderliche Desktop-Diagnosedaten für Microsoft Teams
 
 Der folgende Artikel enthält eine Liste von Microsoft Teams-Desktopereignissen sowie Listen von Eigenschaften, die vom jeweiligen Ereignis erfasst werden.
+
+Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Diagnosedaten an Microsoft gesendet werden, finden Sie unter [Diagnosedaten, die von der Teams-App an Microsoft gesendet werden.](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft) Um die Diagnosedaten anzuzeigen, die an Microsoft gesendet werden, können Sie den [Diagnosedaten-Viewer](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855) verwenden.
 
 ## <a name="events"></a>Ereignisse
 
@@ -41,7 +43,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Desktopereignissen 
 - **adalAnonymousUtil.ts:loggingService.getInstance**: Protokolliert eine Fehlermeldung, die besagt, dass die App die anonyme Benutzerauthentifizierung nicht starten konnte.
 - **adal-anonymous-windows.ts:this.logger.logError**: Zeichnet auf, dass bei der anonymen Anmeldung auf einem Windows-Gerät ein allgemeiner SSO-Fehler aufgetreten ist.
 - **adalBase.ts:this.loggingService.logError**: Zeichnet Informationen auf, die erforderlich sind, um festzustellen, ob das Benutzerprofil NULL oder leer ist.
-- **adal-impl-mac.ts:this.loggingService.logError**: Zeichnet das Auftreten eines Problems beim Parsen von während der Authentifizierung erhaltenen Telemetriedaten oder eines allgemeinen SSO-Fehlers beim Anmelden auf einem Mac-Gerät auf.
+- **adal-impl-mac.ts:this.loggingService.logError**: Zeichnet das Auftreten eines Problems auf bei der Analyse von während der Authentifizierung erhaltenen Telemetriedaten oder eines allgemeinen SSO-Fehlers beim Anmelden auf einem Mac-Gerät.
 - **adal-rigel-windows.ts:this.logger.logError**: Allgemeine Protokollangabe, die besagt, dass bei der Anmeldung auf dem Besprechungsraumgerät ein allgemeiner SSO-Fehler aufgetreten ist.
 - **adal-sso-windows.ts:this.loggingService.logError**: Zeichnet das Auftreten eines allgemeinen SSO-Fehlers bei der Anmeldung auf einem Windows-Gerät, von Fehlern beim Initiieren des Chatdiensts oder Informationen zu Fehlern bei der Anmeldung auf.
 - **appOnlineService.ts:loggingService.getInstance**: Zeichnet das Auftreten eines Fehlers aufgrund von Einstellungen, die während des Starts nicht analysiert werden konnten, oder beim Herunterladen vorautorisierter Einstellungen für die Benutzervorauthentifizierung auf.
@@ -54,7 +56,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Desktopereignissen 
 - **localStorageService.ts:loggingService.getInstance**: Zeichnet das Auftreten eines Fehlers auf, wenn grundlegende Startdaten nicht ordnungsgemäß zum Ausführen der Anwendung geladen werden.
 - **logProviders\pageDumpProvider.ts:loggingService.getInstance**: Zeichnet Fehlerinformationen auf, wenn die Anwendung abstürzt.
 - **multiWindowManager.ts:this.logError**: Zeichnet das Auftreten eines Fehlers auf, wenn grundlegende Startdaten nicht ordnungsgemäß zum Ausführen der Anwendung geladen werden.
-- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError**: Zeichnet das Auftreten eines Fehlers bei dem Versuch, eine Benachrichtigung über einen Fehler zu starten, auf.
+- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError**: Zeichnet das Auftreten eines Fehlers auf beim Versuch, eine Benachrichtigung über einen Fehler zu senden.
 - **OutlookMeetingAddinHelper.ts:loggingService.getInstance**: Zeichnet das Auftreten eines Fehlers beim Herstellen einer Verbindung mit einer Besprechung mithilfe des Outlook-Besprechungs-Add-Ins auf.
 - **recoveryManager.ts:loggingService.getInstance**: Zeichnet das Auftreten eines Fehlers während Update-Rollbacks auf.
 - **renderer\startPage\startPage.ts:this.logger.logError**: Zeichnet das Auftreten eines Fehlers mit der Startseite der Anwendung auf.
@@ -97,7 +99,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Desktopereignissen 
 - **desktop_app_quit_exception**: Die Anwendung ist bei dem Versuch, sie zu schließen, abgestürzt.
 - **desktop_blankScreenDetected**: Zeichnet Informationen auf, die zum Ermitteln von Fehlern erforderlich sind, wenn die Desktopanwendung einen leeren Bildschirm rendert.
 - **desktop_blankScreenDetectedAfterRepaint**: Nach dem Erkennen eines Renderingversuchs wurde erkannt, dass die Seite leer war.
-- **desktop_blankScreenRecoveredAfterRepaint**: Wiederherstellung nach einem vorherigen Renderingproblem, bei dem der Bildschirm nicht gerendert wurde.
+- **desktop_blankScreenRecoveredAfterRepaint**: Wiederhergestellt nach einem Renderingproblem, bei dem der Bildschirm vorgängig nicht gerendert wurde.
 - **desktop_configuration_failed_to_save**: Erfasst Informationen, die zum Ermitteln von Konfigurationsfehlern erforderlich sind, wenn die Desktopeinstellungen nicht gespeichert werden konnten.
 - **desktop_navigation_error_recovery**: Erfasst Informationen, die zum Ermitteln von Desktop-Navigationsfehlern erforderlich sind, wenn eine Seite nach fünf Versuchen nicht geladen werden konnte.
 - **desktop_previous_gpu_crashed**: Zeichnet Informationen auf, die zur Ermittlung von GPU-Fehlern erforderlich sind, wenn der Desktop abstürzt.
@@ -142,7 +144,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Desktopereignissen 
 
 ### <a name="properties-sent-with-all-events"></a>Eigenschaften, die mit allen Ereignissen gesendet werden
 
-| Name der Eigenschaft                              | Beschreibung                                                        |
+| Eigenschaftenname                              | Beschreibung                                                        |
 |--------------------------------------------|--------------------------------------------------------------------|
 | EventInfo_Time                             | Ereignisgenerierungszeit                                              |
 | EventInfo_Name                             | Name des Ereignisses; wird verwendet, um zwischen Ereignistypen zu unterscheiden.             |
@@ -205,7 +207,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Desktopereignissen 
 | Session_DesktopId                 | Einmalige Sitzungs-ID                                                                  |
 | machineLocked                     | Erfasst, ob der Computer gesperrt war oder nicht.                                          |
 | windowIsVisible                   | Erfasst, ob das App-Fenster für die Verwendung sichtbar war.                                      |
-| appStates/webAppStates            | Erfasst eine Liste der App-Zustände, die die App durchlaufen hat. Dies hilft bei der Untersuchung von Abstürzen, weil wir sehen können, in welchem Zustand sich die App befand. |
+| appStates/webAppStates            | zeichnet eine Liste der App-Zustände auf, welche die App durchlaufen hat. Dies hilft bei der Untersuchung von Abstürzen, da wir sehen können, in welchem Zustand sich die App befand |
 | crashDesktopSession               | Zeichnet die ID der abgestürzten Sitzung auf.                                                 |
 | appRuntime                        | Erfasst die Runtime der App.                                                        |
 | diagnosticEvents                  | Letzte 50 Web-App-Diagnoseereignisse vor dem App-Absturz                                 |

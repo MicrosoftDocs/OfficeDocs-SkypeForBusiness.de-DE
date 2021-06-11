@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777901"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863216"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Übersicht über die Richtliniensteuerung für Microsoft Teams
 
@@ -84,7 +84,7 @@ Zum Auswählen der Ebene für die an uns gesendeten Diagnosedaten verwenden Sie 
 
 Wenn Benutzer mit den organisatorischen Anmeldeinformationen (auch als Geschäfts-, Schul- oder Unikonto bezeichnet) bei Teams angemeldet sind, können sie die Diagnosedatenebene für ihre Geräte nicht ändern.
 
-In diesen Diagnosedaten sind weder Namen oder E-Mail-Adressen von Benutzern, noch Inhalte von Dateien der Benutzer enthalten. Unser System erstellt eine eindeutige ID und verknüpft diese mit den Diagnosedaten des Benutzers. Wenn wir Diagnosedaten erhalten, die zeigen, dass die Teams-App 100 Mal abgestürzt ist, können wir mit dieser eindeutigen ID feststellen, ob es ein einzelner Benutzer war, der 100 Mal abgestürzt ist, oder ob es 100 verschiedene Benutzer waren, die jeweils einmal abgestürzt sind. Wir verwenden diese eindeutige ID nicht, um einen bestimmten Benutzer zu identifizieren.
+Diese Diagnosedaten enthalten keine Namen von Benutzern, ihre E-Mail-Adressen oder andere Benutzerinhalte, wie z. B. in Teams freigegebene Office-Dateien, eine in Teams gesendete Chat-Nachricht oder den Text eines in einem Teams-Kanal veröffentlichten Beitrags. Unser System erstellt eine eindeutige ID und verknüpft diese mit den Diagnosedaten des Benutzers. Wenn wir Diagnosedaten erhalten, die zeigen, dass die Teams-App 100 Mal abgestürzt ist, können wir mit dieser eindeutigen ID feststellen, ob es ein einzelner Benutzer war, der 100 Mal abgestürzt ist, oder ob es 100 verschiedene Benutzer waren, die jeweils einmal abgestürzt sind. Wir verwenden diese eindeutige ID nicht, um einen bestimmten Benutzer zu identifizieren.
 
 Wenn Sie sehen möchten, welche Diagnosedaten an Microsoft gesendet werden, verwenden Sie den Diagnosedaten-Viewer, den Sie aus dem Microsoft Store kostenlos herunterladen und installieren können. Weitere Informationen finden Sie unter [Verwenden des Diagnosedaten-Viewers mit Office](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855).
 

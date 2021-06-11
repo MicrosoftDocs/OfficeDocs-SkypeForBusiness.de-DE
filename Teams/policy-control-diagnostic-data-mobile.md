@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723566"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863246"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
 Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mobilen Geräten sowie Listen von Eigenschaften, die vom jeweiligen Ereignis erfasst werden.
+
+Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Diagnosedaten an Microsoft gesendet werden, finden Sie unter [Diagnosedaten, die von der Teams-App an Microsoft gesendet werden.](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft) Um die Diagnosedaten anzuzeigen, die an Microsoft gesendet werden, können Sie den [Diagnosedaten-Viewer](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855) verwenden.
 
 ## <a name="events"></a>Ereignisse
 
@@ -109,6 +111,8 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Nummern aus Einstellungen.
 - **blockChat**: Blockieren eines Bot-Chats. Dadurch wird die bestehende Telemetrie um Chats herum verbessert und es werden lediglich Anwendungsinformationen hinzugefügt.
 - **botClickCardAction**: Verwendung von Connectorkarten.
+- **brbFormOpened**: Der Benutzer verlangte Feedback zu senden.
+- **brbFormSubmit**: Der Benutzer hat Feedback übermittelt.
 - **breakStartEndClicked**: Auf dem Bildschirm zum Einstempeln ist die Schaltfläche **Pause beginnen** oder **Pause beenden** ausgewählt.
 - **breakStartEndTriggered**: Registrieren Sie, wenn ein Benutzer die Verwendung von „Pause beginnen“ oder „Pause beenden“ auswählt.
 - **bucketSelected**: Bestätigt, dass ein Bucket erfolgreich ausgewählt wurde.
@@ -461,6 +465,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **dialOutDialog** - **Neue Nummer** wird in der Aktionstabelle ausgewählt.
 - **dialOutFailRetry** - **Wiederholen** wird aus einem Fehler-Banner ausgewählt.
 - **Dialpad**: Die Schaltfläche **Wähltastatur** wird aus der Anrufliste ausgewählt.
+- **directShare**: Ein Einladungslink für eine native SMS/E-Mail-App wurde geteilt.
 - **disableCategory**: Deaktivieren Sie eine Art von Benachrichtigung, oder deaktivieren Sie eingehende Anrufbenachrichtigungen.
 - **disabled** - **Benachrichtigungen überspringen** wird in der FRE (First-run experience) ausgewählt. Dies liefert wichtige Erfolgsdaten für das Überspringen der Benachrichtigung im FRE-Fluss.
 - **disableQuietDays**: Ruhige Tage deaktiviert. Feature-Erfolgstelemetrie für ruhige Tage.
@@ -625,6 +630,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **Launch source such as direct, link, appShortcut**: Startet direkt oder per Link (Aufzeichnung von Mobiler Anwendungsverwaltung (MAM) oder Mobiler Geräteverwaltung (MDM) Telemetrie beim Start der Anwendung, um Daten für aktive Benutzer zu sammeln).
 - **leaveChat**: Bestätigung des Verlassens des Chats.
 - **legacyChatLink**: Ein Link wird für einen älteren Chat ausgewählt.
+- **link**: Der Benutzer hat das Einlösen des Einladungslinks durch den Zugriff auf die Teams-Anwendung initiiert.
 - **likeAppDismiss**: Wenn die Eingabeaufforderung, die fragt, ob ein Benutzer die App mag oder nicht, ohne Antwort zurückgewiesen wird.
 - **likeAppNo**: Wenn die Eingabeaufforderung, die fragt, ob Benutzer die App mag, die Antwort „Nein“ erhält.
 - **likeAppYes**: Wenn die Eingabeaufforderung, die fragt, ob Benutzer die App mag, die Antwort „Ja“ erhält.
@@ -650,12 +656,13 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **location_active_tracking**: Das Gerät eines Benutzers wird in „aktive Nachverfolgung“ umgeschaltet.
 - **locationCard**: Wählen Sie eine Standortkarte aus.
 - **location_family_sync**: Anzeigen von Mitgliedern einer Familiengruppe, die in der MSA-Familien-App erstellt wurden. Bestätigt, dass alle Familienmitglieder angezeigt werden, denen die Zustimmung erteilt werden kann.
+- **location_data_use_privacy_denied**: Der Benutzer hat die Annahmen der Datenschutzbestimmungen verweigert.
 - **location_group_map_sync**: Kartenansicht wird geöffnet.
 - **location_map_load**: Laden der Kartenansicht.
 - **location_map_markers_load**: Kartenansicht laden. Bestätigt, dass die Standortmarkierungen für alle aktiv teilenden Benutzer in der Kartenansicht richtig angezeigt werden.
 - **location_message_send**: Ein Benutzer initiiert eine Sitzung zur Standortübermittlung.
 - **location_data_use_privacy_denied**: In einem Popup, das die Verwendung von Standortdaten durch TFL erklärt, weist ein Benutzer die Option **Nicht jetzt** ab oder wählt sie aus.
-- **location_data_use_privacy_granted**: In dem Popup, das die Verwendung von Standortdaten durch TFL erklärt, wählt ein Benutzer **Zulassen** aus.
+- **location_data_use_privacy_granted**: In einem Popup, das die Verwendung von Standortdaten durch TFL erklärt, wählt ein Benutzer **Zulassen** aus.
 - **location_settings_open**: Ein Benutzer öffnet die Standorteinstellungen.
 - **location_sharing_start**: Ein Benutzer gibt seinen Live-Standort in einem Chat frei.
 - **location_sharing_stop**: Ein Benutzer beended die Freigabe seines Live-Standorts in einem Chat.
@@ -855,6 +862,9 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **pinChannel**: Heften Sie einen Kanal an, um ihn oberhalb der Liste „Teams und Kanäle“ anzuzeigen.
 - **pinSelf**: Mich selbst aus der Aktionstabelle anheften.
 - **pinuser**: Einen Benutzer aus der Aktionstabelle anheften.
+- **place_created**: Der Benutzer erstellt einen freigegebenen Ort.
+- **place_deleted**: Der Benutzer löscht einen freigegebenen Ort.
+- **place_edited**: Der Benutzer bearbeitet einen freigegebenen Ort.
 - **play**: Die Aufzeichnung abspielen.
 - **playVoicemail** - **Wiedergabe** wird auf dem Voicemail-Element angetippt.
 - **plusButtonClicked**: Auswählen der **Plus-Schaltfläche** (**+**).
@@ -918,6 +928,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **reactRemoved_HB**: Wenn ein Benutzer eine Reaktion über die Seite Reaktionszusammenfassung entfernt.
 - **readReceipts**: Benutzer hat Feature aktiviert.
 - **redeemInvite**: Rückzahlung in der App.
+- **redeemLinkInAppStart**: Der Benutzer hat das Einlösen des Einladungslinks aus der Teams-Anwendung initiiert.
 - **refreshCalendarList**: Nach unten ziehen, um die Ansicht der Agenda zu aktualisieren.
 - **refreshLinksGallery**: Wenn ein Benutzer nach unten wischt, um den Linkkatalog zu aktualisieren.
 - **removeAssignee**: Bestätigt, dass eine zugewiesene Person aus der Ansicht der Zuordnungsauswahl entfernt wird (im Gegensatz zu *assignmentRemoved*, was ausgelöst wird, wenn **x** außerhalb der Ansicht der Zuordnungsauswahl ausgewählt wird).
@@ -933,7 +944,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **reorderChannelItem**: Ein Benutzer hat die angehefteten Kanäle neu angeordnet.
 - **reportAbuseConfirmation**: Wenn ein Benutzer die Schaltfläche **Fertig** auf dem Bestätigungsbildschirm auswählt.
 - **reportAbuseOpen**: Die Anzahl der Male, in denen im Kontextmenü die Schaltfläche **Bedenken melden** aktiviert wird.
-- **reportAbuseSend**: Wenn ein Benutzer die Schaltfläche **Bericht** auswählt; die Telemetrie sollte den ausgewählten Berichtstyp aufbewahren.
+- **reportAbuseSend**: Wenn ein Benutzer die Schaltfläche **Bericht** auswählt; sollte die Telemetrie den ausgewählten Berichtstyp speichern.
 - **replyChain**: Ausgewählte Schaltfläche **Neue Nachricht** oder Textfeld in der Antwortkette (Thread).
 - **replyChannel**: Ausgewählte Schaltfläche **Antworten** in Kanälen.
 - **replyNavigation**: Antwortobjekt wurde ausgewählt, um zum Referenzbeitrag zu navigieren.
@@ -958,6 +969,8 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **saveEditMeeting**: Wählen Sie die Schaltfläche **Speichern** auf der Besprechungsplaner-Seite aus, nachdem eine Besprechung aktualisiert wurde.
 - **saveNewMeeting**: Wählen Sie die Schaltfläche **Speichern** auf der Besprechungsplaner-Seite aus. Dies protokolliert erfolgreich gespeicherte Besprechungen und den Prozentsatz der Besprechungen, die aufgrund eines clientseitigen oder Dienstfehlers nicht erstellt werden konnten.
 - **savePlanClicked**: Löst aus, dass **Erstellen** im neuen Planersteller von der Standardinitialisierung der App aus ausgewählt wird.
+- **scenarioChannelDashboard**: Der Benutzer navigiert zu einer Kachel im Dashboard.
+- **scenarioDashboardNav**: Der Benutzer navigiert zur Dashboard-Registerkarte in einer Unterhaltung (Geschwister auf der Chat-Registerkarte).
 - **scheduledMeetingJoin**: Die Schaltfläche **Besprechungsbeitritt** wird aus dem geplanten Besprechungsobjekt ausgewählt.
 - **scrollCalendarList**: Misst Scrolls im Kalender.
 - **scrollDatePicker**: Scrollen Sie durch das Kalendersteuerelement für die Datumsauswahl.
@@ -1013,6 +1026,8 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **settingsNavReadReceiptNotice**: Benutzer ist vom Feature-Hinweis zu den Einstellungen gewechselt.
 - **settingsOpened**: Dies wird ausgelöst, wenn die Gerätezeitzone des Benutzers nicht der Teamzeitzone entspricht, und der Benutzer zu Einstellungen wechselt.
 - **setupPinVault** – Der Benutzer speichert eine Tresor-PIN für sein Konto. 
+- **shareCharmCompleted**: Der Benutzer hat die Freigabe eines Einladungslinks über den Anwendungsfreigabe-Charm abgeschlossen.
+- **shareCharmOpened**: Der Benutzer hat die Freigabe eines Einladungslinks über den Anwendungsfreigabe-Charm initiiert. 
 - **shareFile**: Wird ausgelöst, wenn **Datei freigeben** ausgewählt ist. Hilft außerdem beim Überprüfen, ob:
   - Der Benutzer die Dateifreigabeoperation initiieren konnte.
   - Der Benutzer eine Datei erfolgreich freigeben kann.
@@ -1127,6 +1142,8 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
   - Übertragungsziel ist auf eine Person festgelegt.
   - Übertragungsziel ist auf eine Telefonnummer festgelegt.
 - **translateFailed**: Übersetzung ist fehlgeschlagen (offline ausgeschlossen). Feature-Erfolgsmetriken für das Nachrichtenübersetzungs-Feature.
+- **trigger_created**: Der Benutzer hat einen Geofence erstellt.
+- **trigger_deleted**: Der Benutzer hat einen Geofence gelöscht.
 - **unansweredCallForward**: Es wird ein Weiterleitungsziel für unbeantwortete Anrufe festgelegt. Ermöglicht auch die offene Rufumleitung für unbeantwortete Anrufe („Anrufe bei mir klingeln lassen“ ist aktiviert und „Wenn unbeantwortet“ ist aktiviert).
 - **unblockCaller**: Aufheben der Blockierung:
   - Kontakt oder Nummer aus der Aktionstabelle.
@@ -1225,6 +1242,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **fileUploadSuccess** – Wird ausgelöst, wenn ein Vorgang zum Hochladen einer Datei erfolgreich abgeschlossen wird.
 - **fileUploadSummaryNotification** – Wird ausgelöst, wenn sich der Inhalt der Zusammenfassung der enachrichtigung über das Hochladen der Datei ändert oder wenn mit der Benachrichtigung interagiert wird. Die Interaktionen können Gesten wie Wischen zum Schließen der Benachrichtigung oder Tippen auf die Benachrichtigung usw. umfassen.
 - **meetingFiles** – Wird beim Öffnen des Bildschirms "Besprechungsdateien" ausgelöst.
+- **meetNowActionSheet**: Ausgelöst, wenn ein Benutzer eine „Jetzt besprechen“-Besprechung erstellt.
 - **navPersonalFiles** – Wird ausgelöst, wenn zum Dateibildschirm navigiert wird.
 
 ### <a name="scenario"></a>Szenario
@@ -1287,7 +1305,7 @@ Der folgende Artikel enthält eine Liste von Microsoft Teams-Ereignissen auf mob
 - **smart_reply_banned**: Bestätigt, dass Smart Reply für den aktuellen Benutzer nicht angezeigt werden kann.
 - **update_planner_task_and_nav_to_view**: Bestätigt das erfolgreiche Aktualisieren eines freigegebenen Aufgabenelements und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
 - **update_personal_task_and_nav_to_view**: Bestätigt das erfolgreiche Aktualisieren eines persönlichen Aufgabenelements und die Zeit, die ein Benutzer benötigte, um auf der Ergebnisansicht zu landen. 
-- **updatePlannerTask** – Bestätigt, dass ein Benutzer einen Vorgang in einer freigegebenen Aufgabenliste erfolgreich aktualisiert hat.
+- **updatePlannerTask**: Bestätigt, dass ein Benutzer ein Aufgabe in einer freigegebenen Aufgabenliste erfolgreich aktualisiert hat.
 - **upload_images** Bestätigt, dass die Aktion zum Hochladen eines Bilds erfolgreich war oder fehlgeschlagen ist.
 - **upload_images** Bestätigt, dass die Aktion zum Hochladen einer Sprachnachricht erfolgreich war oder fehlgeschlagen ist.
 - **voiceMessageUpload** Bestätigt, dass die Aktion zum Hochladen einer Sprachnachricht erfolgreich war oder fehlgeschlagen ist.

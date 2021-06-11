@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Dieser Artikel beschreibt die optionalen verbundenen Erfahrungen, die in Microsoft Teams angezeigt werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777886"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863236"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Übersicht über die optionalen verbundenen Erfahrungen in Microsoft Teams
 
@@ -28,7 +28,7 @@ Wenn Sie über ein Geschäfts-, Schul- oder Unikonto verfügen, hat Ihnen der Ad
 Wenn Ihr Administrator es Ihnen ermöglicht hat, optionale verbundene Erfahrungen in Teams zu verwenden, können Sie in Teams zu **Einstellungen** > **Datenschutz** wechseln und auswählen, ob Sie optionale verbundene Erfahrungen verwenden möchten.
 
 > [!NOTE]
-> Wenn Sie ein Administrator sind, können Sie Ihren Benutzern die Möglichkeit geben, optionale verbundene Erfahrungen zu verwenden, oder diese Möglichkeit einschränken. Dazu können Sie den [Office-Cloudrichtliniendienst](/deployoffice/overview-office-cloud-policy-service) nutzen und darin die Einstellung *Verwendung zusätzlicher optionaler, verbundener Erfahrungen in Office zulassen* konfigurieren. 
+> Wenn Sie ein Administrator sind, können Sie Ihren Benutzern die Möglichkeit geben, optionale verbundene Erfahrungen zu verwenden, oder diese Möglichkeit einschränken. Dazu können Sie den [Office-Cloudrichtliniendienst](/deployoffice/overview-office-cloud-policy-service) nutzen und darin die Einstellung *Verwendung zusätzlicher optionaler, verbundener Erfahrungen in Office zulassen* konfigurieren. Dies ist dieselbe Richtlinieneinstellung, die steuert, ob optionale verknüpfte Erfahrungen für Ihre Benutzer in den Office-Apps (wie Word, Excel und PowerPoint) verfügbar sind, die mit Microsoft 365 Apps for Enterprise geliefert werden.
 
 ## <a name="giphy"></a>GIPHY
 
