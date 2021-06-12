@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Microsoft Teams Cloud-Sprachfeatures und die Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b28a00e1737b533c17cf3f1f670bc23561620d
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 391b8e2f30aa5e64fcb4b9e418af49341c2b9042
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689793"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901932"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Teams-Sprachlösung 
 
@@ -135,7 +135,7 @@ Nur für Onlinebenutzer wird Cloud-Voicemail automatisch eingerichtet und für B
 Weitere Informationen zu den Cloud-Voicemail und deren Konfiguration finden Sie in den folgenden Artikeln:
 
 - [Einrichten von Cloudvoicemail](set-up-phone-system-voicemail.md)
-- [Festlegen von Voicemailrichtlinien in Ihrer Organisation](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
+- [Festlegen von Voicemailrichtlinien in Ihrer Organisation](manage-voicemail-policies.md)
 
 
 ### <a name="calling-identity"></a>Aufrufen der Identität

@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie die Microsoft-Anrufpläne konfigurieren Telef
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856454"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910047"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -85,7 +85,11 @@ Die folgenden Clients werden derzeit unterstützt.  Schauen Sie häufig wieder h
 - Teams-Räume Version 4.4.25.0 und höher
 
 > [!NOTE]
-> Dynamische Notrufe, einschließlich Benachrichtigungen über das Sicherheitsdesk, werden auf dem Webclient Teams nicht unterstützt. Um zu verhindern, dass Benutzer den Teams-Webclient zum Anrufen von PSTN-Nummern verwenden, können Sie eine Richtlinie für Teams-Anrufe festlegen und die Einstellung **Web-PSTN-Anruf** zulassen deaktivieren. Weitere Informationen finden Sie unter [Anrufrichtlinien in Teams](teams-calling-policy.md) [und Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Subnetz- und WLAN-AP werden unterstützt. Ethernet-Switch/-Port wird auf Windows 8.1 zu diesem Zeitpunkt unterstützt. 
+> Dynamische Notrufe, einschließlich Benachrichtigungen des Sicherheitsdesks, werden auf dem Webclient Teams nicht unterstützt. Um zu verhindern, dass Benutzer den Teams-Webclient zum Anrufen von PSTN-Nummern verwenden, können Sie eine Richtlinie für Teams-Anrufe festlegen und die Einstellung **Web-PSTN-Anruf** zulassen deaktivieren. Weitere Informationen finden Sie unter [Anrufrichtlinien in Teams](teams-calling-policy.md) [und Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
+
+> [!NOTE]
+> Subnetz- und WLAN-basierte Standorte werden auf allen Clients Teams unterstützt. <br>
+> Ethernet/Switch (LLDP) wird derzeit nur auf Windows und nur Windows Versionen 8.1 und höher unterstützt.
 
 ## <a name="assign-emergency-addresses"></a>Zuweisen von Notfalladressen
 

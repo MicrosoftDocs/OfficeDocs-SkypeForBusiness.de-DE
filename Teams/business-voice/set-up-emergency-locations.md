@@ -17,18 +17,22 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Notfallstandorte für Ihre Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282532"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52907761"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Schritt 1: Einrichten eines Business Voice-Notfallstandorts
 
 Ein Notfallstandort wird verwendet, wenn eine Person in Ihrer Organisation Notdienste wie Brand, Rettungskräfte oder Notrufe anruft. Wenn ein Benutzer einen Notfalldienst anruft, wird die Adresse, die als Notfalladresse ihrer Organisation konfiguriert ist, an den Dienst gesendet. Mit diesem Schritt wird der primäre Notfallstandort für Ihre Organisation eingerichtet. Dieser Standort wird in einem späteren Schritt mit der Haupttelefonnummer Ihres Unternehmens verknüpft.
 
 Wenn Sie Benutzer an mehreren Standorten haben, z. B. in Home Offices oder Büros in anderen Städten, können Sie zusätzliche Notfallstandorte konfigurieren. Sie können sogar bestimmte Orte innerhalb eines Orts konfigurieren. Orte können verschiedene Gebäude, Stockwerke, Büros oder andere Orte sein, an denen sich Benutzer möglicherweise an einem Ort befinden. Nach Abschluss der Ersteinrichtung von Business Voice können weitere Speicherorte und Orte hinzugefügt werden.
+
+Im folgenden Video wird gezeigt, wie Sie diese Schritte im admin center Teams ausführen.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
 
 ## <a name="add-an-emergency-location"></a>Hinzufügen eines Notfallstandorts
 

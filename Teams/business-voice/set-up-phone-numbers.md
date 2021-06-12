@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft 365 Business Voice Telefonnummern für Benutzer und Dienste in Ihrer Organisation einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dcf582593cf09977f4992d6b78035a9726c12b8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 89cb3764e30fa0bf4fcfa9d6a18d29ca69786cef
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282542"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910037"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>Schritt 2: Einrichten von Business Voice-Telefonnummern
 
@@ -36,6 +36,10 @@ Bevor Sie Benutzer oder automatische Telefon attendants in Ihrer Organisation ei
 
 > [!NOTE]
 > Es kann mehrere Stunden dauern, bis Ihre neuen Telefonnummern in Ihrem Teams.
+
+Im folgenden Video wird gezeigt, wie Sie diese Schritte im admin center Teams ausführen.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
 
 ## <a name="set-up-a-service-number"></a>Einrichten einer Servicenummer
 
