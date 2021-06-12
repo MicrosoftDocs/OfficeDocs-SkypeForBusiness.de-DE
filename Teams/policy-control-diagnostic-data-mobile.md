@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
-ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
+ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52873842"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901942"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -979,18 +979,11 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
   - Die Suche erfolgreich war, oder ob der Benutzer die Suche abgebrochen hat.
   - Eine Suchabfrage erfolgreich war.
 - **searchContacts**: Aus der Anrufliste suchen.
-- **searchIcon**: Ermitteln:
-  - Ob die Suche ausgelöst werden kann.
-  - Die Quelle eines Suchtriggers.
-  - Ob relevante Ergebnisse erfolgreich gefunden wurden.
 - **searchInitiated**: Ermmittelt, ob die Suche ausgelöst werden kann, sowie die Quelle des Suchtriggers.
 - **searchMeetingParticipants**: Suchen Sie nach Teilnehmern, die im Zeitplan-Formular hinzugefügt werden sollen. Zur Unterscheidung zwischen der Anzahl der erstellten Termine und der Anzahl der erstellten Besprechungen.
 - **searchResultsClicked**: Ermittelt:
   - Ob relevante Ergebnisse erfolgreich gefunden werden können.
   - Ob die Suchergebnisse von der Registerkarte „alle“ stammen im Vergleich zu einer einzelnen Domäne.
-- **searchTab**: Ermittelt:
-  - Domäneninformationen des Suchergebnisses – für Personen, Chats, Nachrichten und Dateien.
-  - Ob die Suchergebnisse auf der Registerkarte „alle“ liegen, im Vergleich zu einer einzelnen Domäne.
 - **searchTabClicked**: Ermittelt:
   - Domäneninformationen des Suchergebnisses – für Personen, Chats, Nachrichten und Dateien.
   - Ob die relevanten Ergebnisse erfolgreich gefunden wurden.
@@ -1322,7 +1315,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **server_fetch_date_picker_view_incremental** Bestätigt, dass die inkrementelle Synchronisierung des Kalenderereignisses mithilfe der Outlook-REST-API erfolgreich war oder fehlgeschlagen ist.
 - **meeting_details** Bestätigt, dass die Synchronisierung der Besprechungsdetails erfolgreich war oder fehlgeschlagen ist.
 - **show_meeting_participants** Bestätigt, dass das Anzeigen der Meeting-Teilnehmerliste erfolgreich war oder fehlgeschlagen ist.
-
+- **search** Bestätigt, dass der gesamte Suchvorgang erfolgreich war oder fehlgeschlagen ist.
 
 ## <a name="property-lists"></a>Eigenschaftenlisten
 
