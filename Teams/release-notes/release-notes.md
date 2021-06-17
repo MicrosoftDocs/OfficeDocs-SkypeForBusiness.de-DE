@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Microsoft Teams für Administratoren.
-ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705259"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947607"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Microsoft Teams für Administratoren
 
@@ -31,13 +31,13 @@ Diese Versionshinweise enthalten Informationen zu neuen Administratorfeatures f�
 
 ### <a name="career-coach"></a>Karrieretrainer
 
-Career Coach ist eine Microsoft Teams for Education-App, die von LinkedIn unterstützt wird und personalisierte Anleitungen für Studierende aus höheren Bildungseinrichtungen bietet, um auf ihren Karriereweg zu navigieren. Career Coach bietet Bildungseinrichtungen eine einheitliche Karrierelösung für Studenten, die ihren Karrierepfad entdecken, ihre echten Fähigkeiten erweitern und ihr Netzwerk an einem Ort aufbauen können. [Weitere Informationen](../career-coach.md).
+Karrierecoach ist eine von LinkedIn Microsoft Teams für Education App, die personalisierte Anleitungen für Schüler/Studenten aus höheren Bildungseinrichtungen bietet, um auf ihren Karriereweg zu navigieren. Karrierecoach bietet Bildungseinrichtungen eine einheitliche Karrierelösung für Studenten, um ihren Karrierepfad zu entdecken, ihre echten Fähigkeiten zu erweitern und ihr Netzwerk an einem Ort zusammen aufzubauen. [Weitere Informationen](../career-coach.md).
 
 ## <a name="march-31-2021"></a>31. März 2021
 
 ### <a name="share-to-teams-from-outlook"></a>Freigeben für Teams von Outlook
 
-Freigeben für Teams aus Outlook ermöglicht Ihnen das Senden einer Kopie von E-Mail-Nachrichten oder Unterhaltungen, einschließlich Anlagen, in Teams Chats und Kanälen. Suchen Sie **im Menüband Teams** Menüband oder im Aktionsmenü für eine Outlook E-Mail nach Teams Option Freigeben für E-Mail. Freigeben für Teams unterstützt Outlook im Web, Outlook für Windows und die neue Outlook für Mac Preview. [Weitere Informationen](../teams-outlook-share-teams.md).
+Freigeben für Teams aus Outlook ermöglicht Ihnen das Senden einer Kopie von E-Mail-Nachrichten oder Unterhaltungen, einschließlich Anlagen, in Teams Chats und Kanälen. Suchen Sie **im Menüband Teams** Menüband oder im Aktionsmenü für eine Outlook E-Mail nach Teams Option Freigeben für E-Mail. Die Freigabe für Teams unterstützt Outlook im Web, Outlook für Windows und die neue Outlook für Mac Preview. [Weitere Informationen](../teams-outlook-share-teams.md).
 
 ## <a name="march-30-2021"></a>30. März 2021
 
@@ -146,7 +146,7 @@ Eine Rate Center ist der Begriff der Branche für einen geografischen Bereich, d
 
 ## <a name="december-9-2020"></a>9. Dezember 2020
 
-### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Ratgeber für Teams mit Microsoft 365 Lernpfaden
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Ratgeber für Teams mit Microsoft 365 Learning Wegwegen
 
 Microsoft 365-Lernpfade ist eine On-Demand-Lernlösung, die Sie anpassen können, um Ihre Benutzer zu schulen und die Nutzung und Annahme von Microsoft Teams in Ihrer Organisation zu verbessern. Verwenden Sie Lernpfade zusammen mit Advisor für Teams, um Ihre Benutzer schnell mit Microsoft Teams vertraut zu machen und die Nutzung zu steigern.
 
@@ -170,7 +170,7 @@ Diese Funktionalität ist Bestandteil der Microsoft-Cloud für das Gesundheitswe
 
 ### <a name="teams-displays"></a>Teams anzeigen
 
-Microsoft Teams-Displays sind eine Kategorie von all-in-one-dedizierten Teams-Geräten mit Umgebungs touchscreen und Freisprechfunktion, die von Cortana unterstützt wird. [Weitere Informationen](../devices/teams-displays.md).
+Microsoft Teams-Displays sind eine Kategorie von all-in-One-Teams-Geräten, die über einen Umgebungs-Touchscreen und eine freisprechnde Besprechung verfügen, die von Cortana. [Weitere Informationen](../devices/teams-displays.md).
 
 ## <a name="october-22-2020"></a>22. Oktober 2020
 
@@ -258,7 +258,7 @@ Verwenden Teams Einstellungen für Liveereignisse, um Einstellungen für Liveere
 
 ### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Skype for Business Online Connector in Teams PowerShell-Modul integriert
 
-Die neueste Teams PowerShell Public Release ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für Teams PowerShell-Verwaltung zur Verfügung. [Weitere Informationen](../teams-powershell-overview.md#manage-teams-with-powershell).
+Die neueste Teams PowerShell Public Release ist in Skype for Business Online Connector integriert und stellt ein einzelnes Modul für Teams PowerShell-Verwaltung zur Verfügung.  [Weitere Informationen](../teams-powershell-overview.md).
 
 ## <a name="september-8-2020"></a>8. September 2020
 
@@ -298,11 +298,11 @@ Mit diesem Feature werden Personen automatisch Tags zugewiesen, die ihrem Zeitpl
 
 ## <a name="august-14-2020"></a>14. August 2020
 
-### <a name="cortana-voice-skills-in-teams"></a>Cortana-Sprachkenntnisse in Teams
+### <a name="cortana-voice-skills-in-teams"></a>Cortana von Sprachkenntnissen in Teams
 
-Cortana-Sprachkenntnisse in Teams mobilen App helfen Benutzern, Aufgaben in den Sprech-, Kommunikations- und Zusammenarbeitsaufgaben auszuführen, die einfach eine gesprochene natürliche Sprache verwenden. Benutzer können mit Cortana sprechen, indem sie in der Teams-App auf die Mikrofonschaltfläche klicken und Anfragen wie "Megan anrufen" oder "Nachricht an meine nächste Besprechung senden" senden, wenn sie mit einer Person in Verbindung gehen müssen, während sie mit Haushaltsarbeiten jonglieren oder mit dem Hund gehen oder ganz allgemein unterwegs sind. Benutzer können an Besprechungen teilnehmen, indem sie einfach "An meiner nächsten Besprechung teilnehmen" sagen oder ihren Kalender überprüfen, indem sie fragen "Was habe ich an diesem Morgen". Sobald sie sich in einer Besprechung oder einem Anruf treffen, können sie Cortana über das Überlaufmenü im Besprechungsstadium aufrufen und typische Aufgaben in Besprechungen wie das Hinzufügen von Personen nach Name oder Nummer ("Megan zum Anruf hinzufügen"), eine Präsentation an der Präsentationsfolie ("Präsentieren der Quartalsüberprüfungsfolie") oder das Navigieren auf Folien ("Zur Anhangfolie wechseln") ausführen. Andere Funktionen, die das Feature unterstützt, sind das Suchen und Freigeben von Dateien, das Suchen und Navigieren in der Teams-App ("Mein Chat mit John öffnen, Zu meiner ungelesenen Aktivität wechseln, Zu meinen Erwähnungen wechseln usw.).
+Cortana in der mobilen Teams unterstützen Benutzer bei der Durchführung von Besprechungs-, Kommunikations- und Zusammenarbeitsaufgaben, indem einfach gesprochene natürliche Sprache verwendet wird. Benutzer können mit Cortana sprechen, indem sie in der Teams-App auf die Mikrofonschaltfläche klicken und Anfragen wie "Megan anrufen" oder "Nachricht an meine nächste Besprechung senden" stellen, wenn sie mit einer Person in Verbindung gehen müssen, während sie mit Haushaltsarbeiten jonglieren oder mit dem Hund gehen oder ganz allgemein unterwegs sind. Benutzer können an Besprechungen teilnehmen, indem sie einfach "An meiner nächsten Besprechung teilnehmen" sagen oder ihren Kalender überprüfen, indem sie fragen "Was habe ich an diesem Morgen". Einmal in einer Besprechung oder einem Anruf können sie Cortana aus dem Überlaufmenü im Besprechungsstadium aufrufen und typische Besprechungsaufgaben wie das Hinzufügen von Personen anhand des Namens oder der Nummer ("Megan zum Anruf hinzufügen"), eine Präsentation der Präsentation an der Präsentation ("Präsentieren der Quartalsüberprüfungsfolie") oder das Navigieren auf Folien ("Zur Anhangfolie wechseln") ausführen. Andere Funktionen, die das Feature unterstützt, sind das Suchen und Freigeben von Dateien, das Suchen und Navigieren in der Teams-App ("Mein Chat mit John öffnen, Zu meiner ungelesenen Aktivität wechseln, Zu meinen Erwähnungen wechseln usw.).
 
-Cortana erfüllt in Teams unternehmensweite Zusagen hinsichtlich Datenschutz, Sicherheit und Compliance für Cortana Enterprise-Dienste, wie in den Nutzungsbedingungen für [Onlinedienste (OST) widergespiegelt.](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [Weitere Informationen](../cortana-in-teams.md).
+Cortana in Teams die gleichen Zusagen hinsichtlich Datenschutz, Sicherheit und Compliance für Cortana Enterprise-Dienste auf Unternehmensebene erfüllt, wie in den Nutzungsbedingungen für [Onlinedienste (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)widergespiegelt. [Weitere Informationen](../cortana-in-teams.md).
 
 ### <a name="teams-devices-administrator"></a>Teams Geräteadministrator
 
