@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
-ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
+ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070651"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997704"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Reflect in Microsoft Teams
 
@@ -45,7 +45,7 @@ Die Daten gehören der Bildungseinrichtung, und Microsoft erfasst und speichert 
 
 Die Daten werden in Education Insights gespeichert. Standardmäßig ist Education Insights aktiviert. Wenn Sie diese Option deaktivieren, **löschen wir alle für Reflect erfassten Daten**. Wenn Sie Education Insights reaktivieren, wird die Datenerfassung ab dem Zeitpunkt der Reaktivierung wiederaufgenommen.
 
-Im [Leitfaden für IT-Administratoren zu Education Insights](class-insights.md) erfahren Sie, wie Education Insights funktioniert (einschließlich Speicherorten) und wie Sie [Education Insights deaktivieren oder aktiveren](class-insights.md#turn-insights-off-or-on) können, wenn Sie die Daten löschen oder den Dienst aktivieren möchten.
+Im [Leitfaden für IT-Administratoren zu Education Insights](class-insights.md) erfahren Sie, wie Education Insights funktioniert (einschließlich Speicherorten) und wie Sie [Education Insights deaktivieren oder aktiveren](class-insights.md#turn-insights-on-or-off) können, wenn Sie die Daten löschen oder den Dienst aktivieren möchten.
 
 In Reflect werden Daten von Schülern/Studenten erfasst, jedoch keine Gastdaten. **Wenn ein Schüler/Student als Gast definiert ist, werden seine Daten nicht erfasst.** 
 

@@ -20,15 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-ms.translationtype: HT
+ms.openlocfilehash: 85e78480aec97ef9a498028d715fc898858d2606
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904957"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004137"
 ---
-<a name="manage-the-whiteboard-in-microsoft-teams"></a>Verwalten des Whiteboards in Microsoft Teams
-==========================================
+# <a name="manage-the-whiteboard-in-microsoft-teams"></a>Verwalten des Whiteboards in Microsoft Teams
 
 Microsoft Whiteboard ist ein digitaler Freihand-Zeichenbereich, in dem Personen, Inhalte und Ideen zusammenkommen. Die Whiteboard-Integration in Microsoft Teams-Besprechungen wird von der Whiteboard Web-App unterstützt. Sie ermöglicht es Teilnehmern an Teams-Besprechungen, in einem freigegebenen digitalen Zeichenbereich zusammen zu zeichnen, zu skizzieren und zu schreiben.
 

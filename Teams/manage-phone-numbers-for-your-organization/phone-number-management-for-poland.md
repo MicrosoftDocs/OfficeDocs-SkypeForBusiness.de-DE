@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Polen für Microsoft Teams.
-ms.openlocfilehash: d97bbfe1fe463b9df6056a11fc587e979c8076d4
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 5cd3bf4add3b2c58a50a84fc869d22633746bd5b
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130018"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993938"
 ---
 # <a name="phone-number-management-for-poland"></a>Telefon der Nummerverwaltung für Polen
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden.  |In Polen können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen [und an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Anforderung einer neuen Telefonnummer für Polen (v.1.0) (pl-pl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br/>Telefon Nummern werden in Blöcken von zehn bestellt. Kunden werden nur für die abonnierten Anrufplanlizenzen in Rechnung gestellt.<br/><br/>Für neue Bestellungen kann es vier bis sechs Wochen dauern, bis sie in diesem Markt marktfüllen. |
+|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden.  |In Polen können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen [und an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Anforderung einer neuen Telefonnummer für Polen (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br/>Telefon Nummern werden in Blöcken von zehn bestellt. Kunden werden nur für die abonnierten Anrufplanlizenzen in Rechnung gestellt.<br/><br/>Für neue Bestellungen kann es vier bis sechs Wochen dauern, bis sie in diesem Markt marktfüllen. |
 |Übertragen Sie uns Ihre Telefonnummern.| Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Polen (alle Nummern) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis sechs Wochen dauern. <br/><br/> Diese Nummern können derzeit nicht für Konferenzen verwendet werden.    |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |

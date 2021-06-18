@@ -17,22 +17,22 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in Teams For Education verwalten.
+description: Erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in Teams für Education.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121373"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004147"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
-Die Features "Aufgaben" und "Noten" in Teams for Education ermöglichen es Lehrkräften, ihren Schülern Aufgaben, Arbeiten oder Quizze zuzuordnen. Lehrkräfte können Zeitpläne für Aufgaben verwalten, Anweisungen, Ressourcen zum Turnen hinzufügen, mit Rubriken benoten und vieles mehr. Auf der Registerkarte "Noten" können sie auch den Fortschritt des Kurs- und des einzelnen Schülers/Studenten nachverfolgen.
+Die Features "Aufgaben" und "Noten" in Teams für Education Lehrkräften das Zuweisen von Aufgaben, Arbeiten oder Quizzen zu ihren Schülern/Studierenden ermöglichen. Lehrkräfte können Zeitpläne für Aufgaben verwalten, Anweisungen, Ressourcen zum Turnen hinzufügen, mit Rubriken benoten und vieles mehr. Auf der Registerkarte "Noten" können sie auch den Fortschritt des Kurs- und des einzelnen Schülers/Studenten nachverfolgen.
 
-[Weitere Informationen zu Aufgaben und Noten finden Sie in Teams for Education.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[Weitere Informationen zu Aufgaben und Noten finden Sie in Teams für Education.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
 > Details zu den Teams auf verschiedenen Plattformen finden Sie unter [Teams von Features nach Plattform.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
@@ -107,3 +107,10 @@ Der **TurnitinApiKey** wird Ihnen nach dem Folgen der Eingabeaufforderungen ange
 ![Screenshot mit Kopieren des API-Schlüssels](./educationImages/Assignments_mopo_turnitin3.png)
 
 Wenn Sie im **Admin Center** für diese Einstellung auf die Schaltfläche Speichern klicken, dauert es einige Stunden, bis diese Einstellungen wirksam werden.
+
+### <a name="removing-assignments-and-grades"></a>Entfernen von Aufgaben und Noten
+Mithilfe von Teams können Sie Zuweisungen und Noten für einen bestimmten Benutzer oder für Ihren gesamten Mandanten entfernen. 
+
+Um Aufgaben und Noten für einen einzelnen Benutzer zu entfernen, wechseln Sie zum **Teams Admin Center,** und navigieren Sie zu **Teams-Apps > Berechtigungsrichtlinien,** um eine neue Definition der App-Berechtigungsrichtlinie zu erstellen.  Legen Sie beim Erstellen der neuen Richtliniendefinition die **Richtlinie für Microsoft-Apps** auf Bestimmte Apps blockieren und alle anderen Apps zulassen sowie Zuweisungen **zur** Liste der blockierten Anwendungen hinzu.  Nachdem Sie die neue Richtliniendefinition gespeichert haben, weisen Sie sie den entsprechenden Benutzern zu.
+
+Wenn Sie Aufgaben und Noten für den gesamten Mandanten entfernen möchten, wechseln Sie zum **Teams Admin Center**,  navigieren Sie zu **Teams-Apps >** Apps verwalten , und suchen Sie in der Anwendungsliste nach Aufgaben, und wählen Sie sie aus. Ändern Sie die Statuseinstellung auf der Seite Einstellungen der Zuweisungsanwendung in _Blockiert_. 
