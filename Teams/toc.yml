@@ -791,6 +791,8 @@ items:
                 href: rooms/lrs-migration.md
               - name: Inhalts-Kameras
                 href: rooms/content-camera.md
+              - name: Spracherkennungssteuerelemente für intelligente Lautsprecher
+                href: rooms/voice-recognition.md
           - name: Verwalten
             items:
               - name: Verwaltung (Übersicht)
