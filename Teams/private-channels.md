@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 8dd0120f0a92591b3417d01c7a86c396161215a1
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 53eeff9791ac07939756f56a7ebce635ac7cd819
+ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004157"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "53023236"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -95,7 +95,7 @@ Jeder private Kanal hat seine eigene SharePoint-Website. Die separate Website so
 >SharePoint-Websites mit privaten Kanälen sind nicht auf der Seite „Aktive Websites“im neuen SharePoint Online Admin Center enthalten.
 >SharePoint-Websites mit privaten Kanälen, die nach dem 28. Juni 2021 erstellt wurden, weisen die benutzerdefinierte Vorlagen-ID TEAMCHANNEL#1 auf.
 
-Eine Website eines privaten Kanals synchronisiert die Datenklassifizierung und erbt Gastzugriffsberechtigungen von der Website des übergeordneten Teams. Die Mitgliedschaft bei den Gruppen "Besitzer" oder "Mitglied" der Website wird mit der Mitgliedschaft des privaten Kanals innerhalb von Teams synchronisiert. Alle Änderungen an der Mitgliedschaft in den Gruppen "Besitzer" oder "Mitglied" in SharePoint werden innerhalb von vier Stunden automatisch auf die Mitgliedschaft im privaten Kanal zurückgesetzt. In Szenarien, in denen bestimmte Benutzer auf Dokumente aber nicht auf private Kanalnachrichten zugreifen müssen, fügen Sie die Benutzer zur Gruppe "Besucher" der Website oder einer neuen Gruppe hinzu, die von Besitzern und Mitgliedern getrennt ist.
+Eine Website eines privaten Kanals synchronisiert die Datenklassifizierung und erbt Gastzugriffsberechtigungen von der Website des übergeordneten Teams. Die Mitgliedschaft bei den Gruppen "Besitzer" oder "Mitglied" der Website wird mit der Mitgliedschaft des privaten Kanals innerhalb von Teams synchronisiert. Alle Änderungen an der Mitgliedschaft in den Gruppen "Besitzer" oder "Mitglied" in SharePoint werden innerhalb von vier Stunden automatisch auf die Mitgliedschaft im privaten Kanal zurückgesetzt. In Szenarien, in denen bestimmte Benutzer auf Dokumente aber nicht auf Nachrichten in privaten Kanälen zugreifen müssen, fügen Sie die Benutzer zur Gruppe „Besucher“ für das Dokument und die Bibliothek oder zu einer neuen Gruppe hinzu, die von Besitzern und Mitgliedern getrennt ist.
 
 Teams verwaltet den Lebenszyklus der Website des privaten Kanals. Wenn die Website außerhalb von Teams gelöscht wird, kann die Website in einem Hintergrundauftrag innerhalb von vier Stunden wiederhergestellt werden, sofern der private Kanal noch aktiv ist. Wenn die Website dauerhaft gelöscht wird, erfolgt die Bereitstellung einer neuen Website für den privaten Kanal.
 

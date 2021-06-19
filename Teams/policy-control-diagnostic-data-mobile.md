@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901942"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993868"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Erforderliche mobile Diagnosedaten für Microsoft Teams
 
@@ -595,6 +595,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **hide**: Chat ausblenden.
 - **hideChannel**: Einen Kanal aus der Teams- und Kanalliste ausblenden.
 - **image**: Bild.
+- **inAppNotification**: Wird ausgelöst, wenn eine Benachrichtigung angetippt wird, während der Benutzer in der App aktiv ist.
 - **immediateCallForward**: Ziel für die sofortige Anrufweiterleitung ist festgelegt, oder es wird die sofortige Anrufweiterleitung aktiviert („Anrufe bei mir klingeln lassen“ ist deaktiviert).
 - **importanceToggleClicked**: Wird ausgelöst, wenn das Feld **!** in den Aufgabenelement-Details umgeschaltet wird.
 - **importantMessage_select**: Ein Benutzer wählt eine wichtige Nachricht aus dem Prioritäten-Kontextmenü aus.
@@ -791,6 +792,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **notBlockedDevice**: Ein Benutzer erreicht nicht den Schwellenwert für Fehler bei Hintergrundaktivitäten innerhalb von 30 Tagen.
 - **notNow** - **Nicht jetzt** wird bei der Erinnerung ausgewählt.
 - **notNowUpdate**: UpdateDefer.
+- **notification/notification_clicked**: Wird ausgelöst, wenn eine Benachrichtigung angetippt wird.
 - **notificationNavChannelConversation**: Starten Sie die App mit einer Benachrichtigung für eine Kanalunterhaltung.
 - **notificationNavChannelThreadConversation**: Starten Sie die App mit einer Benachrichtigung für eine spezifische Nachricht in einer Kanalunterhaltung.
 - **notificationSettingTurnedOff**: Pushbenachrichtigungen für die Teams-Android-App deaktivieren.
@@ -1044,7 +1046,9 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **showCard**: Tippen Sie auf Kartenschaltflächen. Karten sind wichtige Konstrukte der Plattform, und die Messung ihrer Nutzung und ihrer Muster ist notwendig, um die Nutzung der Plattform zu verstehen und nach möglichen Problemen auf der Client-Seite Ausschau zu halten.
 - **shownReadReceiptNotice**: Der Featurehinweis mit Einstellungsoptionen, der dem Benutzer angezeigt wird.
 - **signIn** - **Anmelden** wird auf der Homepage ausgewählt, oder die Schaltfläche **Anmelden** wird angetippt.
+- **SignInWithOTP**: Der Benutzer wählt die Option zum Anmelden als Gast mit einmaliger Kennung (One Time Passcode, OTP) aus. 
 - **signUp** - **Kostenloses Konto erstellen** oder **Kostenlos registrieren** ist ausgewählt.
+- **SignUpFromSignIn**: Der Benutzer tippt auf die Option **Neues Konto erstellen** auf der Anmeldungsseite.
 - **simultaneousCallForward**: Wird ausgelöst in den folgenden Fällen:
   - Das Ziel für die gleichzeitige Rufumleitung ist festgelegt.
   - Die gleichzeitige Rufumleitung ist aktiviert („Anrufe bei mir klingeln lassen“ ist aktiviert und „Auch anrufen“ ist festgelegt).
@@ -1052,6 +1056,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **smartReply**: Die Umschaltfläche für intelligente Antworten wird angeklickt.
 - **SMSSendMessage**: Der Benutzer sendet eine SMS-Nachricht.
 - **sortChanged**: Wird ausgelöst, wenn der Benutzer die Sortierreihenfolge beim Anzeigen einer Aufgabenliste ändert.
+- **SSOAccountListItem**: Wird ausgelöst, wenn der Benutzer auf ein SSO-Konto (einmaliges Anmelden, Single Sign-On) tippt, um sich anzumelden.
 - **startEditing** - Schaltfläche **Bearbeiten** ausgewählt.
 - **startPresentPhoto**: Foto-Präsentation beginnen.
 - **startPresentVideo**: Video-Präsentation beginnen.
@@ -1079,6 +1084,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **stuckOnConnectingRetrySelected** - **Erneut versuchen** wird in der Schublade ausgewählt.
 - **stuckOnConnectingShownDismissed**: Ein Benutzer hat die Schublade geschlossen.
 - **suggested_place_selected**: Ein Benutzer teilt einen statischen Standort, indem er einen vorgeschlagenen Ort auswählt.
+- **Wechseln**: Der Mandant oder das Konto wird über die App gewechselt. Dies ist erforderlich, um Probleme bei Konto-/Mandantenwechseln proaktiv zu erfassen, und ermöglicht einen reibungslosen Wechsel zwischen Konto-/Mandantenumgebungen.
 - **switchTeamAction**: Ein Benutzer wechselt Teams innerhalb der Stechuhr. Dies sollte ausgelöst werden, nachdem der Benutzer auswählt, zu welchem Team er wechseln möchte.
 - **switchTeamsDialogTriggered**: Ein Benutzer zeigt die Registerkarte **Schichten** an.
 - **tabActionCopyLink**: Wie Benutzer die Registerkarte „Link kopieren“ auf mobilen Geräten entdecken und verwenden.
@@ -1211,6 +1217,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 > [!NOTE]
 > Informationen zu den Eigenschaften von Panelview-Ereignissen finden Sie unter [Eigenschaften, die mit Panelview-Ereignissen gesendet werden](#properties-sent-with-panelview-events).
 
+- **appInstall**: Wird ausgelöst, wenn ein Benutzer die App nach der Installation zum ersten Mal öffnet.
 - **fileDeleteFailed** – Wird ausgelöst, wenn ein Dateilöschvorgang fehlschlägt.
 - **fileDeleteSuccess** – Wird nach einem erfolgreichen Dateilöschvorgang ausgelöst.
 - **FilePreview** – In folgenden Szenarien ausgelöst:
@@ -1237,20 +1244,30 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **meetingFiles** – Wird beim Öffnen des Bildschirms "Besprechungsdateien" ausgelöst.
 - **meetNowActionSheet**: Ausgelöst, wenn ein Benutzer eine „Jetzt besprechen“-Besprechung erstellt.
 - **navPersonalFiles** – Wird ausgelöst, wenn zum Dateibildschirm navigiert wird.
+- **signInSSOPage**: Wird ausgelöst, wenn der Benutzer während der Anmeldung eine Seite für einmaliges Anmelden anzeigt.
+-- **signInError**: Wird ausgelöst, wenn der Benutzer während der Anmeldung auf einen Fehler stößt. Dies ist erforderlich, um Probleme, mit denen Benutzer während der Anmeldung konfrontiert sind, proaktiv zu identifizieren und zu beheben. 
+-- **TfLSignInSuccessful**: Wird ausgelöst, wenn sich der Benutzer erfolgreich bei einem persönlichen Microsoft-Konto anmeldet. Dies ist erforderlich, um die Zuverlässigkeit der Anmeldung und Registrierung zu ermitteln und Probleme proaktiv zu identifizieren und zu beheben.
+-- **TfWFreemiumSignInSuccessful**: Wird ausgelöst, wenn sich der Benutzer erfolgreich bei einem Freemium-Konto anmeldet. Dies ist erforderlich, um die Zuverlässigkeit der Anmeldung und Registrierung zu ermitteln und Probleme proaktiv zu identifizieren und zu beheben.
+-- **TfWSignInSuccessful**: Wird ausgelöst, wenn sich der Benutzer erfolgreich bei einem Geschäfts-, Schul- oder Unikonto anmeldet. Dies ist erforderlich, um die Zuverlässigkeit der Anmeldung und Registrierung zu ermitteln und Probleme proaktiv zu identifizieren und zu beheben.
 
 ### <a name="scenario"></a>Szenario
 
 > [!NOTE]
 > Informationen zu den Eigenschaften von PanelAction-Ereignissen finden Sie unter [Eigenschaften, die mit Szenario-Ereignissen gesendet werden](#properties-sent-with-scenario-events).
-
-- **app_incremental_sync_launch** Bestätigt, dass die Pillenanzahl erfolgreich für den Kaltstart aktualisiert wurde.
-- **app_incremental_sync_launch** Bestätigt, dass die Pillenanzahl erfolgreich für den Warm/Hot-Start aktualisiert wurde.
-- **app_start_cold** Zum Überwachen des App-Kaltstarts (nur Android)
-- **app_start_hot** Zum Überwachen des App-Hot-Starts (nur Android)
-- **app_start_warm** Zum Überwachen des App-Warm-Starts (nur Android)
-- **chat_add_giphy** – Bestätigt, dass die Giphy GIF-Darstellungsaktion erfolgreich war oder fehlgeschlagen ist.
+> 
+- **acquire_resource_token_interactive**: Erforderlicher Dienstaufruf, der ausgelöst wird, wenn ein Authentifizierungstoken durch interaktive Anmeldung abgerufen wird. 
+- **acquire_resource_token_silent**: Erforderlicher Dienstaufruf, der ausgelöst wird, wenn ein Authentifizierungstoken durch automatische Anmeldung abgerufen wird.
+- **app_crash2**: Wird ausgelöst, wenn die App unerwartet abgestürzt ist. Enthält Informationen dazu, wie häufig die Microsoft Teams-App abstürzt. 
+- **app_incremental_sync_launch**: Bestätigt, dass die Pillenanzahl erfolgreich für den Kaltstart aktualisiert wurde.
+- **app_incremental_sync_launch**: Bestätigt, dass die Pillenanzahl erfolgreich für den Warm/Hot-Start aktualisiert wurde.
+- **app_start_cold**: Zum Überwachen des App-Kaltstarts (nur Android).
+- **app_start_hot**: Zum Überwachen des App-Hot-Starts (nur Android)
+- **app_start_warm**: Zum Überwachen des App-Warm-Starts (nur Android)
+- **auth_adal_tokens**: Erforderlicher Dienstaufruf für die automatische Authentifizierung. Wird ausgelöst, wenn ein Benutzer die App startet oder das Token beim Ablauf aktualisiert wird.
+- **chat_add_giphy**: Bestätigt, dass die Giphy GIF-Darstellungsaktion erfolgreich war oder fehlgeschlagen ist.
+- **chat_send_message_sfc**: Wird ausgelöst, wenn eine Chatnachricht im SfC-Interop-Chat gesendet wird.
 - **cortanaError**: Zur Überwachung von Cortana-Fehlerereignissen.
-- **cortanaView**: Zum Überwachen erscheint Cortana Canvas.
+- **cortanaView**: Zum Überwachen der Anzeige von Cortana Canvas.
 - **cortanaRestart**: Zur Überwachung des Neustarts von Cortana.
 - **cortanaSetNewConversation**: Zum Überwachen führt Cortana eine neue Unterhaltung.
 - **cortanaSpeechRecognization**: Zur Überwachung der Cortana-Spracherkennungslatenz.
@@ -1268,6 +1285,7 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **cortana_skill_action_delay**: Bestätigt den Start der Verzögerungsaktion.
 - **cortana_watchdog**: Zur Überwachung des Cortana-Watchdog-Wiederherstellungsprozesses.
 - **create_default_plan_and_nav_to_view**: Bestätigt die erfolgreiche Erstellung einer standardmäßigen, freigegebenen Aufgabenliste und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
+- **create_new_chat_thread_sfc**: Wird ausgelöst, wenn ein neuer Chatthread für einen SfC-Interop-Chat erstellt wird.
 - **create_personal_plan_and_nav_to_view**: Bestätigt die erfolgreiche Erstellung einer persönlichen Aufgabenliste und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
 - **create_personal_task**: Bestätigt die erfolgreiche Erstellung eines persönlichen Aufgabenelements.
 - **create_planner_plan_and_nav_to_view**: Bestätigt die erfolgreiche Erstellung einer freigegebenen Aufgabenliste und die Zeit, die ein Benutzer benötigte, um nach der Aktion auf der Ergebnisansicht zu landen.
@@ -1277,7 +1295,12 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **delete_personal_plan**: Bestätigt das erfolgreiche Löschen eines persönlichen Aufgabenelements.
 - **delete_planner_plan**: Bestätigt das erfolgreiche Löschen einer freigegebenen Aufgabenliste.
 - **delete_planner_task**: Bestätigt das erfolgreiche Löschen eines freigegebenen Aufgabenelements.
+- **json_parse_failure**: Enthält Informationen zu häufig auftretenden Problemen bei der JSON-Analyse.
+- **getProfilePicture**: Erforderlicher Dienstaufruf zum Abrufen des Benutzerprofilbilds. 
+- **get_resource_token_async**: Erforderlicher Dienstaufruf zum asynchronen Abrufen von Token für Azure Active Directory-Ressourcen.
+- **get_resource_token_sync**: Erforderlicher Dienstaufruf zum synchronen Abrufen von Token für Azure Active Directory-Ressourcen.
 - **get_sender_sub_scenario**: Sender-Subszenario in Aktivität abrufen.
+- **interactiveAuthNopa2**: Wird ausgelöst, wenn kein Kennwortbenutzer für die interaktive Authentifizierung unterbrochen wird.
 - **load_chat_plans_list**: Bestätigt das erfolgreiche Abrufen von Planner-Plänen für die Planansicht eines Chats.
 - **load_home_page**: Bestätigt das erfolgreiche Abrufen von persönlichen und freigegebenen Aufgabenlisten für die Startseite.
 - **load_personal_task_list**: Bestätigt das erfolgreiche Abrufen der Aufgaben einer persönlichen Aufgabenliste für die Aufgabenliste.
@@ -1292,7 +1315,8 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **rename_personal_plan**: Bestätigt die erfolgreiche Umbenennung einer persönlichen Aufgabenliste.
 - **rename_planner_plan**: Bestätigt die erfolgreiche Umbennenung einer freigegebenen Aufgabenliste.
 - **save_image** Bestätigt, dass die Bildschonaktion erfolgreich war oder fehlgeschlagen ist.
-- **share_image** Bestätigt, dass die Aktion zum Freigeben eines Bilds erfolgreich war oder fehlgeschlagen ist.
+- **saveMeProfile**: Erforderlicher Dienstaufruf, der ausgelöst wird, wenn der Benutzer das Profil speichert.
+- **share_image**: Bestätigt, dass die Aktion zum Freigeben eines Bilds erfolgreich war oder fehlgeschlagen ist.
 - **smart_reply_enabled**: Bestätigt, dass Smart Reply für den aktuellen Benutzer aktiviert ist.
 - **smart_reply_received**: Bestätigt, dass ein Smart Reply-Vorschlag empfangen wurde.
 - **smart_reply_banned**: Bestätigt, dass Smart Reply für den aktuellen Benutzer nicht angezeigt werden kann.
@@ -1313,9 +1337,10 @@ Weitere Informationen zu Diagnosedaten, einschließlich der Steuerung, welche Di
 - **server_fetch_date_picker_view** Bestätigt, dass die Kalenderereignissynchronisierung mithilfe der Outlook-REST-API erfolgreich war oder fehlgeschlagen ist.
 - **server_fetch_agenda_view_group** Bestätigt, dass die Kalenderereignissynchronisierung mithilfe der Middle Tier-API für die TFL-Gruppe erfolgreich war oder fehlgeschlagen ist.
 - **server_fetch_date_picker_view_incremental** Bestätigt, dass die inkrementelle Synchronisierung des Kalenderereignisses mithilfe der Outlook-REST-API erfolgreich war oder fehlgeschlagen ist.
-- **meeting_details** Bestätigt, dass die Synchronisierung der Besprechungsdetails erfolgreich war oder fehlgeschlagen ist.
-- **show_meeting_participants** Bestätigt, dass das Anzeigen der Meeting-Teilnehmerliste erfolgreich war oder fehlgeschlagen ist.
-- **search** Bestätigt, dass der gesamte Suchvorgang erfolgreich war oder fehlgeschlagen ist.
+- **meeting_details**: Bestätigt, dass die Synchronisierung der Besprechungsdetails erfolgreich war oder fehlgeschlagen ist.
+- **show_meeting_participants**: Bestätigt, dass das Anzeigen der Meeting-Teilnehmerliste erfolgreich war oder fehlgeschlagen ist.
+- **search**: Bestätigt, dass der gesamte Suchvorgang erfolgreich war oder fehlgeschlagen ist.
+- **time_based_retention_shared_channel**: Erfasst Leistungsdaten zum Pruning der Datenbank.
 
 ## <a name="property-lists"></a>Eigenschaftenlisten
 
