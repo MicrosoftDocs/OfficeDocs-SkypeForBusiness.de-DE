@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9be2f3e173a450f99b4ca6451684dd22e7ab267e
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+ms.openlocfilehash: 62b0fec32218d2e3a04c92d5a58c82b6a8d7572c
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064851"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997724"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -44,7 +44,7 @@ Dozenten greifen auf Klassenebene auf Insights zu. Sie sehen die Aktivitäten vo
 
 Es gibt keine Voraussetzungen für die Nutzung von Insights und Dozenten müssen die Insights nur auf der linken App-Leiste oder als Registerkarte zu jeder ihrer Klassen in Teams hinzufügen.
 
-Dozenten werden durch Lehrpersonallizenzen identifiziert. Dozenten müssen über eine Lehrpersonallizenz verfügen und Besitzer eines Klassenteams sein, um die Daten in Insights zu sehen.
+Lehrkräfte werden durch Lehrpersonallizenzen identifiziert. Lehrkräfte müssen über eine Lehrpersonallizenz verfügen und ein Klassenteambesitzer sein, um die Daten in Insights anzeigen zu können.
 
 ### <a name="education-leaders"></a>Schulleiter
 Schulleiter sind all jene Rollen in der Einrichtung, die eine organisatorische Sicht benötigen, um das Engagement, den Fortschritt, das Wohlbefinden usw. ihrer Schüler/Studenten zu verstehen. Dozenten können auch Schulleiter sein, wenn sie ein Klassenteam besitzen und mehr als den Einblick in ihre Klassen benötigen, wie z. B. der Leiter einer Fachabteilung. 
@@ -80,7 +80,7 @@ Dozenten können diese zwei Methoden verwenden:
 
 Insights zeigt Aktivitätsdaten aus allen Kanälen innerhalb eines Klassenteams an, kann aber nur als Registerkarte zu öffentlichen Kanälen hinzugefügt werden. Die Registerkarte spiegelt die Aktivitäten aller Mitglieder des Klassenteams wider, die nicht Besitzer des Teams sind (einschließlich Dozenten, die nicht Besitzer des Klassenteams sind).
 
-In beiden Ansichten kann ein Dozent auf Klassendaten zugreifen. Bei Verwendung der persönlichen App muss der Dozent bis auf die Klassenebene heruntergehen, während die Registerkarte direkten Zugriff auf die Klassendaten bietet.
+In beiden Ansichten kann ein Dozent auf Kursdaten zugreifen. Bei Verwendung der persönlichen App muss der Dozent einen Drilldown auf die Kursebene ausführen, während die Registerkarte direkten Zugriff auf Kursdaten bietet.
 
 Auf Klassenebene, wenn ein Dozent ein Klassenteam besitzt, ist Insights ohne weitere Aktion seitens des IT-Administrators verfügbar.
 
@@ -115,7 +115,7 @@ Insights unterstützt Lerngemeinschaften während **des Lernzyklus**. Mit Echtze
 :::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights unterstützt Lerngemeinschaften während des Lernzyklus":::
 
 ## <a name="how-insights-works"></a>Wie funktioniert Insights?
-Insights erstellt leistungsstarke Analysen, die Dozenten helfen, bessere Lernergebnisse zu erzielen. Hierzu analysiert es die Aktivitäten von Schülern/Studenten in Teams und nutzt optional die SIS-Daten (Schülerinformationssystem), die Sie bereitstellen, um diese Aktivität kontextbezogen zu gruppieren. 
+Insights erstellt leistungsstarke Analysen, die Lehrkräften helfen, bessere Lernergebnisse zu erzielen. Dies geschieht, indem die Aktivitäten von Kursteilnehmern in Teams analysiert und optional die SIS-Daten (Student Information System) genutzt werden, die Sie bereitstellen, um diese Aktivität zu kontextualisieren und zu gruppieren. 
 
 Bevor Sie mit dem Einsatz von Insights für Ihre Bildungseinrichtung beginnen, werfen Sie bitte einen kurzen Blick auf die Funktionsweise von Insights, unser Engagement für Datenethik und die erforderliche Lizenzierung.
 
@@ -182,7 +182,7 @@ Das Anzeigen von Insights auf Klassenebene als Dozent der Klasse erfordert dies 
 Weitere Informationen finden Sie unter [**SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren**](education-insights-sis-data-sync.md).
 
 ## <a name="manage-permissions"></a>Berechtigungen verwalten
-Sie müssen Berechtigungen erteilen an leitende akademische Beauftragte, Abteilungsleiter, Bezirksleiter, Schuldirektoren, Schulleiter, Beratungslehrer, Fachleiter, Programmleiter, Sozialarbeiter sowie Psychologen. Dozenten werden *automatisch* Berechtigungen erteilt, wenn sie ein Klassenteam besitzen.
+Als IT-Administrator können Sie Berechtigungen an leitende akademische Beauftragte, Abteilungsleiter, Bezirksleiter, Schuldirektoren, Schulleiter, Beratungslehrer, Fachleiter, Programmleiter, Sozialarbeiter sowie Psychologen erteilen. Dozenten werden *automatisch* Berechtigungen erteilt, wenn sie ein Klassenteam besitzen.
 
 Weitere Informationen finden Sie unter [**Verwalten des Benutzerzugriffs auf Education Insights**](education-insights-manage-access.md).
 
@@ -191,7 +191,7 @@ Als IT-Administrator können Sie die App-Setup-Richtlinie verwenden, um Insights
 
 Wenn Dozenten direkten Zugriff auf jede Klasse wünschen, können sie die Insights-Registerkarte im oberen Navigationsmenü manuell installieren. Auf dieser Registerkarte können Dozenten direkt auf die relevanten Daten zugreifen, wenn sie sich in Teams in dieser Klasse befunden, um die Daten im Klassenkontext zu sehen. 
 
-In beiden Ansichten kann ein Dozent auf Klassendaten zugreifen. Bei Verwendung der persönlichen App muss der Dozent bis auf die Klassenebene heruntergehen, während die Registerkarte direkten Zugriff auf die Klassendaten bietet.
+In beiden Ansichten kann ein Dozent auf Kursdaten zugreifen. Bei Verwendung der persönlichen App muss der Dozent einen Drilldown auf die Kursebene ausführen, während die Registerkarte direkten Zugriff auf Kursdaten bietet.
 
 > [!TIP]
 > Weitere Informationen finden Sie unter [Teams-Richtlinien und -Richtlinienpakete für Bildungseinrichtungen](./policy-packages-edu.md).
@@ -210,18 +210,18 @@ Sie können das folgende Material an Ihre **Dozenten** verteilen:
 Material für **Schulleiter**:
 *   [Supportseite "Insights für Bildungseinrichtungen"](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347).
 
-## <a name="turn-insights-off-or-on"></a>Insights deaktivieren oder aktivieren
+## <a name="turn-insights-on-or-off"></a>Insights aktivieren oder deaktivieren
 Insights ist standardmäßig aktiviert. Wenn Sie Insights deaktivieren, *löschen wir alle gesammelten Daten* für Insights. Wenn Sie Insights reaktivieren, beginnen wir mit der Datensammlung ab dem Zeitpunkt der Reaktivierung.
 
-### <a name="turn-off-insights-using-school-data-sync-sds"></a>Deaktivieren von Insights mit School Data Sync (SDS)
 School Data Sync (SDS) unterstützt bei der Automatisierung des Imports und der Synchronisierung von Schülerinformationssystem-(SIS-)Daten mit Teams.
 
-Die Verwendung von Insights erfordert *nicht* die Verwendung von SDS. Sie können jedoch jederzeit die Insights-Optionen deaktivieren. Öffnen Sie das [SDS Admin Center](https://sds.microsoft.com) und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Deaktivieren Sie **Daten für Insights sammeln**, um Insights zu deaktivieren. 
+Die Verwendung von Insights erfordert *nicht* die Verwendung von SDS. Sie können jedoch jederzeit die Insights-Optionen deaktivieren. 
 
-:::image type="content" source="media/insights-sds-settings.png" alt-text="Die Umschaltfläche zum Aktivieren oder Deaktivieren von Insights.":::
+* Um Insights vollständig zu deaktivieren bzw. zu aktivieren, öffnen Sie das [SDS Admin Center](https://sds.microsoft.com/), und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Deaktivieren/aktivieren Sie "**Aktivitätsdaten für Insights sammeln**", um Insights zu deaktivieren/zu aktivieren.
 
-### <a name="turn-on-insights"></a>Insights aktivieren
-Wenn Sie Insights deaktiviert haben, können Sie es schnell wieder aktivieren. Öffnen Sie das [SDS Admin Center](https://sds.microsoft.com) und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Aktivieren Sie **Daten für Insights sammeln**, um Insights zu aktivieren.
+* Um die Verwendung von Insights von School Datensynchronisierung zu deaktivieren, folgen Sie den Anweisungen in [Deaktivieren von SDS für Insights](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights).
+
+* Folgen Sie den Anweisungen in [Bereitstellen von SDS für Insights](/schooldatasync/how-to-deploy-sds-for-insights), um sie wieder zu aktivieren.
 
 ### <a name="how-to-delete-your-data"></a>So löschen Sie Ihre Daten
 Insights speichert die Aktionen von Schülern/Studenten und Lehrkräften, die im Zusammenhang mit einem Klassenteam durchgeführt wurden. Diese Daten werden als gemischter Datensatz betrachtet und daher nicht automatisch aus dem Dienst gelöscht, sobald die Benutzerkonten von Schülern/Studenten oder Lehrkräften aus Ihrer Organisation gelöscht werden.
@@ -236,11 +236,11 @@ Wenn es sich um einen *neuen* Mandanten handelt und noch *nie* Daten in Insights
 
 Wenn Sie keinen Kundenbetreuer haben, öffnen Sie bitte ein Ticket. Wechseln Sie zu [Office 365 Admin Center](https://admin.microsoft.com/AdminPortal/) > **Support** > **Neue Serviceanfrage**.  Schreiben Sie in den Titel des Tickets: "Unterstützung bei der Education-Verifizierung benötigt".
  
-Stellen Sie außerdem sicher, dass die Datenerfassung für Insights aktiviert ist. Die Funktion ist zwar standardmäßig aktiviert, es kann jedoch sein, dass der IT-Administrator sie deaktiviert und damit alle von Insights gespeicherten Daten gelöscht hat.
+Stellen Sie außerdem sicher, dass die Datensammlung für Insights aktiviert ist. Obwohl sie standardmäßig aktiviert ist, hat der IT-Administrator sie möglicherweise deaktiviert und daher alle von Insights gespeicherten Daten gelöscht.
 
-Um dies zu überprüfen, öffnen Sie das [SDS Admin Center](https://sds.microsoft.com), und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Prüfen Sie den Status von "Daten für Insights sammeln".
+Um dies zu überprüfen, öffnen Sie das [SDS Admin Center](https://sds.microsoft.com), und wechseln Sie zu **Einstellungen** > **Education Insights verwalten**. Überprüfen Sie den Status von "Aktivitätsdaten für Insights sammeln".
 
-Wenn die Option deaktiviert ist, aktivieren Sie sie wieder.  Insights beginnt, Daten zu sammeln, aber es kann bis zu 24 Stunden dauern, bis diese in den Berichten angezeigt werden. 
+Wenn es ausgeschaltet ist, schalten Sie es wieder ein.  Insights beginnt mit dem Sammeln von Daten, aber es kann bis zu 24 Stunden dauern, bis sie in den Berichten angezeigt werden. 
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>Warum sehe ich Daten für einige Schüler/Studenten oder Klassen/Kurse, aber nicht für alle?
@@ -254,7 +254,7 @@ Es dauert bis zu 24 Stunden, bis Besprechungsdaten in Insights-Berichten angezei
 Überprüfen Sie auch, dass Schüler/Studenten *nicht* [ohne ein Teams-Konto an der Besprechung teilnehmen](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508). In einem solchen Szenario wird die Aktivität der Schüler/Studenten nicht erfasst.
 
 > [!TIP]
-> Für Lehrkräfte, die die Anwesenheit der Schüler/Studenten verfolgen möchten, empfiehlt es sich, während der Besprechung eine Nachricht zu senden und die Schüler zu bitten, zu antworten. Dadurch wird ihre Anwesenheit innerhalb weniger Minuten registriert.
+> Für Lehrkräfte, die die Anwesenheit der Schüler/Studenten verfolgen möchten, empfiehlt es sich, während der Besprechung eine Nachricht zu senden und die Schüler zu bitten, zu antworten. Dadurch wird ihre Teilnahme innerhalb weniger Minuten registriert.
 
 > [!NOTE]
 > Wenn Ihre Frage noch unbeantwortet ist, [öffnen Sie bitte ein Supportticket](https://aka.ms/edusupport). Fügen Sie die relevanten Screenshots hinzu, die das Problem darstellen, sowie das Datum, an dem das Problem aufgetreten ist. Fügen Sie alle zusätzlichen Daten hinzu, von denen Sie denken, dass sie uns helfen könnten, das Problem zu lösen.
