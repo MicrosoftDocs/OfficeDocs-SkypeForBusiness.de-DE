@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (Wählpläne für PSTN-Anrufe) verwenden.
-ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282362"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046232"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -49,7 +49,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 5. Ordnen Sie die Normalisierungsregeln in der von Ihnen zu ändernden Reihenfolge an. Klicken **Sie auf Nach** oben oder Nach **unten,** um die Position von Regeln in der Liste zu ändern.
 
     > [!NOTE]
-    > Teams die Liste der Normalisierungsregeln von oben nach unten durchläuft und die erste Regel verwendet, die der gewählten Nummer entspricht. Wenn Sie einen Wählplan so einrichten, dass eine gewählte Nummer mehreren Normalisierungsregeln entsprechen kann, stellen Sie sicher, dass die restriktiveren Regeln über den weniger restriktiven Regeln sortiert sind.
+    > Teams die Liste der Normalisierungsregeln von oben nach unten durchläuft und die erste Regel verwendet, die der gewählten Nummer entspricht. Wenn Sie einen Wählplan so einrichten, dass eine gewählte Nummer mehreren Normalisierungsregeln entsprechen kann, stellen Sie sicher, dass die restriktiveren Regeln über den weniger restriktiven Regeln sortiert sind. Wenn Sie einen Wählplan einrichten, der eine gewählte Nummer ohne "+" normalisiert, versucht der Anrufdienst erneut, die Nummer mithilfe von Mandanten- und regionalen Wählplanregeln zu normalisieren. Um eine doppelte Normalisierung zu vermeiden, wird empfohlen, dass alle Normalisierungsregeln dazu führen, dass Zahlen mit einem "+" beginnen. Kunden mit Direct Routing können [die Regeln für die Trunkübersetzung](direct-routing-translate-numbers.md) verwenden, um das Pluszeichen (+) bei Bedarf zu entfernen. 
 
 6. Klicken Sie auf **Speichern**.
 7. Wenn Sie den Wählplan testen möchten, geben Sie unter **Wählplan** testen eine Telefonnummer ein, und klicken Sie dann auf **Testen.**

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Hier erfahren Sie, welche Wählpläne (PSTN-Anrufpläne) für Ihre Teams verfügbar sind und wie Sie einen Wählplan für Ihre Organisation auswählen.  '
-ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100981"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046222"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -60,7 +60,7 @@ Mögliche gültige Wählpläne:
 Informationen [zum Erstellen Ihrer Mandantenwählpläne finden](create-and-manage-dial-plans.md) Sie unter Erstellen und Verwalten von Wählplänen.
 
 > [!NOTE]
-> In dem Szenario, in dem keine Wählplannormalisierungsregeln für eine gewählte Nummer gelten, wird die gewählte Zeichenfolge weiterhin normalisiert, um "+CC" vorher zu verwenden, wobei CC die Landesvorwahl des Nutzungsstandorts des Wählbenutzers ist. Dies gilt für Anrufpläne, direktes Routing und DFÜ-Szenarien für PSTN-Konferenz.
+> In dem Szenario, in dem keine Wählplannormalisierungsregeln für eine gewählte Nummer gelten, wird die gewählte Zeichenfolge weiterhin normalisiert, um "+CC" vorher zu verwenden, wobei CC die Landesvorwahl des Nutzungsstandorts des Wählbenutzers ist. Dies gilt für Anrufpläne, direktes Routing und DFÜ-Szenarien für PSTN-Konferenz. Wenn eine Normalisierungsregel für einen Mandantenwählplan zu einer Nummer führt, die nicht mit "+" beginnt, versucht der Anrufdienst außerdem, die vom Teams-Client empfangene Nummer basierend auf dem Mandantenwählplan zu normalisieren und, wenn diese nicht übereinstimmen, für den Wählplan der Region. Um eine doppelte Normalisierung zu vermeiden, empfiehlt es sich, dass Kunden des Direct-Routings Zahlen normalisieren, um ein + zu verwenden, und dann das Pluszeichen (+) mithilfe von Regeln für die Trunkübersetzung entfernen. 
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planen von Mandantenwählplänen
 
