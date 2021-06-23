@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing planen, wodurch Sie den Pfad des Mediendatenverkehrs kürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 8d60513dbcf1128d303102f494600a67335b366d
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469627"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075398"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -197,19 +197,11 @@ Sie müssen diese drei FQDNs platzieren, um Folgendes zu können:
 - Stellen Sie Failover bereit, wenn eine Verbindung von einem SBC zu einem Rechenzentrum hergestellt wird, bei dem ein temporäres Problem auftritt. Weitere Informationen finden Sie unten unter Failovermechanismus.
 
 
-Die FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** und **sip3.pstnhub.microsoft.com** werden in eine der folgenden IP-Adressen aufgelöst:
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+Die FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** und **sip3.pstnhub.microsoft.com** werden in IP-Adressen aus den folgenden Subnetzen aufgelöst:
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit der eingehende und ausgehende Datenverkehr an die und von den Adressen für Die Signalisierung zulässig ist. Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** alle diese IP-Adressen aufgelöst. 
+Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen. Wenn Ihre Firewall DNS-Namen unterstützt, wird **sip-all.pstnhub.microsoft.com** FQDN in alle diese IP-Subnetze aufgelöst. 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD-Umgebung
 
@@ -217,12 +209,11 @@ Der Verbindungspunkt für Direct-Routing ist der folgende FQDN:
 
 **sip.pstnhub.dod.teams.microsoft.us** – Globaler FQDN. Da die Office 365 doD-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und dritten FQDNs.
 
-Die FQDNs – sip.pstnhub.dod.teams.microsoft.us werden in eine der folgenden IP-Adressen aufgelöst:
+Die FQDN sip.pstnhub.dod.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit der eingehende und ausgehende Datenverkehr an die und von den Adressen für Die Signalisierung zulässig ist.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN sip.pstnhub.dod.teams.microsoft.us alle diese IP-Adressen aufgelöst. 
+Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN sip.pstnhub.dod.teams.microsoft.us in alle diese IP-Subnetze aufgelöst. 
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High-Umgebung
 
@@ -230,12 +221,11 @@ Der Verbindungspunkt für Direct-Routing ist der folgende FQDN:
 
 **sip.pstnhub.gov.teams.microsoft.us** – Globaler FQDN. Da die GCC High-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und drittrangig vorhandenen FQDNs.
 
-Die FQDNs – sip.pstnhub.gov.teams.microsoft.us werden in eine der folgenden IP-Adressen aufgelöst:
+Die FQDN sip.pstnhub.gov.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
-Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit der eingehende und ausgehende Datenverkehr an die und von den Adressen für Die Signalisierung zulässig ist.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN sip.pstnhub.gov.teams.microsoft.us alle diese IP-Adressen aufgelöst. 
+Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN sip.pstnhub.gov.teams.microsoft.us in alle diese IP-Subnetze aufgelöst. 
 
 ## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Ports
 

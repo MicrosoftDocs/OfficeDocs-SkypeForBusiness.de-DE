@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Microsoft-Telefon System Direct Routing aktivieren.
-ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122219"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075368"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -102,8 +102,8 @@ So fügen Sie die Telefonnummer hinzu und aktivieren voicemail:
     Wenn sich die Benutzer "Low" und "Stacy Zeln" dieselbe Basisnummer mit eindeutigen Erweiterungen teilen, geben Sie Folgendes ein:
     
     ```PowerShell
-    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388701;ext=1001 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI tel:+14255388701;ext=1002 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     Es wird empfohlen (aber nicht erforderlich), dass die verwendete Telefonnummer als vollständige E.164-Telefonnummer mit Landescode konfiguriert ist. Es wird unterstützt, Telefonnummern mit Erweiterungen zu konfigurieren, die verwendet werden, um Benutzer zu suchen, wenn beim Nachschlageergebnis für die Basisnummer mehr als ein Ergebnis zurückgegeben wird. Dies ermöglicht Unternehmen das Konfigurieren von Telefonnummern mit derselben Basisnummer und eindeutigen Erweiterungen. Damit die Suche erfolgreich ist, muss die Einladung die vollständige Anzahl mit der folgenden Erweiterung enthalten:

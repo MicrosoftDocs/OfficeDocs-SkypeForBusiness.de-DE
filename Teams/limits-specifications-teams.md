@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
+ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717726"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53069303"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -156,7 +156,7 @@ Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Teams-L
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live Events wird erhöht**
 >
-> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis zum 30. Juni 2021 temporäre Limiterhöhungen für Liveereignisse verlängern, beispielsweise**:
+> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis 31. Dezember 2021 temporäre Limitenerhöhungen für Liveereignisse verlängern, einschließlich**:
 >
 >- Ereignisunterstützung für bis zu 20.000 Teilnehmer
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden

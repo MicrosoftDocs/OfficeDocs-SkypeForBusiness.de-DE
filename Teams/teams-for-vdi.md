@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717736"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075388"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -396,9 +396,10 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 - Verschwimmen des Hintergrunds und Hintergrundeffekte
 - Übertragungs- und Liveveranstaltungs-Produzent- und Referentenrollen
 - Standortbasiertes Routing (LBR)
-- Anruf parken
+- PSTN-Rückrufton
 - Audio-/Computersound des freigegebenen Systems
 - Medienumgehung für direkte Weiterleitung
+- Anruf parken
 - Zoomsteuerelement 
 
 > [!NOTE]
