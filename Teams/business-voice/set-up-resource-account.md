@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie ein Microsoft 365 Business Voice für die Verwendung mit automatischen Attendants einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618f26394f2b4acc44d56b814bd31c20ffe1a370
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: df5001b6f757b407e96a473d302c79d837af957c
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282776"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105167"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Schritt 4: Einrichten eines Business Voice-Ressourcenkontos
 
@@ -31,6 +31,10 @@ Ressourcenkonten werden keinem bestimmten Benutzer zugewiesen. Stattdessen werde
 Durch Zuordnen von Ressourcenkonten zu automatischen Telefonkonferenzen und Anrufwarteschleifen können Sie eine oder mehrere gebührenpflichtige oder gebührenfreie Telefonnummern hinzufügen. So könnten Sie beispielsweise einer automatischen Telefonistennummer für Ortsanrufe ein Ressourcenkonto mit einer gebührenpflichtigen Nummer zuordnen. Bei Ferngesprächen können Sie derselben automatischen Telefon attendant ein anderes Ressourcenkonto einer gebührenfreien Nummer zuordnen.
 
 In den Abschnitten dieses Artikels wird erläutert, wie Sie ein Ressourcenkonto einrichten und ihm dann eine Telefonnummer zuweisen. Später ordnen Sie das Ressourcenkonto einer automatischen Attendant zu.
+
+Im folgenden Video wird gezeigt, wie Sie diese Schritte im admin center Teams ausführen.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
 
 ## <a name="obtain-virtual-user-licenses"></a>Abrufen virtueller Benutzerlizenzen
 
@@ -71,7 +75,7 @@ Nachdem Sie die Lizenz *"Microsoft 365 Telefonsystem – Virtueller Benutzer"* e
 
 Nachdem Sie Ihr Ressourcenkonto erstellt haben, müssen Sie eine Microsoft 365 Telefonsystem *- Virtual User-Lizenz* oder *Telefonsystem* zuweisen.
 
-![Screenshot der Benutzeroberfläche zum Zuweisen von Lizenzen im Microsoft 365 Admin Center](../media/resource-account-assign-virtual-user-license.png)
+![Screenshot der Benutzeroberfläche "Lizenzen zuweisen" im Microsoft 365 Admin Center](../media/resource-account-assign-virtual-user-license.png)
 
 1. Öffnen Sie Microsoft 365 Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für Microsoft 365).
 1. Wechseln Sie im linken Navigationsbereich zu <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **Aktive**  >  **Benutzer**</a>.

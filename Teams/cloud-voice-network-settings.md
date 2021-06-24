@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834335"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096282"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams
 
@@ -61,3 +61,6 @@ Vertrauenswürdige IP-Adressen sind die externen Internetadressen des Unternehme
 Wenn die externe IP-Adresse des Benutzers einer IP-Adresse entspricht, die in der Liste der vertrauenswürdigen IP-Adressen aufgeführt ist, überprüft das Cloud-Sprachfeature, um das interne Subnetz zu ermitteln, in dem sich der Endpunkt des Benutzers befindet. Eine Übereinstimmung kann mit IPv4- oder IPv6-IP-Adressen vorgenommen werden und hängt vom Format des IP-Pakets ab, das an die Netzwerkeinstellungen gesendet wurde. (Wenn eine öffentliche IP-Adresse sowohl IPv4 als auch IPv6 enthält, müssen Sie beide als vertrauenswürdige IP-Adressen hinzufügen.)
 
 Wenn die externe IP-Adresse des Benutzers nicht mit einer IP-Adresse in der Liste der vertrauenswürdigen IP-Adressen übereinstimmen, wird der Endpunkt als an einem unbekannten Speicherort klassifiziert.
+
+> [!Important]
+> Suchups für Netzwerkkonfigurationseinstellungen werden bei Bereitstellungen von Cloudproxydiensten, die die IP-Quelladressen der Clients ändern, Teams unterstützt.

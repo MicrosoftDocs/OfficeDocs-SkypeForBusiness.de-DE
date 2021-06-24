@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie die Microsoft-Anrufpläne konfigurieren Telef
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910047"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096309"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -113,8 +113,11 @@ Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu e
 
 Netzwerkeinstellungen umfassen Standorte, die eine Sammlung von Subnetzen umfassen, und diese werden ausschließlich für die dynamische Richtlinienzuweisung zu Benutzern verwendet. So könnten beispielsweise eine Richtlinie für Notrufe und eine Richtlinie für die Weiterleitung von Notrufen der "Redmond-Website" zugewiesen werden, damit für jeden Benutzer, der von zu Hause oder an einem anderen Microsoft-Standort ans Telefon geht, Notrufnummern, Weiterleitung und Sicherheitsleitstelle für Redmond konfiguriert ist.  
 
->[!Note]
->Subnetze können auch in LIS definiert und einem Notfallstandort zugeordnet werden.  LIS-Subnetze müssen durch die Netzwerk-ID definiert werden, die mit dem Subnetz-IP-Bereich übereinstimmen, der Clients zugewiesen ist. Beispielsweise ist die Netzwerk-ID für eine Client-IP/Mask von 10.10.10.150/25 **10.10.10.128.** Weitere Informationen finden Sie unter [Grundlegendes zu TCP/IP-Adressierung und Subnetzing.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+> [!Note]
+> Subnetze können auch in LIS definiert und einem Notfallstandort zugeordnet werden.  LIS-Subnetze müssen durch die Netzwerk-ID definiert werden, die mit dem Subnetz-IP-Bereich übereinstimmen, der Clients zugewiesen ist. Beispielsweise ist die Netzwerk-ID für eine Client-IP/Mask von 10.10.10.150/25 **10.10.10.128.** Weitere Informationen finden Sie unter [Grundlegendes zu TCP/IP-Adressierung und Subnetzing.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+
+> [!Important]
+> Suchups für Netzwerkkonfigurationseinstellungen werden bei Bereitstellungen von Cloudproxydiensten, die die IP-Quelladressen der Clients ändern, Teams unterstützt.
 
 Beachten Sie die folgenden Definitionen. Weitere Informationen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
 

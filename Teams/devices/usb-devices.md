@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für die Microsoft Teams.
-ms.openlocfilehash: 6ff7a0678f7b68796f5236b44760ba92d2612a37
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: f8caa5a2d4ef374ce834e801f80370e5cb4251ac
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705229"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105127"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-Audio- und Videogeräte, die für Microsoft Teams
 
@@ -74,10 +74,11 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 ## <a name="certified-devices"></a>Zertifizierte Geräte
 
-*Tabelle aktualisiert Mai 2021*
+*Tabelle aktualisiert Juni 2021*
 
 | Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |Zertifiziert für Microsoft Teams                           |
 |NEC                  |Anzeige der Zusammenarbeit Windows WD551                        |5/21/2021       |Zertifiziert für Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |Zertifiziert für Microsoft Teams                           |

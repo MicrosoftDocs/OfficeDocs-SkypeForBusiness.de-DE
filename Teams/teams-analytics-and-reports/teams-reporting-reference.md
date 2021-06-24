@@ -18,12 +18,12 @@ description: In diesem Artikel erfahren Sie mehr über die Teams, die im Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 57135e50b604c8e92a7ff78963af9520ccc87b8a
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478345"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096319"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -36,7 +36,7 @@ Um auf die Berichte zugreifen zu können, müssen Sie ein globaler Administrator
 Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie in der linken Navigationsleiste Analyse &-Berichte **aus,** und wählen Sie dann unter Bericht den Bericht **aus,** den Sie ausführen möchten.
 
 > [!NOTE]
-> Die Berichte im Microsoft Teams Admin Center sind von den Aktivitätsberichten für Teams getrennt, die zu den Microsoft 365-Berichten im Microsoft 365 Admin Center gehören. Weitere Informationen zu den Aktivitätsberichten im Microsoft 365 Admin Center finden Sie unter Teams Aktivitätsberichte im [Microsoft 365 Admin Center.](../teams-activity-reports.md)
+> Die Berichte im Microsoft Teams Admin Center sind von den Aktivitätsberichten für Teams getrennt, die Zu den Microsoft 365-Berichten in der Microsoft 365 Admin Center. Weitere Informationen zu den Aktivitätsberichten in der Microsoft 365 Admin Center Finden Teams [Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams berichterstellungsreferenz
 
@@ -54,6 +54,8 @@ Wir verbessern kontinuierlich die Berichterstattungserfahrung Teams und fügen F
 |[Teams Bericht über PSTN-Minutenpools](pstn-minute-pools-report.md) |  Land oder Region<br>Funktion (Lizenz) <br>Gesamtminuten<br>Verwendete Minuten<br>Verfügbare Minuten|
 |[Teams PSTN-Nutzungsbericht – Anrufpläne](pstn-usage-report.md#calling-plans)|  Zeitstempel<br>Benutzername<br>Telefon-Nummer<br>Anruftyp <br>Called to<br>In das Land oder die Region <br>Von aufgerufen <br>Aus dem Land oder der Region<br>Aufladen<br>Währung<br>Dauer<br>In- und Ausland<br>Anruf-ID<br>Zahlentyp<br>Land oder Region<br>Konferenz-ID<br>Funktion (Lizenz)|
 |[Teams PSTN-Nutzungsbericht – Direct Routing](pstn-usage-report.md#direct-routing)  |  Zeitstempel<br>Anzeigename<br>SIP-Adresse<br>Telefon-Nummer <br>Anruftyp<br>Called to<br>Startzeitpunkt<br>Einladungszeitpunkt<br>Fehlerzeit<br>Endzeitpunkt<br>Dauer<br>Zahlentyp<br>Medienumgehung<br>SBC-FQDN<br>Azure-Region<br>Ereignistyp<br>Endgültiger SIP-Code<br>Endgültiger Microsoft-Untercode<br>Endgültiger SIP-Ausdruck<br>Korrelations-ID  |
+|[Teams information protection license report – Direct Routing](information-protection-license-report.md)  | <br>Ob Benutzer über gültige Lizenzen zum Senden von Nachrichten über Änderungsbenachrichtigungen verfügen</br><br>Gesamtzahl von Änderungsbenachrichtigungsereignissen, die von einem Benutzer verungliert wurden</br><br>Welche Apps lauschen auf organisationsweite Änderungsbenachrichtigungsereignisse</br>|
+
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
@@ -61,9 +63,9 @@ Wir verbessern kontinuierlich die Berichterstattungserfahrung Teams und fügen F
 
 Um die Daten in den Teams benutzeraktivitäten und Teams zu anonym machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail-Adresse und AAD-ID in Berichten und deren Exporten ausgeblendet.
 
-1. Wechseln Microsoft 365 Admin Center zum Einstellungen  Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
+1. Wechseln Microsoft 365 Admin Center In der Website  zum Einstellungen Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
     
-2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte im Microsoft 365 Admin Center als Teams Admin Center angewendet.
+2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte in Microsoft 365 Admin Center als Teams Admin Center angewendet.
   
 3. Wählen Sie **Änderungen speichern aus.**
 

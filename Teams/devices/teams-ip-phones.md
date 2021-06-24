@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 594470affe3de69d2190fadcdbbae96aaa9bc3c7
-ms.sourcegitcommit: a188b3457a923744ffdc35f8efe3e5440af83256
+ms.openlocfilehash: db6240e972ac346c38961d94aa1a408e20f3cd4b
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52957684"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105147"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams von zertifizierten Geräten
 
@@ -77,6 +77,7 @@ Die folgenden Geräte sind im Rahmen des Zertifizierungsprogramms Microsoft Team
 
 | Gerätemodell | Firmwareversion | Veröffentlichungsdatum  | Raumgröße                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Rally Bar      | 1.2.788     |       Juni 2021    |    Mittlerer Raum (4,5 x 6 m)       |
 | AudioCodes RECEIVERV80 | 1.9.155        |   Mai 2021  | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |
 | EXPAND Vision 3T       | 1.2.0.21102.03    | April 2021 | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | März 2021 | Mittlerer Raum (4,5 x 6 m) |

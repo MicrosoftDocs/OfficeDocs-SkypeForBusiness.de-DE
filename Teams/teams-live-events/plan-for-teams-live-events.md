@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: e3baf6a27b98d9f8b3fb30572391cd3442530c3d
+ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699336"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53069364"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -106,13 +106,13 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
 >
-> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis Ende Januar 2022 temporäre Limitenerhöhungen für Liveereignisse verlängern, einschließlich**:
+> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis zum 31. Dezember 2021 temporäre Limiterhöhungen für Liveereignisse verlängern, beispielsweise**:
 >
 >- Ereignisunterstützung für bis zu 20.000 Teilnehmer
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
 >- Ereignisdauer von 16 Stunden pro Übertragung
 >
-> Außerdem können Liveereignisse mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm für Liveereignisse geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Außerdem können Liveereignisse mit bis zu 100 000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm für Liveereignisse geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
 
 | Funktion | Skype Meeting Broadcast | In Teams produzierte Ereignisse | In einer externen App oder auf einem externen Gerät produzierte Ereignisse |
 |---------|---------|---------|---------|

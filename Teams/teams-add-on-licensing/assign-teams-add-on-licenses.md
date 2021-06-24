@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Erfahren Sie, wie Teams add-on-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116933"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53095579"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen Teams Add-On-Lizenzen zu Benutzern
 
@@ -30,7 +30,7 @@ Add-On-Lizenzen sind Lizenzen für Teams Funktionen wie Audiokonferenzen, Telefo
 > [!NOTE]
 > Unter [Teams-Add-On-Lizenzierung](./microsoft-teams-add-on-licensing.md) finden Teams, die mit Add-On-Lizenzen zur Verfügung stehen. Darüber hinaus finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und wie Sie diese (je nach Ihrem Plan) kaufen können, damit Benutzer Funktionen wie Audiokonferenzen, gebührenfreie Telefonnummern und die Möglichkeit erhalten, Telefonnummern außerhalb Ihrer Organisation anrufen zu können. Nachdem Sie sich entschieden haben, welche Features Sie ihren Benutzern zuweisen möchten, weisen Sie ihnen Lizenzen zu.
 
-Sie können das Microsoft 365 Admin Center oder PowerShell verwenden, um Benutzern in Ihrer Organisation Lizenzen zuzuordnen. Sie müssen ein globaler Administrator oder Benutzerverwaltungsadministrator sein, um Lizenzen verwalten zu können.
+Sie können die Microsoft 365 Admin Center oder PowerShell verwenden, um Benutzern in Ihrer Organisation Lizenzen zuzuordnen. Sie müssen ein globaler Administrator oder Benutzerverwaltungsadministrator sein, um Lizenzen verwalten zu können.
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>Was Sie wissen müssen, bevor Sie Lizenzen Telefonsystem, Anrufplan und Guthaben für Kommunikationen zuweisen
 
@@ -46,9 +46,9 @@ Bevor Sie beginnen, überprüfen Sie die folgenden Anforderungen:
 
 - Nachdem Sie Ihren Benutzern Lizenzen für Anrufplan- oder Guthaben für Kommunikationen zugewiesen haben, müssen Sie Telefonnummern für Ihre Organisation erhalten und diese Nummern dann Benutzern zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../set-up-calling-plans.md).
 
-## <a name="using-the-microsoft-365-admin-center"></a>Verwenden des Microsoft 365 Admin Centers
+## <a name="using-the-microsoft-365-admin-center"></a>Verwenden der Microsoft 365 Admin Center
 
-Verwenden Sie Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuordnen. Sie weisen Lizenzen auf der **Seite Lizenzen** (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite Aktive **Benutzer zu.** Die von Ihnen wählen Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
+Verwenden Sie Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuordnen. Sie weisen Lizenzen  auf der Seite Lizenzen (für bis zu  20 Benutzer gleichzeitig) oder auf der Seite Aktive Benutzer (für bis zu 40 Benutzer gleichzeitig) zu. Die von Ihnen wählen Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
 
 Eine schrittweise Anleitung finden Sie unter [Zuweisen von Lizenzen zu Benutzern.](/microsoft-365/admin/manage/assign-licenses-to-users)
 

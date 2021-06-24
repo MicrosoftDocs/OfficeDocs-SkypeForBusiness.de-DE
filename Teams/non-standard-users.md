@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796648"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096269"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
@@ -80,6 +80,6 @@ Anonyme Benutzer können in Besprechungen keine Apps installieren, aktualisieren
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Nutzungsverhalten und Richtlinie für anonyme Benutzer
 
-Anonyme Benutzer können Apps nicht direkt in Besprechungen verwenden. Native Benutzer können weiterhin Besprechungs-Apps verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Weitere Informationen finden Sie unter Zulassen, [dass anonyme Benutzer an Besprechungen teilnehmen.](/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)
+Anonyme Benutzer können Apps nicht direkt in Besprechungen verwenden. Native Benutzer können weiterhin Besprechungs-Apps verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Weitere Informationen finden Sie unter Zulassen, [dass anonyme Benutzer an Besprechungen teilnehmen.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Sie können in Besprechungen in Teams mit Apps interagieren, wenn die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wurde. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.

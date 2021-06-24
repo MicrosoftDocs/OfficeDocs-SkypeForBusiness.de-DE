@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723423"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105027"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -87,7 +87,8 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | ------------| -------------------- |
 | Modul 1: Einführung in Microsoft Teams Android-Geräte  |[Foliensatz](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | Modul 2: Planen Microsoft Teams Android-Geräten|[Foliensatz](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|Modul 3: Features von Microsoft Teams Android-Geräten |[Foliensatz](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+|Modul 3: Features von Microsoft Teams Android-Geräten |[Foliensatz](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|Modul 4: Verwalten Microsoft Teams Android-Geräten|[Foliensatz](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
 
 <h2>Interaktive Handbücher</h2>
 
@@ -107,6 +108,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion                           | Erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre Mitarbeiter in Service und Produktion konfigurieren und bereitstellen.                                                                                                                  | [Handbuch für das Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | Identität für die Mitarbeiter an vorder frontline: Mehr Personal für IT, Manager und Mitarbeiter an vorderer Front                    | Erfahren Sie, wie Sie Microsoft Teams vorhandene HR-Systeme integrieren, einfache delegierte Identitätsverwaltung konfigurieren sowie vereinfachte Anmeldung und nahtlose Übergänge für Benutzer mit gemeinsam genutzten Geräten konfigurieren.                                                                                                                  | [Leitfaden zur Identität von Frontline-Workern](https://aka.ms/FLWIdentityIG)              |
 | Bereitstellen Microsoft Teams-Räume                           | Hier erfahren Sie, wie Sie ein Konto für die Verwendung mit Microsoft Teams-Räume und das Verwalten des Geräts im Microsoft Teams Admin Center erstellen und konfigurieren.                                                                                                                  | [Bereitstellen Microsoft Teams-Räume](https://aka.ms/teamsroomslab)              |
+|Arbeiten mit Teams zertifizierten Android-Geräten|Hier erfahren Sie, wie Sie Microsoft Teams Telefone, Microsoft Teams Anzeigen, Microsoft Teams-Räume und Microsoft Teams verwalten und aktualisieren.|[Arbeiten mit Microsoft Teams zertifizierten Android-Geräten](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>Schnellstarthandbücher</h2>
 

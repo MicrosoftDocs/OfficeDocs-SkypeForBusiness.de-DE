@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796629"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096299"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -86,8 +86,7 @@ Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinien
    # When using Teams PowerShell Module
    
    Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
+   Connect-MicrosoftTeams
    ```
 
 5. Verwenden Sie [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) zum Festlegen einer Teams-Besprechungsrichtlinie für den Übergang vom Streamspeicher zu OneDrive for Business und SharePoint.
@@ -118,7 +117,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |1:1-Anruf mit internen Parteien             |Angerufener                 |Das OneDrive for Business-Konto des Angerufenen                        |Der Angerufene ist der Besitzer und hat vollständige Rechte. <br /><br />Der Anrufer (wenn im selben Mandanten) verfügt über schreibgeschützten Zugriff. Kein Freigabezugriff. <br /><br />Der Anrufer (wenn in einem anderen Mandanten) hat keinen Zugriff. Der Angerufene muss es für den Anrufer freigeben.|
 |1:1-Anruf mit einem externen Anruf             |Anrufer                 |Das OneDrive for Business-Konto des Anrufers                        |Der Anrufer ist der Besitzer und hat vollständige Rechte.<br /> <br />Der Angerufene hat keinen Zugriff. Der Anrufer muss es für den Angerufenen freigeben.|
 |1:1-Anruf mit einem externen Anruf             |Angerufener                 |Das OneDrive for Business-Konto des Angerufenen                        |Der Angerufene ist der Besitzer und hat vollständige Rechte.<br /><br />Der Anrufer hat keinen Zugriff. Der Angerufene muss es für den Anrufer freigeben.|
-|Gruppenanruf                                 |Jedes Mitglied des Anrufs |Gruppenmitglied, das auf das OneDrive for Business-Konto der Aufzeichnung geklickt hat  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte. <br /><br /> Andere Gruppenmitglieder von demselben Mandanten verfügen über Leserechte. <br /><br /> Andere Gruppenmitglieder aus unterschiedlichen Mandanten verfügen über keine Rechte darauf.|
+|Gruppenanruf                                 |Jedes Mitglied des Anrufs |Gruppenmitglied, das auf das OneDrive for Business-Konto der Aufzeichnung geklickt hat  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte. <br /><br /> Andere Mitglieder aus demselben Mandanten haben Leserechte. <br /><br /> Andere Gruppenmitglieder aus verschiedenen Mandanten haben keine Rechte an der Gruppe.|
 |Spontane/Geplante Besprechung                    |Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung. <br /><br /> Alle anderen Mitglieder verfügen über Lesezugriff.|
 |Spontane/Geplante Besprechung                    |Anderes Besprechungsmitglied   |Besprechungsmitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. <br /><br />Der Organisator verfügt über Bearbeitungsrechte und kann freigeben.<br /><br /> Alle anderen Besprechungsmitglieder verfügen über Lesezugriff.|
 |Spontane/Geplante Besprechung mit externen Benutzern|Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung.<br /> <br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br /> Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
@@ -192,4 +191,3 @@ Siehe [Welche Richtlinie hat Vorrang?](./assign-policies.md#which-policy-takes-p
 **Wo wird die Aufzeichnung gespeichert, wenn der Benutzer nicht über OneDrive for Business Oder SharePoint oder das Speicherkontingent voll ist?**
 
 Die Aufzeichnung wird an unserem temporären Speicherort landen, wo sie 21 Tage lang gespeichert wird. Während dieser Zeit muss der Organisator die Aufzeichnung herunterladen. Wenn die Aufzeichnung nicht innerhalb von 21 Tagen heruntergeladen wurde, wird sie gelöscht.
-
