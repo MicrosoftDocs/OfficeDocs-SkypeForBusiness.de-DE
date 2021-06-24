@@ -1,5 +1,5 @@
 ---
-title: automatische Telefonzentrale & eines Anrufwarteschlangen-Verlaufsberichts
+title: Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,51 +21,51 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Erfahren Sie, wie Sie mithilfe des Anrufqualitätsdashboards Power BI, um Die automatische Telefonzentrale und Verlaufsdaten der Anrufwarteschleife anzuzeigen.
+description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
 ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
 ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/19/2021
 ms.locfileid: "53023246"
 ---
-# <a name="auto-attendant--call-queue-historical-report"></a>automatische Telefonzentrale & eines Anrufwarteschlangen-Verlaufsberichts
+# <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
-Die Vorlage für Teams automatische Telefonzentrale & Anrufwarteschleifen-Verlaufsbericht Power BI die folgenden drei Berichte:
+Die Power BI-Vorlage „Verlaufsbericht für AQD-Teams, automatische Telefonzentrale und Anrufwarteschleife“ enthält die folgenden drei Berichte:
 
-- automatische Telefonzentrale – Zeigt Analysen für Anrufe an, die in Ihre automatischen Telefon attendants eins gehen.
-- Anrufwarteschleife – Zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen kommen.
-- Agent-Zeitachse – Zeigt eine Zeitachsenansicht der Agents an, die an Anrufen in der Anrufwarteschleife aktiv sind.
+- Automatische Telefonzentrale – zeigt Analysen für Anrufe an, die in Ihre automatischen Telefonzentralen eingehen.
+- Anrufwarteschleife – zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen eingehen.
+- Agent-Zeitachse – zeigt eine Zeitachsenansicht der Agents an, die in Anrufen der Anrufwarteschleife aktiv sind.
 
-Diese Berichte verwenden Daten aus dem [Anrufqualitätsdashboard-Datenspeicher.](CQD-Power-BI-query-templates.md) Damit können Organisationen die Anzahl der Anrufe melden, die von automatischen Telefonkonferenzen und Anrufwarteschleifen verarbeitet werden.  Darüber hinaus bieten sie Einblicke in die Leistung des Agents in den Anrufwarteschleifen.
+Diese Berichte verwenden Daten aus dem [AQD](CQD-Power-BI-query-templates.md)-Datenspeicher. Sie ermöglichen es Organisationen, die Anzahl der Anrufe zu melden, die von automatischen Telefonzentralen und Anrufwarteschleifen verarbeitet werden.  Sie bieten auch Einblicke in die Agentleistung in den Anrufwarteschleifen.
 
-## <a name="what-are-the-requirements"></a>Welche Anforderungen gelten? 
+## <a name="what-are-the-requirements"></a>Welche sind die Anforderungen? 
 
-Sie müssen ihre Power BI Desktop haben. Sie können sie über den [Microsoft-Windows Store](https://aka.ms/pbidesktopstore)installieren.
+Sie müssen Power BI Desktop installiert haben. Sie können es aus dem [Microsoft Windows Store](https://aka.ms/pbidesktopstore)installieren.
 
-Sie können die kostenlose Version von Power BI Desktop. Die kompatible Mindestversion ist 2.85.681.0 (September 2020).
+Sie können die kostenlose Version von Power BI Desktop verwenden. Die mindestens kompatible Version ist 2.85.681.0 (September 2020).
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>Berechtigungen für den Zugriff auf die CQD-Pipeline
+## <a name="permissions-to-access-the-cqd-pipeline"></a>Berechtigungen für den Zugriff auf die AQD-Pipeline
 
-Das Konto, das Sie zum Anzeigen des AA-Berichts & CQ Analytics-Verlauf verwenden, muss über Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügen. Weitere Informationen finden Sie unter [Zugriffsrolle für AQD.](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
+Das Konto, das Sie zum Anzeigen des Verlaufsberichts "AA- und CQ-Analysen" verwenden, muss über Berechtigungen für den Zugriff auf die AQD-Datenpipeline verfügen. Weitere Informationen finden Sie unter [AQD-Zugriffsrolle](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 
 ## <a name="installation"></a>Installation 
 
-Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Power BI Desktop auf dem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die CQD-Datenpipeline verfügt.
+Bei den folgenden Schritten wird davon ausgegangen, dass Sie Power BI Desktop bereits auf dem Computer installiert haben und dass Ihr Konto über die erforderlichen Berechtigungen für den Zugriff auf die AQD-Datenpipeline verfügt.
 
-Führen Sie die folgenden Schritte aus:
+Führen Sie die folgenden Schritte durch:
 
-- Laden Sie [das AQD Power BI Abfragevorlagen herunter,](https://www.microsoft.com/download/details.aspx?id=102291) und speichern Sie die ZIP-Datei in einem Verzeichnis auf Ihrem Computer.
+- Laden Sie die [AQD Power BI-Abfragevorlagen](https://www.microsoft.com/download/details.aspx?id=102291) herunter, und speichern Sie die ZIP-Datei in einem Verzeichnis auf Ihrem Computer.
 
 - Doppelklicken Sie auf die ZIP-Datei, um sie zu öffnen.
 
-- Doppelklicken Sie auf die Vorlagendatei "Kombinierte AQ- und AA-Analysen 20201105.pbit", und Power BI Desktop starten.
+- Doppelklicken Sie auf die Vorlagendatei "Kombinierte CQ- und AA-Analysen 20201105.pbit", und Power BI Desktop sollte starten.
 
-- Sie werden aufgefordert, den Bereich für die CQD-Datenpipeline auszuwählen. Wählen Sie die Region aus, in der sich Ihr Mandant befindet.
+- Sie werden aufgefordert, die AQD-Datenpipelineregion auszuwählen. Wählen Sie die Region aus, in der sich Ihr Mandant befindet.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Auswahl der Region für die CQD-Datenpipeline":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot: Auswählen der AQD-Datenpipelineregion":::
 
-- Die Region, in der sich Ihr Mandant befindet, kann mit dem [Cmdlet Get-CsTenant](/powershell/module/skype/get-cstenant) ermittelt werden.
+- Die Region, in der sich Ihr Mandant befindet, kann mithilfe des Cmdlets [Get-CsTenant](/powershell/module/skype/get-cstenant) abgerufen werden.
 
     ```PowerShell
     (Get-CsTenant).ServiceInstance
@@ -74,231 +74,231 @@ Führen Sie die folgenden Schritte aus:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - Die Region wird nach dem wie im obigen Beispiel angezeigt, wo **/** region ist: noam
+    - Die Region wird nach dem **/** angezeigt, wie im obigen Beispiel, in dem sich die Region befindet: noam
 
  - Der Bericht wird mit Beispieldaten gestartet.
  
- - Um Ihre eigenen Daten zu sehen, wählen Sie **auf der** Registerkarte Start unter Abfragen in einem Power BI Desktop.
+ - Um Ihre eigenen Daten anzuzeigen, wählen Sie **Aktualisieren** auf der Registerkarte "Start" unter "Abfragen" in Power BI Desktop aus.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot mit Auswahl der Aktualisierungsoption":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot: Auswählen der Aktualisierungsoption":::
 
-- Sie werden dann aufgefordert, sich anmelden. Wählen **Sie Organisationskonto** und dann **Anmelden aus.**
+- Anschließend werden Sie aufgefordert, sich anzumelden. Wählen Sie **Organisationskonto** und dann **Anmelden** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot showing login":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot der Anmeldung":::
 
 - Wählen Sie **Verbinden** aus, und beobachten Sie die Datenaktualisierung.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Datenlatenz und AA-& AQ-Analysen
+## <a name="data-latency-and-aa--cq-analytics"></a>Datenlatenz und AA- und CQ-Analysen
 
-Die Daten sind innerhalb von 30 Minuten in der CQD-Datenpipeline verfügbar.
+Daten sind innerhalb von 30 Minuten in der AQD-Datenpipeline verfügbar.
 
-Sie müssen die Daten aktualisieren, um die neuen Analysedaten zu sehen. 
+Sie müssen die Daten aktualisieren, um die neuen Analysedaten anzuzeigen. 
 
 ## <a name="customization"></a>Anpassung 
 
-Sie können bestimmte Visualisierungsaspekte der Berichte anpassen, z. B. Felder hinzufügen oder entfernen, die in den verschiedenen Visualisierungen angezeigt werden sollen, Ändern des Diagrammtyps und so weiter.
+Sie können bestimmte Visualisierungsaspekte der Berichte anpassen, z. B. das Hinzufügen oder Entfernen von Feldern, die in den verschiedenen Visualisierungen angezeigt werden sollen, das Ändern des Diagrammtyps usw.
 
-Dem Bericht können keine weiteren Datenfelder hinzugefügt werden.
+Sie können dem Bericht keine zusätzlichen Datenfelder hinzufügen.
 
-### <a name="change-color-schema"></a>Ändern des Farbschemas 
+### <a name="change-color-schema"></a>Farbschema ändern 
 
 Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationsschritte bereits abgeschlossen haben.
 
-Führen Sie die folgenden Schritte aus:
-- Wählen **Sie im Menüband die** Registerkarte Ansicht aus.
+Führen Sie die folgenden Schritte durch:
+- Wählen Sie im Menüband **Registerkarte anzeigen** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot, in dem die Registerkarte Ansicht zum Ändern des Farbschemas ausgewählt wird":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot: Auswählen der Registerkarte "Ansicht" zum Ändern des Farbschemas":::
 
-- Wählen Sie das Farbschema aus der Dropdownliste aus.
+- Wählen Sie in der Dropdownliste das Farbschema aus.
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot mit verschiedenen Farbschemas":::
   
-## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Definitionen automatische Telefonzentrale und Verlaufsberichte für Anrufwarteschleifen
+## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Definitionen der Verlaufsberichte für automatische Telefonzentrale und Anrufwarteschleife
 
-### <a name="cloud-auto-attendant-analytics"></a>Cloud automatische Telefonzentrale Analytics
+### <a name="cloud-auto-attendant-analytics"></a>Analysen der automatischen Cloud-Telefonzentrale
 
 #### <a name="report-description"></a>Berichtsbeschreibung
 
 |Berichtsabschnitt                          |Beschreibung                                                       |
 |:---------------------------------------|:-----------------------------------------------------------------|
-|Quelle eines eingehenden<sup>Anrufs 1</sup>        |Verteilung von Anrufen nach interner/externer Anrufquelle             |
-|Summen der Verzeichnissuchmethode          |Verteilung von Anrufen nach Suchtyp                               |
+|Eingehende Anrufquelle<sup>1</sup>        |Verteilung von Anrufen nach interner/externer Anrufquelle             |
+|Verzeichnissuchmethoden gesamt          |Verteilung von Anrufen nach Suchtyp                               |
 |Anruferaktion                           |Verteilung von Anrufen nach Anrufempfänger                             |
-|Anrufergebnis                             |Verteilung von Anrufen nach endgültigem Anrufstatus                          |
-|Anzahl der Anrufer-Aktionen                     |Verteilung von Anrufen nach Rufnummernaktion, die während des Anrufs verwendet wird        |
+|Anrufergebnis                             |Verteilung von Anrufen nach Endzustand des Anrufs                          |
+|Anruferaktionsanzahl                     |Verteilung von Anrufen nach Nummernaktion, die während des Anrufs verwendet wird        |
 
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Bericht zur CQD-Tabelle und Feldzuordnung
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Bericht an AQD-Tabelle und Feldzuordnung
 
-|Berichtsregisterkarte            |Name der Berichtstabelle     |Globaler Filter                          |
+|Registerkarte "Bericht"            |Berichtstabellenname     |Globalfilter                          |
 |:---------------------|:---------------------|:--------------------------------------|
-|automatische Telefonzentrale        |fAutoAttendant        |AAStartTime liegt innerhalb der letzten 28 Tage. |
+|Automatische Telefonzentrale        |fAutoAttendant        |AAStartTime liegt innerhalb der letzten 28 Tage |
 
 
-|Name der Berichtstabelle            |Name der Quelltabelle            |Wird verarbeitet       |
+|Berichtstabellenname            |Quelltabellenname            |Verarbeitung       |
 |:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |AutoAttendant                |Source = AutoAttendant, <br>#"Gefilterte Zeilen" = Table.SelectRows(Source, each true), <br>#"automatische Telefonzentrale" = Table.AddColumn(#"Filtered Rows", "AA Name", each List.First(Text.Split([AAIdentity], "@"))), <br>#"Changed Type" = Table.TransformColumnTypes(#"automatische Telefonzentrale",{{"AAStartTime", type datetime}}), <br>#"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"AAIdentity"}) |
+|fAutoAttendant               |AutoAttendant                |Quelle = AutoAttendant, <br>#"Gefilterte Zeilen" = Table.SelectRows(Quelle, jeweils TRUE), <br>#"Automatische Telefonzentrale" = Table.AddColumn(#"Gefilterte Zeilen", "AA-Name", jeweils List.First(Text.Split([AAIdentity], "@"))), <br>#"Geänderter Typ" = Table.TransformColumnTypes(#"Automatische Telefonzentrale",{{"AAStartTime", typ datetime}}), <br>#"Entfernte Spalten" = Table.RemoveColumns(#"Geänderter Typ",{"AAIdentity"}) |
 
 
-|Berichtsabschnitt                                  |Verwendete Feld(n)                              |Angewendete Filter     |
+|Berichtsabschnitt                                  |Feld(er) verwendet                              |Filter angewendet     |
 |:-----------------------------------------------|:------------------------------------------|:-------------------|
 |Datumsauswahl                                   |AAStartTime                                |Keine                |
-|automatische Telefonzentrale                                  |AA-Name                                    |Keine                |
-|Quelle eines eingehenden<sup>Anrufs 1</sup>                |Anruftyp<br>TotalCallCount                |Externe Anrufe: Anruftyp ist extern<br>Interne Anrufe: Anruftyp ist intern |
-|Summen der Verzeichnissuchmethode                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod ist abs_search_dtmf oder abs_search_name    |
+|Automatische Telefonzentrale                                  |AA-Name                                    |Keine                |
+|Eingehende Anrufquelle<sup>1</sup>                |Anruftyp<br>TotalCallCount                |Externe Anrufe: Anruftyp ist extern<br>Interne Anrufe: Anruftyp ist intern |
+|Verzeichnissuchmethoden gesamt                  |AADirectorySearchMethod<br>TotalCallCount  |AADirectorySearchMethod ist abs_search_dtmf oder abs_search_name    |
 |Anruferaktionen                                  |AATransferAction<br>TotalCallCount         |Keine                                                             |
 |Durchschnittliche Sekunden in AA<br>Durchschnittliche Anruferaktionen |AAChainDuration<br>AACallerActionCount     |Keine                                                             |
 |Anrufergebnisse                                    |AACallResult<br>TotalCallCount             |Keine                                                             |
-|Anzahl der Anruferaktionen                            |AACallerActionCount<br>TotalCallCount      |Keine                                                             |
-|Unterer Bereich des Berichts                         |AA-Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Anruftyp<br>TotalCallCount |Keine                |
+|Anruferaktionsanzahl                            |AACallerActionCount<br>TotalCallCount      |Keine                                                             |
+|Unterer Abschnitt des Berichts                         |AA-Name<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>Anruftyp<br>TotalCallCount |Keine                |
 
-#### <a name="fautoattendant-cqd-fields-description"></a>Beschreibung der fAutoAttendant CQD-Felder
+#### <a name="fautoattendant-cqd-fields-description"></a>Beschreibung der fAutoAttendant AQD-Felder
 
 |Name                                    |Datentyp                |Beschreibung                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA-Name                                 |Text                     |Name des Ressourcenkontos, das dem automatische Telefonzentrale<br><br>Wenn der vollständige Name des Ressourcenkontos **aa_test@microsoft.com** dann der Wert wie hier: **aa_test** |
-|AACallerActionCount                     |ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der aktionen, die vom Anrufer während automatische Telefonzentrale Anrufs ausgewählt wurden  |
-|AACallFlow                              |Text                     |Kapselt die verschiedenen Zustände automatische Telefonzentrale Aufruf von -- möglichen Werten:<br><br>§ abs_search<br>§ Ankündigung<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |Text                     |Ergebnis des letzten Aufrufs – mögliche Werte:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unbekannt<br>§ user_terminated |
-|AAChainDuration                         |Dezimalzahl           |Zusammenfassen: Summe<br>Dauer des Anrufs in automatische Telefonzentrale                     |
+|AA-Name                                 |Text                     |Name des Ressourcenkontos, das an die automatische Telefonzentrale angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **aa_test@microsoft.com** ist, lautet dieser Wert wie folgt: **aa_test** |
+|AACallerActionCount                     |ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Aktionen, die während des Anrufs vom Anrufer in der automatischen Telefonzentrale ausgewählt wurden  |
+|AACallFlow                              |Text                     |Kapselt die verschiedenen Zustände des Anrufs der automatischen Telefonzentrale – mögliche Werte:<br><br>§ abs_search<br>§ announcement<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |Text                     |Endergebnis des Anrufs – mögliche Werte:<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ unknown<br>§ user_terminated |
+|AAChainDuration                         |Dezimalzahl           |Zusammenfassen: Summe<br>Dauer des Anrufs in der automatischen Telefonzentrale                     |
 |AAChainIndex                            |Text                     |                                                                         |
-|AAConnectivityType                      |Text                     |Art des Aufrufs – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall |
-|AACount                                 |Text                     |Anzahl der am Anruf beteiligten automatischen Telefonkonferenzen                               |
-|AADirectorySearchMethod                 |Text                     |Letzte Adressbuch-Suchmethode – mögliche Werte:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
-|AAStartTime                             |Datum/Uhrzeit                |automatische Telefonzentrale startzeit eines Anrufs                                           |
-|AATransferAction                        |Text                     |Zieltyp für die Anrufübertragung – mögliche Werte:<br><br>***§ Application - Voice Application Entity**§_<br> external_pstn <br>_§ hunt_group - Call Queue *_entity_* _<br>_ * _§ orgaa - Organizational automatische Telefonzentrale entity_**<br>§ shared_voicemail<br>§ unbekannt<br>§ Benutzer |
-|Anruftyp<sup>1</sup>                   |Text                     |Art des Aufrufs – mögliche Werte:<br><br>§ Extern<br>§ Intern         |
+|AAConnectivityType                      |Text                     |Anruftyp – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall |
+|AACount                                 |Text                     |Anzahl der am Anruf beteiligten automatischen Telefonzentralen                               |
+|AADirectorySearchMethod                 |Text                     |Letzte Adressbuchsuchmethode – mögliche Werte:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AAStartTime                             |Datum/Uhrzeit                |Startzeit des Anrufs der automatischen Telefonzentrale                                           |
+|AATransferAction                        |Text                     |Zieltyp für Anrufübertragung – mögliche Werte:<br><br>***§ application – Sprachanwendungsentität**_<br>§ external_pstn<br>_*_§ hunt_group – Entität "Anrufwarteschleife"_*_<br>_*_§ orgaa – Entität "Automatische Telefonzentrale der Organisation"_**<br>§ shared_voicemail<br>§ unknown<br>§ user |
+|Anruftyp<sup>1</sup>                   |Text                     |Anruftyp – mögliche Werte:<br><br>§ External<br>§ Internal         |
 |IsAAInvolved                            |Text                     |Immer 1                                                                 |
-|PSTNMinutes                             |ganze Zahl             |Zusammenfassen: Summe<br>Gesamtminutenverwendung                                     |
-|TotalCallCount                          |ganze Zahl             |Zusammenfassen: Summe<br>Immer 1 – wird verwendet, um die Summe aller Anrufe zu liefern.            |
+|PSTNMinutes                             |ganze Zahl             |Zusammenfassen: Summe<br>Minutennutzung gesamt                                     |
+|TotalCallCount                          |ganze Zahl             |Zusammenfassen: Summe<br>Immer 1 – wird verwendet, um die Summe aller Anrufe bereitzustellen            |
 
 
-### <a name="cloud-call-queue-analytics"></a>Analyse von Cloudanrufwarteschleifen
+### <a name="cloud-call-queue-analytics"></a>Cloudanrufwarteschleife-Analysen
 
 #### <a name="report-description"></a>Berichtsbeschreibung
 
 |Berichtsabschnitt                          |Beschreibung                                                        |
 |:---------------------------------------|:------------------------------------------------------------------|
-|Quelle eines eingehenden<sup>Anrufs 1</sup>        |Verteilung des Anrufs nach interner/externer Anrufquelle              |
-|Anruflautstärke                             |Verteilung von Anrufen nach Anrufwarteschleifen                                |
+|Eingehende Anrufquelle<sup>1</sup>        |Verteilung des Anrufs nach interner/externer Anrufquelle              |
+|Anruflautstärke                             |Verteilung des Anrufs nach Anrufwarteschleifen                                |
 |Anruferergebnis                           |Verteilung des Anrufs nach Anrufergebnis                                |
-|Aktion "Timeout/Überlaufaufruf Gesamt"      |Verteilung des NICHT weitergeleiteten(abgebrochenen) Anrufs nach Anrufergebnis       |
-|Gesamtübertragungsziel für Übertragung/Weiterleitung          |Verteilung des nach Anrufergebnis weitergeleiteten Anrufs                      |
-|Verhältnis für abgebrochene Anrufe                   |Verhältnis von erfolgreichem zu abgebrochener Anrufanzahl                        |
-|Durchschnittliche Sitzungslänge (Sekunden)        |Anruflänge in Sekunden nach abgebrochenen/erfolgreichen Anrufen       |
+|Aktion "Timeout/Überlaufanruf gesamt"      |Verteilung von NICHT weitergeleiteten (abgebrochenen) Anrufen nach Anrufergebnis       |
+|Summen des Übertragungs-/Weiterleitungsziels          |Verteilung des weitergeleiteten Anrufs nach Anrufergebnis                      |
+|Verhältnis abgebrochener Anrufe                   |Verhältnis der Anzahl erfolgreicher und abgebrochener Anrufe                        |
+|Durchschnittliche Sitzungslänge (Sekunden)        |Anruflänge in Sekunden gruppiert nach abgebrochenen/erfolgreichen Anrufen       |
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Bericht zur CQD-Tabelle und Feldzuordnung
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Bericht an AQD-Tabelle und Feldzuordnung
 
-|Berichtsregisterkarte         |Berichts-Tabellennamen                                                          |Globaler Filter |
+|Registerkarte "Bericht"         |Berichtstabellennamen                                                          |Globalfilter |
 |:------------------|:---------------------------------------------------------------------------|:-------------|
 |Anrufwarteschleife         |Datumsangaben<br>dCQ-CQIdenity<br>fCallQueueAnalytics<br>fCallQueueFinalStateAction |Keine          |
  
-|Name der Berichtstabelle            |Name der Quelltabelle            |Wird verarbeitet       |
+|Berichtstabellenname            |Quelltabellenname            |Verarbeitung       |
 |:----------------------------|:----------------------------|:----------------|
 |Datumsangaben                        |Datumsangaben                        |Keine             |
-|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics, <br>#"Removed Columns" = Table.RemoveColumns(Source,{"Call Count", "Call Queue Call Result", "Date", "PSTN Connectivity Type", "Call Queue Target Type", "PSTN Total Minutes"}),<br>Distinct = Table.Distinct(#"Removed Columns") |
+|dCQ-CQIdentity               |CallQueueAnalytics           |Quelle = CallQueueAnalytics, <br>#"Entfernte Spalten" = Table.RemoveColumns(Quelle,{"Anrufanzahl", "Anrufergebnis der Anrufwarteschleife", "Datum", "PSTN-Konnektivitätstyp", "Zieltyp der Anrufwarteschleife", "PSTN-Minuten gesamt"}),<br>Distinct = Table.Distinct(#"Entfernte Spalten") |
 |fCallQueueAnalytics          |CallQueueAnalytics           |Keine             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |Keine             |
 
-|Berichtsabschnitt                      |Table -> Field(s) Used                |Angewendete Filter       |
+|Berichtsabschnitt                      |Tabelle -> Feld(er) verwendet                |Filter angewendet       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
-|Datumsauswahl                       |Dates -> DateTime                     |Keine                  |
-|Anrufwarteschlangenidentität                 |dCQ-CQIdentity -> Call Queue Identity |Keine                  |
-|Quelle eines eingehenden<sup>Anrufs 1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |Externe Anrufe: Anruftyp ist extern<br>Interne Anrufe: Anruftyp ist intern |
-|Avg Waiting Time                    |fCallQueueFinalStateAction -> Average Call Duration (Seconds) |Vor der Übertragung: Das Anrufergebnis der Anrufwarteschleife agent_joined_conference oder transferred_to_agent<br>Vor auflegen: Das Anrufergebnis der Anrufwarteschleife wird agent_joined_conference nicht transferred_to_agent |
-|Anrufergebnis                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | Keine |
-|Timeout/Überlaufaufrufe Gesamtaktion |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Aktion zum endgültigen Status der Anrufwarteschleife |Aktion zum endgültigen Status einer Anrufwarteschleife wird nicht weitergeleitet |
-|Gesamtziel für Übertragungen/Forard       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |Keine |
-|Anrufvolumen                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Identifizieren einer Anrufwarteschleife<br>fCallQueueAnalytics -> Date |Keine |
-|Abgebrochene Anrufe                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned is True |
-|Durchschnittliche Sitzungslänge (Sekunden)    |fCallQueueFinalStateAction -> Average Call Duration<br>fCallQueueFinalStateAction -> Date<br>fCallQueueFinalStateAction -> IsAbandoned |Keine |
+|Datumsauswahl                       |Datum -> Datum/Uhrzeit                     |Keine                  |
+|Anrufwarteschleifenidentität                 |dCQ-CQIdentity -> Anrufwarteschleifenidentität |Keine                  |
+|Eingehende Anrufquelle<sup>1</sup>    |fCallQueueAnalytics -> Anrufanzahl<br>fCallQueueAnalytics -> Anruftyp    |Externe Anrufe: Anruftyp ist extern<br>Interne Anrufe: Anruftyp ist intern |
+|Durchschnittliche Wartezeit                    |fCallQueueFinalStateAction -> Durchschnittliche Anrufdauer (Sekunden) |Vor der Übertragung: Anrufergebnis der Anrufwarteschleife ist agent_joined_conference oder transferred_to_agent<br>Vor dem Auflegen: Anrufergebnis der Anrufwarteschleife ist nicht agent_joined_conference oder transferred_to_agent |
+|Anrufergebnis                         |fCallQueueAnalytics -> Anrufanzahl<br>fCallQueueAnalytics -> Anrufergebnis der Anrufwarteschleife | Keine |
+|Aktion "Timeout/Überlaufanrufe gesamt" |fCallQueueFinalStateAction -> Anrufanzahl<br>fCallQueueFinalStateAction -> Aktion "Endzustand der Anrufwarteschleife" |Die Aktion "Endzustand der Anrufwarteschleife" ist nicht weitergeleitet |
+|Summen des Übertragungs-/Weiterleitungsziels       |fCallQueueAnalytics -> Anrufanzahl<br>fCallQueueAnalytics -> Zieltyp der Anrufwarteschleife |Keine |
+|Anrufvolumes                        |fCallQueueAnalytics -> Anrufanzahl<br>fCallQueueAnalytics -> Anrufwarteschleifenidentifizierung<br>fCallQueueAnalytics -> Datum |Keine |
+|Abgebrochene Anrufe                     |fCallQueueAnalytics -> %Abgebrochene Anrufe<br>fCallQueueAnalytics -> Anrufanzahl<br>fCallQueueAnalytics -> Datum<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned ist TRUE |
+|Durchschnittliche Sitzungslänge (Sekunden)    |fCallQueueFinalStateAction -> Durchschnittliche Anrufdauer<br>fCallQueueFinalStateAction -> Datum<br>fCallQueueFinalStateAction -> IsAbandoned |Keine |
 
-#### <a name="dcq-cqidenity-cqd-fields-description"></a>Beschreibung der Felder "dCQ-CQIdenity" im Feld "DCQ-CQIdenity"
+#### <a name="dcq-cqidenity-cqd-fields-description"></a>Beschreibung der dCQ-CQIdenity AQD-Felder
 
 |Name                                    |Datentyp                |Beschreibung                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|Anrufwarteschlangenidentität                     |Text                     |Name des an die Anrufwarteschleife angefügten Ressourcenkontos<br><br>Wenn der vollständige Name des Ressourcenkontos **cq_test@microsoft.com** dann der Wert wie hier: **cq_test** |
+|Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 
-#### <a name="fcallqueueanalytics-cqd-fields-description"></a>Beschreibung der FCallQueueAnalytics CQD-Felder
+#### <a name="fcallqueueanalytics-cqd-fields-description"></a>Beschreibung der fCallQueueAnalytics AQD-Felder
 
 |Name                                    |Datentyp                |Beschreibung                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Anrufanzahl                              |ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe                                          |
-|Anrufwarteschleifen-Anrufergebnis                  |Text                     |Endzustand des Anrufwarteschleifenanrufs – mögliche Werte:<br><br>§ agent_joined_conference<br>§ abgelehnt<br>§ getrennt<br>§ Fehler<br>§ fehlgeschlagen<br>§ ungültig<br>§ Überlauf<br>§ timed_out<br>§ transferred_to_agent |
-|Anrufwarteschlangenidentität                     |Text                     |Name des an die Anrufwarteschleife angefügten Ressourcenkontos<br><br>Wenn der vollständige Name des Ressourcenkontos **cq_test@microsoft.com** dann der Wert wie hier: **cq_test** |
-|Zieltyp der Anrufwarteschleife                  |Text                     |***Zieltyp der Anrufumleitung – mögliche Werte:***<br><br>§ ApplicationEndpoint<br>§ Postfach<br>§ Andere<br>§ Benutzer |
-|Anruftyp<sup>1</sup>                   |Text                     |Art des Aufrufs – mögliche Werte:<br><br>§ Extern<br>§ Intern           |
-|Datum                                    |Datum/Uhrzeit                |Startdatum und Uhrzeit des Anrufs in der Anrufwarteschleife (UTC)                           | 
-|IsAbandoned                             |wahr/falsch               |"True", wenn der Anruf nicht von einem Mitarbeiter beantwortet wurde                                   |
-|PSTN Connectivity Type                  |Text                     |Art des Aufrufs – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall   |
-|PSTN Total Minutes                      |ganze Zahl             |Zusammenfassen: Summe<br>Gesamtnutzung in Minuten für PSTN-Anrufe                       |
+|Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
+|Zieltyp der Anrufwarteschleife                  |Text                     |***Zieltyp für Anrufumleitung – mögliche Werte:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
+|Anruftyp<sup>1</sup>                   |Text                     |Anruftyp – mögliche Werte:<br><br>§ External<br>§ Internal           |
+|Datum                                    |Datum/Uhrzeit                |Startdatum und -uhrzeit des Anrufs der Anrufwarteschleife (Stunde) (UTC)                           | 
+|IsAbandoned                             |true/false               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird                                   |
+|PSTN-Konnektivitätstyp                  |Text                     |Anruftyp – mögliche Werte:<br><br>§ ExternalCall<br>§ InternalCall   |
+|PSTN-Minuten gesamt                      |ganze Zahl             |Zusammenfassen: Summe<br>Nutzung in Minuten für PSTN-Anrufe gesamt                       |
 
-#### <a name="fcallqueueanalytics-measures-description"></a>Beschreibung der fCallQueueAnalytics-Measures
+#### <a name="fcallqueueanalytics-measures-description"></a>Beschreibung der fCallQueueAnalytics Kennzahlen
 
 |Name                                    |Datentyp                |Beschreibung                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% Abgebrochene Anrufe***                 |Prozentsatz               |Measure: TotalCallCount /Total Calls<br>Verhältnis von erfolgreichem zu abgebrochener Anrufanzahl    |
-|Anrufe insgesamt                             |ganze Zahl             |Measure: Sum Agent answered calls        |
-|TotalCallCount                          |ganze Zahl             |Measure: Summe(Anrufanzahl)                 |
+|***% Abgebrochene Anrufe***                 |Prozent               |Kennzahl: TotalCallCount / Anrufe gesamt<br>Verhältnis der Anzahl erfolgreicher und abgebrochener Anrufe    |
+|Anrufe gesamt                             |ganze Zahl             |Kennzahl: Vom Agent beantwortete Anrufe summieren        |
+|TotalCallCount                          |ganze Zahl             |Kennzahl: Summe (Anrufanzahl)                 |
 
-#### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>Beschreibung der fCallQueueFinalStateAction CQD-Felder
+#### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>Beschreibung der fCallQueueFinalStateAction AQD-Felder
 
 |Name                                    |Datentyp                |Beschreibung                                        |
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |Durchschnittliche Anrufdauer (Sekunden)         |Dezimalzahl           |Zusammenfassen: Summe<br>Durchschnittliche Anrufdauer in Sekunden |
 |Anrufanzahl                              |ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe                  |
-|Anrufwarteschleifen-Anrufergebnis                  |Text                     |Endzustand des Anrufwarteschleifenanrufs – mögliche Werte:<br><br>§ agent_joined_conference<br>§ abgelehnt<br>§ getrennt<br>§ Fehler<br>§ fehlgeschlagen<br>§ ungültig<br>§ Überlauf<br>§ timed_out<br>§ transferred_to_agent |
-|Aktion zum endgültigen Status einer Anrufwarteschleife           |Text                     |Letzte Aktion der Anrufwarteschleife – mögliche Werte:<br><br>§ trennen<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ weiterleiten<br>§ shared_voicemail<br>§ Sonstiges<br>§ Voicemail |
-|Anrufwarteschlangenidentität                     |Text                     |Name des an die Anrufwarteschleife angefügten Ressourcenkontos<br><br>Wenn der vollständige Name des Ressourcenkontos **cq_test@microsoft.com** dann der Wert wie hier: **cq_test** |
-|Datum                                    |Datum/Uhrzeit                |Startdatum und Uhrzeit des Anrufs in der Anrufwarteschleife (UTC)   |
-|IsAbandoned                             |wahr/falsch               |"True", wenn der Anruf nicht von einem Mitarbeiter beantwortet wurde           |
+|Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
+|Aktion "Endzustand der Anrufwarteschleife"           |Text                     |Letzte Aktion der Anrufwarteschleife – mögliche Werte:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
+|Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
+|Datum                                    |Datum/Uhrzeit                |Startdatum und -uhrzeit des Anrufs der Anrufwarteschleife (Stunde) (UTC)   |
+|IsAbandoned                             |true/false               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird           |
 
 
-### <a name="cloud-call-queue-agent-timeline"></a>Zeitachse für Anrufwarteschleifen-Agent in der Cloud
+### <a name="cloud-call-queue-agent-timeline"></a>Zeitachse des Cloudanrufwarteschleifen-Agents
 
 #### <a name="report-description"></a>Berichtsbeschreibung
 
 |Berichtsabschnitt                                          |Beschreibung                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
-|# Anrufe nach Mitarbeiter                                        |Verteilung von Anrufen nach Anrufwarteschleife und Agent                 |
+|Anzahl Anrufe nach Agent                                        |Verteilung des Anrufs nach Anrufwarteschleife und Agent                 |
 |Gesamtanrufdauer (Sekunden) nach Agent und Anrufwarteschleife   |Gesamtdauer (Sekunden) des Anrufs nach Agent und Anrufwarteschleife     |
-|Durchschnittliche Anrufdauer (Sekunden) nach Agentname           |Durchschnittliche Dauer (Sekunden) des Anrufs nach Agent                  |
+|Durchschnittliche Anrufdauer (Sekunden) nach Name des Agents           |Durchschnittliche Dauer (Sekunden) des Anrufs nach Agent                  |
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Bericht zur CQD-Tabelle und Feldzuordnung
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Bericht an AQD-Tabelle und Feldzuordnung
 
-|Berichtsregisterkarte         |Berichts-Tabellennamen        |Globaler Filter |
+|Registerkarte "Bericht"         |Berichtstabellennamen        |Globalfilter |
 |:------------------|:-------------------------|:-------------|
-|Agent-Zeitachse     |fAgentTimelineAnalytics   |Keine          |
+|Zeitachse des Agents     |fAgentTimelineAnalytics   |Keine          |
  
-|Name der Berichtstabelle            |Name der Quelltabelle            |Wird verarbeitet       |
+|Berichtstabellenname            |Quelltabellenname            |Verarbeitung       |
 |:----------------------------|:----------------------------|:----------------|
-|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Source = AgentTimelineAnalytics, <br>#"Changed Type" = Table.TransformColumnTypes(Source,{{"Call Count", Int64.Type}, {"Call Duration (Minute)", Int64.Type}, {"Average Call Duration (Second)", type number}, {"Date", type date}})|
+|fAgentTimelineAnalytics      |AgentTimelineAnalytics       |Quelle = AgentTimelineAnalytics, <br>#"Geänderter Typ" = Table.TransformColumnTypes(Quelle,{{"Anrufanzahl", Int64.Type}, {"Anrufdauer (Minute)", Int64.Type}, {"Durchschnittliche Anrufdauer (Sekunde)", Nummer eingeben}, {"Datum", Datum eingeben}})|
 
-|Berichtsabschnitt                                |Verwendete Feld(n)                         |Angewendete Filter       |
+|Berichtsabschnitt                                |Feld(er) verwendet                         |Filter angewendet       |
 |:---------------------------------------------|:-------------------------------------|:---------------------|
-|Name des Mitarbeiters                                    |Name des Mitarbeiters                            |Keine                  |
+|Name des Agents                                    |Name des Agents                            |Keine                  |
 |Name der Anrufwarteschleife                               |Name der Anrufwarteschleife                       |Keine                  |
-|#Calls nach Agent                               |Name des Mitarbeiters<br>Anrufanzahl<br>Datum      |Keine                  |
-|Verteilung nach Agent und Anrufwarteschleife          |Name des Mitarbeiters<br>Anrufanzahl<br>Anrufdauer (Minuten)<br>Name der Anrufwarteschleife |Keine                      |
-|Unten links                                   |Name des Mitarbeiters<br>Durchschnittliche Anrufdauer (Sekunde)<br>Anrufanzahl<br>Anrufdauer (Minute)<br>Name der Anrufwarteschleife | Keine |
-|Durchschnittliche Anrufdauer (Sekunden) nach Agentname |Name des Mitarbeiters<br>Durchschnittliche Anrufdauer (Sekunde)<br>Anrufanzahl<br>Anrufdauer (Minute)<br>Name der Anrufwarteschleife | Keine |
+|Anzahl Anrufe nach Agent                               |Name des Agents<br>Anrufanzahl<br>Datum      |Keine                  |
+|Verteilung nach Agent und Anrufwarteschleife          |Name des Agents<br>Anrufanzahl<br>Anrufdauer (Minuten)<br>Name der Anrufwarteschleife |Keine                      |
+|Unten links                                   |Name des Agents<br>Durchschnittliche Anrufdauer (Sekunde)<br>Anrufanzahl<br>Anrufdauer (Minute)<br>Name der Anrufwarteschleife | Keine |
+|Durchschnittliche Anrufdauer (Sekunden) nach Name des Agents |Name des Agents<br>Durchschnittliche Anrufdauer (Sekunde)<br>Anrufanzahl<br>Anrufdauer (Minute)<br>Name der Anrufwarteschleife | Keine |
 
-#### <a name="fagenttimelineanalytics-cqd-fields-description"></a>Beschreibung der fAgentTimelineAnalytics CQD-Felder
+#### <a name="fagenttimelineanalytics-cqd-fields-description"></a>Beschreibung der fAgentTimelineAnalytics AQD-Felder
 
 |Name                                    |Datentyp                |Beschreibung                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|Name des Mitarbeiters                              |Text                     |Benutzer-UPN<br>Wenn der vollständige Benutzername **user@microsoft.com** dann wird der Wert wie hier **angezeigt: Benutzer** |
-|Durchschnittliche Anrufdauer (Sekunde)          |Dezimalzahl           |Zusammenfassen: Summe<br>Durchschnittliche Dauer von Anrufwarteschleifenanrufen in Sekunden |
-|Anrufanzahl                              |ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der vom Mitarbeiter bearbeiteten Anrufe                    |
-|Anrufdauer (Minute)                  |ganze Zahl             |Zusammenfassen: Summe<br>Gesamtanrufdauer von Anrufwarteschleifenanrufen in Minuten  |
-|Name der Anrufwarteschleife                         |Text                     |Name des an die Anrufwarteschleife angefügten Ressourcenkontos<br><br>Wenn der vollständige Name des Ressourcenkontos **cq_test@microsoft.com** dann der Wert wie hier: **cq_test** |
+|Name des Agents                              |Text                     |Benutzer-UPN<br>Wenn der vollständige Benutzername **user@microsoft.com** ist, lautet dieser Wert wie folgt: **user** |
+|Durchschnittliche Anrufdauer (Sekunde)          |Dezimalzahl           |Zusammenfassen: Summe<br>Die durchschnittliche Dauer der Anrufe der Anrufwarteschleife in Sekunden |
+|Anrufanzahl                              |ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der vom Agent verarbeiteten Anrufe                    |
+|Anrufdauer (Minute)                  |ganze Zahl             |Zusammenfassen: Summe<br>Anrufdauer der Anrufe der Anrufwarteschleife insgesamt in Minuten  |
+|Name der Anrufwarteschleife                         |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum                     |                                                    |
 
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-- Anrufwarteschleifen und automatische Telefonkonferenzen werden nach der ID des Ressourcenkontos anstelle der Namen der Anrufwarteschlange/automatischen Telefonant angezeigt.  Wenn Sie den ganzen Datenverkehr für eine automatische Telefonkonferenz oder Anrufwarteschleife anzeigen möchten, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefon attendant oder der Anrufwarteschleife zugewiesen sind.
+- Anrufwarteschleifen und automatische Telefonzentralen werden anhand der ID des Ressourcenkontos anstelle der Namen der Anrufwarteschleife/automatischen Telefonzentralen angezeigt.  Um den gesamten Datenverkehr für eine automatische Telefonzentrale oder Anrufwarteschleife anzuzeigen, müssen Sie alle Ressourcenkonten auswählen, die der automatischen Telefonzentrale oder Anrufwarteschleife zugewiesen sind.
 
-- Der Verlauf von nur 28 Tagen steht im Dashboard zur Verfügung, da Daten aus Anrufwarteschleife und automatischer Telefonkonferenz als persönliche Daten betrachtet werden und den Aufbewahrungsrichtlinien für den Datenschutz unterliegen.
+- Der Verlauf von nur 28 Tagen ist im Dashboard verfügbar, da die Daten der Anrufwarteschleife/automatischen Telefonzentrale als personenbezogene Daten betrachtet werden und den Datenaufbewahrungsrichtlinien unterliegen.
 
-- <sup>1</sup> **Die Quelle eingehender** Anrufe in der automatischen Telefon attendant und die Diagrammen der Anrufwarteschleife zeigen die endgültige Quelle des Anrufs ab und nicht die Quelle des anfänglichen Anrufs. Wenn beispielsweise eine automatische Telefonkonferenz einen externen Anruf erhält und den Anruf an  eine andere automatische Telefonkonferenz oder Anrufwarteschleife überträgt, wird die Eingehende Anrufquelle als Intern angezeigt.
+- <sup>1</sup> **Eingehende Anrufquelle** in den Diagrammen für die automatische Telefonzentrale und die Anrufwarteschleife zeigen die letzte Anrufabschnittsquelle anstelle der ersten Anrufabschnittsquelle an. Wenn beispielsweise eine automatische Telefonzentrale einen externen Anruf empfängt und den Anruf an eine andere automatische Telefonzentrale oder Anrufwarteschleife überträgt, wird die **eingehende Anrufquelle** als intern gemeldet.
