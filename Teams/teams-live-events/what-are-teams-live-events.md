@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 8f196e1539085966c22a775a784913ced417c9cb
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+localization_priority: Priority
+ms.openlocfilehash: 0d1d453e0d9d6575ec108b4bc17cdce1f4dac839
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506722"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096329"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -41,7 +41,7 @@ Teams bietet Chat-basierte Zusammenarbeit, Anrufe, Besprechungen und Liveereigni
 
 Liveereignisse in Teams gelten als die nächste Version von Skype Meeting Broadcast und werden letzten Endes die darin bereitgestellten Funktionen ersetzen. Aktuell wird Microsoft weiterhin Skype Meeting Broadcast für Benutzer unterstützen, die Skype for Business in ihren Organisationen nutzen, ohne Unterbrechung des Dienstes für neue oder zukünftige Ereignisse. Wir empfehlen Ihnen jedoch, die Microsoft Teams-Liveereignisse auszuprobieren, um all die neuen und interessanten Funktionen zu nutzen, darunter die Bildschirmübertragung und Unterstützung für externe Hardware-/Software-Encoder.
 
-Fangen wir also an. Werfen Sie zunächst einen Blick auf das folgende Diagramm, das die an Microsoft 365-Liveereignissen beteiligten hochrangigen Komponenten und deren Verbindungsweise zeigt.
+Legen Sie los. Sehen Sie sich zunächst das folgende Diagramm an, das allgemeine Komponenten zeigt, die an Microsoft 365 Liveereignissen beteiligt sind und wie sie verbunden sind.
 
 ![Die wichtigsten Komponenten von Liveereignissen](../media/live-event-flow-diagram.png  "Schlüsselkomponenten von Liveereignissen, Planung, Produktion, Stream-Plattform und zertifizierten eCDN-Drittanbietern")
 
