@@ -24,7 +24,7 @@ ms.custom:
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
 ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
 ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/25/2021
 ms.locfileid: "53129335"
@@ -33,9 +33,9 @@ ms.locfileid: "53129335"
 
 Die Power BI-Vorlage „Verlaufsbericht für AQD-Teams, automatische Telefonzentrale und Anrufwarteschleife“ enthält die folgenden drei Berichte:
 
-- [automatische Telefonzentrale](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – Anzeigen von Analysen für Anrufe, die an Ihre automatischen Telefon attendants gehen.
-- [Anrufwarteschleife](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – Zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen kommen.
-- [Agent-Zeitachse](media/cqd-teams-aa-cq-historical-report-sample-at.png) – Zeigt eine Zeitachsenansicht der Agents an, die an Anrufen in der Anrufwarteschleife aktiv sind.
+- [Automatische Telefonzentrale](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – zeigt Analysen für Anrufe an, die in Ihren automatischen Telefonzentralen eingehen.
+- [Anrufwarteschleife](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – zeigt Analysen für Anrufe an, die in Ihren Anrufwarteschleifen eingehen.
+- [Agent-Zeitachse](media/cqd-teams-aa-cq-historical-report-sample-at.png) – zeigt eine Zeitachsenansicht der Agents an, die bei Anrufen in der Anrufwarteschleife aktiv sind.
 
 Diese Berichte verwenden Daten aus dem [AQD](CQD-Power-BI-query-templates.md)-Datenspeicher. Sie ermöglichen es Organisationen, die Anzahl der Anrufe zu melden, die von automatischen Telefonzentralen und Anrufwarteschleifen verarbeitet werden.  Sie bieten auch Einblicke in die Agentleistung in den Anrufwarteschleifen.
 
@@ -108,7 +108,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationssc
 Führen Sie die folgenden Schritte durch:
 - Wählen Sie im Menüband **Registerkarte anzeigen** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot: Auswählen der Registerkarte "Ansicht" zum Ändern des Farbschemas":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot: Auswählen der Registerkarte Ansicht zum Ändern des Farbschemas":::
 
 - Wählen Sie in der Dropdownliste das Farbschema aus.
 
