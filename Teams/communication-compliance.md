@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: Informationen zur Kommunikationskonformität, die Teil des Insider-Risikolösungssets ist, aus der Perspektive Microsoft Teams (dies ist Teil der M365 Communication Compliance-Funktionalität).
+description: Learning zur Kommunikationskonformität, die Teil der Insider-Risikolösungslösung ist, aus der Perspektive Microsoft Teams (dies ist Teil der M365 Communication Compliance-Funktionalität).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121533"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126901"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Kommunikationskonformität mit Microsoft Teams
 
 Kommunikationskonformität ist eine Insider-Risikolösung in Microsoft 365, die Ihnen hilft, Kommunikationsrisiken zu minimieren, indem Sie unsachgemäße Nachrichten in Ihrer Organisation erkennen, erfassen und auf diese Weise agieren können.
 
-Im Microsoft Teams hilft Kommunikationskonformität [](/microsoft-365/compliance/communication-compliance-feature-reference) dabei, die folgenden Arten unangemessener Inhalte in Teams Kanälen oder in 1:1- und Gruppenchats zu identifizieren:
+Im Microsoft Teams hilft Kommunikationskonformität [](/microsoft-365/compliance/communication-compliance-feature-reference) dabei, die folgenden Arten unangemessener Inhalte in Teams-Kanälen, privaten Teams-Kanälen oder in 1:1- und Gruppenchats zu identifizieren:
 
 - Anstößige, anstößige und beleidigende Sprache
 - Bilder für Erwachsene, Racy und Gory
@@ -46,7 +46,7 @@ Die ersten Schritte mit Kommunikationskonformität [](/microsoft-365/compliance/
 Teams Administratoren können Richtlinien zur Kommunikationskonformität auf den folgenden Ebenen konfigurieren:
 
 - **Benutzerebene:** Richtlinien auf dieser Ebene gelten für einen einzelnen Teams Benutzer oder können auf alle Benutzer Teams in Ihrer Organisation angewendet werden. Diese Richtlinien umfassen Nachrichten, die diese Benutzer in 1:1- oder Gruppenchats senden können. Die Chatkommunikation für die Benutzer wird automatisch auf allen Microsoft Teams überwacht, in denen die Benutzer Mitglied sind.
-- **Teams:** Richtlinien auf dieser Ebene gelten für einen Microsoft Team-Kanal. Diese Richtlinien decken nur Nachrichten ab, die in Teams Kanal gesendet werden.
+- **Teams:** Richtlinien auf dieser Ebene gelten für einen Microsoft Team-Kanal, einschließlich eines privaten Kanals. Diese Richtlinien decken nur Nachrichten ab, die in Teams Kanal gesendet werden.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Unangemessene Nachrichten in Microsoft Teams
 

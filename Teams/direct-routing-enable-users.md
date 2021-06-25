@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Microsoft-Telefon System Direct Routing aktivieren.
-ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075368"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129325"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -42,7 +42,7 @@ Wenn Sie bereit sind, Benutzer für Direct-Routing zu aktivieren, führen Sie di
 3. Konfigurieren Sie die Telefonnummer, und aktivieren Sie Enterprise-Voicemail. 
 4. Weisen Teams nur den Benutzer den Modus "Nur" zu.
 
-## <a name="create-a-user-and-assign-the-license"></a>Erstellen eines Benutzers und Zuweisen der Lizenz 
+## <a name="create-a-user-and-assign-the-license"></a>Erstellen eines Benutzers und Zuweisen der Lizenz
 
 Es gibt zwei Optionen zum Erstellen eines neuen Benutzers in Microsoft 365 oder Office 365. Microsoft empfiehlt Ihrer Organisation jedoch, eine Option zur Vermeidung von Routingproblemen zu wählen: 
 
@@ -53,9 +53,9 @@ Wenn Ihre Skype for Business Online-Bereitstellung koexistent mit Skype for Busi
 
 Informationen zu den Lizenzanforderungen finden Sie unter [Lizenzierungs- und andere Anforderungen](direct-routing-plan.md#licensing-and-other-requirements) in [Planen von Direct Routing.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Stellen Sie sicher, dass der Benutzer online zu Hause ist und dass die Telefonnummer nicht von der lokalen Lokalen synchronisiert wird (gilt für Skype for Business Server Enterprise-VoIP-aktivierte Benutzer, die zu Direct Routing migriert Teams werden)
+## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Stellen Sie sicher, dass der Benutzer online zu Hause ist (gilt für Skype for Business Server Enterprise-VoIP, die zu Direct-Routing migriert Teams werden)
 
-Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie können dies überprüfen, indem Sie sich den Parameter RegistrarPool anschauen, der einen Wert in der Domäne "infra.lync.com muss. Der OnPremLineUriManuallySet-Parameter sollte ebenfalls auf True festgelegt werden. Dazu konfigurieren Sie die Telefonnummer und aktivieren Enterprise-Voicemail mithilfe von Skype for Business Online PowerShell.
+Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie können dies überprüfen, indem Sie sich den Parameter RegistrarPool anschauen, der einen Wert in der Domäne "infra.lync.com muss. Es wird auch empfohlen,, aber nicht erforderlich, die Verwaltung des LineURI von der lokalen in die Onlineverwaltung zu ändern, wenn Benutzer zu Direct-Routing Teams werden. 
 
 1. Verbinden einer Skype for Business PowerShell-Onlinesitzung.
 
@@ -64,13 +64,16 @@ Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie kö
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Für den Fall, dass "OnPremLineUriManuallySet" auf "False" festgelegt ist und "LineUri" mit einer <E.164-Telefonnummer> aufgefüllt wird, bereinigen Sie die Parameter mit der lokalen Skype for Business-Verwaltungsshell, bevor Sie die Telefonnummer mithilfe von Skype for Business Online PowerShell konfigurieren. 
+    Für den Fall, dass "OnPremLineUriManuallySet" auf "False" festgelegt und "LineUri" mit einer <E.164-Telefonnummer> ausgefüllt wird, wurde die Telefonnummer lokal zugewiesen und mit O365 synchronisiert. Wenn Sie die Telefonnummer online verwalten möchten, bereinigen Sie den Parameter mit der lokalen Skype for Business-Verwaltungsshell, und synchronisieren Sie sie mit O365, bevor Sie die Telefonnummer mithilfe von Skype for Business Online PowerShell konfigurieren. 
 
 1. Von Skype for Business-Verwaltungsshell wird der Befehl aus: 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > Legen Sie EnterpriseVoiceEnabled nicht auf False fest, da dies nicht erforderlich ist, und dies kann zu Problemen bei der Normalisierung des Wählplans führen, wenn ältere Skype for Business-Telefone verwendet werden und die Hybridkonfiguration des Mandanten mit "UseOnPremDialPlan $True" festgelegt ist. 
+    
    Nachdem die Änderungen mit den änderungen synchronisiert Office 365 die erwartete Ausgabe `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` von:
 
    ```console
@@ -79,16 +82,22 @@ Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie kö
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > Die Telefonattribute aller Benutzer müssen online verwaltet werden, bevor Sie die lokale [Umgebung Skype for Business werden.](/skypeforbusiness/hybrid/decommission-on-prem-overview) 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voicemail und -Voicemail 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voicemail und Online-Voicemail 
 
-Nachdem Sie den Benutzer erstellt und eine Lizenz zugewiesen haben, besteht der nächste Schritt im Konfigurieren der Telefonnummer und voicemail des Benutzers. 
+Nachdem Sie den Benutzer erstellt und eine Lizenz zugewiesen haben, besteht der nächste Schritt im Konfigurieren der Onlinetelefoneinstellungen des Benutzers. 
 
-So fügen Sie die Telefonnummer hinzu und aktivieren voicemail:
  
 1. Verbinden einer Skype for Business PowerShell-Onlinesitzung. 
 
-2. Gibt den Befehl aus: 
+2. Wenn Sie die Telefonnummer des Benutzers lokal verwalten, lösen Sie den Befehl aus: 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. Wenn Sie die Telefonnummer des Benutzers online verwalten, stellen Sie den Befehl aus: 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>

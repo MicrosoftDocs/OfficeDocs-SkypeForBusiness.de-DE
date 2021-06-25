@@ -22,30 +22,31 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
-ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
-ms.translationtype: HT
+ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023246"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129335"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
 Die Power BI-Vorlage „Verlaufsbericht für AQD-Teams, automatische Telefonzentrale und Anrufwarteschleife“ enthält die folgenden drei Berichte:
 
-- Automatische Telefonzentrale – zeigt Analysen für Anrufe an, die in Ihre automatischen Telefonzentralen eingehen.
-- Anrufwarteschleife – zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen eingehen.
-- Agent-Zeitachse – zeigt eine Zeitachsenansicht der Agents an, die in Anrufen der Anrufwarteschleife aktiv sind.
+- [automatische Telefonzentrale](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – Anzeigen von Analysen für Anrufe, die an Ihre automatischen Telefon attendants gehen.
+- [Anrufwarteschleife](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – Zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen kommen.
+- [Agent-Zeitachse](media/cqd-teams-aa-cq-historical-report-sample-at.png) – Zeigt eine Zeitachsenansicht der Agents an, die an Anrufen in der Anrufwarteschleife aktiv sind.
 
 Diese Berichte verwenden Daten aus dem [AQD](CQD-Power-BI-query-templates.md)-Datenspeicher. Sie ermöglichen es Organisationen, die Anzahl der Anrufe zu melden, die von automatischen Telefonzentralen und Anrufwarteschleifen verarbeitet werden.  Sie bieten auch Einblicke in die Agentleistung in den Anrufwarteschleifen.
 
-## <a name="what-are-the-requirements"></a>Welche sind die Anforderungen? 
+## <a name="prerequisites"></a>Voraussetzungen
 
+### <a name="power-bi-desktop"></a>Power BI Desktop
 Sie müssen Power BI Desktop installiert haben. Sie können es aus dem [Microsoft Windows Store](https://aka.ms/pbidesktopstore)installieren.
 
 Sie können die kostenlose Version von Power BI Desktop verwenden. Die mindestens kompatible Version ist 2.85.681.0 (September 2020).
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>Berechtigungen für den Zugriff auf die AQD-Pipeline
+### <a name="permissions-to-access-the-cqd-pipeline"></a>Berechtigungen für den Zugriff auf die AQD-Pipeline
 
 Das Konto, das Sie zum Anzeigen des Verlaufsberichts "AA- und CQ-Analysen" verwenden, muss über Berechtigungen für den Zugriff auf die AQD-Datenpipeline verfügen. Weitere Informationen finden Sie unter [AQD-Zugriffsrolle](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd).
 

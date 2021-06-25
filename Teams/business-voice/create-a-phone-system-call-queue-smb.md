@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Erfahren Sie, wie Sie Anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
-ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739685"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126921"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschleife – Lernprogramm für Kleinunternehmen
 
@@ -118,13 +118,13 @@ Sie können ein Ressourcenkonto im Teams Admin Center erstellen.
 
 Sie müssen dem *Ressourcenkonto Microsoft 365 Telefonsystem - Virtueller Benutzer* zuweisen.
 
-1. Klicken Sie Microsoft 365 Admin Center in  der Liste Aktive Benutzer auf das Ressourcenkonto, dem Sie eine Lizenz zuweisen möchten.
+1. Klicken Sie Microsoft 365 Admin Center der Liste **Aktive** Benutzer auf das Ressourcenkonto, dem Sie eine Lizenz zuweisen möchten.
 
 2. Wählen Sie **auf der Registerkarte Lizenzen** und Apps unter **Lizenzen** die Option Microsoft 365 Telefonsystem **- Virtueller Benutzer aus.**
 
 3. Klicken **Sie auf Änderungen speichern**.
 
-    ![Screenshot der Benutzeroberfläche zum Zuweisen von Lizenzen im Microsoft 365 Admin Center](../media/resource-account-assign-virtual-user-license.png)
+    ![Screenshot der Benutzeroberfläche "Lizenzen zuweisen" im Microsoft 365 Admin Center](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -157,7 +157,7 @@ Als Nächstes erstellen wir eine neue Anrufwarteschleife und weisen das Ressourc
 
 # <a name="step-3brcall-agents"></a>[Schritt 3 <br> Telefonmitarbeiter anrufen](#tab/call-agents)
 
-Um agents zur Anrufwarteschleife hinzuzufügen, fügen wir sie dem Team und Kanal hinzu, die wir zuvor erstellt haben.
+Um agents zur Anrufwarteschleife hinzuzufügen, fügen wir sie dem Team und Kanal hinzu, die wir zuvor erstellt haben. Sie müssen ein Mitglied des Teams sein, um dies zu tun.
 
 1. Wählen Sie die **Option Team auswählen aus,** und klicken **Sie auf Kanal hinzufügen**.
 2. Geben Sie den Namen des Teams ein, das Sie erstellt haben, wählen Sie es aus, und klicken Sie auf **Hinzufügen**.

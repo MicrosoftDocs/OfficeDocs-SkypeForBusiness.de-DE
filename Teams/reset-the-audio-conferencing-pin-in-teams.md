@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Audiokonferenz-PIN eines Benutzers in ihrem Microsoft Teams zurücksetzen, und erfahren Sie wichtige Informationen zu PINs.
-ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 6470085fed25a83c1a8dc46ab45e8c6ea57b5603
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075378"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114024"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams
 
@@ -64,7 +64,7 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer mit 
     
 - Das automatische Senden von E-Mails an Benutzer ist standardmäßig aktiviert, und Benutzer erhalten eine E-Mail mit ihrer PIN, wenn sie für Audiokonferenzen aktiviert oder die PIN zurückgesetzt wird. Wenn Sie das automatische Senden von E-Mails deaktiviert haben, wird keine E-Mail zum Zurücksetzen der PIN an einen Benutzer gesendet, und Sie müssen die PIN-Informationen manuell an den Benutzer senden.
     
-- Wenn eine Besprechung beginnt, nehmen alle Benutzer im Wartebereich automatisch an der Besprechung teil. Wenn beispielsweise zwei Teilnehmer versuchen, vor dem Beginn einer Besprechung an einer Besprechung teilnehmen, werden sie in den Wartebereich setzen und hören Warteschleifenmusik. Wenn der Organisator der Besprechung mit seiner PIN per Telefon beitritt, beginnt die Besprechung, und die Teilnehmer im Wartebereich nehmen an der Besprechung teil.
+- Wenn eine Besprechung beginnt, muss der Organisator alle PSTN-Benutzer im Wartebereich einräumen, um an der Besprechung teilnehmen zu können. Wenn beispielsweise zwei PSTN-Teilnehmer versuchen, vor dem Beginn einer Besprechung an einer Besprechung teilzugeben, werden sie in den Wartebereich setzen und hören Warteschleifenmusik, und wenn der Organisator der Besprechung per Telefon mit seiner PIN beitritt, wird die Besprechung gestartet, und der Organisator kann den In-Meeting-Befehl (drücken Sie *21) verwenden, um alle PSTN-Benutzer im Wartebereich einzuräumen.
     
 - Die Standardeinstellung ist, dass das Starten einer Besprechung durch anonyme Anrufer nicht zulässig ist.
     

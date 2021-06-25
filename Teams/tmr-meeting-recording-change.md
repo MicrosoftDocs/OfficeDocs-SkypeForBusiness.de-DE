@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096299"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114014"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -57,7 +57,7 @@ Die Verwendung von OneDrive for Business und SharePoint zum Speichern von Aufzei
 - Multi-Geo-Unterstützung – Aufzeichnungen werden in einer für den Benutzer spezifischen Region gespeichert
 - Unterstützung von "Bring your own key" (BYOK)
 
-Hier finden Sie eine vollständige Liste der heute verfügbaren Features [und was im Laufe der Zeit zu erwarten ist.](https://docs.microsoft.com/stream/streamnew/features-new-version-stream) 
+Hier finden Sie eine vollständige Liste der heute verfügbaren Features [und was im Laufe der Zeit zu erwarten ist.](/stream/streamnew/features-new-version-stream) 
 
 Weitere Informationen finden Sie unter "Microsoft Teams für Besprechungsaufzeichnungen".
 
@@ -142,7 +142,7 @@ Standardmäßig gehen alle Aufzeichnungsdateien an das OneDrive-Konto des Benutz
 
 **Was mache ich mit Aufzeichnungen von ehemaligen Mitarbeitern?**
 
-Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandelt werden, folgen Besitz und Aufbewahrung nach dem Verlassen eines Mitarbeiters dem normalen [OneDrive for Business- und SharePoint-Prozess]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process).
+Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandelt werden, folgen Besitz und Aufbewahrung nach dem Verlassen eines Mitarbeiters dem normalen [OneDrive for Business- und SharePoint-Prozess](/onedrive/retention-and-deletion#the-onedrive-deletion-process).
 
 **Wer besitzt die Berechtigungen zur Ansicht der Besprechungsaufzeichnung?**
 
@@ -155,7 +155,7 @@ Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandel
 
 **Wie kann ich Untertitel verwalten?**
 
-Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen die [Aufzeichnungstranskription über Richtlinien aktivieren]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) um sicherzustellen, dass ihre Benutzer die Möglichkeit haben, Besprechungen mit Transkription aufzeichnen zu können.
+Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen die [Aufzeichnungstranskription über Richtlinien aktivieren](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) um sicherzustellen, dass ihre Benutzer die Möglichkeit haben, Besprechungen mit Transkription aufzeichnen zu können.
 
 Untertitel helfen dabei, Inhalte für Betrachter aller Fähigkeiten inklusiv zu gestalten. Als Besitzer können Sie Untertitel in der Besprechungsaufzeichnung ausblenden, obwohl die Besprechungstranskription in Teams weiterhin verfügbar ist, sofern Sie sie dort nicht löschen. 
 

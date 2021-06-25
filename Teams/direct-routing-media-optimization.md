@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimierung lokaler Medien für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aab38cb7f844764faac0e9c19bc03110adac9c10
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 36d42310b056d0b7774dfddd04f63e4f871851fe
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469667"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129345"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>Optimierung lokaler Medien für direktes Routing
 
@@ -78,7 +78,8 @@ Um eine Lösung zu erstellen, bei der PSTN-Dienste für alle lokalen Zweigstelle
 
 - Wenn sich ein Benutzer außerhalb des Unternehmensnetzwerks befindet, stellt der SBC die externe (öffentliche) IP-Adresse des SBC zur Wird-öffentlichen IP-Adresse zur.
 
-Hinweis: Alle Werte in Beispielen, Tabellen oder Diagrammen werden nur zur Veranschaulichung dargestellt.
+> [!NOTE]
+> Alle Werte in Beispielen, Tabellen oder Diagrammen werden nur zur Veranschaulichung dargestellt.
 
 Tabelle 1. Beispiel für Netzwerkparameter für SBCs 
 
@@ -152,7 +153,8 @@ Das folgende Diagramm zeigt den Datenverkehr auf hoher Ebene für das Szenario, 
 
 - Der downstream-SBC in der lokalen Zweigstelle ist für Telefonsystem nicht direkt sichtbar, sondern innerhalb der virtuellen Netzwerktopologie zugeordnet, die vom Contoso-Administrator beim Einrichten der Optimierung für lokale Medien definiert wird.
 
-Hinweis: Je nach konfigurierter Optimierungsmodus für lokale Medien kann das Verhalten für lokale Benutzer und nicht lokale Benutzer unterschiedlich sein. 
+> [!NOTE]
+> Je nach konfigurierter Optimierungsmodus für lokale Medien kann das Verhalten für lokale Benutzer und nicht lokale Benutzer unterschiedlich sein. 
 
 Weitere Informationen zu möglichen Modi und relevantem Verhalten finden Sie unter Konfigurieren der Optimierung lokaler Medien.
 
@@ -188,8 +190,8 @@ Die Optimierung lokaler Medien unterstützt zwei Modi:
 
 Um zwischen lokalen Medienoptimierungsmodi zu unterscheiden, muss der Mandantenadministrator den Parameter "-BypassMode" mithilfe des Set-CSonlinePSTNGateway-Cmdlets entweder auf "Always" oder "OnlyForLocalUsers" festlegen. Weitere Informationen finden Sie unter [Konfigurieren der Optimierung lokaler Medien.](direct-routing-media-optimization-configure.md)  
 
- > [!NOTE]
-  > Bei internen Benutzern ist eine Medienkonnektivität zwischen dem Benutzer und dem SBC über die interne IP-Adresse **erforderlich.** In diesem Fall gibt es keinen Fallback für Relays für den öffentlichen Transport für Medien, da der SBC eine interne IP für Die Medienkonnektivität stellt. 
+> [!NOTE]
+> Bei internen Benutzern ist eine Medienkonnektivität zwischen dem Benutzer und dem SBC über die interne IP-Adresse **erforderlich.** In diesem Fall gibt es keinen Fallback für Relays für den öffentlichen Transport für Medien, da der SBC eine interne IP für Die Medienkonnektivität stellt. 
 
 ### <a name="mode-1-always-bypass"></a>Modus 1: Immer umgehen
 
@@ -331,7 +333,7 @@ Im Folgenden finden Sie eine Liste der bekannten Probleme, die derzeit bei der O
 
 | Problem | Problemumgehung |
 | :--- | :--- |
-| Teams Client wird nicht als **intern** identifiziert, wenn Teams öffentliche IP-Adresse des Kunden der Liste Vertrauenswürdige IP des Kunden entspricht. | Die Optimierung lokaler Medien setzt voraus, dass Teams Client-Subnetz einem vom Mandanten konfigurierten [Netzwerksubnetz-Subnetz entspricht.](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
+| Teams Client wird nicht als **intern** identifiziert, wenn Teams öffentliche IP-Adresse des Kunden der Liste Vertrauenswürdige IP des Kunden entspricht. | Die Optimierung lokaler Medien setzt voraus, dass Teams Client-Subnetz einem vom Mandanten konfigurierten [Netzwerksubnetz-Subnetz entspricht.](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | Anrufskalation führt zu Gesprächsanrufen, wenn Teams-Client als intern identifiziert wird.| Deaktivieren Sie die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|
 | Anrufskalation von 1 bis 1 Anruf zwischen internen Kunden zum Mehrteileranruf mit externen Kunden/Ressourcen führt zu abgelegten Anrufen | Es wird noch an einer Lösung gearbeitt. Deaktivieren Sie alternativ die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|
 | Teams Der Benutzer hält den Anruf. Musik auf dem PSTN-Ende ab, und die Optimierung lokaler Medien funktioniert. Der Teams benutzer setzt den Anruf fort. Der Aufruf von PSTN wird fortgesetzt, aber die Optimierung der lokalen Medien funktioniert nicht, und der Aufruf wird über zentrale SBC (Proxy) fortgesetzt. | Wenn ein Benutzer einen Anruf startet, um Musik im Warteschleifen-Speicher (MoH) zu initiieren, wird er von 1:1 zu einem Anruf mit mehrerenPartys durch den Anrufcontroller eskaliert, um media controller and media processor (als AVMCU-Mixer dienen) aufzurufen, über den MoH einen benutzer erreicht, der im Halteraum war. Die Deeskalierung auf einen 1:1-Anruf nach dem Fortsetzen des Anrufs erfolgt nicht wie je nach Entwurf. Deaktivieren Sie die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|

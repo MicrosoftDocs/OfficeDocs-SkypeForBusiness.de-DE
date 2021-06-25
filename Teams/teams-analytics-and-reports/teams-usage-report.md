@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie den Microsoft Teams-Nutzungsbericht im Micros
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 993c1b124737a0f335e9c9b1e720af72fcc88a8e
-ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
+ms.openlocfilehash: 37f0a69a5e6a6a3e2c54ae7c60effc0f1639bbef
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50122255"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114035"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams – Nutzungsbericht
 
@@ -33,7 +33,7 @@ Der Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center gibt Ihnen e
 1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option **Teams aus.**
 2. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
-    ![Screenshot des Teams-Nutzungsberichts im Teams Admin Center mit Callouts](../media/teams-reports-teams-usage-with-callouts.png "Screenshot des Teams-Nutzungsberichts im Teams Admin Center mit Callouts")
+    ![Screenshot des Teams-Nutzungsberichts im Teams Admin Center mit Callouts](../media/teams-reports-teams-usage-with-callouts1.png "Screenshot des Teams-Nutzungsberichts im Teams Admin Center mit Callouts")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
@@ -46,6 +46,8 @@ Der Microsoft Teams-Nutzungsbericht im Microsoft Teams Admin Center gibt Ihnen e
 |**5**   |Die Tabelle enthält eine Aufschlüsselung der Nutzung nach Team. <ul><li>**Teamname** ist der Anzeigename des Teams. Sie können auf den Teamnamen klicken, um zur Einstellungsseite des Teams im Microsoft Teams Admin Center zu wechseln. </li> <li>**Datenschutz** gibt an, ob es sich um ein privates oder öffentliches Team handelt.</li> <li>**Aktive Benutzer** entspricht der Anzahl der aktiven Benutzer im Team im angegebenen Zeitraum.</li><li>**Gäste** entspricht der Anzahl der Gäste im Team im angegebenen Zeitraum.</li> <li>**Aktive Kanäle** ist die Anzahl der Kanäle, die im angegebenen Zeitraum über mindestens einen aktiven Benutzer verfügen.</li> <li>**Nachrichten posten** ist die Anzahl aller Beitragnachrichten in Kanälen im angegebenen Zeitraum.</li> <li>**Antwortnachrichten** ist die Anzahl aller Antwortnachrichten in Kanälen im angegebenen Zeitraum.</li> <li>**Organisierte Besprechungen** ist die Anzahl der geplanten und Ad-hoc-Besprechungen, die ein Benutzer während des angegebenen Zeitraums organisiert hat. </li><li>**Dringende** Nachrichten ist die Anzahl aller dringenden Nachrichten im angegebenen Zeitraum.</li><li>**Reaktionen** ist die Anzahl aller Reaktionen auf Nachrichten im angegebenen Zeitraum.</li><li>**Erwähnungen** ist die Anzahl aller Erwähnungen, die im angegebenen Zeitraum in Nachrichten verwendet wurden.</li><li>**Kanalnachrichten** ist die Anzahl der eindeutigen Nachrichten, die die Benutzer des Teams während des angegebenen Zeitraums in einem Teamchat gepostet haben.</li> </li> </ul>Wenn in Azure AD kein Benutzerkonto mehr vorhanden ist, wird der Benutzername in der Tabelle als "--" angezeigt. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**6**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 |**7**   |Sie können den Bericht zur Offlineanalyse in eine CSV-Datei exportieren. Klicken **Sie auf** In Excel exportieren, und klicken  Sie dann auf der Registerkarte **Downloads** auf Herunterladen, um den Bericht herunterzuladen, wenn er bereit ist.<br><br>![Screenshot der Registerkarte "Downloads" mit exportierten Berichten zum Herunterladen](../media/teams-reports-export-to-csv.png)|
+|**8** |Die Datenpunkte der Zeitreihen im Diagramm zeigen unterschiedliche Nutzungsmetriken, die im Mandanten zusammengefasst sind.|
+|**9** |Tabellarische Daten stellten unterschiedliche, pro Team zusammengefasste Nutzungsmetriken|
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 

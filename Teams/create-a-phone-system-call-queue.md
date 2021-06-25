@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Musik halten, Anrufumleitung und weitere Funktionen bieten.
-ms.openlocfilehash: fe0c2863c627f728f5418cfeb9b7b17c91d246fa
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: c07c5a42241a62f9ecfe90340cab473800469ca9
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777926"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126891"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -106,7 +106,7 @@ In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiederge
 
 Über einen Kanal können Sie bis zu 200 Agents Teams hinzufügen.
 
-Wenn Sie zum Verwalten der Warteschlange Teams [Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)verwenden möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie auf Kanal **hinzufügen**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten, und klicken Sie auf **Übernehmen**.
+Wenn Sie zum Verwalten der Warteschlange Teams [Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)verwenden möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie auf Kanal **hinzufügen**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten, und klicken Sie auf **Übernehmen**. Sie müssen Ein Mitglied des Teams oder der Ersteller des Kanals oder ein Besitzer des Kanals sein.
 
 Die folgenden Clients werden unterstützt, wenn Sie einen Teams für Anrufwarteschleifen verwenden: 
 
