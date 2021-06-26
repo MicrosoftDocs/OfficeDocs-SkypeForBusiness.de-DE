@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Portugal für Microsoft Teams.
-ms.openlocfilehash: a7df7688e4d2f7178d794158506560944923e265
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: db9c80bd36e6fbceede52beafc8787513ea5c7e2
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461035"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147133"
 ---
 # <a name="phone-number-management-for-portugal"></a>Telefon der Nummerverwaltung für Portugal
 
@@ -35,7 +35,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
 |Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Anforderung einer neuen Telefonnummer für Portugal (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [Anforderung einer neuen Telefonnummer für Portugal (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com).<br/><br/> Sie müssen auch einen Dreiervertrag ausfüllen, ihn unterzeichnen und [an uns senden.](mailto:ptneu@microsoft.com) Dieses Formular wird Ihnen von unserem PSTN Service Desk-Team gesendet, nachdem Sie eine Bestellung für neue Telefonnummern erhalten haben. <br/><br/>|
-|Übertragen Sie uns Ihre Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Portugal (alle Nummern) (v.5.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/> Sie müssen auch einen Dreiervertrag ausfüllen, ihn unterzeichnen und [an uns senden.](mailto:ptneu@microsoft.com) Dieses Formular wird Ihnen von unserem PSTN Service Desk-Team gesendet, nachdem Sie eine Bestellung zum Übertragen von Telefonnummern aufersandt haben.<br/><br/>|
+|Übertragen Sie uns Ihre Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Portugal (alle Nummern) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/> Sie müssen auch einen Dreiervertrag ausfüllen, ihn unterzeichnen und [an uns senden.](mailto:ptneu@microsoft.com) Dieses Formular wird Ihnen von unserem PSTN Service Desk-Team gesendet, nachdem Sie eine Bestellung zum Übertragen von Telefonnummern aufersandt haben.<br/><br/>|
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen.      <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
 |Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |

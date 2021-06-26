@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie mithilfe der Anruf parken und einen Anruf in einem Anruf halten, Microsoft Teams.
-ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197580"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147183"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -46,6 +46,8 @@ Um Anrufe zu parken und abzurufen, muss ein Benutzer ein Enterprise-VoIP sein un
 ## <a name="configure-call-park-and-retrieve"></a>Konfigurieren des Anruf parkens und Abrufens
 
 Sie müssen ein Teams sein, um die Anruf parken und abrufen zu können. Sie ist standardmäßig deaktiviert. Sie können sie für Benutzer aktivieren und Benutzergruppen mithilfe der Anruf parkrichtlinien erstellen. Wenn Sie dieselbe Richtlinie auf eine Gruppe von Benutzern anwenden, können diese Anrufe zwischen sich selbst parken und abrufen.
+
+Der Bereich der Anrufabrufnummern ist vordefiniert und kann nicht geändert werden. Beim ersten geparkten Anruf wird der Abholcode 10, beim nächsten geparkten Anruf der Abholcode 11 usw. gerendert. bis 99 als Abholcode gerendert wird. Danach beginnen die gerenderten Abholcodes wieder von 10.  Wenn mehr als 89 aktive geparkte Anrufe aktiv sind, werden die gerenderten Abholcodes weiter über 99 hinaus erhöht, damit der 90. aktive geparkte Anruf 100 für einen Abholcode gerendert wird, beim 91. aktiven geparkten Anruf wird der Abholcode 101 gerendert.
 
 So aktivieren Sie eine Anruf parkrichtlinien
 
@@ -76,7 +78,7 @@ So weisen Sie einer Gruppe eine Anruf parkrichtlinie zu
 
 [Parken eines Anrufs in Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
 
 [New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
 

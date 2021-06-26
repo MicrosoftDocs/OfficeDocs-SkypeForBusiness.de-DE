@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Luxemburg für Microsoft Teams.
-ms.openlocfilehash: 37ae92d4e162eef5d70015230037e4b6b0e751a4
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: f5b97447a1a6e473ccaad0058c6e3a8abcf7e48b
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993888"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147153"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Telefon Nummerverwaltung für Luxemburg
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
 |Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. |In Luxemburg können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen [und an uns senden.](mailto:ptneu@microsoft.com)<ul><li>[Neue Telefonnummernanforderung für Luxemburg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Neue Telefonnummernanforderung für Luxemburg – Deutsch (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Neue Telefonnummernanforderung für Luxemburg – Luxemburgisch (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Neue Telefonnummernanforderung für Luxemburg – Französisch (v.1.0) (lu-FR)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen. |
-|Übertragen Sie uns Ihre Telefonnummern.| Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Luxemburg (alle Nummern) (v.1.0) (en-lu)](https://download.microsoft.com/download/c/b/2/cb259b46-16bc-4ce0-925d-42b1a905b851/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.0)-(en-lu).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Die Übertragung von Nummern kann in diesem Markt zwei bis drei Wochen dauern.<br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.    |
+|Übertragen Sie uns Ihre Telefonnummern.| Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Luxemburg (alle Nummern) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Die Übertragung von Nummern kann in diesem Markt zwei bis drei Wochen dauern.<br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.    |
 |Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
 |Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
