@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863216"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142811"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Übersicht über die Richtliniensteuerung für Microsoft Teams
 
@@ -35,7 +35,7 @@ Dieser Artikel soll Ihnen Informationen über Kontrollmechanismen für den Daten
 Im Rahmen dieser Änderungen gibt es neue und aktualisierte Benutzeroberflächenelemente (UI) und Richtlinieneinstellungen.
 
 > [!IMPORTANT]
-> Weitere Informationen finden Sie in den Inhalten zu Microsoft 365 unter [Übersicht über die Datenschutzsteuerungen](/deployoffice/privacy/overview-privacy-controls).
+> Weitere Informationen finden Sie in der [Übersicht über Datenschutzkontrollen für Microsoft 365 Apps for Enterprise](/deployoffice/privacy/overview-privacy-controls).
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Diagnosedaten, die von Microsoft 365 Apps for Enterprise an Microsoft gesendet werden
 

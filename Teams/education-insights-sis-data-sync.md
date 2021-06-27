@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b0d9ae3788be09e4a66724e6122791a91b6879f
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 5d5ba5c2c5179d5c333472450fd9b2e9c270a4e9
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997734"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142841"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>SIS-Daten (Schülerinformationssystem) mit Education Insights synchronisieren
 Je mehr Daten in [Education Insights](class-insights.md) eingespeist werden, desto besser können Dozenten Ihre Schüler/Studenten sowie Schulleiter ihre Dozenten unterstützen.
@@ -33,55 +33,52 @@ Dies ist *nicht* erforderlich für das Anzeigen von Insights auf Klassenebene al
 ## <a name="plan-your-school-data-sync-integration"></a>Planen der School Data Sync (SDS) Integration
 Die Microsoft School Data Sync (SDS) stellt die Schüler-/Studenteninformationssystems (SIS)-Daten bereit und bildet die hierarchische Struktur des Bildungssystems und ordnet zu, welcher Benutzer wo zugewiesen ist, sowie zusätzliche Daten zur Hierarchie von Schülern und Organisationen.
 
-Insights funktioniert am besten bei Verwendung des [SDS V2-Dateiformats](/schooldatasync/sds-v2-csv-file-format) und höher, unterstützt aber auch [SDS V1-Dateiformat](/schooldatasync/school-data-sync-format-csv-files-for-sds) *mit eingeschränkter Funktionalität*.
+Insights funktioniert am besten bei Verwendung des [SDS V2.1-Dateiformats](/schooldatasync/sds-v2.1-csv-file-format), unterstützt aber auch das [SDS V2-Dateiformat](/schooldatasync/sds-v2-csv-file-format) und das  [SDS V1-Dateiformat](/schooldatasync/school-data-sync-format-csv-files-for-sds) *mit eingeschränkter Funktionalität*.
 
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>Unterschiede zwischen den Dateiformaten SDS V1 und V2
 
-Um Insights optimal nutzen zu können, empfiehlt es sich, das Dateiformat V2 oder V2.1 (bald verfügbar) zu verwenden.
-
-| Datentyp | V1 | V2 |
+| Datentyp | V1 | V2 und V2.1 |
 |:--- |:--- |:--- |
-| **Benutzer** | Das V1-Format enthält **nur Lehrkräfte**, sodass Sie zum Festlegen von Berechtigungen auf Organisationsebene für Ihre Bildungsleiter die jeweilige Berechtigung manuell definieren müssen. | Das V2-Format enthält **alle Rollen**, sodass Sie rollenbasierte Berechtigungen zuweisen können. |
-| **Organisationen** | Das V1-Format enthält **nur Schulen**, sodass nur eine Aggregationsebene (alle Ihre Schulen) angezeigt wird. Sie können in eine bestimmte Schule hineinzoomen, indem Sie eine flache Liste verwenden. Diese Liste kann jedoch eine große Anzahl von Schulen oder verschiedene Schultypen enthalten, die schwer zu vergleichen sind (z. B. Grundschule mit Sekundarschule oder naturwissenschaftliche mit künstlerischer Schule).<br/><br/> Wenn eine Hierarchie vorhanden ist, können Sie sinnvolle Ebenen erstellen, wie z. B. eine Naturwissenschafts- oder Kunstabteilung.| Das V2-Format enthält **die vollständige Hierarchie Ihres Schulbezirks oder Ihrer Bildungseinrichtung**, einschließlich Universitäten, Fachhochschulen, Fakultäten, Campus, Regionen, Programmen und so weiter.<br/><br/> Mit einer Hierarchie können Sie relevante Aggregationen nach jeder Ebene der Hierarchie sehen, schnell zwischen Organisationseinheiten auf jeder Ebene vergleichen, bestimmten Ebenen Berechtigungen zuweisen, Ziele nach Organsationsebene setzen usw.|
+| **Benutzer** |Unterstützt nur die Rolle „Dozent“, daher müssen Berechtigungen auf Organisationsebene für Ihre Schulleiter manuell festgelegt werden.|Unterstützt mehrere Rollen, sodass rollenbasierte Berechtigungen festgelegt werden können|
+| **Organisationen** | Unterstützt nur „Schulen“, Aggregationsebene.<br><br>Daher werden nicht mehrere Aggregationsebenen bereitgestellt, und es ist nur eingeschränkt möglich, verschiedene Schultypen zu vergleichen (z. B. Primäre und sekundäre Bildungseinrichtung, wissenschaftliche und künstlerische Bildungseinrichtung).|Unterstützt eine Hierarchie mit mehreren Ebenen einschließlich Bezirk/Institution, Universitäten, Hochschulen, Fakultäten, Campus, Regionen, Programme usw.<br><br>Ermöglicht mehrere Aggregationsebenen und den einfachen Vergleich zwischen Organisationseinheiten auf jeder Ebene, das Zuweisen von Berechtigungen zu bestimmten Ebenen, das Festlegen von Zielen nach Organisationsebene usw.|
+| **Zusätzliche optionale Informationen** |Keine|**Nur V2.1-Dateiformat**<br><br>*Akademische Sitzungen* – Zeitrahmen für Sitzungen (Semester, Schuljahre usw.)<br><br>Demografische Daten und Schüler/Studentenflags* – Daten wie Herkunft, ethnische Zugehörigkeit und Geschlecht sowie spezielle Programme (IEP, 504)|
 
 > [!NOTE]
 > Kunden können ab dem 15. Juli 2021 kein Onboarding des Dateiformats V2 durchführen und müssen stattdessen das V2.1-Format verwenden. Alle zukünftigen Upgrades und neuen Funktionen werden im V2.1-Format durchgeführt und sind vollständig abwärtskompatibel mit dem Dateiformat V1.
 
-## <a name="best-practices"></a>Bewährte Methoden
+### <a name="best-practices"></a>Bewährte Methoden
+
 Die genaue Abbildung der Hierarchie und die Zuordnung der Personen innerhalb dieser Hierarchie ermöglicht es Insights, genaue Daten und präzisere und relevantere Einblicke für die verschiedenen Typen von Ausbildungsleitern zu liefern.
 
 Je mehr Details Sie hier bereitstellen, desto besser und relevanter werden die Berichte und Spotlights sein.
 
-Hier sind einige bewährte Methoden, die für eine reibungslose Bereitstellung von SDS sorgen, damit Ihre Benutzer Insights optimal nutzen können.
+#### <a name="file-format-version-to-use-adn-data-to-sync"></a>Zu verwendende Dateiformatversion und zu synchronisierende Daten
+*   Verwenden Sie das Dateiformat V2.1, und synchronisieren Sie die optionalen Daten, die von Education Insights verwendet werden, wie [hier](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv) beschrieben.
 
-### <a name="file-format-version-to-ue"></a>Zu verwendende Dateiformatversion
-*   Verwenden Sie das Dateiformat V2.1 (in Kürze verfügbar), und synchronisieren Sie die optionalen Daten, die von Education Insights verwendet werden.
-
-### <a name="users-and-roles"></a>Benutzer und Rollen
+#### <a name="users-and-roles"></a>Benutzer und Rollen
 *   Vergewissern Sie sich, dass **alle Benutzer in den Dateien aufgeführt sind**, die Sie bereitstellen und synchronisieren. Dies schließt alle Schüler/Studenten und Mitarbeiter ein, die Daten aus den für sie relevanten Organisationseinheiten sehen müssen.
-    Wenn im SIS derzeit nur Lehrkräfte aufgelistet sind, fügen Sie die anderen Benutzer manuell hinzu, bevor Sie die Dateien in SIS hochladen und die Daten synchronisieren.
-    Die von Insights gesammelten Statistiken stammen nur von den registrierten Kursteilnehmern. Wenn einige Kursteilnehmer fehlen, führt dies zu irreführenden Daten und Schlussfolgerungen.
+*   Wenn im SIS derzeit nur Dozenten aufgelistet sind, fügen Sie alle anderen Benutzer manuell hinzu, bevor Sie die Dateien in SIS hochladen und die Daten synchronisieren. Die von Insights gesammelten Statistiken stammen nur von den registrierten Schüler/Studenten. Wenn einige Schüler/Studenten fehlen, führt dies zu irreführenden Daten und Schlussfolgerungen.
     
-*   Stellen Sie sicher, dass Sie **Vor- und Nachnamen jedes Benutzers angeben**. Ist dies nicht der Fall, werden sie über ihre E-Mail-Adresse referenziert, was in den Berichten und Spotlights (Karten mit Einblicken in die Aktivitäten oder Leistungen der Schüler/Studenten) zu einer weniger optimalen Erfahrung führt.
+*   Wenn Sie SDS auch für die Bereitstellung verwenden, stellen Sie sicher, dass Sie **den Vor- und Nachnamen jedes Benutzers angeben**. Andernfalls wird auf die Schüler/Stuenten anhand ihre E-Mail-Adresse referenziert, was zu einer nicht optimalen Erfahrung führt.
 
-*   Die Benotungs-/Jahresstufe muss auf dieser [Zuordnungsliste](#supported-grade-level-values)basieren. 
+*   Die Klassen-/Jahrgangsstufe muss auf dieser [Zuordnungsliste](#supported-grade-level-values)basieren. 
 
-*   Es ist wichtig, **allen Kursteilnehmern die Stufe "Jahr/Klasse"** hinzuzufügen, damit die Aktivitätsdaten danach aggregiert und gefiltert werden können.    
+*   Stellen Sie sicher, dass sie **allen Schülern/Studenten die Klassen-/Jahrgangsstufe hinzufügen** .    
 
-*   Stellen Sie sicher, dass **jeder Benutzer der entsprechenden Organisationseinheit zugewiesen** wird. Auf diese Weise zeigt Education Insights keine irreführenden Daten in den Education Inisghts-Spotlights an.
+*   Stellen Sie sicher, dass **jeder Benutzer der entsprechenden Organisationseinheit zugewiesen wird**.
 
-    *   Ein Schüler/Student kann mehr als einer Organisationseinheit zugeordnet werden, z. B. Schüler/Studenten, die in einem speziellen Programm oder an zwei Fakultäten eingeschrieben sind. Falls der Kursteilnehmer mehr als einer Organisationseinheit zugefügt ist, geben Sie für jede eine Zeile in der Benutzerdatei für diesen Kursteilnehmer an.
+    *   Ein Schüler/Student kann mehr als einer Organisationseinheit zugeordnet werden, z. B. Schüler/Studenten, die in einem speziellen Programm oder an zwei Fakultäten eingeschrieben sind. Falls der Schüler/Student mehr als einer Organisationseinheit zugefügt ist, geben Sie für jede eine Zeile in der Benutzerdatei für diesen Schüler/Studenten an.
     
     *   Der IT-Administrator kann basierend auf der Organisationseinheit Berechtigungen für Mitarbeiter erteilen. **Stellen Sie sicher, dass die Mitarbeiter der richtigen Einheitenebene** zugeordnet sind, damit sie die erforderlichen Berechtigungen erhalten. Zum Beispiel muss ein Beratungslehrer, der vier Schulen zugewiesen ist, alle Noten in diesen Schulen sehen; ein Schulleiter muss alle Klassen in seiner Schule sehen. 
     
 *   **Die Rolle ist wichtig**. Obwohl diese Liste geschlossen ist, versuchen Sie, die Rolle aus [der Liste](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported) mit der tatsächlichen Rolle jedes Benutzers abzustimmen, den Sie hochladen. Auf diese Weise können Sie rollenbasierte Berechtigungen entsprechend zuweisen. Geben Sie z. B. allen Schuldirektoren die Berechtigung, die Klassen in ihrer Schule zu sehen, oder allen Professoren, ihre Fakultät zu sehen. 
 
-### <a name="organizations"></a>Organisationen
+#### <a name="organizations"></a>Organisationen
 
-* Stellen Sie sicher, dass **die tatsächliche und vollständige Hierarchie Ihrer Organisation** widergespiegelt wird. Dies ist durch manuelles Hinzufügen der Datei möglich. In einigen Fällen wird diese Hierarchie nicht im SIS abgebildet. Dennoch kann es hier notwendig sein, die relevante Aggregation nach den einzelnen Hierarchieebenen zu sehen, bestimmten Ebenen Berechtigungen zuzuweisen, Ziele nach Organisationsebene zu setzen und so weiter. 
+* Stellen Sie sicher, dass **die tatsächliche und vollständige Hierarchie Ihrer Organisation** widergespiegelt wird. In einigen Fällen wird diese Hierarchie nicht im SIS widergespiegelt. In diesem Fall muss sie vor der Synchronisierung manuell der CSV-Datei hinzugefügt werden.
 
-* Stellen Sie sicher, dass **alle Organisationseinheiten entlang der Organisationsstruktur Schüler/Studenten oder Klassen enthalten**, um Schüler-/Studentendaten für diese zu aggregieren. Es wird empfohlen, dass Schüler/Studenten der untersten Organisationsebene zugewiesen werden.
+* Stellen Sie sicher, dass **alle Organisationseinheiten entlang der Organisationsstruktur Schüler/Studenten oder Klassen enthalten**. Es wird empfohlen, dass Schüler/Studenten der untersten Organisationsebene zugewiesen werden.
 
 > [!NOTE]
 > Weitere Details zur SDS-Bereitstellung finden Sie unter [SDS planen](/schooldatasync/planning-school-data-sync).

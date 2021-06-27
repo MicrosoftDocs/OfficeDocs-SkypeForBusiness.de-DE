@@ -33,9 +33,9 @@ ms.locfileid: "53129335"
 
 Die Power BI-Vorlage „Verlaufsbericht für AQD-Teams, automatische Telefonzentrale und Anrufwarteschleife“ enthält die folgenden drei Berichte:
 
-- [Automatische Telefonzentrale](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – zeigt Analysen für Anrufe an, die in Ihren automatischen Telefonzentralen eingehen.
-- [Anrufwarteschleife](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – zeigt Analysen für Anrufe an, die in Ihren Anrufwarteschleifen eingehen.
-- [Agent-Zeitachse](media/cqd-teams-aa-cq-historical-report-sample-at.png) – zeigt eine Zeitachsenansicht der Agents an, die bei Anrufen in der Anrufwarteschleife aktiv sind.
+- [Automatische Telefonzentrale:](media/cqd-teams-aa-cq-historical-report-sample-aa.png) Zeigt Analysen für Anrufe an, die in Ihren automatischen Telefonzentralen eingehen.
+- [Anrufwarteschleife:](media/cqd-teams-aa-cq-historical-report-sample-cq.png) Zeigt Analysen für Anrufe an, die in Ihren Anrufwarteschleifen eingehen.
+- [Agent-Zeitachse:](media/cqd-teams-aa-cq-historical-report-sample-at.png) Zeigt eine Zeitachsenansicht der Agents an, die bei Anrufen in der Anrufwarteschleife aktiv sind.
 
 Diese Berichte verwenden Daten aus dem [AQD](CQD-Power-BI-query-templates.md)-Datenspeicher. Sie ermöglichen es Organisationen, die Anzahl der Anrufe zu melden, die von automatischen Telefonzentralen und Anrufwarteschleifen verarbeitet werden.  Sie bieten auch Einblicke in die Agentleistung in den Anrufwarteschleifen.
 
