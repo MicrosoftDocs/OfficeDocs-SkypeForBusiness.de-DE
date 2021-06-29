@@ -20,14 +20,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Polen für Microsoft Teams.
-ms.openlocfilehash: 5cd3bf4add3b2c58a50a84fc869d22633746bd5b
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: 1df4a766c5b45c45f7eac83edced16463592f849
+ms.sourcegitcommit: fc1177a5080a18ddc1429848dd9352923107b647
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993938"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53166541"
 ---
 # <a name="phone-number-management-for-poland"></a>Telefon der Nummerverwaltung für Polen
+
+> [!IMPORTANT]
+> Derzeit kommt es in Polen zu unerwarteten Verzögerungen bei der Erfüllung neuer Bestellungen für Telefonnummern und Portierungsaufträge. Sie können weiterhin Bestellungen einsenden, doch beachten Sie bitte, dass diese Verzögerung bis September behoben sein wird. Zu diesem Zeitpunkt werden alle ausstehenden Bestellungen erfüllt.
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
