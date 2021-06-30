@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4a8a5d0b866a3eb278ffdba575966f97c549d6
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 96f82b398ff75cdaf651eb841c412c502c5108d4
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997755"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203584"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Verwalten von Spracherkennungstechnologie-Steuerelementen für einen intelligenten Lautsprecher
 
@@ -83,7 +83,7 @@ Im Folgenden sind die erforderlichen Richtlinien zum Festlegen eines intelligent
 |-|-|-|
 |enrollUserOverride|Verwenden Sie , um sprachprofilaufzeichnung oder -registrierung in den Teams für einen Mandanten fest. |**Deaktiviert**<br><ul><li> Benutzer, die sich noch nie registriert haben, können keine Informationen anzeigen, registrieren oder erneut registrieren.<li>Der Einstiegspunkt für den Registrierungsablauf wird ausgeblendet.<li>Wenn Benutzer einen Link zur Registrierungsseite auswählen, wird eine Meldung angezeigt, die besagt, dass dieses Feature für ihre Organisation nicht aktiviert ist.  <li>Benutzer, die sich registriert haben, können ihr Sprachprofil in den Einstellungen Teams entfernen. Nachdem sie ihr Sprachprofil entfernt haben, kann sie den Registrierungsablauf nicht mehr anzeigen, darauf zugreifen oder diesen abschließen.</li></ul><br>**Aktiviert**<br><ul><li> Benutzer können den Registrierungsablauf anzeigen, darauf zugreifen und diesen abschließen.<li>Der Einstiegspunkt wird auf der Teams auf der Registerkarte **Erkennung** angezeigt.</li></ul>|
 |roomAttributeUserOverride|Steuern Sie die sprachbasierte Benutzeridentifikation in Besprechungsräumen. Diese Einstellung ist für Alle Teams-Räume erforderlich.| **Aus**<br><ul><li>Das Teams-Räume sendet keine Bandbreite zum Sparen von Audiodatenstromen aus dem Raum. <li>Besprechungsraumbenutzer werden nicht attributiert oder unterschieden, und ihre Sprachsignaturen werden nicht abgerufen oder verwendet.<li>Benutzer von Besprechungsraum sind unbekannt.</li></ul> <br>**Attribut**<br><ul><li>Die Benutzer von Räumen werden basierend auf ihrem Registrierungsstatus attributiert.<li>Registrierte Benutzer werden in der Transkription mit ihrem Namen angezeigt.  <li>Nicht registrierte Benutzer werden als Lautsprecher n angezeigt.<li>Das Teams-Räume sendet sieben Audiodatenströme aus dem Raum.</ul> <br>**Distinguish**<br> *Diese Einstellung wird zu einem späteren Zeitpunkt verfügbar sein.*|
-|enabletranscription|Erforderlich für Benutzer- Teams für Räume.|**Wahr** und **falsch**|
+|AllowTranscription|Erforderlich für Benutzer- Teams für Räume.|**Wahr** und **falsch**|
 ||||
 
 Legen Sie Teams Admin Center die Richtlinie **Transkription** zulassen. Einstellungen standardmäßig **auf Aus** festgelegt.

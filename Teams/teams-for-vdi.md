@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams für Virtualized Desktop Infrastructure
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075388"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203624"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -121,6 +121,7 @@ Bei einem nicht-beständigen Setup werden die Änderungen des lokalen Betriebssy
 Für ein nicht beständiges Setup muss die Teams-Desktop-App auf Computerbasis auf dem Golden Image installiert sein. (Weitere Informationen finden Sie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi)) Dadurch wird eine effiziente Einführung der Teams-App während einer Benutzersitzung sichergestellt.
 
 Die Verwendung von Teams in einem nicht beständigen Setup setzt auch einen Manager für das Zwischenspeichern von Profilen voraus, um effiziente Teams-Laufzeitdatensynchronisierung zu unterstützen. Effiziente Datensynchronisierung stellt sicher, dass die entsprechenden benutzerspezifischen Informationen (z. B. die Daten, das Profil oder die Einstellungen eines Benutzers) während der Sitzung des Benutzers zwischengespeichert werden. Stellen Sie sicher, dass die Daten in diesen beiden Ordnern synchronisiert werden:<br>
+
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
@@ -186,6 +187,7 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         Bei diesem Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
 
         ```console
@@ -256,7 +258,7 @@ Teams im Chrome-Browser stellt keinen Ersatz für die Teams-Desktop-App für VDI
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>VDI-Teams mit Chat und Zusammenarbeit
 
-Wenn Ihre Organisation nur die Chat- und Zusammenarbeitsfeatures in Teams verwenden möchte, können Sie Richtlinien auf Benutzerebene festlegen, um Anruf- und Besprechungsfunktionen in Teams zu deaktivieren. 
+Wenn Ihre Organisation nur die Chat- und Zusammenarbeitsfeatures in Teams verwenden möchte, können Sie Richtlinien auf Benutzerebene festlegen, um Anruf- und Besprechungsfunktionen in Teams zu deaktivieren.
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Festlegen von Richtlinien zum Deaktivieren von Anruf- und Besprechungsfunktionen
 
@@ -273,8 +275,8 @@ So weisen Sie einem Benutzer die DisallowCalling-Anrufrichtlinie und die AllOff-
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**.
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Gehen Sie folgendermaßen vor:
-    1.  Klicken Sie unter **Anrufrichtlinie** auf **DisallowCalling**.
-    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **AllOff**.
+    1. Klicken Sie unter **Anrufrichtlinie** auf **DisallowCalling**.
+    2. Klicken Sie unter **Besprechungsrichtlinie** auf **AllOff**.
 4. Klicken Sie auf **Anwenden**.
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
@@ -318,7 +320,7 @@ Wenn Sie über eine Implementierung von Teams auf VDI mit Chat und Zusammenarbei
 
 Sie können das Microsoft Teams Admin Center oder PowerShell verwenden, um Anruf- und Besprechungsrichtlinien für Ihre Benutzer festzulegen und zuzuweisen. Es kann einige Zeit (ein paar Stunden) dauern, bis Richtlinienänderungen verteilt werden. Wenn Sie Änderungen für ein bestimmtes Konto nicht sofort sehen, versuchen Sie es nach ein paar Stunden erneut.
 
-[**Anrufrichtlinien**](teams-calling-policy.md): Anrufrichtlinien in Teams steuern, welche Anruffunktionen den Benutzern zur Verfügung stehen. Teams enthält die integrierte Anrufrichtlinie AllowCalling, in der alle Anruffeatures aktiviert sind. Um alle Anruffeatures zu aktivieren, weisen Sie die AllowCalling-Richtlinie zu. Oder erstellen Sie eine benutzerdefinierte Anrufrichtlinie, um die von Ihnen gewünschen Anruffeatures zu aktivieren und sie Benutzern zuzuweisen. 
+[**Anrufrichtlinien**](teams-calling-policy.md): Anrufrichtlinien in Teams steuern, welche Anruffunktionen den Benutzern zur Verfügung stehen. Teams enthält die integrierte Anrufrichtlinie AllowCalling, in der alle Anruffeatures aktiviert sind. Um alle Anruffeatures zu aktivieren, weisen Sie die AllowCalling-Richtlinie zu. Oder erstellen Sie eine benutzerdefinierte Anrufrichtlinie, um die von Ihnen gewünschen Anruffeatures zu aktivieren und sie Benutzern zuzuweisen.
 
 [**Besprechungsrichtlinien**](meeting-policies-in-teams.md): Besprechungsrichtlinien in Teams steuern die Arten von Besprechungen, die Benutzer erstellen können, und die Funktionen, die für Besprechungsteilnehmer verfügbar sind, die von Benutzern in Ihrer Organisation geplant werden. Teams enthält die integrierte Besprechungsrichtlinie AllOn, in der alle Anruffeatures aktiviert sind. Um alle Besprechungsfeatures zu aktivieren, weisen Sie die AllOn-Richtlinie zu. Oder erstellen Sie eine benutzerdefinierte Besprechungsrichtlinie, um die von Ihnen gewünschen Besprechungsfeatures zu aktivieren, die Sie Benutzern zuweisen möchten.
 
@@ -329,8 +331,8 @@ So weisen Sie einem Benutzer die AllowCalling-Anrufrichtlinie und die AllOn-Besp
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**.
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Gehen Sie folgendermaßen vor:
-    1.  Klicken Sie unter **Anrufrichtlinie** auf **AllowCalling**.
-    2.  Klicken Sie unter **Besprechungsrichtlinie** auf **AllOn**.
+    1. Klicken Sie unter **Anrufrichtlinie** auf **AllowCalling**.
+    2. Klicken Sie unter **Besprechungsrichtlinie** auf **AllOn**.
 4. Klicken Sie auf **Anwenden**.
 
 So weisen Sie mehreren Benutzern gleichzeitig eine Richtlinie zu
@@ -377,6 +379,90 @@ Um den Fallbackmodus zu deaktivieren, setzen Sie den Wert auf **1**. Um nur Audi
 
 Dieses Feature ist in der Teams-Version 1.3.00.13565 und neueren Versionen verfügbar.
 
+## <a name="disable-audio-and-video-settings-for-vdi"></a>Deaktivieren von Audio- und Videoeinstellungen für VDI
+
+Teams VDI-Richtlinien sind im Modul Microsoft Teams verfügbar. Diese Richtlinien sind aktiv und werden in nicht optimierten VDI-Umgebungen erzwungen.
+
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
+
+> [!NOTE]
+> Dies gilt nur für nicht optimierte Umgebungen.
+
+### <a name="update-a-module-name"></a>Aktualisieren eines Modulnamens
+
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+```
+
+### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
+
+Wenn benutzer mit dieser VDI-Richtlinieneinstellung -DisableCallsAndMeetings $true, um sich mit VDI bei Teams anmelden, sollten sie nicht in der Lage sein,
+
+- Anrufe.
+- Nehmen Sie an Besprechungen teil.
+- Bildschirmfreigabe über Chat.
+
+Alle Arten von Anrufen sollten deaktiviert sein.
+
+> [!NOTE]
+> Dies gilt nur für nicht optimierte Umgebungen.
+
+```PowerShell
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+```
+
+Wenn sich Benutzer mit der VDI-Richtlinieneinstellung "-DisableAudioVideoInCallsAndMeetings$true bei Teams mit VDI anmelden, sollten sie in der Lage sein:
+
+- Bildschirmfreigabe über Chat.
+- Nehmen Sie an einer Besprechung teil, und teilen Sie einen Bildschirm. Audiodaten auf ein Telefon verschieben.
+- Benutzer sollten nicht in der Lage sein, einen Audio- und Videoanruf zwischen zwei Personen über VDI zu halten.
+
+> [!NOTE]
+> Dies gilt nur für nicht optimierte Umgebungen.
+
+```powershell
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
+```
+
 ## <a name="known-issues-and-limitations"></a>Bekannte Probleme und Einschränkungen
 
 ### <a name="client-deployment-installation-and-setup"></a>Clientbereitstellung, -installation und -setup
@@ -400,7 +486,7 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 - Audio-/Computersound des freigegebenen Systems
 - Medienumgehung für direkte Weiterleitung
 - Anruf parken
-- Zoomsteuerelement 
+- Zoomsteuerelement
 
 > [!NOTE]
 > Wir arbeiten an der Erweiterung von Anruf- und Besprechungsfeatures, die derzeit nur in Nicht-VDI-Umgebungen zur Verfügung stehen. Dazu gehören möglicherweise mehr Administratorkontrolle über die Qualität, zusätzliche Bildschirmfreigabeszenarien und erweiterte Features, die Teams kürzlich hinzugefügt wurden. Wenden Sie sich an Ihren Teams-Verantwortlichen, um mehr über anstehende Funktionen zu erfahren.

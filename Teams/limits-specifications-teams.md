@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069303"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203604"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -124,6 +124,9 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
+  
+> [!NOTE]
+> Gruppenräume können nur in Besprechungen mit weniger als 300 Teilnehmern erstellt werden. Darüber hinaus schränkt das Erstellen von Gruppenräumen in einer Besprechung automatisch die Anzahl der Besprechungsteilnehmer auf 300 ein. Empfehlen Sie Ihren Endbenutzern, keine Gruppenräume in Besprechungen zu initiieren, in denen sie mehr als 300 Teilnehmer erwarten. Weitere Informationen zu großen Teambesprechungen erhalten Sie, wenn Sie die Anleitung [Bewährte Methoden für eine große Teambesprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) mit Ihren Endbenutzern teilen. 
 
 ### <a name="meeting-expiration"></a>Ablauf der Besprechung
 
@@ -156,7 +159,7 @@ Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Teams-L
 > [!IMPORTANT]
 > **Das Limit für Microsoft 365 Live Events wird erhöht**
 >
-> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis 31. Dezember 2021 temporäre Limitenerhöhungen für Liveereignisse verlängern, einschließlich**:
+> **Um die Bedürfnisse unserer Kunden weiterhin zu unterstützen, werden wir bis zum 31. Dezember 2021 temporäre Limiterhöhungen für Liveereignisse verlängern, beispielsweise**:
 >
 >- Ereignisunterstützung für bis zu 20.000 Teilnehmer
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
@@ -185,7 +188,7 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 |------------------------|---------|---------|---------|---------|---------|---------|
 |Speicher                 |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation plus 10 GB pro erworbener Lizenz   |1 TB pro Organisation plus 10 GB pro erworbener Lizenz |1 TB pro Organisation plus 10 GB pro erworbener Lizenz  |1 TB pro Organisation           |
 |Speicher für Teams-Dateien |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |Bis zu 25 TB pro Website oder Gruppe |
-|Maximale Größe für Dateiuploads (pro Datei)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|Maximale Größe für Dateiuploads (pro Datei)    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |
 
 Kanäle werden durch für das Team erstellte Ordner innerhalb der SharePoint Online-Website (bisher als „Websitesammlung“ bezeichnet) gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
 

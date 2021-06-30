@@ -3,8 +3,8 @@ title: Microsoft Teams-Administratorschulung
 ms.reviewer: ''
 description: Verwenden Sie diese kursleitergeführten Schulungsressourcen und Lernvideos für Endbenutzer und Administratoren, um Microsoft Teams in Ihrer Organisation optimal zu nutzen.
 ms.topic: overview
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648114"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186904"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams-Schulung
 
@@ -61,8 +61,7 @@ Schauen Sie immer mal wieder vorbei – Wir aktualisieren diese Liste weiterhin,
 
 :::row:::
    :::column:::
-   **[Einführung der Specialist-Zertifizierung](/learn/paths/m365-service-adoption/)** </br>
-   Der Kurs "Microsoft Service Adoption Specialist-Zertifizierung" behandelt Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.
+   **[Einführung der Specialist-Zertifizierung](/learn/paths/m365-service-adoption/)** </br> Im Kurs „Microsoft Service Adoption Specialist Certification“ geht es um Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation vorantreiben können.
 
    :::column-end:::
 

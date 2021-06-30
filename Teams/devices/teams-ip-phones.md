@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: db6240e972ac346c38961d94aa1a408e20f3cd4b
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 52a3930db5dfed90b28b98a8bfc2a87dd57dabb5
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105147"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203634"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams von zertifizierten Geräten
 
@@ -169,6 +169,7 @@ Im Folgenden finden Sie die neuesten Teams-Räume für Android-Apps und Firmware
 
 | Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal-Version | Version des Administrator-Agenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #2 | 28. Juni 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | 2021 Update #1A  |12. Mai 2021  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product Version Code: 223 |
 | 2021 Update #1  |5. April 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product Version Code: 223 |
 | 2020 Update #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product Version Code: 216 |
@@ -181,6 +182,9 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.5.0.344025          | 2021 Update #2    |
+| Poly Studio X50 | 3.5.0.344025        | 2021 Update #2    |
+| Poly TC8 | 3.5.0.210489                 | 2021 Update #2    |
 | Poly Studio X30 | 3.3.2.286154          | 2021 Update #1    |
 | Poly Studio X50 | 3.3.2.286154          | 2021 Update #1    |
 | Poly TC8 | 3.3.2.286154                 | 2021 Update #1    |

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
+ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891282"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203614"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Team-Adressierungshierarchie
 
@@ -149,6 +149,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ```
 
 ## <a name="apply-your-hierarchy"></a>Anwenden der Hierarchie
+
+> [!NOTE] 
+> Um diesen Schritt ausführen zu können, müssen Sie das PowerShell Teams PowerShell Public Preview-Modul aus dem PowerShell-Katalog installieren und verwenden. Die Schritte zum Installieren des Moduls finden Sie unter Installieren Teams PowerShell.
+
+> [!NOTE]
+> Government Community Cloud -Kunden (GCC) müssen die Vorschauversion von Cmdlets ab Version [2.4.0 verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) um sicherzustellen, dass die Daten an die GCC-Umgebung und nicht an die Umgebung für die Öffentliche Cloud geroutet werden.
 
 Nachdem Sie die Hierarchie in der SCHEMA-CSV-Datei definiert haben, können Sie sie in eine Teams. Führen Sie dazu den folgenden Befehl aus. Sie müssen ein globaler Administrator oder ein Teams sein, um diesen Schritt zu tun.
 

@@ -22,17 +22,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739545"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186804"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
-
-> [!NOTE]
-> Lesen Sie bitte die folgenden Informationen, um sich einen besseren Überblick über Chat, Teams, Kanäle und Apps in Teams zu verschaffen. Gehen Sie anschließend zu [Chat, Teams, Kanäle und Apps in Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md), um eine Liste von Entscheidungen durchzugehen, die für Ihre Implementierung von Teams wichtig sind.
 
 Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst organisieren und in verschiedenen Geschäftsszenarien zusammenarbeiten können:
 
@@ -41,7 +38,7 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
     - Teams können so aufgesetzt werden, dass nur eingeladene Benutzer Zugriff erhalten.
     - Teams können auch als öffentliche und offene Teams erstellt werden, an denen alle in der Organisation teilnehmen können (maximal 10.000 Mitglieder).
     
-    Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Möglich sind dynamische Teams für projektbasierte Aufgaben (zum Beispiel Einführung eines Produkts oder Einrichtung eines gemeinsamen digitalen Arbeitsraums). Eine weitere Möglichkeit sind ständige Teams, die die interne Struktur Ihrer Organisation widerspiegeln (z. B. Abteilungen und Bürostandorte). Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
+    Teams sollen Gruppen von Personen zusammenbringen, die eng zusammenarbeiten, um ihre Produktivität zu verbessern. Teams können für projektbasierte Arbeiten dynamisch sein (z. B. Starten eines Produkts, Erstellen eines digitalen Lieferraums) sowie fortlaufend sein, um die interne Struktur Ihrer Organisation (z. B. Abteilungen und Bürostandorte) widergespiegelt zu haben. Unterhaltungen, Dateien und Notizen in Teamkanälen sind nur für Mitglieder des Teams sichtbar.
 
 - **Kanäle** sind spezielle Abschnitte innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen oder anderen für Ihr Team wichtigen Aspekten organisiert werden. Dateien, die Sie in einem Kanal (auf der Registerkarte „Dateien“) freigeben, werden in SharePoint gespeichert. Weitere Informationen finden Sie unter [Interaktion von SharePoint Online und OneDrive for Business mit Teams](SharePoint-OneDrive-interact.md).
 
@@ -58,13 +55,13 @@ Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Metho
 
 **Teammitgliedschaft**
 
-Wenn Microsoft Teams für Ihre gesamte Organisation aktiviert ist, können festgelegte Teambesitzer alle Mitarbeiter, mit denen sie zusammenarbeiten, einladen, ihrem Team beizutreten. Teambesitzer können in Microsoft Teams ganz leicht Personen aus der Organisation anhand ihres Namens hinzufügen. Je nach den Einstellungen Ihrer Organisation können Personen außerhalb Ihrer Organisation zu Ihren Teams als Gäste hinzugefügt werden. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md). 
+Wenn Teams für Ihre gesamte Organisation aktiviert ist, können Teambesitzer jeden in Ihrer Organisation, mit dem sie zusammenarbeiten, einladen, ihrem Team bei treten. Teams erleichtert Teambesitzern das Hinzufügen von Personen in der Organisation anhand ihres Namens. Je nach den Einstellungen Ihrer Organisation können Personen außerhalb Ihrer Organisation zu Ihren Teams als Gäste hinzugefügt werden. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md). 
 
-Darüber hinaus können Teambesitzer ein Team auf der Grundlage einer vorhandenen Microsoft 365-Gruppe erstellen. Alle an der Gruppe vorgenommenen Änderungen werden automatisch mit Microsoft Teams synchronisiert. Durch die Erstellung eines Teams auf der Grundlage einer vorhandenen Microsoft 365-Gruppe wird nicht nur das Einladen und Verwalten von Mitgliedern vereinfacht, sondern es werden auch Gruppendateien in Microsoft Teams synchronisiert.
+Darüber hinaus können Teambesitzer ein Team auf der Grundlage einer vorhandenen Microsoft 365-Gruppe erstellen. Alle An der Gruppenmitgliedschaft vorgenommenen Änderungen werden automatisch Teams synchronisiert.
 
 **Teamrollen**
 
-In Microsoft Teams gibt es zwei Hauptrollen: 
+Es gibt zwei Hauptrollen in Teams: 
 
 - **Teambesitzer** – Die Person, die das Team erstellt. Teambesitzer können jedes Mitglied ihres Teams zum Mitbesitzer ernennen – entweder dann, wenn sie das Mitglied in das Team einladen, oder auch jederzeit später, nachdem die Person dem Team beigetreten ist. Mit mehreren Teambesitzern können Sie sich die Zuständigkeit für das Verwalten der Einstellungen und der Mitgliedschaft, einschließlich Einladungen, teilen.
 - **Teammitglieder** – Personen, die von den Teambesitzern eingeladen werden, dem Team beizutreten.
@@ -76,23 +73,19 @@ Wenn die Moderation eingerichtet ist, können Teambesitzer und Teammitglieder au
 
 **Teameinstellungen** 
 
-Teambesitzer können teamweite Einstellungen direkt in Microsoft Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Standard- und [Privat-Kanälen](private-channels.md) für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden.
+Teambesitzer können teamweite Einstellungen direkt in einer Teams. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Standard- und [Privat-Kanälen](private-channels.md) für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden.
 
-Nehmen Sie sich drei Minuten Zeit, um sich dieses Handbuch für Teambesitzer anzusehen:
+Wenn Sie Teams Administrator in Microsoft 365 sind, haben Sie im Teams Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 
-   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
+Standardmäßig verfügen alle Benutzer über Berechtigungen zum Erstellen eines Teams. Informationen zum Ändern dieser Änderung finden Sie unter [Zuweisen von Rollen und Berechtigungen in Teams.](assign-roles-permissions.md)
 
-Wenn Sie in Microsoft 365 oder Office 365 als Administrator für Microsoft Teams festgelegt wurden, haben Sie im Microsoft Teams Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
-
-Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team in Microsoft Teams zu erstellen (wie Sie dies ändern, erfahren Sie unter [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md)). Benutzer einer vorhandenen Microsoft 365-Gruppe können ihre Berechtigungen mit Microsoft Teams-Funktionen erweitern.
-
-Eine wichtige frühe Planungsaktivität, mit der Benutzer in Microsoft Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Microsoft Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
+Eine wichtige Aktivitäten in der frühen Planung, um Benutzer mit Teams zu beschäftigen, besteht in der Unterstützung der Benutzer beim Nachdenken und Verstehen, wie Teams Zusammenarbeit im täglichen Leben verbessern kann. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
 
 ## <a name="example-teams"></a>Beispiele für Teams
 
-Nachstehend finden Sie einige Funktionsbeispiele dafür, wie unterschiedliche Benutzertypen beim Einrichten von Teams, Kanälen und Apps (Registerkarten/Connectors/Bots) vorgehen können. Dies kann beim Starten einer Unterhaltung zu Microsoft Teams mit Ihrer Benutzercommunity hilfreich sein. Wenn Sie eine Implementierung von Microsoft Teams in Ihrer Organisation planen, denken Sie daran, dass Sie Anleitungen zum Strukturieren Ihrer Teams bereitstellen können. Benutzer haben jedoch die Kontrolle darüber, wie sie sich organisieren. Die folgenden Beispiele dienen der Veranschaulichung und sollen Teams dabei helfen, die Möglichkeiten zu durchdenken.
+Nachstehend finden Sie einige Funktionsbeispiele dafür, wie unterschiedliche Benutzertypen beim Einrichten von Teams, Kanälen und Apps (Registerkarten/Connectors/Bots) vorgehen können. Dies kann hilfreich sein, um eine Unterhaltung über die Zusammenarbeit Teams Benutzergemeinschaft zu beginnen. Denken Sie beim Implementieren von Teams in Ihrer Organisation daran, dass Sie Anleitungen zur Strukturierung ihrer Teams bereitstellen können. Benutzer haben jedoch die Kontrolle darüber, wie sie ihre Organisation selbst organisieren können. Die folgenden Beispiele dienen der Veranschaulichung und sollen Teams dabei helfen, die Möglichkeiten zu durchdenken.
 
-Microsoft Teams ist gut dafür geeignet, organisatorische Silos aufzubrechen und funktionsübergreifende Teams zu fördern. Ermutigen Sie also die Benutzer, die organisatorischen Grenzen zu überwinden und eher in funktionalen Teams zu denken.
+Teams ist ideal zum Aufbrechen von Organisationssilos und zum Werben funktionsübergreifender Teams. Regen Sie ihre Benutzer daher dazu, sich über Funktionsteams statt Organisationsgrenzen Gedanken zu machen.
 
 |Teamtypen  |Mögliche Kanäle  |Apps (Registerkarten ![Ein Symbol eines Ordners mit einer Registerkarte](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Ein Symbol für Verbindungsblöcke](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Ein Symbol mit einem kleinen Robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -103,7 +96,7 @@ Microsoft Teams ist gut dafür geeignet, organisatorische Silos aufzubrechen und
 |Technischer Betrieb    |Incident Management<br></br>Sprintplanung<br></br>Arbeitselemente<br></br>Infrastruktur und Betrieb         |Team Services<br></br>Jira<br></br>AzureBot         |
 |Produktteam      |Strategie<br></br>Marketing<br></br>Vertrieb<br></br>Vorgänge<br></br>Insights<br></br>Dienste und Support         |Power BI<br></br>Team Services         |
 |Finanzen    |Aktuelles Geschäftsjahr<br></br>Geschäftsjahresplanung<br></br>Prognose<br></br>Forderungen<br></br>Verbindlichkeiten         |Power BI<br></br>Google Analytics         |
-|Logistik     |Lagerbetrieb<br></br>Fahrzeugwartung<br></br>Fahrerdienstpläne         |Wetterdienst<br></br>Verkehrsstörungen<br></br>Planner<br></br>Tubot<br></br>UPS-Bot         |
+|Logistik     |Lagerbetrieb<br></br>Fahrzeugwartung<br></br>Fahrerdienstpläne         |Wetterdienst<br></br>Verkehrsstörungen<br></br>Planner<br></br>UPS-Bot         |
 |HR     |Talentmanagement<br></br>Personalsuche<br></br>Leistungsbewertungsplanung<br></br>Arbeitsmoral         |Tools für das Personalwesen<br></br>Externe Websites für Stellenausschreibungen<br></br>Growbot         |
 |Organisationsübergreifendes <br></br>virtuelles Team |Strategie<br></br>Mitarbeiterentwicklung<br></br>Wettbewerb und Forschung         |Power BI<br></br>Microsoft Stream         |
 
@@ -114,3 +107,7 @@ Sie können Teams erstellen, die die Organisationsstruktur widerspiegeln. Diese 
 ## <a name="org-wide-teams"></a>Organisationsweite Teams
 
 Wenn Ihre Organisation aus nicht mehr als 5 000 Benutzern besteht, können Sie ein organisationsweites Team erstellen. Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. Weitere Informationen, einschließlich bewährter Methoden zum Erstellen und Verwalten eines organisationsweiten Teams, finden Sie unter [Erstellen eines organisationsweiten Teams in Microsoft Teams](create-an-org-wide-team.md).
+
+## <a name="next-steps"></a>Nächste Schritte
+
+Lesen [Sie Chat, Teams, Kanäle und &-Apps in Teams,](deploy-chat-teams-channels-microsoft-teams-landing-page.md) um eine Liste der für Ihre Einführung wichtigen Entscheidungen Teams durch gehen.
