@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Microsoft 365 und Office 365 Standardanrufer-ID (die zugewiesene Telefonnummer eines Benutzers), auch bekannt als Anruferleitungs-ID. Sie können die Anrufer-ID eines Benutzers ändern oder blockieren.
-ms.openlocfilehash: dbbb48952264d82ca24bdd82dbb45538b0428368
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308334"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230602"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 
@@ -39,6 +39,7 @@ Standardmäßig sind die folgenden Anrufer-ID-Einstellungen **deaktiviert.** Die
     
   > [!NOTE]
   > Wenn Sie den Parameter *Service verwenden möchten,* müssen Sie eine gültige Dienstnummer angeben.
+  > Sie müssen die PowerShell-Cmdlets für die Ressourcenkontonummer verwenden, wenn diese in der Dropdownliste nicht sichtbar sind.
   
 - **Blockieren der ausgehenden Anrufer-ID** Sie können blockieren, dass die ausgehende Anrufer-ID bei ausgehenden PSTN-Anrufen eines Benutzers gesendet wird. Dadurch wird die Anzeige der Telefonnummer am Telefon der angerufenen Person blockiert.
     
@@ -138,7 +139,7 @@ Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funkt
     
 - [Sechs Gründe für die Verwendung von Windows PowerShell zum Verwalten von Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Centers viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Center beispielsweise, wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen, viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
 - [Beste Möglichkeiten zum Verwalten von Microsoft 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

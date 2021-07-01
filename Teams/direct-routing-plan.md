@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie Microsoft-Telefon sie mit System Direct Routing eine Verbindung mit einem unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft-Telefon System herstellen können.
-ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926757"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230612"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -333,7 +333,7 @@ Speicherort der Medienprozessoren:
 Standorte, an denen sowohl SIP-Proxy- als auch Medienprozessorkomponenten bereitgestellt wurden:
 - US (zwei in den Rechenzentren USA West und US East)
 - Europa (Amsterdam und Dublin-Rechenzentren)
-- Asien (Rechenzentrum für Singapur und Hongkong)
+- Asien (Rechenzentrum Singapur)
 - Japan (Rechenzentrums JP East und West)
 - Australien (AU-Rechenzentrum im Osten und Südosten)
 

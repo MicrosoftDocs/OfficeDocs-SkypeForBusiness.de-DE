@@ -23,16 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern für Ihre Organisation erhalten, benötigen Sie möglicherweise Hilfe und Support beim PSTN Service Desk.
-ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121353"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219152"
 ---
 # <a name="pstn-service-desk-contact-information"></a>PSTN Service Desk-Kontaktinformationen
 
 Um sich an das PSTN Service Desk-Team zu wenden, senden Sie eine E-Mail an den entsprechenden Alias, der in der folgenden Tabelle aufgeführt ist.
+
+> [!NOTE]
+> In Kürze wird es einen neuen Prozess für die Interaktion mit dem PSTN Service Desk geben. Zu diesem Zeitpunkt wird das aktuelle E-Mail-System eingestellt. Der neue Prozess ermöglicht es Ihnen, Tickets zu öffnen, Ihre Kommunikation nachverfolgt und Ihre Eintrittskarten im Unternehmen an einem Ort zu sehen, der in das Teams Admin Center integriert ist. Weitere Updates folgen in den kommenden Wochen.
+<br>
 
 | **Ich möchte vorhandene Nummern übertragen/portieren**  | **Ich möchte neue Nummern für** |
 |:-----:|:------:|

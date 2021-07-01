@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Im Folgenden werden die Open Preview-Funktionen für On-Network für Audiokonferenzen beschrieben.
-ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+description: Im Folgenden wird Das Netzwerk für Audiokonferenzen beschrieben.
+ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637837"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230562"
 ---
-# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>Open Preview of On-network Conferencing for Audio Conferencing
+# <a name="on-network-conferencing-for-audio-conferencing"></a>Netzwerkkonferenzen für Audiokonferenzen
 
-Die Open Preview von On-Network Conferencing ist für alle Kunden verfügbar. Mit Netzwerkkonferenzen können Organisationen ein- und ausgehende Audiokonferenzanrufe über Direktes Routing an Microsoft-Einwahlnummern senden. Diese Funktion ist nicht dazu gedacht, die Unterstützung von Audiokonferenzen auf Einwahlnummern von Drittanbietern zu erweitern. Netzwerkkonferenzen werden nicht unterstützt, wenn sie verwendet werden, um eingehende Anrufe an den Audiokonferenzdienst über Einwahltelefonnummern von Drittanbietern oder ausgehende Anrufe von Microsoft Audio Conferencing Bridge an das PSTN weiter zu routen. 
+Mit Netzwerkkonferenzen können Organisationen ein- und ausgehende Audiokonferenzanrufe über Direktes Routing an Microsoft-Einwahlnummern senden. Diese Funktion ist nicht dazu gedacht, die Unterstützung von Audiokonferenzen auf Einwahlnummern von Drittanbietern zu erweitern. Netzwerkkonferenzen werden nicht unterstützt, wenn sie verwendet werden, um eingehende Anrufe an den Audiokonferenzdienst über Einwahltelefonnummern von Drittanbietern oder ausgehende Anrufe von Microsoft Audio Conferencing Bridge an das PSTN weiter zu routen. 
 
 In diesem Artikel werden die Voraussetzungen und Konfigurationsschritte beschrieben, die erforderlich sind, um On-Network Conferencing für Ihre Organisation zu aktivieren.
 
@@ -151,19 +151,6 @@ Bei einem Wählplan handelt es sich um einen Satz von Normalisierungsregeln, mit
 Standardmäßig können Teams PSTN-Nummern im E.164-Format wählen, d. h. + \<country code\> \<number\> . Wählpläne können jedoch verwendet werden, um Benutzern das Wählen von Telefonnummern in anderen Formaten zu ermöglichen, z. B. vierstellige Erweiterungen.
 
 Wenn Sie durchwahlbasiertes Wählen über On-Network-Konferenzen aktivieren möchten, können Sie Wählpläne so einrichten, dass das Durchwahlmuster den Telefonnummernbereichen der Telefonnummern Ihrer Organisation entspricht. Informationen zum Einrichten von Wählplänen finden Sie unter [Erstellen und Verwalten von Wählplänen.](create-and-manage-dial-plans.md)
-
-
-## <a name="known-issues-in-open-preview"></a>Bekannte Probleme in der Geöffneten Vorschau
-
-Im Folgenden finden Sie eine Liste der bekannten Probleme, die derzeit in der Open Preview-Version von Netzwerkkonferenzen auftreten. Microsoft arbeitet an diesen Problemen.
-
-| Problem | Problemumgehung |
-| :--- | :--- |
-| Einwahlanrufe mit anonymen/ausgeblendeten Anrufer-IDs, die über Festnetzkonferenzen geroutet werden, können nicht mit der Besprechung verbunden werden. | Legen Sie, wenn möglich, eine Konfiguration in Ihrer PbX oder SBC so ein, dass immer eine Anrufer-ID für Anrufe gesendet wird, die über Netzwerkkonferenzen geroutet werden.|
-| In einigen Fällen wird die Begrüßungsnachricht, die Benutzern bei der Einwahl in den Dienst ("Willkommen beim Audiokonferenzdienst...") angezeigt wird, abgeschnitten, und die Benutzer hören nicht das Wort "Willkommen".| Für dieses Problem gibt es zurzeit keine Problemumgehungen. |
-
-
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 

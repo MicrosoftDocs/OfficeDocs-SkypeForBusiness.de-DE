@@ -1,5 +1,5 @@
 ---
-title: Anmerkungen zu dieser Microsoft Teams
+title: Anmerkungen zu dieser Microsoft Teams für Administratoren
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Anmerkungen zu dieser Microsoft Teams für Administratoren.
-ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: 7cade0f9fb007a0eacc64999fb29974faec0b613
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947607"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219162"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Anmerkungen zu dieser Microsoft Teams für Administratoren
 

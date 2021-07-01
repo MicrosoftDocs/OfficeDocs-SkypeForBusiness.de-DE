@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699346"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219112"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -44,7 +44,16 @@ Die Teilnehmer können über Desktop, Web und mobile Geräte (Android und iOS) T
 
 ## <a name="teams-view-only-experience-controls"></a>Teams von Steuerelementen für die 6-Ansicht
 
-Sie aktivieren die "Nur anzeigen"-Erfahrung mithilfe von PowerShell.
+Sie aktivieren die Anzeigeerfahrung mit dem Cmdlet aus dem [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [SkypeForBusiness PowerShell-Modul](/powershell/module/skype/?view=skype-ps) oder mit mindestens Version 2.0.0 des [MicrosoftTeams-Moduls.](https://www.powershellgallery.com/packages/MicrosoftTeams)
+
+So verwenden Sie das empfohlene `MicrosoftTeams` Modul:
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+Zum Aktivieren der n-Ansicht können Sie den folgenden PowerShell-Codeausschnitt verwenden:
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled

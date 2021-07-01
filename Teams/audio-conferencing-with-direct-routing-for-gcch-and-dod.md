@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: Der Administrator kann erfahren, wie Sie Audio conferencing (Audiokonferenz) mit Direct Routing in GCCH- und DoD-Umgebungen verwenden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262620"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230582"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
@@ -170,8 +170,6 @@ Informationen zum Ändern der Telefonnummern, die in den Besprechungsanrufen der
 Im Folgenden werden Audiokonferenzfunktionen, die in Audiokonferenzen mit Direct Routing für GCC High und DoD nicht unterstützt werden:
 
 - Benachrichtigungen beim Ein- und Beenden mithilfe der Namensaufzeichnung. Bei Audiokonferenzen mit Direct Routing werden Eingangs- und Ausgangsbenachrichtigungen in der Besprechung als Töne abgespielt.
-
-- Richtlinien zur Einschränkung ausgehender Anrufe für Audiokonferenzen. Steuerelemente auf Benutzerebene zum Einschränken ausgehender Anrufe gelten nicht für Anrufe aus einer Besprechung, die über Direktes Routing geroutet werden.
 
 - Deaktivieren Sie die Verwendung gebührenfreier Telefonnummern für den jeweiligen Organisator von Besprechungen. Steuerelemente auf Benutzerebene, die die Nutzung gebührenfreier Nummern für die Teilnahme an Besprechungen in Ihrer Organisation einschränken, gelten nicht für Anrufe, die über Direct Routing geroutet werden.
 

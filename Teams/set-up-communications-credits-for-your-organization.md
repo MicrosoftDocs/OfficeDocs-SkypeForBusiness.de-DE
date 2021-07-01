@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Erfahren Sie, wie Sie Abrechnungslizenzen für Guthaben für Kommunikationen (PSTN-Verbrauch) für Ihre Benutzer und Ihre Organisation einrichten. '
-ms.openlocfilehash: 98591d7603cdf63a76bef3478834f37504d8ff6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33206e09a63a74689361fcfb34d51c5b0b4a4973
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117103"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219132"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -58,9 +58,9 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Schritt 2: Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
-1. Melden Sie sich beim [Microsoft 365 Admin Center mit](https://portal.office.com/Adminportal) Ihrem Arbeits- oder Schulkonto an.
+1. Melden Sie sich bei der [Microsoft 365 Admin Center](https://portal.office.com/Adminportal) mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste Microsoft 365 Admin Center zu  >  **Abrechnungskaufsdienste**. Scrollen Sie nach unten, **und wählen Sie Add-Ons aus.**
+2. Navigieren Sie in der linken Navigationsleiste Microsoft 365 Admin Center Zu  >  **Abrechnungskaufsdienste**. Scrollen Sie nach unten, **und wählen Sie Add-Ons aus.**
 
 3. Wählen Sie **Guthaben für Kommunikationen aus.**
     
@@ -79,7 +79,7 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./
       > [!NOTE]
      > Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Wenn ein Guthaben nicht innerhalb von 12 Monaten ab dem Kaufdatum aufgebraucht wird, verfällt es. 
      > 
-     > Die monatliche Abrechnung für Guthaben für Kommunikationen wird nur angewendet, wenn der zu verwendende Fond verwendet wurde. Informationen zum Überprüfen der monatlichen Nutzung finden Sie im Bericht Skype for Business [PSTN-Nutzung.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > Wenn Sie die Funktion für das automatische Aufladen verwenden, wird die Fakturierung für Guthaben für Kommunikationen generiert, wenn der Triggerbetrag erreicht und eine Aufladetransaktion verarbeitet wird. Beträge von Kommunikationsguthaben werden zuerst auf die erste Weise verwendet. Informationen zum Überprüfen der monatlichen Nutzung finden Sie im Bericht [Skype for Business PSTN-Nutzung.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Geben Sie jetzt Ihre Zahlungsinformationen ein, und wählen Sie **Bestellung aufgeben** aus.
     >[!IMPORTANT]
@@ -91,9 +91,9 @@ Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung 
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Schritt 3: Zuweisen einer Lizenz für Guthaben für Kommunikationen für Benutzer
 
-1. Melden Sie sich beim [Microsoft 365 Admin Center mit](https://portal.office.com/Adminportal) Ihrem Arbeits- oder Schulkonto an.
+1. Melden Sie sich bei der [Microsoft 365 Admin Center](https://portal.office.com/Adminportal) mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste Microsoft 365 Admin Center zu Benutzer aktive Benutzer , und wählen Sie dann einen  >  Benutzer aus der Liste aus.
+2. Navigieren Sie im linken Navigationsbereich Microsoft 365 Admin Center Benutzer aktive Benutzer , und wählen Sie dann einen  >  Benutzer aus der Liste aus.
     
 3. Wählen **Sie Lizenzen und Apps aus.**
     
@@ -115,7 +115,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefonsystempläne](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Sie können die Informationen auch anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >  **Abrechnungsabonnements**  >  **Abonnements hinzufügen gehen.**
+Sie können die Informationen auch anzeigen, indem Sie sich [beim Abrechnungskonto Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu Abonnements hinzufügen  >    >  **gehen.**
   
 Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
