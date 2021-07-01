@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: Einrichten Ihrer Team-Adressierungshierarchie
         href: set-up-your-team-hierarchy.md
+      - name: Überwachter Chat für Nicht-Bildungsmandanten
+        href: supervised-chat-non-edu.md
   - name: 'Besprechungen, Konferenzen und Liveereignisse'
     items:
       - name: 'Schnellstart: Besprechungen und Live-Ereignisse'
