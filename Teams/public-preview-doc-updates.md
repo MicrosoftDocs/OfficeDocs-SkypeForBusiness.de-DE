@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863256"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230542"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -46,7 +46,7 @@ Die öffentliche Vorschau ist pro Benutzer aktiviert, und die Option zum Aktivie
 3. Klicken Sie auf **Hinzufügen**.
 4. Benennen Sie die Updaterichtlinie, fügen Sie eine Beschreibung hinzu, und aktivieren Sie **Vorschaufeatures anzeigen**.
 
-Sie können die Richtlinie auch mit dem `CsTeamsUpdateManagementPolicy`-Cmdlet von PowerShell festlegen.
+Sie können die Richtlinie auch mit dem `Set-CsTeamsUpdateManagementPolicy`-Cmdlet von PowerShell mit dem booleschen Parameter `-AllowPreview` festlegen.
 
 ## <a name="enable-public-preview"></a>Aktivieren der öffentlichen Vorschau
 

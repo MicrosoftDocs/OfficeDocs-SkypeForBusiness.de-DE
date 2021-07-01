@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399142"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230552"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 
-Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren. Die frühere [Microsoft Commercial Cloud-Testversion]() wurde durch die Microsoft Teams Exploratory-Umgebung ersetzt.
+Die Microsoft Teams Exploratory-Umgebung ermöglicht Benutzern in Ihrer Organisation, die über Azure Active Directory (Azure AD) verfügen und nicht für Microsoft Teams lizenziert sind, eine explorative Microsoft Teams-Umgebung zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren.
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Was steckt in der Microsoft Teams Exploratory-Umgebung?
 
@@ -41,7 +41,7 @@ Folgende Dienstpläne werden einem Administrator als Teil der Microsoft Teams Ex
 - Microsoft Search
 - Microsoft StaffHub
 - Microsoft Stream für Microsoft 365 und Office 365 E1 SKUs <sup>1</1>
-- Microsoft Teams
+- Microsoft Teams
 - Verwaltung mobiler Geräte für Microsoft 365 oder Office 365
 - Office Mobile-Apps für Office 365
 - Office Online
@@ -76,9 +76,9 @@ Ihre Organisation ist nicht für dieses Angebot berechtigt, wenn Sie ein Syndica
 
 ## <a name="how-users-sign-up-for-the-teams-exploratory-experience"></a>So können Benutzer sich für die explorative Microsoft Teams-Umgebung registrieren
 
-Berechtigte Benutzer können sich für die explorative Microsoft Teams-Umgebung (Microsoft Teams Exploratory) registrieren, indem sie sich bei Microsoft Teams ([teams.microsoft.com](https://teams.microsoft.com)) anmelden. Zurzeit wird das Aktivieren von Exploratory über ein mobiles Gerät nicht unterstützt. Bei ihrer Anmeldung wird berechtigten Benutzern diese Lizenz automatisch zugewiesen. Der Mandantenadministrator erhält eine E-Mail-Benachrichtigung, wenn eine Person in seiner Organisation die Microsoft Teams Exploratory-Umgebung zum ersten Mal startet.
+Berechtigte Benutzer können sich für die explorative Microsoft Teams-Umgebung (Microsoft Teams Exploratory) registrieren, indem sie sich bei Microsoft Teams ([teams.microsoft.com](https://teams.microsoft.com)) anmelden. Zurzeit wird das Aktivieren von Exploratory über ein mobiles Gerät nicht unterstützt. Bei ihrer Anmeldung wird berechtigten Benutzern diese Lizenz automatisch zugewiesen. Der Mandantenadministrator erhält eine E-Mail-Benachrichtigung, wenn eine Person in seiner Organisation die Microsoft Teams Exploratory-Umgebung zum ersten Mal startet.
 
-## <a name="manage-the-teams-exploratory-experience"></a>Verwalten der Microsoft Teams Exploratory-Umgebung
+## <a name="manage-the-teams-exploratory-experience"></a>Verwalten der Microsoft Teams Exploratory-Umgebung
 
 Die Microsoft Teams Exploratory-Umgebung ist für die Initialisierung durch einzelne Endbenutzer bestimmt, und Sie sind nicht berechtigt, dieses Angebot im Namen von Endbenutzern oder Angestellten zu initiieren.
 
@@ -88,9 +88,9 @@ Administratoren können die Option zur Ausführung der explorativen Microsoft Te
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Verhindern, dass Benutzer Test-Apps und -dienste installieren
 
-Sie können die Möglichkeit eines Benutzers zum Installieren von Test-Apps und -Diensten deaktivieren. Auf diese Weise hindern Sie ihn daran, die explorative Microsoft Teams-Umgebung auszuführen.
+Sie können die Möglichkeit eines Benutzers zum Installieren von Test-Apps und -Diensten deaktivieren. Auf diese Weise hindern Sie ihn daran, die explorative Microsoft Teams-Umgebung auszuführen.
 
-1. Navigieren Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Organisationseinstellungen**, wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
+1. Navigieren Sie im Microsoft 365 Admin Center zu **Einstellungen** > **Organisationseinstellungen**, wählen Sie **Dienste** und dann **Apps und Dienste im Besitz des Benutzers** aus.
 
     ![die Seite „Dienste“ im Admin Center](media/iw-trial-services.png)
 
@@ -138,26 +138,12 @@ So deaktivieren Sie die Lizenz für die Microsoft Teams Exploratory-Umgebung:
 
 Sie können Benutzer mit einer explorativen Microsoft Teams-Lizenz genauso verwalten wie Benutzer mit einer regulären kostenpflichtigen Lizenz. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md).
 
-### <a name="upgrade-users-from-the-teams-exploratory-license"></a>Upgraden von Benutzern mit der explorativen Microsoft Teams-Lizenz
+### <a name="upgrade-users-from-teams-exploratory"></a>Upgraden von Benutzern von Microsoft Teams Exploratory
 
-Um Benutzer mit der Microsoft Teams Exploratory-Lizenz zu upgraden (Sie benötigen Administratorberechtigungen), gehen Sie wie folgt vor:
-
-1. Kaufen Sie ein Abonnement, das Microsoft Teams enthält.
-
-2. Entfernen Sie das Abonnement der explorativen Microsoft Teams-Umgebung des Benutzers.
-
-3. Weisen Sie die neu erworbene Lizenz zu.
-
-Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
+Sie benötigen Administratorberechtigungen, um Benutzer von Microsoft Teams Exploratory zu upgraden. Weitere Informationen finden Sie unter [Upgrade von Benutzern der Microsoft Teams Exploratory-Testversion](upgrade-from-teams-exploratory.md).
 
 > [!NOTE]
-> Wenn die Microsoft Teams Exploratory-Lizenz endet und für einen Benutzer nicht sofort ein Upgrade auf ein Abonnement vorgenommen wird, das Microsoft Teams umfasst, hat er eine Nachfrist von 30 Tagen und dann weitere 30 Tage, nach deren Ablauf die Daten gelöscht werden. Der Benutzer ist weiterhin in Azure Active Directory vorhanden. Sobald dem Benutzer eine neue Lizenz zugewiesen wurde, um Microsoft Teams-Funktionen wieder zu aktivieren, sind die Inhalte weiterhin vorhanden, sofern der Benutzer innerhalb der Nachfrist hinzugefügt wird.
-
-## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>Was geschieht mit älteren Lizenzen für Microsoft Teams Commercial Cloud-Testversionen?
-
-Seit Februar 2020 können anspruchsberechtigte Benutzer mit der Nutzung der neuesten Microsoft Teams Exploratory-Umgebung beginnen. Alle Legacylizenzen für den Test der kommerziellen Cloud von Microsoft Teams werden automatisch in das neue Angebot konvertiert, bevor die Testversion abläuft.
-
-Wenn sich ein Benutzer zum ersten Mal bei seiner abgelaufenen Microsoft Teams Commercial Cloud-Testversionen anmeldet, wird ihm automatisch eine Lizenz für die Microsoft Teams Exploratory-Umgebung zugewiesen. Benutzer werden erst konvertiert, wenn sie sich anmelden.
+> Wenn die Microsoft Teams Exploratory-Lizenz endet und für einen Benutzer nicht sofort ein Upgrade auf ein Abonnement vorgenommen wird, das Microsoft Teams umfasst, verliert dieser nach einer Nachfrist von 30 Tagen den Zugriff auf Microsoft Teams. Nach weiteren 30 Tagen werden die Daten gelöscht. Der Benutzer ist weiterhin in Azure Active Directory vorhanden. Sobald dem Benutzer eine neue Lizenz zugewiesen wurde, um Microsoft Teams-Funktionen wieder zu aktivieren, sind die Inhalte weiterhin vorhanden, sofern der Benutzer innerhalb der Nachfrist hinzugefügt wird.
 
 ### <a name="remove-a-teams-exploratory-license"></a>Entfernen einer explorativen Microsoft Teams-Lizenz
 
@@ -174,7 +160,7 @@ Informationen hierzu finden Sie unter [Informationen zum Microsoft 365-Abonnemen
 Seit Anfang 2021 ist Teams Exploratory für alle Neukunden als 12-Monats-Abonnement (ab der ersten Benutzeranmeldung) verfügbar. Das neue Teams Exploratory-Abonnement beginnt, wenn sich der erste Benutzer in einer Organisation für Teams Exploratory anmeldet, und läuft nach 12 Monaten ab. Das Ablaufdatum gilt für alle Benutzer in demselben Mandanten, wobei die 12-Monats-Frist ab dem Anmeldedatum des ersten Benutzers beginnt.
 
 > [!NOTE]
-> Das Enddatum für die Teams Exploratory-Umgebung wird auf Organisationsebene konfiguriert, d. h. es gilt für alle Benutzer in derselben Organisation. Beispiel: Benutzer 1 meldet sich am 1. Januar 2021 für das Abonnement an. Dadurch wird als Enddatum für das Abonnement der 31. Dezember 2021 festgelegt. Benutzer 2 meldet sich am 1. Oktober 2021 für das Abonnement an. Benutzer 2 kann Teams Exploratory zwei Monate lang verwenden, denn das Enddatum für ihn ist ebenfalls der 31. Dezember 2021, da er das Abonnement der gleichen Organisation wie Benutzer 1 verwendet.
+> Das Enddatum für die Teams Exploratory-Umgebung wird auf Organisationsebene konfiguriert, d. h. es gilt für alle Benutzer in derselben Organisation. Beispiel: Benutzer 1 meldet sich am 1. Januar 2021 für das Abonnement an. Dadurch wird als Enddatum für das Abonnement der 31. Dezember 2021 festgelegt. Benutzer 2 meldet sich am 1. Oktober 2021 für das Abonnement an. Benutzer 2 kann Teams Exploratory zwei Monate lang verwenden, denn das Enddatum für ihn ist ebenfalls der 31. Dezember 2021, da er das Abonnement der gleichen Organisation wie Benutzer 1 verwendet.
 
 ### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>Was sollten Administratoren am Ende der 12-monatigen Teams Exploratory-Testphase tun?
 
@@ -184,4 +170,4 @@ Am Ende des 12-monatigen Abonnements sollten Administratoren die Testlizenz alle
 > [!NOTE]
 > Nach Ablauf der vorherigen Exploratory-Testlizenz werden Kunden deaktiviert und drei Monate lang daran gehindert, eine neue Testversion zu starten.
 
-Weitere Informationen finden Sie unter [Upgrade von Benutzern der Teams Exploratory-Lizenz](#upgrade-users-from-the-teams-exploratory-license)), oben in diesem Artikel.
+Weitere Informationen finden Sie unter [Upgrade von Benutzern von Microsoft Teams Exploratory](#upgrade-users-from-teams-exploratory), weiter oben in diesem Artikel.
