@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186804"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252640"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -47,9 +47,9 @@ Betrachten wir zunächst, wie sich einzelne Teams mit Microsoft Teams selbst org
     
 Wenn Sie Hilfe bei der Verwendung von Teams und Kanälen benötigen, lesen Sie bitte unter [Teams und Kanäle](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499) nach.
 
-Sehen Sie sich dieses kurze Video an und erfahren Sie mehr über bewährte Methoden zum Erstellen von Teams und Kanälen.
+In diesem kurzen Video erfahren Sie mehr über bewährte Methoden zum Erstellen von Teams und Kanälen:
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [TechTip: Anleitung zum Erstellen Teams & Kanäle einschließlich privater Kanäle in Microsoft Teams](https://youtu.be/WkAVgNKn0hs) (21:08 Min.)
 
 ## <a name="membership-roles-and-settings"></a>Mitgliedschaft, Rollen und Einstellungen
 
