@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Ihrer Organisation mithilfe einer Graph-API verwalten.
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117743"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278528"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus von privaten Kanälen in Microsoft Teams
 
@@ -149,7 +149,7 @@ Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.c
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **Antwort**
 
     ```Graph API
@@ -177,7 +177,8 @@ Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.c
               }
           ]
     }
-    ```    
+    ```
+
 2. Verwenden Sie den folgenden Befehl, um das Mitglied zum Besitzer hochzustufen, wobei &lt;group_id&gt;, &lt;channel_id&gt;, und &lt;id&gt; in einem früheren Aufruf zurückgegeben wurden. Beachten Sie, dass &lt;id&gt; und &lt;userId&gt;, welche aus einem früheren Aufruf zurückgegeben wurden, nicht dasselbe und nicht austauschbar sind. Stellen Sie sicher, dass Sie &lt;id&gt; verwenden.
 
     **Anforderung**

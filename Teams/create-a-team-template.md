@@ -16,18 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506735"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278458"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
 **Benutzerdefinierte Vorlagen werden für EDU-Kunden noch nicht unterstützt.**
 
 Eine benutzerdefinierte Teamvorlage ist eine vordefinierte Teamstruktur mit einer Reihe von Kanälen, Registerkarten und Apps. Sie können eine Vorlage entwickeln, die Ihnen hilft, schnell den richtigen Platz zur Zusammenarbeit zu schaffen. Ihre benutzerdefinierte Teamvorlage verwendet Ihre bevorzugten Einstellungen.  
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx]
+
 
 Erste Schritte:
 
@@ -64,7 +69,7 @@ Erste Schritte:
 Ihre neue Vorlage wird in der Liste **der Teamvorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in einer Teams.
 
 > [!Note]
-> Es kann bis zu 24 Stunden dauern, bis Teams-Benutzer eine benutzerdefinierte Vorlage im Katalog sehen.
+> Es kann bis zu 24 Stunden dauern, bis Teams-Benutzer eine benutzerdefinierte Vorlagenänderung im Katalog sehen.
 
 ## <a name="customizing-website-tab-apps"></a>Anpassen von Apps auf der Registerkarte "Website"
 

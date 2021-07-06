@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Konfigurieren Teams-Räume geräte und Surface Hub, um an Besprechungen teilzunehmen, wenn das eine oder das andere Gerät einer Besprechung beitritt.
-ms.openlocfilehash: 57dc91e4a7d923e218cd1f8f6f0ce22679d550e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b81d6fca5c263bb8ba1dcd07e80167425bd42fc0
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117563"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278678"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Einrichten von koordinierten Besprechungen mit Microsoft Teams-Räume und Surface Hub
 
@@ -46,13 +46,13 @@ Bevor Sie Konfigurationsänderungen vornehmen, müssen Sie entscheiden, welche G
 
 ## <a name="step-2-get-your-devices-upns"></a>Schritt 2: Erhalten der UPNs Ihrer Geräte
 
-Wenn Sie eine koordinierte Besprechungserfahrung in einem Besprechungsraum einrichten, müssen Sie den Teams-Räume-Geräten und Surface Hubs in diesem Raum mitteilen, mit welchen Geräten Sie koordinieren möchten. Dazu fügen Sie den Benutzerprinzipalnamen (User Principal Name, UPN) der Geräte hinzu, mit der er sich bei der Konfiguration koordinieren soll. Wenn Sie die UPNs für jedes der Geräte, die Sie für koordinierte Besprechungen einrichten möchten, nicht kennen, können Sie sie über das Microsoft 365 Admin Center finden. 
+Wenn Sie eine koordinierte Besprechungserfahrung in einem Besprechungsraum einrichten, müssen Sie den Teams-Räume-Geräten und Surface Hubs in diesem Raum mitteilen, mit welchen Geräten Sie koordinieren möchten. Dazu fügen Sie den Benutzerprinzipalnamen (User Principal Name, UPN) der Geräte hinzu, mit der er sich bei der Konfiguration koordinieren soll. Wenn Sie die UPNs für jedes der Geräte, die Sie für koordinierte Besprechungen einrichten möchten, nicht kennen, können Sie sie mithilfe der Microsoft 365 Admin Center. 
 
-Ihnen muss eine Administratorrolle zugewiesen sein, um auf das admin center Microsoft 365 zugreifen zu können. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen.](/microsoft-365/admin/add-users/about-admin-roles)
+Ihnen muss eine Administratorrolle zugewiesen sein, um auf die einzelnen Microsoft 365 Admin Center. Weitere Informationen finden Sie unter [Informationen zu Administratorrollen.](/microsoft-365/admin/add-users/about-admin-roles)
 
 Um die UPNs Ihrer Teams-Räume und Surface Hubs zu erhalten, gehen Sie wie folgt vor:
 
-1. Melden Sie sich beim Microsoft 365 Admin Center an, indem Sie https://admin.microsoft.com besuchen.
+1. Melden Sie sich bei der Microsoft 365 Admin Center, indem Sie https://admin.microsoft.com besuchen.
 2. Wechseln Sie **zu**  >  **Aktive Benutzer**.
 3. Suchen Sie den Namen Ihres Teams-Räume-Geräts oder  Ihres Surface Hub in der  Spalte Anzeigename (sie können das Suchfeld verwenden, wenn Sie viele Benutzer haben).
 4. Suchen Sie den UPN in der Spalte **Benutzername** (er sieht in etwa wie alias@contoso.com oder alias@contoso.onmicrosoft.com).

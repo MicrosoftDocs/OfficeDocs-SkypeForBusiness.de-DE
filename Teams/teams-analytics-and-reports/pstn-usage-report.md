@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Teams PstN-Nutzungsbericht im Microsoft Teams
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 402e602e9f15beef30f0c44901398fa22b63c807
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: af904400b7a20befe650977c4baea035f998cf86
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262667"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278518"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -140,7 +140,7 @@ Sie können Daten bis zu fünf Monate (150 Tage) ab dem aktuellen Datum exportie
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | Korrelations-ID | `uniqueidentifier` | Eindeutige Anruf-ID |
 > | 1 | SIP-Adresse | `nvarchar(128)` | Die Adresse des Benutzers oder Bots, der den Anruf hergestellt oder empfangen hat.<br/>Beachten Sie, dass es sich dabei eigentlich um den UserPrincipalName (UPN, Anmeldenamen) in Azure Active Directory handelt, der normalerweise mit der SIP-Adresse identisch ist. |
-> | 2 | Display Name | `nvarchar(128)` | Der Name eines Benutzers oder eines Anrufbots (z. B. Anrufwarteschleife oder automatische Telefonzentrale), wie in Microsoft 365 Admin Center festgelegt |
+> | 2 | Display Name | `nvarchar(128)` | Der Name eines Benutzers oder eines Anrufbots (z. B. Anrufwarteschleife oder automatische Telefonzentrale), wie in der Microsoft 365 Admin Center |
 > | 3 | Land des Benutzers | `nvarchar(2)` | Ländercode des Benutzers ISO [3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 > | 4 | Einladungszeitpunkt | `datetimeoffset` | Wenn der erste Einladungsaufruf vom Teams-Benutzer oder -Bot ausgehend oder beim eingehenden an Teams oder Botanruf von der SIP-Proxykomponente von Direct Routing vom SBC empfangen wurde |
 > | 5 | Startzeitpunkt | `datetimeoffset` | Zeitpunkt, zu dem der SIP-Proxy die endgültige Antwort (SIP-Nachricht "200 OK") vom SBC am ausgehenden (Teams/Bot an einen PSTN-Benutzer) oder nachdem der SIP-Proxy die Einladung zum nächsten Hop im Teams-Back-End bei einem eingehenden Anruf (PSTN-Benutzer an einen Teams/Bot) gesendet hat.<br/>Bei fehlgeschlagenen und nicht beantworteten Anrufen kann dies gleich dem Zeitpunkt der Einladung oder des Fehlschlags sein. |
