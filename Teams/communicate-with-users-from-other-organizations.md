@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115993"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53302000"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
@@ -77,7 +77,7 @@ Die folgende Tabelle zeigt die Unterschiede zwischen dem externen Zugriff (Partn
 | Personen von außerhalb Ihrer Organisation können | Benutzer mit externem Zugriff | Gäste |
 |---------|-----------------------|--------------------|
 | Auf Teams-Ressourcen zugreifen | Nein | Ja |
-| Zu einem Gruppenchat hinzugefügt werden | Nein | Ja |
+| Zu einem Gruppenchat hinzugefügt werden | Ja | Ja |
 | Zu einer Besprechung eingeladen werden | Ja | Ja |
 | Private Anrufe führen | Ja | Ja<sup>5</sup> |
 | Telefonnummer für Teilnehmer von Einwahlbesprechungen anzeigen | Nein<sup>4</sup> | Ja |
