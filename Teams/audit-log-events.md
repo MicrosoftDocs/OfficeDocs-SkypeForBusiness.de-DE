@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
+ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275674"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53324458"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -69,7 +69,7 @@ Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im
 
   ![Screenshot der Suchfunktion für das Überwachungsprotokoll](media/audit-log-search.png)
 
-- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, können Sie nach allen Aktivitäten suchen und die Ergebnisse dann filtern, indem Sie den Vorgangsnamen in das Feld für die Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results).
+- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, können Sie nach allen Aktivitäten suchen und die Ergebnisse dann filtern, indem Sie den Vorgangsnamen in das Feld für die Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
 
 - Klicken Sie auf **Auswahl aufheben**, um die aktuelle Auswahl von Suchkriterien aufzuheben. Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt. Sie können auch auf **Gesamte Auswahl aufheben, um Ergebnisse für alle Aktivitäten anzuzeigen** klicken, um die getroffene Auswahl von Aktivitäten aufzuheben.
 
@@ -87,13 +87,13 @@ Nachdem Sie eine Aktivitätserkennungsrichtlinie festgelegt haben, beginnt diese
 
 Ein Szenario, das Sie aus geschäftlicher Sicht vielleicht im Auge behalten möchten, ist das Hinzufügen externer Benutzer zu Ihrer Microsoft Teams-Umgebung. Wenn externe Benutzer aktiviert sind, empfiehlt es sich, ihre Anwesenheit zu überwachen.  Sie können [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) zur Ermittlung von Bedrohungen verwenden.
 
-![Screenshot einer Liste von durch Massenlöschvorgänge ausgelösten Ereignissen](media/TeamsExternalUserAddPolicy.png)
+![Richtlinie zum Überwachen des Hinzufügens externer Benutzer](media/TeamsExternalUserAddPolicy.png)
 
 Wie im Screenshot dieser Richtlinie zum Überwachen des Hinzufügens externer Benutzer zu sehen ist, haben Sie die Möglichkeit, die Richtlinie zu benennen, den Schweregrad entsprechend den Anforderungen Ihres Unternehmens festzulegen, es (in diesem Fall) als eine einzelne Aktivität festzulegen und dann die Parameter anzugeben, die speziell das Hinzufügen von nicht internen Benutzern überwachen und diese Aktivität auf Microsoft Teams beschränken werden.
 
 Die Ergebnisse dieser Richtlinie können im Aktivitätsprotokoll angezeigt werden:
 
-![Screenshot einer Liste von durch Massenlöschvorgänge ausgelösten Ereignissen](media/TeamsExternalUserList.png)
+![Von der Richtlinie für externe Benutzer ausgelöste Ereignisse](media/TeamsExternalUserList.png)
 
 Hier können Sie Übereinstimmungen mit der von Ihnen festgelegten Richtlinie überprüfen und bei Bedarf Anpassungen vornehmen oder die Ergebnisse exportieren, um sie an anderer Stelle zu verwenden.
 
@@ -101,13 +101,13 @@ Hier können Sie Übereinstimmungen mit der von Ihnen festgelegten Richtlinie ü
 
 Wie weiter oben erwähnt, können Sie Löschszenarien überwachen. Es ist möglich, eine Richtlinie zu erstellen, die das Massenlöschen von Microsoft Teams-Sites überwacht. In diesem Beispiel ist eine warnungsbasierte Richtlinie so eingerichtet, dass Massenlöschungen von Teams in einem Zeitraum von 30 Minuten erkannt werden.
 
-![Screenshot der Seite zum Erstellen von Richtlinien mit der Einrichtung einer Richtlinie für die Erkennung von Massenlöschvorgängen für Teams](media/TeamsMassDeletePolicy.png)
+![Richtlinie, die die Einrichtung einer Richtlinie für die Erkennung von Massenlöschvorgängen für Teams zeigt](media/TeamsMassDeletePolicy.png)
 
 Wie im Screenshot zu sehen ist, können Sie viele verschiedene Parameter für diese Richtlinie festlegen, um Löschungen in Microsoft Teams zu überwachen, einschließlich Schweregrad, einzelner oder wiederholter Aktion sowie Parameter, die dies auf Microsoft Teams und Sitelöschungen beschränken. Dies kann unabhängig von einer Vorlage erfolgen, Sie können aber auch eine Vorlage verwenden, auf der diese Richtlinie basieren soll, je nach den Anforderungen Ihres Unternehmens.
 
 Nach der Einrichtung einer für Ihr Unternehmen passenden Richtlinie können Sie die Ergebnisse zu ausgelösten Ereignissen im Aktivitätsprotokoll überprüfen:
 
-![Screenshot einer Liste von durch Massenlöschvorgänge ausgelösten Ereignissen](media/TeamsMassDeleteList.png)
+![Screenshotereignisse, die von Massenlöschvorgängen ausgelöst wurden](media/TeamsMassDeleteList.png)
 
 Sie können anhand der von Ihnen festgelegten Richtlinie filtern, um die Ergebnisse der Richtlinie zu sehen. Wenn Sie mit den Ergebnissen im Aktivitätsprotokoll nicht zufrieden sind (vielleicht sehen Sie eine Menge Ergebnisse, oder gar nichts), kann dies Ihnen dabei helfen, die Abfrage zu verfeinern, damit sie für Ihre Zwecke relevanter wird.
 
@@ -146,7 +146,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
 |Eine Nachricht mit einem URL-Link in der Datei Teams     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt ihr in der Nachricht einen URL-Link Teams.         |
 |Exportierte Nachrichten <sup>1</sup> |   MessagesExported |Chat- oder Kanalnachrichten wurden exportiert|.
-|Abgerufene Chats <sup>1</sup> |ChatRetrieved  |Ein Microsoft Teams Chat wurde abgerufen.|
+|Abgerufener Chat <sup>1</sup>  |ChatRetrieved  |Ein Microsoft Teams Chat wurde abgerufen.|
 |Abrufen aller gehosteten Inhalte einer Nachricht<sup>1</sup>    |MessageHostedContentsListed    |Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
 |App installiert |AppInstalled         |Eine App wurde installiert.   |
 |Aktion auf Karte ausgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat eine Aktion auf einer adaptiven Karte ausgeführt. Adaptive Karten werden in der Regel von Bots verwendet, um die Anzeige umfassender Informationen und die Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Nur Inline-Eingabeaktionen auf einer adaptiven Karte innerhalb eines Chats sind im Überwachungsprotokoll verfügbar. Beispielsweise wenn ein Benutzer eine Antwort zu einer Umfrage in einer Kanalunterhaltung über eine adaptive Karte übermittelt, die von einem Umfrage-Bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", wodurch ein Dialogfeld geöffnet wird, oder Benutzeraktionen in Dialogfeldern sind im Überwachungsprotokoll nicht verfügbar.|

@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie mehr über die technologie Telefonsystem in Microsoft 365 und Office 365.
-ms.openlocfilehash: 0c750a4abe92b9fee83a3d152db92c767147d295
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0b05c5e0f3fe0f684f160e75e62cec2f36fc86b
+ms.sourcegitcommit: 70f47cc2333e790c15c3f9f209302afdbb5a07d7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100921"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53333089"
 ---
 # <a name="what-is-phone-system"></a>Was ist Telefonsystem?
 
@@ -55,7 +55,7 @@ Telefonsystem kann auf eine von zwei Arten mit dem PSTN verbunden werden:
 
   Für Ihre Teams können Sie Ihre lokale Telefonieinfrastruktur mithilfe von Direct-Routing Telefonsystem Verbindung mit dem Telefoniedienst herstellen. Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
 
-  Weitere Informationen zu allen Telefonielösungen von Microsoft finden Sie unter [Telefonielösungen von Microsoft.](/SkypeForBusiness/hybrid/msft-telephony-solutions)
+  Weitere Informationen zu allen Telefonielösungen von Microsoft finden Sie unter [Planen Teams Sprachlösung.](cloud-voice-landing-page.md)
 
 
 ## <a name="phone-system-with-services"></a>Telefonsystem mit Diensten
