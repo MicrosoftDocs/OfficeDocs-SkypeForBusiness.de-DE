@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16713d115dafaac4667fcf8ca1b52624a3b95424
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: abff04e9fd51f0d7e399b8619442dbf9e3070c43
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275654"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345721"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -120,10 +120,14 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, GCCH und DoD, aber nicht A1 (300). Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).|
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 1000, umfasst GCC, GCCH und DoD, aber nicht A1 (300). Mit **Nur anzeigen** können bis zu 20.000 Teilnehmer als Zuhörer an einer Besprechung teilnehmen, bei der der Organisator über eine Lizenz für E3/E5/A3/A5-SKU sowie über eine Behördenlizenz (GCC, GCC High, DoD) verfügt. Erfahren Sie mehr über das [Nur anzeigen-Erlebnis](view-only-meeting-experience.md).<sup>1,2</sup>|
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
+  
+<sup>1</sup> Für eine optimale Erfahrung in großen Besprechungen empfehlen wir die Verwendung des Teams-Desktopclients oder der mobilen Teams-Clients.
+  
+<sup>2</sup> In großen Besprechungen empfehlen wir Referenten, den Teams-Desktopclient zu verwenden. Weitere Tipps zum Hosten großer Besprechungen finden Sie unter [Bewährte Methoden für eine große Teams-Besprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
   
 > [!NOTE]
 > Gruppenräume können nur in Besprechungen mit weniger als 300 Teilnehmern erstellt werden. Darüber hinaus schränkt das Erstellen von Gruppenräumen in einer Besprechung automatisch die Anzahl der Besprechungsteilnehmer auf 300 ein. Empfehlen Sie Ihren Endbenutzern, keine Gruppenräume in Besprechungen zu initiieren, in denen sie mehr als 300 Teilnehmer erwarten. Weitere Informationen zu großen Teambesprechungen erhalten Sie, wenn Sie die Anleitung [Bewährte Methoden für eine große Teambesprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) mit Ihren Endbenutzern teilen. 
