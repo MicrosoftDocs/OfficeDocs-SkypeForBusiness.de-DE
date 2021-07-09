@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie die Microsoft-Anrufpläne konfigurieren Telef
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 5e399c5e18bc90f99ebe59f3f4e603da5f7cbfe9
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096309"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337834"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -83,6 +83,9 @@ Die folgenden Clients werden derzeit unterstützt.  Schauen Sie häufig wieder h
 - Teams mobiler Client für Den Android-Client und Google Play Store, Version 1416/1.0.0.2019121201 und höher
 - Teams 1449/1.0.94.2019110802 und höher
 - Teams-Räume Version 4.4.25.0 und höher
+
+> [!NOTE]
+> 3PIP-Telefone unterstützen keine dynamischen Notrufe. 
 
 > [!NOTE]
 > Dynamische Notrufe, einschließlich Benachrichtigungen des Sicherheitsdesks, werden auf dem Webclient Teams nicht unterstützt. Um zu verhindern, dass Benutzer den Teams-Webclient zum Anrufen von PSTN-Nummern verwenden, können Sie eine Richtlinie für Teams-Anrufe festlegen und die Einstellung **Web-PSTN-Anruf** zulassen deaktivieren. Weitere Informationen finden Sie unter [Anrufrichtlinien in Teams](teams-calling-policy.md) [und Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 

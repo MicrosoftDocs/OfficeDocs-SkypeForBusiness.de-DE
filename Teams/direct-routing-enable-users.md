@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Microsoft-Telefon System Direct Routing aktivieren.
-ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129325"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345711"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -53,7 +53,9 @@ Wenn Ihre Skype for Business Online-Bereitstellung koexistent mit Skype for Busi
 
 Informationen zu den Lizenzanforderungen finden Sie unter [Lizenzierungs- und andere Anforderungen](direct-routing-plan.md#licensing-and-other-requirements) in [Planen von Direct Routing.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Stellen Sie sicher, dass der Benutzer online zu Hause ist (gilt für Skype for Business Server Enterprise-VoIP, die zu Direct-Routing migriert Teams werden)
+## <a name="ensure-that-the-user-is-homed-online"></a>Sicherstellen, dass der Benutzer online zu Hause ist 
+
+Dieser Schritt gilt für Skype for Business Server Enterprise-VoIP Benutzer, die zu Direct-Routing migriert Teams werden.
 
 Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie können dies überprüfen, indem Sie sich den Parameter RegistrarPool anschauen, der einen Wert in der Domäne "infra.lync.com muss. Es wird auch empfohlen,, aber nicht erforderlich, die Verwaltung des LineURI von der lokalen in die Onlineverwaltung zu ändern, wenn Benutzer zu Direct-Routing Teams werden. 
 
