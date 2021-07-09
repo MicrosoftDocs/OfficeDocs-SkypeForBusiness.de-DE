@@ -587,6 +587,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Entfernen der Besprechungsrichtlinie „RestrictedAnonymousAccess“ aus den Benutzern
                     href: meeting-policies-restricted-anonymous-access.md
+          - name: Besprechungsrichtlinien und Ablauf der Besprechung
+            href: meeting-expiration.md
           - name: Verwalten von Besprechungseinstellungen
             href: meeting-settings-in-teams.md
           - name: 'E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern'
