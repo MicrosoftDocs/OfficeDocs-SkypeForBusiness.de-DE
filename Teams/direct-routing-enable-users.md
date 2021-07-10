@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Microsoft-Telefon System Direct Routing aktivieren.
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345711"
+ms.locfileid: "53354295"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -126,7 +126,7 @@ Nachdem Sie den Benutzer erstellt und eine Lizenz zugewiesen haben, besteht der 
     > Wenn die Telefonnummer des Benutzers lokal verwaltet wird, verwenden Sie die lokale Skype for Business Verwaltungsshell oder Systemsteuerung, um die Telefonnummer des Benutzers zu konfigurieren. 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>Konfigurieren des direkten Sendens von Anrufen an die Voicemail
+## <a name="configure-sending-calls-directly-to-voicemail"></a>Konfigurieren des direkten Sendens von Anrufen an Voicemail
 
 Mit Direct Routing können Sie den Anruf an einen Benutzer beenden und direkt an die Voicemail des Benutzers senden. Wenn Sie den Anruf direkt an die Voicemail senden möchten, fügen Sie undurchsichtig=app:voicemail an den URI-Header anfordern an. Beispiel: "sip:user@yourdomain.com;opaque=app:voicemail". In diesem Fall erhält Teams Anrufer keine Anrufbenachrichtigung. Der Anruf wird direkt mit der Voicemail des Benutzers verbunden.
 

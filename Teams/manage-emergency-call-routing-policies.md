@@ -1,7 +1,7 @@
 ---
-title: Verwalten von Notfall-Anrufweiterleitungsrichtlinien
-author: cichur
-ms.author: v-cichur
+title: Verwalten von Richtlinien für das Routing von Notrufen für Direct Routing
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -21,16 +21,16 @@ description: Erfahren Sie, wie Sie Richtlinien für das Routing von Notrufen in 
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096179"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354305"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das Routing von Notrufen in Microsoft Teams
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Verwalten von Richtlinien für das Routing von Notrufen für Direct Routing
 
-Wenn Sie Telefonsystem [Direct Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, können Sie Richtlinien für das Routing von Notrufen in Microsoft Teams verwenden, um Notrufnummern zu erstellen und anzugeben, wie Notrufe weiterleiten werden. Eine Richtlinie für das Routing von Notrufen bestimmt, ob erweiterte Notrufdienste für Benutzer aktiviert sind, denen die Richtlinie zugewiesen ist, die Nummern, mit denen Notrufe angerufen werden (z. B. 911 in den Vereinigten Staaten), und wie Notrufe an Notdienste umgerufen werden.
+Wenn Sie Telefonsystem [Direct Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, können Sie Richtlinien für das Routing von Notrufen in Microsoft Teams verwenden, um Notrufnummern zu erstellen und anzugeben, wie Notrufe weiterleiten werden. Eine Richtlinie für das Routing von Notrufen bestimmt, ob erweiterte Notrufdienste für Benutzer aktiviert werden, denen die Richtlinie zugewiesen ist, die Nummern, mit denen Notdienste angerufen werden (z. B. 911 in den USA) und wie Notrufe an Notdienste umgerufen werden.
 
 Sie verwalten Richtlinien für die Weiterleitung von Notrufen, indem Sie zu den Richtlinien für den Sprachnotruf im Microsoft Teams Admin Center oder mithilfe  >   von Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
 
@@ -98,4 +98,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)

@@ -1,7 +1,7 @@
 ---
-title: Verwalten von Voice Routing-Richtlinien in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Verwalten von Voice Routing-Richtlinien für Direct Routing
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Voice Routing-Richtlinien in Ihrem Microsoft Teams.
-ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101071"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354285"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Verwalten von Voice Routing-Richtlinien in Microsoft Teams
+# <a name="manage-voice-routing-policies-for-direct-routing"></a>Verwalten von Voice Routing-Richtlinien für Direct Routing
 
 Wenn Sie Telefonsystem [Direct Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, verwenden Sie Voice Routing-Richtlinien, um Teams- und Skype for Business Online-Benutzern das Empfangen und Anrufen im öffentlichen Telefonnetz (Public Switched Telephone Network, PSTN) mithilfe Ihrer lokalen Telefonieinfrastruktur zu ermöglichen.
 

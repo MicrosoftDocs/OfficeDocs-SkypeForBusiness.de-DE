@@ -24,19 +24,16 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Microsoft Teams Cloud-Sprachfeatures und die Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 391b8e2f30aa5e64fcb4b9e418af49341c2b9042
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901932"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354381"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Teams-Sprachlösung 
 
 Dieser Artikel hilft Ihnen bei der Entscheidung, welche Microsoft-Sprachlösung für Ihre Organisation die richtige ist. Nachdem Sie sich entschieden haben, enthält dieser Artikel eine Roadmap für Inhalte, mit deren Unterstützung Sie die ausgewählte Lösung implementieren können.
-
-> [!NOTE]
-> Anleitungen zum Planen einer Teams-Sprachlösung als Teil Ihres Gesamtplans für das Upgrade von Skype for Business Server auf Teams finden Sie unter Überlegungen zum PSTN für das Upgrade von der lokalen Skype for Business auf Teams [PSTN.](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 Die einfachste Lösung finden Sie, &mdash; wenn Telefonsystem Anrufplan erstellen möchten. Dies ist die All-in-the-Cloud-Lösung von Microsoft, die PBX-Funktionen (Private Branch Exchange) und Anrufe an das Public Switched Telephone Network (PSTN) bietet, wie in der folgenden Abbildung dargestellt. Mit dieser Lösung ist Microsoft Ihr PSTN-Netzbetreiber.
 
@@ -66,7 +63,7 @@ Möglicherweise ist Ihre Situation jedoch komplexer. So könnten Sie beispielswe
 | [**Telefonsystem**](#phone-system) | Die Microsoft-Technologie zum Aktivieren von Anrufsteuerung und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365 Mit Microsoft Teams. |
 | [**PstN-Konnektivitätsoptionen (Public Switched Telephone Network)**](#public-switched-telephone-network-connectivity-options) | Sie können zwischen der Verwendung von Microsoft als Netzbetreiber oder der Verbindung Ihres eigenen Telefonieanbieters mit Microsoft Teams über Direct Routing oder Operator Verbinden. In Kombination Telefonsystem Konnektivitätsoptionen für das Festnetz ermöglichen es Ihren Benutzern, weltweit Telefonanrufe zu telefonieren.|
 
-**Je nach Ihren Anforderungen.** Einige der Abschnitte in diesem Artikel sind abhängig von Ihrer vorhandenen Bereitstellung und den anforderungen relevant. Beispielsweise ist Location-Based Routing nur für Direct Routing-Kunden an geografischen Standorten erforderlich, die keine gebührenpflichtige Umgehung zulassen.
+**Je nach Ihren Anforderungen.** Einige der Abschnitte in diesem und zugehörigen Artikeln sind abhängig von Ihrer vorhandenen Bereitstellung und den vorhandenen Anforderungen relevant. Beispielsweise ist Location-Based Routing nur für Direct Routing-Kunden an geografischen Standorten erforderlich, die keine gebührenpflichtige Umgehung zulassen.
 
 Überlegen Sie, welche dieser zusätzlichen Konfigurationen Sie möglicherweise benötigen:
 
@@ -74,24 +71,22 @@ Möglicherweise ist Ihre Situation jedoch komplexer. So könnten Sie beispielswe
 
 | Je nach Ihren Anforderungen | Beschreibung |
 | :------------|:-------|
-| [**Telefon von Microsoft**](#phone-numbers-from-microsoft) | Hier erfahren Sie, wie Sie Telefonnummern von Microsoft erhalten und verwalten und wie Sie vorhandene Nummern an Microsoft übertragen. Lesen Sie dies, wenn Sie Telefonnummern für den Microsoft-Anrufplan erhalten, vorhandene Nummern übertragen, Servicenummern beziehen müssen und so weiter. |
-| [**Wählpläne und Anrufrouting**](#dial-plans-and-call-routing) | Konfigurieren und Verwalten von Wählplänen, mit deren Hilfe gewählte Telefonnummern in ein alternatives Format (normalerweise E.164-Format) für die Anrufautorisierung und die Anrufrouting übersetzt werden. Lesen Sie dies, wenn Sie wissen müssen, was Wählpläne sind und ob Sie Wählpläne für Ihre Organisation angeben müssen.|
-| [**Notrufe**](#emergency-calling) | Verwalten und Konfigurieren von Notrufen &mdash; je nach Ihrer PSTN-Konnektivitätsoption Lesen Sie diesen Abschnitt, wenn Sie einen Microsoft-Anrufplan oder Direct Routing verwenden und wissen möchten, wie Sie Notrufe für Ihre Organisation verwalten können. |
-| [**Standortbasiertes Routing für direktes Routing**](#location-based-routing-for-direct-routing) |Informationen zur Verwendung Location-Based Routing (LBR) zum Einschränken der Microsoft Teams Umgehung für Benutzer anhand ihres geografischen Standorts. Lesen Sie diesen Abschnitt, wenn Ihre Organisation Direct-Routing an einem Ort verwendet, an dem keine gebührenpflichtige Umgehung zulässig ist.
-| [**Netzwerktopologie für Cloud-Sprachfeatures**](#network-topology-for-voice-features) | Wenn Ihre Organisation Location-Based Routing (LBR) für Direct Routing oder dynamische Notrufe implementiert, müssen Sie Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams. Lesen Sie diesen Abschnitt, wenn Sie LBR für Direct-Routing implementieren, oder wenn Sie dynamische Notrufe mit Anrufplan oder Direct Routing implementieren. |
+| [**Telefonnummernverwaltung**](pstn-connectivity.md#phone-number-management) | Wie Sie Telefonnummern erhalten und verwalten, hängt von der PstN-Verbindungsoption ab. Lesen Sie diesen Abschnitt, wenn Sie Telefonnummern beziehen, vorhandene Nummern übertragen, Servicenummern beziehen müssen und so weiter. |
+| [**Anrufrouting und Wählpläne**](pstn-connectivity.md#call-routing-and-dial-plans) | Konfigurieren und Verwalten von Wählplänen, mit deren Hilfe gewählte Telefonnummern in ein alternatives Format (normalerweise E.164-Format) für die Anrufautorisierung und die Anrufrouting übersetzt werden. Lesen Sie diesen Abschnitt, wenn Sie wissen möchten, was Wählpläne sind und ob Sie Wählpläne für Ihre Organisation angeben müssen.|
+| [**Notrufe**](pstn-connectivity.md#emergency-calling) | Wie Notrufe verwaltet und konfiguriert werden, hängt von der PstN-Konnektivitätsoption ab. Lesen Sie diesen Abschnitt, wenn Sie wissen möchten, wie Sie Notrufe für Ihr Unternehmen verwalten können. |
+| [**Standortbasiertes Routing für direktes Routing**](pstn-connectivity.md#location-based-routing-for-direct-routing) |Informationen zur Verwendung Location-Based Routing (LBR) zum Einschränken der Microsoft Teams Umgehung für Benutzer anhand ihres geografischen Standorts. Lesen Sie diesen Abschnitt, wenn Ihre Organisation Direct-Routing an einem Ort verwendet, an dem keine gebührenpflichtige Umgehung zulässig ist.
+| [**Netzwerktopologie für Cloud-Sprachfeatures**](pstn-connectivity.md#network-topology-for-voice-features) | Wenn Ihre Organisation Location-Based Routing (LBR) für Direct Routing oder dynamische Notrufe implementiert, müssen Sie Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams. Lesen Sie diesen Abschnitt, wenn Sie LBR für Direct-Routing implementieren, oder wenn Sie dynamische Notrufe mit Anrufplan oder Direct Routing implementieren. |
 | [**Migrieren Ihrer vorhandenen Sprachlösung**](#migrate-your-existing-voice-solution-to-teams) | Was Sie bei der Migration Ihrer Sprachlösung zu Ihren Sprachlösungen denken müssen, Teams.  Lesen Sie diesen Abschnitt, wenn Sie von einer vorhandenen Sprachlösung zu einem Teams. 
 
-
-
 > [!Important]
-> Dieser Artikel konzentriert sich auf Sprachlösungen mit Microsoft Teams. Auch wenn Lösungen mit Skype for Business Online weiterhin verfügbar sind (wie in [den Telefonielösungen](/SkypeForBusiness/hybrid/msft-telephony-solutions)von Microsoft beschrieben), ist es wichtig zu wissen, dass Skype for Business Online am 31. Juli 2021 eingestellt wird.  Nach diesem Datum kann auf Skype for Business Onlinedienst nicht mehr zugegriffen werden. Darüber hinaus wird die PSTN-Verbindung zwischen Ihrer lokalen Umgebung – unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online – &mdash; &mdash; nicht mehr unterstützt. In diesem Artikel werden die Teams und erläutert, wie Sie bei Bedarf Ihr lokales Telefonienetzwerk mithilfe von Direct Routing oder Operator Teams mit Verbinden.
+> Dieser Artikel konzentriert sich auf Sprachlösungen mit Microsoft Teams. Obwohl Lösungen mit Skype for Business Online weiterhin verfügbar sind, ist es wichtig zu wissen, dass Skype for Business Online am 31. Juli 2021 eingestellt wird.  Nach diesem Datum kann auf Skype for Business Onlinedienst nicht mehr zugegriffen werden. Darüber hinaus wird die PSTN-Verbindung zwischen Ihrer lokalen Umgebung – unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online – &mdash; &mdash; nicht mehr unterstützt. In diesem Artikel werden die Teams und erläutert, wie Sie bei Bedarf Ihr lokales Telefonienetzwerk mithilfe von Direct Routing oder Operator Teams mit Verbinden.
 
 
 ## <a name="phone-system"></a>Telefonsystem
 
-Telefonsystem microsoft-Technologie zum Aktivieren von Anrufsteuerungs- und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365- oder Office 365-Cloud mit Microsoft Teams.
+Telefonsystem microsoft-Technologie zum Aktivieren von Anrufsteuerungs- und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365-Cloud Microsoft Teams.
 
-Telefonsystem kann mit Teams oder Skype for Business-Clients und zertifizierten Geräten verwendet werden. Telefonsystem können Sie Ihr vorhandenes PBX-System durch eine Reihe von Funktionen ersetzen, die direkt von Ihrem Microsoft 365 oder ihrem Office 365. 
+Telefonsystem kann mit Teams oder Skype for Business-Clients und zertifizierten Geräten verwendet werden. Telefonsystem können Sie Ihr vorhandenes PBX-System durch eine Reihe von Funktionen ersetzen, die direkt von Ihrem Microsoft 365. 
 
 Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb Telefonsystem abgewickelt und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen.
 
@@ -146,146 +141,21 @@ Standardmäßig wird für alle ausgehenden Anrufe die zugewiesene Telefonnummer 
 
 Telefonsystem stellt umfassende PBX-Funktionen für Ihre Organisation bereit. Um Benutzern das Anrufen außerhalb Ihrer Organisation zu ermöglichen, müssen Sie Telefonsystem das Public Switched Telephone Network (PSTN) verbinden. Wenn Sie Telefonsystem PSTN verbinden möchten, können Sie eine der folgenden Optionen auswählen:
 
-- [**Telefonsystem mit Anrufplan .**](#phone-system-with-calling-plan) Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber.
+- [**Telefonsystem mit Anrufplan .**](pstn-connectivity.md#phone-system-with-calling-plan) Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber.
 
-- [**Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber,**](#phone-system-with-own-pstn-carrier-with-direct-routing) indem Sie Direct Routing verwenden, um Ihre lokale Umgebung mit ihrem Teams.
+- [**Telefonsystem mit Ihrem eigenen PSTN-Netzbetreiber,**](pstn-connectivity.md#phone-system-with-direct-routing) indem Sie Direct Routing verwenden, um Ihre lokale Umgebung mit ihrem Teams.
 
 - [**Telefonsystem mit Ihrem eigenen NETZBETREIBER**](operator-connect-plan.md)mithilfe des Operator Verbinden , der derzeit nur in der **öffentlichen Vorschau zur Verfügung steht.**  Wenn Ihr Verbinden Teilnehmer am Microsoft Operator Verbinden-Programm ist, kann er den Dienst verwalten, um PSTN-Anrufe an Teams. Informationen zu den Vorteilen und Anforderungen von Operatoren Verbinden und eine Liste der am Programm teilnehmenden Operatoren finden Sie unter [Planoperator Verbinden.](operator-connect-plan.md)
 
 Sie können auch eine Kombination von Optionen auswählen, die es Ihnen ermöglicht, eine Lösung für eine komplexe Umgebung zu entwerfen oder eine Mehrschrittmigration zu verwalten (weitere Informationen zur späteren Migration).
 
-### <a name="phone-system-with-calling-plan"></a>Telefonsystem mit Anrufplan 
+Die Telefonsystem sind unabhängig von der von Ihnen aktivierten PSTN-Konnektivitätsoption identisch. Es gibt jedoch einige Funktionsunterschiede, die sich auf die Konfiguration bestimmter Features Telefonsystem, z. B. Anrufrouting und Notrufe, auswirken. Weitere Informationen zu den PstN-Konnektivitätsoptionen und diesen Überlegungen zur Konfiguration finden Sie unter [PstN-Konnektivitätsoptionen.](pstn-connectivity.md)
 
-Wie weiter oben in diesem Artikel beschrieben, ist Telefonsystem Anrufplans die All-in-Cloud-Sprachlösung von Microsoft für Teams Benutzer. Dies ist die einfachste Option, mit der das Microsoft-Telefon-System mit dem öffentlichen Telefonnetz (PSTN) verbunden wird, um Anrufe an Festnetztelefone und Mobiltelefone weltweit zu ermöglichen. Mit dieser Option stellt Microsoft PBX-Funktionen (Private Branch Exchange) für Ihre Organisation bereit und fungiert als Ihr PSTN-Netzbetreiber, wie in der folgenden Abbildung dargestellt:
-
-![Diagramm 4 zeigt Telefonsystem mit automatischen Telefonnetzen, Anrufwarteschleifen, Anrufer-ID und mehr sowie Microsoft als Netzbetreiber](media/voice-solution-microsoft-complete.png)
-
-Wenn Sie mit Ja antworten, ist Telefonsystem Anrufplan die richtige Lösung für Sie:
-
-- Anrufplan ist in Ihrer Region verfügbar.
-- Sie müssen Ihren aktuellen PSTN-Netzbetreiber nicht beibehalten.
-- Sie möchten den von Microsoft verwalteten Zugriff auf das PSTN verwenden.
-
-Mit dieser Option: 
-
-- Sie erhalten Microsoft-Telefon-System mit zusätzlichen Inlands- oder Auslands anrufplänen, die Anrufe an Telefone auf der ganzen Welt ermöglichen (abhängig von der Art des lizenzierten Diensts).
-
-- Sie benötigen keine Bereitstellung oder Wartung einer lokalen Bereitstellung, da der Anrufplan nicht mehr Microsoft 365 &mdash; oder Office 365.
-
-- Hinweis: Bei Bedarf können Sie sich entscheiden, einen unterstützten Session Border Controller (SBC) über Direct Routing für die Interoperabilität mit Drittanbieter-PBXs, Analoggeräten und anderen von SBC unterstützten Telefoniegeräten von Drittanbietern zu verbinden.
-
-Diese Option erfordert eine unterbrechungsfreie Verbindung mit Microsoft 365 oder Office 365.
-
-Weitere Informationen zum Anrufplan finden Sie in den folgenden Artikeln:
-
-- [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
-- [So erwerben Sie einen Anrufplan](calling-plans-for-office-365.md)
-- [Landes- und Verfügbarkeit für Anrufe planen](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-- [Einrichten eines Anrufplans](set-up-calling-plans.md)
-
-
-### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>Telefonsystem mit eigenem PstN-Netzbetreiber mit Direct Routing
-
-Diese Option verbindet Microsoft-Telefon-System mithilfe von Direct Routing mit Ihrem Telefonienetzwerk, wie in der folgenden Abbildung dargestellt: 
-
-![Diagramm 5 zeigt die Telefonsystem mit Direct Routing.](media/voice-solution-with-direct-routing.png)
-
-Wenn Sie die folgenden Fragen mit "Ja" beantworten, Telefonsystem Direct-Routing die richtige Lösung für Sie:
-
-- Sie möchten die Teams mit Telefonsystem.
-- Sie müssen Ihren aktuellen PSTN-Netzbetreiber beibehalten.
-- Sie möchten das Routing vermischen. Einige Anrufe gehen über den Anrufplan, einige über Ihren Netzbetreiber.
-- Sie müssen mit PbXs und/oder Geräten von Drittanbietern (z. B. Overheadseiten, analoge Geräte und so weiter) zusammenarbeiten.
-
-Mit dieser Option:
-
-- Sie verbinden Ihre eigenen unterstützten SBC mit Microsoft-Telefon System, ohne dass zusätzliche lokale Software benötigt wird.
-
-- Sie können praktisch jeden Telefonieanbieter mit Ihrem Microsoft-Telefon verwenden.
-
-- Sie können diese Option konfigurieren und verwalten, oder sie kann von Ihrem Netzbetreiber oder Partner konfiguriert und verwaltet werden (Fragen Sie, ob Ihr Netzbetreiber oder Partner diese Option bietet).
-
-- Sie können die Interoperabilität zwischen Ihren Telefoniegeräten wie einer Drittanbieter-PBX und analogen Geräten und Microsoft-Telefon &mdash; &mdash; konfigurieren.
-
-
-Für diese Option ist Folgendes erforderlich:
-
-- Unterbrechungsfreie Verbindung mit Microsoft 365 oder Office 365.
-
-- Bereitstellen und Verwalten eines unterstützten SBC
-
-- Ein Vertrag mit einem Drittanbieter.
-  (Es sei denn, die Bereitstellung als Option zum Bereitstellen einer Verbindung mit Drittanbieter-PBX, analogen Geräten oder anderen Telefoniegeräten für Benutzer, die mit Telefonsystem Anrufplan verbunden sind.)
-
-Weitere Informationen zu Direct-Routing finden Sie in den folgenden Artikeln:
-
-- [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
-- [Planen von direktem Routing](direct-routing-plan.md)
-- [Konfigurieren von direktem Routing](direct-routing-configure.md)
-- [Verwalten von Voice Routing-Richtlinien für die Verwendung mit Direct Routing](manage-voice-routing-policies.md)
-- [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
-- [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
-
-## <a name="phone-numbers-from-microsoft"></a>Telefon von Microsoft
-
-Microsoft verfügt über zwei Arten von Telefonnummern: Telefonnummern für Abonnenten (Benutzer),  die Benutzern in Ihrer Organisation zugewiesen werden können, und Servicenummern, die als gebührenpflichtige und gebührenfreie Servicenummern verfügbar sind.  Leistungsnummern haben eine höhere Kapazität für gleichzeitige Anrufe als Abonnentennummern und können Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschleifen zugewiesen werden.
-
-Sie müssen sich entscheiden:
-
-- An welchen Benutzerstandorten benötigen Sie neue Telefonnummern von Microsoft?
-- Welche Art von Telefonnummer (Abonnent oder Dienst) brauche ich? 
-- Wie portiert ich vorhandene Telefonnummern zu Teams?
-
-Weitere Informationen zum Verwalten von Telefonnummern in Ihrer Organisation, einschließlich des Abrufens neuer Nummern oder übertragen von Ausgangsnummern, finden Sie in den folgenden Artikeln:
-
-- [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
-- [Verschiedene Arten von Telefonnummern, die für Anrufplan verwendet werden](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [Abrufen von Telefonnummern für Ihre Benutzer](getting-phone-numbers-for-your-users.md)
-- [Übertragen von Telefonnummern an Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
-
-## <a name="dial-plans-and-call-routing"></a>Wählpläne und Anrufrouting
-
-Bei einem Wählplan handelt es sich um eine Reihe von Normalisierungsregeln, mit der gewählte Telefonnummern in ein alternatives Format (normalerweise im E.164-Format) für die Anrufautorisierung und die Anrufrouting übersetzt werden.
-
-Sie müssen sich für Folgendes entscheiden: 
-
-- Benötigt meine Organisation einen angepassten Wählplan?
-- Welche Benutzer benötigen einen angepassten Wählplan?
-- Welcher Mandantenwählplan sollte jedem Benutzer zugewiesen werden?
-
-Weitere Informationen finden Sie in den folgenden Artikeln: 
-
-- [Was sind Wählpläne?](what-are-dial-plans.md)
-- [Planen von Mandantenwählplänen](what-are-dial-plans.md#planning-for-tenant-dial-plans)
-- [Erstellen und Verwalten von Wählplänen](create-and-manage-dial-plans.md)
-
-## <a name="emergency-calling"></a>Notrufe
-
-Die Konfiguration von Notrufen unterscheidet sich je nach ihrer PSTN-Konnektivitätsoption: Microsoft-Anrufplan oder Direct-Routing. Dynamische Notrufe für Microsoft Calling Plan und Telefonsystem Direct Routing bieten die Möglichkeit, Notrufe zu konfigurieren und zu weiterleiten sowie Sicherheitsmitarbeiter basierend auf dem aktuellen Standort des Teams-Clients zu benachrichtigen. Weitere Informationen zu Konzepten und Terminologie für Notrufe sowie zum Konfigurieren dynamischer Notrufe finden Sie in den folgenden Artikeln:
-
-- [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
-- [Planen und Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md)
-- [Contoso-Fallstudie: Notrufe](voice-case-study-emergency-calling.md)<br>
-  Beschreibt, wie ein fiktives multinationales Unternehmen Contoso Notrufe für ihre Organisation implementiert hat.
-
-## <a name="location-based-routing-for-direct-routing"></a>Location-Based Routing für Direct Routing
-
-In einigen Ländern und Regionen ist es ungesetzlich, den Anbieter des öffentlichen Telefonnetzwerks (PSTN) zu umgehen, um die Kosten für Anrufe im Ferngespräch zu senken. Location-Based Routing für Direct-Routing ermöglicht Es Ihnen, die gebührenpflichtige Umgehung für Microsoft Teams basierend auf ihrem geografischen Standort einzuschränken. Weitere Informationen zum Planen und Konfigurieren von Location-Based Routing (LBR) finden Sie in den folgenden Artikeln:
-
-- [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
-- [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
-- [Aktivieren des standortbasierten Routings für direktes Routing](location-based-routing-enable.md)
-- [Contoso-Fallstudie: Location-Based Routing](voice-case-study-location-based-routing.md)<br>
-  Beschreibt, wie ein fiktives multinationales Unternehmen Contoso das Routing Location-Based Organisation implementiert.
-
-## <a name="network-topology-for-voice-features"></a>Netzwerktopologie für Sprachfeatures
-
-Wenn Sie dynamische Notrufe oder Location-Based-Routing für Direct-Routing bereitstellen, müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Features in Microsoft Teams. Informationen zum Konfigurieren von Netzwerkeinstellungen für Netzwerkregionen, Netzwerkstandorte, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen finden Sie in den folgenden Artikeln:
-
-- [Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams – Konzepte und Terminologie](cloud-voice-network-settings.md)
-- [Verwalten Sie Ihre Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams](manage-your-network-topology.md)
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>Migrieren Sie Ihre vorhandene Sprachlösung zu Teams
+
+> [!NOTE]
+> Anleitungen zum Planen einer Teams-Sprachlösung als Teil Ihres Gesamtplans für das Upgrade von Skype for Business Server auf Teams finden Sie unter Überlegungen zum PSTN für das Upgrade von der lokalen Skype for Business auf Teams [PSTN.](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 Für eine Organisation, die auf Teams aktualisiert, ist das ultimative Ziel, alle Benutzer in den TeamsOnly-Modus zu verschieben. Die Telefonsystem mit Teams wird nur unterstützt, wenn sich der Benutzer im TeamsOnly-Modus befindet. Wenn Sie grundlegende Informationen zum Upgrade auf eine Teams benötigen, beginnen Sie hier:
 

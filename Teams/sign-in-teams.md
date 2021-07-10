@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: d58d9aaecd2c5d07922a96e0d5b0cb1ead4ba25b
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197520"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345701"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 ==========================
@@ -39,13 +39,13 @@ Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Microso
 
 Die moderne Authentifizierung ist für alle Organisationen verfügbar, die Microsoft Teams verwenden. Wenn Benutzer den Prozess nicht abschließen können, liegt möglicherweise ein Problem mit der Azure AD-Konfiguration Ihrer Organisation vor. Weitere Informationen finden Sie unter [Wieso habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
-- Wenn sich Nutzer bereits mit ihrem Arbeits- oder Schulkonto bei Windows oder anderen Office-Apps angemeldet haben, werden sie beim Starten von Teams direkt zur App weitergeleitet. Sie müssen ihre Anmeldeinformationen nicht eingeben.
+- Wenn sich Nutzer bereits mit ihrem Arbeits-, Uni- oder Schulkonto bei Windows oder anderen Office-Apps angemeldet haben, werden sie beim Starten von Microsoft Teams direkt zur App weitergeleitet. Es ist nicht erforderlich, dass sie ihre Anmeldeinformationen eingeben.
 
-- Microsoft empfiehlt die Verwendung von Windows 10 Version 1903 oder höher, um die beste Single Sign-On-Erfahrung zu erzielen.
+- Für einen optimalen Anmeldeablauf empfiehlt Microsoft die Verwendung von Windows 10 Version 1903 oder höher.
 
-- Wenn Benutzer an keiner anderen Stelle in ihrem Microsoft-Geschäfts-, Schul- oder Unikonto angemeldet sind, werden sie beim Starten von Microsoft Teams entweder zu einer einstufigen oder zu einer mehrstufigen Authentifizierung (SFA oder MFA) aufgefordert. Dieser Vorgang hängt davon ab, was Ihre Organisation für den Anmeldeprozess festgelegt hat.
+- Wenn Benutzer an keiner anderen Stelle in ihrem Microsoft-Geschäfts-, Schul- oder Unikonto angemeldet sind, werden sie beim Starten von Microsoft Teams entweder zu einer einstufigen oder zu einer mehrstufigen Authentifizierung (SFA oder MFA) aufgefordert, je nachdem, für welches Anmeldeverfahren Ihre Organisation sich entschieden hat.
 
-- Wenn Benutzer bei einem domänengebundenen Computer angemeldet sind, werden sie beim Start von Teams möglicherweise aufgefordert, einen weiteren Authentifizierungsschritt durchzuführen, je nachdem, ob sich Ihre Organisation für MFA entschieden hat oder ob ihr Computer bereits MFA zum Anmelden erfordert. Wenn ihr Computer bereits MFA zur Anmeldung erfordert, startet die App automatisch, wenn  sie Teams öffnen.
+- Wenn Benutzer bei einem domänengebundenen Computer angemeldet sind, werden sie beim Start von Microsoft Teams möglicherweise aufgefordert, einen weiteren Authentifizierungsschritt durchzuführen, je nachdem, ob sich Ihre Organisation für die mehrstufige Authentifizierung entschieden hat oder ob ihr Computer diese bereits zum Anmelden erfordert. Wenn ihr Computer die mehrstufige Authentifizierung bereits zur Anmeldung erfordert, startet die App automatisch, wenn sie Microsoft Teams öffnen.
 
 - Auf PCs, die einer Domain zugehören, kann Teams den Anmeldebildschirm vorab mit dem Nutzerprinzipalnamen (UPN) füllen, wenn SSO nicht möglich ist. Es gibt Fälle, in denen Sie dies möglicherweise nicht möchten, insbesondere wenn Ihre Organisation verschiedene UPNs lokal und in Azure Active Directory verwendet. In diesem Fall können Sie den folgenden Windows-Registrierungsschlüssel verwenden, um die Vorbelegung des UPN zu deaktivieren:
 
@@ -89,7 +89,7 @@ Die folgenden Bilder zeigen, wie Benutzer in Microsoft Teams-Anwendungen für Mo
 
 ## <a name="restrict-sign-in-to-teams"></a>Einschränken der Anmeldung bei Teams
 
-Ein Unternehmen möchte möglicherweise einschränken, wie die vom Unternehmen genehmigte Apps auf verwalteten Geräten verwendet werden, um beispielsweise die Möglichkeit von Studenten oder Mitarbeitern einzuschränken, auf Daten von anderen Organisationen zuzugreifen oder die vom Unternehmen genehmigten Apps für persönliche Zwecke zu verwenden. Diese Einschränkungen können erzwungen werden, indem Geräterichtlinien festgelegt werden, die von Teams-Anwendungen erkannt werden.   
+Ein Unternehmen möchte u. U. einschränken, wie die vom Unternehmen genehmigten Apps auf verwalteten Geräten verwendet werden können, um beispielsweise die Möglichkeit von Studenten oder Mitarbeitern einzuschränken, auf Daten von anderen Organisationen zuzugreifen oder die vom Unternehmen genehmigten Apps für persönliche Zwecke zu verwenden. Diese Einschränkungen können über Geräterichtlinien erzwungen werden, die von Microsoft Teams-Anwendungen erkannt werden.   
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Einschränken der Anmeldung auf mobilen Geräten
 
@@ -119,7 +119,7 @@ Teams-Apps unter Windows und MacOS erhalten Unterstützung für Geräterichtlini
 Wenn diese Richtlinie auf einem Gerät konfiguriert ist, können sich die Benutzer nur mit Konten anmelden, die sich in einem Azure AD-Mandanten befinden, der in der „Mandanten-Zulassungsliste“ enthalten ist, welche in der Richtlinie definiert wurde. Die Richtlinie gilt für alle Anmeldungen, einschließlich des ersten und weiterer Konten. Wenn Ihre Organisation über mehrere Azure AD-Mandanten verfügt, können Sie in der Zulassungsliste mehrere Mandanten-IDs einschließen. Links zum Hinzufügen eines weiteren Kontos sind in der Teams-App möglicherweise weiterhin sichtbar, funktionieren aber nicht mehr.
 
 > [!NOTE]
->1. Die Richtlinie schränkt nur Anmeldungen ein. Sie schränkt nicht die Möglichkeit ein, dass Benutzer als Gast in andere Azure AD-Mandanten eingeladen werden oder zu anderen Mandanten wechseln können.
+>1. Die Richtlinie schränkt nur Anmeldungen ein. Sie schränkt nicht die Möglichkeit ein, dass Benutzer als Gäste in andere Azure AD-Mandanten eingeladen werden oder zu diesen anderen Mandanten wechseln können (in denen Benutzer als Gäste eingeladen wurden).
 >2. Die Richtlinie erfordert Teams für Windows Version 1.3.00.30866 oder höher, und Teams für MacOS Version 1.3.00.30882 (Veröffentlichung Mitte November 2020).
 
 **Richtlinien für Windows** Administrative Vorlagendateien (ADMX/ADML) stehen im [Download Center](https://www.microsoft.com/download/details.aspx?id=49030) zur Verfügung (der beschreibende Name der Richtlinieneinstellung in der administrativen Vorlagendatei ist „Anmeldung in Teams auf Konten in bestimmten Mandanten beschränken“). Zusätzlich können Sie Schlüssel in der Windows-Registrierung manuell festlegen:
