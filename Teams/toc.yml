@@ -817,8 +817,6 @@ items:
     items:
       - name: Planen der Voice-Lösung ihrer Teams
         href: cloud-voice-landing-page.md
-      - name: Verwalten von Sprach- und Anrufrichtlinien in Teams
-        href: voice-and-calling-policies.md
       - name: Telefonsystem
         items:
           - name: Was ist das Telefonsystem?
@@ -879,100 +877,102 @@ items:
             href: shared-line-appearance.md
           - name: Wähltastatur-Konfiguration
             href: dial-pad-configuration.md
-      - name: Anrufpläne
-        items:
-          - name: Welcher Anrufplan ist für Sie am besten geeignet?
-            href: calling-plan-landing-page.md
-          - name: So erwerben Sie einen Anrufplan
-            href: calling-plans-for-office-365.md
-          - name: Einrichten von Anrufplänen für Ihre Organisation
-            href: set-up-calling-plans.md
-          - name: 'Schnellstarthandbuch: Konfigurieren von Anrufplänen'
-            href: configuring-teams-calling-quickstartguide.md
-          - name: Verfügbarkeit nach Land und Region für Anrufpläne
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: Direct Routing für Telefonsysteme
+      - name: PSTN-Konnektivitätsoptionen
         items:
           - name: Übersicht
-            href: direct-routing-landing-page.md
-          - name: Planen von Direct Routing
-            href: direct-routing-plan.md
-          - name: Liste der für Direct Routing zertifizierten Session Border Controller
-            href: direct-routing-border-controllers.md
-          - name: Konfigurieren von Direct Routing
+            href: pstn-connectivity.md
+          - name: Anrufpläne
+            items:
+              - name: Welcher Anrufplan ist für Sie am besten geeignet?
+                href: calling-plan-landing-page.md
+              - name: Einrichten von Anrufplänen für Ihre Organisation
+                href: set-up-calling-plans.md
+              - name: 'Schnellstarthandbuch: Konfigurieren von Anrufplänen'
+                href: configuring-teams-calling-quickstartguide.md
+              - name: Verfügbarkeit nach Land und Region für Anrufpläne
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: Direct Routing für Telefonsysteme
             items:
               - name: Übersicht
-                href: direct-routing-configure.md
-              - name: 'Schritt 1: Verbinden des SBC'
-                href: direct-routing-connect-the-sbc.md
-              - name: 'Schritt 2: Aktivieren von Benutzern'
-                href: direct-routing-enable-users.md
-              - name: 'Schritt 3: Konfigurieren des VoIP-Routings'
-                href: direct-routing-voice-routing.md
-              - name: 'Schritt 4: Übersetzen von Telefonnummern'
-                href: direct-routing-translate-numbers.md
-              - name: Konfigurieren eines SBC für mehrere Mandanten
-                href: direct-routing-sbc-multiple-tenants.md
-              - name: Verwenden von analogen Geräten mit Direct Routing
-                href: direct-routing-analog-devices.md
-          - name: Standortbasiertes Routing
-            items:
-              - name: Planen des standortbasierten Routings für Direct Routing
-                href: location-based-routing-plan.md
-              - name: Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
-                href: location-based-routing-configure-network-settings.md
-              - name: Aktivieren des standortbasierten Routings für Direct Routing
-                href: location-based-routing-enable.md
-          - name: Medienumgehung für direkte Weiterleitung
-            items:
-              - name: Planen der Medienumgehung mit Direct Routing
-                href: direct-routing-plan-media-bypass.md
-              - name: Konfigurieren der Medienumgehung mit Direct Routing
-                href: direct-routing-configure-media-bypass.md
-          - name: Optimierung lokaler Medien für Direct Routing
-            items:
-              - name: Planen der Optimierung lokaler Medien
-                href: direct-routing-media-optimization.md
-              - name: Konfiguration der Optimierung lokaler Medien
-                href: direct-routing-media-optimization-configure.md
-          - name: Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
-            href: direct-routing-user-accounts-in-a-hybrid-environment.md
-          - name: Migration zu Direct Routing
-            href: direct-routing-migrating.md
-          - name: Überwachung und Problembehandlung von Direct Routing
-            items:
-              - name: Übersicht
-                href: direct-routing-monitor-and-troubleshoot.md
-              - name: Health Dashboard
-                href: direct-routing-health-dashboard.md
-          - name: Technische Referenz für Direct Routing
-            items:
-              - name: Trunkfailover bei ausgehenden Anrufen
-                href: direct-routing-trunk-failover-on-outbound-call.md
-              - name: Medienpfad-Ländervorwahlen
-                href: direct-routing-country-codes.md
-              - name: PowerShell-Skript zum Testen von Session Border Controller-Verbindungen
-                href: sip-tester-powershell-script.md
-              - name: Verwalten von Anrufbenachrichtigungen
-                href: direct-routing-call-notifications.md
-              - name: Protokolle
+                href: direct-routing-landing-page.md
+              - name: Planen von Direct Routing
+                href: direct-routing-plan.md
+              - name: Liste der für Direct Routing zertifizierten Session Border Controller
+                href: direct-routing-border-controllers.md
+              - name: Konfigurieren von Direct Routing
                 items:
-                  - name: Definitionen und RFC-Standards
-                    href: direct-routing-protocols.md
-                  - name: SIP-Protokoll
-                    href: direct-routing-protocols-SIP.md
-                  - name: Medienprotokolle
-                    href: direct-routing-protocols-media.md
-              - name: Verwalten von VoIP-Routingrichtlinien
-                href: manage-voice-routing-policies.md
-              - name: Direct Routing – Survivable Branch Appliance
-                href: direct-routing-survivable-branch-appliance.md
-      - name: Operator Connect
-        items:
-          - name: Plan für Operator Connect
-            href: operator-connect-plan.md
-          - name: Konfigurieren von Operator Connect
-            href: operator-connect-configure.md
+                  - name: Übersicht
+                    href: direct-routing-configure.md
+                  - name: 'Schritt 1: Verbinden des SBC'
+                    href: direct-routing-connect-the-sbc.md
+                  - name: 'Schritt 2: Aktivieren von Benutzern'
+                    href: direct-routing-enable-users.md
+                  - name: 'Schritt 3: Konfigurieren des VoIP-Routings'
+                    href: direct-routing-voice-routing.md
+                  - name: 'Schritt 4: Übersetzen von Telefonnummern'
+                    href: direct-routing-translate-numbers.md
+                  - name: Konfigurieren eines SBC für mehrere Mandanten
+                    href: direct-routing-sbc-multiple-tenants.md
+                  - name: Verwenden von analogen Geräten mit Direct Routing
+                    href: direct-routing-analog-devices.md
+                  - name: Verwalten von VoIP-Routingrichtlinien
+                    href: manage-voice-routing-policies.md
+                  - name: Verwalten von Anrufbenachrichtigungen
+                    href: direct-routing-call-notifications.md
+              - name: Standortbasiertes Routing
+                items:
+                  - name: Planen des standortbasierten Routings für Direct Routing
+                    href: location-based-routing-plan.md
+                  - name: Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
+                    href: location-based-routing-configure-network-settings.md
+                  - name: Aktivieren des standortbasierten Routings für Direct Routing
+                    href: location-based-routing-enable.md
+              - name: Medienumgehung für direkte Weiterleitung
+                items:
+                  - name: Planen der Medienumgehung mit Direct Routing
+                    href: direct-routing-plan-media-bypass.md
+                  - name: Konfigurieren der Medienumgehung mit Direct Routing
+                    href: direct-routing-configure-media-bypass.md
+              - name: Optimierung lokaler Medien für Direct Routing
+                items:
+                  - name: Planen der Optimierung lokaler Medien
+                    href: direct-routing-media-optimization.md
+                  - name: Konfiguration der Optimierung lokaler Medien
+                    href: direct-routing-media-optimization-configure.md
+              - name: Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
+                href: direct-routing-user-accounts-in-a-hybrid-environment.md
+              - name: Migration zu Direct Routing
+                href: direct-routing-migrating.md
+              - name: Überwachung und Problembehandlung von Direct Routing
+                items:
+                  - name: Übersicht
+                    href: direct-routing-monitor-and-troubleshoot.md
+                  - name: Health Dashboard
+                    href: direct-routing-health-dashboard.md
+              - name: Technische Referenz für Direct Routing
+                items:
+                  - name: Trunkfailover bei ausgehenden Anrufen
+                    href: direct-routing-trunk-failover-on-outbound-call.md
+                  - name: Medienpfad-Ländervorwahlen
+                    href: direct-routing-country-codes.md
+                  - name: PowerShell-Skript zum Testen von Session Border Controller-Verbindungen
+                    href: sip-tester-powershell-script.md
+                  - name: Protokolle
+                    items:
+                      - name: Definitionen und RFC-Standards
+                        href: direct-routing-protocols.md
+                      - name: SIP-Protokoll
+                        href: direct-routing-protocols-SIP.md
+                      - name: Medienprotokolle
+                        href: direct-routing-protocols-media.md
+                  - name: Direct Routing – Survivable Branch Appliance
+                    href: direct-routing-survivable-branch-appliance.md
+          - name: Operator Connect
+            items:
+              - name: Plan für Operator Connect
+                href: operator-connect-plan.md
+              - name: Konfigurieren von Operator Connect
+                href: operator-connect-configure.md
       - name: Telefonnummern
         items:
           - name: Verwalten von Telefonnummern für Ihre Organisation
@@ -1037,8 +1037,10 @@ items:
                 href: emergency-calling-labels.md
           - name: Verwalten von Notruf-Richtlinien
             href: manage-emergency-calling-policies.md
-          - name: Verwalten von Notfall-Anrufweiterleitungsrichtlinien
+          - name: Verwalten von Notfall-Anrufweiterleitungsrichtlinien für Direct Routing
             href: manage-emergency-call-routing-policies.md
+      - name: Verwalten von Sprach- und Anrufrichtlinien in Teams
+        href: voice-and-calling-policies.md
       - name: Fallstudie zu "Contoso Voice Migration"
         items:
           - name: Übersicht
@@ -1556,8 +1558,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaktion von SharePoint Online und OneDrive for Business mit Teams
             href: sharepoint-onedrive-interact.md
-          - name: Teams-Erfahrung in einer Microsoft 365- oder Office 365-Mandantenumgebung mit Multi-Geo-Unterstützung
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Unterstützte Geräte
         items:
           - name: Verwalten Ihrer Geräte in Teams

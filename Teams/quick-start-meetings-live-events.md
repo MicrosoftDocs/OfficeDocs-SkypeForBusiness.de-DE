@@ -3,8 +3,8 @@ title: Schnellstart für Administratoren – Besprechungen und Liveereignisse in
 ms.reviewer: ''
 description: Ein Schnellstarthandbuch für Administratoren über das erlangen von Lizenzen, das Bereitstellen und Konfigurieren von Onlinebesprechungen und Live-Events in Microsoft Teams.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 03611f2d166883ce960e272e2f3b11300cd20c54
+ms.sourcegitcommit: 616b6d0d5be2b333519b79ab59a4117036ba647e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517738"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363580"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
@@ -42,15 +42,9 @@ In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen u
 
 Jeder kann kostenlos an einer Teams-Besprechung oder einem öffentlichen Liveereignis teilnehmen – es ist keine Lizenz erforderlich. Um an einer Teams-Besprechung oder einem Liveereignis teilzunehmen, müssen Teilnehmer nur in Teams oder in der Besprechungseinladung auf die Schaltfläche **Teilnehmen** klicken. Die Audioübertragung ist Teil einer Teams-Besprechung, aber wenn Sie möchten, dass sich die Teilnehmer per Telefon in eine Besprechung einwählen können, müssen Sie eine Einwahlnummer angeben.
 
-Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten, benötigen eine der Microsoft 365- oder Office 365-Lizenzen, die in der nachstehenden Tabelle aufgeführt sind.Wenn Sie bereits Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen und Liveereignissen benötigen.
+Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten, benötigen einen der in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description) beschriebenen Lizenzierungspläne. 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tabelle mit erforderlichen Lizenzen für Teams-Besprechungen oder Liveereignisse":::
-
-> <sup>1</sup> Besprechungsorganisatoren benötigen eine [Lizenz für das Audiokonferenz-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), um eine Einladung zu versenden, die Einwahlkonferenzen umfasst.
->
-> <sup>2</sup> Für ausgehende Anrufe aus Konferenzen an eine [**Rückruf unter**-Nummer](set-up-the-call-me-feature-for-your-users.md) müssen Organisatoren über eine E5- oder [Audiokonferenz-Add-In-Lizenz](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) verfügen. Es kann auch ein [Wählplan](what-are-dial-plans.md) erforderlich sein.
-
-Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
+Wenn Sie bereits Microsoft Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen und Liveereignissen benötigen.
 
 ## <a name="make-sure-your-networks-ready"></a>Sicherstellen, dass Ihr Netzwerk bereit ist
 
