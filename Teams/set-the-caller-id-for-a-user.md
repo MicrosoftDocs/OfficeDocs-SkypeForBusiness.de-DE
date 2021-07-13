@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Microsoft 365 und Office 365 Standardanrufer-ID (die zugewiesene Telefonnummer eines Benutzers), auch bekannt als Anruferleitungs-ID. Sie können die Anrufer-ID eines Benutzers ändern oder blockieren.
-ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230602"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388650"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 
@@ -35,11 +35,11 @@ Telefonsystem in Microsoft 365 stellt eine standardmäßige Anrufer-ID fest, bei
   
 Standardmäßig sind die folgenden Anrufer-ID-Einstellungen **deaktiviert.** Dies bedeutet, dass Teams Telefonnummer des Benutzers angezeigt wird, wenn dieser einen Anruf bei einem PSTN-Telefon anruft. Sie können diese Einstellungen wie folgt ändern:
   
-- **Ausgehende Anrufer-ID** Sie können die Anrufer-ID eines Benutzers, bei der es sich standardmäßig um die Telefonnummer des Benutzers handelt, durch eine andere Telefonnummer ersetzen. Sie können beispielsweise die Anrufer-ID des Benutzers von der Telefonnummer des Benutzers in eine Haupttelefonnummer für Ihr Unternehmen ändern, oder Sie können die Anruferleitungs-ID von der Telefonnummer des Benutzers in eine Haupttelefonnummer für die Rechtsabteilung ändern. Sie können die Anruf-ID-Nummer in eine beliebige Online-Servicenummer (gebührenpflichtig oder gebührenfrei) ändern. Sie können die Anruf-ID-Nummer auch durch Direktes Routing in eine lokale Telefonnummer ändern, die einem Ressourcenkonto zugewiesen wird, das von einer automatische Telefonzentrale oder einer Anrufwarteschleife verwendet wird.
+- **Ausgehende Anrufer-ID** Sie können die Anrufer-ID eines Benutzers, bei der es sich standardmäßig um die Telefonnummer des Benutzers handelt, durch eine andere Telefonnummer ersetzen. So können Sie beispielsweise die Anrufer-ID des Benutzers von seiner Telefonnummer in eine Haupttelefonnummer für Ihr Unternehmen oder in eine Haupttelefonnummer für die Rechtsabteilung ändern. Darüber hinaus können Sie die Anruf-ID-Nummer auf eine beliebige Online-Servicenummer (gebührenpflichtig oder gebührenfrei) oder auf eine lokale Telefonnummer über Direct Routing festlegen, die einem Ressourcenkonto zugewiesen ist, das von einer automatische Telefonzentrale- oder Anrufwarteschleife verwendet wird.
     
   > [!NOTE]
   > Wenn Sie den Parameter *Service verwenden möchten,* müssen Sie eine gültige Dienstnummer angeben.
-  > Sie müssen die PowerShell-Cmdlets für die Ressourcenkontonummer verwenden, wenn diese in der Dropdownliste nicht sichtbar sind.
+  > Sie müssen die PowerShell-Cmdlets New-CsCallingLineIdentity oder Set-CsCallingLineIdentity im Teams PowerShell-Modul 2.3.1 oder höher für die Kontonummer der Ressource verwenden, wenn sie nicht in der Dropdownliste angezeigt wird.
   
 - **Blockieren der ausgehenden Anrufer-ID** Sie können blockieren, dass die ausgehende Anrufer-ID bei ausgehenden PSTN-Anrufen eines Benutzers gesendet wird. Dadurch wird die Anzeige der Telefonnummer am Telefon der angerufenen Person blockiert.
     
@@ -90,7 +90,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. Wenden Sie die neue Richtlinie an, die Sie mithilfe des cmdlets Grant-CsCallingIdentity erstellt haben. Im folgenden Beispiel wird beispielsweise die neue Richtlinie auf den Benutzer Amos Marble angewendet.
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    Weitere Informationen finden Sie unter [Grant-CsCallingLineIdentity-Cmdlet.](/powershell/module/skype/Grant-CsCallingLineIdentity)
     

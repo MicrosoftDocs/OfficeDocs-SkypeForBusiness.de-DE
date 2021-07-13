@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Der Administrator kann erfahren, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e06b3eeeec6f5e383f6fd4aaafcb1f034dd43338
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 97a3c69f6fee5b14e5c2252b51b9b17d8a810799
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230572"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388660"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -90,6 +90,7 @@ Bei Fragen zum SBC-Zertifizierungsprogramm für Direct Routing wenden Sie sich b
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
+|                     [M5 Technologies (früher bekannt als Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Ausreißerserie   |     &#10004;     |         |      DGW 48.0.2340 (empfohlene DGW 48.1.2503)      |     |    |
 
 <br/>
 * 911 Dienstanbieter
