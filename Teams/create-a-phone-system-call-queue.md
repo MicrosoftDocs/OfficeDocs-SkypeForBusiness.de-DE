@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Musik halten, Anrufumleitung und weitere Funktionen bieten.
-ms.openlocfilehash: c07c5a42241a62f9ecfe90340cab473800469ca9
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126891"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420850"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -62,7 +62,7 @@ Gehen Sie zum Einrichten einer Anrufwarteschleife zum Microsoft Teams Admin Cent
 
 Geben Sie einen Namen für die Anrufwarteschleife ein.
 
-### <a name="resource-accounts"></a>Ressourcenkonten
+## <a name="resource-accounts"></a>Ressourcenkonten
 
 ![Screenshot der Einstellungen für das Ressourcenkonto](media/call-queue-name-language.png)
 
@@ -78,25 +78,24 @@ Klicken **Sie auf** Hinzufügen , suchen Sie nach den Ressourcenkonten, die Agen
 
 Wenn Sie keinen Teams-Kanal verwenden, um die Agent-Mitgliedschaft zu steuern, sollten Sie die Anrufer-ID für Mitglieder der Anrufwarteschleife direkt auf die Servicenummer der Anrufwarteschleife oder die entsprechende automatische Telefon attendant festlegen. Weitere Informationen finden Sie unter [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md).
 
-### <a name="language"></a>Sprache
+## <a name="language"></a>Sprache
 
 ![Screenshot der Spracheinstellungen](media/call-queue-language.png)
 
 Wählen Sie eine [unterstützte Sprache aus.](create-a-phone-system-call-queue-languages.md) Diese Sprache wird für vom System generierte Sprachansagen und Voicemailtranskripte verwendet (sofern Sie diese aktivieren).
 
-### <a name="greetings-and-music-on-hold-in-queue"></a>Begrüßung und Musik während des Wartens in der Warteschleife
+## <a name="greetings-and-music-on-hold-in-queue"></a>Begrüßung und Musik während des Wartens in der Warteschleife
 
 ![Screenshot der warteschleifen-Begrüßungen und -musik in den Warteschlangeneinstellungen](media/call-queue-greetings-music.png)
 
-Legen Sie fest, ob eine Begrüßung abgespielt werden soll, wenn Anrufer in der Warteschleife eintreffen. Die gewünschte Begrüßung muss in Form einer MP3-, WAV- oder WMA-Datei hochgeladen werden.
+Legen Sie fest, ob eine Begrüßung abgespielt werden soll, wenn Anrufer in der Warteschleife eintreffen. Die gewünschte Begrüßung muss in Form einer MP3-, WAV- oder WMA-Datei hochgeladen werden. Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
 
-In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiedergegeben. Wenn Sie möchten, dass eine bestimmte Audiodatei wiedergegeben wird, klicken Sie auf **Audiodatei wiedergeben**, und laden Sie eine MP3-, WAV- oder WMA-Datei hoch.
+In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiedergegeben. Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. Wenn Sie möchten, dass eine bestimmte Audiodatei wiedergegeben wird, klicken Sie auf **Audiodatei wiedergeben**, und laden Sie eine MP3-, WAV- oder WMA-Datei hoch.
 
 > [!NOTE]
-> Die hochgeladene Aufzeichnung darf nicht größer als 5 MB sein.
-> Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. 
+> Sie sind für das unabhängige Löschen und Sichern aller erforderlichen Rechte und Berechtigungen für die Verwendung von Musik- oder Audiodateien mit Ihrem Microsoft Teams verantwortlich. die geistiges Eigentum und andere Rechte an Musik, Soundeffekten, Audio, Marken, Namen und anderen Inhalten in der Audiodatei von allen relevanten Rechteinhabern enthalten können, dazu gehören können Interpreten, Nehmer, Leistungsträger, Abentsprechungen, Autoren, Musikherausgeber, Musikherausgeber, Union, Gilden, Rechteinhaber, kollektive Managementorganisationen und alle anderen Parteien, die die Urheberrechte an der Musik, Soundeffekte, Audio und andere rechte an geistigem Eigentum besitzen, kontrollieren oder lizenzieren.
 
-### <a name="call-agents"></a>Telefonberater
+## <a name="call-agents"></a>Telefonberater
 
 Überprüfen Sie [die Voraussetzungen für das Hinzufügen von Agents zu einer Anrufwarteschleife.](plan-auto-attendant-call-queue.md#prerequisites)
 
@@ -126,7 +125,7 @@ Um der Warteschleifee eine Gruppe hinzuzufügen, klicken Sie auf **Gruppen hinzu
 > [!NOTE]
 > Bei Benutzern, die einer Gruppe neu hinzugefügt wurden, kann es bis zu acht Stunden dauern, bis sie den ersten Anruf erhalten.
 
-### <a name="call-routing"></a>Anrufweiterleitung
+## <a name="call-routing"></a>Anrufweiterleitung
 
 ![Screenshot der Einstellungen für Konferenzmodus und Routingmethode](media/call-queue-conference-mode-routing-method.png)
 
@@ -140,6 +139,9 @@ Die Microsoft Teams-Konten von Telefonberatern müssen auf den Modus "Nur Micros
 > [!NOTE]
 > Der Konferenzmodus wird nicht unterstützt, wenn Telefonanrufe von einem Direct Routing-Gateway, das für standortbasiertes Routing aktiviert ist, an die Warteschlange geroutet werden.
 
+> [!TIP]
+> Konferenzmodus **auf** **Auto festlegen** ist die empfohlene Einstellung.
+
 Die **Routingmethode** bestimmt die Reihenfolge, in der Anrufe aus der Warteschleife an die Telefonberater weitergeleitet werden. Wählen Sie eine der folgenden Optionen aus:
 
 - Bei der **Weiterleitung durch Telefonzentrale** werden alle Telefonberater in der Warteschleife gleichzeitig angerufen. Der Anruf wird dem ersten Telefonberater, der den Anruf annimmt, zugewiesen.
@@ -150,33 +152,33 @@ Die **Routingmethode** bestimmt die Reihenfolge, in der Anrufe aus der Warteschl
 
 - Bei der Option **Längste Inaktivität** wird jeder Anruf an den am längsten inaktiven Telefonberater weitergeleitet. Ein Telefonberater gilt als inaktiv, wenn sein Anwesenheitsstatus "Verfügbar" oder seit weniger als 10 Minuten "Abwesend" lautet. Telefonberater, deren Anwesenheitsstatus länger als 10 Minuten "Abwesend" lautet, werden nicht als inaktiv betrachtet und erhalten erst wieder Anrufe, nachdem sie ihren Status in "Verfügbar" geändert haben. 
 
+> [!TIP]
+> Die **Einstellung Routingmethode auf** Round **oder** Longest **idle** ist die empfohlene Einstellung.
+
 ![Screenshot der Einstellungen für Routing, Abmeldung und Benachrichtigungszeit](media/call-queue-presence-agents-time.png)
 
 Bei der **Anwesenheitsbasierten Weiterleitung** wird anhand des Verfügbarkeitsstatus der Telefonberater festgestellt, ob ein Telefonberater in die Anrufweiterleitungsliste für die ausgewählte Routingmethode eingeschlossen werden soll. Telefonberater, deren Verfügbarkeitsstatus **Verfügbar** lautet, werden in die Anrufweiterleitungsliste aufgenommen und können Anrufe erhalten. Telefonberater, deren Verfügbarkeitsstatus auf einen anderen Status festgelegt ist, werden von der Anrufweiterleitungsliste ausgeschlossen und erhalten erst dann Anrufe, wenn ihr Verfügbarkeitsstatus wieder **Verfügbar** lautet. 
 
 Sie können die anwesenheitsbasierte Anrufweiterleitung mit jeder der Weiterleitungsmethoden aktivieren.
 
-> [!NOTE]
-> Wenn **"Longest idle"** als Routingmethode ausgewählt ist, ist anwesenheitsbasiertes Routing erforderlich und  automatisch aktiviert, auch wenn der Schalter Anwesenheitsbasiertes Routing deaktiviert und abgeblendet ist.
-
 Wenn ein Telefonberater den Empfang von Anrufen deaktiviert hat, wird er unabhängig von seinem aktuellen Verfügbarkeitsstatus nicht in die Anrufweiterleitungsliste aufgenommen. 
 
 > [!NOTE]
+> Wenn **"Longest idle"** als Routingmethode ausgewählt ist, ist anwesenheitsbasiertes Routing erforderlich und  automatisch aktiviert, auch wenn der Schalter Anwesenheitsbasiertes Routing deaktiviert und abgeblendet ist.
+>
+> Wenn die anwesenheitsbasierte Weiterleitung nicht aktiviert ist und sich mehrere Anrufe in der Warteschleife befinden, wird das System diese Anrufe an die Telefonberater gleichzeitig und unabhängig von ihrem Anwesenheitsstatus weiterleiten. Dies führt zu mehreren Anrufbenachrichtigungen an Telefonberater, insbesondere, wenn einige den anfänglichen an sie weitergeleiteten Anruf nicht beantworten.
+> 
 > Telefonberater, die den Skype for Business-Client verwenden, werden nicht in die Anrufweiterleitungsliste aufgenommen, wenn die anwesenheitsbasierte Weiterleitung aktiviert ist. Wenn Telefonberater in Ihrer Organisation Skype for Business verwenden, aktivieren Sie die anwesenheitsbasierte Anrufweiterleitung nicht.
+
+> [!TIP]
+> Das **Festlegen des anwesenheitsbasierten Routings** auf **Ein** ist die empfohlene Einstellung.
 
 Die **Telefonberater-Benachrichtigungszeit** gibt an, wie lange das Telefon eines Telefonberaters klingelt, bevor die Warteschleife den Anruf an den nächsten Telefonberater umleitet.
 
-Die folgenden Konfigurationen werden empfohlen:
+> [!TIP]
+> Das **Festlegen der Agent-Warnungszeit** **auf 20 Sekunden** ist die empfohlene Einstellung.
 
-- **Konferenzmodus** auf **Automatisch**
-- **Weiterleitungsmethode** auf **Round Robin** oder **Am längsten inaktiv**
-- **Anwesenheitsbasierte Weiterleitung** auf **Ein**
-- **Telefonberater-Benachrichtigungszeit:** auf **20 Sekunden**
-
-> [!NOTE]
-> Wenn die anwesenheitsbasierte Weiterleitung nicht aktiviert ist und sich mehrere Anrufe in der Warteschleife befinden, wird das System diese Anrufe an die Telefonberater gleichzeitig und unabhängig von ihrem Anwesenheitsstatus weiterleiten. Dies führt zu mehreren Anrufbenachrichtigungen an Telefonberater, insbesondere, wenn einige den anfänglichen an sie weitergeleiteten Anruf nicht beantworten.
-
-### <a name="call-overflow-handling"></a>Vorgehen bei überzähligen Anrufen
+## <a name="call-overflow-handling"></a>Vorgehen bei überzähligen Anrufen
 
 ![Screenshot der Einstellungen für überzählige Anrufe](media/call-queue-overflow-handling.png)
 
@@ -187,7 +189,7 @@ Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet wer
 > [!NOTE]
 > Wenn die maximale Anzahl von Anrufen auf "0" festgelegt ist, wird die Begrüßungsnachricht nicht abgespielt.
 
-### <a name="call-timeout-handling"></a>Vorgehen bei Erreichen des Zeitlimits
+## <a name="call-timeout-handling"></a>Vorgehen bei Erreichen des Zeitlimits
 
 ![Screenshot der Einstellungen für Anrufzeitlimit](media/call-queue-timeout-handling.png)
 
@@ -196,6 +198,15 @@ Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet wer
 Der Anruf kann beendet oder an eines der Anrufweiterleitungsziele umgeleitet werden. Beispielsweise könnte dem Anrufer die Möglichkeit gegeben werden, eine Voicemail für die Telefonberater in der Warteschleife zu hinterlassen. Informationen zu Nummernformaten für externe Übertragungen finden Sie unter [Voraussetzungen](plan-auto-attendant-call-queue.md#prerequisites) und [Übertragung an externe Telefonnummern – technische Details](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details).
 
 Wenn Sie Ihre Zeitlimitoptionen für Anrufe ausgewählt haben, klicken Sie auf **Speichern**.
+
+## <a name="summary-of-recommended-call-queue-settings"></a>Zusammenfassung der empfohlenen Anrufwarteschlangeneinstellungen
+
+Die folgenden Konfigurationen werden empfohlen:
+
+- **Konferenzmodus** auf **Automatisch**
+- **Weiterleitungsmethode** auf **Round Robin** oder **Am längsten inaktiv**
+- **Anwesenheitsbasierte Weiterleitung** auf **Ein**
+- **Telefonberater-Benachrichtigungszeit:** auf **20 Sekunden**
 
 ## <a name="supported-clients"></a>Unterstützte Clients
 

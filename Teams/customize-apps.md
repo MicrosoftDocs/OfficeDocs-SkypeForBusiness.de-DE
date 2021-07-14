@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2a217648abbcec4075e942b303542621f7d317a
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796859"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408744"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
@@ -43,6 +43,7 @@ Details zu [den Feldern,](/microsoftteams/platform/resources/schema/manifest-sch
 
 > [!NOTE]
 > Das Anpassen von Apps wird in Government Community Cloud High (GCCH) oder Department of Defense (DoD) derzeit nicht unterstützt.
+> Derzeit ist dieses Feature für seitengeladene Apps Microsoft Teams verfügbar.
 
 ## <a name="customize-the-apps-details"></a>Anpassen der App-Details
 
