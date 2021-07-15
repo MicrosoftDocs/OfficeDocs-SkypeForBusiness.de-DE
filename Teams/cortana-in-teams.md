@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b343a3f69d2b0f97f9d7d3054951719da2e9e43
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219142"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53428211"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana Sprachunterstützung in Teams
 
@@ -35,10 +35,6 @@ ms.locfileid: "53219142"
 > Cortana Sprachunterstützung in Microsoft Teams-Räume wird unter Preview veröffentlicht. In der Vorschauversion wird Cortana in den USA nur mit der Sprache EN-US auf Geräten mit angeschlossenen Mikrofonen von Unterem. unterstützt.
 
 Cortana Sprachunterstützung in der mobilen Teams-App, in Microsoft Teams-Räume auf Windows und auf Microsoft Teams-Anzeigegeräten ermöglicht es Microsoft 365 Enterprise-Benutzern, die Kommunikation, Zusammenarbeit und Besprechungsaufgaben in natürlicher Sprache zu optimieren. Benutzer können mit Cortana sprechen, indem sie die Mikrofonschaltfläche auswählen, die sich oben rechts in der mobilen Teams-App befindet, oder indem sie &#8220;Cortana&#8221; im Microsoft Teams Raum sprechen oder eine Microsoft Teams verwenden. Um sich schnell freisprechend mit dem Team zu verbinden, und während sie unterwegs sind, können Benutzer Abfragen wie &#8220;Megan&#8221; oder &#8220;eine Nachricht an meine nächste Besprechungs-E-Mail senden&#8221;. Benutzer können an Besprechungen teilnehmen, indem sie sagen&#8220;an meiner nächsten Besprechung teilnehmen&#8221; und mithilfe von Sprachunterstützung Dateien freigeben, ihren Kalender überprüfen und vieles mehr. Diese Sprachunterstützungserfahrungen werden mithilfe von [Cortana-Diensten](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) der Unternehmensklasse übermittelt, die gemäß den Onlinedienstbedingungen [(OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)vollständig mit den Office 365-Datenschutz-, Sicherheits- und Compliance-Zusagen in Einklang stehen.
-
-Die Abbildung zeigt das Senden eines Chats Cortana einem mobilen Gerät.
-
-![Abfolge von mobilen Bildschirmen mit einer Cortana-Chatsitzung](media/cortana-on-teams-mobile.png)
 
 ## <a name="admin-control-and-limitations"></a>Administratorkontrolle und -beschränkungen
 
@@ -94,22 +90,6 @@ Einzelne Benutzer können versuchen, Cortana Sprachunterstützung auf verschiede
 
 Sie können steuern, Cortana in Teams Gerät aktiviert ist, indem Sie eine Einstellung auf dem Gerät verwenden.
 
-### <a name="teams-mobile-app-or-the-microsoft-teams-display"></a>Teams mobile App oder die Microsoft Teams Anzeigen
-
-  1. Öffnen Sie die Teams Mobile-App.
-
-  2. Wählen **Sie Einstellungen**  >  **Cortana** aus.
-
-  3. Verschieben Sie den Umschalter **auf Ein** **oder Aus.**
-
-### <a name="microsoft-teams-display"></a>Microsoft Teams anzeigen
-
-  1. Wechseln Sie zum Umgebungsbildschirm (Startbildschirm) des Microsoft Teams Bildschirms.
-
-  2. Wählen Sie den Benutzer avatar und dann **Einstellungen** aus. Wenn Cortana aktiviert ist, sagen Sie " Cortana, gehe zu Einstellungen".
-
-  3. Verschieben Sie den Umschalter **auf Ein** **oder Aus.**
-  
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams-Räume auf Windows
 
 Das Vornehmen von Änderungen auf Geräteebene ist verfügbar, Cortana auf Mandantenebene aktiviert ist. Cortana wird standardmäßig AUS freigegeben.

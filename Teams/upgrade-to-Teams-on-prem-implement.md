@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: f11d14bc7bf302a864afe3062ef8f2bb8eccd7da
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306039"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437642"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Upgradestrategien für IT-Administratoren
 
@@ -86,12 +86,10 @@ Im Folgenden finden Sie die wichtigsten Befehle:
 Hinweise
  
 - Statt die mandantenweite Richtlinie auf SfbWithTeamsCollab zu setzen, können Sie sie auf SfbWithTeamsCollabAndMeetings festlegen. Dadurch planen alle Benutzer alle neuen Besprechungen in Teams.
-- `Move-CsUser` ist ein Cmdlet in den lokalen Tools. Der `MoveToTeams` Schalter erfordert Skype for Business Server 2019 oder Skype for Business Server 2015 mit CU8 oder höher. Wenn Sie eine frühere Version verwenden, können Sie den Benutzer zuerst auf Skype for Business Online verschieben und dann dem Benutzer den TeamsOnly-Modus gewähren.
 - Besprechungen, Skype for Business werden standardmäßig nach Teams TeamsOnly-Modus oder beim Zuweisen des SfbWithTeamsCollabAndMeetings-Modus nach Teams migriert.  
 
 > [!NOTE]
-> Als Vorbereitung auf die bevorstehende Skype for Business Online wird Microsoft in naher Zukunft den Umzug von Organisationen auf Teams vereinfachen. Wenn sie einen Benutzer von der lokalen auf die lokale Teams verschieben, wird es bald nicht mehr erforderlich sein, den Umstieg festzulegen, um Benutzer direkt aus der lokalen Lokalen zu `-MoveToTeams` `Move-CsUser` TeamsOnly zu verschieben. Wenn dieser Schalter derzeit nicht angegeben wird, wechseln die Benutzer von der lokalen Skype for Business Server zu Skype for Business Online, und ihr Modus bleibt unverändert. Wenn Sie einen Benutzer nach der Umstellung von der lokalen in die Cloud mit in die Cloud verschieben, wird den Benutzern automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus dem lokalen Modus werden automatisch in Teams-Besprechungen konvertiert, genauso, als ob die Option tatsächlich festgelegt `Move-CsUser` `-MoveToTeams switch had been specified` wurde. Wir erwarten, dass diese Funktion vor der tatsächlichen Ende des 31. Juli 2021 veröffentlicht wird.
-
+> Zur Vorbereitung auf die bevorstehende Skype for Business von Skype for Business Online hat Microsoft den Umzug von Organisationen auf den Teams. Es ist nicht mehr erforderlich, den Wechsel in anzugeben, um Benutzer direkt aus der lokalen Lokalen direkt nach `-MoveToTeams` `Move-CsUser` TeamsOnly zu verschieben. Bisher, wenn dieser Schalter nicht angegeben wurde, wurden Benutzer von der lokalen Skype for Business Server-Homed zu Skype for Business Online umstiegen, und ihr Modus bleibt unverändert. Wenn Sie einen Benutzer jetzt mit aus der lokalen in die Cloud verschieben, wird den Benutzern automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus dem lokalen Modus werden automatisch in Teams-Besprechungen konvertiert, genauso, als ob die Option tatsächlich angegeben `Move-CsUser` `-MoveToTeams switch had been specified` wurde. Dieses Verhalten ist für alle Versionen von Skype For Business Server und Lync Server 2013 verfügbar (die keine Unterstützung für `-MoveToTeams` hatten).
 
 Das folgende Diagramm zeigt die konzeptuellen Phasen des Upgrades von Auswahlfunktionen für eine Organisation ohne vorherige Verwendung Teams. Die Höhe der Balken stellt die Anzahl der Benutzer dar. Während jeder Phase des Upgrades können alle Benutzer miteinander kommunizieren.  Skype for Business Benutzer kommunizieren mit TeamsOnly-Benutzern über Inop und umgekehrt. Benutzer im Islands-Modus müssen sicherstellen, dass beide Clients ausgeführt werden.
 
@@ -104,7 +102,7 @@ Wenn einige Benutzer in Ihrer Organisation die Teams im Islands-Modus verwenden,
 
 1. Suchen Sie in der Benutzeransicht aktive Teams wie folgt:
 
-   1. Navigieren Sie Microsoft 365 Admin Center in der linken Navigationsleiste zu Berichte und dann zu Verwendung. 
+   1. Navigieren Sie Microsoft 365 Admin Center der linken Navigationsleiste zu Berichte und dann zu Verwendung. 
    2. Wählen Sie in der Dropdownliste "Bericht auswählen" die Option Microsoft Teams und dann Benutzeraktivität aus. Dadurch wird eine exportierbare Tabelle mit Benutzern angezeigt, die in ihrer Teams. 
    3. Klicken Sie auf Exportieren, Excel, und filtern Sie, um nur die Benutzer in der Liste Teams.
 

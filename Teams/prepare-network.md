@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899086"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420830"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihres Unternehmens für Microsoft Teams 
 
@@ -32,12 +32,7 @@ ms.locfileid: "51899086"
 
 Wenn Sie [Ihr Netzwerk bereits für Microsoft 365 oder Office 365 optimiert haben](/Office365/Enterprise/assessing-network-connectivity), dann sind Sie wahrscheinlich bereit für Microsoft Teams. In jedem Fall – und besonders, wenn Sie Teams schnell als Ihren ersten Microsoft 365- oder Office 365-Workload zur Unterstützung von **Remotemitarbeitern** einführen – müssen Sie Folgendes überprüfen, bevor Sie mit der Einführung von Teams beginnen:
 
-1.  Haben alle Ihre Standorte Internetzugriff (damit Sie sich zu Microsoft 365 oder Office 365 verbinden können)? Vergewissern Sie sich, dass Sie zusätzlich zum normalen Webdatenverkehr für alle Standorte mindestens Folgendes für Medien in Teams freigegeben haben:
-
-    |  |  |
-    |---------|---------|
-    |Ports     |UDP-Ports <strong>3478</strong> bis <strong>3481</strong>        |
-    |[IP-Adressen](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>, und <strong>52.120.0.0/14</strong>         |
+1.  Haben alle Ihre Standorte Internetzugriff (damit Sie sich zu Microsoft 365 oder Office 365 verbinden können)? Stellen Sie zusätzlich zum normalen Webdatenverkehr sicher, dass Sie die TCP-Ports und IP-Adressen geöffnet haben, die für Teams in [URLs und IP-Adressbereiche für Office 365](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)aufgeführt sind.
 
     > [!IMPORTANT]
     > Wenn Sie lokal oder online mit Skype for Business einen Verbund erstellen müssen, dann müssen Sie einen zusätzlichen DNS-Eintrag konfigurieren.
@@ -100,14 +95,14 @@ Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="odd">
 <td>Externe Namensauflösung</td>
-<td>Stellen Sie sicher, dass Computer, auf denen der Teams-Client ausgeführt wird, externe DNS-Abfragen auflösen können, um die von Microsoft 365 oder Office 365 bereitgestellten Dienste zu ermitteln, und dass Ihre Firewalls diesen Zugriff nicht verhindern. Informationen über das Konfigurieren von Firewall-Ports finden Sie unter <a href="/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365- und Office 365-URLs und IP-Bereiche</a>.</td>
+<td>Stellen Sie sicher, dass Computer, auf denen der Teams-Client ausgeführt wird, externe DNS-Abfragen auflösen können, um die von Microsoft 365 oder Office 365 bereitgestellten Dienste zu ermitteln, und dass Ihre Firewalls diesen Zugriff nicht verhindern. Informationen über das Konfigurieren von Firewall-Ports finden Sie unter <a href="/microsoftteams/office-365-urls-ip-address-ranges">Microsoft 365- und Office 365-URLs und IP-Bereiche</a>.</td>
 </tr>
 <tr class="odd">
 <td>Sitzungspersistenz beibehalten</td>
 <td>Stellen Sie sicher, dass Ihre Firewall die zugeordneten NAT-Adressen (Network Address Translation) oder Ports für UDP nicht ändert.</td>
 </tr><tr class="odd">
 <td>Validieren der NAT-Poolgröße</td>
-<td>Validieren Sie die NAT (Network Address Translation)-Poolgröße, die für die Benutzerverbindung notwendig ist. Wenn mehrere Benutzer und Geräte mit <a href="/office365/enterprise/nat-support-with-office-365">NAT (Network Address Translation) oder PAT (Port Address Translation)</a> auf Microsoft 365 oder Office 365 zugreifen, müssen Sie sicherstellen, dass die hinter jeder öffentlich routingfähigen IP-Adresse verborgenen Geräte die unterstützte Anzahl nicht überschreiten. Stellen Sie sicher, dass den NAT-Pools entsprechend viele öffentliche IP-Adressen zugewiesen sind, um die Portausschöpfung zu verhindern. Die Portausschöpfung wird dazu beitragen, dass interne Benutzer und Geräte nicht mehr zu den Microsoft 365- und Office 365-Diensten verbinden können.</td>
+<td>Validieren Sie die NAT (Network Address Translation)-Poolgröße, die für die Benutzerverbindung notwendig ist. Wenn mehrere Benutzer und Geräte mit <a href="/office365/enterprise/nat-support-with-office-365">NAT (Network Address Translation) oder PAT (Port Address Translation)</a> auf Microsoft 365 oder Office 365 zugreifen, müssen Sie sicherstellen, dass die hinter jeder öffentlich routingfähigen IP-Adresse verborgenen Geräte die unterstützte Anzahl nicht überschreiten. Stellen Sie sicher, dass den NAT-Pools entsprechend viele öffentliche IP-Adressen zugewiesen sind, um die Portausschöpfung zu verhindern. Die Portausschöpfung wird dazu beitragen, dass interne Benutzer und Geräte nicht mehr zu den Microsoft 365- und Office 365-Diensten verbinden können.</td>
 </tr>
 <tr class="even">
 <td>Routing zu Microsoft-Rechenzentren</td>
@@ -149,10 +144,173 @@ Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitu
 
 Teams wurde dafür entwickelt, Ihnen unabhängig von Ihren Netzwerkbedingungen optimale Erfahrungen für Audio, Video und Inhaltsfreigabe zu geben. Dies bedeutet, dass Teams bei ungenügender Bandbreite die Audioqualität gegenüber der Videoqualität priorisiert.
 
-Wenn die Bandbreite *nicht* begrenzt ist, wird Teams die Medienqualität optimieren, bis hin zu einer Videoauflösung von 1080 Pixel, 30 Bilder pro Sekunde (Frames per Second, FPS) für Video und 15 FPS für Inhalte sowie HiFi-Audio. 
+Wenn die Bandbreite nicht begrenzt ist, wird Teams die Medienqualität optimieren, bis hin zu einer Videoauflösung von 1080 Pixel, 30 Bilder pro Sekunde (Frames per Second, FPS) für Video und für Inhalte.
 
-[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
+In dieser Tabelle wird veranschaulicht, wie Teams Bandbreite nutzt. Microsoft Teams verhält sich hinsichtlich der Bandbreitennutzung immer konservativ und kann in weniger als 1,5 MBit/s High-Definition-Videoqualität bereitstellen. Die tatsächliche Bandbreitennutzung in den einzelnen Audio/Video-Anrufen oder Besprechungen variiert abhängig von verschiedenen Faktoren, z. B. Videolayout, Videoauflösung und Videoframes pro Sekunde. Wenn mehr Bandbreite verfügbar ist, werden Qualität und Nutzung erhöht, um die besten Ergebnisse zu erzielen.
 
+:::row:::
+   :::column span="":::
+      **Modalität**
+   :::column-end:::
+   :::column span="3":::
+      **Erforderliche Bandbreite (Bitrate KB/s hoch/ herunter)**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+      **Minimum**
+   :::column-end:::
+   :::column span="":::
+      **Empfohlen**
+   :::column-end:::
+   :::column span="":::
+      **Bietet optimale Leistung**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Audio**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        1:1-Beziehung
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Besprechungen
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Video**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        1:1-Beziehung
+   :::column-end:::
+   :::column span="":::
+        150/150
+   :::column-end:::
+   :::column span="":::
+        1 500/1 500
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Besprechungen
+   :::column-end:::
+   :::column span="":::
+        150/200
+   :::column-end:::
+   :::column span="":::
+        2 500/4 000
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Bildschirmfreigabe**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        1:1-Beziehung
+   :::column-end:::
+   :::column span="":::
+        200/200
+   :::column-end:::
+   :::column span="":::
+        1 500/1 500
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Besprechungen
+   :::column-end:::
+   :::column span="":::
+        250/250
+   :::column-end:::
+   :::column span="":::
+        2 500/2 500
+   :::column-end:::
+   :::column span="":::
+        4 000/4 000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Zusammen-Modus**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        1:1-Beziehung
+   :::column-end:::
+   :::column span="":::
+        Nicht zutreffend
+   :::column-end:::
+   :::column span="":::
+        Nicht zutreffend
+   :::column-end:::
+   :::column span="":::
+        Nicht zutreffend
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        Besprechungen
+   :::column-end:::
+   :::column span="":::
+        1 000/1 500
+   :::column-end:::
+   :::column span="":::
+        1 500/2 500
+   :::column-end:::
+   :::column span="":::
+        2 500/4 000
+   :::column-end:::
+:::row-end:::
+
+Die **minimalen**, **empfohlenen** und **besten** Bandbreitenanforderungen basieren auf der Nutzung pro Endpunkt. In der Regel gibt es einen Endpunkt pro Benutzer, z. B. einen Computer oder ein mobiles Gerät. Wenn ein Benutzer jedoch *sowohl* auf einem Computer *als auch* auf einem mobilen Gerät an einer Teams-Besprechung teilnimmt, sind diesem Benutzer zwei Endpunkte zugeordnet.
+
+- **Mindestanforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 240p, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 1,875 bis 7,5 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 540p.  
+
+- **Die empfohlenen Anforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 1080p<sup>\*</sup>, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 7,5 bis 30 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 1080p<sup>\*</sup>.  
+
+- **Die Anleitung für beste Leistung** ermöglicht Videos mit höherer Wiedergabetreue für Besprechungen mit mehreren Teilnehmern, Umgebungen mit hohen Verlusten und Inhalten mit höherer Bewegung, wobei die Bildwiederholrate von Bildschirmfreigabeinhalten auf 15 bis 30 fps angepasst werden kann.
+
+<sup>\*</sup>Erwarten Sie eine Qualität von bis zu 1080p, aber je nach Netzwerkbedingungen werden die Videoauflösung und -qualität entsprechend optimiert.  
 
 ## <a name="related-topics"></a>Verwandte Themen
 

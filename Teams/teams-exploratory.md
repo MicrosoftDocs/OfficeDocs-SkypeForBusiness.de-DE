@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230552"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408754"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 
@@ -69,7 +69,7 @@ Benutzern muss (im Microsoft 365 Admin Center) die Möglichkeit bereitgestellt w
 
 Benutzer erfüllen nicht die Kriterien, wenn sie:
 
-- Teams zurzeit oder früher als kostenpflichtige oder unbezahlte Lizenz oder aber als Testlizenz verwenden bzw. verwendet haben
+- Derzeit verfügt Teams über eine kostenpflichtige Lizenz oder Testlizenz oder hatte zuvor eine Testlizenz
 - Zu einem Mandanten gehören, der mindestens ein spezielles COVID-Angebot nutzte/empfing.
 
 Ihre Organisation ist nicht für dieses Angebot berechtigt, wenn Sie ein Syndication-Partnerkunde oder ein GCC-, GCC High-, DoD- oder EDU-Kunde sind.

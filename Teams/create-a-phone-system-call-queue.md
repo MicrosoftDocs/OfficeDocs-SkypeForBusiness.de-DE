@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Musik halten, Anrufumleitung und weitere Funktionen bieten.
-ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420850"
+ms.locfileid: "53428201"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -111,6 +111,9 @@ Die folgenden Clients werden unterstützt, wenn Sie einen Teams für Anrufwartes
 
   - Microsoft Teams Windows-Client
   - Microsoft Teams Mac-Client
+
+> [!NOTE]
+> Wenn Sie diese Option verwenden, kann es bis zu 24 Stunden dauern, bis die Anrufwarteschleife betriebsbereit ist.
 
 ##### <a name="users-and-groups"></a>Benutzer und Gruppen
 
