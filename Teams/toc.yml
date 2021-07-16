@@ -229,10 +229,16 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: Verschieben von Benutzern in die Cloud
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: Deaktivieren der Hybridbereitstellung zur Durchführung einer Migration in die Cloud
-                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: 'Hybrid deaktivieren, um die Migration nur zu Teams durchzuführen'
+                items:
+                  - name: 'Hybrid deaktivieren, um die Migration nur zu Teams durchzuführen'
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
+                  - name: DNS-Einträge aktualisieren
+                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                  - name: 'Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet werden sollen'
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: Verschieben von Anwendungsendpunkten in die Cloud
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
               - name: Entfernen Ihrer Skype for Business-Bereitstellung
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
@@ -1558,8 +1564,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaktion von SharePoint Online und OneDrive for Business mit Teams
             href: sharepoint-onedrive-interact.md
-          - name: Teams-Erfahrung in einer Microsoft 365- oder Office 365-Mandantenumgebung mit Multi-Geo-Unterstützung
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Unterstützte Geräte
         items:
           - name: Verwalten Ihrer Geräte in Teams
