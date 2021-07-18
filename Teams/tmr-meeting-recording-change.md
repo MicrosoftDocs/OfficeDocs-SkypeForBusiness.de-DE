@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219122"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454348"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -161,9 +161,9 @@ Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nu
 
 Untertitel helfen dabei, Inhalte für Betrachter aller Fähigkeiten inklusiv zu gestalten. Als Besitzer können Sie Untertitel in der Besprechungsaufzeichnung ausblenden, obwohl die Besprechungstranskription in Teams weiterhin verfügbar ist, sofern Sie sie dort nicht löschen. 
 
-Untertitel werden bei Teams-Besprechungsaufzeichnungen 60 Tage ab der Aufzeichnung der Besprechung unterstützt.
+Heute sind Untertitel für die Videoaufzeichnungsdatei mit Teams Aufzeichnung verknüpft. Dieser Link bleibt in den meisten Fällen für die Lebensdauer der Datei erhalten, kann aber manchmal unterbrochen werden, wenn die Videodatei z. B. in die gleiche OneDrive- oder SharePoint-Website kopiert wird, was dazu führen würde, dass Untertitel in der neuen Videodatei für die Aufzeichnung nicht verfügbar wären.
 
-Untertitel für Hörgeschädigte werden nicht vollständig unterstützt, wenn die Teams-Besprechungsaufzeichnung von ihrem ursprünglichen Speicherort auf OneDrive for Business oder SharePoint verschoben oder kopiert wird.
+Alle zukünftigen Änderungen werden hier und in Benachrichtigungen im Nachrichtencenter erläutert und sicherstellen, dass beim Aufzeichnen von Dateien, die weniger als 60 Tage alt sind, das Transkript aus der Besprechung während eines beliebigen Migrationszeitraums als Beschriftungen angezeigt wird.
 
 > [!NOTE]
 > Es gibt nur englische Untertitel (die Transkription von Besprechungen ist in englischen GCC).
