@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
+ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479052"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463298"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Schnellstart: Besprechungen, Webinare und Liveereignisse 
 
@@ -54,7 +54,7 @@ In der folgenden Tabelle werden die drei Arten von Besprechungen, die Anzahl der
 
 *Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht.<br>
 
-**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist. 
+**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](https://docs.microsoft.com/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](https://docs.microsoft.com/stream/live-events-assistance) erforderlich ist. 
 
 Für eine optimale Benutzererfahrung in großen Besprechungen empfehlen wir die Verwendung des Microsoft Teams-Desktopclients oder der mobilen Microsoft Teams-Clients. Bei großen Besprechungen sollten Referenten den Microsoft Teams-Desktopclient verwenden. Weitere Tipps zum Hosten großer Besprechungen finden Sie unter [Bewährte Methoden für eine große Microsoft Teams-Besprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
