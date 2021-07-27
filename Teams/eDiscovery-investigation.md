@@ -17,12 +17,12 @@ description: Hier erfahren Sie, was sie tun müssen, wenn Sie eDiscovery ausfüh
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ebc1bb12b8a864e65cf6cb26b3d2022ae2e1563b
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: b9010bb233438029d6e755cf1fcd8b78b7cba6eb
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275684"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486165"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -213,111 +213,9 @@ Beim Anzeigen von Karteninhalten in den Ergebnissen der Inhaltssuche wird der In
 > [!NOTE]
 > Um zu diesem Zeitpunkt Bilder aus Karteninhalten in den Suchergebnissen anzuzeigen (z. B. die Häkchen im vorherigen Screenshot), müssen Sie bei Teams angemeldet sein (auf einer anderen Registerkarte in derselben Browsersitzung, die Sie zum Anzeigen der Suchergebnisse https://teams.microsoft.com) verwenden. Andernfalls werden Bildplatzhalter angezeigt.
 
-## <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-Einige Microsoft Teams können auch mithilfe des Inhaltsworkflows durchsucht [Advanced eDiscovery beibehalten werden.](/microsoft-365/compliance/overview-ediscovery-20) Während eDiscovery eine Reihe von Such-, Halte- und Exportfunktionen bietet, bietet Advanced eDiscovery Complianceadministratoren mehr Tools zum Identifizieren von Datenquellen und Analysieren ihrer Inhalte.
-
-### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Advanced eDiscovery von Wasser-Workflow Teams Inhalten
-
-100 000 Mitarbeiter sind möglicherweise Mitglied verschiedener Teams. Sie können alle Teams erfassen, die für diese Inhalte relevant sind. Anweisungen zum Workflow für Wasser finden Sie unter [Hinzufügen von Custodians zu einem Advanced eDiscovery Fall.](/microsoft-365/compliance/add-custodians-to-case)
-
-Nachdem Sie einen Custodian hinzugefügt haben, klicken Sie auf **die Schaltfläche Weiter** und dann auf die **Schaltfläche** Hinzufügen. Anschließend wird ein Fenster angezeigt, in dem Sie aufgefordert werden, weitere Speicherorte auszuwählen, in denen alle Mitgliedschaften des Lektors und die entsprechenden SharePoint-Websitespeicherorte für ihre Daten angezeigt werden. Aus all diesen Datenquellen und Teams können Sie den Inhalt auswählen, den Sie für eDiscovery verwenden möchten, und dann diesen Benutzer und alle datenquellen, die Sie identifiziert haben, in den Halteraum setzen.
-
-Sie können auswählen, ob die Exchange, deren Inhalt OneDrive oder beides enthalten sein soll. Exchange-Inhalt enthält alle Anwendungsinhalte in den Postfächern des Benutzers, z. B. seine E-Mails, den Teams-Inhalt, der in seinen Postfächern gespeichert ist, und so weiter. Der OneDrive-Inhalt umfasst nicht nur den Inhalt des Benutzers, sondern auch alle Teams-Inhalte, die in OneDrive gespeichert sind, z. B. 1:1-Chats, 1:N-Chats und in Chats freigegebene Dateien.
-
-Sie haben auch die Möglichkeit, alle Teams zuzuordnen, in die der Benachrichtigungsschwader Mitglied ist, damit Kanalchatnachrichten und Dateien einbezogen werden, auf die der Benachrichtigungsverwahrungs-Mitarbeiter zugreifen kann. Darüber hinaus kann jedes andere Team einem Custodian zugeordnet werden.
-
-> [!NOTE]
-> eDiscovery von Nachrichten und Dateien in [privaten Kanälen](private-channels.md) funktioniert anders als in Standardkanälen. Weitere Informationen finden Sie unter [eDiscovery privater Kanäle.](#ediscovery-of-private-channels)
-
-### <a name="placing-a-data-source-on-hold"></a>Platzieren einer Datenquelle im Halteraum
-
-Wenn kein bestimmter Benutzer als Verwaltungsbenutzer bestimmt werden kann, können Sie eine gesamte Datenquelle in den Halteraum setzen. Weitere Informationen zu Halte halten finden Sie unter [Verwalten von Halte Advanced eDiscovery.](/microsoft-365/compliance/managing-holds)
-
-Beim Erstellen eines halteraums für Teams können Sie alle Speicherorte auswählen, die Sie in Ihren Halteraum einhalten möchten. Auch wenn Benutzer Inhalte löschen oder ändern, werden im Halteraum Kopien aller früheren Versionen dieses Inhalts beibehalten.
-
-Sie können auch eine optionale Abfrage verwenden, um Bedingungen für den Haltebereich basierend auf Schlüsselwörtern, Datumsbereich, Autor und vielen anderen Kriterien festlegen. Wenn Sie keine Schlüsselwörter angeben, unterliegen alle Daten aus dieser Datenquelle dem Halteraum.
-
-### <a name="advanced-ediscovery-searches"></a>Advanced eDiscovery suchen
-
-Teams Inhalt kann auch durchsucht werden. Weitere Informationen zu Suchbegriffen finden Sie unter [Sammeln von Daten für einen Fall in Advanced eDiscovery.](/microsoft-365/compliance/collecting-data-for-ediscovery) Eine Suche gibt eine gesamte Unterhaltung zurück, wenn auch nur eine Nachricht der Suchabfrage entspricht.
-
-Beim Erstellen einer Suchabfrage können Sie 100er-Dateien auswählen, sodass alle bereits ausgewählten Quellen durchsucht werden. Sie können auch Nicht-Örtliche Quellen durchsuchen, z. B. eine Teams, die keinem Benutzer zugeordnet ist. Optionale Abfragen stehen auch zur Verfügung, um Ihre Suche innerhalb der vorhandenen Teams einengt.
-
-Nachdem Sie eine Suche erstellt und ausgewählt haben, wird ein Fenster mit weiteren Details und Aktionen angezeigt, die Sie für die ausgewählte Suche ausführen können. Wenn Sie  auf die Schaltfläche Statistik klicken, können Sie Statistiken zu Ihrer Suche anzeigen, einschließlich Aufschlüsselungen nach Standorttypen, der ursprünglichen Quelle für den Inhalt und ob sich der Inhalt in einem Gruppenpostfach, im Postfach eines einzelnen Benutzers oder auf einer SharePoint-Website befindet. Daher können Sie eine Aufschlüsselung der Quellen sehen, die zu Ihren Suchergebnissen beitragen. Außerdem ist eine Ansicht **Abfragen** verfügbar, damit Sie sehen können, welche einzelnen Schlüsselwörter zu Ihren Ergebnissen beitragen.
-
-Nach Abschluss der Suche können Sie  auf die Schaltfläche Ergebnisse für Überarbeitungssatz hinzufügen klicken und sie einem Überprüfungssatz hinzufügen. Weitere Informationen zu Überprüfungssätzen finden Sie unter Verwalten von Überprüfungssätzen [in Advanced eDiscovery](/microsoft-365/compliance/managing-review-sets) und Workflow [für Überprüfungssätze](#review-sets-workflow) weiter unten in diesem Artikel.
-
-#### <a name="normal-review-sets-and-conversation-review-sets"></a>Normale Überprüfungssätze und Unterhaltungsüberprüfungssätze
-
-Wenn Sie einem Überarbeitungssatz eine Suche hinzufügen, können Sie aus einem normalen Bewertungssatz oder einem Unterhaltungsüberprüfungssatz auswählen.
-
-Ein normaler Überprüfungssatz ähnelt einem Export. Sie stellt die einzelnen `.msg` Dateien für den Teams und stellt den Inhalt in einer einfachen Ansicht vor. Normalerweise verwenden Sie einen normalen Überprüfungssatz, wenn Sie planen, die Dateien später mit anderen Softwaretools erneut zu bearbeiten.
-
-Ein Unterhaltungsüberprüfungssatz bietet eine intuitivere, threadierte Ansicht der Unterhaltungen. Verwandte Nachrichten werden zusammen in der richtigen Reihenfolge angezeigt.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot des Unterhaltungsüberprüfungs-Sets](media/conversationOptions2.png)
-
-Funktionen wie redaction sind in beiden Arten von Überprüfungssätzen verfügbar. Weitere Informationen zu Überprüfungssätzen finden Sie unter [Überprüfen von Unterhaltungen in erweiterter eDiscovery.](/microsoft-365/compliance/conversation-review-sets)
-
-#### <a name="collection-options"></a>Sammlungsoptionen
-
-Beim Hinzufügen zu einem Überarbeitungssatz stehen verschiedene Optionen  als Kontrollkästchen unter dem  Abschnitt Sammlungsoptionen des Fensters zur Verfügung, darunter Optionen zum Abrufen von Unterhaltungen und Teams **Unterhaltungen.** Wenn Sie diese Optionen aktivieren, werden alle Teams Nachrichten, die Teil Ihres Überprüfungssets sind, ebenfalls mit zusätzlichen Kontextmeldungen angezeigt. Wenn Ihre Abfrage beispielsweise spezifisch ist und als Ergebnis nur eine Nachricht zurückgegeben wird, werden durch Aktivieren dieser Optionen auch mehrere Nachrichten zurückgegeben, die zu der Nachricht führen und dieser folgen, die ihrer Abfrage entsprechen.
-
-Viele logische Kriterien werden verwendet, um zu ermitteln, ob zusätzliche Nachrichten Kontext für Nachrichten bereitstellen, die Ihrer Abfrage entsprechen. Beispielsweise werden bei Teams durch Aktivieren dieser Optionen die übergeordnete Nachricht und alle untergeordneten Nachrichten abgerufen, weil die Nachrichten threaded werden.
-
-Nachrichtenzeitstempel werden ebenfalls überprüft. Wenn eine Nachricht Ihrer Abfrage entspricht, werden benachbarte Nachrichten, die ihr innerhalb von vier Stunden vorangehen oder die innerhalb von vier Stunden folgen, als Teil der Unterhaltung betrachtet und ebenfalls in die Ergebnisse einbezogen.
-
-Wenn Sie sicher sein müssen, welche kontextbezogenen Nachrichten mit Übereinstimmungen mit Ihrer Suchabfrage zurückgegeben werden, müssen Sie diese Optionen nicht verwenden. Sie können entweder den ganzen Inhalt sammeln oder den Datumsbereich der Suche so ausweiten, dass als Ergebnis ihrer Abfrage weitere Nachrichten zurückgegeben werden.
-
-### <a name="review-sets-workflow"></a>Workflow für Überprüfungssätze
-
-Sie können vorhandene Rezensionssätze anzeigen oder neue erstellen, indem Sie auf die Registerkarte **Rezensionssätze** klicken. Weitere Informationen zu Überprüfungssätzen finden Sie unter [Verwalten von Überprüfungssätzen in Advanced eDiscovery.](/microsoft-365/compliance/managing-review-sets)
-
-Zusätzlich zu Dokumenten können Sie E-Mails, Teams Nachrichten, Yammer Nachrichten und andere Inhalte zu Ihrem Überprüfungssatz hinzufügen. Innerhalb eines Überprüfungssets können Sie auch viele derselben Vorgänge ausführen, die Sie auch in anderen Kontexten ausführen können, z. B. Durchsuchen von Inhalten und Erstellen benutzerdefinierter Abfragen. Diese Vorgänge gelten nur für Elemente, die dem Überarbeitungssatz hinzugefügt wurden.
-
-Die **Schaltfläche "Überprüfungssätze** verwalten" bietet zusätzliche Optionen wie Analysen, zusammenfassungsberichte, die hinzugefügten Ladesätze und so weiter.
-
-Wenn Sie auf Visualisierungen und Diagramme Ihrer Daten zugreifen möchten, klicken **Sie** oben rechts auf Individuelle Ergebnisse \> Suchprofilansicht.  Sie können in diesen Diagrammen auf Keile klicken, um interaktiv den Typ des Inhalts auszuwählen, den Sie abfragen möchten. Beispielsweise können Sie auswählen, dass nur Inhalte Teams werden. Sie können diese Abfragen auch genauso speichern, wie Sie Abfragen speichern würden, die Sie manuell schreiben.
-
-#### <a name="summary-view-text-view-and-annotate-view"></a>Zusammenfassungsansicht, Textansicht und Anmerkungsansicht
-
-Wenn Sie im Überarbeitungssatz auf eine Teams-Unterhaltung klicken, wird die Zusammenfassungsansicht **angezeigt,** die eine gesamte Teams-Unterhaltung als Liste von Nachrichten anzeigt, mit denen Sie einzeln interagieren können. Klicken Sie rechts neben einer Nachricht auf den Abwärtspfeil, um ein Kontextmenü anzuzeigen, in dem Sie Nachrichtendetails anzeigen oder die einzelne Datei `.msg` herunterladen können. Wenn Sie auf Nachrichtendetails klicken, wird eine Zusammenfassung der Metadaten oder der vollständigen Metadaten der Nachricht angezeigt.
-
-Wenn Sie eine PDF-Datei herunterladen möchten, klicken Sie oben rechts in der Zusammenfassungsansicht auf die Schaltfläche "Herunterladen".
-
-Klicken Sie **auf die Registerkarte Textansicht,** um eine Nur-Text-Ansicht des extrahierten Texts der Unterhaltung Teams anzeigen. Dieser Nur-Text-Inhalt eignet sich für den Export, und Sie können damit ganz einfach andere Softwaretools verwenden.
-
-Klicken Sie auf die **Registerkarte Ansicht kommentieren,** um auf Anmerkungsfeatures zu zugreifen. Auf dieser Registerkarte wird der Inhalt in einem Format angezeigt, das einem Teams ähnelt, aber es gibt auch noch weitere Optionen zum Bearbeiten. Es gibt ein Bleistifttool, mit dem Sie Notizen erstellen, auf die Nachricht zeichnen oder zu Rot-für-Rot-Aktionszwecken fein absetzen können. Es gibt auch ein **Redaction-Tool** für den Bereich, mit dem Sie ein Rechteck zeichnen können, das den Bereich schwarz ausriert, und es als "Rotfakte" kennzeichnet.
-
-Hier ist ein Beispiel für eine rot markierte Datei für unterhaltungsthreads zwischen Benutzern.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot der rot markierten Datei](media/RedactedFileExample.png)
-
-Am unteren Rand der Registerkarte **Anmerkungsansicht** befindet sich die Schaltfläche **Dokumente markieren,** auf der der Markierungsbereich angezeigt wird. In diesem Bereich können Sie eine Markierung auf alle Nachrichten in der Unterhaltung Teams anwenden. Sie können eine Unterhaltung als reaktionsschnell oder nicht reaktionsschnell, privilegierte oder nicht privilegierte Unterhaltungen beschriften, ganz gleich, ob sie "Interessante Elemente" enthält, ob sie in den Export einbezogen werden soll und ob sie einer weiteren Überprüfung bedarf. Sie können auch andere anpassbare Kategorien verwalten und anwenden.
-
-#### <a name="action-menu"></a>Aktionsmenü
-
-Im Fenster mit den Überprüfungssätzen können Sie den Inhalt exportieren, indem Sie auf **Aktionsexport** \> **klicken.** Beim Exportieren stehen viele Optionen zur Verfügung.
-
-Wenn Sie eine Datei exportieren möchten, die alle Metadaten für Teams Nachrichten enthält, klicken Sie, um **das** Kontrollkästchen Datei laden zu aktivieren. Wenn Sie tags, die Sie auf den Inhalt angewendet haben, in Ihre Datei hinzufügen möchten, klicken Sie, um das Kontrollkästchen **Kategorien** zu aktivieren.
-
-Verwenden Sie die **Option Native** Dateien, um Dateien in ihrem nativen Format zu exportieren. Sie können eine Unterhaltung als eine Datei oder alle einzelnen Chatnachrichten in eigenen separaten Dateien exportieren.
-
-Mit **der Option Textdateien** können Sie Nur-Text-Versionen von Inhalten speichern. Weitere Informationen dazu, wie Sie eine Nur-Text-Ansicht Teams Unterhaltungen im Überarbeitungssatz erhalten, finden Sie oben unter Zusammenfassungsansicht, Textansicht und [Anmerkungsansicht.](#summary-view-text-view-and-annotate-view)
-
-Wenn Sie wie oben im Abschnitt [Zusammenfassungsansicht,](#summary-view-text-view-and-annotate-view) Textansicht und Anmerkungsansicht beschrieben Redactions auf den Inhalt angewendet haben, können Sie die Option Native Dateien durch konvertierte **PDFs** ersetzen aktivieren, um die systemeigenen Dateien durch konvertierte Kopien in PDF zu ersetzen.
-
-Sie können in einen von Microsoft bereitgestellten Azure BLOB-Speichercontainer exportieren, oder Sie können einen eigenen Azure BLOB-Speichercontainer bereitstellen.
-
-Wenn Sie bereit sind, den Exportvorgang zu starten, klicken Sie auf **die Schaltfläche** Exportieren. Weitere [Informationen dazu,](/microsoft-365/compliance/download-export-jobs) wie Sie nach Abschluss des Exports auf den Azure BLOB-Speichercontainer zugreifen und Ihre exportierten Inhalte herunterladen können, finden Sie unter Herunterladen von Exportaufträgen.
-
-> [!NOTE]
-> Das Exportieren kann eine längere Zeit dauern. Um den Status des Exportvorgangs nachverfolgt zu können, verlassen Sie die Registerkarte **Überprüfen von Sätzen,** und klicken Sie auf die **Registerkarte** Exporte.
-
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [eDiscovery in Microsoft 365](/microsoft-365/compliance/ediscovery)
+- [Microsoft 365 eDiscovery-Lösungen](/microsoft-365/compliance/ediscovery)
+- [Erste Schritte mit Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams eines Workflows in Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)

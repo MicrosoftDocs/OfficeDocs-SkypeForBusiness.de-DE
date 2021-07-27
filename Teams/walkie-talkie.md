@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
-ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
+ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52479072"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536731"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie-Talkie-App in Microsoft Teams
 
 Die Walkie-Talkie-App in Teams bietet sofortige Push-to-Talk-Kommunikation für Ihr Team und ist jetzt für Android verfügbar. Walkie-Talkie ermöglicht es Benutzern, eine Verbindung mit ihrem Team über die gleichen Kanäle herzustellen, deren Mitglieder sie sind. Nur Benutzer, die in einem Kanal eine Verbindung mit Walkie-Talkie herstellen, werden zu Teilnehmern und können miteinander per Push-to-Talk kommunizieren – jeweils eins nach dem anderen.
 
-Mit Walkie-Talkie in Teams können Frontline-Mitarbeiter jetzt sicher mit einer vertrauten PTT-Erfahrung kommunizieren, ohne sperrige Radiogeräte mit sich führen zu müssen, und Walkie-Talkie funktioniert überall mit WLAN- oder Mobilfunk-Internetverbindung.
+Mit Walkie-Talkie in Teams können Frontline-Mitarbeiter jetzt sicher mit einer vertrauten PTT-Erfahrung kommunizieren, ohne sperrige Radiogeräte mit sich führen zu müssen, und Walkie-Talkie funktioniert überall mit WLAN oder Mobilfunk-Internetverbindung.
 
 ## <a name="getting-started"></a>Erste Schritte
 

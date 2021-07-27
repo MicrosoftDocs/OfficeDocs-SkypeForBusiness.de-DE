@@ -1,5 +1,5 @@
 ---
-title: Direct Routing SBA
+title: SBA für Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Erfahren Sie mehr über Direct-Routing, z. B. Konfiguration, erforderliche Entscheidungen zur zentralen Bereitstellung und Überlegungen zum Voice Routing.
+description: Erfahren Sie mehr über Direct Routing, z. B. über die Konfiguration, notwendige grundlegende Entscheidungen zur Bereitstellung und Überlegungen zum VoIP-Routing.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -23,76 +23,76 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
 ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/20/2021
 ms.locfileid: "52589239"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Surrouble Branch Appliance (SBA) für direktes Routing
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Survivable Branch Appliance (SBA) für Direct Routing
 
 
-Gelegentlich kann es bei einer Kundenwebsite, auf der Direct Routing zum Herstellen Microsoft-Telefon zu einem Internetausfall kommt.
+Gelegentlich kann es an einem Kundenstandort, an dem Direct Routing zum Herstellen einer Verbindung mit dem Microsoft-Telefonsystem verwendet wird, zu einem Internetausfall kommen.
 
-Gehen Sie davon aus, dass die Kundenwebsite – als Verzweigung bezeichnet – vorübergehend keine Verbindung mit der Microsoft-Cloud über Direct-Routing herstellen kann. Das Intranet innerhalb der Verzweigung ist jedoch weiterhin voll funktionsfähig, und Die Benutzer können eine Verbindung mit dem Session Border Controller (SBC) herstellen, der PSTN-Konnektivität bietet.
+Angenommen, am Kundenstandort (dieser wird als "Branch" bezeichnet) kann vorübergehend keine Verbindung mit der Microsoft-Cloud über Direct Routing hergestellt werden. Das Intranet innerhalb des Branchs ist jedoch weiterhin voll funktionsfähig, und die Benutzer können eine Verbindung mit dem Session Border Controller (SBC) herstellen, der PSTN-Konnektivität bereitstellt.
 
-In diesem Artikel wird beschrieben, wie Sie mithilfe eines Surble Branch Appliance (SBA) Microsoft-Telefon System für den Fall eines Ausfalls weiterhin Anrufe im öffentlichen Telefonnetz (Public Switched Telephone Network, PSTN) herstellen und empfangen können.
+In diesem Artikel wird beschrieben, wie Sie eine Survivable Branch Appliance (SBA) verwenden können, damit im Falle eines Ausfalls weiterhin das Tätigen und Empfangen von Festnetzanrufen (Public Switched Telephone Network, PSTN) über das Microsoft-Telefonsystem möglich ist.
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-SBA ist verteilbarer Code, der von Microsoft an SBC-Lieferanten bereitgestellt wird, die dann Code in ihre Firmware einbetten oder separat verteilen, damit SBA auf einer separaten VM oder Hardware ausgeführt wird. 
+Bei einer SBA handelt es sich um verteilbaren Code, der von Microsoft für SBC-Anbieter bereitgestellt wird, die dann Code in ihre Firmware einbetten oder separat verteilen, damit die SBA auf einem separaten virtuellen Computer oder separater Hardware ausgeführt wird. 
 
-Wenden Sie sich an Ihren SBC-Anbieter, um die neueste Session Border Controller-Firmware mit dem eingebetteten Sur behaltet Branch Appliance zu erhalten. Darüber hinaus ist Folgendes erforderlich:
+Wenden Sie sich an Ihren SBC-Anbieter, um die neueste SBC-Firmware mit eingebetteter Survivable Branch Appliance zu erhalten. Darüber hinaus ist Folgendes erforderlich:
 
-- Der SBC muss für die Medienumgehung konfiguriert werden, um sicherzustellen, dass der Microsoft Teams-Client auf der Verzweigungswebsite Medien direkt mit dem SBC fließen kann. 
+- Der SBC muss für die Medienumgehung konfiguriert werden, damit der Microsoft Teams-Client am Branch-Standort Medien direkt über den SBC übertragen kann. 
 
-- TLS1.2 sollte auf dem SBA VM-Betriebssystem aktiviert sein.
+- Auf dem Betriebssystem des virtuellen SBA-Computers muss TLS1.2 aktiviert sein.
 
-## <a name="supported-teams-clients"></a>Unterstützte Teams-Clients
+## <a name="supported-teams-clients"></a>Unterstützte Microsoft Teams-Clients
 
-Das SBA-Feature wird auf den folgenden Microsoft Teams unterstützt: 
+Das SBA-Feature wird auf den folgenden Microsoft Teams-Clients unterstützt: 
 
-- Microsoft Teams Windows Desktop 
+- Microsoft Teams Windows-Desktop 
 
-- Microsoft Teams macOS Desktop 
+- Microsoft Teams macOS-Desktop 
 
-## <a name="how-it-works"></a>Funktionsweise
+## <a name="how-it-works"></a>So funktioniert es
 
-Während eines Internetausfalls sollte der Teams-Client automatisch auf SBA umschalten, und laufende Anrufe sollten ohne Unterbrechungen fortgesetzt werden. Es ist keine Aktion des Benutzers erforderlich. Sobald der Teams-Client erkennt, dass das Internet verfügbar ist und alle ausgehenden Anrufe abgeschlossen sind, wechselt der Client wieder in den normalen Betriebsmodus und verbindet sich mit anderen Teams Diensten. Das SBA hochgeladen die gesammelten Anrufdatensätze in die Cloud, und der Anrufverlauf wird aktualisiert, damit diese Informationen vom Mandantenadministrator überprüft werden können. 
+Während eines Internetausfalls sollte der Microsoft Teams-Client automatisch zur SBA wechseln, und laufende Anrufe sollten ohne Unterbrechungen fortgesetzt werden können. Es ist keine Aktion seitens der Benutzer erforderlich. Sobald der Microsoft Teams-Client erkennt, dass das Internet wieder verfügbar ist und alle ausgehenden Anrufe abgeschlossen sind, wird er zum normalen Betriebsmodus zurückkehren und eine Verbindung mit anderen Microsoft Teams-Diensten herstellen. Die SBA lädt erfasste Anrufdatensätze in die Cloud hoch und der Anrufverlauf wird aktualisiert, sodass diese Informationen vom Mandantenadministrator überprüft werden können. 
 
-Wenn sich Microsoft Teams-Client im Offlinemodus befindet, ist die folgende Anruffunktion verfügbar: 
+Wenn sich der Microsoft Teams-Client im Offlinemodus befindet, sind die folgenden Anruffunktionen verfügbar: 
 
-- PstN-Anrufe über lokales SBA/SBC mit Medien, die den SBC-Code durchfließen
+- Tätigen von Festnetzanrufen über lokale SBA/SBC, Medien werden dabei über SBC übertragen.
 
-- Empfangen von PSTN-Anrufen über lokales SBA/SBC mit Medien, die den SBC durchfließen 
+- Empfangen von Festnetzanrufen über lokale SBA/SBC, Medien werden dabei über SBC übertragen. 
 
-- Halten und Fortsetzen von PSTN-Anrufen
+- Halten und Fortsetzen von Festnetzanrufen.
 
 ## <a name="configuration"></a>Konfiguration
 
-Damit das SBA-Feature funktioniert, muss der Teams-Client wissen, welche SBAs an den einzelnen Verzweigungsstandorten verfügbar sind und welche SBAs den Benutzern auf dieser Website zugewiesen sind. Die Konfigurationsschritte sind wie folgt:
+Damit das SBA-Feature funktioniert, muss der Microsoft Teams-Client wissen, welche SBAs an jedem Branch-Standort verfügbar sind und welche SBAs den Benutzern an diesem Standort zugewiesen sind. Dies sind die erforderlichen Bereitstellungsschritte:
 
-1. Erstellen Sie die SBAs.
-2. Erstellen Sie die Teams-Richtlinie für verzweigte Verzweigung.
-3. Weisen Sie die Richtlinie Benutzern zu.
-4. Registrieren Sie eine Anwendung für SBA mit Azure Active Directory.
+1. Erstellen der SBAs
+2. Erstellen der Branch-Survivability-Richtlinie für Microsoft Teams
+3. Benutzern die Richtlinie zuweisen
+4. Registrieren einer Anwendung für die SBA bei Azure Active Directory
 
-Die Konfiguration erfolgt über Skype for Business Online-PowerShell-Cmdlets. (Das Teams Admin Center unterstützt das Direct Routing SBA-Feature noch nicht.) 
+Die gesamte Konfiguration erfolgt mithilfe von Skype for Business Online PowerShell-Cmdlets. (Das Direct Routing-SBA-Feature wird im Microsoft Teams Admin Center noch nicht unterstützt.) 
 
-(Informationen zum Konfigurieren des SBC mit Links zur Dokumentation von SBC-Lieferanten finden Sie unter Session Border Controller-Konfiguration am Ende dieses Artikels.)
+(Informationen zum Konfigurieren des SBC und Links zu den Dokumentationen der SBC-Anbieter finden Sie unter "Konfiguration des Session Border Controllers" am Ende dieses Artikels.)
 
 ### <a name="create-the-sbas"></a>Erstellen der SBAs
 
-Zum Erstellen der SBAs verwenden Sie das cmdlet New-CsTeamsSurvivableBranchAppliance. Dieses Cmdlet hat die folgenden Parameter:
+Zum Erstellen der SBAs wird das Cmdlet "New-CsTeamsSurvivableBranchAppliance" verwendet. In diesem Cmdlet gibt es die folgenden Parameter:
 
 | Parameter| Beschreibung |
 | :------------|:-------|
-| Identity  | Die Identität des SBA  |
-| FQDN | Der FQDN der SBA |
-| Standort | Die TenantNetworkSite, auf der sich SBA befindet |
-| Beschreibung | Text kostenlos formatieren |
+| Identity  | Identität der Datenbank  |
+| Fqdn | FQDN der SBA |
+| Site | Die TenantNetworkSite, an dem sich der SBA befindet |
+| Description | Frei formatierbarer Text |
 |||
 
-Beispiel:
+Zum Beispiel:
 
 ``` powershell
 C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.com -Description "SBA 1" 
@@ -102,17 +102,17 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>Erstellen der Teams-Richtlinie für Zweigniederlassung 
+### <a name="create-the-teams-branch-survivability-policy"></a>Erstellen der Branch-Survivability-Richtlinie für Microsoft Teams 
 
-Zum Erstellen einer Richtlinie verwenden Sie das cmdlet New-CsTeamsSurvivableBranchAppliancePolicy Richtlinie. Dieses Cmdlet hat die folgenden Parameter. Beachten Sie, dass die Richtlinie mindestens eine SBAs enthalten kann.
+Zum Erstellen einer Richtlinie wird das Cmdlet "New-CsTeamsSurvivableBranchAppliancePolicy" verwendet. In diesem Cmdlet gibt es die nachstehenden Parameter. Beachten Sie, dass die Richtlinie eine oder mehrere SBAs umfassen kann.
 
 | Parameter| Beschreibung |
 | :------------|:-------|
 | Identity | Die Identität der Richtlinie |
-| BranchApplianceFqdns  | Der FQDN der SBA(s) auf der Website |
+| BranchApplianceFqdns  | Der FQDN der SBA(s) am Standort |
 ||
 
-Beispiel:
+Zum Beispiel:
 
 ``` powershell
 C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
@@ -120,16 +120,16 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-Sie können SBAs einer Richtlinie mithilfe des cmdlets Set-CsTeamsSurvivableBranchAppliancePolicy hinzufügen oder aus dieser entfernen. Beispiel: 
+Sie können SBAs mithilfe des Cmdlets "Set-CsTeamsSurvivableBranchAppliancePolicy" zu einer Richtlinie hinzufügen oder daraus entfernen. Zum Beispiel: 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{add="sba1.contoso.com"} 
 ```
 
-### <a name="assign-a-policy-to-a-user"></a>Zuweisen einer Richtlinie zu einem Benutzer
+### <a name="assign-a-policy-to-a-user"></a>Einem Benutzer eine Richtlinie zuweisen
 
-Zum Zuweisen der Richtlinie zu einzelnen Benutzern verwenden Sie das cmdlet Grant-CsTeamsSurvivableBranchAppliancePolicy Richtlinie. Dieses Cmdlet hat die folgenden Parameter:
+Um die Richtlinie einzelnen Benutzern zuzuweisen, wird das Cmdlet "Grant-CsTeamsSurvivableBranchAppliancePolicy" verwendet. In diesem Cmdlet gibt es die folgenden Parameter:
 
 | Parameter| Beschreibung |
 | :------------|:-------|
@@ -137,78 +137,78 @@ Zum Zuweisen der Richtlinie zu einzelnen Benutzern verwenden Sie das cmdlet Gran
 | PolicyName | Die Identität der Richtlinie |
 ||
 
-Beispiel:
+Zum Beispiel:
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-Sie können eine Richtlinie von einem Benutzer entfernen, indem Sie $Null Richtlinie erteilen, wie im nächsten Beispiel gezeigt:
+Sie können eine Richtlinie von einem Benutzer entfernen, indem Sie die "$Null"-Richtlinie zuordnen, wie im nächsten Beispiel gezeigt:
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Registrieren einer Anwendung für SBA bei Azure Active Directory
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Registrieren einer Anwendung für die SBA bei Azure Active Directory
 
-Damit verschiedene SBAs, die innerhalb Ihres Mandanten verwendet werden, erforderliche Daten von Microsoft 365 lesen können, müssen Sie eine Anwendung für das SBA bei Azure Active Directory. 
+Damit verschiedene in Ihrem Mandanten verwendete SBAs die notwendigen Daten aus Microsoft 365 auslesen können, müssen Sie eine Anwendung für die SBA bei Azure Active Directory registrieren. 
 
-Weitere Informationen zur Anwendungsregistrierung finden Sie in folgenden Themen:
+Weitere Informationen zur Registrierung von Anwendungen finden Sie in den folgenden Beiträgen:
 
-- [Entwickeln von Business-Apps für Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Entwickeln branchenspezifischer Apps für Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Registrieren Sie eine Anwendung beim -Microsoft Identity Platform.](/azure/active-directory/develop/quickstart-register-app)  
+- [Registrieren einer Anwendung bei der Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app)  
 
 Sie müssen nur eine Anwendung für die Verwendung durch alle SBAs in Ihrem Mandanten registrieren. 
 
-Für die SBA-Registrierung benötigen Sie die folgenden Werte, die von der Registrierung erstellt werden: 
+Für die SBA-Registrierung benötigen Sie die folgenden Werte, die bei der Registrierung erstellt werden: 
 
 - Anwendungs-ID (Client-ID) 
-- Geheimer Client-Schlüssel 
+- Geheimer Clientschlüssel 
 
-Beachten Sie bei der SBA-Anwendung Folgendes: 
+Beachten Sie im Hinblick auf die SBA-Anwendung Folgendes: 
 
-- Der Name kann alles sein, was Sie entscheiden.  
-- Unterstützte Kontotypen = Konto nur in diesem Organisationsverzeichnis. 
-- Der Web Redirect-URI = https://login.microsoftonline.com/common/oauth2/nativeclient .
-- Implizite Zugriffstoken = Zugriffstoken und ID-Token. 
-- API-Berechtigungen = Skype und Teams Mandantenadministratorzugriff -> Anwendungsberechtigungen -> application_access_custom_sba_appliance.
-- Geheimer Clientgeheimnis: Sie können eine beliebige Beschreibung und einen Ablauf verwenden. 
-- Denken Sie daran, den geheimen Client-Schlüssel unmittelbar nach der Erstellung zu kopieren. 
-- Die Anwendungs-ID (Client-ID) wird auf der Registerkarte Übersicht angezeigt.
+- Sie können einen beliebigen Namen auswählen.  
+- Unterstützte Kontotypen: Nur Konten in diesem Organisationsverzeichnis 
+- Web-Umleitungs-URI: https://login.microsoftonline.com/common/oauth2/nativeclient
+- Implizite Gewährung, Token: Zugriffstoken und ID-Token 
+- API-Berechtigungen = Skype- und Microsoft Teams-Mandantenadministratorzugriff -> Anwendungsberechtigungen -> application_access_custom_sba_appliance.
+- Geheimer Clientschlüssel: Sie können eine beliebige Beschreibung und einen beliebigen Ablaufzeitpunkt angeben. 
+- Denken Sie daran, den geheimen Clientschlüssel sofort nach der Erstellung zu kopieren. 
+- Die Anwendungs-ID (Client-ID) wird auf der Registerkarte "Übersicht" angezeigt.
 
-Führen Sie dann die folgenden Schritte aus:
+Gehen Sie dann wie folgt vor:
 
 1. Registrieren Sie die Anwendung.
-2. Legen Sie die impliziten Zugriffstoken festgelegt.
-3. Legen Sie die API-Berechtigungen bereit.
-4. Erstellen Sie den geheimen Client-Schlüssel.
+2. Legen Sie die Token für implizite Gewährung fest.
+3. Richten Sie die API-Berechtigungen ein.
+4. Erstellen Sie den geheimen Clientschlüssel.
 
 
-## <a name="session-border-controller-configuration"></a>Session Border Controller configuration 
+## <a name="session-border-controller-configuration"></a>Konfiguration des Session Border Controllers 
 
-Eine Schritt-für-Schritt-Anleitung zum Konfigurieren Ihres Session Border Controllers mit dem eingebetteten Sur tief verzweigten Gerät finden Sie in der Dokumentation Ihres SBC-Anbieters: 
+Eine schrittweise Anleitung zum Konfigurieren des Session Border Controllers mit eingebetteter Survivable Branch Appliance finden Sie in der Dokumentation Ihres SBC-Anbieters: 
 
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
 
-- [Menüband](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
+- [Ribbon](https://support.sonus.net/pages/viewpage.action?pageId=248644034)
 
 - [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams) 
 
-- [TE-Systems](https://www.anynode.de/microsoft-teams-sba/)
+- [TE-SYSTEMS](https://www.anynode.de/microsoft-teams-sba/)
 
-## <a name="reporting-issues"></a>Melden von Problemen
+## <a name="reporting-issues"></a>Probleme melden
 
-Melden Sie alle Probleme an die Supportorganisation Ihres SBC-Anbieters. Wenn Sie das Problem melden, geben Sie an, dass Sie über ein konfiguriertes Sur verzweigungsgerät verfügen.
+Melden Sie alle Probleme der Supportorganisation Ihres SBC-Anbieters. Geben Sie dabei an, dass Sie über eine konfigurierte Survivable Branch Appliance verfügen.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-- Wenn Sie neue Surung Branch Appliances hinzufügen, kann es eine Weile dauern, bis Sie sie in Richtlinien für Surble Branch Appliance verwenden können.
+- Wenn Sie neue Survivable Branch Appliances hinzufügen, kann es einige Zeit dauern, bis Sie sie in den Survivable Branch Appliance-Richtlinien verwenden können.
 
-- Wenn Sie einem Benutzer eine Sur unleerble Branch Appliance-Richtlinie zuweisen, kann es eine Weile dauern, bis SBA in der Ausgabe von Get-CsOnlineUser angezeigt wird. 
+- Wenn Sie einem Benutzer eine Survivable Branch Appliance-Richtlinie zuweisen, kann es einige Zeit dauern, bis die SBA in der Ausgabe von "Get-CsOnlineUser" erscheint. 
 
-- Eine umgekehrte Nummern-Suche für Azure AD-Kontakte wird nicht ausgeführt. 
+- Die Nummern-Rückwärtssuche wird für Azure AD Kontakte nicht ausgeführt. 
 
-- Die SBA unterstützt keine Einstellungen für die Anruf weiterleitung. 
+- Die SBA unterstützt keine Einstellungen zur Anrufweiterleitung. 
 
-- Das Anrufen einer für dynamische Notrufe konfigurierten Notrufnummer (E911) wird nicht unterstützt.
+- Das Tätigen eines Notrufs an eine für die dynamische Notruffunktion (E911) eingerichtete Notrufnummer wird nicht unterstützt.

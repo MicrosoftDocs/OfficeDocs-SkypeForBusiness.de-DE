@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6ad995cd0a1624171396b68bec3355fc05f559
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 2fbc1e3c26cfa6afa4835fc2da1a0aae55a21b17
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52909947"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482338"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -40,7 +40,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
 |Grafikhardware |  Windows-Betriebssystem: Grafikhardwarebeschleunigung erfordert DirectX 9 oder höher, mit WDDM 2.0 oder höher für Windows 10 (oder WDDM 1.3 oder höher für Windows 10 Fall Creators Update)
-|Betriebssystem  |    Windows 10, Windows 10 auf ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Hinweis: Wir empfehlen die Verwendung der neuesten Windows-Version und der verfügbaren Sicherheitspatches.|
+|Betriebssystem  |    Windows 10 (ausschließlich Windows 10 LSTC), Windows 10 auf ARM, Windows 8.1, Windows Server 2019, Windows Server 2016, Windows Server 2012 R2. Hinweis: Wir empfehlen die Verwendung der neuesten Windows-Version und der verfügbaren Sicherheitspatches.|
 |.NET-Version    |  Setzt .NET 4.5 CLR oder später voraus       |
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    |

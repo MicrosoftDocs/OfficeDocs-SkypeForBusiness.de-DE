@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
-ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598534"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536831"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
@@ -35,12 +35,12 @@ Mit Gastzugriff können Sie Personen, die nicht Ihrer Organisation angehören, Z
 
 Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jede Person, die nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einem Business-Konto (d. h. ein Azure Active Directory-Konto) oder E-Mail-Heimanwender-Konto (mit Outlook.com, Gmail.com oder einer sonstigen Adresse) als Gast in Microsoft Teams teilnehmen kann – mit vollständigem Zugriff auf Team- und Kanalfunktionen.
 
-Für alle Gäste in Microsoft Teams gelten dieselben Compliance- und Überwachungsmaßnahmen wie überall in Microsoft 365, und die Gäste können in Azure AD verwaltet werden. Der Gastzugriff unterliegt Azure AD- und Microsoft 365- oder Office 365-Dienstbegrenzungen.
+Für alle Gäste in Microsoft Teams gelten dieselben Compliance- und Überwachungsmaßnahmen wie überall in Microsoft 365, und die Gäste können in Azure AD verwaltet werden. Der Gastzugriff unterliegt Azure AD- und Microsoft 365- oder Office 365-Dienstbegrenzungen.
 
 Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Eine vollständige Liste dessen, was ein Gast in Microsoft Teams tun kann und was nicht, finden Sie unter [Vergleich der Funktionen für Teammitglieder und Gäste](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
 
 > [!IMPORTANT]
-> Gäste folgen den organisationsweiten Einstellungen in Teams für den Koexistenz-Upgrade-Modus. Dies kann nicht geändert werden.
+> Gäste folgen den organisationsweiten Einstellungen von Teams für den Koexistenz-Upgrademodus. Dies kann nicht geändert werden.
 
 Informationen zum Einrichten des Gastzugriffs finden Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team). 
 
@@ -72,10 +72,7 @@ Gäste können das Team jederzeit von Teams aus verlassen. Einzelheiten finden S
 
 ## <a name="licensing-for-guest-access"></a>Lizenzierung für Gastzugriff
 
-Der Gastzugang ist in allen Abonnements von Microsoft 365 Business Standard, Microsoft 365 Enterprise und Microsoft 365 Education enthalten. Eine zusätzliche Microsoft 365-Lizenz ist nicht erforderlich. Die Anzahl von Gästen, die Sie hinzufügen können, ist in Teams nicht beschränkt. Die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, kann jedoch durch die kostenpflichtigen Funktionen von Azure AD eingeschränkt sein. Weitere Informationen finden Sie unter [Abrechnungsmodell für Azure AD for External Identities](/azure/active-directory/b2b/licensing-guidance).
-
-> [!NOTE]
-> Benutzer in Ihrer Organisation, die nur über eigenständige Microsoft 365-Abonnementpläne verfügen, z. B. Exchange Online Plan 2, können nicht als Gäste zu Ihrer Organisation eingeladen werden, da Microsoft Teams diese Benutzer als derselben Organisation angehörig betrachtet. Damit diese Benutzer Microsoft Teams verwenden können, muss ihnen ein Abonnement für Microsoft 365 Business Standard, Office 365 Enterprise oder Office 365 Education zugewiesen werden. 
+Der Gastzugang ist in allen Abonnements von Microsoft 365 Business Standard, Microsoft 365 Enterprise und Microsoft 365 Education enthalten. Eine zusätzliche Microsoft 365-Lizenz ist nicht erforderlich. Das [Abrechnungsmodell für Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance) gilt für Gäste in Microsoft 365. Nur Personen von außerhalb Ihrer Organisation können als Gäste eingeladen werden.
 
 ## <a name="guest-access-reviews"></a>Gast-Zugriffsüberprüfungen
 
@@ -91,6 +88,6 @@ Sie können selbst eine Überprüfung des Gastzugriffs durchführen, Gäste bitt
 
 [Erstellen einer sicheren Umgebung für die Gastfreigabe](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products)
+[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products)
 
 [Konfigurieren von Microsoft Teams mit drei Schutzebenen](/microsoft-365/solutions/configure-teams-three-tiers-protection)

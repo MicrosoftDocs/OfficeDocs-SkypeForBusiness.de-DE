@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e79eecaaa0fbdbc00b73358f8a9fa2e147675e6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 2c0933d9347a1aa2da49abf85e7b420413a5961a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282185"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587184"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Vorbereiten Ihrer IT-Microsoft Teams
 
@@ -42,13 +42,13 @@ Ihre Microsoft 365 oder Office 365 Ihrer Organisation, die technischen Leads und
 Teilen Sie die folgenden Ressourcen mit Ihren IT-Mitarbeitern, und vergewissern Sie sich, dass diese bereit sind, Benutzer zu unterstützen, bevor Sie mit dem Upgrade auf die neue Version Teams:
 
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
-- [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products)
+- [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products)
 - [Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client](connectivity-issues.md)
 - [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 
 
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Haben Sie alle Supportmitarbeiter einbezogen, die wahrscheinlich an der Bereitstellung und Unterstützung der Teams?</li><li>Haben Sie einen Schulungsplan für das Onboarding zusätzlicher Mitarbeiter im Verlauf Ihres Upgrades entwickelt?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Stellen Sie sicher, dass die IT-Mitarbeiter über die benötigten Informationen verfügt.</li><li>Überarbeiten Sie Ihre Schulungs- und Vorbereitungspläne, sobald neue Features veröffentlicht werden.</li></ul>|

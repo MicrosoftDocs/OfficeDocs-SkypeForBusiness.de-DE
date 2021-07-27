@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282582"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586974"
 ---
 # <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 
@@ -37,7 +37,7 @@ Dieser Artikel ist Teil der Phase Project Definition Ihres Upgrades. Eine Aktivi
 
 Wenn Sie sich Zeit nehmen, um Ihre Projektvision, Ihren Umfang, Ihre Ziele und Ihre Governance zu definieren, können Sie sicherstellen, dass alle Projektbeteiligten ausgerichtet sind und auf die gleichen Endergebnisse hin arbeiten. Dies ist besonders wichtig, da das technische Bereitschaftsteam und das Benutzerbereitschaftsteam unabhängig arbeiten werden, um die jeweiligen Teile zusammenzubringen. Verweisen Sie nach Abschluss dieses Abschnitts im gesamten Projekt darauf, um sicherzustellen, dass Sie auf dem Plan sind, den von Ihnen gewünschte Endzustand zu erreichen. Verwenden Sie die unten angegebenen Ziele, um Ihre Ergebnisse zu messen und nach Bedarf zu entschärfen.
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was möchten Sie mit diesem Projekt erreichen (mit anderen Worten, warum tun Sie es?)</li><li>Wie sieht der Erfolg aus?</li><li>Was sind die Risiken, und was ist Ihr Plan, um diese Risiken abzumildern?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Besprechen Sie die folgenden Abschnitte mit Ihrem Projektteam und Sponsoren.</li><li>Dokumentieren Sie Ihre Vision, Ihren Umfang, Ihre Ziele und Risiken für dieses Projekt.</li><li>Überprüfen Sie erneut, ob Sie das richtige Team engagiert haben.</li></ul>|

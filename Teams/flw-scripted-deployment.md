@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120746"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536821"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -34,9 +34,9 @@ Dabei lernen Sie Folgendes:
 - Erstellen einer großen Anzahl von Benutzern
 - Erstellen einer großen Anzahl von Teams und Einrichten der entsprechenden Kanäle
 - Zuweisen von Lizenzen in großem Maßstab
-- Erstellen geeigneter Gruppen-Messagingrichtlinien sowie von App-Einrichtungs- und -Berechtigungsrichtlinien.
+- Erstellen geeigneter Richtlinien für Teams-Messaging, App-Einrichtung und Berechtigungen.
 - Anwenden dieser Richtlinien auf Benutzer im großen Maßstab.
-- Eine große Anzahl von Benutzern einem bestimmten Team zuweisen
+- Eine große Anzahl von Benutzern einem bestimmten Team zuweisen.
 
 > [!NOTE]
 > Wenn Sie diese Informationen gelesen haben und das Gefühl haben, dass Sie Hilfe benötigen oder Fragen haben, [**klicken Sie hier**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u), um zum White Glove-Support zu gelangen.
@@ -56,16 +56,16 @@ Laden Sie die Objekte von [hier](https://aka.ms/flwteamsscale) herunter.
 
 ## <a name="step-by-step-process-overview"></a>Übersicht über die einzelnen Prozessschritte
 
-1. **Ihre Umgebung einrichten**
+1. **Einrichten der Umgebung**
     1. Herunterladen aus dem GitHub-Repository mit den Beispiel-PowerShell-Skripts und der Dokumentation
     1. Konfigurieren der lokalen Umgebung
-    1. Anmeldeinformationen einrichten
-    1. PowerShell-Module und Umgebungsvariablen einrichten
+    1. Einrichten von Anmeldeinformationen
+    1. Konfigurieren von PowerShell-Modulen und Umgebungsvariablen
 1. **Erstellen und Einrichten von Teams**
     1. Teams erstellen
     1. Schritte zum Erstellen eines Teams
     1. Erstellen von Kanälen für Teams
-1. **Erstellen von Teamrichtlinien**
+1. **Erstellen von Teams-Richtlinien**
     1. Erstellen von Nachrichtenrichtlinien für Teams
     1. Erstellen von App-Einrichtungsrichtlinien für Teams
     1. Erstellen von App-Berechtigungsrichtlinien für Teams
@@ -73,10 +73,10 @@ Laden Sie die Objekte von [hier](https://aka.ms/flwteamsscale) herunter.
     1. Erstellen von Benutzern und Sicherheitsgruppen
     1. Benutzern Lizenzen über eine gruppenbasierte Lizenzierung zuweisen
 1. **Zuweisen von Benutzern und Richtlinien**
-    1. Benutzer Teams zuweisen
+    1. Zuweisen von Benutzern zu Teams
     1. Benutzern Teams-Richtlinien zuweisen
-    1. OPTIONAL: Konvertieren des Typs einer Gruppenmitgliedschaft
-1. **Testen und überprüfen**
+    1. Optional: Gruppenmitgliedschaftstyp konvertieren
+1. **Testen und Überprüfen**
     1. Anmelden bei Microsoft Teams mit einem Testbenutzer
     1. Auf Fehler überprüfen
     1. Fehlerbehandlung
@@ -99,12 +99,12 @@ Das Festlegen der lokalen Umgebungsvariablen ermöglicht das Ausführen der hier
 
 Beispiel: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
-### <a name="setup-credentials"></a>Anmeldeinformationen einrichten
+### <a name="set-up-credentials"></a>Einrichten von Anmeldeinformationen
 
 > [!IMPORTANT]
 > Die Verwaltung der Anmeldeinformationen in diesen Skripts ist möglicherweise nicht für ihre Verwendung geeignet. Sie können allerdings ganz einfach geändert werden, um Ihren Anforderungen zu entsprechen. Folgen Sie immer den Standards und Praktiken Ihres Unternehmens zur Sicherung von Dienstkonten und verwaltete Identitäten.
 
-Die Skripts verwenden Anmeldeinformationen, die als XML-Dateien gespeichert sind unter $ENV:LOCALAPPDATA\keys, d. h. im Ordner AppData\Local. Die Hilfsfunktion **Set-Creds** im Modul **BulkAddFunctions.psm1** muss aufgerufen werden, um die zum Ausführen dieser Skripts verwendeten Anmeldeinformationen festzulegen. Durch diese Vorgehensweise ist es nicht mehr erforderlich, dass Sie sich bei allen unterschiedlichen Dienstendpunkten authentifizieren, wobei sich die Anmeldeinformationen an einem lokalen Speicherort befinden. Von jedem nachfolgenden Skript aus werden die entsprechenden Anmeldeinformationen mithilfe der von uns als **Get-Creds** bezeichneten Hilfsfunktion ausgelesen, und diese Anmeldeinformationen werden verwendet, um eine Verbindung mit den verschiedenen Diensten herzustellen.
+Die Skripts verwenden Anmeldeinformationen, die als XML-Dateien gespeichert sind unter $ENV:LOCALAPPDATA\keys, d. h. im Ordner AppData\Local. Die Hilfsfunktion **Set-Creds** im Modul **BulkAddFunctions.psm1** muss aufgerufen werden, um die zum Ausführen dieser Skripts verwendeten Anmeldeinformationen festzulegen. Durch diese Vorgehensweise ist es nicht mehr erforderlich, dass Sie sich bei allen unterschiedlichen Dienstendpunkten authentifizieren, wobei sich die Anmeldeinformationen an einem lokalen Speicherort befinden. Von jedem nachfolgenden Skript aus werden die entsprechenden Anmeldeinformationen mithilfe der von uns als **Get-Creds** bezeichneten Hilfsfunktion ausgelesen, und diese Anmeldeinformationen werden verwendet, um eine Verbindung mit den verschiedenen Diensten herzustellen.
 
 Wenn Sie **Set-Creds** aufrufen, werden Sie aufgefordert, einen XML-Dateinamen anzugeben, der lautet: $ENV:LOCALAPPDATA\keys.   Möglicherweise haben Sie für verschiedene Dienste unterschiedliche Anmeldeinformationen. Sie könnten beispielsweise über unterschiedliche Anmeldeinformationen für Microsoft Teams, Azure AD und MS Online verfügen; in diesem Fall können Sie **Set-Creds** öfter ausführen, um die jeweilige Anmeldeinformationsdatei unter einem eigenen aussagekräftigen Namen zu speichern.
 
@@ -136,7 +136,7 @@ Um mit den Mitarbeitern in Service und Produktion kommunizieren und zusammenarbe
 
 ### <a name="create-teams"></a>Teams erstellen
 
-Teams bestehen aus Personen, Inhalten und Tools innerhalb Ihrer Organisation. Für die meisten Organisationen, deren Mitarbeiter vorwiegend in Service und Produktion tätig sind, empfiehlt es sich in der Praxis, ein Team basierend auf einem physischen Standort einzurichten. Beispielsweise ein Team für jeden der folgenden Orte:
+Teams bestehen aus Personen, Inhalten und Tools innerhalb Ihrer Organisation. Für die meisten Organisationen, deren Mitarbeiter vorwiegend in Service und Produktion tätig sind, empfiehlt es sich in der Praxis, ein Team basierend auf einem physischen Standort einzurichten. Beispiel: ein Team für jeden der folgenden Orte:
 
 - Store
 - Verteilungscenter
@@ -144,7 +144,7 @@ Teams bestehen aus Personen, Inhalten und Tools innerhalb Ihrer Organisation. F�
 - Krankenhaus
 - Lebensmittelgeschäft
 
-*Bewährte Methoden*: Bei der Planung Ihrer Teams müssen die [Limits und Spezifikationen für Teams](limits-specifications-teams.md) beachtet werden. Für kleinere Organisationen kann ein organisationsweites Team zur Optimierung der Kommunikation und zur Ergänzung einer physikalischen Standortstruktur verwendet werden. In anderen Organisationen erleichtert eine strukturierte Teams-Benennungskonvention nach physischem Standort die Unternehmenskommunikation mittels gleichzeitigem Crossposting an mehrere Teams. So können Sie z. B. nach allen Teams mit "DE" im Namen suchen und mittels Crossposting eine Nachricht an alle deutschen Standorte senden. Weitere Informationen zum Thema Crossposting finden Sie [hier](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295).
+*Bewährte Methoden*: Beim Entwerfen Ihrer Teams ist es wichtig, [Teams-Grenzwerte und -Spezifikationen](limits-specifications-teams.md)zu berücksichtigen. Für kleinere Organisationen kann ein organisationsweites Team zur Optimierung der Kommunikation und zur Ergänzung einer physikalischen Standortstruktur verwendet werden. In anderen Organisationen erleichtert eine strukturierte Teams-Benennungskonvention nach physischem Standort die Unternehmenskommunikation mittels gleichzeitigem Crossposting an mehrere Teams. So können Sie z. B. nach allen Teams mit "DE" im Namen suchen und mittels Crossposting eine Nachricht an alle deutschen Standorte senden. Weitere Informationen zum Thema Crossposting finden Sie [hier](https://support.office.com/article/cross-post-a-channel-conversation-in-teams-9c1252a3-67ef-498e-a7c1-dd7147b3d295).
 
 #### <a name="steps-to-create-teams"></a>Schritte zum Erstellen eines Teams
 
@@ -155,7 +155,7 @@ Teams bestehen aus Personen, Inhalten und Tools innerhalb Ihrer Organisation. F�
 
 ### <a name="create-channels-for-teams"></a>Erstellen von Kanälen für Teams
 
-Kanäle sind spezielle Bereiche innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen und mehr organisiert werden können. Jedes Team erhält automatisch einen Kanal "Allgemein". Von dort aus können Sie jedoch die Struktur entsprechend den Anforderungen Ihres Unternehmens anpassen. Eine zusätzliche Kanalstruktur kann beispielsweise Folgendes umfassen:
+Kanäle sind spezielle Bereiche innerhalb eines Teams, mit denen Unterhaltungen nach bestimmten Themen, Projekten, Fachrichtungen und mehr organisiert werden können. Jedes Team erhält automatisch einen allgemeinen Kanal. Von dort aus können Sie Ihre Struktur an die Anforderungen Ihres Unternehmens anpassen. Eine zusätzliche Kanalstruktur kann beispielsweise Folgendes umfassen:
 
 - **Produktion**: Sicherheit, Fertigungslinie 1, Fertigungslinie 2, Unternehmenskommunikation, Schulungen
 - **Lebensmittelgeschäft**: Backwaren, Obst und Gemüse, Fleischwaren, Unternehmenskommunikation, Schulungen
@@ -166,7 +166,7 @@ Kanäle sind spezielle Bereiche innerhalb eines Teams, mit denen Unterhaltungen 
 > [!NOTE]
 > Kanäle sollten nicht als Sicherheitsbegrenzungen betrachtet werden. Sie sind ein Mittel zum Organisieren Ihrer Mitarbeiter zum Zweck der Zusammenarbeit.
 
-*Bewährte Methoden*: Beim Planen Ihrer Kanalstruktur ist es wichtig, dass die Dinge einfach bleiben, insbesondere, wenn Sie eine große Anzahl von Benutzern einrichten möchten. Widerstehen Sie der Versuchung, Kanäle für jede Situation, Rolle oder jedes Thema zu erstellen, um den Schulungsbedarf zu minimieren. Wählen Sie für den Anfang höchstens 3-5 Kanäle aus. Bei Bedarf können Sie später auf einfache Weise weitere Kanäle erstellen. Es ist auch durchaus in Ordnung, zunächst nur den Kanal "Allgemein" zu verwenden!
+*Bewährte Methoden*: Beim Entwerfen Ihrer Kanalstruktur ist es wichtig, die Dinge einfach zu halten, insbesondere, wenn Sie viele Benutzer integrieren möchten. Widerstehen Sie der Versuchung, Kanäle für jede Situation, Rolle oder jedes Thema zu erstellen, um den Schulungsbedarf zu minimieren. Wählen Sie für den Anfang höchstens 3-5 Kanäle aus. Bei Bedarf können Sie später auf einfache Weise weitere Kanäle erstellen. Es ist auch durchaus in Ordnung, zunächst nur den Kanal "Allgemein" zu verwenden!
 
 #### <a name="steps-to-create-channels-for-teams"></a>Schritte zum Erstellen von Kanälen für Teams
 
@@ -177,17 +177,17 @@ Kanäle sind spezielle Bereiche innerhalb eines Teams, mit denen Unterhaltungen 
 
 ## <a name="create-teams-policies"></a>Erstellen von Teamrichtlinien
 
-Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, was Benutzer in Ihrer Organisation sehen können und wozu sie berechtigt sind. Sie können z. B. steuern, welche Anwendungen auf der linken Seite des Desktops bzw. des Webbrowsers oder auf der unteren Leiste auf mobilen Geräten angeheftet sind, um die Endbenutzererfahrung im Falle des Onboardings einer großen Anzahl von Benutzern zu vereinfachen. Einige dieser Richtlinien können mit PowerShell erstellt werden, andere hingegen müssen manuell in der Admin-Konsole von Microsoft Teams erstellt werden.
+Als Administrator können Sie mithilfe von Teamrichtlinien in Microsoft Teams steuern, was Benutzer in Ihrer Organisation sehen können und wozu sie berechtigt sind. Sie können z. B. steuern, welche Anwendungen auf der linken Seite des Desktops bzw. des Webbrowsers oder auf der unteren Leiste auf mobilen Geräten angeheftet sind, um die Endbenutzererfahrung beim Onboarding einer großen Anzahl von Benutzern zu vereinfachen. Einige dieser Richtlinien können mit PowerShell erstellt werden, andere müssen manuell im Teams Admin Center erstellt werden.
 
 *Bewährte Methoden*: Bei jeder der folgenden Richtlinien werden in Wirklichkeit zwei Richtlinien erstellt: eine für Mitarbeiter in Service und Produktion, und eine für deren Vorgesetzte. Sie können so viele oder so wenige Richtlinien erstellen, wie Sie möchten. Bei den meisten Kunden eignen sich zwei gut zum Starten, selbst wenn anfangs für alle Gruppen die gleichen Einstellungen festgelegt werden. Wenn einige Erfahrung mit Microsoft Teams gesammelt wurde, können Sie sich entscheiden, die Benutzererfahrung weiter zu differenzieren, und die beiden bereits erstellen getrennten Richtlinien können dies vereinfachen.
 
-### <a name="create-teams-message-policies"></a>Erstellen von Nachrichtenrichtlinien für Teams
+### <a name="create-teams-messaging-policies"></a>Erstellen von Nachrichtenrichtlinien für Teams
 
 Nachrichtenrichtlinien werden verwendet, um zu steuern, welche Chat- und Messagingfunktionen den Benutzern in Microsoft Teams zur Verfügung stehen.
 
 *Bewährte Methoden*: Sie können zwar die automatisch erstellte globale Standardrichtlinie verwenden, wir haben uns jedoch für eine benutzerdefinierte Richtlinie entschieden, die Sie über die nachstehenden Schritte erstellen können. Dadurch wird eine noch spezifischere, einfachere und differenziertere Benutzererfahrung für Mitarbeiter in Service und Produktion sowie deren Vorgesetzte bereitgestellt.
 
-#### <a name="steps-to-create-teams-message-policies"></a>Schritte zum Erstellen von Nachrichtenrichtlinien für Teams
+#### <a name="steps-to-create-teams-messaging-policies"></a>Schritte zum Erstellen von Teams-Messagingrichtlinien
 
 1. Suchen Sie die Datei **TeamsMessagingPolicies.csv** im Ordner „Skripts“ im Repository.
 1. Aktualisieren Sie die **TeamsMessagingPolicies.csv**-Datei mit den spezifischen Informationen Ihrer Organisation. Weitere Informationen zu einigen der möglichen Optionen finden Sie [hier](./messaging-policies-in-teams.md#messaging-policy-settings).
@@ -203,11 +203,11 @@ Als Administrator können App-Einrichtungsrichtlinien für Folgendes einrichten:
 
 Apps werden an die App-Leiste angeheftet. Hierbei handelt es sich um die Leiste am seitlichen Rand im Microsoft Teams-Desktopclient bzw. am unteren Rand in mobilen Teams-Clients (iOS und Android).
 
-|Microsoft Teams-Desktopclient  |         |Mobiler Microsoft Teams-Client  |
+|Microsoft Teams-Desktopclient  |         |Mobile Microsoft Teams-Clients  |
 |---------|---------|---------|
-|![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die *App*-Leiste angeheftet sind.](media/FLW-Teams-Desktop-Client.png)         |         |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die *untere* Leiste angeheftet sind.](media/FLW-Teams-Mobile-Client.png) |
+|![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die App-Leiste angeheftet sind.](media/flw-teams-desktop-client.png)         |         |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die untere Leiste angeheftet sind.](media/flw-teams-mobile-client.png) |
 
-*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale organisationsweite Standardrichtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter und Vorgesetzte in Service und Produktion, um ihnen eine einfachere und effizientere Benutzeroberfläche zur Verfügung zu stellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche eventuell den Anforderungen Ihres Unternehmens entsprechend anpassen.
+*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale organisationsweite Standardrichtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter in Service und Produktion und deren Vorgesetzte, um ihnen eine einfachere und effizientere Benutzeroberfläche zur Verfügung zu stellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche den Anforderungen Ihres Unternehmens entsprechend anpassen.
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion
 
@@ -215,23 +215,26 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.  
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: **App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion**.
-![Abbildung App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion.](media/FLW-FLM-App-Setup-Policy.png)
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: die App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion.
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion":::
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-![Abbildung des Schalter für „Benutzern das Anheften erlauben“.](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen"":::
 
-6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu **Schichten** zu erhalten.
-![Bildschirm mit angehefteten Apps, auf dem die Schichten-App neben einer Schaltfläche zum Hinzufügen zu sehen ist.](media/FLW-Add-Pinned-Apps.png)
+6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms "Angeheftete Apps hinzufügen" mit der Schaltfläche "Hinzufügen" für die App "Schichten"":::
 
-7. Entfernen Sie "Anrufe", falls dies angezeigt wird. Hinweis: Wenn Sie dieses Feature entfernen, wird es nicht für den Benutzer deaktiviert, sondern es wird verhindert, dass es auf der App-Leiste angezeigt wird, um die Benutzeroberfläche zu vereinfachen.
+7. Anrufe entfernen, wenn sie angezeigt werden. Wenn Sie dieses Feature entfernen, wird es nicht für den Benutzer deaktiviert, sondern verhindert, dass es auf der App-Leiste angezeigt wird, um die Endbenutzererfahrung zu vereinfachen.
 8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
-    1. Aktivität
-    1. Chat
-    1. Teams
-    1. Kalender
-    1. Schichten ![Screenshot der App-Liste für Vorgesetzte in der angegebenen Reihenfolge.](media/FLW-Manager-Pinned-Apps.png)
+
+    - Aktivität
+    - Chat
+    - Teams
+    - Kalender
+    - Schichten
+
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Screenshot der in der Reihenfolge aufgeführten Apps für Vorgesetzte in Service und Produktion":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion
 
@@ -239,22 +242,25 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: **App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion**.
-![Abbildung App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion.](media/FLW-FLW-App-Setup-Policy.png)
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Bespiel: die App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion.
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion in Service und Produktion":::
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-![Abbildung des Schalter für „Benutzern das Anheften erlauben“.](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen"":::
 
-6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie hier, um weitere Informationen zur **Schichten**-App zu erhalten.
-![Bildschirm mit angehefteten Apps, auf dem die Schichten-App neben einer Schaltfläche zum Hinzufügen zu sehen ist.](media/FLW-Add-Pinned-Apps.png)
+6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
 
-7. Entfernen Sie ggf. "Besprechungen und Anrufe", falls dies angezeigt wird. Hinweis: Wenn Sie diese Features entfernen, werden sie nicht für den Benutzer deaktiviert, sondern es wird verhindert, dass sie auf der App-Leiste angezeigt werden, um die Benutzeroberfläche zu vereinfachen.
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms "Angeheftete Apps hinzufügen" mit der Schaltfläche "Hinzufügen" für die App "Schichten"":::
+
+7. Entfernen Sie Besprechungen und Anrufe, falls diese angezeigt werden. Wenn Sie diese Features entfernen, werden sie nicht für den Benutzer deaktiviert, sie werden jedoch nicht auf der App-Leiste angezeigt, um die Endbenutzererfahrung zu vereinfachen.
 8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
-    1. Aktivität
-    1. Chat
-    1. Teams
-    1. Schichten ![Screenshot der App-Liste für Mitarbeiter in der angegebenen Reihenfolge.](media/FLW-Worker-Pinned-Apps.png)
+    - Aktivität
+    - Chat
+    - Teams
+    - Schichten
+
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Screenshot der in der Reihenfolge aufgeführten Apps für Mitarbeiter in Service und Produktion":::
 
 ### <a name="create-teams-app-permission-policies"></a>Erstellen von App-Berechtigungsrichtlinien für Teams
 
@@ -268,12 +274,13 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
-![Darstellung der Seite "App-Berechtigungsrichtlinie hinzufügen" mit Abschnitten für Microsoft-, Drittanbieter-und Mandanten-Apps.](media/FLW-add-app-permission-policy.png)
 
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion.
-4. Wählen Sie unter Microsoft-Apps **Alle Apps zulassen** aus.
-5. Wählen Sie unter Drittanbieter-Apps **Alle Apps zulassen** aus.
-6. Wählen Sie unter Mandanten-Apps **Alle Apps zulassen** aus.
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen"":::
+
+3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion.
+4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.
+5. Wählen Sie unter  **Drittanbieter-Apps** **Alle Apps zulassen** aus.
+6. Wählen Sie unter **benutzerdefinierte Apps** **Alle Apps zulassen** aus.
 7. Klicken Sie auf  **Speichern**.
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion
@@ -282,12 +289,13 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
-![Darstellung der Seite "App-Berechtigungsrichtlinie hinzufügen" mit Abschnitten für Microsoft-, Drittanbieter-und Mandanten-Apps.](media/FLW-add-app-permission-policy.png)
 
-3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion.
-4. Wählen Sie unter Microsoft-Apps **Alle Apps zulassen** aus.
-5. Wählen Sie unter Drittanbieter-Apps **Alle Apps blockieren** aus.
-6. Wählen Sie unter Mandanten-Apps **Alle Apps zulassen** aus.
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen"":::
+
+3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion.
+4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.
+5. Wählen Sie unter  **Drittanbieter-Apps** **Alle Apps blockieren** aus.
+6. Wählen Sie unter **benutzerdefinierte Apps** **Alle Apps zulassen** aus.
 7. Klicken Sie auf  **Speichern**.
 
 ## <a name="users-and-security-groups"></a>Benutzer und Sicherheitsgruppen
@@ -301,11 +309,11 @@ Damit die Arbeit mit einer großen Anzahl von Benutzern in Microsoft Teams mögl
   - Arbeitstag – [Lernprogramm: Konfigurieren des Arbeitstags für die automatische Bereitstellung](/azure/active-directory/saas-apps/workday-inbound-tutorial).
 - Wenn sich die Benutzerinformationen in anderen Systemen befinden, fahren Sie mit den nachstehenden Schritte fort.
 
-Um diese Benutzer effektiver verwalten zu können, müssen Sie je eine Sicherheitsgruppen für Mitarbeiter und Vorgesetzte in Service und Produktion erstellen, und diese Benutzer direkt den Sicherheitsgruppen zuordnen, indem Sie die folgenden Schritte ausführen:
+Um diese Benutzer im großen Stil effektiver verwalten zu können, müssen Sie zwei Sicherheitsgruppen für Mitarbeiter in Service und Produktion und deren Vorgesetzte erstellen und diese Benutzer direkt in den Sicherheitsgruppen bereitstellen. Führen Sie dazu die folgenden Schritte aus:
 
 1. Suchen Sie die Datei **Users.csv** im Ordner „Skripts“ im Repository.
 1. Aktualisieren Sie die **Users.csv**-Datei mit den spezifischen Informationen Ihrer Organisation.
-    1. Standardmäßig erstellt das von uns bereitgestellte Skript einen Benutzer mit einem temporären Kennwort, das bei der ersten Anmeldung geändert werden muss. Wenn Sie das Standardkennwort nicht verwenden möchten, bearbeiten Sie das **CreateUsers.ps1**-Skript entsprechend Ihren Anforderungen.
+    1. Das bereitgestellte Skript erstellt standardmäßig einen Benutzer mit einem temporären Kennwort, das bei der ersten Anmeldung geändert werden muss. Wenn Sie das Standardkennwort nicht verwenden möchten, bearbeiten Sie das **CreateUsers.ps1**-Skript entsprechend Ihren Anforderungen.
     1. Stellen Sie sicher, dass Sie das Feld "SecurityGroup" so aktualisieren, dass es dem zuvor erstellten Namen entspricht.
 1. Suchen Sie die Datei **SecurityGroups.csv** im Ordner „Skripts“ im Repository.
 1. Aktualisieren Sie die Datei **SecurityGroups.csv** mit den spezifischen Informationen für Sicherheitsgruppen Ihrer Organisation.
@@ -335,7 +343,7 @@ Jetzt, da Sie die Benutzer und die Richtlinien zum Ändern der Benutzererfahrung
 1. Suchen Sie die Datei **SecurityGroups.csv** im Ordner „Daten“ im Repository und stellen Sie sicher, dass eine genaue Zuordnung von Richtlinien zu Gruppen vorhanden ist.
 1. Führen Sie in PowerShell das Skript **AssignPoliciestoUsers.ps1** aus dem Skript-Ordner im Repository aus.
 
-### <a name="optional-convert-group-membership-type"></a>OPTIONAL: Konvertieren des Typs einer Gruppenmitgliedschaft
+### <a name="optional-convert-group-membership-type"></a>Optional: Gruppenmitgliedschaftstyp konvertieren
 
 > [!NOTE]
 > Dieser Schritt ist für Personen vorgesehen, die über Azure AD P1 oder höher verfügen.
@@ -354,12 +362,12 @@ Mithilfe der dynamischen Mitgliedschaft werden Regeln festgelegt, anhand derer f
 
 ## <a name="test-and-validate"></a>Testen und überprüfen
 
-### <a name="login-to-teams-with-a-test-user"></a>Anmelden bei Microsoft Teams mit einem Testbenutzer
+### <a name="sign-in-to-teams-with-a-test-user"></a>Anmelden bei Microsoft Teams mit einem Testbenutzer
 
 Nachdem Sie alle Schritte ausgeführt haben, ist es an der Zeit, Ihre Arbeit zu überprüfen.
 
-1. Der erstellte Benutzer verfügt über ein anfängliches Kennwort, das sich in „CreateUsers.ps1“ befindet. Dieses muss bei der ersten Anmeldung geändert werden.
-1. Überprüfen Sie, ob das Aussehen und Verhalten von Microsoft Teams Ihren Erwartungen entspricht. Wenn dies nicht der Fall ist, überprüfen Sie die Abschnitte **Erstellen von Microsoft Teams-Richtlinien** und **Benutzern Teamrichtlinien zuweisen**.
+1. Der erstellte Benutzer verfügt über ein anfängliches Kennwort, welches sich in "CreateUsers.ps1" befindet und, das er bei der ersten Anmeldung ändern muss.
+1. Überprüfen Sie, ob das Aussehen und Verhalten von Microsoft Teams Ihren Erwartungen entspricht. Wenn dies nicht der Fall ist, lesen Sie die Abschnitte **Erstellen von Teams-Richtlinien** und **Zuweisen von Teams-Richtlinien zu Benutzern**.
 1. Vergewissern Sie sich, dass sich der Benutzer im richtigen Team befindet. Wenn dies nicht der Fall ist, überprüfen Sie die Abschnitte **Erstellen und Einrichten von Benutzern** und **Benutzer Teams zuweisen**.
 
 > [!NOTE]
@@ -379,7 +387,7 @@ In diesen Beispielskripts wurde die minimale Fehlerbehandlung implementiert. Es 
 
 ## <a name="further-reading"></a>Weitere Lektüre
 
-- [Neuer Team-anal (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [Neue Teams-Messaging-Richtlinie (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [Neuer Teamkanal (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [Neue Teams-Messagingrichtlinie (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
 - [Zuweisen von Lizenzen und Benutzerkonten mit Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

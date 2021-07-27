@@ -32,7 +32,7 @@ Die Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und üb
  > Mehr über Teams-Benutzerprofile auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
  > [!NOTE]
- > Teams berücksichtigt Ihre Datenschutzkonfiguration, d h.,wenn Sie den Datenschutzmodus aktiviert haben, ist Ihre Anwesenheit für externe Benutzer nicht sichtbar.
+ > Teams berücksichtigt Ihre Datenschutzkonfiguration, d. h.,wenn Sie den Datenschutzmodus aktiviert haben, ist Ihre Anwesenheit für externe Benutzer nicht sichtbar.
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
 |Benutzerdefiniert|Durch die App konfiguriert|

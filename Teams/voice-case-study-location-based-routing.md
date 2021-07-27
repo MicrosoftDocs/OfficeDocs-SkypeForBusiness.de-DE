@@ -1,5 +1,5 @@
 ---
-title: Teams Fallstudie zu Contoso Voice
+title: 'Teams Contoso-Fallstudie: Standortbasiertes Routing'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams Voice Case Study for multi-national corporation
+description: 'Teams Sprachfallstudie für multinationale Unternehmen: Standortbasiertes Routing'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786007"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587154"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Contoso-Fallstudie: Location-Based Routing
 
@@ -47,11 +47,11 @@ Die folgenden Diagramme zeigen die Vorher-Nach-Bereitstellungen für ein Land mi
 
 **Ursprüngliche Bereitstellung**
 
-![Diagramm, das vor dem Zustand angezeigt wird](media/voice-case-study-5.png)
+![Diagramm, das vor dem Zustand angezeigt wird.](media/voice-case-study-5.png)
 
 **Bereitstellung mit Direct Routing**
 
-![Diagramm, das vor dem Zustand angezeigt wird](media/voice-case-study-6.png)
+![Diagramm 2 mit dem Status "Vor"](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>Konfiguration: 

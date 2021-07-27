@@ -9,7 +9,7 @@ audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Erfahren Sie, wie Sie die Teams, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, im Microsoft Teams Admin Center anzeigen oder aktualisieren können.
-localization_priority: Normal
+localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,15 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea81ad854224e08142f9c87725d25176dcc60d44
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
-ms.translationtype: MT
+ms.openlocfilehash: c856763cc642b3790a159b404ba27cd3d16fc727
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237541"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506314"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
-==========================================
+# <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 
 ## <a name="overview"></a>Übersicht
 
@@ -44,7 +43,7 @@ Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwende
 
 ## <a name="teams-overview-grid"></a>Teams-Übersichtraster
 
-Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams**. (Wählen Sie **Teams** > **Teams verwalten** im Admin Center aus.) Jedes Team wird von einer Microsoft 365-Gruppe unterstützt. Dieser Knoten bietet eine Übersicht über Gruppen, die in Ihrer Organisation für Microsoft Teams aktiviert wurden.
+Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams**. (Wählen Sie **Teams** > **Teams verwalten** im Admin Center aus.) Jedes Team wird von einer Microsoft 365-Gruppe unterstützt. Dieser Knoten bietet eine Übersicht über Gruppen, die in Ihrer Organisation für Microsoft Teams aktiviert wurden.
 
 ![Screenshot: Teams-Übersichtraster](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -55,10 +54,10 @@ Das Raster zeigt die folgenden Eigenschaften an:
 - **Teammitglieder**: die Anzahl aller Benutzer, einschließlich Besitzern, Gästen und Mitgliedern Ihres Mandanten.
 - **Besitzer**: die Anzahl der Besitzer dieses Teams.
 - **Gäste**: die Anzahl von Azure Active Directory B2B-Gastbenutzern, die Mitglieder dieses Teams sind.
-- **Datenschutz**: der Visibility/AccessType der zugrunde liegenden Microsoft 365-Gruppe.
+- **Datenschutz**: der Visibility/AccessType der zugrunde liegenden Microsoft 365-Gruppe.
 - **Status**: der archivierte oder aktive Status dieses Teams. Weitere Informationen zum Archivieren von Teams finden Sie unter [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
-- **Beschreibung**: die Beschreibung der zugrunde liegenden Microsoft 365-Gruppe.
-- **Klassifizierung**: die Klassifizierung (sofern in Ihrer Organisation verwendet), die der zugrunde liegenden Microsoft 365-Gruppe zugewiesen ist. Erfahren Sie mehr über Klassifizierungen unter [Erstellen von Klassifizierungen für Office-Gruppen in Ihrer Organisation](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **Beschreibung**: die Beschreibung der zugrunde liegenden Microsoft 365-Gruppe.
+- **Klassifizierung**: die Klassifizierung (sofern in Ihrer Organisation verwendet), die der zugrunde liegenden Microsoft 365-Gruppe zugewiesen ist. Erfahren Sie mehr über Klassifizierungen unter [Erstellen von Klassifizierungen für Office-Gruppen in Ihrer Organisation](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
 - **GroupID**: die eindeutige GroupID der zugrunde liegenden Microsoft 365-Gruppe.
 
 > [!NOTE]
@@ -69,7 +68,7 @@ Das Raster zeigt die folgenden Eigenschaften an:
 Klicken Sie auf **Hinzufügen**, um ein neues Team hinzuzufügen. Geben Sie im Bereich **Neues Team hinzufügen** einen Namen und eine Beschreibung ein, legen Sie fest, ob es sich um ein privates oder öffentliches Team handelt und legen Sie die Klassifizierung fest.
 
 > [!NOTE]
-> Neu erstellte Teams können sofort im Teams Admin Center verwaltet werden, anders als in anderen Clients wie z. B. Outlook.
+> Neu erstellte Teams können sofort im Teams Admin Center verwaltet werden, anders als in anderen Clients wie z. B. Outlook.
 
 ### <a name="edit"></a>Bearbeiten
 
@@ -81,7 +80,7 @@ Sie können ein Team archivieren. Durch die Archivierung wird das Team in Micros
 
 ### <a name="delete"></a>Löschen
 
-Beim Löschen eines Teams handelt es sich um ein vorläufiges Löschen des Teams und der entsprechenden Microsoft 365-Gruppe. Zum Wiederherstellen eines versehentlich gelöschten Teams folgen Sie den Anweisungen unter [Wiederherstellen einer gelöschten Gruppe](/microsoft-365/admin/create-groups/restore-deleted-group).
+Beim Löschen eines Teams handelt es sich um ein vorläufiges Löschen des Teams und der entsprechenden Microsoft 365-Gruppe. Zum Wiederherstellen eines versehentlich gelöschten Teams folgen Sie den Anweisungen unter [Wiederherstellen einer gelöschten Gruppe](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="search"></a>Suche
 
@@ -89,7 +88,7 @@ Die Suche unterstützt derzeit die Zeichenfolge „beginnt mit“ und durchsucht
 
 ## <a name="team-profile"></a>Teamprofil
 
-Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigieren, indem Sie auf den Teamnamen klicken. Auf der Teamprofilseite werden die Mitglieder, Besitzer und Gäste angezeigt, die zu dem Team (und der Gruppe der zugrunde liegenden Microsoft 365-Gruppe) gehören sowie die Kanäle und Einstellungen des Teams. Auf der Teamprofilseite können Sie folgende Aktionen ausführen:
+Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigieren, indem Sie auf den Teamnamen klicken. Auf der Teamprofilseite werden die Mitglieder, Besitzer und Gäste angezeigt, die zu dem Team (und der Gruppe der zugrunde liegenden Microsoft 365-Gruppe) gehören sowie die Kanäle und Einstellungen des Teams. Auf der Teamprofilseite können Sie folgende Aktionen ausführen:
 
 - Hinzufügen oder Entfernen von Mitgliedern und Besitzern.
 - Hinzufügen oder Entfernen von Kanälen. (beachten Sie, dass Sie den Kanal „Allgemein“ nicht entfernen können.)
@@ -106,7 +105,7 @@ Auf der Profilseite des Teams können Sie die folgenden Elemente eines Teams än
 - **Teamname**
 - **Beschreibung**
 - **Datenschutz**: Legen Sie fest, ob das Team öffentlich oder privat sein soll.
-- **Klassifizierung**: Dies wird durch Ihre Microsoft 365-Gruppenklassifizierungen gesichert. Wählen Sie zwischen **Vertraulich**, **Streng vertraulich** oder **Allgemein**.
+- **Klassifizierung**: Dies wird durch Ihre Microsoft 365-Gruppenklassifizierungen gesichert. Wählen Sie zwischen **Vertraulich**, **Streng vertraulich** oder **Allgemein**.
 - **Unterhaltungseinstellungen**: Hier legen Sie fest, ob Mitglieder gesendete Nachrichten bearbeiten und löschen können.
 - **Kanaleinstellungen**: Hier legen Sie fest, ob Mitglieder neue Kanäle erstellen und bestehende bearbeiten können. Außerdem, ob sie Registerkarten, Connectors und Apps hinzufügen, bearbeiten und entfernen können.
 

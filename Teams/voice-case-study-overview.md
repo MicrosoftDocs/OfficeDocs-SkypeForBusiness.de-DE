@@ -1,5 +1,5 @@
 ---
-title: Teams Fallstudie zu Contoso Voice
+title: Teams Überblick über die Contoso-Fallstudie über Sprachanrufe
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams Voice Case Study for multi-national corporation
+description: 'Teams Sprachfallstudie für multinationale Unternehmen: Übersicht über die Sprachmigration'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097491"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587174"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso-Fallstudie: Übersicht Teams Sprachmigration
 
@@ -30,15 +30,15 @@ In diesem Artikel wird eine Fallstudie dazu eingeführt, wie ein fiktives multin
 
 Contoso hat Microsoft 365 Enterprise bereitgestellt und wichtige Entwurfsentscheidungen und Implementierungsdetails für folgende Themen getroffen: Netzwerk-, Identitäts-, Windows 10 Enterprise-, Office 365 ProPlus-, Verwaltung mobiler Geräte, Datenschutz, Sicherheit, Upgrade von Skype for Business auf Teams, Telefonsystem und Audiokonferenzen.  
 
-Dieser Artikel befasst sich mit der Migration der lokalen Benutzer von Contoso Teams vereinheitlichte Kommunikation, Zusammenarbeit und Sprachanrufe. Hintergrundinformationen dazu, wie Contoso die digitale Transformation mithilfe der Microsoft-Clouddienste beschleunigt hat, finden Sie in allen Artikeln, die mit der [Übersicht über die Contoso-Fallstudie beginnen.](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)
+Dieser Artikel befasst sich mit der Migration der lokalen Benutzer von Contoso Teams vereinheitlichte Kommunikation, Zusammenarbeit und Sprachanrufe. Hintergrundinformationen dazu, wie Contoso die digitale Transformation mithilfe der Microsoft-Clouddienste beschleunigt hat, finden Sie in allen Artikeln, die mit der [Übersicht über die Contoso-Fallstudie beginnen.](/microsoft-365/enterprise/contoso-case-study)
 
-https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
+[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 In den wichtigsten Artikeln finden Sie Informationen zu folgenden Themen:  
 
 - Anforderungen an die IT-Infrastruktur von Contoso
 - Netzwerk
-- Identität 
+- Identity
 - Windows 10 Enterprise
 - Office 365 Pro Pluszeichen
 - Verwaltung mobiler Geräte

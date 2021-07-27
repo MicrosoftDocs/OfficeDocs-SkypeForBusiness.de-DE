@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6131883d4d3711b99006b3b54d51dd50ee37daa
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3e18ecaf8d4149542008d2e1bba719d2ddaf7da6
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282322"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587274"
 ---
 # <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
 
@@ -46,7 +46,7 @@ Nachdem Sie Ihr Projektteam gesichert und Ihre Vision, Ihren Umfang und Ihre Zie
 > [!Note]
 > Sie können die unten angegebenen Bewertungsaktivitäten an jede Änderungs initiative in Ihrer Organisation anpassen. Beantworten Sie die Fragen einfach basierend auf dem Umfang Ihres Projekts. In den folgenden Diskussionen kann die "neue Lösung" für Audio-Anrufe, Audiokonferenzen oder Ihr Upgrade von Skype for Business auf Teams.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Kultur hat Ihre Organisation, wenn es darum geht, Änderungen zu unternehmen?</li><li>Wie kann die neue Technologie die Benutzerarbeit optimieren?</li><li>Welche Benutzer erfordern wahrscheinlich besondere Aufmerksamkeit, damit sie ihre Art und Weise ändern können?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die folgenden Anleitungen und zugeordneten Aktivitäten, um das Benutzerbereitschaftsprofil Ihrer Organisation zu erfassen.</li></ul>|
@@ -106,7 +106,7 @@ Wenn Sie verstehen, wie Benutzer arbeiten und wie sie zusammenkommen, können si
 
 Um das beste Team Teams, entwickeln Sie eine Teamstrategie, die beide Szenarien umfasst, und helfen Sie den Benutzern zu verstehen, Teams für sie geeignet ist.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Welche neu zu erstellende Teamszenarien verwenden Sie, um die Benutzeradzeptanz zu beschleunigen Teams und Ihr Upgrade von ihrem Computer Skype for Business?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die folgenden Beispiele, um ihre eigenen Teamszenarien zu erstellen. Dokumentieren Sie sie in [der Upgradearbeitsmappe.](https://aka.ms/upgradesuccesskit)</li><li>Weitere Szenarien und Beispiele finden Sie in der [Produktivitätsbibliothek.](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

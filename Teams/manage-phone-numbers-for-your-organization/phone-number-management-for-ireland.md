@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Irland für Microsoft Teams.
-ms.openlocfilehash: def8a47ff77510597fc1f5a43cc1dd08509f7084
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 4050ea64677bad9f6481025feea52a8b593b4fa6
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196809"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510006"
 ---
 # <a name="phone-number-management-for-ireland"></a>Telefonnummernverwaltung für Irland
 
@@ -35,10 +35,10 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. <br/> |In Irland können Sie über das Admin Center Microsoft Teams für Ihre Organisation erhalten. Sie müssen eine Anforderung für neue Telefonnummern senden. <br/><br/>Laden Sie dieses Formular herunter.<br/>[Neue Telefonnummernanforderung für Irland (v.5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Füllen Sie ihn aus, und [senden Sie ihn an uns.](mailto:ptneu@microsoft.com)  <br/> |
-|Übertragen Sie uns Ihre Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[LoA für Irland (alle Nummern) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/> |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. <br/> |In Irland können Sie über das Admin Center Microsoft Teams für Ihre Organisation erhalten. Sie müssen eine Anforderung für neue Telefonnummern senden. <br/><br/>Laden Sie dieses Formular herunter.<br/>[Neue Telefonnummernanforderung für Irland (v.5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Füllen Sie das Feld aus, und [wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
+|Übertragen Sie uns Ihre Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[LoA für Irland (alle Nummern) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Füllen Sie das Feld aus, [und wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/> |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
 |Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Verwandte Themen

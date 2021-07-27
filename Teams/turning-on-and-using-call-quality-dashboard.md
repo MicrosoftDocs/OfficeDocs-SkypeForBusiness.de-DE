@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie das Anrufqualitätsdashboard aktivieren und verwenden und Zusammenfassungsberichte zur Anrufqualität erhalten.
-ms.openlocfilehash: c71cb25732a99f207467a988ad0db54c959d15f4
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8c720a9ef99537be517f29a8b558db8912ea6a75
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52254468"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596609"
 ---
-# <a name="set-up-call-quality-dashboard-cqd"></a>Einrichten des Anrufqualitätsdashboards (CQD)
+# <a name="how-to-set-up-call-quality-dashboard"></a>Einrichten des Anrufqualitätsdashboards
 
 Öffnen Sie das Microsoft-Anrufqualitätsdashboard (CQD) unter [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (melden Sie sich mit Ihren Administratoranmeldeinformationen an). Oder wechseln Sie zum Teams Admin Center, und wählen Sie **Anrufqualitätsdashboard aus.** 
 
@@ -51,7 +51,7 @@ Weisen [Sie den](/microsoft-365/admin/add-users/about-admin-roles) Personen, die
 Wenn Sie möchten, dass Benutzer ohne Administratorrechte (z. B. Supporttechniker und Helpdesk-Agents) das Anrufqualitätsdashboard verwenden, können Sie diesen Benutzern eine der folgenden Rollen zuweisen, die dem Anrufqualitätsdashboard Zugriff gewährt. 
 
 
-|  |Berichte anzeigen  |EUII-Felder anzeigen  |Berichte erstellen  |Gebäudedaten hochladen  |
+|&nbsp;  |Berichte anzeigen  |EUII-Felder anzeigen  |Berichte erstellen  |Gebäudedaten hochladen  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |Globaler Administrator     |Ja         |Ja         |Ja         |Ja         |
 |Teams-Administrator     |Ja         |Ja         |Ja         |Ja         |

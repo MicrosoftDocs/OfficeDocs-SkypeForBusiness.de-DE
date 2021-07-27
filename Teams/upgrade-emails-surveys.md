@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809075"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586984"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-E-Mails und Umfragen für Upgrade Basic Communications
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Geben Sie an, wie gut Sie mit der Durchführung der folgenden Aktivitäten in Teams und ob es Aktivitäten gibt, über die Sie mehr erfahren möchten.
 
-| &nbsp; | Sehr gut ausgebildet | Gut ausgebildet | Überhaupt nicht gut qualifiziert | Weitere Informationen | Nicht zutreffend | Unsicher/nicht vertraut | | | | |
+| &nbsp; | Sehr gut ausgebildet | Gut ausgebildet | Überhaupt nicht gut qualifiziert | Weitere Informationen | Nicht zutreffend | Unsicher/nicht vertraut |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Verwenden Teams für Chats mit anderen Personen | | | | | | | | | | |
 | Verwenden von Teams für Onlinebesprechungen | | | | | | | | | | |

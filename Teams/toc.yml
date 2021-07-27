@@ -233,7 +233,7 @@ items:
                 items:
                   - name: 'Hybrid deaktivieren, um die Migration nur zu Teams durchzuführen'
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
-                  - name: DNS-Einträge aktualisieren
+                  - name: 'DNS-Einträgen aktualisieren '
                     ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
                   - name: 'Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet werden sollen'
                     href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
@@ -565,14 +565,14 @@ items:
         href: set-up-your-team-hierarchy.md
       - name: Überwachter Chat für Nicht-Bildungsmandanten
         href: supervised-chat-non-edu.md
-  - name: 'Besprechungen, Konferenzen und Liveereignisse'
+  - name: Besprechungen und Audiokonferenzen
     items:
-      - name: 'Schnellstart: Besprechungen und Live-Ereignisse'
-        href: quick-start-meetings-live-events.md
-      - name: Ihre Bereitstellung planen
+      - name: Planen Ihrer Bereitstellung
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: Besprechungen
+      - name: 'Besprechungen, Webinare und Liveereignisse'
         items:
+          - name: Schnellstart
+            href: quick-start-meetings-live-events.md
           - name: Verwalten von Besprechungsrichtlinien
             items:
               - name: Übersicht
@@ -599,42 +599,58 @@ items:
             href: meeting-settings-in-teams.md
           - name: 'E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern'
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: 'Ermöglichen, dass Benutzer ihren Namen aufzeichnen, wenn sie an einer Besprechung teilnehmen'
-            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-          - name: Aktivieren oder Deaktivieren von Ankündigungen beim Eintragen oder Beenden von Besprechungen
-            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-          - name: Verwenden von NDI® Technologie in Teams
-            href: use-NDI-in-meetings.md
-          - name: Option „Hand heben“ in Teams-Besprechungen
-            href: raise-hand-meetings.md
-          - name: Teams-Besprechungen in nicht unterstützten Browsern
-            href: unsupported-browsers.md
-          - name: Konfigurieren der Desktopfreigabe in Teams
-            href: configure-desktop-sharing.md
-          - name: Aufzeichnung einer Teams-Cloudbesprechung
-            href: cloud-recording.md
-          - name: Verwenden von OneDrive for Business und SharePoint oder Stream für Sitzungsaufzeichnungen
-            href: tmr-meeting-recording-change.md
-          - name: Contact Center-Integrationen
-            href: teams-contact-center.md
-          - name: Verwenden des Microsoft Teams-Besprechungs-Add-ins in Outlook
-            href: teams-add-in-for-outlook.md
-          - name: Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: Einrichten der Funktion „Rückruf“ für Ihre Benutzer
-            href: set-up-the-call-me-feature-for-your-users.md
-          - name: Abrufen eines Anwesenheitsberichts zu einer Besprechung
-            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: Verwalten von Besprechungen und Besprechungsfeatures
+            items:
+              - name: 'Ermöglichen, dass Benutzer ihren Namen aufzeichnen, wenn sie an einer Besprechung teilnehmen'
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: Aktivieren oder Deaktivieren von Ankündigungen beim Eintragen oder Beenden von Besprechungen
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: Verwenden von NDI® Technologie in Teams
+                href: use-NDI-in-meetings.md
+              - name: Teams-Besprechungen in nicht unterstützten Browsern
+                href: unsupported-browsers.md
+              - name: Konfigurieren der Desktopfreigabe in Teams
+                href: configure-desktop-sharing.md
+              - name: Aufzeichnung einer Teams-Cloudbesprechung
+                href: cloud-recording.md
+              - name: Verwenden von OneDrive for Business und SharePoint oder Stream für Sitzungsaufzeichnungen
+                href: tmr-meeting-recording-change.md
+              - name: Contact Center-Integrationen
+                href: teams-contact-center.md
+              - name: Verwenden des Microsoft Teams-Besprechungs-Add-ins in Outlook
+                href: teams-add-in-for-outlook.md
+              - name: Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams
+                href: configure-skype-meetings-app-to-work-with-teams.md
+              - name: Einrichten der Funktion „Rückruf“ für Ihre Benutzer
+                href: set-up-the-call-me-feature-for-your-users.md
+              - name: Abrufen eines Anwesenheitsberichts zu einer Besprechung
+                href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Verwalten des Whiteboards in Teams
+                href: manage-whiteboard.md
+              - name: Teams-Meeting-Add-ons für Google Workspace einrichten
+                href: google-workspace-addon-teams.md
+              - name: Cloud-Video-Interoperabilität
+                href: cloud-video-interop.md
+              - name: Schreibgeschützte Besprechungserfahrung
+                href: view-only-meeting-experience.md
           - name: Einrichten von Meeting Migration Service (MMS)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Verwalten des Whiteboards in Teams
-            href: manage-whiteboard.md
-          - name: Teams-Meeting-Add-ons für Google Workspace einrichten
-            href: google-workspace-addon-teams.md
-          - name: Cloud-Video-Interoperabilität
-            href: cloud-video-interop.md
           - name: Einrichten von Webinaren in Microsoft Teams
             href: set-up-webinars.md
+          - name: Liveereignisse
+            items:
+              - name: Was sind Teams-Liveereignisse?
+                href: teams-live-events/what-are-teams-live-events.md
+              - name: Planen von Teams-Liveereignissen
+                href: teams-live-events/plan-for-teams-live-events.md
+              - name: Einrichten von Teams-Liveereignissen
+                href: teams-live-events/set-up-for-teams-live-events.md
+              - name: Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse
+                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+              - name: Konfigurieren der Teams-Einstellungen für Liveereignisse
+                href: teams-live-events/configure-teams-live-events.md
+              - name: Richtlinien für die Aufzeichnung von Liveereignissen
+                href: teams-live-events/live-events-recording-policies.md
       - name: Audiokonferenz
         items:
           - name: Ihre Bereitstellung planen
@@ -725,20 +741,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: Videos – Audiokonferenzen in Teams
                 href: ./audio-conferencing-in-office-365.md
-      - name: Liveereignisse
-        items:
-          - name: Was sind Teams-Liveereignisse?
-            href: teams-live-events/what-are-teams-live-events.md
-          - name: Planen von Teams-Liveereignissen
-            href: teams-live-events/plan-for-teams-live-events.md
-          - name: Einrichten von Teams-Liveereignissen
-            href: teams-live-events/set-up-for-teams-live-events.md
-          - name: Verwenden von PowerShell zum Festlegen von Richtlinien für Teams-Liveereignisse
-            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-          - name: Konfigurieren der Teams-Einstellungen für Liveereignisse
-            href: teams-live-events/configure-teams-live-events.md
-          - name: Richtlinien für die Aufzeichnung von Liveereignissen
-            href: teams-live-events/live-events-recording-policies.md
       - name: Microsoft Teams-Räume
         items:
           - name: Übersicht

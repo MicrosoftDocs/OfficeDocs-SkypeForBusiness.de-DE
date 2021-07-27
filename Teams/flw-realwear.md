@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Eine Erläuterung des Microsoft Teams-für-RealWear-Clients für IT-Administratoren.
+description: Erläuterung für IT-Administratoren zum Microsoft Teams-für-RealWear-Client.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e7977aae272f13a0ffe59ccd9febad2b501dbd54
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092283"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536701"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams für RealWear
 
-Dieser Artikel befasst sich mit dem Microsoft Teams-Client für am Kopf getragene RealWear-Geräte. Mitarbeiter in Service und Produktion mit RealWear HMT-1 und HMT-1Z1 können nun über einen Videoanruf in Teams mit einem Remoteexperten zusammenarbeiten. Mithilfe einer sprachgesteuerten Benutzeroberfläche ermöglicht Teams für RealWear, dass Außendienstmitarbeiter die Hände jederzeit frei haben, während das Lagebewusstsein in lauten und gefährlichen Umgebungen aufrechterhalten wird. Indem sie in Echtzeit zeigen, was sie sehen, können Außendienstmitarbeiter die Zeit zur Lösung von Problemen zu verkürzen und das Risiko eines teuren Ausfalls reduzieren.
+Dieser Artikel befasst sich mit dem Microsoft Teams-Client für am Kopf getragene RealWear-Geräte. Mitarbeiter im Front-Line-Bereich, die RealWear HMT-1 und HMT-1Z1 verwenden, können jetzt mit einem Remoteexperten zusammenarbeiten, indem sie Videoanrufe in Teams verwenden. Mithilfe einer sprachgesteuerten Benutzeroberfläche ermöglicht Teams für RealWear, dass Außendienstmitarbeiter die Hände jederzeit frei haben, während das Lagebewusstsein in lauten und gefährlichen Umgebungen aufrechterhalten wird. Indem sie in Echtzeit zeigen, was sie sehen, können Außendienstmitarbeiter die Zeit zur Lösung von Problemen zu verkürzen und das Risiko eines teuren Ausfalls reduzieren.
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>Wie man Microsoft Teams für RealWear einsetzt
 
@@ -53,4 +53,4 @@ Anleitungen zu EMM von Drittanbietern finden Sie unter [Unterstützte Enterprise
 
 ## <a name="end-user-content"></a>Endbenutzer-Inhalte
 
-Wenn Sie weitere Inhalte aus der Sicht des Endbenutzers lesen möchten, finden Sie diese unter [Verwenden von Microsoft Teams für RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
+Weitere Informationen hierzu aus Endbenutzersicht finden Sie unter [Verwenden von Microsoft Teams für RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).

@@ -19,70 +19,61 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e5c23c362d9d425c163a46dde93c6daa3c593a92
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617777"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486145"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
-In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeichnen, um Aktivitäten der Audio-, Video- und Bildschirmfreigabe festzuhalten. Es gibt auch eine Option für die automatische Transkription von Aufzeichnungen, sodass Benutzer Besprechungsaufzeichnungen mit Untertiteln wiedergeben und nach wichtigen Diskussionsbeiträgen in der Transkription suchen können. Die Aufzeichnung erfolgt in der Cloud und wird im [Microsoft Stream](/stream/) gespeichert, sodass Benutzer sie sicher in ihrer Organisation freigeben können.
+In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeichnen, um Aktivitäten der Audio-, Video- und Bildschirmfreigabe festzuhalten. Es gibt auch eine Option für die automatische Transkription von Aufzeichnungen, sodass Benutzer Besprechungsaufzeichnungen mit Untertiteln wiedergeben und nach wichtigen Diskussionsbeiträgen in der Transkription suchen können. Die Aufzeichnung erfolgt in der Cloud und wird im Microsoft OneDrive for Business und Microsoft Office SharePoint Online gespeichert, sodass Benutzer sie sicher in ihrer Organisation freigeben können.
+
+Wenn eine Besprechung aufgezeichnet wird, geschieht dies automatisch:
+
+- In OneDrive for Business oder SharePoint Online hochgeladen
+- Berechtigung für die zur Besprechung eingeladenen Personen
+- Im Chat für die Besprechung verknüpft
+- Wird auf der Registerkarte "Aufzeichnungen und Transkripte" für die Besprechung im Teams-Kalender angezeigt
+- Zu verschiedenen Dateilisten in Microsoft 365 hinzugefügt: Für mich freigegeben, office.com, Empfohlen, Zuletzt verwendet usw.
+- Indiziert für Microsoft 365 Suche
 
 Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Der Wechsel von Microsoft Stream zu OneDrive for Business und SharePoint für Besprechungsaufzeichnungen erfolgt schrittweise. Ausführliche Informationen zu jeder Phase finden Sie unter [Verwenden von OneDrive for Business und SharePoint oder Microsoft Stream für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md).
+> Der Wechsel von Microsoft Stream (klassisch) zu OneDrive for Business und SharePoint Online für Besprechungsaufzeichnungen erfolgt automatisch im August 2021. Detaillierte Informationen finden Sie unter [Verwenden von OneDrive for Business und SharePoint Online oder Stream für Besprechungsaufzeichnungen](tmr-meeting-recording-change.md).
 
 > [!NOTE]
 > Informationen zur Verwendung von Rollen in Microsoft Teams-Besprechungen und zum Ändern von Benutzerrollen finden Sie unter [Rollen in einer Microsoft Teams-Besprechung](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us). Informationen zu Aufzeichnungsoptionen für Liveereignisse finden Sie unter [Richtlinien für die Aufzeichnung von Liveereignissen in Microsoft Teams](teams-live-events/live-events-recording-policies.md).
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Voraussetzungen für die Aufzeichnung von Teams-Cloudbesprechungen.
 
-Damit die Besprechungen eines Team-Benutzers aufgezeichnet werden können, muss Microsoft Stream für den Mandanten aktiviert sein. Darüber hinaus gelten die folgenden Voraussetzungen, die sowohl für den Organisator der Besprechung als auch für die Person, welche die Aufzeichnung initiiert, erforderlich sind:
+Damit Besprechungen eines Teams-Benutzers aufgezeichnet werden können, müssen OneDrive for Business und SharePoint Online für den Mandanten aktiviert sein. Darüber hinaus gelten die folgenden Voraussetzungen, die sowohl für den Organisator der Besprechung als auch für die Person, welche die Aufzeichnung initiiert, erforderlich sind:
 
-- Benutzer verfügt über Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Business Standard oder Business Basic <sup>1</sup>
-- Der Benutzer hat den Unternehmensrichtlinien zugestimmt, falls diese vom Administrator erstellt wurden
-- Der Benutzer verfügt über genügend Speicherplatz in Microsoft Stream, um Aufzeichnungen zu speichern
-- Für den Benutzer ist die Einstellung "CsTeamsMeetingPolicy -AllowCloudRecording" auf "true" festgelegt, damit Besprechungen und Gruppenanrufe aufgezeichnet werden können.
-- Für den Benutzer ist die Einstellung "CsTeamsCallingPolicy -AllowCloudRecordingForCalls" auf "true" festgelegt, damit 1:1-Anrufe aufgezeichnet werden können.
-- Der Benutzer ist kein anonymer, Gast- oder Verbundbenutzer in der Besprechung
-- Um die Transkription für die Besprechung eines Benutzers zu aktivieren, muss die Einstellung „-AllowTranscription“ in der dem Benutzer zugewiesenen Teams-Besprechungsrichtlinie auf „true“ festgelegt sein.
+- Der Benutzer verfügt über ausreichend Speicherplatz in OneDrive for Business, damit Besprechungsaufzeichnungen außerhalb des Kanals gespeichert werden können.
 
-<sup>1</sup> Ab dem 20. August 2020 läuft der Zugriff auf die Aufzeichnungsdatei der Besprechung für Benutzer mit A1 nach 21 Tagen ab. Weitere Informationen hierzu finden Sie unter [Hochladen einer Microsoft Teams-Besprechungsaufzeichnung in Stream](/stream/portal-upload-teams-meeting-recording).
+- Der Teams-Kanal verfügt über ausreichend Speicherplatz in SharePoint Online, damit Kanalbesprechungsaufzeichnungen gespeichert werden können.
 
-> [!IMPORTANT] 
+- Der Benutzer hat die Einstellung `CsTeamsMeetingPolicy -AllowCloudRecording` auf TRUE festgelegt, um Besprechungen und Gruppenanrufe zu erfassen.
+
+- Der Benutzer hat die Einstellung `CsTeamsCallingPolicy -AllowCloudRecordingForCalls` auf TRUE festgelegt, um 1:1-Aufrufe aufzuzeichnen.
+
+- Der Benutzer ist kein anonymer Benutzer, Gast oder Verbundbenutzer in der Besprechung.
+
+- Um die Transkription für die Besprechung eines Benutzers zu aktivieren, muss die Einstellung `-AllowTranscription` in der dem Benutzer zugewiesenen Teams-Besprechungsrichtlinie auf TRUE festgelegt sein.
+
+- Damit die Aufzeichnungen von Kanalbesprechungen so gespeichert werden, dass Kanalmitglieder die Aufzeichnungen nicht bearbeiten oder herunterladen können, muss die Einstellung `CSTeamsMeetingPolicy -ChannelRecordingDownload` auf "Blockieren" gesetzt werden.
+
+> [!IMPORTANT]
 >
-> Benutzer benötigen keine Microsoft Stream-Lizenz, wenn sie nur die Möglichkeit haben sollen, Aufzeichnungen mitzuschneiden und herunterzuladen. Das bedeutet, dass die Aufzeichnungen nicht in Microsoft Stream gespeichert werden. Sie werden stattdessen in Microsoft Teams Async Media Services (AMS) mit einer 21-tägigen Frist gespeichert, bevor sie gelöscht werden. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
+> OneDrive for Business oder SharePoint Online müssen nicht aktiviert sein, wenn Sie möchten, dass die Benutzer nur aufzeichnen und die Aufzeichnungen herunterladen können. Dies bedeutet, dass die Aufnahmen nicht in OneDrive for Business oder SharePoint Online gespeichert werden, sondern im temporären Teams-Speicher mit einem Limit von 21 Tagen gespeichert werden, bevor sie gelöscht werden. Es handelt sich nicht um etwas, das ein Administrator derzeit steuern, verwalten oder löschen kann.
 >
-> Beachten Sie außerdem, dass die Aufbewahrung von Aufzeichnungen in AMS von der Chatnachricht selbst beeinflusst wird. Daher führt das Löschen der ursprünglichen Chatnachricht von AMS-Aufzeichnungen dazu, dass Benutzer nicht auf die Aufzeichnung zugreifen können. Es gibt zwei Szenarien, die sich hierauf auswirken können:
-> 
-> - Ein Benutzer löscht die Chatnachricht manuell
-> 
->   In diesem Szenario können Benutzer, da die ursprüngliche Nachricht nicht mehr vorhanden ist, nicht mehr auf die Aufzeichnung zugreifen, und es sind keine weiteren Downloads mehr möglich. Die Aufzeichnung selbst wird jedoch u. U. noch für eine gewisse Zeit in den internen Systemen von Microsoft aufbewahrt (dabei wird der ursprüngliche Zeitraum von 21 Tagen nicht überschritten).
-> 
-> - Die Chatnachricht der Aufzeichnung wird über eine Aufbewahrungsrichtlinie für Chats gelöscht
-> 
->   AMS-Aufzeichnungen sind direkt mit der Aufbewahrungsrichtlinie für Chats verknüpft. Daher werden Aufzeichnungen in AMS standardmäßig 21 Tage aufbewahrt, bevor sie gelöscht werden. Wenn die Chatnachricht aufgrund von Aufbewahrungsrichtlinien für Chatnachrichten vor Ablauf der 21-Tage-Frist gelöscht wird, wird die Aufzeichnung ebenfalls gelöscht. Danach gibt es keine Möglichkeit, die Aufzeichnung wiederherzustellen.
+> Weitere [Informationen zur Funktionsweise des temporären Speichers für Besprechungsaufzeichnungen](#temp-storage) finden Sie weiter unten.  
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Einrichten der Aufzeichnungsfunktion für Teams-Cloudmeetings für Benutzer in Ihrer Organisation
 
-In diesem Abschnitt wird erläutert, wie die Aufzeichnung von Besprechungen in Teams eingerichtet und geplant wird.
-
-### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>Aktivieren Sie Microsoft Stream für Benutzer in der Organisation
-
-Microsoft Stream ist als Teil der berechtigten Microsoft 365- und Office 365-Abonnements oder als eigenständiger Dienst verfügbar.  Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](/stream/license-overview).  Microsoft Stream ist jetzt in Microsoft 365 Business, Microsoft 365 Business Standard und Microsoft 365 Business Basic enthalten.
-
-Hier erfahren Sie, wie Sie [Benutzern in Microsoft 365- oder Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie unter [Blockieren von Registrierungen für Microsoft Stream](/stream/disable-user-organization) definiert.
-
-### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>Stellen Sie sicher, dass Benutzer die Berechtigung zum Hochladen von Videos in Microsoft Stream haben
-
-Standardmäßig kann jeder Mitarbeiter des Unternehmens in Stream Inhalte erstellen, sobald Stream aktiviert ist und dem Benutzer die Lizenz zugewiesen ist. Ein Microsoft Stream-Administrator kann [Mitarbeiter bei der Erstellung von Inhalten in Stream einschränken](https://docs.microsoft.com/stream/restrict-uploaders). Die Benutzer in dieser Liste eingeschränkter Benutzer können zwar weiterhin Besprechungen aufzeichnen, ihre Aufzeichnungen werden jedoch nicht an Stream übermittelt. Diese Aufzeichnungen werden stattdessen vorübergehend 21 Tage lang in AMS gespeichert. Eine Aufzeichnung muss während dieses Zeitraums heruntergeladen werden, bevor sie nach Ablauf dieser 21 Tage gelöscht wird.
-
-### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Mitarbeiter in Microsoft Stream dazu auffordern, den Richtlinien des Unternehmens zuzustimmen
-
-Wenn ein Microsoft Stream-Administrator [Unternehmensrichtlinien eingerichtet](/stream/company-policy-and-consent) hat und die Mitarbeiter diese Richtlinie vor dem Speichern von Inhalten anerkennen müssen, müssen die Benutzer dies tun, bevor sie in Microsoft Teams aufzeichnen können. Bevor Sie das Aufzeichnungsfeature in der Organisation ausrollen, müssen Sie sicherstellen, dass die Benutzer der Richtlinie zugestimmt haben.
+In diesem Abschnitt wird erläutert, wie die Aufzeichnung von Besprechungen in Teams über [Teams-Besprechungsrichtlinien](./assign-policies.md) eingerichtet und geplant wird.
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>Aktivieren oder Deaktivieren von „Cloud-Aufnahme“
 
@@ -106,52 +97,57 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 Verwenden Sie das folgende Cmdlet, um den Wert von AllowCloudRecording in der globalen Richtlinie zu ändern:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 ```
 
-</br>
-</br>
+|Szenario|Schritte|
+|--|--|
+| Ich möchte, dass alle Benutzer in meinem Unternehmen ihre Besprechungen aufzeichnen können. | <ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = True aufweist.<li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy oder eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = True.</ol> |
+| Ich möchte, dass die Mehrzahl meiner Benutzer in der Lage ist, ihre Besprechungen aufzuzeichnen, aber selektiv bestimmte Benutzer zu deaktivieren, die nicht dazu in der Lage sein sollen. | <ol><li>Stellen Sie sicher, dass GlobalCsTeamsMeetingPolicy den Eintrag AllowCloudRecording = True aufweist.<li>Die meisten Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = True.<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = False zugewiesen.</ol> |
+| Ich möchte, dass die Aufzeichnung zu 100% deaktiviert ist. | <ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist.<li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False. |
+| Ich möchte, dass die Aufzeichnung für die Mehrheit der Benutzer deaktiviert wird und bestimmte Benutzer, denen die Aufzeichnung erlaubt ist, selektiv aktiviert werden. | <ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist.<li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False.<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen. <ol> |
 
 
-|                                                                 Szenario                                                                 |                                                                                                                                                                         Schritte                                                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                    Ich möchte, dass alle Benutzer in meinem Unternehmen ihre Besprechungen aufzeichnen können                                    |                                                                     <ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = True aufweist<li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy oder eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = True </ol>                                                                     |
-| Ich möchte, dass die Mehrzahl meiner Benutzer in der Lage ist, ihre Besprechungen aufzuzeichnen, aber selektiv bestimmte Benutzer zu deaktivieren, die nicht dazu in der Lage sein sollen |        <ol><li>Stellen Sie sicher, dass GlobalCsTeamsMeetingPolicy den Eintrag AllowCloudRecording = True aufweist<li>Die meisten Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = True<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = False zugewiesen</ol>         |
-|                                                   Ich möchte, dass die Aufzeichnung zu 100% deaktiviert ist                                                   |                                                                <ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist<li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False                                                                 |
-|      Ich möchte, dass die Aufzeichnung für die Mehrheit der Benutzer deaktiviert wird und bestimmte Benutzer, denen die Aufzeichnung erlaubt ist, selektiv aktiviert werden       | <ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist<li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen <ol> |
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+<a name="bd-channel"></a>
+### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Blockieren oder Zulassen des Downloads von Aufzeichnungen von Kanalbesprechungen
 
-#### <a name="where-your-meeting-recordings-are-stored"></a>Wo Ihre Besprechungsaufzeichnungen gespeichert werden
+Diese Einstellung steuert, ob Kanalbesprechungen in einem Ordner "Aufzeichnungen" oder in einem Ordner "Aufzeichnungen\Nur anzeigen" im Kanal gespeichert werden.
 
-Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert. Derzeit ist das Feature für die Besprechungsaufzeichnung von Teams für Kunden ausgeschaltet, deren Teams-Daten inländisch gespeichert werden, falls Microsoft Stream im inländischen Datenbereich, in dem die Daten gespeichert werden, nicht verfügbar ist. Das Feature für Besprechungsaufzeichnungen kann für Kunden aktiviert werden, deren Daten im Inland gespeichert werden sollen, auch wenn Microsoft Stream in der inländischen Datenresidenzregion nicht verfügbar ist. Dies ist durch Zulassen der Speicherung von Aufzeichnungen in der nächstgelegenen geografischen Region für Microsoft Stream möglich. 
+Die beiden Werte für diese Einstellung sind:
 
-Wenn Ihre Teams-Daten inländisch gespeichert werden und Sie Besprechungsaufzeichnungen lieber im Inland speichern möchten, empfehlen wir, dass Sie dieses Feature deaktivieren und es erst dann wieder aktivieren, nachdem Microsoft Stream für Ihren Datenaufbewahrungsbereich in Ihrem Land bereitgestellt wurde. Wenn Sie das Feature für alle Benutzer in Ihrer Organisation deaktivieren möchten, deaktivieren Sie im Microsoft Teams Admin Center die Einstellung **Cloudaufnahme zulassen** in der globalen Teams-Besprechungsrichtlinie. Wenn Sie die Speicherung von Aufnahmen in der nächstgelegenen geografischen Region für Microsoft Stream jedoch weiterhin zulassen möchten, müssen Sie sowohl **Cloudaufnahme zulassen** als auch **Aufnahmespeicherung außerhalb der Region zulassen** aktivieren, bevor diese Änderung erfolgt.
+- **Zulassen** (Standard): Speichert Kanalbesprechungsaufzeichnungen in einem Ordner "Aufzeichnungen" im Kanal. Die Berechtigungen für die Aufzeichnungsdateien basieren auf den SharePoint Online-Berechtigungen des Kanals. Dies ist identisch mit jeder anderen Datei, die für den Kanal hochgeladen wird.
 
-Verwenden Sie zum Aktivieren von Aufzeichnungen in der Region in der globalen Richtlinie das folgende Cmdlet:
+- **Blockieren**: Speichert Kanalbesprechungsaufzeichnungen in einem Ordner "Aufzeichnungen\Nur anzeigen" im Kanal. Kanalbesitzer verfügen über vollständige Rechte für die Aufzeichnungen in diesem Ordner, aber Kanalmitglieder haben Lesezugriff, ohne herunterladen zu können.
+
+Konfigurieren Sie die Einstellung ChannelRecordingDownload in TeamsMeetingPolicy mithilfe von PowerShell. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
+
+Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der ChannelRecordingDownload standardmäßig aktiviert ist.
+
+Wenn ein Benutzer auf die globale Richtlinie zurückgesetzt werden soll, verwenden Sie das folgende Cmdlet, um eine bestimmte Richtlinienzuweisung für einen Benutzer zu entfernen:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-Nachfolgend finden Sie eine Zusammenfassung dessen, was passiert, wenn Sie die Besprechungsaufzeichnung aktivieren, wenn diese Änderung wirksam wird:
+Verwenden Sie das folgende Cmdlet, um den Wert von ChannelRecordingDownload in der globalen Richtlinie zu ändern:
 
-|Wenn Sie Besprechungsaufzeichnungen aktivieren,|Werden Besprechungsaufzeichnungen folgendermaßen gespeichert: |
-|---|---|
-|Bevor Microsoft Stream in Ihrem lokalen Datenaufbewahrungsbereich zur Verfügung steht |In der nächstgelegenen Microsoft Stream-Region|
-|Nachdem Microsoft Stream in Ihrem lokalen Datenaufbewahrungsbereich zur Verfügung steht |In Ihrem lokalen Datenaufbewahrungsbereich|
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
+```
 
-Bei neuen und vorhandenen Mandanten, die die Besprechungsaufzeichnung noch nicht aktiviert haben, werden neue Aufzeichnungen lokal gespeichert, nachdem Microsoft Stream im lokalen Datenaufbewahrungsbereich zur Verfügung steht. Allerdings werden alle Mandanten, die die Aufzeichnung von Besprechungen aktivieren, bevor Microsoft Stream im inländischen Datenaufbewahrungsbereich zur Verfügung steht, weiterhin den Microsoft Stream-Speicher für vorhandene und neue Aufzeichnungen verwenden, auch wenn Microsoft Stream im inländischen Datenaufbewahrungsbereich verfügbar gemacht wird.
-
-Um herauszufinden, in welcher Region Ihre Microsoft Stream-Daten gespeichert werden, klicken Sie in Microsoft Stream auf **?** Klicken Sie in der oberen, rechten Ecke auf **Über Microsoft Stream** und dann auf **Ihre Daten werden gespeichert in**.  Um mehr über die Regionen zu erfahren, in denen Microsoft Stream Daten speichert, lesen Sie [Microsoft Stream FAQ](/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
-
-Um mehr darüber zu erfahren, wo die Daten der Dienste von Microsoft 365 oder Office 365 gespeichert werden, lesen Sie [Wo befinden sich Ihre Daten?](https://products.office.com/where-is-your-data-located?rtc=1)
+> [!NOTE]
+> Die ChannelRecordingDownload-Einstellung ist nur in der Teams PowerShell-Modulversion 2.4.1 (Vorschau) oder höher verfügbar. Verwenden Sie den folgenden Befehl, um die neueste Vorschauversion des Moduls herunterzuladen:
+>
+>```powershell
+>Install-Module -Name MicrosoftTeams -Force -AllowClobber -AllowPrerelease
+>```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Aufzeichnungstranskription ein- oder ausschalten
 
 Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Option deaktivieren, stehen die Optionen **Suche** und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
 
 > [!NOTE]
-> Diese Transkription aufgezeichneter Besprechungen wird derzeit nur für Benutzer unterstützt, die die Sprache in Microsoft Teams auf Englisch festgelegt haben, und funktioniert nur, wenn in der Besprechung Englisch gesprochen wird. Die Transkriptionen werden zusammen mit Besprechungsaufzeichnungen werden im Microsoft Stream-Cloudspeicher gespeichert.
+> Diese Transkription aufgezeichneter Besprechungen wird derzeit nur für Benutzer unterstützt, die die Sprache in Microsoft Teams auf Englisch festgelegt haben, und funktioniert nur, wenn in der Besprechung Englisch gesprochen wird. Sie werden zusammen mit den Besprechungsaufzeichnungen in OneDrive for Business und SharePoint Online-Cloudspeicher gespeichert.
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 
@@ -178,26 +174,125 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 |Szenario|Schritte |
 |---|---|
-|Ich möchte, dass alle Benutzer in meinem Unternehmen beim Initiieren einer Besprechungsaufzeichnung transkribieren können. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = True aufweist <li>Alle Benutzer verfügen über die globale csTeamsMeetingPolicy oder eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = True. </ol>|
-|Ich möchte, dass die Mehrzahl meiner Benutzer in der Lage ist, ihre Besprechungen zu transkribieren, aber selektiv bestimmte Benutzer zu deaktivieren, die nicht dazu in der Lage sein sollen |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = True aufweist <li>Die Mehrheit der Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = True <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowTranscription = False zugewiesen </ol>|
-|Ich möchte, dass die Transkription der Aufzeichnung zu 100% deaktiviert ist |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = False aufweist <li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = False </ol>|
-|Ich möchte, dass die Transkription für die Mehrzahl der Benutzer deaktiviert wird, aber selektiv bestimmte Benutzer aktivieren, die in der Lage sind, Aufzeichnungen zu transkribieren |<ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist <li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen </ol>|
-|||
+|Ich möchte, dass alle Benutzer in meinem Unternehmen beim Initiieren einer Besprechungsaufzeichnung transkribieren können. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = True aufweist. <li>Alle Benutzer verfügen über die globale csTeamsMeetingPolicy oder eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = True. </ol>|
+|Ich möchte, dass die Mehrzahl meiner Benutzer in der Lage ist, ihre Besprechungen zu transkribieren, aber selektiv bestimmte Benutzer zu deaktivieren, die nicht dazu in der Lage sein sollen. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = True aufweist. <li>Die Mehrheit der Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = True. <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowTranscription = False zugewiesen. </ol>|
+|Ich möchte, dass die Transkription der Aufzeichnung zu 100% deaktiviert ist. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = False aufweist. <li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = False. </ol>|
+|Ich möchte, dass die Transkription für die Mehrzahl der Benutzer deaktiviert wird, aber selektiv bestimmte Benutzer aktivieren, die in der Lage sind, Aufzeichnungen zu transkribieren. |<ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist. <li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False. <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen. </ol>|
+
+
+## <a name="permissions-and-storage"></a>Berechtigungen und Speicher
+
+Besprechungsaufzeichnungen werden in OneDrive for Business und SharePoint Online-Cloudspeicher gespeichert. Der Speicherort und die Berechtigungen hängen vom Besprechungstyp und der Rolle des Benutzers in der Besprechung ab. Die auf die Aufzeichnung angewendeten Standardberechtigungen sind unten aufgeführt. Benutzer, die über vollständige Bearbeitungsrechte für die Videoaufzeichnungsdatei verfügen, können die Berechtigungen ändern und später bei Bedarf für andere freigeben.
+
+### <a name="non-channel-meetings"></a>Nicht-Kanalbesprechungen
+
+- Die Aufzeichnung wird in einem Ordner namens **Aufzeichnungen** im OneDrive for Business des Benutzers gespeichert, der auf „Aufzeichnen“ geklickt hat. 
+
+  Beispiel: **Aufzeichnungen**/<i>im OneDrive for Business des Aufzeichners</i>
+
+- Personen, die zur Besprechung eingeladen sind, mit Ausnahme externer Benutzer, erhalten automatisch die Berechtigung für die Aufzeichnungsdatei mit Anzeigezugriff, ohne diese herunterladen zu können.
+
+- Der Besprechungsbesitzer und die Person, die auf „Aufzeichnen“ geklickt hat, erhalten vollständigen Bearbeitungszugriff mit der Möglichkeit, Berechtigungen zu ändern und für andere Personen freizugeben.
+
+### <a name="channel-meetings"></a>Kanalbesprechungen
+
+Wenn `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` auf „Zulassen“ festgelegt ist (Standard):
+
+- Die Aufzeichnung in der Teamwebsite-Dokumentationsbibliothek wird in einem Ordner namens **Aufzeichnungen** gespeichert. 
+
+  Beispiel: <i>Name des Teams – Kanalname</i>/**Dokumente**/**Aufzeichnungen**
+
+- Das Mitglied, das auf Aufzeichnung geklickt hat, verfügt über Bearbeitungsrechte auf die Aufzeichnung.
+
+- Die Berechtigungen jedes anderen Mitglieds basieren auf den SharePoint Online-Berechtigungen des Kanals.
+
+Wenn `Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` auf "Blockieren" festgelegt ist:
+
+- Bei Kanalbesprechungen wird die Aufzeichnung in der Teamwebsite-Dokumentationsbibliothek in einem Ordner namens **Aufzeichnungen/Nur anzeigen** gespeichert. 
+
+  Beispiel: <i>Name des Teams – Kanalname</i>/**Nur Dokumente/Aufzeichnungen/Nur Anzeigen**
+
+- Kanalbesitzer verfügen über vollständige Bearbeitungs- und Downloadrechte für die Aufzeichnungen in diesem Ordner.
+
+- Kanalmitglieder haben nur Zugriff auf die Ansicht, ohne herunterladen zu können.
+
+Weitere Informationen zu bestimmten Besprechungstypen finden Sie in der folgenden Tabelle:
+
+| Besprechungstyp  | Wer hat auf "Aufzeichnen" geklickt?| Wo landet die Aufzeichnung? | Wer hat Zugriff? Lese/Schreibzugriff, Lesezugriff oder Freigabe  |
+|-------------|-----------------------|------------------------|------------------------|
+|1:1-Anruf mit internen Parteien             |Anrufer                 |Das OneDrive for Business-Konto des Anrufers                        |Der Anrufer ist der Besitzer und hat vollständige Rechte. <br /><br />Der Angerufene (wenn im selben Mandanten) verfügt über schreibgeschützten Zugriff. Kein Freigabezugriff. <br /><br /> Der Angerufene (wenn in einem anderen Mandanten) hat keinen Zugriff. Der Anrufer muss es für den Angerufenen freigeben.|
+|1:1-Anruf mit internen Parteien             |Angerufener                 |Das OneDrive for Business-Konto des Angerufenen                        |Der Angerufene ist der Besitzer und hat vollständige Rechte. <br /><br />Der Anrufer (wenn im selben Mandanten) verfügt über schreibgeschützten Zugriff. Kein Freigabezugriff. <br /><br />Der Anrufer (wenn in einem anderen Mandanten) hat keinen Zugriff. Der Angerufene muss es für den Anrufer freigeben.|
+|1:1-Anruf mit einem externen Anruf             |Anrufer                 |Das OneDrive for Business-Konto des Anrufers                        |Der Anrufer ist der Besitzer und hat vollständige Rechte.<br /> <br />Der Angerufene hat keinen Zugriff. Der Anrufer muss es für den Angerufenen freigeben.|
+|1:1-Anruf mit einem externen Anruf             |Angerufener                 |Das OneDrive for Business-Konto des Angerufenen                        |Der Angerufene ist der Besitzer und hat vollständige Rechte.<br /><br />Der Anrufer hat keinen Zugriff. Der Angerufene muss es für den Anrufer freigeben.|
+|Gruppenanruf                                 |Jedes Mitglied des Anrufs |Gruppenmitglied, das auf das OneDrive for Business-Konto der Aufzeichnung geklickt hat  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte. <br /><br /> Andere Mitglieder von demselben Mandanten verfügen über Leserechte. <br /><br /> Andere Gruppenmitglieder aus unterschiedlichen Mandanten verfügen über keine Rechte darauf.|
+|Spontane/Geplante Besprechung                    |Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung. <br /><br /> Alle anderen Mitglieder verfügen über Lesezugriff, ohne herunterladen zu können.|
+|Spontane/Geplante Besprechung                    |Anderes Besprechungsmitglied   |Besprechungsmitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. <br /><br />Der Organisator verfügt über Bearbeitungsrechte und kann freigeben.<br /><br /> Alle anderen Besprechungsmitglieder verfügen über Lesezugriff, ohne herunterladen zu können.|
+|Spontane/Geplante Besprechung mit externen Benutzern|Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung.<br /> <br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff, ohne herunterladen zu können. <br /><br /> Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
+|Spontane/Geplante Besprechung mit externen Benutzern|Anderes Besprechungsmitglied   |Mitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. Der Organisator verfügt über Bearbeitungsrechte und kann freigeben. <br /><br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff, ohne herunterladen zu können. <br /><br />Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
+|Kanalbesprechung                            |Kanalmitglied         |SharePoint Online-Speicherort von Teams für diesen Kanal                   |Wenn "Set-CsTeamsMeetingPolicy -ChannelRecordingDownload" auf "Zulassen" (Standard) festgelegt ist, verfügt das Mitglied, das auf "Aufzeichnen" geklickt hat, über Bearbeitungsrechte für die Aufzeichnung. Die Berechtigungen jedes anderen Mitglieds basieren auf den SharePoint Online-Berechtigungen des Kanals.<Br><Br>Wenn "Set-CsTeamsMeetingPolicy -ChannelRecordingDownload" auf "Blockieren" festgelegt ist, haben Kanalbesitzer Vollzugriff auf die Aufzeichnung, aber Kanalmitglieder haben Lesezugriff, ohne herunterladen zu können.|
+
+<a name="temp-storage"></a>
+### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>Temporärer Speicher, der nicht in OneDrive for Business und SharePoint Online hochgeladen werden kann
+
+Wenn eine Besprechungsaufzeichnung nicht in OneDrive for Business und SharePoint Online hochgeladen werden kann, steht sie vorübergehend 21 Tage lang aus Teams zum Download zur Verfügung, bevor sie gelöscht wird. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
+
+Besprechungsaufzeichnungen können aus den folgenden Gründen in diesem temporären Speicher abgelegt werden:
+
+- Für Nicht-Kanalbesprechungen, wenn der aufzeichnende Benutzer OneDrive for Business nicht eingerichtet hat oder das OneDrive for Business sein Speicherkontingent erreicht hat
+- Für eine Kanalbesprechung, wenn die SharePoint Online-Website ihr Speicherkontingent erreicht hat oder die Website noch nicht bereitgestellt wurde
+- Wenn bestimmte OneDrive for Business und SharePoint Online-Richtlinien aktiviert sind, schränken Sie Benutzer daran ein, Dateien hochzuladen, wenn sie sich nicht in bestimmten IP-Bereichen befinden usw.
+
+Die Aufzeichnung wird in diesem Fall im temporären Speicher aufbewahrt und sie wird von der Chat-Nachricht selbst beeinflusst. Daher führt das Löschen der Chatnachricht für die Aufzeichnung dazu, dass Benutzer nicht auf die Aufzeichnung zugreifen können. Es gibt zwei Szenarien, die sich hierauf auswirken können:
+
+- **Ein Benutzer löscht die Chatnachricht manuell** – In diesem Szenario können Benutzer, da die ursprüngliche Nachricht nicht mehr vorhanden ist, nicht mehr auf die Aufzeichnung zugreifen, und es sind keine weiteren Downloads mehr möglich. Die Aufzeichnung selbst wird jedoch u. U. noch für eine gewisse Zeit in den internen Systemen von Microsoft aufbewahrt (dabei wird der ursprüngliche Zeitraum von 21 Tagen nicht überschritten).
+
+- **Die Chatnachricht der Aufzeichnung wird über eine Aufbewahrungsrichtlinie für Chats gelöscht** – Aufzeichnungen zur temporären Speicherung sind direkt an die Chataufbewahrungsrichtlinie gebunden. Daher werden Aufzeichnungen im temporären Speicher von Teams standardmäßig 21 Tage aufbewahrt, bevor sie gelöscht werden. Wenn die Chatnachricht aufgrund von Aufbewahrungsrichtlinien für Chatnachrichten vor Ablauf der 21-Tage-Frist gelöscht wird, wird die Aufzeichnung ebenfalls gelöscht. Danach gibt es keine Möglichkeit, die Aufzeichnung wiederherzustellen.
 
 ### <a name="planning-for-storage"></a>Planung der Speicheranforderungen
 
-Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft Stream verfügen.  Lesen Sie [Übersicht über die Microsoft Stream-Lizenzierung](/stream/license-overview), um mehr über den im Abonnement enthaltenen Basisspeicher und den Erwerb zusätzlichen Speichers zu erfahren.
+Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft OneDrive for Business und SharePoint Online verfügen.  Lesen Sie [Festlegen des Standardspeicherplatzes für OneDrive for Business](/onedrive/set-default-storage-space) und [Verwalten von Speicherlimiten für SharePoint Online-Websites](/sharepoint/manage-site-collection-storage-limits), um den im Abonnement enthaltenen Basisspeicher zu verstehen und zu erfahren, wie Sie zusätzlichen Speicher erwerben können.
 
 ## <a name="manage-meeting-recordings"></a>Verwalten von Besprechungsaufzeichnungen
 
-Die Besprechungsaufzeichnungen gelten als mandanteneigener Inhalt. Wenn der Besitzer der Aufzeichnung das Unternehmen verlässt, kann der Administrator die Video-URL der Aufzeichnung in Microsoft Stream im Administratormodus öffnen. Der Administrator kann die Aufzeichnung löschen, die Metadaten der Aufzeichnung bearbeiten oder Berechtigungen für das Video der Aufzeichnung ändern. Erfahren Sie mehr über [Administratorfunktionen in Stream](/stream/manage-content-permissions).
+Besprechungsaufzeichnungen werden als Videodateien in OneDrive for Business und SharePoint Online gespeichert und folgen den Verwaltungs- und Governanceoptionen, die auf diesen Plattformen verfügbar sind. Lesen Sie [SharePoint Online-Governance (Übersicht)](/sharepoint/governance-overview), [OneDrive for Business Leitfaden für Unternehmen](/onedrive/plan-onedrive-enterprise) oder [OneDrive for Business Leitfaden für kleine Unternehmen](/onedrive/one-drive-quickstart-small-business), um weitere Informationen zu erhalten.
+
+Bei Besprechungen, die nicht über einen Kanal abgehalten werden, werden die Aufnahmen im OneDrive for Business des Aufzeichners gespeichert, so dass die Handhabung des Eigentums und der Aufbewahrung nach dem Ausscheiden eines Mitarbeiters dem normalen [OneDrive for Business- und SharePoint Online-Prozess](/onedrive/retention-and-deletion#the-onedrive-deletion-process) folgt.
+
+## <a name="closed-captions-for-recordings"></a>Untertitel für Aufzeichnungen
+
+Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen die [Aufzeichnungstranskription über Richtlinien aktivieren](#turn-on-or-turn-off-recording-transcription) um sicherzustellen, dass ihre Benutzer die Möglichkeit haben, Besprechungen mit Transkription aufzeichnen zu können.
+
+Untertitel helfen dabei, inklusive Inhalte für Zuschauer aller Fähigkeiten zu erstellen. Als Besitzer können Sie Untertitel in der Besprechungsaufzeichnung ausblenden, obwohl das Besprechungsprotokoll weiterhin in Teams verfügbar ist, es sei denn, Sie löschen es dort.
+
+Heute sind Untertitel für die Aufzeichnungsvideodatei mit dem Teams-Besprechungstranskript verknüpft. Dieser Link bleibt in den meisten Fällen für die Lebensdauer der Datei bestehen, kann aber unterbrochen werden, wenn die Videodatei innerhalb derselben OneDrive for Business- oder SharePoint Online-Site kopiert wird, was dazu führen würde, dass die Untertitel für die kopierte Videodatei nicht verfügbar sind.
+
+Zukünftige Änderungen an dem Link zwischen dem Transkript in Teams und der Aufzeichnung werden hier und in den Benachrichtigungen im Nachrichtencenter klargestellt. Wenn wir in Zukunft Änderungen vornehmen, stellen wir sicher, dass Aufzeichnungsdateien, die älter als 60 Tage sind, das Transkript aus der Besprechung als Beschriftungen anzeigen.
 
 > [!NOTE]
-> Weitere Informationen zum Verwalten von Aufzeichnungen und des Benutzerzugriffs finden Sie unter [Verwalten von Benutzerdaten in Microsoft Stream](/stream/managing-user-data) und [Berechtigungen und Datenschutz in Microsoft Stream](/stream/portal-permissions).
+> Es gibt nur englische Untertitel (Besprechungstranskription ist in GCC noch nicht verfügbar).
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Compliance und eDiscovery für Besprechungsaufzeichnungen
 
-Die Besprechungsaufzeichnungen werden in Microsoft Stream (Microsoft 365 und Office 365 Tier-C-konform) gespeichert. Um e-Discovery-Anforderungen für Compliance-Administratoren zu unterstützen, die an Besprechungen oder Anrufaufnahmen für Microsoft-Streams interessiert sind, steht die Meldung „Aufzeichnung abgeschlossen“ in der Funktionalität zur Inhaltssuche für Microsoft Teams zur Verfügung. Compliance-Administratoren können nach dem Stichwort „Aufzeichnung“ in der Betreffzeile des Elements in der Vorschau der Compliance-Inhaltssuche suchen und Besprechungen und Anrufaufnahmen in der Organisation entdecken. Eine Voraussetzung für die Anzeige aller Aufzeichnungen ist, dass sie in Microsoft Stream mit Administratorzugriff ausgestattet werden müssen. Erfahren Sie mehr über das [Zuweisen von Administratorberechtigungen in Stream](/stream/assign-administrator-user-role).
+### <a name="ediscovery"></a>eDiscovery
+
+Die Besprechungsaufzeichnungen werden in OneDrive for Business und SharePoint Online gespeichert, was mit Microsoft 365 und Office 365 Tier-D-kompatibel ist. Um e-Discovery-Anforderungen für Compliance-Administratoren zu unterstützen, die an Besprechungen oder Anrufaufnahmen interessiert sind, steht die Meldung „Aufzeichnung abgeschlossen“ in der Funktionalität zur Inhaltssuche für Microsoft Teams zur Verfügung. Compliance-Administratoren können nach dem Stichwort „Aufzeichnung“ in der Betreffzeile des Elements in der Vorschau der Compliance-Inhaltssuche suchen und Besprechungen und Anrufaufnahmen in der Organisation entdecken.
+
+Darüber hinaus kann die Videodatei der Besprechungsaufzeichnung über eDiscovery-Suchen nach Dateien auf SharePoint Online und OneDrive for Business gefunden werden.
+
+Weitere Informationen zu eDiscovery finden Sie im Artikel [eDiscovery-Lösungen für Microsoft 365](/microsoft-365/compliance/ediscovery)
+
+### <a name="retention-policies"></a>Aufbewahrungsrichtlinien
+
+Mithilfe der ProgID-Eigenschaft können Sie automatische Aufbewahrungsbezeichnungen nur auf Videodateien von Aufzeichnungen von Teams-Besprechungen anwenden. Weitere Informationen finden Sie unter [Automatisches Anwenden einer Aufbewahrungsbezeichnung für Teams-Besprechungsaufzeichnungen](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+
+### <a name="data-loss-prevention-dlp-policies"></a>Richtlinien zur Verhinderung von Datenverlust (DLP)
+
+Sie können DLP-Richtlinien auch über die ProgID-Eigenschaft auf Besprechungsaufzeichnungsdateien anwenden. Legen Sie in der DLP-Regel für Dateien in SharePoint Online und OneDrive for Business folgende Bedingungen fest:
+
+- Document-Eigenschaft = *ProgID*
+- Value = *Media.Meeting*
+
+Weitere Informationen zu DLP finden Sie im Artikel [Informationen zur Verhinderung von Datenverlust](/microsoft-365/compliance/dlp-learn-about-dlp)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

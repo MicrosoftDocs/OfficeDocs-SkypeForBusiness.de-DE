@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
-ms.translationtype: HT
+ms.openlocfilehash: b77f63afe0307d9dcf3c883d8b93242d26c7f7cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397558"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587244"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams- und Outlook-E-Mail-Integration
 
@@ -46,4 +46,4 @@ Benutzer erhalten automatisch E-Mails über verpasste, Aktionen erfordernde Akti
 
 Sie können das Cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) zusammen mit dem Parameter **SmtpActionableMessagesEnabled** verwenden, um Aktionen erfordernde E-Mails zu deaktivieren. Standardmäßig ist der Parameter **SmtpActionableMessagesEnabled** auf **true** festgelegt. Wenn Sie den Parameter auf **false** festlegen, werden Aktionen erfordernde E-Mail-Nachrichten in ganz Office 365 deaktiviert. Für Teams-Benutzer bedeutet dies, dass die Option **Antworten**, um direkt in Outlook zu antworten, in E-Mails über verpasste Aktivitäten nicht verfügbar ist. Stattdessen enthalten die E-Mails über verpasste Aktivitäten eine Option **In Teams antworten**, über die Benutzer in Teams antworten können.
 
-Weitere Informationen finden Sie unter [Aktionen erfordernde Nachrichten in Outlook und Office 365-Gruppen](https://docs.microsoft.com/outlook/actionable-messages/).
+Weitere Informationen finden Sie unter [Aktionen erfordernde Nachrichten in Outlook und Office 365-Gruppen](/outlook/actionable-messages/).

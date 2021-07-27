@@ -1,5 +1,5 @@
 ---
-title: Teams Fallstudie zu Contoso Voice
+title: 'Contoso-Fallstudie: Telefonsystem für ein multinationales Unternehmen'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams Voice Case Study for multi-national corporation
+description: 'Teams Sprachfallstudie für multinationale Unternehmen: Telefonsystem'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101031"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587144"
 ---
-# <a name="contoso-case-study-phone-system"></a>Contoso-Fallstudie: Telefonsystem
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso-Fallstudie: Telefonsystem für ein multinationales Unternehmen
 
 Je nach geografischem Standort und anderen Faktoren hatte Contoso Niederlassungen, die die folgenden Telefonielösungen verwendeten:
 
@@ -54,17 +54,17 @@ Die Wählgewohnheiten des Benutzers waren, einen Benutzer mit einem älteren Tel
 
 Contoso basierte auf der Entscheidung auf den folgenden Fragen:
 
-- F. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
+- Q. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
   A. Nein 
 
-- F. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br>
+- Q. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br>
   A. Nein 
 
-- F. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Ja (regulierte Länder) und Nein 
+- Q. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Ja (regulierte Länder) und Nein 
 
-- F. Müssen wir den ROI für SBCs bereitstellen lassen?<br> A. Ja und Nein  
+- Q. Müssen wir den ROI für SBCs bereitstellen lassen?<br> A. Ja und Nein  
 
-- F. Sind Microsoft PSTN-Anrufpläne in dieser Region verfügbar?<br> A. Ja und Nein 
+- Q. Sind Microsoft PSTN-Anrufpläne in dieser Region verfügbar?<br> A. Ja und Nein 
 
 Basierend auf den Antworten auf die Fragen hat sich Contoso für die folgenden Lösungen entschieden:
 
@@ -74,7 +74,7 @@ Basierend auf den Antworten auf die Fragen hat sich Contoso für die folgenden L
 
 Das folgende Diagramm zeigt die anfängliche Bereitstellung Skype for Business Enterprise-VoIP und zeigt, wie diese Bereitstellung sowohl zu Microsoft-Anrufplänen als auch zu Direct-Routing migriert wurde:
 
-![Diagramm, das die Vorher/Nach-Zustände zeigt](media/voice-case-study-1.png)
+![Diagramm zeigt die Vorher-/Nach-Zustände an.](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>Websitetyp B: Traditionelle Telefoniesysteme
 
@@ -82,14 +82,14 @@ Contoso hatte viele Niederlassungen, die alte Telefoniesysteme nutzten. Es gab e
 
 Contoso basierte auf der Entscheidung auf den folgenden Fragen:
 
-- F. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
+- Q. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
   A. Nein 
 
-- F. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br> A. Ja
+- Q. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br> A. Ja
 
-- F. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Nein 
+- Q. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Nein 
 
-- F. Ist der Anrufplan von Microsoft PSTN in unserer Region verfügbar?<br> A. Ja und Nein 
+- Q. Ist der Anrufplan von Microsoft PSTN in unserer Region verfügbar?<br> A. Ja und Nein 
 
 Basierend auf den Antworten auf die Fragen hat sich Contoso für die folgenden Lösungen entschieden: 
 
@@ -102,12 +102,12 @@ Basierend auf den Antworten auf die Fragen hat sich Contoso für die folgenden L
 Die folgenden Diagramme zeigen die ursprüngliche Legacy-Systembereitstellung mit Remotestandorten und die Migration zu einer Direct-Routingbereitstellung mit lokaler Medienoptimierung:
 
 **Ursprüngliche Legacybereitstellung**  
- ![ Diagramm, das die Vorher/Nach-Zustände zeigt](media/voice-case-study-2.png)
+ ![ Ein Diagramm zeigt die Vorher-/Nach-Zustände an.](media/voice-case-study-2.png)
 
 
 **Bereitstellung mit Direct Routing**
 
-![Diagramm, das die Vorher/Nach-Zustände zeigt](media/voice-case-study-3.png)
+![Ein Diagramm mit den Vorher-/Nach-Zuständen.](media/voice-case-study-3.png)
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Websitetyp C: Kombination aus Skype for Business Enterprise-VoIP herkömmlichen Telefoniesystemen
 
@@ -115,16 +115,16 @@ Contoso Skype for Business Enterprise-VoIP die Nummern der Benutzer befinden sic
 
 Contoso basierte auf der Entscheidung auf den folgenden Fragen:
 
-- F. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
+- Q. Müssen die von der lokalen Bereitstellung bereitgestellten Funktionen erhalten bleiben?<br>
   A. Nein 
 
-- F. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br> A. Nein 
+- Q. Müssen wir mit PbX-Systemen von Drittanbietern und anderen Telefoniegeräten zusammenarbeiten?<br> A. Nein 
 
-- F. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Nein 
+- Q. Müssen wir unseren aktuellen Drittanbieter beibehalten?<br> A. Nein 
 
-- F. Müssen wir den ROI für SBCs bereitstellen lassen?<br> A. Ja und Nein  
+- Q. Müssen wir den ROI für SBCs bereitstellen lassen?<br> A. Ja und Nein  
 
-- F. Ist der PstN-Anrufplan von Microsoft in dieser Region verfügbar?<br> A. Nein 
+- Q. Ist der PstN-Anrufplan von Microsoft in dieser Region verfügbar?<br> A. Nein 
 
 Auf der Grundlage der Antworten auf die Fragen hat Contoso folgende Punkte entschieden: 
 
@@ -137,21 +137,21 @@ Auf der Grundlage der Antworten auf die Fragen hat Contoso folgende Punkte entsc
 Die folgenden Diagramme zeigen die ursprüngliche Bereitstellung Skype for Business Enterprise-VoIP alten Telefoniesystems und die Migration zu einer gemischten Bereitstellung mithilfe von Direct Routing:
 
 **Ursprüngliche gemischte Bereitstellung** 
- ![ Diagramm, das vor dem Zustand angezeigt wird](media/voice-case-study-4.png)
+ ![ Diagramm 1 mit dem Zustand "Vorher".](media/voice-case-study-4.png)
 
 **Gemischte Bereitstellung mit Direct-Routing** 
- ![ Diagramm, das vor dem Zustand angezeigt wird](media/voice-case-study-4a.png)
+ ![ Diagramm 2 mit dem Zustand "Vorher".](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>Anrufpläne
 
 Um die Konfigurationsanforderungen für Anrufpläne zu ermitteln, überprüfte Contoso die grundlegenden [Bereitstellungsentscheidungen für einen Anrufplan.](calling-plan-landing-page.md#core-deployment-decisions) Die daraus resultierenden Entscheidungen wurden getroffen: 
 
-- F. Benötigen meine Benutzer Auslandsrufe?<br> A. Ja 
+- Q. Benötigen meine Benutzer Auslandsrufe?<br> A. Ja 
 
-- F. Verfügen meine Benutzer jeweils über eine direkte nach innen gerichtete Telefonnummer?<br> A. Nicht heute. Alle aktivierten Benutzer erhalten eine Did-Funktion. 
+- Q. Verfügen meine Benutzer jeweils über eine direkte nach innen gerichtete Telefonnummer?<br> A. Nicht heute. Alle aktivierten Benutzer erhalten eine Did-Funktion. 
 
-- F. Möchte ich die Anrufer-ID maskieren oder deaktivieren?<br> A. Die Anrufer-ID für einen Benutzer wird für die lokale Nummer von Contoso maskiert. 
+- Q. Möchte ich die Anrufer-ID maskieren oder deaktivieren?<br> A. Die Anrufer-ID für einen Benutzer wird für die lokale Nummer von Contoso maskiert. 
 
 
 ## <a name="direct-routing"></a>Direktes Routing

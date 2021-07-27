@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78215457177689b549112a19a9477fdd01c91de2
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282512"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586994"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 
@@ -55,7 +55,7 @@ Um zu veranschaulichen, wie sich Ihre Upgradezeit noch ändern kann Skype for Bu
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan: Erstellen Sie Ihren Upgradeplan, um sicherzustellen, dass Ihre Organisation für langfristigen Erfolg eingerichtet ist.
 
-| Schritt |  | Zusammenfassung | Ressource |
+| Schritt |&nbsp;| Zusammenfassung | Ressource |
 |------|--|---------|----------|
 | **1** | **Definieren der Projektbeteiligten** | Weisen Sie die Mitglieder des Projektteams zu, die für den Upgradeerfolg zur Berücksichtigung berechtigt sind. | [Benennen Sie Ihre Projektbeteiligten ein.](upgrade-enlist-stakeholders.md) |
 | **2** | **Definieren der Projektvision und des Projektumfangs** | Entwerfen Sie Ihre "Gesamtansicht" und den aktuellen Projektumfang, um eine Blaupause für Ihre Upgradereise zu erstellen. | [Project Sehvermögen](upgrade-define-project-scope.md#project-vision) <br> <br>[Project-Bereich](upgrade-define-project-scope.md#project-scope) |
@@ -67,7 +67,7 @@ Um zu veranschaulichen, wie sich Ihre Upgradezeit noch ändern kann Skype for Bu
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Vorbereiten: Bewerten der Bereitschaft Ihrer Organisation für Teams
 
-| Schritt |  | Zusammenfassung | Ressource |
+| Schritt |&nbsp;  | Zusammenfassung | Ressource |
 |------|--|---------|----------|
 | **1** | **Bewerten Ihrer Umgebung und Abschließen Teams technischen Onboardings** | Stellen Sie sicher, dass Ihre Umgebung Teams, um die Benutzerfreundlichkeit zu optimieren und Ihr Upgrade im Laufe der Zeit zu vereinfachen. | [Bewerten Sie Ihre Umgebung, bevor Sie ein Upgrade auf Teams.](upgrade-plan-journey-evaluate-environment.md)<br><br> [Vorbereiten des Diensts auf das Upgrade auf Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Optimieren des Netzwerks für Teams, insbesondere für Echtzeitmedienszenarien** | Wenn Sie Audio, Video oder Besprechungen bereitstellen, gehen Sie wie im Folgenden zu sehen, um Ihr Netzwerk für diese Funktionalität zu optimieren. | [Vorbereiten Ihres Netzwerks für das Upgrade auf Microsoft Teams](prepare-network.md) |
@@ -78,7 +78,7 @@ Um zu veranschaulichen, wie sich Ihre Upgradezeit noch ändern kann Skype for Bu
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Pilot: Führen Sie ein Pilotprojekt aus, um zu bestätigen, dass Ihre Organisation bereit ist, und um ihre optimale Leistung zu Teams
 
-| Schritt |  | Zusammenfassung | Ressource |
+| Schritt | &nbsp; | Zusammenfassung | Ressource |
 |------|--|---------|----------|
 | **1** | **Gliederung der Pilot logistics** | Definieren Sie formale Pilotlogik, um die Bereitschaft Ihrer Organisation zum Upgrade oder zur Koexistenz zu überprüfen. | [Gliederung der Pilot logistics](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **Auswählen der Pilotteilnehmer und Testszenarien** | Identifizieren Sie Benutzer, die bei der Überprüfung von Teamszenarien helfen können, Teams Ihre Bereitschaft. | [Auswählen der Pilotteilnehmer und Testszenarien](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -89,7 +89,7 @@ Um zu veranschaulichen, wie sich Ihre Upgradezeit noch ändern kann Skype for Bu
 
 ### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Bereitstellen: Führen Teams in Koexistenz mit anderen Skype for Business
 
-| Schritt |  | Zusammenfassung | Ressource |
+| Schritt |&nbsp;  | Zusammenfassung | Ressource |
 |------|--|---------|----------|
 | **1** | **Ankündigung der offiziellen Einführung Teams** | Erzeugen Sie Spannung und Dynamik, indem Sie eine offizielle Einführungsankündigung senden, Teams fertig ist. | [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **Implementieren des Upgrades** | Die Schritte, die Sie ausführen, sind von der aktuellen Bereitstellung ihrer Skype for Business. | [Implementieren des Upgrades](upgrade-to-teams.md) |
@@ -102,7 +102,7 @@ Um zu veranschaulichen, wie sich Ihre Upgradezeit noch ändern kann Skype for Bu
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Upgrade: Implementieren Sie das Upgrade von Skype for Business auf Teams
 
-| Schritt |  | Zusammenfassung | Ressource |
+| Schritt |&nbsp;  | Zusammenfassung | Ressource |
 |------|--|---------|----------|
 | **1** | **Vergewissern Sie sich, dass Sie die oben beschriebenen Aktivitäten vor dem Upgrade abgeschlossen haben.** | Sorgen Sie für einen erfolgreichen Upgrade, indem Sie den Abschluss aller Planungs- und Vorbereitungsaktivitäten bestätigen. | Alle oben genannten |
 | **2** | **Initiieren der Kommunikation mit Benutzern in Ihrer ersten Upgradegruppe** | Benachrichtigen Sie Benutzer, dass Upgrades gestartet werden, und halten Sie sie während des gesamten Vorgangs auf dem Laufenden. | [Vorbereiten eines Plans zur Benutzerbereitschaft](upgrade-user-readiness.md) <br><br> [Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) |
@@ -116,7 +116,7 @@ Um zu veranschaulichen, wie sich Ihre Upgradezeit noch ändern kann Skype for Bu
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>Betrieb: Messen Sie den Erfolg Ihres Upgrades.
 
-| Schritt |  | Zusammenfassung | Ressource |
+| Schritt | &nbsp; | Zusammenfassung | Ressource |
 |------|--|---------|----------|
 | **1** | **Bewerten des Anfangserfolgs für das Upgrade** | Bewerten Sie den Fortschritt mit den Zielen, die Sie in der Phase vor dem Upgrade festgelegt haben. | [Project Ziele](upgrade-define-project-scope.md#project-goals) |
 | **2** | **Implementieren eines Entschärfungsplans für Ziele, die nicht im Plan liegen** | Definieren Sie Entschärfungsstrategien oder Kurskorrekturstrategien für nicht erfüllte Ziele. | [Project Ziele](upgrade-define-project-scope.md#project-goals) |

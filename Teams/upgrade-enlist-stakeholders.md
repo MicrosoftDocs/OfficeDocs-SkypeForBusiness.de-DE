@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282522"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586964"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
 
@@ -40,7 +40,7 @@ Von der Implementierung von Projektlieferliefern bis zur verantwortlichen Verant
 
 Optional können Sie ein Lenkungsgremium erstellen. Manchmal enden große oder komplexere Projekte bei "zu vielen Kochs in der Küche", wodurch es zu Trennungen zwischen den Projektbeteiligtengruppen kommt. Für diese Projekte können Sie ein Lenkungsgremium bilden. Ein Lenkungsgremium ist verantwortlich für die Entscheidungsfindung, die strategische Aufsicht, die Unterstützung von Projektinitiativen und – falls erforderlich – das Entfernen von Blockierern. Weitere Informationen zur Implementierung eines Lenkungsgremiums finden Sie im [Handbuch des Lenkungsgremiums.](./envision-steering-committee-complete-guide.md)
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte | <ul><li>Wer sind die richtigen Personen, als Ihr Projektbeteiligtenteam für dieses Projekt zu dienen?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Berücksichtigen Sie den Umfang Ihres Projekts, und weisen Sie die relevanten Projektbeteiligten zu.</li><li>Verwenden Sie die folgende Tabelle als Richtlinie, beachten Sie jedoch, dass diese Liste nicht allumfassend ist.<br><strong>Tipp</strong><br>Erstellen Sie eine Matrix mit verantwortlicher und verantwortlicher Berücksichtigung und informierter (Consulted-Consulted-Informed, [RACI),](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) um diejenigen weiter von denen zu unterscheiden, die zur Verantwortung gezogen werden sollen, und diejenigen, die nur in einem bestimmten Bereich des Projekts informiert werden müssen.</li> |
@@ -63,7 +63,7 @@ Optional können Sie ein Lenkungsgremium erstellen. Manchmal enden große oder k
 | Telefonieleiter | Bietet Einblicke in das Design und die Implementierung von Telefonie |
 | Service Owner/Quality Champion | Er ist der Teams des Benutzers, einschließlich der Qualität der Benutzeroberfläche. |
 | Lead für Desktops und Geräte | Bietet Eingaben für Clients, Geräte und Desktop-Apps |
-| IT Pro/Mandantenadministrator | Stellt sicher, dass die Netzwerkbereitschaft und Microsoft 365 Admin Center-Konfigurationen an Ort und Stelle sind. |
+| IT Pro/Mandantenadministrator | Stellt sicher, dass die Netzwerkbereitschaft und Microsoft 365 Admin Center sind. |
 | Support-/Helpdeskleiter | Verwaltet die Bereitschaft Ihres Support desks |
 | Change Management Lead | Für das Programm zur Verwaltung von Benutzerwechseln und zur Einführung zuständig |
 | Marketing Lead | Designen und Implementieren von Kommunikationskampagnen |

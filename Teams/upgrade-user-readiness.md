@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dfc2be330f0890a73bdfa34077c910e7cfc3e84
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282712"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587224"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Vorbereiten eines Plans zur Benutzerbereitschaft
 
@@ -43,7 +43,7 @@ Ein optimaler Benutzerbereitschaftsplan beinhaltet, wie Sie mit Ihren Benutzern 
 > [!Tip]
 > Laden Sie [das Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) für Vorlagen zur Benutzerbereitschaft, z. B. Kommunikations- und Benutzerumfragen, sowie ein Beispiel für einen Upgradeprojektplan und einen Pilottestplan herunter.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wie können Sie einen Bereitschaftsplan erstellen, um die Akzeptanz der neuen Lösung durch die Benutzer zu erleichtern und zu beschleunigen?</li><li>Verfügen Sie über die richtigen Bewusstseins-, Schulungs- und Supportressourcen, die sich an der Fähigkeit Ihrer Benutzer, mit Änderungen um umgehen zu können, und der von Ihnen definierten Benutzerperson richten?</li></ul> |
 | ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verwenden Sie die nachstehende Liste, um Ideen für Ihren Bereitschaftsplan zu entwickeln. Wählen Sie die relevantesten Aktivitäten aus ( oder fügen Sie eigene hinzu), um einen für Ihre Organisation optimierten Bereitschaftsplan zu entwerfen. Denken Sie daran, eine Kombination aus breitgefächerten Kampagnen (für Ihre gesamte Organisation) und gezielten Kampagnen (für Verzögerungen oder bestimmte Personenas) zu verwenden, um maximale Ergebnisse zu erzielen.</li></ul>|

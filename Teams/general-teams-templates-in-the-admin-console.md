@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684562"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574050"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Verwenden allgemeiner Teamvorlagen im Admin Center
 
@@ -34,7 +34,7 @@ Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die 
 
 In diesem Artikel stellen wir die einzelnen Teamvorlagen vor und empfehlen, sie zu verwenden.
 
-Dieser Artikel ist für Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Finanzorganisation verantwortlich sind. Sie haben den Teams-Dienst bereits in Ihrer Organisation bereitgestellt. Wenn Sie noch kein Rollout ihrer Teams, lesen Sie zunächst die Informationen unter Rollout [Microsoft Teams.](./deploy-overview.md)
+Dieser Artikel ist für Sie, wenn Sie für das Planen, Bereitstellen und Verwalten mehrerer Teams in der gesamten Organisation verantwortlich sind. Sie haben den Teams-Dienst bereits in Ihrer Organisation bereitgestellt. Wenn Sie noch kein Rollout ihrer Teams, lesen Sie zunächst die Informationen unter Rollout [Microsoft Teams.](./deploy-overview.md)
 
 Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen.](get-started-with-teams-templates-in-the-admin-console.md)
 
@@ -44,7 +44,7 @@ Zentralisieren Sie die Zusammenarbeit für Ihr Krisenteam über Geschäftseinhei
 
 | Basisorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |--|----------------------------------------------------------|
-| Zusammenarbeiten an globalen Krisen oder Veranstaltungen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Geschäftskontinuität</li><li>Externe Kommas</li><li>Genehmigungsanforderung</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Update für Geschäftsleitung</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
+| Zusammenarbeiten an globalen Krisen oder Veranstaltungen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Geschäftskontinuität</li><li>Externe Kommas</li><li>Genehmigungen anforderung</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Update für Geschäftsleitung</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="adopt-office-365"></a>Übernehmen Office 365

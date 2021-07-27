@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise, Plan E1, E3 und E4. '
-ms.openlocfilehash: 54b24f2e3debf58305214bbc48dac56babcfc681
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 44f55fff23a048a85ad220e03a24af58f099833e
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238473"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495165"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 und E4
 
@@ -40,8 +40,10 @@ Wenn Sie den Plan [Office 365 Enterprise E1,](https://products.office.com/busine
 |**Audiokonferenz** <br/> Kaufen Sie eine **Lizenz für Audiokonferenzen** für jede Person, die Einwahlkonferenzen planen oder hosten wird. Attendees do not need licenses. <br/> |**Audiokonferenzen** Add-On <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
 |**Gebührenfreie Nummern für den Einwahlzugriff auf Ihre Besprechungen und die Möglichkeit, aus Besprechungen heraus zu wählen, um jemanden hinzuzufügen, indem sie eine beliebige Telefonnummer in der Welt anrufen** <br/> |[Kommunikationsguthaben](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Telefonsystem** <br/> |1.  Office 365-Telefonsystem-Add-On <br/> 2. Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Cloudvoicemail** <br/> |Kaufen Sie Exchange Online Plan 2 für E1- und E4-Pläne. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
+|**Cloud-Voicemail**<sup>1</sup> <br/> |Kaufen Sie Exchange Online Plan 2 für E1- und E4-Pläne. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
 |**Anrufpläne** <br/> |1.  Telefonsystem-Add-On <br/> 2. [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365): Sie können diesen nur erwerben, nachdem Sie das **Telefonsystem** Add-On gekauft haben. <br/> |
+
+<sup>1</sup> Für lokale Benutzer. Weitere Informationen finden Sie unter [Cloud-Voicemail für lokale Benutzer.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
  > [!IMPORTANT]
  > Office 365 E4-Lizenzen wurden offiziell eingestellt. Weitere Details [finden Sie unter Office 365 Enterprise E4 wichtige](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) Informationen für Ihre Kunden.
@@ -71,7 +73,7 @@ Der E3-Plan ist Teil Ihres Action Packs. So kaufen Sie die Add-Ons **Telefonsyst
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Warum sehe ich die Option zum Kaufen von Add-Ons nicht?
 <a name="bkmk_how"> </a>
 
-In einigen Fällen wird die Option zum Kaufen Skype for Business Add-Ons im Microsoft 365 Admin Center nicht angezeigt.
+In einigen Fällen wird die Option zum Kaufen von add-ons Skype for Business in der Microsoft 365 Admin Center.
 
 - **Sie haben Microsoft 365 Business Standard über GoDaddy erworben.** In diesem Fall können Sie keine Add-Skype for Business kaufen. Sie müssen zum E3-Plan wechseln (der von GoDaddy nicht verkauft wird), und sie können sie dann kaufen. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

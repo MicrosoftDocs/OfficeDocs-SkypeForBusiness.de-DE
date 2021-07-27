@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: 571bc53925bb807d11c16d72f25ad247fe9496b3
+ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408754"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596393"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 
@@ -157,7 +157,7 @@ Informationen hierzu finden Sie unter [Informationen zum Microsoft 365-Abonnemen
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Wie lange die Teams Exploratory-Umgebung verfügbar ist
 
-Seit Anfang 2021 ist Teams Exploratory für alle Neukunden als 12-Monats-Abonnement (ab der ersten Benutzeranmeldung) verfügbar. Das neue Teams Exploratory-Abonnement beginnt, wenn sich der erste Benutzer in einer Organisation für Teams Exploratory anmeldet, und läuft nach 12 Monaten ab. Das Ablaufdatum gilt für alle Benutzer in demselben Mandanten, wobei die 12-Monats-Frist ab dem Anmeldedatum des ersten Benutzers beginnt.
+Teams Exploratory ist als 12-monatiges Abonnement (ab der ersten Benutzeranmeldung) für alle neuen Kunden verfügbar. Das neue Teams Exploratory-Abonnement beginnt, wenn sich der erste Benutzer in einer Organisation für Teams Exploratory anmeldet, und läuft nach 12 Monaten ab. Das Ablaufdatum gilt für alle Benutzer in demselben Mandanten, wobei die 12-Monats-Frist ab dem Anmeldedatum des ersten Benutzers beginnt.
 
 > [!NOTE]
 > Das Enddatum für die Teams Exploratory-Umgebung wird auf Organisationsebene konfiguriert, d. h. es gilt für alle Benutzer in derselben Organisation. Beispiel: Benutzer 1 meldet sich am 1. Januar 2021 für das Abonnement an. Dadurch wird als Enddatum für das Abonnement der 31. Dezember 2021 festgelegt. Benutzer 2 meldet sich am 1. Oktober 2021 für das Abonnement an. Benutzer 2 kann Teams Exploratory zwei Monate lang verwenden, denn das Enddatum für ihn ist ebenfalls der 31. Dezember 2021, da er das Abonnement der gleichen Organisation wie Benutzer 1 verwendet.

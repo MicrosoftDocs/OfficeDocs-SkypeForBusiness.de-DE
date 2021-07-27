@@ -1,5 +1,5 @@
 ---
-title: Planen der anrufdatenkonnektor-| Überwachung der Hybridanalyse des Anrufqualitätsdashboards
+title: Plan Call Data Connector | Überwachung der Hybridanalyse des Anrufqualitätsdashboards
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -12,16 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung Skype for Business Online-Telemetrietools zur Überwachung einer lokalen Implementierung in einem Hybridszenario.
-ms.openlocfilehash: 7b6076224280446b7fc52c505fe5fc3ab8d41be4
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856354"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509766"
 ---
 # <a name="plan-call-data-connector"></a>Planen des Anrufdatenconnectors
 
 ## <a name="overview"></a>Übersicht
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 In diesem Thema werden Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung von Skype for Business Server Call Data Connector beschrieben. Weitere Informationen zum Konfigurieren des Anrufdatenkonnektors finden Sie unter [Configure Call Data Connector](configure-call-data-connector.md).
 
@@ -36,17 +38,17 @@ Mit dem Anrufdaten-Connector können Sie die folgenden Aufgaben mithilfe eines e
 
 - Weisen Sie Helpdesk- und Administratorrollen für die Anrufanalyse zu, damit Sie Helpdesk-Mitarbeitern ermöglichen können, ihre Zuständigkeitsbereiche anzuzeigen und zu beheben.
 
-Mit dem Anrufdatenkonnektor übergibt der Skype for Business Server Anrufdaten an den Clouddienst, sodass Sie die Tools Skype for Business Onlineanrufanalyse und Anrufqualitätsdashboard (Call Quality Dashboard, CQD) nutzen können, wie im folgenden Diagramm dargestellt:
+Mit dem Anrufdaten-Connector übergibt der Skype for Business Server Anrufdaten an den Clouddienst, sodass Sie die Tools Skype for Business Onlineanrufanalyse und Anrufqualitätsdashboard (Call Quality Dashboard, CQD) nutzen können, wie im folgenden Diagramm dargestellt:
 
 ![SfB Cloud-Voicemail](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 Der Server sendet sowohl QoE-Daten (Quality of Experience) als auch KDS-Daten (Call Detail Recording) an den Onlinedienst.
 
-Mit den Anrufanalyse- und CQD-Tools können Sie die Qualität von Anrufen überwachen und Verbindungsprobleme mit Microsoft Teams und Skype for Business Diensten wie folgt beheben:
+Mit den Anrufanalyse- und CQD-Tools können Sie die Qualität von Anrufen überwachen und Verbindungsprobleme mit Microsoft Teams und Skype for Business Diensten wie folgt behandeln:
 
 - Die Anrufanalyse konzentriert sich auf Qualitätsprobleme bei bestimmten Anrufen. Es enthält detaillierte Informationen zu Anrufen und Besprechungen für jeden Benutzer in einem Skype for Business Konto.  Mit der Anrufanalyse können Sie einem Helpdesk-Operator Berechtigungen zuweisen, der dann Anrufe überwachen kann, ohne Zugriff auf den Rest des Skype for Business Admin Centers zu haben.
 
-- Das Anrufqualitäts-Dashboard konzentriert sich auf die Netzwerkleistung und Probleme in einer Organisation. Skype for Business Administratoren und Netzwerktechniker dieses Tool verwenden, um die Netzwerkleistung zu beheben und zu optimieren.
+- Das Anrufqualitäts-Dashboard konzentriert sich auf die Netzwerkleistung und Probleme in einer Organisation. Skype for Business Administratoren und Netzwerktechniker dieses Tool zur Problembehandlung und Optimierung der Netzwerkleistung verwenden.
 
 Weitere Informationen finden Sie unter ["Anrufanalyse" und "Anrufqualitäts-Dashboard".](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
@@ -58,7 +60,7 @@ Natürlich möchten Sie möglicherweise einige Daten zur Anrufqualität lokal be
 
 Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype for Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zum Bereitstellen von Skype for Business Server und unterstützten Topologien finden Sie unter [Topologiegrundlagen.](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) Zum Konfigurieren des Anrufdatenkonnektors müssen Sie:
 
-- Hybridkonnektivität aktivieren. Wenn Sie bereits Skype for Business Server bereitgestellt haben und den Anrufdatenkonnektor aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und Ihrer Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
+- Hybridkonnektivität aktivieren. Wenn Sie bereits Skype for Business Server bereitgestellt haben und den Anrufdatenkonnektor aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
 
    Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365.](configure-hybrid-connectivity.md)
 
@@ -67,7 +69,7 @@ Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype f
   - Skype for Business Server Administrator
   - Microsoft 365 oder Office 365 globaler Administrator
 
-- Wenn dies noch nicht geschehen ist, aktivieren Sie das Anrufqualitäts-Dashboard, wie unter [Aktivieren und Verwenden des Anrufqualitäts-Dashboards für Microsoft Teams und Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard)beschrieben.
+- Wenn sie dies noch nicht getan haben, aktivieren Sie das Anrufqualitäts-Dashboard, wie unter [Aktivieren und Verwenden des Anrufqualitäts-Dashboards für Microsoft Teams und Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard)beschrieben.
 
 - Aktivieren Sie den Front-End-Pool für die Überwachung mit lokalen LCSCdr- und QoEMetrics-Datenbanken. Ohne dies verfügt der Anrufdatenkonnektor nicht über Metrikendaten, mit denen er arbeiten kann.
 

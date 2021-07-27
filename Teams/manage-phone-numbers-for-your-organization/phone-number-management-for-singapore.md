@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Singapur für Microsoft Teams.
-ms.openlocfilehash: 1935f692fc7e236d47ba79cfa1963abe7b2d1f27
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 250e3bb0822b7587d276725517b85858d844b52e
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130390"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509756"
 ---
 # <a name="phone-number-management-for-singapore"></a>Telefon der Nummerverwaltung für Singapur
 
@@ -37,12 +37,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. |In Singapur können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen [und an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Neue Telefonnummernanforderung für Singapur (v.1.0) (en-sg).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
-|Übertragen Sie uns Ihre Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Singapur (alle Nummern) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Die Übertragung von Nummern kann in diesem Markt je nach Komplexität des Ports ein bis sechs Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. |In Singapur können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an die PTSN wenden, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für Singapur (v.1.0) (en-sg).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
+|Übertragen Sie uns Ihre Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Singapur (alle Nummern) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>Füllen Sie das Feld aus, [und wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/><br/>Die Übertragung von Nummern kann in diesem Markt je nach Komplexität des Ports ein bis sechs Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
 |Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md)|
-
    
 ## <a name="related-topics"></a>Verwandte Themen
 
