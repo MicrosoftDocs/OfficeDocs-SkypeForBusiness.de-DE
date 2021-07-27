@@ -17,18 +17,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Anweisungen zum Außerbetriebsetzen Ihrer lokalen Skype for Business Umgebung.
-ms.openlocfilehash: 820a5b55fe7bf2b5e2351fff253990fd794c562d
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 420ca75e12737ce85c2fd03031f3e1b8fd9ca625
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574220"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510796"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Wenn Ihre Organisation Teams mit einer lokalen Bereitstellung von Skype for Business Server verwendet, können Sie diese Umgebungen vollständig in die Cloud migrieren und dann ihre lokale Bereitstellung von Skype for Business Server zurückziehen. 
+Wenn Ihre Organisation Teams oder Skype for Business Online mit einer lokalen Bereitstellung von Skype for Business Server verwendet, können Sie diese Umgebungen vollständig in die Cloud migrieren und dann ihre lokale Bereitstellung von Skype for Business Server zurückziehen. 
 
 > [!NOTE]
 > Vor der Außerbetriebnahme Ihrer lokalen Umgebung müssen Sie [die Hybridkonnektivität](configure-hybrid-connectivity.md) zwischen Ihrer lokalen Bereitstellung und Microsoft 365 konfigurieren. Nach dem Konfigurieren der Hybridkonnektivität können Sie Benutzer in die Cloud migrieren, während Sie ihre Besprechungen aus der lokalen Bereitstellung migrieren und alle Kontakte von Skype for Business Server zu Teams migrieren. Das Konfigurieren der Hybridkonnektivität ist ein erforderlicher Schritt, um Benutzer aus der lokalen Umgebung in die Cloud zu migrieren und die vollständige Teams Funktionalität sicherzustellen.

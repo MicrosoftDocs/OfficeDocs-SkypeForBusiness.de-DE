@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Attribute nach der Außerbetriebnahme Ihrer lokalen Umgebung verwalten.
-ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574320"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510646"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet werden sollen
 
@@ -59,7 +59,7 @@ Wenn Sie Änderungen an der SIP-Adresse eines Benutzers oder an der Telefonnumme
 
   ![Tool für Active Directory-Benutzer und -Computer](../media/disable-hybrid-1.png)
   
--  Wenn der Benutzer vor der Verschiebung ursprünglich keinen Wert für die lokale Bereitstellung `msRTCSIP-Line` hatte, können Sie die Telefonnummer mithilfe des Parameters - `onpremLineUri` im Cmdlet ["Set-CsUser"](/powershell/module/skype/set-csuser?view=skype-ps) im Teams PowerShell-Modul ändern.
+-  Wenn der Benutzer vor der Verschiebung ursprünglich keinen Wert für die lokale Bereitstellung `msRTCSIP-Line` hatte, können Sie die Telefonnummer mithilfe des Parameters - `onpremLineUri` im Cmdlet ["Set-CsUser"](/powershell/module/skype/set-csuser?view=skype-ps) im Skype for Business Online PowerShell-Modul ändern.
 
 Diese Schritte sind für neue Benutzer, die nach dem Deaktivieren der Hybridbereitstellung erstellt wurden, nicht erforderlich, und diese Benutzer können direkt in der Cloud verwaltet werden. Wenn Sie mit der Verwendung dieser Methode und dem Verlassen der msRTCSIP-Attribute in Ihrem lokalen Active Directory vertraut sind, können Sie einfach die lokalen Skype for Business Server neu abbilden. Wenn Sie jedoch lieber alle msRTCSIP-Attribute löschen und eine herkömmliche Deinstallation von Skype for Business Server durchführen möchten, verwenden Sie Methode 2.
 
@@ -140,13 +140,13 @@ Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, 
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. Warten Sie, bis die Benutzerbereitstellung abgeschlossen ist. Sie können den Fortschritt der Benutzerbereitstellung überwachen, indem Sie den folgenden Teams PowerShell-Befehl ausführen. Der folgende Teams PowerShell-Befehl gibt ein leeres Ergebnis zurück, sobald der Vorgang abgeschlossen ist.
+7. Warten Sie, bis die Benutzerbereitstellung abgeschlossen ist. Sie können den Fortschritt der Benutzerbereitstellung überwachen, indem Sie den folgenden Skype for Business Online PowerShell-Befehl ausführen. Der folgende Skype for Business Online PowerShell-Befehl gibt ein leeres Ergebnis zurück, sobald der Prozess abgeschlossen ist.
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. Führen Sie den folgenden Teams PowerShell-Befehl aus, um Telefonnummern zuzuweisen und Benutzer für Telefonsystem zu aktivieren:
+8. Führen Sie den folgenden Skype for Business Online-PowerShell-Befehl aus, um Telefonnummern zuzuweisen und Benutzer für Telefonsystem zu aktivieren:
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, 
    > [!Note]
    >  Wenn Sie weiterhin über Skype for Business Endpunkte (entweder Skype Clients oder Telefone von Drittanbietern) verfügen, sollten Sie auch -HostedVoiceMail auf $true festlegen. Wenn Ihre Organisation nur Teams Endpunkte für voIP-aktivierte Benutzer verwendet, gilt diese Einstellung nicht für Ihre Benutzer. 
 
-9. Vergewissern Sie sich, dass Benutzer mit Telefonsystem Funktionalität ordnungsgemäß bereitgestellt wurden. Der folgende Teams PowerShell-Befehl gibt ein leeres Ergebnis zurück, sobald der Vorgang abgeschlossen ist.
+9. Vergewissern Sie sich, dass Benutzer mit Telefonsystem Funktionalität ordnungsgemäß bereitgestellt wurden. Der folgende Skype for Business Online PowerShell-Befehl gibt ein leeres Ergebnis zurück, sobald der Prozess abgeschlossen ist.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,17 +187,15 @@ Diese Option erfordert zusätzlichen Aufwand und eine ordnungsgemäße Planung, 
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-
-    Teams PowerShell-Befehl:
+    Skype for Business Online-PowerShell-Befehl:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-
 12. Nachdem Sie alle Schritte in Methode 2 abgeschlossen haben, finden Sie weitere Schritte zum Entfernen ihrer Skype for Business Server lokalen Bereitstellung unter [Verschieben von hybriden Anwendungsendpunkten von der lokalen](decommission-move-on-prem-endpoints.md) Bereitstellung in die Onlinebereitstellung und Entfernen der lokalen [Skype for Business Server.](decommission-remove-on-prem.md)
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 - [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
 

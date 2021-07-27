@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: Inhaltssuche
             href: content-search.md
+          - name: Teams-Workflow in Advanced eDiscovery
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Überwachung
             href: audit-log-events.md
           - name: Kundenschlüssel
@@ -813,7 +815,7 @@ items:
                 href: rooms/rooms-manage.md
               - name: Wartung und Betrieb
                 href: rooms/rooms-operations.md
-              - name: Unterstützen von Teams in Ihrer Organisation
+              - name: Bekannte Probleme
                 href: rooms/known-issues.md
               - name: Geräte mit Azure Monitor
                 href: rooms/azure-monitor-manage.md
@@ -899,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: Verfügbarkeit nach Land und Region für Anrufpläne
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Direct Routing für Telefonsysteme
+          - name: Operator Connect
+            items:
+              - name: Plan für Operator Connect
+                href: operator-connect-plan.md
+              - name: Konfigurieren von Operator Connect
+                href: operator-connect-configure.md
+          - name: Direct Routing
             items:
               - name: Übersicht
                 href: direct-routing-landing-page.md
@@ -975,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: Direct Routing – Survivable Branch Appliance
                     href: direct-routing-survivable-branch-appliance.md
-          - name: Operator Connect
-            items:
-              - name: Plan für Operator Connect
-                href: operator-connect-plan.md
-              - name: Konfigurieren von Operator Connect
-                href: operator-connect-configure.md
       - name: Telefonnummern
         items:
           - name: Verwalten von Telefonnummern für Ihre Organisation
@@ -1469,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: Synchronisieren von SIS-Daten mit Insights
                 href: education-insights-sis-data-sync.md
+              - name: Verwalten des Benutzerzugriffs auf Insights
+                href: education-insights-manage-access.md
               - name: Erste Schritte mit Reflect
                 href: reflect.md
           - name: Aufgaben in Teams für Education
@@ -1485,13 +1489,13 @@ items:
             href: sku-reference-edu.md
       - name: Teams für Mitarbeiter mit direktem Kundenkontakt
         items:
-          - name: Schnellstart für Mitarbeiter mit direktem Kundenkontakt
+          - name: Schnellstarthandbuch für Mitarbeiter in Service und Produktion
             href: flw-quickstart.yml
-          - name: Skriptgestützte Bereitstellung für Mitarbeiter mit direktem Kundenkontakt
+          - name: Skriptgestützte Bereitstellung für Mitarbeiter in Service und Produktion
             href: flw-scripted-deployment.md
-          - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter mit direktem Kundenkontakt
+          - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter in Service und Produktion
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear für Microsoft Teams
+          - name: RealWear für Teams
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md

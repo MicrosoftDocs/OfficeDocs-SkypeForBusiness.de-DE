@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Interoperabilität zwischen Ihrer lokalen Bereitstellung und Teams konfigurieren.'
-ms.openlocfilehash: 5593dce3bef26e2b3f528618d88e4f87e1996596
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: a0e33c781e307785456698b20738dec2db02b8b4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574130"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510556"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Konfigurieren der Hybridbereitstellung von Skype for Business
 
@@ -35,11 +35,11 @@ Für die Konfiguration der Skype for Business-Hybridbereitstellung müssen Sie d
 - [Konfigurieren Sie Ihre lokale Umgebung so, dass sie Teams vertraut und den freigegebenen SIP-Adressraum aktiviert.](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)
 - [Aktivieren Sie den freigegebenen SIP-Adressraum in Ihrer Teams Organisation.](#enable-shared-sip-address-space-in-your-organization)
 
-Wenn Sie Exchange lokal haben, können Sie OAuth zwischen Ihren Exchange lokalen und Onlineumgebungen konfigurieren. Weitere Informationen finden Sie unter [Verwalten der Server-zu-Server-Authentifizierung in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) und Planen der Integration von Skype for Business und [Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
+Wenn Sie Exchange lokal haben, sollten Sie OAuth zwischen Ihren Exchange lokalen und Skype for Business Online-Umgebungen konfigurieren. Weitere Informationen finden Sie unter [Verwalten der Server-zu-Server-Authentifizierung in Skype for Business Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) und Planen der Integration von Skype for Business und [Exchange.](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>Konfigurieren Des lokalen Edgediensts für den Verbund mit Teams
 
-Der Partnerverbund ermöglicht Benutzern in Ihrer lokalen Bereitstellung die Kommunikation mit Teams Benutzern in Ihrer Organisation. Führen Sie zum Konfigurieren des Partnerverbunds das folgende Cmdlet in der Skype for Business Server-Verwaltungsshell aus:
+Der Partnerverbund ermöglicht Benutzern in Ihrer lokalen Bereitstellung die Kommunikation mit Teams und Skype for Business Onlinebenutzern in Ihrer Organisation. Führen Sie zum Konfigurieren des Partnerverbunds das folgende Cmdlet in der Skype for Business Server-Verwaltungsshell aus:
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -53,7 +53,7 @@ Wenn der Wert "-EnablePartnerDiscovery" auf $True festgelegt ist, verwendet Skyp
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams"></a>Konfigurieren Ihrer lokalen Umgebung zum Aktivieren des freigegebenen SIP-Adressraums mit Teams
 
-Außerdem müssen Sie Ihre lokale Umgebung so konfigurieren, dass sie Teams vertraut und den freigegebenen SIP-Adressraum aktiviert. Diese Konfiguration bedeutet, Teams benutzerkonten für den gleichen Satz von SIP-Domänen wie Ihre lokale Umgebung hosten können, und Nachrichten können zwischen lokal und online gehosteten Benutzern weitergeleitet werden. Sie konfigurieren einen Hostinganbieter mit ProxyFqdn=sipfed.online.lync.com wie unten beschrieben.
+Außerdem müssen Sie Ihre lokale Umgebung so konfigurieren, dass sie Teams vertraut und den freigegebenen SIP-Adressraum aktiviert. Diese Konfiguration bedeutet, dass Teams benutzerkonten für dieselbe Gruppe von SIP-Domänen wie Ihre lokale Umgebung hosten können und Nachrichten zwischen lokal und online gehosteten Benutzern weitergeleitet werden können. Sie konfigurieren einen Hostinganbieter mit ProxyFqdn=sipfed.online.lync.com wie unten beschrieben.
 
 Überprüfen Sie zunächst, ob Sie bereits über einen Hostinganbieter mit ProxyFqdn=sipfed.online.lync.com verfügen. Wenn einer vorhanden ist, entfernen Sie ihn mithilfe des folgenden Befehls in der Skype for Business Server Verwaltungsshell:
 
@@ -80,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > Das SharedSipAddressSpace-Attribut muss "True" bleiben, bis der Umstieg auf die Online-Bereitstellung abgeschlossen ist und keine Benutzer lokal bleiben. 
   
-Um eine Remote-PowerShell-Sitzung mit Teams einzurichten, müssen Sie zuerst das [Teams PowerShell-Modul](/microsoftteams/teams-powershell-install)installieren. Das Teams PowerShell-Modul ersetzt die Skype für das Busines Online Connector-Modul, das eingestellt wurde.
+Um eine Remote-PowerShell-Sitzung mit Teams (oder Skype for Business Online) einzurichten, müssen Sie zuerst das [Teams PowerShell-Modul](/microsoftteams/teams-powershell-install)installieren. Das Teams PowerShell-Modul ersetzt die Skype für das Busines Online Connector-Modul, das eingestellt wurde.
   
 Nach der Installation des Moduls können Sie eine Remotesitzung mit den folgenden Cmdlets einrichten:
    ```powershell
@@ -95,6 +95,6 @@ Weitere Informationen zum Einrichten einer Remote-PowerShell-Sitzung mit Teams u
   
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

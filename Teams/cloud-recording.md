@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486145"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565711"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Ich möchte, dass die Transkription der Aufzeichnung zu 100% deaktiviert ist. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = False aufweist. <li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = False. </ol>|
 |Ich möchte, dass die Transkription für die Mehrzahl der Benutzer deaktiviert wird, aber selektiv bestimmte Benutzer aktivieren, die in der Lage sind, Aufzeichnungen zu transkribieren. |<ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist. <li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False. <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen. </ol>|
 
+### <a name="terms-of-use-acceptance"></a>Zustimmung zu den Nutzungsbedingungen
+Wenn Ihre Organisation über eine Besprechungsaufzeichnungsrichtlinie verfügt, die Ihre Benutzer vor der Aufzeichnung einer Besprechung akzeptieren sollen, verwenden Sie das Feature [Azure Active Directory-Nutzungsbedingungen](/azure/active-directory/conditional-access/terms-of-use). Mit diesem Feature können Ihre Benutzer die Nutzungsbedingungen Ihrer Organisation akzeptieren, bevor sie Zugriff auf Microsoft Teams erhalten. Dieses Feature bezieht sich nicht spezifisch auf das Klicken auf die Aufzeichnungsschaltfläche, sondern auf die Verwendung von Teams oder anderen Microsoft 365 Apps insgesamt. Unser Vorschlag ist, die Informationen über Ihre Besprechungsaufzeichnungen zu Ihren allgemeinen Nutzungsbedingungen für die Verwendung von Teams oder Microsoft 365 hinzuzufügen. 
 
 ## <a name="permissions-and-storage"></a>Berechtigungen und Speicher
 
@@ -264,7 +266,7 @@ Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nu
 
 Untertitel helfen dabei, inklusive Inhalte für Zuschauer aller Fähigkeiten zu erstellen. Als Besitzer können Sie Untertitel in der Besprechungsaufzeichnung ausblenden, obwohl das Besprechungsprotokoll weiterhin in Teams verfügbar ist, es sei denn, Sie löschen es dort.
 
-Heute sind Untertitel für die Aufzeichnungsvideodatei mit dem Teams-Besprechungstranskript verknüpft. Dieser Link bleibt in den meisten Fällen für die Lebensdauer der Datei bestehen, kann aber unterbrochen werden, wenn die Videodatei innerhalb derselben OneDrive for Business- oder SharePoint Online-Site kopiert wird, was dazu führen würde, dass die Untertitel für die kopierte Videodatei nicht verfügbar sind.
+Heute sind Untertitel für die Videoaufzeichnungsdatei mit dem Teams-Besprechungstranskript verknüpft. Dieser Link bleibt in den meisten Fällen für die Lebensdauer der Datei erhalten, kann jedoch unterbrochen werden, wenn die Videodatei innerhalb derselben OneDrive for Business- oder SharePoint Online-Website kopiert wird, was dazu führen würde, dass Untertitel in der kopierten Videodatei nicht verfügbar sind.
 
 Zukünftige Änderungen an dem Link zwischen dem Transkript in Teams und der Aufzeichnung werden hier und in den Benachrichtigungen im Nachrichtencenter klargestellt. Wenn wir in Zukunft Änderungen vornehmen, stellen wir sicher, dass Aufzeichnungsdateien, die älter als 60 Tage sind, das Transkript aus der Besprechung als Beschriftungen anzeigen.
 

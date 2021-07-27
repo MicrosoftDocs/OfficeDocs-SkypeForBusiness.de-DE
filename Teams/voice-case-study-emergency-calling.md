@@ -1,5 +1,5 @@
 ---
-title: Teams Fallstudie zu Contoso Voice
+title: 'Teams Contoso-Fallstudie: Notrufe'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams Voice Case Study for multi-national corporation
+description: 'Teams Fallstudie für multinationale Unternehmen: Notrufe'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786028"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587474"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Contoso-Fallstudie: Notrufe
 

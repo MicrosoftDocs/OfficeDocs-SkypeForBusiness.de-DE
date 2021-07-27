@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7980b062d864b7354a329ce5743b0209d9a54e2a
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: 2a8883b48b2fc5efc33b3c4e0128cc5ac3d3c760
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565701"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587294"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Verwalten des Benutzerzugriffs auf Education Insights
 
@@ -37,8 +37,6 @@ Um Insights auf Organisationsebene bereitzustellen, müssen Sie [Daten vom Stude
 > [!TIP]
 > Wir empfehlen Ihnen, Insights für alle Ihre Bildungsleiter zu aktivieren, damit sie die Daten zum Verständnis der einzelnen Schulen zur Verfügung haben und in der Lage sind, Probleme schnell zu erkennen und ihre Dozenten zu unterstützen. Selbst wenn Sie ein Pilotprojekt ausführen, kann es dennoch hilfreich sein, die Einblicke für alle Bildungsleiter aktiviert zu lassen, die Kommunikation aber nur auf die Pilotgruppe von Benutzern auszurichten.
 
-
-
 ## <a name="manange-permissions"></a>Berechtigungen verwalten
 
 * Öffnen Sie die Insights-App, klicken Sie auf **Einstellungen**, und wählen Sie **Benutzerberechtigungen** aus.
@@ -46,7 +44,7 @@ Um Insights auf Organisationsebene bereitzustellen, müssen Sie [Daten vom Stude
 :::image type="content" source="media/insights-user-permissions.png" alt-text="Einstellungen":::
 
 > [!NOTE]
-> Wenn Sie eine Berechtigung für eine Organisationsebene bereitstellen, kann der Benutzer alle darunter liegenden Organisationseinheiten sehen. Geben Sie die Berechtigung nur denjenigen Bildungsleitern, die sie benötigen.
+> Wenn Sie eine Berechtigung für eine Organisationsebene bereitstellen, kann der Benutzer alle darunter liegenden Organisationseinheiten sehen.
 > 
 > Erteilen Sie Berechtigungen nur an die Schulleiter, die sie benötigen und nur für die Organisationseinheiten, für die sie verantwortlich sind. Wenn Sie nicht sicher sind, ob für eine bestimmte Organisation eine Benutzerberechtigung erforderlich ist, wenden Sie sich an die Fachleute für den Datenschutz in Ihrer Bildungseinrichtung, z. B. Mitarbeiter im Rechts- oder Personalwesen.
 
@@ -56,6 +54,9 @@ Wenn Sie das [SDS V2.1-Dateiformat](/schooldatasync/sds-v2.1-csv-file-format) od
 
 > [!NOTE]
 > Wenn einem Benutzer eine Rolle zugewiesen wird, erhält er automatisch die richtigen Berechtigungen, um die für ihn relevanten Daten zu sehen.
+>
+> Wenn ein Benutzer nicht mehr einer Rolle angehört, wird seine Berechtigung für diese Rolle automatisch widerrufen (obwohl er möglicherweise noch über individuelle Berechtigungen verfügt).
+
 
 * Klicken Sie bei Bedarf auf die Registerkarte **rollenbasierte Berechtigungen**.
 
@@ -67,13 +68,14 @@ Wenn Sie das [SDS V2.1-Dateiformat](/schooldatasync/sds-v2.1-csv-file-format) od
   
 * Klicken Sie für jede Rolle auf das Stiftsymbol, um die Berechtigungsstufe auszuwählen. Der Standard ist, dass die Rolle keine Berechtigung zum Anzeigen von Insights hat.
 * Wählen Sie die Berechtigungsstufe aus – **Daten für ihre Organisation anzeigen** oder **Keine**.
+
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Bereich für rollenbasierte Berechtigungen":::
+  
+  Wenn ein Benutzer, der eine differenziertere Berechtigungsstufe benötigt, in der Liste angezeigt wird, passen Sie seine Rolle und/oder Organisation im [importierten Daten aus Ihrem SIS](education-insights-sis-data-sync.md) an, und [erteilen Sie ihm individuelle Berechtigungen](#grant-individual-permission-to-a-user) (falls erforderlich).
+
 * Klicken Sie auf **Änderungen speichern**.
 
-  Diese Berechtigungsstufe wird jetzt automatisch jedem neuen Benutzer mit dieser Rolle und Organisationsebene zugewiesen. Der Benutzer sieht die Daten für alle Organisationseinheiten auf seiner Hierarchieebene und darunter.
-  
-  Wenn ein Benutzer in der Liste angezeigt wird, der eine differenziertere Berechtigungsstufe benötigt, passen Sie diese in „Individuelle Berechtigungen“ an.
-  
-  Wenn ein Benutzer nicht mehr einer Rolle angehört, wird seine Berechtigung für diese Rolle automatisch widerrufen (obwohl er möglicherweise noch über individuelle Berechtigungen verfügt).
+  Diese Berechtigungsstufe wird jetzt automatisch jedem neuen Benutzer mit dieser Rolle und Organisationsebene zugewiesen. Der Benutzer sieht die Daten für alle Organisationseinheiten auf seiner Hierarchieebene und darunter.  
 
 
 ## <a name="individual-permissions"></a>Individuelle Berechtigungen
@@ -100,4 +102,7 @@ Verwenden Sie individuelle Berechtigungen, um die Berechtigung für einen Benutz
   * **Alle** bedeutet, dass der Benutzer alle Organisationseinheiten auf allen Ebenen sieht. Dies wird sehr selten verwendet.
   * **Bestimmte Organisation** bedeutet, dass der Benutzer die ausgewählte Organisationseinheit und alle darunter liegenden Organisationseinheiten sieht. Beginnen Sie mit der Eingabe, und wählen Sie die Organisationseinheit aus der Liste aus.
   * **Keine** bedeutet, dass der Benutzer nur die Organisationseinheiten sieht, die automatisch durch seine Rolle zugewiesen werden (sofern vorhanden).
+  
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich "Individuelle Berechtigungen"":::
+
 * Klicken Sie auf **Änderungen speichern**, um zu speichern.

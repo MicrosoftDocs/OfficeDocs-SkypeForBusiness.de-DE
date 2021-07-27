@@ -1,5 +1,5 @@
 ---
-title: Anrufrichtlinien in Microsoft Teams
+title: 'Anrufrichtlinien in Microsoft Teams: Anruf- und Anruf weiterleitungsfeatures'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -20,15 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51653938"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596641"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Anrufrichtlinien in Microsoft Teams
-===================================
+#  <a name="calling-and-call-forwarding-in-teams"></a>Anrufen und Weiterleiten von Anrufen in Teams
 
 In Microsoft Teams steuern Anrufrichtlinien, welche Anruf- und Anruf weiterleitungsfunktionen für Benutzer verfügbar sind. Anrufrichtlinien bestimmen, ob ein Benutzer private Anrufe ausführen, Anrufanrufe oder gleichzeitiges Anrufen an andere Benutzer oder externe Telefonnummern verwenden, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, Delegierung für ein- und ausgehende Anrufe verwenden kann und so weiter.
 
@@ -106,6 +105,6 @@ Mit dieser Einstellung können Sie die Wartemusik aktivieren oder deaktivieren, 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)

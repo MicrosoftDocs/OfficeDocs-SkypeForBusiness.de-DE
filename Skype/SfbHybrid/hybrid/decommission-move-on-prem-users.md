@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Verschieben von Benutzern vor der Außerbetriebnahme einer Skype for Business lokalen Umgebung.
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420810"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510716"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Verschieben der erforderlichen Benutzer vor der Außerbetriebnahme Ihrer lokalen Umgebung
 
-In diesem Artikel wird beschrieben, wie Sie erforderliche Benutzer in die Microsoft-Cloud verschieben, bevor Sie Ihre lokale Skype for Business umgebung außer Betrieb setzen. Dies ist Schritt 1 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+In diesem Artikel wird beschrieben, wie Sie erforderliche Benutzer in die Microsoft-Cloud verschieben, bevor Sie Ihre lokale Skype for Business Umgebung außer Betrieb setzen. Dies ist Schritt 1 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
 
 - **Schritt 1. Verschieben Sie alle erforderlichen Benutzer aus der lokalen Umgebung in die Onlineumgebung.** (Dieser Artikel)
 
 - Schritt 2. [Deaktivieren Sie Ihre Hybridkonfiguration.](cloud-consolidation-disabling-hybrid.md)
 
-- Schritt 3: [Migrieren Sie Hybridanwendungsendpunkte von der lokalen Umgebung in die Onlineumgebung.](decommission-move-on-prem-endpoints.md) Beachten Sie, dass alle vorhandenen Hybridanwendungsendpunkte zwischen der Ausführung von Schritt 2 oben nicht gefunden werden können, bis Sie diesen Schritt abgeschlossen haben. Sie sollten planen, beide Schritte 2 und 3 im gleichen Wartungsfenster auszuführen.
+- Schritt 3: [Migrieren Sie Hybridanwendungsendpunkte von lokalen zu online.](decommission-move-on-prem-endpoints.md) Beachten Sie, dass alle vorhandenen Hybridanwendungsendpunkte zwischen der Ausführung von Schritt 2 oben nicht gefunden werden können, bis Sie diesen Schritt abgeschlossen haben. Sie sollten planen, beide Schritte 2 und 3 im gleichen Wartungsfenster auszuführen.
 
 - Schritt 4. [Entfernen Sie Ihre lokale Skype for Business Bereitstellung.](decommission-remove-on-prem.md)
 
@@ -41,9 +43,9 @@ In diesem Artikel wird beschrieben, wie Sie erforderliche Benutzer in die Micros
 
 Alle Benutzer, die Sie nach Abschluss der Migration weiterhin verwenden, müssen zuerst aus der lokalen Umgebung in die Cloud verschoben werden. Sie verschieben Benutzer mithilfe der lokalen Verwaltungstools. Ausführliche Informationen finden Sie unter [Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud.](move-users-between-on-premises-and-cloud.md)
 
-Es ist zwar möglich, dass Benutzer mit lokalen Skype for Business Server-Konten Teams verwenden, diese Benutzer verfügen jedoch nicht über die vollständige Funktionalität von Teams. Diese Benutzer können nicht mit anderen Benutzern zusammenarbeiten oder mit anderen Benutzern zusammenarbeiten, die weiterhin Skype for Business (online oder lokal) verwenden. Diese Benutzer können auch keine PSTN-Anrufe in ihrem Teams-Client empfangen. Daher müssen Sie diese Benutzer in die Online-App verschieben. Mit diesem Schritt wird außerdem sichergestellt, dass alle in Skype for Business Server erstellten Kontakte oder Besprechungen zu Teams migriert werden.
+Es ist zwar möglich, dass Benutzer mit lokalen Skype for Business Server-Konten Teams verwenden, diese Benutzer verfügen jedoch nicht über die vollständige Funktionalität von Teams. Diese Benutzer können nicht mit einem anderen Benutzer zusammenarbeiten oder einen Verbund mit anderen Benutzern herstellen, die weiterhin Skype for Business (online oder lokal) verwenden. Diese Benutzer können auch keine PSTN-Anrufe in ihrem Teams-Client empfangen. Daher müssen Sie diese Benutzer in die Online-App verschieben. Mit diesem Schritt wird außerdem sichergestellt, dass alle in Skype for Business Server erstellten Kontakte oder Besprechungen zu Teams migriert werden.
 
-Führen Sie das folgende Cmdlet in einem Skype for Business Server PowerShell-Fenster aus, um zu überprüfen, ob verbleibende Benutzer in Ihrer lokalen Bereitstellung vorhanden sind.
+Führen Sie das folgende Cmdlet in einem Skype for Business Server PowerShell-Fenster aus, um zu überprüfen, ob in Ihrer lokalen Bereitstellung noch Benutzer vorhanden sind.
 
 ```PowerShell
 Get-CsUser -Filter { HostingProvider -eq "SRV:"}
@@ -61,7 +63,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 
 Sie können jetzt [Ihre Hybridkonfiguration deaktivieren.](cloud-consolidation-disabling-hybrid.md)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 - [Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
 

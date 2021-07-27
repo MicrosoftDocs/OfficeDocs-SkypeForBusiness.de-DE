@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Anweisungen für die Außerbetriebnahme Skype for Business Server.
-ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: bdd38578d8ee98c26e6515c1cd4baa0ef8a825cf
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454338"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510786"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Entfernen Ihrer lokalen Skype for Business-Bereitstellung
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 In diesem Artikel wird beschrieben, wie Sie Ihre lokale Skype for Business Bereitstellung entfernen. Dies ist Schritt 4 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
 
@@ -40,7 +42,7 @@ In diesem Artikel wird beschrieben, wie Sie Ihre lokale Skype for Business Berei
 > [!IMPORTANT] 
 > Die Schritte in diesem Artikel gelten nur, wenn Sie Methode 2 zum Verwalten von Benutzerattributen verwenden, wie [hier](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)beschrieben. Wenn Sie Methode 1 verwenden, verwenden Sie nicht die in diesem Artikel beschriebenen Schritte, um Ihre Skype for Business Server zu entfernen. Stattdessen können Sie die Server neu abbilden.
 
-Zum Ausführen der Schritte in diesem Artikel benötigen Sie Berechtigungen für die Gruppe "Schemaadministratoren" und die Gruppe "Enterprise-Administrator". Sie benötigen diese Berechtigungen, um die Skype for Business Server Änderungen auf Schema- und Gesamtstrukturebene an Active Directory Domain Services rückgängig zu machen. Sie müssen auch Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
+Zum Ausführen der Schritte in diesem Artikel benötigen Sie Berechtigungen sowohl für die Gruppe "Schema-Admins" als auch für die Enterprise-Administratorgruppe. Sie benötigen diese Berechtigungen, um das Skype for Business Server Schema und Änderungen auf Gesamtstrukturebene an Active Directory Domain Services rückgängig zu machen. Sie müssen auch Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
 
 ## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Vorbereiten des Entfernens der Skype for Business Bereitstellung
@@ -127,7 +129,7 @@ Nach Abschluss aller vorbereitenden Schritte können Sie die Skype for Business 
    Disable-CsAdForest
    ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 - [Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
 

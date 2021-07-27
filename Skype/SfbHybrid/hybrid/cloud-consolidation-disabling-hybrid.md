@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren der Hybridbereitstellung zum Abschließen der Migration zu Teams Only
+title: Hybrid deaktivieren, um die Migration nur zu Teams durchzuführen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Artikel enthält ausführliche Schritte zum Deaktivieren der Hybridbereitstellung im Rahmen der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453644"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510506"
 ---
-# <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Deaktivieren Sie die Hybridkonfiguration, um die Migration zu Teams Abzuschließen. 
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Deaktivieren Sie die Hybridkonfiguration, um die Migration zu Teams abzuschließen. 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 In diesem Artikel wird beschrieben, wie Sie Ihre Hybridkonfiguration vor der Außerbetriebnahme Ihrer lokalen Skype for Business umgebung deaktivieren. Dies ist Schritt 2 der folgenden Schritte zum Außerbetriebsetzen Ihrer lokalen Umgebung:
 
@@ -36,7 +39,7 @@ In diesem Artikel wird beschrieben, wie Sie Ihre Hybridkonfiguration vor der Au�
 
 - **Schritt 2. Deaktivieren Sie die Hybridkonfiguration.** (Dieser Artikel)
 
-- Schritt 3: [Migrieren Sie Hybridanwendungsendpunkte von der lokalen Umgebung in die Onlineumgebung.](decommission-move-on-prem-endpoints.md)
+- Schritt 3: [Migrieren Sie Hybridanwendungsendpunkte von lokalen zu online.](decommission-move-on-prem-endpoints.md)
 
 - Schritt 4. [Entfernen Sie Ihre lokale Skype for Business Bereitstellung.](decommission-remove-on-prem.md)
 
@@ -48,7 +51,7 @@ In diesem Artikel wird beschrieben, wie Sie Ihre Hybridkonfiguration vor der Au�
 
 Nachdem Sie alle Benutzer von Skype for Business lokal auf Teams Nur in Microsoft 365 aktualisiert haben, können Sie die lokale Skype for Business Bereitstellung außer Betrieb gesetzt haben.
 
-Bevor Sie die lokale Skype for Business Bereitstellung außer Betrieb genommen und Hardware entfernen, müssen Sie die lokale Bereitstellung logisch von Microsoft 365 trennen, indem Sie die Hybridbereitstellung deaktivieren. Das Deaktivieren der Hybridbereitstellung besteht aus den folgenden vier Schritten:
+Bevor Sie die lokale Skype for Business Bereitstellung außer Betrieb genommen und Hardware entfernt haben, müssen Sie die lokale Bereitstellung logisch von Microsoft 365 trennen, indem Sie die Hybridbereitstellung deaktivieren. Das Deaktivieren der Hybridbereitstellung besteht aus den folgenden vier Schritten:
 
 1. [Aktualisieren Sie DNS-Einträge so, dass sie auf Microsoft 365 verweisen.](#update-dns-to-point-to-microsoft-365)
 
@@ -61,7 +64,7 @@ Bevor Sie die lokale Skype for Business Bereitstellung außer Betrieb genommen u
 Diese Schritte trennen ihre lokale Bereitstellung von Skype for Business Server logisch von Microsoft 365 und stellen sicher, dass Ihre Organisation vollständig Teams ist. Nachdem Sie diese Schritte abgeschlossen haben, können Sie Ihre lokale Skype for Business Bereitstellung außer Betrieb nehmen, indem Sie eine von zwei Methoden verwenden, auf die in ["Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet](cloud-consolidation-managing-attributes.md)werden sollen" verwiesen wird.
 
 > [!Important] 
-> Sobald diese logische Trennung abgeschlossen ist, weisen msRTCSIP-Attribute aus Ihrem lokalen Active Directory weiterhin Werte auf und werden weiterhin über Azure AD Verbinden in Azure AD synchronisiert. Wie Sie die lokale Umgebung außer Betrieb nehmen, hängt davon ab, ob Sie diese Attribute beibehalten oder zuerst aus Ihrem lokalen Active Directory löschen möchten. Beachten Sie, dass das Löschen der lokalen msRTCSIP-Attribute nach der Migration von der lokalen Bereitstellung zu einem Dienstverlust für Benutzer führen kann! Details und Nachteile der beiden Außerbetriebnahmeansätze werden unter ["Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet](cloud-consolidation-managing-attributes.md)werden" beschrieben.
+> Sobald diese logische Trennung abgeschlossen ist, weisen msRTCSIP-Attribute aus Ihrem lokalen Active Directory weiterhin Werte auf und werden weiterhin über Azure AD Verbinden mit Azure AD synchronisiert. Wie Sie die lokale Umgebung außer Betrieb nehmen, hängt davon ab, ob Sie diese Attribute beibehalten oder zuerst aus Ihrem lokalen Active Directory löschen möchten. Beachten Sie, dass das Löschen der lokalen msRTCSIP-Attribute nach der Migration von der lokalen Bereitstellung zu einem Dienstverlust für Benutzer führen kann! Details und Nachteile der beiden Außerbetriebnahmeansätze werden unter ["Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet](cloud-consolidation-managing-attributes.md)werden" beschrieben.
 
 ## <a name="update-dns-to-point-to-microsoft-365"></a>Aktualisieren von DNS, um auf Microsoft 365 zu verweisen
 
@@ -75,7 +78,7 @@ Ausführliche Informationen zum Aktualisieren von DNS-Einträgen finden Sie unte
 
 Mit diesem Schritt wird sichergestellt, dass jeder neue Benutzer in Ihrer Organisation immer als Teams Einziger Benutzer erstellt wird. 
 
-Wenn Sie versuchen, den Mandantenmodus in Teams Nur zu ändern, wird automatisch überprüft, ob lokale DNS-Einträge vorhanden sind, die möglicherweise in Schritt 1 übersehen wurden, und diese Einträge in der Ausgabe identifiziert. Das Ändern des Mandantenmodus in Teams Nur ist erst erfolgreich, wenn alle DNS-Einträge für Ihre Organisation aktualisiert wurden. 
+Wenn Sie versuchen, den Mandantenmodus in Teams Only zu ändern, wird automatisch überprüft, ob lokale DNS-Einträge vorhanden sind, die möglicherweise in Schritt 1 übersehen wurden, und diese Einträge in der Ausgabe identifiziert. Das Ändern des Mandantenmodus in Teams Nur ist erst erfolgreich, wenn alle DNS-Einträge für Ihre Organisation aktualisiert wurden. 
 
 Um den Mandantenmodus in Teams Führen Sie nur den folgenden Befehl aus einem Teams PowerShell-Fenster aus.
 
@@ -95,14 +98,14 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
  
 ## <a name="disable-communication-between-on-premises-and-microsoft-365"></a>Kommunikation zwischen lokalen und Microsoft 365 deaktivieren
 
-Führen Sie den folgenden Befehl in einem lokalen PowerShell-Fenster aus, um die Kommunikation zwischen der lokalen Umgebung und Microsoft 365 zu deaktivieren:
+Um die Kommunikation zwischen der lokalen Umgebung und Microsoft 365 zu deaktivieren, führen Sie den folgenden Befehl in einem lokalen PowerShell-Fenster aus:
 
 ```PowerShell
 Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 - [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
 

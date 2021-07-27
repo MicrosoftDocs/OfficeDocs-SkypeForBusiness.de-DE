@@ -15,12 +15,12 @@ description: Mithilfe dieses Leitfadens können Sie Microsoft Teams ihrer ersten
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ecf9a0f963a1be577149c585424c140df2abd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119354"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587364"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Erstes Microsoft Teams
 
@@ -113,7 +113,8 @@ Bei diesem Ausgangspunkt wird davon ausgegangen, dass Ihre Organisation derzeit 
 <td><p>Sie können interne und externe Besprechungen über Outlook-Add-In erstellen.</p>
 <p>Die PstN-Funktionen "Einwählen" und "Auswählen" sind mit den Lizenzen für Audiokonferenzen verfügbar.</p>
 <p>Teams Kalenderzugriff erfordert Exchange 2016 CU3+ lokal bereitgestellt mit Exchange eingerichteter Hybridbereitstellung: Erstellen einer Hybridbereitstellung mit dem <a href="/exchange/hybrid-deployment/deploy-hybrid">Hybridkonfigurations-Assistenten.</a> </p>
-<p>Stellen Sie zusätzlich Exchange Hybridkonfiguration die Exchange OAuth-Authentifizierung ein: Konfigurieren der OAuth-Authentifizierung zwischen Exchange <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> und Exchange Online Organisationen".</p>
+
+Richten Sie zusätzlich Exchange Hybridkonfiguration eine Exchange OAuth-Authentifizierung ein: Konfigurieren der OAuth-Authentifizierung zwischen Exchange [und Exchange Online Organisationen.](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help) 
 
 </p></td>
 </tr>
@@ -192,7 +193,7 @@ Bei diesem Ausgangspunkt wird davon ausgegangen, dass Ihre Organisation lokal Sk
 <p>Die PstN-Funktionen "Einwählen" und "Auswählen" sind mit den Lizenzen für Audiokonferenzen verfügbar.</p>
 <p>Teams Kalenderzugriff erfordert Exchange 2016 CU3+ – lokal bereitgestellt mit Exchange eingerichteten Hybridbereitstellung:<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Erstellen Sie eine Hybridbereitstellung mit dem Hybridkonfigurations-Assistenten.</a></p>
-<p>Der Administrator kann das Skype for Business Outlook-Add-In über das PreferredMeetingProviderForIslandsMode-Attribut der Teams-Besprechungsrichtlinie steuern:<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> set-csteamsmeetingpolicy</a>.</p> 
+<p>Der Administrator kann das Skype for Business Outlook-Add-In über das PreferredMeetingProviderForIslandsMode-Attribut der Teams-Besprechungsrichtlinie steuern:<a href="/powershell/module/skype/set-csteamsmeetingpolicy"> set-csteamsmeetingpolicy</a>.</p> 
 </td>
 </tr>
 <tr class="even">

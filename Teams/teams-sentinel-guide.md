@@ -19,19 +19,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712767"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587044"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel und Microsoft Teams
 
 > [!IMPORTANT]
 > Azure Sentinel hat jetzt einen integrierten Connector. Weitere Informationen finden Sie unter [Office 365-Protokolle mit Azure Sentinel verbinden](/azure/sentinel/connect-office-365). Dies ist der empfohlene Weg zur Sammlung dieser Protokolle und ersetzt die nachfolgend beschriebenen Sammlungsmethoden.
 
-Microsoft Teams spielt eine zentrale Rolle bei der Kommunikation und der Datenfreigabe in der Microsoft 365 Cloud. Da der Microsoft Teams-Dienst Berührungspunkte mit so vielen Technologien in der Cloud hat, kann er sowohl von menschlicher als auch automatisierter Analyse profitieren. Dies gilt sowohl für *die Suche in Protokollen* als auch für die *Echtzeit-Überwachung von Besprechungen*. Azure Sentinel bietet Administratoren diese Lösungen.
+Microsoft Teams spielt eine zentrale Rolle bei der Kommunikation und der Datenfreigabe in der Microsoft 365 Cloud. Da der Microsoft Teams-Dienst Berührungspunkte mit so vielen Technologien in der Cloud hat, kann er sowohl von menschlicher als auch automatisierter Analyse profitieren. Dies gilt sowohl für *die Suche in Protokollen* als auch für die *Echtzeit-Überwachung von Besprechungen*. Azure Sentinel bietet Administratoren diese Lösungen.
 
 > [!NOTE]
 > Benötigen Sie eine Auffrischung zu Azure Sentinel? Genau so etwas finden Sie in [diesem Artikel](/azure/sentinel/overview).
@@ -40,7 +40,7 @@ Microsoft Teams spielt eine zentrale Rolle bei der Kommunikation und der Datenfr
 
 Dieser Artikel befasst sich hauptsächlich mit dem Sammeln von Team-Aktivitätsprotokollen in Azure Sentinel.
 
-Sentinel ermöglicht Administratoren die Sicherheitsverwaltung an einem zentralen Ort. Dies schließt die Verwaltung von Folgendem ein:
+Mit Sentinel können Administratoren die Sicherheitsverwaltung an einem zentralen Ort durchführen. Dies umfasst die Verwaltung von:
 
 - Geräte von Drittanbietern
 - Microsoft Threat Protection
@@ -53,7 +53,7 @@ Sentinel-Arbeitsmappen und Runbooks ermöglichen eine *systematische* Sicherheit
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>Schritt 1: Sammeln von Microsoft Teams-Protokollen: Aktivieren von Überwachungsprotokollen in Microsoft 365
 
-Da Microsoft Teams Aktivitäten über Microsoft 365 protokolliert, werden Überwachungsprotokolle nicht standardmäßig gesammelt. Aktivieren Sie diese Funktion mithilfe [dieser Schritte](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Microsoft Teams-Daten werden in der Microsoft 365-Überwachung unter *Audit.General* erfasst.
+Da Microsoft Teams Aktivitäten über Microsoft 365 protokolliert, werden Überwachungsprotokolle nicht standardmäßig gesammelt. Aktivieren Sie diese Funktion mithilfe [dieser Schritte](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Microsoft Teams-Daten werden in der Microsoft 365-Überwachung unter *Audit.General* erfasst.
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>Schritt 2: Verbinden von Office 365-Protokollen mit Azure Sentinel
 
@@ -96,7 +96,7 @@ OfficeActivity
 | project TeamName, Operation, UserId, Members
 ```
 
-Führen Sie eine Abfrage dazu durch, ob die Rolle eines Benutzers in den letzten sieben Tagen für ein Team geändert wurde:
+Führen Sie eine Abfrage dazu durch, ob die Rolle eines Benutzers in den letzten sieben Tagen für ein Team geändert wurde:
 
 ```Kusto
 OfficeActivity
@@ -140,7 +140,7 @@ Sehen Sie sich für weitere Informationen die Abfrage im [Azure Sentinel-Communi
 
 ### <a name="expanding-your-threat-hunting-opportunities"></a>Erweitern Ihrer Möglichkeiten für die Bedrohungssuche
 
-Sie können Abfragen aus Ressourcen wie Azure Active Directory (Azure AD) oder anderen Office 365-Workloads mit Microsoft Teams-Abfragen kombinieren. Ein Beispiel hierfür ist die Verwendung der Informationen aus einer Suche nach verdächtigen Mustern in Azure AD-Anmeldeprotokollen (SigninLogs) bei der Suche nach Teams-Besitzern.
+Sie können Abfragen aus Ressourcen wie Azure Active Directory (Azure AD) oder anderen Office 365-Workloads mit Microsoft Teams-Abfragen kombinieren. Ein Beispiel hierfür ist die Verwendung der Informationen aus einer Suche nach verdächtigen Mustern in Azure AD-Anmeldeprotokollen (SigninLogs) bei der Suche nach Teams-Besitzern.
 
 ```Kusto
 let timeRange = 1d;
@@ -228,6 +228,6 @@ Sie sollten auch der [Azure Sentinel-Community](https://github.com/Azure/Azure-S
 
 [Registrieren Ihrer Anwendung in Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Aktivieren oder Deaktivieren der Überwachungsprotokollsuche](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[Aktivieren oder Deaktivieren der Überwachungsprotokollsuche](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [Was ist Azure Sentinel?](/azure/sentinel/overview)

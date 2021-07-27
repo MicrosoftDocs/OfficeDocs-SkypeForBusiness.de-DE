@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der Slowakei für Microsoft Teams.
-ms.openlocfilehash: 5569067ecc2556ed146b7f0e5df0389753aed464
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 12042588cc3253e99092961947edac19a75ad775
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147143"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510386"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Telefon der Nummerverwaltung für die Slowakei
 
@@ -37,10 +37,10 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. |In der Slowakei können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen [und an uns senden.](mailto:ptneu@microsoft.com)<br/><br/>[Neue Telefonnummernanforderung für Slowakei (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
-|Übertragen Sie uns Ihre Telefonnummern.   | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptneu@microsoft.com). <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden. |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Telefonnummern, die veröffentlicht bzw. nicht mehr veröffentlicht werden sollen. <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Senden Sie uns](mailto:ptneu@microsoft.com) eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. |In der Slowakei können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an die PTSN wenden, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für Slowakei (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
+|Übertragen Sie uns Ihre Telefonnummern.   | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Füllen Sie das Feld aus, [und wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden. |
+|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
 |Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>Verwandte Themen

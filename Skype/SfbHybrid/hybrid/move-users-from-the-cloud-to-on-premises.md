@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Erfahren Sie, wie Sie Benutzer von Skype for Business Online zu einer lokalen Bereitstellung verschieben.
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: Erfahren Sie, wie Sie Benutzer von Teams zu lokalen Bereitstellungen verschieben.
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509786"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574090"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Bei Bedarf können Sie einen Benutzer, der zuvor von der lokalen Bereitstellung in die Cloud migriert wurde (unabhängig davon, ob er Skype for Business Online oder nur Teams verwendet) zurück in die lokale Bereitstellung verschieben. Um Benutzer aus Skype for Business Online- oder TeamsOnly-Modus zurück in eine lokale Bereitstellung von Skype for Business Server zu verschieben, verwenden Sie entweder das cmdlet Move-CsUser oder die Skype for Business Server Systemsteuerung, die beide lokale Tools sind. Wenn Sie einen Benutzer zurück zu einer lokalen Bereitstellung verschieben, müssen Sie entscheiden, in welchen Pool der Benutzer verschoben werden soll.
+Bei Bedarf können Sie einen Benutzer, der zuvor von der lokalen Bereitstellung zu Teams zurück zur lokalen Bereitstellung migriert wurde, verschieben. Um Benutzer aus Skype for Business Online- oder TeamsOnly-Modus zurück in eine lokale Bereitstellung von Skype for Business Server zu verschieben, verwenden Sie entweder das cmdlet Move-CsUser oder die Skype for Business Server Systemsteuerung, die beide lokale Tools sind. Wenn Sie einen Benutzer zurück zu einer lokalen Bereitstellung verschieben, müssen Sie entscheiden, in welchen Pool der Benutzer verschoben werden soll.
 
 > [!Important]
 > Wenn sich der Benutzer zuvor im TeamsOnly-Modus befand und Sie eine frühere Version als Skype for Business Server 2015 mit CU8 verwenden, müssen Sie auch die TeamsOnly-Moduszuweisung von TeamsUpgradePolicy für diesen Benutzer entfernen. Lokale Benutzer dürfen nicht über den Modus "TeamsOnly" verfügen.  Nachfolgende Versionen von Skype for Business Server entfernen diese Zuordnung automatisch. Weitere Informationen finden Sie unter [Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
@@ -44,7 +44,7 @@ Bei Bedarf können Sie einen Benutzer, der zuvor von der lokalen Bereitstellung 
 
 Sobald Sie einen Benutzer aus der Cloud zurück in die lokale Bereitstellung verschieben:
 
-- Der Benutzer interagiert mit Ihrer Skype for Business Server Bereitstellung für seine Funktionalität. 
+- Der Benutzer interagiert aufgrund seiner Funktionalität mit Ihrer Skype for Business Server-Bereitstellung. 
 - Alle Kontakte, die in Skype for Business Online oder Teams vorhanden waren, werden zu Skype for Business Server migriert. Die beiden Sätze von Kontakten werden zusammengeführt und dann wieder zur lokalen Bereitstellung migriert.  Darüber hinaus bleiben Kontakte, die bereits in Teams vorhanden sind, in Teams.
 - Wenn der Benutzer auch Teams verwendet, kann er weder mit Skype for Business Benutzern zusammenarbeiten noch mit Benutzern in Verbundorganisationen kommunizieren.
 - Besprechungen in Skype for Business Online werden *nicht* automatisch zurück zu lokalen Besprechungen migriert. Benutzer sollten ihre Besprechungen entweder neu planen oder, falls gewünscht, das [Besprechungsmigrationstool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)verwenden.
@@ -90,6 +90,6 @@ Um die Zuweisung von TeamsUpgradePolicy durch den Benutzer zu entfernen, führen
 Alternativ können Sie zum Zuweisen einer anderen Instanz von TeamsUpgradePolicy, die nicht über "mode=TeamsOnly" verfügt, den Namen der gewünschten Instanz als Wert des PolicyName-Parameters im Cmdlet angeben. Um eine Liste der verfügbaren Instanzen von TeamsUpgradePolicy anzuzeigen, führen Sie Get-CsTeamsUpgradePolicy aus.
 
 
-## <a name="see-also"></a>Mehr dazu
+## <a name="see-also"></a>Siehe auch
 
 [Move-CsUser](/powershell/module/skype/move-csuser)

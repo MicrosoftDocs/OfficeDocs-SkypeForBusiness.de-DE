@@ -17,18 +17,18 @@ description: Hier finden Sie Informationen zu Richtlinien für die Aufzeichnung 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: c0f5f089bf4f1a0dc2c28a0b718d89b9200a4676
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739655"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587334"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Aufzeichnung von Liveereignisen in Microsoft Teams
 
 Es gibt mehrere Optionen zum Aufzeichnen eines Microsoft Teams Live-Ereignisses. Die Aufzeichnungsoptionen werden mithilfe von Aufzeichnungsrichtlinien festgelegt. In diesem Artikel werden die verschiedenen Einstellungen beschrieben.
 
-Die Aufzeichnungsoptionen werden mit dem [PowerShell-Befehl Set-CsTeamsMeetingBroadcastPolicy festgelegt.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+Die Aufzeichnungsoptionen werden mit dem [PowerShell-Befehl Set-CsTeamsMeetingBroadcastPolicy festgelegt.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
 
 ## <a name="scheduling-and-option-behaviors"></a>Terminplanung und Optionsverhalten
 
@@ -48,7 +48,7 @@ Beim Planen einer Liveereignisaufzeichnung gibt es zwei Organisatoroptionen:
 
 Im Rahmen der Übertragungsrichtlinie können Sie die Aufzeichnung für ein Liveereignis aktivieren oder deaktivieren.
 
-|                                 | Aufzeichnung für Produzenten und Moderatoren verfügbar | Aufzeichnung für Teilnehmer verfügbar |
+| &nbsp;| Aufzeichnung für Produzenten und Moderatoren verfügbar | Aufzeichnung für Teilnehmer verfügbar |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Immer aufzeichnen               | Deaktiviert und ausgewählt                                | Aktiviert und ausgewählt         |
 | Organisator kann Aufzeichnen oder nicht | Standardmäßig aktiviert und ausgewählt                  | Standardmäßig aktiviert und ausgewählt   |
