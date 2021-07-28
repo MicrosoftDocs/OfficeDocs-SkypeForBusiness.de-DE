@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: Inhaltssuche
             href: content-search.md
+          - name: Teams-Workflow in Advanced eDiscovery
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Überwachung
             href: audit-log-events.md
           - name: Kundenschlüssel
@@ -899,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: Verfügbarkeit nach Land und Region für Anrufpläne
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Direct Routing für Telefonsysteme
+          - name: Operator Connect
+            items:
+              - name: Plan für Operator Connect
+                href: operator-connect-plan.md
+              - name: Konfigurieren von Operator Connect
+                href: operator-connect-configure.md
+          - name: Direct Routing
             items:
               - name: Übersicht
                 href: direct-routing-landing-page.md
@@ -975,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: Direct Routing – Survivable Branch Appliance
                     href: direct-routing-survivable-branch-appliance.md
-          - name: Operator Connect
-            items:
-              - name: Plan für Operator Connect
-                href: operator-connect-plan.md
-              - name: Konfigurieren von Operator Connect
-                href: operator-connect-configure.md
       - name: Telefonnummern
         items:
           - name: Verwalten von Telefonnummern für Ihre Organisation
