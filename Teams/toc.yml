@@ -1487,13 +1487,13 @@ items:
             href: sku-reference-edu.md
       - name: Teams für Mitarbeiter mit direktem Kundenkontakt
         items:
-          - name: Schnellstart für Mitarbeiter mit direktem Kundenkontakt
+          - name: Schnellstarthandbuch für Mitarbeiter in Service und Produktion
             href: flw-quickstart.yml
-          - name: Skriptgestützte Bereitstellung für Mitarbeiter mit direktem Kundenkontakt
+          - name: Skriptgestützte Bereitstellung für Mitarbeiter in Service und Produktion
             href: flw-scripted-deployment.md
-          - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter mit direktem Kundenkontakt
+          - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter in Service und Produktion
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear für Microsoft Teams
+          - name: RealWear für Teams
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
