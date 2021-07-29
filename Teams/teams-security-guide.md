@@ -1,5 +1,5 @@
 ---
-title: Sicherheitshandbuch für Microsoft Teams
+title: Sicherheitshandbuch für Microsoft Teams – Übersicht
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edfa29dd1c2c3f5197b175f49d8d045967fc79f1
-ms.sourcegitcommit: d3c67eadf7cab167340d35b76401ff49fc7eb728
+ms.openlocfilehash: 5eeeaa0da5058abe4466cda3a063df96c5ea3098
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51749483"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587024"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams Online wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing S
 
 ## <a name="trustworthy-by-default"></a>Standardmäßig vertrauenswürdig
 
-Die Netzwerkkommunikation in Teams ist standardmäßig verschlüsselt. Da alle Server Zertifikate verwenden müssen und durch die Verwendung von OAUTH-, TLS- oder SRTP (Secure Real-Time Transport Protocol)-Protokollen sind alle Teams-Daten im Netzwerk geschützt.
+Die Netzwerkkommunikation in Microsoft Teams ist standardmäßig verschlüsselt. Da alle Server Zertifikate verwenden müssen und durch die Verwendung von OAUTH-, TLS- oder SRTP (Secure Real-Time Transport Protocol)-Protokollen sind alle Microsoft Teams-Daten im Netzwerk geschützt.
 
 ## <a name="how-teams-handles-common-security-threats"></a>So geht Teams mit allgemeinen Sicherheitsbedrohungen um
 
@@ -48,7 +48,7 @@ Dieser Abschnitt beschreibt die häufigsten Bedrohungen für die Sicherheit des 
 
 ### <a name="compromised-key-attack"></a>Angriff mit kompromittiertem Schlüssel
 
-Teams verwendet die PKI-Funktionen des Windows Server-Betriebssystems, um die für die Verschlüsselung für TLS-Verbindungen (Transport Layer Security) verwendeten Schlüsseldaten zu schützen. Die für die Medienverschlüsselungen verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
+Microsoft Teams verwendet die PKI-Funktionen des Windows Server-Betriebssystems, um die für die Verschlüsselung für TLS-Verbindungen (Transport Layer Security) verwendeten Schlüsseldaten zu schützen. Die für die Medienverschlüsselung verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
 
 ### <a name="network-denial-of-service-attack"></a>Denial-of-Service-Angriff auf Netzwerke
 
@@ -57,8 +57,7 @@ Bei einem Denial-of-Service-Angriff werden die normale Netzwerknutzung und -funk
 - Er kann ungültige Daten an Anwendungen und Dienste senden, die in dem angegriffenen Netzwerk ausgeführt werden, um ihre Funktionsweise zu beeinträchtigen.
 - Er kann große Datenmengen senden, um das System zu überlasten, bis es nicht mehr oder nur noch verzögert auf legitime Anforderungen reagiert.
 - Er kann die Spuren seines Angriffs vertuschen.
-- Er kann Benutzer vom Zugriff auf die Netzwerkressourcen abhalten.
-Teams mildert diese Angriffe, indem es den Azure DDOS-Netzwerkschutz ausführt und Client-Anforderungen von denselben Endpunkten, Subnetzen und Verbundentitäten einschränkt.
+- Er kann Benutzer vom Zugriff auf die Netzwerkressourcen abhalten. Microsoft Teams mildert diese Angriffe durch Ausführung des Azure DDOS-Netzwerkschutzes und indem Client-Anforderungen von denselben Endpunkten, Subnetzen und Verbundentitäten eingeschränkt werden.
 
 ### <a name="eavesdropping"></a>Abhörschutz
 
@@ -66,31 +65,31 @@ Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad
 
 Teams verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb von Microsoft 365 und Office 365, und verwendet zudem TLS von den Clients zum Dienst, wodurch dieser Angriff innerhalb der Zeitspanne, in der eine bestimmte Konversation angegriffen werden könnte, sehr schwierig bis unmöglich wird. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
 
-Das TURN-Protokoll wird für Echtzeit-Medienzwecke verwendet. Das TURN-Protokoll schreibt keine Verschlüsselung des Datenverkehrs vor, und die von ihm gesendeten Informationen sind durch die Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der Teams-Service stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenntegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen wenigen Elementen einschließlich eines TURN-Kennworts abgeleitet wurde, das niemals im Klartext gesendet wird. SRTP wird für den Medienverkehr verwendet und ist ebenfalls verschlüsselt.
+Das TURN-Protokoll wird für Echtzeit-Medienzwecke verwendet. Es schreibt keine Verschlüsselung des Datenverkehrs vor. Die Daten, die darüber versendet werden, unterliegen dem Schutz durch die Nachrichtenintegrität. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der Microsoft Teams-Dienst stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenintegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen Elementen abgeleitet wird, einschließlich eines TURN-Kennworts, welches niemals im Klartext gesendet wird. Wenn SRTP (Secure Real Time Protocol) verwendet wird, so wird auch der Mediendatenverkehr verschlüsselt.
 
-### <a name="identity-spoofing-ip-address-spoofing"></a>Identitätsspoofing (Spoofing der IP-Adresse)
+### <a name="identity-spoofing-ip-address-spoofing"></a>Identitätsspoofing (Spoofing von IP-Adressen)
 
-Spoofing liegt vor, wenn Angreifer unbefugt die IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermitteln und verwenden. Bei einem erfolgreichen Angriff kann der Angreifer sich so verhalten, als sei er der normalerweise durch die IP-Adresse identifizierte Benutzer.
+Spoofing liegt vor, wenn Angreifer unbefugt die IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermitteln und verwenden. Nach einem erfolgreichen Angriff können sich Angreifer als die normalerweise durch diese IP-Adresse identifizierte Entität ausgeben.
 
-TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Die Verwendung von TLS hindert einen Angreifer daran, das Spoofing der IP-Adresse für eine bestimmte Verbindung auszuführen (z. B. Mutual TLS-Verbindungen). Der Angreifer könnte jedoch die Adresse des DNS-Servers durch Spoofing ermitteln. Da die Authentifizierung in Teams jedoch mittels Zertifikaten erfolgt, verfügen Angreifer nicht über ein gültiges Zertifikat, das für das Spoofing für eine der Kommunikationsparteien notwendig ist.
+TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Die Verwendung von TLS verhindert IP-Spoofingangriffe auf bestimmte Verbindungen (z. B. Mutual TLS-Verbindungen). Jedoch könnte die Adresse des verwendeten DNS-Servers gespooft werden. Da die Authentifizierung in Microsoft Teams jedoch mittels Zertifikaten erfolgt, verfügen Angreifer über kein gültiges Zertifikat, das für das Spoofing im Hinblick auf eine der Kommunikationsparteien notwendig ist.
 
 ### <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
-Von einem "Man-in-the-Middle-Angriff" spricht man, wenn Angreifer die Kommunikation zwischen zwei Nutzern ohne deren Wissen über ihren eigenen Computer leiten. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dies kann passieren, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie den DNS-Eintrag (Domain Name System) so ändern können, dass Clients auf ihrem Weg zum Server über den Computer der Angreifer geleitet werden.
+Von einem „Man-in-the-Middle-Angriff“ spricht man, wenn Angreifer die Kommunikation zwischen zwei Nutzern ohne deren Wissen über ihren eigenen Computer leiten. Die Angreifer können die übertragenen Daten überwachen und lesen, ehe sie an den eigentlichen Empfänger weitergeleitet werden. Beide Kommunikationspartner senden unwissentlich Daten an die Angreifer und empfangen von ihnen Daten, sind aber dabei in dem Glauben, ausschließlich mit der beabsichtigten Person zu kommunizieren. Dies kann passieren, wenn es Angreifern gelingt, die Active Directory-Domänendienste so zu ändern, dass ihr Server als vertrauenswürdiger Server hinzugefügt wird, oder wenn sie den DNS-Eintrag (Domain Name System) so ändern können, dass Clients auf ihrem Weg zum Server über den Computer der Angreifer geleitet werden.
 
 Man-in-the-Middle-Attacken gegen den Mediendatenverkehr zwischen zwei Endpunkten, die an Teams Audio-, Video- und der Anwendungsfreigabe teilnehmen, werden durch die Verwendung von SRTP zum Verschlüsseln des Mediendatenstroms verhindert. Kryptografische Schlüssel werden zwischen den beiden Endpunkten über ein proprietäres Signalprotokoll (Teams Call Signal Protocol) verhandelt, das einen TLS 1.2 und AES-256 (im GCM-Modus)-verschlüsselten UDP/TCP-Kanal nutzt.
 
 ### <a name="rtp-replay-attack"></a>RTP Replay-Angriff
 
-Ein Replay-Angriff liegt vor, wenn eine gültige Medienübertragung zwischen zwei Parteien abgefangen und für böswillige Zwecke erneut übertragen wird. Teams verwendet SRTP in Verbindung mit einem sicheren Signalübermittlungsprotokoll, das die Übertragungen vor Angriffen mit Aufzeichnungswiederholung schützt. Mit SRTP können Empfänger einen Index der bereits empfangenen RTP-Pakete erstellen und jedes neue Paket mit den bereits enthaltenen vergleichen.
+Ein Replay-Angriff liegt vor, wenn in böswilliger Absicht eine gültige Medienübertragung zwischen zwei Parteien abgefangen und erneut übertragen wird. Microsoft Teams verwendet SRTP in Verbindung mit einem sicheren Signalübermittlungsprotokoll, das die Übertragungen vor Angriffen mit Aufzeichnungswiederholung schützt. Die Empfänger können einen Index der bereits empfangenen RTP-Pakete erstellen und jedes neue Paket mit den bereits enthaltenen vergleichen.
 
 ### <a name="spim"></a>Spim
 
-Bei Spim handelt es sich um unerwünschte Werbenachrichten per Chat oder Präsenz-Abonnement-Anforderungen, wie Spam, jedoch in Form von Chatnachrichten. Das an sich ist zwar keine Kompromittierung des Netzwerks, aber es ist dennoch mindestens ärgerlich, kann Ressourcenverfügbarkeit und Produktion verringern und möglicherweise zu einer Beeinträchtigung des Netzwerks führen. Ein Beispiel dafür sind Angreifer, die sich gegenseitig durch das Senden von Anforderungen überbieten. Benutzer können sich gegenseitig blockieren, um dies zu verhindern, aber in einem Partnerverbund kann dies schwierig sein, wenn ein koordinierter Spim-Angriff erfolgt, sei denn, Sie deaktivieren den Verbund für den Partner.
+Bei Spim handelt es sich um unerwünschte Werbenachrichten per Chat oder Präsenz-Abonnement-Anforderungen; wie Spam, jedoch in Form von Chatnachrichten. Das an sich ist zwar keine Kompromittierung des Netzwerks, aber es ist dennoch mindestens ärgerlich, kann Ressourcenverfügbarkeit und Produktion verringern und u. U. zu einer Beeinträchtigung des Netzwerks führen. Ein Beispiel dafür sind Angreifer, die sich gegenseitig durch das Senden von Anforderungen überbieten. Benutzer können sich gegenseitig blockieren, um dies zu verhindern, aber in einem Partnerverbund kann dies schwierig sein, wenn ein koordinierter Spim-Angriff erfolgt, sei denn, Sie deaktivieren den Verbund für den Partner.
 
 ### <a name="viruses-and-worms"></a>Viren und Würmer
 
-Ein Virus ist eine Codeeinheit, deren Zweck die Reproduktion zusätzlicher, ähnlicher Codeeinheiten ist. Ein Virus benötigt, um zu funktionieren, einen Host, z. B. eine Datei, eine E-Mail oder ein Programm. Ähnlich wie ein Virus ist ein Wurm eine Codeeinheit, die für die Reproduktion zusätzlicher, ähnlicher Codeeinheiten codiert ist, aber im Gegensatz zu einem Virus keinen Wirt benötigt. Viren und Würmer treten vor allem bei Dateiübertragungen zwischen Clients oder beim Versenden von URLs von anderen Benutzern auf. Wenn sich ein Virus auf Ihrem Computer befindet, kann er beispielsweise Ihre Identität verwenden und Sofortnachrichten in Ihrem Namen versenden. Standardmäßige bewährte Methoden für die Client-Sicherheit, wie z. B. die regelmäßige Überprüfung auf Viren, können dieses Problem entschärfen.
+Ein Virus ist eine Codeeinheit, deren Zweck darin besteht, zusätzliche, ähnliche Codeeinheiten zu reproduzieren. Für seine Arbeit benötigt der Virus einen Wirt wie z. B. eine Datei, eine E-Mail oder ein Programm. Ähnlich wie ein Virus ist ein Wurm eine Codeeinheit, die für die Reproduktion zusätzlicher, ähnlicher Codeeinheiten codiert ist, aber im Gegensatz zu einem Virus keinen Wirt benötigt. Viren und Würmer treten vornehmlich bei Dateiübertragungen zwischen Clients auf oder wenn URLs von anderen Nutzern gesendet werden. Befindet sich auf Ihrem Computer ein Virus, kann er beispielsweise Ihre Identität verwenden und Sofortnachrichten in Ihrem Namen versenden. Standardmäßige bewährte Methoden für die Client-Sicherheit wie z. B. die regelmäßige Überprüfung auf Viren können dieses Problem entschärfen.
 
 ## <a name="security-framework-for-teams"></a>Sicherheitsframework für Teams
 
@@ -111,36 +110,36 @@ Azure Active Directory fungiert als Verzeichnisdienst für Microsoft 365 und Off
 
 #### <a name="crl-distribution-points"></a>CRL-Verteilungspunkte
 
-Microsoft 365- und Office 365-Verkehr findet über TLS/HTTPS-verschlüsselte Kanäle statt, was bedeutet, dass Zertifikate zur Verschlüsselung des gesamten Verkehrs verwendet werden. In Teams müssen alle Serverzertifikate einen oder mehrere CRL(Certificate Revocation List)-Verteilungspunkte enthalten. Sperrlisten-Verteilungspunkte sind Standorte, von denen Zertifikatsperrlisten heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit dem Zeitpunkt, an dem es ausgestellt wurde, gesperrt wurde und es sich noch im Gültigkeitszeitraum befindet. Ein CRL-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL angegeben und ist sicheres HTTP. Der Teams-Service überprüft die CRL bei jeder Zertifikatauthentifizierung.
+Microsoft 365- und Office 365-Datenverkehr erfolgt über TLS/HTTPS-verschlüsselte Kanäle, was bedeutet, dass Zertifikate zur Verschlüsselung des gesamten Verkehrs verwendet werden. In Microsoft Teams müssen alle Serverzertifikate einen oder mehrere CRL-Verteilungspunkte (Certificate Revocation List, Zertifikatssperrliste) enthalten. CRL-Verteilungspunkte sind Orte, von denen Zertifikatsperrlisten heruntergeladen werden können, um zu prüfen, ob das Zertifikat seit dem Zeitpunkt, an dem es ausgestellt wurde, gesperrt wurde und es sich noch im Gültigkeitszeitraum befindet. Ein CRL-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL angegeben und ist sicheres HTTP. Der Microsoft Teams-Dienst überprüft die Zertifikatssperrliste bei jeder Zertifikatauthentifizierung.
 
 #### <a name="enhanced-key-usage"></a>Erweiterte Schlüsselverwendung
 
-Für alle Komponenten des Teams Services sind alle Serverzertifikate erforderlich, um die Erweiterte Schlüsselverwendung (EKU, Enhanced Key Usage) für die Serverauthentifizierung zu unterstützen. Die Konfiguration des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat für den Zweck der Serverauthentifizierung gültig ist. Diese EKU ist wesentlich für MTLS.
+Alle Komponenten des Microsoft Teams-Diensts erfordern, dass alle Serverzertifikate die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für den Zweck der Serverauthentifizierung unterstützen. Die Konfiguration des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat für den Zweck der Serverauthentifizierung gültig ist. Diese EKU ist wesentlich für MTLS.
 
-### <a name="tls-and-mtls-for-teams"></a>TLS und MTLS für Teams
+### <a name="tls-and-mtls-for-teams"></a>TLS und MTLS für Microsoft Teams
 
-TLS- und MTLS-Protokolle bieten verschlüsselte Kommunikation und Endpunktauthentifizierung im Internet. Teams verwendet diese beiden Protokolle, um das Netzwerk vertrauenswürdiger Server zu erstellen und sicherzustellen, dass die gesamte Kommunikation über dieses Netzwerk verschlüsselt ist. Die gesamte Kommunikation zwischen Servern erfolgt über MTLS. Alle verbleibenden oder älteren SIP-Kommunikationen vom Client zum Server erfolgen über TLS.
+TLS- und MTLS-Protokolle bieten eine verschlüsselte Kommunikation und Endpunktauthentifizierung im Internet. Microsoft Teams verwendet diese beiden Protokolle, um das Netzwerk vertrauenswürdiger Server zu erstellen und sicherzustellen, dass die gesamte Kommunikation über dieses Netzwerk verschlüsselt ist. Die gesamte Kommunikation zwischen Servern findet über MTLS statt. Sämtliche übrige oder ältere SIP-Kommunikation vom Client zum Server findet über TLS statt.
 
-Mit TLS können Nutzer über ihre Client-Software die Teams-Server authentifizieren, mit denen sie eine Verbindung herstellen. Bei einer TLS-Verbindung fordert der Client vom Server ein gültiges Zertifikat an. Um gültig zu sein, muss das Zertifikat von einer Zertifizierungsstelle ausgestellt worden sein, der auch vom Client vertraut wird, und der DNS-Name des Servers muss mit dem DNS-Namen auf dem Zertifikat übereinstimmen. Wenn das Zertifikat gültig ist, verwendet der Client den öffentlichen Schlüssel im Zertifikat, um die symmetrischen Verschlüsselungsschlüssel, die für die Kommunikation verwendet werden, zu verschlüsseln, sodass nur der ursprüngliche Eigentümer des Zertifikats seinen privaten Schlüssel für die Entschlüsselung der Inhalte der Kommunikation verwenden kann. Die daraus resultierende Verbindung ist vertrauenswürdig und wird von diesem Punkt an nicht von anderen vertrauenswürdigen Servern oder Clients angezweifelt.
+Mit TLS können Benutzer über ihre Clientsoftware die Microsoft Teams-Server authentifizieren, mit denen sie sich verbinden. Bei einer TLS-Verbindung fordert der Client ein gültiges Zertifikat vom Server an. Um gültig zu sein, muss das Zertifikat von einer Zertifizierungsstelle ausgestellt worden sein, der auch vom Client vertraut wird, und der DNS-Name des Servers muss mit dem DNS-Namen in dem Zertifikat übereinstimmen. Wenn das Zertifikat gültig ist, verwendet der Client den öffentlichen Schlüssel im Zertifikat, um die symmetrischen Verschlüsselungsschlüssel, die für die Kommunikation verwendet werden, zu verschlüsseln, sodass nur der ursprüngliche Eigentümer des Zertifikats seinen privaten Schlüssel für die Entschlüsselung der Inhalte der Kommunikation verwenden kann. Die daraus resultierende Verbindung ist vertrauenswürdig und wird von diesem Punkt an von anderen vertrauenswürdigen Servern oder Clients nicht angezweifelt.
 
 Server-zu-Server-Verbindungen basieren auf gegenseitigem TLS (MTLS) zur gegenseitigen Authentifizierung. Bei einer MTLS-Verbindung tauschen der Server, von dem eine Nachricht stammt, und der Server, der diese empfängt, Zertifikate von einer beiderseits vertrauenswürdigen Zertifizierungsstelle aus. Die Zertifikate beweisen jedem Server die Identität des anderen. Im Teams-Dienst wird diese Prozedur befolgt.
 
-TLS und MTLS tragen dazu bei, Abhörvorgänge und Man-in-Middle-Angriffe zu vermeiden. Ein Man-in-the-Middle-Angriff leitet die Kommunikation zwischen zwei Netzwerkeinheiten ohne Wissen einer der beiden Parteien über den Computer des Angreifers um. Die TLS- und Teams-Spezifikation vertrauenswürdiger Server entschärft das Risiko eines Man-in-the-Middle-Angriffs auf Anwendungsebene teilweise durch die Verwendung von Verschlüsselung, die mit der Kryptografie mit öffentlichem Schlüssel zwischen den beiden Endpunkten koordiniert wird. Ein Angreifer müsste über ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel verfügen, das auf den Namen des Dienstes ausgestellt ist, mit dem der Client kommuniziert, um die Kommunikation zu entschlüsseln.
+TLS und MTLS tragen dazu bei, Abhöraktionen und Man-in-the-Middle-Angriffe zu verhindern. Bei einem Man-in-the-Middle-Angriff leitet der Angreifer die Kommunikation zwischen zwei Netzwerkentitäten ohne Wissen der Beteiligten über seinen Computer um. TLS und die Microsoft Teams-Spezifikation vertrauenswürdiger Server mindern das Risiko von Man-in-the-Middle-Angriffen teilweise auf Anwendungsebene durch die Verwendung von Verschlüsselung, die über Public Key-Kryptografie zwischen den zwei Endpunkten koordiniert wird. Ein Angreifer bräuchte ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel, das zudem auf den Namen des Dienstes ausgestellt ist, mit dem der Client kommuniziert, um die Kommunikation entschlüsseln zu können.
 
 > [!NOTE]
-> Die Teams-Daten werden bei der Übertragung und im Ruhezustand in Microsoft-Rechenzentren verschlüsselt. Microsoft verwendet Standardtechnologien wie TLS und SRTP, um alle Daten während der Übertragung zwischen den Geräten der Benutzer und den Microsoft-Rechenzentren sowie zwischen Microsoft-Rechenzentren zu verschlüsseln. Dies umfasst Nachrichten, Dateien, Besprechungen und andere Inhalte. Ruhende Unternehmensdaten in Microsoft-Rechenzentren werden zudem auf eine Weise verschlüsselt, die es Organisationen ermöglicht, Inhalte bei Bedarf zu entschlüsseln, um ihre Sicherheits- und Complianceanforderungen zu erfüllen, z. B. mit eDiscovery.
+> Die Teams-Daten werden bei der Übertragung und im Ruhezustand in Microsoft-Rechenzentren verschlüsselt. Microsoft verwendet Standardtechnologien wie TLS und SRTP, um alle Daten während der Übertragung zwischen den Geräten der Benutzer und den Microsoft-Rechenzentren sowie zwischen Microsoft-Rechenzentren zu verschlüsseln. Dies umfasst Nachrichten, Dateien, Besprechungen und andere Inhalte. Ruhende Unternehmensdaten in Microsoft-Rechenzentren werden zudem auf eine Weise verschlüsselt, die es Organisationen ermöglicht, Inhalte bei Bedarf zu entschlüsseln, um ihre Sicherheits- und Complianceanforderungen zu erfüllen, z. B. mit eDiscovery.
 
 ### <a name="encryption-for-teams"></a>Verwenden von Datenverschlüsselung
 
-Teams verwendet TLS und MTLS zum Verschlüsseln von Chatnachrichten. Der gesamte Server-zu-Server-Datenverkehr erfordert MTLS – unabhängig davon, ob der Datenverkehr auf das interne Netzwerk beschränkt ist oder den internen Netzwerkperimeter überschreitet.
+Microsoft Teams verwendet TLS und MTLS zum Verschlüsseln von Chatnachrichten. Der gesamte Server-zu-Server-Datenverkehr erfordert MTLS, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk beschränkt ist oder den internen Netzwerkperimeter überschreitet.
 
 In dieser Tabelle werden die von Teams verwendeten Protokolle zusammengefasst.
 
 ***Verschlüsselung des Datenverkehrs***
 
-|||
-|:-----|:-----|
+
 |**Datenverkehrstyp**|**Verschlüsselt durch**|
+|:-----|:-----|
 |Server-zu-Server|MTLS|
 |Client-zu-Server (z. B. Chat und Anwesenheit)|TLS|
 |Medienflüsse (z. B. Audio- und Videofreigaben von Medien)|TLS|
@@ -156,13 +155,13 @@ Teams verwendet ein auf Anmeldeinformationen basierendes Token für den sicheren
 
 #### <a name="fips"></a>FIPS
 
-Teams verwendet FIPS (Federal Information Processing Standard) konforme Algorithmen für den Austausch von Verschlüsselungsschlüsseln. Weitere Informationen zur Implementierung von FIPS finden Sie unter [FIPS-Publikation 140-2 (Federal Information Processing Standard)](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
+Teams verwendet FIPS (Federal Information Processing Standard) konforme Algorithmen für den Austausch von Verschlüsselungsschlüsseln. Weitere Informationen zur Implementierung von FIPS finden Sie unter [FIPS-Publikation 140-2 (Federal Information Processing Standard)](/microsoft-365/compliance/offering-fips-140-2).
 
 ### <a name="user-and-client-authentication"></a>Nutzer- und Clientauthentifizierung
 
 Bei einem vertrauenswürdigen Benutzer handelt es sich um eine Person, deren Anmeldeinformationen in Microsoft 365 oder Office 365 von Azure AD authentifiziert wurden.
 
-Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen für einen vertrauenswürdigen Server oder Dienst. Teams verwendet abhängig vom Status und Standort des Benutzers die folgenden Authentifizierungsprotokolle.
+Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen gegenüber einem vertrauenswürdigen Server oder Dienst. Microsoft Teams verwendet abhängig vom Status und Standort des Benutzers die nachstehenden Authentifizierungsprotokolle.
 
 - **Moderne Authentifizierung (MA)** ist die Microsoft-Implementierung von OAUTH 2.0 für die Client-Server-Kommunikation. Sie ermöglicht Sicherheitsfunktionen wie MFA (Mehrstufige Authentifizierung) und CA (Bedingter Zugriff). Für die Nutzung von MA müssen sowohl der Onlinemandant als auch die Clients für MA aktiviert sein. Die Teams-Clients über PC und Mobilgerät hinweg sowie der Webclient [unterstützen alle mehrstufige Authentifizierung](./sign-in-teams.md).
 
@@ -179,7 +178,7 @@ Für die Medienauthentifizierung verwenden die ICE- und TURN-Protokolle auch die
 
 ### <a name="windows-powershell-and-team-management-tools"></a>Windows PowerShell- und Team-Verwaltungstools
 
-In Teams können IT-Administratoren ihren Service über das Microsoft 365 Admin Center oder mithilfe von Tenant Remote PowerShell (TRPS) verwalten. Mandantenadministratoren verwenden die moderne Authentifizierung, um sich bei TRPS zu authentifizieren.
+In Microsoft Teams können IT-Administratoren ihren Dienst über das Microsoft 365 Admin Center oder mithilfe von Tenant Remote PowerShell (TRPS) verwalten. Mandantenadministratoren verwenden die moderne Authentifizierung, um sich bei TRPS zu authentifizieren.
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>Konfigurieren des Zugriffs auf Teams an Ihrer Internetgrenze
 
