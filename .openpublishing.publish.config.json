@@ -99,6 +99,10 @@
       "Publish",
       "Pdf"
     ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
     "dstrome-SMB-voice": [
       "Publish",
       "Pdf"
