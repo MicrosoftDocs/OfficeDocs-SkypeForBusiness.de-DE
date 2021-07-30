@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Exchange Online und Skype for Business Server lokal.
-ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 6684173df916b268b35061c735614188e1d58e40
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796679"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646246"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -37,7 +37,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Exchange Online bereitstellen, vergewi
 Zum Bereitstellen Microsoft Teams-Räume mit Exchange Online, führen Sie die folgenden Schritte aus. Vergewissern Sie sich, dass Sie über die erforderlichen Berechtigungen zum Ausführen der zugehörigen Cmdlets verfügen. 
 
    > [!NOTE]
-   >  Das Azure Active Directory-Modul für [Windows PowerShell-Cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) in diesem Abschnitt (z. B. Set-MsolUser) wurde unter Einrichten von Konten für Microsoft Teams-Räume getestet. Es ist möglich, dass andere Cmdlets funktionieren, aber in diesem speziellen Szenario noch nicht getestet wurden.
+   >  Das Azure Active Directory-Modul für [Windows PowerShell-Cmdlets](/powershell/azure/active-directory/overview) in diesem Abschnitt (z. B. Set-MsolUser) wurde unter Einrichten von Konten für Microsoft Teams-Räume getestet. Es ist möglich, dass andere Cmdlets funktionieren, aber in diesem speziellen Szenario noch nicht getestet wurden.
 
 Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen Sie das Benutzerkonto möglicherweise in einen verwalteten Benutzer konvertieren, bevor Sie diese Schritte ausführen, und dann den Benutzer wieder in einen Partnerbenutzer konvertieren, nachdem Sie diese Schritte abgeschlossen haben.
   
@@ -84,14 +84,14 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
     > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung dafür, dass Skype for Business Server Kennwort Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Falls müssen Sie für jedes einzelne Benutzerkonto Microsoft Teams-Räume erstellen.
   
 4. Klicken Sie auf **Fertig stellen**, um das Konto zu erstellen.
-5. Nachdem Sie das Konto erstellt haben, führen Sie eine Verzeichnissynchronisierung aus. Dies kann mithilfe von [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) in PowerShell erreicht werden. Wechseln Sie nach Abschluss des Vorgangs zur Seite Benutzer, und vergewissern Sie sich, dass die beiden in den vorherigen Schritten erstellten Konten zusammengeführt wurden.
+5. Nachdem Sie das Konto erstellt haben, führen Sie eine Verzeichnissynchronisierung aus. Dies kann mithilfe von [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) in PowerShell erreicht werden. Wechseln Sie nach Abschluss des Vorgangs zur Seite Benutzer, und vergewissern Sie sich, dass die beiden in den vorherigen Schritten erstellten Konten zusammengeführt wurden.
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Zuweisen einer Microsoft 365 oder Office 365 Lizenz
 
-1. Stellen Sie zuerst eine Verbindung mit Azure AD bereit, um einige Kontoeinstellungen anzuwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+1. Stellen Sie zuerst eine Verbindung mit Azure AD bereit, um einige Kontoeinstellungen anzuwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview)
 
    > [!NOTE]
-   > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt.
+   > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview) nicht unterstützt.
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -122,17 +122,17 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 
 1. Erstellen Sie eine Windows PowerShell Sitzung von einem PC aus wie folgt:
 
-> [!NOTE]
-> Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
->
-> Wenn Sie die neueste Version Teams [PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
+   > [!NOTE]
+   > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
+   >
+   > Wenn Sie die neueste Version Teams [PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
 
-    ``` Powershell
-    # When using Teams PowerShell Module
-    Import-Module MicrosoftTeams
-    $credential = Get-Credential
-    Connect-MicrosoftTeams -Credential $credential
-    ```
+   ``` Powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
 
 2. Führen Sie zum Aktivieren Microsoft Teams-Räume Kontos für Skype for Business Server folgenden Befehl aus:
 

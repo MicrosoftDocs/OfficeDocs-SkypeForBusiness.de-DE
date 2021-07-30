@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855954"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646206"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Interaktion SharePoint und OneDrive mit Microsoft Teams
 
 > [!Tip]
 > Schauen Sie sich die folgende Sitzung an, um zu erfahren, wie Teams mit Azure Active Directory (AAD), Microsoft 365-Gruppen, Exchange,SharePoint [](https://aka.ms/teams-foundations) und OneDrive interagiert: Grundlagen Microsoft Teams
 
-Jedes Team in Microsoft Teams verfügt über eine Teamwebsite in SharePoint, und jeder Standardkanal in einem Team erhält einen Ordner innerhalb der standardmäßigen Teamwebsite-Dokumentbibliothek. Jeder [private Kanal erhält](private-channels.md) eine eigene, separate SharePoint Website.
+Jedes Team in Microsoft Teams verfügt über eine Teamwebsite in SharePoint, und jeder Standardkanal in einem Team erhält einen Ordner innerhalb der standardmäßigen Teamwebsite-Dokumentbibliothek. Jeder [private Kanal erhält](private-channels.md) eine eigene, separate SharePoint Website. Weitere Informationen zu diesen Teamwebsites und Kanalwebsites finden Sie unter Verwalten Teams [verbundenen Websites und Kanalwebsites.](/sharepoint/teams-connected-sites)
 
 In einer Unterhaltung freigegebene Dateien werden der Dokumentbibliothek automatisch hinzugefügt, und die in den Dateien SharePoint festgelegten Berechtigungen und Sicherheitsoptionen werden Teams. Informationen zu den Auswirkungen des Änderns einer Websiteadresse in SharePoint Sie unter [Ändern einer Websiteadresse.](/sharepoint/change-site-address)
 

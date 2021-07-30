@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 368cb8b0c2d34e985d10adf11a405fb0603f1aff
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428211"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646416"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana Sprachunterstützung in Teams
 
@@ -89,6 +89,8 @@ Einzelne Benutzer können versuchen, Cortana Sprachunterstützung auf verschiede
 - Sagen Sie "Cortana" auf Microsoft Teams-Geräten.
 
 Sie können steuern, Cortana in Teams Gerät aktiviert ist, indem Sie eine Einstellung auf dem Gerät verwenden.
+
+![zeigt die Entwicklung mobiler Fenster beim Aktivieren Cortana](media/cortana-mobile-sequence.png)
 
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams-Räume auf Windows
 

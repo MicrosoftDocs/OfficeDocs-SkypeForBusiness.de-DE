@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die verfügbaren Lizenzen für verschiedene Arten von Anruf- und Besprechungsfunktionen in Microsoft Teams-Räume.
-ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117453"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646686"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Besprechungsraum Lizenzupdate
 
@@ -35,10 +35,10 @@ ms.locfileid: "51117453"
 
 Microsoft verfügt über zwei dedizierte SKUs für die Lizenzierung von Besprechungen und anrufe auf Gerätebasis für Besprechungsraumgeräte (z. B. Microsoft Teams-Räume, Microsoft Surface Hub und Zusammenarbeitsleisten für Microsoft Teams).
 
-||Microsoft Teams-Räume Standard |Microsoft Teams-Räume Premium |
+|&nbsp;|Microsoft Teams-Räume Standard |Microsoft Teams-Räume Premium |
 |:--- |:---: |:---: |
 |Skype for Business |&#x2714;| &#x2714;|
-|Microsoft Teams|  &#x2714;|  &#x2714;|
+|Microsoft Teams|  &#x2714;|  &#x2714;|
 |Telefonsystem|  &#x2714;|  &#x2714;|
 |Audiokonferenzen|&#x2714; &Sup1;|&#x2714; &Sup1;|
 |Microsoft Intune|&#x2714;|&#x2714;|  
@@ -64,7 +64,7 @@ In der folgenden Tabelle sind die Features aufgeführt, die in Microsoft Teams-R
 > [!NOTE]
 > Der Raum, der eingerichtet wird, muss ein Benutzerobjekt sein, und ihm müssen diese Lizenzen zugewiesen sein.
 
-|  | Sie haben Microsoft Teams oder Skype for Business Online <br/> Sie müssen folgende Lizenz erwerben:   |Sie verfügen Skype for Business Server 2015/2019 (lokal oder hybrid). <br/> Sie müssen folgende Lizenz erwerben:|
+| &nbsp; | Sie haben Microsoft Teams oder Skype for Business Online <br/> Sie müssen folgende Lizenz erwerben:   |Sie verfügen Skype for Business Server 2015/2019 (lokal oder hybrid). <br/> Sie müssen folgende Lizenz erwerben:|
 |:-----|:-----|:-----|
 |An einer geplanten Besprechung teilnehmen  | Microsoft Teams-Räume Standard oder Premium  |Skype for Business Server Standard CAL  |
 |Initiieren einer Ad-hoc-Besprechung | Microsoft Teams-Räume Standard oder Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|

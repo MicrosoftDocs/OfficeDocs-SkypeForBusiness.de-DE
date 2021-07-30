@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
-ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
+ms.openlocfilehash: 1dabc8e4b3f2e238945bf68fdbad73cebebd7fd5
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51410111"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646676"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Bereitstellen Microsoft Teams-Räume mithilfe von Microsoft Endpoint Configuration Manager
 
@@ -709,8 +709,7 @@ Sie können eine Beispiel-Tasksequenz herunterladen und problemlos importieren u
 
 12. Wählen Sie **Schließen aus.**
 
-<a name="validate-and-troubleshoot-the-solution"></a>Überprüfen der Lösung und Behandeln von Problemen
---------------------------------------
+**Überprüfen der Lösung und Behandeln von Problemen**
 
 Nachdem Sie die Aufgabenabfolgen der Microsoft Endpoint Configuration Manager abgeschlossen haben, müssen Sie einen Testlauf ausführen, um zu überprüfen, ob die Tasksequenz ihre Einheiten bereitstellen und Microsoft Teams-Räume konfigurieren kann.
 

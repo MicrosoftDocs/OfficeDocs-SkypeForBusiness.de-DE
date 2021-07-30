@@ -1,5 +1,5 @@
 ---
-title: Notfallwiederherstellung (Planungstool)
+title: Tool zur Planung der Notfallwiederherstellung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,18 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, da Sie Front-End-Pools in zwei Rechenzentren koppeln können.
-ms.openlocfilehash: e1137b339c9b49002242428917143283940748a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, indem die Kopplung von Front-End-Pools in zwei Rechenzentren ermöglicht wird.
+ms.openlocfilehash: 7e6c0084f424de781c42d4afaebdb827627ed280
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834925"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646066"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Notfallwiederherstellung (Planungstool)
+# <a name="disaster-recovery-planning-tool"></a>Tool zur Planung der Notfallwiederherstellung
  
-Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, da Sie Front-End-Pools in zwei Rechenzentren koppeln können.
+Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, mit denen Sie Front-End-Pools in zwei Rechenzentren koppeln können.
   
-Weitere Informationen zum Vorbereiten Ihrer Umgebung für die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Ausführliche Informationen zur Vorbereitung Ihrer Umgebung für die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Microsoft Teams-Räume bereitstellen, einschließlich der Bereitstellungsphasen.
-ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86564c8b90b0c7c8269d5de258c31d140eca7dc4
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117463"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646696"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -47,7 +47,7 @@ Weitere Informationen zu diesen Abhängigkeiten finden Sie unter den Links für 
 
 **Pro Tipp:** Wenn Sie Proxyserver verwenden möchten, um Zugriff auf Teams oder Skype for Business Online zu ermöglichen, lesen Sie zuerst [diesen Artikel.](../proxy-servers-for-skype-for-business-online.md) Wenn es um Skype for Business Proxyserver geht, empfehlen wir, die Proxyserver vollständig zu umgehen. Skype for Business Datenverkehr bereits verschlüsselt ist, sorgen Proxyserver nicht für mehr Sicherheit. Im Rahmen der breiteren Bereitstellung sollten Sie den Anweisungen unter Vorbereiten Ihres Netzwerks für [Teams](../prepare-network.md) für die Bandbreitenplanung und Bewerten der Eignung Ihres Netzwerks für Echtzeitdatenverkehr folgen.
 
-|    |     |
+|  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![Bestätigen von Websites](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Vergewissern Sie sich, dass Ihre Websites die wichtigsten Anforderungen für die Microsoft Teams-Räume.</li><li>Vergewissern Sie sich, dass Sie für jeden Standort ausreichend Bandbreite bereitgestellt haben.</li></ul>| 
 | ![Planen der Gerätebereitstellung](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung der Gerätebereitstellung und -konfiguration.</li></ul>| 
@@ -72,7 +72,7 @@ Abhängig von den Szenarien für die Zusammenarbeit, die Sie für Ihre Microsoft
 Weitere Informationen zu Microsoft Teams-Räume-Konten finden Sie unter [Konfigurieren von Konten für Microsoft Teams-Räume.](rooms-configure-accounts.md)
 
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![Szenariounterstützung](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, welche Szenarien Unterstützt werden sollen, und identifizieren Sie die Lizenzierungsanforderungen für Ihre Microsoft Teams-Räume-Dienstkonten.</li></ul>| 
 | ![Vorbereiten des Hostcomputers](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Bereiten Sie das Hosten von Computer- und Dienstkonten vor.</li></ul>| 
@@ -121,7 +121,7 @@ Jedes Microsoft Teams-Räume benötigt ein dediziertes und eindeutiges Ressource
 
 **Pro Tipp:** Sorgen Sie dafür, dass die Anzeigenamen für diese Konten aussagekräftig und leicht verständlich sind. Dies sind die Namen, die Benutzern angezeigt werden, wenn sie Nach Besprechungen suchen und Microsoft Teams-Räume System hinzufügen. Einige Organisationen verwenden die Veranstaltung Websiteraumname ( Max. Raumkapazität )-RS, daher könnte - Curie, ein 12-Personen-Konferenzraum in London, beispielsweise den Anzeigenamen LON-CURIE(12)-RS haben. 
 
-|    |     |
+|  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![Benennungskonvention festlegen](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie die Namenskonvention für Ihre Microsoft Teams-Räume Konten.</li><li>Entscheiden Sie, ob Sie einzelne Konten erstellen oder Massenbereitstellungsskripts verwenden möchten.</li></ul>| 
 | ![Nächste Schritte](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung der Gerätebereitstellung.</li></ul>| 
@@ -146,7 +146,7 @@ Wir bieten Anleitungen zur Verwendung des [Microsoft Azure-Monitors](/skypeforbu
 
 Eine zusätzliche Überlegung ist, ob die Microsoft Teams-Räume der Domäne beigetreten ist. Informationen zu den Vorteilen der Teilnahme an Domänen finden Sie in den Skype [zur Teilnahme an Domänen im Raumsystem.](domain-joining-considerations.md) 
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![Entscheidungspunkte für die Gerätebenennung](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie Microsoft Teams-Räume, welche Gerätebenennungskonvention während der Bereitstellung verwendet werden soll.</li><li>Entscheiden Sie, ob Sie Ihrer Domäne Microsoft Teams-Räume und wie Sie lokale Konten verwalten und konfigurieren möchten. </li><li>Entscheiden Sie, ob Sie die Operations Management Suite verwenden, um die Bereitstellung Microsoft Teams-Räume überwachen.</li><li>Entscheiden Sie, mit welcher Methode Sie die Software und Agents auf dem Microsoft Teams-Räume-System bereitstellen möchten, um die Gerätebereitstellung zu vorbereiten. </li></ul>| 
 | ![Planen des Geräts für die nächsten Schritte](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Beginnen Sie mit der Planung Ihres Gerätebereitstellungsansatzes.</li></ul>| 
@@ -157,7 +157,7 @@ Eine zusätzliche Überlegung ist, ob die Microsoft Teams-Räume der Domäne bei
 Nachdem Sie Ihre Software in den Microsoft Teams-Räume-Einheiten bereitgestellt haben, erstellen Sie Ihren Plan, um die Geräte und die ihnen zugewiesenen Peripheriegeräte an Ihre Räume zu versenden, und fahren Sie dann mit der Installation und Konfiguration fort. 
 
 
-|    |     |
+|  &nbsp;  |   &nbsp;  |
 |-----------|------------|
 | ![Verwalten der Bereitstellung von Website zu Website](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer die Bereitstellung von Website zu Website verwalten soll.</li><li> Ermitteln Sie die Ressourcen, die die Microsoft Teams-Räume-Geräte auf der Website installieren sollen, und übernehmen Sie die Konfiguration und Tests.</li></ul>| 
 | ![Starten von Gerätetests](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Starten Sie die Gerätetests.</li></ul>| 
@@ -179,7 +179,7 @@ Weitere Informationen zur Verwendung der XML-Konfigurationsdatei finden Sie unte
 
 Sie können [Remote-PowerShell verwenden,](rooms-operations.md#remote-management-using-powershell) um die Microsoft Teams-Räume zur Berichterstellungsanforderungen zu ziehen. 
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![Entscheidungspunkt konfigurieren](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, ob Sie jedes System manuell Microsoft Teams-Räume oder eine zentrale XML-Datei verwenden möchten (eine pro Microsoft Teams-Räume Gerät).</li></ul>| 
 | ![Remoteansatz für die nächsten Schritte](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Definieren Sie den Ansatz für die Remoteverwaltung.</li></ul>| 

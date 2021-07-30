@@ -14,8 +14,6 @@
       items:
         - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Microsoft Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: Verschieben von Benutzern aus lokalen Bereitstellungen nach Skype for Business Online
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: Verwalten von Besprechungsmigrationen

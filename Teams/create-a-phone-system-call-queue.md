@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Musik halten, Anrufumleitung und weitere Funktionen bieten.
-ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 2b07275b75fdb9e915fad026e8ef1c96dcb3ec89
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506374"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646766"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -105,7 +105,7 @@ In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiederge
 
 Über einen Kanal können Sie bis zu 200 Agents Teams hinzufügen.
 
-Wenn Sie zum Verwalten der Warteschlange Teams [Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)verwenden möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie auf Kanal **hinzufügen**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten, und klicken Sie auf **Übernehmen**. Sie müssen Ein Mitglied des Teams oder der Ersteller des Kanals oder ein Besitzer des Kanals sein.
+Wenn Sie zum Verwalten der Warteschlange Teams [Kanal](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)verwenden möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie auf Kanal **hinzufügen**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten (nur Standardkanäle werden unterstützt), und klicken Sie auf **Übernehmen**. Sie müssen Ein Mitglied des Teams oder der Ersteller des Kanals oder ein Besitzer des Kanals sein.
 
 Die folgenden Clients werden unterstützt, wenn Sie einen Teams für Anrufwarteschleifen verwenden: 
 

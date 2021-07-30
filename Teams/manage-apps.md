@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 6ea09ae40068277c5e450c19b6e258d04fd40fdc
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: e237fc1e511694b80cb9b98ca4e1f9c36f1eba25
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126911"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646466"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
@@ -51,7 +51,7 @@ Sie können jede App einschließlich der folgenden Informationen zu jeder App an
 - **Status:** Status der App auf Organisationsebene. Dies kann einer der folgenden sein:
 - **Zulässig:** Die App ist für alle Benutzer in Ihrer Organisation verfügbar.
 - **Blockiert:** Die App ist blockiert und für keine Benutzer in Ihrer Organisation verfügbar.
-  - **Organisationsweit blockiert:** Die App wird in organisationsweiten App-Einstellungen blockiert.
+- **Organisationsweit blockiert:** Die App wird in organisationsweiten App-Einstellungen blockiert.
       Es ist wichtig zu wissen, dass diese Spalte den zulässigen und blockierten Status von Apps darstellt, die sich zuvor im bereich **"Organisationsweite Einstellungen"** hatten. Sie können apps jetzt organisationsweit auf der Seite "Apps verwalten" anzeigen, **blockieren und** zulassen.
 - **Lizenzen:** Gibt an, ob eine App ein SaaS-Abonnement (Software as a Service) zum Kauf anbietet. Diese Spalte gilt nur für Apps von Drittanbietern. Jede Drittanbieter-App hat einen der folgenden Werte:
 - **Jetzt kaufen:** Die App bietet ein SaaS-Abonnement und kann jetzt kaufen werden.  
@@ -63,6 +63,7 @@ Sie können jede App einschließlich der folgenden Informationen zu jeder App an
 - **- –**: Die App verfügt nicht über Berechtigungen, für die eine Zustimmung erforderlich ist.
 - **Kategorien:** Kategorien, die für die App gelten.
 - **Version:** App-Version.
+- **Administrator kann in Besprechungen installieren:** Gibt an, ob eine App von Administratoren in Teambesprechungen installiert werden kann. [Weitere Informationen](teams-app-setup-policies.md#install-apps)
 
 Wenn Sie die Informationen anzeigen möchten, die in der Tabelle enthalten sein sollen, wählen Sie **in** der oberen rechten Ecke Spalte bearbeiten aus, um der Tabelle Spalten hinzuzufügen oder spalten zu entfernen.
 

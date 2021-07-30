@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Versionshinweise für Microsoft Teams-Räume lesen, in denen die kumulierten Verbesserungen der Microsoft Teams-Räume.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796849"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646876"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Anmerkungen zu dieser Microsoft Teams-Räume
 
@@ -29,6 +29,7 @@ In diesem Artikel werden kumulierte Verbesserungen bei Microsoft Teams-Räume.
 
 |Release |Veröffentlicht an <br/> Microsoft Store |
 |--- |--- |
+|4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
@@ -74,6 +75,15 @@ In diesem Artikel werden kumulierte Verbesserungen bei Microsoft Teams-Räume.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams-Räume und Problemlösung für Features
 
+### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
+
+In diesem Update eingeführt:
+- Microsoft Teams ist jetzt in den Anwendungseinstellungen verfügbar, sodass Sie kein Skype for Business mehr einrichten müssen. In diesem Modus treten Geräte, die Teams angemeldet sind, als Skype for Business als Gastbenutzer an Besprechungen teil.
+- Fix für HDMI-Audio, das zu einer geringeren Anruflautstärke führt. Das HDMI-Audiofeature wird automatisch für alle Geräte mit Anwendungsaufbau 4.9.12.0 aktiviert.
+
+> [!NOTE]
+> S Skype for Business Ende des Lebenszyklus wird empfohlen, auf den ausschließlichen Teams zu aktualisieren.
+
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
 In diesem Update eingeführt:
@@ -96,7 +106,7 @@ In diesem Update eingeführt:
 - Government Community Cloud High (GCCH) support for Teams-Räume. GCCH-Kunden mit vorhandenen Teams-Räume können Version 4.8.19.0 über manuelles Aktualisieren eines Microsoft Teams-Räume [herunterladen.](manual-update.md)
 - Teilnehmen an Zoom-Besprechungen mit besserer Videoqualität (720p-Unterstützung) und Empfangen der Videogalerie von Teilnehmern
 - Skype for Business Banner "Anmeldefehler" wurde für den Teams entfernt. Diese Änderung unterstützt Organisationen, die Skype for Business entfernen.
-- Teams Besprechungen werden jetzt von Microsoft Defender Advanced Thread Protection für sichere Links verarbeitet, um die nahtlose Teilnahme an Teams externen Verbindungen zu ermöglichen.
+- Teams Besprechungen werden jetzt mit der Analyse von Verknüpfungen behandelt Microsoft Defender Advanced Thread Protection Tresor Links, um die nahtlose Teilnahme an externen Teams zu ermöglichen
 - Fix für das Problem mit der Skalierung von freigegebenen Inhalten in Skype for Business Besprechungen, wenn auf dem PC des Freigebens ein benutzerdefinierter DPI-Wert in einer Windows
 - Qualitäts- und Zuverlässigkeitsfixes
 
@@ -110,12 +120,12 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Freigeben von HDMI-Audio für Besprechungsteilnehmer in Teams Besprechung
-- Cortana-Sprachkenntnisse (Vorschau)
+- Cortana (Vorschau)
 - Verhindern Sie die Stummschaltung basierend auf Audioberechtigungen, Teams Raum als Teilnehmer teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Teilnehmeraudioberechtigungen in Teams Besprechungen.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
 - Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
 
 > [!NOTE]
-> Cortana-Sprachkenntnisse sind für ausgewählte Audioperipheriegeräte für Mandanten in den USA verfügbar. Weitere Länder oder Regionen werden in Zukunft hinzugefügt. Weitere Informationen finden Sie unter [Cortana-Sprachunterstützung in Teams](../cortana-in-teams.md)
+> Cortana Sprachkenntnisse stehen für ausgewählte Audioperipheriegeräte für Mandanten in den USA zur Verfügung. Weitere Länder oder Regionen werden in Zukunft hinzugefügt. Weitere Informationen finden Sie unter [Cortana Sprachunterstützung in Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -195,7 +205,7 @@ In diesem Update eingeführt:
 
 - Ein Fix für ein Problem mit Größenänderung/Flimmern des Fensters, das in bestimmten Konfigurationen zu sehen ist
 - Kalenderverarbeitung für Besprechungen von Drittanbietern wurde entfernt
-- Cortana-Statuseinstellung entfernt
+- Cortana Statuseinstellung entfernt
 
 ### <a name="43230-12132019"></a>4.3.23.0 (12/13/2019)
 

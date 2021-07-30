@@ -21,25 +21,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae3efe06e36c653069c06127c98f228fb25cac37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6daa5391e90c1931e7de1e3008c41782b0b22976
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831205"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646826"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
 Die Konzepte von Teams und Kanälen sind von grundlegender Bedeutung für eine gesunde, produktive Implementierung Microsoft Teams. 
 
-- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein Geschäftsergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Microsoft 365-Gruppen werden mit dem Team synchronisiert.
+- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein Geschäftsergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Microsoft 365-Gruppen werden mit dem Team synchronisiert.
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in denen die eigentliche Arbeit erledigt wird. 
 
 Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht über Teams und Kanäle [in Microsoft Teams.](teams-channels-overview.md) Umfassende Anleitungen Teams Zur Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365-Gruppen finden Sie unter Microsoft 365 und Gruppen [Microsoft Teams](office-365-groups.md) und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
 | Dieses kurze Video anzeigen   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 

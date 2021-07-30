@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Microsoft Teams-Räume, der nächsten Generation von Raumsystemen, Skype Raumsysteme erläutert.
-ms.openlocfilehash: fae50e076467efdfe69115d967f3d6564ba9266a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726276"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646986"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen Microsoft Teams-Räume
 
@@ -56,7 +56,7 @@ In der Regel enthalten die Pakete und integrierten Einheiten vorinstallierte Sof
 
 Sie können Ihre Microsoft Teams-Räume mit Microsoft Teams, Skype for Business Online oder Skype for Business oder lokalen Bereitstellungen bereitstellen.  Informationen zu [Teams Besprechungsraum erforderlichen Lizenzen finden](rooms-licensing.md) Sie im Teams Besprechungsraum lizenzupdate.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![Bereitstellung entscheiden](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Werden Sie ihre Microsoft Teams-Räume in Ihrer Organisation bereitstellen? </li><li>Wie beschaffen Sie Ihre Microsoft Teams-Räume-Systeme – gebündelt, als separate Komponenten oder als integrierte Einheit?</li></ul> |
 | ![Identifizieren von Aktivitäten](../media/audio_conferencing_image9.png)<br/>Nächste Schritte | <ul><li>Identifizieren Sie, wer während der gesamten Bereitstellung die wichtigsten Aktivitäten übernehmen soll.</li><li>Überprüfen Sie die vorhandenen Konferenzräume (und planen Sie die Einrichtung), um zu verstehen, wo Sie Microsoft Teams-Räume und die Peripheriegeräte bereitstellen möchten, die für die Raumgröße geeignet sind.</li></ul> |
@@ -94,13 +94,13 @@ Nachdem Sie eine Bestandsaufnahme der Geräte und Funktionen in jedem vorhandene
 
 Bei Ihrer Ermittlung ist es wichtig, Raumauf akustische Daten und das Layout zu berücksichtigen. Stellen Sie z. B. sicher, dass die Stühle im Raum die Kameraansicht nicht blockieren. Stellen Sie sicher, dass der Raum nicht übermäßig viele Echo- oder laute Luftunterdingungsbilder hat und über ausreichende Leistung für Bildschirme und Microsoft Teams-Räume. Es gibt viele Faktoren, die Sie berücksichtigen sollten, wenn Sie von Ihrem AV-Team oder -Partner beraten werden können. 
 
-|    |     |
+| &nbsp;   | &nbsp;    |
 |-----------|------------|
 | ![Abhängige Räume](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Überprüfen Sie die Räume im Bereich, und definieren Microsoft Teams-Räume für sie.</li></ul>|
 
 _Beispiel für Besprechungs-/Konferenzrauminventar_
 
-| Standort  | Name des Raum | Raumtyp | Anzahl der Personen  | Im Leistungsumfang? | Aktuelle Raumfunktionen       | Zukünftige Raumfunktionen     |
+| Site  | Name des Raum | Raumtyp | Anzahl der Personen  | Im Leistungsumfang? | Aktuelle Raumfunktionen       | Zukünftige Raumfunktionen     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
 | London HQ | Curie         | Mittel        | 6 &ndash; 12                  | Ja          | Freisprechtelefon                        | 1 Bildschirm, Audio und Video plus Präsentation<br>PSTN-Zugriff |
 | Sydney HQ | Hill          | Groß         | 12 &ndash; 16                 | Ja          | Legacy-AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio und Video plus Präsentation<br>PSTN-Zugriff |
@@ -115,7 +115,7 @@ Verwenden Sie basierend auf dem von Ihnen bevorzugten Anbieter die Informationen
 
 **Pro Tipp:** Einige Raumtypen gelten möglicherweise nicht für Ihre Bereitstellung.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![Räume im Bereich](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Arten von Räumen sind in Ihrem Bestand für die Bereitstellung geeignet?</li><li>Welche Systeme werden für jeden Raumtyp bereitgestellt?</li></ul>|
 | ![Material sammeln](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Sammeln Sie wichtige Betriebsmaterialien für Ihre ausgewählten Systeme, und engagieren Sie Ihr Beschaffungsteam.</li></ul>|
@@ -139,7 +139,7 @@ Sie können die Microsoft Teams-Räume einer Reihe von Partnern erwerben, die im
 
 Je nach Bereitstellungsmaßstab und -ansatz können Sie sich entscheiden, die Microsoft Teams-Räume-Geräte und unterstützten Peripheriegeräte für die Erstkonfiguration und Zuordnung an einen zentralen Ort zu versanden. Dies kann ein guter Ansatz für eine mehrstufige Einführung über viele Websites hinweg sein. Oder Sie können die Pakete direkt an Ihre Websites versenden. 
 
-|    |     |
+|   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![Versenden von Komponenten](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Werden Sie die Komponenten direkt an eine Website oder eine Staging-Einrichtung versenden?</li><li>Wer wird die Staging-Einrichtung verwalten (wenn Sie sich entschließen, eine zu verwenden)?</li></ul>|
 | ![Planen von Vorgängen](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Planen von Vorgängen.</li><li>Planen Sie das Übernahme- und Änderungsmanagement.</li></ul>|
@@ -152,7 +152,7 @@ Viele Organisationen verfügen über ein AV-Team oder einen Partner, das die Kon
 
 Überlegen Sie, welche Helpdesk-Warteschlange Sie routen Microsoft Teams-Räume Microsoft Teams Rooms</DICT__Microsoft⚐Teams-Räume> und die wichtigsten Schritte zur Problembehandlung, die sie ausführen können. Ein guter Ausgangspunkt für diese häufig gestellten Fragen sind die [Benutzerhilfe und](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) [Bekannte Probleme.](known-issues.md)
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![Manager auswählen](../media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, wer ihre Microsoft Teams-Räume.</li><li>Entscheiden Sie, an welche Helpdesk-Warteschlange sie Microsoft Teams-Räume zugehörigen Anrufe weiter routen soll.</li></ul>|
 | ![Vorbereiten von Hostkonten](../media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Bereiten Sie das Hosten von Konten vor. </li></ul>|

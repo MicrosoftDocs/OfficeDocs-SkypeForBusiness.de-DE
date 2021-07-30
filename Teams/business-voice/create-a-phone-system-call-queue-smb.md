@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Erfahren Sie, wie Sie Anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
-ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126921"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646486"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschleife – Lernprogramm für Kleinunternehmen
 
@@ -87,7 +87,9 @@ So fügen Sie einen Kanal hinzu
 
 1. Suchen Teams Team, das Sie gerade erstellt haben, klicken Sie auf **Weitere** Optionen (...), und klicken Sie dann **auf Kanal hinzufügen.**
 
-2. Geben Sie einen Namen und eine Beschreibung für den Kanal ein, und klicken Sie dann auf **Hinzufügen**.
+2. Geben Sie einen Namen und eine Beschreibung für den Kanal ein.
+
+3. Wählen **Sie unter** Datenschutz die Option Standard – **Barrierefrei** für alle Teammitglieder aus, und klicken Sie dann auf **Hinzufügen**.
 
 > [!div class="nextstepaction"]
 > [Schritt 2 – Ressourcenkonten >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -122,7 +124,7 @@ Sie müssen dem *Ressourcenkonto Microsoft 365 Telefonsystem - Virtueller Benutz
 
 2. Wählen Sie **auf der Registerkarte Lizenzen** und Apps unter **Lizenzen** die Option Microsoft 365 Telefonsystem **- Virtueller Benutzer aus.**
 
-3. Klicken **Sie auf Änderungen speichern**.
+3. Klicken Sie auf **Änderungen speichern**.
 
     ![Screenshot der Benutzeroberfläche "Lizenzen zuweisen" im Microsoft 365 Admin Center](../media/resource-account-assign-virtual-user-license.png)
 

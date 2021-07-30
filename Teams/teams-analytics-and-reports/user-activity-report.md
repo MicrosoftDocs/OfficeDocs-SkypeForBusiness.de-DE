@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Teams Bericht "Benutzeraktivität" im Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 071b5eaa37cd2b6a5d353b2f0309a338d28ce971
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 13d2d261358fc5c373304c46b48684d1f116fc06
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669237"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646056"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams – Benutzeraktivitätsbericht
 
@@ -42,7 +42,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
-|Beschriftung |Beschreibung  |
+| Beschriftung |Beschreibung  |
 |--------|-------------|
 |**1**   |Im Teams Benutzeraktivitätsbericht werden die Trends über die letzten 7 Tage, 30 oder 90 Tage angezeigt. |
 |**2**   |Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte zeigen in der Regel eine Latenz von 24 Stunden ab dem Zeitpunkt der Aktivität. |
@@ -60,7 +60,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 Um die Daten in Teams Benutzeraktivitätsbericht anonym zu machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail-Adresse und AAD-ID im Bericht und beim Export ausgeblendet.
 
-1. Wechseln Microsoft 365 Admin Center zum Einstellungen  Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
+1. Wechseln Microsoft 365 Admin Center In der Website  zum Einstellungen Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
     
 2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte im Microsoft 365 Admin Center als Teams Admin Center angewendet.
   

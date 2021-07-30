@@ -1,5 +1,5 @@
 ---
-title: Archivierung (Planungstool)
+title: Archivierungsplanungstool
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,17 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: Mit der Archivierung in Skype for Business Server können Sie Kommunikationen archivieren, die über Skype for Business Server gesendet werden.
-ms.openlocfilehash: f3e961d5ebd183d50e5ed14c28163e77d77aedbb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c23053f61c6b9029c6e62c5f344c780588bfb6e4
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835075"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646816"
 ---
-# <a name="archiving-planning-tool"></a>Archivierung (Planungstool)
+# <a name="archiving-planning-tool"></a>Archivierungsplanungstool
  
-Mit der Archivierung in Skype for Business Server können Sie Kommunikationen archivieren, die über Skype for Business Server gesendet werden.
+Die Archivierung in Skype for Business Server bietet Ihnen die Möglichkeit, Kommunikationen zu archivieren, die über Skype for Business Server gesendet werden.
   
-Weitere Informationen zum Vorbereiten Ihrer Umgebung für den Archivierungsserver finden Sie unter ["Planen der Archivierung in Skype for Business Server 2015".](../../plan-your-deployment/archiving/archiving.md)
+Ausführliche Informationen zur Vorbereitung Ihrer Umgebung für den Archivierungsserver finden Sie unter [Plan for archiving in Skype for Business Server 2015.](../../plan-your-deployment/archiving/archiving.md)
   
-

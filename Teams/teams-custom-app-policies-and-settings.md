@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: e89a7aa3a2d016551695406551068cd07a2042e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3a45e2e4616b952dd7aa5cd2218e52a7f8f92d5c
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119214"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646076"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
@@ -117,6 +117,7 @@ Die **Einstellung Interaktion mit benutzerdefinierten** Benutzerdefinierten Apps
 In dieser Tabelle sind die benutzerdefinierten App-Richtlinien und -Einstellungen, ihre Kombination und ihre kombinierten Auswirkungen auf die Steuerung zusammengefasst, wer in Ihrer Organisation benutzerdefinierte Apps auf Teams.
 
 Sie möchten beispielsweise zulassen, dass nur Teambesitzer benutzerdefinierte Apps in bestimmte Teams hochladen können. Sie würden folgendes festlegen:
+
 - Aktivieren Sie die **Einstellung Interaktion mit benutzerdefinierten Apps zulassen** im Microsoft Teams Admin Center.
 - Deaktivieren Sie das **Deaktivieren von Mitgliedern das Hochladen benutzerdefinierter Apps für** jedes Team erlauben, auf das Sie den Zugriff einschränken möchten.
 - Erstellen und weisen Sie eine benutzerdefinierte App-Setuprichtlinie im Microsoft Teams Admin Center mit aktivierter **Einstellung "Hochladen** Benutzerdefinierte Apps" zu, und weisen Sie sie den Teambesitzern zu.
@@ -133,7 +134,7 @@ Sie möchten beispielsweise zulassen, dass nur Teambesitzer benutzerdefinierte A
 | Ein    | Ein        | Ein        | Der Benutzer kann benutzerdefinierte Apps in das Team hochladen, unabhängig davon, ob es sich bei dem Benutzer um einen Teambesitzer handelt. Der Benutzer kann benutzerdefinierte Apps im persönlichen Kontext hochladen.       |
 
 ## <a name="related-topics"></a>Verwandte Themen
- 
+
 [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies-users-and-groups.md)

@@ -1,5 +1,5 @@
 ---
-title: Edge Network (Planning Tool)
+title: Edgenetzwerk-Planungstool
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: 'Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die folgenden Komponenten stellen die Edgetopologie des Umkreisnetzwerks zusammen. Sofern nicht erwähnt, sind die Komponenten Teil von Edgeserverszenarien in Skype for Business Server 2015 und befinden sich im Umkreisnetzwerk. Zu den Edgekomponenten gehören folgende:'
-ms.openlocfilehash: e3cc16f7cea0ba57a2c9acca8e9ba8b8ccf5e4fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die folgenden Komponenten bilden die Edgetopologie des Umkreisnetzwerks. Sofern nicht anders angegeben, sind die Komponenten Teil von Edgeserverszenarien in Skype for Business Server 2015 und befinden sich im Umkreisnetzwerk. Edgekomponenten umfassen Folgendes:'
+ms.openlocfilehash: 6d43b9f26555cd33a2c0a7f7f994b9e2746cefd6
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834915"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646016"
 ---
-# <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
+# <a name="edge-network-planning-tool"></a>Edgenetzwerk-Planungstool
  
-Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die folgenden Komponenten stellen die Edgetopologie des Umkreisnetzwerks zusammen. Sofern nicht erwähnt, sind die Komponenten Teil von [Edgeserverszenarien in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) und befinden sich im Umkreisnetzwerk. Zu den Edgekomponenten gehören folgende:
+Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die hier aufgeführten Komponenten bilden die Edgetopologie des Umkreisnetzwerks. Sofern nicht anders angegeben, sind die Komponenten Teil von [Edgeserverszenarien in Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) und befinden sich im Umkreisnetzwerk. Edgekomponenten umfassen Folgendes:
   
 - Edgeserver
     
@@ -33,7 +33,7 @@ Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die 
     
 - Directors (optional und logisch im internen Netzwerk)
     
-- Lastenausgleich für skalierte Edgetopologien (entweder DNS-Lastenausgleich oder Hardwaregerät zum Lastenausgleich)
+- Lastenausgleich für skalierte Edgetopologien (dns load balancing or a hardware load balancer)
     
 ## <a name="see-also"></a>Siehe auch
 

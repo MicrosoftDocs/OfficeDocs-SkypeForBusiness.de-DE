@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 046a8f08db43062586230c5d7016ebb117027398
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096269"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646866"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
@@ -43,7 +43,7 @@ In diesem Artikel wird beschrieben, wie Teams verhalten, wenn Gastbenutzer, exte
 
 Gäste können keine Apps in einem freigegebenen Kontext wie Chat, Kanal oder Besprechung installieren, aktualisieren oder löschen, aber sie können mit Nachrichtenerweiterungen und direkten Links zu ihrem persönlichen Bereich wechseln. Gäste haben keinen Zugriff auf den Teams-App-Store aus der Teams-Desktopanwendung, können aber über einen direkten Link darauf zugreifen.
 
-### <a name="usage-behavior-and-policy-for-guest-users"></a>Nutzungsverhalten und Richtlinie für Gastbenutzer 
+### <a name="usage-behavior-and-policy-for-guest-users"></a>Nutzungsverhalten und Richtlinie für Gastbenutzer
 
 Gäste können eine App verwenden, wenn die App von einem systemeigenen Benutzer installiert wurde.
 
@@ -83,3 +83,7 @@ Anonyme Benutzer können in Besprechungen keine Apps installieren, aktualisieren
 Anonyme Benutzer können Apps nicht direkt in Besprechungen verwenden. Native Benutzer können weiterhin Besprechungs-Apps verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Weitere Informationen finden Sie unter Zulassen, [dass anonyme Benutzer an Besprechungen teilnehmen.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Sie können in Besprechungen in Teams mit Apps interagieren, wenn die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wurde. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.
+
+## <a name="related-topics"></a>Verwandte Themen
+
+[Verwalten von Richtlinien für das App-Setup in Microsoft Teams](teams-app-setup-policies.md)

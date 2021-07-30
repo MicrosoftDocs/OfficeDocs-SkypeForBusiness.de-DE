@@ -1471,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: Synchronisieren von SIS-Daten mit Insights
                 href: education-insights-sis-data-sync.md
+              - name: Verwalten des Benutzerzugriffs auf Insights
+                href: education-insights-manage-access.md
               - name: Erste Schritte mit Reflect
                 href: reflect.md
           - name: Aufgaben in Teams für Education
@@ -1865,4 +1867,4 @@ items:
       - name: Fragebogen für die Upgradeermittlung
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Versionshinweise für Teams-Administratorfunktionen
-        href: release-notes/release-notes.md
+        href: /OfficeUpdates/teams-admin

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Erfahren Sie, wie Sie Telefone im allgemeinen Bereich für Lobbys, Empfangsbereiche und Konferenzräume einrichten. '
-ms.openlocfilehash: bb17b21eac262c160abc3e16a4b552fb32b97d00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d04b1262c88a2600e2167cbaf5498672983cb0b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117113"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646216"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
@@ -40,7 +40,7 @@ Zuerst müssen Sie eine Cap-Lizenz (Common Area Telefon) erwerben und sicherstel
 
 ## <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 
-1. Wechseln Sie Microsoft 365 Admin Center zu **Dienste für** Abrechnungskäufe, und erweitern Sie dann Andere  >   **Pläne**.
+1. Wechseln Sie Microsoft 365 Admin Center Dienste zum Kauf von **Abrechnungen,**  >   und erweitern Sie dann **Andere Pläne**.
 
     ![Screenshot der Kachel "Gemeinsame Telefon"](media/set-up-common-area-phone-image1.png)
 
@@ -61,10 +61,10 @@ Weitere Informationen zu Lizenzen finden Sie unter [Microsoft Teams Add-On-Lizen
 Der gemeinsame Bereich, Telefon von der Lizenz unterstützt wird: 
 
 
-|   |  Telefon für gemeinsame Bereiche  |
+| &nbsp;  |  Telefon für gemeinsame Bereiche  |
 |---------|---------|
 |Skype for Business |   &#x2714; |
-|Microsoft Teams |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
 |Telefonsystem |    &#x2714; |
 |Audiokonferenzen |       &#x2718; &Sup1;  |
 |Microsoft Intune |    &#x2718; |
@@ -80,7 +80,7 @@ Der gemeinsame Bereich, Telefon von der Lizenz unterstützt wird:
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 
-1. Wechseln Sie Microsoft 365 Admin Center zu Benutzer, die  >  **aktive Benutzer**  >  **hinzufügen.**
+1. Wechseln Sie Microsoft 365 Admin Center zu **Benutzer,**  >  **die aktive Benutzer**  >  **hinzufügen.**
 
 2. Geben Sie einen Benutzernamen wie "Main" für den Vornamen und "Empfang" für den zweiten Namen ein.
 
@@ -92,7 +92,7 @@ Der gemeinsame Bereich, Telefon von der Lizenz unterstützt wird:
 
 6. Weisen Sie die Lizenzen dem Benutzer zu. Klicken Sie auf der gleichen Seite auf **Produktlizenzen** erweitern. Aktivieren Sie das gemeinsame Telefon und wählen  Sie entweder einen Plan für Inlandsrufe oder einen Plan für **Inlands- und Auslandsrufe aus.** 
 
-    ![Screenshot mit Lizenzzuweisung](media/set-up-common-area-phone-image2.png)
+    ![Screenshot einer Lizenzzuweisung mit hervorgehobenen Anrufplanoptionen für Inland und Ausland](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > Wenn Sie das Direct Microsoft-Telefon-Routing-System verwenden, müssen Sie keine Anrufplanlizenz zuweisen.
@@ -113,7 +113,7 @@ Verwenden Sie Teams Admin Center, um dem Benutzer eine Nummer zuzuordnen.
 
 6. Klicken Sie auf **Speichern** und Ihr Benutzer sollte so aussehen:
 
-   ![Screenshot mit Lizenzzuweisung](media/set-up-common-area-phone-image3.png)
+   ![Screenshot einer Beispiellizenzzuweisung für Benutzer](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Benutzer werden nur dann anzeigen, wenn sie über eine Telefonsystem verfügen. Wenn Sie dies gerade erst getan haben, dann kann es etwas dauern, bis der Benutzer in der Liste erscheint.

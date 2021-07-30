@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510346"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646226"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams von zertifizierten Geräten
 
@@ -129,8 +129,8 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell        | Firmwareversion     | Enthaltene Produktversion  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0342  | 2021 Update #2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | 2021 Update #2                     |
+| Poly Trio C60   | 7.0.3.0517  | 2021 Update #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | 2021 Update #2                     |
 | Audiocodes C448HD/C450HD/C470HD   | 1.10.143  | 2021 Update #2           |
 | Yealink T55/T56/T58   | 58.15.0.131  | 2021 Update #2                       |
 | Yealink VP59   | 91.15.0.63  | 2021 Update #2                               |
@@ -183,7 +183,7 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
-| AudioCodes RECEIVERV80 |1.13.356   | 2021 Update #2 |
+| AudioCodes RECEIVERV80 |1.13.361   | 2021 Update #2 |
 | Yealink VC210 |118.15.0.54   | 2021 Update #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 Update #2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | 2021 Update #2    |
