@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
-ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536831"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646426"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
@@ -54,6 +54,12 @@ Der Gastzugriff in Microsoft Teams erfordert das Konfigurieren anderer Einstellu
 - Wenn Sie mit einer Partnerorganisation zusammenarbeiten möchten, die Azure Active Directory verwendet, und es Gästen gestatten möchten, sich selbst für den Zugang zu Teams zu registrieren, lesen Sie [Erstellen eines B2B-Extranets mit verwalteten Gästen](/microsoft-365/solutions/b2b-extranet).
 
 Der Gastzugriff ist eine organisationsweite Einstellung in Microsoft Teams, die standardmäßig deaktiviert ist. Sie können den Gastzugriff auf einzelne Teams mithilfe von [Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) steuern.
+
+### <a name="turning-guest-access-off"></a>Gastzugriff deaktivieren
+
+Wenn Sie den Gastzugriff in Microsoft Teams deaktivieren, verlieren vorhandene Gäste den Zugriff auf ihr Team. Sie werden jedoch nicht aus dem Team entfernt. Sie sind weiterhin für die Teammitglieder sichtbar und können @erwähnt werden. Wenn Sie den Microsoft Teams-Gastzugriff wieder aktivieren, erhalten die Gäste den Zugriff wieder.
+
+Wenn Sie den Gastzugriff deaktivieren möchten, sollten Sie Ihren Teambesitzern empfehlen, die Gastkonten manuell aus ihren Teams zu entfernen. Wenn diese Gäste keinen Zugriff haben, aber ihre Konten weiterhin im Team angezeigt werden, kann dies zu Verwirrung für andere Teammitglieder führen.
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>So wird ein Gast Mitglied eines Teams
 

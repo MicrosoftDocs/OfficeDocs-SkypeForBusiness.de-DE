@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Verwenden Sie Advisor für Teams zur Unterstützung der Planung und Durchführung der Bereitstellung von Microsoft Teams
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240550"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646616"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Durchführen des Rollouts von Microsoft Teams mithilfe von Advisor für Teams
 
@@ -71,8 +71,16 @@ Advisor für Teams bietet zurzeit die folgenden Pläne:
     - Forms-Benutzerumfrage
     - Advisor für Teams-Bot
     - Der Skype for Business-Upgradeplan ist für Kunden gedacht, die zurzeit Skype for Business Online oder Skype for Business in lokalen Umgebungen verwenden, und hilft Ihnen, Unsicherheiten bei einem Upgrade zu beseitigen.  Der Plan basiert auf einem bewährten Gerüst für die erfolgreiche Implementierung von Änderungen und führt Sie schrittweise durch den Prozess, ganz gleich, ob Sie gerade erst mit Microsoft Teams beginnen, es bereits zusammen mit Skype for Business nutzen oder ein Upgrade vornehmen möchten. Der Plan bietet außerdem den Zugriff auf [Online-Leitfäden und bewährte Methoden](./upgrade-start-here.md), [herunterladbare Ressourcen](https://aka.ms/UpgradeSuccessKit), [Live 1: viele Planungs-Workshops](./upgrade-workshops-landing-page.yml) und weitere Ressourcen zur Unterstützung Ihres Erfolgs.
+1. Education (nur für Bildungseinrichtungen sichtbar)
+    - Mandantenbewertung
+    - Planer-Plan, einschließlich Umstiegsaufgaben
+    - Forms-Benutzerumfrage
+    - Advisor für Teams-Bot
+    - Der Education-Plan wurde für Bildungseinrichtungen entwickelt und hilft Ihnen bei der Bereitstellung, Einführung und Verwaltung von Microsoft Teams in Ihrer Bildungseinrichtung.
 
-Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
+Kommerzielle Organisationen sollten mit dem Plan „Chat, Teams, Kanäle und Apps“ starten. Bildungseinrichtungen sollten mit dem Education-Plan beginnen. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
+
+
 
 ## <a name="tenant-assessment"></a>Mandantenbewertung
 

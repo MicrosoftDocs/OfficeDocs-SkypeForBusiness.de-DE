@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
-ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
+ms.openlocfilehash: 854443e529736207520cbfdbe845c0b4992f9cd6
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463298"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53647016"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Schnellstart: Besprechungen, Webinare und Liveereignisse 
 
@@ -42,25 +42,31 @@ Dieser Artikel richtet sich an Administratoren und IT-Experten. Darin werden kur
 
 Die verschiedenen Arten von Besprechungen weisen auch unterschiedliche Teilnehmerlimits und -funktionen auf. 
 
-In der folgenden Tabelle werden die drei Arten von Besprechungen, die Anzahl der empfohlenen Teilnehmer und wie diese in der Besprechung miteinander interagieren können kurz zusammengefasst. Weitere Informationen zu den einzelnen Besprechungstypen finden Sie nach der Tabelle.
-<br><br>
+In der folgenden Tabelle werden die drei Arten von Besprechungen, die Anzahl der empfohlenen Teilnehmer und wie diese in der Besprechung miteinander interagieren können kurz zusammengefasst. Weitere Informationen zu den einzelnen Besprechungstypen finden Sie nach der Tabelle.<br><br>
 
 | Besprechungstyp | Anzahl Teilnehmer | Interaktion | Unterstützung von Registrierungen |
 |----------|--------|--------|-----|
-| Besprechungen  | Bis zu 20.000* <br> | – Bei bis zu 1.000 Teilnehmern stehen diesen die gleichen vollständig interaktiven Besprechungsfunktionen zur Verfügung. <br> – Bei 1.000 bis 20.000 Teilnehmern können diese nur [Nur-Ansicht](view-only-meeting-experience.md)-Funktionen nutzen.  | Nein |
-| Webinare | Bis zu 20.000* |– Bei bis zu 1.000 Teilnehmern stehen diesen vollständig interaktive Funktionen zur Verfügung. <br> – Bei 1.000 bis 20.000 Teilnehmern können diese nur [Nur-Ansicht](view-only-meeting-experience.md)-Funktionen nutzen.  <br> – Benutzergruppeninteraktion konfigurierbar <br> - Angabe von Referenten möglich | Ja |
-| Liveereignisse | Bis zu 20.000** |- Übertragung an große Benutzergruppen <br>– Moderierte F&A-Runden für die Interaktion mit Benutzergruppen <br> - Angabe von Produzenten und Referenten möglich, einschließlich externer Referenten<br>- Unterstützung erweiterter Produktionsfunktionen | Nein |
+| Besprechungen  | Bis zu 20.000* <br> | – Bis zu 1.000 Teilnehmern stehen die gleichen vollständig interaktiven Besprechungsfunktionen zur Verfügung. <br> – Bei über 1.000 bis zu 20.000 Teilnehmern stehen ihnen [Nur-Ansicht](view-only-meeting-experience.md)-Funktionen zur Verfügung.  | Nein |
+| Webinare | - Bis zu 1.000<br>– Höhere Grenzwerte mit [Nur anzeigen](view-only-meeting-experience.md)-Funktionen stehen in Kürze zur Verfügung. |– Bis zu 1.000 Teilnehmern stehen vollständig interaktive Besprechungsfunktionen zur Verfügung. <br> – Benutzergruppeninteraktion konfigurierbar. <br> - Angabe von Referenten möglich. | Ja |
+| Liveereignisse | Bis zu 20.000** |– Übertragung an große Benutzergruppen. <br>– Moderierte Q&A-Runden für die Interaktion mit Benutzergruppen. <br> – Angabe von Produzenten und Referenten möglich, einschließlich externer Referenten.<br>– Unterstützung erweiterter Produktionsfunktionen. | Nein |
 ||||
 
 *Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht.<br>
 
-**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](https://docs.microsoft.com/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](https://docs.microsoft.com/stream/live-events-assistance) erforderlich ist. 
+**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist. 
 
-Für eine optimale Benutzererfahrung in großen Besprechungen empfehlen wir die Verwendung des Microsoft Teams-Desktopclients oder der mobilen Microsoft Teams-Clients. Bei großen Besprechungen sollten Referenten den Microsoft Teams-Desktopclient verwenden. Weitere Tipps zum Hosten großer Besprechungen finden Sie unter [Bewährte Methoden für eine große Microsoft Teams-Besprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+**Überlegungen zu großen Besprechungen, Webinaren und Liveereignissen** – Berücksichtigen Sie beim Hosten großer Besprechungen Folgendes:
+
+- Für eine optimale Benutzererfahrung in großen Besprechungen, Webinaren und Liveereignissen empfiehlt Microsoft die Verwendung der neuesten Version des Microsoft Teams-Desktopclients oder mobiler Microsoft Teams-Clients. 
+
+- Referenten in großen Besprechungen, Webinaren und Liveereignissen sollten den Teams-Desktopclient verwenden. 
+
+- Weitere Tipps zum Hosten großer Besprechungen finden Sie unter [Bewährte Methoden für eine große Microsoft Teams-Besprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
 Informationen zum Nur-Ansicht-Modus finden Sie unter [Microsoft Teams-Besprechungen im Nur-Ansicht-Modus](view-only-meeting-experience.md).
 
 NDI wird in Besprechungen, Webinaren und Liveereignissen vollständig unterstützt, daher ist die Übertragung mithilfe von Tools wie OBS und Wirecast möglich. Weitere Informationen finden Sie unter [Verwenden von NDI®-Technologien in Microsoft Teams](use-ndi-in-meetings.md).
+
 
 ### <a name="meetings"></a>Besprechungen
 

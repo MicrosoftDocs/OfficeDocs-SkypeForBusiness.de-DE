@@ -1,6 +1,6 @@
 ---
 title: Grenzwerte und Spezifikationen für Microsoft Teams
-author: microsoftheidi
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.topic: reference
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506344"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646036"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -125,12 +125,12 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
   
-<sup>1</sup> Für eine optimale Benutzererfahrung in großen Besprechungen, Webinaren und Liveereignissen empfiehlt Microsoft die Verwendung des Teams-Desktopclients oder mobiler Teams-Clients.
-  
+<sup>1</sup> Für eine optimale Benutzererfahrung in großen Besprechungen, Webinaren und Liveereignissen empfiehlt Microsoft die Verwendung der neuesten Version des Microsoft Teams-Desktopclients oder mobiler Microsoft Teams-Clients.
+
 <sup>2</sup> Referenten in großen Besprechungen, Webinaren und Liveereignissen sollten den Teams-Desktopclient verwenden. Weitere Tipps zum Hosten großer Besprechungen finden Sie unter [Bewährte Methoden für eine große Teams-Besprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
-  
+
 > [!NOTE]
-> Gruppenräume können nur in Besprechungen mit weniger als 300 Teilnehmern erstellt werden. Darüber hinaus schränkt das Erstellen von Gruppenräumen in einer Besprechung automatisch die Anzahl der Besprechungsteilnehmer auf 300 ein. Empfehlen Sie Ihren Endbenutzern, keine Gruppenräume in Besprechungen zu initiieren, in denen sie mehr als 300 Teilnehmer erwarten. Weitere Informationen zu großen Teambesprechungen erhalten Sie, wenn Sie die Anleitung [Bewährte Methoden für eine große Teambesprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) mit Ihren Endbenutzern teilen. 
+> Gruppenräume können nur in Besprechungen mit weniger als 300 Teilnehmern erstellt werden. Darüber hinaus schränkt das Erstellen von Gruppenräumen in einer Besprechung automatisch die Anzahl der Besprechungsteilnehmer auf 300 ein. Empfehlen Sie Ihren Endbenutzern, keine Gruppenräume in Besprechungen zu initiieren, in denen sie mehr als 300 Teilnehmer erwarten. Weitere Informationen zu großen Teambesprechungen erhalten Sie, wenn Sie die Anleitung [Bewährte Methoden für eine große Teambesprechung](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) mit Ihren Endbenutzern teilen.
 
 ### <a name="meeting-expiration"></a>Ablauf der Besprechung
 
@@ -169,7 +169,7 @@ Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Teams-L
 >- 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
 >- Ereignisdauer von 16 Stunden pro Übertragung
 >
-> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions). 
+> Außerdem können Live Events mit bis zu 100.000 Teilnehmern über das Microsoft 365-Unterstützungsprogramm geplant werden. Das Team bewertet jede Anfrage und arbeitet mit Ihnen zusammen, um die eventuell verfügbaren Optionen zu bestimmen. [Weitere Informationen](https://aka.ms/Stream/Blog/LiveEventOptions).
 
 ## <a name="presence-in-outlook"></a>Anwesenheit in Outlook
 
