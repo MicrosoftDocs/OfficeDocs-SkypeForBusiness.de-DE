@@ -19,18 +19,18 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: b66a65f9c3c5bf42911062d1af0a68b975363cfa
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565711"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660743"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
 In Microsoft Teams können Benutzer ihre Besprechungen und Gruppenanrufe aufzeichnen, um Aktivitäten der Audio-, Video- und Bildschirmfreigabe festzuhalten. Es gibt auch eine Option für die automatische Transkription von Aufzeichnungen, sodass Benutzer Besprechungsaufzeichnungen mit Untertiteln wiedergeben und nach wichtigen Diskussionsbeiträgen in der Transkription suchen können. Die Aufzeichnung erfolgt in der Cloud und wird im Microsoft OneDrive for Business und Microsoft Office SharePoint Online gespeichert, sodass Benutzer sie sicher in ihrer Organisation freigeben können.
 
-Wenn eine Besprechung aufgezeichnet wird, geschieht dies automatisch:
+Wenn eine Besprechung aufgezeichnet wird, erfolgt damit Folgendes automatisch:
 
 - In OneDrive for Business oder SharePoint Online hochgeladen
 - Berechtigung für die zur Besprechung eingeladenen Personen
@@ -83,7 +83,7 @@ Aktivieren bzw. deaktivieren Sie im Microsoft Teams Admin Center die Einstellung
 
 Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowCloudRecording“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Beachten Sie, dass sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung über die Berechtigung zum Aufzeichnen der Besprechung verfügen müssen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowCloudRecording standardmäßig aktiviert ist.
+Sowohl der Besprechungsorganisator als auch der Initiator der Aufzeichnung müssen über die Berechtigung zum Aufzeichnen der Besprechung verfügen. Wenn Sie den Benutzern keine benutzerdefinierte Richtlinie zugewiesen haben, erhalten die Benutzer die globale Richtlinie, in der AllowCloudRecording standardmäßig aktiviert ist.
 
 > [!NOTE]
 > Weitere Informationen zur Verwendung von Teams-Rollen zum Konfigurieren der Berechtigung, eine Besprechung aufzuzeichnen, finden Sie unter [Rollen in einer Teams-Besprechung](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -103,15 +103,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 |Szenario|Schritte|
 |--|--|
 | Ich möchte, dass alle Benutzer in meinem Unternehmen ihre Besprechungen aufzeichnen können. | <ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = True aufweist.<li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy oder eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = True.</ol> |
-| Ich möchte, dass die Mehrzahl meiner Benutzer in der Lage ist, ihre Besprechungen aufzuzeichnen, aber selektiv bestimmte Benutzer zu deaktivieren, die nicht dazu in der Lage sein sollen. | <ol><li>Stellen Sie sicher, dass GlobalCsTeamsMeetingPolicy den Eintrag AllowCloudRecording = True aufweist.<li>Die meisten Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = True.<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = False zugewiesen.</ol> |
+| Ich möchte, dass die meisten meiner Benutzer in der Lage ist, ihre Besprechungen aufzuzeichnen, aber selektiv bestimmte Benutzer deaktivieren, die nicht dazu in der Lage sein sollen. | <ol><li>Stellen Sie sicher, dass die GlobalCsTeamsMeetingPolicy den Eintrag AllowCloudRecording = True aufweist.<li>Den meisten Benutzer wurde die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = True zugewiesen.<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = False zugewiesen.</ol> |
 | Ich möchte, dass die Aufzeichnung zu 100% deaktiviert ist. | <ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist.<li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False. |
-| Ich möchte, dass die Aufzeichnung für die Mehrheit der Benutzer deaktiviert wird und bestimmte Benutzer, denen die Aufzeichnung erlaubt ist, selektiv aktiviert werden. | <ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist.<li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False.<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen. <ol> |
+| Ich möchte, dass die Aufzeichnung für die Mehrheit der Benutzer deaktiviert wird und bestimmte Benutzer, denen die Aufzeichnung erlaubt ist, selektiv aktiviert werden. | <ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist.<li>Den meisten Benutzern wurde die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False zugewiesen.<li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen. <ol> |
 
 
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Blockieren oder Zulassen des Downloads von Aufzeichnungen von Kanalbesprechungen
 
-Diese Einstellung steuert, ob Kanalbesprechungen in einem Ordner "Aufzeichnungen" oder in einem Ordner "Aufzeichnungen\Nur anzeigen" im Kanal gespeichert werden.
+Diese Einstellung steuert, ob Kanalbesprechungen in einem Ordner "Aufzeichnungen" oder in einem Ordner "Aufzeichnungen\Nur anzeigen" im Kanal gespeichert werden. Die Einstellung gilt für die Richtlinie des Benutzers, der die Aufzeichnung für die Kanalbesprechung auswählt. 
 
 Die beiden Werte für diese Einstellung sind:
 
@@ -175,7 +175,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Szenario|Schritte |
 |---|---|
 |Ich möchte, dass alle Benutzer in meinem Unternehmen beim Initiieren einer Besprechungsaufzeichnung transkribieren können. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = True aufweist. <li>Alle Benutzer verfügen über die globale csTeamsMeetingPolicy oder eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = True. </ol>|
-|Ich möchte, dass die Mehrzahl meiner Benutzer in der Lage ist, ihre Besprechungen zu transkribieren, aber selektiv bestimmte Benutzer zu deaktivieren, die nicht dazu in der Lage sein sollen. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = True aufweist. <li>Die Mehrheit der Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = True. <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowTranscription = False zugewiesen. </ol>|
+|Ich möchte, dass die meisten meiner Benutzer in der Lage sind, Besprechungsaufzeichnungen zu transkribieren, aber selektiv bestimmte Benutzer deaktivieren, die nicht dazu in der Lage sein sollen. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = True aufweist. <li>Die Mehrheit der Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = True. <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowTranscription = False zugewiesen. </ol>|
 |Ich möchte, dass die Transkription der Aufzeichnung zu 100% deaktiviert ist. |<ol><li>Stellen Sie sicher, dass die globale CsTeamsMeetingPolicy den Eintrag AllowTranscription = False aufweist. <li>Alle Benutzer verfügen über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowTranscription = False. </ol>|
 |Ich möchte, dass die Transkription für die Mehrzahl der Benutzer deaktiviert wird, aber selektiv bestimmte Benutzer aktivieren, die in der Lage sind, Aufzeichnungen zu transkribieren. |<ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist. <li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False. <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen. </ol>|
 
@@ -236,7 +236,7 @@ Weitere Informationen zu bestimmten Besprechungstypen finden Sie in der folgende
 <a name="temp-storage"></a>
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>Temporärer Speicher, der nicht in OneDrive for Business und SharePoint Online hochgeladen werden kann
 
-Wenn eine Besprechungsaufzeichnung nicht in OneDrive for Business und SharePoint Online hochgeladen werden kann, steht sie vorübergehend 21 Tage lang aus Teams zum Download zur Verfügung, bevor sie gelöscht wird. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
+Wenn eine Besprechungsaufzeichnung nicht in OneDrive for Business und SharePoint Online hochgeladen werden kann, steht sie vorübergehend 21 Tage lang über Microsoft Teams zum Download zur Verfügung, bevor sie gelöscht wird. Derzeit kann ein Administrator dies weder steuern noch verwalten, einschließlich der Möglichkeit zum Löschen.
 
 Besprechungsaufzeichnungen können aus den folgenden Gründen in diesem temporären Speicher abgelegt werden:
 
@@ -254,6 +254,114 @@ Die Aufzeichnung wird in diesem Fall im temporären Speicher aufbewahrt und sie 
 
 Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft OneDrive for Business und SharePoint Online verfügen.  Lesen Sie [Festlegen des Standardspeicherplatzes für OneDrive for Business](/onedrive/set-default-storage-space) und [Verwalten von Speicherlimiten für SharePoint Online-Websites](/sharepoint/manage-site-collection-storage-limits), um den im Abonnement enthaltenen Basisspeicher zu verstehen und zu erfahren, wie Sie zusätzlichen Speicher erwerben können.
 
+ <a name="auto-expiration"></a>
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Automatisches Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen: 
+
+> [!IMPORTANT] 
+>
+> Das in diesem Artikel beschriebene Feature für das automatische Ablaufen wurde noch nicht veröffentlicht. Nähere Informationen zum Veröffentlichungstermin finden Sie in der [Roadmap (Feature-ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580). 
+> 
+> Hier finden Sie Informationen zur Funktionsweise dieses Features in der ZUKUNFT, damit Sie sich auf diese Änderung vorbereiten und die Microsoft Teams-Richtlinieneinstellungen im Voraus entsprechend ändern können. 
+
+Lesen Sie Antworten auf häufig gestellte Fragen für Administratoren und Endbenutzer, um Erkenntnisse darüber zu erhalten, wie das automatische Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen funktionieren wird, welche Maßnahmen Sie jetzt ergreifen können und welche nach Veröffentlichung des Features. 
+  
+## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+
+**Worin besteht die Änderung?**
+  
+Wir führen eine Standard-Ablauffrist von 60 Tagen für alle neu erstellten Microsoft Teams-Besprechungsaufzeichnungen ein. Dies bedeutet, dass standardmäßig alle nach dem Aktivieren dieses Features erstellten Microsoft Teams-Besprechungsaufzeichnungen 60 Tage nach dem Erstellungsdatum gelöscht werden. Wenn Administratoren möchten, dass Besprechungsaufzeichnungen früher oder später als die Standardeinstellung ablaufen, können sie die Ablaufeinstellung ändern. Die OneDrive- und SharePoint-Systeme überwachen das Ablaufdatum, das für alle Besprechungsaufzeichnungen festgelegt ist, und verschieben Letztere zum Ablaufdatum automatisch in den Papierkorb. 
+
+**Wer ist betroffen?**
+  
+Alle, die eine Microsoft Teams-Besprechungsaufzeichnung (kanalexterne, Kanal- oder Ad-hoc-Besprechung) in OneDrive oder SharePoint speichern. 
+
+**Warum sollte ich dieses Feature verwenden?**
+  
+Sie sollten dieses Feature verwenden, um den von Microsoft Teams-Besprechungsaufzeichnungen belegten OneDrive- oder SharePoint-Speicherplatz zu beschränken (Hinweis: In der Regel werden etwa 400 MB pro Stunde Aufzeichnung belegt). 
+  
+**Warum wird diese Änderung eingeführt?**
+  
+Kunden haben auffallend häufig bekundet, dass sie mehr Kontrollmöglichkeiten wünschen, um die Speicherbelegung durch Microsoft Teams-Besprechungsaufzeichnungen zu reduzieren. 99 % davon werden durchschnittlich nach 60 Tagen nie wieder angesehen.
+  
+**Warum wird dies standardmäßig aktiviert sein?**
+  
+Wir glauben, dass fast alle Kunden von der verringerten Speicherbelegung in den Mandanten profitieren werden, wenn Aufzeichnungen entfernt werden, die wahrscheinlich nach 60 Tagen nicht mehr angesehen werden. Unser Ziel ist es, allen Kunden standardmäßig ein möglichst optimiertes Benutzererlebnis zu bieten. 
+  
+**Wie wird das Ablaufdatum berechnet?**
+  
+Das Ablaufdatum wird als der Tag berechnet, an dem die Besprechungsaufzeichnung erstellt wurde, plus der Standardanzahl von Tagen, die der Administrator in den Microsoft Teams-Einstellungen festgelegt hat. 
+  
+**Wie kann ein Administrator das Ablaufdatum ändern?**
+  
+Administratoren können die Standardablaufeinstellung derzeit in PowerShell ändern. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Microsoft Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
+
+Administratoren können eine maximale Ablauffrist von 99.999 Tagen bzw. 273 Jahren festlegen. Administratoren können das Ablaufdatum für bestehende Microsoft Teams-Besprechungsaufzeichnungen, die bereits in OneDrive oder SharePoint hochgeladen wurden, nicht ändern, bevor dieses Feature veröffentlicht wird. Dadurch wird der Absicht des Benutzers Rechnung getragen, der Besitzer der betreffenden Microsoft Teams-Besprechungsaufzeichnung ist. 
+
+  Beispiel für einen PowerShell-Befehl: 
+  
+  ```powershell
+  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
+  ```
+  
+**Was kann über die Administratorrichtlinie gesteuert werden?**
+  
+Sowohl für Besprechungen als auch für Anrufe wird die selbe `CsTeamsMeetingPolicy`Einstellung`MeetingRecordingExpirationDays` verwendet. 
+  
+**Wie können Endbenutzer das Ablaufdatum für eine bestimmte Microsoft Teams-Besprechungsaufzeichnung ändern?**
+  
+Jeder Benutzer, der über Bearbeitungs- und Löschberechtigungen für eine bestimmte Microsoft Teams-Besprechungsaufzeichnung verfügt, kann deren Ablaufdatum im Detailbereich der Datei in OneDrive oder SharePoint ändern. 
+
+Der Benutzer kann den Ablauf um 14, 30 oder 60 Tage verschieben, ein bestimmtes Datum in der Zukunft auswählen oder festlegen, dass die Datei nie abläuft. 
+  
+**Sollten Administratoren diese Funktion für strikte Sicherheit und Complianceeinhaltung nutzen?**
+  
+Nein, Administratoren sollten sich nicht auf dieses Feature für den rechtlichen Schutz verlassen, da Endbenutzer das Ablaufdatum aller Aufzeichnungen ändern können, über die sie die Kontrolle haben. 
+  
+**Wird durch dieses Feature die Dateiaufbewahrung erzwungen?**
+  
+Nein, es werden keine Dateien aufgrund dieses Features oder seiner Einstellungen aufbewahrt. Wenn ein Benutzer mit Löschberechtigungen versucht, eine Microsoft Teams-Besprechungsaufzeichnung mit aktiver Ablaufeinstellung zu löschen, wird die Aufzeichnung gelöscht.
+ 
+**Hat eine Aufbewahrungs- und/oder Löschrichtlinie, die ich im Security & Compliance Center (S+C) festgelegt habe, Vorrang vor der Ablaufeinstellung für Microsoft Teams-Besprechungsaufzeichnungen?**
+  
+Ja, alle Richtlinien, die Sie im S+C Center festgelegt haben, haben Vorrang. Zum Beispiel: 
+  
+- Wenn eine Ihrer Richtlinie vorsieht, dass alle Dateien auf einer Site 100 Tage lang aufbewahrt werden müssen, und die Ablaufeinstellung für eine Microsoft Teams-Besprechungsaufzeichnung 30 Tage beträgt, wird die Aufzeichnungsdatei für die gesamten 100 Tage aufbewahrt.  
+- Wenn eine Löschrichtlinie vorsieht, dass alle Microsoft Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden und Sie für eine Aufzeichnungsdatei eine Ablauffrist von 30 Tagen festgelegt haben, wird diese Datei nach fünf Tagen gelöscht. 
+
+**Was geschieht, wenn eine Microsoft Teams-Besprechungsaufzeichnung "abläuft"?**
+  
+Am Ablaufdatum wird die Microsoft Teams-Besprechungsaufzeichnung in den OneDrive- oder SharePoint-Papierkorb verschoben, und das Ablaufdatumsfeld wird geleert. Dieser Systemvorgang entspricht dem Löschen der Datei durch einen Benutzer. Der Lebenszyklus im Papierkorb folgt anschließend dem herkömmlichen Ablauf. Wenn der Benutzer die Microsoft Teams-Besprechungsaufzeichnung aus dem Papierkorb wiederherstellt, wird sie von diesem Feature nicht erneut gelöscht, da das Ablaufdatum gelöscht wurde, es sei denn, der Endbenutzer legt ein neues Ablaufdatum für sie fest. 
+  
+**Wie werde ich über das Ablaufen einer Datei in Kenntnis gesetzt?**
+  
+Allen Benutzern mit Ansichtrechten wird ein Hinweis zum Ablaufdatum in der Aufzeichnungsbenachrichtigung im Microsoft Teams-Chatfenster angezeigt. 
+  
+Alle Benutzer mit Ansichtrechten werden 14 Tage lang vor Ablauf der Datei neben dieser ein rotes Symbol in ihrem OneDrive- oder SharePoint-Ordner sehen. 
+  
+Der Dateibesitzer erhält eine E-Mail-Benachrichtigung, wenn die Microsoft Teams-Besprechungsaufzeichnung abläuft, und wird zum Papierkorb weitergeleitet, um die Microsoft Teams-Besprechungsaufzeichnung eventuell wiederherzustellen.
+  
+**Welche SKUs sind für dieses Feature erforderlich?**
+  
+Alle SKUs verfügen standardmäßig über dieses Feature. Bei A1-Benutzer wird die Ablauffrist standardmäßig 30 Tage betragen; diese kann nicht geändert werden.
+  
+**Handelt es sich bei dem Dateiablauf um ein überwachtes Ereignis, und wird es in meinen Überwachungsprotokollen aufscheinen?**
+  
+Ja, Dateiabläufe werden als Systemlöschereignisse im Überwachungsprotokoll festgehalten. 
+  
+**Was muss ich tun, wenn ich möchte, dass der Administrator die vollständige Kontrolle über den Lebenszyklus von Microsoft Teams-Besprechungsaufzeichnungen hat, und dass Endbenutzer das Ablaufdatum nicht ändern können?**
+  
+Es wird empfohlen, die S+C-Aufbewahrungs- und/oder Löschrichtlinien zu verwenden, die als Teil der E5-Compliance-SKU verfügbar sind. Dieses Angebot ist auf die Vereinfachung im Zusammenhang mit komplexen Richtlinien und SLA-abhängigen, administrativ-rechtlichen Aspekten ausgerichtet. 
+
+Dieses Feature ist nur als einfache Lösung zur Reduzierung der Speicherbelegung durch nicht mehr benötigte Microsoft Teams-Besprechungsaufzeichnungen gedacht. 
+  
+**Wann wird die Datei gelöscht?**
+  
+Die Datei wird innerhalb von 5 Tagen nach dem Ablaufdatum gelöscht, die genaue Einhaltung wird jedoch nicht gewährleistet. 
+  
+**Werden zukünftige Microsoft Teams-Besprechungsaufzeichnungen, die nach der Veröffentlichung dieses Features aus dem klassischen Stream migriert werden, ebenfalls automatisch ablaufen?**
+  
+Nein, für migrierte Microsoft Teams-Besprechungsaufzeichnungen wird kein Ablauf festgelegt. Wir empfehlen jedoch Administratoren, nur Microsoft Teams-Besprechungsaufzeichnungen zu migrieren, die sie beibehalten möchten. Weitere Informationen werden in der Migrationsdokumentation enthalten sein.
+  
 ## <a name="manage-meeting-recordings"></a>Verwalten von Besprechungsaufzeichnungen
 
 Besprechungsaufzeichnungen werden als Videodateien in OneDrive for Business und SharePoint Online gespeichert und folgen den Verwaltungs- und Governanceoptionen, die auf diesen Plattformen verfügbar sind. Lesen Sie [SharePoint Online-Governance (Übersicht)](/sharepoint/governance-overview), [OneDrive for Business Leitfaden für Unternehmen](/onedrive/plan-onedrive-enterprise) oder [OneDrive for Business Leitfaden für kleine Unternehmen](/onedrive/one-drive-quickstart-small-business), um weitere Informationen zu erhalten.
@@ -273,7 +381,7 @@ Zukünftige Änderungen an dem Link zwischen dem Transkript in Teams und der Auf
 > [!NOTE]
 > Es gibt nur englische Untertitel (Besprechungstranskription ist in GCC noch nicht verfügbar).
 
-## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Compliance und eDiscovery für Besprechungsaufzeichnungen
+## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>eDiscovery und Compliance für Besprechungsaufzeichnungen
 
 ### <a name="ediscovery"></a>eDiscovery
 
