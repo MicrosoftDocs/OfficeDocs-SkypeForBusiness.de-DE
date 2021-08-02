@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden finden Sie einige der häufigsten Fragen, die wir von unseren Kunden erhalten, die Audiokonferenz nutzen möchten.
-ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
-ms.translationtype: HT
+ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856414"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679750"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
 
@@ -131,10 +131,11 @@ Wir arbeiten an einer Lösung, die es dem Benutzer ermöglicht, auf eine PIN zuz
 
 Für Besprechungsteilnehmer und Organisatoren:
 
-| Befehlsname | Befehlstaste | Beschreibung                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| Befehlsmenü | \*1          | Drücken Sie \*1, um die Beschreibung der verfügbaren Wahltastenbefehle abzuspielen. |
-| Stummschalten/Stummschaltung aufheben  | \*6          | Drücken Sie \*6, um sich selber stumm zu schalten oder die Stummschaltung aufzuheben.                         |
+| Befehlsname    | Befehlstaste | Beschreibung                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| Befehlsmenü    | \*1          | Drücken Sie \*1, um die Beschreibung der verfügbaren Wahltastenbefehle abzuspielen. |
+| Heben/Untere Hand| \*5          | Drücken Sie \* 5, um die Hand zu erhöhen oder zu senken.                                           |  
+| Stummschalten/Stummschaltung aufheben     | \*6          | Drücken Sie \*6, um sich selber stumm zu schalten oder die Stummschaltung aufzuheben.                                     |
 
 Nur für Besprechungsorganisatoren:
 

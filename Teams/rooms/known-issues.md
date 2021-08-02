@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann sich über eine Liste der bekannten Probleme für Microsoft Teams-Räume informieren, einschließlich Update, Benutzeroberfläche, Hardware, Einschränkungen und erwartetem Verhalten.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d601db3c028c7c93a97131db48de81bdcab314e4
-ms.sourcegitcommit: bd7b4986044f7921b25506488dfed405fc2e7ca3
+ms.openlocfilehash: b3656e73226f29f6580a4ae3a1807ee8273731a8
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877487"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679780"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
@@ -32,7 +32,7 @@ Dieser Artikel führt die bekannten Probleme für Microsoft Teams Rooms nach Fun
 | Problemtitel |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
 |  ---        |      ---             |   ---            | --- |
 | Anwendung wird nicht gestartet |  Nach dem Update auf Anwendungsversion 4.4.41.0 wird das System auf einen schwarzen Bildschirm ge bootst, oder nach ein paar Minuten zum Anmeldebildschirm wechseln. | Führen Sie die Schritte in Microsoft Teams-Räume Anwendung wird nach dem Update auf [Version 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) nicht gestartet, um dieses Problem zu beheben.  | Keine |
-|  Geringes Besprechungsvolumen nach Inhaltsfreigabe         |   Microsoft Teams-Räume auf Windows 10 20H2-Geräten verringert sich die Medien- und Besprechungslautstärke nach der Freigabe von Inhalten über den HDMI-Eingang im Raum. Dies wird durch ein Audioproblem in Windows 10 20H2 verursacht. | Für dieses Problem gibt es zurzeit keine Problemumgehung. Um die Auswirkung auf die Audiolautstärke von Besprechungen (z. B. Teilnehmerstimme) zu verringern, haben wir HDMI-Audio auf allen Geräten Teams-Räume deaktiviert. Das Windows 10 untersucht das Problem derzeit, und eine Kundenempfehlung bleibt in Kraft, bis eine Lösung gefunden wurde. | Keine |
+|  Geringes Besprechungsvolumen nach Inhaltsfreigabe         |   Microsoft Teams-Räume auf Windows 10 20H2-Geräten verringert sich die Medien- und Besprechungslautstärke nach der Freigabe von Inhalten über den HDMI-Eingang im Raum. Dies wird durch ein Audioproblem in Windows 10 20H2 verursacht. | Der Fix für dieses Problem ist in Anwendungsversion [4.9.12.0 verfügbar.](/microsoftteams/rooms/rooms-release-note#49120-7282021) | Keine |
 |  App nicht mehr aktuell         |    Die Microsoft Teams Rooms-Konsole zeigt einen Fehler des Typs „Systemkonfiguration abgelaufen“ an.                |   [Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms](recovery-tool.md)             |  Keine |
 |  Gerät auf nicht unterstützte Version von Windows 10   |    Windows 10 von Version 1803 auf Version 1809 aktualisiert, was nicht unterstützt wird. Die unterstützte Version ist 1903. |   Dies kann geschehen, wenn die Gruppenrichtlinie- oder MDM-Einstellung für die Einstellung [DeferFeatureUpdatesPeriodinDays,](/windows/deployment/update/waas-configure-wufb) mit der Sie Funktionsupdates für eine bestimmte Anzahl von Tagen zurück stellen können, auf den Höchstwert von 365 Tagen festgelegt ist. <br><br> Windows 10 Version 1809 wird von Windows Microsoft Teams-Räume, während Version 1903 unterstützt wird. Ab dem 27. März 2020 ist Version 1809 jedoch mehr als 365 Tage alt. Wenn diese Einstellung nicht geändert wird, versucht Windows Version 1809 zu installieren, was zu Problemen mit dem Microsoft Teams-Räume.<br><br>Um diese Situation zu vermeiden, **entfernen** Sie alle Gruppenrichtlinien- oder MDM-Einstellungen zum Zurückdringen von Updates. Dadurch können Windows auf die neueste, unterstützte Betriebssystemversion aktualisieren. <br><br>**WICHTIG** Die Gruppenrichtlinie- oder MDM-Einstellung muss **entfernt** (links nicht konfiguriert) und **nicht auf "0" festgelegt werden.** Wenn die Richtlinie auf 0 festgelegt ist, Windows die neueste verfügbare Version verwendet, die möglicherweise nicht unterstützt wird. |  Keine |
 

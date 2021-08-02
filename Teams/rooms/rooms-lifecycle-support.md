@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Erfahren Sie mehr über die Lifecycle-Unterstützung von Microsoft Teams-Räume, einschließlich der Struktur und der Phasen der dynamischen Unterstützung.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6ac865a59f2342b97ddb8cb0ae5807427c10b85
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c34f448eeaadbf946ab708378caa835a94836ccc
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469677"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679730"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams-Räume – Unterstütze App-Versionen
  
@@ -73,10 +73,6 @@ Wenn Sie eine unterstützte Version von Windows 10 verwenden, erhalten Sie immer
 > 
 > Die Geräte mit Kompatibilitätsproblemen sind:
 > 
-> - HP Elite Slice
-> - HP Elite Slice G2 MS SRS Audio Ready
-> - HP Elite Slice MS SRS Partner Ready
-> - HP Elite Slice G2 mit MS MTR
 > - Crestron UC-Engine (BIOS-Version/Datum enthält "KYSKLI" – gibt ein Skull Canyon-BIOS an) 
 
 ## <a name="related-topics"></a>Verwandte Themen
