@@ -16,19 +16,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Auswählen Ihres Dienstanbieters für eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 9386ec49c6a23035e237f34c57dde363085ff1bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ab114934b66696675986f4eb17f84badf5fcefe3184fc59e64a67115abd5d84e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276640"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Auswählen eines E9-1-1-Dienstanbieters für Skype for Business Server
  
 Auswählen Ihres Dienstanbieters für eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP.
   
-Der E9-1-1-Dienstanbieter leitet Notrufe von Skype for Business Server an den richtigen öffentlichen Sicherheitsanrufpunkt (Public Safety Answering Point, PSAP) basierend auf den Standortinformationen weiter, die im Anruf enthalten sind. 
+Der E9-1-1-Dienstanbieter leitet Notrufe, die von Skype for Business Server stammen, basierend auf den in dem Anruf enthaltenen Standortinformationen an die richtige Rettungsstelle weiter. 
   
-Um E9-1-1 im Rahmen einer Skype for Business Server-Bereitstellung zu unterstützen, müssen Sie den E9-1-1-Routingdienst von einem qualifizierten E9-1-1-Dienstanbieter für das Lync Open Interoperability Program abrufen. Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.
+Um E9-1-1 als Teil einer Skype for Business Server Bereitstellung zu unterstützen, müssen Sie den E9-1-1-Routingdienst von einem qualifizierten E9-1-1-Dienstanbieter für das Lync Open Interoperability-Programm abrufen. Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.
 
-Eine Liste der E9-1-1-Routingdienste für Lync finden Sie unter [E-911 Services qualified for Lync](../../../SfbPartnerCertification/lync-cert/e-911-service-providers.md).
+Informationen zur Liste der E9-1-1-Routingdienste für Lync finden Sie unter [E-911-Dienste, die für Lync qualifiziert sind.](../../../SfbPartnerCertification/lync-cert/e-911-service-providers.md)

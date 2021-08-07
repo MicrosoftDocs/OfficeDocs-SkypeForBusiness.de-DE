@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnten (in der Regel aufgrund von Zugriffsfehlern der Active Directory-Domänendienste).
-ms.openlocfilehash: 3061a399de804898d3dc2c616fb3766206c2d624
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnten (in der Regel aufgrund von Zugriffsfehlern bei Active Directory Domain Services).
+ms.openlocfilehash: ddc8ef78f083235ccde122a3f26fd7f37e34b71d9643b1c729f802e3e080c413
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305367"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnten (in der Regel aufgrund von Zugriffsfehlern der Active Directory-Domänendienste).
+tblSkippedAffiliations enthält die Zuordnungen, die nicht gelesen werden konnten (in der Regel aufgrund von Zugriffsfehlern bei Active Directory Domain Services).
   
 **Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID  <br/> |
-|affDescription  <br/> |nvarchar (256), nicht NULL  <br/> |Zeichenfolge, die die Zuordnung identifiziert.  <br/> Das Format ist: guid:  _{0}_ uri: _{1}_> ID:  _{2}_ <br/> |
+|affDescription  <br/> |nvarchar (256), nicht NULL  <br/> |Zeichenfolge, die die Zuordnung identifiziert.  <br/> Das Format lautet: guid:  _{0}_ uri: _{1}_> ID:  _{2}_ <br/> |
 |updatedBy  <br/> |int, nicht NULL  <br/> |ID des Prinzipals, der diese Zeile aktualisiert hat. Der Wert ist immer 1 (Systembenutzer), da die Active Directory-Synchronisierung die einzige Quelle für diese Einträge ist.  <br/> |
    
 **Keys**
 
-|**Column(s)**|**Beschreibung**|
+|**Spalten**|**Beschreibung**|
 |:-----|:-----|
 |\<prinID, affDescription\>  <br/> |Primärschlüssel  <br/> |
 |prinID  <br/> |Fremdschlüssel mit Abfrage der "tblPrincipal.prinID"-Tabelle.  <br/> |

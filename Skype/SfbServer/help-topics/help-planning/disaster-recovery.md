@@ -1,5 +1,5 @@
 ---
-title: Notfallwiederherstellung (Planungstool)
+title: Skype for Business Server Tool zur Planung der Notfallwiederherstellung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, da Sie Front-End-Pools in zwei Rechenzentren koppeln können.
-ms.openlocfilehash: 844d22db9a7e21041fed426d0dd080bc10ba4782
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, indem Sie Front-End-Pools in zwei Rechenzentren koppeln können.
+ms.openlocfilehash: 3cec8edad0c4c5ab1394783948af94a19c1b7864
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772716"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Notfallwiederherstellung (Planungstool)
+# <a name="skype-for-business-server-disaster-recovery-planning-tool"></a>Skype for Business Server Tool zur Planung der Notfallwiederherstellung
  
-Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, da Sie Front-End-Pools in zwei Rechenzentren koppeln können.
+Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, indem Sie Front-End-Pools in zwei Rechenzentren koppeln können.
   
-Weitere Informationen zum Vorbereiten Ihrer Umgebung für die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Ausführliche Informationen zur Vorbereitung Ihrer Umgebung auf die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 

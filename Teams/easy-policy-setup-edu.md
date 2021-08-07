@@ -1,5 +1,5 @@
 ---
-title: Teams für Bildungseinrichtungen-Richtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen
+title: Teams für Education Richtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,20 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mithilfe des Teams für Bildungseinrichtungen Richtlinien für Schüler/Studierende und Lehrkräfte auf einfache Weise anwenden können, um Ihre Lernumgebung sicher zu halten.
+description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden können, um Ihre Lernumgebung sicher zu halten.
 f1keywords: ''
-ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772406"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Teams für Bildungseinrichtungen-Richtlinien-Assistenten zum einfachen Anwenden von Richtlinien für eine sichere Lernumgebung
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Teams für Education-Richtlinien-Assistenten zum einfachen Anwenden von Richtlinien für eine sichere Lernumgebung
 
 ## <a name="overview"></a>Übersicht
 
-Der Microsoft Teams für Bildungseinrichtungen-Richtlinien-Assistent vereinfacht die Verwaltung von Richtlinien für Ihre Schüler/Studierenden und Lehrkräfte. Verwenden Sie sie, um die wichtigsten Richtlinien für die Erstellung einer sicheren und produktiven Lernumgebung einfach und schnell anzuwenden.
+Der Microsoft Teams für Education-Richtlinien-Assistent vereinfacht die Verwaltung von Richtlinien für Ihre Schüler/Studierenden und Lehrkräfte. Verwenden Sie sie, um die wichtigsten Richtlinien für die Erstellung einer sicheren und produktiven Lernumgebung einfach und schnell anzuwenden.
 
 Mit Richtlinien in Teams können Sie steuern, Teams verhalten sich in Ihrer Umgebung verhält und welche Features den Benutzern zur Verfügung stehen. Beispielsweise gibt es Anrufrichtlinien, Besprechungsrichtlinien und Messagingrichtlinien, um nur einige zu nennen, und jeder Richtlinienbereich kann an die Anforderungen Ihrer Organisation angepasst werden.
 
@@ -41,9 +41,9 @@ Richtlinien müssen sowohl für Schüler/Studierende als auch für Lehrkräfte a
 Dieser Artikel führt Sie durch die Ausführung des Assistenten.
 
 > [!IMPORTANT]
-> Die vom Assistenten angewendeten Richtlinien erfüllen die Anforderungen des Großteils Teams Education-Kunden. Der Assistent passt die globale (organisationsweite Standard)-Definition eines Kern-Richtliniensets mit Einstellungen an, die wir für die Sicherheit von Kursteilnehmern empfehlen, und wendet sie auf Schüler/Studierende an. Der Assistent erstellt und weist außerdem einen Satz benutzerdefinierter Richtlinien für Lehrkräfte und Mitarbeiter zu. Die Teams Education-Kunden müssen nach der Ausführung dieses Assistenten keine anderen Richtlinienzuweisungsmethoden verwenden. Verwenden Sie andere Richtlinienzuweisungsmethoden *nur,* wenn Sie Richtlinien für Ihre Schüler/Studierenden, Lehrkräfte und Mitarbeiter manuell erstellen und verwalten möchten.
+> Die vom Assistenten angewendeten Richtlinien entsprechen den Anforderungen der Mehrzahl Teams für Education Kunden. Der Assistent passt die globale (organisationsweite Standard)-Definition eines Kern-Richtliniensets mit Einstellungen an, die wir für die Sicherheit von Kursteilnehmern empfehlen, und wendet sie auf Schüler/Studierende an. Der Assistent erstellt und weist außerdem einen Satz benutzerdefinierter Richtlinien für Lehrkräfte und Mitarbeiter zu. Die Teams für Education Kunden müssen nach der Ausführung dieses Assistenten keine anderen Richtlinienzuweisungsmethoden verwenden. Verwenden Sie andere Richtlinienzuweisungsmethoden *nur,* wenn Sie Richtlinien für Ihre Schüler/Studierenden, Lehrkräfte und Mitarbeiter manuell erstellen und verwalten möchten.
 
-## <a name="teams-for-education-policy-wizard"></a>Teams für Bildungseinrichtungen -Assistent
+## <a name="teams-for-education-policy-wizard"></a>Teams für Education Richtlinien-Assistent
 
 <a name="polwiz_intro"> </a>
 
@@ -55,6 +55,8 @@ Der Assistent richtet Richtlinien basierend auf dem Bildungseinrichtungstyp ( Pr
 - **Lehrkräfte und Mitarbeiter:** Der Assistent erstellt einen Satz benutzerdefinierter Richtliniendefinitionen für jeden vom Assistenten abgedeckten Richtlinienbereich mit Einstellungen, die auf die Anforderungen von Lehrkräften und Mitarbeitern zugeschnitten sind. Anschließend werden der Gruppe von Lehrkräften und Mitarbeitern, die Sie auswählen, die Richtliniendefinitionen zugewiesen. Auf diese Weise erhalten Ihre Lehrkräfte und Mitarbeiter eine Reihe von Richtlinien, die ihnen einen Erfolg ermöglichen.
 
 Sie müssen den Assistenten nur einmal ausführen. Neuen Kursteilnehmern werden automatisch die vom Assistenten angewendeten globalen (organisationsweiten) Richtliniendefinitionen und neuen Mitarbeitern, die Sie der ausgewählten Gruppe hinzufügen, automatisch die benutzerdefinierten Richtlinien zugewiesen.
+
+Außerdem wird bei jedem Hinzufügen eines neuen Features zu Teams der entsprechende edu-relevante Standardwert der Richtlinie für dieses Feature automatisch zum globalen (organisationsweiten Standard) hinzugefügt, ohne dass ein Administratoreingriff erforderlich ist. Dadurch wird sichergestellt, dass die richtigen Richtlinien aktiv sind, um die Schüler sicher und engagiert zu halten.
 
 > [!NOTE]
 > Eine [detaillierte Liste der vom](#policies-applied-by-the-wizard) Assistenten angewendeten Richtliniendefinitionen finden Sie unter Vom Assistenten angewendete Richtlinien.
@@ -135,9 +137,9 @@ Weitere [Sicherheitsempfehlungen](https://support.microsoft.com/office/keeping-s
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Schritt 3: Überprüfen des Nachrichtencenters auf Richtlinienupdates
 
-Derzeit wendet der Assistent unsere empfohlenen Richtlinien an, wenn Sie ihn ausführen. Es ist wichtig zu wissen, dass, sobald neue Richtlinien in Teams verfügbar werden, die globalen (organisationsweiten) Einstellungen für die Sicherheit von Kursteilnehmern nicht automatisch vom Assistenten hinzugefügt werden. Diese Funktion wird in einer zukünftigen Version zur Verfügung stehen.
+Derzeit wendet der Assistent unsere empfohlenen Richtlinien an, wenn Sie ihn ausführen. Es ist wichtig zu wissen, dass, sobald neue Richtlinien in Teams verfügbar werden, die globalen (organisationsweiten) Einstellungen für die Sicherheit von Kursteilnehmern vom Assistenten automatisch aktualisiert werden. 
 
-Bis diese Funktion verfügbar ist, aktivieren Sie das Nachrichtencenter [(im](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) Microsoft 365 Admin Center) häufig, um sich über neue Richtlinien und Richtlinieneinstellungen in ihrer aktuellen Version auf dem Teams. Sobald neue Features verfügbar sind, müssen Sie Ihre Richtlinien möglicherweise manuell aktualisieren, um Die Sicherheit Ihrer Lernumgebung zu gewährleisten.
+Überprüfen Sie jedoch häufig [das](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) Nachrichtencenter (in der Microsoft 365 Admin Center), um sich über neue Features und deren Richtlinien und Richtlinieneinstellungen in der neuen Version auf dem Teams. 
 
 ## <a name="make-changes-in-the-wizard"></a>Änderungen im Assistenten vornehmen
 
@@ -204,7 +206,7 @@ Hier ist eine Liste der globalen (organisationsweiten) Richtliniendefinitionen, 
 |  |        |Planung von Kanalbesprechungen zulassen        |Aus      |Ein|
 |  |        |Planung privater Besprechungen zulassen       |Aus      |Ein|
 |  |Audio & Video        |Transkription zulassen        |Ein       |Ein|
-|  |        |Cloud-Aufnahme zulassen         |Aus      |Ein|
+|  |        |Cloud-Aufzeichnung zulassen         |Aus      |Ein|
 |  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audio aktiviert        |Ausgehendes und eingehendes Audio aktiviert|
 |  |        |Modus für IP-Video         |Ausgehendes und eingehendes Video aktiviert     |Ausgehendes und eingehendes Video aktiviert|
 |  |       |IP-Video zulassen         |Ein         |Ein|
@@ -272,7 +274,7 @@ Hier ist eine Liste der benutzerdefinierten Richtliniendefinitionen, die den Leh
 |  |        |Planung von Kanalbesprechungen zulassen        |Ein      |Ein|
 |  |        |Planung privater Besprechungen zulassen       |Ein      |Ein|
 |  |Audio & Video        |Transkription zulassen        |Ein       |Ein|
-|  |        |Cloud-Aufnahme zulassen         |Ein      |Ein|
+|  |        |Cloud-Aufzeichnung zulassen         |Ein      |Ein|
 |  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audio aktiviert        |Ausgehendes und eingehendes Audio aktiviert|
 |  |        |Modus für IP-Video         |Ausgehendes und eingehendes Video aktiviert     |Ausgehendes und eingehendes Video aktiviert|
 |  |       |IP-Video zulassen         |Ein         |Ein|

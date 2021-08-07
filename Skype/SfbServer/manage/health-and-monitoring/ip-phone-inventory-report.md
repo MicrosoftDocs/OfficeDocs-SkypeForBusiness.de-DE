@@ -1,5 +1,5 @@
 ---
-title: Bericht zum Inventar von IP-Telefonen in Skype for Business Server
+title: IP Telefon Inventory Report in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über den IP-Telefonbestand in Skype for Business Server.'
-ms.openlocfilehash: 513b4ac54cf337a13cd95523fa3de750ce5f8c17
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den IP-Telefon-Bestandsbericht in Skype for Business Server.'
+ms.openlocfilehash: 89596d09bff9c58901b54bed928020bae3fa90d5971a8be3929fdc5914b54488
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276800"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Bericht zum Inventar von IP-Telefonen in Skype for Business Server
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP Telefon Inventory Report in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über den Bericht über den IP-Telefonbestand in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den IP-Telefon-Bestandsbericht in Skype for Business Server.
   
 Der Bericht für den IP-Telefonbestand enthält Informationen zu den IP-Telefonen, die derzeit in der Organisation verwendet werden. Er umfasst eine detaillierte Liste der IP-Telefone, die während des angegebenen Berichtszeitraums tatsächlich verwendet wurden. Mithilfe dieses Berichts können Administratoren unter anderem Informationen dazu erhalten, ob alte oder veraltete Telefone vorhanden sind, die ausgetauscht werden sollten. Zudem können Administratoren darauf hingewiesen werden, dass in der Organisation teure Telefone existieren, die kaum verwendet werden. Solche Informationen können außerordentlich wertvoll sein, wenn es darum geht, neue Telefone zu kaufen oder vorhandene Telefone neu zu verteilen. (Ein Benutzer, der sein teures Telefon selten nutzt, kann beispielsweise gebeten werden, sein Telefon mit einem Benutzer zu tauschen, der sein Telefon häufiger verwendet.)
   
-Es sollte darauf hingewiesen werden, dass dieser Bericht einige Einschränkungen hat, wenn es darum geht, als wahrer Bestandsbericht verwendet zu werden. Zum einen werden im Bericht über ip-Telefone einfach alle Telefone aufgeführt, die sich während des angegebenen Zeitraums bei Skype for Business Server angemeldet haben, sortiert nach ihrer letzten Anmeldungszeit. Wenn sich ein Telefon während des angegebenen Zeitraums nicht anmeldet, wird es nicht im Bestandsbericht aufgeführt. Dazu gehören Telefone, die sich vor Beginn des Zeitraums angemeldet haben und während des angegebenen Zeitintervalls noch angemeldet waren. Angenommen, Sie möchten sich alle Telefoninventurdaten für Juli 2015 anschauen. Angenommen, auch mehrere Telefone haben sich am 30. Juni 2015 bei Skype for Business Server angemeldet und waren seit dem 1. Juli noch angemeldet. Diese Telefone werden nicht im Bestandsbericht für den 1. Juli angezeigt.
+Beachten Sie, dass dieser Bericht einige Einschränkungen aufweist, wenn es darum geht, als wahrer Bestandsbericht verwendet zu werden. Zum einen listet der IP-Telefon Bericht einfach alle Telefone auf, die sich während des angegebenen Zeitraums bei Skype for Business Server angemeldet haben, sortiert nach ihrer letzten Anmeldezeit. Wenn sich ein Telefon während des angegebenen Zeitraums nicht angemeldet hat, wird es nicht im Bestandsbericht aufgeführt. Dazu gehören Telefone, die sich vor Beginn des Zeitraums angemeldet haben und während des angegebenen Zeitintervalls noch angemeldet waren. Angenommen, Sie möchten sich den gesamten Telefonbestand für Juli 2015 ansehen. Nehmen wir auch an, dass sich mehrere Telefone am 30. Juni 2015 bei Skype for Business Server angemeldet haben und seit dem 1. Juli weiterhin angemeldet waren. Diese Telefone werden nicht im Bestandsbericht für den 1. Juli angezeigt.
   
-Es ist auch wichtig zu beachten, dass der Bestandsbericht Telefone enthalten kann, die Ihre Organisation nicht mehr verwendet. Angenommen, eine Reihe von #A0 sind am 1. Juli 2015 am System angemeldet. 5 Tage später wurde Ihre Organisation alle diese Fabrikam-Telefone los und ersetzte sie durch ein neueres Contoso-Modell. Die Telefone von Fabrikam werden weiterhin im Bericht "Inventar" angezeigt, weil sie sich im Juli am System angemeldet haben.
+Es ist auch wichtig zu beachten, dass der Bestandsbericht Telefone enthalten kann, die Ihre Organisation nicht mehr verwendet. Angenommen, eine Reihe von Fabrikam-Telefonen ist am 1. Juli 2015 beim System angemeldet; 5 Tage später wurde Ihre Organisation alle diese Fabrikam-Telefone los und ersetzte sie durch ein neueres Contoso-Modell. Die Fabrikam-Telefone werden weiterhin im Bericht "Bestand" angezeigt, einfach weil sie sich im Juli beim System angemeldet haben.
   
 Darüber hinaus werden im Bericht für den IP-Telefonbestand keine zusammenfassenden Gesamtzahlen für die verschiedenen Telefontypen angegeben. Nehmen wir beispielsweise an, Sie besitzen 105 Telefone vom Typ Polycom CX600. Aus dem Bericht wird nicht ersichtlich, dass Sie 105 solcher Telefone haben. Stattdessen sehen Sie lediglich 105 separate Einträge für das Modell Polycom Cx600. Die einzige Möglichkeit, um herauszufinden, dass für das Modell Polycom Cx600 105 Einträge vorliegen, besteht darin, diese Einträge manuell zu zählen.
   
@@ -85,7 +85,7 @@ Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
 </pre>
 
-Eine weitere interessante Möglichkeit zur Verwendung des Berichts über den Inventarbericht für IP-Telefone ist dies: Wenn Sie über die MAC-Adresse eines IP-Telefons verfügen, können Sie den Benutzer, der das Telefon zuletzt verwendet hat, herausfinden, indem Sie diese Adresse einfach in das Textfeld für die MAC-Adresse eingeben. Der Bericht "IP-Telefoninventur" gibt dann (unter anderem) die SIP-Adresse des Benutzers zurück, der sich zuletzt mit diesem Telefon angemeldet hat. Alternativ können Sie eine Benutzer-SIP-Adresse (im Präfixfeld des Benutzer-URI) eingeben, um alle Telefone zu ermitteln, die von diesem Benutzer verwendet wurden.
+Eine weitere interessante Möglichkeit, den IP-Telefon Bestandsbericht zu verwenden, ist folgende: Wenn Sie die MAC-Adresse eines IP-Telefon können Sie den Benutzer ermitteln, der das Telefon zuletzt verwendet hat, indem Sie einfach diese Adresse in das MAC-Adresstextfeld eingeben. Der Bericht "IP Telefon Inventory" meldet dann (unter anderem) die SIP-Adresse des Benutzers zurück, der sich zuletzt mit diesem Telefon angemeldet hat. Alternativ können Sie eine SIP-Adresse des Benutzers (im Präfixfeld "Benutzer-URI") eingeben, um alle Telefone zu ermitteln, die von diesem Benutzer verwendet wurden.
   
 ## <a name="filters"></a>Filter
 
@@ -97,8 +97,8 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für 
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Hersteller** <br/> |Name des Herstellers des IP-Telefons. Die Werte für diesen Filter werden basierend auf den in der Datenbank vorhandenen IP-Telefonen automatisch ausgefüllt.  <br/> |
 |**Hardwareversion** <br/> |Versionsnummer des IP-Telefons; mit den Filtern für den Hersteller und die Hardwareversion können Sie einen bestimmten Telefontyp eindeutig identifizieren. Die Werte für diesen Filter werden basierend auf den in der Datenbank vorhandenen IP-Telefonen automatisch ausgefüllt.  <br/> |
 |**Benutzer-Agent** <br/> |ID für die vom IP-Telefon verwendete Software. Die Werte für diesen Filter werden basierend auf den in der Datenbank vorhandenen IP-Telefonen automatisch ausgefüllt.  <br/> |
@@ -121,7 +121,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht für den IP
 |**Benutzer-URI** <br/> |Ja  <br/> |SIP-Adresse des Benutzers, der das IP-Telefon verwendet hat.  <br/> |
 |**Benutzer-Agent** <br/> |Ja  <br/> |ID für die vom IP-Telefon verwendete Software.  <br/> |
 |**Zuletzt angemeldet um:** <br/> |Ja  <br/> |Datum und Uhrzeit der letzten Anmeldung des IP-Telefons bei Skype for Business Server.  <br/> |
-|**Zuletzt abgemeldet um:** <br/> |Ja  <br/> |Datum und Uhrzeit der letzten Abmeldezeit des IP-Telefons bei Skype for Business Server.  <br/> |
+|**Zuletzt abgemeldet um:** <br/> |Ja  <br/> |Datum und Uhrzeit, zu denen sich das IP-Telefon zuletzt von Skype for Business Server abgemeldet hat.  <br/> |
 |**Letzte Aktivität** <br/> |Ja  <br/> |Datum und Uhrzeit der letzten Verwendung des IP-Telefons.  <br/> |
    
 

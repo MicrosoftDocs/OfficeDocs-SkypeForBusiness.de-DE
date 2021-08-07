@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Zuweisen von E9-1-1-Standortrichtlinien zu Netzwerkstandorten in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 887c2fcab63acd5d143ba80f6be6976e8fe2b39f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Weisen Sie E9-1-1-Standortrichtlinien Netzwerkstandorten in Skype for Business Server Enterprise-VoIP zu.
+ms.openlocfilehash: bdb34209a164375b1e21f9e896ec53d7d242c006ec4df4053634918857f8ea4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305937"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Hinzufügen einer Standortrichtlinie zu einem Netzwerkstandort in Skype for Business Server
  
-Zuweisen von E9-1-1-Standortrichtlinien zu Netzwerkstandorten in Skype for Business Server Enterprise-VoIP. 
+Weisen Sie E9-1-1-Standortrichtlinien Netzwerkstandorten in Skype for Business Server Enterprise-VoIP zu. 
   
-In den folgenden Beispielen wird gezeigt, wie Sie die in "Standortrichtlinien [erstellen" in Skype for Business Server](create-location-policies.md) definierte Standortrichtlinie **"Redmond"** einem vorhandenen Netzwerkstandort hinzufügen und einen neuen Netzwerkstandort erstellen, der die Standortrichtlinie **"Redmond"** verwendet.
+In den folgenden Beispielen wird gezeigt, wie Sie die in "Erstellen von [Standortrichtlinien in Skype for Business Server"](create-location-policies.md) definierte **Standortrichtlinie "Redmond"** zu einem vorhandenen Netzwerkstandort hinzufügen und wie Sie einen neuen Netzwerkstandort erstellen, der die **Standortrichtlinie "Redmond"** verwendet.
   
 Ausführliche Informationen zum Arbeiten mit Netzwerkstandorten finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell für die folgenden Cmdlets:
   
@@ -41,11 +41,11 @@ Ausführliche Informationen zum Arbeiten mit Netzwerkstandorten finden Sie in de
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>So weisen Sie eine Ortungsrichtlinie einem vorhandenen Netzwerkstandort zu
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Führen Sie die folgenden Cmdlets aus, um einen vorhandenen Netzwerkstandort zu ändern.
     
-    Weisen Sie die Standortrichtlinie mit dem Tag **"Redmond"** einem vorhandenen Netzwerkstandort namens **"Redmond" zu.**
+    Weisen Sie die Standortrichtlinie mit dem Tag **"Redmond"** einem vorhandenen Netzwerkstandort mit dem Namen **"Redmond"** zu.
     
    ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
@@ -53,7 +53,7 @@ Ausführliche Informationen zum Arbeiten mit Netzwerkstandorten finden Sie in de
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>So weisen Sie eine Ortungsrichtlinie einem neuen Netzwerkstandort zu
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Führen Sie das folgende Cmdlet aus, um einen neuen Netzwerkstandort zu erstellen.
     

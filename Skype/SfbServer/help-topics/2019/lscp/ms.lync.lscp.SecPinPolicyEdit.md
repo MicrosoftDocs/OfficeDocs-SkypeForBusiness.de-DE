@@ -1,5 +1,5 @@
 ---
-title: PIN-Richtlinie Erstellen neuer oder Bearbeiten vorhandener Pinrichtlinien
+title: PIN-Richtlinie – Erstellen einer neuen oder Bearbeiten einer vorhandenen PIN-Richtlinie
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: a24388bbc04e9823328c15a9f67dd227eb001915
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e51d9a284596d7b2d987eb499687b8de6a1639bc525c1fd8fba6b5438a5b5cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305727"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN-Richtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen PIN-Richtlinie
 
@@ -34,6 +34,6 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Erstellen oder Ändern der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [Ändern der Standardeinstellungen für Einwahlkonferenzen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
+- [Ändern der standardmäßigen PIN für Einwahlkonferenzen Einstellungen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
 - [Löschen der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)

@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: a9b55948228144fecbddc0d70b69c883b96590cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 99d4d86c42534307a9f935cba81a314d33b931dd785e50c9c597a273661b49a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277310"
 ---
 # <a name="voice-route"></a>VoIP-Route
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Erstellen oder Ändern einer Sprachroute in Skype for Business](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [Erstellen oder Ändern einer VoIP-Route in Skype for Business](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
 - [Ändern einer VoIP-Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)

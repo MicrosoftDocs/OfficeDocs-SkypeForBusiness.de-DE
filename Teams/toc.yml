@@ -489,6 +489,8 @@ items:
         href: teams-policies.md
       - name: Einrichten von Kanalmoderation in Teams
         href: manage-channel-moderation-in-teams.md
+      - name: Verwalten von Livekomponenten
+        href: live-components-in-teams.md
       - name: Teams und Outlook-E-Mail-Integration
         href: teams-outlook-email-integration.md
       - name: Von Outlook nach Teams freigeben
@@ -1594,6 +1596,8 @@ items:
             href: devices/usb-devices.md
           - name: Bereitstellen von Microsoft Teams-Räumen in Android
             href: devices/collab-bar-deploy.md
+          - name: Festlegen der Benutzeroberfläche für Microsoft Teams Android-Geräte
+            href: devices/Teams-Android-devices-user-interface.md
           - name: Besprechungsraumgeräte und Lösungen
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams-zertifizierte Geräte

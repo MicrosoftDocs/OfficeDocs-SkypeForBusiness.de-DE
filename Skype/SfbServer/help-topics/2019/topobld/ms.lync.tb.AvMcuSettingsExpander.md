@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:'
-ms.openlocfilehash: d3e725b1905726272df515ee93a402cb488a6652
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a6fd45d6c5ce61e23b3a1d9efad048da492696a45039fa12b360f4047298c4eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835775"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277240"
 ---
 # <a name="av-mcu-settings-expander"></a>Einstellungen der AV MCU – Erweiterung
  

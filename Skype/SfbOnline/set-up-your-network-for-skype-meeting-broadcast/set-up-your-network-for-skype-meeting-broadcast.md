@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Erfahren Sie mehr über Skype-Besprechung Broadcast-Feature von Skype for Business Online, mit dem Sie Besprechungen oder Ereignisse für ein großes Online-Publikum von bis zu 10.000 Teilnehmern planen, produzieren und übertragen können.
-ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237551"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725358"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Einrichten Ihres Netzwerks für Skype-Livekonferenz
 
@@ -43,9 +43,7 @@ Um diesen Schritt zu überspringen und stattdessen Ihrem Verbund ein anderes Unt
 
 Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzurichten:
 
-## #
-
- **Methode 1: Verwenden des Admin Centers**
+### <a name="method-1-use-the-admin-center"></a>Methode 1: Verwenden des Admin Centers
 
 1. Wechseln Sie zum Admin Center, klicken Sie im linken Navigationsbereich auf **Einstellungen**  >  **&amp; Dienste-Add-Ins**, und wählen Sie dann Skype for Business. 
 
@@ -61,9 +59,7 @@ Verwenden Sie **eine** der folgenden Methoden, um zulässige Domänen einzuricht
 
 3. Klicken Sie auf **Speichern**.
 
-## #
-
- **Methode 2: Verwenden von Windows PowerShell**
+### <a name="method-2-use-windows-powershell"></a>Methode 2: Verwenden von Windows PowerShell
 
 - Klicken Sie **im Startmenü** mit der rechten Maustaste **Windows PowerShell** dann **auf Als Administrator ausführen.** Geben Sie **im Windows PowerShell** Zeile jede Zeile ein, und drücken Sie die EINGABETASTE.
 

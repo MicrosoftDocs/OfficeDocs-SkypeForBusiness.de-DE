@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Sie entfernen die Microsoft SQL Server Datenbanken und Instanzen, nachdem Sie die Server entfernt haben, die von diesen abhängig sind, oder nachdem Sie die Server neu konfiguriert haben, um eine andere Datenbank zu verwenden. Sie müssen das Verfahren in diesem Thema ausführen, wenn Sie den aktuellen SQL Server zurückziehen oder den aktuellen Server so neu konfigurieren, dass er die Datenbanken veraltet oder nicht verfügbar macht.
-ms.openlocfilehash: 6e108e4dfef86b482b839bd440f54702ab42107d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Sie entfernen die Microsoft SQL Server Datenbanken und Instanzen, nachdem Sie die ausgeführten Server entfernt haben, die von diesen abhängig sind, oder nachdem Sie die Server für die Verwendung einer anderen Datenbank neu konfiguriert haben. Sie müssen das Verfahren in diesem Thema ausführen, wenn Sie das aktuelle SQL Server zurückziehen oder den aktuellen Server so neu konfigurieren, dass die Datenbanken veraltet oder nicht mehr verfügbar sind.
+ms.openlocfilehash: f9e942f1f5516c0bf3437dd3fc9e2dc25b4cc4236e3cffabbf07ff08dde1e404
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306208"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Entfernen von SQL Server-Instanzen und -Datenbanken auf dem Back-End-Server
 
-Sie entfernen die Microsoft SQL Server Datenbanken und Instanzen, nachdem Sie die Server entfernt haben, die von diesen abhängig sind, oder nachdem Sie die Server neu konfiguriert haben, um eine andere Datenbank zu verwenden. Sie müssen das Verfahren in diesem Thema ausführen, wenn Sie den aktuellen SQL Server zurückziehen oder den aktuellen Server so neu konfigurieren, dass er die Datenbanken veraltet oder nicht verfügbar macht.
+Sie entfernen die Microsoft SQL Server Datenbanken und Instanzen, nachdem Sie die ausgeführten Server entfernt haben, die von diesen abhängig sind, oder nachdem Sie die Server für die Verwendung einer anderen Datenbank neu konfiguriert haben. Sie müssen das Verfahren in diesem Thema ausführen, wenn Sie das aktuelle SQL Server zurückziehen oder den aktuellen Server so neu konfigurieren, dass die Datenbanken veraltet oder nicht mehr verfügbar sind.
   
-Um die Datenbanken oder Instanzen für die Archivierungsserver oder Monitoring Server zu entfernen, müssen Sie zuerst die Server Rolle entfernen. Ebenso müssen Sie zum Entfernen der Instanzen oder Datenbanken für Front-End-Pool zunächst die abhängige Serverrolle entfernen oder neu konfigurieren. Bei diesen Verfahren wird nicht zwischen oder verbundenen Datenbanken oder getrennten Instanzen für Server unterschieden. Die Kollokation von Datenbanken wirkt sich nicht auf die Verfahren aus.
+Um die Datenbanken oder Instanzen für den Archivierungsserver oder Den Monitoring Server zu entfernen, müssen Sie zuerst die Serverrolle entfernen. Entsprechend müssen Sie zum Entfernen der Instanzen oder Datenbanken für den Front-End-Pool zuerst die abhängige Serverrolle entfernen oder neu konfigurieren. Bei diesen Verfahren wird nicht zwischen oder verbundenen Datenbanken oder getrennten Instanzen für Server unterschieden. Die Kollokation von Datenbanken wirkt sich nicht auf die Verfahren aus.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

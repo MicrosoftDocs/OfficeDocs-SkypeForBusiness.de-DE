@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Hier erfahren Sie die Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke, um die Abdeckung für Ihre Benutzer zu erweitern.
-ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102661"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724508"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -133,13 +133,14 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Schritt 3 - Aufheben der Zuweisung der alten Telefonnummer zur Audiokonferenzbrücke
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+Verwenden des Unregister-CsOnlineDialInConferencingServiceNumber-Cmdlets zum Aufheben der Registrierung einer gebührenpflichtigen oder gebührenfreien Nummer von einer Konferenzbrücke
 
-1. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+Hinweis: Um die ID der Konferenzbrücke zu finden, führen Sie die folgende PowerShell aus: Get-CsOnlineDialInConferencingBridge.
 
-2. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer in der Liste aus, und klicken Sie auf **Release**. Wenn es sich bei der Telefonnummer um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den [Microsoft-Support,](/microsoft-365/admin/contact-support-for-business-products) damit die Telefonnummer nicht zugewiesen wird.
-
-3. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, klicken **Sie** im Bestätigungsfenster auf Ja.
 
    > [!IMPORTANT]
    > Nachdem die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wurde, ist die Telefonnummer nicht mehr für die Teilnahme der Benutzer an neuen oder bestehenden Besprechungen verfügbar.
@@ -180,7 +181,7 @@ Um Zeit zu sparen, indem Sie diesen Prozess automatisieren, können Sie die [Cmd
   ```
 
     > [!NOTE]
-    > Der oben verwendete Standort muss mit den Kontaktinformationen der Benutzer übereinstimmen, die im Microsoft 365 Admin Center festgelegt sind.
+    > Der oben verwendete Standort muss mit den Kontaktinformationen der Benutzer übereinstimmen, die im -Microsoft 365 Admin Center.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
@@ -195,7 +196,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 
 Das Ergebnis sollte neben anderen Informationen wie Identity, Name und Region auch die DefaultServiceNumber enthalten.
 
-**Beispiel:** Zum Unzuweisen wird die DefaultServiceNumber "8005551234"
+**Beispiel**: Um die Zuzuweisen aufheern, wird die DefaultServiceNumber -8005551234
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
@@ -208,7 +209,7 @@ Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. 
 
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Centers viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Center beispielsweise, wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen, viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

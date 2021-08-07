@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Die Einstellungen für eine vorhandene Survivable Branch Appliance oder einen Survivable Branch Server werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: 8f77a7b12800d9eba091218de92f4eec17bf2154
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5c8791661ff32c6cb40b968297d11595f5873bcf0b1cf0ce50078e41e713d68a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277000"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Allgemeine Einstellungen für die Filialanwendung – Erweiterung
 
@@ -44,23 +44,23 @@ Sie können die Option **Alle konfigurierten IP-Adressen verwenden** oder **Dien
 
 In **Zuordnungen** können Sie Folgendes bearbeiten oder angeben:
 
-- Mit Dem Archivierungsserver zuordnen können Sie einen Archivierungsserver der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen. Sie können einen bereits definierten Archivierungsserver auswählen, indem Sie den Server in der Dropdownliste auswählen oder auf **Neu** klicken, um einen neuen Archivierungsserver anzugeben.
+- Mit "Archivierungsserver zuordnen" können Sie auswählen, ob ein Archivierungsserver der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet werden soll. Sie können einen bereits definierten Archivierungsserver auswählen, indem Sie den Server in der Dropdownliste auswählen oder auf **Neu** klicken, um einen neuen Archivierungsserver anzugeben.
 
     > [!IMPORTANT]
     > Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein.
 
-- Associate Monitoring Server ermöglicht Ihnen die Auswahl, einen Monitoring Server der Survivable Branch Appliance oder dem Survivable Branch Server zuzuordnen. Sie können aus einem bereits definierten Monitoring Server auswählen, indem Sie den Server in der Dropdownliste auswählen oder auf **Neu** klicken, um einen neuen Überwachungsserver anzugeben.
+- Mit "Monitoring Server zuordnen" können Sie auswählen, ob ein Monitoring Server der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet werden soll. Sie können einen bereits definierten Monitoring Server auswählen, indem Sie den Server in der Dropdownliste auswählen oder auf **Neu** klicken, um einen neuen Überwachungsserver anzugeben.
 
-- Mit dem Edgepool zuordnen können Sie einen Edgeserver oder Pool der Survivable Branch Appliance oder survivable Branch Server zuordnen. Sie können in der Dropdownliste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
+- Mit "Edgepool zuordnen" können Sie auswählen, ob ein Edgeserver oder -pool der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet werden soll. Sie können in der Dropdownliste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
 
 ## <a name="resiliency"></a>Ausfallsicherheit
 
 Dank der Flexibilität (Ausfallsicherheit) ist die hohe Verfügbarkeit des Registrierungspools gewährleistet. Durch Bereitstellung einer Sicherungsregistrierungsstelle für den Fall eines Ausfalls der primären Registrierungsstelle kann die Sicherungsregistrierungsstelle die Aufgabe der ausgefallenen Registrierung übernehmen und Benutzern die Anmeldung und Kommunikation ermöglichen. Bei Benutzern kann es, je nachdem, welche Systeme mit der primären Registrierung ausgefallen sind, möglicherweise zu einer eingeschränkten Funktionalität kommen.
 
-Wählen Sie in der Dropdownliste den Enterprise Edition-Front-End-Pool oder Standard Edition-Front-End-Server aus, der als Sicherungsregistrierungsstelle für die Survivable Branch Appliance oder den Survivable Branch Server dient. Sie können außerdem Zeitintervalle für Failover und Fallback auswählen. Die (in Sekunden angegebenen) Zeiteinstellungen für Failover und Fallback ermöglichen die automatische Erkennung einer ausgefallenen Registrierung und eines Zeitpuffers zur automatischen Bestimmung, dass die primäre Registrierung wieder betriebsbereit ist und den Registrierungsprozess übernehmen kann.
+Wählen Sie in der Dropdownliste den Enterprise Edition Front-End-Pool oder Standard Edition Front-End-Server aus, der als Sicherungsregistrierungsstelle für die Survivable Branch Appliance oder den Survivable Branch Server fungiert. Sie können außerdem Zeitintervalle für Failover und Fallback auswählen. Die (in Sekunden angegebenen) Zeiteinstellungen für Failover und Fallback ermöglichen die automatische Erkennung einer ausgefallenen Registrierung und eines Zeitpuffers zur automatischen Bestimmung, dass die primäre Registrierung wieder betriebsbereit ist und den Registrierungsprozess übernehmen kann.
 
 > [!IMPORTANT]
-> Achten Sie beim Definieren der Fehlererkennung und des Fallbackintervalls darauf, dass Sie kein Intervall eingeben, das das Failover und das Fallback verursacht, wenn die Registrierung für einen kurzen Zeitraum nicht reagiert. Es ist möglich, dass die primäre Registrierungsstelle basierend auf dem Laden des Pools oder der Server für kurze Zeit nicht antwortet. Die Standardwerte für eine Survivable Branch Appliance oder einen Survivable Branch Server an einem Standort in einem Pool oder Standard Edition Front-End-Server sind 120 Sekunden für failover und 240 Sekunden für Fallback.
+> Achten Sie beim Definieren der Fehlererkennung und des Fallbackintervalls darauf, kein Intervall einzugeben, das zu einem Failover und Fallback führt, wenn die Registrierung für einen kurzen Zeitraum nicht reagiert. Es ist möglich, dass die primäre Registrierungsstelle basierend auf dem Laden des Pools oder der Server möglicherweise nicht für kurze Zeit reagiert. Die Standardwerte für eine Survivable Branch Appliance oder einen Survivable Branch Server an einem Standort für einen Pool oder Standard Edition Front-End-Server sind 120 Sekunden für Failover und 240 Sekunden für Fallback.
 
 ## <a name="mediation-server"></a>Vermittlungsserver
 

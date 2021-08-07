@@ -1,5 +1,5 @@
 ---
-title: Testen von SIP-Trunkkonfigurationseinstellungen in Skype for Business Server
+title: 'Skype for Business Server: Testen der SIP-Trunkkonfigurationseinstellungen'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
-description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Konfigurationseinstellungen für den SIP-Trunk mithilfe der Skype for Business Server-Verwaltungsshell testen.'
-ms.openlocfilehash: 6f569c7e397e7902cb347e13b4077acb5a9b34fb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server-Verwaltungsshell testen.'
+ms.openlocfilehash: 19e0ad72b33d6ebbd5411fb269c3cdcbf2849a18
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772756"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Testen von SIP-Trunkkonfigurationseinstellungen in Skype for Business Server
+# <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>Skype for Business Server: Testen der SIP-Trunkkonfigurationseinstellungen
  
-**Zusammenfassung:** Erfahren Sie, wie Sie die Konfigurationseinstellungen für den SIP-Trunk mithilfe der Skype for Business Server-Verwaltungsshell testen.
+**Zusammenfassung:** Erfahren Sie, wie Sie SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server-Verwaltungsshell testen.
   
-Sip-Trunkkonfigurationseinstellungen definieren die Beziehung und Funktionen zwischen einem Vermittlungsserver und dem Public Switched Telephone Network (PSTN)-Gateway, einer IP-Public Branch eXchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Mit diesen Einstellungen kann Folgendes angegeben werden:
+Sip trunk configuration settings define the relationship and capabilities between a Mediation Server and the Public Switched Telephone Network (PSTN) gateway, an IP-Public Branch eXchange (PBX) or a Session Border Controller (SBC) at the service provider. Mit diesen Einstellungen kann Folgendes angegeben werden:
   
-- Ob die Medienumgebung für Trunks aktiviert werden soll.
+- Gibt an, ob die Medienumgehung für die Trunks aktiviert werden soll.
     
-- Die Bedingungen, unter denen RtCP-Pakete (Realtime Transport Control Protocol) gesendet werden.
+- Die Bedingungen, unter denen RTCP-Pakete (Realtime Transport Control Protocol) gesendet werden
     
-- Gibt an, ob für jeden Trunk eine Verschlüsselung des Secure Realtime Transport Protocol (SRTP) erforderlich ist.
+- Gibt an, ob die SRTP-Verschlüsselung (Secure Realtime Transport Protocol) für jeden Trunk erforderlich ist.
     
-Wenn Sie Skype for Business Server installieren, wird eine globale Auflistung von KONFIGURATIONSeinstellungen für den SIP-Trunk für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Administratoren können auch das cmdlet Test-CsTrunkConfiguration verwenden, um zu überprüfen, ob ein Trunk eine Nummer, die von einem Benutzer gewählt wird, in eine Nummer konvertieren kann, die vom Gateway verarbeitet werden kann.
+Wenn Sie Skype for Business Server installieren, wird eine globale Auflistung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Darüber hinaus können Administratoren benutzerdefinierte Einstellungssammlungen auf Standort- oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Administratoren können auch das Cmdlet Test-CsTrunkConfiguration verwenden, um zu überprüfen, ob ein Trunk eine von einem Benutzer gewählte Nummer in eine Nummer konvertieren kann, die das Gateway verarbeiten kann.
   
-Trunkkonfigurationseinstellungen können nur mithilfe von Windows PowerShell und dem [Cmdlet Test-CsTrunkConfiguration](/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) getestet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung der Skype for Business Server-Verwaltungsshell ausgeführt werden.
+Trunkkonfigurationseinstellungen können nur mit Windows PowerShell und dem Cmdlet ["Test-CsTrunkConfiguration"](/powershell/module/skype/test-cstrunkconfiguration) getestet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung Skype for Business Server Verwaltungsshell ausgeführt werden.
   
-### <a name="to-test-sip-trunk-configuration-settings"></a>So testen Sie die Konfigurationseinstellungen für SIP-Trunks
+### <a name="to-test-sip-trunk-configuration-settings"></a>So testen Sie SIP-Trunkkonfigurationseinstellungen
 
-- Mit diesem Befehl wird überprüft, ob die Trunkkonfigurationseinstellungen für den Standort "Redmond" die gewählte Nummer 4255551212 korrekt konvertieren können.
+- Mit diesem Befehl wird überprüft, ob die Trunkkonfigurationseinstellungen für den Standort Redmond die gewählte Nummer 4255551212 ordnungsgemäß konvertieren können.
     
   ```powershell
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"

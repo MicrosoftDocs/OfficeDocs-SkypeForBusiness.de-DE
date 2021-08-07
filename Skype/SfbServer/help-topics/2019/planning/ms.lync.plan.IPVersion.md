@@ -1,5 +1,5 @@
 ---
-title: IP Version (Planning Tool)
+title: IP-Version (Planungstool)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie haben drei Optionen beim Konfigurieren von IP-Adressen in Skype for Business Server. Sie können Skype for Business Server so konfigurieren, dass nur IP Version 4 (IPv4), nur IP Version 6 (IPv6) oder eine Kombination aus beiden (auch als dualer Stapel bekannt) unterstützt wird.
-ms.openlocfilehash: 963016256b02e421aff10e6e0c7e02163435200f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Sie haben drei Optionen beim Konfigurieren von IP-Adressen in Skype for Business Server. Sie können Skype for Business Server so konfigurieren, dass nur IP-Version 4 (IPv4), nur IP-Version 6 (IPv6) oder eine Kombination aus beiden (als dualer Stapel bezeichnet) unterstützt wird.
+ms.openlocfilehash: 07d9df1b5daad082c88f77a77859cd22e1a122f35f6634fa5ad953416b61e1af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305697"
 ---
-# <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
+# <a name="ip-version-planning-tool"></a>IP-Version (Planungstool)
  
-Sie haben drei Optionen beim Konfigurieren von IP-Adressen in Skype for Business Server. Sie können Skype for Business Server so konfigurieren, dass nur IP Version 4 (IPv4), nur IP Version 6 (IPv6) oder eine Kombination aus beiden (auch als dualer Stapel bekannt) unterstützt wird.
+Sie haben drei Optionen beim Konfigurieren von IP-Adressen in Skype for Business Server. Sie können Skype for Business Server so konfigurieren, dass nur IP-Version 4 (IPv4), nur IP-Version 6 (IPv6) oder eine Kombination aus beiden (als dualer Stapel bezeichnet) unterstützt wird.
   
-Weitere Informationen zur Auswahl Ihrer IP-Infrastruktur finden Sie unter ["Planen von IPv6 in Skype for Business".](../../../plan-your-deployment/network-requirements/ipv6.md)
+Weitere Informationen zur Auswahl Ihrer IP-Infrastruktur finden Sie unter [Plan for IPv6 in Skype for Business](../../../plan-your-deployment/network-requirements/ipv6.md).
   
 

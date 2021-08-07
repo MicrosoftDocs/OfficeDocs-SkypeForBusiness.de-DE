@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: 'Zusammenfassung: Informationen zum Anzeigen von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server-Systemsteuerung oder der Skype for Business Server-Verwaltungsshell.'
-ms.openlocfilehash: 6a447f7aeb9db0a7ca858cf58df10273c28b533b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie PSTN-Verwendungsdatensätze mithilfe der Skype for Business Server Systemsteuerung oder der Skype for Business Server-Verwaltungsshell anzeigen.'
+ms.openlocfilehash: 4f36f263238c1c50299ff22756eaf7e6eed100141d15b3b7250a70a9a11adddf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305887"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business
 
-**Zusammenfassung:** Informationen zum Anzeigen von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server-Systemsteuerung oder der Skype for Business Server-Verwaltungsshell.
+**Zusammenfassung:** Erfahren Sie, wie Sie PSTN-Verwendungsdatensätze mithilfe der Skype for Business Server Systemsteuerung oder der Skype for Business Server-Verwaltungsshell anzeigen.
 
-Ein Verwendungsdatensatz für das Telefonnetz (Public Switched Telephone Network, PSTN) gibt eine Anrufklasse (z. B. intern, lokal oder fern) an, die von verschiedenen Benutzern oder Benutzergruppen in einer Organisation vorgenommen werden kann. Ausführliche Informationen finden Sie unter [PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) in der Planungsdokumentation.
+Ein PSTN-Verwendungseintrag (Public Switched Telephone Network) gibt eine Anrufklasse (z. B. interne, lokale oder Ferngespräche) an, die von verschiedenen Benutzern oder Benutzergruppen in einer Organisation getätigt werden kann. Ausführliche Informationen finden Sie unter [PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) in der Planungsdokumentation.
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>So zeigen Sie einen PSTN-Verwendungsdatensatz mithilfe der Skype for Business Server-Systemsteuerung an
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>So zeigen Sie einen PSTN-Verwendungseintrag mithilfe Skype for Business Server Systemsteuerung an
 
-1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
+1. Öffnen Sie Skype for Business Server Systemsteuerung.
 
 2. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **PSTN-Verwendung**.
 
@@ -40,9 +40,9 @@ Ein Verwendungsdatensatz für das Telefonnetz (Public Switched Telephone Network
     > [!NOTE]
     > Auf einer schreibgeschützten Seite des ausgewählten PSTN-Verwendungsdatensatzes werden die zugehörigen Routen und VoIP-Richtlinien angezeigt.
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>So zeigen Sie PSTN-Verwendungsinformationen mithilfe von Skype for Business Server Management Shell-Cmdlets an
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>So zeigen Sie PSTN-Verwendungsinformationen mithilfe Skype for Business Server-Verwaltungsshell-Cmdlets an
 
-- Geben Sie den folgenden Befehl in die Skype for Business Server Management Shell ein, um Informationen zu allen Ihren PSTN-Verwendungen eins zu sehen, und drücken Sie dann die EINGABETASTE:
+- Um Informationen zu allen PsTN-Verwendungen anzuzeigen, geben Sie den folgenden Befehl in die Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
 
   ```powershell
   Get-CsPstnUsage
@@ -57,4 +57,4 @@ Ein Verwendungsdatensatz für das Telefonnetz (Public Switched Telephone Network
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erstellen oder Ändern einer Sprachrichtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)
+[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)

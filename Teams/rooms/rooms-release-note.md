@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Versionshinweise für Microsoft Teams-Räume lesen, in denen die kumulierten Verbesserungen der Microsoft Teams-Räume.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: f870f746a5ff085fc997d9071ba243e43a8046b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772726"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Anmerkungen zu dieser Microsoft Teams-Räume
 
@@ -90,7 +90,7 @@ In diesem Update eingeführt:
 - Windows 10 20H2-Support 
 
 > [!NOTE]
-> HP Elite Slice and Crestron UC-Engine (BIOS version date containing "KYSKLi") Teams-Räume have compatibility issues and updated drivers will be provided by system OEMs in the near future. Windows 10 20H2 wird diesen Geräten nicht angeboten. Weitere Informationen zur Unterstützung Windows Version finden Sie unter Windows 10 [Release-Support.](./rooms-lifecycle-support.md#windows-10-release-support)
+> Für das UC-Engine (BIOS-Versionsdatum mit "KYSKLi") Teams-Räume liegen Kompatibilitätsprobleme vor, und aktualisierte Treiber werden in naher Zukunft von System-OEMs bereitgestellt. Windows 10 20H2 wird diesen Geräten nicht angeboten. Weitere Informationen zur Unterstützung Windows Version finden Sie unter Windows 10 [Release-Support.](./rooms-lifecycle-support.md#windows-10-release-support)
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 

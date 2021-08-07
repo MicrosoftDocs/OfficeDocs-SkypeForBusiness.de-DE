@@ -12,37 +12,37 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: Erfahren Sie mehr über die Benutzererfahrung, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder ein Fehler auftritt.
-ms.openlocfilehash: 137ad9076febccb272e88e457ee56e6474cff107
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Erfahren Sie, welche Erfahrungen Benutzer haben, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder zurückfällt.
+ms.openlocfilehash: f17e589175c0d91db074f7ff1a1808a32d65410a5c5d7639fa2bcb284ed67680
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276600"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit bei Poolfehlern in Skype for Business Server
  
-Erfahren Sie mehr über die Benutzererfahrung, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder ein Fehler auftritt.
+Erfahren Sie, welche Erfahrungen Benutzer haben, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder zurückfällt.
   
-Wenn für einen Pool ein Fehler vor liegt, müssen sich alle Benutzer im betroffenen Pool abmelden und sich dann beim Sicherungspool anmelden. Für einen kurzen Zeitraum befinden sich die Benutzer, die sich am Sicherungspool anmelden, möglicherweise im Ausfallsicherheitsmodus. Im Ausfallsicherheitsmodus können Benutzer keine Aufgaben ausführen, die eine dauerhafte Änderung in Skype for Business Server verursachen würden, z. B. das Hinzufügen eines Kontakts. Nachdem das Failover abgeschlossen wurde, können alle Benutzer alle Dienste vom Sicherungspool beziehen.
+Wenn ein Pool fehlgeschlagen ist, werden alle Benutzer im betroffenen Pool gezwungen, sich ab- und dann beim Sicherungspool anzumelden. Für einen kurzen Zeitraum befinden sich die Benutzer, die sich am Sicherungspool anmelden, möglicherweise im Ausfallsicherheitsmodus. Im Ausfallsicherheitsmodus können Benutzer keine Aufgaben ausführen, die eine dauerhafte Änderung an Skype for Business Server verursachen würden, z. B. das Hinzufügen eines Kontakts. Nachdem das Failover abgeschlossen wurde, können alle Benutzer alle Dienste vom Sicherungspool beziehen.
   
-Alle Anrufe, Besprechungen oder Unterhaltungen, die ein Benutzer hat, wenn der Pool ausfällt, werden unterbrochen, und der Benutzer muss diese Sitzungen nach dem Failover neu einrichten, um fortzufahren.
+Alle Anrufe, Besprechungen oder Unterhaltungen, die ein Benutzer hat, wenn der Pool fehlschlägt, werden unterbrochen, und der Benutzer muss diese Sitzungen nach dem Failover erneut einrichten, um fortzufahren.
   
-Benutzer werden während eines Failovers oder Failbacks nicht verlagert. Benutzer, die auf einem ausfallenden Pool verwaltet werden, werden temporär durch den Sicherungspool verarbeitet. Wenn der Homepool wiederhergestellt wird, kann der Administrator ein Fail back für diese Benutzer ausführen, damit sie von ihrem ursprünglichen Pool, in dem sie noch zu Hause sind, verwendet werden.
+Benutzer werden während eines Failovers oder Failbacks nicht verlagert. Benutzer, die auf einem ausfallenden Pool verwaltet werden, werden temporär durch den Sicherungspool verarbeitet. Wenn der Startpool wiederhergestellt wird, kann der Administrator ein Failback für diese Benutzer ausführen, um von ihrem ursprünglichen Pool bedient zu werden, in dem sie noch verwaltet werden.
   
-Beachten Sie, dass die Standortinformationsserverdatenbank nicht in den Sicherungspool repliziert wird. Als bewährte Vorgehensweise sollte der Administrator die LIS-Datenbank regelmäßig sichern und die neueste Sicherungskopie verwenden, um die LIS-Datenbank im Sicherungspool nach dem Failover wiederherzustellen.
+Beachten Sie, dass die Location Information Server-Datenbank nicht in den Sicherungspool repliziert wird. Als bewährte Vorgehensweise sollte der Administrator die LIS-Datenbank regelmäßig sichern und die neueste Sicherungskopie verwenden, um die LIS-Datenbank im Sicherungspool nach dem Failover wiederherzustellen.
   
 ## <a name="user-experience-during-failover"></a>Benutzerfreundlichkeit während des Failovers
 
-Wenn sich ein Benutzer in einem Pool befindet, bei dem ein Fehler auftritt, wird der Benutzer abgemeldet. Jede Peer-zu-Peer-Sitzung, an der der Benutzer teilnimmt, wird beendet, ebenso wie von diesem Benutzer organisierte Konferenzen. Der Benutzer kann sich nicht wieder anmelden, bis entweder der Registrierungsausfallsicherheits-Zeitgeber abläuft oder der Administrator Failoverprozeduren initiiert, was auch immer zuerst eintritt. Wenn sich Benutzer wieder anmelden, werden sie im Sicherungspool angemeldet. Wenn sie sich vor Abschluss des Failovers anmelden, befinden sie sich im Ausfallsicherheitsmodus, bis das Failover abgeschlossen ist. Erst dann kann ein Benutzer neue Sitzungen einrichten oder vorherige Sitzungen 2013 2013 2013 bzw. 2013 2013 25:000 bzw.
+Wenn sich ein Benutzer in einem Pool befindet, der fehlschlägt, wird der Benutzer abgemeldet. Jede Peer-to-Peer-Sitzung, an der der Benutzer teilgenommen hat, wird beendet, ebenso wie die von diesem Benutzer organisierten Konferenzen. Der Benutzer kann sich nicht wieder anmelden, bis entweder der Registrierungsausfallsicherheits-Zeitgeber abläuft oder der Administrator Failoverprozeduren initiiert, was auch immer zuerst eintritt. Wenn sich Benutzer wieder anmelden, werden sie im Sicherungspool angemeldet. Wenn sie sich vor Abschluss des Failovers anmelden, befinden sie sich im Ausfallsicherheitsmodus, bis das Failover abgeschlossen ist. Nur dann kann ein Benutzer neue Sitzungen einrichten oder vorherige Sitzungen erneut einrichten.
   
-## <a name="user-experience-during-failback"></a>Benutzerfreundlichkeit beim Failback
+## <a name="user-experience-during-failback"></a>Benutzererfahrung während des Failbacks
 
-Pool-Failbacks können auftreten, während der betroffene Benutzer an einem Sicherungspool angemeldet ist und der Benutzer während des Failbacks weiterhin angemeldet ist und arbeitet. Beachten Sie, dass der Failbackprozess einige Minuten dauert. Zur Orientierung: Erwartungsgemäß dauert ein Pool mit 20.000 Benutzern bis zu 60 Minuten.
+Pool-Failbacks können auftreten, während der betroffene Benutzer an einem Sicherungspool angemeldet ist und der Benutzer während des Failbacks weiterhin angemeldet ist und arbeitet. Beachten Sie, dass der Failbackvorgang mehrere Minuten dauert. Zur Orientierung: Erwartungsgemäß dauert ein Pool mit 20.000 Benutzern bis zu 60 Minuten.
   
-Die folgenden Tabellen enthalten weitere Details dazu, wie ein Benutzer während und nach einem Failback betroffen ist, und wie Benutzer in anderen Pools einen Benutzer in einem Pool sehen und mit ihm interagieren, für den ein Failback auftritt. 
+Die folgenden Tabellen enthalten weitere Details dazu, wie ein Benutzer während und nach einem Failback betroffen ist und wie Benutzer in anderen Pools einen Benutzer in einem Pool sehen und mit diesem interagieren, bei dem ein Fehler aufgetreten ist. 
   
-Der Begriff betroffener Benutzer bezieht sich auf sämtliche Benutzer, bei denen beim Home-Pool ein Failover auftrat und die daher vom Sicherungspool verarbeitet werden. Ein Benutzer, der ursprünglich im Sicherungspool gespeichert wurde, ist kein betroffener Benutzer.
+Der Begriff betroffener Benutzer bezieht sich auf sämtliche Benutzer, bei denen beim Home-Pool ein Failover auftrat und die daher vom Sicherungspool verarbeitet werden. Ein Benutzer, der ursprünglich im Sicherungspool verwaltet wurde, ist kein betroffener Benutzer.
   
 **Benutzerfreundlichkeit für einen betroffenen Benutzer für einen in einem Failback befindlichen Pool**
 

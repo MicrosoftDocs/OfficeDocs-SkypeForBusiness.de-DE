@@ -1,5 +1,5 @@
 ---
-title: Tabelle "IPAddress"
+title: IPAddress-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ec018b9-158e-4bbe-ad46-869e60315555
 description: In der Tabelle "IPAddress" werden IP-Adressen den eindeutigen IDs der IP-Adressen zugeordnet, die an anderer Stelle in der QoE-Datenbank verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 31334c553641088a5b77d0bb24517791e5f84ebe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: db9405a05335974456f77d8117f9e3f64e9832750c3d2c23441a5a587ca91d7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802775"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305097"
 ---
-# <a name="ipaddress-table"></a>Tabelle "IPAddress"
+# <a name="ipaddress-table"></a>IPAddress-Tabelle
  
 In der Tabelle "IPAddress" werden IP-Adressen den eindeutigen IDs der IP-Adressen zugeordnet, die an anderer Stelle in der QoE-Datenbank verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**IPAddressKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID der angegebenen IP-Adresse.  <br/> |
+|**IPAddressKey** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige ID der angegebenen IP-Adresse.  <br/> |
 |**IPAddress** <br/> |varchar(50)  <br/> |Eigen  <br/> |Eindeutige IP-Adresse (z. B. 189.168.1.1), die "derm IpAddressKey" zugeordnet ist. Dies kann entweder eine IPv4- oder eine IPv6-Adresse sein.  <br/> |
    
 

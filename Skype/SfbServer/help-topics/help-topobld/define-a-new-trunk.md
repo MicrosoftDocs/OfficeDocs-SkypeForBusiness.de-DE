@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Definieren Sie einen neuen SIP-Trunk (Session Initiation Protocol), indem Sie die folgenden Informationen angeben:'
-ms.openlocfilehash: 1b58da8880c65b0beecbd2756d0b5a5028f45e19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c799062cfb303a121d4fd666a9197cb12a296669799306a278c6e1d73f636c20
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305497"
 ---
 # <a name="define-a-new-trunk"></a>Definieren eines neuen Trunks
 
@@ -36,10 +36,10 @@ Definieren Sie einen neuen SIP-Trunk (Session Initiation Protocol), indem Sie di
 
 - **Zugeordneter Vermittlungsserver:** Wählen Sie in der Liste einen Vermittlungsserver aus, der in Ihrer Bereitstellung bereitgestellt und konfiguriert ist
 
-- **Zugeordneter Vermittlungsserverport:** Legen Sie den Portwert gleich dem TCP- oder TLS-Portwert des Vermittlungsservers fest, den dieser SIP-Trunk verwendet
+- **Zugeordneter Vermittlungsserverport:** Legen Sie den Portwert auf den TCP- oder TLS-Portwert des Vermittlungsservers fest, den dieser SIP-Trunk verwendet.
 
 ## <a name="see-also"></a>Siehe auch
 
 [M:N-Trunk in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
-[Wie kann ich SIP-Trunking implementieren?](/previous-versions/office/lync-server-2013/lync-server-2013-how-do-i-implement-sip-trunking)
+[Wie implementiere ich SIP-Trunking?](/previous-versions/office/lync-server-2013/lync-server-2013-how-do-i-implement-sip-trunking)

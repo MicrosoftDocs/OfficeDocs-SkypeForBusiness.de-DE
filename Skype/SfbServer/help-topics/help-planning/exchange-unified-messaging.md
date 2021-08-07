@@ -1,5 +1,5 @@
 ---
-title: Exchange Unified Messaging (Planning Tool)
+title: Skype for Business Server Exchange Unified Messaging-Planungstool
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) für die Kombination von Voice messaging und E-Mail-Messaging in einer einzigen Messaginginfrastruktur.
-ms.openlocfilehash: f85062c5c239c817fe141e36ff2b04c9809c0279
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server unterstützt die Integration in Exchange Unified Messaging, um Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur zu kombinieren.
+ms.openlocfilehash: 47bf74dfd543537ecd90aa7dfc2b588fabacd49b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772916"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Exchange Unified Messaging (Planning Tool)
+# <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>Skype for Business Server Exchange Unified Messaging-Planungstool
 
-Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) für die Kombination von Voice messaging und E-Mail-Messaging in einer einzigen Messaginginfrastruktur.
+Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) zum Kombinieren von Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur.
 
 Weitere Informationen finden Sie unter:
 
@@ -33,4 +33,4 @@ Weitere Informationen finden Sie unter:
 
 - "Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- "Planen für Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .
+- "Planning for Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie den vollqualifizierten Domänennamen jedes Computers an, der diesem Pool als Edgeserver hinzugefügt werden soll. Nach dem Hinzufügen eines Computers zur Liste können Sie den vollqualifizierten Domänennamen des Computers zu einem beliebigen Zeitpunkt vor der Veröffentlichung der Topologie aktualisieren oder aus dem Pool entfernen. Wenn Sie den vollqualifizierten Domänennamen nach dem Veröffentlichen der Topologie ändern möchten, müssen Sie den Server im Topologie-Generator löschen und dem Pool anschließend einen neuen Server mit dem neuen vollqualifizierten Domänennamen hinzufügen. Einzelheiten zum Entwerfen der Topologie für einen Edgepool finden Sie unter Define Your Edge Topology in der Dokumentation zur Edgebereitstellung.
-ms.openlocfilehash: 027d07f8e94e101dcef53049a27d4635d3fb8955
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4f02e602bf1f512006b2d042089ab2515f0a3fa9366ad6e8f361bc74c3dabc83
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277220"
 ---
 # <a name="edge-server-add-machine"></a>Hinzufügen eines Edgeservercomputers
 

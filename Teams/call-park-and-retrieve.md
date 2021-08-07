@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie mithilfe der Anruf parken und einen Anruf in einem Anruf halten, Microsoft Teams.
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772606"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
@@ -53,7 +53,7 @@ So aktivieren Sie eine Anruf parkrichtlinien
 
 1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Richtlinien für den Park von**  >  **Sprachanrufen**.
 2. Klicken Sie **auf der Registerkarte Richtlinien** verwalten auf **Hinzufügen**.
-3. Geben Sie der Richtlinie einen Namen, und ändern Sie dann Anruf **parken zulassen** auf **Ein**.
+3. Geben Sie der Richtlinie einen Namen, und ändern Sie dann Anruf **parken zulassen** auf **Ein**. (Der Anrufabrufbereich und das Timeout können nicht angepasst werden.)
 
     ![Screenshot der Richtlinieneinstellungen für den Anruf parken](media/call-park-add-policy.png)
 
