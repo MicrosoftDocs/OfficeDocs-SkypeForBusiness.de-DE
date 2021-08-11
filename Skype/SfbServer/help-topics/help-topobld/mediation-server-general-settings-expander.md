@@ -14,12 +14,12 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: a00573b06c1900718fd670c96a21ffab069b491e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9ad2517641a4a7bbfe0d353497331ef8fade52c24099cc770477530dc6021b99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283407"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Allgemeine Einstellungen des Vermittlungsservers – Erweiterung
  
@@ -29,13 +29,13 @@ ms.locfileid: "49806725"
 
 Vollqualifizierter Domänenname (FQDN) des Vermittlungsserverpools oder Vermittlungsservers. Bearbeiten Sie den FQDN des Servers, um den Wert zu ändern. Sie müssen über einen DNS-A-Eintrag (Domain Name System) verfügen, der mit dem neuen Wert übereinstimmt.
   
-Im Abschnitt **Zuordnungen** wählen Sie einen Edgeserver oder Edgeserverpool aus, der dem Vermittlungsserverpool oder Vermittlungsserver zugeordnet werden soll. Sie wählen den Edgeserver aus, den die Medienkomponenten des Vermittlungsservers für externe Benutzer verwenden Enterprise-VoIP.
+Im Abschnitt **Zuordnungen** wählen Sie einen Edgeserver oder Edgeserverpool aus, der dem Vermittlungsserverpool oder Vermittlungsserver zugeordnet werden soll. Sie wählen den Edgeserver aus, den die Medienkomponenten des Vermittlungsservers für externe Benutzer Enterprise-VoIP verwenden.
   
 Wenn gegenwärtig kein Edgeserver definiert ist und der Vermittlungsserver einem Edgeserver zugeordnet werden muss, klicken Sie auf **Neu**, und definieren Sie den neuen Edgeserver oder Edgeserverpool im Assistenten zum Definieren des neuen Edgeserverpools.
   
 ## <a name="next-hop-settings"></a>Einstellungen für nächsten Hop
 
-Zum Angeben des nächsten Hops eines Vermittlungsserverpools oder Vermittlungsservers wählen Sie den definierten Front-End-Pool der Enterprise Edition oder den Front-End-Server der Standard Edition aus der Dropdownliste aus. Ein Director oder Director-Pool kann nicht als nächster Hop für einen Vermittlungsserverpool oder Vermittlungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie **auf "OK",** um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
+Zum Angeben des nächsten Hops eines Vermittlungsserverpools oder Vermittlungsservers wählen Sie den definierten Front-End-Pool der Enterprise Edition oder den Front-End-Server der Standard Edition aus der Dropdownliste aus. Ein Director oder Director-Pool kann nicht als nächster Hop für einen Vermittlungsserverpool oder Vermittlungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie auf **"OK",** um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
   
 ## <a name="pstn-gateway-settings"></a>Einstellungen für PSTN-Gateway
 

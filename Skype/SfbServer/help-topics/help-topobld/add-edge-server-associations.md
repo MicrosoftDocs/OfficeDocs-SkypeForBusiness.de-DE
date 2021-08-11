@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: Auf dieser Seite können auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edgepool für A/V-Datenverkehr nutzen.
-ms.openlocfilehash: eea5cf4893b3ed7000a406b2a307e123b2bbb7f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 546e93f4e0cae719e0aa0bf871c4a0d523b9e23f181dfb5e732546600d171f53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800215"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320487"
 ---
 # <a name="add-edge-server-associations"></a>Hinzufügen von Edgeserverzuordnungen
  

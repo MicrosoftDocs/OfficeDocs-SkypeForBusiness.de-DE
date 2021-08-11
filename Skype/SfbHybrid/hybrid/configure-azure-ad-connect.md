@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Anweisungen zum Konfigurieren von Azure AD-Verbinden in einer Hybridumgebung.
-ms.openlocfilehash: 208d44a9bb8db909d5d562b23cbcfeada41318a7
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: e9e043e8cded2e9e55741cd0abe37488c4b621c6fb7cbfc5e9fd1e35917f8b84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292482"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Konfigurieren von Azure AD Connect für Teams und Skype for Business
 
@@ -32,7 +32,7 @@ ms.locfileid: "53660683"
 Organisationen, die über Skype for Business Server (oder Lync Server) lokal verfügen und Teams verwenden möchten, müssen Azure AD Verbinden konfigurieren, um ihr lokales Verzeichnis mit Microsoft 365 zu synchronisieren. Diese Anforderung umfasst Organisationen, die direkt von Skype for Business lokalen zu Teams wechseln. Organisationen mit Skype for Business lokalen Bereitstellung müssen sicherstellen, dass die richtigen msRTCSIP-Attribute in Azure AD synchronisiert werden.
 
 > [!NOTE]
-> Vorhandene Teams Benutzer, die auch über Skype for Business lokal verfügen, müssen ihr Skype for Business lokale Konto in die Cloud verschieben lassen, um vollständige Funktionen zu erhalten, z. B. die Möglichkeit, mit Skype for Business Benutzern zusammen zu arbeiten und mit Benutzern in Verbundorganisationen zu kommunizieren. Auch wenn der Benutzer nur Teams verwendet, wird dieses Skype for Business-Konto für die Infrastruktur benötigt, um die zusätzlichen Funktionen bereitzustellen. Damit diese Migration durchgeführt werden kann, müssen Sie sicherstellen, dass Azure AD Connect ordnungsgemäß konfiguriert ist, damit Sie Hybrid aktivieren können.
+> Vorhandene Teams Benutzer, die auch Skype for Business lokal haben, müssen ihr Skype for Business lokale Konto in die Cloud verschieben, um vollständige Funktionen zu erhalten, z. B. die Möglichkeit, mit Skype for Business Benutzern zusammen zu arbeiten und mit Benutzern in Verbundorganisationen zu kommunizieren. Auch wenn der Benutzer nur Teams verwendet, wird dieses Skype for Business-Konto für die Infrastruktur benötigt, um die zusätzlichen Funktionen bereitzustellen. Damit diese Migration durchgeführt werden kann, müssen Sie sicherstellen, dass Azure AD Connect ordnungsgemäß konfiguriert ist, damit Sie Hybrid aktivieren können.
  
 
 ## <a name="background-information"></a>Hintergrundinformationen
@@ -44,7 +44,7 @@ Wenn Sie nicht alle Benutzer aus der lokalen Umgebung in die Cloud verschieben, 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>Konfigurieren von Azure AD, wenn Sie Skype for Business Server haben 
 
-Unabhängig davon, ob Sie über eine lokale Active Directory-Gesamtstruktur oder mehrere Gesamtstrukturen verfügen, können Azure AD Verbinden in einer Vielzahl unterstützter Topologien verwendet werden, wie in [Topologien für Azure AD Verbinden](/azure/active-directory/hybrid/plan-connect-topologies)beschrieben. Im Hinblick auf Skype for Business Server gibt es drei Varianten: 
+Unabhängig davon, ob Sie über eine lokale Active Directory-Gesamtstruktur oder mehrere Gesamtstrukturen verfügen, können Azure AD-Verbinden in einer Vielzahl unterstützter Topologien verwendet werden, wie in [Topologien für Azure AD Verbinden](/azure/active-directory/hybrid/plan-connect-topologies)beschrieben. Im Hinblick auf Skype for Business Server gibt es drei Varianten: 
 
 1. Eine einzelne Gesamtstruktur, die autorisierende Benutzeridentitäten enthält und Skype for Business Server hostet. 
 
@@ -64,9 +64,9 @@ Dieses Szenario wird häufig als eine Topologie mit Ressourcengesamtstruktur bez
 
 - Die Ressourcengesamtstruktur, die Skype for Business Server hostet, vertraut den Kontengesamtstrukturen.  
 
-- Alle relevanten Benutzerobjekte und Attribute für Identität (aus Kontogesamtstrukturen) und Skype for Business (aus ressourcengesamter Gesamtstruktur) werden mit den richtigen Werten über Azure AD Verbinden in Azure AD synchronisiert.  
+- Alle relevanten Benutzerobjekte und Attribute für die Identität (aus Kontogesamtstrukturen) und Skype for Business (aus der Ressourcengesamtstruktur) werden mit den richtigen Werten über Azure AD Verbinden in Azure AD synchronisiert.  
 
-  Um eine ordnungsgemäße Objekt- und Attributsynchronisierung in Azure AD in einem lokalen Szenario mit [mehreren Gesamtstrukturen](configure-a-multi-forest-environment-for-hybrid.md)zu erreichen, empfiehlt Microsoft dringend die Verwendung von Azure AD-Verbinden zum Synchronisieren aus allen Gesamtstrukturen, die Benutzerkonten aktiviert haben, und der Gesamtstruktur, die Skype for Business enthält. Wenn Sie aus allen Gesamtstrukturen synchronisieren, müssen Sie Azure AD Connect so konfigurieren, dass diese Identitäten zusammengeführt und mit Azure AD synchronisiert werden. Azure AD Connect dient zur Behandlung dieses Szenarios und bietet eine integrierte Option im Installations-Assistenten, um dies einzurichten, einschließlich Anker zum Verknüpfen von Identitäten. Wählen Sie Folgendes aus: **Benutzeridentitäten sind in mehreren Verzeichnissen vorhanden,** und **"Match" mithilfe von --> ObjectSID- und msExchangeMasterAccountSID-Attributen.**
+  Um eine ordnungsgemäße Objekt- und Attributsynchronisierung in Azure AD in einem lokalen Szenario mit [mehreren Gesamtstrukturen](configure-a-multi-forest-environment-for-hybrid.md)zu erreichen, empfiehlt Microsoft dringend die Verwendung von Azure AD-Verbinden zum Synchronisieren aus allen Gesamtstrukturen, die Benutzerkonten aktiviert haben, und der Gesamtstruktur, die Skype for Business enthält. Wenn Sie aus allen Gesamtstrukturen synchronisieren, müssen Sie Azure AD Connect so konfigurieren, dass diese Identitäten zusammengeführt und mit Azure AD synchronisiert werden. Azure AD Connect dient zur Behandlung dieses Szenarios und bietet eine integrierte Option im Installations-Assistenten, um dies einzurichten, einschließlich Anker zum Verknüpfen von Identitäten. Wählen Sie Folgendes aus: **Benutzeridentitäten sind in mehreren Verzeichnissen vorhanden,** und **"Match" mit --> ObjectSID- und msExchangeMasterAccountSID-Attributen.**
 
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Mehrere Bereitstellungen von Skype for Business Server in mehreren Gesamtstrukturen 
@@ -79,7 +79,7 @@ Die Teams Dienste erfordern, dass die richtigen Active Directory-Attribute vorha
 
  Wenn Identitäten von Benutzern über mehrere Gesamtstrukturen vorhanden sind, sollte Azure AD Connect die Zusammenführung ausführen. Wenn Sie diesen Leitfaden befolgen, synchronisiert Azure AD Connect automatisch die richtigen Attribute, vorausgesetzt, dass Sie die Connectors oder Synchronisierungsregeln in Azure AD Connect nicht ändern. 
   
-Wenn Sie nicht aus allen Gesamtstrukturen synchronisieren, die Benutzeridentitäten und die Skype for Business Server Bereitstellung enthalten, müssen Sie sicherstellen, dass die relevanten Identitäten und Skype for Business Attribute für alle Benutzer, die Teams oder Skype for Business (lokal oder online) verwenden, ordnungsgemäß in Azure AD aufgefüllt werden. Dies erfordert wahrscheinlich eine zusätzliche lokale Verzeichnissynchronisierung. Weitere Informationen finden Sie unter [Azure AD Verbinden Synchronisierung: Mit Azure Active Directory synchronisierte Attribute.](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+Wenn Sie nicht aus allen Gesamtstrukturen synchronisieren, die Benutzeridentitäten und die Skype for Business Server Bereitstellung enthalten, müssen Sie sicherstellen, dass die relevanten Identitäts- und Skype for Business Attribute für alle Benutzer, die Teams oder Skype for Business (lokal oder online) verwenden, ordnungsgemäß in Azure AD aufgefüllt werden. Dies erfordert wahrscheinlich eine zusätzliche lokale Verzeichnissynchronisierung. Weitere Informationen finden Sie unter [Azure AD Verbinden Synchronisierung: Mit Azure Active Directory synchronisierte Attribute.](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 In solchen Szenarien liegt es in der Verantwortung des Kunden, eine ordnungsgemäße Konfiguration für das Auffüllen der Attribute in Azure AD sicherzustellen. Denken Sie dabei an Folgendes: 
 

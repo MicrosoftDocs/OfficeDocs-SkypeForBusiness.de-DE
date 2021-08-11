@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Archivierung in Skype for Business Server aktivieren oder deaktivieren.'
-ms.openlocfilehash: 6d8f6f24bd4b10f7d33a00e218a494d6e8a823d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83ed391ed482d3bd744e963e1589726729a52b6e3f1c65a776b213a809eabed4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283377"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren der Archivierung in Skype for Business Server
 
@@ -27,7 +27,7 @@ ms.locfileid: "49817595"
 
 1. Melden Sie sich von einem Benutzerkonto, das der CsArchivingAdministrator- oder der CsAdministrator-Rolle zugeordnet ist, auf einem beliebigen Computer Ihrer internen Bereitstellung an. 
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.
     
@@ -37,13 +37,13 @@ ms.locfileid: "49817595"
     
    - Klicken Sie auf **IM- und Konferenzsitzungen archivieren**, um sowohl IM-Sitzungen als auch Konferenzen zu archivieren.
     
-   - Klicken Sie auf "Archivierung deaktivieren", um die Archivierung für die Konfiguration **zu deaktivieren.**
+   - Klicken Sie zum Deaktivieren der Archivierung für die Konfiguration auf **"Archivierung deaktivieren".**
     
 5. Klicken Sie auf **Commit ausführen**.
     
-## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Aktivieren oder Deaktivieren der Archivierung mithilfe Windows PowerShell
+## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a>Aktivieren oder Deaktivieren der Archivierung mithilfe von Windows PowerShell
 
-Sie können die Archivierung auch mit dem Cmdlet **"Set-CsArchivingConfiguration"** aktivieren oder deaktivieren. Mit dem folgenden Befehl werden beispielsweise alle Archivierungskonfigurationseinstellungen so geändert, dass nur Sitzungssitzungen archiviert werden. Der Befehl ruft das **Cmdlet "Get-CsArchivingConfiguration"** ohne Parameter auf, um alle derzeit in der Organisation verwendeten Archivierungskonfigurationseinstellungen zurückzukehren. Diese Auflistung wird dann an das Cmdlet **"Where-Object"** weiterviert, das nur die Einstellungen auswählt, bei denen die Eigenschaft "EnableArchiving" den Wert "ImAndWebConf" hat (-eq). Die gefilterte Auflistung wird dann an das Cmdlet **"Set-CsArchivingConfiguration"** weiterverteilt, das jedes Element in der Auflistung übernimmt und den Wert von "EnableArchiving" in "ImOnly" ändert:
+Sie können die Archivierung auch mit dem Cmdlet **"Set-CsArchivingConfiguration"** aktivieren oder deaktivieren. Mit dem folgenden Befehl werden beispielsweise alle Archivierungskonfigurationseinstellungen so geändert, dass nur Chatsitzungen archiviert werden. Der Befehl ruft das Cmdlet **"Get-CsArchivingConfiguration"** ohne Parameter auf, um alle derzeit in der Organisation verwendeten Archivierungskonfigurationseinstellungen zurückzugeben. Diese Auflistung wird dann an das Cmdlet **"Where-Object"** weitergeleitet, das nur die Einstellungen auswählt, bei denen die Eigenschaft "EnableArchiving" gleich (-eq) "ImAndWebConf" ist. Die gefilterte Auflistung wird dann an das Cmdlet **"Set-CsArchivingConfiguration"** weitergeleitet, das jedes Element in der Auflistung übernimmt und den Wert von EnableArchiving in "ImOnly" ändert:
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"

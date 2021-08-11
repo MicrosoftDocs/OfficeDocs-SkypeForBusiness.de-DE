@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen gepaarter Front-End-Pools für die Notfallwiederherstellung in Skype for Business Server
+title: Bereitstellen von front-End-Paarpools für die Notfallwiederherstellung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: Möglicherweise entscheiden Sie sich für die Verwendung von Front-End-Poolpaaren, um Notfallwiederherstellungsschutz zu bieten, dies ist jedoch nicht erforderlich.
-ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Sie können sich dafür entscheiden, gepaarte Front-End-Pools für den Notfallwiederherstellungsschutz zu verwenden, dies ist jedoch keine Voraussetzung.
+ms.openlocfilehash: bc061e05931c6a4b58d754623bde580e35c2c51367228a05126783d83d3fd27a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312053"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Bereitstellen gepaarter Front-End-Pools für die Notfallwiederherstellung in Skype for Business Server
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Bereitstellen von front-End-Paarpools für die Notfallwiederherstellung in Skype for Business Server
  
-Möglicherweise entscheiden Sie sich für die Verwendung von Front-End-Poolpaaren, um Notfallwiederherstellungsschutz zu bieten, dies ist jedoch nicht erforderlich.
+Sie können sich dafür entscheiden, gepaarte Front-End-Pools für den Notfallwiederherstellungsschutz zu verwenden, dies ist jedoch keine Voraussetzung.
   
-Sie können die Notfallwiederherstellungstopologie von gekoppelten Front-End-Pools ganz einfach mithilfe des Topologie-Generators bereitstellen. 
+Sie können die Notfallwiederherstellungstopologie von gepaarten Front-End-Pools ganz einfach mithilfe des Topologie-Generators bereitstellen. 
   
 ## <a name="to-deploy-a-pair-of-front-end-pools"></a>So stellen Sie ein Paar von Front-End-Pools bereit
 
-1. Wenn die Pools neu sind und noch nicht definiert sind, verwenden Sie den Topologie-Generator, um die Pools zu erstellen.
+1. Wenn die Pools neu und noch nicht definiert sind, verwenden Sie den Topologie-Generator, um die Pools zu erstellen.
     
-2. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen der beiden Pools, und klicken Sie dann auf **Eigenschaften bearbeiten.**
+2. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen der beiden Pools, und klicken Sie dann auf **"Eigenschaften bearbeiten".**
     
 3. Klicken Sie im linken Bereich auf **Flexibilität**, und wählen Sie dann im rechten Bereich **Zugeordneter Sicherungspool** aus.
     
@@ -43,7 +43,7 @@ Sie können die Notfallwiederherstellungstopologie von gekoppelten Front-End-Poo
     
 7. Wenn die beiden Pools noch nicht bereitgestellt wurden, führen Sie die Bereitstellung jetzt durch, um die Konfiguration abzuschließen. Sie können die letzten Schritte in diesem Verfahren überspringen.
     
-    Wenn die Pools jedoch bereits bereitgestellt wurden, bevor Sie die Paarbeziehung definiert haben, müssen Sie die folgenden abschließenden Schritte ausführen.
+    Wenn die Pools jedoch bereits bereitgestellt wurden, bevor Sie die paarweise Beziehung definiert haben, müssen Sie die folgenden abschließenden Schritte ausführen.
     
 8. Führen Sie auf jedem Front-End-Server in beiden Pools Folgendes aus:
     
@@ -53,15 +53,15 @@ Sie können die Notfallwiederherstellungstopologie von gekoppelten Front-End-Poo
 
     Hierdurch werden die anderen Dienste konfiguriert, die erforderlich sind, damit die Sicherung des Poolpaars korrekt funktioniert.
     
-9. Sobald Bootstrapper die Installation der erforderlichen Komponenten für die Sicherungspaarung auf jedem Front-End-Server in beiden Pools abgeschlossen hat, müssen Sie alle vorhandenen kumulativen Updates, die zuvor auf diesen Front-End-Servern in beiden Pools angewendet wurden, erneut anwenden und dann mit dem nächsten Schritt fortfahren.
+9. Nachdem Bootstrapper die Installation der erforderlichen Komponenten für die Sicherungspaarung auf jedem Front-End-Server in beiden Pools abgeschlossen hat, müssen Sie alle vorhandenen kumulativen Updates erneut anwenden, die zuvor auf diese Front-End-Server in beiden Pools angewendet wurden, und fahren Sie dann mit dem nächsten Schritt fort.
 
-10. Führen Sie an einer Skype for Business Server-Verwaltungsshell-Eingabeaufforderung Folgendes aus: 
+10. Führen Sie an einer Skype for Business Server Verwaltungsshell-Eingabeaufforderung Folgendes aus: 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. Erzwingen Sie die Synchronisierung der Benutzer- und Konferenzdaten beider Pools miteinander mit den folgenden Cmdlets:
+11. Erzwingen Sie, dass die Benutzer- und Konferenzdaten beider Pools mit den folgenden Cmdlets miteinander synchronisiert werden:
     
     ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -82,8 +82,8 @@ Sie können die Notfallwiederherstellungstopologie von gekoppelten Front-End-Poo
     ```
 
 > [!NOTE]
-> Die **Option "Automatisches Failover** und Failback für Voice" und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die Funktionen zur Ausfallsicherheit von Sprachfunktionen, die in Lync Server eingeführt wurden. Wenn Sie diese Option auswählen, bedeutet dies nicht, dass das in diesem Dokument erläuterte Poolfailover automatisch erfolgt. Für Das Failover und Failback eines Pools muss ein Administrator die Failover- bzw. Failback-Cmdlets immer manuell aufrufen.
+> Die Option **"Automatisches Failover und Failback für VoIP"** und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die In Lync Server-Funktionen zur Ausfallsicherheit von VoIP. Wenn Sie diese Option auswählen, bedeutet dies nicht, dass das in diesem Dokument beschriebene Poolfailover automatisch erfolgt. Poolfailover und Failback erfordern immer, dass ein Administrator die Failover- bzw. Failback-Cmdlets manuell aufruft.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Notfallwiederherstellung für Front-End-Pools in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Notfallwiederherstellung von Front-End-Pools in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat enthält alle Chatnachrichten.
-ms.openlocfilehash: b375c8c5dcd626a02f59aa9a916d3ca883e4767d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2e764fa9ca64089a7015885bb4d33dc466d7dc214532e698505a19d2cf1a0d4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329419"
 ---
 # <a name="tblchat"></a>tblChat
  
@@ -33,8 +33,8 @@ tblChat enthält alle Chatnachrichten.
 |chatDate  <br/> |bigint, nicht NULL  <br/> |Zeitstempel für die Chatnachricht.  <br/> |
 |userId  <br/> |int, nicht NULL  <br/> |Prinzipal-ID des Bereitstellers.  <br/> |
 |isAlert  <br/> |bit, nicht NULL  <br/> |TRUE, wenn es sich bei der Nachricht um eine Fehlermeldung handelt, andernfalls FALSE.  <br/> |
-|content  <br/> |nvarchar (max), nicht NULL  <br/> | Chatinhalt (Nur-Text-Version). Der Inhalt ist normalerweise einfacher Text mit den folgenden Ausnahmen: <br/>  Dateien sind als Links vom Typ ma-filelink: dargestellt. <br/>  Links sind als HTML-Elemente dargestellt (obwohl der Inhaltstyp nicht als HTML betrachtet werden kann). <br/>  Stories werden als "[STORY]...."-format codiert. <br/> |
-|rtf  <br/> |varchar(max)  <br/> |Chatinhalt (RTF-Version). Kann Null sein, wenn der Client es nicht zur Verfügung stellt.  <br/> |
+|content  <br/> |nvarchar (max), nicht NULL  <br/> | Chatinhalt (Nur-Text-Version). Der Inhalt ist normalerweise einfacher Text mit den folgenden Ausnahmen: <br/>  Dateien sind als Links vom Typ ma-filelink: dargestellt. <br/>  Links sind als HTML-Elemente dargestellt (obwohl der Inhaltstyp nicht als HTML betrachtet werden kann). <br/>  Storys werden als "[STORY]...."-ähnliches Format codiert. <br/> |
+|RTF  <br/> |varchar(max)  <br/> |Chatinhalt (RTF-Version). Kann Null sein, wenn der Client ihn nicht bereitstellt.  <br/> |
    
 **Schlüssel**
 

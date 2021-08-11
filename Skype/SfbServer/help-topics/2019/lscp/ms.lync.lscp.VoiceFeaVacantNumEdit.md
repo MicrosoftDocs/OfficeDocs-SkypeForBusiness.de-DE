@@ -1,5 +1,5 @@
 ---
-title: Nicht zugewiesene Telefonnummer Erstellen neuer oder Bearbeiten vorhandener Telefonnummern
+title: Nicht zugewiesene Telefon Nummer erstellen oder vorhandene bearbeiten
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
-ms.openlocfilehash: 49837269f81eaee09a0c191008234345d1d6d19f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47eed42a5ce1b16826f907f56294e0d4b8656946d4940cb21bbeeed5d4b4c570
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283537"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Nicht zugewiesene Telefonnummer: Erstellen einer neuen oder Bearbeiten einer vorhandenen nicht zugewiesenen Nummer
 
 > [!NOTE]
-> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 in Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen bei der Unterstützung in Exchange 2019 wird die Exchange UM-Integration zugunsten von Cloud Voicemail- und Cloud-automatische Telefonzentrale hervorgehoben.
+> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail und Cloud Auto Attendant-Features nicht mehr unterstützt.
 
 Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
 
@@ -44,18 +44,18 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - Wenn die erste Nummer im Bereich oder die letzte Nummer im Bereich eine Durchwahl umfassen, müssen sowohl die erste als auch die letzte Nummer im Bereich einen Durchwahl aufweisen, und die Durchwahlnummer muss für die erste und die letzte Nummer übereinstimmen.
 
-  - Die Zahl muss mit dem regulären Ausdruck ( `tel:` )?( \+ )? übereinstimmen. [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Dies bedeutet, dass die Zahl mit der Zeichenfolge "tel:" beginnen kann. Wenn Sie diese Zeichenfolge nicht angeben, wird sie automatisch für Sie hinzugefügt, z. B. ein Pluszeichen (+) und eine Ziffer 1 bis 9. Die Telefonnummer kann bis zu 17 Zeichen umfassen, gefolgt von einer Durchwahl im Format ";ext=" plus der Durchwahlnummer.
+  - Die Zahl muss mit dem regulären Ausdruck ( `tel:` )?( \+ )? [1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. Dies bedeutet, dass die Zahl möglicherweise mit der Zeichenfolge "tel:" beginnt. Wenn Sie diese Zeichenfolge nicht angeben, wird sie automatisch für Sie hinzugefügt, z. B. ein Pluszeichen (+) und eine Ziffer von 1 bis 9. Die Telefonnummer kann bis zu 17 Zeichen umfassen, gefolgt von einer Durchwahl im Format ";ext=" plus der Durchwahlnummer.
 
-- **Ansagedienst** Wählen **Sie Ansage** aus, damit die Ansageanwendung den eingehenden Anruf verarbeiten soll, oder **Exchange UM,** damit ein Exchange UM-automatische Telefonzentrale den eingehenden Anruf verarbeiten kann.
+- **Ankündigungsdienst** Wählen Sie **"Ankündigung"** aus, damit die Ansageanwendung den eingehenden Anruf verarbeitet, oder **Exchange UM,** damit eine Exchange automatische UM-Telefonzentrale den eingehenden Anruf verarbeitet.
 
 - Bei Auswahl von **Ankündigung** unter **Ankündigungsdienst**:
 
-  - **FQDN des Zielservers** Wählen Sie die Dienst-ID des Anwendungsdiensts aus, der die Ansageanwendung ausgeführt hat, die eingehende Anrufe an diesen Bereich nicht zugewiesener Nummern verarbeiten soll.
+  - **FQDN des Zielservers** Wählen Sie die Dienst-ID des Anwendungsdiensts aus, der die Ankündigungsanwendung ausführt, die eingehende Anrufe für diesen Bereich nicht zugewiesener Nummern verarbeitet.
 
-  - **Ankündigung** Wählen Sie die Ansage aus, die für diesen Bereich nicht zugewiesener Nummern abgespielt werden soll.
+  - **Ankündigung** Wählen Sie die Ankündigung aus, die für diesen Bereich nicht zugewiesener Nummern wiedergegeben werden soll.
 
 - Bei Auswahl von **Exchange UM** unter **Ankündigungsdienst**:
 
-  - **automatische Telefonzentrale Telefonnummer** Wählen Sie die Telefonnummer für die Exchange UM-automatische Telefonzentrale.
+  - **Telefonnummer der automatischen Telefonzentrale** Wählen Sie die Telefonnummer für die Exchange automatische UM-Telefonzentrale aus.
 
-Ausführliche Informationen zu Ankündigungsfeatures und -funktionen finden Sie unter [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie unter [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) in der Betriebsdokumentation.
+Ausführliche Informationen zu ankündigungsfeatures und -funktionen finden Sie [unter Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie unter [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) in der Betriebsdokumentation.

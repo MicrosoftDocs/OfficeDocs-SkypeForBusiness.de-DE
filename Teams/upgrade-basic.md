@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9453ad770b7ca21b5300b193cbafb932ea7645a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300761"
 ---
 # <a name="upgrade-basic"></a>Upgrade Basic
 
@@ -115,7 +115,7 @@ Benutzer, die Skype for Business intensiv verwendet haben, benötigen möglicher
 Wenn Sie Ihre Benutzer zeitig darüber informieren, haben diese ausreichend Zeit, sich mit Teams vertraut zu machen, ohne dass sich dies negativ auf ihre Produktivität auswirkt. Auf diese Weise wird eine positivere Benutzererfahrung erzielt. Senden Sie eine Kommunikation, um ihnen zu sagen, was sich ändert, warum sie sich ändert und wie sie sich darauf vorbereiten können.
 
 > [!Note]
-> Bei Bedarf können Sie Teams Benutzer über das Microsoft 365 Admin Center aktivieren.
+> Bei Bedarf können Sie die Teams benutzer derzeit über die Microsoft 365 Admin Center aktivieren.
 
 **Ressourcen:**
 

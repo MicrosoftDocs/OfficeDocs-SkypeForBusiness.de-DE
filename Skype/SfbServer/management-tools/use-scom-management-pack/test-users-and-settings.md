@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: Konfigurieren von Testbenutzerkonten und Watcher-Knoteneinstellungen für Skype for Business Server synthetische Transaktionen.
-ms.openlocfilehash: 2be4b8aef73def9f9fee11e3469eae93b83393ff
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: e5ae16702ca5659cc196086a108f65acb03d032a2901344afc1f3e2238211b2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283247"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>Konfigurieren von Testbenutzern und Einstellungen für Watcher-Knoten
  
@@ -43,9 +43,9 @@ Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 ```
 
-Sie müssen nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort angeben. Wenn Sie das Kennwort nicht angeben, werden Sie vom cmdlet Set-CsTestUserCredential aufgefordert, diese Informationen einzugeben. Der Benutzername kann mithilfe des Im vorherigen Codeblocks angezeigten Domänennamen-/Benutzernamenformats angegeben werden.
+Sie müssen nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort angeben. Wenn Sie das Kennwort nicht angeben, werden Sie vom Cmdlet Set-CsTestUserCredential aufgefordert, diese Informationen einzugeben. Der Benutzername kann mithilfe des Im vorherigen Codeblocks angezeigten Domänennamen-/Benutzernamenformats angegeben werden.
   
-Um zu überprüfen, ob die Anmeldeinformationen des Testbenutzers erstellt wurden, führen Sie die folgenden Befehle in der Skype for Business Server Verwaltungsshell aus:
+Führen Sie die folgenden Befehle aus der Skype for Business Server Verwaltungsshell aus, um zu überprüfen, ob die Anmeldeinformationen des Testbenutzers erstellt wurden:
   
 ```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
@@ -85,7 +85,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Die Ergebnisse dieses Befehls müssen in einer Variablen gespeichert werden. In diesem Beispiel heißt die Variable $pstnTest. 
   
-Als Nächstes können Sie das Cmdlet **"New-CsWatcherNodeConfiguration"** verwenden, um den Testtyp (in der Variablen $pstnTest gespeichert) einem Skype for Business Server Pool zuzuordnen. Mit dem folgenden Befehl wird beispielsweise eine neue Monitorknotenkonfiguration für den Pool atl-cs-001.litwareinc.com erstellt, die zwei zuvor erstellten Testbenutzer hinzugefügt und der PSTN-Testtyp hinzugefügt:
+Als Nächstes können Sie das Cmdlet **"New-CsWatcherNodeConfiguration"** verwenden, um den Testtyp (in der Variablen $pstnTest gespeichert) einem Skype for Business Server Pool zuzuordnen. Der folgende Befehl erstellt beispielsweise eine neue Watcher-Knotenkonfiguration für den Pool atl-cs-001.litwareinc.com, fügt die beiden zuvor erstellten Testbenutzer hinzu und fügt den PSTN-Testtyp hinzu:
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -209,7 +209,7 @@ ExtendedTests : {TestUsers=IList<System.String>; Name=PSTN-Test; Te...}<br/>
 TargetFqdn : atl-cs-001.litwareinc.com<br/>
 PortNumber : 5061<br/>
 
-Um zu überprüfen, ob der Monitorknoten ordnungsgemäß konfiguriert wurde, geben Sie den folgenden Befehl aus der Skype for Business Server Verwaltungsshell ein:
+Um zu überprüfen, ob der Watcher-Knoten ordnungsgemäß konfiguriert wurde, geben Sie den folgenden Befehl in der Skype for Business Server Verwaltungsshell ein:
   
 ```PowerShell
 Test-CsWatcherNodeConfiguration
@@ -374,9 +374,9 @@ In diesem Beispiel muss eine Skype for Business Server Regel vorhanden sein, um 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Synthetische Transaktion des Video-Interoperabilität-Servers (VIS)
 
-Die synthetische Transaktion des Video-Interoperabilität-Servers (VIS) erfordert, dass Sie die Supportdateien für synthetische Transaktionen herunterladen und installieren ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
+Für die synthetische Transaktion des Video-Interoperabilität-Servers (VIS) müssen Sie die Unterstützungsdateien für synthetische Transaktionen herunterladen und installieren ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
-Um VISSTSupportPackage.msi sicherzustellen, dass die Abhängigkeiten (unter Systemanforderungen) für die MSI-Datei bereits installiert sind. Führen Sie VISSTSupportPackage.msi aus, um eine einfache Installation durchzuführen. Das .msi installiert alle Dateien im folgenden Pfad: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
+Um VISSTSupportPackage.msi sicherzustellen, dass die Abhängigkeiten (unter "Systemanforderungen") für die MSI-Datei bereits installiert sind. Führen Sie VISSTSupportPackage.msi aus, um eine einfache Installation durchzuführen. Das .msi installiert alle Dateien im folgenden Pfad: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
 Weitere Informationen zum Ausführen der synthetischen VIS-Transaktion finden Sie in der Dokumentation für das Cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV.](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV)
   
@@ -393,7 +393,7 @@ Führen Sie die folgenden Schritte aus, um die Häufigkeit der Ausführung synth
     
 2. Suchen Sie im Abschnitt "Regeln" die Regel mit dem Namen "Main Synthetic Transaction Runner Performance Collection Rule".
     
-3. Klicken Sie mit der rechten Maustaste auf die Regel, und wählen Sie "Außerkraftsetzungen" aus, wählen Sie "Regel überschreiben" und dann "Für alle Objekte der Klasse: Poolüberwachung" aus.
+3. Klicken Sie mit der rechten Maustaste auf die Regel, und wählen Sie "Außerkraftsetzungen" aus, wählen Sie "Regel außer Kraft setzen" und dann "Für alle Objekte der Klasse: Pool-Watcher" aus.
     
 4. Wählen Sie im Fenster "Eigenschaften überschreiben" den Parameternamen "Frequency" aus, und legen Sie den Überschreibungswert auf den gewünschten Wert fest.
     

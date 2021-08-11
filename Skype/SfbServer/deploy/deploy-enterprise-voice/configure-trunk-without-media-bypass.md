@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Zusammenfassung: Konfigurieren eines Trunks ohne medienumgehung für Skype for Business Server aktiviert.'
-ms.openlocfilehash: 4cf17da7233697d31f386501be6f7089bf803205
+ms.openlocfilehash: 737fbc850583513b6782878fbd75484716364bcf258db2e5183e0800700d3891
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772426"
+ms.locfileid: "54312073"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server: Konfigurieren eines Trunks ohne Medienumgehung
 
@@ -48,7 +48,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
    - **Pooltrunk**: Wählen Sie unter **Dienst auswählen** den Namen des Trunks aus, auf den diese Trunkkonfiguration angewendet wird, und klicken Sie auf **OK**. Dieser Trunk kann der Stammtrunk oder alle zusätzlichen Trunks sein, die im Topologie-Generator definiert sind. Wenn bereits eine Trunkkonfiguration für einen bestimmten Trunk erstellt wurde, erscheint dieser Trunk nicht unter **Dienst auswählen**.
 
      > [!NOTE]
-     > Nachdem Sie den Bereich für die Trunkkonfiguration ausgewählt haben, kann dieser nicht mehr geändert werden. > Das **Feld "Name"** wird mit dem Namen des zugeordneten Standorts oder Diensts der Trunkkonfiguration ausgefüllt und kann nicht geändert werden.
+     > Nachdem Sie den Bereich für die Trunkkonfiguration ausgewählt haben, kann dieser nicht mehr geändert werden. > Das **Feld "Name"** wird mit dem Namen des zugeordneten Standorts oder Diensts der Trunkkonfiguration vorgefüllt und kann nicht geändert werden.
 
 4. Wählen Sie unter **Unterstützte Verschlüsselungsstufe** eine der folgenden Optionen aus:
 
@@ -121,13 +121,13 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 
 12. **Enable forward P-Asserted-Identity data** should be selected to enable PAI call originator information to be forwarded between the Mediation Server side and gateway side (and vice versa), when present.
 
-13. **Failovertimer für Ausgangsrouting aktivieren** sollte ausgewählt sein, um ein schnelleres Failover zu ermöglichen. Das diesem Trunk zugeordnete Gateway kann innerhalb von 10 Sekunden eine Benachrichtigung senden, dass ein ausgehender Anruf verarbeitet wird. Eine Umleitung zu einem anderen Trunk erfolgt, wenn diese Benachrichtigung nicht vom Vermittlungsserver empfangen wird. In Netzwerken, in denen Latenz die Reaktionszeit verzögern kann oder das Gateway länger als 10 Sekunden benötigt, um zu antworten, sollte das schnelle Failover deaktiviert werden.
+13. **Failovertimer für Ausgangsrouting aktivieren** sollte ausgewählt sein, um ein schnelleres Failover zu ermöglichen. Das diesem Trunk zugeordnete Gateway kann innerhalb von 10 Sekunden eine Benachrichtigung senden, dass ein ausgehender Anruf verarbeitet wird. Wenn diese Benachrichtigung nicht vom Vermittlungsserver empfangen wird, erfolgt eine Umleitung zu einem anderen Trunk. In Netzwerken, in denen Latenz die Reaktionszeit verzögern kann oder das Gateway länger als 10 Sekunden benötigt, um zu antworten, sollte das schnelle Failover deaktiviert werden.
 
 14. (Optional) Zuordnen und Konfigurieren von **Übersetzungsregeln für die wählende Nummer** für den Trunk. Diese Übersetzungsregeln werden bei ausgehenden Anrufen auf die wählende Nummer angewendet.
 
     - Klicken Sie auf **"Auswählen",** um eine oder mehrere Regeln aus einer Liste aller Übersetzungsregeln auszuwählen, die in Ihrer Enterprise-VoIP Bereitstellung verfügbar sind. Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
 
-    - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter ["Übersetzungsregeln" in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+    - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie [unter "Übersetzungsregeln" in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
     - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die bereits dem Trunk zugeordnet ist.
 
@@ -142,7 +142,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
 
     - Klicken Sie auf **"Auswählen",** um eine oder mehrere Regeln aus einer Liste aller Übersetzungsregeln auszuwählen, die in Ihrer Enterprise-VoIP Bereitstellung verfügbar sind. Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
 
-    - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter ["Übersetzungsregeln" in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+    - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie [unter "Übersetzungsregeln" in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
     - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die bereits dem Trunk zugeordnet ist.
 
@@ -165,7 +165,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     > [!NOTE]
     > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md)
 

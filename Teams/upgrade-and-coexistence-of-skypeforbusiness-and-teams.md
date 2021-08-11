@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 425083bacb5664915f66485cae6f5a86f780aa7a
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e9cf6d911f77f47ad2631a6560afd5be8df171e32ee3e0d3907eb59f3ba01146
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300831"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihren Upgradeweg von Skype for Business Teams
 
@@ -110,8 +110,8 @@ In der folgenden Tabelle sind die Teams für den Islands-Modus und den TeamsOnly
 
 | Teams-Erfahrung | Im Modus "Inseln" | Im TeamsOnly-Modus |
 |:------------------ | :------------------- | :------------------ |
-| Eingehende Chats und Anrufe, die in empfangen werden:|  Teams oder Skype for Business | Microsoft Teams |
-| PstN-Anrufe empfangen in: | Skype for Business <br>(Die Verwendung der PSTN-Teams wird im Islands-Modus nicht unterstützt.)     | Microsoft Teams |   
+| Eingehende Chats und Anrufe, die in empfangen werden:|  Teams oder Skype for Business | Teams |
+| PstN-Anrufe empfangen in: | Skype for Business <br>(Die Verwendung der PSTN-Teams wird im Islands-Modus nicht unterstützt.)     | Teams |   
  |Anwesenheit    | Die Anwesenheit in Skype for Business und Teams ist unabhängig. Je nachdem, welchen Client sie verwenden, sehen Benutzer möglicherweise unterschiedliche Zustände für die gleichen Inseln. | Die Anwesenheit basiert ausschließlich auf der Aktivität des Benutzers in Teams. Alle anderen Benutzer sehen diese Anwesenheit, unabhängig davon, welchen Client sie verwenden. | 
  | Besprechungsplanung    | Benutzer können Besprechungen entweder in Teams Besprechungen oder Skype for Business. Standardmäßig werden beide Add-Ins in der Outlook. Sie können eine Teams-Besprechungsrichtlinie festlegen, um zu steuern, ob Benutzer nur das Teams Meeting-Add-In oder beides Teams-Besprechungs- und Skype for Business-Besprechungs-Add-Ins verwenden können. Weitere Informationen finden Sie unter [Festlegen des Besprechungsanbieters für Benutzer im Islands-Modus.](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode) |     Benutzer planen Besprechungen nur in Teams. Nur das Teams-Add-In ist in der Outlook. | 
 
@@ -158,9 +158,9 @@ Alternativ kann der Administrator zunächst nur die Besprechungsplanung auf Team
 
 |Teams-Erfahrung  |Im SfBWithTeamsCollab-Modus |Im SfBWithTeamsCollabAndMeetings-Modus |Im TeamsOnly-Modus  |
 |---------|---------|---------|---------|
-|Eingehende Chats und VOIP-Anrufe von Benutzern in Ihrer Organisation, die empfangen wurden:     | Skype for Business        | Skype for Business       | Microsoft Teams        |
-|PstN-Anrufe empfangen in:     | Skype for Business        |Skype for Business         | Microsoft Teams        |
-|Anwesenheit     | Skype for Business        |Skype for Business         | Microsoft Teams        |
+|Eingehende Chats und VOIP-Anrufe von Benutzern in Ihrer Organisation, die empfangen wurden:     | Skype for Business        | Skype for Business       | Teams        |
+|PstN-Anrufe empfangen in:     | Skype for Business        |Skype for Business         | Teams        |
+|Anwesenheit     | Skype for Business        |Skype for Business         | Teams        |
 |Besprechungsplanung     | Skype for Business         | Microsoft Teams        | Microsoft Teams        |
 
 

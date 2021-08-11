@@ -1,5 +1,5 @@
 ---
-title: Tabelle "Telefone"
+title: Phones-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
-description: Bei der Tabelle "Telefone" handelt es sich um eine Tabelle mit Unterstützung. Jeder Datensatz in der Tabelle speichert Informationen zu einer Telefonnummer, die an VoIP-Anrufen beteiligt ist, die Datensätze in der Datenbank enthalten.
-ms.openlocfilehash: 12825423b9a03bff93e0d70705a4083bb8c881c9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die Phones-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz in der Tabelle speichert Informationen zu einer Telefonnummer, die an VoIP-Anrufen beteiligt ist und Datensätze in der Datenbank enthält.
+ms.openlocfilehash: 938e00267f5f356c646d363033ef9a8917b910261f873637c0f6b3a6b9ff8742
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329459"
 ---
-# <a name="phones-table"></a>Tabelle "Telefone"
+# <a name="phones-table"></a>Phones-Tabelle
  
-Bei der Tabelle "Telefone" handelt es sich um eine Tabelle mit Unterstützung. Jeder Datensatz in der Tabelle speichert Informationen zu einer Telefonnummer, die an VoIP-Anrufen beteiligt ist, die Datensätze in der Datenbank enthalten.
+Die Phones-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz in der Tabelle speichert Informationen zu einer Telefonnummer, die an VoIP-Anrufen beteiligt ist und Datensätze in der Datenbank enthält.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**PhoneId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die dieses Telefon identifiziert.  <br/> |
-|**PhoneUri** <br/> |nvarchar(450)  <br/> | <br/> |Telefonnummer.  <br/> |
+|**PhoneId** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige Nummer, die dieses Telefon identifiziert.  <br/> |
+|**PhoneUri** <br/> |nvarchar(450)  <br/> | <br/> |Telefon Zahl.  <br/> |
 |**NextUpdateTS** <br/> |dateTime  <br/> ||Zeitstempel (nur für interne Verwendung).  <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
    
 
