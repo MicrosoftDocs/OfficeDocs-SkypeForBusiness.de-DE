@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Nach der Migration zu Microsoft Skype for Business Server 2019 müssen Sie einige Aufgaben ausführen, um Skype for Business Server 2019 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.
-ms.openlocfilehash: ef40890cb3ac01d8223c4b9a9cd0c4712e544376
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Nach der Migration zu Microsoft Skype for Business Server 2019 müssen Sie einige Aufgaben ausführen, um Skype for Business Server 2019 für die Arbeit mit System Center Operations Manager zu konfigurieren.
+ms.openlocfilehash: 477fbd3c405328ffac4aa70a722120d375e95b295bf5a23d19882248d1ece54e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279613"
 ---
 # <a name="configure-scom-monitoring"></a>Konfigurieren der SCOM-Überwachung
 
-Nach der Migration zu Skype for Business Server 2019 müssen Sie einige Aufgaben ausführen, um Skype for Business Server 2019 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.
+Nach der Migration zu Skype for Business Server 2019 müssen Sie einige Aufgaben ausführen, um Skype for Business Server 2019 für System Center Operations Manager zu konfigurieren.
   
-- Wenden Sie Updates auf einen Server an, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde.
+- Anwenden von Updates auf einen Server, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde.
     
 - Aktualisieren Sie den Serverregistrierungsschlüssel des Kandidaten für die zentrale Erkennung.
     
-- Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass der Knoten Kandidaten-zentral Suche außer Kraft gesetzt wird.
+- Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver, um den zentralen Suchknoten außer Kraft zu setzen.
     
 Anweisungen für diese Aufgaben finden Sie unten.
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Wenden Sie Updates auf einen Server an, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde.
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Anwenden von Updates auf einen Server, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde.
 
 1. Wählen Sie einen Server aus, auf dem die System Center Operations Manager-Agentdateien installiert sind und der als Kandidatenermittlungsknoten konfiguriert ist. 
     
-2. Wenden Sie Updates auf diesen Server an. Siehe das Thema [Apply Updates](apply-updates.md).
+2. Wenden Sie Updates auf diesen Server an. Weitere Informationen finden Sie im Thema ["Updates anwenden".](apply-updates.md)
     
 ### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Aktualisieren Sie den Serverregistrierungsschlüssel des Kandidaten für die zentrale Erkennung.
 
-1. Öffnen Sie auf dem Server, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde, ein Windows PowerShell Befehlsfenster. 
+1. Öffnen Sie auf dem Server, der sich für die Verwaltung der zentralen Ermittlungslogik entschieden hat, ein Windows PowerShell Befehlsfenster. 
     
 2. Geben Sie an der Befehlszeile Folgendes ein:
     
@@ -53,16 +53,16 @@ Anweisungen für diese Aufgaben finden Sie unten.
     > [!NOTE]
     > Bei jeder Bearbeitung der Registrierung kann eine Fehlermeldung angezeigt werden, dass der Befehl nicht ausgeführt wurde, wenn der Registrierungsschlüssel bereits vorhanden ist. Falls dies der Fall ist, können Sie die Fehlermeldung getrost ignorieren. 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass der Knoten Candidate Central Discovery Watcher außer Kraft gesetzt wird.
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver, um den Knoten des zentralen Ermittlungsüberwachungsknotens außer Kraft zu setzen.
 
 1. Erweitern Sie auf einem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, **Management Pack-Objekte**, und wählen Sie **Objektermittlungen** aus.
     
-2. Klicken Sie auf **Bereich ändern** .
+2. Klicken Sie auf **"Bereich ändern".**
     
 3. Wählen Sie auf der Seite **Management Pack-Objekte in Bereiche einteilen** den Eintrag **LS-Ermittlungskandidat** aus.
     
 4. Überschreiben Sie den **Effektivwert für den LS-Ermittlungskandidaten** mit dem Namen des zuvor ausgewählten Kandidatenservers. 
     
-Starten Sie den Integritätsdienst auf dem System Center Operations Manager-Stamm Verwaltungs Server neu, um die Änderungen abzuschließen.
+Starten Sie den Integritätsdienst auf dem System Center Operations Manager-Stammverwaltungsserver neu, um die Änderungen abzuschließen.
   
 

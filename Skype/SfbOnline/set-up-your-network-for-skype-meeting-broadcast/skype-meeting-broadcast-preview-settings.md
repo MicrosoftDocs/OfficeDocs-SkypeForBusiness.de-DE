@@ -21,12 +21,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
 description: Das Skype for Business-Programm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. So kann Ihre Organisation einen Einblick in kommende Produkte erhalten, die neuen Features in Ihrer eigenen Umgebung testen und Feedback geben, bevor die Produktbuilds allgemein veröffentlicht werden. Weitere Informationen finden Sie unter Skype for Business Vorschau.
-ms.openlocfilehash: d713e3225ed963beb1b201d515db558513020d39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b372fcdbe23ed5fcd663cf7af0a0d4aea1cd684277d670308daab120625d2238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298735"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype-Besprechung Einstellungen für die Übertragungsvorschau
 

@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: Roadmap für Artikel zum Verwalten und Überwachen von Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
-ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
+ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279702"
 ---
 # <a name="manage-and-monitor-teams"></a>Verwalten und überwachen Teams
 

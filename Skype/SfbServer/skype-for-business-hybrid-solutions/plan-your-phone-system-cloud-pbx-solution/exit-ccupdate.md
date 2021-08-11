@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: 'Das Cmdlet „Exit-CcUpdate“ beendet den Wartungsmodus für das Update auf dem Hostserver von Skype for Business Cloud Connector Edition. '
-ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das cmdlet Exit-CcUpdate beendet den Updatewartungsmodus auf dem Skype for Business Cloud Connector Edition Hostserver.
+ms.openlocfilehash: d55004f071caa67492d5368e36007d9c3c307b90aabbc33d79d1feeb4aa37356
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288836"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-Das Cmdlet „Exit-CcUpdate“ beendet den Wartungsmodus für das Update auf dem Hostserver von Skype for Business Cloud Connector Edition.  
+Das cmdlet Exit-CcUpdate beendet den Updatewartungsmodus auf dem Skype for Business Cloud Connector Edition Hostserver. 
   
-Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1 und 1.4.2.  
+Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1, 1.4.2. 
   
 ```powershell
 Exit-CcUpdate
@@ -37,9 +37,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Der folgende Befehl versetzt die Appliance, auf der er ausgeführt wird, wieder in den Produktionsmodus:  
+Mit dem folgenden Befehl wird die Appliance, auf der sie ausgeführt wird, wieder in den Produktionsmodus versetzt: 
   
 ```powershell
 Exit-CcUpdate
@@ -48,19 +48,19 @@ Exit-CcUpdate
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Wenn Sie Appliances durch Angeben des Cmdlets „Enter-CcUpdate“ in den Wartungsmodus versetzt haben, werden diese durch das Cmdlet „Exit-CcUpdate“ wieder in den Produktionsmodus versetzt.  
+Wenn Sie Appliances in den Wartungsmodus versetzt haben, indem Sie das cmdlet Enter-CcUpdate angeben, versetzt das Cmdlet Exit-CcUpdate diese wieder in den Produktionsmodus. 
   
-Weitere Informationen zum Versetzen von Appliances in den Wartungsmodus finden Sie unter „Enter-CcUpdate“.
+Weitere Informationen zum Versetzen von Appliances in den Wartungsmodus finden Sie unter Enter-CcUpdate.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Exit-CcUpdate“ akzeptiert keine Pipelineeingaben.
+Keine. Das Cmdlet Exit-CcUpdate akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine  
+Keine 
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

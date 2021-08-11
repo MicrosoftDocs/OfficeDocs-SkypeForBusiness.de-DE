@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
-description: Das Cmdlet „Register-CcAppliance“ registriert Appliance-Informationen für einen PSTN-Standort in einer Onlinemandantenkonfiguration. Sie müssen eine Appliance registrieren, bevor diese bereitgestellt und mit dem Skype for Business Cloud Connector Edition-Verwaltungsdienst verwaltet werden kann.
-ms.openlocfilehash: a94f9d7189f4872fcee2439afd2b210933f8bb06
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das cmdlet Register-CcAppliance registriert Appliance-Informationen an einem PSTN-Standort in einer Onlinemandantenkonfiguration. Eine Appliance muss registriert werden, bevor sie vom Skype for Business Cloud Connector Edition-Verwaltungsdienst bereitgestellt und verwaltet werden kann.
+ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288803"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
-Das Cmdlet „Register-CcAppliance“ registriert Appliance-Informationen für einen PSTN-Standort in einer Onlinemandantenkonfiguration. Sie müssen eine Appliance registrieren, bevor diese bereitgestellt und mit dem Skype for Business Cloud Connector Edition-Verwaltungsdienst verwaltet werden kann.
+Das cmdlet Register-CcAppliance registriert Appliance-Informationen an einem PSTN-Standort in einer Onlinemandantenkonfiguration. Eine Appliance muss registriert werden, bevor sie vom Skype for Business Cloud Connector Edition-Verwaltungsdienst bereitgestellt und verwaltet werden kann.
   
 ```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -31,7 +31,7 @@ Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
 Im folgenden Beispiel werden die aktuellen Appliance-Informationen in einer Onlinemandantenkonfiguration registriert:
   
@@ -39,17 +39,17 @@ Im folgenden Beispiel werden die aktuellen Appliance-Informationen in einer Onli
 Register-CcAppliance
 ```
 
-### <a name="example-2"></a>Beispiel 2
+### <a name="example-2"></a>Beispiel 2
 
-Im nächsten Beispiel wird die Konfiguration lokal auf eine Registrierung überprüft, ohne eine Verbindung mit einer Onlinemandantenkonfiguration herzustellen:
+Im nächsten Beispiel wird die Konfiguration lokal auf Registrierung überprüft, ohne eine Verbindung mit einer Onlinemandantenkonfiguration herzustellen:
   
 ```powershell
 Register-CcAppliance -Local
 ```
 
-### <a name="example-3"></a>Beispiel 3
+### <a name="example-3"></a>Beispiel 3
 
-Im nächsten Beispiel wird die aktuelle Appliance unter dem Namen „Appliance1“ am PSTN-Standort „Site1“ registriert:
+Im nächsten Beispiel wird die aktuelle Appliance mit dem Namen "Appliance1" am PSTN-Standort "Site1" registriert:
   
 ```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
@@ -58,45 +58,45 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Sie müssen den Namen und das Kennwort für das Administratorkonto des Mandanten angeben. Verwenden Sie das Konto, das Sie für die Onlineverwaltung von Cloud Connector erstellt haben. 
+Sie müssen den Namen und das Kennwort des Mandantenadministratorkontos angeben. Verwenden Sie das Konto, das Sie für die Cloud Connector Online-Verwaltung erstellt haben. 
   
-Befolgen Sie in Version 1.4.2 und älteren Versionen die Anweisungen zum Bereitstellen des Kennworts für externes Zertifikat, des Administratorkennworts für den sicheren Modus, des Domänenadministrator Kennworts und des VM-Administratorkennworts. 
+Befolgen Sie in Version 1.4.2 und früheren Versionen die Anweisungen zum Bereitstellen des Kennworts für das externe Zertifikat, des Administratorkennworts für den abgesicherten Modus, des Domänenadministratorkennworts und des VM-Administratorkennworts. 
   
-Befolgen Sie in Version 2,0 und höher die Anweisungen zum Bereitstellen des externen Zertifikats Kennworts, des CceService-Kennworts und des CABackupFile-Kennworts.
+Befolgen Sie in Version 2.0 und höher die Anweisungen, um das Kennwort für das externe Zertifikat, das CceService-Kennwort und das CABackupFile-Kennwort bereitzustellen.
   
-Starten Sie nach Abschluss der Registrierung den Cloud Connector-Verwaltungsdienst neu, und melden Sie sich bei den Diensten als CceService-Konto an.
+Starten Sie am Ende der Registrierung den Cloud Connector-Verwaltungsdienst neu, und melden Sie sich bei den Diensten als CceService-Konto an.
   
-„SiteName“ in Kombination mit dem externen Edgeserver-FQDN in der Datei „CloudConnector.ini“ gilt als PSTN-Standortidentität. Wenn weder „SiteName“ noch der externe Edgeserver-FQDN zum Registrieren eines Standorts verwendet wurde, wird in einer Onlinemandantenkonfiguration ein neuer Standort für diese Appliance erstellt. Wenn eine PSTN-Standortidentität gefunden wird, verwendet ein PSTN-Standort diese Identität, und die Appliance wird an diesem PSTN-Standort registriert.  
+SiteName in Kombination mit dem externen FQDN des Edgeservers in der CloudConnector.ini Datei wird als PSTN-Standortidentität betrachtet. Wenn weder der SiteName noch der externe FQDN des Edgeservers zum Registrieren eines Standorts verwendet wurde, wird ein neuer Standort für diese Appliance in einer Onlinemandantenkonfiguration erstellt. Wenn eine PSTN-Standortidentität gefunden wird, verwendet ein PSTN-Standort diese Identität, und die Appliance wird an diesem PSTN-Standort registriert. 
   
-In der folgenden Situation schlägt das Cmdlet fehl und weist darauf hin, dass „Site1“ bereits registriert ist:  
+In der folgenden Situation schlägt das Cmdlet fehl und gibt an, dass Site1 bereits registriert ist: 
   
-- 	„SiteName“ entspricht „Site1“, und der externe Edgeserver-FQDN lautet „edgserver1.contoso.com“.  
+- "SiteName" ist "Site1", und der externe FQDN des Edgeservers ist edgserver1.contoso.com. 
     
-- Der „SiteName“ eines PSTN-Standorts entspricht „Site1“, und der externe Edgeserver-FQDN lautet „edgserver.contoso.com“.
+- Ein PSTN-Standort, dessen SiteName "Site1" und der externe Edgeserver-FQDN edgserver.contoso.com ist.
     
-- Ein PSTN-Standort mit dem „SiteName“ „NewSite“ und dem externen Edgeserver-FQDN „edgserver1.contoso.com“ wurde registriert.  
+- Ein PSTN-Standort, dessen SiteName "NewSite" und der externe Edgeserver-FQDN edgserver1.contoso.com ist, wurde registriert. 
     
-„ApplianceName“ in Kombination mit dem Vermittlungsserver-FQDN in der Datei „CloudConnector.ini“ gilt als Appliance-Identität. Wenn weder „ApplianceName“ noch der Vermittlungsserver-FQDN zum Registrieren einer Appliance verwendet wurde, wird in der Onlinemandantenkonfiguration eine neue Appliance erstellt. Wenn die Appliance bereits registriert ist, schlägt das Cmdlet fehl.
+ApplianceName in Kombination mit dem Vermittlungsserver-FQDN in CloudConnector.ini Datei gilt als Appliance-Identität. Wenn weder der ApplianceName noch der Vermittlungsserver-FQDN zum Registrieren einer Appliance verwendet wurde, wird in der Onlinemandantenkonfiguration eine neue Appliance erstellt. Wenn die Appliance bereits registriert ist, schlägt das Cmdlet fehl.
   
-In der folgenden Situation schlägt das Cmdlet fehl und weist darauf hin, dass die Appliance bereits registriert ist:  
+In der folgenden Situation schlägt das Cmdlet fehl und gibt an, dass die Appliance bereits registriert ist: 
   
-- „ApplianceName“ entspricht „Appliance1“, und der Vermittlungsserver-FQDN lautet „ms1.vdomain.com“.
+- ApplianceName ist Appliance1, und der Vermittlungsserver-FQDN ist ms1.vdomain.com.
     
-- Am aktuellen PSTN-Standort wurde eine Appliance mit dem Namen „Appliance1“ und dem Vermittlungsserver-FQDN „ms.vdomain.com“ oder eine Appliance mit dem Namen „NewAppliance“ und dem Vermittlungsserver-FQDN „ms1.vdomain.com“ registriert.
+- Am aktuellen PSTN-Standort wurde eine Appliance registriert, deren Name "Appliance1" und "Vermittlungsserver-FQDN" ms.vdomain.com ist, oder eine Appliance, deren Name "NewAppliance" und "Vermittlungsserver-FQDN" ms1.vdomain.com ist.
     
 ## <a name="parameters"></a>Parameter
 <a name="DetailedDescription"> </a>
 
-|**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
+|**Parameter**|**Required**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|SiteName  <br/> |Optional   <br/> |System.String  <br/> |Name des PSTN-Standorts, für den die Appliance registriert ist. Der Standardwert ist der Wert „SiteName“ in der Datei „CloudConnector.ini“.   <br/> |
-|ApplianceName  <br/> |Optional   <br/> |System.String  <br/> |Name der aktuellen Appliance. Der Standardwert ist der Computername des Hostservers.  <br/> |
-|Local  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Überprüft Konfigurationen lokal auf eine Registrierung, ohne eine Verbindung mit einer Onlinemandantenkonfiguration herzustellen.  <br/> |
+|Sitename  <br/> |Optional  <br/> |System.String  <br/> |Name des PSTN-Standorts, für den die Appliance registriert ist. Der Standardwert ist der SiteName-Wert in der CloudConnector.ini-Datei.  <br/> |
+|ApplianceName  <br/> |Optional  <br/> |System.String  <br/> |Name der aktuellen Appliance. Der Standardwert ist der Computername des Hostservers.  <br/> |
+|Lokal  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Überprüfen Sie Konfigurationen auf lokale Registrierung, ohne eine Verbindung mit der Onlinemandantenkonfiguration herzustellen.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Register-CcAppliance“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Register-CcAppliance akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

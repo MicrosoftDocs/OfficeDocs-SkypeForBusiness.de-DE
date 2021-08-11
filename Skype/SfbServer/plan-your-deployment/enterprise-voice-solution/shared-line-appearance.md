@@ -1,5 +1,5 @@
 ---
-title: Planen der Gemeinsamen Leitungs darstellung in Skype for Business Server 2015
+title: Plan for Shared Line Appearance in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,21 +16,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: In diesem Thema erfahren Sie, wie Sie die Darstellung von gemeinsam genutzten Zeilen (Shared Line Appearance, SLA) in Skype for Business Server 2015, kumulatives Update vom November 2015 planen.
-ms.openlocfilehash: d7fa13b36c232e37c79e8509de71b4ac29ceff72
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In diesem Thema erfahren Sie, wie Sie die Gemeinsame Leitungen (SLA) im kumulativen Update Skype for Business Server 2015 November 2015 planen.
+ms.openlocfilehash: cabd5a9f6780371a8345bd95c5686829e74ad3c18e875ec85decf6ab0ca2f789
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813345"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289723"
 ---
-# <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planen der Gemeinsamen Leitungs darstellung in Skype for Business Server 2015
+# <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Plan for Shared Line Appearance in Skype for Business Server 2015
  
-In diesem Thema erfahren Sie, wie Sie die Darstellung von gemeinsam genutzten Zeilen (Shared Line Appearance, SLA) in Skype for Business Server 2015, kumulatives Update vom November 2015 planen. 
+In diesem Thema erfahren Sie, wie Sie die Gemeinsame Leitungen (SLA) im kumulativen Update Skype for Business Server 2015 November 2015 planen. 
   
-Die Funktion "Gemeinsame Leitung" ist eine Funktion in Skype for Business zum Behandeln mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird. SLA kann jeden Skype for Business-aktivierten Skype for Business-Benutzer als freigegebene Nummer mit mehreren Zeilen konfigurieren, um auf mehrere Anrufe zu reagieren. Die Anrufe werden nicht tatsächlich für die freigegebene Nummer empfangen, sondern an Benutzer weitergeleitet, die als Stellvertretung für die freigegebene Nummer fungieren. Jede Stellvertretung kann den Anruf an sich nehmen, während die restlichen Stellvertretung auf ihrem Telefon eine Benachrichtigung darüber erhalten, wer den Anruf aufgenommen hat und welche Leitung damit ausgelastet ist. Sowohl die Anzahl der Zeilen als auch die Stellvertreter können für eine freigegebene Nummer in SLA konfiguriert werden. Darüber hinaus können erweiterte Optionen wie BusyOption (was geschieht, wenn alle Zeilen besetzt sind) und MissedCallOption (der Fall, dass keine Stellvertretung einen Anruf anfordern) auch für eine freigegebene Nummer konfiguriert werden.
+Die Gemeinsame Leitungen-Darstellung ist ein Feature in Skype for Business für die Behandlung mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird. SLA kann jede Unternehmensstimme konfigurieren, die Skype for Business Benutzer als gemeinsame Nummer mit mehreren Zeilen aktiviert ist, um auf mehrere Anrufe zu reagieren. Die Anrufe werden nicht tatsächlich über die freigegebene Nummer empfangen, sondern an Benutzer weitergeleitet, die als Stellvertretungen für die freigegebene Nummer fungieren. Jeder der Stellvertretungen kann den Anruf annehmen, während die restlichen Stellvertretungen auf ihrem Telefon eine Benachrichtigung darüber erhalten, wer den Anruf angenommen hat und welche Leitung dadurch ausgelastet ist. Sowohl die Anzahl der Zeilen als auch die Stellvertretungen können für eine freigegebene Nummer in SLA konfiguriert werden. Darüber hinaus können erweiterte Optionen wie BusyOption (was in einer Situation geschieht, wenn alle Zeilen ausgelastet sind) und MissedCallOption (in dem keiner der Stellvertretungen einen Anruf entgegennimmt) auch für eine freigegebene Nummer konfiguriert werden.
   
-SLA wird nur auf den folgenden Telefongeräten unterstützt (für Skype for Business-Clients auf Computern, Mobiltelefonen oder anderen Geräten nicht unterstützt): 
+SLA wird nur auf den folgenden Telefongeräten unterstützt (es wird nicht für Skype for Business Clients auf Computern, Mobiltelefonen oder anderen Geräten unterstützt): 
   
 - Polycom VVX300 mit Firmwareupdate 5.4.1
     
@@ -40,24 +40,24 @@ SLA wird nur auf den folgenden Telefongeräten unterstützt (für Skype for Busi
     
 - Polycom VVX600 mit Firmwareupdate 5.4.1
     
-SLA ist ein neues Feature im kumulativen Update für Skype for Business Server vom November 2015. 
+SLA ist ein neues Feature im kumulativen Update Skype for Business Server November 2015. 
   
-Weitere Informationen zum Bereitstellen von SLA finden Sie unter [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+Informationen zum Bereitstellen von SLA finden Sie unter [Deploy Shared Line Appearance in Skype for Business Server 2015.](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)
   
 ## <a name="feature-list"></a>Featureliste
 
 Das Einrichten einer SLA-Gruppe ermöglicht Folgendes:
   
-- Alle Stellvertretung in der Gruppe kann eingehende Anrufe an dieselbe freigegebene Nummer beantworten. Die Anrufe können PSTN- oder SIP-basiert sein.
+- Alle Stellvertretungen in der Gruppe können eingehende Anrufe mit derselben freigegebenen Nummer annehmen. Die Anrufe können PSTN- oder SIP-basiert sein.
     
-- Stellvertretung kann Anrufe halten und nehmen sie an.
+- Stellvertretungen können Anrufe halten und entgegennehmen.
     
-- Stellvertretung kann Anrufe an eine Nummer außerhalb der GRUPPE "SLA" übertragen.
+- Stellvertretungen können Anrufe an eine Nummer außerhalb der SLA-Gruppe übertragen.
     
-- Stellvertreter können sehen, wie viele Anrufe derzeit für die freigegebene Nummer stehen, und den Status der einzelnen Anrufe anzeigen.
+- Stellvertretungen können sehen, wie viele Anrufe derzeit auf der freigegebenen Nummer liegen, und den Status der einzelnen Anrufe anzeigen.
     
-- Sie können eine maximale Anzahl gleichzeitiger Anrufe für die freigegebene Nummer konfigurieren. Sie können auch festlegen, wie zusätzliche Anrufe verarbeitet werden sollen, nachdem dieser Maximalwert erreicht wurde. Überzählige Anrufe können mit einem Besetztzeichen abgelehnt, an eine alternative Nummer weitergeleitet oder an Voicemail weitergeleitet werden.
+- Sie können eine maximale Anzahl gleichzeitiger Anrufe für die freigegebene Nummer konfigurieren. Sie können auch festlegen, wie zusätzliche Anrufe verarbeitet werden sollen, nachdem dieser Höchstwert erreicht wurde. Überzählige Anrufe können mit einem Besetzt-Signal abgelehnt, an eine alternative Nummer oder an Voicemail weitergeleitet werden.
     
-- Sie können konfigurieren, wie verpasste Anrufe (nach einer bestimmten Zeit nicht abgeholte Anrufe) behandelt werden sollen. Wenn Sie Voicemail für die Gruppenidentität aktivieren, gehen verpasste Anrufe automatisch an Voicemail. Wenn Voicemail nicht für die Gruppenidentität (freigegebene Nummer) aktiviert ist, können Sie auswählen, dass verpasste Anrufe mit einem Besetztzeichen abgelehnt, an eine alternative Nummer weitergeleitet oder getrennt werden.
+- Sie können konfigurieren, wie verpasste Anrufe (Anrufe, die nach einer bestimmten Zeit nicht aufgenommen werden) verarbeitet werden sollen. Wenn Sie Voicemail für die Gruppenidentität aktivieren, gehen verpasste Anrufe automatisch zu Voicemail. Wenn Voicemail für die Gruppenidentität (freigegebene Nummer) nicht aktiviert ist, können Sie auswählen, ob verpasste Anrufe mit einem Besetzt-Signal abgelehnt, an eine alternative Nummer weitergeleitet oder getrennt werden sollen.
     
 

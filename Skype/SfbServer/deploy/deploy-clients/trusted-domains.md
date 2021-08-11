@@ -1,5 +1,5 @@
 ---
-title: Vertrauenswürdige Domänen von Skype Room System
+title: Skype Vertrauenswürdige Domänen des Raumsystems
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: In diesem Thema erfahren Sie, wie Sie vertrauenswürdige Domänen für Skype Room System und Skype for Business konfigurieren.
-ms.openlocfilehash: c7883ed0cbc2e805ee0ba3cddfb3b2cee1163c35
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0cdf7806a40dbbe440614e7d9407926cb17a6a2e817a73c6c0026b0d7078ee19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298725"
 ---
-# <a name="skype-room-system-trusted-domains"></a>Vertrauenswürdige Domänen von Skype Room System
+# <a name="skype-room-system-trusted-domains"></a>Skype Vertrauenswürdige Domänen des Raumsystems
  
 In diesem Thema erfahren Sie, wie Sie vertrauenswürdige Domänen für Skype Room System und Skype for Business konfigurieren.
   
 ## <a name="trusted-domains"></a>Vertrauenswürdige Domänen
 
-Der Skype for Business-Client zeigt ein Dialogfeld an, in dem Benutzer das Zertifikat von Skype for Business Server akzeptieren können, wenn sich die SIP-Domäne des Benutzerkontos von dem Namen im Betreff- oder Alternativnamen des Zertifikats abhing. Wenn das für Skype for Business Server in Ihrer Organisation konfigurierte Zertifikat nicht den Sip-Domänennamen des Skype Room System-Kontos unter "Subject" oder "Subject Alt Name" hat, müssen Sie diese Domänen konfigurieren, die auf dem Zertifikat unter dem Registrierungsschlüssel "Vertrauenswürdige Domänen" auf dem Skype Room System-Konsolencomputer angezeigt werden. Das vom Skype Room System vom Hersteller bereitgestellte Skype Room System Administratorhandbuch erläutert, wie und wo vertrauenswürdige Domänen im Skype for Business-Client hinzugefügt werden können. 
+Der Skype for Business Client zeigt ein Dialogfeld an, in dem Benutzer das Zertifikat aus dem Skype for Business Server akzeptieren können, wenn sich die SIP-Domäne des Angemeldeten Benutzerkontos von dem Namen unterscheidet, der im Antragsteller- oder Antragsteller-ALT-Namen auf dem Zertifikat angezeigt wird. Wenn das für Skype for Business Server in Ihrer Organisation konfigurierte Zertifikat nicht über einen SIP-Domänennamen Skype Raumsystemkontos im Antragsteller- oder Antragsteller-ALT-Namen verfügt, müssen Sie diese Domänen konfigurieren, die auf dem Zertifikat unter dem Registrierungsschlüssel "Vertrauenswürdige Domänen" auf dem Konsolencomputer Skype Raumsystem angezeigt werden. In ihrem Skype vom Hersteller bereitgestellten Skype Handbuch des Raumsystemadministrators wird erläutert, wie und wo vertrauenswürdige Domänen im Skype for Business-Client hinzugefügt werden. 
   
-Nehmen wir beispielsweise an, dass die in Skype for Business Server konfigurierten Zertifikate den Alternativnamen "Betreff/Betreff" "CONTOSO" haben. LOCAL" und eine der SIP-Domänen, die einem Benutzer für die Skype Room System-Anmeldeadresse zugewiesen sind, ist "confrm1@contoso.net". Da contoso.net sich nicht im Zertifikat befindet, müssen Sie auf dem Computer mit Skype Room System "contoso.local" als vertrauenswürdige Domäne in der Registrierung konfigurieren, wie im vom Skype Room System vom Hersteller bereitgestellten Skype Room System Administrator's Guide erläutert. 
+Nehmen wir beispielsweise an, dass die auf Skype for Business Server konfigurierten Zertifikate den Altnamen "Subject/Subject Alt" "CONTOSO" aufweisen. LOCAL" und eine der SIP-Domänen, die einem Benutzer für die Skype Room System-Anmeldeadresse zugewiesen sind, lautet "confrm1@contoso.net". Da sich contoso.net nicht im Zertifikat befindet, müssen Sie auf dem Skype Raumsystemcomputer "contoso.local" als vertrauenswürdige Domäne in der Registrierung konfigurieren, wie im Skype vom Hersteller bereitgestellten Skype Handbuch für raumsystemadministrator erläutert. 
   
 

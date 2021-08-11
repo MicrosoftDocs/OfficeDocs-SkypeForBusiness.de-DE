@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Als Microsoft 365- oder Office 365-Administrator können Sie die Einstellungen für Skype for Business Online-Audiokonferenzen – z. B. Den Anbieter, die gebührenpflichtige oder gebührenfreie Standardnummer, die Konferenz-ID oder die PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. '
-ms.openlocfilehash: f31648c9b2d50f595dc113b65318f9c6f9204e24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 648bb27ce8e6745d765b8fc400494188fd43b5e866ecf0cf927f36fd4d7ca676
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335715"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Verwalten der Audiokonferenzeinstellungen für einen Benutzer in Skype for Business Online
 

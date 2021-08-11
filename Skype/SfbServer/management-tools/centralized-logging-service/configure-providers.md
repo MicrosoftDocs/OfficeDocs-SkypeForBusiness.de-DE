@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
-description: 'Zusammenfassung: Informationen zum Konfigurieren von Szenarioanbietern für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015.'
-ms.openlocfilehash: cd0364d6497aa53d258b5346090d6cdd7c338cc3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Szenarioanbieter für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015 konfigurieren.'
+ms.openlocfilehash: 348ed9b17cfd6cbaa6ab6f02e105b268df8caccad05fa4b5f201a20b099bf71c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326411"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Szenarioanbieter für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015 konfigurieren.
   
-Die Konzepte und die Konfiguration von Anbietern im zentralisierten Protokollierungsdienst sind eines der wichtigsten Zugreifen. DieProvider werden den Skype for Business Server-Server-Rollenkomponenten im Skype for Business Server-Ablaufverfolgungsmodell direkt gegliedert. Der Anbieter definiert die Komponenten eines Skype for Business Server 2015,die nachverfolgt werden, den Typ der nachrichten (z. B. schwerwiegende, Fehler oder Warnung) und die Flags (z. B. TF_Connection oder TF_Diag). Anbieter sind die nachverfolgbaren Komponenten in jeder Skype for Business Server-Serverrolle. Mithilfe von Anbietern definieren Sie die Ablaufverfolgungsebene und den Typ von Verfolgung für Komponenten (z. B. S4, SIPStack, Instant Messaging oder Anwesenheit). Der festgelegte Anbieter wird in einem Szenario verwendet, um sämtliche Anbieter für eine vorgegebene logische Auflistung zu gruppieren, die eine bestimmte Problembedingung betrifft.
+Die Konzepte und die Konfiguration von Anbietern im zentralisierten Protokollierungsdienst sind eines der wichtigsten Konzepte und Konfigurationen, die Sie verstehen müssen. Die Anbieter werden direkt Skype for Business Server Serverrollenkomponenten im Skype for Business Server-Ablaufverfolgungsmodell zugeordnet. Der Anbieter definiert die Komponenten eines zu erfassenden Skype for Business Server 2015, den Typ der zu erfassenden Nachrichten (z. B. schwerwiegend, Fehler oder Warnung) und die Flags (z. B. TF_Connection oder TF_Diag). Anbieter sind die nachverfolgbaren Komponenten in jeder Skype for Business Server Serverrolle. Mithilfe von Anbietern definieren Sie die Ablaufverfolgungsebene und den Typ von Verfolgung für Komponenten (z. B. S4, SIPStack, Instant Messaging oder Anwesenheit). Der festgelegte Anbieter wird in einem Szenario verwendet, um sämtliche Anbieter für eine vorgegebene logische Auflistung zu gruppieren, die eine bestimmte Problembedingung betrifft.
   
-Zum Ausführen der Funktionen des zentralisierten Protokollierungsdiensts mithilfe der Skype for Business Server-Verwaltungsshell müssen Sie Mitglied der Sicherheitsgruppen CsAdministrator oder CsServerAdministrator für die rollenbasierte Zugriffssteuerung (RBAC) oder eine benutzerdefinierte ROLLENAC-Rolle sein, die eine dieser beiden Gruppen enthält. Führen Sie den folgenden Befehl in der Skype for Business Server Management Shell oder an der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzukehren, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):
+Um die Funktionen des zentralisierten Protokollierungsdiensts mithilfe der Skype for Business Server Verwaltungsshell auszuführen, müssen Sie Entweder Mitglied der Rollenbasierten Zugriffssteuerungsgruppen (Role-Based Access Control, RBAC) "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Um eine Liste aller rollenbasierten Zugriffssteuerungsrollen (Role-Based Access Control, RBAC) zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl über die Skype for Business Server Verwaltungsshell oder die Windows PowerShell Eingabeaufforderung aus:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -39,50 +39,50 @@ Beispiel:
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-Im Rest dieses Themas geht es darum, wie Anbieter definiert oder geändert werden und welche Elemente eine Anbieterdefinition enthält (was bei Fehlerbehebungen hilfreich ist). Es gibt zwei Möglichkeiten zum Ausführen von Befehlen für den zentralisierten Protokollierungsdienst. Sie können die CLSController.exe, die sich standardmäßig im Verzeichnis C:\Program Files\Common Files\Skype for Business Server 2015\CLSAgent befindet. Sie können auch die Skype for Business Server-Verwaltungsshell verwenden, um Windows PowerShell aus. Mit Windows PowerShell können Sie neue Anbieter für die Verwendung in Ihren Protokollierungssitzungen definieren und die vollständige Kontrolle über ihre Erstellung, ihre Sammlung und auf welcher Ebene sie Daten sammeln.
+Im Rest dieses Themas geht es darum, wie Anbieter definiert oder geändert werden und welche Elemente eine Anbieterdefinition enthält (was bei Fehlerbehebungen hilfreich ist). Es gibt zwei Möglichkeiten, befehle des zentralisierten Protokollierungsdiensts auszustellen. Sie können die CLSController.exe verwenden, die sich standardmäßig im Verzeichnis "C:\Program Files\Common Files\Skype for Business Server 2015\CLSAgent" befindet. Sie können auch die Skype for Business Server-Verwaltungsshell verwenden, um Windows PowerShell Befehle auszugeben. Mithilfe von Windows PowerShell können Sie neue Anbieter für die Verwendung in Ihren Protokollierungssitzungen definieren und vollständige Kontrolle über deren Erstellung, deren Erfassung und auf welcher Ebene sie Daten sammeln.
   
 > [!IMPORTANT]
 > Wie schon erwähnt sind Anbieter äußerst leistungsfähig. Szenarien sind jedoch noch leistungsfähiger, da sie die Darstellung sämtlicher Informationen enthalten, die zum Festlegen und Ausführen der Ablaufverfolgung für die Komponenten erforderlich sind, die die Anbieter darstellen. Diese Vorstellung von Szenarien als Auflistung von Anbietern lässt sich in etwa mit einer Batchdatei vergleichen, die Hunderte von Befehlen ausführt, um eine Vielzahl an Informationen zu sammeln, anstatt dass man jeden Befehl einzeln an der Befehlszeile ausführen muss. 
   
-Anstatt zu verlangen, dass Sie sich tief in die Details der Anbieter einmeinen müssen, bietet der zentralisierte Protokollierungsdienst eine Reihe von Szenarien, die bereits für Sie definiert sind. Die bereitgestellten Szenarien decken die meisten möglichen Probleme ab, auf die Sie stoßen werden. In seltenen Fällen müssen Sie möglicherweise Anbieter erstellen und definieren und szenarien zuweisen. Es wird dringend empfohlen, sich mit jedem der bereitgestellten Szenarien vertraut zu machen, bevor Sie die Notwendigkeit untersuchen, neue Anbieter und Szenarien zu erstellen. Informationen zum Erstellen von Anbietern finden Sie hier, um Sie mit der Verwendung der Anbieterelemente für die Erfassung von Ablaufverfolgungsinformationen vertraut zu machen. Details zu den Anbietern selbst werden derzeit jedoch nicht bereitgestellt. 
+Anstatt zu verlangen, dass Sie sich eingehender mit den Details der Anbieter befassen müssen, bietet der zentralisierte Protokollierungsdienst eine Reihe von Szenarien, die bereits für Sie definiert sind. In den bereitgestellten Szenarien werden die meisten möglichen Probleme behandelt, auf die Sie stoßen werden. In seltenen Fällen müssen Sie möglicherweise Anbieter erstellen und definieren und sie Szenarien zuweisen. Es wird dringend empfohlen, sich mit jedem der bereitgestellten Szenarien vertraut zu machen, bevor Sie die Notwendigkeit untersuchen, neue Anbieter und Szenarien zu erstellen. Hier finden Sie Zwar Informationen zum Erstellen von Anbietern, um Sie mit der Verwendung der Anbieterelemente zum Sammeln von Ablaufverfolgungsinformationen vertraut zu machen, Details zu den Anbietern selbst werden jedoch zu diesem Zeitpunkt nicht bereitgestellt. 
   
-Eingeführt im [zentralen Protokollierungsdienst in Skype for Business 2015,](centralized-logging-service.md)sind die wichtigsten Elemente der Definition eines Anbieters für die Verwendung in einem Szenario:
+Im [zentralisierten Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)eingeführt, sind die wichtigsten Elemente zum Definieren eines Anbieters für die Verwendung in einem Szenario:
   
-- **Anbieter** Wenn Sie mit OCSLogger vertraut sind, sind Anbieter die Komponenten, von der Sie OCSLogger mitteilen möchten, wofür das Ablaufverfolgungsmodul Protokolle sammeln soll. Die Anbieter entsprechen den Komponenten in OCSLogger und haben in vielen Fällen auch dieselben Namen. Wenn Sie nicht mit OCSLogger vertraut sind, sind Anbieter serverrollespezifische Komponenten, von deren Protokollierungsdienst Protokolle erfassen kann. Im Fall des zentralisierten Protokollierungsdiensts ist der CLSAgent der architektonische Teil des zentralisierten Protokollierungsdiensts, der die Ablaufverfolgung der Komponenten vor sich hat, die Sie in der Anbieterkonfiguration definieren.
+- **Anbieter** Wenn Sie mit OCSLogger vertraut sind, sind Anbieter die Komponenten, aus denen Sie OCSLogger mitteilen, von welchem Protokollierungsmodul Protokolle erfasst werden sollen. Die Anbieter entsprechen den Komponenten in OCSLogger und haben in vielen Fällen auch dieselben Namen. Wenn Sie nicht mit OCSLogger vertraut sind, sind Anbieter serverrollenspezifische Komponenten, aus denen der zentralisierte Protokollierungsdienst Protokolle erfassen kann. Im Fall des zentralisierten Protokollierungsdiensts ist CLSAgent der Architekturteil des zentralisierten Protokollierungsdiensts, der die Ablaufverfolgung der Komponenten durchführt, die Sie in der Anbieterkonfiguration definieren.
     
-- **Protokollierungsebenen** OCSLogger bot die Möglichkeit, eine Reihe von Detailebenen für die gesammelten Daten zu wählen. Dieses Feature ist ein integraler Bestandteil des zentralisierten Protokollierungsdiensts und der Szenarien und wird durch den **Type-Parameter** definiert. Es stehen folgende Optionen zur Auswahl:
+- **Protokollierungsstufen** OCSLogger bot die Möglichkeit, eine Reihe von Detailebenen für die erfassten Daten auszuwählen. Dieses Feature ist ein integraler Bestandteil des zentralisierten Protokollierungsdiensts und der Szenarien und wird durch den **Parameter Type** definiert. Es stehen folgende Optionen zur Auswahl:
     
-  - **All** Sammelt Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning", "verbose" und "Debuginformationen" im Protokoll für den definierten Anbieter.
+  - **Alle** Erfasst Ablaufverfolgungsmeldungen vom Typ "schwerwiegend", "Fehler", "Warnung", "Ausführlich" und "Debuginformationen" im Protokoll für den definierten Anbieter.
     
-  - **Fatal** Sammelt nur die ablaufverfolgungsmeldungen, die als "Fatal" definiert sind.
+  - **Schwerwiegend** Sammelt nur die Als "Schwerwiegend" definierten Ablaufverfolgungsmeldungen.
     
-  - **Fehler** Sammelt nur die Ablaufverfolgungsmeldungen, die als "Fehler" oder "Fatal" definiert sind.
+  - **Fehler** Sammelt nur die Ablaufverfolgungsmeldungen, die als "Fehler" oder "Schwerwiegend" definiert sind.
     
-  - **Warnung** Sammelt nur die Ablaufverfolgungsmeldungen vom Typ "Warnung", "Fehler" und "Fatal".
+  - **Warnung** Sammelt nur die Ablaufverfolgungsmeldungen vom Typ "Warnung", "Fehler" und "Schwerwiegend".
     
-  - **Info** Sammelt nur die Ablaufverfolgungsmeldungen, die eine Informationsnachricht für den definierten Anbieter sowie schwerwiegende, Fehler- und Warnmeldungen angeben.
+  - **Info und Info** Sammelt nur die Ablaufverfolgungsmeldungen, die eine Informationsnachricht für den definierten Anbieter sowie schwerwiegende, Fehler- und Warnmeldungen angeben.
     
-  - **Verbose** Sammelt alle Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning" und "verbose" für den definierten Anbieter.
+  - **Ausführlich** Sammelt alle Ablaufverfolgungsmeldungen vom Typ "schwerwiegend", "Fehler", "Warnung" und "Ausführlich" für den definierten Anbieter.
     
-  - **Debuggen** ist im Wesentlichen ein Äquivalent von "All" - sammelt Ablaufverfolgungen vom Typ Fatal, Error, Warning, Info, Verbose und Debug für den definierten Anbieter.
+  - **Debuggen** ist im Wesentlichen ein Äquivalent von "Alle" – erfasst Ablaufverfolgungen vom Typ "Schwerwiegend", "Fehler", "Warnung", "Info", "Ausführlich" und "Debuggen" für den definierten Anbieter.
     
-- **Flags** OCSLogger bot die Möglichkeit, Flags für jeden Anbieter zu wählen, der definiert hat, welche Art von Informationen Sie aus den Ablaufverfolgungsdateien abrufen können. Sie können die folgenden Flags basierend auf dem Anbieter wählen:
+- **Flags** OCSLogger hat die Option zum Auswählen von Flags für jeden Anbieter bereitgestellt, der definiert hat, welche Art von Informationen Sie aus den Ablaufverfolgungsdateien abrufen können. Sie können basierend auf dem Anbieter die folgenden Flags auswählen:
     
-  - **TF_Connection** Stellt verbindungsbezogene Protokolleinträge zur Diese Protokolle enthalten Informationen zu Verbindungen, die mit und von einer bestimmten Komponente hergestellt wurden. Dies kann auch wichtige Informationen auf Netzwerkebene (d. h. für Komponenten ohne das Konzept einer Verbindung) enthalten.
+  - **TF_Connection** Stellt verbindungsbezogene Protokolleinträge bereit. Diese Protokolle enthalten Informationen zu Verbindungen, die zu und von einer bestimmten Komponente hergestellt wurden. Dies kann auch wichtige Informationen auf Netzwerkebene umfassen (d. b. für Komponenten ohne das Konzept einer Verbindung).
     
-  - **TF_Security** Stellt alle Ereignisse/Protokolleinträge im Zusammenhang mit der Sicherheit zur Verfügung. Für SipStack sind dies beispielsweise Sicherheitsereignisse wie Domänenüberprüfungsfehler und Clientauthentifizierungs-/Autorisierungsfehler.
+  - **TF_Security** Stellt alle Ereignisse/Protokolleinträge im Zusammenhang mit der Sicherheit bereit. Bei SipStack sind dies z. B. Sicherheitsereignisse wie Domänenüberprüfungsfehler und Clientauthentifizierungs-/Autorisierungsfehler.
     
-  - **TF_Diag** Stellt Diagnoseereignisse zur Verfügung, die Sie zum Diagnostizieren oder Beheben von Problemen mit der Komponente verwenden können. Für SipStack sind dies z. B. Zertifikatfehler oder DNS-Warnungen/Fehler.
+  - **TF_Diag** Stellt Diagnoseereignisse bereit, die Sie zum Diagnostizieren oder Beheben von Problemen mit der Komponente verwenden können. Bei SipStack sind dies z. B. Zertifikatfehler oder DNS-Warnungen/-Fehler.
     
-  - **TF_Protocol** Stellt Protokollnachrichten wie SIP- und kombinierte Communitycodec Pack-Nachrichten zur Verf ckung.
+  - **TF_Protocol** Stellt Protokollnachrichten wie SIP- und kombinierte Community Codec Pack-Nachrichten bereit.
     
-  - **TF_Component** Aktiviert die Protokollierung der komponenten, die als Teil der Anbieter angegeben sind.
+  - **TF_Component** Aktiviert die Protokollierung für die als Teil der Anbieter angegebenen Komponenten.
     
-  - **All** Legt alle verfügbaren Flags fest, die für den Anbieter verfügbar sind.
+  - **Alle** Legt alle für den Anbieter verfügbaren Flags fest.
     
 ### <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>So überprüfen Sie Informationen zu vorhandenen Szenarioanbietern für den zentralisierten Protokollierungsdienst
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Mit dem folgenden Befehl können Sie die Konfiguration vorhandener Anbieter überprüfen:
     
@@ -96,7 +96,7 @@ Eingeführt im [zentralen Protokollierungsdienst in Skype for Business 2015,](ce
    Get-CsClsScenario -Identity "global/CAA"
    ```
 
-    Der Befehl listet Anbieter mit den zugehörigen Flags, Einstellungen und Komponenten auf. Wenn die angezeigten Informationen nicht ausreichen oder die Liste für das Standardlistenformat Windows PowerShell zu lang ist, können Sie zusätzliche Informationen anzeigen, indem Sie eine andere Ausgabemethode definieren. Geben Sie dazu Folgendes ein:
+    Der Befehl listet Anbieter mit den zugehörigen Flags, Einstellungen und Komponenten auf. Wenn die angezeigten Informationen nicht ausreichen oder die Liste für das Standardformat Windows PowerShell Liste zu lang ist, können Sie zusätzliche Informationen anzeigen, indem Sie eine andere Ausgabemethode definieren. Geben Sie dazu Folgendes ein:
     
    ```PowerShell
    Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
@@ -106,7 +106,7 @@ Eingeführt im [zentralen Protokollierungsdienst in Skype for Business 2015,](ce
     
 ### <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>So definieren Sie einen neuen Szenarioanbieter für den zentralisierten Protokollierungsdienst
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Ein Szenarioanbieter besteht aus einer nachzuverfolgenden Komponente, zu verwendenden Flags und einer Detailstufe für die Erfassung. Dazu geben Sie Folgendes ein:
     
@@ -120,7 +120,7 @@ Eingeführt im [zentralen Protokollierungsdienst in Skype for Business 2015,](ce
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
-The -Level collects fatal, error, warning, and information messages. Die verwendeten Flags sind alle für den Lyss-Anbieter definierten Und umfassen TF_Connection, TF_Diag und TF_Protocol.Nachdem die Variable $LyssProvider definiert wurde, können Sie sie mit dem **Cmdlet New-CsClsScenario** verwenden, um Ablaufverfolgungen vom Lyss-Anbieter zu erfassen. Geben Sie für die Erstellung und Zuweisung des Anbieters zu einem neuen Szenario den folgenden Befehl ein:
+Die Ebene "-Level" sammelt Schwerwiegendes, Fehler-, Warnungs- und Informationsmeldungen. Die verwendeten Flags sind alle für den Lyss-Anbieter definierten Flags und enthalten TF_Connection, TF_Diag und TF_Protocol.Nachdem die Variable $LyssProvider definiert wurde, können Sie sie mit dem Cmdlet **New-CsClsScenario** verwenden, um Ablaufverfolgungen vom Lyss-Anbieter zu erfassen. Geben Sie für die Erstellung und Zuweisung des Anbieters zu einem neuen Szenario den folgenden Befehl ein:
 
 ```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
@@ -129,7 +129,7 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
 Hierbei ist "$LyssProvider" die Variable, in der sich das definierte Szenario befindet, das mit **New-CsClsProvider** erstellt wurde.
 ### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>So ändern Sie einen vorhandenen Szenarioanbieter für den zentralisierten Protokollierungsdienst
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie Folgendes ein, um die Konfiguration eines vorhandenen Anbieters zu aktualisieren oder zu ändern:
     
@@ -156,7 +156,7 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 Hierbei wurde jeder mit der "Add"-Anweisung festgelegte Anbieter bereits mithilfe des **New-CsClsProvider**-Prozesses definiert.
 ### <a name="to-remove-a-scenario-provider"></a>So entfernen Sie einen Szenarioanbieter
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter "-Provider" die Anweisung "Replace" verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung "Update" zu verwenden. Beispiel: Der Anbieter "LyssProvider" ist mit dem Protokollierungstyp "WPP", der Protokollierungsebene "Debug" und den gesetzten Flags "TF_CONNECTION" und "TF_DIAG" definiert. Sie müssen die Flags in "Alle" ändern. Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
     

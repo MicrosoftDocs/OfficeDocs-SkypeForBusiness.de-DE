@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: In diesem Artikel wird erläutert, wie Sie eine Onlinedelegierung Skype for Business und eine Problembehandlung dafür finden. Dieser Artikel enthält Anleitungen zu Einrichtungsempfehlungen, bewährten Methoden und Schritten zur Problembehandlung.
-ms.openlocfilehash: e5c710849f5829a4a270dc327f71d98185e85c89
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c672006e8b78e5b3fb881da97e2ab3bbe65e465aa5981cc95fb2caf9bed39e4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310174"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 

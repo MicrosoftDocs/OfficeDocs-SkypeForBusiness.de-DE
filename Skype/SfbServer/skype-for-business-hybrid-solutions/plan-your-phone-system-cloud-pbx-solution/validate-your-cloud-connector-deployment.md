@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype for Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie Anrufe durchführen und empfangen können.
-ms.openlocfilehash: fb46c9b48367760d2c29e4ed7330e28c92f20f09
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype for Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie Anrufe tätigen und empfangen können.
+ms.openlocfilehash: 1cbfed0716ef88bf48f8dadf0214c48bcd2031e34343da0ce59bd84d6d82d2b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279921"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Überprüfen Ihrer Cloud Connector-Bereitstellung
 
 > [!Important]
-> Cloud Connector Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online aus dem Dienst ausscheiden. Nachdem Ihr Unternehmen ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mithilfe von Direct Routing mit Teams [verbinden.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online eingestellt. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
  
-Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype for Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie Anrufe durchführen und empfangen können.
+Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype for Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie Anrufe tätigen und empfangen können.
   
 ## <a name="validate-the-deployment"></a>Überprüfen der Bereitstellung
 
 1. Melden Sie sich bei Ihrem Skype for Business-Client mit einem Benutzerkonto an, das Sie gerade eingerichtet haben.
     
-2. Rufen Sie eine PSTN-Nummer vom Client auf, und bestätigen Sie, dass der Anruf erfolgreich ist.
+2. Rufen Sie eine PSTN-Nummer vom Client auf, und vergewissern Sie sich, dass der Anruf erfolgreich war.
     
-3. Verwenden Sie Ihr Telefon oder ein anderes Gerät, das der PSTN-Nummer zugeordnet ist, um Ihren Skype for Business-Client an anruft und zu bestätigen, dass der Anruf erfolgreich war.
+3. Verwenden Sie Ihr Telefon oder ein anderes Gerät, das der PSTN-Nummer zugeordnet ist, um Ihren Skype for Business Client anzurufen und zu bestätigen, dass der Anruf erfolgreich war.
     
     > [!NOTE]
-    > Sie sollten bestätigen, dass Sie nach dem Hinzufügen zusätzlicher Websites oder dem Konvertieren von Websites erfolgreich Anrufe zur Aktivierung der Ha-Unterstützung erstellen können. 
+    > Sie sollten bestätigen, dass Sie nach dem Hinzufügen zusätzlicher Standorte oder Konvertieren von Standorten erfolgreich Aufrufe tätigen können, um die HA-Unterstützung zu aktivieren. 

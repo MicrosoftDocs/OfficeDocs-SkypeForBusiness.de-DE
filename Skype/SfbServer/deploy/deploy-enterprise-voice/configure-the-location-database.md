@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Konfigurieren, Auffüllen und Veröffentlichen der E9-1-1-Standortdatenbank in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804085"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326601"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Konfigurieren der Standortdatenbank in Skype for Business Server
  
@@ -29,11 +29,11 @@ Konfigurieren, Auffüllen und Veröffentlichen der E9-1-1-Standortdatenbank in S
   
 Sie müssen zunächst die Standortdatenbank konfigurieren, um Clients für die automatische Ermittlung ihres Standorts innerhalb eines Netzwerks zu aktivieren. 
   
-Führen Sie zum Konfigurieren der Standortdatenbank die folgenden Aufgaben aus:
+Führen Sie die folgenden Aufgaben aus, um die Standortdatenbank zu konfigurieren:
   
-- Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein ELIN (Emergency Location Identification Number)-Gateway verwenden, müssen Sie die ELIN in das Feld \<CompanyName\> eingeben.
+- Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, müssen Sie die ELIN in das \<CompanyName\> Feld einschließen.
     
-    Wenn Sie die Standortdatenbank nicht auffüllen und der **in** der Standortrichtlinie erforderliche Speicherort auf **"Ja"** oder "Haftungsausschluss" festgelegt **ist,** fordert der Client den Benutzer auf, einen Standort manuell ein eingeben.
+    Wenn Sie die Standortdatenbank nicht auffüllen und der in der Standortrichtlinie **erforderliche Speicherort** auf **"Ja"** oder **"Haftungsausschluss"** festgelegt ist, fordert der Client den Benutzer auf, einen Standort manuell einzugeben.
     
 - Überprüfen Sie die Adressen anhand der MSAG-Daten (Master Street Address Guide), die vom Dienstanbieter für E9-1-1 verwaltet werden.
     
@@ -41,15 +41,15 @@ Führen Sie zum Konfigurieren der Standortdatenbank die folgenden Aufgaben aus:
     
 ## <a name="populate-the-location-database"></a>Auffüllen der Standortdatenbank
 
-Um Clients in einem Netzwerk automatisch zu finden, müssen Sie zunächst die Standortdatenbank mit einer Netzwerkverbindungskarte auffüllen, die Netzwerkelemente zu öffentlichen (d. h. Straße)-Adressen zu ordnet. Sie können Subnetze, Funkzugriffspunkte, Switches und Ports verwenden, um die Wiremap zu definieren.
+Um Clients in einem Netzwerk automatisch zu finden, müssen Sie zuerst die Standortdatenbank mit einer Netzwerk-Drahtkarte auffüllen, die Netzwerkelemente zu öffentlichen Adressen (d. h. Straßenadressen) zuweist. Sie können Subnetze, Funkzugriffspunkte, Switches und Ports verwenden, um die Drahtzuordnung zu definieren.
   
-Sie können der Standortdatenbank Adressen einzeln oder als Massendatei hinzufügen, indem Sie eine CSV-Datei verwenden, die die in der folgenden Tabelle beschriebenen Spaltenformate enthält.
+Sie können der Standortdatenbank einzeln oder in großen Mengen Adressen hinzufügen, indem Sie eine CSV-Datei verwenden, die die in der folgenden Tabelle beschriebenen Spaltenformate enthält.
   
-Wenn Sie ein Emergency Location Identification Number (ELIN)-Gateway verwenden, schließen Sie die ELIN für jeden Standort in das Feld **"CompanyName"** ein. Sie können für jeden Standort mehrere ELINs verwenden, die jeweils durch ein Semikolon getrennt sind.
+Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, schließen Sie die ELIN in das **Feld "CompanyName"** für jeden Standort ein. Sie können für jeden Standort mehrere ELINs einschließen, die jeweils durch ein Semikolon voneinander getrennt sind.
   
-|**"Network"-Element**|**Erforderliche Spalten**|
+|**Network-Element**|**Erforderliche Spalten**|
 |:-----|:-----|
-|**Funkzugriffspunkt** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Drahtloser Zugriffspunkt** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Subnetz** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
@@ -62,26 +62,26 @@ Wenn Sie ein Emergency Location Identification Number (ELIN)-Gateway verwenden, 
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    Für ELIN-Gateways, setzen Sie die ELIN in das Feld "CompanyName". Sie können mehrere ELINs enthalten. Beispiel:
+    Fügen Sie für ELIN-Gateways die ELIN in das Feld "CompanyName" ein. Sie können mehr als eine ELIN einschließen. Zum Beispiel:
     
    ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "subnets.csv" verwenden, um Subnetzstandorte massenaktualisierungen.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "subnets.csv" verwenden, um Subnetzstandorte massenweise zu aktualisieren.
     
    ```powershell
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
-2. Führen Sie das folgende Cmdlet aus, um der Standortdatenbank Drahtlosstandorte hinzuzufügen.
+2. Führen Sie das folgende Cmdlet aus, um der Standortdatenbank drahtlose Standorte hinzuzufügen.
     
    ```powershell
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
-   Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "waps.csv" zum Massenupdate von Drahtlosstandorten verwenden.
+   Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "waps.csv" verwenden, um Drahtlosspeicherorte massenweise zu aktualisieren.
     
    ```powershell
    $g = Import-Csv waps.csv
@@ -94,7 +94,7 @@ Wenn Sie ein Emergency Location Identification Number (ELIN)-Gateway verwenden, 
    Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-   Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "switches.csv" zum Massenaktualisierung von Switchstandorten verwenden.
+   Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "switches.csv" verwenden, um Switchspeicherorte massenweise zu aktualisieren.
     
    ```powershell
    $g = Import-Csv switches.csv
@@ -107,9 +107,9 @@ Wenn Sie ein Emergency Location Identification Number (ELIN)-Gateway verwenden, 
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
-   Der Standardwert für PortIDSubType ist LocallyAssigned. Sie können sie auch auf InterfaceAlias oder InterfaceName festlegen.
+   Der Standardwert für PortIDSubType ist "LocallyAssigned". Sie können es auch auf "InterfaceAlias" oder "InterfaceName" festlegen.
     
-   Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "ports.csv" zum Massenupdate von Portstandorten verwenden.
+   Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "ports.csv" verwenden, um Portspeicherorte massenweise zu aktualisieren.
     
    ```powershell
    $g = Import-Csv ports.csv
@@ -120,7 +120,7 @@ Wenn Sie ein Emergency Location Identification Number (ELIN)-Gateway verwenden, 
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>So überprüfen Sie Adressen in der Standortdatenbank auf Gültigkeit
 
-1.  Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+1.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Führen Sie die folgenden Cmdlets zum Konfigurieren der Verbindung mit dem Anbieter für die Notrufunterstützung aus.
     
@@ -141,11 +141,11 @@ Wenn Sie ein Emergency Location Identification Number (ELIN)-Gateway verwenden, 
 
 Die neuen Standorte, die Sie der Standortdatenbank hinzugefügt haben, stehen dem Client erst nach der Veröffentlichung zur Verfügung.
   
-Wenn Sie ELIN-Gateways (Emergency Location Identification Number) verwenden, müssen Sie auch die die ELINs in die ALI (Automatic Location Identification)-Datenbank Ihres PSTN-Betreibers hochladen. Ihr PSTN-Betreiber verlangt möglicherweise, dass Sie ein bestimmtes Format für die ELIN-Einträge verwenden. Weitere Informationen erhalten Sie von Ihrem PSTN-Betreiber. Sie können die Datensätze aus der Datenbank des Standortinformationsdiensts exportieren und nach Bedarf formatieren.
+Wenn Sie ELIN-Gateways (Emergency Location Identification Number) verwenden, müssen Sie auch die die ELINs in die ALI (Automatic Location Identification)-Datenbank Ihres PSTN-Betreibers hochladen. Ihr PSTN-Betreiber verlangt möglicherweise, dass Sie ein bestimmtes Format für die ELIN-Einträge verwenden. Weitere Informationen erhalten Sie von Ihrem PSTN-Betreiber. Sie können die Datensätze aus der Standortinformationsdienst-Datenbank exportieren und nach Bedarf formatieren.
   
 ### <a name="to-publish-the-location-database"></a>So veröffentlichen Sie die Standortdatenbank
 
--  Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+-  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 - Führen Sie das folgende Cmdlet aus, um die Standortdatenbank zu veröffentlichen.
     

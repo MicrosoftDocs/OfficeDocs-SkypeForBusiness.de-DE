@@ -1,5 +1,5 @@
 ---
-title: (Optional) Definieren von Feiertagssätzen für Reaktionsgruppe in Skype for Business
+title: (Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Erstellen oder Ändern von Feiertagssätzen für Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erstellen oder Ändern von Feiertagssätzen für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298695"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Optional) Definieren von Feiertagssätzen für Reaktionsgruppe in Skype for Business
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business
  
-Erstellen oder Ändern von Feiertagssätzen für Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
+Erstellen oder Ändern von Feiertagssätzen für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP.
   
 Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist. Geben Sie die Aktion an, die an solchen Tagen ausgeführt werden soll. Ein Feiertagssatz ist eine Sammlung der Feiertage, die eine Reaktionsgruppe betreffen.
   
@@ -31,9 +31,9 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
   
 ### <a name="to-create-a-holiday-set"></a>So erstellen Sie einen Feiertagssatz
 
-1. Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins oder als Mitglied einer der vordefinierten Administrativen Rollen an, die die Reaktionsgruppe unterstützen.
+1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Führen Sie für jeden zu definierenden Feiertag folgenden Befehl aus:
     
@@ -57,7 +57,7 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Entwerfen und Erstellen von Reaktionsgruppeworkflows in Skype for Business](designing-and-creating-response-group-workflows.md)
+[Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

@@ -1,5 +1,5 @@
 ---
-title: (Optional) Überprüfen der Ansagebereitstellung in Skype for Business
+title: (Optional) Überprüfen der Ankündigungsbereitstellung in Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
-description: Überprüfen Der Bereitstellung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich auf die Art und Weise aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
-ms.openlocfilehash: 0dfa59d83441208c1ef44b80d33f0183995ebecb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Überprüfen der Bereitstellung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
+ms.openlocfilehash: 72ce822a587723ef08430d1b16eee86641453d5768554b795b6f01019cb704ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326527"
 ---
-# <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Ansagebereitstellung in Skype for Business
+# <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Ankündigungsbereitstellung in Skype for Business
  
-Überprüfen Der Bereitstellung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich auf die Art und Weise aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
+Überprüfen der Bereitstellung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
   
 Nach dem Installieren und Konfigurieren der Ansagefunktion müssen Sie deren Konfiguration überprüfen, um sicherzustellen, dass Anrufe an nicht zugewiesene Nummern das erwartete Verhalten aufweisen. Überprüfen Sie mindestens Folgendes:
   

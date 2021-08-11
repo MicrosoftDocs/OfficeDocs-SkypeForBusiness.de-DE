@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie, wie Sie Zeit sparen, Anrufe unterstützen und die Zufriedenheit erhöhen können, indem Sie Testkonten und Computer einrichten und Einwahlkonferenzen, Onlinefeatures wie Anrufe zwischen zwei Personen, Konferenzen sowie An- und Abmelden testen. '
-ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310144"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 

@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die folgenden Komponenten bilden die Edgetopologie des Umkreisnetzwerks. Sofern nicht anders angegeben, sind die Komponenten Teil von Edgeserverszenarien in Skype for Business Server 2015 und befinden sich im Umkreisnetzwerk. Edgekomponenten umfassen Folgendes:'
-ms.openlocfilehash: 6d43b9f26555cd33a2c0a7f7f994b9e2746cefd6
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 8123d1a4c04e4f1c21cc432295b2424572594d1a701d5e5199a08e21094a486c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646016"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280020"
 ---
 # <a name="edge-network-planning-tool"></a>Edgenetzwerk-Planungstool
  

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: Das Cmdlet Remove-CcCertificationAuthorityFile entfernt die Sicherungsdatei des Zertifizierungsstellendiensts im Ordner "Zertifizierungsstelle" unter dem Website Freigabeverzeichnis für Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 49a8f0f313b4153288ebdf037a41dc92f30e60d6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das Cmdlet Remove-CcCertificationAuthorityFile entfernt die Sicherungsdatei des Zertifizierungsstellendiensts im Zertifizierungsstellenordner unter dem Websitefreigabeverzeichnis für Skype for Business Cloud Connector Edition.
+ms.openlocfilehash: aaff21023a63e8933235f4c462c1152339381ca0d9571ded57f6b43742679624
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288773"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-Das Cmdlet Remove-CcCertificationAuthorityFile entfernt die Zertifizierungsstellen-Dienst Sicherungs&lt;Datei&gt;"SiteRootDirectory \CA\SfB CCE root. p12" im Ordner "Zertifizierungsstelle" unter dem Website Freigabeverzeichnis für Skype for Business Cloud Connector Edition. 
+Das cmdlet Remove-CcCertificationAuthorityFile entfernt die Sicherungsdatei &lt; "SiteRootDirectory &gt; \CA\SfB CCE Root.p12" im Zertifizierungsstellenordner unter dem Websitefreigabeverzeichnis für Skype for Business Cloud Connector Edition. 
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -35,9 +35,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel wird die Sicherungsdatei des Zertifizierungsstellen&lt;Diensts&gt;"SiteRootDirectory \CA\SfB CCE root. p12" im Ordner "Zertifizierungsstelle" unterhalb des Website Freigabe Verzeichnisses entfernt:
+Im folgenden Beispiel wird die Sicherungsdatei &lt; "SiteRootDirectory &gt; \CA\SfB CCE Root.p12" des Zertifizierungsstellendiensts im Ordner "Zertifizierungsstellendienst" im Verzeichnis "SiteRootDirectory \CA\SfB CCE Root.p12" entfernt:
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -46,12 +46,12 @@ Remove-CcCertificationAuthorityFile
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Remove-CcCertificationAuthorityFile“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Remove-CcCertificationAuthorityFile akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
