@@ -12,50 +12,50 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: 'Zusammenfassung: Erfahren Sie mehr über den Elementdienst, der Teil des Repository-API für das Anrufqualitätsdashboard ist. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: b904f814a837af13e4015af5fbaca924739b8997
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den Elementdienst, der Teil der Repository-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 4e46cb213502e646a9fc3c750e7aeb40ffb6aff47b4d2aba0c19e04c56ce6cc0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331227"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Item Service for Call Quality Dashboard (CQD)
  
-**Zusammenfassung:** Erfahren Sie mehr über den Elementdienst, der Teil des Dashboards der Repository-API für die Anrufqualität ist. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Elementdienst, der Teil der Repository-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
   
-Der Elementdienst ist Teil der Repository-API für das Anrufqualitätsdashboard.
+Der Elementdienst ist Teil der Repository-API für das Anrufqualitäts-Dashboard.
   
 ## <a name="item-service"></a>Elementdienst
 
 Die Repository-API bietet einen einfachen Inhaltsverwaltungsdienst, der als Elementdienst bezeichnet wird und zum Speichern von anwendungsdefinierten Inhalten für Benutzer verwendet werden kann. 
   
-Die Systeminhalte gehören dem Systembenutzer und werden von allen Benutzern mit schreibgeschützten Zugriff freigegeben. Dedizierte Benutzerinhalte gehören normalen Benutzern, und nur die Besitzer können sie ändern oder löschen, aber alle Benutzer haben weiterhin schreibgeschützten Zugriff auf sie.
+Der Systeminhalt gehört dem Systembenutzer und wird von allen Benutzern mit schreibgeschütztem Zugriff freigegeben. Dedizierte Benutzerinhalte gehören normalen Benutzern, und nur die Besitzer können sie ändern oder löschen, aber alle Benutzer haben weiterhin schreibgeschützten Zugriff darauf.
   
 > [!NOTE]
 > Diese API-Dokumentation behandelt schreibgeschützte Vorgänge der Repository-API. 
   
-Das Anrufqualitätsdashboard speichert Berichte und Abfragen als Elemente in der Repositorydatenbank. Ein Element kann optionale Unterelemente enthalten, und das Anrufqualitätsdashboard organisiert Berichte und Abfragen in einer hierarchischen Struktur mithilfe der Funktion "Unterelemente".
+Das Anrufqualitätsdashboard speichert Berichte und Abfragen als Elemente in der Repositorydatenbank. Ein Element kann optionale Unterelemente haben, und das Anrufqualitätsdashboard organisiert Berichte und Abfragen in einer hierarchischen Struktur mithilfe des Features "Untergeordnete Elemente".
   
 Der Elementdienst umfasst die folgenden Konzepte:
   
 - **Element** – das grundlegende Element des Repositorys. Jedes Element gehört genau einem Benutzer.
     
-- **Unterelement –** die grundlegende Organisationsmechanik des Repositorys. Element kann null, ein oder mehrere untergeordnete Elemente haben.
+- **Unterelement** – die grundlegende Organisationsmechanismen des Repositorys. Das Element kann null, ein oder mehrere untergeordnete Elemente aufweisen.
     
-- **Element-Vorgänger –** die Liste der Elemente, beginnend mit dem obersten Element, bei dem es sich um das Standardelement des Benutzers handelt, das zu einem bestimmten Element führt.
+- **"Item Ancestors"** – die Liste der Elemente, beginnend mit dem Element am häufigsten, das das Standardelement des Benutzers ist und zu einem bestimmten Element führt.
     
-- **Elementinhalt** – der anwendungsspezifische Inhalt, der in Elementen gespeichert ist. Das Anrufqualitätsdashboard speichert die JSON-Darstellungen von Berichten und Abfragen in Inhalten.
+- **Elementinhalt** – der anwendungsspezifische Inhalt, der in Elementen gespeichert ist. Das Anrufqualitätsdashboard speichert JSON-Darstellungen von Berichten und Abfragen in Inhalten.
     
 Die REST-Vorgänge sind in der folgenden Tabelle enthalten.
   
 
 |**Vorgang**|**Beschreibung**|
 |:-----|:-----|
-|[Abrufen von Elementen](get-items.md) <br/> |Get Items returns all Items in the repository.  <br/> |
-|[Abrufen eines Elements](get-item.md) <br/> |"Element erhalten" gibt ein bestimmtes Element zurück.  <br/> |
-|[Abrufen von untergeordneten Elementen](get-sub-items.md) <br/> |Get Sub-Items returns a specific Item's sub-Items.  <br/> |
-|[Abrufen von übergeordneten Elementen](get-item-ancestors.md) <br/> |"Element-Vorgänger" gibt die Vorgänger eines bestimmten Elements zurück.  <br/> |
+|[Abrufen von Elementen](get-items.md) <br/> |Abrufen von Elementen gibt alle Elemente im Repository zurück.  <br/> |
+|[Abrufen eines Elements](get-item.md) <br/> |Element abrufen gibt ein bestimmtes Element zurück.  <br/> |
+|[Abrufen von untergeordneten Elementen](get-sub-items.md) <br/> |Dient zum Abrufen Sub-Items gibt die Unterelemente eines bestimmten Elements zurück.  <br/> |
+|[Abrufen von übergeordneten Elementen](get-item-ancestors.md) <br/> |Get Item Ancestors returns a specific Item's ancestors.  <br/> |
 |[Aktualisieren von Elementen](update-item.md) <br/> |Aktualisieren eines bestimmten Elements im Repository.  <br/> |
    
 

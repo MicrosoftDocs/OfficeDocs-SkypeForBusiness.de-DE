@@ -12,86 +12,86 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-description: In diesen Abschnitten werden die Spalten in den einzelnen QoE-Datenbankschematabellen (Quality of Experience) ausführlich beschrieben.
-ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In diesen Abschnitten werden die Spalten in den einzelnen QoE-Datenbankschematabellen (Quality of Experience) beschrieben.
+ms.openlocfilehash: 42085494d2d302742c2a18b5af17506ba8f79a3ff9812f86b817506ea401d98f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321597"
 ---
 # <a name="qoe-table-details"></a>Ausführliche Informationen zur QoE-Tabelle
  
 In diesen Abschnitten werden die Spalten in den einzelnen QoE-Datenbankschematabellen (Quality of Experience) beschrieben.
   
-- [Tabelle "AppliedBandwidthSource"](appliedbandwidthsource.md)
+- [AppliedBandwidthSource-Tabelle](appliedbandwidthsource.md)
     
-- [Tabelle "AppSharingMetricsThreshold"](appsharingmetricsthreshold.md)
+- [AppSharingMetricsThreshold-Tabelle](appsharingmetricsthreshold.md)
     
-- [Tabelle "AppSharingStream"](appsharingstream.md)
+- [AppSharingStream-Tabelle](appsharingstream.md)
     
-- [Tabelle "AudioClientEvent"](audioclientevent.md)
+- [AudioClientEvent-Tabelle](audioclientevent.md)
     
-- [Tabelle "AudioSignal"](audiosignal.md)
+- [AudioSignal-Tabelle](audiosignal.md)
     
-- [Tabelle "AudioStream"](audiostream.md)
+- [AudioStream-Tabelle](audiostream.md)
     
-- [Tabelle "CodecDescription"](codecdescription.md)
+- [CodecDescription-Tabelle](codecdescription.md)
     
 - [Konferenztabelle](conference.md)
     
 - [Gerätetabelle](device.md)
     
-- [#A0](devicedriver.md)
+- [DeviceDriver-Tabelle](devicedriver.md)
     
 - [Dialogtabelle](dialog.md)
     
 - [Endpunkttabelle](endpoint.md)
     
-- [Tabelle "EndpointSubnet"](endpointsubnet.md)
+- [EndpointSubnet-Tabelle](endpointsubnet.md)
     
-- [Tabelle "IPAddress"](ipaddress.md)
+- [IPAddress-Tabelle](ipaddress.md)
     
-- [Tabelle "MacAddress"](macaddress.md)
+- [MacAddress-Tabelle](macaddress.md)
     
-- [Tabelle "MediaLine"](medialine-0.md)
+- [MediaLine-Tabelle](medialine-0.md)
     
-- [MonitoredRegionLink (Tabelle)](monitoredregionlink.md)
+- [MonitoredRegionLink-Tabelle](monitoredregionlink.md)
     
-- [Tabelle "MonitoredUserSiteLink"](monitoredusersitelink.md)
+- [MonitoredUserSiteLink-Tabelle](monitoredusersitelink.md)
     
-- [Tabelle "NetworkConnectionDetail"](networkconnectiondetail.md)
+- [NetworkConnectionDetail-Tabelle](networkconnectiondetail.md)
     
-- [PayloadDescription (Tabelle)](payloaddescription.md)
+- [PayloadDescription-Tabelle](payloaddescription.md)
     
 - [Pooltabelle](pool.md)
     
-- [Tabelle "PurgeSettings" (QoE)](purgesettings-qoe.md)
+- [PurgeSettings-Tabelle (QoE)](purgesettings-qoe.md)
     
-- [Tabelle "Region"](region.md)
+- [Region-Tabelle](region.md)
     
 - [Servertabelle](server.md)
     
 - [Sitzungstabelle](session.md)
     
-- [Tabelle "SessionCorrelation"](sessioncorrelation.md)
+- [SessionCorrelation-Tabelle](sessioncorrelation.md)
     
 - [Subnetztabelle](subnet.md)
     
-- [Tabelle "TraceRoute"](traceroute.md)
+- [TraceRoute-Tabelle](traceroute.md)
     
-- [Benutzertabelle](user-0.md)
+- [User-Tabelle](user-0.md)
     
-- [Tabelle "UserAgent"](useragent.md)
+- [UserAgent-Tabelle](useragent.md)
     
-- [Tabelle "UserAgentDef" (QoE)](useragentdef-qoe.md)
+- [UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md)
     
-- [Tabelle "UserSite"](usersite.md)
+- [UserSite-Tabelle](usersite.md)
     
-- [Tabelle "VideoClientEvent"](videoclientevent.md)
+- [VideoClientEvent-Tabelle](videoclientevent.md)
     
-- [Tabelle "VideoMetricsThreshold"](videometricsthreshold.md)
+- [VideoMetricsThreshold-Tabelle](videometricsthreshold.md)
     
-- [Tabelle "VideoStream"](videostream.md)
+- [VideoStream-Tabelle](videostream.md)
     
 

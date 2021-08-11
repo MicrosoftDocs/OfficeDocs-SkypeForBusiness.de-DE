@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Geben Sie im externen IPv4 die externe IP-Adresse ein, die auf den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verweist.
-ms.openlocfilehash: 077bb5f949bb36ed8290cfb13767c18103e63144
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Geben Sie in "Externes IPv4" die externe IP-Adresse ein, die auf den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verweist.
+ms.openlocfilehash: cc96425deef69103b45bd21ea0e2f7b990a813bcba292438fd4b730d2234413a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294312"
 ---
 # <a name="add-edge-server-external-ipv4"></a>Hinzufügen der externen IPv4-Adresse des Edgeservers
  
-Geben Sie im externen **IPv4** die externe IP-Adresse ein, die auf den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verweist.
+Geben Sie in **"Externes IPv4"** die externe IP-Adresse ein, die auf den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verweist.
   
 

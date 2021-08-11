@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie die Inhaltssuche im Microsoft 365 Compliance Center verwenden, um nach Microsoft Teams-Inhalten zu suchen, die in Exchange Online, SharePoint Online, OneDrive for Business und OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6810355304371564a2a305c82290df7667f5efd41889e598021636cc9ccd11d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278213"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 

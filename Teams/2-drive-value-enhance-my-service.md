@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278243"
 ---
 # <a name="enhance-my-service"></a>Verbessern des Diensts
 
@@ -32,7 +32,7 @@ Dieser Artikel bietet eine Übersicht über die Anforderungen, um Cloud-Sprachdi
 ## <a name="enhance-my-service-overview"></a>Übersicht über "Verbessern meines Diensts"
 Nachdem Sie Audiokonferenzen oder Telefonsystem mit Anrufplandiensten erfolgreich für Ihre Organisation bereitgestellt und den Dienst mit Qualität und Zuverlässigkeit bebetriebt haben, besteht der nächste Schritt in der regelmäßigen Bewertung, ob Sie noch Möglichkeiten zur Verbesserung Ihrer Dienste haben. Dies ist Teil der kontinuierlichen Planung der Dienstverbesserung, die ein moderner Standard für die Verwaltung von Cloud-Diensten ist. 
 
-Eine hervorragende Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer auf dem besten Weg nutzen, besteht in der Überwachung der [öffentlichen Teams-Roadmaps](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Featureerweiterungen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf das Microsoft 365 Admin Center haben, erhalten Sie über unser Nachrichtencenter regelmäßige Updates über neue und sich ändernde Features von uns. 
+Eine hervorragende Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer auf dem besten Weg nutzen, besteht in der Überwachung der [öffentlichen Teams-Roadmaps](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Featureerweiterungen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf die Microsoft 365 Admin Center erhalten Sie über unser Nachrichtencenter regelmäßige Updates zu neuen und sich ändernden Features von uns. 
 
 Darüber hinaus sollten Sie sich aufgrund des Wachstum und der Veränderung in Organisationen Zeit nehmen, um ihre geschäftlichen Nutzungsfälle in regelmäßigen Abständen erneut zu überprüfen und zu aktualisieren, um sicherzustellen, dass der Dienst den aktuellen Anforderungen Ihrer Organisation entspricht.  Stellen Sie sicher, dass Sie echtes Feedback von Ihren Benutzern und internen Anwendern erhalten, indem Sie Feedbackkanäle in Ihrer Organisation einrichten. Dabei kann es sich um informelle Unterhaltungen, normale Besprechungen oder über Teams Kanal oder Yammer Community handelt. 
 

@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Erfahren Sie, wie Sie den Datenschutzmodus für Ihre Benutzer einrichten, damit sie besser steuern können, wie Personen ihre Verfügbarkeit sehen können. '
-ms.openlocfilehash: f8589dfb648693f0c0c4331a1a16119a3d7fe748
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239952"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339320"
 ---
 # <a name="configure-presence-privacy-mode"></a>Konfigurieren des vertraulichen Anwesenheitsmodus
 

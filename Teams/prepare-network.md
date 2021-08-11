@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: 282a6646c321d14618b9aaede36918db8db58c774d7bd99ff79f15cac729f83e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312693"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihres Unternehmens für Microsoft Teams 
 
@@ -306,7 +306,7 @@ Die **minimalen**, **empfohlenen** und **besten** Bandbreitenanforderungen basie
 
 - **Mindestanforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 240p, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 1,875 bis 7,5 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 540p.  
 
-- **Die empfohlenen Anforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 1080p<sup>\*</sup>, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 7,5 bis 30 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 1080p<sup>\*</sup>.  
+- **Die empfohlenen Anforderungen an die** Bandbreite für Videoanrufe sind eine Auflösung von bis zu 1080p <sup>\*</sup>, bildbasierte Bildfrequenzen für Bildschirmfreigabeinhalte von 7,5 bis 30 fps und Video im Zusammen-Modus/Große Galerie mit einer Auflösung von bis zu 1080p <sup>\*</sup>.  
 
 - **Die Anleitung für beste Leistung** ermöglicht Videos mit höherer Wiedergabetreue für Besprechungen mit mehreren Teilnehmern, Umgebungen mit hohen Verlusten und Inhalten mit höherer Bewegung, wobei die Bildwiederholrate von Bildschirmfreigabeinhalten auf 15 bis 30 fps angepasst werden kann.
 

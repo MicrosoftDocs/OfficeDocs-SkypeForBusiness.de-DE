@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten. '
-ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1b1c37635abf71fef82330cba9b1749edac9f16fa7ae13bd4dbeb2274166deb2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278223"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 

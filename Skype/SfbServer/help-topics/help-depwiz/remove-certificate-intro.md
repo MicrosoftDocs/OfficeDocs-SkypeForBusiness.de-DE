@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 description: Lesen Sie auf der Einführungsseite zu Zertifikat entfernen sorgfältig die Informationen zu den Auswirkungen des Entfernens eines Zertifikats. Klicken Sie nach dem Lesen der Informationen auf Weiter, um fortzufahren.
-ms.openlocfilehash: 1c62971c765593c630eda0f38239a0fdd35049f9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3e545fc2a7660368f9c6b33a8dcf8e431b504b3bd2811d4ec2206da12c926caa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285105"
 ---
 # <a name="remove-certificate-intro"></a>Entfernen eines Zertifikats (Einführung)
  

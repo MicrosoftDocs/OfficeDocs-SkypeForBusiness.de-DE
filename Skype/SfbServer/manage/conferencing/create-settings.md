@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: 'Zusammenfassung: Informationen zum Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server.'
-ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server erstellen.'
+ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321688"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server erstellen.
   
-Sie können Besprechungskonfigurationseinstellungen mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell erstellen.
+Sie können Besprechungskonfigurationseinstellungen mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell erstellen.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Erstellen von Besprechungskonfigurationseinstellungen mithilfe der Skype for Business Server-Systemsteuerung
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Erstellen von Besprechungskonfigurationseinstellungen mithilfe Skype for Business Server Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
+2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste **auf** Konferenzen und dann auf **Besprechungskonfiguration**.
+3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen",** und klicken Sie dann auf **"Besprechungskonfiguration".**
     
-4. Klicken Sie **auf der** Seite Besprechungskonfiguration auf **Neu,** und gehen Sie dann wie folgt vor:
+4. Klicken Sie auf der Seite **"Besprechungskonfiguration"** auf **"Neu"** und führen Sie dann eine der folgenden Aktionen aus:
     
-    - Klicken Sie zum Erstellen einer Richtlinie auf Websiteebene auf **Websitekonfiguration**. Geben Sie **im Suchfeld** Website auswählen den Namen der Website, für die Sie Besprechungs beitreten möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
+    - Klicken Sie auf **"Standortkonfiguration",** um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Feld **"Websitesuche auswählen"** den Namen der Website, für die Sie Einstellungen für den Besprechungsbeitritt definieren möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
     
-    - Klicken Sie zum Erstellen einer Richtlinie auf Poolebene auf **Poolkonfiguration**. Geben Sie **im Suchfeld** Dienst auswählen den Namen des Pooldiensts, für den Sie Besprechungs beitreten möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Dienste auf den pool, den Sie möchten, und klicken Sie dann auf **OK**.
+    - Klicken Sie auf **"Poolkonfiguration",** um eine Richtlinie auf Poolebene zu erstellen. Geben Sie im Suchfeld **"Dienst auswählen"** den Namen des Pooldiensts, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Dienste auf den gewünschten Pool, und klicken Sie dann auf **OK.**
     
 5. Deaktivieren Sie das Kontrollkästchen **PSTN-Anrufer umgehen Lobby**, um Teilnehmer, die sich über das Festnetz einwählen, zunächst an die Lobby weiterzuleiten. In der Standardeinstellung gelangen Anrufer, die sich über das Festnetz einwählen, direkt zur Besprechung.
     
@@ -53,37 +53,37 @@ Sie können Besprechungskonfigurationseinstellungen mithilfe der Skype for Busin
     
 8. Wenn Sie verhindern möchten, dass anonyme (nicht authentifizierte) Benutzer automatisch zugelassen werden, deaktivieren Sie das Kontrollkästchen **Anonyme Benutzer standardmäßig zulassen**. In der Standardeinstellung werden anonyme Benutzer automatisch für Besprechungen zugelassen.
     
-9. Gehen Sie wie folgt vor, um die an Teilnehmer gesendete Besprechungs-Einladung anzupassen. Beachten Sie, dass die maximale Länge für URLs und benutzerdefinierten Fußzeilentext 1 KB beträgt. Mit Ausnahme **der Hilfe-URL** werden diese nicht in die Besprechung einbezogen, wenn Sie keinen Wert für die Anpassungen angeben. Wenn Sie keine benutzerdefinierte Hilfe-URL angeben, wird die Standard-Hilfe-URL für Skype for Business in der Einladung angezeigt. 
+9. Gehen Sie folgendermaßen vor, um die Besprechungseinladung anzupassen, die an die Teilnehmer gesendet wird. Beachten Sie, dass die maximale Länge für URLs und benutzerdefinierten Fußzeilentext 1 KB beträgt. Mit Ausnahme der **Hilfe-URL** werden sie nicht in die Besprechung einbezogen, wenn Sie keinen Wert für die Anpassungen angeben. Wenn Sie keine benutzerdefinierte Hilfe-URL einschließen, wird die Standardmäßige Hilfe-URL für Skype for Business in der Einladung angezeigt. 
     
-   - Geben Sie zum Anpassen des Logos, das in der Besprechungs-Einladung angezeigt wird, unter **Logo-URL** den Speicherort des Logos ein. Das Logo muss ein GIF- oder JPG-Bild mit einer Größe von 188 x 30 Pixeln sein. 
+   - Um das Logo anzupassen, das in der Besprechungseinladung angezeigt wird, geben Sie in der **Logo-URL** den Speicherort des Logos ein. Das Logo muss ein GIF- oder JPG-Bild mit einer Größe von 188 x 30 Pixeln sein. 
     
-   - Geben Sie zum Anpassen des Hilfetexts, der in der Besprechungs-Einladung angezeigt wird, unter **Hilfe-URL** den Speicherort des Hilfetexts ein.
+   - Um den Hilfetext anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in der **Hilfe-URL** den Speicherort des Hilfetexts ein.
     
-   - Geben Sie zum Anpassen des rechtstexts, der in der Besprechungs-Einladung angezeigt wird, unter **Legal text URL** den Speicherort des Rechtstexts ein.
+   - Um den rechtlichen Text anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in der URL des **Rechtstexts** den Speicherort des Rechtstexts ein.
     
-   - Um den Fußzeilentext anzupassen, der in der Besprechungs-Einladung angezeigt wird, geben Sie in Benutzerdefinierter **Fußzeilentext** Text ein.
+   - Um den Fußzeilentext anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in **benutzerdefiniertem Fußzeilentext** Text ein.
     
 10. Klicken Sie auf **Commit ausführen**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Erstellen von Besprechungskonfigurationseinstellungen mithilfe der Skype for Business Server-Verwaltungsshell
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Erstellen von Besprechungskonfigurationseinstellungen mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie zum Erstellen von Besprechungskonfigurationseinstellungen **das Cmdlet New-CsMeetingConfiguration.**
+Verwenden Sie zum Erstellen von Besprechungskonfigurationseinstellungen das Cmdlet **"New-CsMeetingConfiguration".**
   
-Mit dem folgenden Befehl wird ein neuer Satz von Besprechungskonfigurationseinstellungen für den Standort "Redmond" erstellt:
+Der folgende Befehl erstellt einen neuen Satz von Besprechungskonfigurationseinstellungen für den Standort Redmond:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond"
 ```
 
-Da im vorherigen Befehl keine Parameter (mitser dem obligatorischen Identity-Parameter) angegeben wurden, verwenden die neuen Besprechungskonfigurationseinstellungen die Standardwerte für alle eigenschaften.
+Da im vorherigen Befehl keine parameter (außer dem obligatorischen Identity-Parameter) angegeben wurden, verwenden die neuen Besprechungskonfigurationseinstellungen die Standardwerte für alle eigenschaften.
   
-Zum Erstellen von Einstellungen, die verschiedene Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und den Parameterwert an. Um beispielsweise eine Sammlung von Besprechungskonfigurationseinstellungen zu erstellen, die standardmäßig alle Benutzer einer Besprechung als Presenter zugeben, verwenden Sie einen Befehl wie den folgenden:
+Zum Erstellen von Einstellungen, die verschiedene Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und den Parameterwert an. Um beispielsweise eine Sammlung von Besprechungskonfigurationseinstellungen zu erstellen, die standardmäßig alle Personen zu einer Besprechung als Referenten zulassen, verwenden Sie einen Befehl wie den folgenden:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-Mehrere Eigenschaftswerte können durch Einschleieren mehrerer Parameter festgelegt werden. Der folgende Befehl lässt beispielsweise alle Benutzer zu einer Besprechung als Moderator zu und zwingt außerdem PSTN-Benutzer, in der Lobby zu warten, bis sie formal zur Besprechung zugelassen sind:
+Mehrere Eigenschaftswerte können festgelegt werden, indem mehrere Parameter eingeschlossen werden. Der folgende Befehl lässt beispielsweise jeden zu einer Besprechung als Referent zu und erzwingt außerdem, dass PSTN-Benutzer im Wartebereich warten, bis sie formell zur Besprechung zugelassen werden:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True

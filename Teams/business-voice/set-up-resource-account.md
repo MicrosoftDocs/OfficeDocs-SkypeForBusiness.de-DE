@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie ein Microsoft 365 Business Voice für die Verwendung mit automatischen Attendants einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df5001b6f757b407e96a473d302c79d837af957c
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: eb36a0f3a1327bb3b42b0148c889a05e377ccf1af80c4a3c42d51299677b9692
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331077"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Schritt 4: Einrichten eines Business Voice-Ressourcenkontos
 

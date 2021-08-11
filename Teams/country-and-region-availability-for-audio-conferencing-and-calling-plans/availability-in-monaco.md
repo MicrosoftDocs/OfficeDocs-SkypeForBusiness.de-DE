@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Monaco verfügbar.
-ms.openlocfilehash: 296c737908da4f726fd036b9b4a68fb45926b42a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4b72c0482ea37de4b289595f23949becefc69abf6103bc97485da1ff19bef9d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331067"
 ---
 # <a name="availability-in-monaco"></a>Verfügbarkeit in Monaco
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Daten und Berichte, die im Microsoft-Anrufqualitätsdashboard (CQD) verfügbar sind.
-ms.openlocfilehash: 47fce642bf90b1be9285a11cf19a5e6421aa262b
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331117"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Daten und Berichte im Anrufqualitätsdashboard (CQD)
 
@@ -356,7 +356,7 @@ Die gesamte URL würde etwa so aussehen:
 
 `https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
-Zum Anwenden von URL-Filtern mit Mehrfachauswahlwerten trennen Sie jeden Wert durch ein Pipe (|) Zeichen. Beispiel:
+Zum Anwenden von URL-Filtern mit Mehrfachauswahlwerten trennen Sie jeden Wert durch ein Pipe (|) Zeichen. Zum Beispiel:
 
 `filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 

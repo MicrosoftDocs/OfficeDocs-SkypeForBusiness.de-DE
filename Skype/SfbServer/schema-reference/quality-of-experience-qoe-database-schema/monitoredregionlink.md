@@ -1,5 +1,5 @@
 ---
-title: Tabelle "MonitoredRegionLink"
+title: MonitoredRegionLink-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
-description: Die Tabelle "MonitoredRegionLink" ist eine Tabelle mit Unterstützung. Jeder Datensatz stellt eine Verknüpfung zwischen zwei Ländern/Regionen dar.
-ms.openlocfilehash: f30ba249f89a2247e0e03c71fc97f05e69c59bcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die MonitoredRegionLink-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz stellt eine Verbindung zwischen zwei Ländern/Regionen dar.
+ms.openlocfilehash: 991cc3b6ce2f442ad13c350d2e37cc7c9d592d40d16da51932975a4907040569
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806345"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321627"
 ---
-# <a name="monitoredregionlink-table"></a>Tabelle "MonitoredRegionLink"
+# <a name="monitoredregionlink-table"></a>MonitoredRegionLink-Tabelle
  
-Die Tabelle "MonitoredRegionLink" ist eine Tabelle mit Unterstützung. Jeder Datensatz stellt eine Verknüpfung zwischen zwei Ländern/Regionen dar.
+Die MonitoredRegionLink-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz stellt eine Verbindung zwischen zwei Ländern/Regionen dar.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**Region1Key** <br/> |int  <br/> |Primär, Fremd  <br/> |Referenziert aus der [Tabelle "Region".](region.md)  <br/> |
-|**Region2Key** <br/> |int  <br/> |Primär, Fremd  <br/> |Referenziert aus der [Tabelle "Region".](region.md)  <br/> |
+|**Region1Key** <br/> |Ganzzahl  <br/> |Primär, Fremd  <br/> |Referenziert aus der [Region-Tabelle.](region.md)  <br/> |
+|**Region2Key** <br/> |Ganzzahl  <br/> |Primär, Fremd  <br/> |Referenziert aus der [Region-Tabelle.](region.md)  <br/> |
    
 

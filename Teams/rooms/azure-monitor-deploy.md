@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung ihrer Microsoft Teams-Räume mit Azure Monitor auf integrierte, end-to-end-Weise bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312683"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>:::no-loc text="Microsoft Teams Rooms":::Bereitstellungsverwaltung mit:::no-loc text="Azure Monitor":::
 
@@ -377,9 +377,9 @@ Konfigurieren Sie eine Warnungsregel, die Geräte überprüft, bei denen innerha
 7. Konfigurieren von Aktionsgruppen:
     1.  Wählen Sie **"Neu erstellen" aus.**
     2.  Stellen Sie geeignete Namen für die Felder *Aktionsgruppe und* *Kurzname zur Verfügung.*
-    3.  Geben Sie einen *eindeutigen Aktionsnamen an,* wählen Sie **E-Mail/SMS/Push/Voice**, und wählen Sie dann **Details bearbeiten** aus.
+    3.  Geben Sie einen *eindeutigen Aktionsnamen an,* wählen Sie **E-Mail/SMS/Push/Voice** und dann **Details bearbeiten aus.**
     4.  Aktivieren Sie das **Kontrollkästchen** E-Mail, und geben Sie die E-Mail-Adresse der Person oder Gruppe an, die die Benachrichtigungen erhalten soll.
-    5.  Sie können auch Ihre Telefonnummer bereitstellen, um sich mit einem SMS, einem Sprachanruf oder beiden zu benachrichtigt zu lassen.
+    5.  Sie können auch Ihre Telefonnummer bereitstellen, um per SMS, einem Sprachanruf oder mit beidem benachrichtigt zu werden.
     6. Wählen Sie **OK aus.**
 
 8. **Passen Sie Aktionen** an, wenn Sie die Betreffzeile der Benachrichtigungs-E-Mails überschreiben möchten.

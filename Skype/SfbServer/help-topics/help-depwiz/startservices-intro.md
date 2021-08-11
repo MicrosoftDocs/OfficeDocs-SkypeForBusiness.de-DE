@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
-description: Lesen Sie den Einführungsbildschirm, um Dienste auf dem Skype for Business Server 2015-Rollenserver zu starten, den Sie bereitstellen. Beachten Sie, dass die Befehle zum Starten von Skype for Business Server nicht auf den Start des Diensts warten. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf Weiter, um die Aufgabe Dienste starten zu starten.
-ms.openlocfilehash: ce23db017922b2c12384172f07bb13b5113c9e59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Informationen zum Starten von Diensten auf dem Skype for Business Server 2015-Rollenserver, den Sie bereitstellen, sehen Sie sich den Einführungsbildschirm an. Beachten Sie, dass die Befehle, die zum Starten des Skype for Business Server ausgegeben wurden, nicht warten, bis der Dienst gestartet wird. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf Weiter, um die Aufgabe Dienste starten zu starten.
+ms.openlocfilehash: a1640065b0f4aed7633051950699e46ad2b7dac5ac2ccc784f5ddf06017cc6b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285045"
 ---
 # <a name="startservices-intro"></a>Starten von Diensten (Einführung)
  
-Lesen Sie den Einführungsbildschirm, um Dienste auf dem Skype for Business Server 2015-Rollenserver zu starten, den Sie bereitstellen. Beachten Sie, dass die Befehle zum Starten von Skype for Business Server nicht auf den Start des Diensts warten. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf **Weiter**, um die Aufgabe **Dienste starten** zu starten.
+Informationen zum Starten von Diensten auf dem Skype for Business Server 2015-Rollenserver, den Sie bereitstellen, sehen Sie sich den Einführungsbildschirm an. Beachten Sie, dass die Befehle, die zum Starten des Skype for Business Server ausgegeben wurden, nicht warten, bis der Dienst gestartet wird. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf **Weiter**, um die Aufgabe **Dienste starten** zu starten.
   
 
