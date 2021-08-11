@@ -1,5 +1,5 @@
 ---
-title: Beständiger Chat (Planungstool)
+title: Skype for Business Server Planungstool für beständigen Chat
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: Der Server für beständigen Chat ermöglicht Benutzern die Teilnahme an themenbasierten Unterhaltungen mit mehrerenPartys, die im Laufe der Zeit bestehen bleiben.
-ms.openlocfilehash: 51b88704d2a4f7dad8dbcee2fc9b29d384c58741
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Mit dem Server für beständigen Chat können Benutzer an themenbasierten Unterhaltungen mit mehreren Teilnehmern teilnehmen, die im Laufe der Zeit bestehen bleiben.
+ms.openlocfilehash: 71dcd50ff958af2940016e46e0940e915eb6600abc27f12cf3be77b01a19df7a
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824305"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590889"
 ---
-# <a name="persistent-chat-planning-tool"></a>Beständiger Chat (Planungstool)
+# <a name="skype-for-business-server-persistent-chat-planning-tool"></a>Skype for Business Server Planungstool für beständigen Chat
  
-Der Server für beständigen Chat ermöglicht Benutzern die Teilnahme an themenbasierten Unterhaltungen mit mehrerenPartys, die im Laufe der Zeit bestehen bleiben.
+Mit dem Server für beständigen Chat können Benutzer an themenbasierten Unterhaltungen mit mehreren Teilnehmern teilnehmen, die im Laufe der Zeit bestehen bleiben.
   
-Weitere Informationen zum Vorbereiten Ihrer Umgebung für den Server für beständigen Chat finden Sie unter [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
+Weitere Informationen zur Vorbereitung Ihrer Umgebung für den Server für beständigen Chat finden Sie unter [Plan for Persistent Chat Server in Skype for Business Server 2015.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 

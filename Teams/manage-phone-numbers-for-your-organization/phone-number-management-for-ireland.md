@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Irland für Microsoft Teams.
-ms.openlocfilehash: 4050ea64677bad9f6481025feea52a8b593b4fa6
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: ed4496cfc8f1a5882d2126cb1f9bc3225bae0e03bb1b770849bd8862221775a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306357"
 ---
 # <a name="phone-number-management-for-ireland"></a>Telefonnummernverwaltung für Irland
 
@@ -35,11 +35,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden. <br/> |In Irland können Sie über das Admin Center Microsoft Teams für Ihre Organisation erhalten. Sie müssen eine Anforderung für neue Telefonnummern senden. <br/><br/>Laden Sie dieses Formular herunter.<br/>[Neue Telefonnummernanforderung für Irland (v.5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Füllen Sie das Feld aus, und [wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
-|Übertragen Sie uns Ihre Telefonnummern.  <br/> | Laden Sie dieses Formular herunter. <br/>[LoA für Irland (alle Nummern) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Füllen Sie das Feld aus, [und wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/> |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. <br/> |In Irland können Sie über das Admin Center Microsoft Teams für Ihre Organisation erhalten. Sie müssen eine Anforderung für neue Telefonnummern senden. <br/><br/>Laden Sie dieses Formular herunter.<br/>[Neue Telefonnummernanforderung für Irland (v.5.0) (en-us).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> Füllen Sie das Feld aus, und [wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
+|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[LoA für Irland (alle Nummern) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>Füllen Sie das Formular aus, und [wenden Sie sich bezüglich Anweisungen an PTSN](contact-pstn-service-desk.md). <br/> |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie in Dienstnummern konvertieren möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenden Sie sich an [den PSTN Service Desk](contact-pstn-service-desk.md), um Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen hinzuzufügen oder zu ändern. |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

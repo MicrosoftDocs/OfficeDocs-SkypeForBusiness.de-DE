@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Verschaffen Sie sich einen Überblick über Portierungsaufträge und wie Sie Telefonnummern von Ihrem Dienstanbieter an Teams.
-ms.openlocfilehash: f30bdc825caf7feadbb09bd4bbe65a4d5771a6a6
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: a0d8884df95e153544e5d0108af8b23af7e464d59480350c7422bfdfdbb6e113
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276121"
 ---
 # <a name="whats-a-port-order"></a>Was ist ein Portierungsauftrag?
 
@@ -118,7 +118,7 @@ Hier finden Sie weitere Informationen zum Übermitteln von Nummernportierungsanf
   
 - **Telefon Nummern, die** von verschiedenen Netzbetreibern bereitgestellt werden, erfordern eine eindeutige Portierungsanforderung für Nummern bei jedem Netzbetreiber.
 
-- **Gebührenfreie** Nummern mit Vorwahlnummern wie 800, 844, 855, 866, 877 und 888 können in einer Nummernportierungsanforderung mit anderen Nummerntypen nicht enthalten sein. Um diese gebührenfreien Nummern zu portieren, müssen Sie [manuell einen Portierungsauftrag übermitteln.](manually-submit-port-order.md) Sie können diese Nummern nicht im Admin Center Microsoft Teams Portieren. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Gebührenfreie** Nummern mit Vorwahlnummern wie 800, 844, 855, 866, 877 und 888 können in einer Nummernportierungsanforderung mit anderen Nummerntypen nicht enthalten sein. Um diese gebührenfreien Nummern zu portieren, müssen Sie [manuell einen Portierungsauftrag übermitteln.](manually-submit-port-order.md) Sie können diese Nummern nicht im Admin Center Microsoft Teams Portieren. Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     Es ist wichtig, für das Land und die Art der Telefonnummern, die Sie portieren möchten, die richtige Genehmigungsschreiben (Letter of Authorization; LOA) zu verwenden. Sie können [den benötigten LOA hier herunterladen.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

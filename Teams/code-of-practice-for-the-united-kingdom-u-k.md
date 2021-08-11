@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Hier erfahren Sie den praktischen Praktischen für PSTN-Anrufpläne für Skype for Business Großbritannien, einschließlich Angaben, wo Sie Hilfe erhalten und wie Sie Beanstandungen einreichen und Streitigkeiten bei der Streitigkeiten klären können.
-ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689761"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306566"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Übungscode für Großbritannien (UK)
 
@@ -44,7 +44,7 @@ Wenn Sie Fragen zum Vertrieb, zur Abrechnung oder zum Technischen Support haben,
 
 Gebührenfreie Telefonnummer: 0800 032 6417
 
-Online: Melden Sie sich beim Microsoft 365 Admin Center an, und senden Sie eine Serviceanfrage, indem Sie unter Support die Option Neue **Serviceanfrage** **auswählen.**
+Online: Melden Sie sich bei der Microsoft 365 Admin Center und senden Sie eine Serviceanfrage, indem Sie unter Support die Option Neue **Serviceanfrage** **auswählen.**
 
 Die normalen Geschäftszeiten sind montags bis freitags von 9.00 Uhr bis 15.00 Uhr.
 

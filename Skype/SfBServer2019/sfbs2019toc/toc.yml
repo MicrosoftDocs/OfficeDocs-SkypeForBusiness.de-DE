@@ -1,4 +1,4 @@
-- name: "Skype for Business Server\_2019"
+- name: Skype for Business Server 2019
   href: ../skype-for-business-server-2019.yml
   items:
     - name: Neuigkeiten
@@ -220,7 +220,7 @@
                   href: ../../SfbHybrid/hybrid/plan-call-queue.md
                 - name: Konfigurieren von Ressourcenkonten
                   href: ../../SfbHybrid/hybrid/configure-onprem-ra.md
-        - name: "Plan zur Integration von Skype\_for\_Business und Exchange"
+        - name: Plan zur Integration von Skype for Business und Exchange
           href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Unified Messaging
@@ -342,7 +342,7 @@
           items:
             - name: Zuordnen eines Überwachungsspeichers
               href: ../../SfbServer/deploy/deploy-monitoring/associate-a-monitoring-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: "Installieren von SQL\_Server\_Reporting\_Services"
+            - name: Installieren von SQL Server Reporting Services
               href: ../../SfbServer/deploy/deploy-monitoring/install-sql-server-reporting-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Installieren von Überwachungsberichten
               href: ../../SfbServer/deploy/deploy-monitoring/install-monitoring-reports.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -1054,11 +1054,11 @@
           items:
             - name: Planen von Statistics Manager für Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/plan.md
-            - name: "Bereitstellen von Statistics\_Manager für Skype for Business Server"
+            - name: Bereitstellen von Statistics Manager für Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/deploy.md
-            - name: "Aktualisieren von Statistics\_Manager für Skype for Business Server"
+            - name: Aktualisieren von Statistics Manager für Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/upgrade.md
-            - name: "Behandeln von Problemen im Zusammenhang mit Statistics\_Manager für Skype for Business Server"
+            - name: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
               href: ../../SfbServer/management-tools/statistics-manager/troubleshoot.md
         - name: Verwalten von Skype for Business Server mithilfe von SCOM Management Packs
           href: ../tools/scom-management-pack-use-2019.md
@@ -1072,5 +1072,5 @@
               items:
                 - name: Testen von Benutzern und Einstellungen
                   href: ../tools/test-users-and-settings-2019.md
-        - name: "Skype\_for\_Business\_Server: Rechner zur Kapazitätsplanung"
+        - name: 'Skype for Business Server: Rechner zur Kapazitätsplanung'
           href: ../../SfbServer/management-tools/capacity-planning-calculator.md

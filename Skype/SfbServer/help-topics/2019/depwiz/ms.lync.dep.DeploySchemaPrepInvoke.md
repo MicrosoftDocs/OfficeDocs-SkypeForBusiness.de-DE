@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite "Befehle ausführen" wird eine Zusammenfassung der Befehle angezeigt, die zum Erweitern des Schemas für Skype for Business Server ausgegeben werden.
-ms.openlocfilehash: 2e9b2c059d0793c0bb4814840d8a249ba8c15486
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Auf der Seite "Befehle ausführen" wird eine Zusammenfassung der Befehle angezeigt, die ausgegeben werden, um das Schema für Skype for Business Server zu erweitern.
+ms.openlocfilehash: c76a9ea02a1212441518192906b47e7a73a35d95fbc4db247f48981a035f7e35
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307676"
 ---
 # <a name="prepare-schema-invoke"></a>Vorbereiten des Schemas (Aufruf)
  
-Auf **der Seite "Befehle** ausführen" wird eine Zusammenfassung der Befehle angezeigt, die zum Erweitern des Schemas für Skype for Business Server ausgegeben werden. Wenn die Aufgaben abgeschlossen sind, zeigt der Zusammenfassungsbereich an, ob die Aufgaben erfolgreich waren oder fehlgeschlagen sind. Überprüfen Sie den Zusammenfassungsbildschirm, und stellen Sie sicher, dass der **Vorgangsstatus:** Abgeschlossen im Zusammenfassungsbereich angezeigt wird. In der Dropdownliste unter dem Zusammenfassungsbereich können Sie die Protokolldatei "Schema vorbereiten" auswählen und anzeigen. Klicken **Sie auf "Protokoll anzeigen",** um die Protokolldatei zu überprüfen. Wenn während der Schemavorbereitung Fehler aufgetreten sind, werden die fehler, die bei der Aufgabe aufgetreten sind, hier protokolliert. Sie können dann Maßnahmen ergreifen, um fehler zu beheben und die Schemavorbereitung erneut ausführen.
+Auf der Seite **"Befehle ausführen"** wird eine Zusammenfassung der Befehle angezeigt, die ausgegeben werden, um das Schema für Skype for Business Server zu erweitern. Wenn die Aufgaben abgeschlossen sind, gibt der Zusammenfassungsbereich an, ob die Vorgänge erfolgreich waren oder ob sie fehlgeschlagen sind. Überprüfen Sie den Zusammenfassungsbildschirm, und stellen Sie sicher, dass der **Vorgangsstatus: Abgeschlossen** im Zusammenfassungsbereich angezeigt wird. In der Dropdownliste im Zusammenfassungsbereich können Sie die Protokolldatei "Schema vorbereiten" auswählen und anzeigen. Klicken Sie auf **Protokoll anzeigen,** um die Protokolldatei zu überprüfen. Wenn Sie während der Schemavorbereitung Fehler erhalten haben, werden die Fehler, auf die die Aufgabe gestoßen ist, hier protokolliert. Sie können dann Maßnahmen ergreifen, um jeden Fehler zu beheben und die Schemavorbereitung erneut auszuführen.
   
 Klicken Sie auf **Fertig stellen**, um die Aufgabe abzuschließen.
   

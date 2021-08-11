@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine Anforderung für einen Portierungsantrag manuell übermitteln.
-ms.openlocfilehash: 92b5754a78cb0949b2788b33000ecbfa5d1f2e53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13732092921951ee60749e91f4963942f31cb9c45211a0d66cbd9b6f688d220a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276141"
 ---
 # <a name="manually-submit-a-port-order"></a>Manuelles Übermitteln eines Portierungsauftrags
 

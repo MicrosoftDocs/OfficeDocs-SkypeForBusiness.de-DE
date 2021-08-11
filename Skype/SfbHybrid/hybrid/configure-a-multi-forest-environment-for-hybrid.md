@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: In den folgenden Abschnitten wird beschrieben, wie Sie eine Umgebung mit mehreren Gesamtstrukturen in einem Ressourcen-/Benutzergesamtstrukturmodell konfigurieren, um Funktionen in einem Hybridszenario bereitzustellen.
-ms.openlocfilehash: 84014d7564265de5c2fb87ef91deb0ba291ccff0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277450"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Bereitstellen einer Topologie mit Ressourcengesamtstruktur
 
@@ -47,11 +47,11 @@ Mehrere Benutzergesamtstrukturen werden unterstützt. Denken Sie dabei an Folgen
   
 ## <a name="user-homing-considerations"></a>Überlegungen zum Benutzer-Homing
 
-Skype for Business lokal verwalteten Benutzer können Exchange lokal oder online verwaltet haben. Teams Benutzer sollten Exchange Online für eine optimale Benutzererfahrung verwenden. Dies ist jedoch nicht erforderlich. Exchange lokal ist in beiden Fällen nicht erforderlich, um Skype for Business zu implementieren.
+Skype for Business lokal verwalteten Benutzer können Exchange lokal oder online verwaltet werden. Teams Benutzer sollten Exchange Online für eine optimale Benutzererfahrung verwenden. Dies ist jedoch nicht erforderlich. Exchange lokal ist in beiden Fällen nicht erforderlich, um Skype for Business zu implementieren.
   
 ## <a name="configure-forest-trusts"></a>Konfigurieren von Gesamtstrukturvertrauensstellungen
 
-In einer Ressourcengesamtstrukturtopologie müssen die Ressourcengesamtstrukturen, die Skype for Business Server hosten, jeder Kontogesamtstruktur vertrauen, die Benutzerkonten enthält, die darauf zugreifen. 
+In einer Topologie der Ressourcengesamtstruktur müssen die Ressourcengesamtstrukturen, die Skype for Business Server hosten, jeder Kontogesamtstruktur vertrauen, die Benutzerkonten enthält, die darauf zugreifen. 
 
 Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es wichtig, dass das Namenssuffixrouting für jede dieser Gesamtstrukturvertrauensstellungen aktiviert ist, um die gesamtstrukturübergreifende Authentifizierung zu aktivieren. Anweisungen finden Sie unter [Verwalten von Gesamtstrukturvertrauensstellungen.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)) 
 
@@ -59,7 +59,7 @@ Wenn Sie Exchange Server in einer anderen Gesamtstruktur bereitgestellt haben un
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchronisieren von Konten in der Gesamtstruktur, die Skype for Business
 
-Angenommen, Skype for Business Server in einer Gesamtstruktur (einer Ressourcengesamtstruktur) bereitgestellt wird, bietet benutzern jedoch Funktionen in einer oder mehreren anderen Gesamtstrukturen (Kontogesamtstrukturen). In diesem Fall müssen Benutzer in den anderen Gesamtstrukturen in der Gesamtstruktur, in der Skype for Business Server bereitgestellt wird, als deaktivierte Benutzerobjekte dargestellt werden.
+Angenommen, Skype for Business Server in einer Gesamtstruktur (einer Ressourcengesamtstruktur) bereitgestellt wird, bietet Benutzern jedoch Funktionen in einer oder mehreren anderen Gesamtstrukturen (Kontogesamtstrukturen). In diesem Fall müssen Benutzer in den anderen Gesamtstrukturen in der Gesamtstruktur, in der Skype for Business Server bereitgestellt wird, als deaktivierte Benutzerobjekte dargestellt werden.
 
 Sie müssen ein Identitätsverwaltungsprodukt wie Microsoft Identity Manager verwenden, um die Benutzer aus den Kontogesamtstrukturen in der Gesamtstruktur bereitzustellen und zu synchronisieren, in der Skype for Business Server bereitgestellt wird. Benutzer müssen in der Gesamtstruktur synchronisiert werden, die Skype for Business Server als deaktivierte Benutzerobjekte hostet. Benutzer können nicht als Active Directory-Kontaktobjekte synchronisiert werden, da Azure Active Directory Verbinden Kontakte für die Verwendung mit Skype nicht ordnungsgemäß mit Azure AD synchronisieren.
   
@@ -108,17 +108,17 @@ Nach der Bereitstellung müssen Sie die Anspruchsregel so bearbeiten, dass sie d
   
 ## <a name="configure-aad-connect"></a>Konfigurieren von AAD-Verbinden
 
-In Ressourcengesamtstrukturtopologien ist es erforderlich, dass Benutzerattribute aus der Ressourcengesamtstruktur und allen Kontogesamtstrukturen in Azure AD synchronisiert werden. Microsoft empfiehlt, dass Azure AD Verbinden Benutzeridentitäten aus *allen* Gesamtstrukturen synchronisieren und zusammenführen, die Benutzerkonten aktiviert haben, und der Gesamtstruktur, die Skype for Business enthält. Ausführliche Informationen finden Sie unter [Konfigurieren von Azure AD-Verbinden für Skype for Business und Teams.](configure-azure-ad-connect.md)
+In Ressourcengesamtstrukturtopologien ist es erforderlich, dass Benutzerattribute aus der Ressourcengesamtstruktur und allen Kontogesamtstrukturen in Azure AD synchronisiert werden. Microsoft empfiehlt, dass Azure AD Verbinden Benutzeridentitäten aus *allen* Gesamtstrukturen synchronisieren und zusammenführen, die Benutzerkonten und die Gesamtstruktur aktiviert haben, die Skype for Business enthält. Ausführliche Informationen finden Sie unter [Konfigurieren von Azure AD-Verbinden für Skype for Business und Teams.](configure-azure-ad-connect.md)
 
-Beachten Sie, dass Azure AD Verbinden keine lokale Synchronisierung zwischen dem Konto und den Ressourcengesamtstrukturen bereitstellt. Dies muss mithilfe von Microsoft Identity Manager oder einem ähnlichen Produkt konfiguriert werden, wie weiter oben beschrieben.
+Beachten Sie, dass Azure AD Verbinden keine lokale Synchronisierung zwischen dem Konto und den Ressourcengesamtstrukturen bereitstellt. Dies muss mithilfe von Microsoft Identity Manager oder einem ähnlichen Produkt konfiguriert werden, wie zuvor beschrieben.
   
-Wenn Sie ein Objekt im Metaverse betrachten und Azure AD Verbinden zusammengeführt wird, sollte folgendes angezeigt werden: 
+Wenn Sie fertig sind und Azure AD Verbinden zusammengeführt wird, sollten Sie, wenn Sie sich ein Objekt im Metaverse ansehen, folgendeRmaßen aussehen: 
   
 ![Metaverse-Objektbildschirm mit mehreren Gesamtstrukturen](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 Die grün hervorgehobenen Attribute wurden aus Microsoft 365 zusammengeführt, die gelben aus der Benutzergesamtstruktur und die blau aus der Ressourcengesamtstruktur. 
   
-In diesem Beispiel hat Azure AD Verbinden den sourceAnchor und den cloudSourceAnchor vom Benutzer und die Ressourcengesamtstrukturobjekte aus Microsoft 365 identifiziert, in diesem Fall 1101 – die zuvor ausgewählte EmployeeNumber. Azure AD Verbinden konnte dieses Objekt in dem zusammengeführt werden, was oben angezeigt wird. 
+In diesem Beispiel hat Azure AD Verbinden die sourceAnchor- und cloudSourceAnchor-Objekte des Benutzers und die Ressourcengesamtstrukturobjekte aus Microsoft 365 identifiziert, in diesem Fall 1101 – die zuvor ausgewählte EmployeeNumber. Azure AD Verbinden konnten sie dieses Objekt in dem, was Sie oben sehen, zusammenführen. 
   
 Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Verzeichnisse in Azure Active Directory.](/azure/active-directory/hybrid/whatis-hybrid-identity) 
   
@@ -132,7 +132,7 @@ Azure AD-Verbinden sollten mithilfe der Standardwerte installiert werden, mit Au
     
 4. Identifizieren von Benutzern in Azure AD: Quellanker: Wählen Sie das Attribut aus, das Sie nach dem Lesen [eines guten sourceAnchor-Attributs](/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute)ausgewählt haben, Benutzerprinzipalname - **userPrincipalName**.
     
-5.  Optionale Features: Wählen Sie aus, ob Sie Exchange Hybrid bereitgestellt haben.
+5.  Optionale Features: Wählen Sie aus, ob Sie Exchange hybrid bereitgestellt haben.
     
     > [!NOTE]
     >  Wenn Sie nur Exchange Online haben, kann ein Problem mit OAuth-Fehlern während der AutoErmittlung aufgrund der CNAME-Umleitung auftreten. Um dies zu beheben, müssen Sie die Exchange AutoErmittlungs-URL festlegen, indem Sie das folgende Cmdlet aus der Skype for Business Server Verwaltungsshell ausführen:
@@ -141,7 +141,7 @@ Azure AD-Verbinden sollten mithilfe der Standardwerte installiert werden, mit Au
     > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
     > ```
     
-6.  AD FS-Farm: Wählen Sie **eine vorhandene Windows Server 2012 R2 AD FS-Farm** aus, und geben Sie den Namen des AD FS-Servers ein.
+6.  AD FS-Farm: Wählen Sie **eine vorhandene Windows Server 2012 R2 AD FS-Farm** verwenden aus, und geben Sie den Namen des AD FS-Servers ein.
     
 7.  Schließen Sie den Assistenten ab, und führen Sie die erforderlichen Überprüfungen durch.
     

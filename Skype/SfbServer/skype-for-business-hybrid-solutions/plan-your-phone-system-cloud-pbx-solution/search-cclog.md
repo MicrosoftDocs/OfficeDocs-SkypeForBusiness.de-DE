@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
-description: Das Cmdlet „Search-CcLog“ durchsucht die Listen für ein- und ausgehende Anrufe im Protokollverzeichnis der Skype for Business Cloud Connector Edition-Appliance.
-ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das Cmdlet Search-CcLog durchsucht die Protokolle für ein- und ausgehende Anrufe im Protokollverzeichnis der Skype for Business Cloud Connector Edition Appliance.
+ms.openlocfilehash: 5fd062295ac9145660ca9a53f56973f77783cd9730993d958c7348b7761c4387
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306606"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
-Das Cmdlet „Search-CcLog“ durchsucht die Listen für ein- und ausgehende Anrufe im Protokollverzeichnis der Skype for Business Cloud Connector Edition-Appliance.
+Das Cmdlet Search-CcLog durchsucht die Protokolle für ein- und ausgehende Anrufe im Protokollverzeichnis der Skype for Business Cloud Connector Edition Appliance.
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
@@ -31,17 +31,17 @@ Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <str
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel werden die Listen für ein- und ausgehende Anrufe im Protokollverzeichnis der Appliance mithilfe des Standarddateinamens durchsucht:
+Im folgenden Beispiel werden die Protokolle für ein- und ausgehende Anrufe im Appliance-Protokollverzeichnis mithilfe des Standarddateinamens durchsucht:
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
-### <a name="example-2"></a>Beispiel 2
+### <a name="example-2"></a>Beispiel 2
 
-Im nächsten Beispiel werden die Listen für ein- und ausgehende Anrufe mithilfe des angegebenen Dateipfads und Namens durchsucht:
+Im nächsten Beispiel werden die Protokolle für ein- und ausgehende Anrufe mithilfe des angegebenen Dateipfads und -namens durchsucht:
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
@@ -50,21 +50,21 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Cmdlet  Search-CsClsLogging bietet eine Befehlszeilenoption zum Durchsuchen der vom zentralisierten Protokollierungsdienst erstellten Protokolldateien.
+Das Cmdlet "Search-CsClsLogging" bietet eine Befehlszeilenoption zum Durchsuchen der vom zentralisierten Protokollierungsdienst erstellten Protokolldateien.
   
 ## <a name="parameters"></a>Parameter
 <a name="DetailedDescription"> </a>
 
-|**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
+|**Parameter**|**Required**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|StartTime  <br/> | Erforderlich <br/> |System.Datetime  <br/> |  Anfangszeitpunkt (Datum und Uhrzeit) für die zu durchsuchenden Protokolleinträge. Wird in der lokalen Zeitzone angegeben. <br/> |
-|EndTime  <br/> |Erforderlich  <br/> |System.Datetime  <br/> |Endzeitpunkt (Datum und Uhrzeit) für die zu durchsuchenden Protokolleinträge. Wird in der lokalen Zeitzone angegeben.  <br/> |
-|FileName  <br/> | Erforderlich  <br/> |System.String  <br/> |Gibt den vollständigen Pfad der Textdatei mit den Suchergebnissen an.  <br/> |
+|StartTime  <br/> | Erforderlich <br/> |System.Datetime  <br/> | Anfangsdatum und -uhrzeit für die zu durchsuchenden Protokolleinträge. Angegeben in der lokalen Zeitzone. <br/> |
+|EndTime  <br/> |Erforderlich  <br/> |System.Datetime  <br/> |Enddatum und -uhrzeit für die zu durchsuchenden Protokolleinträge. Angegeben in der lokalen Zeitzone.  <br/> |
+|FileName  <br/> |Erforderlich  <br/> |System.String  <br/> |Gibt den vollständigen Pfad der Textdatei an, die die Suchergebnisse enthält.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Search-CcLog“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Search-CcLog akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

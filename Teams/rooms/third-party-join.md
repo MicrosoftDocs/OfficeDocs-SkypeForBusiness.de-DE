@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Ihre Organisation und Ihre Teams-Räume für die Teilnahme an Cisco WebEx und Zoom unterstützen.
-ms.openlocfilehash: ef14d1f342c6f2b34ad7c948a2688fa39a09801d
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 9857c4dee31c02c96212ccead33408b9e55b989de5b00d1d38aa975dc0413aab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275931"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Aktivieren Teams Raumgeräten für die Teilnahme an Besprechungen von Drittanbietern
 
@@ -56,19 +56,19 @@ Weitere Informationen zu [Exchange Online PowerShell.](/powershell/exchange/exch
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Schritt 2: Konfigurieren Office 365 Threat Protection und Neuschreibung von Links
 
-Um die Teilnahme mit nur einer Touch-Touch-Verbindung zu ermöglichen, müssen die Linkinformationen der Drittanbieter-Besprechung in der Besprechungs-Einladung vorhanden und lesbar sein. Wenn Ihre Organisation das [Office 365 Advanced Threat Protection-Feature](/microsoft-365/security/office-365-security/atp-safe-links) für sichere Links verwendet, oder wenn Sie eine Drittanbieterlösung verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen überprüft, kann dies die Teilnahme-URLs der Besprechung ändern und dafür sorgen, dass die Besprechung auf dem Teams-Räume-Gerät nicht mehr zu erkennen ist. Um sicherzustellen, dass dies nicht geschieht, müssen Sie die URLs des Drittanbieter-Besprechungsdiensts zur Liste "Nicht umschreiben" für sichere ATP-Links oder zur URL-Neuschreibung der Drittanbieter-Ausnahmeliste hinzufügen.
+Um die Teilnahme mit nur einer Touch-Touch-Verbindung zu ermöglichen, müssen die Linkinformationen der Drittanbieter-Besprechung in der Besprechungs-Einladung vorhanden und lesbar sein. Wenn Ihre Organisation das Feature [Office 365 Advanced Threat Protection Tresor Links](/microsoft-365/security/office-365-security/atp-safe-links) verwendet, oder wenn Sie eine Drittanbieterlösung verwenden, die alle eingehenden und ausgehenden URLs auf Bedrohungen überprüft, kann dies die Teilnahme-URLs der Besprechung ändern und dafür sorgen, dass die Besprechung auf dem Teams-Räume-Gerät nicht mehr Teams-Räume kann. Um sicherzustellen, dass dies nicht geschieht, müssen Sie die URLs des Drittanbieter-Besprechungsdiensts zur ATP-Liste Tresor Links "Nicht neu schreiben" oder zur URL-Neuschreibungsliste des Drittanbieters hinzufügen.
 
-Um der "Nicht umschreiben"-Liste für sichere ATP-Links URLs von Drittanbietern für Besprechungsdienst hinzuzufügen, führen Sie die Schritte unter Einrichten einer benutzerdefinierten Liste "Nicht umschreiben-URLs" mit dem [ATP-Code](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)für sichere Links aus. Wenn Sie eine Drittanbieterlösung verwenden, lesen Sie die Anweisungen für diese Lösung, um der URL-Neuschreibungsausnahmeliste URLs hinzuzufügen.
+Führen Sie die Schritte unter Einrichten einer benutzerdefinierten Liste "Nicht umschreiben-URLs mit AT Tresor P-Tresor-Links" aus, um der LISTE "NICHT umschreiben"-LINKS [DRITTANBIETER-BESPRECHUNGsdienst-URLs hinzuzufügen.](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Wenn Sie eine Drittanbieterlösung verwenden, lesen Sie die Anweisungen für diese Lösung, um der URL-Neuschreibungsausnahmeliste URLs hinzuzufügen.
 
-Im Folgenden finden Sie einige Beispieleinträge, die Sie möglicherweise Ihrer "Nicht umschreiben"-Liste sicherer ATP-Links oder der URL-Neuschreibungsausnahmeliste von Drittanbietern hinzufügen müssen:
+Im Folgenden finden Sie einige Beispieleinträge, die Sie Ihrer ATP-Liste Tresor Links "Nicht umschreiben" oder URL-Neuschreibung der Drittanbieter-URL hinzufügen müssen:
 
 - **Cisco WebEx**`*.webex.com*`
 - **Zoomen** `*.zoom.us*` , `*.zoom.com*` , `*.zoomgov.com*`
 
-Wenn Sie eine vollständige Liste der URLs, die Sie Ihrer "Nicht umschreiben"-Liste für sichere ATP-Links hinzufügen möchten, oder die URL-Neuschreibung der URL von Drittanbietern erhalten möchten, wenden Sie sich an den Drittanbieter für Besprechungsdienste, von dem Sie Besprechungs-Einladungen annehmen möchten. 
+Wenn Sie eine vollständige Liste der URLs, die Sie Zu Ihrer ATP-Liste hinzufügen Tresor Links "Nicht umschreiben"- oder URL-Neuschreibungsliste von Drittanbietern erhalten möchten, wenden Sie sich an den Drittanbieter für Besprechungsdienste, von dem Sie Besprechungs-Einladungen annehmen möchten. 
 
 > [!CAUTION]
-> Fügen Sie nur URLs, die Sie vertrauenswürdig sind, Ihrer "Nicht umschreiben"-Liste für sichere ATP-Links oder der URL-Neuschreibung der Ausnahmeliste von Drittanbietern hinzu.
+> Fügen Sie Ihrer ATP-Liste nur URLs hinzu, Tresor Links "Nicht umschreiben"- oder URL-Neuschreibung der Drittanbieter-Ausnahmeliste.
 
 ## <a name="step-3-enable-third-party-meetings-on-device"></a>Schritt 3: Aktivieren von Drittanbieterbesprechungen auf einem Gerät
 

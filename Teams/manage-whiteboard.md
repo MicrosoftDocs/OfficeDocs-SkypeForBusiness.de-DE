@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85e78480aec97ef9a498028d715fc898858d2606
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 1e7b9e659a933576f552bd5e25e2d1a5d4b9ccde1e47b2838bd55da107979915
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276391"
 ---
 # <a name="manage-the-whiteboard-in-microsoft-teams"></a>Verwalten des Whiteboards in Microsoft Teams
 

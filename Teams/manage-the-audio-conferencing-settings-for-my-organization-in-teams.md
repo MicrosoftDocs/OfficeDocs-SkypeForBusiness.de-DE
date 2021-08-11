@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Lesen Microsoft Teams Schritte zum Zuweisen einer Lizenz für Einwahlkonferenzen und einer Konferenz-ID zu einem Benutzer und vielen anderen Einstellungen für Einwahlkonferenzen. '
-ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276411"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Verwalten der Audiokonferenz-Einstellungen für Ihre Organisation in Microsoft Teams.
 
@@ -40,13 +40,13 @@ Möglicherweise ist es für Sie einfacher, alle Audiokonferenzeinstellungen für
 ## <a name="assign-an-audio-conferencing-license"></a>Zuweisen einer Lizenz für Audiokonferenzen
 
 > [!NOTE]
-> Sie können keine Lizenzen mithilfe von Teams. Sie müssen das Microsoft 365 Admin Center verwenden. Weitere [Informationen finden Microsoft Teams Zuweisen von Add-On-Lizenzen.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> Sie können keine Lizenzen mithilfe von Teams. Sie müssen die Microsoft 365 Admin Center. Weitere [Informationen finden Microsoft Teams Zuweisen von Add-On-Lizenzen.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **So weisen Sie einem Benutzer eine Lizenz zu**
   
 1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Microsoft 365 an.
     
-2. Navigieren Sie in der linken Navigationsleiste **des Microsoft 365 Admin Center** zu Benutzer aktive Benutzer , und wählen Sie dann den oder die Benutzer aus der Liste der   >  verfügbaren Benutzer aus.
+2. Navigieren Sie im linken Navigationsbereich **Microsoft 365 Admin Center** zu Benutzer aktive Benutzer , und wählen Sie dann den oder die Benutzer in der Liste  >  der verfügbaren Benutzer aus.
     
     > [!NOTE]
     > Wenn Sie Lizenzen für bis zu 20 Benutzer gleichzeitig zuweisen, können Sie eine der Optionen in der Dropdownliste **Ansicht auswählen** auswählen oder eine eigene Ansicht erstellen. Klicken Sie dann auf **Bearbeiten** und zweimal auf **Weiter**, wählen Sie die Lizenz aus, und klicken Sie auf **Übermitteln**.  

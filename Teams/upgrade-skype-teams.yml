@@ -88,8 +88,8 @@ additionalContent:
   sections:
     - title: Benötigen Sie weitere Hilfe?
     - items:
-        - title: Engage FastTrack for deployment assistance
-          summary: 'Wenn Teams mehr beteiligte Unterstützung benötigen, können Kunden mit berechtigten Abonnements FastTrack als Support einholen.'
+        - title: 'Engagement FastTrack, um Bereitstellungsunterstützung zu erhalten'
+          summary: 'Wenn Teams für Bereitstellungsprojekte mehr Beteiligte Unterstützung benötigen, können Kunden mit berechtigten Abonnements Unterstützung FastTrack für den Support ein.'
           url: 'https://www.microsoft.com/fasttrack'
         - title: Suchen eines Microsoft-Partners
           summary: Benötigen Sie weitere Anleitungen? Microsoft-Lösungsanbieter können Sie bei der Verwaltung der technischen und Logistik Ihres Upgrades unterstützen.

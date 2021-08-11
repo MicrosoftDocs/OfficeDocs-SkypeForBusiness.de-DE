@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0262d50ec74bfdb2934ced0d17eb015f742a9fbc1ec2d093a2f936e91c61edd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306477"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
@@ -35,6 +35,6 @@ Mit Teams Lehrkräften können Lehrkräfte gemeinsame Kursräume erstellen, sich
 | ------------- | ------------- |
 | ![Screenshot des Nach-rechts-Pfeilsymbols](../media/arrow-right-2-teams.svg)  |  [Schnellstart – Administratoren von Microsoft Teams Education](../teams-quick-start-edu.yml) |
 | ![Screenshot des Papier- und Bleistiftsymbols](../media/sign-up-teams.svg) | [Aufgaben in Teams für Bildungseinrichtungen](./assignments-in-teams.md) |
-| ![Screenshot des Insights-Symbols](../media/insights-teams.svg) | [Einblicke in Teams for Education](../class-insights.md) |
-| ![Screenshot des Toolboxsymbols](../media/toolbox.svg)  |  [Ressourcen für Teams education-Administratoren](../resources-teams-edu.md) |
-| ![Screenshot des Checklistensymbols](../media/task-checklist-planning-teams.svg)  |  [Häufig gestellte Fragen zur Governance Teams für Administratoren von Bildungseinrichtungen](../plan-teams-governance-edu.md) |
+| ![Screenshot des Insights-Symbols](../media/insights-teams.svg) | [Insights in Teams für Education](../class-insights.md) |
+| ![Screenshot des Toolboxsymbols](../media/toolbox.svg)  |  [Ressourcen für Teams für Education Administratoren](../resources-teams-edu.md) |
+| ![Screenshot des Checklistensymbols](../media/task-checklist-planning-teams.svg)  |  [Häufig gestellte Fragen zur Governance Teams für Education Administratoren](../plan-teams-governance-edu.md) |

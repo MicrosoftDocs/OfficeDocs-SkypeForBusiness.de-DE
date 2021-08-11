@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d43d650384dd538ff481ac9625c15b9a9f420d95
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dda26fafd48c56c11e2d6e085a1932a00307c64e96996bc30f22faaa80ed5639
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306387"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Aktivieren des standortbasierten Routings für direktes Routing
 
@@ -81,7 +81,7 @@ Weitere Informationen finden Sie unter [Aufrufen von Richtlinien in Teams.](team
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage <usages> 
     ```
-    Beispiel:
+    Zum Beispiel:
     ```PowerShell
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren Power BI Connector für die Verwendung von Abfragevorlagen für das Anrufqualitätsdashboard (CQD)
-ms.openlocfilehash: 26229c59fc666afbc6bcdade67050e1e9b536ea6
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689803"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799056"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installieren des Microsoft Call Quality Connectors für Power BI Verwenden von Abfragevorlagen für das Anrufqualitätsdashboard
 
@@ -85,6 +85,9 @@ Nach Abschluss der Einrichtung sollten die Namen mehrerer hundert Dimensionen un
 3. Wählen Sie als Nächstes alle Dimensionen aus,  nach die Sie filtern möchten, und ziehen Sie sie in das Feld Filter für dieses visuelle Feld im *Bereich Filter.* Der Microsoft-Connector für die Anrufqualität unterstützt derzeit Standardfilterung *(Wählen* Sie Werte aus einer Liste möglicher Dimensionswerte *aus),* Erweiterte Filterung (manuelle Angabe  von Werten und Operanden zum Filtern, ähnlich wie anrufqualitätsdashboard) und *Relative* Datumsfilterung (nur für die Dimensionen Endzeit und Startzeit verfügbar).  Das Filtern nach *Top N* wird vom Anrufqualitätsdashboard nicht unterstützt.
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector5-resize.png)
+
+    > [!IMPORTANT]
+    > Filter werden nur unterstützt, wenn sie auf Dimensionen angewendet werden. Das Filtern nach den Werten der Messwerte wird im Anrufqualitätsdashboard nicht unterstützt.
 
 4. Wählen Sie schließlich im  Bereich *Visualisierungen* die Registerkarte Format aus, um Ihre Abfrage zu formatieren und zu formatieren.
 

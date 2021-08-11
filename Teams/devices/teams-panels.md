@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von ihren Panels unterstützten Microsoft Teams Features.
-ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fcb482303eb82990936ee090be6d8d78146f57c1f9ba78f967803bd3f37a599b
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102141"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591119"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams-Panels
 
@@ -48,7 +48,7 @@ Weitere Informationen zu diesen Features und deren Verwendung finden Sie unter V
 Sie können Ihre Teams-Panels von einem der folgenden Partner erwerben:
 
 - Crestron
-- (In Kürze folgen) Yealink
+- Yealink
 
 ## <a name="teams-panels-requirements"></a>Teams von Panels
 
@@ -105,7 +105,7 @@ Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Hauptbere
 
 Jedes Teams-Panels erfordert ein Microsoft 365-Konto für Raumressourcen. Mit den Anmeldeinformationen für das Ressourcenkonto melden Sie sich auf dem Microsoft Teams-App an.
 
-Zum Einrichten eines Microsoft 365-Ressourcenkontos für Teams-Panels empfehlen wir den Kauf einer Microsoft Teams-Räume [Standard-Lizenz.](#license-requirement) Informationen zum Erstellen eines Ressourcenkontos und zuweisen einer Lizenz finden Sie unter Erstellen eines Ressourcenkontos mit dem Microsoft 365 [Admin Center.](resource-account-ui.md)
+Zum Einrichten eines Microsoft 365-Ressourcenkontos für Teams-Panels empfehlen wir den Kauf einer Microsoft Teams-Räume [Standard-Lizenz.](#license-requirement) Informationen zum Erstellen eines Ressourcenkontos und zuweisen einer Lizenz finden Sie unter Erstellen eines Ressourcenkontos mit [Microsoft 365 Admin Center.](resource-account-ui.md)
 
 > [!NOTE]
 >
