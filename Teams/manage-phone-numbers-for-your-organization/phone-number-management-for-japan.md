@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Japan für Microsoft Teams.
-ms.openlocfilehash: 68bb6a33741c1508765c0808b69934073e220445
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 2d4d64232d0422a4ff0c2857f10cf7f2dbb2ea6fb9b2f0a258dc06fb1a7a5263
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293792"
 ---
 # <a name="phone-number-management-for-japan"></a>Telefon der Nummerverwaltung für Japan
 
@@ -44,7 +44,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |Übertragen Sie Telefonnummern an andere Microsoft 365 oder Office 365 **anrufwarteschlangen** in Japan.|Wenden Sie sich an [SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) um Servicenummern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.|
 |Ändern Sie die Notfalladresse, die Benutzern zugewiesen ist, die über eine Anrufplan-Telefonnummer verfügen.|Wenden Sie sich an [SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) um Änderungen an der Notfalladresse vorzunehmen. Telstra kann diese Informationen für Sie aktualisieren.|
 |Ändern Sie eine Benutzernummer in eine Dienstnummer. |Bei Verwendung von SoftBank Calling wird derzeit nicht unterstützt.|
-|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenden Sie sich an [den PSTN Service Desk](contact-pstn-service-desk.md), um Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen hinzuzufügen oder zu ändern. |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

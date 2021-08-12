@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Pakistan verfügbar.
-ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 26b37d3b1120aea14ca06b44f2282a065ee4ff1bf76dd171f666b9e6cf733c62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284376"
 ---
 # <a name="availability-in-pakistan"></a>Verfügbarkeit in Pakistan
 

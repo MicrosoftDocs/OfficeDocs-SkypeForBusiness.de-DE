@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um die Remote-Mitarbeitern in Ihrer behördlichen Organisation dabei zu unterstützen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (Work from home – WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e132251623de86ad9635b03b13b9eb6dbc0aed40752fb916fcff23b9fd4ede1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284116"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Unterstützung von Remote-Mitarbeitern von Behörden in Microsoft Teams
 

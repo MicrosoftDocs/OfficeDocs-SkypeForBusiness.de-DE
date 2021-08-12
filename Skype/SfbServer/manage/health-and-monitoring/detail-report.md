@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Zusammenfassung: Erfahren Sie mehr über den detaillierten Konferenzbericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 245691fcb304a872942be4d5a9aabe8183b4db14
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den in Skype for Business Server verwendeten Konferenzdetailbericht.'
+ms.openlocfilehash: 5da5c703916cb1f8ac24624efa14c5a65cec5cdd7b3d45da5d13ce8ac00fbfcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328120"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Detaillierter Konferenzbericht in Skype for Business Server
 
-**Zusammenfassung:** Erfahren Sie mehr über den detaillierten Konferenzbericht, der in Skype for Business Server verwendet wird.
+**Zusammenfassung:** Erfahren Sie mehr über den in Skype for Business Server verwendeten Konferenzdetailbericht.
 
 Der detaillierte Konferenzbericht enthält ausführliche Informationen zu allen Benutzern, die an einer Konferenz teilgenommen haben. Sie können beispielsweise Informationen wie Datum und Uhrzeit, an dem bzw. zu der ein Benutzer einer Konferenz beigetreten ist und die Konferenz verlassen hat, sowie den Benutzer-Agent des Endpunkts anzeigen, mit dem der Benutzer mit der Konferenz verbunden wurde. Darüber hinaus können Sie Informationen zu der Rolle des Benutzers in den einzelnen Konferenzen (z. B. Referent oder Teilnehmer) anzeigen. Der vielleicht wichtigste Aspekt ist, dass Sie auf einen Blick erkennen können, welche Benutzer der Konferenz erfolgreich beigetreten und sie abgeschlossen haben und welche Benutzer der Konferenz nicht beitreten konnten und sie daher nicht abgeschlossen haben.
 
@@ -62,21 +62,21 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zur Konferen
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**Benutzer** <br/> |SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.  <br/> |
+|**Benutzende** <br/> |SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.  <br/> |
 |**Rolle** <br/> |Rolle (z. B. Referent) des Konferenzteilnehmers.  <br/> |
 |**Konnektivität** <br/> |Netzwerkverbindungen (in der Regel "From Internal" oder "From External") des Teilnehmers.  <br/> |
 |**Zeitpunkt des Beitritts** <br/> |Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer der Konferenz beigetreten ist.  <br/> |
 |**Zeitpunkt der Beendigung** <br/> |Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer die Konferenz verlassen hat.  <br/> |
-|**Benutzer-Agent** <br/> |Bezeichner für die Software, die vom Endpunkt des Teilnehmers verwendet wird.  <br/> |
+|**Benutzer-Agent** <br/> |Bezeichner für die vom Endpunkt des Teilnehmers verwendete Software.  <br/> |
 |**Diagnoseberichte** <br/> |Enthält Diagnose- und Problembehandlungsinformationen, einschließlich SIP-Antwortcodes, Diagnoseheader, Zeitpunkt des Konferenzbeitritts und Diagnose-IDs für fehlgeschlagene Sitzungen.  <br/> |
 
-In der folgenden Tabelle sind die Informationen aufgeführt, die im Abschnitt "Konferenzmodalitäten" des Detaillierten Konferenzberichts angegeben werden.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Abschnitt "Konferenzmodalitäten" des Detaillierten Konferenzberichts enthalten sind.
 
 **Konferenzmodalitäten – Metriken**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**Benutzer** <br/> |SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.  <br/> |
+|**Benutzende** <br/> |SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.  <br/> |
 |**Zeitpunkt des Beitritts** <br/> |Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer der Konferenz beigetreten ist.  <br/> |
 |**Zeitpunkt der Beendigung** <br/> |Datum und Uhrzeit, an dem bzw. zu der ein Teilnehmer die Konferenz verlassen hat.  <br/> |
 |**Konferenzserver-URI** <br/> |URI für den in der Konferenz verwendeten Konferenzserver.  <br/> |

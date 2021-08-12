@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: Lesen Sie den Einführungsbildschirm, um Dienste auf dem Skype for Business Server-Rollenserver zu starten, den Sie bereitstellen. Beachten Sie, dass die Befehle zum Starten von Skype for Business Server nicht auf den Start des Diensts warten. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf Weiter, um die Aufgabe Dienste starten zu starten.
-ms.openlocfilehash: 0a74a7bf02ec03098c7c8f6449ce17961d1cd665
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Um Dienste auf dem Skype for Business Server Rollenserver zu starten, den Sie bereitstellen, überprüfen Sie den Einführungsbildschirm. Beachten Sie, dass die Befehle, die zum Starten des Skype for Business Server ausgegeben wurden, nicht warten, bis der Dienst gestartet wird. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf Weiter, um die Aufgabe Dienste starten zu starten.
+ms.openlocfilehash: 11c407602fe351b79ec90ceb59b88a940238a3beb9f10fdde69587d7dd803e63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294762"
 ---
 # <a name="startservices-intro"></a>Starten von Diensten (Einführung)
  
-Lesen Sie den Einführungsbildschirm, um Dienste auf dem Skype for Business Server-Rollenserver zu starten, den Sie bereitstellen. Beachten Sie, dass die Befehle zum Starten von Skype for Business Server nicht auf den Start des Diensts warten. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf **Weiter**, um die Aufgabe **Dienste starten** zu starten.
+Um Dienste auf dem Skype for Business Server Rollenserver zu starten, den Sie bereitstellen, überprüfen Sie den Einführungsbildschirm. Beachten Sie, dass die Befehle, die zum Starten des Skype for Business Server ausgegeben wurden, nicht warten, bis der Dienst gestartet wird. Überwachen Sie den tatsächlichen Status gestarteter Dienste in der Windows-MMC (Microsoft Management Console) "Dienste". Klicken Sie auf **Weiter**, um die Aufgabe **Dienste starten** zu starten.
   
 

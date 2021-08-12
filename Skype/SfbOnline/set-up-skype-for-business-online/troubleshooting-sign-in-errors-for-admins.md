@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie mehr über die Ursachen für Skype for Business Online-Anmeldefehler und die Problembehandlung. '
-ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1fdb764f9557e9c5b759b50cadf2650a6af75dc1dc262ff45648360807436881
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303349"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Problembehandlung bei Skype for Business Online-Anmeldefehlern für Administratoren
 
@@ -137,7 +137,7 @@ Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 25667
 
 Führen Sie die folgenden Schritte aus, um ein SSL-Zertifikat eines Drittanbieters auf Ihrem ADFS-Server (Active Domain Federation Services) zu installieren:
 
-1. Fordern Sie von einer Drittanbieter-Zertifizierungsstelle (z. B. VeriSign oder Thawte) ein SSL-Zertifikat an.
+1. Fordern Sie von einer Drittanbieter-Zertifizierungsstelle (z. B. VeriSign oder Thawte) ein SSL-Zertifikat an.
 
 2. Installieren Sie das Zertifikat auf Ihrem ADFS-Server mithilfe der ADFS-Verwaltungskonsole.
 
@@ -172,7 +172,7 @@ Wenn sich der Benutzer nach dem Aktualisieren seiner Anmeldeinformationen immer 
 
 2. Aktivieren Sie bei Bedarf die Option **Versteckte Dateien anzeigen**.
 
-3. Geben Sie die folgende Zeichenfolge in der Adressleiste des Datei-Explorers ein: **C:\\Dokumente und Einstellungen\\Benutzername\\Anwendungsdaten\\Microsoft\\Crypto\\RSA**, wobei der **_Benutzername_** Ihr Windows-Anmeldename ist.
+3. Geben Sie die folgende Zeichenfolge in der Adressleiste des Datei-Explorers ein: **C:\\Dokumente und Einstellungen\\Benutzername\\Anwendungsdaten\\Microsoft\\Crypto\\RSA**, wobei der **_Benutzername_** Ihr Windows-Anmeldename ist.
 
 4. Löschen Sie alle Ordner, deren Namen mit **S-1-5-21-** beginnen (gefolgt von einer Zahlenfolge).
 
@@ -181,7 +181,7 @@ Wenn sich der Benutzer nach dem Aktualisieren seiner Anmeldeinformationen immer 
 
 Wenn sich ein Benutzer zum ersten Mal anmeldet, wird möglicherweise ein Dialogfeld angezeigt, das eine Meldung wie die Folgende enthält: **Es kann nicht überprüft werden, ob der Server für Ihre Anmeldeadresse als vertrauenswürdig eingestuft ist. Verbindung dennoch herstellen?** Hierbei handelt es sich um ein Sicherheitsfeature und nicht um einen Fehler. Sie können jedoch verhindern, dass das Dialogfeld angezeigt wird, indem Sie ein Gruppenrichtlinienobjekt (Group Policy Object, GPO) verwenden, um die Computer der Benutzer mit Ihrem Domänennamen zu aktualisieren, bevor Sie sich zum ersten Mal anmelden. Führen Sie dazu die folgenden Schritte aus:
 
-- Erstellen Sie ein GPO, mit dem Ihr Skype for Business-Domänenname, z. B. domainName.contoso.com, an den aktuellen Wert von „HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData angehängt wird, und implementieren Sie es.
+- Erstellen Sie ein GPO, mit dem Ihr Skype for Business-Domänenname, z. B. domainName.contoso.com, an den aktuellen Wert von „HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData angehängt wird, und implementieren Sie es.
 
 > [!IMPORTANT]
 >  Sie müssen Ihren Domänennamen an den vorhandenen Wert *anhängen*; Sie können den Wert nicht einfach ersetzen.

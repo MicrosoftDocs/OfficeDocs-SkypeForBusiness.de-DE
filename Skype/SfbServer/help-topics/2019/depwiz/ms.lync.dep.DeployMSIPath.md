@@ -1,5 +1,5 @@
 ---
-title: Pfad des Bereitstellungsassistenten zum MSI-Installationsprogramm
+title: Pfad des Bereitstellungs-Assistenten zum MSI-Installationsprogramm
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
-description: Weitere Informationen zur Verwendung des Bereitstellungsassistenten zum Installieren von Skype for Business Server finden Sie unter "Installieren von Skype for Business Server".
-ms.openlocfilehash: c63b3bc1dde6fb156c06d84fa9f90a083bf7e052
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ausführliche Informationen zur Verwendung des Bereitstellungs-Assistenten zum Installieren von Skype for Business Server finden Sie unter Installieren Skype for Business Server.
+ms.openlocfilehash: ee477914b612197fb63adaca462195414e4601f54c34b031a57b843e1329aefc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825085"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303009"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>Bereitstellungs-Assistent: Pfad zum MSI-Installer
  
-Weitere Informationen zur Verwendung des Bereitstellungsassistenten zum Installieren von Skype for Business Server finden Sie unter ["Installieren von Skype for Business Server".](../../../deploy/install/install.md)
+Ausführliche Informationen zur Verwendung des Bereitstellungs-Assistenten zum Installieren von Skype for Business Server finden Sie unter [Installieren Skype for Business Server](../../../deploy/install/install.md).
   
 

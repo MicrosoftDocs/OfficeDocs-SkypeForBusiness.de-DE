@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Microsoft-Telefon System Direct Routing konfigurieren.
-ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337413"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Übersetzen von Telefonnummern in ein alternatives Format
 
@@ -72,8 +72,8 @@ In den folgenden Beispielen gibt es zwei Benutzer: Andrea und Robert. Andrea ist
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Beispiel 1: Eingehender Anruf an eine zehnstellige Nummer
 
-Bob ruft Andrea mit einer nicht E.164-zehnstelligen Nummer an. Bob wählt 2065550100, um Andrea zu erreichen.
-SBC verwendet 2065550100 in den Headern RequestURI und To und 4255550100 im Header Von.
+Bob ruft Andrea mit einer nicht E.164-zehnstelligen Nummer an. Bob wählt einen 2065550100, um Andrea zu erreichen.
+SBC verwendet 2065550100 in den Headern RequestURI und To und 4255550100 in der From-Kopfzeile.
 
 
 |Kopfzeile  |Original |Übersetzte Kopfzeile |Angewendete Parameter und Regeln  |
@@ -85,7 +85,7 @@ SBC verwendet 2065550100 in den Headern RequestURI und To und 4255550100 im Head
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Beispiel 2: Eingehender Anruf an eine vierstellige Nummer
 
 Bob ruft Andrea mit einer vierstelligen Nummer an. Bob wählt 0100, um Andrea zu erreichen.
-SBC verwendet 0100 in den Headern RequestURI und To und 4255550100 im Header Von.
+SBC verwendet 0100 in den Headern RequestURI und To 4255550100 in der From-Kopfzeile.
 
 
 |Kopfzeile  |Original |Übersetzte Kopfzeile |Angewendete Parameter und Regeln  |
@@ -99,7 +99,7 @@ SBC verwendet 0100 in den Headern RequestURI und To und 4255550100 im Header Von
 Andrea ruft Bob mit einer zehnstelligen Nummer an. Andrea wählt 425 555 0100, um Bob zu erreichen.
 SBC ist so konfiguriert, dass nicht-E.164-Nummern mit zehn Ziffern für Teams und PSTN-Benutzer verwendet werden.
 
-In diesem Szenario übersetzt ein Wählplan die Nummer vor dem Senden an die Direct Routing-Schnittstelle. Wenn Andrea 425 555 0100 in den Teams-Client ein gibt, wird die Nummer durch den Länderwählplan in +14255550100 übersetzt. Die resultierenden Zahlen sind eine kumulierte Normalisierung der Wählplanregeln und Teams Übersetzungsregeln. Durch Teams Übersetzungsregeln wird das vom Wählplan hinzugefügte "+1" entfernt.
+In diesem Szenario übersetzt ein Wählplan die Nummer vor dem Senden an die Direct Routing-Schnittstelle. Wenn Andrea im Teams-Client 425 555 0100 ein gibt, wird die Nummer vom Wählplan des Landes in +14255550100 übersetzt. Die resultierenden Zahlen sind eine kumulierte Normalisierung der Wählplanregeln und Teams Übersetzungsregeln. Durch Teams Übersetzungsregeln wird das vom Wählplan hinzugefügte "+1" entfernt.
 
 
 |Kopfzeile  |Original |Übersetzte Kopfzeile |Angewendete Parameter und Regeln  |

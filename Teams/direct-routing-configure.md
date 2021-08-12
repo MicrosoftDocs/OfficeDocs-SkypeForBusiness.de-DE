@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie Microsoft-Telefon Direktes Systemrouting konfigurieren, um Ihre lokale Telefonieinfrastruktur mit Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284176"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Führen Sie zum Festlegen des nächsten Hops für den vertrauenswürdigen Anwendungsserver oder -pool die folgenden Schritte aus:'
-ms.openlocfilehash: 4b52bf66d97852c65462ad569372bf351bfb76cc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2a6b43c8f60d48182fdfb801a451ca05d310a93f81aa90ce58b30f1c03ba3fd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302909"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>Hinzufügen eines vertrauenswürdigen NextHop-Anwendungsservers
  

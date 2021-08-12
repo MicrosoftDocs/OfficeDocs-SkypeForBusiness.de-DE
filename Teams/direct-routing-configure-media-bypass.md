@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing für Microsoft Teams konfigurieren, indem Sie alle Benutzer auf einmal wechseln oder einen phasenweise Ansatz implementieren (empfohlen).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284186"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 

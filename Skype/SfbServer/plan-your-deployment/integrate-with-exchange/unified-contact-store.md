@@ -13,19 +13,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie die Integration von Skype for Business Server in Exchange 2013 planen.'
-ms.openlocfilehash: 3ce06118f8225e78c5c84a8f9124e4815f79d593
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Lesen Sie dieses Thema bei der Planung der Integration von Skype for Business Server in Exchange 2013.'
+ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816255"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284625"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planen des einheitlichen Kontaktspeichers in Skype for Business Server 2015
  
-**Zusammenfassung:** Lesen Sie dieses Thema, während Sie die Integration von Skype for Business Server in Exchange 2013 oder 2016 planen.
+**Zusammenfassung:** Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Exchange 2013 oder 2016 zu integrieren.
   
-Der einheitliche Kontaktspeicher bietet eine konsistente Kontakterfahrung in allen Microsoft Office-Produkten und ermöglicht Benutzern das Speichern aller Kontaktinformationen in Exchange 2013, ermöglicht es jedoch, die Informationen global in Skype for Business, Exchange, Outlook und Outlook Web Access verfügbar zu machen.
+Der einheitliche Kontaktspeicher bietet eine konsistente Kontakterfahrung in Microsoft Office Produkten und ermöglicht Benutzern das Speichern aller Kontaktinformationen in Exchange 2013, ermöglicht jedoch die globale Verfügbarkeit der Informationen über Skype for Business, Exchange, Outlook und Outlook Web Access hinweg.
   
 ## <a name="requirements-for-unified-contact-store"></a>Anforderungen für den einheitlichen Kontaktspeicher
 
@@ -37,10 +37,10 @@ So implementieren Sie den einheitlichen Kontaktspeicher in Skype for Business Se
     
 - Benutzerpostfächer müssen zu Exchange 2013 migriert werden.
     
-- Sie müssen die Server-zu-Server-Authentifizierung zwischen Skype for Business Server und Exchange 2013 oder 2016 konfiguriert haben.
+- Die Server-zu-Server-Authentifizierung muss zwischen Skype for Business Server und Exchange 2013 oder 2016 konfiguriert sein.
     
     > [!NOTE]
-    > Ausführliche Anforderungen zum Einrichten der Authentifizierung zwischen Skype for Business Server und Exchange 2013 oder 2016 finden Sie unter Verwalten der [Server-zu-Server-Authentifizierung (OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) und von Partneranwendungen in Skype for Business Server in der Betriebsdokumentation.
+    > Ausführliche Anforderungen zum Einrichten der Authentifizierung zwischen Skype for Business Server und Exchange 2013 oder 2016 finden Sie unter Verwalten der [Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in Skype for Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) in der Betriebsdokumentation.
   
 ## <a name="see-also"></a>Siehe auch
 

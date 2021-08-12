@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams in den Vereinigten Arabischen Emiraten.
-ms.openlocfilehash: 2786e89aefe16e38a1356002866ea3a74b90c5e5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 43961b3a076fded4e93b1af0489d33264659974d6985d2f7bbc9b69d3fd6e6ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284237"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Verfügbarkeit in den Vereinigten Arabischen Emiraten
 

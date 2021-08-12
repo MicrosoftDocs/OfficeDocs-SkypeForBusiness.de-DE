@@ -15,90 +15,90 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Anruf über Arbeit in Skype for Business Server für einige oder alle Benutzer bereitstellen.'
-ms.openlocfilehash: 41a0ae8462b12cabf735a2501e5b22eac64abe42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ce4c49a1ba8766dbec6efbfe2b04ea91702eadf40c91cb6108f027765609cac4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303159"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Bereitstellen von "Anruf über Arbeit" in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie Anruf über Arbeit in Skype for Business Server für einige oder alle Benutzer bereitstellen.
+**Zusammenfassung:** Erfahren Sie, wie Sie "Anruf über Arbeit" in Skype for Business Server für einige oder alle Benutzer bereitstellen.
   
-Verwenden Sie diese Schritte, um "Anruf über Arbeit" für Ihre Benutzer bereitstellen. Planungsüberlegungen werden in [Plan for Call Via Work in Skype for Business Server behandelt.](../plan-your-deployment/enterprise-voice-solution/call-via-work.md) In früheren Versionen der Lync Server-Remoteanrufsteuerung konnten Benutzer ihre Nebenstellentelefone mit Lync Server steuern. In Skype for Business Server wurde diese Funktion durch "Geschäft arbeitsplatz" ersetzt. 
+Führen Sie die folgenden Schritte aus, um Anruf über Arbeit für Ihre Benutzer bereitzustellen. Planungsüberlegungen werden in ["Plan for Call Via Work" in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)erläutert. In früheren Versionen von Lync Server war die Remoteanrufsteuerung ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Über Arbeit anrufen" ersetzt. 
   
-## <a name="prerequisites-for-call-via-work"></a>Voraussetzungen für "Anruf über Arbeit"
+## <a name="prerequisites-for-call-via-work"></a>Voraussetzungen für anruf per Arbeit
 
-Call Via Work verwendet Unified Communications Web API (UCWA), die automatisch auf allen Skype for Business Server-Front-End-Servern installiert wird. Um Benutzer für die Funktion "Über Arbeit anrufen" zu aktivieren, müssen außerdem die folgenden Voraussetzungen erfüllt sein: 
+Call Via Work verwendet unified Communications Web API (UCWA), die automatisch auf allen Skype for Business Server Front-End-Servern installiert wird. Um Benutzer für "Anruf über Arbeit" zu aktivieren, müssen auch die folgenden Voraussetzungen erfüllt sein: 
   
 - Sie müssen einen Vermittlungsserver bereitstellen, entweder als Teil eines Front-End-Servers oder als eigenständige Rolle. Sie müssen auch ein IP-PBX-Gateway bereitstellen.
     
-- Alle Benutzer, die für die Funktion "Anruf über Arbeit" aktiviert werden, müssen über ein DID (Direct Inward Dialing) im Nebenstellensystem verfügen. 
+- Alle Benutzer, die für "Anruf über Arbeit" aktiviert sind, müssen über eine DID (Direct Inward Dialing) auf dem PbX-Telefonsystem verfügen. 
     
-- Sie müssen alle Benutzer von "Anruf über Arbeit" für Enterprise-VoIP. Wenn Sie dies tun, müssen Sie die Skype for Business -DID-Nummer für jeden Benutzer auf die entsprechende DID-Nummer für das entsprechende Nebenstellensystem konfigurieren. 
+- Sie müssen alle Benutzer von "Anruf über Arbeit" für Enterprise-VoIP aktivieren. Wenn Sie dies tun, müssen Sie die Skype for Business DID-Nummer für jeden Benutzer mit der entsprechenden DID-Nummer für die entsprechende Nebenstellenanlage konfigurieren. 
     
-- Für alle Benutzer, die "Geschäftisch anrufen"  verwenden, muss in der Option "Erweiterte Verbindungen" in ihrem Skype for Business-Client die Option "Automatische Konfiguration" ausgewählt sein.  Dadurch kann der Client die UCWA-URLs ermitteln. **Die automatische Konfiguration** ist die Standardauswahl.
+- Alle Benutzer, die "Anruf über Arbeit" verwenden, müssen die **automatische Konfiguration** in der Option **"Erweiterte Verbindungen"** in ihrem Skype for Business-Client ausgewählt haben. Dadurch kann der Client die UCWA-URLs ermitteln. **Die automatische Konfiguration** ist die Standardauswahl.
     
-- Aktivieren Sie für jeden Benutzer von "Anruf über Arbeit" die Anruf weiterleitung und gleichzeitiges Klingeln. 
+- Aktivieren Sie für jeden Benutzer von "Anruf über Arbeit" die Anrufweiterleitung und das gleichzeitige Klingeln. 
     
-- Stellen Sie für jeden Benutzer von "Anruf über Arbeit" sicher, dass Einwahlkonferenzen und Einwahlkonferenzen aktiviert sind. Auf diese Weise können diese Benutzer skype for Business-Konferenzen ein- und aus- und wieder herausrufen.
+- Stellen Sie für jeden Benutzer von "Anruf über Arbeit" sicher, dass Einwahlkonferenzen und Einwahlkonferenzen aktiviert sind. Dadurch können diese Benutzer in Skype for Business Konferenzen ein- und ausgehen.
     
-- Stellen Sie sicher, dass Delegierung, Teamanruf und Reaktionsgruppe für jeden Benutzer von "Anruf über Arbeit" deaktiviert sind.
+- Stellen Sie sicher, dass Delegierung, Teamanruf und Reaktionsgruppe für jeden Benutzer von "Über Arbeit anrufen" deaktiviert sind.
     
 ## <a name="deploy-call-via-work"></a>Bereitstellen der Funktion „Anruf über Arbeit“
 
-Nachdem die Voraussetzungen erfüllt sind, gehen Sie wie folgt vor:
+Nachdem die Voraussetzungen erfüllt sind, führen Sie die folgenden Schritte aus:
   
-- Erstellen Sie eine globale Telefonnummer für Ihre Bereitstellung, die von Skype for Business auf der PBX-Anrufer-ID der Benutzer angezeigt wird, die Anrufe über die Geschäftliche Telefonanrufe tätigt. 
+- Erstellen Sie eine globale Telefonnummer für Ihre Bereitstellung, die Skype for Business auf der PBX-Anrufer-ID von Benutzern anzeigt, die Anrufe über Die Arbeit tätigen. 
     
-- Erstellen einer oder mehreren "Anruf über Arbeit"-Richtlinien
+- Erstellen einer oder mehrerer Anruf-über-Arbeit-Richtlinien
     
-- Zuweisen einer Anruf-über-Arbeit-Richtlinie zu jedem Benutzer, der für "Anruf über Arbeit" aktiviert wird
+- Weisen Sie jedem Benutzer, der für "Anruf über Arbeit" aktiviert ist, eine Richtlinie "Anruf über Arbeit" zu.
     
-### <a name="create-the-call-via-work-global-phone-number"></a>Erstellen der globalen Telefonnummer "Anruf über Arbeit"
+### <a name="create-the-call-via-work-global-phone-number"></a>Erstellen der globalen Telefonnummer für "Anruf über Arbeit"
 
-- Geben Sie das folgende Cmdlet ein:
+- Geben Sie das folgende Cmdlet ein.
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
-    Das folgende Cmdlet legt beispielsweise die globale Telefonnummer auf 1-555-123-4567 fest.
+    Mit dem folgenden Cmdlet wird beispielsweise die globale Telefonnummer auf 1-555-123-4567 festgelegt.
     
   ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
-### <a name="create-a-call-via-work-policy"></a>Erstellen einer Richtlinie für "Anruf über Arbeit"
+### <a name="create-a-call-via-work-policy"></a>Erstellen einer Richtlinie für die Anrufweiterleitung
 
-- Geben Sie das folgende Cmdlet ein:
+- Geben Sie das folgende Cmdlet ein.
     
   ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    Das folgende Cmdlet erstellt beispielsweise die Richtlinie "ContosoUser1CvWP" für "Anruf über Arbeit", erfordert, dass der Benutzer eine Administratorrückrufnummer verwendet, und legt diese Rückrufnummer auf 1-555-789-1234 fest.
+    Das folgende Cmdlet erstellt z. B. eine Richtlinie "Call Via Work" namens "ContosoUser1CvWP", erfordert, dass der Benutzer eine Administratorrückrufnummer verwendet, und legt diese Rückrufnummer auf 1-555-789-1234 fest.
     
   ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>Zuweisen einer Richtlinie "Anruf über Arbeit" zu einem Benutzer
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>Zuweisen einer Anruf-über-Arbeit-Richtlinie zu einem Benutzer
 
-- Geben Sie das folgende Cmdlet ein:
+- Geben Sie das folgende Cmdlet ein.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    Das folgende Cmdlet weist beispielsweise dem Benutzer **"ContosoUser1"** die Richtlinie "ContosoUser1CvWP" für "Anruf über Arbeit" zu.
+    Mit dem folgenden Cmdlet wird beispielsweise die Richtlinie "ContosoUser1CvWP" für "Call Via Work" dem Benutzer namens **"ContosoUser1"** zugewiesen.
     
   ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
-[Planen der Anruf-über-Arbeit in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Plan for Call Via Work in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

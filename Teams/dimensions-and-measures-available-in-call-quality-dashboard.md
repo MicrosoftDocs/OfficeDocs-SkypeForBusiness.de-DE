@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Rufen Sie detaillierte Informationen zu den Abmessungen und Maßen ab, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: b44323d8fd15b3e0f97269afe7459981348d977b
-ms.sourcegitcommit: d3a5efa1e11e4dad97f31d633d31aa7c9b2dee57
+ms.openlocfilehash: cb95f42ff9a79564c3de9a14c5f4b04f6eb168f911f5a24cf54a2a7605f03dc1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583924"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337463"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Maße
 
@@ -435,7 +435,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 |PSTN Trunk-FQDN|String|FQDN ist der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Session Border Controller (SBC).<br/>**Beispiel:** sbcgw.contoso.com||
 |PSTN Carrier Name|String|Das Unternehmen, das von Aufsichtsbehörden zum Betreiben eines Telekommunikationssystems autorisiert wird.<br/>**Beispiel:** Durchdingen|Direct Routing verfügt nicht über einen Netzbetreiber. Nur ein Anrufplan verfügt über einen Netzbetreiber.|
 |PSTN-Anruftyp|String|Diese Zeichenfolge kombiniert den Diensttyp und den Aufruftyp.<br/><br/>Diensttyp:<br/>user -> calling plan<br/>byot -> Direct Routing<br/>conf -> Audiokonferenzen<br/>ucap ->-Sprach-App<br/>Notfall->-Notrufnummer<br/><br/>Anruftyp:<br/>In -> eingehendem Anruf<br/>Ausgehender > Anruf<br/>Out_transfer -> ausgehender Anruf wird an dritte Person übertragen<br/>Out_forward -> ausgehender Anruf wird an dritte Person weitergeleitet<br/>Out_conf -> ausgehenden Anruf mit einem Ad-hoc-PSTN-Teilnehmer<br/><br/>**Beispiel:** ByotIn||
-|PSTN Connectivity Type|String|Der PSTN-Verbindungstyp umfasst direktes Routing, Anrufplan oder Audiokonferenzen. Derzeit ist im Anrufqualitätsdashboard (CQD) nur direktes Routing verfügbar.<br/>**Beispiel:** Direktes Routing||
+|PSTN-Konnektivitätstyp|String|Der PSTN-Verbindungstyp umfasst direktes Routing, Anrufplan oder Audiokonferenzen. Derzeit ist im Anrufqualitätsdashboard (CQD) nur direktes Routing verfügbar.<br/>**Beispiel:** Direktes Routing||
 |PSTN Final SIP Code Phrase|String|Der Grundbegriff, der dem SIP-Antwortcode und dem Microsoft-Antwortcode entspricht.<br/>**Beispiel:** Auf Wiedersehen||
 |PSTN Call End Sub Reason|Int|Ein von der Microsoft-Komponente gesendeter Antwortcode, der bestimmte aufgetretene Aktionen angibt.<br/>**Beispiel:** 540000||
 |PSTN-Ereignistyp|String|Ein Ereignistyp, der Telemetrie bietet.<br/>**Beispiel:** Ende||
@@ -690,7 +690,7 @@ Viele Messwertwerte können auch als Filter verwendet werden. In der folgenden T
 |PSTN-Anzahl eingehender Verbindungen | Anzahl der Anrufe | Gesamtzahl der eingehenden erfolgreich verbundenen Anrufe im ausgewählten Zeitraum. Bei diesem Measure liegt ein Fehler von bis zu 0,2 %. Details finden Sie unten im Hinweis.|
 |PSTN-Anzahl ausgehender Versuche | Anzahl der Anrufe | Gesamtzahl ausgehender versuchter Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im ausgewählten Zeitraum. Bei diesem Measure liegt ein Fehler von bis zu 0,2 %. Details finden Sie unten im Hinweis.|
 |PSTN Outbound Connected Count | Anzahl der Anrufe | Gesamtzahl ausgehender, erfolgreich verbundener Anrufe im ausgewählten Zeitraum. Bei diesem Measure liegt ein Fehler von bis zu 0,2 %. Details finden Sie unten im Hinweis.|
-|PSTN Total Minutes | Minuten | Gesamte Minutenverwendung im ausgewählten Zeitraum.|
+|PSTN-Minuten gesamt | Minuten | Gesamte Minutenverwendung im ausgewählten Zeitraum.|
 |PSTN-eingehende Gesamtminuten | Minuten | Gesamte Nutzung der eingehenden Minuten im ausgewählten Zeitraum.|
 |PSTN Ausgehende Gesamtminuten | Minuten | Gesamtverwendung der ausgehenden Minuten im ausgewählten Zeitraum.|
 |PSTN Active User Count | Anzahl der Benutzer | Die Anzahl der Benutzer, die an diesem Tag mindestens einen verbundenen Anruf hergestellt haben.|

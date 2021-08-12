@@ -1,5 +1,5 @@
 ---
-title: Systemanforderungen für Skype for Business for Windows Phone
+title: Systemanforderungen für Skype for Business für Windows Phone
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -16,26 +16,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
-description: 'Zusammenfassung: Überprüfen Sie die Clientsystemgeräteanforderungen bei der Planung für Skype for Business Server.'
-ms.openlocfilehash: 4998f3f697412afa390ba6e385fcc19da5f80ed2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Überprüfen Sie die Clientsystem-Geräteanforderungen bei der Planung für Skype for Business Server.'
+ms.openlocfilehash: 988371d52f77c2b6316b7009620cdeefed53bd28988c56f28b31d5080361c308
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825965"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293942"
 ---
-# <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Systemanforderungen für Skype for Business for Windows Phone
+# <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Systemanforderungen für Skype for Business für Windows Phone
  
  
-Microsoft Skype for Business for Windows Phone bietet Chat, erweiterte Anwesenheit und Telefonie für Benutzer in Ihrer Organisation, die über ein Smartphone oder ein mobiles Windows Professional-Gerät eine Verbindung herstellen. Mit mobilen Geräten können Benutzer die Reichweite von Skype for Business erweitern. In diesem Thema werden Planungsüberlegungen für Skype for Business for Windows Phone beschrieben, die das Identifizieren von Voraussetzungen und technischen Anforderungen, erforderliche Komponenten und Anleitungen zur Bereitstellung umfassen.
+Microsoft Skype for Business für Windows Phone bietet Chatnachrichten, erweiterte Anwesenheit und Telefonie für Benutzer in Ihrer Organisation, die sich über ein Smartphone oder ein Windows Professional mobile Gerät verbinden. Mit mobilen Geräten können Benutzer die Reichweite von Skype for Business erweitern. In diesem Thema werden Planungsüberlegungen für Skype for Business für Windows Phone beschrieben, die die Ermittlung von Voraussetzungen und technischen Anforderungen, erforderlichen Komponenten und Bereitstellungsanleitungen umfassen.
   
-## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Voraussetzungen für Skype for Business Windows Phone A0
+## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Skype for Business für Windows Phone Voraussetzungen
 
-Nachfolgend finden Sie die Voraussetzungen für Skype for Business Windows Phone.
+Nachfolgend sind die Skype for Business für Windows Phone Voraussetzungen beschrieben.
   
 - Windows Phone 8.1 oder höher.
     
-- Das Windows Phone muss über die neuesten Updates von Microsoft verfügen. Weitere Informationen finden Sie im Abschnitt Windows Phone 8.1 unter [Windows Phone 8 Updateverlauf.](https://go.microsoft.com/fwlink/p/?LinkID=281961)
+- Das Windows Phone Gerät muss über die neuesten Updates verfügen, die von Microsoft zur Verfügung stehen. Ausführliche Informationen finden Sie im Abschnitt Windows Phone 8.1 unter [Windows Phone 8 Updateverlauf.](https://go.microsoft.com/fwlink/p/?LinkID=281961)
     
 - Das Gerät muss über 22 MB verfügbaren Speicherplatz verfügen.
     

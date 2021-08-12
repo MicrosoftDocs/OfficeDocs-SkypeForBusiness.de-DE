@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in Belarus, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 2b5d8266aa914cfd65553d5b943bb5c1ad1c04b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 38dce7862ea9764baefcc38aa7275d0d5c686cd753a91dc9fe672ee54fcf304c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345254"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Einschränkungen für gebührenfreie Telefonnummern in Belarus
 

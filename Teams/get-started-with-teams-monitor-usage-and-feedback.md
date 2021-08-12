@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc18dedc06618f2c9f64ead446a82829ad494bc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 481e83f7a76332b052516ce557b77594be16736f06c30c30082aeba2afcccafe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337383"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen von Nutzung und Feedback in Microsoft Teams
 Es ist wichtig zu wissen, wie Benutzer Microsoft Teams verwenden und welche Erfahrungen sie dabei machen. Mithilfe von Nutzungsberichten können Sie Nutzungsmuster besser verstehen. In Kombination mit Feedback von Benutzern gelangen Sie so zu Einsichten, die Sie Ihrer weiteren Bereitstellung zugrunde legen und zur Priorisierung von Schulungs- und Kommunikationsinitiativen verwenden können.

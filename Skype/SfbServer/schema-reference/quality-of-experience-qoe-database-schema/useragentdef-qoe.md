@@ -1,5 +1,5 @@
 ---
-title: Tabelle "UserAgentDef" (QoE)
+title: UserAgentDef-Tabelle (QoE)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,43 +12,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: Die Tabelle "UserAgentDef" ordnet die Bezeichner des Benutzer-Agent den beschreibenden Namen des Agents zu. Benutzeragenten sind Softwareclients, die zum Herstellen einer Verbindung mit Skype for Business Server verwendet werden.
-ms.openlocfilehash: 2398601df248310a9482c797fcd8e98cef8f7e76
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen des Agents zu. Benutzer-Agents sind Softwareclients, die zum Herstellen einer Verbindung mit Skype for Business Server verwendet werden.
+ms.openlocfilehash: 9bba40cf33aa69203499ddcbe3555b41d563394f6d7ef12d7b34ca8b2b7db846
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799925"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337543"
 ---
-# <a name="useragentdef-table-qoe"></a>Tabelle "UserAgentDef" (QoE)
+# <a name="useragentdef-table-qoe"></a>UserAgentDef-Tabelle (QoE)
  
-Die Tabelle "UserAgentDef" ordnet die Bezeichner des Benutzer-Agent den beschreibenden Namen des Agents zu. Benutzeragenten sind Softwareclients, die zum Herstellen einer Verbindung mit Skype for Business Server verwendet werden.
+Die UserAgentDef-Tabelle ordnet Benutzer-Agent-IDs den beschreibenden Namen des Agents zu. Benutzer-Agents sind Softwareclients, die zum Herstellen einer Verbindung mit Skype for Business Server verwendet werden.
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
-|4   <br/> |OC  <br/> |OC  <br/> |
+|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|4   <br/> |Oc  <br/> |Oc  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
-|16   <br/> |LMC  <br/> |LMC  <br/> |
-|32  <br/> |DVT  <br/> |DVT  <br/> |
+|16   <br/> |Lmc  <br/> |Lmc  <br/> |
+|32  <br/> |Dvt  <br/> |Dvt  <br/> |
 |64  <br/> |MM  <br/> |MM  <br/> |
-|64  <br/> |MC  <br/> |MM  <br/> |
+|64  <br/> |Mc  <br/> |MM  <br/> |
 |128  <br/> |Attendant  <br/> |Attendant  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |CAS  <br/> |
-|512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
-|1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |
-|1032  <br/> |Call_Park_Service_1.0  <br/> |CPS  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |Cas  <br/> |
+|512  <br/> |Conferencing_Attendant_1.0  <br/> |Caa  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |Caa  <br/> |
+|1024  <br/> |Response_Group_Service  <br/> |Rgs  <br/> |
+|1032  <br/> |Call_Park_Service_1.0  <br/> |Cps  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |AS  <br/> |
-|2048  <br/> |Microsoft.Rtc.Applications.Ccs  <br/> |CCS  <br/> |
-|16386  <br/> |CoMo  <br/> |CoMo  <br/> |
-|16387  <br/> |CWA  <br/> |CWA  <br/> |
-|16388  <br/> |InboundRouting  <br/> |InboundRouting  <br/> |
+|2048  <br/> |Microsoft.Rtc.Applications.Ccs  <br/> |Ccs  <br/> |
+|16386  <br/> |Como  <br/> |Como  <br/> |
+|16387  <br/> |Cwa  <br/> |Cwa  <br/> |
+|16388  <br/> |EingehendesRouting  <br/> |EingehendesRouting  <br/> |
 |16389  <br/> |ComoSvc  <br/> |ComoSvc  <br/> |
 |16393  <br/> |MSExchangeUM  <br/> |ExUM  <br/> |
 |16395  <br/> |ArchivingAgent  <br/> |ARCHAGENT  <br/> |
-|16396  <br/> |ST  <br/> |ST  <br/> |
+|16396  <br/> |St  <br/> |St  <br/> |
 |16397  <br/> |applicationsharing  <br/> |ASMCU  <br/> |
 |16398  <br/> |WPLync  <br/> |WPLync  <br/> |
 |16399  <br/> |iPhoneLync  <br/> |iPhoneLync  <br/> |
@@ -56,10 +56,10 @@ Die Tabelle "UserAgentDef" ordnet die Bezeichner des Benutzer-Agent den beschrei
 |16401  <br/> |iPadLync  <br/> |iPadLync  <br/> |
 |16402  <br/> |NokiaLync  <br/> |NokiaLync  <br/> |
 |16403  <br/> |LyncImm  <br/> |LyncImm  <br/> |
-|16404  <br/> |PCs  <br/> |PCs  <br/> |
-|16405  <br/> |LWA  <br/> |LWA  <br/> |
+|16404  <br/> |Pcs  <br/> |Pcs  <br/> |
+|16405  <br/> |Lwa  <br/> |Lwa  <br/> |
 |16406  <br/> |OWA  <br/> |OWA  <br/> |
-|16407  <br/> |AOC  <br/> |AOC  <br/> |
+|16407  <br/> |Aoc  <br/> |Aoc  <br/> |
 |16408  <br/> |GCC  <br/> |GCC  <br/> |
 |16409  <br/> |IMMCU  <br/> |IMMCU  <br/> |
 |16410  <br/> |XmppTGW  <br/> |XmppGateway  <br/> |

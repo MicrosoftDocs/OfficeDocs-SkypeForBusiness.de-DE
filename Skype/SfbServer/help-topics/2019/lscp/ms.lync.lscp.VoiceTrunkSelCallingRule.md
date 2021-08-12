@@ -15,19 +15,19 @@ localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Dialogfeld "Übersetzungsregeln für die wählende Nummer auswählen" werden die Übersetzungsregeln angezeigt, die für die Bereitstellung konfiguriert sind. Ausführliche Informationen zu Übersetzungsregeln finden Sie in den folgenden Themen:'
-ms.openlocfilehash: 3d9bc60acacdfa876f82f36a2f346a18390d0f80
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aa0bb395fe292c4d8e12610269d192cb413ce4df1bc0ac53d35f6c150d0fb87f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121775"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294722"
 ---
 # <a name="select-calling-number-rules-translation"></a>Auswählen von Übersetzungsregeln für die wählende Nummer
 
-Im **Dialogfeld Übersetzungsregeln** für Anrufe auswählen werden die für Ihre Bereitstellung konfigurierten Übersetzungsregeln angezeigt. Ausführliche Informationen zu Übersetzungsregeln finden Sie in den folgenden Themen:
+Im Dialogfeld **"Übersetzungsregeln für Anrufnummern auswählen"** werden die übersetzungsregeln angezeigt, die für Ihre Bereitstellung konfiguriert sind. Ausführliche Informationen zu Übersetzungsregeln finden Sie in den folgenden Themen:
 
 1. [Übersetzungsregeln in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
-2. [Trunkkonfiguration und Übersetzungsregeln](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks)
+2. [Trunkkonfigurations- und Übersetzungsregeln](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks)
 
-3. [Erstellen oder Ändern einer Übersetzungsregel für die aufgerufene ID-Präsentation in Skype for Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+3. [Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der Bezeichnung "ID" in Skype for Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)

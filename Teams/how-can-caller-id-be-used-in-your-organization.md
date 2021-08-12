@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: Die Anrufer-ID kann sowohl für ein- als auch für ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: ddd01d899597a96b5085c92ac9e20681b0a5c92b18ca342008b499e44892743a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293822"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Session Border Controller (SBC) konfigurieren, um mehrere Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber zu verwenden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293912"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -114,13 +114,13 @@ Zum Konfigurieren der Basis- und Unterdomänen führen Sie die nachstehend besch
 
 Sie können neue Domänen nur hinzufügen, wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben. 
 
-Um Ihre Rolle zu überprüfen, melden Sie sich bitte beim Microsoft 365 Admin Center an ( , wechseln Sie zu Aktive Benutzer, und vergewissern Sie sich dann, dass Sie über eine globale https://portal.office.com)   >  Administratorrolle verfügen. 
+Um Ihre Rolle zu überprüfen, melden Sie sich beim Microsoft 365 Admin Center an , wechseln Sie zu Aktive Benutzer , und vergewissern Sie sich dann, dass Sie über eine https://portal.office.com)   >  globale Administratorrolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Microsoft 365 oder Office 365 finden Sie unter Informationen zu [Administratorrollen.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Hinzufügen einer Basisdomäne zum Mandanten und Überprüfen der Domäne
 
-1. Wechseln Sie Microsoft 365 Admin Center zu **Setup**  >  **Domains**  >  **Add domain**.
+1. Wechseln Sie Microsoft 365 Admin Center Domäne **einrichten** zu Domäne  >    >  **hinzufügen.**
 2. Geben Sie **im Feld Geben** Sie eine Domäne ein, die Sie besitzen den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *customers.adatum.biz.*
 
     ![Screenshot der Seite "Domäne hinzufügen"](media/direct-routing-2-sbc-add-domain.png)
@@ -158,12 +158,12 @@ Sie müssen für jeden Kunden einen eindeutigen Unterdomänennamen erstellen. In
 
 Sie können neue Domänen nur hinzufügen, wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben. 
 
-Um Ihre Rolle zu überprüfen, melden Sie sich bitte beim Microsoft 365 Admin Center an ( , wechseln Sie zu Aktive Benutzer, und vergewissern Sie sich dann, dass Sie über eine globale https://portal.office.com)   >  Administratorrolle verfügen. 
+Um Ihre Rolle zu überprüfen, melden Sie sich beim Microsoft 365 Admin Center an , wechseln Sie zu Aktive Benutzer , und vergewissern Sie sich dann, dass Sie über eine https://portal.office.com)   >  globale Administratorrolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Microsoft 365 oder Office 365 finden Sie unter Informationen zu [Administratorrollen.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Hinzufügen einer Unterdomäne zum Kunden-Mandanten und Überprüfen der Unterdomäne
-1. Wechseln Sie Microsoft 365 Admin Center zu **Setup**  >  **Domains**  >  **Add domain**.
+1. Wechseln Sie Microsoft 365 Admin Center Domäne **einrichten** zu Domäne  >    >  **hinzufügen.**
 2. Geben Sie **im Feld Geben** Sie eine Domäne ein, die Sie besitzen den FQDN der Unterdomäne für diesen Mandanten ein. Im folgenden Beispiel ist die Unterdomäne sbc1.customers.adatum.biz.
 
     ![Screenshot der Seite "Domäne hinzufügen"](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
     Weitere Informationen finden Sie unter [Erstellen von DNS-Einträgen bei einem beliebigen DNS-Hostinganbieter.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
-7. Wechseln Sie zurück zum Admin Center des kunden Microsoft 365 und klicken Sie auf **Überprüfen**. 
+7. Wechseln Sie zurück zum Konto des Kunden Microsoft 365 Admin Center und klicken Sie **auf Überprüfen**. 
 8. Wählen Sie auf der nächsten Seite **Ich füge die DNS-Einträge** selbst hinzu aus, und klicken Sie auf **Weiter.**
 
     ![Screenshot der Optionen auf der Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-9-sbc-update-dns.png)
@@ -259,7 +259,7 @@ Lesen Sie bitte die [SBC-Anbieteranweisungen](#deploy-and-configure-the-sbc) zum
 
 Zum Einrichten des Failovers für eine Umgebung mit mehreren Mandanten müssen Sie die folgenden Schritte ausführen:
 
-- Fügen Sie für jeden Mandanten die FQDNs für zwei verschiedene SBCs hinzu.  Beispiel:
+- Fügen Sie für jeden Mandanten die FQDNs für zwei verschiedene SBCs hinzu.  Zum Beispiel:
 
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigen Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder oder Regionen zum Wählen der gebührenfreien Nummer an.
-ms.openlocfilehash: 7503c1f78693a4d89f7288990e3fbc5cdb0058e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f03fd38c6ae06459c3099896fc936420565e60876a87df5867d93f6ec4a52425
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098041"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345174"
 ---
 # <a name="toll-free-dialing-restrictions-in-italy"></a>Gebührenfreie Wähleinschränkungen in Italien
 

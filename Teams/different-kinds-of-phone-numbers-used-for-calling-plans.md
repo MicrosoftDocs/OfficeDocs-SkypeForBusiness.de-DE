@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie mehr über die verschiedenen Telefonnummerntypen, Microsoft Teams Anrufpläne verwendet werden.
-ms.openlocfilehash: f636fa56284fe9ce7c56f3ad6380c18d3b49baff
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13619651f9412234d9c619a0b574c2fbf332df54c7a51c0590d99aca7d91b923
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284206"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Verschiedene Arten von Telefonnummern, die für Anrufpläne verwendet werden
 
