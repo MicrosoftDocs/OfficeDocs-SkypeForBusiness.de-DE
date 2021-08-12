@@ -1,5 +1,5 @@
 ---
-title: Planen der Sicherheit in Skype for Business Server
+title: Planen der Sicherheit in Skype For Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,30 +12,30 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
-description: Skype for Business Server- Sicherheitsinhalte.
-ms.openlocfilehash: fc0b8591702f34c43c3658616a9658a8006755f5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server Sicherheitsinhalte.
+ms.openlocfilehash: ff8756b54d023f64e6cb6507f9033d4268c994ed6cdc4ec00c220448cd26d57e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337663"
 ---
-# <a name="plan-for-security-in-skype-for-business-server"></a>Planen der Sicherheit in Skype for Business Server 
+# <a name="plan-for-security-in-skype-for-business-server"></a>Planen der Sicherheit in Skype For Business Server 
  
-Skype for Business Server- Sicherheitsinhalte. 
+Skype for Business Server Sicherheitsinhalte. 
   
-Dieser Inhalt bezieht sich auf die Sicherheit von Skype for Business Server. Sicherheit ist ein sehr umfassendes Thema. Die Sicherheit erreicht alle Funktionen von Skype for Business Server sowie Datenbanken, Dienste und Hardware, die das Ökosystem bilden. Dieser Inhalt ist eine Ergänzung zu bestimmten Sicherheitsthemen zu Skype for Business Server.
+Dieser Inhalt bezieht sich auf Skype for Business Server Sicherheit. Sicherheit ist ein sehr breites Thema. Sicherheit erreicht alle Funktionen von Skype for Business Server sowie Datenbanken, Diensten und Hardware, die das Ökosystem bilden. Dieser Inhalt ist eine Ergänzung für bestimmte Sicherheitsthemen im Zusammenhang mit Skype for Business Server.
   
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-- [Antivirusscanausschlüsse für Skype for Business Server](antivirus.md)
+- [Antivirus-Scanausschlüsse für Skype for Business Server](antivirus.md)
     
-- [Wichtige Sicherheitsfunktionen in Skype for Business Server](key-security.md)
+- [Wichtige Sicherheitsfeatures in Skype for Business Server](key-security.md)
     
-- [Häufige Sicherheitsbedrohungen im modernen Computer](common-threats.md)
+- [Allgemeine Sicherheitsbedrohungen im modernen Computing](common-threats.md)
     
 - [Sicherheitsframework für Skype for Business Server](security-framework.md)
     
-- [Reagieren auf Bedrohungen für Ihre Kerninfrastruktur für Skype for Business Server](addressing-threats.md)
+- [Behandeln von Bedrohungen für Ihre Kerninfrastruktur für Skype for Business Server](addressing-threats.md)
     
 

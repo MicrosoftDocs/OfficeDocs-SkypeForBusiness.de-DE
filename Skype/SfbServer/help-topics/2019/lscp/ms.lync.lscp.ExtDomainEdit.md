@@ -1,5 +1,5 @@
 ---
-title: Verbunddomänen Erstellen neuer oder Bearbeiten vorhandener Domänen
+title: Verbunddomänen erstellen neue oder bearbeiten vorhandene Partnerdomänen
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: d93cf0fa3d47a91c46fb8a3883e9a90d579ec371
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1063b8ff57c1b431a65c4dcdfaca00ccc0b9877b7bc1858a161f25ebdf2d03cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300191"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Verbunddomänen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Verbunddomäne
 
@@ -28,4 +28,4 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Konfigurieren des Zugriffs für Verbundpartner](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [Überwachen und Steuern des Verbundpartnerzugriffs](/previous-versions/office/lync-server-2013/lync-server-2013-configure-support-for-allowed-external-domains)
+- [Überwachen und Steuern des Partnerverbundzugriffs](/previous-versions/office/lync-server-2013/lync-server-2013-configure-support-for-allowed-external-domains)

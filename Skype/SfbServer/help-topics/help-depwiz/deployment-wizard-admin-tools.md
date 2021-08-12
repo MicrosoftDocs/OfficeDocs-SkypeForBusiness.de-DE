@@ -1,5 +1,5 @@
 ---
-title: Verwaltungstools des Bereitstellungsassistenten
+title: Verwaltungstools des Bereitstellungs-Assistenten
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: Details zur Verwendung des Bereitstellungsassistenten zum Installieren von Skype for Business Server 2015 finden Sie unter "Installieren von Skype for Business Server 2015".
-ms.openlocfilehash: 41b8130b3d49e7175b361495d170bab644304c13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ausführliche Informationen zum Installieren von Skype for Business Server 2015 mithilfe des Bereitstellungs-Assistenten finden Sie unter Installieren Skype for Business Server 2015.
+ms.openlocfilehash: 822626e312c1aea4cf3103a89334613a87fda50d42acdc3de9b601e0f42eeb41
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320657"
 ---
 # <a name="deployment-wizard-admin-tools"></a>Bereitstellungs-Assistent: Admin-Tools
  
-Details zur Verwendung des Bereitstellungsassistenten zum Installieren von Skype for Business Server 2015 finden Sie unter ["Installieren von Skype for Business Server 2015".](../../deploy/install/install.md)
+Ausführliche Informationen zur Verwendung des Bereitstellungs-Assistenten zum Installieren von Skype for Business Server 2015 finden Sie unter [Installieren Skype for Business Server 2015.](../../deploy/install/install.md)
   
 

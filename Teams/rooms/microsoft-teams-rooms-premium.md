@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie mehr Microsoft Teams-Räume verwalteten Diensts.
 f1keywords: ''
-ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858018"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280700"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams-Räume verwalteter Dienst
 
@@ -41,7 +41,7 @@ Hier ist eine Übersicht über die Funktionen des verwalteten Microsoft Teams-R�
 |**Raumplanung und -rollout**   |Funktionen für die Raumplanung, mit denen Sie den Bestand Ihrer Raumgeräte verstehen und Entscheidungen zu den Gerätestandards für neue Raumbereitstellungen treffen können.         |
 |**Überwachung und Problembehandlung**  |Überwachung des Raumzustands, die Probleme mit dem Raumsystem und Peripheriegeräten erkennt und eine proaktive Reaktion auf die Vorfallverwaltung ermöglicht, die von Microsoft gesteuert wird.         |
 |**Updateverwaltung**    |Verwaltung und Bereitstellung von Anwendungs- und Firmwareupdates für Raumsysteme und deren Peripheriegeräte, die von Microsoft ausgeführt werden.         |
-|**Einblicke und Empfehlungen**     |Einblicke in die Integrität, Nutzung, Nutzung und Zuverlässigkeit von Geräten von Kunden.         |
+|**Insights und Empfehlungen**     |Insights der Integrität, Nutzung, Nutzung und Zuverlässigkeit des Kunden.         |
 |**Compliance und Zertifizierungen**   |Erfüllt alle anwendbaren Standards für Microsoft Online Services.         |
 |**Kundensupport**   |24 x 7 x 365-Ticketunterstützung durch den dedizierten Support Microsoft Teams-Räume Managed Service Operation Center (SOC). Eskalierung in Ihrem Namen an andere primäre Lieferanten (falls zutreffend). Weitere Informationen finden Sie unter [Kundensupport.](#customer-support)|
 |**Unterstützte Geräte**    |Zertifizierte Microsoft Teams-Räume und peripheriegeräte.<br>*Surface Hub support coming in the second half of 2021*        |
@@ -60,7 +60,7 @@ Hier finden Sie eine Zusammenfassung wichtiger Features, die der Microsoft Teams
 |**Überwachen**    |Überwachung der Anwendungs-, Betriebssystem-, Peripherie- und Firmwareüberwachung. Automatische Erkennung von Vorfällen für Probleme, die sich auf Besprechungserfahrungen aufgrund von Peripheriegeräten wie Peripheriegeräten ausdingen. Übersicht über die Gesundheit des gesamten Raumraums und Vorfälle über Microsoft Teams-Räume verwalteten Serviceportal.|
 |**Problembehandlung und Problembehebung**     |Automatisierte Diagnose und automatische Wartung (sofern zutreffend). Microsoft Teams-Räume verwalteten Diensts SOC-unterstützte Vorfallbehebung für nicht automatisierte Fälle. Service Now-Integration für die Vorfallkoordinierung.         |
 |**Updateverwaltung**   |Automatisches Aktualisieren von Besprechungsanwendung und Firmwareupdates basierend auf konfigurierbaren Bereitstellungsringen des Kunden         |
-|**Einblicke und Empfehlungen**   |Nutzung, Vorfälle, Integrität und Gesamtberichterstattung (Verlaufsansichten)         |
+|**Insights und Empfehlungen**   |Nutzung, Vorfälle, Integrität und Gesamtberichterstattung (Verlaufsansichten)         |
 
 ## <a name="service-prerequisites"></a>Dienstvoraussetzungen
 
@@ -80,7 +80,7 @@ Der verwaltete Microsoft Teams-Räume Dienst wird von einem dedizierten, Microso
 |**Zielgruppe**  |Nur IT-Vorgänge         |
 |**Unterstützte Sprachen**    |Englisch         |
 |**Verfügbarkeit des Support über das Portal**   | 24 x 7      |
-|**Anfängliche Antwortzeit für die soc Microsoft Teams-Räume verwalteten Diensts**   |  4 Stunden       |
+|**Anfängliche Antwortzeit für die soc Microsoft Teams-Räume verwalteten Diensts**   |  4 Stunden       |
 |**Automatisches Schließen von Tickets bei Kundeninaktivität**    |Vom Kunden initiierte Tickets: 3 Werktage<br>Vom System initiierte Tickets: 15 Werktage</li>   </ul>      |
 |**Umleitung auf breiteren Microsoft-Support**   |Probleme im Zusammenhang mit einem anderen Microsoft-Produkt, die außerhalb des Microsoft Teams-Räume verwalteten Diensts liegen, werden an das entsprechende Supportteam gerichtet.         |
 |**Umleitung an OEM-Unterstützung (Original Equipment Manufacturer)**    |Das Microsoft Teams-Räume verwalteten Dienst-SOC arbeitet an dem Problem und koordiniert ggf. die Unterstützung mit dem OEM. In einigen Fällen sind Sie möglicherweise dafür verantwortlich, direkt mit dem OEM in Kontakt zu werden.         |

@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
-ms.openlocfilehash: fddbca47630eeab6c923f12fbaf210cba3bca766
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 85802576f982cca31d201b8f87ab3b585a99bf85df5ed47aa697d49c45c84b1d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279014"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server – Bereichsknoten
 
 Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
 
-Klicken Sie **auf Office Communications Server 2007 R2,** um die Abschnitte unter dem Knoten zu erweitern, oder klicken Sie mit der rechten Maustaste, um auf **Topologieoptionen** oder auf diese **Hilfeseite zu** zugreifen.
+Klicken Sie auf **Office Communications Server 2007 R2,** um die Abschnitte unter dem Knoten zu erweitern, oder klicken Sie mit der rechten Maustaste, um auf **Topologieoptionen** zuzugreifen oder auf diese **Hilfeseite** zuzugreifen.
 
 ## <a name="see-also"></a>Siehe auch
 

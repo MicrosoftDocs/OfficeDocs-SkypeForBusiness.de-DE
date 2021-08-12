@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des A/V-Edgeservers.
-ms.openlocfilehash: c2e246b15eed88cfe369b653a7e2f2f3507acd35
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f7110c426aa51b2c69deab048a0ac46ad31d5d3851d5537382653b83bd26a9ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279243"
 ---
 # <a name="add-edge-server-internal-ip"></a>Hinzufügen der internen IP-Adresse des Edgeservers
 

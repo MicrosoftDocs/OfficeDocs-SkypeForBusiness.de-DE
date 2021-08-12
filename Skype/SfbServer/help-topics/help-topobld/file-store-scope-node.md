@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
-description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) und abhängige Pools für diesen Dateispeicher. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4fd675b972e1bcbd4e6543773bb2c142a018d560
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) und abhängige Pools für diesen Dateispeicher an. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 0d37bb084f4c25a95b4739e0dd19372b1a20905b2c9430fd360117279a8f9f4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329699"
 ---
 # <a name="file-store-scope-node"></a>Dateispeicher – Bereichsknoten
  
-Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) und abhängige Pools für diesen Dateispeicher. Folgende Möglichkeiten stehen zur Verfügung:
+Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) und abhängige Pools für diesen Dateispeicher an. Folgende Möglichkeiten stehen zur Verfügung:
   
 - **Eigenschaften bearbeiten**: Dient zum Öffnen der Seite **Eigenschaften bearbeiten** für diesen Server, auf der Sie den vollqualifizierten Domänennamen (FQDN) und Dateispeichernamen ändern können.
     

@@ -15,24 +15,24 @@ localization_priority: Normal
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten und Subnetzen, mit dem Sie basierend auf der verfügbaren Bandbreite Einschränkungen für Audio- und Videoübertragungen festlegen können. Nach der Konfiguration des Netzwerks für die Anrufsteuerung müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen.
-ms.openlocfilehash: e05d4b480472289560c3d1f517e725fadf7288bb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2b37bb7eb6ad866cb73c3d2e68d51889d0574478b77a246b1f13963bbb260b26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320757"
 ---
 # <a name="call-admission-control-settings-expander"></a>Einstellungen der Anrufsteuerung – Erweiterung
  
 Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten und Subnetzen, mit dem Sie basierend auf der verfügbaren Bandbreite Einschränkungen für Audio- und Videoübertragungen festlegen können. Nach der Konfiguration des Netzwerks für die Anrufsteuerung müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen. 
   
 > [!NOTE]
-> Sie können auch die Systemsteuerung oder die Cmdlets der Verwaltungsshell verwenden, um die Cac zu aktivieren. 
+> Sie können auch die Systemsteuerung oder die Verwaltungsshell-Cmdlets verwenden, um die Anrufsteuerung zu aktivieren. 
   
 Im Abschnitt **Anrufsteuerungseinstellung** des Dialogfelds **Eigenschaften bearbeiten** Ihres Standorts können Sie die folgenden Einstellungen ändern:
   
-- **Aktivieren der Anrufsteuerung** Wählen Sie diese Einstellung aus, um die Cac zu aktivieren. Deaktivieren Sie diese Einstellung, um die Anrufsteuerung für das gesamte Netzwerk zu deaktivieren. Zum Aktivieren der Anrufsteuerung muss das Netzwerk für die Anrufsteuerung konfiguriert sein. Ausführliche Informationen finden Sie [unter "Bereitstellen der Anrufsteuerung in Skype for Business Server"](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) in der Bereitstellungsdokumentation.
+- **Aktivieren der Anrufsteuerung** Wählen Sie diese Einstellung aus, um die Anrufsteuerung zu aktivieren. Deaktivieren Sie diese Einstellung, um die Anrufsteuerung für das gesamte Netzwerk zu deaktivieren. Zum Aktivieren der Anrufsteuerung muss das Netzwerk für die Anrufsteuerung konfiguriert sein. Ausführliche Informationen finden Sie unter [Bereitstellen der Anrufsteuerung in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-call-admission-control.md) in der Bereitstellungsdokumentation.
     
-- **Front-End-Pool zum Ausführen der Anrufsteuerung** Wenn Sie die Cac aktiviert haben, können Sie den Pool ändern, in dem sie ausgeführt wird. Wählen Sie den Pool in der Dropdownliste aus.
+- **Front-End-Pool zum Ausführen der Anrufsteuerung** Wenn Sie die Anrufsteuerung aktiviert haben, können Sie den Pool ändern, in dem sie ausgeführt wird. Wählen Sie den Pool in der Dropdownliste aus.
     
 

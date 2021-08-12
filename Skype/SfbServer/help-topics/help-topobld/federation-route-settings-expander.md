@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Zum Zuweisen einer Partnerverbundroute zu einem Standort muss für den Edgeserver bzw. Edgeserverpool der Partnerverbund aktiviert sein. Ist dies nicht der Fall, können die Einstellungen für die Zuweisung einer Partnerverbundroute nicht geändert werden.
-ms.openlocfilehash: ae8ae765a3975f21bc4b320edfbd6b1b337b8d3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a30fd8220a04b74e4ec2ba38414dc6c6408c59163577d98a5557a65413baff2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810285"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290733"
 ---
 # <a name="federation-route-settings-expander"></a>Einstellungen für die Partnerverbundroute – Erweiterung
  
@@ -29,10 +29,10 @@ Zum Zuweisen einer Partnerverbundroute zu einem Standort muss für den Edgeserve
 
 Wenn die Partnerverbundeinstellung für den Edgeserver oder -pool konfiguriert wurde, können Sie die folgenden Optionen konfigurieren: 
   
-- **Zulassen von Zuweisungen von Verbundrouten zu allen Standorten** Diese Einstellung wirkt sich auf alle Websites aus. Vergewissern Sie sich, dass die Einstellung, die Sie für diesen Standort konfigurieren, für alle Standorte geeignet ist.
+- **Verbundroutenzuweisungen an alle Standorte zulassen** Diese Einstellung wirkt sich auf alle Websites aus. Vergewissern Sie sich, dass die Einstellung, die Sie für diesen Standort konfigurieren, für alle Standorte geeignet ist.
     
-- **Aktivieren des SIP-Verbunds** Wählen Sie diese Option aus, um eine SIP-Verbundroute zu aktivieren, und wählen Sie dann einen Director oder Edgepool als Verbundroute aus.
+- **Aktivieren des SIP-Partnerverbunds** Wählen Sie diese Option aus, um eine SIP-Partnerverbundroute zu aktivieren, und wählen Sie dann einen Director oder Edgepool als Partnerverbundroute aus.
     
-- **Aktivieren des XMPP-Verbunds** Wählen Sie diese Option aus, um eine XMPP-Verbundroute zu aktivieren, und wählen Sie dann einen Director oder Edgepool als Verbundroute aus.
+- **XMPP-Partnerverbund aktivieren** Wählen Sie diese Option aus, um eine XMPP-Partnerverbundroute zu aktivieren, und wählen Sie dann einen Director- oder Edgepool als Partnerverbundroute aus.
     
 

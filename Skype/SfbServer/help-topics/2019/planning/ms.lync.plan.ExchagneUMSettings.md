@@ -1,5 +1,5 @@
 ---
-title: Exchange Unified Messaging Settings (Planning Tool)
+title: Exchange Unified Messaging Einstellungen (Planning Tool)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) für die Kombination von Voice messaging und E-Mail-Messaging in einer einzigen Messaginginfrastruktur.
-ms.openlocfilehash: e23c1e44dc0724651c9072fd0a9d93e06d12cd4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) zum Kombinieren von Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur.
+ms.openlocfilehash: 272c3d51085f9bac2491835bd44317e31784c4729393010f857d5f147fa6bd0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311863"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging Settings (Planning Tool) in Skype for Business 2015
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging Einstellungen (Planning Tool) in Skype for Business 2015
 
 > [!NOTE]
-> Exchange Unified Messaging, wie zuvor bekannt, ist in Exchange 2019 nicht mehr verfügbar, Sie können jedoch weiterhin das Telefonsystem verwenden, um Voicemailnachrichten zu erfassen und die Aufzeichnung dann im Exchange-Postfach eines Benutzers zu be lassen. Weitere [Informationen finden Sie unter Plan Cloud Voicemail service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+> Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar. Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 
-Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) für die Kombination von Voice messaging und E-Mail-Messaging in einer einzigen Messaginginfrastruktur.
+Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) zum Kombinieren von Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur.
 
 Weitere Informationen finden Sie unter:
 
@@ -36,4 +36,4 @@ Weitere Informationen finden Sie unter:
 
 - "Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- "Planen für Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .
+- "Planning for Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .

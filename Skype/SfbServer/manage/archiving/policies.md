@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Benutzerrichtlinien für die Archivierung für Skype for Business Server verwalten.'
-ms.openlocfilehash: 949ac807faea4f563ee078512a3c0a335a517d2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d04406de44510c1d1bc63921e5fa6c5dab817ad81c8cba7dc391ec0ee8454716
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329589"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Verwalten von Archivierungsrichtlinien in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie Benutzerrichtlinien für die Archivierung für Skype for Business Server verwalten.
   
-Sie richten Archivierungsrichtlinien zunächst ein, wenn Sie die Archivierung bereitstellen, sie können jedoch Konfigurationen nach der Bereitstellung ändern, hinzufügen und löschen. Archivierungsrichtlinien bestimmen, ob Dies archiviert werden soll: 
+Sie richten archivierungsrichtlinien zunächst ein, wenn Sie die Archivierung bereitstellen, können konfigurationen jedoch nach der Bereitstellung ändern, hinzufügen und löschen. Archivierungsrichtlinien bestimmen, ob Folgendes archiviert werden soll: 
   
 - Interne Kommunikation
     
@@ -33,7 +33,7 @@ Sie richten Archivierungsrichtlinien zunächst ein, wenn Sie die Archivierung be
 Archivierungsrichtlinien können auf globaler, Standort- oder Benutzerebene festgelegt werden.
   
 > [!NOTE]
-> Wenn Sie die Microsoft Exchange-Integration für Ihre Bereitstellung aktiviert haben, steuern Die Exchange-Richtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange gespeichert sind und deren Postfächer im In-Place werden. Weitere Informationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for Skype for Business [Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Wenn Sie Microsoft Exchange Integration für Ihre Bereitstellung aktiviert haben, steuern Exchange Richtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange verwaltet werden und deren Postfächer In-Place Haltebereich haben. Ausführliche Informationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Verwalten von Archivierungsrichtlinien mithilfe der Systemsteuerung
 
@@ -41,21 +41,21 @@ Sie können Archivierungsrichtlinien mithilfe der Systemsteuerung wie folgt verw
   
 1. Melden Sie sich von einem Benutzerkonto, das der CsArchivingAdministrator- oder der CsAdministrator-Rolle zugeordnet ist, auf einem beliebigen Computer Ihrer internen Bereitstellung an. 
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
-3. Klicken Sie in der linken Navigationsleiste auf **"Archivierungsrichtlinie"**
+3. Klicken Sie in der linken Navigationsleiste auf **"Archivierungsrichtlinie".**
     
-## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Verwalten von Archivierungsrichtlinien mithilfe Windows PowerShell
+## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Verwalten von Archivierungsrichtlinien mithilfe von Windows PowerShell
 
-Sie können Archivierungsrichtlinien auch mithilfe der Windows PowerShell in der folgenden Tabelle aufgeführten Cmdlets konfigurieren. Einzelheiten zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Management Shell](../management-shell.md).
+Sie können Archivierungsrichtlinien auch mithilfe der in der folgenden Tabelle aufgeführten cmdlets Windows PowerShell konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md)
   
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
-|Get-CsArchivingPolicy  <br/> |Gibt Informationen zu den Archivierungsrichtlinien für Chatsitzungen in Ihrer Organisation zurück.  <br/> |
-|Grant-CsArchivingPolicy  <br/> |Weist Benutzern oder Benutzergruppen Archivierungsrichtlinien für Chatsitzungen zu. Diese Richtlinien bieten Ihnen die Möglichkeit, alle Nachrichtensitzungen zu archivieren, die zwischen internen Benutzern stattfinden, und/oder alle Im-Im-Sitzungen zu archivieren, die zwischen internen Benutzern und externen Partnern stattfinden.  <br/> |
-|New-CsArchivingPolicy  <br/> |Erstellt neue Archivierungsrichtlinien für Chatsitzungen. Diese Richtlinien bieten Ihnen die Möglichkeit, alle Nachrichtensitzungen zu archivieren, die zwischen internen Benutzern stattfinden, und/oder alle Im-Im-Sitzungen zu archivieren, die zwischen internen Benutzern und externen Partnern stattfinden.  <br/> |
-|Remove-CsArchivingPolicy  <br/> |Entfernt die angegebene Archivierungsrichtlinie für Chatnachrichten, die bestimmt, ob Skype for Business Server automatisch alle Chatnachrichtensitzungen zwischen internen Benutzern und/oder alle Chatnachrichtensitzungen zwischen internen Benutzern und Verbundpartnern speichern wird.  <br/> |
-|Set-CsArchivingPolicy  <br/> |Ändert eine vorhandene Archivierungsrichtlinie für Chatnachrichten. Mit einer Archivierungsrichtlinie können Sie alle #A0 und -Konferenzen archivieren, die zwischen internen Benutzern stattfinden. Sie können auch Sitzungen archivieren, die zwischen internen Benutzern und Verbundpartnern stattfinden.  <br/> |
+|Get-CsArchivingPolicy  <br/> |Gibt Informationen zu den Archivierungsrichtlinien für Chatsitzungen Ihrer Organisation zurück.  <br/> |
+|Grant-CsArchivingPolicy  <br/> |Weist Benutzern oder Benutzergruppen Archivierungsrichtlinien für Chatsitzungen zu. Mit diesen Richtlinien können Sie alle Chatsitzungen archivieren, die zwischen internen Benutzern stattfinden, und/oder alle Chatsitzungen archivieren, die zwischen internen Benutzern und externen Partnern stattfinden.  <br/> |
+|New-CsArchivingPolicy  <br/> |Erstellt neue Archivierungsrichtlinien für Chatsitzungen. Mit diesen Richtlinien können Sie alle Chatsitzungen archivieren, die zwischen internen Benutzern stattfinden, und/oder alle Chatsitzungen archivieren, die zwischen internen Benutzern und externen Partnern stattfinden.  <br/> |
+|Remove-CsArchivingPolicy  <br/> |Entfernt die angegebene Archivierungsrichtlinie für Chatnachrichten, die bestimmt, ob Skype for Business Server automatisch alle Chatsitzungen speichert, die zwischen internen Benutzern und/oder allen Chatsitzungen zwischen internen Benutzern und Verbundpartnern stattfinden.  <br/> |
+|Set-CsArchivingPolicy  <br/> |Ändert eine vorhandene Archivierungsrichtlinie für Chatnachrichten. Mit einer Archivierungsrichtlinie können Sie alle Chatsitzungen und Konferenzen archivieren, die zwischen internen Benutzern stattfinden. Sie können auch Sitzungen archivieren, die zwischen internen Benutzern und Verbundpartnern stattfinden.  <br/> |
    
 

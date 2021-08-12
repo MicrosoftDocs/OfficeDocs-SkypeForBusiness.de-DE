@@ -1,5 +1,5 @@
 ---
-title: Testgerät Erstellen neuer oder Bearbeiten vorhandener Geräte
+title: Testen des Geräts Erstellen eines neuen oder Bearbeiten eines vorhandenen Testgeräts
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Funktion "Testgerät" wird zusammen mit der Funktion "Geräteaktualisierung" verwendet. Sie können der Seite Testgerät ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite Testgerät der Skype for Business Server-Systemsteuerung angezeigt.
-ms.openlocfilehash: 959abca17e208a397cbdd9ad6a69ba241aad4362
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Die Funktion "Testgerät" wird zusammen mit der Funktion "Geräteaktualisierung" verwendet. Sie können der Seite Testgerät ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite "Testgerät" der Skype for Business Server Systemsteuerung angezeigt.
+ms.openlocfilehash: 73f56f0ef008fe603b44055d1ad2b48086c9d0b49d3200877bc0545f945dc315
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100631"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279303"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Testgerät: Erstellen eines neuen oder Bearbeiten eines vorhandenen Testgeräts
 
-Die Funktion "Testgerät" wird zusammen mit der Funktion "Geräteaktualisierung" verwendet. Sie können der Seite **Testgerät** ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite **Testgerät** der Skype for Business Server-Systemsteuerung angezeigt.
+Die Funktion "Testgerät" wird zusammen mit der Funktion "Geräteaktualisierung" verwendet. Sie können der Seite **Testgerät** ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite **"Testgerät"** der Skype for Business Server Systemsteuerung angezeigt.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -38,13 +38,13 @@ Auf der Seite **Neues Testgerät** bzw. **Testgerät bearbeiten** können Sie di
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Bereich** Identifiziert den Bereich (Global oder Site) des Testgeräts.
+- **Bereich** Gibt den Bereich (global oder Standort) des Testgeräts an.
 
 - **Name** Sie können den Namen des Testgeräts hinzufügen oder ändern.
 
 - **Gerätename** Sie können den Namen des Testgeräts hinzufügen oder ändern.
 
-- **Bezeichnertyp** Sie können die Methode auswählen, mit der das Gerät identifiziert werden soll, indem Sie eine der folgenden Optionen auswählen:
+- **Bezeichnertyp** Sie können die Methode auswählen, die zum Identifizieren des Geräts verwendet werden soll, indem Sie eine der folgenden Optionen auswählen:
 
   - **MAC-Adresse**
 

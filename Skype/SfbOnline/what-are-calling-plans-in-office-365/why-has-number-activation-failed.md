@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: be266289f3f4eae6739280165b2e309d0e82e44b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312273"
 ---
 # <a name="why-has-number-activation-failed"></a>Warum ist die Nummernaktivierung fehlgeschlagen?
 
@@ -95,7 +95,7 @@ Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufpl�
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird auf der Seite **Serviceanfragen** im Microsoft 365 Admin Center aufgeführt.
+> Die Referenznummer wird auf der Seite **Serviceanfragen** in der Liste Microsoft 365 Admin Center.
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

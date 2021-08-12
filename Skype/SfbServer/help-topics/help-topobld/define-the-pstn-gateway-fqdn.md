@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: Sie geben den vollqualifizierten Domänennamen (FQDN) des Public Switched Telephone Network (PSTN)-Gateways an, das Ihre Enterprise-VoIP-Komponenten mit einem PSTN oder einer Nebenstellenanlage verbindet.
-ms.openlocfilehash: 3d5620ba9cf186ffb2b7c971683f299288302a1a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Sie geben den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des PSTN-Gateways (Public Switched Telephone Network) an, das Ihre Enterprise-VoIP-Komponenten mit einer FESTNETZ- oder Nebenstellenanlage verbindet.
+ms.openlocfilehash: c3fbc1aabb29d06c3b4006078864839dd587f80c653771ac63fe2dd11d1746ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290813"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definieren des FQDN des PSTN-Gateways
 
-Sie geben den vollqualifizierten Domänennamen (FQDN) des Public Switched Telephone Network (PSTN)-Gateways an, das Ihre Enterprise-VoIP-Komponenten mit einem PSTN oder einer Nebenstellenanlage verbindet.
+Sie geben den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des PSTN-Gateways (Public Switched Telephone Network) an, das Ihre Enterprise-VoIP-Komponenten mit einer FESTNETZ- oder Nebenstellenanlage verbindet.
 
-Weitere Informationen finden Sie unter [PSTN-Verbindungskomponenten in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Ausführliche Informationen finden Sie unter [PSTN-Verbindungskomponenten in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Siehe auch
 

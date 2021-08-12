@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f1445d19961cc6f7825fc613dfde453900bf82
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: ba3f7efa43377cb69b0142e319d079b6aa2a26b9d923111fe2833cc337176129
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280580"
 ---
 # <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
@@ -61,7 +61,7 @@ Nutzen Sie die verfügbaren Ressourcen, um ihre Bereitstellung und das Upgrade T
 
 - [Assisted upgrades from Skype for Business Online to Microsoft Teams](upgrade-assisted.md) – Automated program that assists you with the technical steps of upgrade Skype for Business Online users to Teams.
 
-- [FastTrack für Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams Bereitstellungsunterstützung für qualifizierende Pläne verfügbar.
+- [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams Bereitstellungsunterstützung für qualifizierende Pläne verfügbar.
 
 - [Teams Liveschulung](./instructor-led-training-teams-landing-page.yml) – Kostenlose Onlineschulungen, die dafür entwickelt wurden, Ihre Organisation mit Ihren Teams.
 

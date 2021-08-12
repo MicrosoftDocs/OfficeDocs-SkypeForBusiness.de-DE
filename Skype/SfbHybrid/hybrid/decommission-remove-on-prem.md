@@ -1,5 +1,5 @@
 ---
-title: Außerbetriebnahme Skype for Business Server
+title: Außerbetriebsetzen Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Anweisungen für die Außerbetriebnahme Skype for Business Server.
-ms.openlocfilehash: bdd38578d8ee98c26e6515c1cd4baa0ef8a825cf
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: d3da949cf5838f73e1818b87e51f7d524389fffcafc640d7754176eab1bd7473
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510786"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312263"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Entfernen Ihrer lokalen Skype for Business-Bereitstellung
 
@@ -40,18 +40,18 @@ In diesem Artikel wird beschrieben, wie Sie Ihre lokale Skype for Business Berei
 
 
 > [!IMPORTANT] 
-> Die Schritte in diesem Artikel gelten nur, wenn Sie Methode 2 zum Verwalten von Benutzerattributen verwenden, wie [hier](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)beschrieben. Wenn Sie Methode 1 verwenden, verwenden Sie nicht die in diesem Artikel beschriebenen Schritte, um Ihre Skype for Business Server zu entfernen. Stattdessen können Sie die Server neu abbilden.
+> Die Schritte in diesem Artikel gelten nur, wenn Sie Methode 2 zum Verwalten von Benutzerattributen verwenden, wie [hier](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)beschrieben. Wenn Sie Methode 1 verwenden, verwenden Sie die in diesem Artikel beschriebenen Schritte nicht, um Ihre Skype for Business Server zu entfernen. Stattdessen können Sie die Server neu abbilden.
 
-Zum Ausführen der Schritte in diesem Artikel benötigen Sie Berechtigungen sowohl für die Gruppe "Schema-Admins" als auch für die Enterprise-Administratorgruppe. Sie benötigen diese Berechtigungen, um das Skype for Business Server Schema und Änderungen auf Gesamtstrukturebene an Active Directory Domain Services rückgängig zu machen. Sie müssen auch Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
+Zum Ausführen der Schritte in diesem Artikel benötigen Sie Berechtigungen für die Gruppe "Schemaadministratoren" und die Gruppe "Enterprise-Administrator". Sie benötigen diese Berechtigungen, um das Skype for Business Server Schema und Änderungen auf Gesamtstrukturebene an Active Directory Domain Services rückgängig zu machen. Sie müssen auch Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
 
 ## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Vorbereiten des Entfernens der Skype for Business Bereitstellung
 
 Nachdem Sie alle erforderlichen Benutzerkonten in die Cloud verschoben haben, sind möglicherweise noch einige lokale Objekte wie Kontakte und Anwendungen vorhanden, die Sie bereinigen müssen.
 
-Führen Sie die folgenden Schritte aus, um diese Objekte zu bereinigen, und stellen Sie sicher, dass Sie mitglied der Gruppe "Lokaler Administrator" und der Gruppe "RTCUniversalServerAdmins" sind. Beachten Sie, dass ExUmContacts und PersistantChatEndPoints in Skype for Business Server 2019 nicht verfügbar sind. Wenn Sie Skype for Business Server 2019 haben, sollten die entsprechenden Cmdlets in den folgenden Schritten weggelassen werden.
+Führen Sie die folgenden Schritte aus, um diese Objekte zu bereinigen, und stellen Sie sicher, dass Sie mitglied der Gruppe "Lokaler Administrator" und der Gruppe "RTCUniversalServerAdmins" sind. Beachten Sie, dass ExUmContacts und PersistantChatEndPoints in Skype for Business Server 2019 nicht verfügbar sind. Wenn Sie über Skype for Business Server 2019 verfügen, sollten die entsprechenden Cmdlets in den folgenden Schritten weggelassen werden.
 
-1. Führen Sie die folgenden Skype for Business Server PowerShell-Cmdlets aus, um zu überprüfen, ob kontakte oder Anwendungen mit der Skype for Business Server lokalen Bereitstellung verknüpft sind.
+1. Führen Sie die folgenden Skype for Business Server PowerShell-Cmdlets aus, um zu überprüfen, ob der Skype for Business Server lokalen Bereitstellung Kontakte oder Anwendungen zugeordnet sind.
 
    ```PowerShell
    Get-CsMeetingRoom
@@ -129,7 +129,7 @@ Nach Abschluss aller vorbereitenden Schritte können Sie die Skype for Business 
    Disable-CsAdForest
    ```
 
-## <a name="see-also"></a>Mehr dazu
+## <a name="see-also"></a>Weitere Artikel
 
 - [Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Anrufsteuerung (Planning Tool)
+title: Anrufsteuerung (Planungstool)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,17 +16,17 @@ localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, ob Kommunikationssitzungen (beispielsweise Sprach- oder Videoanrufe) in Echtzeit eingerichtet werden dürfen.
-ms.openlocfilehash: 36d221b787dfa7ed3846b72b19f9dc5474c08eb2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: df65cf8e78f595748158b7ad8412fca1c288a19f0060f4a1af99a1c530439b85
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311883"
 ---
-# <a name="call-admission-control-planning-tool"></a>Anrufsteuerung (Planning Tool)
+# <a name="call-admission-control-planning-tool"></a>Anrufsteuerung (Planungstool)
  
 Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, ob Kommunikationssitzungen (beispielsweise Sprach- oder Videoanrufe) in Echtzeit eingerichtet werden dürfen.
   
-Einzelheiten zur Planung der Anrufsteuerung finden Sie unter ["Planen der Anrufsteuerung in Skype for Business Server".](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+Ausführliche Informationen zur Planung der Anrufsteuerung finden Sie unter [Plan for call admission control in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 

@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: Dieser Abschnitt bietet eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype for Business Server bilden. Das Verständnis, wie diese Elemente zusammenarbeiten, ist wichtig, um fundierte Entscheidungen zur Sicherung Ihrer bestimmten Skype for Business Server-Bereitstellung zu treffen.
-ms.openlocfilehash: 94d2ffac30e029ab6631557a69d6da3ec108657f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Dieser Abschnitt bietet eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype for Business Server bilden. Das Verständnis, wie diese Elemente zusammenarbeiten, ist wichtig, um fundierte Entscheidungen zum Sichern Ihrer bestimmten Skype for Business Server Bereitstellung zu treffen.
+ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337713"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Sicherheitsframework für Skype for Business Server
  
-Dieser Abschnitt bietet eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype for Business Server bilden. Das Verständnis, wie diese Elemente zusammenarbeiten, ist wichtig, um fundierte Entscheidungen zur Sicherung Ihrer bestimmten Skype for Business Server-Bereitstellung zu treffen.
+Dieser Abschnitt bietet eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype for Business Server bilden. Das Verständnis, wie diese Elemente zusammenarbeiten, ist wichtig, um fundierte Entscheidungen zum Sichern Ihrer bestimmten Skype for Business Server Bereitstellung zu treffen.
   
 Folgende Komponenten sind beteiligt:
   
 - Die Active Directory-Domänendienste (AD DS) bieten ein zentrales vertrauenswürdiges Back-End-Repository für Benutzerkonten und Netzwerkressourcen.
     
-- Role-Based Zugriffssteuerung (RBAC) ermöglicht ihnen das Delegieren von Verwaltungsaufgaben bei gleichzeitiger Aufrechterhaltung hoher Sicherheitsstandards.
+- Role-Based Zugriffssteuerung (Access Control, RBAC) können Sie administrative Aufgaben delegieren und gleichzeitig hohe Sicherheitsstandards beibehalten.
     
-- Public Key Infrastructure (PKI) verwendet Zertifikate, die von vertrauenswürdigen Zertifizierungsstellen ausgestellt wurden, um Server zu authentifizieren und die Datenintegrität sicherzustellen.
+- Public Key Infrastructure (PKI) verwendet Zertifikate, die von vertrauenswürdigen Zertifizierungsstellen (CAs) ausgestellt wurden, um Server zu authentifizieren und die Datenintegrität sicherzustellen.
     
 - TLS (Transport Layer Security), HTTPS über SSL (HTTPS) und MTLS (Mutual TLS) ermöglichen die Authentifizierung von Endgeräten und die Sofortnachrichtenverschlüsselung. Point-to-Point-Audio-, Video- und Anwendungsfreigabe-Datenströme werden mit dem Secure Real-Time Transport Protocol (SRTP) verschlüsselt.
     
@@ -44,11 +44,11 @@ Diese grundlegenden Sicherheitselemente arbeiten zusammen, um vertrauenswürdige
 
 In den Themen in diesem Abschnitt wird beschrieben, wie jedes dieser grundlegenden Elemente funktioniert, um die Sicherheit Ihrer Skype for Business Server-Infrastruktur zu verbessern.
   
-- [Active Directory Domain Services for Skype for Business Server](active-directory-domain-services.md)
+- [Active Directory-Domänendienste für Skype for Business Server](active-directory-domain-services.md)
     
 - [Rollenbasierte Zugriffssteuerung (RBAC) für Skype for Business Server](role-based-access-control-rbac.md)
     
-- [Public Key Infrastructure for Skype for Business Server](public-key-infrastructure-for-skype.md)
+- [Public Key-Infrastruktur für Skype for Business Server](public-key-infrastructure-for-skype.md)
     
 - [TLS und MTLS für Skype for Business Server](tls-and-mtls.md)
     
@@ -56,6 +56,6 @@ In den Themen in diesem Abschnitt wird beschrieben, wie jedes dieser grundlegend
     
 - [Benutzer- und Clientauthentifizierung für Skype for Business Server](user-and-client-authentication.md)
     
-- [Windows PowerShell und Skype for Business Server-Verwaltungstools](management-tools.md)
+- [Verwaltungstools für Windows PowerShell und Skype for Business Server](management-tools.md)
     
 
