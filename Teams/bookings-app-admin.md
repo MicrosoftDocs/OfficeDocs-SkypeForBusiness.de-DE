@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams und virtuelle Visiten und Termine mit der Bookings-App
-ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: HT
+ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295202"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App
 
@@ -53,7 +53,7 @@ Die Microsoft Bookings-App für Microsoft Teams steht auf Desktops und im Web zu
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Steuern des Zugriffs auf die Bookings-App innerhalb Ihrer Organisation
 
-Es gibt mehrere Möglichkeiten, um zu steuern, wer Zugriff auf die Bookings-App und auf bestimmte Features der App hat. Informationen zum Aktivieren oder Deaktivieren von Microsoft Bookings im Microsoft 365 Admin Center sowie zum Erstellen einer Bookings-App-Richtlinie, die es ausgewählten Benutzern ermöglicht, Bookings-Kalender zu erstellen, finden Sie unter [Zugreifen auf Microsoft Bookings](https://support.microsoft.com/de-DE/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Erfahren Sie außerdem, wie Sie eine [Microsoft Teams-App-Richtlinie erstellen können, um die Bookings-App für bestimmte Benutzer anzuheften](teams-app-setup-policies.md).
+Es gibt mehrere Möglichkeiten, um zu steuern, wer Zugriff auf die Bookings-App und auf bestimmte Features der App hat. Informationen zum Aktivieren oder Deaktivieren von Microsoft Bookings im Microsoft 365 Admin Center sowie zum Erstellen einer Bookings-App-Richtlinie, die es ausgewählten Benutzern ermöglicht, Bookings-Kalender zu erstellen, finden Sie unter [Zugreifen auf Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Erfahren Sie außerdem, wie Sie eine [Microsoft Teams-App-Richtlinie erstellen können, um die Bookings-App für bestimmte Benutzer anzuheften](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Empfohlene Einstellungen für Besprechungsrichtlinien
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Bangladesch verfügbar.
-ms.openlocfilehash: 0fa2c72b28ca2bb176a4e076bcd78eee301bd9ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b473d1c48a08b5543b8eb7078c0e6668561d9633db3b244e232252e26ff00a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118394"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295192"
 ---
 # <a name="availability-in-bangladesh"></a>Verfügbarkeit in Bangladesch
 

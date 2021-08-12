@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295172"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -64,8 +64,8 @@ Um das beste Teams-Erlebnis zu bieten, müssen in Ihrer Organisation Exchange On
 
 Zum Skalieren von Besprechungen in Ihrer Organisation sollten Sie sicherstellen, dass alle Benutzerstandorte Zugriff auf das Internet besitzen, damit eine Verbindung zu den Office 365-Diensten hergestellt werden kann. Stellen Sie als Mindestanforderung sicher, dass die folgenden allgemeinen Ports von allen Benutzerstandorten aus zum Internet geöffnet sind:
 
-- TCP-Ports 80 und 443 für ausgehende Verbindungen von Clients, die Teams verwenden sollen
-- UDP-Ports 3478 bis 3481 für ausgehende Verbindungen von Clients, die Teams verwenden sollen
+- TCP-Ports 80 und 443 für ausgehende Verbindungen von Clients, die Teams verwenden sollen
+- UDP-Ports 3478 bis 3481 für ausgehende Verbindungen von Clients, die Teams verwenden sollen
 
 | Frage | Aktion |
 |--------------|--------|

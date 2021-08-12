@@ -1,5 +1,5 @@
 ---
-title: Überprüfen Der Edgebereitstellung in Skype for Business Server
+title: Überprüfen der Edgebereitstellung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,50 +14,50 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 'Zusammenfassung: Erfahren Sie, wie Sie überprüfen, ob Ihre Bereitstellung von Edgeserver oder Edgeserverpool in Skype for Business Server funktioniert.'
-ms.openlocfilehash: 1da2bed1bc9df7cb118d47c2b27e190546838e1b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie, wie Sie überprüfen, ob Ihre Bereitstellung des Edgeservers oder Edgeserverpools in Skype for Business Server funktioniert.'
+ms.openlocfilehash: b2d44018bc43f8335081bcfc961108255240095031983066d54463dabc2538ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320927"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Überprüfen Der Edgebereitstellung in Skype for Business Server
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Überprüfen der Edgebereitstellung in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie überprüfen, ob Ihre Bereitstellung von Edgeserver oder Edgeserverpool in Skype for Business Server funktioniert.
+**Zusammenfassung:** Erfahren Sie, wie Sie überprüfen, ob Ihre Bereitstellung des Edgeservers oder Edgeserverpools in Skype for Business Server funktioniert.
   
-Nachdem Sie Den Edgeserver oder Edgeserverpool bereitgestellt haben, müssen Sie wissen, ob er ordnungsgemäß funktioniert. Im Anschluss finden Sie einige Dinge, die Ihnen dabei helfen können, zu bestätigen, dass Ihre Edgeumgebung mit Ihren internen Servern verbunden ist, und dass Ihre externen Benutzer über Ihren Edge eine Verbindung mit Ihrer Skype for Business Server-Umgebung herstellen können.
+Nachdem Sie Ihren Edgeserver oder Edgeserverpool bereitgestellt haben, müssen Sie wissen, ob er ordnungsgemäß funktioniert. Hier sind einige Dinge, die Ihnen dabei helfen können, zu bestätigen, dass Ihre Edgeumgebung mit Ihren internen Servern verbunden ist, und dass Ihre externen Benutzer über Edge eine Verbindung mit Ihrer Skype for Business Server Umgebung herstellen können.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Überprüfen der Konnektivität zwischen Ihren internen Servern und Ihren Edgeservern
 
-Während die Überprüfung der Konnektivität automatisch im Edgeserver- oder Edgeserverpool erfolgt, wenn die Edgeserver installiert sind, können Sie dies mit der Windows PowerShell. Führen Sie das cmdlet Get-CsManagementStoreReplicationStatus auf dem internen Server aus, der über den zentralen Verwaltungsspeicher verfügt, oder auf einem computer, der einer Domäne beigetreten ist, auf dem Skype for Business Server Core Components (OcsCore.msi) installiert sind.
+Während die Überprüfung der Konnektivität automatisch im Edgeserver oder Edgeserverpool erfolgt, wenn die Edgeserver installiert werden, können Sie dies dennoch selbst mit Windows PowerShell bestätigen. Führen Sie das Cmdlet Get-CsManagementStoreReplicationStatus auf dem internen Server mit dem zentralen Verwaltungsspeicher oder auf einem beliebigen Computer aus, auf dem Skype for Business Server Core Components (OcsCore.msi) installiert sind.
   
-Das erste Ergebnis der Ausführung dieses Befehls kann für die Replikation den Status "False" und nicht "True" geben. Führen Sie in diesem Fall das Invoke-CsManagementStoreReplication aus. Geben Sie ihm etwas Zeit, um die Replikation fertig zu machen, und führen Sie dann das Get-CsManagementStoreReplicationStatus erneut aus.
+Das anfängliche Ergebnis der Ausführung dieses Befehls gibt für die Replikation möglicherweise den Status "False" und nicht "True" aus. Führen Sie in diesem Fall das Cmdlet Invoke-CsManagementStoreReplication aus. Geben Sie ihr etwas Zeit, um die Replikation abzuschließen, und führen Sie dann das Cmdlet Get-CsManagementStoreReplicationStatus erneut aus.
   
-## <a name="verify-connectivity-for-your-external-users"></a>Überprüfen der Konnektivität für externe Benutzer
+## <a name="verify-connectivity-for-your-external-users"></a>Überprüfen der Konnektivität für Ihre externen Benutzer
 
-Wir verfügen über ein hervorragendes Tool zum Bestätigen Ihrer Edgeserverkonfiguration und die Möglichkeit, eine Verbindung herzustellen, die richtigen Nachrichten für Edgeserverszenarien zu senden und zu empfangen. Dies ist der [Remoteverbindungs-Anaylzer-Standort.](https://testconnectivity.microsoft.com/) Dies ist eine Website, die vom Microsoft Support verwaltet und verwaltet wird. Um dieses Tool zu verwenden, navigieren Sie zur Website, und folgen Sie den Anweisungen, um das richtige Szenario für Sie zu wählen.
+Wir verfügen über ein hervorragendes Tool für die Bestätigung Ihrer Edgeserverkonfiguration und die Möglichkeit, die richtigen Nachrichten für Edgeserverszenarien zu verbinden, zu senden und zu empfangen. Dies ist der [Anaylzer-Standort für Remotekonnektivität.](https://testconnectivity.microsoft.com/) Dies ist eine Website, die vom Microsoft-Support verwaltet und verwaltet wird. Um dieses Tool zu verwenden, navigieren Sie zur Website, und folgen Sie den Anweisungen, um das richtige Szenario für Sie auszuwählen.
   
-### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Beim Testen der Konnektivität externer Benutzer zu berücksichtigende Dinge
+### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Zu berücksichtigende Punkte beim Testen der Konnektivität externer Benutzer
 
-Jeder Test für den Zugriff durch externe Benutzer muss jeden Typ von internen Benutzern enthalten, der von Ihrer Organisation unterstützt wird. Dies kann folgendes umfassen:
+Jeder Test für den Zugriff durch externe Benutzer muss jeden Internen Benutzertyp enthalten, den Ihre Organisation unterstützt, der eine oder alle der folgenden Elemente umfassen kann:
   
-- Benutzer aus mindestens einer Verbunddomäne (es wird jedoch empfohlen, sie alle zu testen).
+- Benutzer aus mindestens einer Verbunddomäne (wir empfehlen jedoch, sie alle zu testen).
     
 - Anonyme Benutzer.
     
 - Benutzer in Ihrer Organisation, die remote bei Skype for Business angemeldet sind, aber kein VPN verwenden.
     
-Diese Tests bestimmen, ob Ihr Edgeserver:
+Diese Tests bestimmen, ob ihr Edgeserver:
   
 - Überwachen der erforderlichen Ports durch Verwendung eines telnet-Clients außerhalb Ihres Netzwerks.
     
   - Beispiel: telnet sip.contoso.com 443
     
-  - Sie sollten den vorstehenden Test an den Ports durchführen, die Sie je nach Bereitstellung auf Dem Edgeserver oder Edgeserverpool verwenden.
+  - Sie sollten den vorherigen Test je nach Bereitstellung auf den Ports durchführen, die Sie auf Ihrem Edgeserver oder Edgeserverpool verwenden.
     
 - Ausführen einer präzisen externen DNS-Auflösung.
     
-  - Pingen Sie von außerhalb Des Netzwerks an jeden externen FQDN Ihres Edgeservers oder Edgeserverpools. Selbst wenn der Ping fehlschlägt, werden die IP-Adressen, die Sie zuvor zugewiesen haben, verglichen.
+  - Pingen Sie von außerhalb Des Netzwerks an jeden der externen FQDNs Ihres Edgeservers oder Edgeserverpools. Auch wenn das Pingen fehlschlägt, werden die IP-Adressen angezeigt, die Sie mit den zuvor zugewiesenen IP-Adressen vergleichen können.
     
 

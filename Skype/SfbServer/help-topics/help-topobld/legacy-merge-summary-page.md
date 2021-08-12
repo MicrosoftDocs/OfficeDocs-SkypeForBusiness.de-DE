@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
-description: Die Migration von Microsoft Office Communications Server 2007 R2 zu Lync Server 2013 verwendet Features des Topologie-Generators, um die vorhandenen Topologien zusammenzuführen. Der Zusammenfassungsbildschirm gibt alle Aktionen und Auswahlen an, die Sie während der Konfiguration der Fusion von Office Communications Server 2007 R2 mit der Konfiguration des Lync Server 2013-Topologie-Generators vorgenommen haben.
-ms.openlocfilehash: 4505a90a82c7ea4fefe6245700554b663d4b11ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Bei der Migration von Microsoft Office Communications Server 2007 R2 zu Lync Server 2013 werden features des Topologie-Generators verwendet, um die vorhandenen Topologien zusammenzuführen. Der Zusammenfassungsbildschirm gibt alle Aktionen und Auswahlen an, die Sie während der Konfiguration der Zusammenführung der Office Communications Server 2007 R2 mit der Konfiguration des Lync Server 2013-Topologie-Generators vorgenommen haben.
+ms.openlocfilehash: 5ced1007dc8653146858a22ef5cb1a20b55d6d503217af988f6404ed8ca1b974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311113"
 ---
 # <a name="legacy-merge-summary-page"></a>Legacyzusammenführung – Zusammenfassungsseite
 
-Die Migration von Microsoft Office Communications Server 2007 R2 zu Lync Server 2013 verwendet Features des Topologie-Generators, um die vorhandenen Topologien zusammenzuführen. Der Zusammenfassungsbildschirm gibt alle Aktionen und Auswahlen an, die Sie während der Konfiguration der Fusion von Office Communications Server 2007 R2 mit der Konfiguration des Lync Server 2013-Topologie-Generators vorgenommen haben.
+Bei der Migration von Microsoft Office Communications Server 2007 R2 zu Lync Server 2013 werden features des Topologie-Generators verwendet, um die vorhandenen Topologien zusammenzuführen. Der Zusammenfassungsbildschirm gibt alle Aktionen und Auswahlen an, die Sie während der Konfiguration der Zusammenführung der Office Communications Server 2007 R2 mit der Konfiguration des Lync Server 2013-Topologie-Generators vorgenommen haben.
 
 Prüfen Sie die Zusammenfassung darauf, ob Ihre Auswahl richtig definiert ist. Fahren Sie mit der Zusammenführung fort, wenn Sie mit der in der Zusammenfassung angegebenen Auswahl zufrieden sind.
 

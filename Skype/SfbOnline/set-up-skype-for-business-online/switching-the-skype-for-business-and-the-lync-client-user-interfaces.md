@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie, wie Sie mithilfe von PowerShell in Skype for Business oder Lync-Clientbenutzeroberflächen Microsoft 365 oder Office 365 '
-ms.openlocfilehash: 4fad8e0953e95885e9074d62d8eb0c2a59494976
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3bd4f2eda05808428eadde5f2d596a5b9fe38cea6f1a6c253b2da64f9473f097
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320973"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Wechseln zwischen den Client-Benutzeroberflächen von Skype for Business- und Lync
 

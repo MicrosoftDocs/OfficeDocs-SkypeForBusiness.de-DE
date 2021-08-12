@@ -15,12 +15,12 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Erfahren Sie mehr über die systemeigene Teams-Chats für externe Benutzer (Partnerbenutzer) in Microsoft Teams, in denen sich beide Benutzer im Upgrademodus "TeamsOnly" befinden.
-ms.openlocfilehash: 02bf09a7623079eb207ffca1b122bc03bf07c5c8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3d94c55dc184d80edbc22be53f1df18c256423c5aa04b7e342b8964463db1aa7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350597"
 ---
 # <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Native Chaterfahrung für externe Benutzer (Partnerbenutzer) in Microsoft Teams
 

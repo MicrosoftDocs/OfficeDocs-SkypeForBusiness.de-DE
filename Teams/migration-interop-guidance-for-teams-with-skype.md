@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96aeda2b14d2aa3dedd810317865f3d02e29f68a
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 909c7ca03a2c998e785763b4e1beb09f1f5d0993a286b94d34e2e4d38f6e9b68
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305949"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350667"
 ---
 # <a name="coexistence-modes---reference"></a>Koexistenzmodi – Referenz
 
@@ -53,7 +53,7 @@ Die Modi sind unten aufgeführt.
 |---|---|---|---|---|
 |**TeamsOnly <sup>2</sup>**</br>*Nur möglich, wenn der Benutzer nicht über ein lokales Konto in der Skype for Business Server*|Microsoft Teams|Microsoft Teams|Ja|Der endgültige Status des Upgrades. Auch die Standardeinstellung für neue Mandanten.|
 |Inselmodus|Eine der beiden|Eine der beiden|Ja|Standardkonfiguration. Ermöglicht es einem einzelnen Benutzer, beide Clients nebeneinander auszuwerten. Chats und Anrufe können in beiden Clients landen, sodass Benutzer immer beide Clients ausführen müssen. Um verwirrende oder regressierte Skype for Business-Benutzererfahrungen zu vermeiden, werden externe Kommunikation (Verbundkommunikation), PSTN-Sprachdienste und -Sprachanwendungen, Office-Integration und mehrere andere Integrationen weiterhin von der Skype for Business.|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Microsoft Teams|Ja|"Besprechungen zuerst". In erster Linie für lokale Organisationen, die von Teams Besprechungsfunktionen profitieren können, wenn sie noch nicht bereit sind, Anrufe in die Cloud zu verschieben.|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Teams|Ja|"Besprechungen zuerst". In erster Linie für lokale Organisationen, die von Teams Besprechungsfunktionen profitieren können, wenn sie noch nicht bereit sind, Anrufe in die Cloud zu verschieben.|
 |SfBWithTeamsCollab|Skype for Business|Skype for Business|Ja|Alternativer Ausgangspunkt für komplexe Organisationen, die eine engere administrative Kontrolle benötigen.|
 |SfBOnly|Skype for Business|Skype for Business|No<sup>3</sup>|Spezielles Szenario für Organisationen, die strenge Anforderungen im Bereich der Datensteuerung haben. Teams wird nur für die Teilnahme an Besprechungen verwendet, die von anderen personen geplant wurden.|
 ||||||
@@ -86,7 +86,7 @@ Teams bietet alle relevanten Instanzen von TeamsUpgradePolicy über integrierte,
 </br>
 </br>
 
-|Identität |Modus|NotifySfbUsers|
+|Identity|Modus|NotifySfbUsers|
 |---|---|---|
 |Inselmodus|Inselmodus|Falsch|
 |IslandsWithNotify|Inselmodus|Wahr|
@@ -100,7 +100,7 @@ Teams bietet alle relevanten Instanzen von TeamsUpgradePolicy über integrierte,
 |Global</br>*Standard*|Inselmodus|Falsch|
 ||||
 
-Diese Richtlinieninstanzen können entweder einzelnen Benutzern oder mandantenweit gewährt werden. Beispiel:
+Diese Richtlinieninstanzen können entweder einzelnen Benutzern oder mandantenweit gewährt werden. Zum Beispiel:
 - Um einen Benutzer ($SipAddress) auf eine Teams zu aktualisieren, erteilen Sie die Instanz "UpgradeToTeams":</br>
 `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress`
 - Um ein Upgrade für den gesamten Mandanten auszuführen, geben Sie im Befehl "Erteilen" den Identitätsparameter aus:</br>

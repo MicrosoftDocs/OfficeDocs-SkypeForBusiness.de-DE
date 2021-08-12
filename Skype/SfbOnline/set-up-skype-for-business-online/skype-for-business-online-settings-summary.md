@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Diese Zusammenfassung der Skype for Business und der Benutzereinstellungen hilft Ihnen, weitere Informationen zu Verbindungen mit öffentlichen Benutzern, Besprechungseinladungen, Aufzeichnen von Anrufen und Besprechungen und vielem mehr zu erhalten.  '
-ms.openlocfilehash: deb1ed7df753377d97c23793278b317a633559b6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239718"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295102"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Zusammenfassung der Skype for Business Online-Einstellungen
 

@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Aktivieren oder deaktivieren Sie das Senden eines Archivierungshaftungsausschlusses an Verbundpartner in Skype for Business Server.
+ms.openlocfilehash: 5c3e5b864b26977c2d25e534cdb62f9619644587a2b0658a788727ad2cd3fef4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848860"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren des Sendens eines Archivierungshaftungsausschlusses an Verbundpartner in Skype for Business Server
 
@@ -49,18 +49,13 @@ Damit Verbundbenutzer mit Benutzern in Ihrer Skype for Business Server Bereitste
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des Archivierungshaftungsausschlusses mithilfe Windows PowerShell Cmdlets
 
-Die Verwendung des Archivierungshaftungsausschlusses kann mit Windows PowerShell und dem Cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Die Verwendung des Archivierungshaftungsausschlusses kann mit Windows PowerShell und dem Cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>So aktivieren Sie den Archivierungshaftungsausschluss
 
-  - Um den Archivierungshaftungsausschluss zu aktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer"** auf "True" ($True) fest:
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+  - Um den Archivierungshaftungsausschluss zu aktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer"** auf "True" ($True) fest:<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 
 ## <a name="to-disable-the-archiving-disclaimer"></a>So deaktivieren Sie den Archivierungshaftungsausschluss
 
-  - Um den Archivierungshaftungsausschluss zu deaktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer"** auf "False" ($False) fest:
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
-
+  - Um den Archivierungshaftungsausschluss zu deaktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer"** auf "False" ($False) fest:<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 

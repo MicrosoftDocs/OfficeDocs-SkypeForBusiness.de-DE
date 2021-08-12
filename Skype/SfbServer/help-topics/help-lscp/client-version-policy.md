@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server 2015 enthaltenen Features so gut wie zu nutzen und die Benutzerfreundlichkeit insgesamt zu verbessern, können Sie den Clientversionsfilter verwenden, um die in Ihrer Umgebung verwendeten Clientversionen einzuschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
-ms.openlocfilehash: 0af11ac26a73452412c653c04233df7b932f2b49
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server 2015 enthaltenen Features am besten zu nutzen und die Gesamtbenutzererfahrung zu verbessern, können Sie den Clientversionsfilter verwenden, um die in Ihrer Umgebung verwendeten Clientversionen einzuschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
+ms.openlocfilehash: 5d32822a475183c668a78cdbea54a9b755cb35c60843ccae1cf4cb4c09fbfb77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287154"
 ---
 # <a name="client-version-policy"></a>Clientversionsrichtlinie
 
-Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server 2015 enthaltenen Features so gut wie zu nutzen und die Benutzerfreundlichkeit insgesamt zu verbessern, können Sie den Clientversionsfilter verwenden, um die in Ihrer Umgebung verwendeten Clientversionen einzuschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
+Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server 2015 enthaltenen Features am besten zu nutzen und die Gesamtbenutzererfahrung zu verbessern, können Sie den Clientversionsfilter verwenden, um die in Ihrer Umgebung verwendeten Clientversionen einzuschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
 Auf der Seite **Clientversionsrichtlinie** können Sie die folgenden Aufgaben ausführen:
 
-- Bearbeiten Sie die **Standardmäßige Clientversionsrichtlinie**( Global ).
+- Bearbeiten Sie die Standardmäßige Clientversionsrichtlinie **(global).**
 
 - Erstellen von Clientversionsrichtlinien für einen bestimmten Standort oder Pool
 
@@ -51,11 +51,11 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
   - Benutzerrichtlinie
 
-- **Bearbeiten** Sie können die Optionen einer beliebigen Clientversionsrichtlinien ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
+- **Bearbeiten** Sie können die Optionen einer beliebigen Clientversionsrichtlinie ändern. Mit dieser Option haben Sie folgende Möglichkeiten:
 
   - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für eine Clientversionsrichtlinie ändern können.
 
-  - **Wählen Sie Alle aus.** Mit dieser Option werden alle Clientversionsrichtlinien in der Liste ausgewählt.
+  - **Alle auswählen** Diese Option wählt alle Clientversionsrichtlinien in der Liste aus.
 
   - **Löschen** Mit dieser Option werden alle ausgewählten Clientversionsrichtlinien gelöscht.
 

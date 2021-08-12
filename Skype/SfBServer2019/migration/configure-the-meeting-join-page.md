@@ -10,30 +10,30 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt, wird auf der Seite für den besprechungsbeitritt ermittelt, welcher Client auf dem Computer des Benutzers bereits installiert ist. Ist bereits ein Client installiert, wird dieser Client geöffnet und für den Besprechungsbeitritt verwendet. Wenn ein Client nicht installiert ist, wird die Webanwendung standardmäßig geöffnet.
-ms.openlocfilehash: a7bb0983438708bbc0d30cd527eb494491c3cbf2
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt, erkennt die Seite für den Besprechungsbeitritt, welcher Client bereits auf dem Computer des Benutzers installiert ist. Ist bereits ein Client installiert, wird dieser Client geöffnet und für den Besprechungsbeitritt verwendet. Wenn kein Client installiert ist, wird standardmäßig die Web-App geöffnet.
+ms.openlocfilehash: c90e8afa95a73618eb1aa95b3d8d174e950e7e92a49988cb6146209f49cc0e58
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295122"
 ---
 # <a name="configure-the-meeting-join-page"></a>Konfigurieren der Seite für den Besprechungsbeitritt
 
-Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt, wird auf der Seite für den besprechungsbeitritt ermittelt, welcher Client auf dem Computer des Benutzers bereits installiert ist. Ist bereits ein Client installiert, wird dieser Client geöffnet und für den Besprechungsbeitritt verwendet. Wenn ein Client nicht installiert ist, wird die Webanwendung standardmäßig geöffnet.
+Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt, erkennt die Seite für den Besprechungsbeitritt, welcher Client bereits auf dem Computer des Benutzers installiert ist. Ist bereits ein Client installiert, wird dieser Client geöffnet und für den Besprechungsbeitritt verwendet. Wenn kein Client installiert ist, wird standardmäßig die Web-App geöffnet.
   
-Sie können das Verhalten der Seite für den besprechungsbeitritt ändern, wenn Sie zulassen möchten, dass Benutzer an Besprechungen teilnehmen können. Diese Konfigurationsoptionen wurden aus der Systemsteuerung entfernt, Sie werden jedoch mithilfe des CsWebServiceConfiguration-Cmdlets konfiguriert.
+Sie können das Verhalten der Besprechungsteilnahmeseite ändern, wenn Sie Benutzern die Teilnahme an Besprechungen gestatten möchten. Diese Konfigurationsoptionen wurden aus der Systemsteuerung entfernt, aber Sie konfigurieren sie mithilfe des Cmdlets "CsWebServiceConfiguration".
   
 **CsWebServiceConfiguration-Parameter der Seite für den Besprechungsbeitritt**
 
 |**CsWebServiceConfiguration-Parameter**|**Beschreibung**|
 |:-----|:-----|
-|"Showjoinusinglegacyclientlink"  <br/> |Bei Festlegung auf "true" wird Benutzern, die einer Besprechung mit einer anderen Clientanwendung als lync beitreten, die Möglichkeit gegeben, an der Besprechung teilzunehmen. Der Standardwert lautet "False".  <br/> |
-|ShowAlternateJoinOptionsExpanded  <br/> |Bei Festlegung auf "true" werden alternative Optionen für die Teilnahme an einer Onlinekonferenz automatisch erweitert und Benutzern angezeigt. Bei Festlegung auf "false" (Standardwert) sind diese Optionen verfügbar, aber der Benutzer muss die Liste der Optionen für sich selbst anzeigen.  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |Bei Festlegung auf "True" erhalten Benutzer, die mithilfe einer anderen Clientanwendung als Lync an einer Besprechung teilnehmen, die Möglichkeit, an der Besprechung teilzunehmen. Der Standardwert lautet "False".  <br/> |
+|ShowAlternateJoinOptionsExpanded  <br/> |Bei Festlegung auf "True" werden alternative Optionen für die Teilnahme an einer Onlinekonferenz automatisch erweitert und Benutzern angezeigt. Bei Festlegung auf "False" (Standardwert) sind diese Optionen verfügbar, aber der Benutzer muss die Liste der Optionen für sich selbst anzeigen.  <br/> |
    
-### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>So konfigurieren Sie die Seite für den besprechungsbeitritt mithilfe Skype for Business Server 2019-Verwaltungsshell
+### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>So konfigurieren Sie die Besprechungsbeitrittsseite mithilfe Skype for Business Server 2019-Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server 2019-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, dann auf **Microsoft Skype for Business Server 2019**, und klicken Sie dann auf **Skype for Business Server Verwaltungskonsole**.
+1. Starten Sie die Skype for Business Server 2019-Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Microsoft Skype for Business Server 2019"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Führen Sie das folgende Cmdlet aus: 
     
@@ -43,7 +43,7 @@ Sie können das Verhalten der Seite für den besprechungsbeitritt ändern, wenn 
 
     Dieses Cmdlet gibt die Konfigurationseinstellungen für den Webdienst zurück.
     
-3. Führen Sie den folgenden Befehl aus, wobei die Parameter abhängig von Ihren Einstellungen auf true oder false festgelegt sind (Ausführliche Informationen zu den Parametern für dieses Cmdlet finden Sie in der Dokumentation zur [Skype for Business Server Verwaltungsshell](../../SfbServer/manage/management-shell.md) ):
+3. Führen Sie den folgenden Befehl aus, wobei die Parameter je nach Ihren Wünschen auf "True" oder "False" festgelegt sind (Ausführliche Informationen zu den Parametern für dieses Cmdlet finden Sie in der Dokumentation [zur Skype for Business Server Verwaltungsshell):](../../SfbServer/manage/management-shell.md)
     
    ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True

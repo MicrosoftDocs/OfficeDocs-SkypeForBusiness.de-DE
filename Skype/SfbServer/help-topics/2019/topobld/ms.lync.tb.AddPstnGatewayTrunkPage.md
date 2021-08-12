@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switched Telephone Network, PSTN), indem Sie Folgendes konfigurieren:'
-ms.openlocfilehash: 183787e78fee0fa827bd3cc554fb7d43188014d2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dfd7287cff7c4ae941c5613f5dd031e277957aad83de877f5c2ec7fec0a5a72e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295432"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definieren des Stammtrunks für eine neue IP-Adresse oder ein neues PSTN-Gateway
 
@@ -32,9 +32,9 @@ Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switc
 
 - **SIP-Transportprotokoll**: Wählen Sie je nach Ihren Trunkanforderungen in der Liste entweder **TCP** oder **TLS** aus.
 
-- **Zugeordneter Vermittlungsserver:** Wählen Sie in der Liste der verfügbaren Vermittlungsserver in Ihrer Bereitstellung aus.
+- **Zugeordneter Vermittlungsserver:** Wählen Sie aus der Liste der verfügbaren Vermittlungsserver in Ihrer Bereitstellung aus.
 
-- **Zugeordneter Vermittlungsserverport:** Definieren des Ports, den der ausgewählte Vermittlungsserver abhört
+- **Zugeordneter Vermittlungsserverport:** Definieren des Ports, auf dem der ausgewählte Vermittlungsserver lauscht
 
 ## <a name="see-also"></a>Siehe auch
 
