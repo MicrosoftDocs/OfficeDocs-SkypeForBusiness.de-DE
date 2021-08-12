@@ -1,5 +1,5 @@
 ---
-title: Ansicht "FileTransfers"
+title: FileTransfers-Ansicht
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: In der Ansicht "FileTransfer" werden Informationen zu Peer-zu-Peer-Dateiübertragungssitzungen gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 8b3c2db012b8969bd4b5b75ca19ed090f8227c53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In der FileTransfer-Ansicht werden Informationen zu Peer-to-Peer-Dateiübertragungssitzungen gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+ms.openlocfilehash: e805b770038eb7fae93337c5d6c26d7059e5764436328f6321e65c948e40c88d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821685"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349687"
 ---
-# <a name="filetransfers-view"></a>Ansicht "FileTransfers"
+# <a name="filetransfers-view"></a>FileTransfers-Ansicht
  
-In der Ansicht "FileTransfer" werden Informationen zu Peer-zu-Peer-Dateiübertragungssitzungen gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+In der FileTransfer-Ansicht werden Informationen zu Peer-to-Peer-Dateiübertragungssitzungen gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
   
 > [!NOTE]
-> Die Ansicht "FileTransfers" enthält zusätzlich zu den unten aufgeführten Spalten alle Spalten in der Ansicht ["SessionDetails".](sessiondetails-0.md)
+> Die FileTransfers-Ansicht enthält zusätzlich zu den unten aufgeführten Spalten alle Spalten in der [SessionDetails-Ansicht.](sessiondetails-0.md)
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
 |**FileName** <br/> |nvarchar(256)  <br/> |Name der übertragenen Datei.  <br/> |
 |**Cookie** <br/> |nvarchar(128)  <br/> |Wird verwendet, um jede Nachricht zur Nachverfolgung als hiermit zugeordnet zu identifizieren.  <br/> |
-|**FileIdentity** <br/> |uniqueidentifier  <br/> |Eindeutiger Bezeichner zum Unterscheiden zwischen Dateiübertragungen mit demselben Dateinamen.  <br/> |
-|**Accept** <br/> |bit  <br/> |Kann TRUE oder NULL sein. Falls TRUE erhalten Reject und Cancel den Wert NULL.  <br/> |
-|**Reject** <br/> |bit  <br/> |Kann TRUE oder NULL sein. Falls TRUE erhalten Accept und Cancel den Wert NULL.  <br/> |
-|**Cancel** <br/> |bit  <br/> |Kann TRUE oder NULL sein. Falls TRUE erhalten Accept und Reject den Wert NULL.  <br/> |
+|**FileIdentity** <br/> |Uniqueidentifier  <br/> |Eindeutiger Bezeichner zum Unterscheiden zwischen Dateiübertragungen mit demselben Dateinamen.  <br/> |
+|**Accept** <br/> |Bit  <br/> |Kann TRUE oder NULL sein. Falls TRUE erhalten Reject und Cancel den Wert NULL.  <br/> |
+|**Reject** <br/> |Bit  <br/> |Kann TRUE oder NULL sein. Falls TRUE erhalten Accept und Cancel den Wert NULL.  <br/> |
+|**Cancel** <br/> |Bit  <br/> |Kann TRUE oder NULL sein. Falls TRUE erhalten Accept und Reject den Wert NULL.  <br/> |
    
 

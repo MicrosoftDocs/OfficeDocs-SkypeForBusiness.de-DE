@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Richten Sie die Anrufanalyse pro Benutzer für ein, um Probleme mit der Microsoft Teams zu identifizieren und zu behandeln.
-ms.openlocfilehash: 209fcad851f5ba7b0183a9988372e249f99cc4fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 968a4c06d4b1be1384303241d0eb6b45721e833560d46169acf96caa1f18a576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332537"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Einrichten der Anrufanalyse für Microsoft Teams
 

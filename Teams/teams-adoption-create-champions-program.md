@@ -21,12 +21,12 @@ f1.keywords:
 description: Erfahren Sie, wie Sie ein Team von Erfahrener schulen, um die Akzeptanz Teams fördern, indem Sie das Bewusstsein für Die Akzeptanz und Ausbildung in Ihrer Organisation fördern.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a81e143d0b8d9d026c2e24a0469bc6d241d840f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a29e99a85e0759ca67cb94bd690dac3e690b07fd1269b33aa76e4ca315207d0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296622"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Erstellen Ihres Champions-Programms für Microsoft Teams
 

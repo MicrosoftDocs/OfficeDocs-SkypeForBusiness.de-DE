@@ -1,5 +1,5 @@
 ---
-title: Änderungen, die von der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden
+title: Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objekte und der universellen Dienst- und Verwaltungsgruppen, die bei der Gesamtstrukturvorbereitung erstellt werden.
-ms.openlocfilehash: b304dbb12cb7e05e7bc82bdc56ffc330ce0221c7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349727"
 ---
-# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die von der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden
+# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server
 
 Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objekte und der universellen Dienst- und Verwaltungsgruppen, die bei der Gesamtstrukturvorbereitung erstellt werden.
 
 ## <a name="active-directory-global-settings-and-objects"></a>Globale Einstellungen und Objekte in Active Directory
 
-Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie bei allen neuen Skype for Business Server-Bereitstellungen), verwendet die Gesamtstrukturvorbereitung den vorhandenen Services-Container und fügt ein **RTC Service-Objekt** unter dem Configuration\Services-Objekt hinzu. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das globale Einstellungsobjekt enthält alle Einstellungen, die für die Skype for Business Server-Bereitstellung gelten. Wenn Sie die globalen Einstellungen im Systemcontainer speichern, wird bei der Gesamtstrukturvorbereitung ein Microsoft-Container unterhalb des Systemcontainers der Stammdomäne verwendet und unterhalb des Objekts "System\Microsoft" ein Objekt "RTC Service" hinzugefügt.
+Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie bei allen neuen Skype for Business Server Bereitstellungen), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienstcontainer und fügt ein **RTC Service** -Objekt unter dem Configuration\Services -Objekt hinzu. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das globale Einstellungsobjekt enthält alle Einstellungen, die für die Skype for Business Server Bereitstellung gelten. Wenn Sie die globalen Einstellungen im Systemcontainer speichern, wird bei der Gesamtstrukturvorbereitung ein Microsoft-Container unterhalb des Systemcontainers der Stammdomäne verwendet und unterhalb des Objekts "System\Microsoft" ein Objekt "RTC Service" hinzugefügt.
 
 Außerdem wird während der Gesamtstrukturvorbereitung ein neues Objekt **msRTCSIP-Domain** für die Stammdomäne hinzugefügt, in der das Verfahren ausgeführt wird.
 
@@ -36,11 +36,11 @@ Die Gesamtstrukturvorbereitung erstellt universelle Gruppen anhand der von Ihnen
 
 Anhand von universellen Gruppen können Administratoren globale Einstellungen und Dienste verwenden und verwalten. Bei der Gesamtstrukturvorbereitung werden die folgenden Typen von universellen Gruppen hinzugefügt:
 
-- **Administrative Gruppen** Diese Gruppen definieren Administratorrollen für ein Skype for Business Server-Netzwerk.
+- **Administrative Gruppen** Diese Gruppen definieren Administratorrollen für ein Skype for Business Server Netzwerk.
 
-- **Infrastrukturgruppen** Diese Gruppen ermöglichen den Zugriff auf bestimmte Bereiche der Skype for Business Server-Infrastruktur. Sie fungieren als Komponenten von administrativen Gruppen. Sie sollten diese Gruppen weder ändern noch direkt Benutzer zu ihnen hinzufügen.
+- **Infrastrukturgruppen** Diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der Skype for Business Server-Infrastruktur. Sie fungieren als Komponenten von administrativen Gruppen. Sie sollten diese Gruppen weder ändern noch direkt Benutzer zu ihnen hinzufügen.
 
-- **Dienstgruppen** Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene Skype for Business Server-Dienste erforderlich sind.
+- **Dienstgruppen** Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene Skype for Business Server Dienste erforderlich sind.
 
 In der folgenden Tabelle werden die administrativen Gruppen beschrieben.
 
@@ -60,9 +60,9 @@ In der folgenden Tabelle werden die Infrastrukturgruppen beschrieben.
 |:-----|:-----|
 |RTCUniversalGlobalWriteGroup  <br/> |Gewährt Schreibzugriff auf globale Einstellungsobjekte für Skype for Business Server.  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf globale Einstellungsobjekte für Skype for Business Server.  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server-Benutzereinstellungen.  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server-Einstellungen. Diese Gruppe hat keinen Zugriff auf die Einstellungen auf Poolebene, sondern lediglich auf Einstellungen für einzelne Server.  <br/> |
-|RTCUniversalSBATechnicians  <br/> |Gewährt schreibgeschützten Zugriff auf die Skype for Business Server-Konfiguration und wird während der Installation in der Gruppe Lokale Administratoren der survivable Branch Appliances platziert.  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server Benutzereinstellungen.  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server Einstellungen. Diese Gruppe hat keinen Zugriff auf die Einstellungen auf Poolebene, sondern lediglich auf Einstellungen für einzelne Server.  <br/> |
+|RTCUniversalSBATechnicians  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server Konfiguration und wird während der Installation in die Gruppe der lokalen Administratoren der survivable Branch Appliances aufgenommen.  <br/> |
 
 In der folgenden Tabelle werden die Dienstgruppen beschrieben.
 
@@ -70,11 +70,11 @@ In der folgenden Tabelle werden die Dienstgruppen beschrieben.
 
 |**Dienstgruppe**|**Beschreibung**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |Enthält Dienstkonten, die zum Ausführen von Front-End-Server- und Standard Edition-Servern verwendet werden. Diese Gruppe ermöglicht Servern Lese-/Schreibzugriff auf globale Skype for Business Server-Einstellungen und Active Directory-Benutzerobjekte.  <br/> |
+|RTCHSUniversalServices  <br/> |Enthält Dienstkonten, die zum Ausführen von Front-End-Servern und Standard Edition Servern verwendet werden. Diese Gruppe ermöglicht Servern Lese-/Schreibzugriff auf Skype for Business Server globalen Einstellungen und Active Directory-Benutzerobjekte.  <br/> |
 |RTCComponentUniversalServices  <br/> |Umfasst Dienstkonten, die zum Ausführen von A/V-Konferenzservern, Webdiensten, Vermittlungsservern, Archivierungsservern und Überwachungsservern verwendet werden.  <br/> |
-|RTCProxyUniversalServices  <br/> |Umfasst Dienstkonten, die zum Ausführen von Skype for Business Server-Edgeservern verwendet werden.  <br/> |
-|RTCUniversalConfigReplicator  <br/> |Enthält Server, die an der Replikation des zentralen Skype for Business Server-Verwaltungsspeichers teilnehmen können.  <br/> |
-|RTCSBAUniversalServices  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server-Einstellungen, ermöglicht jedoch die Konfiguration für die Installation eines survivable Branch Servers und einer survivable Branch Appliance-Bereitstellung.  <br/> |
+|RTCProxyUniversalServices  <br/> |Enthält Dienstkonten, die zum Ausführen Skype for Business Server Edgeservern verwendet werden.  <br/> |
+|RTCUniversalConfigReplicator  <br/> |Umfasst Server, die an Skype for Business Server Replikation des zentralen Verwaltungsspeichers teilnehmen können.  <br/> |
+|RTCSBAUniversalServices  <br/> |Gewährt schreibgeschützten Zugriff auf Skype for Business Server Einstellungen, ermöglicht aber die Konfiguration für die Installation eines Survivable Branch Servers und einer Survivable Branch Appliance-Bereitstellung.  <br/> |
 
 Die Gesamtstrukturvorbereitung fügt den entsprechenden Infrastrukturgruppen dann wie folgt Dienst- und Verwaltungsgruppen hinzu:
 
@@ -110,15 +110,15 @@ Bei der Gesamtstrukturvorbereitung werden außerdem die folgenden rollenbasierte
 
 Ausführliche Informationen zu rollenbasierten Zugriffssteuerungsrollen und den Aufgaben, die mit jeder dieser Rollen ausgeführt werden können, finden Sie unter [Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) in der Planungsdokumentation.
 
-Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche ACEs erstellt. Es erstellt private ACEs im globalen Einstellungscontainer, der von Skype for Business Server verwendet wird. Dieser Container wird nur von Skype for Business Server verwendet und befindet sich entweder im Konfigurationscontainer oder im Systemcontainer in der Stammdomäne, je nachdem, wo Sie globale Einstellungen speichern. Die von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs sind in der folgenden Tabelle aufgeführt.
+Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche ACEs erstellt. Es erstellt private ACEs für den globalen Einstellungscontainer, der von Skype for Business Server verwendet wird. Dieser Container wird nur von Skype for Business Server verwendet und befindet sich entweder im Konfigurationscontainer oder im Systemcontainer in der Stammdomäne, je nachdem, wo Sie globale Einstellungen speichern. Die von der Gesamtstrukturvorbereitung erstellten öffentlichen ACEs sind in der folgenden Tabelle aufgeführt.
 
 **Von der Gesamtstruktur erstellte öffentliche ACEs**
 
 
 | **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
-| Stammdomäne Systemcontainer lesen (nicht geerbt) **\\**\* <br/>        | X  <br/>                            |
-| Lesen des DisplaySpecifiers-Containers der Konfiguration (nicht geerbt)  <br/> | X  <br/>                            |
+| Lesen des Systemcontainers der Stammdomäne (nicht geerbt) **\\**\* <br/>        | X  <br/>                            |
+| Read Configuration's DisplaySpecifiers container (not inherited)  <br/> | X  <br/>                            |
 
 > [!NOTE]
 > <strong>\\</strong>*ACEs, die nicht geerbt werden, gewähren keinen Zugriff auf untergeordnete Objekte unter diesen Containern. ACEs, die vererbt werden, gewähren Zugriff auf untergeordnete Objekte im betreffenden Container.

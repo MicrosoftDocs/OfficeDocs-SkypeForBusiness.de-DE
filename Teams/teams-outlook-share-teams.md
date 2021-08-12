@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312503"
 ---
 # <a name="share-to-teams-from-outlook"></a>Freigeben für Teams von Outlook
 
@@ -49,9 +49,9 @@ Führen Sie zum Aktivieren des Add-Outlook, das von Share to Teams verwendet wir
 
 ## <a name="browsers-and-single-sign-on"></a>Browser und einmaliges Anmelden
 
-Die Freigabe Teams -Clients im Web Outlook Outlook Desktopclients basiert auf einer Webbrowser-Webansicht. Details dazu, welche Clients welche bestimmten Browser verwenden, finden Sie unter von [Office-Add-Ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) verwendete Browser. 
+Die Freigabe Teams Browser basiert sowohl in Outlook im Web als Outlook-Desktopclients auf einem Webbrowser-WebView-Browser. Details dazu, welche Clients welche bestimmten Browser verwenden, finden Sie unter von [Office-Add-Ins](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) verwendete Browser. 
 
 > [!IMPORTANT]
 > Für die Freigabe Teams Browser muss sowohl Cookies von Drittanbietern als auch der lokale Speicherzugriff aktiviert sein.
 
-Die Freigabe für Teams verwendet einmaliges Anmelden (Single Sign-On, SSO), was bedeutet, dass die Benutzer ihre Anmeldeinformationen nicht angeben müssen, wenn sie das Add-In über "Freigeben" für Teams. SSO für Outlook im Web unterstützt https://outlook.office365.com/owa/extSSO.aspx und beantwortet https://outlook.office.com/owa/extSSO.aspx standardmäßig URLs. Für Vanity-Domänen müssen Administratoren die entsprechende Antwort-URL Azure Active Directory hinzufügen.
+Die Freigabe für Teams verwendet einmaliges Anmelden (Single Sign-On, SSO), was bedeutet, dass die Benutzer ihre Anmeldeinformationen nicht angeben müssen, wenn sie das Add-In über "Freigeben" für Teams. SSO für Outlook im Web https://outlook.office365.com/owa/extSSO.aspx standardmäßig https://outlook.office.com/owa/extSSO.aspx URLs unterstützt und beantwortet. Für Vanity-Domänen müssen Administratoren die entsprechende Antwort-URL Azure Active Directory hinzufügen.

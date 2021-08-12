@@ -16,16 +16,16 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel bietet eine Übersicht über die von der Microsoft Teams unterstützten Features.
-ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322677"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams anzeigen
 
-Microsoft Teams-Displays sind eine Kategorie von all-in-one-dedizierten Teams-Geräten mit Umgebungs touchscreen und Freisprechfunktion, die von Cortana unterstützt wird. Dieser Artikel bietet eine Übersicht über alle Teams und hilft Ihnen beim Planen, Bereitstellen und Verwalten Teams Anzeigen in Ihrer Organisation.
+Microsoft Teams-Displays sind eine Kategorie von all-in-One-Teams-Geräten, die über einen Umgebungs-Touchscreen und eine freisprechnde Besprechung verfügen, die von Cortana. Dieser Artikel bietet eine Übersicht über alle Teams und hilft Ihnen beim Planen, Bereitstellen und Verwalten Teams Anzeigen in Ihrer Organisation.
 
 Teams zeigt Ihre bevorzugten Features Teams Chats, Besprechungen, Anrufe, Kalender und Dateien auf einem &ndash; &ndash; einzigen Gerät zusammen. Bei Teams können Benutzer ein Mikrofon, eine Kamera und Lautsprecher (oder Bluetooth Headset) verwenden, um zuverlässige Anrufe und Besprechungen zu ermöglichen. Teams-Displays sind in die App Windows-PCs integriert, um eine Begleiterfahrung zu bieten, die eine nahtlose geräteübergreifende Interaktion ermöglicht.
 
@@ -70,4 +70,4 @@ Teams Anzeigen ist die Weiterentwicklung Teams Smartphones. Sie können ein Team
 
 [Aktualisieren von IP-Telefonen auf Teams Bildschirme](upgrade-phones-to-displays.md)
 
-[Cortana-Sprachunterstützung in Teams](../cortana-in-teams.md)
+[Cortana Sprachunterstützung in Teams](../cortana-in-teams.md)

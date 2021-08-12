@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume in einer Hybridumgebung mit Exchange lokalen Bereitstellungsumgebung.
-ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296652"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
@@ -69,7 +69,7 @@ Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden
     > [!NOTE]
     > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung dafür, dass Skype for Business Server Kennwort Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Falls müssen Sie für jedes Microsoft Teams-Räume eine Ausnahme erstellen.
   
-4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wechseln Sie nach Abschluss des Vorgangs zur Seite Benutzer in Ihrem Microsoft 365 Admin Center, und vergewissern Sie sich, dass das in den vorherigen Schritten erstellte Konto mit online zusammengeführt wurde.
+4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wechseln Sie nach Abschluss des Vorgangs zur Seite "Benutzer" in Ihrem Microsoft 365 Admin Center und vergewissern Sie sich, dass das in den vorherigen Schritten erstellte Konto mit online zusammengeführt wurde.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Aktivieren des Remotepostfachs und Festlegen von Eigenschaften
 

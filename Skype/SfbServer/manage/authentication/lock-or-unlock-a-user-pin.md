@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Zusammenfassung: Sperren oder Entsperren der Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server.'
-ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284805"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Sperren oder Entsperren einer Benutzer-PIN in Skype for Business Server
  
 **Zusammenfassung:** Sperren oder Entsperren der Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server.
   
-Sie können die PIN eines Benutzers  im Abschnitt Benutzer der Skype for Business Server-Systemsteuerung sperren oder entsperren.
+Sie können die PIN eines Benutzers im Abschnitt **"Benutzer"** in Skype for Business Server Systemsteuerung sperren oder entsperren.
   
-### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>So sperren Sie die PIN eines Benutzers in der Skype for Business Server-Systemsteuerung
+### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>So sperren Sie die PIN eines Benutzers in Skype for Business Server Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
@@ -57,11 +57,11 @@ Sie können die PIN eines Benutzers  im Abschnitt Benutzer der Skype for Busines
     
    f. Klicken Sie auf den Benutzer, klicken Sie auf **Aktion** und anschließend auf **PIN sperren**.
     
-### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>So entsperren Sie die PIN eines Benutzers in der Skype for Business Server-Systemsteuerung
+### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>So entsperren Sie die PIN eines Benutzers in Skype for Business Server Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
@@ -90,11 +90,11 @@ Sie können die PIN eines Benutzers  im Abschnitt Benutzer der Skype for Busines
     
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Sperren und Entsperren von Benutzer-PINs mithilfe Windows PowerShell Cmdlets
 
-Sie können Benutzer-PINs mithilfe von Windows PowerShell und den cmdlets Lock-CsClientPin Unlock-CsClientPin sperren und entsperren. Sie können diese Cmdlets entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell. Weitere Informationen zur Verwendung von remote Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). Der Vorgang ist in Skype for Business Server identisch.
+Sie können Benutzer-PINs sperren und entsperren, indem Sie Windows PowerShell und die Cmdlets Lock-CsClientPin und Unlock-CsClientPin verwenden. Sie können diese Cmdlets entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-lock-a-user-pin"></a>So sperren Sie die PIN eines Benutzers
 
-- Verwenden Sie das cmdlet Lock-CsClientPin, um die PIN eines Benutzers zu sperren. Beispiel:
+- Um die PIN eines Benutzers zu sperren, verwenden Sie das Cmdlet Lock-CsClientPin. Beispiel:
     
   ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
@@ -102,10 +102,10 @@ Sie können Benutzer-PINs mithilfe von Windows PowerShell und den cmdlets Lock-C
 
 ### <a name="to-unlock-a-user-pin"></a>So entsperren Sie die PIN eines Benutzers
 
-- Verwenden Sie zum Entsperren der PIN eines Benutzers das Unlock-CsClientPin Cmdlet. Zum Beispiel:
+- Verwenden Sie das Cmdlet Unlock-CsClientPin, um die PIN eines Benutzers zu entsperren. Zum Beispiel:
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Weitere Informationen finden Sie im Hilfethema für die [Cmdlets Lock-CsClientPin](/powershell/module/skype/lock-csclientpin?view=skype-ps) und [Unlock-CsClientPin.](/powershell/module/skype/unlock-csclientpin?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zu den Cmdlets ["Lock-CsClientPin"](/powershell/module/skype/lock-csclientpin?view=skype-ps) und ["Unlock-CsClientPin".](/powershell/module/skype/unlock-csclientpin?view=skype-ps)

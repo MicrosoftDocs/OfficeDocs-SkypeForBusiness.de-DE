@@ -21,12 +21,12 @@ f1.keywords:
 description: Hier erfahren Sie, wie Sie die Ergebnisse und den Erfolg Ihrer breitgefächerten Aktivierung ihres Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f53c39611e28bde40ccf8bab0f92635383b11e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ef85a84c247c18528b8c13181943d970afe05d1c5c72976739b4b79a77cf8c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332427"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 
@@ -79,9 +79,9 @@ Teams ist eine transformative Technologie, daher können Sie je nach Größe Ihr
 | Teams First | Teams Kern | Teams Los geht's | Skype Nebeneinander | Migration |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Lead cloud deployment with Teams | Aktivieren von Leadzusammenarbeitsszenarien mit Teams | Alle Mitarbeiter in Teams und organisationsweiten Teams | Aktivieren Teams und Skype for Business | Migrieren von Benutzern von Skype for Business zu Teams |
-| – Gilt für neue oder niedrige Nutzungs- Microsoft 365 oder Office 365 Kunden <br/>- Lead mit Teams in kundenspezifischem Szenario <br/>– Hervorheben einer integrierten Benutzererfahrung und beschleunigter Wertwertzeit für Microsoft 365 oder Office 365 <br/>– Gemeinsame Planung der Arbeitsauslastungs-Aktivierung durchführen, um eine serielle Implementierung zu vermeiden | – Aktivieren Teams mit OneDrive und SharePoint Online <br/>– Erstellen eines Unternehmensintranets zum Teilen von Nachrichtenressourcen und Videos mit Microsoft Stream<br/>**Besser zusammen:** <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |– Für Kunden mit weniger als 5.000 Sitzen (aktuelle Beschränkung)<br/>– Organisationsübergreifende Zusammenarbeit mit einem Team für alle aktivieren<br/>– Automatisieren häufiger Aufgaben (Urlaubsanträge, Mitarbeiterumfragen, Engagement der Geschäftsleitung) |– Verwenden Teams Kerntaktiken, um die Zusammenarbeit zu beschleunigen<br/>– Hervorheben von Richtlinien für Besprechungsszenarien basierend auf der Größe und dem erforderlichen Featuresatz</br>– Verwenden Skype for Business für Anrufe in Unternehmen, Interoperabilität und Hybridszenarien<br/>– Verwenden Sie öffentliche Roadmap für die Funktionsplanung. |– Planen Sie den um Teams von Skype for Business, indem Sie eine Roadmap für die Dienststrategie für den Kunden erstellen.<br/>– An Veröffentlichungszeitplan für Features anfügen<br/>– Empfehlen, die Übergänge nebeneinander und Teams Kern zu erleichtern
+| – Gilt für neue oder niedrige Nutzungs- Microsoft 365 oder Office 365 Kunden <br/>- Lead mit Teams in kundenspezifischem Szenario <br/>– Hervorheben einer integrierten Benutzererfahrung und beschleunigter Wertwertzeit für Microsoft 365 oder Office 365 <br/>– Gemeinsame Planung der Arbeitsauslastungs-Aktivierung durchführen, um eine serielle Implementierung zu vermeiden | – Aktivieren Teams mit OneDrive und SharePoint Online <br/>– Erstellen eines Unternehmensintranets zum Teilen von Nachrichtenressourcen und Videos mit Microsoft Stream<br/>**Besser zusammen:** <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |– Für Kunden mit weniger als 5.000 Sitzen (aktuelle Beschränkung)<br/>– Organisationsübergreifende Zusammenarbeit mit einem Team für alle aktivieren<br/>– Automatisieren häufiger Aufgaben (Urlaubsanträge, Mitarbeiterumfragen, Engagement der Geschäftsleitung) |– Verwenden Teams Kerntaktiken, um die Zusammenarbeit zu beschleunigen<br/>– Hervorheben von Richtlinien für Besprechungsszenarien basierend auf der Größe und dem erforderlichen Featuresatz</br>– Verwenden Skype for Business für Anrufe in Unternehmen, Interoperabilität und Hybridszenarien<br/>– Verwenden Sie öffentliche Roadmap für die Funktionsplanung. |– Planen Sie den um Teams von Skype for Business, indem Sie eine Roadmap für die Dienststrategie für den Kunden erstellen.<br/>– An Veröffentlichungszeitplan für Features anfügen<br/>– Empfehlen, die Übergänge nebeneinander und Teams Kern zu erleichtern
 
-Im Folgenden finden Sie unsere Empfehlungen für die meisten Kundenorganisationen. Es gibt jedoch Ausnahmen. Wenn Sie Anleitungen zu Szenarios erhalten, die hier nicht behandelt werden, stellen Sie Ihre Fragen in unserer Community zur Einführung von Driving, oder wenden Sie sich an das FastTrack-Team oder das Microsoft-Partnernetzwerk.
+Im Folgenden finden Sie unsere Empfehlungen für die meisten Kundenorganisationen. Es gibt jedoch Ausnahmen. Stellen Sie Ihre Fragen in unserer Community zur Einführung der treibenden Kraft, oder wenden Sie sich an das FastTrack-Team oder das Microsoft-Partnernetzwerk, um Anleitungen zu einem Szenario zu erhalten, das hier nicht behandelt wird.
 
 - **Wählen Teams "First" oder "Teams Core"** aus: Die meisten Organisationen investieren bereits in Microsoft-Technologie. Möglicherweise aktivieren Sie mehrere Arbeitslasten gleichzeitig, z. B. Exchange Online, OneDrive for Business Oder SharePoint. In diesen Fällen ist die Teams ersten oder Teams Kern eine kluge Wahl. Damit können sich die Benutzer an die verbesserte Zusammenarbeit von Teams. Ihr Projektteam für die Zusammenarbeit kann dann die Einführung zusätzlicher Funktionen sowie der Schulungen und Unterstützung planen, die erforderlich sind, um erfolgreich zu sein. 
 

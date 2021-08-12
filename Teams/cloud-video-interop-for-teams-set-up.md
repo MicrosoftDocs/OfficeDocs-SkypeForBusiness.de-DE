@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64d790e775ac0d76de48a71de8d165656f2e6927
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bea2f250e91b8a02cefea70db0b80fcd8cc35cce6ecb079c6417c0a6c31bc55c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322757"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -46,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um Cloud Video Interop zu konfigurieren.
 
 1. Rufen Sie Konfigurationsinformationen von den ausgewählten Partnern ab (Mandantenschlüssel, appIds ...). Sie können einen oder mehrere Video interop-Partner in Ihrer Organisation verwenden. 
 
-2. Stellen Sie sicher, dass Ihr Netzwerk ordnungsgemäß konfiguriert ist. Konfigurieren Sie Ihre standardbasierte Videofirewall für die Umkreisnetzwerktraversalung zur Unterstützung. Beispiel: 
+2. Stellen Sie sicher, dass Ihr Netzwerk ordnungsgemäß konfiguriert ist. Konfigurieren Sie Ihre standardbasierte Videofirewall für die Umkreisnetzwerktraversalung zur Unterstützung. Zum Beispiel: 
     - Cisco VCS-e                  
     - Polycom RPAD
 

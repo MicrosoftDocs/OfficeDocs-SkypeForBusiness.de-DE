@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: bf66e1d14ab283839de2b07f584386dbe542a60b20341f129a275a22b75c8e0f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718056"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296702"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planen der Office 365 Government – GCC Bereitstellungen mit hohem Niveau
 
@@ -90,4 +90,4 @@ Ermitteln Sie Ihre Anforderungen an Governance und wie Sie sie erfüllen können
 
 Nachdem Sie in das Bereitstellungs-Office 365 Government – GCC High ein onboarded haben, folgen Sie den empfohlenen Bereitstellungspfaden, die [unter](./deploy-overview.md)So wird's Microsoft Teams. Sorgen Sie dafür, dass Sie mit Ihrem Übernahme- und Änderungsverwaltungsteam zusammenarbeiten und Teams können.
 
-Sie können auch mit [FastTrack](https://www.microsoft.com/fasttrack) oder dem ausgewählten Partner zusammenarbeiten, um den Dienst zu integrieren.
+Sie können auch mit [dem](https://www.microsoft.com/fasttrack) FastTrack oder dem ausgewählten Partner zusammenarbeiten, um den Dienst zu integrieren.
