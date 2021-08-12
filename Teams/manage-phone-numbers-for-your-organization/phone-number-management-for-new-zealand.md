@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Neuseeland für Microsoft Teams.
-ms.openlocfilehash: 8065da758022f1a3b345fc9b20f508ed9ead6fdd7deb0a6ccc353ebd9e710c9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8a491829746d948b2abe987f2206f173286fa40e72939040a24bae146addafdd
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848050"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>Telefon der Nummerverwaltung für Neuseeland
 
@@ -37,11 +37,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.|In Neuseeland können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an die PTSN wenden, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für Neuseeland (v.1.0) (mi-nz).](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
-|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Neuseeland (alle Nummern) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Füllen Sie das Formular aus, und [wenden Sie sich bezüglich Anweisungen an PTSN](contact-pstn-service-desk.md). <br/><br>Die Übertragung von Nummern kann in diesem Markt je nach Komplexität des Ports ein bis sechs Wochen dauern.<br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie in Dienstnummern konvertieren möchten. <br/> |
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenden Sie sich an [den PSTN Service Desk](contact-pstn-service-desk.md), um Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen hinzuzufügen oder zu ändern.|
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.|In Neuseeland können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an den [PTSN Service Desk](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>[Neue Telefonnummernanforderung für Neuseeland (v.1.0) (mi-nz).](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN Service Desk](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen.  |
+|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Neuseeland (alle Nummern) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/><br>Die Übertragung von Nummern kann in diesem Markt je nach Komplexität des Ports ein bis sechs Wochen dauern.<br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Nummern von Anrufwarteschleifen oder automatischen Telefonanbietern erhalten Sie beim [PTSN Service Desk.](contact-pstn-service-desk.md)|
 
 ## <a name="related-topics"></a>Verwandte Themen
 

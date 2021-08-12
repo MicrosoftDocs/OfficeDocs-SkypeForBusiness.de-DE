@@ -1,5 +1,5 @@
 ---
-title: Probleme beim Empfang von Nachrichten und Anrufen auf älteren Systemen in Teams
+title: Probleme beim Empfang von Nachrichten und Anrufen in älteren Systemen in Teams
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -17,15 +17,14 @@ description: Behandeln von Problemen im Zusammenhang mit dem Empfang von Nachric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b013817ab363b91f7041d285616f7bd919dc84b9afd1298ec74d8e9dc64046a5
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848380"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Probleme beim Empfang von Nachrichten und Anrufen auf älteren Systemen
-==============================================================
+# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Probleme beim Empfang von Nachrichten und Anrufen auf älteren Systemen
 
 Benutzer haben möglicherweise Probleme beim Empfang von Nachrichten oder Anrufen, wenn sie ältere Versionen von Teams oder sich mit anderen Anwendungen angemeldet haben.
 
@@ -40,7 +39,7 @@ Benutzer haben möglicherweise Probleme beim Empfang von Nachrichten oder Anrufe
 > [!NOTE]
 > Das Überspringen oder Ignorieren des Vorab-Ausfüllens von Benutzernamen ist für Benutzernamen, die in „.local“ oder „.corp“ enden, standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren.
 
-Weitere [Informationen finden Sie unter Microsoft Teams moderne Authentifizierung bei](sign-in-teams.md) einem Computer anmelden.
+Weitere [Informationen finden Sie unter Microsoft Teams moderne Authentifizierung](sign-in-teams.md) bei einem Konto anmelden.
 
 ## <a name="skype-token-revocation"></a>Skype Tokensperr
 

@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Wenn Sie Archivierungsserver und Monitoring Server in ihrer Legacyumgebung bereitgestellt haben, können Sie diese Server in Ihrer Skype for Business Server 2019-Umgebung bereitstellen, nachdem Sie Ihre Front-End-Pools migriert haben. Wenn Archivierungs-und Überwachungsfunktionen für Ihre Organisation wichtig sind, sollten Sie jedoch vor dem migrieren die Archivierung und Überwachung zu Ihrem Skype for Business Server 2019-Pilot Pool hinzufügen, damit die Funktionalität während des Migrationsprozesses zur Verfügung steht.
-ms.openlocfilehash: 595c92e23b0872571f75c140f86b5c437c7d8129
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Wenn Sie den Archivierungsserver und den Monitoring Server in Ihrer älteren Umgebung bereitgestellt haben, können Sie diese Server nach der Migration ihrer Front-End-Pools in Ihrer Skype for Business Server 2019-Umgebung bereitstellen. Wenn Archivierungs- und Überwachungsfunktionen für Ihre Organisation wichtig sind, sollten Sie dem Skype for Business Server 2019-Pilotpool vor der Migration jedoch die Archivierung und Überwachung hinzufügen, damit die Funktionalität während des Migrationsprozesses verfügbar ist.
+ms.openlocfilehash: b1f497019d2043a7ea43c1134af615ae4db6183cd3d16593bfab6e835fa4db32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303549"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungservern und Monitoring Servern
 
-Wenn Sie Archivierungsserver und Monitoring Server in ihrer Legacyumgebung bereitgestellt haben, können Sie diese Server in Ihrer Skype for Business Server 2019-Umgebung bereitstellen, nachdem Sie Ihre Front-End-Pools migriert haben. Wenn Archivierungs-und Überwachungsfunktionen für Ihre Organisation wichtig sind, sollten Sie jedoch vor dem migrieren die Archivierung und Überwachung zu Ihrem Skype for Business Server 2019-Pilot Pool hinzufügen, damit die Funktionalität während des Migrationsprozesses zur Verfügung steht. 
+Wenn Sie den Archivierungsserver und den Monitoring Server in Ihrer älteren Umgebung bereitgestellt haben, können Sie diese Server nach der Migration ihrer Front-End-Pools in Ihrer Skype for Business Server 2019-Umgebung bereitstellen. Wenn Archivierungs- und Überwachungsfunktionen für Ihre Organisation wichtig sind, sollten Sie dem Skype for Business Server 2019-Pilotpool vor der Migration jedoch die Archivierung und Überwachung hinzufügen, damit die Funktionalität während des Migrationsprozesses verfügbar ist. 
   
 Wenn Sie während des Migrationsvorgangs Archivierungs- und Überwachungsfunktionen benötigen, sollten Sie die folgenden Aspekte berücksichtigen:
   
-- Das Archivieren von Daten und Überwachungsdaten wird nicht in die Skype for Business Server 2019-Bereitstellung verschoben. Die Daten, die Sie vor der Außerbetriebnahme der Vorgänger Umgebung sichern, sind die Historie der Aktivitäten in der Legacyumgebung.
+- Archivierungsdaten und Überwachungsdaten werden nicht in die Skype for Business Server 2019-Bereitstellung verschoben. Die Daten, die Sie vor der Außerbetriebnahme der Legacyumgebung sichern, sind Ihre Aktivitäten in der Legacyumgebung.
     
-- Die ältere Version von Archivierungsserver und Monitoring Server kann nur mit einem Legacy Front-End-Pool verknüpft werden. In Skype for Business Server 2019 sind Archivierung und Überwachung keine Server Rollen mehr, sondern Dienste, die in die Front-End-Pool Skype for Business Server 2019 integriert sind.
+- Die Legacyversion von Archivierungsserver und Monitoring Server kann nur einem älteren Front-End-Pool zugeordnet werden. In Skype for Business Server 2019 sind Archivierung und Überwachung keine Serverrollen mehr, sondern Dienste, die in den Front-End-Pool Skype for Business Server 2019 integriert sind.
     
-- Während der Zeit, in der Ihre Legacy-und Skype for Business Server 2019-Bereitstellungen nebeneinander bestehen, sammeln die Legacy Version von Archivierungsserver und Monitoring Server Daten für Benutzer, die in älteren Pools verwaltet werden. Archivierung und Überwachung in Skype for Business Server 2019 Sammeln von Daten für Benutzer, die in Skype for Business Server 2019-Pools verwaltet werden.
+- In der Zeit, in der Ihre Legacy- und Skype for Business Server 2019-Bereitstellungen koexistieren, sammelt die Legacyversion von Archivierungsserver und Monitoring Server Daten für Benutzer, die in älteren Pools verwaltet werden. Archivierung und Überwachung in Skype for Business Server 2019 sammeln Daten für Benutzer, die in Skype for Business Server 2019-Pools verwaltet werden.
     
     > [!NOTE]
-    > Während der Migrationsphase, in der Sie weiterhin den Legacy-Edgeserver mit dem neuen Skype for Business Server 2019-Pilot Pool verwenden, sammelt die Vorgängerversion von Archivierungsserver weiterhin Daten für Benutzer, die in älteren Pools verwaltet werden, und archiviert in Skype for Business Server 2019 sammelt Daten für Benutzer, die in Skype for Business Server 2019-Pools verwaltet werden. 
+    > Während der Migrationsphase, in der Sie ihren älteren Edgeserver noch mit dem neuen Skype for Business Server 2019-Pilotpool verwenden, sammelt die Legacyversion des Archivierungsservers weiterhin Daten für Benutzer, die in älteren Pools verwaltet werden, und die Archivierung in Skype for Business Server 2019 sammelt Daten für Benutzer, die in Skype for Business Server 2019-Pools verwaltet werden. 
   
-- Wenn Sie eine Archivierungs-und Überwachungslösung eines Drittanbieters in Verbindung mit der Archivierung und Überwachung in Skype for Business Server 2019 verwenden, wenden Sie sich an Ihren Anbieter, wann und wie Sie die Drittanbieterlösung mit Skype for Business Server 2019 integrieren müssen.
+- Wenn Sie eine Archivierungs- und Überwachungslösung von Drittanbietern in Verbindung mit der Archivierung und Überwachung in Skype for Business Server 2019 verwenden, wenden Sie sich an Ihren Anbieter, wann und wie Sie die Drittanbieterlösung in Skype for Business Server 2019 integrieren müssen.
     
 

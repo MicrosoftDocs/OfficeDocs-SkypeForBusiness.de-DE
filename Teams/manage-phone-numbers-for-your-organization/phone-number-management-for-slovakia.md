@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der Slowakei für Microsoft Teams.
-ms.openlocfilehash: 2afbb2f081ef59f086ffeb4543a16f09f05c8eb8118e93c8aeb900d4da19d549
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d06ddb2e69729b961fa084e763780d92fba45523069e202951644454d27dde8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848520"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Telefon der Nummerverwaltung für die Slowakei
 
@@ -37,11 +37,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In der Slowakei können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an die PTSN wenden, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für Slowakei (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
-|Lassen Sie Telefonnummern an uns übertragen.   | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Füllen Sie das Formular aus, und [wenden Sie sich bezüglich Anweisungen an PTSN](contact-pstn-service-desk.md). <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden. |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie in Dienstnummern konvertieren möchten. <br/> |
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenden Sie sich an [den PSTN Service Desk](contact-pstn-service-desk.md), um Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen hinzuzufügen oder zu ändern. |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In der Slowakei können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an den [PTSN Service Desk](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>[Neue Telefonnummernanforderung für Slowakei (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN Service Desk](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen.  |
+|Lassen Sie Telefonnummern an uns übertragen.   | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Genehmigungsschreiben für Slowakei (alle Nummern) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden. |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Nummern von Anrufwarteschleifen oder automatischen Telefonanbietern erhalten Sie beim [PTSN Service Desk.](contact-pstn-service-desk.md) |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

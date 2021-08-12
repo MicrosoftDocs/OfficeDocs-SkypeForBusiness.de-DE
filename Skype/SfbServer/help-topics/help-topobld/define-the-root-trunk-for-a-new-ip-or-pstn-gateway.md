@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switched Telephone Network, PSTN), indem Sie Folgendes konfigurieren:'
-ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad9f98eae7220294ab18e48d49b01ee2fdcb6a97ce95fab28f2165760762a416
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303718"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definieren des Stammtrunks für eine neue IP-Adresse oder ein neues PSTN-Gateway
 
@@ -32,9 +32,9 @@ Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switc
 
 - **SIP-Transportprotokoll**: Wählen Sie je nach Ihren Trunkanforderungen in der Liste entweder **TCP** oder **TLS** aus.
 
-- **Zugeordneter Vermittlungsserver:** Wählen Sie in der Liste der verfügbaren Vermittlungsserver in Ihrer Bereitstellung aus.
+- **Zugeordneter Vermittlungsserver:** Wählen Sie aus der Liste der verfügbaren Vermittlungsserver in Ihrer Bereitstellung aus.
 
-- **Zugeordneter Vermittlungsserverport:** Definieren des Ports, den der ausgewählte Vermittlungsserver abhört
+- **Zugeordneter Vermittlungsserverport:** Definieren des Ports, auf dem der ausgewählte Vermittlungsserver lauscht
 
 ## <a name="see-also"></a>Siehe auch
 

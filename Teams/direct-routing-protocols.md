@@ -1,5 +1,5 @@
 ---
-title: Direktes Routing für Telefonsysteme
+title: 'Teams des direkten Routings von Telefonsystem: Definitionen und RFC-Standards'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,17 +14,17 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Direct Routing-Protokolle
+description: Implementierung Microsoft-Telefon RFC-Standardprotokolle durch System Direct Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88fb4459192ad9ff5af8702878d1cbf6a59d8e9d
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 19e3b459cef954bc432f97c93c90eaa92091d27bb17c77cecc17e8699e83e65b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848060"
 ---
-# <a name="direct-routing---definitions-and-rfc-standards"></a>Direct Routing – Definitionen und RFC-Standards
+# <a name="direct-routing---definitions-and-rfc-standards"></a>Direktes Routing – Definitionen und RFC-Standards
 
 In diesem Artikel wird beschrieben, Microsoft-Telefon System Direct Routing RFC-Standardprotokolle implementiert. Dieser Artikel richtet sich an Sprachadministratoren, die für die Konfiguration der Verbindung zwischen dem lokalen Session Border Controller (SBC) und dem SIP-Proxydienst (Session Initiation Protocol) verantwortlich sind.
 
@@ -55,7 +55,7 @@ Die folgenden Standards gelten für Geräte, die nur den Nicht-Medienumgehungsmo
 - [RFC 6337](https://tools.ietf.org/html/rfc6337) Verwendung des Angebots-/Antwortmodells (Session Initiation Protocol, SIP).
   Weitere Informationen finden Sie im Abschnitt "RFC-Abweichungen".
 - [RFC 3711](https://tools.ietf.org/html/rfc3711) und [RFC 4771.](https://tools.ietf.org/html/rfc4771) Schützen Sie RTP-Datenverkehr mithilfe von SRTP. Der SBC muss in der Lage sein, Schlüssel mithilfe von SDES zu erstellen. 
-- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) SDP-Angebots-/Antworterklärungen für RTP/RTCP-Multiplexing
+- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Angebots-/Antworterklärungen zum Session Description Protocol (SDP) für RTP/RTCP-Multiplexing
 
 ### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Standards für Geräte, die den Medienumgehungsmodus unterstützen
 
@@ -86,7 +86,7 @@ In der folgenden Tabelle sind die Abschnitte der RFC(s) aufgeführt, in denen di
 
 Es gibt zwei Betriebsmodi für Direct-Routing:
 
-- **Ohne Medienumgehung,** bei der der rtp-Datenverkehr zwischen dem Teams-Client, den Medienprozessoren und dem SBC fließt.  
+- **Ohne Medienumgehung,** bei der der rtP-Datenverkehr zwischen dem Teams-Client, den Medienprozessoren und dem SBC fließt.  
 
 - **Mit der Medienumgehung,** bei der alle RTP-Medien zwischen den Teams und dem SBC fließen. 
 

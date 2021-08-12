@@ -1,5 +1,5 @@
 ---
-title: Antivirusscanausschlüsse für Skype for Business Server
+title: Antivirus-Scanausschlüsse für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,26 +13,26 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Übersicht über die Interoperabilität von Antivirenscannern mit Skype for Business Server.
-ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347811"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Antivirusscanausschlüsse für Skype for Business Server
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Antivirus-Scanausschlüsse für Skype for Business Server
 
 Übersicht über die Interoperabilität von Antivirenscannern mit Skype for Business Server.
 
-Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business Server nicht beeinträchtigt, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Skype for Business Server-Server oder jede Serverrolle ausschließen, auf dem Sie einen Antivirenscanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
+Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business Server nicht beeinträchtigt, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Skype for Business Server Server oder jede Serverrolle ausschließen, auf dem Bzw. auf dem Sie einen Antivirenscanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
 
 > [!NOTE]
-> Die unten aufgeführten Ordner- und Dateispeicherorte sind die Standardspeicherorte für Skype for Business Server. Schließen Sie für alle Speicherorte, für die Sie nicht die Standardeinstellung verwendet haben, die für Ihre Organisation angegebenen Speicherorte anstelle der in diesem Thema angegebenen Standardspeicherorte aus.
+> Die unten aufgeführten Ordner- und Dateispeicherorte sind die Standardspeicherorte für Skype for Business Server. Schließen Sie für alle Speicherorte, für die Sie nicht die Standardeinstellung verwendet haben, die Speicherorte aus, die Sie für Ihre Organisation anstelle der in diesem Thema angegebenen Standardspeicherorte angegeben haben.
 
 > [!IMPORTANT]
 > Bitte beachten Sie, dass einige Antivirenprogramme absolute, nicht relative Pfade für ihre Ausschlussliste benötigen.
 
-- Skype for Business Server verarbeitet:
+- Skype for Business Server Prozesse:
 
   - ABServer.exe
 
@@ -82,7 +82,7 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
 
   - XmppTGW.exe
 
-- Windows Fabric Host Service verarbeitet:
+- Windows Fabric Hostdienstprozesse:
 
   - Fabric.exe
 
@@ -99,7 +99,7 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
 - SQL Server Back-End Prozesse:
 
     > [!NOTE]
-    > Beachten Sie, dass diese Pfade spezifisch für SQL Server sind.
+    > Beachten Sie, dass diese Pfade für SQL Server Version spezifisch sind.
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\Binn\SQLServr.exe
 
@@ -113,7 +113,7 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Standard Edition Installation RTC Instance
+  - Standard Edition RTC-Instanz installieren
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -126,7 +126,7 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Beachten Sie, dass diese Pfade für die Skype for Business Server-Version spezifisch sind.
+    > Beachten Sie, dass diese Pfade für Skype for Business Server Version spezifisch sind.
 
   - %programfiles%\Skype for Business Server 2015
 
@@ -138,8 +138,8 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
 
   - %SystemDrive%\RtcReplicaRoot
 
-  - Dateifreigabespeicher (angegeben im Topologie-Generator). Dateispeicher werden im Topologie-Generator angegeben.
+  - Dateifreigabespeicher (im Topologie-Generator angegeben). Dateispeicher werden im Topologie-Generator angegeben.
 
-  - SQL Server Daten und Protokolldateien, einschließlich der Daten für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie [unter SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in der Bereitstellungsdokumentation.
+  - SQL Server Daten und Protokolldateien, einschließlich der Daten für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich der Standardnamen, finden Sie unter SQL Server Platzierung von [Daten und Protokolldateien](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in der Bereitstellungsdokumentation.
 
-  - SQL Server und Protokolldateien, einschließlich der Daten für die Front-End-Datenbank, den Skype for Business-Speicher und den RtcDatabase-Speicher. Sie befinden sich normalerweise unter %localdrive%\CSData.
+  - SQL Server Daten- und Protokolldateien, einschließlich der dateien für die Front-End-Datenbank, Skype for Business speicher und den RtcDatabase-Speicher. Sie befinden sich normalerweise unter %localdrive%\CSData.

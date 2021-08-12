@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293072"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -75,14 +75,14 @@ Möglicherweise gibt es in Ihrer Organisation zusätzliche Anforderungen für da
 > [!TIP]
 > Verwenden Sie die folgende Tabelle, um die Anforderungen Ihrer Organisation zu erfassen.
 
-|Funktion |Details |Azure AD Premium-Lizenz erforderlich |Entscheidung |
+|Funktion |Details |Azure AD Premium Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
 |Ablaufrichtlinie |Verwalten Sie den Lebenszyklus Microsoft 365 Gruppen, indem Sie eine Ablaufrichtlinie festlegen. |P1 |TBD|
 |Aufbewahrungsrichtlinie |Speichern oder Löschen von Daten für einen bestimmten Zeitraum durch Festlegen von Aufbewahrungsrichtlinien für Teams im Security & Compliance Center. **Hinweis:** Für die Verwendung dieses Features ist eine Lizenzierung von Microsoft 365 oder Office 365 Enterprise E3 oder höher erforderlich. |Nein |TBD |
 |Archivieren und Wiederherstellen |Archivieren Sie ein Team, wenn es nicht mehr aktiv ist, Sie möchten es jedoch zu Referenz-bzw. reaktivieren. |Nein |TBD |
 
 > [!Note]
-> Gruppenablauf ist ein Azure AD Premium Feature. Damit dieses Feature verfügbar ist, muss Ihr Mandant über ein Abonnement für Azure AD Premium und Lizenzen für den Administrator verfügen, der die Einstellungen konfiguriert, sowie die Mitglieder der betroffenen Gruppen.
+> Gruppenablauf ist ein Azure AD Premium Feature. Damit dieses Feature verfügbar ist, muss Ihr Mandant über ein Abonnement für Azure AD Premium und Lizenzen für den Administrator verfügen, der die Einstellungen konfiguriert, und die Mitglieder der betroffenen Gruppen.
 
 #### <a name="additional-information"></a>Weitere Informationen
 
@@ -108,7 +108,7 @@ Eine durchgängige Verwaltung von Mitgliedern projektbasierter oder eingeschrän
 > [!TIP]
 > Verwenden Sie die folgende Tabelle, um die Anforderungen Ihrer Organisation zu erfassen.
 
-| Funktion | Details | Azure AD Premium-Lizenz erforderlich | Entscheidung |
+| Funktion | Details | Azure AD Premium Lizenz erforderlich | Entscheidung |
 |:-|:-|:-|:-|
 | Access-Rezensionen | Einrichten von Zugriffsüberprüfungen, um in regelmäßigen Abständen die Mitgliedschaft bestimmter Teams zu befizieren | P2 | TBD |
 | Berechtigungsverwaltung | Setup-Zugriffspaket, um Benutzern und Gästen das Anfordern des Zugriffs auf Teams zu ermöglichen | P2 | TBD |

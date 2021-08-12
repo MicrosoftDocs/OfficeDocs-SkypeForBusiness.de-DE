@@ -1,5 +1,5 @@
 ---
-title: Tabelle "VideoMetricsThreshold"
+title: VideoMetricsThreshold-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 description: Die Tabelle VideoMetricsThreshold enthält optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet werden.
-ms.openlocfilehash: 15bf482412973fe4b3a0178be6ecdcc593c762e7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1885e1d5bfbea10ffed518aaedcc8bf47a2b5217c333c187eaf2a2ee0dc7b0d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340001"
 ---
-# <a name="videometricsthreshold-table"></a>Tabelle "VideoMetricsThreshold"
+# <a name="videometricsthreshold-table"></a>VideoMetricsThreshold-Tabelle
  
 Die Tabelle VideoMetricsThreshold enthält optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet werden.
   
 
 | **Spalte**                                               | **Datentyp**       | **Schlüssel/Index**  | **Details**                          |
 |:---------------------------------------------------------|:--------------------|:---------------|:-------------------------------------|
-| **CallType** <br/>                                       | int  <br/>          | Primary  <br/> | Der Typ des getätigten Anrufs.  <br/> |
+| **CallType** <br/>                                       | Ganzzahl  <br/>          | Primary  <br/> | Der Typ des getätigten Anrufs.  <br/> |
 | **VideoPostFECPLROptimal** <br/>                         | decimal(5,2)  <br/> |                | Der Standardwert lautet 0,05.  <br/>    |
 | **VideoPostFECPLRAcceptable** <br/>                      | decimal(5,2)  <br/> |                | Der Standardwert lautet 0,10.  <br/>    |
 | **VideoLocalFrameLostPercentageAverageOptimal** <br/>    | decimal(5,2)  <br/> |                | Der Standardwert lautet 5,0.  <br/>     |

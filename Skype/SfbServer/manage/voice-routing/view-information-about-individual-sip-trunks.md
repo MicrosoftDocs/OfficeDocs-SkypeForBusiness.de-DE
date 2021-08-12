@@ -1,5 +1,5 @@
 ---
-title: Anzeigen von Informationen zu einzelnen SIP-Trunks in Skype for Business Server
+title: Skype for Business Server – Anzeigen von Informationen zu einzelnen SIP-Trunks
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,27 +10,27 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: In Skype for Business Server können mehrere Trunks einem einzelnen Get-CsTrunk zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht identisch sind, und Administratoren müssen das cmdlet Get-CsTrunk verwenden, um Informationen zu einem einzelnen SIP-Trunk anzeigen zu können.
-ms.openlocfilehash: eebba2982a6f574ca2af99609f19ba5426139acb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: In Skype for Business Server können einem einzelnen PSTN-Gateway mehrere Trunks zugewiesen werden. Gateways und Trunks sind nicht identisch, und Administratoren müssen das cmdlet Get-CsTrunk verwenden, um Informationen zu einem einzelnen SIP-Trunk anzuzeigen.
+ms.openlocfilehash: f78aad8aa55202cdd59107be8f5e66dc2f83e1d336dc2f66c4982b7f534c88cc
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848390"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Anzeigen von Informationen zu einzelnen SIP-Trunks in Skype for Business Server
+# <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype for Business Server – Anzeigen von Informationen zu einzelnen SIP-Trunks
 
-In Skype for Business Server können mehrere Trunks einem einzelnen #A0 zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht identisch sind und Administratoren das [Cmdlet Get-CsTrunk](/powershell/module/skype/Get-CsTrunk) verwenden müssen, um Informationen zu einem einzelnen SIP-Trunk anzeigen zu können.
+In Skype for Business Server können einem einzelnen PSTN-Gateway mehrere Trunks zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht identisch sind und Dass Administratoren das Cmdlet ["Get-CsTrunk"](/powershell/module/skype/Get-CsTrunk) verwenden müssen, um Informationen zu einem einzelnen SIP-Trunk anzuzeigen.
 
-Das Get-CsTrunk-Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell.
+Das cmdlet Get-CsTrunk kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
-**So zeigen Sie Informationen für alle Ihre SIP-Trunks an**
+**So zeigen Sie Informationen für alle SIP-Trunks an**
 
 Der folgende Befehl gibt Informationen zu allen in Ihrer Organisation verwendeten SIP-Trunks zurück:
 
 `Get-CsTrunk`
 
-**So zeigen Sie Informationen für einen bestimmten SIP-Trunk an**
+**So zeigen Sie Informationen zu einem bestimmten SIP-Trunk an**
 
 Dieser Befehl gibt nur für den SIP-Trunk mit dem Identitätswert "PstnGateway:192.168.0.240" Informationen zurück:
 

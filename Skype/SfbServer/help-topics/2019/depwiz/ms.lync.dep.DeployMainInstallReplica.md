@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um mit der Installation eines neuen Skype for Business Server-Rollenservers zu beginnen, müssen Sie zuerst die lokale SQL Server installieren, die den lokalen Konfigurationsspeicher hosten wird. Der lokale Konfigurationsspeicher wird als schreibgeschütztes Replikat des zentralen Skype for Business Server Management Store (CMS) fungieren.
-ms.openlocfilehash: 78492f8ce913d8f73336ae4f6cdf06fd340ed5f5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Um mit der Installation eines neuen Skype for Business Server Rollenservers zu beginnen, müssen Sie zuerst die lokale SQL Server installieren, die den lokalen Konfigurationsspeicher hosten soll. Der lokale Konfigurationsspeicher fungiert als schreibgeschütztes Replikat des Skype for Business Server zentralen Verwaltungsspeichers (CMS).
+ms.openlocfilehash: 96dc427ddcc1ed2716033e30747006afc9947bf813dd6287fdcc734270993c96
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340131"
 ---
 # <a name="install-local-configuration-store"></a>Installieren des lokalen Konfigurationsspeichers
 
-Um mit der Installation eines neuen Skype for Business Server-Rollenservers zu beginnen, müssen Sie zuerst die lokale SQL Server installieren, die den lokalen Konfigurationsspeicher hosten wird. Der lokale Konfigurationsspeicher wird als schreibgeschütztes Replikat des zentralen Skype for Business Server Management Store (CMS) fungieren. Sie müssen auf dem Server, auf dem Sie den Schritt **Lokalen Konfigurationsspeicher installieren** ausführen, als lokaler Administrator angemeldet sein und Mitglied der Gruppe "RTCUniversalServerAdmins" oder "RTCUniversalGlobalReadOnlyGroup" sein. Wenn Sie das Setup auf einem Edgeserver ausführen, müssen Sie kein Mitglied der Gruppe "RTCUniversalServerAdmins" oder "RTCUniversalGlobalReadOnlyGroup" sein. Das Definitionsdokument des Topologie-Generators wird aus dem exportierten Definitionsdokument statt aus dem zentralen Verwaltungsspeicher gelesen. Informationen zum Exportieren des Definitionsdokuments des Topologie-Generators und zur Verfügung stellen für die Edgeserver finden Sie im Thema Exportieren Der Topologie und Kopieren in externe Medien[für die Edgeinstallation.](/previous-versions/office/lync-server-2013/lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation)
+Um mit der Installation eines neuen Skype for Business Server Rollenservers zu beginnen, müssen Sie zuerst die lokale SQL Server installieren, die den lokalen Konfigurationsspeicher hosten soll. Der lokale Konfigurationsspeicher fungiert als schreibgeschütztes Replikat des Skype for Business Server zentralen Verwaltungsspeichers (CMS). Sie müssen auf dem Server, auf dem Sie den Schritt **Lokalen Konfigurationsspeicher installieren** ausführen, als lokaler Administrator angemeldet sein und Mitglied der Gruppe "RTCUniversalServerAdmins" oder "RTCUniversalGlobalReadOnlyGroup" sein. Wenn Sie das Setup auf einem Edgeserver ausführen, müssen Sie kein Mitglied der Gruppe "RTCUniversalServerAdmins" oder "RTCUniversalGlobalReadOnlyGroup" sein. Das Definitionsdokument des Topologie-Generators wird aus dem exportierten Definitionsdokument anstelle des zentralen Verwaltungsspeichers gelesen. Informationen zum Exportieren des Definitionsdokuments des Topologie-Generators und zur Bereitstellung für die Edgeserver finden Sie im Thema["Exportieren Ihrer Topologie und Kopieren in externe Medien für](/previous-versions/office/lync-server-2013/lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation)die Edgeinstallation".
 
 So starten Sie die Installation
 
-1. Klicken Sie auf der Seite Skype for Business Server neben **Schritt1: Lokaler Konfigurationsspeicher** installieren auf **Ausführen**.
+1. Klicken Sie auf der Seite Skype for Business Server neben **Schritt1: Installieren der lokalen Konfiguration Store** auf **"Ausführen".**
 
 2. Vergewissern Sie sich auf der Seite **Lokale Serverkonfiguration**, dass die Option **Konfiguration automatisch aus dem zentralen Verwaltungsspeicher abrufen** ausgewählt ist, und klicken Sie dann auf **Weiter**.
 
 3. Klicken Sie nach Abschluss der Installation der lokalen Serverkonfiguration auf **Fertig stellen**.
 
 > [!NOTE]
-> Die Installation der lokalen SQL Server kann einige Zeit dauern. Während der Installation werden keine Updates zum Fortschritt im Installationszusammenfassungsbildschirm SQL Server angezeigt. Wenn Sie den Installationsfortschritt überwachen möchten, können Sie den Vorgangs-Manager verwenden, um die installation SQL Server überwachen.
+> Die Installation der lokalen SQL Server kann einige Zeit in Anspruch nehmen. Während SQL Server installiert wird, werden auf dem Bildschirm mit der Installationszusammenfassung keine Updates zum Fortschritt angezeigt. Wenn Sie den Fortschritt der Installation überwachen möchten, verwenden Sie den Task-Manager, um das SQL Server Setup zu überwachen.

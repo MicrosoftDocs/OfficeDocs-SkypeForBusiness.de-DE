@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite "Zertifikatzuweisung" wird der Vorgang zum Zuweisen eines Zertifikats zu den angeforderten Verwendungen auf dem Rollenserver gestartet. Klicken Sie auf Zertifikatdetails anzeigen, um das Zertifikat anzuzeigen. Sie können die Registerkarte "Allgemein", die Registerkarte "Details" oder die Registerkarte "Zertifizierungspfad" auswählen. Auf der Registerkarte "Allgemein" werden grundlegende Informationen zum Zertifikat angezeigt, z. B. die ausstellende Zertifizierungsstelle und der Status eines privaten Schlüssels. Auf der Registerkarte "Details" werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Auf der Registerkarte "Zertifizierungspfad" wird die Vertrauensstellungskette des Zertifikats über alle ausstellenden oder zwischengeschalteten Zertifizierungsstellen (sofern vorhanden) zur Stammzertifizierungsstelle angezeigt.
-ms.openlocfilehash: e209f1469da7988254f7fd92fbe87dd195b161bf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Auf der Seite "Zertifikatzuweisung" wird der Vorgang zum Zuweisen eines Zertifikats zu den angeforderten Verwendungen auf dem Rollenserver gestartet. Klicken Sie auf Zertifikatdetails anzeigen, um das Zertifikat anzuzeigen. Sie können die Registerkarte "Allgemein", die Registerkarte "Details" oder die Registerkarte "Zertifizierungspfad" auswählen. Auf der Registerkarte "Allgemein" werden grundlegende Informationen zum Zertifikat angezeigt, z. B. die ausstellende Zertifizierungsstelle und der Status eines privaten Schlüssels. Auf der Registerkarte "Details" werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Auf der Registerkarte "Zertifizierungspfad" wird die Zertifikatkette der Vertrauensstellung aus dem Zertifikat über alle ausstellenden oder zwischengeschalteten Zertifizierungsstellen (sofern vorhanden) für die Stammzertifizierungsstelle angezeigt.
+ms.openlocfilehash: 678f956724cd42aa9d0d320e76c38b95e5405eedfc70d0e18d9343d0ac6158c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291893"
 ---
 # <a name="certificate-assignment-from-request"></a>Zertifikatzuweisung (aus Anforderung)
  
-Auf **der Seite "Zertifikatzuweisung"** wird der Vorgang zum Zuweisen eines Zertifikats zu den angeforderten Verwendungen auf dem Rollenserver gestartet. Klicken Sie auf **Zertifikatdetails anzeigen**, um das Zertifikat anzuzeigen. Sie können die Registerkarte **"Allgemein",** die Registerkarte **"Details"** oder die Registerkarte **"Zertifizierungspfad"** auswählen. Auf **der** Registerkarte "Allgemein" werden grundlegende Informationen zum Zertifikat angezeigt, z. B. die ausstellende Zertifizierungsstelle und der Status eines privaten Schlüssels. Auf der Registerkarte "Details" werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Auf der Registerkarte "Zertifizierungspfad" wird die Zertifikatkette vom Zertifikat über alle ausstellenden oder zwischengeschalteten Zertifizierungsstellen (sofern vorhanden) bis zur Stammzertifizierungsstelle angezeigt. 
+Auf der Seite **"Zertifikatzuweisung"** wird der Vorgang zum Zuweisen eines Zertifikats zu den angeforderten Verwendungen auf dem Rollenserver gestartet. Klicken Sie auf **Zertifikatdetails anzeigen**, um das Zertifikat anzuzeigen. Sie können die Registerkarte **"Allgemein",** die Registerkarte **"Details"** oder die Registerkarte **"Zertifizierungspfad"** auswählen. Auf der Registerkarte **"Allgemein"** werden grundlegende Informationen zum Zertifikat angezeigt, z. B. die ausstellende Zertifizierungsstelle und der Status eines privaten Schlüssels. Auf der Registerkarte "Details" werden Zertifikatinformationen wie der Antragstellername, alternative Antragstellernamen und andere Details angezeigt. Auf der Registerkarte **"Zertifizierungspfad"** wird die Zertifikatvertrauenskette vom Zertifikat über alle ausstellenden oder zwischengeschalteten Zertifizierungsstellen (sofern vorhanden) an die Stammzertifizierungsstelle angezeigt.
   
 Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
   

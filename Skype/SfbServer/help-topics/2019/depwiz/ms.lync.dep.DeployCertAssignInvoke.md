@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite Befehle ausführen werden die Aktionen angezeigt, die von den Tasks zum Zuweisen des Zertifikats zum Server ausgeführt werden. Nach Abschluss der Tasks können Sie das Protokoll mit den Einzelheiten des Prozesses zur Zertifikatszuweisung anzeigen. Klicken Sie zum Anzeigen der Protokolldatei auf Protokoll anzeigen.
-ms.openlocfilehash: cb9857162541c10d941b2539b99d855ff34ba7d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 272d002f1f92175e5e07f08cdea0b95e628648df9832432b1f5042f1297c270f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820435"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291843"
 ---
 # <a name="certificate-assignment-invoke"></a>Zertifikatzuweisung (Aufruf)
  

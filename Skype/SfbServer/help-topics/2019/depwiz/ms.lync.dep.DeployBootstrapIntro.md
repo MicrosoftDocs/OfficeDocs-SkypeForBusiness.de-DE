@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e87b2255-3a00-4c74-b3d0-e0c3da702e3a
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie bereiten die Installation und Aktivierung bzw. Deaktivierung und Deinstallation von Skype for Business Server-Komponenten vor. Die prozesse, die ausgeführt werden, werden durch die aktuelle Konfiguration der Definition definiert, die im zentralen Verwaltungsspeicher veröffentlicht wird. Zum erfolgreichen Ausführen der Aufgaben müssen Sie als Mitglied der lokalen Administratorengruppe angemeldet sein und mindestens in der Lage sein, active Directory Domain Services zu lesen.
-ms.openlocfilehash: ef6d31fd244ff46c8482b938e94c1d9cffb753da
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Sie bereiten die Installation und Aktivierung oder Deaktivierung sowie die Deinstallation Skype for Business Server Komponenten vor. Die auszuführenden Prozesse werden durch die aktuelle Konfiguration der im zentralen Verwaltungsspeicher veröffentlichten Definition definiert. Um die Aufgaben erfolgreich ausführen zu können, müssen Sie als Mitglied der lokalen Administratorengruppe angemeldet sein, und Sie müssen mindestens in der Lage sein, Active Directory Domain Services zu lesen.
+ms.openlocfilehash: fcf2052fa7de5b1cd5718f5d77b8ea64f29ff9efe0c2aba698dda8c3ccbaf5b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820535"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291943"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-intro"></a>Einrichten oder Entfernen von Komponenten von Skype for Business Server (Einführung)
  
-Sie bereiten die Installation und Aktivierung bzw. Deaktivierung und Deinstallation von Skype for Business Server-Komponenten vor. Die prozesse, die ausgeführt werden, werden durch die aktuelle Konfiguration der Definition definiert, die im zentralen Verwaltungsspeicher veröffentlicht wird. Zum erfolgreichen Ausführen der Aufgaben müssen Sie als Mitglied der lokalen Administratorengruppe angemeldet sein und mindestens in der Lage sein, active Directory Domain Services zu lesen.
+Sie bereiten die Installation und Aktivierung oder Deaktivierung sowie die Deinstallation Skype for Business Server Komponenten vor. Die auszuführenden Prozesse werden durch die aktuelle Konfiguration der im zentralen Verwaltungsspeicher veröffentlichten Definition definiert. Um die Aufgaben erfolgreich ausführen zu können, müssen Sie als Mitglied der lokalen Administratorengruppe angemeldet sein, und Sie müssen mindestens in der Lage sein, Active Directory Domain Services zu lesen.
   
-Klicken **Sie auf "Weiter",** um mit dem Bildschirm "Befehle **ausführen" fortzufahren.**
+Klicken Sie auf **"Weiter",** um mit dem Bildschirm **"Befehle ausführen"** fortzufahren.
   
 

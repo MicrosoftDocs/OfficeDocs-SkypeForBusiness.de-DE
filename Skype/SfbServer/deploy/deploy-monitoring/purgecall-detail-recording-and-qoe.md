@@ -1,5 +1,5 @@
 ---
-title: Manuelles Löschen der Aufzeichnung von Anrufdetailaufzeichnungen und der Quality of Experience-Datenbanken in Skype for Business Server
+title: Manuelles Löschen der Datenbanken "Aufzeichnung von Kommunikationsdatensätzen" und "Quality of Experience" in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: 'Zusammenfassung: Informationen zum manuellen Löschen von Datensätzen aus dem CDR und den von Skype for Business Server verwendeten QoE-Datenbanken.'
-ms.openlocfilehash: 2d36af2d06b6d6951e436ea456d4036478278600
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Datensätze aus den KDS- und QoE-Datenbanken, die von Skype for Business Server verwendet werden, manuell löschen.'
+ms.openlocfilehash: 11f528d142512ec8e0536d16181f50b5756d09f0f4daf7509d25ca82895b53e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294882"
 ---
-# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Manuelles Löschen der Aufzeichnung von Anrufdetailaufzeichnungen und der Quality of Experience-Datenbanken in Skype for Business Server
+# <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Manuelles Löschen der Datenbanken "Aufzeichnung von Kommunikationsdatensätzen" und "Quality of Experience" in Skype for Business Server
  
-**Zusammenfassung:** Informationen zum manuellen Löschen von Datensätzen aus dem CDR und den von Skype for Business Server verwendeten QoE-Datenbanken.
+**Zusammenfassung:** Erfahren Sie, wie Sie Datensätze aus den KDS- und QoE-Datenbanken, die von Skype for Business Server verwendet werden, manuell löschen.
   
-Die CdR- und die QoE-Datenbank können manuell oder automatisch gelöscht werden. Das Löschen von Datensätzen kann wichtig sein, damit die Daten nicht veraltet sind oder wenn Berichte von einer Ausgangsbasis zurückgesetzt werden müssen.
+Die KDS- und QoE-Datenbanken können manuell oder automatisch aus Datensätzen gelöscht werden. Das Löschen von Datensätzen kann wichtig sein, damit die Daten nicht veraltet sind oder wenn Berichte von einer Ausgangsbasis zurückgesetzt werden müssen.
   
-## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>Manuelles Löschen von Datensätzen aus CDR- und QoE-Datenbanken
+## <a name="manually-purge-records-from-cdr-and-qoe-databases"></a>Manuelles Löschen von Datensätzen aus KDS- und QoE-Datenbanken
 
-Administratoren können die #A0 (Call Detail Recording, Aufzeichnung von Anrufdetails) und/oder die #A1 (Quality of Experience) so konfigurieren, dass alte Datensätze automatisch aus der Datenbank gelöscht werden. Dies tritt auf, wenn das Löschen für die angegebene Datenbank (CDR oder QoE) aktiviert wurde und datensätze vorhanden sind, die länger als die angegebene Zeit in der Datenbank sind. Beispielsweise können Administratoren täglich um 1:00 Uhr das System so konfigurieren, dass QoE-Einträge, die länger als 60 Tage alt sind, aus der QoE-Datenbank gelöscht werden.
+Administratoren können die Datenbanken für die Aufzeichnung von Kommunikationsdatensätzen (KDS) und/oder die QoE-Datenbanken (Quality of Experience) so konfigurieren, dass alte Datensätze automatisch aus der Datenbank gelöscht werden. dies tritt auf, wenn die Bereinigung für die angegebene Datenbank (KDS oder QoE) aktiviert wurde und datensätze vorhanden sind, die länger als die angegebene Zeitspanne in der Datenbank vorhanden sind. Beispielsweise können Administratoren das System jeden Tag um 1:00 Uhr so konfigurieren, dass QoE-Einträge, die älter als 60 Tage sind, aus der QoE-Datenbank gelöscht werden.
   
-Zusätzlich zu dieser automatischen Bereinigung wurden zwei neue Cmdlets &#x2014; Invoke-CsCdrDatabasePurge und Invoke-CsQoEDatbasePurge &#x2014; Skype for Business Server hinzugefügt. Mit diesen Cmdlets können Administratoren Datensätze jederzeit manuell aus der CDR- und der QoE-Datenbank löschen. Um beispielsweise alle Datensätze, die mehr als 10 Tage alt sind, manuell aus der Datenbank für die Aufzeichnung von Aufzeichnungen von Aufzeichnungen zu löschen, können Sie einen Befehl wie den folgenden verwenden:
+Zusätzlich zu dieser automatischen Bereinigung wurden zwei neue Cmdlets &#x2014; Invoke-CsCdrDatabasePurge und Invoke-CsQoEDatbasePurge &#x2014; zu Skype for Business Server hinzugefügt. Mit diesen Cmdlets können Administratoren Datensätze aus den KDS- und QoE-Datenbanken jederzeit manuell löschen. Um beispielsweise alle Datensätze, die älter als 10 Tage sind, manuell aus der KDS-Datenbank zu löschen, können Sie einen Befehl wie den folgenden verwenden:
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-Im vorstehenden Befehl werden sowohl Anrufdetaildatensätze als auch Diagnosedatensätze, die älter als 10 Tage sind, aus der Überwachungsdatenbank auf dem atl-sql-001.litwareinc.com. (Anrufdetaildatensätze sind Benutzer-/Sitzungsberichte. Diagnosedatensätze sind Diagnoseprotokolle, die von Clientanwendungen wie Skype for Business Server hochgeladen werden.)
+Im vorherigen Befehl werden sowohl Anrufdetaildatensätze als auch Diagnosedatensätze, die älter als 10 Tage sind, aus der Überwachungsdatenbank auf atl-sql-001.litwareinc.com gelöscht. (Anrufdetaildatensätze sind Benutzer-/Sitzungsberichte. Diagnosedatensätze sind Diagnoseprotokolle, die von Clientanwendungen wie Skype for Business Server hochgeladen werden.)
   
-Wie oben gezeigt, müssen Sie beim Ausführen des Cmdlets Invoke-CsCdrDatabasePurge sowohl den Parameter PurgeCallDetaiDataOlderThanDays als auch den Parameter PurgeDiagnosticDataOlderThanDays einfügen. Diese Parameter müssen jedoch nicht auf denselben Wert festgelegt werden. Sie können beispielsweise festlegen, dass Anrufdetaildatensätze, die älter sind als 10 Tage, gelöscht werden, und konfigurieren, dass alle Diagnosedatensätze in der Datenbank bleiben. Legen Sie dazu "PurgeCallDetailDataOlderThanDays" auf 10 und "PurgeDiagnosticDataOlderThanDays" auf 0 fest. Beispiel:
+Wie oben gezeigt, müssen Sie beim Ausführen des Cmdlets Invoke-CsCdrDatabasePurge sowohl den Parameter PurgeCallDetaiDataOlderThanDays als auch den Parameter PurgeDiagnosticDataOlderThanDays einfügen. Diese Parameter müssen jedoch nicht auf denselben Wert festgelegt werden. Sie können beispielsweise festlegen, dass Anrufdetaildatensätze, die älter sind als 10 Tage, gelöscht werden, und konfigurieren, dass alle Diagnosedatensätze in der Datenbank bleiben. Legen Sie dazu PurgeCallDetailDataOlderThanDays auf 10 und PurgeDiagnosticDataOlderThanDays auf 0 fest. Beispiel:
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Polen für Microsoft Teams.
-ms.openlocfilehash: abba192cdb4b94a6e5c6032980923c02d338c27f
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: b49ea2281d507f7b7559f95f6f3c7ade9bb45d1fe65b1a013be997a3ab322e08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329120"
 ---
 # <a name="phone-number-management-for-poland"></a>Telefon der Nummerverwaltung für Polen
 
@@ -40,11 +40,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Neue Benutzer- oder Diensttelefonnummern erhalten, die nicht im Admin Center Microsoft Teams werden.  |In Polen können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an die PTSN wenden, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)<br/><br/>[Anforderung einer neuen Telefonnummer für Polen (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Telefon Nummern werden in Blöcken von zehn bestellt. Kunden werden nur für die abonnierten Anrufplanlizenzen in Rechnung gestellt.<br/><br/>Für neue Bestellungen kann es vier bis sechs Wochen dauern, bis sie in diesem Markt marktfüllen. |
-|Übertragen Sie uns Ihre Telefonnummern.| Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Polen (alle Nummern) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Füllen Sie das Feld aus, [und wenden Sie sich an das PTSN, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis sechs Wochen dauern. <br/><br/> Diese Nummern können derzeit nicht für Konferenzen verwendet werden.    |
-|Veröffentlichen/Aufheben der Veröffentlichung von Telefonnummern im nationalen Telefonverzeichnis  <br/> |Wenden Sie sich an das [PTSN, um](contact-pstn-service-desk.md) Anweisungen für die Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/> |[Wenden Sie sich an das PTSN, um](contact-pstn-service-desk.md) Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Aktualisieren des Verzeichnisdiensts für Anrufwarteschleifen- oder automatische Telefonbuchnummern|Wenden Sie sich an den PSTN Service Desk, um Die Rufnummern der Anrufwarteschleife oder der [automatischen Telefonwarteschleife hinzuzufügen oder zu ändern.](contact-pstn-service-desk.md) |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.  |In Polen können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an die PTSN wenden, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)<br/><br/>[Anforderung einer neuen Telefonnummer für Polen (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Telefon Nummern werden in Blöcken von zehn bestellt. Kunden werden nur für die abonnierten Anrufplanlizenzen in Rechnung gestellt.<br/><br/>Für neue Bestellungen kann es vier bis sechs Wochen dauern, bis sie in diesem Markt marktfüllen. |
+|Lassen Sie Telefonnummern an uns übertragen.| Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Polen (alle Nummern) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Füllen Sie das Formular aus, und [wenden Sie sich bezüglich Anweisungen an PTSN](contact-pstn-service-desk.md). <br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis sechs Wochen dauern. <br/><br/> Diese Nummern können derzeit nicht für Konferenzen verwendet werden.    |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |Wenden Sie sich an das [PTSN, um](contact-pstn-service-desk.md) Anweisungen für die Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie in Dienstnummern konvertieren möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenden Sie sich an [den PSTN Service Desk](contact-pstn-service-desk.md), um Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen hinzuzufügen oder zu ändern. |
 
    
 ## <a name="related-topics"></a>Verwandte Themen
