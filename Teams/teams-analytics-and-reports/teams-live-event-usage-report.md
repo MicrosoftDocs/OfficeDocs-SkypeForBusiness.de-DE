@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Teams Bericht zur Nutzung von Liveereignissen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 971e9bc846ad1a7134c1877a1716fc535ae65e4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5953951400fbb1e888aec4c3c3e003aa5312a1b96abe13050a049d758c9902eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809285"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285644"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams bericht zur Nutzung von Liveereignisen
 
@@ -61,4 +61,4 @@ Wenn Ihre Organisation für [Strukture](https://www.hivestreaming.com/partners/i
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Teams – Analyse und Berichterstellung](teams-reporting-reference.md)
-- [Was sind Teams-Liveereignisse?](../teams-live-events/what-are-teams-live-events.md)
+- [Was sind Microsoft Teams-Liveereignisse?](../teams-live-events/what-are-teams-live-events.md)

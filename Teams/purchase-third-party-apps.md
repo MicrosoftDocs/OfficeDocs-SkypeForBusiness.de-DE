@@ -16,12 +16,12 @@ description: Weitere Informationen zum Kauf von Drittanbieter-Apps für Teams Si
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 57530ec952b6bbe806e685d0980fcee3a21d1887
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc46ea58421901a4d11f20160c2e9528a5311794bb084291c3c72e5e006ddc18
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285654"
 ---
 <a name="purchase-third-party-apps-for-teams"></a>Erwerben von Apps von Drittanbietern für Teams
 ======================================================
@@ -59,7 +59,7 @@ Nachdem Sie das SaaS-Angebot erworben haben, das der Teams-App zugeordnet ist, k
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte "Pläne und Preise" auf der Seite "App-Details"":::
 
-Wählen **Sie Lizenzen verwalten** aus, um zum Microsoft 365 Admin Center zu wechseln, um die erworbenen Lizenzen anzeigen und zu verwalten und um Lizenzzuweisungen für Benutzer zu verwalten.
+Wählen **Sie Lizenzen verwalten** aus, um zu den Microsoft 365 Admin Center zu wechseln, um die erworbenen Lizenzen anzeigen und zu verwalten und um Lizenzzuweisungen für Benutzer zu verwalten.
 
 Globale Administratoren können die Von jedem in der Organisation getätigten Einkäufe anzeigen, während Teams Dienstadministratoren nur die von sich selbst getätigten Einkäufe anzeigen können.  
 

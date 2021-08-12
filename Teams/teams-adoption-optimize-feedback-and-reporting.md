@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48fedc9050b397e3c14f76a240e34f192b9d7565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116888"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285664"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 
-Stellen Sie sicher, dass Sie Signale von Ihrem Dienst und Ihren Mitarbeitern erhalten, indem Sie sich an die bewährten Methoden für Benutzerfeedback und Berichte zur Dienstinte health anlehnen.  In einigen Fällen benötigen Sie möglicherweise Administratorrechte, um auf bestimmte Dienstnutzungs- und Integritätsberichte zugreifen zu können. Wenn Sie nicht der Microsoft 365- oder Office 365-Administrator für Ihre Organisation sind, arbeiten Sie mit dieser Person zusammen, um im Microsoft 365 Admin Center die Berichtsleserrolle zu erhalten, um auf einige dieser Daten zu zugreifen.
+Stellen Sie sicher, dass Sie Signale von Ihrem Dienst und Ihren Mitarbeitern erhalten, indem Sie sich an die bewährten Methoden für Benutzerfeedback und Berichte zur Dienstinte health anlehnen.  In einigen Fällen benötigen Sie möglicherweise Administratorrechte, um auf bestimmte Dienstnutzungs- und Integritätsberichte zugreifen zu können. Wenn Sie nicht der Microsoft 365 oder Office 365-Administrator für Ihre Organisation sind, arbeiten Sie mit dieser Person zusammen, um dieser Person im Microsoft 365 Admin Center die Rolle des Berichtslesers zu erhalten, um auf einige dieser Daten zu zugreifen.
 
 ## <a name="incorporating-feedback"></a>Integrieren von Feedback 
 

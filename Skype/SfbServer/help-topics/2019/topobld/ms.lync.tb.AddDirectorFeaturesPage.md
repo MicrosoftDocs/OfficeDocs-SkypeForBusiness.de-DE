@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c8b1c8e-5a3e-499b-9035-7d2f8e07b389
 ROBOTS: NOINDEX, NOFOLLOW
-description: Wenn der Directorpool Monitoring Server enthalten soll, wählen Sie Überwachung (CDR und QoE-Metriken) aus.
-ms.openlocfilehash: c3255648f9c5cd7718417d59548ceae7db1c1cf2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Wenn sie möchten, dass der Director-Pool den Monitoring Server enthält, wählen Sie Überwachung (KDS und QoE-Metriken) aus.
+ms.openlocfilehash: efd3017cde44aabd6cad92b7b5023637500188c4ec4629021ad6fcd803486baa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285305"
 ---
 # <a name="add-director-features"></a>Hinzufügen von Director-Funktionen
 
-Wenn der Directorpool Monitoring Server enthalten soll, wählen Sie **Monitoring (CDR and QoE Metrics) aus.**
+Wenn sie möchten, dass der Director-Pool den Monitoring Server enthält, wählen Sie **Überwachung (KDS und QoE-Metriken)** aus.
 
-Weitere Informationen zum Hinzufügen eines Directorpools finden Sie unter [Scenarios for the Director](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) und Setting Up the [Director](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director).
+Weitere Informationen zum Hinzufügen eines Directorpools finden Sie unter ["Szenarien für den Director"](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-the-director) und ["Einrichten des Director".](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-the-director)

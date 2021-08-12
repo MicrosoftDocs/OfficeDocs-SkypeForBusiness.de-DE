@@ -1,5 +1,5 @@
 ---
-title: Verschieben von Dateispeicherdaten in einen neuen Dateispeicher in Skype for Business Server
+title: Verschieben von Datei Store daten in eine neue Store in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 'Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server-Bereitstellung agiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht verfügbar machen würden, müssen Sie zuerst eine neue Freigabe erstellen. Anschließend müssen Sie die folgenden Schritte ausführen:'
-ms.openlocfilehash: dbe9d239680d592a4d309d97577c6a6bad702239
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server Bereitstellung fungiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht verfügbar machen würden, müssen Sie zuerst eine neue Freigabe erstellen. Anschließend müssen Sie die folgenden Schritte ausführen:'
+ms.openlocfilehash: 47363372b5a54390ff4ba2982ffe17e7c5d32e22728a8d78bdd45c6bba28c44d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350157"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Verschieben von Dateispeicherdaten in einen neuen Dateispeicher in Skype for Business Server
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Verschieben von Datei Store daten in eine neue Store in Skype for Business Server
 
-Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server-Bereitstellung agiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht verfügbar machen würden, müssen Sie zuerst eine neue Freigabe erstellen. Anschließend müssen Sie die folgenden Schritte ausführen:
+Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server Bereitstellung fungiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht verfügbar machen würden, müssen Sie zuerst eine neue Freigabe erstellen. Anschließend müssen Sie die folgenden Schritte ausführen:
 
-1. Fahren Sie die Skype for Business Server-Dienste herunter, die den Dateispeicher verwenden, den Sie entfernen möchten.
+1. Fahren Sie die Skype for Business Server Dienste herunter, die den zu entfernenden Dateispeicher verwenden.
 
 2. Definieren Sie den Dateispeicher im Topologie-Generator, und veröffentlichen Sie die Änderungen, um den neuen Dateispeicher für Ihre Bereitstellung verfügbar zu machen.
 
@@ -35,38 +35,38 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>So verschieben Sie Dateispeicherdaten von einem Dateispeicher in einen neuen Dateispeicher
 
-1. Melden Sie sich bei einem Computer als Mitglied der Gruppe "RTCUniversersalServerAdmins" oder "CsServerAdministrator" an, auf dem der Skype for Business Server administrative Tools installiert ist.
+1. Melden Sie sich bei einem Computer als Mitglied der Gruppe "RTCUniversersalServerAdmins" oder "CsServerAdministrator" an, auf dem die Skype for Business Server, Die Verwaltungstools installiert sind.
 
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.
 
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 
-4. Wählen Sie für jeden Directorpool, Director, Standard Edition-Server und Front-End-Pool, der den dateispeicher verwendet, den Sie entfernen möchten, den Server oder Pool aus, klicken Sie auf **Aktion** und dann auf Alle Dienste **beenden**.
+4. Wählen Sie für jeden Directorpool, Director, Standard Edition Server und Front-End-Pool, der den zu entfernenden Dateispeicher verwendet, den Server oder Pool aus, klicken Sie auf **Aktion** und dann auf **"Alle Dienste beenden".**
 
 5. Melden Sie sich auf dem Computer, auf dem der Topologie-Generator installiert ist, als Mitglied der Gruppe "Domänen-Admins" oder "RTCUniversalServerAdmins" an.
 
-6. Start Topology Builder: Klicken Sie **auf Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business Server,** und klicken Sie dann auf **Skype for Business Server Topology Builder**.
+6. Topologie-Generator starten: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business Server"** und dann auf **Skype for Business Server Topologie-Generator.**
 
 7. Wählen Sie einen Server oder Pool aus, der den Dateispeicher verwendet, und gehen Sie wie folgt vor:
 
-   a. Klicken Sie mit der rechten Maustaste auf den Server oder Pool, und klicken Sie dann **auf Eigenschaften bearbeiten.**
+   a. Klicken Sie mit der rechten Maustaste auf den Server oder Pool, und klicken Sie dann auf **"Eigenschaften bearbeiten".**
 
-   b. Klicken **Sie unter Eigenschaften bearbeiten** unter **Zuordnungen** unter **Dateispeicher** auf **Neu**.
+   b. Klicken Sie unter **"Eigenschaften bearbeiten"** unter **"Zuordnungen"** unter **"Dateispeicher"** auf **"Neu".**
 
-   c. Geben **Sie unter** Dateiserver-FQDN unter Neuen Dateispeicher definieren den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Dateiservers ein.  Geben **Sie unter** Dateifreigabe den Ordnernamen für die neue Dateifreigabe ein, und klicken Sie dann auf **OK**.
+   c. Geben Sie unter **"Neuen Datei Store definieren"** unter **"Dateiserver-FQDN"** den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Dateiservers ein. Geben Sie unter **"Dateifreigabe"** den Ordnernamen für die neue Dateifreigabe ein, und klicken Sie dann auf **"OK".**
 
      > [!IMPORTANT]
      > In diesem Schritt wird ein neuer Dateispeicher für die Verwendung im Topologie-Generator definiert. Sie definieren sie nur einmal, nicht für jeden Server. Vor dem Veröffentlichen der Topologie müssen Sie auf dem definierten Dateiserver die definierte Dateifreigabe erstellen. Ausführliche Informationen finden Sie unter [Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14)).
 
 8. Gehen Sie für jeden Server oder Pool, der den Dateispeicher verwendet, wie folgt vor:
 
-   a. Klicken Sie mit der rechten Maustaste auf den Server oder Pool, und klicken Sie dann **auf Eigenschaften bearbeiten**.
+   a. Klicken Sie mit der rechten Maustaste auf den Server oder Pool, und klicken Sie dann auf **"Eigenschaften bearbeiten".**
 
-   b. Wählen **Sie unter Eigenschaften bearbeiten** unter **Zuordnungen** im **Dateispeicher** die neue Dateifreigabe aus, und klicken Sie dann auf **OK**.
+   b. Wählen Sie in **"Eigenschaften bearbeiten"** unter **"Zuordnungen"** im **Dateispeicher** die neue Dateifreigabe aus, und klicken Sie dann auf **"OK".**
 
-9. Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den Skype for Business Server-Bereitstellungs-Assistenten nach Bedarf aus. Ausführliche Informationen finden Sie unter [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
+9. Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den Skype for Business Server Bereitstellungs-Assistenten nach Bedarf aus. Ausführliche Informationen finden Sie unter [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
-10. Starten Sie eine Eingabeaufforderung: Klicken Sie **auf Start,** klicken Sie auf **Ausführen**, und geben Sie dann cmd.exe.
+10. Starten Sie eine Eingabeaufforderung: Klicken Sie auf **"Start",** klicken Sie auf **"Ausführen",** und geben Sie dann cmd.exe ein.
 
 11. Geben Sie an der Befehlszeile Folgendes ein:
 
@@ -75,11 +75,11 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
     ```
 
     > [!TIP]
-    > Die Option /S kopiert Dateien, Verzeichnisse und Unterverzeichnisse. Die Option /XF überspringt alle Dateien mit dem Namen Meeting.Active. In aktuellen Versionen von "robocopy.exe" mit dem /MT-Switch ist die Kopiergeschwindigkeit durch die Verwendung mehrerer Threads deutlich höher. Verwenden Sie für die Option /LOG einen Verzeichnispfad und einen Protokolldateinamen in Form von C:\Logfiles\log.txt. Diese Option erstellt eine Protokolldatei mit Vorgängen am benannten Speicherort.
+    > Der Schalter "/S" kopiert Dateien, Verzeichnisse und Unterverzeichnisse. Die Option /XF überspringt alle Dateien mit dem Namen "Meeting.Active". In aktuellen Versionen von "robocopy.exe" mit dem /MT-Switch ist die Kopiergeschwindigkeit durch die Verwendung mehrerer Threads deutlich höher. Verwenden Sie für die Option /LOG einen Verzeichnispfad und einen Protokolldateinamen in Form von C:\Logfiles\log.txt. Dieser Switch erstellt eine Protokolldatei von Vorgängen am benannten Speicherort.
 
-12. Wenn die Datenkopie abgeschlossen ist, klicken Sie in der Lync Server-Systemsteuerung auf **Topologie** und dann auf **Status**.
+12. Klicken Sie nach Abschluss der Datenkopie in der Lync Server-Systemsteuerung auf **"Topologie"** und dann auf **"Status".**
 
-13. Wählen Sie für jeden Server oder Pool, auf dem Sie dienste beendet haben, den Server oder Pool aus, klicken Sie auf **Aktion,** und klicken Sie dann **auf Alle Dienste starten**.
+13. Wählen Sie für jeden Server oder Pool, auf dem Dienste beendet wurden, den Server oder Pool aus, klicken Sie auf **"Aktion"** und dann auf **"Alle Dienste starten".**
 
 14. Entfernen Sie den alten Datenspeicher aus der Topologie, und veröffentlichen Sie dann die Topologie. Ausführliche Informationen finden Sie unter [Remove a file store](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14)).
 

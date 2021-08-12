@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-description: 'Gehen Sie wie folgt vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in der Active Directory Domain Services-Gesamtstruktur repliziert wurde:'
-ms.openlocfilehash: db30087e6b996b70fe97e3249c1bf2eaa97a694c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in ihrer Active Directory Domain Services-Gesamtstruktur repliziert wurde:'
+ms.openlocfilehash: 315a37267b2bdcae89c098858aa9419eff262c46b7cd37c39799dd5642d2a295
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284995"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Überprüfen der Replikation der Schemapartition
  
-Gehen Sie wie folgt vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in der Active Directory Domain Services-Gesamtstruktur repliziert wurde:
+Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in ihrer Active Directory Domain Services-Gesamtstruktur repliziert wurde:
   
-1. Melden Sie sich bei einem Domänencontroller (nicht dem Domänencontroller mit der Schemamasterrolle) in Ihrer Active Directory Domain Services-Gesamtstruktur an, auf dem die Schemaerweiterungen als Mitglied der Gruppe "Enterprise-Admins" angewendet wurden.
+1. Melden Sie sich bei einem Domänencontroller (mit Ausnahme des Domänencontrollers mit der Schemamasterrolle) in der Active Directory Domain Services-Gesamtstruktur an, auf den die Schemaerweiterungen als Mitglied der Gruppe "Enterprise Administratoren" angewendet wurden.
     
 2. Öffnen Sie den ADSI-Editor: Klicken Sie nacheinander auf **Start**, **Verwaltung** und **ADSI-Editor**.
     
@@ -42,6 +42,6 @@ Gehen Sie wie folgt vor, um zu überprüfen, ob die Schemaerweiterung erfolgreic
 6. Suchen Sie unter dem Schemacontainer nach "CN=ms-RTC-SIP-SchemaVersion". Wenn dieses Objekt vorhanden und der Wert des Attributs **rangeUpper** 1150 und der Wert des Attributs **rangeLower** 3 ist, wurde das Schema erfolgreich aktualisiert und repliziert. Wenn dieses Objekt nicht vorhanden ist oder die Werte der Attribute **rangeUpper** und **rangeLower** nicht diesen Werten entsprechen, wurde das Schema nicht geändert oder repliziert.
     
 > [!NOTE]
-> Sollte Ihre Überprüfung der Replikation des Schemas noch keine erfolgreiche Replikation ergeben, warten Sie ca. 15 Minuten, und führen Sie dann die Überprüfung erneut durch. Die Active Directory-Replikation basiert auf einem losen Konsistenzmodell, und es kann eine gewisse Replikationslatenz auftreten, basierend auf einer Reihe von Faktoren in Server und Infrastruktur. 
+> Sollte Ihre Überprüfung der Replikation des Schemas noch keine erfolgreiche Replikation ergeben, warten Sie ca. 15 Minuten, und führen Sie dann die Überprüfung erneut durch. Die Active Directory-Replikation basiert auf einem losen Konsistenzmodell, und es kann eine Replikationslatenz auftreten, basierend auf einer Reihe von Faktoren auf dem Server und in der Infrastruktur. 
   
 

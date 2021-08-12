@@ -1,5 +1,5 @@
 ---
-title: Leistungsindikatoren für mobilität in Skype for Business Server
+title: Leistungsindikatoren für Mobilität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,81 +11,81 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Zusammenfassung: Erfahren Sie mehr über die Leistungsindikatoren, mit denen Sie Server überwachen können, auf denen die Unified Communications Web API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden.'
-ms.openlocfilehash: d711ada11cee9cb12a5cde25cab583f8b174ac50
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über die Leistungsindikatoren, mit denen Sie Server überwachen können, auf denen die Unified Communications-Web-API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden.'
+ms.openlocfilehash: 83097ed6e1503fafa8b82815ef36a3411fa09f8af1c8f83470d9e8ee02ae6b88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286784"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Leistungsindikatoren für mobilität in Skype for Business Server
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Leistungsindikatoren für Mobilität in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über die Leistungsindikatoren, mit denen Sie Server überwachen können, auf denen die Unified Communications Web API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden.
+**Zusammenfassung:** Erfahren Sie mehr über die Leistungsindikatoren, mit denen Sie Server überwachen können, auf denen die Unified Communications-Web-API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden.
   
-In den folgenden Tabellen sind die Namen und Beschreibungen von Leistungsindikatoren aufgeführt, mit denen Sie Server überwachen können, auf denen die Unified Communications Web API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden. 
+In den folgenden Tabellen sind die Namen und Beschreibungen der Leistungsindikatoren aufgeführt, mit denen Sie Server überwachen können, auf denen die Unified Communications-Web-API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden. 
   
-Der Kategoriename für die Leistungsindikatoren in der Tabelle UCWA **ist LS:WEB - UCWA**.
+Der Kategoriename für die Leistungsindikatoren in der UCWA-Tabelle lautet **LS:WEB - UCWA**.
   
-Der Kategoriename für die Leistungsindikatoren in der Tabelle "Mcx Mobility Service" ist **"LS:WEB - Mobile Communication Service".**
+Der Kategoriename für die Leistungsindikatoren in der Mcx Mobility Service-Tabelle lautet **LS:WEB – Mobile Communication Service**.
 
 > [!NOTE]
-> Die McX (Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen mobilen Skype for Business-Clients verwenden bereits unified Communications Web API (UCWA), um Chat, Anwesenheit und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen ein Upgrade auf einen aktuellen Client durchführen.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 ## <a name="performance-counters-for-ucwa"></a>Leistungsindikatoren für UCWA
 
 |Leistungsindikator|Beschreibung|
 |:-----|:-----|
-|Anzahl aktiver Anwendungen  <br/> |Die aktuelle Anzahl von Anwendungen  <br/> |
-|Anzahl der aktiven Anwendungsfreigabemodalitäten  <br/> |Die aktuelle Anzahl der Modalität der Anwendungsfreigabe  <br/> |
-|Anzahl der aktiven Audiomodalitäten  <br/> |Die aktuelle Anzahl der Audiomodalitäten  <br/> |
-|Anzahl der Modalitätsmodalitäten für die aktive Datenzusammenarbeit  <br/> |Die aktuelle Anzahl der Datenzusammenarbeitsmodalitäten  <br/> |
-|Active Directory Photo Get Latency (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Abrufen eines Fotos aus active Directory an.  <br/> |
-|Anzahl der aktiven Messagingmodalitäten  <br/> |Die aktuelle Anzahl der Messagingmodalitäten  <br/> |
+|Anzahl der aktiven Anwendungen  <br/> |Die aktuelle Anzahl von Anwendungen  <br/> |
+|Anzahl der aktiven Anwendungsfreigabemodalitäten  <br/> |Die aktuelle Anzahl der Modalitäten für die Anwendungsfreigabe  <br/> |
+|Anzahl der aktiven Audiomodalitäten  <br/> |Die aktuelle Anzahl der Audiomodalität  <br/> |
+|Anzahl der aktiven Datenzusammenarbeitsmodalitäten  <br/> |Die aktuelle Anzahl der Datenzusammenarbeitsmodalitäten  <br/> |
+|Latenz beim Abrufen von Active Directory-Fotos (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Abrufen eines Fotos aus dem Active Directory an.  <br/> |
+|Anzahl der aktiven Messaging-Modalitäten  <br/> |Die aktuelle Anzahl der Messaging-Modalität  <br/> |
 |Anzahl der aktiven Panoramavideomodalitäten  <br/> |Die aktuelle Anzahl der Panoramavideomodalitäten  <br/> |
-|Anzahl der aktiven ausstehenden Get-Informationen  <br/> |Die Anzahl der derzeit aktiven ausstehenden Gets; Lange gehaltene Verbindungen mit dem Server  <br/> |
-|Anzahl aktiver Sitzungen  <br/> |Die aktuelle Anzahl der in UCWA registrierten Endpunkte pro Anwendung und Gesamtanzahl  <br/> |
-|Anzahl aktiver Benutzerinstanzen  <br/> |Die aktuelle Anzahl von Benutzerinstanzen  <br/> |
+|Active Pending Get Count  <br/> |Die Anzahl der derzeit aktiven ausstehenden Abrufe; Lange gehaltene Verbindungen mit dem Server  <br/> |
+|Anzahl aktiver Sitzungen  <br/> |Die aktuelle Anzahl der in UCWA registrierten Endpunkte pro Anwendung und Die Gesamtzahl  <br/> |
+|Anzahl der aktiven Benutzerinstanzen  <br/> |Die aktuelle Anzahl von Benutzerinstanzen  <br/> |
 |Aktive Benutzerinstanzen ohne Anwendung  <br/> |Die aktuelle Anzahl von Benutzerinstanzen ohne Anwendung  <br/> |
-|Anzahl der aktiven Videomodalität  <br/> |Die aktuelle Anzahl der Videomodalitäten  <br/> |
-|Empfangene Anwendungserstellungsanforderungen/Sekunde  <br/> |Die Rate der empfangenen Anwendungserstellungsanforderungen pro Sekunde.  <br/> |
-|AS MCU Join Failures  <br/> |Die Anzahl der AS MCU Join Failures  <br/> |
-|AV MCU Join Failures  <br/> |Die Anzahl der Av MCU Join Failures  <br/> |
+|Anzahl der aktiven Videomodalitäten  <br/> |Die aktuelle Anzahl der Videomodalitäten  <br/> |
+|Empfangene/zweite Anwendungserstellungsanforderungen  <br/> |Die Anzahl der empfangenen Anwendungserstellungsanforderungen pro Sekunde.  <br/> |
+|AS MCU-Verknüpfungsfehler  <br/> |Die Anzahl der AS MCU-Verbindungsfehler  <br/> |
+|FEHLER BEI DER AV MCU-Verknüpfung  <br/> |Die Anzahl der AV MCU-Teilnahmefehler  <br/> |
 |Durchschnittliche Startzeit der Anwendung (ms)  <br/> |Die durchschnittliche Startzeit der Anwendung in Millisekunden  <br/> |
-|Durchschnittliche Lebensdauer der Sitzung (ms)  <br/> |Die durchschnittliche Dauer einer Sitzung in Millisekunden.  <br/> |
-|Daten-MCU-Teilnahmefehler  <br/> |Die Anzahl der Daten-MCU-Teilnahmefehler  <br/> |
-|Wartezeit für die Exchange-Kontaktsuche (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Durchsuchen des Kontakts in Exchange an.  <br/> |
-|Exchange HD Photo Get Latency (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Abrufen eines Fotos aus Exchange an.  <br/> |
-|HTTP 4xx-Antworten/Sekunde  <br/> |Die Rate der Antworten pro Sekunde mit HTTP-4xx-Code  <br/> |
-|HTTP 5xx-Antworten/Sekunde  <br/> |Die Rate der Antworten pro Sekunde mit HTTP-5xx-Code  <br/> |
-|IM MCU Join Failures  <br/> |Die Anzahl der Im-MCU-Teilnahmefehler  <br/> |
-|Anzahl der Active Directory-Foto-Get-Fehler  <br/> |Die Gesamtzahl der Fehler beim Abrufen von Fotos aus Active Directory  <br/> |
+|Durchschnittliche Lebensdauer für Sitzung (ms)  <br/> |Die durchschnittliche Dauer einer Sitzung in Millisekunden.  <br/> |
+|Fehler bei der Daten-MCU-Verknüpfung  <br/> |Die Anzahl der Fehler bei der Daten-MCU-Verknüpfung  <br/> |
+|Exchange Kontaktsuchlatenz (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Durchsuchen des Kontakts in Exchange  <br/> |
+|Exchange Hd Photo Get Latency (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Abrufen eines Fotos aus Exchange  <br/> |
+|HTTP 4xx-Antworten/Sekunde  <br/> |Die Pro-Sekunde-Antwortrate mit HTTP 4xx-Code  <br/> |
+|HTTP 5xx-Antworten/Sekunde  <br/> |Die Anzahl der Antworten pro Sekunde mit HTTP 5xx-Code  <br/> |
+|IM MCU-Teilnahmefehler  <br/> |Die Anzahl der McU-Verbindungsfehler bei Chatnachrichten  <br/> |
+|Anzahl der Fehler beim Abrufen von Active Directory-Fotos  <br/> |Die Gesamtzahl der Fehler beim Abrufen von Fotos aus Active Directory  <br/> |
 |Anzahl der Fehler bei der Kontaktsuche  <br/> |Die Gesamtzahl der Fehler beim Durchsuchen von Kontakten in Exchange  <br/> |
 |Anzahl der Deserialisierungsfehler  <br/> |Die Gesamtzahl der Deserialisierungsfehler  <br/> |
-|Anzahl der Hd Photo Get Failures  <br/> |Die Gesamtzahl der Fehler beim Abrufen von HD-Fotos aus Exchange  <br/> |
-|Über die maximale Anzahl von Abonnements pro Anwendung  <br/> |Die Anzahl der Abonnementanforderungen über dem maximal zulässigen Wert pro Anwendung  <br/> |
-|Über die maximale Anzahl von Abonnements pro Batch  <br/> |Die Anzahl der Abonnementanforderungen über dem pro Batch maximal zulässigen Wert  <br/> |
-|Fehler beim Anwesenheitsabonnement  <br/> |Die Anzahl der Fehler beim Abonnieren der Anwesenheit  <br/> |
+|Anzahl der Fehler beim Abrufen von HD-Fotos  <br/> |Die Gesamtzahl der Fehler beim Abrufen von HD-Fotos aus Exchange  <br/> |
+|Mehr als die maximalen Abonnements pro Anwendung  <br/> |Die Anzahl der Abonnementanforderungen über dem maximal zulässigen Wert pro Anwendung.  <br/> |
+|Über den maximalen Abonnements pro Batch  <br/> |Die Anzahl der Abonnementanforderungen über dem maximal zulässigen Wert pro Batch  <br/> |
+|Fehler beim Anwesenheitsabonnement  <br/> |Die Anzahl der Fehler beim Abonnieren von Anwesenheitsinformationen.  <br/> |
 |Registrieren von Endpunktfehlern  <br/> |Die Anzahl der Fehler beim Registrieren von Endpunkten  <br/> |
 |Empfangene Anforderungen/Sekunde  <br/> |Die Anzahl der empfangenen Anforderungen pro Sekunde.  <br/> |
-|Erfolgreiche Anforderungen/Sekunde  <br/> |Die Rate der erfolgreichen Anforderungen pro Sekunde (HTTP 2xx/3xx-Antwortcodes)  <br/> |
-|Succeeded Create Application Requests/Second  <br/> |Die Anzahl der erfolgreichen Anwendungserstellungsanforderungen pro Sekunde.  <br/> |
-|Timed Out Pending Get Count  <br/> |Die Anzahl der ausstehenden Gets, bei der ein Zeitsende aufting  <br/> |
-|Gesamtzahl empfangener Anwendungserstellungsanforderungen  <br/> |Die Gesamtzahl der seit dem Start des Diensts empfangenen Anwendungserstellungsanforderungen.  <br/> |
-|HTTP-4xx-Antworten insgesamt  <br/> |Die Gesamtzahl der HTTP-4xx-Antworten  <br/> |
-|HTTP-5xx-Antworten insgesamt  <br/> |Die Gesamtzahl der HTTP-5xx-Antworten.  <br/> |
-|Gesamtzahl der über den Befehlskanal empfangenen Anforderungen  <br/> |Die Gesamtzahl der über den Befehlskanal empfangenen Anforderungen.  <br/> |
-|Gesamtzahl der erfolgreichen Anforderungen  <br/> |Die Gesamtzahl der erfolgreichen Anforderungen  <br/> |
+|Erfolgreiche Anforderungen/Sekunde  <br/> |Die Anzahl der erfolgreichen Anforderungen pro Sekunde (HTTP-Antwortcodes 2xx/3xx)  <br/> |
+|Erfolgreiches Erstellen von Anwendungsanforderungen/Sekunde  <br/> |Die Anzahl der erfolgreichen Anwendungserstellungsanforderungen pro Sekunde.  <br/> |
+|Timed Out Pending Get Count  <br/> |Die Anzahl ausstehender Ausstehender ruft dieses Timeout ab.  <br/> |
+|Gesamtzahl empfangener Anwendungserstellungsanforderungen  <br/> |Die Gesamtzahl der Anwendungserstellungsanforderungen, die seit dem Starten des Diensts empfangen wurden.  <br/> |
+|Http-Antworten insgesamt 4xx  <br/> |Die Gesamtzahl der HTTP 4xx-Antworten  <br/> |
+|Http-Antworten insgesamt 5xx  <br/> |Die Gesamtzahl der HTTP 5xx-Antworten  <br/> |
+|Gesamtzahl der im Befehlskanal empfangenen Anforderungen  <br/> |Die Gesamtzahl der über den Befehlskanal empfangenen Anforderungen.  <br/> |
+|Gesamtzahl der erfolgreichen Anforderungen  <br/> |Die Gesamtzahl der erfolgreichen Anforderungen.  <br/> |
 |Gesamtzahl der initiierten Sitzungen  <br/> |Die Gesamtzahl der Sitzungen, die seit dem Starten des Diensts initiiert wurden.  <br/> |
-|Gesamtzahl der Sitzungen, die aufgrund eines Leerlauftimeouts beendet wurden  <br/> |Die Gesamtzahl der Sitzungen, die beendet wurden, da das Leerlauftimeout des Benutzers erreicht wurde.  <br/> |
-|Drosselungsanwendungen insgesamt  <br/> |Die Anzahl der gedrosselten Anwendungen  <br/> |
+|Gesamtzahl der aufgrund eines Leerlauftimeouts beendeten Sitzungen  <br/> |Die Gesamtzahl der Sitzungen, die beendet wurden, da das Leerlauftimeout des Benutzers erreicht wurde.  <br/> |
+|Gedrosselte Anwendungen insgesamt  <br/> |Die Anzahl der gedrosselten Anwendungen  <br/> |
    
-**Leistungsindikatoren für den Mcx Mobility Service**
+**Leistungsindikatoren für Mcx Mobility Service**
 
 |**Leistungsindikator**|**Beschreibung**|
 |:-----|:-----|
 |Durchschnittliche Sitzungsdauer in Millisekunden  <br/> |Die durchschnittliche Dauer einer Sitzung in Millisekunden.  <br/> |
-|Aktuelle Pushbenachrichtigungsabonnements  <br/> |Die aktuelle Anzahl von Pushbenachrichtigungsabonnements. Diese Zahl stellt in Verbindung mit der Anzahl derzeit aktiver Sitzungen die Teilmenge der derzeit aktiven Sitzungen dar, die für Windows Mobile- oder iPhone-Geräte registriert sind.  <br/> |
+|Aktuelle Pushbenachrichtigungsabonnements  <br/> |Die aktuelle Anzahl von Pushbenachrichtigungsabonnements. Diese Zahl stellt in Verbindung mit der Anzahl der derzeit aktiven Sitzungen die Teilmenge der derzeit aktiven Sitzungen dar, die für Windows Mobile- oder iPhone-Geräte registriert sind.  <br/> |
 |Anzahl derzeit aktiver Netzwerkumfragen mit Timeout  <br/> |Die Anzahl von Netzwerkumfragen, bei denen ein Timeout aufgetreten ist.  <br/> |
 |Anzahl derzeit aktiver Umfragen  <br/> |Die Anzahl von derzeit aktiven Umfragen (lange gehaltene Verbindungen mit dem Server).  <br/> |
 |Anzahl derzeit aktiver Sitzungen  <br/> |Die derzeitige Anzahl der im Mobilitätsdienst registrierten Endpunkte.  <br/> |
@@ -117,4 +117,4 @@ Der Kategoriename für die Leistungsindikatoren in der Tabelle "Mcx Mobility Ser
 |Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe  <br/> |Die Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe.  <br/> |
    
 > [!NOTE]
-> Die McX (Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen mobilen Skype for Business-Clients verwenden bereits unified Communications Web API (UCWA), um Chat, Anwesenheit und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen ein Upgrade auf einen aktuellen Client durchführen.
+> MCX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.

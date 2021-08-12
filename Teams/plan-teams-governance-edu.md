@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ada92509adc0f066bf957ddaa8f5de8dd0c47653
-ms.sourcegitcommit: 8906fc384cd13255972df53d2a07d12589154d42
+ms.openlocfilehash: 1859286fd14e3820a75615adc5da82fea863e74101e5a7911e888490e5799db3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52085847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285804"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren
 
@@ -78,7 +78,7 @@ Es wird empfohlen, zuerst zu überlegen, wie Sie Teams-Daten nach Abschluss des 
 -   **Archivteam:** Diese Einstellung versetzt Teams in den schreibgeschützten Modus. Sie können weiterhin durchsucht und durchsucht werden, aber niemand kann neue Beiträge hinzufügen. [Das Archivieren oder Wiederherstellen eines Teams beschreibt,](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) wie Teambesitzer ein Team archivieren können. Teambesitzer können auch die [Graph-API (Beta)](/graph/api/resources/teams-api-overview) verwenden, um ein Team zu archivieren oder wiederherzustellen.
  
 > [!IMPORTANT]
-> Die Verwendung Microsoft 365 Ablaufrichtlinie für Gruppen erfordert Azure Active Directory Premium P1-Lizenzen für jeden eindeutigen Benutzer, der Mitglied einer oder mehreren Microsoft 365 ist.
+> Die Verwendung Microsoft 365 Ablaufrichtlinien für Gruppen erfordert Azure Active Directory Premium P1 für jeden eindeutigen Benutzer, der Mitglied einer oder mehreren Gruppen Microsoft 365 ist.
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>Gibt es Teamvorlagen für die Mitglieder meiner Lehrpersonal, die beim Erstellen eines Teams verwendet werden können?
 

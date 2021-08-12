@@ -1,5 +1,5 @@
 ---
-title: Clienteinstellungen (Planungstool)
+title: Client Einstellungen (Planning Tool)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: Das Mobilitätsfeature in Skype for Business Server 25 unterstützt Skype for Business-Funktionen auf mobilen Geräten. Weitere Informationen finden Sie unter Planning for Mobility.
-ms.openlocfilehash: c61a619f994f2cc835d658f40f4ce442d40250e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Das Mobilitätsfeature in Skype for Business Server 25 unterstützt Skype for Business Funktionen auf mobilen Geräten. Ausführliche Informationen finden Sie unter "Planen der Mobilität".
+ms.openlocfilehash: 754cc06ede1b03affd2c4180ecc9a155ce6d6e522c65bda5b005e02f65dc91d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285325"
 ---
-# <a name="client-settings-planning-tool"></a>Clienteinstellungen (Planungstool)
+# <a name="client-settings-planning-tool"></a>Client Einstellungen (Planning Tool)
 
-Das Mobilitätsfeature in Skype for Business Server unterstützt Skype for Business-Funktionen auf mobilen Geräten. Weitere Informationen finden Sie unter [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).
+Das Mobilitätsfeature in Skype for Business Server unterstützt Skype for Business Funktionen auf mobilen Geräten. Ausführliche Informationen finden Sie unter [Planning for Mobility](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).

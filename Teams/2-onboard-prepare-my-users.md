@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322877"
 ---
 # <a name="prepare-my-users"></a>Vorbereiten der Benutzer
 
@@ -92,7 +92,7 @@ Die Organisationsbereitschaft hilft Ihnen bei der Bestimmung, wie vertrauenswür
 
  
 > [!TIP]
-> Lernen ist nicht "one-size-fits-all". Wenn Sie verstehen, wie Ihre Benutzer am besten lernen, können Sie ein stabiles Schulungsprogramm erstellen, um deren Lernerfolge zu beschleunigen. Wenn viele Benutzer selbstmotiviert sind, reicht das Verknüpfen mit Videos und Benutzerhandbüchern möglicherweise aus. Für diejenigen, die spezielle Aufmerksamkeit benötigen, sollten Sie unbedingt eine 1:1-Zeit planen oder Ihre Champions be interessen, um diesen Benutzern über die &mdash; Lernkurve zu helfen.
+> Learning ist nicht "one-size-fits-all". Wenn Sie verstehen, wie Ihre Benutzer am besten lernen, können Sie ein stabiles Schulungsprogramm erstellen, um deren Lernerfolge zu beschleunigen. Wenn viele Benutzer selbstmotiviert sind, reicht das Verknüpfen mit Videos und Benutzerhandbüchern möglicherweise aus. Für diejenigen, die spezielle Aufmerksamkeit benötigen, sollten Sie unbedingt eine 1:1-Zeit planen oder Ihre Champions be interessen, um diesen Benutzern über die &mdash; Lernkurve zu helfen.
 
 <!--ENDOFSECTION-->
 
@@ -140,7 +140,7 @@ Besprechen Sie für jeden Einsatzfall Folgendes mit Ihrem Projektteam:
 
 -   Wie optimiert die neue Lösung die Benutzererfahrung?
 
-Beispiele für Anwendungsfälle finden Sie unter [FastTrack-Produktivitätsbibliothek.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
+Beispiele für Anwendungsfälle finden Sie im FastTrack [Produktivitätsbibliothek.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
 
 <!--ENDOFSECTION-->
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8a0f5b33bbea100b0303d224d7ba50946c6e5b
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 2b0f5fb378287d820762b66375d86903b9e89cebdd74378b302f62bf121fc1c5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285634"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen
 
@@ -40,7 +40,7 @@ Teams wurde verbessert, um die Integration von Aufzeichnungslösungen von Dritta
 
 - Neue Verwaltungsrichtlinien für die Complianceaufzeichnung, einschließlich integration in Teams administrative Anruf- und Besprechungstools und -richtlinien
 
-Die Complianceaufzeichnung kann für benutzer Microsoft 365 A3/A5/E3/E5/Business Premium und Office 365 A3/A5/E3/E5 aktiviert werden. 
+Die Complianceaufzeichnung kann für Microsoft 365 A3/A5/E3/E5/Business Premium und Office 365 A3/A5/E3/E5 aktiviert werden. 
 
 Die Integrationsfunktionen für Die Integration von Konformitätsaufzeichnungslösungen wurden auf der Ignite 2019 in der Complianceaufzeichnungs- [und -Microsoft Teams überprüft.](https://myignite.microsoft.com/archives/IG19-VCE40)
 

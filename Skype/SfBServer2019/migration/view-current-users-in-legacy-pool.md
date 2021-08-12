@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Vor dem Erlernen der verschiedenen Möglichkeiten zum Migrieren von Benutzern zwischen Pools müssen wir zunächst ermitteln, welche Benutzer im Legacy Pool vorhanden sind. In der Spalte Registrierungspool werden Benutzer identifiziert, die für den Legacy Pool konfiguriert sind. Dies sind die Testbenutzer, die wir in den Skype for Business Server 2019-Pool umsetzen werden.
-ms.openlocfilehash: 15bce6156c8c97246f7e2ffd648ae45b674bd6c9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Bevor Sie die verschiedenen Möglichkeiten zum Verschieben von Benutzern zwischen Pools erlernen, müssen wir zuerst ermitteln, welche Benutzer im Legacypool vorhanden sind. Die Spalte "Registrierungsstellenpool" identifiziert Benutzer, die für den Legacypool konfiguriert sind. Dies sind die Testbenutzer, die in den Skype for Business Server 2019-Pool verschoben werden.
+ms.openlocfilehash: 16d8796099356b927482a7e0d7eb395ebb4f03e76f9de83a386cfc2f8d5bd9a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751637"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285505"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Anzeigen der aktuellen Benutzer im Legacypool
 
-Bevor Sie die verschiedenen Methoden zum Migrieren von Benutzern zwischen Pools kennen lernen, müssen wir zunächst ermitteln, welche Benutzer im Legacy Pool vorhanden sind. In der Spalte **Registrierungspool** werden Benutzer identifiziert, die für den Legacy Pool konfiguriert sind. Dies sind die Testbenutzer, die wir in den Skype for Business Server 2019-Pool umsetzen werden.
+Bevor Sie die verschiedenen Möglichkeiten zum Verschieben von Benutzern zwischen Pools erlernen, müssen wir zuerst ermitteln, welche Benutzer im Legacypool vorhanden sind. Die Spalte **"Registrierungsstellenpool"** identifiziert Benutzer, die für den Legacypool konfiguriert sind. Dies sind die Testbenutzer, die in den Skype for Business Server 2019-Pool verschoben werden.
   
-### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>So zeigen Sie die Liste der Benutzer im Legacy Pool an
+### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>So zeigen Sie die Liste der Benutzer im Legacypool an
 
-1. Melden Sie sich bei der Legacy Front-End-Server mit einem Konto an, das Mitglied der RTCUniversalServerAdmins-Gruppe oder Mitglied der Administratorrolle CsAdministrator oder CsUserAdministrator ist.
+1. Melden Sie sich beim älteren Front-End-Server mit einem Konto an, das Mitglied der Gruppe "RTCUniversalServerAdmins" oder Mitglied der Administratorrolle "CsAdministrator" oder "CsUserAdministrator" ist.
     
-2. Öffnen Sie **Skype for Business Server System**Steuerung.
+2. Öffnen **Sie Skype for Business Server Systemsteuerung.**
     
-3. Klicken Sie auf **Benutzer**, klicken Sie auf **Suchen**, und klicken Sie dann auf **Suchen**.
+3. Klicken Sie auf **"Benutzer",** auf **"Suchen"** und dann auf **"Suchen".**
 
   
 

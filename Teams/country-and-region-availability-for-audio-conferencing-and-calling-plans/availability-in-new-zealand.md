@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Neuseeland.
-ms.openlocfilehash: f7654d1b7b4920e327d7a7db7c9970bc54e4575d
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 8ea346d34a89f7e52e21f16e78f3fd779d9e46fef750e8dca003042ebcaf63f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332847"
 ---
 # <a name="availability-in-new-zealand"></a>Verfügbarkeit in Neuseeland
 

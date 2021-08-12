@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kamerun.
-ms.openlocfilehash: f804fa22be5b735177ed69632d3a012e9e8cf3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8633073a2da75c92fd29d4f2b240439435a6acfcecb7a787acfd8347c7becd0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332837"
 ---
 # <a name="availability-in-cameroon"></a>Verfügbarkeit in Kamerun
 
