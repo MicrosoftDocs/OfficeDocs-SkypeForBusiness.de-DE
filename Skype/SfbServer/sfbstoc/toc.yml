@@ -1,4 +1,4 @@
-- name: "Skype for Business Server\_2015"
+- name: Skype for Business Server 2015
   href: ../skype-for-business-server-2015.yml
   items:
     - name: Technische Diagramme
@@ -42,9 +42,9 @@
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md
             - name: Bereitstellen mehrerer Standorte in Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md
-            - name: "Konfigurieren der Cloud Connector-Integration in Ihre Office\_365-Organisation"
+            - name: Konfigurieren der Cloud Connector-Integration in Ihre Office 365-Organisation
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md
-            - name: "Überprüfen Ihrer Cloud\_Connector-Bereitstellung"
+            - name: Überprüfen Ihrer Cloud Connector-Bereitstellung
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md
             - name: Upgrade auf eine neue Version von Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md
@@ -197,7 +197,7 @@
               items:
                 - name: Mindestnetzwerkanforderungen für die Skype-Besprechungen-App
                   href: ../plan-your-deployment/clients-and-devices/minimum-network-requirements.md
-            - name: "Anforderungen für Windows\_Phone"
+            - name: Anforderungen für Windows Phone
               href: ../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md
             - name: VDI-Umgebungen
               href: ../plan-your-deployment/clients-and-devices/vdi-environments.md
@@ -481,7 +481,7 @@
           items:
             - name: Zuordnen eines Überwachungsspeichers
               href: ../deploy/deploy-monitoring/associate-a-monitoring-store.md
-            - name: "Installieren von SQL\_Server\_Reporting\_Services"
+            - name: Installieren von SQL Server Reporting Services
               href: ../deploy/deploy-monitoring/install-sql-server-reporting-services.md
             - name: Installieren von Überwachungsberichten
               href: ../deploy/deploy-monitoring/install-monitoring-reports.md
@@ -727,7 +727,7 @@
                   href: ../deploy/deploy-clients/configure-client-bootstrapping-policies.md
             - name: Konfigurieren der Clienterfahrung
               href: ../deploy/deploy-clients/configure-the-client-experience.md
-            - name: "Windows\_Phone"
+            - name: Windows Phone
               href: ../deploy/deploy-clients/windows-phone.md
             - name: iOS
               href: ../deploy/deploy-clients/ios.md
@@ -741,7 +741,7 @@
                       href: ../deploy/deploy-clients/single-forest-on-premises-deployments.md
                     - name: Lokale Bereitstellungen mit mehreren Gesamtstrukturen
                       href: ../deploy/deploy-clients/multiple-forest-on-premises-deployments.md
-                    - name: "Bereitstellen von Skype Room Systems-Konten in Office\_365"
+                    - name: Bereitstellen von Skype Room Systems-Konten in Office 365
                       href: ../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md
                     - name: Hybridbereitstellungen
                       href: ../deploy/deploy-clients/hybrid-deployments.md
@@ -763,12 +763,12 @@
                   href: ../deploy/deploy-clients/manageability-and-tools.md
                 - name: Room-Setupskripts
                   href: ../deploy/deploy-clients/room-setup-scripts.md
-            - name: "Room Systems\_v2"
+            - name: Room Systems v2
               href: /MicrosoftTeams/rooms/rooms-deploy
               items:
-                - name: "Mit Office\_365"
+                - name: Mit Office 365
                   href: /MicrosoftTeams/rooms/with-office-365
-                - name: "Mit Skype for Business Server\_2015"
+                - name: Mit Skype for Business Server 2015
                   href: /MicrosoftTeams/rooms/with-skype-for-business-server-2015
                 - name: Mit Exchange Online
                   href: /MicrosoftTeams/rooms/with-exchange-online
@@ -814,7 +814,7 @@
               href: ../manage/topology/manage-databases.md
             - name: Verschieben von Dateispeicherdaten
               href: ../manage/topology/move-file-store-data.md
-            - name: "Deaktivieren von TLS\_1.0/1.1"
+            - name: Deaktivieren von TLS 1.0/1.1
               href: ../manage/topology/disable-tls-1.0-1.1.md
             - name: Verwalten von Diensten
               href: ../manage/manage-services.md
@@ -2050,7 +2050,7 @@
               href: ../help-topics/help-lscp/users-assign-policies.md
             - name: 'Benutzer: Bearbeiten eines Benutzers'
               href: ../help-topics/help-lscp/users-edit-user.md
-            - name: "Systemsteuerung\_– aktualisiert: Benutzersuche"
+            - name: 'Systemsteuerung – aktualisiert: Benutzersuche'
               href: ../help-topics/help-lscp/control-panelupdated-user-search.md
             - name: Verschieben eines Benutzers
               href: ../help-topics/help-lscp/move-user.md
@@ -2172,19 +2172,19 @@
               href: ../help-topics/help-lscp/xmpp-federated-partners.md
             - name: Add-In für beständigen Chat
               href: ../help-topics/help-lscp/persistent-chat-add-in.md
-            - name: "Add-In für beständigen Chat\_– Hauptseite"
+            - name: Add-In für beständigen Chat – Hauptseite
               href: ../help-topics/help-lscp/persistent-chat-add-in-main-page.md
             - name: Kategorie für beständigen Chat
               href: ../help-topics/help-lscp/persistent-chat-category.md
-            - name: "Kategorie für beständigen Chat\_– Hauptseite"
+            - name: Kategorie für beständigen Chat – Hauptseite
               href: ../help-topics/help-lscp/persistent-chat-category-main-page.md
             - name: Konfiguration für beständigen Chat
               href: ../help-topics/help-lscp/persistent-chat-configuration.md
-            - name: "Konfiguration für beständigen Chat\_– Hauptseite"
+            - name: Konfiguration für beständigen Chat – Hauptseite
               href: ../help-topics/help-lscp/persistent-chat-configuration-main-page.md
             - name: Richtlinie für beständigen Chat
               href: ../help-topics/help-lscp/persistent-chat-policy.md
-            - name: "Richtlinie für beständigen Chat\_– Hauptseite"
+            - name: Richtlinie für beständigen Chat – Hauptseite
               href: ../help-topics/help-lscp/persistent-chat-policy-main-page.md
             - name: Auswählen zugelassener Mitglieder
               href: ../help-topics/help-lscp/select-allowed-members.md
@@ -2206,7 +2206,7 @@
               href: ../help-topics/help-lscp/hybrid-wizard-move-user.md
             - name: Hybridverwaltungs-Assistent
               href: ../help-topics/help-lscp/hybrid-manageability-wizard.md
-            - name: "Hybrid-Assistent: Anmelden bei Office\_365"
+            - name: 'Hybrid-Assistent: Anmelden bei Office 365'
               href: ../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md
         - name: Hilfe-Planung
           items:
@@ -2296,7 +2296,7 @@
               href: ../help-topics/help-topobld/add-director-pool.md
             - name: Hinzufügen eines Director-Webdiensts
               href: ../help-topics/help-topobld/add-director-web-service.md
-            - name: "Hinzufügen der externen IP-Adresse zum Edgecomputer\_– 2010"
+            - name: Hinzufügen der externen IP-Adresse zum Edgecomputer – 2010
               href: ../help-topics/help-topobld/add-edge-machine-external-ip-2010.md
             - name: Hinzufügen der externen IPv4-Adresse des Edgecomputers
               href: ../help-topics/help-topobld/add-edge-machine-external-ipv4.md
@@ -2304,15 +2304,15 @@
               href: ../help-topics/help-topobld/add-edge-machine-external-ipv6.md
             - name: Hinzufügen der internen IP-Adresse des Edgecomputers
               href: ../help-topics/help-topobld/add-edge-machine-internal-ip.md
-            - name: "Hinzufügen der internen IP-Adresse zum Edgecomputer\_– 2010"
+            - name: Hinzufügen der internen IP-Adresse zum Edgecomputer – 2010
               href: ../help-topics/help-topobld/add-edge-machine-internal-ip-2010.md
             - name: Hinzufügen der NAT-IP-Adresse des Edgecomputers
               href: ../help-topics/help-topobld/add-edge-machine-nat-ip.md
-            - name: "Hinzufügen der NAT-IP des Edgecomputers\_– 2010"
+            - name: Hinzufügen der NAT-IP des Edgecomputers – 2010
               href: ../help-topics/help-topobld/add-edge-machine-nat-ip-2010.md
             - name: Hinzufügen von Edgeserverzuordnungen
               href: ../help-topics/help-topobld/add-edge-server-associations.md
-            - name: "Hinzufügen der externen IP-Adresse des Edgeservers\_– 2010"
+            - name: Hinzufügen der externen IP-Adresse des Edgeservers – 2010
               href: ../help-topics/help-topobld/add-edge-server-external-ip-2010.md
             - name: Hinzufügen der externen IPv4-Adresse des Edgeservers
               href: ../help-topics/help-topobld/add-edge-server-external-ipv4.md
@@ -2322,19 +2322,19 @@
               href: ../help-topics/help-topobld/add-edge-server-fqdn.md
             - name: Hinzufügen der internen IP-Adresse des Edgeservers
               href: ../help-topics/help-topobld/add-edge-server-internal-ip.md
-            - name: "Hinzufügen der internen IP-Adresse des Edgeservers\_– 2010"
+            - name: Hinzufügen der internen IP-Adresse des Edgeservers – 2010
               href: ../help-topics/help-topobld/add-edge-server-internal-ip-2010.md
-            - name: "Hinzufügen der IP-Adresse des Edgeservers\_– Optionen"
+            - name: Hinzufügen der IP-Adresse des Edgeservers – Optionen
               href: ../help-topics/help-topobld/add-edge-server-ip-options.md
             - name: Hinzufügen der NAT-IP-Adresse des Edgeservers
               href: ../help-topics/help-topobld/add-edge-server-nat-ip.md
-            - name: "Hinzufügen der NAT-IP-Adresse des Edgeservers\_– 2010"
+            - name: Hinzufügen der NAT-IP-Adresse des Edgeservers – 2010
               href: ../help-topics/help-topobld/add-edge-server-nat-ip-2010.md
             - name: Hinzufügen des nächsten Hops für den Edgeserver
               href: ../help-topics/help-topobld/add-edge-server-next-hop.md
             - name: Hinzufügen von Edgeserveroptionen
               href: ../help-topics/help-topobld/add-edge-server-options.md
-            - name: "Hinzufügen der Edgeserveroptionen für Lync Server\_2010"
+            - name: Hinzufügen der Edgeserveroptionen für Lync Server 2010
               href: ../help-topics/help-topobld/add-edge-server-options-for-lync-server-2010.md
             - name: Hinzufügen eines Edgeservers
               href: ../help-topics/help-topobld/add-edge-server.md
@@ -2352,27 +2352,27 @@
               href: ../help-topics/help-topobld/add-front-end-archiving-store.md
             - name: Hinzufügen von Front-End-Zuordnungen
               href: ../help-topics/help-topobld/add-front-end-associations.md
-            - name: "Hinzufügen von Front-End-Zuordnungen\_– 2010"
+            - name: Hinzufügen von Front-End-Zuordnungen – 2010
               href: ../help-topics/help-topobld/add-front-end-associations-2010.md
             - name: Hinzufügen von Front-End-Server-Kollokationen
               href: ../help-topics/help-topobld/add-front-end-server-collocations.md
-            - name: "Hinzufügen der Front-End-Server-Kollokationen\_– 2010"
+            - name: Hinzufügen der Front-End-Server-Kollokationen – 2010
               href: ../help-topics/help-topobld/add-front-end-server-collocations-2010.md
             - name: Hinzufügen von Front-End-Funktionen
               href: ../help-topics/help-topobld/add-front-end-features.md
-            - name: "Hinzufügen von Front-End-Funktionen\_– 2010"
+            - name: Hinzufügen von Front-End-Funktionen – 2010
               href: ../help-topics/help-topobld/add-front-end-features-2010.md
             - name: Hinzufügen des Front-End-Dateispeichers
               href: ../help-topics/help-topobld/add-front-end-file-store.md
             - name: Hinzufügen von Front-End-Computern
               href: ../help-topics/help-topobld/add-front-end-machine.md
-            - name: "Hinzufügen des Front-End-Überwachungsspeichers\_– Seite"
+            - name: Hinzufügen des Front-End-Überwachungsspeichers – Seite
               href: ../help-topics/help-topobld/add-front-end-monitoring-store-page.md
             - name: Hinzufügen des FQDN des Front-End-Pools
               href: ../help-topics/help-topobld/add-front-end-pool-fqdn.md
             - name: Hinzufügen des SQL Server-Speichers des Front-Ends
               href: ../help-topics/help-topobld/add-front-end-sql-server-store.md
-            - name: "Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010\_– Seite"
+            - name: Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
               href: ../help-topics/help-topobld/add-front-end-sql-store-page-for-lync-server-2010.md
             - name: Hinzufügen von Front-End-Webdiensten
               href: ../help-topics/help-topobld/add-front-end-web-services.md
@@ -2380,7 +2380,7 @@
               href: ../help-topics/help-topobld/add-server.md
             - name: Hinzufügen eines Vermittlungscomputers
               href: ../help-topics/help-topobld/add-mediation-machine.md
-            - name: "Hinzufügen eines Vermittlungsservers\_– NextHop"
+            - name: Hinzufügen eines Vermittlungsservers – NextHop
               href: ../help-topics/help-topobld/add-mediation-server-nexthop.md
             - name: Hinzufügen eines Vermittlungsservers
               href: ../help-topics/help-topobld/add-mediation-server.md
@@ -2424,13 +2424,13 @@
               href: ../help-topics/help-topobld/add-sql-store.md
             - name: Definieren eines neuen Trunks
               href: ../help-topics/help-topobld/define-a-new-trunk.md
-            - name: "Allgemeine Einstellungen des Archivierungsservers\_– Erweiterung"
+            - name: Allgemeine Einstellungen des Archivierungsservers – Erweiterung
               href: ../help-topics/help-topobld/archiving-server-general-settings-expander.md
-            - name: "Archivierungsserver\_– Bereichsknoten"
+            - name: Archivierungsserver – Bereichsknoten
               href: ../help-topics/help-topobld/archiving-server-scope-node.md
-            - name: "Archivierungsserver\_– Bereichsknoten"
+            - name: Archivierungsserver – Bereichsknoten
               href: ../help-topics/help-topobld/archiving-servers-scope-node.md
-            - name: "Zuordnen der AV\_MCU zum Front-End"
+            - name: Zuordnen der AV MCU zum Front-End
               href: ../help-topics/help-topobld/associate-av-mcu-with-front-end.md
             - name: Zuordnen der Branch Office Appliance zur Edgekomponente
               href: ../help-topics/help-topobld/associate-branch-office-appliance-with-edge.md
@@ -2438,235 +2438,235 @@
               href: ../help-topics/help-topobld/associate-branch-office-appliance-with-front-end.md
             - name: Zuordnen des Front-Ends zur Archivierung
               href: ../help-topics/help-topobld/associate-front-end-with-archiving.md
-            - name: "Zuordnen des Front-Ends zur AV\_MCU"
+            - name: Zuordnen des Front-Ends zur AV MCU
               href: ../help-topics/help-topobld/associate-front-end-with-av-mcu.md
             - name: Zuordnen des Front-Ends zur Edgekomponente
               href: ../help-topics/help-topobld/associate-front-end-with-edge.md
             - name: Zuordnen des Front-Ends zur Überwachung
               href: ../help-topics/help-topobld/associate-front-end-with-monitoring.md
-            - name: "Zuordnen des Front-Ends zum Office Web Apps-Server\_– Seite"
+            - name: Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
               href: ../help-topics/help-topobld/associate-front-end-with-office-web-apps-server-page.md
             - name: Zuordnen des Vermittlungsservers zur Edgekomponente
               href: ../help-topics/help-topobld/associate-mediation-server-with-edge.md
-            - name: "Allgemeine Einstellungen der AV\_MCU\_– Erweiterung"
+            - name: Allgemeine Einstellungen der AV MCU – Erweiterung
               href: ../help-topics/help-topobld/av-mcu-general-settings-expander.md
-            - name: "AV\_MCU\_– Bereichsknoten"
+            - name: AV MCU – Bereichsknoten
               href: ../help-topics/help-topobld/av-mcu-scope-node.md
-            - name: "Einstellungen der AV\_MCU\_– Erweiterung"
+            - name: Einstellungen der AV MCU – Erweiterung
               href: ../help-topics/help-topobld/av-mcu-settings-expander.md
-            - name: "AV\_MCUs\_– Bereichsknoten"
+            - name: AV MCUs – Bereichsknoten
               href: ../help-topics/help-topobld/av-mcus-scope-node.md
-            - name: "Allgemeine Einstellungen für die Filialanwendung\_– Erweiterung"
+            - name: Allgemeine Einstellungen für die Filialanwendung – Erweiterung
               href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander.md
-            - name: "Allgemeine Einstellungen für die Filialanwendung für Lync Server\_2010\_– Erweiterung"
+            - name: Allgemeine Einstellungen für die Filialanwendung für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander-for-lync-server-2010.md
-            - name: "Filialanwendung\_– Bereichsknoten"
+            - name: Filialanwendung – Bereichsknoten
               href: ../help-topics/help-topobld/branch-office-appliance-scope-node.md
-            - name: "Filialanwendungen\_– Bereichsknoten"
+            - name: Filialanwendungen – Bereichsknoten
               href: ../help-topics/help-topobld/branch-office-appliances-scope-node.md
-            - name: "Zweigstellen\_– Bereichsknoten"
+            - name: Zweigstellen – Bereichsknoten
               href: ../help-topics/help-topobld/branch-offices-scope-node.md
-            - name: "CMS-Einstellungen\_– Erweiterung"
+            - name: CMS-Einstellungen – Erweiterung
               href: ../help-topics/help-topobld/cms-settings-expander.md
-            - name: "Bereitstellungseinstellungen\_– Erweiterung"
+            - name: Bereitstellungseinstellungen – Erweiterung
               href: ../help-topics/help-topobld/deployment-settings-expander.md
-            - name: "Allgemeine Einstellungen für Director\_– Erweiterung"
+            - name: Allgemeine Einstellungen für Director – Erweiterung
               href: ../help-topics/help-topobld/director-general-settings-expander.md
-            - name: "Allgemeine Director-Einstellungen für Lync Server\_2010\_– Erweiterung"
+            - name: Allgemeine Director-Einstellungen für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/director-general-settings-expander-for-lync-server-2010.md
-            - name: "Director\_– Bereichsknoten"
+            - name: Director – Bereichsknoten
               href: ../help-topics/help-topobld/director-scope-node.md
-            - name: "Directors\_– Bereichsknoten"
+            - name: Directors – Bereichsknoten
               href: ../help-topics/help-topobld/directors-scope-node.md
-            - name: "Einstellungen für Edgeserver-FQDNs\_– Erweiterung"
+            - name: Einstellungen für Edgeserver-FQDNs – Erweiterung
               href: ../help-topics/help-topobld/edge-server-fqdns-settings-expander.md
-            - name: "Edgeserver-FQDN-Einstellungen für Lync Server\_2010\_– Erweiterung"
+            - name: Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/edge-server-fqdn-settings-expander-for-lync-server-2010.md
-            - name: "Edgecomputereinstellungen\_– Erweiterung"
+            - name: Edgecomputereinstellungen – Erweiterung
               href: ../help-topics/help-topobld/edge-machine-settings-expander.md
-            - name: "Edgecomputereinstellungen für Lync Server\_2010\_– Erweiterung"
+            - name: Edgecomputereinstellungen für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/edge-machine-settings-expander-for-lync-server-2010.md
-            - name: "Einstellungen unter „Nächster Hop“ für Edge\_– Erweiterung"
+            - name: Einstellungen unter „Nächster Hop“ für Edge – Erweiterung
               href: ../help-topics/help-topobld/edge-next-hop-settings-expander.md
             - name: Hinzufügen eines Edgeservercomputers
               href: ../help-topics/help-topobld/edge-server-add-machine.md
-            - name: "Edgeserver\_– Bereichsknoten"
+            - name: Edgeserver – Bereichsknoten
               href: ../help-topics/help-topobld/edge-server-scope-node.md
-            - name: "Edgeserver\_– Bereichsknoten"
+            - name: Edgeserver – Bereichsknoten
               href: ../help-topics/help-topobld/edge-servers-scope-node.md
-            - name: "Edgeeinstellungen\_– Erweiterung"
+            - name: Edgeeinstellungen – Erweiterung
               href: ../help-topics/help-topobld/edge-settings-expander.md
-            - name: "Bearbeiten der Edgeeinstellungen für Lync Server\_2010\_– Erweiterung"
+            - name: Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/edit-edge-settings-expander-for-lync-server-2010.md
-            - name: "Allgemeine Einstellungen für externe Anwendungen\_– Erweiterung"
+            - name: Allgemeine Einstellungen für externe Anwendungen – Erweiterung
               href: ../help-topics/help-topobld/external-application-general-settings-expander.md
-            - name: "Einstellungen unter „Nächster Hop“ für externe Anwendung\_– Erweiterung"
+            - name: Einstellungen unter „Nächster Hop“ für externe Anwendung – Erweiterung
               href: ../help-topics/help-topobld/external-application-next-hop-settings-expander.md
-            - name: "Externe Anwendung\_– Bereichsknoten"
+            - name: Externe Anwendung – Bereichsknoten
               href: ../help-topics/help-topobld/external-application-scope-node.md
-            - name: "Externe Anwendungen\_– Bereichsknoten"
+            - name: Externe Anwendungen – Bereichsknoten
               href: ../help-topics/help-topobld/external-applications-scope-node.md
-            - name: "Einstellungen für die Partnerverbundroute\_– Erweiterung"
+            - name: Einstellungen für die Partnerverbundroute – Erweiterung
               href: ../help-topics/help-topobld/federation-route-settings-expander.md
-            - name: "Einstellungen für den Vermittlungsdienst\_– Erweiterung"
+            - name: Einstellungen für den Vermittlungsdienst – Erweiterung
               href: ../help-topics/help-topobld/mediation-service-settings-expander.md
-            - name: "Einstellungen für den Front-End-Vermittlungsdienst für Lync Server\_2010\_– Erweiterung"
+            - name: Einstellungen für den Front-End-Vermittlungsdienst für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/front-end-mediation-service-settings-expander-for-lync-server-2010.md
-            - name: "Dateispeicher\_– Bereichsknoten"
+            - name: Dateispeicher – Bereichsknoten
               href: ../help-topics/help-topobld/file-store-scope-node.md
-            - name: "Dateispeichereinstellungen\_– Erweiterung"
+            - name: Dateispeichereinstellungen – Erweiterung
               href: ../help-topics/help-topobld/file-store-settings-expander.md
-            - name: "Dateispeicher\_– Bereichsknoten"
+            - name: Dateispeicher – Bereichsknoten
               href: ../help-topics/help-topobld/file-stores-scope-node.md
-            - name: "Allgemeine Front-End-Einstellungen\_– Erweiterung"
+            - name: Allgemeine Front-End-Einstellungen – Erweiterung
               href: ../help-topics/help-topobld/front-end-general-settings-expander.md
-            - name: "Allgemeine Einstellungen für das Front-End für Lync Server\_2010\_– Erweiterung"
+            - name: Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/front-end-general-settings-expander-for-lync-server-2010.md
-            - name: "Front-End-Server\_– Bereichsknoten"
+            - name: Front-End-Server – Bereichsknoten
               href: ../help-topics/help-topobld/front-end-server-scope-node.md
-            - name: "Front-End-Server\_– Bereichsknoten"
+            - name: Front-End-Server – Bereichsknoten
               href: ../help-topics/help-topobld/front-end-servers-scope-node.md
             - name: Front-End-Startseite
               href: ../help-topics/help-topobld/front-end-start-page.md
             - name: Installieren und Erstellen von Datenbanken
               href: ../help-topics/help-topobld/install-and-create-databases.md
-            - name: "Installieren einer Datenbank\_– Seite „Spiegeldatenbank erstellen“"
+            - name: Installieren einer Datenbank – Seite „Spiegeldatenbank erstellen“
               href: ../help-topics/help-topobld/install-database-create-mirror-database-page.md
-            - name: "Seite „Datenbank installieren“\_– Optionen"
+            - name: Seite „Datenbank installieren“ – Optionen
               href: ../help-topics/help-topobld/install-database-options-page.md
-            - name: "Seite „Spiegeldatenbank installieren“\_– Optionen"
+            - name: Seite „Spiegeldatenbank installieren“ – Optionen
               href: ../help-topics/help-topobld/install-mirror-database-option-page.md
-            - name: "Legacyzusammenführung\_– Hinzufügen einer erweiterten Edgekomponente"
+            - name: Legacyzusammenführung – Hinzufügen einer erweiterten Edgekomponente
               href: ../help-topics/help-topobld/legacy-merge-add-expanded-edge.md
-            - name: "Legacyzusammenführung\_– Hinzufügen eines Computers"
+            - name: Legacyzusammenführung – Hinzufügen eines Computers
               href: ../help-topics/help-topobld/legacy-merge-add-machine.md
             - name: Legacyzusammenführung
               href: ../help-topics/help-topobld/legacy-merge.md
-            - name: "Legacyzusammenführung\_– Edgetyp"
+            - name: Legacyzusammenführung – Edgetyp
               href: ../help-topics/help-topobld/legacy-merge-edge-type.md
-            - name: "Legacyzusammenführung\_– FQDN"
+            - name: Legacyzusammenführung – FQDN
               href: ../help-topics/help-topobld/legacy-merge-fqdn.md
-            - name: "Legacyzusammenführung\_– Zielseite"
+            - name: Legacyzusammenführung – Zielseite
               href: ../help-topics/help-topobld/legacy-merge-landing.md
-            - name: "Legacyzusammenführung\_– Nächster Hop"
+            - name: Legacyzusammenführung – Nächster Hop
               href: ../help-topics/help-topobld/legacy-merge-next-hop.md
-            - name: "Legacyzusammenführung\_– Ergebnisse"
+            - name: Legacyzusammenführung – Ergebnisse
               href: ../help-topics/help-topobld/legacy-merge-results.md
-            - name: "Legacyzusammenführung\_– SIP-Port"
+            - name: Legacyzusammenführung – SIP-Port
               href: ../help-topics/help-topobld/legacy-merge-sip-port.md
-            - name: "Legacyzusammenführung\_– Start"
+            - name: Legacyzusammenführung – Start
               href: ../help-topics/help-topobld/legacy-merge-start.md
-            - name: "Legacyzusammenführung\_– Zusammenfassungsseite"
+            - name: Legacyzusammenführung – Zusammenfassungsseite
               href: ../help-topics/help-topobld/legacy-merge-summary-page.md
-            - name: "Neuerstellen unter Lync Server\_2010\_– Erweiterung"
+            - name: Neuerstellen unter Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/lync-server-2010-create-new-expander.md
-            - name: "Neuerstellen unter Lync Server\_2013\_– Erweiterung"
+            - name: Neuerstellen unter Lync Server 2013 – Erweiterung
               href: ../help-topics/help-topobld/lync-server-2013-create-new-expander.md
-            - name: "Computer\_– Bereichsknoten"
+            - name: Computer – Bereichsknoten
               href: ../help-topics/help-topobld/machine-scope-node.md
-            - name: "Servereinstellungen\_– Erweiterung"
+            - name: Servereinstellungen – Erweiterung
               href: ../help-topics/help-topobld/server-settings-expander.md
-            - name: "Servereinstellungen für Lync Server\_2010\_– Erweiterung"
+            - name: Servereinstellungen für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/server-settings-expander-for-lync-server-2010.md
-            - name: "Einstellungen unter „Nächster Hop“ für Vermittlung\_– Erweiterung"
+            - name: Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung
               href: ../help-topics/help-topobld/mediation-next-hop-settings-expander.md
-            - name: "Allgemeine Einstellungen des Vermittlungsservers\_– Erweiterung"
+            - name: Allgemeine Einstellungen des Vermittlungsservers – Erweiterung
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander.md
-            - name: "Allgemeine Einstellungen für den Vermittlungsserver für Lync Server\_2010\_– Erweiterung"
+            - name: Allgemeine Einstellungen für den Vermittlungsserver für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander-for-lync-server-2010.md
-            - name: "Vermittlungsserver\_– Bereichsknoten"
+            - name: Vermittlungsserver – Bereichsknoten
               href: ../help-topics/help-topobld/mediation-server-scope-node.md
-            - name: "Vermittlungsserver\_– Bereichsknoten"
+            - name: Vermittlungsserver – Bereichsknoten
               href: ../help-topics/help-topobld/mediation-servers-scope-node.md
-            - name: "Einstellung für den Vermittlungsdienst\_– Erweiterung"
+            - name: Einstellung für den Vermittlungsdienst – Erweiterung
               href: ../help-topics/help-topobld/mediation-service-setting-expander.md
-            - name: "Einstellungen für den Vermittlungsdienst für Lync Server\_2010\_– Erweiterung"
+            - name: Einstellungen für den Vermittlungsdienst für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/mediation-service-settings-expander-for-lync-server-2010.md
-            - name: "Allgemeine Einstellungen des Überwachungsservers\_– Erweiterung"
+            - name: Allgemeine Einstellungen des Überwachungsservers – Erweiterung
               href: ../help-topics/help-topobld/monitoring-server-general-settings-expander.md
-            - name: "Überwachung\_– Bereichsknoten"
+            - name: Überwachung – Bereichsknoten
               href: ../help-topics/help-topobld/monitoring-scope-node.md
-            - name: "Überwachungsserver\_– Bereichsknoten"
+            - name: Überwachungsserver – Bereichsknoten
               href: ../help-topics/help-topobld/monitoring-servers-scope-node.md
-            - name: "Topologie-Generator\_– Lync-Knoten"
+            - name: Topologie-Generator – Lync-Knoten
               href: ../help-topics/help-topobld/topology-builder-lync-node.md
-            - name: "Office Communications Server\_– Bereichsknoten"
+            - name: Office Communications Server – Bereichsknoten
               href: ../help-topics/help-topobld/office-communications-server-scope-node.md
-            - name: "Office Web Apps-Server\_– Bereichsknoten\_– Erweiterung"
+            - name: Office Web Apps-Server – Bereichsknoten – Erweiterung
               href: ../help-topics/help-topobld/office-web-apps-server-scope-node-expander.md
             - name: Bearbeiten der Einstellungen von Office Web Apps-Servern
               href: ../help-topics/help-topobld/edit-office-web-apps-server-settings.md
-            - name: "Office Web Apps-Server\_– Bereichsknoten"
+            - name: Office Web Apps-Server – Bereichsknoten
               href: ../help-topics/help-topobld/office-web-apps-servers-scope-node.md
-            - name: "Einstellungen der Anrufsteuerung\_– Erweiterung"
+            - name: Einstellungen der Anrufsteuerung – Erweiterung
               href: ../help-topics/help-topobld/call-admission-control-settings-expander.md
-            - name: "Allgemeine Einstellungen für beständigen Chat\_– Erweiterung"
+            - name: Allgemeine Einstellungen für beständigen Chat – Erweiterung
               href: ../help-topics/help-topobld/persistent-chat-general-settings-expander.md
-            - name: "Computer für beständigen Chat\_– Erweiterung"
+            - name: Computer für beständigen Chat – Erweiterung
               href: ../help-topics/help-topobld/persistent-chat-machines-expander.md
-            - name: "Einstellungen unter „Nächster Hop“ für beständigen Chat\_– Erweiterung"
+            - name: Einstellungen unter „Nächster Hop“ für beständigen Chat – Erweiterung
               href: ../help-topics/help-topobld/persistent-chat-next-hop-settings-expander.md
-            - name: "Beständiger Chat\_– Bereichsknoten"
+            - name: Beständiger Chat – Bereichsknoten
               href: ../help-topics/help-topobld/persistent-chat-scope-node.md
-            - name: "Einstellungen für beständigen Chat\_– Erweiterung"
+            - name: Einstellungen für beständigen Chat – Erweiterung
               href: ../help-topics/help-topobld/persistent-chat-settings-expander.md
-            - name: "Erstellen von Servern für beständigen Chat\_– Bereichsknoten"
+            - name: Erstellen von Servern für beständigen Chat – Bereichsknoten
               href: ../help-topics/help-topobld/create-persistent-chat-servers-scope-node.md
-            - name: "PSTN-Gateway\_– Bereichsknoten"
+            - name: PSTN-Gateway – Bereichsknoten
               href: ../help-topics/help-topobld/pstn-gateway-scope-node.md
-            - name: "PSTN-Gatewayeinstellungen\_– Erweiterung"
+            - name: PSTN-Gatewayeinstellungen – Erweiterung
               href: ../help-topics/help-topobld/pstn-gateway-settings-expander.md
-            - name: "PSTN-Gateways\_– Bereichsknoten"
+            - name: PSTN-Gateways – Bereichsknoten
               href: ../help-topics/help-topobld/pstn-gateways-scope-node.md
             - name: Erstellen einer Datenbank
               href: ../help-topics/help-topobld/create-database.md
-            - name: "Veröffentlichen der Topologie\_– Seite „Spiegeldatenbank erstellen“"
+            - name: Veröffentlichen der Topologie – Seite „Spiegeldatenbank erstellen“
               href: ../help-topics/help-topobld/publish-topology-create-mirror-database-page.md
-            - name: "Veröffentlichen der Topologie\_– Nächster Schritt"
+            - name: Veröffentlichen der Topologie – Nächster Schritt
               href: ../help-topics/help-topobld/publish-topology-next-step.md
-            - name: "Veröffentlichen der Topologie\_– Seite „Pool zurücksetzen“"
+            - name: Veröffentlichen der Topologie – Seite „Pool zurücksetzen“
               href: ../help-topics/help-topobld/publish-topology-reset-pool-page.md
-            - name: "Veröffentlichen der Topologie\_– Seite „Zentralen Verwaltungsserver auswählen“"
+            - name: Veröffentlichen der Topologie – Seite „Zentralen Verwaltungsserver auswählen“
               href: ../help-topics/help-topobld/publish-topology-select-cms-page.md
             - name: Veröffentlichen der Topologie
               href: ../help-topics/help-topobld/publish-topology.md
-            - name: "SBA-Einstellungen der Registrierungsstelle\_– Erweiterung"
+            - name: SBA-Einstellungen der Registrierungsstelle – Erweiterung
               href: ../help-topics/help-topobld/registrar-sba-settings-expander.md
-            - name: "Einstellungen der Registrierungsstelle\_– Erweiterung"
+            - name: Einstellungen der Registrierungsstelle – Erweiterung
               href: ../help-topics/help-topobld/registrar-settings-expander.md
-            - name: "Einstellungen der Registrierungsstelle für Lync Server\_2010\_– Erweiterung"
+            - name: Einstellungen der Registrierungsstelle für Lync Server 2010 – Erweiterung
               href: ../help-topics/help-topobld/registrar-settings-expander-for-lync-server-for-2010.md
             - name: Entfernen der Bereitstellung
               href: ../help-topics/help-topobld/remove-deployment.md
-            - name: "Entfernen der Bereitstellung\_– Einführung"
+            - name: Entfernen der Bereitstellung – Einführung
               href: ../help-topics/help-topobld/remove-deployment-introduction.md
-            - name: "Freigegebene Komponenten\_– Bereichsknoten"
+            - name: Freigegebene Komponenten – Bereichsknoten
               href: ../help-topics/help-topobld/shared-components-scope-node.md
-            - name: "Einstellungen für einfache URL\_– Erweiterung"
+            - name: Einstellungen für einfache URL – Erweiterung
               href: ../help-topics/help-topobld/simple-url-settings-expander.md
-            - name: "Einstellungen für Lync Server-Standort\_– Erweiterung"
+            - name: Einstellungen für Lync Server-Standort – Erweiterung
               href: ../help-topics/help-topobld/lync-server-site-settings-expander.md
-            - name: "SQL-Instanz\_– Bereichsknoten"
+            - name: SQL-Instanz – Bereichsknoten
               href: ../help-topics/help-topobld/sql-instance-scope-node.md
-            - name: "SQL-Instanzen\_– Bereichsknoten"
+            - name: SQL-Instanzen – Bereichsknoten
               href: ../help-topics/help-topobld/sql-instances-scope-node.md
-            - name: "SQL-Speichereinstellungen\_– Erweiterung"
+            - name: SQL-Speichereinstellungen – Erweiterung
               href: ../help-topics/help-topobld/sql-store-settings-expander.md
-            - name: "Topologie-Generator\_– Startdialogfeld"
+            - name: Topologie-Generator – Startdialogfeld
               href: ../help-topics/help-topobld/topology-builder-startup-dialog.md
-            - name: "Trunk\_– Bereichsknoten"
+            - name: Trunk – Bereichsknoten
               href: ../help-topics/help-topobld/trunk-scope-node.md
-            - name: "Trunkeinstellungen\_– Erweiterung"
+            - name: Trunkeinstellungen – Erweiterung
               href: ../help-topics/help-topobld/trunk-settings-expander.md
-            - name: "Trunks\_– Bereichsknoten"
+            - name: Trunks – Bereichsknoten
               href: ../help-topics/help-topobld/trunks-scope-node.md
-            - name: "Einstellungen für Webdienste\_– Erweiterung"
+            - name: Einstellungen für Webdienste – Erweiterung
               href: ../help-topics/help-topobld/web-services-settings-expander.md
-            - name: "Hinzufügen der Director-Zuordnung für Lync Server\_2010"
+            - name: Hinzufügen der Director-Zuordnung für Lync Server 2010
               href: ../help-topics/help-topobld/add-director-association-for-lync-server-2010.md
-            - name: "Zuordnen des Directors zur Überwachung für Lync Server\_2010\_– Seite"
+            - name: Zuordnen des Directors zur Überwachung für Lync Server 2010 – Seite
               href: ../help-topics/help-topobld/associate-director-with-monitoring-page-for-lync-server-2010.md
-            - name: "Hinzufügen von Front-End-Webdiensten\_– 2010"
+            - name: Hinzufügen von Front-End-Webdiensten – 2010
               href: ../help-topics/help-topobld/add-front-end-web-services-2010.md
             - name: Seite „Nächsten Hop für beständigen Chat hinzufügen“
               href: ../help-topics/help-topobld/add-persistent-chat-next-hop-page.md
@@ -2686,13 +2686,13 @@
               href: ../help-topics/help-topobld/add-vis-usage.md
             - name: Zuordnen des VIS zu Edge
               href: ../help-topics/help-topobld/associate-vis-with-edge.md
-            - name: "Lync Server\_2013\_– Bereichsknoten"
+            - name: Lync Server 2013 – Bereichsknoten
               href: ../help-topics/help-topobld/lync-server-2013-scope-node.md
             - name: SIP-Videotrunk-Bereichsknoten
               href: ../help-topics/help-topobld/sip-video-trunk-scope-node.md
-            - name: "Einstellung für den SIP-Videotrunk\_– Erweiterung"
+            - name: Einstellung für den SIP-Videotrunk – Erweiterung
               href: ../help-topics/help-topobld/sip-video-trunk-setting-expander.md
-            - name: "SIP-Videotrunks\_– Bereichsknoten"
+            - name: SIP-Videotrunks – Bereichsknoten
               href: ../help-topics/help-topobld/sip-video-trunks-scope-node.md
             - name: Allgemeine Einstellungen für das Videogateway
               href: ../help-topics/help-topobld/video-gateway-general-settings.md
@@ -2708,13 +2708,13 @@
               href: ../help-topics/help-topobld/video-interop-server-next-hop-settings.md
             - name: Erweiterung der Porteinstellungen für den Video-Interoperabilitätsserver
               href: ../help-topics/help-topobld/video-interop-server-port-settings-expander.md
-            - name: "Video-Interoperabilitätsserver\_– Festlegen des Knotenbereichs"
+            - name: Video-Interoperabilitätsserver – Festlegen des Knotenbereichs
               href: ../help-topics/help-topobld/video-interop-serverscope-the-node.md
-            - name: "Video-Interoperabilitätsserver\_– Festlegen des Knotenbereichs"
+            - name: Video-Interoperabilitätsserver – Festlegen des Knotenbereichs
               href: ../help-topics/help-topobld/video-interop-serversscope-the-node.md
             - name: Hinzufügen eines Edgeservers mit einer einzelnen FQDN-Seite
               href: ../help-topics/help-topobld/add-edge-server-with-single-fqdn-page.md
-            - name: "Testen\_– Skype for Business Server\_– Standortbereichsknoten"
+            - name: Testen – Skype for Business Server – Standortbereichsknoten
               href: ../help-topics/help-topobld/testskype-for-business-server-site-scope-node.md
-            - name: "Skype for Business Server\_– Stammbereichsknoten"
+            - name: Skype for Business Server – Stammbereichsknoten
               href: ../help-topics/help-topobld/skype-for-business-server-root-scope-node.md

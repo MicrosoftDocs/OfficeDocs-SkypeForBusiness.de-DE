@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314321"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren des Erfolgsplans
 
@@ -108,7 +108,7 @@ Es folgt ein Beispiel für einen vierteljährlichen Ausführungsplan für die Zi
 
 ## <a name="communications-and-governance-plan"></a>Kommunikations- und Governanceplan
 
-Um die Projektbeteiligten über den Fortschritt der Bereitstellung auf dem Laufenden zu halten, müssen Sie einen Plan für die Art und Weise einrichten, wie die Kommunikation zwischen den Mitgliedern des Hauptprojektteams und den Projektbeteiligten stattfinden wird, um Themen in Bezug auf den Status des Projekts, wichtige Meilensteine, Blockierer und verschiedene Überprüfungen des Projekts im Hinblick auf etablierte KSIs, Betriebsmetriken und strategische Ziele zu diskutieren.
+Um die Projektbeteiligten über den Fortschritt der Bereitstellung auf dem Laufenden zu halten, müssen Sie einen Plan für die Art und Weise einrichten, wie die Kommunikation zwischen den Mitgliedern des Hauptprojektteams und den Projektbeteiligten stattfinden wird, um Themen in Bezug auf den Status des Projekts, wichtige Meilensteine, Blockierer und verschiedene Überprüfungen des Projekts im Hinblick auf etablierte Projektaufgaben zu diskutieren.  betrieblichen Metriken und strategischen Zielen.
 
 Es folgt ein Beispiel für einen Kommunikations- und Governanceplan, den Sie in Ihrem Cloud-Sprachimplementierungsprojekt nutzen können.
 
@@ -133,7 +133,7 @@ Es folgt ein Beispiel für einen Kommunikations- und Governanceplan, den Sie in 
 
 Ein Erfolgsplan ist die Zusammenfassung der Dokumentation, die Sie in der Zielphase erstellt haben.
 
-Der Erfolgsplan gibt dem Projektteam – dazu kann FastTrack oder ein Bereitstellungspartner gehören – ausreichende Informationen, um die Ziele Ihrer Organisation bei der Implementierung von Audiokonferenzen oder Telefonsystem mit dem Anrufplandienst zu erreichen.
+Der Erfolgsplan gibt dem Projektteam – das FastTrack oder einen Bereitstellungspartner umfassen kann – ausreichende Informationen, um die Ziele Ihrer Organisation bei der Implementierung von Audiokonferenzen oder Telefonsystem mit Anrufplandienst zu erreichen.
 
 Im Allgemeinen enthält ein Erfolgsplan die folgenden Hauptabschnitte, an denen Sie in der Zielphase gearbeitet haben:
 

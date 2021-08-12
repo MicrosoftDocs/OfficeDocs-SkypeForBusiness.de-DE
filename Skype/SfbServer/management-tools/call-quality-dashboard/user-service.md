@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: 'Zusammenfassung: Erfahren Sie mehr über den Benutzerdienst, der Teil des Dashboards der Repository-API für die Anrufqualität ist. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: d9f4b771a1bf5efeece4f8fb87195d8567f0426e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den Benutzerdienst, der Teil der Repository-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 412f7b17e6190a35e79998d47a0d5cfa8459f6934d19761f5d0b5d65e5e91ba2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324194"
 ---
 # <a name="user-service-for-cqd"></a>Benutzerdienst für CQD
  
-**Zusammenfassung:** Erfahren Sie mehr über den Benutzerdienst, der Teil des Dashboards der Repository-API für die Anrufqualität ist. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Benutzerdienst, der Teil der Repository-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
   
-Der Benutzerdienst ist Teil der Repository-API für das Anrufqualitätsdashboard.
+Der Benutzerdienst ist Teil der Repository-API für das Anrufqualitäts-Dashboard.
   
 ## <a name="user-service"></a>Benutzerdienst
 
-Die Repository-API bietet ein vereinfachtes Benutzerverwaltungsmodell, bei dem die Benutzerbereitstellung (Das Erstellen neuer Benutzerkonten) automatisch und implizit erfolgt. Wenn ein Benutzer zum ersten Mal eine Anforderung an die Repository-API stellt, erstellt das Repository einen neuen Benutzerdatensatz. 
+Die Repository-API bietet ein vereinfachtes Benutzerverwaltungsmodell, bei dem die Benutzerbereitstellung (Erstellen neuer Benutzerkonten) automatisch und implizit erfolgt. Wenn ein Benutzer zum ersten Mal eine Anforderung für die Repository-API stellt, erstellt das Repository einen neuen Benutzerdatensatz. 
   
-Das Anrufqualitätsdashboard erstellt außerdem automatisch dedizierte Benutzerelemente für den neuen Benutzer. Die neuen dedizierten Benutzerelemente sind vollständige Klone der Elemente des Systembenutzers. Auf diese Weise beginnen Benutzer mit ihren eigenen Kopien von Berichten und Abfragen, die sie sofort anpassen können. 
+Das Anrufqualitätsdashboard erstellt auch automatisch dedizierte Elemente für den neuen Benutzer. Die dedizierten Elemente des neuen Benutzers sind vollständige Klone der Elemente des Systembenutzers. Auf diese Weise beginnen Benutzer mit ihren eigenen Kopien von Berichten und Abfragen, die sie sofort anpassen können. 
   
 > [!NOTE]
-> Mithilfe des Anrufqualitätsdashboards können Benutzer ihre dedizierten Elemente jederzeit zurücksetzen. 
+> Mithilfe des Anrufqualitäts-Dashboards können Benutzer ihre dedizierten Elemente jederzeit zurücksetzen. 
   
  **Spezielle Benutzer-IDs**
   
@@ -41,7 +41,7 @@ Die Repository-API enthält REST-API-URIs, die einen ganzzahligen Wert zur Angab
   
 Darüber hinaus akzeptiert die Repository-API zwei spezielle Benutzer-IDs unter {userId} in URIs.
   
--  *Default*  – stellt den Benutzer dar, der derzeit mit der API interagiert. Dadurch können Anwendungen auf die Inhalte des aktuellen Benutzers zugreifen, ohne den tatsächlichen Benutzer-ID-Wert nachverfolgt zu werden. Beispiel: `https://<portal>/QoERepositoryService/repository/user/default`.
+-  *default*  – stellt den Benutzer dar, der derzeit mit der API interagiert. Dadurch können Anwendungen auf die Inhalte des aktuellen Benutzers zugreifen, ohne den tatsächlichen Benutzer-ID-Wert nachzuverfolgen. Beispiel: `https://<portal>/QoERepositoryService/repository/user/default`.
     
 -  *system*  – stellt den Systembenutzer dar. Dadurch können Anwendungen auf die Inhalte des Systembenutzers zugreifen, ohne den tatsächlichen Benutzer-ID-Wert zu kennen. Beispiel: `https://<portal>/QoERepositoryService/repository/user/system`.
     

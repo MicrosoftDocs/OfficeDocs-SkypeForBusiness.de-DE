@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Sie können die Systemsteuerung "Legacy installs" verwenden, um neue Sitzungen für alle auf einem bestimmten Computer ausgeführten Legacy Dienste zu verhindern oder um neue Sitzungen für einen bestimmten Legacy Dienst zu verhindern.
-ms.openlocfilehash: c5cc8846febaf690376e01c36b9fa023b8377970
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Sie können die Systemsteuerung für Legacyinstallationen verwenden, um neue Sitzungen für alle Legacydienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten Legacydienst zu verhindern.
+ms.openlocfilehash: 6ee7f33e01118297b5a86878ded8a0bb89aadc84524839a41fbacd0c9d699633
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313843"
 ---
 # <a name="prevent-sessions-for-services"></a>Verhindern von Sitzungen für Dienste
 
-Sie können die Systemsteuerung "Legacy installs" verwenden, um neue Sitzungen für alle auf einem bestimmten Computer ausgeführten Legacy Dienste zu verhindern oder um neue Sitzungen für einen bestimmten Legacy Dienst zu verhindern.
+Sie können die Systemsteuerung für Legacyinstallationen verwenden, um neue Sitzungen für alle Legacydienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten Legacydienst zu verhindern.
   
 ## <a name="to-prevent-new-sessions-for-services-on-a-computer"></a>So verhindern Sie neue Sitzungen für Dienste auf einem Computer
 
-1. Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server 2019 bereitgestellt haben.
+1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server 2019 bereitgestellt haben.
     
 2. Öffnen Sie Skype for Business Systemsteuerung.
     
@@ -38,7 +38,7 @@ Sie können die Systemsteuerung "Legacy installs" verwenden, um neue Sitzungen f
     
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>So verhindern Sie neue Sitzungen für einen bestimmten Dienst
 
-1. Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server 2019 bereitgestellt haben.
+1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server 2019 bereitgestellt haben.
     
 2. Öffnen Sie Skype for Business Systemsteuerung.
     

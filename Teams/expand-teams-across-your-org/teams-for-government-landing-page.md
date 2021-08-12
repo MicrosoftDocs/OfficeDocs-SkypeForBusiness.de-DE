@@ -3,6 +3,7 @@ title: Teams für Behörden
 description: Hier erfahren Sie, wie Sie Ihr Teams in Microsoft 365 Government-Umgebungen planen und bereitstellen.
 author: cichur
 ms.author: v-cichur
+ms.topic: article
 manager: serdars
 audience: admin
 f1.keywords:
@@ -13,18 +14,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80af2201502b40c48f36a00858dc0b1355e423bbefb94cb6571c1768049d4c8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 557c8b5ca5ad4f48a25f20fe717d40635eb53e43dc7e26b29291d37afeb21645
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850130"
 ---
 # <a name="teams-for-government"></a>Teams für Behörden
 
-Verwenden Sie diese Ressourcen, um informationen zu bestimmten Aspekten für die Teams in Microsoft 365 Government-Umgebungen zu erhalten. Wenn Sie bereit sind, folgen Sie dem gleichen empfohlenen Bereitstellungspfad für Teams wie unter So [wird's](../deploy-overview.md)Microsoft Teams.
+Verwenden Sie diese Ressourcen, um spezifische Überlegungen zur Bereitstellung von Teams in Microsoft 365 Government-Umgebungen zu erhalten. Wenn Sie bereit sind, folgen Sie dem gleichen empfohlenen Bereitstellungspfad für die Teams wie [in](../deploy-overview.md)So wird's Microsoft Teams.
 
-|               |               |
+| &nbsp; |&nbsp; |
 | ------------- | ------------- |
 | ![Screenshot des Symbols "Nummerierte Liste"](../media/list-123-teams.svg)  |  [Planen von Microsoft 365 Government – GCC-Bereitstellungen](../plan-for-government-gcc.md) |
 | ![Screenshot der Zwischenablage mit einem Symbol "Aufgabenliste"](../media/tasks-teams.svg) | [Planen von Microsoft 365 Government – GCC High](../plan-for-government-gcc-high.md) |

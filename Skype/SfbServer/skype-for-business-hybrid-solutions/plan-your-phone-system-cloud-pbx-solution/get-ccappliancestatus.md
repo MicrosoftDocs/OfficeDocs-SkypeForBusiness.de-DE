@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: Das Cmdlet "Get-CcApplianceStatus" enthält Diagnoseinformationen für die Skype for Business Cloud Connector Edition-Appliance.
-ms.openlocfilehash: 65fc14301d85fd4826479eabcdf238b85dff54ab
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype for Business Cloud Connector Edition Appliance bereit.
+ms.openlocfilehash: 5d40c6e4d1d6f18669fdc9fe54954fe8ace386daa1cf0d4d1fc7065e8dcd974f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347580"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-Das Cmdlet "Get-CcApplianceStatus" enthält Diagnoseinformationen für die Skype for Business Cloud Connector Edition-Appliance.
+Das cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype for Business Cloud Connector Edition Appliance bereit.
   
-Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2,1.
+Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2.1.
   
 ```
     Get-CcApplianceStatus 
@@ -32,7 +32,7 @@ Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2,1.
 
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 
-Das Cmdlet "Get-CcApplianceStatus", wenn es auf dem Cloud Connector-Hostcomputer ausgeführt wird, enthält Diagnoseinformationen für die Cloud Connector-Appliance von Skype for Business.
+Das cmdlet Get-CcApplianceStatus stellt bei Ausführung auf dem Cloud Connector-Hostcomputer Diagnoseinformationen für die Skype for Business Cloud Connector-Appliance bereit.
   
 ## <a name="parameters"></a>Parameter
 
@@ -40,7 +40,7 @@ Keine
   
 ## <a name="input-types"></a>Eingabetypen
 
-Keine. Das Cmdlet "Get-CcApplianceStatus" akzeptiert keine Pipeline-Eingabe.
+Keine. Das cmdlet Get-CcApplianceStatus akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 

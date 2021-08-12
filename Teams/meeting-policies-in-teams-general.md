@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie allgemeine Besprechungsrichtlinieneinstellungen in ihrer Teams.
-ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850296"
 ---
 # <a name="meeting-policy-settings---general"></a>Besprechungsrichtlinien – Allgemeine Einstellungen
 
@@ -39,7 +39,7 @@ In diesem Artikel werden die folgenden allgemeinen Richtlinieneinstellungen für
 - [Sofortbesprechungen in privaten Besprechungen zulassen](#allow-meet-now-in-private-meetings)
 - [Designierter Presenter-Rollenmodus](#designated-presenter-role-mode)
 - [Bericht zur Teilnahme an Besprechungen](#meeting-attendance-report)
-- [Besprechungsanbieter für Islands-Modus](#meeting-provider-for-islands-mode)
+- [Besprechungsanbieter für den Islands-Modus](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>Sofortbesprechungen in Kanälen zulassen
 
@@ -53,7 +53,7 @@ Hierbei handelt es sich um eine benutzerspezifisch Richtlinie, die angewendet wi
 
 ![Screenshot mit der Option für die Planung von Besprechungen](media/meeting-policies-outlook-add-in.png)
 
-Wenn Sie dies deaktivieren, können die Benutzer keine Besprechungen Teams planen, wenn sie eine neue Besprechung in ihrem Outlook. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
+Wenn Sie dies deaktivieren, können die Benutzer keine Besprechungen Teams planen, wenn sie eine neue Besprechung in einem Outlook. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
 
 ## <a name="allow-channel-meeting-scheduling"></a>Planung von Kanalbesprechungen zulassen
 
@@ -90,7 +90,7 @@ Im Admin Center:
 
 Die Kanalkalender-App wird auf der Seite der App-Berechtigungsrichtlinien im Abschnitt **Microsoft-Apps** angezeigt.
 
-![Screenshot der App-Berechtigungsrichtlinie im Teams Admin Center](media/manage-microsoft-apps-policy.png)
+![Screenshot der App-Berechtigungsrichtlinie im Teams Admin Center.](media/manage-microsoft-apps-policy.png)
 
 ## <a name="allow-scheduling-private-meetings"></a>Planung privater Besprechungen zulassen
 
@@ -124,11 +124,11 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Eins
 
 Derzeit können Sie diese Richtlinieneinstellung nur mithilfe von PowerShell konfigurieren. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
-Wenn Sie einem Besprechungsorganisator das Herunterladen des Teilnahmeberichts zu einer Besprechung ermöglichen möchten, legen Sie den Parameter **AllowEngagementReport** auf **Aktiviert** (enabled) fest. Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt.
+Damit ein Besprechungsorganisator den Bericht zur Besprechungsteilnahme herunterladen kann, legen Sie den Parameter **AllowEngagementReport** auf **Enabled (Aktiviert) festgelegt.** Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt. Diese Einstellung ist standardmäßig aktiviert.
 
-Um zu verhindern, dass der Bericht vom Besprechungsorganisator heruntergeladen wird, legen Sie den Parameter auf **Deaktiviert** (disabled) fest. Diese Einstellung ist standardmäßig deaktiviert, und die Option zum Herunterladen des Berichts ist nicht verfügbar.
+Um zu verhindern, dass der Bericht vom Besprechungsorganisator heruntergeladen wird, legen Sie den Parameter auf **Deaktiviert** (disabled) fest.
 
-## <a name="meeting-provider-for-islands-mode"></a>Besprechungsanbieter für Islands-Modus
+## <a name="meeting-provider-for-islands-mode"></a>Besprechungsanbieter für den Islands-Modus
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, welches Add-In für Outlook-Besprechungen für *Benutzer im Inselmodus* verwendet wird. Sie können festlegen, ob Benutzer nur das Add-In für Microsoft Teams-Besprechungen oder sowohl das Add-In für Microsoft Teams-Besprechungen als auch jenes für Skype for Business-Besprechungen verwenden können, um Besprechungen in Outlook zu planen.
 

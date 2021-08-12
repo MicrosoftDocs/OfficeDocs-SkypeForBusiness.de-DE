@@ -1,5 +1,5 @@
 ---
-title: Erstellen eines Ressourcenkontos mithilfe des Microsoft 365 Admin Centers
+title: Erstellen Eines Ressourcenkontos mithilfe der Microsoft 365 Admin Center
 description: Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können Sie über das Microsoft 365 Admin Center ein Ressourcenkonto für Ihre Microsoft Teams-Räume und zusammenarbeitsleisten für Microsoft Teams erstellen.
 ms.reviewer: payurevi
 manager: serdars
@@ -11,14 +11,14 @@ author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 1137f462b9c21455f3a65a87075fd653b5c081b9
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268022"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314091"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Erstellen eines Microsoft 365 Ressourcenkontos mithilfe des Microsoft 365 Admin Centers
+# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Erstellen Sie mithilfe Microsoft 365 Ressourcenkontos ein Microsoft 365 Admin Center
 
 Microsoft 365 Ressourcenkonten sind Postfach- und Teams-Konten, die bestimmten Ressourcen zugeordnet sind, z. B. einem Raum, Projektor und so weiter. Diese Ressourcenkonten können automatisch mithilfe von Regeln, die Sie beim Erstellen definieren, auf Besprechungs-Einladungen antworten. Wenn Sie z. B. über eine allgemeine Ressource wie einen Konferenzraum verfügen, können Sie ein Ressourcenkonto für diesen Konferenzraum einrichten, mit dem Besprechungs-Einladungen je nach Verfügbarkeit des Kalenders automatisch akzeptiert oder ablehnen werden.
 
@@ -43,7 +43,7 @@ Weitere Informationen zu Lizenzen für Besprechungsraum, Telefonsystem und Busin
 :::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 Admin Center":::
 3. Navigieren Sie im Admin  Center im linken Bereich zu  Ressourcen (möglicherweise müssen Sie zuerst Alle anzeigen auswählen), und wählen Sie dann Räume **& aus.**
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 Admin Center – Ressourcen":::
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 Admin Center - Ressourcen":::
 4. Wählen Sie **Ressourcenpostfach hinzufügen aus,** um ein neues Raumkonto zu erstellen. Geben Sie einen Anzeigenamen und eine E-Mail-Adresse für das Konto ein, wählen Sie **Hinzufügen** und dann Schließen **aus.** Es wird empfohlen, für alle Ressourcenkonten eine Standardisierung nach einer Benennungskonvention zu verwenden.
 
 > [!NOTE]

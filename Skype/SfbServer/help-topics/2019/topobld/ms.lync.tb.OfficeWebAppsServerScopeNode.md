@@ -14,25 +14,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Klicken Sie im Topologie-Generator mit der rechten Maustaste auf Office Web Apps-Server, um Folgendes durchzuführen:'
-ms.openlocfilehash: 0828535293e2293971208f86dc293c6757ff0a0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server im Topologie-Generator, um Folgendes auszuführen:'
+ms.openlocfilehash: a44646c877620445149355de983a9086ec5cbf3c21cd328451d24779077f2985
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313553"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps-Server – Bereichsknoten – Erweiterung
  
-Klicken Sie im Topologie-Generator mit der rechten Maustaste auf **Office Web Apps-Server,** um Folgendes durchzuführen:
+Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server** im Topologie-Generator, um Folgendes auszuführen:
   
-- **Neuer Office Web Apps Server:** Startet den Assistenten zum Definieren eines neuen **Office Web Apps Server,** mit dem ein neuer Office Web Apps Server definiert wird.
+- **Neuer Office Web Apps-Server:** Startet den Assistenten zum **Definieren neuer Office Web Apps-Server,** der zum Definieren eines neuen Office Web Apps-Servers verwendet wird.
     
-Zusätzlich zur Option "Neuer Office Web Apps Server" können Sie die folgenden allgemeinen Aufgaben ausführen:
+Zusätzlich zur Option "Neuer Office Web Apps-Server" können Sie die folgenden allgemeinen Aufgaben ausführen:
   
-![Office WebApps Server - Bereichsknoten](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office WebApps-Server – Bereichsknoten](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
-- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten aus früheren Versionen zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Sie können diese Option verwenden, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren, Komponenten aus früheren Versionen zusammenzuführen oder die Bereitstellung zu entfernen.
     
 - **Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.
     

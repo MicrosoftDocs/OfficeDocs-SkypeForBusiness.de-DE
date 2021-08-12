@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft 365 Business Voice in Ihrem kleinen bis mittleren Unternehmen oder Ihrer Organisation einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 8b8d5c89fca6fd9ff84d06b784b51040dbafe20c0e2ccc74fde845b6990095e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314131"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>Einrichten von Microsoft 365 Business Voice
 

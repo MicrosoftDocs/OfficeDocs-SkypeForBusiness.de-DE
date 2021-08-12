@@ -18,19 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 232c22c4d96796a983c3c65770f3fbabcce7753e5e6a5ae1daba693fa154a630
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850140"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Verbessern vorhandener Microsoft 365 Gruppen mit Microsoft Teams
-=======================================================
+# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Verbessern vorhandener Microsoft 365 Gruppen mit Microsoft Teams
 
-Microsoft Teams Benutzer können eine vorhandene Gruppe Microsoft 365 mit einer Teams erweitern. Beim Verbessern einer öffentlichen Microsoft 365 Gruppe können Benutzer dies tun, wenn die Anzahl der Mitglieder gleich oder kleiner als 5.000 ist.
+Microsoft Teams Benutzer können eine vorhandene Gruppe Microsoft 365 Mit Teams erweitern. Beim Verbessern einer öffentlichen Microsoft 365-Gruppe können Benutzer dies tun, wenn die Anzahl der Mitglieder gleich oder kleiner als 5.000 ist.
 
-Zu diesem Grund sollten die Benutzer die Erstellung eines neuen Teams aus dem Microsoft Teams-Client durchgehen. Wählen **Sie Aus Microsoft 365** Gruppe erstellen aus, und wählen Sie dann die vorhandene Gruppe aus, die Sie mit Ihrer  >  Teams. Vorhandene Gruppenmitglieder werden dem Team automatisch als Mitglieder hinzugefügt.
+Zu diesem Grund sollten die Benutzer den Ablauf der Erstellung eines neuen Teams aus dem Microsoft Teams-Client durchgehen. Wählen **Sie Aus Microsoft 365** Gruppe erstellen aus, und wählen Sie dann die vorhandene Gruppe aus, die Sie mit Ihrer  >  Teams. Vorhandene Gruppenmitglieder werden dem Team automatisch als Mitglieder hinzugefügt.
 
 > [!IMPORTANT]
 > Nur Microsoft 365 Gruppenbesitzer verfügen über die Berechtigung zum Erweitern einer vorhandenen Gruppe mit Teams, und diese Gruppe muss weniger als 5.000 Benutzer enthalten. Teams, die bereits verbessert wurden, werden nicht in der Liste angezeigt.

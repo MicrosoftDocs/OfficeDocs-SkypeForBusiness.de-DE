@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Microsoft Teams Cloud-Sprachfeatures und die Bereitstellungsentscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347500"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Teams-Sprachlösung 
 

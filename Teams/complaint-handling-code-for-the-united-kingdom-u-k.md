@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Einreichen einer Beanstandung für Skype for Business Calling Services (PSTN Calling in uk), Zeitachsen für Antworten und Beilegung von Streitigkeiten für nicht aufgelöste Beanstandungen.
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347410"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Beanstandungshandling-Code für Großbritannien (UK)
 
@@ -40,7 +40,7 @@ Kundenzufriedenheit steht bei Skype for Business an erster Stelle. Sollten Sie m
 
 - Gebührenfreie Telefonnummer: 0800 032 6417
 
-- Online: Melden Sie sich beim Microsoft 365 Admin Center an, und senden Sie eine Serviceanfrage, indem Sie unter Support die Option Neue **Serviceanfrage** **auswählen.**
+- Online: Melden Sie sich bei der Microsoft 365 Admin Center und senden Sie eine Serviceanfrage, indem Sie unter Support die Option Neue **Serviceanfrage** **auswählen.**
 
 ## <a name="timelines"></a>Zeitachsen
 

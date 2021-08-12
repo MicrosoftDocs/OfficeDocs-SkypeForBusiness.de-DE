@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335871"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
@@ -35,14 +35,14 @@ Die beste Möglichkeit, um die Akzeptanz ihrer Teams, besteht in der Verwendung 
 | Teamname | Vorgeschlagene Kanalnamen |
 | --------- | ---------------------- |
 | Kennenlernen Teams | Allgemein</br> Begrüßung</br> Wie kann ich das tun?</br>Feedback </br> Ideen für zukünftige Teams </br> Support |
-| Microsoft Teams Implementierung | Allgemein <br/> Bewusstsein und Verbreitung <br/> Geschäftseinsatz <br/> Early Adopter-Programm <br/> Feedback und Einblicke <br/> Sicherheit und Compliance <br/> Strategie und Planung <br/> Dienstinte health and incidents <br/> Schulung <br/> Watercooler Chat |
+| Microsoft Teams Implementierung | Allgemein <br/> Bewusstsein und Verbreitung <br/> Geschäftseinsatz <br/> Early Adopter-Programm <br/> Feedback und Insights <br/> Sicherheit und Compliance <br/> Strategie und Planung <br/> Dienstinte health and incidents <br/> Schulung <br/> Watercooler Chat |
 | Team-Champions | Allgemein <br/> Bewährte Methoden, Schulungen und Vorgehensweisen <br/> Champion Corner <br/> Feedback und Support <br/> Programm leads <br/> Hub für soziale Netzwerke |
 
 Innerhalb Microsoft Teams erhalten Sie [](/microsoftteams/platform/concepts/tabs/tabs-overview) über den Registerkartenkatalog Zugriff auf alle Microsoft 365- oder Office 365- und Drittanbieter-Apps, die vom Administrator aktiviert wurden. Um Ihr Produkt so gut wie möglich zu nutzen, empfehlen wir, wichtige Ressourcen in jedem der entsprechenden Kanäle als Registerkarten anheften. Sehen Sie sich das Beispiel unten an.
 
 ![Screenshot mit Standardregisterkarten und benutzerdefinierten Registerkarten](media/teams-adoption-tab-example.png)
 
-In Ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen Referenz in Ihren Teamkanälen zu anheften. Diese Ressourcen werden zusätzlich zu den Abschnitten OneNote Notizbuchabschnitten gespeichert. Wenn Sie mit unserem FastTrack-Team arbeiten, unterstützt Sie dieses beim Konfigurieren dieser ersten Teams. 
+In Ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen Referenz in Ihren Teamkanälen zu anheften. Diese Ressourcen werden zusätzlich zu den Abschnitten OneNote Notizbuchabschnitten gespeichert. Wenn Sie mit unserem Team FastTrack, unterstützt sie Sie bei der Konfiguration dieser ersten Teams. 
 
 |Team-/Kanalname | Angeheftete Registerkarte |
 |----------------- | ---------- |
