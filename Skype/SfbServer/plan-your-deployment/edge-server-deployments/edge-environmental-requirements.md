@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Zusammenfassung: Erfahren Sie mehr über die Umgebungsanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: 8370fb2c8fa8a9b1d083ba336decd85715e31d25
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5ca6786d2935209930fe815ea32a24643febb18a7df87f29b26f3c396ca0c66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095019"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302529"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Edgeserver-Umgebungsanforderungen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Umgebungsanforderungen für Edgeserver in Skype for Business Server.
   
-Außerhalb der Skype for Business Server Edge Server-Umgebung selbst müssen viele Planungs- und Vorbereitungsarbeiten ausgeführt werden. In diesem Artikel werden wir überprüfen, welche Vorbereitungen in der Organisationsumgebung gemäß der folgenden Liste vorgenommen werden müssen:
+Außerhalb der Skype for Business Server Edgeserverumgebung selbst muss viel Geplant und vorbereitet werden. In diesem Artikel erfahren Sie, welche Vorbereitungen in der Organisationsumgebung gemäß der nachstehenden Liste getroffen werden müssen:
   
 - [Topologieplanung](edge-environmental-requirements.md#TopoPlan)
     
@@ -40,74 +40,74 @@ Außerhalb der Skype for Business Server Edge Server-Umgebung selbst müssen vie
 ## <a name="topology-planning"></a>Topologieplanung
 <a name="TopoPlan"> </a>
 
-Skype for Business Server Edge Server-Topologien können:
+Skype for Business Server Edgeservertopologien können Folgendes verwenden:
   
 - Routingfähige öffentliche IP-Adressen.
     
 - Nicht routingfähige private IP-Adressen, wenn die symmetrische Netzwerkadressenübersetzung **(Symmetric** Network Address Translation, NAT) verwendet wird.
     
 > [!TIP]
-> Der Edgeserver kann so konfiguriert werden, dass er eine einzelne IP-Adresse mit unterschiedlichen Ports für jeden Dienst verwendet, oder er kann für jeden Dienst unterschiedliche IP-Adressen verwenden, aber denselben Standardport verwenden (der standardmäßig TCP 443 ist). Weitere Informationen finden Sie weiter unten im Abschnitt IP-Adressanforderungen. 
+> Ihr Edgeserver kann so konfiguriert werden, dass er eine einzelne IP-Adresse mit unterschiedlichen Ports für jeden Dienst verwendet, oder er kann unterschiedliche IP-Adressen für jeden Dienst verwenden, aber den gleichen Standardport verwenden (standardmäßig TCP 443). Weitere Informationen finden Sie unten im Abschnitt zu den IP-Adressanforderungen. 
   
 Wenn Sie nicht routingfähige private IP-Adressen mit NAT auswählen, beachten Sie die folgenden Punkte:
   
-- Sie müssen routingfähige private IP-Adressen für **alle drei externen** Schnittstellen verwenden.
+- Sie müssen routingfähige private IP-Adressen für **alle drei** externen Schnittstellen verwenden.
     
-- Sie müssen symmetrische NAT **für** eingehenden und ausgehenden Datenverkehr konfigurieren. Symmetrische NAT ist die einzige unterstützte NAT, die Sie mit Skype for Business Server Edge Server verwenden können.
+- Sie müssen **symmetrische** NAT für eingehenden und ausgehenden Datenverkehr konfigurieren. Symmetrische NAT ist die einzige unterstützte NAT, die Sie mit Skype for Business Server Edgeserver verwenden können.
     
-- Konfigurieren Sie ihre NAT so, dass eingehende Quelladressen nicht geändert werden. Der A/V-Edgedienst muss die eingehende Quelladresse empfangen können, um den optimalen Medienpfad zu finden.
+- Konfigurieren Sie Ihre NAT so, dass eingehende Quelladressen nicht geändert werden. Der A/V-Edgedienst muss die eingehende Quelladresse empfangen können, um den optimalen Medienpfad zu finden.
     
-- Ihre Edgeserver müssen über ihre öffentlichen A/V-Edge-IP-Adressen miteinander kommunizieren können. Ihre Firewall muss diesen Datenverkehr zulassen.
+- Ihre Edgeserver müssen in der Lage sein, über ihre öffentlichen A/V-Edge-IP-Adressen miteinander zu kommunizieren. Ihre Firewall muss diesen Datenverkehr zulassen.
     
-- NAT kann **nur** für skalierte konsolidierte Edgeserver verwendet werden, wenn Sie den DNS-Lastenausgleich verwenden. Wenn Sie den Hardwarelastenausgleich (Hardware Load Balancing, HLB) verwenden, müssen Sie öffentlich routingfähige #A0 **ohne** NAT verwenden.
+- NAT kann **nur** für skalierte konsolidierte Edgeserver verwendet werden, wenn Sie den DNS-Lastenausgleich verwenden. Wenn Sie Hardwarelastenausgleich (Hardware Load Balancing, HLB) verwenden, müssen Sie öffentlich routingfähige IP-Adressen **ohne** NAT verwenden.
     
-Sie haben keine Probleme damit, dass Ihre Access-, Webkonferenz- und A/V-Edgeschnittstellen hinter einem Router oder einer Firewall symmetrische NAT für einzelne und skalierte konsolidierte Edgeservertopologien ausführen (solange Sie keinen Hardwarelastenausgleich verwenden).
+Sie haben keine Probleme, wenn Ihre Access-, Webkonferenz- und A/V-Edgeschnittstellen hinter einem Router oder einer Firewall symmetrische NAT für einzelne und skalierte konsolidierte Edgeservertopologien ausführen (solange Sie keinen Hardwarelastenausgleich verwenden).
   
 ### <a name="summary-of-edge-server-topology-options"></a>Zusammenfassung der Edgeservertopologieoptionen
 
-Für Skype for Business Server Edge Server-Bereitstellungen stehen mehrere Topologieoptionen zur Verfügung:
+Es stehen mehrere Topologieoptionen für Skype for Business Server Edgeserverbereitstellungen zur Verfügung:
   
-- Einzelner konsolidierter Edge mit privaten IP-Adressen und NAT
+- Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT
     
-- Einzelner konsolidierter Edge mit öffentlichen IP-Adressen
+- Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen
     
-- Skalierter konsolidierter Edge mit privaten IP-Adressen und NAT
+- Skalierter konsolidierter Edgeserver mit privaten IP-Adressen und NAT
     
-- Skalierter konsolidierter Edge mit öffentlichen IP-Adressen
+- Skalierter konsolidierter Edgeserver mit öffentlichen IP-Adressen
     
-- Skalierter konsolidierter Edge mit Hardwaregerät zum Lastenausgleich
+- Skalierter konsolidierter Edgeserver mit Hardwaregerät zum Lastenausgleich
     
-Um Ihnen bei der Auswahl einer dieser Optionen zu helfen, finden Sie die folgende Tabelle, die eine Zusammenfassung der Optionen enthält, die Sie für jede Topologie haben:
+Um Ihnen bei der Auswahl zu helfen, haben wir die folgende Tabelle, die eine Zusammenfassung der Optionen für jede Topologie enthält:
   
-|**Topologie**|**Hohe Verfügbarkeit**|**Zusätzliche DNS-Einträge für externen Edgeserver im Edgepool erforderlich?**|**Edgefailover für Skype for Business Server-Sitzungen**|**Edgefailover für Skype for Business Server-Verbundsitzungen**|
+|**Topologie**|**Hohe Verfügbarkeit**|**Zusätzliche DNS-Einträge für externen Edgeserver im Edgepool erforderlich?**|**Edgefailover für Skype for Business Server Sitzungen**|**Edgefailover für Skype for Business Server Verbundsitzungen**|
 |:-----|:-----|:-----|:-----|:-----|
-|Einzelner konsolidierter Edge mit privaten IP-Adressen und NAT  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
-|Einzelner konsolidierter Edge mit öffentlichen IP-Adressen  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
-|Skalierter konsolidierter Edge mit privaten IP-Adressen und NAT (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja&sup1;  <br/> |
-|Skalierter konsolidierter Edge mit öffentlichen IP-Adressen (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja&sup1;  <br/> |
-|Skalierter konsolidierter Edge mit Hardwaregerät zum Lastenausgleich  <br/> |Ja  <br/> |Nein (ein DNS A-Eintrag pro VIP)  <br/> |Ja  <br/> |Ja  <br/> |
+|Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
+|Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |
+|Skalierter konsolidierter Edgeserver mit privaten IP-Adressen und NAT (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja&sup1;  <br/> |
+|Skalierter konsolidierter Edgeserver mit öffentlichen IP-Adressen (DNS-Lastenausgleich)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja&sup1;  <br/> |
+|Skalierter konsolidierter Edgeserver mit Hardwaregerät zum Lastenausgleich  <br/> |Ja  <br/> |Nein (ein DNS A-Eintrag pro VIP)  <br/> |Ja  <br/> |Ja  <br/> |
    
-&sup1; Exchange Unified Messaging (UM)-Remotebenutzerfailover mithilfe des DNS-Lastenausgleichs erfordert Exchange 2013 oder neuer.
+&sup1; Exchange Unified Messaging (UM)-Remotebenutzerfailover mit DNS-Lastenausgleich erfordert Exchange 2013 oder höher.
   
-### <a name="ip-address-requirements"></a>Anforderungen an IP-Adressen
+### <a name="ip-address-requirements"></a>IP-Adressanforderungen
 
-Auf einer grundlegenden Ebene benötigen drei Dienste #A0 ; Access-Edgedienst, Webkonferenz-Edgedienst und A/V-Edgedienst. Sie haben die Möglichkeit, entweder drei IP-Adressen zu verwenden, eine für jeden Dienst, oder Sie können eine verwenden und entscheiden, jeden Dienst an einem anderen Port zu verwenden (Weitere Informationen dazu finden Sie im Abschnitt [Port-](edge-environmental-requirements.md#PortFirewallPlan) und Firewallplanung). Bei einer einzelnen konsolidierten Edgeumgebung ist dies ziemlich so.
+Grundsätzlich benötigen drei Dienste IP-Adressen; Zugreifen auf Edgedienst, Webkonferenz-Edgedienst und A/V-Edgedienst. Sie haben die Möglichkeit, entweder drei IP-Adressen zu verwenden, eine für jeden der Dienste, oder Sie können eine verwenden und sich dafür entscheiden, jeden Dienst auf einem anderen Port zu platzieren (weitere Informationen hierzu finden Sie im Abschnitt zur [Port- und Firewallplanung).](edge-environmental-requirements.md#PortFirewallPlan) Bei einer einzelnen konsolidierten Edgeumgebung ist dies ziemlich genau das.
   
 > [!NOTE]
-> Wie oben erwähnt, können Sie eine IP-Adresse für alle drei Dienste verwenden und diese an verschiedenen Ports ausführen. Dies wird jedoch nicht empfohlen, um es deutlich zu machen. Wenn Ihre Kunden nicht auf die alternativen Ports zugreifen können, die Sie in diesem Szenario verwenden würden, können sie auch nicht auf die volle Funktionalität Ihrer Edgeumgebung zugreifen. 
+> Wie oben erwähnt, können Sie eine IP-Adresse für alle drei Dienste auswählen und diese auf verschiedenen Ports ausführen. Um es klar zu machen, wird dies jedoch nicht empfohlen. Wenn Ihre Kunden nicht auf die alternativen Ports zugreifen können, die Sie in diesem Szenario verwenden würden, können sie auch nicht auf die vollständige Funktionalität Ihrer Edgeumgebung zugreifen. 
   
-Es kann mit skalierten konsolidierten Topologien etwas komplizierter sein. Sehen wir uns also einige Tabellen an, in der die ANFORDERUNGEN für die IP-Adresse dargestellt sind, und berücksichtigen Wir dabei, dass die wichtigsten Entscheidungspunkte für die Topologieauswahl hohe Verfügbarkeit und Lastenausgleich sind. Anforderungen an hohe Verfügbarkeit können Sich auf Die Auswahl des Lastenausgleichs (wir werden nach den Tabellen mehr darüber sprechen) beeinflussen.
+Bei skalierten konsolidierten Topologien kann es etwas komplizierter sein. Sehen wir uns also einige Tabellen an, in denen die IP-Adressanforderungen festgelegt sind, und beachten Sie, dass die wichtigsten Entscheidungspunkte für die Topologieauswahl hohe Verfügbarkeit und Lastenausgleich sind. Anforderungen an hohe Verfügbarkeit können Sich auf die Auswahl des Lastenausgleichs auswirken (darüber werden wir nach den Tabellen noch ausführlicher sprechen).
   
-#### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>IP-Adressanforderungen für skalierten konsolidierten Edge (IP-Adresse pro Rolle)
+#### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>IP-Adressanforderungen für skalierten konsolidierten Edgeserver (IP-Adresse pro Rolle)
 
 |**Anzahl von Edgeservern pro Pool**|**Anzahl der erforderlichen IP-Adressen für den DNS-Lastenausgleich**|**Anzahl der erforderlichen IP-Adressen für den Hardwarelastenausgleich**|
 |:-----|:-----|:-----|
 |2  <br/> |6   <br/> |3 (1 pro VIP) + 6  <br/> |
 |3  <br/> |9   <br/> |3 (1 pro VIP) + 9  <br/> |
 |4   <br/> |12   <br/> |3 (1 pro VIP) + 12  <br/> |
-|5   <br/> |15   <br/> |3 (1 pro VIP) +15  <br/> |
+|5   <br/> |15  <br/> |3 (1 pro VIP) +15  <br/> |
    
-#### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Anforderungen an die IP-Adresse für den konsolidierten Edgeskalen (Einzelne IP-Adresse für alle Rollen)
+#### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>IP-Adressanforderungen für einen skalierten konsolidierten Edgeserver (einzelne IP-Adresse für alle Rollen)
 
 |**Anzahl von Edgeservern pro Pool**|**Anzahl der erforderlichen IP-Adressen für den DNS-Lastenausgleich**|**Anzahl der erforderlichen IP-Adressen für den Hardwarelastenausgleich**|
 |:-----|:-----|:-----|
@@ -116,81 +116,81 @@ Es kann mit skalierten konsolidierten Topologien etwas komplizierter sein. Sehen
 |4   <br/> |4   <br/> |1 (1 pro VIP) + 4  <br/> |
 |5   <br/> |5  <br/> |1 (1 pro VIP) + 5  <br/> |
    
-Sehen wir uns einige zusätzliche Dinge an, über die Sie bei der Planung nachdenken sollten.
+Sehen wir uns einige zusätzliche Dinge an, die Sie bei der Planung berücksichtigen sollten.
   
-- **Hohe Verfügbarkeit:** Wenn Sie hohe Verfügbarkeit in Ihrer Bereitstellung benötigen, sollten Sie mindestens zwei Edgeserver in einem Pool bereitstellen. Es ist erwähnenswert, dass ein einzelner Edgepool bis zu 12 Edgeserver unterstützt (obwohl der Topologie-Generator ihnen erlaubt, bis zu 20 hinzuzufügen, das ist nicht getestet oder unterstützt, daher raten wir Ihnen, dies nicht zu tun). Wenn Sie mehr als 12 Edgeserver benötigen, sollten Sie zusätzliche Edgepools für diese erstellen.
+- **Hohe Verfügbarkeit:** Wenn Sie hohe Verfügbarkeit in Ihrer Bereitstellung benötigen, sollten Sie mindestens zwei Edgeserver in einem Pool bereitstellen. Beachten Sie, dass ein einzelner Edgepool bis zu 12 Edgeserver unterstützt (obwohl Der Topologie-Generator es Ihnen ermöglicht, bis zu 20 hinzuzufügen, die nicht getestet oder unterstützt werden, daher empfehlen wir Ihnen, dies nicht zu tun). Wenn Sie mehr als 12 Edgeserver benötigen, sollten Sie zusätzliche Edgepools für sie erstellen.
     
-- **Hardwarelastenausgleich:** Für die meisten Szenarien wird der DNS-Lastenausgleich empfohlen. Der Hardwarelastenausgleich wird natürlich ebenfalls unterstützt, aber insbesondere ist er für ein einzelnes Szenario über den DNS-Lastenausgleich erforderlich:
+- **Hardwarelastenausgleich:** Für die meisten Szenarien wird der DNS-Lastenausgleich empfohlen. Der Hardwarelastenausgleich wird natürlich auch unterstützt, ist aber insbesondere für ein einzelnes Szenario über den DNS-Lastenausgleich erforderlich:
     
   - Externer Zugriff auf Exchange 2007 oder Exchange 2010 (ohne SP) Unified Messaging (UM).
     
-- **DNS-Lastenausgleich:** Für UM können Exchange 2010 SP1 und neuere vom DNS-Lastenausgleich unterstützt werden. Wenn Sie den DNS-Lastenausgleich für eine frühere Version von Exchange verwenden müssen, funktioniert dies, aber der ganze Datenverkehr dafür wird an den ersten Server im Pool gesendet, und wenn er nicht verfügbar ist, wird der Datenverkehr anschließend fehlschlagen.
+- **DNS-Lastenausgleich:** Für UM können Exchange 2010 SP1 und neuer vom DNS-Lastenausgleich unterstützt werden. Wenn Sie den DNS-Lastenausgleich für eine frühere Version von Exchange durchführen müssen, funktioniert dies, aber der gesamte Datenverkehr dafür wird an den ersten Server im Pool weitergeleitet, und wenn er nicht verfügbar ist, schlägt dieser Datenverkehr anschließend fehl.
     
-    Der DNS-Lastenausgleich wird auch empfohlen, wenn Sie einen Verbund mit Unternehmen mit den:
+    Der DNS-Lastenausgleich wird auch empfohlen, wenn Sie einen Verbund mit Unternehmen erstellen, die Folgendes verwenden:
 - Skype for Business Server 2015:
     - Lync Server 2010
     - Lync Server 2013
     - Microsoft 365 oder Office 365
 - Skype for Business Server 2019:
     - Lync Server 2013
-    - Skype for Business Server 2015
+    - Skype for Business Server 2015
     - Microsoft 365 oder Office 365
     
 ## <a name="dns-planning"></a>DNS-Planung
 <a name="DNSPlan"> </a>
 
-Wenn es um die Bereitstellung von Skype for Business Server Edge Server geht, ist es wichtig, dass Sie sich ordnungsgemäß auf DNS vorbereiten. Wenn die richtigen Datensätze verwendet werden, ist die Bereitstellung wesentlich einfacher. Hoffentlich haben Sie im obigen Abschnitt eine Topologie ausgewählt, da wir eine Übersicht erstellen und dann einige Tabellen mit den DNS-Einträgen für diese Szenarien auflisten. Wir haben auch eine [erweiterte Edgeserver-DNS-Planung](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) für Skype for Business Server, um das Lesen zu vertiefen, falls Sie dies benötigen.
+Wenn es um Skype for Business Server Edgeserverbereitstellung geht, ist es wichtig, sich ordnungsgemäß auf DNS vorzubereiten. Wenn die richtigen Datensätze vorhanden sind, ist die Bereitstellung viel einfacher. Wir hoffen, dass Sie im obigen Abschnitt eine Topologie ausgewählt haben, da wir eine Übersicht erstellen und dann einige Tabellen mit den DNS-Einträgen für diese Szenarien auflisten. Wir werden auch einige [erweiterte Edgeserver-DNS-Planungen für Skype for Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) haben, um detaillierter zu lesen, wenn Sie es benötigen.
   
-### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>DNS-Einträge für Einzelne konsolidierte Edgeserverszenarien
+### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>DNS-Einträge für Szenarien mit einem einzelnen konsolidierten Edgeserver
 
-Dies sind die DNS-Einträge, die Sie für einen besingten Edgeserver benötigen, der entweder öffentliche IPs oder private IPs mit NAT verwendet. Da es sich um Beispieldaten handelt, geben wir Beispiel-IPs, damit Sie Ihre eigenen Einträge einfacher ausarbeiten können:
+Dies sind die DNS-Einträge, die Sie für einen Singe-Edgeserver mit öffentlichen oder privaten IPs mit NAT benötigen. Da es sich hierbei um Beispieldaten handelt, geben wir Beispiel-IPs an, damit Sie Ihre eigenen Einträge einfacher ermitteln können:
   
 - Interner Netzwerkadapter: 172.25.33.10 (keine Standardgateways zugewiesen)
     
     > [!NOTE]
-    > Stellen Sie sicher, dass eine Route vom Netzwerk mit der internen Edgeschnittstelle zu allen Netzwerken vorhanden ist, die Server mit Skype for Business Server- oder Lync Server 2013-Clients enthalten (z. B. von 172.25.33.0 bis 192.168.10.0). 
+    > Stellen Sie sicher, dass eine Route vom Netzwerk mit der internen Edgeschnittstelle zu allen Netzwerken vorhanden ist, die Server enthalten, auf denen Skype for Business Server oder Lync Server 2013-Clients ausgeführt werden (z. B. von 172.25.33.0 bis 192.168.10.0). 
   
 - Externer Netzwerkadapter:
     
   - Öffentliche IPs:
     
-  - Access Edge: 131.107.155.10 (dies ist das primäre Gateway, bei dem das Standardgateway auf Ihren öffentlichen Router festgelegt ist, z. B.: 131.107.155.1)
+  - Zugriffs-Edge: 131.107.155.10 (dies ist das primäre Gateway mit Standardgateway für Ihren öffentlichen Router, z. B.: 131.107.155.1)
     
   - Webkonferenz-Edge: 131.107.155.20 (sekundär)
     
-  - A/V-Edge: 131.107.155.30 (sekundär)
+  - A/V Edge: 131.107.155.30 (sekundär)
     
-  Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt Erweitert der Eigenschaften von Internet protocol Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Lokalen Verbindungseigenschaften in Windows Server.
+  Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Erweiterten Abschnitt der Eigenschaften von Internetprotokollversion 4 (TCP/IPv4) und Internetprotokollversion 6 (TCP/IPv6) der Eigenschaften für lokale Verbindungen in Windows Server.
     
   - Private IPs:
     
-  - Access Edge: 10.45.16.10 (dies ist das primäre Gateway, bei dem das Standardgateway auf Ihren Router festgelegt ist, z. B.: 10.45.16.1)
+  - Zugriffs-Edge: 10.45.16.10 (dies ist das primäre Gateway, mit Standardgateway für Ihren Router, z. B.: 10.45.16.1)
     
   - Webkonferenz-Edge: 10.45.16.20 (sekundär)
     
-  - A/V-Edge: 10.45.16.30 (sekundär)
+  - A/V Edge: 10.45.16.30 (sekundär)
     
-Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt Erweitert der Eigenschaften von Internet protocol Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Lokalen Verbindungseigenschaften in Windows Server.
+Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Erweiterten Abschnitt der Eigenschaften von Internetprotokollversion 4 (TCP/IPv4) und Internetprotokollversion 6 (TCP/IPv6) der Eigenschaften für lokale Verbindungen in Windows Server.
   
 > [!TIP]
->Es gibt hier weitere mögliche Konfigurationen:
+>Hier gibt es weitere mögliche Konfigurationen:
   
-- Sie können eine IP-Adresse auf dem externen Netzwerkadapter verwenden. Wir empfehlen dies nicht, da Sie dann zwischen den Diensten unterscheiden müssen, die unterschiedliche Ports verwenden (was Sie in Skype for Business Server tun können), aber es gibt einige Firewalls, die die alternativen Ports blockieren können. Weitere Informationen dazu finden Sie im Abschnitt [Port-](edge-environmental-requirements.md#PortFirewallPlan) und Firewallplanung.
+- Sie können eine IP-Adresse auf dem externen Netzwerkadapter verwenden. Dies wird nicht empfohlen, da Sie dann zwischen den Diensten unterscheiden müssen, die unterschiedliche Ports verwenden (was Sie in Skype for Business Server tun können), aber es gibt einige Firewalls, die die alternativen Ports blockieren können. Weitere Informationen hierzu finden Sie im Abschnitt zur [Port- und Firewallplanung.](edge-environmental-requirements.md#PortFirewallPlan)
     
-- Sie können anstelle eines externen Netzwerkadapters drei externe Netzwerkadapter verwenden und jedem Einzelnen einen der Dienst-IPs zuweisen. Warum sollte dies der Grund sein? Es würde die Dienste trennen, und wenn ein Fehler vorgeht, würde dies die Problembehandlung vereinfachen und ihre anderen Dienste möglicherweise weiter arbeiten lassen, während Sie ein Problem beheben.
+- Sie können drei externe Netzwerkadapter anstelle eines haben und jedem einen der Dienst-IPs zuweisen. Warum sollte dies der Fall sein? Es würde die Dienste trennen, und wenn etwas schief geht, würde dies die Problembehandlung vereinfachen und ihre anderen Dienste möglicherweise weiterhin funktionieren lassen, während Sie ein Problem beheben.
     
-|**Ort**|**Type**|**Port**|**FQDN oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN- oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |sip.contoso.com  <br/> |**öffentlich:** 131.107.155.10 <br/> **privat:** 10.45.16.10 <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Sie benötigen eine für jede SIP-Domäne mit Skype for Business-Benutzern.  <br/> |
+|Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **privat:** 10.45.16.10 <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Sie benötigen eine für jede SIP-Domäne mit Skype for Business Benutzern.  <br/> |
 |Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**öffentlich:** 131.107.155.20 <br/> **privat:** 10.45.16.20 <br/> |Eine externe Schnittstelle für Ihren Webkonferenz-Edgedienst.  <br/> |
-|Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |av.contoso.com  <br/> |**öffentlich:** 131.107.155.30 <br/> **privat:** 10.45.16.30 <br/> |Eine externe Schnittstelle für Ihren A/V-Edgedienst.  <br/> |
-|Externes DNS  <br/> |SRV-Eintrag  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Dieser SRV-Eintrag ist erforderlich, damit Skype for Business Server-, Lync Server 2013- und Lync Server 2010-Clients extern arbeiten können. Sie benötigen eine für jede Domäne mit Skype for Business-Benutzern.  <br/> |
-|Externes DNS  <br/> |SRV-Eintrag  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Dieser SRV-Eintrag ist für die automatische DNS-Ermittlung von Verbundpartnern erforderlich, die als zulässige SIP-Domänen bezeichnet werden. Sie benötigen eine für jede Domäne mit Skype for Business-Benutzern.  <br/> |
-|Interne DNS-Konfiguration  <br/> |Ein Datensatz  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |Die interne Schnittstelle für Den konsolidierten Edge.  <br/> |
+|Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 <br/> **privat:** 10.45.16.30 <br/> |Eine externe Schnittstelle für Ihren A/V-Edgedienst.  <br/> |
+|Externes DNS  <br/> |SRV-Eintrag  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Dieser SRV-Eintrag ist erforderlich, damit Skype for Business Server-, Lync Server 2013- und Lync Server 2010-Clients extern funktionieren. Sie benötigen eine für jede Domäne mit Skype for Business Benutzern.  <br/> |
+|Externes DNS  <br/> |SRV-Eintrag  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Dieser SRV-Eintrag ist für die automatische DNS-Ermittlung von Verbundpartnern erforderlich, die als zulässige SIP-Domänen bezeichnet werden. Sie benötigen eine für jede Domäne mit Skype for Business Benutzern.  <br/> |
+|Interne DNS-Konfiguration  <br/> |Ein Datensatz  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |Die interne Schnittstelle für Ihren konsolidierten Edgeserver.  <br/> |
    
-### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>DNS-Einträge für skalierte DNS- und Hardware-Edgeserverszenarien
+### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>DNS-Einträge für Skalierte DNS- und Hardware-Edgeserverszenarien
 
-Dies sind die DNS-Einträge, die Sie für einen besingten Edgeserver benötigen, der entweder öffentliche IPs oder private IPs mit NAT verwendet. Da es sich um Beispieldaten handelt, geben wir Beispiel-IPs, damit Sie Ihre eigenen Einträge einfacher ausarbeiten können:
+Dies sind die DNS-Einträge, die Sie für einen Singe-Edgeserver mit öffentlichen oder privaten IPs mit NAT benötigen. Da es sich hierbei um Beispieldaten handelt, geben wir Beispiel-IPs an, damit Sie Ihre eigenen Einträge einfacher ermitteln können:
   
 - Interner Netzwerkadapter:
     
@@ -199,7 +199,7 @@ Dies sind die DNS-Einträge, die Sie für einen besingten Edgeserver benötigen,
   - Knoten 2: 172.25.33.11 (kein Standardgateway zugewiesen)
     
     > [!NOTE]
-    > Stellen Sie sicher, dass eine Route vom Netzwerk mit der internen Edgeschnittstelle zu allen Netzwerken vorhanden ist, die Server mit Skype for Business Server- oder Lync Server 2013-Clients enthalten (z. B. von 172.25.33.0 bis 192.168.10.0). 
+    > Stellen Sie sicher, dass eine Route vom Netzwerk mit der internen Edgeschnittstelle zu allen Netzwerken vorhanden ist, die Server enthalten, auf denen Skype for Business Server- oder Lync Server 2013-Clients ausgeführt werden (z. B. von 172.25.33.0 bis 192.168.10.0). 
   
 - Externer Netzwerkadapter:
     
@@ -207,249 +207,249 @@ Dies sind die DNS-Einträge, die Sie für einen besingten Edgeserver benötigen,
     
      - Öffentliche IPs:
     
-        - Access Edge: 131.107.155.10 (dies ist das primäre Gateway, bei dem das Standardgateway auf Ihren öffentlichen Router festgelegt ist, z. B.: 131.107.155.1)
+        - Zugriffs-Edge: 131.107.155.10 (dies ist das primäre Gateway mit Standardgateway für Ihren öffentlichen Router, z. B.: 131.107.155.1)
     
         - Webkonferenz-Edge: 131.107.155.20 (sekundär)
     
-        - A/V-Edge: 131.107.155.30 (sekundär)
+        - A/V Edge: 131.107.155.30 (sekundär)
     
-          Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt Erweitert der Eigenschaften von Internet protocol Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Lokalen Verbindungseigenschaften in Windows Server.
+          Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Erweiterten Abschnitt der Eigenschaften von Internetprotokollversion 4 (TCP/IPv4) und Internetprotokollversion 6 (TCP/IPv6) der Eigenschaften für lokale Verbindungen in Windows Server.
     
     - Private IPs:
     
-         - Access Edge: 10.45.16.10 (dies ist das primäre Gateway, bei dem das Standardgateway auf Ihren Router festgelegt ist, z. B.: 10.45.16.1)
+         - Zugriffs-Edge: 10.45.16.10 (dies ist das primäre Gateway, mit Standardgateway für Ihren Router, z. B.: 10.45.16.1)
     
          - Webkonferenz-Edge: 10.45.16.20 (sekundär)
     
-         - A/V-Edge: 10.45.16.30 (sekundär)
+         - A/V Edge: 10.45.16.30 (sekundär)
     
-      Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt Erweitert der Eigenschaften von Internet protocol Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Lokalen Verbindungseigenschaften in Windows Server.
+      Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Erweiterten Abschnitt der Eigenschaften von Internetprotokollversion 4 (TCP/IPv4) und Internetprotokollversion 6 (TCP/IPv6) der Eigenschaften für lokale Verbindungen in Windows Server.
     
   - Knoten 2
     
     - Öffentliche IPs:
     
-      - Access Edge: 131.107.155.11 (dies ist das primäre Gateway, bei dem das Standardgateway auf Ihren öffentlichen Router festgelegt ist, z. B.: 131.107.155.1)
+      - Zugriffs-Edge: 131.107.155.11 (dies ist das primäre Gateway, mit Standardgateway für Ihren öffentlichen Router, z. B.: 131.107.155.1)
     
       - Webkonferenz-Edge: 131.107.155.21 (sekundär)
     
-      - A/V-Edge: 131.107.155.31 (sekundär)
+      - A/V Edge: 131.107.155.31 (sekundär)
     
-      Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt Erweitert der Eigenschaften von Internet protocol Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Lokalen Verbindungseigenschaften in Windows Server.
+      Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Erweiterten Abschnitt der Eigenschaften von Internetprotokollversion 4 (TCP/IPv4) und Internetprotokollversion 6 (TCP/IPv6) der Eigenschaften für lokale Verbindungen in Windows Server.
     
   - Private IPs:
     
-    - Access Edge: 10.45.16.11 (dies ist das primäre Gateway, bei dem das Standardgateway auf Ihren Router festgelegt ist, z. B.: 10.45.16.1)
+    - Zugriffs-Edge: 10.45.16.11 (dies ist das primäre Gateway mit Standardgateway für Ihren Router, z. B.: 10.45.16.1)
     
     - Webkonferenz-Edge: 10.45.16.21 (sekundär)
     
-    - A/V-Edge: 10.45.16.31 (sekundär)
+    - A/V Edge: 10.45.16.31 (sekundär)
     
-      Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Abschnitt Erweitert der Eigenschaften von Internet protocol Version 4 (TCP/IPv4) und Internet Protocol Version 6 (TCP/IPv6) der Lokalen Verbindungseigenschaften in Windows Server.
+      Webkonferenzen und öffentliche A/V-Edge-IP-Adressen sind zusätzliche (sekundäre) IP-Adressen im Erweiterten Abschnitt der Eigenschaften von Internetprotokollversion 4 (TCP/IPv4) und Internetprotokollversion 6 (TCP/IPv6) der Eigenschaften für lokale Verbindungen in Windows Server.
     
-Es gibt hier weitere mögliche Konfigurationen:
+Hier gibt es weitere mögliche Konfigurationen:
   
-- Sie können eine IP-Adresse auf dem externen Netzwerkadapter verwenden. Wir empfehlen dies nicht, da Sie dann zwischen den Diensten unterscheiden müssen, die unterschiedliche Ports verwenden (was Sie in Skype for Business Server tun können), aber es gibt einige Firewalls, die die alternativen Ports blockieren können. Weitere Informationen dazu finden Sie im Abschnitt [Port-](edge-environmental-requirements.md#PortFirewallPlan) und Firewallplanung.
+- Sie können eine IP-Adresse auf dem externen Netzwerkadapter verwenden. Dies wird nicht empfohlen, da Sie dann zwischen den Diensten unterscheiden müssen, die unterschiedliche Ports verwenden (was Sie in Skype for Business Server tun können), aber es gibt einige Firewalls, die die alternativen Ports blockieren können. Weitere Informationen hierzu finden Sie im Abschnitt zur [Port- und Firewallplanung.](edge-environmental-requirements.md#PortFirewallPlan)
     
-- Sie können anstelle eines externen Netzwerkadapters drei externe Netzwerkadapter verwenden und jedem Einzelnen einen der Dienst-IPs zuweisen. Warum sollte dies der Grund sein? Es würde die Dienste trennen, und wenn ein Fehler vorgeht, würde dies die Problembehandlung vereinfachen und ihre anderen Dienste möglicherweise weiter arbeiten lassen, während Sie ein Problem beheben.
+- Sie können drei externe Netzwerkadapter anstelle eines haben und jedem einen der Dienst-IPs zuweisen. Warum sollte dies der Fall sein? Es würde die Dienste trennen, und wenn etwas schief geht, würde dies die Problembehandlung vereinfachen und ihre anderen Dienste möglicherweise weiterhin funktionieren lassen, während Sie ein Problem beheben.
     
-|**Ort**|**Type**|**Port**|**FQDN oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN- oder DNS-Eintrag**|**IP-Adresse oder FQDN**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |sip.contoso.com  <br/> |**öffentlich:** 131.107.155.10 und 131.107.155.11 <br/> **privat:** 10.45.16.10 und 10.45.16.11 <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Sie benötigen eine für jede SIP-Domäne mit Skype for Business-Benutzern.  <br/> |
+|Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |sip.contoso.com  <br/> |**öffentlich:** 131.107.155.10 und 131.107.155.11 <br/> **privat:** 10.45.16.10 und 10.45.16.11 <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Sie benötigen eine für jede SIP-Domäne mit Skype for Business Benutzern.  <br/> |
 |Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**öffentlich:** 131.107.155.20 und 131.107.155.21 <br/> **privat:** 10.45.16.20 und 10.45.16.21 <br/> |Eine externe Schnittstelle für Ihren Webkonferenz-Edgedienst.  <br/> |
 |Externes DNS  <br/> |Ein Datensatz  <br/> |NA  <br/> |av.contoso.com  <br/> |**öffentlich:** 131.107.155.30 und 131.107.155.31 <br/> **privat:** 10.45.16.30 und 10.45.16.31 <br/> |Eine externe Schnittstelle für Ihren A/V-Edgedienst.  <br/> |
-|Externes DNS  <br/> |SRV-Eintrag  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Dieser SRV-Eintrag ist erforderlich, damit Skype for Business Server-, Lync Server 2013- und Lync Server 2010-Clients extern arbeiten können. Sie benötigen eine für jede Domäne mit Skype for Business.  <br/> |
+|Externes DNS  <br/> |SRV-Eintrag  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Dieser SRV-Eintrag ist erforderlich, damit Skype for Business Server-, Lync Server 2013- und Lync Server 2010-Clients extern funktionieren. Sie benötigen eine für jede Domäne mit Skype for Business.  <br/> |
 |Externes DNS  <br/> |SRV-Eintrag  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Eine externe Schnittstelle für Ihren Access Edge-Dienst. Dieser SRV-Eintrag ist für die automatische DNS-Ermittlung von Verbundpartnern erforderlich, die als zulässige SIP-Domänen bezeichnet werden. Sie benötigen eine für jede Domäne mit Skype for Business.  <br/> |
-|Interne DNS-Konfiguration  <br/> |Ein Datensatz  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 und 172.25.33.11  <br/> |Die interne Schnittstelle für Den konsolidierten Edge.  <br/> |
+|Interne DNS-Konfiguration  <br/> |Ein Datensatz  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 und 172.25.33.11  <br/> |Die interne Schnittstelle für Ihren konsolidierten Edgeserver.  <br/> |
    
-### <a name="dns-record-for-federation-all-scenarios"></a>DNS-Eintrag für den Verbund (alle Szenarien)
+### <a name="dns-record-for-federation-all-scenarios"></a>DNS-Eintrag für Partnerverbund (alle Szenarien)
 
-|**Ort**|**Type**|**Port**|**FQDN**|**FQDN-Hostdatensatz**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN**|**FQDN-Hosteintrag**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Externes DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Die externe SIP-Zugriffs-Edgeschnittstelle, die für die automatische DNS-Ermittlung erforderlich ist. Wird von Ihren anderen potenziellen Verbundpartnern verwendet. Es wird auch als "Zulassen von SIP-Domänen" bezeichnet. Sie benötigen eine davon für jede SIP-Domäne mit Skype for Business-Benutzern.  <br/><br/> **Hinweis:** Sie benötigen diesen SRV-Eintrag für die Mobilität und die Pushbenachrichtigungs-Clearingstelle. <br/> |
+|Externes DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Die externe SIP-Zugriffs-Edgeschnittstelle, die für die automatische DNS-Ermittlung erforderlich ist. Wird von Ihren anderen potenziellen Verbundpartnern verwendet. Sie wird auch als "SIP-Domänen zulassen" bezeichnet. Sie benötigen eine davon für jede SIP-Domäne mit Skype for Business Benutzern.  <br/><br/> **Hinweis:** Sie benötigen diesen SRV-Eintrag für Mobilität und das Clearing-House für Pushbenachrichtigungen. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>DNS-Einträge für erweiterbares Messaging- und Anwesenheitsprotokoll
 
-|**Ort**|**Type**|**Port**|**FQDN**|**IP-Adresse oder FQDN-Hostdatensatz**|**Notizen**|
+|**Standort**|**Typ**|**Port**|**FQDN**|**IP-Adresse oder FQDN-Hosteintrag**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Externes DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Die XMPP-Proxyschnittstelle in Ihrem Access Edge-Dienst oder Edgepool. Sie müssen dies bei Bedarf für alle internen SIP-Domänen mit aktivierten Skype for Business Server-Benutzern wiederholen, in denen Der Kontakt mit XMPP-Kontakten zulässig ist:  <br/> • eine globale Richtlinie  <br/> • eine Websiterichtlinie, bei der der Benutzer aktiviert ist  <br/> • eine Benutzerrichtlinie, die auf den aktivierten Skype for Business Server-Benutzer angewendet wird  <br/> Eine zulässige XMPP-Richtlinie muss auch in der XMPP-Verbundbenutzerrichtlinie konfiguriert werden.  <br/> |
-|Externes DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |IP-Adresse des Zugriffs-Edgediensts auf dem Edgeserver oder Edgepool, der Ihren XMPP-Proxydienst hosten soll  <br/> |Dies verweist auf den Access-Edgedienst auf dem Edgeserver oder Edgepool, der den XMPP-Proxydienst hostet. In der Regel wird der von Ihnen erstellte SRV-Eintrag auf diesen Hostdatensatz (A oder AAAA) verweisen.  <br/> |
+|Externes DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Die XMPP-Proxyschnittstelle im Zugriffs-Edgedienst oder Edgepool. Sie müssen dies bei Bedarf für alle internen SIP-Domänen mit Skype for Business Server aktivierten Benutzern wiederholen, wobei der Kontakt mit XMPP-Kontakten über Folgendes zulässig ist:  <br/> • eine globale Richtlinie  <br/> • Eine Standortrichtlinie, bei der der Benutzer aktiviert ist  <br/> • eine Benutzerrichtlinie, die auf den Skype for Business Server aktivierten Benutzer angewendet wird  <br/> Eine zulässige XMPP-Richtlinie muss auch in der XMPP-Verbundbenutzerrichtlinie konfiguriert werden.  <br/> |
+|Externes DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |IP-Adresse des Zugriffs-Edgediensts auf dem Edgeserver oder Edgepool, der Ihren XMPP-Proxydienst hostet  <br/> |Dies verweist auf den Zugriffs-Edgedienst auf dem Edgeserver oder Edgepool, der den XMPP-Proxydienst hostet. In der Regel verweist der SRV-Eintrag, den Sie erstellen, auf diesen Hosteintrag (A oder AAAA).  <br/> |
    
 > [!NOTE]
-> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter Migrieren des [XMPP-Verbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
+> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
 
 ## <a name="certificate-planning"></a>Zertifikatsplanung
 <a name="CertPlan"> </a>
 
-Skype for Business Server verwendet Zertifikate für die sichere, verschlüsselte Kommunikation zwischen Servern und von Server zu Client. Wie Sie erwarten, müssen Ihre Zertifikate über DNS-Einträge für Ihre Server verfügen, die mit jedem Betreffnamen (Subject Name, SN) und dem alternativen Betreffnamen (Subject Alternate Name, SAN) in Ihren Zertifikaten übereinstimmen. Dies dauert jetzt in der Planungsphase, um sicherzustellen, dass die richtigen FQDNs für die SN- und SAN-Einträge für Ihre Zertifikate in DNS registriert sind.
+Skype for Business Server verwendet Zertifikate für eine sichere, verschlüsselte Kommunikation zwischen Servern und von Server zu Client. Wie Sie erwarten, müssen ihre Zertifikate DNS-Einträge für Ihre Server mit einem beliebigen Antragstellernamen (SN) und alternativen Antragstellernamen (Subject Alternate Name, SAN) auf Ihren Zertifikaten übereinstimmen. Dies nimmt jetzt in der Planungsphase Arbeit in Anspruch, um sicherzustellen, dass Sie die richtigen FQDNs im DNS für die SN- und SAN-Einträge für Ihre Zertifikate registriert haben.
   
-Wir werden externe und interne Zertifikatanforderungen separat besprechen und uns dann eine Tabelle mit den Anforderungen für beides anschauen.
+Wir werden externe und interne Zertifikatsanforderungen separat besprechen und dann eine Tabelle mit den Anforderungen für beides betrachten.
   
 ### <a name="external-certificates"></a>Externe Zertifikate
 
-Das Den externen Edgeserverschnittstellen zugewiesene Zertifikat muss mindestens von einer öffentlichen Zertifizierungsstelle bereitgestellt werden. Wir können Ihnen keine bestimmte Zertifizierungsstelle empfehlen, aber wir verfügen über eine Liste der Zertifizierungsstellen, Unified Communications-Zertifikatpartner, die Sie sich anschauen können, um zu sehen, ob Ihre bevorzugte Zertifizierungsstelle aufgeführt ist. [](../../../SfbPartnerCertification/certification/services-ssl.md)
+Mindestens das Zertifikat, das Ihren externen Edgeserverschnittstellen zugewiesen ist, muss von einer öffentlichen Zertifizierungsstelle (Ca) bereitgestellt werden. Wir können Ihnen keine bestimmte Zertifizierungsstelle empfehlen, aber wir verfügen über eine Liste von Zertifizierungsstellen, [Unified Communications-Zertifikatpartnern,](../../../SfbPartnerCertification/certification/services-ssl.md) die Sie sich ansehen können, um festzustellen, ob Ihre bevorzugte Zertifizierungsstelle aufgeführt ist.
   
-Wann müssen Sie eine Anforderung an eine Zertifizierungsstelle für dieses öffentliche Zertifikat senden, und wie wird dies gemacht? Es gibt mehrere Möglichkeiten, dies zu erreichen:
+Wann müssen Sie eine Anforderung für dieses öffentliche Zertifikat an eine Zertifizierungsstelle übermitteln, und wie führen Sie dies aus? Es gibt verschiedene Möglichkeiten, dies zu erreichen:
   
-- Sie können die Installation von Skype for Business Server und dann die Edgeserverbereitstellung durchgehen. Der Skype for Business Server-Bereitstellungs-Assistent hat einen Schritt zum Generieren einer Zertifikatanforderung, die Sie dann an die ausgewählte Zertifizierungsstelle senden können.
+- Sie können die Installation von Skype for Business Server und dann die Edgeserverbereitstellung durchlaufen. Der Skype for Business Server Bereitstellungs-Assistent verfügt über einen Schritt zum Generieren einer Zertifikatanforderung, die Sie dann an die ausgewählte Zertifizierungsstelle senden können.
     
-- Sie können auch Windows PowerShell Befehlen verwenden, um diese Anforderung zu generieren, wenn dies ihren Geschäftlichen Anforderungen oder Ihrer Bereitstellungsstrategie besser entspricht.
+- Sie können auch Windows PowerShell Befehle verwenden, um diese Anforderung zu generieren, wenn dies mit Ihren Geschäftsanforderungen oder Ihrer Bereitstellungsstrategie inline ist.
     
-- Schließlich verfügt Ihre Zertifizierungsstelle möglicherweise über einen eigenen Übermittlungsprozess, der auch eine Windows PowerShell oder eine andere Methode umfassen kann. In diesem Fall müssen Sie sich zusätzlich zu den hier angegebenen Informationen auf ihre Dokumentation verlassen.
+- Schließlich kann Ihre Zertifizierungsstelle über einen eigenen Übermittlungsprozess verfügen, der auch Windows PowerShell oder eine andere Methode umfassen kann. In diesem Fall müssen Sie sich zusätzlich zu den hier für Ihre Referenz bereitgestellten Informationen auf deren Dokumentation verlassen.
     
-Nachdem Sie das Zertifikat erhalten haben, müssen Sie es den folgenden Diensten in Skype for Business Server zuweisen:
+Nachdem Sie das Zertifikat abgerufen haben, müssen Sie es diesen Diensten in Skype for Business Server zuweisen:
   
-- Access Edge-Dienstschnittstelle
+- Zugriffs-Edgedienstschnittstelle
     
-- Webkonferenz-Edge-Dienstschnittstelle
+- Webkonferenz-Edgedienstschnittstelle
     
-- Audio-/Videoauthentifizierungsdienst (Verwechseln Sie dies nicht mit dem A/V-Edgedienst, da dieser kein Zertifikat zum Verschlüsseln von Audio- und Videodatenströmen verwendet)
+- Audio-/Videoauthentifizierungsdienst (verwechseln Sie dies nicht mit dem A/V-Edgedienst, da dieser kein Zertifikat zum Verschlüsseln von Audio- und Videodatenströmen verwendet)
     
 > [!IMPORTANT]
-> Alle Edgeserver (wenn sie zum gleichen Pool von Edgeservern gehören) benötigen dasselbe Zertifikat mit demselben privaten Schlüssel für den Medienrelaisauthentifizierungsdienst. 
+> Alle Edgeserver (wenn sie zum selben Pool von Edgeservern gehören) müssen genau dasselbe Zertifikat mit demselben privaten Schlüssel für den Medienrelay-Authentifizierungsdienst besitzen. 
   
 ### <a name="internal-certificates"></a>Interne Zertifikate
 
-Für die interne Edgeserverschnittstelle können Sie ein öffentliches Zertifikat von einer öffentlichen Zertifizierungsstelle oder ein Von der internen Zertifizierungsstelle Ihrer Organisation ausgestelltes Zertifikat verwenden. Beachten Sie beim internen Zertifikat, dass es einen SN-Eintrag und keine #A0 verwendet, sodass Sie sich keine Gedanken über SAN auf dem internen Zertifikat machen müssen.
+Für die interne Edgeserverschnittstelle können Sie ein öffentliches Zertifikat von einer öffentlichen Zertifizierungsstelle oder ein von der internen Zertifizierungsstelle Ihrer Organisation ausgestelltes Zertifikat verwenden. Denken Sie an das interne Zertifikat daran, dass es einen SN-Eintrag und keine SAN-Einträge verwendet, sodass Sie sich überhaupt keine Gedanken über SAN im internen Zertifikat machen müssen.
   
 ### <a name="required-certificates-table"></a>Tabelle "Erforderliche Zertifikate"
 
-Wir haben hier eine Tabelle, die Ihnen bei Ihren Anforderungen hilft. Die FQDN-Einträge hier sind nur für Beispieldomänen. Sie müssen Anforderungen basierend auf Ihren eigenen privaten und öffentlichen Domänen stellen, aber hier finden Sie eine Anleitung zu den von uns verwendeten Informationen:
+Wir haben hier eine Tabelle, die Sie bei Ihren Anforderungen unterstützt. Die FQDN-Einträge hier gelten nur für Beispieldomänen. Sie müssen Anforderungen basierend auf Ihren eigenen privaten und öffentlichen Domänen stellen. Hier ist jedoch ein Leitfaden zu dem, was wir verwendet haben:
   
-- contoso <span></span> .com: Öffentlicher FQDN
+- <span></span>contoso.com: Öffentlicher FQDN
     
-- fabrikam .com: Zweiter öffentlicher FQDN (als Demo hinzugefügt, was sie anfordern <span></span> müssen, wenn Sie über mehrere SIP-Domänen verfügen)
+- fabrikam <span></span> .com: Zweiter öffentlicher FQDN (hinzugefügt als Demo, was angefordert werden soll, wenn Sie über mehrere SIP-Domänen verfügen)
     
 - Contoso <span></span> .net: Interne Domäne
     
-#### <a name="edge-certificate-table"></a>Edgezertifikattabelle
+#### <a name="edge-certificate-table"></a>Edgezertifikatstabelle
 
-Unabhängig davon, ob Sie einen einzelnen Edgeserver oder einen Edgepool verwenden, benötigen Sie dies für Ihr Zertifikat:
+Unabhängig davon, ob Sie einen einzelnen Edgeserver oder einen Edgepool ausführen, benötigen Sie dies für Ihr Zertifikat:
   
-|**Komponente**|**Antragstellername (SN)**|**Alternative Betreffnamen (SAN)/Reihenfolge**|**Notizen**|
+|**Komponente**|**Antragstellername (SN)**|**Alternative Antragstellernamen (SAN)/Reihenfolge**|**Notizen**|
 |:-----|:-----|:-----|:-----|
-|Externer Edge  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Dies ist das Zertifikat, das Sie von einer öffentlichen Zertifizierungsstelle anfordern müssen. Sie muss den externen Edgeschnittstellen für Folgendes zugewiesen werden:  <br/> • Access Edge  <br/> • Edge für Webkonferenzen  <br/> • Audio-/Videoauthentifizierung  <br/> <br/>Die gute Nachricht ist, dass SANs automatisch ihrer Zertifikatanforderung und damit Ihrem Zertifikat hinzugefügt werden, nachdem Sie die Anforderung übermittelt haben, basierend auf dem, was Sie für diese Bereitstellung im Topologie-Generator definiert haben. Sie müssen nur SAN-Einträge für zusätzliche SIP-Domänen oder andere Einträge hinzufügen, die Sie unterstützen müssen. Warum wird sip.contoso.com in dieser Instanz repliziert? Dies geschieht auch automatisch, und es ist erforderlich, damit die Dinge ordnungsgemäß funktionieren.  <br/><br/> **Hinweis:** Dieses Zertifikat kann auch für die Verbindung mit öffentlichen Instant Messaging verwendet werden. Sie müssen damit nichts anderes tun, aber in früheren Versionen dieser Dokumentation wurde sie als separate Tabelle aufgeführt, und jetzt nicht. <br/> |
-|Interner Edge  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |Sie können dieses Zertifikat von einer öffentlichen oder einer internen Zertifizierungsstelle erhalten. Sie muss die Server-EKU (Erweiterte Schlüsselverwendung) enthalten, und Sie weisen sie der internen Edgeschnittstelle zu.  <br/> |
+|Externer Edgeserver  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Dies ist das Zertifikat, das Sie von einer öffentlichen Zertifizierungsstelle anfordern müssen. Sie muss den externen Edgeschnittstellen für Folgendes zugewiesen werden:  <br/> • Zugriffs-Edge  <br/> • Webkonferenz-Edge  <br/> • Audio-/Videoauthentifizierung  <br/> <br/>Die gute Nachricht ist, dass SANs automatisch zu Ihrer Zertifikatsanforderung und damit ihrem Zertifikat hinzugefügt werden, nachdem Sie die Anforderung übermittelt haben, basierend auf dem, was Sie für diese Bereitstellung im Topologie-Generator definiert haben. Sie müssen nur SAN-Einträge für zusätzliche SIP-Domänen oder andere Einträge hinzufügen, die Sie unterstützen müssen. Warum wird sip.contoso.com in dieser Instanz repliziert? Dies geschieht auch automatisch und wird benötigt, damit alles ordnungsgemäß funktioniert.  <br/><br/> **Hinweis:** Dieses Zertifikat kann auch für die Verbindung mit öffentlichen Chatnachrichten verwendet werden. Sie müssen damit nichts anderes tun, aber in früheren Versionen dieser Dokumentation wurde sie als separate Tabelle aufgeführt, und jetzt ist dies nicht mehr der Fall. <br/> |
+|Interner Edge  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |Sie können dieses Zertifikat von einer öffentlichen Zertifizierungsstelle oder einer internen Zertifizierungsstelle abrufen. Sie muss die Server-EKU (Enhanced Key Usage) enthalten, und Sie weisen sie der internen Edgeschnittstelle zu.  <br/> |
    
-Wenn Sie ein Zertifikat für das Extensible Messaging and Presence Protocol (XMPP) benötigen, sieht es identisch mit den obigen Einträgen der Externen Edgetabelle aus, hat jedoch die folgenden zwei zusätzlichen SAN-Einträge:
+Wenn Sie ein Zertifikat für XMPP (Extensible Messaging and Presence Protocol) benötigen, sieht es identisch mit den Einträgen in der Tabelle "Externer Edge" oben aus, weist jedoch die folgenden beiden zusätzlichen SAN-Einträge auf:
   
 - xmpp. <span></span> contoso <span></span> .com
     
-- \*.contoso <span></span> .com
+- \*<span></span>CONTOSO.com
     
-Denken Sie daran, dass XMPP derzeit nur in Skype for Business Server für Google Talk unterstützt wird. Wenn Sie es für etwas anderes verwenden möchten oder müssen, müssen Sie diese Funktionalität mit dem beteiligten Drittanbieter bestätigen.
+Bitte beachten Sie, dass XMPP derzeit nur in Skype for Business Server für Google Talk unterstützt wird, wenn Sie es für andere Zwecke verwenden möchten oder müssen, müssen Sie diese Funktionalität bei dem betreffenden Drittanbieter bestätigen.
   
 ## <a name="port-and-firewall-planning"></a>Port- und Firewallplanung
 <a name="PortFirewallPlan"> </a>
 
-Wenn Sie Ihre Planung für Ports und Firewalls für Skype for Business Server Edge Server-Bereitstellungen richtig planen, können Sie Tage oder Wochen der Problembehandlung und des Stress sparen. Daher werden wir einige Tabellen auflisten, die unsere Protokollverwendung angeben und welche Ports für NAT- und öffentliche IP-Szenarien geöffnet, ein- und ausgehend sein müssen. Wir verfügen außerdem über separate Tabellen für Szenarien für den Hardwarelastenausgleich (Hardware Load Balanced, HLB) und einige weitere Anleitungen dazu. Weitere Informationen finden Sie auch in [einigen Edgeserverszenarien in Skype for Business Server,](scenarios.md) die Sie für Ihre speziellen Bereitstellungsbedenken prüfen können.
+Wenn Sie ihre Planung für Ports und Firewalls für Skype for Business Server Edgeserverbereitstellungen planen, können Sie Tage oder Wochen mit Problembehandlung und Stress sparen. Daher werden wir einige Tabellen auflisten, die unsere Protokollnutzung angeben und angeben, welche Ports sowohl für NAT- als auch für öffentliche IP-Szenarien geöffnet, ein- und ausgehend sein müssen. Wir werden auch separate Tabellen für Szenarien mit Hardwarelastenausgleich (Hardware Load Balanced Scenarios, HLB) und einige weitere Anleitungen dazu haben. Für weitere Informationen von dort haben wir auch einige [Edgeserverszenarien in Skype for Business Server](scenarios.md) Sie sich für Ihre speziellen Bereitstellungsprobleme informieren können.
   
-### <a name="general-protocol-usage"></a>Allgemeine Protokollverwendung
+### <a name="general-protocol-usage"></a>Allgemeine Protokollnutzung
 
-Bevor wir uns die Zusammenfassungstabellen für externe und interne Firewalls anschauen, sollten wir auch die folgende Tabelle berücksichtigen:
+Bevor wir uns die Zusammenfassungstabellen für externe und interne Firewalls ansehen, sehen wir uns auch die folgende Tabelle an:
   
 |**Audio-/Videotransport**|**Nutzung**|
 |:-----|:-----|
-|UDP  <br/> |Das bevorzugte Transportschichtprotokoll für Audio und Video.  <br/> |
-|TCP  <br/> |Das Fallback-Transport-Layer-Protokoll für Audio und Video.  <br/> Das erforderliche Transportschichtprotokoll für die Anwendungsfreigabe an Skype for Business Server, Lync Server 2013 und Lync Server 2010.  <br/> Das erforderliche Transportschichtprotokoll für die Dateiübertragung an Skype for Business Server, Lync Server 2013 und Lync Server 2010.  <br/> |
+|Udp  <br/> |Das bevorzugte Transportschichtprotokoll für Audio und Video.  <br/> |
+|TCP  <br/> |Das Fallback-Transportschichtprotokoll für Audio und Video.  <br/> Das erforderliche Transportschichtprotokoll für die Anwendungsfreigabe für Skype for Business Server, Lync Server 2013 und Lync Server 2010.  <br/> Das erforderliche Transportschichtprotokoll für die Dateiübertragung an Skype for Business Server, Lync Server 2013 und Lync Server 2010.  <br/> |
    
-### <a name="external-port-firewall-summary-table"></a>Übersichtstabelle der Firewall für externe Ports
+### <a name="external-port-firewall-summary-table"></a>Zusammenfassungstabelle für externe Portfirewalls
 
-Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutzer, die private IP-Adressen mit NAT verwenden, sowie Personen, die öffentliche IP-Adressen verwenden. Dies wird alle Permutationen in unseren [Edgeserverszenarien in Skype for Business Server](scenarios.md) abdecken.
+Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutzer, die private IP-Adressen mit NAT verwenden, sowie personen, die öffentliche IP-Adressen verwenden. Dies behandelt alle Permutationen in unseren [Edgeserverszenarien in Skype for Business Server](scenarios.md) Abschnitt.
   
 |**Rolle oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> In Skype for Business Server 2019 nicht unterstützt |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit dem Access Edge-Dienst  <br/> |Der XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbundverbunden.  <br/> |
-|Access/HTTP  <br/> |TCP  <br/> |80  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Any  <br/> |Zertifikatssperrung und CRL-Überprüfung und -Abruf.  <br/> |
-|Access/DNS  <br/> |TCP  <br/> |53  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Any  <br/> |DNS-Abfrage über TCP.  <br/> |
-|Access/DNS  <br/> |UDP  <br/> |53  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Any  <br/> |DNS-Abfrage über UDP.  <br/> |
-|Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Client-zu-Server-SIP-Datenverkehr für externen Benutzerzugriff.  <br/> |
-|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Für Verbund- und Public -Im-Im-In-Verbindungen mithilfe von SIP.  <br/> |
-|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Any  <br/> |Für Verbund- und Public -Im-Im-In-Verbindungen mithilfe von SIP.  <br/> |
-|Webkonferenzen/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserver-Webkonferenz-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverwebkonferenz-Edgediensts <br/> |Webkonferenzmedien.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Any  <br/> |Dies wird zum Relayn von Mediendatenverkehr verwendet.  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Any  <br/> |Dies wird zum Relayn von Mediendatenverkehr verwendet.  <br/> |
-|A/V/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Any  <br/> |3478 ausgehend ist:  <br/> • Wird von Skype for Business Server verwendet, um die Version des Edgeservers zu bestimmen, mit dem er kommuniziert.  <br/> • Wird für Mediendatenverkehr zwischen Edgeservern verwendet.  <br/> • Erforderlich für den Verbund mit Lync Server 2010.  <br/> • Erforderlich, wenn mehrere Edgepools in Ihrer Organisation bereitgestellt werden.  <br/> |
-|A/V/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über UDP an Port 3478.  <br/> |
-|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
-|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Any  <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
+|Xmpp  <br/> In Skype for Business Server 2019 nicht unterstützt |TCP  <br/> |5269  <br/> |Beliebig  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit dem Zugriffs-Edgedienst  <br/> |Der XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbunden.  <br/> |
+|Access/HTTP  <br/> |TCP  <br/> |80  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Beliebig  <br/> |Zertifikatsperrung und CRL-Prüfung und -Abruf.  <br/> |
+|Access/DNS  <br/> |TCP  <br/> |53  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Beliebig  <br/> |DNS-Abfrage über TCP.  <br/> |
+|Access/DNS  <br/> |Udp  <br/> |53  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Beliebig  <br/> |DNS-Abfrage über UDP.  <br/> |
+|Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Client-zu-Server-SIP-Datenverkehr für externen Benutzerzugriff.  <br/> |
+|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Für Verbund- und Verbindungen mit öffentlichen Chatdiensten mit SIP.  <br/> |
+|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Beliebig  <br/> |Für Verbund- und Verbindungen mit öffentlichen Chatdiensten mit SIP.  <br/> |
+|Webkonferenzen/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-Webkonferenz-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgediensts für Edgekonferenzen <br/> |Webkonferenzmedien.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Beliebig  <br/> |Dies wird für die Weiterleitung von Mediendatenverkehr verwendet.  <br/> |
+|A/V/RTP  <br/> |Udp  <br/> |50000-59999  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Beliebig  <br/> |Dies wird für die Weiterleitung von Mediendatenverkehr verwendet.  <br/> |
+|A/V/STUN. MSTURN  <br/> |Udp  <br/> |3478  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Beliebig  <br/> |3478 ausgehend ist:  <br/> • Wird von Skype for Business Server verwendet, um die Version des Edgeservers zu bestimmen, mit dem sie kommuniziert.  <br/> • Wird für Mediendatenverkehr zwischen Edgeservern verwendet.  <br/> • Erforderlich für den Partnerverbund mit Lync Server 2010.  <br/> • Erforderlich, wenn mehrere Edgepools in Ihrer Organisation bereitgestellt werden.  <br/> |
+|A/V/STUN. MSTURN  <br/> |Udp  <br/> |3478  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über UDP an Port 3478.  <br/> |
+|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
+|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |Beliebig  <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
    
-### <a name="internal-port-firewall-summary-table"></a>Übersichtstabelle der internen Portfirewall
+### <a name="internal-port-firewall-summary-table"></a>Zusammenfassungstabelle für interne Portfirewalls
 
 |**Protocol**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Einer der folgenden Ausgeführten des XMPP-Gatewaydiensts:  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender XMPP-Datenverkehr von Ihrem XMPP-Gatewaydienst, der auf Ihrem Front-End-Server oder Front-End-Pool ausgeführt wird.  <br/> **Hinweis:** XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter Migrieren des [XMPP-Verbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)|
-|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Any:  <br/> • Director  <br/> • Directorpool  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender SIP-Datenverkehr von Ihrem Director, Directorpool, Front-End-Server oder Front-End-Pool zu Ihrer internen Edgeserverschnittstelle.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Interne Edgeserverschnittstelle  <br/> |Any:  <br/> • Director  <br/> • Directorpool  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> |Eingehender SIP-Datenverkehr zu Ihrem Director, Directorpool, Front-End-Server oder Front-End-Pool von Ihrer internen Edgeserverschnittstelle.  <br/> |
-|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Any:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server  <br/>  im Front-End-Pool <br/> |Interne Edgeserverschnittstelle  <br/> |Webkonferenzdatenverkehr von Ihrem Front-End-Server oder jedem Front-End-Server (wenn Sie über einen Front-End-Pool verfügen) zu Ihrer internen Edgeserverschnittstelle.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Any:  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> • Jede Survivable Branch Appliance, die diesen Edgeserver verwendet  <br/> • Jeder Survivable Branch Server, der diesen Edgeserver verwendet  <br/> |Interne Edgeserverschnittstelle  <br/> |Authentifizierung von A/V-Benutzern von Ihrem Front-End-Server oder Front-End-Pool oder Ihrer Survivable Branch Appliance oder Survivable Branch Server mithilfe Ihres Edgeservers.  <br/> |
-|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Bevorzugter Pfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder Survivable Branch Server.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Fallbackpfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder Survivable Branch Server, wenn die UDP-Kommunikation nicht funktioniert. TCP wird dann für Dateiübertragungen und Desktopfreigaben verwendet.  <br/> |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Any:  <br/> • Front-End-Server, der den zentralen Verwaltungsspeicher enthält  <br/> • Front-End-Pool, der den zentralen Verwaltungsspeicher enthält  <br/> |Interne Edgeserverschnittstelle  <br/> |Replikation von Änderungen aus dem zentralen Verwaltungsspeicher auf den Edgeserver.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienstcontroller mit Skype for Business Server Management Shell und Cmdlets für den zentralisierten Protokollierungsdienst, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollsammlung.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienstcontroller mit Skype for Business Server Management Shell und Cmdlets für den zentralisierten Protokollierungsdienst, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollsammlung.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienstcontroller mit Skype for Business Server Management Shell und Cmdlets für den zentralisierten Protokollierungsdienst, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollsammlung.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Eine der folgenden Aktionen, die den XMPP-Gatewaydienst ausführen:  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender XMPP-Datenverkehr von Ihrem XMPP-Gatewaydienst, der auf Ihrem Front-End-Server oder Front-End-Pool ausgeführt wird.  <br/> **Hinweis:** XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)|
+|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |jegliche:  <br/> • Director  <br/> • Directorpool  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender SIP-Datenverkehr von Ihrem Director, Director-Pool, Front-End-Server oder Front-End-Pool zu Ihrer internen Edgeserverschnittstelle.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Interne Edgeserverschnittstelle  <br/> |jegliche:  <br/> • Director  <br/> • Directorpool  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> |Eingehender SIP-Datenverkehr zu Ihrem Director, Director-Pool, Front-End-Server oder Front-End-Pool über die interne Schnittstelle des Edgeservers.  <br/> |
+|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |jegliche:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server  <br/>  in Ihrem Front-End-Pool <br/> |Interne Edgeserverschnittstelle  <br/> |Webkonferenzdatenverkehr von Ihrem Front-End-Server oder jedem Front-End-Server (wenn Sie über einen Front-End-Pool verfügen) zu Ihrer internen Edgeserverschnittstelle.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |jegliche:  <br/> • Front-End-Server  <br/> • Front-End-Pool  <br/> • Jede Survivable Branch Appliance, die diesen Edgeserver verwendet  <br/> • Jeder Survivable Branch-Server, der diesen Edgeserver verwendet  <br/> |Interne Edgeserverschnittstelle  <br/> |Authentifizierung von A/V-Benutzern von Ihrem Front-End-Server oder Front-End-Pool oder Ihrer Survivable Branch Appliance oder Dem Survivable Branch Server mithilfe Ihres Edgeservers.  <br/> |
+|STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Bevorzugter Pfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder Dem Survivable Branch Server.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Fallbackpfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder dem Survivable Branch Server, wenn die UDP-Kommunikation nicht funktioniert. TCP wird dann für Dateiübertragungen und die Desktopfreigabe verwendet.  <br/> |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |jegliche:  <br/> • Front-End-Server mit dem zentralen Verwaltungsspeicher  <br/> • Front-End-Pool, der den zentralen Verwaltungsspeicher enthält  <br/> |Interne Edgeserverschnittstelle  <br/> |Replikation von Änderungen von Ihrem zentralen Verwaltungsspeicher zu Ihrem Edgeserver.  <br/> |
+|Mtls  <br/> |TCP  <br/> |50001  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienst-Controller mit Skype for Business Server Verwaltungsshell und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenbefehlen (ClsController.exe) oder Agentbefehlen (ClsAgent.exe) und Protokollsammlung.  <br/> |
+|Mtls  <br/> |TCP  <br/> |50002  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienst-Controller mit Skype for Business Server Verwaltungsshell und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenbefehlen (ClsController.exe) oder Agentbefehlen (ClsAgent.exe) und Protokollsammlung.  <br/> |
+|Mtls  <br/> |TCP  <br/> |50003  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienst-Controller mit Skype for Business Server Verwaltungsshell und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenbefehlen (ClsController.exe) oder Agentbefehlen (ClsAgent.exe) und Protokollsammlung.  <br/> |
    
-### <a name="hardware-load-balancers-for-edge-port-tables"></a>Hardwaregerät zum Lastenausgleich für Edgeporttabellen
+### <a name="hardware-load-balancers-for-edge-port-tables"></a>Hardwaregeräte zum Lastenausgleich für Edgeporttabellen
 
-Wir geben hardware load balancers (HLBs) und Edgeports einen eigenen Abschnitt, da die Dinge mit der zusätzlichen Hardware etwas komplizierter sind. Anleitungen zu diesem bestimmten Szenario finden Sie in den folgenden Tabellen:
+Hardwaregeräte zum Lastenausgleich (HLBs) und Edgeports erhalten einen eigenen Abschnitt, da die Dinge mit der zusätzlichen Hardware etwas komplizierter sind. Eine Anleitung für dieses szenario finden Sie in den folgenden Tabellen:
   
-#### <a name="external-port-firewall-summary-table"></a>Übersichtstabelle der Firewall für externe Ports
+#### <a name="external-port-firewall-summary-table"></a>Zusammenfassungstabelle für externe Portfirewalls
 
-Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutzer, die private IP-Adressen mit NAT verwenden, sowie Personen, die öffentliche IP-Adressen verwenden. Dies wird alle Permutationen in unseren [Edgeserverszenarien in Skype for Business Server](scenarios.md) abdecken.
+Die Quell-IP-Adresse und die Ziel-IP-Adresse enthalten Informationen für Benutzer, die private IP-Adressen mit NAT verwenden, sowie personen, die öffentliche IP-Adressen verwenden. Dies behandelt alle Permutationen in unseren [Edgeserverszenarien in Skype for Business Server](scenarios.md) Abschnitt.
   
 |**Rolle oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Access/HTTP  <br/> |TCP  <br/> |80  <br/> |Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts  <br/> |Any  <br/> |Zertifikatssperrung und CRL-Überprüfung und -Abruf.  <br/> |
-|Access/DNS  <br/> |TCP  <br/> |53  <br/> |Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts  <br/> |Any  <br/> |DNS-Abfrage über TCP.  <br/> |
-|Access/DNS  <br/> |UDP  <br/> |53  <br/> |Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts  <br/> |Any  <br/> |DNS-Abfrage über UDP.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Edgeserver-A/V-Edgedienst-IP-Adresse  <br/> |Any  <br/> |Dies wird zum Relayn von Mediendatenverkehr verwendet.  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |Any  <br/> |Dies wird zum Relayn von Mediendatenverkehr verwendet.  <br/> |
-|A/V/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |Any  <br/> |3478 ausgehend ist:  <br/> • Wird von Skype for Business Server verwendet, um die Version des Edgeservers zu bestimmen, mit dem er kommuniziert.  <br/> • Wird für Mediendatenverkehr zwischen Edgeservern verwendet.  <br/> • Erforderlich für den Verbund.  <br/> • Erforderlich, wenn mehrere Edgepools in Ihrer Organisation bereitgestellt werden.  <br/> |
-|A/V/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |STUN/TURN-Aushandlung von Kandidaten über UDP an Port 3478.  <br/> |
-|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
-|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |Any  <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
+|Access/HTTP  <br/> |TCP  <br/> |80  <br/> |Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts  <br/> |Beliebig  <br/> |Zertifikatsperrung und CRL-Prüfung und -Abruf.  <br/> |
+|Access/DNS  <br/> |TCP  <br/> |53  <br/> |Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts  <br/> |Beliebig  <br/> |DNS-Abfrage über TCP.  <br/> |
+|Access/DNS  <br/> |Udp  <br/> |53  <br/> |Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts  <br/> |Beliebig  <br/> |DNS-Abfrage über UDP.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Ip-Adresse des Edgeserver-A/V-Edgediensts  <br/> |Beliebig  <br/> |Dies wird für die Weiterleitung von Mediendatenverkehr verwendet.  <br/> |
+|A/V/RTP  <br/> |Udp  <br/> |50000-59999  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |Beliebig  <br/> |Dies wird für die Weiterleitung von Mediendatenverkehr verwendet.  <br/> |
+|A/V/STUN. MSTURN  <br/> |Udp  <br/> |3478  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |Beliebig  <br/> |3478 ausgehend ist:  <br/> • Wird von Skype for Business Server verwendet, um die Version des Edgeservers zu bestimmen, mit dem sie kommuniziert.  <br/> • Wird für Mediendatenverkehr zwischen Edgeservern verwendet.  <br/> • Erforderlich für partnerverbunden.  <br/> • Erforderlich, wenn mehrere Edgepools in Ihrer Organisation bereitgestellt werden.  <br/> |
+|A/V/STUN. MSTURN  <br/> |Udp  <br/> |3478  <br/> |Beliebig  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |STUN/TURN-Aushandlung von Kandidaten über UDP an Port 3478.  <br/> |
+|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
+|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts  <br/> |Beliebig  <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
    
-#### <a name="internal-port-firewall-summary-table"></a>Übersichtstabelle der internen Portfirewall
+#### <a name="internal-port-firewall-summary-table"></a>Zusammenfassungstabelle für interne Portfirewalls
 
 |**Protocol**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Einer der folgenden Ausgeführten des XMPP-Gatewaydiensts:  <br/> • Front-End-Server  <br/> • Front-End-Pool-VIP-Adresse, unter der der XMPP-Gatewaydienst ausgeführt wird  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender XMPP-Datenverkehr von Ihrem XMPP-Gatewaydienst, der auf Ihrem Front-End-Server oder Front-End-Pool ausgeführt wird.  <br/><br/> **Hinweis:** XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter Migrieren des [XMPP-Verbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md) |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Any:  <br/> • Front-End-Server, der den zentralen Verwaltungsspeicher enthält  <br/> • Front-End-Pool, der den zentralen Verwaltungsspeicher enthält  <br/> |Interne Edgeserverschnittstelle  <br/> |Replikation von Änderungen aus dem zentralen Verwaltungsspeicher auf den Edgeserver.  <br/> |
-|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Any:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server in Ihrem Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Webkonferenzdatenverkehr von Ihrem Front-End-Server oder jedem Front-End-Server (wenn Sie über einen Front-End-Pool verfügen) zu Ihrer internen Edgeserverschnittstelle.  <br/> |
-|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server in Ihrem Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Bevorzugter Pfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder Survivable Branch Server.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Any:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server in Ihrem Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Fallbackpfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder Survivable Branch Server, wenn die UDP-Kommunikation nicht funktioniert. TCP wird dann für Dateiübertragungen und Desktopfreigaben verwendet.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienstcontroller mit Skype for Business Server Management Shell und Cmdlets für den zentralisierten Protokollierungsdienst, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollsammlung.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienstcontroller mit Skype for Business Server Management Shell und Cmdlets für den zentralisierten Protokollierungsdienst, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollsammlung.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienstcontroller mit Skype for Business Server Management Shell und Cmdlets für den zentralisierten Protokollierungsdienst, ClsController-Befehlszeile (ClsController.exe) oder Agentbefehle (ClsAgent.exe) und Protokollsammlung.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Eine der folgenden Aktionen, die den XMPP-Gatewaydienst ausführen:  <br/> • Front-End-Server  <br/> • VIP-Adresse des Front-End-Pools, auf der der XMPP-Gatewaydienst ausgeführt wird  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender XMPP-Datenverkehr von Ihrem XMPP-Gatewaydienst, der auf Ihrem Front-End-Server oder Front-End-Pool ausgeführt wird.  <br/><br/> **Hinweis:** XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md) |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |jegliche:  <br/> • Front-End-Server mit dem zentralen Verwaltungsspeicher  <br/> • Front-End-Pool, der den zentralen Verwaltungsspeicher enthält  <br/> |Interne Edgeserverschnittstelle  <br/> |Replikation von Änderungen von Ihrem zentralen Verwaltungsspeicher zu Ihrem Edgeserver.  <br/> |
+|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |jegliche:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server in Ihrem Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Webkonferenzdatenverkehr von Ihrem Front-End-Server oder jedem Front-End-Server (wenn Sie über einen Front-End-Pool verfügen) zu Ihrer internen Edgeserverschnittstelle.  <br/> |
+|STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |jegliche:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server in Ihrem Front-End-Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Bevorzugter Pfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder Dem Survivable Branch Server.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |jegliche:  <br/> • Front-End-Server  <br/> • Jeder Front-End-Server in Ihrem Pool  <br/> |Interne Edgeserverschnittstelle  <br/> |Fallbackpfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern und Ihrer Survivable Branch Appliance oder dem Survivable Branch Server, wenn die UDP-Kommunikation nicht funktioniert. TCP wird dann für Dateiübertragungen und die Desktopfreigabe verwendet.  <br/> |
+|Mtls  <br/> |TCP  <br/> |50001  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienst-Controller mit Skype for Business Server Verwaltungsshell und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenbefehlen (ClsController.exe) oder Agentbefehlen (ClsAgent.exe) und Protokollsammlung.  <br/> |
+|Mtls  <br/> |TCP  <br/> |50002  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienst-Controller mit Skype for Business Server Verwaltungsshell und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenbefehlen (ClsController.exe) oder Agentbefehlen (ClsAgent.exe) und Protokollsammlung.  <br/> |
+|Mtls  <br/> |TCP  <br/> |50003  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Zentraler Protokollierungsdienst-Controller mit Skype for Business Server Verwaltungsshell und zentralisierten Protokollierungsdienst-Cmdlets, ClsController-Befehlszeilenbefehlen (ClsController.exe) oder Agentbefehlen (ClsAgent.exe) und Protokollsammlung.  <br/> |
    
-#### <a name="external-interface-virtual-ips"></a>Externe Schnittstelle Virtuelle IPs
+#### <a name="external-interface-virtual-ips"></a>Virtuelle IPs für externe Schnittstellen
 
 |**Rolle oder Protokoll**|**TCP oder UDP**|**Zielport oder Portbereich**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> In Skype for Businesss Server 2019 nicht unterstützt |TCP  <br/> |5269  <br/> |Any  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit dem Access Edge-Dienst)  <br/> |Der XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbundverbunden.  <br/> |
-|XMPP  <br/>In Skype for Businesss Server 2019 nicht unterstützt |TCP  <br/> |5269  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit dem Access Edge-Dienst)  <br/> |Any  <br/> |Der XMPP-Proxydienst sendet Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbundverbunden.  <br/> |
-|Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Client-zu-Server-SIP-Datenverkehr für externen Benutzerzugriff.  <br/> |
-|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Für Verbund- und Public -Im-Im-In-Verbindungen mithilfe von SIP.  <br/> |
-|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP mithilfe von NAT:** Edgeserverzugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverzugriffs-Edgediensts <br/> |Any  <br/> |Für Verbund- und Public -Im-Im-In-Verbindungen mithilfe von SIP.  <br/> |
-|Webkonferenzen/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserver-Webkonferenz-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserverwebkonferenz-Edgediensts <br/> |Webkonferenzmedien.  <br/> |
-|A/V/STUN. MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über UDP an Port 3478.  <br/> |
-|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |**Private IP mithilfe von NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
+|Xmpp  <br/> Nicht unterstützt in Skype for Businesss Server 2019 |TCP  <br/> |5269  <br/> |Beliebig  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit dem Zugriffs-Edgedienst)  <br/> |Der XMPP-Proxydienst akzeptiert Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbunden.  <br/> |
+|Xmpp  <br/>Nicht unterstützt in Skype for Businesss Server 2019 |TCP  <br/> |5269  <br/> |XMPP-Proxydienst (teilt eine IP-Adresse mit dem Zugriffs-Edgedienst)  <br/> |Beliebig  <br/> |Der XMPP-Proxydienst sendet Datenverkehr von XMPP-Kontakten in definierten XMPP-Verbunden.  <br/> |
+|Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Client-zu-Server-SIP-Datenverkehr für externen Benutzerzugriff.  <br/> |
+|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Für Verbund- und Verbindungen mit öffentlichen Chatdiensten mit SIP.  <br/> |
+|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**Private IP mit NAT:** Edgeserver-Zugriffs-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-Zugriffs-Edgediensts <br/> |Beliebig  <br/> |Für Verbund- und Verbindungen mit öffentlichen Chatdiensten mit SIP.  <br/> |
+|Webkonferenzen/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-Webkonferenz-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgediensts für Edgekonferenzen <br/> |Webkonferenzmedien.  <br/> |
+|A/V/STUN. MSTURN  <br/> |Udp  <br/> |3478  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über UDP an Port 3478.  <br/> |
+|A/V/STUN. MSTURN  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |**Private IP mit NAT:** Edgeserver-A/V-Edgedienst <br/> **Öffentliche IP:** Öffentliche IP-Adresse des Edgeserver-A/V-Edgediensts <br/> |STUN/TURN-Aushandlung von Kandidaten über TCP an Port 443.  <br/> |
    
-#### <a name="internal-interface-virtual-ips"></a>Interne Schnittstelle Virtuelle IPs
+#### <a name="internal-interface-virtual-ips"></a>Virtuelle IPs für interne Schnittstellen
 
-Unsere Anleitung hier wird etwas anders sein. In einer #A0 wird nun empfohlen, nur unter folgenden Umständen über eine interne VIP zu routingn:
+Unsere Anleitung hier wird ein wenig anders sein. Tatsächlich wird in einer HLB-Situation jetzt empfohlen, dass Sie nur unter den folgenden Umständen eine interne VIP durchlaufen:
   
 - Wenn Sie Exchange 2007 oder Exchange 2010 Unified Messaging (UM) verwenden.
     
-- Wenn Sie über Legacyclients verfügen, die edge verwenden.
+- Wenn Sie Legacyclients verwenden, die Edge verwenden.
     
-Die folgende Tabelle enthält Anleitungen für diese Szenarien. Andernfalls sollten Sie jedoch vom zentralen Verwaltungsspeicher (Central Management Store, CMS) abhängig sein, um Datenverkehr an den einzelnen Edgeserver weiter zu routen, der ihm bekannt ist (dies erfordert natürlich, dass CMS in Edgeserverinformationen auf dem neuesten Stand gehalten wird).
+In der folgenden Tabelle finden Sie Anleitungen für diese Szenarien. Andernfalls sollten Sie sich auf den zentralen Verwaltungsspeicher (CMS) verlassen können, um Datenverkehr an den jeweiligen Edgeserver weiterzuleiten, den er kennt (dies erfordert, dass CMS natürlich über Edgeserverinformationen auf dem neuesten Stand ist).
   
 |**Protocol**|**TCP oder UDP**|**Port**|**Quell-IP-Adresse**|**Ziel-IP-Adresse**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Any:  <br/> • Director  <br/> • VIP-Adresse des Directorpools  <br/> • Front-End-Server  <br/> • Front-End-Pool-VIP-Adresse  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender SIP-Datenverkehr von Ihrer Director-, Directorpool-VIP-Adresse, Front-End-Server- oder Front-End-Pool-VIP-Adresse zu Ihrer internen Edgeserverschnittstelle.  <br/> |
-|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interne VIP-Schnittstelle des Edgeservers  <br/> |Any:  <br/> • Director  <br/> • VIP-Adresse des Directorpools  <br/> • Front-End-Server  <br/> • Front-End-Pool-VIP-Adresse  <br/> |Eingehender SIP-Datenverkehr an Ihren Director, Die VIP-Adresse des Directorpools, den Front-End-Server oder die FRONT-End-Pool-VIP-Adresse von Ihrer internen Edgeserverschnittstelle.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Any:  <br/> • Front-End-Server-IP-Adresse  <br/> • Front-End-Pool-IP-Adresse  <br/> • Jede Survivable Branch Appliance, die diesen Edgeserver verwendet  <br/> • Jeder Survivable Branch Server, der diesen Edgeserver verwendet  <br/> |Interne Edgeserverschnittstelle  <br/> |Authentifizierung von A/V-Benutzern von Ihrem Front-End-Server oder Front-End-Pool oder Ihrer Survivable Branch Appliance oder Survivable Branch Server mithilfe Ihres Edgeservers.  <br/> |
-|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any  <br/> |Interne Edgeserverschnittstelle  <br/> |Bevorzugter Pfad für die A/V-Medienübertragung zwischen ihren internen und externen Benutzern.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Any  <br/> |Interne VIP-Schnittstelle des Edgeservers  <br/> |Fallbackpfad für die A/V-Medienübertragung zwischen ihren internen und externen Benutzern, wenn die UDP-Kommunikation nicht funktioniert. TCP wird dann für Dateiübertragungen und Desktopfreigaben verwendet.  <br/> |
+|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |jegliche:  <br/> • Director  <br/> • VIP-Adresse des Directorpools  <br/> • Front-End-Server  <br/> • VIP-Adresse des Front-End-Pools  <br/> |Interne Edgeserverschnittstelle  <br/> |Ausgehender SIP-Datenverkehr von Ihrem Director, ihrer Director-Pool-VIP-Adresse, dem Front-End-Server oder der VIP-Adresse des Front-End-Pools zu Ihrer internen Edgeserverschnittstelle.  <br/> |
+|Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interne VIP-Schnittstelle des Edgeservers  <br/> |jegliche:  <br/> • Director  <br/> • VIP-Adresse des Directorpools  <br/> • Front-End-Server  <br/> • VIP-Adresse des Front-End-Pools  <br/> |Eingehender SIP-Datenverkehr an Ihren Director, die VIP-Adresse des Directorpools, den Front-End-Server oder die VIP-Adresse des Front-End-Pools von Ihrer internen Edgeserverschnittstelle aus.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |jegliche:  <br/> • IP-Adresse des Front-End-Servers  <br/> • IP-Adresse des Front-End-Pools  <br/> • Jede Survivable Branch Appliance, die diesen Edgeserver verwendet  <br/> • Jeder Survivable Branch-Server, der diesen Edgeserver verwendet  <br/> |Interne Edgeserverschnittstelle  <br/> |Authentifizierung von A/V-Benutzern über Ihren Front-End-Server oder Front-End-Pool oder Ihre Survivable Branch Appliance oder den Survivable Branch-Server unter Verwendung Ihres Edgeservers.  <br/> |
+|STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |Beliebig  <br/> |Interne Edgeserverschnittstelle  <br/> |Bevorzugter Pfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Beliebig  <br/> |Interne VIP-Schnittstelle des Edgeservers  <br/> |Fallbackpfad für die A/V-Medienübertragung zwischen Ihren internen und externen Benutzern, wenn die UDP-Kommunikation nicht funktioniert. TCP wird dann für Dateiübertragungen und die Desktopfreigabe verwendet.  <br/> |

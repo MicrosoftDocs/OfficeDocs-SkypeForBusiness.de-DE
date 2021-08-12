@@ -1,5 +1,5 @@
 ---
-title: Teams für Bildungseinrichtungen
+title: Teams-Geräte für Education
 author: amandafrechinjackson
 ms.author: v-amandaf
 manager: jsarrasin
@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Beschreibt die potenziellen Verwendungsmöglichkeiten und Vorteile Teams-Räume und Geräten an verschiedenen Stellen und Setups für Lehrkräfte.
+description: Beschreibt die potenziellen Verwendungsmöglichkeiten und Vorteile von Teams-Räume Systemen und Geräten in verschiedenen Bereichen und Setups für Lehrkräfte.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,193 +20,193 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c113bc0f4fc73b88cd1bbe60a4fdff63ded7cc
+ms.openlocfilehash: 429e772d50fb1f56a557a2987796b69f23338dad423f83a5f5e4471009f17864
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53775158"
+ms.locfileid: "54327420"
 ---
-# <a name="teams-devices-for-education"></a>Teams für Bildungseinrichtungen
+# <a name="teams-devices-for-education"></a>Teams-Geräte für Education
 
 ## <a name="overview"></a>Übersicht
 
-### <a name="hybrid-and-blended-education-is-here-to-stay"></a>Hybride und gemischte Bildungseinrichtungen bleiben
+### <a name="hybrid-and-blended-education-is-here-to-stay"></a>Hybride und mischte Bildungseinrichtungen sind hier, um zu bleiben
 
-Learning werden hybrid und kombiniert. Lehrkräfte und Schüler/Studenten benötigen eine flüssige Erfahrung, die über ein zusammenhängendes Leerzeichen hinweg realisiert wird, motiviert durch das Bedürfnis nach Flexibilität, wenn es darum geht, wie und wo Lernen stattfindet. Education ist nicht auf einen physischen Kursraum oder streng virtuelle Umgebungen beschränkt. Remoteteilnahme ist genauso dynamisch wie das Lernen in der Person. Die Flexibilität, die hybride und kombinierte Lernangebote bieten, ist zwar nicht für alle neu, für viele jedoch neu und hat weit reichende Auswirkungen. 
+Learning werden in Zukunft hybrid und gemischt sein. Lehrkräfte und Schüler/Studenten benötigen eine dynamische Erfahrung, die in einem Kontinuum von Räumen umgesetzt wird, die durch die Notwendigkeit von Flexibilität bei der Art und Demort des Lernens gesteuert wird. Bildungseinrichtungen sind nicht auf physische Klassenzimmer oder rein virtuelle Umgebungen beschränkt. Die Remoteteilnahme ist genauso dynamisch wie das persönliche Lernen. Die Flexibilität, die Hybrid- und Mischlernen bietet, ist für viele zwar nicht neu, wird aber für viele neu sein und weit reichende Auswirkungen haben. 
 
-Das moderne, hybride Klassenzimmer ist randlos. Studierende und Lehrkräfte werden durch synchrones und asynchrones Lernen sowie durch interaktives, multi modales Engagement befähigt, das den Anforderungen jedes Schülers und Studenten in allen Fällen entspricht. Teams-Geräte wurden für die Unterstützung unterschiedlicher Bereiche entwickelt, sodass keine Stimme ungehört wird. 
+Der moderne, hybride Kursraum ist grenzenlos. Schüler/Studenten und Lehrkräfte werden durch synchrones und asynchrones Lernen sowie interaktives, modales Engagement unterstützt, das auf die Anforderungen jedes Schülers in jeder Situation zugeschnitten ist. Teams Geräte wurden so konzipiert, dass sie eine Reihe von Leerzeichen unterstützen, sodass keine Stimme ungehört wird. 
 
-### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>Studierende und Lehrkräfte excelieren gleichermaßen mit Microsoft Teams-Räume
+### <a name="student-and-educators-alike-excel-with-microsoft-teams-rooms"></a>Schüler/Studenten und Lehrkräfte zeichnen sich durch Microsoft Teams-Räume gleichermaßen aus.
 
--   Microsoft Teams-Räume sichere, schülerorientierte Lernprozesse ermöglichen – von der Integration in Klassenzimmer bis zu Konferenzräumen für eine zielgerichtete Zusammenarbeit und sogar Einzelräume, um bestimmte Anforderungen und Fragen der Schüler zu erfüllen.
+-   Microsoft Teams-Räume sicheres, schülerorientiertes Lernen ermöglichen, von der Integration in den Kursraum bis hin zu Breakout-Räumen für eine fokussiertere Zusammenarbeit und sogar Einzelunterricht, um bestimmte Anforderungen und Fragen der Schüler zu erfüllen.
 
--   Die Verwendung von persönlichen und gemeinsam genutzten Geräten in einer digitalen oder hybriden Lernumgebung hilft Schülern/Studierenden, Schlüsselfähigkeiten zu vermitteln und zu erwerben, die sie während ihres gesamten Lebens nutzen werden.
+-   Die Verwendung von persönlichen und freigegebenen Geräten in einer digitalen oder hybriden Lernumgebung hilft Schülern dabei, Kontakte zu machen und wichtige Fähigkeiten zu erwerben, die sie während ihres lebensbegleitenden Lebens nutzen werden.
 
--   Teams Funktionalität ist nicht auf den Unterricht beschränkt. Lehrkräfte und Administratoren können sich von ihrem Zuhause, dem Büro oder von überall aus, wo sie ihre Umgebung optimiert haben, problemlos mit anderen Lehrkräften und Mitarbeitern innerhalb derselben Schule oder innerhalb des gesamten Schulbezirks verbinden. Mit Teams können Sie von überall aus auf berufliche Entwicklung zugreifen.
+-   Teams Funktionalität ist nicht auf den Kursraum beschränkt. Lehrkräfte und Administratoren können sich von zu Hause, vom Büro oder von überall aus, wo sie ihre Umgebung optimiert haben, problemlos mit anderen Lehrkräften und Mitarbeitern innerhalb derselben Schule oder innerhalb des gesamten Schulbezirks verbinden. Mit Teams ist die professionelle Entwicklung von überall aus zugänglich.
 
-### <a name="bring-digital-flexibility-to-physical-spaces"></a>Digitale Flexibilität bei physischen Plätzen
+### <a name="bring-digital-flexibility-to-physical-spaces"></a>Digitale Flexibilität für physische Räume
 
-Um sicherzustellen, dass Schüler/Studierende und Lehrkräfte, die remote arbeiten, vollständig an gruppenzusammenarbeit und -besprechungen teilnehmen können, benötigen Bildungsarbeitsbereich Technologien, die dazu beitragen, die Trennung zwischen den alten, Personenmodellen und den neuen, Hybrid- und Remoteräumen zu überbrücken.
+Um sicherzustellen, dass Schüler/Studenten und Lehrkräfte, die remote arbeiten, vollständig an Gruppenzusammenarbeit und Besprechungen teilnehmen können, benötigen Bildungsarbeitsbereiche Technologie, um die Trennung zwischen den alten, persönlichen Modellen und den neuen Hybrid- und Remoteräumen zu überbrücken.
 
-![Zukünftiges Rendern von Remoteteilnehmern in einem physischen Raum ](media/devices1.png)
- *Diese Abbildung stellt zukünftige Technologien dar.*
+![Zukünftiges Technologierendering mit Remoteteilnehmern, die in einem physischen Raum angezeigt werden. ](media/devices1.png)
+ *Dieses Image steht für zukünftige Technologien.*
 
-## <a name="why-choose-a-native-teams-experience"></a>Warum sollten Sie eine systemeigene Teams auswählen?
+## <a name="why-choose-a-native-teams-experience"></a>Warum wählen Sie eine systemeigene Teams?
 
-Microsoft Teams zertifizierte Peripheriegeräte und Räume sind für den Zweck integrierte systemeigene Anruf- und Besprechungslösungen, die eine umfassende Teams-Besprechungserfahrung mit HD-Audio und Video auf Teams-zertifizierter Erst- und Drittanbieterhardware bieten.
+Microsoft Teams zertifizierten Peripheriegeräte und Räume sind zweckorientierte systemeigene Anruf- und Besprechungslösungen, die eine vollständige Teams Besprechungserfahrung mit hdrigen Audio- und Videofunktionen auf Teams zertifizierter Erst- und Drittanbieterhardware bereitstellen.
 
-Wenn wir von "speziell entwickelt und systemeigene Benutzer" sagen, bedeutet dies, dass die Benutzererfahrung speziell und durchdacht von Microsoft für den Benutzer Teams wurde.
+Wenn wir "speziell entwickelt und systemeigen" sagen, bedeutet dies, dass die Oberfläche speziell und sorgfältig von Microsoft für den Teams Benutzer entworfen wurde.
 
-Teams-Räume gehen über die Funktionen von Teams auf persönlichen Geräten hinaus, indem Sie einzigartige Funktionen im Raum bereitstellen, z. B. One-Touch Join, Inhaltskameras, um physische Whiteboards auf intelligente Weise in die Besprechung zu übertragen, und Näherungsfeatures wie die nahtlose Übertragung einer Teams-Besprechung von Ihrem persönlichen Gerät in den Raum.
+Teams-Räume gehen über Teams auf persönlichen Geräten hinaus, indem sie einzigartige Funktionen im Raum bereitstellen, z. B. one-touch join, Inhaltskameras, um physische Whiteboards intelligent in die Besprechung zu teilen, und Näherungsfunktionen wie die nahtlose Übertragung einer Teams Besprechung von Ihrem persönlichen Gerät in den Raum.
 
-Nicht systemeigene und selbst aufgebaute Systeme, die auf externen Diensten beruhen, oder eine Verbindung mit Ihrem eigenen Gerät, entsprechen niemals wirklich der Benutzerfreundlichkeit oder immersiven Qualität eines systemeigenen Teams Room.
+Nicht systemeigene und selbst erstellte Systeme, die auf externen Diensten oder einer Bring-Your-Own-Device-Verbindung basieren, entsprechen nie wirklich der Benutzerfreundlichkeit oder immersiven Qualität eines nativen Teams Room.
 
-**Für die Teams** 
+**Speziell für Teams** 
 
-Erweiterte Audio- und Videowiedergabe und Freigabe
+Erweiterte Audio- und Videofunktionen und Freigabe
 
-**Umfassendes Geräteportfolio für jeden Raum**
+**Umfangreiches Geräteportfolio für jeden Raum**
 
-Wählen Sie aus vollständig modularisierten oder integrierten Formfaktoren in allen Android- Windows Betriebssystemen aus.
+Wählen Sie aus vollständig modularisierten oder integrierten Formfaktoren für Android- oder Windows Betriebssysteme aus.
 
-**Neu beimierte Raumerfahrungen**
+**Neu gestaltete Raumerfahrungen**
 
-Teilnahme Teams reibungsfreien Besprechungen für die Teilnahme an inklusiven, gemeinsamen Besprechungen für Schüler/Studierende und Lehrkräfte gleichermaßen
+Nehmen Sie an Teams Besprechungen reibungslos teil, um an inklusiven, gemeinsamen Besprechungen für Schüler/Studenten und Lehrkräfte gleichermaßen teilzunehmen
 
-**Einfaches Verwaltet von einem Ort aus**
+**Einfache Verwaltung von einem Ort aus**
 
-Im Teams Admin Center können Sie Geräte vollständig verwalten und auf dem neuesten Stand halten und das proaktive Management von Microsoft rund um die Uhr Microsoft Teams-Räume Premium
+Vollständig verwalten und halten Sie Geräte auf dem neuesten Stand und bereit für Teams Admin Center und aktivieren Sie die proaktive 24x7-Verwaltung von Microsoft mit Microsoft Teams-Räume Premium
 
-## <a name="space-considerations"></a>Überlegungen zum Platz
+## <a name="space-considerations"></a>Überlegungen zum Raum
 
 ### <a name="what-is-the-role-of-the-space"></a>Welche Rolle spielt der Raum?
 
-Physische Räume sind für die Arten von Aktivitäten ausgelegt, die dort auftreten werden. Unterschiedliche Arten von Aktivitäten oder Verbindungen können unterschiedliche Besprechungsverhalten erleichtern. Ein Klassenzimmer sieht z. B. ein anderes Verhalten als das eines Sitzungsraums vor.
+Physische Bereiche sind so konzipiert, dass sie die Arten von Aktivitäten berücksichtigen, die dort stattfinden. Unterschiedliche Arten von Aktivitäten oder Verbindungen können unterschiedliche Besprechungsverhalten vereinfachen. In einem Kursraum wird beispielsweise ein anderes Verhalten als in einem Boardroom angezeigt.
 
-Möbel helfen Ihnen zu definieren, wie ein Raum verwendet werden soll. Möbel und Fertig stellen einen wichtigen Punkt für die effektive Wirkung eines Klassenzimmers oder Besprechungsraums zusammen.
+Mithilfe von Aufrändern kann definiert werden, wie ein Raum verwendet werden soll. Damit ein Kursraum oder besprechungsraum effektiv ist, ist es wichtig, dass sie fertig sind.
 
-Bei vorhandenen Räumen sollte die Technologie am vorhandenen Layout des Raum ausgerichtet sein. Wenn beispielsweise Tische und Stühle für Präsentationen und Anweisungen in Person eingerichtet sind, sollte die Technologie folgen. Mikrofone und Kameras müssen optimal im Raum positioniert werden und nicht einfach überall hinzugefügt werden, ohne zu berücksichtigen, wie der Raum genutzt wird. Remoteteilnehmer müssen das Präsentationsmaterial genauso deutlich sehen wie Teilnehmer vor Ihren Teilnehmern.
+Bei vorhandenen Räumen sollte die Technologie am vorhandenen Layout des Raums ausgerichtet werden. Wenn beispielsweise Tabellen und Verzeichnisse für Präsentationen und persönliche Anweisungen eingerichtet sind, sollte die Technologie folgen. Mikrofone und Kameras müssen optimal im Raum positioniert und nicht einfach überall hinzugefügt werden, wo sie passen, ohne die Nutzung des Raums zu berücksichtigen. Remoteteilnehmer müssen das Präsentationsmaterial genauso deutlich sehen wie die persönlichen Teilnehmer.
 
-Für neue Räume sollte die beabsichtigte Nutzung des Raum sowohl Möbel als auch technische Überlegungen anstellen. Wenn Sie z. B. einen Raum entwerfen, der für mehrere Zwecke vorgesehen ist (z. B. individuelle Arbeits- und Gruppeninteraktionen), sollte der Raum aus Gründen der maximalen Effizienz in zwei separate Zonen getrennt werden.
+Bei neuen Räumen sollte die beabsichtigte Verwendung des Raumes sowohl Diek- als auch Technologieaspekte berücksichtigen. Wenn Sie beispielsweise einen Raum entwerfen, der mehrere Zwecke erleichtern soll (z. B. individuelle Arbeits- und Gruppeninteraktion), sollte der Raum in zwei separate Zonen unterteilt werden, um maximale Effizienz zu erzielen.
 
-Das folgende Bildpaar veranschaulicht optimierte Teams-Setups in einem vorhandenen Kursraum (oben) und in einem neuen Mehrzweckraum (unten):
+Das folgende Bildpaar veranschaulicht optimierte Teams Setups in einem vorhandenen Kursraum (oben) und in einem neuen, mehrzweckigen Raum (unten):
 
-![Rendern mit Teams in einem vorhandenen Klassenzimmer](media/devices2.png) ![Rendern mit einer systemeigenen Teams in einem zweckvoll gestalteten Bereich.](media/devices3.png)
+![Rendern von Teams Geräten in einem vorhandenen Kursraum.](media/devices2.png) ![Rendern eines systemeigenen Teams Setups in einem absichtlich entworfenen Raum.](media/devices3.png)
 
-### <a name="what-is-the-function-of-the-space"></a>Was ist die Funktion des Leerzeichens?
+### <a name="what-is-the-function-of-the-space"></a>Welche Funktion hat der Raum?
 
-*Konzentrieren sich die Aktivitäten im Bereich auf die gemeinsame Zusammenarbeit?*
+*Konzentrieren sich die Aktivitäten im Raum auf die gemeinsame Gemeinsame Erstellung?*
 
-Kreativität erfordert ein Layout und eine Technologiebereitstellung, die auf die Zusammenarbeit der Benutzer ausgerichtet ist. Der richtige Platz ermöglicht die nahtlose Zusammenarbeit zwischen Benutzern und der Technologie und beseitigt Reibungsverluste für die neusten Benutzer. Teams-Geräte sind so konzipiert, dass sie so benutzerfreundlich sind, dass die Schüler/Studenten unabhängig navigieren können und Lehrkräfte sie steuern und von der ersten Verwendung aus anpassen können. 
+Kreativität erfordert ein Layout und eine Technologiebereitstellung, die auf die Zusammenarbeit von Benutzern ausgerichtet ist. Der richtige Platz erleichtert die nahtlose Arbeit zwischen Benutzern und der Technologie und beseitigt auch für die stärkste Benutzer reibungslose Arbeit. Teams Geräte sind so konzipiert, dass sie benutzerfreundlich genug sind, um schülernisch zu navigieren und Lehrkräften die Steuerung und Anpassung von der ersten Verwendung an zu ermöglichen. 
 
-*Wie sieht es mit Plätzen aus, in denen die Inhaltsfreigabe für Teilnehmer (persönlich) und Remoteteilnehmer an erster Stelle steht?*
+*Wie sieht es mit Bereichen aus, in denen die Inhaltsfreigabe sowohl für persönliche als auch für Remoteteilnehmer priorität hat?*
 
-Inhaltsfreigabe und Remotezusammenarbeit erfordern jeweils ein anderes physisches Layout und eine andere Technologieerfahrung. Der richtige Bereich erleichtert Diskussionen und erleichtert es allen, geteilte Inhalte anzuzeigen und zu überprüfen. Unabhängig davon, welchen Platz Sie ausstatten – von einem Flexbereich bis zu einem Vorlesungsraum – muss dieser Teams sein.
+Die Freigabe von Inhalten und die Remotezusammenarbeit erfordern jeweils ein anderes physisches Layout und eine andere Technologie. Der richtige Platz erleichtert die Diskussion und erleichtert es allen Benutzern, freigegebene Inhalte zu sehen und zu überprüfen. Unabhängig davon, welchen Platz Sie ausstatten, von einem ruhenden Flexbereich bis zu einem Hörraum, muss er Teams aktiviert sein.
 
 ## <a name="technology-considerations"></a>Überlegungen zur Technologie
 
-Die richtige Auswahl an Audio- und Videotechnologien hilft Benutzern, ihre Audio- Microsoft Teams zu nutzen.
+Die richtigen Optionen für Audio- und Videotechnologie helfen Benutzern, ihre Microsoft Teams Besprechungen optimal zu nutzen.
 
 *Audio*
 
-Audioaspekte sind wichtig, um sicherzustellen, dass Remoteteilnehmer und Teilnehmer im Raum klar gehört und verstanden werden. Die Mikrofon- und Lautsprecherabdeckung muss jede Spielfläche im Raum umfassen, ohne Lücken zu lassen.
+Audioaspekte sind wichtig, um sicherzustellen, dass Sowohl Remote- als auch In-Room-Teilnehmer deutlich gehört und verstanden werden können. Die Mikrofon- und Lautsprecherabdeckung muss jeden Platz im Raum enthalten, ohne Lücken zu hinterlassen.
 
 ### <a name="what-are-the-right-audio-devices-for-each-space"></a>Was sind die richtigen Audiogeräte für jeden Bereich?
 
-Wenn Sie das richtige Mikrofon und die richtigen Lautsprecher für jeden Bereich koppeln, erzielen Sie die bestmöglichen Ergebnisse, damit Sie deutlich und ohne Ablenkung gehört werden.
+Wenn Sie das richtige Mikrofon und die richtigen Lautsprecher für jeden Raum koppeln, erhalten Sie die bestmöglichen Ergebnisse, damit sie ohne Ablenkung deutlich gehört werden können.
 
--   An möglicherweise lauten Plätzen, z. B. in einem gemeinsamen Raum zu Hause oder auf Schreibtischen im Klassenzimmer, bieten Headsets die bestmögliche Erfahrung, indem sie den Ton nur auf die Besprechungsteilnehmer beschränken. Headsetmikrofone sind so konzipiert, dass nur die Besprechungssprache aufgenommen wird, und die Lautsprecher sind enthalten, sodass nur die Besprechungsteilnehmer hören können, was gerade passiert.
+-   In potenziell lauten Räumen, z. B. in einem gemeinsamen Raum in der Startseite oder in Schreibtischen in einem Klassenzimmer, bieten Headsets die bestmögliche Erfahrung, indem sie den Sound nur auf die Besprechungsteilnehmer beschränken. Headset-Mikrofone sind so konzipiert, dass nur die Besprechungssprache aufgenommen wird, und die Lautsprecher sind enthalten, sodass nur die Besprechungsteilnehmer hören können, was passiert.
 
--   Bei stärker privaten Einstellungen (z. B. die Geräteauswahl eines Kursteilnehmers) kann die Geräteauswahl erweitert werden, um beispielsweise persönliche Freisprechtelefone zu verwenden. Diese persönlichen Geräte ermöglichen die gleiche Qualität der Unterhaltungen wie auf Headsets, aber ohne die Einschränkung, das Gerät tragen zu müssen.
+-   In mehr privaten Einstellungen (z. B. im Fall eines Schülers) kann die Geräteauswahl erweitert werden, um Dinge wie persönliche Freisprechgeräte einzuschließen. Diese persönlichen Geräte ermöglichen die gleiche Unterhaltungsqualität wie bei Headsets, jedoch ohne einschränkung des Tragens des Geräts.
 
--   An freigegebenen Plätzen werden die Optionen erweitert, aber die gleichen Prinzipien bleiben erhalten: Besprechungsteilnehmer müssen gehört werden und andere deutlich hören.
+-   In freigegebenen Räumen erweitern sich die Optionen, aber es bleiben dieselben Prinzipien erhalten: Besprechungsteilnehmer müssen gehört werden und andere deutlich hören.
 
-    -   All-in-One-Audiogeräte sind einfach zu bereitstellende qualitativ hochwertige Optionen für kleinere Bereiche mit einer begrenzten Anzahl von Teilnehmern, die relativ nah am Audiogerät sitzen.
+    -   All-in-One-Audiogeräte sind einfach bereitzustellende, qualitativ hochwertige Optionen für kleinere Räume mit einer begrenzten Anzahl von Teilnehmern, die relativ nahe am Audiogerät platzieren.
 
-    -   In größeren Räumen sind die Mikrofone und Lautsprecher getrennt, um eine maximale Abdeckung für alle Teilnehmer im Raum sicherzustellen. Viele Lösungen für mittelgroße bis große Räume sind als Teil eines Kits verfügbar, für das keine Konfiguration, sondern nur eine physische Installation von Mikrofonen und Lautsprechern erforderlich ist.
+    -   In größeren Bereichen trennen sich die Mikrofone und Lautsprecher, um eine maximale Abdeckung aller Teilnehmer im Raum sicherzustellen. Viele Lösungen für mittelgroße bis große Räume sind als Teil eines Kits verfügbar, das keine Konfiguration erfordert, nur physische Installation von Mikrofonen und Lautsprechern.
 
-    -   Auf den größten und komplexesten Flächen sind Lösungen verfügbar, die die gemeinsame Verwendung einer Vielzahl von Mikrofon- und Lautsprechertypen ermöglichen. So können z. B. eine Sprechanlage und ein Publikumssprecher aus einer großen Sprechanlage aufgenommen werden, während gleichzeitig der Anruf für alle anruft. Diese Lösungen werden am besten erreicht, wenn sie von einem [Microsoft-Partner](https://cloudpartners.transform.microsoft.com/teams-mrpp) bereitgestellt werden, der über Fachwissen in der Entwicklung und Bereitstellung von eher technisch beteiligten Lösungen verfügt.
+    -   In den größten und komplexesten Bereichen stehen Lösungen zur Verfügung, die es ermöglichen, eine Vielzahl von Mikrofon- und Lautsprechertypen zusammen zu verwenden, z. B. die Aufnahme eines Publikums und einer Stimme des Publikums aus einem großen Raum, während gleichzeitig der Anruf für alle zugänglich ist. Diese Lösungen lassen sich am besten erzielen, wenn sie von einem [Microsoft-Partner](https://cloudpartners.transform.microsoft.com/teams-mrpp) bereitgestellt werden, der über Erfahrung im Entwurf und der Bereitstellung von technisch komplexeren Lösungen verfügt.
 
 *Video*
 
-Video ist genauso wichtig wie Audio. Das Erfassen physischer, nicht verbaler Kommunikation wie Gesichtsausdrücke oder Gesten ist genauso wichtig wie das Klassenzimmer oder die Besprechungsinhalte, um größtmögliches Engagement und maximales Verständnis zu gewährleisten. Räume müssen mit der entsprechenden Anzeigegröße ausgestattet sein, damit jeder die Besprechung richtig erleben kann, ganz gleich, ob im Raum oder remote. Räume müssen auch über die richtige Kameraabdeckung und das richtige Sichtfeld (Field of View, FOV) verfügen, um effektiv alle Teilnehmer an Besprechungen im Raum für die Remoteteilnehmer zu erfassen.
+Video ist genauso wichtig wie Audio. Die Erfassung physischer, nicht-verbaler Kommunikation wie Gesichtsausdrücke oder Gesten ist ebenso wichtig wie der Kursraum- oder Besprechungsinhalt, um maximales Engagement und Verständnis zu gewährleisten. Räume müssen mit der entsprechenden Anzeigegröße ausgestattet sein, damit jeder die Besprechung ordnungsgemäß erleben kann, egal ob im Raum oder remote. Räume müssen außerdem über die richtige Kameraabdeckung und das entsprechende Sichtfeld (FOV) verfügen, um alle Besprechungsteilnehmer im Raum für die Remotebesprechung effektiv erfassen zu können.
 
 ### <a name="what-are-the-right-cameras-for-each-space"></a>Was sind die richtigen Kameras für jeden Raum?
 
-Hochwertige Videos sind eine Notwendigkeit für moderne Teams Zusammenarbeit. Die Technologie für Kameras hat sich mit hochwertigen Kameras, die jetzt für alle Bereiche verfügbar sind, erheblich weiterentwickelt.
+Qualitativ hochwertige Videos sind eine Notwendigkeit für moderne Teams Zusammenarbeit. Die Technologie für Kameras wurde erheblich erweitert, mit qualitativ hochwertigen Kameras, die jetzt für alle Bereiche verfügbar sind.
 
--   In Geräten wie Laptops und Tablets enthaltene Kameras sind ein guter Ausgangspunkt für die Verwendung durch Personen, die an Videoanrufen teilnehmen. Für Benutzer, die ein reichhaltiges Videoerlebnis in einen persönlichen Bereich bringen möchten, stellen externe Kameras einen Schritt nach oben von eingebetteten Geräten dar und können in einer größeren Anzahl von Szenarien und Konfigurationen verwendet werden, um sicherzustellen, dass Anrufteilnehmer die bestmögliche Ansicht von sich selbst teilen. Diese Geräte lassen sich ganz einfach mit einfachen USB-Verbindungen installieren, die auf jedem PC zu finden sind.
+-   Die in Geräten wie Laptops und Tablets enthaltenen Kameras sind ein hervorragender Ausgangspunkt für die Verwendung durch Einzelpersonen, die an Videoanrufen teilnehmen. Für Benutzer, die eine umfassendere Videoerfahrung in einen persönlichen Raum bringen möchten, stellen externe Kameras einen Schritt weiter als eingebettete Geräte dar und können in einer größeren Anzahl von Szenarien und Konfigurationen verwendet werden, um sicherzustellen, dass Anrufer die beste Qualität der Ansicht von sich selbst teilen. Diese Geräte können problemlos mit einfachen USB-Verbindungen auf jedem PC installiert werden.
 
--   An freigegebenen Plätzen werden die Optionen und Features erweitert. Kleinere Räume können von Kameras abgedeckt sein, die in All-in-One-Audiogeräten enthalten sind, z. B. Soundleisten. Diese Kameras verfügen in der Regel über ein breites Sichtfeld und stellen sicher, dass sie alle Teilnehmer im Raum in einem einzigen Bild erfassen. Viele dieser Kameras verfügen auch über Funktionen wie die intelligente Rahmengestaltung des Bilds (sodass die Kamera nur die Besprechungskamera zeigt und keine leeren Stühle), um den Platzbedarf nachverfolgt und zu verstehen.
+-   In freigegebenen Bereichen werden die Optionen und Features erweitert. Kleinere Räume werden möglicherweise von Kameras abgedeckt, die in All-in-One-Audiogeräten enthalten sind, z. B. Soundleisten. Diese Kameras verfügen in der Regel über ein breites Sichtfeld und stellen sicher, dass sie jeden Teilnehmer im Raum in einem einzigen Bild erfassen. Viele dieser Kameras verfügen auch über Dinge wie die intelligente Rahmengestaltung des Bilds (sodass die Kamera nur die Personen in der Besprechung und keine leeren Besucher anzeigt), um die Raumnutzung nachzuverfolgen und zu verstehen.
 
--   In größeren Räumen bieten Kameras die Technologie, die zum Erfassen von Teilnehmern an unterschiedlichen Positionen in unterschiedlichen Entfernungen erforderlich ist. Diese Kameras können Gruppen erfassen oder sich auf bestimmte Personen konzentrieren und gleichzeitig visuelle Klarheit erhalten. Geräte, die nur aktive Lautsprecher nachverfolgen und unterstützen können, werden regelmäßig in größeren Bereichen verwendet, sodass viele Teilnehmer während einer Besprechung einzeln präsentiert werden können, während sie ihre Gedanken mitwirken.
+-   In größeren Räumen verfügen Kameras über die Technologie, die erforderlich ist, um Teilnehmer an einer Vielzahl von Orten in unterschiedlichen Entfernungen aufzunehmen. Diese Kameras können Gruppen erfassen oder sich auf bestimmte Personen konzentrieren, während die visuelle Übersichtlichkeit gewährleistet bleibt. Geräte, die nur aktive Lautsprecher nachverfolgen und featureieren können, werden regelmäßig in größeren Bereichen verwendet, sodass viele Teilnehmer während einer Besprechung einzeln vorgestellt werden können, wenn sie ihre Meinung beitragen.
 
-### <a name="how-do-you-interact-virtually-beyond-video-streams"></a>Wie interagieren Sie praktisch über Videostreams hinaus?
+### <a name="how-do-you-interact-virtually-beyond-video-streams"></a>Wie interagieren Sie über Videostreams hinaus?
 
-Teams Besprechungen gehen über Audio- und Videoanrufe für Teilnehmer hinaus. Es gibt eine Vielzahl von Möglichkeiten, Inhalte zu teilen und dynamisch damit zu interagieren.
+Teams Besprechungen gehen über Audio- und Videoanrufe für Teilnehmer hinaus. Es gibt eine Vielzahl von Möglichkeiten, Inhalte dynamisch zu teilen und mit ihnen zu interagieren.
 
-Ein häufiges Szenario ist das Teilen von Inhalten direkt über das Gerät eines Teilnehmers. Einzelne Benutzer können die gesamte Audio- und Visuelle Erfahrung aus einzelnen Anwendungen oder den gesamten Inhalt ihres Bildschirms direkt für die Besprechung freigeben, damit sie von jedem angezeigt werden können. Dies gilt für alle gemeinsam genutzten Bereiche mit installierten Geräten. Microsoft Teams-Räume haben auch die Möglichkeit, eine Kabel-Monitor-Verbindung zu verwenden, um Teilnehmern die Freigabe zu ermöglichen, auch wenn sie nicht an der Besprechung einzeln teilnehmen können.
+Ein häufiges Szenario ist die direkte Freigabe von Inhalten vom Gerät eines Teilnehmers. Einzelne Benutzer können die vollständige Audio- und Visuelle Erfahrung aus einzelnen Anwendungen oder den gesamten Inhalt ihres Bildschirms direkt für die Besprechung freigeben, damit jeder sie anzeigen kann. Dies gilt für alle gemeinsam genutzten Leerzeichen mit installierten Geräten. Microsoft Teams-Räume haben auch die Möglichkeit, eine kabelgebundene Monitorverbindung zu verwenden, um Teilnehmern die Freigabe zu ermöglichen, auch wenn sie nicht in der Lage sind, einzeln an der Besprechung teilzunehmen.
 
-Für Inhalte aus der physischen Welt können Räume mit Microsoft Teams Raumsystemen ein Whiteboard oder eine Dokumentkamera verarbeiten, die eine koordinierte Überprüfung und Diskussion von Inhalten aus dem Raum ermöglicht.
+Für Inhalte aus der physischen Welt können Räume mit Microsoft Teams Raumsystemen ein Whiteboard oder eine Dokumentkamera verarbeiten, die die koordinierte Überprüfung und Diskussion von Inhalten aus dem Raum ermöglicht.
 
-Für eine vollständige interaktive Erfahrung machen interaktive Anzeigen (z. B. die Surface Hub-Produktfamilie und das digitale Microsoft Whiteboard) das interaktive Erstellen von Inhalten für Personen, die persönlich oder remote sind, ganz einfach. 
+Interaktive Displays (z. B. die Surface Hub Produktfamilie und das digitale Whiteboard von Microsoft) erleichtern das interaktive Erstellen von Inhalten für persönliche Schüler/Studenten sowie für Remote-Schüler/Studenten. 
 
 ## <a name="example-spaces"></a>Beispiel für Leerzeichen
 
-### <a name="public-space"></a>Öffentlicher Bereich
+### <a name="public-space"></a>Öffentlicher Raum
 
-Ein öffentlicher Bereich, z. B. ein gemeinsamer Raum in einem Familienhaus oder ein Tisch in einer Bibliothek, bedeutet in der Regel, dass Benutzer mit Rauschen, dem Fehlen eines dauerhaften Arbeitsbereichs und anderen potenziellen Ablenkungen zu kämpfen haben.
+Ein öffentlicher Raum, z. B. ein gemeinsamer Raum in einem Familienhäuschen oder eine Tabelle in einer Bibliothek, bedeutet in der Regel, dass Benutzer mit Rauschen, einem Fehlen eines dauerhaften Arbeitsbereichs und anderen potenziellen Ablenkungen zu haderen müssen.
 
-![Bild eines Kursteilnehmers, der mit einem persönlichen PC und Headset arbeitet.](media/devices4.png)
+![Abbildung eines Schülers, der mit einem persönlichen PC und einem Headset arbeitet.](media/devices4.png)
 
 *Die gezeigte Lösung ist:*
 
-Ein PC-Gerät mit einem zertifizierten Teams Headset.
+Ein Pcgerät, das mit einem zertifizierten Teams Headset verwendet wird.
 
-*Warum dieses Layout und der Gerätetyp?*
+*Warum dieses Layout und dieser Gerätetyp?*
 
-Ein Laptop mit Teams stellt sicher, dass der Benutzer nicht auf einen einzigen Arbeitsbereich beschränkt ist und sein Setup verschieben kann, ohne sich bei Besprechungen an- und abmelden zu müssen. Ein Headset mit einem integrierten Mikrofon schränkt Audiodaten auf Besprechungsteilnehmer ein und filtert Hintergrundgeräusche. Die integrierte Kamera des Laptops stellt sicher, dass der Benutzer von allen Besprechungsteilnehmern gesehen werden kann.
+Ein Laptop, auf dem Teams ausgeführt wird, stellt sicher, dass der Benutzer nicht auf einen Arbeitsbereich beschränkt ist und seine Einrichtung verschieben kann, ohne sich bei Besprechungen anmelden und abmelden zu müssen. Ein Headset mit einem integrierten Mikrofon beschränkt die Audiodaten auf Besprechungsteilnehmer und filtert Hintergrundgeräusche. Die integrierte Kamera des Laptops stellt sicher, dass der Benutzer von allen Besprechungsteilnehmern gesehen werden kann.
 
 *Beispielgeräte:* 
 
 -   [HP Laptop – 14t-dq200](https://www.hp.com/shop/pdp/hp-laptop-14t-dq200-touch-optional-2d129av-1?jumpid=ma_intel-optane_product-tile_clamshell-laptops_1_2d129av-1_hp-laptop---14t-dq20)
 
--   Alternative Laptopoptionen:
+-   Alternative Laptopoptionen umfassen:
 
-    -   [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) – Größer für höhere Bildungseinrichtungen
+    -   [Microsoft Surface Laptop 4](https://www.microsoft.com/d/surface-laptop-4/946627FB12T1?OCID=AID2200083_SEM_6341646f18fa14c7e4d80565e0debe72%3aG%3as&ef_id=6341646f18fa14c7e4d80565e0debe72%3aG%3as&s_kwcid=AL!4249!10!79302431130415!79302713431201&msclkid=6341646f18fa14c7e4d80565e0debe72&activetab=pivot%3aoverviewtab) – Höher für das Bildungswesen
 
-    -   [Microsoft Surface Go Laptop](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) – Ideal für K-12
+    -   [Microsoft Surface Go Laptop](https://www.microsoft.com/d/surface-laptop-go/94FC0BDGQ7WV?OCID=AID2200083_SEM_215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&ef_id=215e2d5fa8281476bdd84c555fcf1fad%3aG%3as&s_kwcid=AL!4249!10!78890114459337!78890368468596&msclkid=215e2d5fa8281476bdd84c555fcf1fad&activetab=pivot%3aoverviewtab) – ideal für K-12
 
--   [TRUS Sennheiser Headset – Adapt 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
+-   [HEADSETS Sennheiser – Adapt 560](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/epos-sennheiser-adapt-560/467)
 
-*Zum Installieren oder Einrichten dieser Lösung gilt:*
+*Diese Lösung wird wie folgt installiert oder eingerichtet:*
 
-Sehr einfach. Dies können Endbenutzer komplett durch eine Kombination ihres PCs mit einem zertifizierten Headset für Audio- und Videoanrufe bekämmen. 
+Sehr einfach. Dies kann vollständig von Endbenutzern behandelt werden, indem sie einfach ihren PC mit einem zertifizierten Headset für Audio- und Videoanrufe kombinieren. 
 
-### <a name="personal-space"></a>Persönlicher Bereich
+### <a name="personal-space"></a>Persönlicher Raum
 
-Ein persönlicher Bereich kann alles sein , von der Person eines Kursteilnehmers bis zu einem Büro eines Dozenten. Persönliche Bereiche bedeuten im Allgemeinen, dass der Benutzer in seiner Arbeits- oder Lernumgebung Privatsphäre hat und einen dedizierten Arbeitsbereich besitzt.
+Ein persönlicher Raum kann alles sein, von der Entsprechung eines Schülers bis hin zum Büro eines Dozenten. Persönliche Räume bedeuten im Allgemeinen, dass der Benutzer Datenschutz in seiner Arbeits- oder Lernumgebung sowie einen dedizierten Arbeitsbereich hat.
 
 *Beispiel A:*
 
-![Rendern eines persönlichen PC-Setups mit einem persönlichen Lautsprecher und Teams auf dem Desktop ausgeführt werden.](media/devices5.png)
+![Rendern eines persönlichen PC-Setups mit einem persönlichen Lautsprecher und Teams auf dem Desktop ausgeführt.](media/devices5.png)
 
 *Die gezeigte Lösung ist:*
 
-Ein persönlicher PC mit einer hochwertigen USB-Kamera und einem separaten USB-Freisprecheinrichtung-Audiogerät.
+Ein persönlicher PC mit einer qualitativ hochwertigen USB-Kamera und einem separaten USB-Freisprechgerät.
 
-*Warum dieses Layout und der Gerätetyp?*
+*Warum dieses Layout und dieser Gerätetyp?*
 
-Ein kleinerer, stillerer, stärker fokussierter persönlicher Bereich bedeutet, dass der Benutzer nicht von öffentlichen, gemeinsam genutzten Räumen oder einem traditionellen Klassenzimmer abgelenkt wird. Ein PC mit Teams ermöglicht einen dedizierten Arbeitsbereich, und eine USB-Kamera stellt sicher, dass der Benutzer in hoher Qualität in der Besprechung zu sehen ist. Eine Freisprecheinrichtung ist am besten in privaten Räumen, in denen das Audiosignal von Besprechungen nicht mit anderen Geräuschen und Ablenkungen konkurrieren muss.
+Ein kleinerer, leiserer, fokussierterer persönlicher Raum bedeutet, dass der Benutzer nicht die Ablenkungen von öffentlichen freigegebenen Räumen oder einem herkömmlichen Klassenzimmer hat. Ein PC, auf dem Teams ausgeführt wird, ermöglicht einen dedizierten Arbeitsbereich, und eine USB-Kamera stellt sicher, dass der Benutzer in der Besprechung in hoher Qualität gesehen wird. Ein Freisprechgerät eignet sich am besten in privaten Räumen, in denen Besprechungsaudio nicht mit anderen Rauschen und Ablenkungen konkurrieren muss.
 
 *Angezeigte Geräte:*
 
 -   Persönlicher PC mit Windows 10 und externer Anzeige
 
--   [Yealink USB Webcam – UVC20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc20/854)
+-   [Yealink-USB-Webcam – UVC20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/yealink-uvc20/854)
 
--   [Poly Speakerphone – Sync 20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)
+-   [Poly Speakerphone – Synchronisierung 20](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825)
 
 *Beispiel B:*
 
@@ -216,114 +216,114 @@ Ein kleinerer, stillerer, stärker fokussierter persönlicher Bereich bedeutet, 
 
 Ein persönlicher PC mit einer All-in-One-Kamera, einem Mikrofon und einer Lautsprecher-Soundleiste.
 
-*Warum dieses Layout und der Gerätetyp?*
+*Warum dieses Layout und dieser Gerätetyp?*
 
-Diese Lösung dient demselben Zweck wie Beispiel A und betrifft einen fokussierten persönlichen Bereich. Ein PC mit Teams ermöglicht einen dedizierten Arbeitsbereich in Kombination mit einer USB-Kamera, einem Mikrofon und einer Lautsprecher-Soundleiste.
+Diese Lösung erfüllt denselben Zweck wie beispiel A und adressierte einen fokussierten persönlichen Raum. Ein PC mit Teams ermöglicht einen dedizierten Arbeitsbereich in Kombination mit einer Kombination aus USB-Kamera, Mikrofon und Lautsprecher-Soundleiste.
 
 *Angezeigte Geräte:*
 
 -   Persönlicher PC mit Windows 10 und externer Anzeige
 
--   [Poly Soundbar – Studio P15](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio-p15/821)
+-   [Poly-Soundleiste – Studio P15](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-studio-p15/821)
 
-*Zum Installieren oder Einrichten dieser Lösung gilt:*
+*Diese Lösung wird wie folgt installiert oder eingerichtet:*
 
-Sehr einfach. Dies können Endbenutzer komplett durch eine Kombination aus ihrem PC und zertifizierten USB-Peripheriegeräten absprechen. Kameras und persönliche Soundleisten können problemlos über dem Display bereitgestellt werden.
+Sehr einfach. Dies kann vollständig von Endbenutzern behandelt werden, indem ihr PC mit den zertifizierten USB-Peripheriegeräten kombiniert wird. Kameras und persönliche Soundleisten können problemlos über dem Display bereitgestellt werden.
 
 ### <a name="classrooms"></a>Klassenzimmer
 
-Kursräume, einschließlich herkömmlicher und umgekehrter Klassenzimmer, erfordern ein aktives Engagement von allen Anwesenden. Effektive Anweisung, Diskussion und Zusammenarbeit zwischen vielen Parteien ist entscheidend.
+Kursräume, einschließlich herkömmlicher und umgekehrter Kursräume, erfordern ein aktives Engagement von allen Anwesenden. Eine effektive Anweisung, Diskussion und Zusammenarbeit zwischen vielen Parteien ist entscheidend.
 
-![Rendern eines Klassenzimmers mit Teams Geräten.](media/devicesnew2.jpg)
-
-*Die gezeigte Lösung ist:*
-
-Ein Kursraum, der sowohl für Teilnehmer an einem einzelnen Kursraum als auch für Teilnehmer an Remote-Kursteilnehmern konzipiert ist, mit einem Layout, in dem eine einzige Lehrkraft gleichzeitig an beide Gruppen adressiert ist.
-
-*Warum dieses Layout und der Gerätetyp?*
-
-Eine große Anzeige bietet Remoteteilnehmern eine physische Anwesenheit im Raum zusammen mit Lautsprechern vor dem Raum, die es ihren Teilnehmern ermöglichen, von allen zu hören, auch von den am weitesten von der Quelle entfernten Schreibtischen. Die Mikrofone befinden sich an der Vorderseite des Raum, sodass Lehrer und Schüler/Studenten von allen gehört werden können. Ein herkömmliches Whiteboard für analogen Inhalt kann im Raumsystem erfasst und sowohl für Teilnehmer im Raum als auch für Remoteteilnehmer freigegeben werden. Das digitale Microsoft Whiteboard ist auch eine gute Lösung für die Zusammenarbeit zwischen Remote- und Personenschülern sowie für nach dem Kurs.
-
-*Angezeigte Geräte:*
-
--   Raumsystem – [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
-
-    -   Beachten Sie, dass Surface Hub eine Premium-Benutzererfahrung für Zusammenarbeit und interaktive Nutzung darstellt. In [Microsoft Teams Fall kann](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) eine Raumlösung in Kombination mit einer großen Anzeige als Alternative verwendet werden.
-
--   Analoge Whiteboard-Aufnahme – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
-
--   Kamera und Audio – [Logitech Logitech Plus Kit](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
-
--   Touch console for Room Control – [Logitech TAP](https://www.logitech.com/products/video-conferencing/room-solutions/tap.html?crid=1691)
-
-*Zum Installieren oder Einrichten dieser Lösung gilt:*
-
-Komplex. Dieser Raum verfügt über eine physische Installation, einschließlich Verkabelung, für die ein Kenntnis der AV-Bereitstellungspartner erforderlich ist, um die Kamera- und Audiolösungen ordnungsgemäß zu planen und zu implementieren, damit sie nahtlos für die Endbenutzer im Raum zusammenarbeiten. 
-
-### <a name="lecture-halls"></a>Vorlesungsraum
-
-Vorlesungsräume enthalten, ähnlich wie Klassenzimmer, zahlreiche Schüler/Studenten, die sich auf eine Lehrkraft konzentrieren müssen, sowie alle Informationen, die sie präsentieren. Vorlesungshallen erfordern jedoch in der Regel nicht das gleiche Interaktionsvolumen zwischen den Kursteilnehmern. Der Schwerpunkt liegt auf Informationen, nicht auf der Zusammenarbeit.
-
-![Rendern eines Vorlesungsraums mit Teams Geräten.](media/devices9.png)
+![Rendern eines Kursraums, der mit Teams Geräten ausgestattet ist.](media/devicesnew2.jpg)
 
 *Die gezeigte Lösung ist:*
 
-Ein Vorlesungsraum, der sowohl für die Teilnehmer einer Person als auch für Remoteteilnehmer ausgelegt ist und ein Layout für eine Lehrkraft enthält, die sich gleichzeitig an beide Gruppen adressiert, sowie das Erstellen und Kommentieren von Inhalten über eine Touchscreen-Oberfläche.
+Ein Kursraum, der sowohl für teilnehmerinterne als auch für remote Kursteilnehmer mit einem Layout konzipiert wurde, in dem ein einzelner Dozent gleichzeitig für beide Gruppen geeignet ist.
 
-*Warum dieses Layout und der Gerätetyp?*
+*Warum dieses Layout und dieser Gerätetyp?*
 
-Remoteteilnehmer können dasselbe Sichtfeld sehen, das Teilnehmer persönlich über die bereitgestellte Kamera haben. Die Teilnehmer können die Remote-Kursteilnehmer über ihre Kameras auf einem Bildschirm sehen. Ein dedizierter Präsentationsbildschirm und ein Touchscreen zum Whiteboarding zeigen die Lehrmaterialien des Materials für alle an. Mit Den Mikrofonen an der Obergrenze und leistungsstarken Lautsprechern können Sie dafür sorgen, dass das Mikrofon und alle Fragen der Schüler deutlich zu hören sind.
+Ein großes Display bietet Remoteteilnehmern eine physische Anwesenheit im Raum sowie Lautsprecher im Vordergrund, mit denen ihre Stimmen von allen gehört werden können, auch von den Teilnehmern, die sich am weitesten von der Quelle entfernt befinden. Mikrofone befinden sich vorne im Raum, sodass Lehrer und Schüler von allen gehört werden können. Ein herkömmliches Whiteboard für analoge Inhalte kann im Raumsystem erfasst und sowohl für Teilnehmer im Raum als auch für Remoteteilnehmer freigegeben werden. Die digitale Microsoft Whiteboard ist auch eine gute Lösung für die Zusammenarbeit zwischen Remote- und persönlichen Schülern sowie für Post-Class-Referenzen.
 
 *Angezeigte Geräte:*
 
--   Raumsystem – [Crestron Flex C100 Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit einem installierten Projektor und einer warenkorbbasierten Anzeige
+-   Raumsystem [– Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+
+    -   Beachten Sie, dass die Surface Hub Lösung ein Premium-Erlebnis für zusammenarbeiten und interaktive Nutzung darstellt. In diesem Szenario kann eine [Microsoft Teams Raumlösung](https://www.microsoft.com/microsoft-teams/across-devices/devices/category/teams-rooms/20?page=1&filterIds=) kombiniert mit einer großen Anzeige als Alternative verwendet werden.
+
+-   Analoge Whiteboardaufnahme – [Logitech Brio Content Camera Kit](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+
+-   Kamera und Audio – [Logitech-Kit "Unterlauf Plus"](https://www.logitech.com/products/video-conferencing/room-solutions/rally-ultra-hd-conferencecam.html)
+
+-   Touchkonsole für raumsteuerung – [Logitech TAP](https://www.logitech.com/products/video-conferencing/room-solutions/tap.html?crid=1691)
+
+*Diese Lösung wird wie folgt installiert oder eingerichtet:*
+
+Komplex. Dieser Raum verfügt über eine physische Installation, einschließlich Verkabelung, für die ein erfahrener AV-Bereitstellungspartner die Kamera- und Audiolösungen ordnungsgemäß planen und bereitstellen muss, damit sie nahtlos für die Endbenutzer im Raum funktionieren. 
+
+### <a name="lecture-halls"></a>Ringvorlesung
+
+Ähnlich wie in Kursräumen enthalten Die Kurse zahlreiche Schüler/ Studenten, die sich auf eine Lehrkraft und alle Informationen konzentrieren müssen, die sie präsentieren. Allerdings erfordern Die Dozenten in der Regel nicht das gleiche Maß an Interaktion zwischen den Schülern. Der Schwerpunkt liegt auf Informationen, nicht auf der Zusammenarbeit.
+
+![Rendering eines mit Teams Geräten ausgestatteten Hörraums.](media/devices9.png)
+
+*Die gezeigte Lösung ist:*
+
+Ein Hörraum, der sowohl für teilnehmerinterne als auch für remote Kursteilnehmer mit einem Layout konzipiert wurde, in dem ein einzelner Dozent, der beide Gruppen gleichzeitig adressiert, sowie Inhalte über eine Touchoberfläche erstellt und kommentiert.
+
+*Warum dieses Layout und dieser Gerätetyp?*
+
+Remoteteilnehmer können dasselbe Sichtfeld sehen, das auch persönliche Teilnehmer über die bereitgestellte Kamera haben. Die Schüler können die Remote-Schüler über ihre Kameras auf einem Bildschirm sehen. Ein dedizierter Präsentationsbildschirm und ein Touchscreen für Whiteboarding zeigen das Schulungsmaterial des Lehrkörpers für alle an. Mikrofone mit Deckenkacheln und leistungsstarke Lautsprecher stellen sicher, dass die Leser und alle Fragen der Schüler deutlich gehört werden.
+
+*Angezeigte Geräte:*
+
+-   Raumsystem [– Crestron Flex C100 für Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit installierten Und Wagenanzeigen
 
 -   Optionales digitales Whiteboard [– Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
--   Kamera – [AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
+-   Kamera [– AVer CAM520 Pro](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/aver-cam520-pro-standard/575)
 
--   Installiertes Audio [– QSC und Sennheiser für große Räume](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
+-   Installiertes Audio – [QSC und Sennheiser für große Räume](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
-*Zum Installieren oder Einrichten dieser Lösung gilt:*
+*Diese Lösung wird wie folgt installiert oder eingerichtet:*
 
-Hoch komplex. Dieser Raum verfügt über eine physische Installation, für die ein Kenntnis der AV-Bereitstellungspartner erforderlich ist, um die Kamera- und Audiolösungen ordnungsgemäß zu planen und zu implementieren, damit sie nahtlos für die Endbenutzer im Raum zusammenarbeiten. Die Installation erfordert Fachwissen in Bezug auf Verkabelung, Audiokonfiguration und richtige Konfiguration des Microsoft Teams Raumsystems und des zugehörigen Surface Hub 2-Geräts.
+Hoch komplex. Dieser Raum verfügt über eine physische Installation, bei der ein erfahrener AV-Bereitstellungspartner die Kamera- und Audiolösungen ordnungsgemäß planen und bereitstellen muss, damit sie nahtlos für die Endbenutzer im Raum funktionieren. Die Installation erfordert Kenntnisse im Zusammenhang mit Verkabelung, Audiokonfiguration und korrekter Konfiguration des Microsoft Teams Raumsystems und des zugehörigen Surface Hub 2-Geräts.
 
 ### <a name="multi-purpose-spaces"></a>Mehrzweckräume
 
-Teams kann in fast jedem Bildungsbereich oder mehrzweckigen Bereich implementiert werden, an den Sie sich denken können. Bibliotheken, Präsentations- und Zusammenarbeitsräume für gemischte Benutzer, Cafés und Freiräume können mit einem Teams oder einem Teams formatiert werden.
+Teams können in fast jedem Bildungs- oder Mehrzweckbereich implementiert werden, den Sie sich vorstellen können. Bibliotheken, gemischt genutzte Präsentations- und Zusammenarbeitsräume, Cafésplätze und Open-Air-Räume können mit einem Teams System oder Teams Geräten ausgestattet werden.
 
 ![Abbildung eines Mehrzweckbereichs mit Teams Geräten.](media/devices11.png)
 
-*Dies ist die gezeigte Lösung:*
+*Diese Lösung ist dargestellt:*
 
-Raumsystem mit einer großen projektorbasierten Front-of-Room-Anzeige, mehreren Touch-Konsolen für den Betrieb und mehreren Surface Hub 2-Geräten für eine Vielzahl von Einsatzmöglichkeiten.
+Ein Raumsystem mit einer großen, auf einem Projektor basierenden Front-of-Room-Anzeige, mehreren Touchkonsolen für den Betrieb und mehreren Surface Hub 2 Geräten für eine Vielzahl von Verwendungsmöglichkeiten.
 
 *Angezeigte Geräte:*
 
--   Raumsystem – [Crestron Flex C100 Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit installierten Projektor
+-   Room System – [Crestron Flex C100 für Teams](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) mit installierten Projektion
 
--   Optionale duale digitale Whiteboards – [Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
+-   Optionale duale digitale Whiteboards [– Microsoft Surface Hub 2S](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/microsoft-surface-hub-2s/822)
 
 -   Kamera – [Yealink UVC84](https://www.yealink.com/product/camera-uvc84)
 
--   Installiertes Audio [– QSC und Sennheiser für große Räume](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
+-   Installiertes Audio – [QSC und Sennheiser für große Räume](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/701)
 
-*Zum Installieren oder Einrichten dieser Lösung gilt:*
+*Diese Lösung wird wie folgt installiert oder eingerichtet:*
 
-Hoch komplex. Für einen mehrzweckbezogenen Bereich wie beschrieben ist ein kenntnisfähiger AV-Bereitstellungspartner erforderlich, um die projektorbasierte Anzeige sowie Kamera- und Audiolösungen ordnungsgemäß zu planen und zu implementieren sowie das Microsoft Teams Room-System und die zugehörigen Surface Hub 2-Geräte ordnungsgemäß zu konfigurieren, damit sie nahtlos für die Endbenutzer im Raum verwendet werden können.
+Hoch komplex. Ein mehrzweckiger Raum, wie beschrieben, erfordert, dass ein erfahrener AV-Bereitstellungspartner die auf einem Projektor basierenden Anzeige- und Kamera- und Audiolösungen ordnungsgemäß plant und bereitstellt sowie sowohl das Microsoft Teams Raumsystem als auch die zugehörigen Surface Hub 2 Geräte ordnungsgemäß konfiguriert, sodass sie nahtlos für die Endbenutzer im Raum funktionieren.
 
-## <a name="dont-forget-security"></a>Vergessen Sie nicht die Sicherheit
+## <a name="dont-forget-security"></a>Sicherheit nicht vergessen
 
-Es ist wichtig sicherzustellen, dass Ihre Lösungen vor Cyberbedrohungen sicher sind. Microsoft verwendet modernste KI und Automatisierung, um Daten und private Informationen bei der Verwendung eines Teams-Räume oder Geräts zu schützen. Der Schutz Ihrer Bildungseinrichtung beginnt mit Identitäts- und Zugriffsverwaltung (über Azure Active Directory) und Geräteverwaltung (über Intune/AutoPilot). 
+Es ist wichtig sicherzustellen, dass Ihre Lösungen vor Cyberbedrohungen geschützt sind. Microsoft verwendet moderne KI und Automatisierung, um Daten und private Informationen sicher zu halten, wenn ein Teams-Räume System oder Gerät verwendet wird. Der Schutz Ihrer Schule oder Bildungseinrichtung beginnt mit der Identitäts- und Zugriffsverwaltung (über die Azure Active Directory) und der Geräteverwaltung (über Intune/AutoPilot). 
 
 ## <a name="more-information"></a>Weitere Informationen
 
-Auf den folgenden Seiten finden Sie weitere Informationen zu Teams und Partnern:
+Sehen Sie sich die folgenden Seiten an, um mehr über Teams Geräte und Partner zu erfahren:
 
-[Microsoft Teams für Education](https://www.microsoft.com/education/products/teams) – Eine hervorragende Informationsquelle für die Verwendung von Microsoft Teams in Bildungseinrichtungen
+[Microsoft Teams für Education](https://www.microsoft.com/education/products/teams) – Eine hervorragende Informationsquelle für die Verwendung von Microsoft Teams im Bildungswesen
 
-[Zertifizierte Geräte für Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) – Eine umfassende Liste der geräte zertifizierten Microsoft Teams
+[Zertifizierte Geräte für Microsoft Teams](https://www.microsoft.com/microsoft-teams/across-devices/devices/product/poly-sync-20/825) – Eine umfassende Liste der für Microsoft Teams zertifizierten Geräte
 
-[Weitere Informationen zu Microsoft Teams-Räume](/rooms/) – Ein Leitfaden zum Thema Microsoft Teams-Räume Planung, Bereitstellung und Verwendung
+[Weitere Informationen zu Microsoft Teams-Räume](/rooms/) – Ein Leitfaden für Microsoft Teams-Räume zur Planung, Bereitstellung und Nutzung
 
-[Teams Besprechungsraum-Partnerprogramm](https://cloudpartners.transform.microsoft.com/teams-mrpp) – Eine Liste der weltweit verfügbaren Partner, die Ihnen bei der Planung und Bereitstellung Teams Raumsystemen helfen können
+[Teams Besprechungsraum-Partnerprogramm](https://cloudpartners.transform.microsoft.com/teams-mrpp) – Eine Liste weltweiter Partner, die Ihnen bei der Planung und Bereitstellung Teams Raumsystemen helfen können

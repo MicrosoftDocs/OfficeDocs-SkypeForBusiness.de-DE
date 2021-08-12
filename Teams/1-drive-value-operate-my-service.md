@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5684ad62107fa61af7c9f2f22c6f15b4bfe1da30
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 222d983a3fc67323ea3d7942c681a3c2ec3b41f00f597ead360869880881e83b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302119"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -120,7 +120,7 @@ In den folgenden Abschnitten werden die [](/office365/servicedescriptions/office
 > [!NOTE]
 > Nur Personen, denen die Rolle des **globalen Administrators** oder **Dienstadministrators zugewiesen** ist, können den Dienstzustand anzeigen.
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Überwachen mit dem Microsoft 365 Admin Center
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Überwachen mit Microsoft 365 Admin Center
 
 Das [Microsoft 365 Admin Center](https://portal.office.com/) stellt ein [Dienstinte](https://portal.office.com/adminportal/home#/servicehealth) health-Dashboard zur Verfügung, in dem Sie den aktuellen Status des Teams-Diensts zusätzlich zu abhängigen Diensten anzeigen können.
 
@@ -281,7 +281,7 @@ Zuerst sollten Sie genau bestimmen, ob es sich um eine Verbreitung oder ein tech
 
 ### <a name="references"></a>Referenzen 
 
-[Informationen zum Microsoft 365 Admin Center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Informationen zur Microsoft 365 Admin Center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
 [Aktivitätsberichte im Microsoft 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
@@ -464,7 +464,7 @@ Selbst wenn Sie die vorherigen Anleitungen befolgt haben, können benutzer in Ih
 
 [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 
-[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products)
+[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products)
 
 [Premier-Support kontaktieren](https://support.microsoft.com/premier/contacts)
 

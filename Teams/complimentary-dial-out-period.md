@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über den kostenlosen Zeitraum für Microsoft 365 oder Office 365 Anrufplan und Office 365 Audiokonferenzen in Microsoft Teams.
-ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347389"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -48,7 +48,7 @@ Für Kunden, die unseren Microsoft 365- oder Office 365-Audiokonferenzdienst üb
 
 Darüber hinaus gilt während des kostenlosen Wählzeitraums ein Grenzwert von 900 Minuten:
 
-Benutzer mit einem Lizenzverwendungsstandort (der Standort ist der Standort des Benutzers, der im Lizenzierungsbereich des Microsoft 365 Admin Centers definiert ist) _in_ einem beliebigen Land_, das aus einer Konferenz in jedes der 44 [Zone A-Länder](audio-conferencing-zones.md)und Regionen auswählt. Jeder Benutzer erhält 900 Minuten  pro Benutzer pro Monat in alle Länder und Regionen der [Zone A,](audio-conferencing-zones.md)die auf Mandantenebene gepoolt werden. Ein Kunde hat beispielsweise 115 Abonnementlizenzen für Audiokonferenzen erworben und hat 10 Benutzer in den USA, 100 Benutzer in Großbritannien und fünf Benutzer in Indien , die alle ihren Benutzern Lizenzen für Audiokonferenzen zugewiesen haben.
+Benutzer mit einem Lizenzverwendungsstandort (der Standort ist der Standort des Benutzers, der im Lizenzierungsbereich des Microsoft 365 Admin Center definiert ist) _in_ einem beliebigen Land _, können aus einer Konferenz in jedes der 44 Länder und Regionen der Zone [A](audio-conferencing-zones.md)wählen. Jeder Benutzer erhält 900 Minuten  pro Benutzer pro Monat in alle Länder und Regionen der [Zone A,](audio-conferencing-zones.md)die auf Mandantenebene gepoolt werden. Ein Kunde hat beispielsweise 115 Abonnementlizenzen für Audiokonferenzen erworben und hat 10 Benutzer in den USA, 100 Benutzer in Großbritannien und fünf Benutzer in Indien , die alle ihren Benutzern Lizenzen für Audiokonferenzen zugewiesen haben.
 
 - Alle 115 Benutzer nutzen einen Pool von (115 Benutzer x 900 Min.) = 103.500 Ausgehende Minuten für Einwahlkonferenzen pro Kalendermonat, die für ausgehende Anrufe in alle Länder und Regionen der Zone [A](audio-conferencing-zones.md)verwendet werden können.
 

@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
-description: Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um gewählte Telefonnummern in das E.164-Format zu übersetzen. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.
-ms.openlocfilehash: dda49bb8ae3a1ebce7eeb5b63877bd2cea323e86
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Normalisierungsregeln verwenden .NET Framework regulären Ausdrücken, um gewählte Telefonnummern in das E.164-Format zu übersetzen. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.
+ms.openlocfilehash: eaf8178b94d0d7817c14ec0632e6b051b6acf037bbe64680523fadd107698c16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820105"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291465"
 ---
 # <a name="select-normalization-rules"></a>Auswählen von Normalisierungsregeln
  
-Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um gewählte Telefonnummern in das E.164-Format zu übersetzen. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.
+Normalisierungsregeln verwenden .NET Framework regulären Ausdrücken, um gewählte Telefonnummern in das E.164-Format zu übersetzen. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.
   
 Klicken Sie auf eine Regel in der Liste und anschließend auf **OK**, um eine vorhandene Normalisierungsregel zu verwenden.
   

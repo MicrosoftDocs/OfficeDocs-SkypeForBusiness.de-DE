@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: In der Benutzeransicht werden Informationen über Benutzer gespeichert, die an Anrufen oder Sitzungen teilnehmen, welche über Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 03af849f9185d90d1c7888c1946b47ee2ef38db4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 200280f6a82a50490aee77177464b435e647a0a44852ca0db5b59c64bda836f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302249"
 ---
 # <a name="user-view"></a>Benutzeransicht
  
@@ -26,9 +26,9 @@ In der Benutzeransicht werden Informationen über Benutzer gespeichert, die an A
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|UserId  <br/> |int  <br/> |Eindeutige Zahl, die diesen Benutzer identifiziert.  <br/> |
+|UserId  <br/> |Ganzzahl  <br/> |Eindeutige Zahl, die diesen Benutzer identifiziert.  <br/> |
 |UserUri  <br/> |nvarchar(450)  <br/> |URI des Benutzers  <br/> |
-|TenantKey  <br/> |uniqueidentifier  <br/> |Mandant des Benutzers. Weitere Informationen [finden Sie in der Tabelle "Mandanten".](tenants.md) <br/> |
-|UriType  <br/> |nvarchar(256)  <br/> |Benutzer-URI-Typ. Weitere Informationen finden Sie in der [Tabelle "UriTypes".](uritypes.md) <br/> |
+|TenantKey  <br/> |Uniqueidentifier  <br/> |Mandant des Benutzers. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
+|UriType  <br/> |nvarchar(256)  <br/> |Benutzer-URI-Typ. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
    
 

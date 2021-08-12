@@ -1,5 +1,5 @@
 ---
-title: Rollentabelle
+title: Roles-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
-description: Bei der Tabelle "Rollen" handelt es sich um eine statische Tabelle, in der die Liste möglicher Konferenzrollen wie Teilnehmer und Presenter enthalten ist.
-ms.openlocfilehash: 6c5e28ccd2d186b0122d70f91621a3365e6d2b07
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die Roles-Tabelle ist eine statische Tabelle, in der die Liste möglicher Konferenzrollen gespeichert wird, z. B. Teilnehmer und Referenten.
+ms.openlocfilehash: 56582f5f90693f4156f050ff20558a2bac440b8f531f8ee0076b258755f0fa26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302269"
 ---
-# <a name="roles-table"></a>Rollentabelle
+# <a name="roles-table"></a>Roles-Tabelle
  
-Bei der Tabelle "Rollen" handelt es sich um eine statische Tabelle, in der die Liste möglicher Konferenzrollen wie Teilnehmer und Presenter enthalten ist.
+Die Roles-Tabelle ist eine statische Tabelle, in der die Liste möglicher Konferenzrollen gespeichert wird, z. B. Teilnehmer und Referenten.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**RoleId** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**Rolle** <br/> |nvarchar(256)  <br/> || Gültige Werte: <br/>  0 – Unbekannt <br/>  1 – Presenter <br/>  2 – Teilnehmer <br/> |
+|**RoleId** <br/> |Tinyint  <br/> |Primary  <br/> ||
+|**Rolle** <br/> |nvarchar(256)  <br/> || Gültige Werte: <br/>  0 – Unbekannt <br/>  1 – Referent <br/>  2 – Teilnehmer <br/> |
    
 

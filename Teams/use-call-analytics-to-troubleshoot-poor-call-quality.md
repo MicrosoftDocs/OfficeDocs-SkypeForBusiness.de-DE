@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Anrufanalysedetails pro Benutzer zu Geräten, Netzwerken und zur Konnektivität, um Benutzerprobleme mit Microsoft Teams und Besprechungen zu beheben.
-ms.openlocfilehash: 4732cf68624b824a452455fc779b22ae7eb32d56
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: c6c95bd5fca4a5c1da84e5eedcc150242d4757adc03d309db66bbcb9fbbe0cef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327371"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität
 
@@ -67,8 +67,8 @@ In der folgenden Tabelle ist aufgeführt, welche Informationen pro Benutzer für
 |---|---|---|---|
 |**Anrufe**|Name des Anrufers|Nur der Name des Benutzers, nach dem der Agent gesucht hat.|Benutzername|
 ||Name des Angerufenen|Wird als „Interner Benutzer" oder „Externer Benutzer" angezeigt.|Name des Angerufenen|
-||Telefonnummer des Anrufers|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823. \* \* \*|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823. \* \* \*|
-||Telefonnummer des Angerufenen|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823. \* \* \*|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823. \* \* \*|
+||Telefonnummer des Anrufers|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823 \* \* \* .|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823 \* \* \* .|
+||Telefonnummer des Angerufenen|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823 \* \* \* .|Die gesamte Telefonnummer bis auf die letzten drei Ziffern wird durch Sternchen verschleiert. Beispiel: 15552823 \* \* \* .|
 ||**Anrufdetails** \> **Registerkarte "Erweitert"**|Es werden keine Informationen angezeigt.|Es werden alle Details angezeigt, beispielsweise Gerätenamen, IP-Adresse, Subnetzzuordnung und mehr.|
 ||**Anrufdetails** \> **"Erweitert"** \> **Registerkarte Debuggen**|Es werden keine Informationen angezeigt.|Es werden alle Details angezeigt, beispielsweise DNS-Suffix und SSID.|
 |**Besprechungen**|Namen der Teilnehmer|Nur der Name des Benutzers, nach dem der Agent gesucht hat. Andere Teilnehmer werden als „Interner Benutzer" oder „Externer Benutzer" identifiziert.|Es werden alle Namen angezeigt.|

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc2d3a346f7b18b64950f2c2b52370ea7ecca8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b2d546465497a18791c0a3e31367622d09b8c6d16e81d5141cf5be338dd33ac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327491"
 ---
 # <a name="operate-your-service"></a>Betreiben des Diensts
 
@@ -117,22 +117,22 @@ In den folgenden Abschnitten werden die [](/office365/servicedescriptions/office
 | Überwachungstool | Vorteile | Verwendung |
 |---|---|---|
 | Microsoft 365 Admin Center | Von jedem Gerät mit einem unterstützten Browser aus verfügbar. | Verwenden Sie , wenn Sie keine Echtzeitbenachrichtigungen benötigen. |
-| Microsoft 365 Administrator-App | Stellt Pushbenachrichtigungen für Ihr mobiles Gerät zur | Verwenden Sie diese Benachrichtigung, wenn Sie unterwegs über Servicevorfälle benachrichtigt werden müssen. |
+| Microsoft 365 Admin-App | Stellt Pushbenachrichtigungen für Ihr mobiles Gerät zur | Verwenden Sie diese Benachrichtigung, wenn Sie unterwegs über Servicevorfälle benachrichtigt werden müssen. |
 | Microsoft System Center | Integration in Microsoft System Center. | Verwenden Sie , wenn Sie erweiterte Überwachungsfunktionen und Benachrichtigungsunterstützung benötigen. |
 | Microsoft 365 Dienstkommunikations-API | Programmgesteuerter Zugriff auf Microsoft 365 oder Office 365 Dienstinte health. | Verwenden Sie , wenn Sie die Integration mit einem Drittanbieter-Überwachungstool benötigen oder Eine eigene Lösung erstellen möchten. |
 
 > [!NOTE]
 > Nur Personen, denen die Rolle des **globalen Administrators** oder **Dienstadministrators zugewiesen** ist, können den Dienstzustand anzeigen.
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Überwachen mit dem Microsoft 365 Admin Center
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Überwachen mit Microsoft 365 Admin Center
 
 Das [Microsoft 365 Admin Center](https://portal.office.com/) stellt ein [Dienstinte](https://portal.office.com/adminportal/home#/servicehealth) health-Dashboard zur Verfügung, in dem Sie den aktuellen Status des Teams-Diensts zusätzlich zu abhängigen Diensten anzeigen können.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Überwachen mit der mobilen App
 
-Die Microsoft 365 Admin-App ist für Apple iOS, Android und Windows (PC und mobile Geräte) verfügbar. Die App stellt Administratoren Informationen zum Dienstzustand und anstehenden Änderungen zur Verfügung. Die App unterstützt Pushbenachrichtigungen, mit deren Unterstützung Sie fast sofort benachrichtigt werden können, nachdem eine Empfehlung veröffentlicht wurde. Dies hilft Ihnen, den Status, den Status und alle anstehenden Änderungen am Dienst auf dem Laufenden zu halten. Die Benachrichtigungsunterstützung macht sie zum empfohlenen Überwachungstool für Administratoren. Weitere Informationen finden Sie unter:
+Die Microsoft 365 Admin app ist für Apple iOS, Android und Windows (PC und mobile Geräte) verfügbar. Die App stellt Administratoren Informationen zum Dienstzustand und anstehenden Änderungen zur Verfügung. Die App unterstützt Pushbenachrichtigungen, mit deren Unterstützung Sie fast sofort benachrichtigt werden können, nachdem eine Empfehlung veröffentlicht wurde. Dies hilft Ihnen, den Status, den Status und alle anstehenden Änderungen am Dienst auf dem Laufenden zu halten. Die Benachrichtigungsunterstützung macht sie zum empfohlenen Überwachungstool für Administratoren. Weitere Informationen finden Sie unter:
 
-[Microsoft 365 Mobile Administrator-App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Microsoft 365 Admin Mobile App](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
 [Herunterladen der Microsoft 365 Admin Mobile-App](https://products.office.com/business/manage-office-365-admin-app)
 
@@ -286,7 +286,7 @@ Zuerst sollten Sie genau bestimmen, ob es sich um eine Verbreitung oder ein tech
 
 ### <a name="references"></a>Referenzen
 
-[Informationen zum Microsoft 365 Admin Center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Informationen zur Microsoft 365 Admin Center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
 [Aktivitätsberichte im Microsoft 365 Admin Center](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
@@ -463,7 +463,7 @@ Selbst wenn Sie die vorherigen Anleitungen befolgt haben, können benutzer in Ih
 
 [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 
-[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Premier-Support kontaktieren](https://support.microsoft.com/premier/contacts)
 

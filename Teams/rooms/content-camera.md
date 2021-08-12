@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Verwenden Sie eine Inhaltskamera in einem Microsoft Teams, die mit Bildverarbeitungssoftware interagiert, damit Präsentierende auf einem analogen Whiteboard zeichnen können.
-ms.openlocfilehash: ced0a65c0c1fab25bd1b244aea7301d654c44a9e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 36c37872fa705876921b9278e51a2434ebb4aa0e76ed93f45199ccb5760798bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316951"
 ---
 # <a name="content-cameras"></a>Inhalts-Kameras
 
