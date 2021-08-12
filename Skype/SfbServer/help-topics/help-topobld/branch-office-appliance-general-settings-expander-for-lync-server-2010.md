@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
-description: 'Um Eigenschaften für survivable Branch Appliance oder Survivable Branch Server zu bearbeiten, konfigurieren Sie unter "Allgemein" die:'
-ms.openlocfilehash: 72bbd89ffd20108cc6b4bcf0786fec7130eea382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Um Eigenschaften für Survivable Branch Appliance oder Survivable Branch Server zu bearbeiten, konfigurieren Sie unter "Allgemein" Folgendes:'
+ms.openlocfilehash: 178e7acd1a5e8b34bc4d3b01a10be369834636e6a67c6a2145f650e2211cadca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833215"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313323"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für die Filialanwendung für Lync Server 2010 – Erweiterung
  
-Zum Bearbeiten von Eigenschaften für survivable Branch Appliance oder Survivable Branch Server konfigurieren Sie unter **"Allgemein"** die:
+Zum Bearbeiten von Eigenschaften für Survivable Branch Appliance oder Survivable Branch Server konfigurieren Sie unter **"Allgemein"** Folgendes:
   
-- **FQDN:** Geben Sie den vollqualifizierten Domänennamen der Survivable Branch Appliance oder des Survivable Branch Servers ein.
+- **FQDN:** Sie geben den vollqualifizierten Domänennamen der Survivable Branch Appliance oder des Survivable Branch Servers ein.
     
-    **Verwenden Sie für alle konfigurierten IP-Adressen** die IP-Adressen, die in der Survivable Branch Appliance oder dem Survivable Branch Server für alle Zwecke konfiguriert sind.
+    **Verwenden Sie alle konfigurierten IP-Adressen,** die für alle Zwecke die auf der Survivable Branch Appliance oder dem Survivable Branch Server konfigurierten IP-Adressen verwenden.
     
     **Dienstnutzung auf die ausgewählten IP-Adressen beschränken**: Konfigurieren Sie die unterschiedlichen Adressen, mit denen der Server und die IP-Adresse für PSTN definiert werden.
     
@@ -38,15 +38,15 @@ Zum Bearbeiten von Eigenschaften für survivable Branch Appliance oder Survivabl
     
 - Sie konfigurieren **Zuordnungen,** um sicherzustellen, dass andere Serverrollen konfiguriert und der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet sind.
     
-    **Archivierungsserver zuordnen** Wählen Sie in der Liste den Archivierungsserver aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
+    **Zuordnen des Archivierungsservers** Wählen Sie in der Liste den Archivierungsserver aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     
-    Klicken **Sie auf "Neu",** wenn Sie den Archivierungsserver, den Sie dieser Survivable Branch Appliance oder diesem Survivable Branch Server zuordnen möchten, nicht erstellt haben.
+    Klicken Sie auf **Neu,** wenn Sie den Archivierungsserver, den Sie dieser Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten, nicht erstellt haben.
     
-    **Monitoring Server zuordnen** Wählen Sie in der Liste den Monitoring Server aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
+    **Zuordnen des Monitoring Servers** Wählen Sie in der Liste den Monitoring Server aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     
-    Klicken **Sie auf "Neu",** wenn Sie den Monitoring Server, den Sie dieser Survivable Branch Appliance oder diesem Survivable Branch Server zuordnen möchten, nicht erstellt haben.
+    Klicken Sie auf **"Neu",** wenn Sie den Überwachungsserver nicht erstellt haben, den Sie dieser Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     
-    **Edgepool zuordnen (für Medienkomponenten)** Wählen Sie in der Liste den Edgeserver oder Edgepool aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
+    **Zuordnen eines Edgepools (für Medienkomponenten)** Wählen Sie in der Liste den Edgeserver oder Edgepool aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   

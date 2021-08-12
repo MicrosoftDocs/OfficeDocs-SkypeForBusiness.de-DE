@@ -14,24 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
-description: Klicken Sie mit der rechten Maustaste auf Office Web Apps Server, und wählen Sie Neuer Office Web Apps Server aus, um den Assistenten zu öffnen.
-ms.openlocfilehash: dc58a6e203362f5811ecb60b2b8bc981b70c9ba3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie "New Office Web Apps Server" aus, um den Assistenten zu öffnen.
+ms.openlocfilehash: 100ad2bfb8e7530659e5c74db01de2a14d6108891eb33b3d6966b9792f36309f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334357"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps-Server – Bereichsknoten
 
-Klicken Sie mit der rechten **Maustaste auf Office Web Apps Server,** und wählen Sie Neuer Office Web Apps **Server** aus, um den Assistenten zu öffnen.
+Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server,** und wählen Sie **"New Office Web Apps Server" aus,** um den Assistenten zu öffnen.
 
-![OfficeWebApps-Server-Bereichsknoten](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![OfficeWebApps-Server – Bereichsknoten](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
-- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten aus früheren Versionen zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Sie können diese Option verwenden, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren, Komponenten aus früheren Versionen zusammenzuführen oder die Bereitstellung zu entfernen.
 
-- **Hilfe**. Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.
+- **Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Konfigurieren der Integration in Office Web Apps Server](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)
+[Konfigurieren der Integration mit Office Web Apps Server](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

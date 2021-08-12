@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Nach Abschluss der Veröffentlichung der Topologie wird die Seite Veröffentlichungs-Assistent abgeschlossen angezeigt.
-ms.openlocfilehash: 318eec747fd812bc411a9d900e917bce0fc4a7d4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e5b48d10af7464b1098e74ef4f4e2469b735ab03924851416024e26ae63473ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313263"
 ---
 # <a name="publish-topology-next-step"></a>Veröffentlichen der Topologie – Nächster Schritt
 
@@ -31,7 +31,7 @@ Beim Fertigstellen der Schritte während der Topologieveröffentlichung werden P
 > [!NOTE]
 > Nicht zu allen Schritten im Topologieveröffentlichungsprozess sind Protokolldateien vorhanden. Wenn Sie einen Schritt auswählen und **Protokolle anzeigen** verfügbar ist, wurde zu diesem Schritt eine Protokolldatei erstellt. Wenn die Schaltfläche **Protokolle anzeigen** nicht verfügbar (abgeblendet) ist, wurde für diesen Schritt keine Protokolldatei erstellt.
 
-Klicken Sie auf den Link Klicken Sie hier, um die **To-Do-Liste** zu öffnen, um die nächsten Schritte zum Abschließen Ihrer Topologie zu überprüfen. Die Textdatei, die durch Klicken auf diesen Link geöffnet wird, gibt die Server an, auf denen Sie das lokale Setup ausführen müssen, sowie alle zusätzlichen Schritte, die Sie zum Abschließen der Bereitstellung ausführen müssen. Informationen zu den aufgeführten Aufgaben finden Sie im entsprechenden Abschnitt in der Bereitstellungsdokumentation. Weitere Informationen finden Sie unter [Deploying Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-lync-server), und verweisen Sie auf den zugehörigen Abschnitt für jede Serverrolle, die in der Aufgabenliste aufgeführt ist.
+Klicken Sie zum Überprüfen der zum Vervollständigen der Topologie vorgeschlagenen nächsten Schritte auf den Link **Klicken Sie hier, um die Aufgabenliste zu öffnen**. Die Textdatei, die durch Klicken auf diesen Link geöffnet wird, enthält die Server, auf denen das lokale Setup ausgeführt werden muss, sowie weitere Schritte, die zum Vervollständigen der Bereitstellung ausgeführt werden müssen. Lesen Sie zu den einzelnen aufgelisteten Aufgaben den entsprechenden Abschnitt in der Bereitstellungsdokumentation. Einzelheiten finden Sie unter [Deploying Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-lync-server). Lesen Sie den entsprechenden Abschnitt zu jeder in der Aufgabenliste angegebenen Serverrolle.
 
 Klicken Sie auf **Fertig stellen**.
 

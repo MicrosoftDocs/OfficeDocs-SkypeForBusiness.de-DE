@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Peru.
-ms.openlocfilehash: 32ab54fed54ec1aefa3ee688676d52e0710ed871
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f681741b27030496fd33502432f31584ebe978a5aea39d5c0f634aa08c14585
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334736"
 ---
 # <a name="availability-in-peru"></a>Verfügbarkeit in Peru
 

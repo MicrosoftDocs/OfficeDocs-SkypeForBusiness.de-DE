@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten Microsoft Teams Anrufqualitäts-Dashboards (CQD).
-ms.openlocfilehash: ad718df893b69b333dd63d224663238879fda8c7
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: b6d2782418b2cba1c7268fdadad7c577a4730c18ddfb84903d13535185c2dd7b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334846"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Häufig gestellte Fragen (FAQ) zum Anrufqualitätsdashboard (CQD)
 

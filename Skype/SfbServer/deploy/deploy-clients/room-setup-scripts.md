@@ -1,5 +1,5 @@
 ---
-title: Skype Room System Room -Setupskripts
+title: Skype Raumsystem-Setupskripts
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: In diesem Thema finden Sie Beispielskripts für die Bereitstellung von Skype Room System-Konten.
-ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: In diesem Thema finden Sie Beispielskripts für die Bereitstellung Skype Room System-Konten.
+ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569367"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294932"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype Room System Room -Setupskripts
+# <a name="skype-room-system-room-setup-scripts"></a>Skype Raumsystem-Setupskripts
  
-In diesem Thema finden Sie Beispielskripts für die Bereitstellung von Skype Room System-Konten.
+In diesem Thema finden Sie Beispielskripts für die Bereitstellung Skype Room System-Konten.
   
-In diesem Abschnitt werden Beispielskripts veranschaulicht, die zum Bereitstellen von Skype Room System-Konten verwendet werden können. Diese Skripts dienen nur zur Veranschaulichung. Sie sollten nur nach Rücksprache mit Ihrem IT-Experten oder Domänenadministrator verwendet werden.
+In diesem Abschnitt werden Beispielskripts veranschaulicht, die zum Bereitstellen Skype Raumsystemkonten verwendet werden können. Diese Skripts dienen nur zur Veranschaulichung. Sie sollten nur verwendet werden, nachdem Sie sich an Ihren IT-Experten oder Domänenadministrator wenden.
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Beispiel-Setupskript: Skype for Business und Exchange Server (Lokal)
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Beispiel-Setupskript: Skype for Business und Exchange Server (lokal)
 
 ```powershell
 # On Exchange 
@@ -45,7 +45,7 @@ Stellen Sie sicher, dass Sie die folgenden Voraussetzungen überprüft haben, be
   
 - Microsoft Online Services Sign-In Assistant for IT Professionals BETA
     
-- Windows Azure Active Directory Module für Windows PowerShell (64-Bit-Version) oder (32-Bit-Version)
+- Windows Azure Active Directory-Modul für Windows PowerShell (64-Bit-Version) oder (32-Bit-Version)
     
 - Teams PowerShell-Modul
     

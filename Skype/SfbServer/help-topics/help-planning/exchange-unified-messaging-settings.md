@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: Skype for Business Server unterstützt die Integration in Exchange Unified Messaging zum Kombinieren von Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur.
-ms.openlocfilehash: e17be4642c2d9d09cc0468a49fde024f2ccd19fb
+ms.openlocfilehash: 0f2ec30af94f9626c3cca8463f58f827cb7015766f6e99eff5fd31f755a53105
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772586"
+ms.locfileid: "54344954"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>planungstool für Skype for Business Server Exchange Unified Messaging Einstellungen
 

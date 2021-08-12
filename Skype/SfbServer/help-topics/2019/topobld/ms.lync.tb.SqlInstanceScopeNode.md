@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 5e9363c90f9b9b06b06fe5845c60ba77416a5c15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 4412cacf94a39341ffc73878ffff9280193847454dc27e8c9d1d7637854b5f27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311683"
 ---
 # <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  
-Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server. Folgende Möglichkeiten stehen zur Verfügung:
+Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Eigenschaften bearbeiten**. Öffnet  die Seite "Eigenschaften bearbeiten" für diesen Server, auf der Sie den FQDN des Servers (falls die Topologie noch nicht veröffentlicht wurde) und die zu verwendende Instanz SQL Server ändern können.
+- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für diesen Server, auf der Sie den FQDN des Servers ändern können (wenn die Topologie noch nicht veröffentlicht wurde) und die Instanz der zu verwendenden SQL Server.
     
 - **Löschen**: Dient zum Löschen des Servers aus der Topologie.
     

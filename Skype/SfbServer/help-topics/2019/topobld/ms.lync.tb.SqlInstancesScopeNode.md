@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Im SQL werden die SQL Server in Ihrer Topologie gespeichert. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: d443e08339c416f6b00208b4ecbd6e64eecf697d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Im SQL werden die SQL Server Datenbanken in Ihrer Topologie aufgelistet. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: f5e4ad781fa2e5a4ec1e813cdb5c3e74157960b086ff96c86ba09ae05120f4e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311653"
 ---
 # <a name="sql-instances-scope-node"></a>SQL-Instanzen – Bereichsknoten
  
-Im **SQL werden die** SQL Server in Ihrer Topologie gespeichert. Folgende Möglichkeiten stehen zur Verfügung:
+In **der SQL werden** die SQL Server Datenbanken in Ihrer Topologie gespeichert. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer SQL-Speicher**. Startet den Assistenten zum **Definieren SQL Speichers,** mit dem Sie der Topologie SQL Server neue Datenbank hinzufügen.
+- **Neuer SQL-Speicher**. Startet den Assistenten zum **Definieren neuer SQL Store,** mit dem Sie der Topologie eine neue SQL Server-Datenbank hinzufügen.
     
-Zusätzlich zu den SQL Server datenbankoptionen können Sie die folgenden allgemeinen Aufgaben ausführen:
+Zusätzlich zu den SQL Server Datenbankoptionen können Sie die folgenden allgemeinen Aufgaben ausführen:
   
-- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten aus früheren Versionen zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Sie können diese Option verwenden, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren, Komponenten aus früheren Versionen zusammenzuführen oder die Bereitstellung zu entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

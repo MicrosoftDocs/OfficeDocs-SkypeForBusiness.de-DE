@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Ein Director ist ein Server mit Skype for Business Server 2015-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet.
-ms.openlocfilehash: fa55cfb04684cd363e6be8a6e7d02f281c9eeed8
+ms.openlocfilehash: 969b45a39da201a1de31fe1cf3261dce2cb20070de454770691a9d6c85dcae3a
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772696"
+ms.locfileid: "54344964"
 ---
 # <a name="skype-for-business-server-director-planning-tool"></a>Skype for Business Server Director-Planungstool
  

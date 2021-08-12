@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Wenn ein Legacy Front-End-Pool die Anrufsteuerung (Call Admission Control, CAC) hostet, müssen Sie das CAC-Hosting in einen Skype for Business Server 2019-Pool versetzen, bevor Sie die Legacy Front-End-Pool entfernen können.
-ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Wenn ein Legacy-Front-End-Pool die Anrufsteuerung (Call Admission Control, CAC) hostet, müssen Sie das Anrufsteuerungshosting in einen Skype for Business Server 2019-Pool verschieben, bevor Sie den älteren Front-End-Pool entfernen können.
+ms.openlocfilehash: c3ebb748d877e88060b699b1599c39038124565df361c5032533260e4c5643e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334567"
 ---
 # <a name="reset-call-admission-control"></a>Zurücksetzen der Anrufsteuerung
 
-Wenn ein Legacy Front-End-Pool die Anrufsteuerung (Call Admission Control, CAC) hostet, müssen Sie das CAC-Hosting in einen Skype for Business Server 2019-Pool versetzen, bevor Sie die Legacy Front-End-Pool entfernen können.
+Wenn ein Legacy-Front-End-Pool die Anrufsteuerung (Call Admission Control, CAC) hostet, müssen Sie das Anrufsteuerungshosting in einen Skype for Business Server 2019-Pool verschieben, bevor Sie den älteren Front-End-Pool entfernen können.
   
 ### <a name="to-reset-cac"></a>So setzen Sie die Anrufsteuerung zurück
 
@@ -30,7 +30,7 @@ Wenn ein Legacy Front-End-Pool die Anrufsteuerung (Call Admission Control, CAC) 
     
 3. Vergewissern Sie sich, dass in der **Einstellung für Anrufsteuerung** die Option **Anrufsteuerung aktivieren** ausgewählt wurde. 
     
-4. Wählen Sie unter **Front-End-Pool, um die Anrufsteuerung (Call Admission Control, CAC) auszuführen**, den Skype for Business Server 2019-Pool aus, der als Host für CAC dient, und klicken Sie dann auf **OK**.
+4. Wählen Sie im **Front-End-Pool zum Ausführen der Anrufsteuerung (Call Admission Control, CAC)** den Pool Skype for Business Server 2019 aus, der die Anrufsteuerung hosten soll, und klicken Sie dann auf **OK.**
     
 5. Veröffentlichen Sie die Topologie.
     

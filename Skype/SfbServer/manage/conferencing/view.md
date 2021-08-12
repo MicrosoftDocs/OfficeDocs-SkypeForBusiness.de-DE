@@ -11,39 +11,39 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: 'Zusammenfassung: Informationen zum Anzeigen von Konferenzrichtlinien in Skype for Business Server.'
-ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server anzeigen.'
+ms.openlocfilehash: 9cc55d9546337bd50e9508f85fc5f79e449df42278fe6166c7b32342a80babd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313213"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Anzeigen von Konferenzrichtlinien in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server anzeigen.
   
-Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell anzeigen.
+Sie können Konferenzrichtlinien mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell anzeigen.
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Anzeigen von Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Anzeigen von Konferenzrichtlinien mithilfe Skype for Business Server Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2.  Öffnen Sie die Skype for Business Server-Systemsteuerung.
+2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste **auf** Konferenzen und dann auf **Konferenzrichtlinie**.
+3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen"** und dann auf **"Konferenzrichtlinie".**
     
-4. **Doppelklicken Sie** auf der Seite Konferenzrichtlinie auf die Konferenzrichtlinie, die Sie anzeigen möchten.
+4. Doppelklicken Sie auf der Seite **"Konferenzrichtlinie"** auf die Konferenzrichtlinie, die Sie anzeigen möchten.
     
-5. Aktivieren **Sie unter Dateifilter bearbeiten** das Kontrollkästchen **Details** anzeigen.
+5. Aktivieren Sie im **Filter "Datei bearbeiten"** das Kontrollkästchen **"Details anzeigen".**
     
-    **Bearbeiten von Konferenzrichtlinien \<policy\> –** zeigt die Einstellungen für die ausgewählte Richtlinie an.
+    **Konferenzrichtlinie bearbeiten \<policy\> –** öffnet die Anzeige der Einstellungen für die ausgewählte Richtlinie.
     
-    Weitere Informationen zum Konfigurieren der Einstellungen finden Sie unter Erstellen von Konferenzrichtlinien [in Skype for Business Server](create-policies.md).
+    Ausführliche Informationen zum Konfigurieren der Einstellungen finden Sie unter [Erstellen von Konferenzrichtlinien in Skype for Business Server.](create-policies.md)
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Konferenzrichtlinien mithilfe der Skype for Business Server-Verwaltungsshell
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Konferenzrichtlinien mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie zum Anzeigen von Konferenzrichtlinien das **Cmdlet Get-CsConferencingPolicy:**
+Verwenden Sie zum Anzeigen von Konferenzrichtlinien das Cmdlet **"Get-CsConferencingPolicy":**
   
 ```PowerShell
 Get-CsConferencingPolicy
@@ -88,4 +88,4 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter [Get-CsConferencingPolicy](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter ["Get-CsConferencingPolicy".](/powershell/module/skype/get-csconferencingpolicy?view=skype-ps)

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Verwenden Sie dieses Referenzhandbuch, um informationen zu Skype for Business Online-Berichterstellung zu erhalten und zu erfahren, welche Informationen verfügbar sind. '
-ms.openlocfilehash: e9ef3d9090ff494afe8595c139bcc9206215435b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334437"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online-Berichterstellung
 
@@ -32,7 +32,7 @@ ms.locfileid: "52238141"
 
 Als Administrator für Ihre Organisation wäre es praktisch, eine vollständige Liste aller verschiedenen Berichte zur Verfügung zu haben, die in Skype for Business Online verfügbar sind. Dazu gehören alle verschiedenen Berichte und die Informationen, die in den einzelnen Berichten enthalten sein können.
   
-Um auf die Skype for Business Online-Berichte zu zugreifen, melden Sie sich mit Ihrem Microsoft 365 und Kennwort beim Microsoft 365 Admin Center an. Dem für die Anmeldung verwendeten Konto muss entweder die globale Administratorrolle zugewiesen sein, oder Sie müssen die Rolle des Dienstadministrators für Skype for Business delegieren, um die Berichte anzuzeigen.
+Um auf die Skype for Business Onlineberichte zu zugreifen, melden Sie sich bei der Microsoft 365 Admin Center mit Ihrem Benutzerkonto und dem Kennwort an. Dem für die Anmeldung verwendeten Konto muss entweder die globale Administratorrolle zugewiesen sein, oder Sie müssen die Rolle des Dienstadministrators für Skype for Business delegieren, um die Berichte anzuzeigen.
   
 > [!NOTE]
 > Um Berechtigungen zu überprüfen, wird im Admin Center > **Aktive Benutzer**  >  **" aktiviert.** Klicken Sie auf den Anzeigenamen des Benutzers, und klicken Sie dann auf **Bearbeiten.** Klicken Sie anschließend auf der Seite mit den Kontoeigenschaften auf **Rollen.**

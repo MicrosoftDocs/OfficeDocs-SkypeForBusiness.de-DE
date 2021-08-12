@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: e163e80e3c3a14dba2431f812b53167e8d0af31a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334427"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich ein Supportticket für die Adressvalidierung?
 
@@ -100,7 +100,7 @@ Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufpl�
 8. Überprüfen Sie die Informationen, und klicken Sie dann auf **Submit request** (Anfrage senden).
     
 > [!TIP]
-> Die Referenznummer wird auf der Seite **Serviceanfragen** im Microsoft 365 Admin Center aufgeführt.
+> Die Referenznummer wird auf der Seite **Serviceanfragen** in der Liste Microsoft 365 Admin Center.
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Übertragen von Telefonnummern – häufig gestellte Fragen](/microsoftteams/transferring-phone-numbers-common-questions)

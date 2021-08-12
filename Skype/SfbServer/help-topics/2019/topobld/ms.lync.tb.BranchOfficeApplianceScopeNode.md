@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Ausfallsicherheitsinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 3d40ebefe5966985f2f755bff68190d989654457
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Resilienzinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323347"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Filialanwendung – Bereichsknoten
  
-Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Ausfallsicherheitsinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:
+Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Resilienzinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Eigenschaften bearbeiten**. Öffnet **die** Seite "Eigenschaften bearbeiten" für diese Survivable Branch Appliance, auf der Sie den FQDN (falls die Topologie noch nicht veröffentlicht wurde), die Zuordnungen und Ausfallsicherheitseinstellungen ändern können.
+- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für diese Survivable Branch Appliance, auf der Sie den FQDN (falls die Topologie noch nicht veröffentlicht wurde), die Zuordnungen und die Resilienzeinstellungen ändern können.
     
 - **Löschen**: Dient zum Löschen des Servers aus der Topologie.
     

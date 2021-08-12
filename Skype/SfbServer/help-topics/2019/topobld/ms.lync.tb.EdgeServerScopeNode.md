@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: f2563ffa0700aa8633d2288223185060530fa130
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fa03fd60ca6bc0efe7a8baa9089f8a0f8bf90ed1d7cc95cd3ad4c5078e258fdb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311813"
 ---
 # <a name="edge-server-scope-node"></a>Edgeserver – Bereichsknoten
  

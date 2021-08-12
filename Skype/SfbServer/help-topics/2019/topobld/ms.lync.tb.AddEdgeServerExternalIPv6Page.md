@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c9c43d46-374e-4dc9-858c-54a021b69947
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie in der externen IPv6-Adresse die externe IP-Adresse ein, die auf den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst verweist.
-ms.openlocfilehash: a800d550ec95f363c358e30fcbb2541b8c311c4b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d6c0a5186d49cc9efabdd0bb25b234e6fac3c7c07f78ca678826e4689ddc660d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295672"
 ---
 # <a name="add-edge-server-external-ipv6"></a>Hinzufügen der externen IPv6-Adresse des Edgeservers
  

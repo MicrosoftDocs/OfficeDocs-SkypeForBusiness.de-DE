@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Ändern der Einstellungen für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 09888fd0d22ce182688a2fbd0456ce7e5cc6564e1b33ebb1b957ebb0f23b02df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111911"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294902"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business
 
 Ändern der Einstellungen für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
 
-Wenn Sie keine Standardeinstellungen zum Parken von Anrufen verwenden möchten, können Sie diese anpassen. Wenn Sie die Anwendung zum Parken von Anrufen installieren, sind globale Einstellungen standardmäßig konfiguriert. Sie können die globalen Einstellungen ändern, und Sie können außerdem standortspezifische Einstellungen angeben. Verwenden Sie das Cmdlet **New-CsCpsConfiguration**, um neue standortspezifische Einstellungen zu erstellen. Verwenden Sie das Cmdlet **Set-CsCpsConfiguration**, um vorhandene Einstellungen zu ändern.
+Wenn Sie keine Standardeinstellungen für das Parken von Anrufen verwenden möchten, können Sie diese anpassen. Wenn Sie die Anwendung zum Parken von Anrufen installieren, werden die globalen Einstellungen standardmäßig konfiguriert. Sie können die globalen Einstellungen ändern, und Sie können außerdem standortspezifische Einstellungen angeben. Verwenden Sie das Cmdlet **New-CsCpsConfiguration**, um neue standortspezifische Einstellungen zu erstellen. Verwenden Sie das Cmdlet **Set-CsCpsConfiguration**, um vorhandene Einstellungen zu ändern.
 
 > [!NOTE]
 > Es wird empfohlen, mindestens die Option **OnTimeoutURI** zu konfigurieren, um ein Fallbackziel anzugeben, das bei Auftreten einer Zeitüberschreitung für geparkte Anrufe und bei erfolglosen Rückrufversuchen verwendet wird.
@@ -44,16 +44,16 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 
 ### <a name="to-configure-call-park-settings"></a>So konfigurieren Sie Einstellungen für das Parken von Anrufen
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
 
-2. Führen Sie  aus.
+2. Ausführen:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > Verwenden Sie das Cmdlet **Get-CsSite**, um den Standort zu ermitteln. Ausführliche Informationen finden Sie in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
+   > Verwenden Sie das Cmdlet **Get-CsSite**, um den Standort zu ermitteln. Ausführliche Informationen finden Sie in der Dokumentation Skype for Business Server Verwaltungsshell.
 
     Zum Beispiel:
 
