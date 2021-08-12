@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Dena verfügbar.
-ms.openlocfilehash: 2eb93f5f33620d5c1102485bd447df4d044a0d90
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b4f13de37c212aab4a6874bcd3614d9591c5913f8306ab54634c8e37ca274b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118184"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338003"
 ---
 # <a name="availability-in-dominica"></a>Verfügbarkeit inBelegungen
 

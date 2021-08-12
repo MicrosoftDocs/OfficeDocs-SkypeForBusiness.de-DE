@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Zusammenfassung: Konfigurieren eines Trunks mit aktivierter Medienumgehung für Skype for Business Server. Auf diese Weise können Sie die Anzahl der Vermittlungsserver minimieren, wobei davon aus wird, dass ihr SIP-Trunkanbieter dies unterstützt.'
-ms.openlocfilehash: d5178a4adedb380193dc0ce55c0a8a4a414e59d3
+ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772746"
+ms.locfileid: "54287624"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype for Business Server: Konfigurieren eines Trunks mit Medienumgehung
 
@@ -145,7 +145,7 @@ Eine Trunkkonfiguration, wie unten beschrieben, gruppiert eine Reihe von Paramet
 
     - Klicken Sie auf **"Auswählen",** um eine oder mehrere Regeln aus einer Liste aller Übersetzungsregeln auszuwählen, die in Ihrer Enterprise-VoIP Bereitstellung verfügbar sind. Klicken Sie im Abschnitt **Übersetzungsregeln auswählen** auf die Regeln, die Sie dem Trunk zuordnen möchten, und klicken Sie anschließend auf **OK**.
 
-    - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie [unter "Übersetzungsregeln" in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+    - Klicken Sie auf **Neu**, um eine neue Übersetzungsregel zu definieren und dem Trunk zuzuordnen. Ausführliche Informationen zu Übersetzungsregeln finden Sie unter [Übersetzungsregeln in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
 
     - Klicken Sie auf den Regelnamen und anschließend auf **Details anzeigen**, um eine Übersetzungsregel zu bearbeiten, die bereits dem Trunk zugeordnet ist.
 
@@ -184,7 +184,7 @@ Eine Trunkkonfiguration, wie unten beschrieben, gruppiert eine Reihe von Paramet
     > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
 Nachdem Sie den Trunk konfiguriert haben, setzen Sie die Konfiguration der Medienumgehung fort, indem Sie zwischen globalen Medienumgehungsoptionen wählen, wie in ["Bereitstellen der Medienumgehung in Skype for Business Server](deploy-media-bypass.md) in der Bereitstellungsdokumentation" beschrieben.
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md)
 

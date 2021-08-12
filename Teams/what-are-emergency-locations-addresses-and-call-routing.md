@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Notrufe, einschließlich Informationen zu Notfalladressen, Notrufen und dynamischen Notrufen.
-ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ef3f9bcf3a8eab2edc4cff4d99c31a1eb4028cb26a32f40adf4e0eaaa68deeee
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849080"
 ---
 # <a name="manage-emergency-calling"></a>Verwalten von Notrufen
 
@@ -40,11 +40,11 @@ In diesem Artikel werden die Konzepte beschrieben, die Sie kennen müssen, um No
 
   Beispielsweise wird die Adresse  *12345 North Main Street, Redmond, WA 98052, WA 98052* verwendet, um Notrufe an die entsprechenden Einsatzkräfte weiter zu senden und den Standort des Notrufers zu suchen.
 
-- **Ort** – In der Regel ein Stockwerk, gebäude, wing oder office number. Der Ort ist einer Notfalladresse zugeordnet, um einen exakten Standort innerhalb eines Gebäudes zu erhalten. Sie können eine unbegrenzte Anzahl von Orten mit einer Notfalladresse verknüpft haben. Wenn Ihre Organisation z. B. über mehrere Gebäude verfügt, können Sie Ortsinformationen für jedes Gebäude und für jedes Stockwerk in jedem Gebäude erstellen.  
+- **Ort** – In der Regel ein Stockwerk, gebäude, wing oder office number. Der Ort ist einer Notfalladresse zugeordnet, um einen exakten Standort innerhalb eines Gebäudes zu erhalten. Sie können eine unbegrenzte Anzahl von Orten mit einer Notfalladresse verknüpft haben. Wenn Ihre Organisation z. B. über mehrere Gebäude verfügt, können Sie Für jedes Gebäude und jedes Stockwerk in jedem Gebäude Ortsinformationen erstellen.  
 
 - **Notfallstandort** – Ein Standort ist eine Adresse mit &mdash; optionalem Ort. Wenn Ihr Unternehmen über mehrere physische Standorte verfügt, benötigen Sie wahrscheinlich mehrere Notfallstandorte. 
 
-  Wenn Sie eine Notfalladresse erstellen, wird automatisch eine eindeutige Standort-ID für diese Adresse erstellt.  Wenn Sie einer Notfalladresse einen Ort hinzufügen, beispielsweise wenn Sie einer Gebäudeadresse einen Boden hinzufügen, wird eine Standort-ID für die Kombination aus Notfalladresse und &mdash; &mdash; -ort erstellt.  In diesem Beispiel gibt es zwei Standort-IDs: eine für die Adresse; eine Adresse für die beigetretene Adresse und den zugehörigen Ort.
+  Wenn Sie eine Notfalladresse erstellen, wird automatisch eine eindeutige Standort-ID für diese Adresse erstellt.  Wenn Sie beispielsweise einer Notfalladresse einen Ort hinzufügen, wenn Sie einer Gebäudeadresse einen Boden hinzufügen, wird eine Standort-ID für die Kombination aus Notfalladresse und &mdash; &mdash; -ort erstellt.  In diesem Beispiel gibt es zwei Standort-IDs: eine für die Adresse; eine Adresse für die beigetretene Adresse und den zugehörigen Ort.
 
   Wenn Sie einem Benutzer oder einer Website einen Notfallstandort zuweisen, wird diese eindeutige Standort-ID dem Benutzer oder der Website zugeordnet.
 
@@ -53,20 +53,20 @@ In diesem Artikel werden die Konzepte beschrieben, die Sie kennen müssen, um No
 Sie erstellen Notfalladressen für Anrufplanbenutzer über das Teams Admin Center.  
 
 >[!Note]
->Es gibt einige Unterschiede bei der Verwaltung von Notrufen, je nachdem, ob Sie Telefonsystem Anrufpläne oder Telefonsystem Direct Routing für Ihre PSTN-Konnektivität verwenden. Diese Überlegungen werden in diesem Artikel beschrieben.
+>Es gibt einige Unterschiede bei der Verwaltung von Notrufen, je nachdem, ob Sie Telefonsystem Anrufpläne verwenden oder Telefonsystem Direct Routing für Ihre PSTN-Verbindung verwenden. Diese Überlegungen werden in diesem Artikel beschrieben.
 
 ## <a name="emergency-address-validation"></a>Überprüfung von Notfalladressen
 
 Um einem Benutzer oder einer Netzwerk-ID eine Notfalladresse zuzuordnen, müssen Sie sicherstellen, dass die Notfalladresse als "überprüft" gekennzeichnet ist.  Mit der Adressvalidierung wird sichergestellt, dass die Adresse legitim ist und nach derEntierung nicht mehr geändert werden kann. 
 
-Wenn Sie eine Notfalladresse mithilfe der Funktion für die Suche nach Adresskarten im Teams Admin Center definieren, wird die Adresse automatisch als überprüft markiert. Eine überprüfte Notfalladresse kann nicht geändert werden. Wenn sich das Format oder die Darstellung der Adresse ändert, müssen Sie daher eine neue Adresse mit dem aktualisierten Format erstellen.
+Wenn Sie eine Notfalladresse mithilfe der Funktion für die Suche nach Adresskarten im Teams Admin Center definieren, wird die Adresse automatisch als überprüft markiert. Sie können eine überprüfte Notfalladresse nicht ändern. Wenn sich das Format oder die Darstellung der Adresse ändert, müssen Sie daher eine neue Adresse mit dem aktualisierten Format erstellen.
 
 
 ## <a name="emergency-address-geo-codes"></a>Notfalladressen-Geocodes
 
 Jeder Notfalladresse kann ein Geocode (Breiten- und Längengrad) zugeordnet sein. Diese Geocodes werden in einigen Ländern verwendet, um das Routing von Notrufen mit dynamischen Standorten zu unterstützen. 
 
-Wenn Sie eine Notfalladresse mithilfe der Funktion für die Suche nach Adresskarten im Teams Admin Center definieren, wird der Geocode automatisch einer Notfalladresse zugeordnet. Sie können einer Adresse auch Geocodes zuordnen, wenn Sie die Adresse mithilfe von PowerShell definieren. Microsoft empfiehlt jedoch, dass Sie Notfalladressen für Einen Anrufplan erstellen, indem Sie die Funktion zur Kartensuche im Teams Admin Center verwenden, um sicherzustellen, dass die Adressen formatiert, validiert und über die entsprechenden Geocodes verfügen.  
+Wenn Sie eine Notfalladresse mithilfe der Funktion für die Suche nach Adresskarten im Teams Admin Center definieren, wird der Geocode automatisch einer Notfalladresse zugeordnet. Sie können einer Adresse auch Geocodes zuordnen, wenn Sie die Adresse mithilfe von PowerShell definieren. Microsoft empfiehlt jedoch, dass Sie Notfalladressen für Anrufplan erstellen, indem Sie die Kartensuche im Teams Admin Center verwenden, um sicherzustellen, dass die Adressen formatiert, überprüft und über die entsprechenden Geocodes verfügen.  
 
 >[!Important]
 >Um einer Netzwerk-ID einen Notfallstandort für dynamische Notrufe zuzuordnen, muss die Notfalladresse einen geeigneten Geocode enthalten.
@@ -85,15 +85,15 @@ Wann der Standort der Telefonnummer zugeordnet werden muss, hängt vom Land/der 
 
 - In den USA und Kanada beispielsweise ist ein Notfallstandort erforderlich, wenn einem Benutzer eine Nummer zugewiesen wird.
 
-- Für andere Länder – wie etwa in Europa, dem Nahen Osten und Afrika (EMEA) – ist ein Notfallstandort erforderlich, wenn Sie die Telefonnummer von Microsoft 365 oder Office 365 erhalten oder wenn sie von einem anderen Dienstanbieter oder Netzbetreiber übertragen wird.
+- Für andere Länder – wie etwa in Europa, dem Nahen Osten und Afrika (EMEA) – ist ein Notfallstandort erforderlich, wenn Sie die Telefonnummer von Microsoft 365 oder Office 365 erhalten oder von einem anderen Dienstanbieter oder Netzbetreiber übertragen werden.
 
 ### <a name="dynamic-emergency-calling"></a>Dynamische Notruffunktion
 
-Dynamische Notrufe für Microsoft-Anrufpläne bieten die Möglichkeit, Notrufe basierend auf der aktuellen Position des Teams zu konfigurieren und zu routen. Die Möglichkeit zur automatischen Weiterleitung an den entsprechenden Public Safety Answering Point (PSAP) oder zum Benachrichtigen der Mitarbeiter des Sicherheitsdesks hängt vom Land ab, in dem der Benutzer Teams wird.  
+Dynamische Notrufe für Microsoft-Anrufpläne bieten die Möglichkeit, Notrufe basierend auf der aktuellen Position des Teams zu konfigurieren und zu routen. Die Möglichkeit zur automatischen Weiterleitung an den entsprechenden Public Safety Answering Point (PSAP) oder zum Benachrichtigen von Mitarbeitern des Sicherheitsdesks hängt vom Land ab, in dem der Benutzer Teams wird.  
 
 Bei Anrufplanbenutzern wird der dynamische Standort für das Routing von Notrufen nur wie folgt in den USA unterstützt. (Informationen zu dynamischen Notrufen und Direct Routing finden Sie unter [Überlegungen für Direct-Routing.](#considerations-for-direct-routing)
 
-- Wenn ein Teams-Client für einen Benutzer eines Anrufplans in den USA dynamisch eine Notfalladresse in den USA abruft, wird diese Adresse anstelle der registrierten Adresse für das Notfallrouting verwendet, und der Anruf wird automatisch an das PSAP im Dienstbereich der Adresse geroutet.
+- Wenn ein Teams-Client für einen Benutzer eines Anrufplans für die USA dynamisch eine Notfalladresse in den USA abruft, wird diese Adresse anstelle der registrierten Adresse für das Notfallrouting verwendet, und der Anruf wird automatisch an das PSAP im Dienstbereich der Adresse umleitig.
 
 - Wenn ein Teams-Client für einen Anrufplanbenutzer in den USA nicht dynamisch eine Notfalladresse abruft, wird die registrierte Notfalladresse verwendet, um den Anruf zu bildschirm- und routen zu unterstützen. Der Anruf wird jedoch angezeigt, um festzustellen, ob eine aktualisierte Adresse erforderlich ist, bevor der Anrufer mit dem entsprechenden PSAP verbunden wird.
 
@@ -102,9 +102,9 @@ In den USA müssen Sie die Adresse, die Zu den Notfallstandorten gehört, die Ne
 
 ### <a name="emergency-call-routing"></a>Routing von Notrufen
 
-Wenn ein Teams Anrufplan-Benutzer eine Notrufnummer wählt, hängt die Art und Weise, wie der Anruf an das PSAP-System umgerufen wird, von Folgendem ab:
+Wenn ein Teams Anrufplan-Benutzer eine Notfallnummer wählt, hängt die Art und Weise, wie der Anruf an das PSAP-System umgerufen wird, von Folgendem ab:
 
-- Gibt an, ob die Notfalladresse dynamisch vom Notfallclient Teams wird.
+- Die Notfalladresse wird vom Client dynamisch Teams bestimmt.
 
 - Die Notfalladresse soll die registrierte Adresse sein, die der Telefonnummer des Benutzers zugeordnet ist.
 
@@ -112,9 +112,9 @@ Wenn ein Teams Anrufplan-Benutzer eine Notrufnummer wählt, hängt die Art und W
 
   **In den USA:**
 
-  - Wenn sich Teams-Client an einem vom Mandanten definierten dynamischen Notfallstandort befindet, werden Notrufe von diesem Client automatisch an das PSAP geroutet, das den geografischen Standort bedient. 
+  - Wenn sich Teams-Client an einem vom Mandanten definierten dynamischen Notfallstandort befindet, werden Notrufe von diesem Client automatisch an das PSAP geroutet, das den geografischen Standort verwendet. 
 
-  - Wenn sich ein Teams-Client nicht an einem vom Mandanten definierten dynamischen Notfallstandort befindet, werden Notrufe von diesem Client von einem nationalen Anrufcenter zur Ermittlung des Standorts des Anrufers angezeigt, bevor der Anruf an den PSAP-Notruf um den geografischen Standort übertragen wird.
+  - Wenn sich ein Teams-Client nicht an einem vom Mandanten definierten dynamischen Notfallstandort befindet, werden Notrufe von diesem Client von einem nationalen Anrufcenter angezeigt, um den Standort des Anrufers zu ermitteln, bevor der Anruf an den PSAP-Dienst mit diesem geografischen Standort übertragen wird.
 
   - Wenn ein Notrufer seinen Notfallstandort nicht auf das Prüfungscenter aktualisieren kann, wird der Anruf an das PSAP übermittelt, das die registrierte Adresse des Anrufers verwendet.
 
@@ -122,7 +122,7 @@ Wenn ein Teams Anrufplan-Benutzer eine Notrufnummer wählt, hängt die Art und W
 
   **In Frankreich, Deutschland und Spanien** werden Notrufe unabhängig vom Standort des Anrufers direkt an das PSAP um die der Nummer zugeordnete Notfalladresse gesendet.
 
-  **In den Niederlanden** werden Notrufe unabhängig von der Position des Anrufers direkt an das PSAP für die lokale Ortswahl der Rufnummer gesendet.
+  **In den Niederlanden** werden Notrufe unabhängig vom Standort des Anrufers direkt an das PSAP für die lokale Ortswahl der Rufnummer gesendet.
 
   **In Australien** werden Notfalladressen vom Netzbetreiberpartner konfiguriert und geroutet.
 
@@ -143,13 +143,13 @@ Wenn Anrufpläne in Ihrer Region nicht verfügbar sind oder Sie Ihren vorhandene
 
 ### <a name="emergency-call-enablement-and-configuration"></a>Aktivieren und Konfigurieren von Notrufen
 
-Sie müssen Richtlinien für Notrufe für Direct Routing-Benutzer definieren, indem Sie eine Richtlinie für das Routing von Teams-Notrufen (TeamsEmergencyCallRoutingPolicy) verwenden, um Notrufnummern und ihr zugeordnetes Routingziel zu definieren. (Beachten Sie, dass registrierte Notfallstandorte für Direct Routing-Benutzer nicht unterstützt werden.)
+Sie müssen Richtlinien für Notrufe für Direct Routing-Benutzer definieren, indem Sie eine Richtlinie für das Routing von Teams-Notrufen (TeamsEmergencyCallRoutingPolicy) verwenden, um Notrufnummern und das zugeordnete Routingziel zu definieren. (Beachten Sie, dass registrierte Notfallstandorte für Direct Routing-Benutzer nicht unterstützt werden.)
 
-Sie können eine Richtlinie für die Weiterleitung von Notrufen einem Teams Direct Routing-Benutzerkonto, einem Netzwerkstandort oder beiden zuweisen. Wenn ein Teams-Client startet oder eine Netzwerkverbindung ändert, führt Teams eine Suche der Netzwerkwebsite durch, auf der sich der Client befindet:
+Sie können eine Richtlinie für die Weiterleitung von Notrufen einem Teams Direct Routing-Benutzerkonto, einem Netzwerkstandort oder beiden zuweisen. Wenn ein Teams gestartet oder eine Netzwerkverbindung ändert, führt Teams eine Suche der Netzwerkwebsite durch, auf der sich der Client befindet:
 
 - Wenn der Website eine Richtlinie für die Weiterleitung von Notrufen zugeordnet ist, wird die Websiterichtlinie zum Konfigurieren von Notrufen verwendet.
 
-- Wenn der Website keine Richtlinie für die Weiterleitung von Notrufen zugeordnet ist oder der Client an einem nicht definierten Standort verbunden ist, wird die Richtlinie für die Weiterleitung von Notrufen, die dem Benutzerkonto zugeordnet ist, zum Konfigurieren von Notrufen verwendet. 
+- Wenn der Website keine Richtlinie für die Weiterleitung von Notrufen zugeordnet ist, wenn der Client an einem nicht definierten Standort verbunden ist oder die gewählte Nummer keiner der Notrufnummern in der Der Website zugeordneten Routingrichtlinie für Notrufe zu entsprechen, wird die Richtlinie für die Weiterleitung von Notrufen verwendet, die dem Benutzerkonto zugeordnet ist, um Notrufe zu konfigurieren. 
 
 - Wenn der Teams die Routingrichtlinie für Notrufe nicht abrufen kann, ist der Benutzer nicht für Notrufe aktiviert.
 
@@ -159,9 +159,9 @@ Teams-Clients für Direct Routing-Benutzer können eine dynamische Notfalladress
 
 ### <a name="emergency-call-routing"></a>Routing von Notrufen
 
-Die Richtlinie für das Routing von Notrufen verweist auf eine Online-PSTN-Verwendung, die über die geeignete Direct Routing-Konfiguration verfügen muss, um die Notrufe ordnungsgemäß an die entsprechenden PSTN-Gateways weiterleiten zu können. Insbesondere müssen Sie sicherstellen, dass onlineVoiceRoute für die Notrufzeichenfolge verfügbar ist. Weitere Informationen finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md) 
+Die Richtlinie für das Routing von Notrufen verweist auf eine Online-PSTN-Nutzung, die über die geeignete Direct Routing-Konfiguration verfügen muss, um die Notrufe ordnungsgemäß an die entsprechenden PSTN-Gateways weiterleiten zu können. Insbesondere müssen Sie sicherstellen, dass onlineVoiceRoute für die Notrufzeichenfolge verfügbar ist. Weitere Informationen finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md) 
 
-(Hinweis: Teams-Clients stellen die "+"-Anmeldung vor Notfallnummern auf ähnliche Weise wie der Client Skype for Business vor, d. h. +911. Dieses Verhalten wird in den kommenden Monaten geändert, sodass Teams Notrufe nicht mehr "+" vor der Nummer senden. das heißt, 911.)
+(Hinweis: Teams-Clients haben die +-Anmeldung vor Notfallnummern auf ähnliche Weise wie der Client Skype for Business, d. h. +911. Dieses Verhalten wird in den kommenden Monaten geändert, sodass Teams Notrufe nicht mehr ein "+" vor der Nummer senden. das heißt, 911.)
 
 Die Möglichkeit zum dynamischen Weiterleiten von Notrufen für Direct Routing-Benutzer hängt vom Notrufnetzwerk in einem bestimmten Land ab. Es stehen zwei Lösungen zur Verfügung:
 
@@ -181,7 +181,7 @@ Weitere Informationen finden Sie unter Für Direct Routing zertifizierte [Sessio
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>ELIN-Anwendungen (Emergency Location Identification Number)
 
-Die Session Border Controller (SBCs) können ELIN-Anwendungen (Emergency Location Identification Number) umfassen. Wenn eine SBC ELIN-Anwendung in eine Direct Routing-Bereitstellung integriert ist, müssen Sie die Notfalladressen und zugehörigen Telefonnummern in der ELIN-Anwendung konfigurieren und dann die ELIN-Einträge in die Datenbank für Notrufe im jeweiligen PSTN hochladen.  Teams Notfallstandorte mit einem ELIN-Bezeichner müssen mit denen innerhalb der ELIN-Anwendung übereinstimmen.
+Session Border Controller (SBCs) können ELIN-Anwendungen (Emergency Location Identification Number) enthalten. Wenn eine SBC ELIN-Anwendung in eine Direct Routing-Bereitstellung integriert ist, müssen Sie die Notfalladressen und zugehörigen Telefonnummern in der ELIN-Anwendung konfigurieren und dann die ELIN-Einträge in die Datenbank für Notrufe im jeweiligen PSTN hochladen.  Teams Notfallstandorte mit einem ELIN-Bezeichner müssen mit denen innerhalb der ELIN-Anwendung übereinstimmen.
 
 Wenn ein Notruf mit dynamisch erfassten Standort an die entsprechende SBC-Anwendung geroutet wird, gilt die ELIN-Anwendung:
 
@@ -199,17 +199,17 @@ Weitere Informationen finden Sie unter Für Direct Routing zertifizierte [Sessio
 
 Die Benachrichtigung des Sicherheitsdesks ist sowohl bei Microsoft-Anrufplänen als Telefonsystem Direct Routing verfügbar.
 
-Sie verwenden eine Teams-Richtlinie für Notrufe (TeamsEmergencyCallingPolicy), um zu konfigurieren, wer während eines Notrufs benachrichtigt werden soll und wie sie benachrichtigt werden sollen: nur chatten, ein- und stummgeschaltete Konferenz oder Ein- und Stummschaltung, jedoch mit der Möglichkeit, die Stummschaltung auf stumm zu setzen.  Sie können auch eine externe PSTN-Nummer eines Benutzers oder einer Gruppe angeben, der angerufen und an dem Notruf teilnehmen soll. 
+Sie verwenden eine Teams-Richtlinie für Notrufe (TeamsEmergencyCallingPolicy), um zu konfigurieren, wer während eines Notrufs benachrichtigt werden soll und wie sie benachrichtigt werden sollen: nur chatten, ein- und stummgeschaltete Telefonkonferenzen oder Telefonkonferenzen mit der Möglichkeit, die Stummschaltung auf stumm zu setzen.  Sie können auch eine externe PSTN-Nummer eines Benutzers oder einer Gruppe angeben, der angerufen und an dem Notruf teilnehmen soll. 
 
-Eine Richtlinie für Notrufe kann einem Benutzerkonto Teams, einem Netzwerkstandort zugewiesen oder beiden zugewiesen werden.  Wenn ein Teams gestartet wird oder eine Netzwerkverbindung ändert, führt Teams eine Suche der Netzwerkwebsite aus, auf der sich der Client befindet:
+Eine Richtlinie für Notrufe kann einem Benutzerkonto Teams, einem Netzwerkstandort zugewiesen oder beiden zugewiesen werden.  Wenn ein Teams startet oder eine Netzwerkverbindung ändert, führt Teams eine Suche der Netzwerkwebsite aus, auf der sich der Client befindet:
 
 - Wenn einer Netzwerkwebsite eine Richtlinie für Notrufe zugeordnet ist, wird die Websiterichtlinie zum Konfigurieren der Benachrichtigung des Sicherheitsdesks verwendet.
 
 - Wenn der Website keine Richtlinie für Notrufe zugeordnet ist oder der Client an einem nicht definierten Standort verbunden ist, wird die Dem Benutzerkonto zugeordnete Richtlinie für Notrufe verwendet, um die Benachrichtigung des Security Desk zu konfigurieren.  
 
-- Wenn der Teams eine Richtlinie für Notrufe nicht abrufen kann, ist der Benutzer nicht für Benachrichtigungen des Sicherheitsdesks aktiviert.
+- Wenn der Teams keine Richtlinie für Notrufe erhalten kann, ist der Benutzer nicht für Benachrichtigungen des Sicherheitsdesks aktiviert.
 
-Während eines Notrufs wird ein Sicherheits desk zu dem Anruf eingerufen, und die Benutzererfahrung des Sicherheitsdesks wird anhand der Richtlinie für Teams Notrufe gesteuert. Mit jedem Mitglied der Sicherheitsstelle wird ein Gruppenchat gestartet, und der Standort des Notrufers wird über eine wichtige Benachrichtigung freigegeben.  Wenn eine Konferenzoption als Teil der Richtlinie konfiguriert ist, wird jeder Benutzer des Sicherheitsdesks zusätzlich als Teil der Konferenz aufgerufen.
+Während eines Notrufs wird ein Sicherheits desk zu dem Anruf konferenziert, und die Benutzererfahrung des Sicherheitsdesk-Benutzers wird anhand der Richtlinie für Teams Notrufe gesteuert. Mit jedem Mitglied der Sicherheitsstelle wird ein Gruppenchat gestartet, und der Standort des Notrufers wird über eine wichtige Benachrichtigung freigegeben.  Wenn eine Konferenzoption als Teil der Richtlinie konfiguriert ist, wird jeder Benutzer des Sicherheitsdesks zusätzlich als Teil der Konferenz aufgerufen.
 
     
 ## <a name="related-topics"></a>Verwandte Themen

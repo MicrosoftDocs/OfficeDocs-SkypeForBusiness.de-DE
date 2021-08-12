@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (Wählpläne für PSTN-Anrufe) verwenden.
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, wie Sie Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (PSTN-Anrufpläne) verwenden.
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849200"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
-Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisierungsregeln herauseriert haben, die für die Anrufrouting erstellt werden müssen, können Sie die Wählpläne erstellen. Bei einem Administratorkonto, das über eine gültige Teams-Lizenz verfügt, können Sie das Microsoft Teams Admin Center oder Windows PowerShell verwenden, um Wählpläne zu erstellen und zu verwalten.  
+Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisierungsregeln herauseriert haben, die für die Sprachrouting erstellt werden müssen, können Sie die Wählpläne erstellen. Bei einem Administratorkonto, das über eine gültige Teams-Lizenz verfügt, können Sie das Microsoft Teams Admin Center oder Windows PowerShell verwenden, um Wählpläne zu erstellen und zu verwalten.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
@@ -45,7 +45,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 4. Konfigurieren **und ordnen Sie unter Normalisierungsregeln** eine oder mehrere [Normalisierungsregeln](what-are-dial-plans.md#normalization-rules) für den Wählplan zu. Jedem Wählplan muss mindestens eine Normalisierungsregel zugeordnet sein.  Dazu gehen Sie wie folgt vor:
     - Wenn Sie eine neue Normalisierungsregel erstellen und dem Wählplan zuordnen möchten, klicken Sie auf Hinzufügen **,** und definieren Sie dann die Regel.
     - Zum Bearbeiten einer Normalisierungsregel, die bereits mit dem Wählplan verknüpft ist, wählen Sie die Regel aus, indem Sie links des Regelnamens und dann auf **Bearbeiten klicken.** Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
-    - Um eine Normalisierungsregel aus dem Wählplan zu entfernen, wählen Sie die Regel aus, indem Sie links des Regelnamens und dann auf **Entfernen klicken.**
+    - Wenn Sie eine Normalisierungsregel aus dem Wählplan entfernen möchten, wählen Sie die Regel aus, indem Sie links des Regelnamens und dann auf **Entfernen klicken.**
 5. Ordnen Sie die Normalisierungsregeln in der von Ihnen zu ändernden Reihenfolge an. Klicken **Sie auf Nach** oben oder Nach **unten,** um die Position von Regeln in der Liste zu ändern.
 
     > [!NOTE]
@@ -67,7 +67,7 @@ Sie weisen einen Wählplan auf die gleiche Weise wie Richtlinien zu. [!INCLUDE [
 ## <a name="using-powershell"></a>Verwendung von PowerShell
   
 ### <a name="start-powershell"></a>Starten von PowerShell
-- Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus:
+- Öffnen Sie Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus:
 
 ```powershell
   # When using Teams PowerShell Module
@@ -187,14 +187,14 @@ Führen Sie dies aus, um alle Benutzer zu finden, denen der Mandantenwählplan "
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Führen Sie dies aus, um alle zugewiesenen TenantDialPlan-Dateien von allen Benutzern zu entfernen, die über einen HostProvider von sipfed.online.lync.com.
+Führen Sie dies aus, um alle zugewiesenen TenantDialPlan-Ressourcen von allen Benutzern zu entfernen, die über einen HostingProvider-sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
 Führen Sie diese aus, um den vorhandenen lokalen Wählplan mit dem Namen OPDP1 als Mandantenwählplan für Ihre Organisation hinzuzufügen. Sie müssen zuerst den lokalen Wählplan in einer .xml speichern und dann damit den neuen Mandantenwählplan erstellen.
   
-Führen Sie dies aus, um den lokalen Wählplan in der .xml speichern.
+Führen Sie diese Datei aus, um den lokalen Wählplan in der .xml speichern.
   
 ```PowerShell
 $DPName = "OPDP1"

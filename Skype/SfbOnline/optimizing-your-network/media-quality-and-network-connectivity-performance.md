@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: In diesem Thema werden die Anforderungen an die Netzwerkleistung für Skype for Business Online-Dienste sowie die Verwendung des Internets oder von ExpressRoute für die Konnektivität zwischen Ihrem Netzwerk und Skype for Business Online basierend auf Ihrer Bewertung der Netzwerkkonnektivität definiert. Wenn Sie sich für die Bereitstellung von Azure ExpressRoute für dedizierte Konnektivität für Microsoft 365 oder Office 365 entschieden haben, finden Sie in diesem Dokument auch Anleitungen zum Planen Ihrer ExpressRoute-Verbindungen in verschiedenen Skype for Business Online-Bereitstellungsszenarien.
-ms.openlocfilehash: 0bb750be4d4c21c8fec3cc8dc5d0ab5cf0b4cb6a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1ab00ad969b7de6432607abfdd0b9a7d4adaa579ca7274eedb98890291a615d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326681"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Medienqualität und Leistung der Netzwerkkonnektivität in Skype for Business Online
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: Es ist eine bewährte Methode, zu überprüfen, ob der Teams-Dienst fehlerfrei ist. Dies gilt auch für andere Microsoft 365- oder Office 365-Komponenten wie Exchange, SharePoint und OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2a3cfb82522a731d8902223e070a9f1c3dd1b95
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: c7aebfec6aedd018580ddece9d3d7dac4e30ca731b91decf5d74bc0acf9c3e91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646026"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316691"
 ---
 # <a name="verify-service-health-for-microsoft-teams"></a>Überprüfen der Dienstintegrität für Microsoft Teams
 

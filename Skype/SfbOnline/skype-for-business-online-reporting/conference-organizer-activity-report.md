@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Erfahren Sie, wie Sie Skype for Business Bericht "Organisierte Aktivität in einer Konferenz" erhalten und wie Sie ihn interpretieren und anpassen. '
-ms.openlocfilehash: 405d6eb151542b5e95651fc5903afc7b41fcfb3b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 14b46f6050b7634513b02cc5eaab11eac5d83f78a8e39b1cdca7cb301e7fa64b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238288"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326651"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
@@ -38,7 +38,7 @@ Weitere Informationen finden [Sie in der Übersicht](https://support.office.com/
 Dieser Bericht bietet Ihnen zusammen mit den anderen Skype for Business Details zu organisierten Konferenzen innerhalb Ihrer Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich. 
   
 > [!NOTE]
-> Wenn Sie sich als Skype for Business Administrator beim Microsoft 365 Admin Center anmelden, werden alle Microsoft 365 angezeigt. 
+> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>So erhalten Sie den Bericht Skype for Business Besprechungsorganisator
 

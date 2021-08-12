@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
+title: 'Microsoft Teams: Ressourcen für Administratoren von Bildungseinrichtungen'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: Education-Administratoren erhalten Informationen zu den Ressourcen, die in Microsoft Teams zum Aktivieren des Fernunterrichts zur Verfügung stehen.
+description: Education-Administratoren können sich über die ressourcen informieren, die in Microsoft Teams zum Aktivieren des Fernunterrichts zur Verfügung stehen.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,19 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f44a2bcb6bca642a4006ba398ccbd5393b9ee2b5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1ed3e57b22fa97acc68afc930f2bf10ab687abd5ab4d2442c45012ca034889d1
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849110"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
-==============================================
+# <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 
 ## <a name="resources-for-remote-learning"></a>Ressourcen für Fernunterricht
 
-Muss Ihre Bildungs-, Schul- oder Uni-Microsoft Teams für den Fernunterricht aktivieren? Mit dem einseitigen ["Erste Schritte"](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) und einem der unten angegebenen Einführungsmaterialien können Sie schnell starten!
+Muss Ihre Bildungs-, Schul- oder Uni-Microsoft Teams für den Fernunterricht aktivieren? Mit dem einseitigen [Erste Schritte und](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) einem der unten angegebenen Einführungsmaterialien können Sie schnell starten!
 
 ## <a name="adoption-content"></a>Inhalte zur Einführung
 
@@ -39,26 +38,26 @@ Bitte lesen Sie die [Geschäftsbedingungen, bevor](https://github.com/MicrosoftD
 
 ### <a name="physical-assets"></a>Sachanlagen
 
-| |  |
+|&nbsp; | &nbsp; |
 |---------|---------|
-|Poster – [anpassbar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) und [druckfertig](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Screenshot eines Posters](media/edu-adoption-posters.png)     |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Screenshot eines Handzettels](media/edu-adoption-handouts.png)|
-|[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Screenshot eines Handzettels](media/edu-adoption-flyers.png)   |[Buchwerbung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Screenshot einer Buchanzeige](media/edu-adoption-book-adverts.png)         |
-|[Tipps Broschüre "Tipps Tricks"](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Screenshot](media/edu-adoption-get-started.png)    |
+|Poster – [anpassbar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) und [druckfertig](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Foto eines Posters](media/edu-adoption-posters.png)     |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Foto eines Handzettels](media/edu-adoption-handouts.png)|
+|[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Foto eines Handzettels](media/edu-adoption-flyers.png)   |[Buchwerbung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Foto einer Buchanzeige.](media/edu-adoption-book-adverts.png)         |
+|[Foto der Tipps Tricks Broschüre.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Foto der Beispielbroschüre](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Digitale Objekte
 
-Lesen Sie unbedingt den Leitfaden für [digitale Toolkits,](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) um Ihren Start zu Teams maximieren! 
+Lesen Sie unbedingt den Leitfaden für [digitale Toolkits,](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) um Die Einführung Teams maximieren! 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
-|[E-Mail-Vorlagen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Screenshot](media/edu-adoption-email-templates.png)    |[GIFs](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Screenshot aus einer GIF-Datei](media/edu-adoption-gifs.png)      |
-|[Webbanner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Screenshot eines Webbanners](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Screenshot](media/edu-adoption-videos.png)          |
-|[Werbeanzeigen für digitalen Bildschirm](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Screenshot einer Digitalbildschirmanzeige](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[E-Mail-Vorlagen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Foto eines Beispielhandzettels.](media/edu-adoption-email-templates.png)    |[GIFs](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Screenshot aus einer GIF-Datei](media/edu-adoption-gifs.png)      |
+|[Webbanner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Foto eines Beispielwebbanners](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Screenshot des Beispiel-Videoöffners](media/edu-adoption-videos.png)          |
+|[Werbeanzeigen für digitalen Bildschirm](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Foto einer Werbeanzeige auf einem digitalen Bildschirm](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>Handlungsaufforderung
 
-- Besuchen Sie die [Teams for Education für](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Schulungen, Videos und interaktive Demos.
-- Aktivieren Teams im Microsoft 365 [Admin Center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (melden Sie sich als Office 365 an)
+- Besuchen Sie Teams für Education [Seite für Schulungen,](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Videos und interaktive Demos
+- Aktivieren Teams im Microsoft 365 Admin Center [(melden](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) Sie sich als Office 365 an)
 - Laden Sie Microsoft Teams-Clients herunter: [Laden Sie sich Microsoft Teams auf alle Ihre Geräte](https://teams.microsoft.com/downloads).
 - Lesen Sie weitere Informationen zu Office 365 für Bildungseinrichtungen im [Ausbildung-Hilfecenter](https://support.office.com/education).
 

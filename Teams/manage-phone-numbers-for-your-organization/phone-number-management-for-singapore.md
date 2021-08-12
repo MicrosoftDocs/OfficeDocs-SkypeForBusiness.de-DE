@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Singapur für Microsoft Teams.
-ms.openlocfilehash: 5374cffd5141338b1b8744c784127761f8d9f0678935c8cb3d52193b60acf658
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a52249be7eaa467eb337b60b14fd187c8add79d972e43860f7e238ed9496e702
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849140"
 ---
 # <a name="phone-number-management-for-singapore"></a>Telefon der Nummerverwaltung für Singapur
 
@@ -37,11 +37,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In Singapur können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an die PTSN wenden, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für Singapur (v.1.0) (en-sg).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Es kann zwei bis drei Wochen dauern, bis neue Aufträge in diesem Markt ein erfüllen.  |
-|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Singapur (alle Nummern) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>Füllen Sie das Formular aus, und [wenden Sie sich bezüglich Anweisungen an PTSN](contact-pstn-service-desk.md). <br/><br/>Die Übertragung von Nummern kann in diesem Markt je nach Komplexität des Ports ein bis sechs Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an PTSN, um Anweisungen](contact-pstn-service-desk.md) bezüglich der Liste der Telefonnummern zu erfahren, die Sie in Dienstnummern konvertieren möchten. <br/> |
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Wenden Sie sich an [den PSTN Service Desk](contact-pstn-service-desk.md), um Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen hinzuzufügen oder zu ändern.|
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In Singapur können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an den [PTSN Service Desk](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>[Neue Telefonnummernanforderung für Singapur (v.1.0) (en-sg)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true). <br/><br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den PTSN Service Desk](contact-pstn-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen.  |
+|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Singapur (alle Nummern) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/><br/>Die Übertragung von Nummern kann in diesem Markt je nach Komplexität des Ports ein bis sechs Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Nummern von Anrufwarteschleifen oder automatischen Telefonanbietern erhalten Sie beim [PTSN Service Desk.](contact-pstn-service-desk.md)|
    
 ## <a name="related-topics"></a>Verwandte Themen
 
