@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: 'Im Knoten Zweigstellenstandorte werden die Zweigstellenstandorte aufgelistet, die diesem zentralen Standort zugeordnet sind. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 8e0685d75a7f53981c215723a19b535f2cf0fea9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: af440d91320d50b461bc874030d271cbd2214802f34040fac7e29df818d0436f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333757"
 ---
 # <a name="branch-offices-scope-node"></a>Zweigstellen – Bereichsknoten
  
@@ -30,7 +30,7 @@ Im Knoten **Zweigstellenstandorte** werden die Zweigstellenstandorte aufgelistet
     
 Zusätzlich zu den Optionen für Zweigstellenstandorte sind die folgenden allgemeinen Optionen verfügbar:
   
-- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten aus früheren Versionen zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Sie können diese Option verwenden, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren, Komponenten aus früheren Versionen zusammenzuführen oder die Bereitstellung zu entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     

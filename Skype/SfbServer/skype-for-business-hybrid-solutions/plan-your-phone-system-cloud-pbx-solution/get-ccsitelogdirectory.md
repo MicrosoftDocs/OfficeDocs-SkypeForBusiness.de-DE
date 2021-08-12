@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
-description: 'Das Cmdlet „Get-CcSiteLogDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Protokolle auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. '
-ms.openlocfilehash: cace3ce3757294adbb3c55db24c619925f55ce5a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das cmdlet Get-CcSiteLogDirectory zeigt das aktuelle Verzeichnis an, in dem die Protokolle auf Standortebene für Skype for Business Cloud Connector Edition gespeichert sind.
+ms.openlocfilehash: 7c15d0b715384fd18522122571da69f58a83ed337d46420e83f7ac35cfd0c018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349517"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
-Das Cmdlet „Get-CcSiteLogDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Protokolle auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden.  
+Das cmdlet Get-CcSiteLogDirectory zeigt das aktuelle Verzeichnis an, in dem die Protokolle auf Standortebene für Skype for Business Cloud Connector Edition gespeichert sind. 
   
-Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1 und 1.4.2.
+Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcSiteLogDirectory
@@ -37,9 +37,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Das folgende Beispiel zeigt den aktuellen Ordner, in dem die Protokolldateien für die Cloud Connector-Website gespeichert sind:
+Das folgende Beispiel zeigt den aktuellen Ordner, in dem die Protokolldateien für den Cloud Connector-Standort gespeichert sind:
   
 ```powershell
 Get-CcSiteLogDirectory
@@ -48,12 +48,12 @@ Get-CcSiteLogDirectory
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Der Standardordner lautet C:\Users\%USERPROFILE%\CloudConnector\SiteRoot\Logs. Sie können den Ordner ändern, indem Sie das Cmdlet „Set-CcSiteDirectory“ ausführen. Es gibt kein separates Cmdlet, das nur den Speicherort des Protokollordners, aber nicht das Standortverzeichnis ändert.
+Der Standardordner lautet "C:\Users \% userprofile%\CloudConnector\SiteRoot\Logs". Sie können den Ordner ändern, indem Sie das Cmdlet Set-CcSiteDirectory ausführen. Es gibt kein separates Cmdlet, das nur den Speicherort des Protokollordners ändert, ohne das Websiteverzeichnis zu ändern.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Get-CcSiteLogDirectory“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Get-CcSiteLogDirectory akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

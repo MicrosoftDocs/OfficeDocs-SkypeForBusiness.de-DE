@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Dieser Bericht bietet Ihnen mit den anderen Skype for Business-Berichten nähere Einzelheiten zur jeweiligen Aktivität, einschließlich der PSTN-Nutzung in der gesamten Organisation. '
-ms.openlocfilehash: 174a186b2f629dced46910fd206d33ce82b701c8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: beacb15a283402c4ba4c7f2ec223eb6d9f48b2702e9aaabc565224eb0b391fc8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314941"
 ---
 # <a name="users-blocked-report"></a>Bericht „Benutzer gesperrt“
 
@@ -35,7 +35,7 @@ Im neuen Skype for Business-Dashboard **Berichte** wird eine Aktivitätsübersic
  Weitere verfügbare [Berichte finden](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) Sie unter Übersicht über Berichte.
   
 > [!NOTE]
-> Sie können alle Ihre Skype for Business anzeigen, wenn Sie sich als Administrator beim Microsoft 365 Admin Center anmelden. 
+> Sie können alle berichte Skype for Business, wenn Sie sich als Administrator bei der Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>So erhalten Sie den Bericht Skype for Business gesperrten Benutzern
 

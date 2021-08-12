@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Erfahren Sie, Microsoft 365 Gruppen und Gruppenmitgliedschaften mit anderen Microsoft Teams.
-ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282898"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Gruppen und Microsoft Teams
 
@@ -44,7 +44,7 @@ Beim Erstellen einer Microsoft 365 Gruppe in Outlook Oder SharePoint Gruppenpost
 
 Wenn Sie ein Mitglied eines Teams entfernen, wird es auch aus Microsoft 365 Gruppe entfernt. Durch das Entfernen aus der Gruppe werden das Team und die Kanäle unmittelbar vom Teams-Client entfernt. Wenn Sie eine Person aus einer Gruppe über das Microsoft 365-Admin Center entfernen, hat diese keinen Zugriff mehr auf die anderen kollaborativen Elementen wie die SharePoint Online-Dokumentbibliothek, die Yammer-Gruppe oder freigegebene OneNote. Sie haben jedoch für etwa zwei Stunden weiterhin Zugriff auf die Chatfunktionen des Teams.
 
-Als bewährte Methode zum Verwalten von Teammitgliedern fügen Sie sie dem Teams-Client hinzu, und entfernen Sie sie, um sicherzustellen, dass die Berechtigungsaktualisierungen für andere mit einer Gruppe verbundene Workloads schnell erfolgen. Wenn Sie Teammitglieder außerhalb des Teams-Clients hinzufügen oder entfernen (mithilfe des Microsoft 365 Admin Centers, von Azure AD oder Exchange Online PowerShell), kann es bis zu 24 Stunden dauern, bis Änderungen in den Teams.
+Als bewährte Methode zum Verwalten von Teammitgliedern fügen Sie sie dem Teams-Client hinzu, und entfernen Sie sie, um sicherzustellen, dass die Berechtigungsaktualisierungen für andere mit einer Gruppe verbundene Workloads schnell erfolgen. Wenn Sie Teammitglieder außerhalb des Teams-Clients hinzufügen oder entfernen (mithilfe von Microsoft 365 Admin Center, Azure AD oder Exchange Online PowerShell), kann es bis zu 24 Stunden dauern, bis Änderungen in der Teams.
 
 ## <a name="deleting-groups-and-teams"></a>Löschen von Gruppen und Teams
 

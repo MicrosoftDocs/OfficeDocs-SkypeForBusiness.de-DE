@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e02aca3c02f73bbb2835bc1ff2d949b1e3415a96
-  ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+  ms.openlocfilehash: a1733e76c93b7be0a4a4d34da53beafa89325edf891cc39df66526769937397e
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/01/2021
-  ms.locfileid: "53679760"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54282947"
 title: 'Häufig gestellten Fragen: Upgrade von Skype for Business auf Microsoft Teams'
 summary: ''
 sections:
@@ -78,7 +78,7 @@ sections:
       - [Assisted upgrades from Skype for Business Online to Microsoft Teams](upgrade-assisted.md) – Automated program that assists you with the technical steps of upgrade Skype for Business Online users to Teams.
 
 
-      - [FastTrack für Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams Bereitstellungsunterstützung für qualifizierende Pläne verfügbar.
+      - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams Bereitstellungsunterstützung für qualifizierende Pläne verfügbar.
 
 
       - [Teams Liveschulung](./instructor-led-training-teams-landing-page.yml) – Kostenlose Onlineschulungen, die dafür entwickelt wurden, Ihre Organisation mit Ihren Teams.

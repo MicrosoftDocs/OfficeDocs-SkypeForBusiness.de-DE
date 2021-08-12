@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'So ändern Sie die Eigenschaften der definierten Dateispeicher:'
-ms.openlocfilehash: 87ba595ff15b6864ea162c4155fa84937aa13ed7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: afd151deb882351be24a737cea82316f60d62789d48086504b9be9ece9dda0eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291223"
 ---
 # <a name="file-store-settings-expander"></a>Dateispeichereinstellungen – Erweiterung
  

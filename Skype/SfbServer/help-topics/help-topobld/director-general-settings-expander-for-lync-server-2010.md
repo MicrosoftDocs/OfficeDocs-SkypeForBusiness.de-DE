@@ -14,29 +14,29 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: 'So konfigurieren Sie die allgemeinen Eigenschaften des Director oder eines Directorpools:'
-ms.openlocfilehash: e31dcf72297bfcbc9afd4f45e232de71c5620b7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'So konfigurieren Sie die allgemeinen Eigenschaften des Director oder eines Director-Pools:'
+ms.openlocfilehash: 7f0e7e80f024c3245907750deeb5c7f30bf3fd7b27c5f9283dd2e49544495a3a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333707"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Allgemeine Director-Einstellungen für Lync Server 2010 – Erweiterung
  
-So konfigurieren Sie **die allgemeinen** Eigenschaften des Director oder eines Directorpools:
+So konfigurieren Sie die **allgemeinen** Eigenschaften des Director oder eines Director-Pools:
   
- **FQDN:** Geben Sie den vollqualifizierten Domänennamen des Director oder eines Directorpools ein.
+ **FQDN:** Geben Sie den vollqualifizierten Domänennamen des Director oder eines Director-Pools ein.
   
- **Zuordnungen**
+ **Verbände**
   
- **Dateispeicher:** Wählen Sie in der Liste den Dateispeicher für den Director oder einen Directorpool aus.
+ **Dateispeicher:** Wählen Sie aus der Liste den Dateispeicher für den Director oder einen Directorpool aus.
   
 Klicken Sie auf **Neu**, um einen neuen Dateispeicher zu definieren.
   
-Aktivieren Sie das **Kontrollkästchen "Monitoring Server** zuordnen", und wählen Sie in der Liste einen Monitoring Server aus.
+Aktivieren Sie das Kontrollkästchen **"Monitoring Server zuordnen",** und wählen Sie in der Liste einen Monitoring Server aus.
   
-Klicken Sie **auf "Neu",** um einen neuen Monitoring Server zu definieren.
+Klicken Sie auf **"Neu",** um einen neuen Monitoring Server zu definieren.
   
  **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: Importiert die Skype for Business Cloud Connector Edition-Konfiguration aus einer lokalen Datei auf den Cloud Connector-Hostserver.
-ms.openlocfilehash: 626ba52d4d67f99dd67d3d1f91d26d6e6d03f95e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4ac32f460c2c493f5d78f1a38adcdd0728763bbbcf57a67470823fb88d407d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349497"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
@@ -31,9 +31,9 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel wird die CloudConnector. ini aus dem Appliance-Verzeichnis der Cloud Connector-Instanz in das%SystemDrive%\ProgramData\CloudConnector-Verzeichnis kopiert:
+Im folgenden Beispiel wird die CloudConnector.ini aus dem Appliance-Verzeichnis der Cloud Connector-Instanz in das Verzeichnis %SystemDrive%\ProgramData\CloudConnector kopiert:
   
 ```powershell
 Import-CcConfiguration
@@ -42,24 +42,24 @@ Import-CcConfiguration
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="Examples"> </a>
 
-Mit diesem Cmdlet wird die CloudConnector. ini aus dem Appliance-Verzeichnis der Cloud Connector-Appliance in das%SystemDrive%\ProgramData\CloudConnector-Verzeichnis kopiert. Das Appliance-Verzeichnis wird mit dem Cmdlet „Set-CcApplianceDirectory cmdlet“ angegeben. Mit dem Cmdlet werden alle vorhandenen Dateien in%SystemDrive%\ProgramData\CloudConnector. überschrieben. Dieser Befehl gilt für Cloud Connector Edition Version 2.0.1 und höher.
+Dieses Cmdlet kopiert die CloudConnector.ini aus dem Appliance-Verzeichnis der Cloud Connector-Appliance in das Verzeichnis %SystemDrive%\ProgramData\CloudConnector. Das Appliance-Verzeichnis wird mithilfe des Cmdlets Set-CcApplianceDirectory angegeben. Das Cmdlet überschreibt alle vorhandenen Dateien in %SystemDrive%\ProgramData\CloudConnector. Dieser Befehl gilt für Cloud Connector Edition, Version 2.0.1 und höher.
   
 ## <a name="parameters"></a>Parameter
 <a name="Examples"> </a>
 
-|**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
+|**Parameter**|**Required**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|Force  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Vorhandene Datei in%SystemDrive%\ProgramData\CloudConnector ohne Benachrichtigung überschreiben.  <br/> |
+|Force  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Überschreiben Sie die vorhandene Datei in %SystemDrive%\ProgramData\CloudConnector ohne Benachrichtigung.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="Examples"> </a>
 
-Keine. Das Cmdlet "Import-CcConfiguration" akzeptiert keine Pipeline-Eingabe.
+Keine. Das cmdlet Import-CcConfiguration akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="Examples"> </a>
 
-Keine.
+None.
   
 ## <a name="see-also"></a>Siehe auch
 <a name="Examples"> </a>

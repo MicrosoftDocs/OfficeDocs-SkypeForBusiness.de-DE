@@ -12,38 +12,38 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 'Zusammenfassung: Erfahren Sie, wie Sie den Kompatibilitätsdienst für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie, wie Sie den Serverkompatibilitätsdienst für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
+ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815065"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349307"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
 
-**Zusammenfassung:** Erfahren Sie, wie Sie den Kompatibilitätsdienst für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie den Serverkompatibilitätsdienst für beständigen Chat in Skype for Business Server 2015 konfigurieren.
 
-Mit der Kompatibilität für beständigen Chat können Administratoren ein Archiv von Nachrichten und Aktivitäten für beständigen Chat verwalten. Der Kompatibilitätsdienst zeichnet Daten im Zusammenhang mit jeder Unterhaltung des Servers für beständigen Chat auf und archiviert sie, z. B. wenn ein Teilnehmer:
+Mit der Kompatibilität für beständigen Chat können Administratoren ein Archiv von Nachrichten und Aktivitäten für beständigen Chat verwalten. Der Compliancedienst erfasst und archiviert Daten im Zusammenhang mit den einzelnen Unterhaltungen des Servers für beständigen Chat, auch wenn ein Teilnehmer:
 
 - Beitritt zu einem Chatroom für beständigen Chat
 
 - Verlässt einen Chatroom
 
-- Veröffentlicht eine Nachricht
+- Postet eine Nachricht
 
-- Ansichten des Chatverlaufs
+- Zeigt den Chatverlauf an
 
 - Lädt eine Datei hoch
 
 - Lädt eine Datei herunter
 
-Diese Informationen können nach Bedarf aus der Kompatibilitätsdatenbank SQL abgerufen werden. 
+Diese Informationen können bei Bedarf aus der Compliance-SQL-Datenbank abgerufen werden. 
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams-Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität benötigen, zu Teams migrieren oder Weiterhin Skype for Business Server 2015 verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Konfigurieren des Kompatibilitätsdiensts mithilfe Windows PowerShell
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Konfigurieren des Compliancediensts mithilfe von Windows PowerShell
 
 Nachdem der Kompatibilitätsdienst mithilfe des Topologie-Generators aktiviert wurde, können Sie den Dienst mithilfe des Cmdlets **"Set-CsPersistenChatComplianceConfiguration"** konfigurieren:
 
@@ -59,45 +59,45 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 Sie können die folgenden Parameter festlegen:
 
-- AdapterType : Ermöglicht die Angabe des Adaptertyps. Ein Adapter ist ein Drittanbieterprodukt, das die Daten in der Kompatibilitätsdatenbank in ein bestimmtes Format konvertiert. XML ist die Standardeinstellung.
+- AdapterType: Ermöglicht die Angabe des Adaptertyps. Ein Adapter ist ein Drittanbieterprodukt, das die Daten in der Konformitätsdatenbank in ein bestimmtes Format konvertiert. XML ist die Standardeinstellung.
 
-- OneChatRoomPerOutputFile : Mit diesem Parameter können Sie angeben, dass für jeden Chatroom separate Berichte erstellt werden sollen.
+- OneChatRoomPerOutputFile : Mit diesem Parameter können Sie angeben, dass separate Berichte für jeden Chatroom erstellt werden sollen.
 
-- AddChatRoomDetails: Bei Aktivierung zeichnet dieser Parameter zusätzliche Details zu jedem Chatroom in der Datenbank auf. Da diese Einstellung die Größe der Datenbank erheblich erhöhen kann, ist sie standardmäßig deaktiviert.
+- AddChatRoomDetails : Wenn dieser Parameter aktiviert ist, werden zusätzliche Details zu jedem Chatroom in der Datenbank aufgezeichnet. Da diese Einstellung die Größe der Datenbank erheblich erhöhen kann, ist sie standardmäßig deaktiviert.
 
-- AddUserDetails: Bei Aktivierung zeichnet dieser Parameter zusätzliche Details zu jedem Chatroombenutzer in der Datenbank auf. Da diese Einstellung die Größe der Datenbank erheblich erhöhen kann, ist sie standardmäßig deaktiviert.
+- AddUserDetails : Wenn dieser Parameter aktiviert ist, werden zusätzliche Details zu jedem Chatroombenutzer in der Datenbank aufgezeichnet. Da diese Einstellung die Größe der Datenbank erheblich erhöhen kann, ist sie standardmäßig deaktiviert.
 
-- Identität : Dieser Parameter ermöglicht den Bereich der Kompatibilitätseinstellungen für eine bestimmte Auflistung, einschließlich der globalen, Standort- und Dienstebenen. Der Standardwert ist die globale Ebene. 
+- Identität : Dieser Parameter ermöglicht es, Complianceeinstellungen auf eine bestimmte Sammlung, einschließlich der globalen, Website- und Serviceebenen, zu beschränken. Der Standardwert ist die globale Ebene. 
 
-- RunInterval – Dieser Parameter bestimmt die Zeit, bevor der Server die nächste Konformitätsausgabedatei erstellt (der Standardwert beträgt 15 Minuten).
+- RunInterval : Dieser Parameter bestimmt die Zeitspanne, bis der Server die nächste Konformitätsausgabedatei erstellt (der Standardwert ist 15 Minuten).
 
 ## <a name="use-a-customized-compliance-adapter"></a>Verwenden eines angepassten Kompatibilitätsadapters
 
-Sie können einen benutzerdefinierten Adapter schreiben, anstatt den mit dem Server für beständigen Chat installierten XmlAdapter zu verwenden. Hierzu müssen Sie eine .NET Framework-Assembly bereitstellen, die eine öffentliche Klasse enthält, die die **IComplianceAdapter**-Schnittstelle implementiert. Sie müssen diese Assembly im Installationsordner für den Server für beständigen Chat auf jedem Server in Ihrem Pool für den Server für beständigen Chat platzieren. Jeder der Konformitätsserver kann Konformitätsdaten für Ihren Adapter bereitstellen, aber die Konformitätsserver stellen keine doppelten Konformitätsdaten für mehrere Instanzen des Adapters bereit.
+Sie können einen benutzerdefinierten Adapter schreiben, anstatt den XmlAdapter zu verwenden, der mit dem Server für beständigen Chat installiert ist. Hierzu müssen Sie eine .NET Framework-Assembly bereitstellen, die eine öffentliche Klasse enthält, die die **IComplianceAdapter**-Schnittstelle implementiert. Sie müssen diese Assembly im Installationsordner des Servers für beständigen Chat auf jedem Server in Ihrem Serverpool für beständigen Chat platzieren. Jeder der Konformitätsserver kann Konformitätsdaten für Ihren Adapter bereitstellen, aber die Konformitätsserver stellen keine doppelten Konformitätsdaten für mehrere Instanzen des Adapters bereit.
 
-Die Schnittstelle wird in der Compliance.dll im Namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance` definiert. Die Schnittstelle definiert zwei Methoden, die ihr benutzerdefinierter Adapter implementieren muss.
+Die Schnittstelle wird in der Compliance.dll Assembly im Namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance` definiert. Die Schnittstelle definiert zwei Methoden, die der benutzerdefinierte Adapter implementieren muss.
 
-Der Kompatibilitätsserver für beständigen Chat wird beim ersten Laden des Adapters die folgende Methode aufrufen. Die enthält die Konformitätskonfiguration für den beständigen  `AdapterConfig` Chat, die für den Kompatibilitätsadapter relevant ist:
+Der Kompatibilitätsserver für beständigen Chat ruft beim ersten Laden des Adapters die folgende Methode auf. Enthält  `AdapterConfig` die Kompatibilitätskonfiguration für beständigen Chat, die für den Kompatibilitätsadapter relevant ist:
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-Der Kompatibilitätsserver für beständigen Chat ruft die folgende Methode in regelmäßigen Abständen auf, solange neue zu übersetzende Daten vorhanden sind. Dieses Zeitintervall entspricht dem in der Konformitätskonfiguration für beständigen  `RunInterval` Chat festgelegten Intervall:
+Der Kompatibilitätsserver für beständigen Chat ruft die folgende Methode in regelmäßigen Abständen auf, solange neue Zu übersetzende Daten vorhanden sind. Dieses Zeitintervall entspricht dem  `RunInterval` in der Kompatibilitätskonfiguration für beständigen Chat festgelegten Zeitintervall:
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-Die  `ConversationCollection` enthält die Unterhaltungsinformationen, die beim letzten Aufgerufen dieser Methode gesammelt wurden.
+Enthält  `ConversationCollection` die Unterhaltungsinformationen, die beim letzten Aufruf dieser Methode gesammelt wurden.
 
 ## <a name="customize-the-xslt-definition-file"></a>Anpassen der XSLT-Definitionsdatei
 
-Die Kompatibilitätsdaten werden als XML übermittelt, das Sie mithilfe einer XSLT-Definitionsdatei in das format umwandeln können, das ihrer Organisation am besten entspricht. In diesem Thema ist die vom Kompatibilitätsdienst erstellte XML-Datei beschrieben. Zudem werden Beispiele von XSLT-Definition und Ausgabedateien bereitgestellt.
+Die Compliancedaten werden als XML bereitgestellt, das Sie mithilfe einer XSLT-Definitionsdatei in das für Ihre Organisation am besten geeignete Format umwandeln können. In diesem Thema ist die vom Kompatibilitätsdienst erstellte XML-Datei beschrieben. Zudem werden Beispiele von XSLT-Definition und Ausgabedateien bereitgestellt.
 
 ### <a name="output-format"></a>OutputFormat
 
-Die Ausgabe des Kompatibilitätsdiensts wird nach Unterhaltung (unterhaltungselement) und dann nach Nachricht (dem Nachrichtenelement) kategorisiert, wie im folgenden Codebeispiel gezeigt:
+Die Ausgabe des Konformitätsdiensts wird nach Unterhaltung (dem Unterhaltungselement) und dann nach Nachricht (nachrichtenelement) kategorisiert, wie im folgenden Codebeispiel gezeigt:
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -114,7 +114,7 @@ Die Ausgabe des Kompatibilitätsdiensts wird nach Unterhaltung (unterhaltungsele
 </Conversations>
 ```
 
-Ein Unterhaltungselement enthält vier Elemente ("Channel", "FirstMessage", "StartTimeUTC" und "EndTimeUTC"). Das Element "Channel" enthält den Uniform Resource Identifier (URI) des Chatrooms, und das Element "FirstMessage" beschreibt das erste Element im Nachrichtenelement. Die Elemente "StartTimeUTC" und "EndTimeUTC" geben die Start- und Endzeiten für die Unterhaltung an, wie im folgenden Codebeispiel gezeigt:
+Ein Unterhaltungselement enthält vier Elemente ("Channel", "FirstMessage", "StartTimeUTC" und "EndTimeUTC"). Das Element "Channel" enthält den Uniform Resource Identifier (URI) des Chatrooms, und das Element "FirstMessage" beschreibt das erste Element im Nachrichtenelement. Die Elemente StartTimeUTC und EndTimeUTC stellen die Start- und Endzeiten für die Unterhaltung bereit, wie im folgenden Codebeispiel gezeigt:
 
 ```xml
 <FirstMessage type="JOIN" content="" id="0">
@@ -123,7 +123,7 @@ Ein Unterhaltungselement enthält vier Elemente ("Channel", "FirstMessage", "St
 </FirstMessage>
 ```
 
-Ein Nachrichtenelement enthält zwei Elemente ("Sender" und "DateTimeUTC") und drei Attribute ("Type", "Content" und "ID"). Das Sender -Element stellt den Benutzer, der die Nachricht sendet, und das DateTimeUTC -Element darstellt, wenn ein Ereignis auftritt, wie im folgenden Codebeispiel gezeigt:
+Ein Nachrichtenelement enthält zwei Elemente ("Sender" und "DateTimeUTC") und drei Attribute ("Type", "Content" und "ID"). Das Sender-Element stellt den Benutzer dar, der die Nachricht sendet, und das DateTimeUTC-Element stellt dar, wann ein Ereignis auftritt, wie im folgenden Codebeispiel gezeigt:
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -132,7 +132,7 @@ Ein Nachrichtenelement enthält zwei Elemente ("Sender" und "DateTimeUTC") und d
 </Message>
 ```
 
-In der folgenden Tabelle werden die Nachrichtenattribute "Type", "Content" und "ID" beschrieben.
+In der folgenden Tabelle werden die Nachrichtenattribute Typ, Inhalt und ID beschrieben.
 
 **Nachrichtenelementattribute**
 
@@ -148,9 +148,9 @@ Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "i
 
 |**Attribut**|**Beschreibung**|**Optional/Erforderlich**|
 |:-----|:-----|:-----|
-|Username  <br/> |Der Name des Absenders.  <br/> |Optional  <br/> |
+|Benutzername  <br/> |Der Name des Absenders.  <br/> |Optional  <br/> |
 |ID  <br/> |Die eindeutige ID des Absenders.  <br/> |Erforderlich  <br/> |
-|E-Mails  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
+|E-Mail  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
 |Intern  <br/> |Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.  <br/> |Optional  <br/> |
 |Uri  <br/> |Der SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
 
@@ -165,7 +165,7 @@ Teilnehmen – Ein Benutzer tritt einem Chatroom bei.
 </Message
 ```
 
-Teil : Ein Benutzer verlässt einen Chatroom.
+Teil: Ein Benutzer verlässt einen Chatroom.
 
 ```xml
 <Message type="PART" content="" id="0">
@@ -174,7 +174,7 @@ Teil : Ein Benutzer verlässt einen Chatroom.
 </Message>
 ```
 
-Chat : Die E-Mail-Adresse des Absenders.
+Chat – Die E-Mail-Adresse des Absenders.
 
 ```xml
 <Message type="CHAT" content="hello" id="1">
@@ -192,7 +192,7 @@ Backchat : Ein Benutzer fordert Inhalte aus dem Chatverlauf an.
 </Message>
 ```
 
-Dateiupload: Ein Benutzer lädt eine Datei hoch.
+Dateiupload : Ein Benutzer lädt eine Datei hoch.
 
 ```xml
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
@@ -210,9 +210,9 @@ Dateidownload: Ein Benutzer lädt eine Datei herunter.
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>XSD der Standardausgabe für beständigen Chat und Beispiel-XSL-Transformation
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>XSD-Ausgabe für beständigen Chat und XSL-Beispieltransformation
 
-Das folgende Codebeispiel enthält die Standardausgabe des Kompatibilitätsservers:
+Das folgende Codebeispiel enthält die Standardausgabe vom Complianceserver:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -311,7 +311,7 @@ Das folgende Codebeispiel enthält die Standardausgabe des Kompatibilitätsserve
 </xs:schema>
 ```
 
-Das folgende Codebeispiel enthält eine BEISPIEL-XSL-Transformation:
+Das folgende Codebeispiel enthält eine XSL-Beispieltransformation:
 
 ```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">

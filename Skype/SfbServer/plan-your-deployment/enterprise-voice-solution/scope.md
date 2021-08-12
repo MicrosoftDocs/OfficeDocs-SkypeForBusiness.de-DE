@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
-description: Entscheidungen, die für die Planung einer E9-1-1-Bereitstellung in Skype for Business Server erforderlich Enterprise-VoIP.
-ms.openlocfilehash: 39397064fe525a2b1324b8ef0a0f0bb1df287653
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Entscheidungen, die für die Planung einer E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP erforderlich sind.
+ms.openlocfilehash: 0fb334f612c2e63a7c2e47779ee4f02ee0e543741a460933cb632bdd8e54d279
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290063"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definieren des Umfangs der E9-1-1-Bereitstellung in Skype for Business Server
 
-Entscheidungen, die für die Planung einer E9-1-1-Bereitstellung in Skype for Business Server erforderlich Enterprise-VoIP.
+Entscheidungen, die für die Planung einer E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP erforderlich sind.
 
 Bevor Sie Skype for Business für E9-1-1 konfigurieren, müssen Sie Ihre E9-1-1-Bereitstellung planen. Stellen Sie sich die folgenden Fragen:
 
- **Was sind die Richtlinien und rechtlichen Verpflichtungen Ihrer Organisation in Bezug auf E9-1-1?**
+ **Was sind die Richtlinien und gesetzlichen Verpflichtungen Ihrer Organisation in Bezug auf E9-1-1?**
 
- Die gesetzlichen E9-1-1-Anforderungen für Nebenstellenanlagen (im E9-1-1-Jargon als "Telefonsysteme mit mehreren Leitungen" oder "Mehrleitungstelefonsystemen" bezeichnet) unterscheiden sich von Staat zu Staat. Sie sollten sich mit Ihrem Rechtsteam beraten, um die Verpflichtungen zu verstehen, die für Ihre Bereitstellung von Skype for Business in Ihren relevanten Regionen gelten können.
+ Die gesetzlichen E9-1-1-Anforderungen für Nebenstellenanlagen (im E9-1-1-Jargon als "Telefonsysteme mit mehreren Leitungen" oder "Mehrleitungstelefonsystemen" bezeichnet) unterscheiden sich von Staat zu Staat. Wenden Sie sich an Ihr Rechtsteam, um die Verpflichtungen zu verstehen, die für die Bereitstellung von Skype for Business in Ihren relevanten Regionen gelten können.
 
  **Welche Bereiche innerhalb Ihres Unternehmens müssen für E9-1-1 aktiviert werden?**
 
@@ -39,14 +39,14 @@ Bevor Sie Skype for Business für E9-1-1 konfigurieren, müssen Sie Ihre E9-1-1-
 
  **Wie möchten Sie E9-1-1-Zweigstellen bereitstellen?**
 
- Sie müssen mit dem Konzept der VoIP-Ausfallsicherheit für Zweigstellenstandorte vertraut sein, wenn Sie E9-1-1 in einer Zweigstelle bereitstellen. Wenn Sie über zentrale E-9-1-1-SIP-Trunks verfügen und ein WAN-Ausfall auftritt, können Clients, die sich anmelden, möglicherweise keinen Standort vom Standortinformationsdienst abrufen oder keine Verbindung mit dem Notrufdienstanbieter herstellen. Skype for Business bietet verschiedene Strategien für die Behandlung der Ausfallsicherheit von Sprachnachrichten in Zweigstellen, darunter: ausfallsichere Datennetzwerke, Bereitstellen eines SIP-Trunks an jeder Zweigstelle oder Pushen von Notrufen an das lokale Gateway während eines Ausfalls. Ausführliche Informationen finden Sie unter [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
+ Sie müssen mit dem Konzept der VoIP-Ausfallsicherheit für Zweigstellenstandorte vertraut sein, wenn Sie E9-1-1 in einer Zweigstelle bereitstellen. Wenn Sie über zentralisierte E-9-1-1-SIP-Trunks verfügen und ein WAN-Ausfall auftritt, können sich anmeldende Clients möglicherweise keinen Standort vom Standortinformationsdienst abrufen oder keine Verbindung mit dem Dienstanbieter für Notrufdienste herstellen. Skype for Business bietet mehrere Strategien für die Behandlung von VoIP-Resilienz in Zweigstellen, einschließlich: Ausfallsicherheit von Datennetzwerken, Bereitstellen eines SIP-Trunks an jeder Zweigstelle oder Senden von Notrufen an das lokale Gateway bei Ausfällen. Ausführliche Informationen finden Sie unter [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
 
  **Planen Sie die Aktivierung von E9-1-1 für Benutzer außerhalb des Netzwerks?**
 
- Der automatische Standorterwerb ist nur für Clients verfügbar, die sich im Netzwerk der Organisation befinden. Daher muss Ihre Organisation entscheiden, ob sie E9-1-1-Anrufe unterstützt, die von Skype for Business-Clients außerhalb des Lokalen vorgenommen werden. Können Benutzer beispielsweise notrufen, wenn sie von zu Hause oder von einer Kundenwebsite aus arbeiten? Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, kann der Client so konfiguriert werden, dass der Benutzer einen Standort einfordert. Da diese vom Benutzer bereitgestellten Standorte jedoch nicht mit dem Master Street Address Guide (MSAG) vorvalidiert werden können, muss der Disponent des Notrufdienstanbieters die Gültigkeit des Standorts mit dem Anrufer mündlich bestätigen, bevor er den Anruf an den öffentlichen Sicherheitsanrufpunkt (Public Safety Answering Point, PSAP) weiterleitet.
+ Die automatische Standorterfassung ist nur für Clients verfügbar, die sich im Netzwerk der Organisation befinden. Daher muss Ihre Organisation entscheiden, ob E9-1-1-Anrufe von Skype for Business Clients unterstützt werden, die außerhalb des Standorts getätigt werden. Können Benutzer beispielsweise Notrufe tätigen, wenn sie von zu Hause aus oder von einer Kundenwebsite aus arbeiten? Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, kann der Client so konfiguriert werden, dass der Benutzer zur Eingabe eines Standorts aufgefordert wird. Da diese vom Benutzer bereitgestellten Standorte jedoch nicht anhand des Master Street Address Guide (MSAG) vorab überprüft werden können, muss der Verteiler des Notrufdienstes die Gültigkeit des Standorts mit dem Anrufer bestätigen, bevor der Anruf an die Rettungsleitstelle (Public Safety Answering Point, PSAP) weiterleitet.
 
 > [!NOTE]
-> Skype for Business-Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, können interne IP-Adressinformationen abspeichern. Da diese Adressen jedoch nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze vom Standortinformationsdienst ausgeschlossen werden.
+> Skype for Business Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, können interne IP-Adressinformationen abrufen. Da diese Adressen jedoch nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze vom Standortinformationsdienst ausgeschlossen werden.
 
  **Möchten Sie eine Weiterleitung von Notrufen an Standorte außerhalb der USA bereitstellen?**
 

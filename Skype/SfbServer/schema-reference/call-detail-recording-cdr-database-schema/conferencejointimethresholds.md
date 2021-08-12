@@ -1,5 +1,5 @@
 ---
-title: Tabelle "ConferenceJoinTimeThresholds" in Skype for Business Server 2015
+title: ConferenceJoinTimeThresholds-Tabelle in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: 'Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungsgrenzwerte, die vom zusammenfassenden Bericht über den Zeitpunkt des Konferenzbeitritts verwendet werden. Der Bericht über den Zeitpunkt des Konferenzbeitritts enthält eine Zusammenfassung der Zeit, die Benutzer benötigen, um einer Konferenz erfolgreich beizutreten. Diese Zeitwerte werden sowohl als Durchschnitt als auch in einer der folgenden Kategorien gemeldet:'
-ms.openlocfilehash: dfa7293307376b5fb5c86cec6f7504d363b005f5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9ce7e8e92921e0cccd8987d6f270a205c5c94de457571ebf959da703cc4bf2ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341750"
 ---
-# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>Tabelle "ConferenceJoinTimeThresholds" in Skype for Business Server 2015
+# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>ConferenceJoinTimeThresholds-Tabelle in Skype for Business Server 2015
  
 Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungsgrenzwerte, die vom zusammenfassenden Bericht über den Zeitpunkt des Konferenzbeitritts verwendet werden. Der Bericht über den Zeitpunkt des Konferenzbeitritts enthält eine Zusammenfassung der Zeit, die Benutzer benötigen, um einer Konferenz erfolgreich beizutreten. Diese Zeitwerte werden sowohl als Durchschnitt als auch in einer der folgenden Kategorien gemeldet:
   
@@ -38,7 +38,7 @@ Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ThresholdId** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID für die Klassifizierung.  <br/> |
-|**ThresholdValue** <br/> |int  <br/> || Oberer Grenzwert für die Klassifizierung. Gültige Werte sind: <br/>  2  <br/>  5  <br/>  10  <br/> |
+|**ThresholdId** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige ID für die Klassifizierung.  <br/> |
+|**ThresholdValue** <br/> |Ganzzahl  <br/> || Oberer Grenzwert für die Klassifizierung. Gültige Werte sind: <br/>  2 <br/>  5  <br/>  10  <br/> |
    
 

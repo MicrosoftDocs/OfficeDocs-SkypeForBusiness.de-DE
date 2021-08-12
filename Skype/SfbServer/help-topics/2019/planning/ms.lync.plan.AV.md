@@ -1,5 +1,5 @@
 ---
-title: Audio Video Conferencing (Planning Tool)
+title: Audiovideokonferenzen (Planungstool)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server Audio/Video (A/V)-Konferenzen ermöglichen Benutzern die Teilnahme an Audio- oder Videokonferenzen in Echtzeit.
-ms.openlocfilehash: c2d491308a3886a172ba800ba39ca9a5f637be02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server Audio-/Videokonferenzen (A/V) ermöglichen Benutzern die Teilnahme an Audio- oder Videokonferenzen in Echtzeit.
+ms.openlocfilehash: 6e9429c030ed3ed21c4873b80907adcee086ddf6554109c0c12d0ebb1b1c5b71
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300061"
 ---
-# <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
+# <a name="audio-video-conferencing-planning-tool"></a>Audiovideokonferenzen (Planungstool)
  
-Skype for Business Server Audio/Video (A/V)-Konferenzen ermöglichen Benutzern die Teilnahme an Audio- oder Videokonferenzen in Echtzeit.
+Skype for Business Server Audio-/Videokonferenzen (A/V) ermöglichen Benutzern die Teilnahme an Audio- oder Videokonferenzen in Echtzeit.
   
-Einzelheiten zur Planung der Aktivierung von A/V-Konferenzen in Ihrer Organisation finden Sie im folgenden Thema und seinen Unterthemen: 
+Ausführliche Informationen zur Planung der Aktivierung von A/V-Konferenzen in Ihrer Organisation finden Sie im folgenden Thema und den zugehörigen Unterthemen: 
   
 - [Planen von Konferenzen in Skype for Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     

@@ -1,5 +1,5 @@
 ---
-title: Einfache URL der Topologieansicht
+title: Topologieansicht – einfache URL
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 98d250b56e2807532ecf7d9fc06117206e073679
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0ed0d15224dc3136973d319df84355a54a0c925095d55478256596c2dee7cea5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291103"
 ---
 # <a name="topology-view-simple-url"></a>Topologie: Anzeigen einer einfachen URL
 
@@ -30,4 +30,4 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Verwalten von einfachen URLs](/previous-versions/office/lync-server-2013/lync-server-2013-managing-simple-urls)
 
-Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).

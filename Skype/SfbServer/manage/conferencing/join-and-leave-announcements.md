@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Ankündigungen zum Beitreten und Verlassen von Konferenzkonferenzen in Skype for Business Server
+title: Verwalten von Ankündigungen zum Beitreten und Verlassen einer Konferenz in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Zusammenfassung: Erfahren Sie, wie Sie Ankündigungen zum Beitreten und Hinterlassen von Konferenzansagen in Skype for Business Server verwalten.'
-ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Ankündigungen für den Konferenzbeitritt und -verlassen in Skype for Business Server verwalten.'
+ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290383"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Verwalten von Ankündigungen zum Beitreten und Verlassen von Konferenzkonferenzen in Skype for Business Server
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Verwalten von Ankündigungen zum Beitreten und Verlassen einer Konferenz in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie Ankündigungen zum Beitreten und Hinterlassen von Konferenzansagen in Skype for Business Server verwalten.
+**Zusammenfassung:** Erfahren Sie, wie Sie Ankündigungen für den Konferenzbeitritt und -verlassen in Skype for Business Server verwalten.
   
-Wenn Einwahlbenutzer an einer Konferenz teilnehmen oder diese verlassen, kann die Konferenzansageanwendung ihren Ein- oder Ausstieg durch Abspielen eines Tons oder Durchsagen ihrer Namen ankündigen. Sie können die Funktionsweise von Ankündigungen mithilfe der Skype for Business Server-Verwaltungsshell und des **Cmdlets Set-CsDialinConferencing** mit den folgenden Parametern ändern:
+Wenn Einwahlbenutzer an einer Konferenz teilnehmen oder diese verlassen, können die Konferenzankündigungsanwendung den Eingang oder das Verlassen ankündigen, indem sie einen Ton wiedergeben oder ihre Namen sagen. Sie können die Funktionsweise von Ankündigungen ändern, indem Sie Skype for Business Server Verwaltungsshell und das Cmdlet **"Set-CsDialinConferencing"** mit den folgenden Parametern verwenden:
   
-- EnableNameRecording – Bestimmt, ob anonyme Teilnehmer aufgefordert werden, ihren Namen vor der Teilnahme an der Konferenz zu notieren. Der Standardwert ist "$true", was bedeutet, dass anonyme Teilnehmer aufgefordert werden, ihren Namen beim Beitritt zu einer Konferenz zu nennen. (Authentifizierte Teilnehmer zeichnen ihren Namen nicht auf, da stattdessen der Anzeigename verwendet wird.)
+- EnableNameRecording – Bestimmt, ob anonyme Teilnehmer aufgefordert werden, ihren Namen vor der Teilnahme an der Konferenz zu notieren. Der Standardwert ist "$true", was bedeutet, dass anonyme Teilnehmer aufgefordert werden, ihren Namen anzugeben, wenn sie an einer Konferenz teilnehmen. (Authentifizierte Teilnehmer notieren ihren Namen nicht, da stattdessen ihr Anzeigename verwendet wird.)
     
-- EntryExitAnnouncementsEnabledByDefault – Gibt an, ob Ankündigungen standardmäßig aktiviert oder deaktiviert sind. Der Standardwert ist "$false", was bedeutet, dass standardmäßig keine Ankündigungen angezeigt werden, wenn Teilnehmer an einer Konferenz teilnehmen oder diese verlassen. Der Besprechungsorganisator kann diese Einstellung beim Planen einer Besprechung außer Kraft setzen.
+- EntryExitAnnouncementsEnabledByDefault – Gibt an, ob Ankündigungen standardmäßig aktiviert oder deaktiviert sind. Der Standardwert ist "$false", was bedeutet, dass standardmäßig keine Ankündigungen angezeigt werden, wenn Teilnehmer einer Konferenz beitreten oder diese verlassen. Der Besprechungsorganisator kann diese Einstellung beim Planen einer Besprechung außer Kraft setzen.
     
-- EntryExitAnnouncementsType – Gibt die Aktion an, die bei jedem Beitritt oder Verlässt einer Konferenz, für die Ankündigungen aktiviert sind, ergriffen wird. Der Standardwert ist "UseNames", was bedeutet, dass es eine Ansage wie die folgende gibt: "Ken Myer ist der Konferenz beigetreten", wenn Ankündigungen aktiviert sind.
+- EntryExitAnnouncementsType – Gibt die Aktion an, die ausgeführt wird, wenn ein Teilnehmer einer Konferenz beitritt oder diese verlässt, für die Ankündigungen aktiviert sind. Der Standardwert ist "UseNames", was bedeutet, dass es eine Ankündigung ähnlich der folgenden gibt: "Ken Myer ist der Konferenz beigetreten", wenn Ankündigungen aktiviert sind.
     
-Sie können diese Einstellungen auf globaler Ebene oder auf Standortbereich konfigurieren. Auf Standortbereich konfigurierte Einstellungen haben Vorrang vor auf globaler Ebene konfigurierten Einstellungen.
+Sie können diese Einstellungen auf globaler Oder Standortebene konfigurieren. Einstellungen, die auf Standortebene konfiguriert sind, haben Vorrang vor den auf globaler Ebene konfigurierten Einstellungen.
    
 
-### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>So ändern Sie das Ankündigungsverhalten für die Konferenzankündigung und -verlassen
+### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>So ändern Sie das Verhalten bei Der Konferenzbeitritt und -abmeldung
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle Cs-ServerAdministrator oder CsAdministrator an.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -46,7 +46,7 @@ Sie können diese Einstellungen auf globaler Ebene oder auf Standortbereich konf
    Get-CsDialinConferencingConfiguration
    ```
 
-Dieses Cmdlet ruft Informationen dazu ab, ob Teilnehmer ihren Namen bei der Teilnahme an einer Konferenz aufzeichnen müssen und wie Skype for Business Server reagiert, wenn Teilnehmer an einer Einwahlkonferenz teilnehmen oder diese verlassen.
+Dieses Cmdlet ruft Informationen dazu ab, ob Teilnehmer ihren Namen aufzeichnen müssen, wenn sie einer Konferenz beitreten, und wie Skype for Business Server reagiert, wenn Teilnehmer einer Einwahlkonferenz beitreten oder diese verlassen.
     
 4. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -57,7 +57,7 @@ Dieses Cmdlet ruft Informationen dazu ab, ob Teilnehmer ihren Namen bei der Teil
    [-EntryExitAnnouncementsType <UseNames | ToneOnly]
    ```
 
-Im folgenden Beispiel werden Einstellungen auf Standortbereich für Redmond konfiguriert. Ankündigungen sind aktiviert, die Teilnehmer werden jedoch nicht aufgefordert, ihren Namen zu nennen, wenn sie an einer Konferenz teilnehmen. Wenn Teilnehmer eine Konferenz betreten oder verlassen, wird ein Ton gespielt:
+Im folgenden Beispiel werden die Einstellungen auf Standortebene für Redmond konfiguriert. Ankündigungen sind aktiviert, die Teilnehmer werden jedoch nicht aufgefordert, ihren Namen zu sagen, wenn sie an einer Konferenz teilnehmen. Wenn Teilnehmer eine Konferenz betreten oder verlassen, wird ein Ton wiedergegeben:
   
 ```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
@@ -66,4 +66,4 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-Weitere Informationen, einschließlich Syntax und einer vollständigen Liste von Parametern, finden Sie unter [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).
+Weitere Informationen, einschließlich Syntax und einer vollständigen Liste von Parametern, finden Sie unter ["Set-CsDialInConferencingConfiguration".](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps)

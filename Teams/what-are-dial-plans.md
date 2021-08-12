@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Hier erfahren Sie, welche Wählpläne (PSTN-Anrufpläne) für Ihre Teams verfügbar sind und wie Sie einen Wählplan für Ihre Organisation auswählen.  '
-ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
-ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
+ms.openlocfilehash: f4ab90b01fb0fa75e45b07382ee6d59c945e797b747cf6ed38663a947d83a2aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "53046222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323727"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 

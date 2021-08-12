@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e1140fe1551c0e0bc52449735755fc6d6428ca
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349467"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>Verwenden von Finanzteamvorlagen im Admin Center
 
@@ -44,7 +44,7 @@ Zentralisieren Sie die Zusammenarbeit für Ihr Krisenteam über Geschäftseinhei
 
 | Basisorlagentyp|baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |
-| Zusammenarbeiten an globalen Krisen oder Veranstaltungen|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Geschäftskontinuität</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungsanforderung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Update für Geschäftsleitung</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
+| Zusammenarbeiten an globalen Krisen oder Veranstaltungen|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Geschäftskontinuität</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungen anforderung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Update für Geschäftsleitung</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>Zusammenarbeiten in einer Bankfiliale
@@ -53,5 +53,5 @@ Zentralisieren Sie die Zusammenarbeit für Die Mitarbeiter Ihrer Bank zweigstell
 
 | Basisorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ |--|----------------------------------------------------- |
-|Zusammenarbeiten in einer Bankfiliale|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungsanforderung</li><li>Durchseringen</li><li>Qualifikationsentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob</li></ul>|
+|Zusammenarbeiten in einer Bankfiliale|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungen Anforderung</li><li>Durchseringen</li><li>Qualifikationsentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob</li></ul>|
 ||||
