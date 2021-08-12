@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Erfahren Sie, wie Sie während des Übergangs von Teams im Microsoft 365 Admin Center zum neuen Teams Admin Center mandantenweite und Benutzereinstellungen für Teams verwalten.
+description: Erfahren Sie, wie Sie während des Übergangs von Teams im Microsoft 365 Admin Center zum neuen Teams Admin Center mandantenweite Einstellungen und Benutzereinstellungen für Teams verwalten.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 875db7be64e23b32f5f758f9f5a701199c068528
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 036d4ddd2768a531d32eed03d5bc4b35e09a0a229ad98a0d6fd0d17adcf09d5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281548"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -88,7 +88,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 <sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden.
 
 > [!NOTE]
-> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration im Zusammenhang Teams und Kanälen. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert.
+> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration im Zusammenhang mit Teams Kanälen. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert.
 
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen während der Migration
 
@@ -115,4 +115,4 @@ Die folgende Tabelle zeigt, wo Sie die Features während der Migration verwalten
 
 ## <a name="manage-settings-after-the-migration"></a>Verwalten von Einstellungen nach der Migration
 
-Nach Abschluss der Migration dieser Einstellungen werden sie im Microsoft 365 Admin Center und im Skype for Business Admin Center deaktiviert, und sie können dann im neuen Microsoft Teams Admin Center verwaltet werden.
+Nach Abschluss der Migration dieser Einstellungen werden sie im Microsoft 365 Admin Center- und Skype for Business Admin Center deaktiviert, und sie können dann im neuen Microsoft Teams Admin Center verwaltet werden.

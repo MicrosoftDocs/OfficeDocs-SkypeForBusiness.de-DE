@@ -15,15 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 description: Klicken Sie auf Weiter, um die Aufgabe Gesamtstruktur vorbereiten zu starten. Beim Ausführen der Aufgabe "Gesamtstruktur vorbereiten" werden globale Einstellungen und universelle Gruppen für die Verwendung durch Skype for Business Server 2015 erstellt.
-ms.openlocfilehash: f6df433ce8c92e8ade9f7ef1974744c4ed6e48e2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0311725b4ba405378ea20ab006e0a7ba7828deecd959cae263609c4f29eb5fb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815415"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309634"
 ---
 # <a name="prepare-current-forrest-intro"></a>Vorbereiten der aktuellen Gesamtstruktur (Einführung)
  
-Klicken Sie auf **Weiter**, um die Aufgabe **Gesamtstruktur vorbereiten** zu starten. Beim Ausführen **der Aufgabe "Gesamtstruktur vorbereiten"** werden globale Einstellungen und universelle Gruppen für die Verwendung durch Skype for Business Server 2015 erstellt.
+Klicken Sie auf **Weiter**, um die Aufgabe **Gesamtstruktur vorbereiten** zu starten. Beim Ausführen der Aufgabe **"Gesamtstruktur vorbereiten"** werden globale Einstellungen und universelle Gruppen für die Verwendung durch Skype for Business Server 2015 erstellt.
   
 

@@ -1,5 +1,5 @@
 ---
-title: Benutzer anzeigen oder Wählplan konfigurieren
+title: Benutzer können Wähleinstellungen anzeigen oder konfigurieren
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 689a09815a7c4f94894fdf374329fe9e9b2ea935
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e90c8aa356f1967102e5bb92894941a88addaf9dbab700664e4ffc19f0038e5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282028"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Benutzer: Anzeigen oder Konfigurieren eines Wählplans
 

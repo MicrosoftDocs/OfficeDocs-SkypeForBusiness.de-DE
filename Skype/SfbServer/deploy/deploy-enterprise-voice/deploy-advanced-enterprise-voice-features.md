@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen erweiterter Enterprise-VoIP in Skype for Business Server
+title: Bereitstellen erweiterter Enterprise-VoIP Features in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
-description: Bereitstellen erweiterter Enterprise-VoIP in Skype for Business Server.
-ms.openlocfilehash: c3c551e7c0ba7dc8871791141e55d666578a411c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Bereitstellen erweiterter Enterprise-VoIP Features in Skype for Business Server.
+ms.openlocfilehash: cbbf1fb2bde9de6de050addbbe7365e6f35772cbbec1576debab5ee6713f055a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282368"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Bereitstellen erweiterter Enterprise-VoIP in Skype for Business Server
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Bereitstellen erweiterter Enterprise-VoIP Features in Skype for Business Server
  
-Bereitstellen erweiterter Enterprise-VoIP in Skype for Business Server.
+Bereitstellen erweiterter Enterprise-VoIP Features in Skype for Business Server.
   
 Nachdem Sie die grundlegende Enterprise-VoIP-Funktionalität für Ihre Organisation konfiguriert haben, können Sie optional eine oder mehrere erweiterte Enterprise-VoIP-Funktionen bereitstellen. Verwenden Sie hierzu die Verfahren in diesem Abschnitt. 
   

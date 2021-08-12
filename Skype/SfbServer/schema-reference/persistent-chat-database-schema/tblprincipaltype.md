@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tblPrincipal-Tabelle.
-ms.openlocfilehash: 110818db0fb3c742491adfeed23362a2bcbebab2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e058af1fa45c87f97b34ac9c5b931b7d7cb9114205c702c732984adafc04d3fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831535"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281648"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -41,14 +41,14 @@ tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tbl
    
 **Prinzipalwerte**
 
-|**ID**|**Rolle**|**Beschreibung**|**Benutzer**|
+|**ID**|**Rolle**|**Beschreibung**|**Benutzende**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |Beliebig  <br/> |Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
-|2   <br/> |AnyUser  <br/> |Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.  <br/> |Ja  <br/> |
-|3   <br/> |AnyGroup  <br/> |Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
-|4   <br/> |SystemUser  <br/> |Intern vom Server für beständigen Chat verwendeter Prinzipal.  <br/> ||
+|1  <br/> |Beliebig  <br/> |Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|2  <br/> |AnyUser  <br/> |Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.  <br/> |Ja  <br/> |
+|3  <br/> |AnyGroup  <br/> |Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|4   <br/> |SystemUser  <br/> |Prinzipal, der intern vom Server für beständigen Chat verwendet wird.  <br/> ||
 |5   <br/> |Benutzer  <br/> |Regelmäßiger Benutzer.  <br/> |Ja  <br/> |
-|8   <br/> |Gleichstrom  <br/> |Domänencontroller der Active Directory-Domänendienste.  <br/> ||
+|8   <br/> |Gleichstrom  <br/> |Active Directory Domain Services-Domänencontroller.  <br/> ||
 |9   <br/> |Gruppe  <br/> |Active Directory-Sicherheitsgruppe  <br/> ||
 |10   <br/> |Ordner  <br/> |Active Directory-Container oder Organisationseinheit  <br/> ||
    

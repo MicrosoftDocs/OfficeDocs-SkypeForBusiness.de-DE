@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Hilfsskript zum Konfigurieren der SFB 2019-Systemsteuerungsauthentifizierung mit Microsoft 365 oder Office 365 über das OAuth-Protokoll.
-ms.openlocfilehash: 76f8444e78dfe31e008ea24be31c0e7b788b3130
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: c52e799740188e85e41af46339f40f4c29b61c037bc1c28b8257b1001a5b43c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281498"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype for Business Server 2019-Authentifizierungsskript für die Systemsteuerung
 
-Im Folgenden finden Sie die Authentifizierungshilfeskripts für die moderne Admin Control Panel (MACP).
+Nachfolgend finden Sie die Authentifizierungsbezogenen Hilfsskripts für die moderne Administrator-Systemsteuerung (MACP).
 
 ## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>Konfigurieren der MACP-Authentifizierung mit Microsoft 365 oder Office 365
 
-Dieses Skript sollte nach der Installation des kumulativen Updates 1 oder höher von Skype for Business Server 2019 als Teil der Einrichtung für die neue Systemsteuerung ausgeführt werden. 
+Dieses Skript sollte nach der Installation des kumulativen Updates 1 oder höher Skype for Business Server 2019 als Teil der Einrichtung für die neue Systemsteuerung ausgeführt werden. 
 
 ```powershell
 <#
@@ -133,7 +133,7 @@ Set-CsHybridConfiguration -ClientId $azureADApplication.AppId
 ```
 ## <a name="configure-macp-application-in-adfs-farm"></a>Konfigurieren der MACP-Anwendung in der ADFS-Farm
 
-Dieses Skript sollte nach der Installation des neuesten kumulativen Updates von Skype for Business Server 2019 im Rahmen der Einrichtung für die neue Systemsteuerung ausgeführt werden.
+Dieses Skript sollte nach der Installation Skype for Business Server neuesten kumulativen Updates 2019 als Teil der Einrichtung für die neue Systemsteuerung ausgeführt werden.
 
 ```powershell
 <#
@@ -311,7 +311,7 @@ Get-AdfsNativeClientApplication -Identifier $clientIdentifier
 ```
 ## <a name="configure-oauth-for-macp"></a>Konfigurieren von OAuth für MACP
 
-Dieses Skript sollte nach der Installation des neuesten kumulativen Updates von Skype for Business Server 2019 im Rahmen der Einrichtung für die neue Systemsteuerung ausgeführt werden.
+Dieses Skript sollte nach der Installation Skype for Business Server neuesten kumulativen Updates 2019 als Teil der Einrichtung für die neue Systemsteuerung ausgeführt werden.
 
 ```powershell
 <#

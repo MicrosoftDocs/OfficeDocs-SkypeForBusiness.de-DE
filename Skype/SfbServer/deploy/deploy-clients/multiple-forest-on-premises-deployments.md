@@ -1,5 +1,5 @@
 ---
-title: Lokale Bereitstellungen mit mehreren Gesamtstrukturen im Skype Room System
+title: Skype Lokale Bereitstellungen mit mehreren Gesamtstrukturen für Das Raumsystem
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,37 +11,37 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
-description: In diesem Thema erfahren Sie, wie Sie Skype Room System in einer lokalen Umgebung mit mehreren Gesamtstrukturen bereitstellen.
-ms.openlocfilehash: d215ce13059c414d6c6142d7cd1e93ea9011c97b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer lokalen Umgebung mit mehreren Gesamtstrukturen bereitstellen.
+ms.openlocfilehash: dc1d7fa3a3ca7cbcf62f7c038fb8fd6b4fcedc84319452ec8eaf02781f311bf3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310064"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Lokale Bereitstellungen mit mehreren Gesamtstrukturen im Skype Room System
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Lokale Bereitstellungen mit mehreren Gesamtstrukturen für Das Raumsystem
  
-In diesem Thema erfahren Sie, wie Sie Skype Room System in einer lokalen Umgebung mit mehreren Gesamtstrukturen bereitstellen.
+In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer lokalen Umgebung mit mehreren Gesamtstrukturen bereitstellen.
   
 > [!NOTE]
-> Für die Bereitstellung in mehreren Gesamtstrukturen erfordert Skype Room System Exchange Server 2013 CU6, veröffentlicht am 26. August 2014. Vermeiden Sie die erneute Verwendung eines vorhandenen Postfachs für Skype Room System. Verwenden Sie ein neues Ressourcenpostfach (altes Postfach löschen und neu erstellen) für Skype Room System. Informationen zum Wiederherstellen der Besprechungen, die durch Löschen des Postfachs verloren gehen, finden Sie unter [Verbinden oder Wiederherstellen eines gelöschten Postfachs.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+> Zur Bereitstellung in mehreren Gesamtstrukturen erfordert Skype Room System Exchange Server 2013 CU6, das am 26. August 2014 veröffentlicht wurde. Vermeiden Sie die erneute Verwendung eines vorhandenen Postfachs für Skype Raumsystem. Verwenden Sie ein neues Ressourcenpostfach (altes Postfach löschen und neu erstellen) für Skype Raumsystem. Informationen zum Wiederherstellen der verlorenen Besprechungen durch Löschen des Postfachs finden Sie unter [Verbinden oder Wiederherstellen eines gelöschten Postfachs.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
   
-Nach dem Erstellen des Postfachs können Sie Set-CalendarProcessing zum Konfigurieren des Postfachs verwenden. Weitere Informationen finden Sie in den Schritten 3 bis 6 unter Lokale Bereitstellungen mit einer einzelnen Gesamtstruktur. Aktivieren Sie nach dem Erstellen eines Exchange-Ressourcenpostfachs für Skype Room System das Konto für Skype for Business, indem Sie die Schritte unter Aktivieren von Skype Room System Accounts for Skype for Business unter Lokale Bereitstellungen mit einer einzelnen Gesamtstruktur ausführen.
+Nach dem Erstellen des Postfachs können Sie Set-CalendarProcessing verwenden, um das Postfach zu konfigurieren. Weitere Informationen finden Sie in den Schritten 3 bis 6 unter lokale Bereitstellungen mit einzelner Gesamtstruktur. Aktivieren Sie nach dem Erstellen eines Exchange Ressourcenpostfachs für Skype Raumsystem das Konto für Skype for Business, indem Sie die Schritte unter Aktivieren Skype Raumsystemkonten für Skype for Business unter lokalen Bereitstellungen mit einzelner Gesamtstruktur ausführen.
   
 ## <a name="option-1-create-a-new-resource-mailbox"></a>Option 1: Erstellen eines neuen Ressourcenpostfachs
 
-So stellen Sie Skype Room System in einer Umgebung mit mehreren Gesamtstrukturen zur Verfügung:
+So stellen Sie Skype Raumsystem in einer Umgebung mit mehreren Gesamtstrukturen bereit:
   
-1. Erstellen eines verknüpften Benutzers (LinkedRoomTest) in Active Directory (Authentifizierungsstruktur).
+1. Erstellen Sie einen verknüpften Benutzer (LinkedRoomTest) in Active Directory (Authentifizierungsgesamtstruktur).
     
-2. Führen Sie die folgenden Befehle in Exchange Server Verwaltungsshell aus:
+2. Führen Sie die folgenden Befehle in der Exchange Server-Verwaltungsshell aus:
     
    ```powershell
    $cred = Get-Credential AuthForest\LinkedRoomTest
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Option 2: Ändern eines vorhandenen Raumpostfachs in Skype Room System (verknüpftes) Ressourcenpostfach
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Option 2: Ändern eines vorhandenen Raumpostfachs in Skype Raumsystem-Ressourcenpostfach (verknüpft)
 
 ```powershell
 $cred=Get-Credential AuthForest\LinkedRoomTest1

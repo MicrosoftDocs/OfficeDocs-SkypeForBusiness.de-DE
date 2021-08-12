@@ -1,5 +1,5 @@
 ---
-title: Richtlinie für den externen Zugriff Erstellen neuer oder Bearbeiten vorhandener Richtlinien
+title: Richtlinie für externen Zugriff – Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: c40d1e8eb81b832acc6b8e59aafd416fe0bfbb78
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1aebaf461fb21b356bff2b0119bc281f968d6815b8877040e896672d817e6415
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099871"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309594"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Richtlinie für den externen Zugriff: Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Zurücksetzen oder Löschen externer Benutzerzugriffsrichtlinien](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)
+- [Zurücksetzen oder Löschen von Richtlinien für den Zugriff durch externe Benutzer](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)
 
 - [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
 - [Verwalten des Remotebenutzerzugriffs](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-remote-user-access)
 
-- [Konfigurieren von Richtlinien zum Steuern des Zugriffs durch Benutzer von Im-Im-Service-Anbietern](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)
+- [Konfigurieren von Richtlinien zum Steuern des Zugriffs durch Benutzer von Chatdienstanbietern](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)

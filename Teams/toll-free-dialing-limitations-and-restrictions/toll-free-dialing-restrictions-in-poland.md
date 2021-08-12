@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in Polen, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: b9a9e64044fdf012de5ec96e157863a5d7540518
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f7b8fcfe3821f99e198ed2b33a6d7c05ba01ca8dbb05bf817c562234e901416e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282488"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>Einschränkungen für gebührenfreie Telefonnummern in Polen
 

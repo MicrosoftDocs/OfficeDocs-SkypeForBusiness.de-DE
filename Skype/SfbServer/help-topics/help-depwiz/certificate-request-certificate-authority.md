@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: 'Wenn Sie eine Zertifikatanforderung an eine Onlinezertifizierungsstelle (in der Regel handelt es sich dabei um Server im internen Netzwerk) auf der Seite "Zertifizierungsstelle auswählen" stellen, werden ihnen zwei Optionen angezeigt:'
-ms.openlocfilehash: 0081ab852a1650dfafd61471891a002be60def3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Wenn Sie eine Zertifikatanforderung an eine Onlinezertifizierungsstelle (z. B. Server, die sich in Ihrem internen Netzwerk befinden) auf der Seite "Zertifizierungsstelle auswählen" stellen, stehen Ihnen zwei Optionen zur Verfügung:'
+ms.openlocfilehash: 27bdc31f6bae6fe4a4855ed61dfa97c8773694cc0088383b0e39176c12da7bff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805325"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309754"
 ---
 # <a name="certificate-request-certificate-authority"></a>Zertifikatanforderung (Zertifizierungsstelle)
  
@@ -30,11 +30,11 @@ Beim Erstellen einer Zertifikatsanforderung an eine Onlinezertifizierungsstelle 
     
 2. Wählen Sie eine andere Zertifizierungsstelle aus.
     
-Wenn Sie die erste Option auswählen, wird eine Dropdownliste mit allen Windows Server-basierten Zertifizierungsstellen angezeigt, die in Ihrer Umgebung erkannt werden. Wählen Sie die Zertifizierungsstelle aus, die für Ihr Zertifikat geeignet ist. Möglicherweise müssen Sie sich an Ihren Zertifizierungsstellenadministrator wenden, um zu erfahren, welche Zertifizierungsstelle Sie auswählen sollten.
+Wenn Sie die erste Option auswählen, wird eine Dropdownliste angezeigt, die alle Windows serverbasierten Zertifizierungsstellen enthält, die in Ihrer Umgebung erkannt werden. Wählen Sie die Zertifizierungsstelle aus, die für Ihr Zertifikat geeignet ist. Möglicherweise müssen Sie sich an Ihren Zertifizierungsstellenadministrator wenden, um zu wissen, welche Zertifizierungsstelle Sie auswählen müssen.
   
 Bei Wahl der zweiten Option geben Sie den vollqualifizierten Domänennamen und die Zertifizierungsstelleninstanz der Zertifizierungsstelle ein, die Sie für das Zertifikat verwenden möchten. Diese Option kommt in Frage, wenn die gewünschte Zertifizierungsstelle keine Windows Server-basierte Zertifizierungsstelle ist, jedoch für Windows Server-basierte Zertifizierungsstellen funktioniert.
   
 > [!IMPORTANT]
-> Für eine erfolgreiche Zertifikatsanforderung müssen Sie Mitglied der entsprechenden Gruppen sein. In der Regel gelten für Zertifizierungsstellen andere Berechtigungsanforderungen als für die Installation von Skype for Business Server auf Servern. Informieren Sie sich über die Voraussetzungen für das Anfordern des Zertifikats bei Ihrem Zertifizierungsstellenadministrator. 
+> Für eine erfolgreiche Zertifikatsanforderung müssen Sie Mitglied der entsprechenden Gruppen sein. Zertifizierungsstellen haben in der Regel eine andere Berechtigungsanforderung als die Anforderungen für die Installation von Skype for Business Server auf Servern. Informieren Sie sich über die Voraussetzungen für das Anfordern des Zertifikats bei Ihrem Zertifizierungsstellenadministrator. 
   
 

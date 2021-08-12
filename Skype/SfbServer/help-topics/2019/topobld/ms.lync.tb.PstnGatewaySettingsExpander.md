@@ -14,24 +14,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Ändern Sie die folgenden Felder, um die Einstellungen für ein PstN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:'
-ms.openlocfilehash: c54acc930400f66bb04009a6c40dbcf0a1233100
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern, ändern Sie die folgenden Felder:'
+ms.openlocfilehash: da993cc36cfbb4195df68417cb16db5909c6baa5e21fed9f6316337dd1fd0d21
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281858"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN-Gatewayeinstellungen – Erweiterung
  
-Ändern Sie die folgenden Felder, um die Einstellungen für ein PstN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern:
+Um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern, ändern Sie die folgenden Felder:
   
-Der FQDN oder die IP-Adresse des Gateways ist ein erforderlicher Eintrag und definiert den vollqualifizierten Domänennamen **(Fully Qualified Domain Name, FQDN)** des PSTN-Gateways gemäß definition durch einen DNS-A-Eintrag (Domain Name System), einen statischen HOST-Dateieintrag oder die IP-Adresse des PSTN-Gateways.
+Der Gateway-FQDN oder die IP-Adresse ist ein erforderlicher Eintrag und definiert den **vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN)** des PSTN-Gateways entsprechend der Definition durch einen DNS-Hosteintrag (Domain Name System, A),einen statischen HOSTS-Dateieintrag oder die IP-Adresse des PSTN-Gateways.
   
-Das SIP-Transport-Protokoll kann entweder TCP (Transmission Control Protocol) oder TLS (Transport Layer Security) sein. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Wenn das Gateway TLS unterstützt, ist die Standardeinstellung "TLS" die Option mit höherer Sicherheit.
+Das SIP-Transportprotokoll kann entweder TCP (Transmission Control Protocol) oder Transport Layer Security (TLS) sein. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Wenn das Gateway TLS unterstützt, ist die Standardeinstellung "TLS" die Option mit höherer Sicherheit.
   
 Wählen Sie aus, ob IPv4 und IPv6 für das Gateway aktiviert werden sollen.
   
-Die **alternative Medien-IP-Adresse** ist eine Definition für den Vermittlungsserver, für den das bereitgestellte PSTN-Gateway eine andere IP-Adresse für den Mediendatenverkehr hat als die standardmäßig konfigurierte IP-Adresse, die in der Regel für den SIP-Datenverkehr festgelegt ist. Wenn Sie diesen Parameter definieren, unterstützt das PSTN-Gateway eine andere Netzwerkschnittstelle oder einen anderen Pfad für Medien. Wenn diese Adresse leer bleibt, unterstützt das PSTN-Gateway den alternativen Pfad für Medien nicht.
+Die **alternative Medien-IP-Adresse** ist eine Definition für den Vermittlungsserver, für den das bereitgestellte PSTN-Gateway eine andere IP-Adresse für Mediendatenverkehr aufweist als die standardmäßig konfigurierte IP-Adresse, die in der Regel für SIP-Datenverkehr reserviert ist. Wenn Sie diesen Parameter definieren, unterstützt das PSTN-Gateway eine andere Netzwerkschnittstelle oder einen anderen Pfad für Medien. Wenn diese Adresse leer bleibt, unterstützt das PSTN-Gateway den alternativen Pfad für Medien nicht.
   
 

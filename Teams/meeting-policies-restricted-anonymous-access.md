@@ -16,12 +16,12 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Erfahren Sie, wie Sie die Besprechungsrichtlinie RestrictedAnonymousAccess Teams Benutzern in Ihrer Organisation entfernen.
-ms.openlocfilehash: aab4b524ee0c9ab5cab3244a0897730fea0361a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 347013cff6b704f6eb5f0ac05665b65259e751be645acd16c75c6a0f0cd024a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310424"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern
 
@@ -96,4 +96,4 @@ Stellen Sie sicher, **dass "ErrorCount"** **gleich 0** (Null) und **OverallStatu
 
 - [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+- [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)

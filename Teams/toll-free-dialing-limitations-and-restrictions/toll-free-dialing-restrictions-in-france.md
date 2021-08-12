@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Frankreich, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 738f513adb66f1cf73c0acf9279defd4aeb00db0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 353bb2f85d701c17c7d8562e1afca892a765e7ed69af45ad7975c4c56e5d412f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310414"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Einschränkungen für gebührenfreie Telefonnummern in Frankreich
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Edgeserver bereitgestellt haben und Mediendienste für die externe Verwendung bereitstellen müssen, wählen Sie den Edgeserver oder -pool aus, der der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet wird, indem Sie ihn in der Dropdownliste auswählen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 8a6857a91a441ed5cc098268976d579ee356db7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: eaaebf18bcee74dc822df4972df5d63cfb3d3954684765e1a365b555092b5be4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309834"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Zuordnen der Branch Office Appliance zur Edgekomponente
  

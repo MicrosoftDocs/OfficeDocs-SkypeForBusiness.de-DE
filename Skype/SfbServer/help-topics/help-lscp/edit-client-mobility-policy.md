@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: Im Dialogfeld Mobilitätsrichtlinie bearbeiten können Sie die Details einer Mobilitätsrichtlinie bearbeiten.
-ms.openlocfilehash: 4268984a5211b70a36e4ffa3b6050b5f0718cc72
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d5fe36caefefc94e09a259abd03323b5df0b69154d5a6ba69122b84ef63e4275
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099901"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309664"
 ---
 # <a name="edit-client-mobility-policy"></a>Bearbeiten der Clientmobilitätsrichtlinie
 
@@ -31,9 +31,9 @@ Im Dialogfeld **Mobilitätsrichtlinie bearbeiten** können Sie die Details einer
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
 
-- **Commit** Klicken Sie hier, um die Änderungen an den Richtlinieneinstellungen zu speichern.
+- **Commit ausführen** Klicken Sie, um die Änderungen an den Richtlinieneinstellungen zu speichern.
 
-- **Abbrechen** Klicken Sie hier, um die Bearbeitung der Richtlinie zu beenden und alle an den Richtlinieneinstellungen vorgenommenen Änderungen zu verwerfen.
+- **Abbrechen** Klicken Sie, um die Bearbeitung der Richtlinie zu beenden und alle Änderungen an den Richtlinieneinstellungen zu verwerfen.
 
 - **Name** Der Name der Mobilitätsrichtlinie.
 

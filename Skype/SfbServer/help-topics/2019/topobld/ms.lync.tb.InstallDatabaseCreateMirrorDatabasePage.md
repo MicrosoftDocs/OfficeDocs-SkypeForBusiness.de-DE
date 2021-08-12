@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
-description: Dies ist vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
-ms.openlocfilehash: ead4b6c8a4124e412c34e2d6dcc3bcf4d20fc10c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
+ms.openlocfilehash: 41a54454b28644e46a74318aaec8cae3113a9a1dfb7917e6aaea69e56167dfea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309874"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Installieren einer Datenbank – Seite „Spiegeldatenbank erstellen“
  
 > [!NOTE]
-> SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird aber in Skype for Business Server 2019 nicht mehr unterstützt. Die Methoden AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL-Failoverclustering werden mit Skype for Business Server 2019 bevorzugt.
+> SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die Methoden AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclustering werden mit Skype for Business Server 2019 bevorzugt.
