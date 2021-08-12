@@ -12,59 +12,59 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 'Zusammenfassung: Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitätsdashboard an. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 193a03662d6f771b19c57017d909cc6574a755ef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard an. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: b0b4811e38d50f871e023757220a2a3f0108be349c55eaf78e39ab243954c5dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331287"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
-**Zusammenfassung:** Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitätsdashboard an. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard an. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
 
-Dieser Artikel enthält ein Lernprogramm und Beispiele zur Entwicklung des Anrufqualitätsdashboards (Call Quality Dashboard, CQD).
+Dieser Artikel enthält ein Lernprogramm und Beispiele zur Entwicklung für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD).
 
-## <a name="call-quality-dashboard-cqd-development-samples"></a>Beispiele für die Entwicklung des Anrufqualitätsdashboards (CQD)
+## <a name="call-quality-dashboard-cqd-development-samples"></a>Entwicklungsbeispiele für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD)
 
-Lernprogramm: Erstellen einer angepassten Berichtspräsentation mithilfe der CQD-Datendienst- und Repositorydienst-API.
+Tutorial: Building Customized Report Presentation using the CQD Data Service and Repository Service API's.
 
 ### <a name="introduction-to-cqd"></a>Einführung in CQD
 
-CQD bietet schnellen und einfachen Zugriff auf aggregierte Informationen zur Anrufqualität für lokale Skype for Business Server-Bereitstellungen. CQD besteht aus drei Komponenten: der QoE-Archivdatenbank, dem Cube und dem Portal. Das Portal ist die Hauptpräsentationsschicht und kann weiter in die folgenden drei Komponenten unterteilt werden:
+CQD bietet schnellen und einfachen Zugriff auf aggregierte Anrufqualitätsinformationen für lokale Skype for Business Server Bereitstellungen. CQD besteht aus drei Komponenten: der QoE-Archivdatenbank, dem Cube und dem Portal. Das Portal ist die Hauptpräsentationsschicht und kann weiter in die folgenden drei Komponenten unterteilt werden:
 
-1. Datendienst, auf den authentifizierte Benutzer über die Daten-API für das Anrufqualitätsdashboard [(CQD) in Skype for Business Server zugreifen können.](data-api.md)
+1. Datendienst, auf den authentifizierte Benutzer über die Daten-API für das Anrufqualitätsdashboard [(Call Quality Dashboard, CQD) in Skype for Business Server](data-api.md)zugegriffen werden können.
 
-2. Repositorydienst, auf den authentifizierte Benutzer über die Repository-API für das Anrufqualitätsdashboard [(CQD) in Skype for Business Server zugreifen können.](repository-api.md)
+2. Repository service, which is accessible for authenticated users through the [Repository API for Call Quality Dashboard (CQD) in Skype for Business Server](repository-api.md).
 
 3. Webportal, die HTML5-basierte Schnittstelle, die CQD-Benutzern angezeigt wird und mit der sie interagieren. Dies ist für authentifizierte Benutzer zugänglich.
 
-Die im Webportal angezeigten Berichte sind in "Berichtssätze" eingeteilt. Die Abbildung zeigt einen Berichtsatz mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse zur Anzahl der anrufe, Anrufe schlechter Qualität und Prozentsatz schlechter Anrufe für mehrere Monate, mit verschiedenen Filtern angewendet. 
+Die im Webportal angezeigten Berichte sind in "Berichtssätze" gruppiert. Die Abbildung zeigt einen Bericht mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse für die Anzahl der guten Anrufe, Anrufe schlechter Qualität und Prozentsatz der Anrufe schlechter Qualität für mehrere Monate an, wobei verschiedene Filter angewendet wurden. 
 
 ![CQD-Beispielbericht](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
-CQD wird nach der Call Quality Methodology (CQM) erstellt, sodass der Standardsatz von Berichten auf den von CQM eingeführten Untersuchungsfluss ausgerichtet ist. Benutzer haben auch die Flexibilität, benutzerdefinierte Berichte zu bearbeiten oder zu erstellen, um ihre Anforderungen zu erfüllen. Da es jedoch mehrere Möglichkeiten gibt, die Daten zu visualisieren, kann die vom CQD bereitgestellte Visualisierung möglicherweise nicht die Anforderungen jedes Benutzers vollständig erfüllen. In solchen Situationen kann ein Benutzer die Daten-APIs und Repository-APIs verwenden, um benutzerdefinierte Berichtsseiten zu erstellen. Wir werden in diesem Lernprogramm eine Reihe von Beispielen durchgehen.
+CQD wird nach der Call Quality Methodology (CQM) erstellt, sodass der Standardsatz von Berichten auf den von CQM eingeführten Untersuchungsfluss abgestimmt ist. Benutzer haben auch die Flexibilität, benutzerdefinierte Berichte entsprechend ihren Anforderungen zu bearbeiten oder zu erstellen. Da es jedoch mehrere Möglichkeiten gibt, die Daten zu visualisieren, erfüllt die vom CQD bereitgestellte Visualisierung möglicherweise nicht vollständig die Anforderungen jedes Benutzers. In solchen Situationen kann ein Benutzer die Daten-APIs und Repository-APIs nutzen, um benutzerdefinierte Berichtsseiten zu erstellen. In diesem Lernprogramm werden wir eine Reihe von Beispielen durchgehen.
 
-### <a name="how-the-dashboard-consumes-the-data-service"></a>Verwendung des Datendiensts durch das Dashboard
+### <a name="how-the-dashboard-consumes-the-data-service"></a>Nutzung des Datendiensts durch das Dashboard
 
-Beim Navigieren zur CQD-Homepage (z. B. werden der Berichtssatz und die entsprechenden Berichte für einen authentifizierten und autorisierten Benutzer aus dem http://localhost/cqd) Repositorydienst abgerufen. Eine vollständige URL wird aus der Berichtssatz-ID und dem Jahr-Monat erstellt (berichtssatz-ID ist die ganzzahlige Zahl nach dem Abschnitt "/#/" in der URL, und standardmäßig wird der aktuelle Jahrmonat am Ende der Berichtssatz-ID nach dem Schrägstrich angefügt). Die Berichtsdefinitionen werden im JSON-Format gespeichert und beim Abrufen aus dem Repositorydienst als Eingabe für den Datendienst verwendet. Der Datendienst generiert mdX(Multi-Dimension-Ausdrücke)-Abfragen basierend auf der Eingabe und führt dann diese -MDX-Abfragen für den Cube aus, um Daten für jeden Bericht abzurufen. 
+Beim Navigieren zur CQD-Homepage (z. B. http://localhost/cqd) werden der Berichtssatz und die entsprechenden Berichte für einen authentifizierten und autorisierten Benutzer aus dem Repositorydienst abgerufen. Eine vollständige URL wird aus der Berichtssatz-ID und dem Jahr-Monat erstellt (Berichtssatz-ID ist die ganzzahlige Zahl nach dem Abschnitt "/#/" in der URL, und standardmäßig wird der aktuelle Jahresmonat am Ende der Berichtssatz-ID nach dem Schrägstrich angefügt). Die Berichtsdefinitionen werden im JSON-Format gespeichert und beim Abrufen aus dem Repositorydienst als Eingabe für den Datendienst verwendet. Der Datendienst generiert MDX-Abfragen (Multi-Dimension Expressions) basierend auf der Eingabe und führt dann diese MDX-Abfragen für den Cube aus, um Daten für jeden Bericht abzurufen. 
 
-### <a name="building-customized-reports"></a>Erstellen angepasster Berichte
+### <a name="building-customized-reports"></a>Erstellen benutzerdefinierter Berichte
 
-CQD verfügt bereits über eine große Flexibilität beim Anpassen von Berichten, aber es kann Situationen geben, in denen Benutzer Daten über mehrere in CQD erstellte Berichte hinweg aggregieren möchten. Beispielsweise kann es nötig sein, einen Bericht zu erstellen, in dem die Prozentsatze schlechter Anrufe aller möglichen Kombinationen von kabelgebundenen Anrufen in einer Tabelle angezeigt werden (ein Ergebnis wie in der Abbildung):
+CQD verfügt bereits über eine große Flexibilität beim Anpassen von Berichten, aber es kann Situationen geben, in denen Benutzer Daten über mehrere Berichte hinweg aggregieren möchten, die in CQD erstellt wurden. Beispielsweise kann es erforderlich sein, einen Bericht zu erstellen, der den Prozentsatz der Anrufe schlechter Qualität aller möglichen Kombinationen von kabelgebundenen Anrufen in einer Tabelle anzeigt (ein Ergebnis wie die Abbildung):
 
-![CQD Table](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![CQD-Tabelle](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
-Mithilfe des vom CQD bereitgestellten Portals müsste ein Benutzer zu mehreren Berichten navigieren, um den %-Anteil der Anrufe schlechter Qualität für jeden Bericht zu extrahieren und zu aufzeichnen. Dies kann mühsam sein, wenn es viele Datenpunkte gibt, die gesammelt werden müssen. Die Daten-APIs bieten Benutzern eine programmgesteuerte Möglichkeit, dies durch Abrufen von Daten aus dem Datendienst (z. B. über AJAX-Aufrufe) zu erreichen. 
+Mithilfe des von CQD bereitgestellten Portals müsste ein Benutzer zu mehreren Berichten navigieren, um den Prozentsatz der Anrufe schlechter Qualität für jeden zu extrahieren und zu notieren. Dies kann mühsam sein, wenn viele Datenpunkte gesammelt werden müssen. Die Daten-APIs bieten Benutzern eine programmgesteuerte Möglichkeit, dies durch Abrufen von Daten aus dem Datendienst (z. B. über AJAX-Aufrufe) zu erreichen. 
 
  **Beispiel 1: Beispiel für einen einfachen Bericht**
 
-Nehmen wir zunächst ein einfaches Beispiel. Wenn wir den Audio Good Stream und den Audio Bad Stream vom Februar 2015 auf einer HTML-Seite wie der Abbildung anzeigen möchten:
+Nehmen wir zunächst ein einfaches Beispiel. Wenn wir die Anzahl der Audio Good Stream- und Audio Bad-Streams von Februar 2015 auf einer HTML-Seite wie der Abbildung anzeigen möchten:
 
 ![CQD-Beispielbericht](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
-Was wir benötigen, ist das Senden eines Aufrufs an den Datendienst mit den richtigen Parametern und das Anzeigen der Abfrageergebnisse in einer HTML-Tabelle. Es folgt ein Beispiel für den JavaScript-Code:
+Wir müssen einen Aufruf an den Datendienst mit den richtigen Parametern senden und die Abfrageergebnisse in einer HTML-Tabelle anzeigen. Es folgt ein Beispiel für den JavaScript-Code:
 
 ```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
@@ -98,13 +98,13 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
         });
 ```
 
-Dieses Beispiel kann in drei Schritte weiter destrukturiert werden:
+Dieses Beispiel kann in drei Schritte unterteilt werden:
 
-1. Erstellen Sie die Abfrage (im Beispiel ist dies in der Variablen "query" definiert). Die Abfrage ist als ein JSON-Objekt definiert, das die folgenden Daten enthält:
+1. Erstellen Sie die Abfrage (im Beispiel ist dies in der Variablen "Abfrage" definiert). Die Abfrage ist als JSON-Objekt definiert, das die folgenden Daten enthält:
 
    a. Null oder mehr Dimensionen. Jede Dimension wird durch einen DataModelName angegeben.
 
-   b. Null oder mehr Filter. Jeder Filter verfügt über:
+   b. Null oder mehr Filter. Jeder Filter hat Folgendes:
 
    - DataModelName (die Dimension, für die der Filter festgelegt wird).
 
@@ -112,27 +112,27 @@ Dieses Beispiel kann in drei Schritte weiter destrukturiert werden:
 
    - Operand (Vergleichstyp, 0 bedeutet "Gleich").
 
-     c. Mindestens ein Maß.
+     c. Mindestens eine Maßeinheit.
 
-2. Senden Sie die Abfrage über einen AJAX-Aufruf an Den Datendienst. Die folgenden Anforderungsparameter müssen angegeben werden:
+2. Senden Sie die Abfrage per AJAX-Aufruf an den Datendienst. Die folgenden Anforderungsparameter müssen bereitgestellt werden:
 
-   a. url (die http://[ServerName]/QoEDataService/RunQuery sein sollte).
+   a. url (which should be http://[ServerName]/QoEDataService/RunQuery).
 
-   b. (dies ist die Zeichenfolgendarstellung des JSON-Objekts, das in der Variablen "Query" definiert ist). Data Service gibt die Abfrageergebnisse als Parameter der Rückruffunktion zurück, um erfolglos zu sein.
+   b. Daten (dies ist die Zeichenfolgendarstellung des JSON-Objekts, das in der Variablen "Abfrage" definiert ist). Der Datendienst gibt die Abfrageergebnisse als Parameter der Rückruffunktion für den Erfolg zurück.
 
-   c. type (for QoEDataService, RunQuery only accepts 'POST' requests).
+   c. typ (für QoEDataService akzeptiert RunQuery nur 'POST'-Anforderungen).
 
-   d. async (ein Flag, das angibt, ob der AUFRUF VON AJAX synchron oder asynchron sein soll).
+   d. asynchron (ein Flag, das angibt, ob der AJAX-Aufruf synchron oder asynchron sein soll).
 
    e. contentType (sollte "application/json" sein).
 
-   f. erfolg (Rückruffunktion für den Erfolgreichen Abschluss des AJAX-Aufrufs).
+   f. erfolgreich (Rückruffunktion für den Zeitpunkt, an dem der AJAX-Aufruf erfolgreich abgeschlossen wurde).
 
-   g. fehler (Fehlerbehandlungsfunktion für fehler beim AJAX-Aufruf).
+   g. error (Fehlerbehandlungsfunktion für den Zeitpunkt, an dem der AJAX-Aufruf fehlschlägt).
 
-3. Legen Sie Daten in div-Elemente im HTML-Code ab (im Beispiel im Code erfolgt dies über den anonymen Funktionsaufruf, nachdem die ANFORDERUNG AJAX erfolgreich abgeschlossen wurde).
+3. Fügen Sie Daten in div-Elemente in den HTML-Code ein (im Beispiel im Code erfolgt dies über den anonymen Funktionsaufruf, nachdem die AJAX-Anforderung erfolgreich abgeschlossen wurde).
 
-Umschließen des JavaScript-Codes in eine HTML-Seite, und die Seite zeigt einen Bericht wie den in der Abbildung gezeigt. Der vollständige HTML-Code lautet wie folgt:
+Wenn Sie den JavaScript-Code in eine HTML-Seite einschließen, wird auf der Seite ein Bericht wie in der Abbildung angezeigt. Der vollständige HTML-Code lautet wie folgt:
 
 ```javascript
 <!DOCTYPE html>
@@ -191,19 +191,19 @@ Umschließen des JavaScript-Codes in eine HTML-Seite, und die Seite zeigt einen 
 </html>
 ```
 
-Bisher ist der Bericht noch sehr einfach. Der Benutzer kann weitere Messungen, Dimensionen oder Filter hinzufügen, um den Bericht anzupassen. Wenn Sie z. B. den Prozentsatz der Anrufe schlechter Qualität in AppSharing anzeigen möchten, muss eine neue Maßeinheit für AppSharing hinzugefügt werden. Wenn Sie alle TCP-Aufrufe v.s anzeigen möchten UDP-Aufrufe, eine neue Dimension für den Transporttyp sollte hinzugefügt werden. Wenn Sie die Anzahl der Anrufe schlechter Qualität in einem bestimmten Gebäude anzeigen möchten, sollte ein neuer Filter hinzugefügt werden, um die Anrufe an und aus diesem Gebäude auszuwählen.
+Bisher ist der Bericht noch sehr einfach. Der Benutzer kann weitere Messungen, Dimensionen oder Filter hinzufügen, um den Bericht anzupassen. Wenn Sie beispielsweise den Prozentsatz der AppSharing-Anrufe mit schlechter Qualität anzeigen möchten, muss eine neue Maßeinheit für AppSharing hinzugefügt werden. Wenn Sie alle TCP-Aufrufe v.s anzeigen möchten. UDP-Anrufe, eine neue Dimension hinsichtlich transporttyp hinzugefügt werden sollte. Wenn Sie die Anzahl schlechter Anrufe in einem bestimmten Gebäude anzeigen möchten, sollte ein neuer Filter hinzugefügt werden, um die Anrufe zu und aus diesem Gebäude auszuwählen.
 
- **Beispiel 2: Berichtsdefinitionsbeispiel**
+ **Beispiel 2: Beispiel für eine Berichtsdefinition**
 
-Es kann schwierig für jemanden sein, herauszufinden, wie die vollständige Liste der Messungen/Dimensionen/Filter und die entsprechenden Werte beim Erstellen einer Abfrage geschrieben wird. In diesem Fall können Sie zum Portal wechseln, einen Bericht mithilfe des Berichtseditors erstellen und die JSON-Zeichenfolge der Berichtsdefinition anzeigen und dann die Definition in einen benutzerdefinierten Bericht kopieren. 
+Es kann für jemanden schwierig sein, herauszufinden, wie die vollständige Liste von Maßen/Dimensionen/Filtern und deren entsprechenden Werten beim Erstellen einer Abfrage geschrieben wird. In diesem Fall können Sie zum Portal wechseln, einen Bericht mithilfe des Berichts-Editors erstellen, die JSON-Zeichenfolge der Berichtsdefinition anzeigen und dann die Definition in einen benutzerdefinierten Bericht kopieren. 
 
-In diesem Beispiel erstellen wir eine Webseite wie die in der Abbildung gezeigte, auf der ein Benutzer die ID eines vorhandenen Berichtssatzes (oder Berichts) eingeben und die Definition des Berichtssatzes oder Berichts auf der Webseite anzeigen kann. Der Benutzer kann dann die JSON-Zeichenfolge jedes Berichts in Code ähnlich dem in Beispiel 1 einpassen und jeden benutzerdefinierten Bericht erstellen, den der Benutzer wünscht. 
+In diesem Beispiel erstellen wir eine Webseite wie in der Abbildung, auf der ein Benutzer die ID eines vorhandenen Berichtssatzes (oder Berichts) eingeben und die Definition des Berichtssatzes oder Berichts auf der Webseite anzeigen kann. Der Benutzer kann dann die JSON-Zeichenfolge jedes Berichts in Code ähnlich dem in Beispiel 1 gezeigten einfügen und jeden benutzerdefinierten Bericht erstellen, den der Benutzer wünscht. 
 
-![Beispiel für CQD](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![CQD-Beispiel](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
-Um das Tool für die Berichtdefinitionsanzeige zu erstellen, müssen wir Aufrufe an den Repositorydienst senden, um die JSON-Zeichenfolgendarstellungen der Definitionen jedes berichtssatz abzurufen, den wir benötigen. Die Repository-API gibt eine Berichtssatzdefinition basierend auf einer bestimmten Berichtssatz-ID zurück. 
+Um das Tool zum Anzeigen der Berichtsdefinition zu erstellen, müssen wir Aufrufe an den Repositorydienst senden, um die JSON-Zeichenfolgendarstellungen der Definitionen jedes gewünschten Berichtssatzes abzurufen. Die Repository-API gibt die Berichtssatzdefinition basierend auf einer bestimmten Berichtssatz-ID zurück. 
 
-Ein schnelles Beispiel: Der Code enthält einen Block, der ein einfaches Beispiel zum Senden einer Abfrage an den Repositorydienst ist, um den Inhalt eines Repositoryelements basierend auf seinem Bezeichner zu erhalten. Und der nächste Codeabschnitt (processReportSetData-Methode) sendet AJAX-Aufrufe, um die Definition der einzelnen Berichte in diesem Berichtssatz zu erhalten. Da die ID im CQD-Webportal die ID eines Berichtssatz ist, gibt der AUFRUF VON AJAX ein Berichtssatzelement zurück. Weitere Details zur Repository-API und insbesondere zu GetItems finden Sie unter ["Elemente abrufen".](get-items.md) 
+Ein kurzes Beispiel ist wie folgt: Der Code enthält einen Block, der ein einfaches Beispiel zum Senden einer Abfrage an den Repository-Dienst ist, um den Inhalt eines Repositoryelements basierend auf seinem Bezeichner abzurufen. Und der nächste Codeteil (processReportSetData-Methode) sendet AJAX-Aufrufe, um die Definition der einzelnen Berichte innerhalb dieses Berichtssatzes abzurufen. Da die ID im CQD-Webportal die ID eines Berichtssatzes ist, gibt der AJAX-Aufruf ein Berichtssatzelement zurück. Weitere Details zur Repository-API und insbesondere zu GetItems finden Sie unter ["Elemente abrufen".](get-items.md) 
 
 ```html
 <!DOCTYPE html>
@@ -312,27 +312,27 @@ Ein schnelles Beispiel: Der Code enthält einen Block, der ein einfaches Beispie
 </html>
 ```
 
-Das obige Ergebnis ist eine Webseite wie die in der Abbildung (ohne berichtsdefinition beim ersten Besuch). Erhalten Sie die Berichtssatz-ID aus dem CQD-Portal (nach '/#/'-Anmeldung bei der CQD-Portal-URL (z. B. in der ersten Abbildung ist die Berichtssatz-ID 3024), und legen Sie diese Berichtssatz-ID in den Eingabeabschnitt dieser Webseite. Klicken Sie auf die Schaltfläche "Laden", und sehen Sie sich die vollständige Definition (Messungen, Dimensionen, Filterlisten) des Berichtssatz an.
+Das obige Ergebnis führt zu einer Webseite wie der in der Abbildung (ohne die Berichtsdefinition beim ersten Besuch). Abrufen der Berichtssatz-ID aus dem CQD-Portal (nach der "/#/"-Anmeldung in der CQD-Portal-URL (z. B. in der ersten Abbildung lautet die Berichtssatz-ID 3024), und fügen Sie diese Berichtssatz-ID in den Eingabeabschnitt dieser Webseite ein. Drücken Sie die Schaltfläche "Laden", und sehen Sie die vollständige Definition (Maßangaben, Dimensionen, Filterlisten) des Berichtssatzes.
 
-Zusammenfassung: Um schnell die vollständige Definition eines Berichts-/Berichtssatzes zu erhalten. Das sind die Schritte:
+Zusammengefasst, um schnell die vollständige Definition eines Berichts/Berichtssatzes zu erhalten. Das sind die Schritte:
 
-1. Wechseln Sie zum Portal, und verwenden Sie den Abfrage-Editor, um einen Bericht anzupassen (klicken Sie über einem Bericht auf die Schaltfläche "Bearbeiten", um Messungen/Dimensionen/Filter zu bearbeiten, hinzuzufügen, zu entfernen und dann den Bericht zu speichern).
+1. Wechseln Sie zum Portal, und verwenden Sie den Abfrage-Editor, um einen Bericht anzupassen (klicken Sie auf die Schaltfläche "Bearbeiten" oberhalb eines Berichts, um Maßangaben/Dimensionen/Filter zu bearbeiten, hinzuzufügen, zu entfernen und dann den Bericht zu speichern).
 
-2. Get the report set ID from URL (the integer after '/#/' sign in URL).
+2. Rufen Sie die Berichtssatz-ID von der URL ab (die ganze Zahl nach der Anmelde-URL von "/#/").
 
-3. Starten Sie diese in Beispiel 2 erstellte Berichtsdefinitionswebseite, geben Sie die Berichtssatz-ID ein, und rufen Sie die vollständige Definition eines Berichtssatz ab (zur Verwendung in Daten-API-Aufrufen).
+3. Starten Sie diese in Beispiel 2 erstellte Berichtsdefinitionswebseite, und geben Sie die Berichtssatz-ID ein, und rufen Sie die vollständige Definition eines Berichtssatzes ab (zur Verwendung in Daten-API-Aufrufen).
 
    **Beispiel 3: Scorecardbeispiel**
 
-Zeit für eine kompliziertere Aufgabe. Was passiert, wenn wir eine Webseite wie die Abbildung erstellen möchten? Wir müssen Beispiel 1 aktualisieren (mithilfe der in Beispiel 2 generierten Webseite, um die vollständige Definition eines Berichts abzurufen), damit wir größere Datenmenge verarbeiten können.
+Zeit für eine kompliziertere Aufgabe. Was geschieht, wenn wir eine Webseite wie die Abbildung erstellen möchten? Wir müssen Beispiel 1 aktualisieren (mithilfe der in Beispiel 2 generierten Webseite, um die vollständige Definition eines beliebigen Berichts abzurufen), damit wir größere Datenmengen verarbeiten können.
 
-In diesem Fall müssen wir die Maß- und Dimensionsliste aktualisieren. Die Möglichkeit, herauszufinden, wie Eine Maßeinheit und/oder Dimension hinzugefügt/bearbeitet wird, besteht in der Befolgen der Anweisungen in Beispiel 2 und dem Abrufen der vollständigen Berichtsdefinition, einschließlich der vollständigen Maß- und Dimensionslisten. Schließen Sie die vollständige Berichtsdefinition in den Beispielcode ein. 
+In diesem Fall müssen wir die Mess- und Dimensionsliste aktualisieren. Sie können herausfinden, wie Sie eine Maßeinheit und/oder Dimension hinzufügen/bearbeiten, wenn Sie den Anweisungen in Beispiel 2 folgen und die vollständige Berichtsdefinition einschließlich der vollständigen Mess- und Dimensionslisten abrufen. Schließen Sie die vollständige Berichtsdefinition in den Beispielcode an. 
 
-Im Folgenden finden Sie die detaillierten Schritte zum Öffnen der Scorecardseite in der Abbildung aus dem Beispiel in Beispiel 1:
+Hier sind die detaillierten Schritte, um zur Scorecardseite in der Abbildung aus dem Beispiel in Beispiel 1 zu gelangen:
 
-1. Aktualisieren Sie Die Messungen in der Variablen "Abfrage" von  `[Measures].[Audio Good Streams JPDR Count]` und `[Measures].[Audio Poor Streams JPDR Count]` zu `[Measures].[AudioPoorJPDRPercentage]` . 
+1. Aktualisieren Sie Die Messungen in der Variablen "Abfrage" von  `[Measures].[Audio Good Streams JPDR Count]` und `[Measures].[Audio Poor Streams JPDR Count]` nach `[Measures].[AudioPoorJPDRPercentage]` . 
 
-2. Aktualisieren Sie die Filter. Die JSON-Daten für Filter in Beispiel 1 haben einen Filter, der für die Dimension festgelegt  `[StartDate].[Month]` ist. Da Filters ein JSON-Array ist, können der Liste der Filter zusätzliche Dimensionen hinzugefügt werden. Um z. B. den Serverclient innerhalb von kabelgebundenen Anrufen für "currentMonth" zu erhalten, sollten die folgenden Filter vorhanden sein:
+2. Aktualisieren Sie die Filter. Die JSON-Daten für Filter in Beispiel 1 haben einen Filter, der für die Dimension festgelegt  `[StartDate].[Month]` ist. Da Filter ein JSON-Array sind, können der Liste der Filter zusätzliche Dimensionen hinzugefügt werden. Um z. B. den Server-Client innerhalb von kabelgebundenen Aufrufen für "currentMonth" abzurufen, sollten die folgenden Filter vorhanden sein:
 
    ```javascript
    Filters: [
@@ -349,14 +349,14 @@ Im Folgenden finden Sie die detaillierten Schritte zum Öffnen der Scorecardseit
    ],
    ```
 
-   Hier ist die  `[Scenarios].[ScenarioPair]` Dimension auf "equal" `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` festgelegt. Dies  `[Scenario.][ScenarioPair]` ist eine spezielle Dimension, die zur Vereinfachung der Berichtserstellung erstellt wurde. Es verfügt über sechs Werte, die `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` . Anstatt also eine Kombination von sechs Filtern zum Definieren eines Szenarios zu verwenden, müssen wir nur 1 Filter verwenden. In unserem Beispiel wird der Wert in das Szenario übersetzt, in dem: der erste ist Server, der zweite ist kein Server, der zweite ist innen, der zweite ist innen, der erste Verbindungstyp ist verkabelt, und der zweite Verbindungstyp ist verkabelt, was der genauen Definition von  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` "Server-Client-Inside Wired" entspricht.
+   Hier wird die Dimension  `[Scenarios].[ScenarioPair]` auf "gleich" `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` festgelegt. Dies  `[Scenario.][ScenarioPair]` ist eine spezielle Dimension, die erstellt wurde, um die Erstellung von Berichten zu vereinfachen. Es hat sechs Werte, die entsprechen `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` . Anstatt also eine Kombination aus 6 Filtern zum Definieren eines Szenarios zu verwenden, müssen wir nur 1 Filter verwenden. In unserem Beispiel wird der Wert  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` in das Szenario übersetzt, in dem: der erste Server, der zweite nicht der Server, der erste ist innerhalb, der erste Verbindungstyp verkabelt und der zweite Verbindungstyp verkabelt ist, was die genaue Definition von "Server-Client-Inside Wired" ist.
 
-3. Erstellen Sie einen Filtersatz pro Szenario. Jede Zeile in der Scorecard in der Abbildung stellt ein anderes Szenario dar, bei dem es sich um einen anderen Filter handelt (während die Dimensionen und Maßangaben gleich bleiben). 
+3. Erstellen Sie einen Filtersatz pro Szenario. Jede Zeile in der Scorecard in der Abbildung stellt ein anderes Szenario dar, bei dem es sich um einen anderen Filter handelt (während die Abmessungen und Maße gleich bleiben). 
 
-4. Analysieren Sie die Ergebnisse der AJAX-Aufrufe, und platzieren Sie sie an der richtigen Position der Tabelle. Da es sich hierbei hauptsächlich um HTML- und JavaScript-Manipulation handelt, gehen wir hier nicht auf die Details ein. Stattdessen wird der Code in Anhang A bereitgestellt.
+4. Analysieren Sie die Ergebnisse der AJAX-Aufrufe, und platzieren Sie sie an der richtigen Position der Tabelle. Da dies hauptsächlich HTML- und JavaScript-Manipulation ist, werden wir hier nicht auf details eingehen. Stattdessen wird der Code in Anhang A bereitgestellt.
 
     > [!NOTE]
-    >  Wenn CROSS-Origin Resource Sharing (CORS) aktiviert ist, können Fehler wie "Kein "Access-Control-Allow-Origin"-Header für die angeforderte Ressource vorhanden sein. Origin 'null' is therefore not allowed access". Um das Problem zu beheben, platzieren Sie die HTML-Datei unter dem Ordner, in dem das Portal installiert ist (standardmäßig sollte es `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` sein. Greifen Sie dann über einen beliebigen Browser mit der URL auf den HTML-Code  `http://<servername>/cqd/<html_file_name>` zu. (Die Standard-URL für das lokale CQD-Dashboard ist  `http://<servername>/cqd.` ) 
+    >  Wenn cross-origin Resource Sharing (CORS) aktiviert ist, können Benutzer Fehler wie "Kein "Access-Control-Allow-Origin"-Header ist in der angeforderten Ressource vorhanden sein. Origin 'null' is therefore not allowed access". Um das Problem zu beheben, platzieren Sie die HTML-Datei unter dem Ordner, in dem das Portal installiert ist (standardmäßig sollte sie `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` . Greifen Sie dann über einen beliebigen Browser mit der URL auf den HTML-Code  `http://<servername>/cqd/<html_file_name>` zu. (Die Standard-URL für das lokale CQD-Dashboard lautet  `http://<servername>/cqd.` ) 
 
 ### <a name="appendix-a"></a>Anhang A
 

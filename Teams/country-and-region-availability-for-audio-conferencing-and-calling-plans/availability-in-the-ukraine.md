@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Ukraine.
-ms.openlocfilehash: 30a07e510eb4fb2846c5f51588e92ac7fb48af2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1d28002ae871c95d9f74cdd04abd478d3ec1e178818e3feaaecdf56ca4f3d707
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098451"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339791"
 ---
 # <a name="availability-in-the-ukraine"></a>Verfügbarkeit in der Ukraine
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie Audiokonferenzen in Ihrem kleinen oder mittleren Unternehmen für Personen festlegen, die sich per Telefon in Besprechungen einrufen müssen. '
-ms.openlocfilehash: e7a3461453255a7a61f6a1095e9cb9697070771c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cb906f1a6c5d5d161cbe98d6b1e81910bd5317aece83f5835a51cbcddf79cdf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312963"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen
 
@@ -50,9 +50,9 @@ Wenn Sie Audiokonferenzen einrichten, wird Ihrer Konferenzbrücke automatisch ei
 
 ### <a name="step-1-get-audio-conferencing-licenses"></a>Schritt 1: Erwerben von Lizenzen für Audiokonferenzen
 
-Erhalten Sie eine Lizenz für Audiokonferenzen für jede Person, die Besprechungen führt. Verwenden Sie Microsoft 365 Admin Center, um dies zu tun.
+Erhalten Sie eine Lizenz für Audiokonferenzen für jede Person, die Besprechungen führt. Verwenden Sie Microsoft 365 Admin Center zu diesem Thema.
 
-1. Wechseln Sie Microsoft 365 Admin Center zu Dienste für Abrechnungskäufe , und wählen Sie dann unten auf der Seite  >   **Add-Ons aus.**
+1. Wechseln Sie Microsoft 365 Admin Center Seite zu **Dienste** für den Abrechnungskauf, und wählen Sie dann unten auf der Seite  >   **Add-Ons aus.**
 2. Wählen **Microsoft 365 audio conferencing adoption promo**  >  **details** aus, und wählen Sie dann Jetzt erhalten **aus.**
 3. Geben Sie die Anzahl der Lizenzen ein, die Sie für Ihre Besprechungsorganisatoren benötigen, und füllen Sie dann Ihre Bestellung aus.
 
@@ -63,17 +63,17 @@ Erhalten Sie eine Lizenz für Audiokonferenzen für jede Person, die Besprechung
 
 ### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>Schritt 2: Zuweisen einer Lizenz für Audiokonferenzen zu Benutzern, die Besprechungen führen
 
-Weisen Sie jeder Person, die Besprechungen führen soll, eine Lizenz zu. Verwenden Sie Microsoft 365 Admin Center, um dies zu tun.
+Weisen Sie jeder Person, die Besprechungen führen soll, eine Lizenz zu. Verwenden Sie Microsoft 365 Admin Center zu diesem Thema.
 
 #### <a name="assign-a-license-to-one-user"></a>Zuweisen einer Lizenz zu einem Benutzer
 
-1. Wechseln Sie Microsoft 365 Admin Center zu **Benutzer**  >  **aktive Benutzer**.  
+1. Wechseln Sie Microsoft 365 Admin Center zu Aktive   >  **Benutzer**.  
 2. Wählen Sie die Zeile des Benutzers aus, dem Sie die Lizenz zuweisen möchten, und wählen Sie dann im Bereich Lizenzen **und Apps aus.**
 3. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz aktivieren,** und wählen Sie dann **Änderungen speichern aus.**
 
 #### <a name="assign-a-license-to-multiple-users"></a>Zuweisen einer Lizenz für mehrere Benutzer
 
-1. Wechseln Sie Microsoft 365 Admin Center zu **Benutzer**  >  **aktive Benutzer**.  
+1. Wechseln Sie Microsoft 365 Admin Center zu Aktive   >  **Benutzer**.  
 2. Wählen Sie die Kreise neben den Benutzern aus, den Sie die Lizenz zuweisen möchten, und wählen Sie dann **Produktlizenzen verwalten aus.**
 3. Wählen Sie **im Bereich Produktlizenzen** verwalten die Option **Weitere zuweisen aus.**
 4. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz aktivieren,** und wählen Sie dann **Änderungen speichern aus.**  

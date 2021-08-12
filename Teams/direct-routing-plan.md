@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie Microsoft-Telefon sie mit System Direct Routing eine Verbindung mit einem unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft-Telefon System herstellen können.
-ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 54c3ad54bfe3ba677ed9e087f9b30bb19fd21e06b030faf8c1c332fbc1cfd500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339803"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 

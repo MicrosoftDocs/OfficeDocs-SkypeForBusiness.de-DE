@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über die Option für Audiokonferenzen mit Minutengebühren für Organisationen, die Microsoft-Volumenlizenzierung verwenden.
-ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: d3aea84ec5686c5ed91dbcd5dbda0d4c9ca8649c2eef7dd3c3a62b4def46688e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617787"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286204"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 

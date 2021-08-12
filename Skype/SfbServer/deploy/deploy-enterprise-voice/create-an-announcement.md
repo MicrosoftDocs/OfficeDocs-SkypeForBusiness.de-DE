@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Löschen einer Ansage in Skype for Business Server
+title: Erstellen oder Löschen einer Ankündigung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,62 +15,62 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Erstellen oder löschen Sie Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
-ms.openlocfilehash: 571dce52366430c0e13f442de4917a2c51ed056f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erstellen oder Löschen von Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
+ms.openlocfilehash: f382c86ee6773f586e1fb1d1080c9c9ce64a46dc253ff81275252a28db1addd0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283877"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Erstellen oder Löschen einer Ansage in Skype for Business Server
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Erstellen oder Löschen einer Ankündigung in Skype for Business Server
 
-Erstellen oder löschen Sie Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
+Erstellen oder Löschen von Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
 
-Wenn Sie Ankündigungen konfigurieren, konfigurieren Sie wirklich, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden sollen. Sie können eine Eingabeaufforderung wiedergeben, bei der es sich um eine Audiodatei oder eine Text-zu-Sprache-Datei (Text-to-Speech) oder einfach um einen Anruf an ein angegebenes Ziel ohne Wiedergabe einer Eingabeaufforderung geht.
+Wenn Sie Ankündigungen konfigurieren, konfigurieren Sie tatsächlich, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden sollen. Sie können eine Eingabeaufforderung wiedergeben, bei der es sich um eine Audiodatei oder eine TTS-Datei (Text-to-Speech) handeln kann, oder Sie können den Anruf einfach an ein angegebenes Ziel übertragen, ohne eine Eingabeaufforderung wiederzugeben.
 
-Sie müssen Ankündigungen erstellen, bevor Sie die Tabelle nicht zugewiesener Nummern definieren. Sie müssen diesen Schritt für alle Ansagen ausführen, die eine Audioansage, eine TTS-Eingabeaufforderung oder keine Eingabeaufforderung verwenden.
+Sie müssen Ankündigungen erstellen, bevor Sie die Tabelle nicht zugewiesener Nummern definieren. Sie müssen diesen Schritt für alle Ankündigungen ausführen, die eine Audioaufforderung, eine TTS-Eingabeaufforderung oder keine Eingabeaufforderung verwenden.
 
-In diesem Thema wird das Importieren und Erstellen von Ankündigungen beschrieben. Weitere Informationen zum Zuweisen von Ansagen in der Tabelle nicht zugewiesener Nummern finden Sie unter [Configure the Unassigned Number Table](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table).
+In diesem Thema wird beschrieben, wie Ankündigungen importiert und erstellt werden. Ausführliche Informationen zum Zuweisen von Ankündigungen in der Tabelle nicht zugewiesener Nummern finden Sie unter [Configure the Unassigned Number Table](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Erstellen einer neuen Ankündigung für nicht zugewiesene Nummern
 
-Zum Erstellen einer neuen Ankündigung müssen Sie die folgenden Schritte ausführen:
+Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausführen:
 
-1. Für Audioaufforderungen zeichnen Sie die Audiodatei mithilfe Ihrer bevorzugten Audioaufzeichnungsanwendung auf.
+1. Notieren Sie die Audiodatei für Audioansagen mit ihrer bevorzugten Audioaufzeichnungsanwendung.
 
-2. Führen Sie für Audioansagen das **Cmdlet Import-CsAnnouncementFile** aus, um den Inhalt der Audiodatei in den Dateispeicher zu importieren.
+2. Führen Sie für Audioansagen das Cmdlet **"Import-CsAnnouncementFile"** aus, um den Inhalt der Audiodatei in file Store zu importieren.
 
-3. Führen Sie **das Cmdlet New-CsAnnouncement** aus, um die Ankündigung zu erstellen und zu benennen. Führen Sie diesen Schritt aus, um Ansagen mit einer Audioansage, einer Text-zu-Sprache-Eingabeaufforderung oder ohne Eingabeaufforderung zu erstellen.
+3. Führen Sie das Cmdlet **New-CsAnnouncement** aus, um die Ankündigung zu erstellen und zu benennen. Führen Sie diesen Schritt aus, um Ankündigungen mit einer Audioaufforderung, einer TTS-Eingabeaufforderung (Text-to-Speech) oder keiner Eingabeaufforderung zu erstellen.
 
     > [!TIP]
-    > Sie können eine Ansage ohne Eingabeaufforderung erstellen (z. B. wenn Sie Anrufe an ein bestimmtes Ziel übertragen möchten, ohne eine Nachricht zu wiedergeben).
+    > Sie können eine Ansage ohne Aufforderung erstellen (z. B. wenn Sie Anrufe an ein bestimmtes Ziel übertragen möchten, ohne eine Nachricht wiederzugeben).
 
-4. Weisen Sie die neue Ansage einem Nummernbereich in der Tabelle nicht zugewiesener Nummern zu.
+4. Weisen Sie die neue Ankündigung einem Nummernbereich in der Tabelle nicht zugewiesener Nummern zu.
 
 ### <a name="to-create-a-new-announcement"></a>So erstellen Sie eine neue Ankündigung
 
-1. Erstellen Sie für Audioaufforderungen die Audiodatei.
+1. Erstellen Sie für Audioansagen die Audiodatei.
 
-2. Melden Sie sich an dem Computer an, auf dem Skype for Business Server Management Shell als Mitglied der Gruppe RTCUniversalServerAdmins installiert ist, oder mit den erforderlichen Benutzerrechten, wie unter **Delegate Setup Permissions beschrieben.**
+2. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
 
-3. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+3. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
 
-4. Führen Sie für Audioaufforderungen aus:
+4. Führen Sie für Audioansagen Folgendes aus:
 
    ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Führen Sie  aus.
+5. Ausführen:
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    Geben Sie für die Übertragung von Anrufen an Voicemail SIPAddress im Format sip:username@domainname;opaque=app:voicemail ein (z. B. sip:bob@contoso.com;opaque=app:voicemail). Geben Sie zum Übertragen von Anrufen an eine Telefonnummer SIPAddress im Format sip:number@domainname;user=phone ein (z. B. sip:+ 14255550121@contoso.com;user=phone).
+    Geben Sie für die Übertragung von Anrufen an Voicemail SIPAddress im Format "sip:username@domainname;opaque=app:voicemail" ein (z. B. "sip:bob@contoso.com;opaque=app:voicemail"). Um Anrufe an eine Telefonnummer zu übertragen, geben Sie SIPAddress im Format "sip:number@domainname;user=phone" ein (z. B. sip:+ 14255550121@contoso.com;user=phone).
 
-    So geben Sie beispielsweise eine Audioaufforderung an:
+    So geben Sie z. B. eine Audioaufforderung an:
 
    ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
@@ -78,21 +78,21 @@ Zum Erstellen einer neuen Ankündigung müssen Sie die folgenden Schritte ausfü
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
    ```
 
-    So geben Sie beispielsweise eine TTS-Eingabeaufforderung an:
+    So geben Sie z. B. eine TTS-Eingabeaufforderung an:
 
    ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Weitere Informationen zu diesen Cmdlets sowie eine Liste der im **Parameter TextToSpeechPrompt** zu verwendenden Sprachcodes finden Sie unter [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Weitere Informationen zu diesen Cmdlets und eine Liste der Sprachcodes, die im **TextToSpeechPrompt-Parameter** verwendet werden sollen, finden Sie unter [New-CsAnnouncement.](/powershell/module/skype/new-csannouncement?view=skype-ps)
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Löschen einer Ansage für nicht zugewiesene Nummern
 
 ### <a name="to-delete-an-announcement"></a>So löschen Sie eine Ankündigung
 
-1. Melden Sie sich an dem Computer an, auf dem Skype for Business Server Management Shell als Mitglied der Gruppe RTCUniversalServerAdmins installiert ist, oder mit den erforderlichen Benutzerrechten, wie unter **Delegate Setup Permissions beschrieben.**
+1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
 
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
 
 3. Listen Sie alle Ankündigungen in Ihrer Organisation auf. Führen Sie an der Eingabeaufforderung Folgendes aus:
 
@@ -113,11 +113,11 @@ Zum Erstellen einer neuen Ankündigung müssen Sie die folgenden Schritte ausfü
    ```
 
     > [!NOTE]
-    > Weitere Informationen zu weiteren Optionen finden Sie unter [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) und [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Ausführliche Informationen zu weiteren Optionen finden Sie unter ["Get-CsAnnouncement"](/powershell/module/skype/get-csannouncement?view=skype-ps) und ["Remove-CsAnnouncement".](/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erstellen oder Löschen einer Ansage in Skype for Business Server](create-an-announcement.md)
+[Erstellen oder Löschen einer Ankündigung in Skype for Business Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 

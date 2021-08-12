@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Sri Lanka.
-ms.openlocfilehash: 4e7f7b767df2f7b4baa89dd15b4d81195ba6d2be
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e59a77caca6b168da5cea493b7293a79955a150e944b97aa2ee348255dce88f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285994"
 ---
 # <a name="availability-in-sri-lanka"></a>Verfügbarkeit in Sri Lanka
 

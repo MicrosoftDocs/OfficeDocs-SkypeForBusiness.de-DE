@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
-description: So konfigurieren Sie einen Monitoring Server und ordnen ihn dem Director oder Directorpool zu
-ms.openlocfilehash: f4c61893ab6d703afd9dc82b5fc21a9b611261fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'So konfigurieren Sie einen Monitoring Server und ordnen ihn dem Director- oder Director-Pool zu:'
+ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818575"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346571"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Zuordnen des Directors zur Überwachung für Lync Server 2010 – Seite
  
-So konfigurieren Sie einen Monitoring Server und ordnen ihn dem Director oder Directorpool zu
+So konfigurieren Sie einen Monitoring Server und ordnen ihn dem Director- oder Director-Pool zu:
   
-Wählen **Sie unter Monitoring Server** in der Liste einen Monitoring Server aus.
+Wählen Sie unter **"Monitoring Server"** in der Liste einen Monitoring Server aus.
   
-Wenn kein Monitoring Server vorhanden ist und Sie jetzt einen Monitoring Server erstellen möchten, klicken Sie auf **"Neu".**
+Wenn kein Monitoring Server vorhanden ist und Sie jetzt einen Monitoring Server erstellen möchten, klicken Sie auf **Neu.**
   
  **Zurück**: Wechselt zurück zum vorherigen Dialogfeld.
   

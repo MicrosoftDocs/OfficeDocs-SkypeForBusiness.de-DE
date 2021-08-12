@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, welche Features sie erhalten, wie Sie diese für Ihr Produkt kaufen und wie Sie sie mit Ihrem vorhandenen Netzbetreiber nutzen. Sie können Informationen über Preise und Details zu den Plänen für Office 365, Kommunikationsguthaben und Anrufpläne erhalten. '
-ms.openlocfilehash: 5bbd455a0cb3bf2bff8bc7bf0dd4362135214a39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283907"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Lizenzierung des Skype for Business-Add-Ons
 
@@ -84,7 +84,7 @@ Eine detaillierte Liste der Features und Vergleiche zu den einzelnen Skype for B
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>So können Sie Preise finden und Add-On-Lizenzen kaufen
 <a name="bkmk_how"> </a>
 
- Nachdem Sie einen Plan Microsoft 365 haben, können Sie Preise **und Add-Ons** über das Microsoft 365 Admin Center sehen.
+ Nachdem Sie einen Plan Microsoft 365, können Sie Preise sehen und **Add-Ons** über das Microsoft 365 Admin Center.
 
 Je nachdem, welche Add-Ons Sie wünschen, empfehlen wir, zu [vergleichen, ob es für Sie kostengünstiger ist](https://go.microsoft.com/fwlink/?linkid=844053), zu einem Plan zu wechseln, in dem diese Funktionen bereits enthalten sind.
 

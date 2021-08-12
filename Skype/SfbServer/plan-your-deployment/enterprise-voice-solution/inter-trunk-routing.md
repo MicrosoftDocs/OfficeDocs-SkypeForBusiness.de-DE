@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Erfahren Sie, wie Skype for Business Server Enterprise-VoIP das Routing zwischen Trunks unterstützt.
-ms.openlocfilehash: e064aa5a182a5c2a800fad0e51e864b66d1dcf9c
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 32bb244ddc4496d3603d82c977f4f22667d19a6e29ef549ca3e6cdb72fcd67b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286664"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>Informationen zum Routing zwischen Trunks in Skype for Business Server
  

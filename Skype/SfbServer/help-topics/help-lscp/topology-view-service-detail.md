@@ -1,5 +1,5 @@
 ---
-title: Details zum Topologieansichtsdienst
+title: Topologieansicht – Dienstdetails
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: a757c7bd4bc12f0aa03ec50ea3dff6e2a3db3992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 69317b1386995af7f105dc7fa516d12a3f593f9301e2f68bad889c274bbf7450
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331307"
 ---
 # <a name="topology-view-service-detail"></a>Topologie: Anzeigen von Dienstdetails
 
@@ -30,8 +30,8 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Anzeigen von Details zu einem Dienst](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service)
 
-- [Starten oder Beenden von Lync Server 2010 Services](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
+- [Starten oder Beenden von Lync Server 2010-Diensten](/previous-versions/office/lync-server-2013/lync-server-2013-start-or-stop-lync-server-services)
 
 - [Verhindern neuer Verbindungen mit Diensten](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).

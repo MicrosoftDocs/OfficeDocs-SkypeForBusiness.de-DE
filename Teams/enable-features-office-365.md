@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506662"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322577"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -53,7 +53,7 @@ Hinzufügen oder Sperren einer Domäne:
 
 ### <a name="guest-access"></a>Gastzugriff
 
-**Gastzugriff** in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb der Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md).
+**Gastzugriff** in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb der Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird. Alle Benutzer, die über ein E-Mail-Konto für Geschäftsbenutzer oder Heimanwender (z. B. Outlook, Gmail usw.) verfügen, können als Gäste in Microsoft Teams teilnehmen und erhalten Vollzugriff auf Chats, Besprechungen und Dateien des Teams. Weitere Informationen finden Sie unter [Gastzugriff in Microsoft Teams](guest-access.md).
 
 ### <a name="teams-settings"></a>„Teams settings“ (Microsoft Teams-Einstellungen)
 
@@ -135,7 +135,7 @@ Sie können auch die Option "Teams-App im Hintergrund für Benutzer von Skype fo
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Woran erkenne ich, welche Funktionen verfügbar sind?
 
-In der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+In der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Weitere Informationen
 

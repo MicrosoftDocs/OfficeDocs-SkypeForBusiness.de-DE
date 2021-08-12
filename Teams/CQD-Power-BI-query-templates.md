@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Power BI zum Analysieren von AQD-Daten für Microsoft Teams.
-ms.openlocfilehash: 5ef98f75854cb4a255bf3f01aeb32de66c059b76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7314a0fb4a5bd1058e2270a3302e165eacc05d07dca4ebcc599a75aed687cd74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286234"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden Power BI Zum Analysieren von AQD-Daten für Microsoft Teams
 
@@ -35,7 +35,7 @@ Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffsrolle für](turning
 
 |  |  |
 |---------|---------|
-|<strong>(Neu!)</strong> CQD Teams automatische Telefonzentrale & Call Queue Historical Report.pbit     |  Diese Vorlage enthält die folgenden drei Berichte:</p><li>automatische Telefonzentrale – Zeigt Analysen für Anrufe an, die in Ihre automatischen Telefon attendants eins gehen.</li><li>Anrufwarteschleife – Zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen kommen.</li><li>Agent-Zeitachse – Zeigt eine Zeitachsenansicht der Agents an, die an Anrufen in der Anrufwarteschleife aktiv sind.</li><br>Weitere Informationen finden Sie unter [Verlaufsbericht automatische Telefonzentrale & Anrufwarteschleife.](aa-cq-cqd-historical-reports.md)        |
+|<strong>(Neu!)</strong> CQD Teams automatische Telefonzentrale & Call Queue Historical Report.pbit     |  Diese Vorlage enthält die folgenden drei Berichte:</p><li>Automatische Telefonzentrale – zeigt Analysen für Anrufe an, die in Ihre automatischen Telefonzentralen eingehen.</li><li>Anrufwarteschleife – zeigt Analysen für Anrufe an, die in Ihre Anrufwarteschleifen eingehen.</li><li>Agent-Zeitachse – zeigt eine Zeitachsenansicht der Agents an, die in Anrufen der Anrufwarteschleife aktiv sind.</li><br>Weitere Informationen finden Sie unter [Verlaufsbericht automatische Telefonzentrale & Anrufwarteschleife.](aa-cq-cqd-historical-reports.md)        |
 |CQD Helpdesk Report.pbit     |Dieser Bericht dient zum Integrieren von Gebäude- und EUII-Daten und soll Es Ihnen gestatten, einen Drilldown eines einzelnen Benutzers zu erstellen, um die Ursache für eine schlechte Anrufqualität in Upstream zu finden (z. B. wenn sich der Benutzer in einem Gebäude befindet, in dem Netzwerkprobleme auftreten).         |
 |CQD Location Enhanced Report.pbit     | Wiedererstelle von Standortberichten für das CQD SPD Enthält 9 Berichte, die Informationen zu Anrufqualität, WLAN, Zuverlässigkeit und Bewerten von Anrufen mit zusätzlichen Drillthruss durch Gebäude oder Benutzer bereitstellen.  Stellen Sie sicher, dass Sie die Gebäudedaten hochladen, um Die Berichterstellung zu maximieren.        |
 |CQD Mobile Device Report.pbit     | Bietet Einblicke, die speziell für Benutzer mobiler Geräte optimiert wurden, einschließlich Anrufqualität, Zuverlässigkeit und Anrufrate. Anzeigen von Berichten über Mobilnetzwerke, WLAN-Netzwerke und Betriebssysteme für mobile Geräte (Android, iOS).        |

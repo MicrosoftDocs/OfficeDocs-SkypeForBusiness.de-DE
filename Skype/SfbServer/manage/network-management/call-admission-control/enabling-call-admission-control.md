@@ -11,30 +11,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " Nachdem Sie das Anrufsteuerungsnetzwerk konfiguriert haben, müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen."
-ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86a3cbead644ac265fc29d15c4ee9167bb214925c9176f9dfd11efe89df12079
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313003"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Aktivieren der Anrufsteuerung in Skype for Business Server
 
-Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten und Subnetzen, mit dem Sie basierend auf der verfügbaren Bandbreite Einschränkungen für Audio- und Videoübertragungen festlegen können. Nach der Konfiguration des Anrufsteuerungsnetzwerks müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen. Dazu können Sie die Skype for Business Server-Systemsteuerung verwenden.
+Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten und Subnetzen, mit dem Sie basierend auf der verfügbaren Bandbreite Einschränkungen für Audio- und Videoübertragungen festlegen können. Nach der Konfiguration des Anrufsteuerungsnetzwerks müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen. Dazu können Sie die Skype for Business Server Systemsteuerung verwenden.
 
 
-## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>So aktivieren Sie die Anrufsteuerung in der Skype for Business Server-Systemsteuerung
+## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>So aktivieren Sie die Anrufsteuerung über die Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Global**.
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Global".**
 
 4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**.
    
     > [!NOTE]  
-    > Es kann nur ein Netzwerk für jede Skype for Business Server-Bereitstellung konfiguriert werden, sodass in der Liste nie mehr als eine Netzwerkkonfiguration enthalten ist. Die globale Konfiguration kann nicht umbenannt werden.
+    > Für jede Skype for Business Server Bereitstellung kann nur ein Netzwerk konfiguriert werden, sodass in der Liste nie mehr als eine Netzwerkkonfiguration vorhanden ist. Die globale Konfiguration kann nicht umbenannt werden.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 

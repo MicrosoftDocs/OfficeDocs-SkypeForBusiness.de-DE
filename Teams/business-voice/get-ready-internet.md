@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0b5aed539e7d32db7650bb1b9778c912d0065b411832337438c251177d88e809
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286064"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Überprüfen Ihrer Internetverbindung für Business Voice
 

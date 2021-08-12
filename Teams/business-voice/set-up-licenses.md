@@ -17,18 +17,18 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie ihren Microsoft 365 Business Voice Lizenzen zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5da524c636ade2c177acece602d16d7292fc81fd
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 53ae830e12ea360ed212cec56190e09f94aaae0870a01e880f0f1872a996e56b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910027"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312953"
 ---
 # <a name="step-3-assign-business-voice-licenses"></a>Schritt 3: Zuweisen von Business Voice-Lizenzen
 
 Jedem Benutzer, der die Microsoft 365 Business Voice verwenden muss, müssen Lizenzen für Business Voice zugewiesen sein.
 
-Im folgenden Video wird gezeigt, wie Sie diese Schritte im Microsoft 365 Admin Center ausführen.
+Im folgenden Video wird gezeigt, wie Sie diese Schritte im Abschnitt Microsoft 365 Admin Center.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
 

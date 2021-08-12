@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
-description: Sie veröffentlichen die Topologie, die Sie mit dem Topologie-Generator konfiguriert haben. Sie werden aufgefordert, aus einer Liste auszuwählen, welcher Front-End-Server oder Front-End-Pool die Rolle des zentralen Verwaltungsspeichers übernimmt. Nur ein Front-End-Server oder Front-End-Pool kann diese Rolle jederzeit übernehmen.
-ms.openlocfilehash: c55cd337e7c49f943705671983a436397bf4e4e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Sie veröffentlichen die Topologie, die Sie mithilfe des Topologie-Generators konfiguriert haben. Sie werden aufgefordert, aus einer Liste auszuwählen, welcher Front-End-Server oder Front-End-Pool die Rolle des zentralen Verwaltungsspeichers übernimmt. Nur ein Front-End-Server oder Front-End-Pool kann diese Rolle zu einem bestimmten Zeitpunkt übernehmen.
+ms.openlocfilehash: 5cdc82b85bdebedf2ace94b98296990cf6fbfb4c7e239ad91116d961e27dfbb6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346531"
 ---
 # <a name="publish-topology-select-cms-page"></a>Veröffentlichen der Topologie – Seite „Zentralen Verwaltungsserver auswählen“
 
-Sie veröffentlichen die Topologie, die Sie mit dem Topologie-Generator konfiguriert haben. Sie werden aufgefordert, aus einer Liste auszuwählen, welcher Front-End-Server oder Front-End-Pool die Rolle des zentralen Verwaltungsspeichers übernimmt. Nur ein Front-End-Server oder Front-End-Pool kann diese Rolle jederzeit übernehmen.
+Sie veröffentlichen die Topologie, die Sie mithilfe des Topologie-Generators konfiguriert haben. Sie werden aufgefordert, aus einer Liste auszuwählen, welcher Front-End-Server oder Front-End-Pool die Rolle des zentralen Verwaltungsspeichers übernimmt. Nur ein Front-End-Server oder Front-End-Pool kann diese Rolle zu einem bestimmten Zeitpunkt übernehmen.
 
-Weitere Informationen zum zentralen Verwaltungsspeicher finden Sie unter [Move the Lync Server 2010 Central Management Server to Lync Server 2013](/previous-versions/office/lync-server-2013/move-the-lync-server-2010-central-management-server-to-lync-server-2013).
+Weitere Informationen dazu, was der zentrale Verwaltungsspeicher ist, finden Sie unter [Move the Lync Server 2010 Central Management Server to Lync Server 2013.](/previous-versions/office/lync-server-2013/move-the-lync-server-2010-central-management-server-to-lync-server-2013)
 
 ## <a name="see-also"></a>Siehe auch
 

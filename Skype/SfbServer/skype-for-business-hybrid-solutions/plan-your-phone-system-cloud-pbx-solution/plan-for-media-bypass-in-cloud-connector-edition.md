@@ -15,99 +15,99 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
-description: Lesen Sie dieses Thema, um Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen der Medienumgehung finden Sie unter Deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: bae10c77a6b382eaca7189ed6ae52960a6fb1bf9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Lesen Sie dieses Thema, um Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen der Medienumgehung finden Sie unter Bereitstellen der Medienumgehung in Cloud Connector Edition.
+ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096199"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339891"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der Medienumgehung in der Cloud Connector Edition
  
-Lesen Sie dieses Thema, um Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen der Medienumgehung finden Sie unter [Deploy media bypass in Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md).
+Lesen Sie dieses Thema, um Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen der Medienumgehung finden Sie unter [Bereitstellen der Medienumgehung in Cloud Connector Edition.](deploy-media-bypass-in-cloud-connector.md)
   
-Mit der Medienumgehung kann ein Client Medien direkt an das Public Switched Telephone Network (PSTN) des nächsten Hops senden – ein Gateway oder einen Session Border Controller (SBC) – und die Cloud Connector Edition-Komponente aus dem Medienpfad entfernen.
+Die Medienumgehung ermöglicht es einem Client, Medien direkt an den nächsten Hop (PsTN) zu senden – ein Gateway oder Session Border Controller (SBC) – und die Cloud Connector Edition-Komponente aus dem Medienpfad zu entfernen.
   
-Die Medienumgehung kann die Sprachqualität verbessern, indem die Latenz, die Möglichkeit eines Paketverlusts und die Anzahl der potenziellen Fehlerpunkte reduziert werden. Die Eliminierung der Medienverarbeitung für umgangene Anrufe verringert die Last für Cloud Connector, was eine höhere Anzahl gleichzeitiger Anrufe ermöglicht und die Skalierbarkeit verbessern kann. 
+Die Medienumgehung kann die Sprachqualität verbessern, indem die Latenz, die Möglichkeit von Paketverlust und die Anzahl möglicher Fehlerpunkte reduziert wird. Die Ausschaltung der Medienverarbeitung für umgangene Anrufe reduziert die Last für Cloud Connector, wodurch eine höhere Anzahl gleichzeitiger Anrufe ermöglicht wird und die Skalierbarkeit verbessert werden kann. 
   
- Wenn Sie Cloud Connector von Medienverarbeitungsaufgaben lösen, kann die Anzahl der Cloud Connector-Appliances reduziert werden, die für eine Infrastruktur erforderlich sind. Daher sollten Sie die Medienumgehung nach Möglichkeit aktivieren.
+ Das Freigeben von Cloud Connector von Medienverarbeitungsaufgaben kann die Anzahl der Cloud Connector-Appliances verringern, die eine Infrastruktur erfordert. Daher sollten Sie die Medienumgehung nach Möglichkeit aktivieren.
   
-## <a name="how-media-bypass-affects-media-and-signaling-pathways"></a>Auswirkungen der Medienumgehung auf Medien- und Signalpfade
+## <a name="how-media-bypass-affects-media-and-signaling-pathways"></a>Auswirkungen der Medienumgehung auf Medien- und Signalisierungspfade
 
-Während die Signalisierung denselben Pfad mit oder ohne Medienumgehung einnimmt, unterscheidet sich der Medienfluss. Die folgenden Diagramme zeigen Medien- und Signalpfade in Topologien mit und ohne Medienumgehung. 
+Während die Signalisierung denselben Pfad mit oder ohne Medienumgehung einnimmt, unterscheidet sich der Medienfluss. Die folgenden Diagramme zeigen Medien- und Signalisierungspfade in Topologien mit und ohne Medienumgehung. 
   
-In der folgenden Topologie, die keine Medienumgehung verwendet, führt beispielsweise ein Skype for Business-Client einen PSTN-Anruf an eine externe Nummer aus, die SIP-Signalisierung geht an Microsoft 365 oder Office 365, die den Signaldatenverkehr gemäß der Endbenutzer-Voicerichtlinie leitet. Für Cloud Connector-Benutzer leitet die Voicerichtlinie den Signaldatenverkehr an den Cloud Connector Edge Server weiter, der dann den Signaldatenverkehr über den Cloud Connector Mediation Server an einen PSTN Session Border Controller (SBC) oder gateway weiter leitet. Medien fließen vom Skype for Business-Client zum Cloud Connector-Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
+In der folgenden Topologie, die keine Medienumgehung verwendet, wird beispielsweise von einem Skype for Business-Client ein PSTN-Anruf an eine externe Nummer gesendet, die SIP-Signalisierung wird an Microsoft 365 oder Office 365 gesendet, wodurch der Signaldatenverkehr gemäß der VoIP-Richtlinie des Endbenutzers gesteuert wird. Für Cloud Connector-Benutzer leitet die VoIP-Richtlinie Signaldatenverkehr an den Cloud Connector Edge Server weiter, der den Signaldatenverkehr dann über den Cloud Connector-Vermittlungsserver an einen PSTN-Session Border Controller (SBC) oder ein Gateway weiterleitet. Medien fließen vom Skype for Business-Client zum Cloud Connector-Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
-**Medien- und Signalpfade ohne Medienumgehung**
+**Medien- und Signalisierungspfade ohne Medienumgehung**
 
 ![Signalisierung ohne Medienumgehung](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
-Ein eingehender Anruf aus dem PSTN verwendet denselben Signalpfad in umgekehrter Richtung. Für interne Benutzer fließen medien letztlich weiterhin zwischen dem Skype for Business-Client und dem Cloud Connector Mediation Server und dann zwischen dem SBC oder Gateway.
+Ein eingehender Anruf aus dem PSTN verwendet denselben Signalpfad in umgekehrter Richtung. Für interne Benutzer werden die Medien letztendlich immer noch zwischen dem Skype for Business-Client und dem Cloud Connector-Vermittlungsserver und dann dem SBC oder Gateway fließen.
   
-In der nächsten Topologie , in der die Medienumgehung verwendet wird, erfolgt die Signalisierung auf denselben Pfad, aber Medien fließen direkt zwischen dem Skype for Business-Client und dem SBC oder Gateway, wie im folgenden Diagramm dargestellt:
+In der nächsten Topologie, bei der die Medienumgehung verwendet wird, nimmt die Signalisierung den gleichen Pfad, aber die Medien fließen direkt zwischen dem Skype for Business-Client und dem SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
-**Medien- und Signalpfade mit Medienumgehung**
+**Medien- und Signalisierungspfade mit Medienumgehung**
 
 ![Signalisierung mit Medienumgehung](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
-## <a name="multi-site-scenario-and-media-bypass"></a>Szenario mit mehreren Standort und Medienumgehung
+## <a name="multi-site-scenario-and-media-bypass"></a>Szenario mit mehreren Websites und Medienumgehung
 
-Die Medienumgehung ist auch hilfreich, wenn Sie Telefoniedienste für mehrere Standorte mithilfe einer einzelnen Cloud Connector-Appliance bereitstellen möchten. Da Cloud Connector Anrufe nicht basierend auf Quell- oder Zielnummern weiterleiten kann, stellen die meisten Unternehmen einen SBC oder ein Gateway hinter Cloud Connector zur Entscheidung über das Routing ein. Die Medienumgehung in diesem Szenario eliminiert den Hop zwischen dem Client und dem zentralen SBC oder Gateway, wie im folgenden Diagramm dargestellt:
+Die Medienumgehung ist auch nützlich, wenn Sie Telefoniedienste für mehrere Standorte mit einer einzigen Cloud Connector-Appliance bereitstellen möchten. Da Cloud Connector Anrufe nicht basierend auf Quell- oder Zielnummern weiterleiten kann, stellen die meisten Unternehmen einen SBC oder ein Gateway hinter Cloud Connector bereit, um Routingentscheidungen zu treffen. Die Medienumgehung in diesem Szenario eliminiert den Hop zwischen dem Client und dem zentralen SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
-**Anwendung mit mehreren Websiten**
+**Anwendung mit mehreren Websites**
 
-![Beispiel für cloudconnector für mehrere Standorte](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
+![Beispiel für cloudkonnektor mit mehreren Websites](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
 1. Der SIP-Datenverkehr fließt vom Benutzer in Zürich zu Microsoft 365 oder Office 365.
     
-2. Der Datenverkehr wird dann wie in der Benutzer-Voiceroutingrichtlinie angegeben an die Cloud Connector-Appliance in Amsterdam weiterleit.
+2. Der Datenverkehr wird dann wie in der VoIP-Routingrichtlinie des Benutzers angegeben an die Cloud Connector-Appliance in Amsterdam geroutet.
     
 3. Die Cloud Connector-Appliance in Amsterdam sendet den SIP-Datenverkehr an das zentrale Gateway in Amsterdam.
     
-4. Das zentrale Gateway in Amsterdam trifft die entsprechenden Routingentscheidungen und sendet dann den Datenverkehr an einen SBC oder Gateway in Zürich, während Medien direkt zwischen dem Skype for Business-Client und dem SBC oder Gateway in Amsterdam fließen.
+4. Das zentrale Gateway in Amsterdam trifft die entsprechenden Routingentscheidungen und sendet dann den Datenverkehr an einen SBC oder ein Gateway in Amsterdam, während die Medien direkt zwischen dem Skype for Business-Client und SBC oder Gateway in Amsterdam fließen.
     
-   Dieser Ansatz ermöglicht die Bereitstellung von mehr Benutzern pro Cloud Connector-Bereitstellung, bei der Cloud Connector zentralisiert ist. Auch wenn Cloud Connector aus dem Medienpfad entfernt ist, können Medien in einem zentralisierten Szenario mit mehreren Standort immer noch doppelt so viele Wan durchlaufen wie erforderlich, um den zentralisierten SBC oder das Gateway zu durchlaufen.
+   Dieser Ansatz ermöglicht die Bereitstellung mehrerer Benutzer pro Cloud Connector-Bereitstellung, bei der Cloud Connector zentralisiert ist. Obwohl Cloud Connector aus dem Medienpfad entfernt wird, durchlaufen Medien in einem zentralisierten Szenario mit mehreren Standorten das WAN möglicherweise immer noch doppelt so wie erforderlich, um den zentralen SBC oder das Gateway zu durchlaufen.
   
-Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, der einen ausgehenden Anruf tätigt, fließt der Mediendatenverkehr über die Edge- und Vermittlungsserver von Cloud Connector und die WAN-Verbindung zwischen Zürich und Amsterdam, wie im folgenden Diagramm dargestellt:
+Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet und einen ausgehenden Anruf tätigt, fließt der Mediendatenverkehr über die Edge- und Vermittlungsserver von Cloud Connector und der WAN-Verbindung zwischen Amsterdam und Amsterdam, wie im folgenden Diagramm dargestellt:
   
-![Cloud Connector Multisite (Beispiel 2)](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
+![Cloud Connector mit mehreren Websites (Beispiel 2)](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
   
 ## <a name="supported-clients-for-media-bypass"></a>Unterstützte Clients für die Medienumgehung
 
-Mit der ersten Version der Medienumgehung wird nur der Skype for Business 2016 Windows Client unterstützt, der Teil von Microsoft 365 Apps for Enterprise, Version 16.0.7870.2020 oder höher ist. Kunden können einen beliebigen Kanal verwenden: Current, Deferred oder First Release Deferred. 
+Bei der ersten Version der Medienumgehung wird nur der Skype for Business 2016-Windows-Client unterstützt, der Teil Microsoft 365 Apps for Enterprise Version 16.0.7870.2020 oder höher ist. Kunden können einen beliebigen Kanal verwenden: Current, Deferred oder First Release Deferred. 
   
 > [!NOTE]
-> Wenn Sie eine Client-VPN-Lösung in Kombination mit dem Skype for Business-Client verwenden, wird die Medienumgehung nur mit einer VPN-Konfiguration mit geteilten Tunneln unterstützt. 
+> Wenn Sie eine Client-VPN-Lösung in Kombination mit dem Skype for Business-Client verwenden, wird die Medienumgehung nur bei einer VPN-Konfiguration mit geteilten Tunneln unterstützt. 
   
-Weitere Informationen zu den Veröffentlichungskanälen finden Sie unter Übersicht über [Updatekanäle für Microsoft 365 Apps for Enterprise](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
+Weitere Informationen zu den Veröffentlichungskanälen finden Sie unter [Übersicht über Updatekanäle für Microsoft 365 Apps for Enterprise](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Die aktuelle Version der Clients in verschiedenen Kanälen finden Sie unter [Release information for updates to Microsoft 365 Apps for Enterprise](/officeupdates/release-notes-office365-proplus). 
+Die aktuelle Version der Clients in verschiedenen Kanälen finden Sie unter [Versionsinformationen für Updates für Microsoft 365 Apps for Enterprise](/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Überlegungen zur Cloud Connector-Kapazität bei der Medienumgehung
 
-Ohne Medienumgehung – und je nach Hardware – kann eine Cloud Connector-Appliance zwischen 50 und 500 gleichzeitige Anrufe verarbeiten, für die Medien über einen Vermittlungsserver übertragen werden müssen. Weitere Informationen finden Sie unter [Plan for Skype for Business Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md). 
+Ohne Medienumgehung – und abhängig von der Hardware – kann eine Cloud Connector-Appliance 50 bis 500 gleichzeitige Anrufe verarbeiten, bei denen Medien über einen Vermittlungsserver übertragen werden müssen. Weitere Informationen finden Sie unter [Plan for Skype for Business Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md). 
   
-Wenn die Medienumgehung aktiviert ist, verwenden interne Clients der unterstützten Version nicht den Vermittlungsserver, sodass die Anzahl der internen Clients erheblich steigen kann. 
+Wenn die Medienumgehung aktiviert ist, verwenden interne Clients in der unterstützten Version nicht den Vermittlungsserver, sodass die Anzahl der internen Clients erheblich erhöht werden kann. 
   
-Wie oben erwähnt, verwenden externe Clients oder nicht unterstützte Clients den Cloud Connector Edge und Vermittlungsserver für Medien. Wenn Sie berechnen, wie viele Cloud Connector-Appliances an einem Standort platziert werden sollen, müssen Sie den Datenverkehr von externen Benutzern und Benutzern auf nicht unterstützten Clients berücksichtigen.
+Wie oben erwähnt, verwenden externe Clients oder nicht unterstützte Clients den Cloud Connector-Edgeserver und vermittlungsserver für Medien. Bei der Berechnung, wie viele Cloud Connector-Appliances an einem Standort platziert werden sollen, müssen Sie den Datenverkehr von externen Benutzern und Benutzern auf nicht unterstützten Clients berücksichtigen.
   
-## <a name="cloud-connector-supports-always-bypass-mode"></a>Cloud Connector unterstützt den Always Bypass-Modus
+## <a name="cloud-connector-supports-always-bypass-mode"></a>Cloud Connector unterstützt den Modus "Always Bypass"
 
-Cloud Connector unterstützt nur den Always Bypass-Modus. In lokalen Umgebungen gibt es zwei Optionen: Immer Standort- und Regioneninformationen umgehen und verwenden.
+Cloud Connector unterstützt nur den Modus "Always Bypass". In lokalen Umgebungen gibt es zwei Optionen: Immer Standort- und Regionsinformationen umgehen und verwenden.
   
-Always Bypass bedeutet, dass für alle PSTN-Anrufe mit internen Clients als Ursprung oder Zielpunkt die Medienumgehung versucht wird. Um festzustellen, ob der Client intern oder extern ist, wird eine Website auf dem virtuellen Vermittlungsservercomputer verwendet. Wenn der Client die Website erreichen kann, wird er als intern betrachtet, und die Medienumgehung wird verwendet. Wenn der Client den Standort nicht erreichen kann (z. B. befindet sich der Client in einem Heimnetzwerk), wird keine Medienumgehung verwendet. 
+Always Bypass bedeutet, dass für alle PSTN-Anrufe mit internen Clients als Ursprung oder Zielpunkt eine Medienumgehung versucht wird. Um festzustellen, ob der Client intern oder extern ist, wird eine Website auf dem virtuellen Computer des Vermittlungsservers verwendet. Wenn der Client den Standort erreichen kann, gilt er als intern, und die Medienumgehung wird verwendet. Wenn der Client den Standort nicht erreichen kann (z. B. wenn sich der Client in einem Heimnetzwerk befindet), wird keine Medienumgehung verwendet. 
   
-Die Always Bypass erfordert eine ungehinderte Verbindung zwischen Benutzern und den PSTN-Gateways innerhalb eines PSTN-Standorts. 
+"Always Bypass" erfordert eine nicht angewiesene Verbindung zwischen Benutzern und den PSTN-Gateways innerhalb eines PSTN-Standorts. 
   
 Weitere Informationen finden Sie unter [Plan for Skype for Business Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md). 
   
-Im folgenden Diagramm müssen die Benutzer in Europa beispielsweise gut mit den drei Session Border Controllern (SBCs) in Amsterdam verbunden sein, während Benutzer aus dem US-Westen gut mit den beiden SBCs in Seattle verbunden sein müssen. Gut verbunden bedeutet, dass sie sich entweder an denselben Netzwerkstandorten wie die SBCs oder Gateways oder über WAN-Verbindungen befinden, die über die richtige Bandbreite verfügen.
+Im folgenden Diagramm müssen Die Benutzer in Europa beispielsweise gut mit den drei SbCs (Session Border Controller) in Amsterdam verbunden sein, während Benutzer des US-Amerikanischen Westens gut mit den beiden SBCs in Seattle verbunden sein müssen. Eine gute Verbindung bedeutet, dass sie sich entweder an den gleichen Netzwerkstandorten wie die SBCs oder Gateways befinden oder über WAN-Verbindungen mit entsprechender Bandbreite.
   
-![Cloud Connector Capacity](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
+![Cloud Connector-Kapazität](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> Wenn ein Benutzer aus Zürich in das Büro in Seattle reist und Sie das interne Netzwerk verwenden möchten, um den Mediendatenverkehr zwischen dem reisenden Benutzer und den Gateways in Europa zu liefern (an stelle über das Internet), müssen Sie sicherstellen, dass das Büro in Seattle und das Büro in Amsterdam, in dem sich europäische SBCs oder Gateways befinden, ebenfalls verbunden sind. 
+> Wenn ein Benutzer aus Amsterdam zum Büro in Seattle unterwegs ist und Sie das interne Netzwerk verwenden möchten, um Mediendatenverkehr zwischen dem reisenden Benutzer und Gateways in Europa bereitzustellen (im Gegensatz zum Internet), müssen Sie sicherstellen, dass das Büro Seattle und das Büro in Amsterdam, in dem sich europäische SBCs oder Gateways befinden, als gut verbunden gelten. 
   
 ## <a name="codecs-used-in-media-bypass"></a>Codecs, die bei der Medienumgehung verwendet werden
 

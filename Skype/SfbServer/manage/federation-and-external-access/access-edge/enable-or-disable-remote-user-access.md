@@ -14,59 +14,59 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Wenn Sie den Remotebenutzerzugriff für Remotebenutzer aktivieren, stellen unterstützte Remotebenutzer eine Verbindung über das Internet und müssen keine Verbindung über ein VPN herstellen, um mit internen Benutzern über Skype for Business Server zusammenzuarbeiten.
-ms.openlocfilehash: 9e5ba5828e129c6fed5dd892b1a7bb8e6bd64707
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Wenn Sie den Remotebenutzerzugriff für Remotebenutzer aktivieren, stellen unterstützte Remotebenutzer eine Verbindung über das Internet her und müssen keine VPN-Verbindung herstellen, um mit internen Benutzern über Skype for Business Server zusammenzuarbeiten.
+ms.openlocfilehash: 3b95796efbd8056092a24399f6faa7ccd3619b7168a2bb787436beeb3f78f4fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313183"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in Skype for Business Server
 
-Remotebenutzer sind Benutzer in Ihrer Organisation, die über eine dauerhafte Active Directory-Identität innerhalb der Organisation verfügen. Remotebenutzer melden sich häufig von außerhalb Ihres Netzwerks über ein virtuelles privates Netzwerk (VPN) bei Skype for Business Server an, wenn sie nicht mit dem Netzwerk Ihrer Organisation verbunden sind. Remotebenutzer sind Mitarbeiter, die zu Hause oder unterwegs arbeiten, und andere Remotemitarbeiter, z. B. vertrauenswürdige Anbieter, denen Unternehmensanmeldeinformationen erteilt wurden. Wenn Sie den Remotebenutzerzugriff für Remotebenutzer aktivieren, stellen unterstützte Remotebenutzer eine Verbindung über das Internet und müssen keine Verbindung über ein VPN herstellen, um mit internen Benutzern über Skype for Business Server zusammenzuarbeiten.
+Remotebenutzer sind Benutzer in Ihrer Organisation, die über eine dauerhafte Active Directory-Identität innerhalb der Organisation verfügen. Remotebenutzer melden sich häufig von außerhalb Ihres Netzwerks bei Skype for Business Server an, indem sie ein virtuelles privates Netzwerk (VPN) verwenden, wenn sie nicht mit dem Netzwerk Ihrer Organisation verbunden sind. Remotebenutzer umfassen Mitarbeiter, die zu Hause oder unterwegs arbeiten, sowie andere Remotemitarbeiter, z. B. vertrauenswürdige Anbieter, denen Unternehmensanmeldeinformationen erteilt wurden. Wenn Sie den Remotebenutzerzugriff für Remotebenutzer aktivieren, stellen unterstützte Remotebenutzer eine Verbindung über das Internet her und müssen keine VPN-Verbindung herstellen, um mit internen Benutzern über Skype for Business Server zusammenzuarbeiten.
 
-Um den Zugriff durch Remotebenutzer zu unterstützen, müssen Sie den Remotebenutzerzugriff aktivieren. Wenn Sie den Remotebenutzerzugriff aktivieren, aktivieren Sie ihn für die gesamte Organisation. Wenn Sie später den Zugriff durch Remotebenutzer vorübergehend oder dauerhaft verhindern möchten, können Sie ihn für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Remotebenutzerzugriff für Ihre Organisation zu aktivieren oder zu deaktivieren.
+Um den Remotebenutzerzugriff zu unterstützen, müssen Sie den Remotebenutzerzugriff aktivieren. Wenn Sie den Remotebenutzerzugriff aktivieren, aktivieren Sie ihn für Ihre gesamte Organisation. Wenn Sie später den Remotebenutzerzugriff vorübergehend oder dauerhaft verhindern möchten, können Sie ihn für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Remotebenutzerzugriff für Ihre Organisation zu aktivieren oder zu deaktivieren.
 
 
 > [!NOTE]  
-> Das Aktivieren des Zugriffs durch Remotebenutzer gibt nur an, dass die Server, auf denen der Zugriffs-Edgedienst ausgeführt wird, die Kommunikation mit Remotebenutzern unterstützen, Remotebenutzer können jedoch erst an Sofortnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie auch mindestens eine Richtlinie für die Verwaltung der Verwendung des Remotebenutzerzugriffs konfigurieren. Skype for Business Server-Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Prioritätenreihenfolge für Skype for Business Server-Richtlinien: Eine Benutzerrichtlinie (größter Einfluss) hat Vorrang vor einer Standortrichtlinie, und eine Standortrichtlinie wiederum hat Vorrang vor einer globalen Richtlinie (geringster Einfluss). Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie. Weitere Informationen zum Konfigurieren von Richtlinien für die Verwendung des Remotebenutzerzugriffs finden Sie unter "Konfigurieren von Richtlinien zur Steuerung des [Remotebenutzerzugriffs in Skype for Business Server".](../external-access-policies/configure-policies-to-control-remote-user-access.md)
+> Das Aktivieren des Remotebenutzerzugriffs gibt nur an, dass Ihre Server, auf denen der Zugriffs-Edgedienst ausgeführt wird, die Kommunikation mit Remotebenutzern unterstützen. Remotebenutzer können jedoch erst an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie zum Verwalten der Verwendung des Remotebenutzerzugriffs konfiguriert haben. Skype for Business Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Prioritätenreihenfolge für Skype for Business Server-Richtlinien: Eine Benutzerrichtlinie (größter Einfluss) hat Vorrang vor einer Standortrichtlinie, und eine Standortrichtlinie wiederum hat Vorrang vor einer globalen Richtlinie (geringster Einfluss). Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie. Ausführliche Informationen zum Konfigurieren von Richtlinien für die Verwendung des Remotebenutzerzugriffs finden Sie unter Konfigurieren von Richtlinien zum Steuern des [Remotebenutzerzugriffs in Skype for Business Server.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
 
 
 ## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>So aktivieren oder deaktivieren Sie den Remotebenutzerzugriff für Ihre Organisation
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Verbund" und**"Externer Zugriff" und dann auf **"Zugriffs-Edgekonfiguration".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Partnerverbund" und "Externer Zugriff"** und dann auf **"Zugriffs-Edgekonfiguration".**
 
 4.  Klicken Sie auf der Seite **Konfiguration für Zugriffsedge** auf **Global**, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
 5.  Führen Sie im Abschnitt **Konfiguration für Zugriffsedge bearbeiten** eine der folgenden Aktionen aus:
     
-      - Aktivieren Sie das Kontrollkästchen "Remotebenutzerzugriff aktivieren", um den Remotebenutzerzugriff für Ihre **Organisation** zu aktivieren.
+      - Aktivieren Sie zum Aktivieren des Remotebenutzerzugriffs für Ihre Organisation das Kontrollkästchen **"Remotebenutzerzugriff aktivieren".**
     
-      - Deaktivieren Sie das Kontrollkästchen "Remotebenutzerzugriff aktivieren", um den Remotebenutzerzugriff für Ihre **Organisation** zu deaktivieren.
+      - Deaktivieren Sie zum Deaktivieren des Remotebenutzerzugriffs für Ihre Organisation das Kontrollkästchen **"Remotebenutzerzugriff aktivieren".**
 
 6.  Klicken Sie auf **Commit ausführen**.
 
-Damit sich Remotebenutzer bei Ihren Servern mit Skype for Business Server anmelden können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfigurieren, um den Zugriff durch Remotebenutzer zu unterstützen. Weitere Informationen finden Sie unter ["Konfigurieren von Richtlinien zum Steuern des Remotebenutzerzugriffs in Skype for Business Server".](../external-access-policies/configure-policies-to-control-remote-user-access.md)
+Damit sich Remotebenutzer bei Servern anmelden können, auf denen Skype for Business Server ausgeführt wird, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfigurieren, um den Remotebenutzerzugriff zu unterstützen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Remotebenutzerzugriffs in Skype for Business Server.](../external-access-policies/configure-policies-to-control-remote-user-access.md)
 
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des Remotebenutzerzugriffs mithilfe Windows PowerShell Cmdlets
 
-Der Zugriff durch Remotebenutzer kann mithilfe von Windows PowerShell und dem Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell. 
+Der Remotebenutzerzugriff kann mithilfe von Windows PowerShell und dem cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ## <a name="to-enable-remote-user-access"></a>So aktivieren Sie den Remotebenutzerzugriff
 
-  - Um den Zugriff durch Remotebenutzer zu aktivieren, legen Sie den Wert der **Eigenschaft "AllowOutsideUsers"** auf "True" ($True) $True:
+  - Um den Remotebenutzerzugriff zu aktivieren, legen Sie den Wert der **AllowOutsideUsers-Eigenschaft** auf "True" ($True) fest:
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
-## <a name="to-disable-remote-user-access"></a>So deaktivieren Sie den Zugriff durch Remotebenutzer
+## <a name="to-disable-remote-user-access"></a>So deaktivieren Sie den Remotebenutzerzugriff
 
-  - Um den Zugriff durch Remotebenutzer zu deaktivieren, legen Sie den Wert der **Eigenschaft "AllowOutsideUsers"** auf "False" ($False):
+  - Um den Remotebenutzerzugriff zu deaktivieren, legen Sie den Wert der **AllowOutsideUsers-Eigenschaft** auf "False" ($False) fest:
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 

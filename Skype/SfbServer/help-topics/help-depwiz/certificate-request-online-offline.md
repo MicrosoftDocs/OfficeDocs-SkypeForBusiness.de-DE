@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
-description: Wenn Sie eine verzögerte Anforderung oder eine Offlineanforderung erstellen möchten, wählen Sie "Anforderung jetzt vorbereiten" aus, senden Sie sie aber später (Offlinezertifikatsanforderung). Wählen Sie zum Erstellen einer sofortigen Anforderung an eine Onlinezertifizierungsstelle (in der Regel ein internes System in der Public Key-Infrastruktur Ihrer Organisation) die Option "Anforderung sofort an eine Onlinezertifizierungsstelle senden" aus.
-ms.openlocfilehash: c3108f287a1e3283d73566867e951475825bab34
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Um eine verzögerte Anforderung oder eine Offlineanforderung zu erstellen, wählen Sie jetzt "Anforderung vorbereiten" aus, senden Sie sie aber später (Offlinezertifikatsanforderung). Wählen Sie zum Erstellen einer sofortigen Anforderung an eine Onlinezertifizierungsstelle (in der Regel ein internes System in der Public Key-Infrastruktur Ihrer Organisation) die Option "Anforderung sofort an eine Onlinezertifizierungsstelle senden" aus.
+ms.openlocfilehash: 35b14392eb4c0d0d10452f461680bbcc9ba1094534a59c627d078fd9bdd21e4b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298485"
 ---
 # <a name="certificate-request-online-offline"></a>Zertifikatanforderung (online/offline)
  
-Wenn Sie eine verzögerte Anforderung oder eine Offlineanforderung erstellen möchten, wählen Sie "Anforderung jetzt vorbereiten" aus, senden Sie sie aber später **(Offlinezertifikatsanforderung).** Wählen Sie zum Erstellen einer sofortigen Anforderung an eine Onlinezertifizierungsstelle (in der Regel ein internes System in der Public Key-Infrastruktur Ihrer Organisation) die Option "Anforderung sofort an eine Onlinezertifizierungsstelle **senden" aus.**
+Um eine verzögerte Anforderung oder eine Offlineanforderung zu erstellen, wählen Sie **jetzt "Anforderung vorbereiten" aus, senden Sie sie aber später (Offlinezertifikatsanforderung).** Wählen Sie zum Erstellen einer sofortigen Anforderung an eine Onlinezertifizierungsstelle (in der Regel ein internes System in der Public Key-Infrastruktur Ihrer Organisation) **die Option "Anforderung sofort an eine Onlinezertifizierungsstelle senden"** aus.
   
 Klicken Sie nach Ihrer Wahl auf **Weiter**, um fortzufahren. Wenn Sie abbrechen möchten, ohne Änderungen vorzunehmen, klicken Sie auf **Abbrechen**. Klicken Sie auf **Zurück**, um zum vorherigen Schritt zurückzukehren.
   

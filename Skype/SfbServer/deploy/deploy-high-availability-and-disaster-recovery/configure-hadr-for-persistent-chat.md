@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Erfahren Sie, wie Sie hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.
-ms.openlocfilehash: 02eda20ae9db1a623fd17534cce4fb9ef7963b05
+ms.openlocfilehash: 6579d9b6dfa8a2c9bed237cf98685137f229860a7fe4f338f3d994230516d353
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772436"
+ms.locfileid: "54298585"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015: Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat
  
@@ -29,7 +29,7 @@ Skype for Business Server unterstützt mehrere Modi mit hoher Verfügbarkeit fü
 > [!NOTE]
 > AlwaysOn-Verfügbarkeitsgruppen werden bei Servern für beständigen Chat nicht unterstützt. 
   
-Bevor Sie Ihre Bereitstellung für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung konfigurieren, sollten Sie mit den Konzepten in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sein. Die in diesen Themen beschriebene Notfallwiederherstellungslösung für den Server für beständigen Chat basiert auf einem gestreckten Serverpool für beständigen Chat. Der Planungsinhalt beschreibt die Ressourcenanforderungen und die Gestreckte Pooltopologie, die hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat ermöglicht, einschließlich der Verwendung SQL Server Spiegelung für hohe Verfügbarkeit und SQL Server Protokollversands für die Notfallwiederherstellung.
+Bevor Sie Ihre Bereitstellung für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung konfigurieren, sollten Sie mit den Konzepten in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sein. Die in diesen Themen beschriebene Notfallwiederherstellungslösung für den Server für beständigen Chat basiert auf einem gestreckten Serverpool für beständigen Chat. Der Planungsinhalt beschreibt die Ressourcenanforderungen und die Gestreckte Pooltopologie, die hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat ermöglicht, einschließlich der Verwendung SQL Server Spiegelung für hohe Verfügbarkeit und SQL Server Protokollversand für die Notfallwiederherstellung.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Verwenden des Topologie-Generators zum Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung
 
@@ -82,7 +82,7 @@ Stellen Sie mit SQL Server Management Studio eine Verbindung mit der sekundären
     
 12. Wählen Sie im Feld **Sekundäre Datenbank** die Datenbank **mgc** aus der Liste aus.
     
-13. Wählen Sie auf der Registerkarte **"Sekundäre Datenbank initialisieren"** die Option **"Ja", generieren Sie eine vollständige Sicherung der primären Datenbank, und stellen Sie sie in der sekundären Datenbank wieder her (und erstellen Sie die sekundäre Datenbank, falls sie nicht vorhanden ist).**
+13. Wählen Sie auf der Registerkarte **"Sekundäre Datenbank initialisieren"** die Option **"Ja", generieren Sie eine vollständige Sicherung der primären Datenbank, und stellen Sie sie in der sekundären Datenbank wieder her (und erstellen Sie die sekundäre Datenbank, wenn sie nicht vorhanden ist).**
     
 14. Geben Sie auf der Registerkarte **Dateien kopieren** im Feld **Zielordner für kopierte Dateien** den Pfad zum Ordner ein, in den die Transaktionsprotokollsicherungen kopiert werden sollen. Dieser Ordner befindet sich oft auf dem sekundären Server.
     
