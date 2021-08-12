@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in Singapur, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 1bd7449148ead13be1faec7151e384520b48a090
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 922a86fdb8608d5d92e9ed978a732e18af1489de5038a9c7bfe976760f09c51d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308316"
 ---
 # <a name="toll-free-dialing-restrictions-in-singapore"></a>Einschränkungen für gebührenfreie Telefonnummern in Singapur
 

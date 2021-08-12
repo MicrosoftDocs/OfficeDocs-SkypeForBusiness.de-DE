@@ -16,12 +16,12 @@ description: Behandeln Sie Konnektivitätsprobleme mit dem Microsoft Teams-Clien
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9ef787a5e103649c1526fab321cc8a9a088254c
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 524a78f5a588b0a3a233385f7892624c46e5bac541f7e8a13f647e541b0ffbff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308954"
 ---
 # <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Behandeln von Konnektivitätsproblemen mit dem Microsoft Teams-Client
 

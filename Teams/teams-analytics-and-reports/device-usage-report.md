@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Teams Bericht zur Gerätenutzung im Microsoft
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d47888884ce86bfa56546a9df600ce958380e0d
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 15dfe1fe7e79e909b11093c019ac38c6cb5d967e46146d4ce0262499ca880018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308376"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams – Gerätenutzungsbericht
 
@@ -51,9 +51,9 @@ Der Teams Bericht zur Gerätenutzung im Microsoft Teams Admin Center enthält In
 
 Um die Daten in Teams Geräteverwendungsbericht anonym zu machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail-Adresse und AAD-ID im Bericht und beim Export ausgeblendet.
 
-1. Wechseln Microsoft 365 Admin Center zum Einstellungen  Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
+1. Wechseln Microsoft 365 Admin Center In der Website  zum Einstellungen Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
     
-2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte im Microsoft 365 Admin Center als Teams Admin Center angewendet.
+2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte in Microsoft 365 Admin Center als Teams Admin Center angewendet.
   
 3. Wählen Sie **Änderungen speichern aus.**
 

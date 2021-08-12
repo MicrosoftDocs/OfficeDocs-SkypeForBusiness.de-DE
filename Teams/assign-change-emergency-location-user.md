@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie einen Notfallstandort für Benutzer in Ihrer Organisation zuweisen oder ändern.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7dd986085a8c42df34d6634cbadc6e96fdfb14ca
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8045120f6a74a536b3fcbe420278ad847b3108f38161d6e23f3eecfd5788224c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309144"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
 

@@ -16,28 +16,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 02c6669b9cadb952f7ccc71d785416db7414d8a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61452c8b9f5a072e78d4b85dd17e65ef63c27a0e3daab4f71b0e04d9d13c5a1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307806"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business
  
 Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
   
-Enterprise-VoIP A0 steuern, wie eingehende Anrufe geroutet und beantwortet werden. Skype for Business Server bietet die folgenden Anrufverwaltungsfunktionen: 
+Enterprise-VoIP Anrufverwaltungsfeatures steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Skype for Business Server bietet die folgenden Anrufverwaltungsfunktionen: 
   
-- **Anruf parken:** Ermöglicht Sprachbenutzern das vorübergehende Parken eines Anrufs und das anschließende Abrufen von demselben Oder einem anderen Telefon aus.
+- **Parken** von Anrufen: Ermöglicht VoIP-Benutzern, einen Anruf vorübergehend zu parken und ihn dann vom gleichen Telefon oder einem anderen Telefon aus entgegenzunehmen.
     
-- **Gruppenanrufannahme:** Ermöglicht Es Benutzern, Anrufe an einen anderen Benutzer zu beantworten, der einer Pickupgruppe zugewiesen ist, indem sie die Nummer der Anrufannahmegruppe wählen.
+- **Gruppenanrufannahme:** Ermöglicht Es Benutzern, Anrufe an einen anderen Benutzer zu beantworten, der einer Annahmegruppe zugewiesen ist, indem sie die Nummer der Anrufannahmegruppe wählen.
     
-- **Reaktionsgruppe:** Leitet eingehende Anrufe mithilfe von Sammel sammelgruppen oder interaktiven Sprachantworten (Interactive Voice Response, IVR) an Gruppen von Agents weiter.
+- **Reaktionsgruppe:** Leitet eingehende Anrufe mithilfe von Sammelanschlüssen oder ivr-Antworten (Interactive Voice Response) an Gruppen von Agents weiter.
     
 - **Ansage**: Zur Wiedergabe einer Nachricht für Anrufe, die über eine nicht zugewiesene Nummer eingehen, zur Weiterleitung des Anrufs oder beides.
     
-In diesem Abschnitt wird beschrieben, wie Sie diese Anrufverwaltungsfeatures während einer Enterprise-VoIP konfigurieren.
+In diesem Abschnitt wird beschrieben, wie Sie diese Anrufverwaltungsfeatures während einer Enterprise-VoIP Bereitstellung konfigurieren.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
@@ -45,7 +45,7 @@ In diesem Abschnitt wird beschrieben, wie Sie diese Anrufverwaltungsfeatures wä
     
 - [Bereitstellungsprozess für die Gruppenanrufannahme in Skype for Business](deployment-process-for-group-call-pickup.md)
     
-- [Bereitstellungsprozess für Reaktionsgruppe in Skype for Business](deployment-process-for-response-group.md)
+- [Bereitstellungsprozess für Reaktionsgruppen in Skype for Business](deployment-process-for-response-group.md)
     
 - [Bereitstellungsprozess für die Ankündigungsanwendung in Skype for Business Server](deployment-process-for-the-announcement-application.md)
     

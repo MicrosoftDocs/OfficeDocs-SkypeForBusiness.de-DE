@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
 description: Bei der Conference-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Konferenz oder Peer-zu-Peer-Sitzung.
-ms.openlocfilehash: 3840ad9bb4f9b0ff0aea5068c73d307d5bd0cf5e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6dfe60a28e8279f7b4c469c61cddc28912db261eedf4754588de4bd8f5852728
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309154"
 ---
 # <a name="conference-table"></a>Konferenztabelle
  
@@ -26,9 +26,9 @@ Bei der Conference-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wi
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Konferenzdatensatz identifiziert.  <br/> |
-|**ConfURI** <br/> |nvarchar(450)  <br/> |unique  <br/> |Konferenz-URI, falls dies eine Konferenz ist, oder Dialogkennung, wenn dies eine Peer-zu-Peer-Sitzung ist.  <br/> |
-|**Prüfsumme** <br/> |int  <br/> |Index  <br/> |Prüfsumme der Konferenz-URI. Für interne Zwecke.  <br/> |
+|**ConferenceKey** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Konferenzdatensatz identifiziert.  <br/> |
+|**ConfURI** <br/> |nvarchar(450)  <br/> |Einzigartige  <br/> |Konferenz-URI, falls dies eine Konferenz ist, oder Dialogkennung, wenn dies eine Peer-zu-Peer-Sitzung ist.  <br/> |
+|**Prüfsumme** <br/> |Ganzzahl  <br/> |Index  <br/> |Prüfsumme der Konferenz-URI. Für interne Zwecke.  <br/> |
 |**NextUpdateTS** <br/> |Datum/Uhrzeit  <br/> ||Ausschließlich für interne Zwecke.  <br/> |
    
 

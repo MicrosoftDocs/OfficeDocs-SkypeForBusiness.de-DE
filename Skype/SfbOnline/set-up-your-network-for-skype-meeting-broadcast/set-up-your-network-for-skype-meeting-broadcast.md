@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Erfahren Sie mehr über Skype-Besprechung Broadcast-Feature von Skype for Business Online, mit dem Sie Besprechungen oder Ereignisse für ein großes Online-Publikum von bis zu 10.000 Teilnehmern planen, produzieren und übertragen können.
-ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308026"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Einrichten Ihres Netzwerks für Skype-Livekonferenz
 

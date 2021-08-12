@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten und Teammitglieder als Kanalmoderatoren hinzufügen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304847"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanalmoderation in Microsoft Teams
 
@@ -52,9 +52,9 @@ Das Marketingteam nutzt einen bestimmten Kanal, um wichtige Projektankündigunge
 
 In diesem Szenario fügt der Teambesitzer "Marketing Leads" als Moderatoren hinzu, damit sie Ankündigungen im Kanal veröffentlichen können, und deaktiviert die Möglichkeit für Teammitglieder, auf Nachrichten in diesem Kanal zu antworten.
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Verwenden eines Kanals für Kursdiskussionen in Teams for Education
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Verwenden eines Kanals für Kursdiskussionen in Teams für Education
 
-In Teams for Education möchte eine Naturwissenschaftliche Lehrkraft einen Kanal verwenden, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
+In Teams für Education möchte eine Naturwissenschaftliche Lehrkraft einen Kanal verwenden, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
 
 In diesem Szenario ermöglicht es der Lehrkraft ihren Lehrassistenten, den Kanal zu moderieren. Die Lehrassistenten können dann neue Beiträge erstellen, um Diskussionen mit Schülern/Studenten zu starten und zu leiten.
 

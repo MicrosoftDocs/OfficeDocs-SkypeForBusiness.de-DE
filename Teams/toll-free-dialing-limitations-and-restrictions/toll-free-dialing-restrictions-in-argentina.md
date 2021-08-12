@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Argentinien, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: ebbf946832c04793454bbc3d4ed01be5ecc7f5a5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d6c57b3b8eabfd25ef77a795aa353d1764dcd32beda712220d9fa3d6f17c14ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093875"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308346"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>Einschränkungen für gebührenfreie Telefonnummern in Argentinien
 

@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
-ms.openlocfilehash: 135072c7128ac14e4073e95297fa2b5e4e1a8e5a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dbb95d66fda093d8a094e92a84201b12a3baa6f2b454a75e2e3f7ab7b90a37c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097041"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280160"
 ---
 # <a name="unassigned-phone-number"></a>Nicht zugewiesene Telefonnummer
 
 > [!NOTE]
-> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 in Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen bei der Unterstützung in Exchange 2019 wird die Exchange UM-Integration zugunsten von Cloud Voicemail- und Cloud-automatische Telefonzentrale hervorgehoben.
+> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen bei der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale deaktiviert.
 
 Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
 
@@ -56,19 +56,19 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 - **Bearbeiten** Öffnet den ausgewählten Bereich nicht zugewiesener Nummern zur Bearbeitung, wählt alle Bereiche nicht zugewiesener Nummern in der Liste aus oder löscht den ausgewählten Bereich nicht zugewiesener Nummern.
 
-- **Nach oben** Verschiebt den ausgewählten Bereich nicht zugewiesener Nummern nach oben in der Liste, sodass Skype for Business Server ihn früher findet und die angegebene Aktion vor dem Anwenden von Aktionen angewendet wird, die für andere Bereiche in der Liste angegeben sind.
+- **Nach oben** Verschiebt den ausgewählten Bereich nicht zugewiesener Nummern in der Liste nach oben, sodass Skype for Business Server ihn schneller findet und die angegebene Aktion anwendet, bevor Aktionen angewendet werden, die für andere Bereiche in der Liste angegeben sind.
 
     > [!NOTE]
     > Skype for Business Server durchsucht die Tabelle nicht zugewiesener Nummern von oben nach unten und verwendet den ersten Bereich, der der nicht zugewiesenen Nummer entspricht. Wenn Sie z. B. über einen Bereich verfügen, auf den als letzte Aktion zurückgegriffen werden soll, platzieren Sie diesen Bereich ganz unten in der Liste.
 
 - **Nach unten** Verschiebt den ausgewählten Bereich nicht zugewiesener Nummern in der Liste nach unten.
 
-- **Commit für alle** Speichert alle Änderungen, die Sie an nicht zugewiesenen Nummernbereichen vorgenommen haben.
+- **Commit für alle Ausführen** eines Commits Speichert alle Änderungen, die Sie an bereichen nicht zugewiesener Nummern vorgenommen haben.
 
     > [!IMPORTANT]
     > Mit diesem Befehl werden alle Änderungen gespeichert, die Sie auf der Seite **Neue nicht zugewiesene Nummer** und der Seite **Nicht zugewiesene Nummer bearbeiten** vorgenommen haben.
 
-- **Aktualisieren** Aktualisiert die Liste der Bereiche nicht zugewiesener Nummern.
+- **Aktualisieren** Aktualisiert die Liste nicht zugewiesener Nummernbereiche.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
@@ -80,8 +80,8 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Endbereich** Die Endnummer des Bereichs nicht zugewiesener Nummern.
 
-- **Destination** Die Dienst-ID des Anwendungsdiensts, der die Ansageanwendung hostet, die eingehende Anrufe an diesen Bereich nicht zugewiesener Nummern verarbeiten wird.
+- **Ziel** Die Dienst-ID des Anwendungsdiensts, der die Ankündigungsanwendung hostet, die eingehende Anrufe für diesen Bereich nicht zugewiesener Nummern verarbeitet.
 
-- **Ankündigung** Die Ansage, die für diesen Bereich nicht zugewiesener Nummern abgespielt wird.
+- **Ankündigung** Die Ankündigung, die für diesen Bereich nicht zugewiesener Nummern wiedergegeben wird.
 
-Ausführliche Informationen zu Ankündigungsfeatures und -funktionen finden Sie unter [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie unter [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) in der Betriebsdokumentation.
+Ausführliche Informationen zu ankündigungsfeatures und -funktionen finden Sie [unter "Plan for the Announcement application in Skype for Business"](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie unter [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) in der Betriebsdokumentation.

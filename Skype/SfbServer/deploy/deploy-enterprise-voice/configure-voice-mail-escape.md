@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Voicemail-Escape in Skype for Business
+title: Konfigurieren von Voicemail escape in Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 'Zusammenfassung: Informationen zum Konfigurieren der Voicemail-Escape in Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell.'
-ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Voicemail escape in Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell konfigurieren.'
+ms.openlocfilehash: f94a9e78d5f1b88644691d43b7c24169e6122e6188f7ee45c095521230b6be3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106371"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279423"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Konfigurieren von Voicemail-Escape in Skype for Business
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Konfigurieren von Voicemail escape in Skype for Business
 
-**Zusammenfassung:** Erfahren Sie, wie Sie voicemail escape in Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell konfigurieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie Voicemail escape in Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell konfigurieren.
 
-Wenn ein Benutzer gleichzeitiges Klingeln an ein Mobiltelefon konfiguriert, wird ein Anrufer in der Regel an die persönliche Voicemail des Benutzers geroutet, wenn das Mobiltelefon ausgeschaltet, nicht mit Strom oder nicht in Reichweite ist. Mit Skype for Business Server können Benutzer entscheiden, dass geschäftsbezogene Anrufe an ihr Voicemailsystem des Unternehmens geroutet werden. Insbesondere kann ein Zeitgeber konfiguriert werden, und wenn der Anruf von der Voicemail des Netzbetreibers innerhalb des festgelegten Zeitraumes beantwortet wird, trennt Skype for Business Server die Verbindung vom Voicemailsystem des Netzbetreibers (und der persönlichen Voicemail des Benutzers), während die verbleibenden Endpunkte des Benutzers im Unternehmenssystem weiterhin klingeln. Auf diese Weise wird der Anrufer automatisch an die Voicemail des Benutzers geroutet.
+Wenn ein Benutzer das gleichzeitige Klingeln an ein Mobiltelefon konfiguriert, wird ein Anrufer in der Regel an die persönliche Voicemail des Benutzers weitergeleitet, wenn das Mobiltelefon ausgeschaltet, nicht genügend Akku oder außerhalb des Bereichs ist. Mit Skype for Business Server können Benutzer geschäftsbezogene Anrufe an ihr Voicemailsystem des Unternehmens weiterleiten lassen. Insbesondere kann ein Timer konfiguriert werden, und wenn der Anruf innerhalb des festgelegten Zeitraums von der Voicemail des Netzbetreibers angenommen wird, trennt Skype for Business Server die Verbindung mit dem Voicemailsystem des Netzbetreibers (und der persönlichen Voicemail des Benutzers), während die verbleibenden Endpunkte des Benutzers im Unternehmenssystem weiterhin klingeln. Auf diese Weise wird der Anrufer automatisch an die Voicemail des Benutzers weitergeleitet.
 
-Diese Konfiguration wird mithilfe des Skype for Business Server Management Shell-Cmdlets **Set-CsVoicePolicy** auf Der Ebene der Voicerichtlinien mit den folgenden Parametern ausgeführt.
+Diese Konfiguration wird mithilfe des Cmdlets **"set-CsVoicePolicy"** der Skype for Business Server Verwaltungsshell auf VoIP-Richtlinienebene mit den folgenden Parametern ausgeführt.
 
-### <a name="to-configure-voice-mail-escape"></a>So konfigurieren Sie voicemail escape
+### <a name="to-configure-voice-mail-escape"></a>So konfigurieren Sie Voicemail escape
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
 
 2. Geben Sie die folgenden Parameter für **Set-CsVoicePolicy** an:
 

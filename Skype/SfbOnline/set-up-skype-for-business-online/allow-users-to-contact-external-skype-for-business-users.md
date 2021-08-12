@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Erfahren Sie, wie Sie Skype for Business, damit Benutzer mit Benutzern in einer anderen Organisation sprechen oder externe Kontakte mit ihnen sprechen können. '
-ms.openlocfilehash: 3b4aeb2b40cf34579d3d584a50664550cd34038c
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 025cb6d430fd4dda2c4b3b7c4d351d9954c97d252456fce73b50df21c5bdf303
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308058"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren
 

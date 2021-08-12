@@ -15,34 +15,34 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
-description: Die Anrufsteuerung (Call Admission Control, CAC) ist eine Lösung, die bestimmt, ob basierend auf der verfügbaren Bandbreite eine Echtzeitsitzung eingerichtet werden kann, um eine schlechte Audio-/Videoqualität für Benutzer in überlasteten Netzwerken zu verhindern.
-ms.openlocfilehash: af08afe02b1dc138aa38ded654d567aed6a09247
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die Anrufsteuerung (Call Admission Control, CAC) ist eine Lösung, die bestimmt, ob eine Echtzeitsitzung basierend auf der verfügbaren Bandbreite eingerichtet werden kann, um eine schlechte Audio-/Videoqualität für Benutzer in überlasteten Netzwerken zu verhindern.
+ms.openlocfilehash: eaba53e7c4c908024b3427970c103a3bcc8885036ca3e1dbc657e6c0d78e5d8e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307816"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Bereitstellen der Anrufsteuerung in Skype for Business Server
  
-Die Anrufsteuerung (Call Admission Control, CAC) ist eine Lösung, die bestimmt, ob basierend auf der verfügbaren Bandbreite eine Echtzeitsitzung eingerichtet werden kann, um eine schlechte Audio-/Videoqualität für Benutzer in überlasteten Netzwerken zu verhindern. Weitere Informationen finden Sie unter [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Die Anrufsteuerung (Call Admission Control, CAC) ist eine Lösung, die bestimmt, ob eine Echtzeitsitzung basierend auf der verfügbaren Bandbreite eingerichtet werden kann, um eine schlechte Audio-/Videoqualität für Benutzer in überlasteten Netzwerken zu verhindern. Weitere Informationen finden Sie unter [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
-### <a name="to-deploy-call-admission-control"></a>So stellen Sie die Anrufsteuerung
+### <a name="to-deploy-call-admission-control"></a>So stellen Sie die Anrufsteuerung bereit
 
-1.  Sammeln Sie alle erforderlichen Informationen für Ihre Unternehmensnetzwerktopologie, wie in Beispiel: Erfassen der Anforderungen für die Anrufsteuerung [in Skype for Business Server beschrieben.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)
+1.  Sammeln Sie alle erforderlichen Informationen für Ihre Unternehmensnetzwerktopologie, wie in Beispiel: Erfassen von Anforderungen für die [Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)beschrieben.
     
-2. Falls noch nicht geschehen, müssen Sie Netzwerkregionen und Standorte definieren und Subnetze Netzwerkstandorten zuordnen. Weitere Informationen finden Sie [unter "Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business".](deploy-network.md)
+2. Wenn sie dies noch nicht getan haben, müssen Sie Netzwerkregionen und -standorte definieren und Subnetze Netzwerkstandorten zuordnen. Ausführliche Informationen finden Sie unter [Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business.](deploy-network.md)
     
-3. Erstellen von Bandbreitenrichtlinienprofilen, wie unter ["Erstellen von Bandbreitenrichtlinienprofilen in Skype for Business Server" detailliert.](create-bandwidth-policy-profiles.md)
+3. Erstellen von Bandbreitenrichtlinienprofilen, wie unter [Erstellen von Bandbreitenrichtlinienprofilen in Skype for Business Server](create-bandwidth-policy-profiles.md)
     
-4. Erstellen Sie Netzwerkregionsverbindungen, wie unter ["Erstellen von Netzwerkregionsverbindungen in Skype for Business Server" detailliert.](create-network-region-links.md)
+4. Erstellen Sie Netzwerkregionenverbindungen, wie unter [Erstellen von Netzwerkregionenverbindungen in Skype for Business Server](create-network-region-links.md)beschrieben.
     
-5. Erstellen Sie regionenübergreifende Netzwerkrouten, wie unter Erstellen regionenübergreifender [Netzwerkrouten in Skype for Business Server detailliert.](create-network-interregional-routes.md)
+5. Erstellen Sie regionenübergreifende Netzwerkrouten, wie unter [Erstellen von regionenübergreifenden Netzwerkrouten in Skype for Business Server](create-network-interregional-routes.md)beschrieben.
     
-6. Erstellen Sie standortübergreifende Netzwerkrichtlinien, wie unter "Erstellen von standortübergreifenden Netzwerkrichtlinien [in Skype for Business Server" detailliert.](create-network-intersite-policies.md)
+6. Erstellen Sie standortübergreifende Netzwerkrichtlinien, wie unter [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype for Business Server](create-network-intersite-policies.md)beschrieben.
     
-7. Aktivieren Sie die Anrufsteuerung, wie in "Aktivieren der [Anrufsteuerung in Skype for Business Server" detailliert.](enable-call-admission-control.md)
+7. Aktivieren Sie die Anrufsteuerung, wie unter Aktivieren der [Anrufsteuerung in Skype for Business Server](enable-call-admission-control.md)beschrieben.
     
-8. Überprüfen Sie einige abschließende Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Weitere Informationen finden Sie in [der Bereitstellung der Anrufsteuerung: endgültige Prüfliste für Skype for Business Server](final-checklist.md).
+8. Überprüfen Sie einige endgültige Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Ausführliche Informationen finden Sie unter Bereitstellung der [Anrufsteuerung: abschließende Checkliste für Skype for Business Server.](final-checklist.md)
     
 

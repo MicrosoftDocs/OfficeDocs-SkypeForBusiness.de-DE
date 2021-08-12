@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20ac1e6c120e1602a39e61d00798f8a796975603
-ms.sourcegitcommit: d3883b3d9de7251e60033bece53a2bab17d7b1b8
+ms.openlocfilehash: 7ce51b1768422a5780dbeae5b89f1285d26f18e524d3aae8bc710c127ee5af33
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51450612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280918"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Einrichten von Microsoft Teams in Ihrem Unternehmen
 
@@ -72,13 +72,13 @@ Chats, Teams und Kanäle sind die Säulen von Teams. Der **Chat** ermöglicht es
 | Entscheidung | Beschreibung |
 |--|--|
 | Welche Messagingrichtlinien sollten angewendet werden? | Messagingrichtlinien steuern, welche Features für Chat- und Kanalnachrichten (z. B. wer den Chat verwenden kann, wer gesendete Nachrichten bearbeiten und löschen kann und so weiter) für Benutzer in Teams zur Verfügung stehen. Teams hat eine globale Richtlinie, die für jeden gilt. Alle Features der globalen Richtlinie sind standardmäßig auf **An** festgelegt.<p>Wenn für alle dieselbe Richtlinie gelten soll, müssen Sie nur Änderungen an dieser globalen Richtlinie vornehmen (z. B. Deaktivieren der Unterstützung von Memes in Unterhaltungen).<p>Wenn Sie unterschiedliche Richtlinien für unterschiedliche Personengruppen (z. B. eine Richtlinie für Büroarbeiter und eine weitere für Fabrikarbeiter) wünschen, können Sie Richtlinien erstellen und zuweisen. Wenn Sie einem Benutzer eine Richtlinie zuweisen, gilt die globale Richtlinie nicht mehr für diesen Benutzer.<p>[Verwalten von Messaging-Richtlinien in Teams](messaging-policies-in-teams.md) |
-| Welche Teameinstellungen sollen angewendet werden? | Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Mail-Integration, Cloud-Speicheroptionen, die Organisationsregisterkarte, das Einrichten von Geräten in Besprechungsräumen und den Suchbereich einrichten. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Teams in Ihrer Organisation. <p>[Teams-Einstellungen](enable-features-office-365.md#teams-settings)  |
+| Welche Teameinstellungen sollen angewendet werden? | Mithilfe der Teams-Einstellungen können Sie für Ihre Teams Funktionen wie E-Mail-Integration, Cloud-Speicheroptionen, die Organisationsregisterkarte, das Einrichten von Geräten in Besprechungsräumen und den Suchbereich einrichten. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Teams in Ihrer Organisation.<p>[Teams-Einstellungen](enable-features-office-365.md#teams-settings)  |
 
 ### <a name="external-and-guest-access"></a>Externer und Gastzugriff
 
 | Entscheidung | Beschreibung |
 |--|--|
-| Sollte der externe Zugriff aktiviert sein? | Über den externen Zugriff kann jeder in einer anderen Organisation mit Personen in Ihrer Organisation sprechen. Dies ist nützlich, wenn Sie in enger Beziehung zu einer anderen Organisation, z. B. einem Lieferanten, stehen und es den Personen in einer Organisation ermöglichen möchten, miteinander zu chatten, Besprechungen zu halten und so weiter. <p>Der externe Zugriff ist anders als der Gastzugriff. Über den externen Zugriff erhält jeder in einer Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen.<p>Der externe Zugriff ist standardmäßig **Aus**.<p>[Verwaltung des externen Zugriffs in Microsoft Teams](manage-external-access.md)  |
+| Sollte der externe Zugriff aktiviert sein? | Über den externen Zugriff kann jeder in einer anderen Organisation mit Personen in Ihrer Organisation sprechen. Dies ist nützlich, wenn Sie in enger Beziehung zu einer anderen Organisation, z. B. einem Lieferanten, stehen und es den Personen in einer Organisation ermöglichen möchten, miteinander zu chatten, Besprechungen zu halten und so weiter.<p>Der externe Zugriff ist anders als der Gastzugriff. Über den externen Zugriff erhält jeder in einer Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen.<p>Der externe Zugriff ist standardmäßig **Aus**.<p>[Verwaltung des externen Zugriffs in Microsoft Teams](manage-external-access.md)  |
 | Sollte der Gastzugriff aktiviert sein? |Mithilfe eines Gastzugriffs können Personen in Ihrer Organisation Personen außerhalb Ihrer Organisation dazu einladen, auf Ihr Teams und Ihre Kanäle zuzugreifen. Der Gastzugriff wird häufig verwendet, um mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, die keine formelle Beziehung mit Ihrer Organisation haben. So könnten Sie beispielsweise einen Projektplaner vorübergehend zur Arbeit an einem Projekt einladen.<p>Der Gastzugriff ist anders als der externe Zugriff. Beim Gastzugriff werden bestimmte Personen zur Interaktion mit Personen in Ihrer Organisation eingeladen. Über den externen Zugriff erhält jeder in einer anderen Organisation Zugriff auf die Interaktion mit Personen in Ihrer Organisation. <p>Der Gastzugriff ist standardmäßig **Aus**. <p>[Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams](set-up-guests.md)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[Besprechungen und Audiokonferenzen](#tab/MeetingsAudioConferencing)
@@ -111,13 +111,13 @@ Besprechungen und Konferenzen ermöglichen es Personen in Ihrer Organisation, si
 
 #### <a name="phone-system-and-pstn-connectivity"></a>[Telefonsystem und PSTN-Konnektivität](#tab/PhoneSystem)
 
-Mit dem Telefonsystem können Sie Ihr vorhandenes lokales Telefonsystem durch eine Reihe von Funktionen ersetzen, die über Microsoft 365 bereitgestellt werden und die eng in Ihre Cloudlösung integriert sind.
+Mit dem Telefonsystem können Sie Ihr vorhandenes lokales Telefonsystem durch eine Reihe von Funktionen ersetzen, die über Microsoft 365 bereitgestellt werden und die eng in Ihre Cloudlösung integriert sind.
 
 | Entscheidung | Beschreibung |
 |--|--|
 | Möchten Sie Ihre lokale Telefonanlage ersetzen? | Telefonsystem einrichten, automatische Telefonanrufe konfigurieren, Anrufpläne, Anrufwarteschlangen und so weiter. <p> [Einrichten des Telefonsystems in Ihrer Organisation](setting-up-your-phone-system.md)|
 | Möchten Sie Richtlinien für Cloud-Voicemail festlegen?| Sie können steuern, welche Cloud-Voicemailfeatures Ihren Benutzern zur Verfügung stehen und wie sie funktionieren. Sie können beispielsweise die Voicemailabschrift für Ihre gesamte Organisation aktivieren oder deaktivieren, die Profanitätsmaske für bestimmte Benutzer aktivieren oder deaktivieren und so weiter.<p> [Einrichten von Cloudvoicemail](set-up-phone-system-voicemail.md) |
-| Möchten Sie dynamische Notrufe aktivieren?| Mit dynamischen Notfallanrufen können Sie eine Standortkarte basierend auf Netzwerkeinstellungen und anderen Metadaten konfigurieren, um festzulegen, wohin Notfallmitarbeiter für den Fall gesendet werden, dass ein Benutzer einen Notruf abgiebt. Sie können Netzwerkeinstellungen konfigurieren, Notrufadressen an Standorte zuweisen und so weiter.<p>[Planen und Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md) |
+| Möchten Sie dynamische Notrufe aktivieren?| Sie können Netzwerkeinstellungen konfigurieren, Notrufadressen an Standorte zuweisen und so weiter. Mit dynamischen Notfallanrufen können Sie eine Standortkarte basierend auf Netzwerkeinstellungen und anderen Metadaten konfigurieren, um festzulegen, wohin Notfallmitarbeiter für den Fall gesendet werden, dass ein Benutzer einen Notruf abgibt.<p>[Planen und Konfigurieren dynamischer Notrufe](configure-dynamic-emergency-calling.md) |
 | Möchten Sie das Verhalten der Anrufer-ID anpassen? | Standardmäßig ist die Telefonnummer, die bei einem Anruf eines Teams-Benutzers angezeigt wird, die Telefonnummer des Benutzers. Sie können dies in die Hauptnummer des Unternehmens ändern, die Telefonnummer blockieren, die Nummer anonymisieren oder in eine andere Dienstnummer ändern. Teams hat eine globale Richtlinie, die für jeden gilt.<p>Wenn für alle dieselbe Richtlinie gelten soll, müssen Sie nur Änderungen an dieser globalen Richtlinie vornehmen. <p>Wenn Sie unterschiedliche Richtlinien für unterschiedliche Personengruppen (z. B. eine Richtlinie für Büroarbeiter und eine weitere für leitende Angestellte) wünschen, können Sie Richtlinien erstellen und zuweisen. Wenn Sie einem Benutzer eine Richtlinie zuweisen, gilt die globale Richtlinie nicht mehr für diesen Benutzer.<p> [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md). |
 
 ---

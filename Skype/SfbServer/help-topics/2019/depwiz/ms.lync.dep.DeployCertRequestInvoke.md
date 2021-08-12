@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c60afd78-147a-42ce-8673-314acbfd6cc7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite Befehle ausführen wird eine Statuszusammenfassung der Befehle angezeigt, die zur Erstellung der Zertifikatanforderung ausgeführt wurden. Nach Abschluss der Aufgaben enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste mit Protokolldateien. Wählen Sie in der Dropdownliste eine Protokolldatei aus, die angezeigt werden soll, und klicken Sie dann auf "Protokoll anzeigen". Die Protokolldatei wird in Internet Explorer angezeigt. Überprüfen Sie bei einer nicht erfolgreichen Anforderung die Protokolldatei(en), um die Fehlerursache zu bestimmen. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben, und das in der Protokolldatei angegebene Problem beheben. Fahren Sie mit den Zertifikatanforderungsseiten fort, und fordern Sie das Zertifikat erneut an.
-ms.openlocfilehash: 0f2f1dd8c23e5c0fb36a0cabc4dca022277141c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Auf der Seite Befehle ausführen wird eine Statuszusammenfassung der Befehle angezeigt, die zur Erstellung der Zertifikatanforderung ausgeführt wurden. Nach Abschluss der Aufgaben enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste mit Protokolldateien. Verwenden Sie die Dropdownliste, um eine anzuzeigende Protokolldatei auszuwählen, und klicken Sie dann auf "Protokoll anzeigen". Die Protokolldatei wird in Internet Explorer angezeigt. Überprüfen Sie bei einer nicht erfolgreichen Anforderung die Protokolldatei(en), um die Fehlerursache zu bestimmen. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben und das in der Protokolldatei angegebene Problem zu beheben. Fahren Sie mit den Zertifikatanforderungsseiten fort, und fordern Sie das Zertifikat erneut an.
+ms.openlocfilehash: 090454e0b5ff6e9dc136f85134048f8d7beebe1009b2d01549f9c6b3e711793b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280220"
 ---
 # <a name="certificate-request-invoke"></a>Zertifikatanforderung (Aufruf)
  
-Auf der Seite **Befehle ausführen** wird eine Statuszusammenfassung der Befehle angezeigt, die zur Erstellung der Zertifikatanforderung ausgeführt wurden. Nach Abschluss der Aufgaben enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste mit Protokolldateien. Wählen Sie in der Dropdownliste eine Protokolldatei aus, die angezeigt werden soll, und klicken Sie dann **auf "Protokoll anzeigen".** Die Protokolldatei wird in Internet Explorer angezeigt. Überprüfen Sie bei einer nicht erfolgreichen Anforderung die Protokolldatei(en), um die Fehlerursache zu bestimmen. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben, und das in der Protokolldatei angegebene Problem beheben. Fahren Sie mit den Zertifikatanforderungsseiten fort, und fordern Sie das Zertifikat erneut an.
+Auf der Seite **Befehle ausführen** wird eine Statuszusammenfassung der Befehle angezeigt, die zur Erstellung der Zertifikatanforderung ausgeführt wurden. Nach Abschluss der Aufgaben enthält die Dropdownliste unter dem Zusammenfassungsbereich eine Liste mit Protokolldateien. Verwenden Sie die Dropdownliste, um eine anzuzeigende Protokolldatei auszuwählen, und klicken Sie dann auf **"Protokoll anzeigen".** Die Protokolldatei wird in Internet Explorer angezeigt. Überprüfen Sie bei einer nicht erfolgreichen Anforderung die Protokolldatei(en), um die Fehlerursache zu bestimmen. Sie können die Zertifikatanforderung erneut ausführen, um das Problem zu beheben und das in der Protokolldatei angegebene Problem zu beheben. Fahren Sie mit den Zertifikatanforderungsseiten fort, und fordern Sie das Zertifikat erneut an.
   
 

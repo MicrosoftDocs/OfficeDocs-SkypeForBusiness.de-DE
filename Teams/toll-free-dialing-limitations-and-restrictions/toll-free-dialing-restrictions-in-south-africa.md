@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder/Regionen zum Wählen der gebührenfreien Nummer.
-ms.openlocfilehash: 7af2a6927fc360fb8efd40160c46104ea20e9b82
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1ce0358533b644a5b60b847e98f4d1635f4010dc79b5ba380604e4d018605a54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308326"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-africa"></a>Einschränkungen für gebührenfreie Telefonnummern Südafrika
 

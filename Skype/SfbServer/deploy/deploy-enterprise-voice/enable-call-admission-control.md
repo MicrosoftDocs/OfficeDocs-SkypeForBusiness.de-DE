@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: Aktivieren der Anrufsteuerung in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 2b8096a9223250cec88e57e68fdc201f5591fd92
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Aktivieren Sie die Anrufsteuerung in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: 65c9ea2e4732ca4c2c069479826f353a9a2dabf82d6eee35c6feaf1c14391ddd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109861"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281198"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Aktivieren der Anrufsteuerung in Skype for Business Server
  
-Aktivieren der Anrufsteuerung in Skype for Business Server Enterprise-VoIP. 
+Aktivieren Sie die Anrufsteuerung in Skype for Business Server Enterprise-VoIP. 
   
 Nachdem Sie die Ihre Netzwerkeinstellungen für die Bereitstellung der Anrufsteuerung konfiguriert haben, müssen Sie die Anrufsteuerung aktivieren, um die Bandbreitenrichtlinien anzuwenden.
   
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>So aktivieren Sie die Anrufsteuerung mithilfe der Skype for Business Server-Verwaltungsshell
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>So aktivieren Sie die Anrufsteuerung mithilfe Skype for Business Server Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Führen Sie das Cmdlet "Set-CsNetworkConfiguration" aus, um die Anrufsteuerung in Ihrem Netzwerk zu aktivieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
@@ -45,9 +45,9 @@ Nachdem Sie die Ihre Netzwerkeinstellungen für die Bereitstellung der Anrufsteu
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>So aktivieren Sie die Anrufsteuerung mithilfe der Skype for Business Server-Systemsteuerung
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>So aktivieren Sie die Anrufsteuerung mithilfe Skype for Business Server Systemsteuerung
 
-1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
+1. Öffnen Sie Skype for Business Server Systemsteuerung.
     
 2. Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
     

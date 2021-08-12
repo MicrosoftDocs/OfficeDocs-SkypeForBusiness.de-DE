@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf5a601cfe373f1afa995b1dcd8b1f9adff05877
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ebbc1e2b26fdd5f0ff6816d456e0f2a2dc9d02275b8c81089a0c0a1ef299e64f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308714"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>Erste Schritte mit Teamvorlagen im Admin Center
 
@@ -77,8 +77,8 @@ Nachdem ein Basisvorlagentyp definiert wurde, können Sie diese speziellen Vorla
 |Mitarbeiter integrieren|`com.microsoft.teams.template.OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Wiki</li><li>Communitys</li><li>Planner</li><li>Mitarbeiterideen</li></ul>|
 |Helpdesk organisieren| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>Lob</li><li>Problem Reporter</li></ul> |
 | Patientenpflege| `healthcareWard`| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li><li>Genehmigungen</li></ul>|
-| Zusammenarbeiten an globalen Krisen oder Veranstaltungen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Geschäftskontinuität</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungsanforderung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Update für Geschäftsleitung</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li><li>Problem Reporter</li></ul>|
-|Bank zweigstelle| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungsanforderung </li><li>Durchseringen</li><li>Qualifikationsentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problem Reporter</li></ul>|
+| Zusammenarbeiten an globalen Krisen oder Veranstaltungen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Geschäftskontinuität</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungen anforderung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Update für Geschäftsleitung</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li><li>Problem Reporter</li></ul>|
+|Bank zweigstelle| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungen Anforderung </li><li>Durchseringen</li><li>Qualifikationsentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problem Reporter</li></ul>|
 |Reaktion auf Vorfälle| `com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Wiederherstellung</li><li>Dringend</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li> <li>Genehmigungen</li> <li>Prüfung</li> </ul>|
 |Krankenhaus| `healthcareHospital` |Kanäle: <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Sorgerecht</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li></ul>|
 |Ein Store organisieren| `retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Planner</li></ul>|

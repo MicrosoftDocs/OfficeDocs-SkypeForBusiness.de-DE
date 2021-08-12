@@ -13,17 +13,17 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-description: Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server 2015 basiert auf Serverredundanz über Pooling. Wenn ein Server mit einer bestimmten Serverrolle fehlschlägt, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Last von diesem Server.
-ms.openlocfilehash: f1fd56d85b8770a617295db96b01e3566f45f743
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+description: Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server 2015 basiert auf Serverredundanz durch Pooling. Wenn ein Server mit einer bestimmten Serverrolle fehlschlägt, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Last von diesem Server.
+ms.openlocfilehash: 954fc2be48a17daa11099a5bca179d416ed4d9380689558a9214362ed904568c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280958"
 ---
 # <a name="high-availability-planning-tool"></a>Planungstool für hohe Verfügbarkeit
  
-Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server 2015 basiert auf Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers.
+Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server 2015 basiert auf Serverredundanz durch Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers.
   
 Skype for Business Server 2015 erfordert mindestens zwei Front-End-Server, um hohe Verfügbarkeit zu ermöglichen. Das Planungstool verwendet die folgenden Kriterien, um zu bestimmen, ob zusätzliche Server hinzugefügt werden, um hohe Verfügbarkeit zu unterstützen:
   
@@ -33,7 +33,7 @@ Skype for Business Server 2015 erfordert mindestens zwei Front-End-Server, um ho
     
 - Wenn die Bereitstellung den beständigen Chat enthält, fügt das Planungstool einen zusätzlichen Server hinzu, erhöht jedoch nicht die Poolnummer. Wenn die Bereitstellung beispielsweise bereits vier Server enthält, schlägt das Planungstool das Hinzufügen eines anderen Servers (für insgesamt fünf Server) vor, verwaltet jedoch einen einzelnen Pool. 
     
-Das Planungstool fügt auch eine Spiegeldatenbank SQL für alle Datenbanken hinzu. Wenn z. B. eine Front-End-SQL Server-Datenbank vorhanden ist, fügt das Planungstool die andere Datenbank als Spiegeldatenbank für diese hinzu und bekommt den Namen "Front-End-Spiegel SQL Datenbank".
+Das Planungstool fügt auch eine Spiegeldatenbank SQL für alle Datenbanken hinzu. Wenn beispielsweise eine Front-End-SQL Server-Datenbank vorhanden ist, fügt das Planungstool die andere Datenbank als Spiegeldatenbank für diese Hinzufügedatenbank hinzu und bezeichnet sie als "Front-End-Spiegel SQL Datenbank.
   
 Weitere Informationen zur Vorbereitung Ihrer Umgebung auf hohe Verfügbarkeit finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   

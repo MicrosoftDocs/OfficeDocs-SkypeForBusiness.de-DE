@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Sammlung von Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Systemsteuerung löschen.'
-ms.openlocfilehash: 294a6c2e39387aa9245af0c23eec56d1fd59dbc2
+ms.openlocfilehash: 8927b06c3945be48685f13f33dcee83ff08ae653ade5b2d51228407a3554ef70
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772866"
+ms.locfileid: "54307846"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server: Löschen einer vorhandenen Auflistung von SIP-Trunkkonfigurationseinstellungen 
  
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Auflistung von Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Systemsteuerung löschen.
   
-SIP-Trunkkonfigurationseinstellungen definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch eXchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Mit diesen Einstellungen kann Folgendes angegeben werden:
+Sip trunk configuration settings define the relationship and capabilities between a Mediation Server and the Public Switched Telephone Network (PSTN) gateway, an IP-Public Branch eXchange (PBX) or a Session Border Controller (SBC) at the service provider. Mit diesen Einstellungen kann Folgendes angegeben werden:
   
 - Gibt an, ob die Medienumgehung für die Trunks aktiviert werden soll.
     
@@ -55,11 +55,11 @@ Administratoren können auch benutzerdefinierte Trunkkonfigurationseinstellungen
     
 5. Klicken Sie im Dialogfeld **Skype for Business Server Systemsteuerung** auf **OK.**
     
-6. Wenn Sie Ihre Meinung ändern und die Auflistung nicht löschen möchten, klicken Sie auf **Commit ausführen**, und klicken Sie dann auf **Alle noch nicht übernommenen Änderungen verwerfen**. Wenn das Dialogfeld **Skype for Business Server Systemsteuerung** angezeigt wird, klicken Sie auf **OK**.
+6. Wenn Sie Ihre Meinung ändern und die Auflistung nicht löschen möchten, klicken Sie auf **Commit ausführen**, und klicken Sie dann auf **Alle noch nicht übernommenen Änderungen verwerfen**. Wenn das Dialogfeld **Skype for Business Server Systemsteuerung** angezeigt wird, klicken Sie auf **OK.**
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Entfernen von Trunkkonfigurations-Einstellungen mithilfe Skype for Business Server-Verwaltungsshell-Cmdlets
 
-Sie können Trunkkonfigurationseinstellungen mithilfe Skype for Business Server Verwaltungsshell und des **Cmdlets "Remove-CsTrunkConfiguration"** löschen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung der Skype for Business Server-Verwaltungsshell ausführen.
+Sie können Trunkkonfigurationseinstellungen mithilfe Skype for Business Server Verwaltungsshell und des Cmdlets **"Remove-CsTrunkConfiguration"** löschen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung der Skype for Business Server-Verwaltungsshell ausführen.
   
 ### <a name="to-remove-a-specified-collection-of-settings"></a>So entfernen Sie eine angegebene Auflistung von Einstellungen
 
