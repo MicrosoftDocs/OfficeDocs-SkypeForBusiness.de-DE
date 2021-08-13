@@ -14,21 +14,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder in der Konsolenstruktur mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung ausgeführt wird, auf der Symbolleiste auf "Aktion" klicken oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:'
-ms.openlocfilehash: 6e0d26c38e865ae4e2b7b5622c5cddd5c6803cbe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung in der Konsolenstruktur ausgeführt wird, auf der Symbolleiste auf Aktion oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:'
+ms.openlocfilehash: da1c88215191bfb52d768183a6f187e2064932766498403db1c6a30b26637b8a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331787"
 ---
 # <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
  
-Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die  Überwachung ausgeführt wird, indem Sie entweder in der Konsolenstruktur mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung ausgeführt wird, auf der Symbolleiste auf "Aktion" klicken oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:
+Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung in der Konsolenstruktur ausgeführt wird, auf der Symbolleiste auf **Aktion** klicken oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:
   
-- **Eigenschaften bearbeiten**. Öffnet **die** Seite "Eigenschaften bearbeiten" für den Server, auf dem die Überwachung ausgeführt wird, auf der Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers, auf dem die Überwachung ausgeführt wird, oder die Überwachungsdatenbank SQL Server können.
+- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für den Server mit Überwachung, auf dem Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers ändern können, auf dem die Überwachung ausgeführt wird, oder die Überwachungsdatenbank SQL Server.
     
-- **Delete** Löscht den Server, auf dem die Überwachung ausgeführt wird, aus der Topologie und der SQL Server Datenbank.
+- **Delete** Löscht den Server, auf dem die Überwachung ausgeführt wird, aus der Topologie und der Überwachungsdatenbank SQL Server.
     
 Zusätzlich zu den zuvor in diesem Thema beschriebenen Optionen für den Server, auf dem die Überwachung ausgeführt wird, stehen im Knoten "Überwachung" auch allgemeine Optionen zur Verfügung, auf die Sie auch über andere Knoten der Konsolenstruktur zugreifen können. Dies umfasst Folgendes:
   

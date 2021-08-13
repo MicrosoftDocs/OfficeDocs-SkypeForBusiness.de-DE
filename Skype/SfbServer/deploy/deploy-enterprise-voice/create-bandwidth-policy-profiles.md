@@ -15,40 +15,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP anrufsteuerung in Skype for Business Server verwendet werden.
-ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.
+ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332037"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Erstellen von Bandbreitenrichtlinienprofilen in Skype for Business Server 
  
-Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP anrufsteuerung in Skype for Business Server verwendet werden. 
+Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden. 
   
-Bandbreitenrichtlinien definieren Einschränkungen der Bandbreitennutzung für Audio- und Videomodalitäten in Echtzeit. Bandbreitenrichtlinien werden aufbandweite Richtlinienprofile angewendet, die für die Anrufsteuerung auf mehrere Netzwerkstandorte angewendet werden können.
+Bandbreitenrichtlinien definieren Einschränkungen der Bandbreitennutzung für Audio- und Videomodalitäten in Echtzeit. Bandbreitenrichtlinien werden auf Bandbreitenrichtlinienprofile angewendet, die auf mehrere Netzwerkstandorte für die Anrufsteuerung angewendet werden können.
   
-Richtlinien dazu, welche Bandbreitengrenzwerte Sie in Ihrer Anrufsteuerungsbereitstellung festlegen sollten, finden Sie unter [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Richtlinien dazu, welche Bandbreiteneinschränkungen Sie in Ihrer Cac-Bereitstellung festlegen sollten, finden Sie unter [Plan for call admission control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
-In den im folgenden Verfahren erstellten Beispielrichtlinien werden Grenzwerte für den gesamten Audiodatenverkehr, einzelne Audiositzungen, den gesamten Videodatenverkehr und einzelne Videositzungen festgelegt. Beispielsweise werden im 5Mb_Link Bandbreitenrichtlinienprofil die folgenden Grenzwerte gesetzt: 
+Die beispielrichtlinien, die im folgenden Verfahren erstellt wurden, legen Grenzwerte für den gesamten Audiodatenverkehr, einzelne Audiositzungen, den gesamten Videodatenverkehr und einzelne Videositzungen fest. Beispielsweise legt das 5Mb_Link Bandbreitenrichtlinienprofil die folgenden Grenzwerte fest: 
   
 - Audiogrenzwert: 2.000 KBit/s
     
 - Grenzwert für Audiositzungen: 200 KBit/s
     
-- Videolimit: 1.400 KBit/s
+- Videogrenzwert: 1.400 KBit/s
     
 - Grenzwert für Videositzungen: 700 KBit/s
     
 > [!NOTE]
-> Der Minimale Grenzwert für Audiositzungen beträgt 40 KBit/s. Der Mindestwert für Videositzungsgrenzwerte beträgt 100 KBit/s. 
+> Der Grenzwert für Audiositzungen beträgt 40 KBit/s. Der Grenzwert für Videositzungen beträgt mindestens 100 KBit/s. 
   
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Bandbreitenrichtlinienprofile mithilfe der Skype for Business Server-Verwaltungsshell
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Bandbreitenrichtlinienprofile mithilfe Skype for Business Server Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
-2. Führen Sie für jedes zu erstellende Bandbreitenrichtlinienprofil das cmdlet New-CsNetworkBandwidthPolicyProfile aus. Führen Sie beispielsweise den folgenden Befehl aus:
+2. Führen Sie für jedes Bandbreitenrichtlinienprofil, das Sie erstellen möchten, das Cmdlet New-CsNetworkBandwidthPolicyProfile aus. Führen Sie beispielsweise den folgenden Befehl aus:
     
    ```powershell
    New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400   -VideoBWSessionLimit 700
@@ -66,31 +66,31 @@ In den im folgenden Verfahren erstellten Beispielrichtlinien werden Grenzwerte f
    New-CsNetworkBandwidthPolicyProfile -Identity 25Mb_Link -Description "BW profile for 25Mb links" -AudioBWLimit 10000 -AudioBWSessionLimit 200 -VideoBWLimit 7000 -VideoBWSessionLimit 700
    ```
 
-### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie Bandbreitenrichtlinienprofile mithilfe der Skype for Business Server-Systemsteuerung
+### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>So erstellen Sie Bandbreitenrichtlinienprofile mithilfe Skype for Business Server Systemsteuerung
 
-1. Öffnen Sie die Skype for Business Server-Systemsteuerung.
+1. Öffnen Sie Skype for Business Server Systemsteuerung.
     
 2. Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
     
-3. Klicken Sie auf **die Schaltfläche Richtlinienprofilnavigation.**
+3. Klicken Sie auf die Navigationsschaltfläche **"Richtlinienprofil".**
     
 4. Klicken Sie auf **Neu**.
     
-5. Klicken Sie auf der Seite Neues **Richtlinienprofil** auf **Name,** und geben Sie dann einen Namen für das Bandbreitenrichtlinienprofil ein.
+5. Klicken Sie auf der Seite **"Neues Richtlinienprofil"** auf **"Name",** und geben Sie dann einen Namen für das Bandbreitenrichtlinienprofil ein.
     
-6. Klicken **Sie auf Audiolimit,** und geben Sie dann die maximale Anzahl von KBit/s ein, die für alle Audiositzungen kombiniert werden soll.
+6. Klicken Sie auf **"Audiolimit",** und geben Sie dann die maximale Anzahl von KBit/s ein, um alle Audiositzungen zusammen zuzulassen.
     
-7. Klicken Sie auf Audiositzungslimit, und geben Sie dann die maximale Anzahl von KBit/s ein, die für jede einzelne Audiositzung zulässig ist. 
+7. Klicken Sie auf **"Audiositzungslimit",** und geben Sie dann die maximale Anzahl von KBit/s ein, die für jede einzelne Audiositzung zulässig ist.
     
-8. Klicken **Sie auf Videolimit,** und geben Sie dann die maximale Anzahl von KBit/s ein, um alle Videositzungen kombiniert zu ermöglichen.
+8. Klicken Sie auf **"Videolimit",** und geben Sie dann die maximale Anzahl von KBit/s ein, um alle Videositzungen zusammen zuzulassen.
     
-9. Klicken **Sie auf** Videositzungslimit, und geben Sie dann die maximale Anzahl von KBit/s ein, die für jede einzelne Videositzung zulässig ist.
+9. Klicken Sie auf **"Videositzungslimit",** und geben Sie dann die maximale Anzahl von KBit/s ein, die für jede einzelne Videositzung zulässig ist.
     
-10. Klicken Sie optional auf **Beschreibung,** und geben Sie weitere Informationen ein, um dieses Bandbreitenrichtlinienprofil zu beschreiben.
+10. Klicken Sie optional auf **"Beschreibung",** und geben Sie zusätzliche Informationen ein, um dieses Bandbreitenrichtlinienprofil zu beschreiben.
     
 11. Klicken Sie auf **Commit ausführen**.
     
-12. Um das Erstellen von Bandbreitenrichtlinienprofilen für Ihre Topologie zu beenden, wiederholen Sie die Schritte 4 bis 11 mit Einstellungen für andere Bandbreitenrichtlinienprofile.
+12. Wiederholen Sie die Schritte 4 bis 11 mit Einstellungen für andere Bandbreitenrichtlinienprofile, um die Erstellung von Bandbreitenrichtlinienprofilen für Ihre Topologie abzuschließen.
     
 ## <a name="see-also"></a>Siehe auch
 

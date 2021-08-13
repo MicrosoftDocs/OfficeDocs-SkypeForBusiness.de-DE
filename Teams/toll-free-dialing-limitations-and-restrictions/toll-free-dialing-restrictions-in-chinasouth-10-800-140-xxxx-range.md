@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in China (Süden), einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fecf60fc6d5f1c73e3fcf16d2f8178b6734f9d20520c50a6caa08215193c87cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116783"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296482"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Einschränkungen für gebührenfreie Telefonnummern in China (Süden) – (10 800 140 XXXX-Bereich
 

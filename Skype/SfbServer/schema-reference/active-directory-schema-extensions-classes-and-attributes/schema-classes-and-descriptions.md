@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-description: In diesem Abschnitt werden alle von Skype for Business Server verwendeten Schemaklassen beschrieben.
-ms.openlocfilehash: 6c4b5d12baf85a1e9f168940fc889f6f18063616
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In diesem Abschnitt werden alle Schemaklassen beschrieben, die von Skype for Business Server verwendet werden.
+ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297072"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Schemaklassen und Beschreibungen in Skype for Business Server
  
-In diesem Abschnitt werden alle von Skype for Business Server verwendeten Schemaklassen beschrieben. 
+In diesem Abschnitt werden alle Schemaklassen beschrieben, die von Skype for Business Server verwendet werden. 
   
 ## <a name="schema-classes-and-descriptions"></a>Schemaklassen und Beschreibungen
 
@@ -31,26 +31,26 @@ In diesem Abschnitt werden alle von Skype for Business Server verwendeten Schema
 |Mail-Recipient  <br/> |Exchange Unified Messaging (UM)-E-Mail-Empfänger.  <br/> |Diese Hilfsklasse wird für Exchange UM freigegeben.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Diese Klasse ist ein Container für mehrere Anwendungskontakte und enthält selbst keine Attribute.  <br/> |Neu in Microsoft Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |Diese Klasse enthält den Eintrag für den Dienststeuerungspunkt für eine Instanz von Unified Communications-Anwendungsdiensten.  <br/> |Neu in Office Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ApplicationServerService  <br/> |Diese Klasse stellt eine Zuordnung von einem bestimmten Pool zum Anwendungsdienst zur Verfügung.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ApplicationServerSettings  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-ApplicationServer" enthält Attribute, die Einstellungen für Instanzen des Anwendungsdiensts darstellen.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ApplicationServerService  <br/> |Diese Klasse stellt eine Zuordnung aus einem bestimmten Pool zum Anwendungsdienst bereit.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ApplicationServerSettings  <br/> |Diese Hilfsklasse zu msRTCSIP-ApplicationServer enthält Attribute, die Einstellungen für Instanzen des Anwendungsdiensts darstellen.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-Archive (veraltet)  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält alle Einstellungen, die sich auf die Archivierung beziehen.  <br/> |Veraltet in Lync Server 2010.  <br/> |
 |msRTCSIP-ArchivingServer (veraltet)  <br/> |Diese Klasse stellt einen einzelnen Instant Messaging-Archivierungsserver dar. Eine Instanz dieser Klasse wird erstellt, wenn ein Computer als Instant Messaging-Archivierungsserver (z. B. ein Computer, auf dem der Instant Messaging-Archivierungsdienst installiert ist) aktiviert wird.  <br/> |Veraltet in Lync Server 2010.  <br/> |
 |msRTCSIP-ConferenceDirectories  <br/> |Diese Klasse ist ein Container für mehrere Instanzen von Konferenzverzeichnissen und enthält selbst keine Attribute.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ConferenceDirectory  <br/> |Diese Klasse enthält Attribute, die Einstellungen für ein bestimmtes Konferenzverzeichnis darstellen.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ConnectionPoint  <br/> |Generischer Dienststeuerungspunkt (Generic Service Control Point, SCP), um den Computer als Server anzugeben, auf dem Skype for Business Server ausgeführt wird.  <br/> |Neu in Lync 2010.  <br/> |
-|msRTCSIP-DefaultCWABank  <br/> |Diese Zusatzklasse enthält die Einstellungen für eine Skype for Business Web App-Bank.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ConnectionPoint  <br/> |Allgemeiner Dienststeuerungspunkt (Generic Service Control Point, SCP), um den Computer als Server anzugeben, auf dem Skype for Business Server ausgeführt wird.  <br/> |Neu in Lync 2010.  <br/> |
+|msRTCSIP-DefaultCWABank  <br/> |Diese Hilfsklasse enthält die Einstellungen für eine Skype for Business-Web-App Bank.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-Domain  <br/> |Diese Klasse enthält Attribute, die die konfigurierten Domänen der SIP-Registrierung definieren.  <br/> |-  <br/> |
-|msRTCSIP-EdgeProxy  <br/> |Dieser Klassencontainer stellt einen einzelnen Zugriffs-Edgedienst dar. Da ein Zugriffsedgedienst im Umkreisnetzwerk bereitgestellt wird und Kunden in der Regel keinen Zugriff auf Active Directory Domain Services über das Umkreisnetzwerk zulassen, werden Instanzen des Zugriffsedgediensts nicht mit dem Active Directory-Netzwerk des Intranets verbunden. Somit werden Zugriffsproxys nicht automatisch in AD DS registriert. Der Administrator muss das Vorhandensein jeder Instanz des Zugriffs-Edgediensts in AD DS manuell konfigurieren.  <br/> |-  <br/> |
+|msRTCSIP-EdgeProxy  <br/> |Dieser Klassencontainer stellt einen einzelnen Access Edge-Dienst dar. Da ein Zugriffs-Edgedienst im Umkreisnetzwerk bereitgestellt wird und Kunden in der Regel keinen Active Directory Domain Services-Zugriff über das Umkreisnetzwerk zulassen, sind Instanzen des Zugriffs-Edgediensts nicht mit dem Active Directory-Netzwerk des Intranets verbunden. Somit werden Zugriffsproxys nicht automatisch in AD DS registriert. Der Administrator muss das Vorhandensein jeder Instanz des Zugriffs-Edgediensts in AD DS manuell konfigurieren.  <br/> |-  <br/> |
 |msRTCSIP-EnterpriseMCUSettings  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-MCU" enthält Attribute, die Einstellungen für Konferenzserver darstellen.  <br/> |Neu in Microsoft Office Communications Server 2007.  <br/> |
 |msRTCSIP-EnterpriseMediationServerSettings  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-MediationServer" enthält Attribute, die Einstellungen für Vermittlungsserver darstellen.  <br/> |Neu in Office Communications Server 2007.  <br/> |
 |msRTCSIP-EnterpriseServerSettings  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-Server" enthält Attribute, die Einstellungen für SIP-Server darstellen.  <br/> |-  <br/> |
 |msRTCSIP-Federation  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält alle Einstellungen, die sich auf den Partnerverbund beziehen.  <br/> |-  <br/> |
-|msRTCSIP-GlobalContainer  <br/> |Diese Klasse enthält alle Einstellungen, die in einer Skype for Business Server-Bereitstellung gelten.  <br/> |-  <br/> |
+|msRTCSIP-GlobalContainer  <br/> |Diese Klasse enthält alle Einstellungen, die in einer Skype for Business Server Bereitstellung gelten.  <br/> |-  <br/> |
 |msRTCSIP-GlobalUserPolicy (veraltet)  <br/> |Diese Klasse stellt eine einzelne Office Communications Server-Besprechungsrichtlinie dar.  <br/> |Veraltet in Lync Server 2010.  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |Das lokale Einstellungsobjekt für die globale Topologie.  <br/> |Neu in Lync Server 2010.  <br/> |
 |msRTCSIP-GlobalTopologySettings  <br/> |Container mit Einstellungsobjekten für die globale Topologie.  <br/> |Neu in Lync Server 2010.  <br/> |
 |msRTCSIP-LocalNormalization  <br/> |Diese Klasse ist ein Container und stellt eine Instanz einer Standortnormalisierungsregel dar.  <br/> |-  <br/> |
-|msRTCSIP-LocationContactMapping  <br/> |Diese Klasse wird von der Anwendung "Konferenztelefonanlage" erstellt und enthält Attribute, die zum Kategorisieren von Konferenztelefonnummern nach Region verwendet werden.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
+|msRTCSIP-LocationContactMapping  <br/> |Diese Klasse wird vom Konferenzzentralenanwendung erstellt und enthält Attribute, die zum Kategorisieren von Konferenztelefonnummern nach Region verwendet werden.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-LocationContactMappings  <br/> |Diese Klasse ist ein Container für mehrere Instanzen von Standortkontaktzuordnungen und enthält selbst keine Attribute.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-LocationProfile  <br/> |Diese Klasse ist ein Container und stellt ein bestimmtes Standortprofil dar.  <br/> |-  <br/> |
 |msRTCSIP-LocationProfiles (veraltet)  <br/> |Diese Klasse ist ein Container für mehrere Standortprofile und enthält selbst keine Attribute.  <br/> |Veraltet in Lync Server 2010.  <br/> |
@@ -62,12 +62,12 @@ In diesem Abschnitt werden alle von Skype for Business Server verwendeten Schema
 |msRTCSIP-MediationServer  <br/> |Diese Klasse enthält den Eintrag für den Dienststeuerungspunkt eines Vermittlungsservers.  <br/> |Neu in Communications Server 2007.  <br/> |
 |msRTCSIP-Meeting (veraltet)  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält Attribute, die konfigurierbare Besprechungseinstellungen darstellen.  <br/> |Veraltet in Lync Server 2010.  <br/> |
 |msRTCSIP-Mobility  <br/> |Container zum Speichern der globalen Mobilitätseinstellungen.  <br/> |-  <br/> |
-|msRTCSIP-MonitoringServer  <br/> |Diese Klasse enthält Attribute, die Einstellungen für einen einzelnen Monitoring Server darstellen.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
+|msRTCSIP-MonitoringServer  <br/> |Diese Klasse enthält Attribute, die Einstellungen für einen einzelnen Überwachungsserver darstellen.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-PhoneRoute (veraltet)  <br/> |Diese Klasse ist ein Container und stellt eine Instanz einer Least-Cost-Route zu einem Gateway oder einem Satz mehrerer Gateways dar. Diese Informationen werden von allen Enterprise-Pools oder Standard Edition-Servern verwendet, um ausgehende Gespräche möglichst kosteneffizient an das PSTN-Netzwerk weiterzuleiten.  <br/> |Veraltet in Lync Server 2010.  <br/> |
 |msRTCSIP-PhoneRoutes (veraltet)  <br/> |Diese Klasse ist ein Container für mehrere Least-Cost-Routen und enthält selbst keine Attribute.  <br/> |Veraltet in Lync Server 2010.  <br/> |
-|msRTCSIP-Policies (veraltet)  <br/> |Diese Klasse enthält mehrere Lync Server-Richtlinienklassen und besitzt selbst keine Attribute.  <br/> |Veraltet in Lync Server 2010.  <br/> |
-|msRTCSIP-Pool  <br/> |Diese Klasse stellt einen einzelnen Skype for Business Server-Pool dar.  <br/> |-  <br/> |
-|msRTCSIP-Pools  <br/> |Diese Klasse enthält mehrere Skype for Business Server-Pools und besitzt selbst keine Attribute.  <br/> |-  <br/> |
+|msRTCSIP-Policies (veraltet)  <br/> |Diese Klasse enthält mehrere Lync Server-Richtlinienklassen und hat selbst keine Attribute.  <br/> |Veraltet in Lync Server 2010.  <br/> |
+|msRTCSIP-Pool  <br/> |Diese Klasse stellt einen einzelnen Skype for Business Server Pool dar.  <br/> |-  <br/> |
+|msRTCSIP-Pools  <br/> |Diese Klasse enthält mehrere Skype for Business Server Pools und hat selbst keine Attribute.  <br/> |-  <br/> |
 |msRTCSIP-PoolService  <br/> |Diese Klasse stellt den Dienststeuerungspunkt eines Pools dar. Das msRTCSIP-PrimaryHomeServer-Attribut von Benutzern in einem Pool zeigt auf eine Instanz dieser Klasse.  <br/> |-  <br/> |
 |msRTCSIP-Presence  <br/> |Container zum Speichern der globalen Anwesenheitseinstellungen.  <br/> |-  <br/> |
 |msRTCSIP-Registrar  <br/> |Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält Attribute, die von den SIP-Registrierungsservern verwaltete Benutzereinstellungen darstellen.  <br/> |-  <br/> |
@@ -81,7 +81,7 @@ In diesem Abschnitt werden alle von Skype for Business Server verwendeten Schema
 |msRTCSIP-TrustedProxies  <br/> |Diese Klasse enthält mehrere msRTCSIP-TrustedProxy-Klassen und weist selbst keine Attribute auf.  <br/> |Neu in Communications Server 2007.  <br/> |
 |msRTCSIP-TrustedProxy  <br/> |Diese Klasse ist ein Container und stellt einen Server dar, auf dem ein Proxyserver ausgeführt wird. Eine Instanz dieser Klasse wird erstellt, sobald ein neuer Proxyserver auf einem Computer aktiviert wird, der Mitglied von AD DS ist.  <br/> |Neu in Communications Server 2007.  <br/> |
 |msRTCSIP-TrustedServer  <br/> |Diese Klasse enthält Attribute, die Einstellungen für einen vertrauenswürdigen Server darstellen.  <br/> |-  <br/> |
-|msRTCSIP-TrustedService  <br/> |Diese Klasse ist ein Container und stellt einen vertrauenswürdigen Dienst dar, der unter Verwendung einer GRUU-Adresse (Globally Routable User Agent URI) routingfähig ist. Eine Instanz dieser Klasse wird erstellt, wenn ein neuer Server aktiviert wird, dem Skype for Business Server vertraut. Dieser vertrauenswürdige Server muss Mitglied einer Active Directory-Domäne sein.  <br/> |Neu in Communications Server 2007.  <br/> |
+|msRTCSIP-TrustedService  <br/> |Diese Klasse ist ein Container und stellt einen vertrauenswürdigen Dienst dar, der unter Verwendung einer GRUU-Adresse (Globally Routable User Agent URI) routingfähig ist. Eine Instanz dieser Klasse wird erstellt, wenn ein neuer Server aktiviert wird, der von Skype for Business Server als vertrauenswürdig eingestuft wird. Dieser vertrauenswürdige Server muss Mitglied einer Active Directory-Domäne sein.  <br/> |Neu in Communications Server 2007.  <br/> |
 |msRTCSIP-TrustedServices  <br/> |Diese Klasse ist ein Container für mehrere GRUU-Server und enthält selbst keine Attribute.  <br/> |Neu in Communications Server 2007.  <br/> |
 |msRTCSIP-TrustedWebComponentsServer  <br/> |Diese Klasse enthält Attribute, die die Einstellungen für eine vertrauenswürdige Webkomponente darstellen.  <br/> |Neu in Communications Server 2007.  <br/> |
 |msRTCSIP-TrustedWebComponentsServers  <br/> |Diese Klasse enthält mehrere Instanzen der Klasse "msRTCSIP-TrustedWebComponentServer" und weist selbst keine Attribute auf.  <br/> |Neu in Communications Server 2007.  <br/> |

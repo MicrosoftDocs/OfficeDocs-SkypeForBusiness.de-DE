@@ -16,36 +16,36 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Erstellen, Ändern oder Löschen nicht zugewiesener Nummernbereiche für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
-ms.openlocfilehash: 72c9ec5b6b1e3d4577507ede0a5ed61560928f03
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ab6573b618782434e18bebc3d47dd52fc1fbd4055f13464c7121fbafb2b08aba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331997"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in Skype for Business Server
  
 Erstellen, Ändern oder Löschen nicht zugewiesener Nummernbereiche für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
   
-Mit Skype for Business Server können Sie sagen, was mit eingehenden Anrufen an Telefonnummern geschieht, die für Ihre Organisation gültig sind, aber keinem Benutzer oder Telefon zugewiesen sind. Um solche Anrufe zu verarbeiten, richten Sie eine Tabelle nicht zugewiesener Nummern ein. Sie können die Tabelle verwenden, um die Anrufe an eine Ankündigungsanwendung oder an einen Exchange -UM-Server weiter zu routen.
+Skype for Business Server können Sie sagen, was mit eingehenden Anrufen an Telefonnummern geschieht, die für Ihre Organisation gültig sind, aber keinem Benutzer oder Telefon zugewiesen sind. Um solche Anrufe zu verarbeiten, richten Sie eine Tabelle nicht zugewiesener Nummern ein. Sie können die Tabelle verwenden, um die Anrufe an eine Ankündigungsanwendung oder an einen Exchange UM-Server weiterzuleiten.
   
-Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich danach, wie Sie diese verwenden möchten. Sie können die Tabelle mit allen gültigen Erweiterungen für Ihre Organisation konfigurieren, mit nur nicht zugewiesenen Erweiterungen oder mit einer Kombination aus beiden Nummerntypen. Die Tabelle nicht zugewiesener Nummern kann sowohl zugewiesene als auch nicht zugewiesene Nummern enthalten, wird jedoch nur aufgerufen, wenn ein Anrufer eine Nummer wählt, die derzeit nicht zugewiesen ist. Wenn Sie alle gültigen Erweiterungen in die Tabelle nicht zugewiesener Nummern hinzufügen, können Sie die Aktion angeben, die auftritt, wenn jemand Ihre Organisation verlässt, ohne die Tabelle neu konfigurieren zu müssen. Wenn Sie nicht zugewiesene Erweiterungen in die Tabelle hinzufügen, können Sie die Aktion ändern, die für bestimmte Nummern auftritt. Wenn Sie beispielsweise die Durchwahl für Ihren Kundendienstschalter ändern, können Sie die alte Kundendienstnummer in die Tabelle ein- und anschließend einer Ansage zuweisen, die die neue Nummer enthält.
+Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich danach, wie Sie diese verwenden möchten. Sie können die Tabelle mit allen gültigen Erweiterungen für Ihre Organisation, nur mit nicht zugewiesenen Erweiterungen oder mit einer Kombination aus beiden Nummerntypen konfigurieren. Die Tabelle nicht zugewiesener Nummern kann sowohl zugewiesene als auch nicht zugewiesene Nummern enthalten, wird jedoch nur aufgerufen, wenn ein Anrufer eine Nummer wählt, die derzeit nicht zugewiesen ist. Wenn Sie alle gültigen Erweiterungen in die Tabelle nicht zugewiesener Nummern einschließen, können Sie die Aktion angeben, die ausgeführt wird, wenn jemand Ihre Organisation verlässt, ohne die Tabelle neu konfigurieren zu müssen. Wenn Sie nicht zugewiesene Erweiterungen in die Tabelle aufnehmen, können Sie die Aktion ändern, die für bestimmte Zahlen ausgeführt wird. Wenn Sie beispielsweise die Erweiterung für Ihren Kundendienst ändern, können Sie die alte Kundendienstnummer in die Tabelle aufnehmen und sie dann einer Ankündigung zuweisen, die die neue Nummer bereitstellt.
   
 ## <a name="configure-unassigned-phone-numbers"></a>Konfigurieren nicht zugewiesener Telefonnummern
 
-Verwenden Sie eines der folgenden Verfahren, um Bereiche nicht zugewiesener Nummern für die Ankündigungsanwendung zu konfigurieren.
+Verwenden Sie eines der folgenden Verfahren, um bereiche nicht zugewiesener Nummern für die Ankündigungsanwendung zu konfigurieren.
   
 > [!IMPORTANT]
-> Bevor Sie die Tabelle nicht zugewiesener Nummern konfigurieren, muss ihr System bereits Ankündigungen definiert haben oder eine Exchange Unified Messaging (UM)-automatische Telefonzentrale einrichten. 
+> Bevor Sie die Tabelle nicht zugewiesener Nummern konfigurieren, muss auf Ihrem System entweder ankündigungsdefiniert oder eine Exchange automatische Um-Telefonzentrale (Unified Messaging) eingerichtet sein. 
   
 > [!TIP]
-> Wenn jemand eine nicht zugewiesene Nummer aufruft, durchsucht Skype for Business Server die Tabelle nicht zugewiesener Nummern von oben nach unten und verwendet den ersten Übereinstimmenden Bereich. Daher sollte eine Aktion, die als letztes Mittel ausgeführt werden soll, für den letzten Bereich in der Tabelle angegeben werden. 
+> Wenn jemand eine nicht zugewiesene Nummer aufruft, durchsucht Skype for Business Server die Tabelle nicht zugewiesener Nummern von oben nach unten und verwendet den ersten übereinstimmenden Bereich. Daher sollte eine Aktion, die als letzte Möglichkeit ausgeführt werden soll, für den letzten Bereich in der Tabelle angegeben werden. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>So konfigurieren Sie nicht zugewiesene Telefonnummern mithilfe der Skype for Business Server-Systemsteuerung
+### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>So verwenden Sie Skype for Business Server Systemsteuerung, um nicht zugewiesene Telefonnummern zu konfigurieren
 
-1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" am Computer an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
+1. Melden Sie sich am Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Funktionen**, und klicken Sie dann auf **Nicht zugewiesene Nummer**.
     
@@ -64,7 +64,7 @@ Verwenden Sie eines der folgenden Verfahren, um Bereiche nicht zugewiesener Numm
     
    - Wenn die erste Nummer im Bereich oder die letzte Nummer im Bereich eine Durchwahl umfassen, müssen sowohl die erste als auch die letzte Nummer im Bereich einen Durchwahl aufweisen, und die Durchwahlnummer muss für die erste und die letzte Nummer übereinstimmen.
     
-   - Die Zahl muss mit dem regulären Ausdruck `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` übereinstimmen. Dies bedeutet, dass die Zahl möglicherweise mit der Zeichenfolge beginnt (wenn Sie diese Zeichenfolge nicht angeben, wird sie automatisch für Sie hinzugefügt), ein Pluszeichen (+) und eine Ziffer 1 bis `tel:` 9. Die Telefonnummer kann bis zu 17 Zeichen umfassen, gefolgt von einer Durchwahl im Format ";ext=" plus der Durchwahlnummer.
+   - Die Zahl muss mit dem regulären Ausdruck `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` übereinstimmen. Dies bedeutet, dass die Zahl möglicherweise mit der Zeichenfolge beginnt `tel:` (wenn Sie diese Zeichenfolge nicht angeben, wird sie automatisch für Sie hinzugefügt), ein Pluszeichen (+) und eine Ziffer 1 bis 9. Die Telefonnummer kann bis zu 17 Zeichen umfassen, gefolgt von einer Durchwahl im Format ";ext=" plus der Durchwahlnummer.
     
 6. Führen Sie im Abschnitt **Ansagedienst** eine der folgenden Aktionen aus: 
     
@@ -89,11 +89,11 @@ Verwenden Sie eines der folgenden Verfahren, um Bereiche nicht zugewiesener Numm
   
 11. Wenn Sie die Bereiche nicht zugewiesener Nummern in der gewünschten Reihenfolge angeordnet haben, klicken Sie auf **Commit für alle**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>So konfigurieren Sie nicht zugewiesene Telefonnummern mithilfe der Skype for Business Server-Verwaltungsshell
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>So verwenden Sie Skype for Business Server Verwaltungsshell zum Konfigurieren nicht zugewiesener Telefonnummern
 
-1. Melden Sie sich an dem Computer an, auf dem Skype for Business Server Management Shell als Mitglied der Gruppe RTCUniversalServerAdmins installiert ist, oder mit den erforderlichen Benutzerrechten, wie unter **Delegate Setup Permissions beschrieben.**
+1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Verwenden Sie **New-CsUnassignedNumber** zum Erstellen eines neuen Bereichs nicht zugewiesener Nummern. Verwenden Sie **Set-CsUnassignedNumber** zum Ändern eines vorhandenen Bereichs nicht zugewiesener Nummern.
     
@@ -134,25 +134,25 @@ Verwenden Sie eines der folgenden Verfahren, um Bereiche nicht zugewiesener Numm
 
 ## <a name="delete-an-unnasigned-number-range"></a>Löschen eines Bereichs nicht signierter Nummern
 
-### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>So verwenden Sie die Skype for Business Server-Systemsteuerung zum Löschen eines Bereichs nicht zugewiesener Nummern
+### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>So verwenden Sie Skype for Business Server Systemsteuerung, um einen Bereich nicht zugewiesener Nummern zu löschen
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" am Computer an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
+1.  Melden Sie sich am Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter **Delegate Setup Permissions**.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Funktionen** und dann auf **Nicht zugewiesene Nummer**.
     
-4. Geben Sie **auf der Seite** Nicht zugewiesene Nummer im Suchfeld den Namen des Bereichs nicht zugewiesener Nummern ein, den Sie löschen möchten.
+4. Geben Sie auf der Seite **"Nicht zugewiesene Zahl"** im Suchfeld den Namen des bereichs nicht zugewiesener Nummern, den Sie löschen möchten, ganz oder teilweise ein.
     
-5. Klicken Sie in der resultierenden Liste der Nummernbereiche auf den Namen, klicken Sie auf **Bearbeiten,** und klicken Sie dann auf **Löschen**.
+5. Klicken Sie in der resultierenden Liste der Nummernbereiche auf den Namen, klicken Sie auf **"Bearbeiten"** und dann auf **"Löschen".**
     
-6. Klicken Sie **auf Commit für alle**.
+6. Klicken Sie auf **"Commit für alle** ausführen".
     
-### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>So verwenden Sie die Skype for Business Server-Verwaltungsshell zum Löschen eines Bereichs nicht zugewiesener Nummern
+### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>So verwenden Sie Skype for Business Server Verwaltungsshell, um einen Bereich nicht zugewiesener Nummern zu löschen
 
-1. Melden Sie sich an dem Computer an, auf dem Skype for Business Server Management Shell als Mitglied der Gruppe RTCUniversalServerAdmins installiert ist, oder mit den erforderlichen Benutzerrechten, wie unter **Delegate Setup Permissions beschrieben.**
+1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **Alle Programme,** **klicken Sie auf Skype for Business 2015,** und klicken Sie dann auf **Skype for Business Server Management Shell**.
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Geben Sie in die Befehlszeile Folgendes ein:
     
@@ -167,7 +167,7 @@ Verwenden Sie eines der folgenden Verfahren, um Bereiche nicht zugewiesener Numm
    ```
 
     > [!NOTE]
-    > Weitere Informationen zu weiteren Optionen finden Sie unter [Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
+    > Ausführliche Informationen zu weiteren Optionen finden Sie unter [Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
 ## <a name="see-also"></a>Siehe auch
 

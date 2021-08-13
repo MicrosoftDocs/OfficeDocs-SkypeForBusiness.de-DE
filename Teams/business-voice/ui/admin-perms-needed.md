@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 236b3444d78950ea4f84fb28187d6d4d3046205c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 23fdfe702d4ae776893368838332ce4747463e0bfc15938c418f076279d8bf74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299432"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Administratorberechtigungen, die erforderlich sind, um Microsoft 365 Business Voice
 
@@ -31,11 +31,11 @@ Wenn Sie zunächst einmal auf einen Link geklickt haben und nicht wollten, Busin
 
 ## <a name="how-can-i-buy-business-voice"></a>Wie kann ich Business Voice kaufen?
 
-Business Voice ist ein Add-On für Microsoft 365 und Office 365. Bevor Sie Business Voice kaufen können, müssen Sie sich für Ihr Microsoft 365 Oder Office 365. Nachdem Sie sich registrieren oder bereits über ein Microsoft 365- oder Office 365-Abonnement verfügen, können Sie Business Voice-Add-On-Lizenzen erwerben, indem Sie zum [Microsoft 365](https://admin.microsoft.com)Admin Center-Add-Ons abrechnungskaufsdienste (scrollen Sie zum Ende der  >    >    >   Seite) > **Microsoft 365 Business Voice.**
+Business Voice ist ein Add-On für Microsoft 365 und Office 365. Bevor Sie Business Voice kaufen können, müssen Sie sich für Ihr Microsoft 365 Oder Office 365. Nachdem Sie sich registrieren oder bereits über ein Microsoft 365- oder Office 365-Abonnement verfügen, können Sie Business Voice-Add-On-Lizenzen erwerben, indem Sie zum [add-ons "Microsoft 365 Admin Center](https://admin.microsoft.com)  >  **Billing**  >  **Purchase Services"**(scrollen Sie zum Ende der  >   Seite) > **Microsoft 365 Business Voice.**
 
 ## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>Warum wird keine Option zum Kauf von Business Voice angezeigt?
 
-Wenn Sie nicht auf das Microsoft 365 Admin Center zugreifen können, wenn Keine Option zum Kauf von Business Voice angezeigt wird, oder wenn Sie eine Fehlermeldung erhalten, kann dies einer der folgenden Ursachen haben:
+Wenn Sie nicht auf die Microsoft 365 Admin Center zugreifen können, wenn keine Option zum Kauf von Business Voice angezeigt wird, oder wenn Sie eine Fehlermeldung erhalten, kann dies eine der folgenden Ursachen haben:
 
 - **Unzureichende** Berechtigungen – Zum Hinzufügen von Lizenzen, einschließlich Business Voice, zu Ihrer Microsoft 365- oder Office 365-Organisation muss Ihr Konto entweder ein globaler Administrator sein oder über die Rolle des Abrechnungsadministrators verfügen. Wenden Sie sich an Microsoft 365 oder Office 365-Administrator, um Hilfe beim Erhalten der richtigen Berechtigungen oder zum Hinzufügen der Business Voice-Lizenzen für Sie zu erhalten.
 - Bei einem Konto ohne Administrator angemeldet: Wenn Sie der globale Administrator oder Rechnungsadministrator für Ihre Microsoft 365- oder **Office 365-Organisation** sind und der empfohlenen Vorgehensweise für ein "normales" Benutzerkonto folgen, das sich von Ihrem Administratorkonto getrennt ist, melden Sie sich bei Ihrem regulären Benutzerkonto ab, und melden Sie sich bei Ihrem Administratorkonto an.

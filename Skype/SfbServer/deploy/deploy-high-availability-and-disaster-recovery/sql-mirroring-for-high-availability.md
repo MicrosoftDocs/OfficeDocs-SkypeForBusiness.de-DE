@@ -11,121 +11,121 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
-description: 'Um die SQL bereitstellen zu können, müssen Die Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern ausgeführt werden: dem primären Server, dem Spiegel und dem Zeugen. Weitere Informationen finden Sie unter Kumulatives Updatepaket 9 für SQL Server 2008 Service Pack 1 .'
-ms.openlocfilehash: 38c3e749b39cd510623232e9f29ace03a1c19f6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Um SQL Spiegelung bereitstellen zu können, müssen Die Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern ausgeführt werden: dem primären Server, dem Spiegel und dem Zeugen. Ausführliche Informationen finden Sie unter kumulatives Updatepaket 9 für SQL Server 2008 Service Pack 1.'
+ms.openlocfilehash: 454222526790e4185b7416c2f7df36ea024ebf5a40fc085cdc37d56dfa646217
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319488"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Bereitstellen SQL Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015
 
 
-Um die SQL bereitstellen zu können, müssen Die Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern ausgeführt werden: dem primären Server, dem Spiegel und dem Zeugen. Weitere Informationen finden Sie unter [Kumulatives Updatepaket 9 für SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Um SQL Spiegelung bereitstellen zu können, müssen Die Server mindestens SQL Server 2008 R2 ausführen. Diese Version muss auf allen beteiligten Servern ausgeführt werden: dem primären Server, dem Spiegel und dem Zeugen. Ausführliche Informationen finden Sie unter [kumulatives Updatepaket 9 für SQL Server 2008 Service Pack 1.](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)
 
 Im Allgemeinen erfordert das Einrichten SQL Spiegelung zwischen den beiden Back-End-Servern mit einem Zeugen Folgendes:
 
-- Die Version des primären Servers muss SQL Server die SQL unterstützen.
+- Die Version des primären Servers von SQL Server muss SQL Spiegelung unterstützen.
 
-- Primär, Spiegel und Zeuge (sofern bereitgestellt) müssen die gleiche Version von SQL Server.
+- Der Primäre, Spiegel und der Zeuge (sofern bereitgestellt) müssen die gleiche Version von SQL Server aufweisen.
 
-- Der primäre und der Spiegel müssen die gleiche Edition von SQL Server. Der Zeuge hat möglicherweise eine andere Edition.
+- Die primäre und die Spiegelung müssen die gleiche Edition von SQL Server aufweisen. Der Zeuge hat möglicherweise eine andere Edition.
 
-Weitere SQL bewährte Methoden zur Unterstützung SQL für eine Zeugenrolle finden Sie unter [Database Mirroring Witness](/sql/database-engine/database-mirroring/database-mirroring-witness).
+SQL bewährten Methoden in Bezug darauf, welche SQL Versionen für eine Zeugenrolle unterstützt werden, finden Sie unter ["Datenbankspiegelungszeugen".](/sql/database-engine/database-mirroring/database-mirroring-witness)
 
-Sie verwenden den Topologie-Generator, um SQL bereitstellen. Sie wählen eine Option im Topologie-Generator aus, um die Datenbanken zu spiegeln, und der Topologie-Generator richtet die Spiegelung ein (z. B. das Einrichten eines Zeugen, wenn Sie möchten), wenn Sie die Topologie veröffentlichen. Beachten Sie, dass Sie den Zeugen gleichzeitig einrichten oder entfernen, wenn Sie den Spiegel einrichten oder entfernen. Es gibt keinen separaten Befehl zum Bereitstellen oder Entfernen nur eines Zeugen.
+Sie verwenden den Topologie-Generator, um SQL Spiegelung bereitzustellen. Sie wählen im Topologie-Generator eine Option zum Spiegeln der Datenbanken aus, und der Topologie-Generator richtet die Spiegelung ein (einschließlich der Einrichtung eines Zeugen, falls gewünscht), wenn Sie die Topologie veröffentlichen. Beachten Sie, dass Sie den Zeugen gleichzeitig einrichten oder entfernen, während Sie den Spiegel einrichten oder entfernen. Es gibt keinen separaten Befehl, um nur einen Zeugen bereitzustellen oder zu entfernen.
 
-Zum Konfigurieren der Serverspiegelung müssen Sie zuerst die SQL datenbankberechtigungen richtig einrichten. Weitere Informationen finden Sie [unter Einrichten von Anmeldekonten für datenbankspiegelung oder AlwaysOn Availability Groups (SQL Server).](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
+Um die Serverspiegelung zu konfigurieren, müssen Sie zuerst SQL Datenbankberechtigungen ordnungsgemäß einrichten. Ausführliche Informationen finden Sie unter [Einrichten von Anmeldekonten für die Datenbankspiegelung oder AlwaysOn-Verfügbarkeitsgruppen (SQL Server).](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)
 
-Bei SQL wird der Datenbankwiederherstellungsmodus immer auf **Vollständig** festgelegt, was bedeutet, dass Sie die Größe des Transaktionsprotokolls genau überwachen und Transaktionsprotokolle regelmäßig sichern müssen, um zu vermeiden, dass auf den Back-End-Servern der Speicherplatz knapp wird. Die Häufigkeit der Transaktionsprotokollsicherungen hängt von der Protokollwachstumsrate ab, die wiederum von Datenbanktransaktionen abhängt, die durch Benutzeraktivitäten im Front-End-Pool entstehen. Es wird empfohlen, zu bestimmen, wie viel Transaktionsprotokollwachstum für Ihre Bereitstellungsauslastung erwartet wird, damit Sie die Planung entsprechend planen können. Die folgenden Artikel enthalten zusätzliche Informationen zur SQL- und Protokollverwaltung:
+Bei SQL Spiegelung ist der Datenbankwiederherstellungsmodus immer auf **"Vollständig"** festgelegt. Dies bedeutet, dass Sie die Größe des Transaktionsprotokolls genau überwachen und Transaktionsprotokolle regelmäßig sichern müssen, um zu vermeiden, dass auf den Back-End-Servern kein Speicherplatz mehr zur Verfügung steht. Die Häufigkeit von Transaktionsprotokollsicherungen hängt von der Protokoll-Wachstumsrate ab, die wiederum von Datenbanktransaktionen abhängt, die durch Benutzeraktivitäten im Front-End-Pool entstehen. Es wird empfohlen, dass Sie bestimmen, wie viel Transaktionsprotokoll-Wachstum für Ihre Bereitstellungsworkload erwartet wird, damit Sie die Planung entsprechend durchführen können. Die folgenden Artikel enthalten zusätzliche Informationen zur SQL Sicherung und Protokollverwaltung:
 
 - [Datenbankwiederherstellungsmodelle](/sql/relational-databases/backup-restore/recovery-models-sql-server)
 
 - [Übersicht über die Sicherung](/sql/relational-databases/backup-restore/backup-overview-sql-server)
 
-- [Sicherungstransaktionsprotokoll](/sql/relational-databases/backup-restore/back-up-a-transaction-log-sql-server)
+- [Transaktionsprotokoll sichern](/sql/relational-databases/backup-restore/back-up-a-transaction-log-sql-server)
 
-Mit SQL können Sie entweder die Topologie für die Spiegelung konfigurieren, wenn Sie die Pools erstellen, oder nachdem die Pools bereits erstellt wurden.
-
-> [!IMPORTANT]
-> Die Verwendung des Topologie-Generators oder der Cmdlets zum Einrichten und Entfernen der SQL-Spiegelung wird nur unterstützt, wenn die primären, spiegel- und zeugenserver (falls gewünscht) zur gleichen Domäne gehören. Wenn Sie die Spiegelung SQL Servern in verschiedenen Domänen einrichten möchten, lesen Sie die SQL Server Dokumentation.
+Mit SQL Spiegelung können Sie entweder die Topologie für die Spiegelung konfigurieren, wenn Sie die Pools erstellen, oder nachdem die Pools bereits erstellt wurden.
 
 > [!IMPORTANT]
-> Wenn Sie eine Änderung an einer Back-End-Datenbankspiegelungsbeziehung ändern, müssen Sie alle Front-End-Server im Pool neu starten. > Für eine Änderung der Spiegelung (z. B. das Ändern der Position eines Spiegels) müssen Sie den Topologie-Generator verwenden, um die folgenden drei Schritte ausführen zu können:
+> Die Verwendung des Topologie-Generators oder von Cmdlets zum Einrichten und Entfernen SQL Spiegelung wird nur unterstützt, wenn die primären Server, Spiegelserver und Zeugen (falls gewünscht) zur gleichen Domäne gehören. Wenn Sie SQL Spiegelung zwischen Servern in verschiedenen Domänen einrichten möchten, lesen Sie die Dokumentation zu Ihrer SQL Server.
 
-1. Entfernen der Spiegelung vom alten Spiegelserver.
+> [!IMPORTANT]
+> Wenn Sie eine Änderung an einer Back-End-Datenbankspiegelungsbeziehung vornehmen, müssen Sie alle Front-End-Server im Pool neu starten. > Für eine Änderung der Spiegelung (z. B. ändern der Position eines Spiegels) müssen Sie den Topologie-Generator verwenden, um die folgenden drei Schritte auszuführen:
 
-2. Fügen Sie dem neuen Spiegelserver spiegelung hinzu.
+1. Entfernen Sie die Spiegelung vom alten Spiegelserver.
+
+2. Fügen Sie dem neuen Spiegelserver Spiegelung hinzu.
 
 3. Veröffentlichen Sie die Topologie.
 
 > [!NOTE]
-> Es muss eine Dateifreigabe erstellt werden, in die die Spiegeldateien geschrieben werden sollen, und der Dienst, SQL Server und SQL Agent ausgeführt werden, benötigt Lese-/Schreibzugriff. Wenn der SQL Server im Kontext von Netzwerkdienst ausgeführt wird, können Sie den Freigabeberechtigungen<SQLSERVERNAME $ des Prinzipalservers und des Spiegel \<Domain\> \\ \> SQL servers hinzufügen. $ist wichtig, um zu ermitteln, dass es sich um ein Computerkonto handelt.
+> Eine Dateifreigabe muss erstellt werden, damit die Spiegeldateien geschrieben werden können, und der Dienst, in dem SQL Server und SQL Agent ausgeführt wird, benötigt Lese-/Schreibzugriff. Wenn der SQL Server Dienst im Kontext des Netzwerkdiensts ausgeführt wird, können Sie \<Domain\> \\ den Freigabeberechtigungen<SQLSERVERNAME \> $ des Prinzipalservers und des Spiegelservers SQL hinzufügen. $ist wichtig, um zu erkennen, dass es sich um ein Computerkonto handelt.
 
-## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>So konfigurieren SQL beim Erstellen eines Pools im Topologie-Generator
+## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>So konfigurieren Sie SQL Spiegelung beim Erstellen eines Pools im Topologie-Generator
 
-1. Klicken Sie auf der **Seite SQL store** definieren auf **Neu** neben dem **SQL Store.**
+1. Klicken Sie auf der Seite **"SQL Store definieren"** neben dem **SQL Speicherfeld** auf **"Neu".**
 
-2. Geben Sie auf der Seite Neuen **SQL-Speicher** definieren den primären Speicher an, wählen Sie Diese **SQL-Instanz** befindet sich in spiegelungsbeziehung, geben Sie die SQL-Spiegelungsportnummer an (die Standardeinstellung ist 5022), und klicken Sie dann auf **OK**.
+2. Geben Sie auf der Seite **"Neuen SQL Store definieren"** den primären Speicher an, wählen Sie **Diese SQL Instanz befindet sich in der Spiegelungsbeziehung,** geben Sie die SQL Spiegelungsportnummer an (der Standardwert ist 5022), und klicken Sie dann auf **OK.**
 
-3. Wählen Sie auf der **Seite SQL Speichern definieren** die Option SQL **Store-Spiegelung aktivieren aus.**
+3. Wählen Sie wieder auf der Seite **"SQL Store definieren"** die Option **"SQL Store Spiegelung aktivieren"** aus.
 
-4. Geben Sie auf der Seite SQL neuen Speicher **definieren** den SQL an, der als Spiegelung verwendet werden soll. Select **This SQL instance is in mirroring relation,** specify the port number (the default is 5022), and then click **OK**.
+4. Geben Sie auf der Seite **"Neuen SQL Store definieren"** den SQL Speicher an, der als Spiegelung verwendet werden soll. Wählen Sie **diese SQL Instanz sich in der Spiegelungsbeziehung befindet,** geben Sie die Portnummer an (der Standardwert ist 5022), und klicken Sie dann auf **OK.**
 
 5. Wenn Sie einen Zeugen für diesen Spiegel wünschen, gehen Sie wie folgt vor:
 
-    a. Wählen **Sie Verwenden SQL Spiegelungszeugen zum Aktivieren des automatischen Failovers aus.**
+    a. Wählen Sie **"Verwenden SQL Spiegelungszeugen" aus, um das automatische Failover zu aktivieren.**
 
-    b. Wählen Sie auf der Seite **SQL** Store definieren die Option SQL Spiegelungszeuge verwenden aus, um das automatische Failover zu **aktivieren,** und geben Sie den SQL-Speicher an, der als Zeuge verwendet werden soll.
+    b. Wählen Sie auf der Seite **"SQL Store definieren"** **SQL Spiegelungszeugen verwenden** aus, um das automatische Failover zu aktivieren, und geben Sie den SQL Speicher an, der als Zeuge verwendet werden soll.
 
-    c. Geben Sie die Portnummer an (die Standardeinstellung ist 7022), und klicken Sie auf **OK**.
+    c. Geben Sie die Portnummer an (der Standardwert ist 7022), und klicken Sie auf **OK.**
 
-6. Nachdem Sie den Front-End-Pool und alle anderen Rollen in Ihrer Topologie definiert haben, verwenden Sie den Topologie-Generator, um die Topologie zu veröffentlichen. Wenn die Topologie veröffentlicht wird und der Front-End-Pool, der den zentralen Verwaltungsspeicher hostet, SQL Spiegelung aktiviert ist, wird eine Option zum Erstellen von primären und Spiegelspeicherdatenbanken SQL angezeigt.
+6. Nachdem Sie den Front-End-Pool und alle anderen Rollen in Ihrer Topologie definiert haben, verwenden Sie den Topologie-Generator, um die Topologie zu veröffentlichen. Wenn die Topologie veröffentlicht wird und der Front-End-Pool, in dem der zentrale Verwaltungsspeicher gehostet wird, SQL Spiegelung aktiviert ist, wird eine Option zum Erstellen von primären und Spiegeldatenbanken SQL Speicherdatenbanken angezeigt.
 
-    Klicken **Sie auf** Einstellungen, und geben Sie den Pfad ein, der als Dateifreigabe für die Spiegelsicherung verwendet werden soll.
+    Klicken Sie auf **Einstellungen,** und geben Sie den Pfad ein, der als Dateifreigabe für die Spiegelungssicherung verwendet werden soll.
 
-    Klicken **Sie auf OK** und dann auf **Weiter,** um die Datenbanken zu erstellen und die Topologie zu veröffentlichen. Die Spiegelung und der Zeuge (sofern angegeben) werden bereitgestellt.
+    Klicken Sie auf **"OK"** und dann auf **"Weiter",** um die Datenbanken zu erstellen und die Topologie zu veröffentlichen. Die Spiegelung und der Zeuge (sofern angegeben) werden bereitgestellt.
 
-Sie können den Topologie-Generator verwenden, um die Eigenschaften eines bereits vorhandenen Pools zu bearbeiten, um SQL zu ermöglichen.
+Sie können den Topologie-Generator verwenden, um die Eigenschaften eines bereits vorhandenen Pools zu bearbeiten, um SQL Spiegelung zu aktivieren.
 
-## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>So fügen SQL einem vorhandenen Front-End-Pool im Topologie-Generator hinzu
+## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>So fügen Sie einem vorhandenen Front-End-Pool im Topologie-Generator SQL Spiegelung hinzu
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, und klicken Sie dann **auf Eigenschaften bearbeiten.**
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **"Eigenschaften bearbeiten".**
 
-2. Wählen **Sie SQL Storespiegelung aktivieren** aus, und klicken Sie dann auf **Neu** neben **Spiegelung SQL Store**.
+2. Wählen Sie **"SQL Store Spiegelung aktivieren"** aus, und klicken Sie dann neben **"Spiegelung" auf** **"Neu"** SQL Store .
 
-3. Geben Sie den SQL an, den Sie als Spiegel verwenden möchten.
+3. Geben Sie den SQL Speicher an, den Sie als Spiegelung verwenden möchten.
 
-4. Select **This SQL instance is in mirroring relation,** specify the SQL mirroring port number the default port is 5022), and then click **OK**.
+4. Wählen Sie **diese SQL Instanz sich in der Spiegelungsbeziehung befindet,** geben Sie die SQL Spiegelungsportnummer 5022 an, und klicken Sie dann auf **OK.**
 
-5. Wenn Sie einen Zeugen konfigurieren möchten, wählen Sie Verwenden SQL Spiegelungszeugen zum Aktivieren des automatischen **Failovers** aus, und klicken Sie auf **Neu**.
+5. Wenn Sie einen Zeugen konfigurieren möchten, wählen **Sie "Verwenden SQL Spiegelungszeugen" aus, um das automatische Failover zu aktivieren,** und klicken Sie auf **"Neu".**
 
-6. Geben Sie den SQL an, den Sie als Zeugen verwenden möchten.
+6. Geben Sie den SQL Speicher an, den Sie als Zeuge verwenden möchten.
 
-7. Select **This SQL instance is in mirroring relation,** specify the SQL mirroring port number (the default port is 7022), and then click **OK**.
+7. Wählen Sie **diese SQL Instanz sich in der Spiegelungsbeziehung befindet,** geben Sie die SQL Spiegelungsportnummer an (der Standardport ist 7022), und klicken Sie dann auf **OK.**
 
 8. Klicken Sie auf **OK**.
 
-9. Veröffentlichen Sie die Topologie. Wenn Sie dies tun, werden Sie aufgefordert, die Datenbank zu installieren.
+9. Veröffentlichen Sie die Topologie. In diesem Fall werden Sie aufgefordert, die Datenbank zu installieren.
 
-    Während des Topologieveröffentlichungsprozesses werden Sie aufgefordert, einen Dateifreigabepfad zu definieren. Die SQL Server, die an der Spiegelung teilnehmen, müssen über Lese-/Schreibzugriff auf diese Dateifreigabe verfügen, damit der Spiegel eingerichtet werden kann.
+    Während des Topologieveröffentlichungsprozesses werden Sie aufgefordert, einen Dateifreigabepfad zu definieren. Die SQL Server, die an der Spiegelung teilnehmen, müssen Über Lese-/Schreibzugriff auf diese Dateifreigabe verfügen, damit der Spiegel eingerichtet werden kann.
 
-Anschließend müssen Sie die Datenbank installieren, bevor Sie mit dem nächsten Verfahren verfahren.
+Sie müssen dann die Datenbank installieren, bevor Sie mit dem nächsten Verfahren fortfahren.
 
-Beachten Sie folgendes beim Einrichten SQL Spiegelung:
+Beachten Sie beim Einrichten SQL Spiegelung Folgendes:
 
 - Wenn bereits ein Spiegelungsendpunkt vorhanden ist, wird er mit den dort definierten Ports wiederverwendet und ignoriert die in der Topologie angegebenen Ports.
 
-- Jeder Port, der bereits für andere Anwendungen auf demselben Server reserviert ist, einschließlich der für andere SQL-Instanzen, sollte nicht für die installierten SQL verwendet werden. Dies bedeutet, dass, wenn mehrere SQL auf demselben Server installiert sind, nicht derselbe Port für die Spiegelung verwendet werden darf. Weitere Informationen finden Sie in den folgenden Artikeln:
+- Jeder port already allocated for other applications on the same server, including those for other SQL instances, should not be used for the installed SQL instances at hand. Dies bedeutet, dass, wenn Sie mehrere SQL Instanz auf demselben Server installiert haben, diese nicht denselben Port für die Spiegelung verwenden dürfen. Ausführliche Informationen finden Sie in den folgenden Artikeln:
 
   - [Angeben einer Servernetzwerkadresse (Datenbankspiegelung)](/sql/database-engine/database-mirroring/specify-a-server-network-address-database-mirroring)
 
   - [Der Datenbankspiegelungsendpunkt (SQL Server)](/sql/database-engine/database-mirroring/the-database-mirroring-endpoint-sql-server)
 
-## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Verwenden von Skype for Business Server 2015-Verwaltungsshell-Cmdlets zum Einrichten SQL Spiegelung
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Verwenden Skype for Business Server 2015-Verwaltungsshell-Cmdlets zum Einrichten SQL Spiegelung
 
-Die einfachste Möglichkeit zum Einrichten der Spiegelung ist die Verwendung des Topologie-Generators, Sie können dies jedoch auch mithilfe von Cmdlets tun.
+Die einfachste Möglichkeit zum Einrichten der Spiegelung ist die Verwendung des Topologie-Generators, aber Sie können dies auch mithilfe von Cmdlets tun.
 
 1. Öffnen Sie ein Skype for Business Server 2015-Verwaltungsshellfenster, und führen Sie das folgende Cmdlet aus:
 
@@ -139,7 +139,7 @@ Die einfachste Möglichkeit zum Einrichten der Spiegelung ist die Verwendung des
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose
    ```
 
-    Sie sehen Folgendes:
+    Folgendes wird angezeigt:
 
    <pre>
    Database Name:rtcxds
@@ -219,65 +219,65 @@ Die einfachste Möglichkeit zum Einrichten der Spiegelung ist die Verwendung des
 
 2. Überprüfen Sie Folgendes:
 
-    - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im primären SQL Server e04-ocs.los_a.lsipt.local\rtc aktiviert ist.
+    - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn Windows Firewall im primären SQL Server e04-ocs.los_a.lsipt.local\rtc aktiviert ist.
 
-    - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im Spiegel SQL Server K16-ocs.los_a.lsipt.local\rtc aktiviert ist.
+    - Auf Port 5022 kann über die Firewall zugegriffen werden, wenn Windows Firewall im Spiegel SQL Server K16-ocs.los_a.lsipt.local\rtc aktiviert ist.
 
-    - Auf Port 7022 kann über die Firewall zugegriffen werden, wenn die Windows-Firewall im Zeugen SQL Server AB14-lct.los_a.lsipt.local\rtc aktiviert ist.
+    - Auf Port 7022 kann über die Firewall zugegriffen werden, wenn Windows Firewall im Zeugen SQL Server AB14-lct.los_a.lsipt.local\rtc aktiviert ist.
 
-   - Konten, auf denen die SQL Server auf allen primären und Spiegelservern ausgeführt SQL haben Lese-/Schreibberechtigung für die Dateifreigabe \\ E04-OCS\csdatabackup
+   - Konten, die die SQL Server auf allen primären und Spiegelservern ausführen, SQL Server über Lese-/Schreibberechtigungen für die Dateifreigabe \\ "E04-OCS\csdatabackup" verfügen
 
-   - Stellen Sie sicher, dass der Windows Management Instrumentation (WMI)-Anbieter auf allen diesen Servern ausgeführt wird. Das Cmdlet verwendet diesen Anbieter, um die Kontoinformationen für SQL Server, die auf allen primären, Spiegel- und Zeugenservern ausgeführt werden, zu finden.
+   - Stellen Sie sicher, dass der WMI-Anbieter (Windows Management Instrumentation) auf allen diesen Servern ausgeführt wird. Das Cmdlet verwendet diesen Anbieter, um die Kontoinformationen für SQL Server Dienste zu finden, die auf allen primären, Spiegel- und Zeugenservern ausgeführt werden.
 
-   - Stellen Sie sicher, dass das Konto, auf dem dieses Cmdlet ausgeführt wird, über die Berechtigung zum Erstellen der Ordner für die Daten und Protokolldateien für alle Spiegelserver verfügt.
+   - Stellen Sie sicher, dass das Konto, das dieses Cmdlet ausführt, über die Berechtigung zum Erstellen der Ordner für die Daten und Protokolldateien für alle Spiegelserver verfügt.
 
-   - Beachten Sie, dass das Benutzerkonto, das von SQL ausgeführt wird, über Lese-/Schreibberechtigungen für die Dateifreigabe verfügen muss. Wenn sich die Dateifreigabe auf einem anderen Server befindet und in der SQL-Instanz ein lokales Systemkonto ausgeführt wird, müssen Sie dem Server, der die SQL hostet, Dateifreigabeberechtigungen erteilen.
+   - Beachten Sie, dass das Benutzerkonto, das die SQL Instanz zum Ausführen verwendet, über Lese-/Schreibberechtigungen für die Dateifreigabe verfügen muss. Wenn sich die Dateifreigabe auf einem anderen Server befindet und die SQL Instanz ein lokales Systemkonto ausführt, müssen Sie dem Server, der die SQL Instanz hostet, Dateifreigabeberechtigungen erteilen.
 
 3. Geben Sie A ein, und drücken Sie die EINGABETASTE.
 
     Die Spiegelung wird konfiguriert.
 
-    **Install-CsMirrorDatabase** installiert den Spiegel und konfiguriert die Spiegelung für alle Datenbanken, die sich im primären SQL befinden. Wenn Sie die Spiegelung nur für bestimmte Datenbanken konfigurieren möchten, können Sie die Option -DatabaseType verwenden, oder wenn Sie die Spiegelung für alle Datenbanken mit Ausnahme weniger datenbanken konfigurieren möchten, können Sie die Option -ExcludeDatabaseList zusammen mit einer durch Kommas getrennten Liste von Datenbanknamen verwenden, die ausgeschlossen werden sollen.
+    **Install-CsMirrorDatabase** installiert die Spiegelung und konfiguriert die Spiegelung für alle Datenbanken, die im primären SQL Speicher vorhanden sind. Wenn Sie die Spiegelung nur für bestimmte Datenbanken konfigurieren möchten, können Sie die Option -DatabaseType verwenden, oder wenn Sie die Spiegelung für alle Datenbanken außer einigen wenigen datenbanken konfigurieren möchten, können Sie die Option -ExcludeDatabaseList zusammen mit einer durch Kommas getrennten Liste der auszuschließenden Datenbanknamen verwenden.
 
-    Wenn Sie beispielsweise die folgende Option zu **Install-CsMirrorDatabase** hinzufügen, werden alle Datenbanken mit Ausnahme von rtcab und rtcxds gespiegelt.
+    Wenn Sie beispielsweise die folgende Option zu **Install-CsMirrorDatabase** hinzufügen, werden alle Datenbanken außer rtcab und rtcxds gespiegelt.
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   Wenn Sie beispielsweise **install-CsMirrorDatabase** die folgende Option hinzufügen, werden nur die Rtcab-, rtcshared- und rtcxds-Datenbanken gespiegelt.
+   Wenn Sie beispielsweise die folgende Option zu **Install-CsMirrorDatabase** hinzufügen, werden nur die Rtcab-, rtcshared- und rtcxds-Datenbanken gespiegelt.
 
     `-DatabaseType User`
 
 ## <a name="removing-or-changing-sql-mirroring"></a>Entfernen oder Ändern SQL Spiegelung
 
-Um die SQL eines Pools im Topologie-Generator zu entfernen, müssen Sie zunächst ein Cmdlet verwenden, um den Spiegel in der SQL Server. Anschließend können Sie den Topologie-Generator verwenden, um den Spiegel aus der Topologie zu entfernen. Verwenden Sie das folgende Cmdlet, um die Spiegelung SQL Server entfernen:
+Um die SQL Spiegelung eines Pools im Topologie-Generator zu entfernen, müssen Sie zuerst ein Cmdlet verwenden, um die Spiegelung in SQL Server zu entfernen. Anschließend können Sie den Topologie-Generator verwenden, um den Spiegel aus der Topologie zu entfernen. Verwenden Sie das folgende Cmdlet, um die Spiegelung in SQL Server zu entfernen:
 
 ```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 ```
 
-Geben Sie beispielsweise Folgendes ein, um die Spiegelung zu entfernen und die Datenbanken für die Benutzerdatenbanken zu löschen:
+Wenn Sie beispielsweise die Spiegelung entfernen und die Datenbanken für die Benutzerdatenbanken ablegen möchten, geben Sie Folgendes ein:
 
 ```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
-Die  `-DropExistingDatabasesOnMirror` Option bewirkt, dass die betroffenen Datenbanken aus dem Spiegel gelöscht werden.
+Die  `-DropExistingDatabasesOnMirror` Option bewirkt, dass die betroffenen Datenbanken aus der Spiegelung gelöscht werden.
 
 Führen Sie anschließend die folgenden Schritte aus, um den Spiegel aus der Topologie zu entfernen:
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, und klicken Sie auf **Eigenschaften bearbeiten.**
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, und klicken Sie auf **"Eigenschaften bearbeiten".**
 
-2. Deaktivieren Sie **aktivieren SQL Store Mirroring aktivieren,** und klicken Sie auf **OK**.
+2. Deaktivieren **Sie die Option "SQL Store Spiegelung aktivieren",** und klicken Sie auf **"OK".**
 
 3. Veröffentlichen Sie die Topologie.
 
-## <a name="removing-a-mirroring-witness"></a>Entfernen eines Spiegelzeugen
+## <a name="removing-a-mirroring-witness"></a>Entfernen eines Spiegelungszeugen
 
 Verwenden Sie dieses Verfahren, wenn Sie den Zeugen aus einer Back-End-Serverspiegelungskonfiguration entfernen müssen.
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, und klicken Sie auf **Eigenschaften bearbeiten.**
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, und klicken Sie auf **"Eigenschaften bearbeiten".**
 
-2. Deaktivieren Sie **die Option SQL Server Spiegelungszeuge verwenden, um das automatische Failover zu aktivieren,** und klicken Sie auf **OK**.
+2. Deaktivieren **Sie die Option "Verwenden SQL Server Spiegelungszeugen", um das automatische Failover zu aktivieren,** und klicken Sie auf **"OK".**
 
 3. Veröffentlichen Sie die Topologie.
 
@@ -287,6 +287,6 @@ Verwenden Sie dieses Verfahren, wenn Sie den Zeugen aus einer Back-End-Serverspi
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 
-    Führen Sie diesen Schritt jedoch nicht aus, und geben Sie nicht so ein, als würde die  `Uninstall-CsMirrorDatabase` gesamte Spiegelungskonfiguration deinstalliert.
+    Folgen Sie diesem Schritt jedoch nicht, und geben Sie nicht  `Uninstall-CsMirrorDatabase` ein, dass dadurch die gesamte Spiegelungskonfiguration deinstalliert würde.
 
-4. Um nur den Zeugen aus der konfiguration SQL Server zu entfernen, befolgen Sie die Anweisungen unter Entfernen des Zeugen aus einer [Datenbankspiegelungssitzung (SQL Server).](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)
+4. Um nur den Zeugen aus der SQL Server Konfiguration zu entfernen, folgen Sie den Anweisungen unter [Entfernen des Zeugen aus einer Datenbankspiegelungssitzung (SQL Server).](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)

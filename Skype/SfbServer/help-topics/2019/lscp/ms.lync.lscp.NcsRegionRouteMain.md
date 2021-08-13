@@ -15,15 +15,15 @@ localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: b199c16d20321c67f287f62008df478fb5f5ec7a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 465a0bdd89382d4f243a5164b42de4a6bbb859bdc0b461836c804a39395e5274
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319418"
 ---
 # <a name="configure-a-network-region-route"></a>Konfigurieren einer Netzwerkregionsroute
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Konfigurieren von Netzwerkregionsrouten](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-region-routes)
+- [Konfigurieren von Netzwerkregionenrouten](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-region-routes)

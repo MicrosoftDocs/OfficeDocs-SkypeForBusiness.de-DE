@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17520645f23500550c6bc991c9d25ad2f72b2b6e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 87f1be3a538d708c62aef46dd673e7fd3ed5c1156c3e50c986fc9ec0753cad39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598424"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299244"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Microsoft Teams für Bildungseinrichtungen – Hilfe bei Situationen mit geringer Bandbreite
 

@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
-description: 'Um die Replikation der in Schritt 1: Schema vorbereiten durchgeführten Domänenvorbereitung zu überprüfen, muss ein Cmdlet aus der Lync Server-Verwaltungsshell der Skype for Business Server-Verwaltungsshell ausgeführt werden. Um das cmdlet Windows PowerShell ausführen zu können, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänen-Admins". Gehen Sie wie folgt vor:'
-ms.openlocfilehash: d002a0623d6788183a5b09f8e58262fc1c68a823
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Um die Replikation der in Schritt 1: Vorbereiten des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:'
+ms.openlocfilehash: e02708e7b995c2f83e82080be60caa1e251f6b9438a75d93c7d74f47d812db93
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319278"
 ---
 # <a name="verify-replication-in-the-domain"></a>Überprüfen der Replikation in der Domäne
  
-Um die Replikation der in Schritt **1:** Schema vorbereiten durchgeführten Domänenvorbereitung zu überprüfen, muss ein Cmdlet aus der Lync Server-Verwaltungsshell der Skype for Business Server-Verwaltungsshell ausgeführt werden. Um das cmdlet Windows PowerShell ausführen zu können, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänen-Admins". Gehen Sie wie folgt vor:
+Um die Replikation der in **Schritt 1: Vorbereiten** des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:
   
-1. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
-2. Geben Windows PowerShell Folgenden ein:
+2. Geben Sie in Windows PowerShell Folgendes ein:
     
    ```PowerShell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
@@ -41,7 +41,7 @@ Um die Replikation der in Schritt **1:** Schema vorbereiten durchgeführten Dom�
    ```
 
     > [!NOTE]
-    > Über den Parameter "GlobalSettingsDomainController" können Sie den Speicherort der globalen Einstellungen angeben. Wenn Ihre Einstellungen im Systemcontainer gespeichert werden (dies ist typisch für Upgradebereitstellungen, bei denen die globale Einstellung nicht zum Konfigurationscontainer migriert wurde), definieren Sie einen Domänencontroller im Stammverzeichnis der Active Directory Domain Services-Gesamtstruktur. Wenn sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind und verweist auf einen beliebigen Domänencontroller in Active Directory. 
+    > Über den Parameter "GlobalSettingsDomainController" können Sie den Speicherort der globalen Einstellungen angeben. Wenn Ihre Einstellungen im Systemcontainer gespeichert sind (was bei Upgradebereitstellungen typisch ist, bei denen die globale Einstellung nicht zum Konfigurationscontainer migriert wurde), definieren Sie einen Domänencontroller im Stammverzeichnis der Active Directory Domain Services-Gesamtstruktur. Wenn sich die globalen Einstellungen im Konfigurationscontainer befinden (dies ist bei neuen Bereitstellungen oder Upgradebereitstellungen typisch, bei denen die Einstellungen zum Konfigurationscontainer migriert wurden), definieren Sie einen beliebigen Domänencontroller in der Gesamtstruktur. Wenn Sie diesen Parameter nicht angeben, geht das Cmdlet davon aus, dass die Einstellungen im Konfigurationscontainer gespeichert sind und bezieht sich auf einen beliebigen Domänencontroller in Active Directory. 
   
     Wenn Sie den Parameter "Domain" nicht angeben, wird die lokale Domäne verwendet. Bei erfolgreicher Domänenvorbereitung gibt dieses Cmdlet den Wert **LC_DOMAIN_SETTINGS_STATE_READY** zurück.
     

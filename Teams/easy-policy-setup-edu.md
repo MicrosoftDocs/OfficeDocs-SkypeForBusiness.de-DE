@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden können, um Ihre Lernumgebung sicher zu halten.
 f1keywords: ''
-ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772406"
+ms.locfileid: "54344058"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Teams für Education-Richtlinien-Assistenten zum einfachen Anwenden von Richtlinien für eine sichere Lernumgebung
 

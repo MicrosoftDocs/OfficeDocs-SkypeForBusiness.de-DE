@@ -26,12 +26,12 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
-ms.translationtype: HT
+ms.openlocfilehash: 110eaed40d3e1821ef78c4494238be81be4a382dd08286607af76ba9517eb4cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344044"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 

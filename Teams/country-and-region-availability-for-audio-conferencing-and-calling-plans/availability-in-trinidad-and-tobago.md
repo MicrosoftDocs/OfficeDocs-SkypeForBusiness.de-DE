@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Trinidad und Tobago verfügbar.
-ms.openlocfilehash: 67efc7833eeeadf94130716f5eba072aa1b7b386
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dde155abd6062ec259ec878e4b0245ee1ee668df6d6d2edb7ba6545c01e35c1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299343"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Verfügbarkeit in Trinidad und Tobago
 

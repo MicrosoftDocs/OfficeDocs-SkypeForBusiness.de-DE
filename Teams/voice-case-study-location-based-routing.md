@@ -16,12 +16,12 @@ f1.keywords:
 description: 'Teams Sprachfallstudie für multinationale Unternehmen: Standortbasiertes Routing'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 974053f3e438ecaee3f9eb876eb99e2cf6e40d151be802acb31183620eabc583
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319638"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Contoso-Fallstudie: Location-Based Routing
 

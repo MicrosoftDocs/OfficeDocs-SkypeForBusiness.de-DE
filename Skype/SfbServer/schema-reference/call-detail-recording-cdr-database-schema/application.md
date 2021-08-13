@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
 description: In dieser Tabelle werden Informationen zu den verschiedenen Prozessen in Skype for Business Server 2015 gespeichert, die an Routing und Verbindungen beteiligt sind.
-ms.openlocfilehash: 4f387ca5be7f376d5056b40050ce1c49218e02c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2fc9eeeba91749495ea977db22c28c0db8b56ce08728023c57860f8b68275c72
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297062"
 ---
 # <a name="application-table-in-skype-for-business-server-2015"></a>Anwendungstabelle in Skype for Business Server 2015
  
@@ -26,7 +26,7 @@ In dieser Tabelle werden Informationen zu den verschiedenen Prozessen in Skype f
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ApplicationId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diese Anwendung identifiziert.  <br/> |
+|**Applicationid** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige Nummer, die diese Anwendung identifiziert.  <br/> |
 |**Name** <br/> |nvarchar(256)  <br/> | <br/> |Name der Serverkomponente.  <br/> |
    
 

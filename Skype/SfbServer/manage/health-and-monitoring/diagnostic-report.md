@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Zusammenfassung: Erfahren Sie mehr über den Diagnosebericht in Skype for Business Server.'
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297221"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht in Skype for Business Server
  
@@ -33,7 +33,7 @@ Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der f
     
 ## <a name="accessing-the-diagnostic-report"></a>Zugreifen auf den Diagnosebericht
 
-Auf den Diagnosebericht kann zugegriffen werden, indem Sie auf die Metrik Diagnosebericht (Detail) im Detailbericht für [Peer-zu-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md) oder auf den Konferenzdetailbericht klicken.
+Auf den Diagnosebericht kann zugegriffen werden, indem Sie auf die Metrik "Diagnosebericht (Details)" im Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md) oder im Detaillierten Konferenzbericht klicken.
   
 ## <a name="filters"></a>Filter
 
@@ -50,7 +50,7 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 |**Berichtszeit** <br/> |Nein  <br/> |Datum und Uhrzeit der Aufzeichnung des Berichts.  <br/> |
 |**Antwortcode** <br/> |Nein  <br/> |SIP-Antwortcode, der bei einem Sitzungsfehler gesendet wurde.  <br/> |
 |**Anforderungstyp** <br/> |Nein  <br/> |Typ der fehlerhaften SIP-Anforderung. Beispielsweise: INVITE, BYE oder SERVICE.  <br/> |
-|**Quelle** <br/> |Nein  <br/> |Ursache des Fehlers.  <br/> |
+|**Source** <br/> |Nein  <br/> |Ursache des Fehlers.  <br/> |
 |**Von Benutzer-URI** <br/> |Nein  <br/> |SIP-Adresse des Benutzers, der die Sitzung initiiert hat.  <br/> |
 |**Von Benutzer-Agent** <br/> |Nein  <br/> |Software, die vom Endpunkt des Benutzers, der den Anruf initiiert hat, verwendet wird.  <br/> |
 |**Diagnose-ID** <br/> |Nein  <br/> |Eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.  <br/> |
@@ -60,4 +60,4 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 |**Zeitpunkt des Beitritts für die Konferenz (ms)** <br/> |Nein  <br/> |Gesamtdauer (in Millisekunden), die der Benutzer benötigt, um an der Konferenz teilzunehmen.  <br/> |
 |**Diagnoseheader** <br/> |Nein  <br/> |Beschreibung der Diagnose-ID.  <br/> |
    
-Eine Liste der Diagnosefehler finden Sie auf der [Seite Ms-Diagnostics Header](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3).
+Eine Liste der Diagnosefehler finden Sie auf der Kopfzeile der [Ms-Diagnostics-Seite.](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)
