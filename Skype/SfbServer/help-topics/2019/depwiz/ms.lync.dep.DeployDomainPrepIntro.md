@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Auf der Seite "Domäne vorbereiten" beginnt der Prozess der Vorbereitung der Domäne für Skype for Business Server. Klicken Sie auf Weiter, um mit der Vorbereitung der Domäne zu beginnen.
-ms.openlocfilehash: 87335f45b1f87c30f41c9aca1c4e979594b6d014
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die Seite "Domäne vorbereiten" beginnt mit der Vorbereitung der Domäne für Skype for Business Server. Klicken Sie auf Weiter, um mit der Vorbereitung der Domäne zu beginnen.
+ms.openlocfilehash: 60fb91b298c38e9267e8948c8ebcfbd4e23a170e57462cbb98ec7b18a2b6b4f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330449"
 ---
 # <a name="prepare-current-domain-intro"></a>Vorbereiten der aktuellen Domäne (Einführung)
  
-Auf **der Seite "Domäne** vorbereiten" beginnt der Prozess der Vorbereitung der Domäne für Skype for Business Server. Klicken Sie auf **Weiter**, um mit der Vorbereitung der Domäne zu beginnen.
+Die Seite **"Domäne vorbereiten"** beginnt mit der Vorbereitung der Domäne für Skype for Business Server. Klicken Sie auf **Weiter**, um mit der Vorbereitung der Domäne zu beginnen.
   
 

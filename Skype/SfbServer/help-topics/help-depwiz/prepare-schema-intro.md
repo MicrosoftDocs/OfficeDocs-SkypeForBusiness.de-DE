@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-description: Um mit der Erweiterung des Schemas für Skype for Business Server 2015 zu beginnen, beginnen Sie mit der Seite "Schema vorbereiten". Klicken Sie auf Weiter, um die Schemavorbereitung fortzusetzen.
-ms.openlocfilehash: 4bb09f91bec77169a73c3392f5490eb3188287de
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Um die Aufgabe zum Erweitern des Schemas für Skype for Business Server 2015 zu starten, beginnen Sie auf der Seite "Schema vorbereiten". Klicken Sie auf Weiter, um die Schemavorbereitung fortzusetzen.
+ms.openlocfilehash: 9a61d83dfb354eae77a889717feaab2a79b5df497df85770c0a9a2d886f342c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315941"
 ---
 # <a name="prepare-schema-intro"></a>Vorbereiten des Schemas (Einführung)
  
-Um mit der Erweiterung des Schemas für Skype for Business Server 2015 zu beginnen, beginnen Sie mit der Seite **"Schema vorbereiten".** Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.
+Um die Aufgabe zum Erweitern des Schemas für Skype for Business Server 2015 zu starten, beginnen Sie auf der Seite **"Schema vorbereiten".** Klicken Sie auf **Weiter**, um die Schemavorbereitung fortzusetzen.
   
 

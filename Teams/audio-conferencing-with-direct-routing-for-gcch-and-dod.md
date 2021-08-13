@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: Der Administrator kann erfahren, wie Sie Audio conferencing (Audiokonferenz) mit Direct Routing in GCCH- und DoD-Umgebungen verwenden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 941d9b18944b0e521fdd3b8c2a830a123eb9c1d30d06aa8f9be21990f9e84f5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344374"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
@@ -71,7 +71,7 @@ Sie können das PowerShell-Cmdlet New-csHybridTelephoneNumber verwenden, um Serv
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
-Beispiel:
+Zum Beispiel:
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
@@ -84,7 +84,7 @@ Sie können der Audiokonferenzbrücke Ihrer Organisation Servicetelefonnummern z
   Register-csOnlineDialInConferencingServiceNumber -identity <Telephone number in E.164 format> -BridgeId <Identity of the audio conferencing bridge>
   ```
 
-Sie können die ID Ihrer Audiokonferenzbrücke mithilfe von Get-CsOnlineDialInConferencingBridge sehen. Beispiel:
+Sie können die ID Ihrer Audiokonferenzbrücke mithilfe von Get-CsOnlineDialInConferencingBridge sehen. Zum Beispiel:
 
   ```PowerShell
   $b= Get-CsOnlineDialInConferencingBridge

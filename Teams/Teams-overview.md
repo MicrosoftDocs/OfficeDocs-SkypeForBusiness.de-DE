@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: serdars
-description: Finden Sie den richtigen Weg, Microsoft Teams in Ihrer Organisation bereitzustellen. Hier erhalten Sie Informationen zur Microsoft Teams-Infrastruktur und zur Verwendung von Teams mit Microsoft 365 oder Office 365.
+description: Finden Sie den richtigen Weg, Microsoft Teams in Ihrer Organisation bereitzustellen. Hier erhalten Sie Informationen zur Microsoft Teams-Infrastruktur und zur Verwendung von Teams mit Microsoft 365 oder Office 365.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598394"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298105"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie bereit sind, mit Microsoft Teams loszulegen, beginnen Sie mit [Bereitstellen von Microsoft Teams](./deploy-overview.md) und [Sichere Zusammenarbeit mit Microsoft 365 und Microsoft Teams einrichten](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
@@ -39,7 +39,7 @@ Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken S
 
 ## <a name="teams-architecture"></a>Teams-Architektur
 
-Microsoft Teams basiert auf Microsoft 365-Gruppen, Microsoft Graph und den gleichen Sicherheits-, Compliance- und Verwaltungsfunktionen auf Unternehmensniveau wie alle anderen Komponenten von Microsoft 365 und Office 365. Microsoft Teams nutzt in Azure Active Directory (Azure AD) gespeicherte Identitäten. Teams funktioniert auch, wenn Sie offline sind oder unter instabilen Netzwerkbedingungen arbeiten.
+Microsoft Teams basiert auf Microsoft 365-Gruppen, Microsoft Graph und den gleichen Sicherheits-, Compliance- und Verwaltungsfunktionen auf Unternehmensniveau wie alle anderen Komponenten von Microsoft 365 und Office 365. Microsoft Teams nutzt in Azure Active Directory (Azure AD) gespeicherte Identitäten. Teams funktioniert auch, wenn Sie offline sind oder unter instabilen Netzwerkbedingungen arbeiten.
 
 Wenn Sie erfahren möchten, wie Teams sich in den Kontext von Microsoft 365 einfügt, sehen Sie sich dieses Architektur-Poster an: [Teams als Teil von Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365).
 
@@ -48,11 +48,11 @@ Wenn Sie ein Team erstellen, werden die folgenden Elemente erstellt:
 - Eine [SharePoint Online](sharepoint-onedrive-interact.md)-Website und eine SharePoint Online-Dokumentbibliothek zum Speichern von Teamdateien
 - Ein freigegebenes [Exchange Online](exchange-teams-interact.md)-Postfach und ein Exchange Online-Kalender
 - Ein OneNote-Notizbuch
-- Verbindungen mit anderen Microsoft 365- und Office 365-Apps wie beispielsweise Planner und Power BI
+- Verbindungen mit anderen Microsoft 365- und Office 365-Apps wie beispielsweise Planner und Power BI
 
 Wenn Sie ein Team aus einer vorhandenen Gruppe erstellen, werden Mitgliedschaft, Website, Postfach und Notizbuch dieser Gruppe nach Microsoft Teams übertragen. Wenn Sie mehr erfahren möchten, schauen Sie sich dieses Poster an: [Gruppen in Microsoft 365 für IT-Architekten](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
 
-Um Microsoft Teams anzupassen und zu erweitern, fügen Sie Drittanbieter-Apps mithilfe von[Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Microsoft 365 und Office 365 ist, profitieren Sie von einer robusten [Entwicklungsplattform](/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
+Um Microsoft Teams anzupassen und zu erweitern, fügen Sie Drittanbieter-Apps mithilfe von[Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu. Sie können Personen von außerhalb der Organisation in Microsoft Teams einbeziehen, indem Sie sie [als Gast zu einem Team oder Kanal hinzufügen](guest-access.md). Da Microsoft Teams Bestandteil von Microsoft 365 und Office 365 ist, profitieren Sie von einer robusten [Entwicklungsplattform](/microsoftteams/platform) und können einen Hub für Teamarbeit schaffen, der ganz den Anforderungen Ihrer Organisation entspricht. 
 
 > [!TIP]
 > Wenn Sie sich mit der Architektur von Teams befassen möchten, sehen Sie sich die Videos auf der [Akademie der Plattform für Teams](https://aka.ms/TeamsPlatformAcademy) an.
@@ -71,7 +71,7 @@ So erhalten Sie weitere Informationen:
 - [Verwalten von Teams während der Umstellung auf das neue Admin Center für Teams](manage-teams-in-modern-portal.md)
 - [Verwalten von Microsoft Teams-Features in Microsoft 365 oder Office 365](enable-features-office-365.md)
 
-Sehen Sie regelmäßig im [Nachrichtencenter](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) und in der [Microsoft Teams-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) nach, um sich über die Neuigkeiten für Microsoft Teams und alle anderen Microsoft 365- oder Office 365-Produkte und -Dienste in Ihrer Organisation auf dem Laufenden zu halten. Sie erhalten Ankündigungen zu neuen und aktualisierten Funktionen, geplanten Änderungen und Problemen, damit Sie stets informiert und vorbereitet sind. 
+Sehen Sie regelmäßig im [Nachrichtencenter](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) und in der [Microsoft Teams-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) nach, um sich über die Neuigkeiten für Microsoft Teams und alle anderen Microsoft 365- oder Office 365-Produkte und -Dienste in Ihrer Organisation auf dem Laufenden zu halten. Sie erhalten Ankündigungen zu neuen und aktualisierten Funktionen, geplanten Änderungen und Problemen, damit Sie stets informiert und vorbereitet sind. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Upgrade von Skype for Business auf Microsoft Teams
 Teams ist der primäre Client für intelligente Kommunikation in Microsoft 365 und Office 365 und ersetzt in Zukunft Skype for Business Online. Weitere Informationen zu den neuen Funktionen von Teams finden Sie in der [Microsoft 365-Roadmap](https://aka.ms/O365Roadmap). Ergänzend zu den Funktionen für beständigen Chat und Messaging bietet Teams umfassende Möglichkeiten für Besprechungen und Anrufe mit vollständig integrierten Sprach- und Videofunktionen. Lesen Sie im Microsoft Teams-Blog den Artikel [Microsoft Teams ist jetzt eine umfassende Lösung für Besprechungen und Anrufe](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042).

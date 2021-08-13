@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 212bf9e39f60cf765f3b5e54f9f42259529dd0be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 707556186987be9a80b9fe51aa369b30c08278a95694438503572d0f4b7780cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298415"
 ---
 # <a name="call-detail-recording"></a>Aufzeichnung von Kommunikationsdatensätzen
  
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
   
-- [Aktivieren der Aufzeichnung von Anrufdetails in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-cdr.md)
+- [Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Angeben der Aufbewahrung von CdR-Daten in Skype for Business Server 2015](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Angeben der Aufbewahrung von KDS-Daten in Skype for Business Server 2015](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
 

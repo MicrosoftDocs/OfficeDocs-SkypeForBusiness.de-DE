@@ -16,35 +16,35 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Erfahren Sie mehr über die Bereitstellung eines einzelnen PSTN-Standorts in Cloud Connector Edition.
-ms.openlocfilehash: 32c981b0f7de3d596dc25c3336000871db9fee65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52c10b8c5e386f72415ce5a379b68b0b469f825f5cf52be9b225f28dcf8232b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298125"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Bereitstellen eines einzelnen Standorts in Cloud Connector
  
 > [!Important]
-> Cloud Connector Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online aus dem Dienst ausscheiden. Nachdem Ihr Unternehmen ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mithilfe von Direct Routing mit Teams [verbinden.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online eingestellt. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
 
 Erfahren Sie mehr über die Bereitstellung eines einzelnen PSTN-Standorts in Cloud Connector Edition.
   
-Sie können Skype for Business Cloud Connector Edition mit oder ohne Unterstützung für hohe Verfügbarkeit (High Availability, HA) bereitstellen. Wenn Sie HA aktivieren möchten, müssen Sie zwei oder mehr Appliances an einem Standort bereitstellen. Sie können auch eine vorhandene Appliance konvertieren, um ha zu unterstützen, nachdem sie bereitgestellt wurde.
+Sie können Skype for Business Cloud Connector Edition mit oder ohne Unterstützung für hohe Verfügbarkeit (High Availability, HA) bereitstellen. Wenn Sie HA aktivieren möchten, müssen Sie zwei oder mehr Appliances an einem Standort bereitstellen. Sie können auch eine vorhandene Appliance konvertieren, um HA nach der Bereitstellung zu unterstützen.
   
-## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Bereitstellen der ersten Skype for Business Cloud Connector Edition-Appliance
+## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Bereitstellen der ersten Skype for Business Cloud Connector Edition Appliance
 
-Öffnen Sie zum Bereitstellen der ersten Appliance an einem Standort eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus, um die Appliance zu registrieren:
+Um die erste Appliance an einem Standort bereitzustellen, öffnen Sie eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus, um die Appliance zu registrieren:
   
 ```powershell
 Register-CcAppliance
 ```
 
-Befolgen Sie die Anweisungen, um den Namen und das Kennwort des Mandantenadministratorkontos zur Verfügung zu stellen. Verwenden Sie das Konto, das Sie für die Cloud Connector-Onlineverwaltung erstellt haben. Befolgen Sie außerdem die Anweisungen, um das externe Zertifikatkennwort, das Administratorkennwort für den abgesicherten Modus, das Domänenadministratorkennwort und das Kennwort für vm-Administratoren zur Verfügung zu stellen. 
+Befolgen Sie die Anweisungen, um den Namen und das Kennwort des Mandantenadministratorkontos anzugeben. Verwenden Sie das Konto, das Sie für die Cloud Connector Online-Verwaltung erstellt haben. Befolgen Sie außerdem die Anweisungen, um das Kennwort für das externe Zertifikat, das Administratorkennwort für den abgesicherten Modus, das Kennwort des Domänenadministrators und das Vm-Administratorkennwort bereitzustellen. 
   
-Befolgen Sie in Version 1.4.2 und früher auch die Anweisungen, um das externe Zertifikatkennwort, das Administratorkennwort für den sicheren Modus, das Domänenadministratorkennwort und das Administratorkennwort des virtuellen Computers zur Verfügung zu stellen. 
+Befolgen Sie in Version 1.4.2 und früheren Versionen auch die Anweisungen, um das Kennwort für das externe Zertifikat, das Administratorkennwort für den abgesicherten Modus, das Kennwort des Domänenadministrators und das Vm-Administratorkennwort bereitzustellen. 
   
-Befolgen Sie in Version 2.0 und höher auch die Anweisungen zum Angeben des externen Zertifikatkennworts, des CceService-Kennworts und des CABackupFile-Kennworts.
+Befolgen Sie in Version 2.0 und höher auch die Anweisungen zum Bereitstellen des externen Zertifikatkennworts, des CceService-Kennworts und des CABackupFile-Kennworts.
   
 Öffnen Sie zum Starten der Installation eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus:
   
@@ -54,36 +54,36 @@ Install-CcAppliance
 
 ## <a name="add-an-appliance-to-an-existing-site"></a>Hinzufügen einer Appliance zu einem vorhandenen Standort
 
-Sie können eine vorhandene Cloud Connector-Website erweitern, um HA zu unterstützen, indem Sie dem Standort zusätzliche Appliances hinzufügen. 
+Sie können einen vorhandenen Cloud Connector-Standort erweitern, um HA zu unterstützen, indem Sie dem Standort zusätzliche Appliances hinzufügen. 
   
-1. Führen Sie die Schritte zum Vorbereiten Ihrer Cloud Connector-Appliance aus, wie unter [Prepare your Cloud Connector appliance beschrieben.](prepare-your-cloud-connector-appliance.md) Beachten Sie, dass einige Schritte nur für die erste Appliance in Ihrer Bereitstellung erforderlich sind. Vergewissern Sie sich, dass das Websiteverzeichnis vorhanden ist und ordnungsgemäß für die Unterstützung von Ha konfiguriert ist.
+1. Führen Sie die Schritte aus, um Ihre Cloud Connector-Appliance wie unter ["Vorbereiten ihrer Cloud Connector-Appliance"](prepare-your-cloud-connector-appliance.md)beschrieben vorzubereiten. Beachten Sie, dass einige Schritte nur für die erste Appliance in Ihrer Bereitstellung erforderlich sind. Vergewissern Sie sich, dass das Standortverzeichnis vorhanden ist und ordnungsgemäß für ha-Unterstützung konfiguriert ist.
     
-2. Führen Sie das folgende Cmdlet nur auf dem neu hinzugefügten Hostserver aus, um Topologieinformationen in Ihrer Microsoft 365- oder Office 365-Organisationskonfiguration zu aktualisieren. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet auf jedem neu hinzugefügten Hostserver nach und nach aus:
+2. Führen Sie das folgende Cmdlet nur auf dem neu hinzugefügten Hostserver aus, um Topologieinformationen in Ihrer Microsoft 365 oder Office 365 Organisationskonfiguration zu aktualisieren. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet nacheinander auf jedem neu hinzugefügten Hostserver aus:
     
    ```powershell
    Register-CcAppliance
    ```
 
-3. Aktualisieren Sie die Topologie für vorhandene Appliances, indem Sie auf jedem Hostserver das folgende Cmdlet ausführen. Führen Sie das Cmdlet nur auf den vorhandenen Appliances aus.
+3. Aktualisieren Sie die Topologie in vorhandenen Appliances, indem Sie das folgende Cmdlet auf jedem Hostserver ausführen. Führen Sie das Cmdlet nur in den vorhandenen Appliances aus.
     
    ```powershell
    Publish-CcAppliance
    ```
 
-4. Führen Sie das folgende Cmdlet nur auf neu hinzugefügten Hostservern aus. Führen Sie dieses Cmdlet nicht auf der vorhandenen Appliance aus. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet auf jedem neu hinzugefügten Hostserver nach und nach aus.
+4. Führen Sie das folgende Cmdlet nur auf neu hinzugefügten Hostservern aus. Führen Sie dieses Cmdlet nicht in der vorhandenen Appliance aus. Wenn Sie mehrere Appliances gleichzeitig hinzufügen möchten, führen Sie das Cmdlet nacheinander auf jedem neu hinzugefügten Hostserver aus.
     
    ```powershell
    Install-CcAppliance
    ```
 
 > [!NOTE]
-> Wenn das Websiteverzeichnis auf einen lokalen Ordnerpfad festgelegt wurde, müssen Sie eine Dateifreigabe für diesen Ordner definieren und einen UNC-Pfad für das Standortverzeichnis für die neue Appliance verwenden. Sie können das erste Appliance-Standortverzeichnis mit dem lokalen Pfad be lassen oder es ändern, um den UNC-Pfad für die Freigabe in denselben Ordner zu verwenden. Wenn sich der Speicherort für das freigegebene Standortverzeichnis ändert, müssen alle zuvor installierten Appliances deinstalliert und dann erneut installiert werden. > Wichtig: Das Kennwort für das CceService-Konto und das CABackupFile-Konto muss für alle appliances identisch sein, die innerhalb des Standorts bereitgestellt werden, damit die Appliances auf die Websiteverzeichnisfreigabe und die verschlüsselte Ca-Sicherungsdatei im Standortverzeichnis zugreifen können. 
+> Wenn das Websiteverzeichnis auf einen lokalen Ordnerpfad festgelegt wurde, müssen Sie eine Dateifreigabe für diesen Ordner definieren und einen UNC-Pfad für das Websiteverzeichnis in der neuen Appliance verwenden. Sie können das Verzeichnis des ersten Appliance-Standorts mit dem lokalen Pfad belassen oder ihn so ändern, dass der UNC-Pfad für die Freigabe für denselben Ordner verwendet wird. Wenn sich der Speicherort des freigegebenen Standortverzeichnisses ändert, müssen alle zuvor installierten Appliances deinstalliert und dann neu installiert werden. > Wichtig: Das Kennwort für das CceService-Konto und das CABackupFile-Konto muss für alle Appliances, die innerhalb des Standorts bereitgestellt werden, identisch sein, damit die Appliances auf die Standortverzeichnisfreigabe und die verschlüsselte CA-Sicherungsdatei im Standortverzeichnis zugreifen können. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Entfernen einer Appliance von einem vorhandenen Standort
 
 Wenn Sie eine Appliance von einem vorhandenen Standort entfernen möchten:
   
-1. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, die Sie von der Website entfernen möchten, um die Topologieinformationen in Ihrer Microsoft 365- oder Office 365-Organisationskonfiguration zu aktualisieren.
+1. Führen Sie das folgende Cmdlet nur auf den Hostservern aus, die Sie vom Standort entfernen möchten, um die Topologieinformationen in Ihrer Microsoft 365 oder Office 365 Organisationskonfiguration zu aktualisieren.
     
    ```powershell
    Unregister-CcAppliance

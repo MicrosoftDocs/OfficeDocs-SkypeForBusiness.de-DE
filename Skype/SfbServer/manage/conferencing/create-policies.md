@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: 'Zusammenfassung: Informationen zum Erstellen von Konferenzrichtlinien in Skype for Business Server.'
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server erstellen.'
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344744"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von Konferenzrichtlinien in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server erstellen.
   
-Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung oder mithilfe der Skype for Business Server-Verwaltungsshell erstellen.
+Sie können Konferenzrichtlinien mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell erstellen.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Erstellen von Konferenzrichtlinien mithilfe der Skype for Business Server-Systemsteuerung
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Erstellen von Konferenzrichtlinien mithilfe Skype for Business Server Systemsteuerung
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
+2. Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste **auf** Konferenzen und dann auf **Konferenzrichtlinie**.
+3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen"** und dann auf **"Konferenzrichtlinie".**
     
 4. Klicken Sie auf **Neu**, und führen Sie eine der folgenden Aktionen aus:
     
@@ -40,13 +40,13 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
    - Klicken Sie auf **Standortrichtlinie**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie eine Richtlinie erstellen möchten. Klicken Sie in der Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
     
      > [!NOTE]
-     > Der Websitename wird zum Namen der Konferenzrichtlinie. sie kann nicht geändert werden. 
+     > Der Standortname wird zum Konferenzrichtliniennamen. sie kann nicht geändert werden. 
   
 5. Geben Sie in **Beschreibung** eine Beschreibung für die Richtlinie ein.
     
 6. Geben Sie unter **Organisatorrichtlinie** in **Maximaler Besprechungsumfang** die Höchstzahl an Benutzern ein, die für eine Besprechung zugelassen werden sollen. Der maximale Besprechungsumfang ist standardmäßig auf 250 festgelegt.
     
-7. Um Benutzer daran zu hindern, anonyme Benutzer zu Besprechungen einzuladen, deaktivieren Sie das Kontrollkästchen **Teilnehmern das Einladen anonymer Benutzer gestatten**. Anonyme Benutzer sind Benutzer, die nicht über Anmeldeinformationen in den Active Directory-Domänendiensten Ihrer Organisation verfügen und daher nicht authentifiziert sind. In der Standardeinstellung können Benutzer anonyme Benutzer zu Besprechungen einladen.
+7. Um Benutzer daran zu hindern, anonyme Benutzer zu Besprechungen einzuladen, deaktivieren Sie das Kontrollkästchen **Teilnehmern das Einladen anonymer Benutzer gestatten**. Anonyme Benutzer sind Benutzer, die keine Anmeldeinformationen in den Active Directory-Domänendiensten Ihrer Organisation haben und daher nicht authentifiziert sind. In der Standardeinstellung können Benutzer anonyme Benutzer zu Besprechungen einladen.
     
 8. Führen Sie im Abschnitt **Aufzeichnung** eine der folgenden Aktionen aus:
     
@@ -70,7 +70,7 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
     - Wenn Sie Benutzern die Einwahl in Besprechungen gestatten und nicht authentifizierten (anonymen) Benutzern die Teilnahme an Besprechungen über eine ausgehende Telefonverbindung erlauben möchten, aktivieren Sie das Kontrollkästchen **Ausgehende Verbindung durch anonyme Teilnehmer zulassen**. Bei ausgehenden Telefonverbindungen ruft der Konferenzserver den Benutzer an, und der Benutzer nimmt das Gespräch an, um an der Besprechung teilzunehmen. In der Standardeinstellung können anonyme Benutzer nicht über ausgehende Telefonverbindungen an Besprechungen teilnehmen.
     
-12. Wenn Sie die Verwendung von Video in **Audio/Video** zulassen möchten, aktivieren Sie **Mehrere Videostreams zulassen.**
+12. Wenn Sie die Verwendung von Videos in **Audio/Video** zugelassen haben, aktivieren Sie die Option **"Mehrere Videostreams zulassen".**
     
 13. Führen Sie im Abschnitt **Datenzusammenarbeit** eine der folgenden Aktionen aus:
     
@@ -84,7 +84,7 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
     - Deaktivieren Sie das Kontrollkästchen **Übertragen von Dateien durch Teilnehmer zulassen**, um Dateiübertragungen zu verhindern. In der Standardeinstellung können Dateien übertragen werden.
     
-    - Deaktivieren Sie das Kontrollkästchen **Anmerkungen aktivieren**, um die Verwendung von Anmerkungen zu verhindern. Wenn Sie Anmerkungen in freigegebenen PowerPoint-Präsentationen verwenden möchten, löschen Sie **die Option PowerPoint-Anmerkungen aktivieren.** In der Standardeinstellung sind Anmerkungen zulässig.
+    - Deaktivieren Sie das Kontrollkästchen **Anmerkungen aktivieren**, um die Verwendung von Anmerkungen zu verhindern. Deaktivieren Sie zum Verwenden von Anmerkungen in freigegebenen PowerPoint Präsentationen die **PowerPoint Anmerkungen aktivieren.** In der Standardeinstellung sind Anmerkungen zulässig.
     
     - Deaktivieren Sie das Kontrollkästchen **Abstimmungen aktivieren**, um die Verwendung von Abstimmungen zu verhindern. In der Standardeinstellung sind Abstimmungen zulässig.
     
@@ -116,14 +116,14 @@ Sie können Konferenzrichtlinien mithilfe der Skype for Business Server-Systemst
     
 21. Klicken Sie auf **Commit ausführen**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Erstellen von Konferenzrichtlinien mithilfe der Skype for Business Server-Verwaltungsshell
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Erstellen von Konferenzrichtlinien mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie zum Erstellen von Konferenzrichtlinien das **Cmdlet New-CsConferencingPolicy.**
+Verwenden Sie zum Erstellen von Konferenzrichtlinien das Cmdlet **"New-CsConferencingPolicy".**
   
-Im folgenden Beispiel wird eine neue Konferenzrichtlinie mit der Identity SalesConferencingPolicy erstellt. Diese Richtlinie verwendet alle Standardwerte für eine Konferenzrichtlinie mit Ausnahme einer: MaxMeetingSize. In diesem Beispiel wird die maximale Größe für eine Besprechung auf 50 anstelle des Standardwerts 250 festgelegt:
+Im folgenden Beispiel wird eine neue Konferenzrichtlinie mit der Identity SalesConferencingPolicy erstellt. Diese Richtlinie verwendet alle Standardwerte für eine Konferenzrichtlinie mit Ausnahme einer: MaxMeetingSize. In diesem Beispiel wird die maximale Größe für eine Besprechung auf 50 anstelle des Standardwerts von 250 festgelegt:
   
 ```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps).
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter [New-CsConferencingPolicy.](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)

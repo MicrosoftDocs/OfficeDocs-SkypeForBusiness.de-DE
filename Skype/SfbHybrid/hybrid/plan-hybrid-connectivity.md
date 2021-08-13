@@ -18,18 +18,18 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Planen Sie die Implementierung der Hybridkonnektivität zwischen Skype for Business Server und Teams, indem Sie Skype for Business Hybridmodus konfigurieren.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849270"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planen der Hybridkonnektivität zwischen Skype for Business Server und Teams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-In diesem Thema erfahren Sie, wie Sie die Hybridkonnektivität zwischen Skype for Business Server und Teams planen. Das Einrichten von Hybridverbindungen ist der erste Schritt beim Migrieren Ihrer lokalen Umgebung zur Cloud.
+Lesen Sie dieses Thema, um zu erfahren, wie Sie die Hybridkonnektivität zwischen Skype for Business Server und Teams planen. Das Einrichten von Hybridverbindungen ist der erste Schritt beim Migrieren Ihrer lokalen Umgebung zur Cloud.
 
 Wenn Sie über lokale Skype for Business-Benutzer verfügen, die (parallel) auch Microsoft Teams verwenden, können diese Benutzer von ihrem Teams-Client aus nicht mit Skype for Business-Benutzern interagieren oder mit Benutzern in Verbundorganisationen kommunizieren. Um diese Funktionalität in Teams freizuschalten, müssen diese Benutzer von der lokalen Skype for Business-Umgebung in die Cloud verschoben werden, und dies erfordert die Konfiguration des Skype for Business-Hybridmodus. Darüber hinaus sollten sich diese Benutzer im Modus "Nur" Teams befinden, um sicherzustellen, dass alle eingehenden Anrufe und Chats von jedem Benutzer im Teams Client des Benutzers landen.
 
@@ -40,12 +40,12 @@ In diesem Thema werden die Infrastruktur- und Systemanforderungen beschrieben, d
 Nachdem Sie dieses Thema gelesen haben und bereit zum Konfigurieren der Hybridkonnektivität sind, finden Sie weitere Informationen unter Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Teams.](configure-hybrid-connectivity.md) Die Konfigurationsthemen enthalten schrittweise Anleitungen zum Einrichten der Hybridkonnektivität zwischen Ihrer lokalen Bereitstellung und Teams.
 
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
+> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
 
 ## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>Auswirkungen der bevorstehenden Einstellung von Skype for Business Online
-Es ist wichtig zu beachten, dass sowohl vor als auch nach der Deaktivierung von Skype for Business Online Benutzer, die in Skype for Business Server lokal verwaltet werden, Teams verwenden können, aber sie können nicht TeamsOnly sein. (Standardmäßig befinden sich Benutzer im Inselmodus). Benutzer können nur dann die vorteile von Teams, insbesondere Verbund- und PSTN-Unterstützung, nutzen, sobald sie sich im TeamsOnly-Modus befinden. 
+Es ist wichtig zu beachten, dass sowohl vor als auch nach der Deaktivierung von Skype for Business Online Benutzer, die in Skype for Business Server lokal verwaltet werden, Teams verwenden können, aber sie können nicht TeamsOnly sein. (Standardmäßig befinden sich Benutzer im Inselmodus). Benutzer können nur dann die vorteile von Teams, insbesondere Verbund- und PSTN-Unterstützung, in vollem Umfang nutzen, sobald sie sich im TeamsOnly-Modus befinden. 
 
-Die bevorstehende Einstellung von Skype for Business Online hat keine Auswirkungen auf den vorhandenen Supportlebenszyklus von Skype for Business Server oder Lync Server 2013.  Die bevorstehende Einstellung von Skype for Business Online wirkt sich jedoch auf bestimmte Auswirkungen darauf aus, wie Kunden mit lokalen Skype for Business Server oder Lync Server 2013, einschließlich vorhandener Hybridorganisationen, in die Cloud wechseln. Was sich nach der Einstellung nicht ändern wird, ist, dass die Verwendung von Hybrid als Mittel für den Übergang von der lokalen Bereitstellung in die Cloud unverändert bleibt.
+Die bevorstehende Einstellung von Skype for Business Online hat keine Auswirkungen auf den vorhandenen Supportlebenszyklus von Skype for Business Server oder Lync Server 2013.  Die bevorstehende Einstellung von Skype for Business Online wirkt sich jedoch auf bestimmte Aspekte des Übergangs von Kunden mit lokalen Skype for Business Server oder Lync Server 2013, einschließlich vorhandener Hybridorganisationen, zur Cloud aus. Was sich nach der Einstellung nicht ändern wird, ist, dass die Verwendung von Hybrid als Mittel für den Übergang von der lokalen Bereitstellung in die Cloud unverändert bleibt.
 
 Derzeit und bis zur Einstellung von Skype for Business Online können Hybridorganisationen aus drei grundlegenden Benutzertypen bestehen: 
 - Lokale Benutzer (die Teams verwenden dürfen, aber nicht im Modus "Nur Teams") 
@@ -53,24 +53,24 @@ Derzeit und bis zur Einstellung von Skype for Business Online können Hybridorga
 - TeamsOnly-Benutzer.
 
 Nach der Einstellung von Skype for Business Online können Hybridorganisationen jedoch nur aus zwei grundlegenden Benutzertypen bestehen: 
-- Lokale Benutzer (Wer können Teams verwenden, aber nicht im TeamsOnly-Modus)
+- Lokale Benutzer (Wer dürfen Teams verwenden, aber nicht im TeamsOnly-Modus)
 - Teams Nur Benutzer. 
 
-Damit Organisationen von Skype for Business Server oder Lync Server 2013 zu Teams wechseln können, müssen sie weiterhin Hybridbereitstellungen mit demselben Toolset einrichten und konfigurieren, *genau wie vor der Einstellung.* Was sich geändert hat, ist, wenn ein Benutzer aus der lokalen Umgebung zu Teams verschoben wird, es ist nicht mehr erforderlich, den `-MoveToTeams` Wechsel `Move-CsUser` anzugeben, um Benutzer direkt aus der lokalen Umgebung zu TeamsOnly zu verschieben. Wenn dieser Switch nicht angegeben wurde, wurden Benutzer zuvor von Skype for Business Server lokalen Zu Skype for Business Online verwaltet, und ihr Modus bleibt unverändert. In Vorbereitung auf die Einstellung, wenn ein Benutzer aus der lokalen Umgebung in die Cloud verschoben `Move-CsUser` wird, wird benutzern jetzt automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus der lokalen Umgebung werden automatisch in Teams Besprechungen konvertiert, so als ob der `-MoveToTeams` Switch angegeben worden wäre, unabhängig davon, ob der Switch tatsächlich angegeben ist. (Dies umfasst Migrationen von Lync Server 2013, die nie den `MoveToTeams` Switch hatten.) 
+Damit Organisationen von Skype for Business Server oder Lync Server 2013 zu Teams wechseln können, müssen sie weiterhin Hybridbereitstellungen mit demselben Toolset einrichten und konfigurieren, *genau wie vor der Einstellung.* Was sich geändert hat, ist, wenn ein Benutzer von der lokalen Umgebung zu Teams verschoben wird, es ist nicht mehr erforderlich, den `-MoveToTeams` Wechsel `Move-CsUser` anzugeben, um Benutzer direkt aus der lokalen Umgebung zu TeamsOnly zu verschieben. Wenn dieser Switch nicht angegeben wurde, wurden Benutzer zuvor von Skype for Business Server lokal zu Skype for Business Online verwaltet, und ihr Modus bleibt unverändert. Zur Vorbereitung auf die Einstellung, wenn ein Benutzer aus der lokalen Umgebung in die Cloud verschoben `Move-CsUser` wird, wird benutzern jetzt automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus der lokalen Umgebung werden automatisch in Teams Besprechungen konvertiert, so als ob der `-MoveToTeams` Switch angegeben worden wäre, unabhängig davon, ob der Switch tatsächlich angegeben ist. (Dies umfasst Migrationen von Lync Server 2013, für die der Switch nie `MoveToTeams` vorhanden war.) 
 
-Wenn ein neuer Benutzer direkt in Microsoft 365 und nicht lokal erstellt wird, verfügt dieser Benutzer unabhängig vom Mandantenmodus automatisch über Teams Modus "Nur". (Dieses Verhalten wird in naher Zukunft mit der Einstellung eingeführt.) Beachten Sie, dass in einer Hybridorganisation neue Benutzer im lokalen Active Directory erstellt (und dann in Microsoft 365 synchronisiert) werden sollten, anstatt direkt einen Benutzer in Microsoft 365 zu erstellen, um sicherzustellen, dass lokale Benutzer an den neuen Benutzer weitergeleitet werden können.
+Wenn ein neuer Benutzer direkt in Microsoft 365 und nicht lokal erstellt wird, verfügt dieser Benutzer unabhängig vom Mandantenmodus automatisch über Teams Modus "Nur". (Dieses Verhalten wird in naher Zukunft mit der Einstellung eingeführt.) Denken Sie daran, dass in einer Hybridorganisation neue Benutzer im lokalen Active Directory erstellt (und dann in Microsoft 365 synchronisiert) werden sollten, anstatt direkt einen Benutzer in Microsoft 365 zu erstellen, um sicherzustellen, dass lokale Benutzer an den neuen Benutzer weitergeleitet werden können.
 
-Koexistenzmodi werden auch nach der Deaktivierung von Skype for Business Online weiterhin vorhanden sein. Wie zuvor können Benutzer mit Konten, die in Skype for Business Server lokal verwaltet werden, jedem Koexistenzmodus mit Ausnahme von TeamsOnly zugewiesen werden. Nach dem Ausmustern können online verwaltete Benutzer jedoch nur TeamsOnly sein (im Gegensatz zu der aktuellen, in der Skype for Business Online-Benutzer einen beliebigen Modus haben können).  
+Koexistenzmodi werden auch nach der Einstellung von Skype for Business Online weiterhin vorhanden sein. Wie zuvor können Benutzer mit Konten, die in Skype for Business Server lokal verwaltet werden, jedem Koexistenzmodus mit Ausnahme von TeamsOnly zugewiesen werden. Nach dem Ausmustern können online verwalteten Benutzer jedoch nur TeamsOnly sein (im Gegensatz zu der aktuellen, in der Skype for Business Online-Benutzer einen beliebigen Modus haben können).  
 
 > [!Important]
-> - Bestehende Hybridorganisationen mit Benutzern, die in Skype for Business Online verwaltet werden und NICHT TeamsOnly sind, sollten sich darauf konzentrieren, diese Benutzer so bald wie möglich auf Teams Only-Modus zu aktualisieren, jedoch nicht später als die Einstellung am 31. Juli 2021. Wenn in Ihrer Organisation weiterhin Benutzer in Skype for Business Online verwaltet werden, die nicht TeamsOnly sind, ist möglicherweise ein von Microsoft unterstütztes Upgrade geplant, um diese Benutzer auf TeamsOnly zu übertragen. Dies wirkt sich nicht auf Benutzer aus, die in Skype for Business Server lokal verwaltet werden. Planungsbenachrichtigungen werden im Voraus an Hybridkunden mit Benutzern gesendet, die in Skype for Business Online verwaltet werden, bevor diese Onlinebenutzer, die kein TeamsOnly-Benutzer sind, auf Teams aktualisiert werden.
-> - Zur Vorbereitung auf die Einstellung von Skype for Business Online ist es bald nicht mehr möglich, einem Benutzer, der online verwaltet wird, einen anderen Modus als TeamsOnly zuzuweisen.
+> - Bestehende Hybridorganisationen mit Benutzern, die in Skype for Business Online verwaltet werden und NICHT TeamsOnly sind, sollten sich darauf konzentrieren, diese Benutzer so bald wie möglich auf Teams Only-Modus zu aktualisieren, jedoch nicht später als die Einstellung am 31. Juli 2021. Wenn in Ihrer Organisation weiterhin Benutzer in Skype for Business Online verwaltet werden, die nicht TeamsOnly sind, können Sie für ein von Microsoft unterstütztes Upgrade geplant werden, um diese Benutzer auf TeamsOnly zu übertragen. Dies wirkt sich nicht auf Benutzer aus, die in Skype for Business Server lokal verwaltet werden. Planungsbenachrichtigungen werden im Voraus an Hybridkunden mit Benutzern gesendet, die in Skype for Business Online verwaltet werden, bevor diese Onlinebenutzer, die kein TeamsOnly-Benutzer sind, auf Teams aktualisiert werden.
+> - In Vorbereitung auf die Einstellung von Skype for Business Online ist es bald nicht mehr möglich, einem Benutzer, der online verwaltet wird, einen anderen Modus als TeamsOnly zuzuweisen.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>Informationen zur Funktionalität des freigegebenen SIP-Adressraums
 
 <a name="BKMK_Overview"> </a>
 
- Wenn die Hybridkonnektivität zwischen einer lokalen Bereitstellung von Skype for Business Server und Teams eingerichtet ist, können Einige Benutzer lokal verwaltet und einige Benutzer online verwaltet werden.
+ Wenn die Hybridkonnektivität zwischen einer lokalen Bereitstellung von Skype for Business Server und Teams eingerichtet ist, können einige Benutzer lokal verwaltet und einige Benutzer online verwaltet werden.
 
 Diese Art von Konfiguration basiert auf der Funktionalität des freigegebenen SIP-Adressraums und wird manchmal als "geteilte Domäne" bezeichnet, d. h. Benutzer einer Domäne, z. B. contoso.com, werden zwischen Skype for Business Server lokal und Teams aufgeteilt, wie im folgenden Diagramm dargestellt:
 
@@ -80,11 +80,11 @@ Wenn der freigegebene SIP-Adressraum konfiguriert ist:
 
 - Azure Active Directory Verbinden wird verwendet, um Ihr lokales Verzeichnis mit Microsoft 365 zu synchronisieren.
 - Lokal verwaltete Benutzer interagieren mit lokalen Skype for Business Servern.
-- Benutzer, die online verwaltet werden, können basierend auf ihrem Koexistenzmodus mit Teams interagieren und bis zum 31. Juli 2021 online Skype for Business.
+- Benutzer, die online verwaltet werden, können mit Teams interagieren und bis zum 31. Juli 2021 basierend auf ihrem Koexistenzmodus online Skype for Business.
 - Benutzer aus beiden Umgebungen können miteinander kommunizieren.
 - Das lokale Active Directory ist autoritativ. Alle Benutzer sollten zuerst im lokalen Active Directory erstellt und dann mit Azure AD synchronisiert werden. Auch wenn Sie beabsichtigen, dass der Benutzer online verwaltet wird, müssen Sie den Benutzer zuerst in der lokalen Umgebung erstellen und dann in die Onlineumgebung verschieben, um sicherzustellen, dass der Benutzer für lokale Benutzer auffindbar ist.
 
-Bevor ein Benutzer online verschoben werden kann, muss ihm eine Teams Lizenz sowie Skype for Business Online (Plan 2) zugewiesen werden. **Die Zuweisung der Skype for Business Online-Lizenz ist auch nach der Einstellung von Skype for Business Online erforderlich.** Wenn Ihre Benutzer zusätzliche Onlinefunktionen wie Audiokonferenzen oder Telefonsystem nutzen möchten, müssen Sie ihnen die entsprechende Lizenz in Microsoft 365 zuweisen.
+Bevor ein Benutzer online verschoben werden kann, muss ihm eine Teams Lizenz sowie Skype for Business Online (Plan 2) zugewiesen werden. **Die Zuweisung der Skype for Business Onlinelizenz ist auch nach der Einstellung von Skype for Business Online erforderlich.** Wenn Ihre Benutzer zusätzliche Onlinefunktionen wie Audiokonferenzen oder Telefonsystem nutzen möchten, müssen Sie ihnen die entsprechende Lizenz in Microsoft 365 zuweisen.
 
 ## <a name="hybrid-connectivity-infrastructure-requirements"></a>Infrastrukturanforderungen für Hybridkonnektivität
 
@@ -101,7 +101,7 @@ Um die Hybridkonnektivität zwischen Ihrer lokalen Umgebung und Microsoft 365 Ko
 - Azure Active Directory Verbinden, um Ihr lokales Verzeichnis mit Microsoft 365 zu synchronisieren. Weitere Informationen finden Sie unter [Azure AD Verbinden: Konten und Berechtigungen.](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)
 
 - Skype for Business Server Verwaltungstools. Diese sind erforderlich, um Benutzer aus der lokalen Umgebung in die Cloud zu verschieben. Diese Tools müssen auf einem Server mit Zugriff auf die lokale Bereitstellung und das Internet installiert werden.
-- Onlineverwaltungstools. Sie können entweder das Teams Admin Center oder Windows PowerShell verwenden, um Teams zu verwalten. Laden Sie das Teams PowerShell-Modul herunter, und installieren Sie es, um PowerShell zum Verwalten Teams zu verwenden. (Der Skype for Business Online-Connector wurde eingestellt).)
+- Onlineverwaltungstools. Sie können entweder das Teams Admin Center oder Windows PowerShell verwenden, um Teams zu verwalten. Um PowerShell zum Verwalten von Teams zu verwenden, laden Sie das Teams PowerShell-Modul herunter und installieren es. (Der Skype for Business Online-Connector wurde eingestellt).)
 - Der freigegebene SIP-Adressraum muss aktiviert sein, und Ihre lokale Bereitstellung muss so konfiguriert sein, dass Microsoft 365 als Hostinganbieter verwendet wird. Weitere Informationen zu den erforderlichen Schritten zum Konfigurieren der Hybridkonnektivität finden Sie unter Konfigurieren der [Hybridkonnektivität.](configure-hybrid-connectivity.md)
 
 Nachdem Sie die Hybridkonnektivität konfiguriert haben, können Sie Benutzer zu Teams verschieben. Weitere Informationen finden Sie unter [Verschieben von Benutzern aus der lokalen Umgebung zu Teams](move-users-from-on-premises-to-teams.md).
@@ -136,7 +136,7 @@ Microsoft unterstützt die folgenden Arten von Hybridszenarien mit mehreren Gesa
   - Die Gesamtstruktur, die Skype for Business hostet, muss der Gesamtstruktur vertrauen, die die Benutzer enthält.
     Ausführliche Informationen zu Hybridszenarien der Ressourcengesamtstruktur finden Sie unter [Bereitstellen einer Ressourcengesamtstrukturtopologie für hybride Skype for Business.](configure-a-multi-forest-environment-for-hybrid.md)
 
-- **Mehrere Bereitstellungen von Skype for Business Server in mehreren Gesamtstrukturen.** Diese Konfiguration kann aufgrund von Fusions- und Übernahmeszenarien sowie in komplexeren Unternehmen auftreten. Die Konsolidierung aller Benutzer aus der lokalen Umgebung in die Cloud in einer einzigen Microsoft 365 Organisation kann für jede Organisation mit mehreren Skype for Business Bereitstellungen erreicht werden, vorausgesetzt, die folgenden wichtigen Anforderungen sind erfüllt:
+- **Mehrere Bereitstellungen von Skype for Business Server in mehreren Gesamtstrukturen.** Diese Konfiguration kann aufgrund von Fusions- und Übernahmeszenarien sowie in komplexeren Unternehmen auftreten. Die Konsolidierung aller Benutzer aus der lokalen Umgebung in die Cloud in einer einzigen Microsoft 365 Organisation kann für jede Organisation mit mehreren Skype for Business Bereitstellungen erreicht werden, vorausgesetzt, dass die folgenden wichtigen Anforderungen erfüllt sind:
   - Es muss mindestens eine Microsoft 365 Organisation beteiligt sein. Die Konsolidierung in Szenarien mit mehr als einer Organisation wird nicht unterstützt.
   - Zu einem bestimmten Zeitpunkt kann sich nur eine lokale Skype for Business Gesamtstruktur im Hybridmodus befinden (freigegebener SIP-Adressraum). Alle anderen lokalen Skype for Business Gesamtstrukturen müssen vollständig lokal bleiben (und vermutlich miteinander verbunden sein). Beachten Sie, dass diese anderen lokalen Organisationen bei Bedarf mit AAD synchronisiert werden können, um die ab Dezember 2018 verfügbaren [Online-SIP-Domänen zu deaktivieren.](/powershell/module/skype/disable-csonlinesipdomain)
 

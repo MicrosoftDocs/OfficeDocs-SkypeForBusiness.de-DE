@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298895"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Einwählen aus einer Besprechung Skype for Business, damit andere Personen an der Besprechung teilnehmen können
 

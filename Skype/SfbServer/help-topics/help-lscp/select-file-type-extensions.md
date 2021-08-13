@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
-description: Verwenden Sie das Dialogfeld Dateityperweiterungen auswählen, um die Dateityperweiterungen auszuwählen, die Sie blockieren oder zulassen möchten, indem Sie die Kontrollkästchen neben den Erweiterungen unter Dateityperweiterungen aktivieren (blockieren) oder löschen (um dies zu erlauben). Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle Dateityperweiterungen für diese Kategorie anzeigen. Wenn Sie alle Dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen aus.
-ms.openlocfilehash: fdf495ae2f8de1a4951b5388bc2000f7a63ad76a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Im Dialogfeld Dateityperweiterungen auswählen können Sie die Dateityperweiterungen auswählen, die blockiert oder zugelassen werden sollen. Zum Blockieren aktivieren Sie das Kontrollkästchen neben den jeweiligen Erweiterungen unter Dateityperweiterungen, zum Zulassen deaktivieren Sie das Kontrollkästchen. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und sämtliche Dateityperweiterungen für diese Kategorie anzuzeigen. Wenn Sie alle Dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen.
+ms.openlocfilehash: 337016f01b3fc9aea0559572d3d21c8cbbaa76f49cae6b17faf8010a97f5265a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330049"
 ---
 # <a name="select-file-type-extensions"></a>Auswählen von Dateityperweiterungen
  
@@ -30,6 +30,6 @@ Wenn die Erweiterung des gewünschten Dateityps nicht unter **Dateityperweiterun
   
 Klicken Sie auf **OK**, wenn Sie alle gewünschten Dateityperweiterungen zur Liste **Ausgewählte Dateityperweiterungen** hinzugefügt haben.
   
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
   
 

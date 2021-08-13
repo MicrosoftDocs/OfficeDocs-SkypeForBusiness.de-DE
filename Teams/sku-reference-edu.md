@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Listet Lizenzierungspläne für Lehrpersonal und Studenten für Bildungseinrichtungen und SKU-IDs auf.
 f1keywords: ''
-ms.openlocfilehash: dc8b476e4af134199fe402c998a20dbd84d0919d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297771"
 ---
 # <a name="education-sku-reference"></a>SKU-Referenz für Bildungseinrichtungen
 
@@ -58,9 +58,9 @@ In diesem Artikel werden SKUs (Education Faculty and Student Licensing Plans) un
 |Microsoft 365 Education A3 für Schüler und Studenten      |M365EDU_A3_STUDENT         |7cfd9a2b-e110-4c39-bf20-c6a3f36a3121         |
 |Microsoft 365 Education A3 für Schüler nutzen Vorteile       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 Education A5 für Schüler und Studenten        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
-|Microsoft 365 Vorteile der Nutzung durch A5-Schüler/Studenten     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
+|Microsoft 365 A5 Vorteile der Nutzung durch Schüler und Studenten     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
 |Microsoft 365 A5 ohne Audiokonferenz für Schüler und Studenten      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
-|Microsoft 365 A5 ohne Audiokonferenz für Schüler nutzen Vorteil    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
+|Microsoft 365 A5 ohne Audiokonferenzen für Schüler nutzen Vorteile    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3 für Schüler und Studenten     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3 Vorteil für die Nutzung durch Schüler/Studierende     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Office 365 A5 Vorteil für die Nutzung durch Schüler/Studierende    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |

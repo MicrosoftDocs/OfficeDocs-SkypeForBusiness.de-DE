@@ -12,12 +12,12 @@ ms.collection:
 description: Erfahren Sie, wie Sie von Skype for Business Online Connector zum PowerShell Teams Modul wechseln, um Ihre Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513868"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299005"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Migrieren von Skype for Business OnlineConnector zum Teams PowerShell-Modul
 

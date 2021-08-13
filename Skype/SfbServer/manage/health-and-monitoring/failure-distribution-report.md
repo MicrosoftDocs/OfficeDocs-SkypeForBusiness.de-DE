@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Fehlerverteilung in Skype for Business Server.'
-ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den Fehlerverteilungsbericht in Skype for Business Server.'
+ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344724"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Bericht über Fehlerverteilung in Skype for Business Server
  
@@ -47,13 +47,13 @@ Anhand dieser Kategorien können Sie genau bestimmen, wo ein Problem aufgetreten
 
 Sie können auf den Bericht über Fehlerverteilung von einem beliebigen der folgenden Berichte zugreifen, indem Sie entweder auf die Metrik **Anzahl der erwarteten Fehler** oder **Anzahl der unerwarteten Fehler** klicken:
   
-- [Bericht über die besten Fehler in Skype for Business Server](top-failures-report.md)
+- [Bericht über häufigste Fehler in Skype for Business Server](top-failures-report.md)
     
-- [Diagnosebericht über die Konferenz in Skype for Business Server](conference-diagnostic-report.md)
+- [Diagnosebericht über Konferenzen in Skype for Business Server](conference-diagnostic-report.md)
     
-- [Diagnosebericht über Peer-zu-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
+- [Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-Im Bericht über Fehlerverteilung können Sie auf eine der folgenden Metriken klicken, um den [Fehlerlistenbericht in Skype for Business Server anzuzeigen:](failure-list-report.md)
+Im Bericht über Fehlerverteilung können Sie auf eine der folgenden Metriken klicken, um den [Fehlerlistenbericht in Skype for Business Server](failure-list-report.md)anzuzeigen:
   
 - Häufigste Diagnosegründe (Sitzungen)
     
@@ -91,8 +91,8 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Bericht über F
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Pool** <br/> |Vollqualifizierter Domänenname (FQDN) des Registrar-Pools oder Edgeservers. Sie können einen einzelnen Pool auswählen, oder auf **[Alle]** klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.<br/> |
 |**Aktivitätstyp** <br/> | Aktivitätstyp, nach dem gefiltert wird. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Peer-to-Peer <br/>  Konferenz <br/> |
 |**Sitzungskategorie** <br/> | Gibt an, ob die betreffende Aktivität erfolgreich war oder nicht. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Erfolg <br/>  Erwarteter Fehler <br/>  Unerwarteter Fehler <br/>  Ein "erwarteter Fehler" ist ein Fehler, der erwartungsgemäß auftritt. Hat beispielsweise ein Benutzer seinen Status auf "Nicht stören" gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen. Ein "unerwarteter Fehler" ist ein Fehler, der in einem ansonsten scheinbar fehlerfreien System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als "unerwartet" gekennzeichnet. <br/> |
@@ -130,9 +130,9 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |Nein  <br/> |Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf dem Registrierungsstellenpool oder Edgeserver, auf dem die Sitzung durchgeführt wurde.  <br/> |
+|**Rank** <br/> |Nein  <br/> |Relative Rangfolge der fehlgeschlagenen Sitzungen basierend auf dem Registrierungsstellenpool oder Edgeserver, auf dem die Sitzung durchgeführt wurde.  <br/> |
 |**Wichtigste Pools** <br/> |Nein  <br/> |Name des Registrierungsstellenpools oder Edgeservers.  <br/> |
-|**Sitzungen** <br/> |Nein  <br/> |Gesamtanzahl der fehlgeschlagenen Sitzungen pro Registrierungspool oder Edgeserver.  <br/> |
+|**Sitzungen** <br/> |Nein  <br/> |Gesamtzahl der fehlgeschlagenen Sitzungen pro Registrierungsstellenpool oder Edgeserver.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Metriken für die wichtigsten Quellen
 
@@ -148,13 +148,13 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
    
 ## <a name="metrics-for-top-components"></a>Metriken für die wichtigsten Komponenten
 
-In der folgenden Tabelle sind die im Bericht über Fehlerverteilung bereitgestellten Informationen aufgeführt, basierend auf den Komponenten, bei der die meisten Fehler auftingen.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Bericht über Fehlerverteilung basierend auf den Komponenten bereitgestellt werden, bei denen die meisten Fehler aufgetreten sind.
   
 **Metriken für die wichtigsten Komponenten**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |Nein  <br/> |Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf der Komponente (z. B. ExumRouting, GroupChat oder MediationServer).  <br/> |
+|**Rank** <br/> |Nein  <br/> |Relative Rangfolge der fehlgeschlagenen Sitzungen basierend auf der Komponente (z. B. ExumRouting, GroupChat oder MediationServer).  <br/> |
 |**Wichtigste Komponenten** <br/> |Nein  <br/> |Name der für die fehlgeschlagene Sitzung verwendeten Komponente.  <br/> |
 |**Sitzungen** <br/> |Nein  <br/> |Gesamtanzahl der fehlgeschlagenen Sitzungen pro Komponente.  <br/> |
    

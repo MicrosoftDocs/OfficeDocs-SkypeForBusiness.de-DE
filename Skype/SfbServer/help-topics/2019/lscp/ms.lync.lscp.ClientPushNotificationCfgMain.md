@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die Microsoft-Pushbenachrichtigungen und Apple-Pushbenachrichtigungen zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.
-ms.openlocfilehash: 693b954fffbbce56a2d95ce29128482937b6fa05
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1400fe60ba9c0accad602a968a646a0f6a8aabe06ac7418dbdaf7d8cd492dc84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316271"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Mobiler Client: Konfiguration für Pushbenachrichtigung
  
@@ -29,7 +29,7 @@ Um die **Microsoft-Pushbenachrichtigungen** und **Apple-Pushbenachrichtigungen**
 Im Hauptfenster der Konfiguration können Sie auf **Aktualisieren** klicken, um die Liste mit den Richtlinien zu aktualisieren und neu aufzufüllen. Mithilfe eines Suchfelds können Sie den Umfang der Liste mit den angezeigten Richtlinien eingrenzen. Wenn Sie den gesuchten Namen eingeben, wird die Liste mit den Richtlinien automatisch eingegrenzt.
   
 > [!IMPORTANT]
-> Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen überschreiben, die auf eine andere Richtlinienebene angewendet wurden. Die Richtlinienrangfolge ist: Eine Benutzerrichtlinie (der größte Einfluss) setzt eine Standortrichtlinie außer Kraft, und dann setzt eine Standortrichtlinie eine globale Richtlinie außer Kraft (geringster Einfluss). Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie. 
+> Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen überschreiben, die auf eine andere Richtlinienebene angewendet wurden. Richtlinienrangfolge: Benutzerrichtlinie (größter Einfluss) setzt eine Standortrichtlinie außer Kraft, und dann überschreibt eine Standortrichtlinie eine globale Richtlinie (geringster Einfluss). Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie. 
   
 Für die Erstellung und Bearbeitung von Richtlinien sind zwei Auswahlmöglichkeiten vorhanden:
   
@@ -48,7 +48,7 @@ Für die Erstellung und Bearbeitung von Richtlinien sind zwei Auswahlmöglichkei
   
 Die Erstellung einer neuen Richtlinie bzw. die Bearbeitung einer vorhandenen Richtlinie ist mit zwei Aktionen verbunden:
   
-- **Commit** Die Commitaktion erstellt oder aktualisiert die Richtlinie und speichert die Änderungen.
+- **Commit ausführen** Die Commitaktion erstellt oder aktualisiert die Richtlinie und speichert die Änderungen.
     
 - **Abbrechen** Die Abbruchaktion verwirft alle Änderungen, die seit der letzten Commitaktion vorgenommen wurden. Alle vorgenommenen Änderungen gehen verloren.
     

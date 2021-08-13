@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-description: Nach der Bereitstellung der erforderlichen Informationen für die Bereitstellung der Monitoring Server-Berichte für das Microsoft SQL Server 2008 R2 oder für Microsoft SQL Server 2012 Report Services wird auf der Seite Befehle ausführen eine Zusammenfassung der Befehle angezeigt, die zum Installieren der Berichte bei den SQL Server Reporting Services ausgegeben werden.
-ms.openlocfilehash: b861db053a8851b05ce72a08de6dfae39b9d3bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Nachdem die erforderlichen Informationen für die Bereitstellung der Monitoring Server-Berichte an die Microsoft SQL Server 2008 R2 oder an Microsoft SQL Server 2012 Report Services bereitgestellt wurden, zeigt die Seite "Befehle ausführen" eine Zusammenfassung der Befehle an, die zum Installieren der Berichte im SQL Server Reporting Services ausgegeben wurden.
+ms.openlocfilehash: b16d9e521fc0f876a0d5132948a12ab821beff7b90a22314e78b2621dd995a6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330179"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (Aufruf)
  
-Nach der Bereitstellung der erforderlichen Informationen für die Bereitstellung der Monitoring Server-Berichte für das Microsoft SQL Server 2008 R2 oder für Microsoft SQL Server 2012 Report Services wird auf der Seite Befehle ausführen eine Zusammenfassung der Befehle angezeigt, die zum Installieren der Berichte bei den SQL Server Reporting Services ausgegeben werden.
+Nachdem die erforderlichen Informationen für die Bereitstellung der Monitoring Server-Berichte an die Microsoft SQL Server 2008 R2 oder an Microsoft SQL Server 2012 Report Services bereitgestellt wurden, zeigt die Seite "Befehle ausführen" eine Zusammenfassung der Befehle an, die zum Installieren der Berichte im SQL Server Reporting Services ausgegeben wurden.
   
 Überprüfen Sie die Befehlszusammenfassung, und notieren Sie etwaige angezeigte Fehler- oder Warnmeldungen. Wenn eine Protokolldatei erstellt wurde, wählen Sie diese unter der Zusammenfassung in der Dropdownliste aus, und klicken Sie auf **Protokoll anzeigen**, um die Protokolldatei anzuzeigen.
   
 > [!IMPORTANT]
-> Damit die Reporting Services-Berichte erfolgreich bereitgestellt werden können und nach Abschluss der Bereitstellung auf die Berichte zugreifen können, müssen TCP/IP-Port 80 (und optional TCP-Port 443 für SSL, wenn Sie den Reporting Services ein Zertifikat zuweisen) in der Windows-Firewall mit erweiterter Sicherheit auf der SQL Server geöffnet sein. Weitere Informationen finden Sie unter [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access) for Microsoft SQL Server 2008 R2.
+> Damit die Reporting Services-Berichte erfolgreich bereitgestellt werden können und nach Abschluss der Bereitstellung auf die Berichte zugreifen können, müssen TCP/IP-Port 80 (und optional TCP-Port 443 für SSL, wenn Sie den Reporting Services ein Zertifikat zuweisen) in der Windows Firewall mit erweiterter Sicherheit auf dem SQL Server geöffnet sein. Ausführliche Informationen finden Sie unter [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access) for Microsoft SQL Server 2008 R2.
   
-Klicken Sie nach der Überprüfung der Zusammenfassung auf **Fertig** stellen, um die Installation der Berichte in der SQL Server abzuschließen.
+Klicken Sie nach dem Überprüfen der Zusammenfassung auf **"Fertig stellen",** um die Installation der Berichte für die SQL Server Reporting Services abzuschließen.

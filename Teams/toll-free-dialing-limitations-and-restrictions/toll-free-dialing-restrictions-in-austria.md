@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigen Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder oder Regionen zum Wählen der gebührenfreien Nummer an.
-ms.openlocfilehash: 4d79653e92c52a19c0346a6fdd68044c36208511
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a46dffe9f4bf9cd04b0240e6bfcce52c426bf6533cb5cd5e090b441ed52bf1d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110961"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297751"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>Gebührenfreie Wähleinschränkungen in Österreich
 

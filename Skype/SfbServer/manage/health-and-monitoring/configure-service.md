@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 'Zusammenfassung: Erfahren Sie mehr über den Mobilitätsdienst in Skype for Business Server.'
-ms.openlocfilehash: 83d8d6dc7a32b05a58c738deddc8c92e43bd5557
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3029877aa6f252ada9bbb38bca0148b8a96908ad5cf4deded7cf48e6451ec833
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817035"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298135"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Konfigurieren des Mobilitätsdiensts für hohe Leistung in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Mobilitätsdienst in Skype for Business Server.
   
 > [!IMPORTANT]
-> Dieses Thema gilt nur für den Skype for Business Server Mobility Service (Mcx) und nicht für unified Communications Web API (UCWA), wie in den kumulativen Updates für Lync Server 2013: Februar 2013 bereitgestellt. 
+> Dieses Thema gilt nur für den Skype for Business Server Mobility Service (Mcx) und nicht für Unified Communications Web API (UCWA), wie in den kumulativen Updates für Lync Server 2013 bereitgestellt: Februar 2013. 
   
 Wenn Sie den Mobilitätsdienst (Mcx) auf Internetinformationsdienste (IIS) 7.5 installieren, konfiguriert das Installationsprogramm für den Mobilitätsdienst einige Leistungseinstellungen auf dem Front-End-Server. Es wird empfohlen, IIS 7.5 für die Mobilität zu verwenden. Diese Einstellungen wirken sich auf die maximale Anzahl gleichzeitiger Benutzeranforderungen und die maximale Anzahl von Threads aus, die für den Mobilitätsdienst zulässig sind.
   

@@ -1,5 +1,5 @@
 ---
-title: 'Phase 7: Ausführen von Aufgaben nach der Migration'
+title: Phase 7 Abschließen von Aufgaben nach der Migration
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie ausführen müssen, nachdem Sie die Migration zu Skype for Business Server 2019 abgeschlossen haben.
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298905"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Phase 7: Aufgaben nach der Migration abschließen
 

@@ -1,5 +1,5 @@
 ---
-title: Globale Einstellung zum Bearbeiten der Netzwerkkonfiguration
+title: Bearbeiten der globalen Einstellung für die Netzwerkkonfiguration
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 1b15c4cb3b0f66594a5b4cec943ad416f5c31173
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6c4b0e54498d2c3d2b1250429bd8aff5a3a683047988ebaddc663761d829f2b9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316241"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Netzwerkkonfiguration: Bearbeiten der globalen Einstellungen
 

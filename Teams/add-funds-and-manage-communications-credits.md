@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Erfahren Sie, wie Sie für Guthaben für Kommunikationen (PSTN-Verbrauch) für Skype for Business-Dienste bezahlen, und sehen Sie sich die Pläne an, um Ihren Benutzern kontinuierlichen Zugriff auf das Telefonsystem zu ermöglichen. '
-ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344414"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen und Verwalten von Guthaben für Kommunikationen
 
@@ -77,7 +77,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
 
 - [Telefonsystem-Pläne](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Sie können die Informationen auch anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu  >  **Abrechnungsabonnements**  >  **Hinzufügen von Abonnements gehen.**
+Sie können die Informationen auch anzeigen, indem Sie sich beim Abrechnungskonto Microsoft 365 Admin Center und zu Abonnements  >    >  **hinzufügen gehen.**
   
 Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

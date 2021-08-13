@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren einer Netzwerkregionsroute Erstellen neuer oder Bearbeiten vorhandener Routen
+title: Konfigurieren einer Netzwerkregionenroute – Erstellen einer neuen oder Bearbeiten einer vorhandenen Netzwerkregionenroute
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,15 +15,15 @@ localization_priority: Normal
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: adcc6435de5392d8b752ab68e5d8a47ab8ec754e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 08570c70e1d56a2ca94aed050c00025c9bc131cbc47b2785334881fabf632352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330369"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregionsroute: Erstellen einer neuen oder Bearbeiten einer vorhandenen Netzwerkregionsroute
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
-- [Konfigurieren von Netzwerkregionsrouten](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-region-routes)
+- [Konfigurieren von Netzwerkregionenrouten](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-region-routes)
