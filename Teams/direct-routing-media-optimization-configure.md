@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Optimierung lokaler Medien für direktes Routing in Teams
+title: Direct Routing Local Media Optimization
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,16 +16,16 @@ f1.keywords:
 description: Konfigurieren der lokalen Medienoptimierung für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53296b54cd55d6444f665476de020be1ee314e807f905d561ee181e50486333
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 9b617ab6721b940756f1d2bc8c758f1eff39e38463dd01380bef9cebb48f09c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848640"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318488"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Konfigurieren der lokalen Medienoptimierung für direktes Routing
 
-Die Konfiguration für die Optimierung lokaler Medien basiert auf Netzwerkeinstellungen, die für andere Cloud-Sprachfeatures wie Location-Based Routing und dynamische Notrufe verwendet werden. Weitere Informationen zu Netzwerkregionen, Netzwerkstandorten, Netzwerksubnetzen und vertrauenswürdigen IP-Adressen finden Sie unter Netzwerkeinstellungen für [Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
+Die Konfiguration für die Optimierung lokaler Medien basiert auf Netzwerkeinstellungen, die für andere Cloud-Sprachfeatures, z. B. Location-Based Routing und dynamische Notrufe, üblich sind. Weitere Informationen zu Netzwerkregionen, Netzwerkstandorten, Netzwerksubnetzen und vertrauenswürdigen IP-Adressen finden Sie unter Netzwerkeinstellungen für [Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
 
 Informationen zum Konfigurieren der Optimierung lokaler Medien finden Sie unter [Optimierung lokaler Medien für Direktes Routing.](direct-routing-media-optimization.md)  
 
@@ -50,7 +50,7 @@ Um den Benutzer und die SBC-Websites zu konfigurieren, müssen Sie:
 3. [Definieren Sie die virtuelle Netzwerktopologie,](#define-the-virtual-network-topology) indem Sie Website(n) mit relevanten Modi und Proxy-SBC-Werten SBC(s) zuweisen.
 
 
-## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>Konfigurieren Sie SBC(s) für die Optimierung lokaler Medien gemäß der SBC-Anbieterspezifikation
+## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>Konfigurieren Von SBC(s) für die Optimierung lokaler Medien gemäß der SBC-Anbieterspezifikation
 
 In diesem Artikel wird die Konfiguration für Microsoft-Komponenten beschrieben. Informationen zur SBC-Konfiguration finden Sie in der Dokumentation zu SBC-Lieferanten.
 
@@ -85,9 +85,9 @@ Die Optimierung lokaler Medien wird von den folgenden SBC-Anbietern unterstützt
 
 ## <a name="manage-external-trusted-ip-addresses"></a>Verwalten von externen vertrauenswürdigen IP-Adressen
 
-Bei externen vertrauenswürdigen IPs handelt es sich um die externen Internet-IPs des Unternehmensnetzwerks. Bei diesen IP-Adressen handelt es sich um die IP-Adressen, die von Microsoft Teams verwendet werden, wenn sie eine Verbindung mit Microsoft 365. Sie müssen diese externen IPs für jede Website hinzufügen, auf der Benutzer die Optimierung lokaler Medien verwenden.
+Externe vertrauenswürdige IPs sind die externen Internet-IPs des Unternehmensnetzwerks. Bei diesen IP-Adressen handelt es sich um die IP-Adressen, die von Microsoft Teams verwendet werden, wenn sie eine Verbindung mit Microsoft 365. Sie müssen diese externen IPs für jede Website hinzufügen, auf der Benutzer die Optimierung lokaler Medien verwenden.
 
-Um die öffentlichen IP-Adressen für jede Website hinzuzufügen, verwenden Sie das cmdlet New-CsTenantTrustedIPAddress Cmdlet . Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
+Um die öffentlichen IP-Adressen für jede Website hinzuzufügen, verwenden Sie das cmdlet New-CsTenantTrustedIPAddress-Cmdlet . Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -105,13 +105,13 @@ New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description
 
 ## <a name="define-the-network-topology"></a>Definieren der Netzwerktopologie
 
-In diesem Abschnitt wird beschrieben, wie Sie die Netzwerkregionen, Netzwerkstandorte und Netzwerksubnetze für Ihre Netzwerktopologie definieren.
+In diesem Abschnitt wird beschrieben, wie Sie die Netzwerkbereiche, Netzwerkstandorte und Netzwerksubnetze für Ihre Netzwerktopologie definieren.
 
 Bei allen Parametern muss die Zwischenschreibung beachtet werden, daher müssen Sie sicherstellen, dass Sie die gleiche Schreibung wie beim Setup verwenden.  (Die Werte "GatewaySiteID" "Vietnam" und "vietnam" werden z. B. als unterschiedliche Websites behandelt.)
 
 ### <a name="define-network-regions"></a>Definieren von Netzwerkregionen
 
-Verwenden Sie das cmdlet "New-CsTenantNetworkRegion", um Netzwerkbereiche zu definieren. Der Parameter RegionID ist ein logischer Name, der die Geografie der Region darstellt und keine Abhängigkeiten oder Einschränkungen aufweist. Der Parameter CentralSite `<site ID>` ist optional.
+Verwenden Sie das cmdlet "New-CsTenantNetworkRegion", um Netzwerkbereiche zu definieren. Der Parameter RegionID ist ein logischer Name, der die Geografie der Region darstellt und keine Abhängigkeiten oder Einschränkungen aufweist. Der Parameter CentralSite <site ID> ist optional.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -166,7 +166,7 @@ PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -M
 
 Beachten Sie Folgendes: 
    - Wenn der Kunde über einen einzigen SBC verfügt, muss der Parameter "-ProxySBC" entweder obligatorisch $null oder ein SBC-FQDN-Wert sein (Szenario: zentraler SBC mit zentralisierten Trunks).
-   - Der -MediaBypass-Parameter muss auf "$true festgelegt werden, um die Optimierung lokaler Medien zu unterstützen.
+   - Der Parameter "-MediaBypass" muss auf "$true festgelegt werden, um die Optimierung lokaler Medien zu unterstützen.
    - Wenn für SBC der Parameter -BypassMode nicht festgelegt ist, werden X-MS-Header nicht gesendet. 
    - Bei allen Parametern muss die Zwischenschreibung beachtet werden, daher müssen Sie sicherstellen, dass Sie die gleiche Schreibung verwenden, die beim Setup verwendet wurde.  (Die Werte "GatewaySiteID" "Vietnam" und "vietnam" werden z. B. als unterschiedliche Websites behandelt.)
 
@@ -180,11 +180,11 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-Hinweis: Um bei der gleichzeitigen Konfiguration der Optimierung lokaler Medien und des Location-Based-Routings (Local Media Optimization, LBR) unterbrechungsfreie Vorgänge sicherzustellen, müssen downstream SBCs für LBR aktiviert werden, indem der Parameter GatewaySiteLbrEnabled für jeden downstream-SBC auf $true festgelegt wird. (Diese Einstellung ist für den Proxy-SBC nicht obligatorisch.)
+Hinweis: Um unterbrechungsfreie Vorgänge zu gewährleisten, wenn die Optimierung lokaler Medien und das Location-Based-Routing (Location-Based Routing, LBR) gleichzeitig konfiguriert werden, müssen downstream SBCs für LBR aktiviert werden, indem der Parameter GatewaySiteLbrEnabled für jeden downstream-SBC auf $true festgelegt wird. (Diese Einstellung ist für den Proxy-SBC nicht obligatorisch.)
 
-Gemäß den vorstehenden Informationen enthält Direct Routing drei proprietäre SIP Headers zu SIP Invites und Re-invites, wie in der folgenden Tabelle dargestellt.
+Gemäß den vorstehenden Informationen enthält Direct Routing drei proprietäre SIP-Header an SIP-Einladungen und Erneute Einladungen, wie in der folgenden Tabelle dargestellt.
 
-X-MS-Header, die in Direct Routing für Einladungen und Einladungen eingeführt Re-Invites, wenn BypassMode definiert ist:
+X-MS-Header, die in Direct-Routing für Einladungen und andere Re-Invites, wenn BypassMode definiert ist:
 
 | Headername | Werte | Kommentare | 
 |:------------|:-------|:-------|
@@ -243,7 +243,7 @@ Die folgende Tabelle zeigt die X-MS-Header, die von Direct Routing gesendet werd
 | Parameter | Erklärung |
 |:------------|:-------|
 | Einladen +8443926300@VNsbc.contoso.com | Der Ziel-FQDN des SBC gemäß Definition in der Online-Voiceroutingrichtlinie wird im Anforderungs-URI gesendet. | 
-| X-MS-UserLocation: intern | Das Feld wies darauf hin, dass sich der Benutzer im Unternehmensnetzwerk befindet. |
+| X-MS-UserLocation: intern | Das Feld gibt an, dass sich der Benutzer im Unternehmensnetzwerk befindet. |
 | X-MS-MediaPath: VNsbc.contoso.com |   Gibt an, welche SBC der Client zum Ziel-SBC durchlaufen muss. In diesem Fall, da es "Always Bypass" gibt und der Client intern der Zielname ist, der als einziger Name in der Kopfzeile gesendet wird. | 
 |X-MS-UserSite: Vietnam |   Das Feld, das auf der Website angegeben ist, auf der sich der Benutzer befindet. |
 
@@ -255,14 +255,14 @@ Die folgende Tabelle zeigt die X-MS-Header, die von Direct Routing gesendet werd
 | AlwaysBypass |    Intern | Dieselbe Website wie SBC | Eingehende |
 
 
-Bei einem eingehenden Anruf ist der Standort des Benutzers unbekannt, und der SBC muss erraten, wo sich der Benutzer befindet. Wenn der Rat nicht richtig ist, ist eine erneute Einladung erforderlich. In diesem Fall wird davon ausgegangen, dass es sich um einen internen Benutzer handelt, dass Medien direkt fließen können und keine weiteren Aktionen erforderlich sind (erneutes Einladen).
-Der mit dem Direct-Routingdienst verbundene SBC meldet den ursprungsenden SBC-Speicherort, indem Record-Route Und Kontaktfelder bereitstellen. Basierend auf diesen Feldern wird der Medienpfad mit Direct Routing berechnet.
+Bei einem eingehenden Anruf ist der Standort des Benutzers unbekannt, und der SBC muss erraten, wo sich der Benutzer befindet. Wenn der Rat nicht richtig ist, ist eine erneute Einladung erforderlich. In diesem Fall wird davon ausgegangen, dass der Benutzer intern ist, dass die Medien direkt fließen können und keine weiteren Aktionen erforderlich sind (erneutes Einladen).
+Der mit dem Direct Routing-Dienst verbundene SBC meldet den ursprungsenden SBC-Speicherort, indem Record-Route Und Kontaktfelder bereitstellen. Basierend auf diesen Feldern wird der Medienpfad mit Direct Routing berechnet.
 
 Hinweis: Da ein Benutzer mehrere Endpunkte haben kann, ist die Unterstützung von 183 nicht möglich. Für Direct-Routing wird in diesem Fall immer "180 Klingeln" verwendet. 
 
 Das folgende Diagramm zeigt die SIP-Leiter für eingehenden Anruf mit AlwaysBypass-Modus, und der Benutzer befindet sich an derselben Position wie der SBC.
 
-![Diagramm mit SIP-Leiter.](media/direct-routing-media-op-11.png)
+![Diagramm mit SIP-Leiter](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>Ausgehende Anrufe mit "Immer umgehen" für externe Benutzer
@@ -274,7 +274,7 @@ AlwaysBypass |  Extern |  Nicht zutreffend | Ausgehend |
 
 Das folgende Diagramm zeigt die SIP-Leiter für einen ausgehenden Anruf mit AlwaysBypass-Modus, und der Benutzer ist extern:
 
-![Diagramm der SIP-Leiter.](media/direct-routing-media-op-12.png)
+![Diagramm mit SIP-Leiter](media/direct-routing-media-op-12.png)
 
 Die folgende Tabelle zeigt die X-MS-Header, die vom Direct-Routingdienst gesendet werden:
 
@@ -290,11 +290,11 @@ Die folgende Tabelle zeigt die X-MS-Header, die vom Direct-Routingdienst gesende
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |  Extern |  Nicht zutreffend |   Eingehende |
 
-Bei einem eingehenden Anruf muss der mit Direct-Routing verbundene SBC eine erneute Einladung senden (standardmäßig werden immer lokale Medienkandidaten angeboten), wenn sich der Benutzer extern befindet.  Der X-MediaPath-Wert wird auf grundlage Record-Route angegebenen SBC-Benutzers berechnet.
+Für einen eingehenden Anruf muss der mit Direct-Routing verbundene SBC eine erneute Einladung senden (standardmäßig werden immer lokale Medienkandidaten angeboten), wenn sich der Benutzer extern befindet.  X-MediaPath wird auf Grundlage Record-Route angegebenen SBC-Benutzers berechnet.
 
 Das folgende Diagramm zeigt die SIP-Leiter für einen eingehenden Anruf mit AlwaysBypass-Modus, und der Benutzer ist extern.
 
-![Diagramm wieder mit SIP-Leiter.](media/direct-routing-media-op-13.png)
+![Diagramm mit SIP-Leiter](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>Nur für lokalen Benutzermodus
@@ -320,9 +320,9 @@ Die folgende Tabelle zeigt die Konfiguration und Aktion des Endbenutzers:
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |   Intern |Identisch mit SBC   | Ausgehend |
 
-Das folgende Diagramm zeigt einen ausgehenden Anruf mit dem OnlyForLocalUsers-Modus, und der Benutzer befindet sich an demselben Ort wie der SBC. Dies ist der gleiche Fluss, der unter Ausgehende Anrufe angezeigt wird, wenn sich der Benutzer am selben Ort [wie der SBC befindet.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
+Das folgende Diagramm zeigt einen ausgehenden Anruf mit dem OnlyForLocalUsers-Modus, und der Benutzer befindet sich an demselben Ort wie der SBC. Dies ist der gleiche Fluss, der unter Ausgehende Anrufe angezeigt wird, wenn sich der Benutzer am selben Speicherort [wie der SBC befindet.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagramm zeigt erneut die SIP-Leiter.](media/direct-routing-media-op-14.png)
+![Diagramm mit SIP-Leiter](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Eingehende Anrufe, und der Benutzer befindet sich an demselben Speicherort wie SBC mit Nur für lokale Benutzer
@@ -333,7 +333,7 @@ Das folgende Diagramm zeigt einen ausgehenden Anruf mit dem OnlyForLocalUsers-Mo
 
 Das folgende Diagramm zeigt einen eingehenden Anruf mit dem OnlyForLocalUsers-Modus, und der Benutzer befindet sich an derselben Position wie der SBC. Dies ist der gleiche Fluss wie in eingehenden Anrufen, wenn sich der Benutzer am selben Ort wie der [SBC befindet.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Ein weiteres Diagramm zeigt die SIP-Leiter.](media/direct-routing-media-op-15.png)
+![Diagramm mit SIP-Leiter](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>Der Benutzer befindet sich nicht am selben Speicherort wie der SBC, sondern befindet sich im Unternehmensnetzwerk mit "Nur für lokale Benutzer".
@@ -342,12 +342,12 @@ Das folgende Diagramm zeigt einen eingehenden Anruf mit dem OnlyForLocalUsers-Mo
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers  | Intern |   Anders als SBC | Ausgehend |
 
-Das direkte Routing berechnet X-MediaPath basierend auf dem gemeldeten Standort des Benutzers und des Modus, der auf der SBC konfiguriert ist.
+Mit dem direkten Routing wird X-MediaPath basierend auf dem gemeldeten Standort des Benutzers und des Modus berechnet, der auf der SBC konfiguriert ist.
 
 
 Das folgende Diagramm zeigt einen ausgehenden Anruf mit dem OnlyForLocalUsers-Modus und einem internen Benutzer, der sich nicht am selben Speicherort wie der SBC befindet.
 
-![Ein weiteres Diagramm zeigt die SIP-Leiter.](media/direct-routing-media-op-16.png)
+![Diagramm mit SIP-Leiter](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>Eingehender Anruf, und der Benutzer ist intern, befindet sich aber nicht am selben Speicherort wie SBC mit Nur für lokale Benutzer
@@ -358,7 +358,7 @@ Das folgende Diagramm zeigt einen ausgehenden Anruf mit dem OnlyForLocalUsers-Mo
 
 Das folgende Diagramm zeigt einen eingehenden Anruf mit dem OnlyForLocalUsers-Modus und einen internen Benutzer, der sich nicht am selben Speicherort wie der SBC befindet.
 
-![Ein weiteres Diagramm zeigt die SIP-Leiter.](media/direct-routing-media-op-17.png)
+![Diagramm mit SIP-Leiter](media/direct-routing-media-op-17.png)
 
 
 

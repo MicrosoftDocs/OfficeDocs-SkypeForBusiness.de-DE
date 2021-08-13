@@ -1,5 +1,5 @@
 ---
-title: Plan Call Data Connector | Überwachung der Hybridanalyse des Anrufqualitätsdashboards
+title: Planen der anrufdatenkonnektor-| Überwachung der Hybridanalyse des Anrufqualitätsdashboards
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung Skype for Business Online-Telemetrietools zur Überwachung einer lokalen Implementierung in einem Hybridszenario.
-ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318070"
 ---
 # <a name="plan-call-data-connector"></a>Planen des Anrufdatenconnectors
 
@@ -60,7 +60,7 @@ Natürlich möchten Sie möglicherweise einige Daten zur Anrufqualität lokal be
 
 Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype for Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zum Bereitstellen von Skype for Business Server und unterstützten Topologien finden Sie unter [Topologiegrundlagen.](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) Zum Konfigurieren des Anrufdatenkonnektors müssen Sie:
 
-- Hybridkonnektivität aktivieren. Wenn Sie bereits Skype for Business Server bereitgestellt haben und den Anrufdatenkonnektor aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
+- Hybridkonnektivität aktivieren. Wenn Sie bereits Skype for Business Server bereitgestellt haben und den Anrufdatenkonnektor aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und Ihrer Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
 
    Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365.](configure-hybrid-connectivity.md)
 

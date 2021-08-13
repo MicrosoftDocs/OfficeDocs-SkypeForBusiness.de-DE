@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Umfassender Leitfaden für das Migrieren von Slack auf Microsoft Teams.
-ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 63bb33e225a45710ee0c2ef2a8bc2ddd51adda32c1881b31f20829067baa0783
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319838"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrieren von Slack auf Microsoft Teams
 
@@ -69,7 +69,7 @@ Wenn Sie einen kostenpflichtigen Slack-Serviceplan haben (alles andere als koste
 Um mehr über die Exportmöglichkeiten von Slack zu erfahren, besuchen Sie die Slack-Website: https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
 > [!IMPORTANT]
-> Überprüfen Sie die Datenschutz- und Compliance-Anforderungen Ihrer Organisation um Kanaldaten. Ihre Organisation hat möglicherweise Compliance-Anforderungen in Bezug auf die Handhabung, Speicherung und Verarbeitung dieser Daten sowie die Einhaltung des Lebenszyklus von Endbenutzer identifizierbaren Inhalten (EUII).
+> Überprüfen Sie die Datenschutz- und Complianceanforderungen Ihrer Organisation um Kanaldaten. Ihre Organisation hat möglicherweise Complianceanforderungen in Bezug auf die Handhabung, Speicherung und Verarbeitung dieser Daten sowie die Einhaltung des Lebenszyklus von Endbenutzer identifizierbaren Inhalten (EUII).
 
 ### <a name="export-direct-messages"></a>Exportieren von Direktnachrichten
 Direktnachrichten sind die gleichen wie Chats in Teams, die Nicht-Kanalunterhaltungen sind, entweder 1:1 oder 1-zu-viele. Die Exportfähigkeit hängt von Ihrem Slack-Serviceplan ab und davon, ob Sie die Aufnahme von Direktnachrichten in Ihren Slack-Export angefordert haben. Teams unterstützt das Importieren von Direktnachrichten zurzeit nicht. Wenden Sie sich an einen Microsoft-Partner, um mehr über Lösungen von Drittanbietern zu erfahren, die Sie ausprobieren können, die Inhalte von Direktnachrichten in Teams integrieren.

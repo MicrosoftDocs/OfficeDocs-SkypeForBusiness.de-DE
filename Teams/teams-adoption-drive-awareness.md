@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c9dbeaecd5c1ed15dff5e5a0e2ae3823216a1a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7ea6dbf8dbf7e1f50164348095e673d086ffbcaadcf18866e9e1248ff35bfa0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348610"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
@@ -69,6 +69,6 @@ Wie bei jeder Kommunikations- und Einführungskampagne sollten Sie Ihre Erfolgsm
 
 Teilen Sie die Einblicke, die Sie aus Ihren Feedbackkanälen erhalten, mit dem Hashtag-#TeamsStories einfachen Abruf. Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern. Teilen Sie sie uns auch in unserem Forum für die Einführung von "Treibende Kraft" auf der technischen Website von Microsoft Community. Die Weitergabe dieser Beispiele aus der Praxis innerhalb Ihres eigenen Unternehmens ist äußerst hilfreich, um mit Ihrer Benutzergemeinschaft im Laufe der Zeit dauerhaften Wandel zu erreichen.
 
-[Weitere Informationen zu den Microsoft Teams Nutzungsberichten finden Sie im Microsoft 365 Admin Center.](teams-activity-reports.md)
+[Weitere Informationen zu den Microsoft Teams Nutzungsberichten in der Microsoft 365 Admin Center.](teams-activity-reports.md)
 
 ![Symbol für die nächsten Schritte ](media/teams-adoption-next-icon.png) Weiter: Planen [von Dienstinte health-Überprüfungen](teams-adoption-schedule-service-health-reviews.md)

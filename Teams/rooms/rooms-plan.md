@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Microsoft Teams-Räume, der nächsten Generation von Raumsystemen, Skype Raumsysteme erläutert.
-ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348780"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen Microsoft Teams-Räume
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574184"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319948"
 ---
 # <a name="manage-teams-with-policies"></a>Verwalten Teams mit Richtlinien
 
@@ -52,9 +52,9 @@ Darüber hinaus kann eine Besprechungsrichtlinie verwendet werden, um Audio- und
 
 ### <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
-Sie können auch den Richtlinien-Teams [für](easy-policy-setup-edu.md) Bildungseinrichtungen verwenden, um Richtlinien für Ihre Lernumgebung auf einfache Weise zu erstellen und zu verwalten.
+Sie können auch den Assistenten für [Teams für Education-Richtlinien](easy-policy-setup-edu.md) verwenden, um Richtlinien für Ihre Lernumgebung auf einfache Weise zu erstellen und zu verwalten.
 
-![Screenshot des Teams for Education-Richtlinien-Assistenten](media/easy-policy-setup-quick-setup.png)
+![Screenshot des Teams für Education-Richtlinien-Assistenten](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>Richtlinientypen
 
@@ -74,4 +74,4 @@ Richtlinientyp | Beschreibung
 * [Verwalten von Feedbackrichtlinien in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Verwalten von Teamrichtlinien in Microsoft Teams](teams-policies.md)
 * [Einrichten von Live-Ereignissen in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams education-Richtlinien und -Richtlinienpakete](policy-packages-edu.md)
+* [Teams für Education von Richtlinien und Richtlinienpaketen](policy-packages-edu.md)

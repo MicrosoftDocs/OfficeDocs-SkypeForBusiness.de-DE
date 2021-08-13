@@ -1,5 +1,5 @@
 ---
-title: Planen von Enterprise-VoIP in Skype for Business Server
+title: Planen der Enterprise-VoIP in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-description: Enterprise-VoIP Grundlegendes zur Planung in Skype for Business Server, einschließlich Websites, Regionen, Netzwerkverbindungen zwischen Standorten und Schätzen des Datenverkehrs für die Sprachnutzung.
-ms.openlocfilehash: 8f10eed8dfcfa7a8878b673ab76fd4d1fd40cc29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Enterprise-VoIP die Planung von Grundlagen in Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und Der Schätzung des VoIP-Nutzungsdatenverkehrs.
+ms.openlocfilehash: 0989fb3fad94a7bb376ee009d4a387b5148965f644c793f65eeb511260c9d620
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320018"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planen von Enterprise-VoIP in Skype for Business Server
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planen der Enterprise-VoIP in Skype for Business Server
  
-Enterprise-VoIP Grundlegendes zur Planung in Skype for Business Server, einschließlich Websites, Regionen, Netzwerkverbindungen zwischen Standorten und Schätzen des Datenverkehrs für die Sprachnutzung.
+Enterprise-VoIP die Planung von Grundlagen in Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und Der Schätzung des VoIP-Nutzungsdatenverkehrs.
   
-Der Bereitstellungsprozess für Enterprise-VoIP hängt von Ihrer vorhandenen Topologie, Infrastruktur und den Enterprise-VoIP ab, die Sie unterstützen möchten. Die erforderlichen Verfahren hängen davon ab, welche Features Sie auswählen, aber es gibt weitere Planungsüberlegungen, die Sie auf hoher Ebene berücksichtigen müssen.
+Der Bereitstellungsprozess für Enterprise-VoIP hängt von Ihrer vorhandenen Topologie, Infrastruktur und der Enterprise-VoIP Funktionalität ab, die Sie unterstützen möchten. Die erforderlichen Verfahren hängen davon ab, welche Features Sie auswählen, aber es gibt andere Planungsüberlegungen, die Sie auf hoher Ebene vornehmen müssen.
   
-Im Allgemeinen sollten Sie den Typ und die Anzahl der Standorte, die Sie bereitstellen möchten, und deren geografische Standorte, das Anrufvolumen an jedem Standort, die Netzwerkverbindungstypen, die Standorte verbinden, berücksichtigen, ob Sie Redundanz und Failover für die Sprachfunktionen für jeden Standort bereitstellen möchten und ob Sie vorhandene Nebenstellenanlagen verwenden möchten. Es gibt bestimmte Aspekte, z. B. hohe Verfügbarkeit, die Sie bei der Planung von Skype for Business Server als Ganzes berücksichtigen sollten. Diese Überlegungen werden bei Bedarf in den Themen in diesem Abschnitt behandelt.
+Berücksichtigen Sie im Allgemeinen den Typ und die Anzahl der Standorte, die Sie bereitstellen möchten, und deren geografische Standorte, das Anrufvolumen an jedem Standort, die Typen von Netzwerkverbindungen, die Standorte verbinden, ob Sie Redundanz und Failover für voIP-Funktionen für jeden Standort bereitstellen möchten und ob Sie vorhandene PBX-Geräte verwenden möchten. Es gibt bestimmte Überlegungen, z. B. hohe Verfügbarkeit, die Sie berücksichtigen sollten, wenn Sie Skype for Business Server als Ganzes planen. Diese Überlegungen werden bei Bedarf in den Themen in diesem Abschnitt behandelt.
   
 ## <a name="sites-and-regions"></a>Websites und Regionen
 
-Identifizieren Sie zunächst die Standorte in Ihrer Topologie, an denen sie Enterprise-VoIP und die Netzwerkregionen, zu denen diese Standorte gehören. Insbesondere müssen Sie überlegen, wie die PSTN-Anbindung (Public Switched Telephone Network) für jeden Standort implementiert wird. Die Zuweisung von Standorten zu Regionen kann aus verwaltungstechnischer und logistischer Sicht ein entscheidender Faktor sein. Entscheiden Sie, wo Gateways lokal bereitgestellt werden, wo Survivable Branch Appliances (SBAs) bereitgestellt werden sollen und wo Sie SIP-Trunks (lokal oder am zentralen Standort) für einen Anbieter von Internettelefoniediensten (Internet Telephony Service Provider, ITSP) konfigurieren können.
+Identifizieren Sie zunächst die Standorte in Ihrer Topologie, an denen Sie Enterprise-VoIP bereitstellen werden, und die Netzwerkregionen, zu denen diese Standorte gehören. Insbesondere müssen Sie überlegen, wie die PSTN-Anbindung (Public Switched Telephone Network) für jeden Standort implementiert wird. Die Zuweisung von Standorten zu Regionen kann aus verwaltungstechnischer und logistischer Sicht ein entscheidender Faktor sein. Entscheiden Sie, wo Gateways lokal bereitgestellt werden, wo Survivable Branch Appliances (SBAs) bereitgestellt werden und wo Sie SIP-Trunks (lokal oder am zentralen Standort) für einen Anbieter von Internettelefoniediensten (Internet Telephony Service Provider, ITSP) konfigurieren können.
   
 ## <a name="network-links-between-sites"></a>Netzwerkverbindungen zwischen Standorten
 
-Sie müssen auch die Bandbreitenauslastung berücksichtigen, die Sie für die Netzwerkverbindungen zwischen dem zentralen Standort und den Zweigstellenstandorten erwarten. Wenn Sie über ausfallsichere WAN-Verbindungen zwischen Standorten verfügen oder diese bereitstellen möchten, wird empfohlen, an jedem Zweigstellenstandort ein Gateway zur Bereitstellung eines lokalen DID (Direct Inward Dial)-Termins für Benutzer an diesen Standorten zu bereitstellen. Wenn Sie über ausfallsichere WAN-Verbindungen verfügen, die Bandbreite einer WAN-Verbindung jedoch wahrscheinlich eingeschränkt ist, konfigurieren Sie die Anrufsteuerung für diese Verbindung. Wenn Sie keine ausfallsicheren WAN-Verbindungen haben, weniger als 1.000 Benutzer an Ihrem Zweigstellenstandort hosten und keine lokalen geschulten Skype for Business Server-Administratoren verfügbar sind, wird empfohlen, dass Sie eine Survivable Branch Appliance am Zweigstellenstandort bereitstellen. Wenn Sie zwischen 1.000 und 5.000 Benutzer an Ihrem Zweigstellenstandort hosten, keine ausfallsichere WAN-Verbindung haben und geschulte Skype for Business Server-Administratoren verfügbar sind, wird empfohlen, einen Survivable Branch Server mit einem kleinen Gateway am Zweigstellenstandort bereitstellen. Erwägen Sie auch die Aktivierung der Medienumgehung für Verbindungen mit eingeschränkter Bandbreite, wenn Sie über ein Gatewaypeer mit Unterstützung der Medienumgehung verfügen.
+Sie müssen auch die Bandbreitennutzung berücksichtigen, die Sie für die Netzwerkverbindungen zwischen Ihrem zentralen Standort und den Zweigstellen erwarten. Wenn Sie über ausfallsichere WAN-Verbindungen zwischen Standorten verfügen oder diese bereitstellen möchten, empfehlen wir, dass Sie an jedem Zweigstellenstandort ein Gateway bereitstellen, um benutzern an diesen Standorten eine lokale DID-Beendigung (Direct Inward Dial) bereitzustellen. Wenn Sie über ausfallsichere WAN-Verbindungen verfügen, die Bandbreite einer WAN-Verbindung jedoch wahrscheinlich eingeschränkt ist, konfigurieren Sie die Anrufsteuerung für diese Verbindung. Wenn Sie keine ausfallsicheren WAN-Verbindungen haben, weniger als 1.000 Benutzer an Ihrem Zweigstellenstandort hosten und keine lokal geschulten Skype for Business Server Administratoren verfügbar sind, wird empfohlen, eine Survivable Branch Appliance am Zweigstellenstandort bereitzustellen. Wenn Sie zwischen 1000 und 5000 Benutzer an Ihrem Zweigstellenstandort hosten, keine ausfallsichere WAN-Verbindung haben und Skype for Business Server Administratoren geschult sind, empfehlen wir, dass Sie einen Survivable Branch Server mit einem kleinen Gateway am Zweigstellenstandort bereitstellen. Erwägen Sie auch die Aktivierung der Medienumgehung für Verbindungen mit eingeschränkter Bandbreite, wenn Sie über ein Gatewaypeer mit Unterstützung der Medienumgehung verfügen.
   
-## <a name="estimating-voice-usage-and-traffic"></a>Schätzen der Sprachnutzung und des Datenverkehrs
+## <a name="estimating-voice-usage-and-traffic"></a>Schätzen der VoIP-Nutzung und des Datenverkehrs
 
 Das Microsoft Lync Server 2013-Planungstool verwendet die folgende Metrik, um den Benutzerdatenverkehr an jedem Standort und die Anzahl der Ports zu schätzen, die zur Unterstützung dieses Datenverkehrs erforderlich sind.
   
@@ -49,19 +49,19 @@ Das Microsoft Lync Server 2013-Planungstool verwendet die folgende Metrik, um de
 > 
 > Für **hohes Datenverkehrsaufkommen** (drei oder mehr Festnetzanrufe pro Benutzer und Stunde) gehen Sie von 5 Benutzern pro Anschluss aus.
     
-Die Anzahl der Ports wiederum bestimmt die Anzahl der Vermittlungsserver und Gateways, die erforderlich sind. Die PSTN-Gateways( Public Switched Telephone Network), die von den meisten Organisationen als Bereitstellungsumfang zwischen 2 ports und bis zu 960 Ports in Betracht ziehen. (Es gibt noch größere Gateways, die jedoch hauptsächlich von Telefoniedienstanbietern verwendet werden.)
+Die Anzahl der Ports bestimmt wiederum die Anzahl der erforderlichen Vermittlungsserver und Gateways. Die PSTN-Gateways (Public Switched Telephone Network), die die meisten Organisationen in Betracht ziehen, einen Bereich von 2 Ports bis zu 960 Ports bereitzustellen. (Es gibt noch größere Gateways, die jedoch hauptsächlich von Telefoniedienstanbietern verwendet werden.)
   
 Eine Organisation mit 10.000 Benutzern und mittlerem Datenverkehrsaufkommen würde z. B. 1000 Ports benötigen. Die Anzahl der erforderlichen Gateways entspricht der Gesamtzahl der erforderlichen Ports, die durch die Gesamtkapazität der Gateways bestimmt ist.
   
 ## <a name="components-features-and-options-of-enterprise-voice"></a>Komponenten, Features und Optionen von Enterprise-VoIP
 
-In den folgenden Abschnitten finden Sie weitere Informationen zum Planen ihrer Enterprise-VoIP Bereitstellung.
+Weitere Informationen zur Planung Ihrer Enterprise-VoIP-Bereitstellung finden Sie in den folgenden Abschnitten.
   
-- [Erforderliche Komponenten für Enterprise-VoIP in Skype for Business Server](components-required-for-enterprise-voice.md)
+- [Komponenten, die für Enterprise-VoIP in Skype for Business Server erforderlich sind](components-required-for-enterprise-voice.md)
     
-- [Planen der Festnetzanbindung in Skype for Business Server](pstn-connectivity-0.md)
+- [Planen der PSTN-Konnektivität in Skype for Business Server](pstn-connectivity-0.md)
     
-- [Netzwerkeinstellungen für die erweiterten Enterprise-VoIP in Skype for Business Server](network-settings-for-advanced-features.md)
+- [Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Features in Skype for Business Server](network-settings-for-advanced-features.md)
     
 - [Planen der Anrufsteuerung in Skype for Business Server](call-admission-control.md)
     
@@ -71,10 +71,10 @@ In den folgenden Abschnitten finden Sie weitere Informationen zum Planen ihrer E
     
 - [Planen von Privatleitungen mit Skype for Business](private-telephone-lines.md)
     
-- [Planen des Location-Based routing in Skype for Business](location-based-routing.md)
+- [Planen des Location-Based Routings in Skype for Business](location-based-routing.md)
     
 - [Planen von Anrufverwaltungsfunktionen in Skype for Business](call-management-features.md)
     
-- [Planen von Enterprise-VoIP A0 in Skype for Business Server](enterprise-voice-resiliency.md)
+- [Planen der Ausfallsicherheit Enterprise-VoIP in Skype for Business Server](enterprise-voice-resiliency.md)
     
 

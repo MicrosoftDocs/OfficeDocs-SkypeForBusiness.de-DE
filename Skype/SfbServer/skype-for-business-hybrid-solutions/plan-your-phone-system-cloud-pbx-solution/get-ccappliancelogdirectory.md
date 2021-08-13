@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: Das Cmdlet „Get-CcApplianceLogDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Protokolle für eine Skype for Business Cloud Connector Edition-Appliance gespeichert werden.
-ms.openlocfilehash: 284846bbc305d76602ae1e2f065fcdd571c9deb2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das cmdlet Get-CcApplianceLogDirectory zeigt das aktuelle Verzeichnis an, in dem Protokolle für eine Skype for Business Cloud Connector Edition Appliance gespeichert sind.
+ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318658"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-Das Cmdlet „Get-CcApplianceLogDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Protokolle für eine Skype for Business Cloud Connector Edition-Appliance gespeichert werden.
+Das cmdlet Get-CcApplianceLogDirectory zeigt das aktuelle Verzeichnis an, in dem Protokolle für eine Skype for Business Cloud Connector Edition Appliance gespeichert sind.
   
-Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1 und 1.4.2.
+Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -37,9 +37,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Das folgende Beispiel zeigt den aktuellen Ordner, in dem Protokolle für die aktuelle Appliance des Cloud Connectors gespeichert sind:
+Das folgende Beispiel zeigt den aktuellen Ordner, in dem Protokolle für die aktuelle Appliance von Cloud Connector gespeichert sind:
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -48,16 +48,16 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Cmdlet "Get-CcApplianceLogDirectory" zeigt das aktuelle Verzeichnis an, in dem die Protokolle für eine Cloud Connector-Appliance gespeichert sind. Der Standardordner lautet C:\Users\%USERPROFILE%\CloudConnector\ApplianceRoot\Logs. 
+Das cmdlet Get-CcApplianceLogDirectory zeigt das aktuelle Verzeichnis an, in dem Protokolle für eine Cloud Connector-Appliance gespeichert sind. Der Standardordner lautet "C:\Users \% userprofile%\CloudConnector\ApplianceRoot\Logs". 
   
-Sie können das Verzeichnis mit dem Cmdlet „Set-CcApplianceDirectory“ ändern.  
+Sie können das Verzeichnis mithilfe des Cmdlets Set-CcApplianceDirectory ändern. 
   
-Hinweis: Es gibt kein Cmdlet, das nur den Speicherort des Protokollordners, aber nicht das Appliance-Verzeichnis ändert.
+Hinweis: Es gibt kein Cmdlet, das nur den Speicherort des Protokollordners ändert, ohne das Appliance-Verzeichnis zu ändern.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Get-CcApplianceLogDirectory“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Get-CcApplianceLogDirectory akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

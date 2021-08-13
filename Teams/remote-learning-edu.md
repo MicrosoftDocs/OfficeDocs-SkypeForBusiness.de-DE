@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
+title: Erste Schritte mit Microsoft Teams für Fernunterricht
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 5b811ca1dfbbe763fd2b5b31c762356951838ca77913319ca473883635b4d27b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849120"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -44,7 +44,7 @@ Dieser Artikel befasst sich mit den eigentlichen Schritten, die Sie ausführen m
 > - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [**ersten Schritte für den Unterricht mit Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
-> - Lehrkräfte, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Lehrkräfte, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
 > - Eltern und Erziehungsberechtigte finden darüber hinaus auf unserer [**Supportseite für Eltern**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) Informationen zum Remote-Lernen.
 
 Verpassen Sie nicht den Blog vom 4. März 2020 [Wie Schulen Fernlernprogramme mit Microsoft Teams schnell starten können](https://aka.ms/teamseduremoteblog).
@@ -119,7 +119,7 @@ Microsoft Teams Education bietet  [spezifische Teamtypen](https://support.offi
 Es gibt eine Reihe von Möglichkeiten, wie Kursteams erstellt werden können, und Teams für Bildungseinrichtungen verfügt über eine eigene Gruppe von Bereitstellungstools, um es so einfach wie möglich zu machen.
 
  - [Automatische Teamerstellung mit SDS](#automatic-team-creation-using-sds)
- - [Von Dozenten geleitete Teamerstellung aus Office 365-Kursgruppen](#educator-led-team-creation-from-office-365-class-groups)
+ - [Von Dozenten geleitete Teamerstellung aus Office 365-Kursgruppen](#educator-led-team-creation-from-office-365-class-groups)
  - [PowerShell-Skript mit Graph-APIs](#powershell-script-using-graph-apis)
  - [Manuelle Teamerstellung](#manual-team-creation)
 
@@ -131,7 +131,7 @@ Die Automatisierung der Teamerstellung spart IT-Administratoren und Lehrkräften
 
 ###### <a name="benefits"></a>Vorteile
 
-- Automatisches Erstellen und Verwalten von Kursteams – Lehrkräfte können sich bei Teams anmelden und sofort mit dem Lehren beginnen.
+- Automatisches Erstellen und Verwalten von Kursteams – Lehrkräfte können sich bei Teams anmelden und sofort mit dem Lehren beginnen.
 - Mitgliedschaftssynchronisierung mit SIS/LMS zum Verwalten von Änderungen der Kursteilnehmer-Mitgliedschaft.
 - EDU Customer Success-Team steht zur kostenlosen Bereitstellungsunterstützung zur Verfügung.
 - [Frühzeitiger Zugriff für Lehrkräfte](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78): Lehrkräfte haben Zeit, ihr Team vorzubereiten, bevor sie Schüler/Studenten zulassen.  
@@ -146,7 +146,7 @@ Die Automatisierung der Teamerstellung spart IT-Administratoren und Lehrkräften
 
 ##### <a name="considerations"></a>Erwägungen
 
-SDS erstellt Teams in zwei Schritten. Im ersten Schritt wird eine Microsoft 365-Gruppe in Azure Active Directory (Azure AD) erstellt, und im zweiten Schritt wird diese Gruppe automatisch in ein Team umgewandelt. Der zweite Schritt beim Erstellen von Teams ist in SDS optional. Ein Administrator möchte möglicherweise, je nach Bereitstellungszeit und der Anzahl nicht verwendeter Teams, die daraus resultieren können, Teams nicht automatisch erstellen. Wir empfehlen Institutionen mit 500.000 Teams oder mehr, die automatische Teamerstellung in SDS zu deaktivieren und die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups) zu verwenden.  
+SDS erstellt Teams in zwei Schritten. Im ersten Schritt wird eine Microsoft 365-Gruppe in Azure Active Directory (Azure AD) erstellt, und im zweiten Schritt wird diese Gruppe automatisch in ein Team umgewandelt. Der zweite Schritt beim Erstellen von Teams ist in SDS optional. Ein Administrator möchte möglicherweise, je nach Bereitstellungszeit und der Anzahl nicht verwendeter Teams, die daraus resultieren können, Teams nicht automatisch erstellen. Wir empfehlen Institutionen mit 500.000 Teams oder mehr, die automatische Teamerstellung in SDS zu deaktivieren und die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups) zu verwenden.  
 
 ##### <a name="get-started"></a>Erste Schritte
 
@@ -202,7 +202,7 @@ Mit PowerShell können Sie ein Skript schreiben, um Teams zu erstellen und Einst
 
 - Zusätzliche Flexibilität und Kontrolle.
 - Option zum Erstellen von frühzeitigem Zugriff für Lehrkräfte auf Teams oder von sofortigem Zugriff für Schüler/Studenten auf Teams.  
-- Wenn Sie [Teams aus Gruppen](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) erstellen, erhalten Lehrkräfte frühzeitigen Zugriff, und Änderungen der Kursteilnehmer-Mitgliedschaft in der Azure AD-Gruppe werden synchronisiert.
+- Wenn Sie [Teams aus Gruppen](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true) erstellen, erhalten Lehrkräfte frühzeitigen Zugriff, und Änderungen der Kursteilnehmer-Mitgliedschaft in der Azure AD-Gruppe werden synchronisiert.
 
 ##### <a name="considerations"></a>Überlegungen
 
@@ -230,9 +230,9 @@ Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hinderniss
 
 #### <a name="recommended-best-practices"></a>Empfohlene bewährte Methoden
 
-- Frühzeitiges bereitstellen! Stellen Sie frühzeitig bereit, um sicherzustellen, dass alles zuverlässig funktioniert und für den ersten Schultag bereit ist.
-- Wenn Sie über mehr als 500.000 Teams verfügen, empfehlen wir die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups). Es reduziert nicht verwendete Teams und Unübersichtlichkeit, da nur Kursteams erstellt werden, die relevant und erforderlich sind.  
-- Wenn bei der automatischen SDS-Teamerstellung Probleme auftreten (z. B. Kurse fehlen und Lehrkräfte diese sofort benötigen), können sie mithilfe der [von Dozenten geleiteten Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups) den Vorgang wiederholen. Die [Manuelle Teamerstellung](#manual-team-creation) ist eine weitere Lösung, die jedoch Ihre Teammitgliedschaft nicht auf dem neuesten Stand hält.  
+- Stellen Sie frühzeitig bereit, um sicherzustellen, dass alles zuverlässig funktioniert und für den ersten Schultag fertig ist.
+- Wenn Sie über mehr als 500.000 Teams verfügen, empfehlen wir die [von Dozenten geleitete Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups). Es reduziert nicht verwendete Teams und Unübersichtlichkeit, da nur Kursteams erstellt werden, die relevant und erforderlich sind.  
+- Wenn bei der automatischen SDS-Teamerstellung Probleme auftreten (z. B. Kurse fehlen und Lehrkräfte diese sofort benötigen), können sie mithilfe der [von Dozenten geleiteten Teamerstellungsmethode](#educator-led-team-creation-from-office-365-class-groups) den Vorgang wiederholen. Die [Manuelle Teamerstellung](#manual-team-creation) ist eine weitere Lösung, die jedoch Ihre Teammitgliedschaft nicht auf dem neuesten Stand hält.  
 - Das Mandanten-Team-Limit ist 500.000 Teams. Daher sollten Administratoren proaktiv versuchen, die Anzahl nicht verwendeter Teams zu reduzieren, um zu vermeiden, dass diese Grenzwerte überschritten und die Einrichtungszeit verlängert wird. Weitere Informationen zu den Grenzwerten finden Sie unter [Limits und Spezifikationen für Microsoft Teams](limits-specifications-teams.md).  
 
 #### <a name="early-access-to-class-teams"></a>Frühzeitiger Zugriff auf Kursteams

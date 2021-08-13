@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Nach der Bereitstellung eines oder mehrerer Edgeserver müssen Sie die Typen des externen Domänen- oder Anbieterzugriffs, des Remotebenutzerzugriffs und des anonymen Benutzerzugriffs auf Konferenzen über die Edgeserver aktivieren, die für Ihre Organisation unterstützt werden.
-ms.openlocfilehash: 7f5ea6db17b498d2f1732cf72fc5462546d7598841a1bd489ac77c8749d86130
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: ffad5a6ed75e5d9e0476497182bd1d1dafe65675c1fb948ca98543858846512f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333527"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Verwalten der Zugriffs-Edgekonfiguration für Ihre Organisation
 
@@ -45,7 +45,7 @@ Zu diesen Optionen gehören die folgenden Zugriffsarten, die auf der Seite **Zug
 
 **Anzeigen von Zugriffs-Edgekonfigurationsinformationen mithilfe Windows PowerShell Cmdlets**
 
-  - Zugriffs-Edgekonfigurationsinformationen können mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsAccessEdgeConfiguration"** angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+  - Zugriffs-Edgekonfigurationsinformationen können mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsAccessEdgeConfiguration"** angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
     
     Um Informationen zu allen Zugriffs-Edge-Konfigurationseinstellungen anzuzeigen, geben Sie den folgenden Befehl in der Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
@@ -53,23 +53,23 @@ Zu diesen Optionen gehören die folgenden Zugriffsarten, die auf der Seite **Zug
     
     Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
-    Identität : Global<br/>
-    AllowAnonymousUsers : False<br/>
-    AllowFederatedUsers : False<br/>
-    AllowOutsideUsers: True<br/>
-    BeClearingHouse : False<br/>
-    EnablePartnerDiscovery: False<br/>
-    EnableArchivingDisclaimer : False<br/>
-    EnableUserReplicator : True<br/>
-    KeepCrlsUpToDateForPeers : True<br/>
-    MarkSourceVerifiableOnOutgoingMessages : True<br/>
-    OutgoingTlsCountForFederatedPartners : 4<br/>
-    DiscoveredPartnerStandardRate : 20<br/>
-    EnableDiscoveredPartnerContactsLimit : True<br/>
-    MaxContactsPerDiscoveredPartner : 1000<br/>
-    DiscoveredPartnerReportPeriodMinutes : 60<br/>
-    MaxAcceptedCertificatesStored : 1000<br/>
-    MaxRejectedCertificatesStored : 500<br/>
-    CertificatesDeletedPercentage : 20<br/>
-    RoutingMethod : UseDnsSrvRouting<br/>
+        Identity                               : Global
+        AllowAnonymousUsers                    : False
+        AllowFederatedUsers                    : False
+        AllowOutsideUsers                      : True
+        BeClearingHouse                        : False
+        EnablePartnerDiscovery                 : False
+        EnableArchivingDisclaimer              : False
+        EnableUserReplicator                   : True
+        KeepCrlsUpToDateForPeers               : True
+        MarkSourceVerifiableOnOutgoingMessages : True
+        OutgoingTlsCountForFederatedPartners   : 4
+        DiscoveredPartnerStandardRate          : 20
+        EnableDiscoveredPartnerContactsLimit   : True
+        MaxContactsPerDiscoveredPartner        : 1000
+        DiscoveredPartnerReportPeriodMinutes   : 60
+        MaxAcceptedCertificatesStored          : 1000
+        MaxRejectedCertificatesStored          : 500
+        CertificatesDeletedPercentage          : 20
+        RoutingMethod                          : UseDnsSrvRouting
 

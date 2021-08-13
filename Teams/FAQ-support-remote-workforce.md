@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318628"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -43,7 +43,7 @@ Verpassen Sie nicht unseren Blogbeitrag vom 5. März 2020 von Jared Spataro, Cor
 
 Obwohl Microsoft das Bestmögliche tut, um Probleme zu vermeiden, kann eine unerwartete Spitze in einem Bereich aufgrund einer Ausbreitung des Virus vorübergehende Probleme verursachen. Während wir die Kapazität aktiv überwachen und nach Bedarf erweitern, können Sie möglicherweise so lange Auswirkungen spüren, bis wir Kapazitäten in diesen Bereichen hinzuzufügen können. Außerdem gibt es externe Situationen, über die Microsoft keine Kontrolle hat. Wir gehen davon aus, dass ISPs und Netzbetreiber auch proaktive Maßnahmen treffen, aber sie sind möglicherweise in der Lage, die Mehrbelastung wegen mehr Personen, die von zu Hause aus arbeiten, zu bewältigen.Wir arbeiten branchenübergreifend mit einem Fokus auf Netzwerkinfrastruktur. Wenn Sie Bedenken wegen eines Ausfalls haben, informieren Sie sich im Nachrichtencenter über mögliche aktuelle Ausfälle.
 
-### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>Was können Administratoren tun, wenn die Teilnehmer beim Einwählen in Besprechungen Probleme haben, z. B. wenn Anrufe nicht durchkommen?
+### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>Was können Administratoren tun, wenn die Teilnehmer beim Einwählen in Besprechungen Probleme haben, z. B. wenn Anrufe nicht durchkommen?
 
 Während der Dauer des COVID-19-Ausbruchs empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche **An Teams-Besprechung teilnehmen** klicken, anstatt sich über die Rufnummern der PSTN-Konferenz einzuwählen oder **Rückruf unter**</strong> zu verwenden. Grund hierfür ist in erster Linie die Überlastung der Telefonie-Infrastrukturen in den von COVID-19 betroffenen Ländern. Wenn Sie Anrufe über das Telefonfestnetz vermeiden, werden Sie wahrscheinlich eine bessere Tonqualität feststellen. 
 
@@ -81,7 +81,7 @@ Teams steht über einige unterschiedliche Programme kostenlos zur Verfügung:
 
 - Wenn Sie im Bildungswesen arbeiten und Lehrer, Schüler und Administratoren in Teams einrichten möchten, verwenden Sie Office 365 A1, die ﻿kostenlose, für Bildungseinrichtungen verfügbare Version von Office 365. Registrieren Sie sich unter [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
-### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Ich besitze Microsoft 365 bereits, aber ich verwende Teams nicht. Stellen Sie Testlizenzen bereit?
+### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Ich habe Microsoft 365 bereits, aber ich verwende Microsoft Teams nicht. Stellen Sie Testlizenzen bereit?
 
 Wenn Sie Microsoft 365 haben, verfügen Sie bereits über Teams. [Aktivieren Sie es](Office-365-set-up.md) für alle Ihre Benutzer. Sobald es aktiviert ist, können Ihre Benutzer Teams ausführen, indem Sie es entweder [Desktop](get-clients.md#desktop-client) und [mobile](get-clients.md#mobile-clients) Clients oder [über den Browser](get-clients.md#mobile-clients) unter [https://teams.microsoft.com](https://teams.microsoft.com) installieren. 
 

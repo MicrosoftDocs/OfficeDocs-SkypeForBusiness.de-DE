@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319868"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -74,15 +74,15 @@ Sie müssen ein Teams-Dienstadministrator sein, um auf diese Einstellung zugreif
 
 ## <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
-Sie können Teams-Besprechungseinladungen an die Bedürfnisse Ihrer Organisation anpassen. Sie können das Logo Ihrer Organisation hinzufügen und hilfreiche Informationen wie Links zu Ihrer Supportwebsite und dem rechtlichen Haftungsausschluss sowie eine reine Text-Fußzeile einfügen.
+Sie können Einladungen zu Teams-Besprechung personalisieren, um die Anforderungen Ihrer Organisation zu erfüllen. So können Sie z. B. das Logo Ihrer Organisation hinzufügen, und hilfreiche Informationen wie Links zu Ihrer Supportwebsite und dem Haftungsausschluss sowie eine reine Text-Fußzeile einfügen.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Tipps zum Erstellen eines Logos für Besprechungseinladungen  
 
 1. Erstellen Sie ein Bild, das nicht mehr als 188 Pixel breit und 30 Pixel hoch ist (das ist recht klein).
 2. Speichern Sie das Bild im JPG- oder PNG-Format.
-3. Speichern Sie das Bild an einem Ort, auf den jeder, der die Einladung erhält, zugreifen kann, z. B. auf einer öffentlichen Website.
+3. Speichern Sie das Bild an einem Ort, auf den jeder, der die Einladung erhält, zugreifen kann, z. B. auf einer öffentlichen Website.
 
-    Jetzt können Sie es zu ihren Besprechungseinladungen hinzufügen. Fahren Sie mit den nächsten Schritten fort.
+    Jetzt können Sie es zu Ihren Besprechungseinladungen hinzufügen. Weitere Informationen finden Sie unter den nächsten Schritten.
 
 ### <a name="customize-your-meeting-invitations"></a>Anpassen Ihrer Besprechungseinladungen
 
