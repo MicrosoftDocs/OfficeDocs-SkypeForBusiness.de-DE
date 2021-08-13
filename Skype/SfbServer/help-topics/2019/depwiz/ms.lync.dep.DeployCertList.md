@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um ein Zertifikat zuzuordnen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 0165afc7a90983855dab8f5a0a2d1c7e44385318
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Um ein Zertifikat zuzuweisen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
+ms.openlocfilehash: c0519e476b281b47d40aefa5436b3bc5a91b4130e7c8cb9a5ab15bc561915677
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323487"
 ---
 # <a name="certificate-list"></a>Zertifikatliste
  
-Um ein Zertifikat zuzuordnen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+Um ein Zertifikat zuzuweisen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
   
 Die Zertifikate im Bereich **Zertifikat aus dem lokalen Zertifikatspeicher auswählen** sind gültige Zertifikate, die für den jeweiligen Zweck zugewiesen werden können. Klicken Sie auf die Schaltfläche **Zertifikatdetails anzeigen**, um zu prüfen, ob das ausgewählte Zertifikat das richtige Zertifikat ist. Die Registerkarte **Details** enthält den für das Zertifikat konfigurierten Antragstellernamen und alternative Antragstellernamen.
   

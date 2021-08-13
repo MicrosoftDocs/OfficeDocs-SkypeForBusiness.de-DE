@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Überprüfen Sie Szenarien für Skype for Business Server Bereitstellungsoptionen, unabhängig davon, ob Sie einen einzelnen Server wünschen oder einen Serverpool mit DNS oder HLB bevorzugen.
-ms.openlocfilehash: 97ce574c575210dfddcae3ffeae018f533840a8b
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 599cc1a779b0d62aa7870c07013e0766a9f8da1e4e5723e988b402b51a0c8f2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725468"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320128"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Planen der erweiterten Edgeserverbereitstellung für Skype for Business Server
  
@@ -50,7 +50,7 @@ Skype for Business-Clients ähneln früheren Versionen von Lync-Clients in der A
     
 2. lyncdiscover.\<domain\>
     
-     *Dies ist ein Hostdatensatz für den AutoErmittlungsdienst in den externen Webdiensten.* 
+     *Dies ist ein Hosteintrag für den AutoErmittlungsdienst in den externen Webdiensten.* 
     
 3. _sipinternaltls._tcp.\<domain\>
     
@@ -205,7 +205,7 @@ Da wir nun wissen, dass Sie, wenn Sie eine automatische Anforderung für Ihre Sk
 
 Um DNS so zu konfigurieren, dass Skype for Business Server Webdatenverkehr an Ihre Notfallwiederherstellungs- und Failoverwebsites umgeleitet wird, müssen Sie einen DNS-Anbieter verwenden, der GeoDNS unterstützt. Sie können Ihre DNS-Einträge so einrichten, dass die Notfallwiederherstellung unterstützt wird, sodass Features, die Webdienste verwenden, auch dann fortgesetzt werden, wenn ein ganzer Front-End-Pool ausfällt. Dieses Dr-Feature unterstützt die einfachen URLs für AutoErmittlung, Besprechung und Einwahl.
   
-Sie definieren und konfigurieren zusätzliche DNS-Host-A-Einträge (AAAA bei Verwendung von IPv6)-Einträgen für die interne und externe Auflösung von Webdiensten bei Ihrem GeoDNS-Anbieter. Bei den folgenden Details wird davon ausgegangen, dass gepaarte Pools geografisch verteilt sind und dass der von Ihrem Anbieter unterstützte GeoDNS **entweder** über Roundrobin-DNS **verfügt oder** für die Verwendung von Pool1 als primärer Pool konfiguriert ist und zu Pool2 übergeht, wenn Kommunikations- oder Stromausfälle auftreten.
+Sie definieren und konfigurieren zusätzliche DNS-Host-A-Einträge (AAAA bei Verwendung von IPv6)-Einträgen für die interne und externe Auflösung von Webdiensten bei Ihrem GeoDNS-Anbieter. Bei den folgenden Details wird davon ausgegangen, dass gepaarte Pools geografisch verteilt sind und dass der von Ihrem Anbieter unterstützte GeoDNS **entweder** über Roundrobin-DNS **verfügt oder** für die Verwendung von Pool1 als Primärserver konfiguriert ist und zu Pool2 übergeht, wenn Kommunikations- oder Stromausfälle auftreten.
   
 Alle DNS-Einträge in dieser Tabelle sind Beispiele.
   
@@ -223,11 +223,11 @@ Alle DNS-Einträge in dieser Tabelle sind Beispiele.
 ## <a name="dns-load-balancing"></a>DNS-Lastenausgleich
 <a name="DNSLB"> </a>
 
-Der DNS-Lastenausgleich wird in der Regel auf Anwendungsebene implementiert. Die Anwendung (z. B. ein Client, auf dem Skype for Business ausgeführt wird) versucht, eine Verbindung mit einem Server in einem Pool herzustellen, indem eine Verbindung mit einer der IP-Adressen hergestellt wird, die von der DNS A- und AAAA-Eintragsabfrage (wenn IPv6-Adressen verwendet werden) für den Pool-FQDN zurückgegeben werden.
+Der DNS-Lastenausgleich wird in der Regel auf Anwendungsebene implementiert. Die Anwendung (z. B. ein Client mit Skype for Business) versucht, eine Verbindung mit einem Server in einem Pool herzustellen, indem eine Verbindung mit einer der IP-Adressen hergestellt wird, die von der DNS A- und AAAA-Eintragsabfrage (wenn IPv6-Adressen verwendet werden) für den Pool-FQDN zurückgegeben werden.
   
 Wenn beispielsweise drei Front-End-Server in einem Pool mit dem Namen pool01.contoso.com vorhanden sind, würde Folgendes passieren:
   
-- Clients, die Skype for Business Dns für pool01.contoso.com abfragen. Die Abfrage gibt drei IP-Adressen zurück und speichert sie wie folgt (in einer bestimmten Reihenfolge):
+- Clients, die Skype for Business dns für pool01.contoso.com abfragen. Die Abfrage gibt drei IP-Adressen zurück und speichert sie wie folgt (in einer bestimmten Reihenfolge):
     
    |&nbsp;|&nbsp;|
    |:-----|:-----|
@@ -242,7 +242,7 @@ Wenn beispielsweise drei Front-End-Server in einem Pool mit dem Namen pool01.con
 - Wenn der Client alle zwischengespeicherten Einträge ohne erfolgreiche Verbindung versucht, erhält der Benutzer eine Benachrichtigung, dass derzeit keine Server verfügbar sind, auf denen Skype for Business Server ausgeführt werden.
     
 > [!NOTE]
-> Der DNS-basierte Lastenausgleich unterscheidet sich vom DNS-Roundrobin (DNS RR), der sich in der Regel auf den Lastenausgleich bezieht, indem dns verwendet wird, um eine andere Reihenfolge von IP-Adressen für die Server in Ihrem Pool zu geben. In der Regel ermöglicht DNS-RR die Lastenverteilung, aber kein Failover. Wenn beispielsweise die Verbindung mit der ip-Adresse, die von Ihrer DNS A-Abfrage (oder AAAA in einem IPv6-Szenario) zurückgegeben wird, fehlschlägt, schlägt diese Verbindung fehl. Dies macht DNS RR weniger zuverlässig als DNS-basierten Lastenausgleich. Sie können dns-RR weiterhin in Verbindung mit dnsbasiertem Lastenausgleich verwenden, wenn Sie dies tun müssen. 
+> Der DNS-basierte Lastenausgleich unterscheidet sich vom DNS-Roundrobin (DNS RR), der sich in der Regel auf den Lastenausgleich bezieht, indem dns verwendet wird, um eine andere Reihenfolge von IP-Adressen für die Server in Ihrem Pool zu geben. In der Regel ermöglicht DNS-RR die Lastverteilung, aber kein Failover. Wenn beispielsweise die Verbindung mit der ip-Adresse, die von Ihrer DNS A-Abfrage (oder AAAA in einem IPv6-Szenario) zurückgegeben wird, fehlschlägt, schlägt diese Verbindung fehl. Dies macht DNS RR weniger zuverlässig als DNS-basierten Lastenausgleich. Sie können dns-RR weiterhin in Verbindung mit dnsbasiertem Lastenausgleich verwenden, wenn Sie dies tun müssen. 
   
 Sie verwenden den DNS-Lastenausgleich für Folgendes:
   

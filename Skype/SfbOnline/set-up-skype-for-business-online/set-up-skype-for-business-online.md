@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Erfahren Sie, wie Sie Ihre Domäne, Benutzer, Chat-Nachrichten und Anwesenheitsinformationen für Ihr Unternehmen einrichten müssen, um Skype for Business zu installieren. Erfahren Sie außerdem, wie Sie Audio-Konferenzen, das Telefonsystem und Anrufpläne sowie Skype-Livekonferenzen einrichten können. '
-ms.openlocfilehash: fcca1a3181ca0f5753fd53811290d710e8030064
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340291"
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online.
 

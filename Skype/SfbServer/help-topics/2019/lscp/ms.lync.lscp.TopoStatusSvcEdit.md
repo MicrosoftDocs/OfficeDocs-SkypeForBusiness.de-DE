@@ -1,5 +1,5 @@
 ---
-title: Details zum Topologieansichtsdienst
+title: Topologieansicht – Dienstdetails
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: b4503e3f97132bab4724aa13da2ff260390697dd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d9e2ac8ce611b2eb349c3123eaca6b41a202241000231be316a5af4969bf403f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323477"
 ---
 # <a name="topology-view-service-detail"></a>Topologie: Anzeigen von Dienstdetails
 

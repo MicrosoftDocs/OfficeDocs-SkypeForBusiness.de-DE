@@ -1,5 +1,5 @@
 ---
-title: Tabelle "VideoClientEvent"
+title: VideoClientEvent-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
-description: Jeder Datensatz enthält Clientereignis für einen Endpunkt in einem Videoanruf. In der Regel verfügt ein Anruf über zwei Datensätze, einen für den Anrufer und einen für den Anrufer.
-ms.openlocfilehash: bb4a9feca562bed7bdb0080e7f9181003952f5d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Videoanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
+ms.openlocfilehash: 2ccecd731df3b41fbd7c2ce5f2dda3ac298900ec866a995e36398edfeba1c1cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340791"
 ---
-# <a name="videoclientevent-table"></a>Tabelle "VideoClientEvent"
+# <a name="videoclientevent-table"></a>VideoClientEvent-Tabelle
  
-Jeder Datensatz enthält Clientereignis für einen Endpunkt in einem Videoanruf. In der Regel verfügt ein Anruf über zwei Datensätze, einen für den Anrufer und einen für den Anrufer.
+Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Videoanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: Daten des Ankrufers  <br/> 1: Daten des Anrufers  <br/> |
-|**NetworkBandwidthLowEventRatio** <br/> || <br/> |Prozentsatz der Sitzung, in der das Ereignis "LowBandwidth" für den Zustand "Schlecht" ausgelöst wurde. Die verfügbare Bandbreite reicht nicht aus, um eine akzeptable Spracherfahrung zu ermöglichen.  <br/> |
-|**NetworkReceiveQualityEventRatio** <br/> || <br/> |Prozentsatz der Sitzung, in der das "ReceiveSendQuality"-Ereignis für den Zustand "Schlecht" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist stark und wirkt sich auf die Qualität der empfangenen Audiodaten aus.  <br/> |
+|**SessionSeq** <br/> |Ganzzahl  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**FromCaller** <br/> |Bit  <br/> |Primary  <br/> |0: Daten des Angerufenen  <br/> 1: Anruferdaten  <br/> |
+|**NetworkBandwidthLowEventRatio** <br/> || <br/> |Prozentsatz der Sitzung, in der das LowBandwidth-Ereignis für den Status "Ungültig" ausgelöst wurde. Die verfügbare Bandbreite reicht für eine akzeptable Spracherfahrung nicht aus.  <br/> |
+|**NetworkReceiveQualityEventRatio** <br/> || <br/> |Prozentsatz der Sitzung, für die das ReceiveSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der empfangenen Audiodaten aus.  <br/> |
    
 

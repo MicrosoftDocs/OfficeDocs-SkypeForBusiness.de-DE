@@ -1,5 +1,5 @@
 ---
-title: Migireren von Telefonen für gemeinsame Bereiche
+title: Migrieren von Telefonen in öffentlichen Bereichen
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Telefone in öffentlichen Bereichen sind IP-Telefone, die sich am häufigsten in einem gemeinsamen Arbeitsbereich oder in einem gemeinsamen Bereich befinden, wie beispielsweise eine Lobby, eine Küche oder ein Factory Floor. Telefone für gemeinsame Bereiche müssen nicht mit einem Computer verbunden sein, um eine Skype for Business Server Unified Communications (UC)-Funktionalität bereitzustellen. Nachdem Sie eine Bereitstellung auf Skype for Business Server 2019 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die dem Legacy-Telefon für gemeinsame Bereiche zugeordnet sind. Mit Skype for Business Server Verwaltungsshell rufen Sie zunächst alle Contact-Objekte ab, die den Legacy-Telefonen für gemeinsame Bereiche zugeordnet sind, und dann diese Objekte in den Skype for Business Server 2019-Pool zu migrieren.
-ms.openlocfilehash: b9cf5a32614ac41ac3c82773af4f37907c16e6f2
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Telefone für gemeinsame Bereiche sind IP-Telefone, die sich am häufigsten in einem freigegebenen Arbeitsbereich oder einem gemeinsamen Bereich befinden, z. B. in einer Lobby, in einer Kita oder in einer Fabrik. Telefone für gemeinsame Bereiche müssen nicht mit einem Computer verbunden werden, um Skype for Business Server Unified Communications (UC)-Funktionalität bereitzustellen. Nach der Migration einer Bereitstellung zu Skype for Business Server 2019 müssen Sie auch die Kontaktobjekte migrieren, die dem älteren Common Area Telefon zugeordnet sind. Mit Skype for Business Server Verwaltungsshell rufen Sie zunächst alle Kontaktobjekte ab, die den älteren Telefonen für gemeinsame Bereiche zugeordnet sind, und verschieben diese Objekte dann in den Skype for Business Server 2019-Pool.
+ms.openlocfilehash: 808e874216fac97b01face6efa7aae00e269b74ee0f009b106f872a33a6d6261
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340431"
 ---
-# <a name="migrate-common-area-phones"></a>Migireren von Telefonen für gemeinsame Bereiche
+# <a name="migrate-common-area-phones"></a>Migrieren von Telefonen in öffentlichen Bereichen
 
-Telefone in öffentlichen Bereichen sind IP-Telefone, die sich am häufigsten in einem gemeinsamen Arbeitsbereich oder in einem gemeinsamen Bereich befinden, wie beispielsweise eine Lobby, eine Küche oder ein Factory Floor. Telefone für gemeinsame Bereiche müssen nicht mit einem Computer verbunden sein, um eine Skype for Business Server Unified Communications (UC)-Funktionalität bereitzustellen. Nachdem Sie eine Bereitstellung auf Skype for Business Server 2019 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die dem Legacy-Telefon für gemeinsame Bereiche zugeordnet sind. Mit Skype for Business Server-Verwaltungsshell rufen Sie zunächst alle Kontaktobjekte ab, die den Legacy-Telefonen für gemeinsame Bereiche zugeordnet sind, und dann diese Objekte in den Skype for Business Server 2019-Pool zu migrieren.
+Telefone für gemeinsame Bereiche sind IP-Telefone, die sich am häufigsten in einem freigegebenen Arbeitsbereich oder einem gemeinsamen Bereich befinden, z. B. in einer Lobby, in einer Kita oder in einer Fabrik. Telefone für gemeinsame Bereiche müssen nicht mit einem Computer verbunden werden, um Skype for Business Server Unified Communications (UC)-Funktionalität bereitzustellen. Nach der Migration einer Bereitstellung zu Skype for Business Server 2019 müssen Sie auch die Kontaktobjekte migrieren, die dem älteren Common Area Telefon zugeordnet sind. Mithilfe Skype for Business Server Verwaltungsshell rufen Sie zunächst alle Kontaktobjekte ab, die den älteren Telefonen für gemeinsame Bereiche zugeordnet sind, und verschieben diese Objekte dann in den Skype for Business Server 2019-Pool.
   
-### <a name="migrate-common-area-phones"></a>Migireren von Telefonen für gemeinsame Bereiche
+### <a name="migrate-common-area-phones"></a>Migrieren von Telefonen in öffentlichen Bereichen
 
 1. Öffnen Sie auf dem Skype for Business Server 2019-Front-End-Server Skype for Business Server Verwaltungsshell.
     
@@ -32,12 +32,12 @@ Telefone in öffentlichen Bereichen sind IP-Telefone, die sich am häufigsten in
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
    ```
 
-3. Um zu überprüfen, ob alle Kontaktobjekte in den Pool Skype for Business Server 2019 verschoben wurden, geben Sie in der Skype for Business Server Verwaltungsshell Folgendes ein:
+3. Um zu überprüfen, ob alle Kontaktobjekte in den Skype for Business Server 2019-Pool verschoben wurden, geben Sie von der Skype for Business Server Verwaltungsshell Folgendes ein:
     
    ```PowerShell
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 
-    Stellen Sie sicher, dass alle Contact-Objekte nun dem Pool Skype for Business Server 2019 zugeordnet sind.
+    Stellen Sie sicher, dass alle Kontaktobjekte jetzt dem Skype for Business Server 2019-Pool zugeordnet sind.
     
 

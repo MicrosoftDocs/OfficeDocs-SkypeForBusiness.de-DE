@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: Das Cmdlet „Reset-CcCACertificate“ installiert den AD-Server für den Zertifizierungsstellendienst neu, um ein neues Zertifikat der Stammzertifizierungsstelle zu erstellen.
-ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das Cmdlet Reset-CcCACertificate installiert den AD Server des Zertifizierungsstellendiensts neu, um ein neues Zertifikat der Stammzertifizierungsstelle zu erstellen.
+ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340721"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-Das Cmdlet „Reset-CcCACertificate“ installiert den AD-Server für den Zertifizierungsstellendienst neu, um ein neues Zertifikat der Stammzertifizierungsstelle zu erstellen.
+Das Cmdlet Reset-CcCACertificate installiert den AD Server des Zertifizierungsstellendiensts neu, um ein neues Zertifikat der Stammzertifizierungsstelle zu erstellen.
   
 ```powershell
 Reset-CcCACertificate
@@ -35,9 +35,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Das folgende Beispiel installiert den AD-Server für den Zertifizierungsstellendienst neu, um ein neues Zertifikat der Stammzertifizierungsstelle zu erstellen:
+Im folgenden Beispiel wird der AD-Server des Zertifizierungsstellendiensts neu installiert, um ein neues Zertifikat der Stammzertifizierungsstelle zu erstellen:
   
 ```powershell
 Reset-CcCACertificate
@@ -46,30 +46,30 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Wenn das Zertifikat der Stammzertifizierungsstelle kompromittiert oder nicht mehr sicher ist, müssen Sie das Zertifikat der Stammzertifizierungsstelle und alle von der Stammzertifizierungsstelle ausgestellten Zertifikate aktualisieren. Das Cmdlet „Reset-CcCACertificate“ widerruft alle Zertifikate, deinstalliert die Zertifizierungsstelle, installiert diese neu, und bereinigt dann alle Zertifikate, die sich auf den alten Zertifizierungsstellendienst beziehen. 
+Wenn das Zertifikat der Stammzertifizierungsstelle kompromittiert oder nicht mehr sicher ist, müssen Sie das Zertifikat der Stammzertifizierungsstelle und alle von der Stammzertifizierungsstelle ausgestellten Zertifikate aktualisieren. Das cmdlet Reset-CcCACertificate widerruft alle Zertifikate, deinstalliert und installiert die Zertifizierungsstelle neu und bereinigt dann alle Zertifikate im Zusammenhang mit dem alten Zertifizierungsstellendienst. 
   
-Weitere Informationen finden Sie unter "Zertifizierungsstellenzertifikate oder interne Zertifikate, die für CMS, Mediation Server und Edgeserver ausgestellt wurden, sind nahezu abgelaufen oder werden bei der Problembehandlung der Cloud Connector-Bereitstellung beeinträchtigt.
+Weitere Informationen finden Sie unter "Zertifizierungsstellenzertifikate oder interne Zertifikate, die für CMS, Vermittlungsserver und Edgeserver ausgestellt wurden, laufen in Kürze ab oder sind kompromittiert" in der Problembehandlung für Ihre Cloud Connector-Bereitstellung.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Reset-CcCACertificate“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Reset-CcCACertificate akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine.
+None.
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>
 
-[Erneuern-CcCACertificate](renew-cccacertificate.md) Nur Version 1.4.2
+[Renew-CcCACertificate](renew-cccacertificate.md) Nur Version 1.4.2
   
-[Erneuern-CcServerCertificate](renew-ccservercertificate.md) Nur Version 1.4.2
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Nur Version 1.4.2
   
-[Update-CcCACertificate](update-cccacertificate.md) Version 2,0 und höher
+[Update-CcCACertificate](update-cccacertificate.md) Version 2.0 und höher
   
-[Erneuern-CcServerCertificate](renew-ccservercertificate.md) Version 2,0 und höher
+[Renew-CcServerCertificate](renew-ccservercertificate.md) Version 2.0 und höher
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

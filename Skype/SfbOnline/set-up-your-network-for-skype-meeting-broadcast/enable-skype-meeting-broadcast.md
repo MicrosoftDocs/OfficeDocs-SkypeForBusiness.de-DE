@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Bevor die Personen in Ihrer Organisation ihre Skype-Besprechung verwenden können, müssen Sie sie aktivieren. Dazu müssen Sie wissen, wie Sie ihre Windows PowerShell. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
-ms.openlocfilehash: 6cdd7f12483025697b139203907f87f9cd3dc764
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339263"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 

@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: Verwenden Sie das Dialogfeld Dateityperweiterungen auswählen, um die Dateityperweiterungen auszuwählen, die Sie blockieren oder zulassen möchten, indem Sie die Kontrollkästchen neben den Erweiterungen unter Dateityperweiterungen aktivieren (blockieren) oder löschen (um dies zu erlauben). Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und alle Dateityperweiterungen für diese Kategorie anzeigen. Wenn Sie alle Dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen aus.
-ms.openlocfilehash: 08709a2ff2504081ccf0172d3c6d559d6e2693b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Im Dialogfeld Dateityperweiterungen auswählen können Sie die Dateityperweiterungen auswählen, die blockiert oder zugelassen werden sollen. Zum Blockieren aktivieren Sie das Kontrollkästchen neben den jeweiligen Erweiterungen unter Dateityperweiterungen, zum Zulassen deaktivieren Sie das Kontrollkästchen. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und sämtliche Dateityperweiterungen für diese Kategorie anzuzeigen. Wenn Sie alle Dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen.
+ms.openlocfilehash: 161b56adf12386d4510d91a83404af68058d3e590a1193c290813f89918c1f65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324404"
 ---
 # <a name="select-file-type-extensions"></a>Auswählen von Dateityperweiterungen
  

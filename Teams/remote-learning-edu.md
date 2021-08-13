@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Microsoft Teams für Fernunterricht
+title: Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b811ca1dfbbe763fd2b5b31c762356951838ca77913319ca473883635b4d27b
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: a312a15af363fc796f88d5743950ea97c300a35422a691a2d00406d922f74dbd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849120"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319818"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 

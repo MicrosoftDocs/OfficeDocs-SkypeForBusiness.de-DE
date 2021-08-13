@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um Präfixe oder Anfangsziffern zu definieren, fügen Sie Nummernpräfixe hinzu, die diese Route verarbeiten soll, einschließlich des +, falls erforderlich. Sie können z. B. alle Zahlen ab +123 nnen.
-ms.openlocfilehash: a78596a9185ebddccdf20ec91b566bedee3df06f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Um Präfixe oder Anfangsziffern zu definieren, fügen Sie Nummernpräfixe hinzu, die von dieser Route behandelt werden sollen, einschließlich der + (falls erforderlich). Sie können z. B. alle Zahlen ab +123 abgleichen.
+ms.openlocfilehash: ba21b3d2a41a30025899034c80bcb157a261840c837bdf90faf34d1ce6f5cdb6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807875"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338583"
 ---
 # <a name="prefix-edit"></a>Bearbeiten von Präfixen
  
-Um Präfixe oder Anfangsziffern zu definieren, fügen Sie Nummernpräfixe hinzu, die diese Route verarbeiten soll, einschließlich des +, falls erforderlich. Sie können z. B. alle Zahlen ab +123 nnen.
+Um Präfixe oder Anfangsziffern zu definieren, fügen Sie Nummernpräfixe hinzu, die von dieser Route behandelt werden sollen, einschließlich der + (falls erforderlich). Sie können z. B. alle Zahlen ab +123 abgleichen.
   
  
   

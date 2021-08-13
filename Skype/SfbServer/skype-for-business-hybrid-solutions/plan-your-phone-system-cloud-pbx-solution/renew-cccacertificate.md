@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2,0 und höheren Versionen geändert.
-ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das Cmdlet Renew-CcCACertificate erneuert das zertifikat der stammzertifizierungsstelle Skype for Business Cloud Connector Edition, das bald abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2.0 und neueren Versionen geändert.
+ms.openlocfilehash: 49b58e18d6393d5a3f9665fea98cba73f22d9c3259f0036dc93dce9dbf67e567
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340781"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-Das Cmdlet „Renew-CcCACertificate“ erneuert das Zertifikat der Stammzertifizierungsstelle für Skype for Business Cloud Connector Edition, das in Kürze abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2,0 und höheren Versionen geändert.
+Das Cmdlet Renew-CcCACertificate erneuert das zertifikat der stammzertifizierungsstelle Skype for Business Cloud Connector Edition, das bald abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2.0 und neueren Versionen geändert.
   
 ```powershell
 Renew-CcCACertificate
@@ -35,9 +35,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel wird das Zertifikat der Stammzertifizierungsstelle erneuert:  
+Im folgenden Beispiel wird das Zertifikat der Stammzertifizierungsstelle erneuert: 
   
 ```powershell
 Renew-CcCACertificate 
@@ -46,24 +46,23 @@ Renew-CcCACertificate
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Zertifikat der Stammzertifizierungsstelle für Cloud Connector ist fünf Jahre lang gültig, gerechnet ab dem Datum der Installation des Zertifizierungsstellendiensts.
+Das Cloud Connector-Stammzertifizierungsstellenzertifikat ist fünf Jahre ab dem Datum gültig, an dem der Zertifizierungsstellendienst installiert ist.
   
-Wenn das Stammzertifikat in Kürze abläuft oder bereits abgelaufen ist, führen Sie das Cmdlet „Renew-CcCACertificate“ aus, um das Zertifikat zu erneuern. Nach der Erneuerung des Stammzertifikats werden automatisch neue Zertifikate für den AD-Server, den zentralen Verwaltungsspeicher und den Edgeserver ausgestellt.
+Wenn das Stammzertifikat bald abläuft oder bereits abgelaufen ist, führen Sie das Cmdlet Renew-CcCACertificate aus, um das Zertifikat zu erneuern. Nachdem das Stammzertifikat erneuert wurde, werden dem AD-Server, der zentralen Store und dem Edgeserver automatisch neue Zertifikate ausgestellt.
   
-Wenn sich an einem PSTN-Standort mehrere Appliances befinden, führen Sie das Cmdlet „Renew-CcCACertificate“ in allen Appliances des gleichen PSTN-Standorts aus.
+Wenn mehrere Appliances am selben PSTN-Standort vorhanden sind, führen Sie das cmdlet Renew-CcCACertificate in allen Appliances desselben PSTN-Standorts aus.
   
-Letzter Schritt: Führen Sie das Cmdlet „Export-CcRootCertificate“ aus, um das Stammzertifikat in eine lokale Datei in der ersten Appliance zu exportieren. Kopieren Sie dann das exportierte Zertifikat, und installieren Sie es in Ihren PSTN-Gateways.
-
+Führen Sie als letzten Schritt Export-CcRootCertificate aus, um das Stammzertifikat in eine lokale Datei in der ersten Appliance zu exportieren, kopieren und installieren Sie dann das exportierte Zertifikat in Ihre PSTN-Gateways.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Renew-CcCACertificate“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Renew-CcCACertificate akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

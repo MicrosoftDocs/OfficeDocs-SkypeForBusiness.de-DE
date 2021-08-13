@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: Das Cmdlet Restore CC-Credentials stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her.
-ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das Cmdlet "Wiederherstellen Cc-Credentials" stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her.
+ms.openlocfilehash: 95b93e28bb109c26927a940324edef20479bed8c193efea6923c74058995a5bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340671"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-Das Cmdlet Restore CC-Credentials stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her. 
+Das Cmdlet "Wiederherstellen Cc-Credentials" stellt alle Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung wieder her. 
   
-Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2,1.
+Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2.1.
   
 ```powershell
 Restore-CcCredentials 
@@ -40,7 +40,7 @@ Keine
   
 ## <a name="input-types"></a>Eingabetypen
 
-Keine. Das Cmdlet "Restore-CcCredentials" akzeptiert keine Pipeline-Eingaben.
+Keine. Das Cmdlet Restore-CcCredentials akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 

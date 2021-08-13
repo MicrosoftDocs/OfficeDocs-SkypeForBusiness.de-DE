@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren globaler Einstellungen für die Medienumgehung in Skype for Business Server für die Verwendung von Standort- und Regioneninformationen
+title: Konfigurieren der globalen Einstellungen für die Medienumgehung in Skype for Business Server für die Verwendung von Standort- und Regionsinformationen
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 58fd4fca90029a8a5f4cd82c6a9616ae66e69cd0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP verwendet wird.
+ms.openlocfilehash: 38fa42374b4b5dd8c8f304de04c9beeb59f2635d955b2e9ee5afb1fb16de7789
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322337"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Konfigurieren globaler Einstellungen für die Medienumgehung in Skype for Business Server für die Verwendung von Standort- und Regioneninformationen
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Konfigurieren der globalen Einstellungen für die Medienumgehung in Skype for Business Server für die Verwendung von Standort- und Regionsinformationen
  
-Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP. 
+Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP verwendet wird. 
   
- Wenn Sie die globalen Einstellungen für die Medienumgehung mithilfe der Schritte in diesem Thema konfigurieren, wird davon ausgegangen, dass Sie nicht über eine gute Konnektivität zwischen allen Skype for Business-Endpunkten und einem Peer verfügen, für den Sie die Medienumgehung für die Trunkverbindung konfiguriert haben.
+ Wenn Sie die Schritte in diesem Thema verwenden, um globale Einstellungen für die Medienumgehung zu konfigurieren, wird davon ausgegangen, dass sie nicht über eine gute Verbindung zwischen allen Skype for Business Endpunkten und allen Peers verfügen, für die Sie die Medienumgehung für die Trunkverbindung konfiguriert haben.
   
 > [!NOTE]
 > Die Informationen zu Netzwerkregionen und Netzwerkstandorten werden sowohl für die Anrufsteuerung als auch für die Medienumgehung verwendet, wenn beide der erweiterten Enterprise-VoIP-Funktionen aktiviert sind. Wenn Sie daher die Anrufsteuerung bereits konfiguriert haben, müssen Sie das folgende Verfahren zum Bearbeiten von Standort- und Regioneninformationen nicht speziell für die Medienumgehung ausführen. Führen Sie die Schritte des folgenden Verfahrens aus, wenn Sie noch keine Netzwerkregionen und Standorte für die Anrufsteuerung konfiguriert haben und die Einstellungen für die Medienumgehung ändern möchten. 
   
-Damit die Medienumgehung ordnungsgemäß funktioniert, muss die Konsistenz zwischen einem Standort gemäß der Definition im Topologie-Generator und der Definition beim Konfigurieren von Netzwerkregionen und Netzwerkstandorten vorhanden sein. Wenn Sie beispielsweise über einen Zweigstellenstandort verfügen, den Sie im Topologie-Generator so definiert haben, dass nur ein PstN-Gateway bereitgestellt wird, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP-Richtlinie konfiguriert werden, die es Zweigstellenbenutzern ermöglicht, ihre Festnetzanrufe über das Gateway im Telefonnetz am Zweigstellenstandort weiter zu routen.
+Damit die Medienumgehung ordnungsgemäß funktioniert, muss eine Konsistenz zwischen einem Standort bestehen, der im Topologie-Generator definiert ist, und der Definition beim Konfigurieren von Netzwerkregionen und Netzwerkstandorten. Wenn Sie beispielsweise über einen Zweigstellenstandort verfügen, den Sie im Topologie-Generator so definiert haben, dass nur ein PSTN-Gateway bereitgestellt wird, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP Richtlinie konfiguriert werden, mit der Zweigstellenbenutzer ihre PSTN-Anrufe über das PSTN-Gateway am Zweigstellenstandort weiterleiten können.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>So konfigurieren Sie Informationen zu Standorten und Regionen für die Medienumgehung
 
-1. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
+1. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 2. Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
     
@@ -53,9 +53,9 @@ Damit die Medienumgehung ordnungsgemäß funktioniert, muss die Konsistenz zwisc
   
 7. Klicken Sie auf **Commit**.
     
-Fügen Sie als Nächstes Subnetze zum Netzwerkstandort hinzu, wie in "Zuordnen eines Subnetzes [zu einem Netzwerkstandort" beschrieben.](deploy-network.md#BKMK_AssociateSubnets) Nachdem Sie alle Subnetze zu Netzwerkstandorten zugeordnet haben, ist die Bereitstellung der Medienumgehung abgeschlossen.
+Fügen Sie als Nächstes Subnetze zum Netzwerkstandort hinzu, wie unter ["Zuordnen eines Subnetzes zu einem Netzwerkstandort"](deploy-network.md#BKMK_AssociateSubnets)beschrieben. Nachdem Sie alle Subnetze zu Netzwerkstandorten zugeordnet haben, ist die Bereitstellung der Medienumgehung abgeschlossen.
 > [!IMPORTANT]
-> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Weitere Informationen finden Sie [unter "Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business".](deploy-network.md) 
+> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Ausführliche Informationen finden Sie unter [Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business.](deploy-network.md) 
   
 ## <a name="see-also"></a>Siehe auch
 
