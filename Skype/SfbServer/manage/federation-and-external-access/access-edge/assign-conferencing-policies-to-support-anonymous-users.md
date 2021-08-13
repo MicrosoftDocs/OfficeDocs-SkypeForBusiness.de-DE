@@ -15,29 +15,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Sie steuern, wer anonyme Benutzer einladen kann, indem Sie eine Konferenzrichtlinie für die Unterstützung anonymer Benutzer konfigurieren und diese Konferenzrichtlinie auf bestimmte Benutzer anwenden.
-ms.openlocfilehash: 57d100569722cbe89811d15eb9fbe04e5d375711
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 371f1b94dcf1bfe3f99b734fc7c244fbee29c855c5900d1f9cf5683a85a7d6db
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297251"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in Skype for Business Server 
 
 
-Standardmäßig werden alle Benutzer daran gehindert, anonyme Benutzer zur Teilnahme an einer Besprechung einzuladen. Sie steuern, wer anonyme Benutzer einladen kann, indem Sie eine Konferenzrichtlinie für die Unterstützung anonymer Benutzer konfigurieren und diese Konferenzrichtlinie auf bestimmte Benutzer anwenden. Weitere Informationen zum Konfigurieren einer Konferenzrichtlinien zur Unterstützung anonymer Benutzer finden Sie unter "Erstellen von Konferenzrichtlinien [in Skype for Business Server](../../conferencing/create-policies.md) und Verwalten des Verbunds und des externen Zugriffs auf Skype for Business [Server".](../managing-federation-and-external-access.md)
+Standardmäßig werden alle Benutzer daran gehindert, anonyme Benutzer zur Teilnahme an einer Besprechung einzuladen. Sie steuern, wer anonyme Benutzer einladen kann, indem Sie eine Konferenzrichtlinie für die Unterstützung anonymer Benutzer konfigurieren und diese Konferenzrichtlinie auf bestimmte Benutzer anwenden. Ausführliche Informationen zum Konfigurieren einer Konferenzrichtlinien zur Unterstützung anonymer Benutzer finden Sie unter [Erstellen von Konferenzrichtlinien in Skype for Business Server](../../conferencing/create-policies.md) und Verwalten des [Partnerverbunds und des externen Zugriffs auf Skype for Business Server.](../managing-federation-and-external-access.md)
 
 Verwenden Sie das Verfahren in diesem Abschnitt, um eine bereits erstellte Konferenzrichtlinie auf einen oder mehrere Benutzer oder Benutzergruppen anzuwenden.
 
 > [!NOTE]  
-> Neben der Konfiguration und Anwendung einer Richtlinie müssen Sie außerdem die Unterstützung für anonyme Benutzer für Ihre Organisation aktivieren, um Benutzern das Einladen anonymer Benutzer zu ermöglichen. Weitere Informationen finden Sie unter ["Konfigurieren von Richtlinien zum Steuern des Zugriffs durch öffentliche Benutzer in Skype for Business Server".](../external-access-policies/configure-policies-to-control-public-user-access.md)
+> Neben der Konfiguration und Anwendung einer Richtlinie müssen Sie außerdem die Unterstützung für anonyme Benutzer für Ihre Organisation aktivieren, um Benutzern das Einladen anonymer Benutzer zu ermöglichen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des öffentlichen Benutzerzugriffs in Skype for Business Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>So konfigurieren Sie eine Benutzerrichtlinie für die anonyme Teilnahme an Besprechungen
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen**, und führen Sie einen der folgenden Schritte aus:
     
@@ -53,11 +53,11 @@ Verwenden Sie das Verfahren in diesem Abschnitt, um eine bereits erstellte Konfe
 
 7.  Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
 
-8.  Wählen Sie im Bereich **"Skype for Business Server-Benutzer** bearbeiten" unter "Konferenzrichtlinie" die Benutzerrichtlinie mit der Konfiguration für anonymen Benutzerzugriff **aus,** die Sie auf diesen Benutzer anwenden möchten.  
+8.  Wählen Sie unter **"Bearbeiten Skype for Business Server Benutzer** unter **Konferenzrichtlinie"** die Benutzerrichtlinie mit der Konfiguration für den anonymen Benutzerzugriff aus, die Sie auf diesen Benutzer anwenden möchten.  
 
     > [!NOTE]  
-    > Die <STRONG> &lt; automatischen &gt; </STRONG> Einstellungen übernehmen die Standardeinstellungen für die Serverinstallation und werden automatisch vom Server angewendet.
+    > Die Einstellungen für die <STRONG> &lt; automatische &gt; </STRONG> Installation wenden die Standardeinstellungen für die Serverinstallation an und werden automatisch vom Server angewendet.
 
 
-Damit Benutzer anonyme Benutzer zu Konferenzen einladen können, müssen Sie auch die Unterstützung für anonyme Benutzer in Ihrer Organisation aktivieren. Weitere Informationen finden Sie unter ["Konfigurieren von Richtlinien zum Steuern des Zugriffs durch öffentliche Benutzer in Skype for Business Server".](../external-access-policies/configure-policies-to-control-public-user-access.md)
+Damit Benutzer anonyme Benutzer zu Konferenzen einladen können, müssen Sie auch die Unterstützung für anonyme Benutzer in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des öffentlichen Benutzerzugriffs in Skype for Business Server.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 

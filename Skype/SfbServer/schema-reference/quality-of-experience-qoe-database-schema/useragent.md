@@ -1,5 +1,5 @@
 ---
-title: Tabelle "UserAgent"
+title: UserAgent-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
-description: Die Tabelle "UserAgent" ist eine Tabelle, in der eine Liste der verschiedenen Benutzeragenten gespeichert ist, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.
-ms.openlocfilehash: a1d0e647ff78d409555988a27592228fac2643be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die UserAgent-Tabelle ist eine Unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer-Agents gespeichert wird, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.
+ms.openlocfilehash: a2480131b224dfe0469b39e34296b7848461bb33bd71c39c313016f8203f6266
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301251"
 ---
-# <a name="useragent-table"></a>Tabelle "UserAgent"
+# <a name="useragent-table"></a>UserAgent-Tabelle
  
-Die Tabelle "UserAgent" ist eine Tabelle, in der eine Liste der verschiedenen Benutzeragenten gespeichert ist, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.
+Die UserAgent-Tabelle ist eine Unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer-Agents gespeichert wird, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**UserAgentKey** <br/> |int  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Benutzer-Agent identifiziert.  <br/> |
-|**UserAgent** <br/> |nvarchar(256)  <br/> |Eigen  <br/> |Zeichenfolge des Benutzer-Agents.  <br/> |
-|**UAType** <br/> |smallint  <br/> | <br/> |1 ist der Vermittlungsserver.  <br/> 2 ist ein A/V-Konferenzserver.  <br/> 4 ist Skype for Business.  <br/> 8 ist IP Phone.  <br/> 16 ist live Meeting Console.  <br/> 32 ist das Tool zur Überprüfung der Bereitstellung (Deployment Validation Tool, DVT).  <br/> 64 ist Skype for Business Server auf Macintosh-Computern.  <br/> 128 ist die Skype for Business Server Attendant.  <br/> 256 ist der Konferenzankündigungsdienst.  <br/> 512 ist automatische Telefonzentrale.  <br/> 1024 ist reaktionsgruppe anwendung.  <br/> 2048 ist außerhalb der Sprachsteuerung.  <br/> |
+|**UserAgentKey** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige Zahl, die diesen Benutzer-Agent identifiziert.  <br/> |
+|**UserAgent** <br/> |nvarchar(256)  <br/> |Eigen  <br/> |Benutzer-Agent-Zeichenfolge.  <br/> |
+|**UAType** <br/> |Smallint  <br/> | <br/> |1 ist Vermittlungsserver.  <br/> 2 ist ein A/V-Konferenzserver.  <br/> 4 ist Skype for Business.  <br/> 8 ist IP-Telefon.  <br/> 16 ist live Meeting Console.  <br/> 32 ist das Deployment Validation Tool (DVT).  <br/> 64 ist auf Macintosh-Computern Skype for Business Server.  <br/> 128 ist Skype for Business Server Attendant.  <br/> 256 ist Konferenzankündigung Dienst.  <br/> 512 ist die automatische Telefonzentrale für Konferenzen.  <br/> 1024 ist reaktionsgruppenanwendung.  <br/> 2048 ist außerhalb der Sprachsteuerung.  <br/> |
    
 

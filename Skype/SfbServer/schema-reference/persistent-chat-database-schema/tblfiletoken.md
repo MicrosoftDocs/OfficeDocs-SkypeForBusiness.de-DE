@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: TblFileToken enthält temporäre Token für die Dateiübertragung.
-ms.openlocfilehash: 75d3d4df3affe3d12f94499efdb4337ade11af27
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f099b641f732d2f6ccecf699335e9e88736484cc4eac7bfbce8d4a2d7dd6e810
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816015"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301291"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
@@ -35,8 +35,8 @@ TblFileToken enthält temporäre Token für die Dateiübertragung.
 |fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |URL der übertragenen Datei (für den Kompatibilitätsdienst).  <br/> |
 |fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |URL des Miniaturbilds der übertragenen Datei (für den Kompatibilitätsdienst).  <br/> |
 |fileTokenComplianceTime  <br/> |datetime2  <br/> |Zeitstempel für die tatsächliche Dateiübertragung (für den Kompatibilitätsdienst).  <br/> |
-|fileTokenComplianceIsUpload  <br/> |bit  <br/> |True bei Upload; False bei Download (für den Kompatibilitätsdienst).  <br/> |
-|fileTokenCompliancePinned  <br/> |Bit, nicht NULL  <br/> |True, wenn das Token gebunden ist. Es wird verwendet, um das Token in der Tabelle zu behalten, bis der Kompatibilitätsdienst die Möglichkeit hat, die relevanten Felder aus ihr abzurufen.  <br/> |
+|fileTokenComplianceIsUpload  <br/> |Bit  <br/> |True bei Upload; False bei Download (für den Kompatibilitätsdienst).  <br/> |
+|fileTokenCompliancePinned  <br/> |Bit, nicht NULL  <br/> |True, wenn das Token gebunden ist. Es wird verwendet, um das Token in der Tabelle zu speichern, bis der Compliancedienst die Möglichkeit hat, die relevanten Felder daraus abzurufen.  <br/> |
    
 **Keys**
 

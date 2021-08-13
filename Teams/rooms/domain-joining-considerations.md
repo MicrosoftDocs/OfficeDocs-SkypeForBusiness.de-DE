@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann erfahren, wie sie einen Skype Room System Appliance-PC mit einer Active Directory-Domäne verbinden, zusammen mit den hierin zu berücksichtigenden Überlegungen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: caab82c853eb584ba304569daa49963eea847143b59a8413f77455ee9800c8fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117553"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346162"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 

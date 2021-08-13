@@ -18,12 +18,12 @@ localization_priority: Priority
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 136cca899b0c79b549ee9ae890e90f1e84c04eaa
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 96077e5b50dff12f29f6e1ccf903cd0f7de96352dacf0d8b3c2cc7406750737e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321137"
 ---
 # <a name="teams-update-process"></a>Teams-Updateprozess
 
@@ -31,7 +31,7 @@ Die Teams-Web-App wird wöchentlich aktualisiert.
 
 Updates des Microsoft Teams-Desktopclients werden alle zwei Wochen nach strengen internen Tests und Überprüfungen veröffentlicht. Das Update findet in der Regel an einem Dienstag statt. Bei wichtigen Updates wird dieser Zeitplan von Microsoft Teams umgangen, und die Updates werden freigegeben, sobald sie verfügbar sind.
 
-Der Desktopclient wird automatisch aktualisiert. Teams sucht im Hintergrund alle paar Stunden nach Updates, lädt sie herunter und wartet dann, bis sich der Computer im Leerlauf befindet, bevor das Update im Hintergrund installiert wird.
+Der Desktop-Client aktualisiert sich automatisch. Teams sucht im Hintergrund alle paar Stunden nach Updates, lädt sie herunter und wartet dann, bis sich der Computer im Leerlauf befindet, bevor das Update im Hintergrund installiert wird.
 
 Benutzer können Updates auch manuell herunterladen, indem sie oben rechts in der App im Dropdownmenü **Profil** **Nach Updates suchen** auswählen. Wenn ein Update verfügbar ist, wird es heruntergeladen und im Hintergrund installiert, wenn sich der Computer im Leerlauf befindet.
 

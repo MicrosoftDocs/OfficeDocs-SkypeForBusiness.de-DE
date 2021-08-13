@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder/Regionen zum Wählen der gebührenfreien Nummer.
-ms.openlocfilehash: 94ad69c85edbdf72bb1dcf723583ed2c1f0498b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d861f5cdd775da1929b58f6b4a61bcaa21d3d31b764b08669980b0fa35cd37cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346102"
 ---
 # <a name="toll-free-dialing-restrictions-in-finland"></a>Einschränkungen für gebührenfreie Telefonnummern in Finnland
 

@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Zusammenfassung: Erfahren Sie mehr über den Fehlerlistenbericht in Skype for Business Server.'
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301351"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Fehlerlistenbericht in Skype for Business Server 
  
 **Zusammenfassung:** Erfahren Sie mehr über den Fehlerlistenbericht in Skype for Business Server.
   
-Der Fehlerlistenbericht enthält Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Peer-zu-Peer- oder Konferenzsitzung teilnahmen. Diese Informationen umfassen den URI des Benutzers, der das Problem hatte, sowie den SIP-Antwortcode und die Diagnose-ID, die dem Fehler zugeordnet sind.
+Der Fehlerlistenbericht enthält Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Peer-to-Peer- oder Konferenzsitzung teilgenommen haben. Diese Informationen enthalten den URI des Benutzers, der das Problem aufgetreten ist, sowie den SIP-Antwortcode und die Diagnose-ID, die mit dem Fehler verknüpft sind.
   
 ## <a name="accessing-the-failure-list-report"></a>Zugreifen auf den Fehlerlistenbericht
 
-Auf den Fehlerlistenbericht können Sie zugreifen, indem Sie auf eine der folgenden Metriken im Bericht über Fehlerverteilung [in Skype for Business Server klicken:](failure-distribution-report.md)
+Der Zugriff auf den Fehlerlistenbericht erfolgt durch Klicken auf eine der folgenden Metriken im [Bericht über Fehlerverteilung in Skype for Business Server:](failure-distribution-report.md)
   
 - Häufigste Diagnosegründe (Sitzungen)
     
@@ -45,22 +45,22 @@ Auf den Fehlerlistenbericht können Sie zugreifen, indem Sie auf eine der folgen
     
 - Häufigste Absenderbenutzer-Agents (Sitzungen)
     
-Über den Fehlerlistenbericht können Sie auf den Detailbericht über [Peer-zu-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Metrik "Sitzungsdetail" für eine Peer-zu-Peer-Sitzung klicken. Sie können auch auf den Detaillierten Konferenzbericht zugreifen, indem Sie auf die Konferenzmetrik für eine Konferenz klicken.
+Über den Fehlerlistenbericht können Sie auf den [Detailbericht über Peer-to-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Metrik "Sitzungsdetail" für eine Peer-to-Peer-Sitzung klicken. Sie können auch auf den Detaillierten Konferenzbericht zugreifen, indem Sie auf die Konferenzmetrik für eine Konferenz klicken.
   
-## <a name="making-the-best-use-of-the-failure-list-report"></a>Optimale Nutzung des Fehlerlistenberichts
+## <a name="making-the-best-use-of-the-failure-list-report"></a>Optimale Verwendung des Fehlerlistenberichts
 
-Im Fehlerlistenbericht können Sie eine Beschreibung für jeden Antwortcode oder jede Diagnose-ID anzeigen, indem Sie einfach den Mauszeiger über diesen Wert bewegen. Wenn Sie z. B. die Maus über die Diagnose-ID 7025 halten, wird Folgendes in einer QuickInfo angezeigt:
+Im Fehlerlistenbericht können Sie eine Beschreibung für jeden Antwortcode oder jede Diagnose-ID anzeigen, indem Sie einfach den Mauszeiger über diesen Wert halten. Wenn Sie beispielsweise den Mauszeiger über die Diagnose-ID 7025 halten, wird Folgendes in einer QuickInfo angezeigt:
   
-Interner Serverfehler beim Erstellen von Medien für Den Benutzer.
+Interner Serverfehler beim Erstellen von Medien für den Benutzer.
   
-Es ist wichtig zu beachten, dass der Fehlerlistenbericht weder eine einfache Möglichkeit zum direkten Abrufen einer Liste aller Benutzer bietet, die an mindestens einer fehlgeschlagenen Sitzung teilgenommen haben, noch bietet er eine Möglichkeit, zu ermitteln, welche Benutzer am häufigsten an einer fehlgeschlagenen Sitzung beteiligt waren. (Der Fehlerlistenbericht verfügt über keine Filterfunktionen.) Wenn Sie die Daten jedoch exportieren und dann in eine Datei mit durch Kommas getrennten Werten konvertieren, können Sie Windows PowerShell verwenden, um die Antworten auf solche Fragen zu finden. Angenommen, Sie speichern die Daten in einem . CSV-Datei mit C:\Data\Failure_List.csv. Basierend auf den in dieser Datei gespeicherten Daten listet dieser Befehl alle Benutzer auf, die an mindestens einer fehlgeschlagenen Sitzung beteiligt waren: 
+Es ist wichtig zu beachten, dass der Fehlerlistenbericht weder eine einfache Möglichkeit zum direkten Abrufen einer Liste aller Benutzer bietet, die an mindestens einer fehlgeschlagenen Sitzung teilgenommen haben, noch eine Möglichkeit bietet, zu bestimmen, welche Benutzer am häufigsten an einer fehlgeschlagenen Sitzung beteiligt waren. (Der Fehlerlistenbericht verfügt über keine Filterfunktionen.) Wenn Sie die Daten exportieren und dann in eine durch Trennzeichen getrennte Wertedatei konvertieren, können Sie Windows PowerShell verwenden, um Antworten auf Fragen wie diese zu finden. Angenommen, Sie speichern die Daten in einer .CSV Datei mit dem Namen C:\Data\Failure_List.csv. Basierend auf den in dieser Datei gespeicherten Daten listet dieser Befehl alle Benutzer auf, die an mindestens einer fehlgeschlagenen Sitzung beteiligt waren: 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
 $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 ```
 
-Dieser Befehl gibt eine Liste wie die folgenden zurück:
+Mit diesem Befehl wird eine Liste zurückgegeben, die der folgenden ähnelt:
   
 <pre>
     From user
@@ -72,7 +72,7 @@ Dieser Befehl gibt eine Liste wie die folgenden zurück:
     Ken.Myer@litwareinc.com
 </pre>
 
-Diese beiden Befehle geben die Gesamtzahl der fehlgeschlagenen Sitzungen zurück, an der die einzelnen Benutzer beteiligt waren:
+Diese beiden Befehle geben die Gesamtzahl der fehlgeschlagenen Sitzungen zurück, an denen jeder Benutzer beteiligt war:
   
 ```PowerShell
 $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
@@ -97,19 +97,19 @@ Keine. Sie können den Fehlerlistenbericht nicht filtern.
   
 ## <a name="metrics"></a>Metriken
 
-In der folgenden Tabelle sind die Informationen aufgeführt, die im Fehlerlistenbericht für jeden fehlgeschlagenen Anruf angegeben sind.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Fehlerlistenbericht für jeden fehlgeschlagenen Aufruf angegeben sind.
   
-**Metriken im Bericht über Fehlerlisten**
+**Fehlerlistenberichtsmetriken**
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Gemeldete Zeit** <br/> |Nein  <br/> |Datum und Uhrzeit, an dem bzw. zu der der Bericht erfasst wurde.  <br/> |
 |**Anforderung** <br/> |Nein  <br/> |Typ der fehlerhaften SIP-Anforderung. Beispiel: INVITE oder BYE.  <br/> |
-|**Antwortcode** <br/> |Nein  <br/> |SIP-Antwortcode, der gesendet wurde, als die Konferenz fehlgeschlagen ist.  <br/> |
+|**Antwortcode** <br/> |Nein  <br/> |SIP-Antwortcode, der gesendet wird, wenn die Konferenz fehlgeschlagen ist.  <br/> |
 |**Diagnose-ID** <br/> |Nein  <br/> |Eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.  <br/> |
-|**Beitrittskosten (ms)** <br/> |Nein  <br/> |Zeitdauer (in Millisekunden), die der Benutzer für den Konferenz beitritt.  <br/> |
+|**Beitrittskostenzeit (ms)** <br/> |Nein  <br/> |Zeit (in Millisekunden), die der Benutzer benötigt, um an der Konferenz teilzunehmen.  <br/> |
 |**Von Benutzer** <br/> |Nein  <br/> |Die SIP-Adresse des Benutzers, der den Anruf initiiert hat.  <br/> |
 |**Von Benutzer-Agent** <br/> |Nein  <br/> |Software, die vom Endpunkt des Benutzers verwendet wird, der den Anruf initiiert hat.  <br/> |
-|**An Benutzer** <br/> |Nein  <br/> |Die SIP-Adresse des Benutzers, der angerufen wurde.  <br/> |
+|**An Benutzer** <br/> |Nein  <br/> |SIP-Adresse des Benutzers, der angerufen wurde.  <br/> |
    
 

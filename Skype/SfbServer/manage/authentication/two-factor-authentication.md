@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Zusammenfassung: Verwalten der zweistufigen Authentifizierung in Skype for Business Server.'
-ms.openlocfilehash: 1b899dce829e016e60435584c18481d03810a876e7c8b85665b75b94574374b7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: d73f088798938da6f5a87a8d21fa2922188f3bdc35e589dcda32b3f62747f0d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297301"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Verwalten der zweistufigen Authentifizierung in Skype for Business Server
  
@@ -36,7 +36,7 @@ Die kumulativen Updates für Lync Server 2013: Desktopclient vom Juli 2013 und d
   
 ## <a name="topology-requirements"></a>Anforderungen im Hinblick auf die Topologie
 
-Kunden werden empfohlen, die zweistufige Authentifizierung mit dedizierten Skype for Business Server mit Edge-, Director- und Benutzerpools bereitzustellen. Um die passive Authentifizierung für Benutzer zu aktivieren, müssen andere Authentifizierungsmethoden für andere Rollen und Dienste deaktiviert werden, einschließlich der folgenden:
+Kunden wird dringend empfohlen, die zweistufige Authentifizierung mit dedizierten Skype for Business Server mit Edge-, Director- und Benutzerpools bereitzustellen. Um die passive Authentifizierung für Benutzer zu aktivieren, müssen andere Authentifizierungsmethoden für andere Rollen und Dienste deaktiviert werden, einschließlich der folgenden:
   
 |**Konfigurationstyp**|**Diensttyp**|**Serverrolle**|**Zu deaktivierende Authentifizierungstyp**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ DNS-Einträge, die von internen und/oder externen Clients verwendet werden, um S
   
 ## <a name="exchange-authentication"></a>Exchange Authentifizierung
 
-Kunden, die die zweistufige Authentifizierung für Microsoft Exchange bereitgestellt haben, stellen möglicherweise fest, dass bestimmte Features im Client nicht verfügbar sind. Dieses Verhalten ist beabsichtigt, da der Skype for Business Client die zweistufige Authentifizierung für Features, die von Exchange Integration abhängig sind, nicht unterstützt.
+Kunden, die die zweistufige Authentifizierung für Microsoft Exchange bereitgestellt haben, stellen möglicherweise fest, dass bestimmte Features im Client nicht verfügbar sind. Dies ist derzeit beabsichtigt, da der Skype for Business-Client die zweistufige Authentifizierung für Features, die von Exchange Integration abhängig sind, nicht unterstützt.
   
 ## <a name="contacts"></a>Kontakte
 
@@ -71,33 +71,33 @@ Es gibt eine Reihe von Bereitstellungsüberlegungen im Zusammenhang mit gespeich
   
 ### <a name="deleting-saved-credentials"></a>Löschen gespeicherter Anmeldeinformationen
 
-Benutzer sollten die Option **"Meine Anmeldeinformationen** im Skype for Business-Client löschen" verwenden und ihren SIP-Profilordner aus %localappdata%\Microsoft\Office\15.0\Skype for Business löschen, bevor sie versuchen, sich zum ersten Mal mithilfe der zweistufigen Authentifizierung anzumelden.
+Benutzer sollten die Option **"Meine Anmeldeinformationen** löschen" im Skype for Business-Client verwenden und ihren SIP-Profilordner aus %localappdata%\Microsoft\Office\15.0\Skype for Business löschen, bevor sie versuchen, sich zum ersten Mal mithilfe der zweistufigen Authentifizierung anzumelden.
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-Bei der Kerberos- oder NTLM-Authentifizierungsmethode werden die Windows Anmeldeinformationen des Benutzers automatisch für die Authentifizierung verwendet. In einer typischen Skype for Business Server Bereitstellung, bei der Kerberos und/oder NTLM für die Authentifizierung aktiviert ist, sollten Benutzer nicht jedes Mal, wenn sie sich anmelden, ihre Anmeldeinformationen eingeben müssen.
+Bei der Kerberos- oder NTLM-Authentifizierungsmethode werden die Windows Anmeldeinformationen des Benutzers automatisch für die Authentifizierung verwendet. In einer typischen Skype for Business Server Bereitstellung, bei der Kerberos und/oder NTLM für die Authentifizierung aktiviert ist, sollten Benutzer ihre Anmeldeinformationen nicht jedes Mal eingeben müssen, wenn sie sich anmelden.
   
 Wenn Benutzer versehentlich zur Eingabe von Anmeldeinformationen aufgefordert werden, bevor sie aufgefordert werden, ihre PIN einzugeben, wird der **Registrierungsschlüssel "DisableNTCredentials"** möglicherweise unbeabsichtigt auf Clientcomputern konfiguriert, möglicherweise über die Gruppenrichtlinie.
   
-Um die zusätzliche Eingabeaufforderung für Anmeldeinformationen zu verhindern, erstellen Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die Skype for Business administrative Vorlage, um mithilfe der Gruppenrichtlinie alle Benutzer für einen bestimmten Pool anzuwenden:
+Um die zusätzliche Eingabeaufforderung für Anmeldeinformationen zu verhindern, erstellen Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die Skype for Business administrative Vorlage, um alle Benutzer für einen bestimmten Pool mithilfe von Gruppenrichtlinien anzuwenden:
   
-HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-REG_DWORD: DisableNTCredentials
-
-Wert: 0x0
+    REG_DWORD: DisableNTCredentials
+  
+    Value: 0x0
   
 ### <a name="savepassword"></a>SavePassword
 
 Wenn sich ein Benutzer zum ersten Mal bei Skype for Business anmeldet, wird er aufgefordert, sein Kennwort zu speichern. Wenn diese Option ausgewählt ist, kann das Clientzertifikat des Benutzers im persönlichen Zertifikatspeicher und die Windows Anmeldeinformationen des Benutzers im Anmeldeinformations-Manager des lokalen Computers gespeichert werden.
   
-Die **Registrierungseinstellung "SavePassword"** sollte deaktiviert werden, wenn Skype for Business für die Unterstützung der zweistufigen Authentifizierung konfiguriert ist. Um zu verhindern, dass Benutzer ihre Kennwörter speichern, ändern Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die Skype for Business administrative Vorlage, um sie mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool anzuwenden:
+Die **SavePassword-Registrierungseinstellung** sollte deaktiviert werden, wenn Skype for Business für die Unterstützung der zweistufigen Authentifizierung konfiguriert ist. Um zu verhindern, dass Benutzer ihre Kennwörter speichern, ändern Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die Skype for Business administrative Vorlage, um sie mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool anzuwenden:
   
-HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-REG_DWORD: SavePassword
+    REG_DWORD: SavePassword
   
-Wert: 0x0
+    Value: 0x0
   
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0-Tokenwiederholung
 
@@ -105,10 +105,10 @@ AD FS 2.0 stellt ein Feature bereit, das als Tokenwiederholungserkennung bezeich
   
 Dieses Feature sollte in Situationen aktiviert werden, in denen sicherheit ein sehr wichtiges Problem ist, z. B. bei der Verwendung von Kiosken. Weitere Informationen zur Erkennung von Tokenwiederholung finden Sie unter [Best Practices for Secure Planning and Deployment von AD FS 2.0.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))
   
-## <a name="guest-user-access"></a>Gastbenutzerzugriff
+## <a name="external-user-access"></a>Externer Benutzerzugriff
 
-Das Konfigurieren eines ADFS-Proxys oder Reverseproxys zur Unterstützung Skype for Business zweistufigen Authentifizierung von externen Netzwerken wird in diesen Themen nicht behandelt.
+Das Konfigurieren eines ADFS-Proxys oder Reverseproxys zur Unterstützung Skype for Business zweistufigen Authentifizierung aus externen Netzwerken wird in diesen Themen nicht behandelt.
   
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server](configure-two-factor.md)

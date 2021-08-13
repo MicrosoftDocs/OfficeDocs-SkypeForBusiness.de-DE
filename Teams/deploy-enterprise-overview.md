@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f8521de23466f0551d9c09e072aa0b10b487bbedd6ed473e4ff2a9997f456d28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346311"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams Enterprise-Bereitstellung – Übersicht
 
-Wenn Sie ein mittleres oder großes Unternehmen sind, müssen Sie sich überlegen, wie Sie den Dienst für die Benutzer bereitstellen, wie Sie den Microsoft Teams-Client für sie bereitstellen, wie sich Ihr Netzwerkentwurf auf die Qualität der Echtzeitkommunikation auswirken könnte und so weiter. In den folgenden Abschnitten finden Sie Artikel, die Ihnen bei der Planung von Teams in Ihrer Organisation helfen.
+Wenn Sie ein mittleres oder großes Unternehmen sind, müssen Sie sich überlegen, wie Sie den Dienst für Ihre Benutzer einführen, wie Sie den Microsoft Teams-Client für sie bereitstellen, wie sich Ihr Netzwerkentwurf auf die Qualität der Echtzeitkommunikation auswirken könnte und so weiter. In den folgenden Abschnitten finden Sie Artikel, die Ihnen bei der Planung von Teams in Ihrer Organisation helfen werden.
 
 > [!NOTE]
 > Wenn dies noch nicht geschehen ist, wird dringend empfohlen, die Bereitstellung von Teams mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen Early Adoptern, sich vor der Planung und dem möglichen Rollout mit Teams und dessen Funktionen vertraut zu machen. Weitere Informationen zum Starten Ihres Pilotprojekts finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).

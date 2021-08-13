@@ -13,12 +13,12 @@ f1.keywords:
 description: Eine Übersicht über die integrierte CCaaS-Lösung (Contact Center as a Service) für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be22f4c8da84ba416bbd41b9247aa5d3a8ee4124
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321147"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrationen von Kontaktcentern für Microsoft Teams
 

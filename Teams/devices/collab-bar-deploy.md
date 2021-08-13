@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Apps Microsoft Teams-Räume Android bereitstellen.
-ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321497"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Bereitstellen Microsoft Teams-Räume Apps unter Android
 
 Die Bereitstellung Microsoft Teams-Räume Android-Geräten kann in die folgenden Phasen aufgeschlüsselt werden:
 
 - **Websitebereitschaft** Vergewissern Sie sich, dass Ihre Bereitstellungsstandorte (Räume) den Bereitstellungsanforderungen entsprechen.
-- **Dienstbereitschaft** Erstellen Sie Ressourcenkonten, und weisen Sie sie den Geräten zu (siehe Erstellen eines Ressourcenkontos [Microsoft 365 Admin Center).](resource-account-ui.md) Während wir die Verwendung einer dedizierten Raumlizenz empfehlen, kann sich ein ordnungsgemäß lizenziertes Endbenutzerkonto auch unter Android Teams-Räume anmelden.
+- **Dienstbereitschaft** Erstellen Sie Ressourcenkonten, und weisen Sie sie den Geräten zu (siehe Erstellen eines [Ressourcenkontos](resource-account-ui.md)mit Microsoft 365 Admin Center ). Während wir die Verwendung einer dedizierten Raumlizenz empfehlen, kann sich ein ordnungsgemäß lizenziertes Endbenutzerkonto auch unter Android Teams-Räume anmelden.
 - **Konfiguration und Bereitstellung** Richten Sie Teams-Räume ein, und verbinden Sie die benötigten Peripheriegeräte (Details finden Sie in der Dokumentation des Herstellers).
 
 Zum Verwalten Teams-Räume müssen Sie ein globaler Administrator, Teams Dienstadministrator oder Teams Geräteadministrator sein. Weitere Informationen zu Administratorrollen finden Sie unter Verwenden [Microsoft Teams zum Verwalten von Teams.](../using-admin-roles.md)
@@ -70,7 +70,7 @@ Wenn Sie ein Ressourcenkonto erstellen, können Sie auswählen, ob das Konto Bes
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-Weitere Informationen zu Microsoft 365 Ressourcenkonten finden Sie unter Erstellen eines Ressourcenkontos [mit dem Microsoft 365 Admin Center.](resource-account-ui.md)
+Weitere Informationen zu Ressourcenkonten Microsoft 365 Sie unter Erstellen eines Ressourcenkontos [mithilfe des -Microsoft 365 Admin Center.](resource-account-ui.md)
 
 |    |     |
 |-----------|------------|
@@ -89,7 +89,7 @@ Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Hauptbere
 
 ### <a name="account-provisioning"></a>Kontobereitstellung
 
-Wenn Sie planen, Microsoft 365-Ressourcenkonten zu verwenden, um Benutzern das Buchen von Zusammenarbeitsbalken zu ermöglichen, folgen Sie den Anweisungen unter Erstellen eines Ressourcenkontos mithilfe des [Microsoft 365 Admin Centers,](resource-account-ui.md) um ein Microsoft 365-Ressourcenkonto für jede Zusammenarbeitsleiste zu erstellen, für die eins benötigt wird. Hier müssen Sie dem Ressourcenkonto auch eine Besprechungsraum-Lizenz hinzufügen und, wenn Sie Anrufe an oder von externen Telefonnummern erhalten oder anrufen möchten, eine Anrufplan- oder Business Voice-Lizenz hinzufügen, wenn Ihre Organisation nicht Direct Routing verwendet.
+Wenn Sie planen, Microsoft 365-Ressourcenkonten zu verwenden, damit Benutzer Zusammenarbeitsbalken buchen können, folgen Sie den Anweisungen unter Erstellen eines Ressourcenkontos mit dem [Microsoft 365 Admin Center,](resource-account-ui.md) um ein Microsoft 365-Ressourcenkonto für jede Zusammenarbeitsleiste zu erstellen, die eines benötigt. Hier müssen Sie dem Ressourcenkonto auch eine Besprechungsraum-Lizenz hinzufügen und, wenn Sie Anrufe an oder von externen Telefonnummern erhalten oder anrufen möchten, eine Anrufplan- oder Business Voice-Lizenz hinzufügen, wenn Ihre Organisation nicht Direct Routing verwendet.
 
 Wenn Sie einzelnen benutzern Teams-Räume private Nutzung zuweisen möchten, müssen Sie keine zusätzlichen Konten einrichten. Benutzer können sich mit ihren persönlichen Konten bei zusammenarbeitsleisten anmelden.
 

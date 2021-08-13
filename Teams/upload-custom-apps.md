@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Apps in den App Store Ihrer Organisation im admin center Microsoft Teams hochladen.
-ms.openlocfilehash: 9473c8e2fc4284c4ca205666152ef183b0210841
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: add429a0f662db852f78d9b178b046611ecb4e39ebf86729a1d0398fa1583e2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321047"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets
 

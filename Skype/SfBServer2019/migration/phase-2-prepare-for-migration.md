@@ -1,5 +1,5 @@
 ---
-title: Phase 2 Vorbereiten der Migration
+title: 'Phase 2: Vorbereiten der Migration'
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fa6fef59-9d3a-4bda-acda-960734e4cb1a
-description: Führen Sie die in diesem Abschnitt beschriebenen Schritte aus, bevor Sie mit der Migration zu Skype for Business Server 2019 beginnen.
-ms.openlocfilehash: 74a59bb9f7617fd02f4b1f714e1f1d96dacac603
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Bevor Sie mit der Migration zu Skype for Business Server 2019 beginnen, führen Sie die in diesem Abschnitt beschriebenen Schritte aus.
+ms.openlocfilehash: cc5024bbf63e043f98fe1dc9a662a87b410a88265ebe58d727f7ad39ab171324
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300581"
 ---
 # <a name="phase-2-prepare-for-migration"></a>Phase 2: Vorbereitung der Migration
 
-Führen Sie die in diesem Abschnitt beschriebenen Schritte aus, bevor Sie mit der Migration zu Skype for Business Server 2019 beginnen.
+Bevor Sie mit der Migration zu Skype for Business Server 2019 beginnen, führen Sie die in diesem Abschnitt beschriebenen Schritte aus.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
@@ -33,6 +33,6 @@ Führen Sie die in diesem Abschnitt beschriebenen Schritte aus, bevor Sie mit de
     
 - [Konfigurieren von Clients für die Migration](configure-clients-for-migration.md)
     
-- [Überprüfen der Vorgänger Umgebung](verify-environment.md)
+- [Überprüfen der Legacyumgebung](verify-environment.md)
     
 
