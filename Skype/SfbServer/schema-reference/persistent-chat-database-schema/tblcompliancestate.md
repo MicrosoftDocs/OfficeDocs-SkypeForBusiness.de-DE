@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: "\"tblComplianceState\" enthält Informationen zum poolweiten Kompatibilitätsstatus."
-ms.openlocfilehash: 82c775b315976b0e5b112c476a41a8f5adc6a24c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblComplianceState enthält poolweite Compliancestatusinformationen.
+ms.openlocfilehash: c9027068550b4320e1e7d170ee23b6cb6e060d6162583132f927c720c09d6ebe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315421"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
-"tblComplianceState" enthält Informationen zum poolweiten Kompatibilitätsstatus.
+tblComplianceState enthält poolweite Compliancestatusinformationen.
   
 **Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|lastProcessedEntryID  <br/> |bigint, nicht NULL  <br/> |ID des zuletzt verarbeiteten Kompatibilitätsereigniss.  <br/> |
-|activeServerID  <br/> |int, nicht NULL  <br/> |ID des Kompatibilitätsservers, der die exklusive Sperre für die Datenbank enthält, oder -1, wenn keine vorhanden ist.  <br/> |
-|lockExpirationTime  <br/> |datetime2, nicht NULL  <br/> |Sperrablaufzeit (wenn activeServerID nicht -1 ist).  <br/> |
+|lastProcessedEntryID  <br/> |bigint, nicht NULL  <br/> |ID des letzten verarbeiteten Complianceereignisses.  <br/> |
+|activeServerID  <br/> |int, nicht NULL  <br/> |ID des Complianceservers, der die exklusive Sperre für die Datenbank besitzt, oder -1, wenn keines vorhanden ist.  <br/> |
+|lockExpirationTime  <br/> |datetime2, not null  <br/> |Ablaufzeit sperren (wenn activeServerID nicht -1 ist).  <br/> |
    
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 5d0f8b0039b12bca19dbfc90adbc6065e7bf9f87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ccd11709a5a024fa428e37bef7e0f8b191c81f2ed45db19e8a10a42638fb86e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304257"
 ---
 # <a name="users-edit-user"></a>Benutzer: Bearbeiten eines Benutzers
 
@@ -30,13 +30,13 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Aktivieren von Benutzern für Enterprise-VoIP in Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Zuweisen einer Konferenzrichtlinie zum Ändern der Standardsitzungserfahrung eines Benutzers](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
+- [Zuweisen einer Konferenzrichtlinie zum Ändern der Standardbesprechungserfahrung eines Benutzers](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 
-- [Angeben von Clientversionen, die für die Anmeldung durch einen Benutzer unterstützt werden](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
+- [Angeben von Clientversionen, die von einem Benutzer für die Anmeldung unterstützt werden](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Zuweisen einer benutzerfreundlichen PIN-Richtlinie in Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Konfigurieren der Verbund-, Remotebenutzerzugriffs- und Öffentlichen Im-Konnektivität für Benutzer](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
+- [Konfigurieren des Partnerverbunds, des Remotebenutzerzugriffs und der Verbindung mit öffentlichen Chatdiensten für Benutzer](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
 - [Konfigurieren der Archivierung der Kommunikation eines Benutzers](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-archiving-policy)
 

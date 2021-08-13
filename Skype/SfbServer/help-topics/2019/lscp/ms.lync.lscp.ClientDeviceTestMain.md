@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie können ein Gerät zur Seite Testgerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite Testgerät der Skype for Business Server-Systemsteuerung angezeigt.
-ms.openlocfilehash: a8f8183974556caf11873597425ebc156701ddbc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Sie können ein Gerät zur Seite Testgerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite "Testgerät" der Skype for Business Server Systemsteuerung angezeigt.
+ms.openlocfilehash: f38b3c256c45808b58987aa359f7656166917ff7ef4ab1eee8d97ad87a260eef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304297"
 ---
 # <a name="test-device"></a>Testgerät
 
-Sie können ein Gerät zur Seite **Testgerät** hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite **Testgerät** der Skype for Business Server-Systemsteuerung angezeigt.
+Sie können ein Gerät zur Seite **Testgerät** hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät global (in der gesamten Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite **"Testgerät"** der Skype for Business Server Systemsteuerung angezeigt.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -38,7 +38,7 @@ Auf der Seite **Testgerät** können Sie die folgenden Aufgaben ausführen:
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Neu** Sie können ein neues Testgerät mit folgendem Umfang hinzufügen:
+- **Neu** Sie können ein neues Testgerät mit folgendem Bereich hinzufügen:
 
   - Global
 
@@ -48,7 +48,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
   - **Details anzeigen** Mit dieser Option wird ein Dialogfeld geöffnet, in dem Sie die Optionen für ein Testgerät ändern können.
 
-  - **Wählen Sie Alle aus.** Mit dieser Option werden alle Testgeräte in der Liste ausgewählt.
+  - **Alle auswählen** Mit dieser Option werden alle Testgeräte in der Liste ausgewählt.
 
   - **Löschen** Mit dieser Option werden alle ausgewählten Testgeräte gelöscht.
 

@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3022b1d1fbeff9713741955a0b40fd553028de0e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c0b9582635e89d9115a20df4a582e1894f608fadb7d2f624dbc6124732a76e74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094391"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317411"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Apps, Bots und Connectors in Microsoft Teams
 
@@ -96,7 +96,7 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
 ### <a name="custom-connectors"></a>Benutzerdefinierte Connectors
 
-Mithilfe von Connectors bleiben Ihre Teams auf dem Laufenden, indem Inhalte und Updates von Diensten, die Sie häufig verwenden, direkt in einen Kanal übermittelt werden. Mithilfe von Connectors können Ihre Teams-Benutzer Updates von beliebten Diensten wie Twitter, Trello, Wunderlist, GitHub und Azure DevOps Services in ihren Teams-Chats empfangen.
+Connectors halten Ihr Team auf dem neuesten Stand, indem Sie Inhalte und Updates von Diensten, die Sie häufig verwenden, direkt in einem Kanal bereitstellen. Mit Connectors können Ihre Teams-Benutzer Updates von beliebten Diensten wie Twitter, Trello, Wunderlist, GitHub und Azure DevOps Services in ihren Teams-Chats erhalten.
 
 | Frage | Aktion |
 |--------------|--------|

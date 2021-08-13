@@ -1,5 +1,5 @@
 ---
-title: Benutzer zeigen die PIN-Richtlinie an oder konfigurieren sie
+title: Benutzer können PIN-Richtlinie anzeigen oder konfigurieren
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 5268d6fbbb34f45a3bab8cebc97e2ffcc0a25728
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6a7dd14a786d37247a90310c14732814173e44962ee24aeae3dbe62429111fab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303897"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>Benutzer: Anzeigen oder Konfigurieren einer PIN-Richtlinie
  
@@ -28,5 +28,5 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
   
 - [Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server 2015](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
 

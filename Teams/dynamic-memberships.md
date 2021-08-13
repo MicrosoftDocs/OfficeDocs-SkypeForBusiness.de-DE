@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856324"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315301"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über die dynamische Mitgliedschaft für Teams
 

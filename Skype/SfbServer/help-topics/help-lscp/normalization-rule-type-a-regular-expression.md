@@ -1,5 +1,5 @@
 ---
-title: Normalisierungsregeltyp eines regulären Ausdrucks
+title: Normalisierungsregeltyp ein regulärer Ausdruck
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
-description: Geben Sie einen regulären .NET Framework-Ausdruck ein, um das Vergleichsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird.
-ms.openlocfilehash: 4cfee85b29f2cc9fe9f899aaed2e9f6ce40f0921
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Geben Sie einen .NET Framework regulären Ausdruck ein, um das Übereinstimmungsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird.
+ms.openlocfilehash: e304f113a0503262e9ca7b511be7c5e0d8e66114268ac3ff3c89cc670c7fa55d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303937"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>Normalisierungsregel: Eingeben eines regulären Ausdrucks
  
-Geben Sie einen regulären .NET Framework-Ausdruck ein, um das Vergleichsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird. 
+Geben Sie einen .NET Framework regulären Ausdruck ein, um das Übereinstimmungsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird. 
   
-Details zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter ["Verwalten von Skype for Business Server 2015".](../../manage/manage.md)
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
   
 

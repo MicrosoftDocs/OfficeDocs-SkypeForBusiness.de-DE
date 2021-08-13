@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern (Übertragungsnummern) für Ihre Organisation erhalten, benötigen Sie möglicherweise Hilfe und Support beim PSTN Service Desk.
-ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510276"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310673"
 ---
 # <a name="pstn-service-desk"></a>PSTN Service Desk 
 
@@ -48,7 +48,7 @@ So wenden Sie sich an den Service Desk:
 > [!NOTE]
 > Nur eine Person aus demselben Mandanten kann einen Fall erstellen. Das heißt, jemand von @fabrikam.com kann keinen Fall im Auftrag von @contoso.com erstellen. 
 
-Im Telefonnummern-Servicecenter können Sie neue Fälle erstellen, vorhandene Fälle anzeigen, mit dem Service Desk kommunizieren und Ihr Benutzerprofil verwalten. Jeder dieser Bereiche wird in den folgenden Abschnitten ausführlich beschrieben.
+Im Telefonnummern-Servicecenter können Sie neue Fälle erstellen, vorhandene Fälle anzeigen, mit dem Service Desk kommunizieren und Ihr Benutzerprofil verwalten. Diese Aufgaben werden in den folgenden Abschnitten ausführlicher beschrieben.
 
 - **Telefonnummern-Servicecenter** – Zur Portal-Startseite navigieren. 
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Sie können Dateien an eine Besprechung Skype for Business anfügen, die dann von den Teilnehmern geöffnet und heruntergeladen werden kann. Dateien, die an Skype for Business-Besprechungen angefügt sind, werden in den Postfächern jedes Teilnehmers aufbewahrt, dessen Postfach in das Halteverfahren für ein Rechtsstreitigkeiten gesetzt wird, auf die eine Microsoft 365- oder Office 365-Aufbewahrungsrichtlinie angewendet wird oder die im Microsoft 365 Compliance Center einem eDiscovery-Fall zugeordnet ist. Dieser Inhalt wird in den Ordnern "Wiederherstellbare Elemente" von Teilnehmern in ihren Postfächern gespeichert.
-ms.openlocfilehash: 74605b9aebf6d83619282d9cfc9094216d2fe6f1
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 10d793afce0485de749a5609b77f2c769c55fa9d5305a4a815351ef62ff9a8b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316491"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Beibehalten großer Dateien, die an eine Besprechung Skype for Business sind
 

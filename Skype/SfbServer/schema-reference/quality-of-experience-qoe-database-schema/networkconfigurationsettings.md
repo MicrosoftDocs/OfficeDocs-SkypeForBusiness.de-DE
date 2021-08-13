@@ -1,5 +1,5 @@
 ---
-title: Ansicht "NetworkConfigurationSettings"
+title: NetworkConfigurationSettings-Ansicht
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
-description: In der Ansicht "NetworkConfigurationSettings" werden Informationen zur Netzwerkkonfiguration gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: f3c03c286b9593d004f0849669a6c089be5111b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In der NetworkConfigurationSettings-Ansicht werden Informationen zur Netzwerkkonfiguration gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+ms.openlocfilehash: 7745a8248568fb488cf30363a4e42227d99a95cb79d22b05168a19a7e9e89829
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315401"
 ---
-# <a name="networkconfigurationsettings-view"></a>Ansicht "NetworkConfigurationSettings"
+# <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings-Ansicht
  
-In der Ansicht "NetworkConfigurationSettings" werden Informationen zur Netzwerkkonfiguration gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
+In der NetworkConfigurationSettings-Ansicht werden Informationen zur Netzwerkkonfiguration gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|SubnetIP  <br/> |int  <br/> |Subnetz-IP-Adresse (nur IPv4-Adressen werden unterstützt).  <br/> |
-|UserSiteName  <br/> |nvarchar(128)  <br/> |Websitename des Benutzers.  <br/> |
+|Subnetz-IP  <br/> |Ganzzahl  <br/> |Subnetz-IP-Adresse (nur IPv4-Adressen werden unterstützt).  <br/> |
+|UserSiteName  <br/> |nvarchar(128)  <br/> |Der Websitename des Benutzers.  <br/> |
 |RegionName  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region des Benutzers.  <br/> |
    
 

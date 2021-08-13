@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Serverleistung in Skype for Business Server.'
-ms.openlocfilehash: 75927ec23ec7a004e70733d9371462def3731fb8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den Serverleistungsbericht in Skype for Business Server.'
+ms.openlocfilehash: d635e1bd3cc76c9e1d2218c142b58b588a35330c4b132998060d31e40424ea48
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317610"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Bericht über Serverleistung in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über den Bericht über Serverleistung in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Serverleistungsbericht in Skype for Business Server.
   
-Der Bericht über Serverleistung enthält eine Liste der Skype for Business Server-Server, die den höchsten Prozentsatz schlechter Anrufe erhalten haben. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
+Der Bericht über Serverleistung enthält eine Liste der Skype for Business Server Server, auf denen der höchste Prozentsatz schlechter Anrufe aufgetreten ist. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
   
 - Vermittlungsserver
     
@@ -39,11 +39,11 @@ Der Bericht über Serverleistung enthält eine Liste der Skype for Business Serv
     
 - Anwendungsfreigabe (einschließlich Anwendungsfreigabemetriken für A/V-Konferenzserver und A/V-Edgeserver)
     
-Es ist wichtig zu beachten, dass die in diesem Bericht angezeigte Rangfolge relative Rangfolge ist. Wenn Ihr Server mit der schlechtesten Leistung z. B. einen Anruf schlechter Qualität unter 1.000 Anrufen hatte, dann ist das ein sehr akzeptabler Prozentsatz von 0,1 %. Wenn dieser Server jedoch der Server mit der schlechtesten Leistung ist (d. h., alle anderen Server haben einen Prozentsatz an Anrufen schlechter Qualität unter 0,1 %), dann wird der Server weiterhin im Bericht über Serverleistung aufgeführt.
+Es ist wichtig zu beachten, dass die in diesem Bericht angezeigte Rangfolge relativ ist. Wenn Ihr Server mit der schlechtesten Leistung z. B. einen Anruf schlechter Qualität unter 1.000 Anrufen hatte, dann ist das ein sehr akzeptabler Prozentsatz von 0,1 %. Wenn dieser Server jedoch der Server mit der schlechtesten Leistung ist (d. h., alle anderen Server haben einen Prozentsatz an Anrufen schlechter Qualität unter 0,1 %), dann wird der Server weiterhin im Bericht über Serverleistung aufgeführt.
   
 ## <a name="accessing-the-server-performance-report"></a>Zugriff auf den Bericht über Serverleistung
 
-Der Zugriff auf den Bericht über Serverleistung erfolgt auf der Startseite für Überwachungsberichte. Sie können einen Drilldown zum [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) erstellen, indem Sie auf eine der folgenden Metriken klicken:
+Der Zugriff auf den Bericht über Serverleistung erfolgt auf der Startseite für Überwachungsberichte. Sie können einen Drilldown zum [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) ausführen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Anrufvolumen
     
@@ -53,7 +53,7 @@ Außerdem können Sie den Trendbericht über Medienqualität des Servers anzeige
   
 - Trend
     
-## <a name="making-the-best-use-of-the-server-performance-report"></a>Optimale Nutzung des Berichts über Serverleistung
+## <a name="making-the-best-use-of-the-server-performance-report"></a>Optimale Nutzung des Berichts zur Serverleistung
 
 Der Bericht über Serverleistung bietet verschiedene Möglichkeit, die Daten zu filtern. Sie können z. B. nach Netzwerktyp filtern (Anrufe über eine Kabelverbindung im Vergleich zu Anrufen über eine kabellose Verbindung) und nach Zugriffstyp (Anrufe, die von innerhalb der Firewall getätigt wurden im Vergleich zu Anrufen von außerhalb der Firewall). Es ist sinnvoll, diese Filter bei der Auswertung des Berichts über Serverleistung zu nutzen. Beispiel: Angenommen, Sie haben einen Vermittlungsserver, der einen Prozentsatz an Anrufen schlechter Qualität von 3,24 % hat. Wenn Sie sich nur die Funkanrufe ansehen, dann hat derselbe Server einen Prozentsatz an Anrufen schlechter Qualität von fast 20 %. Dies bedeutet, dass der Server Probleme mit Funkanrufen hat, was teilweise dadurch verschleiert wurde, dass der Server keine Probleme mit Kabelanrufen hat.
   
@@ -67,13 +67,13 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Servertyp** <br/> |Gibt den Typ des Servers an, über dessen Leistung ein Bericht erstellt werden soll. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] A/V-Vermittlungsserver für A/V-Edgeserver |
+|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Servertyp** <br/> |Gibt den Typ des Servers an, über dessen Leistung ein Bericht erstellt werden soll. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Vermittlungsserver A/V-Konferenzserver A/V-Edgeserver |
 |**Top N** <br/> |Gibt die Anzahl der Server an (basierend auf dem Prozentsatz der Anrufe schlechter Qualität), die in den einzelnen Kategorien angezeigt werden sollen. Wenn Sie z. B. **5** auswählen, werden die fünf Server mit der schlechtesten Leistung angezeigt. Wählen Sie eine der folgenden Optionen aus:<br/> [Alle] 5 10 |
 |**Zugriffstyp** <br/> |Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Intern extern |
-|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Kabelgebundenes Drahtlos |
-|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] VPN-Nicht-VPN |
+|**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Kabelgebundene Drahtlosverbindung |
+|**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] VPN, kein VPN |
    
 ## <a name="metrics"></a>Metriken
 
@@ -107,7 +107,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über S
 |**Durchschnittliche Bitrate (KBit/s)** <br/> |Nein  <br/> |Durchschnittliche Video-Bitrate (in Kilobit pro Sekunde).  <br/> |
 |**Niedrige Bitrate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate niedrig war.  <br/> |
 |**Verlust ausgehender Pakete** <br/> |Nein  <br/> |RTP-Paketverluste (Real-Time Transport Protocol; ein Protokoll für die Übertragung von Audio und Video über das Internet) für ausgehende Pakete. Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
-|**Eingefrorene Frames %** <br/> |Nein  <br/> |Prozentsatz der "eingefrorenen" Frames. In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.  <br/> |
+|**Eingefrorene Frames %** <br/> |Nein  <br/> |Prozentsatz der "fixierten" Frames. In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.  <br/> |
 |**Durchschnittliche ausgehende Framerate** <br/> |Nein  <br/> |Durchschnittliche Framerate für ausgehende Übertragungen während des Anrufs.  <br/> |
 |**Durchschnittliche eingehende Framerate** <br/> |Nein  <br/> |Durchschnittliche Framerate für eingehende Übertragungen während des Anrufs.  <br/> |
 |**Niedrige eingehende Framerate %** <br/> |Nein  <br/> |Prozentsatz aller Anrufe, bei denen die Bitrate für eingehende Videodaten niedrig war.  <br/> |

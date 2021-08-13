@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Paraguay.
-ms.openlocfilehash: ecd2ea5501b17b030e8aedf1b12835cd26b82cf4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aa9e5c065bd7086d43041719eb91fae0a8c3c2e8c698def2c6e6320c07dcbe42
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317440"
 ---
 # <a name="availability-in-paraguay"></a>Verfügbarkeit in Paraguay
 

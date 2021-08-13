@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrer Microsoft Teams.
-ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315391"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -143,7 +143,7 @@ Das für die Eingabe der Durchwahl in das Feld für die Telefonnummer des Benutz
 - Beispiel 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - Beispiel 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-Sie können die Erweiterung im Microsoft 365 [Admin Center](https://admin.microsoft.com/) oder Azure Active Directory Admin [Center festlegen.](https://aad.portal.azure.com) Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonkonferenzen und Anrufwarteschleifen verfügbar sind.
+Sie können die Erweiterung im Microsoft 365 Admin Center [oder](https://admin.microsoft.com/) im Azure Active Directory Admin [Center festlegen.](https://aad.portal.azure.com) Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonkonferenzen und Anrufwarteschleifen verfügbar sind.
 
 > [!NOTE]
 > Wenn Sie sowohl die  Funktionen "Nach Name wählen" als auch "Nach Namen wählen" verwenden möchten, können Sie in Ihrer automatischen Haupttelefon attendant eine Wähltaste zuweisen, um eine automatische Telefon attendant zu erreichen, die für "Nach Namen wählen" **aktiviert ist.**  Innerhalb dieser automatischen Telefon attendant können Sie die 1-Taste (der  keine Buchstaben zugeordnet sind) zuweisen, um die automatische Telefon attendant für Die Durchwahl zu erreichen.

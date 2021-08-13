@@ -14,25 +14,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
-description: Besprechungskonfigurationseinstellungen definieren den Typ von Konferenzen (auch als "Meetings" bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Jetzt treffen im Client erstellt wurden.
-ms.openlocfilehash: 053378ef694a66413f11760be5f449cd21e6b764
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Besprechungskonfigurationseinstellungen definieren die Art von Konferenzen (auch alsMeetings bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option "Jetzt besprechen" im Client erstellt wurden.
+ms.openlocfilehash: c4c891b7ac058a5e206c8fcde2d30766f9f498fc342dd9cdd4c9b25564443dbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317640"
 ---
 # <a name="meeting-configuration"></a>Besprechungskonfiguration
 
-Besprechungskonfigurationseinstellungen definieren den Typ von Konferenzen (auch als "Besprechungen" bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option Jetzt treffen im Client erstellt wurden.
+Besprechungskonfigurationseinstellungen definieren die Art von Konferenzen (auch als "Besprechungen" bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option "Jetzt besprechen" im Client erstellt wurden.
 
 Konfigurationen für Besprechungen gelten auf globaler Ebene, Standortebene oder Poolebene:
 
 - **Globale Besprechungskonfiguration:** Die globale Besprechungskonfiguration wird standardmäßig erstellt. Sie können die globale Besprechungskonfiguration bearbeiten, jedoch nicht löschen. Wenn Sie versuchen, die globale Besprechungskonfiguration zu entfernen, werden alle Einstellungen auf die Standardwerte zurückgesetzt.
 
-- **Konfiguration von Website-Besprechungen (optional):** Sie können eine oder mehrere Website besprechungskonfigurationen erstellen, von denen jede für eine bestimmte Website gilt. Standortkonfigurationen setzen die globale Konfiguration außer Kraft.
+- **Konfiguration der Websitebesprechung (optional):** Sie können eine oder mehrere Websitebesprechungskonfigurationen erstellen, die jeweils für einen bestimmten Standort gelten. Standortkonfigurationen setzen die globale Konfiguration außer Kraft.
 
-- **Pool-Besprechungskonfiguration (optional):** Sie können eine oder mehrere Pool-Besprechungskonfigurationen erstellen, die jeweils für einen bestimmten Pool gelten. Poolkonfigurationen setzen die globale Konfiguration und Standortkonfigurationen außer Kraft.
+- **Poolbesprechungskonfiguration (optional):** Sie können eine oder mehrere Poolbesprechungskonfigurationen erstellen, die jeweils für einen bestimmten Pool gelten. Poolkonfigurationen setzen die globale Konfiguration und Standortkonfigurationen außer Kraft.
 
 Auf der Seite **Besprechungskonfiguration** wird eine Liste mit allen Besprechungskonfigurationen angezeigt, die für Ihre Organisation definiert sind.
 
@@ -50,7 +50,7 @@ Auf der Seite **Besprechungskonfiguration** können Sie die folgenden Aufgaben a
 
 In der folgenden Liste sind die Befehle der Seite beschrieben.
 
-- **Neu** Startet eine neue Konfiguration einer Standort- oder Pool-Besprechung.
+- **Neu** Startet eine neue Standortbesprechungskonfiguration oder Poolbesprechungskonfiguration.
 
 - **Bearbeiten** Öffnet die ausgewählte Besprechungskonfiguration, um sie zu bearbeiten, wählt alle Besprechungskonfigurationen in der Liste aus oder löscht die ausgewählte Standort- oder Poolkonfiguration.
 
@@ -63,6 +63,6 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Name** Identifiziert die Besprechungskonfiguration.
 
-- **Bereich** Gibt den Bereich der Besprechungskonfiguration an: global, standort- oder pool.
+- **Bereich** Gibt den Umfang der Besprechungskonfiguration an: global, standort oder pool.
 
 Ausführliche Informationen zur Verwendung von Besprechungskonfigurationen finden Sie unter [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) in der Betriebsdokumentation.
