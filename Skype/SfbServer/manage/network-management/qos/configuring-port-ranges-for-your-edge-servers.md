@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Edgeserver konfigurieren und wie Sie eine Quality of Service-Richtlinie für Ihre A/V-Edgeserver konfigurieren.
-ms.openlocfilehash: f21a5612889e0368a93bc8a55e5f023a28b226a9aa8843275faa696675b94d7e
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591129"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232640"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver in Skype for Business Server
 
@@ -68,7 +68,7 @@ Angenommen, Sie haben Ihre Konferenz-, Anwendungs- und Vermittlungsserver so kon
 </table>
 
 
-Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server Verwaltungsshell ausführen:
+Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe an Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie in der Skype for Business Server Verwaltungsshell einen Befehl ausführen, der dem folgenden ähnelt:
 
   **Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730**
 
@@ -76,7 +76,7 @@ Oder führen Sie den folgenden Befehl aus, um alle Edgeserver in Ihrer Organisat
 
   **Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_. Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}**
 
-Sie können die aktuellen Porteinstellungen für Ihre Edgeserver mithilfe des folgenden Befehls Skype for Business Server Verwaltungsshell überprüfen:
+Sie können die aktuellen Porteinstellungen für Ihre Edgeserver überprüfen, indem Sie den folgenden Befehl Skype for Business Server Verwaltungsshell verwenden:
 
   **Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount**
 
@@ -94,11 +94,11 @@ Das folgende Verfahren beschreibt die Vorgehensweise beim Erstellen von Active D
 
 Wenn Sie Active Directory-basierte Richtlinien erstellen, sollten Sie sich auf einem Computer anmelden, auf dem die Gruppenrichtlinienverwaltung installiert wurde. Öffnen Sie in diesem Fall die Gruppenrichtlinienverwaltung (klicken Sie auf **"Start",** zeigen Sie auf **"Verwaltungstools",** und klicken Sie dann auf **"Gruppenrichtlinienverwaltung"),** und führen Sie dann die folgenden Schritte aus:
 
-1.  Suchen Sie in der Gruppenrichtlinienverwaltung nach dem Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Ihre Skype for Business Server Computer in einer OU mit dem Namen Skype for Business Server befinden, sollte die neue Richtlinie in der Skype for Business Server OU erstellt werden.
+1.  Suchen Sie in der Gruppenrichtlinienverwaltung nach dem Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Skype for Business Server Computer in einer OE mit dem Namen Skype for Business Server befinden, sollte die neue Richtlinie in der Skype for Business Server OU erstellt werden.
 
 2.  Klicken Sie mit der rechten Maustaste auf den entsprechenden Container, und klicken Sie dann auf **"Gruppenrichtlinienobjekt in dieser Domäne erstellen", und verknüpfen Sie es hier.**
 
-3.  Geben Sie im Dialogfeld **Neues** Gruppenrichtlinienobjekt einen Namen für das neue Gruppenrichtlinienobjekt in das **Feld Name** ein (z. **B. Skype for Business Server Audio),** und klicken Sie dann auf **OK.**
+3.  Geben Sie im Dialogfeld **Neues Gruppenrichtlinienobjekt** einen Namen für das neue Gruppenrichtlinienobjekt in das **Feld "Name"** ein (z. **B. Skype for Business Server Audio),** und klicken Sie dann auf **"OK".**
 
 4.  Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **"Bearbeiten".**
 
@@ -106,7 +106,7 @@ Ab diesem Schritt sind die Vorgehensweisen beim Erstellen einer Active Directory
 
 1.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor oder im Editor für lokale Gruppenrichtlinien **Computerkonfiguration**, **Richtlinien** und **Windows-Einstellungen**, klicken Sie mit der rechten Maustaste auf **Richtlinienbasierter QoS**, und klicken Sie dann auf **Neue Richtlinie erstellen**.
 
-2.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der ersten Seite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server Audio)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
+2.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der startseite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server Audio)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
 3.  Stellen Sie auf der nächsten Seite sicher, dass **alle Anwendungen** ausgewählt sind, und klicken Sie dann auf **"Weiter".** Durch diese Einstellung wird das Netzwerk angewiesen, nach allen Paketen mit der DSCP-Markierung 46 zu suchen, anstatt nur nach von einer bestimmten Anwendung erstellten Paketen.
 

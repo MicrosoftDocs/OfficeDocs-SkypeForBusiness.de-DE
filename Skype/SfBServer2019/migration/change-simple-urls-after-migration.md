@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype for Business Server unterstützt einfache URLs.
-ms.openlocfilehash: 1b25dd74f5bdca433554091b3f8ce1c1d2dfa8ce
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: c3d78387ae0bcf16204e2fcaa4ff7db3549334fe814a014a88c80e8ab6658d5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324724"
 ---
 # <a name="change-simple-urls-after-migration"></a>Ändern einfacher URLs nach der Migration
 
@@ -26,23 +26,23 @@ Skype for Business Server unterstützt drei einfache URLs:
     
 - **Dial-in**: Ermöglicht den Zugriff auf die Webseite mit den Einstellungen für eine Einwahlkonferenz. Die einfache Dial-in-URL ist in allen Besprechungseinladungen enthalten, sodass Benutzer, die sich in die Besprechung einwählen möchten, Zugriff auf die erforderlichen Informationen zu Telefonnummer und PIN haben. 
     
-- Der **Administrator** ermöglicht den schnellen Zugriff auf die Skype for Business Server-Systemsteuerung. Die einfache Admin-URL wird innerhalb Ihrer Organisation verwendet. 
+- **Der Administrator** ermöglicht den schnellen Zugriff auf die Skype for Business Server Systemsteuerung. Die einfache Admin-URL wird innerhalb Ihrer Organisation verwendet. 
     
-Nach der Migration zu Skype for Business Server müssen Sie wissen, wie sich die Änderung auf Ihre DNS-Einträge und Zertifikate für einfache URLs auswirkt. Wenn der Legacy Skype for Business Server Director in der Topologie weiterhin verwendet wird, sind keine Änderungen an ihren einfachen URLs erforderlich. Wenn der Skype for Business Server Director nach der Migration aus der Topologie entfernt wird, müssen die DNS-Einträge für einfache URLs so aktualisiert werden, dass Sie auf einen der Skype for Business Server-Pools verweist. Bei jeder Namensänderung für eine einfache URL müssen Sie jedoch das Cmdlet "Enable-CsComputer" auf jedem Director und Front-End-Server ausführen, um die Änderung zu registrieren.
+Nach der Migration zu Skype for Business Server müssen Sie wissen, wie sich die Änderung auf Ihre DNS-Einträge und Zertifikate für einfache URLs auswirkt. Wenn die ältere Skype for Business Server Director weiterhin in der Topologie verwendet wird, sind keine Änderungen an ihren einfachen URLs erforderlich. Wenn der Skype for Business Server Director nach der Migration aus der Topologie entfernt wird, müssen die DNS-Einträge der einfachen URL aktualisiert werden, um auf einen der Skype for Business Server Pools zu verweisen. Bei jeder Namensänderung für eine einfache URL müssen Sie jedoch das Cmdlet "Enable-CsComputer" auf jedem Director und Front-End-Server ausführen, um die Änderung zu registrieren.
 
 ## <a name="to-update-the-meet-simple-url"></a>So aktualisieren Sie die einfache Meet-URL
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den obersten Knoten **Skype for Business Server**, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den oberen Knoten **Skype for Business Server,** und klicken Sie dann auf **Eigenschaften bearbeiten.**
     
-2. Wählen Sie im linken Bereich **einfache URLs** und dann unter **Besprechungs-URLs:** wählen Sie die URL "Meet" aus, und klicken Sie dann auf **URL bearbeiten**.
+2. Wählen Sie **einfache URLs** im linken Bereich und dann unter besprechungs-URLs **aus:** Wählen Sie die Besprechungs-URL aus, und klicken Sie dann auf **"URL bearbeiten".**
     
 3. Aktualisieren Sie die URL auf den gewünschten Wert, und klicken Sie auf **OK**, um die bearbeitete URL zu speichern. 
     
 ## <a name="to-update-the-admin-simple-url"></a>So aktualisieren Sie die einfache Admin-URL
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den obersten Knoten **Skype for Business Server**, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den oberen Knoten **Skype for Business Server,** und klicken Sie dann auf **Eigenschaften bearbeiten.**
     
-2. Wählen Sie **einfache URLs** im linken Bereich aus, und geben Sie dann unterhalb des Felds **Administrative Zugriffs-URL** die einfache URL ein, die Sie für den administrativen Zugriff auf Skype for Business Server Systemsteuerung wünschen, und klicken Sie dann auf **OK**.
+2. Wählen Sie im linken Bereich **einfache URLs** aus, geben Sie dann unterhalb des URL-Felds für den **administrativen Zugriff** die einfache URL ein, die Sie für den Administratorzugriff auf Skype for Business Server Systemsteuerung wünschen, und klicken Sie dann auf **OK.**
     
    > [!TIP]
    > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Option ist https://admin . <em>\<domain\></em> . 

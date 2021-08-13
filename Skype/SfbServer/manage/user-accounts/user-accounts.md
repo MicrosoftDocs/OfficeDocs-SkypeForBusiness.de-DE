@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: In den Abschnitten in diesem Artikel wird beschrieben, wie Active Directory-Benutzer aus Skype for Business Server aktiviert, vorübergehend deaktiviert oder entfernt werden.
-ms.openlocfilehash: 43b48daf7a3ad7242076c29a1372e608130763e8e7add95ac86e97ed9c3a9e97
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 27871597674724126369bd8f90fd6c2a67c2a8ea
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850180"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232690"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Verwalten von Benutzerkonten für Skype for Business Server
 
@@ -109,7 +109,7 @@ Sie können das folgende Verfahren verwenden, um ein zuvor aktiviertes Benutzerk
 
 6. Führen Sie im Menü **Aktion** einen der folgenden Schritte aus:
 
-   - Klicken Sie zum vorübergehenden Deaktivieren des Benutzerkontos für Skype for Business Server auf **"Vorübergehend für Lync Server deaktivieren".**
+   - Um das Benutzerkonto für Skype for Business Server vorübergehend zu deaktivieren, klicken Sie auf **"Vorübergehend für Lync Server deaktivieren".**
 
    - Klicken Sie zum Aktivieren des Benutzerkontos für Skype for Business Server auf **"Für Lync Server erneut aktivieren".**
 

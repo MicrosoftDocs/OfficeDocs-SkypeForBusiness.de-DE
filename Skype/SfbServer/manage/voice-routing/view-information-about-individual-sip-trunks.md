@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In Skype for Business Server können einem einzelnen PSTN-Gateway mehrere Trunks zugewiesen werden. Gateways und Trunks sind nicht identisch, und Administratoren müssen das cmdlet Get-CsTrunk verwenden, um Informationen zu einem einzelnen SIP-Trunk anzuzeigen.
-ms.openlocfilehash: f78aad8aa55202cdd59107be8f5e66dc2f83e1d336dc2f66c4982b7f534c88cc
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 7fe18b07215749e829cfdbd0de08b21c7d6495f0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848390"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232670"
 ---
 # <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>Skype for Business Server – Anzeigen von Informationen zu einzelnen SIP-Trunks
 

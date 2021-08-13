@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
-description: "\"tblComplianceFanout\" enthält alle Server, die ein Kompatibilitätsereignis verarbeitet haben."
-ms.openlocfilehash: 75e232cd464a2199b490e555c0fab79ded119c94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblComplianceFanout enthält alle Server, die ein Complianceereignis verarbeitet haben.
+ms.openlocfilehash: 81ee29e5b25080f841ab578214694f563c7cc6b14fe791b1c6b26dc5ea741859
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351934"
 ---
 # <a name="tblcompliancefanout"></a>tblComplianceFanout
  
-"tblComplianceFanout" enthält alle Server, die ein Kompatibilitätsereignis verarbeitet haben.
+tblComplianceFanout enthält alle Server, die ein Complianceereignis verarbeitet haben.
   
 **Columns**
 
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
-|fanoutEventID  <br/> |int  <br/> |Ereignis-ID  <br/> |
-|fanoutServerID  <br/> |int  <br/> |Serveridentität (entsprechend der Tabelle "tblServerIdentity.serverID").  <br/> |
+|fanoutEventID  <br/> |Ganzzahl  <br/> |Ereignis-ID  <br/> |
+|fanoutServerID  <br/> |Ganzzahl  <br/> |Serveridentität (entspricht der Tabelle "tblServerIdentity.serverID").  <br/> |
    
 **Schlüssel**
 
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
-|fanoutEventID  <br/> |Fremdschlüssel mit Nachschlageschlüssel in der Tabelle "tblComplianceData.cmplEventID".  <br/> |
+|fanoutEventID  <br/> |Fremdschlüssel mit Nachschlagevorgang in der Tabelle "tblComplianceData.cmplEventID".  <br/> |
    
 

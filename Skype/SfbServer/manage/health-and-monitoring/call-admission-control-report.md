@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Zusammenfassung: Erfahren Sie mehr über die Anrufsteuerungsberichte, die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336625"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Anrufsteuerungsbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Anrufsteuerungsberichte, die in Skype for Business Server verwendet werden.
   
-Der Bericht über Anrufsteuerung bietet Informationen über Peer-zu-Peer- und Konferenzsitzungen, die unter Beschränkungen durchgeführt wurden, die von der Anrufsteuerung implementiert werden. Die Anrufsteuerung bietet Administratoren die Möglichkeit, Kommunikationssitzungen basierend auf Bandbreiteneinschränkungen zu erlauben (oder nicht zu erlauben). Beispielsweise kann ein Administrator Richtlinien erstellen, die die verfügbare Bandbreite für Sprach- und Videoanrufe beschränken. Sobald diese Bandbreitengrenze erreicht ist, können keine neuen Sprach- oder Videoanrufe mehr getätigt werden, bis einer der aktuellen Anrufe beendet worden ist und damit die erforderlichen Netzwerkressourcen freigegeben worden sind.
+Der Bericht über Anrufsteuerung bietet Informationen über Peer-zu-Peer- und Konferenzsitzungen, die unter Beschränkungen durchgeführt wurden, die von der Anrufsteuerung implementiert werden. Die Anrufsteuerung bietet Administratoren die Möglichkeit, Kommunikationssitzungen basierend auf Bandbreiteneinschränkungen zuzulassen (oder nicht zuzulassen). Beispielsweise kann ein Administrator Richtlinien erstellen, die die verfügbare Bandbreite für Sprach- und Videoanrufe beschränken. Sobald diese Bandbreitengrenze erreicht ist, können keine neuen Sprach- oder Videoanrufe mehr getätigt werden, bis einer der aktuellen Anrufe beendet worden ist und damit die erforderlichen Netzwerkressourcen freigegeben worden sind.
   
 ## <a name="accessing-the-call-admission-control-report"></a>Öffnen des Berichts über Anrufsteuerung
 
 Auf den Bericht über Anrufsteuerung greifen Sie über die Startseite Monitoring Server-Berichte zu. Von diesem Bericht aus können Sie einen Drilldown zu folgenden weiteren Berichten durchführen:
   
-- Konferenzdetailbericht: Klicken Sie auf die Metrik "Details" einer Konferenzsitzung, um auf diesen Bericht zu zugreifen. 
+- Konferenzdetailbericht: Klicken Sie auf die Metrik "Details" aus einer Konferenzsitzung, um auf diesen Bericht zuzugreifen. 
     
-- Detailbericht über Peer-zu-Peer-Sitzungen: Klicken Sie auf die Metrik "Details" für eine Peer-zu-Peer-Sitzung, um auf diesen Bericht zu zugreifen.
+- Detailbericht über Peer-to-Peer-Sitzungen: Klicken Sie auf die Metrik "Details" für eine Peer-to-Peer-Sitzung, um auf diesen Bericht zuzugreifen.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Optimales Nutzen des Berichts über Anrufsteuerung
 
@@ -51,8 +51,8 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Anrufsteuerun
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 17.07.2015 13:00  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/17/12015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/13/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 17.07.2015 13:00  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/17/12015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/13/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 17.07.12015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/17/12015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/13/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 17.07.12015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/17/12015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/13/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Pool** <br/> |Vollqualifizierter Domänenname (FQDN) des Registrar-Pools oder Edgeservers. Sie können einen einzelnen Pool auswählen, oder auf **[Alle]** klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.<br/> |
 |**Aktivitätstyp** <br/> | Aktivitätstyp. Wählen Sie eine der folgenden Aktivitäten aus: <br/>  [Alle] <br/>  Peer-to-Peer <br/>  Konferenz <br/> |
 |**Anrufkategorie** <br/> | Gibt den Grund für die Verwendung der Anrufsteuerung bei einem Anruf an. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Anruf durch Anrufsteuerung abgelehnt <br/>  Anrufe durch Anrufsteuerung über PSTN umgeleitet <br/> |

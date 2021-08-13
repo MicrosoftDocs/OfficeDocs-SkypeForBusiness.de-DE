@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78f602fcacf6ee2f9a29393aa9a4d6b860251e2d
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324824"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Datenübertragungen zwischen Netzbetreibern und Microsoft für die Verbinden
 
@@ -37,4 +37,4 @@ Microsoft stellt jedem teilnehmenden Netzbetreiber über eine API Anrufdetails u
 
 Jeder Netzbetreiber stellt Microsoft über eine API die Dauer von Anrufen bereit, die von ihren Kunden über die Microsoft Teams. Microsoft verwendet diese Datensätze, um Kunden Nutzungsinformationen zur Verfügung zu stellen und um sicherzustellen, dass unsere Datensätze mit der des Netzbetreibers konsistent sind. Microsoft wird diese Datensätze in Übereinstimmung mit dem anwendbaren Recht und den anwendbaren Bestimmungen sowie den Datenschutzbestimmungen von Microsoft speichern und verarbeiten.
 
-Weitere Informationen finden Sie unter [Kaufen, Konfigurieren und Aktivieren von Career Coach für Microsoft Teams](career-coach.md)
+Weitere Informationen finden Sie unter [Kaufen, Konfigurieren](career-coach.md) und Aktivieren Karrierecoach für Microsoft Teams

@@ -1,5 +1,5 @@
 ---
-title: Reagieren auf Bedrohungen für Ihre Kerninfrastruktur für Skype for Business Server
+title: Behandeln von Bedrohungen für Ihre Kerninfrastruktur für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-description: Neben den bewährten Methoden für Ihre Skype for Business Server-Bereitstellung können Sie die Sicherheit sicherstellen, indem Sie alle Anforderungen in bestimmten Bereichen Ihrer Bereitstellung überprüfen, verstehen und erfüllen.
-ms.openlocfilehash: d959b20bed51e5c496f70cb107f5bd32670b8449
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Zusätzlich zu den bewährten Methoden für Ihre Skype for Business Server Bereitstellung können Sie dazu beitragen, die Sicherheit zu gewährleisten, indem Sie alle Anforderungen in bestimmten Bereichen Ihrer Bereitstellung überprüfen, verstehen und erfüllen.
+ms.openlocfilehash: c022bf950f21384c188ce2df05027281ff2f23ff8de89180b913f75b43124e39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336417"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>Reagieren auf Bedrohungen für Ihre Kerninfrastruktur für Skype for Business Server
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>Behandeln von Bedrohungen für Ihre Kerninfrastruktur für Skype for Business Server
  
-Neben den bewährten Methoden für Ihre Skype for Business Server-Bereitstellung können Sie die Sicherheit sicherstellen, indem Sie alle Anforderungen in bestimmten Bereichen Ihrer Bereitstellung überprüfen, verstehen und erfüllen.
+Zusätzlich zu den bewährten Methoden für Ihre Skype for Business Server Bereitstellung können Sie dazu beitragen, die Sicherheit zu gewährleisten, indem Sie alle Anforderungen in bestimmten Bereichen Ihrer Bereitstellung überprüfen, verstehen und erfüllen.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

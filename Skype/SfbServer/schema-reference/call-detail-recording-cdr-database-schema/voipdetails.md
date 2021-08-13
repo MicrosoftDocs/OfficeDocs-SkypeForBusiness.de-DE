@@ -1,5 +1,5 @@
 ---
-title: '#A0'
+title: VoIPDetails-Ansicht
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,26 +13,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: Die VoIPDetails-Ansicht speichert Informationen zu Peer-zu-Peer-Sitzungen, an denen mindestens ein VoIP-Benutzer teilnimmt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: b42fecc7a0f43f86dba2439a373c7013c605a5e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9e8eeaa0e907496d03a4541792f6f100a9191324497ee7603a65ec5a71fba592
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351954"
 ---
-# <a name="voipdetails-view"></a>#A0
+# <a name="voipdetails-view"></a>VoIPDetails-Ansicht
  
 Die VoIPDetails-Ansicht speichert Informationen zu Peer-zu-Peer-Sitzungen, an denen mindestens ein VoIP-Benutzer teilnimmt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
   
 > [!NOTE]
-> Die Ansicht "VoIPDetails" enthält alle Spalten in der [Ansicht "SessionDetails"](sessiondetails-0.md) sowie die unten aufgeführten Spalten.
+> Die VoIPDetails-Ansicht enthält alle Spalten in der [SessionDetails-Ansicht](sessiondetails-0.md) zusätzlich zu den unten aufgeführten Spalten.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
 |**FromPhone** <br/> |nvarchar(450)  <br/> |Telefon-URI des Benutzers, der die Sitzung gestartet hat.  <br/> |
 |**ToPhone** <br/> |nvarchar(450)  <br/> |Telefon-URI des Benutzers, der der Sitzung beigetreten ist.  <br/> |
 |**DisconnectedByUri** <br/> |nvarchar(450)  <br/> |URI des Benutzers, der die Verbindung zur Sitzung unterbrochen hat.  <br/> |
-|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |URI-Typ des Benutzers, der die Verbindung zur Sitzung unterbrochen hat. Weitere Informationen finden Sie in der [Tabelle "UriTypes".](uritypes.md) <br/> |
+|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |URI-Typ des Benutzers, der die Verbindung zur Sitzung unterbrochen hat. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
 |**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der die Sitzung gestartet hat.  <br/> |
 |**DisconnectedByPhone** <br/> |nvarchar(450)  <br/> |Telefon-URI des Benutzers, der die Verbindung zur Sitzung unterbrochen hat.  <br/> |
 |**FromMediationServer** <br/> |nvarchar(256)  <br/> |Vom Benutzer, der die Sitzung gestartet hat, verwendeter Vermittlungsserver.  <br/> |

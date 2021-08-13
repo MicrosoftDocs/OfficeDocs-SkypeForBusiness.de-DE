@@ -1,5 +1,5 @@
 ---
-title: Löschen einer vorhandenen Auflistung von SIP-Trunkkonfigurationseinstellungen in Skype for Business Server
+title: Skype for Business Server – Löschen einer vorhandenen Auflistung von SIP-Trunkkonfigurationseinstellungen
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert. '
-ms.openlocfilehash: 98e255f82face68132b24f798f45bc12134c9b3cbbbebe1fce5ac886361a7b46
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44adc98247fef2e0cac79a6ec5866871207e572f
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333337"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232860"
 ---
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Löschen einer vorhandenen Auflistung von SIP-Trunkkonfigurationseinstellungen in Skype for Business Server
+# <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server – Löschen einer vorhandenen Auflistung von SIP-Trunkkonfigurationseinstellungen
 
 Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert. Mit diesen Einstellungen kann Folgendes angegeben werden:
 
@@ -40,7 +40,7 @@ Administratoren können auch benutzerdefinierte Trunkkonfigurationseinstellungen
 3. Die Eigenschaft **State** für die Auflistung wird in **Commit nicht ausgeführt** aktualisiert. Um für die Änderungen ein Commit auszuführen und die Auflistung zu löschen, klicken Sie auf **Commit ausführen**, und klicken Sie dann auf **Commit für alle Elemente ausführen**.
 4. Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde** auf **OK**.
 5. Klicken Sie im Dialogfeld **Skype for Business Server Systemsteuerung** auf **OK.**
-6. Wenn Sie Ihre Meinung ändern und sich entscheiden, die Auflistung nicht zu löschen, klicken Sie auf **"Commit"** und dann auf **"Alle nicht übernommenen Änderungen abbrechen".** Wenn das Dialogfeld **Skype for Business Server Systemsteuerung** angezeigt wird, klicken Sie auf **OK.**
+6. Wenn Sie Ihre Meinung ändern und sich entscheiden, die Auflistung nicht zu löschen, klicken Sie auf **"Commit"** und dann auf **"Alle nicht übernommenen Änderungen abbrechen".** Wenn das Dialogfeld **Skype for Business Server Systemsteuerung** angezeigt wird, klicken Sie auf **OK**.
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Entfernen von Trunkkonfigurationseinstellungen mithilfe Windows PowerShell Cmdlets
 

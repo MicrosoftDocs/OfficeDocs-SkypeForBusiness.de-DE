@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8480e0c4b6d27d48eacd8e6edf2aee3583111cf21aba87df037ebc4b3d7ef6b1
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 5bffdaa51b26f1633d36885d9696db9dfca1edde
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849670"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233210"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -40,7 +40,7 @@ ms.locfileid: "57849670"
 Microsoft Teams hat eine neue Methode zum Speichern von Besprechungsaufzeichnungen. Als erste Phase eines Übergangs vom klassischen Microsoft Stream zum [neuen Stream](/stream/streamnew/new-stream) speichert diese Methode Aufzeichnungen auf Microsoft OneDrive for Business und SharePoint in Microsoft 365 und bietet viele Vorteile.
 
 > [!NOTE]
-> Wenn eine Teams-Besprechungsaufzeichnung nicht erfolgreich auf OneDrive/SharePoint hochgeladen werden kann, wird die Aufzeichnung stattdessen vorübergehend in Azure Media Services (AMS) gespeichert. Nachdem die Aufzeichnung in AMS gespeichert wurde, werden keine Wiederholungsversuche ausgeführt, um die Aufzeichnung automatisch in OneDrive/SharePoint oder Stream hochzuladen.
+> Wenn eine Teams-Besprechungsaufzeichnung nicht erfolgreich in OneDrive/SharePoint hochgeladen werden kann, wird die Aufzeichnung stattdessen vorübergehend in Azure Media Services (AMS) gespeichert. Nachdem die Aufzeichnung in AMS gespeichert wurde, werden keine Wiederholungsversuche ausgeführt, um die Aufzeichnung automatisch in OneDrive/SharePoint oder Stream hochzuladen.
 
 Besprechungsaufzeichnungen, die in AMS gespeichert sind, sind 21 Tage lang verfügbar, bevor sie automatisch gelöscht werden. Benutzer können das Video von AMS herunterladen, wenn sie eine Kopie aufbewahren müssen.
 

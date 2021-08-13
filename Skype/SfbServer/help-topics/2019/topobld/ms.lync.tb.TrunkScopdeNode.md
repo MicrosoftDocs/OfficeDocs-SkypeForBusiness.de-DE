@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen vorhandenen SIP-Trunk, um Folgendes durchzuführen:'
-ms.openlocfilehash: 3b1d27e08c947d8558c888f2dd0ee5d2b59f1a66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Klicken Sie mit der rechten Maustaste auf einen vorhandenen SIP-Trunk im Topologie-Generator, um Folgendes auszuführen:'
+ms.openlocfilehash: a4cb9dc241ce5e18610645431739422ad5949e6162eb82028771971cdcffd986
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335385"
 ---
 # <a name="trunk-scope-node"></a>Trunk – Bereichsknoten
  
-Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen vorhandenen SIP-Trunk, um Folgendes durchzuführen:
+Klicken Sie mit der rechten Maustaste auf einen vorhandenen SIP-Trunk im Topologie-Generator, um Folgendes auszuführen:
   
 - **Eigenschaften bearbeiten**: Startet den Assistenten **Eigenschaften bearbeiten**, der zum Bearbeiten oder Neudefinieren der Konfiguration eines vorhandenen SIP-Trunks verwendet wird.
     

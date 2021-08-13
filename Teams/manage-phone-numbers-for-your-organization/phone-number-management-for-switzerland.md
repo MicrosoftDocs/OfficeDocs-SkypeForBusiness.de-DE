@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der Schweiz für Microsoft Teams.
-ms.openlocfilehash: 839434b5f91ad5f5bd9494dc1415dc3d8b3db41b09636ca834d332b962961c76
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 92cdc40c2a71d07d8ecac94d1daebebe073c013d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849130"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233010"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Telefon der Nummerverwaltung für die Schweiz
 

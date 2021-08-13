@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
-ms.openlocfilehash: 8f71651e78e31fdb7c049cf9f6ed058a5c6ee15913c769412af8476907c24988
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
+ms.openlocfilehash: f15b918536ff20f8baeeccbb5a11364346a173d3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848510"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233030"
 ---
 # <a name="phone-number-management-for-sweden"></a>Telefon der Nummerverwaltung für Schweden
 
-In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
+Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   

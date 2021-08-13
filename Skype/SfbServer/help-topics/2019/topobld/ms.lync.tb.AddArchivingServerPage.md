@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
 ROBOTS: NOINDEX, NOFOLLOW
-description: Zum Bereitstellen eines Archivierungsservers innerhalb des Topologieentwurfs müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem Sie die Archivierung bereitstellen möchten. Vor der Veröffentlichung einer Topologie, die die Archivierung und die Installation von Skype for Business Server umfasst, sollten alle Voraussetzungen für die Bereitstellung der Archivierung erfüllt sein.
-ms.openlocfilehash: 3e62ef4a74c4ec12d63abe047475733bc99ee8c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Zum Bereitstellen eines Archivierungsservers innerhalb des Topologieentwurfs müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem Sie die Archivierung bereitstellen möchten. Bevor Sie eine Topologie veröffentlichen, die die Archivierung und die Installation Skype for Business Server umfasst, sollten Sie alle Voraussetzungen für die Bereitstellung der Archivierung erfüllt haben.
+ms.openlocfilehash: f7951b9e65e2464ede7c57a9f75ecd25ba4fe16c0973acee66951846ba05f18a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335575"
 ---
 # <a name="add-archiving-server"></a>Hinzufügen des Archivierungsservers
  
-Zum Bereitstellen eines Archivierungsservers innerhalb des Topologieentwurfs müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem Sie die Archivierung bereitstellen möchten. Vor der Veröffentlichung einer Topologie, die die Archivierung und die Installation von Skype for Business Server umfasst, sollten alle Voraussetzungen für die Bereitstellung der Archivierung erfüllt sein. 
+Zum Bereitstellen eines Archivierungsservers innerhalb des Topologieentwurfs müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem Sie die Archivierung bereitstellen möchten. Bevor Sie eine Topologie veröffentlichen, die die Archivierung und die Installation Skype for Business Server umfasst, sollten Sie alle Voraussetzungen für die Bereitstellung der Archivierung erfüllt haben. 
   
 

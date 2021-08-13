@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 description: Das Planungstool verwendet Informationen zum Benutzerdatenverkehr, um die Anzahl der ports zu bestimmen, die in der Bereitstellung verwendet werden sollen. Diese Zahl bestimmt wiederum die Anzahl der erforderlichen Vermittlungsserver und Gateways. Ausführliche Informationen finden Sie unter "Schätzen der VoIP-Nutzung und des Datenverkehrs für Skype for Business Server 2015".
-ms.openlocfilehash: 1b710fc99252c23637be21b7fbd5507d187df475e69f3488d33bf92ed2e1370c
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: f3c56582d714dfb62d079ce3f72eedb8996eb22d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590739"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232880"
 ---
 # <a name="skype-for-business-server-voice-traffic-planning-tool"></a>Skype for Business Server Planungstool für VoIP-Datenverkehr
  

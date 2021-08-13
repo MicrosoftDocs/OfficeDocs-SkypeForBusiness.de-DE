@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Zusammenfassung: Erfahren Sie mehr über den Anrufdetailbericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336585"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Anrufdetailbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Anrufdetailbericht, der in Skype for Business Server verwendet wird.
   
-Der Anrufdetailbericht bietet einen detaillierten Blick auf einen einzelnen Anruf. Der Bericht enthält fast alle Metriken und Statistiken zur Qualität der Benutzererfahrung, die von Skype for Business Server erfasst wurden, aufgeteilt in Berichtsabschnitte wie:
+Der Anrufdetailbericht bietet einen detaillierten Überblick über einen einzelnen Anruf. Der Bericht enthält fast alle QoE-Metriken und Statistiken, die von Skype for Business Server gesammelt wurden, unterteilt in Berichtsabschnitte, z. B.:
   
 - Anrufinformationen 
     
@@ -51,17 +51,17 @@ Der Anrufdetailbericht ist sehr nützlich, wenn Sie genau feststellen möchten, 
 
 Auf den Anrufdetailbericht kann von einem der folgenden Berichte aus zugegriffen werden:
   
-- [Location Report in Skype for Business Server (location-report.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
+- Der [Standortbericht in Skype for Business Server (location-report.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
-- [Media Quality Summary Report in Skype for Business Server (summary.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
+- Der [Zusammenfassende Bericht über Medienqualität in Skype for Business Server (summary.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
-- Der [Vergleichsbericht über Medienqualität in Skype for Business Server](comparison.md) (durch Klicken auf den Anruflistenbericht in Skype for Business [Server](call-list-report-0.md) und anschließend auf die Metrik "Details").
+- Der [Vergleichsbericht über Medienqualität in Skype for Business Server](comparison.md) (durch Klicken auf den [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) und dann auf die Metrik "Detail").
     
-- Der [Bericht über Serverleistung in Skype for Business Server](server-performance.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
+- Der [Serverleistungsbericht in Skype for Business Server](server-performance.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
-- Der [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) (durch Klicken auf die Metrik "Details")
+- Der [Anruflistenbericht in Skype for Business Server](call-list-report-0.md) (durch Klicken auf die Metrik "Detail")
     
-Über den Anrufdetailbericht können Sie auf den [Gerätebericht in Skype for Business Server](device-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
+Im Anrufdetailbericht können Sie auf den [Gerätebericht in Skype for Business Server](device-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
   
 - Aufnahmegerät
     
@@ -73,9 +73,9 @@ Sie können auch auf den Trendbericht über Medienqualität des Servers zugreife
 
 Der Anrufdetailbericht umfasst normalerweise 250 verschiedene Metriken. Hierzu gehören Zeitstempelabweichung des Mikrofons, Geringer Rauschabstand, Zeit und Nahes Ende zu Echo, Zeit. Wenn Sie nicht genau wissen, was mit diesen Metriken gemessen wird, können Sie mit der Maus auf die Bezeichnung der Metrik zeigen. In den meisten Fällen erscheint dann eine QuickInfo mit einer Metrikbeschreibung.
   
-Wenn Sie Probleme beim Suchen nach einer Metrik haben, geben Sie einen Teil der Metrikbeschriftung in das Suchfeld ein, und klicken Sie dann auf **"Suchen".** Wenn Sie beispielsweise die Metrik "Low SNR time" nicht finden können, geben Sie SNR in das Suchfeld ein, und klicken Sie dann auf **"Suchen".**
+Wenn Sie Probleme beim Suchen einer Metrik haben, geben Sie einen Teil der Metrikbezeichnung in das Suchfeld ein, und klicken Sie dann auf **"Suchen".** Wenn Sie z. B. die Metrik "Low SNR time" nicht finden können, geben Sie "SNR" in das Suchfeld ein, und klicken Sie dann auf **"Suchen".**
   
-Beachten Sie, dass im Bericht nur Informationen zu einem Anruf nach verfolgt werden. Der Aufruf selbst wird nicht aufgezeichnet.
+Beachten Sie, dass der Bericht nur Informationen zu einem Anruf nachzeichnet. Der Anruf selbst wird nicht aufgezeichnet.
   
 ## <a name="filters"></a>Filter
 

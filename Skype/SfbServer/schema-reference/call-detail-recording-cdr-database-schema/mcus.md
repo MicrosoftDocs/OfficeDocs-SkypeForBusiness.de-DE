@@ -1,5 +1,5 @@
 ---
-title: Tabelle "Mcus" in Skype for Business Server 2015
+title: Mcus-Tabelle in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
-description: Bei der Tabelle "Mcus" handelt es sich um eine Tabelle mit Unterstützung. Jeder Datensatz speichert Informationen zu einem Konferenzdienst. Dazu können der Imkonferenzdienst und der Telefoniekonferenzdienst (die als Prozesse auf Front-End-Servern ausgeführt werden) sowie der Webkonferenzdienst und der A/V-Konferenzdienst gehören.
-ms.openlocfilehash: fe43bfc747cd08febe00a68925ad520b6add5846
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die Mcus-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Konferenzdienst. Dazu gehören der Chatkonferenzdienst und der Telefoniekonferenzdienst (der als Prozesse auf Front-End-Servern ausgeführt wird) sowie der Webkonferenzdienst und der A/V-Konferenzdienst.
+ms.openlocfilehash: 501736f91073b193f68a22dee8bf54899ee1250373258cf49fb19ed02af5c5e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352074"
 ---
-# <a name="mcus-table-in-skype-for-business-server-2015"></a>Tabelle "Mcus" in Skype for Business Server 2015
+# <a name="mcus-table-in-skype-for-business-server-2015"></a>Mcus-Tabelle in Skype for Business Server 2015
  
-Bei der Tabelle "Mcus" handelt es sich um eine Tabelle mit Unterstützung. Jeder Datensatz speichert Informationen zu einem Konferenzdienst. Dazu können der Imkonferenzdienst und der Telefoniekonferenzdienst (die als Prozesse auf Front-End-Servern ausgeführt werden) sowie der Webkonferenzdienst und der A/V-Konferenzdienst gehören. 
+Die Mcus-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Konferenzdienst. Dazu gehören der Chatkonferenzdienst und der Telefoniekonferenzdienst (der als Prozesse auf Front-End-Servern ausgeführt wird) sowie der Webkonferenzdienst und der A/V-Konferenzdienst. 
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**McuId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Konferenzserver identifiziert.  <br/> |
+|**McuId** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Konferenzserver identifiziert.  <br/> |
 |**McuUri** <br/> |nvarchar(450)  <br/> | <br/> | <br/> |
-|**McuTypeId** <br/> |inyint  <br/> | Fremd <br/> |Konferenzservertyp, z. B. conf:chat (für IMs) oder conf:audio-video. Weitere Informationen finden Sie in der [Tabelle "UriTypes".](uritypes.md) <br/> |
+|**McuTypeId** <br/> |inyint  <br/> | Ausländisch <br/> |Konferenzservertyp, z. B. conf:chat (für IMs) oder conf:audio-video. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
    
 

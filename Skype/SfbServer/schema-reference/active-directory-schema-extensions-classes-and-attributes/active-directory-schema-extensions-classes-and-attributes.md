@@ -13,24 +13,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Dieser Referenzbereich enthält die folgenden Informationen:'
-ms.openlocfilehash: 5c8a1ceb6b623466219cbd3df46ff2b39ccceb2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 25532271f7a34b6861d0817de9e5e7526c1165d255f9a17a2b8a79414bc2ba05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352124"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory-Schemaerweiterungen, -Klassen und -Attribute
  
 Dieser Referenzbereich enthält die folgenden Informationen: 
   
-- Active Directory-Schemaerweiterungen, die für Skype for Business Server neu sind oder geändert wurden
+- Neue oder geänderte Active Directory-Schemaerweiterungen für Skype for Business Server
     
     Das Active Directory-Schema enthält formale Definitionen für alle Objektklassen, die in einer Active Directory-Gesamtstruktur erstellt werden können. Das Schema enthält darüber hinaus auch formale Definitionen für alle Attribute, die für ein Active Directory-Objekt vorhanden sein können. Der globale Katalog von Active Directory enthält Replikate aller Objekte für die Gesamtstruktur sowie eine Teilmenge der Attribute für die einzelnen Objekte. In diesem Abschnitt werden die Klassen und Attribute beschrieben, die in Skype for Business Server neu sind oder geändert wurden.
     
-- Alle von Skype for Business Server verwendeten Klassen mit einer Beschreibung der einzelnen Klassen
+- Alle von Skype for Business Server verwendeten Klassen mit jeweils einer Beschreibung
     
-- Alle von Skype for Business Server verwendeten Attribute mit einer Beschreibung der einzelnen Attribute
+- Alle von Skype for Business Server verwendeten Attribute mit jeweils einer Beschreibung
     
 - Eine Liste der von Skype for Business Server verwendeten Klassen mit den Attributen, die jeweils enthalten sein können
     
@@ -52,12 +52,12 @@ Dieser Referenzbereich enthält die folgenden Informationen:
     
 - [Schemaattribute nach Klasse in Skype for Business Server](schema-attributes-by-class.md)
     
-- [Änderungen, die bei der Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen wurden](changes-made-by-forest-preparation.md)
+- [Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server](changes-made-by-forest-preparation.md)
     
-- [Änderungen, die bei der Domänenvorbereitung in Skype for Business Server vorgenommen wurden](changes-made-by-domain-preparation.md)
+- [Änderungen, die durch die Domänenvorbereitung in Skype for Business Server](changes-made-by-domain-preparation.md)
     
-- [Änderungen, die von Grant-CsSetupPermission in Skype for Business Server vorgenommen werden](changes-made-by-grant-cssetuppermission.md)
+- [Von Grant-CsSetupPermission in Skype for Business Server vorgenommene Änderungen](changes-made-by-grant-cssetuppermission.md)
     
-- [Änderungen, die von Grant-CsOUPermission in Skype for Business Server vorgenommen werden](changes-made-by-grant-csoupermission.md)
+- [Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen](changes-made-by-grant-csoupermission.md)
     
 

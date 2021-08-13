@@ -15,15 +15,14 @@ description: Erstellen Sie eine Änderungsverwaltungsstrategie für Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f40d50c4193bd1670360a75c1b8357c7bbc0bfa407600dc7118634c80c01aff8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9340d33f4f22af551fd9fb3421dc3e9ca2a1eff9
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347510"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232830"
 ---
-<a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
-=======================================================
+# <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 
 Eine Change Management-Strategie für das Informieren der Endbenutzer und die Akzeptanz neuer Technologien ist ausschlaggebend für den erfolgreichen Rollout jeder neuen Technologie in einer Organisation. Mit der erfolgreichen Durchführung dieser Maßnahmen stellen Sie sicher, dass die Benutzer die neuen Funktionen akzeptieren und mit ihnen zufrieden sind.  Die unten genannten Schritte können Sie je nach Größe Ihrer Organisation ändern. Achten Sie aber darauf, ständig mit den Beteiligten, Pionieren, IT-Administratoren und Benutzern zu kommunizieren, da dies für erfolgreiche Veränderungen unerlässlich ist.  
 
@@ -53,16 +52,15 @@ Bewährte Methoden für Change Management für Microsoft Teams:
 
 7.  Anpassen Ihrer Kommunikation und Ihrer Methoden auf der Grundlage des Feedbacks, Wiederholen
 
-<a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifizieren der wichtigsten Beteiligten, Pioniere und Benutzerprofile
------------------------------------------------
+## <a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifizieren der wichtigsten Beteiligten, Pioniere und Benutzerprofile
 
 Die erste Regel für eine erfolgreiche Einführung ist die Bildung eines dynamischen Teams, das sich aus den wichtigsten Beteiligten und den richtigen Personen zusammensetzt, und die Änderungen bei anderen vorantreiben und bewirken können. Eine erfolgreiche Einführungsstrategie beginnt mit einem Team aus engagierten Einzelpersonen, die einen Querschnitt Ihrer Organisation darstellen. Wichtige Rollen von Beteiligten sind unter anderem Befürworter aus der Führungsebene, Dienstbesitzer, IT-Spezialisten und Pioniere.
 
 |Symbol  |Beschreibung  |
 |---------|---------|
 |![Symbol für Befürworter aus der Führungsebene](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**Befürworter aus der Führungsebene** sind wichtige Führungskräfte innerhalb der Organisation. Ihre Beteiligung spielt eine wichtige Rolle dabei, die Einführung durch die Mitarbeiter voranzutreiben. Sie haben den größten Einfluss auf die Firmenkultur und können aktiv den Wert und die Vorteile einer neuen Technologie und Arbeitsweise vermitteln.         |
-|![Symbol für Dienstbesitzer](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Die Dienstbesitzer** sind dafür verantwortlich, sicherzustellen, dass die Mitarbeiter den Dienst nutzen und damit den Nutzen nutzen. Das Festlegen von Dienstbesitzern innerhalb Ihrer Organisation ist wichtig, um sicherzustellen, dass die Geschäftsziele, die für die Microsoft 365 oder Office 365 festgelegt wurden, Office 365 werden.         |
-|![Symbol für Pioniere](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Das Gewinnen des Buy-Ins von jedem Benutzer innerhalb einer Organisation ist eine Herausforderung. **Diese** Herausforderung kann von den Champions gemildert werden und eine wichtige Rolle bei der Akzeptanz Microsoft 365 oder Office 365. Sie sind kenntnisfähig, verpflichtet, ihr Fachwissen weiter zu nutzen, und sind bereit, Peer-Peer-Unterstützung zu bieten. Sie helfen Ihnen, Microsoft 365 oder Office 365 in die Realität ihrer Abteilung oder Ihres Teams zu übersetzen.         |
+|![Symbol für Dienstbesitzer](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Die Dienstbesitzer** sind dafür verantwortlich, dass die Mitarbeiter den Dienst verwenden und damit den Nutzen nutzen können. Das Festlegen von Dienstbesitzern innerhalb Ihrer Organisation ist wichtig, um sicherzustellen, dass die Geschäftsziele, die für die Microsoft 365 oder Office 365 festgelegt wurden, erreicht werden.         |
+|![Symbol für Pioniere](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Das Gewinnen des Buy-Ins von jedem Benutzer innerhalb einer Organisation ist eine Herausforderung. **Die** Champions können helfen, diese Herausforderung zu entschärfungten und eine wichtige Rolle bei der Einführung von Microsoft 365 oder Office 365. Sie sind kenntnisfähig, verpflichtet, ihr Fachwissen weiter zu nutzen, und sind bereit, Peer-Peer-Unterstützung zu bieten. Sie helfen Ihnen, Microsoft 365 oder Office 365 in die Realität ihrer Abteilung oder Ihres Teams zu übersetzen.         |
 
 Wir empfehlen eine regelmäßige Besprechung dieser Projektbeteiligten, um sie über den Fortschritt Ihres Programms auf dem laufenden zu halten. Die Initiierung eines "Zusammenarbeitsrates", um Feedback und Diskussionen zu ermöglichen, kann je nach Unternehmenskultur ein nützliches Tool sein.
 
@@ -72,15 +70,13 @@ Wir empfehlen eine regelmäßige Besprechung dieser Projektbeteiligten, um sie �
 > [!TIP]
 > Diese Personen, die die größten Hindernisse für Veränderungen darstellen können, können bei einer derartigen Bereitstellung zu Ihren besten Verbündeten werden. Treten Sie frühzeitig und häufig mit diesen Mitgliedern Ihrer Organisation in Verbindung, um ihre Bedenken und Probleme zu erfahren. Sie können Ihnen oft wertvolles Feedback geben, durch das Ihre Initiative erfolgreicher wird.
 
-<a name="user-profiles"></a>Benutzerprofile
--------------
+## <a name="user-profiles"></a>Benutzerprofile
 
 Ebenso wichtig ist es, dass Sie die Benutzertypen in Ihrer Umgebung verstehen. Gibt es Benutzer, die in erster Linie mobil arbeiten? Gibt es Benutzer, die ständig an Besprechungen teilnehmen oder Präsentationen abhalten? Wissen Sie, welche der Benutzer die größten Schwierigkeiten mit den vorhandenen Zusammenarbeitslösungen haben? Wenn Sie Ihre Benutzercommunity in Segmente einteilen, können Sie die Gruppen finden, die Veränderungen gegenüber am aufgeschlossensten sind. Diese Gruppen sind oft am besten für frühe Pilotprojekte im Unternehmen geeignet, und ihr Feedback ist äußerst wertvoll.
 
 Wenn Sie verstehen, wie der Arbeitsalltag Ihrer Benutzer aussieht, können Sie Ihre Geschäftsergebnisse priorisieren, für die Bereitstellung geeignete Einführungsziele erarbeiten und die Nutzung im Lauf der Zeit unterstützen.
 
-<a name="champions"></a>Pioniere
----------
+## <a name="champions"></a>Pioniere
 
 Wenn Sie die Personen identifizieren, die zu Ihren Pionieren für Zusammenarbeit werden können, erhalten Sie ein erweitertes Supportteam für Ihre Implementierung. Schaffen Sie eine Community, indem Sie ihnen frühe Einblicke gewähren und Feedback zu Ihren Plänen ermöglichen. Jede Investition in diese Community – sei es Zeit, Aufmerksamkeit oder Anerkennung – rentiert sich in Form ihrer Unterstützung und Befürwortung der Implementierung.
 
@@ -88,8 +84,7 @@ Wenn Sie die Personen identifizieren, die zu Ihren Pionieren für Zusammenarbeit
 
 Weitere Informationen zum Einrichten eines Pionierprogramms finden Sie unter [Einrichten eines Pionierprogramms](https://go.microsoft.com/fwlink/?linkid=854665).
 
-<a name="identify-and-select-your-business-scenarios"></a>Identifizieren und Auswählen Ihrer Geschäftsszenarien
----------------------------------------------------------------
+## <a name="identify-and-select-your-business-scenarios"></a>Identifizieren und Auswählen Ihrer Geschäftsszenarien
 
 Wenn Sie die wichtigsten Beteiligten und Benutzersegmente identifiziert haben, können Sie Ihre Geschäftsszenarien wesentlich leichter identifizieren. Hier sind ein paar Beispiele für Geschäftsergebnisse:
 
@@ -107,8 +102,7 @@ Außerdem ist es ratsam, die Benutzer zu berücksichtigen, die in diese Szenarie
 
 Technologieprojekte werden vor Herausforderungen gestellt, wenn den menschlichen Anforderungen an das Change Management wenig oder gar keine Aufmerksamkeit gewidmet wird. Wenn Sie sich an diese Empfehlungen halten, vergrößern Sie Ihre Erfolgschancen!
 
-<a name="design-launch-and-manage-your-adoption-campaign"></a>Entwerfen, Starten und Verwalten Ihrer Einführungsinitiative
--------------------------------------------------
+## <a name="design-launch-and-manage-your-adoption-campaign"></a>Entwerfen, Starten und Verwalten Ihrer Einführungsinitiative
 
 Sowohl für Ihre anfänglichen Pilotprojekte als auch für den letztendlichen firmenweiten Rollout sollte Ihre interne Kommunikation Priorität haben. Dazu gehören folgende Elemente:
 
@@ -142,10 +136,9 @@ Wie bei jeder Kommunikations- und Einführungsinitiative sollten Sie Ihre Erfolg
 
 -   Teilnahme an Schulungsveranstaltungen
 
-<a name="measure-and-share-success"></a>Messen und Teilen des Erfolgs
--------------------------------------------------
+## <a name="measure-and-share-success"></a>Messen und Teilen des Erfolgs
 
-Dem Projektteam sollten IT-Administratoren aus Ihrer Organisation angehören. Diese Personen haben Zugriff auf die Microsoft 365 oder Office 365 Microsoft Teams- und Nutzungsberichte, die in die Benutzererfahrung Microsoft 365 Admin Center sind. Diese Informationen können Aufschluss über die Nutzung von Microsoft Teams in Ihrer Firma geben. Wir empfehlen auch, direktes Feedback von den Benutzern einzuholen: Wie beurteilen sie ihre Erfahrungen mit Microsoft Teams? Haben sie Ideen für weitere Verwendungsmöglichkeiten? Die Weitergabe dieser Beispiele aus der Praxis in Ihrer eigenen Firma ist äußerst wertvoll, um im Lauf der Zeit nachhaltige Veränderungen in Ihrer Benutzercommunity zu erreichen.  
+Dem Projektteam sollten IT-Administratoren aus Ihrer Organisation angehören. Diese Personen haben Zugriff auf die Microsoft 365 oder Office 365 Microsoft Teams- und Nutzungsberichte, die in die Berichterstattung Microsoft 365 Admin Center sind. Diese Informationen können Aufschluss über die Nutzung von Microsoft Teams in Ihrer Firma geben. Wir empfehlen auch, direktes Feedback von den Benutzern einzuholen: Wie beurteilen sie ihre Erfahrungen mit Microsoft Teams? Haben sie Ideen für weitere Verwendungsmöglichkeiten? Die Weitergabe dieser Beispiele aus der Praxis in Ihrer eigenen Firma ist äußerst wertvoll, um im Lauf der Zeit nachhaltige Veränderungen in Ihrer Benutzercommunity zu erreichen.  
 
 Weitere Informationen zu den Microsoft Teams Nutzungsberichten in der Microsoft 365 Admin Center [hier](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
@@ -156,4 +149,4 @@ Weitere Informationen zu den Microsoft Teams Nutzungsberichten in der Microsoft 
 
 Veränderungen in einer Organisation voranzutreiben, ist kein einzelnes Ereignis, sondern ein kontinuierlicher Prozess. Ihre Kick-off-Besprechung bildet nur den Anfang dabei, Benutzern effektivere Zusammenarbeit zu ermöglichen. Es ist wichtig, Momente auf diesem Weg zu planen, die Ihre Erfolge hervorheben, neue Features vorstellen und sich mit Ihrer allgemeinen Microsoft 365- oder Office 365-Dienststrategie verbinden, die Ihre IT-Abteilung erstellen wird. Wenn Sie sicherstellen, dass Ihre Benutzer nicht überfordert, sondern engagiert sind, verringern Sie ihre Veränderungsmüdigkeit und unterstützen sie dabei, von alten Gewohnheiten – beispielsweise dem Senden von E-Mail-Anlagen – zu lassen und stattdessen etwas Neues zu akzeptieren, zum Beispiel das Speichern von Dokumenten in der Cloud.
 
-Teilen Sie Ihre Fragen zur Einführung von Teams und Microsoft 365 oder [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) Office 365 in der Community zur treibenden Annahme auf der Microsoft Technical Community Website mit anderen. Wir freuen uns immer, von Ihnen zu hören und Sie bei Ihrer Einführung zu unterstützen.
+Teilen Sie Ihre Fragen zur Einführung von Teams und Microsoft 365 oder Office 365 [](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) in der Community zur treibenden Annahme auf der Website Microsoft Technical Community mit anderen. Wir freuen uns immer, von Ihnen zu hören und Sie bei Ihrer Einführung zu unterstützen.

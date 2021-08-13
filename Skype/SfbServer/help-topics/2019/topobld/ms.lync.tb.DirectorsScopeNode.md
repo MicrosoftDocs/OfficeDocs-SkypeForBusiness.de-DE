@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Unterhalb des Knotens Director-Pools werden die Director-Pools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 86a52e6016d6449e49eb067fe9ad9c3e51be896d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7ae37c6cdfc050a485d84f614052304da02af4e6b89ce03baf6279e441b9ec45
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335425"
 ---
 # <a name="directors-scope-node"></a>Directors – Bereichsknoten
  
@@ -30,7 +30,7 @@ Unterhalb des Knotens **Director-Pools** werden die Director-Pools in Ihrer Topo
     
 Zusätzlich zu den Optionen für Director-Pools sind die folgenden allgemeinen Optionen verfügbar:
   
-- **Topologie**. Mit dieser Option können Sie eine neue Topologie definieren, eine vorhandene Topologie öffnen, die aktuelle Topologie herunterladen, eine Kopie der Topologie speichern, die Topologie veröffentlichen, eine Datenbank installieren, Komponenten aus früheren Versionen zusammenführen oder die Bereitstellung entfernen.
+- **Topologie**. Sie können diese Option verwenden, um eine neue Topologie zu definieren, eine vorhandene Topologie zu öffnen, die aktuelle Topologie herunterzuladen, eine Kopie der Topologie zu speichern, die Topologie zu veröffentlichen, eine Datenbank zu installieren, Komponenten aus früheren Versionen zusammenzuführen oder die Bereitstellung zu entfernen.
     
 - **Ansicht**: Mithilfe dieser Option können Sie die Ansicht des Topologie-Generators anpassen, indem Sie die Elemente auswählen, die in den Ansichten der Konsolenstruktur ein- bzw. ausgeblendet werden sollen.
     
