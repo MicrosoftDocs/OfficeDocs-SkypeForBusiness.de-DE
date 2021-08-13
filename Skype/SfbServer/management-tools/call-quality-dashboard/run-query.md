@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
-description: 'Zusammenfassung: Informationen zum Ausführen des Abfragevorgangs, der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: bff24ca5a4d651ba276b4b0d795afabce3c6d0dd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Abfrage ausführen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 860760303510b792cba70fc211ac8b7f9b994996b4937aa333ed54fcffb6eb75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340861"
 ---
 # <a name="run-query"></a>Ausführen einer Abfrage
 
-**Zusammenfassung:** Erfahren Sie mehr über den Abfragevorgang ausführen, der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitätsdashboard ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Abfrage ausführen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
 
-Der Vorgang "Abfrage ausführen" ist Teil der Daten-API für das Anrufqualitätsdashboard.
+Der Vorgang "Abfrage ausführen" ist Teil der Daten-API für das Anrufqualitäts-Dashboard.
 
 ## <a name="run-query"></a>Ausführen einer Abfrage
 
-Der Abfragevorgang ausführen ermöglicht das Ausführen einer Abfrage für den Cube basierend auf angegebenen Dimensionen, Messungen und Filtern sowie das Zurückgeben der Daten.
+Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage auf dem Cube basierend auf angegebenen Dimensionen, Maßen und Filtern auszuführen und die Daten zurückzugeben.
 
 
-|**Methode**|**Anforderungs-URI**|**HTTP Version**|
+|**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
 |POST  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
  **URI-Parameter** : Keine.
 
- **Anforderungsheader** – Keine zusätzlichen Header.
+ **Anforderungsheader** – keine zusätzlichen Kopfzeilen.
 
- **Anforderungstext** : Hier sehen Sie eine Beispielanforderungsnutzlast in JSON. Sie enthält Dimensionen, Filter und Maßangaben, die für eine Abfrage erforderlich sind.
+ **Anforderungstext** – Hier ist eine Beispielanforderungsnutzlast in JSON. Es enthält Dimensionen, Filter und Maßangaben, die für eine Abfrage erforderlich sind.
 
 ```json
 {
@@ -74,21 +74,21 @@ Der Abfragevorgang ausführen ermöglicht das Ausführen einer Abfrage für den 
 }
 ```
 
- *Filter*  – Eine Liste der anzuwendenden Filterausdrücke, damit der resultierende Datensatz nur die Teilmenge der daten wiederspiegelt, die von Interesse sind.
+ *Filter*  – Eine Liste der anzuwendenden Filterausdrücke, sodass der resultierende Datensatz nur die Teilmenge der daten wiedergibt, die von Interesse sind.
 
- *Dimensionen*  – Eine Liste der Dimensionen, die zum Aggregieren der Daten verwendet werden. Mindestens eine Dimension ist erforderlich, es können jedoch mehrere Dimensionen angegeben werden, um zusätzliche Ebenen von Unteraggregationen zu erhalten.
+ *Dimensionen*  – Eine Liste der Dimensionen, die zum Aggregieren der Daten verwendet werden. Mindestens eine Dimension ist erforderlich, es können jedoch mehrere Dimensionen angegeben werden, um zusätzliche Unteraggregationenebenen zu erhalten.
 
- *Messungen*  – Eine Liste von Messungen, auch bekannt als Fakten, die die gewünschten Metriken sind, die basierend auf den angegebenen Dimensionen aggregiert werden sollen.
+ *Maßangaben*  – eine Liste von Messungen, auch als Fakten bezeichnet, bei denen es sich um die gewünschten Metriken handelt, die basierend auf den angegebenen Dimensionen aggregiert werden sollen.
 
- *Trend*  – Zusätzliche Steuerelementanweisungen zum Anpassen der Ergebnisdaten.
+ *Trend*  – Zusätzliche Steuerungsanweisungen zum Anpassen der Ergebnisdaten.
 
  **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
 
  **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
 
- **Antwortheader** : Keine zusätzlichen Header.
+ **Antwortheader** – keine zusätzlichen Kopfzeilen.
 
- **Antworttext** : Unten finden Sie eine Beispielantwortnutzlast in JSON. Sie enthält eine Datentabelle, die die Daten enthält. Außerdem enthält sie eine Metadaten, die die Abfrageausführungszeit und zeigt, ob die Daten aus dem Cache stammt.
+ **Antworttext** : Unten sehen Sie eine Beispielantwortnutzlast in JSON. Sie enthält eine Datentabelle, die die Daten enthält, außerdem enthält sie metadaten, die die Ausführungszeit der Abfrage anzeigen und angeben, ob die Daten aus dem Cache stammen oder nicht.
 
 ```json
 {
@@ -123,8 +123,8 @@ Der Abfragevorgang ausführen ermöglicht das Ausführen einer Abfrage für den 
 }
 ```
 
- *Ausführungszeit*  – Die Gesamtzeit, die der Server zum Zurückgeben der Daten brauchte. Dies kann den Cache umfassen oder nicht.
+ *Ausführungszeit*  – Die Gesamtzeit, die der Server für die Rückgabe der Daten benötigte. Dies kann den Cache beinhalten oder nicht.
 
- *Datenergebnis*  – Das Ergebnis der Abfrage. Es handelt sich um ein zweidimensionales Array, das alle Permutationen der Dimensionselemente und jedes Element enthält, das die Elementnamen der Dimensionen sowie die aggregierten Werte der angegebenen Messungen enthält.
+ *Datenergebnis*  – Das Ergebnis der Abfrage. Es handelt sich um ein zweidimensionales Array, das alle Permutationen der Elemente der Dimensionen und jedes Element mit den Elementnamen der Dimensionen sowie die aggregierten Werte der angegebenen Maßeinheiten enthält.
 
- *Ergebnis ist "Aus Cache"*  – für die Diagnose. Gibt an, ob das Ergebnis aus dem Cache oder aus dem QoE-Cube stammt.
+ *Result is From Cache*  – For diagnostics. Gibt an, ob das Ergebnis aus dem Cache oder aus dem QoE-Cube stammt.

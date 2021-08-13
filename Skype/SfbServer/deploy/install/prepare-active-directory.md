@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ihre Active Directory-Domäne auf eine Installation von Skype for Business Server vorbereiten. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 99eb376dd9a47c5b4e342627592186f94c5e80cc
+ms.openlocfilehash: 40225e6efdf848c34d2b7184e4d8863182ef78494e179e27c4fa8ca322f7349d
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772786"
+ms.locfileid: "54300291"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server: Vorbereiten von Active Directory
  
@@ -61,7 +61,7 @@ Sehen Sie sich die Videoschritte für **die Vorbereitung von Active Directory** 
     
     a. Überprüfen Sie die Voraussetzungen für Schritt 1, auf die Sie zugreifen können, indem Sie auf die Dropdownliste unter dem Titel "Schritt 1" klicken.
     
-    b. Klicken Sie in Schritt 1 auf **"Ausführen",** um den Assistenten zum Vorbereiten des Schemas zu starten.
+    b. Klicken Sie in Schritt 1 auf **Ausführen,** um den Assistenten zum Vorbereiten des Schemas zu starten.
     
     c. Beachten Sie, dass das Verfahren für jede Bereitstellung nur einmal ausgeführt werden soll, und klicken Sie dann auf **"Weiter".**
     
@@ -164,18 +164,18 @@ Sehen Sie sich die Videoschritte für **die Vorbereitung von Active Directory** 
     e. Vergewissern Sie sich auf der Registerkarte **"Mitglieder",** dass die ausgewählten Benutzer oder Gruppen vorhanden sind. Klicken Sie auf **OK**.
     
     > [!CAUTION]
-    > Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" bietet einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, vollzugriff auf alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Ausführliche Informationen zu den verfügbaren Rollen finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md) Beachten Sie, dass Benutzer nicht für Skype for Business Server aktiviert werden müssen, um Mitglieder der Verwaltungsgruppen werden zu können. 
+    > Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" bietet einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, Vollzugriff für alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Ausführliche Informationen zu den verfügbaren Rollen finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md) Beachten Sie, dass Benutzer nicht für Skype for Business Server aktiviert sein müssen, um Mitglieder der Verwaltungsgruppen werden zu können. 
   
     > [!CAUTION]
     > Um die Integrität der Sicherheit und der rollenbasierten Zugriffssteuerung beizubehalten, fügen Sie Den Gruppen Benutzer hinzu, die definieren, welche Rolle der Benutzer bei der Verwaltung der Skype for Business Server Bereitstellung ausführt. 
   
-11. Melden Sie sich ab, und melden Sie sich dann wieder bei Windows an, sodass Ihr Sicherheitstoken mit der neuen Sicherheitsgruppe Skype for Business Server aktualisiert wird, und öffnen Sie dann den Bereitstellungs-Assistenten erneut.
+11. Melden Sie sich ab, und melden Sie sich dann wieder bei Windows an, damit Ihr Sicherheitstoken mit der neuen sicherheitsgruppe Skype for Business Server aktualisiert wird, und öffnen Sie dann den Bereitstellungs-Assistenten erneut.
     
 12. Stellen Sie sicher, dass neben **"Active Directory** vorbereiten" ein grünes Häkchen angezeigt wird, um den Erfolg zu bestätigen, wie in der Abbildung dargestellt.
     
      ![Vorbereiten von Active Directory abgeschlossen.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
  
 [Active Directory Domain Services für Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

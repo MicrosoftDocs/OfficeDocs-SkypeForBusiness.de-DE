@@ -1,5 +1,5 @@
 ---
-title: Phase 4 Testbenutzer in den Pilot Pool versetzen
+title: Phase 4 Verschieben von Testbenutzern in den Pilotpool
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Sie können einen einzelnen Benutzer oder Benutzergruppen in die neue Microsoft Skype for Business Server 2019-Bereitstellung mit den folgenden beiden Methoden migrieren: Skype for Business Server Systemsteuerung und Skype for Business Server Verwaltungsshell. In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie während der Pilotbereitstellung ausführen müssen, sowie vor dem Verschieben der Bereitstellung von Skype for Business Server 2019 von einer Pilotbereitstellung zu einer Bereitstellung auf Produktionsebene.'
-ms.openlocfilehash: 776cb3a3f7be7c610d0f796593e4ec4a4d25a285
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 'Mit den folgenden beiden Methoden können Sie einen oder mehrere Benutzergruppen in die neue Microsoft Skype for Business Server 2019-Bereitstellung verschieben: Skype for Business Server Systemsteuerung und Skype for Business Server Verwaltungsshell. In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie während der Pilotbereitstellung sowie vor dem Verschieben der Bereitstellung von Skype for Business Server 2019 von einer Pilotbereitstellung in eine Bereitstellung auf Produktionsebene ausführen müssen.'
+ms.openlocfilehash: 612ec4dd77821a6ad36d6bb06feddd1c59f9cb3b0c78836db3b4133741aa3262
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752327"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300541"
 ---
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Phase 4: verlagern von Testbenutzern in den Pilot Pool
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Phase 4: Verschieben von Testbenutzern in den Pilotpool
 
-Sie können einen einzelnen Benutzer oder Benutzergruppen in die neue Microsoft Skype for Business Server 2019-Bereitstellung mit den folgenden beiden Methoden migrieren: Skype for Business Server Systemsteuerung und Skype for Business Server Verwaltungsshell. In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie während der Pilotbereitstellung ausführen müssen, sowie vor dem Verschieben der Bereitstellung von Skype for Business Server 2019 von einer Pilotbereitstellung zu einer Bereitstellung auf Produktionsebene.
+Mit den folgenden beiden Methoden können Sie einen oder mehrere Benutzergruppen in die neue Microsoft Skype for Business Server 2019-Bereitstellung verschieben: Skype for Business Server Systemsteuerung und Skype for Business Server Verwaltungsshell. In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie während der Pilotbereitstellung sowie vor dem Verschieben der Bereitstellung von Skype for Business Server 2019 von einer Pilotbereitstellung in eine Bereitstellung auf Produktionsebene ausführen müssen.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
@@ -28,8 +28,8 @@ Sie können einen einzelnen Benutzer oder Benutzergruppen in die neue Microsoft 
     
 - [Überprüfen, ob die Benutzerreplikation abgeschlossen wurde](verify-user-replication-has-completed.md)
     
-- [Verlagern eines einzelnen Benutzers in den Pilot Pool](move-a-single-user-to-the-pilot-pool.md)
+- [Verschieben eines einzelnen Benutzers in den Pilotpool](move-a-single-user-to-the-pilot-pool.md)
     
-- [Mehrere Benutzer in den Pilot Pool migrieren](move-multiple-users-to-the-pilot-pool.md)
+- [Verschieben mehrerer Benutzer in den Pilotpool](move-multiple-users-to-the-pilot-pool.md)
     
 

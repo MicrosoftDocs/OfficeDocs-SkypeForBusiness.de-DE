@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
-description: In den folgenden Themen werden die Spalten in den einzelnen Schematabellen für die Datenbank für den beständigen Chat ausführlich beschrieben.
-ms.openlocfilehash: 71cec482d5b799eefc1817b84993a9fbe3ca884a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In den folgenden Themen werden die Spalten in jeder Datenbankschematabelle für beständigen Chat ausführlich beschrieben.
+ms.openlocfilehash: 4419f9e5b0735aee8d2aae5ae9804cc7f93a7dc9403a1419a4247afca3f23ddb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341680"
 ---
 # <a name="persistent-chat-server-table-details"></a>Ausführliche Informationen zur Tabelle für den Server für beständigen Chat
  
-In den folgenden Themen werden die Spalten in den einzelnen Schematabellen für die Datenbank für den beständigen Chat ausführlich beschrieben.
+In den folgenden Themen werden die Spalten in jeder Datenbankschematabelle für beständigen Chat ausführlich beschrieben.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Erfahren Sie mehr über die Verwendung von Azure ExpressRoute, um ein Netzwerk mit Bandbreitenanforderungen und Quality of Service-Funktionen für eine Benutzererfahrung auf Unternehmensklasse zu erstellen. '
-ms.openlocfilehash: b6f2ecbf53ab4fc7e2bb066b8eaf4e167a81f181
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0dd1b95006dcc493baa46a31ea34c5aaff1465010146c16926c9af151e6442af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237181"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325662"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute und QoS in Skype for Business Online
 

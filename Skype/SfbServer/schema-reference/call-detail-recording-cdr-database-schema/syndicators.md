@@ -1,5 +1,5 @@
 ---
-title: Tabelle "Syndicators"
+title: Syndicators-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
-description: Die SyndicatorsTable ist nur für die interne Verwendung. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: c1aaadba404a1f3a82ef5a4e7b4b0108697ef79a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die SyndicatorsTable ist nur für die interne Verwendung vorgesehen. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+ms.openlocfilehash: f829f97ce48999a74288f727bf371632b866ee6e9c6303cc3f41a062cdf0bd08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341690"
 ---
-# <a name="syndicators-table"></a>Tabelle "Syndicators"
+# <a name="syndicators-table"></a>Syndicators-Tabelle
  
-Die SyndicatorsTable ist nur für die interne Verwendung. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
+Die SyndicatorsTable ist nur für die interne Verwendung vorgesehen. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   
 

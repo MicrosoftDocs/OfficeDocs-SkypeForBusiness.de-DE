@@ -16,26 +16,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Aktivieren Sie Benutzer für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6ff85008481a1742fd0092aa83361917fd4cbf0795ec52304acc10631f00d621
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830955"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300321"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Aktivieren des Parkens von Anrufen für Benutzer in Skype for Business
  
 Aktivieren Sie Benutzer für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
   
-Standardmäßig ist das Parken von Anrufen für alle Benutzer deaktiviert. Benutzer können Anrufe erst parken oder geparkte Anrufe abrufen, wenn sie in der Sprachrichtlinie für das Parken von Anrufen aktiviert sind.
+Standardmäßig ist das Parken von Anrufen für alle Benutzer deaktiviert. Benutzer können Anrufe nicht parken oder geparkte Anrufe abrufen, bis sie in der VoIP-Richtlinie für das Parken von Anrufen aktiviert sind.
   
-Sie können das Parken von Anrufen auf globaler ebene oder auf Standort- oder Benutzerbereich aktivieren. Der Benutzerbereich hat Vorrang vor dem Standortbereich, und der Standortbereich hat Vorrang vor dem globalen Bereich. Wenn Sie über mehrere Richtlinien für Sprachanrufe verfügen, überprüfen Sie alle Richtlinien, um das Parken von Anrufen zu aktivieren, nicht nur die globale Richtlinie.
+Sie können das Parken von Anrufen auf globaler Oder Standort- oder Benutzerebene aktivieren. Der Benutzerbereich hat Vorrang vor dem Standortbereich, und der Websitebereich hat Vorrang vor dem globalen Bereich. Wenn Sie über mehrere VoIP-Richtlinien verfügen, überprüfen Sie alle Richtlinien, um das Parken von Anrufen zu aktivieren, nicht nur die globale Richtlinie.
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>So aktivieren Sie das Parken von Anrufen für Benutzer mithilfe der Skype for Business Server-Systemsteuerung
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>So verwenden Sie Skype for Business Server Systemsteuerung, um das Parken von Anrufen für Benutzer zu aktivieren
 
 1. Melden Sie sich als Mitglied der Gruppe **RTCUniversalServerAdmins** oder als Benutzer mit der Administratorrolle **CsVoiceAdministrator**, **CsServerAdministrator** oder **CsAdministrator** beim Computer an.
     
-2. Öffnen Sie die Skype for Business Server-Systemsteuerung.
+2. Öffnen Sie Skype for Business Server Systemsteuerung.
     
 3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.
     
@@ -51,15 +51,15 @@ Sie können das Parken von Anrufen auf globaler ebene oder auf Standort- oder Be
 
 1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der administrativen Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie auf **"Start",**"Alle **Programme",** **"Skype for Business 2015"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
-3. Führen Sie dies aus:
+3. Ausführen:
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    So aktivieren Sie beispielsweise das Parken von Anrufen für die globale Standard-Voice-Richtlinie:
+    So aktivieren Sie beispielsweise das Parken von Anrufen für die standardmäßige globale VoIP-Richtlinie:
     
    ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
@@ -69,5 +69,5 @@ Sie können das Parken von Anrufen auf globaler ebene oder auf Standort- oder Be
 
 
 
-[Erstellen oder Ändern einer Sprachrichtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)
+[Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)
 

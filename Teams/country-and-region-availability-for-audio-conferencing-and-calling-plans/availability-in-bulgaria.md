@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Bulgarien.
-ms.openlocfilehash: 58cd377a5aabf640b09e99c7d5dcc7d350ad6135
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f4af8db306667f2ba103fa1ce52bb837439db7a8364cb154ac60315ef8cdf6cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310783"
 ---
 # <a name="availability-in-bulgaria"></a>Verfügbarkeit in Bulgarien
 

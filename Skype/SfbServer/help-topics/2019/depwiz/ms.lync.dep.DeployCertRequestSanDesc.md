@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: Die Seite Antragstellername/Alternative Antragstellernamen enthält eine Übersicht des Antragstellernamens und aller alternativen Antragstellernamen auf dem Zertifikat. Die Namen für den Betreffnamen und alternative Betreffnamen werden aus dem Definitionsdokument erfasst, wie es bei der Definition der Bereitstellung im Topologie-Generator erstellt wurde.
-ms.openlocfilehash: b0c9acd2c0da3dfbc542c0ad17ee4325c60050c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die Seite Antragstellername/Alternative Antragstellernamen enthält eine Übersicht des Antragstellernamens und aller alternativen Antragstellernamen auf dem Zertifikat. Die namen für Antragstellernamen und alternative Antragstellernamen werden aus dem Definitionsdokument gesammelt, wie es erstellt wurde, als Sie die Bereitstellung im Topologie-Generator definiert haben.
+ms.openlocfilehash: 24f47214797224ac0907c5478deef7db819fd57ec84bba87de256c6f5360c36c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325322"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Zertifikatanforderung (alternative Antragstellernamen)
  
-Die Seite **Antragstellername/Alternative Antragstellernamen** enthält eine Übersicht des Antragstellernamens und aller alternativen Antragstellernamen auf dem Zertifikat. Die Namen für den Betreffnamen und alternative Betreffnamen werden aus dem Definitionsdokument erfasst, wie es bei der Definition der Bereitstellung im Topologie-Generator erstellt wurde.
+Die Seite **Antragstellername/Alternative Antragstellernamen** enthält eine Übersicht des Antragstellernamens und aller alternativen Antragstellernamen auf dem Zertifikat. Die namen für Antragstellernamen und alternative Antragstellernamen werden aus dem Definitionsdokument gesammelt, wie es erstellt wurde, als Sie die Bereitstellung im Topologie-Generator definiert haben.
   
-Wenn Sie Änderungen am Betreffnamen oder einem der alternativen  Namen des Betreffs vornehmen müssen, klicken Sie auf "Abbrechen", um den Zertifikatanforderungs-Assistenten zu beenden und den Topologie-Generator erneut zu starten. Führen Sie anschließend den fea-cs-topo-tool erneut aus, und veröffentlichen Sie die neue Konfiguration mit den ordnungsgemäß definierten Antragsteller- und alternativen Antragstellernamen erneut.
+Wenn Sie Änderungen am Antragstellernamen oder einem der alternativen Antragstellernamen vornehmen müssen, klicken Sie auf **"Abbrechen",** um den Zertifikatanforderungs-Assistenten zu beenden und den Topologie-Generator erneut auszuführen. Führen Sie anschließend den fea-cs-topo-tool erneut aus, und veröffentlichen Sie die neue Konfiguration mit den ordnungsgemäß definierten Antragsteller- und alternativen Antragstellernamen erneut.
   
 

@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereitstellung die URL der neuen einfachen URL an.
-ms.openlocfilehash: 41cd5c4698157a9dde2d8c357a5b8aba753495f3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 962f3fbac8314eedb5df5416c7a68027ef3d2862f3c6f0c4bc906576328f0c16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314731"
 ---
 # <a name="add-simple-url"></a>Hinzufügen einer einfachen URL
  
-Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereitstellung die URL der neuen einfachen URL an. Das Format der URL ist _http:// \<simple URL type\> . \<domain name\>_ oder _http:// \<domain name\> / \<simple URL type\>_, wobei der Typ der einfachen URL einer der folgenden ist:
+Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereitstellung die URL der neuen einfachen URL an. Das Format der URL ist _http:// \<simple URL type\> . \<domain name\>_ oder _http://, \<domain name\> / \<simple URL type\>_ wobei der einfache URL-Typ einer der folgenden ist:
   
-- Meet
+- Treffen
     
 - Dialin
     

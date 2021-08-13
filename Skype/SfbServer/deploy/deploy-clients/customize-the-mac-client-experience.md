@@ -1,5 +1,5 @@
 ---
-title: Anpassen der Mac-Client-Erfahrung in Skype for Business
+title: Anpassen der Mac-Clientumgebung in Skype for Business
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,57 +11,57 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: In diesem Artikel werden die Clienteinstellungen und Standardwerte beschrieben, die für den Skype for Business auf dem Mac-Client verfügbar sind, und wie Sie diese von außerhalb der App bearbeiten.
-ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: In diesem Artikel werden die Clienteinstellungen und -standardwerte beschrieben, die für die Skype for Business auf dem Mac-Client verfügbar sind, und wie Sie diese von außerhalb der App bearbeiten.
+ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805755"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325492"
 ---
-# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Anpassen der Mac-Client-Erfahrung in Skype for Business
+# <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Anpassen der Mac-Clientumgebung in Skype for Business
  
-In diesem Artikel werden die Clienteinstellungen und Standardwerte beschrieben, die für den Skype for Business auf dem Mac-Client verfügbar sind, und wie sie von außerhalb der App bearbeitet werden.
+In diesem Artikel werden die Clienteinstellungen und -standardwerte beschrieben, die für die Skype for Business auf dem Mac-Client verfügbar sind, und wie Sie diese von außerhalb der App bearbeiten.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Clienteinstellungen für Skype for Business auf dem Mac
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Einstellungen für Skype for Business für Mac-Clients
 
-Bestimmte Features und Verhaltensweisen, die skype for Business auf Mac-Clients zur Verfügung stehen, werden durch die Einstellungseinstellungen auf dem Client bestimmt. Die Skype for Business für Mac-Einstellungen befinden sich in einer Datei auf Macs, die den Skype for Business-Client unter folgendem Pfad installiert haben: 
+Bestimmte Features und Verhaltensweisen, die für Skype for Business auf Mac-Clients verfügbar sind, werden durch die Einstellungseinstellungen auf dem Client bestimmt. Die Skype for Business für Mac-Einstellungen finden Sie in einer Datei auf Macs, die den Skype for Business-Client unter dem folgenden Pfad installiert haben: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Um diese Einstellungen festlegen zu können, gehen Sie zu einer Terminalaufforderung auf dem Mac des Clients, und geben Sie bei Bedarf die Standardbefehle "com.microsoft.SkypeForBusiness" mit den in der folgenden Tabelle beschriebenen Einstellungsschlüsseln ein.
+Um diese Einstellungen festzulegen, rufen Sie eine Terminalaufforderung auf dem Mac des Clients auf, und geben Sie bei Bedarf die Standardwerte ein, um com.microsoft.SkypeForBusiness-Schlüsselbefehle mithilfe der in der folgenden Tabelle beschriebenen Einstellungsschlüssel zu schreiben.
   
 **Clienteinstellungsschlüssel**
 
 
 | Key | Typ | Wert | Beschreibung |
 |:-----|:-----|:-----|:-----|
-|autoDetectAutoDicoveryURLs    |Boolescher Wert    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standard)    |Geben Sie an, wie Skype for Business den transport- und server identifiziert, der bei der Anmeldung verwendet werden soll. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL angeben.**   |
-|internalAutoDiscoveryURL    |String    |Vollständige AutoErmittlungs-URL    |Interne AutoErmittlungs-URL    |
+|autoDetectAutoDicoveryURLs    |Boolescher Wert    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standard)    |Geben Sie an, wie Skype for Business den Transport und server identifiziert, der während der Anmeldung verwendet werden soll. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
+|internalAutoDiscoveryURL    |Zeichenfolge    |Vollständige AutoErmittlungs-URL    |Interne AutoErmittlungs-URL    |
 |externalAutoDiscoveryURL    |String    |Vollständige AutoErmittlungs-URL    |Externe AutoErmittlungs-URL    |
-|httpProxyDomain    |String    ||HTTP-Proxydomäne    |
-|httpProxyUserName    |String    ||HTTP-Proxy-Benutzername    |
+|httpProxyDomain    |Zeichenfolge    ||HTTP-Proxydomäne    |
+|httpProxyUserName    |String    ||HTTP-Proxybenutzername    |
 |httpProxyPassword    |String    ||HTTP-Proxykennwort    |
 |trustedDomainList    |Array    ||Liste der vertrauenswürdigen Domänen für HTTP-Umleitungen.    |
-|autoAcceptTimeout    |Zahl    |300 (Standard)    |Timeout für automatisches Akzeptieren für Benutzer ohne serverseitigen Unterhaltungsverlauf.    |
-|warnWhenUnknownLocationForE911    |Boolescher Wert    |0 = Deaktiviert  <br/> 1 = Aktiviert    |Warnt den Benutzer, wenn er eine Notrufnummer von einem unbekannten Standort aus wählt.    |
-|sipAddress    |String    ||Die SIP-Adresse (E-Mail), die für die Anmeldung bei Skype for Business verwendet wird.    |
-|userName    |String    ||Der UPN (UserName), der für die Anmeldung bei Skype for Business verwendet wird.    |
-|userNameInAdvancedOnly    |Boolescher Wert    |0 = Zeigt das Feld "Benutzername" auf dem Hauptanmeldebildschirm und im Dialogfeld "Erweiterte Eigenschaften" an.  <br/> 1 = Zeigt das Feld "Benutzername" nur im Dialogfeld "Erweiterte Eigenschaften" an (Standard)    |Geben Sie an, wo das Feld "Benutzername" während der Anmeldung angezeigt wird.    |
+|autoAcceptTimeout    |Zahl    |300 (Standard)    |Timeout für automatisches Annehmen für Benutzer ohne serverseitigen Unterhaltungsverlauf.    |
+|warnWhenUnknownLocationForE911    |Boolescher Wert    |0 = Deaktiviert  <br/> 1 = Aktiviert    |Warnt den Benutzer, wenn er eine Notrufnummer von einem unbekannten Ort aus wählt.    |
+|sipAddress    |Zeichenfolge    ||Die SIP-Adresse (E-Mail), die zum Anmelden bei Skype for Business verwendet wird.    |
+|userName    |String    ||Der UPN (UserName), der zum Anmelden bei Skype for Business verwendet wird.    |
+|userNameInAdvancedOnly    |Boolescher Wert    |0 = Anzeigen des Benutzernamenfelds auf dem Hauptanmeldungsbildschirm und im Dialogfeld "Erweiterte Eigenschaften"  <br/> 1 = Nur im Dialogfeld "Erweiterte Eigenschaften" das Feld "Benutzername" anzeigen (Standard)    |Geben Sie an, wo das Benutzernamenfeld während der Anmeldung angezeigt wird.    |
    
 ### <a name="usage-examples"></a>Verwendungsbeispiele
 
-Zum Hinzufügen einer einzelnen Domäne (Contoso.com) zur Liste der vertrauenswürdigen Domänen würden Sie den Schlüssel "trustedDomainList" wie folgt verwenden:
+Um der Liste der vertrauenswürdigen Domänen eine einzelne Domäne (Contoso.com) hinzuzufügen, verwenden Sie den Schlüssel "trustedDomainList" wie dargestellt:
   
-defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
+Defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
-Wenn Sie der Liste der vertrauenswürdigen Domänen mehrere Domänen hinzufügen möchten, verwenden Sie den Schlüssel "trustedDomainList" wie gezeigt:
+Um der Liste der vertrauenswürdigen Domänen mehrere Domänen hinzuzufügen, verwenden Sie den Schlüssel "trustedDomainList" wie dargestellt:
   
-defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
+Defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-### <a name="sample-unedited-settings"></a>Beispiel für unbearbeitente Einstellungen
+### <a name="sample-unedited-settings"></a>Beispiel für unbearbeitete Einstellungen
 
-Als Referenz finden Sie hier eine Beispieleinstellungsdatei, in der nur Die Standardeinstellungen verwendet werden: 
+Als Referenz finden Sie hier eine Beispieleinstellungsdatei, die nur die Standardeinstellungen verwendet: 
   
 ```console
 {

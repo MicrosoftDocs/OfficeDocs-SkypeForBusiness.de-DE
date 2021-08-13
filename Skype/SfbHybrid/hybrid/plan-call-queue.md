@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloudtelefonzentrale mit Skype for Business Server 2019.
-ms.openlocfilehash: 79682e7079519c2c9532aecdd79a43a6d2e8b30b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509806"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300511"
 ---
 # <a name="plan-cloud-call-queues"></a>Planen von Cloud-Anrufwarteschlangen
 
@@ -47,7 +47,7 @@ Zusätzlich zu den oben genannten Anforderungen müssen die folgenden Anforderun
 
    Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365.](configure-hybrid-connectivity.md)
 
-- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die kostenlose Telefonsystem Virtuelle Benutzerlizenz verwenden. Dadurch werden telefonnummern auf Organisationsebene Telefonsystem Funktionen bereitgestellt, und Sie können Funktionen für automatische Telefonzentralen und Anrufwarteschleifen erstellen.
+- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die kostenlose Telefonsystem Virtuelle Benutzerlizenz verwenden. Dadurch werden telefonnummern auf Organisationsebene Telefonsystem Funktionen bereitgestellt, und Sie können funktionen für automatische Telefonzentralen und Anrufwarteschleifen erstellen.
 
 - Erstellen Sie ein lokales [Ressourcenkonto](configure-onprem-ra.md) für jede Anrufwarteschleife, und weisen Sie bei Bedarf eine Lizenz und Telefonnummer zu.  
 

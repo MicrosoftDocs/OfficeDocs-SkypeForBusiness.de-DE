@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie mithilfe von Feedbackrichtlinien steuern können, Teams Benutzer in Ihrer Organisation Feedback zu ihrem Produkt Teams Microsoft übermitteln können.
-ms.openlocfilehash: 66f14467e66456f244664a8273e0ff962297c05f
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310683"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Verwalten von Feedbackrichtlinien in Microsoft Teams
 
@@ -47,7 +47,7 @@ Benutzer können ihre Erfahrung mit der Bewertung Teams uns Details zu der von i
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Festlegen, ob Benutzer Feedback zu Teams an Microsoft senden können
 
-Als Administrator können Sie steuern, ob Benutzer in Ihrer Organisation Feedback  zu Teams an Microsoft senden können, und ob sie die Umfrage erhalten. Standardmäßig wird allen Benutzern in Ihrer Organisation automatisch die globale Richtlinie (Organisationsweite Standardrichtlinie) zugewiesen, und das Feature "Feedback geben" und die Umfrage sind in der Richtlinie aktiviert.  Eine Ausnahme bildet Teams Education, in dem die Features für Lehrkräfte und für Schüler/Studenten aktiviert und deaktiviert sind.
+Als Administrator können Sie steuern, ob Benutzer in Ihrer Organisation Feedback  zu Teams an Microsoft senden können, und ob sie die Umfrage erhalten. Standardmäßig wird allen Benutzern in Ihrer Organisation automatisch die globale Richtlinie (Organisationsweite Standardrichtlinie) zugewiesen, und das Feature "Feedback geben" und die Umfrage sind in der Richtlinie aktiviert.  Die Ausnahme ist Teams für Education, bei der die Features für Lehrkräfte und für Schüler/Studenten aktiviert und deaktiviert werden.
 
 Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Nachdem Sie die globale Richtlinie bearbeitet oder eine benutzerdefinierte Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden.
 
