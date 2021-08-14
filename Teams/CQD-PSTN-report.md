@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Sie Microsoft Teams PSTN Direct Routing-Bericht zum Anrufqualitätsdashboard (CQD) zur Überwachung und Problembehandlung von PSTN-Anrufen in Microsoft Teams.
-ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351255"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Verwenden des PstN-Direktroutingberichts für CQD
 
@@ -40,7 +40,7 @@ Der PstN-Direktroutingbericht für das CQD-Format enthält vier Abschnitte:
 
   - [Netzwerkparameter](#network-parameters)
 
-## <a name="highlights"></a>Momente
+## <a name="highlights"></a>Highlights
 
 1. Analysieren nach Anruftyp, SBC, Anrufer- und Anruferland
 
@@ -91,7 +91,7 @@ Diese Seite enthält Trends bei der Dienstnutzung pro Tag und eine Aufschlüssel
 
 ![Screenshot: PSTN-CQD-Bericht](media/CQD-PSTN-report2.png)
 
-Beispiel:
+Zum Beispiel:
 
 1.  Wenn Sie sehen, dass die durchschnittliche Anrufdauer am 14.02.2020 auf 0 sinkt, können Sie zunächst überprüfen, ob die Anruflautstärke normal aussieht, und prüfen, ob es einen großen Unterschied zwischen den Gesamtanrufen und den Gesamtanrufversuchen gibt. Wechseln Sie dann zur Seite Netzwerkeffektivitätsverhältnis, um in Fehlergründe für Anrufe zu investieren.
 
@@ -101,7 +101,7 @@ Beispiel:
 
 Dies ist die gleiche Metrik, die im Dashboard Gesamtzustand angezeigt wird. Sie können stündlich NER-Nummer mit Detail für betroffene Anrufe für beide Anrufrichtungen (eingehend/ausgehend) im Diagramm Effektivität pro Stunde im Netzwerk und Diagramm zum Beenden des Anrufs unten überprüfen.
 
-  - **NER** - Die Fähigkeit (%) eines Netzwerks, um Anrufe zu liefern, indem die Anzahl der an einen Empfänger gesendeten Anrufe im Vergleich zur Anzahl der an einen Empfänger zugestellten Anrufe gemessen wird.
+  - **NER** – Die Fähigkeit (%) eines Netzwerks, Anrufe zu liefern, indem die Anzahl der gesendeten Anrufe im Vergleich zur Anzahl der an einen Empfänger zugestellten Anrufe gemessen wird.
 
   - **SIP-Antwortcode–** Der Anrufstatus wird als dreistelliger ganzzahliger Antwortcode angezeigt.
 
@@ -113,7 +113,7 @@ Dies ist die gleiche Metrik, die im Dashboard Gesamtzustand angezeigt wird. Sie 
 
 > ![Screenshot: PSTN-CQD-Bericht](media/CQD-PSTN-report3.png)
 > 
-Beispiel:
+Zum Beispiel:
 
 ![Screenshot: PSTN-CQD-Bericht](media/CQD-PSTN-report4.png)
 
@@ -135,7 +135,7 @@ Alle Netzwerkparameter werden von der Direct Routing-Schnittstelle zum Session B
 
 > ![Screenshot: PSTN-CQD-Bericht](media/CQD-PSTN-report6.png)
 
-Beispiel:
+Zum Beispiel:
 
 Wenn bei einem der vier Diagramme (Latenz, Jitter, Paketverlustrate, Nach Wählverzögerung) für ein bestimmtes Datum, z. B. Latenz am 14.02.2020, eine Spitzenstelle angezeigt wird, klicken Sie auf den Datumspunkt. Und das Trenddiagramm mit Stunden am unteren Rand wird aktualisiert und zeigt die Stundenzahl an. Sie können die SBCs überprüfen oder ein Ticket bei MS Service Desk erheben.
 

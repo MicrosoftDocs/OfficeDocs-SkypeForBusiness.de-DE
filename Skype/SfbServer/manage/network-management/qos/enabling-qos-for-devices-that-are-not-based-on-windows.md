@@ -15,17 +15,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Erfahren Sie, wie Sie QoS für Geräte in Ihrer Organisation aktivieren, die ein anderes Betriebssystem als Windows verwenden.
-ms.openlocfilehash: 81350ae252252a85bd3f88a000d6cd78d85408e43ca56335517de7b50bb6fd49
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 85e63df1ba96ff77d586d3c4e71130509a869d51
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590929"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234000"
 ---
-# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Aktivieren von QoS in Skype for Business Server für Geräte, die nicht auf Windows
+# <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Aktivieren von QoS in Skype for Business Server für Geräte, die nicht auf Windows basieren
 
 
-Wenn Sie Skype for Business Server installieren, wird QoS (Quality of Service) nicht für geräte in Ihrer Organisation aktiviert, die ein anderes Betriebssystem als Windows verwenden. Sie können dies überprüfen, indem Sie den folgenden Befehl in der Skype for Business ServerManagement Shell ausführen:
+Wenn Sie Skype for Business Server installieren, wird QoS (Quality of Service) nicht für Geräte aktiviert, die in Ihrer Organisation verwendet werden, die ein anderes Betriebssystem als Windows verwenden. Sie können dies überprüfen, indem Sie den folgenden Befehl in der Skype for Business ServerManagement Shell ausführen:
 
 **Get-CsMediaConfiguration**
 
@@ -59,7 +59,7 @@ Wenn Sie QoS für alle Medienkonfigurationseinstellungen (unabhängig vom Bereic
 
 **Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True**
 
-Sie können QoS für Geräte deaktivieren, die ein anderes Betriebssystem als Windows verwenden, indem Sie den Wert der EnableQoS-Eigenschaft auf "False" festlegen. Beispiel:
+Sie können QoS für Geräte deaktivieren, die ein anderes Betriebssystem als Windows verwenden, indem Sie den Wert der EnableQoS-Eigenschaft auf "False" festlegen. Zum Beispiel:
 
 **Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False**
 

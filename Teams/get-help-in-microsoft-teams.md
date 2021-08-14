@@ -13,16 +13,16 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Informieren Sie sich über Hilfethemen, Videos, Anmerkungen zu dieser Version und Feedbackforen, um Hilfe in Microsoft Teams.
+description: Informieren Sie sich über Hilfethemen, Videos, Anmerkungen zu dieser Version und Feedbackforen, um Hilfe zu Microsoft Teams.
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 78391b9afa0ea4edcc6f901f26d4f587eeb94249
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848370"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233580"
 ---
 # <a name="get-help-in-microsoft-teams"></a>Anfordern von Hilfe in Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "57848370"
 
 Teams unterstützt lokalisierte Sprachen für Hilfeinhalte. Die aktuelle Liste der unterstützten Sprachen finden Sie Microsoft Teams [von unterstützten Sprachen für Hilfeinhalte.](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)
 
- - **Themen durchsuchen** – Hier finden Sie Hilfeinhalte, die nach Themen Teams organisiert sind. Einfache und geradlinige Anleitungen, mit deren Hilfe Benutzer das Beste aus Teams. 
+ - **Themen durchsuchen** – Hier finden Sie Hilfeinhalte, die nach Themen Teams organisiert sind. Einfache und geradlinige Anleitungen, mit deren Hilfe Benutzer ihre Teams. 
 
  - **Videos** – Unsere on-demand-Videoinhalte ermöglichen Benutzern, bestimmte Aufgaben schnell zu erlernen. Da wir ständig neue Videos erstellen, schauen Sie regelmäßig hier nach. Internetzugriff ist natürlich erforderlich. 
 

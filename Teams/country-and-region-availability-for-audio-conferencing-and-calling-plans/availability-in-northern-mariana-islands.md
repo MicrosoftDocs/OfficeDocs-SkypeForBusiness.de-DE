@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams für nördliche Marianen.
-ms.openlocfilehash: 39801ec52b40621f212e04aca876f2a27302cf89
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 775e1e65844a7244ee98979056435467c0d32ad3e2d7d3d62af0526562f1d8cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351075"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>Verfügbarkeit in den nördlichen Marianen
 

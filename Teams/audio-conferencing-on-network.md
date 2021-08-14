@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden wird Das Netzwerk für Audiokonferenzen beschrieben.
-ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230562"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351225"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Netzwerkkonferenzen für Audiokonferenzen
 
@@ -132,7 +132,7 @@ Nachdem die Richtlinie einem Benutzer zugewiesen wurde und wenn ein Anruf beim W
 
 Nachdem die Routingrichtlinien für Audiokonferenzen definiert wurden, können Sie sie nun Benutzern zuweisen. Nachdem ihnen Richtlinien zugewiesen wurden, werden die Anrufanrufe für Besprechungen ausgewertet, um ihren Routingpfad zu bestimmen. Routingrichtlinien für Audiokonferenzen werden immer basierend auf dem Organisator der Besprechung unabhängig vom Besprechungsbenutzer ausgewertet, der einen Anruf aus der Besprechung initiiert.
 
-Sie können einem Benutzer eine Sprachroutingrichtlinie für Audiokonferenzen zuweisen, indem Sie das Cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy" verwenden. Beispiel:
+Sie können einem Benutzer eine Sprachroutingrichtlinie für Audiokonferenzen zuweisen, indem Sie das Cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy" verwenden. Zum Beispiel:
 
 ```powershell
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”

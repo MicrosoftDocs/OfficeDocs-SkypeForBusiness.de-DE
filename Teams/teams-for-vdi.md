@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6e4a75c3405a2d1b2240d101327795fa3a2d1ad6626f4bd692d1fc4851277
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323817"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233630"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -32,7 +32,7 @@ In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwend
 
 Virtual Desktop Infrastructure (VDI) ist eine Virtualisierungstechnologie, die ein Desktopbetriebssystem und Anwendungen auf einem zentralen Server in einem Rechenzentrum hostet. Dies ermöglicht eine vollständig personalisierte Desktopanwendung für Benutzer mit einer vollständig sicheren und kompatiblen zentralen Quelle.
 
-Microsoft Teams in einer virtualisierten Umgebung unterstützt Chats und die Zusammenarbeit. Mit den Plattformen Azure Virtual Desktop, Citrix und VMware werden auch Anruf- und Besprechungsfunktionen unterstützt.
+Microsoft Teams in einer virtualisierten Umgebung unterstützt Chats und die Zusammenarbeit. Und mit den Plattformen Azure Virtual Desktop, Citrix und VMware werden auch Anruf- und Besprechungsfunktionen unterstützt.
 
 Teams in einer virtualisierten Umgebung unterstützt mehrere Konfigurationen. Dazu gehören VDI-, dedizierte, freigegebene, beständige und nicht beständige Modi. Die Features befinden sich in einer kontinuierlichen Entwicklung und werden in regelmäßigen Abständen hinzugefügt, und die Funktionalität wird in den kommenden Monaten und Jahren erweitert.
 
@@ -58,7 +58,7 @@ Zur Nutzung von Teams in einer virtualisierten Umgebung sind die folgenden Kompo
 
 Die Teams-Desktop-App wurde bei führenden Virtualisierungslösungsanbietern überprüft. Bei mehreren Marktanbietern empfehlen wir, dass Sie Sich an Ihren Virtualisierungslösungsanbieter wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit ist Teams VDI mit Audio/Video-Optimierung (AV) mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
+Derzeit ist Teams VDI mit Audio/Video (AV)-Optimierung mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -72,7 +72,7 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Der virtuelle Azure-Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+Azure Virtual Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop .](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
 
-Wenn benutzer mit dieser VDI-Richtlinieneinstellung -DisableCallsAndMeetings $true, um sich mit VDI bei Teams anmelden, sollten sie nicht in der Lage sein,
+Wenn sich Benutzer mit dieser VDI-Richtlinieneinstellung $true DisableCallsAndMeetings bei Teams mit VDI anmelden müssen, sollten sie nicht in der Lage sein,
 
 - Anrufe.
 - Nehmen Sie an Besprechungen teil.
@@ -435,11 +435,11 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-Wenn sich Benutzer mit der VDI-Richtlinieneinstellung "-DisableAudioVideoInCallsAndMeetings$true bei Teams mit VDI anmelden, sollten sie in der Lage sein:
+Wenn sich Benutzer mit der VDI-Richtlinieneinstellung -DisableAudioVideoInCallsAndMeetings $true bei Teams mit VDI anmelden, sollten sie in der Lage sein, dies zu ermöglichen:
 
 - Bildschirmfreigabe über Chat.
 - Nehmen Sie an einer Besprechung teil, und teilen Sie einen Bildschirm. Audiodaten auf ein Telefon verschieben.
-- Benutzer sollten nicht in der Lage sein, einen Audio- und Videoanruf zwischen zwei Personen über VDI zu halten.
+- Benutzer sollten nicht in der Lage sein, einen Audio- und Videoanruf mit zwei Personen über VDI zu halten.
 
 > [!NOTE]
 > Dies gilt nur für nicht optimierte Umgebungen.
@@ -471,6 +471,7 @@ if($cleanup){
 - Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung zum virtuellen Citrix-Computer trennen.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
 - Azure Virtual Desktop unterstützt zurzeit keine macOS- und Linux-basierten Clients.
+- Ein schneller Mandantenwechsel kann anrufbezogene Probleme mit VDI zur Folge haben. Durch einen Neustart des Clients werden diese Probleme minimiert.
 
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
@@ -524,4 +525,4 @@ Starten Sie dann VDA neu. Weitere Informationen finden Sie im Citrix-Supportarti
 
 - [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Verwenden von Microsoft Teams auf dem virtuellen Azure-Desktop](/azure/virtual-desktop/teams-on-wvd)
+- [Verwenden Microsoft Teams Auf virtuellem Azure-Desktop](/azure/virtual-desktop/teams-on-wvd)

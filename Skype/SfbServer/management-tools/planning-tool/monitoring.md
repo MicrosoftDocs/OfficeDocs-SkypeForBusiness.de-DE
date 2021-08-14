@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: In Skype for Business Server 2015 sammelt die Überwachung Nutzungsinformationen und QoE-Daten (Quality of Experience) über die Kommunikationssitzungen von Benutzern.
-ms.openlocfilehash: ff9ac1012269ee6d077f9655731f021f0b0a3e68
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 925f89d43900796635c1a0616c2359efa3a1ec28359ce46c47308bf28acf6d8c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325072"
 ---
 # <a name="monitoring-planning-tool"></a>Überwachungstool für die Planung
 

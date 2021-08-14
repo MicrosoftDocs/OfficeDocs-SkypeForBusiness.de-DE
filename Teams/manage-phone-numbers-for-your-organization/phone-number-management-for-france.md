@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Frankreich für Microsoft Teams.
-ms.openlocfilehash: 205d3da27e6dd3018e7617188c795d26c4bbfe51d291163674e3bb4c25cbedda
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 81778d63eeb6f63497d9f37597e51e7c4e5eca6b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849290"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233280"
 ---
 # <a name="phone-number-management-for-france"></a>Telefonnummernverwaltung für Frankreich
 

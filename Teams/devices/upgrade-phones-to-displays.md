@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Erfahren Sie, wie Sie Teams auf Teams im Microsoft Teams Admin Center aktualisieren.
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327760"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Aktualisieren Teams von Telefonen auf Teams Bildschirme
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115583"
 
 Dieser Artikel enthält eine Übersicht über das Upgrade Ihrer Teams auf Teams im Microsoft Teams Admin Center. Auf diese Weise können die Geräte ihren Benutzern eine umfangreiche Benutzererfahrung bieten, Teams nutzen können.
 
-Teams-Displays sind eine Kategorie von all-in-one-dedizierten Teams-Geräten mit Umgebungs touchscreen und Freisprecheinrichtungen, die von Cortana unterstützt werden. Teams Anzeigen sind die Weiterentwicklung Teams Smartphones. Neben den [](phones-for-teams.md#features-supported-by-teams-phones)von Teams Telefonen unterstützten Features enthalten Teams-Anzeigen Features wie eine "Immer auf"-Anzeige, auf der alle Teams-Aktivitäten und Optionen für die Zusammenarbeit immer verfügbar sind. Weitere Informationen zu Features, die nur für bildschirme Teams sind, finden Sie unter anzeigen [Microsoft Teams](teams-displays.md).
+Teams-Displays sind eine Kategorie von all-in-one-dedizierten Teams-Geräten mit Umgebungs touchscreen und freisprechend unterstützter Cortana. Teams Anzeigen sind die Weiterentwicklung Teams Smartphones. Neben den [](phones-for-teams.md#features-supported-by-teams-phones)von Teams Telefonen unterstützten Features enthalten Teams-Anzeigen Features wie eine "Immer auf"-Anzeige, auf der alle Teams-Aktivitäten und Optionen für die Zusammenarbeit immer verfügbar sind. Weitere Informationen zu Features, die nur für bildschirme Teams sind, finden Sie unter anzeigen [Microsoft Teams](teams-displays.md).
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Wissende Informationen zum Upgrade auf Teams Bildschirme
 
@@ -90,4 +90,4 @@ Wenn bestimmte Apps nach dem Upgrade auf der Startseite fehlen, melden Sie sich 
 
 [Ip Phones certified for Microsoft Teams](teams-ip-phones.md)
 
-[Cortana-Sprachunterstützung in Teams](../cortana-in-teams.md)
+[Cortana Sprachunterstützung in Teams](../cortana-in-teams.md)

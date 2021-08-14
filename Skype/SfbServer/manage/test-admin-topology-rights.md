@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: So testen Sie Topologierechte in Skype for Business Server
-ms.openlocfilehash: 5826f62b120179533e531743b6e11ede5d9ba9d049d2a0a7252e57d6e7f922ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0284fc3a1af10958fa4e3182d9cec38940421229
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335005"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233610"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Testen von Administratortopologierechten in Skype for Business Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
 |Überprüfungszeitplan|Nach der ersten Skype for Business Server Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.|
 |Testtool|Windows PowerShell|
-|Erforderliche Berechtigungen|Bei der lokalen Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br/><br/>Wenn sie mit einer Remoteinstanz von Windows PowerShell ausgeführt werden, muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des cmdlets Test-CsSetupPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>Get-CsAdminRole \| Where-Object {$_. Cmdlets -match "Test-CsSetupPermission"}|
+|Erforderliche Berechtigungen|Bei lokaler Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br/><br/>Bei Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsSetupPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>Get-CsAdminRole \| Where-Object {$_. Cmdlets -match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>Beschreibung
 
-Standardmäßig können nur Domänenadministratoren eine Skype for Business Server Topologie aktivieren und umfangreiche Änderungen an der Skype for Business Server Infrastruktur vornehmen. Dies ist kein Problem, solange Ihre Domänenadministratoren und Ihre Skype for Business Server-Administratoren identisch sind. In vielen Organisationen besitzen Skype for Business Server Administratoren keine Administratorrechte für die gesamte Domäne. Das bedeutet standardmäßig, dass diese Administratoren (definiert als Mitglieder der Gruppe "RTCUniversalServerAdmins") keine Skype for Business Server Topologieänderungen vornehmen können. Um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zu geben, Topologieänderungen vorzunehmen, müssen Sie die erforderlichen Active Directory-Berechtigungen mithilfe des [Cmdlets Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) zuweisen.
+Standardmäßig können nur Domänenadministratoren eine Skype for Business Server Topologie aktivieren und umfangreiche Änderungen an der Skype for Business Server Infrastruktur vornehmen. Dies ist kein Problem, solange Ihre Domänenadministratoren und Ihre Skype for Business Server-Administratoren identisch sind. In vielen Organisationen verfügen Skype for Business Server Administratoren nicht über Administratorrechte für die gesamte Domäne. Das bedeutet standardmäßig, dass diese Administratoren (definiert als Mitglieder der Gruppe "RTCUniversalServerAdmins") keine Skype for Business Server Topologieänderungen vornehmen können. Um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zu geben, Topologieänderungen vorzunehmen, müssen Sie die erforderlichen Active Directory-Berechtigungen mithilfe des [Cmdlets Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) zuweisen.
  
-Das cmdlet Test-CsSetupPermission überprüft, ob die erforderlichen Berechtigungen zum Installieren Skype for Business Server oder einer seiner Komponenten im angegebenen Active Directory-Container konfiguriert sind. Wenn die Berechtigungen nicht zugewiesen sind, können Sie das Cmdlet Grant-CsSetupPermission ausführen, um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zu geben, Skype for Business Server zu installieren und zu aktivieren.
+Das Cmdlet Test-CsSetupPermission überprüft, ob die erforderlichen Berechtigungen zum Installieren Skype for Business Server oder einer seiner Komponenten im angegebenen Active Directory-Container konfiguriert sind. Wenn die Berechtigungen nicht zugewiesen sind, können Sie das Cmdlet Grant-CsSetupPermission ausführen, um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zu geben, Skype for Business Server zu installieren und zu aktivieren.
 
 ## <a name="running-the-test"></a>Ausführen des Tests
 
@@ -61,7 +61,7 @@ WARNUNG: Detaillierte Ergebnisse finden Sie unter "C:\Users\Admin\AppData\Local\
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test möglicherweise fehlgeschlagen ist
 
-Es gibt zwar selten Ausnahmen, wenn Test-CsSetupPermission fehlschlägt, bedeutet dies in der Regel, dass keine Setupberechtigungen für den angegebenen Active Directory-Container zugewiesen werden. Diese Berechtigungen können mithilfe des Cmdlets Grant-CsSetupPermission zugewiesen werden. Beispielsweise gewährt dieser Befehl Setupberechtigungen für den Computercontainer in der Domäne litwareinc.com:
+Wenn Test-CsSetupPermission fehlschlägt, bedeutet dies in der Regel, dass keine Setupberechtigungen für den angegebenen Active Directory-Container zugewiesen werden. Diese Berechtigungen können mithilfe des Cmdlets Grant-CsSetupPermission zugewiesen werden. Beispielsweise gewährt dieser Befehl Setupberechtigungen für den Computercontainer in der Domäne litwareinc.com:
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 

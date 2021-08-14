@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Eine vertrauenswürdige Anwendung ist eine Anwendung, die auf der Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK basiert, die von Skype for Business Server als vertrauenswürdig eingestuft wird.
-ms.openlocfilehash: 2025e8cf51852caeaebd96273c918764c58ce146d87bd4673854514c78b0794f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b174c0b45c3a90a1f0af53f31d7c507ffaca85cd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848470"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233990"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Verwalten vertrauenswürdiger Anwendungen in Skype for Business Server
 
@@ -77,7 +77,7 @@ In der Skype for Business Server Systemsteuerung können Sie den Namen der Anwen
 
 ## <a name="view-trusted-application-information"></a>Anzeigen von Informationen zu vertrauenswürdigen Anwendungen
 
-Sie können Informationen zu Ihren vertrauenswürdigen Anwendungen anzeigen, indem Sie Windows PowerShell und das Cmdlet **"Get-CsTrustedApplication"** verwenden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsTrustedApplication"** können Sie Informationen zu Ihren vertrauenswürdigen Anwendungen anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 
 ### <a name="to-view-trusted-applications"></a>So zeigen Sie vertrauenswürdige Anwendungen an

@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Koexistenzverhalten zwischen Teams & Skype for Business, einschließlich Routingparametern, Chat- & Anrufrouting, Chats & Anrufen aus bereits vorhandenen Threads, & Anwesenheitsinformationen.
-ms.openlocfilehash: f9bf83d9c61f759bc74c4e2c5b8d6b4db68c320d
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 2b98fead25ccfd8098e5281749358db931d64bc32a24be2a9d186c62a1d1a57b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351155"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -82,7 +82,7 @@ In den folgenden Tabellen:
 |---|---|---|:---:|---|
 |Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online<br> Vor dem<br>Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|
 |SfB\*|Skype for Business <br>Skype for Business|Online <br> Vor dem|&boxv;<br>&boxv;|Skype for Business <br> Skype for Business|
-|TeamsOnly|Microsoft Teams|Online|&boxv;|Microsoft Teams|
+|TeamsOnly|Teams|Online|&boxv;|Teams|
 ||||||
 
 #### <a name="table-1b-in-tenant-new-chat-or-call-routing-to-a-recipient-in-an-sfb-mode"></a>Tabelle 1b: Routing neuer Chats oder Anrufe in Mandanten an einen Empfänger im \* SfB-Modus
@@ -93,7 +93,7 @@ In den folgenden Tabellen:
 |---|---|---|:---:|---|
 |Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> Vor dem <br> Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|*Skype for Business* <br> Skype for Business <br> **Nicht möglich** <br> Skype for Business|
 |SfB\*|Skype for Business <br> Skype for Business|Online <br> Vor dem|&boxv;<br>&boxv;|Skype for Business <br> Skype for Business|
-|TeamsOnly|Microsoft Teams|Online|&boxv;|*Skype for Business*|
+|TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 ||||||
 
 #### <a name="table-1c-in-tenant-new-chat-or-call-routing-to-a-teamsonly-mode-recipient"></a>Tabelle 1c: Routing neuer Chats oder Anrufe in Mandanten an einen TeamsOnly-Modusempfänger
@@ -102,9 +102,9 @@ In den folgenden Tabellen:
 
 |<br><br>Modus|Originator<br><br>Client|<br><br>SfB &nbsp; homed|<br><br>Route->|Empfänger<br><br>TeamsOnly|
 |---|---|---|:---:|---|
-|Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> Vor dem <br> Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Microsoft Teams <br> *Microsoft Teams* <br> Microsoft Teams <br> *Microsoft Teams*|
+|Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> Vor dem <br> Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> Microsoft Teams <br> *Microsoft Teams*|
 |SfB\*|Skype for Business <br> Skype for Business|Online <br> Vor dem|&boxv;<br>&boxv;|*Microsoft Teams* <br> *Microsoft Teams*|
-|TeamsOnly|Microsoft Teams|Online|&boxv;|Microsoft Teams|
+|TeamsOnly|Teams|Online|&boxv;|Teams|
 ||||||
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>Verbundrouting für neue Chats oder Anrufe
@@ -128,7 +128,7 @@ In den nachfolgenden Tabellen wird beschrieben, welcher Client einen Anruf vom E
 |---|---|---|:---:|---|
 |Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> Vor dem <br> Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|*Skype for Business* <br> Skype for Business <br> **Nicht möglich** <br> Skype for Business|
 |SfB\*|Skype for Business <br> Skype for Business|Online <br> Vor dem|&boxv;<br>&boxv;|Skype for Business <br> Skype for Business|
-|TeamsOnly|Microsoft Teams|Online|&boxv;|*Skype for Business*|
+|TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |||||
 
 #### <a name="table-2b-federated-new-chat-or-call-routing-to-a-recipient-in-an-sfb-mode"></a>Tabelle 2b: Routing neuer Chats oder Anrufe im Partnering an einen Empfänger im \* SfB-Modus
@@ -139,7 +139,7 @@ In den nachfolgenden Tabellen wird beschrieben, welcher Client einen Anruf vom E
 |---|---|---|:---:|---|
 |Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> Vor dem <br> Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|*Skype for Business* <br> Skype for Business <br> **Nicht möglich** <br> Skype for Business|
 |SfB\*|Skype for Business <br> Skype for Business|Online <br> Vor dem|&boxv;<br>&boxv;|Skype for Business <br> Skype for Business|
-|TeamsOnly|Microsoft Teams|Online|&boxv;|*Skype for Business*|
+|TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 ||||||
 
 #### <a name="table-2c-federated-new-chat-or-call-routing-to-a-teamsonly-mode-recipient"></a>Tabelle 2c: Routing neuer Chats oder Anrufe im Partnermodus an einen TeamsOnly-Modusempfänger
@@ -148,9 +148,9 @@ In den nachfolgenden Tabellen wird beschrieben, welcher Client einen Anruf vom E
 
 |<br><br>Modus|Originator<br><br>Client|<br><br>SfB homed|<br><br>Route->|Empfänger<br><br>TeamsOnly|
 |---|---|---|:---:|---|
-|Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> Vor dem <br> Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Microsoft Teams <br> *Microsoft Teams* <br> **Nicht möglich** <br> *Microsoft Teams*|
+|Inselmodus|Microsoft Teams <br> Skype for Business <br> Microsoft Teams <br> Skype for Business|Online <br> Online <br> Vor dem <br> Vor dem|&boxv;<br>&boxv;<br>&boxv;<br>&boxv;|Teams <br> *Microsoft Teams* <br> **Nicht möglich** <br> *Microsoft Teams*|
 |SfB\*|Skype for Business <br> Skype for Business|Online <br> Vor dem|&boxv;<br>&boxv;|*Microsoft Teams* <br> *Microsoft Teams*|
-|TeamsOnly|Microsoft Teams|Online|&boxv;|Microsoft Teams|
+|TeamsOnly|Teams|Online|&boxv;|Teams|
 ||||||
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Chats und Anrufe aus bereits vorhandenen Threads
@@ -203,7 +203,7 @@ In der Tabelle Publisher die Anwesenheit der Publisher beschrieben, die von eine
 |Zusehen<br><br>Client|<br><br>Route->|<br><br>Inselmodus|Publisher<br><br>SfB\*|<br>Teams Nur|
 |---|:---:|---|---|---|
 |Skype for Business|&boxv;|Skype for Business|Skype for Business|Microsoft Teams|
-|Microsoft Teams|&boxv;|Microsoft Teams|Skype for Business|Microsoft Teams|
+|Microsoft Teams|&boxv;|Microsoft Teams|Skype for Business|Teams|
 |||||
 
 ### <a name="federated-presence"></a>Verbundpräsenz
@@ -219,7 +219,7 @@ In der folgenden Tabelle werden die Anwesenheits Publisher-Videos beschrieben, d
 |Zusehen<br><br>Client|<br><br>Route->|<br><br>Inselmodus|Publisher<br><br>SfB\*|<br><br>Teams Nur|
 |---|:---:|---|---|---|
 |Skype for Business|&boxv;|Skype for Business|Skype for Business|Microsoft Teams|
-|Microsoft Teams|&boxv;|Skype for Business|Skype for Business|Microsoft Teams|
+|Microsoft Teams|&boxv;|Skype for Business|Skype for Business|Teams|
 ||||||
 
 ### <a name="presence-in-pre-existing-threads"></a>Anwesenheit in bereits vorhandenen Threads

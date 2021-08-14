@@ -1,5 +1,5 @@
 ---
-title: Telefon zahlenverwaltung für Finnland
+title: Telefon der Zahlenverwaltung für Finnland
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,19 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Finnland für Microsoft Teams.
-ms.openlocfilehash: 5314b4069be7145706080c2b69e1a8c1f7c42b6252f5588a0af1f4fd7ecb9e1d
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Finnland für Microsoft Teams.
+ms.openlocfilehash: da1fdca39e5d50836f6f9157412b6b2ee5617669
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849488"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233450"
 ---
-# <a name="phone-number-management-for-finland"></a>Telefon zahlenverwaltung für Finnland
+# <a name="phone-number-management-for-finland"></a>Telefon der Zahlenverwaltung für Finnland
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Finnland für Microsoft Teams.
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Finnland für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   

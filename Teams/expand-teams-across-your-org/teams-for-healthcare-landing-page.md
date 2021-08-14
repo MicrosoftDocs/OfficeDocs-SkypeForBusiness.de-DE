@@ -4,6 +4,7 @@ description: Erfahren Sie mehr über die Administratorressourcen, die Ihnen zum 
 author: cichur
 ms.author: v-cichur
 manager: serdars
+ms.topic: article
 audience: admin
 f1.keywords:
 - NOCSH
@@ -16,18 +17,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a8fce6f67bc52ee6d7cf5e8addc3a67393c622f484c478edf0f8686cd08c2974
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5c5040ba402a14f87ead8156569552c510db63c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321377"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233470"
 ---
 # <a name="teams-for-healthcare"></a>Teams für das Gesundheitswesen
 
 Teams bietet Gesundheitsteams und Gesundheitswesensprofis eine sichere Möglichkeit, zu kommunizieren, die Patientenpflege zu koordinieren und die betriebliche Effizienz zu verbessern. Hier finden Sie die Administratorressourcen, die Sie benötigen, um Ihre Teams im Gesundheitswesen in Ihrer Organisation zu verwalten.
 
-|               |               |
+|    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
 | ![Screenshot einer Hand mit einem Finger, der auf ein Pfeilsymbol zeigt](../media/get-started-teams.svg)  |  [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](./healthcare/teams-in-hc.md) |
 | ![Screenshot eines Kartensymbols](../media/walkthrough-map-teams.svg) | [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](./healthcare/healthcare-templates-admin-console.md) |

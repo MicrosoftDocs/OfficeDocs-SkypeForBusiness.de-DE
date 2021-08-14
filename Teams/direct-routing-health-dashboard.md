@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie mithilfe des Integritätsdashboards die Verbindung zwischen dem Session Border Controller und dem direkten Routing überwachen.
-ms.openlocfilehash: cb5e802d904cd2eb364fd480ebcde385e64cf02b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b5888ed6e8545eff64929ef24da7fd768c4d60b6bb0e4df5f4760dfd215c08d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327670"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Integritätsdashboard für direktes Routing
 

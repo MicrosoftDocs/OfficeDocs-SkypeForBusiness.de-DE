@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
-description: 'Das Cmdlet „Publish-CcAppliance“ ruft Informationen zur hohen Verfügbarkeit aus der Onlinemandantenkonfiguration ab und veröffentlicht sie in der Skype for Business Cloud Connector Edition-Appliance auf dem Hostserver. '
-ms.openlocfilehash: 159247614733261cac4b3381e35d8dd297cf9a23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das Cmdlet Publish-CcAppliance erhält Informationen zur hohen Verfügbarkeit aus der Onlinemandantenkonfiguration und veröffentlicht sie in der Skype for Business Cloud Connector Edition Appliance auf dem Hostserver.
+ms.openlocfilehash: 83b0a7e3806a271a358085bb0cca2a2ef6a518e67e124f0be97c1ff4616e3dcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326181"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
-Das Cmdlet „Publish-CcAppliance“ ruft Informationen zur hohen Verfügbarkeit aus der Onlinemandantenkonfiguration ab und veröffentlicht sie in der Skype for Business Cloud Connector Edition-Appliance auf dem Hostserver.  
+Das Cmdlet Publish-CcAppliance erhält Informationen zur hohen Verfügbarkeit aus der Onlinemandantenkonfiguration und veröffentlicht sie in der Skype for Business Cloud Connector Edition Appliance auf dem Hostserver. 
   
 ```powershell
 Publish-CcAppliance
@@ -35,9 +35,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel werden Informationen zu einer höheren Verfügbarkeit aus der Konfiguration des Online Mandanten abgerufen und in der Cloud Connector-Appliance auf dem Hostserver veröffentlicht:
+Im folgenden Beispiel werden Informationen zur hohen Verfügbarkeit aus der Onlinemandantenkonfiguration abgerufen und in der Cloud Connector-Appliance auf dem Hostserver veröffentlicht:
   
 ```powershell
 Publish-CcAppliance
@@ -46,17 +46,17 @@ Publish-CcAppliance
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Die Informationen zur hohen Verfügbarkeit enthalten die Vermittlungsserver-FQDNs und die IP-Adressen des PSTN-Standorts. Neue DNS-A-Einträge werden zum AD-Server für IP-Adressen für Vermittlungsserver hinzugefügt. Neue Topologieelemente werden im zentralen Verwaltungsspeicher für die Vermittlungsserver-FQDNs und IP-Adressen aktualisiert.  
+Informationen zur hohen Verfügbarkeit enthalten die Vermittlungsserver-FQDNs und IP-Adressen des PSTN-Standorts. Neue DNS A-Einträge werden dem AD-Server für DIE IP-Adressen des Vermittlungsservers hinzugefügt. Neue Topologieelemente werden auf die zentrale Verwaltungs-Store für die Vermittlungsserver-FQDNs und IP-Adressen aktualisiert. 
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Publish-CcAppliance“ akzeptiert keine Pipelineeingaben.
+Keine. Das cmdlet Publish-CcAppliance akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>
 
-Keine 
+Keine
   
 ## <a name="see-also"></a>Siehe auch
 <a name="ReturnTypes"> </a>

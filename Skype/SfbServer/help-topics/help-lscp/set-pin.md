@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
-description: Um die PIN des Benutzers zu generieren, wählen Sie Automatisch eine gültige PIN generieren aus.
-ms.openlocfilehash: eb50a863eec40e5997b3e53f843fbcb50a8a7636
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Um die PIN des Benutzers zu generieren, wählen Sie "Automatisches Generieren einer gültigen PIN" aus.
+ms.openlocfilehash: 12a892882194ceed7ef9620c22f5262e66c75612ee0d274e0a43d516b6191240
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328310"
 ---
 # <a name="set-pin"></a>Festlegen einer PIN
 
-Um die PIN des Benutzers zu generieren, wählen **Sie Automatisch eine gültige PIN generieren aus.**
+Um die PIN des Benutzers zu generieren, wählen Sie **"Automatisches Generieren einer gültigen PIN"** aus.
 
 Wählen Sie **Bestimmte PIN manuell eingeben**, und geben Sie anschließend eine PIN in das Textfeld ein, welche die in Ihren PIN-Richtlinieneinstellungen angegebenen PIN-Anforderungen erfüllt.
 
-Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="see-also"></a>Siehe auch
 

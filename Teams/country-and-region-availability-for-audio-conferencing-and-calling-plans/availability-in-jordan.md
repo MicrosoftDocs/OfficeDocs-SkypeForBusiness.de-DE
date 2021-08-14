@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Jordanien.
-ms.openlocfilehash: af10bdb310f577632e1e7c686020065f817d3972
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5bc1b62990011e7e24cc539ecca24e2f44c7bfd1614d627aa1f66f89bf900c2d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351095"
 ---
 # <a name="availability-in-jordan"></a>Verfügbarkeit in Jordanien
 

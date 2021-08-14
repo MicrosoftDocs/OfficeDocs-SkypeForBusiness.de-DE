@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (PSTN-Anrufpläne) verwenden.
-ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: Erfahren Sie, wie Sie Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (Wählpläne für PSTN-Anrufe) verwenden.
+ms.openlocfilehash: bb5574893ec940129a0669608d2bb89d474fb0b6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849200"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233300"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -36,7 +36,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
 ### <a name="create-a-dial-plan"></a>Erstellen eines Wählplans
 
-1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachwählplan**.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachwählplan**.
 2. Klicken **Sie auf** Hinzufügen , und geben Sie einen Namen und eine Beschreibung für den Wählplan ein.
     ![Screenshot der Seite "Hinzufügen" zum Erstellen eines Wählplans](media/create-dial-plan.png)
 3. Geben **Sie unter** Wählplandetails ein externes Wählpräfix an, wenn Benutzer eine oder mehrere zusätzliche führende Ziffern (z. B. 9) wählen müssen, um eine externe Leitung zu erhalten. Gehen Sie dazu so vor:
@@ -56,7 +56,7 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
 ### <a name="edit-a-dial-plan"></a>Bearbeiten eines Wählplans
 
-1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachwählplan**.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachwählplan**.
 2. Wählen Sie den Wählplan aus, indem Sie links vom Namen des Wählplans klicken und dann auf **Bearbeiten klicken.**
 3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
 
@@ -67,7 +67,7 @@ Sie weisen einen Wählplan auf die gleiche Weise wie Richtlinien zu. [!INCLUDE [
 ## <a name="using-powershell"></a>Verwendung von PowerShell
   
 ### <a name="start-powershell"></a>Starten von PowerShell
-- Öffnen Sie Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus:
+- Öffnen Sie eine Windows PowerShell-Eingabeaufforderung, und führen Sie die folgenden Befehle aus:
 
 ```powershell
   # When using Teams PowerShell Module
@@ -187,14 +187,14 @@ Führen Sie dies aus, um alle Benutzer zu finden, denen der Mandantenwählplan "
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Führen Sie dies aus, um alle zugewiesenen TenantDialPlan-Ressourcen von allen Benutzern zu entfernen, die über einen HostingProvider-sipfed.online.lync.com.
+Führen Sie dies aus, um alle zugewiesenen TenantDialPlan-Dateien von allen Benutzern zu entfernen, die über einen HostProvider von sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
 Führen Sie diese aus, um den vorhandenen lokalen Wählplan mit dem Namen OPDP1 als Mandantenwählplan für Ihre Organisation hinzuzufügen. Sie müssen zuerst den lokalen Wählplan in einer .xml speichern und dann damit den neuen Mandantenwählplan erstellen.
   
-Führen Sie diese Datei aus, um den lokalen Wählplan in der .xml speichern.
+Führen Sie dies aus, um den lokalen Wählplan in der .xml speichern.
   
 ```PowerShell
 $DPName = "OPDP1"

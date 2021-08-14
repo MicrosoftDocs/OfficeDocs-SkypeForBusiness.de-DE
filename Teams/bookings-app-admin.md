@@ -1,7 +1,7 @@
 ---
 title: Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams und virtuelle Visiten und Termine mit der Bookings-App
-ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ef4708cfcbdda5ba55c1aa7069e6e1e6babebc2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295202"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233400"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App
 
@@ -41,7 +41,7 @@ Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie
 
 - Microsoft Bookings muss für die Organisation aktiviert sein.
 
-- Die Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 A3, A5, E3 und E5 sowie Microsoft 365 Business Premium, Microsoft 365 Business Standard, A3, A5, E3 und E5 werden unterstützt.
+- Die Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 und E5, Business Standard werden unterstützt.
 
 - Alle Benutzer der Bookings-App und alle an Besprechungen teilnehmenden Mitarbeiter müssen über eine Lizenz verfügen, die die Planung von Microsoft Teams-Besprechungen unterstützt.
 

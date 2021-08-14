@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Eine Netzwerkregionsroute definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine Netzwerkregionsroute erforderlich.
-ms.openlocfilehash: 822785657020e9f1f071623f844766cfb1a12dd1b5cee1c20c23edcf584addad
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: da9145f44765009659bbf648bc082e06d806ab60
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590759"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233640"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Verwalten von Netzwerkregionsrouten in Skype for Business Server
 
@@ -44,7 +44,7 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
 
-### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionen-Routeninformationen mithilfe Windows PowerShell Cmdlets
+### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionenrouteninformationen mithilfe Windows PowerShell Cmdlets
 
 Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
@@ -60,7 +60,7 @@ Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell 
     NetworkRegionLinks : {NorthwestToNortheast}<br/>
     InterNetworkRegionRouteID : TransAmericaRoute<br/>
     NetworkRegionID1 : Pacific Northwest<br/>
-    NetworkRegionID2 : Nordost<br/>
+    NetworkRegionID2: Nordost<br/>
 
 For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
 

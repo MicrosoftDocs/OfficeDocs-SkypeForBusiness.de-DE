@@ -17,16 +17,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 82edaaa1458897365cf5857837610070bb43137d385d73d084e73db9e6d6f82f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0b7458c18b25acc1e4d501a1f41da01a5dc3b963
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "58190995"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243649"
 ---
 # <a name="microsoft-teams-monitor-and-improve-call-quality"></a>Microsoft Teams: Überwachen und Verbessern der Anrufqualität
 
-In diesem Artikel werden drei wichtige Tools für die Überwachung, Problembehandlung, Verwaltung und Verbesserung der Anrufqualität in ihrer Microsoft Teams. 
+In diesem Artikel werden drei wichtige Tools beschrieben, die Sie zum Überwachen, Behandeln von Problemen, Verwalten und Verbessern der Anrufqualität in Microsoft Teams. 
 
 - **Anrufqualitätsdashboard (CQD):** Um organisationsweite Trends oder Probleme zu analysieren, verbessern Sie die Leistung
 
@@ -39,7 +39,7 @@ In diesem Artikel werden drei wichtige Tools für die Überwachung, Problembehan
 ## <a name="monitor-and-troubleshoot-call-quality"></a>Überwachen und Behandeln von Problemen mit der Anrufqualität
 Sie verwenden die Anrufanalyse pro  Benutzer und das Anrufqualitätsdashboard, um Probleme mit der Anrufqualität zu finden und zu behandeln, die während des laufenden Betriebs auftreten.  Auf diese Weise können Sie Leistungsverbesserungen im gesamten Netzwerk erreichen. Beide Tools befinden sich im Teams Admin Center.
 
- - **Die Anrufanalyse** zeigt detaillierte Informationen zu den **** Geräten, Netzwerken und zur Konnektivität im Zusammenhang mit bestimmten Anrufen und Besprechungen für jeden Benutzer in einer Teams. Teams-Administrator und Helpdesk-Agents verwenden diese Informationen, um Probleme mit der Anrufqualität und verbindungen in einem bestimmten Anruf zu beheben. Weitere Informationen finden Sie unter Einrichten der [Anrufanalyse](set-up-call-analytics.md) und Verwenden der Anrufanalyse zur Problembehandlung bei [schlechter Anrufqualität.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ - **Die Anrufanalyse** zeigt detaillierte Informationen zu den **** Geräten, Netzwerken und zur Konnektivität im Zusammenhang mit bestimmten Anrufen und Besprechungen für jeden Benutzer in Teams. Teams-Administrator und Helpdesk-Agents verwenden diese Informationen, um Probleme mit der Anrufqualität und verbindungen in einem bestimmten Anruf zu beheben. Weitere Informationen finden Sie unter Einrichten der [Anrufanalyse](set-up-call-analytics.md) und Verwenden der Anrufanalyse zur Problembehandlung bei [schlechter Anrufqualität.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
  
  - **Das Anrufqualitätsdashboard (CQD)** bietet Ihnen eine **_netzwerkweite_** Ansicht der Anrufqualität in der gesamten Organisation. Verwenden Sie AQD-Informationen, um Probleme zu erkennen und zu beheben. Richten Sie [zuerst das CQD ein.](turning-on-and-using-call-quality-dashboard.md) Lesen Sie dann [Verwalten der Anruf- und Besprechungsqualität in Teams.](quality-of-experience-review-guide.md)
 
@@ -53,7 +53,7 @@ Mit QoS priorisieren Sie verzögerungssensiblen Netzwerkdatenverkehr (z. B. Spra
 
 Im Idealfall implementieren Sie QoS in Ihrem internen Netzwerk, während Sie sich auf den Rollout Teams, aber Sie können dies jederzeit tun. Wenn Sie klein genug sind, benötigen Sie möglicherweise kein QoS.
 
-Wenn Sie fertig sind, lesen Sie [Implementieren von Quality of Service (QoS) in Microsoft Teams.](QoS-in-Teams.md)
+Wenn Sie fertig sind, lesen Sie [Implementieren von Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md).
 
 Informationen zum Verwenden von QoS zum Verwalten des Besprechungsdatenverkehrs finden Sie unter Festlegen, wie [Echtzeitmedienverkehr](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)für Besprechungen Teams werden soll.
 

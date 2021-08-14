@@ -18,31 +18,33 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09a231690815be5be2109b1079195bdeb8100ca935a6b2bdcd06962cc4c08c92
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0eadd46cdf9862db364f64744d68a92b9bd7195ce0494e3f61d11a6a486432c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326201"
 ---
-# <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Umgebungsermittlung für ein Microsoft Teams-Rollout
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Umgebungsermittlung für eine Microsoft Teams Einführung
+===================================================
 
-Entdecken ist einer der ersten wichtigen Schritte, die Sie bei der Planung Ihrer Reise zu Microsoft Teams.
+Entdecken ist einer der ersten wichtigen Schritte, die Sie bei der Planung Ihrer Reise zu Ihrem Microsoft Teams.
 
-Sie führen eine ausführliche Ermittlung Ihrer Umgebung durch, um deren aktuellen Status besser zu verstehen und um etwaige Schwierigkeiten oder – noch weiter – mögliche Blocker bei der Durchführung Ihrer Einführung Teams entdecken.
+Sie führen eine ausführliche Ermittlung Ihrer Umgebung durch, um deren aktuellen Status besser zu verstehen und um etwaige Schwierigkeiten oder – noch weiter – mögliche Blocker bei der Durchführung Ihres Rollouts Ihres Teams auf den Teams können.
 
-## <a name="discovery-questionnaire"></a>Discovery-Fragebogen
+## <a name="discovery-questionnaire"></a>Ermittlungsfragebogen
 
 Der folgende Beispiel-Fragebogen führt Sie durch eine Reihe von Fragen, um zu bestätigen, dass Ihre Organisation für den erfolgreichen Rollout von Audiokonferenzen und Telefonsystem mit Anrufplanfunktionen in Teams.
 
-Alle Fragen im Zusammenhang mit Ihrer vorhandenen Zusammenarbeitsinfrastruktur und Microsoft 365- oder Office 365-Organisation, Netzwerken, Endpunkten, Vorgängen sowie Einführung und Bereitschaft sind Teil des Fragebogens zur Umweltermittlung.
+Alle Fragen im Zusammenhang mit Ihrer vorhandenen Zusammenarbeitsinfrastruktur und Microsoft 365- oder Office 365-Organisation, Netzwerken, Endpunkten, Vorgängen sowie Übernahme und Bereitschaft sind Teil des Fragebogens zur Umweltermittlung.
 
-Der Fragebogen ist in mehrere Abschnitte unterteilt, um die Bereitschaft Ihrer Organisation für die Bereitstellung Teams in mehreren Hauptbereichen zu bestätigen. Arbeiten Sie mit Ihrem Projektteam zusammen, um die angeforderten Informationen mit so viel Details wie möglich zur Verfügung zu stellen, um Ihre Planungsaktivitäten zu vereinfachen.
+Der Fragebogen ist in mehrere Abschnitte unterteilt, um die Bereitschaft Ihrer Organisation für ihre Bereitstellung Teams in mehreren Hauptbereichen zu bestätigen. Arbeiten Sie mit Ihrem Projektteam zusammen, um die angeforderten Informationen mit so viel Details wie möglich zur Verfügung zu stellen, um Ihre Planungsaktivitäten zu vereinfachen.
 
 > [!TIP]
 > Sie können beginnen, indem Sie den Fragebogen in ein Dokument Microsoft Word kopieren. Versuchen Sie, alle Fragen zu beantworten und alle Details zu erfassen, während Sie durch die Daten gehen.
 
-### <a name="project-team"></a>Project Team
+<a name="project-team"></a>Project-Team
+---
 
 Erfassen Sie detaillierte Informationen zu den wichtigsten Projektbeteiligten Ihres Teams Rolloutprojekts. Beachten Sie, dass eine Person im gesamten Projekt mehrere Rollen spielen kann.
 
@@ -65,9 +67,10 @@ Erfassen Sie detaillierte Informationen zu den wichtigsten Projektbeteiligten Ih
 > | Leiter des Videoteams | | | |
 > | Leads für Geschäftseinheiten | | | |
 
-## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 oder Office 365 von Organisationsdetails
+<a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 oder Office 365 von Organisationsdetails
+---
 
-Wir empfehlen dringend, dass Sie bei der Arbeit an diesem Fragebogen über Microsoft 365 oder Office 365 Organisation verfügen. Wenn Sie eine Organisation noch nicht Microsoft 365 oder Office 365 haben, lesen Sie Planen des Setups von [Microsoft 365 Business.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
+Wir empfehlen dringend, während des Ausfüllens dieses Fragebogens über Microsoft 365 oder Office 365 Organisation zu verfügen. Wenn Sie eine Organisation noch nicht aktiviert oder Microsoft 365 oder Office 365 haben, lesen Sie Planen des Setups von [Microsoft 365 Business.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
 
 Verwenden Sie die folgende Tabelle, um Informationen über die Organisation Microsoft 365 oder Office 365 erfassen.
 
@@ -85,7 +88,8 @@ Verwenden Sie die folgende Tabelle, um Informationen über die Organisation Micr
 > | Wenn aktuell ein aktives Microsoft 365<br/>oder Office 365-Mandant ist die SMTP/SIP-Domäne von <br/>die dem Mandanten zugeordneten Zielbenutzer? | <input type="checkbox">N/A – Keine Microsoft 365 oder<br/>&nbsp;&nbsp; &nbsp; Office 365-Mandant an Ort und Stelle <br/> <input type="checkbox"> Nein, SMTP/SIP der Benutzer <br/>&nbsp;&nbsp; &nbsp; Domäne ist nicht zugeordnet <br/>&nbsp;&nbsp; &nbsp; mit beliebigen Mandanten in <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 oder Office 365<br/> <input type="checkbox"> Ja, SMTP/SIP der Benutzer <br/>&nbsp;&nbsp; &nbsp; Domäne zugeordnet ist <br/>&nbsp;&nbsp; &nbsp; mit einem vorhandenen Mandanten in <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 oder Office 365 | |
 > | Entsprechen Benutzer-UPNs ihrer primären SMTP-Adresse? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein <br/> <input type="checkbox"> Inkonsistent | |
 
-## <a name="existing-collaboration-platform-summary"></a>Vorhandene Zusammenfassung der Zusammenarbeitsplattform
+<a name="existing-collaboration-platform-summary"></a>Vorhandene Zusammenfassung der Zusammenarbeitsplattform
+---
 
 Verwenden Sie die folgende Tabelle, um Informationen zu Ihrer vorhandenen Plattform für die Zusammenarbeit zu erfassen.
 
@@ -101,7 +105,8 @@ Verwenden Sie die folgende Tabelle, um Informationen zu Ihrer vorhandenen Plattf
 > | Was ist die aktuelle Telefonie- und Konferenzlösung? <br/>der Benutzer, die im Rahmen dieser Initiative liegen? | | |
 > | Verfügen Sie über [SBC,die Direct Routing](./direct-routing-plan.md#supported-session-border-controllers-sbcs) unterstützen? <br/>für Ihre Büros, die im Rahmen dieser Initiative liegen? Wenn Ja,<br/>beachten Sie die Details in der Spalte Kommentare.| <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein ||
 
-## <a name="collaboration-platform-deployment-details"></a>Details zur Bereitstellung der Zusammenarbeitsplattform
+<a name="collaboration-platform-deployment-details"></a>Details zur Bereitstellung der Zusammenarbeitsplattform
+---
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (falls zutreffend)
 
@@ -110,7 +115,7 @@ Erfassen Sie ggf. die Details Ihrer Teams mithilfe der folgenden Beispieltabelle
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
 > | Welche Benutzertypen sind für Microsoft Teams aktiviert? | <input type="checkbox"> Alle Benutzer in der Organisation <br/> <input type="checkbox"> Bestimmte Benutzer/Benutzergruppen <br/>&nbsp;&nbsp; &nbsp; (Geben Sie in der Spalte Kommentare an.) ||
-> | Welche Teams und Modalitäten werden verwendet? | <input type="checkbox"> Kanalbasierte Unterhaltungen <br/> <input type="checkbox"> Privater Chat <br/> <input type="checkbox"> Gastzugriff <br/> <input type="checkbox"> Kanalbesprechungen <br/> <input type="checkbox"> Private Besprechungen <br/> <input type="checkbox"> Private Anrufe <br/> <input type="checkbox"> Ad-hoc-Kanal-Meetup <br/> <input type="checkbox"> Videos in Besprechungen <br/> <input type="checkbox"> Bildschirmfreigabe in Besprechungen <br/> <input type="checkbox"> Audiokonferenzen <br/><input type="checkbox"> Anwendungen (Apps)<br/> &nbsp;&nbsp; &nbsp;<input type="checkbox"> Registerkarten<br/>&nbsp;&nbsp; &nbsp;<input type="checkbox"> Bots <br/>&nbsp;&nbsp; &nbsp;<input type="checkbox"> Verbinder<br/><input type="checkbox"> Integration von benutzerdefiniertem Cloudspeicher <br/>&nbsp;&nbsp; &nbsp; Dropbox, Box, ShareFile, Google <br/>&nbsp;&nbsp; &nbsp; Drive, Egnyte <br/> <input type="checkbox"> Kanal-E-Mail-Integration <br/> <input type="checkbox"> Sonstige (Geben Sie in der Spalte Kommentare an.) | |
+> | Welche Teams Features und Modalitäten werden verwendet? | <input type="checkbox"> Kanalbasierte Unterhaltungen <br/> <input type="checkbox"> Privater Chat <br/> <input type="checkbox"> Gastzugriff <br/> <input type="checkbox"> Kanalbesprechungen <br/> <input type="checkbox"> Private Besprechungen <br/> <input type="checkbox"> Private Anrufe <br/> <input type="checkbox"> Ad-hoc-Kanal-Meetup <br/> <input type="checkbox"> Videos in Besprechungen <br/> <input type="checkbox"> Bildschirmfreigabe in Besprechungen <br/> <input type="checkbox"> Audiokonferenzen <br/><input type="checkbox"> Anwendungen (Apps)<br/> &nbsp;&nbsp; &nbsp;<input type="checkbox"> Registerkarten<br/>&nbsp;&nbsp; &nbsp;<input type="checkbox"> Bots <br/>&nbsp;&nbsp; &nbsp;<input type="checkbox"> Verbinder<br/><input type="checkbox"> Integration von benutzerdefiniertem Cloudspeicher <br/>&nbsp;&nbsp; &nbsp; Dropbox, Box, ShareFile, Google <br/>&nbsp;&nbsp; &nbsp; Drive, Egnyte <br/> <input type="checkbox"> Kanal-E-Mail-Integration <br/> <input type="checkbox"> Sonstige (Geben Sie in der Spalte Kommentare an.) | |
 > | Welche Anwendungen haben Sie für ihre Teams? | | |
 > | Haben Sie Funktionen von Microsoft Teams ausdrücklich gesperrt? <br/>Wenn Ja, notieren Sie sich die Details in der Spalte Kommentare. | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein ||
 > | Welche Microsoft Teams-Clients werden verwendet? | <input type="checkbox"> Web <br/> <input type="checkbox">Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> Linux <br/>  <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox">Windows Mobil | |
@@ -119,7 +124,7 @@ Erfassen Sie ggf. die Details Ihrer Teams mithilfe der folgenden Beispieltabelle
 
 ### <a name="skype-for-business-online-if-applicable"></a>Skype for Business Online (falls zutreffend)
 
-Erfassen Sie ggf. die Details Ihrer Online Skype for Business, indem Sie die nachstehende Beispieltabelle verwenden. Wenn Sie die Onlinebereitstellung noch Skype for Business haben, überspringen Sie diesen Abschnitt.
+Erfassen Sie ggf. die Details Ihrer Online Skype for Business, indem Sie die nachstehende Beispieltabelle verwenden. Wenn Sie keine Onlinebereitstellung Skype for Business haben, überspringen Sie diesen Abschnitt.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
@@ -137,14 +142,15 @@ Erfassen Sie ggf. die Details Ihrer Skype for Business mithilfe der folgenden Be
 > |---|---|---|
 > | Welche Versionen von Lync oder Skype for Business <br/> sind derzeit lokal bereitgestellt? | <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">Skype for Business Server 2015 <br/> <input type="checkbox">Skype for Business Server 2019 <br/><input type="checkbox">Skype for Business Cloud Connector <br/>&nbsp;&nbsp; &nbsp; Edition | |
 > | Ist eine hybride Bereitstellung mit Skype for Business Online konfiguriert? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
-> | Wird diese Umgebung von einem dritten gehostet und verwaltet? <br/>Party? Falls ja, notieren Sie sich die Details im <br/>Spalte Kommentare. | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
+> | Wird diese Umgebung von einem dritten gehostet und verwaltet? <br/>Party? Wenn Ja, notieren Sie sich die Details im <br/>Spalte Kommentare. | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Welche Modalitäten und Features werden derzeit verwendet? <br/>heute? | <input type="checkbox"> Chatnachrichten und Anwesenheit (Chat/P) <br/> <input type="checkbox"> Konferenzen <br/> <input type="checkbox"> Verbund <br/> <input type="checkbox"> Besprechungsaufzeichnung <br/> <input type="checkbox"> Beständiger Chat/Gruppenchat <br/> <input type="checkbox"> Microsoft Audio Conferencing <br/>&nbsp;&nbsp; &nbsp; (ehemals Dial in Conferencing, Einwahlkonferenzen) auf Ihrer <br/>&nbsp;&nbsp; &nbsp; lokalen Lync Server oder <br/>&nbsp;&nbsp; &nbsp; Skype for Business-Bereitstellung <br/> <input type="checkbox"> Drittanbieter für Audiokonferenzen <br/>&nbsp;&nbsp; &nbsp; (Details finden Sie in den Kommentaren <br/>&nbsp;&nbsp; &nbsp; Spalte.) <br/> <input type="checkbox">Enterprise-VoIP mit der lokalen <br/>&nbsp; &nbsp; &nbsp;PSTN-Konnektivität <br/> <input type="checkbox"> Anrufpläne (früher PSTN-Anrufe) über <br/>&nbsp;&nbsp; &nbsp; Hybrid mit Skype for Business Online | |
 > | Welche Edgeserverversionen sind bereitgestellt? | <input type="checkbox">Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">Skype for Business Server 2015 <br/> <input type="checkbox">Skype for Business Server 2019| |
-> | Haben Sie Lync oder Skype for Business Edge? <br/>in mehreren Rechenzentren bereitgestellt? <br/>Wenn Ja, notieren Sie sich die Details in der Spalte Kommentare. | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
+> | Haben Sie Lync oder Skype for Business Edge? <br/>in mehr als einem Rechenzentrum bereitgestellt? <br/>Wenn Ja, notieren Sie sich die Details in der Spalte Kommentare. | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Wählen Sie Dienste aus, die Ihre Edge-Rolle heute bietet. | <input type="checkbox"> Externer Benutzerzugriff (Unternehmensbenutzer) <br/> <input type="checkbox"> Remotebenutzerzugriff (anonym) <br/>&nbsp;&nbsp; &nbsp; externe Besprechungsteilnehmer) <br/> <input type="checkbox"> Verbund <br/> <input type="checkbox"> Media Relay | |
-> | Welche der folgenden Sprachanruffunktionen haben Sie? <br/>bestehen derzeit Abhängigkeiten? <br/>Beachten Sie alle zusätzlichen Abhängigkeiten im Kommentar <br/>aus. | <input type="checkbox"> Beschäftigt-Optionen <br/> <input type="checkbox"> Parken von Anrufen <br/> <input type="checkbox"> Abholen von Anrufen oder Gruppenanrufen <br/> <input type="checkbox"> Telefone in der Nähe oder "Hot-King" <br/> <input type="checkbox"> Reaktionsgruppen oder Sammelsuchegruppen <br/> <input type="checkbox"> Darstellung einer freigegebenen Linie <br/> <input type="checkbox"> Privatleitung <br/> <input type="checkbox"> Voicemail <br/> <input type="checkbox"> Anrufen über die Arbeit <br/> <input type="checkbox"> Notfall- oder Informationsnummern <br/>&nbsp;&nbsp; &nbsp; (911, 811, 411) <br/> <input type="checkbox"> Durchwahlwahl <br/> <input type="checkbox"> automatische Telefonzentrale <br/> <input type="checkbox"> Abonnentenzugriff <br/> <input type="checkbox"> Analoge Geräte <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Maskieren oder Ändern der Anrufer-ID <br/> <input type="checkbox"> Standortbasiertes Routing <br/> <input type="checkbox"> Kostengünstiges Routing <br/> <input type="checkbox"> Fahrstuhltelefone | |
+> | Welche der folgenden Sprachanruffunktionen haben Sie? <br/>bestehen derzeit Abhängigkeiten? <br/>Beachten Sie alle zusätzlichen Abhängigkeiten in "Kommentare". <br/>aus. | <input type="checkbox"> Beschäftigt-Optionen <br/> <input type="checkbox"> Parken von Anrufen <br/> <input type="checkbox"> Abholen von Anrufen oder Gruppenanrufen <br/> <input type="checkbox"> Telefone in der Nähe oder "Hot-King" <br/> <input type="checkbox"> Reaktionsgruppen oder Sammelsuchegruppen <br/> <input type="checkbox"> Darstellung einer freigegebenen Linie <br/> <input type="checkbox"> Privatleitung <br/> <input type="checkbox"> Voicemail <br/> <input type="checkbox"> Anrufen über die Arbeit <br/> <input type="checkbox"> Notfall- oder Informationsnummern <br/>&nbsp;&nbsp; &nbsp; (911, 811, 411) <br/> <input type="checkbox"> Durchwahlwahl <br/> <input type="checkbox"> automatische Telefonzentrale <br/> <input type="checkbox"> Abonnentenzugriff <br/> <input type="checkbox"> Analoge Geräte <br/> <input type="checkbox"> Fax <br/> <input type="checkbox"> Maskieren oder Ändern der Anrufer-ID <br/> <input type="checkbox"> Standortbasiertes Routing <br/> <input type="checkbox"> Kostengünstiges Routing <br/> <input type="checkbox"> Fahrstuhltelefone | |
 
-## <a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Netzwerk und Zugriff auf Microsoft 365 und Office 365 Dienste
+<a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Netzwerk und Zugriff auf Microsoft 365 und Office 365 Dienste
+---
 
 Verwenden Sie die folgende Tabelle, um die Netzwerkdetails Ihrer Organisation sowie die Art und Weise zu erfassen, wie Ihre Benutzer mit Microsoft 365 und Office 365 verbunden sind.
 
@@ -155,25 +161,27 @@ Verwenden Sie die folgende Tabelle, um die Netzwerkdetails Ihrer Organisation so
 > | Wird ExpressRoute zurzeit genutzt? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein <br/> <input type="checkbox"> Nein, aber es wird geplant | |
 > | Haben Sie eine Netzwerkbereitschaftsbewertung durchgeführt? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Müssen Benutzer beim Herstellen einer Verbindung ein VPN verwenden? <br/>Unternehmensressourcen remote? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
-> | Bei Verwendung eines VPN kann der Teams von <br/>VPN für den direkten Zugriff Microsoft 365 und Office 365 Dienste? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
+> | Wenn ein VPN verwendet wird, kann Teams-Datenverkehr von <br/>VPN für den direkten Zugriff auf Microsoft 365 und Office 365 Dienste? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Unterstützt Ihr Netzwerk QoS? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Können Sie den Audio- Teams Videodatenverkehr priorisieren? <br/>um ein qualitativ hochwertiges Erlebnis zu ermöglichen? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Alle Standorte innerhalb einer Region verfügen über einen Internetanschluss, <br/>oder ist der Internet-Ausgangsbereich für die gesamte Region zentralisiert? | <input type="checkbox"> Regionaler Zugriff auf das Internet <br/> <input type="checkbox"> Zentralisierter Zugriff auf die <br/>&nbsp;&nbsp; &nbsp; Internet | |
 
-## <a name="endpoints"></a>Endpunkte
+<a name="endpoints"></a>Endpunkte
+---
 
 Verwenden Sie die folgende Tabelle, um die Details der verwendeten Clients und Endpunkte zu erfassen.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
 > | Welches Desktopbetriebssystem verwenden die Benutzer? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox"> Mac (Geben Sie die Version in der Spalte Kommentare an.) <br/> <input type="checkbox"> Linux (Geben Sie die Verteilung in der Spalte Kommentare an.) <br/><input type="checkbox"> Sonstige (Beachten Sie die Details in der Spalte Kommentare.) | |
-> | Welche Version des Microsoft Office bereitgestellt wird <br/>auf diese Geräte zugreifen? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office für Mac 2011 <br/> <input type="checkbox">Office für Mac 2016 <br/> <input type="checkbox"> Sonstige (Beachten Sie die Details in der Spalte Kommentare.) | |
+> | Welche Version Microsoft Office bereitgestellt wird <br/>auf diese Geräte zugreifen? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office für Mac 2011 <br/> <input type="checkbox">Office für Mac 2016 <br/> <input type="checkbox"> Sonstige (Beachten Sie die Details in der Spalte Kommentare.) | |
 > | Welche Office verwendet wird <br/>in Ihrer Organisation? | <input type="checkbox"> MSI <br/> <input type="checkbox"> Klick-und-Ausführen | |
 > | Welche mobilen Geräte sind zulässig und unterstützt? <br/>verwendet werden? <br/>Wählen Sie alle anzuwendende Option aus. | <input type="checkbox">Windows <br/> <input type="checkbox"> Mobil <br/> <input type="checkbox"> iOS <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> Sonstige (Beachten Sie die Details in der Spalte Kommentare.) | |
 > | Wie werden mobile Geräte bereitgestellt? <br/>Wählen Sie alle anzuwendende Option aus. | <input type="checkbox"> Unternehmensgeräte <br/> <input type="checkbox"> Mit ihrem eigenen Gerät | |
 > | Auf welche Geräte greifen Benutzer derzeit zu? <br/>Sprach- und Konferenzdienste <br/>(Handsets, Headsets, Smartphones, Video)? | | |
 
-## <a name="operations"></a>Vorgänge
+<a name="operations"></a>Vorgänge
+---
 
 Verwenden Sie die folgende Tabelle, um die Details der betriebsbereiten Aspekte Ihrer Umgebung zu erfassen.
 
@@ -184,11 +192,12 @@ Verwenden Sie die folgende Tabelle, um die Details der betriebsbereiten Aspekte 
 > | Wenn Sie Ihre Bereitstellung in mehreren Ländern oder Regionen <br/>verfügt jedes Land/jede Region über eine eigene IT/Telefonie <br/>mitarbeiter für die Zusammenarbeit, oder wird dies zentral verwaltet? | <input type="checkbox"> Regionale Vorgänge und Support <br/> <input type="checkbox"> Zentrale Vorgänge und Unterstützung | |
 > | Wenden Sie die Methodik für Anrufqualität an? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Haben Sie eine Person oder ein Team der <br/>Rolle "Quality Champion" für die Zusammenarbeitsplattform <br/>wird verwendet? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein ||
-> | Wie überwachen Sie Ihren Lync-Server, Skype für <br/>Business Server, Microsoft 365 Bereitstellung oder <br/>Office 365 Bereitstellung? | | |
+> | Wie überwachen Sie Ihren Lync Server, Skype für <br/>Business Server, Microsoft 365 Bereitstellung oder <br/>Office 365 Bereitstellung? | | |
 > | Treten Probleme mit der Anrufqualität auf? | <input type="checkbox"> Ja<br/> <input type="checkbox"> Nein | |
 > | Wie und wann bieten Sie Schulungen für Ihre <br/>Helpdesk zu neuen Diensten und Funktionen? | | |
 
-## <a name="adoption-and-readiness"></a>Verbreitung und Bereitschaft
+<a name="adoption-and-readiness"></a>Verbreitung und Bereitschaft
+---
 
 Erfassen Sie mithilfe der folgenden Tabelle den aktuellen Status der Einführung und Bereitschaft in Ihrer Organisation.
 
@@ -201,4 +210,4 @@ Erfassen Sie mithilfe der folgenden Tabelle den aktuellen Status der Einführung
 > | Wie messen Sie derzeit den Erfolg für Technologie? <br/>Rollouts wie Skype for Business? | | |
 > | Welchen Prozentsatz Ihrer Benutzerbasis würden Sie sagen, hat <br/>übernommen Skype for Business? | | |
 > | Wie ist die Einstellung der Benutzer zu Skype for Business? | <input type="checkbox"> Gut <br/> <input type="checkbox"> Neutral <br/> <input type="checkbox"> Schlecht | |
-> | Welche der folgenden Informationen beschreibt am besten das Rollout <br/>strategie für Ihre Skype for Business <br/>Bereitstellung? | <input type="checkbox"> Umfassende Reichweite: E-Mail-Kampagne mit <br/>&nbsp;&nbsp; &nbsp; Links zu Schulungen <br/> <input type="checkbox"> Erweitert: Breite Reichweite und vielfältiges Angebot <br/>&nbsp;&nbsp; &nbsp; von Bewusstseinskampagnen (Postern, <br/>&nbsp;&nbsp; &nbsp; Events, Champions) und Schulungen <br/>&nbsp;&nbsp; &nbsp; (Videos, Benutzerhandbücher, persönlich) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted <br/>&nbsp;&nbsp; &nbsp; Messaging und Schulung nach Persona <br/> <input type="checkbox"> Sonstiges <br/>&nbsp;&nbsp; &nbsp; (Beachten Sie die Details in der Spalte Kommentare.) | |
+> | Welche der folgenden Informationen beschreibt am besten das Rollout <br/>Strategie, die für Ihre Skype for Business <br/>Bereitstellung? | <input type="checkbox"> Umfassende Reichweite: E-Mail-Kampagne mit <br/>&nbsp;&nbsp; &nbsp; Links zu Schulungen <br/> <input type="checkbox"> Erweitert: Breite Reichweite und vielfältiges Angebot <br/>&nbsp;&nbsp; &nbsp; von Bewusstseinskampagnen (Postern, <br/>&nbsp;&nbsp; &nbsp; Events, Champions) und Schulungen <br/>&nbsp;&nbsp; &nbsp; (Videos, Benutzerhandbücher, persönlich) <br/> <input type="checkbox"> Tailored: Expanded, plus targeted <br/>&nbsp;&nbsp; &nbsp; Messaging und Schulung nach Persona <br/> <input type="checkbox"> Sonstiges <br/>&nbsp;&nbsp; &nbsp; (Beachten Sie die Details in der Spalte Kommentare.) | |
