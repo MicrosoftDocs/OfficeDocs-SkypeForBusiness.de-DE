@@ -1,5 +1,5 @@
 ---
-title: Vorgangstabelle
+title: Task-Tabelle
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a09858b6-d2cd-4d0c-87ef-37aacf733718
 description: Die Aufgabentabelle ist nur für die interne Verwendung bestimmt. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 3d27a0e3d9ba1eb4acb25b493dc268279dbad105
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9641e9e1863c03a7c93d650a318987d1415958a6cba0bddaaedb4f79b3cb20a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343199"
 ---
-# <a name="task-table"></a>Vorgangstabelle
+# <a name="task-table"></a>Task-Tabelle
  
 Die Aufgabentabelle ist nur für die interne Verwendung bestimmt. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
   

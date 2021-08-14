@@ -1,5 +1,5 @@
 ---
-title: Webdienstsicherheitseinstellungen Erstellen neuer oder Ändern vorhandener Einstellungen
+title: Webdienstsicherheit Einstellungen Erstellen einer neuen oder Ändern einer vorhandenen Webdienstsicherheit
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 4364a907f5a0d533cdf0606f3d07632460c25ce9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0835a3a2d1f883e3a91b489e44fd181cb8bc144ff41060c27435fab2817adef4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343639"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Sicherheitseinstellungen für Webdienste: Erstellen neuer oder Ändern vorhandener Sicherheitseinstellungen für Webdienste
 
@@ -32,4 +32,4 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
 
 - [Löschen eines Webdiensts](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-web-service-configuration-settings)
 
-Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).

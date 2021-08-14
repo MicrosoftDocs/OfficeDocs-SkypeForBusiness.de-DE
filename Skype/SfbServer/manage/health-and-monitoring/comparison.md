@@ -1,5 +1,5 @@
 ---
-title: Bericht über Medienqualität in Skype for Business Server
+title: Vergleichsbericht über Medienqualität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über die Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: bb8a14ae9685e53ed2441201b25449bdde3f9b0c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Erfahren Sie mehr über den Vergleichsbericht über Medienqualität in Skype for Business Server.'
+ms.openlocfilehash: 4ce020e923d66d5d5ee3b8757f3259e35c65ecbb306cbce238d68e8c05351039
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817055"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345632"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Bericht über Medienqualität in Skype for Business Server
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Vergleichsbericht über Medienqualität in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über den Bericht über die Medienqualität in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Vergleichsbericht über Medienqualität in Skype for Business Server.
   
 Mit dem Bericht über die Medienqualität können Sie Anrufqualitätswerte für verschiedene Arten von Audioanrufen vergleichen (z. B. Anrufe über ein Funknetzwerk und Anrufe über eine Kabelverbindung).
   
@@ -37,11 +37,11 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
-|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 07.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Aufrufe** <br/> | Der Anruftyp, der als primäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Verkabelt <br/>  Drahtlos <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
-|**Mit Anrufen vergleichen** <br/> | Der Anruftyp, der als sekundäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Verkabelt <br/>  Drahtlos <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
-|**Intervall** <br/> | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie beispielsweise das Intervall "Täglich" mit dem Startdatum 7.7.2015 und dem Enddatum 28.02.2015 auswählen, werden Daten für die Tage 07.08.2015 00:00 Uhr bis 07.09.2015 00:00 Uhr angezeigt (d. h. Daten von insgesamt 31 Tagen). <br/> |
+|**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Aufrufe** <br/> | Der Anruftyp, der als primäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Wired <br/>  Wireless <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
+|**Mit Anrufen vergleichen** <br/> | Der Anruftyp, der als sekundäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Wired <br/>  Wireless <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
+|**Intervall** <br/> | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie z. B. das Intervall "Täglich" mit dem Startdatum 7.07.2015 und dem Enddatum 28.02.2015 auswählen, werden Daten für die Tage 07.08.2015 12:00 Uhr bis 07.09.2015 12:00 Uhr angezeigt (d. s. Daten insgesamt 31 Tage). <br/> |
    
 ## <a name="metrics"></a>Metriken
 
@@ -52,7 +52,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht über die M
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
 |**Anruflautstärke** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe.  <br/> |
-|**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Durchschnittliche Beeinträchtigung des MOS (Mean Opinion Score) während eines Anrufs. Beeinträchtigungswerte können zwischen einem niedrigen Wert von 0,0 und einem Hohen von 5,0 liegen. Ein Wert von 0,5 oder weniger stellt eine akzeptable Beeinträchtigung dar. In der Vergangenheit wurden mittelwertige Bewertungen berechnet, indem Benutzer die Qualität eines Anrufs auf einer Skala von 1 bis 5 bewerten mussten. Skype for Business Server verwendet eine Reihe von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
+|**Beeinträchtigung (MOS)** <br/> |Nein  <br/> |Durchschnittliche Mos-Beeinträchtigung (Mean Opinion Score) während eines Anrufs. Beeinträchtigungswerte können zwischen einem Niedrigen von 0,0 und einem Hoch von 5,0 liegen. Ein Wert von 0,5 oder weniger stellt eine akzeptable Beeinträchtigung dar. In der Vergangenheit wurden die mittleren Bewertungsergebnisse berechnet, indem Benutzer die Qualität eines Anrufs auf einer Skala von 1 bis 5 bewerten mussten. Skype for Business Server verwendet eine Reihe von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.  <br/> Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Prozentsatz der Anrufe schlechter Qualität** <br/> |Nein  <br/> |Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).  <br/> |
 |**Roundtrip (ms)** <br/> |Nein  <br/> |Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.  <br/> Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routing konfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.  <br/> |
 |**Paketverlust** <br/> |Nein  <br/> |Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport Protocol). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |

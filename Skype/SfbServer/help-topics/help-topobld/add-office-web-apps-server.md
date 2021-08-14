@@ -14,26 +14,26 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
-description: 'Der Assistent Neuen Office Web Apps Server definieren definiert einen neuen Office Web Apps Server in Ihrer Bereitstellung. Sie geben die folgenden Informationen ein:'
-ms.openlocfilehash: 002566fb77539745d1d0023159e9af7852b1ecdc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Der Assistent zum Definieren neuer Office Web Apps-Server definiert einen neuen Office Web Apps-Server in Ihrer Bereitstellung. Sie geben die folgenden Informationen ein:'
+ms.openlocfilehash: e72ff910b0ad299de9bbd5599aa64c338531024d0c1a41182567a67c8373ec3d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343599"
 ---
 # <a name="add-office-web-apps-server"></a>Hinzufügen eines Office Web Apps-Servers
 
-Der **Assistent Neuen Office Web Apps Server definieren** definiert einen neuen Office Web Apps Server in Ihrer Bereitstellung. Sie geben die folgenden Informationen ein:
+Der Assistent zum **Definieren neuer Office Web Apps-Server** definiert einen neuen Office Web Apps-Server in Ihrer Bereitstellung. Sie geben die folgenden Informationen ein:
 
- **Office Web Apps Server FQDN**: Geben Sie den vollqualifizierten Domänennamen des Servers ein, der den Office Web Apps Server hosten soll
+ **Office Web Apps Server FQDN:** Geben Sie den vollqualifizierten Domänennamen des Servers ein, der den Office Web Apps-Server hosten soll.
 
- **Office Web Apps Server-Discovery-URL**: Geben Sie den vollständigen einheitlichen Ressourcen-Locator (URL) des Office Web Apps Server ein.
+ **Office Web Apps Server Discovery URL:** Geben Sie den vollständigen URL (Uniform Resource Locator) des Office Web Apps-Servers ein.
 
 > [!TIP]
-> Das Standardverhalten der **Office Web Apps Server-Discovery-URL** besteht im Erstellen der URL basierend auf dem FQDN des Office Web Apps Server im Format: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . In den meisten Fällen müssen Sie das Standardformat nicht ändern. Möglicherweise müssen Sie das Standardformat ändern, wenn der Office Web Apps Server und die Office Web Apps Server-Discovery-URL unterschiedlich sein müssen. Ihr Office Web Apps Server wird beispielsweise im Umkreisnetzwerk platziert und hat eine andere URL basierend auf dem Standort.
+> Das Standardverhalten der **Office Web Apps Server Discovery-URL** besteht darin, die URL basierend auf dem FQDN des Office Web Apps-Servers im Format zu erstellen: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . In den meisten Fällen müssen Sie das Standardformat nicht ändern. Möglicherweise müssen Sie das Standardformat für den Fall ändern, dass der Office Web Apps-Server und die Office Web Apps-Serverermittlungs-URL unterschiedlich sein müssen. Beispielsweise wird ihr Office Web Apps-Server im Umkreisnetzwerk platziert und weist basierend auf dem Standort eine andere URL auf.
 
- Office Web Apps Server wird in einem externen Netzwerk (d. h. **Umkreis/Internet)** bereitgestellt: Aktivieren Sie das Kontrollkästchen, wenn Sich Ihr Office Web Apps Server außerhalb Ihrer internen Firewall befindet, z. B. das Umkreisnetzwerk, das externe Netzwerk oder eine andere Netzwerkzone, die nicht mit dem internen Netzwerk identisch ist.
+ **Office Web Apps-Server in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt wird:** Aktivieren Sie das Kontrollkästchen, wenn ihr Office Web Apps-Server außerhalb der internen Firewall platziert wird, z. B. um das Umkreisnetzwerk, das externe Netzwerk oder eine andere Netzwerkzone, die nicht dem internen Netzwerk entspricht.
 
 ## <a name="see-also"></a>Siehe auch
 

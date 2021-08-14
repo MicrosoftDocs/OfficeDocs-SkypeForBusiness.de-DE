@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Status Ihrer Portierungsaufträge und die verschiedenen Aktionen für diese erhalten. '
-ms.openlocfilehash: 8290ffba7be56f3ede0e275c801110f8c9d9539e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205686"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342890"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Wie ist der Status meiner Portierungsaufträge?
 
@@ -32,7 +32,7 @@ In der folgenden Tabelle sind der Status des Portierungsauftrags sowie die Aktio
 
 |**Status**|**Können Sie die Bestellung anzeigen?**|**Können Sie den Auftrag bearbeiten?**|**Können Sie den Auftrag stornieren?**|**Können Sie den Auftrag löschen?**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Wird verarbeitet** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Administrator hat die Bestellung erstellt, und sie ist bei Microsoft eingegangen.  <br/> |
+|**Verarbeitung** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Administrator hat die Bestellung erstellt, und sie ist bei Microsoft eingegangen.  <br/> |
 |**Netzbetreiber wird kontaktiert** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde von Microsoft erhalten und genehmigt, und wir arbeiten mit dem verlustverdingten Netzbetreiber daran, die Genehmigung zu erhalten.  <br/> |
 |**Übertragung genehmigt** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde vom verlorenen Netzbetreiber akzeptiert, und das Datum für die Firm Order Commitment (FOC) wurde festgelegt.  <br/> |
 |**Übertragung ausstehend** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden entfernt, sodass die Bestellung nicht mehr bearbeitet oder storniert werden kann.  <br/> |

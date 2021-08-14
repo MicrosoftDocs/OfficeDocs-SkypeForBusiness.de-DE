@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Suchen Sie im Dialogfeld PSTN-Verwendungseintrag auswählen nach einem vorhandenen PSTN-Verwendungseintrag (Public Switched Telephone Network), den Sie verwenden können.
-ms.openlocfilehash: f9d1ae171e81657813dbd1c7b7a929b77915a2b2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 475e620f1db1fd36695ab8b477b2bac1fa9feacf9ab20e3551e27e3cc3de4d9e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342550"
 ---
 # <a name="select-pstn-usage-record"></a>Auswählen eines PSTN-Verwendungsdatensatzes
  

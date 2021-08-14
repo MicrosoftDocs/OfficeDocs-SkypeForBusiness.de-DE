@@ -15,72 +15,72 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
-description: Planung der Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP, mit der Benutzer Anrufe beantworten können, die ursprünglich für andere bestimmt waren.
-ms.openlocfilehash: 874b9385352a8c51d9c9a356dd0ccc2ca3070601
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Planung der Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP, mit der Benutzer Anrufe annehmen können, die ursprünglich für andere bestimmt waren.
+ms.openlocfilehash: 8a4d057a2c668590a90e951000a39f40f7ae55e62a7c70fe7f670661acd5474c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345522"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planen der Gruppenanrufannahme in Skype for Business
  
-Planung der Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP, mit der Benutzer Anrufe beantworten können, die ursprünglich für andere bestimmt waren.
+Planung der Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP, mit der Benutzer Anrufe annehmen können, die ursprünglich für andere bestimmt waren.
   
-Mit der Gruppenanrufannahme können Benutzer eingehende Anrufe an kollegen von ihren eigenen Telefonen aus entgegennahmen. Dadurch wird die Verfügbarkeit der Leitung eines Benutzers erhöht, da andere Benutzer einen eingehenden Anruf beantworten können, indem sie eine Gruppennummer für die Anrufannahme wählen. Wenn die Gruppenanrufannahme bereitgestellt wird, kann die Anzahl eingehender Anrufe, die an Voicemail geroutet werden, erheblich reduziert werden. Dies ist besonders hilfreich für Anrufe von Kunden außerhalb Ihrer Organisation.
+Mit der Gruppenanrufannahme können Benutzer eingehende Anrufe an ihre Kollegen von ihren eigenen Telefonen aus annehmen. Dies erhöht die Verfügbarkeit der Leitung eines Benutzers, da andere Benutzer einen eingehenden Anruf durch Wählen einer Gruppennummer für die Anrufannahme annehmen können. Wenn die Gruppenanrufannahme bereitgestellt wird, kann die Anzahl der eingehenden Anrufe, die an Voicemail weitergeleitet werden, erheblich reduziert werden. Dies ist besonders nützlich für Anrufe von Kunden außerhalb Ihrer Organisation.
   
-Die Funktion "Gruppenanrufannahme" ist insbesondere für Geschäftseinheiten in offenen Büroumgebungen konzipiert. Eingehende Anrufe stören nicht, da sie nur am vorgesehenen Ziel klingeln. Andere Benutzer, die das Klingeln hören, können den Anruf jedoch trotzdem einfach durch Wählen der Gruppennummer an sich nehmen. 
+Das Feature "Gruppenanrufannahme" wurde insbesondere für Geschäftseinheiten in offenen Office-Umgebungen entwickelt. Eingehende Anrufe stören nicht, da sie nur am vorgesehenen Ziel klingeln. Andere Benutzer, die den Anruf hören, können den Anruf jedoch weiterhin annehmen, indem sie einfach die Gruppennummer wählen. 
   
-In Umgebungen, in denen sich Benutzer nicht in einem offenen Bürolayout befinden oder benutzer, die eine gemeinsame Verantwortung teilen, geografisch verteilt sind, stellt der Teamanruf die am besten geeignete Lösung dar. Der Hauptunterschied zwischen Gruppenanrufannahme und Teamanruf besteht in dem Unterschied, dass bei der Gruppenanrufannahme ein eingehender Anruf nur am vorgesehenen Ziel klingelt, aber dennoch jeder wählen kann, ob er eine Gruppennummer wählt. Beim Teamanruf klingelt der Anruf an allen Telefonen der Teammitglieder, und jeder Benutzer im Team kann das Telefon zum Beantworten des Anrufs an sich nehmen. Ein weiterer Unterschied zwischen gruppenanrufannahme und Teamanruf ist, dass die Gruppenanrufannahme von einem Administrator über Skype for Business Server verwaltet wird. Bei Teamanrufen verwalten Endbenutzer die Funktion mithilfe des Skype for Business-Clients. Mit der Gruppenanrufannahme kann daher dieser Aspekt der Anrufverwaltung zentralisiert werden.
+In Umgebungen, in denen sich Benutzer nicht in einem offenen Office-Layout befinden oder in denen Benutzer, die eine gemeinsame Verantwortung haben, geografisch verteilt sind, stellt teamanruf die am besten geeignete Lösung dar. Der Hauptunterschied zwischen Der Gruppenanrufannahme und Teamanruf besteht darin, dass bei der Gruppenanrufannahme ein eingehender Anruf nur am vorgesehenen Ziel klingelt, aber jeder kann ihn trotzdem annehmen, indem er eine Gruppennummer wählt. Bei Einem Teamanruf klingelt der Anruf an allen Telefonen der Teammitglieder, und jeder Benutzer im Team kann das Telefon annehmen, um den Anruf entgegenzunehmen. Ein weiterer Unterschied zwischen gruppenanrufannahme und Teamanruf besteht darin, dass die Gruppenanrufannahme von einem Administrator über Skype for Business Server verwaltet wird. Mit einem Teamanruf verwalten Endbenutzer das Feature mithilfe des Skype for Business-Clients. Mit der Gruppenanrufannahme kann daher dieser Aspekt der Anrufverwaltung zentralisiert werden.
   
-Die Gruppenanrufannahme baut auf der Anwendung zum Parken von Anrufen auf. Wenn Sie die Gruppenanrufannahme bereitstellen, konfigurieren Sie die Orbittabelle für das Parken von Anrufen mit separaten Durchwahlnummernbereichen, die als Gruppennummern für die Anrufannahme festgelegt sind. Wie Orbitnummern zum Parken von Anrufen müssen Nummern der Anrufannahmegruppe virtuelle Durchstellen sein, denen kein Benutzer oder Telefon zugewiesen ist. Jeder Front-End-Pool, in dem Sie die Gruppenanrufannahme bereitstellen, kann einen oder mehrere Bereiche von Gruppennummern für die Anrufannahme enthalten. Die Gruppennummerbereiche müssen global innerhalb der Skype for Business Server-Bereitstellung eindeutig sein. 
-  
-> [!NOTE]
-> Nummernbereiche, die in der Orbittabelle zum Parken von Anrufen als Gruppenanrufannahmenummern festgelegt sind, können nicht mithilfe der Skype for Business Server-Systemsteuerung verwaltet oder angezeigt werden. Die einzige Möglichkeit, alle Nummernbereiche in der Orbittabelle zum Parken von Anrufen zu sehen, ist die Verwendung der Skype for Business Server-Verwaltungsshell. Ebenso besteht die einzige Möglichkeit zum Hinzufügen, Ändern oder Entfernen von Gruppenanrufannahmenummern in der Verwendung der Skype for Business Server-Verwaltungsshell. 
-  
-Nachdem Sie die Nummern der Anrufannahmegruppe konfiguriert haben, weisen Sie einer Anrufannahmegruppe Benutzer zu. Jeder Benutzer, der einer Anrufannahmegruppe zugewiesen ist, kann seine Anrufe von anderen Benutzern beantworten lassen. Wenn ein Anruf bei einem Benutzer einkommt, der einer Anrufannahmegruppe zugewiesen ist, kann jeder andere Benutzer, der den Anruf bemerkt, ihn durch manuelles Wählen der Nummer der Anrufannahmegruppe beantworten. Der Benutzer, der den Anruf an nimmt, muss kein Mitglied der Gruppe sein. Wenn ein Anruf von einem anderen Benutzer abgeholt wird, wird eine Benachrichtigung an die ursprünglich angerufene Nummer gesendet.
+Die Gruppenanrufannahme basiert auf der Anwendung zum Parken von Anrufen. Wenn Sie die Gruppenanrufannahme bereitstellen, konfigurieren Sie die Orbittabelle für das Parken von Anrufen mit separaten Bereichen von Durchwahlnummern, die als Nummern für die Anrufannahmegruppe festgelegt sind. Wie Orbitnummern für das Parken von Anrufen müssen Nummern für die Anrufannahmegruppe virtuelle Erweiterungen sein, denen kein Benutzer oder Telefon zugewiesen ist. Jeder Front-End-Pool, in dem Sie die Gruppenanrufannahme bereitstellen, kann über einen oder mehrere Bereiche von Anrufannahmegruppennummern verfügen. Die Gruppennummernbereiche müssen in der Skype for Business Server Bereitstellung global eindeutig sein. 
   
 > [!NOTE]
-> Ein Benutzer kann nur Mitglied einer Einzigen Anrufannahmegruppe sein. 
+> Nummernbereiche, die als Nummern für die Gruppenanrufannahme in der Orbittabelle für das Parken von Anrufen festgelegt sind, können nicht mithilfe der Skype for Business Server Systemsteuerung verwaltet oder angezeigt werden. Die einzige Möglichkeit, alle Nummernbereiche in der Orbittabelle für das Parken von Anrufen anzuzeigen, besteht darin, Skype for Business Server Verwaltungsshell zu verwenden. Ebenso besteht die einzige Möglichkeit zum Hinzufügen, Ändern oder Entfernen von Nummern für die Gruppenanrufannahme darin, Skype for Business Server Verwaltungsshell zu verwenden. 
+  
+Nachdem Sie die Nummern für die Anrufannahmegruppe konfiguriert haben, weisen Sie einer Anrufannahmegruppe Benutzer zu. Jeder Benutzer, der einer Anrufannahmegruppe zugewiesen ist, kann seine Anrufe von anderen Benutzern beantworten lassen. Wenn ein Anruf an einen Benutzer eingeht, der einer Anrufannahmegruppe zugewiesen ist, kann jeder andere Benutzer, der den Anruf bemerkt, diesen annehmen, indem er die Nummer der Anrufannahmegruppe manuell wählt. Der Benutzer, der den Anruf entgegennimmt, muss kein Mitglied der Gruppe sein. Wenn ein Anruf von einem anderen Benutzer entgegengenommen wird, wird eine Benachrichtigung an die ursprünglich aufgerufene Nummer gesendet.
   
 > [!NOTE]
-> Obwohl jeder Benutzer in der Skype for Business Server-Bereitstellung einen Anruf an ein Mitglied der Anrufannahmegruppe beantworten kann, muss die Person, die den Anruf anwählt, die richtige Nummer für die Anrufannahmegruppe kennen. 
+> Ein Benutzer kann nur Mitglied einer Anrufannahmegruppe sein. 
   
-Wenn ein Benutzer eine Nummer einer Anrufannahmegruppe wählt, um einen Anruf zu beantworten, wenn mehrere Telefone in der Gruppe klingeln, beantwortet der Benutzer den Anruf, der am längsten klingelt.
+> [!NOTE]
+> Obwohl jeder Benutzer in der Skype for Business Server Bereitstellung einen Anruf an ein Mitglied einer Anrufannahmegruppe annehmen kann, muss die Person, die den Anruf annimmt, die richtige Nummer für die Anrufannahmegruppe kennen, die gewählt werden soll. 
   
-Einstellungen für gleichzeitiges Klingeln funktionieren für Benutzer mit Gruppenanrufannahme. Das heißt, ein Anruf, der an einen Benutzer mit Gruppenanrufannahme erfolgt, klingelt für alle konfigurierten Ziele, und ein anderer Benutzer kann den Anruf beantworten. Die Ausnahme von dieser Regel ist, wenn der Benutzer gleichzeitiges Klingeln so konfiguriert, dass alle Teammitglieder anrufen.
+Wenn ein Benutzer eine Anrufannahmegruppennummer wählt, um einen Anruf zu beantworten, wenn mehrere Telefone in der Gruppe klingeln, nimmt der Benutzer den Anruf entgegen, der am längsten klingelt.
   
-Die Gruppenanrufannahme kann nicht zum Beantworten der folgenden Anruftypen verwendet werden:
+Einstellungen für gleichzeitiges Klingeln funktionieren für Benutzer mit Gruppenanrufannahme. Das heißt, ein Anruf an einen Benutzer, der über die Gruppenanrufannahme verfügt, klingelt für alle konfigurierten Ziele, und ein anderer Benutzer kann den Anruf annehmen. Die Ausnahme von dieser Regel ist, wenn der Benutzer das gleichzeitige Klingeln so konfiguriert, dass alle Teammitglieder aufgerufen werden.
+  
+Die Gruppenanrufannahme kann nicht verwendet werden, um die folgenden Arten von Anrufen zu beantworten:
   
 - Anrufe an eine Privatleitung
     
 - Anrufe von einem Kontakt, dem die Datenschutzbeziehung "Freunde und Familie" zugewiesen wurde
     
     > [!TIP]
-    > Ein Benutzer, der Mitglied einer Anrufannahmegruppe ist, kann verhindern, dass bestimmte Anrufe über die Gruppenanrufannahme abgerufen werden, indem er den Kontakt im Skype for Business-Client als persönlichen Kontakt markiert. Um einen Kontakt als persönlichen Kontakt zu markieren, legen Sie die Datenschutzbeziehung für den Kontakt auf "Freunde und Familie" festgelegt. Alle eingehenden Anrufe von Kontakten, deren Datenschutzbeziehung auf "Freunde und Familie" festgelegt ist, können nicht mithilfe der Gruppenanrufannahme abgerufen werden. 
+    > Ein Benutzer, der Mitglied einer Anrufannahmegruppe ist, kann verhindern, dass bestimmte Anrufe über die Gruppenanrufannahme abgerufen werden, indem er den Kontakt im Skype for Business-Client als persönlichen Kontakt markiert. Um einen Kontakt als persönlichen Kontakt zu markieren, legen Sie die Datenschutzbeziehung für den Kontakt auf Freunde und Familie fest. Eingehende Anrufe von Kontakten, deren Datenschutzbeziehung auf "Freunde und Familie" festgelegt ist, können nicht mithilfe der Gruppenanrufannahme abgerufen werden. 
   
 - Videoteil von Audio-/Videoanrufen 
     
     > [!NOTE]
-    > Wenn ein Benutzer einen Audio-/Videoanruf beantwortet, erhält er nur die Audiodaten. Entweder die Person, die anruft, oder die Person, die den Anruf beantwortet, kann den Anruf eskalieren, um Video hinzuzufügen. 
+    > Wenn ein Benutzer einen Audio-/Videoanruf entgegennimmt, empfängt er nur die Audiodaten. Entweder die Person, die den Anruf annimmt, oder die Person, die den Anruf annimmt, kann den Anruf eskalieren, um ein Video hinzuzufügen. 
   
-- Gleichzeitiges Klingeln von Anrufen, die an Teammitglieder geroutet werden
+- Gleichzeitige Anrufe, die an Teammitglieder weitergeleitet werden
     
-- Anrufe, die an eine Stellvertretung geroutet werden
+- Anrufe, die an einen Delegaten weitergeleitet werden
     
-- Anrufe, die an eine Reaktionsgruppe geroutet werden
+- Anrufe, die an eine Reaktionsgruppe weitergeleitet werden
     
-Die folgenden Benutzertypen können nicht an der Gruppenanrufannahme teilnehmen. Das heißt, sie sollten nicht in eine Gruppenanrufannahmegruppe aufgenommen werden, und sie können keine Anrufe für Benutzer mit aktivierter Gruppenanrufannahme an sich nehmen.
+Die folgenden Benutzertypen können nicht an der Gruppenanrufannahme teilnehmen. Das heißt, sie sollten nicht in eine Gruppe zur Gruppenanrufannahme einbezogen werden, und sie können keine Anrufe für Benutzer annehmen, für die die Gruppenanrufannahme aktiviert ist.
   
-- Benutzer, die online in einer Hybridbereitstellung zu Hause sind
+- Benutzer, die online in einer Hybridbereitstellung verwaltet werden
     
-- Benutzer, die nicht in einem Skype for Business Server 2015-Pool oder einem Lync Server 2013-Pool mit kumulativen Updates für Lync Server 2013 gespeichert sind: Februar 2013 in einer lokalen Bereitstellung
+- Benutzer, die nicht in einem Skype for Business Server 2015-Pool oder einem Lync Server 2013-Pool mit kumulativen Updates für Lync Server 2013 verwaltet werden: Februar 2013 in einer lokalen Bereitstellung
     
-Wenn kein Benutzer einen Anruf an ein Mitglied einer Anrufannahmegruppe beantwortet, wird der Anruf wie in den Clienteinstellungen angegeben geroutet. Das heißt, der Anruf wird an die Voicemail oder an ein anderes Ziel weitergeleitet, wie in den Clienteinstellungen angegeben.
+Wenn niemand einen Anruf an ein Mitglied einer Anrufannahmegruppe entgegennimmt, wird der Anruf wie in den Clienteinstellungen angegeben weitergeleitet. Das heißt, der Anruf geht an Voicemail oder wird an ein anderes Ziel weitergeleitet, wie in den Clienteinstellungen angegeben.
   
 ## <a name="deployment-and-requirements"></a>Bereitstellung und Anforderungen
 
-Die Gruppenanrufannahme wird automatisch bereitgestellt, wenn Sie Enterprise-VoIP und die Anwendung zum Parken von Anrufen bereitstellen. Sie aktivieren die Gruppenanrufannahme, indem Sie die Orbittabelle für das Parken von Anrufen mit separaten Nummernbereichen konfigurieren, die als Gruppennummern für die Anrufannahme festgelegt sind, und anschließend Benutzer Anrufannahmegruppen zuweisen und die Benutzer für die Gruppenanrufannahme aktivieren.
+Die Gruppenanrufannahme wird automatisch bereitgestellt, wenn Sie Enterprise-VoIP und die Anwendung zum Parken von Anrufen bereitstellen. Sie aktivieren die Gruppenanrufannahme, indem Sie die Orbittabelle für das Parken von Anrufen mit separaten Nummernbereichen konfigurieren, die als Nummern für die Anrufannahmegruppe festgelegt sind, und dann Benutzern Anrufannahmegruppen zuweisen und die Benutzer für die Gruppenanrufannahme aktivieren.
   
 ## <a name="clients-supported-for-group-call-pickup"></a>Für die Gruppenanrufannahme unterstützte Clients
 
@@ -95,9 +95,9 @@ Jeder der folgenden Clients kann verwendet werden, um Anrufe an Mitglieder der G
 - Lync Phone Edition
     
 > [!NOTE]
-> Benutzer können jeden dieser Clients verwenden, um Anrufe an Mitglieder der Gruppenanrufannahme zu beantworten. Die Benutzer müssen jedoch in einem Skype for Business Server-Pool oder einem Lync Server 2013-Pool mit kumulativen Updates für Lync Server 2013, Februar 2013, gespeichert sein. 
+> Benutzer können jeden dieser Clients verwenden, um Anrufe an Mitglieder der Gruppenanrufannahme zu beantworten, aber die Benutzer müssen in einem Skype for Business Server Pool oder einem Lync Server 2013-Pool mit kumulativen Updates für Lync Server 2013 verwaltet werden: Februar 2013. 
   
-Die folgenden Clients und Geräte werden nicht für das Aufnehmen von Anrufen an Gruppenanrufannahmemitglieder unterstützt:
+Die folgenden Clients und Geräte werden für die Annahme von Anrufen an Mitglieder der Gruppenanrufannahme nicht unterstützt:
   
 - Lync Mobile
     
@@ -107,14 +107,14 @@ Die folgenden Clients und Geräte werden nicht für das Aufnehmen von Anrufen an
     
 - Analoge Telefone
     
-- Telefone mit Festnetznummern (Public Switched Telephone Network, PSTN)
+- Telefone mit PsTN-Nummern (Public Switched Telephone Network)
     
 ## <a name="capacity-planning"></a>Kapazitätsplanung
 
 In der folgenden Tabelle wird das Benutzermodell für die Gruppenanrufannahme beschrieben, das Sie als Grundlage für die Kapazitätsplanungsanforderungen verwenden können.
   
 > [!IMPORTANT]
-> Die Gruppenanrufannahme basiert auf der Anwendung zum Parken von Anrufen. Beachten Sie, dass bei der Kapazitätsplanung für die Notfallwiederherstellung jeder Pool eines gekoppelten Pools in der Lage sein sollte, die Arbeitsauslastungen für Die Anrufparkdienste, einschließlich der Gruppenanrufannahme, in beiden Pools zu verarbeiten. 
+> Die Gruppenanrufannahme basiert auf der Anwendung zum Parken von Anrufen. Beachten Sie, dass bei der Kapazitätsplanung für die Notfallwiederherstellung jeder Pool eines gepaarten Pools in der Lage sein sollte, die Workloads für Anrufparkdienste, einschließlich der Gruppenanrufannahme, in beiden Pools zu verarbeiten. 
   
 **Benutzermodell für die Gruppenanrufannahme**
 
@@ -123,13 +123,13 @@ In der folgenden Tabelle wird das Benutzermodell für die Gruppenanrufannahme be
 |Empfohlene Anzahl von Benutzern pro Gruppe  <br/> |50  <br/> |50  <br/> |
 |Empfohlene Anzahl von Gruppen  <br/> |500  <br/> |60  <br/> |
 |Maximale Anzahl von Benutzern pro Pool, die für die Gruppenanrufannahme aktiviert sind  <br/> |25.000  <br/> |3,000  <br/> |
-|Maximale Rate eingehender Anrufe an alle Benutzer, die für die Gruppenanrufannahme pro Pool und Minute aktiviert sind  <br/> |500  <br/> |60  <br/> |
-|Maximale Rate von Anrufen, die von Benutzern mit Gruppenanrufannahme pro Pool und Minute abgerufen wurden  <br/> |200  <br/> |25  <br/> |
+|Maximale Anzahl eingehender Anrufe an alle Benutzer, die für die Gruppenanrufannahme pro Pool und Minute aktiviert sind  <br/> |500  <br/> |60  <br/> |
+|Maximale Anzahl von Anrufen, die von Benutzern mit Gruppenanrufannahme pro Pool und Minute abgerufen werden  <br/> |200  <br/> |25  <br/> |
    
 > [!NOTE]
-> Berechnen Sie die Metriken für Front-End-Pools mit weniger als acht Front-End-Servern linear. Wenn Ihr Front-End-Pool beispielsweise über einen Front-End-Server verfügt, berechnen Sie die maximale Last als 1/8 der in der Tabelle aufgeführten Werte. 
+> Berechnen Sie die Metriken für Front-End-Pools mit weniger als acht Front-End-Servern linear. Wenn Ihr Front-End-Pool beispielsweise über einen Front-End-Server verfügt, berechnen Sie die maximale Last als 1/8 der in der Tabelle angezeigten Werte. 
   
 > [!NOTE]
-> Sie können die empfohlene Anzahl von Benutzern pro Gruppe und Gruppen erhöhen oder verringern, solange Sie die maximale Anzahl von Benutzern pro Pool nicht überschreiten. Der Standard Edition-Server kann beispielsweise 120 Gruppen mit 25 Benutzern pro Gruppe haben, da die Anzahl der benutzer, die für die Gruppenanrufannahme aktiviert sind, weiterhin innerhalb des maximalen Benutzermodells liegt (d. h. 120 Gruppen mal 25 Benutzer sind 3.000 Benutzer für die Gruppenanrufannahme aktiviert). 
+> Sie können die empfohlene Anzahl von Benutzern pro Gruppe und die Anzahl der Gruppen erhöhen oder verringern, solange Sie die maximale Anzahl von Benutzern pro Pool nicht überschreiten. Beispielsweise kann Ihr Standard Edition Server 120 Gruppen mit 25 Benutzern pro Gruppe haben, da die Anzahl der Benutzer, die für die Gruppenanrufannahme aktiviert sind, immer noch innerhalb des Maximalwerts des Benutzermodells liegt (das heißt, 120 Gruppen mal 25 Benutzer sind 3.000 Benutzer für die Gruppenanrufannahme aktiviert). 
   
 

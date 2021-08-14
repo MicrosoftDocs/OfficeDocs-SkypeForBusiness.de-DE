@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Zusammenfassung: Erfahren Sie mehr über Überwachungsberichte in Skype for Business Server.'
-ms.openlocfilehash: 32e16d02f458ca36fb18b52790966c68a354503e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8a1dd4e75b813f2208eb59f7608622b757d4f3ac58c93a012722afbc051a6de1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345562"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Verwenden von Überwachungsberichten in Skype for Business Server 
  
@@ -25,23 +25,23 @@ ms.locfileid: "49827765"
   
 Skype for Business Server enthält eine Reihe von Standardberichten, die von Microsoft SQL Server Reporting Service veröffentlicht werden. Diese Berichte, auf die über einen Webbrowser zugegriffen werden kann, liefern Informationen zu Nutzung, Anrufdiagnose und Medienqualität basierend auf den KDS- und QoE-Datensätzen in den KDS- und QoE-Datenbanken.
   
-Um diese Berichte verwenden zu können, müssen Sie Überwachungsberichte auf einem Computer installieren, auf dem eine Instanz des SQL Server.
+Um diese Berichte verwenden zu können, müssen Sie Überwachungsberichte auf einem Computer installieren, auf dem eine Instanz des SQL Server ausgeführt wird.
   
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-- [Verwenden des Überwachungsdashboards in Skype for Business Server](monitoring-dashboard.md) Bietet Administratoren einen schnellen Überblick über den Systemzustand und die Systemnutzung.
+- [Verwenden des Monitoring-Dashboards in Skype for Business Server](monitoring-dashboard.md) Bietet Administratoren einen schnellen Überblick über ihre Systemintegrität und Systemnutzung.
     
-- [Systemverwendungsberichte in Skype for Business Server](system-usage-reports.md) Stellt Informationen zur Systemnutzung basierend auf den von Skype for Business Server gesammelten Daten zur Systemnutzung zur Verfügung.
+- [Systemverwendungsberichte in Skype for Business Server](system-usage-reports.md) Stellt Systemnutzungsinformationen basierend auf KDS-Daten bereit, die von Skype for Business Server gesammelt werden.
     
-- [Anrufdiagnoseberichte (pro Benutzer) in Skype for Business Server](call-diagnostic-reports-per-user.md) Stellt Benutzerinformationen zu fehlgeschlagenen Peer-zu-Peer- und Konferenzsitzungen zur Verfügung.
+- [Anrufdiagnoseberichte (pro Benutzer) in Skype for Business Server](call-diagnostic-reports-per-user.md) Stellt benutzerspezifische Informationen zu fehlgeschlagenen Peer-to-Peer- und Konferenzsitzungen bereit.
     
-- [Anrufdiagnoseberichte in Skype for Business Server](call-diagnostic-reports.md) Stellt zusammenfassende Informationen und Diagnosedaten für Peer-zu-Peer- und Konferenzsitzungen mit Fehlgeschlagenen zur Verfügung.
+- [Anrufdiagnoseberichte in Skype for Business Server](call-diagnostic-reports.md) Enthält zusammenfassende Informationen und Diagnosedaten für fehlerhafte Peer-to-Peer- und Konferenzsitzungen.
     
-- [Diagnoseberichte über Medienqualität in Skype for Business Server](media-quality-diagnostic-reports.md) Stellt Informationen zur Anrufqualität sowie Diagnose- und Problembehandlungsinformationen für fehlgeschlagene Anrufe zur Verfügung.
+- [Diagnoseberichte zur Medienqualität in Skype for Business Server](media-quality-diagnostic-reports.md) Stellt Informationen zur Anrufqualität sowie Diagnose- und Problembehandlungsinformationen für fehlgeschlagene Anrufe bereit.
     
 ## <a name="locating-records"></a>Suchen von Datensätzen
 
-Überwachungsberichte zeigen nur eine begrenzte Anzahl von Datensätzen gleichzeitig auf dem Bildschirm an. Die tatsächliche Anzahl der auf einem Bildschirm angezeigten Datensätze variiert je nach Bericht. Zum Anzeigen der Datensätze, die derzeit nicht auf dem Bildschirm angezeigt werden, können Sie das standardmäßige Vorwärts- und Rückwärtssteuerelement (das sich auf der Symbolleiste jedes Berichts befindet) verwenden, mit dem Sie die Daten durchdsichten können. Sie können auch schnell zur ersten oder letzten Seite des Datasets springen.
+Überwachungsberichte zeigen immer nur eine begrenzte Anzahl von Datensätzen auf dem Bildschirm an. Die tatsächliche Anzahl der auf einem Bildschirm angezeigten Datensätze variiert je nach Bericht. Um die Datensätze anzuzeigen, die derzeit nicht auf dem Bildschirm angezeigt werden, können Sie das standardmäßige Vorwärts- und Rückwärtssteuerelement (auf der Symbolleiste jedes Berichts) verwenden, mit dem Sie die Daten durchsuchen können. Sie können auch schnell zur ersten oder letzten Seite des Datasets wechseln.
   
 Neben der Verwendung der Steuerelemente für die Rückwärts- bzw. Vorwärtsnavigation können Sie auch zu jeder beliebigen Seite im Dataset navigieren, indem Sie einfach in das Feld **Aktuelle Seite** die Seitennummer eingeben und dann die EINGABETASTE drücken.
   
@@ -49,7 +49,7 @@ Sie können aber nicht nur in den Daten blättern. Jeder Bericht bietet eine ein
   
 Wie bereits erwähnt, weisen die Monitoring Server-Berichte nur die grundlegendsten Suchfunktionen auf. Beispielsweise können Sie nicht angeben, in welchem Feld nach dem Wert gesucht werden soll. Der Suchmechanismus sucht automatisch in jedem Feld jedes Datensatzes nach Übereinstimmungen. Die Verwendung von Platzhaltern ist bei der Suche nicht möglich, und bei allen Suchvorgängen wird nach Teilübereinstimmungen gesucht. Wenn Sie also nach „111“ suchen, wird nicht nur der Wert „111“ zurückgegeben, sondern auch die Werte „11100“, „811“, „3112“, „611A5B“ sowie alle anderen Felder, die den Wert „111“ irgendwo in diesem Feld aufweisen.
   
-Berichte sind so konfiguriert, dass ein Standardsatz von Datensätzen angezeigt wird. Beispielsweise enthält der Bericht über Benutzerregistrierung standardmäßig Benutzerregistrierungsaktivitäten für die letzte Woche. Dies kann in manchen Fällen zu einem Bericht ohne Datensätze führen. In diesem Fall bedeutet dies, dass in der letzten Woche keine Benutzerregistrierungen ausgeführt wurden. Wenn die Meldung "Keine Ergebnisse stimmen mit den Berichtsfiltern überein" angezeigt wird, versuchen Sie, die Filterwerte zu ändern (z. B. den Zeitraum in den letzten Monat anstelle der letzten Woche zu ändern), und führen Sie die Abfrage erneut aus. Ausführliche Informationen finden Sie unter "Filtern von Daten" weiter unten in diesem Thema.
+Berichte sind so konfiguriert, dass ein Standardsatz von Datensätzen angezeigt wird. Beispielsweise enthält der Bericht über Benutzerregistrierung standardmäßig Benutzerregistrierungsaktivitäten für die letzte Woche. Dies kann in manchen Fällen zu einem Bericht ohne Datensätze führen. In diesem Fall bedeutet dies, dass in der letzten Woche keine Benutzerregistrierungen ausgeführt wurden. If you see the message "No results match the report filters," try changing the filter values (for example, change the time period to the past month rather than the past week) and rerun the query. Ausführliche Informationen finden Sie unter "Filtern von Daten" weiter unten in diesem Thema.
   
 ## <a name="filtering-data"></a>Filtern von Daten
 

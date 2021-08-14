@@ -14,38 +14,38 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
-description: 'Sie bearbeiten die Eigenschaften der Vermittlungsserver in diesem Dialogfeld. Auf der linken Seite befinden sich mehrere direkte Links zu den Einstellungen unter "Allgemein", "Einstellungen für nächsten Hop" und "Einstellungen für PSTN-Gateway". In jedem Abschnitt sind die folgenden Einstellungen enthalten:'
-ms.openlocfilehash: 6c8c238ce7d89db53f3b92a0f513c080976a3bab
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'In diesem Dialogfeld bearbeiten Sie die Eigenschaften der Vermittlungsserver. Auf der linken Seite befinden sich mehrere direkte Links zu den Einstellungen unter "Allgemein", "Einstellungen für nächsten Hop" und "Einstellungen für PSTN-Gateway". In jedem Abschnitt sind die folgenden Einstellungen enthalten:'
+ms.openlocfilehash: 87eda891ae5c9e19a9a54e000b85b62e46c077d6a4c90318c9372fe6e887ecaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344784"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für den Vermittlungsserver für Lync Server 2010 – Erweiterung
 
-Sie bearbeiten die Eigenschaften der Vermittlungsserver in diesem Dialogfeld. Auf der linken Seite befinden sich mehrere direkte Links zu den Einstellungen unter "Allgemein", "Einstellungen für nächsten Hop" und "Einstellungen für PSTN-Gateway". In jedem Abschnitt sind die folgenden Einstellungen enthalten:
+In diesem Dialogfeld bearbeiten Sie die Eigenschaften der Vermittlungsserver. Auf der linken Seite befinden sich mehrere direkte Links zu den Einstellungen unter "Allgemein", "Einstellungen für nächsten Hop" und "Einstellungen für PSTN-Gateway". In jedem Abschnitt sind die folgenden Einstellungen enthalten:
 
- **Allgemein**:
+ **Allgemein:**
 
-- **FQDN**: Sie bearbeiten den vollqualifizierten Domänennamen des Vermittlungsservers
+- **FQDN:** Sie bearbeiten den vollqualifizierten Domänennamen des Vermittlungsservers.
 
-- **Zuordnungen**: Aktivieren Sie das Kontrollkästchen **Edgepool zuordnen (für Medienkomponenten),** und wählen Sie einen Edgeserver oder Edgepool für den Vermittlungsserver aus, der als Medienpfad für den externen Zugriff verwendet werden soll.
+- **Zuordnungen:** Aktivieren Sie das Kontrollkästchen **"Edgepool zuordnen" (für Medienkomponenten),** und wählen Sie einen Edgeserver oder Edgepool für den Vermittlungsserver aus, der als Medienpfad für den externen Zugriff verwendet werden soll.
 
   **Nächster Hop**:
 
-- **Auswahl des nächsten** Hops: Wählen Sie in einer Liste den Front-End-Server oder den Front-End-Pool aus, der als Pfad für den Vermittlungsserver für die Kommunikation mit Ihrer Bereitstellung verwendet werden soll.
+- **Next hop selection:** Select from a list the Front End Server or Front End pool to use as the path for the Mediation Server to use for communicating with your deployment.
 
   **PSTN-Gateway**:
 
   **PSTN-Gateway für Vermittlungsserver**:
 
-- **Abhörports:** Definieren Sie die Ports, auf die der Vermittlungsserver lauscht. Sie können einen Port für **TLS** (Transport Layer Security) oder **TCP** (Transport Control Protocol) definieren. Damit der Porteintrag für TCP verfügbar ist, müssen Sie das Kontrollkästchen **TCP-Port aktivieren** aktivieren.
+- **Überwachungsports:** Definieren Sie die Ports, auf die der Vermittlungsserver lauscht. Sie können einen Port für **TLS** (Transport Layer Security) oder **TCP** (Transport Control Protocol) definieren. Damit der Porteintrag für TCP verfügbar ist, müssen Sie das Kontrollkästchen **TCP-Port aktivieren** aktivieren.
 
     > [!IMPORTANT]
-    > Ermitteln Sie anhand der Dokumentation und Konfigurationseinstellungen für das PSTN-Gateway (Public Switched Telephone Network), ob Sie Portwerte für TLS, TCP oder beides aktivieren und definieren müssen. TLS ist ein sichereres Protokoll, das Zertifikate verwendet, um den Datenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway zu verschlüsseln. Nicht alle PSTN-Gateways unterstützen TLS.
+    > Ermitteln Sie anhand der Dokumentation und Konfigurationseinstellungen für das PSTN-Gateway (Public Switched Telephone Network), ob Sie Portwerte für TLS, TCP oder beides aktivieren und definieren müssen. TLS ist ein sichereres Protokoll, bei dem Zertifikate zum Verschlüsseln des Datenverkehrs zwischen dem Vermittlungsserver und dem PSTN-Gateway verwendet werden. Nicht alle PSTN-Gateways unterstützen TLS.
 
-- Es ist eine Liste mit SIP-Trunks und den Gateways angegeben, die für die Bereitstellung definiert und konfiguriert sind. Falls keine Einträge vorhanden sind, sind für die Bereitstellung keine SIP-Trunks oder PSTN-Gateways konfiguriert. Sie definieren und konfigurieren Trunks und Gateways unter **Freigegebene Komponenten** im Topologie-Generator.
+- Es ist eine Liste mit SIP-Trunks und den Gateways angegeben, die für die Bereitstellung definiert und konfiguriert sind. Falls keine Einträge vorhanden sind, sind für die Bereitstellung keine SIP-Trunks oder PSTN-Gateways konfiguriert. Sie definieren und konfigurieren Trunks und Gateways unter **"Freigegebene Komponenten"** im Topologie-Generator.
 
 ## <a name="see-also"></a>Siehe auch
 

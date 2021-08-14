@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Erhalten Sie Skype for Business Peer-zu-Peer-Aktivitätsbericht, und erfahren Sie, wie Sie ihn interpretieren und an Ihre Anforderungen anpassen können. '
-ms.openlocfilehash: 4e46ef6c200ff82898b5a2c9cc89a512139d1404
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342630"
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht „Peer-zu-Peer-Aktivitäten“
 
@@ -40,7 +40,7 @@ Sehen Sie sich die [Übersicht über Berichte an.](https://support.office.com/ar
 Dieser Bericht bietet Ihnen zusammen mit Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich. 
   
 > [!NOTE]
-> Wenn Sie sich als Skype for Business Administrator beim Microsoft 365 Admin Center anmelden, werden alle Microsoft 365 angezeigt. 
+> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>So rufen Sie den Bericht „Skype for Business - Peer-zu-Peer-Aktivitäten" ab
 

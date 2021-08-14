@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
-description: Das Cmdlet „Get-CcSiteDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Konfigurationsdateien auf Standortebene gespeichert werden. Der Ordner enthält die Installationsdateien für die Basis-VHD und für Skype for Business Cloud Connector Edition. Dieser Ordner sollte für alle anderen Appliances einer Cloud Connector-Website freigegeben werden.
-ms.openlocfilehash: 6722b66f6c71feec158adaf442f9e57ef9943c84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das cmdlet Get-CcSiteDirectory zeigt das aktuelle Verzeichnis an, in dem Konfigurationsdateien auf Standortebene gespeichert sind. Der Ordner enthält die Basis-VHD und Skype for Business Cloud Connector Edition Installationsdateien. Dieser Ordner sollte für alle anderen Appliances eines Cloud Connector-Standorts freigegeben werden.
+ms.openlocfilehash: 279afabbb88aab162be8445007772e24d24d06d935130d5f4f27a8755a2fd25c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343189"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
-Das Cmdlet „Get-CcSiteDirectory“ zeigt das aktuelle Verzeichnis an, in dem die Konfigurationsdateien auf Standortebene gespeichert werden. Der Ordner enthält die Installationsdateien für die Basis-VHD und für Skype for Business Cloud Connector Edition. Dieser Ordner sollte für alle anderen Appliances einer Cloud Connector-Website freigegeben werden.
+Das cmdlet Get-CcSiteDirectory zeigt das aktuelle Verzeichnis an, in dem Konfigurationsdateien auf Standortebene gespeichert sind. Der Ordner enthält die Basis-VHD und Skype for Business Cloud Connector Edition Installationsdateien. Dieser Ordner sollte für alle anderen Appliances eines Cloud Connector-Standorts freigegeben werden.
   
-Dieses Cmdlet gilt für Cloud Connector Edition 1.4.1 und 1.4.2.
+Dieses Cmdlet gilt für Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcSiteDirectory
@@ -37,9 +37,9 @@ Keine
 ## <a name="examples"></a>Beispiele
 <a name="Examples"> </a>
 
-### <a name="example-1"></a>Beispiel 1
+### <a name="example-1"></a>Beispiel 1
 
-Das folgende Beispiel zeigt den aktuellen Ordner, in dem die Konfigurations-und Virtual Machines-Dateien von Cloud Connector-Komponenten gespeichert sind:
+Das folgende Beispiel zeigt den aktuellen Ordner, in dem die Konfigurations- und virtuellen Computerdateien von Cloud Connector-Komponenten gespeichert sind:
   
 ```powershell
 Get-CcSiteDirectory
@@ -48,12 +48,12 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Zur Bereitstellung von Gateway-Affinität und höchst Verfügbarkeit können Cloud Connector-Appliances in Websites kombiniert werden. Benutzer werden Websites anstelle von Cloud Connector-Appliances zugewiesen. Jeder Standort verfügt über einen freigegebenen Ordner, in dem die Installationsdateien für die Basis-VHD und für Cloud Connector gespeichert sind. Appliances verwenden diesen Ordner während der Bereitstellung. Der Standardordner lautet C:\Users\%USERPROFILE%\CloudConnector\SiteRoot. Sie können den Pfad mit dem Cmdlet „Set-CcSiteDirectory“ ändern.
+Um Gatewayaffinität und hohe Verfügbarkeit bereitzustellen, können Cloud Connector-Appliances an Standorten kombiniert werden. Benutzer werden Standorten anstelle von Cloud Connector-Appliances zugewiesen. Jeder Standort verfügt über einen freigegebenen Ordner, in dem die Basis-VHD- und Cloud Connector-Installationsdateien gespeichert sind. Appliances verwenden diesen Ordner während der Bereitstellung. Der Standardordner lautet "C:\Users \% userprofile%\CloudConnector\SiteRoot". Sie können den Pfad mithilfe des Cmdlets Set-CcSiteDirectory ändern.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Get-CcSiteDirectory“ akzeptiert keine Pipelineeingaben.
+Keine. Das Cmdlet Get-CcSiteDirectory akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

@@ -1,5 +1,5 @@
 ---
-title: Verwenden des Überwachungsdashboards in Skype for Business Server
+title: Verwenden des Monitoring-Dashboards in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Zusammenfassung: Erfahren Sie mehr über das Überwachungsdashboard in Skype for Business Server.'
-ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Zusammenfassung: Erfahren Sie mehr über das Monitoring-Dashboard in Skype for Business Server.'
+ms.openlocfilehash: f731030d3534af9494a4d70d29b27cc8b3ec95bcd5eede97d3ab3c65c2a54b9f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345572"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden des Überwachungsdashboards in Skype for Business Server
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden des Monitoring-Dashboards in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über das Überwachungsdashboard in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über das Monitoring-Dashboard in Skype for Business Server.
   
-Das Überwachungsdashboard bietet Administratoren einen schnellen Überblick über den Systemzustand und die Systemnutzung von Skype for Business Server. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
+Das Monitoring Dashboard bietet Administratoren einen schnellen Überblick über ihre Skype for Business Server Systemintegrität und Systemnutzung. Im Dashboard wird eine Zusammenfassung wichtiger Systemmetriken für folgende Werte angezeigt:
   
-- Gesamtwerte für den aktuellen Tag. Beachten Sie, dass die für den aktuellen Tag angezeigten Werte Daten repräsentieren, die von Mitternacht bis zum aktuellen Zeitpunkt aufgezeichnet wurden (basierend auf der Ortszeit des Berichtsservers). Dies bedeutet, dass Sie in der Regel Daten für einen Teil des Tags, und nicht für einen Zeitraum von 24 Stunden sehen. Wenn die Ortszeit des Servers beispielsweise 8:00 Uhr ist, werden acht Stunden Daten im Wert von acht Stunden erwartet, da zwischen Mitternacht und der aktuellen Uhrzeit von 8:00 Uhr acht Stunden liegen.
+- Gesamtwerte für den aktuellen Tag. Beachten Sie, dass die für den aktuellen Tag angezeigten Werte Daten repräsentieren, die von Mitternacht bis zum aktuellen Zeitpunkt aufgezeichnet wurden (basierend auf der Ortszeit des Berichtsservers). Dies bedeutet, dass Sie in der Regel Daten für einen Teil des Tags, und nicht für einen Zeitraum von 24 Stunden sehen. Wenn z. B. die Ortszeit des Servers 08:00 Uhr ist, sehen Sie acht Stunden Daten, da zwischen Mitternacht und der aktuellen Uhrzeit von 08:00 Uhr acht Stunden liegen.
     
 - Gesamtwerte für die Woche sowie Trendgesamtwerte für die letzten sechs Wochen.
     
 - Gesamtwerte für den Monat sowie Trendgesamtwerte für die letzten sechs Monate (nur für die Systemauslastung).
     
-Beachten Sie, dass Sie mit dem [Cmdlet Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) die URL zurückgeben können, die für den Zugriff auf Skype for Business Server-Überwachungsberichte verwendet wird:
+Beachten Sie, dass Sie das Cmdlet ["Get-CsReportingConfiguration"](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) verwenden können, um die URL zurückzugeben, die für den Zugriff auf Skype for Business Server Überwachungsberichte verwendet wird:
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -157,7 +157,7 @@ Wie bereits erwähnt, werden standardmäßig Gesamtwerte für die aktuelle Woche
 Mit den Werten in den Spalten **Diese Woche**, **Dieser Monat** oder **Heute** sind jeweils ausführlichere Informationen verknüpft. Bedenken Sie, dass der Spaltenname und die darin angezeigten Werte oft voneinander abweichen, je nachdem, welche Metrik Sie auswählen und ob Sie die wöchentliche Ansicht oder die monatliche Ansicht ausgewählt haben. Wenn Sie z. B. auf die angezeigten Gesamtwerte für die Metrik **Eindeutige Benutzeranmeldungen** klicken, wird der **Bericht über Benutzerregistrierung** für den angegebenen Zeitraum angezeigt. Durch Klicken auf **Dashboard** können Sie jederzeit wieder zum Monitoring-Dashboard wechseln.
   
 > [!TIP]
-> Sie können auch auf die Startseite Monitoring  Server Reports zugreifen, indem Sie auf den Link Berichte in der oberen rechten Ecke des Dashboards klicken.
+> Sie können auch auf die Startseite für Monitoring Server-Berichte zugreifen, indem Sie auf den Link **"Berichte"** in der oberen rechten Ecke des Dashboards klicken.
   
 In der Spalte **Trend** wird ein einfaches Liniendiagramm mit den Gesamtwerten für die letzten sechs Wochen (oder in Abhängigkeit von der Metrik und dem Zeitintervall für die letzten sechs Tage oder die letzten sechs Monate) angezeigt. Diese einfachen Liniendiagramme enthalten einen unbeschrifteten Datenpunkt für jeden Zeitraum (z. B. einen unbeschrifteten Datenpunkt für jede der letzten sechs Wochen). Sie können jedoch tatsächliche Werte für diese Diagramme abrufen, indem Sie mit dem Mauszeiger auf das Diagramm zeigen. In diesem Fall zeigt ihnen eine QuickInfo die Maximal- und Mindestwerte im Diagramm an.
   
@@ -179,7 +179,7 @@ Im Monitoring-Dashboard gibt es eine Reihe von Möglichkeiten zum Exportieren de
     
 - Word
     
-Klicken Sie zum Exportieren der aktuellen Dashboardansicht (und ihrer Werte) auf die gewünschte Exportoption. Skype for Business Server generiert einen Bericht im angegebenen Format und gibt Ihnen dann die Möglichkeit, diesen Bericht zu öffnen oder zu speichern. Beachten Sie, dass Skype for Business  Server standardmäßig das Berichtsüberwachungsdashboard betitelt und im Ordner Downloads speichert. Um dem Bericht einen anderen Namen zu geben oder ihn in  einem anderen Ordner zu speichern, klicken Sie auf den Pfeil neben der Schaltfläche Speichern, und klicken Sie dann auf **Speichern unter**. Wenn Sie mit  dem Namenüberwachungsdashboard und dem Speichern des Berichts im Ordner Downloads in Ordnung sind, können Sie einfach auf die Schaltfläche **Speichern** klicken.
+Klicken Sie auf die gewünschte Exportoption, um die aktuelle Dashboardansicht (und deren Werte) zu exportieren. Skype for Business Server generiert einen Bericht im angegebenen Format und gibt Ihnen dann die Möglichkeit, diesen Bericht zu öffnen oder zu speichern. Beachten Sie, dass Skype for Business Server standardmäßig das **Berichtsüberwachungsdashboard** betitelt und in Ihrem Downloadordner speichert. Um dem Bericht einen anderen Namen zu geben oder ihn in einem anderen Ordner zu speichern, klicken Sie auf den Pfeil neben der Schaltfläche **"Speichern",** und klicken Sie dann auf **"Speichern unter".** Wenn Sie mit name **Monitoring Dashboard** in Ordnung sind und den Bericht im Ordner "Downloads" gespeichert haben, können Sie einfach auf die Schaltfläche **"Speichern"** klicken.
   
 Beim Exportieren von Dashboarddaten wird möglicherweise ein Sicherheitshinweisangezeigt, dass Ihre aktuellen Einstellungen das Herunterladen dieser Datei nicht zulassen. Führen Sie in diesem Fall die folgenden Aktionen aus:
   
@@ -187,7 +187,7 @@ Beim Exportieren von Dashboarddaten wird möglicherweise ein Sicherheitshinweisa
     
 - Klicken Sie im Dialogfeld **Internetoptionen** auf der Registerkarte **Sicherheit** auf **Vertrauenswürdige Sites** und dann auf **Sites**.
     
-- Klicken Sie **im** Dialogfeld  Vertrauenswürdige Websites auf Hinzufügen, um den Skype for Business Server, auf dem Skype for Business Server-Berichte ausgeführt werden, den Sammlungen vertrauenswürdiger Websites hinzuzufügen.
+- Klicken Sie im Dialogfeld **"Vertrauenswürdige Websites"** auf **"Hinzufügen",** um den Sammlungen vertrauenswürdiger Websites die Skype for Business Server hinzuzufügen, die Skype for Business Server Berichte ausführt.
     
 - Klicken Sie auf **Schließen** und dann auf **OK**.
     

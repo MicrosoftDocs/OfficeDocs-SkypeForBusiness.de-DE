@@ -1,5 +1,5 @@
 ---
-title: Herstellertabelle in Skype for Business Server 2015
+title: Tabelle "Hersteller" in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
-description: Bei der Tabelle "Hersteller" handelt es sich um eine Tabelle mit Unterstützung. In jedem Datensatz werden Informationen zu einem Gerätehersteller (Tischtelefon) gespeichert.
-ms.openlocfilehash: f3cdd6e33732eb226cc2d99ff403495ac19f5567
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Die Tabelle "Hersteller" ist eine Unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Gerätehersteller (Schreibtischtelefon).
+ms.openlocfilehash: 5669f6d4b08fa70883d25509a3d0de88a4309086c125ddcb0146b05f064f94b9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343219"
 ---
-# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Herstellertabelle in Skype for Business Server 2015
+# <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tabelle "Hersteller" in Skype for Business Server 2015
  
-Bei der Tabelle "Hersteller" handelt es sich um eine Tabelle mit Unterstützung. In jedem Datensatz werden Informationen zu einem Gerätehersteller (Tischtelefon) gespeichert.
+Die Tabelle "Hersteller" ist eine Unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Gerätehersteller (Schreibtischtelefon).
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ManufacturerId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Hersteller identifiziert.  <br/> |
-|**Hersteller** <br/> |nvarchar(256)  <br/> | <br/> |Herstellername.  <br/> |
+|**ManufacturerId** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige Nummer, die diesen Hersteller identifiziert.  <br/> |
+|**Hersteller** <br/> |nvarchar(256)  <br/> | <br/> |Name des Herstellers.  <br/> |
    
 

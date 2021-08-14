@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: Im Dashboard Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Sie können z. B. den Bericht Skype for Business-Gerätenutzung verwenden, um die Geräte einschließlich Windows-basierter Betriebssysteme und mobiler Geräte, auf denen die Skype for Business-App installiert ist und die sie für Nachrichten und Besprechungen verwenden, zu sehen. Weitere Informationen finden Sie unter Aktivitätsberichte im Admin Center.
-ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342680"
 ---
 # <a name="device-usage-report"></a>Bericht „Gerätenutzung“
 
@@ -38,7 +38,7 @@ Weitere Informationen finden [Sie in der Übersicht](https://support.office.com/
 Dieser Bericht enthält zusammen mit den Skype for Business Bericht Details zu den Typen von Clients/Geräten, die in der gesamten Organisation verwendet werden. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich.
   
 > [!NOTE]
-> Wenn Sie sich als Skype for Business Administrator beim Microsoft 365 Admin Center anmelden, werden alle Microsoft 365 angezeigt. 
+> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>So erhalten Sie den Bericht Skype for Business Gerätenutzung
 
