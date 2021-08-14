@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Brasilien, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 689be527186f51ebe24178eb11e015c01bc5ab1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d5ed2ae333a3188e5921ad2c23f72d99c1994d77c30380cf3d09aa854a4a8a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351725"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>Einschränkungen für gebührenfreie Telefonnummern in Brasilien
 

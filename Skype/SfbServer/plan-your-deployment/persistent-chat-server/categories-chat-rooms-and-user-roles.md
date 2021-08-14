@@ -1,5 +1,5 @@
 ---
-title: Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015
+title: Kategorien, Chatrooms und Benutzerrollen für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: 'Zusammenfassung: In diesem Thema erfahren Sie mehr über Kategorien, Chatrooms sowie Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015.'
-ms.openlocfilehash: 50b5cd6df9cbaa8958d0f1036fe5474f2d7e47dc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Kategorien, Chatrooms sowie Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
+ms.openlocfilehash: 9724daf78114ede5d46ae690f2ab41cc36c170d2dd73c3664718e7ac4bb995f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352603"
 ---
-# <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015
+# <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien, Chatrooms und Benutzerrollen für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** In diesem Thema erfahren Sie mehr über Kategorien, Chatrooms und Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015.
+**Zusammenfassung:** In diesem Thema erfahren Sie mehr über Kategorien, Chatrooms sowie Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015.
   
-Sie können den Zugriff auf Chatrooms steuern, indem Sie Chatroomkategorien erstellen und dann den Zugriff auf Kategorien und Chatrooms innerhalb von Kategorien angeben. Sie können auch verschiedene Administratorrollen angeben. In diesem Thema wird beschrieben: 
+Sie können den Zugriff auf Chatrooms steuern, indem Sie Chatroomkategorien erstellen und dann den Zugriff auf Kategorien und Chatrooms innerhalb von Kategorien angeben. Sie können auch verschiedene Administratorrollen angeben. In diesem Thema wird Folgendes beschrieben: 
   
 - Kategorien für die Organisation von Chatrooms
     
@@ -33,22 +33,22 @@ Sie können den Zugriff auf Chatrooms steuern, indem Sie Chatroomkategorien erst
 - Administratorrollen
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams-Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität benötigen, zu Teams migrieren oder Weiterhin Skype for Business Server 2015 verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Kategorien für die Organisation von Chatrooms
 
-Mit Kategorien können Sie Chatrooms organisieren und steuern, welche Benutzer und Gruppen die Chatrooms innerhalb dieser Kategorien erstellen oder ihnen beitreten dürfen. Jeder Kategorie sind Eigenschaften zugeordnet, die die verfügbaren Optionen für die Chatrooms innerhalb der Kategorie bestimmen. Sie steuern den Zugriff auf eine bestimmte Kategorie, indem Sie angeben, ob einem Benutzer der Zugriff gestattet oder verweigert wird.
+Mithilfe von Kategorien können Sie Chatrooms organisieren und steuern, welche Benutzer und Gruppen chatrooms innerhalb dieser Kategorien erstellen oder daran teilnehmen dürfen. Jeder Kategorie sind Eigenschaften zugeordnet, die die verfügbaren Optionen für die Chatrooms in der Kategorie bestimmen. Sie steuern den Zugriff auf eine bestimmte Kategorie, indem Sie angeben, ob einem Benutzer der Zugriff gewährt oder verweigert wird.
   
-Der Hauptgrund für das Konzept der zulässigen und abgelehnten Mitglieder sind ethische "Abgrund". Beispielsweise ist es bei Banken und Finanzinstitutionen üblich, dass beim Implementieren von Richtlinien und Konventionen ethische Grenzen definiert werden, die verhindern, dass Händler und Analysten Mitteilungen und Informationen austauschen. Um dieser Anforderung nachzukommen, kann ein Administrator Kategorien erstellen, sodass in einer Kategorie Chatrooms von Händlern und in einer anderen Kategorie Chatrooms von Analysten erstellt und verwendet werden können. Benutzer können nicht als Mitglied eines Chatrooms hinzugefügt werden, wenn die übergeordnete Kategorie dies verhindert.
+Der Hauptgrund für das Konzept der zugelassenen und abgelehnten Mitglieder sind ethische Wände. Beispielsweise ist es bei Banken und Finanzinstitutionen üblich, dass beim Implementieren von Richtlinien und Konventionen ethische Grenzen definiert werden, die verhindern, dass Händler und Analysten Mitteilungen und Informationen austauschen. Um dieser Anforderung nachzukommen, kann ein Administrator Kategorien erstellen, sodass in einer Kategorie Chatrooms von Händlern und in einer anderen Kategorie Chatrooms von Analysten erstellt und verwendet werden können. Benutzer können nicht als Mitglied eines Chatrooms hinzugefügt werden, wenn die übergeordnete Kategorie dies verhindert.
   
 > [!IMPORTANT]
-> Zugelassene und abgelehnte Mitglieder in einer  Kategorie sind nicht identisch mit einer Mitgliedsrolle, die für einen Chatroom für beständigen Chat gilt.> Bei Suchbegriffen werden alle geöffneten und geschlossenen Chatrooms angezeigt, für die sich der Benutzer, der die Suche durchnimmt, in der Liste der zulässigen und abgelehnten Mitglieder befindet. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
+> Zulässige und abgelehnte Mitglieder in einer Kategorie sind nicht identisch mit einer **Mitgliedsrolle,** die für einen beständigen Chatroom gilt.> Suchvorgänge zeigen alle geöffneten und geschlossenen Chatrooms an, für die sich der Benutzer, der die Suche durchführt, in der Liste zugelassener und abgelehnter Mitglieder befindet. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Chatrooms und Benutzerrollen
 
-Zusätzlich zu zugelassenen und abgelehnten Mitgliedern für Kategorien können Sie auch den Zugriff auf Chatrooms steuern, indem Sie die folgenden Benutzerrollen angeben: Ersteller, Manager, Mitglied und Presenter.
+Zusätzlich zu zulässigen und abgelehnten Mitgliedern für Kategorien können Sie auch den Zugriff auf Chatrooms steuern, indem Sie die folgenden Benutzerrollen angeben: Ersteller, Vorgesetzter, Mitglied und Referent.
   
-- **Ersteller:** Benutzer, die über die Berechtigung zum Erstellen von Chatrooms verfügen. Diese Benutzer befinden sich in der Liste der Ersteller bestimmter Kategorien: Sie können Chatrooms in dieser Kategorie erstellen und auch Mitgliedschaften entsprechend der Kategorie zuweisen und Managern die Verwaltung des Chatrooms zuweisen. Der Benutzer, der einen Chatroom erstellt, wird automatisch als Vorgesetzter des Chatrooms hinzugefügt.
+- **Ersteller:** Benutzer, die über die Berechtigung zum Erstellen von Chatrooms verfügen. Diese Benutzer befinden sich in der Liste der Ersteller bestimmter Kategorien: Sie können Chatrooms in dieser Kategorie erstellen, und sie können auch Mitgliedschaften entsprechend der Kategorie zuweisen und Manager zum Verwalten des Chatrooms zuweisen. Der Benutzer, der einen Chatroom erstellt, wird automatisch als Manager des Chatrooms hinzugefügt.
     
     > [!NOTE]
     > Als Ersteller besitzt ein Benutzer lediglich die Rechte zum Erstellen von Chatrooms. Durch die automatische Heraufstufung zum Manager erhält der Ersteller die Berechtigung, Mitgliedschaften, Manager usw. für die erstellten Chatdienste zu verfeinern. 
@@ -60,19 +60,19 @@ Zusätzlich zu zugelassenen und abgelehnten Mitgliedern für Kategorien können 
     > [!IMPORTANT]
     > Wenn der Manager in einer anderen Kategorie auch der Ersteller ist, kann der Manager die Kategorie in eine Kategorie ändern, für die eine Berechtigung zum Erstellen von Chatrooms besitzt. 
   
-- **Mitglied:** Benutzer, die Mitglieder eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis sehen (auch wenn der Chatroom geheim ist), und den Chatroom abonnieren (einschließlich Metadatenoptionen wie ungelesene Nachrichten, Egofilter und Stichwortfilter) und am Chatroom teilnehmen (kann posten, es sei denn, der Chatroom ist ein Auditoriumraum, in dem nur Moderatoren Beiträge posten, Inhalte erhalten und suchen können). Benutzer, die keine Mitglieder des Chatrooms sind, können nach dem Chatroom suchen, wenn sie sich in der Liste der zulässigen Mitglieder der Kategorie befinden, aber Zugriff anfordern müssen, um diesen Chatrooms bei treten zu können, um auf Inhalte zugreifen zu können. (Es gibt keinen In das System integrierten Anforderungszugriff oder Genehmigungen. Diese werden extern per E-Mail, Telefon oder anderen Kontaktformen durchgeführt.)
+- **Mitglied:** Benutzer, die Mitglieder eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis sehen (auch wenn der Chatroom geheim ist) sowie den Chatroom abonnieren (einschließlich Metadatenoptionen wie ungelesene Nachrichten, Egofilter und Schlüsselwortfilter) und am Chatroom teilnehmen (kann Posten, es sei denn, der Chatroom ist ein Auditorium-Raum, in dem nur Referenten Beiträge posten können. , Inhalt abrufen und suchen). Benutzer, die nicht Mitglied des Chatrooms sind, können nach dem Chatroom suchen, wenn sie in der Liste der zugelassenen Mitglieder der Kategorie enthalten sind, aber den Zugriff anfordern müssen, um diesen Chatrooms beizutreten, um auf Inhalte zuzugreifen. (Es ist kein Anforderungszugriff oder Genehmigungen in das System integriert; diese erfolgen extern per E-Mail, Telefon oder anderen Kontakten.)
     
 - **Referent**: Benutzer, die Nachrichten in einem Auditorium senden können.
     
 ## <a name="administrator-roles"></a>Administratorrollen
 
-Im Folgenden finden Sie Administratorrollen für den Server für beständigen Chat:
+Im Folgenden sind Administratorrollen für den Server für beständigen Chat aufgeführt:
   
-- Administrator für beständigen **Chat:** Die Administratorrolle für beständigen Chat kann Chatrooms verwalten (alle Eigenschaften wie Mitgliedschaft, Manager, Kategorien ändern, Chatrooms als deaktiviert kennzeichnen) sowie Chatroomkategorien erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administratoren können Chatrooms auch als deaktiviert kennzeichnen und nicht mehr aktive Chatrooms bereinigen. Administratoren unterliegen nicht den Einschränkungen für Ersteller oder zugelassene Mitglieder. Administratoren können beliebige Chatrooms erstellen und sich selbst als Mitglied zu einem beliebigen Chatroom hinzufügen. Administratoren können auch die Konfiguration für beständigen Chat (Pooleigenschaften, globale Einstellungen und Kompatibilitätskonfiguration) ändern und verwalten sowie die Migration von einer älteren Group Chat Server-Bereitstellung zu Skype for Business Server 2015 Persistent Chat Server planen und implementieren.
+- **Administrator für beständigen Chat:** Die Administratorrolle für beständigen Chat kann Chatrooms verwalten (alle Eigenschaften einschließlich Mitgliedschaft, Manager, Kategorien, Chatrooms als deaktiviert markieren) sowie Chatroomkategorien erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administratoren können Chatrooms auch als deaktiviert markieren und chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen für Ersteller oder zulässige Mitglieder. Administratoren können jede Art von Chatroom erstellen und sich selbst als Mitglied zu jedem Chatroom hinzufügen. Administratoren können auch die Konfiguration für beständigen Chat (Pooleigenschaften, globale Einstellungen und Compliancekonfiguration) ändern und verwalten sowie die Migration von einer älteren Bereitstellung des Gruppenchatservers zu Skype for Business Server 2015 Persistent Chat Server planen und implementieren.
     
-    Administratoren für beständigen Chat können den Server für beständigen Chat mithilfe von Windows PowerShell Remote-Cmdlets (d. h. von einem anderen Computer als dem Server für beständigen Chat) verwalten. Der Server für beständigen Chat überprüft, ob der Administrator für beständigen Chat Mitglied der lokalen Gruppe "RtC Local administrator" auf dem Front-End-Server für beständigen Chat ist.
+    Administratoren für beständigen Chat können den Server für beständigen Chat mithilfe Windows PowerShell Cmdlets remote verwalten (d. b. von einem anderen Computer als dem Server für beständigen Chat). Der Server für beständigen Chat überprüft, ob der Administrator für beständigen Chat Mitglied der lokalen Gruppe des lokalen RTC-Administrators auf dem Front-End-Server für den Server für beständigen Chat ist.
     
-- **Skype for Business Server 2015-Administrator:** Gesamter Unternehmensadministrator für Skype for Business Server 2015, der für die Bereitstellung verantwortlich ist.
+- **Skype for Business Server 2015 Administrator:** Gesamter Unternehmensadministrator für Skype for Business Server 2015, der für die Bereitstellung verantwortlich ist.
     
 - **Operations Manager**: Benutzer, der für die täglichen Abläufe verantwortlich ist.
     
@@ -84,8 +84,8 @@ Weitere Informationen zum Konfigurieren und Verwalten von Chatrooms und Benutzer
   
 - [Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/create-a-persistent-chat-administrator.md)
     
-- [Verwalten von Kategorien auf dem Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/categories.md)
+- [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/categories.md)
     
-- [Verwalten von Chatrooms auf dem Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
+- [Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
     
 

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: a5cf7c91ef3b0e91504753a1e04ed334f4132adc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c4a5997de66f9b78280ba14837ffc64a64dd7bc1ecbdfce9a054b434f9b6c05b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346331"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -52,7 +52,7 @@ Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu
 
 |Frage|Aktion |
 |------------|-------|
-|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Microsoft 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
+|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Microsoft 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
@@ -181,7 +181,7 @@ Bei der Planung einer Enterprise-Bereitstellung von Teams sollten Sie alle relev
 
 ### <a name="urls-and-ports"></a>URLs und Ports
 
-Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche](/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert die Microsoft 365- und Office 365-Dienste ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie mindestens sicher, dass Sie die oben unter [Voraussetzungen für die Bereitstellung von Chat](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
+Organisationen, die eine fein abgestufte Kontrolle ihres Internetdatenverkehrs betreiben, sollten [URLs und IP-Adressbereiche](/office365/enterprise/urls-and-ip-address-ranges) lesen. Dort finden sie eine aktuelle Liste der URLs, IP-Adressen, Ports und Protokolle, die für Microsoft Teams richtig konfiguriert sein müssen. Microsoft verbessert die Microsoft 365- und Office 365-Dienste ständig und fügt neue Funktionen hinzu. Daher können sich die erforderlichen Ports, URLs und IP-Adressen im Lauf der Zeit ändern. Wir empfehlen, den Artikel über RSS zu abonnieren, damit Sie erfahren, wenn diese Informationen aktualisiert oder geändert werden. Stellen Sie mindestens sicher, dass Sie die oben unter [Voraussetzungen für die Bereitstellung von Chat](#chat-deployment-prerequisites) aufgeführten Ports geöffnet haben.
 
 |Frage|Aktion |
 |------------|-------|
@@ -222,7 +222,7 @@ Ihre Organisation schreibt möglicherweise vor, dass Sie Verfahren zur Archivier
 
 ### <a name="conditional-access"></a>Bedingter Zugriff 
 
-Teams nutzt in großem Umfang Exchange Online, SharePoint Online und Skype for Business Online für elementare Produktivitätsszenarien, einschließlich Besprechungen, Kalender, Interoperabilitäts-Chats und Dateifreigabe. Richtlinien für bedingten Zugriff, die für diese Cloud-Apps festgelegt wurden, gelten auch für Teams, wenn sich Benutzer direkt bei Teams anmelden – unabhängig vom Client. Richtlinien für den bedingten Zugriff, die für die Teams-Cloud-App festgelegt wurden, steuern Aspekte wie den Benutzerzugriff auf Teams-Dienste aus bestimmten Netzwerken.
+Teams nutzt in großem Umfang Exchange Online, SharePoint Online und Skype for Business Online für elementare Produktivitätsszenarien, einschließlich Besprechungen, Kalender, Interoperabilitäts-Chats und Dateifreigabe. Richtlinien für bedingten Zugriff, die für diese Cloud-Apps festgelegt wurden, gelten auch für Teams, wenn sich Benutzer direkt bei Teams anmelden – unabhängig vom Client. Richtlinien für den bedingten Zugriff, die für die Teams-Cloud-App festgelegt wurden, steuern Aspekte wie den Benutzerzugriff auf Teams-Dienste aus bestimmten Netzwerken.
 
 | Frage | Aktion |
 |--------------|--------|

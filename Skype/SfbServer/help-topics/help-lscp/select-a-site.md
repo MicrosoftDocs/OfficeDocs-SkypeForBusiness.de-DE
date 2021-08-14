@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: Verwenden Sie das Dialogfeld Website auswählen, um in Ihrer Umgebung verfügbare Websites zu finden. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
-ms.openlocfilehash: bc07720a1a929b7db508ce5f04d9b7005038d2e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Verwenden Sie das Dialogfeld "Website auswählen", um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
+ms.openlocfilehash: d0606bbb3da21c6b0e7631a290a6b0a22da8439f1a12bb34f63769e2c7d207bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345772"
 ---
 # <a name="select-a-site"></a>Auswählen eines Standorts
 
-Verwenden Sie **das Dialogfeld Website auswählen,** um in Ihrer Umgebung verfügbare Websites zu finden. Klicken Sie auf einen Standort in der Liste und anschließend auf **OK**, um einen vorhandenen Standort zu verwenden.
+Verwenden Sie das Dialogfeld **"Website auswählen",** um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf **OK**, um einen vorhandenen Standort zu verwenden.
 
 > [!NOTE]
 > Zum Abrufen aller verfügbaren Standorte geben Sie im Suchfeld keine Suchzeichenfolge ein, und klicken Sie dann auf das Suchsymbol.
 
-Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -39,14 +39,14 @@ Auf der Seite **Standort auswählen** können Sie die folgenden Aufgaben ausfüh
 
 - [Erstellen einer Standortrichtlinie für Persistent Chat](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-site-policy-for-persistent-chat)
 
-Weitere Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server-Systemsteuerung ausführen können, finden Sie unter [Manage Skype for Business Server 2015](../../manage/manage.md).
+Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>So konfigurieren Sie Optionen für beständigen Chat global
 
-Wählen **Sie unter Standort auswählen** die Website aus, die für die Standortkonfiguration für den Server für beständigen Chat konfiguriert werden soll.
+Wählen Sie in **"Standort auswählen"** den Standort aus, der für die Standortkonfiguration des Servers für beständigen Chat konfiguriert werden soll.
 
 ## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>So erstellen Sie eine Richtlinie für beständigen Chat für eine Website
 
 Klicken Sie im Dialogfeld **Standort auswählen** auf den Standort, auf den die Richtlinie angewendet werden soll.
 
-Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie unter [Overview of Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) in der Planungsdokumentation. Ausführliche Informationen zum Arbeiten mit Konfigurationen des Servers für beständigen Chat finden Sie unter [Configuring Persistent Chat Server](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) in der Bereitstellungsdokumentation und [Managing Lync Server 2013, Persistent Chat Server](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in der Betriebsdokumentation.
+Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie in der Planungsdokumentation unter "Übersicht über den [Server für beständigen Chat".](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) Ausführliche Informationen zum Arbeiten mit Konfigurationen des Servers für beständigen Chat finden Sie unter ["Konfigurieren des Servers für beständigen Chat"](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) in der Bereitstellungsdokumentation und [verwalten von Lync Server 2013, Server für beständigen Chat](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in der Betriebsdokumentation.

@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Mithilfe der Verfahren in diesem Abschnitt können Sie einzelne Benutzerkontoeigenschaften ändern.
-ms.openlocfilehash: 6f2c3a76f9047da0a5d78695518cfb8355ab82e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b1c3bc75a59834c63f97c9425a775d902f246b299f76318ed890d060caf7e01b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351525"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Anpassen der Benutzerkontoeigenschaften für Skype for Business Server
  
 Mithilfe der Verfahren in diesem Abschnitt können Sie einzelne Benutzerkontoeigenschaften ändern.
   
-Es gibt zwei grundlegende Vorgänge, die auf benutzerebene durchgeführt werden können:
+Es gibt zwei grundlegende Vorgänge, die auf der Ebene einzelner Benutzer ausgeführt werden können:
   
 - [Konfigurieren von Telefonieoptionen für ein bestimmtes Benutzerkonto](customize-properties.md#Tel_Op)
     
@@ -32,23 +32,23 @@ Es gibt zwei grundlegende Vorgänge, die auf benutzerebene durchgeführt werden 
 ## <a name="configure-telephony-options-for-a-specific-user-account"></a>Konfigurieren von Telefonieoptionen für ein bestimmtes Benutzerkonto
 <a name="Tel_Op"> </a>
 
-Sie können die Telefonieeinstellungen für einen bestimmten Benutzer anpassen (solange der einzelne Benutzer für Skype for Business Server aktiviert wurde und die Organisation Telefonie unterstützt).
+Sie können die Telefonieeinstellungen für einen bestimmten Benutzer anpassen (sofern der einzelne Benutzer für Skype for Business Server aktiviert wurde und die Organisation die Telefonie unterstützt).
   
-Zu den Skype for Business Server-Benutzertelefonieoptionen gehören die folgenden:
+Skype for Business Server Telefonieoptionen für Benutzer sind die folgenden Optionen:
   
-- **Audio/Video deaktiviert** Der Benutzer kann keine Anrufe mit Audio und Video machen.
+- **Audio/Video deaktiviert** Der Benutzer kann keine Anrufe mit Audio und Video tätigen.
     
-- **Nur PC zu PC** Der Benutzer kann nur Audio- oder Videoanrufe von PC zu PC machen.
+- **Nur PC-zu-PC** Der Benutzer kann nur PC-zu-PC-Audio- oder -Videoanrufe tätigen.
     
-- **Enterprise-VoIP** Der Benutzer kann die Skype for Business Server-Infrastruktur verwenden, um alle eingehenden und ausgehenden Anrufe weiterzurouten. Außerdem kann der Benutzer Anrufe von PC zu PC tätigen.
+- **Enterprise-VoIP** Der Benutzer kann die Skype for Business Server Infrastruktur verwenden, um alle eingehenden und ausgehenden Anrufe weiterzuleiten. Außerdem kann der Benutzer Anrufe von PC zu PC tätigen.
     
-- **Remoteanrufsteuerung** Der Benutzer kann Skype for Business Server zum Steuern des Desktoptelefons verwenden und auch PC-zu-PC-Anrufe führen.
+- **Remoteanrufsteuerung** Der Benutzer kann Skype for Business Server verwenden, um das Desktoptelefon zu steuern, und auch PC-zu-PC-Anrufe tätigen.
     
-Ausführliche Informationen zum Konfigurieren der Telefonie für eine Organisation finden Sie unter ["Aktivieren](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) von Benutzern für Enterprise-VoIP in Skype for Business Server und Bereitstellen von Enterprise-VoIP in Skype for Business [Server" in](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) der Bereitstellungsdokumentation.
+Ausführliche Informationen zum Konfigurieren der Telefonie für eine Organisation finden Sie unter Aktivieren von [Benutzern für Enterprise-VoIP in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) und Bereitstellen von Enterprise-VoIP in [Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) in der Bereitstellungsdokumentation.
   
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
@@ -64,33 +64,33 @@ Ausführliche Informationen zum Konfigurieren der Telefonie für eine Organisati
     
    - Wenn Sie für den Benutzer die Audiokommunikation von PC zu PC, jedoch nicht die Remoteanrufsteuerung oder Enterprise-VoIP aktivieren möchten, klicken Sie auf **Nur PC zu PC**. Geben Sie einen Wert für **Anschluss-URI** für das Telefon an, das der Benutzer für die Audiokommunikation von PC zu PC verwendet.
     
-   - Klicken Sie auf Enterprise-VoIP , um die Telefonanrufe des Benutzers mithilfe der Skype for Business-Infrastruktur gemäß der Dienstklasserichtlinie weiter zu routen, einschließlich der **Pc-zu-PC-Enterprise-VoIP**. Geben Sie unter **Anschluss-URI** die Telefonnummer für Enterprise-VoIP an. Geben Sie unter **Richtlinie für Wähleinstellungen** und **VoIP-Richtlinie** die entsprechenden Richtlinien für den Benutzer an. Wählen Sie unter **Ortungsrichtlinie** das angemessene Standortprofil aus, um die Normalisierungsregeln für die Übersetzung der vom Benutzer gewählten Telefonnummern in das E.164-Format anzugeben.
+   - **Klicken** Sie auf Enterprise-VoIP, um die Telefonanrufe des Benutzers mithilfe der Skype for Business Infrastruktur gemäß der Dienstrichtlinie weiterzuleiten, einschließlich pc-zu-PC-Audiokommunikation. Geben Sie unter **Anschluss-URI** die Telefonnummer für Enterprise-VoIP an. Geben Sie unter **Richtlinie für Wähleinstellungen** und **VoIP-Richtlinie** die entsprechenden Richtlinien für den Benutzer an. Wählen Sie unter **Ortungsrichtlinie** das angemessene Standortprofil aus, um die Normalisierungsregeln für die Übersetzung der vom Benutzer gewählten Telefonnummern in das E.164-Format anzugeben.
     
-   - Um die Remoteanrufsteuerung zu aktivieren, mit der Benutzer ihre Desktoptelefonleitung von Skype for Business Server aus steuern können, um PC-zu-PC-Anrufe und PC-zu-Telefon-Anrufe zu führen, klicken Sie auf **"Remoteanrufsteuerung".** Geben **Sie im Leitungs-URI** die Telefonnummer für die Remoteanrufsteuerung an. Der Benutzer muss über eine Verbindung mit einem Desktoptelefon und einer Nebenstellenanlage (Private Branch Exchange, PBX) für das Anrufrouting verfügen.
+   - Klicken Sie zum Aktivieren der Remoteanrufsteuerung, mit der Benutzer ihre Desktoptelefonleitung von Skype for Business Server zum Tätigen von PC-zu-PC-Anrufen und PC-zu-Telefonanrufen steuern können, auf **"Remoteanrufsteuerung".** Geben Sie im **Anschluss-URI** die Telefonnummer für die Remoteanrufsteuerung an. Der Benutzer muss über eine Desktoptelefon- und NEBENSTELLEN-Verbindung (Private Branch Exchange) für die Anrufweiterleitung verfügen.
     
 ## <a name="move-users-to-another-pool"></a>Verschieben von Benutzern in einen anderen Pool
 <a name="Move_Users"> </a>
 
-Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer einem bestimmten Server oder Pool zuzuordnen.
+Sie können Skype for Business Server Systemsteuerung verwenden, um Benutzern einen bestimmten Server oder Pool zuzuweisen.
   
 > [!TIP]
-> Das Verschieben aller vorhandenen Benutzer aus einem Quellpool mit Lync Server 2010 oder früheren Versionen in einen Skype for Business Server-Zielpool in einer komplexen Active Directory-Umgebung kann zu einer langsameren Active Directory-Replikation führen. Um dies zu vermeiden, können Sie Suchfilter verwenden, um Benutzer aus Pools mit Lync Server 2010 oder früheren Versionen separat zu verschieben, oder Sie können die Skype for Business Server-Verwaltungsshell verwenden, um Benutzer mit Cmdlets zu verschieben. Außerdem funktioniert die Filterfunktion mit Skype for Business Server-Benutzern. 
+> Das Verschieben aller vorhandenen Benutzer aus einem Quellpool, in dem Lync Server 2010 oder früher ausgeführt wird, in einen Skype for Business Server Zielpool in einer komplexen Active Directory-Umgebung kann zu einer langsameren Active Directory-Replikation führen. Um dies zu vermeiden, können Sie Suchfilter verwenden, um Benutzer aus Pools zu verschieben, die Lync Server 2010 oder früher separat ausführen, oder Sie können Skype for Business Server Verwaltungsshell verwenden, um Benutzer mit Cmdlets zu verschieben. Außerdem funktioniert die Filterfunktionalität mit Skype for Business Server Benutzern. 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>So verschieben Sie ausgewählte Benutzer auf einen anderen Server oder Pool
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
 4. Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des gewünschten Benutzerkontos ein, und klicken Sie dann auf **Suchen**. 
     
-5. Wählen Sie in der Tabelle einen bestimmten Oder einen bestimmten Benutzer in der Liste aus. 
+5. Wählen Sie in der Tabelle einen bestimmten Benutzer oder benutzer in der Liste aus. 
     
-6. Klicken Sie **im Menü** "Aktion" **auf "Ausgewählte Benutzer in Pool verschieben".**
+6. Klicken Sie im Menü **"Aktion"** auf **"Ausgewählte Benutzer in Pool verschieben".**
     
-7. Wählen **Sie in "Benutzer** verschieben" den Pool aus, in den Sie die Benutzer im Zielregistrierungsstellenpool **verschieben möchten.**
+7. Wählen Sie unter **"Benutzer verschieben"** den Pool aus, in den Sie die Benutzer im **Zielregistrierungsstellenpool** verschieben möchten.
     
 8. (Optional) Falls der Zielserver oder -pool nicht verfügbar ist, aktivieren Sie das Kontrollkästchen **Erzwingen**.
     
@@ -101,7 +101,7 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen.  
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 3. Klicken Sie auf der linken Navigationsleiste auf **Benutzer**.
     
@@ -120,37 +120,37 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
-4. Klicken **Sie in der** Benutzersuche auf **"Suchen"** und dann auf **"Filter hinzufügen".**
+4. Klicken Sie in der **Benutzersuche** auf **"Suchen"** und dann auf **"Filter hinzufügen".**
     
 5. Wählen Sie in den Suchkriterien **Registrierungspool**, **Gleich** und **FQDN des aktuellen Pools** aus, und klicken Sie auf **Suchen**.
     
 6. Klicken Sie im Menü **Aktion** auf **Alle Benutzer in Pool verschieben**.
     
     > [!NOTE]
-    > Wenn ein Filter auf eine vorhandene Gruppe  von Benutzern angewendet wird, befindet sich die Option "Alle Benutzer in Pool verschieben" im Kontext der gefilterten Teilmenge der Benutzer, nicht aller möglichen Benutzer. 
+    > Wenn ein Filter auf eine vorhandene Gruppe von Benutzern angewendet wird, befindet sich die Option "Alle Benutzer in **Pool verschieben"** im Kontext der gefilterten Teilmenge der Benutzer, nicht **aller** möglichen Benutzer.
   
 7. Wählen Sie im Abschnitt **Benutzer verschieben** unter **Quellregistrierungspool** den Pool aus, der die zu verschiebenden Benutzerkonten enthält.
     
-8. Wählen **Sie im Zielregistrierungsstellenpool** den Pool aus, in den Sie die Benutzer verschieben möchten.
+8. Wählen Sie im **Zielregistrierungsstellenpool** den Pool aus, in den Sie die Benutzer verschieben möchten.
     
 9. (Optional) Falls der Zielserver oder -pool nicht verfügbar ist, aktivieren Sie das Kontrollkästchen **Erzwingen**.
     
     > [!CAUTION]
     > Wenn Sie **Erzwingen** aktivieren, wird das Benutzerkonto verschoben, aber alle zugehörigen Benutzerdaten werden gelöscht (z. B. Kontakte oder von diesem Benutzer geplante Konferenzen). Wenn Sie diese Option nicht aktivieren, werden sowohl das Benutzerkonto als auch die zugehörigen Daten verschoben. 
   
-### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>So verschieben Sie Benutzer mithilfe von Windows -Powershell-Cmdlets von einem Pool in einen anderen
+### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>So verschieben Sie Benutzer mithilfe Windows PowerShell-Cmdlets von einem Pool in einen anderen
 
-1. Je nachdem, wie Sie Windows PowerShell (d. h. lokal oder remote) ausführen, müssen Sie sich wie folgt als Mitglied der richtigen Skype for Business Server-Administratorrollen anmelden:
+1. Je nachdem, wie Sie Windows PowerShell Befehle (lokal oder remote) ausführen, müssen Sie sich wie folgt als Mitglied der richtigen Skype for Business Server Administrativen Rollen anmelden:
     
-   a. Wenn Sie die Befehle auf dem lokalen Computer ausführen (z. B. melden Sie sich direkt bei einem Front-End-Server an): Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Management Shell installiert ist, als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten, wie **unter**"Berechtigungen zum Delegieren des Setups" beschrieben.
+   a. Wenn Sie die Befehle auf dem lokalen Computer ausführen (z. B. melden Sie sich direkt bei einem Front-End-Server an): Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" installiert ist, oder mit den erforderlichen Benutzerrechten, wie unter **Delegate Setup Permissions** beschrieben.
     
-   b. Wenn Sie die Befehle remote auf einem anderen Computer ausführen (beispielsweise melden Sie sich bei Ihrem Computer an und führen die Befehle remote auf einem Front-End-Server der Standard Edition aus): Melden Sie sich über ein Benutzerkonto, das der Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
+   b. Wenn Sie die Befehle remote auf einem anderen Computer ausführen (z. B. melden Sie sich bei Ihrem Computer an, und führen Sie die Befehle remote auf einem Standard Edition Front-End-Server aus): Melden Sie sich von einem Benutzerkonto, das der Rolle "CsUserAdministrator" oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Starten Sie die Skype for Business Server-Verwaltungsshell: Klicken Sie **auf "Start",**"Alle **Programme",** **"Skype for Business"** und dann auf **"Skype for Business Server-Verwaltungsshell".**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Zum Verschieben einzelner Benutzer verwenden Sie das Move-CsUser-Cmdlet wie folgt:
     
@@ -158,7 +158,7 @@ Sie können die Skype for Business Server-Systemsteuerung verwenden, um Benutzer
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
-    Dabei ist der zu verschiebende Benutzer der Benutzer Pilar Ackerman, und der Benutzer wird aus dem derzeit zugewiesenen Homepool in den Pool pool01.contoso.net
+    Der Zu verschiebende Benutzer ist der Benutzer Pilar Ackerman, und der Benutzer wird aus dem derzeit zugewiesenen Startpool in den Pool verschoben, pool01.contoso.net
     
 4. Zum Verschieben einer großen Zahl von Benutzern verwenden Sie das **Get-CsUser**-Cmdlet mit Filtern und übergeben Sie den daraus resultierenden Benutzersatz an **Move-CsUser**:
     

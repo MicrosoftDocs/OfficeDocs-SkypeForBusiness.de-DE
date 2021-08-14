@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: "\"tblEnumValue\" ist eine hardkodierte Tabelle mit den Werten \"Visibility\" und \"Behavior\" der Attribute, die in der \"Node\"-Tabelle verwendet werden."
-ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 732fe5f32a9a92fd3e17098382102433d4c8fa135dbf97cedbf8b3e3e0074b84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346351"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -29,7 +29,7 @@ ms.locfileid: "49816025"
 |**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |valueID  <br/> |smallint, nicht NULL  <br/> |ID des Werts.  <br/> |
-|attributeID  <br/> |smallint, nicht NULL  <br/> |ID des Attributs.  <br/> |
+|Attributeid  <br/> |smallint, nicht NULL  <br/> |ID des Attributs.  <br/> |
 |attributeValue  <br/> |nvarchar  (256), nicht NULL  <br/> |Name des Werts.  <br/> |
    
 **Keys**
@@ -37,17 +37,17 @@ ms.locfileid: "49816025"
 |**Spalte**|**Beschreibung**|
 |:-----|:-----|
 |valueID  <br/> |Primärschlüssel  <br/> |
-|attributeID  <br/> |Fremdschlüssel mit Suche in der Tabelle "tblEnumAttribute.attributeID".  <br/> |
+|Attributeid  <br/> |Fremdschlüssel mit Suche in der Tabelle "tblEnumAttribute.attributeID".  <br/> |
    
 **Tabellenwerte**
 
-|**valueID**|**attributeID**|**attributeValue**|
+|**valueID**|**Attributeid**|**attributeValue**|
 |:-----|:-----|:-----|
-|2   <br/> |1   <br/> |private  <br/> |
-|3   <br/> |1   <br/> |Bereich  <br/> |
-|4   <br/> |2   <br/> |normal  <br/> |
-|5   <br/> |2   <br/> |auditorium  <br/> |
-|6   <br/> |1   <br/> |open  <br/> |
+|2  <br/> |1  <br/> |privat  <br/> |
+|3  <br/> |1  <br/> |Bereich  <br/> |
+|4   <br/> |2  <br/> |Normalen  <br/> |
+|5   <br/> |2  <br/> |Auditorium  <br/> |
+|6   <br/> |1  <br/> |Öffnen  <br/> |
    
 ## <a name="see-also"></a>Siehe auch
 

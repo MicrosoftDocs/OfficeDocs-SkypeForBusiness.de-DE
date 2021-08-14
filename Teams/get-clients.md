@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352284"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams
 
@@ -63,7 +63,7 @@ Die Installation von Microsoft Teams für Windows bietet herunterladbare Install
 > [!NOTE]
 > Die Architektur (32 Bit oder 64 Bit) von Microsoft Teams ist unabhängig von der Architektur der installierten Windows- und Office-Version.
 
-Der Windows-Client wird im Ordner „AppData“ im Profil des Benutzers bereitgestellt. Durch das Bereitstellen im lokalen Profil des Benutzers kann der Client ohne erweiterte Berechtigungen installiert werden. Der Windows-Client nutzt die folgenden Speicherorte:
+Der Windows-Client wird im Ordner AppData bereitgestellt, der sich im Profil des Benutzers befindet. Die Bereitstellung im lokalen Profil des Benutzers ermöglicht die Installation des Clients, ohne dass erhöhte Rechte erforderlich sind. Der Windows-Client nutzt die folgenden Speicherorte:
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -75,10 +75,10 @@ Der Windows-Client wird im Ordner „AppData“ im Profil des Benutzers bereitge
 
 Wenn Benutzer erstmals mit dem Microsoft Teams-Client einen Anruf einleiten, sehen sie möglicherweise eine Warnung mit den Einstellungen der Windows-Firewall, in der sie aufgefordert werden, die Kommunikation zuzulassen. Die Benutzer können angewiesen werden, diese Meldung zu ignorieren, da der Anruf auch dann funktioniert, wenn die Warnung geschlossen wird.
 
-![Screenshot des Dialogfelds „Windows-Sicherheitshinweis“](media/Get_clients_for_Microsoft_Teams_image3.png)
+![Screenshot des Dialogfelds „Windows-Sicherheitshinweis“.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Die Konfiguration der Windows-Firewall wird auch dann geändert, wenn die Eingabeaufforderung durch das Auswählen von „Abbrechen“ geschlossen wird. Zwei eingehende Regeln für „teams.exe“ werden mit der Aktion „Blockieren“ für die Protokolle TCP und UDP erstellt.
+> Die Konfiguration der Windows-Firewall wird auch dann geändert, wenn die Eingabeaufforderung durch Auswählen von „Abbrechen“ geschlossen wird. Zwei eingehende Regeln für „teams.exe“ werden mit der Aktion „Zulassen“ für die Protokolle TCP und UDP erstellt.
 
 Wenn Sie verhindern möchten, dass Benutzer von Teams aufgefordert werden, Firewallregeln zu erstellen, wenn die Benutzer ihre ersten Anrufe von Teams machen, verwenden Sie [PowerShell-Beispielskript – eingehende Firewallregel](#sample-powershell-script---inbound-firewall-rule) weiter unten.
 
@@ -190,7 +190,7 @@ Der Webclient führt beim Herstellen einer Verbindung mit [https://teams.microso
 
 ## <a name="mobile-clients"></a>Mobile Clients
 
-Die Microsoft Teams-Apps für Mobilgeräte stehen für Android und iOS zur Verfügung und sind auf mobile Benutzer ausgelegt, die an Chat-basierten Unterhaltungen teilnehmen. Außerdem ermöglichen sie Peer-to-Peer-Audioanrufe. Rufen Sie den entsprechenden Store für mobile Apps – Google Play oder Apple App Store – auf, um die Apps herunterzuladen. Die Windows Phone-App wurde am 20. Juli 2018 eingestellt und funktioniert möglicherweise nicht mehr.
+Die mobilen Microsoft Teams-Apps sind für Android und iOS verfügbar und richten sich an mobile Benutzer, die an chatbasierten Unterhaltungen teilnehmen und Peer-to-Peer-Audioanrufe ermöglichen. Für mobile Apps besuchen Sie die entsprechenden mobilen Stores Google Play und den Apple App Store. Die Windows Phone App wurde am 20. Juli 2018 eingestellt und funktioniert möglicherweise nicht mehr.
 
 Hier erfahren Sie, wie Sie in China [Teams für Android abrufen](get-teams-android-in-china.md) können.
 
@@ -213,7 +213,7 @@ Mobile Apps werden nur über den App-Store der jeweiligen mobilen Plattform vert
 
 ## <a name="client-update-management"></a>Verwaltung von Clientupdates
 
-Clients werden aktuell vom Microsoft Teams-Dienst aktualisiert, ohne dass ein IT-Administrator eingreifen muss. Wenn ein Update verfügbar ist, wird der Client das Update automatisch herunterladen und wenn die App für einen bestimmten Zeitraum nicht verwendet wurde, beginnt der Updatevorgang.
+Clients werden zurzeit automatisch vom Microsoft Teams-Dienst aktualisiert, ohne dass der Eingriff eines IT-Administrators erforderlich ist. Wenn ein Update verfügbar ist, lädt der Client das Update automatisch herunter und wenn die App eine Zeit lang inaktiv war, beginnt der Update-Prozess.
 
 ## <a name="client-side-configurations"></a>Clientseitige Konfigurationen
 

@@ -2,7 +2,7 @@
 title: Verwenden von Network Planner – Beispielszenario
 metadata:
   title: Verwenden von Network Planner – Beispielszenario
-  description: Dieses Beispielszenario zeigt, wie Sie das Tool "Netzwerkplaner" zum Erstellen von Websites und Personenas sowie zum Ausführen von Berichten verwenden.
+  description: 'Dieses Beispielszenario zeigt, wie Sie das Tool "Netzwerkplaner" zum Erstellen von Websites und Personenas sowie zum Ausführen von Berichten verwenden.'
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -14,37 +14,112 @@ metadata:
   ms.topic: tutorial
   localization_priority: Normal
   ms.collection:
-  - M365-collaboration
+    - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 4b7a7628e80c01f9b173310bc88cd6a9f58a40cb
-  ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
-  ms.translationtype: MT
-  ms.contentlocale: de-DE
-  ms.lasthandoff: 06/19/2021
-  ms.locfileid: "53023256"
 items:
-- durationInMinutes: 2
-  content: "Das Tool \"Netzwerkplaner\" ist im Teams Admin Center verfügbar. Es hilft Ihnen, die Netzwerkanforderungen für Ihre Organisation zu bestimmen. Dieses Beispielszenario zeigt, wie Sie das Tool zum Erstellen von Websites, Personen und Ausführen von Berichten für ein Unternehmen namens Contoso verwenden können. \n\n## <a name=\"before-you-begin\"></a>Bevor Sie beginnen\n\nEs wird davon ausgegangen, dass Sie sich bereits im Teams Admin Center zurecht finden und damit vertraut sind, was Sie tun müssen, um Ihr Netzwerk für Teams vorzubereiten. Wenn dies der erste Artikel ist, den Sie in Network Planner gesehen haben, sollten Sie zuerst die folgenden Artikel durchgehen.\n\n- [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)\n- [Verwenden von Network Planner für Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Übersicht über das Contoso-Netzwerk\n\nContoso verfügt über drei Standorte:\n\n- **Hauptsitz von Seattle:** Dies ist der Hauptspeicherort für Contoso. Es hat 1.000 Mitarbeiter, von den 25 nur anrufen. Die Website ist mit dem Internet verbunden, und es gibt eine lokale Telefonverbindung (PSTN). Contoso hat Direct Routing so eingerichtet, dass die lokale Telefonverbindung mit Teams verwendet werden kann. \n- **Office in Grönland:** Diese Zweigstelle hat 400 Mitarbeiter, und 10 Mitarbeiter rufen nur an. Die Website verwendet ihre Verbindung mit der Zentrale sowohl für Internet- als auch Telefondatenverkehr. Dieses Büro ist über eine WAN-Verbindung mit der Seattle-Zentrale verbunden.\n- **Denver Office:** Dieses Büro hat 250 Mitarbeiter, und 50 mitarbeiter sind nur in Anrufen. Der Standort verfügt über eine eigene lokale Internetverbindung, aber keine direkte Telefonverbindung (PSTN).\n\nFangen wir an!\n"
-- title: Hinzufügen eines Netzwerkplans
-  durationInMinutes: 2
-  content: "Erweitern Sie im Teams Admin Center **Organisationsweite** Einstellungen, und wählen Sie dann **Netzwerkplaner aus.** Als Erstes müssen Sie einen Netzwerkplan erstellen. \n\n1. Klicken Sie **auf Netzwerkplan hinzufügen.** \n2. Fügen Sie **im Bereich Neuer Netzwerkplan** einen Namen und eine Beschreibung für Ihren Netzwerkplan hinzu. In diesem Beispiel verwenden wir *Contoso1* als Plannamen und *Contoso-Netzwerkplan* als Beschreibung.\n3. Klicken Sie **auf Speichern.**\n\n![Hinzufügen eines neuen Netzwerkplans](media/network-planner-new-network-plan.png)\n\nNachdem Sie Ihren Netzwerkplan gespeichert haben, wird er in der Liste Ihrer Netzwerkpläne angezeigt. \n\n![Liste der Netzwerkpläne](media/network-planner-network-plans.png)\n"
-- title: Erstellen von benutzerdefinierten Personen
-  durationInMinutes: 2
-  content: "Als Nächstes müssen Sie die erforderlichen Personen zur Darstellung Ihrer Benutzer erstellen. Da es an jedem Standort spezielle Benutzer gibt, die nur Telefonanrufe machen, müssen Sie diese Persona erstellen.\n\n1. Klicken Sie auf der Seite Netzwerkplaner auf die Registerkarte **Personas,** und klicken Sie dann **auf + Benutzerdefinierte Persona**. \n2. Fügen Sie einen Namen und eine Beschreibung für diese Persona hinzu. In diesem Beispiel nennen wir sie einfach *Nur aufrufen.*\n3. Aktivieren Sie **Audio,** und deaktivieren Sie alles andere, damit Anrufe die einzige aktivierte Berechtigung sind.\n4. Klicken **Sie auf** Speichern, um die Persona zur Liste hinzuzufügen.\n\n![Hinzufügen einer Persona in Netzwerkplaner](media/network-planner-add-persona.png)\n"
-- title: Hinzufügen von Websites zu Ihrem Netzwerkplan
-  durationInMinutes: 5
-  content: "Nun müssen Sie Ihrem Netzwerkplan die drei Standorte hinzufügen. In der folgenden Tabelle sind die Merkmale der Netzwerkstandorte von Contoso zusammengefasst.\n\n|Ort       |Gesamtzahl der Mitarbeiter|Nur Mitarbeiter anrufen|Internetverbindung       |PSTN-Verbindung                |WAN-Verknüpfungskapazität   | Kapazität von Internetverknüpfungen   |\n|---------------|-------------------------|----------------------|--------------------------|-------------------------------|--------------------|--------------------------|\n|Seattle HQ     |1000                     |25                    |Lokales Internet            |Lokales PSTN mithilfe von Direct Routing| 200 MBit/s           | 500 MBit/s                 |\n|Office in Der Nähe von Grönland|400                      |10                    |Remote-Internet über HQ|Remote PSTN über HQ         | 200 MBit/s           | Nicht zutreffend                      |\n|Denver Office  |250                      |50                    |Lokales Internet            |Keine PSTN-Verbindung             | Nicht zutreffend                | 150 MBit/s                 |\n\n1. Klicken Sie in Netzwerkplaner auf Ihren Netzwerkplan.\n2. Wählen Sie die **Registerkarte Netzwerkwebsites** aus, und **klicken Sie auf Netzwerkwebsite hinzufügen**.\n\n![Hinzufügen einer Netzwerkwebsite](media/network-planner-add-network-site.png)\n\n3. Geben Sie in der vorstehenden Tabelle die Details für die Seattle HQ-Website ein. Aktivieren Sie die Umschalter **ExpressRoute** und **Mit WAN** verbunden. \n\n![Neue Websitedetails](media/network-planner-add-network-site-2.png)\n\n4. Da der HQ-Standort von Seattle über lokale Internet- und lokale PSTN-Verbindungen verfügt, müssen Sie diese Merkmale ordnungsgemäß angeben.\n\n![Einstellungen für den neuen Website-Ausgangs](media/network-planner-add-network-site-link-capacity.png)\n\n5. Klicken Sie **auf** Speichern, um das Hinzufügen der Seattle HQ-Website vollständig zu schließen.\n6. Erstellen Sie die Denver-Website mit demselben Prozess. WAN sollte nicht aktiviert sein. \n7. Da der Standort in Seattle HQ sowohl für die Internet- als auch für die PSTN-Anbindung die Verbindung nutzt, wird er als Remotestandort betrachtet. Beim Erstellen der Website in Grönland müssen Sie angeben, dass sie mit WAN verbunden ist, und *Remote* sowohl als **Internet-Ausgangs-** als auch als **PSTN-Ausgangsort auswählen.**\n\n![Einstellungen für den Remotestandort](media/network-planner-add-remote-site-egress-kirkland.png)\n"
-- title: Erstellen eines Berichts
-  durationInMinutes: 3
-  content: "Nachdem Sie Ihre Websites hinzugefügt haben, können Sie einen Bericht erstellen. Beim Erstellen des Berichts definieren Sie die Benutzerverteilung.\n\n1. Wählen Sie **die Registerkarte** Bericht aus, und klicken Sie dann auf **Bericht starten**. Dadurch wird die Benutzerverteilungsseite geöffnet. Beginnen Sie, indem Sie einen Namen und eine Beschreibung für den Bericht hinzufügen.\n\n![Erstellen eines Berichts für einen Netzwerkplaner](media/network-planner-add-report.png)  \n\n2. Wenn Sie einen Bericht zum ersten Mal starten, wird die Anzahl der Benutzer für jede Website automatisch verteilt, z. B. 80 % an Büromitarbeiter, 20 % an Remotemitarbeiter. Hier passen Sie die Anzahl der Benutzer für jede Persona entsprechend Ihrer Benutzergesamtheit an. Angenommen, Contoso verfügt über die gleichen 80/20-Teilung zwischen Büromitarbeitern und Remotemitarbeitern für jeden Standort. Achten Sie darauf, die Anzahl der Anrufer zu verdingen und die Anzahl der Benutzer im Büro zu verdingen. Die resultierende Verteilung sollte wie die folgende Abbildung aussehen.\n\n![Benutzerverteilung unter verschiedenen Personas für jede Website](media/network-planner-persona-distribution-2.png)\n"
-- title: Analysieren der Berichtausgabe
-  durationInMinutes: 5
-  content: "Nachdem Sie den Bericht generiert haben, wird ein Bildschirm angezeigt, auf dem Ihre Bandbreitenanforderungen als allgemeine und modale spezifische Werte angezeigt werden. Standardmäßig ist die zulässige Bandbreite auf 30 % festgelegt. Wenn Sie diesen Wert ändern und auf **Bericht ausführen** klicken, können Sie die unterschiedlichen Auswirkungen auf die Bandbreite für Ihr Netzwerk sehen. Alle Bereiche, die mehr Bandbreite benötigen, werden rot hervorgehoben.\n\n![Berichtsanalyse](media/network-planner-contoso-report-output.png)\n\nNetzwerkplaner gibt Ihnen auch Empfehlungen basierend auf der projizierten Auswirkung Teams Ihres Netzwerks. Klicken Sie auf das Symbol für die Empfehlungsansicht, um Empfehlungen für jede Website (sofern vorhanden) zu sehen. Die folgende Abbildung zeigt ein Beispiel für eine Empfehlungsansicht.\n\n![Empfehlungsansicht](media/network-planner-recommendation-view.png)\n\nHier können Sie sehen, dass die Bandbreite des Standorts Insingland aktuell erhöht werden muss, um die beste Leistung aus einem Teams. \n"
-- title: Weitere Ressourcen
-  durationInMinutes: 1
-  content: >-
-    Damit wird das Beispielszenario für Network Planner abgeschlossen. Sie können [zum Artikel "Netzwerkplaner"](network-planner.md)zurück wechseln oder sich die folgenden Ressourcen genauer informieren, wie Sie Ihre Organisation für den Einsatz Teams:
+  - durationInMinutes: 2
+    content: |
+      Das Tool Netzwerkplaner steht im Teams Admin Center zur Verfügung. Es hilft Ihnen, die Netzwerkanforderungen für Ihre Organisation zu bestimmen. Dieses Beispielszenario zeigt, wie Sie das Tool zum Erstellen von Websites, Personen und Ausführen von Berichten für ein Unternehmen namens Contoso verwenden können. 
 
-     - [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md)
-     - [Verbessern und überwachen Sie die Anrufqualität für Teams](monitor-call-quality-qos.md)
-     - [URLs und IP-Adressbereiche von Office 365](/office365/enterprise/urls-and-ip-address-ranges)
+      ## <a name="before-you-begin"></a>Bevor Sie beginnen
+
+      Es wird davon ausgegangen, dass Sie das Teams Admin Center bereits kennen und damit vertraut sind, was Sie tun müssen, um Ihr Netzwerk für die Teams. Wenn dies der erste Artikel ist, den Sie in Network Planner gesehen haben, sollten Sie zuerst die folgenden Artikel durchgehen.
+
+      - [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
+      - [Verwenden des Netzwerkplaners für Microsoft Teams](network-planner.md) 
+
+      ## <a name="overview-of-contoso-network"></a>Übersicht über das Contoso-Netzwerk
+
+      Contoso verfügt über drei Standorte:
+
+      - **Hauptsitz von Seattle:** Dies ist der Hauptspeicherort für Contoso. Es hat 1.000 Mitarbeiter, von den 25 nur anrufen. Die Website ist mit dem Internet verbunden, und es gibt eine lokale Telefonverbindung (PSTN). Contoso hat Direct Routing so eingerichtet, dass die lokale Telefonverbindung mit anderen Teams. 
+      - **Grönland Office:** Diese Zweigstelle hat 400 Mitarbeiter, und 10 Mitarbeiter rufen nur an. Die Website verwendet ihre Verbindung mit der Zentrale sowohl für Internet- als auch Telefondatenverkehr. Dieses Büro ist über eine WAN-Verbindung mit der Seattle-Zentrale verbunden.
+      - **Denver Office:** Dieses Büro hat 250 Mitarbeiter, und 50 mitarbeiter sind nur in Anrufen. Der Standort verfügt über eine eigene lokale Internetverbindung, aber keine direkte Telefonverbindung (PSTN).
+
+      Fangen wir an!
+  - title: Hinzufügen eines Netzwerkplans
+    durationInMinutes: 2
+    content: |
+      Erweitern Sie Teams Admin Center **Organisationsweite** Einstellungen, und wählen Sie dann **Netzwerkplaner aus.** Als Erstes müssen Sie einen Netzwerkplan erstellen. 
+
+      1. Klicken Sie **auf Netzwerkplan hinzufügen.** 
+      2. Fügen Sie **im Bereich Neuer Netzwerkplan** einen Namen und eine Beschreibung für Ihren Netzwerkplan hinzu. In diesem Beispiel verwenden wir *Contoso1* als Plannamen und *Contoso-Netzwerkplan* als Beschreibung.
+      3. Klicken Sie **auf Speichern.**
+
+      ![Hinzufügen eines neuen Netzwerkplans](media/network-planner-new-network-plan.png)
+
+      Nachdem Sie Ihren Netzwerkplan gespeichert haben, wird er in der Liste Ihrer Netzwerkpläne angezeigt. 
+
+      ![Liste der Netzwerkpläne](media/network-planner-network-plans.png)
+  - title: Erstellen von benutzerdefinierten Personen
+    durationInMinutes: 2
+    content: |
+      Als Nächstes müssen Sie die erforderlichen Personen zur Darstellung Ihrer Benutzer erstellen. Da es an jedem Standort spezielle Benutzer gibt, die nur Telefonanrufe machen, müssen Sie diese Persona erstellen.
+
+      1. Klicken Sie auf der Seite Netzwerkplaner auf die Registerkarte **Personas,** und klicken Sie dann **auf + Benutzerdefinierte Persona**. 
+      2. Fügen Sie einen Namen und eine Beschreibung für diese Persona hinzu. In diesem Beispiel nennen wir sie einfach *Nur aufrufen.*
+      3. Aktivieren Sie **Audio,** und deaktivieren Sie alles andere, damit Anrufe die einzige aktivierte Berechtigung sind.
+      4. Klicken **Sie auf** Speichern, um die Persona zur Liste hinzuzufügen.
+
+      ![Hinzufügen einer Persona in Netzwerkplaner](media/network-planner-add-persona.png)
+  - title: Hinzufügen von Websites zu Ihrem Netzwerkplan
+    durationInMinutes: 5
+    content: |
+      Nun müssen Sie Ihrem Netzwerkplan die drei Standorte hinzufügen. In der folgenden Tabelle sind die Merkmale der Netzwerkstandorte von Contoso zusammengefasst.
+
+      |Ort       |Gesamtzahl der Mitarbeiter|Nur Mitarbeiter anrufen|Internetverbindung       |PSTN-Verbindung                |WAN-Verknüpfungskapazität   | Kapazität von Internetverknüpfungen   |
+      |---------------|-------------------------|----------------------|--------------------------|-------------------------------|--------------------|--------------------------|
+      |Seattle HQ     |1000                     |25                    |Lokales Internet            |Lokales PSTN mithilfe von Direct Routing| 200 MBit/s           | 500 MBit/s                 |
+      |Grönland Office|400                      |10                    |Remote-Internet über HQ|Remote PSTN über HQ         | 200 MBit/s           | Nicht zutreffend                      |
+      |Denver Office  |250                      |50                    |Lokales Internet            |Keine PSTN-Verbindung             | Nicht zutreffend                | 150 MBit/s                 |
+
+      1. Klicken Sie in Netzwerkplaner auf Ihren Netzwerkplan.
+      2. Wählen Sie die **Registerkarte Netzwerkwebsites** aus, und **klicken Sie auf Netzwerkwebsite hinzufügen**.
+
+      ![Hinzufügen einer Netzwerkwebsite](media/network-planner-add-network-site.png)
+
+      3. Geben Sie in der vorstehenden Tabelle die Details für die Seattle HQ-Website ein. Aktivieren Sie die Umschalter **ExpressRoute** und **Mit WAN** verbunden. 
+
+      ![Neue Websitedetails](media/network-planner-add-network-site-2.png)
+
+      4. Da der HQ-Standort von Seattle über lokale Internet- und lokale PSTN-Verbindungen verfügt, müssen Sie diese Merkmale ordnungsgemäß angeben.
+
+      ![Einstellungen für den neuen Website-Ausgangs](media/network-planner-add-network-site-link-capacity.png)
+
+      5. Klicken Sie **auf** Speichern, um das Hinzufügen der Seattle HQ-Website vollständig zu schließen.
+      6. Erstellen Sie die Denver-Website mit demselben Prozess. WAN sollte nicht aktiviert sein. 
+      7. Da der Standort in Seattle HQ sowohl für die Internet- als auch für die PSTN-Anbindung die Verbindung nutzt, wird er als Remotestandort betrachtet. Beim Erstellen der Website in Grönland müssen Sie angeben, dass sie mit WAN verbunden ist, und *Remote* sowohl als **Internet-Ausgangs-** als auch als **PSTN-Ausgangsort auswählen.**
+
+      ![Einstellungen für den Remotestandort](media/network-planner-add-remote-site-egress-kirkland.png)
+  - title: Erstellen eines Berichts
+    durationInMinutes: 3
+    content: |
+      Nachdem Sie Ihre Websites hinzugefügt haben, können Sie einen Bericht erstellen. Beim Erstellen des Berichts definieren Sie die Benutzerverteilung.
+
+      1. Wählen Sie **die Registerkarte** Bericht aus, und klicken Sie dann auf **Bericht starten**. Dadurch wird die Benutzerverteilungsseite geöffnet. Beginnen Sie, indem Sie einen Namen und eine Beschreibung für den Bericht hinzufügen.
+
+      ![Erstellen eines Berichts für einen Netzwerkplaner](media/network-planner-add-report.png)  
+
+      2. Wenn Sie einen Bericht zum ersten Mal starten, wird die Anzahl der Benutzer für jede Website automatisch verteilt, z. B. 80 % an Büromitarbeiter, 20 % an Remotemitarbeiter. Hier passen Sie die Anzahl der Benutzer für jede Persona entsprechend Ihrer Benutzergesamtheit an. Angenommen, Contoso verfügt über die gleichen 80/20-Teilung zwischen Büromitarbeitern und Remotemitarbeitern für jeden Standort. Achten Sie darauf, die Anzahl der Anrufer zu verdingen und die Anzahl der Benutzer im Büro zu verdingen. Die resultierende Verteilung sollte wie die folgende Abbildung aussehen.
+
+      ![Benutzerverteilung unter verschiedenen Personas für jede Website](media/network-planner-persona-distribution-2.png)
+  - title: Analysieren der Berichtausgabe
+    durationInMinutes: 5
+    content: |
+      Nachdem Sie den Bericht generiert haben, wird ein Bildschirm angezeigt, auf dem Ihre Bandbreitenanforderungen als allgemeine und modale spezifische Werte angezeigt werden. Standardmäßig ist die zulässige Bandbreite auf 30 % festgelegt. Wenn Sie diesen Wert ändern und auf **Bericht ausführen** klicken, können Sie die unterschiedlichen Auswirkungen auf die Bandbreite für Ihr Netzwerk sehen. Alle Bereiche, die mehr Bandbreite benötigen, werden rot hervorgehoben.
+
+      ![Berichtsanalyse](media/network-planner-contoso-report-output.png)
+
+      Netzwerkplaner gibt Ihnen auch Empfehlungen basierend auf der projizierten Auswirkung Teams Ihres Netzwerks. Klicken Sie auf das Symbol für die Empfehlungsansicht, um Empfehlungen für jede Website (sofern vorhanden) zu sehen. Die folgende Abbildung zeigt ein Beispiel für eine Empfehlungsansicht.
+
+      ![Empfehlungsansicht](media/network-planner-recommendation-view.png)
+
+      Hier können Sie sehen, dass die Bandbreite des Standorts Insingland aktuell erhöht werden muss, um die beste Leistung aus einem Teams. 
+  - title: Weitere Ressourcen
+    durationInMinutes: 1
+    content: |
+      Damit wird das Beispielszenario für Network Planner abgeschlossen. Sie können [zum Artikel "Netzwerkplaner"](network-planner.md)zurück wechseln oder sich die folgenden Ressourcen genauer informieren, wie Sie Ihre Organisation für den Einsatz Teams:
+
+       - [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md)
+       - [Verbessern und überwachen Sie die Anrufqualität für Teams](monitor-call-quality-qos.md)
+       - [URLs und IP-Adressbereiche von Office 365](/office365/enterprise/urls-and-ip-address-ranges)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, welche Abrechnung mit Guthaben für Kommunikationen (PSTN-Verbrauch) ankommt, wie Sie Tarife finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: 94e872130c57d08d509a99d6a2a1b593a79eb54f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0193b97c1c2fa6134b0ab5865dfc9d7306e796d0abf562856ad55ad36b3e5ef5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351735"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -60,16 +60,16 @@ Wenn Sie sich fragen, welche Kosten für die Anrufe für Anrufpläne anstanden, 
 Um gebührenfreie Telefonnummern zu verwenden, ist Guthaben für Kommunikationen erforderlich, da diese Anrufe pro Minute abgerechnet werden. Darüber hinaus empfehlen wir, Guthaben für Kommunikationen für Ihre Anrufplan- und Audiokonferenzbenutzer zu erstellen, die in der Lage sein müssen, beliebige **PSTN-Zielpunkte anwählen zu können.** Viele Länder/Regionen sind enthalten, aber einige Ziele sind möglicherweise nicht in Ihren Abonnements für Anrufplan oder Audiokonferenzen enthalten. Wenn Sie kein Guthaben für Kommunikationen einrichten oder Ihren Benutzern eine Lizenz zuweisen und die Minuten für Ihre Organisation (je nach Anrufplan, Audiokonferenzplan oder Land/Region) auslaufen, können diese Benutzer keine Anrufe mehr führen oder aus Onlineaudiokonferenzbesprechungen heraus anrufen.
   
 > [!NOTE]
-> Sie müssen Guthaben für Kommunikationen einrichten und dann jedem Benutzer im Microsoft 365 **Admin Center** Benutzer, aktive Benutzer, eine Lizenz für  >    >  **Guthaben für Kommunikationen zuweisen.** Lizenzen für Guthaben für Kommunikationen werden als unbegrenzte Menge angezeigt, da sie verwendet werden, um jedem Benutzer, dem Sie die Lizenz für Guthaben für Kommunikationen zuweisen, Zugriff auf den Guthabensaldo für Kommunikationen zu gewähren.
+> Sie müssen Guthaben für Kommunikationen einrichten und dann jedem Benutzer in der Gruppe "Aktive Benutzer" Microsoft 365 Admin Center  >    >  **Guthaben für Kommunikationen zuweisen.** Lizenzen für Guthaben für Kommunikationen werden als unbegrenzte Menge angezeigt, da sie verwendet werden, um jedem Benutzer, dem Sie die Lizenz für Guthaben für Kommunikationen zuweisen, Zugriff auf den Guthabensaldo für Kommunikationen zu gewähren.
   
 Es wird empfohlen, die Nutzung des PSTN-Diensts in Ihrer Organisation sorgfältig auszuwerten, um das beste Setup für Guthaben für Kommunikationen zu verstehen. Weitere Informationen zu PSTN-Diensten finden Sie [Telefonsystem](calling-plan-landing-page.md) häufig gestellte Fragen zu Anrufplänen und [Audiokonferenzen.](Audio-Conferencing-common-questions.md)
   
 Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung** des vorausbezahlten Saldos **ODER** mit einem Betrag für **automatisches Aufladen** ( **empfohlen** ) und einem Mindestsaldo einrichten, der einen Kauf für diesen Aufladungsbetrag auslöst. Anfänglich sollten Sie Beträge für das automatische Aufladen einrichten, mit denen Sie die tatsächliche Nutzung überwachen können und die richtigen Grenzwerte für das automatische Aufladen finden, die Ihren Anforderungen und Ihrem Nutzungsverhalten entsprechen. Überwachen Sie das Guthaben für Kommunikationen im Lauf der Zeit, und passen Sie dann den Mindestsaldo und die Aufladungsbeträge nach Bedarf an die Anforderungen Ihrer Organisation an.
   
 > [!NOTE]
-> Sie können die Pläne und Preise anzeigen, indem Sie sich beim Microsoft 365 Admin Center anmelden und zu Abrechnungsabonnements Hinzufügen von Abonnements [](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)  >    >  **gehen.** 
+> Sie können die Pläne und Preise anzeigen, indem Sie sich beim Abrechnungskonto [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu Abonnements hinzufügen  >    >  **gehen.** 
   
-Im admin **center Microsoft 365**  >    >    >  **Abrechnungskaufdienste hinzufügen können** Sie Guthaben für Kommunikationen auswählen, um das Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option **Automatisches** Aufladen aktivieren, die automatische Kontoaufladungen zu ermöglichen, wenn der Saldo unter den von Ihnen festgelegten Schwellenwert fällt. Wenn Sie sich dafür entscheiden, den Guthabensaldo für Kommunikationen mit einem einmalbetrag zu bezahlen, und der Saldo dann auf null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien (einschließlich gebührenfreier Telefonnummern) nicht mehr. Daher wird empfohlen, die Einstellung  für automatisches Aufladen zu verwenden, um Dienstunterbrechungen zu vermeiden, falls der Guthabensaldo für Kommunikationen 0 (null) erreicht. Sie können Ihren aktuellen Guthabensaldo für Kommunikationen anzeigen, indem Sie **zu Abrechnung**  >  **Ihres Produktes Guthaben**  >  **für Kommunikationen gehen.**
+Im **Microsoft 365 Admin Center**  >    >    >  **Abrechnungskaufdienste hinzufügen können** Sie Guthaben für Kommunikationen auswählen, um das Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option **Automatisches** Aufladen aktivieren, die automatische Kontoaufladungen zu ermöglichen, wenn der Saldo unter den von Ihnen festgelegten Schwellenwert fällt. Wenn Sie sich dafür entscheiden, den Guthabensaldo für Kommunikationen mit einem einmalbetrag zu bezahlen, und der Saldo dann auf null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien (einschließlich gebührenfreier Telefonnummern) nicht mehr. Daher wird empfohlen, die Einstellung  für automatisches Aufladen zu verwenden, um Dienstunterbrechungen zu vermeiden, falls der Guthabensaldo für Kommunikationen 0 (null) erreicht. Sie können Ihren aktuellen Guthabensaldo für Kommunikationen anzeigen, indem Sie **zu Abrechnung**  >  **Ihres Produktes Guthaben**  >  **für Kommunikationen gehen.**
 
 > [!NOTE]
 >Sie erhalten E-Mails an **alle Benutzer mit dem** Lync-Dienstadministrator, Unternehmensadministrator, Abrechnungsadministrator, Unternehmensadministrator, Benutzerkontenadministrator, Helpdesk-Administrator, Dienstunterstützungsadministrator, Abrechnungsadministrator, Lync-Dienstadministrator, Geräteadministrator, Anwendungsadministrator, Lizenzadministrator, Cloudgeräteadministrator, Authentifizierungsadministrator, Privilegierte Authentifizierungsadministrator, Teams-Kommunikationsadministrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Administratoradministratorrollen, wenn Transaktionen beim Aufladen erfolgreich waren, Transaktionen aufladen fehlschlagen (z. B. eine abgelaufene Kreditkarte) und oder der Guthabensaldo für Kommunikationen 0 (null) erreicht.
@@ -118,7 +118,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-Sie können auch Informationen zur Preisgestaltung sehen, indem Sie sich beim [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anmelden und zu   >  **Abrechnungskaufsdienste gehen.**
+Sie können auch Informationen zur Preisgestaltung sehen, indem Sie sich bei der [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anmelden und zu   >  **Abrechnungskaufsdienste gehen.**
   
 Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
