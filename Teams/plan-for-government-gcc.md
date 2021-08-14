@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ecc733c181e268dd6092f169e91d2f9acb4ee47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330899"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planen von Microsoft 365 Government – GCC-Bereitstellungen
 
@@ -110,7 +110,7 @@ Ermitteln Sie Ihre Anforderungen an Governance und wie Sie sie erfüllen können
 
 Nachdem Sie bei Microsoft 365 Government – GCC onboarded wurden, folgen Sie den empfohlenen Bereitstellungspfaden, die [unter](./deploy-overview.md)So wird's Microsoft Teams. Sorgen Sie dafür, dass Sie mit Ihrem Übernahme- und Änderungsverwaltungsteam zusammenarbeiten und Teams können.
 
-Sie können auch mit [FastTrack](https://www.microsoft.com/fasttrack) oder dem ausgewählten Partner zusammenarbeiten, um den Dienst zu integrieren.
+Sie können auch mit [dem](https://www.microsoft.com/fasttrack) FastTrack oder dem ausgewählten Partner zusammenarbeiten, um den Dienst zu integrieren.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Schritt 7: Bereitstellen Teams für Besprechungen und Sprachanrufe
 

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Wenn Sie über Front-End-Pools, Directorpools oder Edgeserverpools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Weitere Informationen finden Sie unter:'
-ms.openlocfilehash: a0be3533f4cd34392d33be65aa226f4af55c802f4bcd24035875e2904936764f
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 8cdce9f6214d6427798f1e0edfea45033fab212d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590969"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234010"
 ---
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype for Business Server Load Balancer-Planungstool
  

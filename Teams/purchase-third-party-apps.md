@@ -1,5 +1,5 @@
 ---
-title: Erwerben von Apps von Drittanbietern für Teams
+title: Erwerben sie Apps von Drittanbietern für Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,19 +16,19 @@ description: Erfahren Sie, wie Sie im Admin Center Teams von Drittanbietern Micr
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849676"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235190"
 ---
-# <a name="purchase-third-party-apps-for-teams"></a>Erwerben von Apps von Drittanbietern für Teams
+# <a name="purchase-third-party-apps-for-teams"></a>Erwerben sie Apps von Drittanbietern für Teams
 
 > [!NOTE]
 > Dieses Feature ist derzeit nur in den USA verfügbar.
 
-Teams-Apps können kostenlos installiert werden, und einige erfordern möglicherweise den Kauf von Serviceabonnements, um den vollen Funktionsumfang und Umfang der App zu nutzen. Diese Dienstabonnements werden als SaaS-Angebote (Software as a Service) bezeichnet, die über [AppSource](https://appsource.microsoft.com/) und jetzt über das Microsoft Teams Admin Center erhältlich sind.
+Teams-Apps können kostenlos installiert werden, und für einige ist möglicherweise der Kauf von Serviceabonnements erforderlich, um den vollen Funktionsumfang und Umfang der App zu nutzen. Diese Dienstabonnements werden als SaaS-Angebote (Software as a Service) bezeichnet, die über [AppSource](https://appsource.microsoft.com/) und jetzt über das Microsoft Teams Admin Center erhältlich sind.
 
 Auf [der Seite Apps](manage-apps.md) verwalten im Microsoft Teams Admin Center können Sie alle Apps Teams Ihrer Organisation anzeigen und verwalten. So können Sie beispielsweise den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps in den App Store Ihrer Organisation hochladen, Apps auf Organisationsebene blockieren oder zulassen sowie organisationsweite App-Einstellungen verwalten.
 
@@ -44,7 +44,7 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps f
     - **Gekauft:** Die App bietet ein SaaS-Abonnement, und Sie haben Lizenzen dafür erworben.
     - **- –**: Die App bietet kein SaaS-Abonnement an.
 3. Wenn Sie die App finden, klicken  Sie auf **Jetzt** kaufen, um auf der Seite mit den App-Details zur Registerkarte Pläne und Preise zu wechseln. Überprüfen Sie die Pläne und Preisinformationen für das SaaS-Angebot für die App. Wenn Sie weitere Informationen  benötigen, klicken Sie auf den Link Weitere Informationen, um zur App-Seite in [AppSource zu wechseln.](https://appsource.microsoft.com/)  
-4. Um einen Plan zu kaufen, klicken Sie **auf Jetzt kaufen**. Sie werden zur Einkaufserfahrung für das Angebot weitergeleitet, das der App Teams ist. Hier schließen Sie den Kauf des Diensts oder SaaS-Angebots ab.
+4. Um einen Plan zu kaufen, klicken Sie **auf Jetzt kaufen**. Sie werden zur Einkaufserfahrung für das Angebot weitergeleitet, das mit der App Teams ist. Hier schließen Sie den Kauf des Diensts oder SaaS-Angebots ab.
 5. Wählen Sie den plan aus. Wenn das SaaS-Angebot mehrere Pläne umfasst, klicken Sie **auf Ändern,** um die Liste der verfügbaren Pläne zu sehen.
 6. Wählen Sie Ihre Abrechnungslaufzeit **(monatlich** oder **jährlich)** aus, und geben Sie dann die Anzahl der Benutzerlizenzen ein, die Sie kaufen möchten.
 7. Geben Sie Ihre Zahlungsmethode ein.
@@ -53,7 +53,7 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps f
 
 Nachdem Sie das SaaS-Angebot erworben haben, das der Teams-App zugeordnet ist, können Sie auf der Seite mit den App-Details auf der Registerkarte Pläne und Preise die folgenden Kaufdetails anzeigen. 
 
-- **Datum der Lizenzaktivierung:** Das Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird dies als **Abonnement aktivierung ausstehend angezeigt.**
+- **Datum der Lizenzaktivierung:** Das Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird dies als **Abonnement ausstehende Aktivierung angezeigt.**
 - **Lizenzen:** Anzahl der erworbenen Lizenzen.
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte "Pläne und Preise" auf der Seite "App-Details"":::

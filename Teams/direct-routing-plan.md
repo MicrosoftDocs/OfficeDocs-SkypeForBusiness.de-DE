@@ -17,13 +17,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Erfahren Sie Microsoft-Telefon mit System Direct Routing (System Direct Routing) eine Verbindung mit einem unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft-Telefon System herstellen können.
-ms.openlocfilehash: 5f8c7fae1cd8853400ce102b453758780da6ac27351ad1879fc0824c4a1e8d2d
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: Erfahren Sie Microsoft-Telefon Sie mit System Direct Routing eine Verbindung mit einem unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft-Telefon System herstellen können.
+ms.openlocfilehash: 3e174aa2d78eb6ecee7be545cb904efa2573f3c1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848930"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235350"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -75,14 +75,14 @@ Die Infrastrukturanforderungen für die unterstützten SBCs, Domänen und andere
 |:--- |:--- |
 |Session Border Controller (SBC)|Ein unterstützter SBC. Weitere Informationen finden Sie unter [Unterstützte SBCs.](#supported-session-border-controllers-sbcs)|
 |Mit SBC verbundene Telefonie-Trunks|Mindestens ein Telefonie-Trunk ist mit dem SBC verbunden. An einem Ende stellt der SBC eine Verbindung mit dem Microsoft-Telefon über Direct-Routing ein. Der SBC kann auch Verbindungen mit Telefonieen von Drittanbietern wie PBXs, Analog Telephony Adapters und so weiter herstellen. Alle mit dem SBC verbundenen PSTN-Konnektivitätsoption funktionieren. (Informationen zur Konfiguration der PSTN-Trunks zum SBC finden Sie unter SBC-Anbieter oder Trunkanbieter.)|
-|Microsoft 365 oder Office 365 Organisation|Eine Microsoft 365 oder Office 365, die Sie zum Home-Microsoft Teams Ihrer Benutzer sowie die Konfiguration und Verbindung mit dem SBC verwenden.|
+|Microsoft 365 oder Office 365 Organisation|Eine Microsoft 365 oder Office 365, die Sie zum Heiming Ihrer Microsoft Teams-Benutzer sowie die Konfiguration und Verbindung mit dem SBC verwenden.|
 |Benutzerregistrierungsstelle|Der Benutzer muss in einem Microsoft 365 oder einem Office 365.<br/>Wenn Ihr Unternehmen über eine lokale Skype for Business- oder Lync-Umgebung mit hybrider Konnektivität zu Microsoft 365 oder Office 365 verfügt, können Sie Voice in Teams für einen Benutzer, der lokal heimiert ist, nicht aktivieren.<br/><br/>Um die Registrierungsstelle eines Benutzers zu überprüfen, verwenden Sie das Skype for Business Online-PowerShell-Cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Die Ausgabe des Cmdlets sollte wie hier gezeigt sein:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domänen|Eine oder mehrere Domänen, die Zu Microsoft 365 oder Office 365 hinzugefügt wurden.<br/><br/>Beachten Sie, dass Sie nicht die Standarddomäne (.onmicrosoft.com) verwenden können, die \* automatisch für Ihren Mandanten erstellt wird.<br/><br/>Zum Anzeigen der Domänen können Sie das folgende PowerShell Skype for Business Online-PowerShell-Cmdlet verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Microsoft 365 oder Office 365 finden Sie unter Häufig [gestellte Fragen (FAQ) zu Domänen.](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)|
+|Domänen|Eine oder mehrere Domänen, die Zu Microsoft 365 oder Office 365 hinzugefügt wurden.<br/><br/>Beachten Sie, dass Sie nicht die Standarddomäne (.onmicrosoft.com) verwenden können, die \* automatisch für Ihren Mandanten erstellt wird.<br/><br/>Zum Anzeigen der Domänen können Sie das folgende PowerShell Skype for Business Online-PowerShell-Cmdlet verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Microsoft 365 oder Office 365 finden Sie unter Häufig [gestellte Fragen](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)zu Domänen.|
 |Öffentliche IP-Adresse für den SBC|Eine öffentliche IP-Adresse, die zum Herstellen einer Verbindung mit dem SBC verwendet werden kann. Basierend auf dem Typ von SBC kann SBC NAT verwenden.|
 |Fully Qualified Domain Name (FQDN) for the SBC|Ein FQDN für den SBC, wobei der Domänenteil des FQDN eine der registrierten Domänen in Ihrer Microsoft 365- oder Office 365 ist. Weitere Informationen finden Sie unter [SBC-Domänennamen.](#sbc-domain-names)|
 |Öffentlicher DNS-Eintrag für SBC |Ein öffentlicher DNS-Eintrag, der den SBC-FQDN der öffentlichen IP-Adresse zuzuordnen. |
 |Öffentliches vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für den SBC, der für die Kommunikation mit Direct-Routing verwendet werden soll. Weitere Informationen finden Sie unter [Öffentliches vertrauenswürdiges Zertifikat für SBC.](#public-trusted-certificate-for-the-sbc)|
-|Verbindungspunkte für direktes Routing |Die Verbindungspunkte für Direct-Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Globaler FQDN muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com` – Sekundärer FQDN, geografische Zuordnung zur zweiten Region mit Priorität.<br/>`sip3.pstnhub.microsoft.com` – Drittgrößter FQDN, geografisch der Region mit dritter Priorität zu.<br/><br/>Informationen zu Den Konfigurationsanforderungen finden Sie unter [SIP-Signalisierung: FQDNs](#sip-signaling-fqdns).|
+|Verbindungspunkte für direktes Routing |Die Verbindungspunkte für Direct Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Globaler FQDN muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com` – Sekundärer FQDN, geografische Zuordnung zur zweiten Region mit Priorität.<br/>`sip3.pstnhub.microsoft.com` – Drittgrößter FQDN, geografisch der Region mit dritter Priorität zu.<br/><br/>Informationen zu Den Konfigurationsanforderungen finden Sie unter [SIP-Signalisierung: FQDNs](#sip-signaling-fqdns).|
 |IP-Adressen und Ports der Firewall für Direct Routing-Medien |Der SBC kommuniziert mit den folgenden Diensten in der Cloud:<br/><br/>SIP-Proxy, der die Signalisierung behandelt<br/>Medienprozessor, der Medien behandelt ( außer wenn die Medienumgehung<br/><br/>Diese beiden Dienste verfügen über separate IP-Adressen in der Microsoft Cloud, die weiter unten in diesem Dokument beschrieben werden.<br/><br/>Weitere Informationen finden Sie im Abschnitt [Microsoft Teams unter](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [URLs und IP-Adressbereiche.](/office365/enterprise/urls-and-ip-address-ranges) |
 |Medientransportprofil|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Firewall-IP-Adressen und Ports für Microsoft Teams-Medien |Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche.](/office365/enterprise/urls-and-ip-address-ranges) |
@@ -100,17 +100,17 @@ Den Benutzern von Direct-Routing müssen in einem Microsoft 365 oder einer Offic
 > Skype for Business Der Plan sollte nicht aus einem Lizenzvertrag entfernt werden, in dem er enthalten ist. 
 > 
 > [!IMPORTANT]
-> GCC Benutzer von "Hoch" und "DoD" sollten die in G5 enthaltene Lizenzierung für Audiokonferenzen deaktivieren und mit der Aktivierung von Audiokonferenzen warten, bis Direct Routing vollständig konfiguriert ist. Vor dem Aktivieren von Lizenzen für Audiokonferenzen sollten Benutzer Einwahltelefonnummern und eine funktionierende Wählta nicht konfiguriert haben. Weitere [Details finden Sie unter Audiokonferenz mit Direct Routing für GCC High und DoD.](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+> GCC Benutzer von "Hoch" und "DoD" sollten die in G5 enthaltene Lizenzierung für Audiokonferenzen deaktivieren und mit der Aktivierung von Audiokonferenzen warten, bis Direct Routing vollständig konfiguriert ist. Vor dem Aktivieren von Lizenzen für Audiokonferenzen sollten Benutzer Einwahltelefonnummern und eine funktionierende Wählta nicht konfiguriert haben. Weitere [Informationen finden Sie unter Audiokonferenzen mit Direct Routing für GCC High und DoD.](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 
 > [!IMPORTANT]
 >  Für den Fall, dass Sie externe Teilnehmer zu geplanten Besprechungen hinzufügen möchten , entweder durch Einenwählen oder durch Angabe der Einwahlnummer, ist die Lizenz für Audiokonferenzen erforderlich.
-> Weisen GCC High und DoD G5-Benutzern keine Lizenz für Audiokonferenzen zu.  Weisen Sie G3-Benutzern erst dann eine Lizenz für Audiokonferenzen zu, wenn Direct Routing vollständig konfiguriert ist und der Benutzer über eine funktionierende Wähltatischen verfügt.
+> Weisen GCC "High" und "DoD" G5-Benutzern keine Lizenz für Audiokonferenzen zu.  Weisen Sie G3-Benutzern erst dann eine Lizenz für Audiokonferenzen zu, wenn Direct Routing vollständig konfiguriert ist und der Benutzer über eine funktionierende Wähltatischen verfügt.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Ad-hoc-Anrufskalation und Lizenz für Audiokonferenzen
 
-Ein Teams Benutzer kann einen 1:1-Anruf Teams PSTN oder Teams, um Teams und einen PSTN-Teilnehmer hinzuzufügen. Dieses Szenario wird als Ad-hoc-Konferenz bezeichnet. Der Weg, den der Anruf einnimmt, hängt davon ab, ob dem Benutzer, der den Anruf eskaliert, eine Microsoft Audio Conferencing-Lizenz zugewiesen wurde:
+Ein Teams Benutzer kann einen 1:1-Anruf Teams PSTN starten oder Teams, Teams und einen PSTN-Teilnehmer hinzufügen. Dieses Szenario wird als Ad-hoc-Konferenz bezeichnet. Der Weg, den der Anruf einnimmt, hängt davon ab, ob dem Benutzer, der den Anruf eskaliert, eine Microsoft Audio Conferencing-Lizenz zugewiesen wurde:
 
 - Wenn dem Teams, der den Anruf eskaliert, eine Microsoft Audio Conferencing-Lizenz zugewiesen wurde, erfolgt die Eskalation über den Microsoft Audio Conferencing-Dienst. Der Remote-PSTN-Teilnehmer, der zum bestehenden Anruf eingeladen wird, erhält eine Benachrichtigung über den eingehenden Anruf und sieht die Nummer der Microsoft-Brücke, die dem Teams-Benutzer zugewiesen wurde, der die Eskalation ausgelöst hat.
 - Wenn dem Teams, der den Anruf eskaliert, keine Microsoft Audio Conferencing-Lizenz zugewiesen wurde, erfolgt die Eskalation über einen Session Border Controller, der mit der Direct Routing-Schnittstelle verbunden ist. Der Remote-PSTN-Teilnehmer, der zu dem Anruf eingeladen wird, erhält eine Benachrichtigung über den eingehenden Anruf und sieht die Nummer des Teams Benutzers, der die Eskalation ausgelöst hat. Der spezifische SBC, der für die Eskalation verwendet wird, wird durch die Routingrichtlinie des Benutzers definiert. 
@@ -134,8 +134,8 @@ Weitere Informationen zur Lizenzierung Telefonsystem Finden Sie unter [Microsoft
 Sie können als Endpunkt verwenden:
 
 - Ein beliebiger Teams-Client. 
-- Telefone in der Nähe. Weitere Informationen finden Sie unter Einrichten [der Telefon-Lizenz für Microsoft Teams.](./set-up-common-area-phones.md) Beachten Sie, dass Sie beim Einrichten eines gemeinsamen Bereichs mit Direct-Routing Telefon Anrufplanlizenz benötigen.
-- Skype for Business 3PIP-Telefone. Siehe [Skype for Business-Unterstützung für Telefone (3PIP) mit Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+- Telefone in der Nähe. Weitere Informationen finden Sie unter Einrichten [der Telefon für Microsoft Teams.](./set-up-common-area-phones.md) Beachten Sie, dass Sie beim Einrichten eines gemeinsamen Bereichs mit Direct-Routing Telefon Anrufplanlizenz benötigen.
+- Skype for Business 3PIP-Telefone. Siehe [Skype for Business(3PIP)-Unterstützung für Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>SBC-Domänennamen
@@ -150,11 +150,11 @@ contoso.com|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<
 |contoso.onmicrosoft.com|Nein|Die Verwendung von *.onmicrosoft.com-Domänen wird für SBC-Namen nicht unterstützt.
 
 Angenommen, Sie möchten einen neuen Domänennamen verwenden. Ihr Mandant hat z. contoso.com einen Domänennamen, der in Ihrem Mandanten registriert ist, und Sie möchten sbc1.sip.contoso.com. Bevor Sie einen SBC mit dem Sbc1.sip.contoso.com koppeln können, müssen Sie den Domänennamen in sip.contoso.com In Domänen Ihres Mandanten registrieren. Wenn Sie versuchen, einen SBC mit sbc1.sip.contoso.com zu koppeln, bevor Sie den Domänennamen registrieren, wird die folgende Fehlermeldung angezeigt: "Die Domäne "sbc1.sip.contoso.com" kann nicht verwendet werden, da sie für diesen Mandanten nicht konfiguriert wurde."
-Nachdem Sie den Domänennamen hinzugefügt haben, müssen Sie auch einen Benutzer mit UPN-Namen user@sip.contoso.com und eine Lizenz Teams zuweisen. Es kann bis zu 24 Stunden dauern, bis der Domänenname vollständig bereitgestellt wurde, nachdem er zu Domänen Ihres Mandanten hinzugefügt wurde, ein Benutzer mit einem neuen Namen erstellt und dem Benutzer eine Lizenz zugewiesen wurde. 
+Nachdem Sie den Domänennamen hinzugefügt haben, müssen Sie auch einen Benutzer mit UPN-User@sip.contoso.com erstellen und eine Lizenz Teams zuweisen. Es kann bis zu 24 Stunden dauern, bis der Domänenname vollständig bereitgestellt wurde, nachdem er zu Domänen Ihres Mandanten hinzugefügt wurde, ein Benutzer mit einem neuen Namen erstellt und dem Benutzer eine Lizenz zugewiesen wurde. 
 
 Es ist möglich, dass ein Unternehmen mehrere SIP-Adressbereiche in einem Mandanten hat. Beispielsweise könnte ein Unternehmen einen contoso.com als SIP-Adressraum und fabrikam.com als zweiten SIP-Adressraum verwenden. Einige Benutzer verfügen über Adressadressen, user@contoso.com einige Benutzer über Adressadressen user@fabrikam.com. 
 
-Der SBC benötigt nur einen FQDN und kann Benutzer von jedem beliebigen Adressbereich im gekoppelten Mandanten aus serviceen. Beispielsweise kann ein SBC mit dem Namen sbc1.contoso.com den PSTN-Datenverkehr für Benutzer mit Den Adressen user@contoso.com und user@fabrikam.com empfangen und senden, solange diese SIP-Adressräume im selben Mandanten registriert sind.  
+Der SBC benötigt nur einen FQDN und kann Benutzer von jedem beliebigen Adressbereich im gekoppelten Mandanten aus serviceen. Beispielsweise kann ein SBC mit dem Namen sbc1.contoso.com den PSTN-Datenverkehr für Benutzer mit Adressen user@contoso.com und user@fabrikam.com empfangen und senden, solange diese SIP-Adressräume im selben Mandanten registriert sind.  
 
 ## <a name="public-trusted-certificate-for-the-sbc"></a>Öffentliches vertrauenswürdiges Zertifikat für den SBC
 
@@ -202,7 +202,7 @@ Für direct Routing in Office 365 GCCH- und DoD-Umgebungen muss das Zertifikat v
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> *Wenn DIE Unterstützung von Mutual TLS (MTLS) für die Teams-Verbindung auf dem SBC aktiviert ist, müssen Sie das Baltimore CyberTrust-Stammzertifikat im SBC Trusted Root Store des TLS-Kontexts von Teams installieren. (Dies liegt daran, dass für die Microsoft-Dienstzertifikate das Baltimore-Stammzertifikat verwendet wird.) Informationen zum Herunterladen des Baltimore-Stammzertifikats finden Sie [Office 365 von Verschlüsselungsketten.](/microsoft-365/compliance/encryption-office-365-certificate-chains)
+> *Wenn DIE Unterstützung von Mutual TLS (MTLS) für die Teams-Verbindung auf dem SBC aktiviert ist, müssen Sie das Baltimore CyberTrust-Stammzertifikat im SBC Trusted Root Store des TLS-Kontexts von Teams installieren. (Dies liegt daran, dass für die Microsoft-Dienstzertifikate das Baltimore-Stammzertifikat verwendet wird.) Informationen zum Herunterladen des Baltimore-Stammzertifikats finden Sie [unter Office 365 Verschlüsselungsketten.](/microsoft-365/compliance/encryption-office-365-certificate-chains)
 
 Microsoft arbeitet daran, basierend auf Kundenanforderungen zusätzliche Zertifizierungsstellen hinzufügen. 
 
@@ -221,32 +221,32 @@ Erfahren Sie mehr [über Office 365 und US Government-Umgebungen](/office365/ser
 Die Verbindungspunkte für Direct-Routing sind die folgenden drei FQDNs:
 
 - **sip.pstnhub.microsoft.com** – Globaler FQDN – muss zuerst ausprobiert werden. Wenn der SBC eine Anforderung zum Auflösen dieses Namens sendet, geben die Microsoft Azure-DNS-Server eine IP-Adresse zurück, die auf das primäre Azure-Rechenzentrum verweisen, das dem SBC zugewiesen ist. Die Zuordnung basiert auf Leistungsmetriken der Rechenzentren und der geografischen Nähe zum SBC. Die zurückgegebene IP-Adresse entspricht dem primären FQDN.
-- **sip2.pstnhub.microsoft.com** – Sekundärer FQDN – geografische Zuordnung zur zweiten Prioritätsregion.
+- **sip2.pstnhub.microsoft.com** – Sekundärer FQDN – ist der zweiten Prioritätsregion geografisch zuordnungen.
 - **sip3.pstnhub.microsoft.com** – Dritter FQDN – geografische Zuordnung zur dritten Region mit Priorität.
 
 Das Platzieren dieser drei FQDNs in dieser Reihenfolge ist für Folgendes erforderlich:
 
 - Stellen Sie eine optimale Erfahrung (weniger geladen und dem SBC-Rechenzentrum am nächsten, das durch Abfragen des ersten FQDNs zugeordnet ist) zur Verfügung.
-- Stellen Sie Failover bereit, wenn die Verbindung von einem SBC zu einem Rechenzentrum eingerichtet wird, bei dem ein temporäres Problem auftritt. Weitere Informationen finden Sie unten unter [Failovermechanismus.](#failover-mechanism-for-sip-signaling)  
+- Stellen Sie Failover bereit, wenn die Verbindung von einem SBC zu einem Rechenzentrum hergestellt wird, bei dem ein temporäres Problem auftritt. Weitere Informationen finden Sie unten unter [Failovermechanismus.](#failover-mechanism-for-sip-signaling)  
 
 Die FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com – werden in IP-Adressen aus den folgenden Subnetzen aufgelöst:
 
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Sie müssen Ports für alle diese IP-Adressbereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** für alle diese IP-Subnetze aufgelöst. 
+Sie müssen Ports für alle diese IP-Adressbereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** in alle diese IP-Subnetze aufgelöst. 
 
 > [!IMPORTANT]
 > Im Rahmen Teams Direct Routing-Erweiterung und der Verbesserung der Dienste haben wir im November 2020 neue Instanzen der Direct Routing-Infrastruktur in Australien bereitgestellt. Dies wird in zwei zusätzlichen IP-Adressen (52.114.16.74 und 52.114.20.29) widerspiegelt, denen die folgenden FQDNs für australische Kunden – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com – aufgelöst werden. Sie müssen sicherstellen, dass diese beiden IP-Adressen (52.114.16.74 und 52.114.20.29) in Ihren IP-Zugriffssteuerungslisten (ACLs) zulässig sind, und ports sind für alle diese IP-Adressen in Ihrer Firewall geöffnet, um eingehenden und ausgehenden Datenverkehr an und von den Adressen zur Signalisierung zu ermöglichen.
 
 > [!IMPORTANT]
-> Im Rahmen Teams Direct Routing-Erweiterung und der Verbesserung der Dienste haben wir im Mai 2021 neue Instanzen der Direct-Routing-Infrastruktur in Japan bereitgestellt. Dies spiegelt sich in zwei zusätzlichen IP-Adressen (52.114.36.156 und 52.114.32.169) wider, denen die folgenden FQDNs für japanische Kunden aufgelöst werden – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com. Sie müssen sicherstellen, dass diese beiden IP-Adressen (52.114.36.156 und 52.114.32.169) in Ihren IP-Zugriffssteuerungslisten (ACLs) zulässig sind, und ports sind für alle diese IP-Adressen in Ihrer Firewall geöffnet, um eingehenden und ausgehenden Datenverkehr von den Adressen zu und von den Adressen für Signale zu ermöglichen.
+> Im Rahmen Teams Direct Routing-Erweiterung und der Verbesserung der Dienste haben wir im Mai 2021 neue Instanzen der Direct-Routing-Infrastruktur in Japan bereitgestellt. Dies spiegelt sich in zwei zusätzlichen IP-Adressen (52.114.36.156 und 52.114.32.169) wider, denen die folgenden FQDNs für japanische Kunden – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com – aufgelöst werden. Sie müssen sicherstellen, dass diese beiden IP-Adressen (52.114.36.156 und 52.114.32.169) in Ihren IP-Zugriffssteuerungslisten (ACLs) zulässig sind und dass Ports für alle diese IP-Adressen in Ihrer Firewall geöffnet sind, um eingehenden und ausgehenden Datenverkehr von den Adressen zu und von den Adressen für Signale zu ermöglichen.
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC DoD-Umgebung
 
 Der Verbindungspunkt für Direct-Routing ist der folgende FQDN:
 
-**sip.pstnhub.dod.teams.microsoft.us** – Globaler FQDN. Da die Office 365 DoD-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und drittrangig vorhandenen FQDNs.
+**sip.pstnhub.dod.teams.microsoft.us** – Globaler FQDN. Da die Office 365 DoD-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und dritten FQDNs.
 
 Die FQDN sip.pstnhub.dod.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
 
@@ -258,9 +258,9 @@ Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit d
 
 Der Verbindungspunkt für Direct-Routing ist der folgende FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us** – Globaler FQDN. Da die GCC High-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und drittrangig vorhandenen FQDNs.
+**sip.pstnhub.gov.teams.microsoft.us** – Globaler FQDN. Da die GCC High-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und dritten FQDNs.
 
-Der FQDN sip.pstnhub.gov.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
+Die FQDN sip.pstnhub.gov.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
 
 - 52.127.88.0/21
 
@@ -268,7 +268,7 @@ Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit d
 
 ## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Ports
 
-Sie müssen die folgenden Ports für Microsoft 365 oder Office 365 in denen Direct-Routing angeboten wird:
+Sie müssen die folgenden Ports für Microsoft 365 oder Office 365 verwenden, in denen Direct-Routing angeboten wird:
 - Microsoft 365 oder Office 365
 - Office 365 GCC
 - Office 365 GCC Hoch
@@ -282,7 +282,7 @@ SIP/TLS|SBC|SIP-Proxy|Definiert im SBC|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Failovermechanismus für SIP-Signalisierung
 
-Der SBC erstellt eine DNS-Abfrage, um die sip.pstnhub.microsoft.com. Basierend auf dem SBC-Standort und den Leistungsmetriken des Rechenzentrums wird das primäre Rechenzentrum ausgewählt. Wenn beim primären Rechenzentrum ein Problem vorfeilt, versucht der SBC den sip2.pstnhub.microsoft.com, der zum zweiten zugewiesenen Rechenzentrum aufgelöst wird. Im seltenen Fall, dass Keine Rechenzentren in zwei Regionen verfügbar sind, wiederholen die SBC den letzten FQDN (sip3.pstnhub.microsoft.com), der die IP des dritten Rechenzentrums liefert.
+Der SBC erstellt eine DNS-Abfrage, um die sip.pstnhub.microsoft.com. Basierend auf dem SBC-Standort und den Leistungsmetriken des Rechenzentrums wird das primäre Rechenzentrum ausgewählt. Wenn beim primären Rechenzentrum ein Problem vorfeilt, versucht der SBC den sip2.pstnhub.microsoft.com, der zum zweiten zugewiesenen Rechenzentrum aufgelöst wird, und im seltenen Fall, dass Rechenzentren in zwei Regionen nicht verfügbar sind, wiederholen die SBC den letzten FQDN (sip3.pstnhub.microsoft.com), der die IP des dritten Rechenzentrums enthält.
 
 In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären und dritten Rechenzentren zusammengefasst:
 
@@ -326,7 +326,7 @@ Der Portbereich der Medienprozessoren ist in der folgenden Tabelle aufgeführt:
 
 ## <a name="media-traffic-media-processors-geography"></a>Medienverkehr: Geographie der Medienprozessoren
 
-Der Mediendatenverkehr fließt über Komponenten, die als Medienprozessoren bezeichnet werden. Medienprozessoren werden in den gleichen Rechenzentren wie SIP-Proxys platziert. Darüber hinaus gibt es weitere Medienprozessoren zur Optimierung des Medienflusses. Beispielsweise gibt es zurzeit keine SIP-Proxykomponente in Australien (SIP-Datenfluss über Singapur oder Hongkong), aber der Medienprozessor ist lokal in Australien verfügbar. Die lokale Notwendigkeit der Medienprozessoren wird durch die Latenz bestimmt, die durch das Senden von Datenverkehr über lange Entfernungen auftreten kann, z. B. von Australien nach Singapur oder Hongkong. Die Latenz im Beispiel für den Datenverkehr, der von Australien nach Hongkong oder Singapur fließt, ist zwar akzeptabel, um eine gute Anrufqualität für DEN SIP-Datenverkehr zu erhalten, bei Echtzeitmedienverkehr aber nicht.
+Der Mediendatenverkehr fließt über Komponenten, die als Medienprozessoren bezeichnet werden. Medienprozessoren werden in den gleichen Rechenzentren wie SIP-Proxys platziert. Darüber hinaus gibt es weitere Medienprozessoren zur Optimierung des Medienflusses. Beispielsweise gibt es zurzeit keine SIP-Proxykomponente in Australien (SIP-Datenfluss über Singapur oder Hongkong), aber der Medienprozessor ist lokal in Australien verfügbar. Die lokale Notwendigkeit der Medienprozessoren wird durch die Latenz bestimmt, die durch das Senden von Datenverkehr über lange Entfernungen auftreten, z. B. von Australien nach Singapur oder Hongkong. Die Latenz im Beispiel für den Datenverkehr, der von Australien nach Hongkong oder Singapur fließt, ist zwar akzeptabel, um eine gute Anrufqualität für DEN SIP-Datenverkehr zu erhalten, bei Echtzeitmedienverkehr aber nicht.
 
 Speicherort der Medienprozessoren:
 
@@ -342,7 +342,7 @@ Standorte, an denen sowohl SIP-Proxy- als auch Medienprozessorkomponenten bereit
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Leg between SBC and Cloud Media Processor or Microsoft Teams client.
 Gilt sowohl für Fälle der Medienumgehung als auch für Nichtumgehungsfälle.
 
-Die Direct-Routingschnittstelle auf dem Weg zwischen dem Session Border Controller und dem Cloud Media Processor (ohne Medienumgehung) oder zwischen dem Teams-Client und dem SBC (sofern die Medienumgehung aktiviert ist) kann die folgenden Codecs verwenden:
+Die Direct Routing-Schnittstelle auf dem Weg zwischen Dem Session Border Controller und Cloud Media Processor (ohne Medienumgehung) oder zwischen dem Teams-Client und dem SBC (wenn die Medienumgehung aktiviert ist) kann die folgenden Codecs verwenden:
 
 - Nicht-Medienumgehung (SBC zu Cloud Media Processor): SILK, G.711, G.722, G.729
 - Medienumgehung (SBC Teams Client): SILK, G.711, G.722, G.729
@@ -357,7 +357,7 @@ Auf dem Bein zwischen Cloud Media Processor und Microsoft Teams wird entweder SI
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Unterstützte Session Border Controller (SBCs)
 
-Microsoft unterstützt nur zertifizierte SBCs für die Kopplung mit Direct Routing. Da Enterprise-VoIP Für Unternehmen von entscheidender Bedeutung ist, führt Microsoft intensive Tests mit den ausgewählten SBCs durch und arbeitet mit den SBC-Anbietern zusammen, um sicherzustellen, dass die beiden Systeme kompatibel sind. 
+Microsoft unterstützt nur zertifizierte SBCs für die Kopplung mit Direct Routing. Da Enterprise-VoIP Unternehmen von entscheidender Bedeutung ist, führt Microsoft intensive Tests mit den ausgewählten SBCs durch und arbeitet mit den SBC-Anbietern zusammen, um sicherzustellen, dass die beiden Systeme kompatibel sind. 
 
 Geräte, die überprüft wurden, werden als Zertifiziert für Teams Direct-Routing aufgeführt. Die zertifizierten Geräte funktionieren garantiert in allen Szenarien. 
 

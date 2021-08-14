@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Nach der Bereitstellung eines oder mehrerer Edgeserver müssen Sie die Typen des externen Domänen- oder Anbieterzugriffs, des Remotebenutzerzugriffs und des anonymen Benutzerzugriffs auf Konferenzen über die Edgeserver aktivieren, die für Ihre Organisation unterstützt werden.
-ms.openlocfilehash: ffad5a6ed75e5d9e0476497182bd1d1dafe65675c1fb948ca98543858846512f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08d29371284d6e23eec3115aad71e7c82352f7e3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333527"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234380"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Verwalten der Zugriffs-Edgekonfiguration für Ihre Organisation
 
@@ -32,7 +32,7 @@ Zu diesen Optionen gehören die folgenden Zugriffsarten, die auf der Seite **Zug
     
     Es gibt zwei Optionen, bei denen es sich um optionale Einstellungen für die Erkennung von Verbundpartnern handelt und ob Archivierungshaftungsausschlüsse (Benachrichtigung an Verbundkontakte, mit denen Sie kommunizieren, dass die Archivierung für Ihre Bereitstellung aktiviert ist und die Kommunikationsdetails archiviert werden) an Kontakte gesendet werden:
     
-      - **Aktivieren der Partnerdomänenermittlung**   Wenn Sie diese Option auswählen, wird die automatische Ermittlung von Domänen aktiviert, mit denen Sie einen Verbund erstellen können. Skype for Business Server dns-Einträge (Domain Name System) verwendet, um Domänen zu ermitteln, die nicht in der Liste der zulässigen Domänen aufgeführt sind, wobei eingehender Datenverkehr von ermittelten Verbundpartnern automatisch ausgewertet und dieser Datenverkehr basierend auf Vertrauensebene, Datenverkehrsmenge und Administratoreinstellungen eingeschränkt oder blockiert wird. Wenn Sie diese Option nicht auswählen, ist der Verbundbenutzerzugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste der zulässigen Domänen aufnehmen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zugelassen werden sollen, einschließlich der Einschränkung des Zugriffs auf bestimmte Server, auf denen der Zugriffs-Edgedienst in der Verbunddomäne ausgeführt wird. Ausführliche Informationen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
+      - **Aktivieren der Partnerdomänenermittlung**   Wenn Sie diese Option auswählen, wird die automatische Ermittlung von Domänen aktiviert, mit denen Sie einen Verbund erstellen können. Skype for Business Server dns-Einträge (Domain Name System) verwendet, um Domänen zu ermitteln, die nicht in der Liste der zulässigen Domänen aufgeführt sind, wobei eingehender Datenverkehr von ermittelten Verbundpartnern automatisch ausgewertet und dieser Datenverkehr basierend auf vertrauensebene, Datenverkehrsmenge und Administratoreinstellungen eingeschränkt oder blockiert wird. Wenn Sie diese Option nicht auswählen, ist der Verbundbenutzerzugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste der zulässigen Domänen aufnehmen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zugelassen werden sollen, einschließlich der Einschränkung des Zugriffs auf bestimmte Server, auf denen der Zugriffs-Edgedienst in der Verbunddomäne ausgeführt wird. Ausführliche Informationen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
     
       - **Archivierungshaftungsausschluss an Verbundpartner senden**   Wenn Sie diese Option auswählen, kann eine Archivierungshaftungsausschlussnachricht an Verbundpartner gesendet werden, die sie darüber informiert, dass Kommunikationsdetails aufgezeichnet werden. Wenn Sie die externe Kommunikation mit Verbundpartnerdomänen archivieren, sollten Sie die Benachrichtigung über den Archivierungshaftungsausschluss aktivieren, um die Partner über die Archivierung ihrer Nachrichten und Kommunikationsdetails durch Ihre Bereitstellung in Kenntnis zu setzen. Ausführliche Informationen zur Archivierung finden Sie unter [Aktivieren oder Deaktivieren des Sendens eines Archivierungshaftungsausschlusses an Verbundpartner.](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
@@ -45,31 +45,31 @@ Zu diesen Optionen gehören die folgenden Zugriffsarten, die auf der Seite **Zug
 
 **Anzeigen von Zugriffs-Edgekonfigurationsinformationen mithilfe Windows PowerShell Cmdlets**
 
-  - Zugriffs-Edgekonfigurationsinformationen können mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsAccessEdgeConfiguration"** angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+  - Zugriffs-Edgekonfigurationsinformationen können mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsAccessEdgeConfiguration"** angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
     
-    Um Informationen zu allen Zugriffs-Edge-Konfigurationseinstellungen anzuzeigen, geben Sie den folgenden Befehl in der Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+    Um Informationen zu allen Zugriffs-Edge-Konfigurationseinstellungen anzuzeigen, geben Sie den folgenden Befehl in die Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
      `Get-CsAccessEdgeConfiguration`
     
     Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
-        Identity                               : Global
-        AllowAnonymousUsers                    : False
-        AllowFederatedUsers                    : False
-        AllowOutsideUsers                      : True
-        BeClearingHouse                        : False
-        EnablePartnerDiscovery                 : False
-        EnableArchivingDisclaimer              : False
-        EnableUserReplicator                   : True
-        KeepCrlsUpToDateForPeers               : True
-        MarkSourceVerifiableOnOutgoingMessages : True
-        OutgoingTlsCountForFederatedPartners   : 4
-        DiscoveredPartnerStandardRate          : 20
-        EnableDiscoveredPartnerContactsLimit   : True
-        MaxContactsPerDiscoveredPartner        : 1000
-        DiscoveredPartnerReportPeriodMinutes   : 60
-        MaxAcceptedCertificatesStored          : 1000
-        MaxRejectedCertificatesStored          : 500
-        CertificatesDeletedPercentage          : 20
-        RoutingMethod                          : UseDnsSrvRouting
+    Identität : Global<br/>
+    AllowAnonymousUsers : False<br/>
+    AllowFederatedUsers : False<br/>
+    AllowOutsideUsers: True<br/>
+    BeClearingHouse : False<br/>
+    EnablePartnerDiscovery: False<br/>
+    EnableArchivingDisclaimer : False<br/>
+    EnableUserReplicator : True<br/>
+    KeepCrlsUpToDateForPeers : True<br/>
+    MarkSourceVerifiableOnOutgoingMessages : True<br/>
+    OutgoingTlsCountForFederatedPartners : 4<br/>
+    DiscoveredPartnerStandardRate : 20<br/>
+    EnableDiscoveredPartnerContactsLimit : True<br/>
+    MaxContactsPerDiscoveredPartner : 1000<br/>
+    DiscoveredPartnerReportPeriodMinutes : 60<br/>
+    MaxAcceptedCertificatesStored : 1000<br/>
+    MaxRejectedCertificatesStored : 500<br/>
+    CertificatesDeletedPercentage : 20<br/>
+    RoutingMethod : UseDnsSrvRouting<br/>
 

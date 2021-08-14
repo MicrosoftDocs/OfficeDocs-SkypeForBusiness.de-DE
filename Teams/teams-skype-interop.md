@@ -8,17 +8,16 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Informieren Sie sich über die Interoperabilitätsfunktionen zwischen Teams-Benutzern in Ihrem Unternehmen und Skype (Heimanwender)-Benutzern.
 localization_priority: Normal
-ms.openlocfilehash: 42a6631a70156cf150e175b7c5dd1cd661a84c77f0523e61c9d7b9313e4f81e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cef040ac9c4ff399b0a663ae25b29f070eb5300
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312463"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235180"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interoperabilität von Teams und Skype
 

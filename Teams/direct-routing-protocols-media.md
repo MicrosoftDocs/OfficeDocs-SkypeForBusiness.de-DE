@@ -17,12 +17,12 @@ f1.keywords:
 description: hHw Direct-Routing unterstützt die Medienumgehung mit einem für ICE Lite aktivierten Session Border Controller.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c32838d282d6f5fff5eb1e85c36d78eee8828d41
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849530"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234570"
 ---
 # <a name="overview"></a>Übersicht
 
@@ -36,11 +36,11 @@ Dieser Artikel bietet eine Übersicht über die ICE Lite-Szenarien und -Anforder
 
 - Freisprechen – Das Angebot des Anrufers kann an mehrere Endpunkte für Anrufer übermittelt werden, wenn der Anrufer auf mehreren Geräten verfügbar ist (beispielsweise könnte ein Teams-Benutzer bei Teams für Windows und Teams für Android oder iPhone angemeldet sein).
 
-- Provisorische Antwort (183) – Die Endpunkte der Anrufe zur schnelleren Anrufeinrichtung senden eine Antwort mit den Kandidaten und Schlüsseln, die für die Einrichtung des Medienflusses erforderlich sind. Dies geschieht im Voraus, wenn der Benutzer den Anruf (200OK) von dieser bestimmten Anruferinstanz entgegennahme. Mit "Forking" sollte der Anrufer mehrere provisorische Antworten erhalten können.
+- Provisorische Antwort (183) – Die Endpunkte der Anrufe zur schnelleren Anrufeinrichtung senden eine Antwort mit den Kandidaten und Schlüsseln, die für die Einrichtung des Medienflusses erforderlich sind. Dies geschieht im Voraus, wenn der Benutzer den Anruf (200OK) dieser bestimmten Anruferinstanz entgegennahme. Mit "Forking" sollte der Anrufer mehrere provisorische Antworten erhalten können.
 
-- Re-Invite – Angebot mit endgültigen Kandidaten, die vom ICE-Endpunkt für die Steuerung ausgewählt wurden. Dies hat das "a=remote-candidate"-Attribut, um alle Rennbedingungen aus der Behandlung mehrerer Forks zu lösen.
+- Re-Invite – Angebot mit endgültigen Kandidaten, die vom ICE-Steuerungsendpunkt ausgewählt wurden. Dies hat das "a=remote-candidate"-Attribut, um alle Rennbedingungen aus der Behandlung mehrerer Forks zu lösen.
 
-- Teams Endpunkt: Dies kann entweder ein Server (Medienprozessor, Transport relay) oder der Teams sein.
+- Teams Endpunkt : Dies kann entweder ein Server (Medienprozessor, Transport relay) oder der Teams sein.
 
 ## <a name="message-format"></a>Nachrichtenformat
 
@@ -71,7 +71,7 @@ Hinweis: Im Fall von Aufschütten mit Peerendpunkten, die Antworten auf 183 Prov
 
 #### <a name="converging-for-forking"></a>Konvergenz fürs Aufschütten
 
-Wenn das Angebot von den SBC-Forks an mehrere Teams-Endpunkte gesendet wird, antworten die Teams-Endpunkte möglicherweise mit einer provisorischen Antwort und starten Konnektivitätsprüfungen. Der SBC muss darauf vorbereitet sein, Konnektivitätsprüfungen zu empfangen und auf Konnektivitätsüberprüfungen von mehreren Peerendpunkten zu reagieren. Beispielsweise könnte der Teams an einem Desktop und einem Mobiltelefon angemeldet sein. Beide Geräte werden über den eingehenden Anruf benachrichtigt und versuchen, die Konnektivitätsüberprüfungen mit dem SBC durchzuführen.
+Wenn das Angebot von den SBC-Forks an mehrere Teams-Endpunkte Teams, reagieren die Teams-Endpunkte möglicherweise mit einer provisorischen Antwort und starten Konnektivitätsüberprüfungen. Der SBC muss darauf vorbereitet sein, Konnektivitätsprüfungen zu empfangen und auf Konnektivitätsüberprüfungen von mehreren Peerendpunkten zu reagieren. Beispielsweise könnte der Teams an einem Desktop und einem Mobiltelefon angemeldet sein. Beide Geräte werden über den eingehenden Anruf benachrichtigt und versuchen, die Konnektivitätsüberprüfungen mit dem SBC durchzuführen.
 
 Schließlich wird nur einer der Endpunkte den Anruf entgegenrufen (200OK). Beim Empfangen von 200OK kann der SBC den richtigen Kontext für die Verarbeitung der Medienpakete einrichten.
 
@@ -87,7 +87,7 @@ In diesem Szenario gibt es mehrere mögliche Peerendpunkte, die der SBC behandel
 
 - Andere SBC-Endpunkte. Dies sind ICE Lite-Endpunkte, die in der Regel am Szenario des gleichzeitigen Anrufens von Clientendpunkten und einer anderen Telefonnummer beteiligt sind.
 
-Der SBC muss auf alle gültigen Verbindungsüberprüfungsanforderungen reagieren, die von den vollständigen ICE-Endpunkten empfangen wurden. Nach RFC werden die vollständigen ICE-Endpunkte zu Kontrollendpunkten. Die Teams (Client/Server)-Endpunkte führen "Reguläre" Konnektivitätsprüfungen durch. Die letzten 200Ok-Daten können entweder von einem Endpunkt aus kommen, der frühe Medien gesendet hat, oder von einem anderen Endpunkt. Beim Empfang des 200Ok muss der SBC den richtigen Kontext für den Medienfluss einrichten. 
+Der SBC muss auf alle gültigen Verbindungsüberprüfungsanforderungen reagieren, die von den vollständigen ICE-Endpunkten empfangen wurden. Nach RFC werden die vollständigen ICE-Endpunkte zu Kontrollendpunkten. Die Teams (Client/Server)-Endpunkte führen "Regelmäßige" Konnektivitätsprüfungen durch. Die letzten 200Ok-Daten können entweder von einem Endpunkt aus kommen, der frühe Medien gesendet hat, oder von einem anderen Endpunkt. Beim Empfang des 200Ok muss der SBC den richtigen Kontext für den Medienfluss einrichten. 
 
 ###  <a name="early-media"></a>Early media
 
@@ -95,15 +95,15 @@ Wenn ein frühzeitiger Medienfluss besteht, muss der SBC den ersten Endpunkt aus
 
 ### <a name="outbound-call-to-sbc"></a>Ausgehender Anruf bei SBC
 
-Die Teams Endpunkte sind der Anrufer für dieses Szenario und der steuernde Endpunkt. Wenn Sie entweder eine Antwort auf provisorische Unterstützung (183) oder eine endgültige Antwort (200OK) erhalten haben, startet der Teams-Endpunkt Konnektivitätsprüfungen und geht dann zu "Regulären" Konnektivitätsprüfungen weiter.
+Die Teams Endpunkte sind der Anrufer für dieses Szenario und der steuernde Endpunkt. Wenn Sie entweder eine Antwort auf provisorische Unterstützung (183) oder eine endgültige Antwort (200OK) erhalten, startet der Teams-Endpunkt Konnektivitätsprüfungen und geht zu "Regulären" Konnektivitätsprüfungen weiter.
 
 Hinweis: Wenn der SBC eine provisorische Antwort (183) sendet, muss der SBC Verbindungsüberprüfungsanforderungen empfangen und potenziell die Umschließungen abschließen können, bevor das 200OK von SBC gesendet wird. Wenn Überprüfungen und/oder Abschüttungen abgeschlossen wurden, bevor 200OK empfangen wurde, werden Überprüfungen und/oder Kandidaten nach 200OK nicht mehr durchgeführt. Der SBC darf ICE-Kandidaten, Kennwort und Ufrag (Benutzernamenfragment) zwischen 183 und 200 nicht ändern.
 
-Um frühe Medien zu unterstützen, beginnt der SBC möglicherweise, die Medien an den ICE-Peerkandidaten zu streamen, und zwar mit der höchsten Priorität basierend auf den empfangenen Verbindungsüberprüfungen, sogar bevor die Übertragungen vom Endpunkt Teams werden. Der SBC sollte Medien von jedem Kandidaten Teams, bis die Ausdingung abgeschlossen ist. Sobald ein Kandidat benannt wurde, muss der SBC auf den richtigen Kontext zurückgesetzt werden, um Medienpakete zu senden und zu empfangen.
+Um frühe Medien zu unterstützen, beginnt der SBC möglicherweise mit dem Streamen der Medien an den ICE-Peerkandidaten, mit der höchsten Priorität basierend auf den empfangenen Verbindungsüberprüfungen, sogar bevor die Daten durch den Endpunkt Teams werden. Der SBC sollte für jeden Kandidaten Medien Teams, bis die Ausdingung abgeschlossen ist. Sobald ein Kandidat benannt wurde, muss der SBC auf den richtigen Kontext zurückgesetzt werden, um Medienpakete zu senden und zu empfangen.
 
 ## <a name="srtp-support-requirements"></a>SRTP-Supportanforderungen
 
-Der SBC muss SRTP-Verschlüsselungschiffre und AES_CM_128_HMAC_SHA1_80 für Angebots- und Antwortantworten im folgenden Format unterstützen:
+Der SBC muss SRTP-Verschlüsselungschiffre und AES_CM_128_HMAC_SHA1_80 bieten und beantworten in folgendem Format unterstützen:
 
 ```console
 "inline:" <key||salt> ["|" lifetime]

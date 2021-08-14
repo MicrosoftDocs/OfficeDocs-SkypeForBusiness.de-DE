@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche und eine Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver konfigurieren.
-ms.openlocfilehash: 14a9bd1b4e32ab68b01746edaca77337654ea391737f38129c7e482fdcd49324
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 52612e1cd4d8990f32b741538b8023ab1f8afabe
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591079"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234950"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver
 
@@ -100,7 +100,7 @@ Wie bereits erwähnt, sollten Sie bei der Konfiguration Skype for Business Serve
 
 Nachdem Sie den neuen Portbereich für die Anwendungsfreigabe ausgewählt haben, können Sie Ihre Änderung mithilfe des Cmdlets Set-CsConferencingServer vornehmen. Diese Änderungen müssen nicht auf den Anwendungsservern oder auf den Vermittlungsservern durchgeführt werden, da sie keinen Datenverkehr von Anwendungsfreigaben verarbeiten. Sie müssen die Portwerte auf diesen Servern lediglich ändern, wenn Sie die Ports für die Übertragung von Audiosignalen neu zuweisen.
 
-Um die Portwerte für die Anwendungsfreigabe auf einem einzelnen Konferenzserver zu ändern, führen Sie einen Befehl wie den folgenden in der Skype for Business Server Verwaltungsshell aus:
+Um die Portwerte für die Anwendungsfreigabe auf einem einzelnen Konferenzserver zu ändern, führen Sie einen Befehl ähnlich dem folgenden aus der Skype for Business Server Verwaltungsshell aus:
 
   **Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348**
 
@@ -132,7 +132,7 @@ Um eine Quality of Service-Richtlinie für die Audioverwaltung zu erstellen, mel
 
 5.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor **Computerkonfiguration**, erweitern Sie **Richtlinien**, erweitern Sie **Windows-Einstellungen**, klicken Sie mit der rechten Maustaste auf **Richtlinienbasierter QoS**, und klicken Sie dann auf **Neue Richtlinie erstellen**.
 
-6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der ersten Seite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server QoS)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
+6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der startseite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server QoS)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
 7.  Stellen Sie auf der nächsten Seite sicher, dass **alle Anwendungen** ausgewählt sind, und klicken Sie dann auf **"Weiter".** Damit wird ganz einfach sichergestellt, dass alle Anwendungen mit den Paketen aus dem angegebenen Portbereich mit dem angegebenen DSCP-Code übereinstimmen.
 

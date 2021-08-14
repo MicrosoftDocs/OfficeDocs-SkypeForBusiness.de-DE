@@ -14,40 +14,40 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Informationen zum Konfigurieren der Unterstützung für Benutzer von SIP-Verbundanbietern.
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Erfahren Sie, wie Sie die Unterstützung für Benutzer von SIP-Partnerverbundanbietern konfigurieren.
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336695"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Verbundanbietern für Ihre Organisation in Skype for Business Server
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Partnerverbundanbietern für Ihre Organisation in Skype for Business Server
 
-Gehen Sie wie folgt vor, um die Unterstützung für Benutzer von SIP-Verbundanbietern zu konfigurieren:
+Um die Unterstützung für Benutzer von SIP-Verbundanbietern zu konfigurieren, müssen Sie folgendermaßen vorgehen:
 
-  - Konfigurieren einer oder mehrere Richtlinien für den externen Benutzerzugriff zur Unterstützung der Kommunikation mit Kontakten des SIP-Verbundanbieters
+  - Konfigurieren einer oder mehrerer Richtlinien für den Externen Benutzerzugriff zur Unterstützung der Kommunikation mit Kontakten mit SIP-Partnerverbundanbietern
 
-  - Angeben, welche gehosteten Anbieter unterstützt werden sollen
+  - Geben Sie an, welche gehosteten Anbieter Unterstützt werden sollen
 
-  - Geben Sie an, welche öffentlichen Anbieter von Internetdiensten unterstützt werden sollen.
+  - Angeben der öffentlichen Chatanbieter, die Sie unterstützen möchten
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>Erstellen oder Bearbeiten von öffentlichen SIP-Verbundanbietern in Skype for Business Server
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>Erstellen oder Bearbeiten öffentlicher SIP-Partnerverbundanbieter in Skype for Business Server
 
-Die Verbindung mit öffentlichen Sofortnachrichtendiensten ermöglicht Benutzern in Ihrer Organisation die Verwendung von Sofortnachrichten für die Kommunikation mit Benutzern von Chatdiensten, die von öffentlichen Anbietern bereitgestellt werden.
+Die Konnektivität mit öffentlichen Chatnachrichten ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chatnachrichten, um mit Benutzern von Chatdiensten zu kommunizieren, die von öffentlichen Anbietern bereitgestellt werden.
 
 Skype for Business Server verfügt über Konfigurationen öffentlicher Anbieter für Chatnachrichten. Jeder öffentliche Anbieter ist mit dem vollqualifizierten Domänennamen des Edgeservers für den jeweiligen Anbieter sowie mit der Standardüberprüfungsstufe **Benutzer können nur mit Personen in ihrer Liste 'Kontakte' kommunizieren, die diesen Anbieter verwenden** konfiguriert.
 
-In der Standardeinstellung ist kein öffentlicher Anbieter aktiviert. Bevor Sie die öffentlichen Anbieter aktivieren, sollten Sie zunächst die Lizenzvereinbarung und die Bereitstellungsmaßnahmen abschließen. Es ist möglich, die Anbieter vor Abschluss der Lizenzvereinbarung und der Bereitstellungsmaßnahmen zu aktivieren. Benutzer können jedoch nicht mit Kontakten dieser Anbieter kommunizieren, bevor die Vorbereitungsmaßnahmen nicht abgeschlossen sind. Weitere Informationen zur Lizenzierung und Bereitstellung öffentlicher Anbieter finden Sie unter "Konfigurieren von Richtlinien zum [Steuern der öffentlichen Benutzerfreundlichkeit".](../external-access-policies/configure-policies-to-control-public-user-access.md)
+In der Standardeinstellung ist kein öffentlicher Anbieter aktiviert. Bevor Sie die öffentlichen Anbieter aktivieren, sollten Sie zunächst die Lizenzvereinbarung und die Bereitstellungsmaßnahmen abschließen. Es ist möglich, die Anbieter vor Abschluss der Lizenzvereinbarung und der Bereitstellungsmaßnahmen zu aktivieren. Benutzer können jedoch nicht mit Kontakten dieser Anbieter kommunizieren, bevor die Vorbereitungsmaßnahmen nicht abgeschlossen sind. Ausführliche Informationen zur Lizenzierung und Bereitstellung von öffentlichen Anbietern finden Sie unter [Konfigurieren von Richtlinien zum Steuern der öffentlichen Benutzerzugriffe.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 Verwenden Sie das folgende Verfahren, um öffentliche Anbieter zu erstellen oder zu bearbeiten.
 
 
 ### <a name="to-create-or-edit-public-providers"></a>So erstellen oder bearbeiten Sie öffentliche Anbieter
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Partnerverbund und externer Zugriff** und dann auf **SIP-Partneranbieter**.
 
@@ -61,7 +61,7 @@ Verwenden Sie das folgende Verfahren, um öffentliche Anbieter zu erstellen oder
     
       - **Anbietername:**    Erforderliche Eigenschaft. Geben Sie den Namen des Anbieters ein, wie er in der Auflistung der SIP-Partneranbieter angezeigt wird.
     
-      - **Zugriffs-Edgedienst (FQDN):**   Eine erforderliche Eigenschaft, geben Sie den vollqualifizierten Domänennamen des Zugriffs-Edgediensts des Anbieters ein, den Sie konfigurieren. Diese Informationen werden als Standardelement bereitgestellt und sollten nur geändert werden, wenn der öffentliche Anbieter eine Änderung am FQDN des Zugriffs-Edgediensts beim öffentlichen Anbieter vor nimmt.
+      - **Zugriffs-Edgedienst (FQDN):**    Erforderliche Eigenschaft. Geben Sie den vollqualifizierten Domänennamen für den Zugriffs-Edgedienst des Anbieters ein, den Sie konfigurieren möchten. Diese Informationen werden standardmäßig bereitgestellt. Sie sollten nur geändert werden, wenn beim öffentlichen Anbieter eine Änderung am FQDN des Zugriffs-Edgediensts vorgenommen wird.
     
       - **Standardüberprüfungsstufe:**    Mit der Standardeinstellung **Benutzer können nur mit Personen in ihrer Liste 'Kontakte' kommunizieren, die diesen Anbieter verwenden** wird die Kommunikation auf Kontakte beschränkt, die Sie akzeptiert haben und die sich in Ihrer Kontaktliste befinden.
         
@@ -69,9 +69,9 @@ Verwenden Sie das folgende Verfahren, um öffentliche Anbieter zu erstellen oder
 
 7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, klicken Sie auf **Commit**, um die Änderungen zu speichern, oder auf **Abbrechen**, um die Änderungen zu verwerfen.
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Erstellen oder Bearbeiten von gehosteten SIP-Verbundanbietern in Skype for Business Server
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Erstellen oder Bearbeiten gehosteter SIP-Partnerverbundanbieter in Skype for Business Server
 
-Die Konnektivität für Instant Messaging (Instant Messaging) eines gehosteten Anbieters ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chatnachrichten für die Kommunikation mit Benutzern von Chatdiensten, die von gehosteten Anbietern bereitgestellt werden.
+Die Chatkonnektivität eines gehosteten Anbieters ermöglicht Es Benutzern in Ihrer Organisation, Chatnachrichten zu verwenden, um mit Benutzern von Chatdiensten zu kommunizieren, die von gehosteten Anbietern bereitgestellt werden.
 
 Jeder gehostete Anbieter ist mit dem vollqualifizierten Domänennamen des Edgeservers des Anbieters sowie der Standardüberprüfungsstufe **Benutzern nur die Kommunikation mit den Personen in ihren Kontaktlisten erlauben, die diesen Anbieter verwenden** konfiguriert.
 
@@ -79,9 +79,9 @@ Verwenden Sie das folgende Verfahren, um gehostete Anbieter zu erstellen oder zu
 
 ### <a name="to-create-or-edit-hosted-providers"></a>So erstellen oder bearbeiten Sie gehostete Anbieter
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Partnerverbund und externer Zugriff** und dann auf **SIP-Partnerverbundanbieter**.
 
@@ -95,7 +95,7 @@ Verwenden Sie das folgende Verfahren, um gehostete Anbieter zu erstellen oder zu
     
       - **Anbietername:**    Erforderliche Eigenschaft. Geben Sie den Namen des Anbieters ein, wie er in der Auflistung der SIP-Partneranbieter angezeigt wird.
     
-      - **Zugriffs-Edgedienst (FQDN):**   Eine erforderliche Eigenschaft, geben Sie den vollqualifizierten Domänennamen des Zugriffs-Edgediensts des gehosteten Anbieters ein, den Sie konfigurieren. Diese Informationen sollten vom gehosteten Anbieter bereitgestellt und nur dann geändert werden, wenn der gehostete Anbieter eine Änderung am FQDN des Zugriffs-Edgediensts beim gehosteten Anbieter vornimmt.
+      - **Zugriffs-Edgedienst (FQDN):**    Erforderliche Eigenschaft; geben Sie den vollqualifizierten Domänennamen des Zugriffs-Edgedienstes des gehosteten Anbieters ein, den Sie konfigurieren. Diese Informationen sollten vom gehosteten Anbieter bereitgestellt und nur dann geändert werden, wenn der gehostete Anbieter eine Änderung am FQDN des Zugriffs-Edgediensts beim gehosteten Anbieter vornimmt.
     
       - **Standardüberprüfungsstufe:**    Die Standardeinstellung **Benutzern nur die Kommunikation mit den Personen in ihren Kontaktlisten erlauben, die diesen Anbieter verwenden** beschränkt die Kommunikation auf Kontakte, die Sie akzeptiert haben und die sich in Ihrer Kontaktliste befinden.
         
@@ -107,7 +107,7 @@ Verwenden Sie das folgende Verfahren, um gehostete Anbieter zu erstellen oder zu
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren von Richtlinien zum Steuern der öffentlichen Benutzerfreundlichkeit](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[Konfigurieren von Richtlinien zum Steuern der öffentlichen Benutzerzurückrufe](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

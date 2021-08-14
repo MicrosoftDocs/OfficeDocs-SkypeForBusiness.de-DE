@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Artikel enthält ausführliche Schritte zum Deaktivieren der Hybridbereitstellung im Rahmen der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: eb7e72644bf5f69a763540c1c256d7aabb5f9f6f474d1d570071f68a4c2584e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330699"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Deaktivieren Sie die Hybridkonfiguration, um die Migration zu Teams abzuschließen. 
 
@@ -49,7 +49,7 @@ In diesem Artikel wird beschrieben, wie Sie Ihre Hybridkonfiguration vor der Au�
 
 ## <a name="summary"></a>Zusammenfassung
 
-Nachdem Sie alle Benutzer von Skype for Business lokal auf Teams Nur in Microsoft 365 aktualisiert haben, können Sie die lokale Skype for Business Bereitstellung außer Betrieb gesetzt haben.
+Nachdem Sie alle Benutzer von Skype for Business lokal auf Teams nur in Microsoft 365 aktualisiert haben, können Sie die lokale Skype for Business Bereitstellung außer Betrieb gesetzt haben.
 
 Bevor Sie die lokale Skype for Business Bereitstellung außer Betrieb genommen und Hardware entfernt haben, müssen Sie die lokale Bereitstellung logisch von Microsoft 365 trennen, indem Sie die Hybridbereitstellung deaktivieren. Das Deaktivieren der Hybridbereitstellung besteht aus den folgenden vier Schritten:
 
@@ -64,7 +64,7 @@ Bevor Sie die lokale Skype for Business Bereitstellung außer Betrieb genommen u
 Diese Schritte trennen ihre lokale Bereitstellung von Skype for Business Server logisch von Microsoft 365 und stellen sicher, dass Ihre Organisation vollständig Teams ist. Nachdem Sie diese Schritte abgeschlossen haben, können Sie Ihre lokale Skype for Business Bereitstellung außer Betrieb nehmen, indem Sie eine von zwei Methoden verwenden, auf die in ["Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet](cloud-consolidation-managing-attributes.md)werden sollen" verwiesen wird.
 
 > [!Important] 
-> Sobald diese logische Trennung abgeschlossen ist, weisen msRTCSIP-Attribute aus Ihrem lokalen Active Directory weiterhin Werte auf und werden weiterhin über Azure AD Verbinden mit Azure AD synchronisiert. Wie Sie die lokale Umgebung außer Betrieb nehmen, hängt davon ab, ob Sie diese Attribute beibehalten oder zuerst aus Ihrem lokalen Active Directory löschen möchten. Beachten Sie, dass das Löschen der lokalen msRTCSIP-Attribute nach der Migration von der lokalen Bereitstellung zu einem Dienstverlust für Benutzer führen kann! Details und Nachteile der beiden Außerbetriebnahmeansätze werden unter ["Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet](cloud-consolidation-managing-attributes.md)werden" beschrieben.
+> Sobald diese logische Trennung abgeschlossen ist, haben msRTCSIP-Attribute aus Ihrem lokalen Active Directory weiterhin Werte und werden weiterhin über Azure AD Verbinden mit Azure AD synchronisiert. Wie Sie die lokale Umgebung außer Betrieb nehmen, hängt davon ab, ob Sie diese Attribute beibehalten oder zuerst aus Ihrem lokalen Active Directory löschen möchten. Beachten Sie, dass das Löschen der lokalen msRTCSIP-Attribute nach der Migration von der lokalen Bereitstellung zu einem Dienstverlust für Benutzer führen kann! Details und Nachteile der beiden Außerbetriebnahmeansätze werden unter ["Entscheiden, wie Attribute nach der Außerbetriebnahme verwaltet](cloud-consolidation-managing-attributes.md)werden" beschrieben.
 
 ## <a name="update-dns-to-point-to-microsoft-365"></a>Aktualisieren von DNS, um auf Microsoft 365 zu verweisen
 
@@ -72,9 +72,9 @@ Das externe DNS der Organisation für die lokale Organisation muss aktualisiert 
 
 Darüber hinaus können CNAME-Einträge für Meet- oder Dialin-Einträge (sofern vorhanden) gelöscht werden. Schließlich sollten alle DNS-Einträge für Skype for Business in Ihrem internen Netzwerk entfernt werden.
 
-Ausführliche Informationen zum Aktualisieren von DNS-Einträgen finden Sie unter Aktualisieren von [DNS-Einträgen, damit Ihre Organisation nur Teams sein kann.](decommission-manage-dns-entries.md)
+Ausführliche Informationen zum Aktualisieren von DNS-Einträgen finden Sie unter Aktualisieren von [DNS-Einträgen, damit Ihre Organisation nur Teams](decommission-manage-dns-entries.md)sein kann.
 
-## <a name="change-the-coexistence-mode-for-your-organization-to-teams-only"></a>Ändern des Koexistenzmodus für Ihre Organisation in Teams Only
+## <a name="change-the-coexistence-mode-for-your-organization-to-teams-only"></a>Ändern des Koexistenzmodus für Ihre Organisation in "Nur Teams"
 
 Mit diesem Schritt wird sichergestellt, dass jeder neue Benutzer in Ihrer Organisation immer als Teams Einziger Benutzer erstellt wird. 
 
@@ -86,7 +86,7 @@ Um den Mandantenmodus in Teams Führen Sie nur den folgenden Befehl aus einem Te
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global
 ```
 
-Alternativ können Sie das Teams Admin Center verwenden, um den Mandanten-Koexistenzmodus in TeamsOnly zu ändern, unter "Organisationsweite Einstellungen" > "Teams Upgrade".    
+Alternativ können Sie das Teams Admin Center verwenden, um den Mandanten-Koexistenzmodus in TeamsOnly zu ändern, unter "Organisationsweite Einstellungen" - > "Teams Upgrade".    
 
 ## <a name="disable-shared-sip-address-space-in-microsoft-365-organization"></a>Deaktivieren des freigegebenen SIP-Adressraums in Microsoft 365 Organisation
     
@@ -98,14 +98,14 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
  
 ## <a name="disable-communication-between-on-premises-and-microsoft-365"></a>Kommunikation zwischen lokalen und Microsoft 365 deaktivieren
 
-Um die Kommunikation zwischen der lokalen Umgebung und Microsoft 365 zu deaktivieren, führen Sie den folgenden Befehl in einem lokalen PowerShell-Fenster aus:
+Führen Sie den folgenden Befehl in einem lokalen PowerShell-Fenster aus, um die Kommunikation zwischen der lokalen Umgebung und Microsoft 365 zu deaktivieren:
 
 ```PowerShell
 Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
 
-## <a name="see-also"></a>Mehr dazu
+## <a name="see-also"></a>Weitere Artikel
 
 - [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)
 

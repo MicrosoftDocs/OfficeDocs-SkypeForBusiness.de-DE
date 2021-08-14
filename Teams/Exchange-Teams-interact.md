@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590779"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235390"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -68,9 +68,9 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
 
-<sup>9</sup> Mindestens eine Lizenz Exchange Online Plan 1 ist ebenfalls erforderlich. Weitere Informationen finden Sie unter [Suchen Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+<sup>9</sup> Mindestens eine Lizenz Exchange Online Plan 1 ist ebenfalls erforderlich. Weitere Informationen finden Sie unter Suchen [Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
-<sup>10</sup> Lokale Benutzer können mithilfe von Teams Profilbild aktualisieren, auch wenn die Richtlinie Outlook `SetPhotoEnabled` Webpostfach auf festgelegt `false` ist.
+<sup>10</sup> Lokale Benutzer können mithilfe von Teams Profilbild aktualisieren, auch wenn die Richtlinie für Outlook `SetPhotoEnabled` Webpostfach auf festgelegt `false` ist.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen für die optimale Nutzung von Microsoft Teams
 

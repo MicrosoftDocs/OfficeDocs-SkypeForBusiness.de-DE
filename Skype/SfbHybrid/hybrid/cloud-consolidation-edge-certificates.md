@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält ausführliche Schritte zum Aktualisieren des Edgezertifikats im Rahmen der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: aa360d1c481b2a05b1282ca7538e5cf7b8f8de71
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 7370fe6949c471a6aad9b45ee246f1565b43bdb465eba2110a03f53afa69fe28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330629"
 ---
 # <a name="update-the-edge-certificate"></a>Aktualisieren des Microsoft Edge-Zertifikats
 
@@ -48,6 +48,6 @@ Der alternative Antragstellername (Subject Alternate Name, SAN) des Zertifikats 
     Start-CsWindowsService
     ```
 
-## <a name="see-also"></a>Mehr dazu
+## <a name="see-also"></a>Weitere Artikel
 
 [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)

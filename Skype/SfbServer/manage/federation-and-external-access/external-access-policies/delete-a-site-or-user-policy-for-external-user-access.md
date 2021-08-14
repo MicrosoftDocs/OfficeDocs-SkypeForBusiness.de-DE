@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Sie können jede Standort- oder Benutzerrichtlinie löschen, die in der Skype for Business Server-Systemsteuerung auf der Seite "Richtlinie für den externen Zugriff" aufgeführt ist.
-ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: Sie können jede Website- oder Benutzerrichtlinie löschen, die in der Systemsteuerung Skype for Business Server auf der Seite "Richtlinie für den externen Zugriff" aufgeführt ist.
+ms.openlocfilehash: 99daff71590c6296a7f3a68405726c2854afae1c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848680"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235500"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
 
@@ -31,14 +31,14 @@ Wenn Sie richtlinien für den externen Benutzerzugriff erstellt oder konfigurier
   - Setzen Sie die globale Richtlinie auf die Standardeinstellungen zurück. Die standardmäßigen globalen Richtlinieneinstellungen verweigern externen Benutzern den Zugriff. Die globale Richtlinie kann nicht gelöscht werden.
 
 
-Sie können jede Standort- oder Benutzerrichtlinie löschen, die in der Skype for Business Server-Systemsteuerung auf der Seite "Richtlinie für **den externen Zugriff"** aufgeführt ist. Durch das Löschen der globalen Richtlinie wird sie nicht tatsächlich gelöscht, sondern nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für Zugriffsoptionen für externe Benutzer enthalten. Ausführliche Informationen zum Zurücksetzen der globalen Richtlinie finden Sie unter ["Zurücksetzen der globalen Richtlinie für den externen Benutzerzugriff".](reset-the-global-policy-for-external-user-access.md)
+Sie können jede Website- oder Benutzerrichtlinie löschen, die in der Skype for Business Server Systemsteuerung auf der Seite **"Richtlinie für den externen Zugriff"** aufgeführt ist. Durch das Löschen der globalen Richtlinie wird sie nicht tatsächlich gelöscht, sondern nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für Zugriffsoptionen für externe Benutzer enthalten. Ausführliche Informationen zum Zurücksetzen der globalen Richtlinie finden Sie unter ["Zurücksetzen der globalen Richtlinie für den externen Benutzerzugriff".](reset-the-global-policy-for-external-user-access.md)
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>So löschen Sie eine Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
 
 1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server-Systemsteuerung zu öffnen. 
+2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
 3.  Klicken Sie auf **Externer Benutzerzugriff** und dann auf **Richtlinie für den externen Zugriff**.
 
@@ -47,7 +47,7 @@ Sie können jede Standort- oder Benutzerrichtlinie löschen, die in der Skype fo
 5.  Klicken Sie zum Bestätigen des Löschvorgangs auf **OK**.
 
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Entfernen von PIN-Richtlinien mithilfe von Windows PowerShell-Cmdlets
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Entfernen von PIN-Richtlinien mithilfe Windows PowerShell Cmdlets
 
 Richtlinien für den externen Zugriff können mithilfe von Windows PowerShell und dem Cmdlet Remove-CsExternalAccessPolicy gelöscht werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 

@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
-description: 'Hier erfahren Sie, welche Wählpläne (PSTN-Anrufpläne) in Verbindung mit Teams und wie Sie einen Wählplan für Ihre Organisation auswählen.  '
-ms.openlocfilehash: 7d5c004a8ea7d4ce851cfa6717abc2483102ed26b5526b49bcbf69f6d495f2b7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 'Hier erfahren Sie, welche Wählpläne (PSTN-Anrufpläne) für Ihre Teams verfügbar sind und wie Sie einen Wählplan für Ihre Organisation auswählen.  '
+ms.openlocfilehash: cfe90a65fb7e1bbc0aae30cd5d0a0dc052f86cb4
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848720"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234410"
 ---
 # <a name="what-are-dial-plans"></a>Was sind Wählpläne?
 
@@ -41,7 +41,7 @@ Siehe [Erstellen und Verwalten von Wählplänen zum](create-and-manage-dial-plan
 
 Der Bereich eines Wählplans bestimmt die Hierarchieebene, auf der der Wählplan angewendet werden kann. Clients erhalten den entsprechenden Wählplan über Bereitstellungseinstellungen, die automatisch bereitgestellt werden, wenn sich Benutzer bei Ihrem Teams. Als Administrator können Sie Wählplanbereichsebenen verwalten und zuweisen, indem Sie Microsoft Teams Admin Center oder Remote PowerShell verwenden.
 
-In Teams gibt es zwei Arten von Wählplänen: Wählpläne mit Dienstbereich und Mandantenbereich (für Ihre Organisation). Für jedes Land oder jede Region, in dem Wähldienste verfügbar sind, Telefonsystem ein Wählplan mit Leistungsumfang definiert. Jedem Benutzer wird automatisch der Wählplan eines Landes zugeordnet, der dem dem Benutzer zugewiesenen Nutzungsstandort entspricht. Sie können den Wählplan für einen Landesdienst nicht ändern, aber Sie können Wählpläne mit Mandantenbereich erstellen, wodurch der Wählplan für das Land des Landes erweitert wird. Bei der Bereitstellung erhalten die Kunden einen "effektiven Wählplan", bei dem es sich um eine Kombination aus dem Wählplan für einen Landesdienst und dem Entsprechend begrenzten Mandantenwählplan handelt. Daher ist es nicht erforderlich, alle Normalisierungsregeln in Mandantenwählplänen zu definieren, da sie möglicherweise bereits im Wählplan für das Land des Diensts vorhanden sind.
+In Teams gibt es zwei Arten von Wählplänen: Wählpläne mit Dienstbereich und Mandantenbereich (für Ihre Organisation). Ein Wählplan mit Leistungsumfang wird für jedes Land oder jede Region definiert, in Telefonsystem verfügbar ist. Jedem Benutzer wird automatisch der Wählplan eines Landes zugeordnet, der dem dem Benutzer zugewiesenen Nutzungsstandort entspricht. Sie können den Wählplan für einen Landesdienst nicht ändern, aber Sie können Wählpläne mit Mandantenbereich erstellen, wodurch der Wählplan für das Land des Landes erweitert wird. Bei der Bereitstellung erhalten die Kunden einen "effektiven Wählplan", bei dem es sich um eine Kombination aus dem Wählplan für einen Landesdienst und dem Entsprechend begrenzten Mandantenwählplan handelt. Daher ist es nicht erforderlich, alle Normalisierungsregeln in Mandantenwählplänen zu definieren, da sie möglicherweise bereits im Wählplan für das Land des Diensts vorhanden sind.
 
 Mandantenwählpläne können weiter in zwei Bereiche aufgeschlüsselt werden: Mandantenbereich oder Benutzerbereich. Wenn ein Mandant einen Wählplan mit Benutzerbereich definiert und zu weist, wird diesem Benutzer ein effektiver Wählplan des Wählplans eines Landesdiensts des Benutzers und des zugewiesenen Benutzerwählplans bereitgestellt. Wenn ein Mandant einen Wählplan mit Mandantenbereich definiert, aber keinen Wählplan mit Benutzerbereich zu weist, wird diesem Benutzer ein effektiver Wählplan des Wählplans eines Landesdiensts des Benutzers und des Mandantenwählplans bereitgestellt.
 
@@ -60,7 +60,7 @@ Mögliche gültige Wählpläne:
 Informationen [zum Erstellen Ihrer Mandantenwählpläne finden](create-and-manage-dial-plans.md) Sie unter Erstellen und Verwalten von Wählplänen.
 
 > [!NOTE]
-> In dem Szenario, in dem keine Wählplannormalisierungsregeln für eine gewählte Nummer gelten, wird die gewählte Zeichenfolge weiterhin normalisiert, um "+CC" vorher zu verwenden, wobei CC die Landesvorwahl des Nutzungsstandorts des Wählbenutzers ist. Dies gilt für Anrufpläne, direktes Routing und DFÜ-Szenarien für PSTN-Konferenz. Wenn eine Normalisierungsregel für einen Mandantenwählplan zu einer Nummer führt, die nicht mit "+" beginnt, versucht der Anrufdienst außerdem, die vom Teams-Client empfangene Nummer basierend auf dem Mandantenwählplan zu normalisieren und, wenn dies nicht übereinstimmen, für den Wählplan der Region. Um eine doppelte Normalisierung zu vermeiden, empfiehlt es sich, dass Kunden des Direct-Routings Zahlen normalisieren, um ein + zu erhalten, und dann das Pluszeichen (+) mithilfe von Regeln für die Trunkübersetzung entfernen. 
+> In dem Szenario, in dem keine Wählplannormalisierungsregeln für eine gewählte Nummer gelten, wird die gewählte Zeichenfolge weiterhin normalisiert und "+CC" vorausgeöffnet, wobei CC die Landesvorwahl des Nutzungsstandorts des Wählbenutzers ist. Dies gilt für Anrufpläne, direktes Routing und DFÜ-Szenarien für PSTN-Konferenz. Wenn eine Normalisierungsregel für einen Mandantenwählplan zu einer Nummer führt, die nicht mit "+" beginnt, versucht der Anrufdienst außerdem, die vom Teams-Client empfangene Nummer basierend auf dem Mandantenwählplan zu normalisieren und, wenn dies nicht übereinstimmen, auf dem Wählplan für die Region zu normalisieren. Um eine doppelte Normalisierung zu vermeiden, empfiehlt es sich, dass Kunden des Direct-Routings Zahlen normalisieren, um ein + zu erhalten, und dann das Pluszeichen (+) mithilfe von Regeln für die Trunkübersetzung entfernen. 
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planen von Mandantenwählplänen
 

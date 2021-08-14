@@ -22,31 +22,35 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Hier erhalten Sie Informationen zu den Features, der Verfügbarkeit und erfahren, wie Sie ihr Microsoft-Telefon für Ihr Unternehmen planen und einrichten. '
-ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Hier erhalten Sie Informationen zu den Features, der Verfügbarkeit und erfahren, wie Sie Microsoft-Telefon System für Ihr Unternehmen planen und einrichten. '
+ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349048"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235020"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Vorteile des Telefonsystems
 
-In diesem Artikel werden Telefonsystem beschrieben. Weitere Informationen zur Verwendung von Telefonsystem als Ersatz für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung mit dem öffentlichen Telefonnetz finden Sie unter Was ist [Telefonsystem.](what-is-phone-system-in-office-365.md)
+In diesem Artikel werden Telefonsystem beschrieben. Weitere Informationen zur Verwendung von Telefonsystem als Ersatz für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung zum öffentlichen Telefonnetz finden Sie unter Was [ist Telefonsystem.](what-is-phone-system-in-office-365.md)
 
-Clients sind für PC, Mac und mobile Geräte verfügbar, die Features auf Geräten von Tablets und Mobiltelefonen bis zu PCs und IP-Desktoptelefonen bieten. Weitere Informationen finden Sie unter [Kunden für den Microsoft Teams.](get-clients.md)
+Clients sind für PC, Mac und mobile Geräte verfügbar, die Features auf Geräten von Tablets und Mobiltelefonen bis zu PCs und IP-Desktoptelefonen bieten. Weitere Informationen finden Sie unter [Kunden für Microsoft Teams.](get-clients.md)
 
  > [!Note]
 > Details zu Teams Telefonsystemen auf verschiedenen Plattformen finden Sie unter Teams [von Features nach Plattform.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+
+Damit Sie Telefonsystem verwenden können, muss Ihre Organisation über eine Lizenz Telefonsystem verfügen. Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-On-Lizensierung](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Beachten Sie, dass für die meisten Features die Zuweisung der Telefonsystem und die Sicherstellung erforderlich ist, dass Benutzer "sprachfähig" sind. Verwenden Sie zum Zuweisen der Lizenz das [Cmdlet Set-CsUser,](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) und legen Sie den **Parameter enterprisevoiceenabled** auf $true. Einige Features, z. B. die automatische Telefon attendant in der Cloud, erfordern nicht, dass ein Benutzer sprachfähig ist. Ausnahmen werden in der folgenden Tabelle genannt.
   
 ## <a name="phone-system-features"></a>Telefonsystem features
 
-Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, stehen Features sowohl in Teams als Skype for Business Online zur Verfügung.
+Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, stehen Features sowohl in der Online Teams als Skype for Business zur Verfügung.
   
 |||
 |:-----|:-----|
 |**Telefonsystem feature** <br/> |**Beschreibung** <br/> |
-|[Automatische Cloud-Attendants](what-are-phone-system-auto-attendants.md) <br/> |Ermöglicht es Ihnen, ein Menüsystem zu erstellen, das es externen und internen Anrufern ermöglicht, Anrufe zu suchen und zu platzieren oder Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu übertragen.  <br/> Beachten Sie, *dass Benutzer für den* Empfang von Anrufen von der automatischen Telefon attendant nicht sprachfähig sein müssen. |
+|[Automatische Cloud-Attendants](what-are-phone-system-auto-attendants.md) <br/> |Ermöglicht es Ihnen, ein Menüsystem zu erstellen, das es externen und internen Anrufern ermöglicht, Anrufe zu suchen und zu platzieren oder Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu übertragen.  <br/> Beachten Sie, *dass Benutzer für* den Empfang von Anrufen von der automatischen Telefon attendant nicht sprachfähig sein müssen. |
 |[Cloudanrufwarteschleifen](create-a-phone-system-call-queue.md) <br> |Mit dieser Option können Sie konfigurieren, wie Anrufwarteschleifen für Ihre Organisation verwaltet werden: z. B. Begrüßungen und Musik in der Warteschleife einrichten, nach dem nächsten verfügbaren Telefonanrufmitarbeiter suchen, um den Anruf zu verarbeiten, und so weiter.  <br/> Beachten Sie, *dass Benutzer sprachfähig* sein müssen, um Anrufe aus einer Anrufwarteschleife empfangen zu können.|
 |Wartemusik | Gibt die vom Dienst definierte Standardmusik wieder, wenn ein externer Anruf über das Telefonnetz (Public Switched Telephone Network, PSTN) im Halteraum platziert wird. Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. Dieses Feature kann vom Administrator konfiguriert werden, [derzeit jedoch nur über PowerShell.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Das Halten von Musik wird auch bei der durch die Durchsetzung eines PSTN-Anrufs unterstützten Funktion nicht unterstützt.|
 |Anruf annehmen/initiieren (nach Name und Nummer)  <br/> |Ermöglicht Es Benutzern, eingehende Anrufe per Touchanruf zu beantworten und ausgehende Anrufe entweder durch Wählen der vollständigen Telefonnummer oder durch Klicken auf einen Namen im Client zu platzieren.  <br/> |
@@ -57,20 +61,20 @@ Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, steh
 |[Parken von Anrufen und Holen](call-park-and-retrieve.md)  <br/> | Ermöglicht Benutzern das In-Halten eines Anrufs im Teams-Dienst in der Cloud. Wenn ein Anruf geparkt wird, generiert der Dienst einen eindeutigen Code für den Anrufabruf. Der Benutzer, der den Anruf geparkt hat, oder eine andere Person kann dann diesen Code und eine unterstützte App oder ein unterstütztes Gerät verwenden, um den Anruf abzurufen. <br/> |
 |Telefonnummer über Suche anrufen  <br/> | Ermöglicht Benutzern das Anrufen über das Suchfeld, indem sie den Befehl /call verwenden und einen Namen oder eine Nummer angeben. <br/> |
 |[Anrufer-ID](how-can-caller-id-be-used-in-your-organization.md)  <br/> |Bei Anrufen innerhalb des Unternehmens wird eine detaillierte Anrufer-ID angezeigt, die Informationen aus dem Unternehmensverzeichnis abruft, mit Bild-ID und Stellenbetitel anstelle nur einer Telefonnummer. Bei Anrufen von externen Telefonnummern wird die vom Telefondienstanbieter bereitgestellte Anrufer-ID angezeigt. Wenn es sich bei den externen Telefonnummern um Sekundärnummern im Unternehmensverzeichnis handelt, werden die Informationen aus dem Unternehmensverzeichnis angezeigt.  <br/> |
-|Gerät wechseln  <br/> |Ermöglicht Benutzern die Wiedergabe eines Anrufs oder einer Besprechung auf einem anderen HID-Gerät, das mit Teams; z. B. umschalten von ihren PC-Lautsprechern auf ein Headset.   <br/> |
+|Gerät wechseln  <br/> |Ermöglicht Benutzern die Wiedergabe eines Anrufs oder einer Besprechung auf einem anderen HID-Gerät, das mit Teams; z. B. umschalten von den PC-Lautsprechern auf ein Headset.   <br/> |
 |Anwesenheitsbasierte Anrufrouting <br/> |Steuert die eingehende Kommunikation mit den Anwesenheitsinformationen, wodurch der Benutzer die gesamte eingehende Kommunikation mit Ausnahme der speziell angegebenen blockieren kann.  <br/> |
 |[Integrierte Wählta pad](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Ermöglicht Benutzern das Anrufen nach Name oder Nummer an einer beliebigen Stelle in der Suchleiste und auf der Wähltaste, wodurch ausgehende Anrufe beschleunigt werden. <br/> |
 |Verbundrufe  <br/> |Ermöglicht Benutzern sichere Verbindungen, Kommunikation und Zusammenarbeit mit Benutzern in Partner mandants.  <br/> |
 |[Anrufen und Empfangen eines Videoanrufs](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Wenn das Konto des Benutzers für Videoanrufe aktiviert ist, kann der Benutzer Videoanrufe mit seinen Kontakten telefonieren. Alles, was sie benötigen, ist eine Kamera, die Lautsprecher und das Mikrofon ihres Computers. Benutzer können auch ein Headset verwenden, wenn ihr Computer nicht über ein integriertes Audiogerät verfügt.<br/> |
-|[Cloud Voicemail*](set-up-phone-system-voicemail.md) <br/> | Wenn ein Benutzer eine Voicemail erhält, wird sie als E-Exchange mit der Voicemail-Nachricht als Anlage an sein Postfach zugestellt. Benutzer können ihre Nachrichten auf ihrem zertifizierten Desktoptelefon und auf allen Teams oder Skype for Business hören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert.   <br/> |
+|[Cloud Voicemail*](set-up-phone-system-voicemail.md) <br/> | Wenn ein Benutzer eine Voicemail erhält, wird sie als E-Mail an Exchange Postfach zugestellt, und die Voicemail-Nachricht wird als Anlage gesendet. Benutzer können ihre Nachrichten auf ihrem zertifizierten Desktoptelefon und auf allen anderen Teams oder Skype for Business hören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert.   <br/> |
 |[Benutzereinstellungen für Cloud-Voicemail*](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern die Konfiguration ihrer Clienteinstellungen für Voicemail-Begrüßungen, Anrufbeantwortungsregeln und die Begrüßungssprache, einschließlich Außer-Office-Begrüßungen.   |
-|[Sekundärer Klingelton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren an ihren PC angeschlossenen Lautsprechern können zusätzlich zum Standardlautsprecher ein sekundäres Gerät zum Klingeln festlegen. Beispielsweise kann ein Benutzer mit einem an den PC und den Schreibtischlautsprechern angeschlossenen Headset und Schreibtischlautsprecher wählen, dass beim Ein-/Ein-Anruf sowohl Das Headset als auch der Lautsprecher klingeln, damit er keinen Anruf verpasst.  |
+|[Sekundärer Klingelton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren an ihren PC angeschlossenen Lautsprechern können zusätzlich zum Standardlautsprecher ein sekundäres Gerät zum Klingeln festlegen. Beispielsweise kann ein Benutzer mit einem an den PC und den Schreibtischlautsprechern angeschlossenen Headset und Schreibtischlautsprecher wählen, dass beim Ein-/Ein-Anruf sowohl Headset als auch Lautsprecher klingeln, damit er keinen Anruf verpasst.  |
 |[Benachrichtigungen bei unterschiedlichen](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) Klingeln (Teams)<br/> |Ermöglicht Benutzern die Auswahl separater Klingeltöne für normale, weitergeleitete und delegierte Anrufe, um die Art des Anrufs unterscheiden zu können.  <br/> |
 |[Funktion "Gemeinsame Leitungen"](shared-line-appearance.md) <br/> | Ermöglicht Benutzern das Teilen ihrer Telefonleitung, sodass ein anderer Benutzer in ihrem Namen Anrufe erstellen und empfangen kann.|
 |[Beschäftigt (nur](teams-calling-policy.md) Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe verarbeitet werden, wenn ein Benutzer: <ul><li>in einem Anruf </li><li>in einer Konferenz</li><li>einem Anruf in der Warteschleife platziert wurde. </li></ul> Der Anrufer erhält eine der folgenden Antworten: <ul><li>Ein beschäftigtes Signal hören, wenn der Anrufer am Telefon ist</li> <li>werden entsprechend den nicht beantworteten Einstellungen des Benutzers geroutet. Mit einer Option kann der Anrufer eine Voicemail für den Benutzer hinterlassen, der bereits an einem Anruf ist.</li></ul> Der Anrufer erhält eine Benachrichtigung über einen verpassten Anruf, kann jedoch keine eingehenden Anrufe entgegenrufen. Dieses Feature ist standardmäßig deaktiviert, kann aber vom Mandantenadministrator aktiviert werden.|
-|[Anrufblockierung](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern das Hinzufügen von Telefonnummern (PSTN) zu einer Liste blockierter Telefonnummern, sodass der nächste Anruf von dieser Nummer blockiert wird.|
-|[Telefone für häufig verwendeten Bereich](set-up-common-area-phones.md) <br/> | Ein Telefon im allgemeinen Bereich befindet sich normalerweise in einem Bereich wie einem Wartebereich oder einem Konferenzraum, der für mehrere Personen zur Verfügung steht. Telefone in gängigen Flächen sind als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.|
-|[Medienumgehungsunterstützung](direct-routing-plan-media-bypass.md) (nur Teams Direct-Routing) <br/> | Um eine bessere Leistung zu erzielen, werden Medien zwischen Session Border Controller (SBC) und dem Client gehalten, statt sie über das Microsoft-Telefon zu senden. |
+|[Anrufblockierung](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern das Hinzufügen von Telefonnummern (PSTN) zu einer Liste blockierter Telefonnummern, sodass der nächste Anruf von dieser Nummer an den Benutzer blockiert wird.|
+|[Telefone für häufig verwendeten Bereich](set-up-common-area-phones.md) <br/> | Ein Telefon in einem gemeinsamen Bereich befindet sich normalerweise in einem Bereich wie einem Wartebereich oder einem Konferenzraum, der für mehrere Personen zur Verfügung steht. Telefone in gängigen Flächen sind als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.|
+|[Medienumgehungsunterstützung](direct-routing-plan-media-bypass.md) (nur Teams Direct-Routing) <br/> | Um eine bessere Leistung zu erzielen, werden Medien zwischen Session Border Controller (SBC) und dem Client gehalten, anstatt sie über das Microsoft-Telefon-System zu senden. |
 
 
 \* Benutzer müssen nicht über sprachfähige Funktionen verfügen, um die Voicemailfunktionen verwenden zu können.
@@ -78,13 +82,13 @@ Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, steh
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Verfügbarkeit in GCC Hoch- und DoD-Wolken
 <a name="bkmk_setup"> </a>
 
-Die folgenden Funktionen sind in GCC und DoD Clouds noch nicht verfügbar. 
+Die folgenden Funktionen stehen in den Cloud-Cloudn GCC und DoD Clouds noch nicht zur Verfügung. 
 
 - [Anrufeinstellungen für sekundären Rufton, Voicemail und erweiterte Delegierung](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
-- [Übertragen zur Voicemail im Gespräch](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
+- [Übertragung an Voicemail im Gespräch](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Telefonnummer über Suchleiste anrufen
 - Wartemusik
-- Umgekehrte Nummer-Suche in Azure AD
+- Umgekehrte Azure AD-Zahlen-Suche
 
 ## <a name="related-topics"></a>Verwandte Themen
 

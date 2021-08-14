@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
+title: Erste Schritte mit Microsoft Teams für Fernunterricht
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a312a15af363fc796f88d5743950ea97c300a35422a691a2d00406d922f74dbd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319818"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234250"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -215,7 +215,7 @@ Mit PowerShell können Sie ein Skript schreiben, um Teams zu erstellen und Einst
 
 #### <a name="manual-team-creation"></a>Manuelle Teamerstellung
 
-Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer ihre Teams-Erfahrung maßschneidern können, ist das Erstellen von Teams. Lehrkräfte erstellen ein eigenes Kursteam und laden Schüler wie [hier](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch) gezeigt wird ein. Lehrkräfte können Schüler einladen, indem sie [Schüler dem Team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)hinzufügen, [einen Teilnahmecode](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)teilen, oder [einen Link zum Team freigeben](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Wenn möglich, ist es am besten, wenn Lehrkräfte ihre Schüler/Studenten in das Team aufnehmen, um sicherzustellen, dass diese Zugriff erhalten und darüber informiert werden, dass sie zu einem Team hinzugefügt wurden.
+Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer ihre Teams-Erfahrung maßschneidern können, ist das Erstellen von Teams. Lehrkräfte erstellen ein eigenes Kursteam und laden Schüler wie [hier](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch) gezeigt wird ein. Lehrkräfte können Schüler einladen, indem sie [Schüler dem Team](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)hinzufügen, [einen Teilnahmecode](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)teilen, oder [einen Link zum Team freigeben](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Wenn möglich, ist es am besten, wenn Lehrkräfte ihre Schüler/Studenten in das Team aufnehmen, um sicherzustellen, dass diese Zugriff erhalten und darüber informiert werden, dass sie zu einem Team hinzugefügt wurden.
 
 ##### <a name="benefits"></a>Vorteile
 

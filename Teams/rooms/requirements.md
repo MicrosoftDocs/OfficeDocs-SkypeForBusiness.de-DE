@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über die Anforderungen Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
+description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f791298d86bfc6988899a2e090d0d11651e91558bc14c23d515c75ad91cce0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b0e7b0a80b188fb7b4abc5ba95473aa6e55f17c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348820"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234220"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume können eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und der Nutzung des Raum verwenden. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, über große Konferenzräume und Konferenzräumen nach oben umgeknallten Räumen.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
+Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume können eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und Der Raumnutzung verwenden. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume an Plätzen beliebiger Größe bereitstellen, von kleinen, umhingenden Plätzen durch große Konferenzräume und Konferenzräume.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
@@ -75,6 +75,7 @@ Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsyst
   |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo Think Smart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
+  |Lenovo Think Smart Core Kit |Core i5|8 GB|128 GB|
   |[Logitech Tap mit Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap und Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |[Logitech Tap und Lenovo Think Smart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
@@ -129,7 +130,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Biamp Devio SCR-20CX Web-Based Conferencing Hub with Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based Conferencing Hub mit Tabletop Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
-|[Umarmungs-Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
+|[Umarmte Canvas](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Kamera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
@@ -189,6 +190,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power Den Spa2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS Series Network Switch NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC Column Surface mount Speakers AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [QSC PTZ 20x60-Kamera](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys-Designer: 8.4.0.1 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> Nicht zutreffend </br>  <br>N1100v6.4.2.8 </br> Nicht zutreffend </br> <br> 6.3.2.2|
 |[QSC Q-SYS Core 8 Flex-Prozessor](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) +</br> [QSC PTZ 20x60-Kamera](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC Ceiling Speaker AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 Camera: 9.0 </br> QSC Q-SYS Core 8-Flex: Q-SYS Designer 9.0.1-2104.002 </br> QSC Q-SYS Nano: Q-SYS Designer 9.0.1-2104.002 </br> Sennheiser TCC2 Obergrenze Mikrofon: TCC2 - 1.5.1 Dante 1.2.0 </br> SPA Series EnergyStar-Dessin: N/A </br> Lautsprecher für akustische Designreihen: N/A|
 |[QSC Q-SYS Core Nano-Prozessor](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) +</br> [QSC PTZ 20x60-Kamera](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC Ceiling Speaker AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 Camera: 9.0 </br> QSC Q-SYS Core 8-Flex: Q-SYS Designer 9.0.1-2104.002 </br> QSC Q-SYS Nano: Q-SYS Designer 9.0.1-2104.002 </br> Sennheiser TCC2 Obergrenze Mikrofon: TCC2 - 1.5.1 Dante 1.2.0 </br> SPA Series EnergyStar-Dessin: N/A </br> Lautsprecher für akustische Designreihen: N/A|
+|[QSC PTZ IP 12x72-Kamera](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [QSC Q-SYS NV-32-H-Prozessor](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC EnergyStar Power Den SPA2-60 oder](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/spa2-60/) [QSC CX-Q 2K4 Network Durchsicht](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-network-amplifiers/cx-q-series/cx-q-2k4/) +</br> [Q-SYS NS Series Network Switch NS-1108P Netgear M4250-10G2XF](https://www.qsc.com/solutions-products/q-sys-ecosystem/networking/ns-series-network-switches/) +</br> [Lautsprecher für akustische Designreihen](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/surface-mount/acousticdesign-series/) +</br> QSC Q-Sys E/A-USB-Brücke |QSC PTZ IP 12x72 Camera: 9.0 </br> Q-SYS Designer 9.0.1-2104.002 </br> TCC2 - 1.5.1 Dante 1.2.0 </br> QSC EnergyStar Power Den Spa2-60: N/A </br> QSC CX-Q 2K4-Netzwerkleistung: N/A </br> Q-SYS NS Series Network Switch NS-1108P Netgear M4250-10G2XF: N1100v6.4.2.8 </br> Lautsprecher für akustische Designreihen: N/A </br> QSC Q-Sys E/A-USB-Brücke: Q-SYS Designer Software 9.0.1|
 
 
 &Dagger;-Kunden können entweder die Dante-Benutzeroberfläche oder den von Biamp/Sennheiser empfohlenen Netzwerkschalter für dieses Paket auswählen.

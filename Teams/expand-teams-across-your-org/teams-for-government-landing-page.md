@@ -14,16 +14,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 557c8b5ca5ad4f48a25f20fe717d40635eb53e43dc7e26b29291d37afeb21645
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c8f0da7d992e0e6da27d3f6a3cf88d012ec29002
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850130"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235330"
 ---
 # <a name="teams-for-government"></a>Teams für Behörden
 
-Verwenden Sie diese Ressourcen, um spezifische Überlegungen zur Bereitstellung von Teams in Microsoft 365 Government-Umgebungen zu erhalten. Wenn Sie bereit sind, folgen Sie dem gleichen empfohlenen Bereitstellungspfad für die Teams wie [in](../deploy-overview.md)So wird's Microsoft Teams.
+Verwenden Sie diese Ressourcen, um spezifische Überlegungen zur Bereitstellung von Teams in Microsoft 365 Government-Umgebungen zu erhalten. Wenn Sie bereit sind, folgen Sie dem gleichen empfohlenen Bereitstellungspfad für Teams wie unter Rollout [von](../deploy-overview.md)Microsoft Teams.
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |

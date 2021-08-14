@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Im neuen Skype for Business Admin Center-Berichte werden Anruf- und Audiokonferenzaktivitäten in Ihrer Organisation gezeigt. Sie können Drilldowns in Berichte erstellen, um genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu erhalten. Sie können z. B. den Bericht Skype for Business PSTN-Minutenpools verwenden, um die Anzahl der Minuten zu sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
-ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 8c69a0555c95a7cb700b31db04103a0f7f502729
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850250"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234040"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
@@ -33,11 +33,11 @@ ms.locfileid: "57850250"
 >[!NOTE]
 >Dieser Bericht ist nur für Vorschaukunden verfügbar.
 
-Im neuen Skype for Business Admin **Center-Berichte** werden Anruf- und Audiokonferenzaktivitäten in Ihrer Organisation gezeigt. Sie können Drilldowns in Berichte erstellen, um genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu erhalten. Sie können z.  B. den Bericht Skype for Business PSTN-Minutenpools verwenden, um die Anzahl der Minuten zu sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
+Der neue Skype for Business Admin **Center-Berichte** zeigt Anruf- und Audiokonferenzaktivitäten in Ihrer Organisation an. Sie können Drilldowns in Berichte erstellen, um genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu erhalten. Beispielsweise können Sie den  Bericht Skype for Business PSTN-Minutenpools verwenden, um die Anzahl der Minuten zu sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
   
 Weitere verfügbare [Berichte finden](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) Sie unter Übersicht über Berichte.
   
-Dieser Bericht bietet Ihnen zusammen mit den Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation und zum Einrichten von Guthaben für [Kommunikationen sehr hilfreich.](/microsoftteams/what-are-communications-credits)
+Dieser Bericht bietet Ihnen zusammen mit Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation und zum Einrichten von Guthaben für [Kommunikationen sehr hilfreich.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
@@ -46,14 +46,14 @@ Dieser Bericht bietet Ihnen zusammen mit den Skype for Business Bericht Details 
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-- Wechseln Sie zum Admin Center > **Admin Center Skype for Business** Admin  >  **Center**  >  **meldet**  >  **PSTN-Minutenpools**.
+- Wechseln Sie zum Admin Center, > **Admin Center Skype for Business** Admin  >  **Center**  >  **Berichte**  >  **PSTN-Minutenpools**.
     
 > [!NOTE]
 > Je nach Microsoft 365 oder Office 365 Abonnement, über das Sie verfügen, werden möglicherweise nicht alle hier gezeigten Details angezeigt. 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretieren des Berichts Skype for Business PSTN-Minutenpools
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretieren des Skype for Business PSTN-Minutenpools
 
-Sie können einen Einblick in die 1-Minuten Skype for Business pools des Benutzers erhalten, indem Sie sich die einzelnen angezeigten Spalten ansehen.
+Sie können einen Einblick in die Skype for Business Minutenpools des Benutzers erhalten, indem Sie sich die einzelnen angezeigten Spalten ansehen.
   
 Der Bericht sieht folgendermaßen aus:
 
@@ -63,7 +63,7 @@ Der Bericht sieht folgendermaßen aus:
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Minutenpools nach Lizenz (Funktion) und Verwendungsort. 
 *    **Funktion** ist der für den Anruf verwendete Lizenz-/Serviceplan. Zu den Lizenz-/Serviceplänen, die in diesem Bericht möglicherweise enthalten sind, gehören:
      * MCOPSTN1: Plan für Inlandsrufe (EU-Pläne für 3000 Minuten/1200 Minuten)
-     * MCOPSTN2 – Anrufplan für Inland & International Calling Plan, von dem aus ein Inlandspool (3.000 Minuten USA/Kanada/PR, europäische Länder mit 1200 Minuten) und ein internationaler Pool (600 Minuten) angezeigt werden. Die Minutengrenze wird erreicht, wenn die nationale oder internationale Obergrenze innerhalb des Kalendermonats erreicht wird. 
+     * MCOPSTN2 – Anrufplan für Inland & International Calling Plan, von dem aus ein Inlandspool (3000 Minuten USA/Kanada/PR, europäische Länder mit 1200 Minuten) und ein internationaler Pool (600 Minuten) angezeigt werden. Die Minutengrenze wird erreicht, wenn die nationale oder internationale Obergrenze innerhalb des Kalendermonats erreicht wird. 
      * MCOPSTN5: Plan für Inlandsrufe (120-Minuten-Anrufplan)
      * MCOPSTN6: Plan für Inlandsrufe (240-Minuten-Anrufplan)
      * MCOMEETADD: Audiokonferenz
@@ -89,7 +89,7 @@ Der Bericht sieht folgendermaßen aus:
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype for Business bericht für blockierte Benutzer](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
 
 - [Skype for Business Sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
     

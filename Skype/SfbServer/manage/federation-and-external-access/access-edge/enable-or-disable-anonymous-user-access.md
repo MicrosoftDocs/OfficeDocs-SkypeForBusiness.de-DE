@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 5489eec7d94e1914fd4211927d65705fea08daae9770d4ed8bf3165ebe75e553
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: So aktivieren und deaktivieren Sie anonymen Benutzerzugriff in Skype for Business Server.
+ms.openlocfilehash: 4f7fb11e7b168922a4027e75703c164638dd1f2d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297241"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234390"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren des Zugriffs durch anonyme Benutzer in Skype for Business Server
 
@@ -52,21 +52,17 @@ Wenn Sie später den Zugriff durch anonyme Benutzer vorübergehend oder dauerhaf
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des anonymen Benutzerzugriffs mithilfe Windows PowerShell Cmdlets
 
-Sie können anonymen Benutzerzugriff mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsAccessEdgeConfiguration"** verwalten. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. 
+Sie können den anonymen Benutzerzugriff mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsAccessEdgeConfiguration"** verwalten. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. 
 
 ## <a name="to-enable-anonymous-user-access"></a>So aktivieren Sie anonymen Benutzerzugriff
 
-  - Um anonymen Benutzerzugriff zu aktivieren, legen Sie den Wert der **AllowAnonymousUsers-Eigenschaft** auf "True" ($True) fest:
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - Um anonymen Benutzerzugriff zu aktivieren, legen Sie den Wert der **AllowAnonymousUsers-Eigenschaft** auf "True" ($True) fest:<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>So deaktivieren Sie anonymen Benutzerzugriff
 
-  - Um den anonymen Benutzerzugriff zu deaktivieren, legen Sie den Wert der **AllowAnonymousUsers-Eigenschaft** auf False ($False) fest:
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - Um den anonymen Benutzerzugriff zu deaktivieren, legen Sie den Wert der **AllowAnonymousUsers-Eigenschaft** auf False ($False) fest:<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>Siehe auch
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

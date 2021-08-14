@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
-description: Klicken Sie auf Weiter, um mit dem Zusammenführen einer Legacybereitstellung mit Skype for Business Server zu beginnen. Ausführliche Informationen zum Ausführen des Assistenten zum Zusammenführen des Topologie-Generators finden Sie unter Merge Using Topology Builder Merge Wizard in der Migrationsdokumentation.
-ms.openlocfilehash: d4c1136e7e10ba60419626c9bd601b6e1c75bb79
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Klicken Sie auf "Weiter", um mit dem Zusammenführen einer Legacybereitstellung mit Skype for Business Server zu beginnen. Ausführliche Informationen zum Ausführen des Topologie-Generator-Zusammenführungs-Assistenten finden Sie in der Migrationsdokumentation unter Zusammenführen mithilfe des Topologie-Generator-Zusammenführungs-Assistenten.
+ms.openlocfilehash: ffb50c9ae3db24db26680c7e45ff69f53be0457f94bc6d98f44d221309f495f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336901"
 ---
 # <a name="legacy-merge-results"></a>Legacyzusammenführung – Ergebnisse
 
-Klicken Sie auf Weiter, um mit dem Zusammenführen einer Legacybereitstellung mit Skype for Business Server **zu beginnen.** Ausführliche Informationen zum Ausführen des Assistenten zum Zusammenführen des Topologie-Generators finden Sie unter [Merge Using Topology Builder Merge Wizard](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard) in der Migrationsdokumentation.
+Klicken Sie auf **"Weiter",** um mit dem Zusammenführen einer Legacybereitstellung mit Skype for Business Server zu beginnen. Ausführliche Informationen zum Ausführen des Topologie-Generator-Zusammenführungs-Assistenten finden Sie in der Migrationsdokumentation unter [Zusammenführen mithilfe des Topologie-Generator-Zusammenführungs-Assistenten.](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard)

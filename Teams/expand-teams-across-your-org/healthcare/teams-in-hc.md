@@ -26,12 +26,12 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 110eaed40d3e1821ef78c4494238be81be4a382dd08286607af76ba9517eb4cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be5f75af292000b108b665391c3b5398ed79bb2c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344044"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235030"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -63,7 +63,7 @@ Die folgenden Szenarien sind für Organisationen im Gesundheitswesen verfügbar:
 | [Teams-Vorlagen](#teams-templates-for-healthcare-organizations) | Erstellen Sie Teams, die eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps für die Kommunikation und Zusammenarbeit in einer Station, eines Pods, einer Abteilung oder zwischen mehreren Stationen, Pods oder Abteilungen innerhalb eines Krankenhauses enthalten. | Benutzer müssen über eine entsprechende Lizenz* verfügen.  |
 | [Pflegekoordination und Zusammenarbeit](#care-coordination-and-collaboration) | Kliniker und Mitarbeiter können intern an Zeitplänen, Dokumenten, Aufgaben und so weiter zusammenarbeiten.| Benutzer müssen über eine entsprechende Lizenz* verfügen. |
 
-*Office 365 A3, A5, E3 und E5 sowie Microsoft 365 Business Standard, A3, A5, E3 und E5 werden unterstützt. Weitere Informationen zur allgemeinen Teams-Lizenzierung finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](../../user-access.md).
+*Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 und E5, Business Standard werden unterstützt. Weitere Informationen zur allgemeinen Teams-Lizenzierung finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](../../user-access.md).
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Virtuelle Besuche und Integration von elektronischen Gesundheitsakten (EGA)
 

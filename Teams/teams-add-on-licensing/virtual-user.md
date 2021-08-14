@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Ressourcenkonten in Ihrer Telefonsystem eine kostenlose Telefonsystem Virtual User-Lizenz oder eine kostenpflichtige Telefonsystem-Benutzerlizenz zuweisen.
-ms.openlocfilehash: 8e5322ccf7e3e7ad05c499b3dbcfdac65d0dfedb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2481d119bd1f053f0836c57d237d34edfbf6e260d9b8be9b9f7d40033dc6282a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328940"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Telefonsystem – Lizenz für virtuelle Benutzer
 
@@ -41,7 +41,7 @@ Organisationen mit Telefonsystem-Lizenzen können Ressourcenkonten entweder eine
 Ihrer Organisation werden – Microsoft 365 Telefonsystem – Lizenzen für virtuelle Benutzer zugewiesen, abhängig von der Gesamtgröße. Jede Organisation, die über mindestens eine Lizenz verfügt, einschließlich Telefonsystem oder die Telefonsystem hat, verfügt über 25 Lizenzen für virtuelle Benutzer, die kostenlos zur Verfügung stehen. Wenn Sie 10 Telefonsystem in Ihrer Organisation hinzufügen, wird eine weitere Microsoft 365 Telefonsystem – Virtuelle Benutzerlizenz verfügbar.
 
 > [!NOTE]
-> Telefonsystem ist eine Add-On-Lizenz, die für E1 und E3 Microsoft 365 Office 365 E1 verfügbar ist. Telefonsystem ist auch Bestandteil von Microsoft 365 E5, Office 365 E5 und Microsoft 365 Business Voice Lizenzen.
+> Telefonsystem ist eine Add-On-Lizenz, die für Microsoft 365, Office 365 E1 und E3 verfügbar ist. Telefonsystem ist auch Bestandteil der Lizenzen Microsoft 365 E5, Office 365 E5 und Microsoft 365 Business Voice Lizenzen.
 
 Wenn Ihre Organisation die verfügbaren kostenlosen Microsoft 365 Telefonsystem – Virtuelle Benutzerlizenzen zum Erstellen von automatischen Telefonanlage- oder Anrufwarteschlangenknoten nutzt, können Sie die bezahlten Telefon-Systemlizenzen weiterhin mit einem Ressourcenkonto verwenden. Die meisten Organisationen verfügen basierend auf dem Skalierungsplan über genügend virtuelle Benutzerlizenzen. 
 

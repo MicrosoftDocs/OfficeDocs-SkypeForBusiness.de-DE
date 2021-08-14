@@ -18,12 +18,12 @@ description: Beispiele für die Verwendung von PowerShell zum Festlegen von Rich
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95b78b520b6978c85715e6dc1c1314ed279a305b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b55589a3cabf1b696c1034ce4e20cd7a56af3444f7fa51e0f81f44430ead6bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328930"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 
@@ -146,5 +146,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)
+- [Vorbereitung für Microsoft Teams-Liveereignisse](set-up-for-teams-live-events.md)
 - [Übersicht über PowerShell für Microsoft Teams](../teams-powershell-overview.md)

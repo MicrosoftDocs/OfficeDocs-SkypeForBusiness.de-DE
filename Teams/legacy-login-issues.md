@@ -17,15 +17,14 @@ description: Behandeln von Problemen im Zusammenhang mit dem Empfang von Nachric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4626f7d675f5b6d5f4899f9b0f1cd6d8eb81776de383c3a0c573e2fd78967cb5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 002354418c06980600f5cebef035b8480d0f1bef
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348978"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235000"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Probleme beim Empfang von Nachrichten und Anrufen auf älteren Systemen
-==============================================================
+# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Probleme beim Empfang von Nachrichten und Anrufen auf älteren Systemen
 
 Benutzer haben möglicherweise Probleme beim Empfang von Nachrichten oder Anrufen, wenn sie ältere Versionen von Teams oder sich mit anderen Anwendungen angemeldet haben.
 
@@ -40,7 +39,7 @@ Benutzer haben möglicherweise Probleme beim Empfang von Nachrichten oder Anrufe
 > [!NOTE]
 > Das Überspringen oder Ignorieren des Vorab-Ausfüllens von Benutzernamen ist für Benutzernamen, die in „.local“ oder „.corp“ enden, standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren.
 
-Weitere [Informationen finden Sie unter Microsoft Teams moderne Authentifizierung bei](sign-in-teams.md) einem Computer anmelden.
+Weitere [Informationen finden Sie unter Microsoft Teams moderne Authentifizierung](sign-in-teams.md) bei einem Konto anmelden.
 
 ## <a name="skype-token-revocation"></a>Skype Tokensperr
 

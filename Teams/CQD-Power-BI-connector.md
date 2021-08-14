@@ -14,32 +14,32 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: Installieren Power BI Connector für die Verwendung von Abfragevorlagen für das Anrufqualitätsdashboard (CQD)
-ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+description: Installieren Power BI Connector für die Verwendung von Anrufqualitätsdashboard-Abfragevorlagen (CQD)
+ms.openlocfilehash: 7c82cfbb2279e680d6f088840302a6027d5bdd18
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799056"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234340"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installieren des Microsoft Call Quality Connectors für Power BI Verwenden von Abfragevorlagen für das Anrufqualitätsdashboard
 
 Bevor Sie die Power BI-Abfragevorlagen (PBIX-Dateien) für Microsoft Teams Call Quality Dashboard (CQD) verwenden können, müssen Sie den Microsoft Call Quality Connector für Power BI mithilfe der Im Download enthaltenen *Datei MicrosoftCallQuality.pqx* [installieren.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)
 
-Lesen [Sie Power BI zum Analysieren von AQD-Daten für Teams](CQD-Power-BI-query-templates.md) Informationen zu diesen Vorlagen.
+Weitere Informationen Power BI Vorlagen finden Sie unter Power BI zum Analysieren [von AQD-Teams](CQD-Power-BI-query-templates.md) für Benutzer.
 
 Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffsrolle für](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) den Zugriff auf die Power BI verfügen.
 
 > [!NOTE]
-> Der Connector für die Microsoft-Anrufqualität unterstützt DirectQuery nur in Power BI; Der Importmodus wird nicht unterstützt. 
+> Der Microsoft Call Quality-Connector unterstützt DirectQuery nur in Power BI; Der Importmodus wird nicht unterstützt. 
 
 ## <a name="installation"></a>Installation
 
 Der Vorgang zum Installieren eines benutzerdefinierten Verbinders und zum Anpassen der Sicherheit zur Aktivierung der Verwendung des Verbinders wird in der Power BI [ausführlich beschrieben.](/power-bi/desktop-connector-extensibility) Der Einfachheit halber finden Sie hier eine kurze Erklärung:
 
-1. Überprüfen Sie, ob Ihr Computer bereits über einen Ordner Dokumente Power BI Desktop *\[ \] \\ \\ Connectors* verfügt. Andern falls nicht, erstellen Sie diesen Ordner. <sup>1</sup>
+1. Überprüfen Sie, ob Ihr Computer bereits über einen Ordner Dokumente *\[ \] \\ Power BI Desktop \\ Connectors* verfügt. Andern falls nicht, erstellen Sie diesen Ordner. <sup>1</sup>
 
-2. Laden Sie die Connectordatei (entweder eine *\* MEZ-* oder *\* PQX-Datei)* herunter, und legen Sie sie im Verzeichnis für *benutzerdefinierte Connectors* ab.
+2. Laden Sie die Connectordatei (entweder eine *\* MEZ-* oder *\* PQX-Datei)* herunter, und legen Sie sie im Verzeichnis für benutzerdefinierte *Connectors* ab.
 
 3. **Wenn es sich bei der Connectordatei um eine *\* MEZ-Datei* handelt,** müssen Sie auch Ihre Sicherheitseinstellungen anpassen, wie in der Dokumentation zum Einrichten benutzerdefinierter [Connectors beschrieben.](/power-bi/desktop-connector-extensibility#data-extension-security)
 
@@ -49,7 +49,7 @@ Wenn eine neue Version des Microsoft-Connectors für die Anrufqualität  veröff
 
 Um einen Bericht zu erstellen und Abfragen ausführen zu können, müssen Sie zuerst eine Verbindung mit der AQD-Datenquelle herstellen. Führen Sie die folgenden Schritte aus, um eine Verbindung herzustellen:
 
-1. Klicken Sie auf der Registerkarte Power BI Desktop auf *Daten erhalten*.
+1. Klicken Sie auf der Registerkarte start Power BI Desktop auf *Daten erhalten*.
 
     ![Screenshot: Power BI Connector](media/CQD-power-bi-connector1-resize.png)
 
@@ -61,15 +61,15 @@ Um einen Bericht zu erstellen und Abfragen ausführen zu können, müssen Sie zu
 
 4. Die nächste Eingabeaufforderung bietet Ihnen die Option zwischen zwei *Datenverbindungsmodi*. Wählen Sie *DirectQuery aus,* und klicken Sie *auf OK.*
 
-5. Schließlich erhalten Sie eine abschließende Eingabeaufforderung, in der das gesamte Datenmodell für das Anrufqualitätsdashboard angezeigt wird. An diesem Punkt sind keine Daten sichtbar, nur das Datenmodell für das AQD. Wählen Sie *Laden* aus, um den Setupvorgang abzuschließen.
+5. Schließlich erhalten Sie eine abschließende Eingabeaufforderung, in der das gesamte Datenmodell für das Anrufqualitätsdashboard angezeigt wird. An diesem Punkt sind keine Daten sichtbar, nur das Datenmodell für das AQD. Wählen Sie *Laden aus,* um den Setupvorgang abzuschließen.
 
 6. An diesem Punkt Power BI das Datenmodell auf der rechten Seite des Fensters geladen. Andernfalls bleibt die Seite leer, und es werden standardmäßig keine Abfragen geladen. Fahren Sie unten **mit dem Erstellen von Abfragen** fort, um eine Abfrage zu erstellen und Daten zurückzukehren.
 
-Wenn einer der Schritte während dieses Setupvorgangs nicht eindeutig war, finden Sie eine ausführlichere Erläuterung des Vorgangs in [Schnellstart:](/power-bi/desktop-quickstart-connect-to-data)Verbinden von Daten in Power BI Desktop.
+Wenn einer der Schritte während dieses Setupprozesses nicht eindeutig war, finden Sie eine ausführlichere Erläuterung des Vorgangs in [Schnellstart:](/power-bi/desktop-quickstart-connect-to-data)Verbinden von Daten in Power BI Desktop.
 
 ## <a name="building-queries"></a>Erstellen von Abfragen
 
-Nach Abschluss der Einrichtung sollten die Namen mehrerer hundert Dimensionen und Measures, die geladen wurden, im Bereich *Felder angezeigt* werden. Das Erstellen tatsächlicher Abfragen von hier aus ist ganz einfach: Wählen Sie einfach die Dimensionen und Measures aus, die Für Ihre Abfrage verwendet werden sollen, und legen Sie sie dann per Drag & Drop auf der Seite ab. Hier ist eine ausführlichere Erläuterung mit einem einfachen Beispiel:
+Nach Abschluss der Einrichtung sollten die Namen mehrerer hundert Dimensionen und Measures, die geladen wurden, im Bereich *Felder angezeigt* werden. Das Erstellen tatsächlicher Abfragen von hier aus ist einfach. Wählen Sie einfach die Dimensionen und Measures aus, die für Ihre Abfrage verwendet werden sollen, und legen Sie sie dann per Drag & Drop auf der Seite ab. Hier ist eine ausführlichere Erläuterung mit einem einfachen Beispiel:
 
 1. Wählen Sie im Bereich Visualisierungen die *Visualisierung aus, die Sie verwenden* möchten. Auf der Seite sollte eine leere Version dieser Visualisierung angezeigt werden. Für dieses Beispiel verwenden wir die *Tabellenvisualisierung.*
 
@@ -92,7 +92,7 @@ Nach Abschluss der Einrichtung sollten die Namen mehrerer hundert Dimensionen un
 4. Wählen Sie schließlich im  Bereich *Visualisierungen* die Registerkarte Format aus, um Ihre Abfrage zu formatieren und zu formatieren.
 
     > [!NOTE]
-    > Anrufqualitätsdashboardabfragen erfordern mindestens ein Measure, um ausgeführt werden zu können. Wenn die Abfrage nicht geladen wird, überprüfen Sie, ob Sie ein Measure in die Abfrage einbezogen haben.
+    > Anrufqualitätsdashboardabfragen erfordern mindestens ein Measure, um ausgeführt zu werden. Wenn die Abfrage nicht geladen wird, überprüfen Sie, ob Sie ein Measure in die Abfrage einbezogen haben.
 
 ## <a name="creating-a-drillthrough-report"></a>Erstellen eines Drillthroughberichts
 
@@ -112,27 +112,27 @@ Im Gegensatz zum Anrufqualitätsdashboard Power BI nicht sequenzielles Drillthro
 
 ### <a name="best-practice&quot;></a>Bewährte Methode
 
-Microsoft Call Quality Connector queries should be designed with drillthrough functionality. Anstatt zu versuchen, alle Daten auf einmal zu laden und dann mit Filtern nach unten zu slicingen, beginnen Sie mit umfangreicheren Abfragen mit geringer Kardinalität, und führen Sie einen Drilldown zu Abfragen mit hoher Kardinalität durch. Wenn Sie z. B. versuchen, zu diagnostizieren, welche Subnetze die meisten Qualitätsprobleme beheben, ist es hilfreich, zuerst die Regionen und Länder zu identifizieren, die zu dem Problem beitragen, und dann einen Drilldown in die Subnetze in dieser Region oder in diesem Land/dieser Region ausführen. Die Verbindervorlagen für die Anrufqualität wurden auf diese Weise entworfen, um als Beispiel zu fungieren.
+Microsoft Call Quality Connector queries should be designed with drillthrough functionality. Anstatt zu versuchen, alle Daten auf einmal zu laden und dann mit Filtern nach unten zu slicingen, beginnen Sie mit umfangreicheren Abfragen mit geringer Kardinalität, und führen Sie einen Drilldown zu Abfragen mit hoher Kardinalität durch. Wenn Sie z. B. versuchen, die Subnetze zu diagnostizieren, die zu den Qualitätsproblemen am meisten beitragen, ist es hilfreich, zuerst die Regionen und Länder zu identifizieren, die zu dem Problem beitragen, und dann einen Drilldown zu den Subnetzen in dieser Region oder diesem Land zu erstellen. Die Verbindervorlagen für die Anrufqualität wurden auf diese Weise entworfen, um als Beispiel zu fungieren.
 
 ## <a name=&quot;limitations&quot;></a>Einschränkungen
 
-Obwohl Power BI verwendet wird, werden nicht alle Power BI-Funktionen vom Microsoft-Connector für die Anrufqualität unterstützt, entweder durch Einschränkungen beim Datenmodell des Anrufqualitätsdashboards oder bei DirectQuery-Connectors im Allgemeinen. In der nachstehenden Liste werden einige der beachtenswerten Einschränkungen des Connectors aufgeführt, diese Liste sollte jedoch nicht als erschöpfend betrachtet werden:
+Obwohl Power BI verwendet wird, werden nicht alle Power BI-Funktionen vom Microsoft Call Quality Connector unterstützt, entweder durch Einschränkungen beim Datenmodell des Anrufqualitätsdashboards oder bei DirectQuery-Connectors im Allgemeinen. In der nachstehenden Liste werden einige der beachtenswerten Einschränkungen des Connectors aufgeführt, diese Liste sollte jedoch nicht als erschöpfend betrachtet werden:
 
-1. **Berechnete Spalten –** DirectQuery-Connectors unterstützen berechnete Spalten in Ihrer Power BI. Einige berechnete Spalten funktionieren möglicherweise mit dem Connector, da diese Spalten Ausnahmen sind. Im Allgemeinen funktionieren berechnete Spalten nicht.
+1. **Berechnete Spalten –** DirectQuery-Connectors bieten im Allgemeinen eingeschränkte Unterstützung für berechnete Spalten in Power BI. Einige berechnete Spalten funktionieren möglicherweise mit dem Connector, da diese Spalten Ausnahmen sind. Im Allgemeinen funktionieren berechnete Spalten nicht.
 
 2. **Aggregationen –** Das Datenmodell des Anrufqualitätsdashboards baut auf einem Cubemodell auf, d. h., Aggregationen werden bereits in Form von Measures unterstützt. Der Versuch, Aggregationen manuell zu verschiedenen Dimensionen hinzuzufügen oder den Aggregationstyp eines Measures zu ändern, funktioniert nicht mit dem Connector und führt im Allgemeinen zu einem Fehler.
 
-3. **Benutzerdefinierte Visualisierungen –** Der Connector für die Microsoft-Anrufqualität funktioniert zwar mit einer Reihe benutzerdefinierter visueller Elemente, aber wir können nicht die Kompatibilität mit allen benutzerdefinierten visualisierungen garantieren. Viele benutzerdefinierte visualisierungen sind von der Verwendung berechneter Spalten oder importierter Daten angewiesen, die von DirectQuery-Connectors nicht unterstützt werden.
+3. **Benutzerdefinierte Visualisierungen –** Der Connector für die Microsoft-Anrufqualität funktioniert zwar mit einer Reihe benutzerdefinierter visueller Elemente, aber wir können nicht die Kompatibilität mit allen benutzerdefinierten visuellen Elemente garantieren. Viele benutzerdefinierte visualisierungen sind von der Verwendung berechneter Spalten oder importierter Daten angewiesen, die von DirectQuery-Connectors nicht unterstützt werden.
 
 4. **Verweisen auf zwischengespeicherte** Daten – Power BI unterstützt derzeit in keinem Fall das Verweisen auf zwischengespeicherte Daten von einem DirectQuery-Connector. Jeder Versuch, auf die Ergebnisse einer Abfrage zu verweisen, führt zu einer neuen Abfrage.
 
 5. **Relative Datenfilterung –** Wird vom Microsoft-Connector für Die Anrufqualität unterstützt, jedoch nur mit den Abmessungen *Startzeit* und *Endzeit.* Obwohl die *Datumsdimension* die offensichtliche Wahl für die relative Datumsfilterung *ist,* wird Datum nicht als Datums-/Uhrzeitobjekt gespeichert und unterstützt daher keine relative Datumsfilterung in Power BI.
 
-6. **Nur Messungsabfragen –** Der Connector für die Microsoft-Anrufqualität wird derzeit nicht unterstützt. Beim Erstellen einer Visualisierung mit drei oder mehr Maßen und ohne Dimensionen werden die Spaltendaten transponiert. Um dies zu vermeiden, schließen Sie immer mindestens eine Dimension (z. B. &quot;Monatsjahr") in Ihre Visualisierungen ein. Dieses Problem wird in einer anstehenden Veröffentlichung des Microsoft Call Quality Connectors für Power BI.
+6. **Nur Messungsabfragen –** Der Connector für die Microsoft-Anrufqualität wird derzeit nicht unterstützt. Beim Erstellen einer Visualisierung mit drei oder mehr Maßen und ohne Dimensionen werden die Spaltendaten transponiert. Um dies zu vermeiden, schließen Sie immer mindestens eine Dimension (z. B. &quot;Monatsjahr") in Ihre Visualisierungen ein. Dieses Problem wird voraussichtlich in einer anstehenden Veröffentlichung des Microsoft Call Quality Connectors für Power BI.
 
-7. **Government Community Cloud (GCC) Support –** Für Kunden in der GCC-Umgebung funktioniert der Microsoft-Connector für die Anrufqualität nur bei Power BI Desktop Verbindungen. Der Connector für die Microsoft-Anrufqualität ist derzeit nicht mit dem Power BI für GCC kompatibel.
+7. **Government Community Cloud (GCC) Support –** Für Kunden in der GCC-Umgebung funktioniert der Connector für die Microsoft-Anrufqualität nur bei Power BI Desktop Verbindungen. Der Connector für die Microsoft-Anrufqualität ist derzeit nicht mit dem Power BI für GCC kompatibel.
 
-Die meisten dieser Probleme sind entweder Einschränkungen für das Design des DirectQuery-Connectors in Power BI oder grundlegend für den Entwurf des CQD-Datenmodells.
+Die meisten dieser Probleme sind entweder Einschränkungen für das DirectQuery-Connectordesign in Power BI oder grundlegend für den Entwurf des CQD-Datenmodells.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
@@ -146,7 +146,7 @@ Wenn die Datumsangaben, die Sie anzeigen möchten, zuletzt verwendet wurden, ver
 
 ## <a name="error-codes"></a>Fehlercodes
 
-Da der Microsoft Call Quality Connector für Power BI hinsichtlich der Art von Abfragen, die Sie erstellen können, weniger eingeschränkt ist als die Browser-App, kann es gelegentlich zu Fehlern beim Erstellen von Abfragen kommt. Wenn Sie eine Fehlermeldung vom Typ "CQDError. RunQuery – Abfrageausführungsfehler", verweisen Sie in der nachstehenden Liste auf die Fehlertypnummer, die angegeben ist, um das mögliche Problem mit der Abfrage zu beheben. Im Folgenden werden die am häufigsten verwendeten Fehlertypcodes für das CQD-Power BI Verbinder angezeigt:
+Da der Microsoft Call Quality Connector für Power BI hinsichtlich der Art von Abfragen, die Sie erstellen können, weniger eingeschränkt ist als die Browser-App, kann es gelegentlich zu Fehlern beim Erstellen von Abfragen kommt. Wenn Sie eine Fehlermeldung vom Typ "CQDError. RunQuery – Abfrageausführungsfehler", verweisen Sie in der nachstehenden Liste auf die Fehlertypnummer, die angegeben ist, um das mögliche Problem mit der Abfrage zu beheben. Im Folgenden werden die am häufigsten verwendeten Fehlertypcodes für das CQD-Power BI Connector angezeigt:
 
 - **Fehlertyp 1 – Abfragestrukturfehler:** Ein Fehler bei der Abfragestruktur wird in der Regel durch den Fehler des Connectors verursacht, dass eine Abfrage mit ordnungsgemäßer Formatierung nicht erstellt wurde. Dies geschieht am häufigsten, wenn nicht unterstützte Funktionen verwendet werden, wie in den vorstehenden Einschränkungen beschrieben. Vergewissern Sie sich, dass Sie keine berechneten Spalten oder benutzerdefinierten Visualisierungen für diese Abfrage verwenden.
 
@@ -156,11 +156,11 @@ Da der Microsoft Call Quality Connector für Power BI hinsichtlich der Art von A
 
   - **ErrorType 7: Keine Messfehler:** Für Abfragen des Anrufqualitätsdashboards ist ein Measure erforderlich, damit es funktioniert. Vergewissern Sie sich, dass die Abfrage Kennzahl enthält. Measures im Microsoft Call Quality Connector sind durch das Aggregationssymbol (Summe) vor ihrem Namen gekennzeichnet.
 
-Wenn weitere Fehler außerhalb dieses Bereichs auftreten, benachrichtigen Sie das Anrufqualitätsdashboard-Team, damit wir ihnen bei der Problembehandlung helfen und die Dokumentation entsprechend aktualisieren können.
+Wenn weitere Fehler außerhalb dieses Bereichs auftreten, benachrichtigen Sie das Anrufqualitäts-Dashboard-Team, damit wir ihnen bei der Problembehandlung helfen und die Dokumentation entsprechend aktualisieren können.
 
 ## <a name="footnotes"></a>Fußnoten
 
-**<sup>1</sup>** Bestimmte Prozesse und Apps (z. B. OneDrive) können dazu führen, dass sich der Stammordner "Dokumente" ändert; Stellen Sie sicher, *dass Power BI Desktop \\ Verzeichnis* für benutzerdefinierte Connectors im Ordner Dokumente des aktuellen Stammordners gespeichert ist.
+**<sup>1</sup>** Bestimmte Prozesse und Apps (z. B. OneDrive) können dazu führen, dass sich der Stammordner "Dokumente" ändert; Stellen Sie sicher, *Power BI Desktop \\ Verzeichnis benutzerdefinierte Connectors* im Ordner Dokumente des aktuellen Stammordners gespeichert ist.
 
 **<sup>2</sup>** Die Anmeldeinformationen, die Sie  für das Anrufqualitätsdashboard verwenden, müssen nicht mit den Anmeldeinformationen identisch sein, die Sie für die Anmeldung bei der Power BI Desktop-App verwenden.
 
@@ -172,21 +172,21 @@ Trotz des Beta-Tags ist der Microsoft Call Quality (Beta)-Connector für Power B
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>Warum scheint der Verbinder im Vergleich zum Anrufqualitätsdashboard im Browser langsamer zu sein? Wie kann ich die Leistung verbessern?
 
-Die Abfrageleistung für die verschiedenen Vorlagen ist im Browser und im Connector tatsächlich identisch.  Wie jede andere eigenständige App fügt Power BI Authentifizierungs- und Renderzeit zu unserer Leistung hinzu. Darüber hinaus ist der Unterschied bei der Anzahl der gleichzeitig ausgeführten Abfragen zu erkennen. Da die Browserversion des Anrufqualitätsdashboards weniger gut entwickelte Visualisierungsoptionen und Visualisierungsoptionen mit informationsdichtem Daten enthält, waren die meisten unserer Berichte auf das Laden von 2-3 Abfragen gleichzeitig beschränkt. Andererseits werden in den Connectorvorlagen häufig mehr als 20 gleichzeitige Abfragen angezeigt. Wenn Sie Berichte erstellen möchten, die genauso gut wie die älteren Berichte, die Sie gewohnt sind, erstellen Sie Berichte mit nicht mehr als 2-3 Abfragen pro Registerkarte.
+Die Abfrageleistung für die verschiedenen Vorlagen ist im Browser und im Connector tatsächlich identisch.  Wie bei jeder anderen eigenständigen App Power BI die Authentifizierungs- und Renderzeit zu unserer Leistung hinzu. Darüber hinaus ist der Unterschied bei der Anzahl der gleichzeitig ausgeführten Abfragen zu erkennen. Da die Browserversion des Anrufqualitätsdashboards weniger gut entwickelte Visualisierungsoptionen und Visualisierungsoptionen mit informationsdichtem Daten enthält, waren die meisten unserer Berichte auf das Laden von 2-3 Abfragen gleichzeitig beschränkt. Andererseits werden in den Connectorvorlagen häufig mehr als 20 gleichzeitige Abfragen angezeigt. Wenn Sie Berichte erstellen möchten, die genauso gut wie die älteren Berichte, die Sie gewohnt sind, erstellen Sie Berichte mit nicht mehr als 2-3 Abfragen pro Registerkarte.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-- [Optimierungsleitfaden für Power BI](/power-bi/guidance/power-bi-optimization)
+- [Leitfaden zur Optimierung Power BI](/power-bi/guidance/power-bi-optimization)
 - [Leitfaden zum DirectQuery-Modell](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Ich finde, dass beim Ausführen von Abfragen routinemäßig das Limit von 10.000 Zeilen überschritten wird. Wie kann ich den Verbinder so konfigurieren, dass mehr als 10.000 Zeilen zurückgegeben werden?
 
-Das Limit von 10.000 Zeilen wird tatsächlich am API-Ende angegeben und soll dazu beitragen, die Leistung erheblich zu verbessern und das Risiko von Fehlern bei der Abfrageausführung zu verringern, die auf Bedingungen mit wenig Arbeitsspeicher resultieren.
+Das Limit von 10.000 Zeilen wird tatsächlich am API-Ende angegeben und soll dazu beitragen, die Leistung erheblich zu verbessern und das Risiko von Fehlern bei der Abfrageausführung zu verringern, die sich durch bedingungen mit wenig Arbeitsspeicher ergeben.
 
-Anstatt zu versuchen, die Anzahl der Ergebniszeile zu erhöhen, ist es am besten, Ihre Berichte entsprechend den bewährten Methoden des Connectors neu zu strukturieren. Die enthaltenen Vorlagen sollen diese bewährten Methoden veranschaulichen. Beginnen Sie, wenn möglich, indem Sie Ihre KPIs mit umfangreicheren Dimensionen der Unteren Kardinalität, z. B. Monat, Jahr, Datum, Region, Land usw., anzeigen. Von dort aus können Sie drilldowns zu zunehmend höheren Kardinalitätsdimensionen führen. Die Helpdesk- und Location-Enhanced-Berichte bieten beide gute Beispiele für diesen Drilldown-Workflow.
+Anstatt zu versuchen, die Anzahl der Ergebniszeile zu erhöhen, ist es am besten, Ihre Berichte entsprechend den bewährten Methoden des Connectors neu zu strukturieren. Die enthaltenen Vorlagen sollen diese bewährten Methoden veranschaulichen. Beginnen Sie, wenn möglich, indem Sie Ihre KPIs unter Verwendung breiterer Dimensionen der Unteren Kardinalität, z. B. Monat, Jahr, Datum, Region, Land usw., anzeigen. Von dort aus können Sie drilldowns zu zunehmend höheren Kardinalitätsdimensionen führen. Die Helpdesk- und Location-Enhanced-Berichte bieten beide gute Beispiele für diesen Drilldownworkflow.
 
 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verwenden Power BI Zum Analysieren von AQD-Daten für Teams](CQD-Power-BI-query-templates.md)
+[Verwenden Power BI zum Analysieren von AQD-Daten für Teams](CQD-Power-BI-query-templates.md)

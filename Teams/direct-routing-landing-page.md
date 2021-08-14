@@ -21,22 +21,22 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b83e7ea9fd93787f71828141c3e9e3b681d9557b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848070"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234260"
 ---
 # <a name="phone-system-direct-routing"></a>Telefon direktes Routing des Systems
 
 Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Möglicherweise haben Sie Besprechungen [oder & bereitgestellt.](deploy-meetings-microsoft-teams-landing-page.md) Jetzt können Sie Cloud-Spracharbeitsauslastungen hinzufügen, und Sie haben sich entschieden, Ihren eigenen Netzbetreiber für pstN-Konnektivität (Public Switched Telephone Network) mithilfe von Telefonsystem Direct Routing zu verwenden. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
 
-In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Direct-Routing sowie weitere Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation berücksichtigen sollten. Lesen Sie außerdem [Cloud Voice in Microsoft Teams,](cloud-voice-landing-page.md) um weitere Informationen zu Den Cloud Voice-Angeboten von Microsoft zu erhalten.
+In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Direct-Routing sowie weitere Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation berücksichtigen sollten. Lesen Sie außerdem [Cloud Voice in Microsoft Teams,](cloud-voice-landing-page.md) um weitere Informationen zu den Cloud Voice-Angeboten von Microsoft zu erhalten.
 
 ## <a name="learn-more-about-direct-routing"></a>Weitere Informationen zu Direct-Routing
 
-Die folgenden Artikel enthalten weitere Informationen zum Konfigurieren und Verwenden Telefonsystem Direct-Routings. Zum Konfigurieren von Direct Routing sind Kenntnisse des PSTN-Routingdesigns erforderlich. Lesen Sie alle diese Artikel, um zu verstehen, wie Sie Direct-Routing planen und konfigurieren:
+In den folgenden Artikeln finden Sie weitere Informationen zum Konfigurieren und Verwenden Telefonsystem Direct-Routings. Zum Konfigurieren von Direct Routing sind Kenntnisse des PSTN-Routingdesigns erforderlich. Lesen Sie alle diese Artikel, um zu verstehen, wie Sie Direct-Routing planen und konfigurieren:
 
 - [Planen von direktem Routing](direct-routing-plan.md) 
 - [Konfigurieren von direktem Routing](direct-routing-configure.md)
@@ -48,7 +48,7 @@ Darüber hinaus können Sie je nach Anforderungen auch die folgenden Artikel les
 -  [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 -  [Migration zu direktem Routing](direct-routing-migrating.md)
 -  [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- Schauen Sie sich die folgende Sitzung an, um mehr über Direct-Routing zu erfahren: [Direktes Routing in Microsoft Teams](https://aka.ms/teams-direct-routing)
+- Schauen Sie sich die folgende Sitzung an, um mehr über Direct-Routing zu erfahren: [Direct-Routing in Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
 
@@ -96,5 +96,5 @@ Je nach anforderungen und Konfiguration Ihrer Organisation sollten Sie Folgendes
 | Frage| Aktion |
 | :------------|:-------|
 | Verfügen Sie über eine vorhandene Skype for Business Server mit konfigurierter Hybridkonnektivität? |  Informationen dazu, wie Benutzerkonten in einer Hybridumgebung bereitgestellt und verwaltet werden, finden Sie unter Benutzerkonten in einer [Hybridumgebung mit PSTN-Anbindung.](direct-routing-user-accounts-in-a-hybrid-environment.md)| 
-| Migrieren Sie aus dem Anrufplan oder aus einer lokalen Skype for Business Direct-Routing? | Weitere Informationen zum Migrieren von einer vorhandenen Umgebung zu Direct-Routing finden Sie unter [Migrieren zu Direct-Routing.](direct-routing-migrating.md) |
+| Migrieren Sie zum Direct-Routing aus dem Anrufplan oder aus Skype for Business lokalen Umgebung? | Weitere Informationen zum Migrieren von einer vorhandenen Umgebung zu Direct-Routing finden Sie unter [Migrieren zu Direct-Routing.](direct-routing-migrating.md) |
 |||
