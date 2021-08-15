@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Besprechungsrichtlinien
+title: 'Teams: Verwalten von Besprechungsrichtlinien'
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen von Besprechungsrichtlinien in Teams verwalten. Steuern Sie über die Richtlinieneinstellungen die Features, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 09d821eb4a0ae6f1315ff5ff817c4b702512a974
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 92b43f305ed96b88eaeb30838742373599abda5a
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282792"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234850"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -56,7 +56,7 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine od
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Besprechungsrichtlinien**.
 2. Klicken Sie auf **Hinzufügen**.
-3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
+3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
 4. Wählen Sie die gewünschten Einstellungen aus.
 5. Klicken Sie auf **Speichern**.
 
@@ -107,7 +107,7 @@ Wählen Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie
 
 <a name="bkgeneral"> </a>
 
-## <a name="meeting-policy-settings---general"></a>Besprechungsrichtlinien – Allgemeine Einstellungen
+## <a name="meeting-policy-settings---general"></a>Besprechungsrichtlinien – Allgemeine Einstellungen
 
 - [Sofortbesprechungen in Kanälen zulassen](#allow-meet-now-in-channels)
 - [Outlook-Add-In zulassen](#allow-the-outlook-add-in)
@@ -178,7 +178,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet w
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Einstellungen für Besprechungsrichtlinien – Audio & Video
+## <a name="meeting-policy-settings---audio--video"></a>Einstellungen für Besprechungsrichtlinien – Audio & Video
 
 - [Transkription zulassen](#allow-transcription)
 - [Cloud-Aufnahme zulassen](#allow-cloud-recording)
@@ -257,7 +257,7 @@ Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteil
 
 Bei "IP-Video zulassen" handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf mobilen Microsoft Teams-Clients wird über diese Einstellung gesteuert, ob Benutzer Fotos und Videos in einer Besprechung teilen können.
 
-In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Richtlinieneinstellung aktiviert ist, ist die Videofreigabe durch die Teilnehmer zulässig, sofern die Richtlinieneinstellung für sie ebenfalls aktiviert ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer und Partner), erben die für den Besprechungsorganisator geltende Richtlinie.
+In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Richtlinieneinstellung aktiviert ist, ist die Videofreigabe durch die Teilnehmer zulässig, sofern die Richtlinieneinstellung für sie ebenfalls aktiviert ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer und Partner), erben die für den Besprechungsorganisator geltende Richtlinie.
 
 > [!NOTE]
 > Beachten Sie, dass über diese Einstellung ausgehendes Video gesteuert wird, während über die Einstellung für den **Modus für IP-Video** sowohl eingehendes als auch ausgehendes Video gesteuert wird. Weitere Informationen hierzu finden Sie unter [Welche IP-Videorichtlinieneinstellung hat Vorrang?](#which-ip-video-policy-setting-takes-precedence) und [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
@@ -319,7 +319,7 @@ Wenn für eine Besprechung nicht genügend Bandbreite verfügbar ist, wird den T
 
 Wenn Sie Besprechungen mit höchster Videoqualität, z. B. Vorstandssitzungen oder Microsoft Teams-Liveereignisse, organisieren wollen, empfehlen wir, die Bandbreite auf 10 Mbit/s festzulegen. Selbst wenn die Einstellungen für ein möglichst hochwertiges Ergebnis festgelegt wurden, passt sich der Microsoft Teams-Medienstack an die Bedingungen geringer Bandbreite an, wenn abhängig vom Szenario bestimmte Netzwerkbedingungen ermittelt wurden.
 
-## <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
+## <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
 
 - [Bildschirmübertragungsmodus](#screen-sharing-mode)
 - [Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert](#allow-a-participant-to-give-or-request-control)
@@ -333,7 +333,7 @@ Wenn Sie Besprechungen mit höchster Videoqualität, z. B. Vorstandssitzungen od
 > [!NOTE]
 > Dieses Feature befindet sich noch in der Entwicklung. Bei der Bildschirmfreigabe handelt es sich um eine teilnehmerspezifische Richtlinie, auf die sich jedoch die Bildschirmfreigabeeinstellungen des Organisators auswirken können, wie in diesem Abschnitt beschrieben.
 
-Über diese Einstellung wird gesteuert, ob die Desktop- oder Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. b. anonyme Teilnehmer, Gäste, B2B-Teilnehmer und Partner), erben die Richtlinie des Besprechungsorganisators.
+Über diese Einstellung wird gesteuert, ob die Desktop- oder Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. b. anonyme Teilnehmer, Gäste, B2B-Teilnehmer und Partner), erben die Richtlinie des Besprechungsorganisators.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
@@ -434,7 +434,7 @@ Daniela kann sich in Amandas Besprechungen Notizen machen, Amanda kann hingegen 
 <a name="bkmeetingparticipants"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
+## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
 Über diese Einstellungen können Sie steuern, welche Besprechungsteilnehmer im Wartebereich bleiben müssen, bevor sie zur Besprechung zugelassen werden. Außerdem wird die Berechtigungsstufe während ihrer Teilnahme an Besprechungen festgelegt.
 
@@ -470,13 +470,13 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 |---------|---------|
 |**Jeder**   |Alle Besprechungsteilnehmer nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Dazu gehören authentifizierte Benutzer, externe Benutzer aus vertrauenswürdigen Organisationen (Verbundorganisationen), Gäste und anonyme Benutzer.     |
 |**Personen in meiner Organisation oder vertrauenswürdigen Organisationen und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und Benutzer aus vertrauenswürdigen Organisationen, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen. Anonyme Benutzer müssen im Wartebereich warten.   |
-|**Personen in meiner Organisation und Gäste**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen. Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer müssen im Wartebereich warten. Dies ist die Standardeinstellung.           |
+|**Personen in meiner Organisation und Gäste**    |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer, nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten. Benutzer von vertrauenswürdigen Organisationen und anonyme Benutzer warten im Wartebereich. Dies ist die Standardeinstellung.           |
 |**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Personen, einschließlich authentifizierte Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten.           |
-|**Personen in meiner Organisation**  |Authentifizierte Benutzer innerhalb der Organisation, mit Ausnahme von Gastbenutzern, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen. Gäste und Benutzer aus vertrauenswürdigen Organisationen sowie anonyme Benutzer müssen im Wartebereich warten.|
+|**Personen in meiner Organisation**  |Authentifizierte Benutzer innerhalb der Organisation, ausschließlich Gastbenutzer, nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten. Gäste und Benutzer von vertrauenswürdigen Organisationen und anonyme Benutzer warten im Wartebereich.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Einwahlbenutzern das Umgehen des Wartebereichs gestatten
 
-Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Personen, die sich per Telefon in die Besprechung einwählen, direkt an der Besprechung teilnehmen können oder im Wartebereich warten müssen – unabhängig von der Einstellung **Personen automatisch zulassen**. Diese Einstellung ist standardmäßig deaktiviert. Wenn diese Einstellung deaktiviert ist, müssen Einwahlbenutzer im Wartebereich bleiben, bis ein Benutzer der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und sie zulässt. Wenn diese Einstellung aktiviert ist, treten Einwahlbenutzer der Besprechung automatisch bei.
+Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Personen, die sich per Telefon in die Besprechung einwählen, direkt an der Besprechung teilnehmen können oder im Wartebereich warten müssen – unabhängig von der Einstellung **Personen automatisch zulassen**. Diese Einstellung ist standardmäßig deaktiviert. Wenn diese Einstellung deaktiviert ist, müssen Einwahlbenutzer im Wartebereich bleiben, bis ein Benutzer der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und sie zulässt. Wenn diese Einstellung aktiviert ist, treten Einwahlbenutzer der Besprechung automatisch bei.
 
 > [!NOTE]
 > Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
