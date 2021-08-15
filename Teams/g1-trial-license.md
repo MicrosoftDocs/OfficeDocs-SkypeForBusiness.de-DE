@@ -15,15 +15,14 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f49adc03e8bb7481fa6cd682a2dcc401d783c0e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad58e4388c6a20dc64f67dff5097158ac5c26bbf
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120736"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234520"
 ---
-<a name="manage-the-office-365-g1-trial-for-us-government"></a>Verwalten der Office 365 G1-Testversion für US-Regierungsbehörden 
-==============================
+# <a name="manage-the-office-365-g1-trial-for-us-government"></a>Verwalten der Office 365 G1-Testversion für US-Regierungsbehörden 
 
 Ab dem 1. Juli 2020 steht die Office 365 E1-Testversion nicht länger zur Verfügung. Wenn Sie Benutzer für Microsoft Teams lizenzieren müssen, lesen Sie die [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description), um eine Liste der kostenpflichtigen Abonnements mit Teams zu finden. 
 
@@ -50,7 +49,7 @@ So führen Sie ein Upgrade von Benutzern mit G1-Testlizenz auf ein bezahltes Abo
 Weitere Informationen finden Sie unter [Teams für US-Regierungsbehörden](expand-teams-across-your-org/teams-for-government-landing-page.md).
 
 > [!NOTE]
-> Wenn die G1-Testlizenz abläuft und kein unmittelbares Upgrade auf ein Abonnement mit Teams für einen Benutzer erfolgt, werden die Benutzerdaten nicht entfernt. Der Benutzer bleibt weiterhin in Azure Active Directory und alle Daten innerhalb von Teams werden beibehalten. Sobald dem Benutzer eine neue Lizenz zugewiesen ist, die Teams-Funktionen aktiviert, sind die Inhalte weiterhin vorhanden.
+> Wenn die G1-Testlizenz abläuft und kein unmittelbares Upgrade auf ein Abonnement mit Teams für einen Benutzer erfolgt, werden die Benutzerdaten nicht entfernt. Der Benutzer bleibt weiterhin in Azure Active Directory und alle Daten innerhalb von Teams werden beibehalten. Sobald dem Benutzer eine neue Lizenz zugewiesen wird, um die Teams-Funktionen wieder zu aktivieren, sind alle Inhalte immer noch vorhanden.
 > 
 ### <a name="remove-an-office-365-g1-trial-license"></a>Entfernen einer Office 365 G1-Testlizenz
 

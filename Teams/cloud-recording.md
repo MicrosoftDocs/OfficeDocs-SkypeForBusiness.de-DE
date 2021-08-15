@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b66a65f9c3c5bf42911062d1af0a68b975363cfa
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: b2402e94dbbf123d9a7df7f18cb99321c5fa331f
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660743"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234130"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -262,6 +262,11 @@ Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher
 > Das in diesem Artikel beschriebene Feature für das automatische Ablaufen wurde noch nicht veröffentlicht. Nähere Informationen zum Veröffentlichungstermin finden Sie in der [Roadmap (Feature-ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580). 
 > 
 > Hier finden Sie Informationen zur Funktionsweise dieses Features in der ZUKUNFT, damit Sie sich auf diese Änderung vorbereiten und die Microsoft Teams-Richtlinieneinstellungen im Voraus entsprechend ändern können. 
+>
+> Der Befehl zum präventiven Ändern der MeetingExpirationDays-Einstellung in Microsoft Teams ist noch nicht verfügbar. Er wird für alle Mandanten zur Festlegung bis zum 1. September verfügbar sein, bevor das Ablauffeature aktiviert wird.
+>
+> Sie können PowerShell verwenden, um “ MeetingRecordingExpirationDays” zu ändern. Dies kann nach dem 1. September erfolgen, sobald die Einstellung in PowerShell vorhanden ist, auch wenn das Feature noch nicht aktiviert ist. Ein Beispielbefehl ist: "Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50.”
+>
 
 Lesen Sie Antworten auf häufig gestellte Fragen für Administratoren und Endbenutzer, um Erkenntnisse darüber zu erhalten, wie das automatische Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen funktionieren wird, welche Maßnahmen Sie jetzt ergreifen können und welche nach Veröffentlichung des Features. 
   
@@ -287,16 +292,40 @@ Kunden haben auffallend häufig bekundet, dass sie mehr Kontrollmöglichkeiten w
   
 Wir glauben, dass fast alle Kunden von der verringerten Speicherbelegung in den Mandanten profitieren werden, wenn Aufzeichnungen entfernt werden, die wahrscheinlich nach 60 Tagen nicht mehr angesehen werden. Unser Ziel ist es, allen Kunden standardmäßig ein möglichst optimiertes Benutzererlebnis zu bieten. 
   
+**Wird eine Aufzeichnung nach 30 Tagen automatisch gelöscht, auch wenn auf die Daten zugegriffen wird oder diese heruntergeladen werden?**
+  
+Durch den Zugriff auf die Datei wird das Ablaufdatum nicht geändert. 
+  
+**Ist das Ablaufdatum als Spalte in der Liste sichtbar?**
+
+Benutzer mit Ansichtrechten für die Aufzeichnung werden 14 Tage lang vor Ablauf der Datei neben dieser ein rotes Symbol im OneDrive- oder SharePoint-Ordner sehen. Es gibt derzeit keine Möglichkeit, einer Liste eine Spalte mit den Ablaufdaten hinzuzufügen.
+  
 **Wie wird das Ablaufdatum berechnet?**
   
 Das Ablaufdatum wird als der Tag berechnet, an dem die Besprechungsaufzeichnung erstellt wurde, plus der Standardanzahl von Tagen, die der Administrator in den Microsoft Teams-Einstellungen festgelegt hat. 
   
+**Kann das Ablaufdatum für jede einzelne Microsoft Teams-Besprechungsaufzeichnung geändert werden, z. B. Ablaufdatum für Daten „A“ 30 Tage und für Daten „B“ 60 Tage?**
+
+Ja, das Ablaufdatum wird pro Datei festgelegt. Benutzer können das Ablaufdatum im Detailbereich einer ausgewählten Datei in OneDrive oder SharePoint ändern.
+
 **Wie kann ein Administrator das Ablaufdatum ändern?**
   
 Administratoren können die Standardablaufeinstellung derzeit in PowerShell ändern. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Microsoft Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
 
 Administratoren können eine maximale Ablauffrist von 99.999 Tagen bzw. 273 Jahren festlegen. Administratoren können das Ablaufdatum für bestehende Microsoft Teams-Besprechungsaufzeichnungen, die bereits in OneDrive oder SharePoint hochgeladen wurden, nicht ändern, bevor dieses Feature veröffentlicht wird. Dadurch wird der Absicht des Benutzers Rechnung getragen, der Besitzer der betreffenden Microsoft Teams-Besprechungsaufzeichnung ist. 
+  
+**Ändert sich durch die Wiedergabe der Aufzeichnung das Ablaufdatum?**
 
+Nein, die Wiedergabe wirkt sich nicht auf das Ablaufdatum aus.
+  
+**Was geschieht mit dem Ablaufdatum, wenn die Aufzeichnung heruntergeladen und erneut hochgeladen wird?**
+
+Das Ablaufdatum wird nach dem erneuten Hochladen unabhängig von der SKU des Benutzers gelöscht.
+  
+**Was geschieht, wenn ich die Aufzeichnung an einen anderen Ort oder eine andere Website kopiere oder verschiebe?**
+
+Das Datum wird nur für eine verschobene Aufzeichnungsdatei beibehalten. Für eine kopierte Datei gilt das Ablaufdatum nicht, genau wie für eine erneut hochgeladene Aufzeichnung.
+  
   Beispiel für einen PowerShell-Befehl: 
   
   ```powershell
@@ -323,7 +352,7 @@ Nein, es werden keine Dateien aufgrund dieses Features oder seiner Einstellungen
  
 **Hat eine Aufbewahrungs- und/oder Löschrichtlinie, die ich im Security & Compliance Center (S+C) festgelegt habe, Vorrang vor der Ablaufeinstellung für Microsoft Teams-Besprechungsaufzeichnungen?**
   
-Ja, alle Richtlinien, die Sie im S+C Center festgelegt haben, haben Vorrang. Zum Beispiel: 
+Ja, alle Richtlinien, die Sie im S+C Center festgelegt haben, haben Vorrang. Hier ein Beispiel: 
   
 - Wenn eine Ihrer Richtlinie vorsieht, dass alle Dateien auf einer Site 100 Tage lang aufbewahrt werden müssen, und die Ablaufeinstellung für eine Microsoft Teams-Besprechungsaufzeichnung 30 Tage beträgt, wird die Aufzeichnungsdatei für die gesamten 100 Tage aufbewahrt.  
 - Wenn eine Löschrichtlinie vorsieht, dass alle Microsoft Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden und Sie für eine Aufzeichnungsdatei eine Ablauffrist von 30 Tagen festgelegt haben, wird diese Datei nach fünf Tagen gelöscht. 
@@ -342,7 +371,7 @@ Der Dateibesitzer erhält eine E-Mail-Benachrichtigung, wenn die Microsoft Teams
   
 **Welche SKUs sind für dieses Feature erforderlich?**
   
-Alle SKUs verfügen standardmäßig über dieses Feature. Bei A1-Benutzer wird die Ablauffrist standardmäßig 30 Tage betragen; diese kann nicht geändert werden.
+Alle SKUs verfügen standardmäßig über dieses Feature. Bei A1-Benutzern wird die Ablauffrist standardmäßig 30 Tage betragen; diese kann nicht von ihnen geändert werden.
   
 **Handelt es sich bei dem Dateiablauf um ein überwachtes Ereignis, und wird es in meinen Überwachungsprotokollen aufscheinen?**
   
