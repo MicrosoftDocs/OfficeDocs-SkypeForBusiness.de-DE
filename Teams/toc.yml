@@ -365,7 +365,7 @@ items:
                 href: guest-experience.md
               - name: Aktivieren oder Deaktivieren des Gastzugriffs
                 href: set-up-guests.md
-              - name: Hinzufügen eines Gasts zu einem Team
+              - name: Anzeigen von Gästen in einem Team
                 href: view-guests.md
               - name: Bearbeiten von Gastinformationen
                 href: edit-guests-information.md
@@ -915,7 +915,7 @@ items:
                 href: direct-routing-landing-page.md
               - name: Planen von Direct Routing
                 href: direct-routing-plan.md
-              - name: Liste der für Direct Routing zertifizierten Session Border Controller
+              - name: Für Direct Routing zertifizierte Session Border Controller
                 href: direct-routing-border-controllers.md
               - name: Konfigurieren von Direct Routing
                 items:
@@ -1015,7 +1015,7 @@ items:
                 href: phone-number-calling-plans/port-order-status.md
           - name: Unterstützte Bewertungszentren und Abdeckung
             href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-      - name: Anrufweiterleitung
+      - name: VoIP-Routing
         items:
           - name: Was sind Wählpläne?
             href: what-are-dial-plans.md
@@ -1049,7 +1049,7 @@ items:
                 href: emergency-calling-labels.md
           - name: Verwalten von Notruf-Richtlinien
             href: manage-emergency-calling-policies.md
-          - name: Verwalten von Notfall-Anrufweiterleitungsrichtlinien für Direct Routing
+          - name: Verwalten von Notfall-VoIP-Routingrichtlinien für Direct Routing
             href: manage-emergency-call-routing-policies.md
       - name: Verwalten von Sprach- und Anrufrichtlinien in Teams
         href: voice-and-calling-policies.md
@@ -1481,8 +1481,6 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Teams-Ressourcen für Administratoren in Education
             href: resources-teams-edu.md
-          - name: Teams-Geräte für Education
-            href: devices-for-education.md
           - name: Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren
             href: plan-teams-governance-edu.md
           - name: Installieren von Moodle-Integration
@@ -1495,10 +1493,14 @@ items:
         items:
           - name: Schnellstarthandbuch für Mitarbeiter in Service und Produktion
             href: flw-quickstart.yml
+          - name: Onboarding-Assistent für Mitarbeiter in Service und Produktion
+            href: flw-onboarding-wizard.md
           - name: Skriptgestützte Bereitstellung für Mitarbeiter in Service und Produktion
             href: flw-scripted-deployment.md
           - name: Verwalten von schichtbasiertem Zugriff für Mitarbeiter in Service und Produktion
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: Verwalten von Zeitplanbesitzern für die Schichtverwaltung
+            href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: RealWear für Teams
             href: flw-realwear.md
           - name: Walkie Talkie
@@ -1574,6 +1576,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaktion von SharePoint Online und OneDrive for Business mit Teams
             href: sharepoint-onedrive-interact.md
+      - name: Teams-Geräte für Education
+        href: devices-for-education.md
       - name: Unterstützte Geräte
         items:
           - name: Verwalten Ihrer Geräte in Teams
