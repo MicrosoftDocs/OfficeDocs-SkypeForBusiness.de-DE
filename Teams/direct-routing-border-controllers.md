@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Der Administrator kann erfahren, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b11452ea6de7df7711bd248cd07717d3f59d003
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284216"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -73,7 +73,7 @@ Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wen
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Unterstützt 3.20 (empfohlen 4.0)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta-SBC        |     &#10004;   | &#10004; |      4.7 (4.9 für Medienumgehung)      | &#10004; | &#10004; |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta-SBC        |     &#10004;   | &#10004; |      4.7 (4.9 für Medienumgehung)      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) für Router der Serie 1000 Integrated Services        |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam- und 17.2.1r-Versionen (empfohlen: 17.3.2)         |    &#10004;     |   |  
 |                                   |     Cisco Unified Border Element (CUBE) für Router der Serie 4000 Integrated Services        |     &#10004;   | &#10004; |   Unterstützte IOS XE Amsterdam- und 17.2.1r-Versionen (empfohlen: 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cisco Unified Border Element (CUBE) für Cloud Services Router der 1000V-Serie       |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam- und 17.2.1r-Versionen (empfohlen: 17.3.2)         |    &#10004;     |    |  
@@ -91,7 +91,7 @@ Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wen
 |                     [Enghouse-Netzwerke](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogischer BorderNet-SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 |                     [M5 Technologies (früher bekannt als Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel-Serie   |     &#10004;     |         |      DGW 48.0.2340 (Recommended DGW 48.1.2503)      |     |    |
-|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops-Sitzungsrahmencontroller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
+|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Ekinops Virtual Session Border Controller (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Hyperkonvergente Stimme   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
