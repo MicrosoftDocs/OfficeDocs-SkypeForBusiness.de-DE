@@ -305,7 +305,7 @@ items:
             href: location-of-data-in-teams.md
           - name: Datenschutz für Microsoft Teams-Feedback
             href: teams-privacy-feedback.md
-          - name: Blockieren des Zugriffs auf SharePoint für bestimmte Benutzer
+          - name: Zugriff auf SharePoint Online für bestimmte Benutzer blockieren
             href: block-access-sharepoint.md
           - name: Übersicht über die Zugriffssteuerung
             href: policy-control-overview.md
