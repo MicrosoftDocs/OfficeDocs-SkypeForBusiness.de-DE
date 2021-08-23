@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b257b8e2e12c4b6408f43e21b92e0904971ddc4032da075bac7cae93659ad8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 190204ac352567458e1e19c5d06179950c1188be
+ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321257"
+ms.lasthandoff: 08/21/2021
+ms.locfileid: "58455950"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -79,7 +79,12 @@ Wenn Sie in Microsoft 365 als Teams-Administrator festgelegt wurden, haben Sie i
 
 Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team zu erstellen. Informationen zum Ändern finden Sie unter [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md).
 
-Eine wichtige frühe Planungsaktivität, mit der Benutzer in Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse. 
+Eine wichtige frühe Planungsaktivität, mit der Benutzer in Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse.
+
+> [!NOTE]
+> Wenn Sie ein neues Team oder einen privaten Kanal in Microsoft Teams erstellen, wird automatisch eine Teamwebsite in SharePoint erstellt. Um die Websitebeschreibung oder -klassifizierung für diese Teamwebsite zu bearbeiten, wechseln Sie zu den [-Einstellungen des entsprechenden Kanals in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+>
+> Weitere Informationen zum Verwalten von [mit Microsoft Teams verbundenen Teams-Websites](/SharePoint/teams-connected-sites).
 
 ## <a name="example-teams"></a>Beispiele für Teams
 
