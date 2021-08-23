@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eebbea6ce5d632d38e94465f05fd9f60a3300a4e060106e7ba2f6218433c5e8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2a9eed33ba105584379f207697c27e8d6bd6cde5
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335815"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359182"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Verwenden der NDI®Technologie in Microsoft Teams
 
- Die NewTek NDI®(Network Device Interface)-Technologie ist eine moderne Lösung zum Verbinden von Mediengeräten (z. B. Studiokamera und -mixer). Anstelle von physischen Verbindungen ermöglicht die NDI®-Technologie die Konnektivität über ein lokales Intranet, einschließlich über einen lokalen Computer.
+ Die NewTek NDI® (Network Device Interface)-Technologie ist eine moderne Lösung zum Verbinden von Mediengeräten (z. B. studiokamera und -mixer). Anstelle von physischen Verbindungen ermöglicht die NDI®-Technologie die Konnektivität über ein lokales Intranet, einschließlich über einen lokalen Computer.
 
 Die NDI®-Technologie wurde zu einer standardmäßigen Branchenlösung für die Erstellung von Liveinhalten für Datenströme und hat in der Welt der professionellen Übertragungen ein erhebliches Bewusstsein und die Akzeptanz gewonnen.
 
@@ -33,37 +33,33 @@ Skype NDI®-Out-Funktionalität zu Skype Ende 2018 hinzugefügt. Microsoft Teams
 
 Die NDI®-Technologie ist auf ein lokales Netzwerk beschränkt und sollte nur als Teil des Produktionsworkflows betrachtet werden, nicht als Übertragungslösung.
 
-## <a name="turn-on-ndi-technology"></a>Aktivieren der NDI® Technologie
+## <a name="turn-on-ndi-technology"></a>Aktivieren der NDI®Technologie
 
-NDI® Technologie erfordert, dass zwei Schritte für einen Benutzer aktiviert sind.
+NDI® Technologie muss für einen Benutzer in zwei Schritten aktiviert werden.
 
-1. Der Mandantenadministrator muss die Eigenschaft "AllowNDIStreaming" in CsTeamsMeetingPolicy aktivieren.
+1. Der Mandantenadministrator muss es dem Endbenutzer ermöglichen, NDI für seine Besprechungsrichtlinie aktiviert zu lassen. Dies kann einzeln im Teams-Verwaltungsportal oder über die Teams PowerShell über die _AllowNDIStreaming-Eigenschaft_ in CsTeamsMeetingPolicy erfolgen.
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+    ```
 
-2. Nachdem diese Änderung aufgefüllt wurde, muss der Endbenutzer die NDI®Technologie für den jeweiligen Client über Einstellungen  >  **aktivieren.**
+2. Nachdem diese Änderung aufgefüllt wurde, muss der Endbenutzer die NDI® Technologie für den jeweiligen Client über Einstellungen  >  **aktivieren.**
 
-Wenn ein Benutzer einer Besprechung beitritt, wird eine Meldung angezeigt, in der er darüber informiert wird, dass die Besprechung übertragen wird. Wenn Benutzer nicht in die Übertragung einbezogen werden möchten, müssen sie die Besprechung löschen.
+Nachdem er für einen Benutzer und seinen jeweiligen Client aktiviert wurde, kann er NDI über das Überlaufmenü aktivieren und "Über NDI übertragen" auswählen.
 
-Die folgende Abbildung zeigt die Bannernachricht, die einem Benutzer in einer Besprechung Teams wird.
+Nachdem sie den NDI-Feed gestartet und einen Endpunkt einen NDI-Feed abonniert haben, wird eine Meldung angezeigt, die sie benachrichtigt, dass die Besprechung übertragen wird. Wenn Benutzer nicht in die Übertragung einbezogen werden möchten, müssen sie die Besprechung löschen.
 
-![er NDI® Technologiebanner, der in einer Besprechung Teams wird.](media/NDI-disclosure.png)
+Die folgende Abbildung zeigt die Bannernachricht, die ein Benutzer in einer Besprechung Teams sieht.
+
+![er NDI® Banner, das in einer Besprechung Teams wird.](media/NDI-disclosure.png)
 
 Das Banner hat einen Link zur [Microsoft-Datenschutzrichtlinie](https://aka.ms/teamsprivacy).
 
 > [!NOTE]
-> NDI® wird nur pro Sitzung aktiviert. Bei der nächsten Anmeldung muss der Benutzer sie aktivieren, bevor er NDI®.
+> NDI® wird nur pro Sitzung aktiviert. In der nächsten Besprechung muss der Benutzer sie aktivieren, bevor sie NDI®.
 
 ## <a name="supported-locales-and-user-types"></a>Unterstützte Locales und Benutzertypen
 
-NDI® Technologie wird in allen Locales unterstützt. Die folgenden Benutzer sind in einem NDI®Technologiestream enthalten, aber nicht alle Benutzer können auf den NDI®-Datenstrom zugreifen:
+Die NDI®-Technologie wird in allen Locales unterstützt.
 
-- In-Mandant – vollständiger Support, geliefert basierend auf der Ring-/Mandanten-ID/Benutzer-ID (gesteuert durch Besprechungsrichtlinie)
-- Verbund – kein Streamzugriff (auch dann nicht, wenn NDI®)<sup>1</sup>
-- Premium – kein Streamzugriff
-- Anonym – kein Streamzugriff
-- Gast – kein Streamzugriff  
-
-<sup>1</sup> Geräte verfügen über eine NDI®-Technologieeinstellung, die standardmäßig aktiviert ist. Wenn ein Besprechungsteilnehmer ein Gerät mit deaktivierter NDI®-Technologie verwendet, muss er die NDI® aktivieren.
+Der Zugriff auf die Verwendung von NDI wird durch die Besprechungsrichtlinie für den Benutzer bestimmt, der versucht, das Feature zu aktivieren. Für die sicherste Lösung sollten Sie die NDI-Richtlinie nicht als globale Einstellung aktivieren.

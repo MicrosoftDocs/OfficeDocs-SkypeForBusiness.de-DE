@@ -19,15 +19,15 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impli einee et e e. "
-ms.openlocfilehash: aeb76f4dca50fe3aad3ab5fb77b66d160102eeff02fcbdafbf48661e47f6766f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impli einee et ene. "
+ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286194"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372225"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en èère d'accessibilité
+#  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en èère d'accessibilité
 
 
 ### <a name="section-1-champ-dapplication"></a>Abschnitt 1: D'application
@@ -137,7 +137,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="odd">
 <td><h3 id="acceptation-des-doubles-frappes-sur-le-clavier">5.8 Acceptation des doubles frappes sur le clavier</h3>
-<p>Dans le cas où un clavier est fourni, le délai, après une frappe sur le clavier, pendant lequel une autre frappe ne aut pas acceptée si elle est identique à la frappe prééedente est réglable jusqu'à au moins 0,5 seconde.</p></td>
+<p>Dans le cas où un clavier est fourni, le délai, après une frappe sur le clavier, pendant lequel une autre frappe ne pas acceptée si elle est identique à la frappe prééedente est réglable jusqu'à au moins 0,5 seconde.</p></td>
 <td>Nicht anwendbar</td>
 <td></td>
 </tr>
@@ -193,9 +193,9 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <tr class="odd">
 <td><h3 id="interopérabilité">6.2.3 Interopérabilité</h3>
 <p>Dans le cas où une TIC dotée de la fonctionnalité RTT affité une interopérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l 'exige le 6.2.1.1), elles sont compatibles avec au moins un des quatre mécanismes d'interopérabilité RTT décrits ci-dessous :</p>
-<p>a) TIC inter-zentnt sur le Réseau Téléléique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses nach pour les signaux de télévecie en mode texte sur l'interface RTC ;</p>
+<p>a) TIC inter-zentnt sur le Réseau Téléléique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de sesinkes pour les signaux de télévecie en mode texte sur l'interface RTC ;</p>
 <p>b) TIC inter-statusnt avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103 ;</p>
-<p>c) TIC inter-einemvernt avec une autre TIC utilisant une technologie RTT conforme à l'des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
+<p>c) TIC inter-ververnt avec une autre TIC utilisant une technologie RTT conforme à l'des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
 <p>d) TIC inter-statusnt avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est weiterée et peut être consultée. Cette spécification den comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
@@ -230,7 +230,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux de aufklebere (immer-d'images)</h3>
 <p>Lorsqu'une TIC qui propose la communication voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en temps réel, cette TIC :</p>
 <p>a) prend en charge un taux de aufklebere d'au moins 12 images par seconde (IPS) ;</p>
-<p>b) doit de préférence prendre en charge un taux de das des'au moins 20 images par seconde (IPS) avec ou sans langue des signes dans le den données vidéo.</p></td>
+<p>b) doit de préférence prendre en charge un taux de das doe d'au moins 20 images par seconde (IPS) avec ou sans langue des signes dans le den données vidéo.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -280,7 +280,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="even">
 <td><h3 id="contenu-non-textuel-lecture-décran-prise-en-charge">11.2.1.1 Contenu non textuel (lecture d'écran prise en charge)</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indités dans leUniS 11.1 : Contenu non textuel :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiéss dans leLicht 11.1 : Contenu non textuel :</p>
 <p>Tout le contenu non textuel qui est présenté à l'utilisateur est doté d'un équivalent textuel qui a la même fonction, sauf dans les situations suivantes :</p>
 <p>Commandes,informationsie : Si le contenu non textuel est une commande ou s'il permet la sassie d'informations par l'utilisateur, alors il a un nom qui décrit sa fonction.</p>
 <p>Media limité dans le temps: Si le contenu non textuel est un media limité dans le temps, alors les équivalents textuels donnent au moins une identification descriptive de ce contenu non textuel.</p>
@@ -294,7 +294,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 <tr class="odd">
 <td><h3 id="audio-seulement-et-vidéo-seulement-préenregistré">11.2.1.2 Audio seulement et vidéo seulement (préenregistré)</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran et où aucune information sonore préenregistrée n'est nécessaire pour permettre l'utilisation des fonctions fermées de la TIC, elle remplit les Critères de Succès indi den dans le Zunft 11.2 :  Audio seulement et vidéo seulement (préenregistré) :</p>
-<p>Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les principes ci-après se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du texte et est é desment identifié comme tel :</p>
+<p>Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés, les principes ci-après se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du texte et est darüber darüber identifié comme tel :</p>
 <p>Audio seulement préenregistré : Une alternative au media limité dans le temps, qui présente des informations équivalentes pour le contenu audio seulement préenregistré, est fournie.</p>
 <p>Vidéo seulement préenregistrée : Une alternative au media limité dans le temps ou une audio, qui présente des informations équivalentes pour le contenu vidéo seulement préenregistré, est fournie.</p></td>
 <td>Nicht anwendbar</td>
@@ -302,21 +302,21 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="even">
 <td><h3 id="sous-titres-préenregistrés">11.2.1.3 Sous-titres (préenregistrés)</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi eigenes dans le Sich 11.3 : Sous-titres (préenregistrés) :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indisdatums dans le Zu 11.3 : Sous-titres (préenregistrés) :</p>
 <p>Des sous-titres sont fournis pour tout le contenu audio préenregistré en média synchronisé, sauf quand le média est une alternative au texte et est radiment identifié comme tel.</p></td>
 <td>Nicht anwendbar</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="audio-description-ou-média-alternatif-préenregistré">11.2.1.4 Audio-description ou média alternatif (préenregistré)</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indiéss dans le Interfaces 11.4 : Audio-description ou média de remplacement (préenregistré) :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accès aux technologies d'assistance pour la lecture d'écran, elle remplit les Critères de Succès indités dans le Interfaces 11.4 : Audio-description ou média de remplacement (préenregistré) :</p>
 <p>Une alternative au média limité dans le temps ou l'audio-description du contenu vidéo préenregistré est fournie pour le média synchronisé, sauf quand le média est une alternative au texte et est sichment identifié comme tel.</p></td>
 <td>Nicht anwendbar</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="sous-titres-en-direct">11.2.1.5 Sous-titres (en direct)</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi er dans le Zunft 11.5. Sous-titres (en direct) :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi er dans le Allein 11.5. Sous-titres (en direct) :</p>
 <p>Des sous-titres sont fournis pour tout le contenu audio en direct se présentant sous la forme d'un média synchronisé.</p></td>
 <td>Nicht anwendbar</td>
 <td></td>
@@ -351,14 +351,14 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="utilisation-de-la-couleur">11.2.1.10 Utilisation de la couleur</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indiéss dans le Sich 11.10 : Utilisation de la couleur :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indités dans le Aktualisierung 11.10 : Utilisation de la couleur :</p>
 <p>La couleur n'est pas utilisée comme le seul moyen visuel de transmettre des informations, d'indiquer une action, de répondre rapidement ou de distinguer un élément visuel.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="contrôle-du-son">11.2.1.11 Contrôle du son</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indisdatums dans le Allein 11.11 : Contrôle du son :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi er dans le Zu 11.11 : Contrôle du son :</p>
 <p>Si du contenu audio d'un logiciel est audible automatiquement pendant plus de 3 secondes, il existe un mécanisme pour l'arrêter ou le mettre en pause, ou alors il existe un mécanisme pour contrôler le volume audio indépen arrayment du volume du système ténéral.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -366,8 +366,8 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 <tr class="odd">
 <td><h3 id="contraste-minimum">11.2.1.12 Kontrast (Minimum)</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indisdatums dans le Sich 11.12 : Contraste (Minimum) :</p>
-<p>La présentation visuelle du texte et d'images de texte a un verport de contraste d'au moins 4.5.1, sauf dans les cas suivants :</p>
-<p>Texte agrandi : le texte agrandi et les images de texte a édies présentent un deseport de contraste d'au moins 3:1.</p>
+<p>La présentation visuelle du texte et d'images de texte a un radiport de contraste d'au moins 4.5.1, sauf dans les cas suivants :</p>
+<p>Texte agrandi : le texte agrandi et les images de texte a édies présentent un entent un en contraste d'au moins 3:1.</p>
 <p>Accessoire: Il n'existe aucune exigence de contraste pour le texte ou les images de texte qui font partie d'un composant inactif d'une interface utilisateur, qui sont de la pure seineation, qui ne sont visibles pour personne, ou qui font partie d'une image contenant par ailleurs un autre contenu visuel important.</p>
 <p>Logotypen: Il n'existe aucune exigence de contraste pour le texte qui fait partie d'un logo ou d'une marque.</p></td>
 <td><h3 id="pris-en-charge">Pris en charge</h3></td>
@@ -391,7 +391,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="even">
 <td><h3 id="clavier">11.2.1.15 Clavier</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux claviers ou à une interface clavier, elle remplit les Critères de Succès indités dans le Clavier 11.1 : Clavier :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès aux claviers ou à une interface clavier, elle remplit les Critères de Succès indités dans le Clavier : Clavier :</p>
 <p>Toutes les fonctionnalités du contenu peuvent être activées depuis une interface clavier sans que l'individu n'ait à appuyer un nombre spécifique de fois sur le clavier, sauf dans le cas où la fonction en question nécessite une radisie qui dépend de la traject den du dévement effectué par l'utilisateur et pas seulement du point de départ et du point d'arrizuge de cette traject den.</p></td>
 <td>Pris en charge avec des exceptions</td>
 <td>1) Les boutons Full screen et Pick a Layout situés en haut à droite de la fenêtre Réunion ne bénéficient pas du focus clavier.<br />
@@ -410,18 +410,18 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 <td><h3 id="réglage-du-délai">11.2.1.17 Réglage du délai</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi den dans le den 11.17 : Réglage du délai :</p>
 <p>Pour chaque délai qui est fixé par le logiciel, au moins l'un des points suivants est vaj :</p>
-<p>Vererbung: l'utilisateur est autorisé à supprimer la limite de tempsen de la dépasser; ou</p>
-<p><strong>Ajustement :</strong> l'utilisateur est autorisé à ajuster la limite de temps eines la dépasser dans un intervalle d'au moins dix fois la beimée paramétrée par défaut </p>
-<p>Accordation : l'utilisateur est averti que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour expireer cette limite par une action simple (par exemple, « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à expireer la limite de temps au moins dix fois ; ou</p>
-<p>L'exception du temps réel : la limite de temps est une partie e e partie e'un é rahmennement en temps réel (par exemple, une enchère) et aucune alternative n'est possible ; ou</p>
-<p>L'exception de la limite werdene : la limite de temps est adaptere et la Enverer Invaliderait alors l'activité ; ou</p>
+<p>Vererbung: l'utilisateur est autorisé à supprimer la limite de temps en la dépasser; ou</p>
+<p><strong>Ajustement :</strong> l'utilisateur est autorisé à ajuster la limite de temps eines la dépasser dans un intervalle d'au moins dix fois la tempée paramétrée par défaut </p>
+<p>Accordation : l'utilisateur est averti que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour accorder cette limite par une action simple (par exemple, « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à expireer la limite de temps au moins dix fois ; ou</p>
+<p>L'exception du temps réel : la limite de temps est une partie sichive d'un é eigenenement en temps réel (par exemple, une enchère) et aucune alternative n'est possible ; ou</p>
+<p>L'exception de la limite werdene : la limite de temps est adaptere et la 1200 invaliderait alors l'activité ; ou</p>
 <p>L'exception des 20 heures : la limite de temps est supérieure à 20 heures.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="mettre-sur-pause-arrêter-masquer">11.2.1.18 Mettre sur pause, arrêter, maskquer</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi neus dans le den 11.18 : Mettre sur pause, arrêter,quer :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi neus dans le den 11.18 : Mettre sur pause, arrêter, alsquer :</p>
 <p>Pour toute information en dévement, clignotante, défilante ou mise à jour automatiquement, tous les points suivants sont vrais :</p>
 <p>Déplacement, clignotement, défilement : pour toute information en prévement, clignotante ou défilante qui (1) démarre automatiquement, (2) währende plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou la masquer, à moins que le livement, le clignotement ou le défilement s'avère un élément essentiel au bon déroulement de l'activité ; et</p>
 <p>Mise à jour automatique : pour toute information mise à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou pour contrôler la fréquence des mises à jour à moins que la mise à jour automatique s'avère programme au bon déroulement de l'activité.</p></td>
@@ -430,7 +430,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="even">
 <td><h3 id="pas-plus-de-trois-flashs-ou-sous-le-seuil-critique">11.2.1.19 Pas plus de trois flashs ou sous le s sick-</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les critères de succès indi ers dans le den 11.19 : Pas plus de trois flashs ou sous le sté critique :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les critères de succès indi ers dans le den den 11.19 : Pas plus de trois flashs ou sous le sté critique :</p>
 <p>Le logiciel est exempt de tout élément qui flashe plus de trois fois dans n'importe quel intervalle d'une seconde ou ce flash doit se situer sous le s stick de flash lénérique et le szüge de flash en.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -451,7 +451,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="en-têtes-et-étiquettes">11.2.1.25 En-têtes et étiquettes</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi eigenes dans le Sich 11.25 : En-têtes et étiquettes :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi eigenes dans le Pila 11.25 : En-têtes et étiquettes :</p>
 <p>Les en-têtes et les étiquettes décrivent le sujet ou la fonction.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -493,7 +493,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="étiquettes-ou-instructions">11.2.1.34 Étiquettes ou instructions</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indisdatums dans le Den 11.34 : Étiquettes ou instructions :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indisdatums dans le Sich 11.34 : Étiquettes ou instructions :</p>
 <p>Des étiquettes ou instructions sont présentées quand un contenu requiert une bellesie de la part de l'utilisateur.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -501,7 +501,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 <tr class="even">
 <td><h3 id="suggestion-après-une-erreur">11.2.1.35 Suggestion après une erreur</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi ers dans le Zuy 11.35 : Suggestion après une erreur :</p>
-<p>Si une erreur de ihnensie est automatiquement détectée et si des suggestions de correction sont connues, ces suggestions sont alors proposées à l'utilisateur à moins que cela ne risque de compromettre la sécurité ou la finalité du contenu.</p></td>
+<p>Si une erreur de désie est automatiquement détectée et si des suggestions de correction sont connues, ces suggestions sont alors proposées à l'utilisateur à moins que cela ne risque de compromettre la sécurité ou la finalité du contenu.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -510,21 +510,21 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Critères de Succès indi ers dans le den 11.36 : Prézüge des erreurs (juridiques, fintéères, de données) :</p>
 <p>Pour les logiciels qui entraînent des obligations légales ou des transactions financières de la part de l'utilisateur, qui modifient ou effacent des données contrôlables par l'utilisateur dans des systèmes de stockages de données ou qui enregistrent les réponses de l'utilisateur à des tests, au moins l'une des conditions suivantes est vurrie :</p>
 <p>Réversibilité : les soumissions sont réversibles.</p>
-<p>Vérification : les données uisies par l'utilisateur sont vérifiées au niveau des erreurs de ihnensie et la possibilité est donnée à l'utilisateur de les corriger.</p>
-<p>Bestätigung: un mécanisme est disponible pour examiner, confirmer et corriger les informations einer de vererb leur soumission.</p></td>
+<p>Vérification : les données uisies par l'utilisateur sont vérifiées au niveau des erreurs de anspruchsie et la possibilité est donnée à l'utilisateur de les corriger.</p>
+<p>Bestätigung: un mécanisme est disponible pour examiner, confirmer et corriger les informations informations de vereng leur soumission.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="analyse-syntaxique">11.2.1.37 Analysesyntaxique</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance, elle remplit les Critères de Succès indités dans le Denk 11.37 : Analyse syntaxique :</p>
-<p>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiés séparément et à la disposition des technologies d'assistance et caractéristiques d'accessité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbri ers conformément à leurs spécifications,  ils ne contiennent pas d'attributs dupli dens et chaque ID est unique, sauf dans le cas où les spécifications autorisent ces caractéristiques.</p></td>
+<p>Pour un logiciel qui utilise des suivis de modification de langue de telle manière que le suivi est indiés séparément et à la disposition des technologies d'assistance et caractéristiques d'accessité du logiciel ou d'un agent utilisateur sélectionnable par un utilisateur, les éléments ont des suivis de modification de début et de fin complètes, ils sont imbri ers conformément à leurs spécifications,  ils ne contiennent pas d'attributs dupliliks et chaque ID est unique, sauf dans le cas où les spécifications autorisent ces caractéristiques.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom, rôle et valeur</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance, elle remplit les Critères de Succès indizüges dans le zu 11.38 : Nom, rôle et valeur :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accès à des technologies d'assistance, elle remplit les Critères de Succès indités dans le zu 11.38 : Nom, rôle et valeur :</p>
 <p>Pour tout composant d'une interface utilisateur (et notamment des éléments de formulaire, liens et composants ténérés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un programme informatique ; et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs, et notamment des technologies d'assistance.</p></td>
 <td>Pris en charge avec des exceptions</td>
 <td>1) Pas d'accès de programmation dans Poll, Q &amp; A et Whiteboard.<br />
@@ -570,7 +570,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="even">
 <td><h3 id="ligne-colonne-et-titres">11.3.2.6 Ligne, Colonne et titres</h3>
-<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, la ligne et la colonne de chaque cellule d'un grade de données, y compris les titres de la colonne et de la ligne s'il y en a, déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, la ligne et la colonne de chaque cellule d'unformat de données, y compris les titres de la colonne et de la ligne s'il y en a, déterminables par un programme informatique par les technologies d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -623,7 +623,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="notification-des-changements">11.3.2.15 Benachrichtigungsmitteilungen </h3>
+<td><h3 id="notification-des-changements">11.3.2.15 Änderungsbenachrichtigungen </h3>
 <p>Dans le cas où le logiciel est doté d'une interface utilisateur, il avisera, à l'aide des services décrits dans la 11.3.2.3, les technologies d'assistance de toute modification des attributs des éléments de l'interface utilisateur déterminables par un programme informatique qui sont référencés dans les exigences 11.3.2.5 à 11.3.2.11 et 11.3.2.13.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -654,7 +654,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 </tr>
 <tr class="even">
 <td><h3 id="préférences-de-lutilisateur">11.5 Préférences de l'utilisateur</h3>
-<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il propose des modes d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur, contraste, police, taille de la police et denur de focus), à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils appartatint.</p></td>
+<p>Dans le cas où le logiciel est doté d'une interface utilisateur, il propose des modes d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur, contraste, police, taille de la police et fürur de focus), à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils appartatint.</p></td>
 <td>Nicht anwendbar</td>
 <td></td>
 </tr>
@@ -734,12 +734,11 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 
 ### <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>Section 13 TIC assurant le ou l'accès à des services d'urgence
 
-Cette section ne s'applique pas à Skype Pipette2016.
+Cette section ne s'applique pas à Skype Maisonprise2016.
 
-## 
 
-© 2017 Microsoft Corporation. Tous droits réservés. Les noms des uits et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
-Microsoft ne peut den ortsgenauen Längengrad d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et zumee de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
+© 2017 Microsoft Corporation. Tous droits réservés. Les noms des unent den et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
+Microsoft ne peut einen ortsgenauen Ort l'exactitude d'une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et zumee de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
 
 La personnalisation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s'ils ont contrôlé avec toute la raisonnable nécessaire que les mesures de personnalisation qu'ils ont prises remplissent toutes les exigences.
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in den Niederlanden für Microsoft Teams.
-ms.openlocfilehash: becfde9895b71e2010724ed67c91180bdcc8e30b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9678f889d77ea493c373cbeac737fb5b261b9faf
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233020"
+ms.locfileid: "58348337"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Telefonnummernverwaltung für die Niederlande
 
@@ -36,7 +36,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> | Laden Sie eines dieser Formulare herunter.</br> [Anforderung einer neuen Telefonnummer für Niederlande (v.5.0) (nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/>  [Anforderung einer neuen Telefonnummer für Niederlande (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> | Laden Sie eines dieser Formulare herunter.</br> [Anforderung einer neuen Telefonnummer für Niederlande (v.5.0) (nl-nl)](https://download.microsoft.com/download/d/5/9/d5937e19-e9f7-4a08-9631-e5d456068726/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf) <br/>  [Anforderung einer neuen Telefonnummer für Niederlande (v.5.0) (en-us)](https://download.microsoft.com/download/9/f/4/9f42be90-1977-4ba7-887a-3772757e12fa/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf)<br/><br/>  Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
 |Lassen Sie Telefonnummern an uns übertragen.  <br/> |Laden Sie eines dieser Formulare herunter: <br/> [Genehmigungsschreiben für die Niederlande (alle Nummern) (v.6.0) (nl-nl)](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |

@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.'
-ms.openlocfilehash: 2c049edf37395197abd46744d67eced8781b3c15cf56e4308cafffb63435083c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277580"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372035"
 ---
-# <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Konfigurieren der zu überwachenden Skype for Business Server Computer
+# <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Konfigurieren der zu überwachenden Skype for Business Server Computer
 
-**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.
+**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden Skype for Business Server 2019-Computer, und konfigurieren Sie den Computer als System Center Proxy.
 
-Jeder Skype for Business Server 2019-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
+Jeder Skype for Business Server 2019-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie zuerst Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installieren eines Zertifikats auf einem Watcher-Knoten, der sich außerhalb des Umkreisnetzwerks befindet
 <a name="watcher_node_outside"> </a>
@@ -37,7 +37,7 @@ Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie auc
 
 1. Doppelklicken Sie auf ihrem System Center Setupmedium auf **Setup.exe**.
 
-2. Klicken Sie im Setup-Assistenten für System Center Operation Manager unter "Optionale Installationen" auf **"Operations Manager-Agent** installieren".
+2. Klicken Sie im Setup-Assistenten für System Center Operation Manager auf **"Operations Manager-Agent installieren"** aus "Agent installieren" unter "Optionale Installationen".
 
 3. Klicken Sie im Setup-Assistenten System Center auf der Seite "Willkommen bei der System Center Operations Manager-Setup-Assistenten" auf **"Weiter".**
 
@@ -76,6 +76,6 @@ Um sicherzustellen, dass der neue Skype for Business Server-Agent am Ermittlungs
 
 4. Stellen Sie sicher, dass im Operations Manager-Ereignisprotokoll keine Fehlerereignisse aufgezeichnet wurden.
 
-5. Der Computer, auf den der Agent erfolgreich verschoben wird, wird unter "Agent Managed" angezeigt, und der Computer, auf dem der Agent manuell installiert wurde, wird unter "Ausstehende Verwaltung" angezeigt, klicken Sie auf den Computernamen, und genehmigen Sie ihn.
+5. Der Computer, auf den der Agent erfolgreich übertragen wird, wird unter "Agent Managed" angezeigt, und der Computer, auf dem der Agent manuell installiert wurde, wird unter "Ausstehende Verwaltung" angezeigt, klicken Sie auf den Computernamen, und genehmigen Sie ihn.
 
 6. Klicken Sie mit der rechten Maustaste auf den Namen des Computers, und klicken Sie dann auf **Eigenschaften**. Wählen Sie im Dialogfeld Eigenschaften auf der Registerkarte Sicherheit die Option **Dieser Agent soll als Proxyagent fungieren und verwaltete Objekte auf anderen Computern erkennen** aus, und klicken Sie dann auf **OK**.

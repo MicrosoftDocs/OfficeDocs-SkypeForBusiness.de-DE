@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie allgemeine Besprechungsrichtlinieneinstellungen in ihrer Teams.
-ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235210"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392922"
 ---
-# <a name="meeting-policy-settings---general"></a>Besprechungsrichtlinien – Allgemeine Einstellungen
+# <a name="meeting-policy-settings---general"></a>Besprechungsrichtlinien – Allgemeine Einstellungen
 
 <a name="bkgeneral"> </a>
 
@@ -38,7 +38,9 @@ In diesem Artikel werden die folgenden allgemeinen Richtlinieneinstellungen für
 - [Planung privater Besprechungen zulassen](#allow-scheduling-private-meetings)
 - [Sofortbesprechungen in privaten Besprechungen zulassen](#allow-meet-now-in-private-meetings)
 - [Designierter Presenter-Rollenmodus](#designated-presenter-role-mode)
-- [Bericht zur Teilnahme an Besprechungen](#meeting-attendance-report)
+- [Einsatzbericht zulassen](#allow-engagement-report)
+- [Besprechungsregistrierung zulassen](#allow-meeting-registration)
+- [Wer kann registriert werden](#who-can-register)
 - [Besprechungsanbieter für den Islands-Modus](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>Sofortbesprechungen in Kanälen zulassen
@@ -108,7 +110,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Diese Einstellun
 
 Über die Einstellung **Wer kann präsentieren?** können Besprechungsorganisatoren die Referenten innerhalb einer Besprechung festlegen. Weitere Informationen finden Sie unter [Ändern der Teilnehmereinstellungen für eine Microsoft Teams-Besprechung](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) und [Rollen in einer Microsoft Teams-Besprechung](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-Derzeit können Sie diese Richtlinieneinstellung nur mithilfe von PowerShell konfigurieren. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
+Derzeit können Sie diese Richtlinieneinstellung nur mithilfe von PowerShell konfigurieren. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
 Um den Standardwert für die Einstellung **Wer kann präsentieren?** in Microsoft Teams anzugeben, legen Sie den Parameter **DesignatedPresenterRoleMode** auf einen der folgenden Werte fest:
 
@@ -118,15 +120,44 @@ Um den Standardwert für die Einstellung **Wer kann präsentieren?** in Microsof
 
 Bedenken Sie, dass, nachdem Sie den Standardwert festgelegt haben, Besprechungsorganisatoren diese Einstellung in Microsoft Teams weiterhin ändern und auswählen können, wer in den von ihnen geplanten Besprechungen präsentieren kann.
 
-## <a name="meeting-attendance-report"></a>Bericht zur Teilnahme an Besprechungen
+## <a name="allow-engagement-report"></a>Einsatzbericht zulassen
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Besprechungsorganisatoren den [Teilnahmebericht zu einer Besprechung](teams-analytics-and-reports/meeting-attendance-report.md) herunterladen können.
 
-Derzeit können Sie diese Richtlinieneinstellung nur mithilfe von PowerShell konfigurieren. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
+Diese Richtlinie ist standardmäßig deaktiviert und ermöglicht Es Ihren Organisatoren zu sehen, wer sich registriert hat und an den von ihnen eingerichteten Besprechungen und Webinaren teilgenommen hat. Um diese Option im Teams Admin Center zu aktivieren, wechseln Sie zu Besprechungsbesprechungsrichtlinien  >  , und legen Sie die Richtlinie auf **Aktiviert festgelegt.**
 
-Damit ein Besprechungsorganisator den Bericht zur Besprechungsteilnahme herunterladen kann, legen Sie den Parameter **AllowEngagementReport** auf **Enabled (Aktiviert) festgelegt.** Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt. Diese Einstellung ist standardmäßig aktiviert.
+Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
+
+Damit ein Besprechungsorganisator den Bericht zur Besprechungsteilnahme herunterladen kann, legen Sie den Parameter **AllowEngagementReport** auf **Enabled (Aktiviert) festgelegt.** Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt. Diese Einstellung ist standardmäßig nicht aktiviert.
 
 Um zu verhindern, dass der Bericht vom Besprechungsorganisator heruntergeladen wird, legen Sie den Parameter auf **Deaktiviert** (disabled) fest.
+
+## <a name="allow-meeting-registration"></a>Besprechungsregistrierung zulassen
+
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Wenn Sie dies aktivieren, können die Benutzer in Ihrer Organisation Webinare einrichten. Diese Richtlinie ist standardmäßig aktiviert.
+
+Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Sie zu **Besprechungsbesprechungsrichtlinien**  >  . Um die Besprechungsregistrierung zu deaktivieren, legen Sie die Richtlinie auf **Aus .**
+
+Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
+
+Um die Besprechungsregistrierung zu aktivieren, legen Sie **den Parameter AllowMeetingRegistration auf** True **(Wahr) festgelegt.** Diese ist standardmäßig **auf True** festgelegt.
+
+Um die Besprechungsregistrierung zu deaktivieren und zu verhindern, dass Benutzer Webinare planen, legen Sie den Parameter auf **False ..**
+
+## <a name="who-can-register"></a>Wer kann registriert werden
+
+Diese Richtlinie steuert, welche Benutzer Webinare registrieren und teilnehmen können. Diese Richtlinie bietet zwei Optionen, die nur verfügbar sind, wenn **Die Registrierung von** Besprechungen zulassen aktiviert ist.
+
+- Legen **Wer** kann sich  für Jeder registrieren, wenn Sie zulassen möchten, dass jeder , auch anonyme Benutzer, Webinare registriert und daran teilnehmen kann, die von Benutzern in Ihrer Organisation eingerichtet wurden.
+- Legen **Wer, dass jeder** **in** der Organisation registriert werden kann, wenn Sie zulassen möchten, dass nur die Benutzer in Ihrer Organisation Webinare registrieren und teilnehmen können.
+
+Standardmäßig ist Wer **registriert werden** auf **Jeder festgelegt.** Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Sie zu  >  **Besprechungsbesprechungsrichtlinien**.
+
+Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
+
+Damit jeder, auch anonyme Benutzer, Webinare registrieren und teilnehmen kann, legen Sie den Parameter **WhoCanRegister** auf **Jeder .** Diese ist standardmäßig **auf Jeder** festgelegt.
+
+Damit nur Benutzer in Ihrer Organisation Webinare registrieren und teilnehmen können, legen Sie den Parameter auf **EveryoneInCompany .**
 
 ## <a name="meeting-provider-for-islands-mode"></a>Besprechungsanbieter für den Islands-Modus
 
@@ -134,7 +165,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Eins
 
 Sie können diese Richtlinie nur für Benutzer im Inselmodus anwenden und für die der Parameter **AllowOutlookAddIn** in ihrer Microsoft Teams-Richtlinie auf **True** festgelegt ist.
 
-Derzeit können Sie diese Richtlinie nur mithilfe von PowerShell festlegen. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
+Derzeit können Sie diese Richtlinie nur mithilfe von PowerShell festlegen. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
 Wenn Sie angeben möchten, welches Besprechungs-Add-In für Benutzer zur Verfügung stehen soll, legen Sie den Parameter **PreferredMeetingProviderForIslandsMode** wie folgt fest:
 
@@ -153,5 +184,5 @@ Besprechungsreaktionen sind standardmäßig deaktiviert. Das Deaktivieren der Re
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+- [Zuweisen von Richtlinien in Teams](policy-assignment-overview.md)
 - [Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern](meeting-policies-restricted-anonymous-access.md)

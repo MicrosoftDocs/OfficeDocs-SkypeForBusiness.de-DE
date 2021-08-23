@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285684"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365672"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Schnellstart: Besprechungen, Webinare und Liveereignisse 
 
@@ -83,7 +83,7 @@ In der folgenden Tabelle sind die wichtigsten Artikel aufgeführt, die Sie lesen
 | Artikel | Beschreibung | 
 |----------|--------|
 | [Besprechungseinstellungen](meeting-settings-in-teams.md) |  Hier wird erläutert, wie die Besprechungseinstellungen für anonyme Benutzer, Besprechungseinladungen und Mediendatenverkehr festgelegt werden.  |
-| [Besprechungsrichtlinien](meeting-policies-in-teams.md)  | In diesem Artikel finden Sie Details dazu, wie die Richtlinien erstellt und verwaltet werden, über die festgelegt wird, welche Features für die Besprechungsteilnehmer verfügbar sind. | 
+| [Besprechungsrichtlinien](meeting-policies-overview.md)  | In diesem Artikel finden Sie Details dazu, wie die Richtlinien erstellt und verwaltet werden, über die festgelegt wird, welche Features für die Besprechungsteilnehmer verfügbar sind. | 
 | [Verwalten der Aufzeichnung von Microsoft Teams-Cloudbesprechungen](cloud-recording.md) | Hier finden Sie Informationen dazu, wie Besprechungsaufzeichnungen verwaltet werden. |
 | [Verwalten der Geräte Ihrer Organisation](device-management.md)| In diesem Artikel wird erläutert, wie Sie die Geräte Ihrer Organisation verwalten können, z. B. Telefone und Microsoft Teams-Räume. |
 ||

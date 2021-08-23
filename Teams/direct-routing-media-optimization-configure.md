@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Optimierung lokaler Medien für direktes Routing in Teams
+title: Konfigurieren der lokalen Medienoptimierung für direktes Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,16 +16,16 @@ f1.keywords:
 description: Konfigurieren der lokalen Medienoptimierung für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235360"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365632"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Konfigurieren der lokalen Medienoptimierung für direktes Routing
 
-Die Konfiguration für die Optimierung lokaler Medien basiert auf Netzwerkeinstellungen, die für andere Cloud-Sprachfeatures wie Location-Based Routing und dynamische Notrufe verwendet werden. Weitere Informationen zu Netzwerkregionen, Netzwerkstandorten, Netzwerksubnetzen und vertrauenswürdigen IP-Adressen finden Sie unter Netzwerkeinstellungen für [Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
+Die Konfiguration für die Optimierung lokaler Medien basiert auf Netzwerkeinstellungen, die für andere Cloud-Sprachfeatures, z. B. Location-Based Routing und dynamische Notrufe, üblich sind. Weitere Informationen zu Netzwerkregionen, Netzwerkstandorten, Netzwerksubnetzen und vertrauenswürdigen IP-Adressen finden Sie unter Netzwerkeinstellungen für [Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
 
 Informationen zum Konfigurieren der Optimierung lokaler Medien finden Sie unter [Optimierung lokaler Medien für Direktes Routing.](direct-routing-media-optimization.md)  
 
@@ -52,42 +52,13 @@ Um den Benutzer und die SBC-Websites zu konfigurieren, müssen Sie:
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>Konfigurieren Sie SBC(s) für die Optimierung lokaler Medien gemäß der SBC-Anbieterspezifikation
 
-In diesem Artikel wird die Konfiguration für Microsoft-Komponenten beschrieben. Informationen zur SBC-Konfiguration finden Sie in der Dokumentation zu SBC-Lieferanten.
-
-Die Optimierung lokaler Medien wird von den folgenden SBC-Anbietern unterstützt:
-
-| Anbieter | Produkt |    Softwareversion |
-|:------------|:-------|:-------|
-| [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
-|            |  Mediant 800 SBC |   7.20A.256 | 
-|            |  Mediant 2600 SBC |  7.20A.256 | 
-|            |  Mediant 4000 SBC |  7.20A.256 | 
-|            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.256 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.256 |
-| [SBC Core des Menübands](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
-|            |  SBC 5210         | 8.2  |
-|            |  SBC 5400         | 8.2  |
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWe          | 8.2  |
-| [SBC Edge im Menüband](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  Lite SBC Schwedisch | 8.1.5 |
-|               | SBC 1000 | 8.1.5  |
-|               | SBC 2000 | 8.1.5  |
-| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
-| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
-
+In diesem Artikel wird die Konfiguration für Microsoft-Komponenten beschrieben. Informationen zur SBC-Konfiguration finden Sie in der Dokumentation zu SBC-Lieferanten. Informationen dazu, welche SBC-Hersteller die Optimierung lokaler Medien unterstützen, finden Sie unter [Session Border Controller Certified for Direct Routing](direct-routing-border-controllers.md).
 
 ## <a name="manage-external-trusted-ip-addresses"></a>Verwalten von externen vertrauenswürdigen IP-Adressen
 
 Bei externen vertrauenswürdigen IPs handelt es sich um die externen Internet-IPs des Unternehmensnetzwerks. Bei diesen IP-Adressen handelt es sich um die IP-Adressen, die von Microsoft Teams verwendet werden, wenn sie eine Verbindung mit Microsoft 365. Sie müssen diese externen IPs für jede Website hinzufügen, auf der Benutzer die Optimierung lokaler Medien verwenden.
 
-Um die öffentlichen IP-Adressen für jede Website hinzuzufügen, verwenden Sie das cmdlet New-CsTenantTrustedIPAddress-Cmdlet . Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
+Um die öffentlichen IP-Adressen für jede Website hinzuzufügen, verwenden Sie das cmdlet "New-CsTenantTrustedIPAddress". Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -141,7 +112,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 ### <a name="define-network-subnets"></a>Definieren von Netzwerk-Subnetzen
 
-Verwenden Sie zum Definieren von Netzwerksubnetzen und zum Zuordnen dieser Subnetze zu Netzwerkstandorten das cmdlet New-CsTenantNetworkSubnet Netzwerkverbindung. Jedes Netzwerksubnetz kann nur einem Standort zugeordnet werden. 
+Verwenden Sie zum Definieren von Netzwerksubnetzen und zum Zuordnen dieser Subnetze zu Netzwerkstandorten das cmdlet New-CsTenantNetworkSubnet Netzwerkadresse. Jedes Netzwerksubnetz kann nur einem Standort zugeordnet werden. 
 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -157,7 +128,7 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 
 ## <a name="define-the-virtual-network-topology"></a>Definieren der virtuellen Netzwerktopologie 
 
-Zuerst erstellt der Mandantenadministrator eine neue SBC-Konfiguration für jeden relevanten SBC mit dem cmdlet New-CsOnlinePSTNGateway SBC.
+Zuerst erstellt der Mandantenadministrator eine neue SBC-Konfiguration für jeden relevanten SBC mithilfe des cmdlets New-CsOnlinePSTNGateway SBC.
 Der Mandantenadministrator definiert die virtuelle Netzwerktopologie durch Angeben der Netzwerkwebsites für die PSTN-Gatewayobjekte mithilfe des Set-CsOnlinePSTNGateway-Cmdlets:
 
 ```
@@ -182,13 +153,13 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 
 Hinweis: Um unterbrechungsfreie Vorgänge sicherzustellen, wenn die Optimierung lokaler Medien und das Location-Based-Routing (Location-Based Routing, LBR) gleichzeitig konfiguriert werden, müssen downstream SBCs für LBR aktiviert werden, indem der Parameter GatewaySiteLbrEnabled für jeden downstream-SBC auf $true festgelegt wird. (Diese Einstellung ist für den Proxy-SBC nicht obligatorisch.)
 
-Basierend auf den vorstehenden Informationen enthält Direct Routing drei proprietäre SIP Headers to SIP Invites and Re-invites ,wie in der folgenden Tabelle gezeigt.
+Gemäß den vorstehenden Informationen enthält Direct Routing drei proprietäre SIP Headers zu SIP Invites und Re-invites, wie in der folgenden Tabelle dargestellt.
 
 X-MS-Header, die in Direct Routing für Einladungen und Einladungen eingeführt Re-Invites, wenn BypassMode definiert ist:
 
 | Headername | Werte | Kommentare | 
 |:------------|:-------|:-------|
-| X-MS-UserLocation | intern/extern | Gibt an, ob der Benutzer intern oder extern ist. |
+| X-MS-UserLocation | intern/extern | Gibt an, ob es sich um einen internen oder externen Benutzer handelt. |
 | Request-URI INVITE sip: +84439263000@VNsbc.contoso.com SIP /2.0 | SBC-FQDN | Der für den Aufruf bestimmte FQDN selbst dann, wenn der SBC nicht direkt mit dem Direct-Routing verbunden ist |
 | X-MS-MediaPath | Beispiel: proxysbc.contoso.com, VNsbc.contoso.com | Reihenfolge der SBCs, die für den Medienpfad zwischen Dem Benutzer und Ziel-SBC verwendet werden sollten. Der endgültige SBC ist immer |
 | X-MS-UserSite | usersiteID | Vom Mandantenadministrator definierte Zeichenfolge |
@@ -242,7 +213,7 @@ Die folgende Tabelle zeigt die X-MS-Header, die von Direct Routing gesendet werd
 
 | Parameter | Erklärung |
 |:------------|:-------|
-| Einladen +8443926300@VNsbc.contoso.com | Der Ziel-FQDN der SBC gemäß Definition in der Online-Voiceroutingrichtlinie wird im Anforderungs-URI | 
+| Einladen +8443926300@VNsbc.contoso.com | Der Ziel-FQDN des SBC gemäß Definition in der Online-Voiceroutingrichtlinie wird im Anforderungs-URI gesendet. | 
 | X-MS-UserLocation: intern | Das Feld wies darauf hin, dass sich der Benutzer im Unternehmensnetzwerk befindet. |
 | X-MS-MediaPath: VNsbc.contoso.com |   Gibt an, welche SBC der Client zum Ziel-SBC durchlaufen muss. In diesem Fall, da es "Always Bypass" gibt und der Client intern der Zielname ist, der als einziger Name in der Kopfzeile gesendet wird. | 
 |X-MS-UserSite: Vietnam |   Das Feld, das auf der Website angegeben ist, auf der sich der Benutzer befindet. |
@@ -256,7 +227,7 @@ Die folgende Tabelle zeigt die X-MS-Header, die von Direct Routing gesendet werd
 
 
 Bei einem eingehenden Anruf ist der Standort des Benutzers unbekannt, und der SBC muss erraten, wo sich der Benutzer befindet. Wenn der Rat nicht richtig ist, ist eine erneute Einladung erforderlich. In diesem Fall wird davon ausgegangen, dass es sich um einen internen Benutzer handelt, dass Medien direkt fließen können und keine weiteren Aktionen erforderlich sind (erneutes Einladen).
-Der mit dem Direct Routing-Dienst verbundene SBC meldet den SBC-Ursprungsort, indem er die Felder Record-Route Kontakt liefert. Basierend auf diesen Feldern wird der Medienpfad mit Direct Routing berechnet.
+Der mit dem Direct Routing-Dienst verbundene SBC meldet den ursprungsenden SBC-Speicherort, indem Record-Route Und Kontaktfelder bereitstellen. Basierend auf diesen Feldern wird der Medienpfad mit Direct Routing berechnet.
 
 Hinweis: Da ein Benutzer mehrere Endpunkte haben kann, ist die Unterstützung von 183 nicht möglich. Für Direct-Routing wird in diesem Fall immer "180 Klingeln" verwendet. 
 
@@ -342,7 +313,7 @@ Das folgende Diagramm zeigt einen eingehenden Anruf mit dem OnlyForLocalUsers-Mo
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers  | Intern |   Anders als SBC | Ausgehend |
 
-Beim direkten Routing wird X-MediaPath basierend auf dem gemeldeten Standort des Benutzers und des Modus berechnet, der auf der SBC konfiguriert ist.
+Das direkte Routing berechnet X-MediaPath basierend auf dem gemeldeten Standort des Benutzers und des Modus, der auf der SBC konfiguriert ist.
 
 
 Das folgende Diagramm zeigt einen ausgehenden Anruf mit dem OnlyForLocalUsers-Modus und einem internen Benutzer, der sich nicht am selben Speicherort wie der SBC befindet.

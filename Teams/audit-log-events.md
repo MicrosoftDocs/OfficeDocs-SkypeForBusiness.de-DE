@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1203f394f9469fbe86a173d60c73280253011b70e4dd21da5290bd40b1e9df22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 91111f211234058d9b438f8100e0310eec7a9db0
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310903"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386694"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -73,7 +73,7 @@ Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im
 
 - Klicken Sie auf **Auswahl aufheben**, um die aktuelle Auswahl von Suchkriterien aufzuheben. Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt. Sie können auch auf **Gesamte Auswahl aufheben, um Ergebnisse für alle Aktivitäten anzuzeigen** klicken, um die getroffene Auswahl von Aktivitäten aufzuheben.
 
-- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut durchführen, damit weniger Ergebnisse zurückgegeben werden, oder Sie können alle Suchergebnisse exportieren, indem Sie **Ergebnisse exportieren**  >  **Alle Ergebnisse herunterladen** auswählen.
+- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzukehren, oder Sie können alle Suchergebnisse exportieren, indem Sie  >  **Alle Ergebnisse herunterladen auswählen.**
 
 Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Überwachungsprotokollsuche an. Ansuman Acharya, Programm-Manager für Microsoft Teams, veranschaulicht, wie eine Überwachungsprotokollsuche für Microsoft Teams durchgeführt wird.
 
@@ -117,12 +117,6 @@ Sie können Warnungen und das Senden von E-Mails an Administratoren und andere B
 
 ![Screenshot der Warnungen und Governanceaktionen für eine Aktivitätsrichtlinie](media/audit-log-governance.png)
 
-## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Erstellen von Anomalieerkennungsrichtlinien in Cloud App Security
-
-[Anomalieerkennungsrichtlinien](/cloud-app-security/anomaly-detection-policy) in Cloud App Security bieten sofort einsetzbare Benutzer- und Entitätsverhaltensanalyse (User and Entity Behavioral Analytics, UEBA) und maschinelles Lernen (ML), sodass Sie unmittelbar eine erweiterte Bedrohungserkennung in Ihrer Cloudumgebung ausführen können. Da sie automatisch aktiviert werden, bieten die neuen Anomalieerkennungsrichtlinien sofortige Ergebnisse durch sofortige Erkennung, indem sie zahlreiche Verhaltensanomalien bei allen Benutzer sowie den mit Ihrem Netzwerk verbundenen Computern und Geräten berücksichtigen. Darüber hinaus werden über die neuen Richtlinien mehr Daten aus dem Cloud App Security Detection-Modul verfügbar, um Ihnen dabei zu helfen, den Untersuchungsprozess zu beschleunigen und aktuelle Bedrohungen einzudämmen.
-
-Wir arbeiten an der Einbindung von Microsoft Teams-Ereignissen in Anomalieerkennungsrichtlinien. Derzeit können Sie Anomalieerkennungsrichtlinien für andere Office-Produkte einrichten und Maßnahmen für Benutzer festlegen, die diesen Richtlinien übereinstimmen.
-
 ## <a name="teams-activities"></a>Microsoft Teams-Aktivitäten
 
 Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer- und Administratoraktivitäten in Microsoft Teams im Microsoft 365-Überwachungsprotokoll erfasst werden. Die Tabelle enthält den Anzeigenamen, der in der Spalte **Aktivitäten** angezeigt wird, sowie den Namen des zugehörigen Vorgangs, der in den Detailinformationen eines Überwachungsdatensatzes und in der CSV-Datei aufscheint, wenn Sie Ihre Suchergebnisse exportieren.
@@ -138,36 +132,37 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Organisationseinstellung geändert   |TeamsTenantSettingChanged         |Der Vorgang "TeamsTenantSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem globalen Administrator im Microsoft 365 Admin Center ausgeführt werden. Diese Aktivitäten wirken sich organisationsweit auf Microsoft Teams-Einstellungen aus. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md). <br>Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Aktiviert bzw. deaktiviert Microsoft Teams für die Organisation (**Microsoft Teams**).</li><li>Aktiviert bzw. deaktiviert die Interoperabilität zwischen Microsoft Teams und Skype for Business für die Organisation (**Skype for Business-Interoperabilität**).</li><li>Aktiviert oder deaktiviert die Organigrammansicht in Microsoft Teams-Clients (**Organigrammansicht**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, private Besprechungen zu planen (**Private Besprechung planen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Kanalbesprechungen zu planen (**Kanalbesprechung planen**).</li><li>Aktiviert oder deaktiviert Videoanrufe in Microsoft Teams-Besprechungen (**Video für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Bildschirmfreigabe in Microsoft Teams-Meetups für die Organisation (**Bildschirmfreigabe für Skype-Besprechungen**).</li><li>Aktiviert oder deaktiviert die Möglichkeit, animierte Bilder (so genannte Giphys) zu Microsoft Teams-Unterhaltungen hinzuzufügen (**Animierte Bilder**).</li><li>Ändert die Inhaltsbewertungseinstellung für die Organisation (**Inhaltsbewertung**). Die Inhaltsbewertung beschränkt, welche Arten animierter Bilder in Unterhaltungen angezeigt werden können.</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, anpassbare Bilder (so genannte benutzerdefinierte Memes) aus dem Internet in Teamunterhaltungen hinzuzufügen (**Anpassbare Bilder aus dem Internet**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, bearbeitbare Bilder (so genannte Aufkleber) zu Teamunterhaltungen hinzuzufügen (**Bearbeitbare Bilder**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Bots in Microsoft Teams-Chats und -Kanälen zu verwenden (**Organisationsweite Bots**).</li><li>Aktiviert bestimmte Bots für Microsoft Teams. Davon ausgenommen ist der Microsoft Teams-Hilfebot „T-Bot“, der verfügbar ist, wenn Bots für die Organisation aktiviert sind (**Einzelne Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Teammitglieder, Erweiterungen oder Registerkarten hinzuzufügen (**Erweiterungen oder Registerkarten**).</li><li>Aktiviert oder deaktiviert das Querladen proprietärer Bots für Microsoft Teams (**Querladen von Bots**).</li><li>Aktiviert oder deaktiviert die Möglichkeit für Benutzer, E-Mail-Nachrichten an einen Microsoft Teams-Kanal zu senden (**Kanal-E-Mail**).</li></ul>|
 |Hat die Rolle von Mitgliedern im Team geändert    |MemberRoleChanged         |Ein Teambesitzer ändert die Rolle von Mitgliedern in einem Team. Die folgenden Werte geben den Rollentyp an, der dem Benutzer zugewiesen wurde. <br><br>**1**: Gibt die Mitgliedsrolle an.<br>**2**: Gibt die Besitzerrolle an.<br>**3**: Gibt die Gastrolle an.<br><br>Die Eigenschaft „Mitglied“ umfasst auch den Namen Ihrer Organisation und die E-Mail-Adresse des Mitglieds.        |
 |Teameinstellung geändert    |TeamSettingChanged        |Der Vorgang "TeamSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teambesitzer ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt.<ul><li>Ändert die Art des Zugriffs für ein Team. Teams können als „Privat“ oder „Öffentlich" festgelegt werden (**Art des Teamzugriffs**). Wenn ein Team privat ist (Standardeinstellung), können Benutzer nur nach Einladung darauf zugreifen. Wenn ein Team öffentlich ist, kann es von allen Benutzern gefunden werden.</li><li>Ändert die Informationsklassifizierung eines Teams (**Teamklassifizierung**). Teamdaten können beispielsweise als mit hohen, mittleren oder niedrigen geschäftlichen Auswirkungen klassifiziert werden.</li><li>Ändert den Namen eines Teams (**Teamname**).</li><li>Ändert die Beschreibung eines Teams (**Teambeschreibung**).</li><li>Es wurden Änderungen an den Teameinstellungen vorgenommen. Ein Teambesitzer kann auf diese Einstellungen zugreifen, indem er mit der rechten Maustaste auf ein Team klickt, anschließend auf **Team verwalten** klickt und dann die Registerkarte **Einstellungen** auswählt. Für solche Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** der Name der geänderten Einstellung angezeigt.</li></ul>         |
-|Erstellen eines <sup>Chats 1</sup>|   ChatCreated|    Es Teams ein Chat erstellt.|
+|Erstellen eines <sup>Chats 1</sup>, <sup>2</sup>| ChatCreated|    Ein Teams Chat wurde erstellt.|
 |Team erstellt    |TeamCreated         |Ein Benutzer erstellt ein Team.         |
+|Nachricht gelöscht  |MessageDeleted |Eine Nachricht in einem Chat oder Kanal wurde gelöscht.|
 |Alle Organisations-Apps gelöscht|DeletedAllOrganizationApps           |Alle Organisations-Apps wurden aus dem Katalog gelöscht.     |
 |App gelöscht |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
 |Kanal gelöscht     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
 |Eine Nachricht mit einem URL-Link in der Datei Teams     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt ihr in der Nachricht einen URL-Link Teams.         |
-|Exportierte Nachrichten <sup>1</sup> |   MessagesExported |Chat- oder Kanalnachrichten wurden exportiert|.
-|Abgerufener Chat <sup>1</sup>  |ChatRetrieved  |Ein Microsoft Teams Chat wurde abgerufen.|
-|Abrufen aller gehosteten Inhalte einer Nachricht<sup>1</sup>    |MessageHostedContentsListed    |Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
+|Exportierte Nachrichten <sup>1</sup>, <sup>2</sup> | MessagesExported |Chat- oder Kanalnachrichten wurden exportiert|.
+|Abgerufener Chat <sup> 1</sup, <sup>2</sup>>    |ChatRetrieved  |Ein Microsoft Teams-Chat wurde abgerufen.|
+|Abrufen aller gehosteten Inhalte einer Nachricht<sup>1</sup>, <sup>2</sup>  |MessageHostedContentsListed    |Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
 |App installiert |AppInstalled         |Eine App wurde installiert.   |
 |Aktion auf Karte ausgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat eine Aktion auf einer adaptiven Karte ausgeführt. Adaptive Karten werden in der Regel von Bots verwendet, um die Anzeige umfassender Informationen und die Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Nur Inline-Eingabeaktionen auf einer adaptiven Karte innerhalb eines Chats sind im Überwachungsprotokoll verfügbar. Beispielsweise wenn ein Benutzer eine Antwort zu einer Umfrage in einer Kanalunterhaltung über eine adaptive Karte übermittelt, die von einem Umfrage-Bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", wodurch ein Dialogfeld geöffnet wird, oder Benutzeraktionen in Dialogfeldern sind im Überwachungsprotokoll nicht verfügbar.|
-|Neue Nachricht gepostet <sup>1</sup>  |NachrichtSent Eine neue Nachricht wurde in einem Chat oder Kanal gepostet.|
+|Neue Nachricht gepostet <sup>1</sup>, <sup>2</sup>    |NachrichtSent Eine neue Nachricht wurde in einem Chat oder Kanal gepostet.|
 |App veröffentlicht |AppPublishedToCatalog           |Dem Katalog wurde eine App hinzugefügt.     |
-|Lesen einer Nachricht <sup>1</sup>    |MessageRead    |Eine Nachricht eines Chats oder Kanals wurde abgerufen.|
-|Lesen gehosteter Inhalte einer Nachricht <sup>1</sup>  |MessageHostedContentRead   |Gehosteter Inhalt in einer Nachricht, z. B. ein Bild oder ein Codeausschnitt, wurde abgerufen.|
+|Lesen einer Nachricht <sup>1,</sup> <sup>2</sup>  |MessageRead    |Eine Nachricht eines Chats oder Kanals wurde abgerufen.|
+|Lesen gehosteter Inhalte einer Nachricht <sup>1</sup>, <sup>2</sup>    |MessageHostedContentRead   |Gehosteter Inhalt in einer Nachricht, z. B. ein Bild oder ein Codeausschnitt, wurde abgerufen.|
 |Bot aus Team entfernt   |BotRemovedFromTeam         |Ein Benutzer entfernt einen Bot aus einem Team.       |
 |Connector entfernt     |ConnectorRemoved         |Ein Benutzer entfernt einen Connector aus einem Kanal.         |
 |Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.         |
 |Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
-|Abgerufene Nachrichten <sup>1</sup>    |MessagesListed |Nachrichten aus einem Chat oder Kanal wurden abgerufen.|
-|Senden einer Nachricht mit einem URL-Link in Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
-|Benachrichtigung über gesendete Änderung bei der Nachrichtenerstellung <sup>1</sup> |MessageCreatedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine neue Nachricht zu informieren.|
-|Benachrichtigung über gesendete Änderungen zum Löschen von <sup>Nachrichten 1</sup> |MessageDeletedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine gelöschte Nachricht zu informieren.|
-|Benachrichtigung über gesendete Änderung für Nachrichtenaktualisierung <sup>1</sup>   |MessageUpdatedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine aktualisierte Nachricht zu informieren.|
-|Abonnierte <sup>Nachrichtenänderungsbenachrichtigungen 1</sup>    |SubscribedToMessages   |Eine Listeneranwendung hat ein Abonnement erstellt, um Änderungsbenachrichtigungen für Nachrichten zu erhalten.|
+|Abgerufene Nachrichten <sup>1</sup>, <sup>2</sup>  |MessagesListed |Nachrichten aus einem Chat oder Kanal wurden abgerufen.|
+|Eine Nachricht mit einem URL-Link in der Nachricht Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
+|Benachrichtigung über gesendete Änderung zur Nachrichtenerstellung <sup>1</sup>, <sup>2</sup>   |MessageCreatedNotification |Eine Änderungsbenachrichtigung wurde gesendet, um einen abonnierten Listener über eine neue Nachricht zu informieren.|
+|Änderungsbenachrichtigung zum Löschen einer Nachricht <sup>gesendet 1</sup>, <sup>2</sup>   |MessageDeletedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine gelöschte Nachricht zu informieren.|
+|Benachrichtigung über gesendete Änderung für Nachrichtenaktualisierung <sup>1</sup>, <sup>2</sup> |MessageUpdatedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine aktualisierte Nachricht zu informieren.|
+|Abonniert: <sup>Nachrichtenänderungsbenachrichtigungen 1</sup>, <sup>2</sup>  |SubscribedToMessages   |Eine Listeneranwendung hat ein Abonnement erstellt, um Änderungsbenachrichtigungen für Nachrichten zu erhalten.|
 |App deinstalliert |AppUninstalled           |Eine App wurde deinstalliert.     |
 |App aktualisiert |AppUpdatedInCatalog           |Eine App wurde im Katalog aktualisiert.     |
-|Chat aktualisiert <sup>1</sup>    |ChatUpdated    |Ein Teams Chat wurde aktualisiert.|
-|Nachricht aktualisiert <sup>1</sup> |MessageUpdated |Eine Nachricht zu einem Chat oder Kanal wurde aktualisiert.|
+|Chat aktualisiert <sup>1</sup>, <sup>2</sup>  |ChatUpdated    |Ein Teams Chat wurde aktualisiert.|
+|Nachricht aktualisiert <sup>1</sup>, <sup>2</sup>   |MessageUpdated |Eine Nachricht zu einem Chat oder Kanal wurde aktualisiert.|
 |Connector aktualisiert    |ConnectorUpdated         |Ein Benutzer hat in einem Kanal einen Connector geändert.         |
 |Registerkarte aktualisiert   |TabUpdated         |Ein Benutzer hat in einem Kanal eine Registerkarte geändert.         |
 |App-Upgrade |AppUpgraded           |Für eine App wurde ein Upgrade auf die neueste Version im Katalog durchgeführt.     |
@@ -175,7 +170,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 ||||
 
 > [!NOTE]
-> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.
+> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter [Erweiterte Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen für die Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 
@@ -220,6 +215,12 @@ Sie können die Office 365-Verwaltungsaktivitäten-API verwenden, um Information
 ## <a name="attribution-in-teams-audit-logs"></a>Zuordnungen in Microsoft Teams-Überwachungsprotokollen
 
 Mitgliedschaftsänderungen in Microsoft Teams (z. B. hinzugefügte oder gelöschte Benutzer), im Microsoft 365-Administratorportal oder der Microsoft 365 Groups Graph-API werden in Microsoft Teams-Überwachungsnachrichten und im Kanal "Allgemein" einem bestehenden Besitzer des Teams und nicht dem eigentlichen Ausführenden der Aktion zugeordnet. Informationen zu diesen Szenarien finden Sie in Azure AD oder [Microsoft 365-Gruppenüberwachungsprotokollen](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+
+## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Erstellen von Anomalieerkennungsrichtlinien in Cloud App Security
+
+[Anomalieerkennungsrichtlinien](/cloud-app-security/anomaly-detection-policy) in Cloud App Security bieten sofort einsetzbare Benutzer- und Entitätsverhaltensanalyse (User and Entity Behavioral Analytics, UEBA) und maschinelles Lernen (ML), sodass Sie unmittelbar eine erweiterte Bedrohungserkennung in Ihrer Cloudumgebung ausführen können. Da sie automatisch aktiviert werden, bieten die neuen Anomalieerkennungsrichtlinien sofortige Ergebnisse durch sofortige Erkennung, indem sie zahlreiche Verhaltensanomalien bei allen Benutzer sowie den mit Ihrem Netzwerk verbundenen Computern und Geräten berücksichtigen. Darüber hinaus werden über die neuen Richtlinien mehr Daten aus dem Cloud App Security Detection-Modul verfügbar, um Ihnen dabei zu helfen, den Untersuchungsprozess zu beschleunigen und aktuelle Bedrohungen einzudämmen.
+
+Wir arbeiten an der Einbindung von Microsoft Teams-Ereignissen in Anomalieerkennungsrichtlinien. Derzeit können Sie Anomalieerkennungsrichtlinien für andere Office-Produkte einrichten und Maßnahmen für Benutzer festlegen, die diesen Richtlinien übereinstimmen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

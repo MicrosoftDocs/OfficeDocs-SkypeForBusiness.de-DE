@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: d64b730549a98b597de0f28c53fbe45f793e9f77b5270aa464a722692f59aaae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7b0eef37f335aeb0094dba568dcc98a3fd1bd07
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340441"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399054"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
@@ -35,7 +35,7 @@ Wie bereits zuvor erwähnt, gibt es in Microsoft Teams zwei Arten von Tags.
 - **Tagging nach Schicht:** Mit diesem Feature werden Personen automatisch Tags zugewiesen, die ihren Plan- und Schicht-Gruppennamen in der [Schichten-App](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) in Microsoft Teams entsprechen. Beispielsweise erreicht das Tag "DiensthabenderTechniker" alle Techniker, die laut Schichten-App zu dem Zeitpunkt, zu dem das Tag in einem Chat oder Kanalbeitrag verwendet wird, für die Arbeit eingeteilt sind. Mit "Tagging nach Schicht" ist es in Microsoft Teams nicht mehr notwendig, die Namen der Mitarbeiter im Schichtdienst kennen, wenn Benutzer Informationen schnell weitergeben müssen. "Tagging nach Schicht" kann auch durch große Personalverwaltungssysteme wie JDA, Kronos und AMiON unterstützt werden durch die Kopplung mit "Schichten" in Microsoft Teams. Weitere Informationen zum Einrichten dieses Features finden Sie unter [Einrichten von "Tagging nach Schicht"](#set-up-tagging-by-shift).
 
 > [!NOTE]
-> Tags werden in privaten Kanälen noch nicht unterstützt. Tags sind in GCC High- oder Department of Defense (DoD)-Organisationen nicht verfügbar. 
+> Tags werden in privaten Kanälen noch nicht unterstützt. Tags sind in Organisationen des US-Verteidigungsministeriums (Department of Defense, DoD) nicht verfügbar. 
 
 ## <a name="how-tags-work"></a>Funktionsweise von Tags
 

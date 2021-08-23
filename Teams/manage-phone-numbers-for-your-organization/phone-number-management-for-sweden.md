@@ -18,23 +18,23 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
-ms.openlocfilehash: f15b918536ff20f8baeeccbb5a11364346a173d3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
+ms.openlocfilehash: 85d6d4c35acfa8a9768444d07f23d929227a934f
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233030"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380589"
 ---
 # <a name="phone-number-management-for-sweden"></a>Telefon der Nummerverwaltung für Schweden
 
-Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Anforderung einer neuen Telefonnummer für Schweden (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [Neue Telefonnummernanforderung für Schweden (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)|
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Anforderung einer neuen Telefonnummer für Schweden (v.5.0) (sv-se)](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [Neue Telefonnummernanforderung für Schweden (v.5.0) (en-us)](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)|
 Lassen Sie Telefonnummern an uns übertragen.  <br/> |Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Schweden (alle Nummern) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/> |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten.      <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |

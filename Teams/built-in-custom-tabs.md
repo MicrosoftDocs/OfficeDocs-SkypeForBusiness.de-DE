@@ -16,15 +16,14 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d4950f6c85910bb5b6c155c63a1048d73022d00ea9447fff3521c3b617fd6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5eb82e322f8e8f28c7e1afc8c3c0b76ce277a36
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295232"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372065"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
-==================================================
+# <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 
 Registerkarten ermöglichen Teammitgliedern den Zugriff auf Dienste und Inhalte an einem dedizierten Bereich innerhalb eines Kanals oder in einem Chat. Auf diese Weise kann das Team direkt mit Tools und Daten arbeiten und sich über die Tools und Daten unterhalten, und das alles im Kontext des Kanals oder Chats.
 
@@ -46,7 +45,7 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
 - Besitzer und Teammitglieder können einem Kanal oder Chat weitere  Registerkarten hinzufügen, indem sie auf Registerkarte hinzufügen klicken Screenshot der Schaltfläche "Registerkarte hinzufügen" mit einem ![ +-Zeichen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) am oberen Rand des Kanals oder Chats aus.
 
-- Excel, PowerPoint, Word- und PDF-Dateien müssen auf  die Registerkarte Dateien hochgeladen werden, bevor sie in Registerkarten konvertiert werden können. Jede vorhandene hochgeladene Datei kann mit nur einem Klick in eine Registerkarte konvertiert werden, wie unten dargestellt.
+- Excel-, PowerPoint-, Word- und PDF-Dateien müssen  auf die Registerkarte Dateien hochgeladen werden, bevor sie in Registerkarten konvertiert werden können. Jede vorhandene hochgeladene Datei kann mit nur einem Klick in eine Registerkarte konvertiert werden, wie unten dargestellt.
 
     ![Screenshot der Registerkarte „Dateien“ mit ausgewählter PowerPoint-Datei](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
@@ -58,7 +57,7 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
 ## <a name="develop-custom-tabs"></a>Entwickeln von benutzerdefinierten Registerkarten
 
-Zusätzlich zu den integrierten Registerkarten können Sie ihre eigenen Registerkarten entwerfen und entwickeln, um sie Teams und die Freigabe für die restliche Community zu integrieren. Weitere Informationen finden Sie in der [Dokumentation für Entwickler](/microsoftteams/platform/tabs/what-are-tabs).
+Zusätzlich zu den integrierten Registerkarten können Sie ihre eigenen Registerkarten entwerfen und entwickeln, um sie für die Teams und die Freigabe für die restliche Community zu integrieren. Weitere Informationen finden Sie in der [Dokumentation für Entwickler](/microsoftteams/platform/tabs/what-are-tabs).
 
 ![Screenshot einer benutzerdefinierten Beispielregisterkarte in Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

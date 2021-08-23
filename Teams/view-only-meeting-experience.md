@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ba2a2a404c71aba007d667e5276d789b05890a8b
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234430"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380469"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -37,10 +37,10 @@ Teilnehmer, die zuerst an der Besprechung teilnehmen, erhalten bis zur Kapazitä
 
 Teilnehmer, die der Besprechung nach Erreichen der Kapazitätsgrenze beitreten, werden eine schreibgeschützte Erfahrung erhalten.
 
-Die Teilnehmer können über Desktop, Web und mobile Geräte (Android und iOS Teams der NS-Ansicht beitreten.
+Die Teilnehmer können der Ansicht über Desktop, Web und mobile Geräte (Android und iOS Teams beitreten.
 
 > [!Note]
-> Die aktuelle Beschränkung der Kapazität der "Haupt besprechung" (also der Anzahl der vollständig interaktiven Benutzer) beträgt 1000 und umfasst GCC und Webinare.
+> Die aktuelle Beschränkung der Kapazität der "Haupt besprechung" (also die Anzahl der vollständig interaktiven Benutzer) beträgt 1000 und umfasst GCC und Webinare.
 
 ## <a name="teams-view-only-experience-controls"></a>Teams von Steuerelementen für die 6-Ansicht
 
@@ -65,7 +65,7 @@ Wenn Sie die Option "Nur anzeigen" deaktivieren möchten, können Sie auch Power
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-In Zukunft können Sie die Option "Nur anzeigen" im Teams Admin Center aktivieren oder deaktivieren.
+In Zukunft können Sie die Option "Nur anzeigen" im Admin Center Teams aktivieren oder deaktivieren.
 
 ## <a name="impact-to-users"></a>Auswirkungen auf die Benutzer
 
@@ -73,7 +73,7 @@ Die Erfahrung eines Benutzers wird von mehreren Faktoren abhängen.
 
 Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht ist, kann ein Teilnehmer der Besprechung nicht beitreten, wenn einer der folgenden Punkte zutrifft:
 
-- Ein Administrator hat die Teams für den Organisator oder für den gesamten Mandanten deaktiviert.
+- Ein Administrator hat die Teams Barrierefreier Anzeige für den Organisator oder für den gesamten Mandanten deaktiviert.
 - Der Nur-Ansicht-Teilnehmer kann den Wartebereich nicht umgehen. Wenn beispielsweise ein Organisator einer Besprechung entscheidet, dass nur Personen **in** meiner Organisation den Wartebereich umgehen und ein Teilnehmer außerhalb der Organisation versucht, als nur zum Anzeigen verfügbarer Teilnehmer beizukehren, kann er nicht teilnehmen.
 
 Wenn die Kapazität der Haupt besprechung erreicht ist, sehen der Besprechungsorganisator und die Organisatoren ein Banner, das sie informiert, dass neue Teilnehmer nur als nur für die Anzeige bestimmte Teilnehmer teilnehmen werden.
@@ -115,7 +115,7 @@ Die folgenden Optionen in Besprechungen stehen den schreibgeschützten Teilnehme
 - Sie können ihr Audio oder Video nicht teilen.
 - Sie können den Besprechungschat nicht sehen und nicht daran teilnehmen.
 - Sie können den Video-Feed von Besprechungsteilnehmern nicht sehen, sofern der Teilnehmer nicht der aktive Sprecher ist.
-- Weitere Informationen PowerPoint Sie unter Hinzufügen von Dateien, die mithilfe der PowerPoint Live-Funktionalität oder einzelner Anwendungsfreigaben (mit Anderen als Desktop- oder Bildschirmfreigaben) freigegeben wurden.
+- Weitere PowerPoint, die mit der PowerPoint Live-Funktionalität oder einzelnen Anwendungsfreigaben (mit Anderen als Desktop- oder Bildschirmfreigaben) freigegeben wurden.
 - Heben Sie in der Besprechung die Hand.
 - Senden oder sehen Sie Reaktionen.
 - Interagieren Sie mit jeder 3P-App, die in die Teams-Besprechung integriert ist, einschließlich Umfragen.
@@ -123,10 +123,12 @@ Die folgenden Optionen in Besprechungen stehen den schreibgeschützten Teilnehme
 ## <a name="view-only-feature-limitations"></a>Schreibgeschützte Feature-Einschränkungen
 
 - Nur anzeigende Teilnehmer können Liveuntertitel nur auf dem Desktop und im Web anzeigen. Derzeit werden nur englische Untertitel unterstützt. 
+- Nur anzeigende Teilnehmer können sich nicht für Webinare registrieren.
 - Schreibgeschützte Teilnehmer werden durch Streaming-Technologie unterstützt.
 - Schreibgeschützte Teilnehmer werden im Anwesenheitsbericht nicht eingeschlossen.
 - Schreibgeschützte Teilnehmer werden eine einzelne Videoerfahrung haben. Sie können entweder den aktiven Sprecher sehen, oder den freigegebenen Inhalt, aber nicht beides.
-- Derzeit unterstützen wir die Layouts **Galerie**. **Große Galerie** oder **Zusammen-Modus** für schreibgeschützte Teilnehmer nicht.  
+- Derzeit unterstützen wir die Layouts **Galerie**. **Große Galerie** oder **Zusammen-Modus** für schreibgeschützte Teilnehmer nicht.
+- Nur anzeigende Teilnehmer werden nur von den folgenden Lobbyrichtlinien unterstützt: "Nur Sie", "Personen in meiner Organisation und Gäste", "Personen in meiner Organisation und vertrauenswürdige Organisationen und Gäste" und "Jeder". Wenn Sie eine Lobbyrichtlinie verwenden, die keine Nur anzeigen-Teilnehmer unterstützt, werden Nur anzeigen-Teilnehmer aus der Besprechung abgelehnt. 
 - Schreibgeschützte Teilnehmer werden nicht die gleiche Latenzzeit haben wir normale Teilnehmer. <sup>1</sup>
 
   <sup>1</sup> Schreibgeschützte Teilnehmer werden in der Besprechung eine Verzögerung von 30 Sekunden für Video und Audio haben.  

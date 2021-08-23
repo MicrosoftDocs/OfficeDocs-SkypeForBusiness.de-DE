@@ -1,5 +1,5 @@
 ---
-title: 'App für Überwachung von Patienten für Teams IT- und Compliance-Administratoren '
+title: 'App für Patientenüberwachung für IT Teams und Complianceadministratoren '
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: Informationen zur Überwachung der Patienten-App für Teams Administratoren
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308734"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380609"
 ---
 # <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die Patienten-App
 
@@ -30,14 +30,14 @@ ms.locfileid: "54308734"
 >
 >Mit der Listen-App können Pflegeteams in Ihrer Organisation im Gesundheitswesen Patientenlisten für Szenarien erstellen, die von Visiten und interdisziplinären Teambesprechungen bis zur allgemeinen Patientenüberwachung reichen. Sehen Sie sich die Vorlage "Patienten" in der Listen-App an, um die ersten Schritte zu unternehmen. Weitere Informationen zum Verwalten der Listen-App in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
-Mit einem Überwachungsprotokoll für Patienten-App-Aktivitäten können Teams für die Reaktion auf Vorfälle Änderungen an den elektronischen Krankenakten (Electronic Medical Records, EMR) oder PHI (Patient Healthcare Information) eines Patienten überprüfen und feststellen, ob Änderungen oder Verbesserungen der Richtlinien oder Verfahren für den PHI-Zugriff in Produktivitätstools erforderlich sind. Die Überwachungsprotokollereignisse behandeln Aktionen, die über die Benutzeroberfläche der Patienten-App ausgeführt werden.
+Ein Überwachungsprotokoll für Patienten-App-Aktivitäten ermöglicht es Teams für die Reaktion auf Vorfälle, Änderungen an den elektronischen Krankenakten (Electronic Medical Records, EMR) oder PHI (Patient Healthcare Information) eines Patienten zu überprüfen und festzustellen, ob Änderungen oder Verbesserungen der Richtlinien oder Verfahren für den PHI-Zugriff in Produktivitätstools erforderlich sind. Die Überwachungsprotokollereignisse behandeln Aktionen, die über die Benutzeroberfläche der Patienten-App ausgeführt werden.
 
 ## <a name="meet-hipaa-requirements"></a>Erfüllen der HIPAA-Anforderungen
 
-Gemäß den HIPAA-Richtlinien müssen Anbieter im Gesundheitswesen Aufzeichnungen über alle Zugriffe auf PHI speichern, damit die Änderungen überwacht werden können. Microsoft verpflichtet sich für unternehmensweite Kunden, die Microsoft Teams verwenden und ihnen dabei helfen, HIPAA-Anforderungen und -Steuerelemente zu erfüllen. Der Zugriff auf PHI über die Patienten-App wird vollständig nachverfolgt, und Protokolle werden im Microsoft 365 Compliance Center verfügbar gemacht, wie im Artikel zur Überwachungsprotokollsuche [beschrieben.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+Gemäß den HIPAA-Richtlinien müssen Anbieter im Gesundheitswesen Aufzeichnungen über alle Zugriffe auf PHI speichern, damit die Änderungen überwacht werden können. Microsoft verpflichtet sich für seine Unternehmenskunden, die Microsoft Teams verwenden und ihnen dabei helfen, HIPAA-Anforderungen und -Steuerelemente zu erfüllen. Der Zugriff auf PHI über die Patienten-App wird vollständig nachverfolgt, und Protokolle werden im Microsoft 365 Compliance Center verfügbar gemacht, wie im Artikel zur Überwachungsprotokollsuche [beschrieben.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 > [!IMPORTANT]
-> Die Pflege der Patientendaten wird vom Gesetz dem Gesundheitswesen unter die Last gestellt. Das Gesetz berechtigt Patienten zum Datenschutz und erfordert, dass ein IT-Administrator oder HIPAA-Controller problemlos bestimmen kann, welche Krankenschwester, Klinikangestellte oder Sozialarbeiter auf Patientenakten zugegriffen oder diese geändert haben. Eines der häufigsten Beispiele für eine Verletzung des PHI-Zugriffs ist der Zugriff auf VIP-Patienten. Die Überwachungsprotokollfunktion ist erforderlich, um Untersuchungen bei Verletzungen des PHI-Zugriffs durchzuführen und die HIPAA-Anforderungen zu erfüllen.
+> Die Pflege der Patientendaten wird vom Gesetz dem Gesundheitswesen unter die Last gestellt. Das Gesetz berechtigt Patienten zum Datenschutz und setzt voraus, dass ein IT-Administrator oder HIPAA-Controller problemlos bestimmen kann, welche Krankenschwester, Klinikangestellte oder Sozialarbeiter auf die Patientenakten zugegriffen oder diese geändert haben. Eines der häufigsten Beispiele für eine Verletzung des PHI-Zugriffs ist der Zugriff auf VIP-Patienten. Die Überwachungsprotokollfunktion ist erforderlich, um Untersuchungen bei Verletzungen des PHI-Zugriffs durchzuführen und die HIPAA-Anforderungen zu erfüllen.
 
 <!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
@@ -46,7 +46,7 @@ Gemäß den HIPAA-Richtlinien müssen Anbieter im Gesundheitswesen Aufzeichnunge
 Eine Überwachung hängt von mehreren vorherigen Konfigurationen ab:
 
 1. Der Administrator muss mit seinem FFORMAT-Dienstanbieter zusammenarbeiten, um EMR in einem von der Patienten-App verwendeten Format zu verwenden. 
-2. Ein Administrator eines Gesundheitswesens muss die Patienten-App in Teams Admin Center aktivieren. Weitere [Informationen finden Sie](../../teams-app-setup-policies.md) unter Verwalten Microsoft Teams Richtlinien für die App-Einrichtung in den zugehörigen Artikeln.
+2. Ein Administrator eines Gesundheitswesens muss die Patienten-App im Admin Center Teams aktivieren. Weitere [Informationen finden Sie unter](../../teams-app-setup-policies.md) Verwalten Microsoft Teams Richtlinien für die App-Einrichtung in den zugehörigen Artikeln.
 3. Der Administrator muss Aktivitätsprüfungen auf die gleiche Weise aktivieren wie jede Aktivitätsprotokollprüfung, wie [unter](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) Bevor Sie beginnen und Überwachungsprotokollsuche aktivieren oder [deaktivieren beschrieben.](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search) Wenn die Überwachungsprotokollierung bereits on ist, ist für die Patienten-App nichts Besonderes erforderlich. Jedes Mal, wenn ein Gesundheitswesensanbieter die App in einem Team installiert und führt, zeichnen die Überwachungsprotokolle ihre PHI-Aktivität auf.
 4. Der Administrator müsste dann die Verfügbarkeit der Patienten-App ankündigen, und Mitarbeiter im Gesundheitswesen mussten mit der Generierung von Aktivitäten beginnen, um in ein Audit eingeschlossen zu werden.
 
@@ -67,7 +67,7 @@ Die Patienten-App verfügt über eigene protokollierte Aktivitäten, die in der 
 | Patient zur Liste hinzugefügt | PatientListAdd Patient | Ein Patient wurde zu einer Liste der Patienten hinzugefügt. |
 | Notiz für Patienten hinzugefügt | PatientNoteAdd | Eine Notiz wurde zu einem Patientenakte hinzugefügt. |
 | Patientenschema erstellt | PatientSchemaCreate | Es wurde eine Reihe von Spalten erstellt, die in der Krankenakte verwendet werden. |
-| Ein Benutzer hat einen Export initiiert | ExportInitiation | Patientendaten wurden aus der Patienten-App in eine Patientendatei Excel exportiert. Die Datei wird auf der SharePoint-Website des Teams gespeichert. |
+| Ein Benutzer hat einen Export initiiert | ExportInitiation | Patientendaten wurden aus der Patienten-App in eine Patientendatei Excel exportiert. Die Datei wird auf der Teamwebsite SharePoint gespeichert. |
 | Patientenliste erstellt | PatientListCreate | Ein Benutzer hat eine Liste der Patienten erstellt.|
 | Standard-Patientenliste festlegen| PatientListDefaultSet| Ein Benutzer hat eine bestimmte Liste als Standardliste festgelegt.|
 | Patient aus Liste entfernt| PatientListRemove Patient | Ein Patient wurde aus einer Liste von Patienten entfernt. |

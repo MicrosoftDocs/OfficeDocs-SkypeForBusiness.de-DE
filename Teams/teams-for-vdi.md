@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233630"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406954"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -58,7 +58,7 @@ Zur Nutzung von Teams in einer virtualisierten Umgebung sind die folgenden Kompo
 
 Die Teams-Desktop-App wurde bei führenden Virtualisierungslösungsanbietern überprüft. Bei mehreren Marktanbietern empfehlen wir, dass Sie Sich an Ihren Virtualisierungslösungsanbieter wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit ist Teams VDI mit Audio/Video (AV)-Optimierung mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
+Derzeit sind Teams VDI mit Audio/Video(AV)-Optimierung mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -72,7 +72,7 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Azure Virtual Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop .](/azure/virtual-desktop/teams-on-wvd)
+Azure Virtual Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen sowie zu den Anforderungen und zur Installation finden Sie [unter Verwenden Teams auf dem virtuellen Azure-Desktop.](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -96,11 +96,11 @@ Sie können die Teams-Desktop-App für VDI mithilfe einer Installation auf Compu
 
 Für ein dediziertes beständiges Setup würde jeder Ansatz funktionieren. Für ein nicht beständiges Setup benötigt Teams jedoch eine Installation auf Computerbasis, um effizient zu funktionieren. Weitere Informationen finden Sie im Abschnitt [Nicht beständiges Setup](#non-persistent-setup).
 
-Bei einer Installation auf Computerbasis sind automatische Updates deaktiviert. Dies bedeutet, dass Sie zum Aktualisieren der Teams-App die aktuelle Version deinstallieren müssen, um auf eine neuere Version aktualisieren zu können. Bei einer Installation auf Benutzerbasis sind automatische Updates aktiviert. Bei den meisten VDI-Bereitstellungen empfehlen wir, Teams mithilfe einer Installation auf Computerbasis bereitzustellen.
+Bei der Installation pro Computer werden automatische Updates deaktiviert. Dies bedeutet, dass Sie zum Aktualisieren der Teams-App die aktuelle Version deinstallieren müssen, um auf eine neuere Version aktualisieren zu können. Bei der Installation pro Benutzer werden automatische Updates aktiviert. Bei den meisten VDI-Bereitstellungen empfehlen wir, Teams mithilfe einer Installation auf Computerbasis bereitzustellen.
 
 Um auf die neueste Version von Teams zu aktualisieren, beginnen Sie mit dem Deinstallationsverfahren, gefolgt von der neuesten Bereitstellung der Teams-Version.
 
-Damit die Teams AV-Optimierung in VDI-Umgebungen ordnungsgemäß funktioniert, muss der Thin Client-Endpunkt Zugriff auf das Internet haben. Wenn am Thin Client-Endpunkt kein Internetzugang verfügbar ist, wird der Start der Optimierung nicht erfolgreich sein. Dies bedeutet, dass sich der Benutzer in einem nicht optimierten Medienstatus befindet.
+Damit Teams AV-Optimierung in VDI-Umgebungen ordnungsgemäß funktioniert, muss der Thin-Client-Endpunkt Zugriff auf das Internet haben. Wenn am Thin-Client-Endpunkt kein Internetzugriff verfügbar ist, ist der Optimierungsstart nicht erfolgreich. Dies bedeutet, dass sich der Benutzer in einem nicht optimierten Medienstatus befindet.
 
 #### <a name="dedicated-persistent-setup"></a>Dediziertes beständiges Setup
 
@@ -188,7 +188,7 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
 
-        Bei diesem Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
+        Durch diesen Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
 
-Wenn sich Benutzer mit dieser VDI-Richtlinieneinstellung $true DisableCallsAndMeetings bei Teams mit VDI anmelden müssen, sollten sie nicht in der Lage sein,
+Wenn sich Benutzer mit dieser VDI-Richtlinieneinstellung $true DisableCallsAndMeetings bei Teams mit VDI anmelden müssen, sollten sie nicht in der Lage sein, dies zu:
 
 - Anrufe.
 - Nehmen Sie an Besprechungen teil.
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-Wenn sich Benutzer mit der VDI-Richtlinieneinstellung -DisableAudioVideoInCallsAndMeetings $true bei Teams mit VDI anmelden, sollten sie in der Lage sein, dies zu ermöglichen:
+Wenn benutzer mit der VDI-Richtlinieneinstellung -DisableAudioVideoInCallsAndMeetings $true sich bei Teams auf VDI anmelden, sollten sie in der Lage sein, dies zu ermöglichen:
 
 - Bildschirmfreigabe über Chat.
 - Nehmen Sie an einer Besprechung teil, und teilen Sie einen Bildschirm. Audiodaten auf ein Telefon verschieben.
@@ -471,7 +471,7 @@ if($cleanup){
 - Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung zum virtuellen Citrix-Computer trennen.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
 - Azure Virtual Desktop unterstützt zurzeit keine macOS- und Linux-basierten Clients.
-- Ein schneller Mandantenwechsel kann anrufbezogene Probleme mit VDI zur Folge haben. Durch einen Neustart des Clients werden diese Probleme minimiert.
+- Ein schneller Mandantenwechsel kann zu Problemen mit Anrufen bei VDI führen, z. B. dass keine Bildschirmfreigabe verfügbar ist, eine falsche Teilnehmerliste angezeigt wird usw. Durch einen Neustart des Clients werden diese Probleme minimiert.
 
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
@@ -498,14 +498,14 @@ Im Folgenden werden bekannte Probleme und Einschränkungen bei Anrufen und Bespr
 - Die Auflösung für eingehende und ausgehende Videos ist auf eine Auflösung von 720p beschränkt.
 - Es wird nur ein Videostream von einer eingehenden Kamera oder einem Bildschirmfreigabestream unterstützt. Wenn es eine Bildschirmfreigabe für eingehende Nachrichten gibt, wird diese Bildschirmfreigabe anstelle des Videos des Sprechers angezeigt.
 - Teams wechselt nicht zur Verwendung des letzten Audiogeräts, das ein Benutzer ausgewählt hat, wenn die Verbindung des Geräts getrennt ist und dann erneut verbunden ist.
+- Liveereignisse sind nicht optimiert.
 - Ausgehende Bildschirmfreigabe:
     - Die Anwendungsfreigabe wird nicht unterstützt.
 - Kontrolle geben und übernehmen:
     - Während einer Bildschirmfreigabe oder Anwendungsfreigabesitzung nicht unterstützt.
     - Während einer PowerPoint-Freigabesitzung unterstützt.
 - Einschränkungen nur für Citrix
-    - Bei der Bildschirmfreigabe bei einem Setup mit mehreren Monitoren wird nur der Hauptmonitor freigegeben.
-    - Die Skalierung mit hohen DPI-Kosten für CWA wird nicht unterstützt.
+   - Die Skalierung mit hohen DPI-Kosten für CWA wird nicht unterstützt.
 
 Bekannte Probleme, die nicht mit VDI in Zusammenhang stehen, finden Sie unter [Supportteams in Ihrer Organisation](/MicrosoftTeams/troubleshoot/teams-welcome).
 
@@ -525,4 +525,4 @@ Starten Sie dann VDA neu. Weitere Informationen finden Sie im Citrix-Supportarti
 
 - [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Verwenden Microsoft Teams Auf virtuellem Azure-Desktop](/azure/virtual-desktop/teams-on-wvd)
+- [Verwenden Microsoft Teams Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffcb99684c3f92bcc442c5f732d41643bf549b3f3c1d2aca7e5cb42df4269ebe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288423"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399084"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -41,11 +41,11 @@ Durch die erste mit der App "Genehmigungen" erstellte Genehmigung wird die Berei
 In diesem Artikel werden die Anforderungen und Rollen für die App "Genehmigungen" beschrieben.
 
 > [!NOTE]
-> Dieses Feature wurde noch nicht für Benutzer von Government Community Cloud (GCC), Government Community Cloud High (GCCH) und Department of Defense (DOD) veröffentlicht.
+> Dieses Feature wurde für Benutzer von Government Community Cloud (GCC), Government Community Cloud High (GCCH) und DEPARTMENT OF Defense (DOD) noch nicht veröffentlicht.
 
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 
-Um die App "Genehmigungen" verwenden zu können, benötigen Sie Berechtigungen für die folgenden Elemente:
+Zum Bereitstellen der Genehmigungen-App benötigen Sie Berechtigungen für die folgenden Elemente:
 
 - Berechtigungen zum Erstellen einer Microsoft CDS-Datenbank.
 
@@ -57,16 +57,18 @@ Um die App "Genehmigungen" verwenden zu können, benötigen Sie Berechtigungen f
 
 - Für Benutzer ist eine Lizenz für Microsoft Forms erforderlich, damit sie neue Genehmigungsvorlagen einrichten können.
 
+Um die Genehmigungen-App verwenden zu können, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird der Genehmigungen-Benutzerrolle in der Zielumgebung bei Ihrer ersten Genehmigungszuweisung automatisch hinzugefügt.
+
 ## <a name="storage-with-cds"></a>Speicher mit CDS
 
 Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datensprache, die von Geschäfts- und Analyseanwendungen im CDS verwendet wird. Sie besteht aus einer Reihe standardisierter, erweiterbarer Datenschemas, die von Microsoft und unseren Partnern veröffentlicht werden, und die anwendungs- und geschäftsprozessübergreifend für Einheitlichkeit der Daten und deren Bedeutung sorgen. Weitere Informationen zum [Allgemeinen Datenmodell der Microsoft Power Platform](/power-automate/get-started-approvals).
 
 Weitere Informationen zum [Genehmigungsworkflow](/power-automate/modern-approvals).
 
-Genehmigungen, die aus einer Vorlage erstellt werden, werden weiterhin Daten in CDS gespeichert, z. B. Titel, Details, Vorlagen-ID und vieles mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Weitere Informationen finden  [Sie unter Datenspeicherung für Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
+Genehmigungen, die aus einer Vorlage erstellt werden, werden weiterhin Daten in CDS gespeichert, z. B. Titel, Details, Vorlagen-ID und mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Weitere Informationen finden  [Sie unter Datenspeicherung für Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
 
 >[!Note]
->Wenn Sie die Formularvorlage auf der Microsoft Forms-Website löschen, wird Ihre Genehmigungsvorlage gelöscht, und die Benutzer können die Anforderung nicht starten. Benutzern wird die Fehlermeldung "CDB TableNotFound" angezeigt, wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die in Microsoft Forms gelöscht wurde.
+>Wenn Sie die Formularvorlage auf der Microsoft Forms-Website löschen, wird ihre Genehmigungsvorlage nicht mehr angezeigt, und die Benutzer können die Anforderung nicht starten. Benutzern wird die Fehlermeldung "CDB TableNotFound" angezeigt, wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die in Microsoft Forms gelöscht wurde.
 
 Die Genehmigungsvorlagen werden in Den Data Storage (SDS) gespeichert, einer kompatiblen Speicherplattform, die intern nur innerhalb von Microsoft verwendet wird. Die Vorlagen mit Organisationsbereich werden in "Mandantenshards" von SDS gespeichert, und Vorlagen mit Teambereich werden in "Gruppenshards" von SDS gespeichert. Dies bedeutet, dass die Vorlagen mit Organisationsbereich die gleiche Lebensdauer des Mandanten und von Vorlagen mit Teambereich gemeinsam haben. Wenn Sie also das Team endgültig löschen, werden die zugehörigen Vorlagen gelöscht.
 
@@ -197,7 +199,7 @@ Weitere Informationen über die [Microsoft Dataverse- und modellgesteuerte App-A
 
 Von der App erstellte E-Genehmigungen-Signaturgenehmigungen werden in der Cloudumgebung des ausgewählten Anbieters gespeichert. Weitere Informationen zum Speicher rund um den E-Signatur-Vertrag finden Sie in der Speicherdokumentation des ausgewählten Anbieters.
 
-Um das E-Genehmigungen-Signaturfeature ihrer App verwenden zu können, benötigen Sie die folgenden Elemente:
+Um das E-Genehmigungen-Signaturfeature der App verwenden zu können, benötigen Sie die folgenden Elemente:
 
 - Lizenz für den jeweiligen E-Signatur-Anbieter, den Sie verwenden möchten. Um eine Lizenz für Ihre Organisation zu erhalten, müssen Sie zur Website des Anbieters wechseln.
 
@@ -205,6 +207,6 @@ Für die Genehmigungen E-Signatur-Funktionen werden Signaturpartner von Drittanb
 
 1. Wählen Sie Teams Admin Center unter **Apps** verwalten die App Genehmigungen und **dann** **Einstellungen.**
 
-2. Jeder E-Signaturanbieter verfügt über einen Umschalter daneben, der sich standardmäßig in der Position "Ein" (rechts) befindet. Schieben Sie den Umschalter nach links, um einen bestimmten E-Signatur-Anbieter zu deaktivieren. Wenn ein Teams einen Anbieter deaktiviert, wird der Anbieter beim Erstellen einer Genehmigung für die Endbenutzer nicht mehr sehen. Endbenutzer können auch keine E-Signatur-Anforderungen anzeigen, die mit diesem Anbieter vorgenommen wurden.
+2. Neben jedem E-Signatur-Anbieter befindet sich standardmäßig ein Umschalter, der sich in der Position "Ein" (rechts) befindet. Schieben Sie den Umschalter nach links, um einen bestimmten E-Signatur-Anbieter zu deaktivieren. Wenn ein Teams einen Anbieter deaktiviert, wird der Anbieter beim Erstellen einer Genehmigung nicht für die Endbenutzer eins sehen. Endbenutzer können auch keine E-Signatur-Anforderungen anzeigen, die mit diesem Anbieter vorgenommen wurden.
 
-E-Signatur-Genehmigungen, die aus der Genehmigungen-App erstellt wurde, werden in der Cloud des ausgewählten Anbieters gespeichert. Sie müssen daher zur Website des Anbieters wechseln, um alle Daten zu E-Signaturen zu exportieren. Informationen zum Exportieren und Erhalten dieser Vereinbarungen finden Sie in der Dokumentation des Anbieters.
+E-Genehmigungen, die mit der Genehmigungen-App erstellt wurden, werden in der Cloud des ausgewählten Anbieters gespeichert. Sie müssen daher zur Website des Anbieters wechseln, um alle Daten zu E-Signaturen zu exportieren. Informationen zum Exportieren und Erhalten dieser Vereinbarungen finden Sie in der Dokumentation des Anbieters.

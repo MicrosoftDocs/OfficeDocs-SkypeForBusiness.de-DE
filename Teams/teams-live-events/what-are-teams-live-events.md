@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233240"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359212"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -43,7 +43,7 @@ Liveereignisse in Teams gelten als die nächste Version von Skype Meeting Broadc
 
 Legen Sie los. Sehen Sie sich zunächst das folgende Diagramm an, das allgemeine Komponenten zeigt, die an Microsoft 365 Liveereignissen beteiligt sind und wie sie verbunden sind.
 
-![Die wichtigsten Komponenten von Liveereignissen](../media/live-event-flow-diagram1.png  "Schlüsselkomponenten von Liveereignissen, Planung, Produktion, Stream-Plattform und zertifizierten eCDN-Drittanbietern")
+![Die wichtigsten Komponenten von Liveereignissen](../media/live-events-flow-diagram.png  "Schlüsselkomponenten von Liveereignissen, Planung, Produktion, Stream-Plattform und zertifizierten eCDN-Drittanbietern")
 
 > [!Note]
 > Wir möchten hervorheben, dass Microsoft Teams-Liveereignisse aufgrund der Natur von Übertragungstechnologien häufig normale (interne) Teilnehmerzahlen überschreiten.

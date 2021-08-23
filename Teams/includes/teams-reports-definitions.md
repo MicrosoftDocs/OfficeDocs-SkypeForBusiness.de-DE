@@ -1,6 +1,6 @@
 ## <a name="definitions"></a>Definitionen
 
-Die Teams Zeigen Daten für aktive Benutzer und aktive Kanäle an. Wenn beispielsweise ein Benutzer in Ihrer Organisation in Teams während des datumsbereichs, den Sie für einen Bericht angegeben haben, nicht aktiv ist, werden die Daten für diesen Benutzer nicht in diesen Bericht einbezogen.
+Die Teams zeigen Daten für aktive Benutzer und aktive Kanäle an. Wenn beispielsweise ein Benutzer in Ihrer Organisation während des von Ihnen für einen Bericht angegebenen Datumsbereichs in Teams nicht aktiv ist, werden die Daten für diesen Benutzer nicht in diesen Bericht einbezogen.
 
 |Element  |Definition  |
 |---------|---------|

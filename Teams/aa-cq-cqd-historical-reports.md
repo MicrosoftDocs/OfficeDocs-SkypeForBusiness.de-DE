@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
-ms.openlocfilehash: 04b18e8f1767f7c32818e53305aead863e1ed753bec23a6c6f86a43464b03d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3bae6b1e874026a452798d27b4629207f7ec0035
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298095"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398944"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
@@ -295,6 +295,10 @@ Führen Sie die folgenden Schritte durch:
 |Name der Anrufwarteschleife                         |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum                     |                                                    |
 
+
+> [!NOTE]
+> 1) Dieser Bericht zeigt die Anrufanzahl aus der Perspektive der Agents, daher ist die Gesamtzahl der Anrufe in diesem Bericht normalerweise höher als die Gesamtzahl der Anrufe im Bericht **Cloud-Anrufwarteschleifenanalyse.** Jeder Anruf in der Warteschlange kann einem oder mehreren Agents mindestens einmal präsentiert werden, bevor er beantwortet wird. Jeder Anruf in der Warteschleife, der einem Mitarbeiter angezeigt wird, wird auf diesen Bericht angerechnet, auch wenn er vom Agent nicht beantwortet wurde. Der Unterschied bei der Anrufanzahl zwischen diesen beiden Berichten ist bei der **Weiterleitungsoption Attendant** deutlicher, die jeden Agent für jeden Anruf anruft. 
+> 2) Wenn beim ersten Anruf ein Anruf bei der ersten Anrufwarteschleife eintrifft und die Anzahl der bereits in dieser Warteschlange wartenden Anrufe das Limit für die Behandlung von Anrufen überschreitet und die Umleitungsoption Anrufe an eine zweite Anrufwarteschleife sendet, werden die Agents in der zweiten Anrufwarteschleife in diesem Bericht als in der ersten Anrufwarteschleife angezeigt.  
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
