@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams von der automatischen Attendant unterstützten Sprachen
-ms.openlocfilehash: 85b472a274789b4358afebf0293b303e8f49b4efe9176e010e25faeca673fbae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18a2f54eea4fb0f4090b76bddd92da40263c6db0
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276550"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339843"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams von der automatischen Attendant unterstützten Sprachen
 
@@ -41,7 +40,7 @@ Die automatische Attendant unterstützt die folgenden Sprachen für Text zu Spra
 |Chinesisch (traditionell, Hongkong)        |J                        |                                       |
 |Chinesisch (traditionell, Taiwan)           |J                        |                                       |    
 |Kroatisch (Kroatien)                      |J                        |                                       |    
-|Tschechisch (Czeck-Republik)                  |J                        |                                       |    
+|Tschechisch (Tschechische Republik)                  |J                        |                                       |    
 |Dänisch (Dänemark)                        |J                        |                                       |    
 |Niederländisch (Niederlande)                     |J                        |                                       |    
 |Englisch (Australien)                     |J                        |J                                      |
@@ -75,7 +74,7 @@ Die automatische Attendant unterstützt die folgenden Sprachen für Text zu Spra
 |Vietnamesisch (Vietnam)                    |J                        |                                       |    
 
 > [!NOTE]
-> Wenn Sie eine Sprache auswählen, die die Spracherkennung nicht unterstützt, wird die Option für Spracheingaben im Menü deaktiviert, und Namensanrufe sind nur über die Wähltastatur (MFV) möglich. Weitere Informationen finden Sie [unter MFV-Eintrag (Dial by Name - Keypad).](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)
+> Wenn Sie eine Sprache auswählen, die die Spracherkennung nicht unterstützt, wird die Option für Spracheingaben im Menü deaktiviert, und Namensanrufe sind nur über die Wähltastatur (MFV) möglich. Weitere Informationen finden Sie [unter DTMF-Eintrag (Dial by Name - Keypad).](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry)
 
 > [!NOTE]
 > Wenn Sie Text in Sprache verwenden, muss der Text in der ausgewählten Sprache eingegeben werden, da das System keine Übersetzung vorn ermöglicht.
