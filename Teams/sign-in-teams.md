@@ -17,24 +17,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec7796d27f6606c4738d3ce415a32a6f966af6cead1a090dd053df293fcfadfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332497"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483132"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 
 ## <a name="windows-users"></a>Windows-Benutzer
 
-Microsoft empfiehlt Unternehmen, neuere Versionen von Windows 10 mit Hybrid Domain Join- oder Azure AD Join-Konfiguration zu verwenden. Durch die Nutzung aktueller Versionen wird sichergestellt, dass die Nutzerkonten im Windows-Webkonto-Manager vorbereitet werden, wodurch wiederum die einmalige Anmeldung bei Microsoft Teams und anderen Microsoft-Anwendungen ermöglicht wird. Single Sign-On bietet mehr Benutzerfreundlichkeit (automatische Anmeldung) und einen besseren Sicherheitsstatus.
+Microsoft empfiehlt Unternehmen, neuere Versionen von Windows 10 mit Hybrid Domain Join- oder Azure AD Join-Konfiguration zu verwenden. Durch die Nutzung aktueller Versionen wird sichergestellt, dass die Nutzerkonten im Windows-Webkonto-Manager vorbereitet werden, wodurch wiederum die einmalige Anmeldung bei Microsoft Teams und anderen Microsoft-Anwendungen ermöglicht wird. Das einmalige Anmelden bietet eine bessere Benutzererfahrung (automatische Anmeldung) und eine bessere Sicherheitslage.
 
 Microsoft Teams verwendet moderne Authentifizierung, um die Anmeldung einfach und sicher zu gestalten. Um zu erfahren, wie sich Benutzer bei Teams anmelden, lesen Sie bitte [Anmelden in Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ### <a name="how-modern-authentication-works"></a>So funktioniert moderne Authentifizierung
 
-Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Microsoft Teams mitteilt, dass Benutzer ihre Anmeldeinformationen (wie Ihre geschäftliche E-Mail-Adresse und das Kennwort) bereits anderswo eingegeben haben, und dass sie diese nicht erneut eingeben müssen, um die App zu starten. Der Ablauf hängt von einigen Faktoren ab, beispielsweise ob Benutzer in Windows oder auf einem Mac arbeiten. Er hängt zudem davon ab, ob Ihre Organisation die einstufige oder die mehrstufige Authentifizierung aktiviert hat. Die mehrstufige Authentifizierung umfasst in der Regel die Überprüfung von Anmeldeinformationen über ein Telefon, die Bereitstellung eines eindeutigen Codes, das Eingeben einer PIN oder die Verwendung eines Fingerabdrucks. Hier ist eine Übersicht über jedes Szenario moderner Authentifizierung.
+Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Microsoft Teams mitteilt, dass Benutzer ihre Anmeldeinformationen (wie Ihre geschäftliche E-Mail-Adresse und das Kennwort) bereits anderswo eingegeben haben, und dass sie diese nicht erneut eingeben müssen, um die App zu starten. Der Ablauf hängt von einigen Faktoren ab, beispielsweise ob Benutzer in Windows oder auf einem Mac arbeiten. Es hängt auch davon ab, ob Ihre Organisation die einstufige Authentifizierung oder die mehrstufige Authentifizierung aktiviert hat. Die mehrstufige Authentifizierung umfasst in der Regel die Überprüfung von Anmeldeinformationen über ein Telefon, die Bereitstellung eines eindeutigen Codes, das Eingeben einer PIN oder die Verwendung eines Fingerabdrucks. Hier ist eine Übersicht über jedes Szenario moderner Authentifizierung.
 
 Die moderne Authentifizierung ist für alle Organisationen verfügbar, die Microsoft Teams verwenden. Wenn Benutzer den Prozess nicht abschließen können, liegt möglicherweise ein Problem mit der Azure AD-Konfiguration Ihrer Organisation vor. Weitere Informationen finden Sie unter [Wieso habe ich Probleme bei der Anmeldung bei Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -42,7 +42,7 @@ Die moderne Authentifizierung ist für alle Organisationen verfügbar, die Micro
 
 - Für einen optimalen Anmeldeablauf empfiehlt Microsoft die Verwendung von Windows 10 Version 1903 oder höher.
 
-- Wenn Benutzer an keiner anderen Stelle in ihrem Microsoft-Geschäfts-, Schul- oder Unikonto angemeldet sind, werden sie beim Starten von Microsoft Teams entweder zu einer einstufigen oder zu einer mehrstufigen Authentifizierung (SFA oder MFA) aufgefordert, je nachdem, für welches Anmeldeverfahren Ihre Organisation sich entschieden hat.
+- Wenn Benutzer an keiner anderen Stelle bei ihrem Microsoft-Geschäfts-, Schul- oder Unikonto angemeldet sind, werden sie beim Starten von Teams aufgefordert, entweder einstufige oder mehrstufige Authentifizierung (SFA oder MFA) bereitzustellen. Dieser Prozess hängt davon ab, was Ihre Organisation für den Anmeldeprozess festgelegt hat.
 
 - Wenn Benutzer bei einem domänengebundenen Computer angemeldet sind, werden sie beim Start von Microsoft Teams möglicherweise aufgefordert, einen weiteren Authentifizierungsschritt durchzuführen, je nachdem, ob sich Ihre Organisation für die mehrstufige Authentifizierung entschieden hat oder ob ihr Computer diese bereits zum Anmelden erfordert. Wenn ihr Computer die mehrstufige Authentifizierung bereits zur Anmeldung erfordert, startet die App automatisch, wenn sie Microsoft Teams öffnen.
 
@@ -55,17 +55,13 @@ Die moderne Authentifizierung ist für alle Organisationen verfügbar, die Micro
     > [!NOTE]
     > Das Überspringen oder Ignorieren des Vorab-Ausfüllens von Benutzernamen ist für Benutzernamen, die in „.local“ oder „.corp“ enden, standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren.
 
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Abmeldung von Microsoft Teams nach Abschluss der modernen Authentifizierung
-
-Benutzer können sich von Teams abmelden, indem sie über ihr Profilbild oben in der App **Abmelden** auswählen. Alternativ können sie mit der rechten Maustaste auf das App-Symbol in ihrer Taskleiste klicken und dann **Abmelden** wählen. Nach der Abmeldung von Teams müssen sie ihre Anmeldedaten erneut eingeben, um die App zu starten.
-
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Anmelden mit einem anderen Konto auf einem PC, der einer Domäne beigetreten ist
 
 Benutzer auf einem Computer, der einer Domäne beigetreten ist, können sich möglicherweise nicht bei Teams mit einem anderen Konto in der gleichen Active Directory-Domäne anmelden.
 
 ## <a name="macos-users"></a>macOS-Benutzer
 
-Unter macOS werden die Benutzer von Microsoft Teams aufgefordert, ihren Benutzernamen und ihre Anmeldeinformationen einzugeben, und je nach den Einstellungen Ihres Unternehmens werden sie möglicherweise zur mehrstufigen Authentifizierung aufgefordert. Sobald die Benutzer ihre Anmeldeinformationen eingegeben haben, werden sie nicht mehr aufgefordert, sie erneut anzugeben. Von diesem Zeitpunkt an startet Teams automatisch, wenn sie am gleichen Computer arbeiten.
+Unter macOS fordert Teams die Benutzer auf, ihren Benutzernamen und ihre Anmeldeinformationen einzugeben, und verlangt möglicherweise je nach den Einstellungen Ihrer Organisation eine mehrstufige Authentifizierung. Sobald die Benutzer ihre Anmeldeinformationen eingegeben haben, werden sie nicht mehr aufgefordert, sie erneut anzugeben. Von diesem Zeitpunkt an startet Teams automatisch, wenn sie am gleichen Computer arbeiten.
 
 ## <a name="teams-on-ios-and-android-users"></a>Microsoft Teams für iOS- und Android-Benutzer
 
@@ -73,7 +69,7 @@ Bei der Anmeldung sehen Benutzer von Mobilgeräten eine Liste aller Microsoft 36
 
 1. Wenn der Benutzer aktuell über das ausgewählte Konto bei anderen Office 365- oder Microsoft 365-Apps angemeldet ist, wird er direkt zu Microsoft Teams geleitet. In diesem Fall muss er seine Anmeldeinformationen nicht eingeben.
 
-2. Wenn der Benutzer nirgendwo sonst bei seinem Microsoft 365-Konto angemeldet ist, wird er, abhängig von den Vorgaben der Anmelderichtlinien Ihrer Organisation für Mobilgeräte, zu einer einstufigen bzw. mehrstufigen Authentifizierung (SFA oder MFA) aufgefordert.
+2. Wenn der Benutzer an keiner anderen Stelle bei seinem Microsoft 365-Konto angemeldet ist, wird er aufgefordert, eine einstufige oder mehrstufige Authentifizierung (SFA oder MFA) bereitzustellen, je nachdem, was Ihre Organisation für mobile Anmelderichtlinien konfiguriert hat.
 
 > [!NOTE]
 > Damit die Anmeldeerfahrung für Benutzer der Beschreibung in diesem Abschnitt entspricht, muss auf ihren Geräten Teams für iOS, Version 2.0.13 (Build 2020061704) oder höher, bzw. Teams für Android, Version 1416/1.0.0.2020061702 oder höher, ausgeführt werden.
@@ -88,7 +84,7 @@ Die folgenden Bilder zeigen, wie Benutzer in Microsoft Teams-Anwendungen für Mo
 
 ## <a name="restrict-sign-in-to-teams"></a>Einschränken der Anmeldung bei Teams
 
-Ein Unternehmen möchte u. U. einschränken, wie die vom Unternehmen genehmigten Apps auf verwalteten Geräten verwendet werden können, um beispielsweise die Möglichkeit von Studenten oder Mitarbeitern einzuschränken, auf Daten von anderen Organisationen zuzugreifen oder die vom Unternehmen genehmigten Apps für persönliche Zwecke zu verwenden. Diese Einschränkungen können über Geräterichtlinien erzwungen werden, die von Microsoft Teams-Anwendungen erkannt werden.   
+Ein Unternehmen möchte u. U. einschränken, wie die vom Unternehmen genehmigten Apps auf verwalteten Geräten verwendet werden können, um beispielsweise die Möglichkeit von Studenten oder Mitarbeitern einzuschränken, auf Daten von anderen Organisationen zuzugreifen oder die vom Unternehmen genehmigten Apps für persönliche Zwecke zu verwenden. Diese Einschränkungen können über Geräterichtlinien erzwungen werden, die von Microsoft Teams-Anwendungen erkannt werden.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Einschränken der Anmeldung auf mobilen Geräten
 
@@ -113,11 +109,13 @@ Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete iOS-/iPadOS-Geräte e
 Wenn Sie eine App-Konfigurationsrichtlinie für verwaltete Android-Geräte erstellen möchten, lesen Sie [Hinzufügen von App-Konfigurationsrichtlinien für verwaltete Android-Geräte](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Einschränken der Anmeldung auf Desktopgeräten
+
 Teams-Apps unter Windows und MacOS erhalten Unterstützung für Geräterichtlinien, die das Anmelden bei Ihrer Organisation einschränken. Die Richtlinien können über herkömmliche Geräteverwaltungslösungen wie MDM (Mobile Device Management) oder GPO (Group Policy Object) festgelegt werden. 
 
 Wenn diese Richtlinie auf einem Gerät konfiguriert ist, können sich die Benutzer nur mit Konten anmelden, die sich in einem Azure AD-Mandanten befinden, der in der „Mandanten-Zulassungsliste“ enthalten ist, welche in der Richtlinie definiert wurde. Die Richtlinie gilt für alle Anmeldungen, einschließlich des ersten und weiterer Konten. Wenn Ihre Organisation über mehrere Azure AD-Mandanten verfügt, können Sie in der Zulassungsliste mehrere Mandanten-IDs einschließen. Links zum Hinzufügen eines weiteren Kontos sind in der Teams-App möglicherweise weiterhin sichtbar, funktionieren aber nicht mehr.
 
 > [!NOTE]
+> 
 >1. Die Richtlinie schränkt nur Anmeldungen ein. Sie schränkt nicht die Möglichkeit ein, dass Benutzer als Gäste in andere Azure AD-Mandanten eingeladen werden oder zu diesen anderen Mandanten wechseln können (in denen Benutzer als Gäste eingeladen wurden).
 >2. Die Richtlinie erfordert Teams für Windows Version 1.3.00.30866 oder höher, und Teams für MacOS Version 1.3.00.30882 (Veröffentlichung Mitte November 2020).
 
@@ -139,21 +137,11 @@ Beispiel: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcc
 - Datentyp: String
 - Kommentare: Geben Sie eine durch Kommas getrennte Liste der Mandanten-IDs der Azure AD ein.
 
+### <a name="global-sign-in"></a>Globale Anmeldung
 
-## <a name="sign-out-on-mobile-devices"></a>Abmelden auf mobilen Geräten
+Die Android-App von Teams unterstützt jetzt die globale Anmeldung, um den Mitarbeitern in Service und Produktion eine problemlose Anmeldung zu ermöglichen. Ein Mitarbeiter kann ein Gerät aus dem Pool geteilter Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung zu "seinem" machen. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Weitere Informationen finden Sie unter [Abmeldung von Teams](sign-out-of-teams.md). Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines "Freigegeben"-Gerätemodus in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-Benutzer von Mobilgeräten können sich von Microsoft Teams abmelden, indem sie zum Menü wechseln, das Menü **Mehr** und dann **Abmelden** auswählen. Nach der Abmeldung müssen die Benutzer ihre Anmeldeinformationen beim nächsten Starten der App erneut eingeben.
-
-> [!NOTE]
-> Microsoft Teams für Android verwendet die einmalige Anmeldung (SSO, Single Sign-On), um die Anmeldung zu vereinfachen. Die Benutzer sollten sicherstellen, dass Sie sich neben Microsoft Teams von **allen** Microsoft-Apps abmelden, um sich vollständig von der Android-Plattform abmelden zu können.
-
-### <a name="global-sign-in-and-sign-out"></a>Globales Anmelden und Abmelden
-
-Die Teams-Android-App unterstützt jetzt das globale Anmelden und Abmelden, um Mitarbeitern in Service und Produktion einen einfachen Anmelde- und Abmeldevorgang zu bieten. Ein Mitarbeiter kann ein Gerät aus dem Pool geteilter Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung zu "seinem" machen. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines "Freigegeben"-Gerätemodus in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
-
-Der Anmeldevorgang ähnelt der standardmäßigen Anmeldung bei Microsoft Teams, während die Abmeldung wie in den folgenden beiden Bildern dargestellt abläuft:
-
-![das Mobiltelefon mit dargestellter Abmeldung](media/global-SignOut.png)  
+Die Anmeldeoberfläche ähnelt unserer standardmäßigen Teams-Anmeldeoberfläche.
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs und IP-Adressbereiche
 
