@@ -1,5 +1,5 @@
 ---
-title: Remotebereitstellung und -anmeldung für Teams Android-Geräte
+title: Remotebereitstellung und Anmeldung bei Teams Android-Geräten
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Remotebereitstellung und -anmeldung für Teams Android-Geräte verwenden.
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235380"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483112"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und -anmeldung für Teams Android-Geräte
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und Anmeldung bei Teams Android-Geräten
 
 IT-Administratoren können Remotebereitstellung und -anmeldung auf einem Teams Android-Gerät ausführen. Um ein Gerät remote bereitstellen zu können, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Prüfcode erstellen. Der gesamte Vorgang kann remote über das Teams Admin Center abgeschlossen werden.
 
@@ -44,7 +44,17 @@ In der folgenden Liste sind die Firmwareanforderungen für Android-Geräte aufge
 |Teams-Smartphones|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams-Smartphones|  Audiocodes C448HD/C450HD/C470HD|   1.10.120|
 |Teams-Panels|  Crestron 770/1070|  1.004.0115|
-
+|Teams-Räume unter Android|Logitech Rally Bar Mini|1.2.982|
+|Teams-Räume unter Android|Logitech Rally Bar|1.2.982|
+|Teams-Räume unter Android|AudioCodes RECEIVERV80|1.13.361|
+|Teams-Räume unter Android|EXPAND Vision 3T|1.2.2.21182.10|
+|Teams-Räume unter Android|Yealink MeetingBar A30|133.15.0.60|
+|Teams-Räume unter Android|Yealink MeetingBar A20|133.15.0.60|
+|Teams-Räume unter Android|Yealink CTP18-Touchkonsole|137.15.0.37|
+|Teams-Räume unter Android|Poly Studio X30|3.5.0.344025|
+|Teams-Räume unter Android|Poly Studio X50|3.5.0.344025|
+|Teams-Räume unter Android|Poly TC8-Touchkonsole |3.5.0.210489|
+|Teams-Räume unter Android|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>Hinzufügen einer MAC-Adresse für ein Gerät
 
@@ -71,7 +81,7 @@ Im Fenster **Neue Geräte bereitstellen** können Sie entweder die MAC-Adresse m
 1. Wählen Sie **auf der Registerkarte Awaiting Activation** die Option Hochladen MAC **IDs aus.**
 2. Laden Sie die Dateivorlage herunter.
 3. Geben Sie die MAC-ID und den Speicherort ein, und speichern Sie dann die Datei.
-4. **Wählen Sie Datei** und dann Hochladen **aus.**
+4. **Wählen Sie Datei** und dann **Hochladen** aus.
 
 ## <a name="generate-a-verification-code"></a>Generieren eines Prüfcodes
 
@@ -80,13 +90,13 @@ Sie benötigen einen Prüfcode für die Geräte. Der Überprüfungscode wird in 
 1. Wählen Sie **auf der Registerkarte Awaiting Activation** eine vorhandene MAC-ID aus.
    Für die MAC-Adresse wird ein Kennwort erstellt und in der Spalte **Prüfcode** angezeigt.
 
-2. Stellen Sie die Liste der MAC-IDs und Prüfcodes für Die Feldtechniker zur Verfügung. Sie können die Details direkt in eine Datei exportieren und die Datei für den Techniker freigeben, der die eigentlichen Installationsarbeiten überarbeiten soll.
+2. Stellen Sie die Liste der MAC-IDs und Prüfcodes für die Feldtechniker zur Verfügung. Sie können die Details direkt in eine Datei exportieren und die Datei für den Techniker freigeben, der die eigentlichen Installationsarbeiten überarbeiten soll.
 
 ## <a name="provision-the-device"></a>Bereitstellen des Geräts
 
 Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerät vom Techniker bereitgestellt. Diese Schritte werden auf dem Gerät Teams abgeschlossen.
 
-1. Der Techniker wählt gerät **bereitstellen aus** dem Einstellungen **aus.**  
+1. Der Techniker wählt in **der Liste Gerät** bereitstellen **Einstellungen** aus.  
 
    ![Option "Neues Gerät bereitstellen" auf der Registerkarte "Aktionen"](../media/provision-device1.png)
   
@@ -113,4 +123,4 @@ Das bereitgestellte Gerät wird auf der Registerkarte **Awaiting sign in** angez
 ## <a name="related-article"></a>Verwandter Artikel
 
 - [Verwalten Ihrer Geräte in Teams](device-management.md).
-- [Remoteupdate für Teams Geräte](remote-update.md)
+- [Remoteupdate Teams Geräte](remote-update.md)

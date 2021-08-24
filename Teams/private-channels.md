@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 047ff506a2d9ebccda96ecadedb4a30222ba59bf
-ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
+ms.openlocfilehash: 1a39d3f13239cd97b90fdf247c62ec5d7da0598b
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/21/2021
-ms.locfileid: "58455960"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483122"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -92,9 +92,9 @@ Eine Anleitung zum Verwalten des Lebenszyklus von privaten Kanälen in Ihrer Org
 Jeder private Kanal hat seine eigene SharePoint-Website. Die separate Website soll sicherstellen, dass der Zugriff auf die Dateien des privaten Kanals nur für Mitglieder des privaten Kanals möglich ist. Diese Websites werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Website mit vollem Funktionsumfang erweitert werden. Jede Website wird in derselben geografischen Region wie die Website für das übergeordnete Team erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Graph-API zu vereinfachen. 
 
 >[!NOTE]
->Nur Benutzer mit Besitzer- oder Mitgliedsberechtigungen, die in Microsoft Teams gewährt wurden, haben Zugriff auf Inhalte auf der Privaten Kanalwebsite.
->SharePoint-Websites mit privaten Kanälen sind nicht auf der Seite „Aktive Websites“im neuen SharePoint Online Admin Center enthalten.
->SharePoint-Websites mit privaten Kanälen, die nach dem 28. Juni 2021 erstellt wurden, weisen die benutzerdefinierte Vorlagen-ID TEAMCHANNEL#1 auf.
+>- Nur Benutzer mit Besitzer- oder Mitgliedsberechtigungen, die in Microsoft Teams gewährt wurden, haben Zugriff auf Inhalte auf der Privaten Kanalwebsite.
+>- SharePoint-Websites mit privaten Kanälen sind nicht auf der Seite „Aktive Websites“im neuen SharePoint Online Admin Center enthalten.
+>- SharePoint-Websites mit privaten Kanälen, die nach dem 28. Juni 2021 erstellt wurden, weisen die benutzerdefinierte Vorlagen-ID TEAMCHANNEL#1 auf.
 
 
 Eine Website eines privaten Kanals synchronisiert die Datenklassifizierung und erbt Gastzugriffsberechtigungen von der Website des übergeordneten Teams. Die Mitgliedschaft bei den Gruppen "Besitzer" oder "Mitglied" der Website wird mit der Mitgliedschaft des privaten Kanals innerhalb von Teams synchronisiert. Alle Änderungen an der Mitgliedschaft in den Gruppen "Besitzer" oder "Mitglied" in SharePoint werden innerhalb von vier Stunden automatisch auf die Mitgliedschaft im privaten Kanal zurückgesetzt. 
@@ -104,7 +104,7 @@ Teams verwaltet den Lebenszyklus der Website des privaten Kanals. Wenn die Websi
 Wird ein privater Kanal oder ein Team, das einen privaten Kanal enthält, wiederhergestellt, werden die Websites darin wiederhergestellt. Wenn eine Website eines privaten Kanals wiederhergestellt wird und das 30-Tage-Fenster für "vorläufiges Löschen" für den privaten Kanal überschritten ist, wird die Website als eigenständige Website ausgeführt.
 
 > [!NOTE]
-> Wenn Sie ein neues Team oder einen privaten Kanal in Microsoft Teams erstellen, wird automatisch eine Teamwebsite in SharePoint erstellt. Um die Websitebeschreibung oder -klassifizierung für diese Teamwebsite zu bearbeiten, wechseln Sie zu den [Einstellungen in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+> Wenn Sie ein neues Team oder einen privaten Kanal in Microsoft Teams erstellen, wird automatisch eine Teamwebsite in SharePoint erstellt. Um die Websitebeschreibung oder -klassifizierung für diese Teamwebsite zu bearbeiten, wechseln Sie zu den [-Einstellungen des entsprechenden Kanals in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Weitere Informationen zum Verwalten von [mit Microsoft Teams verbundenen Teams-Websites](/SharePoint/teams-connected-sites).
 
