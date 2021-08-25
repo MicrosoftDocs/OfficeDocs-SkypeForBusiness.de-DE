@@ -18,12 +18,12 @@ description: In diesem Artikel erfahren Sie mehr über die Teams, die im Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399104"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523826"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -54,14 +54,14 @@ Wir verbessern ständig die Berichterstattungserfahrung Teams und fügen Feature
 |[Teams Bericht über PSTN-Minutenpools](pstn-minute-pools-report.md) |  Land oder Region<br>Funktion (Lizenz) <br>Gesamtminuten<br>Verwendete Minuten<br>Verfügbare Minuten|
 |[Teams PSTN-Nutzungsbericht – Anrufpläne](pstn-usage-report.md#calling-plans)|  Zeitstempel<br>Benutzername<br>Telefon-Nummer<br>Anruftyp <br>Called to<br>In das Land oder die Region <br>Von aufgerufen <br>Aus dem Land oder der Region<br>Aufladen<br>Währung<br>Dauer<br>In- und Ausland<br>Anruf-ID<br>Zahlentyp<br>Land oder Region<br>Konferenz-ID<br>Funktion (Lizenz)|
 |[Teams PSTN-Nutzungsbericht – Direct Routing](pstn-usage-report.md#direct-routing)  |  Zeitstempel<br>Anzeigename<br>SIP-Adresse<br>Telefon-Nummer <br>Anruftyp<br>Called to<br>Startzeitpunkt<br>Einladungszeitpunkt<br>Fehlerzeit<br>Endzeitpunkt<br>Dauer<br>Zahlentyp<br>Medienumgehung<br>SBC-FQDN<br>Azure-Region<br>Ereignistyp<br>Endgültiger SIP-Code<br>Endgültiger Microsoft-Untercode<br>Endgültiger SIP-Ausdruck<br>Korrelations-ID  |
-|[Teams zum Schutz von Informationen – Direct Routing](information-protection-license-report.md)  | <br>Ob Benutzer über gültige Lizenzen zum Senden von Nachrichten über Änderungsbenachrichtigungen verfügen</br><br>Gesamtzahl der von einem Benutzer ausgelösten Änderungsbenachrichtigungsereignisse</br><br>Welche Apps lauschen auf organisationsweite Änderungsbenachrichtigungsereignisse</br>|
+|[Teams information protection license report](information-protection-license-report.md)  | <br>Ob Benutzer über gültige Lizenzen zum Senden von Nachrichten über Änderungsbenachrichtigungen verfügen</br><br>Gesamtzahl der von einem Benutzer ausgelösten Änderungsbenachrichtigungsereignisse</br><br>Welche Apps lauschen auf organisationsweite Änderungsbenachrichtigungsereignisse</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Anonymisiert benutzerspezifische Daten
 
-Um die Daten in den Teams benutzeraktivitäten und Teams zu anonym machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail-Adresse und AAD-ID in Berichten und deren Exporten ausgeblendet.
+Um die Daten in Teams Benutzeraktivitäten und Teams geräteverwendungsbericht anonym zu machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail-Adresse und AAD-ID in Berichten und deren Exporten ausgeblendet.
 
 1. Wechseln Microsoft 365 Admin Center In der Website zum **Einstellungen** Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
     
@@ -70,4 +70,4 @@ Um die Daten in den Teams benutzeraktivitäten und Teams zu anonym machen, müss
 3. Wählen Sie **Änderungen speichern aus.**
 
 > [!NOTE]
-> Durch Aktivieren dieser Einstellung werden die Informationen in Teams [Bericht](user-activity-report.md) zur Benutzeraktivität und in [Teams Geräteverwendungsberichten nicht](device-usage-report.md) mehr identifiziert. Sie wirkt sich nicht auf andere Nutzungsberichte aus, die im admin center Teams sind.
+> Durch Aktivieren dieser Einstellung werden die Informationen in Teams [Bericht](user-activity-report.md) zur Benutzeraktivität und in [Teams Geräteverwendungsberichten nicht identifiziert.](device-usage-report.md) Dies wirkt sich nicht auf andere Nutzungsberichte aus, die im Teams Admin Center verfügbar sind.
