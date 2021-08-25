@@ -19,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Erfahren Sie, wie die Qualität des Datenstroms im Anrufqualitätsdashboard (Anrufqualitätsdashboard) für Microsoft Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: 595ed77fd0fa6c2fb3a9bf778ff8b94e837314da1c83acb5a099bb0c795eabe1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, wie die Qualität der Datenstromdaten im Anrufqualitätsdashboard (Anrufqualitätsdashboard) für Microsoft Teams und Skype for Business Online klassifiziert wird.
+ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341151"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505423"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Stream Classification in Call Quality Dashboard (CQD)
 
@@ -41,11 +41,9 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audioda
 
 |Metrik|Szenario|Bedingung|Erklärung|
 |:-----|:-----|:-----|:-----|
-|Audio Degradation Avg|Nutzlastbeschreibung ist nicht IMMER|> 1,0|Beeinträchtigung des durchschnittlichen MOS (Mean Opinion Score) für den Datenstrom. Wie stark sich Netzwerkverlust und Jitter auf die Qualität der empfangenen Audiodaten auswirken?|
-|Round Trip|ALL|> 500|Durchschnittliche in Millisekunden berechnete Verteilungszeit des Roundtripnetzwerks. Details, die in [RFC3550 verfügbar sind.](https://tools.ietf.org/html/rfc3550)|
+|Round Trip|ALL|> 500|Durchschnittliche in Millisekunden berechnete Roundtrip-Netzwerkverteilungszeit. Details, die in [RFC3550 verfügbar sind.](https://tools.ietf.org/html/rfc3550)|
 |Packet Loss Rate|ALL|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|ALL|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|
-|Ratio Concealed Samples Avg|Nutzlastbeschreibung ist nicht IMMER|> 0,07|Durchschnittliches Verhältnis der Anzahl der Audioframes mit verdeckten Beispielen, die durch die Paketverlustreparatur generiert wurden, zur Gesamtzahl der Audioframes.|
 ||||
 
 ### <a name="video-classifier-due-to-freeze"></a>Video Classifier due to Freeze
@@ -96,7 +94,7 @@ Im CQD wird ein Datenstrom als _Nicht_ klassifiziert markiert, wenn die ICE-Konn
 
 Zum Prüfen von ICE-Verbindungsfehlern überprüfen Sie die Dimensionen "Erste ICE-Konnektivität" und "Zweite ICE-Konnektivität" für einen Wert "FEHLGESCHLAGEN". Wenn ein Wert einen Fehler angibt, wird der Datenstrom als _Unclassified gekennzeichnet._
 
-Wenn die ICE-Konnektivität für einen _nicht klassifizierten_ Datenstrom erfolgreich war, gilt der Datenstrom wahrscheinlich als _Nicht klassifiziert,_ da keine Schlüsseldatenstrommetriken gemeldet wurden. Es gibt einige Gründe, warum diese Metriken nicht gemeldet werden können:
+Wenn die ICE-Konnektivität für einen _nicht klassifizierten_ Datenstrom erfolgreich war, wird der Datenstrom wahrscheinlich als _Nicht klassifiziert_ betrachtet, da keine Schlüsseldatenstrommetriken gemeldet wurden. Es gibt einige Gründe, warum diese Metriken nicht gemeldet werden können:
 
 - **QoE-Berichte wurden** nicht empfangen – Die für die Klassifizierung verwendeten Metriken werden in einem QoE-Bericht gemeldet, der am Ende eines Anrufs gesendet wurde. Wenn dieser Bericht nicht erstellt wird (z. B. weil einige Endpunkte von Drittanbietern möglicherweise kein QoE senden) oder nicht gesendet werden konnten (z. B. aufgrund eines Netzwerkausfalls), kann das AQD den Datenstrom nicht klassifizieren.
 

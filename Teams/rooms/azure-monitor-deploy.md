@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: In diesem Artikel wird erläutert, wie Sie die Verwaltung ihrer Microsoft Teams-Räume mit Azure Monitor auf integrierte, end-to-end-Weise bereitstellen.
+description: In diesem Artikel wird erläutert, wie Sie die Verwaltung ihrer Microsoft Teams-Räume mit Azure Monitor in einer integrierten End-to-End-Weise bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234240"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505403"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>:::no-loc text="Microsoft Teams Rooms":::Bereitstellungsverwaltung mit:::no-loc text="Azure Monitor":::
 
 In diesem Artikel wird beschrieben, wie Sie die integrierte End-to-End-Verwaltung von Geräten mithilfe von einrichten und :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: bereitstellen.
 
-Sie können die Konfiguration in so konfigurieren, dass Sie einfache Telemetrie und Benachrichtigungen bereitstellen, die Ihnen bei der :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: Verwaltung von :::no-loc text="Microsoft Teams Rooms"::: Besprechungsraumgeräten helfen. Wenn Ihre Managementlösung reift, können Sie zusätzliche Daten- und Verwaltungsfunktionen bereitstellen, um eine detailliertere Ansicht der Geräteverfügbarkeit und -leistung zu erstellen.
+Sie können die Konfiguration in so konfigurieren, dass Sie einfache Telemetrie und Benachrichtigungen bereitstellen, die Ihnen bei der :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: Verwaltung von :::no-loc text="Microsoft Teams Rooms"::: Besprechungsraumgeräten helfen. Wenn Ihre Managementlösung reift, können Sie zusätzliche Daten- und Verwaltungsfunktionen bereitstellen, um eine detailliertere Ansicht der Geräteverfügbarkeit und Leistung zu erstellen.
 
 Durch Folgen dieses Leitfadens können Sie ein Dashboard wie das folgende Beispiel verwenden, um detaillierte Statusberichte zur Geräteverfügbarkeit, Anwendungs- und Hardwarestatus sowie Anwendungs- und :::no-loc text="Microsoft Teams Rooms"::: Betriebssystemversionsverteilung zu erhalten.
 
@@ -61,7 +61,7 @@ Wenn Sie einen neuen Arbeitsbereich erstellen müssen, folgen Sie den Anweisunge
 
 :::no-loc text="Log Analytics"::: erfasst nur Ereignisse aus den :::no-loc text="Windows"::: Ereignisprotokollen, die in den Einstellungen angegeben sind. Für jedes Protokoll werden nur die Ereignisse mit den ausgewählten Schweregraden erfasst.
 
-Sie müssen konfigurieren, :::no-loc text="Log Analytics"::: um die Protokolle zu erfassen, die zum Überwachen des Geräte- und :::no-loc text="Microsoft Teams Rooms"::: Anwendungsstatus erforderlich sind. :::no-loc text="Microsoft Teams Rooms"::: -Geräte verwenden das **:::no-loc text="Skype Room System":::** Ereignisprotokoll.
+Sie müssen für die Erfassung der Protokolle konfigurieren, die :::no-loc text="Log Analytics"::: zum Überwachen des Geräte- und :::no-loc text="Microsoft Teams Rooms"::: Anwendungsstatus erforderlich sind. :::no-loc text="Microsoft Teams Rooms"::: -Geräte verwenden das **:::no-loc text="Skype Room System":::** Ereignisprotokoll.
 
 Informationen zum Konfigurieren :::no-loc text="Log Analytics"::: der :::no-loc text="Microsoft Teams Rooms"::: Ereignisersammelung finden Sie unter [ :::no-loc text="Windows"::: Datenquellen für Ereignisprotokolle in :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -77,7 +77,7 @@ Sie müssen die Überwachung :::no-loc text="Log Analytics"::: von Ereignissen i
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Installieren von :::no-loc text="Microsoft Monitoring"::: Agents zum Testen von Geräten
 
-Stellen Sie den Agent auf den Testgeräten bereit, indem Sie die Anweisungen in den Verbinden :::no-loc text="Microsoft Monitoring"::: [den Dienst in :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: befolgen. :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows) Dieser Artikel enthält detaillierte Informationen zu den Schritten zum Bereitstellen des Agents für , Anweisungen zum Beziehen der Arbeitsbereichs-ID _ und des _ Primärschlüssels *, um Geräte mit Ihrer Bereitstellung zu verbinden, sowie Schritte zum Überprüfen der Agentkonnektivität mit :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: Instanz.
+Stellen Sie den Agent auf den Testgeräten bereit, indem Sie die Anweisungen in Verbinden :::no-loc text="Microsoft Monitoring"::: [dem Dienst in :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: befolgen. :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows) Dieser Artikel enthält detaillierte Informationen zu den Schritten zum Bereitstellen des Agents für , Anweisungen zum Beziehen der Arbeitsbereichs-ID _ und des _ Primärschlüssels *, um Geräte mit Ihrer Bereitstellung zu verbinden, sowie Schritte zum Überprüfen der Agentkonnektivität mit :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: Instanz.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Generieren von :::no-loc text="Microsoft Teams Rooms"::: Beispielereignissen
 
@@ -116,7 +116,7 @@ Führen Sie die folgenden Schritte aus, um Ihre benutzerdefinierten Felder aus d
 
 1.  Melden Sie sich beim Portal [ :::no-loc text="Microsoft Azure"::: an,](https://portal.azure.com) wechseln Sie :::no-loc text="Log Analytics"::: zu, und wählen Sie Ihren Arbeitsbereich aus.
 
-2. Auflisten der von einem Gerät generierten :::no-loc text="Microsoft Teams Rooms"::: Ereignisse:
+2. Auflisten der von einem Gerät :::no-loc text="Microsoft Teams Rooms"::: generierten Ereignisse:
    1.  Wechseln Sie **zu Protokolle,** und verwenden Sie eine Abfrage, um die Datensätze abzurufen, die das benutzerdefinierte Feld enthalten sollen.
    2.  Beispielabfrage: `Event | where Source == "SRS-App" and EventID == 2000`
 
@@ -160,16 +160,9 @@ Nachdem Daten gesammelt und benutzerdefinierte Felder zugeordnet wurden, können
 
 > [!NOTE]
 > Die vorherigen Schritte in diesem Leitfaden sollten abgeschlossen worden sein, damit die Dashboardkacheln ordnungsgemäß funktionieren.
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Erstellen eines Microsoft Teams-Räume-Dashboards mithilfe der Importmethode
-
-Sie können ein Dashboard :::no-loc text="Microsoft Teams Rooms"::: importieren und schnell mit der Überwachung Ihrer Geräte beginnen. Gehen Sie wie folgt vor, um das Dashboard zu importieren:
-
-1.  Holen Sie sich [SkypeRoomSystems_v2.omsview-Dashboarddatei.](https://go.microsoft.com/fwlink/?linkid=835675)
-2.  Melden Sie sich beim Portal [ :::no-loc text="Microsoft Azure"::: an,](https://portal.azure.com) wechseln Sie :::no-loc text="Log Analytics"::: zu, und wählen Sie Ihren Arbeitsbereich aus.
-3.  Öffnen **Sie den Ansichts-Designer.**
-4.  Wählen **Sie** Importieren und dann die Datei **SkypeRoomSystems_v2.omsview** aus.
-5.  Klicken Sie auf **Speichern**.
+>
+> [!IMPORTANT]
+> [Der Ansichts-Designer in Azure Monitor wird am 31. August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) fortgesetzt, und die Funktionen zum Erstellen und Klonen wurden am 30. November 2020 deaktiviert. Stattdessen können Arbeitsmappen verwendet werden. Weitere Informationen zum Leitfaden zum Übergang des Ansichts-Designers zu Arbeitsmappen finden Sie unter [Schnellstart mit vordefinierten Ansichts-Designervorlagen.](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Manuelles Erstellen Microsoft Teams-Räume Dashboards
 
@@ -191,7 +184,7 @@ Alternativ können Sie ein eigenes Dashboard erstellen und nur die Kacheln hinzu
 ### <a name="create-a-tile-that-displays-active-devices"></a>Erstellen einer Kachel, auf der aktive Geräte angezeigt werden
 
 1.  Wählen Sie **Dashboard anzeigen aus,** um mit dem Hinzufügen Ihrer Kacheln zu beginnen.
-2.  Wählen **Sie nummer & aus** dem Katalog aus.
+2.  Wählen **Sie nummer & aus dem** Katalog aus.
 3.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Heartbeat-Status<br>
     **Neue Gruppe:** Ausgewählt
@@ -426,21 +419,21 @@ Wenn Sie Ihre Geräte bereits vor der Implementierung bereitgestellt haben, kön
 2.  Laden Sie die 64-Bit-Version des :::no-loc text="Microsoft Monitoring"::: Agents für von :::no-loc text="Windows":::<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Extrahieren Sie den Inhalt des Setuppakets in die Netzwerkfreigabe.
-    1.  Öffnen Sie ein Eingabeaufforderungsfenster, und führen SieMMASetup-AMD64.exe **/c aus.**
+    1.  Öffnen Sie ein Eingabeaufforderungsfenster, und führen Sie dannMMASetup-AMD64.exe **/c aus.**
     2.  Geben Sie die gerade erstellte Freigabe an, und extrahieren Sie den Inhalt.
 
 4.  Erstellen Sie ein neues Gruppenrichtlinienobjekt, und weisen Sie es der Organisationseinheit zu, in der :::no-loc text="Microsoft Teams Rooms"::: sich Computerkonten befinden.
 
 5.  Konfigurieren der PowerShell-Ausführungsrichtlinie:
-    1.  Bearbeiten des neu erstellten Gruppenrichtlinienobjekts und Navigieren zu Komponenten für \\ \\ administrative Vorlagen für \\ :::no-loc text="Windows"::: Computerkonfigurationsrichtlinien \\:::no-loc text="Windows PowerShell":::
+    1.  Bearbeiten des neu erstellten Gruppenrichtlinienobjekts und Navigieren zu Komponenten für administrative Vorlagen für \\ \\ \\ :::no-loc text="Windows"::: Computerkonfigurationsrichtlinien \\:::no-loc text="Windows PowerShell":::
     2.  Aktivieren Sie **skriptausführung aktivieren und** richten Sie **die Ausführungsrichtlinie so ein,** **dass lokale Skripts zulässig sind.**
 
 6.  Konfigurieren Sie das Startskript:
     1.  Kopieren Sie das folgende Skript, und speichern Sie es Install-MMAgent.ps1.
     2.  Ändern Sie die Parameter WorkspaceId, WorkspaceKey und SetupPath so, dass sie Ihrer Konfiguration entsprechen.
-    3.  Bearbeiten Sie das gleiche Gruppenrichtlinienobjekt, und navigieren Sie zu Computerkonfigurationsrichtlinien \\ \\ :::no-loc text="Windows"::: Einstellungen \\ Skripts (Start/Herunterfahren)
+    3.  Bearbeiten Sie das gleiche Gruppenrichtlinienobjekt, und navigieren Sie zu \\ Computerkonfigurationsrichtlinien \\ :::no-loc text="Windows"::: Einstellungen \\ Skripts (Start/Herunterfahren)
     4.  Doppelklicken Sie, um **Start** auszuwählen, und wählen Sie **dann PowerShell-Skripts aus.**
-    5.  Wählen **Sie Dateien anzeigen** aus, und kopieren Sie **Install-MMAgent.ps1** Datei in diesen Ordner.
+    5.  Wählen **Sie Dateien** anzeigen aus, und kopieren Sie **Install-MMAgent.ps1** Datei in diesen Ordner.
     6.  Wählen **Sie Hinzufügen** und dann Durchsuchen **aus.**
     7.  Wählen Sie das ps1-Skript aus, das Sie gerade kopiert haben.
 
