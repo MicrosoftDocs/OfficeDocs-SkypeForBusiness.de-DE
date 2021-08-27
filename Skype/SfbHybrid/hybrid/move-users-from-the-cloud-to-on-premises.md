@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Erfahren Sie, wie Sie Benutzer von Teams zu lokalen Bereitstellungen verschieben.
-ms.openlocfilehash: 0ecfc5ab89fc8ed1e9f0a9c0d7dbc854049e3424bc6f689a329af31cde443850
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 341edc3e74e78fd0e16b3b98f4d1158623a15a83
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596139"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen 
 
@@ -44,13 +44,13 @@ Bei Bedarf können Sie einen Benutzer, der zuvor von der lokalen Bereitstellung 
 
 Sobald Sie einen Benutzer aus der Cloud zurück in die lokale Bereitstellung verschieben:
 
-- Der Benutzer interagiert aufgrund seiner Funktionalität mit Ihrer Skype for Business Server Bereitstellung. 
+- Der Benutzer interagiert aufgrund seiner Funktionalität mit Ihrer Skype for Business Server-Bereitstellung. 
 - Alle Kontakte, die in Teams vorhanden waren, werden zu Skype for Business Server migriert. Die beiden Sätze von Kontakten werden zusammengeführt und dann wieder zur lokalen Bereitstellung migriert.  Darüber hinaus bleiben Kontakte, die bereits in Teams vorhanden sind, in Teams.
 - Wenn der Benutzer auch Teams verwendet, kann er weder mit Skype for Business Benutzern zusammenarbeiten noch mit Benutzern in Verbundorganisationen kommunizieren.
 
 ### <a name="move-users-with-move-csuser"></a>Verschieben von Benutzern mit Move-CsUser
 
-Move-CsUser ist in einem lokalen Skype for Business PowerShell-Fenster der Verwaltungsshell verfügbar. Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch in der Clouddienstorganisation (Microsoft 365) verfügen, wie unter [Erforderliche Administratoranmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das in beiden Umgebungen über Berechtigungen verfügt, oder Sie können ein lokales Skype for Business Server Verwaltungsshellfenster mit lokalen Anmeldeinformationen starten und den Parameter verwenden, `-Credential` um Anmeldeinformationen für ein Microsoft 365 Konto mit der erforderlichen Administratorrolle anzugeben.
+Move-CsUser ist in einem lokalen PowerShell-Fenster Skype for Business Verwaltungsshell verfügbar. Sie müssen über ausreichende Berechtigungen sowohl in der lokalen Umgebung als auch in der Clouddienstorganisation (Microsoft 365) verfügen, wie unter [Erforderliche Administratoranmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das in beiden Umgebungen über Berechtigungen verfügt, oder Sie können ein lokales Skype for Business Server Verwaltungsshellfenster mit lokalen Anmeldeinformationen starten und den Parameter verwenden, `-Credential` um Anmeldeinformationen für ein Microsoft 365 Konto mit der erforderlichen Administratorrolle anzugeben.
 
 So verschieben Sie einen Benutzer mit Move-CsUser in die lokale Umgebung:
 
@@ -59,7 +59,7 @@ So verschieben Sie einen Benutzer mit Move-CsUser in die lokale Umgebung:
 - Wenn Sie nicht über ein Konto mit ausreichenden Berechtigungen sowohl im lokalen als auch im Clouddienst (Microsoft 365) verfügen, verwenden Sie den Parameter "-credential", um einem Konto ausreichende Berechtigungen in Microsoft 365 zur Verfügung zu stellen.
 - Wenn das Konto mit Berechtigungen in Microsoft 365 nicht mit "on.microsoft.com" endet, müssen Sie den Parameter "-HostedMigrationOverrideUrl" mit dem richtigen Wert angeben, wie unter [Erforderliche Administratoranmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben.
 
-Die folgende Cmdletsequenz kann verwendet werden, um einen Benutzer in Skype for Business Server zu verschieben. Dabei wird davon ausgegangen, dass die Microsoft 365 Anmeldeinformationen ein separates Konto ist und als Eingabe für die Get-Credential Eingabeaufforderung angegeben wird.
+Die folgende Cmdletsequenz kann verwendet werden, um einen Benutzer in Skype for Business Server zu verschieben. Dabei wird davon ausgegangen, dass die Microsoft 365 Anmeldeinformationen ein separates Konto sind und als Eingabe für die eingabeaufforderung Get-Credential angegeben werden.
 
 ```PowerShell
 $cred=Get-Credential
@@ -89,6 +89,6 @@ Um die Zuweisung von TeamsUpgradePolicy durch den Benutzer zu entfernen, führen
 Alternativ können Sie zum Zuweisen einer anderen Instanz von TeamsUpgradePolicy, die nicht über "mode=TeamsOnly" verfügt, den Namen der gewünschten Instanz als Wert des PolicyName-Parameters im Cmdlet angeben. Um eine Liste der verfügbaren Instanzen von TeamsUpgradePolicy anzuzeigen, führen Sie Get-CsTeamsUpgradePolicy aus.
 
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Move-CsUser](/powershell/module/skype/move-csuser)

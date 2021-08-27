@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Zusammenfassung: Erfahren Sie mehr über die Aufzeichnung von Kommunikationsdatensätzen (KDS), die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: 8559104bffb4e1062f926e70972c0654522670887488740a2c9589d48b104959
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0453bbe4e8bbd4a9bf8c2fe06b33599375171280
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336615"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610652"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server
  

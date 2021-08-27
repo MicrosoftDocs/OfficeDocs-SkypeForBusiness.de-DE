@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Ghana.
-ms.openlocfilehash: 966dfd2e9d7533c185a50547703c71367179b23b4dd44cd8f6e7f86259dcd2f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Ghana.
+ms.openlocfilehash: 0e172189e4f9e80d1f81beadad9a0a24a6b2f26e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603594"
 ---
 # <a name="availability-in-ghana"></a>Verfügbarkeit in Ghana
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Ghana.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Ghana.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

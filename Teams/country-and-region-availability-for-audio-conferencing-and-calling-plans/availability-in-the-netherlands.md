@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Niederlande verfügbar.
-ms.openlocfilehash: 8b72d4ec30f229b0a7c726eb7891f519a4b2963c3922aecaa0edaf812d340e51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für die Niederlande.
+ms.openlocfilehash: f5dad27a387e73cb1792409ae3a28fa41083d435
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339822"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624737"
 ---
 # <a name="availability-in-the-netherlands"></a>Verfügbarkeit in den Niederlanden
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Niederlande verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für die Niederlande.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

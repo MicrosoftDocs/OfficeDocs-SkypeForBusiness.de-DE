@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Wenn Ihre Legacybereitstellung einen Archivierungsserver oder einen Monitoring Server enthielt, können diese Server nach der Migration zu Skype for Business Server 2019 aus der Legacyumgebung entfernt werden, vorausgesetzt, alle Benutzer wurden aus allen verbleibenden Legacypools entfernt. Die Archivierungsserver oder Monitoring Server können in beliebiger Reihenfolge entfernt werden. Wesentliche Voraussetzung ist, dass alle Benutzer aus den verbleibenden Vorversionspools entfernt worden sind.
-ms.openlocfilehash: 204c68a50585bae033149ea75077ab0801b0bcc4aecb642c52fa96442bfc42ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 94ea83f767327d2c53cf6125a9c439753637e7dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304717"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582099"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
 

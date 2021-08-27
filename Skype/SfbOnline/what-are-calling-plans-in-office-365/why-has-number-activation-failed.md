@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb4ed67bd0447b17cfe8e0bd4f9b181aceddda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312273"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581919"
 ---
 # <a name="why-has-number-activation-failed"></a>Warum ist die Nummernaktivierung fehlgeschlagen?
 
@@ -70,7 +70,7 @@ Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufpl�
       - Land oder Region
     
      > [!IMPORTANT]
-     > **Geben Sie das Land/die Region an, in dem/der wir Anrufpläne anbieten, für die Sie eine Notfalladresse überprüfen möchten, wenn Sie eine Telefonnummer zuweisen.**
+     > **Geben Sie das Land/die Region an, in dem/der wir Anrufpläne anbieten, für die Sie bei der Zuweisung einer Telefonnummer eine Notfalladresse überprüfen möchten.**
   
       - Postleitzahl
     

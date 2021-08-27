@@ -10,18 +10,18 @@ ms.reviewer: dstrome
 description: Lernen Sie die Funktionen kennen, die in Microsoft Teams und den zahlreichen Exchange-Setups gemeinsam verwendet werden, wie zum Beispiel das Erstellen von und die Teilnahme an Teams, das Erstellen von Kanälen usw.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624807"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -68,7 +68,7 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
 
-<sup>9</sup> Mindestens eine Lizenz Exchange Online Plan 1 ist ebenfalls erforderlich. Weitere Informationen finden Sie unter Suchen [Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+<sup>9</sup> Eine mindestens erforderliche Exchange Online Plan 1-Lizenz ist ebenfalls erforderlich. Weitere Informationen finden Sie unter Suchen [Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
 <sup>10</sup> Lokale Benutzer können mithilfe von Teams Profilbild aktualisieren, auch wenn die Richtlinie für Outlook `SetPhotoEnabled` Webpostfach auf festgelegt `false` ist.
 

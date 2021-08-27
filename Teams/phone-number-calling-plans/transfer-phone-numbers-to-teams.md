@@ -15,16 +15,16 @@ ms.collection:
 - m365initiative-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe des Portierungs-Assistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter zu Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb098a13b157a7f95e93ab693ad2a83530571316689803069c696eccfede3929
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336015"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617211"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
@@ -41,7 +41,7 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
 > Derzeit können Sie diesen Assistenten verwenden, **um Telefonnummern für Großbritannien,** die Vereinigten Staaten und Kanada zu erhalten. Um Telefonnummern für andere Länder und Regionen zu erhalten, können Sie [einen Portierungsauftrag manuell übermitteln.](manually-submit-port-order.md) Um das Formular zu erhalten, das Sie manuell übermitteln müssen, wählen Sie Ihr Land oder Ihre Region in der Dropdownliste unter Verwalten von Telefonnummern [für Ihre Organisation aus.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachanrufnummern Telefon .** Klicken **Sie auf** Nummern und dann auf **Portieren,** um den Portierungs-Assistenten zu starten.
-2. Überprüfen Sie die Informationen auf der Seite **Erste** Schritte, und klicken Sie dann, wenn Sie bereit sind, auf **Weiter.**
+2. Überprüfen Sie die Informationen auf der Seite **Erste** Schritte, und klicken Sie dann, wenn Sie fertig sind, auf **Weiter.**
 3. Geben Sie **auf der Seite** Speicherort und Zahlentyp auswählen Folgendes an, und klicken Sie dann auf **Weiter:**
 
     - **Land oder Region:** Das Land oder die Region, in dem bzw. der Sie Telefonnummern erhalten.
@@ -65,19 +65,19 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
         - **Abrechnungstelefonnummer:** Ihr BTN im E.164-Format, für das ein Pluszeichen (+) vor der Nummer erforderlich ist. Verwenden Sie beispielsweise für eine Telefonnummer aus Nordamerika das Format +1XXXYYYZZZZ.
         - Weitere Details, einschließlich des Namens Ihres aktuellen Dienstanbieters, Ihrer Kontonummer und Ihrer Dienstadresse.
             
-5. Klicken Sie **auf der Seite** Nummern hinzufügen auf Datei auswählen, navigieren Sie zu der CSV-Datei mit den Telefonnummern, die Sie übertragen möchten, und wählen Sie sie aus, und klicken Sie dann auf **Weiter.**   
+5. Klicken Sie **auf der Seite** Nummern hinzufügen auf Datei auswählen , navigieren Sie zu der CSV-Datei mit den Telefonnummern, die Sie übertragen möchten, und wählen Sie sie aus, und klicken Sie dann auf **Weiter.**   
 
     > [!NOTE]
     > Die CSV-Datei darf nur eine Spalte mit der Überschrift "PhoneNumber" enthalten. Jede Telefonnummer muss in einer separaten Zeile stehen und kann nur Ziffern oder im E.164-Format sein.
 
-6. Klicken Sie **auf der** Seite Bestellung abschließen auf **Hochladen,** um eine überprüfte Kopie der signierten Genehmigungsschreiben hochzuladen.
+6. Klicken Sie **auf der** Seite Bestellung abschließen auf **Hochladen** signierte Genehmigungsschreiben, um eine gescannte Kopie der signierten Genehmigungsschreiben hochzuladen.
 
     Wenn Sie den LOA noch nicht heruntergeladen und signiert haben, gehen Sie wie folgt vor:
     
     1. Klicken **Sie auf Vorlage herunterladen,** um den LOA für Ihr Land oder Ihre Region herunterzuladen. 
     2. Drucken Sie den LOA.
     3. Lassen Sie den LOA von der Person unterzeichnen, die berechtigt ist, Änderungen am Konto vorzunehmen.
-    4. Scannen Sie den signierten LOA, und klicken Sie **Hochladen,** um ihn hochzuladen.
+    4. Scannen Sie den signierten LOA, und klicken **sie Hochladen,** um ihn hochzuladen.
 
     > [!NOTE]
     > Nachdem Sie Ihren LOA hochgeladen haben, übermitteln Sie Ihre Bestellung. Nur das Hochladen des LOA reicht nicht aus. Sie müssen auch die Bestellung übermitteln, damit sie verarbeitet wird.
@@ -89,7 +89,7 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
 
 Wenn wir Ihren Portierungsantrag erhalten, erhalten Sie eine E-Mail, in der Ihre Anforderung bestätigt wird. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden per E-Mail über den Fortschritt und Status benachrichtigt. Wenn Ihre Portierungsanforderung vom verlorenen Netzbetreiber abgelehnt wird, wenden Sie sich an [den PSTN Service Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
-Zum Anzeigen des Status Ihres Portierungsauftrags wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu > **Voice**  >  **Portierungsaufträge**, und klicken Sie dann auf **Bestellverlauf**. Der Status jedes Portierungsauftrags wird in der **Spalte Status** aufgeführt. Weitere Informationen finden Sie unter [Wie ist der Status Ihrer Portierungsaufträge?](port-order-status.md)
+Um den Status Ihres Portierungsauftrags zu sehen, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu > **Voice**  >  **Portierungsaufträge**, und klicken Sie dann auf **Bestellverlauf**. Der Status jedes Portierungsauftrags wird in der **Spalte Status** aufgeführt. Weitere Informationen finden Sie unter [Wie ist der Status Ihrer Portierungsaufträge?](port-order-status.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

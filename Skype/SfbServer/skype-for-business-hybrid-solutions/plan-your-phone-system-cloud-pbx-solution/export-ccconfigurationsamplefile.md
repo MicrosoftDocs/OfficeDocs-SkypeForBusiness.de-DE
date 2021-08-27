@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: Das cmdlet Export-CcConfigurationSampleFile exportiert eine Skype for Business Cloud Connector Edition Beispielkonfigurationsdatei (.ini) in das Appliance-Verzeichnis einer Cloud Connector-Appliance. Sie können die für Ihre Bereitstellung zu verwendende Datei ändern und umbenennen.
-ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Das Cmdlet Export-CcConfigurationSampleFile exportiert eine Skype for Business Cloud Connector Edition Beispielkonfigurationsdatei (.ini) in das Appliance-Verzeichnis einer Cloud Connector-Appliance. Sie können die für Ihre Bereitstellung zu verwendende Datei ändern und umbenennen.
+ms.openlocfilehash: 409514761c3bfeccebb671d289201fc67f58d220
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326261"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603664"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-Das cmdlet Export-CcConfigurationSampleFile exportiert eine Skype for Business Cloud Connector Edition Beispielkonfigurationsdatei (.ini) in das Appliance-Verzeichnis einer Cloud Connector-Appliance. Sie können die für Ihre Bereitstellung zu verwendende Datei ändern und umbenennen.
+Das Cmdlet Export-CcConfigurationSampleFile exportiert eine Skype for Business Cloud Connector Edition Beispielkonfigurationsdatei (.ini) in das Appliance-Verzeichnis einer Cloud Connector-Appliance. Sie können die für Ihre Bereitstellung zu verwendende Datei ändern und umbenennen.
   
 Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
@@ -50,7 +50,7 @@ Export-CcConfigurationSampleFile
 
 Für die aktuelle Version von Cloud Connector müssen Sie mehrere Parameter in der .ini-Datei angeben. Beispielsweise Parameter wie die IP-Adressen virtueller Computer für die Cloud Connector-Komponenten, Komponentennamen, Gatewayparameter usw.
   
-Dieses Cmdlet lädt bei Ausführung auf dem Hostcomputer von Cloud Connector ein Beispiel .ini Datei mit Konfigurationsbeispielen von der Microsoft-Website herunter. Das Cmdlet schreibt die Datei in das Appliance-Verzeichnis der Cloud Connector-Appliance. Das Appliance-Verzeichnis wird mithilfe des Cmdlets Set-CcApplianceDirectory angegeben.
+Wenn dieses Cmdlet auf dem Hostcomputer von Cloud Connector ausgeführt wird, wird ein Beispiel .ini Datei mit Konfigurationsbeispielen von der Microsoft-Website heruntergeladen. Das Cmdlet schreibt die Datei in das Appliance-Verzeichnis der Cloud Connector-Appliance. Das Appliance-Verzeichnis wird mithilfe des Cmdlets Set-CcApplianceDirectory angegeben.
   
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>

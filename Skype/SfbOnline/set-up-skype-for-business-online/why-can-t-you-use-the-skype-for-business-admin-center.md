@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Erfahren Sie, was Sie im Skype for Business Admin Center und andere Features verwenden können, wenn Ihr Dienst zu einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581959"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum kann ich das Skype for Business Online Admin Center derzeit nicht verwenden?
 
@@ -38,13 +38,13 @@ Hier ist zunächst die technische Erläuterung:
   
 Wir migrieren Ihren Skype for Business Online-Dienst (d. h. Ihre Benutzer und Organisationseinstellungen) zu einem anderen Microsoft-Rechenzentrum, das sich näher bei Ihnen befindet. Dadurch wird Ihr Dienst verbessert und die Latenz verringert. 
   
-Weitere technische Details finden Sie unter [Während und nach dem Verschieben Ihrer Daten.]( https://go.microsoft.com/fwlink/?LinkId=526418)
+Weitere technische Details finden Sie unter [Während und nach dem Verschieben ihrer Daten.]( https://go.microsoft.com/fwlink/?LinkId=526418)
   
 ## <a name="ok-so-what-does-that-mean"></a>OK, was bedeutet das nun?
 
 Lassen Sie uns zunächst einige Konditionen auf den ersten Schritt gehen.
   
-- **Rechenzentrum** Dies ist der physische Speicherort, an dem die Informationen Microsoft 365 Oder Office 365 gespeichert sind, z. B. Ihre Dateien und E-Mail-Nachrichten. Wenn Sie sich wirklich mit den Microsoft 365 und Datencentern Office 365 möchten, lesen Sie[diesen Artikel.](https://www.microsoft.com/online/legal/v2/?docid=25)
+- **Rechenzentrum** Dies ist der physische Speicherort, an dem die Informationen aus Ihrem Microsoft 365 oder Office 365 gespeichert sind, z. B. Ihre Dateien und E-Mail-Nachrichten. Wenn Sie sich wirklich mit den Datencentern Microsoft 365 und Office 365 informieren möchten, lesen Sie[diesen Artikel.](https://www.microsoft.com/online/legal/v2/?docid=25)
     
 - **Migrieren** Dies ist ziemlich identisch mit "Verschieben". In diesem Fall bedeutet dies, dass wir Ihre Skype for Business Online-Benutzer und -Einstellungen von einem Rechenzentrum in ein anderes verschieben, das näher bei Ihnen ist, um Ihren Dienst zu verbessern.
     
@@ -58,7 +58,7 @@ Was dies alles bedeutet, ist wir dabei, alle Ihre Skype for Business Online-Benu
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>Welche Skype for Business Onlinefeatures funktionieren weiterhin?
 
-Obwohl Sie nicht auf das Skype for Business Online Admin Center zugreifen können, funktionieren die folgenden Skype for Business Online-Features während der Migration weiterhin:
+Obwohl Sie nicht auf das Skype for Business Online Admin Center zugreifen können, funktionieren die folgenden Skype for Business Online-Features während der Migration:
   
 - Onlinebesprechungen
     

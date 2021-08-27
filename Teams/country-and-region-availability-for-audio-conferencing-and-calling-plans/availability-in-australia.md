@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Australien verfügbar.
-ms.openlocfilehash: 1e6b99f955f0f095a36351b85ad4526608b53e412e071072f6eda3c87a1eca2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams in Australien.
+ms.openlocfilehash: 640fd651c4ba41c26dc9faf41c616ee887778947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624797"
 ---
 # <a name="availability-in-australia"></a>Verfügbarkeit in Australien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Australien verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams in Australien.
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -66,7 +66,7 @@ Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business
 > [!IMPORTANT]
 > Wenn Sie australische Abonnentennummern (von Telstra bereitgestellt) löschen möchten, wenden Sie sich direkt an Telstra.
 > Wenn Sie Notfalladresseninformationen für australische Telefonnummern (von Telstra bereitgestellt) aktualisieren möchten, wenden Sie sich direkt an Telstra.
-> Weitere Informationen finden Sie unter [Telstra-Anrufe.](https://aka.ms/TelstraVoicePlan)
+> Weitere Informationen finden Sie unter [Telstra Calling](https://aka.ms/TelstraVoicePlan).
 
 ### <a name="if-your-tenant-is-located-outside-australia"></a>Wenn sich Ihr Mandant außerhalb von Australien befindet
 
@@ -75,10 +75,10 @@ Wenn sich Ihr Mandant außerhalb von Australien befindet, können Sie ab dem 1. 
 |**Feature**|**Details**|
 |---------|---------|
 |Nord- und Südamerika    |Vereinigte Staaten, Amerikanische Überlinginseln      |
-|APAC     |Bangladesch, Bhutan, Brunei, Kambodscha, Hongkong, Indonesien, Nepal, Macau, Malaysia, Myanmar, Nepal, Philippinen, Singapur, Sri Lanka, Thailand, Timor-Leste, Vietnam|
+|APAC     |Bangladesch, Bhutan, Brunei, Kambodscha, Hongkong, Indonesien, Mauritius, Macau, Malaysia, Myanmar, Nepal, Philippinen, Singapur, Sri Lanka, Thailand, Timor-Leste, Vietnam|
 |EMEA    |Ålandinseln, Andorra, Österreich, Belgien, Bouvetinsel, Bulgarien, Kroatien, Zypern, Tschechische Republik, Dänemark, Estland, Färöer, Finnland, Frankreich, Deutschland, Zypern, Griechenland, Grönland, Guernsey, Ungarn, Island, Irland, Isle of Man, Italien, Jan Mayen, Jersey, Lettland, Liechtenstein, Litauen, Luxemburg, Malta, Monaco, Niederlande, Norwegen, Polen, Portugal, Rumänien, San Marino, Slowakei, Slowenien, Spanien, Svalbard, Schweden, Schweiz, Vereinigtes Königreich, Vatikanstadt  |
 
-Beachten Sie, dass Telstra-Anrufe nur für Benutzer mit Sitz in Australien sowie den oben aufgeführten Ländern und Regionen als Add-On angezeigt werden, nachdem sie von Telstra bereitgestellt wurden. Benutzer in anderen Ländern/Regionen fügen nach wie vor Microsoft-Anrufpläne oder Direct Routing an. Weitere Informationen finden Sie unter [Telstra-Anrufe.](https://aka.ms/TelstraVoicePlan)
+Beachten Sie, dass Telstra-Anrufe nur für Benutzer in Australien sowie den oben aufgeführten Ländern und Regionen als Add-On angezeigt werden, nachdem sie von Telstra bereitgestellt wurden. Benutzer in anderen Ländern/Regionen fügen nach wie vor Microsoft-Anrufpläne oder Direct Routing an. Weitere Informationen finden Sie unter [Telstra Calling](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

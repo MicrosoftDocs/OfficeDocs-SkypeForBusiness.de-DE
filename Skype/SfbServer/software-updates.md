@@ -10,19 +10,19 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Suchen und Verwalten von Updates für Skype for Business Server oder Lync 2013. Verwenden Sie die Links, um weitere Informationen zu erhalten und dann die Updates herunterzuladen.
-ms.openlocfilehash: 7358bf9c35ca516de84ca81ab91564946e13a754d6816c8e6378ccb9cf85d3c0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2da27f65f9468c164e706da05692919017ce5ea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578549"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business-Downloads und -Updates
 
-Die Skype for Business Download- _und Aktualisierungswebseite,_ die sich einmal auf Technet befand, wurde eingestellt. Der Inhalt wurde auf Client- und Serverseiten neu organisiert. Folgen Sie diesen Links zu den benötigten Inhalten:
+Die Skype for Business downloads _and updates_ web page that was once on Technet has been retired. Der Inhalt wurde auf Client- und Serverseiten neu organisiert. Folgen Sie diesen Links zu den benötigten Inhalten:
 
 - [Updates für Skype for Business Clients,](sfb-client-updates.md) die die Abschnitte enthalten:
     - [Skype for Business 2016-Clientupdates](sfb-client-updates.md#skype-for-business-2016-client-updates)

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Dadurch wird das Schema der Datenbank für beständigen Chat in Skype for Business Server dokumentiert.
-ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 673cca8acf2ecad76c578ba05d8d22a20a253a9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280928"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610582"
 ---
 # <a name="persistent-chat-database-schema"></a>Datenbankschema für beständigen Chat
  
@@ -31,7 +31,7 @@ Die Datenbank für beständigen Chat bezieht sich auf die Datenbank, die den Sky
   
 Halten Sie sich an folgende bewährte Methoden:
   
-- Select \* wird nicht unterstützt, da die Spaltenliste vergrößert werden kann.
+- Es wird keine SELECT \* -Option unterstützt, da die Spaltenliste vergrößert werden kann.
     
 - Es werden keine benutzergenerierten Schemaänderungen unterstützt.
     

@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Hier erfahren Sie, wie Sie Ihre Organisation so Microsoft Teams, dass Skype for Business lokalen Bereitstellung nicht mehr funktioniert.
-localization_priority: Normal
+description: Erfahren Sie, wie Sie Ihre Organisation so Microsoft Teams, dass Skype for Business lokalen Bereitstellung nicht mehr funktioniert.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf5529cf37ca3217c5af0411a1d12f0e752c583cb869273f9ba5b068d5633da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 690595338cbf8f6f2689a6bd4d75842b00afaf28
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582125"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Upgrade von einer Skype for Business lokalen Bereitstellung auf Teams
 
@@ -48,11 +48,11 @@ Folgen Sie den Anweisungen in diesem Artikel, wenn Sie Skype for Business oder M
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>Schritt 1: Bereitstellen der Hybridkonnektivität
 
-Die wichtigste Voraussetzung für das Upgrade Ihrer Benutzer auf Teams Ist die Bereitstellung von Hybridkonnektivität.
+Die wichtigste Voraussetzung für das Upgrade Ihrer Benutzer auf Teams ist die Bereitstellung von Hybridkonnektivität.
 
 Weitere Informationen finden Sie unter Bereitstellen einer Hybridkonnektivität zwischen [Skype for Business Server und Skype for Business Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
-## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Schritt 2: Implementieren des ausgewählten Upgrade-Wegs für Ihre Organisation
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>Schritt 2: Implementieren des ausgewählten Upgradewegs für Ihre Organisation
 
 Nachdem Sie das Hybrid-Setup abgeschlossen haben, können Sie planen, Ihre Benutzer zu einem anderen Microsoft 365 oder Office 365.
 
@@ -60,12 +60,12 @@ Weitere Informationen finden Sie unter:
 
 - [TeamsUpgradePolicy: Verwalten von Migration und Koexistenz.](upgrade-to-teams-on-prem-tools.md)
 
-- [Verschieben Sie Benutzer von der lokalen in die Skype for Business Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
+- [Verschieben sie Benutzer von lokal auf Skype for Business Online.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
 ## <a name="phone-system-and-teams-upgrade"></a>Telefonsystem und Teams Upgrade
 
-Wenn Sie von lokalen Telefonsystemen auf Teams umstiegen, können Sie Telefonsystem Direct Routing ("Direct Routing") oder die von Microsoft bereitgestellten Anrufpläne für Microsoft 365 oder Office 365.
+Wenn Sie von lokalen Telefonsystemen auf Teams umstiegen, können Sie Telefonsystem Direct-Routing ("Direct Routing") oder die von Microsoft bereitgestellten Anrufpläne für Microsoft 365 oder Office 365.
 
 Wenn Sie keine Anrufpläne verwenden, müssen Sie Ihre Enterprise-Sprachbereitstellung im Rahmen Ihres Upgrades auf Telefonsystem Direct-Routing um Teams.
 
-Weitere Informationen finden Sie unter [zusätzliche Überlegungen zum Telefonsystem Direct-Routing.](./direct-routing-landing-page.md) Wenn Sie Anrufpläne verwenden möchten, lesen Sie bitte unsere Anleitungen für die Übertragung Ihrer [Telefonnummern an Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Weitere Informationen finden Sie unter [zusätzliche Überlegungen zur Telefonsystem Direct-Routing.](./direct-routing-landing-page.md) Wenn Sie Anrufpläne verwenden möchten, lesen Sie bitte unsere Anleitung für die Übertragung Ihrer [Telefonnummern an Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

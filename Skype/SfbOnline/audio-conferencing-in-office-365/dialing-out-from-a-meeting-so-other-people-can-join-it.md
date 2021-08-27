@@ -1,5 +1,5 @@
 ---
-title: Einwählen aus einer Besprechung Skype for Business, damit andere Personen an der Besprechung teilnehmen können
+title: Abwählen aus einer Skype for Business, damit andere Personen an der Besprechung teilnehmen können
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,20 +15,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298895"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581979"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Einwählen aus einer Besprechung Skype for Business, damit andere Personen an der Besprechung teilnehmen können
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Abwählen aus einer Skype for Business, damit andere Personen an der Besprechung teilnehmen können
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "54298895"
 
 Als Besprechungsorganisator können Sie mithilfe der Skype for Business-App einen Anruf aus einer Besprechung herauswählen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
   
-- Sie können nur dann eine Verbindung aus einer Besprechung herausrufen, wenn Sie mit einer Skype for Business teilnehmen.
+- Ein-/Auswählen ist nur bei Teilnahme an einer Besprechung über eine Skype for Business-App.
     
 - Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
 

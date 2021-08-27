@@ -9,22 +9,22 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Anruf über Arbeit in Skype for Business Server für einige oder alle Benutzer bereitstellen.'
-ms.openlocfilehash: ce4c49a1ba8766dbec6efbfe2b04ea91702eadf40c91cb6108f027765609cac4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6113c4447e30d59a262bf2c02b3f7ff2db171f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303159"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624417"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Bereitstellen von "Anruf über Arbeit" in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie "Anruf über Arbeit" in Skype for Business Server für einige oder alle Benutzer bereitstellen.
+**Zusammenfassung:** Erfahren Sie, wie Sie Anruf über Arbeit in Skype for Business Server für einige oder alle Benutzer bereitstellen.
   
 Führen Sie die folgenden Schritte aus, um Anruf über Arbeit für Ihre Benutzer bereitzustellen. Planungsüberlegungen werden in ["Plan for Call Via Work" in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)erläutert. In früheren Versionen von Lync Server war die Remoteanrufsteuerung ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Über Arbeit anrufen" ersetzt. 
   
@@ -36,9 +36,9 @@ Call Via Work verwendet unified Communications Web API (UCWA), die automatisch a
     
 - Alle Benutzer, die für "Anruf über Arbeit" aktiviert sind, müssen über eine DID (Direct Inward Dialing) auf dem PbX-Telefonsystem verfügen. 
     
-- Sie müssen alle Benutzer von "Anruf über Arbeit" für Enterprise-VoIP aktivieren. Wenn Sie dies tun, müssen Sie die Skype for Business DID-Nummer für jeden Benutzer mit der entsprechenden DID-Nummer für die entsprechende Nebenstellenanlage konfigurieren. 
+- Sie müssen alle Benutzer von "Über Arbeit anrufen" für Enterprise-VoIP aktivieren. Wenn Sie dies tun, müssen Sie die Skype for Business DID-Nummer für jeden Benutzer mit der entsprechenden DID-Nummer für die entsprechende Nebenstellenanlage konfigurieren. 
     
-- Alle Benutzer, die "Anruf über Arbeit" verwenden, müssen die **automatische Konfiguration** in der Option **"Erweiterte Verbindungen"** in ihrem Skype for Business-Client ausgewählt haben. Dadurch kann der Client die UCWA-URLs ermitteln. **Die automatische Konfiguration** ist die Standardauswahl.
+- Alle Benutzer, die "Anruf über Arbeit" verwenden, müssen die **automatische Konfiguration** in ihrer Option **"Erweiterte Verbindungen"** in ihrem Skype for Business-Client ausgewählt haben. Dadurch kann der Client die UCWA-URLs ermitteln. **Die automatische Konfiguration** ist die Standardauswahl.
     
 - Aktivieren Sie für jeden Benutzer von "Anruf über Arbeit" die Anrufweiterleitung und das gleichzeitige Klingeln. 
     
@@ -46,7 +46,7 @@ Call Via Work verwendet unified Communications Web API (UCWA), die automatisch a
     
 - Stellen Sie sicher, dass Delegierung, Teamanruf und Reaktionsgruppe für jeden Benutzer von "Über Arbeit anrufen" deaktiviert sind.
     
-## <a name="deploy-call-via-work"></a>Bereitstellen der Funktion „Anruf über Arbeit“
+## <a name="deploy-call-via-work"></a>Bereitstellen der Funktion "Anruf über Arbeit"
 
 Nachdem die Voraussetzungen erfüllt sind, führen Sie die folgenden Schritte aus:
   
@@ -70,7 +70,7 @@ Nachdem die Voraussetzungen erfüllt sind, führen Sie die folgenden Schritte au
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
-### <a name="create-a-call-via-work-policy"></a>Erstellen einer Richtlinie für die Anrufweiterleitung
+### <a name="create-a-call-via-work-policy"></a>Erstellen einer Anruf-über-Arbeit-Richtlinie
 
 - Geben Sie das folgende Cmdlet ein.
     

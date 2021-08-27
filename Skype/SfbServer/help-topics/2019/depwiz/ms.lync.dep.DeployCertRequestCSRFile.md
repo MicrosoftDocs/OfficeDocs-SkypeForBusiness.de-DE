@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Erstellen einer Offlineanforderung müssen Sie zunächst eine Zertifikatsignieranforderung erstellen. Geben Sie den Pfad und den Dateinamen für die CSR in das Textfeld Dateiname ein. Sie können auf Durchsuchen klicken, um einen Speicherort zum Erstellen der Zertifikatsignieranforderung auszuwählen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 7883380ecf17c5fdb514c249f598fa231110fac4773af179b4c908ca8a70b8ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2be15ed1d07e5c94067c25e212913184403e196b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588927"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Zertifikatanforderung (Signieranforderung für das Zertifikat)
  

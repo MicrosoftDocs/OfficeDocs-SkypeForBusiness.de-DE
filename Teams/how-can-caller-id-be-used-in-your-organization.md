@@ -15,25 +15,25 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: Die Anrufer-ID kann sowohl für ein- als auch für ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
-ms.openlocfilehash: ddd01d899597a96b5085c92ac9e20681b0a5c92b18ca342008b499e44892743a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Die Anrufer-ID kann für ein- und ausgehende Anrufe für Telefonsystem Benutzer mithilfe einer Richtlinie namens CallingLineIdentity gesteuert werden.
+ms.openlocfilehash: 97070be995d56451a7b6b1969c8d3751ebaaffe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293822"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624607"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Verwendungsmöglichkeiten der Anrufer-ID in Ihrer Organisation
 
 Die Anrufer-ID besteht aus zwei identifizierbaren Informationen für den Benutzer:
 
-- Eine Telefonnummer (in der Regel als RUFNUMMER oder Anrufleitungs-ID bezeichnet). Dies ist die öffentlich geschaltete Telefonnummer (PSTN), die als Identifizierung des Anrufers dargestellt wird.
+- Eine Telefonnummer (in der Regel als RUFNUMMER oder Anrufleitungs-ID bezeichnet). Dabei handelt es sich um die rufnummerngeschaltete Telefonnummer (PSTN), die als Identifizierung des Anrufers dargestellt wird.
 
 - Ein Name der Anruferparty (üblicherweise auch als "CNAM" bezeichnet). 
   
@@ -58,7 +58,7 @@ Für die ausgehende PSTN-Anrufer-ID sind die folgenden Optionen verfügbar.
 
   - Eine Telefonnummer, die in Ihrem Telefonnummernbestand für Anrufpläne als Dienstnummer und gebührenfreie Nummer klassifiziert ist. Sie wird in der Regel einem Teams automatische Telefonzentrale oder einer Anrufwarteschleife zugewiesen.
 
-  - Eine lokale Telefonnummer über Direct-Routing, die einem Ressourcenkonto zugeordnet ist, das von einem Benutzer oder Teams automatische Telefonzentrale Anrufwarteschleife verwendet wird. 
+  - Eine lokale Telefonnummer über Direktes Routing, die einem Ressourcenkonto zugewiesen ist, das von einer Teams automatische Telefonzentrale oder Anrufwarteschleife verwendet wird. 
 
 - Der Name der Anrufenden Partei oder das CNAM, der für den ausgehenden PSTN-Anruf festgelegt ist.  
     
@@ -84,15 +84,15 @@ Berücksichtigen Sie dabei Folgendes:
 
   - Eine Skype for Business Server eine lokale Telefonnummer.
 
-- Das Ersetzen von Telefonnummern des Ressourcenkontos funktioniert nur für Teams Benutzer. Das Ersetzen der Servicetelefonnummer funktioniert sowohl für Skype for Business Online als Teams Benutzer.
+- Das Ersetzen von Telefonnummern des Ressourcenkontos funktioniert nur für Teams Benutzer. Das Ersetzen der Servicetelefonnummer funktioniert sowohl für Skype for Business online als Teams Benutzer.
 
-- Der Anrufername wird nur für Anrufe gesendet, bei denen die Anrufer-ID durch LineUri, die Telefonnummer eines Diensts oder Ressourcenkontos ersetzt wird und der Anrufer ein Teams ist.
+- Der Anrufername wird nur bei Anrufen gesendet, bei denen die Anrufer-ID durch LineUri, die Telefonnummer eines Diensts oder Ressourcenkontos ersetzt wird und der Anrufer ein Teams ist.
 
 - Anrufername kann maximal 200 Zeichen umfassen, doch downstream-Systeme unterstützen möglicherweise weniger Zeichen.
 
 - Beim direkten Routing werden die Telefonnummernersetzung und der Name der Anrufergruppe in der FROM SIP-Kopfzeile gesendet. Wenn das entsprechende OnlinePstnGateway mit ForwardPai = True konfiguriert ist, enthält der SIP-Header P-ASSERTED-IDENTITY den tatsächlich aufrufenden Benutzer.
 
-- EnableUserOverride hat Vorrang vor anderen Einstellungen in der Richtlinie , es sei denn, die Ersetzung ist auf Anonym festgelegt. Angenommen, die Richtlinieninstanz wurde durch ein Ressourcenkonto ersetzt, und EnableUserOverride wird vom Benutzer festgelegt und aktiviert. In diesem Fall wird die ausgehende Anrufer-ID blockiert und Anonym verwendet. Wenn für eine Richtlinieninstanz die Ersetzung auf Anonym und EnableUserOverride festgelegt ist, wird die ausgehende Anrufer-ID unabhängig von der Endbenutzereinstellung immer anonym festgelegt.
+- EnableUserOverride hat Vorrang vor anderen Einstellungen in der Richtlinie , es sei denn, die Ersetzung ist auf Anonym festgelegt. Angenommen, die Richtlinieninstanz wurde durch ein Ressourcenkonto ersetzt, und EnableUserOverride wird vom Benutzer festgelegt und aktiviert. In diesem Fall wird die ausgehende Anrufer-ID blockiert und Anonym verwendet. Wenn für eine Richtlinieninstanz die Ersetzung auf Anonym und EnableUserOverride festgelegt ist, wird die ausgehende Anrufer-ID unabhängig von der Einstellung des Endbenutzers immer anonym festgelegt.
 
    
 ## <a name="inbound-caller-id"></a>Eingehende Anrufer-ID

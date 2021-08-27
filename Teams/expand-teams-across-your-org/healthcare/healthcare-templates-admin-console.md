@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Verwenden Sie Teamvorlagen im Admin Center oder mit Microsoft Graph, um Schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und Apps bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596179"
 ---
 # <a name="use-a-healthcare-team-templates"></a>Verwenden von Vorlagen für ein Gesundheitsteam
 
@@ -67,7 +67,7 @@ Optimieren Sie die Kommunikation und Zusammenarbeit zwischen mehreren Stationen,
 
 ## <a name="use-the-team-templates-with-the-microsoft-graph"></a>Verwenden der Teamvorlagen mit dem Microsoft-Graph
 
-Entwickler können die Microsoft-Graph verwenden, um Teams mit den Teamvorlagen zu erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter [Erste Schritte mit Teamvorlagen.](../../get-started-with-teams-templates.md) Informationen zu Teamvorlagen und dem Microsoft-Graph finden Sie unter Übersicht [Microsoft Teams-API](/graph/teams-concept-overview?view=graph-rest-1.0) und [teamsTemplate-Ressourcentyp](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Entwickler können die Microsoft-Graph verwenden, um Teams mit den Teamvorlagen zu erstellen. Derzeit bieten wir zwei Vorlagen für das Gesundheitswesen von Erstanbietern an, die Sie für eine Vielzahl von Situationen verwenden können. Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter [Erste Schritte mit Teamvorlagen.](../../get-started-with-teams-templates.md) Informationen zu Teamvorlagen und dem Microsoft-Graph finden Sie unter Übersicht [Microsoft Teams-API](/graph/teams-concept-overview?view=graph-rest-1.0) und [TeamsTemplate-Ressourcentyp.](/graph/api/resources/teamstemplate?view=graph-rest-1.0)
 
 ### <a name="ward-template"></a>Sationsvorlage
 

@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Das Skype for Business Server 2015-Planungstool wird abbestellen.
-ms.openlocfilehash: c642b08f87701335329d87fedc650884ded63105f4f9b9c0766e5fa04225b097
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd225be2bed2eb211750f846cb12a186b045e8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578749"
 ---
 # <a name="feature-overview-planning-tool"></a>Featureübersicht –Planungstool
  
@@ -40,7 +40,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
 
 ## <a name="ui-elements"></a>UI-Elemente
 
-Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste Schritte** Assistenten gestellten Fragen aufgefüllt oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
+Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gefüllt, die Sie im **assistenten Erste Schritte** gestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
   
 ### <a name="online-collaboration"></a>Onlinezusammenarbeit
 
@@ -80,16 +80,16 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
 - **Partnerverbund mit XMPP-basiertem Dienstanbieter**
     
-    Skype for Business Server 2015 führt einen vollständig integrierten XMPP-Proxy (auf den Edgeservern bereitgestellt) und ein XMPP-Gateway ein, das auf Ihren Front-End-Servern bereitgestellt wird. Sie können das Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways bereitstellen, damit Ihre Skype for Business Server 2015-Benutzer Kontakte von XMPP-basierten Partnern für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
+    Skype for Business Server 2015 führt einen vollständig integrierten XMPP-Proxy (bereitgestellt auf den Edgeservern) und ein XMPP-Gateway ein, das auf Ihren Front-End-Servern bereitgestellt wird. Sie können das Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways bereitstellen, damit Ihre Skype for Business Server 2015-Benutzer Kontakte von XMPP-basierten Partnern für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
 
 > [!NOTE]
 > XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
     
 - **Mobilität**
     
-    Wenn Sie den Skype for Business Server 2015 Mobility Service bereitstellen, können Benutzer unterstützte mobile Apple iOS-, Android-, Windows Phone- oder Nokia-Geräte verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
+    Wenn Sie den Skype for Business Server 2015 Mobility Service bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
     
-- **W15 Exchange-Postfach**
+- **W15 Exchange Postfach**
     
     mit Skype for Business Server 2015 können Sie Voicemailnachrichten in Exchange Unified Messaging (UM) speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
     
@@ -103,7 +103,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) kombiniert Voicemail und E-Mail in einer einzigen Messaginginfrastruktur. Skype for Business Server 2015 verwendet Exchange UM, um Dienste für die Anrufannahme, den Abonnentenzugriff, die Anrufbenachrichtigung und die automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
+    Exchange Unified Messaging (UM) kombiniert Voicemail und E-Mail in einer einzigen Messaginginfrastruktur. Skype for Business Server 2015 verwendet Exchange UM, um Anrufbeantwortung, Abonnentenzugriff, Anrufbenachrichtigung und automatische Telefonzentralendienste bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
     
 ### <a name="additional-deployment-options"></a>Zusätzliche Bereitstellungsoptionen
 
@@ -127,7 +127,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
 - **Exchange Archivierungsintegration**
     
-    Wenn Sie Benutzer haben, die Exchange 2013 verwaltet werden und deren Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option auswählen, Skype for Business Server 2015-Speicher in Exchange Speicher zu integrieren.
+    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option auswählen, Skype for Business Server 2015-Speicher in Exchange Speicher zu integrieren.
     
 - **IPv4**
     
@@ -151,11 +151,11 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
 - **Ankündigung**
     
-    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Durch die Verwendung des Ankündigungsdiensts wird die Situation vermieden, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
+    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Die Verwendung des Ankündigungsdiensts verhindert die Situation, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
     
 - **Parken von Anrufen**
     
-    Mit der Anwendung zum Parken von Anrufen kann ein Enterprise-VoIP Benutzer einen Anruf von einem Telefon aus anhalten und dann den Anruf von einem anderen Telefon empfangen, ohne Ressourcen auf dem Telefon zu binden, das den Anruf empfangen hat. Die Anwendung zum Parken von Anrufen ist nützlich, wenn ein Benutzer einen Anruf übertragen muss, der empfängerspezifische Empfänger jedoch unbekannt ist. 
+    Die Anwendung zum Parken von Anrufen ermöglicht es einem Enterprise-VoIP Benutzer, einen Anruf von einem Telefon aus zu sperren und dann den Anruf von einem anderen Telefon zu empfangen, ohne Ressourcen auf dem Telefon zu binden, das den Anruf empfangen hat. Die Anwendung zum Parken von Anrufen ist nützlich, wenn ein Benutzer einen Anruf übertragen muss, der empfängerspezifische Empfänger jedoch unbekannt ist. 
     
 - **Konferenzzentrale**
     
@@ -163,7 +163,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stumm geschaltet sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stummgeschaltet sind.
     
 - **Anrufsteuerung**
     

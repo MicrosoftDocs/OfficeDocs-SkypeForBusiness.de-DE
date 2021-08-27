@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Vor der Außerbetriebnahme eines Pools müssen Sie das folgende Verfahren für jedes Konferenzverzeichnis in Ihrem Legacypool ausführen.
-ms.openlocfilehash: 7e124a81b8aed561419e5965c930ad64988c122540df6660ae68006fe6af9a55
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d4333f74c1d45e57e45c66c8de6f3e279cee01f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313853"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596149"
 ---
 # <a name="move-conference-directories"></a>Verschieben von Konferenzverzeichnissen
 
@@ -69,6 +69,6 @@ Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObjec
 This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 ```
 
-Dieser Fehler tritt in der Regel auf, wenn die Skype for Business Server-Verwaltungsshell einen aktualisierten Satz von Active Directory-Berechtigungen benötigt, um eine Aufgabe abzuschließen. Um das Problem zu beheben, schließen Sie die aktuelle Instanz der Verwaltungsshell, öffnen Sie dann eine neue Instanz der Shell, und führen Sie den Befehl erneut aus, um das Konferenzverzeichnis zu verschieben.
+Dieser Fehler tritt in der Regel auf, wenn die Skype for Business Server Verwaltungsshell einen aktualisierten Satz von Active Directory-Berechtigungen benötigt, um eine Aufgabe abzuschließen. Um das Problem zu beheben, schließen Sie die aktuelle Instanz der Verwaltungsshell, öffnen Sie dann eine neue Instanz der Shell, und führen Sie den Befehl erneut aus, um das Konferenzverzeichnis zu verschieben.
   
 

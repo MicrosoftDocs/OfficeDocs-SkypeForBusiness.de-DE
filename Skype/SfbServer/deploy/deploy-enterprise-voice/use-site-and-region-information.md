@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP verwendet wird.
-ms.openlocfilehash: 38fa42374b4b5dd8c8f304de04c9beeb59f2635d955b2e9ee5afb1fb16de7789
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d90393c19dffaac425025379258a0ceae24da9cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322337"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588987"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Konfigurieren der globalen Einstellungen für die Medienumgehung in Skype for Business Server für die Verwendung von Standort- und Regionsinformationen
  
@@ -32,7 +32,7 @@ Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte u
 > [!NOTE]
 > Die Informationen zu Netzwerkregionen und Netzwerkstandorten werden sowohl für die Anrufsteuerung als auch für die Medienumgehung verwendet, wenn beide der erweiterten Enterprise-VoIP-Funktionen aktiviert sind. Wenn Sie daher die Anrufsteuerung bereits konfiguriert haben, müssen Sie das folgende Verfahren zum Bearbeiten von Standort- und Regioneninformationen nicht speziell für die Medienumgehung ausführen. Führen Sie die Schritte des folgenden Verfahrens aus, wenn Sie noch keine Netzwerkregionen und Standorte für die Anrufsteuerung konfiguriert haben und die Einstellungen für die Medienumgehung ändern möchten. 
   
-Damit die Medienumgehung ordnungsgemäß funktioniert, muss eine Konsistenz zwischen einem Standort bestehen, der im Topologie-Generator definiert ist, und der Definition beim Konfigurieren von Netzwerkregionen und Netzwerkstandorten. Wenn Sie beispielsweise über einen Zweigstellenstandort verfügen, den Sie im Topologie-Generator so definiert haben, dass nur ein PSTN-Gateway bereitgestellt wird, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP Richtlinie konfiguriert werden, mit der Zweigstellenbenutzer ihre PSTN-Anrufe über das PSTN-Gateway am Zweigstellenstandort weiterleiten können.
+Damit die Medienumgehung ordnungsgemäß funktioniert, muss eine Konsistenz zwischen einem Standort bestehen, der im Topologie-Generator definiert ist, und der Definition beim Konfigurieren von Netzwerkregionen und Netzwerkstandorten. Wenn Sie beispielsweise über einen Zweigstellenstandort verfügen, den Sie im Topologie-Generator so definiert haben, dass nur ein PSTN-Gateway bereitgestellt wird, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP Richtlinie konfiguriert werden, die es Benutzern von Zweigstellenstandorten ermöglicht, ihre PSTN-Anrufe über das PSTN-Gateway am Zweigstellenstandort weiterzuleiten.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>So konfigurieren Sie Informationen zu Standorten und Regionen für die Medienumgehung
 

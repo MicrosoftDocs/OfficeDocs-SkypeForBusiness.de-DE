@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren Der lokalen Bereitstellung für Skype-Besprechung Broadcast
+title: Konfigurieren Ihrer lokalen Bereitstellung für Skype-Besprechung Broadcast
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,14 +17,14 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie ausführen müssen, um Skype-Besprechung Broadcast für Ihre lokale Skype for Business Server Hybridbereitstellung zu konfigurieren.'
-ms.openlocfilehash: 6cab2ed4fbb5cb2992b970d5a960bbc0ad2e10af2184588aa6c938e9811d2a50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596029"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren Der lokalen Bereitstellung für Skype-Besprechung Broadcast
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren Ihrer lokalen Bereitstellung für Skype-Besprechung Broadcast
  
 **Zusammenfassung:** Erfahren Sie mehr über die Schritte, die Sie ausführen müssen, um Skype-Besprechung Broadcast für Ihre lokale Skype for Business Server Hybridbereitstellung zu konfigurieren.
   
@@ -79,7 +79,7 @@ Als Nächstes müssen Sie der Liste der zulässigen Domänen SIP-Partnerdomänen
     
    - resources.lync.com
     
-Sie können den externen Zugriff für SIP-Verbunddomänen auch konfigurieren, indem Sie die folgenden Cmdlets in der Skype for Business Server-Verwaltungsshell ausführen:
+Sie können den externen Zugriff für SIP-Verbunddomänen auch konfigurieren, indem Sie die folgenden Cmdlets in der Skype for Business Server Verwaltungsshell ausführen:
   
 ```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"

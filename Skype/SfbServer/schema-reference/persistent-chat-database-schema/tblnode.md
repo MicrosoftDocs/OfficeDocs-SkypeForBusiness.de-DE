@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode enthält die Objektstruktur (mit Kategorie- oder Chatroomknoten), wie sie in der Systemsteuerung und in administrativen Cmdlets verwaltet wird.
-ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5df4f01482dfe2b44987d74ad650a310a192df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306716"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578609"
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -30,7 +30,7 @@ tblNode enthält die Objektstruktur (mit Kategorie- oder Chatroomknoten), wie si
 |:-----|:-----|:-----|
 |nodeID  <br/> |int, not null  <br/> |Knoten-ID (eindeutige Nummer).  <br/> |
 |nodeGuid  <br/> |GUID, nicht NULL  <br/> |Knoten-GUID.  <br/> |
-|Parentid  <br/> |Ganzzahl  <br/> |Knoten-ID des übergeordneten Elements. Der Stammknoten (mit ID 1) gilt selbst als übergeordnetes Element.  <br/> |
+|Parentid  <br/> |int  <br/> |Knoten-ID des übergeordneten Elements. Der Stammknoten (mit ID 1) gilt selbst als übergeordnetes Element.  <br/> |
 |Nodetype  <br/> |bit, not null  <br/> |"True" wenn der Knoten eine Kategorie ist.  <br/> "False" wenn der Knoten ein Chatroom ist.  <br/> |
 |nodeName  <br/> |nvarchar (256), not null  <br/> |Knotenname  <br/> |
 |nodeDesc  <br/> |nvarchar (256), not null  <br/> |Knotenbeschreibung.  <br/> |
