@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,27 +17,27 @@ search.appverid: MET150
 description: Erfahren Sie, wie sie Microsoft 365 Business Voice Telefonnummern Benutzern in Ihrer Organisation zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4b32b6a255ef806e86848d068dc988548988a75fb76c16d2dc4334b0d51d7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70cd47d9cb1163381ded1ee8ca1eeec0868fd2fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282848"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582479"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>Schritt 5: Zuweisen von Business Voice-Telefonnummern zu Ihren Benutzern
 
-Bevor Benutzer mithilfe von Teams Telefonanrufe an normale Telefonleitungen oder von diesen empfangen können, müssen Sie ihnen Telefonnummern zuweisen. In Microsoft Teams-Clients wird die Telefonnummer, die Sie einem Benutzer zuweisen, auf der Wähltast wählt, wenn der Benutzer auf Anrufe **klickt.** Gehen Sie für jeden Benutzer, der eine Telefonnummer benötigt, wie folgt vor.
+Bevor Benutzer mithilfe von Teams Telefonanrufe an oder von normalen Telefonleitungen empfangen können, müssen Sie ihnen Telefonnummern zuweisen. In Microsoft Teams-Clients wird die Telefonnummer, die Sie einem Benutzer zuweisen, auf der Wähltast wählt, wenn der Benutzer auf Anrufe **klickt.** Gehen Sie für jeden Benutzer, der eine Telefonnummer benötigt, wie folgt vor:
 
 ![Telefonnummer des Benutzers, die in Microsoft Teams angezeigt wird.](../media/teams-phone-number.png)
 
 > [!NOTE]
-> Wenn keine Telefonnummern zu sehen sind, warten Sie bitte. Es kann mehrere Stunden dauern, bis Ihre neuen Telefonnummern in Ihrem Teams.
+> Wenn keine Telefonnummern zu sehen sind, warten Sie bitte. Es kann mehrere Stunden dauern, bis Ihre neuen Telefonnummern in ihrer Version verfügbar Teams.
 
 Im folgenden Video wird gezeigt, wie Sie diese Schritte im admin center Teams ausführen.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
 
-1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für die Microsoft 365).
+1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für Microsoft 365).
 1. Wechseln Sie im linken Navigationsbereich zu <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">   >  **Sprachanrufnummern Telefon .**</a>
 1. Wählen Sie auf der Seite **Telefonnummern** eine nicht zugewiesene Nummer aus der Liste aus, und klicken Sie dann auf **Bearbeiten**.  
 1. Suchen Sie im Bereich **Bearbeiten** unter **Zugewiesen an** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, und klicken Sie dann auf **Zuweisen**.

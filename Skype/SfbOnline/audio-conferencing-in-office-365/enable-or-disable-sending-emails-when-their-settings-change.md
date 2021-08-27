@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Erfahren Sie, wie Sie das Senden Skype E-Mails an Benutzer aktivieren oder deaktivieren, wenn sich Einstellungen wie Änderungen an der Pin oder die Standardkonferenznummer ändern. '
-ms.openlocfilehash: f2c0112f3817bfd64184018770348ee50ecb5f31c9b6dd161c90f70bdae97eb5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, wie Sie das Senden Skype E-Mails an Benutzer aktivieren oder deaktivieren, wenn einstellungen wie Änderungen an der Pin oder die Standardkonferenznummer geändert werden. '
+ms.openlocfilehash: 7bcbfc305ce250abb5f11aa1498a18802dde066c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589207"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Aktivieren oder Deaktivieren des Sendens von E-Mails, wenn sich die Audiokonferenzeinstellungen in Skype for Business Online ändern
 
@@ -35,7 +35,7 @@ ms.locfileid: "54335735"
 > [!Note]
 > Wenn Sie das Senden von E-Mails in Microsoft Teams aktivieren oder deaktivieren möchten, lesen Sie Aktivieren oder Deaktivieren des Sendens von E-Mails, wenn sich die [Audiokonferenzeinstellungen in Microsoft Teams.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
 
-Benutzer werden automatisch per E-Mail benachrichtigt, wenn sie für Audiokonferenzen aktiviert sind. Es kann jedoch zeitenweise kommen, in denen Sie die Anzahl der E-Mails verringern möchten, die an Benutzer Skype for Business werden. In diesen Fällen können Sie das Senden von E-Mails deaktivieren.
+Benutzer werden automatisch per E-Mail benachrichtigt, wenn sie für Audiokonferenzen aktiviert sind. Es kann jedoch auch sein, dass Sie die Anzahl der E-Mails verringern möchten, die an Die Benutzer Skype for Business werden. In diesen Fällen können Sie das Senden von E-Mails deaktivieren.
   
 Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails für Audiokonferenzen an die Benutzer gesendet, z. B. E-Mails dazu, wann Benutzer für Audiokonferenzen aktiviert oder deaktiviert sind, wann die PIN zurückgesetzt wird und wenn sich die Konferenz-ID und die Standardtelefonnummer für Konferenzen ändern.
   
@@ -91,7 +91,7 @@ Sie können das Skype for Business Admin Center oder Windows PowerShell, um an B
     
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
-- Wenn automatische E-Mails deaktiviert sind, können Sie das Senden einer E-Mail mit der Konferenz-ID und der Telefonnummer weiterhin manuell über das Skype for Business Admin Center auslösen. Wenn Sie dies tun, wird die PIN jedoch nicht mit einbezogen. Wenn Sie die Audiokonferenz-PIN zurücksetzen möchten und das Senden von E-Mails deaktiviert ist, müssen Sie sie auf andere Weise an den Benutzer senden.
+- Wenn automatische E-Mails deaktiviert sind, können Sie weiterhin manuell eine E-Mail mit der Konferenz-ID und Telefonnummer über das Skype for Business Admin Center senden. Wenn Sie dies tun, wird die PIN jedoch nicht mit einbezogen. Wenn Sie die Audiokonferenz-PIN zurücksetzen möchten und das Senden von E-Mails deaktiviert ist, müssen Sie sie auf andere Weise an den Benutzer senden.
     
 - Das Senden von E-Mails an Benutzer kann über das Skype for Business Admin Center oder die Windows PowerShell deaktiviert werden.
     

@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Enthält Schritt-für-Schritt-Anleitungen zum Konfigurieren von Teams-Einstellungen für Chat, Teams, Apps und Kanäle in Microsoft Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: c4a5997de66f9b78280ba14837ffc64a64dd7bc1ecbdfce9a054b434f9b6c05b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346331"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617451"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 

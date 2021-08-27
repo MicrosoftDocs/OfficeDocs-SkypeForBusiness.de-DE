@@ -17,16 +17,16 @@ ms.custom:
 - seo-marvel-mar2020
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92a103262c0d6f997ace41fa0f1d6240452bb8d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8467132a365fcfdf105859a3404a4a63f4f1a67d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094371"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617471"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Erfahren Sie, wie Sie Audiokonferenzen in Microsoft Teams bereitstellen
 
@@ -69,7 +69,7 @@ Teams bietet eine Reihe benutzerdefinierter Administratorrollen, die zum Verwalt
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>Konferenzbrücken und Telefonnummern
 
-Über Konferenzbrücken können sich Benutzer per Telefon in Besprechungen einwählen. Sie können die Standardeinstellungen für eine Konferenzbrücke verwenden oder die Telefonnummern (gebührenpflichtig und gebührenfrei) und andere Einstellungen ändern, z. B. die PIN oder die verwendeten Sprachen.
+Mithilfe von Konferenzbrücken können sich Personen mit einem Telefon in Besprechungen einwählen. Sie können die Standardeinstellungen für eine Konferenzbrücke verwenden oder die Telefonnummern (gebührenpflichtige und gebührenfreie) sowie andere Einstellungen ändern, z. B. die PIN oder die verwendeten Sprachen.
 
 Weitere Informationen finden Sie unter [Audiokonferenzen](audio-conferencing-in-office-365.md).
 
@@ -92,7 +92,7 @@ In Teams-Audiokonferenzen können Sie standardmäßige und alternative Sprachen 
 
 ### <a name="conferencing-bridge-settings"></a>Einstellungen für die Konferenzbrücke 
 
-Nachdem Sie Ihre Konferenzbrücke einschließlich der Standard- und alternativen Sprachen eingerichtet haben, sollten Sie sich vergewissern, dass die Standardeinstellungen, wie z. B. Ein-/Ausgangsbenachrichtigungen und PIN-Länge, die sind, die Sie verwenden möchten. Wenn dies nicht zutrifft, können Sie sie ändern. 
+Nachdem Sie Ihre Konferenzbrücke einschließlich der Standard- und alternativen Sprachen eingerichtet haben, sollten Sie sich vergewissern, dass die Standardeinstellungen, wie z. B. Ein-/Austrittsbenachrichtigungen und PIN-Länge, die sind, die Sie verwenden möchten. 
 
 |Frage|Aktion |
 |------------|-------|

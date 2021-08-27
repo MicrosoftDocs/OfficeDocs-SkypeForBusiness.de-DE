@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -18,20 +18,20 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie Microsoft-Telefon Direktes Systemrouting konfigurieren, um Ihre lokale Telefonieinfrastruktur mit Microsoft Teams.
+description: Erfahren Sie, wie Sie Microsoft-Telefon Direct-Routing konfigurieren, um Ihre lokale Telefonieinfrastruktur mit Ihrem Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284176"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582359"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
-Microsoft-Telefon Mit Dem Direct-Routing des Systems können Sie Ihre lokale Telefonie-Infrastruktur mit ihrem Microsoft Teams. In diesem Artikel werden die auf hoher Ebene erforderlichen Schritte zum Verbinden eines unterstützten lokalen Session Border Controller (SBC) mit Direct Routing sowie das Konfigurieren von Teams-Benutzern für die Verwendung von Direct Routing zum Herstellen einer Verbindung mit dem PstN (Public Switched Telephone Network) aufgeführt. In diesem Artikel finden Sie Links zu zugehörigen Artikeln, um details zu erfahren.  
+Microsoft-Telefon Mit Direct-Routing (System Direct Routing) können Sie Ihre lokale Telefonieinfrastruktur mit Microsoft Teams. In diesem Artikel werden die auf hoher Ebene erforderlichen Schritte zum Verbinden eines unterstützten lokalen Session Border Controller (SBC) mit Direct Routing sowie das Konfigurieren von Teams-Benutzern für die Verwendung von Direct Routing zum Herstellen einer Verbindung mit dem PstN (Public Switched Telephone Network) aufgeführt. In diesem Artikel finden Sie Links zu zugehörigen Artikeln, um details zu erfahren.  
 
-Informationen dazu, ob Direct-Routing die richtige Lösung für Ihre Organisation ist, finden Sie unter verwenden [Telefonsystem Direct-Routing.](direct-routing-landing-page.md) Informationen zu den Voraussetzungen und zur Planung Ihrer Bereitstellung finden Sie unter [Planen von Direct-Routing.](direct-routing-plan.md)
+Informationen dazu, ob Direct Routing die richtige Lösung für Ihre Organisation ist, finden Sie unter Telefonsystem [Direct-Routing.](direct-routing-landing-page.md) Informationen zu den Voraussetzungen und zur Planung Ihrer Bereitstellung finden Sie unter [Planen von Direct-Routing.](direct-routing-plan.md)
 
 > [!Tip]
 > In der folgenden Sitzung erfahren Sie außerdem mehr über die Vorteile von Direct-Routing, die Planung und die Bereitstellung: [Direct-Routing in Microsoft Teams.](https://aka.ms/teams-direct-routing)

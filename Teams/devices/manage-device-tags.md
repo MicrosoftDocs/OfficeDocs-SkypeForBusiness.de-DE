@@ -12,22 +12,22 @@ ms.collection:
 f1.keywords:
 - CSH
 description: Erfahren Sie, wie Sie Tags auf Ihren Mobilen Geräten Microsoft Teams filtern.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a264b6f2679576fac0eb95dbbfafa93037b98cfc3b5f5dfbfa9a07d6b6eeb3bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dec09762531b15e6889b2be77e7792d9313c606b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596299"
 ---
-# <a name="manage-microsoft-teams-device-tags"></a>Verwalten Microsoft Teams von Gerätetags
+# <a name="manage-microsoft-teams-device-tags"></a>Verwalten Microsoft Teams Gerätetags
 
-Gerätetags in Microsoft Teams ihnen das Gruppieren, Organisieren und einfachere Verwalten der Geräte ermöglichen, die Sie in Ihrer Organisation bereitgestellt haben. Im Microsoft Teams Admin Center können Sie Geräte einen oder mehrere Tags hinzufügen, Filter verwenden, um Geräte anzeigen, die dem von Ihnen angegebenen Tag entsprechen, und dann Aktionen auf den Geräten ausführen, die dieses Tag enthalten.
+Gerätetags in Microsoft Teams Ihnen das Gruppieren, Organisieren und einfachere Verwalten der Geräte, die Sie in Ihrer Organisation bereitgestellt haben. Im Microsoft Teams Admin Center können Sie Geräte einen oder mehrere Tags hinzufügen, Filter verwenden, um Geräte anzeigen, die dem von Ihnen angegebenen Tag entsprechen, und dann Aktionen auf den Geräten ausführen, die dieses Tag enthalten.
 
-Sie können ein Gerätetag zu mehreren Gerätetypen hinzufügen. Wenn Sie jedoch einen Gerätebereich im Admin Center öffnen, werden nur die Geräte dieses Typs zurückgegeben. Beispielsweise können Sie das Tag "Unternehmens" sowohl Telefonen als auch Teams-Räume zuweisen. Wenn Sie in Gerätetelefone nach dem Tag "Corporate"  >  suchen, werden nur Telefone zurückgegeben. Ebenso werden bei der Suche nach dem Tag "Unternehmens" **in** Geräte Teams-Räume nur Teams-Räume-Geräte  >  zurückgegeben.
+Sie können ein Gerätetag zu mehreren Gerätetypen hinzufügen. Wenn Sie jedoch einen Gerätebereich im Admin Center öffnen, werden nur die Geräte dieses Typs zurückgegeben. Beispielsweise können Sie die Markierung "Unternehmens" sowohl Telefonen als auch Teams-Räume zuweisen. Wenn Sie in Gerätetelefone nach dem Tag "Corporate"  >  suchen, werden nur Telefone zurückgegeben. Ebenso werden bei der Suche nach dem Tag "Unternehmens" **in** Geräte Teams-Räume nur  >  Teams-Räume-Geräte zurückgegeben.
 
 Zum Verwalten von Gerätetags müssen Sie ein globaler Administrator, Teams Dienstadministrator oder Teams Geräteadministrator sein. Weitere Informationen zu Administratorrollen finden Sie unter Verwenden [Microsoft Teams zum Verwalten von Teams.](../using-admin-roles.md)
 
@@ -49,7 +49,7 @@ Mithilfe des Gerätetag-Verwaltungsbereichs können Sie:
 4. Um ein Gerätetag zu erstellen, wählen Sie **+ Hinzufügen** aus, geben Sie einen Wert für das Gerätetag an, und wählen Sie das **Symbol Speichern** aus.
 5. Um ein Gerätetag zu entfernen, wählen Sie die Auslassungspunkte **(...)** neben dem Gerätetag, das Sie entfernen möchten, und dann Löschen **aus.**
     > [!NOTE]
-    > Wenn Sie versuchen, ein Gerätetag zu entfernen, das Geräten hinzugefügt wurde, erhalten Sie eine Meldung, in der Sie gefragt werden, ob Sie es von allen Geräten entfernen möchten. Wenn Sie dies tun und mit dem Entfernen des Gerätetags fortfahren möchten, wählen Sie **Gerätetag entfernen aus.**
+    > Wenn Sie versuchen, ein Gerätetag zu entfernen, das Geräten hinzugefügt wurde, wird eine Meldung angezeigt, in der Sie gefragt werden, ob Sie es von allen Geräten entfernen möchten. Wenn Sie dies tun und mit dem Entfernen des Gerätetags fortfahren möchten, wählen Sie **Gerätetag entfernen aus.**
 6. Um ein Gerätetag umzubenennen, wählen Sie die Auslassungspunkte **(...)** neben dem Gerätetag, das Sie umbenennen möchten, und dann **Bearbeiten aus.** Geben Sie einen neuen Wert für das Gerätetag ein, und wählen Sie das **Symbol Speichern** aus.
 
 ## <a name="add-or-remove-tags-on-a-single-device"></a>Hinzufügen oder Entfernen von Tags auf einem einzelnen Gerät
@@ -75,12 +75,12 @@ Wenn Sie einem Gerät Tags hinzufügen, können Sie entweder ein vorhandenes Tag
 2. Navigieren Sie **zu Geräte,** und wählen Sie dann den Gerätebereich aus, der die Geräte enthält, auf die Sie Tags hinzufügen oder entfernen möchten.
 3. Setzen Sie ein Häkchen neben die Geräte, auf die Sie Tags hinzufügen oder entfernen möchten, und wählen Sie **Tags verwalten aus.**
 4. Wenn Sie ein Tag hinzufügen möchten:
-    1. Beginnen Sie mit der Eingabe des Tagsnamens, den Sie hinzufügen möchten, in Verwalten von Tags für alle Geräte **Teams Benutzer.**
+    1. Beginnen Sie mit der Eingabe des Tagsnamens, den Sie hinzufügen möchten, in Verwalten von Tags für **alle Geräte Teams Benutzer.**
     2. Wenn das Tag bereits vorhanden ist, wählen Sie es aus der Liste der zurückgegebenen Tags aus.
     3. Wenn das Tag nicht vorhanden ist, wählen **Sie Als neues Tag hinzufügen " \<tag name> aus.**
 5. Wenn Sie ein Tag entfernen möchten:
     1. Erweitern **Sie Teams Benutzer auswählen**.
-    2. Erweitern **\<x> Sie** Tags unter dem Namen des Teams, aus dem Sie Kategorien entfernen möchten.
+    2. Erweitern **\<x> Sie** Tags unter dem Namen des Teams, aus dem Sie Tags entfernen möchten.
     3. Wählen **Sie neben** dem Tag, das Sie entfernen möchten, das X aus.
 6. Wiederholen Sie die vorstehenden Schritte, wenn Sie weitere Kategorien hinzufügen oder entfernen möchten.
 7. Wählen Sie **Übernehmen aus.**
@@ -98,4 +98,4 @@ Wenn Sie Ihren Geräten Gerätetags hinzugefügt haben, können Sie diese verwen
 7. Wenn Sie weitere Gerätetags hinzufügen möchten, wählen Sie **Weitere** hinzufügen aus, und wiederholen Sie Schritt 6 für jedes hinzuzufügende Tag.
 8. Wählen Sie **Übernehmen aus.**
 
-Nachdem Sie die Geräte in der Geräteliste gefiltert haben, können Sie wie gewohnt Aktionen an den Geräten ausführen. Sie können sie z. B. auswählen und dann Konfigurationen zuweisen, deren Einstellungen bearbeiten (wenn sie Teams-Räume sind) und so weiter. Wenn Sie fertig sind, können Sie den Filter entfernen, indem Sie  **das X** neben dem **Filtereintrag Tag** auswählen oder auf der rechten Seite der Liste Alle löschen auswählen.
+Nachdem Sie die Geräte in der Geräteliste gefiltert haben, können Sie wie gewohnt Aktionen an diesen Geräten ausführen. Sie können sie beispielsweise auswählen und dann Konfigurationen zuweisen, deren Einstellungen bearbeiten (wenn sie Teams-Räume sind) und so weiter. Wenn Sie fertig sind, können Sie den Filter entfernen, indem Sie  **das X** neben dem **Filtereintrag Tag** auswählen oder auf der rechten Seite der Liste Alle löschen auswählen.

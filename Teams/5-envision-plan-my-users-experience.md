@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Wählen Teams Client-Apps aus, planen Sie die Qualität von Endpunkten, erhalten Sie Empfehlungen für die Bereitstellung Wi-Fi Endpunkte, und wählen Sie Audiogeräte aus.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a0557603c0086fdcc561dec3257b9f9bd1bef32b7db6d680a018202f0aa59aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624837"
 ---
 # <a name="plan-my-users-experience"></a>Planen der Benutzererfahrung
 
@@ -31,7 +31,7 @@ Dieser Artikel bietet eine Übersicht über die Anforderungen für das ordnungsg
 
 ## <a name="client-deployment"></a>Clientbereitstellung
 
-Microsoft Teams enthält Clients für Web, Desktop (Windows und Mac) und mobile Geräte (Android und iOS). Weitere Informationen zur Installation von Desktopclients (Windows und Mac) und mobilen Clients finden Sie unter Kunden [für Microsoft Teams.](./get-clients.md)
+Microsoft Teams enthält Clients für Web, Desktop (Windows und Mac) und mobile Geräte (Android und iOS). Weitere Details zur Installation von Desktopclients (Windows und Mac) und mobilen Clients finden Sie unter [Kunden für Microsoft Teams.](./get-clients.md)
 
 ## <a name="client-updates"></a>Clientupdates
 
@@ -51,14 +51,14 @@ Die folgenden Anleitungen zur Endpunktplanung sollen Ihnen helfen, für Ihre Org
 
 ## <a name="endpoint-capability"></a>Endpunktfunktionen
 
-Der erste Teil der Planung besteht in der Sicherstellung, dass alle PCs und anderen Geräte in Ihrer Organisation Teams. Dazu müssen Sie nicht nur die Hardwareanforderungen betrachten, sondern sich auch verdeutlichen, was außerdem im Hintergrund auf dem PC geschieht. Viele Organisationen führen weitere Software aus, beispielsweise Angriffserkennungssysteme und Antischadsoftware, die Basisleistung eines Geräts beeinflussen kann.
+Der erste Teil der Planung besteht in der Sicherstellung, dass alle PCs und anderen Geräte in Ihrer Organisation die Teams. Dazu müssen Sie nicht nur die Hardwareanforderungen betrachten, sondern sich auch verdeutlichen, was außerdem im Hintergrund auf dem PC geschieht. Viele Organisationen führen weitere Software aus, beispielsweise Angriffserkennungssysteme und Antischadsoftware, die Basisleistung eines Geräts beeinflussen kann.
 
-Informationen zu den Softwareanforderungen für Teams-Clients auf jeder Plattform (Web, Desktop und mobile Geräte) finden Sie unter Kunden [für Microsoft Teams.](./get-clients.md)
+Informationen zu den Softwareanforderungen für Teams-Clients auf jeder Plattform (Web, Desktop und mobile Geräte) finden Sie unter Kunden [für](./get-clients.md)Microsoft Teams.
 
 ## <a name="endpoint-firewalls"></a>Endpunktfirewalls
 
 Clientseitige Firewalls können erhebliche Auswirkungen auf die Benutzerfreundlichkeit haben.
-Clientseitige Firewalls können nicht nur verhindern, dass ein Anruf aufgebaut wird, sondern sich auch auf die Anrufqualität auswirken. Konfigurieren Sie die geeigneten Ausschlüsse für die Clientfirewall anhand der Informationen in Microsoft 365 oder Office 365 [URLs und IP-Adressbereichen.](/microsoft-365/enterprise/urls-and-ip-address-ranges) Ihr Drittanbieter sollte über konkrete Anleitungen zum Erstellen der Ausschlüsse verfügen.
+Clientseitige Firewalls können nicht nur verhindern, dass ein Anruf aufgebaut wird, sondern sich auch auf die Anrufqualität auswirken. Konfigurieren Sie die geeigneten Ausschlüsse für die Clientfirewall anhand der Informationen in Microsoft 365 oder Office 365 URLs und [IP-Adressbereichen.](/microsoft-365/enterprise/urls-and-ip-address-ranges) Ihr Drittanbieter sollte über konkrete Anleitungen zum Erstellen der Ausschlüsse verfügen.
 
 >[!NOTE]
 > Microsoft Teams aktualisiert automatisch die Windows-Firewall mit einer entsprechenden Firewallkonfiguration.
@@ -90,7 +90,7 @@ Manche Organisationen möchten WLAN ganz vermeiden. In diesem Zusammenhang wird 
 Wenn Ihre Organisation Funkzugriffspunkte oder Router verwendet, die das Power Save-Protokoll 802.11 nicht unterstützen, kann es zu Gesprächsausfall oder einer schlechten Anrufqualität in Microsoft Teams auf Windows-Geräten kommt. Wenn die WLAN-Zugriffspunkte oder -Router nicht aktualisiert werden können, sollten Sie auf Geräten, die mit Akku betrieben werden, die Windows-Einstellungen für den Energiesparplan aktualisieren. Weitere Details und Konfigurationsanleitungen finden Sie im folgenden [Supportartikel](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Welche Teams Kunden werden in Ihrer Organisation bereitgestellt?</li><li>Wie werden Sie die Teams zunächst für Ihre Benutzer bereitstellen?</li><li>Wer ist verantwortlich für die Bewertung von Endpunkten und Geräten, um deren Teams Qualitätsanforderungen zu erfüllen?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Welche Teams Kunden werden in Ihrer Organisation bereitgestellt?</li><li>Wie werden Sie die Teams zunächst für Ihre Benutzer bereitstellen?</li><li>Wer ist für die Bewertung von Endpunkten und Geräten verantwortlich, um deren Teams Qualitätsanforderungen zu erfüllen?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Dokumentieren Sie den Prozess, der zum Bereitstellen von Clients Teams wird.</li><li>Auswerten von Endpunkten und Geräten sowie Ausführen und Wartung erforderlich.</li></ul></td></tr>
 </table>
 

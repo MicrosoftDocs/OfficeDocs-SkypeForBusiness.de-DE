@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Stellen Sie eine qualitativ hochwertige Bereitstellung vor, und warten Sie sie, indem Sie betriebsbereite Rollen planen und einen Qualitäts-Champion zuweisen.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3335d47917dcb14536c4edd19c3cbbe54bd24f1b9f0b6fb0e735d7e6c325e7c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624867"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -83,7 +83,7 @@ Eine Gruppe oder Einzelperson muss für die Qualität in allen Organisationen ve
 Dies ist die wichtigste Rolle bei der Dienstverwaltung. Der Quality Champion ist eine Kundenrolle, die einer Person oder Gruppe zugewiesen wird, die begeistert von der Benutzererfahrung ist. Diese Rolle setzt die Fähigkeit voraus, Trends in der Umgebung zu erkennen, und muss gefördert werden, damit die Person oder Gruppe in Zusammenarbeit mit anderen Teams Verbesserungen vorantreiben kann.
 Der beste Kandidat für den Qualitäts-Champion ist in der Regel der Besitzer des Kundendiensts, der – je nach Größe und Komplexität der Organisation – beliebige Personen oder Gruppen sein kann, die sich leidenschaftlich für die Benutzererfahrung begeistert.
 
-Der Qualitäts-Champion nutzt vorhandene Tools und dokumentierte Prozesse, z. B. das Anrufqualitätsdashboard (Call Quality Dashboard, CQD) und das Qualitätsqualitätsüberprüfungshandbuch, um die Benutzererfahrung zu überwachen, Qualitätstrends zu identifizieren und bei Bedarf eine Problembehebung zu ermöglichen. Der Quality Champion arbeitet mit den jeweiligen Teams zusammen, um Problembehebungsaktionen zu steuern, einem Lenkungsgremium über ihren Fortschritt zu berichten und Probleme zu öffnen.
+Der Qualitäts-Champion nutzt vorhandene Tools und dokumentierte Prozesse, z. B. das Anrufqualitätsdashboard (Call Quality Dashboard, CQD) und das Qualitätsqualitätsüberprüfungshandbuch, um die Benutzerfreundlichkeit zu überwachen, Qualitätstrends zu identifizieren und bei Bedarf eine Problembehebung zu ermöglichen. Der Quality Champion arbeitet mit den jeweiligen Teams zusammen, um Problembehebungsaktionen zu steuern, einem Lenkungsgremium über ihren Fortschritt zu berichten und Probleme zu öffnen.
 
 Die mit der Rolle verbundenen Aufgaben und Aktivitäten sind im Betriebshandbuch dokumentiert. Diese Rolle sollte zu einem frühen Zeitpunkt in der Konzeptionierungsphase zugewiesen werden. Ein wichtiger Schritt bei der Operationalisierung der Rolle des Qualitätspioniers besteht darin, das für die Rolle erforderliche Wissen zu erwerben und sicherzustellen, dass die zur Ausführung der Aufgaben erforderlichen Komponenten vorhanden sind. Eine wichtige Aufgabe dieser Rolle besteht darin, eine regelmäßige Überprüfung der Erlebnisqualität auszuführen.
 
@@ -91,7 +91,7 @@ Die mit der Rolle verbundenen Aufgaben und Aktivitäten sind im Betriebshandbuch
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Einführung in das Handbuch für die Überprüfung der Erlebnisqualität
 
-Der Leitfaden zur Qualitätsüberprüfung verfügt über eine Reihe von Aktivitäten, die in wichtigen Bereichen, die den größten Einfluss auf die Verbesserung der Benutzerfreundlichkeit haben, Bereinigungsleitfaden bewerten und bereitstellen, wie in der nachstehenden Abbildung gezeigt.
+Der Leitfaden zur Qualitätsüberprüfung verfügt über eine Reihe von Aktivitäten, die Anleitungen zur Problembehebung in wichtigen Bereichen bewerten und bereitstellen, die den größten Einfluss auf die Verbesserung der Benutzerfreundlichkeit haben, wie in der nachstehenden Abbildung gezeigt.
 
 ![Abbildung wichtiger Bereiche, die während der Überprüfung der Qualität überprüft werden sollten](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während der Überprüfung der Qualität überprüft werden sollten: Audio, Zuverlässigkeit und Ergebnisse der Benutzerumfrage.")
 
@@ -111,7 +111,7 @@ Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebe
 
 Die Anleitungen im Handbuch für die Überprüfung der Erlebnisqualität konzentrieren sich auf die Verwendung des online verfügbaren Anrufqualitäts-Dashboards (AQD) als primäres Tool zum Melden und Untersuchen der einzelnen beschriebenen Bereiche. Der Schwerpunkt liegt dabei auf Audio, um die Einführung und die Auswirkungen zu maximieren. Alle zur Verbesserung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
-Es wird dringend empfohlen, den Qualitäts-Champion frühzeitig zu benennen. Nachdem sie benannt wurden, sollten sie damit beginnen, sich mit den Inhalten im Handbuch zur [Qualitätserfahrungsüberprüfung vertraut zu machen.](./quality-of-experience-review-guide.md)
+Es wird dringend empfohlen, den Qualitäts-Champion frühzeitig zu benennen. Nachdem sie benannt wurden, sollten sie damit beginnen, sich mit den Inhalten im Handbuch zur Qualitätsüberprüfung [vertraut zu machen.](./quality-of-experience-review-guide.md)
 
 
 

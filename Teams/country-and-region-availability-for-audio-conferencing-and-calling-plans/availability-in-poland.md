@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Für Polen verfügbare Dienste.
-ms.openlocfilehash: 40b300016a6d747614fec8ddae26780ec6ca39903dd239b93d0d0f1ec39046a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334726"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617531"
 ---
 # <a name="availability-in-poland"></a>Verfügbarkeit in Polen
 
@@ -58,7 +58,7 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
 ## <a name="calling-plans"></a>Anrufpläne
 
 > [!IMPORTANT]
-> Derzeit kommt es in Polen zu unerwarteten Verzögerungen bei der Erfüllung neuer Bestellungen für Telefonnummern und Portierungsaufträge. Sie können weiterhin Bestellungen einsenden, doch beachten Sie bitte, dass diese Verzögerung bis September behoben sein wird. Zu diesem Zeitpunkt werden alle ausstehenden Bestellungen erfüllt.
+> In Polen kommt es zurzeit zu unerwarteten Verzögerungen bei der Erfüllung neuer Bestellungen für Telefonnummern und Portierungsaufträge. Sie können weiterhin Bestellungen einsenden, doch beachten Sie bitte, dass diese Verzögerung bis September behoben sein wird. Zu diesem Zeitpunkt werden alle ausstehenden Bestellungen erfüllt.
 
 |**Feature**|**Details**|
 |:-----|:-----|

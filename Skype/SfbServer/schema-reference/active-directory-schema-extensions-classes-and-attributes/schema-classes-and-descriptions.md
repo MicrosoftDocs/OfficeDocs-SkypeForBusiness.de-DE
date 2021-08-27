@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: In diesem Abschnitt werden alle Schemaklassen beschrieben, die von Skype for Business Server verwendet werden.
-ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec9c4a7612455df6d004289f88ccdb7efb3d6334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297072"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596439"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Schemaklassen und Beschreibungen in Skype for Business Server
  
@@ -37,7 +37,7 @@ In diesem Abschnitt werden alle Schemaklassen beschrieben, die von Skype for Bus
 |msRTCSIP-ArchivingServer (veraltet)  <br/> |Diese Klasse stellt einen einzelnen Instant Messaging-Archivierungsserver dar. Eine Instanz dieser Klasse wird erstellt, wenn ein Computer als Instant Messaging-Archivierungsserver (z. B. ein Computer, auf dem der Instant Messaging-Archivierungsdienst installiert ist) aktiviert wird.  <br/> |Veraltet in Lync Server 2010.  <br/> |
 |msRTCSIP-ConferenceDirectories  <br/> |Diese Klasse ist ein Container für mehrere Instanzen von Konferenzverzeichnissen und enthält selbst keine Attribute.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ConferenceDirectory  <br/> |Diese Klasse enthält Attribute, die Einstellungen für ein bestimmtes Konferenzverzeichnis darstellen.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ConnectionPoint  <br/> |Allgemeiner Dienststeuerungspunkt (Generic Service Control Point, SCP), um den Computer als Server anzugeben, auf dem Skype for Business Server ausgeführt wird.  <br/> |Neu in Lync 2010.  <br/> |
+|msRTCSIP-ConnectionPoint  <br/> |Generischer Dienststeuerungspunkt (Generic Service Control Point, SCP), um den Computer als Server anzugeben, auf dem Skype for Business Server ausgeführt wird.  <br/> |Neu in Lync 2010.  <br/> |
 |msRTCSIP-DefaultCWABank  <br/> |Diese Hilfsklasse enthält die Einstellungen für eine Skype for Business-Web-App Bank.  <br/> |Neu in Communications Server 2007 R2.  <br/> |
 |msRTCSIP-Domain  <br/> |Diese Klasse enthält Attribute, die die konfigurierten Domänen der SIP-Registrierung definieren.  <br/> |-  <br/> |
 |msRTCSIP-EdgeProxy  <br/> |Dieser Klassencontainer stellt einen einzelnen Access Edge-Dienst dar. Da ein Zugriffs-Edgedienst im Umkreisnetzwerk bereitgestellt wird und Kunden in der Regel keinen Active Directory Domain Services-Zugriff über das Umkreisnetzwerk zulassen, sind Instanzen des Zugriffs-Edgediensts nicht mit dem Active Directory-Netzwerk des Intranets verbunden. Somit werden Zugriffsproxys nicht automatisch in AD DS registriert. Der Administrator muss das Vorhandensein jeder Instanz des Zugriffs-Edgediensts in AD DS manuell konfigurieren.  <br/> |-  <br/> |

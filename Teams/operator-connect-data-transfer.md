@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Spezifische Datenschutzinformationen im Zusammenhang mit der Übertragung von Daten oder Informationen zwischen Netzbetreibern und Microsoft, insbesondere in Bezug auf die Anbieter Verbinden.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324824"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582189"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Datenübertragungen zwischen Netzbetreibern und Microsoft für die Verbinden
 
@@ -37,4 +37,4 @@ Microsoft stellt jedem teilnehmenden Netzbetreiber über eine API Anrufdetails u
 
 Jeder Netzbetreiber stellt Microsoft über eine API die Dauer von Anrufen bereit, die von ihren Kunden über die Microsoft Teams. Microsoft verwendet diese Datensätze, um Kunden Nutzungsinformationen zur Verfügung zu stellen und um sicherzustellen, dass unsere Datensätze mit der des Netzbetreibers konsistent sind. Microsoft wird diese Datensätze in Übereinstimmung mit dem anwendbaren Recht und den anwendbaren Bestimmungen sowie den Datenschutzbestimmungen von Microsoft speichern und verarbeiten.
 
-Weitere Informationen finden Sie unter [Kaufen, Konfigurieren](career-coach.md) und Aktivieren Karrierecoach für Microsoft Teams
+Weitere Informationen finden Sie unter [Kaufen, Konfigurieren und Aktivieren Karrierecoach für Microsoft Teams](career-coach.md)

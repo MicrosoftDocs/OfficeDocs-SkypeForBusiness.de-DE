@@ -12,22 +12,22 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndSqlStorePage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Sie definieren die Eigenschaften der SQL Server Speicher für den neuen Front-End-Pool, den Sie konfigurieren.
-ms.openlocfilehash: 06f48b4f515db23980fb5aedbd701a43cb8c5854bff630586f059bc52e9de6f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f999327894b406ba814b0e46dc6c6c7007a50776
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343589"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610782"
 ---
-# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
+# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
  
 Sie definieren die Eigenschaften der SQL Server Speicher für den neuen Front-End-Pool, den Sie konfigurieren.
   
 > [!IMPORTANT]
-> Wenn Sie einen Standard Edition-Server konfigurieren, wird dieses Dialogfeld angezeigt, Sie können jedoch keine Einstellungen konfigurieren. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
+> Wenn Sie einen Standard Edition Server konfigurieren, wird dieses Dialogfeld angezeigt, Sie können jedoch keine Einstellungen konfigurieren. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
   
 Konfigurierbare Einstellungen:
   
@@ -35,7 +35,7 @@ Konfigurierbare Einstellungen:
     
 - Wählen Sie **"Neuen SQL Server speicher** definieren" aus, um einen neuen SQL Server Speicher zu erstellen.
     
-    Geben Sie den vollqualifizierten Domänennamen der SQL Server in **SQL Server FQDN ein.**
+    Geben Sie den vollqualifizierten Domänennamen des SQL Server in **SQL Server FQDN ein.**
     
     Standardmäßig ist die **Standardinstanz** angegeben. Wenn Sie eine Instanz definieren möchten, wählen Sie die Option **Benannte Instanz**, und geben Sie den Namen der Instanz ein, die Sie erstellen möchten.
     

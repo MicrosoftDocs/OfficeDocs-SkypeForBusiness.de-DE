@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Erfahren Sie, wie Sie für Guthaben für Kommunikationen (PSTN-Verbrauch) für Skype for Business-Dienste bezahlen, und sehen Sie sich die Pläne an, um Ihren Benutzern kontinuierlichen Zugriff auf das Telefonsystem zu ermöglichen. '
-ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344414"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617611"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Hinzufügen und Verwalten von Guthaben für Kommunikationen
 
@@ -47,7 +47,7 @@ Guthaben für Kommunikationen ist eine praktische Möglichkeit, um Telefonsystem
 
 - Wählen Sie aus einer Audiokonferenz-Besprechung auf Ihr Mobiltelefon, auf dem die Skype for Business oder Microsoft Teams installiert ist.
 
-- Wählen Sie eine beliebige internationale Telefonnummer, wenn Sie einen Plan für **Inlandanrufe haben.**
+- Wählen Sie eine beliebige internationale Telefonnummer, wenn Sie über einen Plan für **Inlandsanrufe verfügen.**
 
 - Wählen Sie aus, und bezahlen Sie pro Minute, sobald die monatlichen Minuten für die Zuteilung aufgebraucht sind.
 
@@ -63,7 +63,7 @@ Sie können Ihre Zahlungsoptionen jederzeit aktualisieren. Wählen Sie auf **der
 Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Alle Guthaben, die nicht innerhalb von zwölf (12) Monaten nach dem Kaufdatum verwendet werden, laufen ab und verfallen.
   
 > [!TIP]
-> Wir senden Ihnen E-Mail-Benachrichtigungen, wenn Guthaben per automatischem Aufladen hinzugefügt wird, wenn das automatische Aufladen fehlschlägt (z. B. wenn eine Kreditkarte abläuft) und wenn Ihr Guthaben unter Null fällt.
+> Wir senden Ihnen E-Mail-Benachrichtigungen, wenn Guthaben über das automatische Aufladen hinzugefügt wird, wenn das automatische Aufladen fehlschlägt (z. B. wenn eine Kreditkarte abläuft) und wenn Ihr Guthaben unter Null fällt.
   
 Weitere Informationen finden Sie unter [Was ist Guthaben für Kommunikationen?](what-are-communications-credits.md)
   
@@ -75,7 +75,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
 
 - [Audiokonferenzpläne](https://go.microsoft.com/fwlink/?LinkId=799762 )
 
-- [Telefonsystem-Pläne](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [Telefonsystem von Plänen](https://go.microsoft.com/fwlink/?LinkId=799763)
 
 Sie können die Informationen auch anzeigen, indem Sie sich beim Abrechnungskonto Microsoft 365 Admin Center und zu Abonnements  >    >  **hinzufügen gehen.**
   
@@ -87,4 +87,4 @@ Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie
 
 - [Einrichten von Cloud-Voicemail – Administratorhilfe](set-up-phone-system-voicemail.md)
 
-- [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufplänen für Microsoft 365 oder Office 365](calling-plans-for-office-365.md)
+- [Einrichten von Anrufplänen](set-up-calling-plans.md) [und Anrufplänen für Microsoft 365 oder Office 365](calling-plans-for-office-365.md)

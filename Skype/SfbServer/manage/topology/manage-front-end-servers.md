@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Front-End-Server in Skype for Business Server hinzufügen, entfernen, patchen oder aktualisieren.'
-ms.openlocfilehash: b091f1fd74cfd2c3d93ee14e9ea6f1b584ec4111443b99f881786e94e038d8b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290303"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578789"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Verwalten von Front-End-Servern in Skype for Business Server
  
@@ -36,7 +36,7 @@ Wenn Sie einem Pool einen Front-End-Server hinzufügen oder einen Front-End-Serv
 Sie können das folgende Verfahren verwenden, wenn Sie einen Front-End-Server hinzufügen oder entfernen.
   
 > [!NOTE]
-> Wenn Sie dem Pool neue Server hinzufügen, aktualisieren Sie ihre neuen Poolserver so, dass sie sich auf der gleichen kumulativen Updateebene befinden wie die vorhandenen Server im Pool. 
+> Wenn Sie dem Pool neue Server hinzufügen, aktualisieren Sie die neuen Poolserver so, dass sie sich auf der gleichen kumulativen Updateebene befinden wie die vorhandenen Server im Pool. 
   
 ### <a name="to-add-or-remove-front-end-servers"></a>So fügen Sie Front-End-Server hinzu oder entfernen sie
 
@@ -56,7 +56,7 @@ Sie können das folgende Verfahren verwenden, wenn Sie einen Front-End-Server hi
   > [!NOTE]
 > Wenn Sie dem Pool einen Server hinzufügen oder entfernen, müssen Sie außerdem den Skype for Business Server Bereitstellungs-Assistenten auf jedem hinzugefügten oder entfernten Computer ausführen. Weitere Informationen finden Sie unter [Installieren von Skype for Business Server auf Servern in der Topologie.](../../deploy/install/install-skype-for-business-server.md)
   
-4. Wenn Sie die Anzahl der Server in Ihrem Front-End-Pool auf eine der folgenden Arten geändert haben, setzen Sie den Pool zurück, indem Sie das folgende Cmdlet eingeben: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
+4. Wenn Sie die Anzahl der Server in Ihrem Front-End-Pool auf eine der folgenden Weisen geändert haben, setzen Sie den Pool zurück, indem Sie das folgende Cmdlet eingeben: Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
    ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>

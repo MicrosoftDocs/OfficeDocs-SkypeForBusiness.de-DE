@@ -12,34 +12,34 @@ ms.reviewer: rowille
 description: Wählen Sie ein Bereitstellungsmodell aus, entwickeln Sie eine RACI-Matrix (responsible-accountable-consulted-informed), erstellen Sie Ausführungs- und Governancepläne.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b891db54d7202eb24df969e3d510a4cc5d7c8be3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624817"
 ---
 # <a name="document-my-success-plan"></a>Dokumentieren des Erfolgsplans
 
-Dieser Artikel bietet eine Übersicht über die Anforderungen für eine ordnungsgemäß dokumentierte Cloud-Sprachbereitstellung. Indem Sie alle Entscheidungspunkte und nächsten Schritte definieren und dokumentieren, während Sie Ihre Cloud-Sprachbereitstellung planen, können Sie sicherstellen, dass alle Beteiligten und Mitglieder des Projektteams an der Endierung erfolgreicher Ergebnisse ausgerichtet sind. 
+Dieser Artikel enthält eine Übersicht über die Anforderungen für eine ordnungsgemäß dokumentierte Cloud-Sprachbereitstellung. Indem Sie alle Entscheidungspunkte und nächsten Schritte definieren und dokumentieren, während Sie Ihre Cloud-Sprachbereitstellung planen, können Sie sicherstellen, dass alle Beteiligten und Mitglieder des Projektteams an der Endierung erfolgreicher Ergebnisse ausgerichtet sind. 
 
 ## <a name="execution-planning"></a>Ausführungsplanung 
 
 Nachdem Sie die Implementierung der Audiokonferenz- oder -Telefonsystem mit der Anrufplanlösung in Ihrer Organisation definiert haben, müssen Sie die Ausführung des Implementierungsprojekts planen.
 
-Wenn Ihre Organisation nur über eine oder zwei Websites verfügt, müssen Sie möglicherweise nicht alle in diesem Artikel erläuterten Details abschließen, sie sollten sich aber durchlesen, um Ihren Ansatz zu unterstützen.
+Wenn Ihre Organisation nur über eine oder zwei Websites verfügt, müssen Sie möglicherweise nicht alle in diesem Artikel erläuterten Details abschließen. Lesen Sie diesen Artikel jedoch als Leitfaden für Ihren Ansatz.
 
 <!--ENDOFSECTION-->
 
 ## <a name="deployment-model"></a>Bereitstellungsmodell 
 
-Wie bei jeder Technologieimplementierung, die die Art und Weise verändert, wie die Mitarbeiter in Ihrer Organisation arbeiten, wird die Auswahl des richtigen Wegs für die Bereitstellung den Erfolg Ihrer Cloud-Sprachimplementierung erheblich beeinflussen.
+Wie bei jeder Technologieimplementierung, die die Art und Weise umgestalten kann, wie die Mitarbeiter in Ihrer Organisation arbeiten, wird die Auswahl des richtigen Wegs für die Bereitstellung den Erfolg Ihrer Cloud-Sprachimplementierung erheblich beeinflussen.
 
 Zu den möglichen Bereitstellungsmodellen gehören die folgenden:
 
@@ -117,7 +117,7 @@ Es folgt ein Beispiel für einen Kommunikations- und Governanceplan, den Sie in 
 | Project von Aufstandsanrufen                       | Synchronisieren des Projektstatus, Nachverfolgen wichtiger Meilensteine und Blocker                                                                                           | TBA          | Montag, Dienstag, Mittwoch, Donnerstag, 17:00 Uhr PST | Virtuell              | TBA           |
 | Wöchentlicher Lenkungsrat                   | Überprüfen des Status des Cloud-Sprachprojekts, Melden an Führungskräfte, Ansprechen von Problemen, die Hilfe der Geschäftsleitung bei der Lösung erfordern                                        | TBA          | Jeden Freitag, 11:00 Uhr PST                        | Virtuell              | TBA           |
 | Monatliche Geschäfts-/Betriebsüberprüfung für Projekte | Überprüfen des Projektstatus mit erweiterten Projektbeteiligten, Hauptkontaktpunkten und Sponsoren aus der Geschäftsleitung Den Bereitstellungsplan, die KSIs und Betriebsmetriken überprüfen | TBA          | Zweiter Dienstag des Monats                       | Virtuell oder persönlich | TBA           |
-| Vierteljährlicher Geschäftsbericht (QBR)             | Überprüfen des Projektstatus und Überprüfen des Fortschritts im Rahmen von strategischen Zielen, KSIs und Betriebsmetriken Pläne bei Bedarf erneut                                 | TBA          | Letzter Donnerstag jedes Quartals                | Persönlich            | TBA           |
+| Vierteljährlicher Geschäftsbericht (QBR)             | Überprüfen des Projektstatus und Überprüfen des Fortschritts im Rahmen strategischer Ziele, KSIs und betrieblicher Metriken Pläne bei Bedarf erneut                                 | TBA          | Letzter Donnerstag jedes Quartals                | Persönlich            | TBA           |
 
 
 <table>
@@ -133,7 +133,7 @@ Es folgt ein Beispiel für einen Kommunikations- und Governanceplan, den Sie in 
 
 Ein Erfolgsplan ist die Zusammenfassung der Dokumentation, die Sie in der Zielphase erstellt haben.
 
-Der Erfolgsplan gibt dem Projektteam – das FastTrack oder einen Bereitstellungspartner umfassen kann – ausreichende Informationen, um die Ziele Ihrer Organisation bei der Implementierung von Audiokonferenzen oder Telefonsystem mit Anrufplandienst zu erreichen.
+Mit dem Erfolgsplan erhält das Projektteam – das FastTrack oder einen Bereitstellungspartner umfassen kann – ausreichende Informationen, um die Ziele Ihrer Organisation bei der Implementierung von Audiokonferenzen oder Telefonsystem mit dem Anrufplandienst zu erreichen.
 
 Im Allgemeinen enthält ein Erfolgsplan die folgenden Hauptabschnitte, an denen Sie in der Zielphase gearbeitet haben:
 
@@ -151,7 +151,7 @@ Im Allgemeinen enthält ein Erfolgsplan die folgenden Hauptabschnitte, an denen 
 
 ### <a name="business-case"></a>Geschäftsszenario
 
-Geschäftsnutzungsfälle, die Liste der Projektbeteiligten, OKRs und KSIs, Risikoregister und Projektzeitpläne stellen normalerweise den Großteil der für einen Geschäftsfall erforderlichen Informationen dar. Sie sollten diese als Teil Ihres Erfolgsplans dokumentieren.
+Geschäftsnutzungsfälle, die Liste der Projektbeteiligten, OKRs und KSIs, Risikoregister und Projektzeitpläne machen normalerweise den Großteil der für einen Geschäftsfall erforderlichen Informationen aus. Sie sollten diese als Teil Ihres Erfolgsplans dokumentieren.
 
 ### <a name="service-readiness"></a>Bereitschaft für den Dienst
 

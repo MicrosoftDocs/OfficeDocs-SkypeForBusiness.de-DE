@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, Features und wie Sie Add-Ons für Microsoft 365 Business Standard kaufen. '
-ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f092b8f17eff3aa48717be385795a2ca1c18a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589167"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-Wenn Sie über [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium)verfügen, können Sie Skype for Business verwenden, um andere Personen in Ihrem Unternehmen anrufen, die in Ihrem Abonnement enthalten sind. Wenn Ihr Unternehmen beispielsweise zehn Mitarbeiter hat, können Sie einander über Skype for Business anrufen und sich Chatnachrichten schicken.
+Wenn Sie über [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium)verfügen, können Sie Skype for Business verwenden, um andere Personen in Ihrem Unternehmen anrufen, die in Ihrem Abonnement sind. Wenn Ihr Unternehmen beispielsweise zehn Mitarbeiter hat, können Sie einander über Skype for Business anrufen und sich Chatnachrichten schicken.
 
  **Sie haben zwei Optionen, um Anrufe an Personen außerhalb Ihres Unternehmens zu tätigen oder von ihnen zu erhalten**:
 
@@ -43,10 +43,10 @@ Wenn Sie über [Microsoft 365 Business Standard](https://products.office.com/en/
     Es wird empfohlen, mit der Skype-App zu beginnen und auszuprobieren, ob sie Ihren Anforderungen genügt. Ist dies nicht der Fall, können Sie die nächste Option in Betracht ziehen: ein Upgrade Ihres Plans.
 
     > [!IMPORTANT]
-    > Sie müssen eine Umschaltfunktion festlegen, damit Ihre Mitarbeiter mithilfe von Skype for Business nach bestimmten Benutzern Skype können. Siehe [Skype for Business hinzufügen von Skype Kontakten.](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
+    > Sie müssen eine Umschaltfunktion festlegen, damit Ihre Mitarbeiter mithilfe von Skype for Business nach bestimmten Benutzern Skype können. Weitere [Informationen finden Skype for Business Hinzufügen Skype Kontakten.](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)
 
 
-- **Option 2. Aktualisieren Sie Ihren Plan, und kaufen Sie Telefonsystem einen Anrufplan** für Inland oder Inlands- und Auslandsrufe.
+- **Option 2. Aktualisieren Sie Ihren Plan, und kaufen Telefonsystem und einen Anrufplan** für Inlands- oder Inlands- und Auslandsrufe.
 
     > [!Important]
     > Obwohl Skype for Business Online Plan 2 im Office Business Premium-Abonnement enthalten ist, **können Cloud VoIP- Anruffunktionen nicht hinzugefügt werden**. Daher empfehlen wir, dass Sie einen Enterprise E5-Plan (oder Enterprise E3) evaluieren, um festzustellen, ob dies kosteneffektiver ist.
@@ -55,7 +55,7 @@ Wenn Sie über [Microsoft 365 Business Standard](https://products.office.com/en/
 
 2. Kaufen Sie das **Telefonsystem**-Add-On.
     
-3. Kaufen Sie [einen Anrufplan für Office 365:](/MicrosoftTeams/calling-plans-for-office-365)Diesen Plan können Sie erst kaufen, nachdem Sie **das Add-On Telefonsystem** haben.
+3. Kaufen Sie [einen Anrufplan für Office 365:](/MicrosoftTeams/calling-plans-for-office-365)Diesen Plan können Sie erst kaufen, nachdem Sie **das add-on Telefonsystem** haben.
     
     Diese zweite Option ist ideal für Unternehmen mit mehreren Mitarbeitern, die externe Telefonanrufe tätigen und erhalten.
 

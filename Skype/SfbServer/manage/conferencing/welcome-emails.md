@@ -1,5 +1,5 @@
 ---
-title: Senden einer Willkommens-E-Mail an Einwahlbenutzer in Skype for Business Server
+title: Senden von Willkommens-E-Mails an Einwahlbenutzer in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Benutzer bei Einwahlkonferenzen in Skype for Business Server willkommen heißen.'
-ms.openlocfilehash: 1b585d4e0ff05bdb1faca0aa9c8b0863dd26f10f7d06bb1140211a2f1663e6b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4304952bbede0f35183a80f789783bbfc4a8cfbd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313193"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578799"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden einer Willkommens-E-Mail an Einwahlbenutzer in Skype for Business Server
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden von Willkommens-E-Mails an Einwahlbenutzer in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Benutzer bei Einwahlkonferenzen in Skype for Business Server willkommen heißen.
   
@@ -37,7 +37,7 @@ Sie können ein Skript erstellen, das das **Set-CsPinSendCAWelcomeMail-Skript** 
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -65,7 +65,7 @@ Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-Das nächste Beispiel erzwingt eine neue PIN mit dem Wert "383042650" für Bob, obwohl Bob über eine vorhandene PIN verfügte, und sendet dann eine Begrüßungs-E-Mail von Sven an Bob. Da der Parameter "Credential" angegeben ist, wird die Person, die den Befehl ausführt, aufgefordert, ein Kennwort einzugeben. Die E-Mail wird mithilfe der Secure Sockets Layer (SSL) gesendet:
+Das nächste Beispiel erzwingt eine neue PIN mit dem Wert "383042650" für Bob, obwohl Bob über eine vorhandene PIN verfügte, und sendet dann eine Willkommens-E-Mail von Sven an Bob. Da der Parameter "Credential" angegeben ist, wird die Person, die den Befehl ausführt, aufgefordert, ein Kennwort einzugeben. Die E-Mail wird mithilfe der Secure Sockets Layer (SSL) gesendet:
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

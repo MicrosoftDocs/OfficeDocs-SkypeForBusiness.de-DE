@@ -1,5 +1,5 @@
 ---
-title: Ländercodes für Direktes Routing
+title: Ländercodes für direktes Routing
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 description: Lesen Sie diesen Artikel, um die Ländercodes für Medienpfade für Direct-Routing zu finden, damit Sie den optimalen Medienpfad auswählen können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327740"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582349"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Ländercodes für Direct Routing Media Path
 
 Bei der Auswahl eines Routingpfads für Medien weist Direct-Routing standardmäßig immer ein Rechenzentrum basierend auf der öffentlichen IP-Adresse des Session Border Controller (SBC) zu und wählt immer den Pfad aus, der dem SBC-Rechenzentrum am nächsten kommt.
 
-In einigen Fällen ist der Standardmedienpfad jedoch möglicherweise nicht der optimale Medienpfad. So kann beispielsweise eine öffentliche IP aus einem Bereich der USA einem SBC in Europa zugewiesen werden. 
+In einigen Fällen ist der Standardmedienpfad jedoch möglicherweise nicht der optimale Medienpfad. So kann beispielsweise eine öffentliche IP aus einem Bereich der VEREINIGTEN Staaten einem SBC in Europa zugewiesen werden. 
 
 Mithilfe des Parameters -MediaRelayRoutingLocationOverride mit den New-CsOnlinePSTNGateway- und Set-CsOnlinePSTNGateway-Cmdlets können Sie die bevorzugte Region für den Medienverkehr angeben. Der folgende Befehl gibt beispielsweise an, dass Deutschland die bevorzugte Region ist:
 
@@ -142,8 +142,8 @@ Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRel
 | Guinea          | GN |
 | Guinea-Bissau   | GW |
 | Guyana          | Y. |
-| Haiti           | Hallo |
-| Heard- und McDonaldinseln | HM |
+| Haiti           | HALLO |
+| Heard und McDonaldinseln | HM |
 | Honduras        | HN |
 | Hongkong (SAR)   | HK |
 | Ungarn         | HU |
@@ -194,7 +194,7 @@ Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRel
 | Moldawien         | MD |
 | Monaco          | MC |
 | Mongolei        | MN |
-| Montenegro      | Ich |
+| Montenegro      | ICH |
 | Montserrat      | MS |
 | Marokko         | MA |
 | Mosambik      | MZ |
@@ -213,7 +213,7 @@ Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRel
 | Südkorea     | KP |
 | Nordmazedonisch | MK |
 | Nördliche Marianen | NP |
-| Norwegen          | Nein |
+| Norwegen          | NEIN |
 | Oman            | OM |
 | Pakistan        | PK |
 | Palau           | PW |
@@ -253,7 +253,7 @@ Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRel
 | Slowakei        | SK |
 | Slowenien        | SL |
 | Salomonen | SB |
-| Jemen         | Also |
+| Jemen         | ALSO |
 | Südafrika    | ZA |
 | Südgeorgien und die Südlichen Sandwichinseln | GS |
 | Südsudan     | SS |
@@ -273,7 +273,7 @@ Die folgende Tabelle enthält die Ländercodewerte für den Parameter "-MediaRel
 | Timor-Leste     | TL |
 | Togo            | TG |
 | Tokelau         | TK |
-| Tonga           | An |
+| Tonga           | AN |
 | Trinidad und Tobago | TT |
 | Tunesien         | TN |
 | Türkei          | TR |

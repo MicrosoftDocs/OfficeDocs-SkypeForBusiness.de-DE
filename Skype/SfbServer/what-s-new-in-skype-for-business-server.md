@@ -10,24 +10,24 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über neue Features in Skype for Business Server 2015 zu erfahren. Ausführliche Informationen zur neuen Clientumgebung finden Sie unter Lync ist jetzt Skype for Business – sehen Sie sich die Neuerungen an.'
-ms.openlocfilehash: e32b55c6eb41a5800f4bceb1e213a44efed5d2292ccd57766dbf56c1c0cd6e4b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über neue Features in Skype for Business Server 2015 zu erfahren. Ausführliche Informationen zur neuen Clientumgebung finden Sie unter "Lync ist jetzt Skype for Business" – erfahren Sie, was neu ist.'
+ms.openlocfilehash: df0a16855ab7430e87847a392d263f35c6ec2993
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344514"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617621"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Neuigkeiten in Skype for Business Server 2015
 
 **Zusammenfassung:** Lesen Sie dieses Thema, um mehr über neue Features in Skype for Business Server 2015 zu erfahren. Ausführliche Informationen zur neuen Clientumgebung finden Sie unter Lync ist jetzt Skype for Business – sehen Sie sich die [Neuerungen an.](https://go.microsoft.com/fwlink/p/?LinkId=529022)
   
-Lync ist jetzt Skype for Business, einer Plattform für Kommunikation und Zusammenarbeit, die eine von Skype inspirierte Umgebung mit der Sicherheit, Compliance und Kontrolle von Lync auf Unternehmensniveau vereint. Skype for Business bietet Funktionen wie Anwesenheitsinformationen, Chatnachrichten, Sprach- und Videoanrufe sowie Onlinebesprechungen. Skype for Business bietet eine neue Clientumgebung, eine neue Serverversion und Updates für den Dienst in Microsoft 365 oder Office 365. Wenn Benutzer in Ihrer Organisation bereits mit Skype vertraut sind, werden sie die Leistungsfähigkeit und Einfachheit von Skype for Business schätzen, in denen es einfach ist, Kollegen zu finden und sich mit ihnen zu verbinden. Wenn Benutzer in Ihrer Organisation von Lync zu Skype for Business kommen, erkennen sie alle Funktionen, die sie bereits verwenden, aber in einer neuen Oberfläche mit vereinfachten Steuerelementen und neuen Ergänzungen. Zusätzlich zur neuen Clientumgebung bietet Skype for Business Server 2015 mehrere neue Features, um die Verwaltbarkeit von lokalen Servern und Hybridlösungen zu verbessern.
+Lync ist jetzt Skype for Business, einer Plattform für Kommunikation und Zusammenarbeit, die eine von Skype inspirierte Oberfläche mit der Sicherheit, Compliance und Kontrolle von Lync auf Unternehmensniveau vereint. Skype for Business bietet Funktionen wie Anwesenheitsinformationen, Chatnachrichten, Sprach- und Videoanrufe sowie Onlinebesprechungen. Skype for Business bietet eine neue Clientumgebung, eine neue Serverversion und Updates für den Dienst in Microsoft 365 oder Office 365. Wenn Benutzer in Ihrer Organisation bereits mit Skype vertraut sind, werden sie die Leistungsfähigkeit und Einfachheit von Skype for Business schätzen, in denen es einfach ist, Kollegen zu finden und sich mit ihnen zu verbinden. Wenn Benutzer in Ihrer Organisation von Lync zu Skype for Business kommen, erkennen sie alle Features, die sie bereits verwenden, aber in einer neuen Oberfläche mit vereinfachten Steuerelementen und neuen Ergänzungen. Zusätzlich zur neuen Clientumgebung bietet Skype for Business Server 2015 mehrere neue Features, um die Verwaltbarkeit von lokalen Servern und Hybridlösungen zu verbessern.
   
-Zu den neuen Features in Skype for Business Server 2015 gehören Folgendes:
+Zu den neuen Features in Skype for Business Server 2015 gehören Verbesserungen an:
   
 - Verwendung durch den Benutzer  
 - Sprach- und Videounterstützung
@@ -47,7 +47,7 @@ Skype for Business umfasst die oben beschriebene neue Benutzeroberfläche und di
   
 ## <a name="voice-and-video-improvements"></a>Sprach- und Videoverbesserungen
 
-Skype for Business Server 2015 umfasst Verbesserungen bei der Sprach- und Videofunktion, einschließlich der Erfassung und Analyse von Anrufdaten, und verbesserte Interoperabilität mit Videotelekonferenzsystemen von Drittanbietern.
+Skype for Business Server 2015 umfasst Verbesserungen an der Sprach- und Videofunktion, einschließlich der Erfassung und Analyse von Anrufdaten, und verbesserte Interoperabilität mit Videotelekonferenzsystemen von Drittanbietern.
   
 ### <a name="call-data-collection-and-analysis"></a>Anrufdatensammlung und -analyse
 
@@ -59,11 +59,11 @@ Der Video-Interoperabilität-Server (VIS) fungiert als Vermittler zwischen Skype
   
 ### <a name="call-via-work"></a>Anruf über den Arbeitsplatz
 
-Mit der Funktion "Anruf über Arbeit" können Unternehmensbenutzer Sprachanrufe über den Skype for Business-Client tätigen. Wenn ein Benutzer einen Sprachanruf abgibt, wird er von Skype for Business an die Nebenstellenanlage oder das FESTNETZ-Telefon des Absenders weitergeleitet. Sobald der Absender das Telefon entgegennimmt, wird der Anruf an die Zielnummer weitergeleitet. Der Anrufempfänger beantwortet, und der Anruf wird mit Skype for Business als Systemsteuerung eingerichtet. Der Absender kann seine Anwesenheits- und Anrufsteuerelemente über Skype for Business verwalten. Serveradministratoren aktivieren und konfigurieren "Anruf über Arbeit" für das Unternehmen. Weitere Informationen finden Sie unter [Plan for Call Via Work in Skype for Business Server 2015](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
+Mit der Funktion "Anruf über Arbeit" können Unternehmensbenutzer Sprachanrufe über den Skype for Business-Client tätigen. Wenn ein Benutzer einen Sprachanruf abgibt, wird er von Skype for Business an die Nebenstellenanlage oder das FESTNETZ-Telefon des Absenders weitergeleitet. Sobald der Absender das Telefon entgegennimmt, wird der Anruf an die Zielnummer weitergeleitet. Der Anrufempfänger antworte, und der Anruf wird mit Skype for Business als Systemsteuerung eingerichtet. Der Absender kann seine Anwesenheits- und Anrufsteuerelemente über Skype for Business verwalten. Serveradministratoren aktivieren und konfigurieren "Anruf über Arbeit" für das Unternehmen. Weitere Informationen finden Sie unter [Plan for Call Via Work in Skype for Business Server 2015](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
   
 ## <a name="mobile-device-support-improvements"></a>Verbesserungen bei der Unterstützung mobiler Geräte
 
-Zu den Verbesserungen bei der Unterstützung mobiler Geräte gehören Features zur Verbesserung der mobilen Benutzererfahrung für Enterprise Edition Benutzer, z. B. zugriff auf aufgezeichnete Unterhaltungs- und Protokolldaten, verbesserte mobile Besprechungserfahrungen und Unterstützung für einmaliges Anmelden über Office hinweg. Darüber hinaus gibt es Verbesserungen an der Android-Unterstützung, Leistungsverbesserungen und Features, um die Integration über das Common App Framework zu vereinfachen. 
+Zu den Verbesserungen bei der Unterstützung mobiler Geräte gehören Features zur Verbesserung der mobilen Benutzererfahrung für Enterprise Edition Benutzer, z. B. Zugriff auf Aufgezeichnete Unterhaltungen und Protokolldaten, erweiterte mobile Besprechungsumgebungen und Unterstützung für einmaliges Anmelden über Office hinweg. Darüber hinaus gibt es Verbesserungen an der Android-Unterstützung, Leistungsverbesserungen und Features, um die Integration über das Common App Framework zu vereinfachen. 
   
 > [!NOTE]
 > Lync 2013-UCWA-Server müssen auf Skype for Business Server 2015 aktualisiert werden, um mobile Clients zu unterstützen. 
@@ -80,7 +80,7 @@ Die auf dem Desktop verfügbaren Besprechungsfunktionen sind jetzt auch für mob
 - Die Fähigkeit des Referenten, die Kontrolle über freigegebene PowerPoint Inhalte zu übernehmen
 - Lobbyverwaltung für Referenten, die es ihnen ermöglicht, Teilnehmer zuzulassen oder zu verweigern
     
-### <a name="skype-for-business-on-android-improvements"></a>Skype for Business für Android-Verbesserungen
+### <a name="skype-for-business-on-android-improvements"></a>Verbesserungen bei Skype for Business unter Android
 
 Skype for Business unter Android bietet jetzt Features, die in Skype for Business unter iOS und Skype for Business unter Windows verfügbar sind:
   
@@ -89,7 +89,7 @@ Skype for Business unter Android bietet jetzt Features, die in Skype for Busines
 - Einladen anderer Personen zu einer Unterhaltung
 - Einfaches Starten von Gruppenunterhaltungen
 - An einer Besprechung teilnehmen, ohne ein Skype for Business Benutzer zu sein
-- Aktivieren der Smartphone-UI auf Android-Tablets
+- Aktivieren der Smartphone-Benutzeroberfläche auf Android-Tablets
 - Verwalten von Besprechungen durch Hinzufügen oder Entfernen von Teilnehmern
     
 > [!NOTE]
@@ -106,17 +106,17 @@ Sie können jetzt Lync Server 2013-Systeme auf Skype for Business Server 2015 ak
 Es gibt zwei Szenarien für direkte Upgrades: die Move User-Methode, die keine Ausfallzeiten erfordert, und die Offline-Methode, die Ausfallzeiten erfordert. Weitere Informationen dazu, welches Upgradeverfahren für Ihr Unternehmen geeignet ist, finden Sie unter ["Planen des Upgrades auf Skype for Business Server 2015".](plan-your-deployment/upgrade.md) 
   
 > [!NOTE]
-> Die direkte Option ist nicht verfügbar, wenn Sie ein Upgrade von Lync Server 2010 durchführen. Weitere Informationen zum Upgrade von Lync Server 2010 finden Sie unter [Planen des Upgrades auf Skype for Business Server 2015.](plan-your-deployment/upgrade.md) 
+> Die direkte Option ist nicht verfügbar, wenn Sie ein Upgrade von Lync Server 2010 durchführen. Weitere Informationen zum Upgrade von Lync Server 2010 finden Sie unter [Plan to upgrade to Skype for Business Server 2015](plan-your-deployment/upgrade.md). 
   
 ### <a name="smart-setup"></a>Intelligentes Setup
 
-Das Smart Setup-Feature, das Updates automatisch erkennt und herunterlädt, ist jetzt Teil des Setupprogramms. Während des Installationsvorgangs wird der Benutzer gefragt, ob der Installationsvorgang nach Updates suchen sollte. Weitere Informationen finden Sie unter [Install Skype for Business Server 2015](deploy/install/install.md).
+Das Smart Setup-Feature, das Updates automatisch erkennt und herunterlädt, ist jetzt Teil des Setupprogramms. Während des Installationsvorgangs wird der Benutzer gefragt, ob der Installationsvorgang nach Updates suchen sollte. Weitere Informationen finden Sie unter [Installieren Skype for Business Server 2015.](deploy/install/install.md)
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>Verbesserter Patching- und Upgradeprozess für Front-End-Server
 
 Skype for Business Server führt zwei neue Cmdlets ein, die das Upgrade oder Patchen von Front-End-Servern wesentlich einfacher machen als in früheren Versionen von Lync Server.
   
-Wenn Sie einen Patch oder eine andere Wartung auf einen Front-End-Server anwenden müssen, geben Sie einfach **Invoke-CsComputerFailOver** ein, und geben Sie den Namen dieses Servers an. Skype for Business Server wird die Workload dieses Servers vorübergehend auf die anderen Server im Pool verschoben. Anschließend können Sie die Wartung durchführen und dann das Cmdlet **Invoke-CsComputerFailback** verwenden, um den Server wieder in Betrieb zu nehmen. Wenn Sie jeden Server in einem Pool patchen müssen, führen Sie einfach dieses Verfahren für jeden Server nacheinander aus. Mit diesen neuen Cmdlets können Sie Server wesentlich schneller patchen als in früheren Versionen, mit mehr Zuverlässigkeit und einem einfacheren Workflow.
+Wenn Sie einen Patch oder eine andere Wartung auf einen Front-End-Server anwenden müssen, geben Sie einfach **Invoke-CsComputerFailOver** ein, und geben Sie den Namen dieses Servers an. Skype for Business Server wird die Workload dieses Servers vorübergehend auf die anderen Server im Pool verschoben. Anschließend können Sie die Wartung durchführen und dann das Cmdlet **Invoke-CsComputerFailback** verwenden, um den Server wieder in Betrieb zu nehmen. Wenn Sie jeden Server in einem Pool patchen müssen, führen Sie einfach dieses Verfahren für jeden Server nacheinander aus. Mit diesen neuen Cmdlets können Sie Server viel schneller patchen als in früheren Versionen und mit mehr Zuverlässigkeit und einem einfacheren Workflow.
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>Verbesserte Kaltstartfunktion des Front-End-Pools
 
@@ -124,11 +124,11 @@ Skype for Business Server führt ein neues Cmdlet ein, das den Kaltstart eines g
   
 ### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server AlwaysOn-Unterstützung für lokale Server
 
-Skype for Business Server 2015 bietet Unterstützung für SQL Server AlwaysOn-Verfügbarkeitsgruppen und SQL Server AlwaysOn-Failoverclusterinstanzen. Zusätzlich zu diesen Features unterstützt Skype for Business Server weiterhin datenbankspiegelung und SQL Server Clustering, wie in früheren Versionen von Lync Server.
+Skype for Business Server 2015 bietet Unterstützung für SQL Server AlwaysOn-Verfügbarkeitsgruppen und SQL Server AlwaysOn-Failoverclusterinstanzen. Zusätzlich zu diesen Features unterstützt Skype for Business Server weiterhin Datenbankspiegelung und SQL Server Clustering, wie in früheren Versionen von Lync Server.
   
 SQL Server AlwaysOn-Verfügbarkeitsgruppen ist eine Lösung für hohe Verfügbarkeit und Notfallwiederherstellung in SQL Server 2012 und SQL Server 2014, die eine Alternative zur Datenbankspiegelung bietet. Eine Verfügbarkeitsgruppe unterstützt eine Failoverumgebung für eine diskrete Gruppe von Datenbanken (auch als Verfügbarkeitsdatenbanken bezeichnet), die gemeinsam einen Failover ausführen. Eine Verfügbarkeitsgruppe unterstützt eine Reihe primärer Datenbanken mit Lese-/Schreibzugriff und eine bis vier Sätze entsprechender sekundärer Datenbanken. Optional können sekundäre Datenbanken für schreibgeschützten Zugriff und für einige Sicherungsvorgänge zur Verfügung gestellt werden.
   
-SQL Server Failoverclusterinstanzen nutzen Windows Serverfailoverclustering (WSFC)-Funktionalität, um lokale hohe Verfügbarkeit durch Redundanz auf Serverinstanzebene bereitzustellen – einer Failoverclusterinstanz (FCI). Eine FCI ist eine einzelne Instanz von SQL Server, die über Windows WSFC-Knoten (Server Failover Clustering) und möglicherweise über mehrere Subnetze hinweg installiert wird.
+SQL Server Failoverclusterinstanzen nutzen Windows Serverfailoverclustering (WSFC)-Funktionalität, um lokale hohe Verfügbarkeit durch Redundanz auf Serverinstanzebene bereitzustellen – einer Failoverclusterinstanz (FCI). Eine FCI ist eine einzelne Instanz von SQL Server, die über Windows Serverfailoverclustering (WSFC)-Knoten und möglicherweise über mehrere Subnetze hinweg installiert wird.
   
 Weitere Informationen finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015.](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
@@ -148,7 +148,7 @@ Skype for Business Server 2015 bietet Verwaltungs- und Verwaltungsfunktionen fü
   
 - Empfehlungen für Hybridbereitstellungen basierend auf dem Status der lokalen Ressourcen des Kunden, wie vom OnRamp für Office 365 automatisierten Hilfstool bestimmt.
 - Verbesserungen an der Skype for Business Server Systemsteuerung und dem Skype for Business Server Admin Center, sodass Administratoren diese Tools zum Verwalten einer Hybridbereitstellung verwenden können.
-- Verbesserungen in der Systemsteuerung, mit denen sich Administratoren bei einem Microsoft 365- oder Office 365-Mandanten anmelden und eine Hybridbereitstellung mit Skype for Business Online mithilfe des Assistenten für die Hybridkonfiguration einrichten können.
+- Verbesserungen in der Systemsteuerung, mit denen sich Administratoren bei einem Microsoft 365 oder Office 365 Mandanten anmelden und eine Hybridbereitstellung mit Skype for Business Online mithilfe des Assistenten für die Hybridkonfiguration einrichten können.
 - Systemsteuerungsunterstützung für das Verschieben von lokalen Benutzern zu Skype for Business Online oder das Verschieben Skype for Business Onlinebenutzer zurück zu lokalen Benutzern.
 - Systemsteuerungsfeatures zum Identifizieren und Filtern von lokalen Benutzerobjekten, die von lokalen Benutzern in Skype for Business Online verschoben wurden (d. h. Hybridbenutzer).
 - Admin Center-Features zum Identifizieren und Filtern von Cloudbenutzern, die ursprünglich in Skype for Business Online erstellt wurden, von Hybridbenutzern, die von der lokalen Umgebung zu Online migriert wurden.

@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Hier erfahren Sie, wie Sie elektronische Krankenakten in die App Microsoft Teams Patienten und die Benutzeroberflächenspezifikation STU3 integrieren.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e51372f2c44bdd5bdeea8e4a7699d3f46881564e0c98f3049b95dcbd21eb66c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 64fc61072510942b67d51542095a927e7e67c697
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344042"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582329"
 ---
 # <a name="stu3-interface-specification"></a>Benutzeroberflächenspezifikation STU3
 
@@ -33,7 +33,7 @@ ms.locfileid: "54344042"
 >
 >Mit der Listen-App können Pflegeteams in Ihrer Organisation im Gesundheitswesen Patientenlisten für Szenarien erstellen, die von Visiten und interdisziplinären Teambesprechungen bis zur allgemeinen Patientenüberwachung reichen. Sehen Sie sich die Vorlage "Patienten" in der Listen-App an, um die ersten Schritte zu unternehmen. Weitere Informationen zum Verwalten der Listen-App in Ihrer Organisation finden Sie unter [Verwalten der Listen-App](../../manage-lists-app.md).
 
-Das Einrichten oder Neukonfigurieren eines FSCHI-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-App erfordert ein Verständnis der Daten, auf die die App zugreifen muss. Der F IMMER-Server muss POST-Anforderungen mithilfe von Bündeln für die folgenden Ressourcen unterstützen:
+Das Einrichten oder Neukonfigurieren eines FPERSONENBEZOGENE-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-App erfordert, dass Sie verstehen, auf welche Daten die App zugreifen muss. Der F IMMER-Server muss POST-Anforderungen mithilfe von Bündeln für die folgenden Ressourcen unterstützen:
 
 - [Patient](#patient)
 - [Beobachtung](#observation)
@@ -60,7 +60,7 @@ Dies sind die mindestens erforderlichen Felder:
     - Ressource: Typ
     - Sicherheit: [Erweiterung für OAuth-URIs](https://hl7.org/fhir/extension-oauth-uris.html)
     
- - F zur Kehrversion (Unser Code erfordert, dass Sie verstehen, auf welche Version wir pivotieren sollten.)
+ - Fversion (Unser Code erfordert Folgendes, um zu verstehen, auf welche Version wir pivotieren sollten.)
 
 Weitere [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) Details zu diesem Feldsatz finden Sie unter .
 
@@ -93,7 +93,7 @@ Eine Ressourcensuche verwendet die POST-Methode bei /Patient/_search und die fol
 Das Ziel besteht in der Möglichkeit, wie folgt nach einem Patienten zu suchen und zu filtern:
 
 - Nr.: Dies ist die Ressourcen-ID, über die jede Ressource in FSCHI verfügt.
-- MRN: Dies ist der tatsächliche Bezeichner für den Patienten, den der klinische Mitarbeiter hätte. Uns ist klar, dass diese MRN auf dem Typ des Bezeichners innerhalb der Bezeichnerressource in FSCHI basiert.
+- MRN: Dies ist der tatsächliche Bezeichner für den Patienten, den der klinische Mitarbeiter hätte. Uns ist klar, dass diese MRN auf dem Typ des Bezeichners innerhalb der Bezeichnerressource in F IMMER basiert.
 - Name
 - Geburtsdatum
 
@@ -256,7 +256,7 @@ Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:
 
  - patient=\<patient id>
  - _sort=-Datum
- - Kategorie (wir fragen nach "category=vital-signs"), um die Liste der wichtigen Schilder abzurufen.
+ - Kategorie (wir fragen "category=vital-signs") ab, um die Liste der wichtigen Schilder abzurufen.
 
 Sehen Sie sich das folgende Beispiel für den -Aufruf an:
 
