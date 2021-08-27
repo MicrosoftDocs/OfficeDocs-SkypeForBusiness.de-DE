@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a07b6f46d24679b4e05ce826059958e0404ba084
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398974"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531015"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -263,9 +263,8 @@ Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher
 > 
 > Hier finden Sie Informationen zur Funktionsweise dieses Features in der ZUKUNFT, damit Sie sich auf diese Änderung vorbereiten und die Microsoft Teams-Richtlinieneinstellungen im Voraus entsprechend ändern können. 
 >
-> Der Befehl zum präventiven Ändern der MeetingExpirationDays-Einstellung in Microsoft Teams kann noch nicht festgelegt werden.  Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist.
+> Der Befehl zum vorzeitigen Ändern der MeetingExpirationDays-Einstellung in Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ist noch nicht verfügbar, um festgelegt zu werden.  Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist.
 >
-> Sie können PowerShell verwenden, um “ MeetingRecordingExpirationDays” zu ändern. Dies kann nach dem 1. September erfolgen, sobald die Einstellung in PowerShell vorhanden ist, auch wenn das Feature noch nicht aktiviert ist. Ein Beispielbefehl ist: "Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50.”
 >
 
 Lesen Sie Antworten auf häufig gestellte Fragen für Administratoren und Endbenutzer, um Erkenntnisse darüber zu erhalten, wie das automatische Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen funktionieren wird, welche Maßnahmen Sie jetzt ergreifen können und welche nach Veröffentlichung des Features. 
@@ -310,9 +309,18 @@ Ja, das Ablaufdatum wird pro Datei festgelegt. Benutzer können das Ablaufdatum 
 
 **Wie kann ein Administrator das Ablaufdatum ändern?**
   
-Administratoren können die standardmäßige Ablaufeinstellung in PowerShell oder Teams Admin Center ändern, bevor das Feature freigegeben wird. Die Einstellung kann noch nicht geändert werden. Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Microsoft Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
+Administratoren können die standardmäßige Ablaufeinstellung in PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) oder im Teams Admin Center ändern, bevor das Feature freigegeben wird. Die Einstellung kann noch nicht geändert werden. Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Microsoft Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
 
-Administratoren können eine maximale Ablauffrist von 99.999 Tagen bzw. 273 Jahren festlegen. Administratoren können das Ablaufdatum für bestehende Microsoft Teams-Besprechungsaufzeichnungen, die bereits in OneDrive oder SharePoint hochgeladen wurden, nicht ändern, bevor dieses Feature veröffentlicht wird. Dadurch wird der Absicht des Benutzers Rechnung getragen, der Besitzer der betreffenden Microsoft Teams-Besprechungsaufzeichnung ist. 
+Die Werte für die Ablauftage können wie folgt festgelegt werden:
+  
+- Der Wert kann zwischen 1 und 99.999 (Max. 273 Jahre) liegen.
+- Der Wert kann auch -1 lauten, damit Microsoft Teams-Besprechungsaufzeichnungen nie ablaufen. 
+ 
+Administratoren können das Ablaufdatum für bestehende Microsoft Teams-Besprechungsaufzeichnungen, die bereits in OneDrive oder SharePoint hochgeladen wurden, nicht ändern, bevor dieses Feature veröffentlicht wird. Dadurch wird der Absicht des Benutzers Rechnung getragen, der Besitzer der betreffenden Microsoft Teams-Besprechungsaufzeichnung ist. 
+  
+**Kann ein Administrator festlegen, dass Microsoft Teams-Besprechungsaufzeichnungen nie ablaufen?**
+  
+ Ja, Administratoren können über das folgende PowerShell-Cmdlet festlegen, dass Microsoft Teams-Besprechungsaufzeichnungen nie ablaufen: (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
   
 **Ändert sich durch die Wiedergabe der Aufzeichnung das Ablaufdatum?**
 

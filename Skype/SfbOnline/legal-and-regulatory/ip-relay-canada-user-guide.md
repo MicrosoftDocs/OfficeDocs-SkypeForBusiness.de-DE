@@ -12,19 +12,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Verwenden eines IP-Relay-Kontos für Kanada
-ms.openlocfilehash: ac3ac8b480f1759437fa74572544d85f17542e9288c925ebd07bfaea9a25e0de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618261"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>IP Relay in Kanada - Benutzerhandbuch
 
@@ -45,7 +45,7 @@ Die Anrufersteuerung kommuniziert dann per Chat mit der nicht beeinträchtigten 
 Sollte die hör- oder sprachbehinderte Person im Chatprogramm nicht online sein, sendet die Anrufer, sofern eine E-Mail-Adresse verfügbar ist, eine E-Mail an die hörbehinderte oder sprachbehinderte Person, sofern vom Anrufer angefordert.
 
 ## <a name="scenario-c"></a>Szenario C
-Wenn eine hör- oder sprachbehinderte Person Nothilfe benötigt, kann sie die entsprechende Schaltfläche auswählen: 911 – Richtlinie / 911 – Brand / 911 – Ambulance.
+Wenn eine hörbehinderte oder sprachbehinderte Person Nothilfe benötigt, kann sie die entsprechende Schaltfläche auswählen: 911 – Richtlinie / 911 – Brand / 911 – Ambulance.
 
 Dadurch wird eine Notfallbenachrichtigung an die Netzbetreiber des nördlichen IP-Relay gesendet, die dann auf das zu diesem Zweck konzipierte 911-Konto zugreifen. Sobald die Anrufer-Anrufer ihre Adresse bestätigt haben, wird sie sich an das entsprechende PSAP wenden und so lange wie erforderlich in der Zeile bleiben.
 
@@ -59,7 +59,7 @@ Nachdem Sie sich angemeldet haben, werden auf der linken Seite des Bildschirms A
 
 ### <a name="how-to-make-a-text-to-voice-call"></a>So erstellen Sie einen Text-zu-Sprache-Anruf:
 1. Klicken Sie in der unteren rechten Bildschirmecke auf **Chat**.
-2. Klicken Sie auf **den Benutzer IPRelay.**
+2. Klicken Sie auf **den IpRelay-Benutzer.**
 3. Geben Sie im unteren Bereich des neuen Felds, das angezeigt wird, Ihre Nachricht ein.
 
 ### <a name="how-to-receive-a-voice-to-text-call"></a>So empfangen Sie einen Sprach-zu-Text-Anruf:
@@ -72,7 +72,7 @@ Bei einem Notfall können Sie die entsprechende Schaltfläche für den Notfall a
 
 ![Schaltflächen für den Notfall](../images/ip-relay-emergency-buttons.png)
 
-Der IP-Nachrichten-Relay-Operator kontaktiert 911, bestätigt Ihre Adresse und übersetzt ihn mit den verschiedenen Notfallzentralen, bis er nicht mehr benötigt wird und die entsprechende Abteilung an Ihren Standort gesendet wurde.
+Der IP-Nachrichten-Relay-Operator kontaktiert 911, bestätigt Ihre Adresse und übersetzen mit den verschiedenen Notfallzentralen, bis er nicht mehr benötigt wird und die entsprechende Abteilung an Ihren Standort entsenert wurde.
 
 > [!WARNING]
 > Testen Sie diesen Dienst bitte nicht, da die entsprechende Behörde kontaktiert und ggf. auch dann versendet wird, wenn Sie angeben, dass es sich lediglich um einen Test handelt, und Ihnen wird möglicherweise eine falsche Verteilergebühr von der Notfallstelle in Rechnung gestellt.

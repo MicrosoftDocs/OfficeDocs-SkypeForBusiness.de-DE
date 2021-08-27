@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: In diesem Thema werden die Anforderungen an die Netzwerkleistung für Microsoft Teams-Dienste sowie die Verwendung des Internets oder von ExpressRoute für die Konnektivität zwischen Ihrem Netzwerk und Microsoft Teams basierend auf Ihrer Bewertung der Netzwerkkonnektivität definiert. Wenn Sie sich für die Bereitstellung von Azure ExpressRoute für dedizierte Konnektivität für Microsoft 365 oder Office 365 entschieden haben, finden Sie in diesem Dokument außerdem Anleitungen zum Planen Ihrer ExpressRoute-Verbindungen in verschiedenen Microsoft Teams-Bereitstellungsszenarien.
-ms.openlocfilehash: c73922af3befc9070127d9b9937a82f8b8d94e0b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 3699e225f69deda5fd69b2308dc50337a1d0b228
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618241"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>Medienqualität und Leistung der Netzwerkkonnektivität in Microsoft Teams
 
@@ -33,27 +33,27 @@ ms.locfileid: "58407034"
 
 In diesem Thema werden die Anforderungen an die Netzwerkleistung für Microsoft Teams-Dienste sowie die Verwendung des Internets oder von ExpressRoute für die Konnektivität zwischen Ihrem Netzwerk und Microsoft Teams basierend auf Ihrer Bewertung der Netzwerkkonnektivität definiert. Wenn Sie sich für die Bereitstellung von Azure ExpressRoute für dedizierte Konnektivität für Microsoft 365 oder Office 365 entschieden haben, finden Sie in diesem Dokument außerdem Anleitungen zum Planen Ihrer ExpressRoute-Verbindungen in verschiedenen Microsoft Teams-Bereitstellungsszenarien.
   
-Die Qualität der End-to-End-Netzwerkkonnektivität hat großen Einfluss auf die Qualität von Real-Time Medien (Audio, Video und Anwendungsfreigabe) über IP. Um optimale Microsoft Teams Medienqualität zu gewährleisten, müssen Sie sicherstellen, dass es eine qualitativ hochwertige Verbindung zwischen Ihrem Unternehmensnetzwerk und Microsoft Teams. Am besten richten Sie dazu die interne Netzwerk- und Cloudkonnektivität basierend auf der Kapazität des Netzwerks ein, um Spitzendatenaufkommen für alle Verbindungen Microsoft Teams zu ermöglichen.
+Die Qualität der End-to-End-Netzwerkkonnektivität hat großen Einfluss auf die Qualität von Real-Time Medien (Audio, Video und Anwendungsfreigabe) über IP. Für optimale Microsoft Teams Medienqualität ist es wichtig, dass Sie sicherstellen, dass es eine qualitativ hochwertige Verbindung zwischen Ihrem Unternehmensnetzwerk und Microsoft Teams. Am besten richten Sie dazu die interne Netzwerk- und Cloudkonnektivität basierend auf der Kapazität des Netzwerks ein, um Spitzendatenaufkommen für Verbindungen Microsoft Teams Verbindungen zu ermöglichen.
   
-Azure ExpressRoute ist keine Voraussetzung für die Nutzung Microsoft 365 und Office 365 Dienste Microsoft Teams. Azure ExpressRoute ist jedoch eine der verfügbaren Bereitstellungsoptionen, mit der Sie sicherstellen können, dass die Konnektivität mit Microsoft 365 oder Office 365 den Anforderungen an die Microsoft Teams-Netzwerkleistung entspricht und die optimale Medienqualität Microsoft Teams gewährleistet.
+Azure ExpressRoute ist keine Voraussetzung für Dienste Microsoft 365 und Office 365, einschließlich Microsoft Teams. Azure ExpressRoute ist jedoch eine der verfügbaren Bereitstellungsoptionen, mit der sie sicherstellen können, dass die Konnektivität mit Microsoft 365 oder Office 365 den Anforderungen an die Microsoft Teams-Netzwerkleistung entspricht und die optimale Medienqualität Microsoft Teams gewährleistet.
   
 > [!TIP]
-> Obwohl dieses Thema allgemeine Richtlinien zur Netzwerkleistung bietet, werden vollständige Anleitungen für die Netzwerkbewertung nicht in diesem Dokument beschrieben. Eine Liste der Microsoft Teams-Partner, die Ihnen bei der Messung der Netzwerkleistung im Rahmen einer sorgfältigen und vollständigen Netzwerkbewertung helfen können, finden Sie unter Skype for Business [Partner Solutions.](http://partnersolutions.skypeforbusiness.com/) 
+> Obwohl dieses Thema allgemeine Richtlinien zur Netzwerkleistung bietet, werden vollständige Anleitungen für die Netzwerkbewertung nicht in diesem Dokument beschrieben. Eine Liste der Microsoft Teams-Partner, die Ihnen bei der Messung der Netzwerkleistung im Rahmen einer sorgfältigen und vollständigen Netzwerkbewertung helfen können, finden Sie auf der Seite Skype for Business [Partner Solutions.](http://partnersolutions.skypeforbusiness.com/) 
   
 ## <a name="network-connectivity-requirements-to-microsoft-teams"></a>Anforderungen an die Netzwerkkonnektivität für Microsoft Teams
 
 ### <a name="factors-that-impact-microsoft-teams-media-quality"></a>Faktoren, die sich auf Microsoft Teams Medienqualität auswirken
 
-Es gibt viele verschiedene Faktoren, die zu Microsoft Teams Real-Time Medienqualität (Audio, Video und Anwendungsfreigabe) beitragen, einschließlich der verwendeten Geräte, der Umgebung und der Netzwerkkonnektivität. 
+Es gibt viele verschiedene Faktoren, die zu Microsoft Teams Real-Time Medienqualität (Audio, Video und Anwendungsfreigabe) beitragen. Dazu gehören die verwendeten Geräte, die Umgebung und die Netzwerkkonnektivität. 
   
 #### <a name="devices"></a>Geräte
 
 In einer Real-Time-Mediensitzung haben die von allen Teilnehmern verwendeten Geräte zum Aufzeichnen und Rendern von Medien, z. B. Headsets und Webcams, großen Einfluss auf die allgemeine Audio- und Videoqualität. Geräte von niedrigerer Qualität oder Geräte mit falschen Treibern erzeugen Audiomedien mit einer schlechteren allgemeinen Tonqualität sowie Videomedien mit einer schlechteren Bildqualität. Zertifizierte Geräte oder Geräte von hoher Qualität unterstützen Echounterdrückung, Rauschunterdrückung und Videoauflösung und verringern die Latenz.
   
-Zertifizierte Audio- und Videomediengeräte sind zwar nicht erforderlich, es handelt sich jedoch um Höchst empfehlenswerte Geräte, die für Microsoft Teams optimale Medienerfahrung zertifiziert sind. Eine Liste aller zertifizierten Microsoft Teams finden Sie unter Telefone und [Geräte für Skype for Business.](../../SfbPartnerCertification/certification/devices-ip-phones.md) Mit dem [Microsoft Teams-Dashboard](/microsoftteams/turning-on-and-using-call-quality-dashboard)für die Anrufqualität im **Skype for Business Admin Center** können Sie überprüfen, ob die verwendeten Geräte ordnungsgemäß funktionieren und die Audio- und Videomedienqualität überwachen.
+Zertifizierte Audio- und Videomediengeräte sind zwar nicht erforderlich, für eine optimale Medienerfahrung werden jedoch Microsoft Teams Geräte zertifiziert. Eine Liste aller zertifizierten Microsoft Teams finden Sie unter Telefone und [Geräte für Skype for Business.](../../SfbPartnerCertification/certification/devices-ip-phones.md) Sie können das [Microsoft Teams-Dashboard](/microsoftteams/turning-on-and-using-call-quality-dashboard)für Anrufqualität im **Skype for Business Admin Center** verwenden, um sicherzustellen, dass die verwendeten Geräte ordnungsgemäß funktionieren und die Audio- und Videomedienqualität überwachen.
   
 > [!TIP]
-> **Ein zertifiziertes Gerät ist für die optimale Medienqualität Skype for Business erforderlich.**
+> **Ein zertifiziertes Gerät ist erforderlich, um optimale Ergebnisse Skype for Business Medienqualität zu gewährleisten.**
   
 Denken Sie daran, dass bei allen Mediengeräten, Microsoft Teams Clients und Skype for Business-Servern, durch die Real-Time Medienflüsse auftreten, eine gewisse Latenz auftreten kann. Die Latenz bei der Verarbeitung durch Geräte und Software sowie die Netzwerklatenz haben großen Einfluss auf die allgemeine End-to-End-Latenz und die Benutzerfreundlichkeit.
   
@@ -76,7 +76,7 @@ Die Qualität der Real-Time über DAS IP-Netzwerk hat großen Einfluss auf die Q
 > [!NOTE]
 >  Durch Jitter-Puffern erhöht sich die End-to-End-Latenz.
   
-Da viele gleichzeitige Microsoft Teams Real-Time-Mediensitzungen und anderer Netzwerkdatenverkehr von anderen Microsoft 365- oder Office 365-Diensten und anderen Geschäftsanwendungen generiert wird, ist es wichtig, eine ausreichende Bandbreite über den gesamten Netzwerkpfad zu gewährleisten, der Ihr Netzwerk mit dem Microsoft Teams-Dienst verbindet, um Netzwerküberlastung zu vermeiden und hervorragende Medienqualität Real-Time Medien (Audio, Video und Anwendungsfreigabe) sicherzustellen. 
+Bei vielen gleichzeitigen Microsoft Teams Real-Time-Mediensitzungen und anderem Netzwerkdatenverkehr, der von anderen Microsoft 365- oder Office 365-Diensten und anderen Geschäftsanwendungen generiert wird, ist es wichtig, dass über den gesamten Netzwerkpfad, der Ihr Netzwerk mit dem Microsoft Teams-Dienst verbindet, ausreichend Bandbreite verfügbar ist, um Netzwerküberlastung zu vermeiden und hervorragende Medienqualität Real-Time Medien (Audio, Video und Anwendungsfreigabe) sicherzustellen. 
   
 #### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>Implementieren von QoS (Quality of Service) in überlasteten Netzwerken
 
@@ -158,24 +158,24 @@ Im Folgenden werden die Ziele oder Schwellenwerte für die Netzwerkleistung beze
 |Latenz (RTT)  <br/> |< 60 ms  <br/> |
 |Burstverlust von Paketen  <br/> |<1 % in einem Intervall von 200 ms  <br/> |
 |Paketverlust  <br/> |<0,1 % in einem Intervall von 15 Jahren  <br/> |
-|Jitter zwischen der Ankunftszeit von Paketen  <br/> |<in einem Intervall von 15 ms 15 ms  <br/> |
+|Jitter zwischen der Ankunftszeit von Paketen  <br/> |<15 ms in einem Intervall von 15 Ms  <br/> |
 |Neuanordnung von Paketen  <br/> |< 0,01 % Pakete in falscher Reihenfolge  <br/> |
    
  **Weitere Leistungszielanforderungen:**
   
 - Das Leistungsziel setzt eine Verbindung zwischen einem Netzwerk-Edge Ihres Unternehmens und dem nächstgelegenen Microsoft-Netzwerk-Edge auf dem gleichen Kontinent voraus.
     
-- Für das Ziel für die Netzwerkleistung wird von einer ordnungsgemäßen Planung der Bandbreite und/oder der Quality of Service ausgegangen. Dies gilt auch für Skype for Business Real-Time medienverkehr, wenn die Netzwerkverbindung unter Spitzenlast steht. Eine ordnungsgemäße Bandbreiten- und QoS-Planung finden Sie [unter ExpressRoute und QoS in Microsoft Teams.](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)
+- Für das Ziel für die Netzwerkleistung wird von einer ordnungsgemäßen Planung der Bandbreite und/oder der Quality of Service ausgegangen. Dies gilt auch für Skype for Business Real-Time medienverkehr, wenn die Netzwerkverbindung unter Spitzenlast steht. Eine ordnungsgemäße Bandbreiten- und QoS-Planung finden Sie unter ExpressRoute und [QoS in Microsoft Teams.](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d)
     
 ## <a name="measuring-network-performance"></a>Messen der Netzwerkleistung
 <a name="bkNetworkPerf"> </a>
 
-Zum Messen der tatsächlichen Netzwerkleistung, insbesondere im Fall von Latenz und Paketverlust, von einem beliebigen Standort im Unternehmensnetzwerk zu einem Netzwerk-Edge können Sie Tools wie Ping verwenden und eine Reihe von Skype for Business-Media Relay-Diensten testen, die von den Microsoft Edge- und Rechenzentrumsstandorten ausgeführt werden. 
+Zum Messen der tatsächlichen Netzwerkleistung, insbesondere im Fall von Latenz und Paketverlust, von einem beliebigen Unternehmensnetzwerkstandort zu einem Netzwerk-Edge können Sie Tools wie Ping verwenden und eine Reihe von Skype for Business Media Relay-Diensten testen, die von den Microsoft Edge- und Rechenzentrumsstandorten ausgeführt werden. 
 
 >[!NOTE]
 > Das Messen der Netzwerkleistung mithilfe von Ping (ICMP) ist nicht effektiv. Aus diesem Grund beantwortet die unten angezeigte Anycast-IP keine ICMP-Anforderungen mehr ab Januar 2020. Um die Leistung des Netzwerks effektiv zu messen, empfiehlt Microsoft das [Netzwerk-Assesment-Tool](https://www.microsoft.com/download/details.aspx?id=53885).
   
-Zum Testen von Internetverbindungen mit dem Microsoft-Netzwerk sollten Sie die folgenden VIPs der Skype for Business Media Relays testen. Die *Anycast-VIP*  wird in eine IP-Adresse eines Media Relays auf einer Microsoft-Netzwerk-Edgewebsite aufgelöst, die dem Teststandort am nächsten ist.
+Zum Testen von Internetverbindungen zum Microsoft-Netzwerk sollten Sie die folgenden VIPs der Skype for Business Media Relays testen. Die *Anycast-VIP*  wird in eine IP-Adresse eines Media Relays auf einer Microsoft-Netzwerk-Edgewebsite aufgelöst, die dem Teststandort am nächsten ist.
   
 
 |**IP-Adresse** <br/> |**Typ** <br/> |**Standort** <br/>|
@@ -184,13 +184,13 @@ Zum Testen von Internetverbindungen mit dem Microsoft-Netzwerk sollten Sie die f
    
  **Hier sind einige Empfehlungen auf einer hohen Ebene, die Sie bei der Bewertung der Netzwerkleistung beachten sollten:**
   
-- Bewerten Sie Ihr internes Netzwerk und die Verbindungen zu Microsoft 365 Oder Office 365.
+- Bewerten Sie Ihr internes Netzwerk und die Verbindungen zu Microsoft 365 Verbindungen Office 365.
     
 - Bewerten und sammeln Sie über einen langen Zeitraum Daten für alle Ihre Netzwerke. Es wird empfohlen, die Netzwerkleistung mindestens eine Woche lang zu testen, damit Nutzungsmuster für alle Werktage und -stunden zu sehen sind. Dadurch werden Spitzenzeiten für Sie gezeigt.
     
 - Sie sollten mehrere Beispiele für Netzwerkleistungsmessungen verwenden. Es wird empfohlen, während des gesamten Zeitraums, in dem Sie Daten erfassen, alle 10 Minuten von einer Unternehmenswebsite aus eine Messung zu nehmen. Nehmen Sie zum Microsoft Teams Anforderungen an die Netzwerkleistung das 90. Prozent des Messwerts aus diesem Beispieldatenset. 
     
-- Sie sollten die Leistung des Netzwerks kontinuierlich bewerten. Die Netzwerkauslastung variiert im Laufe der Zeit aufgrund von geänderten Nutzungsmustern, neuen unternehmensbasierten Anwendungen, die eine große Bandbreite verwenden, und Änderungen an den Organisations- oder physischen Unternehmensstandorten. Es ist wichtig, dass Sie die Netzwerkleistung kontinuierlich mit diesen Anforderungen an die Netzwerkleistung und Ziel-/Schwellenwerte überwachen und zeitnahe Anpassungen vornehmen, um die optimale Medienqualität Real-Time sicherzustellen. 
+- Sie sollten die Leistung des Netzwerks kontinuierlich bewerten. Die Netzwerkauslastung variiert im Laufe der Zeit aufgrund von geänderten Nutzungsmustern, neuen unternehmensbasierten Anwendungen, die eine große Bandbreite verwenden, und Änderungen an den Organisations- oder physischen Unternehmensstandorten. Es ist wichtig, dass Sie die Netzwerkleistung kontinuierlich mit diesen Anforderungen und Zielen/Schwellenwerten überwachen und zeitnahe Anpassungen vornehmen, um die optimale Medienqualität Real-Time sicherzustellen. 
     
 ## <a name="measuring-network-performance-using-azure-vms"></a>Messen der Netzwerkleistung mit Azure-VMs
 <a name="bkNetworkPerf"> </a>
@@ -231,15 +231,15 @@ Im Folgenden werden die Latenz (RTT)-Ziele für die dienstbasierte Azure-Netzwer
 ## <a name="media-quality-and-expressroute"></a>Medienqualität und ExpressRoute
 <a name="bkNetworkPerf"> </a>
 
-Azure ExpressRoute für Microsoft 365 oder Office 365 ist eine dedizierte Netzwerkverbindung zum Herstellen einer Verbindung Microsoft 365 Verbindungen Office 365. Sie bietet Kunden die Möglichkeit, den Pfad zu steuern, den ihr Netzwerkdatenverkehr einnimmt. Sie müssen sich nicht mehr um das unvorhersehbare Routing im Internet sorgen, bei dem Daten von unbekannten Netzbetreibern, Anbietern und Internetdienstanbietern übertragen werden. Netzwerkdatenverkehr, der über ExpressRoute gesendet wird, wird direkt über das Netzwerk des ExpressRoute-Partners an das Netzwerk von Microsoft gesendet. Dadurch können Kunden Ihre Microsoft 365 oder Office 365 so behandeln, als ob sie sich in ihrem eigenen, nicht vor Ort vorhandenen Rechenzentrum mit einer dedizierten Verbindung befinden.
+Azure ExpressRoute für Microsoft 365 oder Office 365 ist eine dedizierte Netzwerkverbindung zum Herstellen einer Verbindung mit Microsoft 365 Oder Office 365. Sie bietet Kunden die Möglichkeit, den Pfad zu steuern, den ihr Netzwerkdatenverkehr einnimmt. Sie müssen sich nicht mehr um das unvorhersehbare Routing im Internet sorgen, bei dem Daten von unbekannten Netzbetreibern, Anbietern und Internetdienstanbietern übertragen werden. Netzwerkdatenverkehr, der über ExpressRoute gesendet wird, wird direkt über das Netzwerk des ExpressRoute-Partners an das Netzwerk von Microsoft gesendet. So können Kunden Ihre Microsoft 365 oder Office 365 so behandeln, als ob sie sich in ihrem eigenen, nicht vor Ort vorhandenen Rechenzentrum mit einer dedizierten Verbindung befinden.
   
-Azure ExpressRoute ist für alle Ihre Microsoft 365 und Office 365 verfügbar. Das Azure ExpressRoute Premium-Add-On ist jedoch erforderlich, damit Benutzer Microsoft 365 und Office 365 globales Routing aktivieren können. Kunden mit mindestens 500 Sitzen, die ExpressRoute implementieren, können das erforderliche *ExpressRoute Premium Add-On* ohne zusätzliche Kosten erhalten.
+Azure ExpressRoute ist für alle Microsoft 365 und Office 365 verfügbar. Das Azure ExpressRoute Premium-Add-On ist jedoch erforderlich, damit Benutzer Microsoft 365 und Office 365 globales Routing aktivieren können. Kunden mit mindestens 500 Sitzen, die ExpressRoute implementieren, können das erforderliche ExpressRoute Premium *Add-On* ohne zusätzliche Kosten erhalten.
   
 ### <a name="is-expressroute-required-for-good-media-quality"></a>Ist ExpressRoute für eine gute Medienqualität erforderlich?
 
 Azure ExpressRoute ist keine Voraussetzung für optimale Medienqualität Microsoft Teams Medienqualität. Es ist jedoch eine der Bereitstellungsoptionen, mit der Sie sicherstellen können, dass Ihre Cloudkonnektivität die Skype for Business oder Schwellenwerte für die Netzwerkleistung erfüllt.
   
-Microsoft 365 und Office 365 Dienste sind Hochleistung und sichere Dienste, die das Internet verwenden. Wir investieren ständig in neue Sicherheitsfunktionen und regionale Edgeknoten, um Die Sicherheit und Leistung kontinuierlich zu verbessern. Azure ExpressRoute ist keine Voraussetzung für Microsoft 365 oder Office 365 Dienste, einschließlich Microsoft Teams. Azure ExpressRoute ist eine der verfügbaren Bereitstellungsoptionen, mit der sie sicherstellen können, dass die Konnektivität mit Microsoft 365 oder Office 365 den Anforderungen an die Skype for Business-Netzwerkleistung entspricht und die optimale Medienqualität Microsoft Teams gewährleistet.
+Microsoft 365 und Office 365 dienste sind Hochleistung und sichere Dienste, die das Internet verwenden. Wir investieren ständig in neue Sicherheitsfunktionen und regionale Edgeknoten, um Die Sicherheit und Leistung kontinuierlich zu verbessern. Azure ExpressRoute ist keine Voraussetzung für Microsoft 365 oder Office 365 Dienste, einschließlich Microsoft Teams. Azure ExpressRoute ist eine der verfügbaren Bereitstellungsoptionen, mit der sie sicherstellen können, dass die Konnektivität mit Microsoft 365 oder Office 365 den Anforderungen an die Skype for Business-Netzwerkleistung entspricht und die optimale Medienqualität Microsoft Teams gewährleistet.
   
 Für Microsoft Teams-Medienqualität ist es wichtig, dass die Verbindung zwischen Ihren Unternehmensstandorten und den Microsoft-Netzwerk-Edges die Leistungsziele unter Anforderungen an die Netzwerkleistung von einem Skype for Business-Client zum [Microsoft-Netzwerk-Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) erfüllt und dass die Verbindung zwischen Ihren Netzwerk-Edges und den Microsoft-Netzwerk-Edges die Leistungsziele unter Anforderungen an die Netzwerkleistung von Ihrem Netzwerk-Edge zum [Microsoft-Netzwerk-Edge](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)erfüllt.  
   
@@ -247,7 +247,7 @@ Außerdem ist es wichtig, dass die Konnektivität des physischen Unternehmensnet
   
 ### <a name="is-expressroute-required-for-voice-quality-sla"></a>Ist ExpressRoute für SLA zur Sprachqualität erforderlich?
 
-Nein, ExpressRoute ist für SLA zur Sprachqualität Microsoft Teams erforderlich. Die [SLA](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) zur Microsoft Teams-Sprachqualität gilt für alle berechtigten Anrufe, die von einem beliebigen Benutzer des Microsoft Teams-VoIP-Diensts innerhalb der richtigen Lizenz und des richtigen Abonnements, die es diesem Benutzer ermöglichen, beliebige Arten von VoIP- oder PSTN-Anrufen zu verwenden. Eine SLA zur Sprachqualität sollte enthalten, dass alle folgenden Bedingungen erfüllt sind:
+Nein, ExpressRoute ist für SLA zur Sprachqualität Microsoft Teams erforderlich. Die [SLA zur Microsoft Teams-Sprachqualität](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=37) gilt für alle berechtigten Anrufe, die von einem beliebigen Benutzer des Microsoft Teams-VoIP-Diensts innerhalb der richtigen Lizenz und des richtigen Abonnements, der es diesem Benutzer ermöglicht, beliebige Arten von VoIP- oder PSTN-Anrufen zu verwenden. Eine SLA zur Sprachqualität sollte enthalten, dass alle folgenden Bedingungen erfüllt sind:
   
 - Anrufe von Microsoft-zertifizierten IP-Telefonen.
     
@@ -260,9 +260,9 @@ Nein, ExpressRoute ist für SLA zur Sprachqualität Microsoft Teams erforderlich
   
 ### <a name="internet-or-azure-expressroute"></a>Internet oder Azure ExpressRoute?
 
-Vor der Entscheidung über Netzwerkkonnektivitätsoptionen für Microsoft Teams müssen Kunden ihr Netzwerk und die aktuelle Internetkonnektivität anhand der unter Anforderungen an die Netzwerkleistung für Verbindungen mit ihrem Netzwerk beschriebenen Anforderungen an die [Netzwerkleistung Microsoft Teams.](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)
+Vor der Entscheidung über Netzwerkkonnektivitätsoptionen für Microsoft Teams müssen Kunden ihr Netzwerk und die aktuelle Internetverbindung anhand der [unter](media-quality-and-network-connectivity-performance.md#bkNetworkPerf)Anforderungen an die Netzwerkleistung beschriebenen Anforderungen an die Netzwerkleistung bewerten, um Verbindungen mit Microsoft Teams.
   
-Wenn die Netzwerkleistung über die aktuelle Internetverbindung für genügend Kapazität während Spitzenzeiten eingerichtet ist und die Anforderungen an die Netzwerkleistung von Standorten zu Microsoft-Netzwerk-Edges sowie von Ihren Netzwerk-Edges zu Microsoft-Netzwerk-Edges erfüllt sind, können Sie weiterhin Ihre vorhandene Internetverbindung verwenden, um eine Verbindung mit Microsoft Teams herzustellen.
+Wenn die Netzwerkleistung über die aktuelle Internetverbindung für genügend Kapazität während Spitzenzeiten eingerichtet ist und die Anforderungen an die Netzwerkleistung von Standorten zu Microsoft-Netzwerk-Edges und von Ihren Netzwerk-Edges zu Microsoft-Netzwerk-Edges erfüllt sind, können Sie weiterhin Ihre vorhandene Internetverbindung verwenden, um eine Verbindung mit Microsoft Teams herzustellen.
   
 Für Unternehmensstandorte, an denen die Anforderungen an die Netzwerkleistung nicht erfüllt werden, empfehlen wir dringend, dass Sie zuerst mit Ihren vorhandenen Netzwerkdienstanbietern zusammenarbeiten, um die allgemeine Netzwerkleistung zu verbessern. Wenn sie aber immer noch nicht erfüllt werden, können Sie mit Azure ExpressRoute sicherstellen, dass Ihre Microsoft Teams-Cloudkonnektivität die Anforderungen an die Netzwerkleistung erfüllt.
   
@@ -270,7 +270,7 @@ Azure ExpressRoute bietet die folgenden zusätzlichen Vorteile:
   
 - Eine Vereinbarung zum Servicelevel (Service Level Agreement, SLA) zur Verfügbarkeit der Verbindung zwischen Ihrem und dem Microsoft-Netzwerk. ExpressRoute bietet eine SLA zur garantierten Verfügbarkeit von 99,9 %.
     
-- Geplante und garantierte für Microsoft 365 und Office 365 erforderliche Bandbreite. Zu diesem Ergebnis senden Sie nur Microsoft 365-, Office 365- oder Skype for Business-Datenverkehr über ExpressRoute und lassen dann den übrigen Internetverkehr über andere Internet-Ausgangs- und -Ausgangspunkte Ihres Netzwerks gehen.
+- Geplante und garantierte für die Microsoft 365 und Office 365 erforderliche Bandbreite. Zu diesem Ergebnis senden Sie nur Microsoft 365-, Office 365- oder Skype for Business-Datenverkehr über ExpressRoute und lassen dann den übrigen Internetverkehr über andere Internet-Ausgangs- und -Ausgangspunkte Ihres Netzwerks zurück.
     
 - ExpressRoute ist darauf ausgelegt, DIE DSCP-QoS-Markierungen zwischen Ihrem Netzwerk und dem Microsoft-Netzwerk beizubehalten.
     
@@ -282,7 +282,7 @@ Ja, Sie können Azure ExpressRoute einrichten, um hervorragende Netzwerkkonnekti
   
 Das BGP (Border Gateway Protocol) ist ein Routingprotokoll im Internet, das zum Weiterleiten von Netzwerkdatenverkehr über das Internet verwendet wird. Es ist für den Austausch von Routinginformationen zwischen eigenständigen Systemen (AS) aus dem Internet konzipiert. BGP-Communitywerte sind Attributtags, die auf eingehende oder ausgehende Routen angewendet werden können. BGP-Communitys werden häufig verwendet, um dem empfangenden AS zu signalisieren, welcher ausgehende Link verwendet wird, um anhand von Geographie, Diensttyp oder anderen Kriterien ein bestimmtes Ziel zu erreichen.
   
-Mit der Unterstützung von BGP-Communitys wird Microsoft Präfixe und Routen mit entsprechenden BGP-Communitywerten basierend auf dem Dienst, dem sie angehören, kennzeichnen. Microsoft tagft Präfixe, die über öffentliches Peering und Microsoft-Peering angekündigt werden, mit entsprechenden BGP-Communitywerten, die die Region angeben, in der die Präfixe gehostet werden. Sie können sich auf die Community-Werte verlassen, um geeignete Routingentscheidungen zu treffen, um optimales Routing zu bieten. Sie können den BGP Microsoft Teams Wert für die BGP-Community verwenden, um eine ExpressRoute-Verbindung nur für die Microsoft Teams. Weitere Informationen finden Sie unter [ExpressRoute-Routinganforderungen.](/azure/expressroute/expressroute-routing)
+Mit der Unterstützung von BGP-Communitys wird Microsoft Präfixe und Routen mit entsprechenden BGP-Communitywerten basierend auf dem Dienst, dem sie angehören, kennzeichnen. Microsoft tagft Präfixe, die über öffentliches Peering und Microsoft-Peering angekündigt werden, mit entsprechenden BGP-Communitywerten, die die Region angeben, in der die Präfixe gehostet werden. Sie können sich auf die Community-Werte verlassen, um geeignete Routingentscheidungen zu treffen, um optimales Routing zu bieten. Sie können den BGP Microsoft Teams Wert der BGP-Community verwenden, um eine ExpressRoute-Verbindung nur für Microsoft Teams. Weitere Informationen finden Sie unter [ExpressRoute-Routinganforderungen.](/azure/expressroute/expressroute-routing)
   
 ## <a name="expressroute-connectivity-scenarios-for-microsoft-teams"></a>ExpressRoute-Konnektivitätsszenarien für Microsoft Teams
 <a name="bkNetworkPerf"> </a>
@@ -293,7 +293,7 @@ Wenn Sie aufgrund der oben genannten Empfehlungen entschieden haben, dass Expres
 
 Wenn alle Benutzer den Microsoft Teams-Dienst nutzen und sich Ihre Niederlassungen an einem einzigen physischen Standort befinden und Sie sich für die Bereitstellung von Azure ExpressRoute entscheiden, sollten Sie eine einzelne ExpressRoute-Verbindung zwischen Ihrem Unternehmensstandort und dem nächstgelegenen [ExpressRoute-Peeringstandort](/azure/expressroute/expressroute-locations)einrichten.
   
-Die folgende Abbildung zeigt ein Beispiel für diese Art der Bereitstellung. Für dieses Beispiel ist Contoso eine Universität in Orlando, Florida. Contoso verfügt über 10.000 Lehrpersonalmitglieder und Studenten. Die Internettests von ihrem Standort zu Microsoft Edge es zu einem Paketverlust von mehr als 5 % während der Spitzenklassenzeiten. Sie haben sich für eine dedizierte Verbindung mit Microsoft 365 oder Office 365 mithilfe von ExpressRoute mit überlasteter Bandbreite entschieden, um eine Netzwerküberlastung für Microsoft 365 oder Office 365 speziell für den Microsoft Teams Real-Time-Datenverkehr zu vermeiden. Die Verbindung zur Microsoft-Cloud wird über ExpressRoute am MeetMe-Standort in Atlanta, GA, hergestellt.
+Die folgende Abbildung zeigt ein Beispiel für diese Art der Bereitstellung. Für dieses Beispiel ist Contoso eine Universität in Orlando, Florida. Contoso verfügt über 10.000 Lehrpersonalmitglieder und Studenten. Bei den Internettests von ihrem Standort zu Microsoft Edge-Standorte wurde ein Paketverlust von mehr als 5 % während der Spitzenklassenzeiten deutlich. Sie haben sich für eine dedizierte Verbindung zu Microsoft 365 oder Office 365 mithilfe von ExpressRoute mit über bereitstellender Bandbreite entschieden, um eine Netzwerküberlastung für Microsoft 365 oder Office 365 speziell für den Microsoft Teams Real-Time-Datenverkehr zu vermeiden. Die Verbindung zur Microsoft-Cloud wird über ExpressRoute am MeetMe-Standort in Atlanta, GA, hergestellt.
   
 ![ExpressRoute für einen Standort.](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   
@@ -321,19 +321,19 @@ Wenn Sie eine lokale Lync- oder Microsoft Teams-Bereitstellung haben und sich f�
   
 Wenn Sie über eine lokale Bereitstellung Microsoft Teams verfügen, müssen Sie das Handbuch zur Planung und Bereitstellung von [Edgeservern befolgen.](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Insbesondere müssen die Edgeserver von außerhalb Ihres Netzwerks erreichbar sein. Dies wird in der Regel erreicht, indem dem Edgeserver eine routbare öffentliche IP-Adresse zugewiesen oder Netzwerkadressenübersetzung (Network Address Translation, NAT) verwendet wird.
   
-Im folgenden Beispiel verfügt Contoso über eine lokale Microsoft Teams Enterprise-VoIP Bereitstellung. Sie möchten lokale Benutzer zu ihren Onlinediensten Microsoft 365 Office 365 migrieren. Sie entschieden sich außerdem für die Verwendung einer Hybridbereitstellung, damit sie ihre vorhandene PSTN-Infrastruktur weiterhin für alle lokalen und Onlinebenutzer nutzen können. Das lokale Rechenzentrum von Contoso und die Skype for Business Edgeserver befinden sich in Chicago. Für die Bereitstellung hat Contoso beschlossen, eine ExpressRoute-Verbindung zwischen dem Rechenzentrum in Chicago und chicago expressRoute herzustellen. Außerdem wurde eine ExpressRoute-Verbindung für die Westküste hinzugefügt, um das Büro in Honolulu besser bedienen zu können.
+Im folgenden Beispiel verfügt Contoso über eine lokale Microsoft Teams Enterprise-VoIP Bereitstellung. Sie möchten lokale Benutzer zu Ihren Onlinediensten Microsoft 365 Office 365 migrieren. Sie entschieden sich außerdem für die Verwendung einer Hybridbereitstellung, damit sie ihre vorhandene PSTN-Infrastruktur weiterhin für alle lokalen und Onlinebenutzer nutzen können. Contosos lokales Rechenzentrum und die Skype for Business Edgeserver befinden sich in Chicago. Für die Bereitstellung hat Contoso beschlossen, eine ExpressRoute-Verbindung zwischen dem Rechenzentrum in Chicago und chicago expressRoute herzustellen. Außerdem wurde eine ExpressRoute-Verbindung für die Westküste hinzugefügt, um das Büro in Honolulu besser bedienen zu können.
   
 ![ExpressRoute Hybrid.](../images/a7467c56-642f-44e5-adfb-ecca91ba2dd3.png)
   
 ### <a name="online-deployment-with-cloud-connector-edition"></a>Onlinebereitstellung mit Cloud Connector Edition
 
-Skype for Business Cloud Connector Edition ist ein Hybridangebot, das aus einem Satz paketierter virtueller Computer (Packaged Virtual Machines, VMs) besteht, die lokale PSTN-Anbindung implementieren. Durch die Bereitstellung einer minimalen Skype for Business Server-Topologie in einer virtualisierten Umgebung können Sie anrufe über Festnetztelefone und Mobiltelefone über die vorhandene lokale PSTN-Sprachinfrastruktur senden und empfangen.
+Skype for Business Cloud Connector Edition ist ein Hybridangebot, das aus einem Satz paketierter virtueller Computer (Virtual Machines, VMs) besteht, die lokale PSTN-Anbindung implementieren. Durch die Bereitstellung einer minimalen Skype for Business Server-Topologie in einer virtualisierten Umgebung können Sie anrufe über Festnetztelefone und Mobiltelefone über die vorhandene lokale PSTN-Sprachinfrastruktur senden und empfangen.
   
 Wenn Sie sich für die Bereitstellung von Azure ExpressRoute und Cloud Connector Edition entscheiden, empfehlen wir, mindestens eine ExpressRoute-Verbindung für jeden Kontinent zwischen dem Hauptstandort auf jedem Kontinent und dem nächstgelegenen [ExpressRoute-Peeringstandort zu einrichten.](/azure/expressroute/expressroute-locations) Je nach Kosten und Nutzen können Sie für jeden Kontinent zusätzliche ExpressRoute-Verbindungen von Standorten bereitstellen, an denen die Ziel für die Netzwerkleistung nicht erreicht werden.
   
-Wenn Sie über eine lokale Bereitstellung Microsoft Teams verfügen, müssen Sie sich an das [Planungshandbuch für Skype for Business Cloud Connector Edition.](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md) Insbesondere sollten den Access Edge- und A/V-Edgediensten öffentliche IP-Adressen und erreichbare Microsoft 365 oder Office 365 zugewiesen werden.
+Wenn Sie über eine lokale Bereitstellung Microsoft Teams verfügen, müssen Sie sich an das [Planungshandbuch für Skype for Business Cloud Connector Edition.](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md) Insbesondere den Access Edge- und A/V-Edgediensten sollten öffentliche IP-Adressen und erreichbare Microsoft 365 oder Office 365-Rechenzentren zugewiesen werden.
   
-Im folgenden Beispiel ist Contoso eine europäische Buchhaltung mit Anwesenheit in einigen europäischen Großstädten. Wenn sie sich für Microsoft Teams registrieren, um alle Anforderungen an die Zusammenarbeit zu erfüllen, hat sie sich entschieden, Cloud Connector für jedes Land, in dem es einen physischen Standort hat, zu verwenden, um seine PSTN-Infrastruktur und die bereits vorhandenen Verträge für Netzbetreiber weiterhin zu nutzen. Basierend auf den Tests aller Standorte und des Microsoft-Netzwerk-Edge wurde festgestellt, dass eine einzelne ExpressRoute-Verbindung in London die unter Anforderungen an die Netzwerkleistung von einem Skype for Business-Client zum [Microsoft-Netzwerk-Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)beschriebenen Ziele für die Netzwerkleistung der Microsoft Teams-Clientverbindung erfüllt.
+Im folgenden Beispiel ist Contoso eine europäische Buchhaltung mit Anwesenheit in einigen europäischen Großstädten. Wenn sie sich für Microsoft Teams für alle Ihre Anforderungen an die Zusammenarbeit registrieren, entschieden sie sich für die Verwendung eines Cloud Connector für jedes Land, in dem es einen physischen Standort gibt, um seine PSTN-Infrastruktur und die bereits vorhandenen Netzbetreiberverträge weiterhin nutzen zu können. Basierend auf den Tests aller Standorte und des Microsoft-Netzwerk-Edge hat das Unternehmen festgestellt, dass eine einzelne ExpressRoute-Verbindung in London die unter Anforderungen an die Netzwerkleistung von einem Skype for Business-Client zum Microsoft-Netzwerk-Edge beschriebenen Ziele für die Netzwerkleistung der Microsoft Teams-Clientverbindung erfüllen [kann.](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)
   
 ![ExpressRoute Cloud Connector eins.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   

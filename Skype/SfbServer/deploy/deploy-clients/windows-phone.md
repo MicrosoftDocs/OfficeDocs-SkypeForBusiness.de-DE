@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Skype for Business auf Ihrem Windows Phone installieren und testen.'
-ms.openlocfilehash: bbb1947ac1982b54ab8cd2e0005cdf4c7aec62ff69e88f8f32df881616c7d11f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f912c1f5bd3c0bd5f8c3cc553c64ee3b7850f63e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618151"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Installieren und Testen von Skype for Business für Windows Phone
  
@@ -27,11 +27,11 @@ Die Skype for Business für Windows Phone-App bietet Skype for Business Anwesenh
   
 Bevor Sie Benutzer in Ihrer Organisation zum Herunterladen der App anweist, sollten Sie die folgenden Tests ausführen, um sicherzustellen, dass sie ordnungsgemäß in Ihre Umgebung integriert ist. 
   
-## <a name="install-skype-for-business-windows-phone-81"></a>Installieren von Skype for Business Windows Phone 8.1
+## <a name="install-skype-for-business-windows-phone-81"></a>Installieren Skype for Business Windows Phone 8.1
 
 1. Navigieren Sie zu [Windows Phone 8 Update Central,](https://www.windowsphone.com/en-us/how-to/wp8/update-central) um Ihr Telefon auf Windows Phone 8.1 zu aktualisieren.
     
-2. Wechseln Sie von Ihrem Telefon zum **Store,** und suchen Sie **nach Skype for Business**.
+2. Wechseln Sie von Ihrem Telefon zum **Store,** und suchen Sie nach **Skype for Business**.
     
 3. Tippen Sie auf **"Installieren".** 
     
@@ -84,7 +84,7 @@ Nachdem Sie den Client konfiguriert und sich erfolgreich angemeldet haben, über
 
 1. Planen Sie in Outlook eine Skype for Business Besprechung.
     
-2. Öffnen Sie in Ihrem Windows Phone die Besprechungseinladung.
+2. Öffnen Sie auf Ihrem Windows Phone die Besprechungseinladung.
     
 3. Klicken Sie in der Besprechung auf den Link, um an der Besprechung teilzunehmen.
     
@@ -104,7 +104,7 @@ Nachdem Sie den Client konfiguriert und sich erfolgreich angemeldet haben, über
     
 6. Stellen Sie sicher, dass die Benachrichtigung über Chatnachrichten auf dem mobilen Gerät von Benutzer A angezeigt wird.
     
-## <a name="remove-skype-for-business-from-your-windows-phone"></a>Entfernen von Skype for Business aus ihrem Windows Phone
+## <a name="remove-skype-for-business-from-your-windows-phone"></a>Entfernen Skype for Business aus Ihrer Windows Phone
 
 So entfernen Sie die Skype for Business für Windows Phone-App von Ihrem mobilen Gerät: 
   

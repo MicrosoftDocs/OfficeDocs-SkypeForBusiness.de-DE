@@ -9,24 +9,24 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ihre Edgeservertopologie in Skype for Business Server erstellen, veröffentlichen und exportieren.'
-ms.openlocfilehash: da0ec9709f53e22122a911015e94484fc673c6741ba5122fa796e7dded0105b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584349"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen der Edgetopologie für Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Ihre Edgeservertopologie in Skype for Business Server erstellen, veröffentlichen und exportieren.
   
-Der Topologie-Generator ist das Tool, das Sie zum Erstellen Ihrer Edgeservertopologie verwenden müssen, genau wie er für alle Topologiekomponenten für Skype for Business Server verwendet wird. Bevor Sie die folgenden Schritte ausführen, müssen Sie mindestens einen Front-End-Pool oder einen Standard Edition Server eingerichtet haben.
+Der Topologie-Generator ist das Tool, das Sie zum Erstellen Ihrer Edgeservertopologie verwenden müssen, genau wie er für alle Topologiekomponenten für Skype for Business Server verwendet wird. Bevor Sie die folgenden Schritte ausführen, müssen Sie mindestens einen Front-End-Pool oder einen Standard Edition-Server eingerichtet haben.
   
 Wir behandeln die folgenden Themen in diesem Artikel:
   
@@ -256,7 +256,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     
 ## <a name="publish-your-edge-server-topology"></a>Veröffentlichen der Edgeservertopologie
 
-Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es an der Zeit, diese neue Topologie zu veröffentlichen, mit der Sie sie auch in Ihren Skype for Business Server Edgeserver oder Edgepool exportieren können. Führen Sie die folgenden Schritte aus:
+Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es an der Zeit, diese neue Topologie zu veröffentlichen, mit der Sie sie auch in Ihren Skype for Business Server Edgeserver oder Edgepool exportieren können. Gehen Sie wie folgt vor:
   
 1. Starten Sie **den Topologie-Generator** (wenn er nicht bereits aus dem vorherigen Verfahren gestartet wurde).
     

@@ -21,26 +21,26 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 68cc104c1e50aeac5de2a88d44b1cba4bbaa54aa
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 133142f68ae2319e4cd6a2c13145de498c740239
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548310"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams zertifizierten Geräten
 
-Die Microsoft Teams-Zertifizierungsprogrammen stellen sicher, dass Kunden mit zertifizierten Telefonen und Telefonkonferenzen qualitativ hochwertige Audioanrufe und Besprechungen erleben.
+Die Microsoft Teams Zertifizierungsprogrammen stellen sicher, dass Kunden mit zertifizierten Telefonen und Telefonkonferenzen qualitativ hochwertige Audioanrufe und Besprechungen erleben.
 
 Microsoft Teams Zertifizierungsprogramme stellen eine Leiste mit höherer Qualität mit höheren Leistungszielen und Metriken für die Audioqualität sicher. Partner arbeiten aktiv daran, diese höhere Leiste zu erfüllen, und qualifizieren Geräte für Zertifizierungsanforderungen. Einige unserer Partner arbeiten auch daran, Support für den Skype for Business auf der gleichen Hardware wie die Teams bieten. Zu den Vorteilen Microsoft Teams zertifizierten Geräten gehören:
 
 - Systemeigene Teams mit Hardwaretastenintegration und LED-Benachrichtigungen
 - Kalenderintegration und Teilnahme an Einer-Touch-Besprechung
-- Bereitstellen und Verwalten über Teams Admin Center mit Intune-Integration
+- Bereitstellung und Verwaltung über Teams Admin Center mit Intune-Integration
 
 ## <a name="currently-certified-teams-phones"></a>Zurzeit für Teams zertifiziert
 
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Geräte zertifiziert:
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Telefone zertifiziert:
 
 |Gerätemodell                         | Firmwareversion                                                                                                                                                                                                                           | Veröffentlichungsdatum
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
@@ -51,8 +51,8 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 | Yealink MP52                           | 145.15.0.6                                               | April 2021                   |
 | AudioCodes C435HD                      | 1.12.33                                                  | April 2021                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | Januar 2021                 |
-| AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | März 2019                   |
-| AudioCodes C448HD (nur CAP-Modus)      | C450HD_TEAMS_0.225                                       | März 2019                   |
+| AudioCodes C450HD                      | C450HD_TEAMS_0,225                                       | März 2019                   |
+| AudioCodes C448HD (nur CAP-Modus)      | C450HD_TEAMS_0,225                                       | März 2019                   |
 | Crestron UC-2                          |1.0.1.46                                                  | Juli 2020                    |
 | Crestron M100                          | Dieses Produkt ist nicht mehr in Betrieb. Weitere Informationen finden Sie auf [der Website von Crestron M100.](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | Eingestellt (11.05.2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | Dieses Produkt ist nicht mehr in Betrieb. Weitere Informationen finden Sie auf der [Website Telefon UC-Website](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) von Crestron.                  | Eingestellt (11.05.2020) |
@@ -73,7 +73,7 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>Derzeit für Teams-Räume Android zertifiziert
 
-Die folgenden Geräte sind im Rahmen des Zertifizierungsprogramms Microsoft Teams-Räume Android zertifiziert:
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm Microsoft Teams-Räume Für Android zertifiziert:
 
 | Gerätemodell | Firmwareversion | Veröffentlichungsdatum  | Raumgröße                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
@@ -185,6 +185,9 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.6.0.350035          | 2021 Update #2A    |
+| Poly Studio X50 | 3.6.0.350035        | 2021 Update #2A    |
+| Poly TC8 | 3.6.0.210534                 | 2021 Update #2A    |
 | EXPAND Vision 3T |1.2.2.21182.10   | 2021 Update #2 |
 | AudioCodes RECEIVERV80 |1.13.361   | 2021 Update #2 |
 | Yealink VC210 |118.15.0.54   | 2021 Update #2    |
@@ -219,14 +222,14 @@ Im Folgenden finden Sie die neuesten Microsoft Teams zeigt App- und Firmwarevers
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach der Produktversion.  Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion.  Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
 |Lenovo Think Smart View| CD-18781Y.210507.111 |2021 Update #2 |
 |Lenovo Think Smart View| CD-18781Y.210228.109 |2021 Update #1 |
 
-### <a name="product-release-information-for-teams-panels"></a>Produktveröffentlichungsinformationen für Teams Panels
+### <a name="product-release-information-for-teams-panels"></a>Produktfreigabeinformationen für Teams Panels
 
 Im Folgenden finden Sie die neuesten Microsoft Teams Panels-App und Firmwareversionen.
 
@@ -238,7 +241,7 @@ Im Folgenden finden Sie die neuesten Microsoft Teams Panels-App und Firmwarevers
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach der Produktversion.  Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion.  Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
@@ -253,12 +256,12 @@ Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten
 
 Informationen [zur Firmwareversion ihres mobilen](phones-for-teams.md) Geräts finden Sie unter Suchen der Firmwareversion auf einem mobilen Gerät.
 
-Microsoft Teams Lizenzen können im Rahmen ihrer Abonnements Microsoft 365 [oder Office 365 erworben werden.](/office365/servicedescriptions/teams-service-description) Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung Microsoft Teams Telefonen finden Sie unter Verfügbare [Telefonsystemlizenzen.](https://products.office.com/microsoft-teams/voice-calling)
+Microsoft Teams-Lizenzen können im Rahmen ihrer Abonnements Microsoft 365 [oder Office 365 erworben werden.](/office365/servicedescriptions/teams-service-description) Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung Microsoft Teams Telefonen finden Sie unter Verfügbare [Telefonsystemlizenzen.](https://products.office.com/microsoft-teams/voice-calling)
 
 Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Wenn Sie ein Lieferant sind, der am [](/skypeforbusiness/certification/how-to-join) Zertifizierungsprogramm teilnehmen möchten, finden Sie unter Teilnehmen an Anforderungen und verfügbaren Programmen weitere Informationen.
 
-[Entdecken Microsoft Teams Mobiltelefonen und zertifizierten Geräten.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Entdecken sie Microsoft Teams und zertifizierten Geräten.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Interoperabilität von Teams und Skype](../teams-skype-interop.md)

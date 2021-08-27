@@ -10,23 +10,23 @@ audience: admin
 description: Verwenden Sie dieses PowerShell-Skript, um die Sicherheitsgruppen zu erstellen, die Sie zum Verwalten Teams Richtlinien für Lehrkräfte und Schüler/Studenten in Ihrer Schule benötigen.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1108e47500ce127adb780b1f40af5973cef04f873267002bbf87b1b8e69e4cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cb1f40d79c25b7e0832c5d1576427b83ba980b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296632"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577809"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell-Skriptbeispiel – Erstellen von Sicherheitsgruppen für Lehrkräfte und Schüler/Studenten in Ihrer Schule
 
-Verwenden Sie dieses PowerShell-Skript, um die Sicherheitsgruppen zu erstellen, die Sie zum Verwalten Microsoft Teams Richtlinien Ihrer Schule benötigen. Mit [der Richtlinienzuweisung zu Gruppen](../assign-policies.md#assign-a-policy-to-a-group) in Teams können Sie einer Gruppe von Benutzern, z. B. einer Sicherheitsgruppe, eine Richtlinie zuweisen. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert.
+Verwenden Sie dieses PowerShell-Skript, um die Sicherheitsgruppen zu erstellen, die Sie zum Verwalten ihrer Microsoft Teams Richtlinien in Ihrer Schule benötigen. Mit [der Richtlinienzuweisung zu Gruppen](../assign-policies.md#assign-a-policy-to-a-group) in Teams können Sie einer Gruppe von Benutzern, z. B. einer Sicherheitsgruppe, eine Richtlinie zuweisen. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert.
 
 Mit diesem PowerShell-Skript werden basierend auf dem Lizenztyp zwei Sicherheitsgruppen erstellt: eine für Mitarbeiter und Lehrkräfte und eine für Schüler/Studenten in Ihrer Schule. Anschließend können Sie den von Ihnen erstellten Sicherheitsgruppen Richtlinien zuweisen. Weitere Informationen zur Verwendung dieses Skripts finden Sie unter Zuweisen von Richtlinien zu großen Gruppen [von Benutzern in Ihrer Schule.](../batch-group-policy-assignment-edu.md)
 
@@ -39,13 +39,13 @@ Dieses Skript führt folgende Schritte aus:
 Sie müssen dieses Skript regelmäßig ausführen, um die Sicherheitsgruppen aktuell und aktuell zu halten.
 
 > [!IMPORTANT]
-> Es ist wichtig, [](../assign-policies.md#precedence-rules) beim [](../assign-policies.md#group-assignment-ranking) Zuweisen von Richtlinien zu Gruppen Rangfolgeregeln und Gruppenzuordnungsbewertungen zu verstehen. Lesen und verstehen Sie die Konzepte in Wichtige Informationen zur [Richtlinienzuweisung zu Gruppen.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
+> Es ist wichtig, [](../assign-policies.md#precedence-rules) beim [](../assign-policies.md#group-assignment-ranking) Zuweisen von Richtlinien zu Gruppen Rangfolgeregeln und Gruppenzuordnungsbewertungen zu verstehen. Lesen und verstehen Sie die Konzepte in Wichtige Informationen zur Richtlinienzuweisung [zu Gruppen.](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
 ## <a name="before-you-start"></a>Bevor Sie beginnen
 
 Laden Sie das [PowerShell Skype for Business Online-Modul](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)herunter, installieren Sie es, und starten Sie den Computer neu, wenn Sie dazu aufgefordert werden.
 
-Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) und Teams [PowerShell - Übersicht.](../teams-powershell-overview.md)
+Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) und Teams Übersicht über [PowerShell.](../teams-powershell-overview.md)
 
 
 ## <a name="sample-script"></a>Beispielskript

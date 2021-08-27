@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft Teams: Ressourcen für Education-Administratoren'
+title: 'Microsoft Teams: Ressourcen für Administratoren von Bildungseinrichtungen'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
 description: Education-Administratoren können sich über die ressourcen informieren, die in Microsoft Teams zum Aktivieren des Fernunterrichts zur Verfügung stehen.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0960d48ab493b36067b8640cf1da3d0659865314
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff0509cf38851ac38e20a13cc6c1016bba1b738
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233230"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597639"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 
@@ -42,11 +42,11 @@ Bitte lesen Sie die [Geschäftsbedingungen, bevor](https://github.com/MicrosoftD
 |---------|---------|
 |Poster – [anpassbar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) und [druckfertig](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Foto eines Posters](media/edu-adoption-posters.png)     |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Foto eines Handzettels](media/edu-adoption-handouts.png)|
 |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Foto eines Handzettels](media/edu-adoption-flyers.png)   |[Buchwerbung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Foto einer Buchanzeige.](media/edu-adoption-book-adverts.png)         |
-|[Foto der Tipps Tricks Broschüre.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Foto der Beispielbroschüre](media/edu-adoption-get-started.png)    |
+|[Foto der broschüre Tipps Tricks.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Foto der Beispielbroschüre](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Digitale Objekte
 
-Lesen Sie unbedingt den Leitfaden für [digitale Toolkits,](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) um Die Einführung Teams maximieren! 
+Lesen Sie unbedingt den Leitfaden für [digitale Toolkits,](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) um Ihren Start zu Teams maximieren! 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -56,14 +56,14 @@ Lesen Sie unbedingt den Leitfaden für [digitale Toolkits,](https://github.com/M
 
 ## <a name="call-to-action"></a>Handlungsaufforderung
 
-- Besuchen Sie Teams für Education [Seite für Schulungen,](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Videos und interaktive Demos
-- Aktivieren sie Teams im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (melden Sie sich als Office 365 an)
+- Besuchen Sie Teams für Education [Seite für](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Schulungen, Videos und interaktive Demos
+- Aktivieren Teams im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (melden Sie sich als Office 365 an)
 - Laden Sie Microsoft Teams-Clients herunter: [Laden Sie sich Microsoft Teams auf alle Ihre Geräte](https://teams.microsoft.com/downloads).
 - Lesen Sie weitere Informationen zu Office 365 für Bildungseinrichtungen im [Ausbildung-Hilfecenter](https://support.office.com/education).
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
-- [Teams Roadmap](https://aka.ms/teamsroadmap)
+- [Teams-Roadmap](https://aka.ms/teamsroadmap)
 - Stets auf dem Laufenden mit dem [Microsoft Teams-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 - [Vorschlag senden](https://aka.ms/eduuservoice)

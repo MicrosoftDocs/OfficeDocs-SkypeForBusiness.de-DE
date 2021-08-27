@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld "Website auswählen", um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
-ms.openlocfilehash: ff3ed4fe757d7cd3457d11fa2290d7ac963840033a59738b8ff966e0da3af760
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4579d65fa0b46a014513a80aecc0884c5217dcb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297471"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584309"
 ---
 # <a name="select-a-site"></a>Auswählen eines Standorts
 

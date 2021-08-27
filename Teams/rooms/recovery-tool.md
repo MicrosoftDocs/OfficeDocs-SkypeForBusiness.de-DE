@@ -11,30 +11,30 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit dem Sie ein veraltetes System in einen unterstützten Zustand bringen.
-ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597579"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
 
-In diesem Artikel wird beschrieben, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit dem Sie ein veraltetes System in einen unterstützten Zustand bringen. Dieses Tool sollte angewendet werden, wenn entweder in der Microsoft Teams-Räume-Konsole der Fehler "systemconfig out of date" angezeigt wird, oder bevor eine Zurücksetzungs-Factory für Push-Schaltflächen ausgeführt [wird.](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)
+In diesem Artikel wird beschrieben, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit dem Sie ein veraltetes System in einen unterstützten Zustand bringen. Dieses Tool sollte angewendet werden, wenn entweder in der Microsoft Teams-Räume-Konsole der Fehler "systemconfig out of date" angezeigt wird, oder bevor eine Zurücksetzung der Factory für Push-Schaltflächen ausgeführt [wird.](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Laden Sie das neueste [Microsoft Teams-Räume herunter,](https://go.microsoft.com/fwlink/?linkid=851168) und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf den das Gerät Microsoft Teams-Räume kann.
+Laden Sie das neueste [Microsoft Teams-Räume-Installationspaket herunter,](https://go.microsoft.com/fwlink/?linkid=851168) und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf den das Gerät Microsoft Teams-Räume kann.
 
 > [!NOTE]
-> Das Extrahieren der Dateien aus der MSI kann auf viele verschiedene Mittel durchgeführt werden. Jeder Mechanismus, mit dem alle Dateien extrahiert und die Verzeichnisstruktur erhalten wird, ist akzeptabel. So können Sie beispielsweise den Befehl verwenden, der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket darstellt und den vollständigen Pfad zu dem Ordner darstellt, in dem die Dateien `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` extrahiert werden `PathToTarget` sollen.
+> Das Extrahieren der Dateien aus der MSI kann auf viele verschiedene Mittel durchgeführt werden. Jeder Mechanismus, mit dem alle Dateien extrahiert und die Verzeichnisstruktur erhalten wird, ist akzeptabel. So können Sie beispielsweise den Befehl verwenden, der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket darstellt, und der den vollständigen Pfad zu dem Ordner darstellt, in dem die Dateien extrahiert `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` werden `PathToTarget` sollen.
 
 ## <a name="running-the-tool"></a>Ausführen des Tools
 
 1) Melden Sie sich bei dem Administratorkonto auf Ihrem Microsoft Teams-Räume an, und starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
-2) Vergewissern Sie sich Microsoft Teams-Räume-Gerät, dass Sie auf den zugreifen können, der in den Dateien enthalten ist, die aus dem `RecoveryTool.ps1 file` Microsoft Teams-Räume-Installationspaket extrahiert werden. Das Kit finden Sie auf der Netzwerkfreigabe oder auf dem USB-Laufwerk, das bei der Vorbereitung der Voraussetzungen verwendet wird.
+2) Vergewissern Sie sich Microsoft Teams-Räume ihrem Gerät, dass Sie auf den zugreifen können, der in den Dateien enthalten ist, die aus dem `RecoveryTool.ps1 file` Microsoft Teams-Räume-Installationspaket extrahiert wurden. Das Kit finden Sie auf der Netzwerkfreigabe oder auf dem USB-Laufwerk, das bei der Vorbereitung der Voraussetzungen verwendet wird.
 3) Führen Sie `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` aus.
 4) So führen Sie eine Factorywiederherstellung durch:
    1. Wenn Sie vom Skript dazu aufgefordert werden, wählen Sie Option 2: **Zurücksetzen aus.**
@@ -45,7 +45,7 @@ Laden Sie das neueste [Microsoft Teams-Räume herunter,](https://go.microsoft.co
       3. Wählen **Sie unter Diesen PC zurücksetzen** die Option Erste Schritte **aus.**
       4. Wählen **Sie Alles entfernen**, dann **Weiter** und **Zurücksetzen aus.**
         > [!WARNING]
-        > Das Microsoft Teams-Räume kann unbrauchbar **werden,** wenn die Option Meine Dateien behalten – Apps und Einstellungen entfernen, aber Ihre persönlichen Dateien behalten während des Vorgangs zum Zurücksetzen Windows aktiviert ist. Aktivieren Sie diese Option nicht.
+        > Das Microsoft Teams-Räume kann unbrauchbar werden, wenn die Option Meine Dateien behalten – Apps und Einstellungen entfernen, aber ihre persönlichen Dateien behalten während des **Vorgangs** zum Zurücksetzen Windows aktiviert ist. Aktivieren Sie diese Option nicht.
       5. Das System wird mehrmals neu gestartet. Nach Abschluss des Reset-Vorgangs befindet sich das System Windows OOBE-Bildschirm (Out-of-Box Experience).
 
 

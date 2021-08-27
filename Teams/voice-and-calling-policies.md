@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: Erfahren Sie mehr Teams Richtlinien für Sprach- und Anrufanrufe.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b3cea712fee971ce441e5406bc32c1304c4a53374baf290046945595d3bea1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c5207f9bbfc7212d09394f5b507559c715e561b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335805"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577739"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Verwalten von Sprach- und Anrufrichtlinien in Microsoft Teams
 
@@ -34,7 +34,7 @@ Mithilfe von [Richtlinien für Notrufe](manage-emergency-calling-policies.md) k�
 
 ## <a name="emergency-call-routing-policies"></a>Richtlinien für die Weiterleitung von Notrufen
 
-Wenn Ihre Organisation Telefonsystem **Direct Routing** bereitgestellt hat, [](manage-emergency-call-routing-policies.md) können Sie mithilfe von Richtlinien für das Routing von Notrufen ermitteln, wohin Notrufe umgeschaltet werden, ob erweiterte Notdienste aktiviert sind und welche Nummern für Notdienste verwendet werden. Diese Richtlinien werden mithilfe von PowerShell oder im Microsoft Teams Admin Center verwaltet.
+Wenn Ihre Organisation Telefonsystem **Direct Routing** bereitgestellt hat, [](manage-emergency-call-routing-policies.md) können Sie mithilfe der Richtlinien für das Routing von Notrufen ermitteln, wohin Notrufe umgeschaltet werden, ob erweiterte Notdienste aktiviert sind und welche Nummern für Notdienste verwendet werden. Diese Richtlinien werden mithilfe von PowerShell oder im Microsoft Teams Admin Center verwaltet.
 
 ![Screenshot der Richtlinie für die Weiterleitung von Notrufen](media/emergency-call-routing-policy.png)
 
@@ -46,7 +46,7 @@ Wenn Ihre Organisation Telefonsystem **Direct Routing** bereitgestellt hat, [](m
 
 ## <a name="voice-routing-policies"></a>Richtlinien für das Voice Routing
 
-Eine [Voice Routing-Richtlinie](manage-voice-routing-policies.md) ist ein Container für PSTN-Nutzungsdatensätze (Public Switched Telephone Network). Sie können diese Richtlinien verwenden, wenn Ihre Organisation das **Direct-Routing Telefonsystem hat.** Richtlinien für das Sprachrouting können mit PowerShell oder im admin center Teams verwaltet werden.
+Eine [Voice Routing-Richtlinie](manage-voice-routing-policies.md) ist ein Container für PSTN-Nutzungsdatensätze (Public Switched Telephone Network). Sie können diese Richtlinien verwenden, wenn Ihre Organisation das **Direct Telefonsystem Routing bereitgestellt hat.** Voice routing policies can be managed with PowerShell or in the Teams admin center.
 
 ![Screenshot der Voice Routing-Richtlinie](media/voice-routing-policy.png)
 

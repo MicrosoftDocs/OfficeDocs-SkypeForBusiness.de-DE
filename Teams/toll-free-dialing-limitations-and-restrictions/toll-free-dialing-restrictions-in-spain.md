@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Spanien, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: a0e66b49178709aa7db6540e7901bdb3f2c27693feab3436ede1270b5b9050ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in Spanien, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
+ms.openlocfilehash: e467eb8c5e93ebda9f40d78bbf926fc7f800f8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577769"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Einschränkungen für gebührenfreie Telefonnummern in Spanien
 

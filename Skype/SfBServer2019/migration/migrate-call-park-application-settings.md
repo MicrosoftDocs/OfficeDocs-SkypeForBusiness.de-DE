@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'Die Migration der Anwendung zum Parken von Anrufen umfasst die Bereitstellung des Skype for Business Server 2019-Pools mit benutzerdefinierten Wartemusikdateien, die in der Legacyinstallation hochgeladen wurden, das Wiederherstellen der Einstellungen auf Dienstebene und das Retargeting aller Orbits für das Parken von Anrufen in den Pool Skype for Business Server 2019. Wenn angepasste Wartemusikdateien im Pool konfiguriert wurden, müssen diese Dateien in den neuen Pool Skype for Business Server 2019 kopiert werden. Darüber hinaus wird empfohlen, dass Sie alle dateien für das Parken von "Wartemusik" für das Parken von Anrufen von einem anderen Ziel aus sichern, um eine separate Sicherungskopie aller angepassten Wartemusikdateien beizubehalten, die für das Parken von Anrufen hochgeladen wurden. Die angepassten Wartemusikdateien für die Anwendung zum Parken von Anrufen werden im Dateispeicher des Pools gespeichert. Um die Audiodateien aus einem Pooldateispeicher in einen Skype for Business Server 2019-Dateispeicher zu kopieren, verwenden Sie den Xcopy-Befehl mit den folgenden Parametern:'
-ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'Die Migration der Anwendung zum Parken von Anrufen umfasst die Bereitstellung des Skype for Business Server 2019-Pools mit benutzerdefinierten Wartemusikdateien, die in der Legacyinstallation hochgeladen wurden, das Wiederherstellen der Einstellungen auf Dienstebene und das Retargeting aller Orbits für das Parken von Anrufen in den Pool Skype for Business Server 2019. Wenn angepasste Dateien für die Wartemusik im Pool konfiguriert wurden, müssen diese Dateien in den neuen Pool Skype for Business Server 2019 kopiert werden. Darüber hinaus wird empfohlen, dass Sie alle dateien für das Parken von "Wartemusik" für das Parken von Anrufen von einem anderen Ziel aus sichern, um eine separate Sicherungskopie aller angepassten Wartemusikdateien beizubehalten, die für das Parken von Anrufen hochgeladen wurden. Die angepassten Wartemusikdateien für die Anwendung zum Parken von Anrufen werden im Dateispeicher des Pools gespeichert. Um die Audiodateien aus einem Pooldateispeicher in einen Skype for Business Server 2019-Dateispeicher zu kopieren, verwenden Sie den Xcopy-Befehl mit den folgenden Parametern:'
+ms.openlocfilehash: b8d2c5a898ca9ce4c2c1e8be4b9cbf3e7355a8cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597539"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrieren von Einstellungen für die Anwendung zum Parken von Anrufen
 
-Die Migration der Anwendung zum Parken von Anrufen umfasst die Bereitstellung des Skype for Business Server 2019-Pools mit benutzerdefinierten Wartemusikdateien, die in der Legacyinstallation hochgeladen wurden, das Wiederherstellen der Einstellungen auf Dienstebene und das erneute Ausrichten aller Orbits für das Parken von Anrufen in den Pool Skype for Business Server 2019. Wenn angepasste Wartemusikdateien im Pool konfiguriert wurden, müssen diese Dateien in den neuen Pool Skype for Business Server 2019 kopiert werden. Darüber hinaus wird empfohlen, dass Sie alle benutzerdefinierten Wartemusikdateien für das Parken von Anrufen an ein anderes Ziel sichern, um eine separate Sicherungskopie aller angepassten Wartemusikdateien beizubehalten, die für das Parken von Anrufen hochgeladen wurden. Die angepassten Wartemusikdateien für die Anwendung zum Parken von Anrufen werden im Dateispeicher des Pools gespeichert. Um die Audiodateien aus einem Pooldateispeicher in einen Skype for Business Server 2019-Dateispeicher zu kopieren, verwenden Sie den **Xcopy-Befehl** mit den folgenden Parametern: 
+Die Migration der Anwendung zum Parken von Anrufen umfasst die Bereitstellung des Skype for Business Server 2019-Pools mit benutzerdefinierten Musik-on-Hold-Dateien, die in der Legacyinstallation hochgeladen wurden, das Wiederherstellen der Einstellungen auf Dienstebene und das erneute Ausrichten aller Orbits für das Parken von Anrufen in den Pool Skype for Business Server 2019. Wenn angepasste Dateien für die Wartemusik im Pool konfiguriert wurden, müssen diese Dateien in den neuen Pool Skype for Business Server 2019 kopiert werden. Darüber hinaus wird empfohlen, dass Sie alle benutzerdefinierten Wartemusikdateien für das Parken von Anrufen an ein anderes Ziel sichern, um eine separate Sicherungskopie aller angepassten Wartemusikdateien beizubehalten, die für das Parken von Anrufen hochgeladen wurden. Die angepassten Wartemusikdateien für die Anwendung zum Parken von Anrufen werden im Dateispeicher des Pools gespeichert. Um die Audiodateien aus einem Pooldateispeicher in einen Skype for Business Server 2019-Dateispeicher zu kopieren, verwenden Sie den **Xcopy-Befehl** mit den folgenden Parametern: 
 
 ```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -36,18 +36,18 @@ Die Einstellungen der Anwendung zum Parken von Anrufen umfassen den Timeoutschwe
 
 ## <a name="reconfigure-the-call-park-service-settings"></a>Erneutes Konfigurieren der Einstellungen für den Dienst zum Parken von Anrufen
 
-1. Öffnen Sie auf dem Front-End-Server Skype for Business Server 2019 die Skype for Business Server-Verwaltungsshell.
+1. Öffnen Sie auf dem Front-End-Server Skype for Business Server 2019 die Skype for Business Server Verwaltungsshell.
 
 2. Geben Sie an der Befehlszeile Folgendes ein:
 
     > [!NOTE]
-    > Wenn die Einstellungen ihrer Skype for Business Server 2019-Anwendung zum Parken von Anrufen mit den älteren Einstellungen identisch sind, können Sie diesen Schritt überspringen. Wenn sich die Einstellungen der Anwendung zum Parken von Anrufen für die Skype for Business Server 2019 und ältere Umgebungen unterscheiden, verwenden Sie das folgende Cmdlet als Vorlage, um diese Änderungen zu aktualisieren. 
+    > Wenn Ihre Einstellungen für die Skype for Business Server 2019-Anwendung zum Parken von Anrufen mit den älteren Einstellungen identisch sind, können Sie diesen Schritt überspringen. Wenn sich die Einstellungen der Anwendung zum Parken von Anrufen für die Skype for Business Server 2019 und ältere Umgebungen unterscheiden, verwenden Sie das folgende Cmdlet als Vorlage, um diese Änderungen zu aktualisieren. 
 
    ```PowerShell
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
-Um alle Orbitbereiche für das Parken von Anrufen vom Legacypool zum Skype for Business Server 2019-Pool neu zuzuweisen, können Sie entweder die Skype for Business Server Systemsteuerung oder die Skype for Business Server Verwaltungsshell verwenden. 
+Um alle Orbitbereiche für das Parken von Anrufen vom Legacypool zum Skype for Business Server 2019-Pool neu zuzuweisen, können Sie entweder die Skype for Business Server Systemsteuerung oder die Skype for Business Server-Verwaltungsshell verwenden. 
 
 ## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Neuzuweisen aller Orbitbereiche für das Parken von Anrufen mit Skype for Business Server Systemsteuerung
 
@@ -79,6 +79,6 @@ Um alle Orbitbereiche für das Parken von Anrufen vom Legacypool zum Skype for B
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 
-Nachdem alle Orbitbereiche für das Parken von Anrufen dem Skype for Business Server 2019-Pool neu zugewiesen wurden, wird der Migrationsprozess für die Anwendung zum Parken von Anrufen abgeschlossen, und der Pool Skype for Business Server 2019 verarbeitet alle zukünftigen Anforderungen zum Parken von Anrufen.
+Nachdem alle Orbitbereiche für das Parken von Anrufen dem Skype for Business Server 2019-Pool neu zugewiesen wurden, wird der Migrationsprozess für die Anwendung zum Parken von Anrufen abgeschlossen, und der Pool Skype for Business Server 2019 verarbeitet alle zukünftigen Anforderungen für das Parken von Anrufen.
 
 

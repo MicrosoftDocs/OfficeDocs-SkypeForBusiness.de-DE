@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-quhur
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,16 +17,16 @@ description: Erfahren Sie, wie Sie Teams Bericht zur App-Verwendung im Microsoft
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 592b333a8a46e90d6092445a6021341887f1b64ff8f26932f4912a6d9a8e7e56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1e5c6805b215a0099ee71b1ccb72511bf5fa200
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590719"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams bericht zur App-Verwendung
 
-Der Teams Bericht zur App-Verwendung im Microsoft Teams Admin Center enthält Informationen darüber, welche Apps Benutzer in ihrer Teams.  
+Der Teams Bericht zur App-Verwendung im Microsoft Teams Admin Center enthält Informationen darüber, welche Apps Benutzer in Teams.  
 
 ## <a name="view-the-app-usage-report"></a>Anzeigen des Berichts "App-Verwendung"
 
@@ -44,12 +44,12 @@ Der Teams Bericht zur App-Verwendung im Microsoft Teams Admin Center enthält In
 |--------|-------------|
 |**1**   |Im bericht Teams Apps-Nutzung werden die Trends über die letzten 7, 30 oder 90 Tage angezeigt. |
 |**2**   |Jeder Bericht hat das Datum, an dem der Bericht generiert wurde. Die Berichte zeigen in der Regel eine Latenz von 24 Stunden ab dem Zeitpunkt des Öffnens einer App. <br><br>![Screenshot des Berichts "Apps-Nutzung" mit Datumsbereichen](media/app-usage-report3.png)|
-|**3**    | <ul><li>Die X-Achse in den Diagrammen ist der ausgewählte Datumsbereich für den jeweiligen Bericht.</li><li>Die Y-Achse ist die Anzahl der Benutzer, die für den angegebenen Tag mit dem Mauszeiger im Diagramm auf eine App zeigen. Diese Benutzer haben eine App mindestens einmal geöffnet und werden dadurch als aktiver Benutzer betrachtet und fallen in Richtung des Gesamtwerts an, der beim Zeigen mit der Maus angezeigt wird.</li></ul>|
+|**3**    | <ul><li>Die X-Achse in den Diagrammen ist der ausgewählte Datumsbereich für den jeweiligen Bericht.</li><li>Die Y-Achse ist die Anzahl der Benutzer, die für den angegebenen Tag mit dem Mauszeiger in einem Diagramm auf eine App zeigen. Diese Benutzer haben eine App mindestens einmal geöffnet und werden dadurch als aktiver Benutzer betrachtet und fallen in Richtung des Gesamtwerts an, der beim Zeigen mit der Maus angezeigt wird.</li></ul>|
 |**4**   |Zeigen Sie an einem bestimmten Datum auf den Punkt, der eine App-Nutzung darstellt, um die Anzahl der Instanzen der gesamten aktiven Benutzer der App an diesem angegebenen Datum zu sehen.  |
 |**5**   |Alle Apps werden einbezogen, aber wenn Sie das Filter-Symbol auswählen, sind weitere Filter verfügbar.  |
 |**6**   |Die Tabelle enthält eine Aufschlüsselung der aktiven Benutzer und Teams nach App-Namen.<br><ul><li>**App-Name** ist der Anzeigename der App, die in der App Teams.</li><li>**Aktive Benutzer** ist die Anzahl der Benutzer, die die App im angegebenen Zeitraum mindestens einmal geöffnet haben.</li><li>**Der App-Typ** ist ein statischer Wert von "Microsoft" oder "Drittanbieter".</li><li>**Aktive Teams** ist die Anzahl der Teams, die die App von mindestens einem Mitglied des Teams und während der angegebenen Zeiträume geöffnet haben.</li><li>**Publisher** ist der Softwareherausgeber der App.</li><li>**Version** ist die Softwareversion der App vom App-Herausgeber.</li></ul><b> Hinweis:</b> Derzeit werden "Aktive Benutzer" und "Aktive Teams" nur für Apps berechnet, die nur in Kanälen verwendet werden.     
 
-<br>![Screenshot eines Berichts zur ](media/app-usage-report4.png)  App-| |**7**  | Wählen **Sie Spalten bearbeiten aus,** um Spalten in der Tabelle hinzuzufügen oder zu entfernen.<br><br>![Screenshot der Seite "Spalten ](media/app-usage-report5.png)  bearbeiten" | |**8**  | Sie können den Bericht zur Offlineanalyse in eine CSV-Datei exportieren. Klicken **Sie auf** In Excel exportieren, und klicken  Sie dann auf der Registerkarte **Downloads** auf Herunterladen, um den Bericht herunterzuladen, wenn er bereit ist.<br>![Screenshot der Seite ](media/app-usage-report7.png) "Downloads" | |**9** | Wenn Sie den Bericht in Excel anzeigen, wird auch eine **ID-Spalte** angezeigt, die die App-ID darstellt. Eine Team-ID ist in der Regel eine alphanumerische Zeichenfolge. Wenn die **Spalte ID** als **\n**** angezeigt wird, bedeutet dies, dass ein Benutzer das Löschen seiner Informationen angefordert hat.<br>![Screenshot des heruntergeladenen Excel Berichts](media/app-usage-report8.png)  |
+<br>![Screenshot eines Berichts zur ](media/app-usage-report4.png)  App-| |**7**  | Wählen **Sie Spalten bearbeiten aus,** um Spalten in der Tabelle hinzuzufügen oder zu entfernen.<br><br>![Screenshot der Seite "Spalten ](media/app-usage-report5.png)  bearbeiten" | |**8**  | Sie können den Bericht zur Offlineanalyse in eine CSV-Datei exportieren. Klicken **Sie auf In Excel** Exportieren, und klicken Sie dann auf der Registerkarte **Downloads** auf **Herunterladen,** um den Bericht herunterzuladen, sobald er bereit ist.<br>![Screenshot der Seite ](media/app-usage-report7.png) "Downloads" | |**9** | Wenn Sie den Bericht in einer Excel, wird auch eine **ID-Spalte** angezeigt, die die App-ID darstellt. Eine Team-ID ist in der Regel eine alphanumerische Zeichenfolge. Wenn die **Spalte ID** als **\n**** angezeigt wird, bedeutet dies, dass ein Benutzer seine Informationen zum Löschen angefordert hat.<br>![Screenshot des heruntergeladenen Excel Berichts](media/app-usage-report8.png)  |
 
 ## <a name="related-topics"></a>Verwandte Themen
 
