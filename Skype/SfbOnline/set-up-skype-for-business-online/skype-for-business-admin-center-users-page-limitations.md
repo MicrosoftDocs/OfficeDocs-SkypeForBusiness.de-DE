@@ -13,20 +13,20 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
-description: 'Hier erfahren Sie, wie Sie die Einschränkungen der Skype for Business Anzeige von Benutzern eines Onlineadministrators eingrenzen. '
-ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Hier erfahren Sie, wie Sie die Einschränkungen der Skype for Business Anzeige von Benutzern durch den Onlineadministrator eingrenzen. '
+ms.openlocfilehash: e05a07bbf4cca57a8f5c983dedec159956250cc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592079"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype for Business Einschränkungen der Seite "Benutzer" im Online Admin Center
 

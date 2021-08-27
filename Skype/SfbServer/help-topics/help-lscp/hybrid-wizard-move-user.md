@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.HybridMoveUser
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 description: Verwenden Sie den Assistenten zum Verschieben von Benutzern, um Benutzerkonten, die in einem lokalen Pool verwaltet werden, auf Skype for Business Online zu verschieben. Weitere Informationen finden Sie unter Verwenden des Assistenten für die Hybridverwaltung.
-ms.openlocfilehash: 15cf58026797898441bd92e12842c5c87d4e4665ddf4065c5056c8b630b510e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65f2a9822aceb2c7adb4c6994b20f8a4a4db0135
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334207"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585149"
 ---
 # <a name="hybrid-wizard-move-user"></a>Hybrid-Assistent: Verschieben eines Benutzers
 

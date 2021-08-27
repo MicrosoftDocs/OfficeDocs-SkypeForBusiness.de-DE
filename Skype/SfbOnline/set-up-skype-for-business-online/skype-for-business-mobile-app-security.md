@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Hier erfahren Sie, wie Sie die Sicherheit mobiler Apps für Ihre Benutzer einrichten. '
-ms.openlocfilehash: 1669204e31c7597ec75f6c30570107bebf440e3b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: e0815db0c9a085382c96bd74ac9967a34e9dad2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406984"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592069"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Sicherheit der mobilen App von Skype for Business
 

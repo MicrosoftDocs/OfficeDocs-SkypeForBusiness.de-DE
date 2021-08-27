@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,18 +17,18 @@ appliesto:
 ms.reviewer: lavenkat
 description: Verwenden Microsoft Teams vordefinierten Vorlagen, die in Microsoft Graph, um schnell und einfach Teams für kleine und mittelständische Unternehmen zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80ebae188ce6b6f00186a9e97a25eb4c006930da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625947"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams in Microsoft Graph für kleine und mittelständische Unternehmen
 
 Mit Microsoft Teams-Vorlagen können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsfähig sein, da sie Administratoren dabei helfen, Ihre Teams schnell zu implementieren. Vorlagen helfen benutzern auch bei der Orientierung und den ersten Schritte mit Teams Benutzer. Dieser Artikel ist für Sie, wenn Sie für das Planen, Bereitstellen und Verwalten mehrerer Teams in der gesamten Organisation verantwortlich sind.
+Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsfähig sein, da sie Administratoren dabei helfen, ihre Teams Organisation schnell zu implementieren. Vorlagen helfen benutzern auch bei der Orientierung und den ersten Schritte mit Teams Benutzer. Dieser Artikel ist für Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Organisation verantwortlich sind.
 
 Wir bieten derzeit drei SMB-Vorlagen von Erstpartei an, die Sie für eine Vielzahl von Situationen nutzen können. Alle Vorlagen erstellen *private* Teams. Nachdem Sie die Daten Teams und bereit für die Einführung in Ihre Organisation sind, können Sie den Datenschutz auf *Organisationsweit* oder öffentlich *festlegen.* Weitere Informationen zu Teams-Vorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md).
 
@@ -41,7 +41,7 @@ Die Company-Wide für Kommunikation und Zusammenarbeit, die für das gesamte Unt
 
 *Automatisch als Favoriten gekennzeichnete Kanäle 
 
-Um das Team Company-Wide erstellen, indem Standardwerte aus der vordefinierten Vorlage verwendet werden, stellen Sie die JSON-Darstellung des Teamobjekts im Anforderungstext fest. Weitere Informationen zum Bereitstellen von Teams Vorlagen finden Sie im Microsoft Graph [zum Erstellen eines Teams.](/graph/api/team-post?view=graph-rest-beta)
+Um das Team Company-Wide, indem Standardwerte aus der vordefinierten Vorlage verwendet werden, stellen Sie die JSON-Darstellung des Teamobjekts im Anforderungstext fest. Weitere Informationen zum Bereitstellen von Teams Vorlagen finden Sie im Microsoft Graph [zum Erstellen eines Teams.](/graph/api/team-post?view=graph-rest-beta)
 
 #### <a name="request"></a>Anforderung 
 ```http 
@@ -57,7 +57,7 @@ Content-Type: application/json
 
 ## <a name="executive-team-template"></a>Vorlage für das Executive Team
 
-Die Vorlage für das Führungsteam eignet sich ideal für die Erstellung eines Teams für Die Geschäftsleitung, das Unternehmensinitiativen wie jährliche Prioritäten, Finanzbudgets, strategische Initiativen und die wichtigsten Kunden kommunizieren und zusammenarbeiten soll. Diese Vorlage enthält einen privaten *Kanal* zum Einladen ausgewählter Benutzer zu bestimmten Themen.
+Die Vorlage für das Führungsteam eignet sich ideal für die Erstellung eines Teams für Unternehmensleiter, das Unternehmensinitiativen wie jährliche Prioritäten, Finanzbudgets, strategische Initiativen und die wichtigsten Kunden kommunizieren und zusammenarbeiten soll. Diese Vorlage enthält einen privaten *Kanal* zum Einladen ausgewählter Benutzer zu bestimmten Themen.
 
 | Basisorlagentyp  | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
@@ -81,7 +81,7 @@ Content-Type: application/json
 
 ## <a name="departmental-team-template"></a>Vorlage für Abteilungsteam
 
-Die Vorlage für ein Abteilungsteam kann zum Erstellen eines Teams für einzelne Abteilungen oder für Projekte verwendet werden. Die Vorlage für das Finanzteam eignet sich ideal für alle Beiträge, Ankündigungen sowie die tägliche Zusammenarbeit und Kommunikation innerhalb der Teammitglieder des Finanzteams und der Geschäftsleitung nach Wunsch. Die Vorlage enthält einen privaten *Kanal,* über den ausgewählte Benutzer zu bestimmten Themen eingeladen werden können. Darüber hinaus stellen wir das nachstehende Skript für das Finanzteam zur Verfügung, mit dem die Vorlage auf weitere Abteilungen oder bestimmte Projekte erweitert werden kann, indem Sie Nach Benennung hinzufügen, löschen oder bearbeiten. Wenn Sie z. B. über eine *Marketingabteilung* verfügen, kann das Skript  angepasst werden, indem das Team von "Finanzen" in *"Marketing"* umbenennt wird, um ein neues Marketingteam zu erstellen.
+Die Vorlage für ein Abteilungsteam kann zum Erstellen eines Teams für einzelne Abteilungen oder für Projekte verwendet werden. Die Vorlage für das Finanzteam eignet sich ideal für alle Beiträge, Ankündigungen sowie die tägliche Zusammenarbeit und Kommunikation innerhalb der Teammitglieder des Finanzteams und der Geschäftsleitung nach Wunsch. Die Vorlage enthält einen privaten *Kanal,* über den ausgewählte Benutzer zu bestimmten Themen eingeladen werden können. Darüber hinaus stellen wir das nachstehende Skript für das Finanzteam zur Verfügung, mit dem die Vorlage auf weitere Abteilungen oder bestimmte Projekte erweitert werden kann, indem Sie Ihren Wünschen hinzufügen, löschen oder bearbeiten. Wenn Sie z. B. über eine *Marketingabteilung* verfügen, kann das Skript  angepasst werden, indem das Team von "Finanzen" in *"Marketing"* umbenennt wird, um ein neues Marketingteam zu erstellen.
 
 | Basisorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
@@ -176,6 +176,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Erste Schritte mit Teams-Vorlagen in der Verwaltungskonsole](get-started-with-teams-templates-in-the-admin-console.md)
+- [Erste Schritte mit Teams in der Verwaltungskonsole](get-started-with-teams-templates-in-the-admin-console.md)
 - [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
 - [Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)

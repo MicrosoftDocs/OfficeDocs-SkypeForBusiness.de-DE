@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Sie haben wahrscheinlich bereits Schritte unternommen, um Fehlertoleranz in Ihrem System zu entwerfen, indem Sie Methoden wie die Gewährleistung von Hardwareredundanz, schutz vor Stromverlust, die routinemäßige Installation von Sicherheitsupdates und Antivirenmaßnahmen und Monitoring Server-Aktivitäten verwenden. Diese Methoden profitieren nicht nur von Ihrer Skype for Business Server Infrastruktur, sondern auch von Ihrem gesamten Netzwerk. Wenn Sie diese Methoden nicht implementiert haben, empfehlen wir, dies zu tun, bevor Sie Skype for Business Server bereitstellen.
-ms.openlocfilehash: 21173b6fe924938ebabfecc0c36b3abdce092b4c9e902284530ec47d2c1ca8bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1fe367921344fb62440ce804a8bde4287bfb381
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318698"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584909"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Bewährte Methoden für Ihre Kerninfrastruktur in Skype for Business Server
  

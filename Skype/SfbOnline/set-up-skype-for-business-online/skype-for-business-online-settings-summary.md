@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 ms.appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOIDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Diese Zusammenfassung der Skype for Business und der Benutzereinstellungen hilft Ihnen, weitere Informationen zu Verbindungen mit öffentlichen Benutzern, Besprechungseinladungen, Aufzeichnen von Anrufen und Besprechungen und vielem mehr zu erhalten.  '
-ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Diese Zusammenfassung der Skype for Business und benutzereinstellungen hilft Ihnen, mehr über die Verbindung mit öffentlichen Telefonnetzen, Besprechungseinladungen, das Aufzeichnen von Anrufen und Besprechungen und vieles mehr zu erfahren.  '
+ms.openlocfilehash: 9a1320951049e5558574c36e4bde4feea46d8ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592029"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Zusammenfassung der Skype for Business Online-Einstellungen
 

@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Erfahren Sie, wie Sie PowerShell verwenden, um SEFAUtil-Funktionen in Skype for Business Server 2019 nach der Installation des kumulativen Updates 1 abzurufen.'
-ms.openlocfilehash: afb0c34afedde91bac40ee90b155809ed3c2b557d88608028b77e0835eb9661d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88e62543f41d9a497b9b0ca28c55322fbe5f5be7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277620"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578179"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Verwenden der SEFAUtil-Funktionalität über PowerShell in Skype for Business Server 2019
 
-SEFAUtil (Secondary Extension Feature Activation) ermöglicht Skype for Business Server Administratoren und Helpdesk-Agents die Konfiguration von Einstellungen für das Delegierungsringen, die Anrufweiterleitung und die Gruppenanrufannahme im Auftrag eines Skype for Business Server Benutzers. Mit diesem Tool können Administratoren auch die Anrufweiterleitungseinstellungen abfragen, die für einen bestimmten Benutzer veröffentlicht wurden. Nach der Installation des kumulativen Updates vom Skype for Business Server. Juli 2019 können die folgenden Funktionen, die derzeit nur über SEFAUtil verwaltet werden können, auch über PowerShell verwaltet werden:
+SEFAUtil (Secondary Extension Feature Activation) ermöglicht Skype for Business Server Administratoren und Helpdesk-Agents die Konfiguration der Einstellungen für Stellvertretungsringe, Anrufweiterleitung und Gruppenanrufannahme im Namen eines Skype for Business Server Benutzers. Mit diesem Tool können Administratoren auch die Anrufweiterleitungseinstellungen abfragen, die für einen bestimmten Benutzer veröffentlicht wurden. Nach der Installation des kumulativen Updates vom Skype for Business Server. Juli 2019 können die folgenden Funktionen, die derzeit nur über SEFAUtil verwaltet werden können, auch über PowerShell verwaltet werden:
 
 - [Anrufweiterleitungseinstellungen](#call-forwarding-settings)
 - [Delegierungseinstellungen](#delegation-settings)
@@ -103,7 +103,7 @@ Bei lokalen Bereitstellungen können die in diesem Feature eingeführten Cmdlets
 - CsHelpDesk – Abrufen für alle Cmdlets
 
 Weitere Informationen zu diesen Administratorrollen finden Sie unter [Erstellen Skype for Business Server Systemsteuerungsadministratoren.](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md) Der Administrator kann auf diese Cmdlets zugreifen, indem er sich direkt oder remote bei einem Servercomputer anmeldet.
-Für eine Hybridbereitstellung sollten Skype for Business Administratoren für alle Cmdlets "Abrufen" und "Festlegen" aufrufen können. Weitere Informationen zur vollständigen Liste der Rollen finden Sie unter ["Informationen zu Administratorrollen".](/microsoft-365/admin/add-users/about-admin-roles)
+Bei einer Hybridbereitstellung sollten Skype for Business Administratoren für alle Cmdlets "Get" und "Set" aufrufen können. Weitere Informationen zur vollständigen Liste der Rollen finden Sie unter ["Informationen zu Administratorrollen".](/microsoft-365/admin/add-users/about-admin-roles)
 
 > [!NOTE]
 > Die automatische Serverermittlung muss aktiviert sein. Für die Verwendung der Cmdlets werden keine zusätzlichen Lizenzierungsanforderungen eingeführt.

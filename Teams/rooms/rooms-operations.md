@@ -11,27 +11,27 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: In diesem Thema erfahren Sie mehr über die Verwaltung Microsoft Teams-Räume, der nächsten Generation Skype Raumsysteme.
-ms.openlocfilehash: c10b428e8ae08dfeceec5205295c1f669cd910aabc8b7617dac5be0f1ade824a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b1773248bc34459ac0626ec39a3934461b503d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578199"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams-Räume und Vorgänge 
  
 In diesem Thema erfahren Sie mehr über die Verwaltung Microsoft Teams-Räume, der nächsten Generation Skype Raumsysteme.
   
-Microsoft Teams-Räume ist die neueste Konferenzlösung von Microsoft, mit der Sie Ihren Besprechungsraum in eine umfassende, zusammenarbeitsreiche Umgebung verwandeln können. Die Benutzer werden von der vertrauten Benutzeroberfläche Microsoft Teams der Skype for Business profitieren, und IT-Administratoren werden eine einfach bereitgestellte und verwaltete App Windows 10 Skype-Besprechung schätzen. Microsoft Teams-Räume ist so konzipiert, dass vorhandene Geräte wie BEISPIELSWEISE-PANELS für eine einfache Installation genutzt werden können, um Microsoft Teams oder Skype for Business In Besprechungsraum zu bringen.
+Microsoft Teams-Räume ist die neueste Konferenzlösung von Microsoft, mit der Sie Ihren Besprechungsraum in eine umfassende, zusammenarbeitsreiche Umgebung verwandeln können. Die Benutzer profitieren von der vertrauten benutzeroberfläche Microsoft Teams-Oberfläche Skype for Business, und IT-Administratoren werden sich über eine einfach bereitgestellte und verwaltete App Windows 10 Skype-Besprechung freuen. Microsoft Teams-Räume ist so konzipiert, dass vorhandene Geräte wie ETWA-IHNEN-Panels für eine einfache Installation verwendet werden können, um Microsoft Teams oder Skype for Business in Ihren Besprechungsraum zu bringen.
   
-Mit zusätzlicher Konfiguration ist die Remoteverwaltung mithilfe des Microsoft Azure-Monitors möglich, wie unter Planen der [Microsoft Teams-Räume-Verwaltung](azure-monitor-plan.md)mit Azure Monitor , Bereitstellen der Microsoft Teams-Räume-Verwaltung mit [Azure Monitor](azure-monitor-deploy.md)und Verwalten von Microsoft Teams-Räume-Geräten mit [Azure Monitor](azure-monitor-deploy.md)beschrieben. Sie können die Konsoleneinstellungen Microsoft Teams-Räume auch remote mit einer [XML-Konfigurationsdatei](xml-config-file.md)verwalten, die das Anwenden eines benutzerdefinierten Anzeigedesigns umfasst. 
+Mit einer zusätzlichen Konfiguration ist die Remoteverwaltung mithilfe des Microsoft Azure-Monitors möglich, wie unter Planen der [Microsoft Teams-Räume-Verwaltung](azure-monitor-plan.md)mit Azure Monitor , Bereitstellen der Microsoft Teams-Räume-Verwaltung mit [Azure Monitor](azure-monitor-deploy.md)und Verwalten von Microsoft Teams-Räume-Geräten mit [Azure Monitor](azure-monitor-deploy.md)beschrieben. Sie können Ihre [Konsoleneinstellungen Microsoft Teams-Räume mit einer XML-Konfigurationsdatei](xml-config-file.md)verwalten, die auch das Anwenden eines benutzerdefinierten Anzeigedesigns enthält. 
   
-## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Sammeln von Protokollen für Microsoft Teams-Räume
+## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Sammeln von Protokollen Microsoft Teams-Räume
 <a name="Logs"> </a>
 
-Zum Erfassen von Protokollen müssen Sie das Protokollsammlungsskript aufrufen, das in der App Microsoft Teams-Räume wird. Starten Sie im Administratormodus eine Eingabeaufforderung mit erhöhten Rechten, und gibt den folgenden Befehl aus:
+Zum Erfassen von Protokollen müssen Sie das Protokollsammlungsskript aufrufen, das in der App Microsoft Teams-Räume ist. Starten Sie im Administratormodus eine Eingabeaufforderung mit erhöhten Rechten, und gibt den folgenden Befehl aus:
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -45,7 +45,7 @@ Die Protokolle werden als ZIP-Datei in "c:\rigel" ausgegeben.
 Konfigurieren Sie den Bildschirm vorne im Raum für den Modus „Erweitert“. Dadurch wird sichergestellt, dass die Konsolen-UI auf dieser Anzeige nicht dupliziert wird, wenn der Strom auf dem Display ein/aus geht.
   
 > [!NOTE]
-> Wenn Sie möchten, dass die Anzeige vor dem Raum automatisch zu einer aktiven Videoquelle (z. B. einer MTR-Konsole) wechselt, wenn die Quelle aus dem Standbymodus reaktiviert wird, müssen bestimmte Bedingungen erfüllt sein. Dieses Feature ist optional, wird aber von Microsoft Teams-Räume unterstützt, sofern die zugrunde liegende Hardware das Feature unterstützt. Ein Consumer-TV, das als Front-Of-Room-Anzeige verwendet wird, muss die HDMI-Funktion (Consumer Electronics Control) für Consumer Electronics Control (CEC) unterstützen.  Je nach ausgewählter Docking-Station oder Konsole (die CEC möglicherweise nicht unterstützt, finden Sie in der Dokumentation zum Support des Herstellers) kann ein Controller wie [HD-TX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) von Crestron oder [Exppe HD CTL 100](https://www.extron.com/article/hdctl100ad) von Ex selbst erforderlich sein, um das gewünschte Verhalten zu ermöglichen. 
+> Wenn Sie möchten, dass die Anzeige vor dem Raum automatisch zu einer aktiven Videoquelle (z. B. einer MTR-Konsole) wechselt, wenn die Quelle aus dem Standbymodus reaktiviert wird, müssen bestimmte Bedingungen erfüllt sein. Dieses Feature ist optional, wird aber von Microsoft Teams-Räume unterstützt, vorausgesetzt, zugrunde liegende Hardware unterstützt das Feature. Ein Consumer-TV, das als Front-Of-Room-Anzeige verwendet wird, muss die HDMI-Funktion (Consumer Electronics Control) für Consumer Electronics Control (CEC) unterstützen.  Je nach ausgewählter Docking-Station oder Konsole (die CEC möglicherweise nicht unterstützt, finden Sie in der Dokumentation zum Support des Herstellers) kann ein Controller wie [HD-TX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) von Crestron oder [Exppe HD CTL 100](https://www.extron.com/article/hdctl100ad) von Ex selbst erforderlich sein, um das gewünschte Verhalten zu ermöglichen. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams-Räume Zurücksetzen (Werkswiederherstellung)
 <a name="Reset"> </a>
@@ -53,7 +53,7 @@ Konfigurieren Sie den Bildschirm vorne im Raum für den Modus „Erweitert“. D
 Wenn Microsoft Teams-Räume nicht gut ausgeführt wird, kann ein Zurücksetzen auf Werkseinstellungen hilfreich sein. Verwenden Sie dazu [](recovery-tool.md) das Tool Microsoft Teams Raumwiederherstellungstool, und folgen Sie den Anweisungen zur Wiederherstellung auf Werkseinstellungen.
 
 > [!NOTE]
-> Es gibt ein bekanntes Problem, bei dem das Microsoft Teams-Räume nicht mehr verwendet werden kann, wenn die Option Meine Dateien behalten – Apps und Einstellungen entfernen, aber ihre persönlichen Dateien beibehalten während des **Vorgangs** "Zurücksetzen Windows aktiviert ist. Verwenden *Sie* diese Option nicht.
+> Es gibt ein bekanntes Problem, bei dem das Microsoft Teams-Räume nicht mehr verwendet werden kann, wenn die Option Meine Dateien behalten – Apps und Einstellungen entfernen, aber ihre persönlichen Dateien behalten während des **Vorgangs** "Zurücksetzen" Windows aktiviert ist. Verwenden *Sie* diese Option nicht.
   
 ## <a name="supported-remote-options"></a>Unterstützte Remoteoptionen
 <a name="RemoteOptions"> </a>
@@ -72,7 +72,7 @@ In der folgenden Tabelle sind die möglichen Remotevorgänge und die Methoden zu
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Konfigurieren von Gruppenrichtlinien für Microsoft Teams-Räume
 <a name="GroupPolicy"> </a>
 
-Dieser Abschnitt befasst sich mit den Systemeinstellungen, Microsoft Teams-Räume, damit sie ordnungsgemäß funktionieren. Stellen Sie beim Microsoft Teams-Räume einer Domäne sicher, dass Ihre Gruppenrichtlinie die Einstellungen in der folgenden Tabelle nicht außer Kraft setzt.
+In diesem Abschnitt werden die Systemeinstellungen Microsoft Teams-Räume, die von der ordnungsgemäßen Funktion abhängig sind. Wenn Sie Microsoft Teams-Räume Domäne verknüpfen, stellen Sie sicher, dass Ihre Gruppenrichtlinie die Einstellungen in der folgenden Tabelle nicht außer Kraft setzt.
   
 
 |Einstellung|Lässt zu|
@@ -84,7 +84,7 @@ Dieser Abschnitt befasst sich mit den Systemeinstellungen, Microsoft Teams-Räum
 Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements erläutert.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))
 
 > [!NOTE]
-> Wenn Microsoft Teams-Räume Gerät mit der nächsten Version von Windows 10 Os kompatibel ist, wird das Gerät über Windows Update automatisch auf die Windows aktualisiert. Microsoft Teams-Räume-Gerät sollte nicht manuell oder über die Aktivierung der Gruppenrichtlinien von Windows Update for Business (WUFB) "Select the Windows readiness level for the updates you want to receive" oder "Select when Preview Builds and Feature Updates are received" (Auswählen, wann Vorschaubuilds und Featureupdates empfangen werden) über das Gruppenrichtlinienobjekt auf die nächste Version von Windows 10 aktualisiert werden. Bei einem Gerät mit diesen Gruppenrichtlinien ist bekannt, dass es zu Problemen mit Windows 10 betriebssystemupdate einer Microsoft Teams-Räume kommt.
+> Wenn Microsoft Teams-Räume Gerät mit der nächsten Version von Windows 10 OS kompatibel ist, wird das Gerät über Windows Update automatisch auf die nächste Version aktualisiert. Microsoft Teams-Räume-Gerät sollte nicht manuell oder über die Aktivierung der Gruppenrichtlinien von Windows Update for Business (WUFB) "Select the Windows readiness level for the updates you want to the updates you want to receive" oder "Select when Preview Builds and Feature Updates are received" (Auswählen, wann Vorschaubuilds und Featureupdates empfangen werden) über das Gruppenrichtlinienobjekt auf die nächste Version von Windows 10 aktualisiert werden. Bei einem Gerät mit diesen Gruppenrichtlinien ist bekannt, dass es zu Problemen mit Windows 10 betriebssystemupdates einer Microsoft Teams-Räume kommt.
 
 ## <a name="remote-management-using-powershell"></a>Remoteverwaltung mit PowerShell
 <a name="RemotePS"> </a>
@@ -96,7 +96,7 @@ Sie können die folgenden Verwaltungsvorgänge remote mithilfe von PowerShell au
 - Abrufen von Systeminformationen
 - Neustart des Systems
 - Abrufen von Protokollen
-- Übertragen von Dateien (erfordert ein Domänen-Mitglied Microsoft Teams-Räume)
+- Übertragen von Dateien (erfordert eine In eine Domäne Microsoft Teams-Räume)
     
 > [!NOTE]
 > Diese Funktion ist standardmäßig deaktiviert. Sie müssen Remote-PowerShell für Ihre Umgebung auf dem Microsoft Teams-Räume aktivieren, um die folgenden Vorgänge ausführen zu können. Informationen zum Aktivieren von Remote-PowerShell finden Sie in der Dokumentation zum Aktivieren von **[PSRemoting.](/powershell/module/microsoft.powershell.core/enable-psremoting)**
@@ -114,7 +114,7 @@ So führen Sie einen Verwaltungsvorgang durch:
 2. Öffnen Sie eine normale PowerShell-Eingabeaufforderung auf dem PC.
 3. Kopieren Sie den Befehlstext aus der nachstehenden Tabelle, und fügen Sie ihn an der Eingabeaufforderung ein.
 4. Ersetzen  `<Device fqdn>` Sie Felder durch FQDN-Werte, die Ihrer Umgebung angemessen sind.
-5. Ersetzen  *\<path\>*  Sie die Datei durch den Dateinamen und lokalen Pfad der MasterSkypeSettings.xml konfigurationsdatei (oder designbild).
+5. Ersetzen  *\<path\>*  Sie die Datei durch den Dateinamen und lokalen Pfad der MasterSkypeSettings.xml Konfigurationsdatei (oder designbild).
     
 So erhalten Sie angefügte Geräte
   
@@ -169,7 +169,7 @@ Standardmäßig versucht Microsoft Teams-Räume, eine Verbindung mit der Windows
   
 Standardmäßig stellt Microsoft Teams-Räume eine Verbindung mit Windows Update auf, um Firmwareupdates für Betriebssysteme und USB-Peripheriegeräte abzurufen, und installiert diese außerhalb der konfigurierten Geschäftszeiten. Sie können Geschäftszeiten konfigurieren, indem Sie sich beim Administratorkonto anmelden und die Einstellungen-App ausführen.
   
-Wenn Sie Updates manuell verwalten möchten und nicht das normale Verfahren für [Microsoft Store für Unternehmen](https://businessstore.microsoft.com/store) zum Verteilen von [Offline-Apps](/microsoft-store/distribute-offline-apps)ausführen können, können Sie die entsprechende APPX-Datei und -Abhängigkeiten aus dem Bereitstellungskit [(aus](https://go.microsoft.com/fwlink/?linkid=851168) den Anweisungen unter Konfigurieren einer [Microsoft Teams-Räume-Konsole)](console.md)erwerben, die mit Configuration Manager verwendet werden kann. Da die Veröffentlichung des Bereitstellungskits hinter der Store-Version zurück liegt, passt es möglicherweise nicht immer zum neuesten verfügbaren Build.
+Wenn Sie Updates manuell verwalten möchten und das normale Verfahren für [Microsoft Store für Unternehmen](https://businessstore.microsoft.com/store) zum Verteilen von [Offline-Apps](/microsoft-store/distribute-offline-apps)nicht ausführen können, können Sie die entsprechende APPX-Datei und -Abhängigkeiten aus dem Bereitstellungskit [(aus](https://go.microsoft.com/fwlink/?linkid=851168) den Anweisungen unter Konfigurieren einer [Microsoft Teams-Räume-Konsole),](console.md)die mit Configuration Manager verwendet werden können, erwerben. Da die Veröffentlichung des Bereitstellungskits hinter der Store-Version zurück liegt, passt es möglicherweise nicht immer zum neuesten verfügbaren Build.
   
 ### <a name="to-update-using-powershell"></a>So aktualisieren Sie ein Update mit Powershell
 
@@ -183,7 +183,7 @@ Wenn Sie Updates manuell verwalten möchten und nicht das normale Verfahren für
 ## <a name="admin-mode-and-device-management"></a>Administratormodus und Geräteverwaltung
 <a name="AdminMode"> </a>
 
-Einige Verwaltungsfunktionen, z. B. die manuelle Installation eines Zertifikats einer privaten Zertifizierungsstelle, erfordern das Platzieren Surface Pro Geräts im Administratormodus. 
+Bei einigen Verwaltungsfunktionen, z. B. der manuellen Installation eines Zertifikats einer privaten Zertifizierungsstelle, muss das Surface Pro im Administratormodus platziert werden. 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Wechseln in den Administratormodus und zurück, wenn die Microsoft Teams-Räume ausgeführt wird
 
@@ -197,13 +197,13 @@ Einige Verwaltungsfunktionen, z. B. die manuelle Installation eines Zertifikats 
 8. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an. Sie verfügen über die erforderlichen Berechtigungen zum Verwalten des Geräts.
 9. Führen Sie die notwendigen Administratoraufgaben aus.
 10. Melden Sie sich bei Ihrem Administratorkonto ab.
-11. Kehren Sie Microsoft Teams-Räume zurück, indem Sie das Benutzerkontosymbol ganz links auf dem Bildschirm und dann auf **Skype.**
+11. Kehren Sie Microsoft Teams-Räume zurück, indem Sie das Benutzerkontosymbol ganz links auf dem Bildschirm auswählen und dann **Skype.**
     
     Wenn der **Skype** nicht aufgeführt ist, müssen Sie  möglicherweise einen anderen Benutzer auswählen und **".\skype"** als Benutzernamen eingeben und sich anmelden.
     
 Die Konsole befindet sich nun wieder in ihrem normalen Betriebsmodus. Das folgende Verfahren erfordert, dass Sie eine Tastatur an das Gerät anfügen, sofern noch keine Tastatur angeschlossen ist. 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Wechseln in den Administratormodus und zurück, wenn die Microsoft Teams-Räume abstürzt
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Wechseln in den Administratormodus und zurück, wenn Microsoft Teams-Räume App abstürzt
 
 1. Drücken Sie fünf Mal schnell hintereinander die WINDOWS-TASTE. Daraufhin gelangen Sie zum Windows-Anmeldebildschirm.  
 2. Melden Sie sich mit Ihren Administratoranmeldeinformationen beim Desktop an.
@@ -211,15 +211,15 @@ Die Konsole befindet sich nun wieder in ihrem normalen Betriebsmodus. Das folgen
 4. Starten Sie den Computer neu, wenn Sie fertig sind.
 
     > [!NOTE]
-    > Mit dieser Methode wird der Skype-Benutzer nicht abgemeldet oder die App anmutig beendet. Sie verwenden sie jedoch, wenn die App nicht reagiert hat und die andere Methode nicht verfügbar war. 
+    > Mit dieser Methode wird der Skype-Benutzer nicht abgemeldet oder die App anmutig beendet. Sie würden sie jedoch verwenden, wenn die App nicht reagierte und die andere Methode nicht verfügbar war. 
 
-   Die Konsole wird in ihrem normalen Betriebsmodus neu gestartet, und die app Microsoft Teams-Räume ausgeführt. Sie können die Tastatur entfernen, wenn sie angeschlossen wurde, damit Sie dieses Verfahren ausführen können.
+   Die Konsole wird in ihrem normalen Modus neu gestartet, und die App Microsoft Teams-Räume ausgeführt. Sie können die Tastatur entfernen, wenn sie angeschlossen wurde, damit Sie dieses Verfahren ausführen können.
    ## <a name="troubleshooting-tips"></a>Tipps zur Problembehandlung
    <a name="TS"> </a>
 
 - Besprechungseinladungen werden möglicherweise nicht angezeigt, wenn sie über Domänengrenzen hinweg gesendet werden (z. B. zwischen zwei Unternehmen). In solchen Fällen sollten IT-Administratoren entscheiden, ob sie externen Benutzern das Planen einer Besprechung gestatten.
-- Microsoft Teams-Räume unterstützt keine AutoDiscover Exchange Umleitungen über Exchange 2010.
+- Microsoft Teams-Räume unterstützt keine Exchange von AutoErmittlungsumleitungen über Exchange 2010.
 - Im Allgemeinen sollten IT-Administratoren alle Audioendpunkte deaktivieren, die sie nicht verwenden möchten.
 - Falls ein Spiegelbild in der Raumvorschau angezeigt wird, kann der IT-Administrator dies korrigieren, indem die Stromversorgung der Kamera angestellt wird oder die Bildausrichtung mit der Fernsteuerung der Kamera gekippt wird.
-- Es ist bekannt, dass der Zugang zum Konsolentouchscreen verloren gehen kann. In diesen Fällen wird das Problem manchmal durch einen Neustart des Microsoft Teams-Räume behoben.
+- Es ist bekannt, dass der Zugang zum Konsolentouchscreen verloren gehen kann. In solchen Fällen wird das Problem manchmal durch einen Neustart des Microsoft Teams-Räume behoben.
 - Beim Verbinden eines PCs mit der Konsole über verkabelte Erfassung kann ein Verlust der lokalen Audiodaten auftreten. Das Problem mit der Wiedergabe der lokalen Audiodaten kann in diesem Fall durch einen Neustart des PCs gelöst werden.

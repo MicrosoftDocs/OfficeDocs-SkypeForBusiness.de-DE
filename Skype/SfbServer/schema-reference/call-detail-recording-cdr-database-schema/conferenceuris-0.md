@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: Die Ansicht "ConfernceUris" speichert Informationen über die URIs, die an Konferenzsitzungen teilgenommen haben. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 4e9ee22dfc078e5870dd38ed3de8ee5e93e7fe8716886d3e7c2cb066745b2535
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40c4538df2b551b86826b3601b901f66b4e917d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352533"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598689"
 ---
 # <a name="conferenceuris-view"></a>ConferenceUris-Ansicht
  
@@ -26,7 +26,7 @@ Die Ansicht "ConfernceUris" speichert Informationen über die URIs, die an Konfe
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|ConferenceUriId  <br/> |Ganzzahl  <br/> |Eindeutige Zahl, die den Konferenz-URI identifiziert.  <br/> |
+|ConferenceUriId  <br/> |int  <br/> |Eindeutige Zahl, die den Konferenz-URI identifiziert.  <br/> |
 |ConferenceUri  <br/> |nvarchar(450)  <br/> |URI der Konferenz.  <br/> |
 |ConferenceUriType  <br/> |nvarchar(256)  <br/> |Typ des URI. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
    

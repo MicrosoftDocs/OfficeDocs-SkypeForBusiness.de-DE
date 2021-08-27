@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewaySettingExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server beschrieben.
-ms.openlocfilehash: 6f6a88d1a36ea42f8616be90244b46578b80c7b6d091918922ce696674b6712e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96c510b84ca7d7f673d60731849134e9ac40c4e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278963"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585179"
 ---
 # <a name="video-gateway-setting"></a>Videogatewayeinstellung
  
@@ -32,8 +32,8 @@ Die Konfigurationsschritte für einen neuen Video-Interoperabilitätsserver mit 
   
  Die Einstellungen für ein Videogateway, die in der Cisco-GUI für die Interoperabilität mit einem VIS festgelegt werden müssen, werden online unter [Konfigurieren von CUCM für die Interoperabilität mit Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)beschrieben.
   
- Die Einstellungen für einen VTC, die in der Cisco-GUI für die Interoperabilität mit einem Videogateway und einem VIS festgelegt werden müssen, werden online unter [Configure a VTC for Interoperation with Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)beschrieben.
+ Die Einstellungen für einen VTC, die in der Cisco-GUI für die Interoperabilität mit einem Videogateway und einem VIS festgelegt werden müssen, werden online unter [Konfigurieren eines VTC für die Interoperabilität mit Skype for Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)beschrieben.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Planen des Videointeroperabilitätsservers in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+[Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)

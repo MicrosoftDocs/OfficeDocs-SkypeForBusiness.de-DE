@@ -9,27 +9,27 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Zusammenfassung: Erfahren Sie mehr über die Systemverwendungsberichte in Skype for Business Server.'
-ms.openlocfilehash: 05704b507e52785e0b34c69616fce338a0e6c3a271e72d4f15eb5a126771bb11
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f98e78319e872f978004ac32e24802c6b62bd36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280060"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598829"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Systemverwendungsberichte in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Systemverwendungsberichte in Skype for Business Server.
   
-Die Systemverwendungsberichte enthalten Systemnutzungsinformationen basierend auf KDS-Daten (Call Detail Recording, Aufzeichnung von Kommunikationsdatensätzen), die vom Skype for Business Server gesammelt werden.
+Die Systemverwendungsberichte enthalten Systemnutzungsinformationen basierend auf KDS-Daten (Call Detail Recording), die vom Skype for Business Server gesammelt werden.
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Bericht über Benutzerregistrierung in Skype for Business Server](user-registration-report.md)
+- [Benutzerregistrierungsbericht in Skype for Business Server](user-registration-report.md)
     
-    Bietet eine Zusammenfassung der Benutzerkonnektivität mit der Skype for Business Server Bereitstellung basierend auf Registrierungsereignissen wie Benutzeranmeldungen. Der Bericht bietet eine Möglichkeit, interne und externe Anmeldungen anzuzeigen und die Anzahl der Benutzer, die sich bei Skype for Business Server angemeldet haben, mit der Anzahl der Benutzer zu vergleichen, die den Dienst tatsächlich verwendet haben, während sie angemeldet waren.
+    Bietet eine Zusammenfassung der Benutzerkonnektivität zur Skype for Business Server Bereitstellung basierend auf Registrierungsereignissen wie Benutzeranmeldungen. Der Bericht bietet eine Möglichkeit, interne und externe Anmeldungen anzuzeigen und die Anzahl der Benutzer, die sich bei Skype for Business Server angemeldet haben, mit der Anzahl der Benutzer zu vergleichen, die den Dienst tatsächlich verwendet haben, während sie angemeldet waren.
     
 - [Zusammenfassender Bericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-summary-report.md)
     

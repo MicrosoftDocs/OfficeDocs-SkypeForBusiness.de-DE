@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Zusammenfassung: Erfahren Sie, wie Sie eine VoIP-Routing-Konfigurationsdatei in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.'
-ms.openlocfilehash: bef3e1caf80ecc2dc065949dcec684ad6e342902cfabf0e9daebab237d09c7ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Konfigurationsdatei für das VoIP-Routing in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.'
+ms.openlocfilehash: bbad8ca1a9d11074bb99fcd9655b8a8281953344
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320817"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626147"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportieren oder Importieren einer VoIP-Routenkonfigurationsdatei in Skype for Business
  

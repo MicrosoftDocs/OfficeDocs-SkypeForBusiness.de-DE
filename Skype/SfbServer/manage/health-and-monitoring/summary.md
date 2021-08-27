@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 'Zusammenfassung: Erfahren Sie mehr über den Zusammenfassenden Bericht über Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: d8c8bcee2d5869ef0812c9a34ccb1fcc376dcb5b84e41a84110b712713fec4a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8478ed9d4ba3bc35451c140346bec4e407c25596
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598849"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>Zusammenfassender Bericht über Medienqualität in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über den zusammenfassenden Bericht über Medienqualität in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Zusammenfassenden Bericht über Medienqualität in Skype for Business Server.
   
 Der "Zusammenfassende Bericht über Medienqualität" ist möglicherweise die beste Option zum Analysieren der Anrufqualität in Ihrer Organisation: In diesem Bericht werden detailliert die QoE-Anrufmetriken (Quality of Experience, QoE) in den folgenden Kategorien aufgeführt:
   
-- UC-Peer-to-Peer-Anrufe (z. B. ein Skype for Business zu Skype for Business Anruf)
+- UC Peer-to-Peer-Anrufe (z. B. ein Skype for Business zu Skype for Business Anruf)
     
 - UC-Konferenzsitzungen
     
@@ -39,9 +39,9 @@ Der "Zusammenfassende Bericht über Medienqualität" ist möglicherweise die bes
     
 - Andere Anruftypen
     
-Beim ersten Öffnen des Berichts wird eine Zusammenfassung zu den einzelnen Kategorien angezeigt. Ohne den Bericht verlassen zu müssen, können Sie jede Kategorie erweitern, um Unterkategorien wie Anrufe von Office Communicator 2007 R2 bis Skype for Business anzuzeigen. Diese Unterkategorien können Sie anschließend erweitern, um Details zu jedem in diesen Unterkategorien getätigten Anruf anzuzeigen.
+Beim ersten Öffnen des Berichts wird eine Zusammenfassung zu den einzelnen Kategorien angezeigt. Ohne den Bericht zu verlassen, können Sie jede Kategorie erweitern, um Unterkategorien wie Anrufe von Office Communicator 2007 R2 bis Skype for Business anzuzeigen. Diese Unterkategorien können Sie anschließend erweitern, um Details zu jedem in diesen Unterkategorien getätigten Anruf anzuzeigen.
   
-Im zusammenfassenden Bericht über Medienqualität Skype for Business Server werden die Daten weiter in drei Anruftypen unterteilt: Audioanrufe, Videoanrufe und Anwendungsfreigabeanrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
+In Skype for Business Server im zusammenfassenden Bericht über Medienqualität werden die Daten weiter in drei Anruftypen unterteilt: Audioanrufe, Videoanrufe und Anwendungsfreigabeanrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
   
 Im "Zusammenfassenden Bericht über Medienqualität" können Sie Filter anwenden, mit denen Sie die Anrufqualität zwischen verkabelten und drahtlosen Anrufen, internen und externen Anrufen sowie VPN- und Nicht-VPN-Anrufen vergleichen können.
   

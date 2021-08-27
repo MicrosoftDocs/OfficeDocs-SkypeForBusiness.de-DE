@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:'
-ms.openlocfilehash: a51667d47a1de52fd466538a73e1dd07406c4410c500c56e8bc7a3739f783143
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32b25ceae180fd252a0b7cba64124c45d2e330a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579159"
 ---
-# <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
+# <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
 
 Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:
 
@@ -41,7 +41,7 @@ Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk d
 
  **Zugeordneter Vermittlungsserverport:** Ein erforderlicher Wert, der auf den Wert festgelegt ist, den der Vermittlungsserver für das Überwachen konfiguriert hat.
 
-![Trunkeinstellungen – Erweiterung](../../../media/Trunk_Settings_Expander.jpg)
+![Trunkeinstellungen – Erweiterung](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Siehe auch
 

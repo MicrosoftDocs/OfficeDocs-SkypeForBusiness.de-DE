@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Zusammenfassung: Verwalten von Gruppenrichtlinien.'
-ms.openlocfilehash: 8bf4d1eb07f2386d07c3cc9e4d529b06a392631ba5cea2d66cf02cc7742ed1f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294942"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578149"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Konfigurieren von Richtlinien für das Client-Bootstrapping
  
@@ -33,12 +33,12 @@ Für Skype for Business Clients gibt es mehrere Client-Bootstrapping-Richtlinien
 |:-----|:-----|
 |Specify Server (ConfigurationMode)  <br/> | Gibt an, wie Skype for Business den Transport und server identifiziert, der während der Anmeldung verwendet werden soll. In dieser Einstellung geben Sie Folgendes an: <br/>  ServerAddressExternal: Gibt den Servernamen oder die IP-Adresse an, der von Clients und Verbundkontakten verwendet wird, wenn eine Verbindung von außerhalb der externen Firewall hergestellt wird. <br/>  ServerAddressInternal: Gibt den Servernamen oder die IP-Adresse an, der verwendet wird, wenn Clients eine Verbindung innerhalb der Firewall der Organisation herstellen. <br/>  Transport: Gibt entweder TCP (Transmission Control Protocol) oder Transport Layer Security (TLS) an. <br/> |
 |Weitere unterstützte Serverversionen (ConfiguredServerCheckValues)  <br/> |Gibt eine Liste der Serverversionsnamen an, die durch Semikolons getrennt sind, bei denen sich Skype for Business Server zusätzlich zu den standardmäßig unterstützten Serverversionen anmelden.  <br/> |
-|Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren (DisableAutomaticSendTracing)  <br/> |Lädt Anmeldefehlerprotokolle automatisch zur Analyse in Skype for Business Server hoch. Bei erfolgreicher Anmeldung werden keine Protokolle automatisch hochgeladen. Wenn diese Richtlinie nicht konfiguriert ist, geschieht Folgendes:  <br/> Für Skype for Business Onlinebenutzer: Anmeldefehlerprotokolle werden automatisch hochgeladen. Für Skype for Business lokale Benutzer: Dem Benutzer wird vor dem Hochladen ein Bestätigungsdialogfeld angezeigt. Wenn diese Einstellung deaktiviert ist, werden Anmeldeprotokolle für Skype for Business lokale und Skype for Business Onlinebenutzer automatisch in die Skype for Business Server hochgeladen. Wenn diese Einstellung aktiviert ist, werden Anmeldeprotokolle nie automatisch hochgeladen.  <br/> |
+|Automatisches Hochladen von Anmeldefehlerprotokollen deaktivieren (DisableAutomaticSendTracing)  <br/> |Lädt Anmeldefehlerprotokolle automatisch zur Analyse in Skype for Business Server hoch. Bei erfolgreicher Anmeldung werden keine Protokolle automatisch hochgeladen. Wenn diese Richtlinie nicht konfiguriert ist, geschieht Folgendes:  <br/> Für Skype for Business Onlinebenutzer: Anmeldefehlerprotokolle werden automatisch hochgeladen. Für Skype for Business lokale Benutzer: Dem Benutzer wird vor dem Hochladen ein Bestätigungsdialogfeld angezeigt. Wenn diese Einstellung deaktiviert ist, werden Anmeldeprotokolle sowohl für Skype for Business lokale als auch Skype for Business Onlinebenutzer automatisch in die Skype for Business Server hochgeladen. Wenn diese Einstellung aktiviert ist, werden Anmeldeprotokolle nie automatisch hochgeladen.  <br/> |
 |Deaktivieren des HTTP-Fallbacks für die SIP-Verbindung (DisableHttpConnect)  <br/> |Verhindert, dass Skype for Business Server versuchen, über HTTP eine Verbindung mit dem Server herzustellen, wenn TLS oder TCP nicht verfügbar sind. Standardmäßig versucht Skype for Business zuerst, eine Verbindung mit dem Server mithilfe von TLS oder TCP herzustellen. Wenn keine dieser Transportmethoden erfolgreich ist, Skype for Business versucht, eine Verbindung mithilfe von HTTP herzustellen. Verwenden Sie diese Richtlinie, um die Fallbackoption für den HTTP-Verbindungsversuch zu deaktivieren.  <br/> |
 |Anmeldeinformationen erforderlich (DisableNTCredentials)  <br/> |Der Benutzer muss Anmeldeinformationen für Skype for Business angeben, anstatt während der Anmeldung bei einem SIP-Server automatisch Windows Anmeldeinformationen zu verwenden.  <br/> |
-|Deaktivieren der Serverversionsprüfung (DisableServerCheck)  <br/> |Wenn Sie diese Richtlinie auf 1 festlegen, wird verhindert, dass Skype for Business vor der Anmeldung den Servernamen und die Serverversion überprüfen. Standardmäßig führt Skype for Business diese Überprüfungen vor der Anmeldung durch.  <br/> |
-|Aktivieren der Verwendung von BITS zum Herunterladen von Adressbuchdienstdateien (EnableBitsForGalDownload)  <br/> |Ermöglicht Skype for Business die Verwendung des intelligenten Hintergrundübertragungsdiensts (Background Intelligent Transfer Service, BITS), um die Adressbuchdienste-Dateien herunterzuladen.  <br/> |
-|Konfigurieren des SIP-Sicherheitsmodus (EnableSIPHighSecurityMode)  <br/> |Ermöglicht Skype for Business, Chatnachrichten sicherer zu senden und zu empfangen. Diese Richtlinie hat keine Auswirkung auf Windows .NET- oder Microsoft Exchange Server-Dienste.  <br/> Wenn Sie diese Richtlinieneinstellung nicht konfigurieren, können Skype for Business einen beliebigen Transport verwenden. Wenn jedoch kein TLS verwendet wird und der Server Benutzer authentifiziert, müssen Skype for Business entweder die NTLM- oder die Kerberos-Authentifizierung verwenden.  <br/> |
+|Deaktivieren der Serverversionsprüfung (DisableServerCheck)  <br/> |Wenn Sie diese Richtlinie auf 1 festlegen, wird verhindert, dass Skype for Business vor der Anmeldung den Servernamen und die Version überprüfen. Standardmäßig führt Skype for Business diese Überprüfungen vor der Anmeldung durch.  <br/> |
+|Aktivieren der Verwendung von BITS zum Herunterladen von Adressbuchdienstdateien (EnableBitsForGalDownload)  <br/> |Ermöglicht Skype for Business die Verwendung von Background Intelligent Transfer Service (BITS), um die Adressbuchdienste-Dateien herunterzuladen.  <br/> |
+|Konfigurieren des SIP-Sicherheitsmodus (EnableSIPHighSecurityMode)  <br/> |Ermöglicht Skype for Business, Chatnachrichten sicherer zu senden und zu empfangen. Diese Richtlinie hat keine Auswirkung auf Windows .NET- oder Microsoft Exchange Server-Dienste.  <br/> Wenn Sie diese Richtlinieneinstellung nicht konfigurieren, können Skype for Business einen beliebigen Transport verwenden. Wenn jedoch kein TLS verwendet wird und der Server Benutzer authentifiziert, muss Skype for Business entweder die NTLM- oder die Kerberos-Authentifizierung verwenden.  <br/> |
 |Anfängliche Verzögerung beim Herunterladen des globalen Adressbuchs (GalDownloadInitialDelay)  <br/> |Gibt den Zeitraum vor dem Herunterladen der globalen Adressliste (GAL) an. Der Standardwert ist 60 Minuten, was bedeutet, dass der Server den Download der GAL-Datei um einen zufälligen Zeitraum zwischen 0 und 60 Minuten verzögert.  <br/> |
 |Benutzer am Ausführen von Skype for Business hindern (PreventRun)  <br/> |Verhindert, dass Benutzer Skype for Business ausführen. Diese Richtlinieneinstellung kann sowohl in der Computerkonfiguration als auch in der Benutzerkonfiguration vorgenommen werden, die Einstellung in der Computerkonfiguration hat jedoch Vorrang.  <br/> |
 |Speicherung von Benutzerkennwörtern zulassen (SavePassword)  <br/> |Ermöglicht Skype for Business das Speichern von Kennwörtern.  <br/> |
@@ -51,10 +51,10 @@ Auf dem Server konfigurierte Richtlinien haben Vorrang vor Gruppenrichtlinienein
 
 |**Vorrang**|**Ort oder Einstellungsmethode**|
 |:-----|:-----|
-|1  <br/> |Skype for Business Server In-Band-Bereitstellung  <br/> |
-|2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|4   <br/> |Das Dialogfeld "Optionen" in Skype for Business  <br/> |
+|1   <br/> |Skype for Business Server In-Band-Bereitstellung  <br/> |
+|2   <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|4   <br/> |Das Dialogfeld Optionen in Skype for Business  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>So definieren Sie Gruppenrichtlinieneinstellungen mithilfe der Skype for Business administrativen Vorlagendateien
 

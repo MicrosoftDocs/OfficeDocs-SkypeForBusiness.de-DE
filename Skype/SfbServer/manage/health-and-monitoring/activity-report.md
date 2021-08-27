@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Zusammenfassung: Erfahren Sie mehr über den Konferenzaktivitätsbericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: ebee49f78d7f3ed83c5d8218357181d457fe04b73f638b4a70191bc975ba38de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336635"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612224"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Konferenzaktivitätsbericht in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über den in Skype for Business Server verwendeten Konferenzaktivitätsbericht.
+**Zusammenfassung:** Erfahren Sie mehr über den Konferenzaktivitätsbericht, der in Skype for Business Server verwendet wird.
   
 Mit dem Konferenzaktivitätsbericht können Fragen wie diese leicht beantwortet werden: Wie viele Konferenzen werden täglich gehalten, und wann werden diese Konferenzen gehalten? Derartige Informationen sind an sich nützlich und können außerdem für die Problembehandlung verwendet werden. Nehmen wir z. B. an, dass sich Benutzer darüber beschweren, dass das Netzwerk mittags besonders langsam zu sein scheint. Ein kurzer Blick auf die Konferenzaktivitätsberichte könnte einen möglichen Grund vorschlagen: Viel mehr Konferenzen werden zwischen 10:00 Uhr und 14:00 Uhr geplant als zu jeder anderen Zeit.
   

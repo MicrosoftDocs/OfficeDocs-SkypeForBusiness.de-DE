@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloudtelefonzentrale mit Skype for Business Server 2019.
-ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1dffa2e0b92f9888fc9b24323c7fa638468c8b1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578169"
 ---
 # <a name="plan-cloud-call-queues"></a>Planen von Cloud-Anrufwarteschlangen
 
@@ -43,11 +43,11 @@ Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype f
 
 Zusätzlich zu den oben genannten Anforderungen müssen die folgenden Anforderungen so konfiguriert werden, dass eine Verbindung mit dem Microsoft Cloud-Anrufwarteschleifendienst hergestellt wird:
 
-- Hybridkonnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und Cloud-Anrufwarteschleifen für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
+- Hybridkonnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und Cloud-Anrufwarteschleifen für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass eine Hybridkonnektivität zwischen Ihrer lokalen und Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
 
    Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365.](configure-hybrid-connectivity.md)
 
-- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die kostenlose Telefonsystem Virtuelle Benutzerlizenz verwenden. Dadurch werden telefonnummern auf Organisationsebene Telefonsystem Funktionen bereitgestellt, und Sie können funktionen für automatische Telefonzentralen und Anrufwarteschleifen erstellen.
+- Wenn Sie einem Ressourcenkonto eine Telefonnummer zuweisen, können Sie jetzt die kostenlose Telefonsystem Virtuelle Benutzerlizenz verwenden. Dadurch werden Telefonnummern auf Organisationsebene Telefonsystem Funktionen bereitgestellt, und Sie können Funktionen für automatische Telefonzentralen und Anrufwarteschleifen erstellen.
 
 - Erstellen Sie ein lokales [Ressourcenkonto](configure-onprem-ra.md) für jede Anrufwarteschleife, und weisen Sie bei Bedarf eine Lizenz und Telefonnummer zu.  
 

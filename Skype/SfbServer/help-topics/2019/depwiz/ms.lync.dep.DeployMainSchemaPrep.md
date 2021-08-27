@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Skype for Business Server Bereitstellungs-Assistenten aus. Klicken Sie auf Ausführen, um die Schemavorbereitung zu beginnen.
-ms.openlocfilehash: d2dfd0525d0ec1fa1ee46479194b029b1db591781303436f008ed5d3900f01be
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5dd2a7958eafc65f69a6df4344f10973714b58a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626057"
 ---
 # <a name="prepare-schema"></a>Vorbereiten des Schemas
  
@@ -29,7 +29,7 @@ Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie d
 > [!IMPORTANT]
 > Zum Erweitern des Schemas müssen Sie bei der Domäne als Mitglied der Gruppen "Schema-Admins" und "Organisations-Admins" angemeldet sein. 
   
-Klassen und Attribute werden hinzugefügt, um das Active Directory Domain Services-Schema so zu erweitern, dass Skype for Business Server Server-, Dienst- und Benutzerobjekte unterstützt werden. Vor dem Erweitern des Schemas müssen Sie eine Systemstatussicherung des Domänencontrollers mit der Schemamasterrolle ausführen. 
+Klassen und Attribute werden hinzugefügt, um das Active Directory Domain Services-Schema zu erweitern, um Skype for Business Server Server-, Dienst- und Benutzerobjekte zu unterstützen. Vor dem Erweitern des Schemas müssen Sie eine Systemstatussicherung des Domänencontrollers mit der Schemamasterrolle ausführen. 
   
 > [!CAUTION]
 > Das Erweitern des Schemas ist nicht umkehrbar. Versuchen Sie immer, die potenziellen Auswirkungen einer fehlerhaften Schemaerweiterung einzudämmen und sicherzustellen, dass die Erweiterung des Schemas erfolgreich ist. Dies ist besonders bei einem Ausfall der Kommunikation oder einem anderen Ausfall auf dem Server wichtig. Sie sollten eine Sicherung des Schemamaster-Domänencontrollers und eine vollständige Sicherung von Active Directory durchführen. 

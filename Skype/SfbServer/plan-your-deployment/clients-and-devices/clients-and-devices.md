@@ -10,25 +10,25 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Zusammenfassung: Überprüfen der unterstützten Clients und Apps für Skype for Business.'
-ms.openlocfilehash: ad49be489b827136fbd698f873140acc014f6a571c18d7ed3dc46213b74af465
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5bf793c052d665c579294529b78a5fd69c81be3c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598759"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planen von Clients und Geräten
 
 **Zusammenfassung:** Überprüfen Sie die unterstützten Clients und Apps für Skype for Business.
 
-Die heutigen Mitarbeiter sind ständig in Bewegung. Mitarbeiter müssen kommunizieren und zusammenarbeiten, unabhängig davon, ob sie im Unternehmensbüro, an regionalen Standorten, in Home Offices oder unterwegs arbeiten. Skype for Business Server unterstützt diese Anforderungen durch eine Sammlung von Clientschnittstellen, die Sie für die Benutzer Ihrer Organisation bereitstellen können. Eine sorgfältige Planung stellt sicher, dass Die Mitarbeiter das erhalten, was sie benötigen, und dass Skype for Business ihnen überall zur Verfügung steht, wo sie sich befinden.
+Die heutigen Mitarbeiter sind ständig in Bewegung. Mitarbeiter müssen kommunizieren und zusammenarbeiten, unabhängig davon, ob sie im Unternehmensbüro, an regionalen Standorten, in Home Offices oder unterwegs arbeiten. Skype for Business Server unterstützt diese Anforderungen durch eine Sammlung von Clientschnittstellen, die Sie für die Benutzer Ihrer Organisation bereitstellen können. Eine sorgfältige Planung stellt sicher, dass Mitarbeiter das erhalten, was sie benötigen, und dass Skype for Business ihnen überall zur Verfügung steht, wo sie sich befinden.
 
 ## <a name="available-clients"></a>Verfügbare Clients
 
@@ -48,18 +48,18 @@ Ein kostenloser Basisclient, der weniger Features unterstützt, ist ebenfalls ve
 
 ### <a name="skype-for-business-2015"></a>Skype for Business 2015
 
-Skype for Business 2015 ist ein Client mit vollem Funktionsumfang für Skype for Business Server 2015 oder 2019. Die Skype for Business Benutzeroberfläche wurde vollständig neu gestaltet und enthält neu integrierte Features wie Anrufüberwachung, Skype Verzeichnisintegration, Emoticons und vieles mehr. Eine Zusammenfassung der Änderungen finden Sie unter [Lync ist jetzt Skype for Business – sehen Sie sich an, was neu ist.](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612) Die Clientfeatureunterstützung wird im Vergleich der [Desktopclientfeatures für Skype for Business](desktop-feature-comparison.md)ausführlich beschrieben, und die Benutzerdokumentation finden Sie in [Skype for Business Hilfe.](https://support.office.com/Skype-for-business) Dieser Client ist enthalten, wenn ein Benutzer Office 365 installiert.
+Skype for Business 2015 ist ein Client mit vollem Funktionsumfang für Skype for Business Server 2015 oder 2019. Die Skype for Business Benutzeroberfläche wurde vollständig neu gestaltet und umfasst neu integrierte Features wie Anrufüberwachung, Skype Verzeichnisintegration, Emoticons und vieles mehr. Eine Zusammenfassung der Änderungen finden Sie unter [Lync ist jetzt Skype for Business – sehen Sie sich an, was neu ist.](https://support.office.com/en-in/article/aba02d7e-c801-4a82-bccd-e7207240f612) Die Clientfeatureunterstützung wird im Vergleich der [Desktopclientfeatures für Skype for Business](desktop-feature-comparison.md)ausführlich beschrieben, und die Benutzerdokumentation finden Sie in [Skype for Business Hilfe.](https://support.office.com/Skype-for-business) Dieser Client ist enthalten, wenn ein Benutzer Office 365 installiert.
 
 ### <a name="skype-for-business-on-mac"></a>Skype for Business auf dem Mac
 
-Der [Skype for Business auf dem Mac-Client](https://www.microsoft.com/download/details.aspx?id=54108) steht zum Download zur Verfügung. Weitere Informationen finden Sie unter Skype for Business zu [Mac-Clientanforderungen,](mac-requirements.md) um die Voraussetzungen zu überprüfen.
+Der [Skype for Business auf dem Mac-Client](https://www.microsoft.com/download/details.aspx?id=54108) steht zum Download zur Verfügung. Weitere Informationen finden Sie [unter Skype for Business für Mac-Clientanforderungen,](mac-requirements.md) um die Voraussetzungen zu überprüfen.
 
 ### <a name="skype-for-business-for-mobile-devices"></a>Skype for Business für mobile Geräte
 
 Clients sind für Windows Phone, iPhone/iPad und Android verfügbar. Benutzer können sie auf allen Ihren Geräten unter ["Download Skype for Business"](https://products.office.com/skype-for-business/download-app?tab=tabs-3)abrufen. Die Featureunterstützung für diese Clients wird im Vergleich der [Mobilen Clientfeatures für Skype for Business](mobile-feature-comparison.md)ausführlich beschrieben.
 
 > [!NOTE]
-> MCX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> MCX(Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
 
 ### <a name="online-meeting-add-in-for-skype-for-business"></a>Onlinebesprechungs-Add-In für Skype for Business
 
@@ -80,22 +80,22 @@ Eine Virtual Desktop Infrastructure (VDI)-Umgebung wird in einigen Organisatione
 
 ### <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
-Microsoft Teams-Räume ist die neueste Konferenzlösung von Microsoft, die eine vertraute Schnittstelle verwendet und einfach bereitgestellt und verwaltet werden kann und vorhandene Geräte wie z. B. DIE PANELS VON AZURE nutzt, um die Installation zu vereinfachen. Microsoft Teams-Räume verwendet eine speziell erstellte UWP-App, die auf einem Surface Pro 4 oder Surface Pro in einem Konsolenmodus ausgeführt wird (nachdem die UWP-App bereitgestellt wurde, ist die einzige App, die auf dem Gerät ausgeführt wird) und erfordert ein eigenes Gerätekonto für Ihre Implementierung. Software wird sowohl über Windows Store als auch Windows Update aktualisiert. https://aka.ms/MTRDocsWeitere Informationen zur Verwendung dieser Raumkonsolen in Ihrer Bereitstellung finden Sie unter. 
+Microsoft Teams-Räume ist die neueste Konferenzlösung von Microsoft, die eine vertraute Benutzeroberfläche verwendet und einfach bereitgestellt und verwaltet werden kann. Dabei werden vorhandene Geräte wie BEISPIELSWEISE PANELS verwendet, um die Installation zu vereinfachen. Microsoft Teams-Räume verwendet eine speziell erstellte UWP-App, die auf einem Surface Pro 4 oder Surface Pro in einem Konsolenmodus ausgeführt wird (nachdem die UWP-App bereitgestellt wurde, ist die einzige App, die auf dem Gerät ausgeführt wird) und erfordert ein eigenes Gerätekonto für Ihre Implementierung. Die Software wird sowohl über Windows Store als auch über Windows Update aktualisiert. https://aka.ms/MTRDocsWeitere Informationen zur Verwendung dieser Raumkonsolen in Ihrer Bereitstellung finden Sie unter. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business auf Surface Hub
 
-Microsoft Surface Hub ist ein All-in-One-Produktivitätsgerät, das für Brainstorming, Zusammenarbeit und Präsentationen vorgesehen ist. Es verfügt über eine eigene Iteration des Skype for Business-Clients, die im [Microsoft Surface Hub-Administratorhandbuch](/surface-hub/)dokumentiert ist.
+Microsoft Surface Hub ist ein All-in-One-Produktivitätsgerät, das für Brainstorming, Zusammenarbeit und Präsentationen vorgesehen ist. Es verfügt über eine eigene Iteration des Skype for Business-Clients, die im [Microsoft Surface Hub Administratorhandbuch](/surface-hub/)dokumentiert ist.
 
 ## <a name="choosing-your-organizations-preferred-client"></a>Auswählen des bevorzugten Clients Ihrer Organisation
 <a name="BK_client_choose"> </a>
 
 Wenn Ihre Organisation die entsprechenden Lizenzen erworben hat, wählen Sie den vollständigen Client aus, andernfalls den Standardclient.
 
-Ihre Benutzer können den Client über [download Skype for Business auf allen Ihren Geräten](https://products.office.com/skype-for-business/download-app?tab=tabs-3)für sich selbst installieren. Der Client wird auch installiert, wenn Benutzer Microsoft 365 oder Office 365 auf Windows installieren. Wenn einige Ihrer Benutzer Über Macs verfügen, verfügen diese Benutzer über einen anderen Satz von Features, wie in früheren Abschnitten beschrieben.
+Ihre Benutzer können den Client für sich selbst installieren, indem [sie Skype for Business auf allen Ihren Geräten herunterladen.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) Der Client wird auch installiert, wenn Benutzer Microsoft 365 oder Office 365 auf Windows installieren. Wenn einige Ihrer Benutzer Über Macs verfügen, verfügen diese Benutzer über einen anderen Satz von Features, wie in früheren Abschnitten beschrieben.
 
-Einige features available with Skype for Business Server 2015 are not available in Skype for Business Online or Skype for Business Server 2019, see [Online or Hybrid user account limitations for 2015](desktop-feature-comparison.md#Online-Hybrid) or Online or Hybrid user account limitations for [2019](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Onlineadministratoren können unter [Skype for Business Beschreibung des Onlinediensts](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) Informationen zu den verschiedenen verfügbaren Plänen finden.
+Einige features available with Skype for Business Server 2015 are not available in Skype for Business Online or Skype for Business Server 2019, see [Online or Hybrid user account limitations for 2015](desktop-feature-comparison.md#Online-Hybrid) or Online or Hybrid user account limitations for [2019](desktop-feature-comparison.md#Online-Hybrid) for specifics. Skype for Business Onlineadministratoren können unter [Skype for Business Beschreibung des Onlinediensts](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) Informationen zu den verschiedenen Plänen finden, die ihnen zur Verfügung stehen.
 
- Überprüfen Sie vor der Bereitstellung oder dem Upgrade auf Skype for Business, welche Clients bereits in Ihrer Organisation verwendet werden. Verwenden Sie den Vergleich der [Desktopclientfeatures für Skype for Business,](desktop-feature-comparison.md) um die Auswirkungen der Featureunterstützung auf diese Clients zu verstehen. Dies kann Ihnen helfen, Änderungen an die Benutzer zu kommunizieren, den Rolloutvorgang zu beschleunigen und die Vorteile des Upgrades auf den neuesten Client vollständig zu verstehen.
+ Bevor Sie Skype for Business bereitstellen oder auf Skype for Business aktualisieren, überprüfen Sie, welche Clients bereits in Ihrer Organisation verwendet werden. Verwenden Sie den Vergleich der [Desktopclientfeatures für Skype for Business,](desktop-feature-comparison.md) um die Auswirkungen der Featureunterstützung auf diese Clients zu verstehen. Dies kann Ihnen helfen, Änderungen an die Benutzer zu kommunizieren, den Rolloutvorgang zu beschleunigen und die Vorteile des Upgrades auf den neuesten Client vollständig zu verstehen.
 
 ## <a name="ways-to-deploy-the-client-to-your-users"></a>Möglichkeiten zum Bereitstellen des Clients für Ihre Benutzer
 <a name="BK_User_Deploy"> </a>
@@ -104,11 +104,11 @@ Clientinstallationsprogramme sind sowohl für MSI- als auch Klick-und-Los-Instal
 
 - Im Allgemeinen werden Skype for Business zuvor veröffentlichten Clients KEINE neuen Features hinzugefügt.
 
-- Im Allgemeinen plant Skype for Business nicht, neue Features im Skype for Business MSI nach der ersten Veröffentlichung zu versenden. MSI-Verbesserungen zwischen Versionen sind in erster Linie Qualitäts-/Sicherheitsverbesserungen.
+- Im Allgemeinen plant Skype for Business nicht, neue Features in der Skype for Business MSI nach der ersten Veröffentlichung zu versenden. MSI-Verbesserungen zwischen Versionen sind in erster Linie Qualitäts-/Sicherheitsverbesserungen.
 
-- Die neueste und beste Skype for Business Clientumgebung finden Sie im Klick-und-Los-Installationsprogramm Skype for Business 2019.
+- Die neuesten und besten Skype for Business Clientumgebung finden Sie im Klick-und-Los-Installationsprogramm für Skype for Business 2019.
 
-Sie können eine benutzerdefinierte Bereitstellung des Clients durchführen, wie unter [Anpassen Windows Clientinstallation in Skype for Business Server](../../deploy/deploy-clients/customize-windows-client-installation.md)beschrieben. Installationsmethoden werden in ["Bereitstellen von Clients für Skype for Business Server"](../../deploy/deploy-clients/deploy-clients.md) ausführlicher beschrieben.
+Sie können eine angepasste Bereitstellung des Clients durchführen, wie unter [Anpassen Windows Clientinstallation in Skype for Business Server](../../deploy/deploy-clients/customize-windows-client-installation.md)beschrieben. Installationsmethoden werden in ["Bereitstellen von Clients für Skype for Business Server"](../../deploy/deploy-clients/deploy-clients.md) ausführlicher beschrieben.
 
 ### <a name="click-to-run"></a>Klick-und-Los
 
@@ -157,7 +157,7 @@ In den folgenden Artikeln erfahren Sie mehr über die unterstützten Features, P
 
 - [Skype for Business Kompatibilität mit Office Apps](compatibility-with-office.md)
 
-- [Skype for Business-Clientvideoauflösungen](video-resolutions.md)
+- [Skype for Business-Client-Videoauflösungen](video-resolutions.md)
 
 - [Planen von Besprechungsclients (Web App und Besprechungs-App)](meetings-clients.md)
 

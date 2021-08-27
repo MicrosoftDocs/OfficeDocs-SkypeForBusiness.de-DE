@@ -13,20 +13,20 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: 'Hier erfahren Sie, wo Sie einen gültigen Serviceplan für einen Benutzer zuweisen, nachdem ein Skype for Business Online-Serviceplan ungültig ist Fehler. '
-ms.openlocfilehash: f683a3f12e9149017c5f62375f188360a03f0e9fd8bb286f1e44f09b2c2b6ef7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Hier erfahren Sie, wo Sie einen gültigen Dienstplan für einen Benutzer zuweisen, nachdem ein ungültiger Skype for Business Online-Serviceplan ungültig ist. '
+ms.openlocfilehash: 54ee5a1ba4e580c70d07930f99a084f60aede177
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314961"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592019"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Der Online-Skype for Business des Benutzers ist ungültig
 
@@ -34,7 +34,7 @@ ms.locfileid: "54314961"
 
 Der diesem Benutzer Skype for Business Online-Dienstplan wird leider nicht erkannt oder ist ungültig.
   
-Wechseln Sie *zur* Microsoft 365 Admin Center * **>,** und weisen Sie diesem Benutzer einen gültigen Serviceplan zu.
+Wechseln Sie zu *Microsoft 365 Admin Center** **>,** und weisen Sie diesem Benutzer einen gültigen Serviceplan zu.
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

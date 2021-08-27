@@ -9,22 +9,22 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Erfahren Sie mehr über die Front-End-Poolverwaltung in Skype for Business Server, einschließlich der Verwaltung von Pools, Quorumverlust und spezieller Schritte für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276620"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585009"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
 Erfahren Sie mehr über die Front-End-Poolverwaltung in Skype for Business Server, einschließlich der Verwaltung von Pools, Quorumverlust und spezieller Schritte für Pools mit nur zwei Front-End-Servern.
   
-In Skype for Business Server verwendet die Architektur von Front-End-Pools ein verteiltes Systemmodell, wobei die Daten jedes Benutzers auf bis zu drei Front-End-Servern im Pool gespeichert werden. Es wird empfohlen, dass alle Enterprise Edition Front-End-Pools mindestens drei Front-End-Server enthalten.
+In Skype for Business Server verwendet die Architektur von Front-End-Pools ein Modell verteilter Systeme, wobei die Daten jedes Benutzers auf bis zu drei Front-End-Servern im Pool gespeichert werden. Es wird empfohlen, dass alle Enterprise Edition Front-End-Pools mindestens drei Front-End-Server enthalten.
 
 > [!NOTE]
 > Skype for Business Server 2019 unterstützt Enterprise Edition Front-End-Pools mit zwei Front-End-Servern nicht und lässt nicht zu, dass die Topologie in diesem Szenario veröffentlicht wird.
@@ -45,18 +45,18 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
   
 |Gesamtanzahl der Server im Pool  <br/> |Anzahl der Server, die ausgeführt werden müssen, damit der Pool zum ersten Mal gestartet wird  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
-|3  <br/> |3  <br/> |
-|4   <br/> |3  <br/> |
+|2   <br/> |1   <br/> |
+|3   <br/> |3   <br/> |
+|4   <br/> |3   <br/> |
 |5   <br/> |4   <br/> |
 |6   <br/> |5   <br/> |
 |7   <br/> |5   <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
-|11  <br/> |9   <br/> |
+|11   <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
-|16 **Für Skype for Business Server 2019** <br/> |12   <br/> |
+|16 **For Skype for Business Server 2019** <br/> |12   <br/> |
 
 
    
@@ -71,7 +71,7 @@ Damit ein Front-End-Pool überhaupt funktioniert, kann der Quorumverlust auf Poo
   
 |Gesamtanzahl der Front-End-Server im Pool  <br/> |Anzahl der Server, die für die korrekte Funktionsweise des Pools ausgeführt werden müssen  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|2   <br/> |1   <br/> |
 |3-4  <br/> |Beliebige 2  <br/> |
 |5-6  <br/> |Beliebige 3  <br/> |
 |7   <br/> |Beliebige 4  <br/> |
@@ -82,7 +82,7 @@ Damit ein Front-End-Pool überhaupt funktioniert, kann der Quorumverlust auf Poo
 In der obigen Tabelle sind die "ersten Server" die Server, die beim ersten Start des Pools chronologisch zuerst gestartet wurden. Um diese Server zu ermitteln, können Sie das  `Get-CsComputer` Cmdlet mit der Option `-PoolFqdn` verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der sie in der Topologie angezeigt werden, und die Server am Anfang der Liste sind die ersten Server.
   
 > [!IMPORTANT]
-> Die maximale Anzahl von Front-End-Servern wurde in [Skype for Business Server 2019 auf 16](../../../SfBServer2019/plan/user-model-2019.md) erhöht.
+> Die maximale Anzahl von Front-End-Servern wurde Skype for Business Server [2019 auf 16](../../../SfBServer2019/plan/user-model-2019.md) erhöht.
 > 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Zusätzliche Schritte, um sicherzustellen, dass Pools funktionsfähig sind
 

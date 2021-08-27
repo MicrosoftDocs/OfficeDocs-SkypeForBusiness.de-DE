@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Komponenten und Topologien des Servers für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: 7aadfd9f899fd2f28e9ae628e9f2c7221cfdd61b545fa393379c370d5d3b59dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289543"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598739"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planen der Topologie des Servers für beständigen Chat
  
@@ -44,7 +44,7 @@ Der Server für beständigen Chat besteht aus den folgenden Komponenten:
     > [!NOTE]
     > In der Back-End-Datenbank werden Chatverlaufsdaten gespeichert, einschließlich Informationen zu Kategorien und erstellten Chatrooms für beständige Chatrooms. 
   
-- Wenn die Kompatibilität aktiviert ist, führt ein oder mehrere Server (mehrere, wenn Spiegelung verwendet wird) die SQL Server Back-End-Datenbank zum Hosten der Datenbank für die Kompatibilität des beständigen Chats aus, auf denen Complianceereignisse und Chatinhalte zum Zweck der Compliance gespeichert werden.
+- Wenn die Kompatibilität aktiviert ist, führt ein oder mehrere Server (mehrere, wenn die Spiegelung verwendet wird) die SQL Server Back-End-Datenbank zum Hosten der Konformitätsdatenbank für beständigen Chat aus, auf dem Complianceereignisse und Chatinhalte zum Zweck der Compliance gespeichert werden.
     
 Ausführliche Informationen zu den Hardware- und Softwareanforderungen für den Server für beständigen Chat finden Sie unter [Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Hardware- und Softwareanforderungen für den Server für beständigen Chat in Skype for Business Server 2015.](hardware-and-software-requirements.md) 
   
@@ -62,7 +62,7 @@ Sie können den Server für beständigen Chat in Einem- oder Mehrere-Server-Pool
     
 Obwohl Sie den Server für beständigen Chat auf einem Standard Edition Server bereitstellen können, beachten Sie, dass Leistung und Skalierung beeinträchtigt werden und hohe Verfügbarkeit keine Option ist. Daher wird empfohlen, den beständigen Chat auf einem Standard Edition Server in erster Linie für Machbarkeitsstudien und Evaluierungszwecke bereitzustellen. 
   
-Skype for Business Server 2015 unterstützt eine Vielzahl von Kollokationsszenarien und bietet Ihnen die Flexibilität, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf verschiedenen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung benötigt). Sie sollten Skalierbarkeitsfaktoren berücksichtigen, bevor Sie entscheiden, ob Komponenten gemeinsam verwendet werden sollen. Kollokationsszenarien unterscheiden sich für Skype for Business Server 2015 Enterprise Edition und Standard Edition Server. 
+Skype for Business Server 2015 unterstützt eine Vielzahl von Kollokationsszenarien und bietet Ihnen die Flexibilität, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf verschiedenen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung benötigt). Sie sollten Skalierbarkeitsfaktoren berücksichtigen, bevor Sie entscheiden, ob Komponenten gemeinsam verwendet werden sollen. Kollokationsszenarien unterscheiden sich für Skype for Business Server 2015-Enterprise Edition- und Standard Edition server. 
   
 In den folgenden Abschnitten werden die Topologien ausführlicher beschrieben, einschließlich Kollokationsszenarien und Optionen für die Back-End-Datenbankserver. Ausführliche Informationen zur Kollokation aller Serverrollen und Datenbanken finden Sie unter [Topologiegrundlagen für Skype for Business Server 2015.](../../plan-your-deployment/topology-basics/topology-basics.md)
   

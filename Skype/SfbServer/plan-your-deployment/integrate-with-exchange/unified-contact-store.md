@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: 'Zusammenfassung: Lesen Sie dieses Thema bei der Planung der Integration von Skype for Business Server in Exchange 2013.'
-ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Exchange 2013 zu integrieren.'
+ms.openlocfilehash: 711340ebe7ef2b71d56bfefbb23fe50c0c230f82
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584999"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planen des einheitlichen Kontaktspeichers in Skype for Business Server 2015
  
 **Zusammenfassung:** Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Exchange 2013 oder 2016 zu integrieren.
   
-Der einheitliche Kontaktspeicher bietet eine konsistente Kontakterfahrung in Microsoft Office Produkten und ermöglicht Benutzern das Speichern aller Kontaktinformationen in Exchange 2013, ermöglicht jedoch die globale Verfügbarkeit der Informationen über Skype for Business, Exchange, Outlook und Outlook Web Access hinweg.
+Der einheitliche Kontaktspeicher bietet eine konsistente Kontakterfahrung über Microsoft Office Produkte hinweg und ermöglicht Benutzern das Speichern aller Kontaktinformationen in Exchange 2013, ermöglicht jedoch die globale Verfügbarkeit der Informationen in Skype for Business, Exchange, Outlook und Outlook Web Access.
   
 ## <a name="requirements-for-unified-contact-store"></a>Anforderungen für den einheitlichen Kontaktspeicher
 

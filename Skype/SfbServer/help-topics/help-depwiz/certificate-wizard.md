@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernen und anzeigen. Sie müssen als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Um ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anzufordern, müssen Sie bestätigen, welche zusätzlichen Gruppenmitgliedschaften Erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle Ihrer PKI anzufordern.
-ms.openlocfilehash: 03c4cd91137f30206d7a1e2076e2e2bdf72080b9221f0857b4f2e08b5df603b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489c4218a062c17bc4b7a8979b2ff9a68cd4cd29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299881"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605214"
 ---
 # <a name="certificate-wizard"></a>Zertifikat-Assistent
  

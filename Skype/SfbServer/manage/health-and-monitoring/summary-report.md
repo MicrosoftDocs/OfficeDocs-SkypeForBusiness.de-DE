@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Anrufdiagnosebericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 35b6a9ac84bf504b218200ec2ac49e6f19632e520eba90335e9ab0257f4bcfcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281838"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585079"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Zusammenfassender Anrufdiagnosebericht in Skype for Business Server
  
@@ -37,7 +37,7 @@ Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlge
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Zugriff auf den zusammenfassenden Anrufdiagnosebericht
 
-Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Über den zusammenfassenden Anrufdiagnosebericht können Sie auf den [Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, indem Sie im Abschnitt "Peer-to-Peer-Sitzungszusammenfassung" des Berichts auf die Metrik "Fehlerrate" klicken. Sie können auch auf den [Diagnosebericht](conference-diagnostic-report.md) über die Konferenz in Skype for Business Server zugreifen, indem Sie auf eine der folgenden Konferenzmetriken klicken:
+Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Über den zusammenfassenden Anrufdiagnosebericht können Sie auf den [Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, indem Sie im Abschnitt "Peer-to-Peer-Sitzungszusammenfassung" des Berichts auf die Metrik "Fehlerrate" klicken. Sie können auch auf den Diagnosebericht über [Konferenzen in Skype for Business Server](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Konferenzmetriken klicken:
   
 - Sitzungsfehlerrate insgesamt
     
