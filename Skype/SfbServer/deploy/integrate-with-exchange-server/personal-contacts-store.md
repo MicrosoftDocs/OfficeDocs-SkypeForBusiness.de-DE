@@ -10,20 +10,20 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Zusammenfassung: Konfigurieren des persönlichen Kontaktspeichers, der von älteren Clients verwendet wird.'
-ms.openlocfilehash: 806bdf8ac43c8126e0537ccb121cbc521066aab6cd42c7136d0d8b951d5b9d19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1be9aa65c9f2080f3ef775c330dad3c88f2fbf75
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319458"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621737"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Konfigurieren des persönlichen Kontaktspeichers auf Lync 2010-Clientcomputern
   
-Wenn Sie Skype for Business Server 2015 und Exchange Server 2016 oder Exchange Server 2013 integrieren, sollten Sie den von den Clients verwendeten persönlichen Kontaktspeicher konfigurieren. Insbesondere sollten Sie Skype for Business so konfigurieren, dass sie Exchange als persönlichen Kontaktspeicher verwenden, und gleichzeitig sicherstellen, dass Benutzer diese Entscheidung nicht außer Kraft setzen können. Dies kann durch Erstellen und Konfigurieren eines Registrierungswerts auf jedem Clientcomputer erfolgen.
+Wenn Sie Skype for Business Server 2015 und Exchange Server 2016 oder Exchange Server 2013 integrieren, sollten Sie den von den Clients verwendeten persönlichen Kontaktspeicher konfigurieren. Insbesondere sollten Sie Skype for Business so konfigurieren, dass sie Exchange als persönlichen Kontaktspeicher verwenden und gleichzeitig sicherstellen, dass Benutzer diese Entscheidung nicht außer Kraft setzen können. Dies kann durch Erstellen und Konfigurieren eines Registrierungswerts auf jedem Clientcomputer erfolgen.
   
 > [!NOTE]
 > Das folgende Verfahren ist nur für Clients erforderlich, die den Lync 2010-Client oder frühere Versionen verwenden. Der Lync 2013-Client und alle Skype for Business-Clients haben nicht die Möglichkeit, die Kontaktspeichereinstellungen zu überschreiben.

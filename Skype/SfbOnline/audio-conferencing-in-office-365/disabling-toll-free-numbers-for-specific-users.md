@@ -1,5 +1,5 @@
 ---
-title: Deaktivieren von gebührenfreien Telefonnummern für Skype for Business Online-Benutzer
+title: Deaktivieren von gebührenfreien Telefonnummern für bestimmte Skype for Business Online-Benutzer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für Ihre Besprechungen verwenden können.
-ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Administratoren können steuern, wie Organisatoren gebührenfreie Nummern für ihre Besprechungen verwenden können.
+ms.openlocfilehash: 5ae82a1eef27793f700c50936e9dec37cd6c9ddd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587935"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deaktivieren von gebührenfreien Telefonnummern für Skype for Business Online-Benutzer
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deaktivieren von gebührenfreien Telefonnummern für bestimmte Skype for Business Online-Benutzer
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
  
 > [!Note]
-> Informationen zum Deaktivieren von gebührenfreien Nummern für Teams Benutzer finden Sie unter Deaktivieren von gebührenfreien Telefonnummern [für Teams Benutzer.](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)
+> Informationen zum Deaktivieren von gebührenfreien Nummern für Teams Benutzer finden Sie unter Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer [Teams Benutzer.](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)
 
 Wenn Ihre Microsoft Audio Conferencing Bridge gebührenfreie Telefonnummern verwendet, können Sie deren Nutzung in Besprechungen bestimmter Organisatoren zulassen oder verhindern.  
 
@@ -53,7 +53,7 @@ Wenn gebührenfreie Telefonnummern für einen bestimmten Organisator deaktiviert
 
 Im **Microsoft Teams Admin Center:**
 
-1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie **neben Audiokonferenz** auf **Bearbeiten**.
 

@@ -17,29 +17,29 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Der Administrator kann erfahren, wie Sie Audio conferencing (Audiokonferenz) mit Direct Routing in GCCH- und DoD-Umgebungen verwenden.
+ms.localizationpriority: medium
+description: Administratoren erfahren, wie Sie Audio conferencing (Audiokonferenz) mit Direct Routing in GCCH- und DoD-Umgebungen verwenden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 941d9b18944b0e521fdd3b8c2a830a123eb9c1d30d06aa8f9be21990f9e84f5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4137aaa3157d680d7758e425db1e9d09dcf9e612
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578429"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
-Audiokonferenzen mit Direct Routing für GCC High und DoD ermöglichen Teilnehmern die Teilnahme an Teams-Besprechungen in Ihrer GCC High- oder DoD-Organisation über ein Telefongerät. Besprechungsteilnehmer bevorzugen möglicherweise ein Telefongerät für die Teilnahme an Teams-Besprechungen in Szenarien, z. B. wenn die Internetverbindung eingeschränkt ist oder Benutzer unterwegs sind und keinen Zugriff auf Teams. Teilnehmer können an Besprechungen teilnehmen, indem sie sich entweder bei einer Einwahltelefonnummer für Ihre Organisation einwählen oder die Besprechung auf ihrem Telefongerät anrufen lassen.
+Audiokonferenzen mit Direct Routing für GCC High und DoD ermöglichen Teilnehmern die Teilnahme an Teams-Besprechungen in Ihrer GCC High- oder DoD-Organisation über ein Telefongerät. Besprechungsteilnehmer bevorzugen möglicherweise ein Telefongerät für die Teilnahme an Teams-Besprechungen in Szenarien, z. B. wenn die Internetverbindung eingeschränkt ist oder Benutzer unterwegs sind und keinen Zugang zu Teams. Teilnehmer können an Besprechungen teilnehmen, indem sie sich entweder bei einer Einwahltelefonnummer für Ihre Organisation einwählen oder die Besprechung auf ihrem Telefongerät anrufen lassen.
 
-Mit Audiokonferenzen mit Direct Routing für GCC High und DoD verwendet Ihre Organisation eigene Nummern als Einwahltelefonnummern, und alle Einwahlkonferenzen an Telefongeräte werden über Direct Routing geroutet. Um den Dienst zu aktivieren, müssen Organisationen Direct Routing einrichten und Telefonnummern konfigurieren, die als Einwahltelefonnummern verwendet werden können. Die Anforderung zur Verwendung von Direct Routing ist anders als der Audiokonferenzdienst, der für Nicht-GCC High- und Nicht-DoD-Organisationen angeboten wird, bei denen die Einwahltelefonnummern von Microsoft bereitgestellt werden.
+Mit Audiokonferenzen mit Direct Routing für GCC High und DoD verwendet Ihre Organisation eigene Nummern als Einwahltelefonnummern, und alle Einwahlkonferenzen zu Telefongeräten werden über Direct Routing geroutet. Um den Dienst zu aktivieren, müssen Organisationen Direct Routing einrichten und Telefonnummern konfigurieren, die als Einwahltelefonnummern verwendet werden können. Die Anforderung zur Verwendung von Direct Routing ist anders als der Audiokonferenzdienst, der für Nicht-GCC High- und Nicht-DoD-Organisationen angeboten wird, bei denen die Einwahltelefonnummern von Microsoft bereitgestellt werden.
 
 ## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Bereitstellen von Audiokonferenzen mit Direct Routing für GCC High und DoD
 
 ### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>Schritt 1: Erhalten von Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen 
 
-Wenn Sie Audiokonferenzen in GCC High oder DoD verwenden möchten, müssen Ihre Organisation und die Benutzer in Ihrer Organisation über eine Lizenz für Audiokonferenzen mit Direct Routing verfügen. Hier sind die Lizenzen, die Sie benötigen, um Audiokonferenzen mit Direct Routing für GCC High oder DoD zu aktivieren.
+Um Audiokonferenzen in GCC High oder DoD verwenden zu können, muss Ihrer Organisation und den Benutzern in Ihrer Organisation eine Lizenz für Audiokonferenzen mit Direct Routing zugewiesen sein. Hier sind die Lizenzen, die Sie zum Aktivieren von Audiokonferenzen mit Direct Routing für GCC High oder DoD benötigen.
 
-- GCC Hoch: Eine Audiokonferenz – GCC Lizenz für hohe Mandanten für Ihre Organisation und Audiokonferenzen – GCC Hohe Lizenzen für Ihre Benutzer.
+- GCC Hoch: Eine Audiokonferenz – GCC Lizenz für hohe Mandanten für Ihre Organisation und Audiokonferenz – GCC hohe Lizenzen für Ihre Benutzer.
 
 - DoD: Eine Lizenz für Audiokonferenzen – DoD Tenant für Ihre Organisation und Audiokonferenz – DoD-Lizenzen für Ihre Benutzer.
 
@@ -94,10 +94,10 @@ Sie können die ID Ihrer Audiokonferenzbrücke mithilfe von Get-CsOnlineDialInCo
 
 ### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>Schritt 4: Definieren einer globalen Voiceroutingrichtlinie zum Aktivieren des Routings ausgehender Anrufe von Besprechungen
 
-Das Routing ausgehender Anrufe an das PSTN von Besprechungen, die von Benutzern in Ihrer Organisation organisiert werden, wird durch die globale Voiceroutingrichtlinie Ihrer Organisation definiert. Wenn für Ihre Organisation eine globale Voiceroutingrichtlinie definiert ist, überprüfen Sie, ob die globale Voiceroutingrichtlinie ausgehende Anrufe an das PSTN zulässt, die aus Besprechungen initiiert werden sollen, die von Benutzern in Ihrer Organisation organisiert wurden. Wenn für Ihre Organisation keine globale Voiceroutingrichtlinie definiert ist, müssen Sie eine richtlinie definieren, um das Routing ausgehender Anrufe von Besprechungen an das PSTN zu ermöglichen, die von Benutzern in Ihrer Organisation organisiert werden. Beachten Sie, dass die globale Voiceroutingrichtlinie Ihrer Organisation auch für 1:1-Anrufe gilt, die von Benutzern in Ihrer Organisation an das PSTN vorgenommen werden. Wenn 1:1-Anrufe bei der PSTN-Verbindung für Benutzer in Ihrer Organisation aktiviert sind, stellen Sie sicher, dass die globale Voiceroutingrichtlinie den Anforderungen Ihrer Organisation an beide Arten von Anrufen entspricht. 
+Das Routing ausgehender Anrufe an das PSTN von Besprechungen, die von Benutzern in Ihrer Organisation organisiert werden, wird durch die globale Voiceroutingrichtlinie Ihrer Organisation definiert. Wenn für Ihre Organisation eine globale Voiceroutingrichtlinie definiert ist, stellen Sie sicher, dass die globale Voiceroutingrichtlinie ausgehende Anrufe an das PSTN zulässt, die von Besprechungen initiiert werden sollen, die von Benutzern in Ihrer Organisation organisiert werden. Wenn für Ihre Organisation keine globale Voiceroutingrichtlinie definiert ist, müssen Sie eine richtlinie definieren, um das Routing ausgehender Anrufe von Besprechungen an das PSTN zu ermöglichen, die von Benutzern in Ihrer Organisation organisiert werden. Bitte beachten Sie, dass die globale Voiceroutingrichtlinie Ihrer Organisation auch für 1:1-Anrufe gilt, die von Benutzern in Ihrer Organisation an das PSTN vorgenommen werden. Wenn 1:1-Anrufe bei der PSTN-Verbindung für Benutzer in Ihrer Organisation aktiviert sind, stellen Sie sicher, dass die globale Voiceroutingrichtlinie den Anforderungen Ihrer Organisation an beide Arten von Anrufen entspricht. 
 
 > [!NOTE]
-> Location-Based Routing ist in Bereitstellungen mit hohen Microsoft 365 Government Community Cloud (GCC) oder DoD nicht verfügbar. Stellen Sie beim Aktivieren von Audiokonferenzen sicher, dass keine Audiokonferenzbenutzer in der GCC High- oder DoD-Umgebung für das Routing Location-Based sind.
+> Location-Based Routing ist in Bereitstellungen mit hohen Microsoft 365 Government Community Cloud (GCC) oder DoD nicht verfügbar. Stellen Sie beim Aktivieren von Audiokonferenzen sicher, dass keine Benutzer von Audiokonferenzen in der GCC High- oder doD-Umgebung für das Routing Location-Based sind.
 
 #### <a name="defining-a-global-voice-routing-policy"></a>Definieren einer globalen Voiceroutingrichtlinie
 
@@ -131,7 +131,7 @@ Verwenden Sie zum Erstellen einer neuen Voice Routing-Richtlinie den folgenden B
   New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
   ```
 
-Wenn in der Sprachroutingrichtlinie mehrere PSTN-Nutzungen definiert sind, werden sie in der Reihenfolge ausgewertet, in der sie definiert sind. Es wird empfohlen, die PSTN-Nutzungen in der Reihenfolge der spezifischesten für die allgemeineren in Bezug auf die Nummernmuster der Sprachrouten, die den PSTN-Nutzungen zugeordnet sind, zu definieren. Wenn beispielsweise eine PSTN-Nutzung zum Weiterleiten von Anrufen an die USA und eine andere PSTN-Nutzung zum Weiterleiten von Anrufen an einen beliebigen anderen Ort weltweit definiert wurde, sollte die PSTN-Nutzung für Anrufe in die USA in der Sprachroutingrichtlinie vor der PSTN-Nutzung aufgeführt sein, um Anrufe an andere Standorte in der Welt weiter zu routen.
+Wenn in der Sprachroutingrichtlinie mehrere PSTN-Nutzungen definiert sind, werden sie in der Reihenfolge ausgewertet, in der sie definiert sind. Es wird empfohlen, die PSTN-Nutzungen in der Reihenfolge der spezifischesten für die allgemeineren in Bezug auf die Nummernmuster der Sprachrouten, die den PSTN-Nutzungen zugeordnet sind, zu definieren. Wenn beispielsweise eine PSTN-Nutzung definiert wurde, um Anrufe in die USA weiter zu routen, und eine andere PSTN-Nutzung zum Weiterleiten von Anrufen an einen beliebigen anderen Ort auf der Welt definiert wurde, sollte die PSTN-Nutzung für Anrufe in die VEREINIGTEN Staaten in der Sprachroutingrichtlinie vor der PSTN-Nutzung aufgeführt werden, um Anrufe an andere Standorte in der Welt weiter zu routen.
 
 Weitere Informationen finden Sie unter [New-CsOnlineVoiceRoutingPolicy.](/powershell/module/skype/new-csonlinevoiceroutingpolicy)
 
@@ -147,7 +147,7 @@ Nachdem die globale Voiceroutingrichtlinie definiert wurde, werden alle ausgehen
 
 ### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Schritt 5: Zuweisen von Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen zu Ihren Benutzern
 
-Informationen zum Zuweisen von Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen finden Sie unter Zuweisen von [Lizenzen zu Benutzern.](/microsoft-365/admin/manage/assign-licenses-to-users)
+Informationen zum Zuweisen von Audiokonferenzen mit Direct Routing für GCC High- oder DoD-Lizenzen zu Einem Benutzer finden Sie unter Zuweisen von [Lizenzen zu Benutzern.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Schritt 6: (Optional) Sie sehen eine Liste der Audiokonferenznummern in Teams
 
@@ -163,7 +163,7 @@ Informationen zum Ändern der Einstellungen der Audiokonferenzbrücke Ihrer Orga
 
 ### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>Schritt 9: (Optional) Festlegen der Telefonnummern, die in den Besprechungsteilnehmern der Benutzer in Ihrer Organisation enthalten sind
 
-Informationen zum Ändern der Telefonnummern, die in den Besprechungsanrufen der Benutzer enthalten sind, sind in Ihrer Organisation enthalten. Informationen dazu finden Sie unter Festlegen der In Einladungen enthaltenen Telefonnummern [in Microsoft Teams.](set-the-phone-numbers-included-on-invites-in-teams.md)
+Informationen zum Ändern der Gruppe von Telefonnummern, die in den Besprechungsanrufen der Benutzer enthalten sind, sind in Ihrer Organisation enthalten. Informationen dazu finden Sie unter Festlegen der In Einladungen enthaltenen Telefonnummern [in Microsoft Teams.](set-the-phone-numbers-included-on-invites-in-teams.md)
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzfunktionen werden in Audiokonferenzen mit Direct Routing für GCC High und DoD nicht unterstützt
 

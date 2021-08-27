@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Zusammenfassung: Integrieren von Skype for Business Server und Outlook Web App.'
-ms.openlocfilehash: e3bee7a66ec054e316f50ce86839b86d4ecb16ea2333302b12dedb408580c4f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9edbd804347cd8eba8db609c73066b9030c73ba7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331857"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621757"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Konfigurieren der Integration zwischen lokalen Skype for Business Server und Outlook Web App
 
@@ -35,7 +35,7 @@ Kunden, die lokale Skype for Business Server-Bereitstellungen verwenden, können
 
 ## <a name="configure-a-shared-sip-address-space"></a>Konfigurieren eines freigegebenen SIP-Adressraums
 
-Um lokale Skype for Business Server in Exchange Online zu integrieren, müssen Sie einen freigegebenen SIP-Adressraum konfigurieren. Derselbe SIP-Domänenadressraum wird sowohl von Skype for Business Server als auch vom Exchange Online-Dienst unterstützt.
+Um lokale Skype for Business Server in Exchange Online zu integrieren, müssen Sie einen freigegebenen SIP-Adressraum konfigurieren. Derselbe SIP-Domänenadressraum wird sowohl von Skype for Business Server als auch vom Exchange Online Dienst unterstützt.
 
 Konfigurieren Sie mithilfe der Skype for Business Server Verwaltungsshell den Edgeserver für den Partnerverbund, indem Sie das Cmdlet **"Set-CSAccessEdgeConfiguration"** mithilfe der im folgenden Beispiel angezeigten Parameter ausführen:
 
@@ -56,9 +56,9 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 ```
 
 > [!NOTE]
-> Wenn Sie Microsoft 365 oder Office 365 von 21Vianet in China verwenden, ersetzen Sie den Wert für den ProxyFqdn-Parameter in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für den Dienst, der von 21Vianet betrieben wird: "exap.um.partner.outlook.cn". Wenn Sie Microsoft 365 oder Office 365 GCC High verwenden, ersetzen Sie den Wert für den Parameter ProxyFqdn in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für GCC High: "exap.um.office365.us".
+> Wenn Sie Microsoft 365 oder Office 365, betrieben von 21Vianet in China, verwenden, ersetzen Sie den Wert für den ProxyFqdn-Parameter in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für den Von 21Vianet betriebenen Dienst: "exap.um.partner.outlook.cn". Wenn Sie Microsoft 365 oder Office 365 GCC High verwenden, ersetzen Sie den Wert für den Parameter ProxyFqdn in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für GCC High: "exap.um.office365.us".
 
-- **Identität** gibt einen eindeutigen Zeichenfolgenwertbezeichner für den Hostinganbieter an, den Sie erstellen (z. B. "Exchange Online"). Werte, die Leerzeichen enthalten, müssen in Anführungszeichen gesetzt werden.
+- **Die Identität** gibt einen eindeutigen Zeichenfolgenwertbezeichner für den Hostinganbieter an, den Sie erstellen (z. B. "Exchange Online"). Werte, die Leerzeichen enthalten, müssen in Anführungszeichen gesetzt werden.
 
 - **Enabled** gibt an, ob die Netzwerkverbindung zwischen Ihrer Domäne und dem Hostinganbieter aktiviert ist. Dieser Parameter muss auf TRUE festgelegt werden.
 

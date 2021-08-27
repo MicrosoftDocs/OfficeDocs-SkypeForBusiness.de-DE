@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Zusammenfassung: Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.'
-ms.openlocfilehash: 778603c2ae455fc20e3de6e6825c4cfe5b230eaa8b59323cbb7a25ff91bbca02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d82a8aa665a699e7589a3a477023be55ea0407ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621797"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Skype for Business Server
  
@@ -27,16 +27,16 @@ ms.locfileid: "54330499"
   
 In Skype for Business Server können Fotos im Postfach Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online eines Benutzers gespeichert werden, das Fotogrößen von bis zu 648 x 648 Pixeln zulässt. Darüber hinaus können Exchange Server die Größe dieser Fotos für die Verwendung in verschiedenen Produkten nach Bedarf automatisch ändern. Dies bedeutet in der Regel drei verschiedene Fotogrößen und Auflösungen:
   
-- 64 x 64 Pixel, die Für das Active Directory thumbnailPhoto-Attribut verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, erstellt Exchange automatisch eine 64 x 64 Pixel große Version dieses Fotos und aktualisiert das ThumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass der Umgekehrte nicht zutrifft: Wenn Sie das ThumbnailPhoto-Attribut in Active Directory manuell aktualisieren, wird das Foto im Exchange Postfach des Benutzers nicht automatisch aktualisiert.
+- 64 x 64 Pixel, die Für das Active Directory thumbnailPhoto-Attribut verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, erstellt Exchange automatisch eine Version dieses Fotos mit 64 x 64 Pixeln und aktualisiert das thumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass der Umgekehrte nicht zutrifft: Wenn Sie das ThumbnailPhoto-Attribut in Active Directory manuell aktualisieren, wird das Foto im Exchange Postfach des Benutzers nicht automatisch aktualisiert.
     
 - 96 x 96 Pixel für die Verwendung in Microsoft Outlook 2013 Web App, Microsoft Outlook 2013, Skype for Business-Web-App und Skype for Business.
     
 - 648 x 648 Pixel für die Verwendung in Skype for Business und Skype for Business-Web-App Skype for Business-Web-App.
     
 > [!NOTE]
-> Wenn Sie über die Ressourcen verfügen, wird empfohlen, 648 x 648 Fotos hochzuladen. die maximale Auflösung und optimale Bildqualität in allen Office 2013-Anwendungen bietet. Jedes JPEG-Foto mit einer Größe von 648 x 648 und einer Tiefe von 24 Bit ergibt eine Dateigröße von ca. 240 KB. Das bedeutet, dass Sie für alle vier Benutzerfotos ca. 1 MB Speicherplatz benötigen. 
+> Wenn Sie über die Ressourcen verfügen, wird empfohlen, 648 x 648 Fotos hochzuladen. bietet die maximale Auflösung und optimale Bildqualität in allen Office 2013-Anwendungen. Jedes JPEG-Foto mit einer Größe von 648 x 648 und einer Tiefe von 24 Bit ergibt eine Dateigröße von ca. 240 KB. Das bedeutet, dass Sie für alle vier Benutzerfotos ca. 1 MB Speicherplatz benötigen. 
   
-Fotos mit hoher Auflösung, auf die mit Exchange Webdiensten zugegriffen wird, können von Benutzern hochgeladen werden, die Outlook 2013 Web App ausführen. Benutzer dürfen nur ihr eigenes Foto aktualisieren. Administratoren können das Foto jedoch für jeden Benutzer aktualisieren, indem sie die Exchange-Verwaltungsshell und eine Reihe von Windows PowerShell Befehlen wie die folgenden verwenden:
+Fotos mit hoher Auflösung, auf die mit Exchange Webdiensten zugegriffen wird, können von Benutzern hochgeladen werden, die Outlook 2013 Web App ausführen. Benutzer dürfen nur ihr eigenes Foto aktualisieren. Administratoren können das Foto jedoch für jeden Benutzer aktualisieren, indem sie die Exchange Verwaltungsshell und eine Reihe von Windows PowerShell Befehlen verwenden, die den folgenden ähneln:
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))

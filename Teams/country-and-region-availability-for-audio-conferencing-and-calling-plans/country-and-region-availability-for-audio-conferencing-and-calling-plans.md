@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: 7711f9a978b3733dd305f5b35a125bfe2ea1c19555262d860205fb38b7530eae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cf9eaf4dab9fa52fc077e964874182d85bf73d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578379"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -187,7 +187,7 @@ Weitere Informationen zu Audiokonferenz finden Sie unter [Allgemeine Fragen zu A
 In Audiokonferenzen wird die *Funktion*"Rückruf" verwendet, damit andere Personen an einer Einwahl-Besprechung teilnehmen können. Verwenden Sie die Dropdownliste in diesem Artikel, um nach dem Land/der Region zu suchen und zu sehen, ob dieses Feature verfügbar ist.
 
 > [!CAUTION]
-> Gebührenfreie oder kostenlose Telefonnummern können möglicherweise nicht gewählt werden, da einige gebührenfreie Nummern nur innerhalb eines bestimmten Landes oder einer bestimmten Region innerhalb eines Landes funktionieren. Wenn Sie beispielsweise aus den USA eine gebührenfreie Nummer in Brasilien anrufen, ist der Anruf möglicherweise nicht erfolgreich, da der Anruf nicht aus Brasilien oder einer bestimmten Region innerhalb von Brasilien stammt. Die Möglichkeit, gebührenfreie Nummern anwählen zu können, hängt von den Einschränkungen der gewählten gebührenfreien Nummer ab. Leider können wir dieses Verhalten nicht kontrollieren, und daher kann Ihre Erfahrung je nach gewählter gebührenfreier Nummer und Einschränkungen der gebührenfreien Nummer variieren.
+> Gebührenfreie oder kostenlose Telefonnummern können möglicherweise nicht gewählt werden, da einige gebührenfreie Nummern nur innerhalb eines bestimmten Landes oder einer bestimmten Region innerhalb eines Landes funktionieren. Wenn Sie beispielsweise aus den USA eine gebührenfreie Nummer in Brasilien anrufen, ist der Anruf möglicherweise nicht erfolgreich, da der Anruf nicht aus Brasilien oder einer bestimmten Region innerhalb von Brasilien stammt. Die Möglichkeit, gebührenfreie Nummern anwählen, hängt von den Einschränkungen der gewählten gebührenfreien Nummer ab. Leider können wir dieses Verhalten nicht kontrollieren, und daher kann Ihre Erfahrung je nach gewählter gebührenfreier Nummer und Einschränkungen der gebührenfreien Nummer variieren.
   
 Das Abwählen aus einer Besprechung in ein anderes Land bzw. eine andere Region der Welt, die unten nicht aufgeführt ist, ist über Guthaben [für Kommunikationen verfügbar.](../what-are-communications-credits.md) Für diese Benutzer müssen Sie Guthaben für Kommunikationen [für Ihre Organisation einrichten.](../set-up-communications-credits-for-your-organization.md)
   
@@ -219,7 +219,7 @@ Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch m�
   
 Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Gebührenpflichtige Servicenummern erhalten Sie an diesen Standorten über Skype for Business **Admin Center.**
   
-Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer erhalten möchten, lesen Sie Abrufen [von Servicetelefonnummern](../getting-service-phone-numbers.md). Wenn Sie bereits über eine gebührenpflichtige oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, lesen Sie Verwalten von Telefonnummern [für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer erhalten möchten, lesen Sie Abrufen von [Servicetelefonnummern](../getting-service-phone-numbers.md). Wenn Sie bereits über eine gebührenpflichtige oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, lesen Sie Verwalten von Telefonnummern [für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 Mit der Dropdownliste oben auf der Seite können Sie nach einem Land oder einer Region suchen, um zu ermitteln, welche Dienste dort verfügbar sind.
 

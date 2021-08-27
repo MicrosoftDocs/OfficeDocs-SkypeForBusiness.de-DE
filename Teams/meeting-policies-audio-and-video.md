@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Audio und Video verwalten.
-ms.openlocfilehash: a14bcdf1780a1d10f0b9604727126591105dbed04fa8b663eab968a93f45ac67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327551"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578359"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für & Video
 
@@ -109,7 +109,7 @@ Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteil
 
 Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf Teams mobilen Clients steuert diese Einstellung, ob Benutzer Fotos und Videos in einer Besprechung teilen können.
 
-In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Richtlinieneinstellung aktiviert ist, ist die Videofreigabe durch die Teilnehmer zulässig, sofern die Richtlinieneinstellung für sie ebenfalls aktiviert ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer und Partner), erben die für den Besprechungsorganisator geltende Richtlinie.
+In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Richtlinieneinstellung aktiviert ist, ist die Videofreigabe durch die Teilnehmer zulässig, sofern die Richtlinieneinstellung für sie ebenfalls aktiviert ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. B. anonyme Teilnehmer und Partner), erben die für den Besprechungsorganisator geltende Richtlinie.
 
 > [!NOTE]
 > Beachten Sie, dass über diese Einstellung ausgehendes Video gesteuert wird, während über die Einstellung für den **Modus für IP-Video** sowohl eingehendes als auch ausgehendes Video gesteuert wird. Weitere Informationen hierzu finden Sie unter [Welche IP-Videorichtlinieneinstellung hat Vorrang?](#which-ip-video-policy-setting-takes-precedence) und [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
@@ -193,7 +193,7 @@ Wenn Sie festlegen möchten, ob Benutzer ihren Videohintergrund in einer Besprec
 
 ### <a name="allow-custom-background-settings"></a>Benutzerdefinierte Hintergrundeinstellungen zulassen
 
-Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Mit diesem Feature können Unternehmen Unternehmensbranding auf Ihre Teams anwenden.
+Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Dieses Feature ermöglicht Unternehmen, Unternehmensbranding auf Ihre Teams anzuwenden.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 

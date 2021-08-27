@@ -11,22 +11,22 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie Ihr Microsoft Teams-Räume auf eine bestimmte Version aktualisieren.
-ms.openlocfilehash: 2a37a6b1eb349d38d1579bf5c69822db8dac7dd0dd000e60bfdba034cdf62680
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578249"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Manuelles Aktualisieren Microsoft Teams-Räume Geräts
 
 Die Microsoft Teams-Räume-App wird über die App Microsoft Store. Updates für die App werden während der nächtlichen Wartung automatisch Microsoft Store installiert. dies ist die empfohlene Methode, um Updates zu erhalten. Es gibt jedoch einige Situationen, in denen ein Teams-Räume keine Updates vom Gerät empfangen Microsoft Store. Sicherheitsrichtlinien lassen beispielsweise möglicherweise nicht zu, dass Geräte eine Verbindung mit dem Internet herstellen, oder sie gestatten das Herunterladen von Apps aus Microsoft Store. Oder Sie möchten ein Gerät aktualisieren, bevor Sie das Setup durchführen, während dessen Microsoft Store nicht verfügbar ist.
 
-Wenn Sie keine Updates von Microsoft Store erhalten können, können Sie ein PowerShell-Skript für offline-App-Updates verwenden, um Ihre Teams-Räume-Geräte manuell auf eine neuere Version der Teams-Räume-App zu aktualisieren. Führen Sie die Schritte in diesem Artikel aus, um Ihre Teams-Räume zu aktualisieren.
+Wenn Sie keine Updates aus dem Microsoft Store erhalten können, können Sie ein PowerShell-Skript für offline-App-Updates verwenden, um Ihre Teams-Räume-Geräte manuell auf eine neuere Version der Teams-Räume-App zu aktualisieren. Führen Sie die Schritte in diesem Artikel aus, um Ihre Teams-Räume zu aktualisieren.
 
 > [!NOTE]
 > Mit diesem Vorgang kann nur ein Teams-Räume aktualisiert werden, auf dem die Teams-Räume-App bereits installiert ist. Er kann nicht zum Ausführen einer neuen Installation verwendet werden. Sie kann auch nicht verwendet werden, um die App auf eine ältere Version herunterstufen. Wenn Sie eine neue Installation der Teams-Räume-App ausführen möchten, wenden Sie sich an den Gerätehersteller, um spezifische Medien zu erhalten, oder lesen Sie Vorbereiten [der Installationsmedien.](console.md#prepare-the-installation-media)
@@ -48,7 +48,7 @@ Nachdem das Updateskript für die Offline-App heruntergeladen wurde, übertragen
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Schritt 2: Ausführen des Skripts zum Aktualisieren der Teams-Räume App
 
-Das Updateskript für Offline-Apps muss über eine Eingabeaufforderung mit erhöhten Rechten ausgeführt werden, während der Skype-Benutzer (der Benutzer, unter dem die App ausgeführt wird) noch angemeldet ist. Weitere Informationen dazu, wie Sie sich bei einem Administratorkonto anmelden, um die Eingabeaufforderung mit erhöhten Rechten zu verwenden, während der Skype-Benutzer noch angemeldet ist, finden Sie unter Wechseln in den Administratormodus und zurück, wenn die Microsoft Teams-Räume-App ausgeführt [wird.](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
+Das Skript für die Offline-App-Aktualisierung muss über eine Eingabeaufforderung mit erhöhten Rechten ausgeführt werden, während der Skype-Benutzer (der Benutzer, unter dem die App ausgeführt wird) noch angemeldet ist. Weitere Informationen dazu, wie Sie sich bei einem Administratorkonto anmelden, um die Eingabeaufforderung mit erhöhten Rechten zu verwenden, während der Skype-Benutzer noch angemeldet ist, finden Sie unter Wechseln in den Administratormodus und zurück, wenn die Microsoft Teams-Räume-App ausgeführt [wird.](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)
 
 Führen Sie die folgenden Schritte aus, um das Skript über eine Eingabeaufforderung mit erhöhten Rechten auszuführen:
 

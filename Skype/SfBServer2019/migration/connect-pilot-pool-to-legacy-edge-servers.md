@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Nach der Bereitstellung von Skype for Business Server 2019 müssen Sie eine Partnerverbundroute für Ihren Standort konfigurieren. Um die Verbundroute zu verwenden, die von der Legacyinstallation verwendet wird, muss Skype for Business Server 2019 für die Verwendung dieser Route konfiguriert sein.
-ms.openlocfilehash: 8e76dfc9ee99e2c4e82f40d3aba4aa8a43972c98e0569416ce293b2cfc012d96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Nach der Bereitstellung von Skype for Business Server 2019 müssen Sie eine Verbundroute für Ihren Standort konfigurieren. Um die Verbundroute zu verwenden, die von der Legacyinstallation verwendet wird, muss Skype for Business Server 2019 für die Verwendung dieser Route konfiguriert sein.
+ms.openlocfilehash: a5f5da34300d993f59d4de5e2eb0b47cc58eff0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607462"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Verbinden des Pilotpools mit Legacy-Edgeservern
 
-Nach der Bereitstellung von Skype for Business Server 2019 müssen Sie eine Partnerverbundroute für Ihren Standort konfigurieren. Um die Verbundroute zu verwenden, die von der Legacyinstallation verwendet wird, muss Skype for Business Server 2019 für die Verwendung dieser Route konfiguriert sein. 
+Nach der Bereitstellung von Skype for Business Server 2019 müssen Sie eine Verbundroute für Ihren Standort konfigurieren. Um die Verbundroute zu verwenden, die von der Legacyinstallation verwendet wird, muss Skype for Business Server 2019 für die Verwendung dieser Route konfiguriert sein. 
   
 Um den Standort Skype for Business Server 2019 für die Verwendung des Director- und Edgeservers der Legacybereitstellung zu aktivieren, verwenden Sie den Topologie-Generator, um den älteren Edgepool zuzuordnen.
   
@@ -28,7 +28,7 @@ Um den Standort Skype for Business Server 2019 für die Verwendung des Director-
 
 1. Öffnen Sie den Topologie-Generator. 
     
-2. Wählen Sie Ihre Website aus, die sich direkt unter dem **knoten Skype for Business Server** befindet. 
+2. Wählen Sie Ihre Website aus, die sich direkt unterhalb des **knotens Skype for Business Server** befindet. 
     
 3. Klicken Sie im Menü **Aktionen** auf **Eigenschaften bearbeiten**.
     

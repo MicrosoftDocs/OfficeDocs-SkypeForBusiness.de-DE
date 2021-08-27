@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder/Regionen zum Wählen der gebührenfreien Nummer.
-ms.openlocfilehash: b1a81672ef3b5a2fa54a13f6d883df2a96cb3757c96e63bafdb195ee840de94d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 700a4dd618e21736667ca8e381e702b35bca831b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323797"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601070"
 ---
 # <a name="toll-free-dialing-restrictions-in-israel"></a>Einschränkungen für gebührenfreie Telefonnummern in Israel
 
@@ -44,7 +44,7 @@ ms.locfileid: "54323797"
 |Nicht abgedeckte Inseln/Gebiete  <br/> | Kein Zugriff aus den Palästinensischen Gebieten <br/> |
 |Verfügbarkeit über drahtgebundene Leitungen/Festnetz  <br/> |Ja  <br/> |
 |Verfügbarkeit über Mobilnetze  <br/> | Partiell. Siehe Kommentare. <br/> |
-|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobilgeräte-Zugriff: Kein Zugriff über die Mobilnetzwerke &amp; Jawal/Wat selbst.  <br/> |
+|Kommentare, Einschränkungen und Zugriffsaspekte  <br/> |Mobilgeräte-Zugriff: Kein Zugriff über die Mobilnetzwerke Paltel &amp; Jawal/Wat selbst.  <br/> |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

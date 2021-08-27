@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: 'Erfahren Sie, welche Telefone Skype for Business Polycom, HP und Mitel und den erforderlichen Lizenzen funktionieren. '
-ms.openlocfilehash: de18fdc6d7b945987efdde8eaffd8db0c0e5154cf4d1c758572db5696b23f617
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, welche Telefone Skype for Business Polycom, HP und Mitel sowie die erforderlichen Lizenzen verwenden. '
+ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320957"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607432"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "54320957"
 Skype for Business Online qualifiziert und unterstützt Festnetztelefone für Benutzer, die lieber auf herkömmliche Weise als über die Skype for Business-App telefonieren möchten. In diesem Thema werden die Telefone und Firmwareversionen behandelt, die für die Verwendung in Skype for Business Online unterstützt werden. Außerdem finden Sie weitere Informationen, die Sie beim Einrichten von Telefonen in Ihrer Organisation unterstützen sollen.
 
 > [!NOTE]
-> Skype For Business wird langsam durch Microsoft Teams als primäre Kommunikationsmethode in Microsoft 365 und Office 365.  Weitere Informationen finden Sie unter Eine neue Vision für [intelligente Kommunikation in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) Für weitere Informationen.
+> Skype For Business wird langsam durch eine Microsoft Teams als primäre Kommunikationsmethode in Microsoft 365 und Office 365.  Weitere [Informationen finden Sie unter](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) Eine neue Vision für intelligente Kommunikation in Office 365 Für weitere Informationen.
 >
 >Die neuesten Updates und aktuellsten Informationen zu unterstützten Geräten finden Sie auf den Microsoft Teams [für intelligente Kommunikation.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
   
@@ -62,11 +62,11 @@ Weitere Details zu AudioCodes-Telefonen finden Sie unter [IP-Telefone für Skype
 > [!NOTE]
 > Lync Telefon Edition wird von Skype for Business Online, jedoch nicht von Lync Microsoft Teams. Mainstream-Support für die LPE-Plattform endete bis zum 10. April 2014 und wurde bis zum 11. April 2023 erweitert, um den Produktsupportlebenszyklus von Lync Server 2013 zu nutzen. Details [zum Lebenszyklus von](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) LPE finden Sie unter Microsoft Product Lifecycle. LPE CAP-Modelle werden von der Online-Skype for Business unterstützt.
 >
-> Später in diesem Jahr Office 365 version von TLS, die älter als 1.2 ist, nicht unterstützt. Da das zugrunde liegende Betriebssystem von LPE TLS 1.2 nicht unterstützt, wird LPE nicht mehr für die Verbindung zu Office 365 unterstützt. Weitere Informationen finden Sie unter Vorbereiten der obligatorischen Verwendung [von TLS 1.2 in Office 365.](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)
+> Später in diesem Jahr Office 365 version von TLS, die älter als 1.2 ist, nicht mehr unterstützt. Da das zugrunde liegende Betriebssystem von LPE TLS 1.2 nicht unterstützt, wird LPE nicht mehr für die Verbindung zu Office 365 unterstützt. Weitere Informationen finden Sie unter Vorbereiten der obligatorischen Verwendung [von TLS 1.2 in Office 365.](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)
   
 ## <a name="supported-firmware"></a>Unterstützte Firmware
 
-Dies ist die mindeste Softwareversion, die für unterstützte Telefone erforderlich ist, um mit Telefonsystem:
+Dies ist die Softwareversion, die mindestens erforderlich ist, damit unterstützte Telefone mit Telefonsystem:
   
 ||||
 |:-----|:-----|:-----|
@@ -76,7 +76,7 @@ Dies ist die mindeste Softwareversion, die für unterstützte Telefone erforderl
 |Yealink  <br/> |X.8.1.52  <br/> |Februar 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezember 2016  <br/> |
 
-Weitere Informationen zu aktuellen zertifizierten Firmwareversionen finden Sie unter Skype for Business [IP-Telefone.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
+Weitere Informationen zu aktuellen Zertifizierten Firmwareversionen finden Sie unter Skype for Business [IP-Telefone.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
 > [!NOTE]
 > Telefone mit Lync Phone Edition (LPE), die Sie für die lokale Bereitstellung eingerichtet haben, müssen auf die Mindestversion oder höher der notwendigen Firmware aktualisiert werden, bevor die entsprechenden Benutzer zu Skype for Business Online transferiert werden. Wenn Sie Ihre Benutzer von lokal auf Skype for Business Online transferieren, bevor Sie die Firmware auf den Telefonen aktualisieren, können diese Telefone nicht mit Skype for Business Online verbunden werden. 

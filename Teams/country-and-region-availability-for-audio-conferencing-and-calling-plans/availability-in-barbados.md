@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Barbados.
-ms.openlocfilehash: 0b128a032ae67607f6fd4d167b1c4d8e76c10115f933799e3d3fdca8c6daed94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Barbados.
+ms.openlocfilehash: 4d23b504bb2483f19e7ccee8f7536d805732137e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601150"
 ---
 # <a name="availability-in-barbados"></a>Verfügbarkeit in Barbados
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Barbados.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Barbados.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

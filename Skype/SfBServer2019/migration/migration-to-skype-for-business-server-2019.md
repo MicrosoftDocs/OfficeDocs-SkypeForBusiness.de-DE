@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Die Themen in diesem Abschnitt führen Sie durch den Prozess der Migration zu Skype for Business Server 2019.
-ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6eb192c11ec8d1f44539e3bd5180249d85180d2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587977"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migration zu Skype for Business Server 2019
 
 Die Themen in diesem Abschnitt führen Sie durch den Prozess der Migration zu Skype for Business Server 2019. Dieser Artikel behandelt die Migration von Lync Server 2013 oder Skype for Business Server 2015 zu Skype for Business Server 2019.
 
 > [!IMPORTANT]
-> Im gesamten Inhalt verwenden wir den Begriff *Legacy,* um auf die ältere Lync Server 2013 oder Skype for Business Server 2015 zu verweisen, die Sie zu Skype for Business Server 2019 migrieren.
+> Im gesamten Inhalt wird der Begriff *Legacy* verwendet, um auf die ältere Lync Server 2013 oder Skype for Business Server 2015 zu verweisen, die Sie zu Skype for Business Server 2019 migrieren.
   
 > [!IMPORTANT]
 > In diesem Leitfaden werden die Schritte beschrieben, die im Allgemeinen erforderlich sind, um die einzelnen Migrationsphasen auszuführen. Sie behandelt nicht jede mögliche Legacybereitstellungstopologie oder jedes mögliche Migrationsszenario. Daher müssen Sie möglicherweise nicht jeden beschriebenen Schritt ausführen oder je nach Bereitstellung zusätzliche Schritte ausführen. Dieses Handbuch enthält auch Beispiele für Überprüfungsschritte. Diese Überprüfungsschritte helfen Ihnen zu verstehen, wonach Sie suchen müssen, um sicherzustellen, dass jede Phase während der Migration erfolgreich abgeschlossen wird. Passen Sie diese Überprüfungsschritte an Ihren spezifischen Migrationsprozess an. 
@@ -38,7 +38,7 @@ In diesem Artikel werden Ausdrücke definiert, die in der folgenden Liste angege
     
 **Interoperabilität:** Die Fähigkeit Ihrer Bereitstellung, während der Koexistenz erfolgreich zu arbeiten.
 
-**Legacy:** Das System, von dem Sie migrieren, entweder Lync Server 2013 oder Skype for Business Server 2015.
+**Legacy:** Das System, von dem Sie absteigen, entweder Lync Server 2013 oder Skype for Business Server 2015.
     
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

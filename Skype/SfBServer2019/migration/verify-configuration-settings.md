@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Sie können die Replikation von Konfigurationsinformationen auf dem Edgeserver überprüfen, indem Sie das Cmdlet Skype for Business Server 2019 Get-CsManagementStoreReplicationStatus auf dem internen Computer ausführen, auf dem sich der zentrale Verwaltungsspeicher befindet, oder auf einem beliebigen Domänencomputer, auf dem Skype for Business Server 2019 Core Components (OcsCore.msi) installiert ist.
-ms.openlocfilehash: e681781598af876f722094b0191aa784da2c533adc509a9f9fc4fad96fa4db4c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff46dbad696ac4bf200bb669de768a28d0815e1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335745"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594263"
 ---
 # <a name="verify-configuration-settings"></a>Überprüfen der Konfigurationseinstellungen
 

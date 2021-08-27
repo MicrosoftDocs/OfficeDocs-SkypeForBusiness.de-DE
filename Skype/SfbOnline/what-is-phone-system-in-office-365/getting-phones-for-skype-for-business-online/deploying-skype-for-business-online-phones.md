@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Skype for Business Onlinetelefone zu konfigurieren.
-ms.openlocfilehash: 072a7caa6d5b9caa1827f5f93973a12e77c1823063fad8706469a4fabfa87ff2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295802"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607442"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
@@ -97,7 +97,7 @@ Informationen zur Planung der Netzwerkinfrastruktur finden Sie unter [Skype Oper
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>Schritt 6 - Vorbereiten der Anmeldung der Benutzer
 
-Damit sich Benutzer erfolgreich bei einem Skype for Business Online-Telefon anmelden und Anrufe tätigen können, müssen Sie sicherstellen, dass den Benutzern die richtigen Lizenzen zugewiesen sind. Sie müssen mindestens eine Telefonsystemlizenz und einen Anrufplan zuweisen. Weitere Informationen finden Sie unter Lizenzierung von Skype for Business und [Microsoft Teams-Add-Ons](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und Zuweisen Skype for Business [und Microsoft Teams Lizenzen.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+Damit sich Benutzer erfolgreich bei einem Skype for Business Online-Telefon anmelden und Anrufe tätigen können, müssen Sie sicherstellen, dass den Benutzern die richtigen Lizenzen zugewiesen sind. Sie müssen mindestens eine Telefonsystemlizenz und einen Anrufplan zuweisen. Weitere Informationen finden Sie unter Lizenzierung von Skype for Business und [Microsoft Teams-Add-Ons](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und Zuweisen von Skype for Business [und Microsoft Teams Lizenzen.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
   
 Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufpläne.](/microsoftteams/calling-plan-landing-page)
   

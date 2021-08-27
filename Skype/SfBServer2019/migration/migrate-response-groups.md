@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Nachdem Ihre Benutzer in Skype for Business Server 2019-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Die Migration von Reaktionsgruppen umfasst das Kopieren von Agentgruppen, Warteschlangen, Workflows, Audiodateien und das Verschieben von Reaktionsgruppenkontaktobjekten aus der Legacybereitstellung in den Skype for Business Server 2019-Pool. Nachdem Sie Ihre älteren Reaktionsgruppen migriert haben, werden Aufrufe an die Reaktionsgruppen von der Reaktionsgruppenanwendung im Pool Skype for Business Server 2019 verarbeitet. Anrufe für Reaktionsgruppen werden nicht mehr vom Vorversionspool verarbeitet.
-ms.openlocfilehash: 83edbfd97fac08aded66ce042adecda9fee7b539588e717323eeaeda36003041
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Nachdem Ihre Benutzer in Skype for Business Server 2019-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Das Migrieren von Reaktionsgruppen umfasst das Kopieren von Agentgruppen, Warteschleifen, Workflows, Audiodateien und das Verschieben von Reaktionsgruppenkontaktobjekten aus der Legacybereitstellung in den Skype for Business Server 2019-Pool. Nachdem Sie Ihre älteren Reaktionsgruppen migriert haben, werden Aufrufe an die Reaktionsgruppen von der Reaktionsgruppenanwendung im Pool Skype for Business Server 2019 verarbeitet. Anrufe für Reaktionsgruppen werden nicht mehr vom Vorversionspool verarbeitet.
+ms.openlocfilehash: 96eecb0ad10a900a9d00d26383e149ceec4cbfe8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588027"
 ---
 # <a name="migrate-response-groups"></a>Migrieren von Reaktionsgruppen
 
-Nachdem Ihre Benutzer in Skype for Business Server 2019-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Die Migration von Reaktionsgruppen umfasst das Kopieren von Agentgruppen, Warteschlangen, Workflows, Audiodateien und das Verschieben von Reaktionsgruppenkontaktobjekten aus der Legacybereitstellung in den Skype for Business Server 2019-Pool. Nachdem Sie Ihre älteren Reaktionsgruppen migriert haben, werden Aufrufe an die Reaktionsgruppen von der Reaktionsgruppenanwendung im Pool Skype for Business Server 2019 verarbeitet. Anrufe für Reaktionsgruppen werden nicht mehr vom Vorversionspool verarbeitet.
+Nachdem Ihre Benutzer in Skype for Business Server 2019-Pools verschoben wurden, können Sie Ihre Reaktionsgruppen migrieren. Das Migrieren von Reaktionsgruppen umfasst das Kopieren von Agentgruppen, Warteschleifen, Workflows, Audiodateien und das Verschieben von Reaktionsgruppenkontaktobjekten aus der Legacybereitstellung in den Skype for Business Server 2019-Pool. Nachdem Sie Ihre älteren Reaktionsgruppen migriert haben, werden Aufrufe an die Reaktionsgruppen von der Reaktionsgruppenanwendung im Pool Skype for Business Server 2019 verarbeitet. Anrufe für Reaktionsgruppen werden nicht mehr vom Vorversionspool verarbeitet.
   
 > [!NOTE]
-> Obwohl Sie Reaktionsgruppen migrieren können, bevor Sie alle Benutzer in den Skype for Business Server 2019-Pool verschieben, wird empfohlen, alle Benutzer zuerst zu verschieben. Insbesondere verfügen Benutzer, die Reaktionsgruppen-Agents sind, erst dann über die volle Funktionalität der neuen Features, wenn sie in den Pool Skype for Business Server 2019 verschoben werden. 
+> Sie können zwar Reaktionsgruppen migrieren, bevor Sie alle Benutzer in den Skype for Business Server 2019-Pool verschieben, es wird jedoch empfohlen, alle Benutzer zuerst zu verschieben. Insbesondere haben Benutzer, die Reaktionsgruppen-Agents sind, erst dann die volle Funktionalität neuer Features, wenn sie in den Pool Skype for Business Server 2019 verschoben werden. 
   
 Bevor Sie Reaktionsgruppen migrieren, müssen Sie einen Skype for Business Server 2019-Pool bereitgestellt haben, der die Reaktionsgruppenanwendung enthält. Die Reaktionsgruppenanwendung wird standardmäßig installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen. Sie können sicherstellen, dass die Reaktionsgruppenanwendung installiert ist, indem Sie das Cmdlet **"Get-CsService -ApplicationServer"** ausführen. 
   
@@ -37,7 +37,7 @@ Zum Migrieren von Reaktionsgruppen aus einem Legacypool zum Skype for Business S
   
 Nachdem Sie die Reaktionsgruppen migriert haben, müssen Sie Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell-Cmdlets verwenden, um zu überprüfen, ob alle Agentgruppen, Warteschlangen und Workflows erfolgreich verschoben wurden. 
   
-Wenn Sie Reaktionsgruppen migrieren, werden die älteren Reaktionsgruppen nicht entfernt. Wenn Sie Reaktionsgruppen nach der Migration mithilfe Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell verwalten, werden sowohl die älteren Reaktionsgruppen als auch die Reaktionsgruppen Skype for Business Server 2019 angezeigt. Sie sollten Updates nur auf die Reaktionsgruppen Skype for Business Server 2019 anwenden. Die älteren Reaktionsgruppen werden nur für Rollbackzwecke beibehalten. 
+Wenn Sie Reaktionsgruppen migrieren, werden die älteren Reaktionsgruppen nicht entfernt. Wenn Sie Reaktionsgruppen nach der Migration mithilfe Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell verwalten, können Sie sowohl die älteren Reaktionsgruppen als auch die Skype for Business Server 2019-Reaktionsgruppen anzeigen. Sie sollten Updates nur auf die Skype for Business Server 2019-Reaktionsgruppen anwenden. Die älteren Reaktionsgruppen werden nur für Rollbackzwecke beibehalten. 
   
 > [!CAUTION]
 > Nachdem die Migration abgeschlossen und die neuen Reaktionsgruppen erstellt wurden, zeigen die Skype for Business Server Systemsteuerung und die Skype for Business Server-Verwaltungsshell die Legacy- und Skype for Business Server 2019-Versionen jeder Reaktionsgruppe an. Verwenden Sie Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell nicht, um die älteren Reaktionsgruppen zu entfernen. Wenn Sie eine Gruppe entfernen, funktioniert die entsprechende Reaktionsgruppe, die während der Migration erstellt wurde, nicht mehr. Die Legacyantwortgruppen werden entfernt, wenn Sie den Legacypool außer Betrieb genommen haben. 
@@ -55,9 +55,9 @@ Im folgenden Verfahren für die Migration von Reaktionsgruppenkonfigurationen wi
 
 1. Melden Sie sich auf dem Computer über ein Konto an, das Mitglied der Gruppe RTCUniversalServerAdmins ist oder über entsprechende Administratorrechte und -berechtigungen verfügt.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **"Microsoft Skype for Business Server 2019"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Microsoft Skype for Business Server 2019"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
-3. Ausführen:
+3. Führen Sie  aus.
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -69,13 +69,13 @@ Im folgenden Verfahren für die Migration von Reaktionsgruppenkonfigurationen wi
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
-4. Nachdem Sie Reaktionsgruppen und Agents in den Pool Skype for Business Server 2019 migriert haben, ist die URL, die Agents zum Anmelden und Abmelden verwenden, eine Skype for Business Server 2019-URL und steht im Menü **Extras** zur Verfügung. Erinnern Sie Agents daran, sämtliche Referenzen, beispielsweise Lesezeichen, auf die neue URL zu aktualisieren. 
+4. Nach der Migration von Reaktionsgruppen und Agents zum pool Skype for Business Server 2019 ist die URL, die Agents zum Anmelden und Abmelden verwenden, eine Skype for Business Server 2019-URL und steht im Menü **"Extras"** zur Verfügung. Erinnern Sie Agents daran, sämtliche Referenzen, beispielsweise Lesezeichen, auf die neue URL zu aktualisieren. 
     
 ## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-control-panel"></a>So überprüfen Sie die Migration von Reaktionsgruppen mithilfe Skype for Business Server Systemsteuerung
 
 1. Melden Sie sich mit einem Konto am Computer an, das Mitglied der Gruppe "RTCUniversalReadOnlyAdmins" oder mindestens Mitglied der Rolle "CsViewOnlyAdministrator" ist.
     
-2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten Skype for Business Server Systemsteuerung verwenden können, finden Sie unter [Öffnen Skype for Business Server 2019-Verwaltungstools.](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools) 
+2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten Skype for Business Server Systemsteuerung verwenden können, finden Sie unter [Open Skype for Business Server 2019 administrative Tools.](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools) 
     <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
 3. Klicken Sie im linken Navigationsbereich auf **Reaktionsgruppen**.
     
@@ -85,11 +85,11 @@ Im folgenden Verfahren für die Migration von Reaktionsgruppenkonfigurationen wi
     
 6. Klicken Sie auf die Registerkarte **"Gruppe",** und stellen Sie sicher, dass alle Agentgruppen in Ihrer Legacyumgebung in der Liste enthalten sind. 
     
-## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>So überprüfen Sie die Migration von Reaktionsgruppen mithilfe Skype for Business Server Verwaltungsshell
+## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>So überprüfen Sie die Reaktionsgruppenmigration mithilfe Skype for Business Server-Verwaltungsshell
 
 1. Melden Sie sich mit einem Konto am Computer an, das Mitglied der Gruppe "RTCUniversalReadOnlyAdmins" oder mindestens Mitglied der Rolle "CsViewOnlyAdministrator" ist.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **"Microsoft Skype for Business Server 2019"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Microsoft Skype for Business Server 2019"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
     Führen Sie Folgendes aus, um nähere Informationen zu den folgenden Cmdlets zu erhalten:
     
@@ -97,7 +97,7 @@ Im folgenden Verfahren für die Migration von Reaktionsgruppenkonfigurationen wi
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. Ausführen:
+3. Führen Sie  aus.
     
    ```PowerShell
    Get-CsRgsAgentGroup
@@ -105,7 +105,7 @@ Im folgenden Verfahren für die Migration von Reaktionsgruppenkonfigurationen wi
 
 4. Stellen Sie sicher, dass alle Agentgruppen in Ihrer Legacyumgebung in der Liste enthalten sind.
     
-5. Ausführen:
+5. Führen Sie  aus.
     
    ```PowerShell
    Get-CsRgsQueue
@@ -113,7 +113,7 @@ Im folgenden Verfahren für die Migration von Reaktionsgruppenkonfigurationen wi
 
 6. Stellen Sie sicher, dass alle Warteschlangen in Ihrer Legacyumgebung in der Liste enthalten sind.
     
-7. Ausführen:
+7. Führen Sie  aus.
     
    ```PowerShell
    Get-CsRgsWorkflow

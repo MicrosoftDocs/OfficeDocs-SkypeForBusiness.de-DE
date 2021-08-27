@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Die Unterstützung für einen Partnerverbund ist erforderlich, um Benutzern mit einem Konto in einer vertrauenswürdigen Kunden- oder Partnerorganisation – Partnerdomänen und Benutzer eines unterstützten öffentlichen Sofortnachrichtenanbieters eingeschlossen – die Zusammenarbeit mit Benutzern in Ihrer Organisation zu ermöglichen.
-ms.openlocfilehash: 105ed8a4090835be22847aa1ce2cc9788af74b5d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 6675bf36c5ef7b27941d47f5a2291ecdb75eece6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234170"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581359"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren des Partnerverbunds und der Verbindung mit öffentlichen Chatdiensten in Skype for Business Server
 
@@ -35,7 +35,7 @@ Zur Unterstützung des Benutzerzugriffs auf Partnerdomänen müssen Sie den Part
 Wenn Sie den Zugriff durch Benutzer von Partnerdomänen zu einem späteren Zeitpunkt temporär oder dauerhaft unterbinden möchten, können Sie den Partnerverbund für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Partnerbenutzerzugriff für Ihre Organisation zu aktivieren oder zu deaktivieren und um die geeigneten Partnerverbundoptionen festzulegen, die für Ihre Organisation unterstützt werden sollen.
 
 > [!NOTE]  
-> Das Aktivieren des Partnerverbunds für Ihre Organisation gibt nur an, dass Ihre Server, auf denen der Zugriffs-Edgedienst ausgeführt wird, das Routing an Verbunddomänen unterstützen. Benutzer in Verbunddomänen können nicht an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, bis Sie auch mindestens eine Richtlinie zur Unterstützung des Partnerbenutzerzugriffs konfigurieren. Benutzer von öffentlichen Chatdienstanbietern können erst an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie zur Unterstützung der Verbindung mit öffentlichen Chatdiensten konfiguriert haben. Skype for Business Server können keinen gehosteten Exchange Dienst verwenden, um Anrufbeantwortungs-, Outlook Voice Access- (einschließlich Voicemail) oder automatische Telefonzentralendienste für Benutzer bereitzustellen, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden, bis Sie eine gehostete Voicemailrichtlinie konfigurieren, die Routinginformationen bereitstellt. Ausführliche Informationen zum Konfigurieren von Richtlinien für die Kommunikation mit Benutzern von Verbunddomänen in anderen Organisationen finden Sie unter [Verwalten von SIP-Verbunddomänen für Ihre Organisation.](../sip-domains/manage-sip-federated-domains-for-your-organization.md) Wenn Sie die Kommunikation mit Benutzern von Chatdienstanbietern unterstützen möchten, müssen Sie außerdem Richtlinien konfigurieren, um dies zu unterstützen, und außerdem die Unterstützung für die einzelnen Dienstanbieter konfigurieren, die Sie unterstützen möchten. Ausführliche Informationen finden Sie unter [Verwalten von SIP-Verbundanbietern für Ihre Organisation.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+> Das Aktivieren des Partnerverbunds für Ihre Organisation gibt nur an, dass Ihre Server, auf denen der Zugriffs-Edgedienst ausgeführt wird, das Routing an Verbunddomänen unterstützen. Benutzer in Verbunddomänen können nicht an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, bis Sie auch mindestens eine Richtlinie zur Unterstützung des Partnerbenutzerzugriffs konfigurieren. Benutzer von öffentlichen Chatdienstanbietern können erst an Chatnachrichten oder Konferenzen in Ihrer Organisation teilnehmen, wenn Sie mindestens eine Richtlinie zur Unterstützung der Verbindung mit öffentlichen Chatdiensten konfiguriert haben. Skype for Business Server können keinen gehosteten Exchange Dienst verwenden, um Anrufbeantwortung, Outlook Voice Access (einschließlich Voicemail) oder Dienste für automatische Telefonzentralen für Benutzer bereitzustellen, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden, bis Sie eine gehostete Voicemailrichtlinie konfigurieren, die Routinginformationen bereitstellt. Ausführliche Informationen zum Konfigurieren von Richtlinien für die Kommunikation mit Benutzern von Verbunddomänen in anderen Organisationen finden Sie unter [Verwalten von SIP-Verbunddomänen für Ihre Organisation.](../sip-domains/manage-sip-federated-domains-for-your-organization.md) Wenn Sie die Kommunikation mit Benutzern von Chatdienstanbietern unterstützen möchten, müssen Sie außerdem Richtlinien konfigurieren, um dies zu unterstützen, und außerdem die Unterstützung für die einzelnen Dienstanbieter konfigurieren, die Sie unterstützen möchten. Ausführliche Informationen finden Sie unter [Verwalten von SIP-Verbundanbietern für Ihre Organisation.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 
 ## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>So aktivieren oder deaktivieren Sie den Partnerbenutzerzugriff für Ihre Organisation

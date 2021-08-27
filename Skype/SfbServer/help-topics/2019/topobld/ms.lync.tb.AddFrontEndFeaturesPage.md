@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wählen Sie die Funktionen aus, die für den Front-End-Pool aktiviert werden sollen. Sie müssen mindestens die Chatfunktion (Instant Messaging) bereitstellen, die immer aktiviert ist und nicht deaktiviert werden kann. Sie haben auch die Möglichkeit, andere Features wie Konferenzen, Enterprise-VoIP und Anrufsteuerung (Call Admission Control, CAC) bereitzustellen. Einige Funktionen sind von Ihrer Topologie abhängig.
-ms.openlocfilehash: 82b67016b4e7902e258b73889134f60c59b0cabf59a125d3f1e8bde88011f355
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9777b4661106d55688e0a5728e95f5da8dc0e763
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291453"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614703"
 ---
 # <a name="add-front-end-features"></a>Hinzufügen von Front-End-Funktionen
 

@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie Sie in Microsoft Teams von Stream zu OneDrive for Business und zum Aufzeichnungsspeicher von SharePoint-Besprechungen wechseln.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0642a35cb99e276b3df6e657c2bf5b68c8cdadb8
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 5ad01fc901772fdc815ec2bee84eb833479de01e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601090"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -122,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Spontane/Geplante Besprechung                    |Anderes Besprechungsmitglied   |Besprechungsmitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. <br /><br />Der Organisator verfügt über Bearbeitungsrechte und kann freigeben.<br /><br /> Alle anderen Besprechungsmitglieder verfügen über Lesezugriff.|
 |Spontane/Geplante Besprechung mit externen Benutzern|Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung.<br /> <br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br /> Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
 |Spontane/Geplante Besprechung mit externen Benutzern|Anderes Besprechungsmitglied   |Mitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. Der Organisator verfügt über Bearbeitungsrechte und kann freigeben. <br /><br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br />Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
-|Kanalbesprechung                            |Kanalmitglied         |Teams SharePoint den Speicherort für den Kanal. **Hinweis:** Kanalbeschriftungsaufzeichnungen werden SharePoint für IP-basierte Einschränkungen nicht unterstützt. Es wird empfohlen, [bedingten Azure-Zugriff zu verwenden.](/azure/active-directory/conditional-access/overview) |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über Bearbeitungsrechte auf die Aufzeichnung. <br /> <br />Die Berechtigungen jedes anderen Mitglieds basieren auf den SharePoint-Berechtigungen des Kanals.|
+|Kanalbesprechung                            |Kanalmitglied         |Teams SharePoint für den Kanal. **Hinweis:** Kanalbeschriftungsaufzeichnungen werden SharePoint für IP-basierte Einschränkungen nicht unterstützt. Es wird empfohlen, [bedingten Azure-Zugriff zu verwenden.](/azure/active-directory/conditional-access/overview) |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über Bearbeitungsrechte auf die Aufzeichnung. <br /> <br />Die Berechtigungen jedes anderen Mitglieds basieren auf den SharePoint-Berechtigungen des Kanals.|
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

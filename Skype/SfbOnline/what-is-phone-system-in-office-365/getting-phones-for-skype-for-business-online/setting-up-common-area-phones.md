@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Telefone im allgemeinen Bereich zu konfigurieren.
-ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14c7a76ed8f0aa319049d4352c1cdc6ce4c4ce98
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607422"
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen für gemeinsame Bereiche
 
@@ -41,8 +41,8 @@ Zunächst müssen Sie bestätigen, dass Folgendes zutrifft:
 - Sie haben die Firmware auf Ihren Telefonen aktualisiert (siehe unterstützte Firmware [in diesem Thema](getting-phones-for-skype-for-business-online.md)).  Sie können die Firmware auf Ihrem Telefon wie folgt überprüfen:
   - **Polycom VVX-Telefone:** Wechseln Sie **zu Einstellungen**  >  **Status**  >  **Platform**  >  **Application**  >  **Main**.
   - **Yealink-Telefone:** Wechseln Sie **auf dem Hauptbildschirm** des Telefons zu Status.
-  - **AudioCodes-Telefone:** Wechseln Sie vom **Startbildschirm** aus zum  >    >  **Menü** Gerätestatus Firmwareversion.
-  - **Telefone Telefon Lync Telefon Edition (LPE):** Wechseln Sie Systeminformationen   >   Startbildschirm zu Menümenü.
+  - **AudioCodes-Telefone:** Wechseln Sie vom **Startbildschirm** zum Menü gerätestatus  >    >  **Firmwareversion.**
+  - **Telefone Telefon Lync Telefon Edition (LPE):** Wechseln **Sie**  >  **Systeminformationen** Startbildschirm zu Menümenü.
 
     Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert.
 
@@ -54,7 +54,7 @@ Sie müssen diese Schritte befolgen:
 ### <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 1. Wechseln Sie im Admin Center zu  >  **Abrechnungskaufsdienste**, und fügen Sie **Weitere Pläne hinzu.**
 
-    ![Screenshot der Telefon des gemeinsamen Bereichs](../../images/cap-license.png)
+    ![Screenshot der Telefon eines gemeinsamen Bereichs](../../images/cap-license.png)
 2. Klicken Sie auf **Telefon für gemeinsame Bereiche** > **Jetzt kaufen** > auf der Seite **Check-Out** klicken Sie auf **Jetzt kaufen**.
 3. Klicken Sie darauf, um **Add-on-Abonnements** zu erweitern, und klicken Sie dann darauf, um einen Anrufplan zu kaufen. Wählen Sie entweder den **Plan für Inlandsrufe** oder **einen Plan für Inlands- und Auslandsrufe aus.**
 
@@ -100,7 +100,7 @@ Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.of
 
 Weitere Informationen finden Sie unter [Erhalten von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Wenn Sie sich fragen, können Sie auch Ihre Telefonnummer, die Sie bei einem anderen Netzbetreiber haben, und *"Portieren"* verwenden oder diese zu Microsoft 365 oder Office 365. Weitere Informationen [finden Sie unter Übertragen von Telefonnummern Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+Wenn Sie sich fragen, können Sie auch Ihre Telefonnummer, die Sie bei einem anderen Netzbetreiber haben, und "*portieren"* oder zu Microsoft 365 oder Office 365. Weitere Informationen [finden Sie unter Übertragen von Telefonnummern Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### <a name="step-4---setting-up-your-phone"></a>Schritt 4 - Einrichten des Telefons
 
@@ -140,7 +140,7 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
 
 
 > [!NOTE]
-> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein lokales Active Directory mit AAD synchronisiert haben und einen Drittanbieter-IDP oder ADFS verwenden, kann die CAP-Bereitstellung nicht bereitgestellt werden. In diesem Fall müssen Sie nur ein Microsoft 365- oder Office 365/Azure Active Directory-Konto (z. B.  ein Konto mit onmicrosoft.com-Domäne) verwenden, damit die CAP-Bereitstellung funktioniert.
+> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein lokales Active Directory mit AAD synchronisiert haben und einen Drittanbieter-IDP oder ADFS verwenden, kann die CAP-Bereitstellung nicht bereitgestellt werden. In diesem Fall müssen Sie nur ein Microsoft 365- oder Office 365/Azure Active Directory-Konto verwenden (z. B. ein Konto mit onmicrosoft.com-Domäne), damit die CAP-Bereitstellung funktioniert. 
 
 
 ### <a name="related-topics"></a>Verwandte Themen

@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'Jede Survivable Branch Appliance (SBA) ist einem Front-End-Pool zugeordnet, der als Sicherungsregistrierungsstelle für den SBA dient. Wenn der Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss der SBA beim Upgrade des Pools vom Front-End-Pool getrennt werden. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann der SBA dem aktualisierten Front-End-Pool erneut zugeordnet werden. Dies umfasst das Löschen des SBA aus der älteren Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die im älteren SBA verwaltet werden, müssen zuerst in einen anderen Front-End-Pool verschoben werden, bevor sie den SBA aus der Topologie entfernen. Sobald der SBA der topologie Skype for Business Server 2019 hinzugefügt wurde, können diese Benutzer zurück zum SBA verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:'
-ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'Jede Survivable Branch Appliance (SBA) ist einem Front-End-Pool zugeordnet, der als Sicherungsregistrierungsstelle für den SBA dient. Wenn der Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss der SBA beim Upgrade des Pools vom Front-End-Pool getrennt werden. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann der SBA dem aktualisierten Front-End-Pool erneut zugeordnet werden. Dies umfasst das Löschen des SBA aus der älteren Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die im älteren SBA verwaltet werden, müssen zuerst in einen anderen Front-End-Pool verschoben werden, bevor sie den SBA aus der Topologie entfernen. Sobald der SBA der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer zurück zum SBA verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:'
+ms.openlocfilehash: c431451503efd23039b4c358488bfc5bce03ba65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313873"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588047"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Verbinden einer Survivable Branch Appliance
 
-Jede Survivable Branch Appliance (SBA) ist einem Front-End-Pool zugeordnet, der als Sicherungsregistrierungsstelle für den SBA dient. Wenn der Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss der SBA beim Upgrade des Pools vom Front-End-Pool getrennt werden. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann der SBA dem aktualisierten Front-End-Pool erneut zugeordnet werden. Dies umfasst das Löschen des SBA aus der älteren Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die im älteren SBA verwaltet werden, müssen zuerst in einen anderen Front-End-Pool verschoben werden, bevor sie den SBA aus der Topologie entfernen. Nachdem der SBA der Topologie Skype for Business Server 2019 hinzugefügt wurde, können diese Benutzer zurück zum SBA verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:
+Jede Survivable Branch Appliance (SBA) ist einem Front-End-Pool zugeordnet, der als Sicherungsregistrierungsstelle für den SBA dient. Wenn der Front-End-Pool zu Skype for Business Server 2019 migriert wird, muss der SBA beim Upgrade des Pools vom Front-End-Pool getrennt werden. Nachdem der Pool zu Skype for Business Server 2019 migriert wurde, kann der SBA dem aktualisierten Front-End-Pool erneut zugeordnet werden. Dies umfasst das Löschen des SBA aus der älteren Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur Skype for Business Server 2019-Topologie. Benutzer, die im älteren SBA verwaltet werden, müssen zuerst in einen anderen Front-End-Pool verschoben werden, bevor sie den SBA aus der Topologie entfernen. Nachdem der SBA der Skype for Business Server 2019-Topologie hinzugefügt wurde, können diese Benutzer zurück zum SBA verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:
   
 1. Verlagern Sie Zweigstellenbenutzer, die im älteren SBA verwaltet werden, in einen anderen Front-End-Pool.
     

@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine neue Sammlung von Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Systemsteuerung erstellen.'
-ms.openlocfilehash: 2fc0a939a5f321254378ae93afe56015135d4f9873482d8489e06568651913e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74a1b9b88adcce3164cd8bebc761d9868e8b0f1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594093"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Erstellen einer neuen Auflistung von Trunkkonfigurationseinstellungen in Skype for Business Server 
 
-**Zusammenfassung:** Erfahren Sie, wie Sie mithilfe der Skype for Business Server Systemsteuerung eine neue Auflistung von Trunkkonfigurationseinstellungen erstellen.
+**Zusammenfassung:** Erfahren Sie, wie Sie mithilfe der Skype for Business Server Systemsteuerung eine neue Sammlung von Trunkkonfigurationseinstellungen erstellen.
   
-Sip trunk configuration settings define the relationship and capabilities between a Mediation Server and the Public Switched Telephone Network (PSTN) gateway, an IP-Public Branch eXchange (PBX) or a Session Border Controller (SBC) at the service provider. Mit diesen Einstellungen kann Folgendes angegeben werden:
+SIP-Trunkkonfigurationseinstellungen definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Public Branch eXchange (PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. Mit diesen Einstellungen kann Folgendes angegeben werden:
   
 - Ob die Medienumgebung für Trunks aktiviert werden soll.
     
@@ -35,7 +35,7 @@ Sip trunk configuration settings define the relationship and capabilities betwee
     
 - Gibt an, ob die SRTP-Verschlüsselung (Secure Realtime Transport Protocol) für jeden Trunk erforderlich ist.
     
-Wenn Sie Skype for Business Server installieren, wird eine globale Auflistung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst).
+Wenn Sie Skype for Business Server installieren, wird eine globale Sammlung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst).
   
 Beim Erstellen von SIP-Trunkkonfigurationseinstellungen mit Skype for Business Server Systemsteuerung stehen Ihnen die folgenden Optionen zur Verfügung.
   
