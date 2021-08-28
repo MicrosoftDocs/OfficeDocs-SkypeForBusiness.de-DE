@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Übersicht über die Verwendung Skype for Business Online-Telemetrietools zur Überwachung einer lokalen Implementierung in einem Hybridszenario.
-ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407174"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608642"
 ---
 # <a name="plan-call-data-connector"></a>Planen des Anrufdatenconnectors
 
@@ -32,13 +32,13 @@ Der Anrufdatenkonnektor vereinfacht die Anrufüberwachung in einer Hybridumgebun
 
 Mit dem Anrufdaten-Connector können Sie die folgenden Aufgaben mithilfe eines einzelnen Toolsets ausführen:
 
-- Überwachen Sie Ihre Benutzererfahrung über Microsoft Teams, Skype for Business Online und Skype for Business Server hinweg.
+- Überwachen Sie Ihre Benutzererfahrung über Microsoft Teams, Skype for Business Online und Skype for Business Server.
 
 - Anzeigen und Beheben von Problemen in Ihrem Netzwerk.
 
 - Weisen Sie Helpdesk- und Administratorrollen für die Anrufanalyse zu, damit Sie Helpdesk-Mitarbeitern ermöglichen können, ihre Zuständigkeitsbereiche anzuzeigen und zu beheben.
 
-Mit dem Anrufdatenkonnektor übergibt der Skype for Business Server Anrufdaten an den Clouddienst, sodass Sie die Tools Skype for Business Onlineanrufanalyse und Anrufqualitätsdashboard (Call Quality Dashboard, CQD) nutzen können, wie im folgenden Diagramm dargestellt:
+Mit dem Anrufdaten-Connector übergibt der Skype for Business Server Anrufdaten an den Clouddienst, sodass Sie die Tools Skype for Business Onlineanrufanalyse (CA) und des Anrufqualitätsdashboards (Call Quality Dashboard, CQD) nutzen können, wie im folgenden Diagramm dargestellt:
 
 ![SfB Cloud-Voicemail Diagramm.](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
@@ -54,13 +54,13 @@ Weitere Informationen finden Sie im [Diagramm "Anrufanalyse und Anrufqualitätsd
 
 Natürlich möchten Sie möglicherweise einige Daten zur Anrufqualität lokal beibehalten. Dies kann beispielsweise der Fall sein, wenn Sie eine Drittanbieterlösung mit angepassten Berichten und Workflows verwenden.  Mit dem Anrufdatenkonnektor können Sie das Senden von Daten an den Onlinedienst konfigurieren und gleichzeitig eine Kopie der Daten auf Ihrem lokalen Server beibehalten, wie im folgenden Diagramm dargestellt:
 
-![SfB-Cloud-Voicemail](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB Cloud-Voicemail](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>Anforderungen
 
 Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype for Business Server in einer unterstützten Topologie bereitgestellt haben.  Weitere Informationen zum Bereitstellen von Skype for Business Server und unterstützten Topologien finden Sie unter [Topologiegrundlagen.](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) Zum Konfigurieren des Anrufdatenkonnektors müssen Sie:
 
-- Hybridkonnektivität aktivieren. Wenn Sie bereits Skype for Business Server bereitgestellt haben und den Anrufdatenkonnektor aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen umgebung und Ihrer Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
+- Hybridkonnektivität aktivieren. Wenn Sie bereits Skype for Business Server bereitgestellt haben und den Anrufdatenkonnektor aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und Ihrer Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
 
    Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365.](configure-hybrid-connectivity.md)
 

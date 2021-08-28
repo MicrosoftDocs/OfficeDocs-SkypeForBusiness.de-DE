@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der Geräteaktualisierungswebdienst erstellt automatisch Protokolldateien, die Geräteaktualisierungsaktivitäten aufzeichnen. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation sollten Sie Schwellenwerte für die Größe des Protokolldatencaches, die Größe der Protokolldatei oder die Dauer festlegen, die eine Protokolldatei vor dem Löschen aufbewahrt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Wenn Sie nicht möchten, dass der Geräteaktualisierungswebdienst Protokolldateien automatisch löscht, können Sie sie bei Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
-ms.openlocfilehash: 8ef84325709a6648bec8eb9ff14c8433510f1bf6cabafb8b39dfb86a6f54d238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 553de81699f3fba068b40e8774a67c04db29238a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585541"
 ---
 # <a name="device-log-configuration"></a>Geräteprotokollkonfiguration
 

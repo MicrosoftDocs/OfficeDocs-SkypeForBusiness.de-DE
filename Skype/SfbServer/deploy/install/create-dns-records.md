@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Zusammenfassung: Erfahren Sie, wie Sie DNS konfigurieren und DNS-Einträge für eine Installation von Skype for Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 94d4f9d0713c2516e466ae25faf05808a56ac103c0571dd151bdc25e2a892f8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307746"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585531"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Erstellen von DNS-Einträgen für Skype for Business Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "54307746"
 Damit Skype for Business Server ordnungsgemäß funktionieren, müssen eine Reihe von DNS-Einstellungen (Domain Name System) vorhanden sein. Dies ist so, dass Clients wissen, wie sie auf die Dienste zugreifen und dass die Server sich gegenseitig kennen. Diese Einstellungen müssen nur einmal pro Bereitstellung abgeschlossen werden, da sie nach dem Zuweisen eines DNS-Eintrags in der gesamten Domäne verfügbar sind. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Das Erstellen von DNS-Einträgen umfasst Schritt 5 von 8. Weitere Informationen zur Planung von DNS finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md)
   
 > [!IMPORTANT]
-> Es ist wichtig zu beachten, dass dies nur ein Beispiel für das Erstellen von DNS-Einträgen in einer Windows Server-DNS-Umgebung ist. Es gibt viele weitere DNS-Einträge, die für Skype for Business Server erforderlich sind, und das Verfahren zum Erstellen von DNS-Einträgen hängt vom System ab, das Sie zum Verwalten von DNS in Ihrer Organisation verwenden. Eine vollständige Liste der Anforderungen für DNS finden Sie unter [DNS-Anforderungen für Skype for Business Server.](../../plan-your-deployment/network-requirements/dns.md) 
+> Es ist wichtig zu beachten, dass dies nur ein Beispiel für das Erstellen von DNS-Einträgen in einer Windows Server-DNS-Umgebung ist. Es gibt viele andere DNS-Einträge, die für Skype for Business Server erforderlich sind, und das Verfahren zum Erstellen von DNS-Einträgen hängt vom System ab, das Sie zum Verwalten von DNS in Ihrer Organisation verwenden. Eine vollständige Liste der Anforderungen für DNS finden Sie unter [DNS-Anforderungen für Skype for Business Server.](../../plan-your-deployment/network-requirements/dns.md) 
   
 ![Übersichtsdiagramm](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
@@ -99,13 +99,13 @@ In diesem Beispiel wird ein FQDN mit DNS-Lastenausgleich namens "pool.contoso.lo
     
 10. Klicken Sie in **"Ressourceneintragstyp auswählen"** auf **"Dienstspeicherort (SRV)**" und dann auf **"Datensatz erstellen".**
     
-11. Klicken Sie auf **"Dienst",** und geben Sie **dann _sipinternaltls** ein.
+11. Klicken Sie auf **"Dienst",** und geben Sie dann **_sipinternaltls** ein.
     
 12. Klicken Sie auf **Protokoll**, und geben Sie **_tcp** ein.
     
 13. Klicken Sie auf **Portnummer**, und geben Sie **5061** ein.
     
-14. Klicken Sie auf **"Host", der diesen Dienst anbietet,** und geben Sie dann den FQDN des Pools oder Standard Edition Servers ein.
+14. Klicken Sie auf Host, der **diesen Dienst anbietet,** und geben Sie dann den FQDN des Pools oder Standard Edition Servers ein.
     
      ![Screenshot des Dialogfelds "Neuer Ressourcendatensatz".](../../media/54b1aac5-a2ec-41fe-90c0-02eaeaa9d1b4.png)
   

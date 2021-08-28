@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FileStoreScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) und abhängige Pools für diesen Dateispeicher an. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: ecaf2736620e25548e445f2657b4988f0b80d31691fd30384166dea747f8b974
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2f620030d22677f20c740331d1698eb76498ec2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585215"
 ---
-# <a name="file-store-scope-node"></a>Dateispeicher – Bereichsknoten
+# <a name="file-store-scope-node"></a>Dateispeicher – Bereichsknoten
  
 Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) und abhängige Pools für diesen Dateispeicher an. Folgende Möglichkeiten stehen zur Verfügung:
   

@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android und iOS) verwenden.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 002aa42786e1464e4aa62c72755c21b37e3225d4
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: c11ccbac11b546aa53e6d66625f12b12f86483b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523846"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608962"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams
 

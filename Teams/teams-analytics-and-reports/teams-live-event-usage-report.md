@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,25 +17,25 @@ description: Erfahren Sie, wie Sie Teams Bericht zur Nutzung von Liveereignissen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5953951400fbb1e888aec4c3c3e003aa5312a1b96abe13050a049d758c9902eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ea415e849f4255b38432d227a9d26452b3fc9275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631209"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams bericht zur Nutzung von Liveereignisen
 
-Der Teams Bericht zur Nutzung von Liveereignissen im Microsoft Teams Admin Center zeigt Ihnen die Aktivitätsübersicht für Liveereignisse, die in Ihrer Organisation abgehalten werden. Sie können Nutzungsinformationen wie Ereignisstatus, Startzeit, Ansichten und Produktionstyp für jedes Ereignis anzeigen. Sie können Einblicke in Nutzungstrends erhalten und sehen, wer in Ihrer Organisation Liveereignisse plant, präsentiert und produziert.
+Der Teams Bericht zur Nutzung von Liveereignissen im Microsoft Teams Admin Center zeigt Ihnen die Aktivitätsübersicht für Liveereignisse in Ihrer Organisation. Sie können Nutzungsinformationen wie Ereignisstatus, Startzeit, Ansichten und Produktionstyp für jedes Ereignis anzeigen. Sie können Einblicke in Nutzungstrends erhalten und sehen, wer in Ihrer Organisation Liveereignisse plant, präsentiert und erzeugt.
 
 ## <a name="view-the-live-event-usage-report"></a>Anzeigen des Berichts zur Nutzung von Liveereignisen
 
-1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter Bericht die Option **Teams** Verwendung **von Liveereignis aus.**
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseberichte**&  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter Bericht die Option **Teams** Verwendung **von Liveereignis aus.**
 2. Wählen **Sie unter Datumsbereich** einen vordefinierten Bereich aus, oder legen Sie einen benutzerdefinierten Bereich fest. Sie können einen Bereich festlegen, um Daten bis zu einem Jahr, sechs Monate vor und nach dem aktuellen Datum, anzeigen zu können.
 3. (Optional) Unter **Organisator** können Sie auswählen, dass nur Liveereignisse angezeigt werden, die von einem bestimmten Benutzer organisiert wurden.
 4. Klicken **Sie auf Bericht ausführen.**  
 
-    ![Screenshot des berichts Teams Liveereignisnutzung im Teams Admin Center mit Callouts](../media/teams-live-event-usage-report-with-callouts.png "Screenshot des berichts Teams Liveereignisnutzung im Teams Admin Center mit Callouts")
+    ![Screenshot des Berichts Teams Liveereignisnutzung im Teams Admin Center mit Callouts](../media/teams-live-event-usage-report-with-callouts.png "Screenshot des berichts Teams Liveereignisnutzung im Teams Admin Center mit Callouts")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 

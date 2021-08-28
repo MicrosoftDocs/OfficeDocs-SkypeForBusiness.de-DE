@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie Microsoft Teams Admin Center verwenden können, um eine Liste aller Telefonnummern in Ihrer Organisation und aller Nummern, die Benutzern zugewiesen oder nicht zugewiesen sind, zu sehen.
-ms.openlocfilehash: 6d66b1fb1b4118bca60dc37fed7f4eac8c18090c34fa68ba6a61fba860fb5710
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, wie Sie Microsoft Teams Admin Center verwenden können, um eine Liste aller Telefonnummern in Ihrer Organisation und aller Nummern, die Benutzern zugewiesen sind oder die nicht zugewiesen sind, zu sehen.
+ms.openlocfilehash: 1bad09f115ae31bf392fe14e4d00e1b59b00e3c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339443"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608792"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 
@@ -47,9 +47,9 @@ Es gibt verschiedene Arten von Telefonnummern, die Sie Benutzern oder anderen Di
 
 3. Informationen zum Anzeigen der zugewiesenen Telefonnummern finden Sie in der **Spalte Status.**
 
-4. Zum Filtern der Ansicht klicken Sie auf das Filtersymbol. Im **Bereich Filter** können Sie die Dropdownliste verwenden, um ihre Ansicht nach den hier aufgeführten Filtern zu filtern:
+4. Zum Filtern der Ansicht klicken Sie auf das Filtersymbol. Im **Bereich Filter** können Sie die Dropdownliste verwenden, um die Ansicht nach den hier aufgeführten Filtern zu filtern:
 
-   - **Von Ihnen festgelegter** Zahlenbereich. Sie können nach der niedrigsten oder der höchsten Zahl suchen.
+   - **Von Ihnen festgelegter** Zahlenbereich Sie können nach der niedrigsten oder der höchsten Zahl suchen.
 
    - Zahlen, die mit einer von Ihnen angegebenen Zahl beginnen.
 
@@ -70,7 +70,7 @@ Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur eine Liste der Telefon
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
     > [!IMPORTANT]
-    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine Enterprise **E5-Lizenz,** eine **Telefonsystem** Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
+    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz,** eine Telefonsystem-Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben. 
 
 3. Wenn Sie die Zahlen schnell sortieren möchten, damit Sie sehen können, welche zugewiesen sind, klicken Sie auf die **Spaltenüberschrift** Status. Sie können auch auf das Filtersymbol klicken und dann Ihre Ansicht filtern, um Telefonnummern, die Benutzern bereits zugewiesen sind, oder nicht zugewiesene Nummern, die Sie Benutzern zuweisen können, zu sehen. Sie können nach folgenden Kriterien filtern:
 
@@ -84,14 +84,14 @@ Wenn Sie Benutzer einrichten, möchten Sie vielleicht nur eine Liste der Telefon
 
 Wenn Sie Benutzer in Ihrer Organisation einrichten, die Telefonanrufe tätigen und empfangen sollen, müssen Sie zuerst die Telefonnummern abrufen und diese dann den Benutzern zuweisen. Nachdem Sie Ihre Telefonnummern erhalten haben, möchten Sie möglicherweise nur noch den Aktivierungsstatus der Nummernzuweisungen sehen.
 
-![Symbol mit dem Teams ](media/teams-logo-30x30.png) **Unter Verwendung Microsoft Teams Admin Center** !
+![Symbol mit dem Teams ](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers!**
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
 2. Navigieren Sie in der linken Navigationsleiste zu **VoIP** > **Telefonnummern**.
 
     > [!IMPORTANT]
-    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine Enterprise **E5-Lizenz,** eine **Telefonsystem** Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.
+    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz,** eine Telefonsystem-Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben. 
 
 3. Klicken Sie auf das Filtersymbol, um die Ansicht nach **Aktivierungszustand zu filtern** Sie können nach:
 

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: Die folgenden Anforderungen sind wichtig, um langfristig die Integrität und die erfolgreiche Nutzung aller Skype for Business Online-Funktionen sicherzustellen, die Sie für Ihre Organisation einrichten. Wir wissen, dass einige von Ihnen technisch sehr versiert sind. An Sie richtet sich dieses Dokument. Andere jedoch sind auf diesem Gebiet weniger erfahren. Wenn Sie Hilfe beim Einrichten von Skype for Business Online benötigen, lesen Sie dieses Dokument, um sich mit den Dingen vertraut zu machen, die Sie berücksichtigen müssen. Außerdem erhalten Sie Anhaltspunkte für Gespräche mit dem Microsoft FastTrack Center, Ihren Microsoft Services-Teams und Account-Teams oder mit Microsoft-Partnern, um herauszufinden, wie Sie diese Anforderungen erfüllen können.
-ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4af624a59e0606b3ee5f9c115ad61a65dffbd0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586023"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimieren Ihres Netzwerks für Skype for Business Online
 
@@ -54,7 +54,7 @@ Mit Skype for Business haben Sie folgende Möglichkeiten:
 
 Die Qualität der End-to-End-Netzwerkkonnektivität hat großen Einfluss auf die Qualität von Echtzeitmedien (Audio, Video und Anwendungsfreigabe) über IP. Für optimale Medienqualität in Skype for Business Online benötigen Sie eine Verbindung von hoher Qualität zwischen Ihrem Unternehmensnetzwerk und Skype for Business Online. Am besten orientieren Sie sich beim Einrichten der Konnektivität zwischen dem internen Netzwerk und der Cloud an der Kapazität des Netzwerks, damit auch Spitzendatenaufkommen für Skype for Business Online über alle Verbindungen kein Problem darstellen.
 
-Bei der Zusammenarbeit mit einem [Microsoft-Partner](https://partnercenter.microsoft.com/pcv/search)können Sie eine Vielzahl von Microsoft 365- oder Office 365-Anwendungen, einschließlich Skype for Business Online in der Cloud, mit Ihrem Netzwerk verbinden, und Echtzeit-Sprach- und Videokommunikationsfunktionen für Skype for Business erfordern, dass Netzwerkdienste speziell für die Unterstützung dieser Microsoft 365- und Office 365-Echtzeitarbeitsauslastungen konfiguriert werden müssen. Dazu gehören ein Netzwerk mit ausreichend Bandbreite für die Übertragung des erforderlichen Datenverkehrsvolumens und Unterstützung für eine Dienstqualität (Quality of Service, QoS), die Ihren Benutzern eine Erfahrung der Unternehmensklasse bietet.
+Wenn Sie mit einem [Microsoft-Partner](https://partnercenter.microsoft.com/pcv/search)arbeiten, können Sie eine Vielzahl von Microsoft 365- oder Office 365-Anwendungen, einschließlich Skype for Business Online in der Cloud, mit Ihrem Netzwerk verbinden. Echtzeit-Sprach- und Videokommunikationsfunktionen für Skype for Business erfordern, dass Netzwerkdienste speziell für die Unterstützung dieser Microsoft 365- und Office 365-Echtzeitarbeitsauslastungen konfiguriert werden müssen. Dazu gehören ein Netzwerk mit ausreichend Bandbreite für die Übertragung des erforderlichen Datenverkehrsvolumens und Unterstützung für eine Dienstqualität (Quality of Service, QoS), die Ihren Benutzern eine Erfahrung der Unternehmensklasse bietet.
 
 Neben den hier genannten Informationen gibt es weitere Ressourcen, mit deren Hilfe Sie Skype for Business Online-Dienste und -Funktionen erfolgreich planen und bereitstellen können. Außerdem können Sie sicherstellen, dass Ihre Netzwerkdienste diese Anforderungen erfüllen:
 
@@ -66,7 +66,7 @@ Neben den hier genannten Informationen gibt es weitere Ressourcen, mit deren Hil
 
 ## <a name="implement-quality-of-service-qos-for-skype-for-business"></a>Implementieren von Quality of Service (QoS) für Skype for Business
 
-Bevor Sie zu Skype for Business Online werden, sollten Sie sich die Kapazität Ihres Netzwerks zur Verarbeitung des Audio-, Video- und Freigabesitzungsverkehrs ansehen. Wie bei anderen Microsoft 365- und Office 365-Diensten steht Microsoft auch [](https://www.microsoft.com/download/details.aspx?id=19011) hier zum Download der Skype for Business-Bandbreiten-Rechner zur Verfügung, mit dem der erforderliche Netzwerkdatenverkehr für jeden Ihrer Unternehmensstandorte ermittelt wird. Sie sollten Nutzungsmodellierung durchführen, einschließlich der Modellierung der Medienflüsse im Echtzeit-Kommunikationsverkehr und der Menge des Skype for Business-Datenverkehrs pro Unternehmensstandort, der Berechnung des Datenverkehrsvolumens und der Analyse, wie sich der Datenverkehr auf Ihr Gesamtes Netzwerk aus wirkt. Anschließend sollte die Analyse dieser Daten Empfehlungen für die Verbesserung der Netzwerkanforderungen enthalten und Warteschlangengrößen empfehlen, um eine hervorragende Endbenutzererfahrung zu bieten.
+Bevor Sie zu Skype for Business Online werden, sollten Sie sich die Kapazität Ihres Netzwerks zur Verarbeitung des Audio-, Video- und Freigabesitzungsverkehrs ansehen. Wie bei anderen Microsoft 365- und Office 365-Diensten steht Microsoft [](https://www.microsoft.com/download/details.aspx?id=19011) auch hier zum Download der Skype for Business-Bandbreiten-Rechner zur Verfügung, mit dem der erforderliche Netzwerkdatenverkehr für jeden Ihrer Unternehmensstandorte ermittelt wird. Sie sollten Nutzungsmodellierung durchführen, einschließlich der Modellierung der Medienflüsse im Echtzeit-Kommunikationsverkehr und der Menge des Skype for Business-Datenverkehrs pro Unternehmensstandort, der Berechnung des Datenverkehrsvolumens und der Analyse, wie sich der Datenverkehr auf Ihr gesamtes Netzwerk aus wirkt. Anschließend sollte die Analyse dieser Daten Empfehlungen für die Verbesserung des Netzwerks geben und Warteschlangengrößen empfehlen, um eine hervorragende Endbenutzererfahrung zu bieten.
 
 Der Echtzeit-Datenverkehr von Skype for Business reagiert empfindlich auf Paketverluste, Verzögerungen und Jitter, die in überlasteten Netzwerken häufig auftreten. Quality of Service (QoS) - manchmal auch Class of Service genannt - muss in verwalteten externen WANs, verwalteten internen LANs und unternehmensbasierten WLANs ebenfalls bereitgestellt werden. Auf diese Weise können Sie den Echtzeit-Datenverkehr von Skype for Business wie beispielsweise Audio und Video gegenüber anderem Nicht-Echtzeit-Datenverkehr in lokalen Netzwerken und über WAN priorisieren und damit die Benutzerfreundlichkeit für die Endbenutzer erhöhen.
 
@@ -94,18 +94,18 @@ Die folgenden verfügbaren Ressourcen können ebenfalls hilfreich sein:
 
 - [Proxy-PAC-Generator für Office 365](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
-- [Verwenden von WAN Optimization Controller- oder Datenverkehrs-/Prüfungsgeräten mit Microsoft 365 oder Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
+- [Verwenden von WAN Optimization Controller- oder Datenverkehrsuntersuchungsgeräten Microsoft 365-Office 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
 - [Routing mit ExpressRoute für Microsoft 365 oder Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
 ## <a name="bypass-double-encryption"></a>Umgehen der doppelten Verschlüsselung
 
-Um Benutzern die bestmögliche Audio- und Videoerfahrung zu bieten, müssen Sie eine Lösung implementieren, die verhindert, dass Skype for Business-Medien (Audio und Video) einen VPN-Tunnel (Virtual Private Network) durchlaufen. Der Skype for Business Datenverkehr wird mit Transport Layer Security (TLS) verschlüsselt, und die Medienarbeitslasten werden mit SRTP (Secure Real Time Protocol) verschlüsselt. Die Signalisierung wird mit TLS verschlüsselt, und die Medienarbeitslasten werden mit SRTP verschlüsselt. Wenn dieser Datenverkehr über den VPN-Tunnel gesendet wird, wird eine zusätzliche Verschlüsselungsebene und zusätzliche Netzwerkhops zwischen Client und Microsoft 365 oder Office 365 hinzugefügt. Beides kann zu einer beeinträchtigten Sitzung führen, da dadurch Jitter, Paketverlust und Latenz erhöht werden.
+Um Benutzern die bestmögliche Audio- und Videoerfahrung zu bieten, müssen Sie eine Lösung implementieren, die verhindert, dass Skype for Business-Medien (Audio und Video) einen VPN-Tunnel (Virtual Private Network) durchlaufen. Der Skype for Business Datenverkehr wird mit TLS (Transport Layer Security) verschlüsselt, und die Medienarbeitslasten werden mit SRTP (Secure Real Time Protocol) verschlüsselt. Die Signalisierung wird mit TLS verschlüsselt, und die Medienarbeitslasten werden mit SRTP verschlüsselt. Wenn dieser Datenverkehr über den VPN-Tunnel gesendet wird, wird eine zusätzliche Verschlüsselungsebene und weitere Netzwerkhops zwischen dem Client und Microsoft 365 oder Office 365 hinzugefügt. Beides kann zu einer beeinträchtigten Sitzung führen, da dadurch Jitter, Paketverlust und Latenz erhöht werden.
 
 Getrenntes Tunneln ist eine Möglichkeit, mit der Sie verhindern können, dass der Skype for Business-Datenverkehr den VPN-Tunnel durchläuft. Kunden, die getrenntes Tunneln implementieren möchten, sollten sich bei ihrem VPN-Anbieter erkundigen, wie sie dazu in ihrer Software vorgehen müssen.
 
 > [!NOTE]
-> Dies ist nur für die Skype for Business Medienarbeitsauslastungen erforderlich und gilt nicht für andere Microsoft 365 oder Office 365 Dienste.
+> Dies ist nur für die Skype for Business Medienarbeitsauslastungen erforderlich und gilt nicht für andere Microsoft 365- Office 365 Dienste.
 
 Zusätzliche Ressourcen:
 
@@ -142,7 +142,7 @@ In den folgenden Artikeln finden Sie weitere Informationen zu unterstützten und
 
 Die Umgebung und das Umfeld, in dem sich Nutzer treffen und Audio- und Videogeräte verwenden, stellen ebenfalls einen wichtigen Faktor für die Audio- und Videoqualität dar. Nutzer, die aus einer lauten Umgebung anrufen, hören gedämpften und undeutlichen Ton mit Echos. Nutzer in einer dunklen oder lichtarmen Umgebung können keine hellen und scharfen Videos erzeugen. In einem Konferenzraum wirkt sich die Position des Mikrofons und des Videogeräts direkt auf die Ton- und Bildqualität für die Teilnehmer aus.
 
-Um ein klareres Bild der Audio- und Videoerfahrung eines Benutzers zu erhalten, verwenden Sie die Skype for Business-App ToolsOptionen  >    >  **Audiogerät** oder **Videogerät,** um Änderungen an dem verwendeten Gerät vorzunehmen und seine Einstellungen anzupassen. Sie können auch die Audioqualität eines Anrufs überprüfen, indem Sie auf **Anrufqualität überprüfen klicken.** Wenn sie auf **Anrufqualität überprüfen** klicken, können sie die Qualität und probleme melden, die beim Testanruf gefunden wurden.
+Um ein klareres Bild der Audio- und Videowiedergabe eines Benutzers zu erhalten, verwenden Sie die Skype for Business-App **ToolsOptionen**  >    >  **Audiogerät** oder **Videogerät,** um Änderungen an dem verwendeten Gerät vorzunehmen und seine Einstellungen anzupassen. Sie können auch die Audioqualität eines Anrufs überprüfen, indem Sie auf **Anrufqualität überprüfen klicken.** Wenn sie auf **Anrufqualität überprüfen** klicken, können sie die Qualität und probleme melden, die beim Testanruf gefunden wurden.
 
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 

@@ -15,23 +15,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Führen Sie die folgenden Schritte aus, um eine Standardtelefonnummer für Anrufer zur Teilnahme an einer Besprechung Microsoft Teams erstellen.
-ms.openlocfilehash: 11c9a31d723b5da63152f1a8a79d54938f9ecc31644afbe3421a2bd59f0f5626
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Führen Sie die folgenden Schritte aus, um eine Standardtelefonnummer für Anrufer zu erstellen, die an einer Besprechung Microsoft Teams teilnehmen.
+ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335895"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608802"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
-Mit Audiokonferenzen in Microsoft 365 und Office 365 können Benutzer in Ihrer Organisation Microsoft Teams-Besprechungen erstellen und benutzern dann die telefonische Einwahl in diese Besprechungen ermöglichen.
+Audiokonferenzen in Microsoft 365 und Office 365 ermöglichen Benutzern in Ihrer Organisation, Microsoft Teams-Besprechungen zu erstellen und benutzern dann die Telefonische Einwahl in diese Besprechungen zu ermöglichen.
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
@@ -70,7 +70,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 5. Geben Sie **in den Feldern** **Gebührenpflichtige** Nummer oder Gebührenfreie Nummer die Nummern für den Benutzer ein.
 
 > [!IMPORTANT]
-> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und zukünftige Microsoft Teams müssen die Besprechungen aktualisiert und an die Teilnehmer gesendet werden.
+> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und Microsoft Teams Besprechungen aktualisiert und an die Teilnehmer gesendet werden.
 
 ## <a name="want-to-use-windows-powershell"></a>Verwenden von Windows PowerShell
 
@@ -80,8 +80,8 @@ Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funkt
 
 - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
-  
+Zum Festlegen oder Ändern der Standardtelefonnummer für Audiokonferenzen für einen Besprechungsorganisator oder Benutzer mit [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)legen Sie die Parameter oder des **`ServiceNumber`** **`TollFreeServiceNumber`** [Cmdlets Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) auf eine der verfügbaren Nummern fest.
+
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

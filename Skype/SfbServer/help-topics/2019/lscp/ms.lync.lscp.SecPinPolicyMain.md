@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 0dc9972d11bafb155800e7bbbe1b2d5e281636011d56a66b233b67ab59fd76fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 857fb1513dd9bb0be07113a6aa2a13f91795898d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343809"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585239"
 ---
 # <a name="pin-policy"></a>PIN-Richtlinie
 
@@ -36,6 +36,6 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
   **Arbeiten mit EINER PIN-Richtlinie für Einwahlkonferenzen** Mit dieser PIN-Richtlinie können Benutzer, die über Active Directory Domain Services-Anmeldeinformationen in Ihrer Organisation verfügen, als authentifizierte Benutzer an Einwahlkonferenzen teilnehmen, indem sie eine PIN eingeben.
 - [Erstellen oder Ändern der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-- [Ändern der standardmäßigen PIN für Einwahlkonferenzen Einstellungen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
+- [Ändern der Standardmäßigen Einwahlkonferenz-PIN Einstellungen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings)
 
 - [Löschen der PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)

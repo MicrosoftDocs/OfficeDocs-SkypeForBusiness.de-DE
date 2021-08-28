@@ -12,31 +12,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie mehr über rollenbasierte Zugriffssteuerung mit dem verwalteten Microsoft Teams-Räume Diensts.
+description: Erfahren Sie mehr über rollenbasierte Zugriffssteuerung mit dem verwalteten Microsoft Teams-Räume Dienst.
 f1keywords: ''
-ms.openlocfilehash: c73ad1385a0654f3ef50dab46b803debe418b834b6497acfcb27f5a4de736f98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301061"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608812"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Rollenbasierte Zugriffssteuerung mit dem verwalteten Microsoft Teams-Räume Dienst
 
-Rollenbasierte Zugriffssteuerung (Role-based Access Control, RBAC) im verwalteten Microsoft Teams-Räume hilft Ihnen bei der Verwaltung des Benutzerzugriffs auf Raumressourcendaten in Ihrer Organisation. Durch das Zuweisen von Rollen zu Ihren Dienstportalbenutzern können Sie einschränken, was diese sehen und ändern können. Jede Rolle verfügt über einen Satz von Berechtigungen, die bestimmen, welche Benutzer mit dieser Rolle innerhalb Ihrer Organisation darauf zugreifen und Änderungen daran ändern können.
+Rollenbasierte Zugriffssteuerung (Role-based Access Control, RBAC) im verwalteten Microsoft Teams-Räume-Dienst hilft Ihnen bei der Verwaltung des Benutzerzugriffs auf Raumressourcendaten in Ihrer Organisation. Durch das Zuweisen von Rollen zu Ihren Dienstportalbenutzern können Sie einschränken, was diese sehen und ändern können. Jede Rolle verfügt über einen Satz von Berechtigungen, die bestimmen, welche Benutzer mit dieser Rolle innerhalb Ihrer Organisation darauf zugreifen und Änderungen daran ändern können.
 
 Zum Erstellen, Bearbeiten oder Zuweisen von Rollen muss Ihr Konto über eine der folgenden Berechtigungen verfügen:
 
 - Globaler Administrator über Azure Active Directory (Azure AD)
-- Verwalteter Dienstadministrator über das Microsoft Teams-Räume verwalteten Dienstportals
+- Administrator für verwaltete Dienste über Microsoft Teams-Räume verwalteten Dienstportals
 
 ## <a name="what-is-a-role"></a>Was ist eine Rolle?
 
-Eine Rolle definiert den Satz der Berechtigungen, die Benutzern gewährt werden, die dieser Rolle zugewiesen sind. Derzeit verfügt der verwaltete Microsoft Teams-Räume über drei integrierte Rollen: **Administrator** für verwaltete Dienste, **Websiteleiter** und **Site Tech.** Sie umfassen einige häufige Szenarien für Benutzer in Ihrer Organisation, die möglicherweise mit der Verwaltung ihrer Räume involviert sind.
+Eine Rolle definiert den Satz der Berechtigungen, die Benutzern gewährt werden, die dieser Rolle zugewiesen sind. Derzeit verfügt der verwaltete Microsoft Teams-Räume über drei integrierte **Rollen:** Administrator für verwaltete Dienste, **Websiteleiter** und **Site Tech.** Sie umfassen einige häufige Szenarien für Benutzer in Ihrer Organisation, die möglicherweise mit der Verwaltung ihrer Räume involviert sind.
 
-Um Rollen zu sehen, wechseln Sie im linken Navigationsbereich des Microsoft Teams-Räume-Portals für verwaltete Dienste zu Rollen **,** und wählen Sie dann eine der Rollen aus, um die Eigenschaften, Berechtigungen und Zuweisungen der Rolle zu sehen.  
+Zum Anzeigen von Rollen wechseln Sie im linken Navigationsbereich des Microsoft Teams-Räume-Portals für verwaltete Dienste zu Rollen **,** und wählen Sie dann eine der Rollen aus, um die Eigenschaften, Berechtigungen und Zuweisungen der Rolle zu sehen.  
 
 - **Eigenschaften:** Name, Rollentyp und Beschreibung
 - **Berechtigungen:** Listet Features und Berechtigungsebenen auf, auf die die Rolle Zugriff hat.
@@ -69,7 +69,7 @@ In der folgenden Tabelle ist zusammengefasst, was die einzelnen Rollen tun könn
 |Ticketverwaltung   |Kundenvorfall erstellen         |&#10004;           |&#10004;           |&#10004;  |
 |    |Anzeigen         |&#10004;           |&#10004;           |&#10004;  |
 |    |Aktualisieren         |&#10004;           |&#10004;           |&#10004;  |
-|Microsoft Teams-Räume von verwalteten Diensteinstellungen    |Anzeigen         |&#10004;           |         ||
+|Microsoft Teams-Räume verwalteter Diensteinstellungen    |Anzeigen         |&#10004;           |         ||
 |    |Ändern        |&#10004;           |         ||
 |Rollenverwaltung    |Anzeigen         |&#10004;           |         ||
 |    |Ändern         |&#10004;           |         ||
@@ -78,7 +78,7 @@ In der folgenden Tabelle ist zusammengefasst, was die einzelnen Rollen tun könn
 
 Um Rollen zuweisen zu können, müssen Sie ein globaler Administrator oder ein Administrator für verwaltete Dienste sein.
 
-1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams-Räume Dienstportals zu **Einstellungen**  >  **Rollen**.
+1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams-Räume Portal für verwaltete Dienste zu **Einstellungen**  >  **Rollen**.
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Screenshot der Access-Steuerelementseite mit Den Rollen":::
 

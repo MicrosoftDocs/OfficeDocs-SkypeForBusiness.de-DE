@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatAddin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Sie können den Add-In-Abschnitt der Seite für beständigen Chat verwenden, um URLs mit Chatrooms für beständigen Chat zu verknüpfen. Diese URLs werden im Client im Chatroom im Erweiterungsbereich der Unterhaltung angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
-ms.openlocfilehash: 179d3728deb11b16ac60d98f1c3815b43502e4047f01ab70ea046cf6f66baa99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13190215a55b4f51eb3b6dc57cfe1044dd61d083
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630989"
 ---
 # <a name="persistent-chat-add-in"></a>Add-In für beständigen Chat
 
@@ -28,7 +28,7 @@ Sie können den **Add-In-Abschnitt** der Seite für beständigen **Chat** verwen
 
 Add-Ins werden verwendet, um die Raumerfahrung zu erweitern. Ein typisches Add-In kann eine URL enthalten, die auf eine Silverlight-Anwendung zeigt, die abfängt, wenn ein Stock-Ticker in einem Chatroom veröffentlicht wird, und den Aktienverlauf im Erweiterbarkeitsbereich anzeigt. Weitere Beispiele sind das Einbetten einer OneNote 2013-URL in den Chatroom als Add-In, um einen freigegebenen Kontext einzuschließen, z. B. "Top of mind" oder "Topic of the day".
 
-Informationen zum Erstellen von Add-Ins für Chatrooms für beständige Chatrooms finden Sie unter [Konfigurieren von Add-Ins für Beständige Chatrooms in Skype for Business Server 2015.](../../manage/persistent-chat/configure-add-ins.md) Wenn Sie Administrator für beständigen Chat sind, können Sie Add-Ins mithilfe der Systemsteuerung oder Windows PowerShell Cmdlets erstellen.
+Informationen zum Erstellen von Add-Ins für Chatrooms für beständigen Chat finden Sie unter [Konfigurieren von Add-Ins für Chatrooms für beständige Chatrooms in Skype for Business Server 2015.](../../manage/persistent-chat/configure-add-ins.md) Wenn Sie Administrator für beständigen Chat sind, können Sie Add-Ins mithilfe der Systemsteuerung oder Windows PowerShell Cmdlets erstellen.
 
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 

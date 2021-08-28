@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: Jeder Datensatz steht für einen Anruf mit zwei Teilnehmern, wovon  mindestens einer ein VoIP-Benutzer ist.
-ms.openlocfilehash: 2314317f23db8edc4d0c2e0cc203cb74104168c472fa81cdfacc1a6595619278
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 75fd9b26baebef1fcfb06eb91eddc2d9be1e70d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584809"
 ---
 # <a name="voipdetails-table"></a>VoipDetails-Tabelle
  
@@ -27,15 +27,15 @@ Jeder Datensatz steht für einen Anruf mit zwei Teilnehmern, wovon  mindestens e
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit **SessionIdSeq** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
-|**SessionIdSeq** <br/> |Ganzzahl  <br/> |Primary  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit **SessionIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
-|**FromNumberId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |**PhoneId** des Anrufers. Weitere Informationen finden Sie in der [Tabelle "Telefone".](phones.md) Wenn nicht NULL und **FromGatewayId** ist nicht NULL, handelt es sich beim Anrufer um einen PSTN-Benutzer. <br/> |
-|**ConnectedNumberId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |**PhoneId** des Anrufempfängers. Weitere Informationen finden Sie in der [Tabelle "Telefone".](phones.md) Wenn nicht NULL und **FromGatewayId** ist nicht NULL, handelt es sich beim Anrufempfänger um einen PSTN-Benutzer. <br/> |
-|**FromMediationServerId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |Der Vermittlungsserver, von dem der Anruf kommt. Weitere Informationen finden Sie in der [MediationServers-Tabelle.](mediationservers.md) <br/> |
-|**ToMediationServerId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |Der Vermittlungsserver, an den der Anruf geht. Weitere Informationen finden Sie in der [MediationServers-Tabelle.](mediationservers.md) <br/> |
-|**FromGatewayId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |Das Gateway, von dem der Anruf kommt. Weitere Informationen finden Sie in der [Gateways-Tabelle in Skype for Business Server 2015.](gateways.md) <br/> |
-|**ToGatewayId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |Das Gateway, an das der Anruf geht. Weitere Informationen finden Sie in der [Gateways-Tabelle in Skype for Business Server 2015.](gateways.md) <br/> |
-|**DisconnectedbyURIId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |URI des Benutzers, der den Anruf unterbrochen hat, sofern der Benutzer über einen URI verfügt. Weitere Informationen finden Sie in der [Tabelle "Benutzer".](users.md) <br/> |
-|**DisconnectedbyPhoneId** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |ID des Telefons, das den Anruf unterbrochen hat, sofern der Anruf von einem Telefon unterbrochen wurde. Weitere Informationen finden Sie in der [Tabelle "Telefone".](phones.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit **SessionIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
+|**FromNumberId** <br/> |int  <br/> |Ausländisch  <br/> |**PhoneId** des Anrufers. Weitere Informationen finden Sie in der [Tabelle "Telefone".](phones.md) Wenn nicht NULL und **FromGatewayId** ist nicht NULL, handelt es sich beim Anrufer um einen PSTN-Benutzer. <br/> |
+|**ConnectedNumberId** <br/> |int  <br/> |Ausländisch  <br/> |**PhoneId** des Anrufempfängers. Weitere Informationen finden Sie in der [Tabelle "Telefone".](phones.md) Wenn nicht NULL und **FromGatewayId** ist nicht NULL, handelt es sich beim Anrufempfänger um einen PSTN-Benutzer. <br/> |
+|**FromMediationServerId** <br/> |int  <br/> |Ausländisch  <br/> |Der Vermittlungsserver, von dem der Anruf kommt. Weitere Informationen finden Sie in der [MediationServers-Tabelle.](mediationservers.md) <br/> |
+|**ToMediationServerId** <br/> |int  <br/> |Ausländisch  <br/> |Der Vermittlungsserver, an den der Anruf geht. Weitere Informationen finden Sie in der [MediationServers-Tabelle.](mediationservers.md) <br/> |
+|**FromGatewayId** <br/> |int  <br/> |Ausländisch  <br/> |Das Gateway, von dem der Anruf kommt. Weitere Informationen finden Sie in der [Gateways-Tabelle in Skype for Business Server 2015.](gateways.md) <br/> |
+|**ToGatewayId** <br/> |int  <br/> |Ausländisch  <br/> |Das Gateway, an das der Anruf geht. Weitere Informationen finden Sie in der [Gateways-Tabelle in Skype for Business Server 2015.](gateways.md) <br/> |
+|**DisconnectedbyURIId** <br/> |int  <br/> |Ausländisch  <br/> |URI des Benutzers, der den Anruf unterbrochen hat, sofern der Benutzer über einen URI verfügt. Weitere Informationen finden Sie in der [Tabelle "Benutzer".](users.md) <br/> |
+|**DisconnectedbyPhoneId** <br/> |int  <br/> |Ausländisch  <br/> |ID des Telefons, das den Anruf unterbrochen hat, sofern der Anruf von einem Telefon unterbrochen wurde. Weitere Informationen finden Sie in der [Tabelle "Telefone".](phones.md) <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype for Business Server 2015 eingeführt.  <br/> |
    
 

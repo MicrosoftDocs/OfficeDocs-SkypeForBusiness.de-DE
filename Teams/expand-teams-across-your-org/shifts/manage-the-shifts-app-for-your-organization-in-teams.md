@@ -11,10 +11,10 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Erfahren Sie, wie Sie die Schichten-App in Ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
+description: Erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 27bb2e6e336bb09bffc9bc79c25e864964562a97820b3e37c462ec153eed108b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608972"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -76,7 +76,7 @@ Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass
  
 Teams enthält eine integrierte Setuprichtlinie für FirstLineWorker-Apps, die Sie Mitarbeitern in der Frontline in Ihrer Organisation zuweisen können. Standardmäßig beinhaltet diese Richtlinie die Apps für Aktivität, Schichten, Chat und Anrufe.
 
-Zum Anzeigen der FirstLineWorker-Richtlinie wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu Setuprichtlinien für Teams  >  **App.**
+Zum Anzeigen der FirstLineWorker-Richtlinie wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center Teams **Richtlinien** für die  >  **App-Einrichtung.**
 
 ![Screenshot der Setuprichtlinie für die FirstLineWorker-App](../../media/firstline-worker-app-setup-policy.png "Screenshot der Setuprichtlinie für die FirstLineWorker-App im Microsoft Teams Admin Center")
 

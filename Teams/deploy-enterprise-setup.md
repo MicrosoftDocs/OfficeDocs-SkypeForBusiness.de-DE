@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 description: Richten Sie Teams in Ihrem Unternehmen ein, damit Ihre Benutzer per Chat und Dateifreigabe zusammenarbeiten, kleine und große Besprechungen einrichten und daran teilnehmen sowie per Video und Sprache kommunizieren können.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ce51b1768422a5780dbeae5b89f1285d26f18e524d3aae8bc710c127ee5af33
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584629"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Einrichten von Microsoft Teams in Ihrem Unternehmen
 

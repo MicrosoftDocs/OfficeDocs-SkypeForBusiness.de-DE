@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie können den Add-In-Abschnitt der Seite für beständigen Chat verwenden, um URLs beständigen Chatrooms zuzuordnen. Diese URLs werden im Client im Chatroom im Erweiterungsbereich der Unterhaltung angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
-ms.openlocfilehash: de6d1100d15f31a73475efcfc302555396406eadeb226689797cb406ca0754d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Sie können den Add-In-Abschnitt der Seite für beständigen Chat verwenden, um URLs mit Chatrooms für beständigen Chat zu verknüpfen. Diese URLs werden im Client im Chatroom im Erweiterungsbereich der Unterhaltung angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
+ms.openlocfilehash: 77b75243eb7b5b46a45713c11bef610fd995de7a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585289"
 ---
 # <a name="persistent-chat-add-in"></a>Add-In für beständigen Chat
 

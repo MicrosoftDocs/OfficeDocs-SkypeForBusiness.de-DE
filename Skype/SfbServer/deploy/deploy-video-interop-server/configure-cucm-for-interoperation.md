@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Zusammenfassung: Konfigurieren von CUCM für die Arbeit mit Skype for Business Server.'
-ms.openlocfilehash: c414e14feb29dc834ebcd6a62221e3ae5e6706e5ee5c265f155d6ea512a91423
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a27af30cd4934743f8b83260ffd46fa3c65cbcd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307756"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585631"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Konfigurieren von CUCM für die Interoperabilität mit Skype for Business Server
  
@@ -74,11 +74,11 @@ Eine Reihe von CUCM-Einstellungen muss für die Interoperabilität mit dem VIS b
     
 14. Legen Sie das Geräteprotokoll auf SIP fest, und drücken Sie **"Weiter".**
     
-15. Legen Sie unter "Geräteinformationen" den Gerätenamen und die Beschreibung fest (wahrscheinlich auf SfBVideoInterop_SIPTrunk), und legen Sie die Medienressourcen-Gruppenliste auf einen MRGL-Wert fest, der die richtigen Medienressourcen enthält. 
+15. Legen Sie unter "Geräteinformationen" den Gerätenamen und die Beschreibung fest (wahrscheinlich auf etwa SfBVideoInterop_SIPTrunk), und legen Sie die Medienressourcen-Gruppenliste auf einen MRGL fest, der die richtigen Medienressourcen enthält. 
     
 16. Scrollen Sie weiter nach unten. Der Medienendpunkt (Media Termination Point, MTP) ist für Videoanrufe nicht erforderlich, wenn er noch nicht deaktiviert ist, deaktivieren Sie ihn. Aktivieren Sie die Option zum **Ausführen auf allen aktiven einheitlichen CM-Knoten.** Bitte beachten Sie, dass Sie der Skype for Business Server Konfiguration alle CUCM-Knoten hinzufügen sollten.
     
-17. Scrollen Sie weiter nach unten. Legen Sie die Optionen für eingehende Anrufe und verbundene Parteien Einstellungen optionen wie dargestellt fest.
+17. Scrollen Sie weiter nach unten. Legen Sie die Optionen für eingehende Anrufe und verbundene Parteien Einstellungen Optionen wie dargestellt fest.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
@@ -120,7 +120,7 @@ Eine Reihe von CUCM-Einstellungen muss für die Interoperabilität mit dem VIS b
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
     | Musterverwendung <br/> |Domänenrouting  <br/> |
-    |IPv4-Muster  <br/> |contoso.com (bei Verwendung von IPv6 leer lassen)  <br/> |
+    |IPv4-Muster  <br/> |contoso.com (leer lassen, wenn IPv6 verwendet wird)  <br/> |
     |IPv6-Muster  <br/> |contoso.com (bei Verwendung von IPv4 leer lassen)  <br/> |
     |Beschreibung  <br/> |SIPRoute-Muster für mediarv  <br/> |
     |Routenpartition  <br/> |SfBVideoInterop_RoutePartition  <br/> |

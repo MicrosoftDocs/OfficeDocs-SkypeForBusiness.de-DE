@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Erfahren Sie, wie Sie Ihre Einwahlkonferenznummern innerhalb von Skype for Business Online suchen. '
-ms.openlocfilehash: 6168451038d1abf5bc73a60630e56aced355af7d58a0024aff480595c71c6c2a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, wie Sie Ihre Einwahlkonferenznummern innerhalb von Skype for Business online suchen. '
+ms.openlocfilehash: 3be641b2a5c4b626f414d1a8ae8ee1b16adc7146
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586033"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Eine Liste der Audiokonferenznummern in Skype for Business Online
 
@@ -58,7 +58,7 @@ Informationen zum [Ändern der Einwahltelefonnummer](set-the-phone-numbers-inclu
     
 2. Wechseln Sie zum Admin Center, > **Skype for Business.**
     
-3. Wechseln Sie **Skype for Business linken** Navigationsbereich im Admin Center zu **Audio conferencing** Microsoft Bridge , und gehen Sie dann wie  >  hier:
+3. Wechseln Sie **im Skype for Business Admin Center** in der linken Navigationsleiste zu Audio **conferencing** Microsoft Bridge , und gehen Sie  >  dann wie hier:
     
    - Sie können die für Audiokonferenzen verfügbaren Telefonnummern anzeigen.
     
@@ -72,7 +72,7 @@ Informationen zum [Ändern der Einwahltelefonnummer](set-the-phone-numbers-inclu
 
 - Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) nutzen.
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

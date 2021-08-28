@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Erfahren Sie, wie Sie Abrechnungslizenzen für Guthaben für Kommunikationen (PSTN-Verbrauch) für Ihre Benutzer und Ihre Organisation einrichten. '
-ms.openlocfilehash: 3acb2dbb4029e7b530d556f6fa63bbdb9b329963160bd27113ea10bbd9e219d7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c66556cdcd32bb99b29bd66291d47bad28d44fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608772"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -47,20 +47,20 @@ Dazu **müssen Sie Ihren Benutzern eine Lizenz für Audiokonferenzen oder für T
     
     Nachdem Sie diese Lizenz zugewiesen haben, müssen Sie Audiokonferenzen einrichten. Eine schrittweise Anleitung finden Sie unter Testen oder Erwerben von [Audiokonferenzen in Microsoft 365 oder Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-- Weisen **Telefonsystem** Benutzern eine Lizenz **für einen** Anrufplan für Inland oder Inlands- und Auslandsrufe zu. Weitere [Informationen finden Microsoft Teams Zuweisen von Add-On-Lizenzen.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- Weisen **Telefonsystem** Benutzern eine Lizenz **für einen Anrufplan** für Inland oder Inlands- und Auslandsrufe zu. Weitere [Informationen finden Microsoft Teams Zuweisen von Add-On-Lizenzen.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
     > [!NOTE]
     > Obwohl dies für Guthaben für Kommunikationen nicht  erforderlich ist, müssen Sie dennoch eine Lizenz für einen Plan für Inlandsrufe oder eine Lizenz für einen Plan für Inlands- und **Auslandsrufe** zuweisen.
   
     Nach dem Zuweisen dieser Lizenzen müssen Sie Telefonnummern für Ihre Organisation abrufen und diese Nummern den Benutzern in der Organisation zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](set-up-calling-plans.md).
     
-Weitere Informationen finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Weitere Informationen finden Sie unter [Microsoft Teams von Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Schritt 2: Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
 1. Melden Sie sich bei der [Microsoft 365 Admin Center](https://portal.office.com/Adminportal) mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste Microsoft 365 Admin Center Zu  >  **Abrechnungskaufsdienste**. Scrollen Sie nach unten, **und wählen Sie Add-Ons aus.**
+2. Navigieren Sie im linken Navigationsbereich Microsoft 365 Admin Center   >  **Abrechnungskaufsdienste**. Scrollen Sie nach unten, **und wählen Sie Add-Ons aus.**
 
 3. Wählen Sie **Guthaben für Kommunikationen aus.**
     
@@ -79,13 +79,13 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./
       > [!NOTE]
      > Das Guthaben wird nur zu den von Microsoft veröffentlichten Tarifen auf Guthaben für Kommunikationen angewendet, wenn die Dienste genutzt werden. Wenn ein Guthaben nicht innerhalb von 12 Monaten ab dem Kaufdatum aufgebraucht wird, verfällt es. 
      > 
-     > Wenn Sie die Funktion für das automatische Aufladen verwenden, wird die Fakturierung für Guthaben für Kommunikationen generiert, wenn der Triggerbetrag erreicht und eine Aufladetransaktion verarbeitet wird. Beträge von Kommunikationsguthaben werden zuerst auf die erste Weise verwendet. Informationen zum Überprüfen der monatlichen Nutzung finden Sie im Bericht [Skype for Business PSTN-Nutzung.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > Wenn Sie die Funktion für das automatische Aufladen verwenden, wird die Fakturierung für Guthaben für Kommunikationen generiert, wenn der Triggerbetrag erreicht und eine Aufladetransaktion verarbeitet wird. Beträge von Kommunikationsguthaben werden zuerst auf die erste Weise verwendet. Informationen zum Überprüfen der monatlichen Nutzung finden Sie im [Bericht Skype for Business PSTN-Nutzung.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Geben Sie jetzt Ihre Zahlungsinformationen ein, und wählen Sie **Bestellung aufgeben** aus.
     >[!IMPORTANT]
     >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
     
-In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Organisationen, die bereits Skype for Business Online als Dienstanbieter verwenden, können Nutzungsdaten im Bericht  >    >  **PSTN-Nutzungsdetails** von Microsoft Teams Admin Center erhalten.
+In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Organisationen, die bereits Skype for Business Online als Dienstanbieter verwenden, können Nutzungsdaten im **Bericht**  >    >  **PSTN-Nutzungsdetails** von Microsoft Teams Admin Center überprüfen.
   
 Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation überprüfen, um die benötigten Beträge zu ermitteln. Informationen zur Anrufnutzung finden Sie im Bericht **PSTN-Nutzungsdetails**. In diesem Bericht können Sie die Anrufdatensätze nach Excel exportieren, wenn Sie die Daten speichern oder benutzerdefinierte Berichte erstellen müssen. Informationen zum Einlesen der Nutzung finden Sie im [Bericht PSTN-Nutzung.](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
   
@@ -117,7 +117,7 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 Sie können die Informationen auch anzeigen, indem Sie sich [beim Abrechnungskonto Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu Abonnements hinzufügen  >    >  **gehen.**
   
-Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Eine Tabelle mit der Lizenz oder den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -125,7 +125,7 @@ Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie
     
 - [Einrichten von Cloud-Voicemail – Administratorhilfe](set-up-phone-system-voicemail.md)
     
-- [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufplänen für Microsoft 365 oder Office 365](calling-plans-for-office-365.md)
+- [Einrichten von Anrufplänen](set-up-calling-plans.md) [und Anrufplänen für Microsoft 365 oder Office 365](calling-plans-for-office-365.md)
     
 - [Hinzufügen und Verwalten von Guthaben für Kommunikationen](add-funds-and-manage-communications-credits.md)
     

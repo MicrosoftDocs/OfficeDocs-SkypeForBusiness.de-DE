@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in der Türkei, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: e09cf25c070644b0b7dd86a1184faa25eaa6926549694eb78a7fb221f4763c22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7fde495bc0fbe99d40559d2e52bafe8f2f8d0149
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318199"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631169"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>Einschränkungen für gebührenfreie Telefonnummern in der Türkei
 

@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über den Store für benutzerdefinierte Apps in Microsoft Teams.
-ms.openlocfilehash: 0a068634b0f951abff0ae2f1b310cd48bdb80a5d4b790d2fdb81755d05636868
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342989"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584659"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Store für benutzerdefinierte Apps in Microsoft Teams
 
@@ -32,7 +32,7 @@ Jetzt können Sie den App Store Ihrer Organisation in Teams mit Ihrem Unternehme
 > [!Note]
 > Änderungen am Branding benötigen 24 Stunden, bis sie wirksam werden.
 
-Sie können im Admin Center auf den Store **zum Anpassen** zugreifen, indem Sie Teams Store anpassen  >  **auswählen.**
+Sie können im Admin Center auf den Store zum Anpassen zugreifen, indem Sie Teams  >  **Store anpassen auswählen.**
 
   ![Hervorgehobene Funktion "Store anpassen" der Administratorkonsole](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ In diesem Artikel werden die Store-Features von benutzerdefinierten Apps und der
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Hier können Sie Ihr Organisationslogo hochladen. Das ausgewählte Logo wird auf dem Teams in **für** Ihren Mandanten erstellten Apps  >  **angezeigt.**
+Hier können Sie Ihr Organisationslogo hochladen. Das ausgewählte Logo wird im Teams auf der Seite **Für**  >  **Ihren Mandanten erstellten Apps** angezeigt.
 
 Wenn Sie die Option **Bild auswählen** auswählen auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 240 x 60 Groß sein, oder es wird auf diese Größe skaliert. Er sollte nicht größer als 5 MB sein. Die unterstützten Formate sind:
 
@@ -76,11 +76,11 @@ Das kleine Logo wird  neben dem Abschnittstitel Für Mandanten erstellt auf der 
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Stellen Sie sicher, dass der Hintergrund genügend Kontrast zum Text hat, damit die Benutzer den Text deutlich lesen können. Der Hintergrund wird im Teams in **Apps angezeigt,**  >  **die für Ihren Mandantenkopf erstellt** wurden.
+Stellen Sie sicher, dass der Hintergrund genügend Kontrast zum Text hat, damit die Benutzer den Text deutlich lesen können. Der Hintergrund wird im Teams in **Apps** angezeigt,  >  **die für Ihren Mandantenheader erstellt** wurden.
 
 Sie haben nun die folgenden Optionen:
 
-- Verwenden Teams standardhintergrunddesigns des Clients
+- Verwenden Teams Standardhintergrunddesigns des Clients
 - Wählen Sie ein Bild aus. Wenn Sie das Hintergrundbild auswählen, können Sie die Datei Ihrer Wahl hochladen. Der Hintergrund sollte 1212 x 100 Pixel groß sein, oder er wird auf diese Größe skaliert. Er sollte nicht größer als 5 MB sein. Die unterstützten Formate sind:
   - SVG
   - .png

@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Erfahren Sie, wie Sie hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.
-ms.openlocfilehash: 6579d9b6dfa8a2c9bed237cf98685137f229860a7fe4f338f3d994230516d353
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b7157b0f1bd3d1891edac752310343b7211b961
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608582"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015: Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat
  
@@ -29,7 +29,7 @@ Skype for Business Server unterstützt mehrere Modi mit hoher Verfügbarkeit fü
 > [!NOTE]
 > AlwaysOn-Verfügbarkeitsgruppen werden bei Servern für beständigen Chat nicht unterstützt. 
   
-Bevor Sie Ihre Bereitstellung für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung konfigurieren, sollten Sie mit den Konzepten in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sein. Die in diesen Themen beschriebene Notfallwiederherstellungslösung für den Server für beständigen Chat basiert auf einem gestreckten Serverpool für beständigen Chat. Der Planungsinhalt beschreibt die Ressourcenanforderungen und die Gestreckte Pooltopologie, die hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat ermöglicht, einschließlich der Verwendung SQL Server Spiegelung für hohe Verfügbarkeit und SQL Server Protokollversand für die Notfallwiederherstellung.
+Bevor Sie ihre Bereitstellung für den beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung konfigurieren, sollten Sie mit den Konzepten in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sein. Die in diesen Themen beschriebene Notfallwiederherstellungslösung für den Server für beständigen Chat basiert auf einem gestreckten Serverpool für beständigen Chat. Der Planungsinhalt beschreibt die Ressourcenanforderungen und die Gestreckte Pooltopologie, die hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat ermöglicht, einschließlich der Verwendung SQL Server Spiegelung für hohe Verfügbarkeit und SQL Server Protokollversands für die Notfallwiederherstellung.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Verwenden des Topologie-Generators zum Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung
 
@@ -45,7 +45,7 @@ Führen Sie im Topologie-Generator die folgenden Schritte aus, um hohe Verfügba
     
     c. Aktivieren Sie die SQL Server Protokollversanddatenbank.
     
-    d. Fügen Sie den sekundären SQL Server Speicher SQL Server Protokollversand hinzu.
+    d. Fügen Sie den sekundären SQL Server Speicher für den SQL Server Protokollversand hinzu.
     
     e. Fügen Sie den SQL Server Speicherspiegel für die sekundäre Datenbank hinzu.
     
@@ -53,7 +53,7 @@ Führen Sie im Topologie-Generator die folgenden Schritte aus, um hohe Verfügba
     
 ## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Einrichten SQL Server Protokollversands für die primäre Datenbank des Servers für beständigen Chat
 
-Stellen Sie mit SQL Server Management Studio eine Verbindung mit der sekundären Datenbankinstanz des Servers für beständigen Chat her, und stellen Sie sicher, dass SQL Server Agent ausgeführt wird. Stellen Sie dann eine Verbindung mit der primären Datenbankinstanz für beständigen Chat her, und führen Sie die folgenden Schritte aus:
+Stellen Sie mithilfe SQL Server Management Studio eine Verbindung mit der sekundären Datenbankinstanz des Servers für beständigen Chat her, und stellen Sie sicher, dass SQL Server Agent ausgeführt wird. Stellen Sie dann eine Verbindung mit der primären Datenbankinstanz für beständigen Chat her, und führen Sie die folgenden Schritte aus:
   
 1. Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, und klicken Sie auf **Eigenschaften**.
     
@@ -78,7 +78,7 @@ Stellen Sie mit SQL Server Management Studio eine Verbindung mit der sekundären
     
 10. Klicken Sie unter **Sekundäre Serverinstanzen und Datenbanken** auf **Hinzufügen**.
     
-11. Klicken Sie auf **Verbinden,** und stellen Sie eine Verbindung mit der Instanz von SQL Server her, die Sie als sekundärer Server konfiguriert haben.
+11. Klicken Sie auf **Verbinden,** und stellen Sie eine Verbindung mit der Instanz von SQL Server her, die Sie als sekundären Server konfiguriert haben.
     
 12. Wählen Sie im Feld **Sekundäre Datenbank** die Datenbank **mgc** aus der Liste aus.
     
@@ -94,7 +94,7 @@ Stellen Sie mit SQL Server Management Studio eine Verbindung mit der sekundären
     
 18. Wählen Sie unter **Warnen, wenn keine Wiederherstellung erfolgt in** einen Warnschwellenwert aus.
     
-19. Sehen Sie sich den im Feld **Zeitplan** unter **Wiederherstellungsauftrag** aufgeführten Wiederherstellungszeitplan an. Klicken Sie zum Anpassen des Zeitplans für Ihre Installation auf **"Zeitplan",** passen Sie den SQL Server Agent-Zeitplan nach Bedarf an, und klicken Sie auf **"OK".** Dieser Zeitplan sollte in etwa dem Sicherungszeitplan entsprechen.
+19. Sehen Sie sich den im Feld **Zeitplan** unter **Wiederherstellungsauftrag** aufgeführten Wiederherstellungszeitplan an. Klicken Sie zum Anpassen des Zeitplans für Ihre Installation auf **"Zeitplan",** passen Sie den SQL Server-Agent-Zeitplan nach Bedarf an, und klicken Sie auf **"OK".** Dieser Zeitplan sollte in etwa dem Sicherungszeitplan entsprechen.
     
 20. Klicken Sie im Dialogfeld **Datenbankeigenschaften** auf **OK**, um den Konfigurationsprozess zu starten.
     
@@ -102,7 +102,7 @@ Stellen Sie mit SQL Server Management Studio eine Verbindung mit der sekundären
 
 Führen Sie die folgenden Schritte aus, damit der Protokollversand fortgesetzt wird, wenn die primäre Datenbank für beständigen Chat nicht zur Spiegeldatenbank übergeht.
   
-1. Manuelles Failover der primären Datenbank für beständigen Chat auf die Spiegelung. Dies erfolgt mithilfe der Skype for Business Server-Verwaltungsshell und des **Cmdlets Invoke-CsDatabaseFailover.**
+1. Manuelles Failover der primären Datenbank für beständigen Chat auf die Spiegelung. Dazu verwenden Sie die Skype for Business Server-Verwaltungsshell und das Cmdlet **"Invoke-CsDatabaseFailover".**
     
 2. Stellen Sie mithilfe der SQL Server Management Studio eine Verbindung mit der primären Spiegelinstanz des Servers für beständigen Chat her.
     
@@ -149,7 +149,7 @@ Führen Sie die folgenden Schritte aus, damit der Protokollversand fortgesetzt w
 20. Wählen Sie die erste Hälfte der Abfrage aus, und führen Sie sie aus (siehe Schritt 18) bis zur Zeile: -- \* \* \* \* \* \* Ende: Skript, das in der primären Ebene ausgeführt werden soll: \* \* \* \* \* \* .
     
     > [!IMPORTANT]
-    > Die manuelle Ausführung dieses Skripts ist erforderlich, da SQL Server Management Studio nicht mehrere primäre Datenbanken in einer SQL Server Log Shipping-Konfiguration unterstützt. 
+    > Die manuelle Ausführung dieses Skripts ist erforderlich, da SQL Server Management Studio nicht mehrere primäre Datenbanken in einer SQL Server Protokollversandkonfiguration unterstützt. 
   
 21. Wählen Sie **Abbrechen** aus, um das Konfigurationsfenster für den Protokolldateiversand zu schließen und ein funktionierendes Setup zu erstellen, das den Protokolldateiversand für die primäre und für die gespiegelte Datenbank (bei einem Failover) ordnungsgemäß implementiert.
     

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Sie können den Abschnitt Kategorie der Seite für beständigen Chat verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chatroom ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um "Chinesische Mauern" zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
-ms.openlocfilehash: 009cc7ef5cd35b7637f687043a0a5c5ddd24fa2f228c95a8bb4660b4c9140b47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be326978d25039e095e8d679b40194f7468f7a8e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299821"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630969"
 ---
 # <a name="persistent-chat-category"></a>Kategorie für beständigen Chat
  
@@ -28,7 +28,7 @@ Sie können den Abschnitt **Kategorie** der Seite für **beständigen Chat** ver
   
 Chatroomkategorien können Chatrooms enthalten, jedoch keine anderen Kategorien. Jede Kategorie beschreibt ihre Inhalte mit Metadaten, z. B. _Name_ und _Beschreibung._ Darüber hinaus verfügt die Kategorie über Eigenschaften, die festgelegt werden können, um das Verhalten der zu ihr gehörenden Chatrooms zu steuern, z. B. ob die  _Chatrooms Einladungen_ oder _Dateiuploads_ zulassen oder  _den Chatverlauf_ enthalten.
   
-Informationen zum Erstellen einer neuen Kategorie finden Sie unter [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015.](../../manage/persistent-chat/categories.md) Wenn Sie Administrator für beständigen Chat sind, können Sie Kategorien mithilfe der Systemsteuerung oder Windows PowerShell Cmdlets erstellen.
+Informationen zum Erstellen einer neuen Kategorie finden Sie unter [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015.](../../manage/persistent-chat/categories.md) Als Administrator für beständigen Chat können Sie Kategorien mithilfe der Systemsteuerung oder Windows PowerShell Cmdlets erstellen.
   
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
@@ -65,9 +65,9 @@ Auf der Seite **Kategorie** können Sie die folgenden Aufgaben ausführen:
 10. Um Dateiuploads in Chatrooms dieser Kategorie zu steuern, aktivieren bzw. deaktivieren Sie das Kontrollkästchen **Dateiupload aktivieren**. Ist diese Option aktiviert, können für die Chatrooms dieser Kategorie Dateiuploads aktiviert und deaktiviert werden. Ist die Option deaktiviert, sind Dateiuploads für die Chatrooms dieser Kategorie nicht zulässig.
     
      > [!IMPORTANT]
-     > Diese Einstellung wird auf dem Server erzwungen, da benutzerdefinierte Anwendungen oder vorherige Gruppenchatclients, die Office Communications Server 2007 R2-Gruppenchatserver oder Lync Server 2010 verwenden, Gruppenchat Dateien in einem Raum veröffentlichen kann. Der Lync 2013-Client verfügt nicht über eine Dateiupload-/Downloadfunktion. Wenn Sie also über eine reine Lync 2013-Bereitstellung oder einen Lync 2013-Client verfügen, ist es nicht möglich, Dateien in einem Chatroom des Servers für beständigen Chat zu veröffentlichen. 
+     > Diese Einstellung wird auf dem Server erzwungen, da benutzerdefinierte Anwendungen oder vorherige Gruppenchatclients, die Office Communications Server 2007 R2 Group Chat Server oder Lync Server 2010 verwenden, Gruppenchat Dateien in einem Raum veröffentlichen kann. Der Lync 2013-Client verfügt nicht über eine Dateiupload-/Downloadfunktion. Wenn Sie also über eine reine Lync 2013-Bereitstellung oder einen Lync 2013-Client verfügen, ist es nicht möglich, Dateien in einem Chatroom des Servers für beständigen Chat zu veröffentlichen. 
   
-11. Aktivieren oder deaktivieren Sie das Kontrollkästchen **Chatverlauf aktivieren** oder deaktivieren, um den Chatverlauf zu steuern. Wenn diese Option ausgewählt ist, werden Chatrooms beständig. andernfalls werden Chatnachrichten nicht beibehalten. Wenn die Kompatibilität aktiviert ist, werden Chatrooms in Compliance gespeichert, aber die Benutzer können nicht auf ältere Nachrichten zugreifen. Diese Option kann für Chatrooms verwendet werden, die für Ad-hoc-Zusammenarbeiten in Echtzeit vorgesehen sind, für die kein Chatverlauf beibehalten werden muss.
+11. Aktivieren oder deaktivieren Sie das Kontrollkästchen **Chatverlauf aktivieren** oder deaktivieren, um den Chatverlauf zu steuern. Wenn diese Option ausgewählt ist, werden Chatrooms beständig. andernfalls werden Chatnachrichten nicht beibehalten. Wenn die Kompatibilität aktiviert ist, werden Chatrooms in Der Compliance gespeichert, aber die Benutzer können nicht auf ältere Nachrichten zugreifen. Diese Option kann für Chatrooms verwendet werden, die für Ad-hoc-Zusammenarbeiten in Echtzeit vorgesehen sind, für die kein Chatverlauf beibehalten werden muss.
     
 12. Führen Sie unter **Kategorie bearbeiten** die folgenden Schritte aus:
     

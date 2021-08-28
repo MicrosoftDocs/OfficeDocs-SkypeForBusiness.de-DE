@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: Dieser Artikel enthält Informationen zur Verwendung eines Proxyservers mit Skype for Business.
-ms.openlocfilehash: c6c094bad366cf6a7febb092d471dd0723ce219b90664963a5e58a2ce64d70ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0f8e9898e2c898387e7f726b470013dcf62caae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323517"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585989"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Proxyserver für Skype for Business Online
 
@@ -35,7 +35,7 @@ Dieser Artikel enthält Anleitungen zur Verwendung eines Proxyservers mit Skype 
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Es wird empfohlen, keinen Proxyserver zu verwenden
 
-In Bezug auf Skype for Business-Datenverkehr über Proxys empfiehlt Microsoft, Proxys zu umgehen. Durch Proxys wird die Sicherheit Skype for Business, da der Datenverkehr bereits verschlüsselt ist.
+In Bezug auf Skype for Business-Datenverkehr über Proxys empfiehlt Microsoft, Proxys zu umgehen. Proxys sorgen nicht dafür, dass Skype for Business sicherer wird, da der Datenverkehr bereits verschlüsselt ist.
   
 Außerdem kann die Verwendung eines Proxys Probleme verursachen. Durch Latenz und Paketverluste kann es in der Umgebung zu Leistungsproblemen kommen. Solche Probleme führen zu einer negativen Benutzererfahrung in Teams- oder Skype for Business-Szenarien wie Audio und Video, in denen Echtzeitstreams unerlässlich sind.
   

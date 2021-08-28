@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.
-ms.openlocfilehash: e50d0df6b0ae3c03299756d9f917083fc2518cb64d7b049d0d7b23eb4f64b063
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1b116308f091c535beceb5a82994ee155507548
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307946"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585949"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Bereitstellen Skype Raumsystemkonten in Microsoft 365 und Office 365
  
@@ -33,7 +33,7 @@ Ihr Onlinemandant muss die folgenden Anforderungen erfüllen:
     
 - Für Ihren Mandanten muss die Konferenzfunktion Skype for Business aktiviert sein.
     
-- Ihr Mandant muss Exchange Online aktiviert haben. 
+- Für Ihren Mandanten muss Exchange Online aktiviert sein. 
     
 - Ihr Mandanten-Remoteadministrator muss über den folgenden PowerShell-Zugriff verfügen:
     
@@ -45,9 +45,9 @@ Ihr Onlinemandant muss die folgenden Anforderungen erfüllen:
     
 Für das Skype Room-Konto ist die folgende Lizenzierung erforderlich:
   
-- Um Skype Besprechungen zu aktivieren, ist eine Lizenz für Skype for Business Onlineplan 2 oder Office 365 E1 oder E3 erforderlich.
+- Zum Aktivieren Skype Besprechungen ist eine Lizenz für Skype for Business Onlineplan 2 oder Office 365 E1 oder E3 erforderlich.
     
-- Um den Raum mit der Enterprise-VoIP Funktion zu befähigen, damit der Raum mit einer Telefonnummer aktiviert werden kann, ist ein Skype for Business OnlinePlan 2 mit der Telefonsystem-Lizenz oder Office 365 E5 erforderlich (1).
+- Um den Raum mit der Enterprise-VoIP Funktion zu berechtigen, damit der Raum mit einer Telefonnummer aktiviert werden kann, ist ein Skype for Business Onlineplan 2 mit der Telefonsystem-Lizenz oder Office 365 E5 erforderlich (1).
     
 - Wenn Sie Einwahlfunktionen aus einer Besprechung benötigen, benötigen Sie eine Audiokonferenz und Telefonsystem Lizenz.  Wenn Sie Ausgehende Funktionen aus einer Besprechung benötigen, benötigen Sie einen Anrufplan für Inland oder Inland und Ausland. 
     
@@ -55,7 +55,7 @@ Für das Skype Room-Konto ist die folgende Lizenzierung erforderlich:
     
 ## <a name="provisioning-overview"></a>Übersicht über die Bereitstellung
 
-Das folgende Diagramm enthält eine Übersicht über den Bereitstellungsfluss Skype Raumsystemkonto.
+Das folgende Diagramm enthält eine Übersicht über den Bereitstellungsfluss Skype Raumsystemkontos.
   
 ![Skype Schritte zur Raumsystembereitstellung](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
@@ -93,7 +93,7 @@ Nach dem Erstellen des Postfachs können Sie das Cmdlet Set-CalendarProcessing i
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Zuweisen einer Skype for Business Onlinelizenz
 
-Jetzt können Sie eine lizenz Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) zuweisen, indem Sie das Microsoft 365 Verwaltungsportal verwenden, wie unter Zuweisen oder Entfernen von [Lizenzen für Microsoft 365 business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in Skype for Business [Add-On-Lizenzierung](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)beschrieben. 
+Jetzt können Sie eine lizenz Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) zuweisen, indem Sie das Microsoft 365 Verwaltungsportal verwenden, wie unter Zuweisen oder Entfernen von [Lizenzen für Microsoft 365 für Unternehmen](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in Skype for Business [Add-On-Lizenzierung](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)beschrieben. 
   
 Nachdem Sie eine Lizenz für Skype for Business Online zugewiesen haben, können Sie sich anmelden und überprüfen, ob das Konto mit einem beliebigen Skype for Business-Client aktiv ist.
   
@@ -117,7 +117,7 @@ Nachdem ein Ressourcenraumpostfachkonto erstellt und wie zuvor gezeigt aktiviert
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    Mit dem folgenden Befehl können Sie die RegistrarPool-Adresse abrufen, unter der Ihre Skype for Business Benutzer von einem Ihrer vorhandenen Konten verwaltet werden, um diese Eigenschaft zu zurückgeben:
+    Sie können die RegistrarPool-Adresse abrufen, unter der Ihre Skype for Business Benutzer von einem Ihrer vorhandenen Konten verwaltet werden, indem Sie diese Eigenschaft mithilfe des folgenden Befehls zurückgeben:
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
@@ -130,7 +130,7 @@ Nachdem ein Ressourcenraumpostfachkonto erstellt und wie zuvor gezeigt aktiviert
 
 In Microsoft 365 oder Office 365 beträgt die Standardmäßige Kennwortablaufrichtlinie für alle Benutzerkonten 90 Tage, es sei denn, Sie konfigurieren eine andere Kennwortablaufrichtlinie. Für Skype Room System-Konten können Sie die Einstellung "Kennwort läuft nie ab" mit den folgenden Schritten auswählen.
   
-1. Erstellen Sie eine Windows Azure Active Directory Sitzung mithilfe der Anmeldeinformationen ihres globalen Mandantenadministrators.
+1. Erstellen Sie eine Windows Azure Active Directory Sitzung mithilfe der Anmeldeinformationen des globalen Mandantenadministrators.
     
     ```powershell
     $cred=Get-Credential admin@$org
