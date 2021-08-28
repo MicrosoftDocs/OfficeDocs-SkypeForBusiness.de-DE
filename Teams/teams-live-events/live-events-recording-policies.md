@@ -10,19 +10,19 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Hier finden Sie Informationen zu Richtlinien für die Aufzeichnung von Liveereignisen.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77bfb6f3d57b885a11574f08f21da5f8c1c488a9832aeae1ffe602c4a922d227
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bd9f800ed85d994f797c5e49d64ae0e84f90885c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319658"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613454"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Richtlinien für die Aufzeichnung von Liveereignisen in Microsoft Teams
 
@@ -46,7 +46,7 @@ Beim Planen einer Liveereignisaufzeichnung gibt es zwei Organisatoroptionen:
 
 ## <a name="broadcast-recording-policy-setting"></a>Richtlinieneinstellung für Aufzeichnung übertragen
 
-Im Rahmen der Übertragungsrichtlinie können Sie die Aufzeichnung für ein Liveereignis aktivieren oder deaktivieren.
+Im Rahmen der Übertragungsrichtlinie gibt es eine Einstellung, mit der Sie die Aufzeichnung für ein Liveereignis aktivieren oder deaktivieren können.
 
 | &nbsp;| Aufzeichnung für Produzenten und Moderatoren verfügbar | Aufzeichnung für Teilnehmer verfügbar |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |

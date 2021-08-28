@@ -9,26 +9,26 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Ein Partnerverbund ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die Benutzern in unterschiedlichen Organisationen die Kommunikation über Netzwerkgrenzen hinweg ermöglicht. Nach der Migration zu Ihrem Pilotpool müssen Sie von der Partnerverbundroute Ihrer früheren Edgeserverversionen zur Verbundroute Ihrer Skype for Business Server 2019-Edgeserver wechseln.
-ms.openlocfilehash: 5d3677a25d26505e23c1ee8741454e8af88fa7aeb090e380f4edd422785217b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f051321667e12a468df1186147f6fab1d7bbe5cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613404"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Konfigurieren von Partnerverbundrouten und Mediendatenverkehr
 
 Ein Partnerverbund ist eine Vertrauensstellung zwischen zwei oder mehr SIP-Domänen, die Benutzern in unterschiedlichen Organisationen die Kommunikation über Netzwerkgrenzen hinweg ermöglicht. Nach der Migration zu Ihrem Pilotpool müssen Sie von der Partnerverbundroute der Edgeserver Ihrer vorherigen Version zur Partnerverbundroute Ihrer Skype for Business Server 2019-Edgeserver wechseln.
   
-Verwenden Sie die folgenden Verfahren, um die Partnerverbundroute und die Mediendatenverkehr-Route von Edgeserver und Director Ihrer vorherigen Version zu Ihrem Skype for Business Server 2019-Edgeserver für eine Bereitstellung mit einem einzigen Standort zu migrieren.
+Verwenden Sie die folgenden Verfahren, um die Partnerverbundroute und die Mediendatenverkehr-Route für eine Bereitstellung mit einem einzigen Standort vom Edgeserver und Director Ihrer vorherigen Version auf Ihren Skype for Business Server 2019-Edgeserver zu übertragen.
   
 > [!IMPORTANT]
 > Wenn Sie die Partnerverbundroute und die Mediendatenverkehrroute ändern, müssen Sie Wartungsausfallzeiten für die Edgeserver der Skype for Business Server 2019 und der früheren Version planen. Der gesamte Umstellungsprozess bedeutet auch, dass der Verbundzugriff für die Dauer der Downtime nicht verfügbar ist. Sie sollten die Downtime für einen Zeitraum einplanen, in dem Sie minimale Benutzeraktivität erwarten. Darüber hinaus sollten Sie die Endbenutzer rechtzeitig informieren. Planen Sie diese Downtime sorgfältig, und stellen Sie innerhalb Ihrer Organisation entsprechende Ziele auf. 
   
 > [!IMPORTANT]
-> Wenn Ihr Legacy-Edgeserver für die Verwendung desselben FQDN für den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst konfiguriert ist, werden die Verfahren in diesem Abschnitt nicht unterstützt. Wenn die älteren Edgedienste so konfiguriert sind, dass sie denselben FQDN verwenden, müssen Sie zuerst alle Ihre Benutzer migrieren und dann den Edgeserver der vorherigen Versionen außer Betrieb nehmen, bevor Sie den Partnerverbund auf dem Skype for Business Server 2019 Edgeserver aktivieren. 
+> Wenn Ihr Legacy-Edgeserver für die Verwendung desselben FQDN für den Zugriffs-Edgedienst, den Webkonferenz-Edgedienst und den A/V-Edgedienst konfiguriert ist, werden die Verfahren in diesem Abschnitt nicht unterstützt. Wenn die älteren Edgedienste so konfiguriert sind, dass sie denselben FQDN verwenden, müssen Sie zuerst alle Ihre Benutzer migrieren und dann den Edgeserver der vorherigen Versionen außer Betrieb nehmen, bevor Sie den Partnerverbund auf dem Skype for Business Server 2019-Edgeserver aktivieren. 
   
 > [!IMPORTANT]
 > Wenn Ihr XMPP-Partnerverbund über einen Skype for Business Server 2019-Edgeserver weitergeleitet wird, können Benutzer der vorherigen Version erst dann mit dem XMPP-Verbundpartner kommunizieren, wenn alle Benutzer zu Skype for Business Server 2019 verschoben wurden, XMPP-Richtlinien und -Zertifikate konfiguriert wurden, der XMPP-Verbundpartner am Skype for Business Server 2019 konfiguriert wurde und schließlich die DNS-Einträge aktualisiert wurden. 
@@ -73,9 +73,9 @@ Verwenden Sie die folgenden Verfahren, um die Partnerverbundroute und die Medien
 
 1. Exportieren Sie das externe Zugriffsproxyzertifikat mit dem privaten Schlüssel aus dem älteren Edgeserver. 
     
-2. Auf dem Skype for Business Server 2019-Edgeserver, und importieren Sie das externe Zertifikat des Zugriffsproxys aus dem vorherigen Schritt.
+2. Importieren Sie auf dem Skype for Business Server 2019-Edgeserver das externe Zertifikat des Zugriffsproxys aus dem vorherigen Schritt.
     
-3. Weisen Sie das externe Zertifikat des Zugriffsproxys der externen Schnittstelle Skype for Business Server 2019 des Edgeservers zu.
+3. Weisen Sie das externe Zertifikat des Zugriffsproxys der externen Skype for Business Server 2019-Schnittstelle des Edgeservers zu.
     
 4. Das interne Schnittstellenzertifikat des Skype for Business Server 2019-Edgeservers sollte von einer vertrauenswürdigen Zertifizierungsstelle angefordert und zugewiesen werden. 
     
@@ -96,7 +96,7 @@ Verwenden Sie die folgenden Verfahren, um die Partnerverbundroute und die Medien
 7. Stellen Sie sicher, dass **der Partnerverbund (Port 5061)** im Topologie-Generator auf **"Aktiviert"** festgelegt ist.
     
   
-## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>So aktualisieren Sie Skype for Business Server nächsten Hop des Edgeserververbunds 2019
+## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>So aktualisieren Sie den nächsten Hop für Skype for Business Server 2019-Edgeserververbund
 
 1. Navigieren Sie im Topologie-Generator im linken Bereich zum Knoten **Skype for Business Server 2019** und dann zum **Knoten "Edgepools".** 
     
@@ -118,7 +118,7 @@ Verwenden Sie die folgenden Verfahren, um die Partnerverbundroute und die Medien
     
 3. Aktivieren Sie im Abschnitt **Zuordnungen** das Kontrollkästchen **Edgepool zuordnen (für Medienkomponenten)**. 
   
-4. Wählen Sie im Dropdownfeld den Edgeserver Skype for Business Server 2019 aus.
+4. Wählen Sie im Dropdownfeld den edgeserver Skype for Business Server 2019 aus.
     
 5. Klicken Sie auf **OK**, um die Seite **Eigenschaften bearbeiten** zu schließen. 
     
@@ -162,10 +162,10 @@ Verwenden Sie die folgenden Verfahren, um die Partnerverbundroute und die Medien
 
 1. Stellen Sie alle Skype for Business Server 2019-Edgeserver online. 
     
-2. Aktualisieren Sie die Routingregeln für externe Firewalls oder die Einstellungen für das Hardwaregerät zum Lastenausgleich, um SIP-Datenverkehr für den externen Zugriff (in der Regel Port 443) und den Partnerverbund (in der Regel Port 5061) an den Skype for Business Server 2019-Edgeserver anstelle des älteren Edgeservers zu senden.
+2. Aktualisieren Sie die Regeln für das Routing externer Firewalls oder die Einstellungen für den Hardwarelastenausgleich, um SIP-Datenverkehr für externen Zugriff (in der Regel Port 443) und Partnerverbund (in der Regel Port 5061) an den Skype for Business Server 2019-Edgeserver anstelle des Legacy-Edgeservers zu senden.
     
     > [!NOTE]
-    > Wenn Sie nicht über ein Hardwaregerät zum Lastenausgleich verfügen, müssen Sie den DNS A-Eintrag für den Partnerverbund aktualisieren, um in den neuen Skype for Business Server Access Edge-Server aufgelöst zu werden. Um dies mit minimalen Unterbrechungen zu erreichen, reduzieren Sie den TLL-Wert für den externen Skype for Business Server Zugriffs-Edge-FQDN, sodass beim Aktualisieren von DNS auf die neue Skype for Business Server Zugriffs-Edge, Partnerverbund und Remotezugriff schnell aktualisiert werden. 
+    > Wenn Sie nicht über ein Hardwaregerät zum Lastenausgleich verfügen, müssen Sie den DNS A-Eintrag für den Partnerverbund aktualisieren, um den neuen Skype for Business Server Access Edge-Server aufzulösen. Um dies mit minimalen Unterbrechungen zu erreichen, reduzieren Sie den TLL-Wert für den externen Skype for Business Server Zugriffs-Edge-FQDN, sodass beim Aktualisieren von DNS auf die neue Skype for Business Server Zugriffs-Edge, Partnerverbund und Remotezugriff schnell aktualisiert werden. 
   
 3. Beenden Sie die **Skype for Business Server Zugriffs-Edge** von jedem Edgeservercomputer aus. 
     

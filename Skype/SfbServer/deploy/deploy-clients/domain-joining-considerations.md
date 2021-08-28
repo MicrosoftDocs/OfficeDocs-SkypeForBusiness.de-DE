@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie einen Skype Room System-Anwendungs-PC mit Ihrer Domäne verknüpfen.
-ms.openlocfilehash: 77122dc71ec274aa8a0c42a04339c156441a4cffa5461cfb6e5fb439c5b04d4b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7590f17e8572d4379324f13924a5b4d7d339753
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325468"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623037"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Überlegungen zur Verknüpfung von Raumsystemdomänen
  
@@ -27,7 +27,7 @@ Lesen Sie dieses Thema, um zu erfahren, wie Sie einen Skype Room System-Anwendun
 
 Sie können den Skype Room System-Anwendungs-PC der Active Directory-Domäne hinzufügen oder in einer Arbeitsgruppe belassen. Berücksichtigen Sie die folgenden Punkte, bevor Sie diese Entscheidung treffen:
   
-- Der Domänenbeitritt des Skype Room System Appliance-PCs hilft beim automatischen Importieren der privaten Stammzertifikatkette Ihrer Organisation.
+- Der Domänenbeitritt zum Skype Room System Appliance-PC hilft beim automatischen Importieren der privaten Stammzertifikatkette Ihrer Organisation.
     
 - Wenn Sie dem Skype Room System-Anwendungs-PC beitreten, können Sie Domänenbenutzern und Gruppen Administratorrechte erteilen. Dadurch müssen Sie sich das Kennwort für das Administratorkonto auf Computerebene nicht merken.
     
@@ -51,9 +51,9 @@ Sie können den Skype Room System-Anwendungs-PC der Active Directory-Domäne hin
     
   - Push Windows Update auf Skype Room System
     
-- Alternativ können Sie den Appliance-PC in der Arbeitsgruppe belassen. Wie beim Desktop-Skype for Business-Client müssen Sie dazu die Stammzertifikatkette manuell auf dem Skype Room System-Anwendungs-PC importieren. Sie müssen die Stammzertifikatkette nicht importieren, wenn Ihre Skype for Business Bereitstellung ein öffentliches Zertifikat verwendet (z. B. "Vereumer", "VeriSign" usw.). 
+- Alternativ können Sie den Appliance-PC in der Arbeitsgruppe belassen. Wie beim Desktop-Skype for Business-Client müssen Sie dazu die Stammzertifikatkette manuell auf dem Skype Room System-Anwendungs-PC importieren. Sie müssen die Stammzertifikatskette nicht importieren, wenn Ihre Skype for Business Bereitstellung ein öffentliches Zertifikat verwendet (z. B. "Vereumer", "VeriSign" usw.). 
     
-Wenn Sie beabsichtigen, Skype Raumsystemcomputer mit der Domäne zu verknüpfen, um zu vermeiden, dass Skype Raumsystemcomputer versehentlich mit einer unbeabsichtigten OU verknüpft wird, die möglicherweise nicht kostenlos von GPOs ist, stellen Sie sicher, dass Sie die richtige OE verknüpfen. Sie können das folgende Cmdlet aus dem Skype Raumsystemcomputer verwenden, um an der richtigen OU teilzunehmen und empfängt keine GPOs, die möglicherweise die LRS-Funktionalität blockieren. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, um das folgende Cmdlet auszuführen:
+Wenn Sie beabsichtigen, Skype Raumsystemcomputer mit der Domäne zu verknüpfen, um zu vermeiden, dass Skype Raumsystemcomputer versehentlich zu einer unbeabsichtigten OU hinzugefügt wird, die möglicherweise nicht kostenlos von GPOs ist, stellen Sie sicher, dass Sie die richtige OU verwenden. Sie können das folgende Cmdlet aus dem Skype Raumsystemcomputer verwenden, um an der richtigen OU teilzunehmen und empfängt keine GPOs, die möglicherweise LRS-Funktionen blockieren. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, um das folgende Cmdlet auszuführen:
   
 ```powershell
 $username = "contso.local\LRS01"

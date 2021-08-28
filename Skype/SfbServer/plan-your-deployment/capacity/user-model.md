@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
-description: Dieser Artikel enthält Eine Anleitung dazu, wie viele Server Sie an einem Standort für die Anzahl der Benutzer an diesem Standort benötigen, entsprechend der in den Benutzermodellen in Skype for Business Server beschriebenen Verwendung.
-ms.openlocfilehash: b7222390f379bca79dfee7ab2e9f2c081118b22d635a1ef2edb2f1fc9ac0b70b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Dieser Artikel enthält Anleitungen dazu, wie viele Server Sie an einem Standort für die Anzahl der Benutzer an diesem Standort benötigen, entsprechend der verwendung, die in Benutzermodellen in Skype for Business Server beschrieben wird.
+ms.openlocfilehash: eaf5318e78761143d1c711b1603797b3b8e699f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338113"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599930"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Nutzung des Benutzermodells für die Kapazitätsplanung für Skype for Business Server
 
 Dieser Artikel enthält Anleitungen dazu, wie viele Server Sie an einem Standort für die Anzahl der Benutzer an diesem Standort benötigen, gemäß der verwendung, die in [Benutzermodellen in Skype for Business Server](user-models.md)beschrieben ist.
 
 > [!NOTE]
-> Für alle Empfehlungen in diesem Artikel wird davon ausgegangen, dass Sie Skype for Business kumulative Update vom November 2015 oder höher auf Ihren Servern installiert haben.
+> Bei allen Empfehlungen in diesem Artikel wird davon ausgegangen, dass Sie Skype for Business kumulativen Update vom November 2015 oder höher auf Ihren Servern installiert haben.
 
 ## <a name="tested-hardware-platform"></a>Getestete Hardwareplattform
 
@@ -52,14 +52,14 @@ In der folgenden Tabelle sind unsere Empfehlungen zusammengefasst.
 |Ein Director  <br/> |12.000 gleichzeitige Remotebenutzer.  <br/> |
 |Überwachen und Archivieren  <br/> |Die Front-End-Dienste für die Überwachung und Archivierung werden auf jedem Front-End-Server und nicht auf separaten Serverrollen ausgeführt.  <br/> Für die Überwachung und Archivierung sind weiterhin eigene Datenbankspeicher erforderlich. Wenn Sie auch Exchange 2013 oder höher ausführen, können Sie Ihre Archivierungsdaten in Exchange und nicht in einer dedizierten SQL-Datenbank speichern.  <br/> |
 |Ein Vermittlungsserver  <br/> |Der Vermittlungsserver, der mit dem Front-End-Server verbunden ist, wird auf jedem Front-End-Server in einem Pool ausgeführt und sollte genügend Kapazität für die Benutzer im Pool bereitstellen. Informationen zum eigenständigen Vermittlungsserver finden Sie im Abschnitt "Vermittlungsserver" weiter unten in diesem Thema.  <br/> |
-|Ein Standard Edition-Server  <br/> |Es wird dringend empfohlen, wenn Sie Standard Edition Server zum Hosten von Benutzern verwenden, immer zwei Server verwenden, gepaart mit den Empfehlungen in [der Planung für hohe Verfügbarkeit und Notfallwiederherstellung.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Jeder Server im Paar kann bis zu 2.500 Benutzer hosten, und wenn ein Server ausfällt, kann der verbleibende Server 5.000 Benutzer in einem Failoverszenario unterstützen.  <br/>  Wenn Ihre Bereitstellung einen erheblichen Anteil an Audio- oder Videodatenverkehr umfasst, kann die Serverleistung mit mehr als 2.500 Benutzern pro Server beeinträchtigt werden. In diesem Fall sollten Sie weitere Standard Edition Server hinzufügen oder zu Skype for Business Server Enterprise Edition wechseln. <br/> |
+|Ein Standard Edition-Server  <br/> |Wenn Sie Standard Edition Server zum Hosten von Benutzern verwenden, wird dringend empfohlen, dass Sie immer zwei Server verwenden, gepaart mit den Empfehlungen in [der Planung für hohe Verfügbarkeit und Notfallwiederherstellung.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Jeder Server im Paar kann bis zu 2.500 Benutzer hosten, und wenn ein Server ausfällt, kann der verbleibende Server 5.000 Benutzer in einem Failoverszenario unterstützen.  <br/>  Wenn Ihre Bereitstellung einen erheblichen Anteil an Audio- oder Videodatenverkehr umfasst, kann die Serverleistung mit mehr als 2.500 Benutzern pro Server beeinträchtigt werden. In diesem Fall sollten Sie weitere Standard Edition Server hinzufügen oder zu Skype for Business Server Enterprise Edition wechseln. <br/> |
 
 ## <a name="front-end-server"></a>Front-End-Server
 
 > [!NOTE]
 > Gestreckte Pools werden für diese Serverrolle nicht unterstützt.
 
-In einem Front-End-Pool sollten Sie einen Front-End-Server für alle 6.660 Benutzer haben, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyperthreading auf allen Servern im Pool aktiviert ist und die Serverhardware die Empfehlungen in den [Serveranforderungen für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) oder [die Systemanforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 80.000. Dabei wird erneut vorausgesetzt, dass Hyperthreading auf allen Servern in Ihrem Pool aktiviert ist. Wenn Sie mehr als 80.000 Benutzer an einem Standort haben, können Sie mehr als einen Front-End-Pool bereitstellen.
+In einem Front-End-Pool sollten Sie einen Front-End-Server für alle 6.660 Benutzer haben, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyperthreading auf allen Servern im Pool aktiviert ist und die Serverhardware die Empfehlungen in den [Serveranforderungen für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) oder [den Systemanforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 80.000. Dabei wird erneut vorausgesetzt, dass Hyperthreading auf allen Servern in Ihrem Pool aktiviert ist. Wenn Sie mehr als 80.000 Benutzer an einem Standort haben, können Sie mehr als einen Front-End-Pool bereitstellen.
 
 Wenn Sie die Anzahl der Benutzer in einem Front-End-Pool berücksichtigen, schließen Sie alle Benutzer ein, die in Survivable Branch Appliances und Survivable Branch-Servern in Zweigstellen verwaltet werden, die diesem Front-End-Pool zugeordnet sind.
 
@@ -77,7 +77,7 @@ Die Anzahl der Benutzer, die von einem bestimmten Front-End-Pool mit einer guten
 
 - Die Nutzung Ihrer Organisation unterscheidet sich stark von den Benutzermodellen, z. B. wenn Sie viel mehr Konferenzdatenverkehr haben.
 
-Die folgende Tabelle zeigt die durchschnittliche Bandbreite für Chatnachrichten und Anwesenheitsinformationen, wenn das Benutzermodell angegeben ist, wie in [Benutzermodellen in Skype for Business Server](user-models.md)definiert.
+In der folgenden Tabelle ist die durchschnittliche Bandbreite für Chatnachrichten und Anwesenheitsinformationen im Rahmen des Benutzermodells dargestellt, wie in [Benutzermodellen in Skype for Business Server](user-models.md)definiert.
 
 |**Durchschnittliche Bandbreite pro Benutzer**|**Bandbreitenanforderungen pro Front-End-Server mit 6.660 Benutzern**|
 |:-----|:-----|
@@ -92,7 +92,7 @@ Angesichts des Benutzermodells, dass sich 5 % der Benutzer in einem Pool zu eine
 
 Die maximal unterstützte Konferenzgröße, die von einem regulären Skype for Business Server Front-End-Pool gehostet wird, in dem auch Benutzer gehostet werden, beträgt 250 Teilnehmer. Während eine Konferenz mit 250 Benutzern stattfindet, unterstützt der Pool auch andere Konferenzen, sodass sich insgesamt 5 % der Poolbenutzer an gleichzeitigen Konferenzen befinden. In einem Pool mit zwölf Front-End-Servern und 80.000 Benutzern, während die Konferenz mit 250 Benutzern stattfindet, unterstützt Skype for Business Server 3.750 andere Benutzer, die an kleineren Konferenzen teilnehmen.
 
-Unabhängig von der Anzahl der Benutzer, die im Front-End-Pool oder Standard Edition Server verwaltet werden, unterstützt Skype for Business Server mindestens 125 andere Benutzer, die an kleineren Konferenzen im selben Pool oder Server teilnehmen, auf dem eine Konferenz mit 250 Benutzern gehostet wird.
+Unabhängig von der Anzahl der Benutzer, die im Front-End-Pool oder Standard Edition-Server verwaltet werden, unterstützt Skype for Business Server mindestens 125 andere Benutzer, die an kleineren Konferenzen im selben Pool oder Server teilnehmen, auf dem eine Konferenz mit 250 Benutzern gehostet wird.
 
 Um Konferenzen mit 250 bis 1.000 Benutzern zu aktivieren, können Sie einen separaten Front-End-Pool einrichten, nur um diese Konferenzen zu hosten. In diesem Front-End-Pool werden keine Benutzer gehostet. Ausführliche Informationen finden Sie unter [Planen großer Besprechungen in Skype for Business Server.](../../plan-your-deployment/conferencing/large-meetings.md)
 
@@ -128,9 +128,9 @@ Wenn Sie den Vermittlungsserver mit dem Front-End-Server verbinden, wird der Ver
 
 Wenn Sie einen eigenständigen Vermittlungsserverpool bereitstellen, hängt die Anzahl der bereitzustellenden Vermittlungsserver von vielen Faktoren ab, einschließlich der für den Vermittlungsserver verwendeten Hardware, der Anzahl der voIP-Benutzer, die Sie haben, der Anzahl der Gatewaypeers, die jeder Vermittlungsserverpool steuert, des Datenverkehrs zur Nutzungsstunde über diese Gateways und des Prozentsatzes der Anrufe mit Medien, die den Vermittlungsserver umgehen.
 
-Die folgenden Tabellen enthalten eine Richtlinie für die Anzahl gleichzeitiger Anrufe, die ein Vermittlungsserver verarbeiten kann, vorausgesetzt, dass die Hardware für die Vermittlungsserver die Anforderungen in [Serverhardwareplattformen](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) erfüllt und Hyperthreading aktiviert ist. Ausführliche Informationen zur Skalierbarkeit des Vermittlungsservers finden Sie unter ["Bewerten der VoIP-Nutzung und](estimating-voice-traffic.md) des Datenverkehrs für Skype for Business Server und [Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server."](mediation-server-deployment-guidelines.md)
+Die folgenden Tabellen enthalten eine Richtlinie für die Anzahl gleichzeitiger Anrufe, die ein Vermittlungsserver verarbeiten kann, vorausgesetzt, dass die Hardware für die Vermittlungsserver die Anforderungen in [Serverhardwareplattformen](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) erfüllt und Hyperthreading aktiviert ist. Ausführliche Informationen zur Skalierbarkeit des Vermittlungsservers finden Sie unter ["Einschätzen der VoIP-Nutzung und](estimating-voice-traffic.md) des Datenverkehrs für Skype for Business Server und [Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server."](mediation-server-deployment-guidelines.md)
 
-Alle folgenden Tabellen gehen davon aus, dass die Verwendung in [Benutzermodellen in Skype for Business Server](user-models.md)zusammengefasst ist.
+In allen folgenden Tabellen wird davon ausgegangen, dass die Verwendung in [Benutzermodellen in Skype for Business Server](user-models.md)zusammengefasst ist.
 
 **Kapazität des eigenständigen Vermittlungsservers: 70 % interne Benutzer, 30 % externe Benutzer mit Anrufkapazität ohne Umgehung (Medientranscodierung durch vermittlungsserver)**
 
@@ -186,9 +186,9 @@ Microsoft hat die Hardware in der folgenden Tabelle für den Datenbankserver zur
 |**Laufwerk** <br/> |**RAID-Konfiguration** <br/> |**Anzahl der Datenträger** <br/> |
 |:-----|:-----|:-----|
 |KDS-, QoE- und Archivierungsdatenbankdatendateien auf einem einzelnen Laufwerk  <br/> |1+0  <br/> |16   <br/> |
-|KDS-Datenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |
-|QoE-Datenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |
-|Archivierungsdatenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |
+|KDS-Datenbankprotokolldatei  <br/> |1   <br/> |2   <br/> |
+|QoE-Datenbankprotokolldatei  <br/> |1   <br/> |2   <br/> |
+|Archivierungsdatenbankprotokolldatei  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>Kapazität des Video-Interoperabilität-Servers
 

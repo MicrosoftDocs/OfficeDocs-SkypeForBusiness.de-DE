@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld "Regionslink", um nach Regionslinks zu suchen, die in Ihrer Umgebung verfügbar sind. Klicken Sie auf eine Regionenverbindung in der Liste und anschließend auf OK, um eine vorhandene Regionenverbindung zu verwenden.
-ms.openlocfilehash: bb34b5c92807783fe85235b16442b66ba2fa1d313bd8c2a20bedb37f38be489c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08aed477d009035a5798d9451c9b20791f9081ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599470"
 ---
 # <a name="select-a-region-link"></a>Auswählen eines Regionslinks
  

@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Informationen zu SIP-Trunks in Skype for Business Server anzeigen.'
-ms.openlocfilehash: bbb1a08252240341ceb6e27181dce999753924c897d470a182341be4178ae2a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4bd3ba4560980243fefe06b49a8f4aaa4a9625e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624407"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>Skype for Business Server: Anzeigen von Informationen zu einzelnen SIP-Trunks 
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Informationen zu SIP-Trunks in Skype for Business Server anzeigen.
   
-SIP-Trunks werden verwendet, um Skype for Business Server Voice-over-IP-Telefonnetzwerk mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) zu verbinden. In der vorherigen Produktversion wurden Trunks zum Weiterleiten ausgehender Anrufe von einem Vermittlungsserver an ein PSTN-Gateway verwendet, und die einzelnen Gateways waren auf einen einzelnen Trunk beschränkt. Demzufolge waren PSTN-Gateways und SIP-Trunks im Wesentlichen identisch. Für Administratoren bedeutete dies, dass sie Informationen zu einem einzelnen SIP-Trunk anzeigen konnten, indem sie einfach die Informationen zu dem zugeordneten PSTN-Gateway aufrufen.
+SIP-Trunks werden verwendet, um Skype for Business Server Voice over IP-Telefonnetzwerk mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) zu verbinden. In der vorherigen Produktversion wurden Trunks zum Weiterleiten ausgehender Anrufe von einem Vermittlungsserver an ein PSTN-Gateway verwendet, und die einzelnen Gateways waren auf einen einzelnen Trunk beschränkt. Demzufolge waren PSTN-Gateways und SIP-Trunks im Wesentlichen identisch. Für Administratoren bedeutete dies, dass sie Informationen zu einem einzelnen SIP-Trunk anzeigen konnten, indem sie einfach die Informationen zu dem zugeordneten PSTN-Gateway aufrufen.
   
 In Skype for Business Server können nun jedoch mehrere Trunks einem einzelnen PSTN-Gateway zugewiesen werden. Dies bedeutet, dass Gateways und Trunks nicht mehr identisch sind. Dies bedeutet wiederum, dass Administratoren das neue [Cmdlet "Get-CsTrunk"](/powershell/module/skype/get-cstrunk) verwenden müssen, um Informationen zu einem einzelnen SIP-Trunk anzuzeigen.
   

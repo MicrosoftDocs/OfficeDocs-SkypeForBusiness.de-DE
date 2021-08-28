@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Erfahren Sie mehr über die Bereitstellung mehrerer PSTN-Standorte in Cloud Connector Edition.
-ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f771875605ffef130b430fd7c7a00d9d1a63873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613765"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Bereitstellen mehrerer Standorte in Cloud Connector
 
@@ -34,7 +34,7 @@ In diesem Abschnitt wird beschrieben, wie Sie mehrere PSTN-Standorte (Public Swi
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Mehrere PSTN-Standorte (Public Switched Telephone Network)
 
-Im Folgenden finden Sie eine Beispielkonfiguration zum Bereitstellen von Skype for Business Cloud Connector Edition für verschiedene PSTN-Standorte. Stellen Sie sicher, dass Ihre Konfigurationseinstellungen korrekt sind, bevor Sie eine Bereitstellung starten.
+Im Folgenden finden Sie ein Beispiel für die Konfiguration zum Bereitstellen von Skype for Business Cloud Connector Edition für verschiedene PSTN-Standorte. Stellen Sie sicher, dass Ihre Konfigurationseinstellungen korrekt sind, bevor Sie eine Bereitstellung starten.
   
 PSTN-Standort 1
   
@@ -98,4 +98,4 @@ In der folgenden Tabelle sind die Unterschiede zwischen einem einzelnen Standort
 |Konfigurieren  <br/> |DNS-Eintrag  <br/> |Hinzufügen von Datensätzen mit **denselben** FQDNs für den externen Zugriff und **verschiedenen** IP-Adressen <br/> |Hinzufügen von Datensätzen mit **unterschiedlichen** FQDNs für den externen Zugriff und **verschiedenen** IP-Adressen <br/> |
 |Setup  <br/> |Hybridmandant  <br/> |Festlegen von HybridPSTNSite  <br/> PeerDestination für Fallback festlegen  <br/> |Festlegen von HybridPSTNSite  <br/> PeerDestination für Fallback festlegen  <br/> |
 |Setup  <br/> |Gateway  <br/> |MS GW **M:N-Zuordnung** an dieser Website <br/> |PSTN-Gateways an jedem PSTN-Standort sollten nur eine Verbindung mit den Vermittlungsservern am selben Standort herstellen.  <br/> |
-|Setup  <br/> |Benutzer  <br/> |Festlegen von UserPSTNSettings  <br/> |Festlegen von UserPSTNSettings  <br/> |
+|Setup  <br/> |User  <br/> |Festlegen von UserPSTNSettings  <br/> |Festlegen von UserPSTNSettings  <br/> |

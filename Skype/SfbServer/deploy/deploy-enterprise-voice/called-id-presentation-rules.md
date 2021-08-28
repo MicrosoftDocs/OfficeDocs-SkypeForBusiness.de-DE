@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der Bezeichnung "ID" in Skype for Business Server
+title: Erstellen oder Ändern einer Übersetzungsregel für die Darstellung der id-Bezeichnung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Übersetzungsregel mithilfe des Tools zum Erstellen einer Übersetzungsregel in Skype for Business Server definieren.'
-ms.openlocfilehash: 0f8f511996c8d3a578087c9f4252492fa03ef4237688bcaf68a04f09ed944116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2d920f7706514df56c1814b5a61f40e0182412d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281288"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597279"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der Bezeichnung "ID" in Skype for Business Server
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer Übersetzungsregel für die Darstellung der id-Bezeichnung in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Übersetzungsregel mithilfe des Tools zum Erstellen einer Übersetzungsregel in Skype for Business Server definieren.
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
 
 1. Öffnen Sie Skype for Business Server Systemsteuerung.
 
-2. Um mit dem Definieren einer Übersetzungsregel zu beginnen, führen Sie die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder Konfigurieren eines [Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
+2. Führen Sie zum Definieren einer Übersetzungsregel die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder Konfigurieren eines [Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
 
 3. Geben Sie unter **"Name"** auf der Seite **"Neue Übersetzungsregel"** oder **"Übersetzungsregel bearbeiten"** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
 
@@ -76,7 +76,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
 
 1. Öffnen Skype for Business Server Systemsteuerung
 
-2. Um mit dem Definieren einer Übersetzungsregel zu beginnen, führen Sie die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder Konfigurieren eines [Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
+2. Führen Sie zum Definieren einer Übersetzungsregel die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder Konfigurieren eines [Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
 
 3. Geben Sie im Feld **Name** auf der Seite **Neue Übersetzungsregel** oder **Übersetzungsregel bearbeiten** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
 

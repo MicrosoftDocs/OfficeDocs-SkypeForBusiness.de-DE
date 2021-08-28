@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: d62a3af74607c3f4868ed1d808160556a765844f298ec889b37137b3133d8a30
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ac97c784f2286a2231a5f20f54aa00daf646384
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294212"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600010"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Verhindern neuer Verbindungen mit Skype for Business Server für die Serverwartung
 
@@ -39,7 +39,7 @@ Wenn Sie neue Verbindungen mit einem Front-End-Server verhindern, verwenden eini
 
 Ausführliche Informationen zum DNS-Lastenausgleich finden Sie unter ["Lastenausgleichsanforderungen".](../../plan-your-deployment/network-requirements/load-balancing.md)
 
-Zusätzlich zur Verhinderung neuer Verbindungen für alle Dienste auf einem Server, auf dem Skype for Business Server ausgeführt wird, können Sie auch neue Verbindungen für einzelne Skype for Business Server Dienste verhindern. Diese Methode ist beispielsweise in Situationen nützlich, in denen Sie ein Skype for Business Server Update anwenden müssen, für das nicht der gesamte Server heruntergefahren werden muss. Hinweis: Wenn Sie Verbindungen für einen Dienst verhindern, müssen Sie den Dienst basierend auf der Gruppierung und Anzeige in der Windows-Liste von Diensten auswählen. Beispielsweise sind der Skype for Business Server Front-End-Dienst und der Datensammlungs-Agent für die Überwachung separate Skype for Business Server Dienste, aber in der Liste der Windows Dienste werden sie konsolidiert und als Skype for Business Server Front-End-Dienst angezeigt. Sie können neue Verbindungen für den Skype for Business Server Front-End-Dienst verhindern, jedoch keine neuen Verbindungen für diese beiden einzelnen zugrunde liegenden Skype for Business Server Dienste separat.
+Zusätzlich zur Verhinderung neuer Verbindungen für alle Dienste auf einem Server, auf dem Skype for Business Server ausgeführt wird, können Sie auch neue Verbindungen für einzelne Skype for Business Server Dienste verhindern. Diese Methode ist beispielsweise in Situationen nützlich, in denen Sie ein Skype for Business Server Update anwenden müssen, bei dem nicht der gesamte Server heruntergefahren werden muss. Hinweis: Wenn Sie Verbindungen für einen Dienst verhindern, müssen Sie den Dienst basierend auf der Gruppierung und Anzeige in der Windows-Liste von Diensten auswählen. Beispielsweise sind der Skype for Business Server Front-End dienst und der Datensammlungs-Agent für die Überwachung separate Skype for Business Server Dienste, aber in der Liste der Windows Dienste werden sie konsolidiert und als Skype for Business Server Front-End-Dienst angezeigt. Sie können neue Verbindungen für den Skype for Business Server Front-End-Dienst verhindern, aber sie können keine neuen Verbindungen für diese beiden einzelnen zugrunde liegenden Skype for Business Server Dienste separat verhindern.
 
 > [!IMPORTANT]
 > Wenn Sie einen Server so konfigurieren, dass neue Verbindungen verhindert werden, und diesen Server anschließend neu starten, lässt der Server standardmäßig sofort wieder neue Verbindungen zu. Um dies zu verhindern, konfigurieren Sie den Server vor dem Neustart so, dass der Dienst nur manuell angehalten und fortgesetzt wird.

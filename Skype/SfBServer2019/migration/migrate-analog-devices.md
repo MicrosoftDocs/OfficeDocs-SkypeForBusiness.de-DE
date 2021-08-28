@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server bietet Unterstützung für analoge Geräte. Zu den unterstützten analogen Geräten gehören insbesondere analoge Telefone und Faxgeräte. Sie können die qualifizierten Gateways konfigurieren, um die Verwendung analoger Geräte in Ihrer Skype for Business Server Umgebung zu unterstützen. Nach der Migration zu Skype for Business Server 2019 müssen Sie auch die Kontaktobjekte migrieren, die den analogen Geräten zugeordnet sind. Verwenden Sie Skype for Business Server Verwaltungsshell, um zunächst alle Kontaktobjekte abzurufen, die den älteren analogen Geräten zugeordnet sind, und verschieben Sie diese Objekte dann in den Skype for Business Server 2019-Pool.
-ms.openlocfilehash: 464531fcffbe251d6a0868e86b1b9edccc898fdeeb0963ed0f10c2b653dfe93b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d64552a53b5cb37187a25febe5ce6171d1c64ec9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599690"
 ---
 # <a name="migrate-analog-devices"></a>Migrieren analoger Geräte
 
@@ -38,6 +38,6 @@ Skype for Business Server bietet Unterstützung für analoge Geräte. Zu den unt
    Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 
-4. Stellen Sie sicher, dass alle Kontaktobjekte jetzt dem Skype for Business Server 2019-Pool zugeordnet sind.
+4. Stellen Sie sicher, dass alle Kontaktobjekte nun dem pool Skype for Business Server 2019 zugeordnet sind.
 
 

@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Zusammenfassung: Erstellen eines Video-Interoperabilität-Serverpools in Skype for Business Server mithilfe des Topologie-Generators.'
-ms.openlocfilehash: 91a1ed8b5b8d5ce728a666be507a1c1026b0c88460d9ba33b519f1f3d3825aa8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a417c48ca52b04d12361e39ed10a6ea39ec3795
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283577"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624387"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Erstellen eines VIS-Pools in Skype for Business Server
  
@@ -57,7 +57,7 @@ ms.locfileid: "54283577"
 10. Nach Abschluss des obigen Schritts wird ein entsprechender SIP-Videotrunk hinzugefügt. Klicken Sie mit der rechten Maustaste auf den SIP-Videotrunk, und wählen Sie den Trunk aus, der soeben hinzugefügt wurde. Der Name des Video-SIP-Trunks, der zugeordnete Video-Interoperabilität-Server, das SIP-Transportprotokoll und der Port können geändert werden. 
     
     > [!NOTE]
-    >  Ein Video-Interoperabilität-Server unterstützt 1:N-Trunks. Daher können mehrere Trunks hinzugefügt werden, die einem einzelnen Video-Interoperabilitätsserver zugeordnet sind, wobei jeder Trunk auf einem anderen Videogateway beendet wird. Die Einschränkung besteht darin, dass ein bestimmtes Videogateway über einen und nur einen Trunk verfügt, der für die Skype for Business Server Bereitstellung definiert werden kann.
+    >  Ein Video-Interoperabilität-Server unterstützt 1:N-Trunks. Daher können mehrere Trunks hinzugefügt werden, die einem einzelnen Video-Interoperabilitätsserver zugeordnet sind, wobei jeder Trunk auf einem anderen Videogateway beendet wird. Die Einschränkung besteht darin, dass ein bestimmtes Videogateway nur über einen Trunk verfügt, der für die Skype for Business Server Bereitstellung definiert werden kann.
   
 11. Veröffentlichen Sie das Topologiedokument wie unter [Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)beschrieben.
     

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Um Skype for Business Server Komponenten zu installieren und zu aktivieren oder zu deinstallieren, verwenden Sie Schritt 2: Einrichten oder Entfernen Skype Serverkomponenten. Sie müssen auf dem Computer, den Sie installieren oder ändern, als lokaler Administrator angemeldet sein und in der Lage sein, Active Directory Domain Services-Benutzer und -Gruppen in der aktuellen Domäne zu lesen. Klicken Sie zunächst auf "Ausführen". Wenn Sie dies tun, wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Erforderliche Softwarekomponenten werden entsprechend der rolle, die im zentralen Verwaltungsspeicher definiert ist, installiert und konfiguriert. Wenn die Installation abgeschlossen ist, überprüfen Sie die Zusammenfassung, und klicken Sie auf Fertig stellen.'
-ms.openlocfilehash: 6bea150f7117fe30e1785d2494c7348171bba615ec884946c8e935b2475e9e25
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zum Installieren und Aktivieren oder Deaktivieren oder Deinstallieren Skype for Business Server Komponenten verwenden Sie Schritt 2: Einrichten oder Entfernen Skype Serverkomponenten. Sie müssen auf dem Computer, den Sie installieren oder ändern, als lokaler Administrator angemeldet sein und in der Lage sein, Active Directory Domain Services-Benutzer und -Gruppen in der aktuellen Domäne zu lesen. Klicken Sie zunächst auf "Ausführen". Wenn Sie dies tun, wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Erforderliche Softwarekomponenten werden entsprechend der rolle, die im zentralen Verwaltungsspeicher definiert ist, installiert und konfiguriert. Wenn die Installation abgeschlossen ist, überprüfen Sie die Zusammenfassung, und klicken Sie auf Fertig stellen.'
+ms.openlocfilehash: d5f7a087dc76e1189fcf59474737fddff22b15c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282188"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597159"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Einrichten oder Entfernen von Komponenten von Skype for Business Server
  

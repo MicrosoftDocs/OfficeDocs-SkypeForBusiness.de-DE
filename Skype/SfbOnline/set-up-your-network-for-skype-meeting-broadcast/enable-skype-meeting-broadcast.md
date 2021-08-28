@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Bevor die Personen in Ihrer Organisation ihre Skype-Besprechung verwenden können, müssen Sie sie aktivieren. Dazu müssen Sie wissen, wie Sie ihre Windows PowerShell. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
-ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Bevor die Personen in Ihrer Organisation die Skype-Besprechung verwenden können, müssen Sie sie aktivieren. Dazu müssen Sie wissen, wie Sie ihre Windows PowerShell. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen Microsoft-Partner für diese Aufgabe heranziehen.
+ms.openlocfilehash: 4f16444a07c81b44e4078a2c294208f59e4d7775
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599670"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
@@ -33,29 +33,29 @@ ms.locfileid: "54339263"
 > [!IMPORTANT]
 > Skype for Business Online wird am 31. Juli 2021 beendet, und der Zugriff auf den Dienst endet. Wir empfehlen Kunden, mit dem Upgrade auf Microsoft Teams, den zentralen Client für Kommunikation und Teamarbeit in Microsoft 365.
 
-Bevor die Personen in Ihrer Organisation ihre Skype-Besprechung verwenden können, müssen Sie sie aktivieren. Dazu müssen Sie wissen, wie Sie ihre Windows PowerShell. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) für diese Aufgabe heranziehen.
+Bevor die Personen in Ihrer Organisation die Skype-Besprechung verwenden können, müssen Sie sie aktivieren. Dazu müssen Sie wissen, wie Sie ihre Windows PowerShell. Wenn Sie keine Erfahrungen mit Windows PowerShell haben, sollten Sie möglicherweise einen [Microsoft-Partner](https://go.microsoft.com/fwlink/?linkid=391089) für diese Aufgabe heranziehen.
 
 
 
 > [!NOTE]
-> Das Microsoft Teams Admin Center wurde durch das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Admins oder Skype for Business zugewiesen sein, damit Skype for Business Features im Teams Admin Center verwalten können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> Das Microsoft Teams Admin Center hat das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen zum Verwalten Skype for Business Befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Admins oder Skype for Business zugewiesen sein, damit Skype for Business Features im Teams Admin Center verwalten können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Aktivieren von Skype-Livekonferenz im Skype for Business Admin Center
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Melden Sie sich mit Ihrem globalen Administratorkonto oder ihrem Skype for Business bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
+1. Melden Sie sich mit Ihrem globalen Administratorkonto oder Skype for Business bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) an.
     
 2. Wechseln Sie im Admin Center zu **Admin Center**  >  **Teams.**
     
-3. Wechseln Sie **Teams Admin Center** zu Legacyportal-Onlinebesprechungen Livebesprechungen übertragen, und wählen Sie dann Skype-Besprechung  >    >   **Broadcast aus.**
+3. Wechseln Sie **Teams Admin Center** zu   >  **Legacyportal** Onlinebesprechungen Livebesprechungen übertragen, und wählen Sie dann Skype-Besprechung  >   **Aus.**
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Aktivieren von Skype-Livekonferenz mit PowerShell
 
 1. Installieren Sie [Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
     
-2. Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
+2. Öffnen Sie Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
 
    ```powershell
    # When using Teams PowerShell Module

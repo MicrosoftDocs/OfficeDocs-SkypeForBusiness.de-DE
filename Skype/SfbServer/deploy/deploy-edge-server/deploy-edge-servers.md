@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Edgeserver in Ihrer Skype for Business Server Umgebung bereitstellen.'
-ms.openlocfilehash: 6d098a78fe0fbb005bc023790e59416601eeab8c3c4d8b1378a71bfcf3d59a02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 611e2e6b4bbc3ef8f1d140b02d8dc3f2bc719953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623027"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Bereitstellen von Edgeservern in Skype for Business Server
  
@@ -74,11 +74,11 @@ Wie in der Planung erwähnt, konfigurieren Sie entweder Ihre Netzwerkschnittstel
     
 4. Erstellen Sie dauerhafte statische Routen auf der internen Schnittstelle zu allen internen Netzwerken, in denen sich Clients, Skype for Business Server und Exchange Unified Messaging (UM)-Server befinden.
     
-5. Bearbeiten Sie die HOST-Datei auf jedem Edgeserver so, dass sie einen Eintrag für den nächsten Hopserver oder die virtuelle IP (VIP) enthält. Dieser Datensatz ist der Director Standard Edition Server oder Front-End-Pool, den Sie als nächste Hopadresse des Edgeservers im Topologie-Generator konfiguriert haben. Wenn Sie den DNS-Lastenausgleich verwenden, fügen Sie eine Zeile für jedes Mitglied des nächsten Hoppools ein.
+5. Bearbeiten Sie die HOST-Datei auf jedem Edgeserver so, dass sie einen Eintrag für den nächsten Hopserver oder die virtuelle IP (VIP) enthält. Dieser Datensatz ist der Director Standard Edition Server oder Front-End-Pool, den Sie im Topologie-Generator als nächste Hopadresse des Edgeservers konfiguriert haben. Wenn Sie den DNS-Lastenausgleich verwenden, fügen Sie eine Zeile für jedes Mitglied des nächsten Hoppools ein.
     
 ## <a name="installation"></a>Installation
 
-Um diese Schritte erfolgreich ausführen zu können, müssen Sie die Schritte im Artikel ["Erstellen der Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) befolgt haben.
+Um diese Schritte erfolgreich abzuschließen, müssen Sie die Schritte im Artikel ["Erstellen der Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) befolgt haben.
   
 1. Melden Sie sich bei dem Server an, den Sie für die Edgeserverrolle konfiguriert haben, mit einem Konto, das sich in der lokalen Administratorgruppe befindet.
     
@@ -92,7 +92,7 @@ Um diese Schritte erfolgreich ausführen zu können, müssen Sie die Schritte im
     
 6. Das Dialogfeld **"Lokales Replikat des zentralen Verwaltungsspeichers** konfigurieren" wird angezeigt. Sie müssen auf **"Aus Datei importieren" klicken (empfohlen für Edgeserver).**
     
-7. Navigieren Sie von hier aus zum Speicherort der Topologie, die Sie zuvor exportiert haben, wählen Sie die .zip Datei aus, klicken Sie auf **"Öffnen"** und dann auf **"Weiter".**
+7. Navigieren Sie hier zum Speicherort der Topologie, die Sie zuvor exportiert haben, wählen Sie die .zip Datei aus, klicken Sie auf **"Öffnen"** und dann auf **"Weiter".**
     
 8. Der Bereitstellungs-Assistent liest die Konfigurationsdatei und schreibt die XML-Konfigurationsdatei auf den lokalen Computer.
     
@@ -153,7 +153,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vi. Der **Zertifikatexport-Assistent** wird geöffnet. Klicken Sie auf **Weiter**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vii. Wählen Sie im Dialogfeld **Dateiformat exportieren** das Format aus, in das Sie exportieren möchten. Unsere Empfehlung ist **cryptographic Message Syntax Standard – PKCS #7 Certificates (P7b)**. Wenn Sie auch dies auswählen, sollten Sie nach Möglichkeit auch das Kontrollkästchen **"Alle Zertifikate in den Zertifizierungspfad einschließen"** aktivieren, da dadurch auch die Zertifikatkette exportiert wird, einschließlich des Zertifikats der Stammzertifizierungsstelle und aller Zwischenzertifikate. Klicken Sie auf **Weiter**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vii. Wählen Sie im Dialogfeld **Dateiformat exportieren** das Format aus, in das Sie exportieren möchten. Unsere Empfehlung ist **kryptografischer Nachrichtensyntaxstandard – PKCS #7 Certificates (P7b)**. Wenn Sie auch dies auswählen, sollten Sie nach Möglichkeit auch das Kontrollkästchen **"Alle Zertifikate in den Zertifizierungspfad einschließen"** aktivieren, da dadurch auch die Zertifikatkette exportiert wird, einschließlich des Zertifikats der Stammzertifizierungsstelle und aller Zwischenzertifikate. Klicken Sie auf **Weiter**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Viii. Geben Sie im Dialogfeld **"Zu exportierende Datei"** im Dateinameneintrag einen Pfad und einen Dateinamen (die Standarderweiterung wäre .p7b) für das exportierte Zertifikat ein. Wenn dies für Sie einfacher ist, wählen Sie die Schaltfläche **"Durchsuchen"** aus, um zu dem Speicherort zu wechseln, an dem Sie das exportierte Zertifikat speichern möchten, und nennen Sie das exportierte Zertifikat hier. Klicken Sie auf **"Speichern"** und dann auf **"Weiter",** wenn Sie fertig sind.
     
@@ -201,7 +201,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Ich. Geben Sie im **Anzeigenamen** einen Anzeigenamen für das Zertifikat ein (z. B. interner Edge).
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ii. Wählen Sie in **Bitlänge** die Bitlänge aus (der Standardwert ist 2048, Sie können höher gehen und sicherer sein, aber die Leistung wird verlangsamt).
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ii. Wählen Sie in **Bitlänge** Die Bitlänge aus (der Standardwert ist 2048, Sie können höher gehen und sicherer sein, aber die Leistung wird verlangsamt).
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Iii. Wenn Sie ein exportierbares Zertifikat benötigen, müssen Sie das Kontrollkästchen **"Privaten Zertifikatschlüssel als exportierbar** markieren" aktivieren.
     
@@ -254,7 +254,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
 &nbsp;&nbsp;&nbsp;G. Doppelklicken Sie auf **Zertifikate (Lokaler Computer)**, um die Zertifikatspeicher zu erweitern. Doppelklicken Sie auf **"Persönlich",** und klicken Sie dann auf **"Zertifikate".**
     
   > [!NOTE]
-  > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alles richtig verstanden haben, wenden Sie sich an Ihren Zertifizierungsstellenadministrator oder -anbieter. 
+  > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alle richtigen Schritte ausgeführt haben, wenden Sie sich an ihren Zertifizierungsstellenadministrator oder -anbieter. 
   
 &nbsp;&nbsp;&nbsp;H. Klicken Sie im **persönlichen Zertifikatspeicher** für den lokalen Computer mit der rechten Maustaste auf das Zertifikat, das Sie exportieren. Wählen Sie im resultierenden Menü **"Alle Aufgaben"** aus, und klicken Sie dann auf **"Exportieren".**
     
@@ -354,7 +354,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;B. Im Bereitstellungs-Assistenten neben **Schritt 3. Anfordern, Installieren oder Zuweisen von Zertifikaten**, klicken Sie auf **"Erneut ausführen".**
     
-&nbsp;&nbsp;&nbsp;C. Klicken Sie auf der Seite **"Verfügbare Zertifikataufgaben"** auf **"Zertifikat aus einer importieren". P7b-, PFX- oder CER-Datei.**
+&nbsp;&nbsp;&nbsp;C. Klicken Sie auf der Seite **"Verfügbare Zertifikataufgaben"** auf **"Zertifikat aus einem importieren". P7b-, PFX- oder CER-Datei.**
     
 &nbsp;&nbsp;&nbsp;D. Geben Sie auf der Seite **"Zertifikat importieren"** den vollständigen Pfad und Dateinamen des Zertifikats ein, das Sie im vorherigen Abschnitt erhalten haben (oder klicken Sie auf **"Durchsuchen",** um die Datei auf diese Weise zu suchen und auszuwählen). Wenn Ihr Zertifikat einen privaten Schlüssel enthält, stellen Sie sicher, dass die Zertifikatdatei den **privaten Schlüssel des Zertifikats enthält,** und geben Sie das Kennwort für den privaten Schlüssel ein. Klicken Sie auf **"Weiter",** wenn sie fertig ist.
     
@@ -382,7 +382,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
 &nbsp;&nbsp;&nbsp;G. Doppelklicken Sie auf **Zertifikate (Lokaler Computer)**, um die Zertifikatspeicher zu erweitern. **Doppelklicken Sie auf "Persönlich",** und klicken Sie dann auf **"Zertifikate".**
     
    > [!NOTE]
-   > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alles richtig verstanden haben, wenden Sie sich an Ihren Zertifizierungsstellenadministrator oder -anbieter. 
+   > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alle richtigen Schritte ausgeführt haben, wenden Sie sich an ihren Zertifizierungsstellenadministrator oder -anbieter. 
   
 &nbsp;&nbsp;&nbsp;H. Klicken Sie im **persönlichen Zertifikatspeicher** für den lokalen Computer mit der rechten Maustaste auf das Zertifikat, das Sie exportieren. Wählen Sie im resultierenden Menü **"Alle Aufgaben"** aus, und klicken Sie dann auf **"Exportieren".**
     
@@ -442,6 +442,6 @@ Sobald das Setup abgeschlossen ist, müssen Sie die Dienste auf jedem Edgeserver
     
 4. (Optional) Klicken Sie weiterhin unter **Schritt 4: Dienste starten** auf **Dienststatus**.
     
-5.  Überprüfen Sie in der **Dienst-MMC** auf jedem Server, ob alle Skype for Business Server-Dienste ausgeführt werden.
+5.  Überprüfen Sie in der **Dienst-MMC** auf jedem Server, ob alle Skype for Business Server Dienste ausgeführt werden.
     
 

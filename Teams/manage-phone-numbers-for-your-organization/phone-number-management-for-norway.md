@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Norwegen für Microsoft Teams.
-ms.openlocfilehash: 4f8863cd853e478595c718842df4ca94faa333f4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: bc4be770f5fb76295c0930fd255a854e6a1946b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623257"
 ---
 # <a name="phone-number-management-for-norway"></a>Telefon der Nummerverwaltung für Norwegen
 

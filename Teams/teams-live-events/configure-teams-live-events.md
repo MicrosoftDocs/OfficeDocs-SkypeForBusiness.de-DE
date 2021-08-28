@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8eccc6e885cef67d4f6240483d3995df88d7cfc
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: b9233f3a807846261a563d11b46d0fea59092780
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613474"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams
 
@@ -35,7 +35,7 @@ Verwenden Teams Einstellungen für Liveereignisse, um Einstellungen für Liveere
 
 Sie können diese Einstellungen ganz einfach im Microsoft Teams Admin Center verwalten. Wechseln Sie im linken Navigationsbereich **zu** Einstellungen  >  **für Liveereignisse in Besprechungen.**
 
-![Screenshot der Einstellungen Teams Liveereignisse](../media/teams-live-events-settings.png "Screenshot der Teams von Liveereignissen, die Sie im Admin Center Microsoft Teams können")
+![Screenshot der Einstellungen Teams Liveereignisse](../media/teams-live-events-settings.png "Screenshot der Einstellungen Teams Liveereignisse, die Sie im Admin Center Microsoft Teams können")
 
 ## <a name="set-up-event-support-url"></a>Einrichten der URL für die Ereignisunterstützung
 
@@ -46,7 +46,7 @@ Diese URL wird Teilnehmern des Live-Ereignisses angezeigt. Fügen Sie die Suppor
 1. Navigieren Sie im linken Navigationsbereich zu Einstellungen für  >  **Liveereignis für Besprechungen.**
 2. Geben **Sie unter Support-URL** die Support-URL Ihrer Organisation ein.
 
-    ![Einstellung der Support-URL für Liveereignisse im Admin Center](../media/teams-live-events-settings-supporturl.png "Screenshot der SUPPORT-URL-Einstellung für Teams Von Liveereignissen")
+    ![Einstellung der Support-URL für Liveereignisse im Admin Center](../media/teams-live-events-settings-supporturl.png "Screenshot der SUPPORT-URL-Einstellung für Teams Liveereignisse")
 
 ### <a name="using-windows-powershell"></a>Verwenden von Windows PowerShell
 
@@ -90,10 +90,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Ramp** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
-```
-**Peer5**
-```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
 Weitere Informationen finden Sie unter [Set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)

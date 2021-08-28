@@ -17,16 +17,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
 - seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 description: In diesem Artikel erfahren Sie, wie ein Administrator Informationen zu Gästen in einer Microsoft Teams.
-ms.openlocfilehash: 6289fe8566f226345876d3feb809e937f1ce8df5
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 1c5c3d8ed6c94a6e9af1ac2e27bde4ba98d3d892
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613414"
 ---
 # <a name="view-guests-in-a-team"></a>Anzeigen von Gästen in einem Team
 
@@ -34,7 +34,7 @@ Jeder in einem Team kann alle Mitglieder eines Teams, einschließlich Gäste, ü
 
 So identifizieren Sie Gäste:
 
-1.  Melden Sie sich bei der [Microsoft 365 Admin Center](https://admin.microsoft.com)an.
+1.  Melden Sie sich bei der [Microsoft 365 Admin Center.](https://admin.microsoft.com)
 2.  Wählen **Sie Admin Center**  >  **Teams** aus.
 3.  Wählen Sie Teams Admin Center Benutzer **aus.** Gäste werden **an den** Anzeigenamen aller Gäste angefügt.
   

@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Informationen dazu, wie Sie aus der Ansicht einer Skype for Business Online- und Teams-Konfiguration zu Direct Routing migrieren können.
-ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 71776c18dc6ec802c19f9dfc94c51b2b714bc210
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302000"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599750"
 ---
 # <a name="migrate-to-direct-routing"></a>Migration zu Direct Routing
 
@@ -29,7 +29,7 @@ In diesem Artikel wird beschrieben, wie Sie aus der Ansicht einer Skype for Busi
  
 - Telefonsystem mit Anrufplänen (für Teams und Skype for Business Online) 
 - Telefonsystem mit lokalem PSTN-Konnektivität in Skype for Business Server (für Skype for Business Online)  
-- Telefonsystem mit der lokalen PSTN-Anbindung mithilfe der Cloud Connector Edition (für Skype for Business Online)
+- Telefonsystem der lokalen PSTN-Anbindung mithilfe der Cloud Connector Edition (für Skype for Business Online)
 
 
 Zusätzlich zu diesen Konfigurationsschritten ist auch die Konfiguration im Session Border Controller (SBC) erforderlich, um Anrufe auf die neue Verbindung umzuleiten. Dies ist nicht Inhalt dieses Dokuments. Weitere Informationen hierzu finden Sie in der Dokumentation Ihres SBC-Herstellers.  
@@ -97,7 +97,7 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migration ausgehend vom Office 365 Telefonsystem mit lokaler Festnetzanbindung über die Cloud Connector Edition 
 
 > [!Important]
-> Cloud Connector Edition wird am 31. Juli 2021 sowie Skype for Business Online zurückziehen. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie hier, wie Sie Ihr lokales Telefonienetzwerk mit Teams [Direct-Routing verbinden.](direct-routing-landing-page.md)
+> Cloud Connector Edition wird am 31. Juli 2021 sowie Skype for Business Online abziehen. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie hier, wie Sie Ihr lokales Telefonienetzwerk mithilfe von [Direct-Routing](direct-routing-landing-page.md)mit Teams verbinden.
 
 Weitere Informationen zur Migration ausgehend von einem Telefonsystem mit lokaler Festnetzanbindung über den Cloud Connector finden Sie unter:
 

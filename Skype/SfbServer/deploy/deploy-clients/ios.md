@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Zusammenfassung: So installieren und testen Sie die Skype for Business für die iOS-App.'
-ms.openlocfilehash: 28f91bccd32421c2442bfedb12eb5181311ed0ed990ebf4f3174898ddefff610
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff2e2789f733a77ab0d332225a85aca33eb69bc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623017"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Installieren und Testen von Skype for Business für iOS
  
@@ -27,7 +27,7 @@ Die Skype for Business für iOS-Apps bietet Skype for Business Anwesenheits-, Ch
   
 ## <a name="installing-skype-for-business-for-ios"></a>Installieren von Skype for Business für iOS
 
-1. Tippen Sie auf Ihrem iOS-Gerät auf **App-Store,** und suchen Sie nach **Skype for Business für iOS.**
+1. Tippen Sie auf Ihrem iOS-Gerät auf **"App Store",** und suchen Sie nach **Skype for Business für iOS.**
     
 2. Tippen Sie auf   >  **"Herunterladen öffnen".** 
     
@@ -35,7 +35,7 @@ Die Skype for Business für iOS-Apps bietet Skype for Business Anwesenheits-, Ch
     
 ## <a name="verifying-mobile-client-installation"></a>Überprüfen der Installation mobiler Clients
 
-Nachdem Sie sich erfolgreich angemeldet haben, überprüfen Sie anhand der folgenden Tests, ob ihre Skype for Business Installation auf Ihrem iOS-Gerät ordnungsgemäß funktioniert. 
+Nachdem Sie sich erfolgreich angemeldet haben, überprüfen Sie anhand der folgenden Tests, ob Die Skype for Business Installation auf Ihrem iOS-Gerät ordnungsgemäß funktioniert. 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Suchen nach einem Kontakt im Unternehmensverzeichnis
 

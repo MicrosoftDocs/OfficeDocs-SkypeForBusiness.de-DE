@@ -13,19 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Feiertage in Microsoft Teams für die Verwendung mit Ihren automatischen Attendants einrichten.
-ms.openlocfilehash: c7fa5d44f836e35022acab24c2d4b7ad6c60536295bba7adba8fc568b1560443
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351745"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623227"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
@@ -54,7 +54,7 @@ So erstellen Sie einen Feiertag
 8. Wählen Sie in der Dropdownliste eine Endzeit für den Feiertag aus. Die **Endzeit** muss nach der **Startzeit sein.**  
 
    > [!NOTE]
-   > Wenn sich der Feiertag auf einen ganzen Tag (d. h.  einen Zeitraum von 24 Stunden) befindet, sollte die Endzeit auf den nächsten Tag und die Uhrzeit auf 00:00 Uhr festgelegt werden. Wenn Ihre Organisation beispielsweise am 1. Januar für den Neujahrstag geschlossen ist, legen Sie die Startzeit auf  1. Januar 12:00 Uhr und die Endzeit auf 2. Januar @ 12:00 Uhr festgelegt. 
+   > Wenn sich der Feiertag auf einen ganzen Tag (d. h.  einen Zeitraum von 24 Stunden) befindet, sollte die Endzeit auf den nächsten Tag und die Uhrzeit auf 00:00 Uhr festgelegt werden. Wenn Ihre Organisation z. B. am 1. Januar für  den Neujahrstag geschlossen ist, legen Sie die  Startzeit auf 1. Januar 12:00 Uhr und die Endzeit auf 2. Januar um 00:00 Uhr festgelegt.
 
 9. Fügen Sie optional weitere Datumsangaben für periodischen Feiertage hinzu.
 

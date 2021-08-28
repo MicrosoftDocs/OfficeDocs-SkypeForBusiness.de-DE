@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server-Verwaltungsshell zu konfigurieren.
-ms.openlocfilehash: a31e8b40e0523b8bc0a4b90a97fb0ae98fbc7668
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d7942026a00bd74a7cb21adb045b78dba3b93594
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600040"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Verwalten von Netzwerksubnetzen in Skype for Business Server
 
-Sie können entweder die Skype for Business Server Systemsteuerung oder die Skype for Business Server-Verwaltungsshell verwenden, um Netzwerksubnetze zu verwalten. In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server-Verwaltungsshell zu konfigurieren.
+Sie können entweder die Skype for Business Server Systemsteuerung oder die Skype for Business Server-Verwaltungsshell zum Verwalten von Netzwerksubnetzen verwenden. In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server-Verwaltungsshell zu konfigurieren.
 
 Verwenden Sie die Abschnitte in diesem Artikel, um Netzwerksubnetzinformationen anzuzeigen oder Netzwerksubnetze zu erstellen, zu ändern oder zu löschen. 
 
@@ -45,7 +45,7 @@ Mit dem folgenden Verfahren können Sie ein Netzwerksubnetz anzeigen. In der Sky
 
 ### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Informationen zur Netzwerksubnetzkonfiguration mithilfe Windows PowerShell Cmdlets
 
-Netzwerksubnetzinformationen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSubnet angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Netzwerksubnetzinformationen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSubnet angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ### <a name="to-view-network-subnet-information"></a>So zeigen Sie Netzwerksubnetzinformationen an
 

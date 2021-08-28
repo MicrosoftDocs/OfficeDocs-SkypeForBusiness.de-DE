@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: 'Erfahren Sie, wie Sie gehen können, wenn Ihr Netzbetreiber nicht in der Liste Skype for Business. '
-ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9916c38496365884e75e8777f42958c45bb0e59
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599620"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>Was ist, wenn mein Netzbetreiber nicht als Quellenbetreiber aufgeführt ist?
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-Es kann etwas verwirrend sein, wenn Sie sehen, dass der Name Ihres Netzbetreibers nicht aufgeführt ist. Wenn der Dienstanbieter oder Netzbetreiber unterschiedlich ist, liegt die Wahrscheinlichkeit in den meisten Fällen, dass die Telefonnummern, die Sie übertragen möchten, einem anderen Dienstanbieter oder Netzbetreiber gehören. Es kann zeiten sein, dass sich der aufgeführte Dienstanbieter oder Netzbetreiber von Ihrem aktuellen Dienstanbieter unterscheiden kann, da Ihr aktueller Dienstanbieter möglicherweise mit einem Drittanbieter zusammenarbeitt. 
+Es kann etwas verwirrend sein, wenn Sie sehen, dass der Name Ihres Netzbetreibers nicht aufgeführt ist. Wenn der Dienstanbieter oder Netzbetreiber unterschiedlich ist, liegt die Wahrscheinlichkeit in den meisten Fällen, dass die Telefonnummern, die Sie übertragen, einem anderen Dienstanbieter oder Netzbetreiber gehören. Es kann zeiten sein, dass sich der aufgeführte Dienstanbieter oder Netzbetreiber von Ihrem aktuellen Dienstanbieter unterscheiden kann, da Ihr aktueller Dienstanbieter möglicherweise mit einem Drittanbieter zusammenarbeitt. 
   
 Beispiel:
   

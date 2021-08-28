@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie steuern können, wie Organisatoren gebührenfreie Nummern für ihre Audiokonferenzbrücke-Besprechungen verwenden können.
-ms.openlocfilehash: fe9542ba13595d393e31ad86dcdbe7bc8e6f40afd127975d465d76d57ec9352b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d9cd647f8089bd95defe016176dbc236e9f628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319988"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613644"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Deaktivieren von gebührenfreien Nummern für bestimmte Benutzer
 
@@ -49,7 +49,7 @@ Wenn gebührenfreie Telefonnummern für einen bestimmten Organisator deaktiviert
 
 Im **Microsoft Teams Admin Center:**
 
-1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie **neben Audiokonferenz** auf **Bearbeiten**.
 

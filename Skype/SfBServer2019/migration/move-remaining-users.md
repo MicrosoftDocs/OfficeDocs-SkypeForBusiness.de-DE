@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Sie können Benutzer in die neue Skype for Business Server 2019-Bereitstellung verschieben, indem Sie entweder Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell verwenden. Sie müssen einige Anforderungen erfüllen, um einen reibungslosen Übergang zu Skype for Business Server 2019 sicherzustellen. Ausführliche Informationen zu den Voraussetzungen zum Abschließen der Verfahren in diesem Thema finden Sie unter Konfigurieren von Clients für die Migration. Ausführliche Schritte zum Verschieben von Benutzern finden Sie in Phase 4: Verschieben von Testbenutzern in den Pilotpool.'
-ms.openlocfilehash: a2742acf32899aca71c28da733c723640a8c1e9200f26f793a918eac04714f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60742068bc684470d181593e94615da2a8d79ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623107"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Verschieben der verbleibenden Benutzer zu Skype for Business Server 2019
 
@@ -37,7 +37,7 @@ Wenn Sie einen Benutzer in einen Skype for Business Server 2019-Pool verschieben
 
 1. Überprüfen Sie nach dem Verschieben der Benutzer die ihnen zugeordnete Konferenzrichtlinie. 
     
-2. Um sicherzustellen, dass Besprechungen, die von Benutzern organisiert werden, die am Skype for Business Server 2019 verwaltet werden, nahtlos mit Verbundbenutzern funktionieren, die bei der Legacyinstallation verwaltet werden, sollte die konferenzrichtlinie, die den migrierten Benutzern zugewiesen ist, anonyme Teilnehmer zulassen.
+2. Um sicherzustellen, dass Besprechungen, die von Benutzern organisiert werden, die am Skype for Business Server 2019 verwaltet werden, nahtlos mit Verbundbenutzern zusammenarbeiten, die auf einer älteren Installation verwaltet werden, sollte die Konferenzrichtlinie, die den migrierten Benutzern zugewiesen ist, anonyme Teilnehmer zulassen.
     
 3. Konferenzrichtlinien, die anonymen Teilnehmern erlauben, dass **Teilnehmer anonyme Benutzer einladen** können, die in Skype for Business Server 2019-Systemsteuerung ausgewählt wurden, und **AllowAnonymousParticipantsInMeetings** in der Ausgabe des Cmdlets **"Get-CsConferencingPolicy"** in der Skype for Business Server-Verwaltungsshell auf **"True"** festgelegt haben. 
     

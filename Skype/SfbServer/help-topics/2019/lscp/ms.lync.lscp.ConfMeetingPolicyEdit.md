@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Eine Konferenzrichtlinie definiert die Features und Funktionen, die Benutzern während einer Konferenz zur Verfügung stehen (auch bekannt als Besprechung).
-ms.openlocfilehash: af3769f1a5dd7b1025ea7add7fc8b83ae956a56f7ebc490cc7370e24cf0707e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f06ae9e2a23e83ec00fa77acf46d30a0b78fbeab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314871"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624357"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Konferenzrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Konferenzrichtlinie
 
@@ -63,7 +63,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Anonymen Teilnehmern das Ausgehende gestatten** Aktivieren Sie dieses Kontrollkästchen, wenn Sie Benutzern das Einwählen in Konferenzen gestatten und nicht authentifizierten (anonymen) Benutzern die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen gestatten möchten. Bei ausgehenden Telefonverbindungen ruft der Konferenzserver den Benutzer an, und der Benutzer nimmt das Gespräch an, um an der Konferenz teilzunehmen.
 
-- **Teilnehmer, die nicht für Enterprise-VoIP aktiviert sind, dürfen ausgehende Anrufe wählen** Wenn Sie Audio in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern, die nicht für Enterprise-VoIP aktiviert sind, die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen zu ermöglichen. Bei ausgehenden Telefonverbindungen telefoniert der Konferenzserver den Benutzer, und der Benutzer antwortet dann auf das Telefon, um an der Konferenz teilzunehmen.
+- **Zulassen, dass Teilnehmer, die nicht für Enterprise-VoIP aktiviert sind, ausgehende Anrufe zulassen** Wenn Sie Audio in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern, die nicht für Enterprise-VoIP aktiviert sind, die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen zu ermöglichen. Bei ausgehenden Telefonverbindungen telefoniert der Konferenzserver den Benutzer, und der Benutzer antwortet dann auf das Telefon, um an der Konferenz teilzunehmen.
 
 - **Zulassen mehrerer Videostreams** Wenn Sie Video in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern das Organisieren von Konferenzen mit Dem Video "Katalogansicht" zu ermöglichen. Wenn dieses Kontrollkästchen aktiviert ist, können Benutzer mit dieser Einstellung Konferenzen organisieren, die mehrere Videostreams senden. Wenn dieses Kontrollkästchen nicht aktiviert ist, können Benutzer nur Konferenzen organisieren, die einen einzelnen Videostream senden.
 
@@ -105,6 +105,6 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 - **Teilnehmer können mit mehreren Videostreams teilnehmen** Aktivieren Sie dieses Kontrollkästchen, um Teilnehmern das Empfangen von Katalogansichtsvideos in Konferenzen zu ermöglichen, die dies zulassen. Wenn diese Option nicht ausgewählt ist, können teilnehmer nur einen einzelnen Videostream empfangen, unabhängig davon, was die Konferenz zulässt.
 
     > [!NOTE]
-    > Der **Wert "Mehrere Videodatenströme zulassen"** bestimmt, ob eine Konferenz mehrere Videostreams zulässt.
+    > Die **Option "Mehrere Videodatenströme zulassen"** bestimmt, ob eine Konferenz mehrere Videostreams zulässt.
 
 Ausführliche Informationen zu den Konferenzfunktionen finden Sie unter [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Konferenzrichtlinien finden Sie unter [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) in der Betriebsdokumentation.

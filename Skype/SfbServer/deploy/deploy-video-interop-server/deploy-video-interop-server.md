@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen des Video-Interoperabilität-Servers in Skype for Business Server
+title: Bereitstellen des Video-Interoperabilitätsservers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: 'Zusammenfassung: Bereitstellen der VIS-Serverrolle in Skype for Business Server.'
-ms.openlocfilehash: 9a661bf31f3c22866396a46be5d583591674736bb8111d11b71ac257e063a416
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 28461a7edc238aaa1ab671cb025151fbeff4c8db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282338"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624377"
 ---
-# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Bereitstellen des Video-Interoperabilität-Servers in Skype for Business Server
+# <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Bereitstellen des Video-Interoperabilitätsservers in Skype for Business Server
  
 **Zusammenfassung:** Stellen Sie die VIS-Serverrolle in Skype for Business Server bereit.
   
@@ -42,6 +42,6 @@ Zum Konfigurieren der Interoperabilität zwischen einem VIS-Server oder -Pool un
     
 ## <a name="related-sections"></a>Verwandte Abschnitte
 
-[Plan for Video Interop Server in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
+[Planen des Videointeroperabilitätsservers in Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
 
