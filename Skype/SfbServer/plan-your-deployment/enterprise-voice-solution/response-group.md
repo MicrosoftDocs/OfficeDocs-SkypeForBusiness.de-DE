@@ -9,29 +9,29 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, wodurch Sie anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
-ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Planung für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, wodurch Sie anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
+ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290083"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631579"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planen der Reaktionsgruppenanwendung in Skype for Business Server
 
-Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, wodurch Sie anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
+Planung für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, wodurch Sie anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
 
 Wenn Ihre Organisation über Gruppen von Personen verfügt, die bestimmte Arten von Anrufen annehmen und verwalten, z. B. für den Kundendienst, ein internes Helpdesk oder allgemeinen Telefonsupport für eine Abteilung, können Sie die Reaktionsgruppenanwendung bereitstellen, um diese Anruftypen zu verwalten. Die Reaktionsgruppenanwendung leitet eingehende Anrufe an bestimmte Personen, die als Agents bezeichnet werden, weiter und stellt sie in die Warteschlange. Sie können die Verwendung von Telefonsupportdiensten erhöhen und den Mehraufwand für die Ausführung dieser Dienste mithilfe von Reaktionsgruppen reduzieren.
 
 Wenn ein Anrufer eine Reaktionsgruppe anruft, wird der Anruf basierend auf einem Sammelanschluss oder den interaktiven Sprachantworten des Anrufers an einen Agent weitergeleitet. Die Reaktionsgruppenanwendung verwendet standardmäßige Routingmethoden für Reaktionsgruppen, um den Anruf an den nächsten verfügbaren Agent weiterzuleiten. Zu den unterstützten Anrufweiterleitungsmethoden gehören serielles, längstes Leerlauf-, Parallel-, Roundrobin- und Attendant-Routing (das heißt, alle Agents werden für jeden eingehenden Anruf gleichzeitig aufgerufen, unabhängig von ihrer aktuellen Anwesenheit).
 
-Wenn keine Agents verfügbar sind, wird der Anruf in einer Warteschleife platziert, bis ein Agent verfügbar ist. Wenn sich ein Anrufer in der Warteschleife befindet, wird Musik wiedergegeben, bis ein verfügbarer Agent den Anruf entgegennimmt. Wenn die Warteschleife voll ist oder wenn der Anruf in der Warteschleife einen Zeitüberschreitung aufweist, hört der Anrufer möglicherweise eine Nachricht und wird entweder getrennt oder an ein anderes Ziel weitergeleitet, z. B. eine andere Telefonnummer oder Voicemail. Wenn ein Agent den Anruf entgegennimmt, kann dem Anrufer abhängig davon, wie der Administrator die Reaktionsgruppe konfiguriert, die Identität des Agents angezeigt werden. Bei Agents kann es sich um formelle Agents handeln, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe an die Gruppe entgegennehmen können, oder um informelle Agents, die sich nicht bei der Gruppe an- und abmelden müssen, um Anrufe zu beantworten.
+Wenn keine Agents verfügbar sind, wird der Anruf in einer Warteschleife platziert, bis ein Agent verfügbar ist. Wenn sich ein Anrufer in der Warteschleife befindet, wird Musik wiedergegeben, bis ein verfügbarer Agent den Anruf entgegennimmt. Wenn die Warteschleife voll ist oder wenn der Anruf in der Warteschleife ein Zeitüberschreitung aufweist, hört der Anrufer möglicherweise eine Nachricht und wird dann entweder getrennt oder an ein anderes Ziel weitergeleitet, z. B. eine andere Telefonnummer oder Voicemail. Wenn ein Agent den Anruf entgegennimmt, kann dem Anrufer abhängig davon, wie der Administrator die Reaktionsgruppe konfiguriert, die Identität des Agents angezeigt werden. Bei Agents kann es sich um formelle Agents handeln, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe an die Gruppe entgegennehmen können, oder um informelle Agents, die sich nicht bei der Gruppe an- und abmelden müssen, um Anrufe zu beantworten.
 
 > [!NOTE]
 > Nur lokale Benutzer können Agents sein. Wenn ein Agent von einer lokalen zu einer Onlinebereitstellung verschoben wird, werden Reaktionsgruppenanrufe nicht an diesen Agent weitergeleitet.
@@ -63,7 +63,7 @@ In der folgenden Tabelle werden die Aktionen beschrieben, die Reaktionsgruppenma
 
 **Funktionen der Reaktionsgruppenmanager**
 
-|**Konfiguration von:**|**Erstellen, Löschen, Konfigurieren von:**|**kann nicht:**|
+|**Konfiguration von:**|**Erstellen, Löschen, Konfigurieren von:**|**Kann nicht:**|
 |:-----|:-----|:-----|
 | Agents <br/>  Willkommensnachrichten <br/>  Name der Reaktionsgruppe <br/>  Beschreibung <br/>  Anzeigenummer <br/>  Geschäftszeiten <br/>  Wartemusik <br/>  Status (aktiv/inaktiv) <br/>  Workflows für Sammelanschlüsse oder für Interaktive Sprachantwort (Interactive Voice Response, IVR) <br/> | Agentgruppen <br/>  Warteschlangen <br/>  Feiertagssätze <br/> | Erstellen oder Löschen beliebiger Workflowtypen <br/>  Ändern grundlegender Reaktionsgruppeneinstellungen, wie: **SIP-URI**, **Telefonnummer** oder **Workflowtyp**.  <br/> |
 
@@ -88,7 +88,7 @@ Die Reaktionsgruppenanwendung wird automatisch aktiviert, wenn Sie Enterprise-Vo
 
 Die Reaktionsgruppenanwendung hat die gleichen Hardwareanforderungen, Betriebssystemanforderungen und Softwarevoraussetzungen wie Front-End-Server.
 
-Wenn Sie Windows Medienaudiodateien (WMA)-Dateien für Reaktionsgruppenmusik und Ankündigungen verwenden, muss auf allen Front-End-Servern oder Standardeditionsservern, auf denen die Reaktionsgruppenanwendung ausgeführt wird, die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 installiert sein. For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience.
+Wenn Sie Windows WMA-Dateien (Media Audio) für Reaktionsgruppenmusik und Ankündigungen verwenden, muss auf allen Front-End-Servern oder Standardeditionsservern, auf denen die Reaktionsgruppenanwendung ausgeführt wird, die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 installiert sein. For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience.
 
 Reaktionsgruppe verwendet **Sprachpakete** zur Unterstützung von Text-zu-Sprache und Spracherkennung. Diese Sprachtechnologien werden zum Konfigurieren von Nachrichten verwendet, beispielsweise für die Willkommensnachricht oder für andere Ansagen sowie für Fragen und Antworten der interaktiven Sprachantwort (Interactive Voice Response, IVR). Standardmäßig werden die 26 unterstützten Sprachpakete installiert, wenn Sie Skype for Business Server bereitstellen.
 
@@ -128,7 +128,7 @@ Für eine optimale Leistung bei Wavedateien wird eine Mono-WAV-Datei mit 16 kHz
 
 #### <a name="supported-windows-media-audio-file-formats"></a>Unterstützte WMA-Dateiformate
 
-Wenn Sie eine Windows Medienaudiodatei verwenden, ziehen Sie die Verwendung niedriger Bitraten in Betracht, und überprüfen Sie die Leistung Ihres Systems bei Auslastung.
+Wenn Sie eine Windows Medienaudiodatei verwenden, erwägen Sie die Verwendung niedriger Bitraten, und überprüfen Sie die Leistung Ihres Systems unter Last.
 
 Sie können Microsoft Expression Encoder 4 verwenden, um einen Datei in das WMA-Format zu konvertieren. Informationen zum Herunterladen von Expression Encoder 4 finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) .
 
@@ -172,7 +172,7 @@ Die Agentkonsole unterstützt die Kombinationen aus Betriebssystemen und Webbrow
 
 Die Reaktionsgruppenanwendung unterstützt die folgenden Clients:
 
-- Skype for Business Desktopclient
+- Skype for Business-Desktopclient
 
 - Lync 2013-Desktopclient
 
@@ -191,7 +191,7 @@ Der spezifische Client, den Sie verwenden können, hängt vom Typ des Reaktionsg
 
 - **Anrufer** können eine Reaktionsgruppe über einen der zuvor aufgeführten Clients und unter Verwendung eines Standardtelefons über das Festnetz anrufen.
 
-- **Informelle Agents** (Agents, die sich nicht bei ihren Gruppen anmelden und sich nicht abmelden, um Anrufe entgegenzunehmen) können Anrufe über die Telefonzentrale, Lync oder Lync Telefon Edition annehmen. Informelle Agents werden automatisch bei ihren Gruppen angemeldet, wenn sie sich mit einem dieser Clients bei Skype for Business Server anmelden.
+- **Informelle Agents** (Agents, die sich nicht bei ihren Gruppen anmelden und sich nicht abmelden, um Anrufe zu akzeptieren) können Anrufe über die Telefonzentrale, Lync oder Lync Telefon Edition annehmen. Informelle Agents werden automatisch bei ihren Gruppen angemeldet, wenn sie sich mit einem dieser Clients bei Skype for Business Server anmelden.
 
 - **Formale Agents** (Agents, die sich bei ihren Gruppen anmelden müssen, um Anrufe entgegenzunehmen) können Anrufe annehmen, indem sie Skype for Business verwenden und über das Menüelement auf die Agentkonsole zugreifen oder indem sie die Telefonzentrale verwenden und direkt über Internet Explorer auf die Agentkonsole zugreifen.
 
@@ -209,7 +209,7 @@ In der folgenden Tabelle wird das Reaktionsgruppenbenutzermodell beschrieben, da
 
 |**Metrik**|**Pro Enterprise Edition Pool <br/> (mit 8 Front-End-Servern)**|**Pro Standard Edition-Server**|
 |:-----|:-----|:-----|
-|Eingehende Anrufe pro Sekunde  <br/> |16   <br/> |2  <br/> |
+|Eingehende Anrufe pro Sekunde  <br/> |16   <br/> |2   <br/> |
 |Gleichzeitige mit interaktiver Sprachantwort (IVR) oder Wartemusik (MoH) verbundene Anrufe  <br/> |480  <br/> |60  <br/> |
 |Gleichzeitige anonyme Sitzungen (ohne Instant Messaging)  <br/> |224  <br/> |28  <br/> |
 |Gleichzeitige anonyme Sitzungen (mit Instant Messaging)  <br/> |64  <br/> |8   <br/> |

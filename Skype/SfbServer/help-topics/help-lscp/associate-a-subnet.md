@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSubnetMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 5712ed061f1bc7f752ddddffa03ab62ac8fa85b21c64d80fe78d1f7b7d879bd2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f789c3cf96b83cbd19da97f8af66d65f6a665e14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328340"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631759"
 ---
 # <a name="associate-a-subnet"></a>Zuordnen eines Subnetzes
 

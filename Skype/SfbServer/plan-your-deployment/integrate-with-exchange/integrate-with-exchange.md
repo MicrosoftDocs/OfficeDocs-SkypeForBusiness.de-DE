@@ -1,5 +1,5 @@
 ---
-title: Plan zur Integration von Skype for Business und Exchange
+title: Plan zur Integration von Skype for Business und Exchange
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,24 +9,24 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Zusammenfassung: In diesem Thema finden Sie Informationen zur Integration von Skype for Business Server in Exchange Server 2016 oder Exchange Server 2013.'
-ms.openlocfilehash: 81217886028db9e8cb04296e5d665aada3a3337683f4b8276fb13d454cdc4b76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284645"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609222"
 ---
-# <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan zur Integration von Skype for Business und Exchange
+# <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan zur Integration von Skype for Business und Exchange
  
 **Zusammenfassung:** In diesem Thema finden Sie Informationen zum Integrieren von Skype for Business Server in Exchange Server 2016 oder Exchange Server 2013.
   
 Bevor Sie Skype for Business Server und Exchange Server integrieren können, müssen Sie sicherstellen, dass sowohl Exchange Server als auch Skype for Business Server vollständig installiert und ausgeführt werden. 
   
-Ausführliche Informationen zum Installieren von Exchange Server finden Sie in der Exchange Server-Planungs- und Bereitstellungsdokumentation für Ihre Version von Exchange. 
+Ausführliche Informationen zum Installieren von Exchange Server finden Sie in der Exchange Server Planungs- und Bereitstellungsdokumentation für Ihre Version von Exchange. 
    
 Nachdem die Server eingerichtet und ausgeführt wurden, müssen Sie sowohl Skype for Business Server als auch Exchange Server Server-zu-Server-Authentifizierungszertifikate zuweisen. Mit diesen Zertifikaten können Skype for Business Server und Exchange Server Informationen austauschen und miteinander kommunizieren. Wenn Sie Exchange Server installieren, wird ein selbstsignes Zertifikat mit dem Namen Microsoft Exchange Server Authentifizierungszertifikats für Sie erstellt. Dieses Zertifikat, das sich im Zertifikatspeicher des lokalen Computers befindet, sollte für die Server-zu-Server-Authentifizierung auf Exchange Server verwendet werden. Ausführliche Informationen zum Zuweisen von Zertifikaten in Exchange Server finden Sie unter [Konfigurieren von E-Mail-Flow und Clientzugriff.](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)
   
@@ -38,7 +38,7 @@ Für Skype for Business Server können Sie ein vorhandenes Skype for Business Se
     
 - Das Zertifikat ist mindestens 2.048 Bit lang.
     
-Ausführliche Informationen zu Server-zu-Server-Authentifizierungszertifikaten für Skype for Business Server finden Sie unter [Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server.](../../manage/authentication/assign-a-server-to-server-certificate.md)
+Ausführliche Informationen zu Zertifikaten für die Server-zu-Server-Authentifizierung für Skype for Business Server finden Sie unter [Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server.](../../manage/authentication/assign-a-server-to-server-certificate.md)
   
 Nachdem die Zertifikate zugewiesen wurden, müssen Sie den AutoErmittlungsdienst auf Exchange Server konfigurieren. In Exchange Server konfiguriert der AutoErmittlungsdienst Benutzerprofile und bietet Zugriff auf Exchange Dienste, wenn sich Benutzer beim System anmelden. Die Benutzer geben im AutoErmittlungsdienst ihre E-Mail-Adresse und ihr Kennwort ein, und der Dienst stellt ihnen im Gegenzug folgende Informationen bereit:
   
@@ -50,7 +50,7 @@ Nachdem die Zertifikate zugewiesen wurden, müssen Sie den AutoErmittlungsdienst
     
 - Servereinstellungen für Outlook Anywhere.
     
-Der AutoErmittlungsdienst muss konfiguriert werden, bevor Sie Skype for Business Server und Exchange Server integrieren können. Sie können überprüfen, ob der AutoErmittlungsdienst konfiguriert wurde, indem Sie den folgenden Befehl in der Exchange Server Verwaltungsshell ausführen und den Wert der AutoDiscoverServiceInternalUri-Eigenschaft überprüfen:
+Der AutoErmittlungsdienst muss konfiguriert sein, bevor Sie Skype for Business Server und Exchange Server integrieren können. Sie können überprüfen, ob der AutoErmittlungsdienst konfiguriert wurde, indem Sie den folgenden Befehl in der Exchange Server-Verwaltungsshell ausführen und den Wert der AutoDiscoverServiceInternalUri-Eigenschaft überprüfen:
   
 ```PowerShell
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
@@ -66,7 +66,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 Ausführliche Informationen zum AutoErmittlungsdienst finden Sie unter [AutoErmittlungsdienst.](/Exchange/architecture/client-access/autodiscover)
   
-Nachdem der AutoErmittlungsdienst konfiguriert wurde, müssen Sie die Skype for Business Server OAuth-Konfigurationseinstellungen ändern. Dadurch wird sichergestellt, dass Skype for Business Server weiß, wo der AutoErmittlungsdienst zu finden ist. Um die OAuth-Konfigurationseinstellungen in Skype for Business Server zu ändern, führen Sie den folgenden Befehl in der Skype for Business Server Verwaltungsshell aus. Achten Sie beim Ausführen dieses Befehls darauf, dass Sie den URI für den autoErmittlungsdienst angeben, der auf Ihrem Exchange Server ausgeführt wird, und dass Sie **autodiscover.svc** verwenden, um auf den Dienstspeicherort anstatt **aufautodiscover.xml** (die auf die vom Dienst verwendete XML-Datei verweist) zu verweisen:
+Nachdem der AutoErmittlungsdienst konfiguriert wurde, müssen Sie die Skype for Business Server OAuth-Konfigurationseinstellungen ändern. dadurch wird sichergestellt, dass Skype for Business Server weiß, wo der AutoErmittlungsdienst zu finden ist. Um die OAuth-Konfigurationseinstellungen in Skype for Business Server zu ändern, führen Sie den folgenden Befehl in der Skype for Business Server Verwaltungsshell aus. Achten Sie beim Ausführen dieses Befehls darauf, dass Sie den URI für den autoErmittlungsdienst angeben, der auf Ihrem Exchange Server ausgeführt wird, und dass Sie **autodiscover.svc** verwenden, um auf den Dienstspeicherort zu verweisen, anstatt **aufautodiscover.xml** (die auf die vom Dienst verwendete XML-Datei verweist):
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -104,12 +104,12 @@ In der folgenden Tabelle sind die Features aufgeführt, die unter verschiedenen 
 |Chat/Anwesenheit in mobilen Clients  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Teilnehmen an Onlinebesprechungen in mobilen Clients  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Veröffentlichungsstatus basierend auf Outlook Frei/Gebucht-Kalenderinformationen  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Kontaktliste (über einheitliche Kontakt-Store)  <br/> |J (benötigt Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
-|Kontaktfoto mit hoher Auflösung (erfordert mindestens Lync 2013- oder Skype for Business-Clients. Nicht unterstützt für LWA, mobile Apps, Lync 2010, Lync für Mac und andere ältere Clients.)  <br/> |J (benötigt Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |v  <br/> |v  <br/> |
+|Kontaktliste (über unified Contact Store)  <br/> |J (erforderlich Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
+|Kontaktfoto mit hoher Auflösung (erfordert mindestens Lync 2013- oder Skype for Business-Clients. Nicht unterstützt für LWA, mobile Apps, Lync 2010, Lync für Mac und andere ältere Clients.)  <br/> |J (erforderlich Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |v  <br/> |v  <br/> |
 |Besprechungsdelegierung  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Der Verlauf von verpassten Unterhaltungen und Anrufprotokolle werden in das Exchange-Postfach des Benutzers geschrieben.  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Archivierung von Inhalten (Chat und Besprechung) in Exchange  <br/> |J (benötigt Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
-|Durchsuchen archivierter Inhalte  <br/> |J (benötigt Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
+|Archivierung von Inhalten (Chat und Besprechung) in Exchange  <br/> |J (erforderlich Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
+|Durchsuchen archivierter Inhalte  <br/> |J (erforderlich Exchange 2016/2013)  <br/> |J  <br/> |N  <br/> |N  <br/> |J  <br/> |
 |Exchange UM-Voicemail  <br/> |v  <br/> |J  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Serverseitiger Unterhaltungsverlauf  <br/> |v  <br/> |J  <br/> |N  <br/> |v  <br/> |v  <br/> |
 

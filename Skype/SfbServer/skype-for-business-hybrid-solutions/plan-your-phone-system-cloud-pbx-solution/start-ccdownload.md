@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
-description: Das Cmdlet Start-CcDownload lädt die Skype for Business Cloud Connector Edition Bits und die MSI-Datei synchron herunter.
-ms.openlocfilehash: 0447c75ac3e6df79a20d2c87b664bfb92cf7124fc7253c839a88fad1b335eaec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Das cmdlet Start-CcDownload lädt die Skype for Business Cloud Connector Edition Bits und die MSI-Datei synchron herunter.
+ms.openlocfilehash: 0d5974bb4d4fb5bc16f467410865fb571073246e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351914"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631569"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
-Das Cmdlet Start-CcDownload lädt die Skype for Business Cloud Connector Edition Bits und die MSI-Datei synchron herunter.
+Das cmdlet Start-CcDownload lädt die Skype for Business Cloud Connector Edition Bits und die MSI-Datei synchron herunter.
   
 Mit Cloud Connector, Version 2.0 und höher, können Sie auch den DownloadBitsOnly-Parameter angeben.
   

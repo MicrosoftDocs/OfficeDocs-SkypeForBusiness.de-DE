@@ -8,8 +8,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Hier erfahren Sie, wie Sie die App Teams für Surface Hub installieren und konfigurieren, sodass Teams standardmäßig die Anwendung für Anrufe und Besprechungen ist.
-localization_priority: Normal
+description: Erfahren Sie, wie Sie die App Teams für Surface Hub installieren und konfigurieren, sodass Teams die Standardanwendung für Anrufe und Besprechungen ist.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a4e1786064f0f87d153d3167c9d2eceed3126f9df97e5e6deb77e55c6b1691e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b3856dd7cd88626236e370b633663c1e3182bba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292922"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586477"
 ---
 # <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft Teams für Surface Hub
 

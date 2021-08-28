@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PstnGatewaysScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: 'Im Knoten PSTN-Gateways werden die PSTN-Gateways (Public Switched Telephone Network) der Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 1db59e5bcd542f20ee58b8f14cc0bb61439519bdf78f8e4fa0f6516ac88e8afb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: abc05673440d3112683e2880780d987d3eac944c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609392"
 ---
-# <a name="pstn-gateways-scope-node"></a>PSTN-Gateways – Bereichsknoten
+# <a name="pstn-gateways-scope-node"></a>PSTN-Gateways – Bereichsknoten
  
 Im Knoten **PSTN-Gateways** werden die PSTN-Gateways (Public Switched Telephone Network) der Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:
   

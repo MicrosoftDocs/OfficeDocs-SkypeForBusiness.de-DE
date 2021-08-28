@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MachineSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 137135025fd52a94b09c752445dc2cb0c41a341ef4dd2ca4afb25f87cde3f982
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fdf5aaec2c0a6ebf8fd5cd7051ae9c62e1860815
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298495"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609602"
 ---
-# <a name="server-settings-expander"></a>Servereinstellungen – Erweiterung
+# <a name="server-settings-expander"></a>Servereinstellungen – Erweiterung
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:
   

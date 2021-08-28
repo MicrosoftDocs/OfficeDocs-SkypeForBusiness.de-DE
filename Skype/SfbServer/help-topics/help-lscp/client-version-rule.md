@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Eine Clientversionsrichtlinie besteht aus einer Gruppe von Clientversionsregeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten.
-ms.openlocfilehash: dd35979ce67f33f053e89ea941f5e911733d6f16efa2b6b6a2a10c49d2e63884
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f952c1a1c04e98a2635876d3746e828a086daf9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609542"
 ---
 # <a name="client-version-rule"></a>Clientversionsregel
 
@@ -42,16 +42,16 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 |**Clientname**|**Benutzer-Agent**|
 |:-----|:-----|
-|Lync 2013, Lync 2010, Office Communicator  <br/> |Oc  <br/> |
-|Lync Web App, Communicator Web Access  <br/> |Cwa  <br/> |
+|Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
+|Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
 |Lync Telefon Edition, Office Communicator Telefon  <br/> |OCPhone  <br/> |
-|Communicator Phone Edition-Plattform  <br/> |Cpe  <br/> |
+|Communicator Phone Edition-Plattform  <br/> |CPE  <br/> |
 |Unified Communications-Plattform  <br/> |UCCP  <br/> |
-|Lync 2010 Attendee  <br/> |Aoc  <br/> |
+|Lync 2010 Attendee  <br/> |AOC  <br/> |
 |Live Meeting-Add-In  <br/> |LiveMeetingAddins  <br/> |
-|Office Live Meeting  <br/> |Lmc  <br/> |
+|Office Live Meeting  <br/> |LMC  <br/> |
 |Windows Messenger  <br/> |WM  <br/> |
-|Client für Real-Time Communications  <br/> |Rtc  <br/> |
+|Client für Real-Time Communications  <br/> |RTC  <br/> |
 |Lync 2010 für iPad  <br/> |iPadLync  <br/> |
 |Lync 2010 für iPhone  <br/> |iPhoneLync  <br/> |
 |Lync 2010 für Windows Phone  <br/> |WPLync  <br/> |

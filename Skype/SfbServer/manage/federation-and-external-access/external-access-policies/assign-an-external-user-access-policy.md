@@ -13,22 +13,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie SIP-Partnerverbund, Remotebenutzerzugriff und Chatkonnektivität in der Skype for Business Server Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden.
-ms.openlocfilehash: 32c97e38da6887e5caf078394e784f835458911a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+description: Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie SIP-Partnerverbund, Remotebenutzerzugriff und Verbindungen mit öffentlichen Chatnachrichten in der Skype for Business Server Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden.
+ms.openlocfilehash: 4a5f6bfe13c27360c535957cefcfd4093b6a1bad
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587019"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer zu einem Skype for Business aktivierten Benutzer
 
-Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie SIP-Partnerverbund, Remotebenutzerzugriff und Chatkonnektivität in der Skype for Business Server Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden. Wenn Sie beispielsweise eine Richtlinie zur Unterstützung des Remotebenutzerzugriffs erstellt haben, müssen Sie sie auf den Benutzer anwenden, bevor der Benutzer von einem Remotestandort aus eine Verbindung mit Skype for Business Server herstellen und mit internen Benutzern vom Remotestandort aus zusammenarbeiten kann.
+Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie SIP-Partnerverbund, Remotebenutzerzugriff und Verbindungen mit öffentlichen Chatnachrichten in der Skype for Business Server Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden. Wenn Sie beispielsweise eine Richtlinie zur Unterstützung des Remotebenutzerzugriffs erstellt haben, müssen Sie sie auf den Benutzer anwenden, bevor der Benutzer von einem Remotestandort aus eine Verbindung mit Skype for Business Server herstellen und mit internen Benutzern vom Remotestandort aus zusammenarbeiten kann.
 
 
 > [!NOTE]  
-> Um den Zugriff durch externe Benutzer zu unterstützen, müssen Sie die Unterstützung für jeden Typ des externen Benutzerzugriffs aktivieren, der unterstützt werden soll, sowie die entsprechenden Richtlinien und andere Optionen zur Verwendungssteuerung konfigurieren. Ausführliche Informationen finden Sie unter [Verwalten des Partnerverbunds und des externen Zugriffs auf Skype for Business Server.](../managing-federation-and-external-access.md)
+> Um den Zugriff durch externe Benutzer zu unterstützen, müssen Sie die Unterstützung für jeden Typ des externen Benutzerzugriffs aktivieren, der unterstützt werden soll, sowie die entsprechenden Richtlinien und andere Optionen zur Verwendungssteuerung konfigurieren. Ausführliche Informationen finden Sie unter [Verwalten des Partnerverbunds und des externen Zugriffs auf Skype for Business Server](../managing-federation-and-external-access.md).
 
 
 Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie für den externen Benutzerzugriff auf ein oder mehrere Benutzerkonten anzuwenden.
@@ -44,15 +44,15 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie 
 
 4.  Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
 
-5.  Wählen Sie unter **"Skype for Business Server Benutzer** bearbeiten" unter **"Richtlinie für den externen Zugriff"** die Benutzerrichtlinie aus, die Sie anwenden möchten.
+5.  Wählen Sie unter **"Bearbeiten Skype for Business Server Benutzer"** unter **"Richtlinie für den externen Zugriff"** die Benutzerrichtlinie aus, die Sie anwenden möchten.
      
 > [!NOTE]  
 > Die **\<Automatic>** Einstellungen gelten für den Standardserver oder die globalen Richtlinieneinstellungen.
 
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Zuweisen von Per-User Richtlinien für den externen Zugriff mithilfe Windows PowerShell Cmdlets
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Zuweisen Per-User Richtlinien für den externen Zugriff mithilfe von Windows PowerShell Cmdlets
 
-Richtlinien für den externen Zugriff pro Benutzer können mithilfe von Windows PowerShell und dem Cmdlet Grant-CsExternalAccessPolicy zugewiesen werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Richtlinien für den externen Zugriff pro Benutzer können mithilfe von Windows PowerShell und dem Cmdlet Grant-CsExternalAccessPolicy zugewiesen werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Benutzerrichtlinie für den externen Zugriff zu
 

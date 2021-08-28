@@ -1,5 +1,5 @@
 ---
-title: Topologie-Generator – Startdialogfeld
+title: Topologie-Generator – Startdialogfeld
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Microsoft Lync Server 2013-Bereitstellung zu konfigurieren. Beim Start zeigt der Topologie-Generator ein Dialogfeld an, in dem die Quelle des Topologiedokuments gefragt wird. Sie wählen eine von drei Optionen aus:'
-ms.openlocfilehash: 41f8b5520e548793d6be34f49aea6ecaaf65fe31ed8ba2d0b65e73248e7e6224
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a856bec579ddbc551a4bf11e83fa754bc29adda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276880"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587237"
 ---
-# <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
+# <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
 
 Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Microsoft Lync Server 2013-Bereitstellung zu konfigurieren. Beim Start zeigt der Topologie-Generator ein Dialogfeld an, in dem die Quelle des Topologiedokuments gefragt wird. Sie wählen eine von drei Optionen aus:
 
@@ -32,7 +32,7 @@ Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration 
 
 - **Neue Topologie** Wählen Sie diese Option aus, um mit der Konfiguration eines neuen Topologiedokuments zu beginnen. Mit dieser Option wird ein neues Topologiedokument geöffnet, das Sie konfigurieren, um die Anforderungen für die zu konfigurierende Bereitstellung zu erfüllen.
 
-![Topologie-Generator – Startdialogfeld](../../media/Topology_Builder_Startup_Dialog.jpg)
+![Topologie-Generator – Startdialogfeld](../../media/Topology_Builder_Startup_Dialog.jpg)
 
 ## <a name="see-also"></a>Siehe auch
 

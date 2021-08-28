@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: Erfahren Sie, welche Erfahrungen Benutzer haben, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder zurückfällt.
-ms.openlocfilehash: f17e589175c0d91db074f7ff1a1808a32d65410a5c5d7639fa2bcb284ed67680
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, welche Benutzer bei einem Failover eines Front-End-Pools während der Notfallwiederherstellung in Skype for Business Server auftreten.
+ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609232"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit bei Poolfehlern in Skype for Business Server
  
-Erfahren Sie, welche Erfahrungen Benutzer haben, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder zurückfällt.
+Erfahren Sie, welche Benutzer bei einem Failover eines Front-End-Pools während der Notfallwiederherstellung in Skype for Business Server auftreten.
   
 Wenn ein Pool fehlgeschlagen ist, werden alle Benutzer im betroffenen Pool gezwungen, sich ab- und dann beim Sicherungspool anzumelden. Für einen kurzen Zeitraum befinden sich die Benutzer, die sich am Sicherungspool anmelden, möglicherweise im Ausfallsicherheitsmodus. Im Ausfallsicherheitsmodus können Benutzer keine Aufgaben ausführen, die eine dauerhafte Änderung an Skype for Business Server verursachen würden, z. B. das Hinzufügen eines Kontakts. Nachdem das Failover abgeschlossen wurde, können alle Benutzer alle Dienste vom Sicherungspool beziehen.
   
@@ -34,7 +34,7 @@ Beachten Sie, dass die Location Information Server-Datenbank nicht in den Sicher
   
 ## <a name="user-experience-during-failover"></a>Benutzerfreundlichkeit während des Failovers
 
-Wenn sich ein Benutzer in einem Pool befindet, der fehlschlägt, wird der Benutzer abgemeldet. Jede Peer-to-Peer-Sitzung, an der der Benutzer teilgenommen hat, wird beendet, ebenso wie die von diesem Benutzer organisierten Konferenzen. Der Benutzer kann sich nicht wieder anmelden, bis entweder der Registrierungsausfallsicherheits-Zeitgeber abläuft oder der Administrator Failoverprozeduren initiiert, was auch immer zuerst eintritt. Wenn sich Benutzer wieder anmelden, werden sie im Sicherungspool angemeldet. Wenn sie sich vor Abschluss des Failovers anmelden, befinden sie sich im Ausfallsicherheitsmodus, bis das Failover abgeschlossen ist. Nur dann kann ein Benutzer neue Sitzungen einrichten oder vorherige Sitzungen erneut einrichten.
+Wenn sich ein Benutzer in einem Pool befindet, der fehlschlägt, wird der Benutzer abgemeldet. Jede Peer-to-Peer-Sitzung, an der der Benutzer teilgenommen hat, wird beendet, ebenso wie von diesem Benutzer organisierte Konferenzen. Der Benutzer kann sich nicht wieder anmelden, bis entweder der Registrierungsausfallsicherheits-Zeitgeber abläuft oder der Administrator Failoverprozeduren initiiert, was auch immer zuerst eintritt. Wenn sich Benutzer wieder anmelden, werden sie im Sicherungspool angemeldet. Wenn sie sich vor Abschluss des Failovers anmelden, befinden sie sich im Ausfallsicherheitsmodus, bis das Failover abgeschlossen ist. Nur dann kann ein Benutzer neue Sitzungen einrichten oder vorherige Sitzungen erneut einrichten.
   
 ## <a name="user-experience-during-failback"></a>Benutzererfahrung während des Failbacks
 

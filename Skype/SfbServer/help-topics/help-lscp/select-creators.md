@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Das Erstellen und Verwalten von Chatrooms für beständige Chatrooms ist mit der richtigen Verwendung von Kategorien viel einfacher. Ein Administrator für beständigen Chat kann "AllowedMembers" und "Creators" für jede Kategorie definieren und auch die Standardeinstellungen und Verhaltensweisen für Chatrooms definieren, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Administratoren für beständigen Chat erstellen und verwalten Kategorien mithilfe Skype for Business Server Systemsteuerung oder Windows PowerShell Cmdlets.
-ms.openlocfilehash: bc00bada9bdecb35d708ee93ad5536a6758e4eda10ca3ccc671d386a8e8bcdf8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 742ec61eca055e9bf6c8d0578023da2b6553cb84
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609402"
 ---
 # <a name="select-creators"></a>Auswählen von Erstellern
 

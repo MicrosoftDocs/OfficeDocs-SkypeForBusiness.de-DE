@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Systemsteuerung oder Verwaltungsshell verwenden, um Einwahlkonferenzen in Skype for Business Server zu aktivieren oder zu deaktivieren.'
-ms.openlocfilehash: 335252904ea015046e9caf5689fe31e4b0a9b8c3569b6c7d233fb8c4e74857ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ebdc13d94a840b3eaceb37332a6775e5d725bb9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297291"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609282"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren von Einwahlkonferenzen in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie mithilfe der Systemsteuerung oder Verwaltungsshell Einwahlkonferenzen in Skype for Business Server aktivieren oder deaktivieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie die Systemsteuerung oder Die Verwaltungsshell verwenden, um Einwahlkonferenzen in Skype for Business Server zu aktivieren oder zu deaktivieren.
   
-Sie können Einwahlkonferenzen über Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell aktivieren.
+Sie können Einwahlkonferenzen mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell aktivieren.
   
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Aktivieren oder Deaktivieren von Einwahlkonferenzen mithilfe Skype for Business Server Systemsteuerung
 

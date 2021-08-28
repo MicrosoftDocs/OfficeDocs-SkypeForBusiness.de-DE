@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Hier erfahren Sie die Schritte zum Zurücksetzen der Konferenz-ID eines Benutzers in Skype for Business Online sowie Links zu Tools für Besprechungsaktualisierungen und -migration. '
-ms.openlocfilehash: 57523cfc0186120c42fffe01961cd71f623bfa964ecf0c8251a26e518a31abd4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie die Schritte zum Zurücksetzen der Konferenz-ID eines Benutzers in Skype for Business Online sowie Links zu Tools für Besprechungsaktualisierungen und -migration. '
+ms.openlocfilehash: b2f816cf423a25016a67176d6b1479f585ee14e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310264"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586133"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Zurücksetzen einer Konferenz-ID für einen Benutzer in Skype for Business Online
 
@@ -47,7 +47,7 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
 2. Klicken Sie **im Fenster Konferenz-ID zurücksetzen?** auf **Ja.** Es wird automatisch eine Konferenz-ID erstellt und eine E-Mail mit der neuen Konferenz-ID an den Benutzer gesendet. Standardmäßig werden E-Mails an Benutzer gesendet, dies kann jedoch deaktiviert werden.
     
 > [!NOTE]
-> Nachdem Sie die Konferenz-ID zurückgesetzt haben, wird dem Benutzer eine E-Mail mit der neuen Konferenz-ID gesendet. Diese E-Mail wird an die primäre E-Mail-Adresse gesendet, in vielen Fällen an deren Microsoft 365 oder Office 365 Postfach. Die E-Mail enthält die neue Konferenz-ID, die Standardeinwahlnummer(n) und Anweisungen zur Verwendung des Skype for Business Meeting Update Tool zum Aktualisieren vorhandener Besprechungen. 
+> Nachdem Sie die Konferenz-ID zurückgesetzt haben, wird dem Benutzer eine E-Mail mit der neuen Konferenz-ID gesendet. Diese E-Mail wird an die primäre E-Mail-Adresse gesendet, in vielen Fällen an deren Microsoft 365 oder Office 365 Postfach. Die E-Mail enthält die neue Konferenz-ID, die Standardeinwahlnummer(n) und Anweisungen zum Aktualisieren vorhandener Besprechungen mit dem Skype for Business Meeting Update Tool. 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -56,7 +56,7 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
 
 - Sie können dem Benutzer alle Konferenzinformationen per E-Mail senden, die konferenz-ID und Einwahltelefonnummern enthält, indem Sie im Aktionsbereich auf Konferenzinformationen per E-Mail senden klicken.  Die PIN wird nicht gesendet.
     
-- Eine Konferenz-ID enthält sieben Ziffern, und Sie können die Länge nicht im Skype for Business Admin Center oder mithilfe der Windows PowerShell.
+- Eine Konferenz-ID enthält sieben Ziffern, und Sie können die Länge nicht im Skype for Business Admin Center oder mithilfe von Windows PowerShell.
     
 - Nach dem Zurücksetzen wird die neue Konferenz-ID unter **Konferenz-ID** aufgeführt.
     
@@ -72,7 +72,7 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Wenn es um Windows PowerShell geht, geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen oder nicht. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Wenn es um Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen oder was nicht. Mit Windows PowerShell können Sie Microsoft 365, Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

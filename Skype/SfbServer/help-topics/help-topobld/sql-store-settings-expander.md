@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Um die Eigenschaften einer SQL Server Datenbank zu bearbeiten, müssen Sie die SQL Server Datenbankinstanz ändern. Sie können das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um Aufgaben auszuführen, z. B. das Verschieben der Archivierungsserverdatenbank von einem Computer auf einen anderen. Darüber hinaus können Sie das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.
-ms.openlocfilehash: bb89251ac2f29ee15aa10caadf942a9d0896156aedf39394a763b44d6ce9e8d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83bf11af40e8c51693b2b1768f1d71c9bc2f37f9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609372"
 ---
-# <a name="sql-store-settings-expander"></a>SQL-Speichereinstellungen – Erweiterung
+# <a name="sql-store-settings-expander"></a>SQL-Speichereinstellungen – Erweiterung
  
 Um die Eigenschaften einer SQL Server Datenbank zu bearbeiten, müssen Sie die SQL Server Datenbankinstanz ändern. Sie können das Dialogfeld **Eigenschaften bearbeiten** nicht verwenden, um Aufgaben auszuführen, z. B. das Verschieben der Archivierungsserverdatenbank von einem Computer auf einen anderen. Darüber hinaus können Sie das Dialogfeld **Eigenschaften bearbeiten** nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.
   
-## <a name="editing-the-properties-of-a-sql-server-database"></a>Bearbeiten der Eigenschaften einer SQL Server Datenbank
+## <a name="editing-the-properties-of-a-sql-server-database"></a>Bearbeiten der Eigenschaften einer SQL Server-Datenbank
 
 Führen Sie das folgende Verfahren im Topologie-Generator aus, um die Instanz von SQL Server zu ändern, die von einer anderen Datenbank als dem zentralen Verwaltungsspeicher verwendet wird:
   

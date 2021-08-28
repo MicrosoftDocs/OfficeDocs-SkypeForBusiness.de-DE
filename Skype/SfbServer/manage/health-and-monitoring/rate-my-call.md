@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Zusammenfassung: Erfahren Sie mehr über die Funktion "Meinen Anruf bewerten" in Skype for Business Server.'
-ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d084e80c94928fc11af099dbef5ad6cca6537b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586979"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Meinen Anruf in Skype for Business Server bewerten
 
@@ -35,7 +35,7 @@ Bevor die Benutzer in Ihrer Skype for Business Server Bereitstellung auf die Fun
 
 -  Sie müssen Skype for Business Server installiert haben (Version 9160 oder höher).
 
-- Lassen Sie Ihre Benutzer die neueste Version von Skype for Business installieren und aktualisieren und bitten Sie sie auch, die Skype for Business Benutzeroberfläche zu verwenden.
+- Lassen Sie Ihre Benutzer die neueste Version von Skype for Business installieren und aktualisieren und bitten Sie sie auch, die Skype for Business Ui zu verwenden.
 
 - Benutzer müssen im Skype for Business Server Front-End-Pool verwaltet werden.
 
@@ -51,7 +51,7 @@ Die Funktion "Meinen Anruf bewerten" ist in der Clientrichtlinie mit den folgend
 
 - "Meinen Anruf bewerten" benutzerdefiniertes Benutzerfeedback zulassen – deaktiviert
 
-Es ist keine Aktion erforderlich, um das Basisfeature zu aktivieren, aber wenn Sie benutzerdefiniertes Feedback wünschen, müssen Sie es separat aktivieren. Das folgende Windows PowerShell Cmdlet ist ein Beispiel für das Aktivieren von benutzerdefiniertem Endbenutzerfeedback und das Ändern des Intervalls von 10 % auf 80 %.
+Es ist keine Aktion erforderlich, um das Basisfeature zu aktivieren, aber wenn Sie benutzerdefiniertes Feedback wünschen, müssen Sie es separat aktivieren. Die folgende Windows PowerShell Cmdlet ist ein Beispiel für das Aktivieren von benutzerdefiniertem Endbenutzerfeedback und das Ändern des Intervalls von 10 % auf 80 %.
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
@@ -69,9 +69,9 @@ Tokendefinitionen sind wie folgt codiert:
 
 |||
 |:-----|:-----|
-|1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
-|3  <br/> | BackgroundNoise <br/> |
+|1   <br/> |DistortedSpeech  <br/> |
+|2   <br/> | ElectronicFeedback <br/> |
+|3   <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |Echo  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Aktualisieren von Tokendefinitionen
 
-Die neuesten Skype for Business-Clients melden neue Problemtoken-IDs ( \> 100), die möglicherweise nicht in Ihrer [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Tokendefinitionen zu aktualisieren, kann der folgende SQL Befehl mit Microsoft SQL Server Management Studio auf der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge in [QoeMetrics] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
+Die neuesten Skype for Business-Clients melden neue Problemtoken-IDs ( \> 100), die möglicherweise nicht in [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Tokendefinitionen zu aktualisieren, kann der folgende SQL Befehl mithilfe Microsoft SQL Server Management Studio in der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge in [QoeMetrics] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

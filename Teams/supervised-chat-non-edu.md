@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Informieren Sie sich über überwachte Chats für Mandanten ohne Bildungseinrichtung in Microsoft Teams Besprechungen.
-ms.openlocfilehash: 7876267b7c107c0be3fa920d4807408342e36a9944eca13a6ced70d5eb7210ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7e0ad99f50e8d0089aa6edf122458f429792aba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586497"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Überwachen von Chats für Mandanten ohne Bildungseinrichtung
 
@@ -48,19 +48,19 @@ Damit der überwachte Chat wie erwartet funktioniert, muss jedem Benutzer in Ihr
 
 - Eingeschränkte Berechtigungen: Diese Rolle eignet sich ideal für Benutzer, die überwacht werden müssen. Sie können nur Chats mit Benutzern starten, die über vollständige Berechtigungen verfügen. Sie können an jeder Unterhaltung teilnehmen, zu der ein Benutzer mit vollständigen Berechtigungen eingeladen wird. In Partnerchat-Fällen können eingeschränkte Benutzer nur von benutzern mit vollständigen Berechtigungen zu Chats hinzugefügt werden, die vom Mandanten des eingeschränkten Benutzers kommen.
 
-Zum Festlegen der Chat-Berechtigungsrolle Ihrer Benutzer verwenden Sie die **Berechtigungsrichtlinie** chatten, die in den Optionen für Messagingrichtlinien im Teams-Verwaltungsportal zu finden ist. Sie können PowerShell verwenden, um Rollen mithilfe der Richtlinie ChatPermissionRole mit den Werten "Full", "Limited" oder "Restricted" zu definieren. Diese Richtlinie befindet sich unter [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).
+Zum Festlegen der Chat-Berechtigungsrolle Ihrer Benutzer verwenden Sie die **Rollenrichtlinie** Chatberechtigungen, die in den Optionen für Messagingrichtlinien im Teams-Verwaltungsportal zu finden ist. Sie können PowerShell verwenden, um Rollen mithilfe der Richtlinie ChatPermissionRole mit den Werten "Full", "Limited" oder "Restricted" zu definieren. Diese Richtlinie befindet sich unter [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).
 
 Rollen können Gäste in Ihrem Mandanten nicht zugewiesen werden. Gästen wird die eingeschränkte Rolle zugewiesen.
 
 ## <a name="allow-supervised-chat"></a>Zulassen eines überwachten Chats
 
-Überwachter Chat ist für Ihren Mandanten standardmäßig deaktiviert. Nachdem Sie   >   **Chat-Berechtigungsrollen** für Ihre Benutzer festgelegt haben, können Sie den überwachten Chat innerhalb Ihres Mandanten aktivieren, indem Sie zu Organisationsweite Einstellungen Teams Einstellungen und die Richtlinie rollenbasierte Chatberechtigungen auf Ein festlegen. Sie können auch PowerShell verwenden, um den überwachten Chat zu aktivieren, indem Sie AllowRoleBasedChatPermissions auf True festlegen. Dieses Cmdlet befindet sich unter [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
+Überwachter Chat ist für Ihren Mandanten standardmäßig deaktiviert. Nachdem Sie Chat-Berechtigungsrollen für Ihre Benutzer festgelegt haben, können Sie den überwachten Chat innerhalb Ihres Mandanten aktivieren, indem Sie zu Organisationsweite Einstellungen Teams Einstellungen und die Richtlinie rollenbasierte Chatberechtigungen auf Ein  >   festlegen.   Sie können auch PowerShell verwenden, um den überwachten Chat zu aktivieren, indem Sie AllowRoleBasedChatPermissions auf True festlegen. Dieses Cmdlet befindet sich unter [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps).
 
 Überwachter Chat muss für alle Benutzer im Mandanten aktiviert sein und kann nicht nur für einen Teil Ihrer Benutzer aktiviert werden.
 
 **Aktivieren des Chats**
 
-Aktivieren Sie chatten für alle Ihre Benutzer, indem Sie die vorhandene Chatrichtlinie verwenden, die Teams Admin Center verfügbar ist.
+Aktivieren Sie chatten für alle Ihre Benutzer, indem Sie die vorhandene Chatrichtlinie verwenden, die im Teams Admin Center verfügbar ist.
 
 **Beibehalten überwachter Chats**
 
@@ -68,4 +68,4 @@ Nachdem der überwachte Chat aktiviert wurde, müssen Sie einige Schritte untern
 
 - Weisen Sie allen neuen Benutzern, die Ihrem Mandanten beitreten, die entsprechenden Rollen zu. Standardmäßig wird Benutzern eine eingeschränkte Rolle zugewiesen.
 
-- Wenn ein Benutzer mit vollständigen Berechtigungen einen Mandanten verlässt oder aus ihm entfernt wird, bleiben die von ihm überwachten Chats unbeaufsichtigt. Stellen Sie vor dem Entfernen des ursprünglichen Benutzers sicher, dass diesen Unterhaltungen ein anderer Benutzer mit vollständigen Berechtigungen hinzugefügt wird, damit der Chat überwacht bleiben kann. Nachdem der ursprüngliche Vorgesetzte entfernt wurde, können neue Teilnehmer der Unterhaltung nicht mehr hinzugefügt werden, aktuelle Teilnehmer können jedoch weiterhin kommunizieren.
+- Wenn ein Benutzer mit vollständigen Berechtigungen einen Mandanten verlässt oder aus ihm entfernt wird, bleiben die von ihm überwachten Chats unbeaufsichtigt. Bevor Sie den ursprünglichen Benutzer entfernen, stellen Sie sicher, dass diesen Unterhaltungen ein anderer Benutzer mit vollständigen Berechtigungen hinzugefügt wird, damit der Chat überwacht bleiben kann. Nachdem der ursprüngliche Vorgesetzte entfernt wurde, können neue Teilnehmer der Unterhaltung nicht mehr hinzugefügt werden, aktuelle Teilnehmer können jedoch weiterhin kommunizieren.
