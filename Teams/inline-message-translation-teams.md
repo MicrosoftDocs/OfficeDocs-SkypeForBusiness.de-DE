@@ -10,9 +10,9 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: salilda
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie die Inlineübersetzung in ihrem Microsoft Teams über Microsoft Teams Admin Center oder PowerShell aktivieren.
+description: Erfahren Sie, wie Sie die Inlineübersetzung in Microsoft Teams Admin Center oder PowerShell Microsoft Teams aktivieren.
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfaa03ff8fa8654fca48fbd2bd31d8d6518e2de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593079"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>Deaktivieren der Inlinenachrichtenübersetzung in Microsoft Teams
 
-Die Übersetzung von Inlinenachrichten ist ein Microsoft Teams-Feature, mit [](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) dem Benutzer Nachrichten Teams in die von ihren persönlichen Spracheinstellungen angegebene Sprache übersetzen können.
+Die Übersetzung von Inlinenachrichten ist ein Microsoft Teams-Feature, mit dem [](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) Benutzer Nachrichten Teams in die von ihren persönlichen Spracheinstellungen angegebene Sprache übersetzen können.
 
-Die Übersetzung von Inlinenachrichten wird standardmäßig für Ihre Organisation ausgeführt. Sie müssen keine Änderungen vornehmen, wenn Sie zulassen möchten, dass Benutzer dieses Feature im Client Teams können.
+Die Übersetzung von Inlinenachrichten wird standardmäßig für Ihre Organisation ausgeführt. Sie müssen keine Änderungen vornehmen, wenn Sie es Benutzern gestatten möchten, dieses Feature innerhalb des Teams verwenden.
 
 > [!NOTE]
 >Dieses Rollout ist von Office 365 Abonnements in unseren Umgebungen Office 365 Government Community Cloud und Office 365 Deutschland ausgeschlossen.

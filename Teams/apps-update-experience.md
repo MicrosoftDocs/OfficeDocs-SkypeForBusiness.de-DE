@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 156bafa45fe51884d6697bb4121143fad98fc7cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593169"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Aktualisieren von Apps in Microsoft Teams
 
-In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Updates des Manifests Microsoft Teams, <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">die</a> die Benutzerakzeptanz erfordern, um abgeschlossen zu werden:
+In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Aktualisierungen des Manifests Microsoft Teams, <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">die</a> die Benutzerakzeptanz erfordern, um abgeschlossen zu werden:
 
 * Ein Bot wurde hinzugefügt oder entfernt
 * Die "botId"-Eigenschaft eines vorhandenen Bots wurde geändert

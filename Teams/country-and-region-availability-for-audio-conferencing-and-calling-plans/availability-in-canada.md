@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kanada.
-ms.openlocfilehash: b1b28b9caa3479de81d64639a0d638e3d5eada59967e1328f806b55993363472
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Kanada verfügbare Dienste.
+ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593139"
 ---
 # <a name="availability-in-canada"></a>Verfügbarkeit in Kanada
 
 [Suchen Sie andere Länder oder Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder lesen Sie mehr über die Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kanada.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Kanada verfügbare Dienste.
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

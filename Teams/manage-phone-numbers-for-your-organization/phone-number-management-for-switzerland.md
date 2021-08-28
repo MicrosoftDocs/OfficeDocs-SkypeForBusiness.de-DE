@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der Schweiz für Microsoft Teams.
-ms.openlocfilehash: 65c9b6d1464a802a20653f806cfd08607aabdd6e
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 104f4b061dcbb4e71d1989fd4e89fd828f4b573d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592999"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Telefon der Nummerverwaltung für die Schweiz
 

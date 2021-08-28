@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: In der Sitzungsansicht werden Informationen über die Sitzungen gespeichert, die über einen Datensatz in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 9f8fc3b22677da6794aeaaecdd180ade454fc36fbf9659c5f8196880c42c907b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e39f6c744280e96a6f0fd33c28125196f90ed7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593349"
 ---
 # <a name="session-view"></a>Sitzungsansicht
  
@@ -29,9 +29,9 @@ In der Sitzungsansicht werden Informationen über die Sitzungen gespeichert, die
 |ConferenceDateTime  <br/> |Datum/Uhrzeit  <br/> |Verweis von der MediaLine-Tabelle.  <br/> |
 |ConferenceURI  <br/> |nvarchar(450)  <br/> |Konferenz-URI bei einer Konferenz, DialogID bei einer Peer-zu-Peer-Sitzung.  <br/> |
 |Correlation  <br/> |varchar(max)  <br/> |Korrelations-ID der Sitzung.  <br/> |
-|DialogCategory  <br/> |Bit  <br/> |Dialogkategorie; 0 ist Skype for Business Server für den Vermittlungsserver. 1 ist Vermittlungsserver zu PSTN-Gateway.  <br/> |
+|DialogCategory  <br/> |Bit  <br/> |Dialogkategorie; 0 ist Skype for Business Server vermittlungsserver leg; 1 ist Vermittlungsserver zu PSTN-Gateway.  <br/> |
 |MediationServerBypassFlag  <br/> |Bit  <br/> |Gibt an, ob der Anruf umgangen wurde.  <br/> |
-|MediaBypassWarningFlag  <br/> |Ganzzahl  <br/> |Dieses Feld gibt gegebenenfalls an, warum ein Anruf nicht umgangen wurde, auch wenn die Umgehungs-IDs übereinstimmen. Für Skype for Business Server wird nur ein Wert definiert:  <br/> 0x0001 – Unbekannte Umgehungs-ID für Standardnetzwerkadapter  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |Dieses Feld gibt gegebenenfalls an, warum ein Anruf nicht umgangen wurde, auch wenn die Umgehungs-IDs übereinstimmen. Für Skype for Business Server wird nur ein Wert definiert:  <br/> 0x0001 – Unbekannte Umgehungs-ID für Standardnetzwerkadapter  <br/> |
 |StartTime  <br/> |Datum/Uhrzeit  <br/> |Die Startzeit des Anrufs.  <br/> |
 |EndTime  <br/> |Datum/Uhrzeit  <br/> |Die Endzeit des Anrufs.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN des Anruferpools.  <br/> |
@@ -48,6 +48,6 @@ In der Sitzungsansicht werden Informationen über die Sitzungen gespeichert, die
 |CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |Benutzeragentkategorie des Angerufenen. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE).](useragentdef-qoe.md) <br/> |
 |CallerURI  <br/> |nvarchar(450)  <br/> |Der URI des Aufrufers.  <br/> |
 |CalleeURI  <br/> |nvarchar(450)  <br/> |Der URI des Angerufenen.  <br/> |
-|CallPrioirty  <br/> |Ganzzahl  <br/> |Priorität des Anrufs.  <br/> |
+|CallPrioirty  <br/> |int  <br/> |Priorität des Anrufs.  <br/> |
    
 
