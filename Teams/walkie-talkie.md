@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 description: Konfigurieren der Walkie Talkie-App in Microsoft Teams ITAdmin.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 042973f245341c0e4badd221075b81023474b6124f55eeb021bd61d32dcc4bfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342700"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602070"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Walkie-Talkie-App in Microsoft Teams
 
-Die Walkie-Talkie-App in Teams bietet sofortige Push-to-Talk-Kommunikation für Ihr Team und ist jetzt für Android verfügbar. Walkie-Talkie ermöglicht es Benutzern, eine Verbindung mit ihrem Team über die gleichen Kanäle herzustellen, deren Mitglieder sie sind. Nur Benutzer, die in einem Kanal eine Verbindung mit Walkie-Talkie herstellen, werden zu Teilnehmern und können miteinander per Push-to-Talk kommunizieren – jeweils eins nach dem anderen.
+Die Walkie-Talkie-App in Teams bietet sofortige Push-to-Talk-Kommunikation für Ihr Team und ist jetzt für Android verfügbar. Walkie-Talkie ermöglicht es Benutzern, eine Verbindung mit ihrem Team über die gleichen Kanäle herzustellen, deren Mitglieder sie sind. Nur Benutzer, die eine Verbindung mit Walkie-Talkie in einem Kanal herstellen, werden zu Teilnehmern und können miteinander per Push-to-Talk kommunizieren – jeweils eins nach dem anderen.
 
-Mit Walkie-Talkie in Teams können Frontline-Mitarbeiter jetzt sicher mit einer vertrauten PTT-Erfahrung kommunizieren, ohne sperrige Radiogeräte mit sich führen zu müssen, und Walkie-Talkie funktioniert überall mit WLAN oder Mobilfunk-Internetverbindung.
+Mit Walkie-Talkie in Teams können Frontline-Mitarbeiter jetzt mit einer vertrauten PTT-Erfahrung sicher kommunizieren, ohne sperrige Radiogeräte mit sich führen zu müssen, und Walkie-Talkie funktioniert überall mit WLAN oder mobiler Internetverbindung.
 
 ## <a name="getting-started"></a>Erste Schritte
 
@@ -39,7 +39,7 @@ Derzeit ist Walkie-Talkie für Android-Geräte mit Google Mobile Services (GMS) 
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>Hinzufügen von Walkie-Talkie zu Ihrer App-Liste
 
-Im Microsoft Teams Admin Center sollten Sie unter Teams Setuprichtlinien für Apps die Einstellung Benutzerheften  >  zulassen auf Ein **festgelegt haben.**  Klicken Sie dann im Abschnitt Angeheftet Apps auf **+Apps hinzufügen.**
+Im Microsoft Teams Admin Center sollten Sie unter Teams Setuprichtlinien für Apps die Einstellung Benutzer-Anheften  >  zulassen auf Ein **festgelegt haben.**  Klicken Sie dann im Abschnitt Angeheftet Apps auf **+Apps hinzufügen.**
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Zeigt den Abschnitt "Angeheftet Apps" und die Schaltfläche "Apps hinzufügen" an, die ausgewählt werden soll.":::
 
@@ -61,7 +61,7 @@ Walkie-Talkie in Teams erfordert Eine Internetverbindung und unter den Netzwerkb
 |Jitter |< 30 ms |
 |Paketverlust |< 1 % |
 
-Wie bereits erwähnt, hat die Qualität der Netzwerkkonnektivität großen Einfluss auf die Qualität von Echtzeitmedien über ein IP-Netzwerk, insbesondere durch die Menge der:
+Wie bereits erwähnt, wirkt sich die Qualität der Netzwerkkonnektivität stark auf die Qualität von Echtzeitmedien über ein IP-Netzwerk aus, insbesondere durch die Menge der:
 
 - **Latenz –** Dies ist die Zeit, die benötigt wird, um ein IP-Paket von Punkt A zu Punkt B im Netzwerk zu erhalten. Diese Verzögerung bei der Netzwerkverteilung ist im Wesentlichen an den physischen Abstand zwischen den beiden Punkten und die Lichtgeschwindigkeit gebunden, einschließlich des mehr Aufwands, der von den verschiedenen zwischen den Punkten hin und weg genommenen Routern genommen wird. Latenz wird als Round-Trip-Zeit (Round-Trip Time, RTT) gemessen.
 - **Jitter zwischen Ankunftszeit** – Dies ist die durchschnittliche Änderung der Verzögerung zwischen aufeinander folgenden Paketen.
@@ -80,7 +80,7 @@ Mitarbeiter in der Frontlinie müssen häufig Walkie-Talkie-Anrufe sprechen und 
     - [Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **Zerklüftete Telefone**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/), Galaxy [XCover 5,](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy) [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  Manuelles Setup – Navigieren Teams installiertem Ordner zu Einstellungen > erweiterte Features > XCover/Active-Schlüssel. Aktivieren Sie "Control XCover key with app", und wählen Sie "Teams" aus.
+    -  Manuelles Setup – Navigieren Teams Installiertem Ordner zu Einstellungen > erweiterte Features > XCover/Active Key. Aktivieren Sie "Control XCover key with app", und wählen Sie "Teams" aus.
     -  [MDM-Setup](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]

@@ -10,23 +10,23 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Richten Sie ein Ressourcenkonto für Skype for Business Server 2019 ein.
-ms.openlocfilehash: 87db9779a6f90730d6aa53e3084a2014a71bad5aba91844d2e545f7d78ae37cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 473a8cbcd77e3e0cb212481a4837f1c50801f20f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602030"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Server 2019-Hybridimplementierungen verwenden nur Clouddienste, die von Telefonsystem für Unified Messaging bereitgestellt werden, und werden nicht in Exchange Online integriert. In Skype for Business Server 2019 können Sie jetzt die Cloud-Anrufwarteschleifen und automatischen Telefonzentralen verwenden, die in den folgenden Informationen beschrieben sind, [mit Telefonsystem in Microsoft 365 oder Office 365.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+Skype for Business Server 2019-Hybridimplementierungen verwenden nur Clouddienste, die von Telefonsystem für Unified Messaging bereitgestellt werden, und sind nicht in Exchange Online integriert. In Skype for Business Server 2019 können Sie jetzt die cloudbasierten Anrufwarteschleifen und automatischen Telefonzentralen verwenden, die im Folgenden beschrieben sind, [was Sie mit Telefonsystem in Microsoft 365 oder Office 365 erhalten.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-Um eine Telefonsystem automatische Telefonzentrale oder Anrufwarteschleife mit Skype for Business Server 2019 zu verwenden, müssen Sie Ressourcenkonten erstellen, die als Anwendungsendpunkte fungieren und Telefonnummern zugewiesen werden können, und dann das Online-Teams Admin Center verwenden, um die Anrufwarteschleife oder automatische Telefonzentrale zu konfigurieren. Dieses Ressourcenkonto kann online verwaltet werden (siehe [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) zum Erstellen von online verwalteten Ressourcenkonten) oder lokal, wie in diesem Artikel beschrieben. In der Regel verfügen Sie über mehrere Telefonsystem Knoten für die automatische Telefonzentrale oder Anrufwarteschleife, die jeweils einem Ressourcenkonto zugeordnet sind, das online oder in Skype for Business Server 2019 verwaltet werden kann.
+Um eine Telefonsystem automatische Telefonzentrale oder Anrufwarteschleife mit Skype for Business Server 2019 zu verwenden, müssen Sie Ressourcenkonten erstellen, die als Anwendungsendpunkte fungieren und Telefonnummern zugewiesen werden können, und dann das Online-Teams Admin Center verwenden, um die Anrufwarteschleife oder automatische Telefonzentrale zu konfigurieren. Dieses Ressourcenkonto kann online (siehe [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) zum Erstellen von online verwalteten Ressourcenkonten) oder lokal verwaltet werden, wie in diesem Artikel beschrieben. In der Regel verfügen Sie über mehrere Telefonsystem Knoten für die automatische Telefonzentrale oder Anrufwarteschleife, die jeweils einem Ressourcenkonto zugeordnet sind, das online oder in Skype for Business Server 2019 verwaltet werden kann.
 
 Wenn Sie über eine vorhandene Exchange automatische UM-Telefonzentrale und ein Anrufwarteschleifensystem verfügen, müssen Sie vor dem Wechsel zu Exchange Server 2019 oder Exchange online die Details manuell aufzeichnen, wie unten beschrieben, und dann ein völlig neues System mithilfe des Teams Admin Centers implementieren.
 
@@ -35,7 +35,7 @@ Wenn Sie über eine vorhandene Exchange automatische UM-Telefonzentrale und ein 
 Wenn Ihre Telefonsystem automatische Telefonzentrale oder Anrufwarteschleife eine Servicenummer benötigt, können die verschiedenen Abhängigkeiten in der folgenden Reihenfolge erfüllt werden:
 
 1. Rufen Sie eine Dienstnummer ab.
-2. Erhalten Sie eine kostenlose Telefonsystem – [virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user) oder eine kostenpflichtige Telefonsystem-Lizenz, die mit dem Ressourcenkonto verwendet werden soll.
+2. Erhalten Sie eine kostenlose Telefonsystem – [virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user) oder eine kostenpflichtige Telefonsystem-Lizenz für die Verwendung mit dem Ressourcenkonto.
 3. Erstellen Sie das Ressourcenkonto. Eine automatische Telefonzentrale oder Anrufwarteschleife muss über ein zugeordnetes Ressourcenkonto verfügen.
 4. Warten Sie, bis eine Active Directory-Synchronisierung zwischen online und lokal erfolgt.
 5. Weisen Sie dem Ressourcenkonto die Telefonsystem Lizenz zu.
@@ -60,7 +60,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
 1. Porten Oder erhalten Sie eine gebührenpflichtige oder gebührenfreie Servicenummer. Die Nummer kann keinem anderen VoIP-Dienst oder Ressourcenkonto zugewiesen werden.
 
-   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Servicenummern erhalten haben, werden diese in **Microsoft Teams Admin Center**  >  **Voice** Telefon  >  **Nummern** angezeigt, und der aufgeführte **Nummerntyp** wird als **Service – gebührenfrei** aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter ["Abrufen von Diensttelefonnummern",](/MicrosoftTeams/getting-service-phone-numbers) oder wenn Sie eine vorhandene Servicenummer übertragen möchten, lesen Sie ["Übertragen von Telefonnummern zu Teams".](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
+   Bevor Sie einem Ressourcenkonto eine Telefonnummer zuweisen, müssen Sie Ihre vorhandenen gebührenpflichtigen oder gebührenfreien Servicenummern abrufen oder portieren. Nachdem Sie die gebührenpflichtigen oder gebührenfreien Servicenummern erhalten haben, werden diese in **Microsoft Teams Admin Center**  >  **Voice** Telefon  >  **Nummern** angezeigt, und der aufgeführte **Nummerntyp** wird als **Service – gebührenfrei** aufgeführt. Informationen zum Abrufen Ihrer Servicenummern finden Sie unter ["Abrufen von Servicetelefonnummern",](/MicrosoftTeams/getting-service-phone-numbers) oder wenn Sie eine vorhandene Servicenummer übertragen möchten, lesen Sie ["Übertragen von Telefonnummern zu Teams".](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)
 
    Wenn Sie sich außerhalb der VEREINIGTEn Staaten befinden, können Sie das Microsoft Teams Admin Center nicht verwenden, um Servicenummern abzurufen. Wechseln Sie stattdessen zu ["Telefonnummern für Ihre Organisation verwalten",](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) um zu sehen, wie Sie dies außerhalb der VEREINIGTEn Staaten tun können.
 
@@ -78,7 +78,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
     Weitere Informationen zu diesem Befehl finden Sie unter ["New-CsHybridApplicationEndpoint".](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
-4. (Optional) Nachdem Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der Onlinekonfiguration von Telefonsystem automatischen Telefonzentrale oder Anrufwarteschleifen fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer mit AAD Verbinden aus (wenn Sie dies noch nicht getan haben, müssten Sie `import-module adsync` laden, um den Befehl auszuführen):
+4. (Optional) Nachdem Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der Onlinekonfiguration von Telefonsystem automatischen Telefonzentrale oder Anrufwarteschleifen fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Verbinden ausgeführt wird (wenn Sie dies noch nicht getan haben, müssten Sie `import-module adsync` laden, um den Befehl auszuführen):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -137,7 +137,7 @@ Melden Sie sich beim Skype for Business Front-End-Server an, und führen Sie die
 
     Weitere Informationen zu diesem Befehl finden Sie unter ["New-CsHybridApplicationEndpoint".](/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
-2. (Optional) Nachdem Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der Onlinekonfiguration von Telefonsystem automatischen Telefonzentrale oder Anrufwarteschleifen fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer mit AAD Verbinden aus (wenn Sie dies noch nicht getan haben, müssten Sie `import-module adsync` laden, um den Befehl auszuführen):
+2. (Optional) Nachdem Ihre Ressourcenkonten erstellt wurden, können Sie entweder warten, bis AD online und lokal synchronisiert wird, oder eine Synchronisierung erzwingen und mit der Onlinekonfiguration von Telefonsystem automatischen Telefonzentrale oder Anrufwarteschleifen fortfahren. Um eine Synchronisierung zu erzwingen, führen Sie den folgenden Befehl auf dem Computer aus, auf dem AAD Verbinden ausgeführt wird (wenn Sie dies noch nicht getan haben, müssten Sie `import-module adsync` laden, um den Befehl auszuführen):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -167,7 +167,7 @@ Für die Migration von Exchange UM zu Telefonsystem müssen die Anrufwarteschlei
     Get-UMAutoAttendant | Format-List
     ```
 
-2. Notieren Sie sich für jede aufgeführte Exchange UM-Anrufwarteschleife oder automatische Telefonzentrale ihren Platz in der Struktur, den Einstellungen und rufen Sie Kopien der zugehörigen Sound- oder Text-zu-Sprache-Dateien ab (die GUID in der Ausgabe ist der Name eines Ordners, in dem die Dateien gespeichert sind). Sie können diese Details abrufen, indem Sie den folgenden Befehl ausführen:
+2. Notieren Sie sich für jedes aufgeführte Exchange UM-Anrufwarteschleife oder automatische Telefonzentrale dessen Position in der Struktur, den Einstellungen und rufen Sie Kopien der zugehörigen Sound- oder Text-zu-Sprache-Dateien ab (die GUID in der Ausgabe ist der Name eines Ordners, in dem die Dateien gespeichert sind). Sie können diese Details abrufen, indem Sie den folgenden Befehl ausführen:
 
     ``` Powershell
     Get-UMAutoAttendant -Identity MyUMAutoAttendant

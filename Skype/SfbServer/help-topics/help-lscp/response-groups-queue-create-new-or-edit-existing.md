@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsQueueEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Reaktionsgruppenwarteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf entgegennimmt.
-ms.openlocfilehash: 3029911d6b2290dc6d117f829d084d71a4bd5ed0f9dca652498088a87afcb643
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe8486ae94df3d7532f2a672cbd272000ff06f2f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602740"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Reaktionsgruppenwarteschleife: Erstellen einer neuen oder Bearbeiten einer vorhandenen Reaktionsgruppenwarteschleife
 
@@ -46,13 +46,13 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Disconnect**
 
-  - **Weiterleiten an Voicemail** Wenn Sie diese Option auswählen, geben Sie in **der SIP-Adresse** eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
+  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
 
   - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein <number> @ <domainname> (z. B. sip:+14255550121@contoso.com).
 
   - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: <username> @ <domainname> .
 
-  - **An eine andere Warteschlange weiterleiten** Wenn Sie diese Option auswählen, navigieren Sie zu der Warteschleife, in der Anrufe empfangen werden sollen, wenn das Zeitlimit für die Anrufe abläuft.
+  - **An eine andere Warteschlange weiterleiten** Wenn Sie diese Option auswählen, navigieren Sie zu der Warteschleife, in der Anrufe empfangen werden sollen, wenn die Zeitüberschreitung für die Anrufe abläuft.
 
 - **Aktivieren des Warteschleifenüberlaufs** Aktivieren Sie dieses Kontrollkästchen, um eine maximale Anzahl von Anrufen anzugeben, die die Warteschleife halten kann. Wenn Sie diese Option auswählen, müssen Sie auch Folgendes angeben:
 
@@ -64,7 +64,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Disconnect**
 
-  - **Weiterleiten an Voicemail** Wenn Sie diese Option auswählen, geben Sie in **der SIP-Adresse** eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
+  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
 
   - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein <number> @ <domainname> (z. B. sip:+14255550121@contoso.com).
 

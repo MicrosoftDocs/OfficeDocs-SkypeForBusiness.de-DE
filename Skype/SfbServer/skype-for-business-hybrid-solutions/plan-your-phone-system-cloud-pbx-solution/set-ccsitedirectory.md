@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
-description: Das cmdlet Set-CcSiteDirectory legt das Verzeichnis fest, in dem Konfigurationsdateien auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. Der Ordner enthält die Basis-VHD- und Cloud Connector-Konfigurationsdateien.
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Das Cmdlet Set-CcSiteDirectory legt das Verzeichnis fest, in dem Konfigurationsdateien auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. Der Ordner enthält die Basis-VHD- und Cloud Connector-Konfigurationsdateien.
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286244"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610532"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
-Das cmdlet Set-CcSiteDirectory legt das Verzeichnis fest, in dem Konfigurationsdateien auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. Der Ordner enthält die Basis-VHD- und Cloud Connector-Konfigurationsdateien.
+Das Cmdlet Set-CcSiteDirectory legt das Verzeichnis fest, in dem Konfigurationsdateien auf Standortebene für Skype for Business Cloud Connector Edition gespeichert werden. Der Ordner enthält die Basis-VHD- und Cloud Connector-Konfigurationsdateien.
   
 Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
@@ -58,7 +58,7 @@ Der Standardordner lautet "C:\Users \% userprofile%\CloudConnector\SiteRoot". De
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet Set-CcSiteDirectory akzeptiert keine weitergeleitete Eingabe.
+Keine. Das cmdlet Set-CcSiteDirectory akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

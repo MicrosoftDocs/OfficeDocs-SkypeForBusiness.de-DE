@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie nach Land oder Region und Ort nach Telefonnummern suchen können, die Sie Ihren Benutzern zuweisen können, und geben Sie die Anzahl der benötigten Nummern an.
-ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602110"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
@@ -47,7 +47,7 @@ Wenn Sie Hilfe beim Erhalten von Telefonnummern benötigen, lesen Sie Verwalten 
 2. Wählen Sie in der linken **Navigationsleiste**  >  **Sprachanrufnummern Telefon**  >  **Neue Nummern erhalten aus.**
   
     > [!IMPORTANT]
-    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine Enterprise **E5-Lizenz,** eine **Telefonsystem** Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.  
+    > Damit die Option  "Sprache" im linken Navigationsbereich im Microsoft Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz,** eine Telefonsystem-Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** erwerben.   
 
 3. Wählen Sie **auf der Seite** Ort und Menge auswählen in der Dropdownliste Land oder Region einen Ort aus. 
 
@@ -69,7 +69,7 @@ Wenn Sie Hilfe beim Erhalten von Telefonnummern benötigen, lesen Sie Verwalten 
 
 9. Überprüfen Sie **auf der** Seite Bestätigung Ihre Auswahlmöglichkeiten, und klicken Sie dann auf **Bestellung bestellen**.
 
-10. Wenn Sie zur Seite Telefon Nummern **zurückkehren,** wählen Sie die Telefonnummern aus,  die Sie zuweisen möchten, und klicken Sie dann auf Bearbeiten, um sie einem Benutzer zuzuordnen.  
+10. Wenn Sie zur  Seite Telefon Telefonnummern zurückkehren, wählen Sie die Telefonnummer oder Nummern  aus, die Sie zuweisen möchten, und klicken Sie dann auf Bearbeiten, um sie einem Benutzer zuzuordnen.  
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)

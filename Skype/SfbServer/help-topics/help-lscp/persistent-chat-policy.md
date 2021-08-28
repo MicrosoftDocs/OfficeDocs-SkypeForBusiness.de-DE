@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: Sie können die Seite "Richtlinie für beständigen Chat" der Gruppe für beständigen Chat verwenden, um Richtlinien auf globaler, Pool-, Standort- oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und des Erstellens einer oder mehrerer zusätzlicher Benutzer- und Standortrichtlinien für Ihre Bereitstellung. Wenn der Server für beständigen Chat für einen Benutzer durch eine Richtlinie aktiviert ist, wird die Umgebung des Servers für beständigen Chat auf dem Client angezeigt.
-ms.openlocfilehash: 0f8092afcb296ff1606769623ee52f5293eefa2b5bcf22f552f797f447f52f71
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6145740717ca4e240cde767535c91040c336cb90
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335345"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621391"
 ---
 # <a name="persistent-chat-policy"></a>Richtlinie für beständigen Chat
  
@@ -109,7 +109,7 @@ Die Benutzerrichtlinie setzt die Richtlinien auf globaler und Standortebene auß
     
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>So wenden Sie eine Benutzerrichtlinie für beständigen Chat auf ein Benutzerkonto an
 
-Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden, um sie für den Server für beständigen Chat zu aktivieren oder zu deaktivieren.
+Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie entsprechende Richtlinien auf bestimmte Benutzer anwenden, um sie für den Server für beständigen Chat zu aktivieren oder zu deaktivieren.
   
 Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Benutzerrichtlinie für beständigen Chat auf ein oder mehrere Benutzerkonten oder Benutzergruppen anzuwenden.
   

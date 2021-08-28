@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -19,31 +19,31 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Erfahren Sie, wie Sie Telefonsystem VoIP-Dienste für Ihre Skype for Business Benutzer aktivieren.
-ms.openlocfilehash: fea5da3bb82281c05edd73ce8e69c7164440513080b7aa804b31abc5d4c65ba7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602310"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP online und für Telefonsystem-Voicemail
  
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
+> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
 
 Erfahren Sie, wie Sie Telefonsystem VoIP-Dienste für Ihre Skype for Business Benutzer aktivieren.
   
-Der letzte Schritt bei der Bereitstellung von Telefonsystem mit lokaler PSTN-Konnektivität besteht darin, Ihren Benutzern Telefonsystem und Voicemail zu ermöglichen. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "Globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, die noch nicht für Skype for Business Online aktiviert Enterprise-VoIP haben.
+Der letzte Schritt bei der Bereitstellung von Telefonsystem mit lokaler PSTN-Konnektivität besteht darin, Ihren Benutzern Telefonsystem und Voicemail zu ermöglichen. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "Globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die noch nicht Enterprise-VoIP für Skype for Business Online aktiviert ist.
   
 ## <a name="enable-phone-system-voice-services"></a>Aktivieren Telefonsystem VoIP-Dienste
 
-Um einen Benutzer für Telefonsystem VoIP und Voicemail zu aktivieren, müssen Sie einige erste Schritte ausführen, z. B. überprüfen, ob der Skype for Business Online Connector auf Ihren Servern bereitgestellt ist, und Ihre Benutzer für gehostete Voicemail aktivieren.
+Um einen Benutzer für Telefonsystem VoIP und Voicemail zu aktivieren, müssen Sie einige erste Schritte ausführen, z. B. überprüfen, ob der Skype for Business Online Connector auf Ihren Servern bereitgestellt wird, und Ihre Benutzer für gehostete Voicemail aktivieren.
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>So aktivieren Sie Ihre Benutzer für Telefonsystem Voice- und Voicemail
 
 > [!NOTE]
-> Skype for Business Online Connector ist derzeit Teil der neuesten Teams PowerShell-Moduls.
-> Wenn Sie die neueste [Teams öffentliche PowerShell-Version](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
+> Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
+> Wenn Sie die neueste [Teams PowerShell-Veröffentlichung](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
 
 1. Bevor Sie beginnen, überprüfen Sie, ob das Teams PowerShell-Modul auf Ihren Front-End-Servern installiert ist. Wenn dies nicht der Fall ist, installieren Sie die Installation mithilfe der Anweisungen in [Teams Installation des PowerShell-Moduls.](/microsoftteams/teams-powershell-install)
     
@@ -96,7 +96,7 @@ In diesem Abschnitt wird beschrieben, wie Sie den Anschluss-URI und den Wählpla
     
 6. Klicken Sie auf **den Anschluss-URI,** und geben Sie eine eindeutige, normalisierte Telefonnummer ein (z. B. tel:+14255550200). Klicken Sie dann auf **"Commit ausführen".**
     
-## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren des Wählplans mit lokalen Windows PowerShell Cmdlets
+## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren des Wählplans mithilfe lokaler Windows PowerShell Cmdlets
 
 Sie können benutzerspezifische Wählpläne mit Windows PowerShell und dem Cmdlet [Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) zuweisen. Sie können dieses Cmdlet entweder im Skype for Business Server 2015 oder in einer Remotesitzung von Windows PowerShell ausführen.
   

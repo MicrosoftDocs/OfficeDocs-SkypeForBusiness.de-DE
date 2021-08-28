@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre Richtlinienzuweisungsaktivitäten im Aktivitätsprotokoll im Microsoft Teams Admin Center anzeigen.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.dashboard.activitylog.overview
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eff6aecf6a2d27cb80ac38bfc48aec2d34385e8dc6f9c25363ea21f85c55987f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d5d1e593159d5dcc93e75a618224eaacdb7becf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332997"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610402"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll
 

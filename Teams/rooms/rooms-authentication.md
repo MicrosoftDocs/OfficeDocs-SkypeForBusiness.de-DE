@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie die moderne Authentifizierung für Microsoft Teams-Räume
-ms.openlocfilehash: c12cc19c4ef10321046bc052c7040204980d6826
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 5b87a23f58dc563af623c7f4fa123ff9aaa1dc03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611574"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentifizierung in Microsoft Teams-Räume
 
-Die Kontoverwaltung Microsoft Teams-Räume Geräte erfolgt auf Anwendungsebene. Die Anwendung stellt eine Verbindung mit Microsoft Teams, Skype for Business Und Exchange, um Ressourcen für das Raumkonto zu erhalten, um Anrufe und Besprechungen zu ermöglichen. Das Gerät wird agnostisch gehalten, um always-on-Funktionen, Anrufszenarien (für Geräte, die mit einem Anrufplan konfiguriert sind) und benutzerdefinierte Sperrmechanismen zu ermöglichen, die auf diesen Geräten implementiert werden. Dies bedeutet, dass die Authentifizierung für diese Geräte auf andere Weise als bei Endbenutzergeräten geschieht.  
+Die Kontoverwaltung Microsoft Teams-Räume Geräte erfolgt auf Anwendungsebene. Die Anwendung stellt eine Verbindung Microsoft Teams Besprechungen Skype for Business Besprechungen Exchange, um Ressourcen für das Raumkonto zu erhalten, um Anrufe und Besprechungen zu ermöglichen. Das Gerät wird agnostisch gehalten, um always-on-Funktionen, Anrufszenarien (für Geräte, die mit einem Anrufplan konfiguriert sind) und benutzerdefinierte Sperrmechanismen zu ermöglichen, die auf diesen Geräten implementiert werden. Dies bedeutet, dass die Authentifizierung für diese Geräte auf andere Weise als bei Endbenutzergeräten geschieht.  
 
 Moderne Authentifizierung wird allen Kunden empfohlen, die Microsoft Teams-Räume mit Microsoft 365 Oder Office 365. Wenn Sie über eine lokale Bereitstellung von Exchange-Server oder Skype for Business-Server verfügen, konfigurieren Sie die hybride moderne Authentifizierung mit Azure Active Directory (Azure AD), um die Verwendung der modernen Authentifizierung zu aktivieren. [](/office365/enterprise/hybrid-modern-auth-overview)
 
@@ -31,9 +31,9 @@ Die moderne Authentifizierung wird Microsoft Teams-Räume Version 4.4.25.0 und h
 
 ## <a name="modern-authentication"></a>Moderne Authentifizierung
 
-Wenn Sie die moderne Authentifizierung mit der Microsoft Teams-Räume-Anwendung verwenden, wird Active Directory Authentication Library (ADAL) verwendet, um eine Verbindung mit Microsoft Teams, Exchange und Skype for Business. Ein Microsoft Teams-Räume Gerät ist ein freigegebenes Gerät und führt einen nächtlichen Neustart durch, um ein reibungsloses Funktionieren sicherzustellen und wichtige Betriebssystem-, Treiber-, Firmware- oder Anwendungsupdates zu erhalten. Der moderne Authentifizierungsmechanismus verwendet in OAuth 2.0 den [Autorisierungs-Autorisierungstyp](/azure/active-directory/develop/v2-oauth-ropc) für die Kennwortberechtigung des Ressourcenbesitzers, für den keine Benutzereingriffe erforderlich sind. Dies ist einer der Hauptunterschiede zwischen der Funktionsweise der modernen Authentifizierung für Benutzerkonten und Ressourcenkonten, die von der Anwendung Microsoft Teams-Räume werden. Daher sollten Microsoft Teams-Räume-Ressourcenkonten nicht für die Verwendung der mehrstufigen Authentifizierung( Multi-Factor Authentication, MFA), der Smartcard-Authentifizierung oder der clientzertifikatbasierten Authentifizierung konfiguriert werden (die alle für Endbenutzer verfügbar sind).
+Wenn Sie die moderne Authentifizierung mit der Microsoft Teams-Räume-Anwendung verwenden, wird Active Directory-Authentifizierungsbibliothek (Active Directory Authentication Library, ADAL) verwendet, um eine Verbindung mit Microsoft Teams, Exchange und Skype for Business. Ein Microsoft Teams-Räume Gerät ist ein freigegebenes Gerät und führt einen nächtlichen Neustart durch, um ein reibungsloses Funktionieren sicherzustellen und wichtige Betriebssystem-, Treiber-, Firmware- oder Anwendungsupdates zu erhalten. Der moderne Authentifizierungsmechanismus verwendet in OAuth 2.0 den [Autorisierungs-Autorisierungstyp](/azure/active-directory/develop/v2-oauth-ropc) für die Kennwortberechtigung des Ressourcenbesitzers, für den keine Benutzereingriffe erforderlich sind. Dies ist einer der Hauptunterschiede zwischen der Funktionsweise der modernen Authentifizierung für Benutzerkonten und Ressourcenkonten, die von der Anwendung Microsoft Teams-Räume werden. Daher sollten Microsoft Teams-Räume-Ressourcenkonten nicht für die Verwendung der mehrstufigen Authentifizierung( Multi-Factor Authentication, MFA), der Smartcard-Authentifizierung oder der auf Clientzertifikaten basierenden Authentifizierung konfiguriert werden(die alle für Endbenutzer verfügbar sind).
 
-Der andere wichtige Unterschied zwischen der Funktionsweise der modernen Authentifizierung auf Microsoft Teams-Räume-Geräten und Endbenutzergeräten besteht im: Sie können in Azure Active Directory und Endpoint Manager keine Richtlinien für bedingten Zugriff auf Geräteebene anwenden, da bei Verwendung dieses Zugriffstyps keine Geräteinformationen übergeben werden. Stattdessen können Sie ein Gerät in Microsoft Endpoint Manager und Compliancerichtlinien anwenden, indem Sie die Anleitungen unter Verwalten von Besprechungsräumen Teams [Intune verwenden.](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)
+Der andere wichtige Unterschied zwischen der Funktionsweise der modernen Authentifizierung auf Microsoft Teams-Räume-Geräten und Endbenutzergeräten besteht im: Sie können in Azure Active Directory und Endpoint Manager keine Richtlinien für bedingten Zugriff auf Geräteebene anwenden, da bei Verwendung dieses Zugriffstyps keine Geräteinformationen übergeben werden. Stattdessen können Sie ein Gerät in Microsoft Endpoint Manager registrieren und Compliancerichtlinien anwenden, indem Sie die Anleitung unter Verwalten Teams [Besprechungsräume](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)mit Intune verwenden.
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Aktivieren der modernen Authentifizierung auf Microsoft Teams-Räume Gerät
 

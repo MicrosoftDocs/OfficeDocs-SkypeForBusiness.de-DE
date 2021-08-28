@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: In diesem Artikel erfahren Sie mehr über die Hardwareanforderungen, die zum Installieren und Ausführen von Microsoft Teams erforderlich sind.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7de101954a9947fc5edeff43aff27d011e75dc387c25fa53f7190ce5a4a52256
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bdb699ffba3c0d5e1af49477d597d8730c440ce1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336165"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602240"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -55,7 +55,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Arbeitsspeicher     |   4.0 GB RAM (Teams benötigt zusätzlich zu allen anderen Systemanforderungen eine dedizierte 4 GB RAM.)     |
 |Festplatte    |   1,5 GB verfügbarer Speicherplatz      |
 |Anzeige    | Bildschirmauflösung 1280x800 oder höher    |
-|Betriebssystem  |    Eine der drei neuesten Versionen von macOS. [Hier](https://support.apple.com/de-DE/HT201260) finden Sie Informationen zu den neuesten Versionen von macOS sowie zum Upgrade Ihrer macOS-Version. Wenn beispielsweise eine neue macOS-Version veröffentlicht wird, werden die neue Version und die beiden unmittelbar davor die unterstützten Versionen.      |
+|Betriebssystem  |    Eine der drei neuesten Versionen von macOS. [Hier](https://support.apple.com/en-us/HT201260) finden Sie Informationen zu den neuesten Versionen von macOS sowie zum Upgrade Ihrer macOS-Version. Wenn beispielsweise eine neue macOS-Version veröffentlicht wird, werden die neue Version und die beiden unmittelbar davor die unterstützten Versionen.      |
 |Video  |    Kompatible Webcam     |
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
 |Videoanrufe und Besprechungen | <ul><li>Ein 2-Core-Prozessor wird benötigt. Bei einer höheren Video-/Bildschirmfreigabeauflösung und Bildrate wird mindestens ein 4-Core-Prozessor empfohlen. </li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter macOS nicht verfügbar.</li></ul>

@@ -11,17 +11,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: nichrose
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610522"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -36,7 +36,7 @@ Microsoft hat die Kapazität in wichtigen Regionen in Hinblick auf die jüngsten
 > [!NOTE]
 > Wenn Sie Microsoft 365 bereits eingerichtet haben und mehr über die Maßnahmen von Microsoft wissen möchten, navigieren Sie zum Nachrichtencenter, und lesen Sie den Nachrichtencenterbeitrag **MC205458**.
 
-Verpassen Sie nicht unseren Blogbeitrag vom 5. März 2020 von Jared Spataro, Corporate Vice President für Microsoft 365: [Unsere Verpflichtung gegenüber Kunden während COVID-19](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
+Verpassen Sie nicht unseren Blogbeitrag vom 5. März 2020 von Jared Spataro, Corporate Vice President für Microsoft 365: [Unsere Verpflichtung gegenüber Kunden während COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
 
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Greifen wir mit den Aktionen, die Microsoft ergreift, Problemen vor?

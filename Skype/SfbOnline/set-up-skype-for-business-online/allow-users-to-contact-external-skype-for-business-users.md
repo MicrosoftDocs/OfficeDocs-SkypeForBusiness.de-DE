@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -27,13 +27,13 @@ ms.custom:
 - O365P_ExternalCommDesc
 - O365P_ShareLync
 - LIL_Placement
-description: 'Erfahren Sie, wie Sie Skype for Business, damit Benutzer mit Benutzern in einer anderen Organisation sprechen oder externe Kontakte mit ihnen sprechen können. '
-ms.openlocfilehash: 025cb6d430fd4dda2c4b3b7c4d351d9954c97d252456fce73b50df21c5bdf303
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, wie sie Skype for Business, damit Benutzer mit Benutzern in einer anderen Organisation sprechen oder externe Kontakte mit ihnen sprechen können. '
+ms.openlocfilehash: 987fc8120a06e1a96df4d33cf3f42ba90bc123ed
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308058"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602020"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren
 
@@ -51,39 +51,39 @@ Führen Sie die Schritte in diesem Artikel in folgenden Fällen aus:
 
 <a name="bk_preview"> </a>
 
-Sie müssen in [beiden Organisationen über](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Administratorberechtigungen in Microsoft 365 oder Office 365 für diese Kommunikation verfügen.
+Sie müssen [administratorberechtigungen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365 oder Office 365 in beiden Organisationen haben, um diese Kommunikation zu unterstützen.
 
 ![Symbol mit dem Microsoft Teams ](../images/teams-logo-30x30.png) **Unter Verwendung des Teams Admin Centers**
   
-1. Melden Sie sich mit Ihrem Microsoft 365 Oder Office 365-Administratorkonto an.
+1. Melden Sie sich mit Ihrem Microsoft 365 Oder Office 365 Administratorkonto an.
 
 2. Wechseln Sie im Admin Center zu **Admin Center**  >  **Teams.**
 
     ![Wählen Sie den Teams aus.](../images/MS-Teams-Admin.png)
   
-3. Wählen Sie **Teams in der Mitte** die Option **Skype** > **Legacy-Portal** die Option SfB Legacy 
-  ![ Portal aus.](../images/SFBlegacy-size65.png)
+3. Wählen Sie **Teams In der Mitte** die Option **Skype** > **Legacy-Portal** 
+  ![ Die SfB-Legacyportal auswählen aus.](../images/SFBlegacy-size65.png)
 
 4. Wählen Sie unter **Skype for Business Admin Center** die Option **Organisation** > **Externe Kommunikation** aus.
 5. Um die Kommunikation mit einem bestimmten Unternehmen oder mit Benutzern in einer anderen Domäne einzurichten, wählen Sie im Dropdownfeld **Nur für zulässige Domänen aktivieren**.
 
     ODER wählen Sie, wenn Sie die Kommunikation mit allen anderen Unternehmen aktivieren möchten, die über offene Skype for Business-Richtlinien verfügen, die Option **Aktivieren mit Ausnahme der blockierten Domänen** aus. Dies ist die Standardeinstellung.
 
-6. Wählen **Sie unter Blockierte oder zulässige** Domänen den Namen der Domäne aus, die Sie zulassen **+** möchten, und fügen Sie diesen hinzu.
+6. Wählen **Sie unter Blockierte oder zulässige Domänen** den Namen der Domäne aus, die Sie zulassen **+** möchten, und fügen Sie diesen hinzu.
 
 7. Stellen Sie sicher, dass der Administrator in der anderen Organisation die gleichen Schritte im Admin Center Skype for Business **führt.** Beispiel: In der Liste der **zugelassenen Domänen** muss der Administrator der anderen Organisation die Domäne für Ihr Unternehmen eingeben.
 
 8. Wenn Sie die Windows-Firewall verwenden, öffnet Skype for Business die erforderlichen Ports automatisch.
 
-    Wenn Ihre Organisation die Internetverbindung von Computern in Ihrem Netzwerk mit einer anderen Firewall-Lösung einschränkt, vergewissern Sie sich, dass Ihre Clientcomputer auf die folgenden [URLs und IP-Adressbereiche von Office 365](/microsoftteams/office-365-urls-ip-address-ranges) zugreifen können. Dies kann das Hinzufügen der FQDNs zur Liste der zulässigen ausgehenden Verbindungen in Ihrer Firewall- oder Proxyinfrastrukturkonfiguration erfordern: **\* api.skype.com,** \* *_users.storage.live.com_* und **graph.skype.com.** Anweisungen zum Öffnen dieser Ports in Ihrer Firewall finden Sie in der Dokumentation zum Port.
+    Wenn Ihre Organisation die Internetverbindung von Computern in Ihrem Netzwerk mit einer anderen Firewall-Lösung einschränkt, vergewissern Sie sich, dass Ihre Clientcomputer auf die folgenden [URLs und IP-Adressbereiche von Office 365](/microsoftteams/office-365-urls-ip-address-ranges) zugreifen können. Dies erfordert möglicherweise das Hinzufügen der FQDNs zur Liste der zulässigen ausgehenden Verbindungen in Ihrer Firewall- oder Proxyinfrastrukturkonfiguration: **\* api.skype.com,** \* *_users.storage.live.com_* und **graph.skype.com.** Anweisungen zum Öffnen dieser Ports in Ihrer Firewall finden Sie in der Dokumentation zum Port.
 
-    Eine Liste aller Ports, die Sie öffnen müssen, finden Sie unter Office 365 [URLs und IP-Adressbereiche.](/microsoftteams/office-365-urls-ip-address-ranges)
+    Eine Liste aller Ports, die Sie öffnen müssen, finden Sie Office 365 [urLs und IP-Adressbereiche.](/microsoftteams/office-365-urls-ip-address-ranges)
 
 9. Stellen Sie sicher, dass der Administrator in der Organisation diese Schritte ebenfalls befolgt hat.
 
 10. **WARTEN SIE MIT DEM TEST BIS ZU 24 STUNDEN**. Wenn Sie die Einstellungen für externe Kommunikation ändern, kann es bis zu 24 Stunden dauern, bis die Änderungen in allen Rechenzentren auffüllen.
 
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Sie können Ihren Benutzern jetzt die Möglichkeit geben, nach beliebigen Benutzern von Skype, der kostenlosen Heimanwender-App, zu suchen und Chatnachrichten mit ihnen auszutauschen! Weitere Informationen finden Sie unter [Skype for Business hinzufügen von Skype Kontakten.](let-skype-for-business-users-add-skype-contacts.md)
+![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Sie können Ihren Benutzern jetzt die Möglichkeit geben, nach beliebigen Benutzern von Skype, der kostenlosen Heimanwender-App, zu suchen und Chatnachrichten mit ihnen auszutauschen! Weitere Informationen finden Sie unter Skype for Business [hinzufügen von Skype Kontakten.](let-skype-for-business-users-add-skype-contacts.md)
   
 ## <a name="test-and-troubleshoot"></a>Tests und Problembehandlung
 
@@ -107,7 +107,7 @@ Um Ihr Setup zu testen, benötigen Sie einen Kontakt in Skype for Business, der 
 
 <a name="bk_preview"> </a>
 
-Nachdem Sie die externe Kommunikation mit anderen Skype for Business Benutzern aktiviert haben, können die Benutzer Partnerbenutzer Skype for Business suchen, indem sie nach ihren Anmeldenamen suchen. Beispiel: Rob@contoso.com. Anschließend müssen sie die Person zu ihrer Kontaktliste hinzufügen.
+Nachdem Sie die externe Kommunikation mit anderen Skype for Business Benutzern aktiviert haben, können die Benutzer Partnerbenutzer Skype for Business, indem sie nach ihren Anmeldenamen suchen. Beispiel: Rob@contoso.com. Anschließend müssen sie die Person zu ihrer Kontaktliste hinzufügen.
   
 ![Um einen Benutzer in einem Partnerunternehmen zu finden, müssen Sie nach seiner E-Mail-Adresse suchen (dies ist normalerweise auch der Anmeldename).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
@@ -115,7 +115,7 @@ Nachdem Sie die externe Kommunikation mit anderen Skype for Business Benutzern a
 
 <a name="bk_preview"> </a>
 
-- Informationen zum Konfigurieren des Verbunds zwischen Skype for Business 2015 und Skype for Business Online finden Sie in diesem Artikel: Konfigurieren des Verbunds [mit Skype for Business Online.](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+- Informationen zum Konfigurieren des Verbunds zwischen Skype for Business 2015 und Skype for Business Online finden Sie in diesem Artikel: Konfigurieren des Verbunds [Skype for Business Online.](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
 
 - Informationen zum Konfigurieren des Verbunds zwischen Lync und Skype for Business Online finden Sie in diesem Artikel: Konfigurieren der Unterstützung für einen Verbund für [einen Lync Online-Kunden.](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-federation-support-for-a-lync-online-customer)
 
@@ -129,7 +129,7 @@ Nachdem Sie die externe Kommunikation mit anderen Skype for Business Benutzern a
 
 Nachdem Sie die externe Kommunikation für Ihr gesamtes Unternehmen aktiviert haben, können Sie sie für bestimmte Personen deaktivieren.
   
-1. Melden Sie sich mit Ihrem Microsoft 365 Oder Office 365-Administratorkonto an.
+1. Melden Sie sich mit Ihrem Microsoft 365 Oder Office 365 Administratorkonto an.
 
 2. Wechseln Sie im Admin Center zu **Aktive**  >  **Benutzer**.
 

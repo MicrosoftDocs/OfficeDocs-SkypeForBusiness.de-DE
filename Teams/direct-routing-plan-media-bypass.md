@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,24 +17,24 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Medienumgehung mit Direct Telefonsystem Routing planen, wodurch Sie den Pfad des Mediendatenverkehrs kürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cc499d779af2e5eea765e9cf858b170241095e82
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 3350f1152f26841489a846749eecc6ad58117215
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234780"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610332"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Informationen zur Medienumgehung mit Direct Routing
 
-Mit der Medienumgehung können Sie den Pfad des Mediendatenverkehrs kürzen und die Anzahl der Hops bei der Übertragung verringern, um eine bessere Leistung zu erzielen. Bei der Medienumgehung werden Medien zwischen Session Border Controller (SBC) und dem Client gehalten, anstatt sie über das Microsoft-Telefon zu senden. Zum Konfigurieren der Medienumgehung müssen sich SBC und Client am selben Speicherort oder in demselben Netzwerk befinden.
+Mit der Medienumgehung können Sie den Pfad des Mediendatenverkehrs kürzen und die Anzahl der Hops bei der Übertragung verringern, um eine bessere Leistung zu erzielen. Bei der Medienumgehung werden Medien zwischen Session Border Controller (SBC) und dem Client gespeichert, statt sie über das Microsoft-Telefon zu senden. Zum Konfigurieren der Medienumgehung müssen sich SBC und Client am selben Speicherort oder in demselben Netzwerk befinden.
 
 Sie können die Medienumgehung für jeden SBC steuern, indem Sie den **Set-CSOnlinePSTNGateway-Befehl** mit dem Parameter **"-MediaBypass"** auf "true" oder "false" festlegen. Wenn Sie die Medienumgehung aktivieren, bedeutet dies nicht, dass der sämtliche Mediendatenverkehr im Unternehmensnetzwerk bleibt. In diesem Artikel wird der Anruffluss in verschiedenen Szenarien beschrieben.
 
 Die folgenden Diagramme veranschaulichen den Unterschied beim Anruffluss mit und ohne Medienumgehung.
 
-Wenn ein Client einen Aufruf ohne Medienumgehung aufruft oder empfängt, werden die Signalisierung und der Medienfluss zwischen SBC, Microsoft-Telefon System und Teams-Client, wie im folgenden Diagramm dargestellt, ausgeführt:
+Wenn ein Client einen Aufruf ohne Medienumgehung eingeht oder empfängt, werden die Signalisierung und der Medienfluss zwischen SBC, Microsoft-Telefon System und dem Teams-Client, wie im folgenden Diagramm dargestellt, signalisiert und der Medienfluss:
 
 > [!div class="mx-imgBorder"]
 > ![Zeigt Signalisierung und Medienfluss ohne Medienumgehung](media/direct-routing-media-bypass-1.png)
@@ -51,7 +51,7 @@ Wir gehen aber davon aus, dass sich ein Benutzer im selben Gebäude oder Netzwer
   > [!div class="mx-imgBorder"]
   > ![Zeigt Signalisierung und Medienfluss mit Medienumgehung](media/direct-routing-media-bypass-2.png)
 
-Bei der Medienumgehung werden Protokolle namens Interactive Connectivity Connectivity (ICE) im Teams-Client und ICE Lite auf SBC verwendet. Diese Protokolle ermöglichen direct-Routing die Verwendung des direkten Medienpfads für optimale Qualität. ICE und ICE Lite sind WebRTC-Standards. Ausführliche Informationen zu diesen Protokollen finden Sie unter RFC 5245.
+Bei der Medienumgehung werden Protokolle namens Interactive Connectivity Connectivity (ICE) auf dem Teams und ICE Lite auf SBC verwendet. Diese Protokolle ermöglichen direct-Routing die Verwendung des direkten Medienpfads für optimale Qualität. ICE und ICE Lite sind WebRTC-Standards. Ausführliche Informationen zu diesen Protokollen finden Sie unter RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Anruffluss- und Firewallplanung
@@ -70,7 +70,7 @@ Wenn der Benutzer direkten Zugriff auf die öffentliche IP-Adresse der SBC hat, 
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client intern ist und der Client die öffentliche IP-Adresse des SBC (direkte Medien) erreichen kann: 
 
-- Die Pfeile und numerischen Werte der Pfade sind in Übereinstimmung mit Microsoft Teams [Aufrufflüssen](./microsoft-teams-online-call-flows.md).
+- Die Pfeile und numerischen Werte der Pfade sind in Übereinstimmung mit [Microsoft Teams Aufrufflüssen](./microsoft-teams-online-call-flows.md).
 
 - Die SIP-Signalisierung verwendet immer die Pfade 4 und 4' (je nach Richtung des Datenverkehrs). Medien bleiben lokal und gehen auf Pfad 5b ein.
 
@@ -82,16 +82,16 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert is
 
 Im Folgenden wird der Anruffluss beschrieben, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat. 
 
-Angenommen, der Benutzer ist extern, und der Mandantenadministrator hat sich entschieden, die öffentliche IP-Adresse des SBC nicht für alle Benutzer im Internet, sondern nur für die Microsoft-Cloud zu öffnen. Die internen Komponenten des Datenverkehrs können über die Teams-Transport relays fließen. Berücksichtigen Sie dabei Folgendes:
+Angenommen, der Benutzer ist extern, und der Mandantenadministrator hat sich entschieden, die öffentliche IP-Adresse des SBC nicht für alle Benutzer im Internet, sondern nur für die Microsoft-Cloud zu öffnen. Die internen Komponenten des Datenverkehrs können über die Transport relays Teams fließen. Berücksichtigen Sie dabei Folgendes:
 
 - Teams Transport Relays werden verwendet.
 
 - Zur Medienumgehung verwendet Microsoft eine Version von Transport Relays, für die das Öffnen der Ports 50 000 bis 59 999 zwischen den Teams-Transport relays und dem SBC erforderlich ist (in Zukunft ist der Wechsel zur Version geplant, für die 3478-3481 Ports erforderlich sind).
 
 
-Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client extern ist und der Client die öffentliche IP-Adresse des Session Border Controllers nicht erreichen kann (Die Medien werden über Teams Transport Relay übertragen).
+Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client extern ist und der Client die öffentliche IP-Adresse des Session Border Controllers nicht erreichen kann (Die Medien werden über Teams-Transport relay übertragen).
 
-- Die Pfeile und numerischen Werte der Pfade sind in Übereinstimmung mit Microsoft Teams [Aufrufflüssen](./microsoft-teams-online-call-flows.md).
+- Die Pfeile und numerischen Werte der Pfade sind in Übereinstimmung mit [Microsoft Teams Aufrufflüssen](./microsoft-teams-online-call-flows.md).
 
 - Medien werden über die Pfade 3, 3', 4 und 4' per Relay vermittelt.
 
@@ -102,7 +102,7 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert is
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Anruffluss, wenn sich ein Benutzer außerhalb des Netzwerks befindet und Zugriff auf die öffentliche IP des SBC hat
 
 > [!NOTE]
-> Dies ist keine empfohlene Konfiguration, da sie die Vorteile ihres Transport-Relays Teams nutzt. Betrachten Sie stattdessen das vorherige Szenario, in dem der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat. 
+> Dies ist keine empfohlene Konfiguration, da sie die Vorteile ihres Transport-Relays Teams nutzt. Beachten Sie stattdessen das vorherige Szenario, in dem der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat. 
 
 Das folgende Diagramm zeigt den Anruffluss, wenn die Medienumgehung aktiviert ist, der Client extern ist und der Client die öffentliche IP-Adresse des SBC erreichen kann (direkte Medien).
 
@@ -120,11 +120,11 @@ Es gibt zwei Komponenten in der Microsoft-Cloud, die sich im Pfad des Mediendate
 
 - Der Medienprozessor ist eine öffentlich zugängliche Komponente, die Medien in Nichtumgehungsfällen behandelt und Medien für Sprachanwendungen behandelt.
 
-   Medienprozessoren befinden sich immer im Pfad für nicht umgehende Aufrufe von Endbenutzern, jedoch nie im Pfad für Umgehungsaufrufe. Medienprozessoren befinden sich immer im Pfad für alle Sprachanwendungen wie Anrufpark, Organisations- automatische Telefonzentrale und Anrufwarteschleifen.
+   Medienprozessoren befinden sich immer im Pfad für nicht umgehende Aufrufe von Endbenutzern, jedoch nie im Pfad für Umgehungsaufrufe. Medienprozessoren befinden sich immer im Pfad für alle Sprachanwendungen, z. B. Anruf parken, Organisations- automatische Telefonzentrale und Anrufwarteschleifen.
 
 - Das Transport relay wird verwendet, um eine Verbindung mit dem nächstgelegenen Transportdienst herzustellen, um Echtzeitdatenverkehr zu senden.
 
-   Transport Relays befinden sich abhängig davon, wo sich der Benutzer befindet und wie das Netzwerk konfiguriert ist, möglicherweise im Pfad für umgangene Aufrufe –die von stammen oder an Endbenutzer bestimmt sind.
+   Transport Relays befinden sich abhängig davon, wo sich der Benutzer befindet und wie das Netzwerk konfiguriert ist, möglicherweise im Pfad für umgangene Aufrufe – die von stammen oder an Endbenutzer bestimmt sind – oder nicht.
 
 Das folgende Diagramm zeigt zwei Anrufflüsse– einen mit aktivierter Medienumgehung und den zweiten mit deaktivierter Medienumgehung.
 
@@ -164,8 +164,8 @@ Die IP-Bereiche sind:
 Teams Medienprozessoren werden in den folgenden Szenarien immer in den Medienpfad eingefügt:
 
 - Anruf wird von 1:1 zu einem Gruppenanruf eskaliert
-- Anruf wird an einen Partnerbenutzer Teams
-- Der Anruf wird an einen anderen Benutzer weitergeleitet Skype for Business weitergeleitet.
+- Anruf wird an einen Verbundbenutzer Teams
+- Der Anruf wird weitergeleitet oder an einen anderen Skype for Business weitergeleitet.
 
 Stellen Sie sicher, dass Ihr SBC auf die Bereiche "Medienprozessoren" und "Transport relays" zugreifen kann, wie unten beschrieben.    
 
@@ -182,7 +182,7 @@ Direct Routing wird in den folgenden Microsoft 365 oder Office 365 angeboten:
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 und Office 365 GCC Umgebung
 
-Die Verbindungspunkte für Direct Routing sind die folgenden drei FQDNs:
+Die Verbindungspunkte für Direct-Routing sind die folgenden drei FQDNs:
 
 - **sip.pstnhub.microsoft.com** – Globaler FQDN – muss zuerst ausprobiert werden. Wenn der SBC eine Anforderung zum Auflösen dieses Namens sendet, geben die Microsoft Azure-DNS-Server eine IP-Adresse zurück, die auf das primäre Azure-Rechenzentrum verweisen, das dem SBC zugewiesen ist. Die Zuordnung basiert auf Leistungsmetriken der Rechenzentren und der geografischen Nähe zum SBC. Die zurückgegebene IP-Adresse entspricht dem primären FQDN.
 
@@ -201,15 +201,15 @@ Die FQDNs **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com** und **si
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen. Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** für alle diese IP-Subnetze aufgelöst. 
+Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen. Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** in alle diese IP-Subnetze aufgelöst. 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD-Umgebung
 
 Der Verbindungspunkt für Direct-Routing ist der folgende FQDN:
 
-**sip.pstnhub.dod.teams.microsoft.us** – Globaler FQDN. Da die Office 365 DoD-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und drittrangig vorhandenen FQDNs.
+**sip.pstnhub.dod.teams.microsoft.us** – Globaler FQDN. Da die Office 365 DoD-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und dritten FQDNs.
 
-Der FQDN sip.pstnhub.dod.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
+Die FQDN sip.pstnhub.dod.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
 
 - 52.127.64.0/21
 
@@ -219,13 +219,13 @@ Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eing
 
 Der Verbindungspunkt für Direct-Routing ist der folgende FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us** – Globaler FQDN. Da die GCC High-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und drittrangig vorhandenen FQDNs.
+**sip.pstnhub.gov.teams.microsoft.us** – Globaler FQDN. Da die GCC High-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und dritten FQDNs.
 
-Der FQDN sip.pstnhub.gov.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
+Die FQDN sip.pstnhub.gov.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
 
 - 52.127.88.0/21
 
-Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird sip.pstnhub.gov.teams.microsoft.us FQDN in alle diese IP-Subnetze aufgelöst. 
+Sie müssen Ports für alle diese IP-Bereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN sip.pstnhub.gov.teams.microsoft.us in alle diese IP-Subnetze aufgelöst. 
 
 ## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Ports
 
@@ -245,7 +245,7 @@ SIP/TLS| SIP-Proxy | SBC | 1024 - 65535 | Definiert im SBC |
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>Medienverkehr: IP- und Portbereiche
 
-Der Mediendatenverkehr fließt zwischen dem SBC- und dem Teams-Client, wenn direkte Konnektivität verfügbar ist, oder über Teams-Transport relays, wenn der Client den SBC nicht über die öffentliche IP-Adresse erreichen kann.
+Mediendatenverkehr fließt zwischen SBC und Teams-Client, wenn direkte Verbindung verfügbar ist, oder über Teams-Transport relays, wenn der Client den SBC nicht über die öffentliche IP-Adresse erreichen kann.
 
 ### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Anforderungen für den direkten Medienverkehr (zwischen dem Teams und dem SBC) 
 
@@ -363,9 +363,9 @@ Informationen zum Konfigurieren von zwei Trunks auf demselben SBC finden Sie in 
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Von der Medienumgehung unterstützte Clientendpunkte
 
-Die Medienumgehung wird von allen Teams Desktopclients, Android- und iOS-Clients und Teams Telefon unterstützt. 
+Die Medienumgehung wird von allen eigenständigen Teams Desktopclients, Android- und iOS-Clients und Teams Telefon unterstützt. 
 
-Für alle anderen Endpunkte, die die Medienumgehung nicht unterstützen, konvertieren wir den Anruf in eine Nichtumgehung, auch wenn er als Umgehungsanruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen des Administrators. Dies umfasst Skype for Business 3PIP-Telefone und Teams-Webclients, die Direct Routing Calling (WebRTC-basierte Clients, die auf Microsoft Edge, Google Chrome, Mozilla Firefox ausgeführt werden) unterstützen. 
+Für alle anderen Endpunkte, die die Medienumgehung nicht unterstützen, konvertieren wir den Anruf in eine Nichtumgehung, auch wenn er als Umgehungsanruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen des Administrators. Dies umfasst Skype for Business 3PIP-Telefone und Teams-Webclients, die Direct Routing Calling (WebRTC-basierte Clients, die auf Microsoft Edge, Google Chrome und Mozilla Firefox ausgeführt werden) unterstützen. 
  
 ## <a name="see-also"></a>Mehr dazu
 

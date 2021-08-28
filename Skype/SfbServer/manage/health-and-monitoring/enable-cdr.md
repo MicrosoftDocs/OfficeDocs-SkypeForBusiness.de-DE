@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Kommunikationsdatensätze (KDS) in Skype for Business Server aktivieren.'
-ms.openlocfilehash: 1d09e637d75b9617abf669f75e96076333380a075010bd3d641f4c5189be9d89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cc9b3d4f19a4598638093d92733a0917fca7c2c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622367"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie Sie KDS-Datensätze (Call Detail Recording, KDS) in Skype for Business Server aktivieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie Kommunikationsdatensätze (KDS) in Skype for Business Server aktivieren.
 
 Bei der Aufzeichnung von Kommunikationsdatensätzen werden Nutzungs- und Diagnoseinformationen über Peer-zu-Peer-Aktivitäten aufgezeichnet, z. B. Chat, VoIP-Anrufe (Voice over Internet Protocol), Anwendungsfreigabe, Dateiübertragung und Besprechungen. Anhand der Nutzungsdaten kann die Rendite berechnet werden, und die Diagnosedaten können zur Problembehandlung bei Peer-zu-Peer-Aktivitäten und Besprechungen eingesetzt werden.
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: Erfahren Sie, wie Sie Microsoft Teams in einer VDI-Umgebung (Virtualized Desktop Infrastructure) ausführen.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523836"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602080"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -72,7 +72,7 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Der virtuelle Azure-Desktop bietet AV-Optimierung für Teams mit VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [von Teams auf dem virtuellen Azure-Desktop.](/azure/virtual-desktop/teams-on-wvd)
+Der virtuelle Azure-Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [von Teams auf dem virtuellen Azure-Desktop.](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -188,7 +188,7 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
 
-        Durch diesen Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
+        Bei diesem Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
@@ -468,7 +468,7 @@ if($cleanup){
 ### <a name="client-deployment-installation-and-setup"></a>Clientbereitstellung, -installation und -setup
 
 - Bei einer computerbasierten Installation wird Teams auf VDI nicht automatisch aktualisiert, wie es bei Nicht-VDI-Teams-Clients der Fall ist. Sie müssen das VM-Image aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen zum Aktualisieren der Teams-App die aktuelle Version deinstallieren, um auf eine neuere Version aktualisieren zu können.
-- Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für av befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung zum virtuellen Citrix-Computer trennen.
+- Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung zum virtuellen Citrix-Computer trennen.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
 - Azure Virtual Desktop unterstützt zurzeit keine macOS- und Linux-basierten Clients.
 - Ein schneller Mandantenwechsel kann zu Problemen mit Anrufen bei VDI führen, z. B. dass die Bildschirmfreigabe nicht verfügbar ist. Durch einen Neustart des Clients werden diese Probleme minimiert.

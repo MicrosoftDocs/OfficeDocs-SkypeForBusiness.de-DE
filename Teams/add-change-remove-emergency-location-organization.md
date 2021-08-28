@@ -13,17 +13,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 'Informationen zum Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation finden Sie im Microsoft Teams Admin Center. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 69ac20583d2f90b3aab4359478f067d2df7b86d2733f6452172430566781ea7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352483"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602300"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
@@ -31,7 +31,7 @@ Einem Notfallstandort muss eine Telefonnummer zugeordnet sein, wann dies geschie
 
 Unabhängig davon, in welchem Land bzw. in welcher Region Sie sich befinden, können Sie einem Notfallstandort einen oder mehrere Orte hinzufügen und einen Notfallstandort entfernen. Je nach Anzahl physischer Standorte in Ihrer Organisation können Sie Orte für Gebäude, Stockwerke und Büros erstellen. Weitere Informationen [finden Sie unter Verwalten von Notrufen.](what-are-emergency-locations-addresses-and-call-routing.md)
   
-Informationen zum Erhalten eines Anrufplans und deren Kosten finden Sie unter Hinzufügen [Teams-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Informationen zum Erhalten eines Anrufplans und deren Kosten finden Sie unter [Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 Sie verwalten Notfallstandorte für Ihre Organisation im Microsoft Teams Admin Center oder mithilfe von PowerShell.
   
@@ -45,7 +45,7 @@ Sie verwalten Notfallstandorte für Ihre Organisation im Microsoft Teams Admin C
 4. Wählen Sie das Land oder die Region aus, und geben Sie dann die Adresse ein.
 
    > [!NOTE]
-   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu wissen, dass zum erfolgreichen Aktivieren einer Telefonnummer in Microsoft 365 oder Office 365 die Adresse, die für den Erwerb der Nummer verwendet wird, der Vorwahl der Telefonnummer entsprechen muss.
+   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu wissen, dass für die erfolgreiche Aktivierung einer Telefonnummer in Microsoft 365 oder Office 365 die Adresse, die für den Erwerb der Nummer am Notfallstandort eingerichtet wurde, mit der Vorwahl der Telefonnummer übereinstimmen muss.
 
 5. Wenn die Adresse nicht gefunden wird und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie Adresse **manuell bearbeiten.**
 6. Klicken Sie auf **Speichern**.

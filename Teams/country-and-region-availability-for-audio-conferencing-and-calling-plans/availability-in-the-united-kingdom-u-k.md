@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 Für Großbritannien Skype for Business und Microsoft Teams Dienste verfügbar.
-ms.openlocfilehash: 67c36ffbc08d1ceb3bb5ff0b8210ea0f163be67ca36bf651738fed2e89d9832d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Großbritannien.
+ms.openlocfilehash: 62c19b6e0fd029068238da0e654dc6c30ac1783d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314101"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610362"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Verfügbarkeit im Vereinigten Königreich
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 Für Großbritannien Skype for Business und Microsoft Teams Dienste verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Großbritannien.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -61,7 +61,7 @@ Hier finden Sie die Microsoft 365 und Office 365 Für Großbritannien Skype for 
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
 |Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120 Minuten Anrufplan für Inland </li><li>240 Minuten Anrufplan für Inland</li></li><li>1200 Minuten Anrufplan für Inland </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li> 
-|Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Teilweise unterstützt: Anrufe an freigegebene Kostennummern (Präfixe 44843, 44844, 44845, 44870, 44871, 44872) werden unterstützt, indem das Guthaben für Kommunikationen verwendet wird, um pro Minute zu bezahlen.  Anrufe an 449XX-Präfixe werden nicht unterstützt. <br/> |
+|Kann man ausgehende Anrufe an Premium-Nummern tätigen? <br/> | Teilweise unterstützt: Anrufe an freigegebene Kostennummern (Präfixe 44843, 44844, 44845, 44870, 44871, 44872) werden über Guthaben für Kommunikationen unterstützt, um pro Minute zu bezahlen.  Anrufe an 449XX-Präfixe werden nicht unterstützt. <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> | In [diese](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 Länder/Regionen<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste

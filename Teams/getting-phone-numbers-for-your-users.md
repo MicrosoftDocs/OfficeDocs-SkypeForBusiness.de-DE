@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Sie neue Nummern erhalten, Nummern portieren oder vorhandene Nummern Teams portieren und den Benutzern die Änderungen anzeigen. '
-ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, wie Sie neue Nummern erhalten, Nummern portieren oder vorhandene Nummern Teams und wie Sie den Benutzern die Änderungen anzeigen. '
+ms.openlocfilehash: 5371a3d23e78017db34ae94cdd7516ce40b6347b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315281"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602270"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -50,7 +50,7 @@ Es gibt drei Möglichkeiten, Benutzernummern zu erhalten:
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
 1. Wechseln Sie zum Microsoft Teams Admin Center.
-2. Wechseln Sie in der linken Navigationsleiste **zu**  >  **Sprachanrufnummern Telefon**, und klicken Sie dann auf **Hinzufügen**.
+2. Navigieren Sie in der linken **Navigationsleiste** zu Telefon  >  **Sprachanrufnummern**, und klicken Sie dann auf **Hinzufügen**.
 3. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 4. Gehen Sie auf der Seite Standort und Menge wie folgt vor:
     1. Wählen **Sie unter Land oder Region** ein Land oder eine Region aus.
@@ -58,7 +58,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
     3. Wählen **Sie unter** Ort einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie **auf Speicherort hinzufügen**.
     4. Wählen **Sie unter Vorwahl** eine Vorwahl aus.
     5. Geben **Sie** unter Menge die Anzahl der Nummern ein, die Sie für Ihre Organisation verwenden möchten, und klicken Sie dann **auf** Weiter, um Ihre Nummern auszuwählen.
-5. Wählen Sie die Zahlen aus, die Sie wünschen. Sie haben zehn Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung auf den 10-Minuten-Pc zu bestellen. Wenn Sie länger als 10 Minuten zeit haben, werden die Telefonnummern an den Telefonnummernpool zurückgegeben.
+5. Wählen Sie die Zahlen aus, die Sie wünschen. Sie haben 10 Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung auf bestellung zu geben. Wenn Sie länger als 10 Minuten zeit haben, werden die Telefonnummern an den Telefonnummernpool zurückgegeben.
 6. Wenn Sie bereit sind, Ihre Bestellung zu bestellen, klicken Sie **auf Bestellung bestellen**.
 
     > [!IMPORTANT]
@@ -68,7 +68,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
   
 - Wenn Sie für Ihre Benutzer 999 oder weniger Telefonnummern benötigen, verwenden Sie den Portierungs-Assistenten im Microsoft Teams Admin Center. Führen Sie die Schritte unter [Übertragen von Telefonnummern zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)aus. Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist, können Sie einen Portierungsauftrag manuell übermitteln oder unter Verwalten von Telefonnummern für Ihre Organisation nach dem Herunterladen des richtigen Genehmigungsschreibens (Letter of Authorization; LOA) lesen. [](phone-number-calling-plans/manually-submit-port-order.md) [](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-- Wenn Sie mehr als 999 Telefonnummern [](phone-number-calling-plans/manually-submit-port-order.md) portieren müssen, können [](/microsoftteams/manage-phone-numbers-for-your-organization) Sie manuell einen Portierungsauftrag übermitteln oder unter Verwalten von Telefonnummern für Ihre Organisation die richtige Genehmigungsschreiben herunterladen und dann an den [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) Service Desk senden, um alle Ihre Nummern zu übertragen.
+- Wenn Sie mehr als 999 Telefonnummern [](phone-number-calling-plans/manually-submit-port-order.md) portieren müssen, können [](/microsoftteams/manage-phone-numbers-for-your-organization) Sie manuell einen Portierungsauftrag übermitteln, oder lesen Sie Verwalten von Telefonnummern für Ihre Organisation, um die richtige Genehmigungsschreiben herunterzuladen und dann an den [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) Service Desk zu senden, um alle Ihre Nummern zu übertragen.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 

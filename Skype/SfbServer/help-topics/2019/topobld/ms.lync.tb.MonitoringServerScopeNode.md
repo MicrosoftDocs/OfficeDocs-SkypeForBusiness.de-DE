@@ -11,20 +11,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung in der Konsolenstruktur ausgeführt wird, auf der Symbolleiste auf Aktion oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:'
-ms.openlocfilehash: da1c88215191bfb52d768183a6f187e2064932766498403db1c6a30b26637b8a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e352bdb67fa8957c9d25e9e876f512fce38fc5a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622687"
 ---
-# <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
+# <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
  
-Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung in der Konsolenstruktur ausgeführt wird, auf der Symbolleiste auf **Aktion** klicken oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:
+Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung in der Konsolenstruktur ausgeführt wird, auf der Symbolleiste auf **Aktion** oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:
   
 - **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für den Server mit Überwachung, auf dem Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers ändern können, auf dem die Überwachung ausgeführt wird, oder die Überwachungsdatenbank SQL Server.
     

@@ -11,17 +11,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: dansteve, anmich
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: daf2ee6e537936893c45fe15d296bef268db3d5a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602090"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -31,7 +31,7 @@ Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie den Artikel [Rem
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 
-- Stellen Sie sicher, dass alle Benutzer auf Teams zugreifen können, nutzen Sie dazu ein [kostenpflichtiges Abonnement, das Teams beinhaltet](/office365/servicedescriptions/teams-service-description). Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
+- Stellen Sie sicher, dass jeder Zugriff auf Teams mit einer [kostenpflichtigen Version, die Teams beinhaltet,](/office365/servicedescriptions/teams-service-description) hat. Alternativ können berechtigte Unternehmen die **[Kostenlose Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** verwenden oder Mitarbeiter **[Teams Exploratory](teams-exploratory.md)** aktivieren.
 
 -  Wenn Sie bereits über ein Abonnement verfügen, das Teams umfasst, **[aktivieren Sie es für jeden](user-access.md)**.
     
@@ -74,7 +74,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (Wie es Microsoft seinen Mitarbeitern ermöglicht, mit Microsoft Teams remote zu arbeiten)
    - [Unterstützung für kleine und mittelständische Unternehmen bei der Remotearbeit mit Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Die neun wichtigsten Methoden, mit denen Microsoft IT Mitarbeitern die Remotearbeit ermöglicht](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Die neun wichtigsten Methoden, mit denen Microsoft IT Mitarbeitern die Remotearbeit ermöglicht](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Microsoft Teams für Bildungseinrichtungen 

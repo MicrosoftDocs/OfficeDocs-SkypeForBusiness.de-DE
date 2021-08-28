@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Erfahren Sie mehr über die Bereitstellung eines einzelnen PSTN-Standorts in Cloud Connector Edition.
-ms.openlocfilehash: 52c10b8c5e386f72415ce5a379b68b0b469f825f5cf52be9b225f28dcf8232b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07262f88f85602b6213dc287babbd05ddec25ed9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298125"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610542"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Bereitstellen eines einzelnen Standorts in Cloud Connector
  
@@ -30,7 +30,7 @@ ms.locfileid: "54298125"
 
 Erfahren Sie mehr über die Bereitstellung eines einzelnen PSTN-Standorts in Cloud Connector Edition.
   
-Sie können Skype for Business Cloud Connector Edition mit oder ohne Unterstützung für hohe Verfügbarkeit (High Availability, HA) bereitstellen. Wenn Sie HA aktivieren möchten, müssen Sie zwei oder mehr Appliances an einem Standort bereitstellen. Sie können auch eine vorhandene Appliance konvertieren, um HA nach der Bereitstellung zu unterstützen.
+Sie können Skype for Business Cloud Connector Edition mit oder ohne Unterstützung für hohe Verfügbarkeit (Ha) bereitstellen. Wenn Sie HA aktivieren möchten, müssen Sie zwei oder mehr Appliances an einem Standort bereitstellen. Sie können auch eine vorhandene Appliance konvertieren, um HA nach der Bereitstellung zu unterstützen.
   
 ## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>Bereitstellen der ersten Skype for Business Cloud Connector Edition Appliance
 
@@ -77,7 +77,7 @@ Sie können einen vorhandenen Cloud Connector-Standort erweitern, um HA zu unter
    ```
 
 > [!NOTE]
-> Wenn das Websiteverzeichnis auf einen lokalen Ordnerpfad festgelegt wurde, müssen Sie eine Dateifreigabe für diesen Ordner definieren und einen UNC-Pfad für das Websiteverzeichnis in der neuen Appliance verwenden. Sie können das Verzeichnis des ersten Appliance-Standorts mit dem lokalen Pfad belassen oder ihn so ändern, dass der UNC-Pfad für die Freigabe für denselben Ordner verwendet wird. Wenn sich der Speicherort des freigegebenen Standortverzeichnisses ändert, müssen alle zuvor installierten Appliances deinstalliert und dann neu installiert werden. > Wichtig: Das Kennwort für das CceService-Konto und das CABackupFile-Konto muss für alle Appliances, die innerhalb des Standorts bereitgestellt werden, identisch sein, damit die Appliances auf die Standortverzeichnisfreigabe und die verschlüsselte CA-Sicherungsdatei im Standortverzeichnis zugreifen können. 
+> Wenn das Websiteverzeichnis auf einen lokalen Ordnerpfad festgelegt wurde, müssen Sie eine Dateifreigabe für diesen Ordner definieren und einen UNC-Pfad für das Websiteverzeichnis in der neuen Appliance verwenden. Sie können das Standortverzeichnis der ersten Appliance mit dem lokalen Pfad belassen oder ändern, um den UNC-Pfad für die Freigabe für denselben Ordner zu verwenden. Wenn sich der Speicherort des freigegebenen Standortverzeichnisses ändert, müssen alle zuvor installierten Appliances deinstalliert und dann neu installiert werden. > Wichtig: Das Kennwort für das CceService-Konto und das CABackupFile-Konto muss für alle Appliances, die innerhalb des Standorts bereitgestellt werden, identisch sein, damit die Appliances auf die Standortverzeichnisfreigabe und die verschlüsselte CA-Sicherungsdatei im Standortverzeichnis zugreifen können. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Entfernen einer Appliance von einem vorhandenen Standort
 

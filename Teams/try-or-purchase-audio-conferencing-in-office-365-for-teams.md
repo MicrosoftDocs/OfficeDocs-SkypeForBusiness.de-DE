@@ -16,7 +16,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Erfahren Sie, wie Sie Lizenzen für Audiokonferenzen (PSTN-Konferenzen) für Microsoft 365 oder Office 365 zum Einrichten von Telefonkonferenzen einrichten, in die sich Benutzer einwählen können. '
-ms.openlocfilehash: bcf67443b395e5951d9499124d360061c4ea9a21c130eef5e9efe4187caa7088
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af031e26cceb920811c3b4f349fda44fd7e3a387
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611534"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Testen oder kaufen Sie Audiokonferenzen in Microsoft 365 für Microsoft Teams
 
@@ -73,11 +73,11 @@ Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Li
 4. [Weisen Sie Lizenzen benutzern](/microsoft-365/admin/manage/assign-licenses-to-users) in Ihrer Organisation zu, die Besprechungen planen oder führen werden.
 
     > [!NOTE]
-    > Wenn Sie über Lizenzen für Audiokonferenzen mit Minutenlizenzen verfügen, müssen Sie jedem Benutzer auch separat eine Lizenz für Guthaben für Kommunikationen zuweisen.
+    > Wenn Sie Über Lizenzen für Audiokonferenzen mit Minuten für Audiokonferenzen verfügen, müssen Sie jedem Benutzer auch separat eine Lizenz für Guthaben für Kommunikationen zuweisen.
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Providers von Audiokonferenz für Personen, die Meetings führen oder planen
 
-Wenn Sie Personen in Ihrer Organisation, die nicht über Skype for Business einen Drittanbieter für **Audiokonferenzen** verfügen, eine Lizenz für Audiokonferenzen zuweisen, sind diese alle eingerichtet und einsatzbereit! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
+Wenn Sie Personen in Ihrer Organisation, die Skype for Business nicht mit einem Drittanbieter für **Audiokonferenzen** integriert haben, eine Lizenz für Audiokonferenzen zuweisen, sind diese alle eingerichtet und einsatzbereit! (Sie müssen deren Provider von Audiokonferenz nicht festlegen.)
 
 Wenn Sie Benutzer mit einem Drittanbieter für Audiokonferenzen aktiviert haben, müssen Sie den Anbieter dieser Benutzer in Microsoft ändern. Informationen zum Ändern des Anbieters für einen Benutzer finden Sie unter Zuweisen von Microsoft als [Audiokonferenzanbieter.](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 

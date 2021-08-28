@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestOrgInfo
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: Im Bereich Organisationsinformationen können Sie den Namen Ihrer Organisation und eine Organisationseinheit (in der Regel den Geschäftsbereich oder die Abteilung) angeben, die das Zertifikat anfordert. Die Informationen, die Sie in die Textfelder Organisation und Organisationseinheit eingeben, werden auf dem Zertifikat angezeigt und dienen zum Bestimmen des Zertifikatanforderers, wenn das Zertifikat von Dritten angezeigt wird.
-ms.openlocfilehash: c7209c071ea8f727e2213623b6f28592e30912bd0bd1a757e11f8a6d66600986
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 909051415d4bff3cfd2490e03c70bb6af64d5049
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335375"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610942"
 ---
 # <a name="certificate-request-organization-information"></a>Zertifikatanforderung (Organisationsinformationen)
  
