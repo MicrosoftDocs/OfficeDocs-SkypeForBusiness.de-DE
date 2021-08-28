@@ -10,7 +10,7 @@ ms.reviewer: ''
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Open-Source Learning Management System (LMS)-App Moodle für Microsoft Teams installieren und konfigurieren.
 keywords: Plug-In zur Integration der Moodle-App für Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca7bc34eeaf0f7b2c6bd552038b9b2567c872351d91c264936ec9072957bc2b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 061978876e9e8c092f19049ca5f44dd81a9b1012
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344018"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592301"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation der Moodle-Integration in Microsoft Teams
 
@@ -62,7 +62,7 @@ Die Moodle-Integration in Microsoft Teams wird vom Open-Source [Moodle-Plug-In-S
 1. Melden Sie sich bei Ihrem Moodle-Server als Administrator an, und wählen **Sie** im linken Navigationsbereich Websiteverwaltung aus.
 1. Wählen Sie die Registerkarte **Plug-Ins** und klicken Sie dann auf **Plug-Ins installieren**.
 1. Klicken Sie unter dem Abschnitt **Plug-In aus ZIP-Datei installieren** auf die Schaltfläche **Datei auswählen**.
-1. Wählen Sie **Hochladen linken Navigationsbereich** die Option Datei auswählen aus, suchen Sie nach der oben heruntergeladenen Datei, und klicken Hochladen **diese Datei .**
+1. Wählen Sie **Hochladen linken Navigationsbereich** die Option Datei auswählen aus, suchen Sie nach der oben heruntergeladenen Datei, und klicken Sie **Hochladen datei .**
 1. Wählen Sie im linken Navigationsbereich die Option **Websiteverwaltung** erneut aus, um zu Ihrem Administrator-Dashboard zurückzukehren. Scrollen Sie nach unten zu **Lokale Plug-Ins** und klicken Sie auf den Link **Microsoft Office 365-Integration**. Lassen Sie diese Konfigurationsseite in einer separaten Browser-Registerkarte geöffnet, da Sie diese während des gesamten weiteren Verlaufs dieses Vorgangs verwenden werden.
 
 Weitere Informationen über die Installation von Moodle-Plug-Ins finden Sie in der [Moodle-Dokumentation](https://docs.moodle.org/34/en/Installing_plugins).
@@ -127,7 +127,7 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
     * Um "OpenID Connect" zu aktivieren, klicken Sie auf den Link **Authentifizierung verwalten** und klicken Sie auf das Augensymbol in der Zeile **OpenId Connect**, wenn es abgeblendet ist.
     * Als nächstes müssen Sie die Frame-Einbettung aktivieren. Klicken Sie auf den Link **HTTP-Sicherheit** und dann auf das Kontrollkästchen neben **Frame-Einbettung zulassen**.
     * Der nächste Schritt besteht darin, Webdienste zu aktivieren, welche die Features der Moodle-API aktivieren. Klicken Sie auf den Link **Erweiterte Features**, und stellen Sie sicher, dass das Kontrollkästchen neben **Webdienste aktivieren** aktiviert ist.
-    * Schließlich müssen Sie die externen Dienste für den Microsoft 365 oder Office 365. Klicken Sie auf den Link **Externe Dienste**, und dann:
+    * Schließlich müssen Sie die externen Dienste für ihre Microsoft 365 oder Office 365. Klicken Sie auf den Link **Externe Dienste**, und dann:
         * Klicken Sie auf **Bearbeiten** in der Zeile **Moodle Office 365-Webdienste**.
         * Aktivieren Sie das Kontrollkästchen neben **Aktiviert**, und klicken Sie dann auf **Änderungen speichern**
     * Als nächstes müssen Sie die Berechtigungen für authentifizierte Benutzer bearbeiten, damit Sie Webdienst-Token erstellen können. Klicken Sie auf den Link **Bearbeitungsrolle "Authentifizierter Benutzer"**. Scrollen Sie nach unten und suchen Sie die Funktion **Webdienst-Token erstellen** und aktivieren Sie das Kontrollkästchen **Zulassen**.

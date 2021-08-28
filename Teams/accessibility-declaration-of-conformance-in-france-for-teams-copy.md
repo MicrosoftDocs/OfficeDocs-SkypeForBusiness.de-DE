@@ -12,20 +12,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impli einee et ene. "
-ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impli einee et vorkommn. "
+ms.openlocfilehash: 97ce2f3a4bd74d56b57a15a249b7b2fa50f27660
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372225"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589929"
 ---
 #  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en èère d'accessibilité
 
@@ -195,7 +195,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 <p>Dans le cas où une TIC dotée de la fonctionnalité RTT affité une interopérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l 'exige le 6.2.1.1), elles sont compatibles avec au moins un des quatre mécanismes d'interopérabilité RTT décrits ci-dessous :</p>
 <p>a) TIC inter-zentnt sur le Réseau Téléléique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de sesinkes pour les signaux de télévecie en mode texte sur l'interface RTC ;</p>
 <p>b) TIC inter-statusnt avec une autre TIC utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103 ;</p>
-<p>c) TIC inter-ververnt avec une autre TIC utilisant une technologie RTT conforme à l'des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
+<p>c) TIC inter-wifint avec une autre TIC utilisant une technologie RTT conforme à l'des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;</p>
 <p>d) TIC inter-statusnt avec une autre TIC utilisant une spécification adaptée et applicable pour l'échange RTT qui est weiterée et peut être consultée. Cette spécification den comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
@@ -734,7 +734,7 @@ Cette section ne s'applique pas à Skype Pipette 2016.
 
 ### <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>Section 13 TIC assurant le ou l'accès à des services d'urgence
 
-Cette section ne s'applique pas à Skype Maisonprise2016.
+Cette section ne s'applique pas à Skype Pipette2016.
 
 
 © 2017 Microsoft Corporation. Tous droits réservés. Les noms des unent den et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.

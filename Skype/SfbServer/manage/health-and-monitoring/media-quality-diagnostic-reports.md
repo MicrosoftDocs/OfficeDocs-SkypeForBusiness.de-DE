@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Zusammenfassung: Erfahren Sie mehr über die Diagnoseberichte zur Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: 3f252fb3871f455f79ea39018b8a87c06c12b3247189541d0a0ec3139dbe15b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 406eb2208b6f2f53e708732f2de751786ab296a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592549"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Diagnoseberichte zur Medienqualität in Skype for Business Server
  
@@ -31,7 +31,7 @@ Die Medienqualitäts-Diagnoseberichte bieten Informationen über die Anrufqualit
     
 - [Vergleichsbericht über Medienqualität in Skype for Business Server](comparison.md) Stellt einen Vergleich der Werte für die Anrufqualität für verschiedene Arten von Audioanrufen bereit (z. B. Anrufe über ein Drahtlosnetzwerk und Anrufe über eine kabelgebundene Verbindung).
     
-- [Serverleistungsbericht in Skype for Business Server](server-performance.md) Listet die Server auf, bei denen die meisten Probleme aufgetreten sind, basierend auf Messungen von wichtigen Qualitätsmetriken wie Beeinträchtigung, Paketverlust und Jitter.
+- [Bericht über Serverleistung in Skype for Business Server](server-performance.md) Listet die Server auf, bei denen die meisten Probleme aufgetreten sind, basierend auf Messungen von wichtigen Qualitätsmetriken wie Beeinträchtigung, Paketverlust und Jitter.
     
 - [Standortbericht in Skype for Business Server](location-report.md) Stellt eine Liste der Netzwerkstandorte und eine Zusammenfassung der Medienqualität der Anrufe bereit, die an jedem Standort stattfinden. Für diesen Bericht basieren Standorte auf IP-Subnetzen.
     

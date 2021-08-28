@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu Standorten, Regionen und Bandbreite Ihres Netzwerks.
-ms.openlocfilehash: 47f44f6b20779cce80c5499eb792945276fec7144fb7661e8aca8ce97e1e09ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu den Standorten, Regionen und der Bandbreite Ihres Netzwerks.
+ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324125"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590990"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Beispiel: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server
 
-Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu Standorten, Regionen und Bandbreite Ihres Netzwerks.
+Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu den Standorten, Regionen und der Bandbreite Ihres Netzwerks.
 
 Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementierung der Anrufsteuerungsdiensts (Call Admission Control, CAC). Bei diesem Verfahren werden die folgenden allgemeinen Aufgaben ausgeführt:
 
@@ -35,7 +35,7 @@ Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementi
 
 3. Identifizieren und Definieren der Netzwerkstandorte, die mit jeder Netzwerkregion verbunden sind.
 
-4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN bandbreiteneinschränkungen ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreiteneinschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
+4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN mit Bandbreiteneinschränkungen verbunden ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreiteneinschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
 
 5. Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.
 
@@ -74,7 +74,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     |:-----|:-----|
     |Nordamerika  <br/> |Chicago  <br/> |
     |EMEA  <br/> |London  <br/> |
-    |Apac  <br/> |Peking  <br/> |
+    |APAC  <br/> |Peking  <br/> |
 
     > [!NOTE]
     > Je nach Skype for Business Server Topologie kann derselbe zentrale Standort mehreren Netzwerkregionen zugewiesen werden. 
@@ -195,7 +195,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
    | **Name der Regionenverbindung**  | **Erste Region**     | **Zweite Region** | **Grenzwert für Bandbreite**  | **Grenzwert für Audio** | **Grenzwert für Audiositzung** | **Grenzwert für Video** | **Grenzwert für Videositzung** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
    | NA-EMEA-LINK  <br/>   | Nordamerika  <br/> | EMEA  <br/>       | 50.000  <br/> | 20.000  <br/>   | 175  <br/>              | 14,000  <br/>   | 700  <br/>              |
-   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | Apac  <br/>       | 25.000  <br/> | 10,000  <br/>   | 175  <br/>              | 7,000  <br/>    | 700  <br/>              |
+   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25.000  <br/> | 10,000  <br/>   | 175  <br/>              | 7,000  <br/>    | 700  <br/>              |
 
 
 8. Definieren einer Route zwischen jedem Netzwerkregionenpaar.
@@ -209,8 +209,8 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
    | **Name der Regionenroute**  | **Erste Region**     | **Zweite Region** | **Regionenverbindungen**                    |
    |:-----------------------|:---------------------|:------------------|:------------------------------------|
    | NA-EMEA-ROUTE  <br/>   | Nordamerika  <br/> | EMEA  <br/>       | NA-EMEA-LINK  <br/>                 |
-   | EMEA-APAC-ROUTE  <br/> | EMEA  <br/>          | Apac  <br/>       | EMEA-APAC-LINK  <br/>               |
-   | NA-APAC-ROUTE  <br/>   | Nordamerika  <br/> | Apac  <br/>       | NA-EMEA-LINK, EMEA-APAC-LINK  <br/> |
+   | EMEA-APAC-ROUTE  <br/> | EMEA  <br/>          | APAC  <br/>       | EMEA-APAC-LINK  <br/>               |
+   | NA-APAC-ROUTE  <br/>   | Nordamerika  <br/> | APAC  <br/>       | NA-EMEA-LINK, EMEA-APAC-LINK  <br/> |
 
 
 9. Ermitteln Sie für jedes Netzwerkstandortpaar, das durch eine einzelne Verbindung direkt miteinander verbunden wird (als standortübergreifende Verbindung bezeichnet), die folgenden Informationen:
@@ -238,4 +238,4 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die Cac-Bereitstellung entweder mithilfe der Skype for Business Server Verwaltungsshell oder Skype for Business Server Systemsteuerung durchführen.
 
 > [!NOTE]
-> Obwohl Sie die meisten Netzwerkkonfigurationsaufgaben mithilfe Skype for Business Server Systemsteuerung ausführen können, müssen Sie zum Erstellen von Subnetzen und standortübergreifenden Verbindungen Skype for Business Server Verwaltungsshell verwenden. Ausführliche Informationen finden Sie unter ["New-CsNetworkSubnet"](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und ["New-CsNetworkInterSitePolicy".](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+> Obwohl Sie die meisten Netzwerkkonfigurationsaufgaben mithilfe Skype for Business Server Systemsteuerung ausführen können, müssen Sie zum Erstellen von Subnetzen und Standortverknüpfungen Skype for Business Server Verwaltungsshell verwenden. Ausführliche Informationen finden Sie unter ["New-CsNetworkSubnet"](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und ["New-CsNetworkInterSitePolicy".](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)

@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,31 +22,31 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Erhalten Sie Skype for Business Peer-zu-Peer-Aktivitätsbericht, und erfahren Sie, wie Sie ihn interpretieren und an Ihre Anforderungen anpassen können. '
-ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7616e13f81b2b8ec204409f7a90e275dab795742
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592939"
 ---
 # <a name="peer-to-peer-activity-report"></a>Bericht „Peer-zu-Peer-Aktivitäten“
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Im **Dashboard** Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Sie können z. B. mithilfe des Berichts Skype for Business **Peer-zu-Peer-Aktivität** sehen, in welchem Land ihre Benutzer Nachrichten, Audio, Video, Anwendungsfreigabe und Dateiübertragung verwenden. 
+Im **Dashboard** Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie mithilfe des Skype for Business **Peer-zu-Peer-Aktivitätsberichts** sehen, in welchem Land Ihre Benutzer Diebe, Audio, Video, Anwendungsfreigabe und Dateiübertragung verwenden. 
 
 Sehen Sie sich die [Übersicht über Berichte an.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
 Dieser Bericht bietet Ihnen zusammen mit Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich. 
   
 > [!NOTE]
-> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
+> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich als Administrator bei der Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>So rufen Sie den Bericht „Skype for Business - Peer-zu-Peer-Aktivitäten" ab
 
-1. Wechseln Sie zum Admin Center, > **Berichtnutzung**  >  **aus.**
+1. Wechseln Sie zum Admin Center, und >   >  **Berichtnutzung aus.**
     
-2. Wählen Sie **auf** der Seite Verwendung **Skype for Business** der Liste Bericht auswählen die Option  >  **Peer-zu-Peer-Aktivität** aus.  Oder klicken Sie Skype for Business Widget Peer-zu-Peer-Aktivität und dann **Skype for Business Peer-zu-Peer-Aktivität** in Skype for Business Aktivitätsliste auf  Peer-zu-Peer-Aktivitäten. 
+2. Wählen Sie **auf** der Seite Nutzung **Skype for Business** der Liste Bericht auswählen die Option  >  **Peer-zu-Peer-Aktivität** aus.  Oder klicken Sie Skype for Business Widget "Peer-zu-Peer-Aktivität" und Skype for Business **peer-to-peer-Aktivität** in Skype for Business **Aktivitätsliste auf Peer-zu-Peer-Aktivitäten.** 
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpretieren des Berichts „Skype for Business - Peer-zu Peer-Aktivitäten"
 
@@ -63,7 +63,7 @@ Einen Einblick in die Peer-zu-Peer-Aktivitäten in Skype for Business erhalten S
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Aktivität**, um die Nutzungstrends nachzuvollziehen und die Gesamtanzahl der in Ihrer Organisation abgehaltenen Sitzungen pro Sitzungstyp einzusehen. Es zeigt Ihnen die Gesamtanzahl sowie die Arten von Sitzungen mit Audio, **Video,** Anwendungsfreigabe und Dateiübertragungen  in der gesamten Organisation. 
+![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Aktivität**, um die Nutzungstrends nachzuvollziehen und die Gesamtanzahl der in Ihrer Organisation abgehaltenen Sitzungen pro Sitzungstyp einzusehen. Es zeigt Ihnen die Gesamtanzahl sowie die Arten von Sitzungen mit **Audio,** **Video,** Anwendungsfreigabe und Dateiübertragungen  in der gesamten Organisation an. 
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten im Diagramm **Benutzer**, um Nutzungstrends nachzuvollziehen und die Anzahl an eindeutigen Benutzern, die an den in Ihrer Organisation abgehaltenen Peer-zu-Peer-Aktivitäten teilgenommen haben, anzuzeigen. Es zeigt Ihnen die Gesamtanzahl der Benutzer sowie die Arten von **Nachrichten,** **Audio**, **Video**, **Anwendungsfreigabe** und Dateiübertragungen  in Peer-zu-Peer-Sitzungen.
 ***
@@ -76,11 +76,11 @@ Einen Einblick in die Peer-zu-Peer-Aktivitäten in Skype for Business erhalten S
 
 Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für diesen bestimmten Bericht.
 ***
-![Nummer 7](../images/sfbcallout7.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen  Sie beispielsweise im Diagramm Aktivität auf **Im** Zusammenhang  mit , **Audio**, **Video**, **Anwendungsfreigabe** und Dateiübertragungen, um nur die jeweils zugehörigen Informationen zu sehen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
+![Nummer 7](../images/sfbcallout7.png)<br/>Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen  Sie z. B. im Diagramm Aktivität auf  **"Im** Zusammenhang mit", **"Audio",** **"Video",** "Anwendungsfreigabe" und "Dateiübertragungen", um nur die jeweils zugehörigen Informationen zu sehen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert. 
 ***
 ![Nummer 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Peer-zu-Peer-Aktivitäten pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie deren Peer-zu-Peer-Aktivitäten. Sie können zusätzliche Spalten zur Tabelle hinzufügen.
 *    **Benutzername** ist der Name des Benutzers.
-*    **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde. <br/> <br/> **Hinweis:**  Aktivitäten für einen gelöschten Benutzer werden weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums über eine Lizenz für den Benutzer lizenziert war. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.  <br/><br/>
+*    **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde. <br/> <br/> **Hinweis:**  Aktivitäten für einen gelöschten Benutzer werden weiterhin in einem Bericht angezeigt, solange der Benutzer zu einem Zeitpunkt im ausgewählten Zeitraum über eine Lizenz verknendte war. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.  <br/><br/>
 *    **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde. 
 *    **Datum der letzten Aktivität (UTC)** ist das Datum der letzten Aktivität (UTC) für diesen Benutzer.
 *    **Chat** zeigt die Gesamtanzahl der von dem Benutzer verwendeten Peer-zu-Peer-Sitzungen an.
@@ -107,13 +107,13 @@ Wenn die Richtlinien Ihrer Organisation verhindern, dass Sie Berichte anzeigen, 
     
 - [Skype for Business konferenzteilnehmer-Aktivitätsbericht](conference-participant-activity-report.md) Sie können sehen, an wie vielen Ein-/Einwahlkonferenzen, Audio/Video-, Anwendungsfreigabe-, Web- und Ein-/Aus-Konferenzen teilgenommen wird.
     
-- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
     
 - [Bericht zum PSTN-Verbrauch in Skype for Business](pstn-usage-report.md) : Sie können die Anzahl der Minuten sehen, die für eingehende/ausgehende Anrufe aufgewendet wurden, sowie die Kosten für diese Anrufe.
     
 - [Skype for Business Bericht zu PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Skype for Business sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
+- [Skype for Business Sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

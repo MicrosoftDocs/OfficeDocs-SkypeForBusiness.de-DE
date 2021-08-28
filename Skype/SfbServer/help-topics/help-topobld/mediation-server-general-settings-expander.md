@@ -12,16 +12,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: 9ad2517641a4a7bbfe0d353497331ef8fade52c24099cc770477530dc6021b99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff3ac070f3013a2f54f847e578e93f8215c7ad6f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591289"
 ---
-# <a name="mediation-server-general-settings-expander"></a>Allgemeine Einstellungen des Vermittlungsservers – Erweiterung
+# <a name="mediation-server-general-settings-expander"></a>Allgemeine Einstellungen des Vermittlungsservers – Erweiterung
  
 
 
@@ -29,7 +29,7 @@ ms.locfileid: "54283407"
 
 Vollqualifizierter Domänenname (FQDN) des Vermittlungsserverpools oder Vermittlungsservers. Bearbeiten Sie den FQDN des Servers, um den Wert zu ändern. Sie müssen über einen DNS-A-Eintrag (Domain Name System) verfügen, der mit dem neuen Wert übereinstimmt.
   
-Im Abschnitt **Zuordnungen** wählen Sie einen Edgeserver oder Edgeserverpool aus, der dem Vermittlungsserverpool oder Vermittlungsserver zugeordnet werden soll. Sie wählen den Edgeserver aus, den die Medienkomponenten des Vermittlungsservers für externe Benutzer Enterprise-VoIP verwenden.
+Im Abschnitt **Zuordnungen** wählen Sie einen Edgeserver oder Edgeserverpool aus, der dem Vermittlungsserverpool oder Vermittlungsserver zugeordnet werden soll. Sie wählen den Edge aus, den die Medienkomponenten des Vermittlungsservers für externe Benutzer Enterprise-VoIP verwenden.
   
 Wenn gegenwärtig kein Edgeserver definiert ist und der Vermittlungsserver einem Edgeserver zugeordnet werden muss, klicken Sie auf **Neu**, und definieren Sie den neuen Edgeserver oder Edgeserverpool im Assistenten zum Definieren des neuen Edgeserverpools.
   

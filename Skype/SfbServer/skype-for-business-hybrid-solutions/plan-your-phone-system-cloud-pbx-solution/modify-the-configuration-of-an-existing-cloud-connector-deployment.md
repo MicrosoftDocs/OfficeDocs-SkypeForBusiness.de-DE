@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema aus, um die Konfiguration einer vorhandenen Skype for Business Cloud Connector Edition 1.4.1 oder höher zu ändern.
-ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d0771e1f6a62015cf040a899c88696016366e47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324184"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590009"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
 
@@ -33,7 +33,7 @@ Führen Sie die Schritte in diesem Thema aus, um die Konfiguration einer vorhand
 ## <a name="modify-the-configuration-of-a-single-site"></a>Ändern der Konfiguration eines einzelnen Standorts
 <a name="BKMK_SIngleSite"> </a>
 
-Wenn nur eine Appliance am Standort vorhanden ist, können Sie, wenn Sie die Konfigurationseinstellungen nach der Bereitstellung der Appliance ändern möchten, die datei CloudConnector.ini ändern und die Bereitstellung erneut starten.
+Wenn nur eine Appliance am Standort vorhanden ist, können Sie, wenn Sie die Konfigurationseinstellungen nach der Bereitstellung der Appliance ändern möchten, die CloudConnector.ini Datei ändern und die Bereitstellung erneut starten.
   
 1. Führen Sie das folgende Cmdlet aus, um alle vorhandenen virtuellen Computer auf dem Hostserver zu deinstallieren: 
     
@@ -164,7 +164,7 @@ Wenn Sie automatische Updates des Betriebssystems oder bits automatische Updates
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Aktualisieren der Anmeldeinformationen des dedizierten Mandantenadministrators
 <a name="BKMK_MultipleSites"> </a>
 
-Administrative Änderungen an der Microsoft 365 oder Office 365 Organisation für Cloud Connector werden von einem Konto mit den erforderlichen Berechtigungen vorgenommen. In Cloud Connector-Versionen vor Version 2.0 ist dieses Konto ein dediziertes globales Mandantenadministratorkonto. In Cloud Connector, Version 2.0 und höher, kann es sich bei diesem Konto um ein Microsoft 365 oder Office 365 Konto mit Skype for Business Administratorrechten handeln.
+Administrative Änderungen an der Microsoft 365 oder Office 365 Organisation für Cloud Connector werden von einem Konto mit den erforderlichen Berechtigungen vorgenommen. In Cloud Connector-Versionen vor Version 2.0 ist dieses Konto ein dediziertes globales Mandantenadministratorkonto. In Cloud Connector, Version 2.0 und höher, kann es sich bei diesem Konto um ein Microsoft 365- oder Office 365 Konto mit Skype for Business Administratorrechten handeln.
   
 Wenn sich die Anmeldeinformationen Ihres Administratorkontos in Microsoft 365 oder Office 365 ändern, müssen Sie auch die lokal zwischengespeicherten Anmeldeinformationen in Cloud Connector aktualisieren, indem Sie den folgenden Administrator-PowerShell-Befehl in jeder Cloud Connector-Appliance ausführen, die Sie bereitgestellt haben:
   

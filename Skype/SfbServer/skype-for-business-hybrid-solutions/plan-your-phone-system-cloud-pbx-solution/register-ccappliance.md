@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Das cmdlet Register-CcAppliance registriert Appliance-Informationen an einem PSTN-Standort in einer Onlinemandantenkonfiguration. Eine Appliance muss registriert werden, bevor sie vom Skype for Business Cloud Connector Edition-Verwaltungsdienst bereitgestellt und verwaltet werden kann.
-ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 159e74f91ca26cd0f8bdd214c9cd6ac45b5c1196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589959"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -76,7 +76,7 @@ In der folgenden Situation schlägt das Cmdlet fehl und gibt an, dass Site1 bere
     
 - Ein PSTN-Standort, dessen SiteName "NewSite" und der externe Edgeserver-FQDN edgserver1.contoso.com ist, wurde registriert. 
     
-ApplianceName in Kombination mit dem Vermittlungsserver-FQDN in CloudConnector.ini Datei gilt als Appliance-Identität. Wenn weder der ApplianceName noch der Vermittlungsserver-FQDN zum Registrieren einer Appliance verwendet wurde, wird in der Onlinemandantenkonfiguration eine neue Appliance erstellt. Wenn die Appliance bereits registriert ist, schlägt das Cmdlet fehl.
+ApplianceName in Kombination mit dem Vermittlungsserver-FQDN in CloudConnector.ini Datei wird als Appliance-Identität betrachtet. Wenn weder der ApplianceName noch der Vermittlungsserver-FQDN zum Registrieren einer Appliance verwendet wurde, wird in der Onlinemandantenkonfiguration eine neue Appliance erstellt. Wenn die Appliance bereits registriert ist, schlägt das Cmdlet fehl.
   
 In der folgenden Situation schlägt das Cmdlet fehl und gibt an, dass die Appliance bereits registriert ist: 
   
@@ -89,7 +89,7 @@ In der folgenden Situation schlägt das Cmdlet fehl und gibt an, dass die Applia
 
 |**Parameter**|**Required**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|Sitename  <br/> |Optional  <br/> |System.String  <br/> |Name des PSTN-Standorts, für den die Appliance registriert ist. Der Standardwert ist der SiteName-Wert in der CloudConnector.ini-Datei.  <br/> |
+|Sitename  <br/> |Optional  <br/> |System.String  <br/> |Name des PSTN-Standorts, für den die Appliance registriert ist. Der Standardwert ist der SiteName-Wert in der CloudConnector.ini Datei.  <br/> |
 |ApplianceName  <br/> |Optional  <br/> |System.String  <br/> |Name der aktuellen Appliance. Der Standardwert ist der Computername des Hostservers.  <br/> |
 |Lokal  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Überprüfen Sie Konfigurationen auf lokale Registrierung, ohne eine Verbindung mit der Onlinemandantenkonfiguration herzustellen.  <br/> |
    

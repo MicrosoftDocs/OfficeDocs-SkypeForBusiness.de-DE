@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Die Administratorberichte stellen detaillierte Informationen zu Bereitstellung und Betrieb bereit. Die Berichte werden basierend auf den in "Designwebsites" markierten Auswahlen generiert. Der für den Entwurf verantwortlicher Benutzer kann die Administratorberichte durch Bearbeiten der Netzwerkdiagramme und Definieren der vollständigen IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für Server, Pools und Lastenausgleich ergänzen.
-ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 31639b124826368a1da11d359249bc6d08f64c8d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591009"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Überprüfen der Administratorberichte in Skype for Business Server 2015
 
@@ -38,7 +38,7 @@ Das Feature "Administratorberichte" ermöglicht Folgendes:
 ## <a name="review-the-summary-report"></a>Überprüfen des Zusammenfassungsberichts
 <a name="Summary_report"> </a>
 
-Der Skype for Business Administratorbericht ist der erste von vier wertvollen Berichten, die Ihr Design detailliert dokumentieren. Die Informationen in diesem Bericht und die anderen drei zugehörigen Berichte sind für Ihre informationstechnologie Teams hilfreich:
+Der Skype for Business Administratorbericht ist der erste von vier wertvollen Berichten, die Ihren Entwurf detailliert dokumentieren. Die Informationen in diesem Bericht und die anderen drei zugehörigen Berichte sind für Ihre informationstechnologie Teams hilfreich:
 
 ![Allgemeiner zusammenfassender Administratorbericht](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -61,7 +61,7 @@ Der Zertifikatbericht enthält alle Zertifikate, die in der empfohlenen Skype fo
 
 ![Zertifikatadministratorbericht](../../media/Certificates_Report_Admin_Report.png)
 
-Überprüfen Sie die Verwendung und den Zweck jedes Zertifikats in der Bereitstellung sorgfältig, und achten Sie darauf, sie zu verstehen. Wenn eine Frage dazu vorliegt, was ein Zertifikat bewirkt, bestimmen Sie, mit welchem Server oder Dienst was geredet wird. Zertifikate in Skype for Business Server 2015 werden hauptsächlich für zwei Zwecke verwendet:
+Überprüfen Sie die Verwendung und den Zweck der einzelnen Zertifikate in der Bereitstellung sorgfältig, und achten Sie darauf, sie zu verstehen. Wenn eine Frage dazu vorliegt, was ein Zertifikat bewirkt, bestimmen Sie, mit welchem Server oder Dienst was geredet wird. Zertifikate in Skype for Business Server 2015 werden hauptsächlich für zwei Zwecke verwendet:
 
 - Mutual Transport Layer Security (MTLS) – Die an der Kommunikation beteiligten Computer stellen jeweils ein Zertifikat vor, das ihre Identität gegenüber einem anderen Computer nachweist. Dies wird als Serverauthentifizierung bezeichnet. Die Kommunikation kann erst beginnen, wenn jeder Computer der Identität des anderen Computers vertraut.
 

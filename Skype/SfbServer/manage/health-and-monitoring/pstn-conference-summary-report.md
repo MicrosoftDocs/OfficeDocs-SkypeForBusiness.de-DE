@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Bericht über PSTN-Konferenzen in Skype for Business Server.'
-ms.openlocfilehash: 4fdcac31c5f674ca3289a275cc253f798fabdf5fb9ab221e5872e8b5d82fccb2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1f652e6c99db1e011624ee368244795555b61f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286764"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591149"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Zusammenfassender Bericht über PSTN-Konferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den zusammenfassenden Bericht über PSTN-Konferenzen in Skype for Business Server.
   
-In Skype for Business Server ist eine PSTN-Konferenz eine Konferenz, bei der sich mindestens ein Teilnehmer über ein Festnetztelefon (Telefonfestnetz) in den Audioteil einwählt. (Ein PSTN-Telefon ist ein Festnetztelefon, ein Mobiltelefon oder ein anderes Telefon, das voice over IP nicht verwendet.) Obwohl diese Konferenzen in den Überwachungsberichten als PSTN-Konferenzen bezeichnet werden, werden sie möglicherweise häufiger als Einwahlkonferenzen bezeichnet.
+In Skype for Business Server ist eine PSTN-Konferenz eine Konferenz, bei der sich mindestens ein Teilnehmer über ein PsTN-Telefon (Telefon mit öffentlichem Telefonnetz) in den Audioteil einwählt. (Ein PSTN-Telefon ist ein Festnetztelefon, ein Mobiltelefon oder ein anderes Telefon, das voice over IP nicht verwendet.) Obwohl diese Konferenzen in den Überwachungsberichten als PSTN-Konferenzen bezeichnet werden, werden sie möglicherweise häufiger als Einwahlkonferenzen bezeichnet.
   
 Der "Zusammenfassende Bericht über PSTN-Konferenzen" liefert Informationen zu allen in Ihrer Organisation durchgeführten PSTN-Konferenzen (das sind alle Konferenzen mit mindestens einem Einwahlbenutzer). Der Bericht enthält Informationen zur Gesamtanzahl der PSTN-Konferenzen, der Gesamtanzahl der Teilnehmer an diesen Konferenzen und vielleicht als wichtigste Information, die Gesamtanzahl der Einwahlbenutzer (Metrik der PSTN-Teilnehmer insgesamt).
   

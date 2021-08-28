@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: Der standardmäßige Transmission Control Protocol (TCP)-SIP-Port für die Kommunikation mit Clients, Legacy-Front-End-Pools und -Servern lautet 5061. Wenn der Standardwert nicht verwendet wurde, wählen Sie SIP-Port für alle Pools und Server:, und geben Sie den neuen Wert ein.
-ms.openlocfilehash: 09aa79b81bd2198ed973f2f593ecbdcc42138cb1ac6b6ceaf78184eccf9c8d96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8787ea2a191fbd4baad11f369df59e8bf3dab979
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591429"
 ---
-# <a name="legacy-merge-sip-port"></a>Legacyzusammenführung – SIP-Port
+# <a name="legacy-merge-sip-port"></a>Legacyzusammenführung – SIP-Port
  
 Der standardmäßige Transmission Control Protocol (TCP)-SIP-Port für die Kommunikation mit Clients, Legacy-Front-End-Pools und -Servern lautet 5061. Wenn der Standardwert nicht verwendet wurde, wählen Sie **SIP-Port für alle Pools und Server:**, und geben Sie den neuen Wert ein.
   

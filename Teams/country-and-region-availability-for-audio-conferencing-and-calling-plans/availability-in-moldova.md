@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,13 +25,13 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: Finden Sie Informationen darüber, Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams in Republik Microsoft 365 verfügbar sind.
-ms.openlocfilehash: ec4c3e920e335a0b92a67246c823e644b7bfa81d65a7067f9deba2dfe565ad9b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Finden Sie Informationen darüber, Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams in Republik Republik Microsoft Teams verfügbar sind.
+ms.openlocfilehash: f7fe5633f7ca2756b8e6611f1c44fabc4ff8c0c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589799"
 ---
 # <a name="availability-in-moldova"></a>Verfügbarkeit in der Republik Moldau
 

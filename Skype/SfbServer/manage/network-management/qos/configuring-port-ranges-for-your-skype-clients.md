@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfigurieren und Quality of Service-Richtlinien in Skype for Business Server für Clients konfigurieren, die auf Windows 10 ausgeführt werden.
-ms.openlocfilehash: 4d8736c9249bbef25438be7232d7802f3ddb3e9a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591159"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server
 
@@ -28,7 +28,7 @@ In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfi
 
 ## <a name="configure-port-ranges"></a>Konfigurieren von Portbereichen
 
-Standardmäßig können Skype for Business Clientanwendungen einen beliebigen Port zwischen ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. Dies liegt daran, dass bestimmte Portbereiche nicht automatisch für Clients aktiviert werden. Um Quality of Service zu verwenden, müssen Sie jedoch die verschiedenen Datenverkehrstypen (Audio, Video, Medien, Anwendungsfreigabe und Dateiübertragung) einer Reihe eindeutiger Portbereiche zuweisen. Dies kann mithilfe des Cmdlets Set-CsConferencingConfiguration erfolgen.
+Standardmäßig können Skype for Business Clientanwendungen einen beliebigen Port zwischen den Ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. Dies liegt daran, dass bestimmte Portbereiche nicht automatisch für Clients aktiviert werden. Um Quality of Service zu verwenden, müssen Sie jedoch die verschiedenen Datenverkehrstypen (Audio, Video, Medien, Anwendungsfreigabe und Dateiübertragung) einer Reihe eindeutiger Portbereiche zuweisen. Dies kann mithilfe des Cmdlets Set-CsConferencingConfiguration erfolgen.
 
 > [!NOTE]  
 > Endbenutzer können diese Änderungen nicht selbst vornehmen. Portänderungen können nur von Administratoren mithilfe des Cmdlets Set-CsConferencingConfiguration vorgenommen werden.
@@ -54,7 +54,7 @@ Wenn Sie sich die vorherige Ausgabe genauer ansehen, werden Sie zwei wichtige As
 
 **ClientMediaPortRangeEnabled : False**
 
-Dies ist wichtig, da Skype for Business Clients, wenn diese Eigenschaft auf "False" festgelegt ist, einen beliebigen verfügbaren Port zwischen den Ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. dies gilt unabhängig von anderen Porteinstellungen (z. B. ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf eine bestimmte Gruppe von Ports einschränken möchten (und dies ist bei der Implementierung von Quality of Service sinnvoll), müssen Sie zuerst Clientmedienportbereiche aktivieren. Dies kann mit dem folgenden Befehl Windows PowerShell erfolgen:
+Dies ist wichtig, da bei Festlegung dieser Eigenschaft auf "False" Skype for Business Clients einen beliebigen verfügbaren Port zwischen den Ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. dies gilt unabhängig von anderen Porteinstellungen (z. B. ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf eine bestimmte Gruppe von Ports einschränken möchten (und dies ist bei der Implementierung von Quality of Service sinnvoll), müssen Sie zuerst Clientmedienportbereiche aktivieren. Dies kann mit dem folgenden befehl Windows PowerShell erfolgen:
 
 **Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
@@ -179,11 +179,11 @@ Um eine Quality of Service-Audiorichtlinie für Windows 10 Computer zu erstellen
 
 4.  Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **"Bearbeiten".**
 
-5.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor die **Computerkonfiguration,** erweitern Sie **Windows Einstellungen,** klicken Sie mit der rechten Maustaste auf **"Richtlinienbasiertes QoS",** und klicken Sie dann auf **"Neue Richtlinie erstellen".**
+5.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor die **Computerkonfiguration,** erweitern Sie **Windows Einstellungen,** klicken Sie mit der rechten Maustaste auf **richtlinienbasiertes QoS,** und klicken Sie dann auf **"Neue Richtlinie erstellen".**
 
 6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der ersten Seite einen Namen für die neue Richtlinie in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
-7.  Wählen Sie auf der nächsten Seite **"Nur Anwendungen mit diesem ausführbaren Namen"** aus, geben **SieLync.exe** als Namen ein, und klicken Sie dann auf **"Weiter".** Diese Einstellung weist die Richtlinie an, nur übereinstimmenden Datenverkehr vom Skype for Business-Client zu priorisieren.
+7.  Wählen Sie auf der nächsten Seite **nur Anwendungen mit diesem ausführbaren Namen** aus, geben Sie **Lync.exe** als Namen ein, und klicken Sie dann auf **"Weiter".** Diese Einstellung weist die Richtlinie an, nur den übereinstimmenden Datenverkehr vom Skype for Business-Client zu priorisieren.
 
 8.  Stellen Sie auf der dritten Seite sicher, dass sowohl **eine Beliebige Quell-IP-Adresse** als auch **eine beliebige Ziel-IP-Adresse** ausgewählt sind, und klicken Sie dann auf **"Weiter".** Durch diese beiden Einstellungen wird sichergestellt, dass Pakete unabhängig davon verwaltet werden, welcher Computer (IP-Adresse) diese Pakete gesendet hat und welcher Computer (IP-Adresse) sie empfangen wird.
 
@@ -259,6 +259,6 @@ Wenn Sie DSCP-Werte für alle Netzwerkadapter auf einem Computer markieren möch
 
 Nach dem Erstellen und Konfigurieren des neuen Registrierungswerts müssen Sie ihren Computer neu starten, damit die Änderungen wirksam werden.
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Erstellen eines Gruppenrichtlinienobjekts in Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

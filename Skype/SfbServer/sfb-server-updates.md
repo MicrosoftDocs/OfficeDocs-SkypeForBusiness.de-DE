@@ -13,27 +13,27 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und Verwalten von Updates für Skype for Business Server 2015/2019 und Lync 2013 an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
-ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: 6071dabddebcce05c3dffee7578a432217a0f6cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683319"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590949"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server-Updates
 
-Suchen und Verwalten von Updates für [Skype for Business Server 2019,](#skype-for-business-server-2019-update-history) [Skype for Business Server 2015,](#skype-for-business-server-2015-update-history) [Lync Server 2013](#lync-server-2013-update-history)und [Lync Server 2010](#lync-server-2010-update-history) an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
+Suchen und Verwalten von Updates für [Skype for Business Server 2019](#skype-for-business-server-2019-update-history), [Skype for Business Server 2015](#skype-for-business-server-2015-update-history), [Lync Server 2013](#lync-server-2013-update-history)und [Lync Server 2010](#lync-server-2010-update-history) an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
 
 Die neuesten Updates Skype for Business Online und Microsoft 365 finden Sie in der [Microsoft 365 Roadmap.](https://go.microsoft.com/fwlink/p/?linkid=529454)
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019-Updateverlauf
 
-KB 4470124 ist das Master-KB für Skype for Business Server 2019, das alle verlaufshistorischen Listen aller kumulativen Updates und Hotfixes enthält, die veröffentlicht wurden. 
+KB 4470124 ist das Master-KB für Skype for Business Server 2019, das die gesamte Verlaufsliste aller kumulativen Updates und Hotfixes enthält, die veröffentlicht wurden. 
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
 |kumulatives Update 4 Skype for Business Server 2019 |[KB-4470124](https://support.microsoft.com/kb/4470124)| September 2020 |
-|Skype for Business Server 2019 Kumulatives Update 3 Hotfix 1 |[KB-4470124](https://support.microsoft.com/kb/4470124)| Juli 2020 |
+|Skype for Business Server 2019 kumulatives Update 3 Hotfix 1 |[KB-4470124](https://support.microsoft.com/kb/4470124)| Juli 2020 |
 |kumulatives Update 3 für Skype for Business Server 2019 |[KB-4470124](https://support.microsoft.com/kb/4470124)| März 2020 |
 |kumulatives Update 2 für Skype for Business Server 2019 |[KB-4470124](https://support.microsoft.com/kb/4470124)| Dezember 2019 |
 |Skype for Business Server 2019 Kumulatives Update 1 Hotfix 1 |[KB-4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
@@ -56,19 +56,18 @@ KB 4470124 ist das Master-KB für Skype for Business Server 2019, das alle verla
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
-|kumulatives Skype for Business Server 2015 Update 11|[KB-3061064](https://support.microsoft.com/kb/3061064)| August 2021 |
 |Skype for Business Server 2015 Kumulatives Update 11 Hotfix 1|[KB-3061064](https://support.microsoft.com/kb/3061064)| Juli 2020 |
-|kumulatives Skype for Business Server 2015 Update 11|[KB-3061064](https://support.microsoft.com/kb/3061064)| 13. Mai 2020 |
+|kumulatives Update 11 Skype for Business Server 2015|[KB-3061064](https://support.microsoft.com/kb/3061064)| 13. Mai 2020 |
 |Skype for Business Server 2015 Kumulatives Update 10 Hotfix 1|[KB-3061064](https://support.microsoft.com/kb/3061064)| August 2019 |
-|kumulatives Update 10 für Skype for Business Server 2015 |[KB-3061064](https://support.microsoft.com/kb/3061064)| Juli 2019 |
+|kumulatives Skype for Business Server 2015 Update 10 |[KB-3061064](https://support.microsoft.com/kb/3061064)| Juli 2019 |
 |Kumulatives Update 9 für Skype for Business Server 2015, Web Components Server|[KB-4487981](https://support.microsoft.com/kb/4487981)| Mai 2019 |
 |Kumulatives Update 8 für Skype for Business Server 2015, Front-End-Server und Edgeserver|[KB-4464355](https://support.microsoft.com/kb/4464355)|Januar 2019|
 |Kumulatives Update 7 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB-4340904](https://support.microsoft.com/kb/4340904) |Juli 2018 |
 |Kumulatives Update 6 Hotfix 2 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB-4086059](https://support.microsoft.com/kb/4086059) |März 2018 |
 |Kumulatives Update 6 Hotfix 1 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB-4074701](https://support.microsoft.com/kb/4074701)|Januar 2018 |
 |Kumulatives Update 6 für Skype for Business Server 2015, Front-End-Server und Edgeserver|[KB-4036312](https://support.microsoft.com/kb/4036312) |Dezember 2017 |
-|Kumulatives Update 5 für Skype for Business Server 2015, Front-End-Server und Edgeserver  |[KB 4012621](https://support.microsoft.com/kb/4012621) |Mai 2017 |
-|Kumulatives Update 4 Hotfix 1 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB-3207506](https://support.microsoft.com/kb/3207506) |Februar 2017 |
+|Kumulatives Update 5 für Skype for Business Server 2015, Front-End-Server und Edgeserver  |[KB-4012621](https://support.microsoft.com/kb/4012621) |Mai 2017 |
+|Kumulatives Update 4 Hotfix 1 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB 3207506](https://support.microsoft.com/kb/3207506) |Februar 2017 |
 |Kumulatives Update 4 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB-3199093](https://support.microsoft.com/kb/3199093) |November 2017 |
 |Kumulatives Update 3 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB-3149227](https://support.microsoft.com/kb/3149227) |Juni 2016 |
 |Kumulatives Update 2 für Skype for Business Server 2015, Front-End-Server und Edgeserver |[KB-3134260](https://support.microsoft.com/kb/3134260) |März 2016 |
@@ -272,4 +271,3 @@ Softwareupdates umfassen Updates, Updaterollups, Service Packs, Feature Packs, w
 - [Installieren Skype for Business Server 2015](./deploy/install/install.md)
 - [Upgrade auf Skype for Business Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Neueste Updates für Versionen von Skype for Business, die Windows Installer (MSI) verwenden](sfb-client-updates.md)
-- 

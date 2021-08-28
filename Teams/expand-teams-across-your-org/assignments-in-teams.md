@@ -18,15 +18,15 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
 description: Erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in Teams für Education.
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93cf5efd46170bf345fc098c8775e145e5b204c83b6c38434f485f2ccea9a994
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd8aef1a8d84a77f14824379383c5f77679f8c6f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592291"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
@@ -35,7 +35,7 @@ Die Features "Aufgaben" und "Noten" in Teams für Education Lehrkräften das Zuw
 [Weitere Informationen zu Aufgaben und Noten finden Sie in Teams für Education.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
-> Details zu den Teams auf verschiedenen Plattformen finden Sie unter [Teams von Features nach Plattform.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> Details zu den Teams auf verschiedenen Plattformen finden Sie unter Teams [von Features nach Plattform.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Integrationen von Aufgaben im Microsoft Teams Admin Center
 
@@ -45,14 +45,14 @@ Mithilfe der Administratoreinstellungen im Microsoft Teams Admin Center können 
 ### <a name="weekly-guardian-email-digest"></a>Wöchentlicher E-Mail-Digest für Erziehungsberechtigte
 
 
-Erziehungsberechtigte E-Mails werden an jedem Wochenende an Eltern oder Erziehungsberechtigte gesendet. Die E-Mail enthält Informationen zu Aufgaben der vorherigen und der nächsten Woche. Die Synchronisierung von Eltern und Erziehungsberechtigten kann mithilfe von [School Data Sync.](/schooldatasync/parent-contact-sync)
+Erziehungsberechtigte E-Mails werden an jedem Wochenende an Eltern oder Erziehungsberechtigte gesendet. Die E-Mail enthält Informationen zu Aufgaben der vorherigen und der anstehenden Woche. Die Synchronisierung von Eltern und Erziehungsberechtigten kann mithilfe von [School Data Sync.](/schooldatasync/parent-contact-sync)
 
 1. Importieren Sie Kontaktinformationen von Eltern über die Synchronisierung von Eltern und Erziehungsberechtigten in SDS. Anweisungen zum Aktivieren der Synchronisierung von Eltern und Erziehungsberechtigten finden Sie unter Aktivieren der Synchronisierung von Eltern [und Erziehungsberechtigten.](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)
 
 2. Aktivieren Sie im Microsoft Teams Admin Center die Einstellung für Erziehungsberechtigte, da die Einstellung standardmäßig deaktiviert ist. Auf diese Weise können Lehrkräfte eine wöchentliche Digest senden.
 
    > [!NOTE]
-   > Lehrkräfte können die Digest-Benachrichtigung deaktivieren, indem sie die Einstellung in ihrem eigenen persönlichen Kursteam deaktivieren (Aufgaben Einstellungen > E-Mails für **Eltern/Erziehungsberechtigte).**
+   > Lehrkräfte können die Digest-Benachrichtigung deaktivieren, indem sie die Einstellung innerhalb ihres eigenen persönlichen Kursteams deaktivieren (Aufgaben Einstellungen >-E-Mails für **Eltern/Erziehungsberechtigte).**
 
 Um zu überprüfen, ob "Eltern" die E-Mail erhalten wird, müssen die folgenden drei Elemente wahr sein:
 
@@ -109,8 +109,8 @@ Der **TurnitinApiKey** wird Ihnen nach dem Folgen der Eingabeaufforderungen ange
 Wenn Sie im **Admin Center** für diese Einstellung auf die Schaltfläche Speichern klicken, dauert es einige Stunden, bis diese Einstellungen wirksam werden.
 
 ### <a name="removing-assignments-and-grades"></a>Entfernen von Aufgaben und Noten
-Mithilfe von Teams können Sie Zuweisungen und Noten für einen bestimmten Benutzer oder für Ihren gesamten Mandanten entfernen. 
+Mithilfe dieser Richtlinien Teams Sie Zuweisungen und Noten für einen bestimmten Benutzer oder für Ihren gesamten Mandanten entfernen. 
 
-Um Aufgaben und Noten für einen einzelnen Benutzer zu entfernen, wechseln Sie zum **Teams Admin Center,** und navigieren Sie zu **Teams-Apps > Berechtigungsrichtlinien,** um eine neue Definition der App-Berechtigungsrichtlinie zu erstellen.  Legen Sie beim Erstellen der neuen Richtliniendefinition die **Richtlinie für Microsoft-Apps** auf Bestimmte Apps blockieren und alle anderen Apps zulassen sowie Zuweisungen **zur** Liste der blockierten Anwendungen hinzu.  Nachdem Sie die neue Richtliniendefinition gespeichert haben, weisen Sie sie den entsprechenden Benutzern zu.
+Um Aufgaben und Noten für einen einzelnen Benutzer zu entfernen, wechseln Sie zum **Teams Admin Center,** und navigieren Sie zu Teams Apps **> Berechtigungsrichtlinien,** um eine neue Definition der App-Berechtigungsrichtlinie zu erstellen.  Legen Sie beim Erstellen der neuen Richtliniendefinition die **Richtlinie für Microsoft-Apps** auf Bestimmte Apps blockieren und alle anderen Apps blockieren sowie Zuweisungen zur Liste der blockierten Anwendungen hinzu.   Nachdem Sie die neue Richtliniendefinition gespeichert haben, weisen Sie sie den entsprechenden Benutzern zu.
 
-Wenn Sie Aufgaben und Noten für den gesamten Mandanten entfernen möchten, wechseln Sie zum **Teams Admin Center**,  navigieren Sie zu **Teams-Apps >** Apps verwalten , und suchen Sie in der Anwendungsliste nach Aufgaben, und wählen Sie sie aus. Ändern Sie die Statuseinstellung auf der Seite Einstellungen der Zuweisungsanwendung in _Blockiert_. 
+Wenn Sie Aufgaben und Noten für den gesamten Mandanten entfernen möchten, wechseln Sie zum **Teams Admin Center**, navigieren  Sie zu **Teams-Apps >** Apps verwalten , und suchen Sie in der Anwendungsliste nach Aufgaben, und wählen Sie diese aus. Ändern Sie die Statuseinstellung auf der Seite Einstellungen der Aufgabenanwendung in _Blockiert._ 

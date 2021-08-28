@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Bei Netzwerkstandorten handelt es sich um Büros oder Zweigstellen innerhalb der einzelnen Netzwerkregionen von Bereitstellungen mit Anrufsteuerung, E9-1-1 und Medienumgehung.
-ms.openlocfilehash: fd353980e7ac2a367b05c0f0be6ce760b7102fcc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c391c75b4434412e055403d621e884706c30dee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233670"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590129"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Verwalten der Anrufsteuerung für Standorte in Skype for Business Server
 
@@ -24,7 +24,7 @@ Bei Netzwerkstandorten handelt es sich um Büros oder Zweigstellen innerhalb der
 
 ## <a name="configure-network-site-links"></a>Konfigurieren von Netzwerkstandortverbindungen
 
-Innerhalb einer Anrufsteuerungskonfiguration können Sie standortübergreifende Netzwerkrichtlinien erstellen, die Bandbreiteneinschränkungen zwischen Standorten definieren, die direkt verknüpft sind. Wenn Netzwerkstandorte eine direkte Verbindung teilen, können Bandbreiteneinschränkungen für Audio- und Videoverbindungen zwischen diesen zwei Standorten definiert werden. Sie können die Skype for Business Server Systemsteuerung nicht verwenden, um Netzwerkstandortrichtlinien zu konfigurieren. Dies kann nur mithilfe von Cmdlets aus der Skype for Business Server Verwaltungsshell erfolgen. Sie können eine Netzwerkstandortverbindung (auch als standortübergreifende Netzwerkrichtlinie bezeichnet) in der Skype for Business Server Verwaltungsshell erstellen, ändern und entfernen.
+Innerhalb einer Anrufsteuerungskonfiguration können Sie standortübergreifende Netzwerkrichtlinien erstellen, die Bandbreiteneinschränkungen zwischen Standorten definieren, die direkt verknüpft sind. Wenn Netzwerkstandorte eine direkte Verbindung teilen, können Bandbreiteneinschränkungen für Audio- und Videoverbindungen zwischen diesen zwei Standorten definiert werden. Sie können die Skype for Business Server Systemsteuerung nicht verwenden, um Netzwerkstandortrichtlinien zu konfigurieren. Dies kann nur mithilfe von Cmdlets aus der Skype for Business Server Verwaltungsshell erfolgen. Sie können eine Netzwerkstandortverbindung (auch als standortübergreifende Netzwerkrichtlinie bezeichnet) aus der Skype for Business Server Verwaltungsshell erstellen, ändern und entfernen.
 
 ### <a name="to-create-a-network-site-link"></a>So erstellen Sie eine Netzwerkstandortverknüpfung
 
@@ -88,7 +88,7 @@ Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Regi
 
 ### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkstandortinformationen mithilfe Windows PowerShell Cmdlets
 
-Sie können Netzwerkstandortinformationen mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSite anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Sie können Netzwerkstandortinformationen mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSite anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ### <a name="to-view-network-site-information"></a>So zeigen Sie Netzwerkstandortinformationen an
 

@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisUsagePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server 2015 beschrieben.
-ms.openlocfilehash: 7f4e93cacbd8d9744e5131cbe8308320cf2ea8efc320fd7423c0972c3c4c9268
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cc1b3297bad6260d8ea1582458733999d024099
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592609"
 ---
 # <a name="add-vis-usage"></a>Hinzufügen der VIS-Verwendung
  
 Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter [Erstellen eines VIS-Pools in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)beschrieben.
   
-Die erforderlichen Schritte zum Zuweisen einer Rolle "Video-Interoperabilität-Server" auf einem Server mit Windows PowerShell werden online unter [Bereitstellen der VIS-Serverrolle in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) beschrieben.
+Die erforderlichen Schritte zum Zuweisen einer Video-Interoperabilität-Serverrolle auf einem Server mit Windows PowerShell werden online unter [Bereitstellen der VIS-Serverrolle in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) beschrieben.
   
 Die Konfigurationsschritte für einen neuen Video-Interoperabilitätsserver mit Windows PowerShell werden online unter [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md)beschrieben.
   

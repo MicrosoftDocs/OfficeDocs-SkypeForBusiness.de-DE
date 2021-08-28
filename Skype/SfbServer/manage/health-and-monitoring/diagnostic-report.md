@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Zusammenfassung: Erfahren Sie mehr über den Diagnosebericht in Skype for Business Server.'
-ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297221"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590149"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht in Skype for Business Server
  
@@ -33,7 +33,7 @@ Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der f
     
 ## <a name="accessing-the-diagnostic-report"></a>Zugreifen auf den Diagnosebericht
 
-Auf den Diagnosebericht kann zugegriffen werden, indem Sie auf die Metrik "Diagnosebericht (Details)" im Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md) oder im Detaillierten Konferenzbericht klicken.
+Auf den Diagnosebericht kann zugegriffen werden, indem Sie entweder im Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md) auf die Metrik Diagnosebericht (Detail) oder auf den Detaillierten Konferenzbericht klicken.
   
 ## <a name="filters"></a>Filter
 

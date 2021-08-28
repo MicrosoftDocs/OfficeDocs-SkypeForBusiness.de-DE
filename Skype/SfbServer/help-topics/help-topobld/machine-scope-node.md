@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MachineScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 5c1bde7bc9f00c3d1706f6f55beaeb5c6af1c969ffa78009f220fbf709bc5079
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67a81ba8d6c9c3c811beb91f9bcb5ac3ff3b447e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329649"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591299"
 ---
-# <a name="machine-scope-node"></a>Computer – Bereichsknoten
+# <a name="machine-scope-node"></a>Computer – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:
   

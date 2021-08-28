@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Erfahren Sie, wie Sie Ihre Cloud Connector-Appliance für die Bereitstellung und Verwendung mit Telefonsystem (Cloud PBX) vorbereiten.
-ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 255b276ebb0d192f876d07e318cf94ccf3698a1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340811"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589999"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Vorbereiten der Cloud Connector-Appliance
 
@@ -155,7 +155,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>Aktualisieren der CloudConnector.ini-Konfigurationsdatei
 
-Bereiten Sie die CloudConnector.ini-Datei mithilfe der Informationen vor, die Sie im Thema ["Bereitstellungsparameter](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) ermitteln" im Thema ["Plan for Skype for Business Cloud Connector Edition"](plan-skype-for-business-cloud-connector-edition.md) gesammelt haben.
+Bereiten Sie die CloudConnector.ini Datei mithilfe der Informationen vor, die Sie im Thema ["Bereitstellungsparameter](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) ermitteln" im Thema ["Plan for Skype for Business Cloud Connector Edition"](plan-skype-for-business-cloud-connector-edition.md) gesammelt haben.
 
 Führen Sie zum Aktualisieren der Datei zunächst das folgende Cmdlet aus, um die Beispielvorlage (CloudConnector.Sample.ini) abzurufen:
 
@@ -174,7 +174,7 @@ Berücksichtigen Sie beim Aktualisieren der .ini Datei Folgendes:
 
 - **SiteName:** Der Standardwert ist **Site1**. Sie müssen ihn aktualisieren, bevor Sie Cloud Connector bereitstellen. Wenn Sie **"Register-CcAppliance"** ausführen, um eine Appliance an einem vorhandenen oder neuen Standort zu registrieren, verwendet das Cmdlet **"SiteName",** um zu bestimmen, welcher Standort registriert werden soll.
 
-     Wenn Sie die Appliance an einem neuen Standort registrieren möchten, muss der Wert von **SiteName** eindeutig sein und sich von den vorhandenen Standorten unterscheiden. Wenn Sie die Appliance an einem vorhandenen Standort registrieren möchten, muss der Wert für **SiteName** in .ini Datei mit dem in ihrer Microsoft 365- oder Office 365 Organisationskonfiguration definierten Namen übereinstimmen. Wenn Sie eine Konfigurationsdatei von einem Standort zu einem anderen kopieren, stellen Sie sicher, dass Sie den Wert für **SiteName** für jeden Standort entsprechend aktualisieren.
+     Wenn Sie die Appliance an einem neuen Standort registrieren möchten, muss der Wert von **SiteName** eindeutig sein und sich von den vorhandenen Standorten unterscheiden. Wenn Sie die Appliance an einem vorhandenen Standort registrieren möchten, muss der Wert für **SiteName** in .ini Datei mit dem In der Microsoft 365- oder Office 365 Organisationskonfiguration definierten Namen übereinstimmen. Wenn Sie eine Konfigurationsdatei von einem Standort zu einem anderen kopieren, stellen Sie sicher, dass Sie den Wert für **SiteName** für jeden Standort entsprechend aktualisieren.
 
 - **ServerName:** Der Servername sollte nicht den Domänennamen enthalten und auf 15 Zeichen beschränkt sein.
 
@@ -194,7 +194,7 @@ Berücksichtigen Sie beim Aktualisieren der .ini Datei Folgendes:
 
   - [Netzwerk] CorpnetDefaultGateway: das Standardgateway, das der Basis-VM zugewiesen werden soll.
 
-  - [Netzwerk] CorpnetDNSIPAddress: die DNS-IP-Adresse, die der Basis-VM zugewiesen werden soll.
+  - [Netzwerk] CorpnetDNSIPAddress: die DNS-IP-Adresse, die dem virtuellen Basiscomputer zugewiesen werden soll.
 
   - [Netzwerk] WSUSServer: die IP-Adresse von Windows Server Update Service.
 
@@ -241,7 +241,7 @@ Start-CcDownload
 
 ## <a name="prepare-base-virtual-disk-vhdx-from-the-downloaded-iso-file"></a>Vorbereiten des virtuellen Basisdatenträgers (VHDX) aus der heruntergeladenen ISO-Datei
 
-In diesem Schritt wird eine VHDX-Datei (Virtual Hard Disk) aus dem Windows Server 2012 ISO-Image vorbereitet. Die VHDX wird verwendet, um während der Bereitstellung virtuelle Computer zu erstellen. Ein temporärer virtueller Computer (Basis-VM) wird erstellt, und Windows Server 2012 wird aus der ISO-Datei installiert. Nachdem der virtuelle Computer erstellt wurde, werden einige erforderliche Komponenten installiert, und das neueste Windows Update wird angewendet. Am Ende wird der virtuelle Basiscomputer generalisiert (sysprep) und bereinigt, sodass nur die generierte virtuelle Datenträgerdatei übrig bleibt.
+In diesem Schritt wird eine Virtuelle Festplatte (VHDX)-Datei aus dem Windows Server 2012 ISO-Image vorbereitet. Die VHDX wird verwendet, um während der Bereitstellung virtuelle Computer zu erstellen. Ein temporärer virtueller Computer (Basis-VM) wird erstellt, und Windows Server 2012 wird aus der ISO-Datei installiert. Nachdem der virtuelle Computer erstellt wurde, werden einige erforderliche Komponenten installiert, und das neueste Windows Update wird angewendet. Am Ende wird der virtuelle Basiscomputer generalisiert (sysprep) und bereinigt, sodass nur die generierte virtuelle Datenträgerdatei übrig bleibt.
 
 > [!NOTE]
 > Sie müssen diesen Schritt nur für die erste Appliance ausführen. 
@@ -312,6 +312,6 @@ Das CceService-Konto wird während der Skype for Business Cloud Connector Editio
 
 Eine Microsoft 365 oder Office 365 Organisation mit Skype for Business Online und Telefonsystem ist erforderlich. Stellen Sie sicher, dass Ihr Mandant eingerichtet und konfiguriert ist, bevor Sie versuchen, Cloud Connector zu verwenden.
 
-Einige Microsoft 365- und Office 365 Einrichtungsschritte erfordern, dass Sie Mandanten-Remote-PowerShell (TRPS) verwenden, um Ihre Microsoft 365 oder Office 365 Organisation zu konfigurieren. **Diese sollte auf dem Hostserver installiert werden.** Sie können das Skype for Business Online-Modul für PowerShell von: [Skype for Business Online, Windows PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen.
+Einige Microsoft 365- und Office 365 Einrichtungsschritte erfordern die Verwendung von Tenant Remote PowerShell (TRPS), um Ihre Microsoft 365 oder Office 365 Organisation zu konfigurieren. **Diese sollte auf dem Hostserver installiert werden.** Sie können das Skype for Business Online-Modul für PowerShell von: [Skype for Business Online, Windows PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen.
 
 Erstellen Sie ein dediziertes Skype for Business Administratorkonto für die Cloud Connector Online-Verwaltung, z. B. CceOnlineManagmentAdministrator. Dieses Konto wird von appliance verwendet, um Appliance hinzuzufügen oder zu entfernen, automatische Betriebssystemupdates zu aktivieren oder zu deaktivieren, automatische binäre Updates zu aktivieren oder zu deaktivieren. Legen Sie fest, dass das Kennwort für dieses Konto nie abläuft, sodass Sie es nicht jedes Mal ändern müssen, wenn es abläuft.

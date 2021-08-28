@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, wie Sie Cloud-Voicemail für Ihre Benutzer einrichten. '
-ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
-ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
+ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548300"
+ms.locfileid: "58590729"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 

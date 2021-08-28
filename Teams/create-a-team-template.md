@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einer Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abbfd257297475ee059ca80ca854fc1372cf51b26cc6afdf96a00b1abce9fde4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589769"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
@@ -38,7 +38,7 @@ Erste Schritte:
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
+2. Erweitern Sie im linken Navigationsbereich die **Teams**  >  **Teamvorlagen**.
 
 3. Klicken Sie auf **Hinzufügen**.
 
@@ -69,7 +69,7 @@ Erste Schritte:
 Ihre neue Vorlage wird in der Liste **der Teamvorlagen** angezeigt. Die Vorlage kann zum Erstellen eines Teams in einer Teams.
 
 > [!Note]
-> Es kann bis zu 24 Stunden dauern, bis Teams-Benutzer eine benutzerdefinierte Vorlagenänderung im Katalog sehen.
+> Es kann bis zu 24 Stunden dauern, bis Teambenutzer eine benutzerdefinierte Vorlagenänderung im Katalog sehen.
 
 ## <a name="customizing-website-tab-apps"></a>Anpassen von Apps auf der Registerkarte "Website"
 
@@ -98,11 +98,11 @@ Erste Schritte:
 
 **Problem:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthielt, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. **B. Beiträge,** **Dateien** und **Wiki)** werden wie erwartet angezeigt.
 
-**Lösung:** Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigung zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, bitten Sie den Teambesitzer um Unterstützung.
+**Lösung:** Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigungen zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, bitten Sie den Teambesitzer um Unterstützung.
 
 Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
-**Problem:** Wenn Sie Teams Browser verwenden, wird das Rendern auf einer Registerkarte für Teams websites nicht unterstützt.
+**Problem:** Wenn Sie Teams Browser verwenden, wird das Rendern auf einer Registerkarte mit Teams unterstützt.
 
 ![Browserfehlermeldung](media/browser-error-message.png)
 

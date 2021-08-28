@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: Im Dashboard Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
-ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c369f93c126629673996aec44d1ce86f561c4947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592919"
 ---
 # <a name="session-details-report"></a>Bericht „Sitzungsdetails“
 
@@ -37,25 +37,25 @@ Weitere verfügbare [Berichte finden](https://support.office.com/article/0d6dfb1
 Dieser Bericht enthält zusammen mit den Skype for Business Bericht Details zu den Aktivitäten, einschließlich Sitzungsdetails in Der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation sowie für das Einrichten von Guthaben für [Kommunikationen sehr hilfreich.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
+> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich als Administrator bei der Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>So erhalten Sie den Bericht Skype for Business Sitzungsdetails
 
-1. Wechseln Sie zum Admin Center, und > **Berichte.**
+1. Wechseln Sie zum Admin Center > **Berichte.**
     
 2. Wählen **Sie im** linken Menü Berichte aus, und klicken Sie dann auf **Verwendung.**
     
-3. Klicken Sie in der Liste **unter Bericht auswählen** Skype for Business **Sitzungsdetails**.
+3. Klicken Sie in der Liste **unter Bericht auswählen** auf Skype for Business **Sitzungsdetails**.
     
     > [!TIP]
-    > Wenn dieser Bericht nicht aufgelistet ist, wechseln Sie zu Skype for Business **Admin Center**:  >  **Sitzungsdetails.**  >   
+    > Wenn dieser Bericht nicht aufgelistet ist, wechseln Sie zu Sitzungsdetails Skype for Business **Admin Center**  >    >  . 
   
     > [!IMPORTANT]
     > Je nach Microsoft 365 oder Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die hier angezeigt werden. 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>Interpretieren des Berichts Skype for Business Sitzungsdetails"
 
-Sie können einen Einblick in die Details der Skype for Business-Sitzung erhalten, indem Sie sich die einzelnen angezeigten Spalten ansehen.
+Sie können sich einen Einblick in die Details der Skype for Business Des Benutzers machen, indem Sie sich die einzelnen angezeigten Spalten ansehen.
   
 Der Bericht sieht folgendermaßen aus:
   
@@ -66,7 +66,7 @@ Der Bericht sieht folgendermaßen aus:
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>**Wenn Sie vom Datumstermin** eingeben, können Sie das Startdatum eingeben. Sie können den Kalender verwenden, um das Datum auszuwählen oder das Datum manuell ein eingeben. Dieses Feld muss ausgefüllt sein.
 ***
-![Nummer 3](../images/sfbcallout3.png)<br/>**Mit "Bis Datumszeit** eingeben" können Sie das Enddatum eingeben. Sie können den Kalender verwenden, um das Datum auszuwählen oder das Datum manuell ein eingeben. Wenn kein Enddatum festgelegt ist, liegt der Standardwert 30 Tage nach dem Startdatum.
+![Nummer 3](../images/sfbcallout3.png)<br/>**Mit der Eingabe in die Datumszeit** können Sie das Enddatum eingeben. Sie können den Kalender verwenden, um das Datum auszuwählen oder das Datum manuell ein eingeben. Wenn kein Enddatum festgelegt ist, liegt der Standardwert 30 Tage nach dem Startdatum.
 ***
 ![Nummer 4](../images/sfbcallout4.png)<br/>Die Tabelle zeigt eine Aufschlüsselung aller Sitzungsdetails pro Benutzer. Hier werden alle Benutzer, denen Skype for Business zugewiesen sind, sowie ihre Sitzungsinformationen gezeigt. Sie können der Tabelle Spalten hinzufügen/entfernen. <br/><br/>Die Tabelle enthält die folgenden Spalten für jede Sitzung:
 *    **Die Dialogfeld-ID** ist die ID für den eindeutigen Bezeichner der SIP-Sitzung.
@@ -76,21 +76,21 @@ Der Bericht sieht folgendermaßen aus:
 *    **Von URI** ist der URI des Benutzers oder Diensts, der die Sitzung initiiert hat. Kann leer sein, wenn der Benutzer die Sitzung von einem PSTN-Telefon aus initiiert hat.
 *    **To URI** is the URI of the user or service that was the target of the session initiation. Im Fall der Konferenz ist dies der URI des Organisators. Kann leer sein, wenn das Ziel der Sitzung eine PSTN-Telefonnummer war.
 *    **Von der Clientversion** erfahren Sie, dass der Benutzer-Agent und die Version des Clients verwendet werden, der bzw. der von dem Benutzer oder Dienst verwendet wurde, der die Sitzung initiiert hat.
-*    **Die Clientversion teilt** Ihnen mit, dass der Benutzer-Agent und die Version des Vom Benutzer oder Dienst verwendeten Clients das Ziel der Sitzungsinitiierung war.
+*    **Die Clientversion teilt** Ihnen den Benutzer-Agent und die Version des Clients mit, die bzw. der vom Benutzer oder Dienst als Ziel für die Sitzungsinitiierung verwendet wurde.
 *    **Konferenz-URL** ist die SIP-URL für die Konferenz, wenn es sich bei der Sitzung um eine Telefonkonferenz handelte. Alle Benutzer derselben Telefonkonferenz haben dieselbe Konferenz-URL. 
-*    **From Tel number** is the telephone number that was the target of the session, if applicable. Zum Schutz der Privatsphäre des Benutzers können die letzten Ziffern der Telefonnummer durch "x" ersetzt werden.
-*    **To Tel number** is the telephone number that was the target of the session, if. Zum Schutz der Privatsphäre des Benutzers können die letzten Ziffern der Telefonnummer durch "x" ersetzt werden.
+*    **From Tel number** is the telephone number that was the target of the session, if applicable. Die letzten Ziffern der Telefonnummer können zum Schutz der Privatsphäre des Benutzers durch "x" ersetzt werden.
+*    **To Tel number** is the telephone number that was the target of the session, if. Die letzten Ziffern der Telefonnummer können zum Schutz der Privatsphäre des Benutzers durch "x" ersetzt werden.
 *    **Von Endpunkt-ID** ist eine eindeutige GUID des Endpunkts, der vom Benutzer "Von" verwendet wird. Wird verwendet, um zu identifizieren, ob der Benutzer mehrere Sitzungen von demselben Endpunkt aus kommuniziert. Kann leer sein, wenn der Benutzer ein Festnetztelefon verwendet oder die Sitzung von einem Dienst initiiert wurde.
-*    **Für Endpunkt-ID** ist eine eindeutige GUID des Endpunkts, der vom An-Benutzer verwendet wird. Wird verwendet, um zu identifizieren, ob der Benutzer mehrere Sitzungen von demselben Endpunkt aus kommuniziert. Kann leer sein, wenn der Benutzer ein Festnetztelefon verwendet, wenn die Sitzung von einem Dienst initiiert wurde oder wenn eine Sitzung nicht gestartet werden konnte.
-*    **Conf Instance** ist eine eindeutige GUID für die Instanz der Konferenz unter Verwendung der Konferenz-URL. Besprechungsserien haben dieselbe Konferenz-URL, aber für jede Instanz der Besprechung gibt es einen Unterschied zwischen "Conf Instance".
-*    **Im Auftrag von URI** ist der URI des Delegators, in dessen Auftrag die Sitzung eingerichtet wird. <br/> **Von URI bezeichnet** ist der URI des Benutzers, der auf die Einführung einer Sitzung verwiesen hat.
+*    **Für Endpunkt-ID** ist eine eindeutige GUID des Endpunkts, der vom An-Benutzer verwendet wird. Wird verwendet, um zu identifizieren, ob der Benutzer mehrere Sitzungen von demselben Endpunkt aus kommuniziert. Kann leer sein, wenn der Benutzer ein PstN-Telefon verwendet, wenn die Sitzung von einem Dienst initiiert wurde oder wenn eine Sitzung nicht gestartet werden konnte.
+*    **Conf Instance** ist eine eindeutige GUID für die Instanz der Konferenz unter Verwendung der Konferenz-URL. Besprechungsserien haben die gleiche Konferenz-URL, aber für jede Instanz der Besprechung gibt es ein "Conf Instance"-Unterschied.
+*    **Im Auftrag von URI** ist der URI des Delegators, für den die Sitzung eingerichtet wird. <br/> **Von URI bezeichnet** ist der URI des Benutzers, der auf die Einführung einer Sitzung verwiesen hat.
 *    **Antwortcode** ist der SIP-Antwortcode für die Einrichtung der Sitzung, der angibt, ob die Sitzung erfolgreich eingerichtet wurde.
 
 Für jede Sitzung gibt es eine Untertabelle mit unterschiedlichen Daten, die je nach Szenario verfügbar sind. In der folgenden Liste sind die Registerkarten aufgeführt, die in der Untertabelle für die Von- und Bis-Benutzer oder -Dienste verfügbar sind.
 *    Auf der Registerkarte SITZUNG werden Daten zu den Computern und Betriebssystemen angezeigt.
 *    Auf der Registerkarte MEDIALINES werden Netzwerkverbindungsinformationen und Geräteinformationen angezeigt.
 *    Auf der Registerkarte AUDIOSTREAMS werden Netzwerkleistungsdaten zu den audiostreams angezeigt, die an einer Sitzung beteiligt sind.
-*    Die Registerkarte "AUDIOCLIENTEVENTS" zeigt Daten zu vom Client erkannten Problemen bei der Audiowiedergabe an.
+*    Die Registerkarte AUDIOCLIENTEVENTS zeigt Daten zu vom Client erkannten Problemen bei der Audiowiedergabe an.
 *    Auf der Registerkarte AUDIOSIGNALS werden Daten zur Audiosignalverarbeitung für die Sitzung angezeigt.
 *    Auf der Registerkarte "APPSHARINGSTREAMS" werden Daten zur Netzwerkleistung zu den Anwendungsfreigabe- oder Desktopfreigabe-Streams angezeigt, die an einer Sitzung beteiligt sind.
 *    Die Registerkarte VIDEOCLIENTEVENTS zeigt Daten zu vom Client erkannten Problemen an, die sich auf die Videoerfahrung auswirken.
@@ -116,7 +116,7 @@ Für jede Sitzung gibt es eine Untertabelle mit unterschiedlichen Daten, die je 
     
 - [Bericht zum PSTN-Verbrauch in Skype for Business](pstn-usage-report.md) : Sie können die Anzahl der Minuten sehen, die für eingehende/ausgehende Anrufe aufgewendet wurden, sowie die Kosten für diese Anrufe.
 
-- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
 
 - [Skype for Business Bericht zu PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
     

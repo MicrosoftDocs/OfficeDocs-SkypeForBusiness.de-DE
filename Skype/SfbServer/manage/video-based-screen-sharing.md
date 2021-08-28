@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Server Planungs- und Konfigurationsinformationen für die videobasierte Bildschirmfreigabe (VbSS)
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591129"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Videobasierte Bildschirmübertragung für Skype for Business Server 
  
@@ -28,7 +28,7 @@ Videobasierte Bildschirmfreigabe (VbSS) verhindert die Lync-Bildschirmfreigabe. 
   
 Skype for Business Server wollten die 1:1-Unterhaltungen und Besprechungserfahrungen von 1:n (mehreren Teilnehmern) verbessern. VbSS nutzt die Medienplattform (die UDP als zugrunde liegendes Protokoll verwendet) mit dem Ziel, ihre Videostartzeiten zu verbessern, die Anzeigequalität ihrer Überwachung (insbesondere, wenn sich das, was Sie gerade beobachten, schnell bewegt) und die Zuverlässigkeit insgesamt zu verbessern.
   
-Ein Teil des Ziels der Verbesserung der Bildschirmfreigabe besteht darin, dass Übergänge zwischen VbSS und RDP so nahtlos wie möglich sind, wenn sie auftreten. Da VbSS ein Update der zugrunde liegenden Technologie ist, die bei der Bildschirmfreigabe für Skype for Business Server verwendet wird, ist es möglicherweise schwierig zu erkennen, welche Technologie Sie nutzen, es sei denn, Sie sehen sich SIP-Details im Netzwerkdatenverkehr an oder teilen Inhalte, die sich schnell bewegen oder 3D- Wenn Ihr Arbeitsplatz beispielsweise über viele ältere Clients verfügt, ist RDP weiterhin als Failsafe für Ihre Besprechungen und Unterhaltungen verfügbar. Skype for Business Server verwendet interne Logik, um zu entscheiden, welche der beiden Methoden (VbSS oder herkömmliche Bildschirmfreigabe) angewendet werden soll, wenn Clients eine Verbindung herstellen. RDP kann und wird durch VbSS ersetzt, wenn die Situation dies aufruft, sodass die Anzeige nicht unterbrochen wird.
+Ein Teil des Ziels der Verbesserung der Bildschirmfreigabe besteht darin, dass Übergänge zwischen VbSS und RDP so nahtlos wie möglich sind, wenn sie auftreten. Da VbSS ein Update der zugrunde liegenden Technologie ist, die bei der Bildschirmfreigabe für Skype for Business Server verwendet wird, ist es möglicherweise schwierig zu erkennen, welche Technologie Sie nutzen, es sei denn, Sie sehen sich SIP-Details im Netzwerkdatenverkehr an oder teilen Inhalte, die sich schnell bewegen oder 3D- Wenn Ihr Arbeitsplatz beispielsweise viele ältere Clients hat, ist RDP weiterhin als Failsafe für Ihre Besprechungen und Unterhaltungen verfügbar. Skype for Business Server verwendet interne Logik, um zu entscheiden, welche der beiden Methoden (VbSS oder herkömmliche Bildschirmfreigabe) angewendet werden soll, wenn Clients eine Verbindung herstellen. RDP kann und wird durch VbSS ersetzt, wenn die Situation dies aufruft, sodass die Anzeige nicht unterbrochen wird.
   
 ## <a name="planning"></a>Planung
 
@@ -36,7 +36,7 @@ Ein Teil des Ziels der Verbesserung der Bildschirmfreigabe besteht darin, dass �
 
 Durch den Wechsel zu VbSS sollen drei wichtige Verbesserungen vorgenommen werden:
   
-1. Bildschirmfreigabe (bis zu 5 %) zuverlässiger im Vergleich zu RDP allein.
+1. Stellen Sie die Bildschirmfreigabe (bis zu 5 %) im Vergleich zu RDP allein zuverlässiger dar.
 
 2. Beschleunigen Sie die Einrichtung von Sitzungen und Videos im Vergleich zu RDP allein (Einrichtung in der Hälfte der Zeit mit einer 6:1-Verbesserung bei Frames pro Sekunde).
 
@@ -61,7 +61,7 @@ Sie sollten auch beachten, dass einige Genauigkeit/Scharfheit Ihrer freigegebene
 |:-----|:-----|:-----|:-----|
 |Clients  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |Anwendungsfreigabe.  <br/> |
    
-Wenn QoS für die folgenden Medienports aktiviert ist und VbSS auch aktiviert ist, verwendet die AS MCU während einer Konferenz, die die Desktopfreigabe umfasst, die unten fett dargestellten Videoporteinstellungen für den Datenverkehr der Bildschirmfreigabe. 
+Wenn QoS für die folgenden Medienports aktiviert ist und VbSS ebenfalls aktiviert ist, verwendet die AS MCU während einer Konferenz, die die Desktopfreigabe umfasst, die unten fett dargestellten Videoporteinstellungen für den Datenverkehr der Bildschirmfreigabe. 
   
 > [!IMPORTANT]
 > Diese Einstellungen sind ein Sonderfall, und diese genauen Einstellungen müssen bei der Implementierung dieser beiden Features verwendet werden. Dadurch werden andere empfohlene Einstellungen in der [Dokumentation für QoS](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos)überschrieben. Für die Anwendungsfreigabe müssen Sie zusätzlich zum Definieren dieser Portwerte auch ASMCUSVC.exe im QoS-Gruppenrichtlinienobjekt angeben. 
@@ -70,16 +70,16 @@ Wenn QoS für die folgenden Medienports aktiviert ist und VbSS auch aktiviert is
 
 |**Eigenschaft**|**Portwert**|**Protocol**|
 |:-----|:-----|:-----|
-|AudioPortStart  <br/> |49152  <br/> |Udp  <br/> |
-|AudioPortCount  <br/> |8348  <br/> |Udp  <br/> |
-|**VideoPortStart** <br/> |**57501** <br/> |Udp  <br/> |
-|**VideoPortCount** <br/> |**8034** <br/> |Udp  <br/> |
+|AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
+|AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
+|**VideoPortStart** <br/> |**57501** <br/> |UDP  <br/> |
+|**VideoPortCount** <br/> |**8034** <br/> |UDP  <br/> |
 |AppSharingPortStart  <br/> |40803  <br/> |TCP  <br/> |
 |AppSharingPortCount  <br/> |8348  <br/> |TCP  <br/> |
    
 ### <a name="capacity-planning"></a>Kapazitätsplanung
 
-Jeder Front-End-Server mit Skype for Business Server kumulativen Update 2 (CU2) 2 (2015) oder höher unterstützt bis zu 375 Teilnehmer für die Bildschirmfreigabe mit RDP (jedoch nur 250 pro Besprechung). Diese Kapazität ändert sich nach CU3 nicht, wenn VbSS eingeführt und verwendet wird.
+Jeder Front-End-Server, auf dem Skype for Business Server kumulatives Update 2 (CU2) von 2015 oder höher ausgeführt wird, unterstützt bis zu 375 Teilnehmer für die Bildschirmfreigabe mit RDP (jedoch nur 250 pro Besprechung). Diese Kapazität ändert sich nach CU3 nicht, wenn VbSS eingeführt und verwendet wird.
   
 Trotzdem haben wir Leistungs- und Stresstests in unserem Labor durchgeführt, und die folgenden Messungen sollten auch im Hinblick auf Ihre eigene Bereitstellung berücksichtigt werden (natürlich abhängig von der Nutzung).
   
@@ -89,7 +89,7 @@ Vorausgesetzt:
     
 - Alle Benutzer in Ihrer Skype for Business Server Umgebung verfügen über Bildschirmauflösungen von mehr als 1920 x 1080.
     
-Bei voller Kapazität (wie oben erwähnt: 375 Bildschirmfreigabeteilnehmer pro Front-End-Server insgesamt, aber nur 250 pro Besprechung), verwendet Ihr Front-End-Server möglicherweise ~89 % der 1 Ethernet-Netzwerkkarte. Dies liegt daran, dass die vorhandene Bildschirmfreigabetechnologie in Skype for Business Server CU2 (RDP) den Inhalt auf dem Bildschirm in der systemeigenen Auflösung des PCs des Referenten überträgt. Wenn höhere Bildschirmauflösungen mit eingerechnet werden, treten möglicherweise bereits Netzwerkengpässe bei der Bildschirmfreigabe mit Skype for Business Server 2015 CU2 auf.
+Bei voller Kapazität (wie oben erwähnt: 375 Bildschirmfreigabeteilnehmer pro Front-End-Server insgesamt, aber nur 250 pro Besprechung), verwendet Ihr Front-End-Server möglicherweise ~89 % der 1 Ethernet-Netzwerkkarte. Dies liegt daran, dass die vorhandene Bildschirmfreigabetechnologie in Skype for Business Server CU2 (RDP) den Inhalt auf dem Bildschirm in der systemeigenen Auflösung des PCs des Referenten überträgt. Wenn höhere Bildschirmauflösungen eingerechnet werden, treten möglicherweise bereits Netzwerkengpässe für die Bildschirmfreigabe mit Skype for Business Server 2015 CU2 auf.
   
 Um dies zu vermeiden, kann eine oder mehrere der folgenden Optionen hilfreich sein:
   
@@ -103,8 +103,8 @@ Die Zahlen in dieser Tabelle werden von einzelnen Netzwerken und den freigegeben
   
 |**1080p-Inhalt**|**RDP-Durchschnitt**|**RDP Peak**|**VbSS-Durchschnitt**|**VbSS Peak**|
 |:-----|:-----|:-----|:-----|:-----|
-|Ppt  <br/> |200 KBit/s  <br/> |12mbps  <br/> |100 KBit/s  <br/> |3 MBit/s  <br/> |
-|Cad  <br/> |3 MBit/s  <br/> |7 MBit/s  <br/> |1 MBit/s  <br/> |3 MBit/s  <br/> |
+|PPT  <br/> |200 KBit/s  <br/> |12mbps  <br/> |100 KBit/s  <br/> |3 MBit/s  <br/> |
+|CAD  <br/> |3 MBit/s  <br/> |7 MBit/s  <br/> |1 MBit/s  <br/> |3 MBit/s  <br/> |
 |Video  <br/> |5 MBit/s  <br/> |7 MBit/s  <br/> |1,3 MBit/s  <br/> |2,2 MBit/s  <br/> |
    
 ### <a name="network-bandwidth-requirements-for-media-traffic"></a>Netzwerkbandbreitenanforderungen für Mediendatenverkehr
@@ -117,7 +117,7 @@ Die VbSS-Bandbreite ist:
    
 ## <a name="clients-and-servers-support"></a>Unterstützung für Clients und Server
 
-Für die videobasierte Bildschirmübertragung sind Skype for Business Server 2015 CU3 oder höher sowie eine aktuelle Version der unterstützenden Clients erforderlich, die im Vergleich der [Mobilen Clientfeatures für die](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) Unterstützung von Skype for Business und [Besprechungen](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)aufgeführt sind. 
+Die videobasierte Bildschirmübertragung erfordert Skype for Business Server 2015 CU3 oder höher sowie eine aktuelle Version der unterstützenden Clients, die im Vergleich der [Mobilen Clientfeatures für die](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) Unterstützung von Skype for Business und [Besprechungen](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)aufgeführt sind. 
   
 Es gibt Situationen, in denen die Bildschirmfreigabe auf RDP umgestellt wird, z. B.:
   

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: Im neuen Skype for Business Admin Center-Berichte werden Anruf- und Audiokonferenzaktivitäten in Ihrer Organisation gezeigt. Sie können Drilldowns in Berichte erstellen, um genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu erhalten. Sie können z. B. den Bericht Skype for Business PSTN-Minutenpools verwenden, um die Anzahl der Minuten zu sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
-ms.openlocfilehash: 02f2d2bad1bbf948dfe9b39c49c389423437fd05877811c647220df41502c558
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Der neue Skype for Business Admin Center-Berichte zeigt Anruf- und Audiokonferenzaktivitäten in Ihrer Organisation an. Sie können Drilldowns in Berichte erstellen, um genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu erhalten. Sie können z. B. den Bericht Skype for Business PSTN-Minutenpools verwenden, um die Anzahl der Minuten zu sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
+ms.openlocfilehash: 3c9999a642480442f25dddad9daca503ade7851a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342570"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592899"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
@@ -37,33 +37,31 @@ Im neuen Skype for Business Admin **Center-Berichte** werden Anruf- und Audiokon
   
 Weitere verfügbare [Berichte finden](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) Sie unter Übersicht über Berichte.
   
-Dieser Bericht bietet Ihnen zusammen mit Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation und zum Einrichten von Guthaben für [Kommunikationen sehr hilfreich.](/microsoftteams/what-are-communications-credits)
+Dieser Bericht bietet Ihnen zusammen mit den Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation und zum Einrichten von Guthaben für [Kommunikationen sehr hilfreich.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
+> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich als Administrator bei der Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>So erhalten Sie den Bericht Skype for Business PSTN-Minutenpools
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-- Wechseln Sie zum Admin Center > **Admin Center Skype for Business** Admin  >  **Center**  >  **meldet**  >  **PSTN-Minutenpools**.
+- Wechseln Sie zum Admin Center, > **Admin Center Skype for Business** Admin  >  **Center**  >  **Berichte**  >  **PSTN-Minutenpools .**
     
 > [!NOTE]
-> Je nach Microsoft 365 oder Office 365 Abonnement, über das Sie verfügen, werden möglicherweise nicht alle hier angezeigten Details angezeigt. 
+> Je nach Microsoft 365 oder Office 365 Abonnement, über das Sie verfügen, werden möglicherweise nicht alle hier gezeigten Details angezeigt. 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretieren des berichts Skype for Business PSTN-Minutenpools
 
 Sie können sich einen Einblick in die Skype for Business Minutenpools des Benutzers machen, indem Sie sich die einzelnen angezeigten Spalten ansehen.
   
 Der Bericht sieht folgendermaßen aus:
-  
-## 
 
 ![Skype for Business Bericht über PSTN-Minutenpools](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Minutenpools nach Lizenz (Funktion) und Verwendungsort. 
-*    **Funktion** ist der für den Anruf verwendete Lizenz-/Serviceplan. Zu den Lizenz-/Serviceplänen, die in diesem Bericht möglicherweise zu sehen sind, gehören:
+*    **Funktion** ist der für den Anruf verwendete Lizenz-/Serviceplan. Zu den Lizenz-/Serviceplänen, die in diesem Bericht möglicherweise enthalten sind, gehören:
      * MCOPSTN1: Plan für Inlandsrufe (EU-Pläne für 3000 Minuten/1200 Minuten)
      * MCOPSTN2 – Anrufplan für Inland & Im Inland, von dem aus ein Inlandspool (3.000 Minuten USA/Kanada/PR, europäische Länder mit 1200 Minuten) und ein internationaler Pool (600 Minuten) angezeigt werden. Die Minutengrenze wird erreicht, wenn die nationale oder internationale Obergrenze innerhalb des Kalendermonats erreicht wird. 
      * MCOPSTN5: Plan für Inlandsrufe (120-Minuten-Anrufplan)
@@ -91,9 +89,9 @@ Der Bericht sieht folgendermaßen aus:
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
 
-- [Skype for Business sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
+- [Skype for Business Sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
