@@ -9,29 +9,29 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Zusammenfassung: Implementieren Sie IPv6, bevor Sie Skype for Business Server installieren.'
-ms.openlocfilehash: 02753ad0e2fee00e548dd2f709dc451373283cae2fe0fe2e30dbae62e77f12f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff58da4a4064c91949446e9107d0f3ff07b720e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289673"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593509"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planen von IPv6 in Skype for Business
  
 **Zusammenfassung:** Implementieren Sie IPv6, bevor Sie Skype for Business Server installieren.
   
-Skype for Business Server umfasst Unterstützung für IPv6-Adressen (IP Version 6) sowie die fortlaufende Unterstützung von IP-Adressen der Version 4 (IPv4). 
+Skype for Business Server umfasst Unterstützung für IP-Adressen der Version 6 (IPv6) sowie die fortlaufende Unterstützung von IP-Adressen der Version 4 (IPv4). 
 
 IPv4-Adressen sind 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der zunehmenden Anzahl von Geräten weltweit sind die verfügbaren IPv4-Adressen abgelaufen. Aus diesem Grund werden viele neue Geräte zur Verwendung von IPv6-Adressen umgezogen. IPv6-Adressen führen die gleiche Funktion wie IPv4-Adressen aus (mit einigen zusätzlichen Features), aber anstatt nur 32-Bit-Adressen verwenden IPv6-Adressen 128-Bit. Dies bietet nicht nur eine neue Gruppe von Adressen, sondern auch eine viel größere Anzahl von Adressen. 
 
-Eine typische IPv4-Adresse sieht etwa wie folgt aus: 192.0.2.235, während eine IPv6-Adresse wie folgt aussieht: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. Die Änderung der Formatierung und Funktionalität für Geräte, die IPv6-Adressen verwenden, erfordert mehrere Bereitstellungs- und Konfigurationsüberlegungen in Ihrer Skype for Business Server Installation. 
+Eine typische IPv4-Adresse sieht etwa wie folgt aus: 192.0.2.235, während eine IPv6-Adresse wie folgt aussieht: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. Die Änderung der Formatierung und Funktionalität für Geräte, die IPv6-Adressen verwenden, erfordert verschiedene Bereitstellungs- und Konfigurationsaspekte in Ihrer Skype for Business Server Installation. 
 
 Dieses Thema umfasst die folgenden Abschnitte:
   
@@ -48,11 +48,11 @@ Wenn Sie feststellen, dass Sie IPv6-Adressen verwenden werden, lesen Sie den Art
 
 Sie haben drei Optionen beim Konfigurieren von IP-Adressen in Skype for Business Server. Sie können Skype for Business Server so konfigurieren, dass nur IP-Version 4 (IPv4), nur IP-Version 6 (IPv6) oder eine Kombination aus beiden (als dualer Stapel bezeichnet) unterstützt wird. Bei jedem Konfigurationstyp sind bestimmte Punkte zu beachten:
   
-- **Nur IPv4** IPv6 wurde erstellt, da in der Welt keine IPv4-Adressen mehr vorhanden sind. IPv6 wird sich letztendlich weltweit durchsetzen, aber viele Unternehmen und Geräte, mit denen Ihr Unternehmen kommunizieren muss, unterstützen vielleicht derzeit noch nicht IPv6, und möglicherweise bleibt das auch noch eine ganze Weile so. Eine nur IPv4-Konfiguration trägt dazu bei, sicherzustellen, dass Ihre Skype for Business Server Implementierung mit den meisten vorhandenen Geräten kommunizieren kann.
+- **Nur IPv4** IPv6 wurde erstellt, da in der Welt keine IPv4-Adressen mehr vorhanden sind. IPv6 wird sich letztendlich weltweit durchsetzen, aber viele Unternehmen und Geräte, mit denen Ihr Unternehmen kommunizieren muss, unterstützen vielleicht derzeit noch nicht IPv6, und möglicherweise bleibt das auch noch eine ganze Weile so. Eine IPv4-konfiguration trägt dazu bei, sicherzustellen, dass Ihre Skype for Business Server-Implementierung mit den meisten vorhandenen Geräten kommunizieren kann.
     
 - **Nur IPv6** Im Gegensatz dazu schließt eine vollständige IPv6-Implementierung die Kommunikation mit vielen vorhandenen Geräten aus.
     
-- **Dualer Stapel** Der duale Stapel ist ein Netzwerk, in dem sowohl IPv4- als auch IPv6-Adressen aktiviert sind. Diese Konfiguration wird in Skype for Business Server unterstützt, da in den meisten Fällen der Übergang von full-IPv4 zu full-IPv6 mehrere Jahre dauert.
+- **Dualer Stapel** Der duale Stapel ist ein Netzwerk, in dem sowohl IPv4- als auch IPv6-Adressen aktiviert sind. Diese Konfiguration wird in Skype for Business Server unterstützt, da der Übergang von full-IPv4 zu full-IPv6 in den meisten Fällen mehrere Jahre dauern wird.
     
 In den folgenden Abschnitten wird die Kompatibilität zwischen diesen drei Konfigurationen für verschiedene Skype for Business Server Features beschrieben.
   
@@ -159,7 +159,7 @@ Die folgende Tabelle zeigt, welche Kombinationen zwischen den internen und exter
 Bereitstellungen, die Anrufsteuerung (Call Admission Control, CAC), E9-1-1-Notrufdienste oder Medienumgehung beinhalten, müssen als Implementierung nur mit IPv4 oder als Dualer-Stapel-Implementierung konfiguriert werden. Endpunkte, die nur IPv6 verwenden, können keine dieser Features verwenden.
   
 > [!NOTE]
-> Auch wenn ein Skype for Business Server-Client mithilfe von IPv6 eine Verbindung mit einem Skype for Business Server herstellt, wird Skype for Business Server in einer Bereitstellung mit zwei Stapeln nach Möglichkeit eine geeignete IPv4-Adresse zur Unterstützung von E9-1-1 zuordnen. 
+> Auch wenn ein Skype for Business Server-Client mithilfe von IPv6 eine Verbindung mit einem Skype for Business Server herstellt, unternehmen Skype for Business Server in einer Bereitstellung mit doppeltem Stapel beste Anstrengungen, um eine entsprechende IPv4-Adresse zur Unterstützung von E9-1-1 zuzuordnen. 
   
 Der Standortinformationsdienst mit IPv6-Adressen wird nicht unterstützt.
   
@@ -168,7 +168,7 @@ Exchange Unified Messaging (UM) unterstützt IPv6 nicht. Stellen Sie sicher, das
 ### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>Weitere Skype for Business Server-Featureunterstützung für IPv6
 <a name="Ent_V"> </a>
 
-Zusätzlich zu den oben erwähnten Features und Komponenten unterstützt Skype for Business Server IPv6 für die folgenden Features:
+Zusätzlich zu den oben genannten Features und Komponenten unterstützt Skype for Business Server IPv6 für die folgenden Features:
   
 - **Beständiger Chat**
     
@@ -181,7 +181,7 @@ Zusätzlich zu den oben erwähnten Features und Komponenten unterstützt Skype f
 ## <a name="technical-requirements-for-ipv6"></a>Technische Anforderungen für IPv6
 <a name="tech"> </a>
 
-Wenn Sie beabsichtigen, Skype for Business Server für IPv6 zu konfigurieren, berücksichtigen Sie die folgenden Anforderungen:
+Wenn Sie planen, Skype for Business Server für IPv6 zu konfigurieren, berücksichtigen Sie die folgenden Anforderungen:
   
 - Um IPv6-Adressen mit Skype for Business Server zu verwenden, müssen Sie DNS-Einträge (Domain Name System) für Datensätze erstellen, die ermittelt und in eine IPv6-Adresse aufgelöst werden müssen. IPv6-DNS verwendet Host-AAAA-Einträge (Quad-A). Wenn Sie in Ihrer Bereitstellung sowohl IPv4 als auch IPv6 verwenden, sollten Sie sowohl Host-A-Einträge für IPv4 als auch Host-AAAA-Einträge für IPv6 konfigurieren und verwalten. Auch wenn Sie Ihre Bereitstellung vollständig auf IPv6 umstellen, benötigen Sie möglicherweise weiterhin IPv4-DNS-Hosteinträge für externe Benutzer, die weiterhin IPv4 verwenden.
     
@@ -190,7 +190,7 @@ Wenn Sie beabsichtigen, Skype for Business Server für IPv6 zu konfigurieren, be
 - Jede IPv6-Adresse hat einen Bereich. Die drei Bereiche, die Sie für die IPv6-Adressierung verwenden können, sind globale IPv6-Adressen (ähnlich wie öffentliche IPv4-Adressen), IPv6 eindeutige lokale Adressen (ähnlich den privaten IPv4-Adressbereichen) und IPv6-Adressen mit lokaler Verknüpfung (ähnlich wie automatische private IP-Adressen in Windows Server für IPv4). Alle Server in einem Pool sollten IPv6-Adressen mit demselben Bereich aufweisen. 
     
 > [!IMPORTANT]
-> IPv6 ist ein komplexes Thema und erfordert eine sorgfältige Planung mit Ihrem Netzwerkteam und Ihrem Internetanbieter, um sicherzustellen, dass die Adressen, die Sie auf Windows Serverebene und auf Skype for Business Server Ebene zuweisen, wie erwartet funktionieren. Zusätzliche Ressourcen zur IPv6-Adressierung und -Planung finden Sie unter den Links am Ende dieses Themas. 
+> IPv6 ist ein komplexes Thema und erfordert sorgfältige Planung mit Ihrem Netzwerkteam und Ihrem Internetanbieter, um sicherzustellen, dass die Adressen, die Sie auf Windows Serverebene und auf Skype for Business Server Ebene zuweisen, wie erwartet funktionieren. Zusätzliche Ressourcen zur IPv6-Adressierung und -Planung finden Sie unter den Links am Ende dieses Themas. 
   
 ## <a name="migration-and-coexistence-considerations-for-ipv6"></a>Überlegungen zu Migration und Koexistenz für IPv6
 <a name="migration"> </a>

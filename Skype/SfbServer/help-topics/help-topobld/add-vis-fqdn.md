@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server 2015 beschrieben.
-ms.openlocfilehash: 28ebf9d2774caf659747f3b17ad312562b48b0ba716a415737a424d0ec94b9fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2269eb363141353bd7eef9a410f9a910cb7ddc7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602590"
 ---
 # <a name="add-vis-fqdn"></a>Hinzufügen eines VIS-FQDN
  
 Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter [Erstellen eines VIS-Pools in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)beschrieben.
   
-Die erforderlichen Schritte zum Zuweisen einer Rolle "Video-Interoperabilität-Server" auf einem Server mit Windows PowerShell werden online unter [Bereitstellen der VIS-Serverrolle in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) beschrieben.
+Die erforderlichen Schritte zum Zuweisen einer Video-Interoperabilität-Serverrolle auf einem Server mit Windows PowerShell werden online unter [Bereitstellen der VIS-Serverrolle in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) beschrieben.
   
 Die Konfigurationsschritte für einen neuen Video-Interoperabilitätsserver mit Windows PowerShell werden online unter [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md)beschrieben.
   

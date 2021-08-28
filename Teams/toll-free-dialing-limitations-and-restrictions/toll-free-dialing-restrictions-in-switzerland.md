@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigen Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder oder Regionen zum Wählen der gebührenfreien Nummer an.
-ms.openlocfilehash: d11070337abf16292983b11d8f8f84ac515e26711330e78d75c35ddba2c988ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ecf43db66ccda179cee682f23050d5aa3bf78aca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312423"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636469"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Gebührenfreie Wähleinschränkungen in der Schweiz
 

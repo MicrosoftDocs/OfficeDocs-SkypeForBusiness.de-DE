@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können die Seite "Richtlinie für beständigen Chat" der Gruppe für beständigen Chat verwenden, um Richtlinien auf globaler, Pool-, Standort- oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und des Erstellens einer oder mehrerer zusätzlicher Benutzer- und Standortrichtlinien für Ihre Bereitstellung. Wenn der Server für beständigen Chat für einen Benutzer durch eine Richtlinie aktiviert ist, wird die Umgebung des Servers für beständigen Chat auf dem Client angezeigt.
-ms.openlocfilehash: 8d034c142dbfd07b63ec4a612970f6647e196bd025d78733a75fd80b8943467e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05ebe66503560bdacd2f941cf08273031ddf744d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291613"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594669"
 ---
 # <a name="persistent-chat-policy"></a>Richtlinie für beständigen Chat
 

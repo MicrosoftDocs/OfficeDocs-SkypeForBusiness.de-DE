@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: Das cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype for Business Cloud Connector Edition Appliance bereit.
-ms.openlocfilehash: 5d40c6e4d1d6f18669fdc9fe54954fe8ace386daa1cf0d4d1fc7065e8dcd974f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Das Cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype for Business Cloud Connector Edition Appliance bereit.
+ms.openlocfilehash: df6d2ff519fcbc4729222b05edb4605bedf5339d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347580"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623427"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-Das cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype for Business Cloud Connector Edition Appliance bereit.
+Das Cmdlet Get-CcApplianceStatus stellt Diagnoseinformationen für die Skype for Business Cloud Connector Edition Appliance bereit.
   
 Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2.1.
   
@@ -32,7 +32,7 @@ Dieses Cmdlet gilt für Skype for Business Cloud Connector Edition 2.1.
 
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 
-Das cmdlet Get-CcApplianceStatus stellt bei Ausführung auf dem Cloud Connector-Hostcomputer Diagnoseinformationen für die Skype for Business Cloud Connector-Appliance bereit.
+Das cmdlet Get-CcApplianceStatus, wenn es auf dem Cloud Connector-Hostcomputer ausgeführt wird, stellt Diagnoseinformationen für die Skype for Business Cloud Connector-Appliance bereit.
   
 ## <a name="parameters"></a>Parameter
 

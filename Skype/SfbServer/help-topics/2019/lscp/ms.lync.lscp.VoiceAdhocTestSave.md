@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Testfallinformationen für das VoIP-Routing speichern können Sie einen temporären Testfall für das VoIP-Routing speichern. Geben Sie unter Testfallinformationen für das VoIP-Routing speichern im Feld Name einen Namen für den Testfall ein, und klicken Sie anschließend auf OK.
-ms.openlocfilehash: 09184f5f74bd509ed2e7cd37af48c0e45c19062a7e98bc02726047c66e28bbf9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1089a3666c153a6d51701087a9f065f662c859ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328580"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594649"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Speichern von Testfallinformationen für das VoIP-Routing
  

@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 audience: admin
 description: Der Administrator kann erfahren, wie er mithilfe von Netzwerkplaner die Netzwerkanforderungen für Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -22,16 +22,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cccda1c51e1706cc83b83667dff6e2f00e535e4afd1fd50ea869633199c4d3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332607"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594609"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden des Netzwerkplaners für Microsoft Teams
 
-Netzwerkplaner ist ein neues Tool, das im Teams Admin Center verfügbar ist. Sie finden sie unter **Planungsnetzwerkplaner**  >  . Mit nur wenigen Schritten können Sie mithilfe von Netzwerkplaner Netzwerkanforderungen für Verbindungen zwischen Microsoft Teams in Ihrer Organisation ermitteln und organisieren. Wenn Sie Ihre Netzwerkdetails und die Teams-Nutzung angeben, berechnet der Netzwerkplaner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud Voice über die physischen Standorte Ihrer Organisation hinweg.
+Network Planner ist ein neues Tool, das im Teams Admin Center verfügbar ist. Sie finden sie unter   >  **Planungsnetzwerkplaner**. Mit nur wenigen Schritten können Sie mithilfe von Netzwerkplaner Netzwerkanforderungen für Verbindungen zwischen benutzern Microsoft Teams Organisation ermitteln und organisieren. Wenn Sie Ihre Netzwerkdetails und die Teams-Nutzung angeben, berechnet der Netzwerkplaner Ihre Netzwerkanforderungen für die Bereitstellung von Teams und Cloud Voice über die physischen Standorte Ihrer Organisation hinweg.
 
 ![Screenshot von "Netzwerkplaner"](media/network-planner.png)
 
@@ -74,13 +74,13 @@ Führen Sie die folgenden Schritte aus, um mit dem Erstellen Ihres Netzwerkplans
 
 5. Fügen Sie Websites hinzu, um eine Darstellung der Netzwerkeinrichtung Ihrer Organisation zu erstellen.
 
-    Je nach dem Netzwerk Ihrer Organisation möchten Sie websites möglicherweise verwenden, um ein Gebäude, einen Bürostandort oder etwas anderes zu repräsentieren. Standorte können über ein WAN verbunden sein, um die Freigabe von Internet- und/oder PSTN-Verbindungen zu ermöglichen. Um optimale Ergebnisse zu erzielen, erstellen Sie Websites mit lokalen Verbindungen, bevor Sie Websites erstellen, die remote eine Verbindung mit dem Internet oder PSTN herstellen.
+    Je nach dem Netzwerk Ihrer Organisation möchten Sie websites möglicherweise verwenden, um ein Gebäude, einen Bürostandort oder etwas anderes zu repräsentieren. Standorte können über ein WAN verbunden sein, um die Freigabe von Internet- und/oder PSTN-Verbindungen zu ermöglichen. Um optimale Ergebnisse zu erzielen, erstellen Sie Websites mit lokalen Verbindungen, bevor Sie Websites erstellen, die eine Remoteverbindung mit dem Internet oder PSTN herstellen.
 
     So erstellen Sie eine Website
 
     1. Fügen Sie einen Namen und eine Beschreibung für Ihre Website hinzu.
 
-    2. Fügen **Sie unter** Netzwerkeinstellungen die Anzahl der Netzwerkbenutzer an dieser Website hinzu (erforderlich).
+    2. Fügen **Sie unter** Netzwerkeinstellungen die Anzahl der Netzwerkbenutzer an diesem Standort hinzu (erforderlich).
 
     3. Hinzufügen von Netzwerkdetails: WAN-fähig, WAN-Kapazität, Internet-Ausgangs **(** Lokal oder **Remote)** und PSTN-Ausgangsadresse (kein, lokaler oder remoteer Standort).
 
@@ -99,7 +99,7 @@ Nachdem Sie alle Websites hinzugefügt haben, können Sie wie folgt einen Berich
 
 3. Nachdem Sie die Verteilung abgeschlossen haben, klicken Sie **auf Bericht generieren**.
 
-    Im generierten Bericht werden die Bandbreitenanforderungen in mehreren unterschiedlichen Ansichten angezeigt, damit Sie die Ausgabe deutlich verstehen:
+    Im generierten Bericht werden die Bandbreitenanforderungen in mehreren unterschiedlichen Ansichten angezeigt, sodass Sie die Ausgabe deutlich verstehen:
     - In einer Tabelle mit einzelnen Berechnungen wird der Bandbreitenbedarf für jede zulässige Aktivität angezeigt.
     - In einer zusätzlichen Ansicht werden die Bandbreitenanforderungen insgesamt mit Empfehlungen angezeigt.
 
@@ -107,4 +107,4 @@ Nachdem Sie alle Websites hinzugefügt haben, können Sie wie folgt einen Berich
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-Wenn Sie ein Beispiel für die Verwendung des Netzwerkplaners zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts anhand dieser Schritte verwenden können, laden Sie den Netzwerkplaner How-To PowerPoint [Deck (nur](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) in Englisch) herunter.
+Wenn Sie ein Beispiel für die Verwendung des Netzwerkplaners zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts anhand dieser Schritte verwenden können, laden Sie den Netzwerkplaner [How-To PowerPoint Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (nur in Englisch) herunter.

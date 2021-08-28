@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Folgen Sie diesem beschleunigten Zehn-Schritt-Aktionsplan für den Übergang von einer grundlegenden Skype for Business Einrichtung zur Microsoft Teams Einrichtung.
-localization_priority: Normal
+description: Folgen Sie diesem beschleunigten Zehn-Schritt-Aktionsplan für den Übergang von einer grundlegenden Skype for Business-Einrichtung zum Microsoft Teams-Einrichtung.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8ccf491ed1e9ac8ee4b8bb9fbacfa2067c0e0f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300761"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636399"
 ---
 # <a name="upgrade-basic"></a>Upgrade Basic
 
@@ -36,7 +36,7 @@ ms.locfileid: "54300761"
 
 Die Upgrade Basic-Checkliste ist für kleinere Organisationen oder diejenigen gedacht, die Skype for Business Online für Chats und Besprechungen nutzen, und bietet einen gestrafften Aktionsplan mit den wichtigsten empfohlenen Aktivitäten und den zugehörigen Ressourcen für einen erfolgreichen Wechsel von Skype for Business zu Teams.
 
-Diese zehn einfachen Schritte decken alles ab, was Sie für ein erfolgreiches Upgrade benötigen. Sie sind für den Abschluss in ca. 30 bis 45 Tagen ausgelegt, sie sollten jedoch basierend auf dem Upgradezeitplan Ihrer Organisation angepasst werden.
+Diese zehn einfachen Schritte decken alles ab, was Sie für ein erfolgreiches Upgrade benötigen. Sie sind für den Abschluss in etwa 30 bis 45 Tagen ausgelegt, sie sollten jedoch basierend auf dem Upgradezeitplan Ihrer Organisation angepasst werden.
 
 > [!IMPORTANT]
 > Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen.
@@ -45,7 +45,7 @@ Was geschieht mit Skype for Business nach dem Upgrade? Nach dem Upgrade der Benu
 
 - Der Skype for Business-Client der Benutzer ist deaktiviert und kann nicht mehr verwendet werden, alle Chats und Anrufe laufen dann über Microsoft Teams. Beachten Sie, dass der Client dabei nicht von ihren Desktops deinstalliert wird.
 - Vor dem Upgrade geplante Skype for Business-Besprechungen funktionieren wie vorgesehen, aber alle neuen Besprechungen werden in Microsoft Teams geplant. Das Skype for Business-Plug-In ist in der Version Outlook. 
-- Wenn benutzer versuchen, sich bei Skype for Business anmelden, erhalten sie eine Benachrichtigung von ihrem Client, dass für sie ein Upgrade auf Teams.
+- Wenn Benutzer versuchen, sich bei ihrem Skype for Business anmelden, erhalten sie eine Benachrichtigung von ihrem Client, dass für sie ein Upgrade auf Teams.
 - Auf mobilen Geräten müssen die Benutzer den Skype for Business-Client manuell deinstallieren.
 
 Lesen Sie die diesbezüglichen [häufig gestellten Fragen (FAQ)](./faq-journey.yml), wenn Sie weitere Fragen zu Ihrem Upgrade haben.
@@ -108,14 +108,14 @@ Benutzer, die Skype for Business intensiv verwendet haben, benötigen möglicher
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Schritt 4: Benachrichtigen Sie Ihre Benutzer, dass sie ein Upgrade von Skype for Business Upgrade auf Teams
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Schritt 4: Benachrichtigen Sie Ihre Benutzer, dass sie ein Upgrade von Skype for Business Teams
 
 *(Ca. zwei bis drei Wochen vor dem Upgrade)*
 
 Wenn Sie Ihre Benutzer zeitig darüber informieren, haben diese ausreichend Zeit, sich mit Teams vertraut zu machen, ohne dass sich dies negativ auf ihre Produktivität auswirkt. Auf diese Weise wird eine positivere Benutzererfahrung erzielt. Senden Sie eine Kommunikation, um ihnen zu sagen, was sich ändert, warum sie sich ändert und wie sie sich darauf vorbereiten können.
 
 > [!Note]
-> Bei Bedarf können Sie die Teams benutzer derzeit über die Microsoft 365 Admin Center aktivieren.
+> Bei Bedarf können Sie die Teams Benutzer derzeit über die Microsoft 365 Admin Center aktivieren.
 
 **Ressourcen:**
 
@@ -144,7 +144,7 @@ Halten Sie die Aufmerksamkeit für das Upgrade aufrecht, indem Sie über das Ver
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Schritt 6: Erinnern Sie Ihre Benutzer daran, dass sie ein Upgrade von Skype for Business Teams
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Schritt 6: Erinnern Sie Ihre Benutzer daran, dass sie ein Upgrade von ihrem Skype for Business auf Teams
 
 *(Ca. fünf Tage vor dem Upgrade)*
 
@@ -164,7 +164,7 @@ Die Benutzer sind von ihren täglichen Aufgaben in Anspruch genommen. Durch eine
 
 *(Upgradetag)*
 
-Heute führt Ihr Unternehmen offiziell das Upgrade auf Teams als Lösung für Kommunikation und Zusammenarbeit durch. Aktivieren Sie im Microsoft Teams Admin Center den Upgrade-Schalter, indem Sie als Koexistenzmodus **Teams only (Nur Microsoft Teams)** festlegen. (Wechseln Sie im Admin Center zu **Organisationsweite Einstellungen**  >  **Teams Upgrade .)** Benutzer erhalten eine Benachrichtigung in ihrem Skype for Business-Client, dass für sie ein Upgrade auf Teams.
+Heute führt Ihr Unternehmen offiziell das Upgrade auf Teams als Lösung für Kommunikation und Zusammenarbeit durch. Aktivieren Sie im Microsoft Teams Admin Center den Upgrade-Schalter, indem Sie als Koexistenzmodus **Teams only (Nur Microsoft Teams)** festlegen. (Wechseln Sie im Admin Center zu **Organisationsweite Einstellungen**  >  **Teams Upgrade ausführen**.) Benutzer erhalten eine Benachrichtigung in ihrem Skype for Business-Client, dass für sie ein Upgrade auf Teams.
 
 Wir empfehlen, allen Benutzern nach deren Upgrade eine E-Mail zu senden, in der Sie sie in Teams willkommen heißen.
 

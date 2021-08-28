@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Um die Anmeldeinformationen für SQL Server Reporting Services (SSRS) für den Zugriff auf die Überwachungsdatenbank anzugeben, führen Sie die folgende Aktion aus:'
-ms.openlocfilehash: 9f01b2a6526186d934949593d124f269a0cb491eed11d27988de96c46dcd16d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8d2b1789eb51346b32af4fe4cf9c2fc7167620bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324484"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593999"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (Anmeldeinformationen)
  
@@ -31,4 +31,4 @@ Geben Sie auf der Seite **Anmeldeinformationen angeben** die Benutzeranmeldeinfo
 > [!NOTE]
 > Ausführliche Informationen finden Sie unter "Angeben von Anmeldeinformationen und Verbindungsinformationen für Berichtsdatenquellen (SSRS)" unter [https://go.microsoft.com/fwlink/p/?LinkId=263431](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources) . 
   
-Ausführliche Informationen zum Bereitstellen der Reporting Services-Berichte für den Server, auf dem die Überwachung ausgeführt wird, finden Sie unter [Installieren von Überwachungsberichten in Skype for Business Server](../../../deploy/deploy-monitoring/install-monitoring-reports.md).
+Ausführliche Informationen zum Bereitstellen der Reporting Services-Berichte für den Server, auf dem die Überwachung ausgeführt wird, finden Sie unter [Installieren von Überwachungsberichten in Skype for Business Server.](../../../deploy/deploy-monitoring/install-monitoring-reports.md)

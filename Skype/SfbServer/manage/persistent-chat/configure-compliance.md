@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 'Zusammenfassung: Erfahren Sie, wie Sie den Serverkompatibilitätsdienst für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Erfahren Sie, wie Sie den Kompatibilitätsdienst für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
+ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349307"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602520"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
 
@@ -41,7 +41,7 @@ Mit der Kompatibilität für beständigen Chat können Administratoren ein Archi
 Diese Informationen können bei Bedarf aus der Compliance-SQL-Datenbank abgerufen werden. 
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Konfigurieren des Compliancediensts mithilfe von Windows PowerShell
 
@@ -150,7 +150,7 @@ Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "i
 |:-----|:-----|:-----|
 |Benutzername  <br/> |Der Name des Absenders.  <br/> |Optional  <br/> |
 |ID  <br/> |Die eindeutige ID des Absenders.  <br/> |Erforderlich  <br/> |
-|E-Mail  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
+|E-Mail senden  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
 |Intern  <br/> |Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.  <br/> |Optional  <br/> |
 |Uri  <br/> |Der SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
 

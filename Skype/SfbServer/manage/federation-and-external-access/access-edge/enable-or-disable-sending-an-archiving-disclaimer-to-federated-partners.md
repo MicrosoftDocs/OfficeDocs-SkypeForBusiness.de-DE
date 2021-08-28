@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Aktivieren oder deaktivieren Sie das Senden eines Archivierungshaftungsausschlusses an Verbundpartner in Skype for Business Server.
-ms.openlocfilehash: a44643d5a46d796e253a0fe444a45bdf610bd572
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c3f0522073443d5fdd5b4f098052041772d4cf63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602500"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren des Sendens eines Archivierungshaftungsausschlusses an Verbundpartner in Skype for Business Server
 
@@ -49,7 +49,7 @@ Damit Verbundbenutzer mit Benutzern in Ihrer Skype for Business Server Bereitste
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des Archivierungshaftungsausschlusses mithilfe Windows PowerShell Cmdlets
 
-Die Verwendung des Archivierungshaftungsausschlusses kann mithilfe von Windows PowerShell und dem cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Die Verwendung des Archivierungshaftungsausschlusses kann mit Windows PowerShell und dem Cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>So aktivieren Sie den Archivierungshaftungsausschluss
 

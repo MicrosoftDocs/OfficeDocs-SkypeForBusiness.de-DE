@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in der Slowakei, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 6242443e32660f8a106c5b0642076968f2f41b3f2a17096ad1fa72a062e90217
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in der Slowakei, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
+ms.openlocfilehash: d487f9601b1f4ea8afba817acd856922653727b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636499"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Einschränkungen für gebührenfreie Telefonnummern in der Slowakei
 

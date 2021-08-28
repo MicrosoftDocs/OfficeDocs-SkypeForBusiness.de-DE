@@ -1,5 +1,5 @@
 ---
-title: Plan for Persistent Chat Server in Skype for Business Server 2015
+title: Planen des Servers für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie den Server für beständigen Chat in Skype for Business Server 2015 planen.'
-ms.openlocfilehash: db641945fe9dd75e7ec55241c4dc8cb7fac2279fa26fa9396f7b537ac7876c66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4bce3145c3f2e3974c2f57d75afbe297ce8d304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351325"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623557"
 ---
-# <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan for Persistent Chat Server in Skype for Business Server 2015
+# <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen des Servers für beständigen Chat in Skype for Business Server 2015
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie den Server für beständigen Chat in Skype for Business Server 2015 planen.
   
@@ -47,7 +47,7 @@ Das folgende Diagramm zeigt eine allgemeine Ansicht der Architektur des Servers 
   
 ![Allgemeine Architektur der permanenten Chatserver](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-Der beständige Chat besteht aus einer Front-End-Serverrolle, die die Dienste für beständigen Chat bereitstellt, sowie einer Back-End-SQL-Datenbankkomponente. Sowohl Front-End- als auch Back-End-Komponenten sind in einem dedizierten Pool für beständigen Chat enthalten. Jeder Computer, der den Server für beständigen Chat hostet, muss Zugriff auf eine vorhandene Skype for Business Server 2015-Topologie haben. In diesem Diagramm gibt es einen Serverpool für beständigen Chat (A), der von Skype for Business Server Pool A zum Weiterleiten von Nachrichten an diesen pool A abhängig ist.
+Der beständige Chat besteht aus einer Front-End-Serverrolle, die die Dienste für beständigen Chat bereitstellt, sowie einer Back-End-SQL-Datenbankkomponente. Sowohl Front-End- als auch Back-End-Komponenten sind in einem dedizierten Pool für beständigen Chat enthalten. Jeder Computer, auf dem der Server für beständigen Chat gehostet wird, muss Zugriff auf eine vorhandene Skype for Business Server 2015-Topologie haben. In diesem Diagramm gibt es einen Serverpool für beständigen Chat (A), der von Skype for Business Server Pool A für das Weiterleiten von Nachrichten an diesen pool A abhängig ist.
   
 Sie können einen oder mehrere Serverpools für beständigen Chat bereitstellen, von denen jeder bis zu vier aktive Server für beständigen Chat unterstützt, die bis zu 80.000 gleichzeitige Benutzer unterstützen.
   
@@ -99,7 +99,7 @@ Wenn Sie sich für die Bereitstellung des Servers für beständigen Chat entsche
     
 - Wie möchten Sie steuern, wer Räume erstellen kann? Sie können Ersteller definieren, die Räume erstellen können. Ersteller können andere Mitglieder als Chatroommanager für die laufende Verwaltung der Chatrooms zuweisen.
     
-- Wie möchten Sie Räume erstellen? Der Server für beständigen Chat bietet ein webbasiertes Feature zum Erstellen und Verwalten von Chatrooms. Dies kann über den Skype for Business-Client gestartet werden. Sie können eine Kundenlösung definieren, die Ihre Geschäftlichen Anforderungen und Workflows implementiert, und den Server für beständigen Chat konfigurieren, um Benutzer zu Ihrer benutzerdefinierten Lösung zu leiten.
+- Wie möchten Sie Räume erstellen? Der Server für beständigen Chat bietet ein webbasiertes Feature zum Erstellen und Verwalten von Chatrooms. Dies kann über den Skype for Business-Client gestartet werden. Sie können eine Kundenlösung definieren, die Ihre Geschäftlichen Anforderungen und Workflows implementiert, und den Server für beständigen Chat so konfigurieren, dass Benutzer zu Ihrer benutzerdefinierten Lösung gelangen.
     
 - Welche Arten von Add-Ins möchten Sie bereitstellen? Add-Ins verbessern die Raumerfahrung, indem sie den Erweiterungsbereich im Skype for Business-Client nutzen, um Kontext bereitzustellen, der für den Raum relevant ist. Sie können die allgemeinen Add-Ins auswählen, die Ihnen (beispielsweise im Hinblick auf Ihre Unternehmenswebsite oder Dokumente für die interne Zusammenarbeit) am hilfreichsten erscheinen. Chatroom-Manager können bei Bedarf eines der registrierten Add-Ins auswählen und ihren Räumen zuordnen. 
     
@@ -114,7 +114,7 @@ Wenn Sie sich für die Bereitstellung des Servers für beständigen Chat entsche
 
 Weitere Informationen zum Installieren und Konfigurieren des Servers für beständigen Chat finden Sie in den folgenden Themen:
   
-- Ausführliche Informationen zum Bereitstellen des Servers für beständigen Chat finden Sie unter [Deploy Persistent Chat Server in Skype for Business Server 2015.](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md) 
+- Ausführliche Informationen zum Bereitstellen des Servers für beständigen Chat finden Sie unter [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
     
 - Ausführliche Informationen zum Konfigurieren von Einstellungen für die Bereitstellung des Servers für beständigen Chat finden Sie unter Verwalten des [Servers für beständigen Chat in Skype for Business Server 2015.](../../manage/persistent-chat/persistent-chat.md)
     

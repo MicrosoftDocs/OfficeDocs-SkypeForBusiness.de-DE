@@ -1,5 +1,5 @@
 ---
-title: Edgeeinstellungen – Erweiterung
+title: Edgeeinstellungen – Erweiterung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: b6f716093556919dab790e0c2258c22ba1e5159529deace41941b75c8802e817
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d1f133a2f0c8c469c0fb399f46cd3030035629b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347071"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593919"
 ---
-# <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
+# <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 
 Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:
 
@@ -47,7 +47,7 @@ Um den **Next-Hoppool** festzulegen oder zu ändern, den die Edgeserver für die
 
 ## <a name="edge-server-configuration"></a>Edgeserverkonfiguration
 
-Um Einstellungen für die **externen Einstellungen** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst ermitteln, ob Sie separate IP-Adressen für SIP-Zugriff, Webkonferenzen und den Audio-/Videodienst verwenden.
+Um Einstellungen für die **externen Einstellungen** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zuerst ermitteln, ob Sie separate IP-Adressen für SIP-Zugriff, Webkonferenzen und den Audio-/Videodienst verwenden.
 
 Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein entsprechender DNS-Hosteintrag (A) erstellt werden.
 

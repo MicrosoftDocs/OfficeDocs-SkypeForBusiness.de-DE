@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Skype for Business Server Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um gewählte Telefonnummern in das E.164-Format zu übersetzen. Mit anderen Worten: Normalisierungsregeln verwenden die von einem Benutzer gewählte Telefonnummer und konvertieren diese Nummer in das intern von Skype for Business Server verwendete Format. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.'
-ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333437"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602490"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definieren von Normalisierungsregeln in Skype for Business Server
 
@@ -27,7 +27,7 @@ Ausführliche Informationen zu Normalisierungsregeln finden Sie unter [Wählplä
 Ausführliche Informationen zum Schreiben regulärer Ausdrücke finden Sie unter [.NET Framework Reguläre Ausdrücke.](/dotnet/standard/base-types/regular-expressions)
 
 Mithilfe einer der beiden folgenden Methoden können Sie eine Übersetzungsregel definieren oder bearbeiten:
-- [Verwenden Sie das Tool **Zum Erstellen einer Normalisierungsregel,**](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) um Werte für die zu entfernenden Anfangsziffern, die Länge, die zu entfernenden Ziffern und die hinzuzufügenden Ziffern anzugeben, und lassen Sie dann Skype for Business Server Systemsteuerung das entsprechende Vergleichsmuster und die Übersetzungsregel für Sie generieren.
+- Verwenden Sie das Tool Zum [ **Erstellen einer Normalisierungsregel,**](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) um Werte für die zu entfernenden Anfangsziffern, die Länge, die zu entfernenden Ziffern und die hinzuzufügenden Ziffern anzugeben, und lassen Sie dann Skype for Business Server Systemsteuerung das entsprechende Vergleichsmuster und die Übersetzungsregel für Sie generieren.
 - [Schreiben Sie reguläre Ausdrücke manuell,](#create-or-modify-a-normalization-rule-manually) um das Übereinstimmungsmuster und die Übersetzungsregel zu definieren. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Erstellen oder Ändern einer Normalisierungsregel mithilfe von Build a Normalization Rule
@@ -47,7 +47,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in Sk
     - **Zu entfernende Ziffern:**(Optional) Geben Sie die Anzahl der Anfangsziffern an, die aus gewählten Nummern entfernt werden sollen, die mit dem Muster übereinstimmen sollen.
     - **Hinzuzufügende Ziffern:**(Optional) Geben Sie Ziffern an, die gewählten Nummern hinzugefügt werden sollen, die mit dem Muster übereinstimmen sollen.
     
-    Die Werte, die Sie in diese Felder eingeben, werden in **Muster-zu-Übereinstimmung** und **Übersetzungsregel** widergespiegelt. Wenn Sie **z. B. die Anfangsziffern** leer lassen, geben Sie **7** in das **Feld Length** ein, wählen Sie Genau aus, und geben Sie **0** in Ziffern an, um den **regulären** Ausdruck im **Muster** zu entfernen: 
+    Die Werte, die Sie in diese Felder eingeben, werden in **Muster-zu-Übereinstimmung** und **Übersetzungsregel** widergespiegelt. Wenn Sie **z. B. die Anfangsziffern** leer lassen, geben Sie **7** in das **Feld Length** ein, wählen Sie Genau aus, und geben Sie **0** in Ziffern an, um den folgenden regulären Ausdruck im **Muster zu** **entfernen:** 
 
     **^(\d {7} )$**
 
@@ -55,7 +55,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in Sk
     - Ein Wert, der die Anzahl der im Vergleichsmuster angegebenen Ziffern darstellt. Wenn das Vergleichsmuster beispielsweise **^(\d {7} )$** lautet, stellt $1 in der Übersetzungsregel siebenstellige gewählte Nummern dar.
     - (Optional) Geben Sie einen Wert in die **Ziffern ein, um** ein Feld hinzuzufügen, um Ziffern anzugeben, die der übersetzten Nummer vorangestellt werden sollen (z. B. **+1425).**
     
-    Wenn **"Muster zum Abgleichen"** beispielsweise **^(\d {7} )$** als Muster für gewählte Nummern enthält und die **Übersetzungsregel** **+1425 $1** als Muster für E.164-Telefonnummern enthält, normalisiert die Regel 5550100 auf +14255550100.
+    Wenn beispielsweise **"Pattern to match"** **^(\d {7} )$** als Muster für gewählte Nummern und die **Übersetzungsregel** **+1425 $1** als Muster für E.164-Telefonnummern enthält, normalisiert die Regel 5550100 auf +14255550100.
 
 8. (Optional) Wenn die Normalisierungsregel zu einer telefonnummer führt, die für Ihre Organisation intern ist, wählen Sie **interne Erweiterung** aus.
 9. (Optional) Geben Sie eine Zahl ein, um die Normalisierungsregel zu testen, und klicken Sie dann auf **"Los".** Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
