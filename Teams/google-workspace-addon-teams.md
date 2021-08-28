@@ -11,29 +11,29 @@ searchScope:
 - Microsoft Teams
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Add-On für Besprechungen für Google Workspace einrichten.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5232902aceed02398e2da2ca89182ba141b5a24366fc72103b9ac5289af28924
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f4fe6a61dd4891f457656e0659243c75c372142
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598539"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Einrichten Microsoft Teams Besprechungs-Add-Ons für Google Workspace
 
-Mithilfe des Microsoft Teams-Add-Ons können Google-Kalenderbenutzer eine Besprechung planen und an Microsoft Teams direkt aus Google Workspace teilnehmen. Benutzer erhalten Zugriff auf Teams Besprechungsfunktionen wie Video- und Audiokonferenzen, Bildschirmfreigabe, Besprechungschat, digitale Whiteboards und vieles mehr. Bleiben Sie in Verbindung und organisiert, um am Arbeitsplatz, in der Schule und im Leben mehr zusammen zu tun.
+Mithilfe des Microsoft Teams Besprechungs-Add-Ons können Google-Kalenderbenutzer eine Besprechung direkt aus Google Workspace Microsoft Teams und an ihnen teilnehmen. Die Benutzer erhalten Zugriff auf Teams Besprechungsfunktionen wie Video- und Audiokonferenzen, Bildschirmfreigabe, Besprechungschat, digitale Whiteboards und vieles mehr. Bleiben Sie in Verbindung und organisiert, um am Arbeitsplatz, in der Schule und im Leben mehr zusammen zu tun.
 
 Das Microsoft Teams Besprechungs-Add-On für Google Workspace muss von einem Teams-Administrator aktiviert werden, bevor Mandantenbenutzer auf die App zugreifen können.
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Aktivieren oder Deaktivieren Microsoft Teams Besprechungs-Add-Ons für Google Workspace im Azure-Portal
 
-Als Mandantenadministrator können Sie ein Microsoft Teams-Besprechungs-Add-On für Google Workspace über das Azure-Portal aus dem Administratorkonto Ihrer Organisation aktivieren oder deaktivieren.
+Als Mandantenadministrator können Sie über das Azure-Portal ein Microsoft Teams-Besprechungs-Add-On für Google Workspace aus dem Administratorkonto Ihrer Organisation aktivieren oder deaktivieren.
 
 Das Add-On ist standardmäßig aktiviert.
 
@@ -41,7 +41,7 @@ Das Add-On ist standardmäßig aktiviert.
 
 2. Wählen **Enterprise Anwendungen Alle** Anwendungen  >  **aus.**
 
-3. Suchen Sie **Microsoft Teams Besprechungs-Add-On für Google Workspace.**
+3. Suchen Sie Microsoft Teams Für Google Workspace nach **dem Besprechungs-Add-On**.
 
    ![Azure-Portal mit allen Anwendungen](media/aad-add-google-workspace.png)
 

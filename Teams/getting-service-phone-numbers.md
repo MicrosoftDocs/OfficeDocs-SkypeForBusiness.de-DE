@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie neue Telefonnummern erhalten und vorhandene Nummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen (Servicenummern) für Ihre Teams.
-ms.openlocfilehash: d5bc1ebcb8fa6e9d14d013a8c3dcb886e92078b61a9947a0fb13183840928519
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0122b75bbe698154f3966bb0352522c5335e4da6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315261"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598549"
 ---
 # <a name="getting-service-phone-numbers"></a>Servicetelefonnummern erhalten
 
@@ -51,7 +51,7 @@ Es gibt drei Möglichkeiten, Leistungsnummern zu erhalten:
 
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wechseln Sie in der linken Navigationsleiste **zu**  >  **Sprachanrufnummern Telefon**, und klicken Sie dann auf **Hinzufügen**.
+1. Wechseln Sie im linken Navigationsbereich **zu**  >  **Sprachanrufnummern Telefon** und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 3. Gehen Sie auf der Seite Standort und Menge wie folgt vor:
     1. Wählen **Sie unter Land oder Region** ein Land oder eine Region aus.
@@ -59,7 +59,7 @@ Es gibt drei Möglichkeiten, Leistungsnummern zu erhalten:
     1. Wählen **Sie unter** Ort einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie **auf Speicherort hinzufügen**.
     1. Wählen **Sie unter Vorwahl** eine Vorwahl aus. 
     2. Geben **Sie** unter Menge die Anzahl der Nummern ein, die Sie für Ihre Organisation verwenden möchten, und klicken Sie dann **auf** Weiter, um Ihre Nummern auszuwählen.
-4. Wählen Sie die Zahlen aus, die Sie wünschen. Sie haben zehn Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung auf den 10-Minuten-Pc zu bestellen. Wenn Sie länger als 10 Minuten zeit haben, werden die Telefonnummern an den Telefonnummernpool zurückgegeben.
+4. Wählen Sie die Zahlen aus, die Sie wünschen. Sie haben 10 Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung auf bestellung zu geben. Wenn Sie länger als 10 Minuten zeit haben, werden die Telefonnummern an den Telefonnummernpool zurückgegeben.
 5. Wenn Sie bereit sind, Ihre Bestellung zu bestellen, klicken Sie **auf Bestellung bestellen**.
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>Portieren oder übertragen von bestehenden Servicenummern

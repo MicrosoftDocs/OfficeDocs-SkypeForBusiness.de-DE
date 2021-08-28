@@ -12,22 +12,22 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: Ihre Bereitstellung des Servers für beständigen Chat kann viele gleichzeitige Chatrooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und erbt Einstellungen von dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zum Identifizieren von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
-ms.openlocfilehash: 43f8329a5eb3165671474638d0d9a63d2aa1dc516200c58f306c9ce21317bd4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8336beb24dbd8a159d5079e810c3c842f783803c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595789"
 ---
 # <a name="persistent-chat-configuration"></a>Konfiguration für beständigen Chat
  
 Ihre Bereitstellung des Servers für beständigen Chat kann viele gleichzeitige Chatrooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und erbt Einstellungen von dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zum Identifizieren von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
   
 > [!NOTE]
-> Obwohl viele der Verwaltungsfunktionen von Chatrooms auf Computern mit beständigem Chat für den Benutzer verfügbar sind, müssen Administratoren für beständigen Chat (in der Rolle **"cspersistentchatadministrator")** entweder die Systemsteuerung oder Verwaltungsshell-Cmdlets verwenden, um Kategorien zu erstellen oder zu verwalten.
+> Obwohl viele der Verwaltungsfeatures von Chatrooms auf Computern mit beständigem Chat für den Benutzer verfügbar sind, müssen Administratoren für beständigen Chat (in der Rolle **"cspersistentchatadministrator")** entweder die Systemsteuerung oder Verwaltungsshell-Cmdlets verwenden, um Kategorien zu erstellen oder zu verwalten.
   
 Administratoren für beständigen Chat verwenden Skype for Business Server Systemsteuerung oder Windows PowerShell Cmdlets, um Kategorien zu erstellen und zu verwalten und den Zugriff für Chatrooms für die Benutzer in ihrer Organisation zu entwerfen.
   

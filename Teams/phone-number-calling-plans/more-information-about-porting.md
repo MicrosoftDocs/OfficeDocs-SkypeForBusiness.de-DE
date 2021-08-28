@@ -12,19 +12,19 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
-description: Erhalten Sie die Anleitungen, die Sie benötigen, um Ihre Telefonnummern zu Microsoft Teams.
-ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erhalten Sie die Anleitungen, die Sie zum Portieren Ihrer Telefonnummern zu Microsoft Teams.
+ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296712"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598389"
 ---
 # <a name="more-information-about-porting"></a>Weitere Informationen zum Portieren
 
@@ -36,7 +36,7 @@ Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sic
 
 ## <a name="port-order-account-information"></a>Kontoinformationen für Portierungsauftrag
 
-Wenn Sie sich  auf der Seite Kontoinformationen hinzufügen des Portierungs-Assistenten zum Übermitteln eines Portierungsauftrags begnen, geben Sie fast alle Informationen ein, die Sie im LOA bereitstellen würden, darunter:
+Auf der Seite  Kontoinformationen hinzufügen des Portierungs-Assistenten zum Übermitteln eines Portierungsauftrags geben Sie fast alle Informationen ein, die Sie im LOA bereitstellen würden, darunter:
   
 - Kontonummer für den Dienstanbieter oder Netzbetreiber
     
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um die Übermittlung des Portierungsauftrags einfach zu
 
 ## <a name="authorized-person-on-the-account"></a>Autorisierte Person für das Konto
 
-Im Portierungs-Assistenten müssen Sie den Namen der Person eingeben, die berechtigt ist, Änderungen am Konto beim Dienstanbieter oder Netzbetreiber vorzunehmen. Der Name wird nicht zum Verarbeiten des Portierungsauftrags, sondern im Fall einer Streitigkeit oder wenn etwas beim Portieren von Nummern falsch ist, verwendet. Diese Person ist für das Genehmigungsschreiben (Letter of Authorization; LOA) eines Portierungsauftrags für den Portierungsauftrag zur Berücksichtigung der Genehmigungsschreibens (Letter of Authorization; LOA) zu verdächtig.
+Im Portierungs-Assistenten müssen Sie den Namen der Person eingeben, die berechtigt ist, Änderungen am Konto beim Dienstanbieter oder Netzbetreiber vorzunehmen. Der Name wird nicht zum Verarbeiten des Portierungsauftrags, sondern im Fall einer Streitigkeit oder wenn etwas beim Portieren von Nummern falsch ist, verwendet. Diese Person ist für das Genehmigungsschreiben (Letter of Authorization; LOA) eines Portierungsauftrags zur Berücksichtigung der Genehmigungsschreibens (Letter of Authorization; LOA) für einen Portierungsauftrag zur Berücksichtigung des Genehmigungsschreibens (Letter of Authorization; LOA
   
 > [!NOTE]
 > Das Feld ist auf 15 Zeichen (einschließlich Leerzeichen) beschränkt. Wenn der vollständige Name nicht im Feld steht, wird der Portierungsauftrag weder verzögert noch storniert.
@@ -85,7 +85,7 @@ Die Abrechnungstelefonnummer (Billing Telephone Number, BTN) ist die Haupttelefo
 Normalerweise finden Sie die Kontonummer auf einer Rechnung Ihres Dienstanbieters oder Netzbetreibers, oder Sie können sich auf der Website Ihres Netzbetreibers anmelden. Wenn Sie die Kontonummer immer noch nicht kennen, können Sie sich an Ihren Dienstanbieter oder Netzbetreiber wenden, um sie zu erhalten.
   
 > [!CAUTION]
->  Es ist wichtig, dass Sie beim Eingeben der Kontonummer Ihres Dienstanbieters oder Netzbetreibers keine Leerzeichen, Bindestriche oder Bindestriche verwenden.
+>  Es ist wichtig, dass Sie bei der Eingabe der Kontonummer Ihres Dienstanbieters oder Netzbetreibers keine Leerzeichen, Bindestriche oder Bindestriche verwenden.
 
 ## <a name="what-should-i-put-in-for-the-organization-name"></a>Was muss ich als Organisationsnamen eingeben?
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Umgebung mit mehreren Versionen von Skype for Business Server und Lync Server bereitstellen.
-ms.openlocfilehash: bcbb8a14cf1d998c68f83875bce25935d73e92b7a755cd370526a65aef202e36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5a158c3f0797bb3d0377762ea2876dbe5b9d26bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310044"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598159"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype Überlegungen zur Migration des Raumsystems
  
@@ -29,7 +29,7 @@ Dieser Abschnitt enthält Anleitungen, wenn Sie Skype Raumsystem in einer Umgebu
   
 Die BENUTZERreplikationskomponente (USER Replicator, UR) in Lync Server ruft Benutzerobjekte aus Active Directory ab und platziert sie in der Back-End-SQL Server-Datenbank von Lync Server. Nur die UR in Lync Server 2013 erkennt Skype Room System-Objekte. Die UR in früheren Versionen von Lync Server und Office Communications Server erkennt nicht die Active Directory-Attribute, die LRS-Objekte festlegen, und war ihnen daher nicht bekannt. 
   
-Wenn ein Skype Room System-Konto versucht, sich bei Lync anzumelden, und die automatische Ermittlung basierend auf dem SRV-Eintrag oder dem DNS A-Eintragssuche durchführt und diese Konten auf eine frühere Version von Lync Server oder Office Communications Server verweisen, erhält LRS eine Antwort vom Legacypool "404 Not Found". Der Legacypool kann Skype Room System nicht zu seinem Lync Server 2013-Startpool umleiten. 
+Wenn ein Skype Room System-Konto versucht, sich bei Lync anzumelden, und eine automatische Ermittlung basierend auf dem SRV-Eintrag oder dem DNS A-Eintrag durchführt, und wenn diese Konten auf eine frühere Version von Lync Server oder Office Communications Server verweisen, erhält LRS eine Antwort vom Legacypool "404 Not Found". Der Legacypool kann Skype Room System nicht zu seinem Lync Server 2013-Startpool umleiten. 
   
 Sie können dieses Problem mit den folgenden Optionen beheben: 
   
@@ -41,9 +41,9 @@ Sie können dieses Problem mit den folgenden Optionen beheben:
     
 ## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skype Raumsysteminteroperabilität mit einem Lync Server 2010-Pool
 
-Wenn ein Benutzer, der in einem Lync Server 2010-Pool verwaltet wird, während der Migration eine Besprechung plant und das Skype Raumsystemkonto einlädt, hat der Skype Room System-Client während der Teilnahme an der Besprechung eingeschränkte Funktionen. 
+Wenn ein Benutzer, der in einem Lync Server 2010-Pool verwaltet wird, während der Migration eine Besprechung plant und das Skype Raumsystemkonto einlädt, verfügt der Skype Room System-Client über eingeschränkte Funktionalität während der Teilnahme an der Besprechung. 
   
-Wenn der Skype Room System-Client an einem geplanten Konferenzanruf teilnimmt, der von einem Benutzer in Lync Server 2010 organisiert wurde, gelten für Skype Raumsystem die folgenden Besprechungseinschränkungen: 
+Wenn der Skype Room System-Client an einem geplanten Konferenzanruf teilnimmt, der von einem Benutzer in Lync Server 2010 organisiert wurde, gelten für Skype Raumsystem die folgenden Einschränkungen bei Besprechungen: 
   
 - Skype Room System kann den Videokatalog mit mehreren Ansichten nicht anzeigen.
     

@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Microsoft 365 Business Voice
+title: Einrichten Microsoft 365 Business Voice
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,14 +17,14 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft 365 Business Voice in Ihrem kleinen bis mittleren Unternehmen oder Ihrer Organisation einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b8d5c89fca6fd9ff84d06b784b51040dbafe20c0e2ccc74fde845b6990095e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eceaba6a099a718d6061c7db3888a63d6faf50f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635809"
 ---
-# <a name="set-up-microsoft-365-business-voice"></a>Einrichten von Microsoft 365 Business Voice
+# <a name="set-up-microsoft-365-business-voice"></a>Einrichten Microsoft 365 Business Voice
 
 </br>
 
@@ -54,9 +54,9 @@ Weitere Informationen zu Business Voice finden Sie unter Was [ist Microsoft 365 
 
 Bevor Sie Business Voice einrichten, müssen Sie ein paar Dinge tun. Mit den folgenden Aufgaben wird sichergestellt, dass Ihre Organisation für Business Voice bereit ist.
 
-* **Kaufen Sie Business Voice-Lizenzen,** und wenn Sie eine gebührenfreie Nummer erhalten oder Anrufe im Ferngesprächen telefonieren möchten, erhalten Sie Guthaben für Kommunikationen. Weitere Informationen finden Sie unter [Was muss ich kaufen, um die Microsoft 365 Business Voice?](what-to-buy.md)
+* **Kaufen Sie Business-Voice-Lizenzen,** und wenn Sie eine gebührenfreie Nummer erhalten oder Anrufe im Fernverkehr telefonieren möchten, erhalten Sie Guthaben für Kommunikationen. Weitere Informationen finden Sie unter [Was muss ich kaufen, um die Microsoft 365 Business Voice?](what-to-buy.md)
 * **Stellen Sie sicher, dass Ihre Internetverbindung Business Voice unterstützen kann.** Weitere Informationen finden Sie unter [Überprüfen Ihrer Internetverbindung für Business-Sprachanrufe.](get-ready-internet.md)
-* **Richten Sie Teams auf den Geräten Ihrer Benutzer** ein, richten Sie Voicemail-Begrüßungen ein, und helfen Sie Ihren Benutzern, mehr über Ihre Teams. Weitere Informationen finden Sie unter [Wie kann ich meine Benutzer für die Microsoft 365 Business Voice?](prepare-users.md)
+* **Richten Sie Teams auf den Geräten Ihrer** Benutzer ein, richten Sie Voicemail-Begrüßungen ein, und helfen Sie Ihren Benutzern, mehr über Ihre Teams. Weitere Informationen finden Sie unter Wie kann ich meine Benutzer für die [Microsoft 365 Business Voice?](prepare-users.md)
 
 Nachdem Sie Ihre Organisation für Business Voice vorbereitet haben, wählen Sie **Nächster Schritt: Einrichten von Business Voice aus.**
 

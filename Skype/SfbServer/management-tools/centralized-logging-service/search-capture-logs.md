@@ -10,20 +10,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
-description: 'Zusammenfassung: Erfahren Sie, wie Sie aufzeichnungsprotokolle des zentralisierten Protokollierungsdiensts in Skype for Business Server 2015 suchen und lesen.'
-ms.openlocfilehash: f1136166798b1f0570f18342cce04a51957b4cace83319183889eff3c98f7298
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Erfahren Sie, wie Sie in Skype for Business Server 2015 Protokolle des zentralisierten Protokollierungsdiensts durchsuchen und lesen.'
+ms.openlocfilehash: ff33e2d680c83b9d997e2c17d8852d8bd816edbf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294202"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636039"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Sucherfassungsprotokolle, die vom zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellt wurden
  
-**Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server 2015 die Aufzeichnungsprotokolle des zentralisierten Protokollierungsdiensts durchsuchen und lesen.
+**Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server 2015 aufzeichnungsprotokolle für den zentralisierten Protokollierungsdienst durchsuchen und lesen.
   
 Die Suchfunktionen im zentralisierten Protokollierungsdienst sind aus den folgenden Gründen nützlich und leistungsfähig: 
   
@@ -39,7 +39,7 @@ Nach der Suche wird das Cmdlet **Sync-CsClsLogging** ausgeführt. Der von den Su
   
 Um den größten Nutzen aus dem zentralisierten Protokollierungsdienst zu ziehen, benötigen Sie ein gutes Verständnis dafür, wie Sie die Suche so konfigurieren, dass nur Ablaufverfolgungsnachrichten von den Computer- und Poolprotokollen zurückgegeben werden, die für das von Ihnen untersuchte Problem relevant sind. Probleme
   
-Um die Suchfunktionen des zentralisierten Protokollierungsdiensts mithilfe der Skype for Business Server Verwaltungsshell auszuführen, müssen Sie Entweder Mitglied der Rollenbasierten Zugriffssteuerungsgruppen (Role-Based Access Control, RBAC) "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl über die Skype for Business Server Verwaltungsshell oder die Windows PowerShell Eingabeaufforderung aus:
+Um die Suchfunktionen des zentralisierten Protokollierungsdiensts mithilfe der Skype for Business Server Verwaltungsshell auszuführen, müssen Sie Entweder Mitglied der rollenbasierten Zugriffssteuerungsgruppen "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl über die Skype for Business Server Verwaltungsshell oder die Windows PowerShell Eingabeaufforderung aus:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -55,7 +55,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>So führen Sie eine einfache Suche mithilfe des zentralisierten Protokollierungsdiensts aus
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Stellen Sie sicher, dass das AlwaysOn-Szenario in Ihrer Bereitstellung auf globaler Ebene ausgeführt wird, und geben Sie dann Folgendes an der Eingabeaufforderung ein:
     
@@ -110,7 +110,7 @@ Beispiel:
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>So führen Sie eine Suche mithilfe der Zeitparameter aus
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Standardmäßig beträgt die Anfangszeit für die zeitspezifischen Parameter einer Suche 25 Minuten vor fünf Minuten nach dem Zeitpunkt, zu dem Sie die Suche starten. Wenn wir also um 16:00:00 Uhr suchen, wird die Startzeit der Suche als 15:35:00 Uhr bis 16:05:00 Uhr angezeigt. Wenn Sie 60 Minuten oder 3 Stunden vor der aktuellen Zeit suchen müssen, verwenden Sie den Parameter "-StartTime", und legen Sie die Datums- und Uhrzeitzeichenfolge fest, um die Uhrzeit anzugeben, zu der die Suche beginnen soll. 
     
@@ -141,7 +141,7 @@ Beispiel:
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>So führen Sie mithilfe weiterer Kriterien und Abgleichungsoptionen eine erweiterte Suche aus
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie zum Ausführen eines Befehls zum Erfassen von Ablaufverfolgungen für bestimmte Komponenten Folgendes ein:
     
@@ -157,7 +157,7 @@ Beispiel:
 
 Die Suche gibt alle Protokolleinträge zurück, die Ablaufverfolgungskomponenten für SIPStack, S4 und UserServices für alle Computer und Pools in Ihrer Bereitstellung in den letzten 30 Minuten enthalten.
     
-3. Geben Sie Folgendes ein, um die Suche mit den gleichen Komponenten auf ihren Front-End-Pool mit dem Namen pool01.contoso.net zu beschränken:
+3. Geben Sie Folgendes ein, um die Suche mit denselben Komponenten auf ihren Front-End-Pool mit dem Namen pool01.contoso.net zu beschränken:
     
    ```PowerShell
    Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
@@ -186,7 +186,7 @@ Sie erkennen den tatsächlichen Vorteil des zentralisierten Protokollierungsdien
 
 1. Um Snooper zu verwenden und Protokolldateien zu öffnen, benötigen Sie Lesezugriff auf die Protokolldateien. Um Snooper zu verwenden und auf die Protokolldateien zuzugreifen, müssen Sie Mitglied der Sicherheitsgruppe "CsAdministrator" oder "CsServerAdministrator" mit rollenbasierter Zugriffssteuerung (Role-Based Access Control, RBAC) oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. 
     
-2. Ändern Sie nach der Installation der Debugtools (LyncDebugTools.msi) das Verzeichnis in den Speicherort von Snooper.exe mit Windows Explorer oder über die Befehlszeile. Standardmäßig befinden sich die Debugtools unter "C:\Program Files\Skype for Business Server 2015\Debugging Tools". Doppelklicken oder führen Sie Snooper.exe aus.
+2. Ändern Sie nach der Installation der Debugtools (LyncDebugTools.msi) das Verzeichnis an den Speicherort der Snooper.exe mit Windows Explorer oder über die Befehlszeile. Standardmäßig befinden sich die Debugtools unter "C:\Programme\Skype for Business Server 2015\Debugtools". Doppelklicken Oder führen Sie Snooper.exe aus.
     
 3. Klicken Sie nach dem Öffnen von Snooper mit der rechten Maustaste auf **"Datei",** klicken Sie auf **"OpenFile",** suchen Sie ihre Protokolldateien, wählen Sie eine Datei im Dialogfeld **"Öffnen"** aus, und klicken Sie dann auf **"Öffnen".**
     

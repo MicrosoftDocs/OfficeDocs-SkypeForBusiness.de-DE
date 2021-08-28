@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatConfigMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: Ihre Bereitstellung des Servers für beständigen Chat kann viele gleichzeitige Chatrooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und erbt Einstellungen von dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zum Identifizieren von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
-ms.openlocfilehash: 60f1cd5db29c86d43dbea285ffdffc0b79e98d4bf8c07381089e0cb6b4b4ce46
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c33c6269dd5b90137d4cf33d2db3c10039839fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347001"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595799"
 ---
-# <a name="persistent-chat-configuration-main-page"></a>Konfiguration für beständigen Chat – Hauptseite
+# <a name="persistent-chat-configuration-main-page"></a>Konfiguration für beständigen Chat – Hauptseite
  
 Ihre Bereitstellung des Servers für beständigen Chat kann viele gleichzeitige Chatrooms hosten. Chatrooms können in Kategoriegruppen auf dem Server angeordnet werden. Jeder Chatroom gehört einer Kategorie an und erbt Einstellungen von dieser Kategorie. Diese Anordnung ergibt eine hilfreiche Struktur zum Identifizieren von Konversationen basierend auf ihrem geschäftlichen Anlass und ermöglicht die delegierte Administration und eine einfachere Verwaltung.
   

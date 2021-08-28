@@ -1,5 +1,5 @@
 ---
-title: Bericht über Fehlerverteilung in Skype for Business Server
+title: Fehlerverteilungsbericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Zusammenfassung: Erfahren Sie mehr über den Fehlerverteilungsbericht in Skype for Business Server.'
-ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2b925a84237ed0ef88012e63f9e5db4b561dd27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636059"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Bericht über Fehlerverteilung in Skype for Business Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Fehlerverteilungsbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Bericht über Fehlerverteilung in Skype for Business Server.
   

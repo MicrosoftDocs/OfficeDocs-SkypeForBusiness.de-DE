@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Zusammenfassung: Informationen zum Verwalten von Serverkategorien für beständigen Chat in Skype for Business Server 2015.'
-ms.openlocfilehash: 1785f541765075160573907955630ee395d4f9773daebff7895842689327a3ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a69d8ec3119f9f94f9f5c864ec0e0d2d613b0e20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276750"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622217"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -36,12 +36,12 @@ Das Definieren von AllowedMembers und Creators für eine Kategorie hat folgende 
     
 Benutzer, Organisationseinheiten (OUs) und Benutzergruppen, die als Ersteller der Kategorie identifiziert werden, sind die einzigen Personen und Gruppen, die Räume in der Kategorie erstellen dürfen. Nachdem die Kategorie erstellt wurde, können Sie Benutzer, Organisationseinheiten und Benutzergruppen aus der Liste der zugelassenen Mitglieder der Kategorie als Chatroommanager und Mitglieder auswählen, um den Chatroom zu verwalten und daran teilzunehmen. 
   
-Bevor Sie Kategorien konfigurieren, müssen Sie [die Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)lesen.
+Bevor Sie Kategorien konfigurieren, müssen Sie die [Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)lesen.
   
 Sie können Kategorien mithilfe der Systemsteuerung oder mit Windows PowerShell Cmdlets konfigurieren und verwalten.
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Konfigurieren von Kategorien mithilfe der Systemsteuerung
 
@@ -109,7 +109,7 @@ Vollständige Informationen zur Cmdlet-Syntax, einschließlich aller Parameter, 
   
 ### <a name="create-a-new-category"></a>Erstellen einer neuen Kategorie
 
-Mit dem Cmdlet **"New-CsPersistentChatCategory"** können Sie eine neue Kategorie erstellen. Mit dem folgenden Befehl wird beispielsweise eine neue Kategorie namens "HelpDesk" im Pool atl-cs-001.contoso.com erstellt. In diesem Beispiel ist der Dateiupload aktiviert:
+Mit dem Cmdlet **"New-CsPersistentChatCategory"** können Sie eine neue Kategorie erstellen. Der folgende Befehl erstellt beispielsweise eine neue Kategorie namens HelpDesk im Pool atl-cs-001.contoso.com. In diesem Beispiel ist der Dateiupload aktiviert:
   
 ```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 

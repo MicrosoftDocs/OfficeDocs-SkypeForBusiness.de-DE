@@ -14,25 +14,25 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Voice Routing-Richtlinien in Ihrem Microsoft Teams.
-ms.openlocfilehash: 3dbcd770a4806768e122caa4edb3293a349ea57c4c553434c530b1a2deb80ac9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15e0d14310865244570dee677ac19238e9510628
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350877"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598459"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>Verwalten von Voice Routing-Richtlinien für Direct Routing
 
-Wenn Sie Telefonsystem [Direct Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, verwenden Sie Voice Routing-Richtlinien, um Teams- und Skype for Business Online-Benutzern das Empfangen und Anrufen im öffentlichen Telefonnetz (Public Switched Telephone Network, PSTN) mithilfe Ihrer lokalen Telefonieinfrastruktur zu ermöglichen.
+Wenn Sie Telefonsystem [Direct Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, verwenden Sie Voice Routing-Richtlinien, um es Teams- und Skype for Business Online-Benutzern zu ermöglichen, Telefonanrufe über Ihre lokale Telefonieinfrastruktur im öffentlichen Telefonnetz (Public Switched Telephone Network, PSTN) zu empfangen und zu unternehmen.
 
-Eine Sprachroutingrichtlinie ist ein Container für PSTN-Nutzungsdatensätze. Sie erstellen und verwalten Voice Routing-Richtlinien, indem Sie zu **Voice Voice** Routing policies im Microsoft Teams Admin Center oder mithilfe von  >   Windows PowerShell.
+Eine Voice Routing-Richtlinie ist ein Container für PSTN-Nutzungsdatensätze. Sie erstellen und verwalten Voice Routing-Richtlinien, indem Sie zu **Voice Voice** Routing policies im Microsoft Teams Admin Center oder mithilfe von  >   Windows PowerShell.
 
 Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Benutzer erhalten die globale Richtlinie automatisch, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Beachten Sie, dass Sie die Einstellungen in der globalen Richtlinie bearbeiten, aber nicht umbenennen oder löschen können.
 
-Es ist wichtig zu wissen, dass benutzer mit der Zuweisung einer Sprachroutingrichtlinie nicht in der Lage sind, pstN-Anrufe in Teams. Außerdem müssen Sie den Benutzer für das direkte Routing Telefonsystem und andere Konfigurationsschritte ausführen. Weitere Informationen finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md)
+Es ist wichtig zu wissen, dass benutzer mit der Zuweisung einer Sprachroutingrichtlinie nicht in der Lage sind, pstN-Anrufe in einem Teams. Darüber hinaus müssen Sie den Benutzer für das direkte Routing Telefonsystem und andere Konfigurationsschritte ausführen. Weitere Informationen finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md)
 
 ## <a name="create-a-custom-voice-routing-policy"></a>Erstellen einer benutzerdefinierten Voice Routing-Richtlinie
 
@@ -42,7 +42,7 @@ Es ist wichtig zu wissen, dass benutzer mit der Zuweisung einer Sprachroutingric
     ![Screenshot der Seite "Voice Routing Policy hinzufügen" im Microsoft Teams Admin Center](media/manage-voice-routing-policies.png) 
 2. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
 3. Klicken **Sie unter PSTN-Nutzungsdatensätze** auf **PSTN-Nutzung hinzufügen**, und wählen Sie dann die Einträge aus, die Sie hinzufügen möchten. Wenn Sie einen neuen PSTN-Nutzungsdatensatz erstellen müssen, klicken Sie auf **Hinzufügen**.
-4. Wenn Sie mehrere PSTN-Nutzungsdatensätze hinzugefügt haben, ordnen Sie sie in der von Ihnen verwendeten Reihenfolge an.
+4. Wenn Sie mehrere PSTN-Nutzungsdatensätze hinzugefügt haben, ordnen Sie diese in der von Ihnen verwendeten Reihenfolge an.
 5. Wenn Sie fertig sind, klicken Sie auf **Übernehmen**.
 6. Klicken Sie auf **Speichern**.
 
@@ -56,7 +56,7 @@ Weitere [Informationen finden Sie unter New-CsOnlineVoiceRoutingPolicy.](/powers
 
 Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstellte, benutzerdefinierte Richtlinie zuweisen.
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice Voice**  >  **Routing Policies**.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice Voice** Voice  >  **Routing Policies**.
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
 3. Klicken **Sie auf PSTN-Nutzungsdatensätze hinzufügen/entfernen**, nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
 

@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainVerifyDomainPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Um die Replikation der in Schritt 1: Vorbereiten des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:'
-ms.openlocfilehash: e02708e7b995c2f83e82080be60caa1e251f6b9438a75d93c7d74f47d812db93
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1715ef902b4c0812b98ff6e37c8ea31eab5489ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596919"
 ---
 # <a name="verify-replication-in-the-domain"></a>Überprüfen der Replikation in der Domäne
  
-Um die Replikation der in **Schritt 1: Vorbereiten** des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:
+Um die Replikation der in **Schritt 1: Vorbereiten** des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell Lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:
   
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie in Windows PowerShell Folgendes ein:
     

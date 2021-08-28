@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: In den Abschnitten in diesem Artikel wird beschrieben, wie Active Directory-Benutzer aus Skype for Business Server aktiviert, vorübergehend deaktiviert oder entfernt werden.
-ms.openlocfilehash: 9ff446b6829ed0d6f8e7b36de5b20fe30db5c7ba7fcf426abfd2068ff549a5bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a604e08ad23f00f8eaf0342254df4563c0a6b864
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622187"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Verwalten von Benutzerkonten für Skype for Business Server
 
@@ -44,7 +44,7 @@ Dieser Artikel enthält die folgenden Verfahren:
 
 Sie können die Ergebnisse einer Suchabfrage verwenden, um Active Directory-Benutzer für Skype for Business Server zu konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URIs (Uniform Resource Identifier) nach Benutzern suchen.
 
-Sie können nach Benutzern suchen, indem Sie die Skype for Business Server Systemsteuerung oder das Snap-In "Active Directory-Benutzer und -Computer" verwenden. Im folgenden Verfahren wird beschrieben, wie Sie Skype for Business Server Systemsteuerung verwenden, um nach Benutzern zu suchen.
+Sie können mithilfe der Skype for Business Server Systemsteuerung oder des Snap-Ins "Active Directory-Benutzer und -Computer" nach Benutzern suchen. Im folgenden Verfahren wird beschrieben, wie Sie Skype for Business Server Systemsteuerung verwenden, um nach Benutzern zu suchen.
 
 > [!NOTE]
 > In einer Umgebung mit einer zentralen Gesamtstrukturtopologie sind die Suchergebnisse möglicherweise nicht genau, wenn Sie anhand der E-Mail-Adresse des Benutzers nach einem Benutzer suchen. Stattdessen können Sie Benutzer durch Angabe eines SIP-Adressenpräfixes suchen, z. B. "sip:name", einen Suchfilter hinzufügen und eine SIP-Adresse auswählen, die einen Teil einer E-Mail-Adresse enthält, oder das Cmdlet **Get-CSUser** verwenden.
@@ -74,7 +74,7 @@ Sie können nach Benutzern suchen, indem Sie die Skype for Business Server Syste
 
 Nachdem Sie ein Benutzerkonto in Active Directory-Benutzern und -Computern aktiviert haben, können Sie Skype for Business Server Systemsteuerung verwenden, um neue Skype for Business Server Benutzerkonten zu erstellen und zu aktivieren, indem Sie einen Active Directory-Benutzer zu Skype for Business Server hinzufügen.
 
-Sie können auch ein Cmdlet verwenden, insbesondere [Enable-CsUser.](/powershell/module/skype/enable-csuser?view=skype-ps)
+Sie können auch ein Cmdlet verwenden, insbesondere [Enable-CsUser.](/powershell/module/skype/enable-csuser)
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
@@ -86,7 +86,7 @@ Sie können auch ein Cmdlet verwenden, insbesondere [Enable-CsUser.](/powershell
 
 5. Klicken Sie im Dialogfeld **"Neuer Lync Server-Benutzer"** auf **"Hinzufügen".**
 
-6. Geben Sie im Feld **"Benutzer suchen"** den namen, den Anzeigenamen, den Vornamen, den Nachnamen, den SAM-Kontonamen (Security Accounts Manager), die E-Mail-Adresse, den Benutzerprinzipalnamen (UPN) oder die Telefonnummer des gewünschten Active Directory-Benutzerkontos ein, und klicken Sie dann auf **"Suchen".**
+6. Geben Sie im Feld **"Benutzer suchen"** den namen, den Anzeigenamen, den Vornamen, den Nachnamen, den SAM-Kontonamen (Security Accounts Manager), die E-Mail-Adresse, den Benutzerprinzipalnamen (USER Principal Name, UPN) oder die Telefonnummer des gewünschten Active Directory-Benutzerkontos ein, und klicken Sie dann auf **Suchen.**
 
 7. Wählen Sie in der Tabelle das Konto aus, das Sie Skype for Business Server hinzufügen möchten, und klicken Sie dann auf **OK.**
 
@@ -133,7 +133,7 @@ Benutzerkonten können mithilfe des Cmdlets **"Set-CsUser"** vorübergehend deak
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsUser".](/powershell/module/skype/set-csuser?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsUser".](/powershell/module/skype/set-csuser)
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>Deaktivieren eines Benutzers für Enterprise-VoIP
 <a name="Disable_EV"> </a>
@@ -168,7 +168,7 @@ Der Benutzer kann das Feature Enterprise-VoIP jetzt nicht mehr verwenden. Verwan
 Mit dem folgenden Verfahren können Sie ein zuvor hinzugefügtes Benutzerkonto in Skype for Business Server entfernen.
 
 > [!NOTE]
-> Wenn Sie einen Benutzer entfernen, gehen alle Einstellungen verloren, die Sie für das Benutzerkonto konfiguriert haben. Wenn Sie stattdessen ein Benutzerkonto vorübergehend deaktivieren möchten, lesen [Sie "Deaktivieren oder erneutes Aktivieren eines Benutzerkontos, das zuvor für Skype for Business Server aktiviert war".](user-accounts.md#Disable)
+> Wenn Sie einen Benutzer entfernen, gehen alle Einstellungen verloren, die Sie für das Benutzerkonto konfiguriert haben. Wenn Sie stattdessen ein Benutzerkonto vorübergehend deaktivieren möchten, lesen Sie ["Deaktivieren oder erneutes Aktivieren eines Benutzerkontos, das zuvor für Skype for Business Server aktiviert war".](user-accounts.md#Disable)
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
@@ -195,13 +195,13 @@ Sie können das Cmdlet Disable-CsUser verwenden, um ein Benutzerkonto zu entfern
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
+Nachdem dieser Befehl ausgeführt wurde, gibt es keine Möglichkeit, das Konto erneut zu aktivieren und die vorherigen Kontoeinstellungen wiederherzustellen. Stattdessen müssen Sie das Cmdlet Enable-CsUser- verwenden, um für Ken Myer ein ganz neues Konto zu erstellen.
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Disable-CsUser".](/powershell/module/skype/disable-csuser?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Disable-CsUser".](/powershell/module/skype/disable-csuser)
 
 ## <a name="see-also"></a>Siehe auch
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
+[Enable-CsUser](/powershell/module/skype/enable-csuser)
 
-[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)
+[Disable-CsUser](/powershell/module/skype/disable-csusers)

@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufplänen. Damit erhalten die Benutzer in Ihrer Organisation eine Notrufadresse, die von Notdiensten verwendet werden kann.
-ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df94bdd2f69338ae6085a4d0c35f9a0f907c72c9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334427"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621847"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Wie erstelle ich ein Supportticket für die Adressvalidierung?
 
@@ -75,7 +75,7 @@ Die Adressvalidierung ist ein wichtiger Bestandteil des Einrichtens von Anrufpl�
       - Land oder Region
     
      > [!IMPORTANT]
-     > **Geben Sie das Land/die Region an, in dem/der wir Anrufpläne anbieten, für die Sie eine Notfalladresse überprüfen möchten, wenn Sie eine Telefonnummer zuweisen.**
+     > **Geben Sie das Land/die Region an, in dem/der wir Anrufpläne anbieten, für die Sie bei der Zuweisung einer Telefonnummer eine Notfalladresse überprüfen möchten.**
   
       - Postleitzahl
     

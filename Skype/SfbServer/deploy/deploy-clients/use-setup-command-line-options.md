@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Zusammenfassung: Erfahren Sie mehr über Setup.exe Befehlszeilenvorgänge in Office Setup.'
-ms.openlocfilehash: 1eb0a6b1e2050eb7152ff0eb65c7c08af57e307f5253a8ec8502fd3e7718aa3a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e59249a459e697aa18b9fb757c0cf03c036b5077
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300351"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598149"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Verwenden von Setup-Befehlszeilenoptionen mit Skype for Business Clients
  
 **Zusammenfassung:** Erfahren Sie mehr über Setup.exe Befehlszeilenvorgänge in Office Setup.
   
-Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setups verwendet. Anstatt die Setup-Befehlszeilenoptionen zu verwenden, verwenden Sie in der Regel das Office-Anpassungstool und die Config.xml-Datei für die Produkteinrichtung und featureanpassung.
+Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setups verwendet. Anstatt die Setup-Befehlszeilenoptionen zu verwenden, verwenden Sie in der Regel das Office-Anpassungstool und die Config.xml-Datei für die Produkteinrichtung und Featureanpassung.
   
 Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle beschriebenen Befehlzeilenoptionen.
   

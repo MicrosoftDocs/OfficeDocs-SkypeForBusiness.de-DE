@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Zusammenfassung: Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server.'
-ms.openlocfilehash: 128ae4fcc1a9e7cd9817e73539b1bf1290883a1d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612394"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server
 
@@ -218,7 +218,7 @@ Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
-9. Erstellen und zuweisen Sie eine Ausstellungstransformationsregel für die Vertrauensstellung der vertrauenden Seite mithilfe Windows PowerShell, indem Sie die folgenden Befehle ausführen:
+9. Erstellen Und zuweisen Sie eine Ausstellungstransformationsregel für die Vertrauensstellung der vertrauenden Seite mit Windows PowerShell, indem Sie die folgenden Befehle ausführen:
 
   ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -276,7 +276,7 @@ Mithilfe der formularbasierten Authentifizierung können Sie eine Webseite entwi
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Konfigurieren Skype for Business Server passiven Authentifizierung
 
-Im folgenden Abschnitt wird beschrieben, wie sie Skype for Business Server konfigurieren, um die passive Authentifizierung zu unterstützen. Nach der Aktivierung müssen Benutzer, die für die zweistufige Authentifizierung aktiviert sind, eine physische oder virtuelle Smartcard und eine gültige PIN verwenden, um sich mit dem Skype for Business Client anzumelden.
+Im folgenden Abschnitt wird beschrieben, wie Sie Skype for Business Server konfigurieren, um die passive Authentifizierung zu unterstützen. Nach der Aktivierung müssen Benutzer, die für die zweistufige Authentifizierung aktiviert sind, eine physische oder virtuelle Smartcard und eine gültige PIN verwenden, um sich mit dem Skype for Business Client anzumelden.
 
 > [!NOTE]
 > Es wird dringend empfohlen, dass Kunden die passive Authentifizierung für Registrierungsstellen und Webdienste auf Dienstebene aktivieren. Wenn die passive Authentifizierung für Registrierungsstellen und Webdienste auf globaler Ebene aktiviert ist, führt dies wahrscheinlich zu organisationsweiten Authentifizierungsfehlern für Benutzer, die sich nicht mit dem unterstützten Desktopclient anmelden.
@@ -326,7 +326,7 @@ In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Pro
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>So erstellen Sie eine benutzerdefinierte Proxykonfiguration
 
-1. Erstellen Sie über die Befehlszeile der Skype for Business Server Verwaltungsshell eine neue Proxykonfiguration für jeden Skype for Business Server Edgepool, Enterprise Pool und Standard Edition Server, der für die passive Authentifizierung aktiviert wird, indem Sie die folgenden Befehle ausführen:
+1. Erstellen Sie in der Befehlszeile der Skype for Business Server Verwaltungsshell eine neue Proxykonfiguration für jeden Skype for Business Server Edgepool, Enterprise Pool und Standard Edition Server, der für die passive Authentifizierung aktiviert wird, indem Sie die folgenden Befehle ausführen:
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -342,7 +342,7 @@ In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Pro
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Verwalten der zweistufigen Authentifizierung in Skype for Business Server](two-factor-authentication.md)
 

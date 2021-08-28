@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern (Übertragungsnummern) für Ihre Organisation erhalten, benötigen Sie möglicherweise Hilfe und Support beim PSTN Service Desk.
-ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
-ms.translationtype: HT
+ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310673"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598469"
 ---
 # <a name="pstn-service-desk"></a>PSTN Service Desk 
 

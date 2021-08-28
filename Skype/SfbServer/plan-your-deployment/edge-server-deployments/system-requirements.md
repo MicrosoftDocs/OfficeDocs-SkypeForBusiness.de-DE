@@ -9,29 +9,29 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: Erfahren Sie mehr über die Systemanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: dc1541604a4a26c9af3c184282648ef2f96469fa4346a6b6cc379eed2f5f023f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bc8a6666f46d093c9f3d2da41f2663c79e94ddf3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622157"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Systemanforderungen für Edgeserver in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Systemanforderungen für Edgeserver in Skype for Business Server.
   
-In Bezug auf ihre Skype for Business Server Edgeserverbereitstellung müssen Sie dies für den Server oder die Server tun, die sich in der Umgebung befinden, sowie die Planung der Umgebungsstruktur. Weitere Informationen zu Topologie, DNS, Zertifikaten und anderen Infrastrukturaspekten finden Sie in der Dokumentation zu den Umgebungsanforderungen.
+Wenn es um Ihre Skype for Business Server Edgeserverbereitstellung geht, müssen Sie dies für den Server oder die Server tun, die sich in der Umgebung befinden, sowie die Planung der Umgebungsstruktur. Weitere Informationen zu Topologie, DNS, Zertifikaten und anderen Infrastrukturaspekten finden Sie in der Dokumentation zu den Umgebungsanforderungen.
   
 ## <a name="components"></a>Komponenten
 
-Bei der Erläuterung der Edgeserverumgebung verweisen wir auf Komponenten, die größtenteils in einem Umkreisnetzwerk bereitgestellt werden (d. a. entweder in einer Arbeitsgruppe oder in einer Domäne, die sich außerhalb Ihrer Skype for Business Server Domänenstruktur befindet).
+Bei der Erläuterung der Edgeserverumgebung verweisen wir auf Komponenten, die größtenteils in einem Umkreisnetzwerk bereitgestellt werden (d. b. entweder in einer Arbeitsgruppe oder einer Domäne, die sich außerhalb Ihrer Skype for Business Server Domänenstruktur befindet).
   
 Beachten Sie, dass dies die Komponenten sind, die Sie berücksichtigen müssen, um Ihren Edge erfolgreich bereitzustellen:
   
@@ -60,7 +60,7 @@ Dies sind die Skype for Business Server, die in Ihrer Umkreisumgebung bereitgest
     
 - **XMPP-Proxydienst:** Akzeptiert und sendet XMPP-Nachrichten (Extensible Messaging and Presence Protocol) an und von konfigurierten XMPP-Verbundpartnern.
     
-Autorisierte externe Benutzer können Ihre Edgeserver verwenden, um eine Verbindung mit Ihrer internen Skype for Business Server-Bereitstellung herzustellen, aber andernfalls bieten sie keinen anderen Zugriff auf Ihr internes Netzwerk für jemanden.
+Autorisierte externe Benutzer können Ihre Edgeserver verwenden, um eine Verbindung mit Ihrer internen Skype for Business Server Bereitstellung herzustellen, aber andernfalls gewähren sie keinen anderen Zugriff auf Ihr internes Netzwerk für andere Benutzer.
   
 > [!NOTE]
 > Edgeserver werden bereitgestellt, um Verbindungen für aktivierte Skype for Business Clients und andere Edgeserver (in Verbundszenarien) bereitzustellen. Sie können keine Verbindung von anderen Endpunktclient- oder Servertypen herstellen. Der XMPP-Gatewayserver kann Verbindungen mit konfigurierten XMPP-Partnern zulassen. Aber auch hier sind dies die einzigen Client- und Verbundtypen, die funktionieren. 
@@ -91,7 +91,7 @@ Und für mobile Geräte:
     
 - Es ermöglicht Pushbenachrichtigungen von Microsoft 365 oder Office 365 an mobile Geräte.
     
-Unsere aktuellen Reverseproxyempfehlungen finden Sie auf der Seite ["Telefonieinfrastruktur für Skype for Business".](../../../SfbPartnerCertification/certification/infra-gateways.md) Ihr Reverseproxy also:
+Unsere aktuellen Empfehlungen für Reverseproxys finden Sie auf der Seite ["Telefonieinfrastruktur für Skype for Business".](../../../SfbPartnerCertification/certification/infra-gateways.md) Ihr Reverseproxy also:
   
 - transport layer security (TLS) verwenden können, die über öffentliche Zertifikate in Ihre Umgebung eingeführt wurde, um eine Verbindung mit den veröffentlichten externen Webdiensten herzustellen:
     
@@ -129,9 +129,9 @@ Sie müssen ihre Edgebereitstellung hinter einer externen Firewall platzieren, e
 ### <a name="directors"></a>Directors
 <a name="Directors"> </a>
 
-Dies ist eine optionale Rolle. Dies kann ein einzelner Server oder ein Pool von Servern sein, auf denen die Directorrolle ausgeführt wird. Es handelt sich um eine Rolle in der internen Skype for Business Server-Umgebung.
+Dies ist eine optionale Rolle. Dies kann ein einzelner Server oder ein Pool von Servern sein, auf denen die Directorrolle ausgeführt wird. Es handelt sich um eine Rolle in der internen Skype for Business Server Umgebung.
   
-Der Director ist ein interner Next Hop-Server, der eingehenden SIP-Datenverkehr von den Edgeservern empfängt, die für Skype for Business Server interne Server bestimmt sind. Eingehende Anforderungen werden vorab authentifiziert und an den Homepool oder Server eines Benutzers umgeleitet. Mit dieser Vorauthentifizierung können Sie nicht identifizierte Benutzerkontoanforderungen ablegen.
+Der Director ist ein interner nächster Hopserver, der eingehenden SIP-Datenverkehr von den Edgeservern empfängt, die für Skype for Business Server interne Server bestimmt sind. Eingehende Anforderungen werden vorab authentifiziert und an den Homepool oder Server eines Benutzers umgeleitet. Mit dieser Vorauthentifizierung können Sie nicht identifizierte Benutzerkontoanforderungen ablegen.
   
 Warum ist das wichtig? Eine wichtige Funktion für einen Director besteht darin, Standard Edition Server und Front-End-Server oder Front-End-Pools vor bösartigem Datenverkehr wie Denial-of-Service (DoS)-Angriffen zu schützen. Wenn Ihr Netzwerk mit ungültigen externen Datenverkehr überschwemmt wird, wird der Datenverkehr beim Director beendet.
   
@@ -140,7 +140,7 @@ Warum ist das wichtig? Eine wichtige Funktion für einen Director besteht darin,
 
 Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den DNS-Lastenausgleich für neue Bereitstellungen optimiert. Dies wird empfohlen. Wenn Sie hohe Verfügbarkeit benötigen, empfehlen wir die Verwendung eines Hardwaregeräts zum Lastenausgleich für eine bestimmte Situation:
   
-- Exchange UM für Remotebenutzer, die Exchange UM **vor** Exchange 2013 verwenden.
+- Exchange UM für Remotebenutzer, die **Exchange** UM vor Exchange 2013 verwenden.
     
 > [!IMPORTANT]
 > Es ist wichtig zu beachten, dass Sie Lastenausgleichsmodule nicht kombinieren können. In Ihrer Skype for Business Server Umgebung müssen alle Schnittstellen entweder DNS oder HLB verwenden. 
@@ -164,7 +164,7 @@ Für jeden Edgeserver, auf dem der A/V-Edgedienst ausgeführt wird, gelten die f
     
 #### <a name="hlb-requirements"></a>HLB-Anforderungen
 
-Skype for Business Server hat nicht viele cookiebasierte Affinitätsanforderungen. Sie müssen also keine cookiebasierte Persistenz verwenden, **es sei denn** (und dies ist Skype for Business Server 2015-spezifisch) werden Sie Lync Server 2010 Front-End-Server oder Front-End-Pools in Ihrer Skype for Business Server Umgebung haben. Sie benötigen cookiebasierte Affinität in der für Lync Server 2010 empfohlenen Konfigurationsmethode.
+Skype for Business Server hat nicht viele cookiebasierte Affinitätsanforderungen. Sie müssen also keine cookiebasierte Persistenz verwenden, **es sei denn** (und dies ist Skype for Business Server 2015-spezifisch) werden Lync Server 2010-Front-End-Server oder Front-End-Pools in Ihrer Skype for Business Server Umgebung haben. Sie benötigen cookiebasierte Affinität in der für Lync Server 2010 empfohlenen Konfigurationsmethode.
   
 > [!NOTE]
 > Wenn Sie sich dafür entscheiden, die cookiebasierte Affinität für Ihre HLB zu aktivieren, gibt es kein Problem, dies zu tun, auch wenn Ihre Umgebung sie nicht benötigt. 
@@ -186,16 +186,16 @@ Für **Bereitstellungen,** die cookiebasierte Affinität benötigen:
 - Das Cookie für das Hardwaregerät zum Lastenausgleich **muss** in jeder HTTP-Antwort festgelegt werden, für die die eingehende HTTP-Anforderung kein Cookie hatte, unabhängig davon, ob eine vorherige HTTP-Antwort auf derselben TCP-Verbindung ein Cookie erhalten hat. Wenn Ihr Hardwaregerät zum Lastenausgleich das Einfügen von Cookies so optimiert, dass es nur einmal pro TCP-Verbindung auftritt, darf diese Optimierung **nicht** verwendet werden.
     
 > [!NOTE]
-> Es ist typisch für HLB-Konfigurationen, die Quellaffinität und die 20-minütige TCP-Sitzungsdauer zu verwenden, was für Skype for Business Server und deren Clients geeignet ist, da der Sitzungsstatus über die Clientverwendung und/oder Anwendungsinteraktion beibehalten wird. 
+> Es ist typisch für HLB-Konfigurationen, die Quellaffinität und die 20-minütige TCP-Sitzungsdauer zu verwenden, was für Skype for Business Server und ihre Clients geeignet ist, da der Sitzungsstatus über die Clientverwendung und/oder Anwendungsinteraktion beibehalten wird. 
   
 Wenn Sie mobile Geräte bereitstellen, muss Ihr HLB in der Lage sein, einzelne Anforderungen innerhalb einer TCP-Sitzung zu lasten (tatsächlich müssen Sie in der Lage sein, eine einzelne Anforderung basierend auf der Ziel-IP-Adresse zu laden).
   
 > [!IMPORTANT]
 > F5-HLBs verfügen über ein Feature namens OneConnect. Es wird sichergestellt, dass jede Anforderung innerhalb einer TCP-Verbindung einzeln geladen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass Ihr HlB-Anbieter die gleiche Funktionalität unterstützt. Für die neuesten mobilen iOS-Apps ist TLS Version 1.2 erforderlich. Wenn Sie mehr wissen müssen, stellt F5 bestimmte Einstellungen dafür bereit. 
   
-Hier sind die HLB-Anforderungen für die (optionalen) Director- und (erforderlichen) Front-End-Poolwebdienste:
+Hier sind die HLB-Anforderungen für die (optionalen) Director- und (erforderlichen) Front-End-Pool-Webdienste:
   
-- Legen Sie für die internen WEBDIENSTE-VIPs Source_addr Persistenz (interner Port 80, 443) auf dem HLB fest. Für Skype for Business Server bedeutet Source_addr Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
+- Legen Sie für die internen WEBDIENSTE-VIPs Source_addr Persistenz (interner Port 80, 443) auf ihrem HLB fest. Für Skype for Business Server bedeutet Source_addr Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
     
 - Verwenden Sie ein TCP-Leerlauftimeout von 1800 Sekunden.
     

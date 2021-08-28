@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: Die Seite "Name und Sicherheit" Einstellungen enthält ein Textfeld zum Definieren eines Anzeigenamens, eine Dropdownliste für die Bitlänge des privaten und öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen können.
-ms.openlocfilehash: a1460f78af07a81b3c02e673a7e81dec0ef0f344987835e4efaadb5309910072
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 45633f52ded86f860a90a3544802944f98493c04
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596949"
 ---
 # <a name="certificate-request-basic"></a>Zertifikatanforderung (Grundlagen)
  

@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Erfahren Sie, wie die Qualität der Datenstromdaten im Anrufqualitätsdashboard (Anrufqualitätsdashboard) für Microsoft Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+description: Erfahren Sie, wie die Qualität der Datenstromdaten im Anrufqualitätsdashboard für Datenstrom Microsoft Teams und Skype for Business online klassifiziert wird.
+ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505423"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598339"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Stream Classification in Call Quality Dashboard (CQD)
 
