@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server 2015-Topologie einen Server für beständigen Chat hinzufügen.'
-ms.openlocfilehash: 358d6c106cd1e7e51a019ede4c70ed7a7504af82fccb6d3dfd912f237df0e2a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607238"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie
  
@@ -35,7 +35,7 @@ Nachdem Sie die erforderliche Software auf jedem Server installiert haben, auf d
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Aktualisieren Der Topologie, um den Server für beständigen Chat einzuschließen
 
-Führen Sie die folgenden Schritte aus, um einen einzelnen Serverpool für beständigen Chat ohne Notfallwiederherstellungskonfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung finden Sie unter [Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)
+Führen Sie die folgenden Schritte aus, um einen einzelnen Serverpool für beständigen Chat ohne Notfallwiederherstellungskonfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung finden Sie unter [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)
   
 Um mehrere Pools für den Server für beständigen Chat bereitzustellen, wiederholen Sie den gleichen Prozess für jeden Pool.
   
@@ -46,7 +46,7 @@ Um mehrere Pools für den Server für beständigen Chat bereitzustellen, wiederh
   
 2. Starten Sie den Topologie-Generator.
     
-3. Navigieren Sie in der Konsolenstruktur zum Knoten "Pools für **beständigen Chat",** und erweitern Sie ihn, um einen Skype for Business Server Pool auszuwählen, oder klicken Sie mit der rechten Maustaste auf den Knoten, und wählen Sie **"Neuer Pool für beständigen Chat"** aus. Sie müssen den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools definieren und angeben, ob es sich bei dem Pool um einen Pool mit einem Server oder um eine Bereitstellung mit mehreren Servern handelt.
+3. Navigieren Sie in der Konsolenstruktur zum Knoten "Pools für **beständigen Chat",** und erweitern Sie ihn, um einen Skype for Business Server Pool auszuwählen, oder klicken Sie mit der rechten Maustaste auf den Knoten, und wählen Sie **"Neuer Pool für beständigen Chat" aus.** Sie müssen den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools definieren und angeben, ob es sich bei dem Pool um einen Pool mit einem Server oder um eine Bereitstellung mit mehreren Servern handelt.
     
     Wählen Sie **Pool mit mehreren Computern** oder **Pool mit einem Computer** aus. Wählen Sie erstere aus, wenn Sie mehr als einen Front-End-Server in Ihrem Serverpool für beständigen Chat verwenden möchten. Wählen Sie diese Option jetzt oder zu einem späteren Zeitpunkt, da Sie einem Pool mit einem Computer später keine zusätzlichen Server hinzufügen können. Wenn Sie einen Pool mit mehreren Computern auswählen, geben Sie die Namen der einzelnen Front-End-Server ein, aus denen der Pool besteht.
     
@@ -59,7 +59,7 @@ Um mehrere Pools für den Server für beständigen Chat bereitzustellen, wiederh
     
 6. Falls in Ihrer Organisation Kompatibilitätsunterstützung erforderlich ist, aktivieren Sie das Kontrollkästchen **Kompatibilität aktivieren**. Wenn sie ausgewählt wird, wird der Serverkompatibilitätsdienst für beständigen Chat auf demselben Computer wie der Front-End-Server des Servers für beständigen Chat installiert. Sie werden aufgefordert, später einen SQL Server Back-End-Server für die Serverkompatibilität für beständigen Chat auszuwählen.
     
-7. Zuweisen der Websiteaffinität für den Serverpool für beständigen Chat. Aktivieren Sie das Kontrollkästchen "Diesen **Pool als Standard für Standort \<SiteName\>** verwenden", oder verwenden Sie diesen Pool als Standard für alle **Standorte,** um diesen Pool für den Server für beständigen Chat als Standardpool für den aktuellen Standort oder alle Standorte festzulegen. Wenn der Skype for Business Client zum Erstellen und Verwalten von Chatrooms verwendet wird, wird der Standardpool, der dem Standort des Benutzers zugeordnet ist, von der Raumerstellungs- und -verwaltungsoberfläche verwendet, sodass er Raumerstellungs- und Verwaltungsvorgänge an diesen Pool weiterleiten kann. Dies gilt nur, wenn Sie mehrere Pools für den Server für beständigen Chat bereitgestellt haben und die Raumerstellungs- und Verwaltungsfeatures des Servers für beständigen Chat verwenden möchten.
+7. Zuweisen der Websiteaffinität für den Serverpool für beständigen Chat. Aktivieren Sie das Kontrollkästchen "Diesen **Pool als Standard für Standort \<SiteName\>** verwenden", oder verwenden Sie diesen Pool als Standard für alle **Standorte,** um diesen Pool für den Server für beständigen Chat als Standardpool für den aktuellen Standort oder alle Standorte festzulegen. Wenn der Skype for Business Client zum Erstellen und Verwalten von Chatrooms verwendet wird, wird der Standardpool, der dem Standort des Benutzers zugeordnet ist, von der Raumerstellungs- und -verwaltungsoberfläche verwendet, sodass Er Raumerstellungs- und Verwaltungsvorgänge an diesen Pool weiterleiten kann. Dies gilt nur, wenn Sie mehrere Pools für den Server für beständigen Chat bereitgestellt haben und die Raumerstellungs- und Verwaltungsfeatures des Servers für beständigen Chat verwenden möchten.
     
     > [!IMPORTANT]
     > Sie können die Raumerstellungs- und Verwaltungsfeatures mithilfe des Software Development Kit (SDK) für den Server für beständigen Chat anpassen. 
@@ -68,14 +68,14 @@ Um mehrere Pools für den Server für beständigen Chat bereitzustellen, wiederh
     
    - Um einen vorhandenen SQL Server Speicher zu verwenden, klicken Sie in der Dropdownliste auf den Namen des SQL Server Speichers, den Sie verwenden möchten.
     
-   - Wenn Sie eine neue SQL Server Datenbank angeben möchten, klicken Sie auf **Neu,** und führen Sie unter **"Neuen SQL Store definieren"** folgende Schritte aus:
+   - Wenn Sie eine neue SQL Server Datenbank angeben möchten, klicken Sie auf **Neu,** und führen Sie unter **"Neuen SQL Store definieren"** die folgenden Schritte aus:
     
-   - Geben Sie **in SQL Server FQDN** den FQDN der SQL Server an, für die Sie die neue SQL Server Datenbank erstellen möchten.
+   - Geben Sie in **SQL Server FQDN** den FQDN des SQL Server an, für das Sie die neue SQL Server Datenbank erstellen möchten.
     
    - Wählen Sie entweder **Standardinstanz**, um die Standardinstanz zu verwenden, oder wählen Sie **Benannte Instanz** aus, um eine andere Instanz anzugeben, die Sie verwenden möchten.
     
      > [!NOTE]
-     > Ausführliche Informationen zum Konfigurieren SQL Server Sicherungsdatenbanken für die Notfallwiederherstellung finden Sie unter [Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md) 
+     > Ausführliche Informationen zum Konfigurieren SQL Server Sicherungsdatenbanken für die Notfallwiederherstellung finden Sie unter [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md) 
   
 9. Definieren Sie den SQL Server Compliancespeicher, wenn Sie "Compliance" aktiviert haben.
     

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Sie können Standortrichtlinien konfigurieren, um zu bestimmen, ob erweiterte 9-1-1 (E9-1-1) aktiviert ist und wie sie verwendet wird sowie wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: adb3129adbcee49ed20e6f7d7191d075487ea221c06c2db9c1d5e6003555675a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53af748db0c5a3ea2a8df8fe0aa19e58cb39e7d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331587"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582919"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Ortungsrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Ortungsrichtlinie
 
@@ -53,10 +53,10 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **E9-1-1-Wählnummer** Geben Sie die Nummer an, die gewählt wird, um die Notrufdienste zu erreichen.
 
-- **E9-1-1-Wählmaske** Geben Sie eine Nummer an, die ein Benutzer wählt, die dann in die Notrufnummer übersetzt wird. Geben Sie in dieses Feld z. B. den Wert 212 ein, damit Benutzer 212 für die Notfalldienste wählen kann. Dadurch können alternative Notrufnummern gewählt werden, und der Anruf kann weiterhin Notrufdienste erreichen (z. B. wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer dieses Landes oder dieser Region anstelle der Nummer für das Land oder die Region zu wählen, in dem bzw. der sie sich derzeit befinden). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Die maximale Länge der Zeichenfolge beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
+- **E9-1-1-Wählmaske** Geben Sie eine Nummer an, die ein Benutzer wählt, die dann in die Notrufnummer übersetzt wird. Geben Sie in dieses Feld z. B. den Wert 212 ein, damit Benutzer 212 für die Notfalldienste wählen kann. Auf diese Weise können alternative Notrufnummern gewählt werden und der Anruf weiterhin Notrufdienste erreichen (z. B. wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer dieses Landes oder dieser Region anstelle der Nummer für das Land oder die Region zu wählen, in dem bzw. der sie sich derzeit befinden). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Die maximale Länge der Zeichenfolge beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
 
     > [!IMPORTANT]
-    > Stellen Sie sicher, dass die Wählmaske nicht mit einer Nummer im Nummernbereich zum Parken von Anrufen übereinstimmt, da die Weiterleitung zum Parken von Anrufen Vorrang vor der Konvertierung von Notrufwählzeichenfolgen hat. Um die Nummernbereiche für das Parken von Anrufen anzuzeigen, klicken Sie in der linken Navigationsleiste auf **VoIP-Features,** und klicken Sie dann auf **"Parken von Anrufen".**
+    > Stellen Sie sicher, dass die Wählmaske nicht mit einer Nummer im Nummernbereich zum Parken von Anrufen übereinstimmt, da die Weiterleitung zum Parken von Anrufen Vorrang vor der Konvertierung von Notrufwählzeichenfolgen hat. Um die Nummernbereiche für das Parken von Anrufen anzuzeigen, klicken Sie in der linken Navigationsleiste auf **VoIP-Funktionen,** und klicken Sie dann auf **"Parken von Anrufen".**
 
 - **Benachrichtigungs-URI** Geben Sie eine oder mehrere SIP-URIs an, die benachrichtigt werden sollen, wenn ein Notruf getätigt wird. Geben Sie z. B. den SIP-URI der Sicherheitsstelle des Unternehmens ein, um das Sicherheitspersonal per Sofortnachricht zu benachrichtigen, wenn ein Notruf getätigt wird. Wenn der Standort des Anrufers verfügbar ist, ist der Standort in der Benachrichtigung enthalten. Sie können mehrere SIP-URIs als kommagetrennte Liste angeben. Beispiel: "sip:security@litwareinc.com","sip:kmyer@litwareinc.com". Die Zeichenfolge muss zwischen 1 und 256 Zeichen lang sein und mit dem Präfix "sip:" beginnen. Außerdem können Sie Verteilerlisten angeben.
 
@@ -68,4 +68,4 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Bidirektionale** Gibt an, dass der Dritte an dem Anruf zwischen dem Anrufer und dem PSAP-Operator teilnehmen kann.
 
-Ausführliche Informationen zu Enterprise-VoIP Funktionen und Funktionen für Notrufdienste finden Sie in der Planungsdokumentation [unter "Übersicht über E9-1-1".](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) Ausführliche Informationen zur Verwendung von Standortrichtlinien finden Sie unter [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information) in der Betriebsdokumentation.
+Ausführliche Informationen zu Enterprise-VoIP Funktionen und Funktionen des Notfalldienstes finden Sie in der Planungsdokumentation [unter "Übersicht über E9-1-1".](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) Ausführliche Informationen zur Verwendung von Standortrichtlinien finden Sie unter [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information) in der Betriebsdokumentation.

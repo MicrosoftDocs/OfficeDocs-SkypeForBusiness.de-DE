@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Dimension-Elemente abrufen". Der Vorgang "Dimension-Elemente abrufen" ist Teil der Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 3a0c01b310ed60c4b0808d669b553391277f3877bff4c4800bea1b5b765bf5b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 701a44d8d226b7953938b9a07883ff556ecbd7ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278713"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629597"
 ---
 # <a name="get-dimension-members"></a>Abrufen von Dimensionselementen
  

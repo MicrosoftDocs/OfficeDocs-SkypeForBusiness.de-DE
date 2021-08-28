@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Verschieben von Benutzern vor der Außerbetriebnahme einer Skype for Business lokalen Umgebung.
-ms.openlocfilehash: 44092460fa1db0664fe95b12cc99f3488544dc0ad049d75d56074e6bf0873c60
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ebd48883f6053a4c2a25f23681d873af36f63b9d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583399"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Verschieben der erforderlichen Benutzer vor der Außerbetriebnahme Ihrer lokalen Umgebung
 
@@ -63,7 +63,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 
 Sie können jetzt [Ihre Hybridkonfiguration deaktivieren.](cloud-consolidation-disabling-hybrid.md)
 
-## <a name="see-also"></a>Weitere Informationen:
+## <a name="see-also"></a>Siehe auch
 
 - [Außerbetriebnahme Ihrer lokalen Skype for Business-Umgebung](decommission-on-prem-overview.md)
 

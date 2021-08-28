@@ -7,28 +7,28 @@ ms.reviewer: jozhuan
 audience: admin
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Informationen zu den Administratoreinstellungen in der Lob-App im Microsoft Teams Admin Center
-ms.openlocfilehash: 52dbadcc20e1c73d48d5f5b7f762493f2dd61c64aa29e7a924e03dd09c63bed6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f3269f812113d63c6c4abfeed9a2d00aa2354b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581229"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
 > [!NOTE]
 > Administratoren müssen über eine Lizenz Teams verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie ohne Lizenz auf dieses Feature Teams, wird eine Fehlermeldung angezeigt.
 
-Die Lob-App in Microsoft Teams dabei, den Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Mit einer Auswahl von Badge-Sätzen und der Option zum Erstellen eigener Badges soll Lob helfen, den Aufwand zu erkennen, der für die breite Palette an Arbeit, die Teams-Benutzern gilt, von Lehrkräften bis zu Frontline Workers fällt. Weitere Informationen finden Sie unter [Senden Lob an Personen.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
+Die Lob-App in Microsoft Teams hilft Benutzern, Den Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Mit einer Auswahl von Badge-Sätzen zur Auswahl und der Option zum Erstellen eigener Badges soll Lob dazu beitragen, den Aufwand zu erkennen, der in die breite Palette an Arbeit fällt, die von Lehrkräften bis zu Frontline Workers von Benutzern Teams wird. Weitere Informationen finden Sie unter [Senden Lob an Personen.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-Administratoren können über das Admin Center steuern, welche Badges für Microsoft Teams verfügbar sind. Navigieren Sie im linken Navigationsbereich zu Teams **Apps > Apps verwalten**. Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen** aus.  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
+Administratoren können über das Admin Center steuern, welche Badges für Microsoft Teams verfügbar sind. Navigieren Sie im linken Navigationsbereich zu Apps **Teams und > Apps verwalten.** Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen** aus.  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
 
 ![Screenshot der Einstellungen für die App Lob App](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> Das Lob"-App ist für US-Regierung clouds nicht verfügbar.
+> Das Lob-App ist für US-Regierungwolken nicht verfügbar.
 
 ## <a name="use-built-in-badge-sets"></a>Verwenden von integrierten Signalsätzen
 
@@ -38,7 +38,7 @@ Integrierte Gruppen sind Sammlungen von Signalen, die von Microsoft für die App
 
 ### <a name="default-badges"></a>Standardabzeichen
 
-Der Standardabzeichensatz soll es Teams Benutzern zu ermöglichen, ihre Kollegen zu erkennen, damit sie mit ihrer Arbeit über- und hinaus gehen können.
+Der Standardabzeichensatz soll es benutzern Teams, ihre Peers zu erkennen, damit sie mit ihrer Arbeit darüber hinaus gehen können.
 
 ![Vorschau auf den Standardabzeichensatz](media/default-set-praise.png)
 
@@ -77,7 +77,7 @@ Wählen **Sie Benutzerdefiniertes Signal erstellen aus.** Hier können Sie im Se
 > [!NOTE]
 > Wenn die Schritte 4 und 5 übersprungen werden, wird das Signal in der Standardsprache für alle Locales angezeigt.
 >
-> Wenn Sie alle Änderungen an Ihrer Signalauswahl vorgenommen haben, müssen Sie Absenden **auswählen.** Es kann einige Stunden dauern, bis diese Änderungen für Ihre Organisation zur Verfügung stehen.
+> Wenn Sie alle Änderungen an Ihrer Badgeauswahl vorgenommen haben, müssen Sie Absenden **auswählen.** Es kann einige Stunden dauern, bis diese Änderungen für Ihre Organisation zur Verfügung stehen.
 
 <a name="hex-colors-intro"></br></a>
 
@@ -87,7 +87,7 @@ Hexadezimalfarbwerte sind Zeichenfolgen mit sechs Hexadezimalziffern, die die In
 
 Beispielsweise ist der Hexadezimalwert für die Farbe Rot #FF0000, da Rot auf den höchsten möglichen Wert festgelegt wird, FF und Grün und Blau jeweils auf den niedrigsten möglichen Wert, 00.
 
-Informationen zu unterschiedlichen Farben und deren Hexadezimalwerten Bing [die Farbauswahl.](https://www.bing.com/search?q=color+picker)
+Wenn Sie verschiedene Farben und deren Hexadezimalwerte untersuchen Bing [die Farbauswahl.](https://www.bing.com/search?q=color+picker)
 
 Im Folgenden finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
 
@@ -104,11 +104,11 @@ Im Folgenden finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
 
 ## <a name="best-practices-for-creating-custom-badges"></a>Bewährte Methoden zum Erstellen benutzerdefinierter Badges
 
-**Senden Sie alle Badges auf einmal.** Da die Verarbeitung neuer Badges eine Weile dauert, sollten Sie am besten alle benutzerdefinierten Badges zur Tabelle hinzufügen, bevor Sie sie übermitteln.
+**Senden Sie alle Badges auf einmal.** Da es eine Weile dauert, bis neue Badges verarbeitet werden, sollten Sie am besten alle benutzerdefinierten Badges zur Tabelle hinzufügen, bevor Sie sie übermitteln.
 
-**Beachten Sie bei der Auswahl von Farben die Barrierefreiheit.** Einige Farben sind besser zusammen als andere.  Stellen Sie einen Kontrast zwischen Text- und Hintergrundfarben sicher, damit der Signalname leichter zu lesen ist. Wenn Sie beispielsweise eine dunkle Hintergrundfarbe ausgewählt haben, wählen Sie eine helle Textfarbe aus.
+**Beachten Sie bei der Auswahl von Farben die Barrierefreiheit.** Einige Farben sind besser zusammen als andere.  Erstellen Sie einen Kontrast zwischen Text- und Hintergrundfarben, damit der Signalname leichter zu lesen ist. Wenn Sie beispielsweise eine dunkle Hintergrundfarbe ausgewählt haben, wählen Sie eine helle Textfarbe aus.
 
-**Behalten Sie beim Auswählen eines Bilds die Signalabmessungen im Auge.** Für eine optimale Qualität empfehlen wir, eine Bilddatei mit einer Größe von 216 x 216 Pixel (die maximalen Abmessungen) hochzuladen. Vermeiden Sie es, das Bild zu dehnen oder zu verzerren, damit es in diese Abmessungen passt.
+**Behalten Sie beim Auswählen eines Bilds die Signalabmessungen im Auge.** Für eine optimale Qualität empfehlen wir, eine Bilddatei mit einer Größe von 216 x 216 Pixel hochzuladen (dies sind die maximalen Abmessungen). Vermeiden Sie es, das Bild zu dehnen oder zu verfälschen, damit es in diese Abmessungen passt.
 
 **Wenn das Signalbild nicht rechteckig ist, machen Sie das Bild transparent.** Sie müssen dies tun, bevor Sie die Bilddatei in das Lob.
 
@@ -116,7 +116,7 @@ Im Folgenden finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
 
 ## <a name="badge-set-assets"></a>Ressourcen für Signalsatz
 
-Integrierte Signalsätze können nicht geändert werden. Wenn ein integrierter Satz aktiviert ist, werden alle Badges im Satz der App Lob hinzugefügt. Wenn Sie bestimmte Badges aus einem integrierten Satz hinzufügen und andere aus lassen möchten, erstellen Sie die Badges, die Sie als benutzerdefinierte Badges verwenden möchten, erneut. Sie können das Signalbild herunterladen und den Text und die Hintergrundfarben von Signalen aus den integrierten Gruppen in den folgenden Tabellen suchen.
+Integrierte Signalsätze können nicht geändert werden. Wenn also ein integrierter Satz aktiviert ist, werden alle Badges im Satz der App Lob hinzugefügt. Wenn Sie bestimmte Badges aus einem integrierten Satz hinzufügen und andere aus lassen möchten, erstellen Sie die Badges, die Sie als benutzerdefinierte Badges verwenden möchten, erneut. Sie können das Signalbild herunterladen und den Text und die Hintergrundfarben von Signalen aus den integrierten Gruppen in den folgenden Tabellen suchen.
 
 ### <a name="default-badges-assets"></a>Standardressourcen für Badges
 
@@ -132,7 +132,7 @@ Integrierte Signalsätze können nicht geändert werden. Wenn ein integrierter S
 |Inklusive      |[Inklusive PNG-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |Kind Heart     |[Kind Heart PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
 |Leadership     |[Leadership PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
-|Durchdingen       |[Png-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
+|Optimal       |[Png-Datei](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |Problemlösung |[PNG für Problemlösungs-PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |Teamplayer    |[Teamplayer PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|
 |Danke      |[Vielen Dank!PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/thank-you-badge.png)|#469CA4    |#BACCB6|

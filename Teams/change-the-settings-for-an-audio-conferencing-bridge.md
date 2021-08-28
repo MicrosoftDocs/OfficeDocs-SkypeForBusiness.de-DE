@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Ändern Sie die Einstellungen der Audiokonferenzbrücke, einschließlich Eingangs- und Ausgangsbenachrichtigungen, Wiedergabe von Namen oder Telefonnummern, Töne und Aufforderungsanrufer, um ihren Namen zu notieren.
-ms.openlocfilehash: eaa757a45c94d0dd6d01366db3039150dce057243709b30c711a7ca69963cbca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 434142eb0e7d8cd4759eec180e903eaecad47525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607852"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
 
-Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 einrichten, erhalten Sie von der sogenannten Audiokonferenzbrücke Telefonnummern für Ihre Benutzer. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern umfassen. Diese Telefonnummern werden verwendet, wenn Anrufer sich in eine Besprechung einwählen. Die Telefonnummer ist am Ende der Skype for Business- oder Microsoft Teams-Besprechungseinladung zu finden.
+Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 einrichten, erhalten Sie von der so genannten Audiokonferenzbrücke Telefonnummern für Ihre Benutzer. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern umfassen. Diese Telefonnummern werden verwendet, wenn Anrufer sich in eine Besprechung einwählen. Die Telefonnummer ist am Ende der Skype for Business- oder Microsoft Teams-Besprechungseinladung zu finden.
   
 Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automatischen Telefonzentrale aus. Je nach Ihren Einstellungen kann sie dann Benachrichtigungen wiedergeben, Anrufer auffordern, ihren Namen aufzuzeichnen, und die PIN-Einstellungen steuern. Besprechungsorganisatoren erhalten PINs, damit sie eine Besprechung starten können, wenn sie keine Skype for Business- oder Microsoft Teams-App verwenden.
 
@@ -49,10 +49,10 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
 
 2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Einstellungen für Brücke.** 
 
-3. Wählen Sie **im Bereich Einstellungen der** Brücke die Option: 
-   - **Benachrichtigungen über Besprechungs- und -abgänge** Wenn Sie dies deaktivieren, werden Benutzer, die bereits an der Besprechung teilgetreten sind, nicht benachrichtigt, wenn jemand der Besprechung beitritt oder sie verlässt.
+3. Wählen Sie **im Bereich Einstellungen der** Brücke: 
+   - **Benachrichtigungen über Besprechungs- und -abgänge** Wenn Sie dies deaktivieren, werden Benutzer, die bereits an der Besprechung teilgetreten sind, nicht benachrichtigt, wenn jemand der Besprechung beitritt oder diese verlässt.
     
-     Wenn Sie Benachrichtigungen beim **Ein- und Abgang einer Besprechung** aktivieren, können Sie die folgenden Optionen auswählen:
+     Wenn Sie Benachrichtigungen über den Zugang **zur Besprechung und das** Beenden der Besprechung aktivieren, können Sie die folgenden Optionen auswählen:
     
    - **Names or phone numbers** (Namen oder Telefonnummern): Wenn sich Benutzer in eine Besprechung einwählen und teilnehmen, wird ihre Telefonnummer wiedergegeben.
     

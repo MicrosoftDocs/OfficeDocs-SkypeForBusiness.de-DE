@@ -6,7 +6,7 @@ manager: serdars
 audience: ITPro
 ms.topic: hub-page
 ms.service: msteams
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 'Zusammenfassung: Erfahren Sie mehr über die logische Architektur von Produktivitätsdiensten in Microsoft 365, beginnend mit Microsoft Teams. Erfahren Sie außerdem mehr über Sprachlösungen für Teams.'
-ms.openlocfilehash: 1a6ddaa5b22b33107d4d187bd4d91ebfef4f91e7c2f78dd9d5ad0b71c11121ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 385606f210659841c51e2a917aed3c4772ba29b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280530"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581189"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Poster zu IT-Architektur und Sprachlösungen von Microsoft Teams
 

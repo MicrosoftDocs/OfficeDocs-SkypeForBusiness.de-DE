@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen Wählplan mithilfe der Skype for Business Server Systemsteuerung erstellen oder ändern.'
-ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5e7f7cc0fc2edf0707025ed4b5e901c0a199021
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281268"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607632"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Erstellen oder Ändern eines Wählplans in Skype for Business Server
 
@@ -47,7 +47,7 @@ ms.locfileid: "54281268"
 4. Wenn Sie einen Wählplan erstellen, geben Sie im Dialogfeld **Neuer Wählplan** im Feld **Name** einen beschreibenden Namen ein. Nach dem Speichern kann dieser Name nicht mehr geändert werden.
 
     > [!NOTE]
-    > Bei Standortwählplänen wird das **Feld "Name"** vorab mit dem Standortnamen aufgefüllt und kann nicht geändert werden.> Für Poolwählpläne wird das **Feld "Name"** vorab mit dem Namen des PSTN-Gateways oder der Registrierungsstelle aufgefüllt und kann nicht geändert werden.
+    > Bei Standortwählplänen wird das **Feld "Name"** vorab mit dem Standortnamen aufgefüllt und kann nicht geändert werden.> Für Poolwählpläne wird das **Feld "Name"** mit dem Namen des PSTN-Gateways oder der Registrierungsstelle ausgefüllt und kann nicht geändert werden.
 
 5. Das Feld **Einfacher Name** wird mit demselben Namen vorausgefüllt, der im Feld **Name** erscheint. Sie können dieses Feld optional bearbeiten, um einen aussagekräftigeren Namen anzugeben, der den Standort, Dienst oder Benutzer zur Anwendung des Wählplans besser beschreibt.
 
@@ -138,7 +138,7 @@ ms.locfileid: "54281268"
    - Wenn Sie eine Normalisierungsregel aus den Wähleinstellungen entfernen möchten, markieren Sie den Regelnamen, und klicken Sie auf **Entfernen**.
 
      > [!NOTE]
-     > Jedem Satz mit Wähleinstellungen muss mindestens eine Normalisierungsregel zugeordnet sein. Ausführliche Informationen zum Ermitteln aller Normalisierungsregeln, die ein Wählplan erfordert, finden Sie in der Planungsdokumentation unter [Plan for outbound voice routing in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)
+     > Jedem Satz mit Wähleinstellungen muss mindestens eine Normalisierungsregel zugeordnet sein. Ausführliche Informationen zum Ermitteln aller Normalisierungsregeln, die ein Wählplan erfordert, finden Sie unter [Plan for outbound voice routing in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) in der Planungsdokumentation.
 
 10. Stellen Sie sicher, dass die Normalisierungsregeln des Wählplans in der richtigen Reihenfolge angeordnet sind. Um die Position einer Regel in der Liste zu ändern, markieren Sie den Regelnamen, und klicken Sie dann auf den Nach-oben- oder Abwärtspfeil.
 

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Erstellen oder Löschen von Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
-ms.openlocfilehash: f382c86ee6773f586e1fb1d1080c9c9ce64a46dc253ff81275252a28db1addd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 095b510dc152e527608ff1e894d971e793cbc822
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283877"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583219"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Erstellen oder Löschen einer Ankündigung in Skype for Business Server
 
@@ -41,7 +41,7 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
 
 2. Führen Sie für Audioansagen das Cmdlet **"Import-CsAnnouncementFile"** aus, um den Inhalt der Audiodatei in file Store zu importieren.
 
-3. Führen Sie das Cmdlet **New-CsAnnouncement** aus, um die Ankündigung zu erstellen und zu benennen. Führen Sie diesen Schritt aus, um Ankündigungen mit einer Audioaufforderung, einer TTS-Eingabeaufforderung (Text-to-Speech) oder keiner Eingabeaufforderung zu erstellen.
+3. Führen Sie das Cmdlet **"New-CsAnnouncement"** aus, um die Ankündigung zu erstellen und zu benennen. Führen Sie diesen Schritt aus, um Ankündigungen mit einer Audioaufforderung, einer TTS-Eingabeaufforderung (Text-to-Speech) oder keiner Eingabeaufforderung zu erstellen.
 
     > [!TIP]
     > Sie können eine Ansage ohne Aufforderung erstellen (z. B. wenn Sie Anrufe an ein bestimmtes Ziel übertragen möchten, ohne eine Nachricht wiederzugeben).
@@ -54,7 +54,7 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
 
 2. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
 
-3. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+3. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
 
 4. Führen Sie für Audioansagen Folgendes aus:
 
@@ -62,7 +62,7 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Ausführen:
+5. Führen Sie  aus.
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -92,7 +92,7 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
 
 1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
 
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
 
 3. Listen Sie alle Ankündigungen in Ihrer Organisation auf. Führen Sie an der Eingabeaufforderung Folgendes aus:
 

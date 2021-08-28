@@ -1,5 +1,5 @@
 ---
-title: Einrichten einer automatischen Attendant für Microsoft Teams – Kleinunternehmen (Lernprogramm)
+title: Lernprogramm zum Einrichten einer automatischen Microsoft Teams – Kleinunternehmen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -15,21 +15,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Erfahren Sie, wie Sie automatische Attendants für kleine Unternehmen in Ihrer Microsoft 365 Business Voice.
-ms.openlocfilehash: 0eaa5c61a85bcf189e13f9cdfff43e68f12090c42533c69b2d0154da81a6f3e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, wie Sie automatische Attendants für kleine Unternehmen in ihrer Microsoft 365 Business Voice.
+ms.openlocfilehash: 04df17f84bccb18f9cd1184574b118e8c870a0e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332967"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630259"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Einrichten einer automatischen Attendant – Lernprogramm für Kleinunternehmen
 
-Mit automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, einer Anrufwarteschleife, einer Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center erstellen.
+Mit automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, anrufwarteschlangen, Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center erstellen.
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]

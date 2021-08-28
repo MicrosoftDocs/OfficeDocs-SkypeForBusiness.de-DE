@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Nach der Bereitstellung eines oder mehrerer Edge-Server müssen Sie die spezifischen Typen des externen Benutzerzugriffs aktivieren, die für Ihre Organisation unterstützt werden sollen.
-ms.openlocfilehash: 0de747552ff19852d7947178e0882aec227c9e2d75f9210597f8183b6703f101
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acd69cf74d6e7a17265543fb326f279b3bc3360f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284755"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582749"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation
 
@@ -44,7 +44,7 @@ Diese Optionen umfassen die folgenden Arten des externen Zugriffs:
   - **Aktivieren der Kommunikation mit Verbundbenutzern**   Aktivieren Sie diese Option, wenn Sie den Benutzerzugriff auf Partnerdomänen unterstützen möchten. Diese Einstellung konfiguriert die Möglichkeit für Benutzer, mit anderen SIP-Verbunddomänen sowie mit gehosteten Anbietern wie Microsoft 365 oder Office 365 zu kommunizieren. 
 
 
-  - **Aktivieren der Kommunikation mit Remotebenutzern**   Aktivieren Sie diese Option, wenn Benutzer in Ihrer Organisation, die sich außerhalb Ihrer Firewall befinden, z. B. Telekommunikationspendler und Benutzer, die unterwegs sind, in der Lage sein sollen, über das Internet eine Verbindung mit Skype for Business Server herzustellen.
+  - **Aktivieren der Kommunikation mit Remotebenutzern**   Aktivieren Sie diese Option, wenn Benutzer in Ihrer Organisation, die sich außerhalb Ihrer Firewall befinden, z. B. Telekommunikationspendler und Benutzer, die unterwegs sind, in der Lage sein sollen, eine Verbindung mit Skype for Business Server über das Internet herzustellen.
 
   - **Aktivieren der Kommunikation mit öffentlichen Benutzern**   Aktivieren Sie diese Option, wenn interne Benutzer mit Kontakten des öffentlichen Chatanbieters kommunizieren können sollen.
    

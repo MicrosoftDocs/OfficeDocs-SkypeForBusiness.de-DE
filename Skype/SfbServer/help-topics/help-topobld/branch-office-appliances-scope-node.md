@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: 'Der Knoten Survivable Branch Appliances enthält die Survivable Branch Appliances dieser Zweigstelle. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: a54158de8bc7a030c6b64b293fe5a87ffea7e681e44d4ea371b1cbff886040ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 929837dc520c372e4ec5bed63f878a86013d5a65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582799"
 ---
-# <a name="branch-office-appliances-scope-node"></a>Filialanwendungen – Bereichsknoten
+# <a name="branch-office-appliances-scope-node"></a>Filialanwendungen – Bereichsknoten
  
 Der Knoten **Survivable Branch Appliances** enthält die Survivable Branch Appliances dieser Zweigstelle. Folgende Möglichkeiten stehen zur Verfügung:
   

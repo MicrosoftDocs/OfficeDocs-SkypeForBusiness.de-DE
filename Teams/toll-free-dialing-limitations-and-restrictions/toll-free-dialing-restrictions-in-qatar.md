@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder/Regionen zum Wählen der gebührenfreien Nummer.
-ms.openlocfilehash: 6203aa8a46a1c3940a542bf60a7ffb3833d8aa14a94aba1bbd5b2acd3271646b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ce3dceb8425a9e26e13eab64ae7796cd46190805
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318229"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606914"
 ---
 # <a name="toll-free-dialing-restrictions-in-qatar"></a>Einschränkungen für gebührenfreie Telefonnummern in Katar
 

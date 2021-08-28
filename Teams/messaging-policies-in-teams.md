@@ -12,7 +12,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 3fc25286f9c17d2e4521fbbaa2ff438b33552d4344550d689043f571bfc5c4f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 535d240054f3bdb670594635e8b89a2f9785d7e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629317"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -80,7 +80,7 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **Benutzer können gesendete Nachrichten bearbeiten**: Verwenden Sie diese Einstellung, damit Benutzer Nachrichten bearbeiten können, die sie im Chat gesendet haben.
 - **Lesebestätigungen** Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn der Empfänger seine Nachricht in 1:1 und Gruppenchats 20 oder weniger Personen gelesen hat. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team. In eDiscovery-Berichten werden keine Lesebestätigungen erfasst.  
     - **Benutzergesteuert**: Das bedeutet, dass Benutzer entscheiden können, ob Sie die Funktion „Lesebestätigungen“ aktivieren oder deaktivieren möchten. Die Standardeinstellung in der App ist „aktiviert“. Benutzer können Sie dann auf „deaktiviert“ ändern.
-    - **Für alle aktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten aktiviert ist und nicht deaktiviert werden kann. Wenn Sie  die Einstellung Für jeden aktivieren verwenden, besteht die einzige Möglichkeit zum Festlegen von Bestätigungen für den gesamten Mandanten entweder in der Verwendung einer einzigen Messagingrichtlinie für den gesamten Mandanten (die Standardrichtlinie namens "Global (Organisationsweite Standard)") oder wenn alle Messagingrichtlinien im Mandanten dieselben Einstellungen für Bestätigungen verwenden. Das Feature „Lesebestätigungen“ ist am effektivsten, wenn das Feature **für alle aktiviert** ist.
+    - **Für alle aktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten aktiviert ist und nicht deaktiviert werden kann. Wenn Sie  die Einstellung Für jeden aktivieren verwenden, besteht die einzige Möglichkeit zum Festlegen von Bestätigungen für den gesamten Mandanten entweder in einer einzigen Messagingrichtlinie für den gesamten Mandanten (die Standardrichtlinie namens "Global (Organisationsweit)") oder in der Festlegung, dass alle Messagingrichtlinien im Mandanten dieselben Einstellungen für Bestätigungen verwenden. Das Feature „Lesebestätigungen“ ist am effektivsten, wenn das Feature **für alle aktiviert** ist.
     - **Für alle deaktiviert**: Das bedeutet, dass das Feature für jeden im Mandanten deaktiviert ist und dass niemand im Mandanten Lesebestätigungen erhält. Auch kann das Feature nicht aktiviert werden.
 <a name="bkchat"> </a>
 
@@ -95,7 +95,7 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **URL-Vorschau zulassen**: Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten zu aktivieren bzw. zu deaktivieren.
 - **Übersetzung von Nachrichten durch Benutzer zulassen**: Wenn diese Funktion aktiviert ist, können Benutzer Microsoft Teams-Nachrichten automatisch in die Sprache übersetzen lassen, die in ihren persönlichen Spracheinstellungen für Microsoft 365 oder Office 365 festgelegt ist.
 - **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.
-- **Senden von Prioritätsbenachrichtigungen**: Wenn Sie diese Funktion aktivieren, können Benutzer Nachrichten über [Prioritätsbenachrichtigungen senden](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Prioritätsbenachrichtigungen benachrichtigen Benutzer alle 2 Minuten für 20 Minuten oder bis Nachrichten, die als dringend gekennzeichnet sind, vom Empfänger aufgenommen und gelesen werden.  Dieses Feature erhöht die Wahrscheinlichkeit, dass die Nachricht rechtzeitig reagiert.
+- **Senden von Prioritätsbenachrichtigungen**: Wenn Sie diese Funktion aktivieren, können Benutzer Nachrichten über [Prioritätsbenachrichtigungen senden](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462). Prioritätsbenachrichtigungen benachrichtigen Benutzer alle 2 Minuten für 20 Minuten oder bis Nachrichten, die als dringend gekennzeichnet sind, vom Empfänger aufgenommen und gelesen werden.  Dieses Feature erhöht die Wahrscheinlichkeit, dass die Nachricht rechtzeitig reagiert wird.
 - **Aufnahme von Sprachnachrichten**
   > [!Important]
   > Sprachnachrichten werden in eDiscovery-Berichten nicht erfasst.

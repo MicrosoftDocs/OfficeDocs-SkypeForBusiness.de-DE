@@ -1,5 +1,5 @@
 ---
-title: Sichern Reaktionsgruppendienst (RGS)-Daten in Skype for Business Server 2019
+title: Sichern von Reaktionsgruppendienst(RGS)-Daten in Skype for Business Server 2019
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -10,17 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Erfahren Sie, wie Sie Reaktionsgruppendienst (RGS)-Daten in Skype for Business Server 2019 sichern.
-ms.openlocfilehash: 8b0cbbb41c7bf2a61d21043141d2475a8c69a79696e8cf5cbde6709e2d196c52
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e3e4116a281584da7afc1807fe58e79d2528183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581159"
 ---
-# <a name="back-up-response-group-service-rgs-data"></a>Sichern Reaktionsgruppendienst (RGS)-Daten
+# <a name="back-up-response-group-service-rgs-data"></a>Sichern Reaktionsgruppendienst(RGS)-Daten
 
 Mit dem kumulativen Update vom Skype for Business Server. Juli 2019 haben wir die Möglichkeit hinzugefügt, RGS-Daten als Teil der Standardsicherung einzuschließen.
 
@@ -72,5 +72,5 @@ Führen Sie die folgenden Schritte aus, um die RGS-Datenreplikation zu testen:
     - `Backup-CsPool -PoolFqdn <Pool FQDN> -Category RGS`
 - So synchronisieren Sie alle Moduldaten einschließlich RGS:
     - `Backup-CsPool -PoolFqdn <Pool FQDN>`
-- So deaktivieren Sie RGSBackupService (dadurch wird RGSBackupService global deaktiviert. Wenn dieser Parameter auf "true" festgelegt ist, wird RGSBackupService für alle gekoppelten Pools deaktiviert.):
+- So deaktivieren Sie RGSBackupService (dadurch wird RGSBackupService global deaktiviert. Wenn dieser Parameter auf "true" festgelegt ist, wird RGSBackupService für alle gekoppelten Pools deaktiviert.)
     - `Set-CsBackupServiceConfiguration -EnableRgsBackupService 0`

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,14 +16,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Erfahren Sie Teams wie Office 365 Datenströme in verschiedenen Topologien sowie eindeutige Teamflüsse verwendet werden, die für die Kommunikation zwischen Peer-zu-Peer-Medien verwendet werden.
+description: Hier erfahren Teams, Office 365 Datenflüsse in verschiedenen Topologien sowie eindeutige Teamflüsse verwendet werden, die für die Kommunikation zwischen Peer-zu-Peer-Medien verwendet werden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2e0e3ed2c9f0ac4e636b97065f9e2a4050f954b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607152"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams-Anrufflüsse
 
@@ -32,7 +32,7 @@ ms.locfileid: "54319858"
 
 ## <a name="overview"></a>Übersicht
 
-In diesem Artikel wird beschrieben Teams wie Microsoft 365 oder Office 365 in verschiedenen Topologien verwendet werden. Darüber hinaus werden eindeutige Datenflüsse Teams, die für die Peer-to-Peer-Medienkommunikation verwendet werden. Im Dokument werden diese Flüsse, ihr Zweck sowie ihr Ursprung und ihre Beendigung im Netzwerk beschrieben. Gehen Sie für die Zwecke dieses Artikels von Folgendes aus:
+In diesem Artikel wird beschrieben Teams wie Microsoft 365 oder Office 365 in verschiedenen Topologien verwendet werden. Darüber hinaus werden eindeutige Datenflüsse Teams, die für die Peer-to-Peer-Medienkommunikation verwendet werden. In diesem Dokument werden diese Flüsse, ihr Zweck sowie ihr Ursprung und ihre Beendigung im Netzwerk beschrieben. Gehen Sie für die Zwecke dieses Artikels von Folgendes aus:
 
 - Flow X wird vom lokalen Client verwendet, um mit dem Microsoft 365 oder Office 365 in der Cloud zu kommunizieren. Sie stammt aus dem Kundennetzwerk und endet als Endpunkt in Microsoft 365 oder Office 365.
 
@@ -63,19 +63,19 @@ Normalerweise verfügt ein Kundennetzwerk über mehrere Netzwerkperimeter mit Fi
 
 **Microsoft 365 oder Office 365**. Dies ist das Netzwerksegment, das Microsoft 365 oder Office 365 unterstützt. Es wird weltweit mit Kanten in der Nähe des Kundennetzwerks an den meisten Standorten verteilt. Zu den Funktionen gehören Transport Relay, Konferenzserver und Medienprozessor.
 
-**ExpressRoute (optional)** Dies ist das Netzwerksegment in Ihrem Gesamtnetzwerk, das Ihnen eine dedizierte private Verbindung mit dem Netzwerk Microsoft 365 oder Office 365 bietet.
+**ExpressRoute (optional)** Dies ist das Netzwerksegment, das Teil Ihres Gesamtnetzwerks ist, das Ihnen eine dedizierte private Verbindung zum Netzwerk Microsoft 365 oder Office 365 bietet.
 
 ### <a name="types-of-traffic"></a>Arten von Datenverkehr
 
-**Echtzeitmedien.** Daten, die in RTP (Real-Time Transport Protocol) gekapselt sind und Workloads für Audio, Video und Bildschirmfreigabe unterstützen. Im Allgemeinen ist der Medienverkehr hochgradig latenzsensibler, daher möchten Sie, dass dieser Datenverkehr den direktesten Pfad verwendet und UDP und TCP als Transportschichtprotokoll verwendet. Dies ist aus Qualitätssicht am besten für interaktive Echtzeitmedien der beste Transport. (Beachten Sie, dass Medien als letzte Methode TCP/IP verwenden und auch innerhalb des HTTP-Protokolls ge tunnelt werden können. Dies wird aufgrund der schlechten Auswirkungen auf die Qualität jedoch nicht empfohlen.) RtP flow is secured using SRTP, in which only the payload is encrypted.
+**Echtzeitmedien.** Daten, die in RTP (Real-Time Transport Protocol) gekapselt sind und Workloads für Audio, Video und Bildschirmfreigabe unterstützen. Im Allgemeinen ist der Medienverkehr hochgradig latenzempfindlich, daher möchten Sie, dass dieser Datenverkehr den direktesten Pfad verwendet und UDP und TCP als Transportschichtprotokoll verwendet. Dies ist aus Qualitätssicht am besten für interaktive Echtzeitmedien der beste Transport. (Beachten Sie, dass Medien als letzte Methode TCP/IP verwenden und auch innerhalb des HTTP-Protokolls ge tunnelt werden können. Dies wird aufgrund der schlechten Auswirkungen auf die Qualität jedoch nicht empfohlen.) RtP flow is secured using SRTP, in which only the payload is encrypted.
 
-**Signalisieren .** Die Kommunikationsverknüpfung zwischen dem Client und dem Server oder anderen Clients, die zum Steuern von Aktivitäten (z. B. initiierte Anrufe) und zum Senden von Chatnachrichten verwendet werden. Für den meisten Signalisierungsverkehr werden HTTPS-basierte REST-Schnittstellen verwendet, in einigen Szenarien (z. B. eine Verbindung zwischen Microsoft 365 oder Office 365 und einem Session Border Controller) wird jedoch das SIP-Protokoll verwendet. Es ist wichtig zu wissen, dass dieser Datenverkehr weniger anfällig für Latenz ist, aber möglicherweise zu Dienstausfällen oder Anruftimeouts führen kann, wenn die Latenz zwischen den Endpunkten mehrere Sekunden überschreitet.
+**Signalisieren .** Die Kommunikationsverknüpfung zwischen dem Client und dem Server oder anderen Clients, die verwendet werden, um Aktivitäten zu steuern (z. B. wenn ein Anruf initiiert wird) und Chatnachrichten zu senden. Für den meisten Signalisierungsverkehr werden die HTTPS-basierten REST-Schnittstellen verwendet, in einigen Szenarien (z. B. eine Verbindung zwischen Microsoft 365 oder Office 365 und einem Session Border Controller) wird jedoch das SIP-Protokoll verwendet. Es ist wichtig zu wissen, dass dieser Datenverkehr weniger anfällig für Latenz ist, aber möglicherweise zu Dienstausfällen oder Anruftimeouts führen kann, wenn die Latenz zwischen den Endpunkten mehrere Sekunden überschreitet.
 
 ### <a name="connectivity-to-microsoft-365-or-office-365"></a>Konnektivität mit Microsoft 365 oder Office 365
 
-Teams muss [mit dem Internet verbunden sein.](/office365/enterprise/assessing-network-connectivity) Teams URLs und IP-Adressbereiche des Endpunkts sind in den [Office 365 URLs und IP-Adressbereichen aufgeführt.](/office365/enterprise/urls-and-ip-address-ranges) (Beachten Sie, dass eine offene Verbindung zu den TCP-Ports 80 und 443 sowie zu den UDP-Ports 3478 bis 3481 erforderlich ist.) Darüber hinaus Teams Abhängigkeit von Skype for Business Online, das ebenfalls mit dem Internet verbunden sein muss.
+Teams muss [mit dem Internet verbunden sein.](/office365/enterprise/assessing-network-connectivity) Teams URLs und IP-Adressbereiche des Endpunkts werden in den [Office 365 URLs und IP-Adressbereichen aufgeführt.](/office365/enterprise/urls-and-ip-address-ranges) (Beachten Sie, dass eine offene Verbindung zu den TCP-Ports 80 und 443 sowie zu den UDP-Ports 3478 bis 3481 erforderlich ist.) Darüber hinaus Teams eine Abhängigkeit von Skype for Business Online, das ebenfalls mit dem Internet verbunden sein muss.
 
-Teams Konnektivität von Medienflüssen wird mithilfe standardmäßiger ICE-Verfahren (Interactive Connectivity Connectivity) implementiert.
+Teams Konnektivität für Medienflüsse wird mithilfe standardmäßiger ICE-Verfahren (Interactive Connectivity Connectivity) implementiert.
 
 ### <a name="interoperability-restrictions"></a>Interoperabilitätseinschränkungen
 
@@ -83,11 +83,11 @@ Teams Konnektivität von Medienflüssen wird mithilfe standardmäßiger ICE-Verf
 
 **SIP-Proxyserver von Drittanbietern.** Ein Teams SIP-Dialogfeld mit einem Drittanbieter-SBC und/oder Gateway kann die Teams oder Skype for Business SIP-Proxys durchlaufen. Interoperabilität mit einem SIP-Proxy eines Drittanbieters wird nicht unterstützt.
 
-**B2BUA (oder SBC) eines Drittanbieters.** Ein Teams den Medienfluss zum und aus dem PSTN wird von einem Drittanbieter-SBC beendet. Die Interoperabilität mit einem Drittanbieter-SBC innerhalb des Teams-Netzwerks (wobei ein Drittanbieter-SBC zwei Teams- oder Skype for Business-Endpunkte vermittelt) wird jedoch nicht unterstützt.
+**B2BUA (oder SBC) eines Drittanbieters.** Ein Teams zu und aus dem PSTN wird von einem Drittanbieter-SBC beendet. Die Interoperabilität mit einem Drittanbieter-SBC innerhalb des Teams-Netzwerks (wobei ein Drittanbieter-SBC zwei Teams- oder Skype for Business-Endpunkte vermittelt) wird jedoch nicht unterstützt.
 
 ### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a>Technologien, die in diesem Verfahren nicht Microsoft Teams
 
-**VPN-Netzwerk .** Für Medienverkehr (oder Fluss 2' ) wird dies nicht empfohlen. Der VPN-Client sollte geteiltes Tunneln verwenden und Teams medienverkehr wie alle externen Nicht-VPN-Benutzer routen, wie unter Aktivieren von Lync-Medien zum Umgehen eines [VPN-Tunnels angegeben.](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)
+**VPN-Netzwerk.** Für Medienverkehr (oder Fluss 2' ) wird dies nicht empfohlen. Der VPN-Client sollte geteiltes Tunneln verwenden und Teams medienverkehr wie alle externen Nicht-VPN-Benutzer routen, wie unter Aktivieren von Lync-Medien zum Umgehen eines [VPN-Tunnels angegeben.](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)
 
 > [!NOTE]
 > Obwohl der Titel Lync angibt, gilt er auch für Teams Lync.
@@ -98,7 +98,7 @@ Teams Konnektivität von Medienflüssen wird mithilfe standardmäßiger ICE-Verf
 
 Es gibt vier allgemeine Prinzipien, die Ihnen beim Verständnis von Anrufflüssen für Microsoft Teams:
 
-- Eine Microsoft Teams Konferenz wird von einem Microsoft 365 oder Office 365 in der region gehostet, in der auch der erste Teilnehmer beigetreten ist. (Beachten Sie, dass Ausnahmen von dieser Regel in einigen Topologien in diesem Dokument beschrieben und durch einen entsprechenden Aufruffluss veranschaulicht werden.)
+- Eine Microsoft Teams Konferenz wird von einem Teilnehmer Microsoft 365 oder Office 365 in der Region gehostet, an der auch der erste Teilnehmer teilgetreten ist. (Beachten Sie, dass Ausnahmen von dieser Regel in einigen Topologien in diesem Dokument beschrieben und durch einen entsprechenden Aufruffluss veranschaulicht werden.)
 
 - Ein Teams-Medienendpunkt in Microsoft 365 oder Office 365 basierend auf den Anforderungen an die Medienverarbeitung und nicht basierend auf dem Anruftyp verwendet. (Beispielsweise kann ein Punkt-zu-Punkt-Anruf einen Medienendpunkt in der Cloud verwenden, um Medien für Transkription oder Aufzeichnung zu verarbeiten, während eine Konferenz mit zwei Teilnehmern möglicherweise keinen Medienendpunkt in der Cloud verwendet.) Die meisten Konferenzen verwenden jedoch einen Medienendpunkt zum Mischen und Routing, der dem Ort zugeordnet ist, an dem die Konferenz gehostet wird. Der von einem Client an den Medienendpunkt gesendete Medienverkehr wird möglicherweise direkt geroutet oder in Microsoft 365 oder Office 365 ein Transport Relay verwendet, wenn dies aufgrund von Einschränkungen der Firewall des Kundennetzwerks erforderlich ist.
 
@@ -106,13 +106,13 @@ Es gibt vier allgemeine Prinzipien, die Ihnen beim Verständnis von Anrufflüsse
 
 - Der Signalisierungsverkehr geht immer an den Server, der dem Benutzer am nächsten kommt.
 
-Weitere Informationen zu den Details des gewählten Medienpfads finden Sie unter Grundlegendes zu Medienflüssen in Microsoft Teams [– BRK4016.](https://www.youtube.com/watch?v=1tmHMIlAQdo)
+Weitere Informationen zu den details des gewählten Medienpfads finden Sie unter Grundlegendes zu Medienflüssen in Microsoft Teams [– BRK4016.](https://www.youtube.com/watch?v=1tmHMIlAQdo)
 
 ## <a name="call-flows-in-various-topologies"></a>Anrufflüsse in verschiedenen Topologien
 
 ### <a name="teams-topology"></a>Teams-Topologie
 
-Diese Topologie wird von Kunden verwendet, die Teams-Dienste aus der Cloud ohne lokale Bereitstellung nutzen, z. B. Skype for Business Server oder Telefonsystem Direct-Routing. Außerdem wird die Schnittstelle zu Microsoft 365-Office 365 ohne Azure Express Route über das Internet bereitgestellt.
+Diese Topologie wird von Kunden verwendet, die Teams-Dienste aus der Cloud ohne lokale Bereitstellung nutzen, z. B. Skype for Business Server oder Telefonsystem Direct-Routing. Darüber hinaus wird die Schnittstelle zum Microsoft 365 oder Office 365 ohne Azure Express Route über das Internet ausgeführt.
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
@@ -125,37 +125,37 @@ Beachten Sie, dass:
 
 Weitere Informationen zu den folgenden optionalen Topologien finden Sie weiter unten in diesem Artikel:
 
-- Skype for Business lokale Bereitstellung wird in Teams **Hybridtopologie beschrieben.**
-- Telefonsystem Direct Routing (für PSTN-Konnektivität) wird unter Verbindungen **Teams Direct Routing-Topologie beschrieben.**
-- Express Route wird in diesem Abschnitt **Teams ExpressRoute-Optimierung beschrieben.**
+- Skype for Business lokale Bereitstellung wird in der **Teams Topologie beschrieben.**
+- Telefonsystem Direct Routing (für PSTN-Konnektivität) wird unter Verbindungen **Teams Direct-Routingtopologie beschrieben.**
+- Express Route wird in der Beschreibung **Teams ExpressRoute-Optimierung beschrieben.**
 
 **Flow Beschreibungen:**
 
-- **Flow 2** – Stellt einen Fluss dar, der von einem Benutzer im Kundennetzwerk zum Internet als Teil der Benutzererfahrung Teams wird. Beispiele für diese Flüsse sind DNS und Peer-to-Peer-Medien.
+- **Flow 2–** Stellt einen Fluss dar, der von einem Benutzer im Kundennetzwerk zum Internet als Teil der Benutzererfahrung Teams wird. Beispiele für diese Flüsse sind DNS und Peer-zu-Peer-Medien.
 - **Flow 2'** – Stellt einen fluss dar, der von einem Remotebenutzer Teams mobilen Geräten mit VPN zum Kundennetzwerk initiiert wurde.
-- **Flow 3** – Stellt einen Fluss dar, der von einem Remotebenutzer eines mobilen Benutzers initiiert Teams wird, um Microsoft 365 oder Office 365/Teams-Endpunkte zu senden.
-- **Flow 4** – Stellt einen Fluss dar, der von einem Benutzer im Kundennetzwerk initiiert wurde, um Microsoft 365 oder Office 365/Teams zu senden.
+- **Flow 3** – Stellt einen Fluss dar, der von einem Remote-Mobile Teams Benutzer initiiert wurde, um Microsoft 365 oder Office 365/Teams-Endpunkte zu verwenden.
+- **Flow 4–** Stellt einen Fluss dar, der von einem Benutzer im Kundennetzwerk initiiert wurde, um Microsoft 365 oder Office 365/Teams zu senden.
 - **Flow 5** – Stellt einen Peer-to-Peer-Medienfluss zwischen einem Teams-Benutzer und einem anderen Teams- oder Skype for Business-Benutzer innerhalb des Kundennetzwerks dar.
-- **Flow 6** – Stellt einen Peer-to-Peer-Medienfluss zwischen einem Remotebenutzer eines mobilen Teams und einem anderen mobilen Remote-Teams oder Skype for Business-Benutzer über das Internet dar.
+- **Flow 6** – Stellt einen Peer-to-Peer-Medienfluss zwischen einem remoteen mobilen Teams-Benutzer und einem anderen mobilen Remote-Teams oder Skype for Business-Benutzer über das Internet dar.
 
 #### <a name="use-case-one-to-one"></a>Verwendungsfall: 1:1
 
-1:1-Aufrufe verwenden ein gängiges Modell, in dem der Aufrufer eine Gruppe von Kandidaten erhält, die aus IP-Adressen/Ports bestehen, einschließlich lokaler, Relay- und Reflexiv-Kandidaten (öffentliche IP-Adresse des Clients wie vom Relay gesehen). Der Aufrufer sendet diese Kandidaten an die angerufene Partei. die aufgerufene Partei erhält ebenfalls eine ähnliche Gruppe von Kandidaten und sendet sie an den Anrufer. Meldungen der STUN-Konnektivitätsprüfung werden verwendet, um zu finden, welche Medienpfade von Anrufern/Angerufenen funktionieren, und es wird der beste Arbeitspfad ausgewählt. Medien (d. h. MIT SRTP gesicherte RTP/RTCP-Pakete) werden dann mit dem ausgewählten Kandidatenpaar gesendet. Das Transport-Relay wird als Teil Microsoft 365 Transport-Relays Office 365.
+1:1-Aufrufe verwenden ein gängiges Modell, in dem der Aufrufer eine Gruppe von Kandidaten erhält, die aus IP-Adressen/Ports bestehen, einschließlich lokaler, Relay- und Reflexiv-Kandidaten (öffentliche IP-Adresse des Clients wie vom Relay gesehen). Der Aufrufer sendet diese Kandidaten an die angerufene Partei. die aufgerufene Partei erhält ebenfalls eine ähnliche Gruppe von Kandidaten und sendet sie an den Anrufer. Meldungen der STUN-Konnektivitätsprüfung werden verwendet, um zu finden, welche Medienpfade von Anrufern/Angerufenen funktionieren, und es wird der beste Arbeitspfad ausgewählt. Medien (d. h. MIT SRTP gesicherte RTP/RTCP-Pakete) werden dann mit dem ausgewählten Kandidatenpaar gesendet. Das Transport relay wird als Teil Microsoft 365 Transport-Relays Office 365.
 
-Wenn die lokalen IP-Adress-/Portkandidaten oder die Reflexiven Konnektivität haben, wird der direkte Pfad zwischen den Clients (oder die Verwendung eines NAT) für Medien ausgewählt. Wenn sich beide Clients im Kundennetzwerk befinden, sollte der direkte Pfad ausgewählt werden. Dies erfordert direkte UDP-Konnektivität innerhalb des Kundennetzwerks. Wenn es sich bei den Clients um benutzerische Cloudbenutzer handelt, verwenden Medien je nach NAT/Firewall möglicherweise direkte Konnektivität.
+Wenn die lokalen IP-Adressen/Port-Kandidaten oder die Reflexiven Konnektivität haben, wird der direkte Pfad zwischen den Clients (oder die Verwendung eines NAT) für Medien ausgewählt. Wenn sich beide Clients im Kundennetzwerk befinden, sollte der direkte Pfad ausgewählt werden. Dies erfordert direkte UDP-Konnektivität innerhalb des Kundennetzwerks. Wenn es sich bei den Clients um benutzerische Cloudbenutzer handelt, verwenden Medien je nach NAT/Firewall möglicherweise direkte Konnektivität.
 
 Wenn ein Client intern im Kundennetzwerk und ein Client extern ist (z. B. ein Mobile Cloud-Benutzer), ist es unwahrscheinlich, dass die direkte Verbindung zwischen den lokalen oder Reflexkandidaten funktioniert. In diesem Fall besteht eine Option in der Verwendung eines der Transport Relay-Kandidaten eines der Clients (z. B. hat der interne Client ein Relay-Kandidat aus dem Transport relay in Microsoft 365 oder Office 365 erhalten; der externe Client muss STUN/RTP/RTCP-Pakete an das Transport relay senden können). Eine weitere Option ist, dass der interne Client an den Relay-Kandidaten sendet, der vom Client für die mobile Cloud erworben wurde. Beachten Sie, dass UDP-Konnektivität für Medien zwar dringend empfohlen wird, TCP jedoch unterstützt wird.
 
 **Schritte auf hoher Ebene:**
 
 1. Teams Benutzer A löst DEN URL-Domänennamen (DNS) mithilfe von Flow 2 auf.
-1. Teams Benutzer A weist über Flow 4 einen Media Relay-Port Teams Transport Relay zu.
-1. Teams Benutzer A sendet "Einladung" mit ICE-Kandidaten mit Flow 4 an Microsoft 365 oder Office 365.
-1. Microsoft 365 oder Office 365 Benachrichtigung wird mithilfe von Flow 4 Teams Benutzer B gesendet.
+1. Teams Benutzer A weist mithilfe von Flow 4 einen Media Relay-Port Teams Transport Relay zu.
+1. Teams Benutzer A sendet "Einladung" mit ICE-Kandidaten unter Verwendung von Flow 4 an Microsoft 365 oder Office 365.
+1. Microsoft 365 oder Office 365 Benachrichtigung mithilfe von Flow 4 Teams Benutzer B gesendet.
 1. Teams Benutzer B weist über Flow 4 einen Media Relay-Port Teams Transport Relay zu.
-1. Teams Benutzer B sendet "Antwort" mit ICE-Kandidaten mithilfe von Flow 4, der mithilfe von Flow 4 zurück an Teams Benutzer A weitergeleitet wird.
-1. Teams Benutzer A und Teams Benutzer B rufen ICE-Verbindungstests auf, und der beste verfügbare Medienpfad wird ausgewählt (die verschiedenen Verwendungsfälle finden Sie unten in den Diagrammen).
-1. Teams Benutzer senden Telemetrie an Microsoft 365 oder Office 365 mithilfe von Flow 4.
+1. Teams Benutzer B sendet "Antwort" mit ICE-Kandidaten unter Verwendung von Flow 4, der mithilfe von Flow 4 zurück an Teams Benutzer A weitergeleitet wird.
+1. Teams Benutzer A und Teams Benutzer B ruft ICE-Verbindungstests auf, und der beste verfügbare Medienpfad wird ausgewählt (in den nachstehenden Diagrammen finden Sie unterschiedliche Verwendungsfälle).
+1. Teams Benutzer senden Telemetrie Microsoft 365 oder Office 365 Flow 4.
 
 **Innerhalb des Kundennetzwerks:**
 
@@ -165,15 +165,15 @@ Wenn ein Client intern im Kundennetzwerk und ein Client extern ist (z. B. ein Mo
 
 In Schritt 7 ist Peer-zu-Peer-Medienfluss 5 ausgewählt.
 
-Die Medien werden bidirektional erstellt. Die Richtung von Fluss 5 gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert, die mit allen Flüssen in diesem Dokument konsistent ist. In diesem Fall spielt es keine Rolle, welche Richtung verwendet wird, da sich beide Endpunkte innerhalb des Kundennetzwerks befinden.
+Die Medien sind bidirektional. Die Richtung von Fluss 5 gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert, die mit allen Flüssen in diesem Dokument konsistent ist. In diesem Fall spielt es keine Rolle, welche Richtung verwendet wird, da sich beide Endpunkte innerhalb des Kundennetzwerks befinden.
 
-**Kundennetzwerk zu externem Benutzer (Medien, die von einem transport relay Teams werden):**
+**Kundennetzwerk zu externem Benutzer (Medien, die von einem Transport relay Teams werden):**
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
 *Abbildung 3: Kundennetzwerk zu externem Benutzer (Medien, die über Teams Transport Relay weitergemittelt werden)*
 
-In Schritt 7 sind Flow 4, vom Kundennetzwerk zu Microsoft 365 oder Office 365 und Flow 3, vom Mobilen Remote-Teams-Benutzer zum Microsoft 365 oder Office 365 ausgewählt. Diese Datenströme werden von einem transport relay Teams innerhalb Microsoft 365 oder Office 365.
+In Schritt 7 sind Flow 4, vom Kundennetzwerk zu Microsoft 365 oder Office 365 und Flow 3, vom Mobilen Remote-Teams-Benutzer zum Microsoft 365 oder Office 365 ausgewählt. Diese Datenströme werden von einem Teams-Transport relay innerhalb Microsoft 365 oder Office 365.
 
 Die Medien sind bidirektional, wobei die Richtung angibt, welche Seite die Kommunikation aus Konnektivitätsperspektive initiiert. In diesem Fall werden diese Flüsse für Signalisierung und Medien unter Verwendung verschiedener Transportprotokolle und Adressen verwendet.
 
@@ -187,7 +187,7 @@ In Schritt 7 ist Flow 2 vom Kundennetzwerk zum Internet (Peer des Clients) ausge
 
 - Direct-Medien mit remote mobilen Benutzern (nicht per Relay Microsoft 365 Oder Office 365) sind optional. Mit anderen Worten: Der Kunde kann diesen Pfad blockieren, um einen Medienpfad über Transport Relay in Microsoft 365 oder Office 365.
 
-- Die Medien werden bidirektional erstellt. Die Richtung von Fluss 2 an mobile Remotebenutzer gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert.
+- Die Medien sind bidirektional. Die Richtung von Fluss 2 zu mobilen Remotebenutzern gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert.
 
 **VPN-Benutzer für internen Benutzer (Medien, die über Teams Transport Relay gesendet werden)**
 
@@ -205,7 +205,7 @@ Für die Signalisierung zwischen VPN und dem Kundennetzwerk wird Flow 2 verwende
 
 Für die Signalisierung zwischen VPN und dem Kundennetzwerk wird Flow 2 verwendet. Für die Signalisierung zwischen kundennetzwerk und Microsoft 365 oder Office 365 wird Flow 4 verwendet. Medien umgeht jedoch das VPN und wird mithilfe von Flow 2 vom Kundennetzwerk zum Internet geroutet.
 
-Die Medien werden bidirektional erstellt. Die Richtung von Durchlauf 2 zum Mobilen Remotebenutzer gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert.
+Die Medien sind bidirektional. Die Richtung von Durchlauf 2 zum Mobilen Remotebenutzer gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert.
 
 **VPN-Benutzer für externen Benutzer (direkte Medien)**
 
@@ -215,25 +215,25 @@ Die Medien werden bidirektional erstellt. Die Richtung von Durchlauf 2 zum Mobil
 
 Für die Signalisierung zwischen vpn-Benutzern und dem Kundennetzwerk wird Flow 2' und Flow 4 zum Microsoft 365 oder Office 365. Medien umgeht jedoch VPN und wird mithilfe von Flow 6 geroutet.
 
-Die Medien werden bidirektional erstellt. Die Richtung von Fluss 6 an den Remotebenutzer des mobilen Standorts gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert.
+Die Medien sind bidirektional. Die Richtung von Fluss 6 an den Remotebenutzer des mobilen Standorts gibt an, dass eine Seite die Kommunikation aus Konnektivitätsperspektive initiiert.
 
 #### <a name="use-case-teams-to-pstn-through-microsoft-365-or-office-365-trunk"></a>Use Case: Teams über Microsoft 365 oder Office 365 PSTN
 
-Microsoft 365 und Office 365 verfügen über ein Telefonsystem, das das Platzieren und Empfangen von Anrufen aus dem öffentlichen Telefonnetz (PSTN) ermöglicht. Wenn der PSTN-Trunk über den Telefonsystem-Anrufplan verbunden ist, gibt es für diesen Einsatzfall keine besonderen Anforderungen an die Konnektivität. (Wenn Sie Ihren eigenen lokalen PSTN-Trunk mit Microsoft 365 oder Office 365 verbinden möchten, können Sie Telefonsystem Direct-Routing verwenden.)
+Microsoft 365 und Office 365 verfügen über ein Telefonsystem, das das Platzieren und Empfangen von Anrufen aus dem öffentlichen Telefonnetz (PSTN) ermöglicht. Wenn der PSTN-Trunk über den Telefonsystem-Anrufplan verbunden ist, gibt es für diesen Einsatzfall keine besonderen Konnektivitätsanforderungen. (Wenn Sie Ihren eigenen lokalen PSTN-Trunk mit Microsoft 365 oder Office 365 verbinden möchten, können Sie Telefonsystem Direct-Routing verwenden.)
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 08](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
 
-*Abbildung 8: Teams pstN über Office 365 Trunk*
+*Abbildung 8: Teams pstn über Office 365 Trunk*
 
 #### <a name="use-case-teams-meeting"></a>Verwendungsfall: Teams Besprechung
 
-Der Audio-/Video-/Bildschirmfreigabeserver (VBSS) ist Bestandteil von Microsoft 365 und Office 365. Sie hat eine öffentliche IP-Adresse, die vom Kundennetzwerk aus erreichbar sein muss und über einen Kundenclient für die Cloud erreichbar sein muss. Jeder Client/Endpunkt muss in der Lage sein, eine Verbindung mit dem Konferenzserver herzustellen.
+Der Audio-/Video-/Bildschirmfreigabeserver (VBSS) ist Teil Microsoft 365 und Office 365. Sie hat eine öffentliche IP-Adresse, die vom Kundennetzwerk aus erreichbar sein muss und über einen Kundenclient für die Cloud erreichbar sein muss. Jeder Client/Endpunkt muss in der Lage sein, eine Verbindung mit dem Konferenzserver herzustellen.
 
 Interne Clients erhalten lokale, Reflexive und Relay-Kandidaten auf die gleiche Weise wie bei 1:1-Anrufen beschrieben. Die Clients senden diese Kandidaten in einer Einladung an den Konferenzserver. Da der Konferenzserver kein Relay verwendet, da er über eine öffentlich erreichbare IP-Adresse verfügt, reagiert er mit seinem lokalen IP-Adresskandidaten. Der Client und der Konferenzserver überprüfen die Konnektivität auf die gleiche Weise, die für 1:1-Anrufe beschrieben wird.
 
 Beachten Sie, dass:
 
-- Teams Kunden können nicht an Skype for Business Besprechungen teilnehmen, und Skype for Business Kunden können nicht an Teams teilnehmen.
+- Teams Kunden können nicht an Skype for Business Besprechungen teilnehmen, und Skype for Business Kunden können nicht an Besprechungen Teams teilnehmen.
 
 - Je nach Bereitstellung von PSTN-Anruf und/oder Konferenzbereitstellung des Organisators kann ein PSTN-Benutzer optional "EINwählen" oder "AUSGEwählt" werden.
 
@@ -245,31 +245,31 @@ Beachten Sie, dass:
 
 #### <a name="use-case-federation-with-skype-for-business-on-premises"></a>Verwendungsfall: Verbund mit Skype for Business lokal
 
-**Media relayed by Teams Transport Relay in Microsoft 365 or Office 365**
+**Medien, die über Teams Transport Relay in Microsoft 365 oder Office 365**
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
 
-*Abbildung 10: Medien, die von einem transport relay Teams in Office 365*
+*Abbildung 10: Medien, die über Teams Transport Relay in Office 365*
 
 Beachten Sie, dass:
 
-- Der Verbund ist per Definition eine Kommunikation zwischen zwei Mandanten. In diesem Fall ist Mandant A, der Teams verwendet, partneriert mit Mandant B, der die Skype for Business verwendet. Wenn man auch Mandant B Microsoft 365 oder Office 365 verwendet, hätte der Skype for Business-Client Flow 3 verwendet, um die Verbindung zu Microsoft 365 oder Office 365.
+- Der Verbund ist per Definition eine Kommunikation zwischen zwei Mandanten. In diesem Fall ist Mandant A, der Teams verwendet, Partner mit Mandant B, der die Skype for Business verwendet. Wenn man auch Mandant B Microsoft 365 oder Office 365 verwendet, hätte der Skype for Business-Client Flow 3 verwendet, um eine Verbindung mit Microsoft 365 oder Office 365.
 
 - Signalisierung und Medien vom Skype for Business-Client zu lokalen Skype for Business Server werden in diesem Dokument nicht angezeigt. Aus Gründen der Übersichtlichkeit wird dies jedoch veranschaulicht.
 
 - Die Signalisierung zwischen Teams und Skype for Business wird von einem Gateway überbrücken.
 
-- Medien werden in diesem Fall über Teams Transport Relay an das Kundennetzwerk und den Remote-Skype for Business-Client mithilfe von Flow 4 gesendet.
+- Medien werden in diesem Fall über Teams Transport Relay an das Kundennetzwerk und den Remote-Skype for Business-Client mithilfe von Flow 4 weiterviert.
 
 **Media relayed by Skype for Business Media Relay in federated tenant**
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
 
-*Abbildung 11: Medien, die von Skype for Business Media Relay im Verbund-Mandanten weitergewechselt werden*
+*Abbildung 11: Medien, die von Skype for Business Media Relay im Verbund-Mandanten weitergestrahlt werden*
 
 Beachten Sie, dass:
 
-- Signalisierung und Medien vom Skype for Business-Client an eine lokale Skype for Business Server werden nicht in den Rahmen dieses Dokuments gesetzt. Aus Gründen der Übersichtlichkeit wird dies jedoch veranschaulicht.
+- Signalisierung und Medien vom Skype for Business-Client zu einem lokalen Skype for Business Server, werden in diesem Dokument nicht Skype for Business Server. Aus Gründen der Übersichtlichkeit wird dies jedoch veranschaulicht.
 
 - Die Signalisierung zwischen Teams und Skype for Business wird von einem Gateway überbrücken.
 
@@ -291,13 +291,13 @@ Diese Topologie umfasst Teams mit einer Skype for Business lokalen Bereitstellun
 
 - Die Richtung der Pfeile im obigen Diagramm spiegelt die Initiierungsrichtung der Kommunikation wider, die sich auf die Konnektivität in den Unternehmensperimetern auswirkt. Im Fall von UDP für Medien können die ersten Pakete in umgekehrter Richtung fließen, doch werden diese Pakete möglicherweise blockiert, bis Pakete in die andere Richtung fließen.
 
-- Teams wird neben Skype for Business Online bereitgestellt, daher werden die Clients als "Teams/SFB-Benutzer" angezeigt.
+- Teams wird neben Skype for Business Online bereitgestellt, daher werden Clients als "Teams/SFB-Benutzer" angezeigt.
 
-Zusätzlicher Fluss (zusätzlich zur Teams Topologie):
+Zusätzlicher Fluss (zusätzlich zur Teams- und Topologie):
 
-- **Flow 5A** – Stellt einen Peer-to-Peer-Medienfluss zwischen einem Teams-Benutzer innerhalb des Kundennetzwerks und einem lokalen Skype for Business-Medien relay am Netzwerkrand des Kunden dar.
+- **Flow 5A** – Stellt einen Peer-to-Peer-Medienfluss zwischen einem Teams-Benutzer innerhalb des Kundennetzwerks und einem lokalen Skype for Business-Media Relay am Netzwerkrand des Kunden dar.
 
-#### <a name="use-case-teams-to-skype-for-business-one-to-one"></a>Use case: Teams to Skype for Business 1:1
+#### <a name="use-case-teams-to-skype-for-business-one-to-one"></a>Use Case: Teams to Skype for Business 1:1
 
 **Hybrid im Kundennetzwerk**
 
@@ -307,7 +307,7 @@ Zusätzlicher Fluss (zusätzlich zur Teams Topologie):
 
 Die Signalisierung zwischen Teams und Skype for Business wird von einem Gateway überbrücken. Medien werden jedoch mithilfe von Flow 5 direkt von Peer-zu-Peer innerhalb des Kundennetzwerks geroutet.
 
-**Hybrid-Kundennetzwerk mit externem Skype for Business – Weiterleitung über Microsoft 365 oder Office 365**
+**Hybrid-Kundennetzwerk mit externem Skype for Business – Weiterleitung per Microsoft 365 oder Office 365**
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
 
@@ -315,7 +315,7 @@ Die Signalisierung zwischen Teams und Skype for Business wird von einem Gateway 
 
 Beachten Sie, dass:
 
-- Signalisierung und Medien vom Skype for Business-Client an eine lokale Skype for Business Server werden, werden in diesem Dokument nicht angezeigt. Aus Gründen der Übersichtlichkeit wird dies jedoch veranschaulicht.
+- Signalisierung und Medien vom Skype for Business-Client zu einem lokalen Skype for Business Server über den Rahmen dieses Dokuments nicht. Aus Gründen der Übersichtlichkeit wird dies jedoch veranschaulicht.
 
 - Die Signalisierung zwischen Teams und Skype for Business wird von einem Gateway überbrücken.
 
@@ -325,11 +325,11 @@ Beachten Sie, dass:
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
-*Abbildung 16: Hybrid-Kundennetzwerk mit externem Skype for Business - Weiterleitung über lokales Edge*
+*Abbildung 16: Hybrid-Kundennetzwerk mit externem Skype for Business - Weiterleitung durch lokales Edge*
 
 Beachten Sie, dass:
 
-- Signalisierung und Medien vom Skype for Business-Client zu einem lokalen Skype for Business Server werden, werden in diesem Dokument nicht angezeigt. Aus Gründen der Übersichtlichkeit wird dies jedoch veranschaulicht.
+- Signalisierung und Medien vom Skype for Business-Client zu einem lokalen Skype for Business Server über den Rahmen dieses Dokuments nicht. Aus Gründen der Übersichtlichkeit wird dies jedoch veranschaulicht.
 
 - Die Signalisierung wird von einem Gateway überbrücken.
 
@@ -339,9 +339,9 @@ Beachten Sie, dass:
 
 Diese Topologie umfasst Teams mit Telefonsystem Direct-Routing.
 
-Mit Direct Routing können Sie einen PstN-Dienstanbieter (Public Switched Telephone Network) eines Drittanbieters verwenden, indem Sie ein unterstütztes lokales, vom Kunden bereitgestelltes Hardwaregerät für Session Border Controller (SBC) mit Microsoft 365 oder Office 365 koppeln und dann den Telefoniestamm mit diesem Gerät verbinden.
+Mit Direct Routing können Sie einen PstN-Dienstanbieter (Public Switched Telephone Network) eines Drittanbieters verwenden, indem Sie ein unterstütztes lokales, vom Kunden bereitgestelltes Hardwaregerät für Den Session Border Controller (SBC) mit Microsoft 365 oder Office 365 koppeln und dann den Telefoniestamm mit diesem Gerät verbinden.
 
-Um dieses Szenario zu unterstützen, muss der Kunde von einem zertifizierten Microsoft-Partner einen zertifizierten SBC für Direct-Routing bereitstellen. Der SBC muss wie vom Anbieter empfohlen konfiguriert werden und für direkten UDP-Datenverkehr Microsoft 365 oder Office 365 Routing routingfähig sein. Die Medien können direkt vom Teams- und/oder Skype for Business-Client zum SBC (Unter Umgehung des Teams-Gateways) oder über das Teams-Gateway fließen. Wenn der Trunk so konfiguriert ist, dass das Teams-Gateway umgangen wird, basiert die Konnektivität mit dem SBC auf ICE, wobei SBC ICE-Lite unterstützt, während der Medienendpunkt Teams/Skype for Business ICE Full Form unterstützt.
+Um dieses Szenario zu unterstützen, muss der Kunde von einem zertifizierten Microsoft-Partner einen zertifizierten SBC für Direct-Routing bereitstellen. Der SBC muss wie vom Anbieter empfohlen konfiguriert werden und für direkten UDP-Datenverkehr Microsoft 365 oder Office 365 Routing routingfähig sein. Die Medien können direkt vom Teams- und/oder Skype for Business-Client zum SBC (Umgehung des Teams-Gateways) oder über das Teams-Gateway fließen. Die Konnektivität mit dem SBC basiert auf ICE, wo SBC ICE-Lite unterstützt, wenn der Trunk so konfiguriert ist, dass das Teams-Gateway umgangen wird, während der Medienendpunkt von Teams/Skype for Business ICE Full Form unterstützt.
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
@@ -351,23 +351,23 @@ Beachten Sie, dass:
 
 - Die Richtung der Pfeile im obigen Diagramm spiegelt die Initiierungsrichtung der Kommunikation wider, die sich auf die Konnektivität in den Unternehmensperimetern auswirkt. Im Fall von UDP für Medien können die ersten Pakete in umgekehrter Richtung fließen, doch werden diese Pakete möglicherweise blockiert, bis Pakete in die andere Richtung fließen.
 
-- Teams wird neben Skype for Business Online bereitgestellt, daher werden die Clients als "Teams/SFB-Benutzer" angezeigt.
+- Teams wird neben Skype for Business Online bereitgestellt, daher werden Clients als "Teams/SFB-Benutzer" angezeigt.
 
-Zusätzliche Flüsse (zusätzlich zur Teams Onlinetopologie):
+Zusätzliche Datenflüsse (zusätzlich zur Teams Onlinetopologie):
 
 - **Flow 4'** – Stellt einen Fluss von Microsoft 365 oder Office 365 zum Kundennetzwerk dar, der verwendet wird, um eine Verbindung zwischen dem Teams-Medienserver in der Cloud und dem lokalen SBC herzustellen.
-- **Flow 5B** – Stellt einen Medienfluss zwischen dem Teams-Benutzer innerhalb des Kundennetzwerks mit Direct Routing SBC im Umgehungsmodus dar.
-- **Flow 5C** – Stellt einen Medienfluss zwischen dem Direct-Routing-SBC und einem anderen Direct Routing-SBC im Umgehungsmodus für Anrufe mit Festnetz-Hairpins dar.
+- **Flow 5B** – Stellt einen Medienfluss zwischen dem Teams-Benutzer innerhalb des Kundennetzwerks mit Dem Direct-Routing-SBC im Umgehungsmodus dar.
+- **Flow 5C** – Stellt einen Medienfluss zwischen dem Direct Routing-SBC und einem anderen Direct Routing-SBC im Umgehungsmodus des PSTN-Hairpin-Anrufs dar.
 
-**Interner Benutzer mit Direct-Routing (Medien, die über Teams Transport Relay weiterleitet werden)**
+**Interner Benutzer mit Direct Routing (Medien, die über Teams Transport Relay weiterleitet werden)**
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
 
-*Abbildung 18: Interner Benutzer mit Direct-Routing (Medien, die über Teams Transport Relay weitergeleitet werden)*
+*Abbildung 18: Interner Benutzer mit Direct-Routing (Medien, die von einem Transport relay Teams werden)*
 
 Beachten Sie, dass:
 
-- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder Office 365.
+- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder einer Office 365.
 
 - Für Signalisierung und Medien vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Flow 4 und/oder Flow 4' verwendet.
 
@@ -381,11 +381,11 @@ Beachten Sie, dass:
 
 Beachten Sie, dass:
 
-- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder Office 365.
+- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder einer Office 365.
 
 - Für Signalisierung und Medien vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Flow 4 und/oder Flow 4' verwendet.
 
-- Signalisierung und Medien vom Client im Internet, Microsoft 365 oder Office 365 Flow 3 zu verwenden.
+- Signalisierung und Medien vom Client im Internet, um Microsoft 365 oder Office 365 Flow 3 zu verwenden.
 
 **Direktes Routing für interne Benutzer (Medienumgehung)**
 
@@ -395,7 +395,7 @@ Beachten Sie, dass:
 
 Beachten Sie, dass:
 
-- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder Office 365.
+- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder einer Office 365.
 
 - Bei der Signalisierung von SBC Microsoft 365 oder Office 365 und umgekehrt wird Flow 4 und/oder Flow 4' verwendet.
 
@@ -411,7 +411,7 @@ Beachten Sie, dass:
 
 Beachten Sie, dass:
 
-- Der SBC muss über eine öffentliche IP-Adresse verfügen, die über Microsoft 365 oder Office 365 Internet routingfähig ist.
+- Der SBC muss über eine öffentliche IP-Adresse verfügen, die von einer Microsoft 365 über Office 365 und das Internet routingfähig ist.
 
 - Bei der Signalisierung vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Fluss 4 und/oder Fluss 4 verwendet.
 
@@ -429,13 +429,13 @@ Beachten Sie, dass:
 
 - Der SBC muss über eine öffentliche IP-Adresse verfügen, die aus Microsoft 365 oder Office 365 und dem Internet routingfähig ist.
 
-- Bei der Signalisierung vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Fluss 4 und/oder Fluss 4 verwendet.
+- Bei der Signalisierung vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Flow 4 und/oder Flow 4' verwendet.
 
 - Beim Signalisieren vom Client über das Internet an Microsoft 365 oder Office 365 wird Flow 3 verwendet.
 
 - Für Medien vom Client im Internet zu SBC innerhalb des Kundennetzwerks wird Flow 2 verwendet.
 
-**Direct Routing (Medienumgehung) – PstN-Hairpin-Anruf (aufgrund von Weiterleitung/Übertragung von Anrufen)**
+**Direct Routing (Medienumgehung) – PstN-Hairpin-Anruf (aufgrund von Anruf weiterleiten/übertragen)**
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
@@ -443,11 +443,11 @@ Beachten Sie, dass:
 
 Beachten Sie, dass:
 
-- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder Office 365.
+- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder einer Office 365.
 
-- Bei der Signalisierung vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Fluss 4 und/oder Fluss 4 verwendet.
+- Bei der Signalisierung vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Flow 4 und/oder Flow 4' verwendet.
 
-- Der Client befindet sich nicht mehr in der Signalisierungs- und Medienschleife, nachdem der Anruf von der PSTN-zu-PSTN-Schleife umgeknent wurde.
+- Der Client befindet sich nicht mehr in der Signalisierungs- und Medienschleife, nachdem der Anruf von der PSTN-an die PSTN-Schleife gestiftet wurde.
 
 - Für Medien von SBC-Instanz A innerhalb des Kundennetzwerks zu SBC-Instanz B innerhalb des Kundennetzwerks (wobei A und B dieselbe Instanz sein können) wird Flow 5C verwendet.
 
@@ -455,15 +455,15 @@ Beachten Sie, dass:
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
-*Abbildung 24: Direktes Routing (Medien über Microsoft 365 oder Office 365) – Anrufe über das Festnetz-Hairpin über zwei Mandanten*
+*Abbildung 24: Direktes Routing (Medien über Microsoft 365 oder Office 365) – PstN-Hairpin-Anruf über zwei Mandanten*
 
 Beachten Sie, dass:
 
-- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder Office 365.
+- Der SBC muss eine öffentliche IP-Adresse haben, die von einer Microsoft 365 oder einer Office 365.
 
-- Bei der Signalisierung vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Fluss 4 und/oder Fluss 4 verwendet.
+- Bei der Signalisierung vom SBC zu Microsoft 365 oder Office 365 und umgekehrt wird Flow 4 und/oder Flow 4' verwendet.
 
-- Der Client befindet sich nicht mehr in der Signalisierungs- und Medienschleife, nachdem der Anruf von der PSTN-zu-PSTN-Schleife umgeknent wurde.
+- Der Client befindet sich nicht mehr in der Signalisierungs- und Medienschleife, nachdem der Anruf von der PSTN-an die PSTN-Schleife gestiftet wurde.
 
 - Medien von SBC-Instanz A innerhalb des Kundennetzwerks X zu SBC-Instanz B müssen über den Microsoft 365 oder Office 365 Media Server übertragen werden und können nicht den Umgehungsmodus verwenden.
 
@@ -473,14 +473,14 @@ Beachten Sie, dass:
 
 *Abbildung 25: Teams ExpressRoute-Optimierung*
 
-Ist Express Route im Rechtfertigungs- und Bereitstellungsfall, können Teams-Datenströme von Fluss 4 auf Fluss 1 und von Fluss 4' auf Fluss 1' umgeroutet werden. Die Teams-Anwendung ist jedoch aufgrund der Flüsse 4 und 4 Microsoft 365 oder Office 365 stark von anderen Datenströmen abhängig. daher dürfen diese Flüsse nicht blockiert werden.
+Wenn Express Route im Rechtfertigungs- und Bereitstellungsfall ist, können Teams-Datenströme von Fluss 4 auf Fluss 1 und von Fluss 4' auf Fluss 1' umgeroutet werden. Die Teams-Anwendung ist jedoch stark von anderen Datenflüssen abhängig Microsoft 365 oder Office 365 den Flüssen 4 und 4' über das Internet fließen. daher dürfen diese Flüsse nicht blockiert werden.
 
 Beachten Sie Skype for Business der Hybrid-Edgedatenverkehr an das Internet und nicht an ExpressRoute für die Kommunikation mit externen Benutzern und die Kommunikation mit anderen Mandanten geroutet wird.
 
 Um asymmetrische Flüsse zu vermeiden, muss das Erneute Routing in beide Richtungen gehen. Mit anderen Worten: Eine Adresse innerhalb des Kundennetzwerks kann basierend auf der Optimierung entweder über das Internet oder über ExpressRoute routingfähig sein, jedoch nicht über beides.
 
 
-**Kundennetzwerk zu externem Benutzer (Medien, die von einem transport relay Teams werden):**
+**Kundennetzwerk zu externem Benutzer (Medien, die von einem Transport relay Teams werden):**
 
 [![Microsoft Teams Onlineanrufflüsse Abbildung 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
@@ -490,10 +490,10 @@ Um asymmetrische Flüsse zu vermeiden, muss das Erneute Routing in beide Richtun
 
 1. Teams Der Benutzer innerhalb des Kundennetzwerks löst den URL-Domänennamen (DNS) mithilfe von Flow2 auf.
 1. Teams Benutzer innerhalb eines Kundennetzwerks weisen einen Media Relay-Port auf Teams Transport Relay mithilfe von Flow 1 zu.
-1. Teams Ein Benutzer innerhalb eines Kundennetzwerks sendet "Einladung" mit ICE-Kandidaten, die Flow 1 verwenden, Microsoft 365 oder Office 365.
-1. Microsoft 365 oder Office 365 Benachrichtigung an externe Benutzer Teams mithilfe von Flow 3 gesendet.
-1. Teams externe Benutzer weisen über Flow 3 einen Media Relay-Port Teams Transport Relay zu.
-1. Teams externe Benutzer senden "Antwort" mit ICE-Kandidaten mithilfe von Flow 3, der mithilfe von 1 an Teams A zurück weitergeleitet wird Flow 1.
+1. Teams Benutzer innerhalb eines Kundennetzwerks senden "Einladung" mit ICE-Kandidaten, die Flow 1 verwenden, Microsoft 365 oder Office 365.
+1. Microsoft 365 oder Office 365 Benachrichtigung mithilfe von Flow 3 an Teams externe Benutzer gesendet.
+1. Teams externe Benutzer weisen mithilfe von Flow 3 einen Media Relay-Port Teams Transport Relay zu.
+1. Teams externe Benutzer senden "Antwort" mit ICE-Kandidaten mithilfe von Flow 3, der mithilfe von 1 zurück an Teams A weitergeleitet wird Flow 1.
 1. Teams Benutzer A und Teams Benutzer B rufen ICE-Verbindungstests auf und wählen die Flüsse 1 und 3 aus, die von einem Transport relay Teams werden.
 1. Teams Benutzer senden Telemetrie Microsoft 365 Daten Office 365 Datenströme 1 und 3.
 

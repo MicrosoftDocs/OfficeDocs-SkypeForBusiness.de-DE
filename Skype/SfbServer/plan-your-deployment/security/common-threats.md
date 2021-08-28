@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Da es sich bei Skype for Business Server um ein Kommunikationssystem der Unternehmensklasse handelt, sollten Sie allgemeine Sicherheitsangriffe kennen, die sich auf die Infrastruktur und Kommunikation auswirken können.
-ms.openlocfilehash: 20f8ee917141d56ef1d775afe9868b0f4bb68d5e2aa016487528c8a39bb1ab4d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297092"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629509"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Allgemeine Sicherheitsbedrohungen im modernen Computing
  
@@ -35,7 +35,7 @@ Ein Schlüssel ist ein geheimer Code oder eine geheime Nummer zur Verschlüsselu
     
 Ein Angriff mit kompromittierten Schlüsseln liegt vor, wenn der Angreifer den privaten Schlüssel oder den Sitzungsschlüssel ermittelt. Gelingt dem Angreifer die Ermittlung des Schlüssels, kann er den Schlüssel zum Entschlüsseln verschlüsselter Daten ohne Wissen des Absenders verwenden.
   
-Skype for Business Server verwendet die PKI-Features im Betriebssystem Windows Server, um die Schlüsseldaten zu schützen, die für die Verschlüsselung für TLS-Verbindungen (Transport Layer Security) verwendet werden. Die für die Medienverschlüsselung verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
+Skype for Business Server verwendet die PKI-Features im Betriebssystem Windows Server, um die Schlüsseldaten zu schützen, die für die Verschlüsselung der TLS-Verbindungen (Transport Layer Security) verwendet werden. Die für die Medienverschlüsselung verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht.
   
 ## <a name="network-denial-of-service-attack"></a>Denial-of-Service-Angriff auf das Netzwerk
 
@@ -59,7 +59,7 @@ Das TURN-Protokoll (Traversal Using Relay NAT) schreibt nicht vor, dass der Date
   
 ## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Identitätsspoofing (IP-Adresse und Spoofing der Anrufer-ID)
 
-Identitätsspoofing tritt auf, wenn der Angreifer eine Telefonnummer eines gültigen Benutzers (Anrufer-ID) oder eine IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermittelt und verwendet, ohne dazu autorisiert zu sein. Ein erfolgreicher Angriff ermöglicht es dem Angreifer, so zu arbeiten, als wäre der Angreifer die Entität, die normalerweise durch die Telefonnummer (Anrufer-ID) oder die IP-Adresse identifiziert wird.
+Identitätsspoofing tritt auf, wenn der Angreifer eine Telefonnummer eines gültigen Benutzers (Anrufer-ID) oder eine IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermittelt und verwendet, ohne dafür autorisiert zu sein. Ein erfolgreicher Angriff ermöglicht es dem Angreifer, so zu arbeiten, als wäre der Angreifer die Entität, die normalerweise durch die Telefonnummer (Anrufer-ID) oder die IP-Adresse identifiziert wird.
 
 Im Kontext von Skype for Business Server kommt IP-Adressspoofing nur ins Spiel, wenn ein Administrator die folgenden beiden Aktionen ausgeführt hat:
   
@@ -69,7 +69,7 @@ Im Kontext von Skype for Business Server kommt IP-Adressspoofing nur ins Spiel, 
     
 Dies ist weniger ein Problem für TLS-Verbindungen (Transport Layer Security), da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert, dass ein Angreifer IP-Adressspoofing für eine bestimmte Verbindung durchführt (z. B. gegenseitige TLS-Verbindungen). Ein Angreifer könnte jedoch weiterhin die Adresse des DNS-Servers spoofen, der Skype for Business Server verwendet. Da die Authentifizierung in Skype for Business jedoch mit Zertifikaten durchgeführt wird, verfügt ein Angreifer nicht über ein gültiges Zertifikat, das zum Spoofing einer der Parteien in der Kommunikation erforderlich ist.
 
-Andererseits kommt das Spoofing von Anrufer-IDs ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, einem PSTN-Gateway oder einer anderen Nebenstellenanlage und Skype for Business Server eingerichtet haben. In diesen Fällen bietet Skype for Business Server keinen Schutz, um Spoofing von Anrufer-IDs zu verhindern. Dies bedeutet, dass ein Skype for Business Benutzer einen Anruf vom SIP-Trunk mit einer gefälschten Anrufer-ID empfangen kann, die die Telefonnummer oder den Anzeigenamen eines anderen Skype for Business Benutzers anzeigt (wenn eine umgekehrte Nummernsuche gilt). Der Schutz hierfür sollte auf anbieterseitigem PSTN- oder PBX-Gateway angewendet werden.
+Andererseits kommt das Spoofing von Anrufer-IDs ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, einem PSTN-Gateway oder einem anderen Nebenstellensystem und Skype for Business Server eingerichtet haben. In diesen Fällen bietet Skype for Business Server keinen Schutz, um Spoofing von Anrufer-IDs zu verhindern. Dies bedeutet, dass ein Skype for Business Benutzer einen Anruf vom SIP-Trunk mit einer gefälschten Anrufer-ID empfangen kann, die die Telefonnummer oder den Anzeigenamen eines anderen Skype for Business Benutzers anzeigt (wenn eine umgekehrte Nummernsuche zutrifft). Der Schutz hierfür sollte auf anbieterseitigem PSTN- oder PBX-Gateway angewendet werden.
   
 ## <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
@@ -91,7 +91,7 @@ Ein Virus ist eine Codeeinheit, deren Zweck darin besteht, zusätzliche, ähnlic
 
 Skype for Business Server hat das Potenzial, Informationen über ein öffentliches Netzwerk offenzulegen, die möglicherweise mit einer Einzelperson verknüpft werden können. Bei diesen Informationen kann es sich um zwei Kategorien von Angaben handeln:
   
-- **Erweiterte Anwesenheitsdaten** Erweiterte Anwesenheitsdaten sind Informationen, die ein Benutzer über einen Link zu einem Verbundpartner oder mit Kontakten innerhalb einer Organisation freigeben oder nicht freigeben kann. Diese Daten werden nicht für Benutzer in einem öffentlichen Chatnetzwerk freigegeben. Clientrichtlinien und andere Clientkonfigurationen können dem Systemadministrator eine gewisse Kontrolle geben. In Skype for Business Server kann der erweiterte Anwesenheitsdatenschutzmodus für einen einzelnen Benutzer konfiguriert werden, um zu verhindern, dass Skype for Business Benutzer, die sich nicht in der Kontaktliste des Benutzers befinden, die Anwesenheitsinformationen des Benutzers sehen. Der erweiterte Datenschutzmodus für Anwesenheitsinformationen verhindert nicht, dass Benutzer von Microsoft Office Communicator 2007 und Microsoft Office Communicator 2007 R2 die Anwesenheitsinformationen eines Benutzers sehen. Ausführliche Informationen zum Bereitstellen des Clients und der Anwesenheit finden Sie unter [Bereitstellen von Clients für Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md) und Planen der [Chat- und Anwesenheitsinformationen in Skype for Business Server.](../../plan-your-deployment/instant-messaging-and-presence.md)
+- **Erweiterte Anwesenheitsdaten** Erweiterte Anwesenheitsdaten sind Informationen, die ein Benutzer über einen Link zu einem Verbundpartner oder mit Kontakten innerhalb einer Organisation freigeben oder nicht freigeben kann. Diese Daten werden nicht für Benutzer in einem öffentlichen Chatnetzwerk freigegeben. Clientrichtlinien und andere Clientkonfigurationen können dem Systemadministrator eine gewisse Kontrolle geben. In Skype for Business Server kann der erweiterte Anwesenheitsdatenschutzmodus für einen einzelnen Benutzer konfiguriert werden, um zu verhindern, dass Skype for Business Benutzer, die sich nicht in der Kontaktliste des Benutzers befinden, die Anwesenheitsinformationen des Benutzers sehen. Der erweiterte Datenschutzmodus für Anwesenheitsinformationen verhindert nicht, dass Benutzer von Microsoft Office Communicator 2007 und Microsoft Office Communicator 2007 R2 die Anwesenheitsinformationen eines Benutzers sehen. Ausführliche Informationen zum Bereitstellen des Clients und der Anwesenheit finden Sie unter [Bereitstellen von Clients für Skype for Business Server](../../deploy/deploy-clients/deploy-clients.md) und Planen von [Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server.](../../plan-your-deployment/instant-messaging-and-presence.md)
     
 - **Obligatorische Daten** Obligatorische Daten sind für den ordnungsgemäßen Betrieb des Servers oder des Clients erforderlich und unterliegen NICHT der Kontrolle des Clients oder der Systemverwaltung. Es handelt sich um Informationen, die auf Server- oder Netzwerkebene für das Routing, die Statuspflege und die Signalübermittlung erforderlich sind.
     

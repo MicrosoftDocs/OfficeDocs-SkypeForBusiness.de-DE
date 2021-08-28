@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Microsoft gibt den Dienst Exchange Unified Messaging Online (ExchUMO) bis zum 28. Februar 2020 zurück. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen und tun sollten, um ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: 933ba625506496c01242b26712e9b6d5b020dbb199c5f515444f7a8734fb84b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Microsoft gibt den dienst Exchange Unified Messaging Online (ExchUMO) bis zum 28. Februar 2020 zurück. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen und tun sollten, um ihre Geschäftskontinuität zu planen.
+ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279593"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606824"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
 
@@ -25,7 +25,7 @@ ms.locfileid: "54279593"
 
 In Bezug auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) vom 8. Februar 2019 gibt Microsoft den Dienst Exchange Unified Messaging Online (ExchUMO) bis zum 28. Februar 2020 zurück. Dieser Artikel enthält eine Zusammenfassung dessen, was betroffene Kunden wissen und tun sollten, um ihre Geschäftskontinuität zu planen.
 
-ExchUMO wird von Kunden für Voicemail, automatische Telefonzentrale, Anrufwarteschleife und Faxintegrationsdienste bereitgestellt. Microsoft plant, Kunden bei der Migration zu Telefonsystem Diensten zu unterstützen, die bereits Tausende von Kunden auf Skype for Business Online- und Microsoft Teams unterstützen.
+ExchUMO wird von Kunden für Voicemail, automatische Telefonzentrale, Anrufwarteschleife und Faxintegrationsdienste bereitgestellt. Microsoft plant, Kunden bei der Migration zu Telefonsystem Diensten zu unterstützen, die bereits Tausende von Kunden auf Skype for Business Online und Microsoft Teams unterstützen.
 
 Voicemail ist in erster Linie eine von Microsoft gesteuerte Migration; Die Administratorbeteiligung und/oder -investition kann für eine Teilmenge der Kunden erforderlich sein. Die automatische Telefonzentrale ist eine vom Administrator gesteuerte Migration. Sie müssen die vorhandenen Strukturen der automatischen ExchUMO-Telefonzentrale im Cloud-Clouddienst für automatische Telefonzentralen neu erstellen. Kunden, die eine der ExchUMO-Features mit einer Pbx eines Drittanbieters nutzen, werden nicht zu Skype Clouddiensten migriert, da sie keine PbX-Systeme von Drittanbietern unterstützen. In [diesem Blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)wurde ein Einstellungsplan für Drittanbieterunterstützung angekündigt, und Kunden in diesem Bereitstellungsmodell können ihre Benutzer zu einer der Unified Communications-Plattformen/-Dienste von Microsoft migrieren oder eine Voicemail- und/oder automatische Telefonzentralenlösung von Drittanbietern für diese Benutzer erwerben. Die Faxintegration wird in den cloudbasierten Diensten nicht unterstützt. Kunden müssen zu einer Drittanbieterlösung migrieren.
 
@@ -39,7 +39,7 @@ Kunden, die eines der folgenden Features des Exchange Unified Messaging Online-D
 - Faxintegration
 
 > [!Note]
-> Kunden, die einen der Exchange Server lokal mit Unified Messaging verwenden, sind davon nicht betroffen.
+> Kunden, die eines der Exchange Server lokal mit Unified Messaging verwenden, sind davon nicht betroffen.
 
 Erfahren Sie mehr über die Auswirkungen auf die Benutzer- und Administratorumgebung in [Bezug auf die Auswirkungen auf die Benutzererfahrung.](#user-experience-impact)
 
@@ -94,19 +94,19 @@ Sie können sich für eine geplante Migration des Voicemaildiensts zu CVM entsch
 - Featurematrix für ExchUMO- und Azure-Clouddienste
 - Auswirkungen auf die Benutzererfahrung
 
-Wenn Sie eine verwaltete Migration auswählen, erhalten Sie keine 30-tägige Benachrichtigung vor der Migration im Nachrichtencenter Microsoft 365 Admin Portal.
+Wenn Sie eine verwaltete Migration auswählen, erhalten Sie keine 30-tage-Benachrichtigung vor der Migration im Nachrichtencenter Microsoft 365 Admin Portal.
 
 Um sich für eine geplante Migration zu entscheiden, senden Sie eine E-Mail-Anforderung von der E-Mail-Adresse Ihres Administrators an [cvm@microsoft.com](mailto:cvm@microsoft.com) mit den folgenden Informationen:
 
 - Bevorzugtes Datum (Dienstag): Migrationsströme werden jeden Dienstag ausgeführt. Wählen Sie ein Datum an einem Dienstag aus, das nicht über den 3.12.2019 hinausgeht.
  
-- Mandanten-ID: 32 Zeichen in diesem Format 0046728c-688a-4472-a38f-098fec60ac6x. Sie finden Ihre Mandanten-ID im Microsoft 365-Verwaltungsportal unter Azure AD oder mit dem folgenden PowerShell-Cmdlet:`Get-CsTenant | Select ObjectId`
+- Mandanten-ID: 32 Zeichen in diesem Format 0046728c-688a-4472-a38f-098fec60ac6x. Sie finden Ihre Mandanten-ID im Microsoft 365 Verwaltungsportal unter Azure AD oder mit dem folgenden PowerShell-Cmdlet:`Get-CsTenant | Select ObjectId`
 
 Sie erhalten eine E-Mail-Bestätigung, sobald Ihr Mandant erfolgreich migriert wurde.
 
 ## <a name="auto-attendant-migration-guidelines"></a>Migrationsrichtlinien für automatische Telefonzentralen
 
-Microsoft 365 und Office 365 Organisationsadministratoren müssen ihre Exchange automatischen UM Online-Telefonzentralen im Microsoft Cloud Auto Attendant-Dienst neu erstellen und ihre lokalen Telefonnummern vor dem Einstellungsdatum des Exchange UMO-Diensts vom 28. Februar 2020 auf sie umstellen. Dies ist die empfohlene Richtlinie, um neue automatische Cloudtelefonzentralen erfolgreich zu migrieren und zu testen. Wenn Sie über eine große Anzahl von automatischen Telefonzentralen verfügen, können Sie die [Skripts Exchange automatische UM-Telefonzentrale zur Migration](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatischer Telefonzentralen in die Cloud verwenden, um die Massenmigration automatischer Telefonzentralen zu vereinfachen.
+Microsoft 365 und Office 365 Organisationsadministratoren müssen ihre Exchange automatischen UM Online-Telefonzentralen im Microsoft Cloud Auto Attendant-Dienst neu erstellen und ihre lokalen Telefonnummern vor dem Einstellungsdatum des Exchange UMO-Diensts vom 28. Februar 2020 auf sie umstellen. Dies ist die empfohlene Richtlinie, um neue automatische Cloudtelefonzentralen erfolgreich zu migrieren und zu testen. Wenn Sie über eine große Anzahl automatischer Telefonzentralen verfügen, können Sie die Skripts Exchange automatische [UM-Telefonzentrale zur Migration](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automatischer Telefonzentralen in die Cloud verwenden, um die Massenmigration automatischer Telefonzentralen zu vereinfachen.
 
 ### <a name="auto-attendant-setup"></a>Einrichten der automatischen Telefonzentrale
 
@@ -131,73 +131,73 @@ Es wird dringend empfohlen, die Einrichtung Ihrer neuen automatischen Telefonzen
 
 | Dienst | Featureebene | Feature | Anmerkungen  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| Vm  | Dienstfeatures| Unterstützen von Nebenstellenanlagen von Drittanbietern    | Einschließen aller Funktionen, die für Nebenstellenanlagen von Drittanbietern bereitgestellt werden, z. B. MWI (Message Waiting Indicator) mit SIP-Benachrichtigungsnachrichten von Exchange UM Online | N   | J    |
-| Vm | Dienstfeatures  | Support Skype for Business Server   |  | v | v    |
-| Vm | Dienstfeatures | Support Microsoft Teams|  | J | N    |
-| Vm | Dienstfeatures | eDiscovery und Aufbewahrung  | Für Sicherheit und Compliance  | v | v    |
-| Vm | Dienstfeatures | Exchange Unterstützung von Regeln | Für Sicherheit und Compliance  | v | v    |
-| Vm | Benutzerfeatures | PSTN-Einwahlzugriff  | Abonnentenzugriff  | N | J    |
-| Vm | Benutzerfeatures | Stellvertretung  | Verpasste Anruf-E-Mail  | N | J    |
-| Vm | Benutzerfeatures | PSTN-Outlook VoIP-Zugriff   | Abonnentenzugriff  | N | J    |
-| Vm | Benutzerfeatures | Einwahl mithilfe eines authentifizierten Endpunkts | Anrufen des Voicemaildiensts zum Abhören von Sprachnachrichten und Ändern von Voicemaileinstellungen| v | v    |
-| Vm | Benutzerfeatures | Benutzereinstellung zum Deaktivieren von Voicemail   |  | v | v    |
-| Vm | Benutzerfeatures | Benutzereinstellung zum Ändern der persönlichen Begrüßung  |  | v | v    |
-| Vm | Benutzerfeatures | Benutzereinstellung zum Erstellen einer OOF-Begrüßung  |  | v | v    |
-| Vm | Benutzerfeatures | Benutzereinstellung zum Ändern der Standardsprache  |  | v | v    |
-| Vm | Benutzerfeatures | Benutzereinstellung zum Überschreiben der Standardbegrüßung mit TTS  |  | J | N    |
-| Vm | Benutzerfeatures | Aufzeichnen persönlicher Begrüßungen (authentifiziertes Gerät) |  | v | v    |
-| Vm | Benutzerfeatures | Aufzeichnen von persönlichen Begrüßungen (PSTN) – Wiedergabe auf dem Telefon |  | N | J    |
-| Vm | Benutzerfeatures | Benutzereinstellung zum Deaktivieren der Transkription |  | N | J    |
-| Vm | Benutzerfeatures | Transkription  |  | v | v    |
-| Vm | Benutzerfeatures | MWI (Message Waiting Indicator) mit SIP-Benachrichtigungsnachrichten |  | N | J    |
-| Vm | Benutzerfeatures | MP3-Audiodateiformat in Outlook    |  | v | v    |
-| Vm | Benutzerfeatures | Steuerung der Wiedergabe mit variabler Geschwindigkeit |  | v | v    |
-| Vm | Benutzerfeatures | Weiterleiten einer Voicemail  | Weiterleiten einer empfangenen Voicemail an andere Benutzer | v | v    |
-| Vm | Benutzerfeatures | Senden einer Sprachnachricht an eine Gruppe von Benutzern  |Voicemailübertragung   | N | J   |
-| Vm | Benutzerfeatures | Voicemailbenachrichtigung per SMS    | Benutzer können eine SMS empfangen, wenn sie über eine neue Voicemail verfügen    | N | J    |
-| Vm | Benutzerfeatures | Unterstützte Begrüßungssprachen | Details finden Sie hier: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
-| Vm | Benutzerfeatures | Mailboxansageregeln |  | v | v    |
-| Vm | Benutzerfeatures | Wiedergeben auf dem Telefon (PSTN) – Zum Wiedergeben von Nachrichten | Rufen Sie mich in meiner Zelle auf, um die Sprachnachricht zu hören.  | N | J    |
-| Vm | Benutzerfeatures | Wiedergabe auf dem Telefon (Auth) – zum Wiedergeben von Nachrichten | Rufen Sie mich auf meinem authentifizierten Gerät auf  | N | J    |
-| Vm | Benutzerfeatures | Freigegebenes Postfach zwischen mehreren Benutzern |  | v | v    |
-| Vm | Anruferfeatures  | Anrufererfahrung – geschützte Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als geschützt zu kennzeichnen.| N | J    |
-| Vm | Anruferfeatures  | Anrufererfahrung – private Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als privat zu kennzeichnen.  | N | J    |
-| Vm | Anruferfeatures  | Stille erkennung   |  | N | J    |
-| Vm | features Tenant-Admin | Geschützte Voicemail auf Serverebene    | Mandantenadministratoren können eine Regel auf Dienstebene konfigurieren, um eingehende Voicemail als geschützt zu kennzeichnen. | v | v    |
-| Vm | features Tenant-Admin | Ändern des Zeitlimits für die Aufzeichnungsdauer  |     | v | v    |
-| Vm | features Tenant-Admin | Timeout für die Stilleerkennung ändern    |  | Nicht zutreffend    | J    |
-| Vm | features Tenant-Admin | Ändern der Anzahl von Eingabefehlern | CVM: hartcodiert auf 3 | N | J    |
-| Vm | features Tenant-Admin | Ändern der Standardsprache |  | v | v    |
-| Vm | features Tenant-Admin | Deaktivieren/Aktivieren der Transkription |  | v | v    |
-| Vm | features Tenant-Admin | Deaktivieren/Aktivieren einer Benachrichtigung über verpasste Anrufe |  | N | J    |
-| Vm | features Tenant-Admin | Helfen Sie Microsoft bei der Verbesserung der Voicemailvorschau    |  | v | v    |
-| Vm | features Tenant-Admin | Anpassen der Textnachricht für aktivierte Benutzer|  | Nicht zutreffend    | J    |
-| Vm | features Tenant-Admin | Profanitätsmaske für Transkription|  | J | N    |
-| Vm | features Tenant-Admin | Voicemailrichtlinie    |   | v | v    |
-| Vm | features Tenant-Admin | Webportalverwaltung   |  | CY19   | J    |
-| Vm | features Tenant-Admin | PowerShell   |  | v | v    |
+| VM  | Dienstfeatures| Unterstützen von Nebenstellenanlagen von Drittanbietern    | Einschließen aller Funktionen, die für Nebenstellenanlagen von Drittanbietern bereitgestellt werden, z. B. MWI (Message Waiting Indicator) mit SIP-Benachrichtigungsnachrichten von Exchange UM Online | N   | J    |
+| VM | Dienstfeatures  | Support Skype for Business Server   |  | v | v    |
+| VM | Dienstfeatures | Support Microsoft Teams|  | J | N    |
+| VM | Dienstfeatures | eDiscovery und Aufbewahrung  | Für Sicherheit und Compliance  | v | v    |
+| VM | Dienstfeatures | Exchange Unterstützung von Regeln | Für Sicherheit und Compliance  | v | v    |
+| VM | Benutzerfeatures | PSTN-Einwahlzugriff  | Abonnentenzugriff  | N | J    |
+| VM | Benutzerfeatures | Stellvertretung  | Verpasste Anruf-E-Mail  | N | J    |
+| VM | Benutzerfeatures | PSTN-Outlook VoIP-Zugriff   | Abonnentenzugriff  | N | J    |
+| VM | Benutzerfeatures | Einwahl mithilfe eines authentifizierten Endpunkts | Anrufen des Voicemaildiensts zum Abhören von Sprachnachrichten und Ändern von Voicemaileinstellungen| v | v    |
+| VM | Benutzerfeatures | Benutzereinstellung zum Deaktivieren von Voicemail   |  | v | v    |
+| VM | Benutzerfeatures | Benutzereinstellung zum Ändern der persönlichen Begrüßung  |  | v | v    |
+| VM | Benutzerfeatures | Benutzereinstellung zum Erstellen einer OOF-Begrüßung  |  | v | v    |
+| VM | Benutzerfeatures | Benutzereinstellung zum Ändern der Standardsprache  |  | v | v    |
+| VM | Benutzerfeatures | Benutzereinstellung zum Überschreiben der Standardbegrüßung mit TTS  |  | J | N    |
+| VM | Benutzerfeatures | Aufzeichnen persönlicher Begrüßungen (authentifiziertes Gerät) |  | v | v    |
+| VM | Benutzerfeatures | Aufzeichnen von persönlichen Begrüßungen (PSTN) – Wiedergabe auf dem Telefon |  | N | J    |
+| VM | Benutzerfeatures | Benutzereinstellung zum Deaktivieren der Transkription |  | N | J    |
+| VM | Benutzerfeatures | Transkription  |  | v | v    |
+| VM | Benutzerfeatures | MWI (Message Waiting Indicator) mit SIP-Benachrichtigungsnachrichten |  | N | J    |
+| VM | Benutzerfeatures | MP3-Audiodateiformat in Outlook    |  | v | v    |
+| VM | Benutzerfeatures | Steuerung der Wiedergabe mit variabler Geschwindigkeit |  | v | v    |
+| VM | Benutzerfeatures | Weiterleiten einer Voicemail  | Weiterleiten einer empfangenen Voicemail an andere Benutzer | v | v    |
+| VM | Benutzerfeatures | Senden einer Sprachnachricht an eine Gruppe von Benutzern  |Voicemailübertragung   | N | J   |
+| VM | Benutzerfeatures | Voicemailbenachrichtigung per SMS    | Benutzer können eine SMS empfangen, wenn sie über eine neue Voicemail verfügen    | N | J    |
+| VM | Benutzerfeatures | Unterstützte Begrüßungssprachen | Details finden Sie hier: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| VM | Benutzerfeatures | Mailboxansageregeln |  | v | v    |
+| VM | Benutzerfeatures | Wiedergeben auf dem Telefon (PSTN) – Zum Wiedergeben von Nachrichten | Rufen Sie mich in meiner Zelle auf, um die Sprachnachricht zu hören.  | N | J    |
+| VM | Benutzerfeatures | Wiedergabe auf dem Telefon (Auth) – zum Wiedergeben von Nachrichten | Rufen Sie mich auf meinem authentifizierten Gerät auf  | N | J    |
+| VM | Benutzerfeatures | Freigegebenes Postfach zwischen mehreren Benutzern |  | v | v    |
+| VM | Anruferfeatures  | Anrufererfahrung – geschützte Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als geschützt zu kennzeichnen.| N | J    |
+| VM | Anruferfeatures  | Anrufererfahrung – private Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als privat zu kennzeichnen.  | N | J    |
+| VM | Anruferfeatures  | Stille erkennung   |  | N | J    |
+| VM | features Tenant-Admin | Geschützte Voicemail auf Serverebene    | Mandantenadministratoren können eine Regel auf Dienstebene konfigurieren, um eingehende Voicemail als geschützt zu kennzeichnen. | v | v    |
+| VM | features Tenant-Admin | Ändern des Zeitlimits für die Aufzeichnungsdauer  |     | v | v    |
+| VM | features Tenant-Admin | Timeout für die Stilleerkennung ändern    |  | Nicht zutreffend    | J    |
+| VM | features Tenant-Admin | Ändern der Anzahl von Eingabefehlern | CVM: hartcodiert auf 3 | N | J    |
+| VM | features Tenant-Admin | Ändern der Standardsprache |  | v | v    |
+| VM | features Tenant-Admin | Deaktivieren/Aktivieren der Transkription |  | v | v    |
+| VM | features Tenant-Admin | Deaktivieren/Aktivieren einer Benachrichtigung über verpasste Anrufe |  | N | J    |
+| VM | features Tenant-Admin | Helfen Sie Microsoft bei der Verbesserung der Voicemailvorschau    |  | v | v    |
+| VM | features Tenant-Admin | Anpassen der Textnachricht für aktivierte Benutzer|  | Nicht zutreffend    | J    |
+| VM | features Tenant-Admin | Profanitätsmaske für Transkription|  | J | N    |
+| VM | features Tenant-Admin | Voicemailrichtlinie    |   | v | v    |
+| VM | features Tenant-Admin | Webportalverwaltung   |  | CY19   | J    |
+| VM | features Tenant-Admin | PowerShell   |  | v | v    |
 | UM | Benutzerfeatures | Nachrichtenwarteindikator (Message Waiting Indicator, MWI) auf Skype for Business zertifizierten Telefonen   |Kann vom Telefonpartner bereitgestellt werden  | Nein | Ja    |
-| Aa | Dienstfeatures | AA-Unterstützung für Nebenstellenanlagen von Drittanbietern    |  | N | J    |
-| Aa | Dienstfeatures | Support Skype for Business Server   |  | v | v    |
-| Aa | Dienstfeatures | Support Microsoft Teams|  | J | N    |
-| Aa | Dienstfeatures | Wählen nach Name, DTMF-Eingabe    |  | v | v    |
-| Aa | Dienstfeatures | Wählen nach Name, Spracheingabe  |  | v | v    |
-| Aa | Dienstfeatures | Unterstützung für mehrere Sprachen | Sprachdetails hier: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
-| Aa | Dienstfeatures | Übertragung an operator, CQ oder einen Benutzer |  | v | v    |
-| Aa | Dienstfeatures | Interne Übertragung auf PSTN-Nummer (DID RNL)  |  | v | v    |
-| Aa | Dienstfeatures | Externe Übertragung an PSTN-Nummer  |  | Lesen Sie den Abschnitt "Bekannte Probleme" weiter unten. | J    |
-| Aa | Dienstfeatures | Geschäftszeiten |  | v | v    |
-| Aa | Dienstfeatures | Menüoptionen | IVR-Menüoptionen  | v | v    |
-| Aa | Dienstfeatures | Zuweisen einer Cloud-PSTN-Nummer zu AA |  | J | N    |
-| Aa | Dienstfeatures | Zuweisen einer lokalen PSTN-Nummer zu AA  |  | v | v    |
-| Aa | Dienstfeatures | Benutzerdefinierte Benutzerauswahl  | Ermöglichen, dass Anrufer eine angepasste Liste von Organisationsbenutzern erreichen| v | v    |
-| Aa | Dienstfeatures | Behandlung nach Feierabend und Feiertagen  |  | v | v    |
-| Aa | Dienstfeatures | Benutzerdefinierte Begrüßung mit Text-zu-Sprache  |  | v | v    |
-| Aa | Dienstfeatures | Durchwahl wählen   | Erreichen eines Benutzers durch Wählen seiner Erweiterung  | v   | v    |
-| Aa | Dienstfeatures | Postfach für AA-Aufrufer, um eine Nachricht zu hinterlassen    |  | v   | v    |
-| Aa | Dienstfeatures | Mehrere PSTN-Nummernzuweisungen zu einem AA|  | v | v    |
-| Aa | features Tenant-Admin | Webportalverwaltung   |  | J | N    |
-| Aa | features Tenant-Admin | PowerShell-Cmdlets  |  | v | v    |
+| AA | Dienstfeatures | AA-Unterstützung für Nebenstellenanlagen von Drittanbietern    |  | N | J    |
+| AA | Dienstfeatures | Support Skype for Business Server   |  | v | v    |
+| AA | Dienstfeatures | Support Microsoft Teams|  | J | N    |
+| AA | Dienstfeatures | Wählen nach Name, DTMF-Eingabe    |  | v | v    |
+| AA | Dienstfeatures | Wählen nach Name, Spracheingabe  |  | v | v    |
+| AA | Dienstfeatures | Unterstützung für mehrere Sprachen | Sprachdetails hier: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| AA | Dienstfeatures | Übertragung an operator, CQ oder einen Benutzer |  | v | v    |
+| AA | Dienstfeatures | Interne Übertragung auf PSTN-Nummer (DID RNL)  |  | v | v    |
+| AA | Dienstfeatures | Externe Übertragung an PSTN-Nummer  |  | Lesen Sie den Abschnitt "Bekannte Probleme" weiter unten. | J    |
+| AA | Dienstfeatures | Geschäftszeiten |  | v | v    |
+| AA | Dienstfeatures | Menüoptionen | IVR-Menüoptionen  | v | v    |
+| AA | Dienstfeatures | Zuweisen einer Cloud-PSTN-Nummer zu AA |  | J | N    |
+| AA | Dienstfeatures | Zuweisen einer lokalen PSTN-Nummer zu AA  |  | v | v    |
+| AA | Dienstfeatures | Benutzerdefinierte Benutzerauswahl  | Ermöglichen, dass Anrufer eine angepasste Liste von Organisationsbenutzern erreichen| v | v    |
+| AA | Dienstfeatures | Behandlung nach Feierabend und Feiertagen  |  | v | v    |
+| AA | Dienstfeatures | Benutzerdefinierte Begrüßung mit Text-zu-Sprache  |  | v | v    |
+| AA | Dienstfeatures | Durchwahl wählen   | Erreichen eines Benutzers durch Wählen seiner Erweiterung  | v   | v    |
+| AA | Dienstfeatures | Postfach für AA-Aufrufer, um eine Nachricht zu hinterlassen    |  | v   | v    |
+| AA | Dienstfeatures | Mehrere PSTN-Nummernzuweisungen zu einem AA|  | v | v    |
+| AA | features Tenant-Admin | Webportalverwaltung   |  | J | N    |
+| AA | features Tenant-Admin | PowerShell-Cmdlets  |  | v | v    |
 | Fax| Dienstfeatures | Faxintegration|  | N | J    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Vorgeschlagener Testplan und Überprüfung nach der Migration für Administratoren
@@ -208,7 +208,7 @@ Um zu überprüfen, ob Ihre Benutzer zu Cloud-Voicemail migriert wurden, überla
 
 Berücksichtigen Sie beim Testen der Voicemailfunktionalität nach der Migration Ihrer Benutzer die folgenden Szenarien:
 
-- Überprüfen des Voicemailzugriffs über alle Endpunkttypen in Ihrer Organisation, z. B. Apps und IP-Telefone.
+- Überprüfen des Voicemailzugriffs auf alle Endpunkttypen in Ihrer Organisation, z. B. Apps und IP-Telefone.
 - Überprüfen Sie mit Beispielbenutzern, ob die konfigurierten personalisierten Begrüßungen für Anrufer wiedergegeben werden.
 - Wenn Ihre Organisation eine gesetzliche oder Compliance-Anforderung zum Deaktivieren der Transkription für Benutzer hat, stellen Sie sicher, dass sie nach der Migration deaktiviert ist. Weitere Informationen finden Sie unter [Einrichten Cloud-Voicemail](/microsoftteams/set-up-phone-system-voicemail).
 - Wenn Sie zuvor Exchange VM-Richtlinien und -Regeln konfiguriert haben, stellen Sie sicher, dass diese effektiv sind.
@@ -242,7 +242,7 @@ Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Einric
 
 #### <a name="greeting-inconsistencies"></a>Begrüßungsinkonsistenzen
 
-Der Abonnentenzugriff funktioniert möglicherweise weiterhin für Ihren Mandanten, bis der Dienst vollständig eingestellt wurde, auch nachdem alle Benutzer zu Cloud-Voicemail migriert wurden. Um Benutzerkonsistenz und eine inkonsistente Erfahrung zu vermeiden, deaktivieren Sie den Abonnentenzugriff, da sich die Begrüßungen nach der Migration ändern. Entfernen Sie dazu den EXUM-Kontakt für jede Teilnehmerzugriffszeile mit `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` .
+Der Abonnentenzugriff funktioniert möglicherweise weiterhin für Ihren Mandanten, bis der Dienst vollständig eingestellt ist, auch nachdem alle Ihre Benutzer zu Cloud-Voicemail migriert wurden. Um Benutzerkonsistenz und eine inkonsistente Erfahrung zu vermeiden, deaktivieren Sie den Abonnentenzugriff, da sich die Begrüßungen nach der Migration ändern. Entfernen Sie dazu den EXUM-Kontakt für jede Teilnehmerzugriffszeile mit `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` .
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>Automatische Anrufweiterleitung an das Telefonfestnetz
 
@@ -254,12 +254,12 @@ Ein freigegebenes Postfach, das mit Exchange UM Online konfiguriert wurde, empf�
   
 #### <a name="username-is-not-using-skype-for-business-banner-displays"></a>Banner "Benutzername verwendet nicht Skype for Business"
 
-Der CVM-Dienst basiert auf der Microsoft Teams Infrastruktur, und Anrufe von einem Skype for Business Client können dazu führen, dass ein Informationsbanner auf dem Client angezeigt wird, der lautet: "Benutzername verwendet Skype for Business nicht. Um eine umfassendere Erfahrung zu bieten, wechseln Sie zu Teams oder starten Sie eine Skype Besprechung."
+Der CVM-Dienst basiert auf der Microsoft Teams Infrastruktur, und Anrufe von einem Skype for Business-Client können dazu führen, dass ein Informationsbanner auf dem Client angezeigt wird, der lautet: "Benutzername verwendet Skype for Business nicht. Um eine umfassendere Erfahrung zu bieten, wechseln Sie zu Teams oder starten Sie eine Skype Besprechung."
 Stellen Sie sicher, dass Sie den Skype for Business-Client Ihrer Benutzer auf das neueste C2R-Clientupdate aktualisieren, um zu verhindern, dass dieses Banner angezeigt wird.
   
 #### <a name="set-up-voice-mail-takes-you-to-owa"></a>"Einrichten von Voicemail" führt Sie zu OWA
 
-Durch Klicken auf "Einrichten von **Voicemail** vom Client" gelangen Skype for Business Server 2015/2013-Kunden nach der Migration zu CVM zur Portalseite Office Web Access (OWA). Alle Einstellungen wurden von der Registerkarte "Voicemail" in OWA entfernt, und ein Banner wird mit einem Umleitungslink angezeigt, um Benutzer zum CVM-Benutzereinstellungsportal zu bringen.
+Durch Klicken auf "Einrichten von **Voicemail** vom Client" gelangen Skype for Business Server 2015/2013-Kunden nach der Migration zu CVM weiterhin zur Portalseite Office Web Access (OWA). Alle Einstellungen wurden von der Registerkarte "Voicemail" in OWA entfernt, und ein Banner wird mit einem Umleitungslink angezeigt, um Benutzer zum CVM-Benutzereinstellungsportal zu bringen.
 
 #### <a name="changing-greeting-remotely"></a>Remote-Ändern der Begrüßung
 

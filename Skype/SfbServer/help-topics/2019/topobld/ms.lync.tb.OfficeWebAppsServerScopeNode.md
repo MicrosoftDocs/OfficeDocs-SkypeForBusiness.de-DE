@@ -1,5 +1,5 @@
 ---
-title: Office Web Apps-Server – Bereichsknoten – Erweiterung
+title: Office Web Apps-Server – Bereichsknoten – Erweiterung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,22 +11,22 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server im Topologie-Generator, um Folgendes auszuführen:'
-ms.openlocfilehash: a44646c877620445149355de983a9086ec5cbf3c21cd328451d24779077f2985
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08ea9171b7bd1d3c9585c9c8a8a291ac7c504ef5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629857"
 ---
-# <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps-Server – Bereichsknoten – Erweiterung
+# <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps-Server – Bereichsknoten – Erweiterung
  
 Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server** im Topologie-Generator, um Folgendes auszuführen:
   
-- **Neuer Office Web Apps-Server:** Startet den Assistenten zum **Definieren neuer Office Web Apps-Server,** der zum Definieren eines neuen Office Web Apps-Servers verwendet wird.
+- **Neuer Office Web Apps-Server:** Startet den Assistenten zum **Definieren eines neuen Office Web Apps-Servers** zum Definieren eines neuen Office Web Apps-Servers.
     
 Zusätzlich zur Option "Neuer Office Web Apps-Server" können Sie die folgenden allgemeinen Aufgaben ausführen:
   

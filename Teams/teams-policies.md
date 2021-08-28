@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Informationen zur Verwendung und Verwaltung von Teamrichtlinien in Ihrer Organisation, damit Sie steuern können, wozu Benutzer in Teams und Kanälen berechtigt sind.
-ms.openlocfilehash: 4f5c8e638b5166c15223f0aee0034f1b18743bcf
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: de5558fbecddff0c4437cf3205aa676d664867f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359152"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629977"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 

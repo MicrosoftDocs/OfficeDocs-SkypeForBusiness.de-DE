@@ -7,8 +7,8 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: Erfahren Sie mehr Teams Clienterfahrung und Konformität mit Koexistenzmodi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
-localization_priority: Normal
+description: Erfahren Sie Teams Clienterfahrung und Konformität mit Koexistenzmodi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,26 +20,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e49e8d7fd76bb3ecb14ad1c3d19142fbca28f978144578f42e5d106ef7c1d511
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606966"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen
 
 <a name="about-upgrade-basic"></a>
 
-Der Zweck der Skype for Business-Koexistenzmodi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) besteht in der Bereitstellung einer einfachen, vorhersagbaren Erfahrung für Endbenutzer beim Übergang von Skype for Business zu Teams.  Für eine Organisation, die zu Teams wechselt, ist der **Teams Only-Modus** das endgültige Ziel für jeden Benutzer, obwohl nicht alle Benutzer gleichzeitig Teams Nur **(oder** einem anderen Modus) zugewiesen werden müssen.  Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen jeden der Skype for Business-Koexistenzmodi verwenden, um eine vorhersehbare Kommunikation zwischen Benutzern zu gewährleisten, die nur **Teams Und** denen, die es noch nicht gibt. 
+Der Zweck der Skype for Business-Koexistenzmodi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) besteht in der Bereitstellung einer einfachen, vorhersagbaren Erfahrung für Endbenutzer, wenn Organisationen von Skype for Business zu Teams.  Für eine Organisation, die zu Teams wechselt, ist der **Teams Only-Modus** das endgültige Ziel für jeden Benutzer, obwohl nicht alle Benutzer gleichzeitig Teams Nur **(oder** einem anderen Modus) zugewiesen werden müssen.  Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen jeden der Skype for Business-Koexistenzmodi verwenden, um eine vorhersehbare Kommunikation zwischen Benutzern zu gewährleisten, die nur **Teams** und denen, die es noch nicht sind. 
 
 Wenn sich ein Benutzer in einem der Skype for Business-Modi befindet, werden alle eingehenden Chats und Anrufe an den Client des Skype for Business des Benutzers geroutet. Um Verwirrung bei Endbenutzern zu vermeiden und für ordnungsgemäßes Routing zu sorgen, werden die Anruf- und Chatfunktionen im Teams-Client deaktiviert, wenn sich ein Benutzer in einem der Skype for Business befindet. Ebenso wird die Besprechungsplanung in Teams explizit deaktiviert, wenn sich Benutzer im Modi SfBOnly oder SfBWithTeamsCollab befinden, und wird explizit aktiviert, wenn sich ein Benutzer im SfBWithTeamsCollabAndMeetings-Modus befindet.
 
 Da die Anwesenheitsanzeige einen Hinweis auf die Erreichbarkeit durch Chats und Anrufe gibt, wird die Selbstpräsenz in Teams (d. h. die Anzeige der eigenen Anwesenheit im Teams-Client im Bild des Benutzers) ebenfalls ausgeblendet. 
 
-## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Wie sich die im Client verfügbare Teams sich je nach Modus ändert
+## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>Wie sich die im Client verfügbare Teams je nach Modus ändert
 
-Die verfügbaren Funktionen in Teams vom Koexistenzmodus des Benutzers abhängig, der von TeamsUpgradePolicy festgelegt wird. In der folgenden Tabelle ist das Verhalten zusammengefasst:
+Die in einer Teams verfügbaren Funktionen hängen vom Koexistenzmodus des Benutzers ab, der von TeamsUpgradePolicy festgelegt wird. In der folgenden Tabelle ist das Verhalten zusammengefasst:
 
 |Effektiver Modus des Benutzers|Benutzererfahrung im Teams Clients|
 |---|---|
@@ -48,7 +48,7 @@ Die verfügbaren Funktionen in Teams vom Koexistenzmodus des Benutzers abhängig
 |SfBWithTeamsCollab oder SfBOnly<sup>1</sup>|Besprechungsplanung ist nicht verfügbar|
 |||
 
-Die folgenden Screenshots veranschaulichen den Unterschied **zwischen Teams oder** **Islands-Modus** und allen anderen Modi. Beachten Sie, dass die Chat- und Anrufsymbole standardmäßig im **Teams Only-** oder **Islands-Modus** (linker Screenshot) verfügbar sind, jedoch nicht in den anderen Modi (Rechtes Screenshot):
+In den folgenden Screenshots wird der Unterschied zwischen dem **Teams oder** **Islands** und allen anderen Modi veranschaulicht. Beachten Sie, dass die Chat- und Anrufsymbole  standardmäßig im **Modus Teams Nur** oder Inseln (linker Screenshot) verfügbar sind, jedoch nicht in den anderen Modi (Rechtes Screenshot):
 
 ![Nebeneinander verglichene Modi Teams](media/teams-mode-comparison.png)
 

@@ -11,27 +11,27 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: ff1dfa87d6b88cdcab46a6ea080b2aa8b61d3ba757ab922ae04f2b4b2d2aa70d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581129"
 ---
 # <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Online-Anrufpläne unterstützen jetzt das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Mit diesem Feature kann eine globale Mandantenliste mit Nummernmustern definiert werden, damit die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten auf eine Übereinstimmung hin überprüft werden kann. Wenn eine Übereinstimmung vorgenommen wird, wird ein eingehender Anruf abgelehnt.
+Skype for Business Online-Anrufpläne unterstützen jetzt das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Dieses Feature ermöglicht es, eine globale Mandantenliste mit Nummernmustern zu definieren, damit die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten auf eine Übereinstimmung hin überprüft werden kann. Wenn eine Übereinstimmung vorgenommen wird, wird ein eingehender Anruf abgelehnt.
 
 Diese Funktion zum Blockieren eingehender Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf Mandanten-global. Sie steht pro Benutzer nicht zur Verfügung.  
 
 Dieses Feature ist für Direct-Routing noch nicht verfügbar.
 
 >[!NOTE]
-> Blockierte Anrufer können ein leicht anderes Verhalten erleben, wenn sie blockiert wurden. Das Verhalten basiert darauf, wie der Netzbetreiber des blockierten Anrufers die Benachrichtigung verarbeitet, dass der Anruf nicht erfolgreich abgeschlossen werden kann. Beispiele hierfür sind eine Meldung des Netzbetreibers, die besagt, dass der Anruf nicht als gewählt abgeschlossen werden kann, oder dass der Anruf einfach beendet werden kann.
+> Blockierte Anrufer können ein leicht anderes Verhalten erleben, wenn sie blockiert wurden. Das Verhalten basiert darauf, wie der Netzbetreiber des blockierten Anrufers die Benachrichtigung verarbeitet, dass der Anruf nicht erfolgreich abgeschlossen werden kann. Beispiele hierfür sind eine Nachricht des Netzbetreibers, die besagt, dass der Anruf nicht als gewählt abgeschlossen werden kann, oder dass der Anruf einfach beendet werden kann.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Blockieren von Administratorsteuerelementen und -informationen für Anrufe
 
@@ -47,7 +47,7 @@ Zahlenmuster werden mit den ```CsInboundBlockedNumberPattern``` Befehlen ```New`
 
 Das Anzeigen und Aktivieren des gesamten Anrufblockerfeatures wird über die ```CsTenantBlockingCallingNumbers``` Befehle und ```Get``` ```Set``` verwaltet.
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) gibt die Parameter für die globale Liste blockierter Zahlen zurück, einschließlich Enabled (True/False). Es gibt eine einzige globale Mandantenrichtlinie, die nur zum Aktivieren oder Deaktivieren des Features manuell geändert werden kann.
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) gibt die Parameter für die liste der globalen blockierten Zahlen zurück, einschließlich Enabled (True/False). Es gibt eine einzelne globale Mandantenrichtlinie, die nur zum Aktivieren oder Deaktivieren des Features manuell geändert werden kann.
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) ermöglicht das Ändern der blockierten Anrufe des globalen Mandanten, damit diese auf Mandantenebene aktiviert und deaktiviert werden.
 
 ### <a name="examples"></a>Beispiele
@@ -101,7 +101,7 @@ Ausnahmen zu blockierten Zahlenmustern können Sie mit den Befehlen ```CsTenantB
 
 #### <a name="add-a-number-exception"></a>Hinzufügen einer Zahlenausnahme
 
-In diesem Beispiel wird ein neues Nummernausnahmemuster erstellt und das Muster standardmäßig als aktiviert hinzugefügt. Die ```-Enabled``` Parameter und sind ```-Description``` optional.
+In diesem Beispiel wird ein neues Zahlenausnahmemuster erstellt und das Muster standardmäßig als aktiviert hinzugefügt. Die ```-Enabled``` Parameter und sind ```-Description``` optional.
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -125,7 +125,7 @@ Get-CsTenantBlockedNumberExceptionPattern -Tenant daacb588-18ef-4f77-8c83-955af9
 
 #### <a name="modify-a-number-exception"></a>Ändern einer Zahlenausnahme
 
-In diesem Beispiel ist der Parameter -Identity obligatorisch. Mit ```Set-CsTenantBlockedNumberExceptionPattern``` dem Cmdlet können Sie Parameter für eine bestimmte Zahlenmusteridentität ändern.
+In diesem Beispiel ist der -Identity-Parameter obligatorisch. Mit ```Set-CsTenantBlockedNumberExceptionPattern``` dem Cmdlet können Sie Parameter für eine bestimmte Zahlenmusteridentität ändern.
  
 ```powershell
 Set-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -175,7 +175,7 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 
 ## <a name="a-note-about-regex"></a>Hinweis zu Regex
 
-Wie bereits erwähnt, erfolgt der Musterabgleich zum Blockieren von Anrufern mithilfe von Regex. Online stehen mehrere Tools zur Überprüfung einer Regex-Muster übereinstimmung zur Verfügung. Wenn Sie mit Regex-Mustern nicht vertraut sind, sollten Sie sich etwas Zeit nehmen, um sich mit den Grundlagen vertraut zu machen. Um sicherzustellen, dass Sie die erwarteten Ergebnisse erhalten, verwenden Sie ein Tool zum Überprüfen von Musterdingingen, bevor Sie Ihrem Mandanten neue Übereinstimmungen mit blockierten Nummern hinzufügen. 
+Wie bereits erwähnt, erfolgt der Musterabgleich zum Blockieren von Anrufern mithilfe von Regex. Online stehen mehrere Tools zur Überprüfung einer Regex-Muster übereinstimmung zur Verfügung. Wenn Sie mit Regex-Mustern nicht vertraut sind, sollten Sie sich etwas Zeit nehmen, um sich mit den Grundlagen vertraut zu machen. Um sicherzustellen, dass Sie die erwarteten Ergebnisse erhalten, verwenden Sie ein Tool zum Überprüfen von Muster übereinstimmungen, bevor Sie Ihrem Mandanten neue Übereinstimmungen mit blockierten Nummern hinzufügen. 
 
 ## <a name="related-topics"></a>Verwandte Themen
 

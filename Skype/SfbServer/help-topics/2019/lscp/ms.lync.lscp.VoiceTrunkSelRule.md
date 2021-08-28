@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 ROBOTS: NOINDEX, NOFOLLOW
 description: Enterprise-VoIP erfordert, dass alle Wählzeichenfolgen in das E.164-Format normalisiert werden, um eine umgekehrte Nummernsuche (Reverse Number Lookup, RNL) durchzuführen. Der Trunkpeer (also das zugeordnete Gateway, Nebenstellensystem oder der zugeordnete SIP-Trunk) erfordert möglicherweise, dass die Nummern in einem lokalen Wählformat vorliegen. Um Nummern aus dem E.164-Format in ein lokales Wählformat zu übersetzen, können Sie optional eine oder mehrere Übersetzungsregeln definieren, mit denen der Anforderungs-URI vor dem Routen an den Trunkpeer geändert wird. Sie können beispielsweise eine Übersetzungsregel erstellen, mit der das Präfix +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
-ms.openlocfilehash: 4bbda54f4cedb05e3f3f75f1550c32809871721ad0ceeaa1e519be1f94a55d79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa41f3f67289f5929c34e410191e69e7fc25c2d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311933"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607194"
 ---
 # <a name="select-translation-rules"></a>Auswählen von Übersetzungsregeln
  

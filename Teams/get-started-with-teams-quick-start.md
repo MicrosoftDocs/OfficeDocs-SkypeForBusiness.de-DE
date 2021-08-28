@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: Steigen Sie in Teams ein, indem Sie Ihre ersten Teams und Kanäle bereitstellen, damit Sie Erfahrung in Teams aufbauen, bevor Sie es in der Organisation einführen.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d2fed3a011936507febdfcd6bb7dae5aa4c7d385a3ea3fccc49e018f7749a95
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306377"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630209"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -47,9 +47,9 @@ Wir empfehlen eine phasenweise Bereitstellung von Teams, Workload nach Workload 
 
 Wenn es sich bei Ihrem Unternehmen um eine mittlere oder große Organisation handelt, [verwenden Sie den Ratgeber für Microsoft Teams als Hilfe beim Rollout von Microsoft Teams](use-advisor-teams-roll-out.md), um das organisationsweite Rollout dieser Workloads leichter planen zu können. Der Ratgeber nutzt Microsoft Teams selbst zum Erstellen von Planaufgaben, die Besitzern zugewiesen werden, um Dokumente freizugeben und die Kommunikation zwischen den Mitgliedern Ihres Bereitstellungsteams zu ermöglichen.
 
-## <a name="make-sure-youre-ready&quot;></a>Stellen Sie sicher, dass alles bereit ist
+## <a name="make-sure-youre-ready"></a>Stellen Sie sicher, dass alles bereit ist
 
-Wenn Sie sich auf Ihre Bereitstellung vom Teams vorbereiten möchten, müssen Sie die folgenden Schritte ausführen, egal, ob Teams Ihre erste Arbeitsauslastung (&quot;Teams zuerst") oder die nächste Arbeitsauslastung in einer vorhandenen Microsoft 365- oder Office 365-Bereitstellung ist:
+Wenn Sie sich auf Ihre Bereitstellung vom Teams vorbereiten möchten, müssen Sie die folgenden Schritte ausführen, egal, ob Teams Ihre erste Arbeitsauslastung ("Teams zuerst") oder die nächste Arbeitsauslastung in einer vorhandenen Microsoft 365- oder Office 365-Bereitstellung ist:
 
 - [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
   - Dies umfasst das Konfigurieren Ihrer Microsoft 365- oder Office 365-Domäne, SharePoint Online, Exchange Online und OneDrive for Business.

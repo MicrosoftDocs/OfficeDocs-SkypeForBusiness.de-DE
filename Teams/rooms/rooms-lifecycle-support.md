@@ -11,15 +11,15 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Erfahren Sie mehr über die Lifecycle-Unterstützung von Microsoft Teams-Räume, einschließlich der Struktur und der Phasen der dynamischen Unterstützung.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7fe78132b9e3a945c7d70a53f7808ea1b1527c21cbabf8778970b73e156fa6d0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ecfd878b5d8aa22a19b4b2831c04a73e0d8911e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607028"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams-Räume – Unterstütze App-Versionen
  
@@ -27,7 +27,7 @@ Für die Microsoft Teams-Räume-App werden ein paar Mal pro Jahr Updates veröff
 
 - **Servicing and Critical Updates phase** – When you run the latest version of the Microsoft Teams-Räume app, you receive regular updates that contain Security and *Servicing* updates.
 
-- Phase Nur Sicherheitsupdates – Wenn eine neue Version der Microsoft Teams-Räume-App veröffentlicht wird,  gilt für ältere Versionen der App eine eingeschränkte Unterstützungsstufe mit Sicherheitsupdates nur für den Rest des zwölf (12) Monatslebenszyklus. 
+- Phase Nur Sicherheitsupdates: Wenn eine neue Version der Microsoft Teams-Räume-App veröffentlicht wird, verfügen  ältere Versionen der App nur für die restlichen zwölf (12) Monate über eine eingeschränkte Unterstützungsstufe mit Sicherheitsupdates. 
 
 > [!NOTE]
 > Die neueste Version befindet sich immer in der Phase der Bereitstellung von Wartungs- und wichtigen Updates. Wenn Sie auf einen Codefehler stoßen, der ein wichtiges Update betrifft, müssen Sie auch die neueste Version installiert haben, um einen Fix zu erhalten. Alle anderen unterstützten Versionen können nur Sicherheitsupdates erhalten.
@@ -44,10 +44,10 @@ Microsoft Teams-Räume erfordert die Windows 10 IoT Enterprise- oder Windows 10 
 - Die Internet of Things (IoT) Enterprise LTSB/LTSC-Editionen von Windows 10
 - Alle anderen Windows-Editionen wie z. B. Windows 10 Pro oder Home
 
-Neue Windows 10 Featureupdates werden nicht sofort auf Microsoft Teams-Räume Angeboten. Eine absichtliche Verzögerung von bis zu sechs Monaten nach dem Datum der allgemeinen Verfügbarkeit, das auf der Seite [Windows 10-Versionsinformationen](/windows/release-information/) veröffentlicht wird. Die Verzögerungszeit wird verwendet, um Windows 10 Veröffentlichungskompatibilität für die Microsoft Teams-Räume, Gerätehardware und zertifizierte Audiovideoperipheriegeräte zu überprüfen. Die Überprüfung beginnt mit und wird während der aktiven Entwicklung jeder Hauptversion von Windows 10 fortgesetzt. Zusätzliche Zeit ist erforderlich, um zu überprüfen, ob alle Gerätehersteller aktualisierte Images für ihre Geräte erstellt haben, und für die Zertifizierung und das Testen dieser Images durch Microsoft Teams. Während des Überprüfungszeitraums verwendet die Microsoft Teams Raum-App die Windows Update for Business-Gruppenrichtlinien, um Windows 10 zu verzögern. [](/windows/deployment/update/waas-manage-updates-wufb) Nach dem Suchen und Beheben von Kompatibilitätsproblemen wird die Blockierung durch die Aktualisierung von Gruppenrichtlinien über eine neue App-Version im Windows Store aufgehoben. Geräte, auf denen die Microsoft Teams-Räume-App ausgeführt wird, werden während des nächtlichen Wartungs-Neustarts automatisch auf eine geeignete Windows 10-Version aktualisiert. Kunden, die Updates manuell verwalten möchten, wird eine MSI-Version zur Verfügung gestellt.  
+Neue Windows 10-Featureupdates werden nicht sofort auf Microsoft Teams-Räume angeboten. Eine absichtliche Verzögerung von bis zu sechs Monaten nach dem Datum der allgemeinen Verfügbarkeit, das auf der Seite [Windows 10-Versionsinformationen](/windows/release-information/) veröffentlicht wird. Die Verzögerungszeit wird verwendet, um die Windows 10 Release-Kompatibilität für die Microsoft Teams-Räume, Gerätehardware und zertifizierte Audiovideoperipheriegeräte zu überprüfen. Die Überprüfung beginnt mit und wird während der aktiven Entwicklung jeder Hauptversion von Windows 10 fortgesetzt. Zusätzliche Zeit ist erforderlich, um zu überprüfen, ob alle Gerätehersteller aktualisierte Images für ihre Geräte erstellt haben, und für die Zertifizierung und das Testen dieser Images durch Microsoft Teams. Während des Überprüfungszeitraums verwendet die Microsoft Teams Raum-App die Windows Update for Business-Gruppenrichtlinien, um Windows 10 zu verzögern. [](/windows/deployment/update/waas-manage-updates-wufb) Nach dem Suchen und Beheben von Kompatibilitätsproblemen wird die Blockierung durch die Aktualisierung von Gruppenrichtlinien über eine neue App-Version im Windows Store aufgehoben. Geräte, auf denen die Microsoft Teams-Räume-App ausgeführt wird, werden während des nächtlichen Wartungs-Neustarts automatisch auf eine geeignete Windows 10-Version aktualisiert. Kunden, die Updates manuell verwalten möchten, wird eine MSI-Version zur Verfügung gestellt.  
 
 > [!IMPORTANT]
-> Während des Überprüfungszeitraums sollten Geräte mit Microsoft Teams-Räume **nicht** auf die neue Version von Windows 10 aktualisiert werden. Dies umfasst das Überschreiben bestehender Gruppenrichtlinien und die Verwendung von System Center oder anderen Geräteverwaltungsdiensten von Drittanbietern. Jedes dieser Probleme kann Probleme für die App Microsoft Teams Raum verursachen oder dafür sorgen, dass Geräte nicht mehr verwendet werden können.  
+> Während des Überprüfungszeitraums sollten Geräte mit Microsoft Teams-Räume **nicht** auf die neue Version von Windows 10 aktualisiert werden. Dies umfasst das Überschreiben bestehender Gruppenrichtlinien und die Verwendung von System Center oder anderen Geräteverwaltungsdiensten von Drittanbietern. Jedes dieser Punkte kann Probleme für die App Microsoft Teams Raum verursachen oder dafür sorgen, dass Geräte nicht mehr verwendet werden können.  
 
 Die folgende Tabelle enthält die empfohlenen und unterstützten Versionen von Windows 10, die Microsoft Teams-Räume garantiert unterstützen. Alle Datumsangaben sind im ISO 8601-Format "JJJJ-MM-DD" aufgeführt.
 
@@ -69,7 +69,7 @@ Die folgende Tabelle enthält die empfohlenen und unterstützten Versionen von W
 Wenn Sie eine unterstützte Version von Windows 10 verwenden, erhalten Sie immer die neuesten Anwendungsupdates für die Microsoft Teams-Räume-App.  
 
 > [!IMPORTANT]
-> Das Windows 10 20H2-Update ist für die folgenden Teams-Räume noch nicht verfügbar. GERÄTE-OEMs arbeiten daran, diese Probleme so schnell wie möglich zu beheben. Windows 10 20H2 wird auf diesen Geräten nicht angeboten. Aktualisieren Sie diese Geräte nicht manuell auf 20H2, indem Sie Gruppenrichtlinienobjekte (Group Policy Objects, GPOs) oder Verwaltung mobiler Geräte (Mobile Device Management, MDM) außer Kraft setzen. 
+> Das Windows 10 20H2-Update ist für die folgenden Teams-Räume aufgrund von Kompatibilitätsproblemen noch nicht verfügbar. GERÄTE-OEMs arbeiten daran, diese Probleme so schnell wie möglich zu beheben. Windows 10 20H2 wird auf diesen Geräten nicht angeboten. Aktualisieren Sie diese Geräte nicht manuell auf 20H2, indem Sie Gruppenrichtlinienobjekte (Group Policy Objects, GPOs) oder MdM (Verwaltung mobiler Geräte) außer Kraft setzen. 
 > 
 > Die Geräte mit Kompatibilitätsproblemen sind:
 > 

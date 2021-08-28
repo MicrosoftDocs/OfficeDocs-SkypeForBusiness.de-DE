@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konfigurationsänderungen beim VoIP-Routing in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung überprüfen, veröffentlichen oder abbrechen.'
-ms.openlocfilehash: 9c9cfd1cfdf1cf58f58cfcbf77abb54f9068609414a3b141b4fb643abcf4ac83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2873520be0b5f7709fb493912be18afa807884c2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583189"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business
  
@@ -58,7 +58,7 @@ Nachdem Sie Änderungen an den Konfigurationseinstellungen auf Seiten in der **V
     
 7. Nachdem Sie alle ausstehenden Änderungen überprüft und alle, die Sie nicht veröffentlichen möchten, abgebrochen haben, klicken Sie auf **"Commit ausführen"** und dann auf **"Commit ausführen".**
     
-8. Klicken Sie im Dialogfeld **"Nicht übernommene VoIP-Konfiguration Einstellungen",** in dem eine Liste aller ausstehenden Änderungen angezeigt wird, auf **"OK".** 
+8. Klicken Sie im Dialogfeld **"VoIP-Konfiguration ohne Commit Einstellungen",** in dem eine Liste aller ausstehenden Änderungen angezeigt wird, auf **"OK".** 
     
     Wenn Skype for Business Server Systemsteuerung die Änderungen vorgenommen hat, wird die Meldung **"VoIP-Routingkonfiguration erfolgreich veröffentlicht"** angezeigt.
     

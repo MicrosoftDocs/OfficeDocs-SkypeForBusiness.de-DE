@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration für mobile Clients
+title: Erstellen oder Bearbeiten der Konfiguration von Pushbenachrichtigungen für mobile Clients
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pushbenachrichtigungen und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile des Mobilitätsfeatures. Pushbenachrichtigung ist der Prozess, bei dem eine Nachricht an die PNCH gesendet wird. Die Nachricht wird hier gespeichert, bis sie an den mobilen Client übermittelt werden kann oder der Timeoutzeitraum abläuft.
-ms.openlocfilehash: 7e214b9fa92db420b0451d2a32e8158df2d5212c4394fb7307a7198ff733c425
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e148074690f7895a04e2d217b513eac8f7f148c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316291"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583179"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Mobiler Client: Erstellen oder Bearbeiten der Konfiguration für Pushbenachrichtigung
  

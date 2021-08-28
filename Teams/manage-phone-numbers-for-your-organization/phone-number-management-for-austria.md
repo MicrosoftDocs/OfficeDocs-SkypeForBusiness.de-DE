@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Österreich für Microsoft Teams.
-ms.openlocfilehash: 9a83bd68c313af1020a052c92e708505f6f13d02
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 240af65018568760de93eaebda360ca8a73e9baf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348267"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630127"
 ---
 # <a name="phone-number-management-for-austria"></a>Telefon der Nummerverwaltung für Österreich
 
@@ -34,7 +34,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter, und senden Sie sie an uns.**|
 |:-----|:-----|
-|Neue Telefonnummern für Benutzer und Dienste erhalten, die im Admin Center Microsoft Teams werden.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Neue Telefonnummernanforderung für Österreich (v.5.0) (de-de)](https://download.microsoft.com/download/6/7/e/67e342b8-babc-4b85-bc0d-a7d9cdfa3d87/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf). <br/>  [Anforderung einer neuen Telefonnummer für Österreich (v.5.0) (en-us)](https://download.microsoft.com/download/c/0/e/c0e39cf0-6fa1-41c6-95fd-6f69ed030d15/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf). <br/>  <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/>  <br/>Sie müssen auch eine Rechnung für ein Hilfsprogramm von der Adresse des Unternehmens angeben, für die Sie neue Nummern erhalten möchten. <br/> 
+|Neue Telefonnummern für Benutzer und Dienste erhalten, die nicht im Admin Center Microsoft Teams werden.   <br/> |Laden Sie eines dieser Formulare herunter. <br/>  [Neue Telefonnummernanforderung für Österreich (v.5.0) (de-de)](https://download.microsoft.com/download/6/7/e/67e342b8-babc-4b85-bc0d-a7d9cdfa3d87/new-phone-number-request-for-austria-(v.5.0)-(de-de).pdf). <br/>  [Anforderung einer neuen Telefonnummer für Österreich (v.5.0) (en-us)](https://download.microsoft.com/download/c/0/e/c0e39cf0-6fa1-41c6-95fd-6f69ed030d15/new-phone-number-request-for-austria-(v.5.0)-(en-us).pdf). <br/>  <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md) <br/>  <br/>Sie müssen auch eine Rechnung für ein Hilfsprogramm von der Adresse des Unternehmens angeben, für die Sie neue Nummern erhalten möchten. <br/> 
 |Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Österreich (alle Nummern) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> <br/>Sie müssen auch eine Rechnung für das Hilfsprogramm von der Geschäftsadresse angeben, für die Sie Nummern übertragen möchten.<br/> |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zum Senden der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten.      <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zum Senden der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |

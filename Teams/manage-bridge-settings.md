@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Brücke-Einstellungen in Teams
+title: Verwalten von Einstellungen für die Brücke in Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,17 +15,17 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Einstellungen für Brücke in Microsoft Teams
-ms.openlocfilehash: f5856d0754fc4ea72358d1e8a8c0473138b4a861495386cbbfeeb276cfce8bc5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, wie Sie Die Einstellungen für die Brücke in Microsoft Teams
+ms.openlocfilehash: 9241699f20d989ff90ec858c591e74c07f022b79
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630167"
 ---
-# <a name="manage-bridge-settings-in-teams"></a>Verwalten von Brücke-Einstellungen in Teams
+# <a name="manage-bridge-settings-in-teams"></a>Verwalten von Einstellungen für die Brücke in Teams
 
 Vor und während einer Microsoft Teams oder eines Telefonanrufs hat der Besprechungsorganisator mehrere Optionen zum Auswählen der Einstellungen für die Brücke. Weitere Informationen finden Sie in den folgenden Artikeln:
 

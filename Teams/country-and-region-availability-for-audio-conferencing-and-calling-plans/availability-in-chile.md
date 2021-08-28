@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Chile verfügbar.
-ms.openlocfilehash: 0eeb31498115c5399cae62c195a5a8c1811fe6cf2d6a72a18eed8e2e9ed01b1c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Chile.
+ms.openlocfilehash: 5b52d4246fd9b6f30b3c5b8f57bc30c85011f5a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308914"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629387"
 ---
 # <a name="availability-in-chile"></a>Verfügbarkeit in Chile
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Chile verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Chile.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

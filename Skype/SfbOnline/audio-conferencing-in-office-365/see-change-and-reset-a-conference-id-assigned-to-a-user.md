@@ -1,5 +1,5 @@
 ---
-title: Sehen, ändern und zurücksetzen Sie eine Konferenz-ID, die einem Benutzer in ihrer Online Skype for Business zugewiesen wurde
+title: Sehen, ändern und zurücksetzen Sie eine Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen wurde
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online Konferenzkennungen zuweisen und welche Parameter für Konferenzkennungen verwendet werden sollten. '
-ms.openlocfilehash: 4b52b3cd7fb3d1ca35937e8c43365f3463134a19e4b9337cfb56b3b9eac1f8b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online Konferenzkennungen zuweisen und welche Parameter die Konferenzkennungen haben sollten. '
+ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327061"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607672"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen wurde
 
@@ -35,7 +35,7 @@ ms.locfileid: "54327061"
 > [!Note]
 > Informationen zu Konferenz-IDs von Benutzern in Microsoft Teams finden Sie unter Anzeigen und Zurücksetzen einer [Konferenz-ID,](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)die einem Benutzer in Microsoft Teams.
 
-Einem Skype for Business-Benutzer wird automatisch eine Konferenz-ID zugewiesen, wenn er für Audiokonferenzen in Microsoft 365 oder Office 365 eingerichtet ist und Microsoft als Audiokonferenzanbieter verwendet. Die zugewiesene Konferenz-ID wird in der Besprechungs-Einladung gesendet, wenn die Besprechung geplant ist. Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen.
+Eine Konferenz-ID wird einem Skype for Business-Benutzer automatisch zugewiesen, wenn er für Audiokonferenzen in Microsoft 365 oder Office 365 eingerichtet ist und Microsoft als Audiokonferenzanbieter verwendet. Die zugewiesene Konferenz-ID wird in der Besprechungs-Einladung gesendet, wenn die Besprechung geplant ist. Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen.
 
 Konferenzkennungen werden zwar automatisch erstellt und Benutzern zugewiesen, es kann aber auch sein, dass Benutzer diese Nummer nicht verwenden möchten und Sie sie auf eine bestimmte Nummer festlegen möchten oder die Benutzer sich nicht mehr erinnern oder ihre Konferenz-ID vergessen haben. Sie können das **Skype for Business Administrationscenter**  und Windows PowerShell verwenden, um die Konferenz-ID für solche Benutzer anzuzeigen, zu ändern oder zurückzusetzen.
 
@@ -99,7 +99,7 @@ Sie können die Konferenz-ID für einen Benutzer mithilfe der Windows PowerShell
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 
    > [!IMPORTANT]
-   >  Nachdem eine neue Konferenz-ID erstellt oder zurückgesetzt wurde, können Anrufer die alte Konferenz-ID nicht mehr verwenden. Sie sollten Benutzer benachrichtigen, dass sie ihre angesetzten Besprechungseinladungen neu planen, damit die neue Konferenz-ID den Einladungen hinzugefügt wird. Die Benutzer können das Skype for Business Meeting Migration Tool verwenden, um ihre vorhandenen Besprechungen zu aktualisieren. Informationen zum Herunterladen, Installieren und Ausführen des Tools finden Sie unter: Meeting Update Tool für Skype for Business und [Lync,](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4) [Skype for Business Online, Meeting Migration Tool (64-Bit)](https://go.microsoft.com/fwlink/?LinkID=626047)und [Skype for Business Online, Meeting Migration Tool (32-Bit)](https://www.microsoft.com/download/details.aspx?id=54079).
+   >  Nachdem eine neue Konferenz-ID erstellt oder zurückgesetzt wurde, können Anrufer die alte Konferenz-ID nicht mehr verwenden. Sie sollten Benutzer benachrichtigen, dass sie ihre angesetzten Besprechungseinladungen neu planen, damit die neue Konferenz-ID den Einladungen hinzugefügt wird. Die Benutzer können das Skype for Business Meeting Migration Tool verwenden, um ihre vorhandenen Besprechungen zu aktualisieren. Informationen zum Herunterladen, Installieren und Ausführen des Tools finden Sie unter: Meeting Update Tool für [Skype for Business und Lync,](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4) [Skype for Business Online, Meeting Migration Tool (64-Bit)](https://go.microsoft.com/fwlink/?LinkID=626047)und [Skype for Business Online, Meeting Migration Tool (32-Bit).](https://www.microsoft.com/download/details.aspx?id=54079)
 
 - Weitere Informationen zum Cmdlet finden Sie unter [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser).
 
@@ -110,7 +110,7 @@ Sie können die Konferenz-ID für einen Benutzer mithilfe der Windows PowerShell
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Wenn es um Windows PowerShell geht, geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen oder nicht. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Wenn es um Windows PowerShell geht es um das Verwalten von Benutzern und darum, was Benutzer tun dürfen oder was nicht. Mit Windows PowerShell können Sie Microsoft 365, Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

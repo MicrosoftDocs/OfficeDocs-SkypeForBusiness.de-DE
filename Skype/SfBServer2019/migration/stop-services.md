@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Sie können Skype for Business Server Systemsteuerung verwenden, um alle Legacydienste zu starten oder zu beenden, die auf einem bestimmten Computer ausgeführt werden, oder um einen bestimmten Legacydienst zu starten oder zu beenden.
-ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b69d62a43136f40a68aa4d24940b664d061169db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324714"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606884"
 ---
 # <a name="stop-legacy-services"></a>Beenden von Legacydiensten
 

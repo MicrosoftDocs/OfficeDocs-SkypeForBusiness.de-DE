@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtige und gebührenfreie) Für Microsoft Teams Organisation erhalten und verwalten.
-ms.openlocfilehash: 534f0d17413e24f221ce04731e0f617355392fec5f08e04814b85c15eb3369ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310633"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630187"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 
@@ -92,16 +92,16 @@ Manchmal können Sie (je nach Land oder Region) über das Microsoft Teams Admin 
 
 Wenn ja, müssen Sie das richtige PDF LOA-Formular (pro Land oder Region und Art der Telefonnummern) herunterladen und an uns senden. Unser Service Desk nimmt die Anfrage von dort ab und beginnt mit der Bearbeitung Ihrer Anfrage.
 
-### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Genehmigungsschreiben zum Übertragen/Portieren vorhandener Telefonnummern von einem anderen Dienstanbieter zu Microsoft Teams
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Letter of Authorization (LOAs) to transfer/port existing phone numbers from another service provider to Microsoft Teams
 
-Wenn Sie Ihre vorhandenen Telefonnummern übertragen/portieren müssen, müssen Sie uns einen LoA (Letter of Authorization) herunterladen, ausfüllen und uns eine schriftliche Vollmacht senden, mit der wir berechtigt werden, in Ihrem Auftrag diese vorhandenen Nummern von einem anderen Dienstanbieter an Microsoft Teams zu übertragen.
+Wenn Sie Ihre vorhandenen Telefonnummern übertragen/portieren müssen, müssen Sie uns eine schriftliche Vollmacht (Letter of Authorization, LOA) herunterladen, ausfüllen und uns senden, mit der wir berechtigt sind, in Ihrem Auftrag diese vorhandenen Nummern von einem anderen Dienstanbieter an Microsoft Teams zu übertragen.
 
 Senden Sie uns bitte einen **LOA,** wenn Sie derzeit über Folgendes bei einem anderen Netzbetreiber verfügen:
 
 - Telefonnummern von Benutzern (Abonnenten).
 - Servicenummern (gebührenpflichtig) für Audiokonferenzbrücken, automatische Telefonkonferenzen oder Anrufwarteschleifen.
 - Toll-Free Telefonnummern.
-- Mehr als 999 Benutzertelefonnummern, die Sie übertragen/portieren müssen, aber nicht im Microsoft Teams Admin Center über den Assistenten zum Portieren lokaler Rufnummern erhalten können.
+- Mehr als 999 Telefonnummern von Benutzern, die Sie übertragen/portieren müssen, die Sie jedoch mit dem Assistenten zum Portieren lokaler Nummern im Microsoft Teams Admin Center nicht erhalten können.
 
 Nachdem Sie Ihren **ausgefüllten und signierten** LOA ausgefüllt haben, wenden Sie sich an unseren [PSTN Service Desk,](./contact-pstn-service-desk.md) damit wir Sie unterstützen können.
 

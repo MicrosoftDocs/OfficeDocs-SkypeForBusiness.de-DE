@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Zusammenfassung: Erfahren Sie mehr über den Fehlerlistenbericht in Skype for Business Server.'
-ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3943c802bd6f6bce593c8fdfafb05179252712b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301351"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582739"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Fehlerlistenbericht in Skype for Business Server 
  
@@ -53,7 +53,7 @@ Im Fehlerlistenbericht können Sie eine Beschreibung für jeden Antwortcode oder
   
 Interner Serverfehler beim Erstellen von Medien für den Benutzer.
   
-Es ist wichtig zu beachten, dass der Fehlerlistenbericht weder eine einfache Möglichkeit zum direkten Abrufen einer Liste aller Benutzer bietet, die an mindestens einer fehlgeschlagenen Sitzung teilgenommen haben, noch eine Möglichkeit bietet, zu bestimmen, welche Benutzer am häufigsten an einer fehlgeschlagenen Sitzung beteiligt waren. (Der Fehlerlistenbericht verfügt über keine Filterfunktionen.) Wenn Sie die Daten exportieren und dann in eine durch Trennzeichen getrennte Wertedatei konvertieren, können Sie Windows PowerShell verwenden, um Antworten auf Fragen wie diese zu finden. Angenommen, Sie speichern die Daten in einer .CSV Datei mit dem Namen C:\Data\Failure_List.csv. Basierend auf den in dieser Datei gespeicherten Daten listet dieser Befehl alle Benutzer auf, die an mindestens einer fehlgeschlagenen Sitzung beteiligt waren: 
+Es ist wichtig zu beachten, dass der Fehlerlistenbericht weder eine einfache Möglichkeit zum direkten Abrufen einer Liste aller Benutzer bietet, die an mindestens einer fehlgeschlagenen Sitzung teilgenommen haben, noch eine Möglichkeit bietet, zu bestimmen, welche Benutzer am häufigsten an einer fehlgeschlagenen Sitzung beteiligt waren. (Der Fehlerlistenbericht verfügt über keine Filterfunktionen.) Wenn Sie die Daten exportieren und dann in eine durch Trennzeichen getrennte Wertedatei konvertieren, können Sie Windows PowerShell verwenden, um antworten auf Fragen wie diese zu finden. Angenommen, Sie speichern die Daten in einer .CSV Datei mit dem Namen C:\Data\Failure_List.csv. Basierend auf den in dieser Datei gespeicherten Daten listet dieser Befehl alle Benutzer auf, die an mindestens einer fehlgeschlagenen Sitzung beteiligt waren: 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"

@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über teamübergreifende Analysen, Teamanalysen und Analysen pro Kanal in Teams, mit denen Benutzer Nutzungsdaten für Teams oder Kanäle sehen können, zu denen sie gehören.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292952"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606998"
 ---
 # <a name="view-analytics-in-teams"></a>Anzeigen von Analysen in Teams
 
@@ -48,7 +48,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
     |**Kontakte**   |Gesamtzahl der Personen im Team im angegebenen Zeitraum. Dies umfasst Teambesitzer, Teammitglieder und Gäste.|
     |**Gäste**   |Die Anzahl von Gästen im Team während des angegebenen Zeitraums. |
     |**Beiträge**   |Die Anzahl von neuen Nachrichten, die im Teamchat während des angegebenen Zeitraums gepostet wurden. |
-    |**Antworten**   |Die Anzahl von Antworten in Teamchats während des angegebenen Zeitraums. |
+    |**Antworten**   |Anzahl der Antworten in Teamchats während des angegebenen Zeitraums. |
     |**Typ**   |Ob es sich bei dem Team um ein privates oder ein öffentliches Team handelt.|
 
 ## <a name="view-per-team-analytics"></a>Anzeigen von Analysen pro Team
@@ -72,7 +72,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 
 ## <a name="view-per-channel-analytics"></a>Anzeigen von Analysen pro Kanal
 
-1. Wechseln Teams Zu dem kanal, den Sie verwenden möchten, klicken Sie auf Weitere Optionen **(...)** und dann auf **Kanal verwalten.**
+1. Wechseln Teams Zu dem Kanal, den Sie verwenden möchten, klicken Sie auf Weitere Optionen **(...)** und dann auf **Kanal verwalten.**
 2. Klicken Sie auf **die Registerkarte** Analyse.
 3. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für den Kanal anzeigen.  
 
@@ -87,7 +87,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 > Sie können auch Analysen pro Kanal anzeigen, indem Sie in der Analyseansicht pro Team im [Dropdown-Listenfeld einen Kanal auswählen.](#view-per-team-analytics)
     
 > [!NOTE]
-> Wir definieren aktive Benutzer als Benutzer, die eine beabsichtigte Aktion im Desktopclient, mobilen Client und Webclient ausführen. Beispiele für eine beabsichtigte Aktion sind das Starten eines Chats, das Starten eines Anrufs, das Freigeben einer Datei, das Bearbeiten eines Dokuments innerhalb von Teams, die Teilnahme an einer Besprechung und so weiter. Passive Aktionen wie der automatische Start, das Minimieren eines Bildschirms oder das Schließen der App werden wegsingen. Außerdem werden alle Aktionen für eine einzelne Benutzer-ID entpgruppen.
+> Wir definieren aktive Benutzer als Benutzer, die eine beabsichtigte Aktion im Desktopclient, mobilen Client und Webclient ausführen. Beispiele für eine beabsichtigte Aktion sind das Starten eines Chats, das Starten eines Anrufs, das Freigeben einer Datei, das Bearbeiten eines Dokuments innerhalb von Teams, die Teilnahme an einer Besprechung und so weiter. Passive Aktionen wie der automatische Start, das Minimieren eines Bildschirms oder das Schließen der App werden wegsend. Außerdem werden alle Aktionen für eine einzelne Benutzer-ID entpgruppen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

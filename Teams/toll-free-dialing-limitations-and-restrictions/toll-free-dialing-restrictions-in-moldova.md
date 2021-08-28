@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder/Regionen zum Wählen der gebührenfreien Nummer.
-ms.openlocfilehash: 22e399cede789d6702965a035583827a7ac88fff087a7dd75c450bfe0edd4e61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79e56fde79b42cd75af8766ac239abb57388838
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323787"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581169"
 ---
 # <a name="toll-free-dialing-restrictions-in-moldova"></a>Einschränkungen für gebührenfreie Telefonnummern in der Republik Moldau
 

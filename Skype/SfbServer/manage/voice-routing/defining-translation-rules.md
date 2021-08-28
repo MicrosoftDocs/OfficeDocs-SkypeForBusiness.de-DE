@@ -9,20 +9,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server Enterprise-VoIP leitet Anrufe basierend auf Telefonnummern weiter, die in das E.164-Format normalisiert sind. Dies bedeutet, dass alle gewählten Zeichenfolgen in das E.164-Format normalisiert werden müssen, um eine umgekehrte Nummernsuche (Reverse Number Lookup, RNL) durchzuführen, damit sie in den entsprechenden SIP-URI übersetzt werden können. Skype for Business Server bietet die Möglichkeit, die aufgerufene ID und die Darstellung der Anrufer-ID zu bearbeiten.
-ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629637"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definieren von Übersetzungsregeln in Skype for Business Server
 
 Skype for Business Server Enterprise-VoIP leitet Anrufe basierend auf Telefonnummern weiter, die in das E.164-Format normalisiert sind. Dies bedeutet, dass alle gewählten Zeichenfolgen in das E.164-Format normalisiert werden müssen, um eine umgekehrte Nummernsuche (Reverse Number Lookup, RNL) durchzuführen, damit sie in den entsprechenden SIP-URI übersetzt werden können. Skype for Business Server bietet die Möglichkeit, die aufgerufene ID und die Darstellung der Anrufer-ID zu bearbeiten.
 
-Mit Skype for Business Server kann die Telefonnummer des angerufenen Teilnehmers (d. h. die angerufene Telefonnummer) aus dem E.164-Format in das lokale Wählformat übersetzt werden, das vom Trunkpeer (d. h. dem zugeordneten Gateway, nebenstellenanlage oder SIP-Trunk) benötigt wird. Dazu müssen Sie eine oder mehrere Übersetzungsregeln definieren, die die Anforderungs-URI übersetzen, bevor sie zu dem Trunk-Peer geroutet wird.
+Mit Skype for Business Server kann die Telefonnummer des angerufenen Teilnehmers (d. h. die angerufene Telefonnummer) aus dem E.164-Format in das lokale Wählformat übersetzt werden, das vom Trunkpeer (d. h. dem zugeordneten Gateway, der Nebenstellenanlage oder dem SIP-Trunk) benötigt wird. Dazu müssen Sie eine oder mehrere Übersetzungsregeln definieren, die die Anforderungs-URI übersetzen, bevor sie zu dem Trunk-Peer geroutet wird.
 
 ## <a name="caller-id-presentation"></a>Darstellung der Anrufer-ID
 
@@ -51,7 +51,7 @@ Skype for Business Server bietet die Möglichkeit, auch die Telefonnummer des An
 
 Mithilfe einer der beiden folgenden Methoden können Sie eine Übersetzungsregel erstellen oder ändern:
 
-- [Verwenden Sie das Tool "Übersetzungsregel](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool) erstellen", um Werte für die zu entfernenden Anfangsziffern, die Länge, die zu entfernenden Ziffern und die hinzuzufügenden Ziffern anzugeben, und lassen Sie dann die Skype for Business Server Systemsteuerung das entsprechende Vergleichsmuster und die Übersetzungsregel für Sie generieren.
+- Verwenden Sie das Tool Zum [Erstellen einer Übersetzungsregel,](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool) um Werte für die zu entfernenden Anfangsziffern, die Länge, die zu entfernenden Ziffern und die hinzuzufügenden Ziffern anzugeben, und lassen Sie dann die Skype for Business Server Systemsteuerung das entsprechende Vergleichsmuster und die Übersetzungsregel für Sie generieren.
 - [Schreiben Sie reguläre Ausdrücke manuell,](#create-or-modify-a-translation-rule-manually) um das Übereinstimmungsmuster und die Übersetzungsregel zu definieren.
 
 > [!Note]

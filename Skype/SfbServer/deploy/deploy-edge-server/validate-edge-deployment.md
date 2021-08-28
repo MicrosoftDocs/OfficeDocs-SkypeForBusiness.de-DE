@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Zusammenfassung: Erfahren Sie, wie Sie überprüfen, ob Ihre Bereitstellung des Edgeservers oder Edgeserverpools in Skype for Business Server funktioniert.'
-ms.openlocfilehash: b2d44018bc43f8335081bcfc961108255240095031983066d54463dabc2538ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 175baab9770e6013820e0e632712bf75b7669a57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583239"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Überprüfen der Edgebereitstellung in Skype for Business Server
  
@@ -32,7 +32,7 @@ Nachdem Sie Ihren Edgeserver oder Edgeserverpool bereitgestellt haben, müssen S
 
 Während die Überprüfung der Konnektivität automatisch im Edgeserver oder Edgeserverpool erfolgt, wenn die Edgeserver installiert werden, können Sie dies dennoch selbst mit Windows PowerShell bestätigen. Führen Sie das Cmdlet Get-CsManagementStoreReplicationStatus auf dem internen Server mit dem zentralen Verwaltungsspeicher oder auf einem beliebigen Computer aus, auf dem Skype for Business Server Core Components (OcsCore.msi) installiert sind.
   
-Das anfängliche Ergebnis der Ausführung dieses Befehls gibt für die Replikation möglicherweise den Status "False" und nicht "True" aus. Führen Sie in diesem Fall das Cmdlet Invoke-CsManagementStoreReplication aus. Geben Sie ihr etwas Zeit, um die Replikation abzuschließen, und führen Sie dann das Cmdlet Get-CsManagementStoreReplicationStatus erneut aus.
+Das anfängliche Ergebnis der Ausführung dieses Befehls gibt möglicherweise für die Replikation den Status "False" und nicht "True" aus. Führen Sie in diesem Fall das Cmdlet Invoke-CsManagementStoreReplication aus. Geben Sie ihr etwas Zeit, um die Replikation abzuschließen, und führen Sie dann das Cmdlet Get-CsManagementStoreReplicationStatus erneut aus.
   
 ## <a name="verify-connectivity-for-your-external-users"></a>Überprüfen der Konnektivität für Ihre externen Benutzer
 

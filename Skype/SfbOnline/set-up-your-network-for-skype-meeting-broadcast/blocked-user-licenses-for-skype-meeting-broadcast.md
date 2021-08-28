@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
 description: Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer auf https://broadcast.skype.com  gehen und Skype-Livekonferenz nutzen möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
-ms.openlocfilehash: d60b945cdcbf050fd869520c0fa9ff86d39d88f0a41d29e34d4be03f0b3bfc2b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8a31a6584020d24bbd4c05d2fe7aeedf6d75d1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339273"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606734"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Blockierte Benutzerlizenzen für das Hosting Skype-Besprechung Übertragung
 
@@ -33,7 +33,7 @@ ms.locfileid: "54339273"
 > [!IMPORTANT]
 > Skype for Business Online wird am 31. Juli 2021 beendet, und der Zugriff auf den Dienst endet. Wir empfehlen Kunden, mit dem Upgrade auf Microsoft Teams, den zentralen Client für Kommunikation und Teamarbeit in Microsoft 365.
 
-Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer zu einer Skype-Besprechung Broadcast wechseln und diese https://broadcast.skype.com hosten möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
+Leider gibt es bestimmte Benutzerlizenzen, die blockiert werden, wenn Benutzer zu einer Live-Übertragung wechseln und diese https://broadcast.skype.com Skype-Besprechung möchten. Wenn einem Benutzer diese Meldung angezeigt wird, so wurde ihm/ihr eine blockierte Lizenz zugewiesen. Wenn Sie dennoch möchten, dass dieser Benutzer dies nutzen kann, so weisen Sie ihm/ihr eine andere Office 365-Lizenz zu.
   
  *„Ihre Unternehmenslizenz ist nicht für die Verwendung von Skype-Livekonferenzen zugelassen. Bitte wenden Sie sich an Ihren Systemadministrator, um sicherzustellen, dass der Dienst aktiviert ist und dass Sie über die richtige Lizenz verfügen.“* 
   

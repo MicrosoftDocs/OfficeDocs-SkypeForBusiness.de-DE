@@ -8,27 +8,27 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Erfahren Sie, wie Sie ein Microsoft 365 Business Voice für die Verwendung mit automatischen Attendants einrichten.
+description: Erfahren Sie, wie Sie ein Microsoft 365 Business Voice-Ressourcenkonto für die Verwendung mit automatischen Attendants einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb36a0f3a1327bb3b42b0148c889a05e377ccf1af80c4a3c42d51299677b9692
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: afc45df5ecf6336d2ddea86581fde67e85a6ab24
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331077"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630239"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Schritt 4: Einrichten eines Business Voice-Ressourcenkontos
 
 Ressourcenkonten werden keinem bestimmten Benutzer zugewiesen. Stattdessen werden Ressourcenkonten, für die eine kostenlose virtuelle Benutzerlizenz verwendet wird, von Geräten und Diensten in Microsoft 365. In Microsoft Teams Ressourcenkonten Telefonnummern zugewiesen und dann automatischen Telefonkonferenzen und Anrufwarteschleifen zugeordnet.
 
-Durch Zuordnen von Ressourcenkonten zu automatischen Telefonkonferenzen und Anrufwarteschleifen können Sie eine oder mehrere gebührenpflichtige oder gebührenfreie Telefonnummern hinzufügen. So könnten Sie beispielsweise einer automatischen Telefonistennummer für Ortsanrufe ein Ressourcenkonto mit einer gebührenpflichtigen Nummer zuordnen. Bei Ferngesprächen können Sie derselben automatischen Telefon attendant ein anderes Ressourcenkonto einer gebührenfreien Nummer zuordnen.
+Durch Zuordnen von Ressourcenkonten zu automatischen Telefonkonferenzen und Anrufwarteschleifen können Sie eine oder mehrere gebührenpflichtige oder gebührenfreie Telefonnummern hinzufügen. So könnten Sie beispielsweise einer automatischen Telefonistennummer für Ortsanrufe ein Ressourcenkonto mit einer gebührenpflichtigen Nummer zuordnen. Bei Ferngesprächen können Sie derselben automatischen Telefonant ein anderes Ressourcenkonto einer gebührenfreien Nummer zuordnen.
 
 In den Abschnitten dieses Artikels wird erläutert, wie Sie ein Ressourcenkonto einrichten und ihm dann eine Telefonnummer zuweisen. Später ordnen Sie das Ressourcenkonto einer automatischen Attendant zu.
 
@@ -43,9 +43,9 @@ Für Ressourcenkonten ist eine Lizenz erforderlich, um mit automatischen Telefon
 > [!NOTE]
 > Sie sollten die folgenden Schritte nur ausführen müssen, wenn Sie sich für einen Business Voice-Testzeitraum angemeldet haben. Wenn Sie Business Voice-Lizenzen erworben haben, sollten virtuelle Lizenzen bereits auf Ihr Konto angewendet werden. 
 >
-> Um zu sehen, ob Sie bereits über virtuelle Lizenzen verfügen, melden Sie sich Microsoft 365 mit einem Konto mit globalen Administratorberechtigungen an. Wechseln Sie dann zu Abrechnung > [Ihre Produkte](https://admin.microsoft.com/Adminportal/Home#/subscriptions). Wenn Sie über virtuelle Lizenzen verfügen, werden diese als **"Microsoft 365 Telefonsystem - Virtual User" angezeigt.**
+> Um zu sehen, ob Sie bereits über virtuelle Lizenzen verfügen, melden Sie sich Microsoft 365 konto mit globalen Administratorberechtigungen an. Wechseln Sie dann zu Abrechnung > [Ihre Produkte](https://admin.microsoft.com/Adminportal/Home#/subscriptions). Wenn Sie über virtuelle Lizenzen verfügen, werden diese als **"Microsoft 365 Telefonsystem - Virtual User" angezeigt.**
 
-1. Öffnen Sie Microsoft 365 Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für Microsoft 365).
+1. Öffnen Sie Microsoft 365 Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für den Microsoft 365).
 2. Wechseln Sie im linken Navigationsbereich <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">   >  zu</a>  >  **Add-Ons für Abrechnungskäufe** Dienste anzeigen  >  **Alle Add-Ons-Produkte anzeigen.**
 3. Scrollen Sie bis zum Ende, um die Lizenz **Microsoft 365 Telefonsystem – Virtueller Benutzer zu** finden. Wählen **Sie Details** und dann Kaufen **aus.**
 4. Wählen Sie auf der Seite Lizenzkauf die Anzahl der virtuellen Benutzerlizenzen aus, die Sie benötigen. Sie benötigen eine virtuelle Lizenz für jede automatische Telefon attendant und jede Anrufwarteschleife, die Sie einrichten möchten. Es wird empfohlen, mindestens fünf Lizenzen zu wählen, damit Sie in Zukunft problemlos weitere automatische Telefonkonferenzen und Anrufwarteschleifen einrichten können, ohne sofort weitere Lizenzen erwerben zu müssen.
@@ -62,22 +62,22 @@ Nachdem Sie die Lizenz *"Microsoft 365 Telefonsystem – Virtueller Benutzer"* e
 
 ![Screenshot der Benutzeroberfläche zum Hinzufügen eines Ressourcenkontos](../media/resource-account-add.png)
 
-1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für die Microsoft 365).
+1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für Microsoft 365).
 2. Wechseln Sie im linken Navigationsbereich zu <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank"> **Organisationsweite Einstellungen**  >  **Ressourcenkonten**</a>.
 3. Klicken Sie auf **Hinzufügen**.
 4. Geben Sie **im Bereich Ressourcenkonto hinzufügen** die Informationen **Anzeigename** und dann Benutzername **ein.** Wählen Sie einen beschreibenden Anzeigenamen wie "Automatische Hauptleitungs-Attendant" aus, um den Zweck des Ressourcenkontos zu beschreiben.
 5. Wählen **Sie unter Ressourcenkontotyp** die **Option Automatische Attendant aus.**
 6. Klicken Sie auf **Speichern**.
 
-![Screenshot einer Liste mit Ressourcenkonten](../media/resource-accounts-auto-attendant-only-page.png)
+![Screenshot einer Liste von Ressourcenkonten](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## <a name="assign-a-license"></a>Lizenz zuweisen
 
-Nachdem Sie Ihr Ressourcenkonto erstellt haben, müssen Sie eine Microsoft 365 Telefonsystem *- Virtual User-Lizenz* oder *Telefonsystem* zuweisen.
+Nachdem Sie Ihr Ressourcenkonto erstellt haben, müssen Sie eine Microsoft 365 Telefonsystem *- Virtual User-Lizenz* *oder eine Telefonsystem* zuweisen.
 
 ![Screenshot der Benutzeroberfläche "Lizenzen zuweisen" im Microsoft 365 Admin Center](../media/resource-account-assign-virtual-user-license.png)
 
-1. Öffnen Sie Microsoft 365 Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für Microsoft 365).
+1. Öffnen Sie Microsoft 365 Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für den Microsoft 365).
 1. Wechseln Sie im linken Navigationsbereich zu <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **Aktive**  >  **Benutzer**</a>.
 1. Wählen Sie Ihr Ressourcenkonto aus.
 1. Wählen Sie **auf der Registerkarte Lizenzen** und Apps unter **Lizenzen** die Option Microsoft 365 Telefonsystem **- Virtueller Benutzer aus.**
@@ -87,10 +87,10 @@ Nachdem Sie Ihr Ressourcenkonto erstellt haben, müssen Sie eine Microsoft 365 T
 
 ![Screenshot der Benutzeroberfläche "Servicenummer zuweisen"](../media/resource-account-assign-phone-number.png)
 
-1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für die Microsoft 365).
+1. Öffnen Sie Microsoft Teams Admin Center, und melden Sie sich mit einem Benutzer an, der ein globaler Administrator ist (dies ist normalerweise das Konto, mit dem Sie sich für Microsoft 365).
 1. Wechseln Sie im linken Navigationsbereich zu <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank"> **Organisationsweite Einstellungen**  >  **Ressourcenkonten**</a>.
 1. Wählen Sie das Ressourcenkonto aus, das Sie gerade erstellt haben, und klicken Sie dann auf **Zuordnen/Zuweisung wieder auf .**
-1. Wählen Sie Telefon **Dropdownliste Für Zahlentyp** die Option **Online aus.**
+1. Wählen Sie **in Telefon Dropdownmenü Für Zahlentyp** die Option **Online aus.**
 1. Suchen Sie **im Feld Zugewiesene** Telefonnummer nach der zu verwendende Nummer, und klicken Sie auf **Hinzufügen**. Geben Sie unbedingt die Landescode an (z. B. **+1** 250 555 0012).
 1. Klicken Sie auf **Speichern**.
 

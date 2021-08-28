@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Erstellen oder Ändern von Bandbreitenrichtlinien, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.
-ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ba24c7f1fa170386e6d74fc34ef99e580d5ac91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332037"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583209"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Erstellen von Bandbreitenrichtlinienprofilen in Skype for Business Server 
  
@@ -46,7 +46,7 @@ Die beispielrichtlinien, die im folgenden Verfahren erstellt wurden, legen Grenz
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Bandbreitenrichtlinienprofile mithilfe Skype for Business Server Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Führen Sie für jedes Bandbreitenrichtlinienprofil, das Sie erstellen möchten, das Cmdlet New-CsNetworkBandwidthPolicyProfile aus. Führen Sie beispielsweise den folgenden Befehl aus:
     
@@ -86,7 +86,7 @@ Die beispielrichtlinien, die im folgenden Verfahren erstellt wurden, legen Grenz
     
 9. Klicken Sie auf **"Videositzungslimit",** und geben Sie dann die maximale Anzahl von KBit/s ein, die für jede einzelne Videositzung zulässig ist.
     
-10. Klicken Sie optional auf **"Beschreibung",** und geben Sie zusätzliche Informationen ein, um dieses Bandbreitenrichtlinienprofil zu beschreiben.
+10. Klicken Sie optional auf **"Beschreibung",** und geben Sie dann zusätzliche Informationen ein, um dieses Bandbreitenrichtlinienprofil zu beschreiben.
     
 11. Klicken Sie auf **Commit ausführen**.
     

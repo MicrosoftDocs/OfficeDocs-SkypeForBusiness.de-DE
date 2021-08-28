@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: karsmith
 description: Ein Leitfaden für IT-Administratoren zu Insights in Microsoft Teams for Education.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c55733e6175efb4adb02a621210ddc5d78ac9f6
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 76254b414bd282f75a01decc5016e5ae476a0f21
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607842"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 

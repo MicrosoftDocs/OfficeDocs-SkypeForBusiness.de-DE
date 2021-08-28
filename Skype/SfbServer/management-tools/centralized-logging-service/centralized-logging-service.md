@@ -1,5 +1,5 @@
 ---
-title: Zentralisierter Protokollierungsdienst in Skype for Business 2015
+title: Zentraler Protokollierungsdienst in Skype for Business 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,18 +10,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Zusammenfassung: Erfahren Sie mehr über die Dienstkomponenten und Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015.'
-ms.openlocfilehash: 112a8d59637048729afcdf142fc891863365943593ac6ed7b0cd8f8cc84947d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 844492e0dddc5337a208bcf4e82fc8de88302884
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582679"
 ---
-# <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentralisierter Protokollierungsdienst in Skype for Business 2015
+# <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentraler Protokollierungsdienst in Skype for Business 2015
  
 **Zusammenfassung:** Erfahren Sie mehr über die Dienstkomponenten und Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015.
   
@@ -44,7 +44,7 @@ Der zentralisierte Protokollierungsdienst kann:
     
   - Definieren Sie den Bereich für die Protokollierungssitzung von den Optionen **"Standort"** (nur zum Ausführen von Protokollierungsaufzeichnungen auf Computern an diesem Standort) oder **"Global"** (zum Ausführen von Protokollierungsaufzeichnungen auf allen Computern in der Bereitstellung).
     
-Der zentralisierte Protokollierungsdienst ist ein leistungsstarkes Problembehandlungstool für große oder kleine Probleme, von der Ursachenanalyse bis hin zu Leistungsproblemen. Alle Beispiele werden mithilfe der Skype for Business Server Verwaltungsshell gezeigt. Hilfe wird für das Befehlszeilentool über das Tool selbst bereitgestellt, aber es gibt einen begrenzten Satz von Funktionen, die Sie über die Befehlszeile ausführen können. Durch die Verwendung Skype for Business Server Verwaltungsshell haben Sie Zugriff auf einen viel größeren und viel konfigurierbareren Satz von Features, sodass dies immer die erste Wahl sein sollte. 
+Der zentralisierte Protokollierungsdienst ist ein leistungsstarkes Problembehandlungstool für große oder kleine Probleme, von der Ursachenanalyse bis hin zu Leistungsproblemen. Alle Beispiele werden mithilfe der Skype for Business Server-Verwaltungsshell gezeigt. Hilfe wird für das Befehlszeilentool über das Tool selbst bereitgestellt, aber es gibt einen begrenzten Satz von Funktionen, die Sie über die Befehlszeile ausführen können. Durch die Verwendung Skype for Business Server Verwaltungsshell haben Sie Zugriff auf einen viel größeren und viel konfigurierbareren Satz von Features, sodass dies immer die erste Wahl sein sollte. 
   
 ## <a name="logging-service-components"></a>Protokollierungsdienstkomponenten
 
@@ -78,7 +78,7 @@ Wenn ein Benutzer eine Protokollsuche anfordert, ermittelt der ClsController, an
 Wenn Sie eine Protokollierungssitzung starten, legen Sie Szenarien fest, die sich auf das Problem beziehen, das Sie beheben möchten. Sie können jederzeit zwei Szenarien gleichzeitig ausführen. Eines dieser beiden Szenarien sollte das Szenario "AlwaysOn" sein. Dieses sollte in Ihrer Bereitstellung immer ausgeführt werden und Informationen von allen Computern, Pools und Komponenten erfassen.
   
 > [!IMPORTANT]
-> Standardmäßig wird das AlwaysOn-Szenario in Ihrer Bereitstellung nicht ausgeführt. Sie müssen das Szenario explizit starten. Nach dem Starten wird es weiterhin ausgeführt, bis es explizit beendet wurde, und der Ausführungsstatus wird durch Neustarts der Computer beibehalten. Ausführliche Informationen zu Start- und Stoppszenarien finden Sie unter Starten oder Beenden der [CLS-Protokollerfassung in Skype for Business Server 2015.](start-or-stop-log-capture.md) 
+> Standardmäßig wird das AlwaysOn-Szenario in Ihrer Bereitstellung nicht ausgeführt. Sie müssen das Szenario explizit starten. Nach dem Starten wird es weiterhin ausgeführt, bis es explizit beendet wurde, und der Ausführungsstatus wird durch Neustarts der Computer beibehalten. Ausführliche Informationen zum Starten und Beenden von Szenarien finden Sie unter Starten oder Beenden der [CLS-Protokollerfassung in Skype for Business Server 2015.](start-or-stop-log-capture.md) 
   
 Wenn ein Problem auftritt, können Sie ein zweites Szenario starten, das sich auf das Problem bezieht. Reproduzieren Sie das Problem, und beenden Sie dann die Protokollierung für das zweite Szenario. Beginnen Sie für das Problem mit der Protokollsuche. Die zusammengefassten Protokolle ergeben eine Protokolldatei, die Nachverfolgungsmeldungen von allen Computern des Standort- oder des globalen Bereichs Ihrer Bereitstellung enthält. Wenn die Suche mehr Daten zurückgibt, als Sie analysieren können (meist Störabstände, bei denen das Rauschen zu hoch ist), führen Sie eine weitere Suche mit enger gesteckten Parametern durch. An diesem Punkt können Sie gegebenenfalls auftretende Muster feststellen, die Ihnen helfen, das Problem genauer einzugrenzen. Letztlich finden Sie nach diversen verfeinerten Suchen Daten, die für das Problem relevant sind und die Hauptursache deutlich machen.
   
@@ -93,7 +93,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>So zeigen Sie die aktuelle Konfiguration des zentralisierten Protokollierungsdiensts an
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
     
@@ -102,7 +102,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
    ```
 
     > [!TIP]
-    > Sie können den Bereich der zurückgegebenen Konfigurationseinstellungen einschränken oder erweitern, indem Sie einen Bereich definieren, z. B.  `-Identity` "Site:Redmond", um nur die CsClsConfiguration für den Standort Redmond zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe an ein anderes cmdlet Windows PowerShell weiterleiten. Geben Sie beispielsweise Folgendes ein, um Details zu den szenarien abzurufen, die in der Konfiguration für den Standort "Redmond" definiert sind: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Sie können den Bereich der zurückgegebenen Konfigurationseinstellungen einschränken oder erweitern, indem Sie einen Bereich definieren, z. B.  `-Identity` "Site:Redmond", um nur die CsClsConfiguration für den Standort Redmond zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe an ein anderes Windows PowerShell Cmdlet weiterleiten. Geben Sie beispielsweise Folgendes ein, um Details zu den szenarien abzurufen, die in der Konfiguration für den Standort "Redmond" definiert sind: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Beispielausgabe von Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Jamaika.
-ms.openlocfilehash: cc8063c9162e7a12c83ac6613d3024c56dfb41a261e2ff21dc0956b950c0ba6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Jamaika.
+ms.openlocfilehash: 5a1ad442ad23aaf6fea64b9822feba536339c679
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607682"
 ---
 # <a name="availability-in-jamaica"></a>Verfügbarkeit in Jamaika
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Jamaika.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Jamaika.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

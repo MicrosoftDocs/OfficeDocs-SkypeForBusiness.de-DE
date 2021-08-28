@@ -15,23 +15,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie die Sprachen der automatischen Audiokonferenz-Telefonkonferenz für eine Audiokonferenznummer in einer Microsoft Teams.
-ms.openlocfilehash: 1238cebfa9be1c37e6754234338273738f06e07a8e495631361cb76fdcbc63cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630057"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Einrichten von automatischen Telefonzentralensprachen für Audiokonferenzen in Microsoft Teams
 
-Die automatische Telefonkonferenz-Telefonkonferenz für Microsoft Teams kann Audioanrufer in einer Reihe verschiedener Sprachen begrüßen, wenn sie an einer Besprechung teilnehmen.
+Die automatische Telefonkonferenz-Telefonkonferenz für Microsoft Teams kann Audioanrufer in einer Reihe unterschiedlicher Sprachen begrüßen, wenn sie an einer Besprechung teilnehmen.
   
 Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die primäre Sprache, die Sie festlegen, wird zuerst verwendet, und die sekundären Sprachen werden von der automatischen Attendant in der von Ihnen ausgewählten Reihenfolge verwendet. 
   
@@ -47,7 +47,7 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die prim�
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).
 
-2. Wählen Sie **in** der Liste eine eigene Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**. Es ist nur möglich, die Sprachen von De dedicated audio conferencing numbers zu ändern. Die **Option** Bearbeiten wird nur angezeigt, wenn eine dedizierte Audiokonferenznummer ausgewählt ist.
+2. Wählen Sie **in der** Liste eine eigene Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**. Es ist nur möglich, die Sprachen von De dedicated audio conferencing numbers zu ändern. Die **Option** Bearbeiten wird nur angezeigt, wenn eine dedizierte Audiokonferenznummer ausgewählt ist.
 
 3. Wählen Sie im Bereich auf der rechten Seite die Standardsprache und beliebige alternative Sprachen aus. 
  

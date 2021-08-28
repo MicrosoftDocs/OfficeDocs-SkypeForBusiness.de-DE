@@ -1,5 +1,5 @@
 ---
-title: Ändern der SIP-Trunkkonfigurationseinstellungen in Skype for Business Server
+title: Skype for Business ServerModify-SIP-Trunkkonfigurationseinstellungen
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert. '
-ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'SIP-Trunkkonfigurationseinstellungen definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem Telefonnetzwerkgateway, einer IP-Nebenstellenanlage (Public Branch Exchange, PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. '
+ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351485"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582729"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Ändern der SIP-Trunkkonfigurationseinstellungen in Skype for Business Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for Business ServerModify-SIP-Trunkkonfigurationseinstellungen
 
 Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert. Mit diesen Einstellungen kann Folgendes angegeben werden:
 
@@ -26,7 +26,7 @@ Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktione
 - Die Bedingungen, unter denen RTCP-Pakete (Real-Time Transport Control-Protokoll) gesendet werden.
 - Ob für jeden Trunk die SRTP-Verschlüsselung (Secure Real-Time-Protokoll) erforderlich ist.
 
-Wenn Sie Skype for Business Server installieren, wird eine globale Auflistung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Jede dieser Auflistungen kann später entweder über die Skype for Business Server Systemsteuerung oder Windows PowerShell geändert werden.
+Wenn Sie Skype for Business Server installieren, wird eine globale Sammlung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Jede dieser Auflistungen kann später entweder über die Skype for Business Server Systemsteuerung oder Windows PowerShell geändert werden.
 
 Beim Ändern der SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Server-Systemsteuerung stehen Ihnen die folgenden Optionen zur Verfügung:
 

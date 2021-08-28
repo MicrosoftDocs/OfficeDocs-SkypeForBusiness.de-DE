@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Prozess zum Überprüfen der Koexistenz des Pilotpools mit dem Legacypool.
-ms.openlocfilehash: f9a3fa8a9716d880b8fa2381fd5cafe88509504c2c142ebd5da5c5ab43667cf1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d2e6adad0f3297260137df0abcd082b750f0345
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606814"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Überprüfen der Koexistenz des Pilotpools mit dem Legacypool
 
@@ -24,7 +24,7 @@ ms.locfileid: "54341121"
   
 [Überprüfen, ob Skype for Business Server 2019-Dienste gestartet wurden](#sectionSection0)
   
-[Öffnen der systemsteuerung Skype for Business Server 2019](#sectionSection1)
+[Öffnen der Skype for Business Server 2019-Systemsteuerung](#sectionSection1)
   
 [Versuchen Sie nicht, die Topologie im älteren Topologie-Generator zu öffnen.](#sectionSection2)
   
@@ -59,7 +59,7 @@ Nach der Bereitstellung des Pilotpools müssen Sie die Koexistenz der beiden Poo
 Öffnen Sie auf dem Front-End-Server in Ihrer Skype for Business Server 2019-Bereitstellung die Systemsteuerung Skype for Business Server 2019, und wählen Sie den Legacypool aus. Wiederholen Sie die Prozedur, um den Skype for Business Server 2019-Pool zu öffnen.
   
 > [!IMPORTANT]
-> On Skype for Business Server 2019, you must upgrade Silverlight to Silverlight version 5 to using the Skype for Business Server Control Panel. 
+> Auf Skype for Business Server 2019 müssen Sie Silverlight auf Silverlight Version 5 aktualisieren, bevor Sie die Skype for Business Server Systemsteuerung verwenden. 
   
 Diese Topologie umfasst jetzt Legacy- und Skype for Business Server 2019-Serverrollen. 
 
@@ -67,7 +67,7 @@ Diese Topologie umfasst jetzt Legacy- und Skype for Business Server 2019-Serverr
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Versuchen Sie nicht, die Topologie im älteren Topologie-Generator zu öffnen.
 <a name="sectionSection2"> </a>
 
-Die Topologie kann nur mit Skype for Business Server Topologie-Generator 2019 angezeigt werden. Der Skype for Business Server 2019-Topologie-Generator muss verwendet werden, um Pools für Skype for Business Server 2019 und die Legacyinstallation zu erstellen.
+Die Topologie kann nur mit Skype for Business Server 2019-Topologie-Generator angezeigt werden. Der Skype for Business Server 2019-Topologie-Generator muss verwendet werden, um Pools für Skype for Business Server 2019 und die Legacyinstallation zu erstellen.
 
   
 

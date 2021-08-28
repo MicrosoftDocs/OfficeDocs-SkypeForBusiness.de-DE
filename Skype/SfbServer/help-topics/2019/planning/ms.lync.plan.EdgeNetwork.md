@@ -12,18 +12,18 @@ ms.custom:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die folgenden Komponenten bilden die Edgetopologie des Umkreisnetzwerks. Sofern nicht anders angegeben, sind die Komponenten Teil von Edgeserverszenarien in Skype for Business Server und befinden sich im Umkreisnetzwerk. Edgekomponenten umfassen Folgendes:'
-ms.openlocfilehash: f3f9f3bbdbfb385229ffc221de38462b0dccd182654f8625784531796a2efc0b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd53b8526ffa2610ad279584464ba3b77e155b34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583009"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a>Edgenetzwerk (Planungstool) in Skype for Business 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a>Edgenetzwerk (Planning Tool) in Skype for Business 
  
 Die meisten Edgekomponenten werden in einem Umkreisnetzwerk bereitgestellt. Die folgenden Komponenten bilden die Edgetopologie des Umkreisnetzwerks. Sofern nicht anders angegeben, sind die Komponenten Teil von [Edgeserverszenarien in Skype for Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) und befinden sich im Umkreisnetzwerk. Edgekomponenten umfassen Folgendes:
   
